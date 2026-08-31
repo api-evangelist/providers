@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 3
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 94
   slug: bullish-agentic-access
   summary_line: 94 operations · 29 acting · 3 human-in-the-loop
-api_count: 32
+api_count: 1
 apis:
 - description: A separately published OpenAPI document carrying the 15 operations Bullish has deprecated or decommissioned — the v1 order create/cancel/get surface, v1 AMM instructions, v1 spot account reads and the
   name: Bullish Deprecated Features and APIs
@@ -226,6 +226,10 @@ collections:
   name: Bullish Trading Transfer API
   slug: open-bullish-transfer-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bullish-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -401,26 +405,31 @@ overview: 'Bullish publishes 30 APIs on the [APIs.io](https://apis.io/) network,
   The Bullish catalog on APIs.io includes 6 event-driven AsyncAPI specifications.
 
 
-  Bullish''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, pricing, and 32 more developer resources.'
+  Bullish''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, pricing, and 33 more developer resources.'
 random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Bullish Rate Limits
   slug: bullish-rate-limits
 score:
-  band: exemplar
-  composite: 67.3
-  delta: 0.0
+  band: strong
+  composite: 66.0
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.2
     developer_ergonomics: 73.2
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 84.2
-  previous_composite: 67.3
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -437,8 +446,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 73.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bullish/refs/heads/main/screenshots/bullish-2026-08-17T080736.png
 security:

@@ -23,13 +23,28 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: OpenAI-compatible inference API for CompactifAI's compressed and third-party large language models. Covers chat completions, text completions, the Responses API, batch jobs, file upload, model discove
-  name: CompactifAI API
-  slug: multiverse-computing-compactifai-api
-artifact_total: 5
+- description: The audio API from Multiverse Computing — 1 operation(s) for audio.
+  name: Multiverse Computing Audio API
+  slug: multiverse-computing-audio-api
+- description: The batches API from Multiverse Computing — 3 operation(s) for batches.
+  name: Multiverse Computing Batches API
+  slug: multiverse-computing-batches-api
+- description: The completions API from Multiverse Computing — 2 operation(s) for completions.
+  name: Multiverse Computing Completions API
+  slug: multiverse-computing-completions-api
+- description: The files API from Multiverse Computing — 2 operation(s) for files.
+  name: Multiverse Computing Files API
+  slug: multiverse-computing-files-api
+- description: The Model info API from Multiverse Computing — 2 operation(s) for model info.
+  name: Multiverse Computing Model info API
+  slug: multiverse-computing-model-info-api
+- description: The responses API from Multiverse Computing — 2 operation(s) for responses.
+  name: Multiverse Computing Responses API
+  slug: multiverse-computing-responses-api
+artifact_total: 10
 common:
 - group: auth
   title: ''
@@ -163,7 +178,7 @@ modified: '2026-08-26'
 name: Multiverse Computing
 nav: Providers
 network: true
-overview: 'Multiverse Computing publishes 1 API on the [APIs.io](https://apis.io/) network: CompactifAI API. Tagged areas include Artificial Intelligence, Machine Learning, LLM Inference, Model Compression, and Quantum Computing.
+overview: 'Multiverse Computing publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Batches API, Completions API, and 3 more. Tagged areas include Artificial Intelligence, Machine-Learning, LLM Inference, Model Compression, and Quantum Computing.
 
 
   Multiverse Computing''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
@@ -178,16 +193,23 @@ rate_limits:
   slug: multiverse-computing-rate-limits
 score:
   band: developing
-  composite: 51.6
+  composite: 50.5
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
-    contract_governance: 16.7
-    contract_quality: 59.9
+    contract_governance: 4.5
+    contract_quality: 58.5
     developer_ergonomics: 58.9
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 31.6
+  previous_composite: 51.0
   provenance:
     conformance: derived
     contracts:
@@ -197,8 +219,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Multiverse Computing Authentication
@@ -211,12 +234,12 @@ security:
 slug: multiverse-computing
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - LLM Inference
 - Model Compression
 - Quantum Computing
-- Speech to Text
-- OpenAI Compatible
+- Speech-to-Text
+- OpenAI-Compatible
 - Developer Tools
 - Spain
 - Company

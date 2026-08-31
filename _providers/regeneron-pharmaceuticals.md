@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 9
 common:
@@ -94,16 +94,16 @@ jsonld:
   slug: regeneron-pharmaceuticals-context
 layout: provider
 modified: '2026-05-02'
-name: regeneron-pharmaceuticals
+name: Regeneron Pharmaceuticals
 nav: Providers
 network: true
-overview: 'regeneron-pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Biotechnology, Genomics, Bioinformatics, and Drug Discovery.
+overview: 'Regeneron Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Biotechnology, Genomics, Bioinformatics, and Drug Discovery.
 
 
-  The regeneron-pharmaceuticals catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Regeneron Pharmaceuticals catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  regeneron-pharmaceuticals'' developer surface includes GitHub presence and 6 more developer resources.'
+  Regeneron Pharmaceuticals'' developer surface includes GitHub presence and 6 more developer resources.'
 press:
 - date: '2026-05-25'
   title: Teaching Machines to do New Tricks | Regeneron Stories
@@ -124,7 +124,7 @@ random_paper: 17
 rules:
 - effective_rule_count: 5
   extends: []
-  name: regeneron-pharmaceuticals API Rules
+  name: Regeneron Pharmaceuticals API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -135,6 +135,11 @@ rules:
 score:
   band: minimal
   composite: 10.1
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -152,8 +157,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regeneron-pharmaceuticals/refs/heads/main/screenshots/regeneron-pharmaceuticals-2026-06-20T192815.png
 security:

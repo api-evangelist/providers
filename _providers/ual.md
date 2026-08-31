@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 5
   slug: ual-agentic-access
   summary_line: 5 operations · 3 acting
-api_count: 3
+api_count: 2
 apis:
 - description: The Authentication API from Ualá — 1 operation(s) for authentication.
   name: Ualá Authentication API
@@ -52,7 +52,10 @@ apis:
 - description: Refunds of approved orders
   name: Ualá Refunds API
   slug: ual-refunds-api
-artifact_total: 12
+- description: The Ualá Bis API Cobros Online V2 API from Ualá — 0 operation(s) for ualá bis api cobros online v2.
+  name: Ualá Ualá Bis API Cobros Online V2 API
+  slug: ual-ual-bis-api-cobros-online-v2-api
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Ual Webhooks
@@ -203,7 +206,7 @@ modified: '2026-07-21'
 name: Ualá
 nav: Providers
 network: true
-overview: 'Ualá publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Orders API, and Refunds API. Tagged areas include Company, Fintech, Payments, Banking, and Neobank.
+overview: 'Ualá publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Orders API, Refunds API, and 1 more. Tagged areas include Company, Fintech, Payments, Banking, and Neobank.
 
 
   The Ualá catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -212,19 +215,24 @@ overview: 'Ualá publishes 3 APIs on the [APIs.io](https://apis.io/) network: Au
   Ualá''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 23 more developer resources.'
 random_paper: 7
 score:
-  band: developing
-  composite: 40.1
-  delta: 0.0
+  band: thin
+  composite: 38.0
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
-    contract_quality: 21.7
+    contract_governance: 4.5
+    contract_quality: 21.4
     developer_ergonomics: 70.8
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 40.1
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -241,8 +249,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/screenshots/ual-2026-08-17T082515.png
 security:

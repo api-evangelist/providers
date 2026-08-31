@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -41,123 +41,306 @@ agentic_access:
   operation_count: 250
   slug: dtn-agentic-access
   summary_line: 250 operations · 17 acting
-api_count: 38
+api_count: 37
 apis:
-- description: DTN Weather Conditions API delivers worldwide forecast, current condition, and historical weather data. The API leverages cloud technology and global forecast models to provide validated, continuously
-  name: DTN Weather Conditions API
-  slug: dtn-weather-conditions-api
-- description: DTN Point Observation API delivers high-quality weather observation data from weather stations and locations worldwide. Supports near real-time and up to 30 years of historical weather observations. A
-  name: DTN Point Observation API
-  slug: dtn-point-observation-api
 - description: DTN Point Forecast API delivers high-quality weather forecasts for specified locations. Provides hourly and daily forecast data for agriculture, aviation, shipping, and utilities use cases. Uses the s
   name: DTN Point Forecast API
   slug: dtn-point-forecast-api
-- description: DTN Radar Precipitation Forecast API provides short-term precipitation forecasts derived from radar data. Supports agricultural, utility, and renewable energy operational planning. Uses OAuth2 authent
-  name: DTN Radar Precipitation Forecast API
-  slug: dtn-radar-precipitation-forecast-api
-- description: DTN provides real-time and historical commodity price data, grain and livestock prices, planting condition indices, and market analysis APIs for precision agriculture and commodity trading workflows.
-  name: DTN Commodity & Market Data API
-  slug: dtn-commodity-data-api
-- description: The DTN Agency Bulletin WebSocket API (ABA WebSocket) delivers real-time weather bulletins over a persistent connection for instant updates.
-  name: DTN ABA WebSocket
-  slug: agency-bulletin-websocket-api
-- description: The DTN Agency Bulletin API (ABA) provides access to the latest weather bulletins published by the national meteorological agencies of different countries in a unified format.
-  name: DTN Agency Bulletin API
-  slug: dtn-agency-bulletin-api
-- description: Access the latest global weather bulletins. CAP delivery of the DTN alerts and national agencies bulletins.
-  name: DTN Alerting API
-  slug: dtn-alerting-api
-- description: DTN Astronomical API is an all-in-one solution to get astronomical data. Currently it returns sun and moon data.
-  name: DTN Astronomical API
-  slug: dtn-astronomical-api
-- description: This service empowers consumers with accurate, global, location-specific climatological data to help inform decisions, optimize operations, and develop strategies based on historical environmental con
-  name: DTN Climatology API
-  slug: dtn-climatology-api
-- description: Internal dev-portal API
-  name: DTN Developer Portal API
-  slug: dtn-developer-portal-api
-- description: API for utility companies to access EEI forecasts that translate weather data into actionable risk levels. Features multi-parameter monitoring, seasonal threshold switching, and customer-specific conf
-  name: DTN Energy Event Index API
-  slug: dtn-energy-event-index-api
-- description: Provides data for EDR turbulence (including Nowcast), icing & HIWC, thunderstorms, ozone, jet stream axis, space weather, and QVA.
-  name: DTN Enhanced Flight Hazards API
-  slug: dtn-enhanced-flight-hazards-api
-- description: The DTN Lightning API provides you access to worldwide near real-time and historical lightning data.
+- description: The Account API from DTN — 2 operation(s) for account.
+  name: DTN Account API
+  slug: dtn-account-api
+- description: The Agency API from DTN — 5 operation(s) for agency.
+  name: DTN Agency API
+  slug: dtn-agency-api
+- description: The alerts API from DTN — 1 operation(s) for alerts.
+  name: DTN Alerts API
+  slug: dtn-alerts-api
+- description: The API Endpoints API from DTN — 4 operation(s) for api endpoints.
+  name: DTN API Endpoints API
+  slug: dtn-api-endpoints-api
+- description: Endpoints for the api/catalog resources
+  name: DTN AP Is API
+  slug: dtn-apis-api
+- description: The Archive API from DTN — 2 operation(s) for archive.
+  name: DTN Archive API
+  slug: dtn-archive-api
+- description: Atmospheric Soundings
+  name: DTN Atmospheric Soundings API
+  slug: dtn-atmospheric-soundings-api
+- description: The Auth API from DTN — 1 operation(s) for auth.
+  name: DTN Auth API
+  slug: dtn-auth-api
+- description: Returns layers and layer groups.
+  name: DTN Catalog API
+  slug: dtn-catalog-api
+- description: The Codes API from DTN — 3 operation(s) for codes.
+  name: DTN Codes API
+  slug: dtn-codes-api
+- description: On demand Convective SIGMETs via API
+  name: DTN Convective SIGMET API
+  slug: dtn-convective-sigmet-api
+- description: The Coverage Daily API from DTN — 1 operation(s) for coverage daily.
+  name: DTN Coverage Daily API
+  slug: dtn-coverage-daily-api
+- description: Current weather observations and conditions
+  name: DTN Current Conditions API
+  slug: dtn-current-conditions-api
+- description: Consists of http methods for managing customer vessel subscriptions.
+  name: DTN Customer Vessel Subscription API
+  slug: dtn-customervesselsubscription-api
+- description: Cacheable route geometry endpoints (Mapbox Directions API)
+  name: DTN Directions API
+  slug: dtn-directions-api
+- description: The DTN API from DTN — 3 operation(s) for dtn.
+  name: DTN DTN API
+  slug: dtn-dtn-api
+- description: The DTN Tropical Cyclone API API from DTN — 1 operation(s) for dtn tropical cyclone api.
+  name: DTN DTN Tropical Cyclone API
+  slug: dtn-dtn-tropical-cyclone-api-api
+- description: The the Agency Bulletin API (ABA) is designed around two major endpoints, each offering unique functionalities tailored to your diverse weather bulletin data needs. Whether you require forecast and hi
+  name: DTN Endpoints API
+  slug: dtn-endpoints-api
+- description: The Event Geojson API from DTN — 1 operation(s) for event geojson.
+  name: DTN Event Geojson API
+  slug: dtn-event-geojson-api
+- description: The Event Predictions API from DTN — 1 operation(s) for event predictions.
+  name: DTN Event Predictions API
+  slug: dtn-event-predictions-api
+- description: Excessive Rainfall Outlook
+  name: DTN Excessive Rainfall Outlook API
+  slug: dtn-excessive-rainfall-outlook-api
+- description: Weather forecast data (hourly and daily)
+  name: DTN Forecasts API
+  slug: dtn-forecasts-api
+- description: Returns location information or geographic coordinates from a geocoding service. Supports forward and reverse geocoding.
+  name: DTN Geocoder API
+  slug: dtn-geocoder-api
+- description: The Geographic Areas API from DTN — 2 operation(s) for geographic areas.
+  name: DTN Geographic Areas API
+  slug: dtn-geographic-areas-api
+- description: The Get Eei Forecast API from DTN — 2 operation(s) for get eei forecast.
+  name: DTN Get Eei Forecast API
+  slug: dtn-get-eei-forecast-api
+- description: Utility endpoints used by K8s
+  name: DTN Health API
+  slug: dtn-health-api
+- description: The Health Check API from DTN — 1 operation(s) for health check.
+  name: DTN Health Check API
+  slug: dtn-health-check-api
+- description: The History API from DTN — 4 operation(s) for history.
+  name: DTN History API
+  slug: dtn-history-api
+- description: On demand Hiwc via API
+  name: DTN Hiwc API
+  slug: dtn-hiwc-api
+- description: The Hourly Predictions API from DTN — 1 operation(s) for hourly predictions.
+  name: DTN Hourly Predictions API
+  slug: dtn-hourly-predictions-api
+- description: On demand Icing via API
+  name: DTN Icing API
+  slug: dtn-icing-api
+- description: Allows generation of custom tailored map images
+  name: DTN Image API
+  slug: dtn-image-api
+- description: The Information API from DTN — 5 operation(s) for information.
+  name: DTN Information API
+  slug: dtn-information-api
+- description: On demand JetStreamAxis via API
+  name: DTN Jet Stream Axis API
+  slug: dtn-jetstreamaxis-api
+- description: The Land Crop API from DTN — 1 operation(s) for land crop.
+  name: DTN Land Crop API
+  slug: dtn-land-crop-api
+- description: The Land Details API from DTN — 5 operation(s) for land details.
+  name: DTN Land Details API
+  slug: dtn-land-details-api
+- description: The Land Geospatial API from DTN — 2 operation(s) for land geospatial.
+  name: DTN Land Geospatial API
+  slug: dtn-land-geospatial-api
+- description: The Land Search API from DTN — 2 operation(s) for land search.
+  name: DTN Land Search API
+  slug: dtn-land-search-api
+- description: Returns layer legends in either html or image format.
+  name: DTN Legends API
+  slug: dtn-legends-api
+- description: Relates to lightning strike products
   name: DTN Lightning API
   slug: dtn-lightning-api
-- description: The Lightning WebSocket delivers real-time lightning data over a persistent connection for instant updates.
-  name: DTN Lightning WebSocket
-  slug: dtn-lightning-websocket
-- description: METARs are a key piece of information required for flight planning and flight operations. DTN METAR API allows customers to get the data critical to them without extra data not needed.
-  name: DTN METARs API
-  slug: dtn-metars-api
-- description: DTN API for various mapping services.. A wide range of vector and raster map layers.
-  name: DTN Map Tile API
-  slug: dtn-map-tile-api
-- description: The DTN Marine Weather API (MWA) is an all-in-one solution to integrate the DTN high-resolution marine weather data into your systems and decision making processes. Utilizing the latest cloud technolo
-  name: DTN Marine Weather API
-  slug: dtn-marine-weather-api
-- description: The DTN NOTAM API is an all-encompassing solution to retrieve the most current NOTAM from multiple available feeds to avoid duplicate NOTAMS. Many sources publish NOTAMs and push them to others such a
-  name: DTN NOTAMs API
-  slug: dtn-notams-api
-- description: PIREPS are a key piece of information required for flight planning and flight operations. DTN PIREP API allows customers to get the data critical to them without extra data not needed.
-  name: DTN PIREPs API
-  slug: dtn-pireps-api
-- description: DTN is developing the platform to supply road data on OSM segments across North America and Europe, allowing users to request data for a geographic area or specific roadway within the database.
+- description: Local Storm Reports
+  name: DTN Local Storm Reports API
+  slug: dtn-local-storm-reports-api
+- description: Logistics-focused pavement data endpoints
+  name: DTN Logistics API
+  slug: dtn-logistics-api
+- description: Mesoscale Discussions
+  name: DTN Mesoscale Discussions API
+  slug: dtn-mesoscale-discussions-api
+- description: Returns layer metadata such as zoom levels, bounding boxes, etc.
+  name: DTN Metadata API
+  slug: dtn-metadata-api
+- description: On demand METARs via API
+  name: DTN METAR API
+  slug: dtn-metar-api
+- description: World wide NOTAMS available from various sources, FAA SWIM, EAD and others. Using a hierarchy to avoid duplicated NOTAMS
+  name: DTN NOTAM API
+  slug: dtn-notam-api
+- description: On demand Nowcast via API
+  name: DTN Nowcast API
+  slug: dtn-nowcast-api
+- description: Historical weather observation data
+  name: DTN Observations API
+  slug: dtn-observations-api
+- description: The Option Series API from DTN — 1 operation(s) for option series.
+  name: DTN Option Series API
+  slug: dtn-option-series-api
+- description: The Order API from DTN — 1 operation(s) for order.
+  name: DTN Order API
+  slug: dtn-order-api
+- description: The Orders API from DTN — 3 operation(s) for orders.
+  name: DTN Orders API
+  slug: dtn-orders-api
+- description: Convective and Fire Outlooks
+  name: DTN Outlooks API
+  slug: dtn-outlooks-api
+- description: On demand Ozone via API
+  name: DTN Ozone API
+  slug: dtn-ozone-api
+- description: The PADD Daily API from DTN — 1 operation(s) for padd daily.
+  name: DTN PADD Daily API
+  slug: dtn-padd-daily-api
+- description: This API offers climatological data for any numerical month and day, including leap day (February 29). It’s possible to aggregate certain parameters over multiple days. To request an aggregation, just
+  name: DTN Parameters API
+  slug: dtn-parameters-api
+- description: Pavement condition data endpoints
   name: DTN Pavement Conditions API
-  slug: pavement-conditions-api
-- description: 'This API caters to a wide range of users, including: Risk managers assessing weather-related operational risks Agricultural planners making decisions under weather uncertainty Energy companies optimiz'
-  name: DTN Probabilistic API
-  slug: dtn-probabilistic-api
-- description: Summarized product volumes by U.S., PADD, Rack City & Terminal
-  name: DTN Refined Fuels Demand
-  slug: dtn-refined-fuels-demand
-- description: DTN’s Renewables API empowers consumers with accurate, global, location-specific environmental data tailored for the renewable energy industry.
-  name: DTN Renewables API
-  slug: dtn-renewables-api
-- description: The DTN Aviation SIGMET/AIRMET API retrieves available SIGMET, Convective SIGMET, SIERRA (visibility) AIRMETs, TANGO (turbulence) AIRMETs, and ZULU (icing) AIRMETs. Each data type has its own endpoint
-  name: DTN SIGMETs/AIRMETs API
-  slug: dtn-sigmets-airmets
-- description: RouteGuard customers can get all the route advices that are sent to their vessels by DTN's route analysts in PDF, RTZ, CSV and JSON format by calling this api endpoint.
-  name: DTN Shipping API
-  slug: dtn-shipping-api
-- description: This API is an all-in-one solution to integrate obtain hourly and daily soil temperature and moisture data valid for a user-defined time range and location. These values not only give estimates of act
-  name: DTN Soil Conditions API
-  slug: dtn-soil-api
-- description: The models are trained using customer provided data to ensure the predictions are tailored to a specific service territory with predictions produced every six (6) hours.
-  name: DTN Storm Impact Analytics
-  slug: dtn-storm-impact-analytics
-- description: The DTN Storm Risk Analytics API delivers AI/ML electricity customers out and weather risk predictions to enable storm event declarations, escalation of emergency preparedness plans, mobilization of r
-  name: DTN Storm Risk Analytics API
-  slug: dtn-storm-risk-analytics-api
-- description: TAFs are a key piece of information required for flight planning and flight operations. DTN TAF API allows customers to get the data critical to them without extra data not needed.
-  name: DTN TAFs API
-  slug: dtn-tafs-api
-- description: DTN's Tropical Cyclone API provides geospatial data for active tropical cyclones, including past tracks, current positions, forecast tracks and error cones, forecast wind radii and swaths, and aircraf
-  name: DTN Tropical Cyclone API
-  slug: dtn-tropical-api
-- description: Websocket API overview. Websocket API summary.
-  name: DTN Websocket API
-  slug: dtn-websocket-api
-- description: Winds Aloft are a key piece of information for flight planning and flight operations. DTN Winds Aloft allows customers to get the data critical to them without extra data.
+  slug: dtn-pavement-conditions-api
+- description: On demand PIREPS via API
+  name: DTN PIREP API
+  slug: dtn-pirep-api
+- description: The Portfolios API from DTN — 2 operation(s) for portfolios.
+  name: DTN Portfolios API
+  slug: dtn-portfolios-api
+- description: List of possible FIR names that may be used with firNames parameter for SIGMET requests via API
+  name: DTN Possible SIGMET FIR names API
+  slug: dtn-possible-sigmet-fir-names-api
+- description: Radar-based precipitation forecasts
+  name: DTN Precipitation API
+  slug: dtn-precipitation-api
+- description: The Predictions API from DTN — 3 operation(s) for predictions.
+  name: DTN Predictions API
+  slug: dtn-predictions-api
+- description: Energy Sales & Marketing Pricing API
+  name: DTN Pricing API
+  slug: dtn-pricing-api
+- description: The Producer Details API from DTN — 2 operation(s) for producer details.
+  name: DTN Producer Details API
+  slug: dtn-producer-details-api
+- description: The Producer Relationships API from DTN — 4 operation(s) for producer relationships.
+  name: DTN Producer Relationships API
+  slug: dtn-producer-relationships-api
+- description: The Producer Search API from DTN — 3 operation(s) for producer search.
+  name: DTN Producer Search API
+  slug: dtn-producer-search-api
+- description: The Quotes API from DTN — 3 operation(s) for quotes.
+  name: DTN Quotes API
+  slug: dtn-quotes-api
+- description: Quantitative Volcanic Ash (QVA) data ΓÇö ash cloud polygons, deterministic and probabilistic ash concentration forecasts, and active volcano listings.
+  name: DTN QVA API
+  slug: dtn-qva-api
+- description: The Rack Daily API from DTN — 1 operation(s) for rack daily.
+  name: DTN Rack Daily API
+  slug: dtn-rack-daily-api
+- description: Relates to NIDS radar products
+  name: DTN Radar Products API
+  slug: dtn-radar-products-api
+- description: The Region API from DTN — 1 operation(s) for region.
+  name: DTN Region API
+  slug: dtn-region-api
+- description: The Segments API from DTN — 2 operation(s) for segments.
+  name: DTN Segments API
+  slug: dtn-segments-api
+- description: Relates to text-based weather products
+  name: DTN Server Health API
+  slug: dtn-server-health-api
+- description: The Service Area Geojson API from DTN — 1 operation(s) for service area geojson.
+  name: DTN Service Area Geojson API
+  slug: dtn-service-area-geojson-api
+- description: On demand Sierra (IFR) AIRMETs via API
+  name: DTN Sierra (IFR) AIRMET API
+  slug: dtn-sierra-ifr-airmet-api
+- description: On demand SIGMETs via API
+  name: DTN SIGMET API
+  slug: dtn-sigmet-api
+- description: The Similar Storms API from DTN — 1 operation(s) for similar storms.
+  name: DTN Similar Storms API
+  slug: dtn-similar-storms-api
+- description: Space Weather Prediction Center (SWPC) NOAA Scales data via API
+  name: DTN Space Weather API
+  slug: dtn-space-weather-api
+- description: Special Weather Statements
+  name: DTN Special Weather Statements API
+  slug: dtn-special-weather-statements-api
+- description: Weather station metadata
+  name: DTN Stations API
+  slug: dtn-stations-api
+- description: The Strikes API from DTN — 1 operation(s) for strikes.
+  name: DTN Strikes API
+  slug: dtn-strikes-api
+- description: Returns layer styles as defined by the MapBox Style Specification.
+  name: DTN Styles API
+  slug: dtn-styles-api
+- description: The Supplier Terminal Monthly Counts API from DTN — 1 operation(s) for supplier terminal monthly counts.
+  name: DTN Supplier Terminal Monthly Counts API
+  slug: dtn-supplier-terminal-monthly-counts-api
+- description: On demand TAFs via API
+  name: DTN TAF API
+  slug: dtn-taf-api
+- description: On demand Tango (Turbulence) AIRMETs via API
+  name: DTN Tango (Turbulence) AIRMET API
+  slug: dtn-tango-turbulence-airmet-api
+- description: On demand Thunderstorms via API
+  name: DTN Thunderstorm API
+  slug: dtn-thunderstorm-api
+- description: 'Returns layer tiles in either raster or vector format. ## Token passing methods <table> <tr> <th></th> <th>Authorization header</td> <th>Token query parameter</td> </tr> <tr> <td><b>Security</b></td> '
+  name: DTN Tiles API
+  slug: dtn-tiles-api
+- description: Returns each timestamp for each of the layers the system has tiles for.
+  name: DTN Timestamps API
+  slug: dtn-timestamps-api
+- description: Returns handlebar templates to be used for displaying tooltips.
+  name: DTN Tooltip templates API
+  slug: dtn-tooltip-templates-api
+- description: Returns tooltips in either application/json or text/html from a certain location. When using the API from a browser, the recommended method is <b>Token query parameter</b> since it delivers higher thr
+  name: DTN Tooltips API
+  slug: dtn-tooltips-api
+- description: Tropical Cyclones
+  name: DTN Tropical Cyclones API
+  slug: dtn-tropical-cyclones-api
+- description: Tropical Events
+  name: DTN Tropical Events API
+  slug: dtn-tropical-events-api
+- description: On demand Turbulence via API
+  name: DTN Turbulence API
+  slug: dtn-turbulence-api
+- description: Energy Sales & Marketing Users API
+  name: DTN Users API
+  slug: dtn-users-api
+- description: Warnings
+  name: DTN Warnings API
+  slug: dtn-warnings-api
+- description: Watches
+  name: DTN Watches API
+  slug: dtn-watches-api
+- description: The Weather Events API from DTN — 1 operation(s) for weather events.
+  name: DTN Weather Events API
+  slug: dtn-weather-events-api
+- description: On demand Winds Aloft data via API
   name: DTN Winds Aloft API
-  slug: dtn-windsaloft-api
-- description: APIs to access & manage your orders from within Digital Commerce
-  name: DTN Digital Commerce Orders
-  slug: digital-commerce-orders
-- description: Energy Sales & Marketing Orders, Pricing and Users Management API
-  name: DTN Energy Sales & Marketing Integrations API
-  slug: energy-digital-commerce-integrations-api
-- description: 'The Farm Intelligence API provides access to DTN''s agricultural datasets through three surfaces: the Producer API for producer discovery and details, the Land API for land search, crop history, and ge'
-  name: DTN Farm Intel API
-  slug: farm-intel-api
-- description: How to request radar and text products from RadarScope servers
-  name: DTN RadarScope API
-  slug: radarscope-radar-products
-- description: DTN Weather Conditions API from DTN — 6 path(s) described in OpenAPI.
-  name: DTN Weather Conditions API
-  slug: dtn-weather-conditions-openapi
-artifact_total: 88
+  slug: dtn-winds-aloft-api
+- description: On demand Zulu (Icing) AIRMETs via API
+  name: DTN Zulu (Icing) AIRMET API
+  slug: dtn-zulu-icing-airmet-api
+artifact_total: 149
 asyncapis:
 - description: Faithful AsyncAPI rendering of DTN's Agency Bulletin WebSocket API, which streams global weather agency bulletins in real time over a WebSocket upgrade (HTTP 101). Derived from the provider's publishe
   name: DTN Agency Bulletin WebSocket API (event surface)
@@ -278,6 +461,10 @@ collections:
   name: DTN Winds Aloft API
   slug: open-dtn-windsaloft-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dtn-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -443,13 +630,13 @@ modified: '2026-07-22'
 name: DTN
 nav: Providers
 network: true
-overview: 'DTN publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Weather Conditions API, Point Observation API, Radar Precipitation Forecast API, and 34 more. Tagged areas include Weather, Agriculture, Energy, Market Data, and Aviation.
+overview: 'DTN publishes 98 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agency API, Alerts API, and 95 more. Tagged areas include Weather, Agriculture, Energy, Market Data, and Aviation.
 
 
   The DTN catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  DTN''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, sandbox, and 28 more developer resources.'
+  DTN''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, sandbox, and 29 more developer resources.'
 plans:
 - name: Dtn Plans Pricing
   plan_count: 2
@@ -477,18 +664,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.0
+  composite: 56.7
+  coverage:
+    artifact_dirs: 28
+    catalog_gap: 59.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 26.5
-    contract_quality: 61.3
+    contract_governance: 14.4
+    contract_quality: 65.8
     developer_ergonomics: 68.5
     discoverability: 75.9
-    governance: 26.5
+    governance: 14.4
     operational_transparency: 36.8
-  previous_composite: 57.0
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -505,8 +697,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/screenshots/dtn-2026-06-20T180300.png
 security:

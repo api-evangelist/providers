@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -33,11 +33,48 @@ agentic_access:
   summary_line: 38 operations · 19 acting
 api_count: 1
 apis:
-- description: The FranklinWH partner API - a unified developer access platform for authorised partners to connect to FranklinWH systems. Thirty-eight operations across a standard namespace (/api-common/) covering s
-  name: FranklinWH API
-  slug: franklinwh-api
-artifact_total: 7
+- description: Token issuance for the FranklinWH partner API.
+  name: Franklin Whole Home Authentication API
+  slug: franklin-whole-home-authentication-api
+- description: Power, energy, telemetry, inventory and historical load data.
+  name: Franklin Whole Home Device Data API
+  slug: franklin-whole-home-device-data-api
+- description: Device inventory, device information and device parameters.
+  name: Franklin Whole Home Devices API
+  slug: franklin-whole-home-devices-api
+- description: Grid-event scheduling and query.
+  name: Franklin Whole Home Grid Events API
+  slug: franklin-whole-home-grid-events-api
+- description: Device grouping and bulk settings applied by group.
+  name: Franklin Whole Home Groups API
+  slug: franklin-whole-home-groups-api
+- description: Audit log of setting changes.
+  name: Franklin Whole Home Modification Records API
+  slug: franklin-whole-home-modification-records-api
+- description: Site records — query, list, modify and delete.
+  name: Franklin Whole Home Sites API
+  slug: franklin-whole-home-sites-api
+- description: Sunrun-specific operations on the /api-sunrun namespace.
+  name: Franklin Whole Home Sunrun API
+  slug: franklin-whole-home-sunrun-api
+- description: Sunrun site asset inventory.
+  name: Franklin Whole Home Sunrun Sites API
+  slug: franklin-whole-home-sunrun-sites-api
+- description: Sunrun energy-management and aPower switch control.
+  name: Franklin Whole Home Sunrun System Setup API
+  slug: franklin-whole-home-sunrun-system-setup-api
+- description: Time-of-use profiles, aPower switch control and smart-circuit settings.
+  name: Franklin Whole Home System Settings API
+  slug: franklin-whole-home-system-settings-api
+- description: Historical device warnings and backup (outage) events.
+  name: Franklin Whole Home Warnings and Events API
+  slug: franklin-whole-home-warnings-and-events-api
+artifact_total: 18
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/franklin-whole-home-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -150,10 +187,10 @@ modified: '2026-08-16'
 name: Franklin Whole Home
 nav: Providers
 network: true
-overview: 'Franklin Whole Home publishes 1 API on the [APIs.io](https://apis.io/) network: FranklinWH API. Tagged areas include Company, Energy, Energy Storage, Home Energy Management, and Solar.
+overview: 'Franklin Whole Home publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Device Data API, Devices API, and 9 more. Tagged areas include Company, Energy, Energy Storage, Home Energy Management, and Solar.
 
 
-  Franklin Whole Home''s developer surface includes API reference, engineering blog, support, documentation, signup flow, authentication, sandbox, and 18 more developer resources.'
+  Franklin Whole Home''s developer surface includes API reference, engineering blog, support, documentation, signup flow, authentication, sandbox, and 19 more developer resources.'
 plans:
 - name: Franklin Whole Home Plans Pricing
   plan_count: 0
@@ -165,18 +202,23 @@ rate_limits:
   slug: franklin-whole-home-rate-limits
 score:
   band: thin
-  composite: 28.9
-  delta: 0.0
+  composite: 27.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 14.3
     developer_ergonomics: 37.5
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 28.9
+  previous_composite: 28.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -193,8 +235,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/franklin-whole-home/refs/heads/main/screenshots/franklin-whole-home-2026-08-17T080936.png
 security:

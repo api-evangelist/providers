@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
 - description: Mustache is a logic-less template syntax available for HTML, config files, source code, and more. Used widely for API client SDK generation, documentation generation, and configuration templating.
@@ -56,6 +56,18 @@ apis:
   slug: yeoman
 artifact_total: 14
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/mustache/mustache/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/mustache/mustache/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/mustache/mustache/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -135,8 +147,13 @@ rules:
   slug: templates-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 18.9
-  delta: 1.9
+  composite: 23.9
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 54.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -145,10 +162,13 @@ score:
     developer_ergonomics: 9.5
     discoverability: 64.8
     governance: 25.0
-    operational_transparency: 13.2
-  previous_composite: 17.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 23.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/templates/refs/heads/main/screenshots/templates-2026-06-20T195055.png
 security:

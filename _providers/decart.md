@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 0
@@ -31,11 +31,8 @@ agentic_access:
   operation_count: 75
   slug: decart-agentic-access
   summary_line: 75 operations · 67 acting
-api_count: 4
+api_count: 2
 apis:
-- description: The Decart REST API at api.decart.ai. Covers the Queue API (submit an asynchronous video job against a Lucy model, poll its status, download the rendered content), the Process API (synchronous image e
-  name: Decart API
-  slug: decart-api
 - description: The realtime video transformation surface. A client opens a WebRTC session (LiveKit-managed transport) against a Lucy realtime model and streams camera or video frames in; the model returns transforme
   name: Decart Realtime API
   slug: decart-realtime-api
@@ -45,7 +42,31 @@ apis:
 - description: 'A hosted, unauthenticated Model Context Protocol server at docs.platform.decart.ai/mcp that exposes the Decart API Platform documentation to agents. Three tools: full-text search across the knowledge '
   name: Decart Documentation MCP Server
   slug: decart-docs-mcp
-artifact_total: 12
+- description: The Client API from Decart — 1 operation(s) for client.
+  name: Decart Client API
+  slug: decart-client-api
+- description: The Files API from Decart — 2 operation(s) for files.
+  name: Decart Files API
+  slug: decart-files-api
+- description: The Generate API from Decart — 4 operation(s) for generate.
+  name: Decart Generate API
+  slug: decart-generate-api
+- description: The Jobs API from Decart — 43 operation(s) for jobs.
+  name: Decart Jobs API
+  slug: decart-jobs-api
+- description: The Models API from Decart — 1 operation(s) for models.
+  name: Decart Models API
+  slug: decart-models-api
+- description: The Realtime API from Decart — 1 operation(s) for realtime.
+  name: Decart Realtime API
+  slug: decart-realtime-api
+- description: The Verify API from Decart — 1 operation(s) for verify.
+  name: Decart Verify API
+  slug: decart-verify-api
+- description: The Watch Stream API from Decart — 1 operation(s) for watch stream.
+  name: Decart Watch Stream API
+  slug: decart-watch-stream-api
+artifact_total: 19
 collections:
 - collection_type: open
   name: Decart API
@@ -238,7 +259,7 @@ modified: '2026-08-01'
 name: Decart
 nav: Providers
 network: true
-overview: 'Decart publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine-Learning, Video, Video Generation, and Video Editing.
+overview: 'Decart publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Realtime API, Client API, Files API, and 6 more. Tagged areas include Artificial Intelligence, Machine-Learning, Video, Video Generation, and Video Editing.
 
 
   Decart''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, pricing, and 36 more developer resources.'
@@ -253,18 +274,23 @@ rate_limits:
   slug: decart-rate-limits
 score:
   band: strong
-  composite: 57.6
-  delta: 0.0
+  composite: 56.0
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
-    contract_quality: 46.9
+    contract_governance: 4.5
+    contract_quality: 48.6
     developer_ergonomics: 75.0
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 57.6
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -275,8 +301,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decart/refs/heads/main/screenshots/decart-2026-08-07T164225.png
 security:

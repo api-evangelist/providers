@@ -19,7 +19,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.3
-  scored_at: '2026-08-26'
+  score: 28.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 107
   slug: twitch-agentic-access
   summary_line: 107 operations · 53 acting
-api_count: 43
+api_count: 6
 apis:
 - description: EventSub is Twitch's webhook-based subscription service for receiving real-time notifications about events on Twitch.
   name: Twitch EventSub
@@ -321,6 +321,10 @@ collections:
   name: Twitch Drops Ads Whispers API
   slug: open-twitch-whispers-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/twitch-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -533,7 +537,7 @@ overview: 'Twitch publishes 42 APIs on the [APIs.io](https://apis.io/) network, 
   The Twitch catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Twitch''s developer surface includes authentication, developer console, engineering blog, GitHub presence, support, changelog, and 29 more developer resources.'
+  Twitch''s developer surface includes authentication, developer console, engineering blog, GitHub presence, support, changelog, and 30 more developer resources.'
 plans:
 - name: Twitch Plans Pricing
   plan_count: 1
@@ -583,18 +587,23 @@ scopes:
   summary_line: 42 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 51.7
-  delta: 6.8
+  composite: 52.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 28.8
-    contract_quality: 68.3
+    contract_quality: 69.9
     developer_ergonomics: 64.3
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 44.9
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     contracts:
@@ -602,9 +611,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twitch/refs/heads/main/screenshots/twitch-2026-06-20T195857.png
 security:
 - kind: authentication

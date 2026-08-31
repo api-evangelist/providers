@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: Chord's hosted Model Context Protocol server — a remote, OAuth-protected, read-only window into a customer's Chord data warehouse. Fourteen documented tools cover schema search, saved views, prior que
@@ -284,7 +284,12 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.6
+  composite: 46.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 38.2
@@ -292,16 +297,16 @@ score:
     contract_governance: 18.2
     contract_quality: 42.7
     developer_ergonomics: 61.9
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 47.6
+  previous_composite: 46.5
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chord-commerce/refs/heads/main/screenshots/chord-commerce-2026-06-20T174322.png
 security:
@@ -329,8 +334,9 @@ tags:
 - Commerce Copilot
 - Solidus
 - Spree
-- Ruby on Rails
+- Ruby On Rails
 - Shopify
+- DTC
 - Direct to Consumer
 website: https://www.chordcommerce.com
 ---

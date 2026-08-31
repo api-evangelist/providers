@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-08-26'
-api_count: 11
+  scored_at: '2026-08-30'
+api_count: 14
 apis:
 - description: The Admin API from Insforge — 54 operation(s) for admin.
   name: Insforge Admin API
@@ -256,7 +256,7 @@ modified: '2026-07-19'
 name: Insforge
 nav: Providers
 network: true
-overview: 'Insforge publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Channels API, Client API, and 8 more. Tagged areas include Company, Backend-as-a-Service, agent-native, Cloud Infrastructure, and Database.
+overview: 'Insforge publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Channels API, Client API, and 8 more. Tagged areas include Company, Backend as a Service, Agent Native, Cloud Infrastructure, and Database.
 
 
   Insforge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 27 more developer resources.'
@@ -268,18 +268,23 @@ scopes:
   summary_line: 11 scopes · authorizationCode/deviceCode
 score:
   band: strong
-  composite: 57.8
-  delta: 1.4
+  composite: 55.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 53.6
     developer_ergonomics: 78.6
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 56.4
+  previous_composite: 55.2
   provenance:
     conformance: derived
     contracts:
@@ -295,8 +300,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/screenshots/insforge-2026-07-25T222527.png
 security:
@@ -315,8 +320,8 @@ security:
 slug: insforge
 tags:
 - Company
-- Backend-as-a-Service
-- agent-native
+- Backend as a Service
+- Agent Native
 - Cloud Infrastructure
 - Database
 - Authentication

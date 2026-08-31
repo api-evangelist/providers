@@ -23,61 +23,70 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-26'
-api_count: 17
+  scored_at: '2026-08-30'
+api_count: 35
 apis:
-- description: Read, create, update and delete creator (publisher) records in the customer's CreatorIQ CRM, plus their linked social accounts, scheduled posts, contacts and campaign relationships.
-  name: CreatorIQ CRM Publishers API
-  slug: creatoriq-crm-publishers-api
-- description: Version 2 of the publishers surface, currently exposing bulk retrieval of linked social accounts for a set of publisher identifiers.
-  name: CreatorIQ CRM Publishers API V2
-  slug: creatoriq-crm-publishers-api-v2
-- description: Create and manage campaigns, campaign publishers and their status, campaign activity, expenses, brands and advertiser information.
-  name: CreatorIQ Campaign APIs
-  slug: creatoriq-campaign-apis
-- description: Version 2 brands surface — list, retrieve and search the brands attached to campaigns.
-  name: CreatorIQ CRM Campaigns API V2
-  slug: creatoriq-crm-campaigns-api-v2
-- description: Asynchronous reporting surface exposing forty report views over campaigns, campaign posts, top influencers, videos, per-network breakdowns, audience data and creator-linked account metrics.
-  name: CreatorIQ Reporting APIs
-  slug: creatoriq-reporting-apis
-- description: Look up social accounts and posts by link or handle across Instagram, TikTok and YouTube, retrieve account history and Instagram stories history.
-  name: CreatorIQ Social Account APIs
-  slug: creatoriq-social-account-apis
-- description: Create, update and delete lists of creators and add or remove publishers from a list.
-  name: CreatorIQ CRM Lists API
-  slug: creatoriq-crm-lists-api
-- description: Create, publish and manage One-Sheets — shareable creator pitch sheets — including adding publishers, comments, approvals and rejections.
-  name: CreatorIQ CRM Onesheets API
-  slug: creatoriq-crm-onesheets-api
-- description: Attach and retrieve notes against CRM entities and their dimensions.
-  name: CreatorIQ CRM Notes API
-  slug: creatoriq-crm-notes-api
-- description: List and retrieve the divisions of a partner account — the tenancy boundary that division-level API keys and webhook subscriptions are scoped to.
-  name: CreatorIQ Divisions APIs
-  slug: creatoriq-divisions-apis
-- description: Manage promo codes, promo-code integrations, connected ecommerce accounts and read ecommerce transactions attributed to creators.
-  name: CreatorIQ Ecommerce APIs
-  slug: creatoriq-ecommerce-apis
-- description: Create, list and manage trackable affiliate links used to attribute traffic and conversions to creators.
-  name: CreatorIQ CRM LinkTracking API
-  slug: creatoriq-crm-linktracking-api
-- description: Define and read global and per-campaign conversion metrics, including metrics bound to individual tracking links.
-  name: CreatorIQ Conversion Metrics API
-  slug: creatoriq-conversion-metrics-api
-- description: Submit posts for brand-safety analysis and retrieve the resulting scoring for a post.
-  name: CreatorIQ SafeIQ Brand Safety API
-  slug: creatoriq-safeiq-brand-safety-api
-- description: Draft brand-safety check endpoint published alongside SafeIQ, with separate prod, stage and dev server entries.
-  name: CreatorIQ Brand Safety (draft)
-  slug: creatoriq-brand-safety-draft
-- description: Read creator payouts and payables, and check the payment-information collection status of creators.
-  name: CreatorIQ Payments API
-  slug: creatoriq-payments-api
-- description: 'Subscribe to, unsubscribe from and list CreatorIQ event subscriptions. Events cover campaign create/delete/latest-post/payout-paid, creator account link/unlink/update/delete/campaign-added, One-Sheet '
-  name: CreatorIQ Webhooks (pub/sub) API
-  slug: creatoriq-webhooks-pubsub-api
-artifact_total: 41
+- description: SafeIQ brand safety timeline API
+  name: CreatorIQ Brand Safety API
+  slug: creatoriq-brand-safety-api
+- description: Brand Safety Public API (draft)
+  name: CreatorIQ Brand Safety API
+  slug: creatoriq-brandsafety-api
+- description: Campaign information
+  name: CreatorIQ Campaign API
+  slug: creatoriq-campaign-api
+- description: Campaign Conversion Metrics
+  name: CreatorIQ Campaign Conversion Metrics API
+  slug: creatoriq-campaign-conversion-metrics-api
+- description: CJ reports
+  name: CreatorIQ CJ API
+  slug: creatoriq-cj-api
+- description: Creator payment-info collection status
+  name: CreatorIQ Creator Payment Info API
+  slug: creatoriq-creator-payment-info-api
+- description: Divisions public API
+  name: CreatorIQ Divisions API
+  slug: creatoriq-divisions-api
+- description: Ecommerce public API
+  name: CreatorIQ Ecommerce API
+  slug: creatoriq-ecommerce-api
+- description: General section of reporting
+  name: CreatorIQ General API
+  slug: creatoriq-general-api
+- description: Global Conversion Metrics Configuration
+  name: CreatorIQ Global Conversion Metrics Configuration API
+  slug: creatoriq-global-conversion-metrics-configuration-api
+- description: LinkTracking public API
+  name: CreatorIQ Link Tracking API
+  slug: creatoriq-linktracking-api
+- description: Lists public API
+  name: CreatorIQ Lists API
+  slug: creatoriq-lists-api
+- description: Notes public API
+  name: CreatorIQ Notes API
+  slug: creatoriq-notes-api
+- description: Onesheets public API
+  name: CreatorIQ Onesheet API
+  slug: creatoriq-onesheet-api
+- description: Creator payables
+  name: CreatorIQ Payables API
+  slug: creatoriq-payables-api
+- description: Creator payouts
+  name: CreatorIQ Payouts API
+  slug: creatoriq-payouts-api
+- description: Publisher public API
+  name: CreatorIQ Publisher API
+  slug: creatoriq-publisher-api
+- description: Reporting
+  name: CreatorIQ Reporting API
+  slug: creatoriq-reporting-api
+- description: Public social API
+  name: CreatorIQ Social API
+  slug: creatoriq-social-api
+- description: Subscription API part
+  name: CreatorIQ Subscription API
+  slug: creatoriq-subscription-api
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Creatoriq Webhooks
@@ -135,6 +144,10 @@ collections:
   name: CreatorIQ Public APIs
   slug: open-creatoriq-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/creatoriq-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -276,13 +289,13 @@ modified: '2026-08-11'
 name: CreatorIQ
 nav: Providers
 network: true
-overview: 'CreatorIQ publishes 17 APIs on the [APIs.io](https://apis.io/) network, including CRM Publishers API, CRM Publishers API V2, Campaign APIs, and 14 more. Tagged areas include Influencer Marketing, Creator Economy, Social-Media, Marketing, and Campaign Management.
+overview: 'CreatorIQ publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Brand Safety API, Campaign API, and 18 more. Tagged areas include influencer-marketing, creator-economy, social-media, Marketing, and campaign-management.
 
 
   The CreatorIQ catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  CreatorIQ''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 26 more developer resources.'
+  CreatorIQ''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 27 more developer resources.'
 plans:
 - name: Creatoriq Plans Pricing
   plan_count: 0
@@ -294,18 +307,23 @@ rate_limits:
   slug: creatoriq-rate-limits
 score:
   band: strong
-  composite: 66.1
+  composite: 64.1
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
-    contract_quality: 70.2
+    contract_governance: 4.5
+    contract_quality: 70.3
     developer_ergonomics: 66.1
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 78.9
-  previous_composite: 66.1
+  previous_composite: 64.1
   provenance:
     conformance: derived
     contracts:
@@ -317,12 +335,18 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creatoriq/refs/heads/main/screenshots/creatoriq-2026-08-17T080838.png
 security:
@@ -344,16 +368,16 @@ security:
   summary_line: ISO/IEC 27001:2022
 slug: creatoriq
 tags:
-- Influencer Marketing
-- Creator Economy
-- Social-Media
+- influencer-marketing
+- creator-economy
+- social-media
 - Marketing
-- Campaign Management
+- campaign-management
 - creator-crm
-- Social Analytics
-- Brand Safety
-- Affiliate Marketing
-- Creator Payments
+- social-analytics
+- brand-safety
+- affiliate-marketing
+- creator-payments
 - E-Commerce
 - Reporting
 - Webhook

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Authenticated Apollo GraphQL API backing the Viso Now agentic computer vision app. Anonymous access is denied (HTTP 403); sign-in is via Google Identity Services with a session credential. GraphQL int
@@ -112,7 +112,12 @@ overview: 'VISO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 8
 score:
   band: emerging
-  composite: 14.6
+  composite: 14.2
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -120,14 +125,14 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 79.6
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 14.6
+  previous_composite: 14.2
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

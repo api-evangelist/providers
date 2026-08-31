@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 46
   slug: flowise-agentic-access
   summary_line: 46 operations · 30 acting
-api_count: 13
+api_count: 1
 apis:
 - description: The assistants API from Flowise — 2 operation(s) for assistants.
   name: Flowise assistants API
@@ -132,6 +132,10 @@ collections:
   name: Flowise APIs
   slug: open-flowise
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/workday/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -287,13 +291,13 @@ modified: '2026-05-24'
 name: Flowise
 nav: Providers
 network: true
-overview: 'Flowise publishes 13 APIs on the [APIs.io](https://apis.io/) network, including assistants API, attachments API, chatflows API, and 10 more. Tagged areas include Agents, Agent Workflows, Artificial Intelligence, Large Language Models, and Low-Code.
+overview: 'Flowise publishes 13 APIs on the [APIs.io](https://apis.io/) network, including assistants API, attachments API, chatflows API, and 10 more. Tagged areas include Agents, Agent Workflows, Artificial Intelligence, Large Language Models, and Low Code.
 
 
   The Flowise catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Flowise''s developer surface includes authentication, documentation, GitHub presence, pricing, signup flow, YouTube channel, and 18 more developer resources.'
+  Flowise''s developer surface includes authentication, documentation, GitHub presence, pricing, signup flow, YouTube channel, and 19 more developer resources.'
 plans:
 - name: Flowise Plans Pricing
   plan_count: 4
@@ -327,15 +331,20 @@ rules:
   slug: flowise-rules
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 47.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 13.6
     contract_quality: 63.2
     developer_ergonomics: 31.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 36.8
   previous_composite: 47.5
@@ -346,8 +355,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowise/refs/heads/main/screenshots/flowise-2026-06-20T181334.png
 security:
@@ -365,7 +374,7 @@ tags:
 - Agent Workflows
 - Artificial Intelligence
 - Large Language Models
-- Low-Code
+- Low Code
 - Visual Builder
 - LangChain
 - RAG

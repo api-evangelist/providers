@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,21 +31,39 @@ agentic_access:
   operation_count: 27
   slug: landgate-agentic-access
   summary_line: 27 operations
-api_count: 4
+api_count: 10
 apis:
-- description: The public tier of Landgate's Shared Location Information Platform (SLIP), served as an Esri ArcGIS Server 12.1 REST services directory. Confirmed anonymously reachable on 2026-07-26 with HTTP 200 and
-  name: SLIP Public Services (ArcGIS REST)
-  slug: slip-public-arcgis-rest-services
-- description: OGC-standard web services fronting the same SLIP public data. A WMS 1.3.0 GetCapabilities document (56 layers) and a WFS 2.0.0 GetCapabilities document (38 feature types) were both retrieved anonymous
-  name: SLIP Public OGC Web Services (WMS / WFS)
-  slug: slip-public-ogc-services
-- description: Landgate leads implementation of the WA Whole of Government Open Data Policy and operates data.wa.gov.au, whose catalogue runs CKAN with the standard /api/3/action surface exposed anonymously. Confirm
-  name: Data WA CKAN Action API
-  slug: data-wa-ckan-action-api
 - description: Landgate's customer identity provider, running PingFederate. The OpenID Connect discovery document is served anonymously (HTTP 200, 2026-07-26) at /.well-known/openid-configuration and is saved verbat
   name: MyLandgate OpenID Connect / OAuth 2.0 (PingFederate)
   slug: mylandgate-openid-connect
-artifact_total: 15
+- description: Dataset (package) discovery and retrieval
+  name: Landgate Datasets API
+  slug: landgate-datasets-api
+- description: Autocomplete, resource search and the DCAT catalog
+  name: Landgate Discovery API
+  slug: landgate-discovery-api
+- description: Publishing organizations and groups
+  name: Landgate Organizations API
+  slug: landgate-organizations-api
+- description: Feature query, identify and image export
+  name: Landgate Query API
+  slug: landgate-query-api
+- description: Server-level information and the services directory
+  name: Landgate Server API
+  slug: landgate-server-api
+- description: Map service and layer metadata
+  name: Landgate Services API
+  slug: landgate-services-api
+- description: Catalogue-level status and reference lists
+  name: Landgate Site API
+  slug: landgate-site-api
+- description: OGC Web Feature Service 2.0.0
+  name: Landgate WFS API
+  slug: landgate-wfs-api
+- description: OGC Web Map Service 1.3.0
+  name: Landgate WMS API
+  slug: landgate-wms-api
+artifact_total: 21
 collections:
 - collection_type: open
   name: Data WA CKAN Action API (operated by Landgate)
@@ -66,6 +84,18 @@ collections:
   name: API Collection
   slug: open-landgate-slip-public-services-folder
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/landgate-slip-public-arcgis-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/landgate-slip-public-ogc-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/landgate-data-wa-ckan-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -199,10 +229,10 @@ modified: '2026-07-26'
 name: Landgate
 nav: Providers
 network: true
-overview: 'Landgate publishes 3 APIs on the [APIs.io](https://apis.io/) network: SLIP Public Services (ArcGIS REST), SLIP Public OGC Web Services (WMS / WFS), and Data WA CKAN Action API. Tagged areas include Real-Estate, Australia, Land Registry, Title, and Valuation.
+overview: 'Landgate publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Datasets API, Discovery API, Organizations API, and 6 more. Tagged areas include Real-Estate, Australia, Land Registry, Title, and Valuation.
 
 
-  Landgate''s developer surface includes documentation, pricing, support, developer portal, authentication, changelog, engineering blog, and 23 more developer resources.'
+  Landgate''s developer surface includes documentation, pricing, support, developer portal, authentication, changelog, engineering blog, and 26 more developer resources.'
 random_paper: 13
 scopes:
 - name: Landgate Scopes
@@ -211,18 +241,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.3
-  delta: 1.4
+  composite: 49.4
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
-    contract_quality: 50.6
+    contract_governance: 4.5
+    contract_quality: 48.7
     developer_ergonomics: 47.0
     discoverability: 85.2
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 49.9
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,8 +274,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 79.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landgate/refs/heads/main/screenshots/landgate-2026-07-27T125338.png
 security:

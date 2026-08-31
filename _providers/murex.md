@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 49
   slug: murex-agentic-access
   summary_line: 49 operations · 6 acting
-api_count: 24
+api_count: 5
 apis:
 - description: Comprehensive capital markets platform providing trading, risk management, and post-trade operations across all asset classes.
   name: Murex MX.3 Platform
@@ -206,6 +206,10 @@ collections:
   name: Murex MX.3 Market Data Accounting Volatility API
   slug: open-murex-volatility-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/murex-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -276,7 +280,7 @@ overview: 'Murex publishes 23 APIs on the [APIs.io](https://apis.io/) network, i
   The Murex catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Murex''s developer surface includes authentication, support, engineering blog, and 7 more developer resources.'
+  Murex''s developer surface includes authentication, support, engineering blog, and 8 more developer resources.'
 plans:
 - name: Murex Plans Pricing
   plan_count: 3
@@ -300,7 +304,12 @@ rules:
 score:
   band: thin
   composite: 31.0
-  delta: -0.9
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 59.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -310,7 +319,7 @@ score:
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 31.9
+  previous_composite: 31.0
   provenance:
     agentic_access: derived
     contracts:
@@ -324,8 +333,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/screenshots/murex-2026-06-20T185859.png
 security:

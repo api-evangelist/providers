@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 6
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 195
   slug: btcpay-agentic-access
   summary_line: 195 operations · 102 acting · 6 human-in-the-loop
-api_count: 31
+api_count: 1
 apis:
 - description: API Key operations
   name: BTCPay Server API Keys API
@@ -338,19 +338,27 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 score:
-  band: thin
-  composite: 36.0
-  delta: 2.9
+  band: developing
+  composite: 39.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 65.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 15.2
     contract_quality: 55.3
     developer_ergonomics: 28.6
-    discoverability: 50.0
+    discoverability: 63.0
     governance: 15.2
     operational_transparency: 36.8
-  previous_composite: 33.1
+  open_source:
+    applies: true
+    score: 60.0
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -364,8 +372,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/btcpay/refs/heads/main/screenshots/btcpay-2026-06-20T173732.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: Access index constituent data, weights, analytics, total returns, and historical data for Bloomberg's family of fixed income, equity, and multi-asset indices via BLPAPI and Data License.
@@ -47,6 +47,10 @@ apis:
   slug: galaxy-crypto-index
 artifact_total: 17
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -92,14 +96,14 @@ finops:
   slug: bloomberg-indices-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-indices.png
 layout: provider
-modified: '2026-04-21'
+modified: '2026-08-27'
 name: Bloomberg Indices
 nav: Providers
 network: true
-overview: 'Bloomberg Indices publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Indices, Fixed Income, Equity, Commodities, and Benchmarks.
+overview: 'Bloomberg Indices publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Indices, Fixed Income, Equity, Commodities, and Benchmark.
 
 
-  Bloomberg Indices'' developer surface includes developer portal, documentation, support, and 3 more developer resources.'
+  Bloomberg Indices'' developer surface includes developer portal, documentation, support, and 4 more developer resources.'
 plans:
 - name: Bloomberg Indices Plans Pricing
   plan_count: 3
@@ -112,6 +116,11 @@ rate_limits:
 score:
   band: emerging
   composite: 19.6
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -123,8 +132,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 19.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-indices/refs/heads/main/screenshots/bloomberg-indices-2026-07-25T203402.png
 security:
@@ -138,7 +147,7 @@ tags:
 - Fixed Income
 - Equity
 - Commodities
-- Benchmarks
+- Benchmark
 - Global Aggregate
 - Bloomberg
 use_cases:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 22
   slug: sapien-agentic-access
   summary_line: 22 operations · 12 acting · 1 human-in-the-loop
-api_count: 5
+api_count: 1
 apis:
 - description: The Datapoints API from Sapien — 1 operation(s) for datapoints.
   name: Sapien Datapoints API
@@ -189,17 +189,22 @@ overview: 'Sapien publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   Sapien''s developer surface includes authentication, documentation, getting-started guide, engineering blog, signup flow, and 18 more developer resources.'
 random_paper: 10
 score:
-  band: developing
-  composite: 41.1
-  delta: 1.5
+  band: thin
+  composite: 39.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 48.8
     developer_ergonomics: 54.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 7.9
   previous_composite: 39.6
   provenance:
@@ -212,8 +217,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -231,7 +236,7 @@ tags:
 - Data Quality
 - Data Labeling
 - Machine-Learning
-- Human-in-the-Loop
+- Human in the Loop
 - Attestation
 - Blockchain
 - Consensus

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: The Sunset HTTP header field (RFC 8594) communicates the deprecation timeline of API endpoints to consumers. The header value is an HTTP-date timestamp indicating when a URI is expected to become unre
@@ -108,7 +108,12 @@ rules:
 score:
   band: emerging
   composite: 15.9
-  delta: 1.9
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 62.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -118,9 +123,9 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 14.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 15.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sunset-header/refs/heads/main/screenshots/sunset-header-2026-06-20T194702.png
 security:

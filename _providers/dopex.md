@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 20
   slug: dopex-agentic-access
   summary_line: 20 operations
-api_count: 10
+api_count: 1
 apis:
 - description: REST API for liquidity providers participating in Dopex CLAMM vaults. Exposes endpoints to prepare deposit transaction calldata, query current LP positions for a given wallet address, retrieve deposit
   name: Dopex LP Management API
@@ -237,18 +237,23 @@ rules:
   slug: dopex-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.5
-  delta: 2.1
+  composite: 29.9
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 66.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 42.3
     developer_ergonomics: 16.7
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 28.4
+  previous_composite: 30.5
   provenance:
     agentic_access: derived
     contracts:
@@ -256,8 +261,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dopex/refs/heads/main/screenshots/dopex-2026-06-20T180154.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Restricted REST API for approved partners covering restaurant content, availability, reservations, and CRM. Access is granted through the OpenTable Partner Portal under contractual agreement.
@@ -164,7 +164,12 @@ rate_limits:
 score:
   band: emerging
   composite: 23.2
-  delta: 8.3
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -174,10 +179,10 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 14.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  previous_composite: 23.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentable/refs/heads/main/screenshots/opentable-2026-06-20T191050.png
 security:
 - kind: domain-security

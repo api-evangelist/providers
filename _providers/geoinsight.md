@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,12 +31,36 @@ agentic_access:
   operation_count: 14
   slug: geoinsight-agentic-access
   summary_line: 14 operations
-api_count: 1
+api_count: 2
 apis:
-- description: 'Standards-compliant OGC API - Discrete Global Grid Systems endpoint exposing the GeoInsight Spatial Token store for zone-based queries. Fourteen read operations across four resource families: a landin'
-  name: OGC API - DGGS
-  slug: ogc-api-dggs
-artifact_total: 6
+- description: The Collection ID API from GeoInsight — 1 operation(s) for collection id.
+  name: GeoInsight Collection ID API
+  slug: geoinsight-collection-id-api
+- description: The Collections API from GeoInsight — 1 operation(s) for collections.
+  name: GeoInsight Collections API
+  slug: geoinsight-collections-api
+- description: The Data API from GeoInsight — 1 operation(s) for data.
+  name: GeoInsight Data API
+  slug: geoinsight-data-api
+- description: The DGGRS ID API from GeoInsight — 2 operation(s) for dggrs id.
+  name: GeoInsight DGGRS ID API
+  slug: geoinsight-dggrs-id-api
+- description: The DGGS API from GeoInsight — 2 operation(s) for dggs.
+  name: GeoInsight DGGS API
+  slug: geoinsight-dggs-api
+- description: The Items API from GeoInsight — 2 operation(s) for items.
+  name: GeoInsight Items API
+  slug: geoinsight-items-api
+- description: The root API from GeoInsight — 1 operation(s) for root.
+  name: GeoInsight Root API
+  slug: geoinsight-root-api
+- description: The Zone ID API from GeoInsight — 2 operation(s) for zone id.
+  name: GeoInsight Zone ID API
+  slug: geoinsight-zone-id-api
+- description: The Zones API from GeoInsight — 2 operation(s) for zones.
+  name: GeoInsight Zones API
+  slug: geoinsight-zones-api
+artifact_total: 14
 common:
 - group: agent
   title: ''
@@ -147,7 +171,7 @@ modified: '2026-08-20'
 name: GeoInsight
 nav: Providers
 network: true
-overview: 'GeoInsight publishes 1 API on the [APIs.io](https://apis.io/) network: OGC API - DGGS. Tagged areas include Geospatial, DGGS, Discrete Global Grid System, Earth Observation, and Remote Sensing.
+overview: 'GeoInsight publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Collection ID API, Collections API, Data API, and 6 more. Tagged areas include Geospatial, DGGS, Discrete Global Grid System, Earth Observation, and Remote Sensing.
 
 
   GeoInsight''s developer surface includes documentation, API reference, sandbox, support, authentication, and 20 more developer resources.'
@@ -162,18 +186,23 @@ rate_limits:
   slug: geoinsight-rate-limits
 score:
   band: thin
-  composite: 29.4
-  delta: 0.0
+  composite: 28.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 9.5
+    contract_governance: 4.5
+    contract_quality: 10.1
     developer_ergonomics: 58.9
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 29.4
+  previous_composite: 28.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -190,8 +219,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 3
   slug: windy-agentic-access
   summary_line: 3 operations · 1 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The Point Forecast API from Windy — 1 operation(s) for point forecast.
   name: Windy Point Forecast API
@@ -65,6 +65,10 @@ collections:
   name: Windy API
   slug: open-windy
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/windycom/API/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -124,7 +128,7 @@ network: true
 overview: 'Windy publishes 2 APIs on the [APIs.io](https://apis.io/) network: Point Forecast API and Webcams API. Tagged areas include Weather, Forecast, Maps, Webcams, and Visualization.
 
 
-  Windy''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  Windy''s developer surface includes authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Windy Plans Pricing
   plan_count: 6
@@ -136,8 +140,13 @@ rate_limits:
   slug: windy-rate-limits
 score:
   band: thin
-  composite: 38.1
-  delta: 0.9
+  composite: 34.3
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -147,7 +156,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.2
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -155,8 +167,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -32,10 +32,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 2
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/telepresenceio/telepresence/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/telepresenceio/telepresence/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/telepresenceio/telepresence/blob/release/v2/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/telepresenceio/telepresence/blob/release/v2/CODE-OF-CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/telepresenceio/telepresence/blob/release/v2/docs/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -94,11 +114,16 @@ overview: 'Telepresence is profiled on the [APIs.io](https://apis.io/) network. 
   The Telepresence catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Telepresence''s developer surface includes documentation, changelog, and 8 more developer resources.'
+  Telepresence''s developer surface includes documentation, changelog, and 13 more developer resources.'
 random_paper: 19
 score:
-  band: minimal
-  composite: 10.4
+  band: emerging
+  composite: 19.3
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -109,9 +134,12 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 10.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 19.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telepresence/refs/heads/main/screenshots/telepresence-2026-06-20T195041.png
 security:

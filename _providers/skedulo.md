@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 10
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 235
   slug: skedulo-agentic-access
   summary_line: 235 operations · 139 acting · 10 human-in-the-loop
-api_count: 67
+api_count: 21
 apis:
 - description: The Admin API from Skedulo — 6 operation(s) for admin.
   name: Skedulo Admin API
@@ -457,6 +457,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/skedulo-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/skedulo-authentication-overlay.yaml
 - group: company
@@ -597,22 +601,27 @@ overview: 'Skedulo publishes 67 APIs on the [APIs.io](https://apis.io/) network,
   The Skedulo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Skedulo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 24 more developer resources.'
+  Skedulo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 25 more developer resources.'
 random_paper: 3
 score:
   band: developing
-  composite: 49.9
+  composite: 48.5
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 60.3
     developer_ergonomics: 68.5
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 49.9
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -623,8 +632,8 @@ score:
       total: 67
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skedulo/refs/heads/main/screenshots/skedulo-2026-08-17T081911.png
 security:

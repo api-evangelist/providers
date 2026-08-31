@@ -12,29 +12,30 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-26'
+  score: 53.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 9
   slug: acceldata-agentic-access
   summary_line: 9 operations · 2 acting
-api_count: 7
+api_count: 3
 apis:
 - description: Monitor and manage data quality and pipeline alerts
   name: Acceldata Alerts API
@@ -65,6 +66,15 @@ apis:
 - description: Manage users and user invitations
   name: Acceldata Users API
   slug: acceldata-users-api
+- description: 'The ADOC data catalog surface: discover and search assets, read asset metadata, schema, samples, relationships and lineage, apply tags and labels, and create, schedule, execute and read the results of'
+  name: Acceldata Catalog API
+  slug: acceldata-catalog-api
+- description: 'Tenant administration for ADOC: user and service-user lifecycle (create, update, disable), user group management, client role assignment, and API key issuance and revocation. SCIM-managed users and gr'
+  name: Acceldata Administration API
+  slug: acceldata-administration-api
+- description: Create and manage tag keys and values, search across tagged key/value pairs, and associate or retrieve unified tags on catalog entities — assets, policies, rules, rulesets, UDFs and labelers. A gRPC-t
+  name: Acceldata Tag Services API
+  slug: acceldata-tags-api
 arazzos:
 - description: List organization users and the platform roles so access can be reviewed against defined permissions.
   name: Acceldata Access Review
@@ -87,7 +97,7 @@ arazzos:
 - description: Resolve a dataset, pull its open alerts, and acknowledge the most severe one.
   name: Acceldata Triage Dataset Alerts
   slug: acceldata-triage-dataset-alerts-workflow
-artifact_total: 99
+artifact_total: 105
 collections:
 - collection_type: postman
   name: Acceldata - Data Observability Cloud API
@@ -221,6 +231,106 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.acceldata.io/llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/acceldata-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/acceldata-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/acceldata-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/acceldata-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/acceldata-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/acceldata-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/acceldata-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/acceldata-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/acceldata-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/acceldata-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/acceldata-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/acceldata-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/acceldata-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/acceldata-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/acceldata-cli.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/acceldata-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/acceldata-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/acceldata-rate-limits.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/acceldata-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/acceldata-vulnerability-disclosure.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://documentation.acceldata.io/api
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.acceldata.io/free-trial
+- group: operate
+  title: ''
+  type: Support
+  url: https://acceldatatechnology.my.site.com/s/login/
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/acceldata-finops.yml
 created: '2025-02-24'
 description: Acceldata is an agentic data management platform that helps enterprises monitor, govern, and optimize data across cloud, lakehouse, and hybrid environments. The platform combines AI-powered agents with data observability to proactively detect issues, trace root causes, and automate remediation workflows. Key products include ADM (Agentic Data Management), ADOC (Acceldata Data Observability Cloud), Pulse for Hadoop environments, and Agent Studio for building custom AI agents. It supports integrations with Snowflake, Databricks, AWS, GCP, Azure, and Hadoop.
 examples:
@@ -409,24 +519,28 @@ jsonld:
   property_count: 5
   slug: acceldata-adoc-api-context
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: ''
+  name: Acceldata MCP Server
+  slug: acceldata-mcp-server
+modified: '2026-08-29'
 name: Acceldata
 nav: Providers
 network: true
-overview: 'Acceldata publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Data Quality Rules API, Datasets API, and 4 more. Tagged areas include AI Agents, Data Management, Data Observability, Data Pipeline, and Data Quality.
+overview: 'Acceldata publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Data Quality Rules API, Datasets API, and 7 more. Tagged areas include AI Agents, Data Management, Data Observability, Data Pipeline, and Data Quality.
 
 
   The Acceldata catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Acceldata''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 20 more developer resources.'
+  Acceldata''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 44 more developer resources.'
 plans:
 - name: Acceldata Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: acceldata-plans-pricing
 random_paper: 11
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Acceldata Rate Limits
   slug: acceldata-rate-limits
 rules:
@@ -451,20 +565,30 @@ rules:
     info: 4
     warn: 17
   slug: acceldata-spectral-rules
+scopes:
+- name: Acceldata Scopes
+  scope_count: 0
+  slug: acceldata-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 34.8
-  delta: 0.7
+  band: developing
+  composite: 47.2
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 64.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 55.3
-    commercial_clarity: 55.3
-    contract_governance: 28.8
-    contract_quality: 29.6
-    developer_ergonomics: 16.7
-    discoverability: 81.5
-    governance: 28.8
-    operational_transparency: 10.5
-  previous_composite: 34.1
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 47.0
+    contract_quality: 23.1
+    developer_ergonomics: 50.0
+    discoverability: 57.4
+    governance: 47.0
+    operational_transparency: 36.8
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     contracts:
@@ -472,19 +596,23 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acceldata/refs/heads/main/screenshots/acceldata-2026-08-17T082111.png
 security:
 - kind: authentication
   name: Acceldata Authentication
   slug: acceldata-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Acceldata Domain Security
   slug: acceldata-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Acceldata Vulnerability Disclosure
+  slug: acceldata-vulnerability-disclosure
+  summary_line: Hackerone
 - kind: trust-center
   name: Acceldata Trust Center
   slug: acceldata-trust-center

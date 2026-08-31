@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1
   slug: authorize-net-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The Authorize.net Payment API enables merchants to process credit card, debit card, eCheck, Apple Pay, Google Pay, and PayPal transactions via a POST-based XML/JSON API with API Login ID and Transacti
   name: Authorize.net Payment API
@@ -255,18 +255,23 @@ rate_limits:
   slug: authorize-net-rate-limits
 score:
   band: developing
-  composite: 44.0
-  delta: 3.8
+  composite: 43.5
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 0.0
     contract_quality: 14.1
     developer_ergonomics: 71.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 40.2
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -280,8 +285,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authorize-net/refs/heads/main/screenshots/authorize-net-2026-06-20T172612.png
 security:

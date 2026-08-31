@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 49
   slug: cudo-compute-agentic-access
   summary_line: 49 operations · 22 acting · 4 human-in-the-loop
-api_count: 8
+api_count: 1
 apis:
 - description: The Billing API from CUDO Compute — 4 operation(s) for billing.
   name: CUDO Compute Billing API
@@ -101,6 +101,10 @@ collections:
   name: CUDO Compute API
   slug: open-cudo-compute
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cudo-compute-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -160,7 +164,7 @@ network: true
 overview: 'CUDO Compute publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Billing API, Data Centers API, Disks API, and 5 more. Tagged areas include GPU, Cloud Compute, Infrastructure, Virtual Machines, and Marketplace.
 
 
-  CUDO Compute''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  CUDO Compute''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Cudo Compute Plans Pricing
   plan_count: 3
@@ -172,18 +176,23 @@ rate_limits:
   slug: cudo-compute-rate-limits
 score:
   band: developing
-  composite: 39.9
-  delta: 2.4
+  composite: 39.3
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 52.0
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.5
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     contracts:
@@ -191,8 +200,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/screenshots/cudo-compute-2026-07-25T210908.png
 security:

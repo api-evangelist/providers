@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 255
   human_in_the_loop: 14
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 457
   slug: aiven-agentic-access
   summary_line: 457 operations · 255 acting · 14 human-in-the-loop
-api_count: 34
+api_count: 1
 apis:
 - description: The Account API from Aiven — 23 operation(s) for account.
   name: Aiven Account API
@@ -254,6 +254,10 @@ collections:
   name: Aiven API Documentation Account Users API
   slug: open-aiven-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/aiven-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -399,7 +403,7 @@ overview: 'Aiven publishes 34 APIs on the [APIs.io](https://apis.io/) network, i
   The Aiven catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Aiven''s developer surface includes authentication, documentation, engineering blog, pricing, and 16 more developer resources.'
+  Aiven''s developer surface includes authentication, documentation, engineering blog, pricing, and 17 more developer resources.'
 plans:
 - name: Aiven Plans Pricing
   plan_count: 7
@@ -427,18 +431,23 @@ scopes:
   summary_line: 34 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.2
-  delta: 0.7
+  composite: 45.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
-    contract_quality: 71.4
+    contract_quality: 72.8
     developer_ergonomics: 23.8
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 25.0
     operational_transparency: 21.1
-  previous_composite: 44.5
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -446,8 +455,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 34
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/screenshots/aiven-2026-06-20T171443.png
 security:
@@ -474,7 +483,7 @@ tags:
 - MySQL
 - Open-Source
 - Cloud Database
-- Database-as-a-Service
+- DBaaS
 - Data Streaming
 - Data Platform
 website: https://aiven.io

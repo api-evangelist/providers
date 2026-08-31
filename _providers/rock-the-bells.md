@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: 'A live, remote Model Context Protocol server on Rock The Bells'' own storefront host implementing the Universal Commerce Protocol shopping service. Thirteen tools let an agent search the catalog, look '
@@ -158,7 +158,7 @@ modified: '2026-08-26'
 name: Rock The Bells
 nav: Providers
 network: true
-overview: 'Rock The Bells publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Ecommerce, Merchandise, and Apparel.
+overview: 'Rock The Bells publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-Commerce, Merchandise, and Apparel.
 
 
   Rock The Bells'' developer surface includes documentation, authentication, engineering blog, support, and 23 more developer resources.'
@@ -174,6 +174,12 @@ rate_limits:
 score:
   band: thin
   composite: 32.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -183,12 +189,14 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
+  previous_composite: 32.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Rock The Bells Authentication
@@ -202,11 +210,11 @@ slug: rock-the-bells
 tags:
 - Company
 - Retail
-- Ecommerce
+- E-Commerce
 - Merchandise
 - Apparel
 - Agentic Commerce
-- Model Context Protocol
+- MCP
 - Universal Commerce Protocol
 - GraphQL
 - Media

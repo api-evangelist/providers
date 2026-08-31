@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: microsoft-copilot-agentic-access
   summary_line: 6 operations · 5 acting
-api_count: 7
+api_count: 1
 apis:
 - description: API for building custom connectors that bring external data into Microsoft Graph to enhance Microsoft 365 Copilot experiences including search and retrieval augmented generation.
   name: Microsoft 365 Copilot Connectors API
@@ -571,7 +571,7 @@ modified: '2026-05-19'
 name: Microsoft Copilot
 nav: Providers
 network: true
-overview: 'Microsoft Copilot publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Change Notifications API, Chat API, Interaction Export API, and 2 more. Tagged areas include Agents, AI Assistant, Artificial Intelligence, Chatbots, and Copilot.
+overview: 'Microsoft Copilot publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Change Notifications API, Chat API, Interaction Export API, and 2 more. Tagged areas include Agents, AI Assistant, Artificial Intelligence, Chatbot, and Copilot.
 
 
   The Microsoft Copilot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -616,18 +616,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 53.4
-  delta: 1.9
+  composite: 52.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 13.6
     contract_quality: 74.4
     developer_ergonomics: 61.9
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 47.4
-  previous_composite: 51.5
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     contracts:
@@ -635,8 +640,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-copilot/refs/heads/main/screenshots/microsoft-copilot-2026-06-20T185448.png
 security:
@@ -657,7 +662,7 @@ tags:
 - Agents
 - AI Assistant
 - Artificial Intelligence
-- Chatbots
+- Chatbot
 - Copilot
 - Extensibility
 - Generative AI

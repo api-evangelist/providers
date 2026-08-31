@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 11
   slug: adaption-labs-agentic-access
   summary_line: 11 operations · 6 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Create, ingest, adapt, evaluate, and export datasets.
   name: Adaption Labs Datasets API
@@ -184,18 +184,23 @@ overview: 'Adaption Labs publishes 2 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 9
 score:
   band: thin
-  composite: 35.6
+  composite: 34.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 13.5
     developer_ergonomics: 56.5
-    discoverability: 68.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 35.6
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -206,8 +211,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/screenshots/adaption-labs-2026-07-25T181552.png
 security:

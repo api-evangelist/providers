@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 71
   slug: agile-crm-agentic-access
   summary_line: 71 operations · 44 acting
-api_count: 11
+api_count: 1
 apis:
 - description: HTTPS-only REST API for managing contacts, companies, deals, campaigns, tasks, notes, and tickets in Agile CRM. Authentication uses HTTP Basic auth with the account email as username and the REST clie
   name: Agile CRM REST API
@@ -259,7 +259,7 @@ modified: '2026-08-13'
 name: Agile CRM
 nav: Providers
 network: true
-overview: 'Agile CRM publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Companies API, Contacts API, and 7 more. Tagged areas include CRM, Sales Automation, Marketing Automation, Help Desk, and Small Business.
+overview: 'Agile CRM publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Companies API, Contacts API, and 7 more. Tagged areas include CRM, Sales Automation, Marketing Automation, Helpdesk, and Small Business.
 
 
   The Agile CRM catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -277,18 +277,23 @@ rate_limits:
   slug: agile-crm-rate-limits
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 50.8
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 59.5
     developer_ergonomics: 66.1
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 52.8
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -299,8 +304,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agile-crm/refs/heads/main/screenshots/agile-crm-2026-06-20T170154.png
 security:
@@ -317,7 +322,7 @@ tags:
 - CRM
 - Sales Automation
 - Marketing Automation
-- Help Desk
+- Helpdesk
 - Small Business
 - Contact Management
 website: https://www.agilecrm.com

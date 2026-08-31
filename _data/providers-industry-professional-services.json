@@ -16,21 +16,21 @@
      "slug": "knownwell",
      "description": "Knownwell is an AI-powered commercial intelligence platform for B2B professional services firms, built around client retention and expansion rather than new-logo acquisition. The platform ingests communications, CRM records, and enterprise data through connectors to Microsoft 365, Google Workspace, Salesforce, HubSpot, Slack, Teams, and conversation intelligence tools, then synthesizes an objective Knownwell score for every client relationship. Teams use it to detect churn risk before a renewal conversation, surface growth opportunities across a portfolio, and track relationship health over time without manual data entry. Knownwell publishes a read-only public REST API at api.knownwell.com/ci/v1 that exposes client scores, score history, portfolios, streams, topics, priorities, notes, key people, and the weekly Red/Amber/Green alignment reads a client team files by hand, authenticated with an X-API-Key header. Platform pricing is published as a live per-client volume calculator rather than named tiers, with a 30-day trial and no per-seat charge. Knownwell was acquired by 2X to form a human-agentic GTM services company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/screenshots/knownwell-2026-07-25T224012.png",
-     "score": 57.2,
+     "score": 55.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 81.5,
+      "discoverability": 75.9,
       "contract_quality": 54.8,
-      "governance": 30.3,
-      "contract_governance": 30.3,
+      "governance": 18.2,
+      "contract_governance": 18.2,
       "operational_transparency": 42.1,
       "developer_ergonomics": 70.8,
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 27.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -64,29 +64,29 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 5,
-   "shown": 5,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Hubflo",
      "slug": "hubflo",
      "description": "Hubflo is a client portal platform for service businesses — consultants, agencies, accountants, and professional-service firms — bringing client onboarding, messaging, document management, e-signatures, forms, proposals, invoicing, tasks, and project collaboration into one branded workspace. Hubflo exposes a REST API (v2) at app.hubflo.com/api/v2 with bearer-token authentication, JSON request/response bodies, UUID resource identifiers, page-based pagination, a 1000 request/minute rate limit, and a native webhook system spanning 29 event types across companies, contacts, workspaces, invoices, forms, tasks, and e-signature submissions. Hubflo also publishes official TypeScript and MCP-server packages and a hosted remote MCP server. Backed by Seedcamp.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/screenshots/hubflo-2026-07-25T221612.png",
-     "score": 47.6,
+     "score": 45.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 81.5,
+      "discoverability": 75.9,
       "contract_quality": 61.4,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 28.9,
       "developer_ergonomics": 47.0,
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 44.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -113,70 +113,25 @@
      "rank": 2
     },
     {
-     "name": "Laurel",
-     "slug": "laurel",
-     "description": "Laurel is an AI timekeeping and work-intelligence platform for professional services firms — law, accounting and advisory. Rather than asking timekeepers to record their own time, Laurel passively captures work activity across the applications people already work in, then uses machine learning to enrich each activity with the who, what, when, where and how needed to build a review-ready timesheet. Reviewed time is released into the firm's existing billing or practice-management system, and Laurel's Signal product layers operational and profitability analytics on top of the resulting time data. Laurel exposes three public APIs — Identity, Time and Ingestion — authenticated with OAuth 2.0 machine-to-machine client credentials, and documents them at developer.laurel.ai for firms and partners building connectors.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/laurel/refs/heads/main/screenshots/laurel-2026-07-25T224622.png",
-     "score": 46.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 41.7,
-      "governance": 30.3,
-      "contract_governance": 30.3,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 58.9,
-      "commercial_clarity": 39.5,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 23.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "documented",
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 3
-    },
-    {
      "name": "Coordinate",
      "slug": "coordinate",
      "description": "Coordinate (CoordinateHQ) is a client project-execution platform and branded client portal for client-facing businesses — agencies, professional services, and B2B onboarding teams. It turns repeatable workflows into automated, interactive projects with tasks, task groups, goals, progress reports, forms, eSignatures, time tracking, and in-project chat, while giving each client a simple password-free portal. Coordinate exposes a REST API (base https://app.coordinatehq.com/api/v1) for creating and syncing projects, tasks, groups, stakeholders, goals, comments, and organizations, an /entity export firehose for bulk sync, and a webhook API for real-time create/update events, alongside bi-directional Zapier integrations. This profile was enriched by the API Evangelist pipeline from Coordinate's published API reference.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/screenshots/coordinate-2026-07-25T210404.png",
-     "score": 45.0,
+     "score": 42.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 62.0,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "discoverability": 75.9,
+      "contract_quality": 60.9,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 7.9,
       "developer_ergonomics": 47.0,
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -200,40 +155,40 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 3
     },
     {
-     "name": "legal.ge Public APIs",
-     "slug": "legal-ge-public-apis",
-     "description": "Georgia's (the country's) legal marketplace, exposing a public, keyless, read-only REST API that turns a natural-language description of a legal problem into matched practice areas and a ranked list of verified specialists — lawyers, law firms, accountants, tax consultants, mediators and enforcement agents — each with a canonical, locale-prefixed profile URL. The surface is deliberately agent-first: an OpenAPI 3.1 contract at /api/openapi.json, an APIs.json 0.19 index at /apis.json, an llms.txt trust contract at /llms.txt, a robots.txt that names and allows eleven AI crawlers on the public API paths, and an installable MCP server (@legalge/mcp, MIT) exposing find_legal_specialists and classify_legal_intent to Claude Desktop, Cursor and any MCP-aware client. Trilingual across Georgian, English and Russian; every specialist returned is verification-checked, and contact details are opt-in only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/screenshots/legal-ge-public-apis-2026-08-17T081028.png",
-     "score": 43.7,
+     "name": "Laurel",
+     "slug": "laurel",
+     "description": "Laurel is an AI timekeeping and work-intelligence platform for professional services firms — law, accounting and advisory. Rather than asking timekeepers to record their own time, Laurel passively captures work activity across the applications people already work in, then uses machine learning to enrich each activity with the who, what, when, where and how needed to build a review-ready timesheet. Reviewed time is released into the firm's existing billing or practice-management system, and Laurel's Signal product layers operational and profitability analytics on top of the resulting time data. Laurel exposes three public APIs — Identity, Time and Ingestion — authenticated with OAuth 2.0 machine-to-machine client credentials, and documents them at developer.laurel.ai for firms and partners building connectors.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/laurel/refs/heads/main/screenshots/laurel-2026-07-25T224622.png",
+     "score": 42.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 52.7,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "discoverability": 57.4,
+      "contract_quality": 41.7,
+      "governance": 18.2,
+      "contract_governance": 18.2,
       "operational_transparency": 34.2,
-      "developer_ergonomics": 37.5,
-      "commercial_clarity": 44.7,
-      "access_clarity": 44.7
+      "developer_ergonomics": 58.9,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 28.6,
-     "agent_band": "agent-ready",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 23.9,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
+      "idempotency": "documented",
+      "error_semantics": false,
       "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
@@ -245,18 +200,18 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 4
     },
     {
      "name": "KPMG",
      "slug": "kpmg",
      "description": "KPMG is one of the Big Four professional services organizations, operating through a global network of independent member firms affiliated with KPMG International Limited, a private English company limited by guarantee that itself does not provide services to clients. The network spans more than 276,000 partners and employees across 138 countries and territories. KPMG organizes delivery across six service lines — Audit & Assurance, Tax, Legal, Advisory, ESG, and AI — and serves six industries: Consumer / Retail / Leisure; Energy, Natural Resources & Chemicals; Financial Services; Healthcare; Government & Public Sector; and Private Enterprise. AI is a first-class service line built on the KPMG Trusted AI framework — a ten-pillar approach covering Reliability, Security, Safety, Privacy, Sustainability, Explainability, Integrity, Transparency, Fairness, and Accountability — and packaged through five AI solutions: KPMG AI Jumpstart, AI Strategy, AI Trust, AI Workforce, and AI Technology. Alliances anchoring the AI delivery surface include Microsoft, Oracle, Salesforce, SAP, ServiceNow, and Workday, with collaboration noted with the World Economic Forum. KPMG Lakehouse, the firm's USD 450 million learning-and-innovation campus in Lake Nona, Orlando, is the cultural and AI-upskilling hub for the US firm and a venue for client innovation sessions in generative AI, ESG, and talent strategy. Insights is KPMG's research-publishing surface, organized across topic categories including AI and Technology, ESG, Operations, Risk and Regulation, Transformation, Value Creation, Workforce, Public Policy & Regulatory Change, Business Transformation, Audit & Assurance, Tax, Advisory, Sustainability, and Transactions, with flagship series such as the KPMG US Technology Survey Report, the KPMG Global Third-Party Risk Management Survey, the KPMG M&A Deal Market Study, Fit for Pillar Two, and AI Governance Principles for Boards. KPMG does not publish a public developer API or corporate developer portal at the network level; the firm has no enumerable public GitHub organization at `github.com/kpmg`. The one meaningful public API surface inside the KPMG brand is KPMG Origins (`kpmgorigins.com`) — an Australian regulated-waste tracking platform (initially the NSW Integrated Waste Tracking System / IWTS, with Queensland and other jurisdictions in scope) that exposes two REST APIs (Movements + Registries) over Swagger with API-key authentication, intended for integration with waste-operator software rather than as a general-purpose KPMG developer surface. Distribution to readers and client stakeholders flows through the Insights site, the US Subscription Center (Opportunity (In)sight monthly newsletter), KPMG Australia's Business Insights podcast, and per-page RSS feeds offered on individual KPMG member-firm pages.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/screenshots/kpmg-2026-06-20T184147.png",
-     "score": 42.6,
+     "score": 42.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 81.5,
+      "discoverability": 75.9,
       "contract_quality": 55.8,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -265,8 +220,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -290,7 +245,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 5
     }
    ],
    "open": true
@@ -308,11 +263,11 @@
      "slug": "mosaic-app",
      "description": "Mosaic is a resource management, workforce planning, and AI-assisted project management platform built for architecture, engineering, and professional services firms. It plugs into the ERPs those firms already run — Deltek (Ajera, Vantagepoint, Vision, Costpoint), Unanet, BST10, BQE Core, QuickBooks, Salesforce, and Microsoft Dynamics 365 — plus project management systems (Asana, Jira, GitHub, Karbon) and HRIS (BambooHR), then unifies the data into a single forecasting, time-entry, and capacity-planning surface. Mosaic exposes an Open API for custom integrations alongside its packaged connectors.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/screenshots/mosaic-app-2026-06-20T185820.png",
-     "score": 38.8,
+     "score": 38.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 72.2,
+      "discoverability": 66.7,
       "contract_quality": 50.3,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -321,8 +276,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -346,52 +301,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
-    },
-    {
-     "name": "Advantage Solutions",
-     "slug": "advantage-solutions",
-     "description": "Advantage Solutions is a leading provider of outsourced sales, marketing, merchandising, and business intelligence services to consumer goods manufacturers and retailers across North America. The company supports brand growth through retail execution, in-store demos, digital commerce enablement, and shopper insights, and publishes Advantage360 shopper and market research alongside the MRKT industry publication. Advantage Solutions does not operate a developer program, publish API documentation, or offer a commercial API product. The only machine-readable surface it serves is the standard WordPress REST API of its corporate site (youradv.com) and of MRKT (mrktblog.com), both of which return published content anonymously.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/screenshots/advantage-solutions-2026-06-20T165343.png",
-     "score": 36.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 60.5,
-      "governance": 16.7,
-      "contract_governance": 16.7,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 26.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 8
+     "rank": 6
     },
     {
      "name": "Vistra",
@@ -411,8 +321,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -436,18 +346,18 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 7
     },
     {
      "name": "Harvest",
      "slug": "harvest",
      "description": "Harvest is a cloud-based time tracking, project management, expense tracking, and invoicing platform used by agencies, consultancies, and professional services teams to track billable hours, manage budgets, and bill clients. The platform provides reporting on team utilization, project profitability, and budget burn, and integrates with tools like Asana, Trello, Slack, and QuickBooks. Harvest's REST API v2 provides full programmatic access to clients, projects, tasks, time entries, expenses, invoices, estimates, and users using OAuth 2.0 or Personal Access Token authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/screenshots/harvest-2026-06-20T182526.png",
-     "score": 35.3,
+     "score": 34.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
+      "discoverability": 68.5,
       "contract_quality": 53.7,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -456,8 +366,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -481,40 +391,40 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 8
     },
     {
-     "name": "COR",
-     "slug": "cor",
-     "description": "COR (COR Global Ltd., projectcor.com) is an AI-powered management platform for advertising and creative agencies that calculates and forecasts project profitability while managing finances, resources, projects, tasks, and time tracking in one real-time workspace. COR publishes a REST API (JSON or XML) for projects, tasks, hours, clients, contracts, transactions, teams, users, and more, a separate Resource Allocation API, and an official hosted MCP server so AI clients can operate a workspace with natural language. Backed by 500 Global.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cor/refs/heads/main/screenshots/cor-2026-07-25T210412.png",
-     "score": 34.8,
+     "name": "Advantage Solutions",
+     "slug": "advantage-solutions",
+     "description": "Advantage Solutions is a leading provider of outsourced sales, marketing, merchandising, and business intelligence services to consumer goods manufacturers and retailers across North America. The company supports brand growth through retail execution, in-store demos, digital commerce enablement, and shopper insights, and publishes Advantage360 shopper and market research alongside the MRKT industry publication. Advantage Solutions does not operate a developer program, publish API documentation, or offer a commercial API product. The only machine-readable surface it serves is the standard WordPress REST API of its corporate site (youradv.com) and of MRKT (mrktblog.com), both of which return published content anonymously.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/screenshots/advantage-solutions-2026-06-20T165343.png",
+     "score": 34.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 53.3,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "discoverability": 75.9,
+      "contract_quality": 58.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 33.3,
-     "agent_band": "agent-ready",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 26.4,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
+      "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
       "well_known_catalog": false,
@@ -526,7 +436,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 9
     },
     {
      "name": "CBRE",
@@ -546,8 +456,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -566,6 +476,95 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 10
+    },
+    {
+     "name": "McKinsey & Company",
+     "slug": "mckinsey-and-company",
+     "description": "McKinsey & Company is the senior partner of the MBB triumvirate of global strategy and management consulting firms, founded in 1926 by James O. McKinsey and headquartered in New York City. The firm operates from 130-plus cities across more than 65 countries with roughly 38,000-45,000 people serving corporations, governments, and not-for-profit organizations. McKinsey delivers through industry practices and cross-cutting capability practices: Strategy & Corporate Finance, Operations, Marketing & Sales, Risk & Resilience, Sustainability, Transformation, Implementation, Organization (formerly OrgSolutions), Growth / Marketing / Sales, McKinsey Digital, and McKinsey Technology. McKinsey Digital houses QuantumBlack (the AI division acquired in 2015), Leap (venture / business building), and the Technology practice. Internal generative-AI tooling is consolidated in Lilli, a McKinsey-built consultant assistant launched in August 2023 that indexes 100,000+ internal documents and is used by tens of thousands of firm employees. Research and thought leadership are published through McKinsey Insights, McKinsey Quarterly (the firm's flagship business journal since 1964), McKinsey Global Institute (MGI, the firm's business and economics research arm), the QuantumBlack AI report and State of AI survey, industry-specific reports, podcasts (The McKinsey Podcast, McKinsey Talks Operations, etc.), and the McKinsey on Books series. McKinsey does not publish a public commercial developer API or developer portal; all software the firm releases publicly flows through GitHub. The official `github.com/mckinsey` organization hosts a focused open-source portfolio centered on data, AI, and agentic systems — Vizro (low-code Plotly/Dash data-visualization toolkit), Agents-at-Scale ARK (Kubernetes-native framework for portable agentic applications), Agents-at-Scale Marketplace (curated Helm-chart catalog of ARK executors, MCP servers, and tools), CausalNex (Bayesian-network causal-reasoning library), QuantumBlack Design System (shadcn-based React component registry), and qbstyles (QuantumBlack Matplotlib themes). Kedro, the production-grade data and ML pipeline framework originally built inside QuantumBlack, was donated to the Linux Foundation (LF AI & Data) and is now governed at `github.com/kedro-org`.",
+     "score": 33.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 10.7,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 57.9,
+      "access_clarity": 57.9
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 11
+    },
+    {
+     "name": "COR",
+     "slug": "cor",
+     "description": "COR (COR Global Ltd., projectcor.com) is an AI-powered management platform for advertising and creative agencies that calculates and forecasts project profitability while managing finances, resources, projects, tasks, and time tracking in one real-time workspace. COR publishes a REST API (JSON or XML) for projects, tasks, hours, clients, contracts, transactions, teams, users, and more, a separate Resource Allocation API, and an official hosted MCP server so AI clients can operate a workspace with natural language. Backed by 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cor/refs/heads/main/screenshots/cor-2026-07-25T210412.png",
+     "score": 32.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 53.3,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 33.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -591,8 +590,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -623,7 +622,7 @@
      "slug": "ernst-and-young",
      "description": "Ernst & Young (EY) is one of the Big Four professional services organizations, operating as a global network of member firms branded under \"EY\" and coordinated by Ernst & Young Global Limited (EYG). EY reports a workforce of roughly 400,000 people spanning approximately 150 countries. The firm's stated purpose is \"Building a better working world\" and it organizes delivery across a small set of professional service lines — Assurance, Consulting, Strategy & Transactions (branded as EY-Parthenon, covering both Strategy and Transactions and Corporate Finance), Tax, Law, Technology, Managed Services, and People & Workforce Services — plus EY Private (services for privately-held and entrepreneur-led businesses) and EY Sustainability. Industry coverage is organized into eight sectors: Industrials & Mobility, Consumer Products & Retail, Energy & Resources, Financial Services, Government & Infrastructure, Health & Life Sciences, Private Equity, and Technology, Media & Telecommunications. EY's flagship technology initiative is EY.ai, positioned as an enterprise-scale \"agentic AI unifying platform\" backed by alliances with NVIDIA, Microsoft, IBM, SAP, ServiceNow and others. Adjacent platform brands include EY Nexus (a sector-tailored business transformation platform marketed primarily to financial services), EY Studio+ (customer experience / growth), EY Ecosystems (partnership network), and EY wavespace (innovation centers). EY's research-publishing surface is the EY Insights portfolio, organized around topic areas (AI, Finance, Geostrategy, People and Workforce, Risk, Sustainability, Technology, EY Transformation) and flagship recurring series including the CEO Outlook, EY Megatrends, Global IPO Trends, the Private Equity Pulse, Work Reimagined, the Climate Action Barometer, and the Nature Action Barometer, plus EY Podcasts and EY Webcasts. Project Everest — the proposed split of EY's audit and consulting businesses — was publicly cancelled in April 2023, and EY continues to operate as an integrated multi-line professional services organization. EY does not publish a public developer portal, OpenAPI specifications, public REST APIs, or a consumer-facing API pricing surface at the global corporate level. The only first-party EY GitHub organization that is publicly discoverable is EYBlockchain (github.com/EYBlockchain, ~28 public repositories, ~160 followers, blog URL blockchain.ey.com), which hosts EY's open-source zero-knowledge cryptography and privacy-preserving blockchain work, anchored by the Nightfall optimistic-rollup family (Nightfall_3 in JavaScript / Nightfall_4 Community Edition in Rust) and the Starlight Solidity-to-zApp transpiler, alongside supporting libraries such as Timber, Poseidon, halo2-lib, snark-verifier, plonkish, algebra, and ZoKrates wrappers, plus product brands EY Blockchain Analyzer (Reconciler and Smart Contract & Token Review) and the EY OpsChain Suite (Traceability, ESG, Contract Manager).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ernst-and-young/refs/heads/main/screenshots/ernst-and-young-2026-06-20T180813.png",
-     "score": 26.8,
+     "score": 26.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -636,8 +635,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -662,26 +661,37 @@
       "agentic_commerce": false
      },
      "rank": 14
-    },
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "11 – 26.1",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 27,
+   "shown": 27,
+   "providers": [
     {
-     "name": "McKinsey & Company",
-     "slug": "mckinsey-and-company",
-     "description": "McKinsey & Company is the senior partner of the MBB triumvirate of global strategy and management consulting firms, founded in 1926 by James O. McKinsey and headquartered in New York City. The firm operates from 130-plus cities across more than 65 countries with roughly 38,000-45,000 people serving corporations, governments, and not-for-profit organizations. McKinsey delivers through industry practices and cross-cutting capability practices: Strategy & Corporate Finance, Operations, Marketing & Sales, Risk & Resilience, Sustainability, Transformation, Implementation, Organization (formerly OrgSolutions), Growth / Marketing / Sales, McKinsey Digital, and McKinsey Technology. McKinsey Digital houses QuantumBlack (the AI division acquired in 2015), Leap (venture / business building), and the Technology practice. Internal generative-AI tooling is consolidated in Lilli, a McKinsey-built consultant assistant launched in August 2023 that indexes 100,000+ internal documents and is used by tens of thousands of firm employees. Research and thought leadership are published through McKinsey Insights, McKinsey Quarterly (the firm's flagship business journal since 1964), McKinsey Global Institute (MGI, the firm's business and economics research arm), the QuantumBlack AI report and State of AI survey, industry-specific reports, podcasts (The McKinsey Podcast, McKinsey Talks Operations, etc.), and the McKinsey on Books series. McKinsey does not publish a public commercial developer API or developer portal; all software the firm releases publicly flows through GitHub. The official `github.com/mckinsey` organization hosts a focused open-source portfolio centered on data, AI, and agentic systems — Vizro (low-code Plotly/Dash data-visualization toolkit), Agents-at-Scale ARK (Kubernetes-native framework for portable agentic applications), Agents-at-Scale Marketplace (curated Helm-chart catalog of ARK executors, MCP servers, and tools), CausalNex (Bayesian-network causal-reasoning library), QuantumBlack Design System (shadcn-based React component registry), and qbstyles (QuantumBlack Matplotlib themes). Kedro, the production-grade data and ML pipeline framework originally built inside QuantumBlack, was donated to the Linux Foundation (LF AI & Data) and is now governed at `github.com/kedro-org`.",
-     "score": 26.6,
-     "band": "thin",
-     "band_label": "Thin",
+     "name": "Deloitte",
+     "slug": "deloitte",
+     "description": "Deloitte is one of the Big Four professional services organizations, operating through a network of member firms coordinated by Deloitte Touche Tohmatsu Limited (DTTL). The organization spans approximately 150 countries and territories, has more than 180 years of history (founded 1845), and serves roughly 90% of the Fortune Global 500. Deloitte organizes delivery across four primary service lines — Audit & Assurance, Consulting, Tax, and Legal — plus specialized cross-functional practices including Business Process Solutions and Global Employer Services. Consulting offerings cover Customer, Cyber, Engineering / AI & Data, Enterprise Technology & Performance, Finance Transformation, Human Capital, Strategy & Transactions, and Risk / Regulatory & Forensic. Deloitte Digital is the technology-and-experience practice with alliances spanning Salesforce, Adobe, SAP, Google Cloud, AWS, ServiceNow, Oracle, Shopify, Sitecore, and Genesys, and accelerators such as FrontOffice Advantage, Revenue Advantage, Agentic Marketing Cloud, CreativEdge, Blueprint, Content Studios, and TrustID. The organization serves six industries divided into twenty sectors: Consumer; Energy, Resources & Industrials; Financial Services; Government & Public Services; Life Sciences & Health Care; and Technology, Media & Telecommunications. Deloitte Insights is the organization's research-publishing surface, organized into eight research centers — Cross-Industry, Economics, Consumer, Energy & Industrials, Financial Services, Government & Public Services, Life Sciences & Health Care, and Tech, Media & Telecom — producing flagship series including Tech Trends, Global Human Capital Trends, Digital Media Trends, TMT Predictions, FSI Predictions, the Weekly Global Economic Outlook, and the annual Industry Outlooks. The Deloitte AI Institute drives applied-AI research and points of view. Deloitte does not publish a public developer API or open developer portal at the corporate level. The Deloitte US Consulting GitHub organization is small (5 visible repositories, mostly archived upstream forks; the original artifact is `beacon`, a first-party web-analytics packaging library in TypeScript). Reader-facing distribution flows through MyDeloitte (personalized content + newsletter subscriptions), Dbriefs (live webcasts with CPE credit), the Deloitte Insights Magazine, and the YouTube channel; no public RSS index page was discoverable on www.deloitte.com at the path published in legacy archives.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deloitte/refs/heads/main/screenshots/deloitte-2026-06-20T175902.png",
+     "score": 25.4,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 10.7,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 57.9,
-      "access_clarity": 57.9
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 47.4,
+      "access_clarity": 47.4
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -706,17 +716,7 @@
       "agentic_commerce": false
      },
      "rank": 15
-    }
-   ]
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "11 – 26.1",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 25,
-   "shown": 25,
-   "providers": [
+    },
     {
      "name": "Linguidoor",
      "slug": "linguidoor",
@@ -734,8 +734,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -766,11 +766,11 @@
      "slug": "introhive",
      "description": "Introhive is a relationship intelligence and CRM data automation platform used primarily by professional services firms — law, accounting, consulting and the built environment — to remove manual CRM data entry. It passively mines employee email and calendar systems to build a firm-wide relationship graph of who knows whom and how strong each relationship is, then cleans, de-duplicates and enriches contact, company and activity records before writing them back into the system of record. Introhive integrates with Salesforce, Microsoft Dynamics 365, HubSpot and legal/accounting practice systems, and surfaces the resulting intelligence through a relationship portal, digest emails and CRM-embedded apps. The company is headquartered in Fredericton, New Brunswick, Canada, and operates regional platform instances for the US, Canada and the UK.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/introhive/refs/heads/main/screenshots/introhive-2026-08-07T170750.png",
-     "score": 23.0,
+     "score": 21.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 87.0,
+      "discoverability": 75.9,
       "contract_quality": 0.0,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -779,8 +779,8 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -807,51 +807,6 @@
      "rank": 17
     },
     {
-     "name": "Deloitte",
-     "slug": "deloitte",
-     "description": "Deloitte is one of the Big Four professional services organizations, operating through a network of member firms coordinated by Deloitte Touche Tohmatsu Limited (DTTL). The organization spans approximately 150 countries and territories, has more than 180 years of history (founded 1845), and serves roughly 90% of the Fortune Global 500. Deloitte organizes delivery across four primary service lines — Audit & Assurance, Consulting, Tax, and Legal — plus specialized cross-functional practices including Business Process Solutions and Global Employer Services. Consulting offerings cover Customer, Cyber, Engineering / AI & Data, Enterprise Technology & Performance, Finance Transformation, Human Capital, Strategy & Transactions, and Risk / Regulatory & Forensic. Deloitte Digital is the technology-and-experience practice with alliances spanning Salesforce, Adobe, SAP, Google Cloud, AWS, ServiceNow, Oracle, Shopify, Sitecore, and Genesys, and accelerators such as FrontOffice Advantage, Revenue Advantage, Agentic Marketing Cloud, CreativEdge, Blueprint, Content Studios, and TrustID. The organization serves six industries divided into twenty sectors: Consumer; Energy, Resources & Industrials; Financial Services; Government & Public Services; Life Sciences & Health Care; and Technology, Media & Telecommunications. Deloitte Insights is the organization's research-publishing surface, organized into eight research centers — Cross-Industry, Economics, Consumer, Energy & Industrials, Financial Services, Government & Public Services, Life Sciences & Health Care, and Tech, Media & Telecom — producing flagship series including Tech Trends, Global Human Capital Trends, Digital Media Trends, TMT Predictions, FSI Predictions, the Weekly Global Economic Outlook, and the annual Industry Outlooks. The Deloitte AI Institute drives applied-AI research and points of view. Deloitte does not publish a public developer API or open developer portal at the corporate level. The Deloitte US Consulting GitHub organization is small (5 visible repositories, mostly archived upstream forks; the original artifact is `beacon`, a first-party web-analytics packaging library in TypeScript). Reader-facing distribution flows through MyDeloitte (personalized content + newsletter subscriptions), Dbriefs (live webcasts with CPE credit), the Deloitte Insights Magazine, and the YouTube channel; no public RSS index page was discoverable on www.deloitte.com at the path published in legacy archives.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deloitte/refs/heads/main/screenshots/deloitte-2026-06-20T175902.png",
-     "score": 22.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 10.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 47.4,
-      "access_clarity": 47.4
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 18
-    },
-    {
      "name": "Intellectible",
      "slug": "intellectible",
      "description": "Intellectible is an AI build platform for enterprise service providers - federal and state government contractors (GovCon), professional services firms, and economic development organizations - that turns portals, emails, CRM data, and market signals into structured opportunity, proposal, pricing, and knowledge workflows. Its horizontal build environment (project workspaces, visual workflows, document libraries, PostgreSQL databases, applications, pages, jobs, and queues) is exposed programmatically through the Intellectible Public API and a Code Execution SDK, letting teams run workflows synchronously, manage Library files, and query project databases directly from code.",
@@ -869,8 +824,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -901,7 +856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "Halborn",
@@ -920,8 +875,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -945,28 +900,72 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 19
     },
     {
-     "name": "Accordance Ai",
-     "slug": "accordance-ai",
-     "description": "Accordance (operated by Agnetic Labs Inc.) is a San Francisco frontier AI platform built for tax, audit, and accounting professionals. Founded by researchers from the Stanford AI Lab, it provides a firmwide agentic AI platform that performs tax research with authoritative code, context, and citations, complex accounting analysis, and audit insight — with visible reasoning and verifiable source citations. Accordance is SOC 2 Type II certified, never trains on customer data, and is backed by Menlo Ventures, Khosla Ventures, General Catalyst, Sequoia Capital, Bain Capital Ventures, and New Enterprise Associates. The product surface is the Accordance application (app.accordance.ai); no public developer API is currently documented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/accordance-ai/refs/heads/main/screenshots/accordance-ai-2026-07-25T181441.png",
-     "score": 19.2,
+     "name": "Blue J",
+     "slug": "blue-j",
+     "description": "Blue J is an AI-powered tax research platform that delivers defensible, source-backed answers to complex tax questions in seconds, drawing on primary law plus Tax Notes and IBFD content. Built for tax professionals, the platform supports advisory, compliance, tax writing, and training workflows, and is trusted by 4,000+ firms including Crowe, RSM, and Larson. Blue J is a SaaS product accessed through its web application at app.askbluej.com; it does not currently publish a public developer API, SDK, or MCP server. This profile was surfaced as a portfolio company of Sapphire Ventures and enriched by the API Evangelist pipeline from Blue J's own public website, security, pricing, and trust-center pages.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blue-j/refs/heads/main/screenshots/blue-j-2026-07-25T203430.png",
+     "score": 18.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 10.5,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 53.9,
+      "access_clarity": 53.9
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 20
+    },
+    {
+     "name": "Vesence",
+     "slug": "vesence",
+     "description": "Vesence builds agentic AI for professional-services firms that works directly inside Microsoft Office. Its agents operate in Word, Excel, PowerPoint and Outlook, plus a web app, reviewing emails, documents and projects before they leave the firm and turning Microsoft Word into a purpose-built workspace for high-stakes drafting, quality assurance and knowledge work. Vesence connects to SharePoint, OneDrive, Outlook, Teams and document-management systems so agents work with a firm's existing files and context, with every edit traceable through tracked changes. Trusted by law firms, banks and investors, Vesence targets transactional legal work such as fund formation, M&A and corporate matters. It is a Y Combinator-backed startup surfaced through the venture portfolios of Creandum and Emergence Capital.",
+     "score": 18.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 16.7,
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -993,26 +992,25 @@
      "rank": 21
     },
     {
-     "name": "Blue J",
-     "slug": "blue-j",
-     "description": "Blue J is an AI-powered tax research platform that delivers defensible, source-backed answers to complex tax questions in seconds, drawing on primary law plus Tax Notes and IBFD content. Built for tax professionals, the platform supports advisory, compliance, tax writing, and training workflows, and is trusted by 4,000+ firms including Crowe, RSM, and Larson. Blue J is a SaaS product accessed through its web application at app.askbluej.com; it does not currently publish a public developer API, SDK, or MCP server. This profile was surfaced as a portfolio company of Sapphire Ventures and enriched by the API Evangelist pipeline from Blue J's own public website, security, pricing, and trust-center pages.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blue-j/refs/heads/main/screenshots/blue-j-2026-07-25T203430.png",
-     "score": 18.6,
+     "name": "Provus",
+     "slug": "provusinc",
+     "description": "Provus (Provusinc) is an agentic AI Configure, Price, Quote (CPQ) platform built specifically for services organizations — professional services, consulting, and asset-based services firms. The platform turns unstructured inputs such as emails, RFPs, and call notes into structured, accurate services quotes, and runs a set of AI agents (Quote Optimizer, Deal Predictor, Proposal Response, Deal Rescue, and Provus Admin) that monitor deals, optimize pricing, assess risk, and protect margin. Provus ships two products — CPQ Express for growing teams and Enterprise Services CPQ for large organizations — with native connectors to Salesforce, HubSpot, Kantata, NetSuite, and DocuSign. It is backed by Norwest Venture Partners and reports managing over $5B in enterprise services revenue across customers including Thoughtworks, Trace3, and Prolifics. Provus does not currently publish a public developer API, OpenAPI specification, or developer portal; integration is delivered through native prebuilt connectors and a Salesforce AppExchange managed package, and product help documentation is hosted on a Document360 knowledge base at docs.provus.ai that 302s the entire site to a login. Provus names an internal \"Profet API\" in its published sub-processor list, but that service is not documented, versioned, or reachable publicly.",
+     "score": 18.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 10.5,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 53.9,
-      "access_clarity": 53.9
+      "commercial_clarity": 55.3,
+      "access_clarity": 55.3
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1023,7 +1021,7 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -1038,24 +1036,25 @@
      "rank": 22
     },
     {
-     "name": "Vesence",
-     "slug": "vesence",
-     "description": "Vesence builds agentic AI for professional-services firms that works directly inside Microsoft Office. Its agents operate in Word, Excel, PowerPoint and Outlook, plus a web app, reviewing emails, documents and projects before they leave the firm and turning Microsoft Word into a purpose-built workspace for high-stakes drafting, quality assurance and knowledge work. Vesence connects to SharePoint, OneDrive, Outlook, Teams and document-management systems so agents work with a firm's existing files and context, with every edit traceable through tracked changes. Trusted by law firms, banks and investors, Vesence targets transactional legal work such as fund formation, M&A and corporate matters. It is a Y Combinator-backed startup surfaced through the venture portfolios of Creandum and Emergence Capital.",
-     "score": 18.3,
+     "name": "Accordance Ai",
+     "slug": "accordance-ai",
+     "description": "Accordance (operated by Agnetic Labs Inc.) is a San Francisco frontier AI platform built for tax, audit, and accounting professionals. Founded by researchers from the Stanford AI Lab, it provides a firmwide agentic AI platform that performs tax research with authoritative code, context, and citations, complex accounting analysis, and audit insight — with visible reasoning and verifiable source citations. Accordance is SOC 2 Type II certified, never trains on customer data, and is backed by Menlo Ventures, Khosla Ventures, General Catalyst, Sequoia Capital, Bain Capital Ventures, and New Enterprise Associates. The product surface is the Accordance application (app.accordance.ai); no public developer API is currently documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/accordance-ai/refs/heads/main/screenshots/accordance-ai-2026-07-25T181441.png",
+     "score": 18.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 16.7,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 4.8,
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1082,50 +1081,6 @@
      "rank": 23
     },
     {
-     "name": "Provus",
-     "slug": "provusinc",
-     "description": "Provus (Provusinc) is an agentic AI Configure, Price, Quote (CPQ) platform built specifically for services organizations — professional services, consulting, and asset-based services firms. The platform turns unstructured inputs such as emails, RFPs, and call notes into structured, accurate services quotes, and runs a set of AI agents (Quote Optimizer, Deal Predictor, Proposal Response, Deal Rescue, and Provus Admin) that monitor deals, optimize pricing, assess risk, and protect margin. Provus ships two products — CPQ Express for growing teams and Enterprise Services CPQ for large organizations — with native connectors to Salesforce, HubSpot, Kantata, NetSuite, and DocuSign. It is backed by Norwest Venture Partners and reports managing over $5B in enterprise services revenue across customers including Thoughtworks, Trace3, and Prolifics. Provus does not currently publish a public developer API, OpenAPI specification, or developer portal; integration is delivered through native prebuilt connectors and a Salesforce AppExchange managed package, and product help documentation is hosted on a Document360 knowledge base at docs.provus.ai that 302s the entire site to a login. Provus names an internal \"Profet API\" in its published sub-processor list, but that service is not documented, versioned, or reachable publicly.",
-     "score": 18.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 55.3,
-      "access_clarity": 55.3
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 24
-    },
-    {
      "name": "Accenture",
      "slug": "accenture",
      "description": "A global professional services company providing consulting, technology, and outsourcing services. Serves clients across more than 40 industries in over 120 countries with expertise in digital transformation, cloud, and AI.",
@@ -1143,8 +1098,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1168,18 +1123,18 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "LegalOS",
      "slug": "legalos",
      "description": "LegalOS is an AI-native U.S. immigration law practice based in San Francisco and backed by Y Combinator (Winter 2026 batch). Founded by Matthew Asir (CEO), Rachel Asir (COO) and Claire Jutabha (CTO), the company pairs proprietary legal software with licensed immigration attorneys to prepare employment-based visa and green-card petitions — H-1B, L-1A, L-1B, O-1 and TN visas, plus EB-1A, EB-1C and EB-2 NIW green cards. AI agents draft petition narratives, assemble supporting evidence and anticipate USCIS objections, with every filing reviewed by a licensed attorney before submission. LegalOS is delivered as a service through a customer web application at app.legalos.ai; as of this profile it publishes no public developer API, SDKs, developer portal or machine-readable API artifacts.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/legalos/refs/heads/main/screenshots/legalos-2026-07-25T224828.png",
-     "score": 16.8,
+     "score": 16.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -1188,8 +1143,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.9,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1213,7 +1168,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 25
     },
     {
      "name": "HubSync",
@@ -1232,8 +1187,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 6.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1257,7 +1212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "Gartner",
@@ -1277,8 +1232,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 12.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1302,7 +1257,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "Paro",
@@ -1322,8 +1277,52 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 28
+    },
+    {
+     "name": "Harness Wealth",
+     "slug": "harness-wealth",
+     "description": "Harness — the company that launched as Harness Wealth, and today a wholly owned business of Multiplier, Inc. — is a New York City firm that runs an advisory platform for tax and wealth practices. It operates three connected surfaces: a marketplace that matches individuals with complex financial situations (equity compensation, liquidity events, business owners, real estate, high net worth) to vetted tax advisors; a client portal and workflow platform that tax firms run their engagements, documents, questionnaires and e-file on; and Harness Wealth Advisers, LLC, an SEC-registered investment adviser that recommends third-party advisers. Harness publishes no public developer program — there is no developer portal, API reference, OpenAPI/GraphQL/AsyncAPI specification, SDK, CLI or webhook documentation on any Harness host, and the product is delivered entirely as an end-user web application at app.harness.co.",
+     "score": 13.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1350,24 +1349,25 @@
      "rank": 29
     },
     {
-     "name": "Harness Wealth",
-     "slug": "harness-wealth",
-     "description": "Harness — the company that launched as Harness Wealth, and today a wholly owned business of Multiplier, Inc. — is a New York City firm that runs an advisory platform for tax and wealth practices. It operates three connected surfaces: a marketplace that matches individuals with complex financial situations (equity compensation, liquidity events, business owners, real estate, high net worth) to vetted tax advisors; a client portal and workflow platform that tax firms run their engagements, documents, questionnaires and e-file on; and Harness Wealth Advisers, LLC, an SEC-registered investment adviser that recommends third-party advisers. Harness publishes no public developer program — there is no developer portal, API reference, OpenAPI/GraphQL/AsyncAPI specification, SDK, CLI or webhook documentation on any Harness host, and the product is delivered entirely as an end-user web application at app.harness.co.",
-     "score": 13.7,
+     "name": "Billables Ai",
+     "slug": "billables-ai",
+     "description": "Billables AI is a San Francisco based legal technology company that builds AI-powered automatic time tracking software for lawyers, consultants, and professional services firms. Its platform passively captures billable activity as people work across the tools they already use — Microsoft 365, Outlook, Teams, Zoom, Adobe, and the Chrome and Edge browsers — then uses AI to draft time entries, assign the correct client and matter, and write narrative descriptions, learning and adapting to each user over time. Privacy is user-controlled, with only the individual able to view or edit their own time records before they are submitted. The company is venture-backed (Series A) and was surfaced through the Wing Venture Capital portfolio.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/billables-ai/refs/heads/main/screenshots/billables-ai-2026-07-25T202942.png",
+     "score": 13.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 7.9,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1394,10 +1394,10 @@
      "rank": 30
     },
     {
-     "name": "Billables Ai",
-     "slug": "billables-ai",
-     "description": "Billables AI is a San Francisco based legal technology company that builds AI-powered automatic time tracking software for lawyers, consultants, and professional services firms. Its platform passively captures billable activity as people work across the tools they already use — Microsoft 365, Outlook, Teams, Zoom, Adobe, and the Chrome and Edge browsers — then uses AI to draft time entries, assign the correct client and matter, and write narrative descriptions, learning and adapting to each user over time. Privacy is user-controlled, with only the individual able to view or edit their own time records before they are submitted. The company is venture-backed (Series A) and was surfaced through the Wing Venture Capital portfolio.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/billables-ai/refs/heads/main/screenshots/billables-ai-2026-07-25T202942.png",
+     "name": "Catalant",
+     "slug": "catalant",
+     "description": "Catalant is a consulting platform that connects organizations with a global marketplace of experienced independent consultants and boutique firms, positioning itself as \"Consulting 2.0\" fit-to-purpose consulting that is faster, more flexible, and more cost efficient than traditional large consulting firms. Its network spans 10,000+ vetted consultants (many from Fortune 500 companies and top-tier consulting firms, averaging 19+ years of experience) and serves 700+ businesses across 20+ countries. Catalant covers engagement areas including Digital & AI, Transformation & Value Creation, Operations, Sales & Marketing, M&A / Integration & Separation, Strategy & Finance, and Organization & People. Catalant is a General Catalyst portfolio company. No public developer API or documentation surface was found during enrichment; this profile captures the company's public web, legal, and support properties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/catalant/refs/heads/main/screenshots/catalant-2026-07-25T204744.png",
      "score": 13.3,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1411,8 +1411,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1439,25 +1439,25 @@
      "rank": 31
     },
     {
-     "name": "Catalant",
-     "slug": "catalant",
-     "description": "Catalant is a consulting platform that connects organizations with a global marketplace of experienced independent consultants and boutique firms, positioning itself as \"Consulting 2.0\" fit-to-purpose consulting that is faster, more flexible, and more cost efficient than traditional large consulting firms. Its network spans 10,000+ vetted consultants (many from Fortune 500 companies and top-tier consulting firms, averaging 19+ years of experience) and serves 700+ businesses across 20+ countries. Catalant covers engagement areas including Digital & AI, Transformation & Value Creation, Operations, Sales & Marketing, M&A / Integration & Separation, Strategy & Finance, and Organization & People. Catalant is a General Catalyst portfolio company. No public developer API or documentation surface was found during enrichment; this profile captures the company's public web, legal, and support properties.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/catalant/refs/heads/main/screenshots/catalant-2026-07-25T204744.png",
-     "score": 13.3,
+     "name": "Harbor Global",
+     "slug": "harborglobal",
+     "description": "Harbor Global is a global professional-services firm delivering technology, operations, strategy, and intelligence consulting to law firms, corporate legal departments, and government legal teams. Its practice areas span legal-technology and operations (application management, process automation, AI enablement), strategic advisory, intelligence and research/library services, and vendor governance, delivered by a global team of specialists. Harbor has grown through acquisitions such as iTrain (UK legal-technology training and AI enablement) and CE Global Partners (HCM/HR and payroll transformation). It is a portfolio company of Norwest Venture Partners. Harbor Global is a services company and does not publish a public API, developer portal, or SDKs; this profile is maintained in the API Evangelist network for company identity and discovery.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harborglobal/refs/heads/main/screenshots/harborglobal-2026-07-25T220706.png",
+     "score": 12.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 10.5,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1484,10 +1484,10 @@
      "rank": 32
     },
     {
-     "name": "Harbor Global",
-     "slug": "harborglobal",
-     "description": "Harbor Global is a global professional-services firm delivering technology, operations, strategy, and intelligence consulting to law firms, corporate legal departments, and government legal teams. Its practice areas span legal-technology and operations (application management, process automation, AI enablement), strategic advisory, intelligence and research/library services, and vendor governance, delivered by a global team of specialists. Harbor has grown through acquisitions such as iTrain (UK legal-technology training and AI enablement) and CE Global Partners (HCM/HR and payroll transformation). It is a portfolio company of Norwest Venture Partners. Harbor Global is a services company and does not publish a public API, developer portal, or SDKs; this profile is maintained in the API Evangelist network for company identity and discovery.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harborglobal/refs/heads/main/screenshots/harborglobal-2026-07-25T220706.png",
+     "name": "LawTrades",
+     "slug": "lawtrades",
+     "description": "LawTrades is a legal talent marketplace, founded in 2016, that matches companies with vetted independent attorneys, paralegals, and legal operations professionals on flexible, on-demand terms rather than through traditional law firms or ALSPs. The platform covers eleven practice areas — commercial contracts, corporate law, data privacy and cyber security, intellectual property, labor and employment, legal operations, litigation, M&A, product counsel, real estate, and regulatory compliance — and handles matching, work-log management, invoicing, payments, and real-time spend analytics in-product. A human-in-the-loop AI layer drafts documents and flags risk for lawyer review. LawTrades raised a $6M Series A backed by 500 Global, Draper Associates, Social Capital, and AngelList. As of this enrichment pass the company publishes no public API, developer portal, SDKs, or machine-readable API description.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lawtrades/refs/heads/main/screenshots/lawtrades-2026-07-25T224647.png",
      "score": 12.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1496,13 +1496,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 10.5,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1545,8 +1545,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1573,25 +1573,24 @@
      "rank": 34
     },
     {
-     "name": "LawTrades",
-     "slug": "lawtrades",
-     "description": "LawTrades is a legal talent marketplace, founded in 2016, that matches companies with vetted independent attorneys, paralegals, and legal operations professionals on flexible, on-demand terms rather than through traditional law firms or ALSPs. The platform covers eleven practice areas — commercial contracts, corporate law, data privacy and cyber security, intellectual property, labor and employment, legal operations, litigation, M&A, product counsel, real estate, and regulatory compliance — and handles matching, work-log management, invoicing, payments, and real-time spend analytics in-product. A human-in-the-loop AI layer drafts documents and flags risk for lawyer review. LawTrades raised a $6M Series A backed by 500 Global, Draper Associates, Social Capital, and AngelList. As of this enrichment pass the company publishes no public API, developer portal, SDKs, or machine-readable API description.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lawtrades/refs/heads/main/screenshots/lawtrades-2026-07-25T224647.png",
-     "score": 11.9,
+     "name": "Slalom",
+     "slug": "slalom",
+     "description": "Slalom is a global business and technology consulting firm headquartered in Seattle, Washington, founded in 2001 and privately held, with roughly 12,000 employees across dozens of markets in North America, Europe, Asia and Australia. The firm delivers strategy, artificial intelligence, data, cloud and engineering, customer experience, legacy modernization, digital product building, and privacy and security consulting, and operates the Slalom Build brand for custom software, data platform and product engineering work. Slalom is a delivery partner for Microsoft, AWS, Salesforce, Google Cloud, Adobe and NVIDIA. It sells consulting engagements rather than software, and publishes no public developer program, API reference or machine-readable API contract; the machine-readable surface it does publish is an llms.txt at its marketing root and a security.txt on the Slalom Build site.",
+     "score": 12.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1635,8 +1634,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1680,8 +1679,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1724,8 +1723,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1752,24 +1751,25 @@
      "rank": 38
     },
     {
-     "name": "Alvarez & Marsal",
-     "slug": "alvarez-and-marsal",
-     "description": "Alvarez & Marsal (A&M) is a leading global professional services firm, founded in 1983 by Tony Alvarez II and Bryan Marsal and headquartered in New York City. Privately held, the firm employs more than 10,000 people across six continents and is best known for turnaround and restructuring engagements (Lehman Brothers, HealthSouth, Tribune, FTX, Arthur Andersen) and for performance improvement, tax advisory, transaction advisory, disputes and investigations, valuation, and private equity performance improvement (PEPI) services. A&M does not operate a public developer portal; technology is delivered through client engagements, internal proprietary tools, A&M Capital Partners (the firm's investment arm), and a public Insights / thought-leadership surface published on alvarezandmarsal.com.",
-     "score": 11.1,
+     "name": "Gerson Lehrman Group (GLG)",
+     "slug": "gerson-lehrman-group-glg",
+     "description": "Gerson Lehrman Group (GLG) is the world's leading platform for trusted human expertise, connecting organizations with a network of senior-level subject-matter experts to inform strategic decision-making. For more than 25 years GLG has facilitated expert calls and meetings, on-demand expert content and transcripts, quantitative and qualitative research and surveys, in-person and virtual events, and advisory and placement engagements. Its myGLG platform layers AI-powered and agentic research tools over that expert network. GLG was surfaced as a portfolio company of Bessemer Venture Partners and added to the API Evangelist network. GLG operates no public developer API or documented developer program; this profile captures its public identity, legal, and security surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gerson-lehrman-group-glg/refs/heads/main/screenshots/gerson-lehrman-group-glg-2026-07-25T215702.png",
+     "score": 11.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1796,11 +1796,10 @@
      "rank": 39
     },
     {
-     "name": "Conduent",
-     "slug": "conduent",
-     "description": "Conduent is a major US corporation and Fortune 1000 company. The Conduent API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/conduent/refs/heads/main/screenshots/conduent-2026-07-25T210242.png",
-     "score": 11.0,
+     "name": "Alvarez & Marsal",
+     "slug": "alvarez-and-marsal",
+     "description": "Alvarez & Marsal (A&M) is a leading global professional services firm, founded in 1983 by Tony Alvarez II and Bryan Marsal and headquartered in New York City. Privately held, the firm employs more than 10,000 people across six continents and is best known for turnaround and restructuring engagements (Lehman Brothers, HealthSouth, Tribune, FTX, Arthur Andersen) and for performance improvement, tax advisory, transaction advisory, disputes and investigations, valuation, and private equity performance improvement (PEPI) services. A&M does not operate a public developer portal; technology is delivered through client engagements, internal proprietary tools, A&M Capital Partners (the firm's investment arm), and a public Insights / thought-leadership surface published on alvarezandmarsal.com.",
+     "score": 11.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -1808,68 +1807,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 40
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 10.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 43,
-   "shown": 43,
-   "providers": [
-    {
-     "name": "Fractal Analytics",
-     "slug": "fractal-analytics",
-     "description": "Fractal Analytics Limited (fractal.ai) is an enterprise artificial intelligence services and products company founded in 2000, headquartered in New York with a large delivery footprint in India and roughly 5,000 employees across 18 global locations. Fractal sells AI consulting, data engineering, decision-science and design services to Fortune 500 clients in consumer packaged goods, retail, healthcare and life sciences, technology/media/telecom, financial services, insurance and industrials, and builds products on top of that practice — most notably Cogentiq, its enterprise agentic AI platform (with MCP and agent gateways, low-code agent builder and pre-built domain agents), LLM Studio, and consumer/vertical brands including Flyfish, Asper.ai, Kalaido.ai, Vaidya.ai and iqigai. The company listed on the NSE and BSE under the symbol FRACTAL in February 2026. Its API surface is delivered inside client engagements and gated product tenants rather than through a public developer program: as of this profiling pass Fractal publishes no public developer portal, no OpenAPI or other machine-readable API contract, and no hosted MCP server or A2A agent card.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fractal-analytics/refs/heads/main/screenshots/fractal-analytics-2026-08-07T165431.png",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1893,13 +1837,68 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 40
     },
     {
-     "name": "Gerson Lehrman Group (GLG)",
-     "slug": "gerson-lehrman-group-glg",
-     "description": "Gerson Lehrman Group (GLG) is the world's leading platform for trusted human expertise, connecting organizations with a network of senior-level subject-matter experts to inform strategic decision-making. For more than 25 years GLG has facilitated expert calls and meetings, on-demand expert content and transcripts, quantitative and qualitative research and surveys, in-person and virtual events, and advisory and placement engagements. Its myGLG platform layers AI-powered and agentic research tools over that expert network. GLG was surfaced as a portfolio company of Bessemer Venture Partners and added to the API Evangelist network. GLG operates no public developer API or documented developer program; this profile captures its public identity, legal, and security surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gerson-lehrman-group-glg/refs/heads/main/screenshots/gerson-lehrman-group-glg-2026-07-25T215702.png",
+     "name": "Conduent",
+     "slug": "conduent",
+     "description": "Conduent is a major US corporation and Fortune 1000 company. The Conduent API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/conduent/refs/heads/main/screenshots/conduent-2026-07-25T210242.png",
+     "score": 11.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 11.9,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 41
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 10.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 42,
+   "shown": 42,
+   "providers": [
+    {
+     "name": "Fractal Analytics",
+     "slug": "fractal-analytics",
+     "description": "Fractal Analytics Limited (fractal.ai) is an enterprise artificial intelligence services and products company founded in 2000, headquartered in New York with a large delivery footprint in India and roughly 5,000 employees across 18 global locations. Fractal sells AI consulting, data engineering, decision-science and design services to Fortune 500 clients in consumer packaged goods, retail, healthcare and life sciences, technology/media/telecom, financial services, insurance and industrials, and builds products on top of that practice — most notably Cogentiq, its enterprise agentic AI platform (with MCP and agent gateways, low-code agent builder and pre-built domain agents), LLM Studio, and consumer/vertical brands including Flyfish, Asper.ai, Kalaido.ai, Vaidya.ai and iqigai. The company listed on the NSE and BSE under the symbol FRACTAL in February 2026. Its API surface is delivered inside client engagements and gated product tenants rather than through a public developer program: as of this profiling pass Fractal publishes no public developer portal, no OpenAPI or other machine-readable API contract, and no hosted MCP server or A2A agent card.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fractal-analytics/refs/heads/main/screenshots/fractal-analytics-2026-08-07T165431.png",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1913,8 +1912,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1957,8 +1956,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2001,8 +2000,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2029,6 +2028,51 @@
      "rank": 44
     },
     {
+     "name": "Lexoo",
+     "slug": "lexoo",
+     "description": "Lexoo is a commercial legal services provider that operates as an outsourced in-house legal team for businesses, concentrating on commercial contract review and negotiation. The company handles routine contract work at fixed rates per agreement with a stated maximum two-day turnaround, so internal legal and sales teams are freed for more strategic work. Alongside contract review, Lexoo runs multi-country projects that engage local counsel across more than 70 countries for work such as terms and conditions localisation and regulatory research, and it builds playbooks and training materials that let client teams handle standard agreements independently. The practice is led by Nathalie Lambert and serves scale-ups and start-ups, with published client references including Trustpilot, Nielsen, ComplyAdvantage, Xeneta, Chattermill and Jokr. Lexoo is not an API-first company: it publishes no developer portal, documentation or SDKs, and its only machine-readable surfaces are the standard WordPress REST API and RSS feed exposed by its marketing site.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lexoo/refs/heads/main/screenshots/lexoo-2026-07-25T225002.png",
+     "score": 9.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 45
+    },
+    {
      "name": "Maximus",
      "slug": "maximus",
      "description": "Maximus is a major US corporation and Fortune 1000 company. The Maximus API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
@@ -2046,8 +2090,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2067,51 +2111,6 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 45
-    },
-    {
-     "name": "Lexoo",
-     "slug": "lexoo",
-     "description": "Lexoo is a commercial legal services provider that operates as an outsourced in-house legal team for businesses, concentrating on commercial contract review and negotiation. The company handles routine contract work at fixed rates per agreement with a stated maximum two-day turnaround, so internal legal and sales teams are freed for more strategic work. Alongside contract review, Lexoo runs multi-country projects that engage local counsel across more than 70 countries for work such as terms and conditions localisation and regulatory research, and it builds playbooks and training materials that let client teams handle standard agreements independently. The practice is led by Nathalie Lambert and serves scale-ups and start-ups, with published client references including Trustpilot, Nielsen, ComplyAdvantage, Xeneta, Chattermill and Jokr. Lexoo is not an API-first company: it publishes no developer portal, documentation or SDKs, and its only machine-readable surfaces are the standard WordPress REST API and RSS feed exposed by its marketing site.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lexoo/refs/heads/main/screenshots/lexoo-2026-07-25T225002.png",
-     "score": 8.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -2143,8 +2142,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2195,8 +2194,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2223,24 +2222,25 @@
      "rank": 48
     },
     {
-     "name": "Bain & Company",
-     "slug": "bain-and-company",
-     "description": "Bain & Company is a global management consulting firm and one of the prestigious Big Three strategy consultancies. Bain does not publish a commercial public developer portal; technology integration is delivered through client-specific advisory engagements, Bain proprietary tools (NPS Prism, Helix, Vector), and a Bain-published Insights / research surface that is consumed via the bain.com website and feeds rather than developer APIs.",
-     "score": 8.1,
+     "name": "Lawhive",
+     "slug": "lawhive",
+     "description": "Lawhive is a UK consumer legal-services marketplace that connects individuals and small businesses with regulated solicitors online at fixed, transparent prices, positioned as roughly half the cost of a traditional high-street law firm. Clients answer intake questions on the site, receive a quote or a callback, and are matched with a vetted consultant lawyer who then runs the matter end to end through the Lawhive platform, covering conveyancing, divorce and family, employment, immigration, landlord and tenant, and property work. Lawhive Ltd is not a law firm and does not give legal advice itself; regulated legal services are delivered by its network, including affiliate firm Lawhive Legal Ltd, which is authorised and regulated by the Solicitors Regulation Authority (SRA ID 8003766). The company is backed by Balderton Capital and GV. Lawhive publishes no public developer API, SDK, or API documentation, so this profile captures its identity, legal and compliance posture, and probed domain-security surface rather than an API contract.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lawhive/refs/heads/main/screenshots/lawhive-2026-07-25T224637.png",
+     "score": 8.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
       "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 18.4,
-      "access_clarity": 18.4
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2267,25 +2267,24 @@
      "rank": 49
     },
     {
-     "name": "Fox Rothschild LLP",
-     "slug": "fox-rothschild",
-     "description": "Fox Rothschild LLP is a national US law firm with approximately 1,000 attorneys across 30+ offices. The firm has no public developer APIs. Its programmatic surface is limited to publication and content distribution: subscription-based email alerts and 21+ topical attorney-authored blogs hosted on the LexBlog (WordPress) platform, each of which exposes a standard WordPress RSS 2.0 feed at /feed/. This index catalogs the firm and the RSS-able LexBlog network as the consumable surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fox-rothschild/refs/heads/main/screenshots/fox-rothschild-2026-06-20T181502.png",
-     "score": 7.9,
+     "name": "Bain & Company",
+     "slug": "bain-and-company",
+     "description": "Bain & Company is a global management consulting firm and one of the prestigious Big Three strategy consultancies. Bain does not publish a commercial public developer portal; technology integration is delivered through client-specific advisory engagements, Bain proprietary tools (NPS Prism, Helix, Vector), and a Bain-published Insights / research surface that is consumed via the bain.com website and feeds rather than developer APIs.",
+     "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 74.1,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 18.4,
+      "access_clarity": 18.4
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2312,25 +2311,25 @@
      "rank": 50
     },
     {
-     "name": "UL Solutions",
-     "slug": "ul-solutions",
-     "description": "UL Solutions is a global leader in applied safety science, providing testing, inspection, certification, advisory, and software solutions to help customers innovate safely, demonstrate compliance, and bring trusted products to market. The company offers software products such as ULTRUS and ComplianceWire, customer portals (myUL, Product iQ), and the Marks and Labels Hub. UL Solutions does not currently expose a public developer-facing API portal with open documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ul-solutions/refs/heads/main/screenshots/ul-solutions-2026-06-20T200006.png",
-     "score": 7.8,
+     "name": "Fox Rothschild LLP",
+     "slug": "fox-rothschild",
+     "description": "Fox Rothschild LLP is a national US law firm with approximately 1,000 attorneys across 30+ offices. The firm has no public developer APIs. Its programmatic surface is limited to publication and content distribution: subscription-based email alerts and 21+ topical attorney-authored blogs hosted on the LexBlog (WordPress) platform, each of which exposes a standard WordPress RSS 2.0 feed at /feed/. This index catalogs the firm and the RSS-able LexBlog network as the consumable surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fox-rothschild/refs/heads/main/screenshots/fox-rothschild-2026-06-20T181502.png",
+     "score": 7.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 74.1,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 16.7,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2357,6 +2356,51 @@
      "rank": 51
     },
     {
+     "name": "UL Solutions",
+     "slug": "ul-solutions",
+     "description": "UL Solutions is a global leader in applied safety science, providing testing, inspection, certification, advisory, and software solutions to help customers innovate safely, demonstrate compliance, and bring trusted products to market. The company offers software products such as ULTRUS and ComplianceWire, customer portals (myUL, Product iQ), and the Marks and Labels Hub. UL Solutions does not currently expose a public developer-facing API portal with open documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ul-solutions/refs/heads/main/screenshots/ul-solutions-2026-06-20T200006.png",
+     "score": 7.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 16.7,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 52
+    },
+    {
      "name": "Core10",
      "slug": "core10",
      "description": "Core10, Inc. is a U.S.-based fintech software development and API integration firm founded in 2016 by Lee Farabaugh and Jeff Martin, headquartered in Franklin, Tennessee with delivery centers in Martin, Tennessee and Huntington, West Virginia, built on a domestic-outsourcing model it trademarked as Hereshore(R). Core10 wrote custom software, core-banking integrations and API layers for community banks, credit unions and fintechs, and acquired Accrue Technologies in 2021 to add a Salesforce-based digital lending, account opening and treasury onboarding platform. In January 2024 it spun its implementation practice out as Monarch, and the Core10 brand has since been retired: core10.io now 301-redirects to monarchfts.com, where Monarch operates as an Intapp DealCloud implementation, configuration and managed-services consultancy for private capital firms, while the Accrue platform trades independently at getaccrue.com under its own leadership. Core10 built API integrations for other companies for nearly a decade but never published a developer program, public API, SDK or machine-readable contract of its own, and as of 2026-08-11 neither successor brand does either.",
@@ -2373,8 +2417,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2405,7 +2449,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Crete Professionals Alliance",
@@ -2425,53 +2469,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 53
-    },
-    {
-     "name": "Lawhive",
-     "slug": "lawhive",
-     "description": "Lawhive is a UK consumer legal-services marketplace that connects individuals and small businesses with regulated solicitors online at fixed, transparent prices, positioned as roughly half the cost of a traditional high-street law firm. Clients answer intake questions on the site, receive a quote or a callback, and are matched with a vetted consultant lawyer who then runs the matter end to end through the Lawhive platform, covering conveyancing, divorce and family, employment, immigration, landlord and tenant, and property work. Lawhive Ltd is not a law firm and does not give legal advice itself; regulated legal services are delivered by its network, including affiliate firm Lawhive Legal Ltd, which is authorised and regulated by the Solicitors Regulation Authority (SRA ID 8003766). The company is backed by Balderton Capital and GV. Lawhive publishes no public developer API, SDK, or API documentation, so this profile captures its identity, legal and compliance posture, and probed domain-security surface rather than an API contract.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lawhive/refs/heads/main/screenshots/lawhive-2026-07-25T224637.png",
-     "score": 7.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2498,50 +2497,6 @@
      "rank": 54
     },
     {
-     "name": "Mu Sigma",
-     "slug": "mu-sigma",
-     "description": "Mu Sigma is a decision sciences and AI services company founded in 2004, headquartered in Northbrook, Illinois with its principal delivery centre in Bangalore, India, working with 140+ Fortune 500 clients across retail, pharma, financial services, manufacturing, energy, technology and logistics. Its work is delivered as engagements and platforms rather than as a public developer product: the Art of Problem Solving System (muAoPS), the Akashic Architecture enterprise intelligence foundation, the muTalos agentic-AI ecosystem, Enablers of Confidence, and a Continuous Service-as-a-Software operating model. Mu Sigma publishes no developer portal, no API reference and no machine-readable API contract; its only public machine-readable engineering output is a set of open-source R packages for decision science (HVT, muHVT, analysisPipelines, RImpala, Rdrools) released to CRAN from the github.com/Mu-Sigma organization.",
-     "score": 7.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 2.9,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 55
-    },
-    {
      "name": "EY",
      "slug": "ey",
      "description": "One of the Big Four professional services firms providing audit, tax, consulting, and advisory services. Operates in over 150 countries helping businesses navigate regulatory and strategic challenges, and runs proprietary technology platforms such as EY Helix (analytics), EY Atlas (research), and EY Canvas (audit) for internal and engagement use.",
@@ -2559,8 +2514,53 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 55
+    },
+    {
+     "name": "PwC (PricewaterhouseCoopers)",
+     "slug": "pricewaterhousecoopers",
+     "description": "PricewaterhouseCoopers (PwC) is one of the Big Four professional services firms, with approximately 370,000 staff across a global network of member firms coordinated by PricewaterhouseCoopers International Limited (PwCIL). PwC organizes delivery across three primary service lines — Assurance (audit), Tax (tax compliance, planning, and reporting), and Advisory (consulting, deals, and risk). The firm operates proprietary technology platforms including PwC Halo (a suite of data analytics tools used to support audit engagements), the Trusted AI initiative (PwC's responsible-AI governance and assurance framework), and ProEdge (a workforce upskilling platform). In April 2024 PwC announced a multi-year alliance with OpenAI positioning the firm as both OpenAI's largest customer and its first reseller of ChatGPT Enterprise, supporting PwC's broader generative-AI consulting practice. PwC's research and insights surface — pwc.com/insights, the annual Global CEO Survey, the Global Workforce Hopes and Fears Survey, the Money Tree report, and regional industry outlooks — is the firm's primary public-facing knowledge product. PwC does not publish a public developer portal, OpenAPI specifications, partner API documentation, or a GitHub organization at the corporate level. The github.com/pwc handle is held by an unrelated individual user (Patrick Clearwater). Any technical integrations with PwC platforms are arranged through engagement contracts and the PwC Technology Consulting practice rather than through self-service developer credentials. PwC's content distribution is reader-facing (newsletter subscriptions, the PwC US Newsroom, LinkedIn, YouTube) with no documented public RSS feed endpoint exposing news, press releases, or insights as a syndication contract.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pricewaterhousecoopers/refs/heads/main/screenshots/pricewaterhousecoopers-2026-06-20T192101.png",
+     "score": 6.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 7.9,
+      "access_clarity": 7.9
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2587,51 +2587,6 @@
      "rank": 56
     },
     {
-     "name": "PwC (PricewaterhouseCoopers)",
-     "slug": "pricewaterhousecoopers",
-     "description": "PricewaterhouseCoopers (PwC) is one of the Big Four professional services firms, with approximately 370,000 staff across a global network of member firms coordinated by PricewaterhouseCoopers International Limited (PwCIL). PwC organizes delivery across three primary service lines — Assurance (audit), Tax (tax compliance, planning, and reporting), and Advisory (consulting, deals, and risk). The firm operates proprietary technology platforms including PwC Halo (a suite of data analytics tools used to support audit engagements), the Trusted AI initiative (PwC's responsible-AI governance and assurance framework), and ProEdge (a workforce upskilling platform). In April 2024 PwC announced a multi-year alliance with OpenAI positioning the firm as both OpenAI's largest customer and its first reseller of ChatGPT Enterprise, supporting PwC's broader generative-AI consulting practice. PwC's research and insights surface — pwc.com/insights, the annual Global CEO Survey, the Global Workforce Hopes and Fears Survey, the Money Tree report, and regional industry outlooks — is the firm's primary public-facing knowledge product. PwC does not publish a public developer portal, OpenAPI specifications, partner API documentation, or a GitHub organization at the corporate level. The github.com/pwc handle is held by an unrelated individual user (Patrick Clearwater). Any technical integrations with PwC platforms are arranged through engagement contracts and the PwC Technology Consulting practice rather than through self-service developer credentials. PwC's content distribution is reader-facing (newsletter subscriptions, the PwC US Newsroom, LinkedIn, YouTube) with no documented public RSS feed endpoint exposing news, press releases, or insights as a syndication contract.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pricewaterhousecoopers/refs/heads/main/screenshots/pricewaterhousecoopers-2026-06-20T192101.png",
-     "score": 6.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 7.9,
-      "access_clarity": 7.9
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 57
-    },
-    {
      "name": "Aon",
      "slug": "aon",
      "description": "Aon plc is a London-headquartered global professional services firm delivering integrated risk and human capital advisory through two reporting pillars — Risk Capital (broking, reinsurance, risk analytics) and Human Capital (health, wealth, talent, rewards). The firm operates in over 120 countries, lists on the NYSE under the ticker AON, and grew its US middle-market footprint with the April 2024 acquisition of NFP for roughly $13B. Aon publishes named analytics platforms (Risk Analyzer suite, ReMetrica, CyQu, Spectrum, Impact Forecasting catastrophe models, Radford McLagan Compensation Database, SkillsGraph, Gauge, Revenue GPS) but those tools are delivered through gated client portals — no developer portal, OpenAPI catalog, SDK org, or public API reference is published on aon.com.",
@@ -2649,8 +2604,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2681,6 +2636,50 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 57
+    },
+    {
+     "name": "Mu Sigma",
+     "slug": "mu-sigma",
+     "description": "Mu Sigma is a decision sciences and AI services company founded in 2004, headquartered in Northbrook, Illinois with its principal delivery centre in Bangalore, India, working with 140+ Fortune 500 clients across retail, pharma, financial services, manufacturing, energy, technology and logistics. Its work is delivered as engagements and platforms rather than as a public developer product: the Art of Problem Solving System (muAoPS), the Akashic Architecture enterprise intelligence foundation, the muTalos agentic-AI ecosystem, Enablers of Confidence, and a Continuous Service-as-a-Software operating model. Mu Sigma publishes no developer portal, no API reference and no machine-readable API contract; its only public machine-readable engineering output is a set of open-source R packages for decision science (HVT, muHVT, analysisPipelines, RImpala, Rdrools) released to CRAN from the github.com/Mu-Sigma organization.",
+     "score": 6.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 2.9,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 58
     },
     {
@@ -2701,8 +2700,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2746,8 +2745,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2791,8 +2790,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2819,25 +2818,25 @@
      "rank": 61
     },
     {
-     "name": "Foaster",
-     "slug": "foaster",
-     "description": "Foaster is an AI transformation consultancy that bills itself as \"the AI-native McKinsey.\" Founded in 2026 by Raphael Dabadie and Alexandre Combes and backed by Y Combinator, it deploys AI agents that interview a company's employees at scale, map how work actually gets done, identify bottlenecks and AI opportunities, and draft a transformation roadmap in about two weeks, with expert consultants reviewing the outputs and feeding their corrections back into the system. Its offerings span an AI Transformation Assessment, Continuous AI Transformation with monthly adoption tracking, and Enterprise Deployment backed by forward-deployed engineers. Foaster is a managed professional-services company and does not currently publish a public API, developer portal, SDKs, or other developer-facing technical surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/foaster/refs/heads/main/screenshots/foaster-2026-07-25T214901.png",
-     "score": 5.5,
+     "name": "LegalPad",
+     "slug": "legalpad",
+     "description": "Legalpad (Legalpad Inc, Seattle) was a startup-focused US work-visa and immigration company founded by Todd Heine and Sara Itucas, who first began processing visas together at Teleborder (Y Combinator 2013) and reunited in Techstars Seattle in 2017. Legalpad paired software with staff immigration attorneys to file O-1, H-1B, L-1, TN, E-1/E-2, E-3 and B-1 work visas plus EB-1A, EB-1B, EB-1C, EB-2 and EB-2 NIW employment-based green cards, and said it had helped 500+ companies at roughly one-third the typical processing time. It raised a $2M seed in 2018 and a $10M Series A in 2020 before being acquired by Deel in 2022, after which it operated as \"Legalpad by Deel\" inside Deel Immigration. The legalpad.io web presence was retired after 2024 and the business now lives on as Deel Immigration. Legalpad never published a public API, developer portal, documentation, SDK or other developer surface, so there is no API artifact to enrich.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/legalpad/refs/heads/main/screenshots/legalpad-2026-07-25T224830.png",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2864,10 +2863,11 @@
      "rank": 62
     },
     {
-     "name": "Lawdingo",
-     "slug": "lawdingo",
-     "description": "Lawdingo is a New York City legal-technology company founded in 2012 by Nikhil Nirmel and Dan Langevin, and a Y Combinator Winter 2013 alum backed by Andreessen Horowitz, General Catalyst and AltaIR Capital. It launched as a consumer marketplace for talking to a lawyer on demand, then pivoted to serving law firms and corporate legal departments with remote paralegals and contract attorneys — legal research, litigation drafting, court filing and discovery support — delivered through an online platform where clients assign work, share documents, deposit funds and track hours. Lawdingo publishes no public API, developer portal or SDKs, and as of this enrichment pass its lawdingo.com and www.lawdingo.com domains both return HTTP 404 \"Site Not Found\" from an unpublished Framer site, leaving no live web surface to harvest.",
-     "score": 5.3,
+     "name": "Foaster",
+     "slug": "foaster",
+     "description": "Foaster is an AI transformation consultancy that bills itself as \"the AI-native McKinsey.\" Founded in 2026 by Raphael Dabadie and Alexandre Combes and backed by Y Combinator, it deploys AI agents that interview a company's employees at scale, map how work actually gets done, identify bottlenecks and AI opportunities, and draft a transformation roadmap in about two weeks, with expert consultants reviewing the outputs and feeding their corrections back into the system. Its offerings span an AI Transformation Assessment, Continuous AI Transformation with monthly adoption tracking, and Enterprise Deployment backed by forward-deployed engineers. Foaster is a managed professional-services company and does not currently publish a public API, developer portal, SDKs, or other developer-facing technical surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/foaster/refs/heads/main/screenshots/foaster-2026-07-25T214901.png",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2875,13 +2875,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2908,9 +2908,9 @@
      "rank": 63
     },
     {
-     "name": "McKinsey & Company",
-     "slug": "mckinsey",
-     "description": "McKinsey & Company is a global management consulting firm advising leading businesses, governments, non-profit organizations, and institutions on strategy, operations, technology, and transformation. The firm operates in more than 65 countries and runs QuantumBlack, its AI and analytics arm. No public developer portal or external APIs have been identified for McKinsey & Company; its proprietary platforms (e.g., platform.mckinsey.com) are gated to client engagements and authenticated users only.",
+     "name": "Lawdingo",
+     "slug": "lawdingo",
+     "description": "Lawdingo is a New York City legal-technology company founded in 2012 by Nikhil Nirmel and Dan Langevin, and a Y Combinator Winter 2013 alum backed by Andreessen Horowitz, General Catalyst and AltaIR Capital. It launched as a consumer marketplace for talking to a lawyer on demand, then pivoted to serving law firms and corporate legal departments with remote paralegals and contract attorneys — legal research, litigation drafting, court filing and discovery support — delivered through an online platform where clients assign work, share documents, deposit funds and track hours. Lawdingo publishes no public API, developer portal or SDKs, and as of this enrichment pass its lawdingo.com and www.lawdingo.com domains both return HTTP 404 \"Site Not Found\" from an unpublished Framer site, leaving no live web surface to harvest.",
      "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2924,8 +2924,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2952,11 +2952,10 @@
      "rank": 64
     },
     {
-     "name": "Carr, Riggs & Ingram (CRI)",
-     "slug": "cri",
-     "description": "Carr, Riggs & Ingram (CRI) is a top-25 nationally ranked accounting and advisory firm headquartered in Alabama, operating 70+ locations across 13 states plus Mexico. The firm delivers audit and attest, tax, and advisory services (cybersecurity, fraud and forensics, valuations, and transaction advisory) to more than 18 industries, alongside value add-on subsidiaries including CRI Advanced Analytics, CRI CFO Hub, and CRI M&A Advisors, and is a member of PrimeGlobal. It was surfaced via the VC-portfolio pipeline and enriched here; note that criadv.com is a professional-services accounting firm, not a Bessemer-backed fintech startup, so the portfolio-lead tagging is a domain false-positive. No public API, developer portal, or documentation surface exists.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cri/refs/heads/main/screenshots/cri-2026-07-25T210735.png",
-     "score": 5.0,
+     "name": "McKinsey & Company",
+     "slug": "mckinsey",
+     "description": "McKinsey & Company is a global management consulting firm advising leading businesses, governments, non-profit organizations, and institutions on strategy, operations, technology, and transformation. The firm operates in more than 65 countries and runs QuantumBlack, its AI and analytics arm. No public developer portal or external APIs have been identified for McKinsey & Company; its proprietary platforms (e.g., platform.mckinsey.com) are gated to client engagements and authenticated users only.",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2964,13 +2963,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2997,10 +2996,10 @@
      "rank": 65
     },
     {
-     "name": "Jacobs Engineering Group",
-     "slug": "jacobs-engineering-group",
-     "description": "Jacobs Engineering Group, now operating as Jacobs Solutions, is one of the world's largest providers of professional, technical, and construction services, offering full-spectrum support to industries including aerospace, energy, environmental, infrastructure, and transportation. This entry is retained for legacy continuity; current activity is tracked under Jacobs Solutions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jacobs-engineering-group/refs/heads/main/screenshots/jacobs-engineering-group-2026-06-20T183650.png",
+     "name": "Carr, Riggs & Ingram (CRI)",
+     "slug": "cri",
+     "description": "Carr, Riggs & Ingram (CRI) is a top-25 nationally ranked accounting and advisory firm headquartered in Alabama, operating 70+ locations across 13 states plus Mexico. The firm delivers audit and attest, tax, and advisory services (cybersecurity, fraud and forensics, valuations, and transaction advisory) to more than 18 industries, alongside value add-on subsidiaries including CRI Advanced Analytics, CRI CFO Hub, and CRI M&A Advisors, and is a member of PrimeGlobal. It was surfaced via the VC-portfolio pipeline and enriched here; note that criadv.com is a professional-services accounting firm, not a Bessemer-backed fintech startup, so the portfolio-lead tagging is a domain false-positive. No public API, developer portal, or documentation surface exists.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cri/refs/heads/main/screenshots/cri-2026-07-25T210735.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3014,8 +3013,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3042,10 +3041,10 @@
      "rank": 66
     },
     {
-     "name": "Kelly Services",
-     "slug": "kelly-services",
-     "description": "Kelly Services is a global leader in providing workforce solutions, connecting talented people to companies in need of their skills across a variety of industries including staffing, talent management, and outsourcing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kelly-services/refs/heads/main/screenshots/kelly-services-2026-07-25T223601.png",
+     "name": "Jacobs Engineering Group",
+     "slug": "jacobs-engineering-group",
+     "description": "Jacobs Engineering Group, now operating as Jacobs Solutions, is one of the world's largest providers of professional, technical, and construction services, offering full-spectrum support to industries including aerospace, energy, environmental, infrastructure, and transportation. This entry is retained for legacy continuity; current activity is tracked under Jacobs Solutions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jacobs-engineering-group/refs/heads/main/screenshots/jacobs-engineering-group-2026-06-20T183650.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3059,8 +3058,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3087,10 +3086,10 @@
      "rank": 67
     },
     {
-     "name": "LegalPad",
-     "slug": "legalpad",
-     "description": "Legalpad (Legalpad Inc, Seattle) was a startup-focused US work-visa and immigration company founded by Todd Heine and Sara Itucas, who first began processing visas together at Teleborder (Y Combinator 2013) and reunited in Techstars Seattle in 2017. Legalpad paired software with staff immigration attorneys to file O-1, H-1B, L-1, TN, E-1/E-2, E-3 and B-1 work visas plus EB-1A, EB-1B, EB-1C, EB-2 and EB-2 NIW employment-based green cards, and said it had helped 500+ companies at roughly one-third the typical processing time. It raised a $2M seed in 2018 and a $10M Series A in 2020 before being acquired by Deel in 2022, after which it operated as \"Legalpad by Deel\" inside Deel Immigration. The legalpad.io web presence was retired after 2024 and the business now lives on as Deel Immigration. Legalpad never published a public API, developer portal, documentation, SDK or other developer surface, so there is no API artifact to enrich.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/legalpad/refs/heads/main/screenshots/legalpad-2026-07-25T224830.png",
+     "name": "Kelly Services",
+     "slug": "kelly-services",
+     "description": "Kelly Services is a global leader in providing workforce solutions, connecting talented people to companies in need of their skills across a variety of industries including staffing, talent management, and outsourcing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kelly-services/refs/heads/main/screenshots/kelly-services-2026-07-25T223601.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3104,8 +3103,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3149,8 +3148,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3194,8 +3193,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3238,8 +3237,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3282,8 +3281,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3326,8 +3325,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3370,8 +3369,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3414,8 +3413,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3466,8 +3465,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3511,8 +3510,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3563,8 +3562,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3613,8 +3612,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3663,8 +3662,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3707,8 +3706,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3759,8 +3758,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3803,8 +3802,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

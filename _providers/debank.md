@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -33,18 +33,49 @@ agentic_access:
   summary_line: 42 operations · 4 acting
 api_count: 2
 apis:
-- description: 'The DeBank Cloud Pro API — a Swagger 2.0 contract published at the API host root covering chain and protocol metadata, pool and token data, historical token prices, user portfolio reads (token lists, '
-  name: DeBank OpenAPI
-  slug: debank-openapi
 - description: OAuth 2.0 authorization-code sign-in for dApps. After a user authorizes, the dApp exchanges the code at api.connect.debank.com/oauth/token using HTTP Basic client credentials and reads the user's base
   name: DeBank Connect
   slug: debank-connect
-artifact_total: 9
+- description: The Account API from DeBank — 1 operation(s) for account.
+  name: DeBank Account API
+  slug: debank-account-api
+- description: Get app info
+  name: DeBank App Protocol API
+  slug: debank-app-protocol-api
+- description: Get chain info
+  name: DeBank Chain API
+  slug: debank-chain-api
+- description: The cloud API from DeBank — 5 operation(s) for cloud.
+  name: DeBank Cloud API
+  slug: debank-cloud-api
+- description: The official API from DeBank — 2 operation(s) for official.
+  name: DeBank Official API
+  slug: debank-official-api
+- description: Get pool info
+  name: DeBank Pool API
+  slug: debank-pool-api
+- description: Get protocol info
+  name: DeBank Protocol API
+  slug: debank-protocol-api
+- description: Get token info
+  name: DeBank Token API
+  slug: debank-token-api
+- description: Get user info such as total balance, token list, and portfolio in each protocol
+  name: DeBank User API
+  slug: debank-user-api
+- description: It is not stable at present. If you want to use it, please contact the official first.
+  name: DeBank Wallet API
+  slug: debank-wallet-api
+artifact_total: 18
 collections:
 - collection_type: open
   name: DeBank OpenAPI
   slug: open-debank-pro
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/debank-pro-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -149,10 +180,10 @@ modified: '2026-08-12'
 name: DeBank
 nav: Providers
 network: true
-overview: 'DeBank publishes 1 API on the [APIs.io](https://apis.io/) network: OpenAPI. Tagged areas include Web3, DeFi, Blockchain, Crypto, and Portfolio Tracking.
+overview: 'DeBank publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account API, App Protocol API, Chain API, and 7 more. Tagged areas include Web3, DeFi, Blockchain, Crypto, and portfolio-tracking.
 
 
-  DeBank''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, changelog, and 17 more developer resources.'
+  DeBank''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, changelog, and 18 more developer resources.'
 plans:
 - name: Debank Plans Pricing
   plan_count: 0
@@ -169,18 +200,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 37.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 36.7
+    contract_governance: 4.5
+    contract_quality: 39.3
     developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 37.8
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -197,8 +233,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/screenshots/debank-2026-08-17T080851.png
 security:
@@ -216,12 +252,12 @@ tags:
 - DeFi
 - Blockchain
 - Crypto
-- Portfolio Tracking
-- On-Chain Data
+- portfolio-tracking
+- on-chain-data
 - Wallets
 - token-data
-- NFT
-- Ethereum
+- nft
+- ethereum
 - Authentication
 - Market Data
 website: https://debank.com/

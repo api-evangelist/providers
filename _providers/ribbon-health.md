@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 73
   slug: ribbon-health-agentic-access
   summary_line: 73 operations · 34 acting
-api_count: 11
+api_count: 1
 apis:
 - description: The Cost Estimates API from Ribbon Health — 4 operation(s) for cost estimates.
   name: Ribbon Health Cost Estimates API
@@ -123,6 +123,10 @@ collections:
   name: ribbon-health Cost Estimates TINs API
   slug: open-ribbon-health-tins-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ribbon-health-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -476,7 +480,7 @@ overview: 'Ribbon Health publishes 11 APIs on the [APIs.io](https://apis.io/) ne
   The Ribbon Health catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ribbon Health''s developer surface includes authentication, documentation, engineering blog, pricing, code examples, API reference, getting-started guide, and 26 more developer resources.'
+  Ribbon Health''s developer surface includes authentication, documentation, engineering blog, pricing, code examples, API reference, getting-started guide, and 27 more developer resources.'
 plans:
 - name: Ribbon Health Plans Pricing
   plan_count: 1
@@ -499,18 +503,23 @@ rules:
   slug: ribbon-health-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.2
-  delta: 0.0
+  composite: 62.2
+  coverage:
+    artifact_dirs: 28
+    catalog_gap: 28.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 41.7
+    contract_governance: 29.5
     contract_quality: 73.9
     developer_ergonomics: 39.9
-    discoverability: 81.5
-    governance: 41.7
+    discoverability: 75.9
+    governance: 29.5
     operational_transparency: 50.0
-  previous_composite: 64.2
+  previous_composite: 62.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -527,8 +536,8 @@ score:
     regime: Health
     regime_id: health
     score: 41.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ribbon-health/refs/heads/main/screenshots/ribbon-health-2026-06-20T193110.png
 security:

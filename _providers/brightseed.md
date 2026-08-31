@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -102,6 +102,10 @@ collections:
   name: Brightseed Site Content API (WordPress REST API) users API
   slug: open-brightseed-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/brightseed-capability-edges.yml
 - group: auth
   title: ''
   type: Authentication
@@ -226,22 +230,27 @@ network: true
 overview: 'Brightseed publishes 11 APIs on the [APIs.io](https://apis.io/) network, including posts API, pages API, media API, and 8 more. Tagged areas include Company, Bioactives, Artificial Intelligence, Life Sciences, and Nutrition.
 
 
-  Brightseed''s developer surface includes authentication, engineering blog, and 25 more developer resources.'
+  Brightseed''s developer surface includes authentication, engineering blog, and 26 more developer resources.'
 random_paper: 7
 score:
   band: thin
-  composite: 37.1
-  delta: 3.4
+  composite: 35.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 55.7
     developer_ergonomics: 32.7
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 33.7
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,8 +267,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightseed/refs/heads/main/screenshots/brightseed-2026-08-07T162813.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 3
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 18
   slug: method-security-agentic-access
   summary_line: 18 operations · 10 acting · 3 human-in-the-loop
-api_count: 10
+api_count: 1
 apis:
 - description: The audit API from Method Security — 1 operation(s) for audit.
   name: Method Security audit API
@@ -264,18 +264,23 @@ overview: 'Method Security publishes 10 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 20
 score:
   band: strong
-  composite: 59.1
-  delta: 0.6
+  composite: 55.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 54.3
     developer_ergonomics: 68.5
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 58.5
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -292,8 +297,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 66.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/method-security/refs/heads/main/screenshots/method-security-2026-08-07T172708.png
 security:

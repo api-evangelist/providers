@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 29
   slug: accelo-agentic-access
   summary_line: 29 operations · 14 acting
-api_count: 8
+api_count: 1
 apis:
 - description: REST API for Accelo with CRUD access to companies, contacts, activities, tasks, projects (jobs), milestones, invoices, contracts, quotes, prospects, time entries, staff, and webhooks. Uses OAuth 2.0 (
   name: Accelo REST API
@@ -169,15 +169,20 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 28.1
-  delta: 0.0
+  composite: 27.6
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
     contract_governance: 0.0
     contract_quality: 44.9
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 28.1
@@ -188,8 +193,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/screenshots/accelo-2026-06-20T163557.png
 security:

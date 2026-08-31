@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1
   slug: microsoft-clarity-agentic-access
   summary_line: 1 operation
-api_count: 2
+api_count: 1
 apis:
 - description: Microsoft Clarity provides heatmaps, session recordings, and behavioral analytics with API access for custom integrations.
   name: Microsoft Clarity API
@@ -233,18 +233,23 @@ rate_limits:
   slug: microsoft-clarity-rate-limits
 score:
   band: strong
-  composite: 61.2
+  composite: 59.4
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 57.1
     developer_ergonomics: 66.1
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 61.2
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -255,8 +260,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-clarity/refs/heads/main/screenshots/microsoft-clarity-2026-06-20T185449.png
 security:

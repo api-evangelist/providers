@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 0
   slug: photon-agentic-access
   summary_line: 0 operations
-api_count: 3
+api_count: 1
 apis:
 - description: Photon's native GraphQL Clinical API for managing patients, prescriptions, orders, pharmacies, the treatment/medication catalog, drug-drug and drug-allergy interaction screening, webhooks, and organiz
   name: Photon Clinical API
@@ -40,15 +40,25 @@ apis:
 - description: 'Photon''s GraphQL Patient Benefits API for managing patient benefits and enabling pharmacy benefit checks (coverage options, copay, and formulary) during the prescribing workflow. Served over the same '
   name: Photon Patient Benefits API
   slug: photon-patient-benefits-api
-- description: 'Photon''s public website API, covering the onboarding funnel and newsletter signup: create or resume an onboarding session, save path-specific onboarding answers, submit a completed onboarding flow, an'
-  name: Photon Website API
-  slug: photon-website-api
-artifact_total: 12
+- description: Machine-readable discovery resources for agents and integrations.
+  name: Photon Agent discovery API
+  slug: photon-agent-discovery-api
+- description: First-party endpoint for adding newsletter signups to Ghost Members.
+  name: Photon Newsletter API
+  slug: photon-newsletter-api
+- description: First-party onboarding endpoints for prescriber, developer, clinic, enterprise, platform, and other paths.
+  name: Photon Onboarding API
+  slug: photon-onboarding-api
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Photon Order Events Webhooks
   slug: photon-order-events-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/photon-developer-sandbox-onboarding.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -229,13 +239,13 @@ modified: '2026-07-24T18:00:00Z'
 name: Photon
 nav: Providers
 network: true
-overview: 'Photon publishes 1 API on the [APIs.io](https://apis.io/) network: Website API. Tagged areas include Healthcare, United States, e-Prescribing, Pharmacy, and Prescription Routing.
+overview: 'Photon publishes 3 APIs on the [APIs.io](https://apis.io/) network: Agent discovery API, Newsletter API, and Onboarding API. Tagged areas include Healthcare, United States, e-Prescribing, Pharmacy, and Prescription Routing.
 
 
   The Photon catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Photon''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, engineering blog, sandbox, and 35 more developer resources.'
+  Photon''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, engineering blog, sandbox, and 36 more developer resources.'
 plans:
 - name: Photon Plans Pricing
   plan_count: 0
@@ -252,18 +262,23 @@ scopes:
   summary_line: 6 scopes
 score:
   band: strong
-  composite: 58.8
-  delta: 0.0
+  composite: 56.3
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
-    contract_quality: 58.8
+    contract_governance: 18.2
+    contract_quality: 61.5
     developer_ergonomics: 53.0
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 58.8
+  previous_composite: 56.9
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -271,12 +286,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/screenshots/photon-2026-08-17T081212.png
 security:

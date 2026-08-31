@@ -23,19 +23,61 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 19
 apis:
-- description: OpenAPI 3.1 platform API for MNTN Performance TV. Covers advertisers and organizations, campaign and flight lifecycle (create, update, launch, pause, archive), creatives, audiences including geo lists
-  name: MNTN Performance TV (PTV) API
-  slug: mntn-performance-tv-ptv-api
 - description: Public partner reporting surface at api3.mountain.com. GET /apilist returns the tables and columns available to the authenticated advertiser; GET and POST /apidata execute multidimensional queries ove
   name: MNTN Reporting API 3.0
   slug: mntn-reporting-api-30
-- description: Asynchronous CSV export API under /batch on api3.mountain.com, for reporting queries too large or slow to run synchronously (a 413 on /apidata is the documented trigger). POST /batch enqueues a job an
-  name: MNTN Async Batch Export API
-  slug: mntn-async-batch-export-api
-artifact_total: 26
+- description: Advertiser directory.
+  name: MNTN Advertisers API
+  slug: mntn-advertisers-api
+- description: Public reporting data (`/apidata`)
+  name: MNTN API
+  slug: mntn-api-api
+- description: Advertiser attribution windows, estimates, sales cycle, and verified-visit blacklist settings.
+  name: MNTN Attribution API
+  slug: mntn-attribution-api
+- description: Audience and geo-list management.
+  name: MNTN Audiences API
+  slug: mntn-audiences-api
+- description: Async CSV exports under **`/batch`…** (submit, poll status, signed download URLs)
+  name: MNTN Batch API
+  slug: mntn-batch-api
+- description: Campaign list, lookup, and lifecycle.
+  name: MNTN Campaigns API
+  slug: mntn-campaigns-api
+- description: Creative library lookup, with normalized video processing status.
+  name: MNTN Creatives API
+  slug: mntn-creatives-api
+- description: Flight (budget window) reads and updates within a campaign.
+  name: MNTN Flights API
+  slug: mntn-flights-api
+- description: Organization name and mode updates (proxied to advertiser-service).
+  name: MNTN Organizations API
+  slug: mntn-organizations-api
+- description: Pixel configuration, health, verification, and GA4 management.
+  name: MNTN Pixel API
+  slug: mntn-pixel-api
+- description: Deal-group assignment to campaigns.
+  name: MNTN Pmp Campaign Deals API
+  slug: mntn-pmp-campaign-deals-api
+- description: Private marketplace channel reference set.
+  name: MNTN Pmp Channels API
+  slug: mntn-pmp-channels-api
+- description: Private marketplace deal-group management and deal membership.
+  name: MNTN Pmp Deal Groups API
+  slug: mntn-pmp-deal-groups-api
+- description: Private marketplace deal reads and lifecycle.
+  name: MNTN Pmp Deals API
+  slug: mntn-pmp-deals-api
+- description: Private marketplace partner directory.
+  name: MNTN Pmp Partners API
+  slug: mntn-pmp-partners-api
+- description: Enumerations and lookup data shared across endpoints.
+  name: MNTN Reference API
+  slug: mntn-reference-api
+artifact_total: 40
 collections:
 - collection_type: open
   name: MNTN Async Batch Export API - Batch
@@ -89,6 +131,14 @@ collections:
   name: MNTN Reporting API - API
   slug: open-mntn-reporting-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mntn-ptv-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mntn-batch-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -218,10 +268,10 @@ modified: '2026-08-12'
 name: MNTN
 nav: Providers
 network: true
-overview: 'MNTN publishes 3 APIs on the [APIs.io](https://apis.io/) network: Performance TV (PTV) API, Reporting API 3.0, and Async Batch Export API. Tagged areas include Connected TV, ctv-advertising, Advertising, Performance Marketing, and Streaming TV.
+overview: 'MNTN publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Reporting API 3.0, Advertisers API, and 15 more. Tagged areas include connected-tv, ctv-advertising, Advertising, performance-marketing, and streaming-tv.
 
 
-  MNTN''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 23 more developer resources.'
+  MNTN''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 25 more developer resources.'
 plans:
 - name: Mntn Plans Pricing
   plan_count: 0
@@ -233,18 +283,23 @@ rate_limits:
   slug: mntn-rate-limits
 score:
   band: developing
-  composite: 50.8
+  composite: 48.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
-    contract_quality: 60.8
+    contract_governance: 4.5
+    contract_quality: 60.1
     developer_ergonomics: 49.4
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 50.8
+  previous_composite: 48.0
   provenance:
     conformance: derived
     contracts:
@@ -254,8 +309,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mntn/refs/heads/main/screenshots/mntn-2026-08-17T081059.png
 security:
@@ -277,18 +332,18 @@ security:
   summary_line: SOC 2 Type II
 slug: mntn
 tags:
-- Connected TV
+- connected-tv
 - ctv-advertising
 - Advertising
-- Performance Marketing
-- Streaming TV
-- Media Buying
+- performance-marketing
+- streaming-tv
+- media-buying
 - Attribution
-- Audience Targeting
-- Conversion Tracking
-- Programmatic Advertising
+- audience-targeting
+- conversion-tracking
+- programmatic-advertising
 - private-marketplace
 - marketing-reporting
-- AdTech
+- adtech
 website: https://mountain.com/
 ---

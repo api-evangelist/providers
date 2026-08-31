@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 139
   slug: supaglue-agentic-access
   summary_line: 139 operations · 65 acting
-api_count: 40
+api_count: 9
 apis:
 - description: The `Account` Common Object represents a "company" in CRMs.
   name: Supaglue Accounts API
@@ -149,22 +149,25 @@ apis:
 - description: The `User` Common Object represents a "user" that can log in to CRMs.
   name: Supaglue Users API
   slug: supaglue-users-api
-- description: 'The Actions API is Supaglue''s escape hatch: sendPassthroughRequest forwards a raw method, path, headers, query and body to the customer''s native third-party provider API using the credentials Supaglue'
-  name: Supaglue Actions API
-  slug: supaglue-actions-api
-- description: The Data Listing API exposes provider-native record listings — Salesforce accounts and contacts, HubSpot companies and contacts — read straight from the Managed Destination rather than through the uni
-  name: Supaglue Data Listing API
-  slug: supaglue-data-api
-- description: The Unified Enrichment API provides a single enrichPerson operation across enrichment providers (Clearbit, 6sense, ZoomInfo), returning a normalized person record for an email address.
-  name: Supaglue Unified Enrichment API
-  slug: supaglue-enrichment-api
-- description: The Unified Marketing Automation API lists a provider's forms, reads a form's field definitions, and submits a form on behalf of a customer — one contract across marketing-automation providers such as
-  name: Supaglue Unified Marketing Automation API
-  slug: supaglue-marketing-automation-api
-- description: The Metadata API lists a provider's standard objects, custom objects and properties. Two of its three operations are explicitly marked deprecated in favour of the equivalents on the Unified CRM API.
-  name: Supaglue Metadata API
-  slug: supaglue-metadata-api
-artifact_total: 99
+- description: Endpoints for managing and submitting forms
+  name: Supaglue Forms API
+  slug: supaglue-forms-api
+- description: Hubspot is a CRM Provider.
+  name: Supaglue Hubspot API
+  slug: supaglue-hubspot-api
+- description: Passthrough operations to underlying providers.
+  name: Supaglue Passthrough API
+  slug: supaglue-passthrough-api
+- description: Relating to enrichment data that is derived from information about a Person. This may include demographic and firmographic data.
+  name: Supaglue Persons API
+  slug: supaglue-persons-api
+- description: Salesforce is a CRM Provider.
+  name: Supaglue Salesforce API
+  slug: supaglue-salesforce-api
+- description: The Webhook Events API from Supaglue — 0 operation(s) for webhook events.
+  name: Supaglue Webhook Events API
+  slug: supaglue-webhook-events-api
+artifact_total: 100
 asyncapis:
 - description: ''
   name: Supaglue Webhooks
@@ -306,6 +309,10 @@ collections:
   name: Unified CRM Accounts Users API
   slug: open-supaglue-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/supaglue-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -496,13 +503,13 @@ modified: '2026-08-13'
 name: Supaglue
 nav: Providers
 network: true
-overview: 'Supaglue publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Associations API, AssociationSchemas API, and 37 more. Tagged areas include CRM, HRIS, Unified-API, Open-Source, and Integration.
+overview: 'Supaglue publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Associations API, AssociationSchemas API, and 38 more. Tagged areas include CRM, HRIS, Unified-API, Open-Source, and Integration.
 
 
   The Supaglue catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Supaglue''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, and 35 more developer resources.'
+  Supaglue''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, and 36 more developer resources.'
 plans:
 - name: Supaglue Plans Pricing
   plan_count: 1
@@ -535,19 +542,24 @@ rules:
     warn: 4
   slug: supaglue-rules
 score:
-  band: strong
-  composite: 55.5
-  delta: -0.8
+  band: developing
+  composite: 54.0
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 43.9
-    contract_quality: 69.2
+    contract_governance: 31.8
+    contract_quality: 69.1
     developer_ergonomics: 42.3
     discoverability: 74.1
-    governance: 43.9
+    governance: 31.8
     operational_transparency: 42.1
-  previous_composite: 56.3
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -558,8 +570,8 @@ score:
       total: 40
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/screenshots/supaglue-2026-08-17T083633.png
 security:

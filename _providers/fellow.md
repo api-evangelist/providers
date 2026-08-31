@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST API for accessing Fellow meeting data — recordings, transcripts, structured notes, and action items — plus recording uploads and webhook management. Uses X-API-KEY authentication, cursor-based pa
@@ -186,7 +186,7 @@ modified: '2026-07-19'
 name: Fellow
 nav: Providers
 network: true
-overview: 'Fellow publishes 1 API on the [APIs.io](https://apis.io/) network: Developer API. Tagged areas include Company, Software-as-a-Service, Meetings, Artificial Intelligence, and Meeting Notes.
+overview: 'Fellow publishes 1 API on the [APIs.io](https://apis.io/) network: Developer API. Tagged areas include Company, Saas, Meetings, Artificial Intelligence, and Meeting Notes.
 
 
   The Fellow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -205,7 +205,12 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.3
+  composite: 47.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 52.6
@@ -213,16 +218,16 @@ score:
     contract_governance: 18.2
     contract_quality: 42.6
     developer_ergonomics: 39.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 63.2
-  previous_composite: 48.3
+  previous_composite: 47.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/screenshots/fellow-2026-07-25T214332.png
 security:
@@ -237,7 +242,7 @@ security:
 slug: fellow
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Meetings
 - Artificial Intelligence
 - Meeting Notes

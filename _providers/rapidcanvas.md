@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Bearer-token REST API behind the RapidCanvas platform and the RC CLI. All CLI interactions are HTTPS calls to https://<host>/api/... No public OpenAPI reference is published; the OAuth authorization-s
@@ -149,7 +149,12 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.2
+  composite: 27.1
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
@@ -157,12 +162,12 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 47.6
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 28.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 27.1
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -187,7 +192,7 @@ tags:
 - MLOps
 - Enterprise AI
 - AI Governance
-- Low-Code
+- Low Code
 - Developer Tools
 website: https://www.rapidcanvas.ai/
 ---

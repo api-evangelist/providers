@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,12 +40,24 @@ agentic_access:
   operation_count: 5
   slug: spekit-agentic-access
   summary_line: 5 operations
-api_count: 1
+api_count: 2
 apis:
-- description: The Spekit API is a read-only reporting surface over an organization's Spekit enablement data, published as OpenAPI 3.0.3 at https://api.spekit.co/api-schema/ and rendered in Swagger UI at https://api
-  name: Spekit API
-  slug: spekit-api
-artifact_total: 10
+- description: The Searches API from Spekit — 1 operation(s) for searches.
+  name: Spekit Searches API
+  slug: spekit-searches-api
+- description: The Spek Reactions API from Spekit — 1 operation(s) for spek reactions.
+  name: Spekit Spek Reactions API
+  slug: spekit-spek-reactions-api
+- description: The Spek Views API from Spekit — 1 operation(s) for spek views.
+  name: Spekit Spek Views API
+  slug: spekit-spek-views-api
+- description: The User Activities API from Spekit — 1 operation(s) for user activities.
+  name: Spekit User Activities API
+  slug: spekit-user-activities-api
+- description: The Users API from Spekit — 1 operation(s) for users.
+  name: Spekit Users API
+  slug: spekit-users-api
+artifact_total: 14
 common:
 - group: agent
   title: ''
@@ -224,7 +236,7 @@ modified: '2026-08-14'
 name: Spekit
 nav: Providers
 network: true
-overview: 'Spekit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Sales Enablement, Revenue Enablement, and Digital Adoption.
+overview: 'Spekit publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Searches API, Spek Reactions API, Spek Views API, and 2 more. Tagged areas include Company, Saas, Sales Enablement, Revenue Enablement, and Digital Adoption.
 
 
   Spekit''s developer surface includes authentication, engineering blog, pricing, signup flow, documentation, API reference, getting-started guide, and 34 more developer resources.'
@@ -243,19 +255,24 @@ scopes:
   slug: spekit-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: strong
-  composite: 54.5
-  delta: 0.0
+  band: developing
+  composite: 51.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 30.3
-    contract_quality: 52.4
+    contract_governance: 18.2
+    contract_quality: 50.7
     developer_ergonomics: 58.9
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 54.5
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -266,8 +283,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spekit/refs/heads/main/screenshots/spekit-2026-08-17T082023.png
 security:
@@ -290,7 +307,7 @@ security:
 slug: spekit
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Sales Enablement
 - Revenue Enablement
 - Digital Adoption

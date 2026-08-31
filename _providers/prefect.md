@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 283
   human_in_the_loop: 6
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 436
   slug: prefect-agentic-access
   summary_line: 436 operations · 283 acting · 6 human-in-the-loop
-api_count: 63
+api_count: 1
 apis:
 - description: 'The Prefect Server REST API is the self-hosted variant of the Prefect orchestration API for managing workflows, flow runs, task runs, deployments, and work pools. When running Prefect server locally, '
   name: Prefect Server REST API
@@ -424,6 +424,30 @@ collections:
   name: Prefect Cloud API
   slug: open-prefect
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/prefect-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/PrefectHQ/prefect/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/PrefectHQ/prefect/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/PrefectHQ/prefect/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/PrefectHQ/prefect/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/PrefectHQ/prefect/blob/main/.github/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -527,7 +551,7 @@ network: true
 overview: 'Prefect publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Account Billing API, Account Images API, Account Memberships API, and 58 more. Tagged areas include Automation, Data Pipeline, Orchestration, Python, and Workflows.
 
 
-  Prefect''s developer surface includes developer portal, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 14 more developer resources.'
+  Prefect''s developer surface includes developer portal, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 20 more developer resources.'
 plans:
 - name: Prefect Plans Pricing
   plan_count: 3
@@ -538,19 +562,27 @@ rate_limits:
   name: Prefect Rate Limits
   slug: prefect-rate-limits
 score:
-  band: thin
-  composite: 39.1
-  delta: 0.0
+  band: developing
+  composite: 43.9
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 82.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 0.0
     contract_quality: 44.8
     developer_ergonomics: 16.7
-    discoverability: 66.7
+    discoverability: 51.9
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 39.1
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     contracts:
@@ -558,8 +590,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 61
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prefect/refs/heads/main/screenshots/prefect-2026-06-20T192044.png
 security:

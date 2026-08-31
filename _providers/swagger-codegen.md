@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 10
   slug: swagger-codegen-agentic-access
   summary_line: 10 operations · 3 acting
-api_count: 5
+api_count: 3
 apis:
 - description: The Swagger Codegen command-line interface for generating code artifacts locally. Available as a JAR file and Docker image. Supports the same generators as the online API with additional template cust
   name: Swagger Codegen CLI
@@ -58,7 +58,16 @@ apis:
 - description: Template rendering and intermediate model generation
   name: Swagger Codegen Utilities API
   slug: swagger-codegen-utilities-api
-artifact_total: 27
+- description: The clients API from Swagger Codegen — 9 operation(s) for clients.
+  name: Swagger Codegen Clients API
+  slug: swagger-codegen-clients-api
+- description: The documentation API from Swagger Codegen — 2 operation(s) for documentation.
+  name: Swagger Codegen Documentation API
+  slug: swagger-codegen-documentation-api
+- description: The servers API from Swagger Codegen — 4 operation(s) for servers.
+  name: Swagger Codegen Servers API
+  slug: swagger-codegen-servers-api
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -79,6 +88,14 @@ collections:
   name: Swagger Generator API
   slug: open-swagger-generator
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/swagger-api/swagger-codegen/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/swagger-api/swagger-codegen/blob/master/CONTRIBUTING.md
 - group: agent
   title: ''
   type: MCPServer
@@ -271,13 +288,13 @@ modified: '2026-08-06'
 name: Swagger Codegen
 nav: Providers
 network: true
-overview: 'Swagger Codegen publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Generation API, Languages API, Options API, and 1 more. Tagged areas include Client Libraries, Code Generation, Open-Source, OpenAPI, and SDK.
+overview: 'Swagger Codegen publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Generation API, Languages API, Options API, and 4 more. Tagged areas include Client Libraries, Code Generation, Open-Source, OpenAPI, and SDK.
 
 
   The Swagger Codegen catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Swagger Codegen''s developer surface includes developer portal, documentation, release notes, CLI, authentication, changelog, sandbox, and 32 more developer resources.'
+  Swagger Codegen''s developer surface includes developer portal, documentation, release notes, CLI, authentication, changelog, sandbox, and 34 more developer resources.'
 plans:
 - name: Swagger Codegen Plans Pricing
   plan_count: 3
@@ -311,18 +328,26 @@ rules:
   slug: swagger-codegen-rules
 score:
   band: strong
-  composite: 58.1
+  composite: 56.9
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 43.9
-    contract_quality: 55.6
+    contract_governance: 31.8
+    contract_quality: 53.0
     developer_ergonomics: 80.4
     discoverability: 64.8
-    governance: 43.9
+    governance: 31.8
     operational_transparency: 44.7
-  previous_composite: 58.1
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -333,8 +358,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/screenshots/swagger-codegen-2026-06-20T194753.png
 security:

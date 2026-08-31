@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 97
   slug: worldpay-agentic-access
   summary_line: 97 operations · 69 acting
-api_count: 46
+api_count: 20
 apis:
 - description: Tokenize and manage payment card data to minimize sensitive data exposure and increase security. Supports creation of tokens from card details, detokenization with masked output, and verified tokens t
   name: Worldpay Tokens API
@@ -179,10 +179,7 @@ apis:
 - description: The VerifiedTokens API from Worldpay — 2 operation(s) for verifiedtokens.
   name: Worldpay VerifiedTokens API
   slug: worldpay-verifiedtokens-api
-- description: Worldpay Events from Worldpay, described in OpenAPI.
-  name: Worldpay Events
-  slug: worldpay-events-openapi
-artifact_total: 88
+artifact_total: 87
 collections:
 - collection_type: open
   name: API Collection
@@ -287,6 +284,10 @@ collections:
   name: 3DS 3DS actions VerifiedTokens API
   slug: open-worldpay-verifiedtokens-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/worldpay-capability-edges.yml
 - group: operate
   title: ''
   type: Support
@@ -383,10 +384,10 @@ modified: '2026-06-13'
 name: Worldpay
 nav: Providers
 network: true
-overview: 'Worldpay publishes 35 APIs on the [APIs.io](https://apis.io/) network, including FraudSight API, 3DS actions API, Accounts API, and 32 more. Tagged areas include Payments, Payment Processing, Payment Gateway, Tokenization, and Fraud Prevention.
+overview: 'Worldpay publishes 34 APIs on the [APIs.io](https://apis.io/) network, including FraudSight API, 3DS actions API, Accounts API, and 31 more. Tagged areas include Payments, Payment Processing, Payment Gateway, Tokenization, and Fraud Prevention.
 
 
-  Worldpay''s developer surface includes support, getting-started guide, authentication, documentation, signup flow, status page, changelog, and 12 more developer resources.'
+  Worldpay''s developer surface includes support, getting-started guide, authentication, documentation, signup flow, status page, changelog, and 13 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -398,18 +399,23 @@ rate_limits:
   slug: rate-limits
 score:
   band: developing
-  composite: 46.4
+  composite: 46.5
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 0.0
-    contract_quality: 60.5
+    contract_quality: 61.1
     developer_ergonomics: 50.0
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 46.4
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -423,8 +429,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldpay/refs/heads/main/screenshots/worldpay-2026-08-17T130436.png
 security:

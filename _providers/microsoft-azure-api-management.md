@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 151
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 310
   slug: microsoft-azure-api-management-agentic-access
   summary_line: 310 operations · 151 acting
-api_count: 71
+api_count: 1
 apis:
 - description: Azure API Center is the design-time governance and centralized discovery counterpart to Azure API Management. It enables organizations to track all of their APIs - regardless of type, lifecycle stage,
   name: Azure API Center
@@ -1265,18 +1265,26 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 58.0
-  delta: 0.0
+  composite: 61.8
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 47.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 3.7
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 28.8
-    contract_quality: 25.2
+    contract_quality: 25.6
     developer_ergonomics: 92.9
-    discoverability: 75.9
+    discoverability: 70.4
     governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 58.0
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1284,8 +1292,8 @@ score:
       derived: 70
       marker_coverage: 100.0
       total: 70
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-api-management/refs/heads/main/screenshots/microsoft-azure-api-management-2026-08-07T172834.png
 security:

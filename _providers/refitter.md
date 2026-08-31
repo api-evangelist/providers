@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Refitter is a .NET source generator and CLI tool that produces Refit HTTP client interfaces from OpenAPI 2.0 and 3.x specifications. Supports compile-time code generation via MSBuild source generators
@@ -44,6 +44,10 @@ apis:
   slug: refit
 artifact_total: 12
 common:
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/christianhelle/refitter/blob/main/CONTRIBUTING.md
 - group: company
   title: ''
   type: Website
@@ -185,7 +189,7 @@ overview: 'Refitter publishes 2 APIs on the [APIs.io](https://apis.io/) network.
   The Refitter catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Refitter''s developer surface includes documentation, API reference, getting-started guide, support, CLI, changelog, and 20 more developer resources.'
+  Refitter''s developer surface includes documentation, API reference, getting-started guide, support, CLI, changelog, and 21 more developer resources.'
 plans:
 - name: Refitter Plans Pricing
   plan_count: 3
@@ -208,7 +212,12 @@ rules:
   slug: refitter-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.1
+  composite: 35.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 57.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -219,12 +228,15 @@ score:
     discoverability: 59.3
     governance: 43.2
     operational_transparency: 47.4
-  previous_composite: 34.1
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 35.7
   provenance:
     conformance: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refitter/refs/heads/main/screenshots/refitter-2026-06-20T192745.png
 security:
@@ -240,6 +252,6 @@ tags:
 - OpenAPI
 - Refit
 - Source Generator
-- Type Safe
+- Type-Safe
 website: https://refitter.github.io
 ---

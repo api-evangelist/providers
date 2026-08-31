@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: leafly-agentic-access
   summary_line: 5 operations · 3 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Order (Reservations) API that lets any cannabis POS provider integrate Leafly online orders into its own system, taking ownership of the order integration rather than relying on a bespoke Leafly-built
   name: Leafly Order API
@@ -65,6 +65,10 @@ collections:
   name: Leafly Integration Menu Status API
   slug: open-leafly-status-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/leafly-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -132,7 +136,7 @@ network: true
 overview: 'Leafly publishes 2 APIs on the [APIs.io](https://apis.io/) network: Menu API and Status API. Tagged areas include Cannabis, Dispensary, Menu Sync, POS Integration, and Retail.
 
 
-  Leafly''s developer surface includes authentication, documentation, signup flow, support, engineering blog, and 8 more developer resources.'
+  Leafly''s developer surface includes authentication, documentation, signup flow, support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Leafly Plans Pricing
   plan_count: 2
@@ -149,18 +153,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 39.2
-  delta: 1.4
+  composite: 38.6
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.8
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -168,8 +177,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/screenshots/leafly-2026-07-25T224732.png
 security:

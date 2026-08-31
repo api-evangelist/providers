@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -229,18 +229,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.2
+  composite: 46.7
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 54.4
     developer_ergonomics: 54.2
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 55.3
-  previous_composite: 49.2
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -251,8 +256,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/screenshots/gamesight-2026-07-25T215419.png
 security:

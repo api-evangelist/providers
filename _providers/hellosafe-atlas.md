@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST API for travel-insurance reference data, quoting, tracked link minting, and signed conversion postbacks. The conversion postback and tracked deep links are live today; quote-and-bind travel endpo
@@ -42,6 +42,12 @@ random_paper: 13
 score:
   band: emerging
   composite: 11.2
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -51,14 +57,16 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 11.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 slug: hellosafe-atlas
 tags:
 - Travel Insurance
@@ -66,12 +74,12 @@ tags:
 - Insurtech
 - Embedded Insurance
 - Travel
-- Affiliate
+- Affiliates
 - Attribution
 - Quotes
 - Comparison
 - Conversion Tracking
-- White-Label
+- White Label
 - Tour Operators
 - Travel Agencies
 - OTAs

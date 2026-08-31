@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 99
   slug: oracle-essbase-agentic-access
   summary_line: 99 operations · 54 acting · 2 human-in-the-loop
-api_count: 23
+api_count: 1
 apis:
 - description: 'Java API for developing applications that interact with Oracle Essbase for data loading, calculations, and retrievals. Provides libraries, samples, and documentation for building Essbase client tools '
   name: Essbase Java API
@@ -236,6 +236,10 @@ collections:
   name: Oracle Essbase REST Application Configuration Variables API
   slug: open-oracle-essbase-variables-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/oracle-essbase-capability-edges.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -464,7 +468,7 @@ overview: 'Oracle Essbase publishes 19 APIs on the [APIs.io](https://apis.io/) n
   The Oracle Essbase catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle Essbase''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, signup flow, and 16 more developer resources.'
+  Oracle Essbase''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, signup flow, and 17 more developer resources.'
 plans:
 - name: Oracle Essbase Plans Pricing
   plan_count: 2
@@ -487,18 +491,23 @@ rules:
   slug: oracle-essbase-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.3
-  delta: 1.4
+  composite: 49.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 57.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 9.8
     contract_quality: 70.1
     developer_ergonomics: 61.9
-    discoverability: 59.3
+    discoverability: 53.7
     governance: 9.8
     operational_transparency: 39.5
-  previous_composite: 48.9
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     contracts:
@@ -506,8 +515,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-essbase/refs/heads/main/screenshots/oracle-essbase-2026-06-20T191127.png
 security:

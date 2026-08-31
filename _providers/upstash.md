@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 10
   slug: upstash-agentic-access
   summary_line: 10 operations · 5 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Management API for creating and administering Upstash Redis, Kafka, and Vector databases, teams, and account resources. Uses HTTP Basic authentication with email and API key credentials.
   name: Upstash Developer API
@@ -88,6 +88,10 @@ collections:
   name: Upstash APIs
   slug: open-upstash
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/upstash-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -143,22 +147,27 @@ network: true
 overview: 'Upstash publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Kafka API, Redis API, RedisCommand API, and 2 more. Tagged areas include Serverless, Redis, Kafka, Messaging, and Vector Database.
 
 
-  Upstash''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
+  Upstash''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
 random_paper: 20
 score:
   band: thin
-  composite: 33.1
-  delta: 2.4
+  composite: 32.5
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 50.9
     developer_ergonomics: 35.7
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 30.7
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
@@ -166,8 +175,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upstash/refs/heads/main/screenshots/upstash-2026-06-20T200514.png
 security:

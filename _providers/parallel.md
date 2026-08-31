@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 32
   slug: parallel-agentic-access
   summary_line: 32 operations · 16 acting
-api_count: 8
+api_count: 2
 apis:
 - description: The Chat API provides a programmatic chat-style text generation interface. It accepts a sequence of messages and returns model responses. Intended for assistant-like interactions and evaluation. Strea
   name: Parallel Chat API (Beta) API
@@ -64,12 +64,12 @@ apis:
 - description: The Task API executes web research and extraction tasks. Clients submit a natural-language objective with an optional input schema; the service plans retrieval, fetches relevant URLs, and returns outp
   name: Parallel Tasks API
   slug: parallel-tasks-api
-- description: The Responses API returns grounded, cited answers from the live web in a single synchronous call, and is OpenAI Responses-compatible so it can be dropped into existing clients. Pricing and latency are
-  name: Parallel Responses API
-  slug: parallel-responses-api
 - description: The Memory API lets agents search and reuse the results of past Task, Monitor and FindAll runs so new research builds on work already done. It exposes retrieve, evict and clear operations over the sto
   name: Parallel Memory API
   slug: parallel-memory-api
+- description: An OpenAI-Responses-compatible interface for answers grounded in live web research, with URL citations. Point any Responses-API client — the OpenAI Python SDK, OpenAI TypeScript SDK, the Agents SDK, o
+  name: Parallel Responses API
+  slug: parallel-responses-api-api
 artifact_total: 30
 asyncapis:
 - description: ''
@@ -319,19 +319,24 @@ scopes:
   slug: parallel-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 69.0
-  delta: 0.0
+  band: strong
+  composite: 65.9
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 66.2
     developer_ergonomics: 76.2
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 81.6
-  previous_composite: 69.0
+  previous_composite: 66.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -342,8 +347,8 @@ score:
       total: 8
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parallel/refs/heads/main/screenshots/parallel-2026-08-17T124455.png
 security:

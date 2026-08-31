@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: cycloid-agentic-access
   summary_line: 16 operations · 4 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Cloud cost provider accounts, dashboards, and tag mappings.
   name: Cycloid CloudCost API
@@ -294,15 +294,20 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.0
-  delta: 0.0
+  composite: 44.5
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 38.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 69.7
     contract_quality: 54.4
     developer_ergonomics: 16.7
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 69.7
     operational_transparency: 26.3
   previous_composite: 45.0
@@ -313,8 +318,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/screenshots/cycloid-2026-06-20T175412.png
 security:

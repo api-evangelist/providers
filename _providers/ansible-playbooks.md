@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 33
   slug: ansible-playbooks-agentic-access
   summary_line: 33 operations · 15 acting
-api_count: 18
+api_count: 1
 apis:
 - description: REST API for Ansible Automation Platform (formerly Ansible Tower/AWX) to manage playbooks, inventories, credentials, job templates, and job execution at enterprise scale. Supports RBAC, workflows, sch
   name: Ansible Automation Platform API
@@ -277,7 +277,7 @@ modified: '2026-04-19'
 name: Ansible Playbooks
 nav: Providers
 network: true
-overview: 'Ansible Playbooks publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Credentials API, Hosts API, and 9 more. Tagged areas include Ansible, Automation, Configuration Management, DevOps, and Infrastructure as Code.
+overview: 'Ansible Playbooks publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Credentials API, Hosts API, and 9 more. Tagged areas include Ansible, Automation, Configuration Management, DevOps, and Infrastructure As Code.
 
 
   The Ansible Playbooks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -306,18 +306,26 @@ rules:
   slug: ansible-playbooks-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.4
-  delta: 6.7
+  composite: 53.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 4.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 25.0
     contract_quality: 53.7
     developer_ergonomics: 61.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 36.8
-  previous_composite: 41.7
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     contracts:
@@ -325,9 +333,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/screenshots/ansible-playbooks-2026-06-20T172018.png
 security:
 - kind: authentication
@@ -344,7 +352,7 @@ tags:
 - Automation
 - Configuration Management
 - DevOps
-- Infrastructure as Code
+- Infrastructure As Code
 - Orchestration
 - Playbooks
 use_cases:

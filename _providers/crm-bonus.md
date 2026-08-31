@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 32.6
-  scored_at: '2026-08-26'
+  score: 29.7
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,17 +42,57 @@ agentic_access:
   operation_count: 13
   slug: crm-bonus-agentic-access
   summary_line: 13 operations · 13 acting
-api_count: 1
+api_count: 2
 apis:
-- description: REST data-ingestion API for the Oto CRM platform (a CRMBonus retail solution). Thirteen POST operations load customers, orders, order items, products, stores, sellers, cashback credits, NPS responses,
-  name: Oto Data API
-  slug: oto-data-api
-artifact_total: 8
+- description: The Auth API from CRM Bonus — 1 operation(s) for auth.
+  name: CRM Bonus Auth API
+  slug: crm-bonus-auth-api
+- description: The Blocked API from CRM Bonus — 1 operation(s) for blocked.
+  name: CRM Bonus Blocked API
+  slug: crm-bonus-blocked-api
+- description: The Cashback API from CRM Bonus — 1 operation(s) for cashback.
+  name: CRM Bonus Cashback API
+  slug: crm-bonus-cashback-api
+- description: The Customers API from CRM Bonus — 1 operation(s) for customers.
+  name: CRM Bonus Customers API
+  slug: crm-bonus-customers-api
+- description: The Nps API from CRM Bonus — 1 operation(s) for nps.
+  name: CRM Bonus Nps API
+  slug: crm-bonus-nps-api
+- description: The Order Items API from CRM Bonus — 1 operation(s) for order items.
+  name: CRM Bonus Order Items API
+  slug: crm-bonus-order-items-api
+- description: The Orders API from CRM Bonus — 1 operation(s) for orders.
+  name: CRM Bonus Orders API
+  slug: crm-bonus-orders-api
+- description: The Products API from CRM Bonus — 1 operation(s) for products.
+  name: CRM Bonus Products API
+  slug: crm-bonus-products-api
+- description: The Sellers API from CRM Bonus — 1 operation(s) for sellers.
+  name: CRM Bonus Sellers API
+  slug: crm-bonus-sellers-api
+- description: The Stores API from CRM Bonus — 1 operation(s) for stores.
+  name: CRM Bonus Stores API
+  slug: crm-bonus-stores-api
+- description: The Tag Hits API from CRM Bonus — 1 operation(s) for tag hits.
+  name: CRM Bonus Tag Hits API
+  slug: crm-bonus-tag-hits-api
+- description: The Tag Ids API from CRM Bonus — 1 operation(s) for tag ids.
+  name: CRM Bonus Tag Ids API
+  slug: crm-bonus-tag-ids-api
+- description: The Tag Interactions API from CRM Bonus — 1 operation(s) for tag interactions.
+  name: CRM Bonus Tag Interactions API
+  slug: crm-bonus-tag-interactions-api
+artifact_total: 20
 collections:
 - collection_type: open
   name: Oto Data API
   slug: open-crm-bonus-oto-data-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/crm-bonus-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -186,10 +226,10 @@ modified: '2026-08-12'
 name: CRM Bonus
 nav: Providers
 network: true
-overview: 'CRM Bonus publishes 1 API on the [APIs.io](https://apis.io/) network: Oto Data API. Tagged areas include Company, Retail, Loyalty, Cashback, and CRM.
+overview: 'CRM Bonus publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Blocked API, Cashback API, and 10 more. Tagged areas include Company, Retail, Loyalty, Cashback, and CRM.
 
 
-  CRM Bonus'' developer surface includes support, engineering blog, documentation, API reference, getting-started guide, authentication, sandbox, and 23 more developer resources.'
+  CRM Bonus'' developer surface includes support, engineering blog, documentation, API reference, getting-started guide, authentication, sandbox, and 24 more developer resources.'
 plans:
 - name: Crm Bonus Plans Pricing
   plan_count: 0
@@ -201,18 +241,23 @@ rate_limits:
   slug: crm-bonus-rate-limits
 score:
   band: developing
-  composite: 45.0
-  delta: 0.0
+  composite: 43.0
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 51.7
+    contract_governance: 4.5
+    contract_quality: 54.1
     developer_ergonomics: 63.7
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 45.0
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,8 +268,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crm-bonus/refs/heads/main/screenshots/crm-bonus-2026-07-25T210737.png
 security:

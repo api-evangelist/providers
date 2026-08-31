@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-26'
-api_count: 14
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: 'Accounts represent the underlying store used to track balances and the transactions that have occurred to modify those balances over time. Up currently has three types of account: `SAVER`—used to earn'
   name: Bendigo and Adelaide Bank Accounts API
@@ -131,6 +131,10 @@ collections:
   name: CDR Banking Accounts Webhooks API
   slug: open-bendigo-and-adelaide-bank-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bendigo-and-adelaide-bank-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -281,7 +285,7 @@ overview: 'Bendigo and Adelaide Bank publishes 14 APIs on the [APIs.io](https://
   The Bendigo and Adelaide Bank catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bendigo and Adelaide Bank''s developer surface includes developer portal, documentation, support, engineering blog, authentication, and 28 more developer resources.'
+  Bendigo and Adelaide Bank''s developer surface includes developer portal, documentation, support, engineering blog, authentication, and 29 more developer resources.'
 random_paper: 18
 scopes:
 - name: Bendigo And Adelaide Bank Scopes
@@ -290,18 +294,23 @@ scopes:
   summary_line: 10 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 45.6
-  delta: 4.8
+  composite: 41.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.8
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 56.3
-    developer_ergonomics: 54.2
-    discoverability: 92.6
-    governance: 30.3
+    developer_ergonomics: 48.2
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 40.8
+  previous_composite: 43.1
   provenance:
     conformance: first-party
     contracts:
@@ -317,8 +326,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/screenshots/bendigo-and-adelaide-bank-2026-07-21T114715.png
 security:

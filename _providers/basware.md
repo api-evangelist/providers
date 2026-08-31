@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 158
   slug: basware-agentic-access
   summary_line: 158 operations · 83 acting
-api_count: 41
+api_count: 8
 apis:
 - description: The Basware Data Access API allows organizations to query and extract data from Basware systems for reporting, analytics, and integration purposes. It enables programmatic retrieval of transaction dat
   name: Basware Data Access API
@@ -290,6 +290,10 @@ collections:
   name: Basware OAUTH2 authentication APIs AccountingDocuments .well-known API
   slug: open-basware-well-known-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/basware-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -396,13 +400,13 @@ modified: '2026-06-13'
 name: Basware
 nav: Providers
 network: true
-overview: 'Basware publishes 39 APIs on the [APIs.io](https://apis.io/) network, including AccountingDocuments API, Accounts API, AdvancedPermissions API, and 36 more. Tagged areas include E-Invoicing, Purchase-To-Pay, Accounts Payable, Procurement, and Electronic Invoicing.
+overview: 'Basware publishes 39 APIs on the [APIs.io](https://apis.io/) network, including AccountingDocuments API, Accounts API, AdvancedPermissions API, and 36 more. Tagged areas include E-Invoicing, Purchase-to-Pay, Accounts Payable, Procurement, and Electronic Invoicing.
 
 
   The Basware catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Basware''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  Basware''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Basware Plans Pricing
   plan_count: 4
@@ -431,7 +435,12 @@ scopes:
 score:
   band: developing
   composite: 44.7
-  delta: 3.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -441,7 +450,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 41.0
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -455,8 +464,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basware/refs/heads/main/screenshots/basware-2026-06-20T173043.png
 security:
@@ -471,7 +480,7 @@ security:
 slug: basware
 tags:
 - E-Invoicing
-- Purchase-To-Pay
+- Purchase-to-Pay
 - Accounts Payable
 - Procurement
 - Electronic Invoicing

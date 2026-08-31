@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 14
 apis:
 - description: News and blog posts published on habiteo.com, plus their revisions. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS content API behi
@@ -56,18 +56,18 @@ apis:
 - description: Site settings. Anonymous calls return HTTP 403 rest_forbidden — recorded as a gated route, not a readable one. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/
   name: Habiteo Site Content API — Settings API
   slug: settings-api
-- description: Contact Form 7 routes, including the public feedback (form submission) endpoint used by the site contact form. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/
-  name: Habiteo Site Content API — Contact Forms API
-  slug: contact-forms-api
 - description: 'The WordPress oEmbed provider endpoint for habiteo.com URLs. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo.com/wp-json/ — this is the CMS content API behind the '
   name: Habiteo Site Content API — oEmbed API
   slug: oembed-api
-- description: Yoast SEO and Popup Maker plugin routes registered in the same index. Admin-oriented; anonymous calls are rejected. DERIVED by API Evangelist from the WordPress REST route index at https://www.habiteo
-  name: Habiteo Site Content API — Site Tools API
-  slug: site-tools-api
 - description: A second, older JSON surface on www.habiteo.com, served by the WordPress "JSON API" plugin at /api/. GET https://www.habiteo.com/api/ returns {"status":"ok","json_api_version":"1.1.1","controllers":["
   name: Habiteo Site JSON API (WordPress JSON API plugin)
   slug: json-api-plugin
+- description: The ContactForms API from Habiteo — 5 operation(s) for contactforms.
+  name: Habiteo Contact Forms API
+  slug: habiteo-contactforms-api
+- description: The SiteTools API from Habiteo — 7 operation(s) for sitetools.
+  name: Habiteo Site Tools API
+  slug: habiteo-sitetools-api
 artifact_total: 18
 common:
 - group: company
@@ -186,18 +186,23 @@ rate_limits:
   slug: habiteo-rate-limits
 score:
   band: emerging
-  composite: 23.1
-  delta: 2.0
+  composite: 21.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 16.6
     developer_ergonomics: 30.4
     discoverability: 74.1
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 21.1
+  previous_composite: 21.6
   provenance:
     conformance: derived
     contracts:
@@ -207,8 +212,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
 - description: Anonymous proof-of-human credential. Users prove uniqueness via Orb (highest assurance), government document with NFC, or selfie liveness check (beta). Applications request a zero-knowledge proof tied
@@ -56,6 +56,22 @@ apis:
   slug: world-chain
 artifact_total: 11
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/worldcoin/idkit-js/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/worldcoin/idkit-js/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/worldcoin/idkit-js/blob/main/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/worldcoin/idkit-js/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -115,7 +131,7 @@ network: true
 overview: 'World (Worldcoin) publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Proof of Personhood, Identity, World ID, Mini Apps, and Blockchain.
 
 
-  World (Worldcoin)''s developer surface includes documentation, GitHub presence, support, and 8 more developer resources.'
+  World (Worldcoin)''s developer surface includes documentation, GitHub presence, support, and 12 more developer resources.'
 plans:
 - name: Worldcoin Plans Pricing
   plan_count: 1
@@ -126,8 +142,13 @@ rate_limits:
   name: Worldcoin Rate Limits
   slug: worldcoin-rate-limits
 score:
-  band: emerging
-  composite: 20.8
+  band: thin
+  composite: 30.3
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -137,10 +158,13 @@ score:
     developer_ergonomics: 23.8
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 20.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 30.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldcoin/refs/heads/main/screenshots/worldcoin-2026-06-20T201620.png
 security:

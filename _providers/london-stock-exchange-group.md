@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 78
   slug: london-stock-exchange-group-agentic-access
   summary_line: 78 operations · 48 acting · 2 human-in-the-loop
-api_count: 15
+api_count: 1
 apis:
 - description: Create, screen, update, archive, assign, link, and search screening cases; review and resolve screening results; enable ongoing screening and retrieve ongoing screening updates for KYC and third-party
   name: LSEG World-Check One Case API
@@ -303,18 +303,23 @@ rate_limits:
   slug: london-stock-exchange-group-rate-limits
 score:
   band: developing
-  composite: 51.7
-  delta: 0.0
+  composite: 48.6
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 50.8
     developer_ergonomics: 73.2
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 51.7
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -331,8 +336,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/london-stock-exchange-group/refs/heads/main/screenshots/london-stock-exchange-group-2026-06-20T184706.png
 security:

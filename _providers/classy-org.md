@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 51
   slug: classy-org-agentic-access
   summary_line: 51 operations · 21 acting
-api_count: 10
+api_count: 1
 apis:
 - description: OAuth2 client credentials token exchange.
   name: Classy Authentication API
@@ -169,7 +169,7 @@ modified: '2026-07-03'
 name: Classy
 nav: Providers
 network: true
-overview: 'Classy publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Campaigns API, Designations API, and 7 more. Tagged areas include Non-Profit, Fundraising, Donations, Peer-to-Peer, and Philanthropy.
+overview: 'Classy publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Campaigns API, Designations API, and 7 more. Tagged areas include Non-Profit, Fundraising, Donations, Peer to Peer, and Philanthropy.
 
 
   Classy''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -184,15 +184,20 @@ rate_limits:
   slug: classy-org-rate-limits
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 35.2
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 53.3
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
   previous_composite: 35.8
@@ -209,8 +214,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/classy-org/refs/heads/main/screenshots/classy-org-2026-07-25T205526.png
 security:
@@ -227,7 +232,7 @@ tags:
 - Non-Profit
 - Fundraising
 - Donations
-- Peer-to-Peer
+- Peer to Peer
 - Philanthropy
 - Payments
 - GoFundMe Pro

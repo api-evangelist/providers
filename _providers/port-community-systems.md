@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: port-community-systems-agentic-access
   summary_line: 9 operations · 5 acting
-api_count: 6
+api_count: 1
 apis:
 - description: The International Port Community Systems Association (IPCSA) represents Port Community System operators and Maritime Single Window operators worldwide. Member PCS platforms provide APIs for customs de
   name: IPCSA Port Community Systems API
@@ -90,6 +90,10 @@ collections:
   name: Portbase Port Community System API
   slug: open-portbase-port-community
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/port-community-systems-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -149,7 +153,7 @@ overview: 'Port Community Systems publishes 5 APIs on the [APIs.io](https://apis
   The Port Community Systems catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Port Community Systems'' developer surface includes authentication, developer portal, documentation, engineering blog, and 4 more developer resources.'
+  Port Community Systems'' developer surface includes authentication, developer portal, documentation, engineering blog, and 5 more developer resources.'
 plans:
 - name: Port Community Systems Plans Pricing
   plan_count: 3
@@ -188,15 +192,20 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 37.2
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 75.2
     developer_ergonomics: 33.3
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 7.9
   previous_composite: 37.8
@@ -207,8 +216,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/screenshots/port-community-systems-2026-06-20T191927.png
 security:

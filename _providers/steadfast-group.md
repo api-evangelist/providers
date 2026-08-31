@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,20 +31,35 @@ agentic_access:
   operation_count: 2
   slug: steadfast-group-agentic-access
   summary_line: 2 operations
-api_count: 2
+api_count: 1
 apis:
-- description: The public, anonymous, read-only JSON API behind Steadfast Group's consumer Flood Risk Tracker tool. Two GET operations resolve a free-text Australian street address against the national G-NAF address
-  name: Steadfast Flood Risk Tracker API
-  slug: flood-risk-tracker
 - description: Steadfast Group's Okta-hosted OpenID Connect provider, issuer https://idp.steadfast.com.au. It fronts the credentialed broker portal used by the Steadfast Network's 414 brokerages and, by inference fr
   name: Steadfast Identity (OpenID Connect)
   slug: identity
-artifact_total: 8
+- description: Australian address resolution against G-NAF identifiers.
+  name: Steadfast Group Address API
+  slug: steadfast-group-address-api
+- description: Natural-catastrophe flood risk layers for a resolved address.
+  name: Steadfast Group Risk API
+  slug: steadfast-group-risk-api
+artifact_total: 9
 collections:
 - collection_type: open
   name: Steadfast Flood Risk Tracker API
   slug: open-steadfast-group-flood-risk-tracker
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/steadfast-group-flood-risk-tracker-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/steadfast-group-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/steadfast-group-flood-risk-lookup.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -189,16 +204,16 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: Candidate MCP tools derived from the OpenAPI (no Steadfast MCP server exists)
-  slug: candidate-mcp-tools-derived-from-the-openapi-no-steadfast-mcp-server-exists
+  name: Steadfast Group MCP Server
+  slug: steadfast-group-mcp-server
 modified: '2026-07-25'
 name: Steadfast Group
 nav: Providers
 network: true
-overview: 'Steadfast Group publishes 1 API on the [APIs.io](https://apis.io/) network: Steadfast Flood Risk Tracker API. Tagged areas include Insurance, Australia, Brokers, Insurance Broker Network, and General Insurance.
+overview: 'Steadfast Group publishes 2 APIs on the [APIs.io](https://apis.io/) network: Address API and Risk API. Tagged areas include Insurance, Australia, Brokers, Insurance Broker Network, and General Insurance.
 
 
-  Steadfast Group''s developer surface includes engineering blog, legal docs, tooling, support, authentication, and 29 more developer resources.'
+  Steadfast Group''s developer surface includes engineering blog, legal docs, tooling, support, authentication, and 32 more developer resources.'
 random_paper: 7
 scopes:
 - name: Steadfast Group Scopes
@@ -207,18 +222,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit/deviceCode/password
 score:
   band: thin
-  composite: 35.1
-  delta: 0.6
+  composite: 32.6
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 16.5
     developer_ergonomics: 20.8
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 34.5
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,8 +255,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

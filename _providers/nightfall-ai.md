@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,15 +42,12 @@ agentic_access:
   operation_count: 1
   slug: nightfall-ai-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The Scan API from Nightfall AI — 1 operation(s) for scan.
   name: Nightfall AI Scan API
   slug: nightfall-ai-scan-api
-- description: The Scans API from Nightfall AI — 1 operation(s) for scans.
-  name: Nightfall AI Scans API
-  slug: nightfall-ai-scans-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -181,7 +178,7 @@ modified: '2026-05-19'
 name: Nightfall AI
 nav: Providers
 network: true
-overview: 'Nightfall AI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Scan API and Scans API. Tagged areas include Artificial Intelligence, Privacy, and Sensitive Data.
+overview: 'Nightfall AI publishes 1 API on the [APIs.io](https://apis.io/) network: Scan API. Tagged areas include Artificial Intelligence, Privacy, and Sensitive Data.
 
 
   Nightfall AI''s developer surface includes authentication, getting-started guide, pricing, FAQ, engineering blog, and 21 more developer resources.'
@@ -197,6 +194,11 @@ rate_limits:
 score:
   band: thin
   composite: 38.4
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 68.4
@@ -221,8 +223,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/screenshots/nightfall-ai-2026-06-20T190326.png
 security:

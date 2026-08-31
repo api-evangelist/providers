@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: First-party in-world scripting API for IMVU Live Rooms. Room scripts are single-file Lua programs executed server-side in a Luau sandbox; the engine calls event functions (event_start, event_begin_ite
@@ -138,7 +138,12 @@ rate_limits:
 score:
   band: thin
   composite: 30.3
-  delta: 1.7
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -148,12 +153,12 @@ score:
     discoverability: 50.0
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 28.6
+  previous_composite: 30.3
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

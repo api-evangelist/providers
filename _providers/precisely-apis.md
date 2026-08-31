@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.0
-  scored_at: '2026-08-26'
-api_count: 81
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Address API from Precisely APIs — 2 operation(s) for address.
   name: Precisely APIs Address API
@@ -528,6 +528,10 @@ collections:
   name: Precisely APIs Zones  Service API
   slug: open-precisely-apis-zones-service-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/precisely-apis-capability-edges.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -631,7 +635,7 @@ network: true
 overview: 'Precisely APIs publishes 81 APIs on the [APIs.io](https://apis.io/) network, including Address API, Address  Verification  Service API, Addresses API, and 78 more. Tagged areas include Geolocation, Address Verification, Geocoding, Demographics, and Location Intelligence.
 
 
-  Precisely APIs'' developer surface includes pricing, documentation, getting-started guide, FAQ, engineering blog, support, signup flow, and 15 more developer resources.'
+  Precisely APIs'' developer surface includes pricing, documentation, getting-started guide, FAQ, engineering blog, support, signup flow, and 16 more developer resources.'
 plans:
 - name: Precisely Apis Plans Pricing
   plan_count: 3
@@ -642,27 +646,32 @@ rate_limits:
   name: Precisely Apis Rate Limits
   slug: precisely-apis-rate-limits
 score:
-  band: thin
-  composite: 38.9
-  delta: 0.0
+  band: developing
+  composite: 40.0
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 0.0
     contract_quality: 54.7
     developer_ergonomics: 26.2
-    discoverability: 50.0
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 38.9
+  previous_composite: 40.6
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 81
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/precisely-apis/refs/heads/main/screenshots/precisely-apis-2026-06-20T192041.png
 security:

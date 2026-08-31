@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 32
   slug: streamkap-agentic-access
   summary_line: 32 operations · 17 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Obtain and refresh access tokens and manage credentials.
   name: Streamkap Authentication API
@@ -171,18 +171,23 @@ rate_limits:
   slug: streamkap-rate-limits
 score:
   band: thin
-  composite: 31.5
-  delta: 2.4
+  composite: 31.0
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 14.1
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 29.1
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     contracts:
@@ -190,8 +195,8 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

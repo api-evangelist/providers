@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 39
   slug: zerion-agentic-access
   summary_line: 39 operations · 8 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: Operations related to chains, such as list all chains.
   name: Zerion chains API
@@ -308,19 +308,24 @@ rate_limits:
   name: Zerion Rate Limits
   slug: zerion-rate-limits
 score:
-  band: exemplar
-  composite: 66.6
-  delta: 0.0
+  band: strong
+  composite: 64.6
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 66.6
     developer_ergonomics: 73.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 66.6
+  previous_composite: 65.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -337,8 +342,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerion/refs/heads/main/screenshots/zerion-2026-08-17T083053.png
 security:
@@ -362,7 +367,7 @@ tags:
 - Ethereum
 - Solana
 - Portfolio
-- On-Chain Data
+- Onchain Data
 - Transaction
 website: https://developers.zerion.io/
 ---

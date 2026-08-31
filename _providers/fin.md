@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 62
   slug: fin-agentic-access
   summary_line: 62 operations · 31 acting
-api_count: 9
+api_count: 1
 apis:
 - description: A modified OAuth 2.0 Client Credential Flow
   name: Fin Authentication API
@@ -70,7 +70,10 @@ apis:
 - description: Create and manage virtual accounts for USD to USDC conversions
   name: Fin Virtual Accounts API
   slug: fin-virtual-accounts-api
-artifact_total: 24
+- description: The Webhooks API from Fin — 0 operation(s) for webhooks.
+  name: Fin Webhooks API
+  slug: fin-webhooks-api
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Fin Webhooks
@@ -219,7 +222,7 @@ modified: '2026-07-19'
 name: Fin
 nav: Providers
 network: true
-overview: 'Fin publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Balances API, Beneficiaries API, and 6 more. Tagged areas include Company, Payments, Cross-Border Payments, Stablecoins, and Fintech.
+overview: 'Fin publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Balances API, Beneficiaries API, and 7 more. Tagged areas include Company, Payments, Cross-Border Payments, Stablecoins, and Fintech.
 
 
   The Fin catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -229,18 +232,23 @@ overview: 'Fin publishes 9 APIs on the [APIs.io](https://apis.io/) network, incl
 random_paper: 2
 score:
   band: developing
-  composite: 42.2
-  delta: 0.0
+  composite: 39.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
-    contract_quality: 62.3
+    contract_governance: 4.5
+    contract_quality: 60.4
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 42.2
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,8 +265,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fin/refs/heads/main/screenshots/fin-2026-07-25T214454.png
 security:

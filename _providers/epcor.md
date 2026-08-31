@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,20 +31,50 @@ agentic_access:
   operation_count: 115
   slug: epcor-agentic-access
   summary_line: 115 operations
-api_count: 2
+api_count: 1
 apis:
 - description: The Green Button energy-data service EPCOR operates for its three Ontario service areas (Aylmer-area natural gas, Collingwood-area and Kincardine-area electricity) to satisfy Ontario's O. Reg. 633/21.
   name: EPCOR Ontario Green Button (Download My Data / Connect My Data)
   slug: epcor-ontario-green-button
-- description: EPCOR's undocumented but fully public geospatial data surface. Its outage map at outages.epcor.com loads its endpoints from a configuration file that points at a publicly shared ArcGIS Online organiza
-  name: EPCOR Public Outage and Service Area Feature Services (ArcGIS REST)
-  slug: epcor-outages-arcgis
-artifact_total: 13
+- description: Municipal boundary reference layers.
+  name: EPCOR Boundaries API
+  slug: epcor-boundaries-api
+- description: Service directory.
+  name: EPCOR Catalog API
+  slug: epcor-catalog-api
+- description: Water infrastructure construction projects.
+  name: EPCOR Infrastructure API
+  slug: epcor-infrastructure-api
+- description: Edmonton electricity distribution outages (active, planned and point features).
+  name: EPCOR Power Outages API
+  slug: epcor-power-outages-api
+- description: EPCOR Water USA service area boundaries.
+  name: EPCOR Service Areas API
+  slug: epcor-service-areas-api
+- description: EPCOR Water USA district outage points (Arizona and New Mexico).
+  name: EPCOR Us Water Outages API
+  slug: epcor-us-water-outages-api
+- description: Canadian water outages, main breaks and field events.
+  name: EPCOR Water Outages API
+  slug: epcor-water-outages-api
+artifact_total: 19
 collections:
 - collection_type: open
   name: EPCOR Public Outage and Service Area Feature Services (ArcGIS REST)
   slug: open-epcor-outages-arcgis
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/epcor-check-edmonton-power-outages.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/epcor-track-water-outages-and-projects.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/epcor-map-us-water-districts.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -178,25 +208,30 @@ modified: '2026-07-27'
 name: EPCOR
 nav: Providers
 network: true
-overview: 'EPCOR publishes 1 API on the [APIs.io](https://apis.io/) network: Public Outage and Service Area Feature Services (ArcGIS REST). Tagged areas include Energy, Canada, Utilities, Electricity, and Natural Gas.
+overview: 'EPCOR publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Boundaries API, Catalog API, Infrastructure API, and 4 more. Tagged areas include Energy, Canada, Utilities, Electricity, and Natural Gas.
 
 
-  EPCOR''s developer surface includes authentication, developer portal, support, engineering blog, and 21 more developer resources.'
+  EPCOR''s developer surface includes authentication, developer portal, support, engineering blog, and 24 more developer resources.'
 random_paper: 12
 score:
   band: thin
-  composite: 36.2
-  delta: 5.3
+  composite: 36.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 18.2
-    contract_quality: 19.9
+    contract_quality: 19.8
     developer_ergonomics: 39.9
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 30.9
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -211,10 +246,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 60.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+    score: 57.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epcor/refs/heads/main/screenshots/epcor-2026-08-07T164946.png
 security:
 - kind: authentication

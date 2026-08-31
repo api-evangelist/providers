@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 55
   slug: fitbit-agentic-access
   summary_line: 55 operations · 18 acting · 1 human-in-the-loop
-api_count: 3
+api_count: 11
 apis:
 - description: Read and update the authorized Fitbit user's profile including display name, gender, birthday, height, weight, locale, timezone, and unit preferences (distance, weight, water, glucose, temperature).
   name: Fitbit User API
@@ -395,18 +395,23 @@ scopes:
   summary_line: 15 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 67.6
+  composite: 67.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 34.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 13.6
-    contract_quality: 79.1
+    contract_quality: 76.9
     developer_ergonomics: 61.9
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 42.1
-  previous_composite: 67.6
+  previous_composite: 67.1
   provenance:
     agentic_access: derived
     contracts:
@@ -420,8 +425,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fitbit/refs/heads/main/screenshots/fitbit-2026-06-20T181253.png
 security:

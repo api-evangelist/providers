@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1
   slug: amazon-web-services-aws-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Amazon Bedrock is a fully managed service that provides access to foundation models from leading AI companies for building generative AI applications.
   name: Amazon Bedrock API
@@ -83,6 +83,10 @@ collections:
   name: Amazon EC2 API
   slug: open-amazon-web-services-aws
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-web-services-aws-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -247,7 +251,7 @@ overview: 'Amazon Web Services (AWS) publishes 1 API on the [APIs.io](https://ap
   The Amazon Web Services (AWS) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Amazon Web Services (AWS)''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, pricing, and 25 more developer resources.'
+  Amazon Web Services (AWS)''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, pricing, and 26 more developer resources.'
 plans:
 - name: Amazon Web Services Aws Plans Pricing
   plan_count: 3
@@ -271,18 +275,23 @@ rules:
   slug: amazon-web-services-aws-spectral-rules
 score:
   band: strong
-  composite: 60.6
-  delta: 0.0
+  composite: 60.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 63.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.3
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 26.5
     contract_quality: 60.5
     developer_ergonomics: 76.2
-    discoverability: 66.7
+    discoverability: 61.1
     governance: 26.5
     operational_transparency: 39.5
-  previous_composite: 60.6
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     contracts:
@@ -290,8 +299,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-web-services-aws/refs/heads/main/screenshots/amazon-web-services-aws-2026-06-20T171847.png
 security:
@@ -319,12 +328,13 @@ tags:
 - Computing
 - Containers
 - Databases
-- DevOps
-- Infrastructure-as-a-Service
+- Devops
+- Iaas
 - Infrastructure
 - Machine-Learning
 - Networking
-- Platform-as-a-Service
+- Paas
+- Platform As A Service
 - Security
 - Serverless
 - Storage

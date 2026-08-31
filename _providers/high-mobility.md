@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: high-mobility-agentic-access
   summary_line: 7 operations · 3 acting
-api_count: 4
+api_count: 1
 apis:
 - description: OAuth 2.0 token issuance for the High Mobility platform.
   name: High Mobility Authentication API
@@ -77,6 +77,10 @@ collections:
   name: High Mobility Vehicle API
   slug: open-high-mobility
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/high-mobility-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -144,7 +148,7 @@ network: true
 overview: 'High Mobility publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Fleet Clearance API, Vehicle Data API, and 1 more. Tagged areas include Automotive, Connected Cars, IoT, and Vehicle Data.
 
 
-  High Mobility''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, and 8 more developer resources.'
+  High Mobility''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, and 9 more developer resources.'
 plans:
 - name: High Mobility Plans Pricing
   plan_count: 3
@@ -161,18 +165,23 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 37.8
-  delta: 2.3
+  composite: 37.3
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 57.7
     developer_ergonomics: 45.2
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 35.5
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -180,8 +189,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/high-mobility/refs/heads/main/screenshots/high-mobility-2026-06-20T182732.png
 security:

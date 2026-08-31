@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -364,16 +364,16 @@ jsonld:
   slug: agilent-ilab-operations-api-context
 layout: provider
 modified: '2026-05-19'
-name: agilent-technologies
+name: Agilent Technologies
 nav: Providers
 network: true
-overview: 'agilent-technologies publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Cores API, Invoices API, Members API, and 4 more. Tagged areas include Fortune 500, Life Sciences, Diagnostics, Laboratory, and Scientific Instruments.
+overview: 'Agilent Technologies publishes 7 APIs on the [APIs.io](https://apis.io/) network, including agilent-technologies Cores API, agilent-technologies Invoices API, agilent-technologies Members API, and 4 more. Tagged areas include Fortune 500, Life Sciences, Diagnostics, Laboratory, and Scientific Instruments.
 
 
-  The agilent-technologies catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Agilent Technologies catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  agilent-technologies'' developer surface includes authentication, support, and 10 more developer resources.'
+  Agilent Technologies'' developer surface includes authentication, support, and 10 more developer resources.'
 plans:
 - name: Agilent Technologies Plans Pricing
   plan_count: 1
@@ -402,7 +402,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: agilent-technologies API Rules
+  name: Agilent Technologies API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -413,7 +413,7 @@ rules:
 - effective_rule_count: 82
   extends:
   - spectral:oas
-  name: agilent-technologies API Rules
+  name: Agilent Technologies API Rules
   rule_count: 41
   severity_counts:
     error: 11
@@ -423,18 +423,23 @@ rules:
   slug: agilent-technologies-spectral-rules
 score:
   band: thin
-  composite: 33.8
-  delta: 3.3
+  composite: 33.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 28.8
-    contract_quality: 28.5
+    contract_quality: 28.8
     developer_ergonomics: 33.3
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 30.5
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
@@ -448,8 +453,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/screenshots/agilent-technologies-2026-07-25T195311.png
 security:

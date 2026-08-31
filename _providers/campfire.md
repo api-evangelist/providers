@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 233
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 362
   slug: campfire-agentic-access
   summary_line: 362 operations · 233 acting · 2 human-in-the-loop
-api_count: 12
+api_count: 1
 apis:
 - description: Operations related to billing and the AP subledger.
   name: Campfire Accounts Payable API
@@ -268,18 +268,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 47.6
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 58.1
     developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 50.7
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -290,8 +295,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/screenshots/campfire-2026-07-25T204311.png
 security:

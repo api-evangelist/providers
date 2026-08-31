@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 123
   slug: pokt-agentic-access
   summary_line: 123 operations · 69 acting
-api_count: 5
+api_count: 3
 apis:
 - description: Cosmos SDK-based REST and gRPC API for interacting with the Pocket Network Shannon protocol chain. Provides endpoints for querying applications, suppliers, sessions, gateways, proofs, and tokenomics p
   name: Pocket Network Shannon Chain API
@@ -73,6 +73,14 @@ collections:
   name: PATH - Path & Toolkit Harness API Query API
   slug: open-pokt-query-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/pokt-network/poktroll/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/pokt-network/poktroll/releases
 - group: commercial
   title: ''
   type: License
@@ -205,7 +213,7 @@ overview: 'Pocket Network publishes 3 APIs on the [APIs.io](https://apis.io/) ne
   The Pocket Network catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Pocket Network''s developer surface includes documentation, engineering blog, pricing, and 14 more developer resources.'
+  Pocket Network''s developer surface includes documentation, engineering blog, pricing, and 16 more developer resources.'
 plans:
 - name: Plans
   plan_count: 5
@@ -228,8 +236,13 @@ rules:
   slug: pokt-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.0
-  delta: 1.9
+  composite: 44.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 40.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -238,8 +251,11 @@ score:
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 9.8
-    operational_transparency: 39.5
-  previous_composite: 43.1
+    operational_transparency: 55.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -247,8 +263,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pokt/refs/heads/main/screenshots/pokt-2026-06-20T191847.png
 security:

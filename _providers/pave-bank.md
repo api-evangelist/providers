@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Partner API for programmable multi-asset banking: Accounts, Address, Balance, Crypto, Documents, FX, Return, RFI, Sandbox, Statement, Transactions, and Transfer resources, plus real-time signed webhoo'
@@ -146,8 +146,13 @@ overview: 'Pave Bank publishes 1 API on the [APIs.io](https://apis.io/) network.
   Pave Bank''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 16 more developer resources.'
 random_paper: 3
 score:
-  band: thin
-  composite: 39.2
+  band: developing
+  composite: 39.9
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 25.0
@@ -155,10 +160,10 @@ score:
     contract_governance: 18.2
     contract_quality: 42.7
     developer_ergonomics: 64.3
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 39.2
+  previous_composite: 39.9
   provenance:
     conformance: first-party
   regulatory:
@@ -167,8 +172,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 32.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pave-bank/refs/heads/main/screenshots/pave-bank-2026-08-07T191602.png
 security:

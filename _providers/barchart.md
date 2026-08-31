@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.2
-  scored_at: '2026-08-26'
+  score: 33.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 95
   slug: barchart-agentic-access
   summary_line: 95 operations
-api_count: 12
+api_count: 2
 apis:
 - description: Grain bids, commodity statistics, fuel, and crop data.
   name: Barchart Commodities & Agriculture API
@@ -77,10 +77,37 @@ apis:
 - description: Current conditions and forecasts.
   name: Barchart Weather API
   slug: barchart-weather-api
-- description: Barchart OnDemand APIs from Barchart — 71 path(s) described in OpenAPI.
-  name: Barchart OnDemand APIs
-  slug: barchart-ondemand-official-openapi
-artifact_total: 44
+- description: The Charts and Analytics API from Barchart — 5 operation(s) for charts and analytics.
+  name: Barchart Charts and Analytics API
+  slug: barchart-charts-and-analytics-api
+- description: The Cryptocurrency Data API from Barchart — 2 operation(s) for cryptocurrency data.
+  name: Barchart Cryptocurrency Data API
+  slug: barchart-cryptocurrency-data-api
+- description: The ETFs API from Barchart — 2 operation(s) for etfs.
+  name: Barchart ET Fs API
+  slug: barchart-etfs-api
+- description: The Leaderboards and Lists API from Barchart — 3 operation(s) for leaderboards and lists.
+  name: Barchart Leaderboards and Lists API
+  slug: barchart-leaderboards-and-lists-api
+- description: The Metadata API from Barchart — 8 operation(s) for metadata.
+  name: Barchart Metadata API
+  slug: barchart-metadata-api
+- description: The News and Filings API from Barchart — 4 operation(s) for news and filings.
+  name: Barchart News and Filings API
+  slug: barchart-news-and-filings-api
+- description: The Other Data API from Barchart — 12 operation(s) for other data.
+  name: Barchart Other Data API
+  slug: barchart-other-data-api
+- description: The Price Data API from Barchart — 18 operation(s) for price data.
+  name: Barchart Price Data API
+  slug: barchart-price-data-api
+- description: The Profiles and Financial Data API from Barchart — 9 operation(s) for profiles and financial data.
+  name: Barchart Profiles and Financial Data API
+  slug: barchart-profiles-and-financial-data-api
+- description: The Splits, Dividends, and Earnings API from Barchart — 8 operation(s) for splits, dividends, and earnings.
+  name: Barchart Splits, Dividends, and Earnings API
+  slug: barchart-splits-dividends-and-earnings-api
+artifact_total: 53
 collections:
 - collection_type: postman
   name: Barchart OnDemand Commodities & Agriculture API
@@ -314,7 +341,7 @@ modified: '2026-07-22'
 name: Barchart
 nav: Providers
 network: true
-overview: 'Barchart publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Commodities & Agriculture API, Corporate Actions & Earnings API, Cryptocurrency API, and 9 more. Tagged areas include Market Data, Financial Data, Commodities, Futures, and Options.
+overview: 'Barchart publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Commodities & Agriculture API, Corporate Actions & Earnings API, Cryptocurrency API, and 18 more. Tagged areas include Market Data, Financial Data, Commodities, Futures, and Options.
 
 
   Barchart''s developer surface includes authentication, documentation, signup flow, getting-started guide, support, pricing, engineering blog, and 28 more developer resources.'
@@ -329,18 +356,23 @@ rate_limits:
   slug: barchart-rate-limits
 score:
   band: strong
-  composite: 63.1
-  delta: 1.5
+  composite: 60.9
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 16.7
-    contract_quality: 54.7
+    contract_governance: 4.5
+    contract_quality: 54.3
     developer_ergonomics: 70.8
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 61.6
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -357,8 +389,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/screenshots/barchart-2026-08-17T122638.png
 security:

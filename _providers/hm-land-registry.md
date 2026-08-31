@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 29
   slug: hm-land-registry-agentic-access
   summary_line: 29 operations · 11 acting
-api_count: 14
+api_count: 11
 apis:
 - description: Live SPARQL 1.1 query endpoint over HM Land Registry's open linked data — Price Paid Data transaction records for every property sale in England and Wales lodged for registration, and the UK House Pri
   name: HM Land Registry Open Data SPARQL API
@@ -54,40 +54,52 @@ apis:
 - description: W3C Linked Data API over the UK House Price Index, the official house price statistic calculated by the Office for National Statistics from HM Land Registry, Registers of Scotland and Land and Propert
   name: UK House Price Index Linked Data API
   slug: uk-house-price-index-linked-data-api
-- description: An OpenAPI 3.0.1 contract, version 6.0.0, titled "Land Register API" and published in the public Business Gateway developer pack. It describes two GET operations — /title/{titleNumber} and /draft-titl
-  name: Land Register API
-  slug: land-register-api
-- description: HM Land Registry Estimate Completion Date API from HM Land Registry — 1 path(s) described in OpenAPI.
-  name: HM Land Registry Estimate Completion Date API
-  slug: hm-land-registry-estimate-completion-date-openapi
-- description: HM Land Registry HMLR Business Gateway from HM Land Registry — 1 path(s) described in OpenAPI.
-  name: HM Land Registry HMLR Business Gateway (Hm Land Registry Official Copy Document Availability V1 Customer Test)
-  slug: hm-land-registry-official-copy-document-availability-v1-customer-test-openapi
-- description: HM Land Registry Official Copy Document Availability Service from HM Land Registry — 1 path(s) described in OpenAPI.
-  name: HM Land Registry Official Copy Document Availability Service (Hm Land Registry Official Copy Document Availability V1)
-  slug: hm-land-registry-official-copy-document-availability-v1-openapi
-- description: HM Land Registry HMLR Business Gateway from HM Land Registry — 1 path(s) described in OpenAPI.
-  name: HM Land Registry HMLR Business Gateway (Hm Land Registry Official Copy Document Availability V2 Customer Test)
-  slug: hm-land-registry-official-copy-document-availability-v2-customer-test-openapi
-- description: HM Land Registry Official Copy Document Availability Service from HM Land Registry — 1 path(s) described in OpenAPI.
-  name: HM Land Registry Official Copy Document Availability Service (Hm Land Registry Official Copy Document Availability V2)
-  slug: hm-land-registry-official-copy-document-availability-v2-openapi
-- description: HM Land Registry Official Search of Whole with Data from HM Land Registry — 1 path(s) described in OpenAPI.
-  name: HM Land Registry Official Search of Whole with Data
-  slug: hm-land-registry-official-search-of-whole-with-data-openapi
-- description: HM Land Registry Registered Proprietor Names Service from HM Land Registry — 1 path(s) described in OpenAPI.
-  name: HM Land Registry Registered Proprietor Names Service
-  slug: hm-land-registry-registered-proprietor-names-openapi
-- description: HM Land Registry V0.3 'Submit an application to change the Land Register API' Schema from HM Land Registry — 6 path(s) described in OpenAPI.
-  name: HM Land Registry V0.3 'Submit an application to change the Land Register API' Schema
-  slug: hm-land-registry-submit-application-to-change-the-register-v0-3-openapi
-- description: HM Land Registry V1.0 'Submit an application to change the Land Register API' Schema from HM Land Registry — 10 path(s) described in OpenAPI.
-  name: HM Land Registry V1.0 'Submit an application to change the Land Register API' Schema
-  slug: hm-land-registry-submit-application-to-change-the-register-v1-0-openapi
-- description: HM Land Registry Use Land and Property Data API from HM Land Registry — 4 path(s) described in OpenAPI.
-  name: HM Land Registry Use Land and Property Data API
-  slug: hm-land-registry-use-land-property-data-openapi
-artifact_total: 47
+- description: The Application information API API from HM Land Registry — 2 operation(s) for application information api.
+  name: HM Land Registry Application information API
+  slug: hm-land-registry-application-information-api-api
+- description: The Attach a document API from HM Land Registry — 1 operation(s) for attach a document.
+  name: HM Land Registry Attach a document API
+  slug: hm-land-registry-attach-a-document-api
+- description: The Attach a message API from HM Land Registry — 1 operation(s) for attach a message.
+  name: HM Land Registry Attach a message API
+  slug: hm-land-registry-attach-a-message-api
+- description: Dataset discovery, metadata and download URL minting.
+  name: HM Land Registry Datasets API
+  slug: hm-land-registry-datasets-api
+- description: The Download a document API API from HM Land Registry — 2 operation(s) for download a document api.
+  name: HM Land Registry Download a document API
+  slug: hm-land-registry-download-a-document-api-api
+- description: The draft-titles API from HM Land Registry — 1 operation(s) for draft-titles.
+  name: HM Land Registry Draft Titles API
+  slug: hm-land-registry-draft-titles-api
+- description: The ECD API from HM Land Registry — 1 operation(s) for ecd.
+  name: HM Land Registry ECD API
+  slug: hm-land-registry-ecd-api
+- description: The Notifications API API from HM Land Registry — 4 operation(s) for notifications api.
+  name: HM Land Registry Notifications API
+  slug: hm-land-registry-notifications-api-api
+- description: Document information related to a title.
+  name: HM Land Registry Official Copies API
+  slug: hm-land-registry-official-copies-api
+- description: The Official Search of Whole with Data API from HM Land Registry — 1 operation(s) for official search of whole with data.
+  name: HM Land Registry Official Search of Whole with Data API
+  slug: hm-land-registry-official-search-of-whole-with-data-api
+- description: Proprietor information related to a title.
+  name: HM Land Registry Registered Proprietor Names API
+  slug: hm-land-registry-registered-proprietor-names-api
+- description: The Send a document API API from HM Land Registry — 3 operation(s) for send a document api.
+  name: HM Land Registry Send a document API
+  slug: hm-land-registry-send-a-document-api-api
+- description: The Submit an application API API from HM Land Registry — 2 operation(s) for submit an application api.
+  name: HM Land Registry Submit an application API
+  slug: hm-land-registry-submit-an-application-api-api
+- description: Operations relating to titles for land or property.
+  name: HM Land Registry Title API
+  slug: hm-land-registry-title-api
+- description: Operations regarding titles
+  name: HM Land Registry Titles API
+  slug: hm-land-registry-titles-api
+artifact_total: 51
 asyncapis:
 - description: Event surface of the HM Land Registry Business Gateway. As an application to change the Land Register moves through HMLR processing, HMLR raises notifications about it. Business units retrieve their n
   name: HM Land Registry Business Gateway Notifications
@@ -124,6 +136,10 @@ collections:
   name: Use Land and Property Data API
   slug: open-hm-land-registry-use-land-property-data
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hm-land-registry-land-register-api-overlay.yaml
 - group: operate
   title: ''
   type: IssueTracker
@@ -434,28 +450,33 @@ modified: '2026-07-26'
 name: HM Land Registry
 nav: Providers
 network: true
-overview: 'HM Land Registry publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Land Register API, Estimate Completion Date API, HMLR Business Gateway (Hm Land Registry Official Copy Document Availability V1 Customer Test), and 8 more. Tagged areas include Real-Estate, United Kingdom, Land Registry, Open Data, and Title.
+overview: 'HM Land Registry publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Application information API, Attach a document API, Attach a message API, and 12 more. Tagged areas include Real-Estate, United Kingdom, Land Registry, Open Data, and Title.
 
 
   The HM Land Registry catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  HM Land Registry''s developer surface includes authentication, documentation, API reference, signup flow, support, sandbox, changelog, and 54 more developer resources.'
+  HM Land Registry''s developer surface includes authentication, documentation, API reference, signup flow, support, sandbox, changelog, and 55 more developer resources.'
 random_paper: 11
 score:
   band: strong
-  composite: 58.0
-  delta: -0.5
+  composite: 56.9
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 31.8
-    contract_quality: 62.8
+    contract_governance: 19.7
+    contract_quality: 64.9
     developer_ergonomics: 66.1
-    discoverability: 72.2
-    governance: 31.8
+    discoverability: 70.4
+    governance: 19.7
     operational_transparency: 28.9
-  previous_composite: 58.5
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -472,8 +493,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/screenshots/hm-land-registry-2026-08-07T170236.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 56
   slug: cloudtalk-agentic-access
   summary_line: 56 operations · 33 acting
-api_count: 13
+api_count: 1
 apis:
 - description: All data you can get about your agents.
   name: CloudTalk Agents API
@@ -131,6 +131,10 @@ collections:
   name: CloudTalk Agents VoiceAgent API
   slug: open-cloudtalk-voiceagent-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cloudtalk-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -293,7 +297,7 @@ overview: 'CloudTalk publishes 13 APIs on the [APIs.io](https://apis.io/) networ
   The CloudTalk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  CloudTalk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  CloudTalk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Cloudtalk Plans Pricing
   plan_count: 4
@@ -305,18 +309,23 @@ rate_limits:
   slug: cloudtalk-rate-limits
 score:
   band: strong
-  composite: 59.0
-  delta: 0.0
+  composite: 57.0
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 58.3
     developer_ergonomics: 32.7
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 59.0
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -333,8 +342,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/screenshots/cloudtalk-2026-07-25T205712.png
 security:

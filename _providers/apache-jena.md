@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 11
   slug: apache-jena-agentic-access
   summary_line: 11 operations · 7 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The Jena Java API provides programmatic access to RDF model creation, SPARQL query execution, OWL reasoning, and TDB2 triplestore management for building Semantic Web applications.
   name: Apache Jena Java API
@@ -275,18 +275,26 @@ rules:
     warn: 7
   slug: apache-jena-spectral-rules
 score:
-  band: thin
-  composite: 37.9
-  delta: 0.0
+  band: developing
+  composite: 41.1
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 3.2
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 28.8
     contract_quality: 54.4
     developer_ergonomics: 21.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 75.0
   previous_composite: 37.9
   provenance:
     agentic_access: derived
@@ -295,8 +303,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-jena/refs/heads/main/screenshots/apache-jena-2026-06-20T172111.png
 security:

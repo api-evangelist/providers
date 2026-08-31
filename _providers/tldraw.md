@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: The tldraw SDK is a React component library for embedding an infinite canvas with drawing tools, shapes, text, arrows, selection, accessibility, and theming. Used in production by Google, Shopify, Cli
@@ -44,6 +44,26 @@ apis:
   slug: tldraw-sync
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/tldraw/tldraw/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/tldraw/tldraw/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/tldraw/tldraw/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/tldraw/tldraw/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/tldraw/tldraw/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -103,7 +123,7 @@ network: true
 overview: 'tldraw publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Whiteboard, SDK, Canvas, React, and Multiplayer.
 
 
-  tldraw''s developer surface includes developer portal, engineering blog, and 9 more developer resources.'
+  tldraw''s developer surface includes developer portal, engineering blog, and 14 more developer resources.'
 plans:
 - name: Tldraw Plans Pricing
   plan_count: 1
@@ -114,9 +134,14 @@ rate_limits:
   name: Tldraw Rate Limits
   slug: tldraw-rate-limits
 score:
-  band: emerging
-  composite: 15.9
-  delta: 1.9
+  band: thin
+  composite: 27.4
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -125,10 +150,13 @@ score:
     developer_ergonomics: 21.4
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 14.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 27.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tldraw/refs/heads/main/screenshots/tldraw-2026-06-20T195423.png
 security:

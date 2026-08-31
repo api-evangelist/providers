@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: questdb-agentic-access
   summary_line: 6 operations · 2 acting
-api_count: 10
+api_count: 1
 apis:
 - description: HTTP REST endpoints for SQL execution (/exec), CSV import (/imp), CSV export (/exp), health/metrics (/chk, /metrics) and runtime settings (/settings). Default port 9000.
   name: QuestDB HTTP REST API
@@ -169,7 +169,7 @@ modified: '2026-05-08'
 name: QuestDB
 nav: Providers
 network: true
-overview: 'QuestDB publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chk API, Exec API, Exp API, and 3 more. Tagged areas include Database, Time Series, SQL, Open-Source, and Performance.
+overview: 'QuestDB publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chk API, Exec API, Exp API, and 3 more. Tagged areas include Database, Time-Series, SQL, Open-Source, and Performance.
 
 
   QuestDB''s developer surface includes authentication, documentation, pricing, GitHub presence, engineering blog, and 9 more developer resources.'
@@ -184,18 +184,23 @@ rate_limits:
   slug: questdb-rate-limits
 score:
   band: thin
-  composite: 34.5
-  delta: 1.4
+  composite: 34.0
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 52.8
     developer_ergonomics: 31.0
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 33.1
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -203,8 +208,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/screenshots/questdb-2026-06-20T192429.png
 security:
@@ -219,7 +224,7 @@ security:
 slug: questdb
 tags:
 - Database
-- Time Series
+- Time-Series
 - SQL
 - Open-Source
 - Performance

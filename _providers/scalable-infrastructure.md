@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 2
   slug: scalable-infrastructure-agentic-access
   summary_line: 2 operations · 1 acting · 1 human-in-the-loop
-api_count: 3
+api_count: 1
 apis:
 - description: The Terraform Registry API provides access to infrastructure-as-code (IaC) modules and providers. HashiCorp Terraform is the leading IaC tool for provisioning and managing cloud infrastructure in a de
   name: Terraform Registry API
@@ -65,6 +65,10 @@ collections:
   name: Amazon EC2 API
   slug: open-scalable-infrastructure
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/scalable-infrastructure-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -145,7 +149,7 @@ overview: 'Scalable Infrastructure publishes 1 API on the [APIs.io](https://apis
   The Scalable Infrastructure catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Scalable Infrastructure''s developer surface includes authentication, engineering blog, and 7 more developer resources.'
+  Scalable Infrastructure''s developer surface includes authentication, engineering blog, and 8 more developer resources.'
 plans:
 - name: Scalable Infrastructure Plans Pricing
   plan_count: 3
@@ -168,18 +172,23 @@ rules:
   slug: scalable-infrastructure-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.7
-  delta: 11.1
+  composite: 41.2
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 62.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 25.0
     contract_quality: 58.5
     developer_ergonomics: 59.5
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 30.6
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     contracts:
@@ -187,9 +196,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-infrastructure/refs/heads/main/screenshots/scalable-infrastructure-2026-06-20T193459.png
 security:
 - kind: authentication

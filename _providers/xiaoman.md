@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 137
   slug: xiaoman-agentic-access
   summary_line: 137 operations · 57 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Companies API from OKKI Go (go.okki.ai) — 4 operations for B2B company search, unlock, profile and decision-maker email retrieval.
   name: OKKI Go Companies API
@@ -296,18 +296,23 @@ scopes:
   summary_line: 12 scopes · password/clientCredentials
 score:
   band: strong
-  composite: 61.9
-  delta: 0.0
+  composite: 59.8
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 57.3
     developer_ergonomics: 83.3
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 61.9
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -318,8 +323,8 @@ score:
       total: 7
     mcp: derived
     skills: unknown
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/screenshots/xiaoman-2026-08-17T083013.png
 security:

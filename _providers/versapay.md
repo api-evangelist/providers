@@ -16,15 +16,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.0
-  scored_at: '2026-08-26'
+  score: 41.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -34,13 +34,73 @@ agentic_access:
   summary_line: 106 operations · 54 acting · 2 human-in-the-loop
 api_count: 2
 apis:
-- description: 'The core Versapay platform REST API (v1.3.35, OpenAPI 3.0.0, 86 documented paths) covering the Collaborative AR and payment-acceptance surface: onboarding applications, wallets, orders and order trans'
-  name: Versapay API Reference
-  slug: versapay-api-reference
-- description: The Versapay Ecommerce server-side API (v2.0.0, OpenAPI 3.0.0, 11 documented paths) that configures payment sessions, manages customer wallets (credit cards and bank accounts), creates and captures or
-  name: Versapay Ecommerce API
-  slug: versapay-ecommerce-api
-artifact_total: 10
+- description: The Agreements API from Versapay — 7 operation(s) for agreements.
+  name: Versapay Agreements API
+  slug: versapay-agreements-api
+- description: 'Visit your account settings in `UAT` (https://uat.versapay.com/account) or `Production` (https://secure.versapay.com/account) to setup API credentials needed for authentication as well as webhooks to '
+  name: Versapay Authentication API
+  slug: versapay-authentication-api
+- description: Autopays are a digital analog to paper pre-authorized debit agreements that businesses could use, for instance, for monthly billing.
+  name: Versapay Autopay API
+  slug: versapay-autopay-api
+- description: Card Present EMV payment transactions require a Versapay certified point-of-sale terminal. Contact support@versapay.com for support & setup for POS/CP EMV enablement.
+  name: Versapay Card Present EMV API
+  slug: versapay-card-present-emv-api
+- description: As a supplier your customers collaborate with you through comments about invoices and/or payments.
+  name: Versapay Collaboration API
+  slug: versapay-collaboration-api
+- description: 'As a supplier your customers are the entities that are invoiced. ## Webhooks When using Webhooks, your application will be notified when key events are triggered for a customer.'
+  name: Versapay Customers API
+  slug: versapay-customers-api
+- description: Operations available to developers
+  name: Versapay Developers API
+  slug: versapay-developers-api
+- description: As a supplier divisions are used to group your invoices.
+  name: Versapay Divisions API
+  slug: versapay-divisions-api
+- description: As a supplier you can upload customer, invoice, and payment data in CSV file formats.
+  name: Versapay File Imports API
+  slug: versapay-file-imports-api
+- description: The Fund Sources API from Versapay — 2 operation(s) for fund sources.
+  name: Versapay Fund Sources API
+  slug: versapay-fund-sources-api
+- description: Provisioned gift cards can be activated/enabled (or deactivated/disabled) as well as have their balances loaded/re-loaded with an amount. Contact support@versapay.com for support & setup for Gift Card
+  name: Versapay Gift Cards API
+  slug: versapay-gift-cards-api
+- description: Operations intended only to the iframe front end
+  name: Versapay Internal API
+  slug: versapay-internal-api
+- description: 'As a supplier invoices are your receivables. ## Webhooks When using Webhooks, your application will be notified when key events are triggered for an invoice.'
+  name: Versapay Invoices API
+  slug: versapay-invoices-api
+- description: 'As a supplier a payments are made by customers for invoices issued to them. ## Webhooks When using Webhooks, your application will be notified when key events are triggered for a payment.'
+  name: Versapay Invoicing Payments API
+  slug: versapay-invoicing-payments-api
+- description: As a supplier you can notify customers about their invoices.
+  name: Versapay Notifications API
+  slug: versapay-notifications-api
+- description: Onboarding supports the automated process of applying for merchant services. Contact support@versapay.com for support & setup of supplier onboarding partner credentials.
+  name: Versapay Onboarding API
+  slug: versapay-onboarding-api
+- description: Order-based card/ACH and card present EMV payment transactions include verify, authorize, capture, sale, void, return refund, and return credit transaction types. If participating in a gift card progr
+  name: Versapay Order Transactions API
+  slug: versapay-order-transactions-api
+- description: The Order entity represents the sales document in the ERP system. The fields in the ERP system should be aligned as closely as possible with the fields in the order entity, as the gateway will use the
+  name: Versapay Orders API
+  slug: versapay-orders-api
+- description: For convenience purposes only, Versapay can supply third party reference data to its partners and users. This data can be used to implement client-side tooling (e.g., fraud mitigation services), but i
+  name: Versapay Reference Data API
+  slug: versapay-reference-data-api
+- description: Settlement Reporting includes retrieval of monthly statements, daily deposit amounts (including fee information), transaction exceptions (ACH reject/return & CC chargeback), and transaction details. C
+  name: Versapay Settlement Reporting API
+  slug: versapay-settlement-reporting-api
+- description: The Transactions API from Versapay — 4 operation(s) for transactions.
+  name: Versapay Transactions API
+  slug: versapay-transactions-api
+- description: The Wallet entity holds vaulted & secured payment methods owned by a customer (buyer/payor) that can be used to make payments via Collaborative AR (online Portals, AutoPay, Pay Now), Order Transaction
+  name: Versapay Wallets API
+  slug: versapay-wallets-api
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Versapay Webhooks
@@ -53,6 +113,14 @@ collections:
   name: Versapay Ecommerce API
   slug: open-versapay-ecommerce-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/versapay-api-reference-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/versapay-ecommerce-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -186,13 +254,13 @@ modified: '2026-07-24'
 name: Versapay
 nav: Providers
 network: true
-overview: 'Versapay publishes 2 APIs on the [APIs.io](https://apis.io/) network: API Reference and Ecommerce API. Tagged areas include Payments, Canada, Accounts Receivable, AR Automation, and Order-to-Cash.
+overview: 'Versapay publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Authentication API, Autopay API, and 19 more. Tagged areas include Payments, Canada, Accounts Receivable, AR Automation, and Order to Cash.
 
 
   The Versapay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Versapay''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, signup flow, and 24 more developer resources.'
+  Versapay''s developer surface includes authentication, sandbox, documentation, API reference, engineering blog, signup flow, and 26 more developer resources.'
 random_paper: 14
 scopes:
 - name: Versapay Scopes
@@ -200,19 +268,24 @@ scopes:
   slug: versapay-scopes
   summary_line: 5 scopes · authorizationCode/clientCredentials/password
 score:
-  band: strong
-  composite: 56.2
-  delta: 0.0
+  band: developing
+  composite: 53.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
-    contract_quality: 54.7
+    contract_governance: 18.2
+    contract_quality: 54.6
     developer_ergonomics: 49.4
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 56.2
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -224,8 +297,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/versapay/refs/heads/main/screenshots/versapay-2026-08-17T082740.png
 security:
@@ -243,7 +316,7 @@ tags:
 - Canada
 - Accounts Receivable
 - AR Automation
-- Order-to-Cash
+- Order to Cash
 - Payment Acceptance
 - Payment Processing
 - B2B Payments

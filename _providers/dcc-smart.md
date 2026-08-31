@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -33,15 +33,26 @@ agentic_access:
   summary_line: 2 operations · 2 acting
 api_count: 1
 apis:
-- description: An open-source HTTP API published by Smart DCC Limited for signing and validating DUIS (DCC User Interface Specification) XML messages. Two operations — POST /sign adds an XML digital signature to a B
-  name: DCC Boxed DUIS Signing Tool API
-  slug: dcc-boxed-duis-signing-tool-api
-artifact_total: 8
+- description: The Sign API from Smart DCC — 1 operation(s) for sign.
+  name: Smart DCC Sign API
+  slug: dcc-smart-sign-api
+- description: The Verify API from Smart DCC — 1 operation(s) for verify.
+  name: Smart DCC Verify API
+  slug: dcc-smart-verify-api
+artifact_total: 9
 collections:
 - collection_type: open
   name: DCC Boxed DUIS Signing Tool API
   slug: open-dcc-boxed-duis-signing-tool
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dcc-smart-dcc-boxed-duis-signing-tool-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -219,25 +230,30 @@ modified: '2026-07-27'
 name: Smart DCC
 nav: Providers
 network: true
-overview: 'Smart DCC publishes 1 API on the [APIs.io](https://apis.io/) network: DCC Boxed DUIS Signing Tool API. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
+overview: 'Smart DCC publishes 2 APIs on the [APIs.io](https://apis.io/) network: Sign API and Verify API. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
 
 
-  Smart DCC''s developer surface includes engineering blog, documentation, CLI, sandbox, changelog, support, pricing, and 33 more developer resources.'
+  Smart DCC''s developer surface includes engineering blog, documentation, CLI, sandbox, changelog, support, pricing, and 35 more developer resources.'
 random_paper: 12
 score:
   band: developing
-  composite: 49.3
-  delta: 4.0
+  composite: 49.2
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 81.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 34.1
-    contract_quality: 45.6
+    contract_governance: 22.0
+    contract_quality: 48.3
     developer_ergonomics: 51.8
-    discoverability: 59.3
-    governance: 34.1
+    discoverability: 66.7
+    governance: 22.0
     operational_transparency: 50.0
-  previous_composite: 45.3
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -253,13 +269,15 @@ score:
     jurisdictions:
     - jurisdiction: GB
       standard: smart-energy-code
-    jurisdictions_satisfied: 1
+    - jurisdiction: UK
+      standard: uk-gdpr
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 54.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/screenshots/dcc-smart-2026-08-07T164213.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 96
   slug: nimble-agentic-access
   summary_line: 96 operations · 70 acting
-api_count: 13
+api_count: 1
 apis:
-- description: The Nimble CRM REST API — 89 operations across contacts, contact custom fields, contact and deal pipelines, deals, leads, activities, tasks, messages and users. Nimble publishes a full OpenAPI 3.0.0 c
-  name: Nimble REST API
-  slug: rest-api
 - description: Account activity stream — list activities across contacts and deals, walked with a next_tstamp timestamp cursor. 1 operation(s).
   name: Nimble Activities API
   slug: nimble-activities-api
@@ -83,7 +80,7 @@ apis:
 - description: The authenticated user record — the credential-verification endpoint. 1 operation(s).
   name: Nimble Users API
   slug: nimble-users-api
-artifact_total: 29
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -245,7 +242,7 @@ modified: '2026-08-13'
 name: Nimble
 nav: Providers
 network: true
-overview: 'Nimble publishes 13 APIs on the [APIs.io](https://apis.io/) network, including REST API, Activities API, Contacts API, and 10 more. Tagged areas include CRM, Sales, Contact Management, Relationship Management, and Marketing Automation.
+overview: 'Nimble publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Contacts API, Contacts Fields API, and 9 more. Tagged areas include CRM, Sales, Contact Management, Relationship Management, and Marketing Automation.
 
 
   Nimble''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
@@ -265,18 +262,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 49.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 16.7
-    contract_quality: 56.3
+    contract_governance: 4.5
+    contract_quality: 57.7
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 51.2
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -287,8 +289,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/screenshots/nimble-2026-08-17T124228.png
 security:

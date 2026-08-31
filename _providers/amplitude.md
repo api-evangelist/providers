@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -42,32 +42,20 @@ agentic_access:
   operation_count: 73
   slug: amplitude-agentic-access
   summary_line: 73 operations · 35 acting
-api_count: 33
+api_count: 10
 apis:
 - description: The Amplitude Batch Event Upload API is optimized for high-volume server-side event ingestion. It accepts batches of events up to 20MB per request and is designed for use cases where data volume may e
   name: Amplitude Batch Event Upload API
   slug: batch-event-upload-api
-- description: The Amplitude Identify API allows developers to update user properties for a specific user without needing to send an accompanying event. This is useful for setting or modifying user attributes such a
-  name: Amplitude Identify API
-  slug: identify-api
 - description: The Amplitude Group Identify API allows developers to set or update properties on groups within Amplitude. Groups are entities such as companies, teams, or accounts that users belong to. This API enab
   name: Amplitude Group Identify API
   slug: group-identify-api
-- description: The Amplitude Export API enables bulk export of raw event data for a given project within a specified date range. Results are returned as zipped archives of JSON files containing complete event record
-  name: Amplitude Export API
-  slug: export-api
-- description: The Amplitude Attribution API allows developers to send attribution campaign events to Amplitude from ad networks, attribution providers, or custom marketing tools. It associates users with the campai
-  name: Amplitude Attribution API
-  slug: attribution-api
 - description: The Amplitude Releases API allows developers to programmatically track software releases and deployments in Amplitude. By recording release events, teams can correlate product changes with analytics m
   name: Amplitude Releases API
   slug: releases-api
 - description: 'The Amplitude Session Replay API enables developers to upload and manage session replay data for playback within Amplitude. Session replays provide qualitative insights by recording user interactions '
   name: Amplitude Session Replay API
   slug: session-replay-api
-- description: 'The Amplitude User Mapping (Aliasing) API allows developers to merge users with different user IDs together in Amplitude. This is useful when a user initially interacts with a product anonymously and '
-  name: Amplitude User Mapping API
-  slug: user-mapping-api
 - description: The Amplitude User Privacy API provides endpoints for managing user data in compliance with privacy regulations such as GDPR and CCPA. It supports requesting the deletion or suppression of user data b
   name: Amplitude User Privacy API
   slug: user-privacy-api
@@ -183,7 +171,7 @@ arazzos:
 - description: Download flag configurations for local evaluation, then remotely evaluate variant assignments for a user.
   name: Amplitude Variant Evaluation
   slug: amplitude-variant-evaluation-workflow
-artifact_total: 539
+artifact_total: 535
 asyncapis:
 - description: 'AsyncAPI description of two outbound, push-style surfaces offered by Amplitude''s Data destination catalog: 1. Webhooks Streaming destination - a generic event/user forwarding destination that delivers'
   name: Amplitude Webhooks and Cohort Sync
@@ -1727,7 +1715,7 @@ modified: '2026-05-30'
 name: Amplitude
 nav: Providers
 network: true
-overview: 'Amplitude publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Identify API, Export API, Attribution API, and 25 more. Tagged areas include A/B Testing, Analytics, Experimentation, Feature Flags, and Product Analytics.
+overview: 'Amplitude publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Webhooks and Cohort Sync, Annotations API, Cohorts API, and 21 more. Tagged areas include A/B Testing, Analytics, Experimentation, Feature Flags, and Product Analytics.
 
 
   The Amplitude catalog on APIs.io includes 1 event-driven AsyncAPI specification, 17 JSON-LD contexts, and 3 Spectral governance rulesets.
@@ -1778,18 +1766,23 @@ rules:
   slug: amplitude-spectral-rules
 score:
   band: strong
-  composite: 57.1
+  composite: 58.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 28.8
-    contract_quality: 77.9
+    contract_quality: 81.5
     developer_ergonomics: 69.0
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 57.1
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1797,8 +1790,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/screenshots/amplitude-2026-06-20T171944.png
 security:

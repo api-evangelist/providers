@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: The Shippers Group provides third-party logistics services including warehousing, co-packaging, fulfillment, and transportation management. As a national 3PL provider operating across 12 US locations,
@@ -129,7 +129,7 @@ modified: '2026-05-02'
 name: The Shippers Group
 nav: Providers
 network: true
-overview: 'The Shippers Group publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Third Party Logistics, Warehousing, Fulfillment, Supply Chain, and Transportation Management.
+overview: 'The Shippers Group publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Third-Party Logistics, Warehousing, Fulfillment, Supply Chain, and Transportation Management.
 
 
   The The Shippers Group catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -159,7 +159,12 @@ rules:
 score:
   band: emerging
   composite: 19.3
-  delta: 1.9
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 57.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -169,9 +174,9 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 7.9
-  previous_composite: 17.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 19.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security
@@ -180,7 +185,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: shippers-group
 tags:
-- Third Party Logistics
+- Third-Party Logistics
 - Warehousing
 - Fulfillment
 - Supply Chain

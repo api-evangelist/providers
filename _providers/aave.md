@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 8
 apis:
 - description: Core Aave V3 protocol contracts — Pool, L2 Pool, Wrapped Token Gateway, PoolAddressesProvider, Pool Configurator, Interest Rate Strategy, Access Control Manager, Oracles, aTokens, variable / stable de
@@ -148,9 +148,14 @@ rate_limits:
   name: Aave Rate Limits
   slug: aave-rate-limits
 score:
-  band: emerging
-  composite: 23.6
-  delta: 0.0
+  band: thin
+  composite: 26.2
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 2.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -160,9 +165,12 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 50.0
   previous_composite: 23.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aave/refs/heads/main/screenshots/aave-2026-06-20T163031.png
 security:

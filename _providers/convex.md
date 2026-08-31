@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 24
   slug: convex-agentic-access
   summary_line: 24 operations · 15 acting
-api_count: 14
+api_count: 3
 apis:
 - description: The Convex Sync Protocol is the bidirectional WebSocket protocol spoken between Convex client SDKs and the sync worker of a Convex deployment. Clients open a single WebSocket connection to wss://{depl
   name: Convex Sync Protocol
@@ -410,6 +410,11 @@ rules:
 score:
   band: developing
   composite: 46.2
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 40.8
@@ -428,8 +433,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/screenshots/convex-2026-06-20T175006.png
 security:

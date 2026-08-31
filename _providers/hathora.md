@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 36
   slug: hathora-agentic-access
   summary_line: 36 operations · 17 acting · 2 human-in-the-loop
-api_count: 11
+api_count: 1
 apis:
 - description: Create and manage your organization's applications.
   name: Hathora AppsV2 API
@@ -119,6 +119,10 @@ collections:
   name: Hathora Cloud API
   slug: open-hathora
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hathora-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -178,7 +182,7 @@ network: true
 overview: 'Hathora publishes 11 APIs on the [APIs.io](https://apis.io/) network, including AppsV2 API, AuthV1 API, BillingV1 API, and 8 more. Tagged areas include Game Servers, Multiplayer, Compute, Hosting, and Orchestration.
 
 
-  Hathora''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Hathora''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Hathora Plans Pricing
   plan_count: 3
@@ -190,18 +194,23 @@ rate_limits:
   slug: hathora-rate-limits
 score:
   band: thin
-  composite: 35.1
-  delta: 0.1
+  composite: 34.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 46.0
     developer_ergonomics: 19.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 35.0
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -209,8 +218,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/screenshots/hathora-2026-07-25T220753.png
 security:

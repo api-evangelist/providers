@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 173
   human_in_the_loop: 32
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 379
   slug: gremlin-agentic-access
   summary_line: 379 operations · 173 acting · 32 human-in-the-loop
-api_count: 55
+api_count: 1
 apis:
 - description: List and modify all infrastructure and failure flag agents
   name: Gremlin agents API
@@ -382,6 +382,10 @@ collections:
   name: Gremlin API
   slug: open-gremlin
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gremlin-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -460,7 +464,7 @@ overview: 'Gremlin publishes 55 APIs on the [APIs.io](https://apis.io/) network,
   The Gremlin catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Gremlin''s developer surface includes developer portal, documentation, getting-started guide, authentication, pricing, support, engineering blog, and 8 more developer resources.'
+  Gremlin''s developer surface includes developer portal, documentation, getting-started guide, authentication, pricing, support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Gremlin Plans Pricing
   plan_count: 3
@@ -483,15 +487,20 @@ rules:
   slug: gremlin-rules
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 45.4
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 53.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 30.3
     contract_quality: 57.5
     developer_ergonomics: 33.3
-    discoverability: 88.9
+    discoverability: 83.3
     governance: 30.3
     operational_transparency: 10.5
   previous_composite: 46.0
@@ -502,8 +511,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 55
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gremlin/refs/heads/main/screenshots/gremlin-2026-06-20T182400.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -33,17 +33,108 @@ agentic_access:
   summary_line: 74 operations · 20 acting
 api_count: 3
 apis:
-- description: Cynergy Bank's implementation of the OBIE Read/Write Account & Transaction Information (AISP) API, allowing FCA/EEA-regulated Account Information Service Providers to retrieve customer account, balanc
-  name: Cynergy Bank Account & Transaction Information API (AIS)
-  slug: cynergy-bank-account-information-api
-- description: Cynergy Bank's implementation of the OBIE Read/Write Payment Initiation (PISP) API, allowing FCA/EEA-regulated Payment Initiation Service Providers to initiate domestic and scheduled payments on behal
-  name: Cynergy Bank Payment Initiation API (PIS)
-  slug: cynergy-bank-payment-initiation-api
-- description: 'Cynergy Bank''s implementation of the OBIE Read/Write Confirmation of Funds (CBPII) API, allowing regulated Card Based Payment Instrument Issuers to confirm whether sufficient funds are available on a '
-  name: Cynergy Bank Confirmation of Funds API (CBPII)
-  slug: cynergy-bank-confirmation-of-funds-api
-artifact_total: 8
+- description: The Account Access Consents API from Cynergy Bank — 2 operation(s) for account access consents.
+  name: Cynergy Bank Account Access Consents API
+  slug: cynergy-bank-account-access-consents-api
+- description: The Accounts API from Cynergy Bank — 2 operation(s) for accounts.
+  name: Cynergy Bank Accounts API
+  slug: cynergy-bank-accounts-api
+- description: The Balances API from Cynergy Bank — 2 operation(s) for balances.
+  name: Cynergy Bank Balances API
+  slug: cynergy-bank-balances-api
+- description: The Beneficiaries API from Cynergy Bank — 2 operation(s) for beneficiaries.
+  name: Cynergy Bank Beneficiaries API
+  slug: cynergy-bank-beneficiaries-api
+- description: The Direct Debits API from Cynergy Bank — 2 operation(s) for direct debits.
+  name: Cynergy Bank Direct Debits API
+  slug: cynergy-bank-direct-debits-api
+- description: The Domestic Payment Consents API from Cynergy Bank — 3 operation(s) for domestic payment consents.
+  name: Cynergy Bank Domestic Payment Consents API
+  slug: cynergy-bank-domestic-payment-consents-api
+- description: The Domestic Payments API from Cynergy Bank — 3 operation(s) for domestic payments.
+  name: Cynergy Bank Domestic Payments API
+  slug: cynergy-bank-domestic-payments-api
+- description: The Domestic Scheduled Payment Consents API from Cynergy Bank — 2 operation(s) for domestic scheduled payment consents.
+  name: Cynergy Bank Domestic Scheduled Payment Consents API
+  slug: cynergy-bank-domestic-scheduled-payment-consents-api
+- description: The Domestic Scheduled Payments API from Cynergy Bank — 3 operation(s) for domestic scheduled payments.
+  name: Cynergy Bank Domestic Scheduled Payments API
+  slug: cynergy-bank-domestic-scheduled-payments-api
+- description: The Domestic Standing Order Consents API from Cynergy Bank — 2 operation(s) for domestic standing order consents.
+  name: Cynergy Bank Domestic Standing Order Consents API
+  slug: cynergy-bank-domestic-standing-order-consents-api
+- description: The Domestic Standing Orders API from Cynergy Bank — 3 operation(s) for domestic standing orders.
+  name: Cynergy Bank Domestic Standing Orders API
+  slug: cynergy-bank-domestic-standing-orders-api
+- description: The File Payment Consents API from Cynergy Bank — 3 operation(s) for file payment consents.
+  name: Cynergy Bank File Payment Consents API
+  slug: cynergy-bank-file-payment-consents-api
+- description: The File Payments API from Cynergy Bank — 4 operation(s) for file payments.
+  name: Cynergy Bank File Payments API
+  slug: cynergy-bank-file-payments-api
+- description: The Funds Confirmation Consents API from Cynergy Bank — 2 operation(s) for funds confirmation consents.
+  name: Cynergy Bank Funds Confirmation Consents API
+  slug: cynergy-bank-funds-confirmation-consents-api
+- description: The Funds Confirmations API from Cynergy Bank — 1 operation(s) for funds confirmations.
+  name: Cynergy Bank Funds Confirmations API
+  slug: cynergy-bank-funds-confirmations-api
+- description: The International Payment Consents API from Cynergy Bank — 3 operation(s) for international payment consents.
+  name: Cynergy Bank International Payment Consents API
+  slug: cynergy-bank-international-payment-consents-api
+- description: The International Payments API from Cynergy Bank — 3 operation(s) for international payments.
+  name: Cynergy Bank International Payments API
+  slug: cynergy-bank-international-payments-api
+- description: The International Scheduled Payments API from Cynergy Bank — 3 operation(s) for international scheduled payments.
+  name: Cynergy Bank International Scheduled Payments API
+  slug: cynergy-bank-international-scheduled-payments-api
+- description: The International Scheduled Payments Consents API from Cynergy Bank — 3 operation(s) for international scheduled payments consents.
+  name: Cynergy Bank International Scheduled Payments Consents API
+  slug: cynergy-bank-international-scheduled-payments-consents-api
+- description: The International Standing Orders API from Cynergy Bank — 3 operation(s) for international standing orders.
+  name: Cynergy Bank International Standing Orders API
+  slug: cynergy-bank-international-standing-orders-api
+- description: The International Standing Orders Consents API from Cynergy Bank — 2 operation(s) for international standing orders consents.
+  name: Cynergy Bank International Standing Orders Consents API
+  slug: cynergy-bank-international-standing-orders-consents-api
+- description: The Offers API from Cynergy Bank — 2 operation(s) for offers.
+  name: Cynergy Bank Offers API
+  slug: cynergy-bank-offers-api
+- description: The Parties API from Cynergy Bank — 3 operation(s) for parties.
+  name: Cynergy Bank Parties API
+  slug: cynergy-bank-parties-api
+- description: The Products API from Cynergy Bank — 2 operation(s) for products.
+  name: Cynergy Bank Products API
+  slug: cynergy-bank-products-api
+- description: The Scheduled Payments API from Cynergy Bank — 2 operation(s) for scheduled payments.
+  name: Cynergy Bank Scheduled Payments API
+  slug: cynergy-bank-scheduled-payments-api
+- description: The Standing Orders API from Cynergy Bank — 2 operation(s) for standing orders.
+  name: Cynergy Bank Standing Orders API
+  slug: cynergy-bank-standing-orders-api
+- description: The Statements API from Cynergy Bank — 5 operation(s) for statements.
+  name: Cynergy Bank Statements API
+  slug: cynergy-bank-statements-api
+- description: The Transactions API from Cynergy Bank — 2 operation(s) for transactions.
+  name: Cynergy Bank Transactions API
+  slug: cynergy-bank-transactions-api
+artifact_total: 33
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cynergy-bank-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cynergy-bank-account-information-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cynergy-bank-payment-initiation-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cynergy-bank-confirmation-of-funds-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -148,10 +239,10 @@ modified: '2026-07-24'
 name: Cynergy Bank
 nav: Providers
 network: true
-overview: 'Cynergy Bank publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account & Transaction Information API (AIS), Payment Initiation API (PIS), and Confirmation of Funds API (CBPII). Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Cynergy Bank publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, Balances API, and 25 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  Cynergy Bank''s developer surface includes authentication, documentation, support, and 20 more developer resources.'
+  Cynergy Bank''s developer surface includes authentication, documentation, support, and 24 more developer resources.'
 random_paper: 8
 scopes:
 - name: Cynergy Bank Scopes
@@ -160,18 +251,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 38.5
+  composite: 37.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 54.4
     developer_ergonomics: 28.0
     discoverability: 72.2
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 38.5
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -184,12 +280,18 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: eidas
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cynergy-bank/refs/heads/main/screenshots/cynergy-bank-2026-07-25T211048.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,20 +41,8 @@ agentic_access:
   operation_count: 8
   slug: weatherbys-bank-agentic-access
   summary_line: 8 operations
-api_count: 7
+api_count: 4
 apis:
-- description: PUBLIC, unauthenticated OBIE Open Data ATM Locator API — reference data for the bank's ATMs (postal address, geographic coordinates, services). Conforms to the OBIE Open Data API Standard v2.3. Docume
-  name: Weatherbys Bank Open Data ATM Locator API
-  slug: weatherbys-open-data-atm-locator-api
-- description: PUBLIC, unauthenticated OBIE Open Data Branch Locator API — reference data for the bank's branches. Conforms to the OBIE Open Data API Standard v2.3. Documented/standard for this ASPSP; the live endpo
-  name: Weatherbys Bank Open Data Branch Locator API
-  slug: weatherbys-open-data-branch-locator-api
-- description: PUBLIC, unauthenticated OBIE Open Data Personal Current Accounts (PCA) API — reference product data (features, fees, rates, eligibility) for personal current accounts. Conforms to the OBIE Open Data A
-  name: Weatherbys Bank Open Data Personal Current Accounts API
-  slug: weatherbys-open-data-personal-current-accounts-api
-- description: PUBLIC, unauthenticated OBIE Open Data Business Current Accounts (BCA) API — reference product data for business current accounts. Conforms to the OBIE Open Data API Standard v2.4. Documented/standard
-  name: Weatherbys Bank Open Data Business Current Accounts API
-  slug: weatherbys-open-data-business-current-accounts-api
 - description: OBIE Read/Write Account and Transaction Information API (AISP). FAPI-secured (OAuth2/OIDC, mutual-TLS, PSD2 strong customer authentication) — requires OBIE/eIDAS certificates and dynamic client regist
   name: Weatherbys Bank Account and Transaction Information API (AIS)
   slug: weatherbys-account-transaction-information-api
@@ -64,6 +52,18 @@ apis:
 - description: OBIE Read/Write Confirmation of Funds API (CBPII). FAPI-secured (OAuth2/OIDC, mutual-TLS, PSD2 SCA) — requires OBIE/eIDAS certificates and dynamic client registration. Represented as the documented OB
   name: Weatherbys Bank Confirmation of Funds API (CBPII)
   slug: weatherbys-confirmation-of-funds-api
+- description: Endpoint for getting ATM data
+  name: Weatherbys Bank ATM API
+  slug: weatherbys-bank-atm-api
+- description: Endpoint for getting Business Current Account data
+  name: Weatherbys Bank BCA API
+  slug: weatherbys-bank-bca-api
+- description: Endpoint for getting Branch data
+  name: Weatherbys Bank Branch API
+  slug: weatherbys-bank-branch-api
+- description: Endpoint for getting Personal Current Account data
+  name: Weatherbys Bank PCA API
+  slug: weatherbys-bank-pca-api
 artifact_total: 16
 collections:
 - collection_type: open
@@ -79,6 +79,10 @@ collections:
   name: Open Data API
   slug: open-obie-opendata-personal-current-accounts-standard
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/weatherbys-bank-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -192,10 +196,10 @@ modified: '2026-07-23'
 name: Weatherbys Bank
 nav: Providers
 network: true
-overview: 'Weatherbys Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data ATM Locator API, Open Data Branch Locator API, Open Data Personal Current Accounts API, and 1 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Weatherbys Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 1 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  Weatherbys Bank''s developer surface includes authentication, documentation, engineering blog, support, and 21 more developer resources.'
+  Weatherbys Bank''s developer surface includes authentication, documentation, engineering blog, support, and 22 more developer resources.'
 random_paper: 10
 scopes:
 - name: Weatherbys Bank Scopes
@@ -204,18 +208,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 50.5
-  delta: -1.0
+  composite: 49.1
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 60.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 78.6
     commercial_clarity: 78.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 33.7
     developer_ergonomics: 35.7
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 51.5
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -227,12 +236,16 @@ score:
     mcp: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

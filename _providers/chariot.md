@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 86
   slug: chariot-agentic-access
   summary_line: 86 operations · 35 acting · 3 human-in-the-loop
-api_count: 29
+api_count: 2
 apis:
 - description: Bank account information and balances
   name: Chariot Accounts API
@@ -316,6 +316,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/chariot-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/chariot-fdx-overlay.yaml
 - group: build
@@ -474,13 +478,13 @@ modified: '2026-07-18'
 name: Chariot
 nav: Providers
 network: true
-overview: 'Chariot publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authorization Tokens API, Connects API, and 26 more. Tagged areas include Payments, Donor-Advised Funds, Charitable Giving, Non-Profit, and Fintech.
+overview: 'Chariot publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authorization Tokens API, Connects API, and 26 more. Tagged areas include Payments, Donor Advised Funds, Charitable Giving, Non-Profit, and Fintech.
 
 
   The Chariot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Chariot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
+  Chariot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
 random_paper: 11
 scopes:
 - name: Chariot Scopes
@@ -489,18 +493,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 47.8
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 66.4
     developer_ergonomics: 39.9
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 51.0
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -517,8 +526,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 63.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/screenshots/chariot-2026-07-25T205102.png
 security:
@@ -533,7 +542,7 @@ security:
 slug: chariot
 tags:
 - Payments
-- Donor-Advised Funds
+- Donor Advised Funds
 - Charitable Giving
 - Non-Profit
 - Fintech

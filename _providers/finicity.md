@@ -23,12 +23,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
-api_count: 7
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: Consumer-permissioned account and transaction aggregation across banks, credit unions, cards, loans and investment accounts, delivering account details, balances and categorized transactions.
-  name: Finicity Aggregation (Accounts & Transactions) API
-  slug: finicity-aggregation-api
 - description: Hosted, embeddable account-linking experience that lets a consumer authenticate to their financial institution and permission data sharing, returning the linked accounts to the partner application.
   name: Finicity Connect
   slug: finicity-connect
@@ -47,12 +44,125 @@ apis:
 - description: FDX-aligned, consumer-permissioned open-banking data-access surface through which Finicity, as a founding Financial Data Exchange participant, shares financial data on behalf of connected institutions
   name: Finicity Open Banking Data Access (FDX)
   slug: finicity-open-banking-data-access
-artifact_total: 11
+- description: Micro entries and account verification
+  name: Finicity Account Validation Assistance API
+  slug: finicity-account-validation-assistance-api
+- description: Fetch or refresh customer accounts
+  name: Finicity Accounts API
+  slug: finicity-accounts-api
+- description: Fetch simple customer accounts
+  name: Finicity Accounts (Simple) API
+  slug: finicity-accounts-simple-api
+- description: Register and assign apps to customers
+  name: Finicity App Registration API
+  slug: finicity-app-registration-api
+- description: Generate authentication tokens and manage credentials
+  name: Finicity Authentication API
+  slug: finicity-authentication-api
+- description: Balance Analytics for businesses
+  name: Finicity Balance Analytics API
+  slug: finicity-balance-analytics-api
+- description: Fetch account statements and generate reports asynchronously
+  name: Finicity Bank Statements API
+  slug: finicity-bank-statements-api
+- description: Create and manage business associated with customers in order to use Balance Analytics or Cash Flow Analytics
+  name: Finicity Businesses API
+  slug: finicity-businesses-api-api
+- description: Cash Flow Analytics for business
+  name: Finicity Cash Flow Analytics API
+  slug: finicity-cash-flow-analytics-api
+- description: Generate cash flow reports asynchronously
+  name: Finicity Cash Flow API
+  slug: finicity-cash-flow-api
+- description: Allow customers to log into their financial institutions and grant Finicity authorization
+  name: Finicity Connect API
+  slug: finicity-connect-api
+- description: Allow customers to log into their financial institutions and grant Finicity authorization
+  name: Finicity Connect Components API
+  slug: finicity-connect-components-api
+- description: Generate consumer foresight analytics reports
+  name: Finicity Consumer Foresight API
+  slug: finicity-consumer-foresight-api
+- description: Create and manage consumers associated with customers in order to use report services
+  name: Finicity Consumers API
+  slug: finicity-consumers-api
+- description: APIs to retrieve customer authorization details
+  name: Finicity Customer Authorization Details API
+  slug: finicity-customer-authorization-details-api
+- description: Enroll and manage customers
+  name: Finicity Customers API
+  slug: finicity-customers-api
+- description: Manage data sharing consents
+  name: Finicity Data Sharing Consent API
+  slug: finicity-data-sharing-consent-api
+- description: Match the request details to the Institution account holder details
+  name: Finicity Identity API
+  slug: finicity-identity-api
+- description: Search and fetch financial institutions
+  name: Finicity Institutions API
+  slug: finicity-institutions-api
+- description: Upload pay statements
+  name: Finicity Pay Statements API
+  slug: finicity-pay-statements-api
+- description: Any or all of the Payments endpoints in one API call
+  name: Finicity Payment Enablement Bundle API
+  slug: finicity-payment-enablement-bundle-api
+- description: Payment History Report for business
+  name: Finicity Payment History Report API
+  slug: finicity-payment-history-report-api
+- description: Predict a transaction's likelihood to settle
+  name: Finicity Payment Success Indicator API
+  slug: finicity-payment-success-indicator-api
+- description: Fetch ACH details and account balances
+  name: Finicity Payments API
+  slug: finicity-payments-api
+- description: Generate portfolios of the most recent reports
+  name: Finicity Portfolios API
+  slug: finicity-portfolios-api
+- description: Fetch generated reports when ready
+  name: Finicity Reports API
+  slug: finicity-reports-api
+- description: Fetch merchant location matches and generate reports
+  name: Finicity Small Business Credit Analytics API
+  slug: finicity-small-business-credit-analytics-api
+- description: Generate and manage access keys for other partners
+  name: Finicity Third Party Access API
+  slug: finicity-third-party-access-api
+- description: Enhance the transaction data set
+  name: Finicity Transaction Data Enrichment API
+  slug: finicity-transaction-data-enrichment-api
+- description: Fetch customer and account transactions and generate reports asynchronously
+  name: Finicity Transactions API
+  slug: finicity-transactions-api
+- description: Fetch details of the deposit and bill pay switches
+  name: Finicity Transfer API
+  slug: finicity-transfer-api
+- description: Manage TxPush subscriptions
+  name: Finicity Tx Push API
+  slug: finicity-txpush-api
+- description: Generate asset reports asynchronously
+  name: Finicity Verify Assets API
+  slug: finicity-verify-assets-api
+- description: Generate income and employment reports asynchronously
+  name: Finicity Verify Income and Employment API
+  slug: finicity-verify-income-and-employment-api
+- description: APIs for Managing Partner Webhook Event Subscriptions
+  name: Finicity Webhook Subscription API
+  slug: finicity-webhook-subscription-api
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Finicity Webhooks
   slug: finicity-webhooks
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/mastercard/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/finicity-capability-edges.yml
 - group: auth
   title: ''
   type: Authentication
@@ -182,28 +292,33 @@ modified: '2026-07-23'
 name: Finicity
 nav: Providers
 network: true
-overview: 'Finicity publishes 1 API on the [APIs.io](https://apis.io/) network: Aggregation (Accounts & Transactions) API. Tagged areas include Financial-Services, Data Aggregation, Open Finance, Open Banking, and FDX.
+overview: 'Finicity publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Account Validation Assistance API, Accounts API, Accounts (Simple) API, and 32 more. Tagged areas include Financial-Services, Data Aggregation, Open Finance, Open Banking, and FDX.
 
 
   The Finicity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Finicity''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 22 more developer resources.'
+  Finicity''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 24 more developer resources.'
 random_paper: 2
 score:
   band: developing
-  composite: 52.7
-  delta: 1.1
+  composite: 50.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 16.7
-    contract_quality: 66.6
+    contract_governance: 4.5
+    contract_quality: 66.5
     developer_ergonomics: 75.6
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 51.6
+  previous_composite: 51.2
   provenance:
     conformance: derived
     contracts:
@@ -223,8 +338,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 41.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finicity/refs/heads/main/screenshots/finicity-2026-07-25T214523.png
 security:

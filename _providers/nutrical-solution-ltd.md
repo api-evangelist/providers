@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 21
   slug: nutrical-solution-ltd-agentic-access
   summary_line: 21 operations · 9 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Provision entities that own recipes and receive a client access token.
   name: Nutrical Solution Ltd Entity API
@@ -212,18 +212,23 @@ overview: 'Nutrical Solution Ltd publishes 6 APIs on the [APIs.io](https://apis.
 random_paper: 10
 score:
   band: thin
-  composite: 34.4
-  delta: 0.0
+  composite: 32.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 17.0
     developer_ergonomics: 54.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 34.4
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,8 +245,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/screenshots/nutrical-solution-ltd-2026-08-07T185800.png
 security:

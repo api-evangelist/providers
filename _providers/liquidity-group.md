@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 3
 common:
@@ -106,7 +106,7 @@ modified: '2026-08-25'
 name: LIQUiDITY Group
 nav: Providers
 network: true
-overview: 'LIQUiDITY Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Private Credit, Lending, and Asset Management.
+overview: 'LIQUiDITY Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Private Credit, Lending, and Asset Management.
 
 
   LIQUiDITY Group''s developer surface includes engineering blog, support, and 11 more developer resources.'
@@ -121,18 +121,26 @@ rate_limits:
   slug: liquidity-group-rate-limits
 score:
   band: emerging
-  composite: 12.3
+  composite: 13.0
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 13.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: domain-security
   name: Liquidity Group Domain Security
@@ -141,7 +149,7 @@ security:
 slug: liquidity-group
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Private Credit
 - Lending
 - Asset Management

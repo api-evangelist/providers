@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 31
   slug: cobalt-agentic-access
   summary_line: 31 operations · 17 acting
-api_count: 10
+api_count: 1
 apis:
 - description: Retrieve details about enabled applications.
   name: Cobalt Applications API
@@ -1394,15 +1394,20 @@ rules:
   slug: cobalt-rules
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 52.1
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 13.6
     contract_quality: 68.6
     developer_ergonomics: 47.6
-    discoverability: 59.3
+    discoverability: 53.7
     governance: 13.6
     operational_transparency: 36.8
   previous_composite: 52.7
@@ -1413,8 +1418,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobalt/refs/heads/main/screenshots/cobalt-2026-06-20T174643.png
 security:

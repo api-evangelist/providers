@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
 - description: Daily-updated CSV dataset containing information on 85,000+ airports worldwide, including ICAO/IATA codes, coordinates, elevation, type, scheduled service status, and links to official and Wikipedia p
@@ -56,6 +56,10 @@ apis:
   slug: ourairports-regions-dataset
 artifact_total: 11
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/davidmegginson/ourairports-data/issues
 - group: auth
   title: ''
   type: DomainSecurity
@@ -116,8 +120,13 @@ rate_limits:
   slug: rate-limits
 score:
   band: emerging
-  composite: 21.7
-  delta: 1.9
+  composite: 19.6
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -127,15 +136,18 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 19.8
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 19.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ourairports/refs/heads/main/screenshots/ourairports-2026-06-20T191224.png
 security:

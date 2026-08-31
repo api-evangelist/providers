@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 31
   slug: loopay-agentic-access
   summary_line: 31 operations · 9 acting
-api_count: 15
+api_count: 1
 apis:
 - description: The Affiliate API from Loopay — 4 operation(s) for affiliate.
   name: Loopay Affiliate API
@@ -139,6 +139,10 @@ collections:
   name: loopay-api Affiliate User API
   slug: open-loopay-user-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/loopay-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -250,22 +254,27 @@ network: true
 overview: 'Loopay publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Affiliate API, Bank API, Company API, and 12 more. Tagged areas include Company, Payments, Fintech, Banking as a Service, and Cross-Border Payments.
 
 
-  Loopay''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, support, signup flow, and 17 more developer resources.'
+  Loopay''s developer surface includes documentation, API reference, authentication, sandbox, engineering blog, support, signup flow, and 18 more developer resources.'
 random_paper: 9
 score:
   band: thin
-  composite: 36.1
-  delta: 0.0
+  composite: 34.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 46.5
     developer_ergonomics: 54.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 36.1
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -282,8 +291,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/screenshots/loopay-2026-07-25T225527.png
 security:

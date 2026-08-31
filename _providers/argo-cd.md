@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 106
   slug: argo-cd-agentic-access
   summary_line: 106 operations · 50 acting · 1 human-in-the-loop
-api_count: 13
+api_count: 1
 apis:
 - description: The AccountService API from Argo CD — 6 operation(s) for accountservice.
   name: Argo CD AccountService API
@@ -2721,19 +2721,27 @@ rules:
     warn: 11
   slug: argo-cd-spectral-rules
 score:
-  band: thin
-  composite: 35.5
-  delta: 1.4
+  band: developing
+  composite: 40.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 4.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 21.0
     developer_ergonomics: 61.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 34.1
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -2741,8 +2749,8 @@ score:
       derived: 13
       marker_coverage: 100.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argo-cd/refs/heads/main/screenshots/argo-cd-2026-06-20T172417.png
 security:

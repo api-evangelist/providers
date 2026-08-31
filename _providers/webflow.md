@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 212
   slug: webflow-agentic-access
   summary_line: 212 operations · 116 acting
-api_count: 23
+api_count: 16
 apis:
 - description: The Webflow Designer Extension API allows developers to build extensions that run inside the Webflow Designer, enabling custom UI panels and interactions with the designer canvas and site content.
   name: Webflow Designer Extension API
@@ -66,12 +66,6 @@ apis:
 - description: Custom code is JavaScript that is added to your Webflow site.
   name: Webflow Custom Code API
   slug: webflow-custom-code-api
-- description: Custom code for pages.
-  name: Webflow Custom Code - Pages API
-  slug: webflow-custom-code-pages-api
-- description: Custom code for sites.
-  name: Webflow Custom Code - Sites API
-  slug: webflow-custom-code-sites-api
 - description: Forms are forms that are created on your Webflow site.
   name: Webflow Forms API
   slug: webflow-forms-api
@@ -93,9 +87,6 @@ apis:
 - description: Products & SKUs are the products and SKUs in your Webflow e-commerce site.
   name: Webflow Products & SKUs API
   slug: webflow-products-skus-api
-- description: The Registered Scripts API from Webflow — 3 operation(s) for registered scripts.
-  name: Webflow Registered Scripts API
-  slug: webflow-registered-scripts-api
 - description: Settings are the e-commerce settings for your Webflow site.
   name: Webflow Settings API
   slug: webflow-settings-api
@@ -142,7 +133,7 @@ arazzos:
 - description: Pick a site, create a Collection, add a custom field, then seed it with a first item.
   name: Webflow Scaffold a CMS Collection
   slug: webflow-scaffold-cms-collection-workflow
-artifact_total: 153
+artifact_total: 150
 asyncapis:
 - description: AsyncAPI specification for Webflow webhook events. Webflow delivers webhook payloads via HTTP POST to a URL you register through the Webflow API. Each payload includes a signature header (`X-Webflow-S
   name: Webflow Webhooks
@@ -587,7 +578,7 @@ modified: '2026-05-19'
 name: Webflow
 nav: Providers
 network: true
-overview: 'Webflow publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Asset Folders API, Assets API, Collections API, and 19 more. Tagged areas include CMS, E-Commerce, No-Code, and Web Development.
+overview: 'Webflow publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Asset Folders API, Assets API, Collections API, and 16 more. Tagged areas include CMS, E-Commerce, No-Code, and Web Development.
 
 
   The Webflow catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -642,18 +633,23 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.9
+  composite: 59.7
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 28.8
-    contract_quality: 71.6
+    contract_quality: 71.0
     developer_ergonomics: 69.0
     discoverability: 63.0
     governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 59.9
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     contracts:
@@ -661,8 +657,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/screenshots/webflow-2026-06-20T201330.png
 security:

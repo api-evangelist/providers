@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -31,27 +31,42 @@ agentic_access:
   operation_count: 26
   slug: solera-agentic-access
   summary_line: 26 operations · 8 acting
-api_count: 6
+api_count: 10
 apis:
-- description: Assignment dispatch and first notice of loss intake for automobile physical damage claims. Creates a new assignment, retrieves a sample assignment request message, posts assignment acknowledgements, a
-  name: Solera Dashboard Assignment API
-  slug: solera-dashboard-assignment-api
-- description: Retrieval of claim images and decoded document files attached to an automobile damage claim, used by insurer claim management systems consuming Audatex claim documentation. Two documented operations r
-  name: Solera ClaimImages API
-  slug: solera-claim-images-api
-- description: Global Integration Component endpoint used to post GIC integration payloads against a work assignment identifier, acknowledge M31 events, and report the deployed API version. OpenAPI 3.0.1, secured wi
-  name: Solera EAPI GIC Integration API
-  slug: solera-gic-integration-api
-- description: 'Document and valuation retrieval for automobile physical damage claims. This is the surface the estimate-complete callback links point at: given an assignment identifier and a document locator, it ret'
-  name: Audatex GetDocuments API
+- description: The Assignment API from Solera — 3 operation(s) for assignment.
+  name: Solera Assignment API
+  slug: solera-assignment-api
+- description: The EstimateReturn API from Solera — 1 operation(s) for estimatereturn.
+  name: Solera Estimate Return API
+  slug: solera-estimatereturn-api
+- description: The GetClaimImageResponse API from Solera — 1 operation(s) for getclaimimageresponse.
+  name: Solera Get Claim Image Response API
+  slug: solera-getclaimimageresponse-api
+- description: The GetDocument API from Solera — 2 operation(s) for getdocument.
+  name: Solera Get Document API
+  slug: solera-getdocument-api
+- description: The GetDocuments API from Solera — 2 operation(s) for getdocuments.
+  name: Solera Get Documents API
   slug: solera-getdocuments-api
-- description: Claim image document retrieval. The claim-image callback publishes a HATEOAS link into this surface, and the client GETs the referenced document by locator. Version 1.0 exposes the claim-document-by-l
-  name: Audatex Assignment Get Document API (GetImage)
+- description: The GetImage API from Solera — 4 operation(s) for getimage.
+  name: Solera Get Image API
   slug: solera-getimage-api
-- description: 'Enterprise API document and valuation retrieval, and the best-documented of the Solera retrieval surfaces: every operation carries a worked example in its summary, including a real assignment identifi'
-  name: Solera EAPI Get Document API
-  slug: solera-eapi-getdocument-api
-artifact_total: 23
+- description: The GetValuation API from Solera — 1 operation(s) for getvaluation.
+  name: Solera Get Valuation API
+  slug: solera-getvaluation-api
+- description: The GetValuationResponse API from Solera — 1 operation(s) for getvaluationresponse.
+  name: Solera Get Valuation Response API
+  slug: solera-getvaluationresponse-api
+- description: The GICIntegration API from Solera — 2 operation(s) for gicintegration.
+  name: Solera GIC Integration API
+  slug: solera-gicintegration-api
+- description: The ValuationReturn API from Solera — 2 operation(s) for valuationreturn.
+  name: Solera Valuation Return API
+  slug: solera-valuationreturn-api
+- description: The Version API from Solera — 2 operation(s) for version.
+  name: Solera Version API
+  slug: solera-version-api
+artifact_total: 28
 asyncapis:
 - description: 'Audatex Integrations (EAPI) pushes claim lifecycle events to a CLIENT-hosted HTTPS endpoint. The client registers its callback endpoints and the credentials Audatex should use, per assignment, in the '
   name: Solera / Audatex EAPI Event Callbacks
@@ -91,6 +106,50 @@ collections:
   name: EAPI GIC Integration API
   slug: open-solera-gic-integration
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/solera-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/solera-dashboard-assignment-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/solera-enterprise-assignment-prod-swagger-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/solera-claim-images-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/solera-claim-images-prod-swagger-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/solera-gic-integration-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/solera-getdocuments-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/solera-getdocuments-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/solera-getimage-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/solera-getimage-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/solera-eapi-getdocument-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -261,13 +320,13 @@ modified: '2026-07-25'
 name: Solera
 nav: Providers
 network: true
-overview: 'Solera publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Dashboard Assignment API, ClaimImages API, EAPI GIC Integration API, and 3 more. Tagged areas include Insurance, United States, Property and Casualty, Claims, and Claims Technology.
+overview: 'Solera publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Assignment API, Estimate Return API, Get Claim Image Response API, and 8 more. Tagged areas include Insurance, United States, Property and Casualty, Claims, and Claims Technology.
 
 
   The Solera catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Solera''s developer surface includes authentication, engineering blog, API reference, documentation, sandbox, changelog, support, and 32 more developer resources.'
+  Solera''s developer surface includes authentication, engineering blog, API reference, documentation, sandbox, changelog, support, and 43 more developer resources.'
 random_paper: 16
 scopes:
 - name: Solera Scopes
@@ -276,18 +335,23 @@ scopes:
   summary_line: 4 scopes · password
 score:
   band: developing
-  composite: 47.6
+  composite: 45.1
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 45.7
     developer_ergonomics: 56.5
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 74.1
+    governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 47.6
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -304,8 +368,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solera/refs/heads/main/screenshots/solera-2026-08-17T081956.png
 security:

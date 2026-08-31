@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Table metadata operations
@@ -132,7 +132,7 @@ modified: '2026-07-20'
 name: Rasgo
 nav: Providers
 network: true
-overview: 'Rasgo publishes 1 API on the [APIs.io](https://apis.io/) network: Metadata API. Tagged areas include Company, Data Warehouse, Analytics, Artificial Intelligence, and Natural-Language.
+overview: 'Rasgo publishes 1 API on the [APIs.io](https://apis.io/) network: Metadata API. Tagged areas include Company, Data Warehouse, Analytics, Artificial Intelligence, and Natural Language.
 
 
   Rasgo''s developer surface includes documentation, API reference, getting-started guide, signup flow, changelog, authentication, and 12 more developer resources.'
@@ -140,7 +140,12 @@ random_paper: 15
 score:
   band: thin
   composite: 36.7
-  delta: -0.9
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -150,7 +155,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 37.6
+  previous_composite: 36.7
   provenance:
     conformance: derived
     contracts:
@@ -160,8 +165,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -178,7 +183,7 @@ tags:
 - Data Warehouse
 - Analytics
 - Artificial Intelligence
-- Natural-Language
+- Natural Language
 - Snowflake
 - BigQuery
 - Business Intelligence

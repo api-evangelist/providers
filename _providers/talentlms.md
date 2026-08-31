@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 63
   slug: talentlms-agentic-access
   summary_line: 63 operations · 31 acting · 2 human-in-the-loop
-api_count: 12
+api_count: 1
 apis:
 - description: 'REST API for TalentLMS providing programmatic access to users, courses, categories, branches, groups, enrollments, and reporting data including test and survey results. Over 50 endpoints support full '
   name: TalentLMS API
@@ -119,6 +119,14 @@ collections:
   name: TalentLMS Public Batch Actions User API
   slug: open-talentlms-user-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/talentlms-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Trifoia/talentlms-sdk/issues
 - group: commercial
   title: ''
   type: License
@@ -237,13 +245,13 @@ modified: '2026-06-13'
 name: TalentLMS
 nav: Providers
 network: true
-overview: 'TalentLMS publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Batch Actions API, Branch API, and 10 more. Tagged areas include Learning Management System, LMS, E-Learning, Training, and Courses.
+overview: 'TalentLMS publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Batch Actions API, Branch API, and 10 more. Tagged areas include Learning Management System, LMS, eLearning, Training, and Courses.
 
 
   The TalentLMS catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  TalentLMS''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, release notes, support, and 9 more developer resources.'
+  TalentLMS''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, release notes, support, and 11 more developer resources.'
 plans:
 - name: Talentlms Plans Pricing
   plan_count: 5
@@ -266,18 +274,26 @@ rules:
   slug: talentlms-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.2
-  delta: 0.7
+  composite: 42.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 46.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
     contract_governance: 9.8
     contract_quality: 50.6
     developer_ergonomics: 42.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 46.5
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -291,8 +307,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/screenshots/talentlms-2026-06-20T194902.png
 security:
@@ -308,7 +324,7 @@ slug: talentlms
 tags:
 - Learning Management System
 - LMS
-- E-Learning
+- eLearning
 - Training
 - Courses
 - User

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 47
   slug: bloomberg-aim-agentic-access
   summary_line: 47 operations · 31 acting
-api_count: 18
+api_count: 3
 apis:
 - description: Server API delivers real-time market data, historical data, premium reference data, and calculation tools from the Bloomberg Terminal into front-office applications.
   name: Bloomberg Server API (SAPI)
@@ -215,6 +215,14 @@ collections:
   name: Bloomberg HTTP API
   slug: open-bloomberg-http-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bloomberg-aim-capability-edges.yml
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
 - group: operate
   title: ''
   type: IssueTracker
@@ -1060,7 +1068,7 @@ jsonld:
   property_count: 6
   slug: context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-27'
 name: Bloomberg AIM
 nav: Providers
 network: true
@@ -1070,7 +1078,7 @@ overview: 'Bloomberg AIM publishes 17 APIs on the [APIs.io](https://apis.io/) ne
   The Bloomberg AIM catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Bloomberg AIM''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, engineering blog, and 15 more developer resources.'
+  Bloomberg AIM''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, engineering blog, and 17 more developer resources.'
 plans:
 - name: Bloomberg Aim Plans Pricing
   plan_count: 1
@@ -1109,18 +1117,26 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 51.9
-  delta: 0.0
+  composite: 51.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 13.6
-    contract_quality: 64.5
+    contract_quality: 63.3
     developer_ergonomics: 66.7
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 51.9
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1134,8 +1150,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-aim/refs/heads/main/screenshots/bloomberg-aim-2026-06-20T173406.png
 security:

@@ -2,7 +2,7 @@
 agent_readiness:
   band: agent-aware
   dimensions:
-    agent_card: flavored
+    agent_card: false
     agent_skills: derived
     agentic_access: false
     agentic_commerce: false
@@ -22,14 +22,29 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.1
-  scored_at: '2026-08-26'
-api_count: 1
+  score: 24.6
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: REST API for ODIN, Cyble's internet-scanning search engine. Twenty-seven operations across five datasets — Hosts (IPv4 scan results, services, ASN/geo enrichment, CVEs and exploits), Exposed Buckets (
-  name: ODIN API
-  slug: odin-api
-artifact_total: 8
+- description: The domain API from Cyble — 8 operation(s) for domain.
+  name: Cyble Domain API
+  slug: cyble-domain-api
+- description: The ExposedBuckets API from Cyble — 3 operation(s) for exposedbuckets.
+  name: Cyble Exposed Buckets API
+  slug: cyble-exposedbuckets-api
+- description: The ExposedFiles API from Cyble — 3 operation(s) for exposedfiles.
+  name: Cyble Exposed Files API
+  slug: cyble-exposedfiles-api
+- description: The Fields API from Cyble — 3 operation(s) for fields.
+  name: Cyble Fields API
+  slug: cyble-fields-api
+- description: The Health API from Cyble — 1 operation(s) for health.
+  name: Cyble Health API
+  slug: cyble-health-api
+- description: The Hosts API from Cyble — 9 operation(s) for hosts.
+  name: Cyble Hosts API
+  slug: cyble-hosts-api
+artifact_total: 13
 collections:
 - collection_type: open
   name: Odin
@@ -191,7 +206,7 @@ modified: '2026-08-11'
 name: Cyble
 nav: Providers
 network: true
-overview: 'Cyble publishes 1 API on the [APIs.io](https://apis.io/) network: ODIN API. Tagged areas include Threat Intelligence, Cybersecurity, Attack Surface Management, Internet Scanning, and Dark Web Monitoring.
+overview: 'Cyble publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Domain API, Exposed Buckets API, Exposed Files API, and 3 more. Tagged areas include Threat Intelligence, Cybersecurity, attack-surface-management, internet-scanning, and dark-web-monitoring.
 
 
   Cyble''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
@@ -206,18 +221,23 @@ rate_limits:
   slug: cyble-rate-limits
 score:
   band: developing
-  composite: 45.0
-  delta: 0.0
+  composite: 42.0
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 16.7
-    contract_quality: 52.4
+    contract_governance: 4.5
+    contract_quality: 50.6
     developer_ergonomics: 68.5
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 45.0
+  previous_composite: 42.5
   provenance:
     conformance: derived
     contracts:
@@ -227,8 +247,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyble/refs/heads/main/screenshots/cyble-2026-08-17T080843.png
 security:
@@ -252,14 +272,14 @@ slug: cyble
 tags:
 - Threat Intelligence
 - Cybersecurity
-- Attack Surface Management
-- Internet Scanning
-- Dark Web Monitoring
-- Vulnerability Management
-- CVE
-- exposed-buckets
-- Domain Intelligence
-- WHOIS
+- attack-surface-management
+- internet-scanning
+- dark-web-monitoring
+- vulnerability-management
+- cve
+- ExposedBuckets
+- domain-intelligence
+- whois
 - OSINT
 - Security
 website: https://cyble.com/

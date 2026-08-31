@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 143
   slug: synack-agentic-access
   summary_line: 143 operations · 75 acting · 1 human-in-the-loop
-api_count: 28
+api_count: 9
 apis:
 - description: Users assigned to an Assessment Group, with their roles.
   name: Synack Assessment Groups API
@@ -61,9 +61,6 @@ apis:
 - description: Assets managed by Synack.
   name: Synack Assets API
   slug: synack-assets-api
-- description: Cloud account assets.
-  name: Synack cloudaccounts API
-  slug: synack-cloudaccounts-api
 - description: Operations related to comments
   name: Synack Comments API
   slug: synack-comments-api
@@ -85,21 +82,9 @@ apis:
 - description: Mobile application assets.
   name: Synack mobileapps API
   slug: synack-mobileapps-api
-- description: Network assets.
-  name: Synack networks API
-  slug: synack-networks-api
 - description: Operations related to patch verifications
   name: Synack Patch Verifications API
   slug: synack-patch-verifications-api
-- description: Ports for single host assets.
-  name: Synack ports API
-  slug: synack-ports-api
-- description: Scope-rules provide fine grained control for what is in and out of scope for an asset.
-  name: Synack scoperules API
-  slug: synack-scoperules-api
-- description: Scripts for mobile and web applications.
-  name: Synack scripts API
-  slug: synack-scripts-api
 - description: Collections of seeds associated with a listing.
   name: Synack Seeds API
   slug: synack-seeds-api
@@ -112,9 +97,6 @@ apis:
 - description: Operations related to security tests
   name: Synack Tests API
   slug: synack-tests-api
-- description: Defines persona-specific user roles for asset credential management.
-  name: Synack userroles API
-  slug: synack-userroles-api
 - description: Users of credentials.
   name: Synack users API
   slug: synack-users-api
@@ -127,7 +109,7 @@ apis:
 - description: Web application assets.
   name: Synack webapps API
   slug: synack-webapps-api
-artifact_total: 64
+artifact_total: 58
 collections:
 - collection_type: open
   name: API Collection
@@ -353,7 +335,7 @@ modified: '2026-07-21'
 name: Synack
 nav: Providers
 network: true
-overview: 'Synack publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Assessment Groups API, Assessment Lifecycle API, Assessments API, and 25 more. Tagged areas include Company, Security, Penetration Testing, Vulnerability Management, and Attack Surface Management.
+overview: 'Synack publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Assessment Groups API, Assessment Lifecycle API, Assessments API, and 19 more. Tagged areas include Company, Security, Penetration Testing, Vulnerability Management, and Attack Surface Management.
 
 
   Synack''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 24 more developer resources.'
@@ -365,18 +347,23 @@ scopes:
   summary_line: 21 scopes · implicit
 score:
   band: developing
-  composite: 49.5
+  composite: 47.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 16.7
-    contract_quality: 61.5
+    contract_governance: 4.5
+    contract_quality: 59.5
     developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 49.5
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -387,8 +374,8 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synack/refs/heads/main/screenshots/synack-2026-08-17T082224.png
 security:

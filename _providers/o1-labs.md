@@ -32,10 +32,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/o1-labs/o1js/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/o1-labs/o1js/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/o1-labs/o1js/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -127,11 +139,16 @@ network: true
 overview: 'o1 Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Infrastructure, Blockchain, Zero Knowledge, and Cryptography.
 
 
-  o1 Labs'' developer surface includes documentation, getting-started guide, engineering blog, support, changelog, CLI, sandbox, and 13 more developer resources.'
+  o1 Labs'' developer surface includes documentation, getting-started guide, engineering blog, support, changelog, CLI, sandbox, and 16 more developer resources.'
 random_paper: 14
 score:
-  band: emerging
-  composite: 24.3
+  band: thin
+  composite: 26.8
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -142,9 +159,12 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 24.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 26.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/o1-labs/refs/heads/main/screenshots/o1-labs-2026-08-07T185836.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 72
   slug: shipbob-agentic-access
   summary_line: 72 operations · 30 acting
-api_count: 10
+api_count: 1
 apis:
 - description: The subpackage_billing API from ShipBob — 4 operation(s) for subpackage_billing.
   name: ShipBob subpackage_billing API
@@ -117,6 +117,10 @@ collections:
   name: API Reference
   slug: open-shipbob
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shipbob-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -203,7 +207,7 @@ overview: 'ShipBob publishes 10 APIs on the [APIs.io](https://apis.io/) network,
   The ShipBob catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  ShipBob''s developer surface includes authentication, documentation, pricing, engineering blog, and 12 more developer resources.'
+  ShipBob''s developer surface includes authentication, documentation, pricing, engineering blog, and 13 more developer resources.'
 plans:
 - name: Shipbob Plans Pricing
   plan_count: 1
@@ -227,18 +231,23 @@ rules:
   slug: shipbob-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 42.8
-  delta: 4.4
+  composite: 42.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 67.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 11.4
     contract_quality: 67.1
     developer_ergonomics: 35.7
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 11.4
     operational_transparency: 23.7
-  previous_composite: 38.4
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -246,8 +255,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipbob/refs/heads/main/screenshots/shipbob-2026-06-20T193812.png
 security:

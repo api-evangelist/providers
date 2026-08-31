@@ -17,28 +17,60 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-26'
-api_count: 0
-artifact_total: 0
+  score: 2.5
+  scored_at: '2026-08-30'
+api_count: 1
+apis:
+- description: 'The advertised live football data API — REST plus a WebSocket stream — covering competitions, fixtures, live scores, match events, standings, teams, players, line-ups, statistics, head-to-head, odds, '
+  name: Soccer API
+  slug: soccer-api
+artifact_total: 4
 common:
 - group: company
   title: ''
   type: Website
   url: https://soccer-api.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://soccer-api.com/api-documentation/
 - group: commercial
   title: ''
-  type: Plans
-  url: https://soccer-api.com/pricing
+  type: Pricing
+  url: https://soccer-api.com/api-pricing/
 - group: company
   title: ''
   type: Blog
-  url: https://soccer-api.com/blog
+  url: https://soccer-api.com/api-news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://soccer-api.com/feed/
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:info@soccer-api.com
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/soccer-api-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/soccer-api-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/soccer-api-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/soccer-api-domain-security.yml
 coverage:
   checked: '2026-08-27'
   detail: 'Soccer API markets a football data API but does not yet operate one: its documentation, pricing and coverage pages each carry a notice declaring their own contents placeholders "until the final production Soccer API specification is supplied", the published base URL is the literal https://api.example.com/v1, and api.soccer-api.com does not resolve.'
@@ -56,40 +88,58 @@ coverage:
   reason: no-developer-program
   state: none
 created: '2026-08-24'
-description: Soccer API sells live football data — live scores, statistics, odds and predictions — to developers building sports applications. The site publishes coverage and pricing pages and a blog, and gates access behind a sign-up.
+description: 'Soccer API (soccer-api.com) is a Spain-contacted vendor marketing live football data — fixtures, live scores, match events, standings, teams, players, line-ups, statistics, head-to-head, odds, predictions, historical seasons and a real-time WebSocket feed — to developers building sports, fantasy, media and betting applications. The site went live in August 2026 and publishes documentation, coverage and pricing pages plus a small tutorial blog. Re-probed on 2026-08-27, the product is announced but not shipped: every one of those three pages carries the vendor''s own notice declaring its contents placeholders pending a production specification, the documented base URL is the literal example host https://api.example.com/v1, the coverage matrix names no real competition, all paid prices read "$XX", and there is no sign-up, console, key issuance or machine-readable contract of any kind. Access is requested by WhatsApp or email.'
+image: https://soccer-api.com/wp-content/uploads/2026/08/cropped-ChatGPT-Image-Aug-6-2026-02_59_14-PM-192x192.png
 layout: provider
-modified: '2026-08-24'
+modified: '2026-08-27'
 name: Soccer API
 nav: Providers
 network: true
-overview: 'Soccer API is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Sports, Football, Live Scores, Odds, and Data.
+overview: 'Soccer API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include soccer, live scores, Odds, and predictions.
 
 
-  Soccer API''s developer surface includes engineering blog and 2 more developer resources.'
+  Soccer API''s developer surface includes documentation, pricing, engineering blog, support, and 6 more developer resources.'
+plans:
+- name: Soccer Api Plans Pricing
+  plan_count: 0
+  slug: soccer-api-plans-pricing
 random_paper: 11
+rate_limits:
+- limit_count: 0
+  name: Soccer Api Rate Limits
+  slug: soccer-api-rate-limits
 score:
   band: minimal
-  composite: 4.6
-  delta: -0.5
+  composite: 10.4
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.0
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 10.5
+    commercial_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 46.3
+    developer_ergonomics: 16.7
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 11.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
+security:
+- kind: domain-security
+  name: Soccer Api Domain Security
+  slug: soccer-api-domain-security
+  summary_line: TLSv1.2 · DMARC
 slug: soccer-api
 tags:
-- Sports
-- Football
-- Live Scores
+- soccer
+- live scores
 - Odds
-- Data
+- predictions
 website: https://soccer-api.com/
 ---

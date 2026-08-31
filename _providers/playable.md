@@ -24,19 +24,28 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Public REST API for the Playable gamification platform. Covers campaign types, campaign lifecycle (list, view, update, copy, delete, activate, pause, resume, clear cache), campaign sections and regist
-  name: Playable API
-  slug: playable-api
 - description: 'Hosted Model Context Protocol endpoint served from the Playable web property and advertised through RFC 9728 protected-resource metadata at playable.com/.well-known/oauth-protected-resource. Requires '
   name: Playable MCP Server
   slug: playable-mcp-server
 - description: Browser-side JavaScript SDK (`@playable-marketing/campaign-sdk`) that exposes a promise-based `window.sdk` object plus an event stream so a host page can listen to campaign events and read campaign co
   name: Playable Campaign SDK
   slug: playable-campaign-sdk
-artifact_total: 13
+- description: Campaigns
+  name: Playable Campaigns API
+  slug: playable-campaigns-api
+- description: The media API from Playable — 1 operation(s) for media.
+  name: Playable Media API
+  slug: playable-media-api
+- description: OAuth
+  name: Playable OAUTH API
+  slug: playable-oauth-api
+- description: The user API from Playable — 1 operation(s) for user.
+  name: Playable User API
+  slug: playable-user-api
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Playable Webhooks
@@ -209,7 +218,7 @@ modified: '2026-08-12'
 name: Playable
 nav: Providers
 network: true
-overview: 'Playable publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, marketing-gamification, interactive-marketing, Campaign Management, and Zero-Party Data.
+overview: 'Playable publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Media API, OAUTH API, and 1 more. Tagged areas include Company, marketing-gamification, interactive-marketing, campaign-management, and zero-party-data.
 
 
   The Playable catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -232,18 +241,23 @@ scopes:
   summary_line: 37 scopes · clientCredentials
 score:
   band: strong
-  composite: 64.3
-  delta: 0.0
+  composite: 61.1
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 16.7
-    contract_quality: 59.6
+    contract_governance: 4.5
+    contract_quality: 59.5
     developer_ergonomics: 73.2
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 64.3
+  previous_composite: 61.7
   provenance:
     conformance: derived
     contracts:
@@ -253,8 +267,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/playable/refs/heads/main/screenshots/playable-2026-08-17T080409.png
 security:
@@ -275,11 +289,11 @@ tags:
 - Company
 - marketing-gamification
 - interactive-marketing
-- Campaign Management
-- Zero-Party Data
-- Lead Generation
-- Loyalty
-- MarTech
+- campaign-management
+- zero-party-data
+- lead-generation
+- loyalty
+- martech
 - Webhook
 - Authentication
 website: https://playable.com/

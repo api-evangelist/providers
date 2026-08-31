@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 25
   slug: victoriametrics-agentic-access
   summary_line: 25 operations · 13 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Prometheus-compatible HTTP API for instant and range queries (PromQL / MetricsQL), label discovery, series search, metadata and TSDB status. Single-node default port 8428; in cluster mode served by vm
   name: VictoriaMetrics Prometheus-Compatible Query API
@@ -167,7 +167,7 @@ modified: '2026-05-08'
 name: VictoriaMetrics
 nav: Providers
 network: true
-overview: 'VictoriaMetrics publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Export API, Import API, and 2 more. Tagged areas include Database, Time Series, Monitoring, Open-Source, and Prometheus.
+overview: 'VictoriaMetrics publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Export API, Import API, and 2 more. Tagged areas include Database, Time-Series, Monitoring, Open-Source, and Prometheus.
 
 
   VictoriaMetrics'' developer surface includes authentication, documentation, pricing, GitHub presence, engineering blog, and 9 more developer resources.'
@@ -182,18 +182,23 @@ rate_limits:
   slug: victoriametrics-rate-limits
 score:
   band: thin
-  composite: 33.4
-  delta: 1.5
+  composite: 32.8
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 51.2
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 31.9
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -201,8 +206,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/screenshots/victoriametrics-2026-06-20T201019.png
 security:
@@ -221,7 +226,7 @@ security:
 slug: victoriametrics
 tags:
 - Database
-- Time Series
+- Time-Series
 - Monitoring
 - Open-Source
 - Prometheus

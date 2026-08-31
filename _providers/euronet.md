@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,19 +11,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.6
-  scored_at: '2026-08-26'
+  score: 31.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -31,27 +31,87 @@ agentic_access:
   operation_count: 65
   slug: euronet-agentic-access
   summary_line: 65 operations · 27 acting
-api_count: 6
+api_count: 5
 apis:
-- description: Xe (a Euronet Money Transfer brand) Currency Data API — a REST JSON API serving real-time and historical exchange rates for 170+ currencies from 100+ global sources. Documented Swagger 2.0 with HTTP B
-  name: Xe Currency Data API
-  slug: xe-currency-data-api
-- description: Xe Payments API — cross-border payment execution for Xe's international money-transfer platform. Documented Swagger 2.0 covering quotes, recipients, tradeable currencies, purposes of payment, transact
-  name: Xe Payments API
-  slug: xe-payments-api
-- description: Xe Mass Payments API — batch/bulk cross-border payouts for Xe's platform. Documented Swagger 2.0 covering account, quote, invoice, payments, transaction, terms, and permissions resources for high-volu
-  name: Xe Mass Payments API
-  slug: xe-mass-payments-api
-- description: 'Xe Currency Data Tradable Rates API — tradable (dealable) FX rates companion to the Currency Data API. Documented Swagger 2.0 exposing a tradable-rates endpoint; the published definition ships with a '
-  name: Xe Currency Data Tradable Rates API
-  slug: xe-currency-data-tradable-rates-api
-- description: Xe XETA API — a Swagger 2.0 definition published by XE.com on SwaggerHub covering 16 operations. The spec declares host xeta-api.xe.com/v1 (not publicly reachable at review time) and a Drupal-based au
-  name: XETA API
-  slug: xeta-api
 - description: Dandelion by Euronet — a real-time, ISO 20022-compliant cross-border payments network exposed through a single customizable API reaching 190+ countries, ~6 billion bank accounts and mobile wallets, an
   name: Dandelion Cross-Border Payments API
   slug: dandelion-cross-border-payments-api
-artifact_total: 16
+- description: The Account API from Euronet Worldwide — 1 operation(s) for account.
+  name: Euronet Worldwide Account API
+  slug: euronet-account-api
+- description: The Account Information API from Euronet Worldwide — 1 operation(s) for account information.
+  name: Euronet Worldwide Account Information API
+  slug: euronet-account-information-api
+- description: The Budget Category API from Euronet Worldwide — 2 operation(s) for budget category.
+  name: Euronet Worldwide Budget Category API
+  slug: euronet-budget-category-api
+- description: The Conversions API from Euronet Worldwide — 2 operation(s) for conversions.
+  name: Euronet Worldwide Conversions API
+  slug: euronet-conversions-api
+- description: The Currency Information API from Euronet Worldwide — 1 operation(s) for currency information.
+  name: Euronet Worldwide Currency Information API
+  slug: euronet-currency-information-api
+- description: The Expense API from Euronet Worldwide — 2 operation(s) for expense.
+  name: Euronet Worldwide Expense API
+  slug: euronet-expense-api
+- description: The Friend API from Euronet Worldwide — 2 operation(s) for friend.
+  name: Euronet Worldwide Friend API
+  slug: euronet-friend-api
+- description: The Historic Rates API from Euronet Worldwide — 2 operation(s) for historic rates.
+  name: Euronet Worldwide Historic Rates API
+  slug: euronet-historic-rates-api
+- description: The Invitation API from Euronet Worldwide — 2 operation(s) for invitation.
+  name: Euronet Worldwide Invitation API
+  slug: euronet-invitation-api
+- description: The Invoice API from Euronet Worldwide — 1 operation(s) for invoice.
+  name: Euronet Worldwide Invoice API
+  slug: euronet-invoice-api
+- description: The Monthly Averages API from Euronet Worldwide — 1 operation(s) for monthly averages.
+  name: Euronet Worldwide Monthly Averages API
+  slug: euronet-monthly-averages-api
+- description: The Payments API from Euronet Worldwide — 3 operation(s) for payments.
+  name: Euronet Worldwide Payments API
+  slug: euronet-payments-api
+- description: The Permission API from Euronet Worldwide — 1 operation(s) for permission.
+  name: Euronet Worldwide Permission API
+  slug: euronet-permission-api
+- description: The Permissions API from Euronet Worldwide — 1 operation(s) for permissions.
+  name: Euronet Worldwide Permissions API
+  slug: euronet-permissions-api
+- description: The PurposesOfPayment API from Euronet Worldwide — 1 operation(s) for purposesofpayment.
+  name: Euronet Worldwide Purposes Of Payment API
+  slug: euronet-purposesofpayment-api
+- description: The Quote API from Euronet Worldwide — 3 operation(s) for quote.
+  name: Euronet Worldwide Quote API
+  slug: euronet-quote-api
+- description: The Recipient API from Euronet Worldwide — 3 operation(s) for recipient.
+  name: Euronet Worldwide Recipient API
+  slug: euronet-recipient-api
+- description: The Stats API from Euronet Worldwide — 1 operation(s) for stats.
+  name: Euronet Worldwide Stats API
+  slug: euronet-stats-api
+- description: The Terms API from Euronet Worldwide — 1 operation(s) for terms.
+  name: Euronet Worldwide Terms API
+  slug: euronet-terms-api
+- description: Tradable rates API
+  name: Euronet Worldwide Tradable Rates API
+  slug: euronet-tradable-rates-api
+- description: The TradeableCurrency API from Euronet Worldwide — 1 operation(s) for tradeablecurrency.
+  name: Euronet Worldwide Tradeable Currency API
+  slug: euronet-tradeablecurrency-api
+- description: The Transaction API from Euronet Worldwide — 2 operation(s) for transaction.
+  name: Euronet Worldwide Transaction API
+  slug: euronet-transaction-api
+- description: The Trip API from Euronet Worldwide — 3 operation(s) for trip.
+  name: Euronet Worldwide Trip API
+  slug: euronet-trip-api
+- description: The User API from Euronet Worldwide — 4 operation(s) for user.
+  name: Euronet Worldwide User API
+  slug: euronet-user-api
+- description: The XETA API from Euronet Worldwide — 1 operation(s) for xeta.
+  name: Euronet Worldwide XETA API
+  slug: euronet-xeta-api
+artifact_total: 36
 collections:
 - collection_type: open
   name: XE Currency Data API
@@ -198,7 +258,7 @@ modified: '2026-07-24'
 name: Euronet Worldwide
 nav: Providers
 network: true
-overview: 'Euronet Worldwide publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Xe Currency Data API, Xe Payments API, Xe Mass Payments API, and 2 more. Tagged areas include Payments, United States, Payment Processing, Cross-Border, and Money Transfer.
+overview: 'Euronet Worldwide publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account Information API, Budget Category API, and 22 more. Tagged areas include Payments, United States, Payment Processing, Cross-Border, and Money Transfer.
 
 
   Euronet Worldwide''s developer surface includes authentication, API reference, pricing, engineering blog, documentation, signup flow, and 23 more developer resources.'
@@ -209,18 +269,23 @@ rate_limits:
   slug: euronet-rate-limits
 score:
   band: developing
-  composite: 40.4
+  composite: 39.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
-    contract_quality: 42.9
+    contract_governance: 4.5
+    contract_quality: 45.4
     developer_ergonomics: 45.8
     discoverability: 64.8
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 40.4
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -232,8 +297,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/screenshots/euronet-2026-07-25T213700.png
 security:

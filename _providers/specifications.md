@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 13
 apis:
 - description: The OpenAPI Specification (formerly Swagger) is the dominant industry standard for describing HTTP-based RESTful APIs. OAS describes endpoints, operations, parameters, request/response schemas, authen
@@ -76,6 +76,22 @@ apis:
   slug: tinybird
 artifact_total: 49
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/OAI/OpenAPI-Specification/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/OAI/OpenAPI-Specification/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/OAI/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/OAI/OpenAPI-Specification/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -235,7 +251,7 @@ modified: '2026-05-22'
 name: API Specifications
 nav: Providers
 network: true
-overview: 'API Specifications publishes 13 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Specification, Specification Languages, API Design, Contracts, and Schemas.
+overview: 'API Specifications publishes 13 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Specifications, Specification Languages, API Design, Contracts, and Schemas.
 
 
   The API Specifications catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
@@ -252,9 +268,14 @@ rules:
     warn: 3
   slug: specifications-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 20.4
-  delta: 5.0
+  band: thin
+  composite: 26.7
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -263,11 +284,14 @@ score:
     developer_ergonomics: 16.7
     discoverability: 74.1
     governance: 25.0
-    operational_transparency: 2.6
-  previous_composite: 15.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 26.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/specifications/refs/heads/main/screenshots/specifications-2026-06-20T194256.png
 security:
 - kind: domain-security
@@ -276,7 +300,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: specifications
 tags:
-- API Specification
+- API Specifications
 - Specification Languages
 - API Design
 - Contracts

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 107
   human_in_the_loop: 7
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 189
   slug: hetzner-agentic-access
   summary_line: 189 operations · 107 acting · 7 human-in-the-loop
-api_count: 32
+api_count: 1
 apis:
 - description: The Hetzner DNS API provides programmatic access to manage DNS zones, records, and configurations for domains hosted with Hetzner's DNS service.
   name: Hetzner DNS API
@@ -242,6 +242,10 @@ collections:
   name: Hetzner Cloud API
   slug: open-hetzner
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hetzner-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -321,7 +325,7 @@ network: true
 overview: 'Hetzner publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Certificate Actions API, Certificates API, and 28 more. Tagged areas include Cloud Hosting, DNS, Infrastructure, and Servers.
 
 
-  Hetzner''s developer surface includes authentication, documentation, signup flow, support, pricing, engineering blog, and 10 more developer resources.'
+  Hetzner''s developer surface includes authentication, documentation, signup flow, support, pricing, engineering blog, and 11 more developer resources.'
 plans:
 - name: Hetzner Plans Pricing
   plan_count: 3
@@ -333,18 +337,23 @@ rate_limits:
   slug: hetzner-rate-limits
 score:
   band: developing
-  composite: 41.2
-  delta: 2.4
+  composite: 39.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.8
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 0.0
     contract_quality: 59.2
-    developer_ergonomics: 28.6
-    discoverability: 64.8
+    developer_ergonomics: 22.6
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 38.8
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -352,8 +361,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 31
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/screenshots/hetzner-2026-06-20T182656.png
 security:

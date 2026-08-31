@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 78
   slug: madhive-agentic-access
   summary_line: 78 operations · 49 acting
-api_count: 66
+api_count: 2
 apis:
 - description: The Ability to pause a campaign and all of its associated line items and creatives API from MadHive — 1 operation(s) for ability to pause a campaign and all of its associated line items and creatives.
   name: MadHive Ability to pause a campaign and all of its associated line items and creatives API
@@ -436,6 +436,10 @@ collections:
   name: Madhive update line item start/end dates API
   slug: open-madhive-update-line-item-start-end-dates-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/madhive-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -595,7 +599,7 @@ network: true
 overview: 'MadHive publishes 66 APIs on the [APIs.io](https://apis.io/) network, including Ability to pause a campaign and all of its associated line items and creatives API, Ability to pause a line item API, Advertiser API, and 63 more. Tagged areas include Company, Advertising, AdTech, Connected TV, and CTV.
 
 
-  MadHive''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, FAQ, changelog, and 29 more developer resources.'
+  MadHive''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, FAQ, changelog, and 30 more developer resources.'
 random_paper: 20
 rate_limits:
 - limit_count: 5
@@ -607,19 +611,24 @@ scopes:
   slug: madhive-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 40.4
-  delta: 0.0
+  band: thin
+  composite: 37.3
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 59.8
     developer_ergonomics: 16.1
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 63.0
+    governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 40.4
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -630,8 +639,8 @@ score:
       total: 66
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/madhive/refs/heads/main/screenshots/madhive-2026-08-07T171916.png
 security:

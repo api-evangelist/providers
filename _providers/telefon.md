@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 20
   slug: telefon-agentic-access
   summary_line: 20 operations · 9 acting
-api_count: 7
+api_count: 4
 apis:
 - description: Search for available numbers to purchase
   name: Telefon Available Numbers API
@@ -125,6 +125,10 @@ collections:
   name: Telefon Voice API
   slug: open-telefon-voice
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/telefon-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -227,7 +231,7 @@ overview: 'Telefon publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The Telefon catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Telefon''s developer surface includes authentication, getting-started guide, support, engineering blog, changelog, pricing, GitHub presence, and 9 more developer resources.'
+  Telefon''s developer surface includes authentication, getting-started guide, support, engineering blog, changelog, pricing, GitHub presence, and 10 more developer resources.'
 plans:
 - name: Telefon Plans Pricing
   plan_count: 1
@@ -261,18 +265,23 @@ rules:
   slug: telefon-rules
 score:
   band: thin
-  composite: 35.2
-  delta: 0.1
+  composite: 35.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
     contract_quality: 57.1
     developer_ergonomics: 29.8
-    discoverability: 81.5
+    discoverability: 88.9
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 35.1
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -286,8 +295,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telefon/refs/heads/main/screenshots/telefon-2026-06-20T195028.png
 security:

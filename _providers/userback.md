@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 8
   slug: userback-agentic-access
   summary_line: 8 operations · 4 acting
-api_count: 4
+api_count: 1
 apis:
 - description: REST API for managing Userback feedback items, projects, users, tags, and account resources. Uses Bearer token authentication; partner integrations use an X-Partner-Code header.
   name: Userback REST API
@@ -132,15 +132,20 @@ overview: 'Userback publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 random_paper: 8
 score:
   band: thin
-  composite: 31.0
-  delta: 0.0
+  composite: 30.4
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 60.5
     developer_ergonomics: 13.1
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 31.0
@@ -151,8 +156,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/userback/refs/heads/main/screenshots/userback-2026-06-20T200723.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 51
   slug: felt-agentic-access
   summary_line: 51 operations · 34 acting
-api_count: 13
+api_count: 1
 apis:
 - description: 'JavaScript SDK for embedding, controlling, and extending Felt maps in external web applications. Supports two integration modes: Extensions (custom code inside Felt) and Embed (Felt maps inside extern'
   name: Felt JavaScript SDK
@@ -194,10 +194,6 @@ common:
   title: ''
   type: BlogRSS
   url: https://felt.com/blog/rss.xml
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: '2026-06-12'
 description: Felt is a collaborative mapping platform with a REST API for creating and managing maps, layers, elements, and sharing settings programmatically. The Enterprise-tier REST API and JavaScript SDK enable developers to build custom mapping applications, automate geospatial workflows, embed maps, and integrate with data pipelines using Bearer token authentication against the https://felt.com/api/v2 base URL.
 examples:
@@ -247,7 +243,7 @@ overview: 'Felt publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
   The Felt catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Felt''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, and 14 more developer resources.'
+  Felt''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Felt Plans Pricing
   plan_count: 3
@@ -270,18 +266,23 @@ rules:
   slug: felt-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.6
-  delta: 2.2
+  composite: 50.4
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 24.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
-    contract_quality: 70.7
+    contract_quality: 72.1
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 36.8
-  previous_composite: 48.4
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     contracts:
@@ -289,8 +290,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/felt/refs/heads/main/screenshots/felt-2026-06-20T181135.png
 security:

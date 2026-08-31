@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 2
   slug: ncua-agentic-access
   summary_line: 2 operations · 1 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Quarterly publicly available financial performance data for all federally insured credit unions based on their quarterly Call Report (Form 5300) filings. Data is available as bulk ZIP downloads in com
   name: NCUA 5300 Call Report Data
@@ -175,15 +175,20 @@ rules:
   slug: ncua-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.2
-  delta: 0.0
+  composite: 31.7
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 55.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 56.5
     developer_ergonomics: 11.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 5.3
   previous_composite: 32.2
@@ -200,8 +205,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ncua/refs/heads/main/screenshots/ncua-2026-06-20T190114.png
 security:

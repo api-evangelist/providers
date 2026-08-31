@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 8
   slug: imperial-college-london-agentic-access
   summary_line: 8 operations
-api_count: 5
+api_count: 1
 apis:
 - description: Imperial's own Shibboleth IdP, and the one unambiguously institution-operated machine-readable contract it publishes. The metadata document at /idp/shibboleth is a live 12.5KB SAML 2.0 EntityDescripto
   name: Imperial Shibboleth Identity Provider (SAML 2.0)
@@ -73,6 +73,10 @@ collections:
   name: Spiral Open Access Repository (DSpace 7 REST API) Core Root API
   slug: open-imperial-college-london-root-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/imperial-college-london-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -254,7 +258,7 @@ overview: 'Imperial College London publishes 1 API on the [APIs.io](https://apis
   The Imperial College London catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Imperial College London''s developer surface includes engineering blog, support, and 19 more developer resources.'
+  Imperial College London''s developer surface includes engineering blog, support, and 20 more developer resources.'
 plans:
 - name: Imperial College London Plans Pricing
   plan_count: 2
@@ -287,18 +291,23 @@ rules:
   slug: imperial-college-london-rules
 score:
   band: thin
-  composite: 37.8
-  delta: 3.4
+  composite: 37.2
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 54.4
     developer_ergonomics: 23.8
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 34.4
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -313,8 +322,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 27.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imperial-college-london/refs/heads/main/screenshots/imperial-college-london-2026-06-20T183255.png
 security:

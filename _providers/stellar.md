@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 127
   slug: stellar-agentic-access
   summary_line: 127 operations · 45 acting · 2 human-in-the-loop
-api_count: 33
+api_count: 4
 apis:
 - description: The Stellar RPC API (formerly Soroban RPC) is a JSON-RPC interface for interacting with Soroban smart contracts deployed on the Stellar network. It supports simulating and submitting contract invocati
   name: Stellar RPC API
@@ -245,6 +245,18 @@ collections:
   name: Platform Server Accounts Wallets API
   slug: open-stellar-wallets-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/stellar/go/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/stellar/.github/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/stellar/go/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -860,7 +872,7 @@ overview: 'Stellar publishes 32 APIs on the [APIs.io](https://apis.io/) network,
   The Stellar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Stellar''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
+  Stellar''s developer surface includes authentication, documentation, engineering blog, and 17 more developer resources.'
 plans:
 - name: Stellar Plans Pricing
   plan_count: 3
@@ -883,18 +895,26 @@ rules:
   slug: stellar-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.6
-  delta: 0.6
+  composite: 45.1
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 35.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 25.0
-    contract_quality: 58.0
+    contract_quality: 59.4
     developer_ergonomics: 42.9
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 42.1
-  previous_composite: 43.0
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     contracts:
@@ -908,8 +928,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stellar/refs/heads/main/screenshots/stellar-2026-06-20T194539.png
 security:

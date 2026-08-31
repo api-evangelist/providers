@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 45
   slug: celcoin-agentic-access
   summary_line: 45 operations · 31 acting
-api_count: 15
+api_count: 3
 apis:
 - description: APIs for white-label card account creation and management, card issuance and tracking, transaction simulation, post-paid invoice management, recurring subscriptions, and webhook-driven card event noti
   name: Celcoin Card Solutions API
@@ -131,6 +131,10 @@ collections:
   name: billissuance-settlement-webservice AnnotationCompetenceCalendar TaggingJourney API
   slug: open-celcoin-taggingjourney-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/celcoin-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -219,10 +223,10 @@ modified: '2026-06-13'
 name: Celcoin
 nav: Providers
 network: true
-overview: 'Celcoin publishes 12 APIs on the [APIs.io](https://apis.io/) network, including AnnotationCompetenceCalendar API, BankCorrespondentAgent API, Consignee API, and 9 more. Tagged areas include Banking as a Service, Backend-as-a-Service, Pix, Boleto, and TED.
+overview: 'Celcoin publishes 12 APIs on the [APIs.io](https://apis.io/) network, including AnnotationCompetenceCalendar API, BankCorrespondentAgent API, Consignee API, and 9 more. Tagged areas include Banking as a Service, BaaS, Pix, Boleto, and TED.
 
 
-  Celcoin''s developer surface includes authentication, documentation, engineering blog, pricing, code examples, and 13 more developer resources.'
+  Celcoin''s developer surface includes authentication, documentation, engineering blog, pricing, code examples, and 14 more developer resources.'
 plans:
 - name: Celcoin Plans Pricing
   plan_count: 4
@@ -235,6 +239,11 @@ rate_limits:
 score:
   band: thin
   composite: 37.7
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -259,8 +268,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/screenshots/celcoin-2026-06-20T174114.png
 security:
@@ -275,7 +284,7 @@ security:
 slug: celcoin
 tags:
 - Banking as a Service
-- Backend-as-a-Service
+- BaaS
 - Pix
 - Boleto
 - TED

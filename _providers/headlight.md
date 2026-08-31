@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-19'
 name: Headlight
 nav: Providers
 network: true
-overview: 'Headlight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Mental Health, Telehealth, and Teletherapy.
+overview: 'Headlight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Mental Health, Telehealth, and Teletherapy.
 
 
   Headlight''s developer surface includes engineering blog, support, signup flow, pricing, and 5 more developer resources.'
@@ -88,6 +88,11 @@ random_paper: 14
 score:
   band: emerging
   composite: 15.2
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
@@ -105,8 +110,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/headlight/refs/heads/main/screenshots/headlight-2026-07-25T220818.png
 security:
@@ -117,7 +122,7 @@ security:
 slug: headlight
 tags:
 - Company
-- Health Tech
+- Healthtech
 - Mental Health
 - Telehealth
 - Teletherapy

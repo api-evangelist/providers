@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 19
   slug: imb-bank-agentic-access
   summary_line: 19 operations · 3 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Banking Account Balance endpoints
   name: IMB Bank Banking Account Balances API
@@ -92,6 +92,10 @@ collections:
   name: CDR Banking Banking Account Balances Banking Products API
   slug: open-imb-bank-banking-products-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/imb-bank-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -219,7 +223,7 @@ network: true
 overview: 'IMB Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Banking.
 
 
-  IMB Bank''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, signup flow, support, and 21 more developer resources.'
+  IMB Bank''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, signup flow, support, and 22 more developer resources.'
 random_paper: 13
 scopes:
 - name: Imb Bank Scopes
@@ -228,18 +232,23 @@ scopes:
   summary_line: 12 scopes
 score:
   band: developing
-  composite: 48.1
-  delta: 0.0
+  composite: 45.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 49.7
     developer_ergonomics: 35.1
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 48.1
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -256,8 +265,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imb-bank/refs/heads/main/screenshots/imb-bank-2026-07-21T114727.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 52
   slug: solana-agentic-access
   summary_line: 52 operations · 52 acting
-api_count: 12
+api_count: 1
 apis:
 - description: SPL Token-oriented JSON-RPC methods for the Solana blockchain. Provides getTokenAccountBalance to return the token balance for an SPL Token account, getTokenAccountsByDelegate to find accounts with ma
   name: Solana RPC Tokens API
@@ -174,6 +174,22 @@ collections:
   name: Solana JSON-RPC Accounts Transactions API
   slug: open-solana-transactions-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/anza-xyz/kit/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/anza-xyz/kit/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/anza-xyz/kit/blob/main/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/anza-xyz/kit/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -482,7 +498,7 @@ overview: 'Solana publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Solana catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Solana''s developer surface includes developer portal, documentation, getting-started guide, authentication, changelog, engineering blog, sandbox, and 57 more developer resources.'
+  Solana''s developer surface includes developer portal, documentation, getting-started guide, authentication, changelog, engineering blog, sandbox, and 61 more developer resources.'
 plans:
 - name: Solana Plans
   plan_count: 3
@@ -505,18 +521,26 @@ rules:
   slug: solana-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 67.3
-  delta: 1.5
+  composite: 68.4
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 31.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 41.7
+    contract_governance: 29.5
     contract_quality: 63.3
     developer_ergonomics: 88.1
-    discoverability: 81.5
-    governance: 41.7
-    operational_transparency: 65.8
-  previous_composite: 65.8
+    discoverability: 75.9
+    governance: 29.5
+    operational_transparency: 76.3
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 68.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -526,8 +550,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solana/refs/heads/main/screenshots/solana-2026-06-20T194144.png
 security:

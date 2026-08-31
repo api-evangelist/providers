@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 26
   slug: code-ocean-agentic-access
   summary_line: 26 operations · 19 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Reproducible compute capsules and pipelines
   name: Code Ocean Capsules API
@@ -166,19 +166,24 @@ scopes:
   slug: code-ocean-scopes
   summary_line: 4 scopes
 score:
-  band: developing
-  composite: 40.8
-  delta: 0.0
+  band: thin
+  composite: 38.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 62.6
     developer_ergonomics: 58.9
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 40.8
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -195,8 +200,8 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/code-ocean/refs/heads/main/screenshots/code-ocean-2026-07-25T205905.png
 security:

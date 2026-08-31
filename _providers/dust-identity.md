@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 1
@@ -34,13 +34,79 @@ agentic_access:
   summary_line: 177 operations · 106 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: The core DUST Platform API (apid). REST over HTTPS with a bearer-JWT Service Account model, organization/team context headers, cursor pagination and a single stable error envelope. Covers Threads, Ide
-  name: DUST API
-  slug: dust-api
 - description: The DUST account service — organizations, users, sessions, Service Accounts and OpenID Connect. Issues the short-lived JWTs the DUST API consumes, via an API-key exchange (GET /api/auth/token with x-a
   name: DUST AuthD
   slug: dust-authd
-artifact_total: 10
+- description: Authentication and authorization
+  name: Dust Identity Auth API
+  slug: dust-identity-auth-api
+- description: Unordered teams of threads
+  name: Dust Identity Bundles API
+  slug: dust-identity-bundles-api
+- description: Create and manage certificate form designs
+  name: Dust Identity Certificate Forms API
+  slug: dust-identity-certificate-forms-api
+- description: Generate, list, and void certificates
+  name: Dust Identity Certificates API
+  slug: dust-identity-certificates-api
+- description: Connections (team links) between Teams; they gate sharing and shipments
+  name: Dust Identity Connections API
+  slug: dust-identity-connections-api
+- description: Work with system events
+  name: Dust Identity Events API
+  slug: dust-identity-events-api
+- description: The Fabric API from Dust Identity — 25 operation(s) for fabric.
+  name: Dust Identity Fabric API
+  slug: dust-identity-fabric-api
+- description: Upload and manage files
+  name: Dust Identity Files API
+  slug: dust-identity-files-api
+- description: Organization and team metrics.
+  name: Dust Identity Metrics API
+  slug: dust-identity-metrics-api
+- description: Manage user notifications.
+  name: Dust Identity Notifications API
+  slug: dust-identity-notifications-api
+- description: Org-admin management of teams and memberships
+  name: Dust Identity Org Admin API
+  slug: dust-identity-org-admin-api
+- description: Manage organizations and their members.
+  name: Dust Identity Organizations API
+  slug: dust-identity-organizations-api
+- description: The Sharing API from Dust Identity — 4 operation(s) for sharing.
+  name: Dust Identity Sharing API
+  slug: dust-identity-sharing-api
+- description: The Slices API from Dust Identity — 3 operation(s) for slices.
+  name: Dust Identity Slices API
+  slug: dust-identity-slices-api
+- description: Health and status checks
+  name: Dust Identity System API
+  slug: dust-identity-system-api
+- description: Manage identifiers and their metadata
+  name: Dust Identity Tags API
+  slug: dust-identity-tags-api
+- description: Manage user teams and permissions
+  name: Dust Identity Teams API
+  slug: dust-identity-teams-api
+- description: Manage thread templates
+  name: Dust Identity Templates API
+  slug: dust-identity-templates-api
+- description: Link threads with relations
+  name: Dust Identity Thread Links API
+  slug: dust-identity-thread-links-api
+- description: The ways threads can be linked
+  name: Dust Identity Thread Relations API
+  slug: dust-identity-thread-relations-api
+- description: Create and manage threads
+  name: Dust Identity Threads API
+  slug: dust-identity-threads-api
+- description: Transfer ownership of threads across organizations
+  name: Dust Identity Transfers API
+  slug: dust-identity-transfers-api
+- description: Manage user accounts and profiles
+  name: Dust Identity Users API
+  slug: dust-identity-users-api
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Dust Identity Events
@@ -194,7 +260,7 @@ modified: '2026-08-12'
 name: Dust Identity
 nav: Providers
 network: true
-overview: 'Dust Identity publishes 1 API on the [APIs.io](https://apis.io/) network: DUST API. Tagged areas include Authentication, Identity, Supply Chain, Traceability, and Provenance.
+overview: 'Dust Identity publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Bundles API, Certificate Forms API, and 20 more. Tagged areas include Authentication, Identity, Supply Chain, Traceability, and Provenance.
 
 
   The Dust Identity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -217,18 +283,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode/refreshToken/clientCredentials
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 44.1
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 61.7
+    contract_governance: 4.5
+    contract_quality: 64.6
     developer_ergonomics: 71.4
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 46.0
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,8 +310,8 @@ score:
       total: 1
     mcp: derived
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dust-identity/refs/heads/main/screenshots/dust-identity-2026-08-17T080906.png
 security:

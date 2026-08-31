@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: The Pocus core API is a GraphQL endpoint at https://api.pocus.com/graphql, confirmed live and authoritatively named as POCUS_CORE_API_ENDPOINT in Pocus' own published @pocus/cli package. Introspection
@@ -34,6 +34,10 @@ apis:
   slug: pocus-identity
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/apollo/
 - group: company
   title: ''
   type: Website
@@ -141,7 +145,7 @@ network: true
 overview: 'Pocus publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales Intelligence, Product-Led Sales, Revenue Operations, and Go-To-Market.
 
 
-  Pocus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 16 more developer resources.'
+  Pocus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, CLI, and 17 more developer resources.'
 plans:
 - name: Pocus Plans Pricing
   plan_count: 0
@@ -158,21 +162,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 26.1
+  composite: 25.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
+  previous_composite: 25.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Pocus Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 32
   slug: red-hat-3scale-agentic-access
   summary_line: 32 operations · 10 acting
-api_count: 15
+api_count: 5
 apis:
 - description: 3scale Webhooks allow API providers to receive real-time HTTP callbacks about account, application, user, and plan events within the 3scale platform. Webhooks can be configured to trigger external sys
   name: Red Hat 3scale Webhooks
@@ -188,6 +188,18 @@ collections:
   name: Red Hat 3scale Account Management Accounts Services API
   slug: open-red-hat-3scale-services-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/3scale/APIcast/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/3scale/APIcast/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/3scale/APIcast/blob/master/.github/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -462,7 +474,7 @@ overview: 'Red Hat 3scale publishes 13 APIs on the [APIs.io](https://apis.io/) n
   The Red Hat 3scale catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Red Hat 3scale''s developer surface includes authentication, documentation, getting-started guide, developer portal, engineering blog, support, changelog, and 27 more developer resources.'
+  Red Hat 3scale''s developer surface includes authentication, documentation, getting-started guide, developer portal, engineering blog, support, changelog, and 30 more developer resources.'
 plans:
 - name: Red Hat 3Scale Plans Pricing
   plan_count: 2
@@ -496,18 +508,26 @@ rules:
   slug: red-hat-3scale-rules
 score:
   band: developing
-  composite: 51.5
-  delta: 1.5
+  composite: 51.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 28.8
-    contract_quality: 63.2
+    contract_quality: 61.7
     developer_ergonomics: 59.5
     discoverability: 72.2
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 50.0
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     contracts:
@@ -515,8 +535,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-3scale/refs/heads/main/screenshots/red-hat-3scale-2026-06-20T192716.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -185,6 +185,10 @@ collections:
   name: Rackspace Cloud DNS Contacts Versions API
   slug: open-rackspace-technology-versions-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/rackerlabs/cloudfeeds-catalog/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -402,7 +406,7 @@ overview: 'Rackspace Technology publishes 19 APIs on the [APIs.io](https://apis.
   The Rackspace Technology catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Rackspace Technology''s developer surface includes authentication, documentation, API reference, support, engineering blog, CLI, tooling, and 31 more developer resources.'
+  Rackspace Technology''s developer surface includes authentication, documentation, API reference, support, engineering blog, CLI, tooling, and 32 more developer resources.'
 plans:
 - name: Rackspace Technology Plans Pricing
   plan_count: 1
@@ -435,19 +439,27 @@ rules:
     warn: 16
   slug: rackspace-technology-rules
 score:
-  band: developing
-  composite: 39.9
-  delta: 0.7
+  band: thin
+  composite: 36.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 36.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 28.8
-    contract_quality: 31.8
+    contract_quality: 32.1
     developer_ergonomics: 57.1
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 39.2
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     contracts:
@@ -455,8 +467,8 @@ score:
       derived: 19
       marker_coverage: 100.0
       total: 19
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rackspace-technology/refs/heads/main/screenshots/rackspace-technology-2026-06-20T192513.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -41,14 +41,11 @@ agentic_access:
   operation_count: 24
   slug: ravelin-agentic-access
   summary_line: 24 operations · 24 acting
-api_count: 13
+api_count: 2
 apis:
 - description: A purpose-built API surface for Payment Service Providers (PSPs) embedding Ravelin's risk scoring and dispute capture into their own merchant-facing product. Exposes Score, Transaction, Dispute, and t
   name: Ravelin PSP API
   slug: ravelin-psp-api
-- description: Outbound webhook callbacks delivered by Ravelin to merchant-configured endpoints when manual reviews, order decisions, or refund decisions are completed in the Ravelin dashboard. Used to keep order-ma
-  name: Ravelin Callbacks API
-  slug: ravelin-callbacks-api
 - description: EMV 3DS 2.x authentication operations.
   name: Ravelin 3D Secure API
   slug: ravelin-3d-secure-api
@@ -82,7 +79,7 @@ apis:
 - description: Voucher, promo, and payment-method voucher events.
   name: Ravelin Vouchers API
   slug: ravelin-vouchers-api
-artifact_total: 56
+artifact_total: 55
 collections:
 - collection_type: open
   name: API Collection
@@ -294,25 +291,30 @@ modified: '2026-05-25'
 name: Ravelin
 nav: Providers
 network: true
-overview: 'Ravelin publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Callbacks API, 3D Secure API, Authentication API, and 9 more. Tagged areas include Fraud Prevention, Fraud Detection, Chargeback Prevention, Account Takeover, and 3D Secure.
+overview: 'Ravelin publishes 11 APIs on the [APIs.io](https://apis.io/) network, including 3D Secure API, Authentication API, Checkout API, and 8 more. Tagged areas include Fraud Prevention, Fraud Detection, Chargeback Prevention, Account Takeover, and 3D Secure.
 
 
   Ravelin''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, engineering blog, and 25 more developer resources.'
 random_paper: 18
 score:
   band: thin
-  composite: 38.8
-  delta: 1.5
+  composite: 39.2
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
     contract_governance: 0.0
-    contract_quality: 56.2
+    contract_quality: 56.5
     developer_ergonomics: 61.9
-    discoverability: 64.8
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 37.3
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -326,8 +328,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ravelin/refs/heads/main/screenshots/ravelin-2026-06-20T192610.png
 security:

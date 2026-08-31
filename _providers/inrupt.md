@@ -24,12 +24,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-08-26'
-api_count: 6
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The ESS Notification Delivery Service lets an authorized agent subscribe to change events on Pod resources and on Access Requests/Grants, and have them delivered as signed webhooks to a remote HTTPS e
-  name: Inrupt Change Notifications API (ESS Notification Delivery Service)
-  slug: notification-delivery
 - description: The ESS Pod Storage Service implements the Solid Protocol over HTTP — LDP-style container and resource CRUD in RDF (Turtle, JSON-LD) and binary form, with Access Control Policy (ACP) resources, canoni
   name: Inrupt Pod Storage API (Solid Protocol)
   slug: pod-storage
@@ -45,7 +42,16 @@ apis:
 - description: 'The Platform Management service hosts the ESS Admin API used to provision users before they first log in — creating a provisioning account, attaching a WebID and a storage container, setting identity '
   name: Inrupt ESS Platform Management API
   slug: platform-management
-artifact_total: 15
+- description: WebSocket Discovery
+  name: Inrupt Discovery API
+  slug: inrupt-discovery-api
+- description: Public JSON Web Keys
+  name: Inrupt Jsonkeys API
+  slug: inrupt-jsonkeys-api
+- description: Subscription Management
+  name: Inrupt Subscription API
+  slug: inrupt-subscription-api
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Inrupt Notifications Webhooks
@@ -216,7 +222,7 @@ modified: '2026-08-23'
 name: Inrupt
 nav: Providers
 network: true
-overview: 'Inrupt publishes 1 API on the [APIs.io](https://apis.io/) network: Change Notifications API (ESS Notification Delivery Service). Tagged areas include Company, Solid, Personal Data Stores, Decentralized Identity, and Data Privacy.
+overview: 'Inrupt publishes 3 APIs on the [APIs.io](https://apis.io/) network: Discovery API, Jsonkeys API, and Subscription API. Tagged areas include Company, Solid, Personal Data Stores, Decentralized Identity, and Data Privacy.
 
 
   The Inrupt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -239,18 +245,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 70.5
-  delta: 1.3
+  composite: 66.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
-    contract_quality: 60.5
+    contract_governance: 18.2
+    contract_quality: 56.9
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 92.1
-  previous_composite: 69.2
+  previous_composite: 67.1
   provenance:
     conformance: first-party
     contracts:
@@ -266,8 +277,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -300,7 +311,7 @@ tags:
 - Consent Management
 - Data Wallets
 - Agent Infrastructure
-- Model Context Protocol
+- MCP
 - Enterprise Software
 website: https://www.inrupt.com/
 ---

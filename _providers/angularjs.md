@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The AngularJS (Angular.js, version 1.x) core framework API for building dynamic single-page web applications using JavaScript. AngularJS introduced the MVC pattern to front-end development, two-way da
@@ -105,7 +105,7 @@ modified: '2026-04-19'
 name: AngularJS
 nav: Providers
 network: true
-overview: 'AngularJS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include End of Life, Framework, Frontend, Google, and JavaScript.
+overview: 'AngularJS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include End Of Life, Framework, Frontend, Google, and JavaScript.
 
 
   AngularJS''s developer surface includes documentation, GitHub presence, getting-started guide, engineering blog, Stack Overflow tag, and 8 more developer resources.'
@@ -120,7 +120,12 @@ rate_limits:
   slug: angularjs-rate-limits
 score:
   band: emerging
-  composite: 15.9
+  composite: 16.7
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -128,7 +133,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 63.0
+    discoverability: 70.4
     governance: 0.0
     operational_transparency: 13.2
   needs_work:
@@ -137,9 +142,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 15.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 16.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angularjs/refs/heads/main/screenshots/angularjs-2026-06-20T172000.png
 security:
@@ -149,7 +154,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC
 slug: angularjs
 tags:
-- End of Life
+- End Of Life
 - Framework
 - Frontend
 - Google

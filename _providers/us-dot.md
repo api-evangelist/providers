@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-26'
+  score: 30.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -31,17 +31,8 @@ agentic_access:
   operation_count: 53
   slug: us-dot-agentic-access
   summary_line: 53 operations · 15 acting
-api_count: 12
+api_count: 5
 apis:
-- description: FAA aeronautical chart and data publication download API. Thirty-four GET operations expose edition metadata and ZIP product downloads for the digital Terminal Procedures Publication (dTPP), IFR enrou
-  name: FAA Aeronautic Product Release API (APRA)
-  slug: faa-aeronautic-product-release-api
-- description: Data submission API for the FAA Pilot Records Database. Five paths covering pilot record create/update/delete, pilot data tracking, and asynchronous pilot data search request and response. Access is r
-  name: FAA Air Carrier Pilot Records Database (PRD) API
-  slug: faa-air-carrier-prd-api
-- description: 'Single-operation submission API for passenger discrepancy reporting into the FAA Safety Assurance System. Air carriers submit hazardous-material discrepancies discovered on passengers or in passenger '
-  name: FAA Safety Assurance System (SAS) API
-  slug: faa-safety-assurance-system-api
 - description: The Federal Aviation Administration's open data catalog, running CKAN 2.11.4 and exposing the full CKAN Action API v3 anonymously at /api/3/action/. package_list, package_search, package_show, organiz
   name: FAA Data Catalog (CKAN Action API v3)
   slug: faa-data-catalog-ckan-api
@@ -63,13 +54,79 @@ apis:
 - description: The Federal Motor Carrier Safety Administration's carrier data API — real-time queries on motor carrier registration, authority and safety data, including all of the passenger carrier data that used t
   name: FMCSA QCMobile API
   slug: fmcsa-qcmobile-api
-- description: The reference connected-vehicle data platform authored by the USDOT Intelligent Transportation Systems Joint Program Office. Eight operations over SAE J2735 messaging — Traveler Information Message qu
-  name: USDOT ITS JPO Operational Data Environment (ODE) REST API
-  slug: its-jpo-ode-rest-api
-- description: U.S. Department of Transportation Airport Status Web Service from U.S. Department of Transportation — 2 path(s) described in OpenAPI.
-  name: U.S. Department of Transportation Airport Status Web Service
-  slug: us-dot-faa-airport-status-web-service-openapi
-artifact_total: 32
+- description: The AirCarrierApi API from U.S. Department of Transportation — 4 operation(s) for aircarrierapi.
+  name: U.S. Department of Transportation Air Carrier API
+  slug: us-dot-aircarrierapi-api
+- description: The Axhsubmitdiscrepancies API from U.S. Department of Transportation — 1 operation(s) for axhsubmitdiscrepancies.
+  name: U.S. Department of Transportation Axhsubmitdiscrepancies API
+  slug: us-dot-axhsubmitdiscrepancies-api
+- description: The Coded Instrument Flight Procedures (CIFP) API from U.S. Department of Transportation — 2 operation(s) for coded instrument flight procedures (cifp).
+  name: U.S. Department of Transportation Coded Instrument Flight Procedures (CIFP) API
+  slug: us-dot-coded-instrument-flight-procedures-cifp-api
+- description: The Daily Digital Obstacle File (DDOF) API from U.S. Department of Transportation — 2 operation(s) for daily digital obstacle file (ddof).
+  name: U.S. Department of Transportation Daily Digital Obstacle File (DDOF) API
+  slug: us-dot-daily-digital-obstacle-file-ddof-api
+- description: The Digital Enroute Charts US (DDECUS) API from U.S. Department of Transportation — 2 operation(s) for digital enroute charts us (ddecus).
+  name: U.S. Department of Transportation Digital Enroute Charts US (DDECUS) API
+  slug: us-dot-digital-enroute-charts-us-ddecus-api
+- description: The Digital Enroute Supplement (DERS) API from U.S. Department of Transportation — 2 operation(s) for digital enroute supplement (ders).
+  name: U.S. Department of Transportation Digital Enroute Supplement (DERS) API
+  slug: us-dot-digital-enroute-supplement-ders-api
+- description: The FAA Airport Status Service API from U.S. Department of Transportation — 2 operation(s) for faa airport status service.
+  name: U.S. Department of Transportation FAA Airport Status Service API
+  slug: us-dot-faa-airport-status-service-api
+- description: The Grand Canyon VFR Chart API from U.S. Department of Transportation — 2 operation(s) for grand canyon vfr chart.
+  name: U.S. Department of Transportation Grand Canyon VFR Chart API
+  slug: us-dot-grand-canyon-vfr-chart-api
+- description: The Gulf of Mexico IFR Enroute Chart API from U.S. Department of Transportation — 2 operation(s) for gulf of mexico ifr enroute chart.
+  name: U.S. Department of Transportation Gulf of Mexico IFR Enroute Chart API
+  slug: us-dot-gulf-of-mexico-ifr-enroute-chart-api
+- description: The IFR Enroute Charts API from U.S. Department of Transportation — 2 operation(s) for ifr enroute charts.
+  name: U.S. Department of Transportation IFR Enroute Charts API
+  slug: us-dot-ifr-enroute-charts-api
+- description: The IFR Planning Charts API from U.S. Department of Transportation — 2 operation(s) for ifr planning charts.
+  name: U.S. Department of Transportation IFR Planning Charts API
+  slug: us-dot-ifr-planning-charts-api
+- description: The log file API from U.S. Department of Transportation — 1 operation(s) for log file.
+  name: U.S. Department of Transportation log file API
+  slug: us-dot-log-file-api
+- description: The NASR 28 Day Subscription API from U.S. Department of Transportation — 2 operation(s) for nasr 28 day subscription.
+  name: U.S. Department of Transportation NASR 28 Day Subscription API
+  slug: us-dot-nasr-28-day-subscription-api
+- description: The Oceanic Route Charts API from U.S. Department of Transportation — 2 operation(s) for oceanic route charts.
+  name: U.S. Department of Transportation Oceanic Route Charts API
+  slug: us-dot-oceanic-route-charts-api
+- description: The PDM API from U.S. Department of Transportation — 1 operation(s) for pdm.
+  name: U.S. Department of Transportation PDM API
+  slug: us-dot-pdm-api
+- description: The Sectional Charts API from U.S. Department of Transportation — 2 operation(s) for sectional charts.
+  name: U.S. Department of Transportation Sectional Charts API
+  slug: us-dot-sectional-charts-api
+- description: The SNMP API from U.S. Department of Transportation — 1 operation(s) for snmp.
+  name: U.S. Department of Transportation SNMP API
+  slug: us-dot-snmp-api
+- description: The Supplement Chart API from U.S. Department of Transportation — 2 operation(s) for supplement chart .
+  name: U.S. Department of Transportation Supplement Chart API
+  slug: us-dot-supplement-chart-api
+- description: The Terminal Area Charts API from U.S. Department of Transportation — 2 operation(s) for terminal area charts.
+  name: U.S. Department of Transportation Terminal Area Charts API
+  slug: us-dot-terminal-area-charts-api
+- description: The TIM API from U.S. Department of Transportation — 2 operation(s) for tim.
+  name: U.S. Department of Transportation TIM API
+  slug: us-dot-tim-api
+- description: The US Terminal Procedures Publication (TPP) API from U.S. Department of Transportation — 2 operation(s) for us terminal procedures publication (tpp).
+  name: U.S. Department of Transportation US Terminal Procedures Publication (TPP) API
+  slug: us-dot-us-terminal-procedures-publication-tpp-api
+- description: The US VFR Wall Planning Chart API from U.S. Department of Transportation — 2 operation(s) for us vfr wall planning chart.
+  name: U.S. Department of Transportation US VFR Wall Planning Chart API
+  slug: us-dot-us-vfr-wall-planning-chart-api
+- description: The Version API from U.S. Department of Transportation — 1 operation(s) for version.
+  name: U.S. Department of Transportation Version API
+  slug: us-dot-version-api
+- description: The VFR Helicopter Route Chart API from U.S. Department of Transportation — 4 operation(s) for vfr helicopter route chart.
+  name: U.S. Department of Transportation VFR Helicopter Route Chart API
+  slug: us-dot-vfr-helicopter-route-chart-api
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Us Dot Event Surfaces
@@ -94,6 +151,46 @@ collections:
   name: ODE REST API
   slug: open-us-dot-its-jpo-ode-rest-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/us-dot-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/usdot-jpo-ode/jpo-ode/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/usdot-jpo-ode/jpo-ode/releases
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/us-dot-faa-aeronautic-product-release-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/us-dot-download-aeronautical-products.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/us-dot-faa-air-carrier-prd-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/us-dot-faa-safety-assurance-system-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/us-dot-submit-sas-discrepancy.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/us-dot-its-jpo-ode-rest-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/us-dot-deposit-tim-to-roadside-unit.md
 - group: agent
   title: ''
   type: MCPServer
@@ -317,28 +414,36 @@ modified: '2026-07-28'
 name: U.S. Department of Transportation
 nav: Providers
 network: true
-overview: 'U.S. Department of Transportation publishes 5 APIs on the [APIs.io](https://apis.io/) network, including FAA Aeronautic Product Release API (APRA), FAA Air Carrier Pilot Records Database (PRD) API, FAA Safety Assurance System (SAS) API, and 2 more. Tagged areas include Travel, United States, Aviation, Airlines, and Airports.
+overview: 'U.S. Department of Transportation publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Air Carrier API, Axhsubmitdiscrepancies API, Coded Instrument Flight Procedures (CIFP) API, and 21 more. Tagged areas include Travel, United States, Aviation, Airlines, and Airports.
 
 
   The U.S. Department of Transportation catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  U.S. Department of Transportation''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 39 more developer resources.'
+  U.S. Department of Transportation''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 49 more developer resources.'
 random_paper: 16
 score:
   band: developing
-  composite: 52.2
+  composite: 50.6
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 52.0
+    contract_governance: 4.5
+    contract_quality: 55.4
     developer_ergonomics: 58.9
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 87.0
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 52.2
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -355,8 +460,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/screenshots/us-dot-2026-08-17T082655.png
 security:

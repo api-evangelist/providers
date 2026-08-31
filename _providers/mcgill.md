@@ -1,12 +1,12 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free · No registration · No developer programme
+  onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - probe
   - authentication
   trial: false
   try_now: true
@@ -15,7 +15,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -33,72 +33,88 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.9
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 0
-  human_in_the_loop: 0
-  name: Mcgill Agentic Access
-  operation_count: 6
-  slug: mcgill-agentic-access
-  summary_line: 6 operations
-api_count: 4
+  score: 20.8
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: McGill University Authentication Service, a Shibboleth Identity Provider offering SAML 2.0 federated single sign-on for McGill web applications and federation partners. This is an identity/SSO endpoin
-  name: McGill Shibboleth SAML Single Sign-On
-  slug: shibboleth-sso
-- description: The Dataverses API from McGill University — 2 operation(s) for dataverses.
-  name: McGill University Dataverses API
-  slug: mcgill-dataverses-api
-- description: The Info API from McGill University — 2 operation(s) for info.
-  name: McGill University Info API
-  slug: mcgill-info-api
-- description: The Search API from McGill University — 2 operation(s) for search.
-  name: McGill University Search API
-  slug: mcgill-search-api
-artifact_total: 24
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: McGill University Dataverse (Borealis) - Native Dataverses API
-  slug: open-mcgill-dataverses-api
-- collection_type: open
-  name: McGill University Dataverse (Borealis) - Native Dataverses Info API
-  slug: open-mcgill-info-api
-- collection_type: open
-  name: McGill University Dataverse (Borealis) - Native Dataverses Search API
-  slug: open-mcgill-search-api
+- description: McGill's SAML 2.0 identity provider and the only machine-readable surface in this profile that McGill itself operates. The federation metadata document at /idp/shibboleth is served unauthenticated (HT
+  name: McGill University Authentication Service — Shibboleth SAML 2.0 Identity Provider
+  slug: shibboleth-idp
+- description: McGill's institutional research repository, running as a tenant on Scholaris. It exposes a DSpace REST (HAL) root at /server/api and a conformant OAI-PMH 2.0 endpoint at /server/oai/request advertisin
+  name: eScholarship@McGill on Scholaris (tenant)
+  slug: escholarship-scholaris
+- description: McGill's research-data collection on Borealis, the Canadian consortial Dataverse repository. The collection, its datasets and its DOIs are McGill's. The Dataverse Native and Search REST APIs that serv
+  name: McGill University Dataverse on Borealis (tenant)
+  slug: dataverse-borealis
+- description: McGill's official course catalogue, published on CourseLeaf. It carries an undocumented but live machine-readable course-detail endpoint — GET /ribbit/index.cgi?page=getcourse.rjs with a space-separat
+  name: McGill Course Catalogue on CourseLeaf (tenant)
+  slug: coursecatalogue-courseleaf
+artifact_total: 10
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/mcgill-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/mcgill-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/mcgill-authentication.yml
 - group: company
   title: ''
   type: Website
   url: https://www.mcgill.ca/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://shibboleth.mcgill.ca/idp/shibboleth
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://mcgill.scholaris.ca/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://borealisdata.ca/dataverse/mcgill
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://coursecatalogue.mcgill.ca/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://www.mcgill.ca/libraries/
+- group: build
+  title: ''
+  type: AITooling
+  url: https://www.mcgill.ca/it/ai
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/mcgill-authentication.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/mcgill-domain-security.yml
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.mcgill.ca/privacy-notice
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.mcgill.ca/secretariat/repository-university-policies-and-regulations
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.mcgill.ca/it/support
 - group: company
   title: ''
-  type: Twitter
-  url: https://twitter.com/mcgillu
+  type: Blog
+  url: https://www.mcgill.ca/newsroom/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.mcgill.ca/newsroom/rss.xml
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/mcgill-university/
-- group: auth
+- group: company
   title: ''
-  type: Authentication
-  url: https://shibboleth.mcgill.ca/
+  type: Twitter
+  url: https://x.com/mcgillu
 - group: commercial
   title: ''
   type: Plans
@@ -116,53 +132,25 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'McGill University is a public research university in Montreal, Quebec, Canada, ranked #64 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on research-data infrastructure rather than a unified developer portal: the McGill University Dataverse is published through the Borealis (Scholars Portal) Dataverse platform, which exposes the full Dataverse Native and Search REST APIs over the McGill collection. Identity is federated through a Shibboleth SAML single sign-on service. Most other institutional systems (course catalogue, Minerva/Banner registration, library discovery) are gated behind authentication or web UIs and do not publish open, documented public APIs.'
-examples:
-- key_count: 2
-  name: Mcgill Get Dataverse Example
-  slug: mcgill-get-dataverse-example
-- key_count: 2
-  name: Mcgill Info Version Example
-  slug: mcgill-info-version-example
-- key_count: 2
-  name: Mcgill Search Example
-  slug: mcgill-search-example
+description: 'McGill University is a public research university in Montreal, Quebec, Canada, and one of Canada''s two U15 institutions in the global top 100. Its programmable footprint is small and must be described honestly: McGill operates no developer portal, publishes no API key programme, and runs no OAuth authorization server. Exactly one machine-readable surface is operated by the institution itself — the Shibboleth SAML 2.0 identity provider at shibboleth.mcgill.ca, whose federation metadata is served unauthenticated at /idp/shibboleth and carries entityID and shibmd:Scope of mcgill.ca. Everything else that looks like a McGill API is a platform McGill is a tenant on: eScholarship@McGill runs on Scholaris (Scholars Portal / OCUL DSpace 7) at mcgill.scholaris.ca, which serves a DSpace REST root and a valid OAI-PMH 2.0 endpoint; the McGill University Dataverse is a collection on Borealis (borealisdata.ca), a consortial host shared with five other institutions in this catalog; the course
+  catalogue at coursecatalogue.mcgill.ca is a CourseLeaf instance CNAMEd to mcgill-ca-public.courseleaf.com. Those relationships are real institutional facts and are recorded as tenant surfaces — the data is McGill''s, the contracts are not. Registration, library discovery and HR run on Banner/Minerva, WorldCat and Workday behind authentication with no public interface.'
 finops:
 - name: Mcgill Finops
   service_category: Education
   slug: mcgill-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mcgill.png
-json_schemas:
-- name: Dataverse Collection
-  property_count: 14
-  slug: mcgill-dataverse
-- name: Dataverse Search Item
-  property_count: 11
-  slug: mcgill-search-item
-json_structures:
-- name: Mcgill Dataverse Structure
-  property_count: 11
-  slug: mcgill-dataverse-structure
-- name: Mcgill Search Item Structure
-  property_count: 11
-  slug: mcgill-search-item-structure
-jsonld:
-- class_count: 20
-  name: Mcgill Context
-  property_count: 5
-  slug: mcgill-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: McGill University
 nav: Providers
 network: true
-overview: 'McGill University publishes 3 APIs on the [APIs.io](https://apis.io/) network: Dataverses API, Info API, and Search API. Tagged areas include Education, Higher Education, University, Research Data, and Open Data.
+overview: 'McGill University publishes 1 API on the [APIs.io](https://apis.io/) network: Authentication Service — Shibboleth SAML 2.0 Identity Provider. Tagged areas include University, Higher Education, Education, Canada, and Quebec.
 
 
-  The McGill University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The McGill University catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  McGill University''s developer surface includes authentication and 10 more developer resources.'
+  McGill University''s developer surface includes authentication, support, engineering blog, and 17 more developer resources.'
 plans:
 - name: Mcgill Plans Pricing
   plan_count: 2
@@ -173,41 +161,36 @@ rate_limits:
   name: Mcgill Rate Limits
   slug: mcgill-rate-limits
 rules:
-- effective_rule_count: 5
-  extends: []
-  name: McGill University API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 3
-  slug: mcgill-jsonschema-spectral-rules
-- effective_rule_count: 48
+- effective_rule_count: 49
   extends:
   - spectral:oas
   name: McGill University API Rules
-  rule_count: 7
+  rule_count: 8
   severity_counts:
-    error: 3
+    error: 5
     hint: 0
     info: 0
-    warn: 4
+    warn: 3
   slug: mcgill-rules
 score:
-  band: thin
-  composite: 35.2
-  delta: 1.9
+  band: developing
+  composite: 41.6
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 55.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 6.4
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 13.6
-    contract_quality: 54.6
-    developer_ergonomics: 21.4
-    discoverability: 64.8
-    governance: 13.6
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 11.4
+    contract_quality: 48.3
+    developer_ergonomics: 35.7
+    discoverability: 68.5
+    governance: 11.4
     operational_transparency: 21.1
-  previous_composite: 33.3
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -220,28 +203,32 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 37.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcgill/refs/heads/main/screenshots/mcgill-2026-06-20T185057.png
 security:
 - kind: authentication
   name: Mcgill Authentication
   slug: mcgill-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: saml/none · 2 schemes
 - kind: domain-security
   name: Mcgill Domain Security
   slug: mcgill-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: mcgill
 tags:
-- Education
-- Higher Education
 - University
-- Research Data
-- Open Data
+- Higher Education
+- Education
 - Canada
 - Quebec
+- U15
+- Public Research University
+- Identity Federation
+- Research Repository
+- Research Data
+- Course Catalog
 website: https://www.mcgill.ca/
 ---

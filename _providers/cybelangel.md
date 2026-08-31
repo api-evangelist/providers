@@ -24,32 +24,78 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 7
 apis:
-- description: The original CybelAngel Platform API. Retrieves incident reports (v2 search plus per-report detail, mirror listings in JSON/CSV/archive, PDF export, attachments and comments), the leaked-credential wa
-  name: CybelAngel Reports API
-  slug: cybelangel-reports-api
-- description: '"Alerts in Feed" — real-time machine-readable access to the alerts CybelAngel''s collection and ML pipeline generates across ADM, Board, Cloud Drive, DNS, Database, Docshare, Codeshare, Fileserver, Lea'
-  name: CybelAngel Alerts API
-  slug: cybelangel-alerts-api
-- description: Attack surface (Asset Discovery & Monitoring) inventory. Lists discovered assets and their hostnames, lists threats joined with the owning asset record, and writes back asset and asset-threat statuses
+- description: Manipulate ADM inventory assets and threats.
   name: CybelAngel ADM Inventory API
   slug: cybelangel-adm-inventory-api
-- description: 'Manages the keyword set that drives CybelAngel detection: list, create, update and change the status of monitored keywords, and list the workspaces those keywords belong to. Shipped on the Q3 2026 roa'
+- description: Alerts
+  name: CybelAngel Alerts API
+  slug: cybelangel-alerts-api
+- description: Accessing the application assets
+  name: CybelAngel Asset API
+  slug: cybelangel-asset-api
+- description: Audit Logs Public API
+  name: CybelAngel audit logs API
+  slug: cybelangel-audit-logs-api
+- description: Credentials incident reports and credentials
+  name: CybelAngel Credential watchlist API
+  slug: cybelangel-credential-watchlist-api
+- description: Domain Protection
+  name: CybelAngel Domain watchlist API
+  slug: cybelangel-domain-watchlist-api
+- description: Manipulate incident reports.
+  name: CybelAngel Incident reports API
+  slug: cybelangel-incident-reports-api
+- description: Manipulate keywords.
   name: CybelAngel Keywords API
   slug: cybelangel-keywords-api
-- description: Returns claimed attacks observed by CybelAngel's threat-intelligence collection — ransomware and extortion claims attributed to threat actors — for ingestion into a SIEM, TIP or internal risk dashboar
+- description: The Reports API from CybelAngel — 1 operation(s) for reports.
+  name: CybelAngel Reports API
+  slug: cybelangel-reports-api
+- description: Statistics on the reports, keywords, etc.
+  name: CybelAngel Stats API
+  slug: cybelangel-stats-api
+- description: Alerts - Stix
+  name: CybelAngel Stix API
+  slug: cybelangel-stix-api
+- description: Fetch threat intelligence data from the CybelAngel platform.
   name: CybelAngel Threat Intelligence API
   slug: cybelangel-threat-intelligence-api
-- description: Searches the audit trail for an organization — who did what in the CybelAngel platform — scoped by organization_id in the path, for export into a SIEM or a compliance evidence store. Shipped Q2 2026 a
-  name: CybelAngel Audit Logs API
-  slug: cybelangel-audit-logs-api
-- description: The MSSP/reseller surface. Mirrors the ADM Inventory, Keywords and Workspaces operations but scoped to a client organization via an {organization_id} path parameter, so a partner can manage assets, th
-  name: CybelAngel Partner API
-  slug: cybelangel-partner-api
-artifact_total: 13
+- description: List workspaces.
+  name: CybelAngel Workspaces API
+  slug: cybelangel-workspaces-api
+artifact_total: 19
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cybelangel-platform-reports-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cybelangel-alerts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cybelangel-adm-inventory-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cybelangel-keywords-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cybelangel-threat-intelligence-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cybelangel-audit-logs-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cybelangel-partner-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -203,10 +249,10 @@ modified: '2026-08-17'
 name: CybelAngel
 nav: Providers
 network: true
-overview: 'CybelAngel publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Reports API, Alerts API, ADM Inventory API, and 4 more. Tagged areas include Company, Cybersecurity, Threat Intelligence, external-attack-surface-management, and data-breach-prevention.
+overview: 'CybelAngel publishes 13 APIs on the [APIs.io](https://apis.io/) network, including ADM Inventory API, Alerts API, Asset API, and 10 more. Tagged areas include Company, Cybersecurity, Threat Intelligence, external-attack-surface-management, and data-breach-prevention.
 
 
-  CybelAngel''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, signup flow, and 29 more developer resources.'
+  CybelAngel''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, signup flow, and 36 more developer resources.'
 plans:
 - name: Cybelangel Plans Pricing
   plan_count: 0
@@ -222,19 +268,24 @@ scopes:
   slug: cybelangel-scopes
   summary_line: 10 scopes · clientCredentials
 score:
-  band: strong
-  composite: 56.4
+  band: developing
+  composite: 53.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
-    contract_quality: 62.0
+    contract_governance: 18.2
+    contract_quality: 61.5
     developer_ergonomics: 62.5
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 56.4
+  previous_composite: 53.2
   provenance:
     conformance: first-party
     contracts:
@@ -244,8 +295,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -267,13 +318,13 @@ tags:
 - Threat Intelligence
 - external-attack-surface-management
 - data-breach-prevention
-- Credential Intelligence
-- Brand Protection
-- Dark Web Monitoring
-- Digital Risk Protection
+- credential-intelligence
+- brand-protection
+- dark-web-monitoring
+- digital-risk-protection
 - STIX
 - security-alerts
-- Asset Inventory
-- Audit Logs
+- asset-inventory
+- audit-logs
 website: https://www.cybelangel.com/
 ---

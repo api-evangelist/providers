@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The CentralReach Enhanced API lets partner organizations connect securely to the CentralReach platform and integrate with third-party applications. Authentication is OAuth 2.0 client-credentials again
@@ -148,33 +148,44 @@ scopes:
   slug: centralreach-scopes
   summary_line: 4 scopes · clientCredentials
 score:
-  band: developing
-  composite: 40.3
-  delta: 1.5
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 54.8
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 38.8
+  previous_composite: 39.1
   provenance:
     conformance: first-party
   regulatory:
     applies: true
     jurisdictions:
+    - jurisdiction: CA
+      standard: pipeda
+    - jurisdiction: EU
+      standard: gdpr
     - jurisdiction: US
       standard: ferpa
-    jurisdictions_satisfied: 1
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 3
     matched_via: tags
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centralreach/refs/heads/main/screenshots/centralreach-2026-07-25T204931.png
 security:

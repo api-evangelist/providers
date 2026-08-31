@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,27 +42,30 @@ agentic_access:
   operation_count: 21
   slug: coviu-agentic-access
   summary_line: 21 operations · 8 acting
-api_count: 6
+api_count: 1
 apis:
-- description: Create, list, retrieve, update, and cancel Coviu video consultation Sessions, and pull a Session Summary with participant entry/exit timing. OAuth2-authenticated REST over https://api.coviu.com/v1.
-  name: Coviu Sessions API
-  slug: coviu-sessions-api
-- description: List, add, retrieve, update, and cancel Participants on a Coviu Session, controlling the per-participant join links, names, avatars, and host/guest roles.
-  name: Coviu Participants API
-  slug: coviu-participants-api
-- description: Read the Waiting Area in real time — currently waiting calls for a team, waiting calls for a specific queue, and individual call detail — for virtual reception and triage workflows.
-  name: Coviu Waiting Area API
-  slug: coviu-waiting-area-api
-- description: Retrieve a team's Collections and their Submissions, including submission files and audio recordings captured during consultations, for downstream clinical record-keeping and reporting.
-  name: Coviu Collections API
-  slug: coviu-collections-api
-- description: Real-time event notifications delivered as HTTP POST callbacks to a URL you configure, firing when relevant Coviu events occur (for example a patient arriving in the waiting room or a call concluding)
-  name: Coviu Webhooks
-  slug: coviu-webhooks
 - description: In-call Plugin (Apps) API for building custom experiences inside the Coviu video room — adding UI elements, connecting to third-party systems, and enriching the clinical encounter. Documented as a cli
   name: Coviu Plugin API
   slug: coviu-plugin-api
-artifact_total: 14
+- description: The Auth API from Coviu — 1 operation(s) for auth.
+  name: Coviu Auth API
+  slug: coviu-auth-api
+- description: The Collections API from Coviu — 5 operation(s) for collections.
+  name: Coviu Collections API
+  slug: coviu-collections-api
+- description: The Participants API from Coviu — 2 operation(s) for participants.
+  name: Coviu Participants API
+  slug: coviu-participants-api
+- description: The Sessions API from Coviu — 3 operation(s) for sessions.
+  name: Coviu Sessions API
+  slug: coviu-sessions-api
+- description: The Waiting Area API from Coviu — 3 operation(s) for waiting area.
+  name: Coviu Waiting Area API
+  slug: coviu-waiting-area-api
+- description: The Webhook Requests API from Coviu — 1 operation(s) for webhook requests.
+  name: Coviu Webhook Requests API
+  slug: coviu-webhook-requests-api
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Coviu Webhooks
@@ -216,7 +219,7 @@ modified: '2026-07-24'
 name: Coviu
 nav: Providers
 network: true
-overview: 'Coviu publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Sessions API, Participants API, Waiting Area API, and 2 more. Tagged areas include Healthcare, Telehealth, Australia, Virtual Care, and Video.
+overview: 'Coviu publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Collections API, Participants API, and 3 more. Tagged areas include Healthcare, Telehealth, Australia, Virtual Care, and Video.
 
 
   The Coviu catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -231,18 +234,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 50.4
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
-    contract_quality: 54.6
+    contract_governance: 18.2
+    contract_quality: 55.2
     developer_ergonomics: 41.1
-    discoverability: 72.2
-    governance: 30.3
+    discoverability: 66.7
+    governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 52.2
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -258,13 +266,15 @@ score:
     jurisdictions:
     - jurisdiction: US
       standard: ferpa
+    - jurisdiction: US
+      standard: hipaa
     jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coviu/refs/heads/main/screenshots/coviu-2026-07-25T210604.png
 security:

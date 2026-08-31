@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-17'
 name: 24Symbols
 nav: Providers
 network: true
-overview: '24Symbols is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Books, Ebooks, Reading, and Digital Library.
+overview: '24Symbols is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Books, E-books, Reading, and Digital Library.
 
 
   24Symbols'' developer surface includes support, pricing, signup flow, engineering blog, and 5 more developer resources.'
@@ -88,6 +88,11 @@ random_paper: 18
 score:
   band: emerging
   composite: 13.2
+  coverage:
+    artifact_dirs: 2
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
@@ -111,15 +116,15 @@ score:
     regime: Education & Research
     regime_id: education
     score: 14.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/24symbols/refs/heads/main/screenshots/24symbols-2026-07-25T181159.png
 slug: 24symbols
 tags:
 - Company
 - Books
-- Ebooks
+- E-books
 - Reading
 - Digital Library
 - Subscription

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The Klutch Public API is a GraphQL API for the Klutch programmable credit card. It exposes enriched transaction history with filtering, cursor pagination and group-by aggregation; user-defined transac
@@ -206,18 +206,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 45.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.1
   facets:
-    access_clarity: 38.2
-    commercial_clarity: 38.2
+    access_clarity: 32.9
+    commercial_clarity: 32.9
     contract_governance: 4.5
     contract_quality: 42.7
     developer_ergonomics: 76.8
-    discoverability: 79.6
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 46.9
+  previous_composite: 46.5
   provenance:
     conformance: derived
     mcp: first-party
@@ -228,8 +233,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klutch/refs/heads/main/screenshots/klutch-2026-07-25T223951.png
 security:

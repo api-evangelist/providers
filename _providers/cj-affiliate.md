@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 10
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 24
   slug: cj-affiliate-agentic-access
   summary_line: 24 operations · 10 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: GraphQL API serving near-real-time commission and transaction data. The publisherCommissions and advertiserCommissions queries return commission records filtered by posting, event or locking date rang
   name: CJ Commission Detail API
@@ -285,18 +285,23 @@ rate_limits:
   slug: cj-affiliate-rate-limits
 score:
   band: developing
-  composite: 50.0
-  delta: 0.9
+  composite: 48.7
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 68.1
     developer_ergonomics: 20.8
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 49.1
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -307,8 +312,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/screenshots/cj-affiliate-2026-07-25T205448.png
 security:

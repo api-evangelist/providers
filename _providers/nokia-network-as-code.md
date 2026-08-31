@@ -7,7 +7,7 @@ agent_readiness:
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
     dry_run_mode: false
@@ -23,8 +23,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.8
-  scored_at: '2026-08-26'
+  score: 43.7
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -32,30 +32,102 @@ agentic_access:
   operation_count: 148
   slug: nokia-network-as-code-agentic-access
   summary_line: 148 operations · 97 acting
-api_count: 7
+api_count: 2
 apis:
-- description: The single aggregated Network as Code API surface published by Nokia as one OpenAPI 3.0 document. The harvested specification declares 58 paths / 78 operations spanning device status, location, geofen
-  name: Nokia Network as Code Platform API
-  slug: network-as-code-platform-api
-- description: Nokia's consolidated CAMARA-conformant network API specification, published as Single-NaC-API-OAS.yaml in the public network-as-code-sdks repository. OpenAPI 3.0.3, 52 paths / 70 operations, declaring
-  name: Nokia Network as Code CAMARA API
-  slug: camara-network-api
-- description: The identity and anti-fraud product family. Capabilities advertised by the platform configuration are Call Forwarding Signal, Device Swap, KYC Age Verification, KYC Fill-in, KYC Match, Location Verifi
-  name: Network as Code Digital Identity and Anti-Fraud APIs
-  slug: digital-identity-and-anti-fraud
-- description: The device-state product family — Device Reachability Status, Device Reachability Status Subscriptions, Device Roaming Status, Device Roaming Status Subscriptions, Geofencing Subscriptions and Locatio
-  name: Network as Code Device Intelligence APIs
-  slug: device-intelligence
-- description: The network-control product family — Quality on Demand, Specialized Networks / Network Slice Management, Network Slice Device Attachment, Network Slice Application Attachment and eSIM Provisioning. Th
-  name: Network as Code Programmable Connectivity APIs
-  slug: programmable-connectivity
-- description: The network-analytics product family. Advertised capabilities are Congestion Insights, Network Aware Route Optimization, Population Density Data and Consent and Identity Management. Only two are calla
-  name: Network as Code Network Intelligence APIs
-  slug: network-intelligence
-- description: The platform's OAuth2 / OpenID Connect surface, tagged "NaC Authorization Server" and "Well Known Metadata" in the harvested specification. Real operations are GET /oauth2/v1/auth/clientcredentials (i
-  name: Network as Code Authorization Server
-  slug: authorization-server
-artifact_total: 17
+- description: The Call Forwarding Signal v0.3.0 API from Nokia Network as Code — 2 operation(s) for call forwarding signal v0.3.0.
+  name: Nokia Network as Code Call Forwarding Signal v0.3.0 API
+  slug: nokia-network-as-code-call-forwarding-signal-v0-3-0-api
+- description: The Congestion Insights v1.0.0 API from Nokia Network as Code — 3 operation(s) for congestion insights v1.0.0.
+  name: Nokia Network as Code Congestion Insights v1.0.0 API
+  slug: nokia-network-as-code-congestion-insights-v1-0-0-api
+- description: The Consent Info v0.1.0 API from Nokia Network as Code — 1 operation(s) for consent info v0.1.0.
+  name: Nokia Network as Code Consent Info v0.1.0 API
+  slug: nokia-network-as-code-consent-info-v0-1-0-api
+- description: The Device Reachability Status Retrieve v1.1.0 API from Nokia Network as Code — 1 operation(s) for device reachability status retrieve v1.1.0.
+  name: Nokia Network as Code Device Reachability Status Retrieve v1.1.0 API
+  slug: nokia-network-as-code-device-reachability-status-retrieve-v1-1-0-api
+- description: The Device Reachability Status Retrieve v1 API from Nokia Network as Code — 1 operation(s) for device reachability status retrieve v1.
+  name: Nokia Network as Code Device Reachability Status Retrieve v1 API
+  slug: nokia-network-as-code-device-reachability-status-retrieve-v1-api
+- description: The Device Reachability Status Subscriptions v0.7 API from Nokia Network as Code — 2 operation(s) for device reachability status subscriptions v0.7.
+  name: Nokia Network as Code Device Reachability Status Subscriptions v0.7 API
+  slug: nokia-network-as-code-device-reachability-status-subscriptions-v0-7-api
+- description: The Device Reachability Status Subscriptions v0.8 API from Nokia Network as Code — 2 operation(s) for device reachability status subscriptions v0.8.
+  name: Nokia Network as Code Device Reachability Status Subscriptions v0.8 API
+  slug: nokia-network-as-code-device-reachability-status-subscriptions-v0-8-api
+- description: The Device Roaming Status Retrieve v1.1.0 API from Nokia Network as Code — 1 operation(s) for device roaming status retrieve v1.1.0.
+  name: Nokia Network as Code Device Roaming Status Retrieve v1.1.0 API
+  slug: nokia-network-as-code-device-roaming-status-retrieve-v1-1-0-api
+- description: The Device Roaming Status Retrieve v1 API from Nokia Network as Code — 1 operation(s) for device roaming status retrieve v1.
+  name: Nokia Network as Code Device Roaming Status Retrieve v1 API
+  slug: nokia-network-as-code-device-roaming-status-retrieve-v1-api
+- description: The Device Roaming Status Subscriptions v0.7 API from Nokia Network as Code — 2 operation(s) for device roaming status subscriptions v0.7.
+  name: Nokia Network as Code Device Roaming Status Subscriptions v0.7 API
+  slug: nokia-network-as-code-device-roaming-status-subscriptions-v0-7-api
+- description: The Device Roaming Status Subscriptions v0.8 API from Nokia Network as Code — 2 operation(s) for device roaming status subscriptions v0.8.
+  name: Nokia Network as Code Device Roaming Status Subscriptions v0.8 API
+  slug: nokia-network-as-code-device-roaming-status-subscriptions-v0-8-api
+- description: The Device Status v0.5.1 API from Nokia Network as Code — 4 operation(s) for device status v0.5.1.
+  name: Nokia Network as Code Device Status v0.5.1 API
+  slug: nokia-network-as-code-device-status-v0-5-1-api
+- description: The Device Swap v1.0.0 API from Nokia Network as Code — 2 operation(s) for device swap v1.0.0.
+  name: Nokia Network as Code Device Swap v1.0.0 API
+  slug: nokia-network-as-code-device-swap-v1-0-0-api
+- description: The Geofencing v0.3.0 API from Nokia Network as Code — 2 operation(s) for geofencing v0.3.0.
+  name: Nokia Network as Code Geofencing v0.3.0 API
+  slug: nokia-network-as-code-geofencing-v0-3-0-api
+- description: The KYC Age Verification v0.1 API from Nokia Network as Code — 1 operation(s) for kyc age verification v0.1.
+  name: Nokia Network as Code KYC Age Verification v0.1 API
+  slug: nokia-network-as-code-kyc-age-verification-v0-1-api
+- description: The KYC FIll In v0.4 API from Nokia Network as Code — 1 operation(s) for kyc fill in v0.4.
+  name: Nokia Network as Code KYC FIll In v0.4 API
+  slug: nokia-network-as-code-kyc-fill-in-v0-4-api
+- description: The KYC Match v0.3 API from Nokia Network as Code — 1 operation(s) for kyc match v0.3.
+  name: Nokia Network as Code KYC Match v0.3 API
+  slug: nokia-network-as-code-kyc-match-v0-3-api
+- description: The KYC Tenure v0.1 API from Nokia Network as Code — 1 operation(s) for kyc tenure v0.1.
+  name: Nokia Network as Code KYC Tenure v0.1 API
+  slug: nokia-network-as-code-kyc-tenure-v0-1-api
+- description: The Location Retrieval v0.2.0 API from Nokia Network as Code — 1 operation(s) for location retrieval v0.2.0.
+  name: Nokia Network as Code Location Retrieval v0.2.0 API
+  slug: nokia-network-as-code-location-retrieval-v0-2-0-api
+- description: The Location Verification v0.2.0 API from Nokia Network as Code — 1 operation(s) for location verification v0.2.0.
+  name: Nokia Network as Code Location Verification v0.2.0 API
+  slug: nokia-network-as-code-location-verification-v0-2-0-api
+- description: The Location Verification v1.0.0 API from Nokia Network as Code — 1 operation(s) for location verification v1.0.0.
+  name: Nokia Network as Code Location Verification v1.0.0 API
+  slug: nokia-network-as-code-location-verification-v1-0-0-api
+- description: The NaC Authorization Server API from Nokia Network as Code — 2 operation(s) for nac authorization server.
+  name: Nokia Network as Code NaC Authorization Server API
+  slug: nokia-network-as-code-nac-authorization-server-api
+- description: The Network Slicing v1.0.0 API from Nokia Network as Code — 4 operation(s) for network slicing v1.0.0.
+  name: Nokia Network as Code Network Slicing v1.0.0 API
+  slug: nokia-network-as-code-network-slicing-v1-0-0-api
+- description: The Number Recycling v0.2 API from Nokia Network as Code — 1 operation(s) for number recycling v0.2.
+  name: Nokia Network as Code Number Recycling v0.2 API
+  slug: nokia-network-as-code-number-recycling-v0-2-api
+- description: The Number Verification v1.0.0 API from Nokia Network as Code — 2 operation(s) for number verification v1.0.0.
+  name: Nokia Network as Code Number Verification v1.0.0 API
+  slug: nokia-network-as-code-number-verification-v1-0-0-api
+- description: The Number Verification v2.1 API from Nokia Network as Code — 2 operation(s) for number verification v2.1.
+  name: Nokia Network as Code Number Verification v2.1 API
+  slug: nokia-network-as-code-number-verification-v2-1-api
+- description: The Quality-of-Service on Demand v0.10.1 API from Nokia Network as Code — 4 operation(s) for quality-of-service on demand v0.10.1.
+  name: Nokia Network as Code Quality-of-Service on Demand v0.10.1 API
+  slug: nokia-network-as-code-quality-of-service-on-demand-v0-10-1-api
+- description: The Quality-of-Service on Demand v1.0.0 API from Nokia Network as Code — 4 operation(s) for quality-of-service on demand v1.0.0.
+  name: Nokia Network as Code Quality-of-Service on Demand v1.0.0 API
+  slug: nokia-network-as-code-quality-of-service-on-demand-v1-0-0-api
+- description: The SIM Swap v1.0.0 API from Nokia Network as Code — 2 operation(s) for sim swap v1.0.0.
+  name: Nokia Network as Code SIM Swap v1.0.0 API
+  slug: nokia-network-as-code-sim-swap-v1-0-0-api
+- description: The Slice Device Attach v1.0.0 API from Nokia Network as Code — 3 operation(s) for slice device attach v1.0.0.
+  name: Nokia Network as Code Slice Device Attach v1.0.0 API
+  slug: nokia-network-as-code-slice-device-attach-v1-0-0-api
+- description: The Well Known Metadata API from Nokia Network as Code — 3 operation(s) for well known metadata.
+  name: Nokia Network as Code Well Known Metadata API
+  slug: nokia-network-as-code-well-known-metadata-api
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Nokia Network As Code Webhooks
@@ -68,6 +140,10 @@ collections:
   name: Network as Code
   slug: open-nokia-network-as-code-platform
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nokia-network-as-code-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -274,13 +350,13 @@ modified: '2026-07-25'
 name: Nokia Network as Code
 nav: Providers
 network: true
-overview: 'Nokia Network as Code publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Platform API, CAMARA API, Network as Code Digital Identity and Anti-Fraud APIs, and 4 more. Tagged areas include Telecommunications, Finland, Network APIs, CAMARA, and Open Gateway.
+overview: 'Nokia Network as Code publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Call Forwarding Signal v0.3.0 API, Congestion Insights v1.0.0 API, Consent Info v0.1.0 API, and 28 more. Tagged areas include Telecommunications, Finland, Network APIs, CAMARA, and Open Gateway.
 
 
   The Nokia Network as Code catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Nokia Network as Code''s developer surface includes authentication, changelog, sandbox, API reference, developer portal, documentation, getting-started guide, and 41 more developer resources.'
+  Nokia Network as Code''s developer surface includes authentication, changelog, sandbox, API reference, developer portal, documentation, getting-started guide, and 42 more developer resources.'
 random_paper: 8
 scopes:
 - name: Nokia Network As Code Scopes
@@ -289,18 +365,26 @@ scopes:
   summary_line: 65 scopes
 score:
   band: strong
-  composite: 65.7
-  delta: 0.0
+  composite: 58.9
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -3.2
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
-    contract_quality: 64.7
+    contract_governance: 4.5
+    contract_quality: 63.1
     developer_ergonomics: 73.2
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 63.0
+    governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 65.7
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -313,12 +397,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: nis2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 93.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/screenshots/nokia-network-as-code-2026-08-07T185436.png
 security:

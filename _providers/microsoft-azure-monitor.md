@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 72
   slug: microsoft-azure-monitor-agentic-access
   summary_line: 72 operations · 33 acting
-api_count: 19
+api_count: 15
 apis:
 - description: Operations for managing action groups
   name: Azure Monitor Action Groups API
@@ -804,7 +804,12 @@ scopes:
 score:
   band: strong
   composite: 57.4
-  delta: 1.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 47.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -814,7 +819,7 @@ score:
     discoverability: 75.9
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 56.0
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     contracts:
@@ -822,8 +827,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/screenshots/microsoft-azure-monitor-2026-06-20T185425.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3518
   human_in_the_loop: 147
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 5181
   slug: amazon-web-services-agentic-access
   summary_line: 5181 operations · 3518 acting · 147 human-in-the-loop
-api_count: 1804
+api_count: 377
 apis:
 - description: The 2012 09 25 API from Amazon Web Services — 11 operation(s) for 2012 09 25.
   name: Amazon Web Services 2012 09 25 API
@@ -10864,6 +10864,10 @@ collections:
   name: Amazon Web Services accessanalyzer 2012 09 25 Zonalshifts API
   slug: open-amazon-web-services-zonalshifts-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-web-services-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -10941,7 +10945,7 @@ overview: 'Amazon Web Services publishes 1804 APIs on the [APIs.io](https://apis
   The Amazon Web Services catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Amazon Web Services'' developer surface includes engineering blog and 2 more developer resources.'
+  Amazon Web Services'' developer surface includes engineering blog and 3 more developer resources.'
 plans:
 - name: Amazon Web Services Plans Pricing
   plan_count: 3
@@ -10966,6 +10970,11 @@ rules:
 score:
   band: emerging
   composite: 16.7
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 76.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -10990,8 +10999,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1804
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/screenshots/amazon-web-services-2026-06-20T171845.png
 slug: amazon-web-services

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 5
   slug: fairmarkit-agentic-access
   summary_line: 5 operations · 2 acting
-api_count: 18
+api_count: 2
 apis:
 - description: The Business Units API from Fairmarkit — 2 operation(s) for business units.
   name: Fairmarkit Business Units API
@@ -161,6 +161,10 @@ collections:
   name: BUYER PUBLIC Business Units User Profiles API
   slug: open-fairmarkit-user-profiles-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fairmarkit-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -291,22 +295,27 @@ overview: 'Fairmarkit publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
   The Fairmarkit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fairmarkit''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 21 more developer resources.'
+  Fairmarkit''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 22 more developer resources.'
 random_paper: 16
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 47.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 64.8
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 49.7
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -317,8 +326,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fairmarkit/refs/heads/main/screenshots/fairmarkit-2026-07-25T214156.png
 security:

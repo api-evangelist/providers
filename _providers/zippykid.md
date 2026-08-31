@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 7
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 149
   slug: zippykid-agentic-access
   summary_line: 149 operations · 93 acting · 7 human-in-the-loop
-api_count: 8
+api_count: 1
 apis:
 - description: The account API from ZippyKid — 4 operation(s) for account.
   name: ZippyKid account API
@@ -249,18 +249,23 @@ scopes:
   summary_line: 13 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 46.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 58.4
     developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 49.7
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,8 +276,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/screenshots/zippykid-2026-08-17T083111.png
 security:

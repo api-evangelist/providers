@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 54
   slug: amadeus-agentic-access
   summary_line: 54 operations · 14 acting
-api_count: 26
+api_count: 40
 apis:
 - description: The air-traffic API from Amadeus — 3 operation(s) for air-traffic.
   name: Amadeus air-traffic API
@@ -504,6 +504,10 @@ collections:
   name: Trip Purpose Prediction
   slug: open-amadeus-trip-purpose-prediction
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amadeus-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -7301,7 +7305,7 @@ overview: 'Amadeus publishes 26 APIs on the [APIs.io](https://apis.io/) network,
   The Amadeus catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Amadeus'' developer surface includes signup flow, developer console, pricing, documentation, getting-started guide, authentication, engineering blog, and 56 more developer resources.'
+  Amadeus'' developer surface includes signup flow, developer console, pricing, documentation, getting-started guide, authentication, engineering blog, and 57 more developer resources.'
 plans:
 - name: Amadeus Plans Pricing
   plan_count: 3
@@ -7336,7 +7340,12 @@ rules:
 score:
   band: developing
   composite: 51.7
-  delta: 0.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 20.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -7346,7 +7355,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 51.0
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     contracts:
@@ -7354,8 +7363,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png
 security:

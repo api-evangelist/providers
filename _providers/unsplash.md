@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 29
   slug: unsplash-agentic-access
   summary_line: 29 operations · 7 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Photo collection management
   name: Unsplash Collections API
@@ -232,15 +232,20 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: developing
-  composite: 40.5
-  delta: 0.0
+  composite: 40.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 42.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 72.0
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 28.9
   previous_composite: 40.5
@@ -251,8 +256,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unsplash/refs/heads/main/screenshots/unsplash-2026-08-17T082634.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 161
   slug: signoz-agentic-access
   summary_line: 161 operations · 88 acting · 3 human-in-the-loop
-api_count: 29
+api_count: 1
 apis:
 - description: The alerts API from SigNoz — 1 operation(s) for alerts.
   name: SigNoz alerts API
@@ -314,6 +314,26 @@ collections:
   name: SigNoz
   slug: open-signoz
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/SigNoz/signoz/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/SigNoz/signoz/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/SigNoz/signoz/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/SigNoz/signoz/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/SigNoz/signoz/blob/main/CONTRIBUTING.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -444,7 +464,7 @@ overview: 'SigNoz publishes 29 APIs on the [APIs.io](https://apis.io/) network, 
   The SigNoz catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SigNoz''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, support, changelog, and 12 more developer resources.'
+  SigNoz''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, support, changelog, and 17 more developer resources.'
 plans:
 - name: Signoz Plans Pricing
   plan_count: 3
@@ -477,19 +497,27 @@ rules:
     warn: 6
   slug: signoz-rules
 score:
-  band: developing
-  composite: 49.8
-  delta: 4.2
+  band: strong
+  composite: 55.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 28.8
-    contract_quality: 62.2
+    contract_quality: 63.5
     developer_ergonomics: 59.5
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
-    operational_transparency: 42.1
-  previous_composite: 45.6
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     contracts:
@@ -497,8 +525,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/screenshots/signoz-2026-06-20T193914.png
 security:

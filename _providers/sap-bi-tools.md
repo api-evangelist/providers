@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 32
   slug: sap-bi-tools-agentic-access
   summary_line: 32 operations · 11 acting
-api_count: 26
+api_count: 4
 apis:
 - description: OData-based API for exporting fact data and master data from SAP Analytics Cloud models. Allows programmatic extraction of underlying data and metadata for integration with external systems and data p
   name: SAP Analytics Cloud Data Export API
@@ -234,6 +234,10 @@ collections:
   name: SAP BI Tools SAP BusinessObjects BI Platform RESTful Web Services
   slug: open-sap-businessobjects-bi-platform-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/SAP-samples/analytics-cloud-export-api-wrapper/issues
 - group: other
   title: ''
   type: ParentCompany
@@ -541,7 +545,7 @@ overview: 'SAP BI Tools publishes 16 APIs on the [APIs.io](https://apis.io/) net
   The SAP BI Tools catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SAP BI Tools'' developer surface includes authentication, developer portal, getting-started guide, documentation, support, engineering blog, changelog, and 43 more developer resources.'
+  SAP BI Tools'' developer surface includes authentication, developer portal, getting-started guide, documentation, support, engineering blog, changelog, and 44 more developer resources.'
 plans:
 - name: Sap Bi Tools Plans Pricing
   plan_count: 1
@@ -580,18 +584,26 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.7
-  delta: 0.8
+  composite: 45.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 28.8
-    contract_quality: 67.7
+    contract_quality: 68.6
     developer_ergonomics: 50.0
     discoverability: 57.4
     governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 49.9
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -599,8 +611,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bi-tools/refs/heads/main/screenshots/sap-bi-tools-2026-06-20T193416.png
 security:

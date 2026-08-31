@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: geotab-agentic-access
   summary_line: 5 operations · 4 acting · 1 human-in-the-loop
-api_count: 5
+api_count: 1
 apis:
 - description: The MyGeotab API provides JSON-RPC 2.0 access to all fleet telematics data including vehicle location, trip history, driver behavior, fault codes, fuel usage, HOS/ELD compliance records, and sensor da
   name: MyGeotab API
@@ -74,6 +74,10 @@ collections:
   name: Data Intake Gateway Authentication Records API
   slug: open-geotab-records-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/geotab-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -138,10 +142,6 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/geotab-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: 2026-06-12
 description: Geotab is a fleet telematics platform providing the MyGeotab SDK and REST API for vehicle tracking, driver behavior monitoring, fuel management, ELD compliance, and route optimization. The MyGeotab API uses JSON-RPC 2.0 over HTTPS with session-token authentication, exposing a single versioned endpoint at /apiv1 that supports Get, Add, Set, and Remove operations across all fleet entities including devices, trips, fault data, and status data. The MyAdmin API provides reseller and partner access to manage databases, orders, and provisioning. Native SDK clients are available for JavaScript, .NET, Java, and Python, and the full SDK and sample code are published on GitHub.
 examples:
@@ -206,18 +206,23 @@ rules:
   slug: geotab-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.9
-  delta: 3.2
+  composite: 41.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 40.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 25.0
     contract_quality: 68.3
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 2.6
-  previous_composite: 38.7
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -225,8 +230,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geotab/refs/heads/main/screenshots/geotab-2026-06-20T181804.png
 security:

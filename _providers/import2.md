@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Create and manage data migration (import) jobs.
   name: Import2 Imports API
@@ -170,7 +170,7 @@ modified: '2026-07-19'
 name: Import2
 nav: Providers
 network: true
-overview: 'Import2 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Imports API and Tools API. Tagged areas include Company, Data Migration, Data Integration, CRM, and Help Desk.
+overview: 'Import2 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Imports API and Tools API. Tagged areas include Company, Data Migration, Data Integration, CRM, and Helpdesk.
 
 
   Import2''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 19 more developer resources.'
@@ -180,19 +180,24 @@ rate_limits:
   name: Import2 Rate Limits
   slug: import2-rate-limits
 score:
-  band: developing
-  composite: 39.5
+  band: thin
+  composite: 38.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 14.2
     developer_ergonomics: 63.7
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 39.5
+  previous_composite: 38.0
   provenance:
     conformance: derived
     contracts:
@@ -202,8 +207,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/screenshots/import2-2026-07-25T222154.png
 security:
@@ -225,7 +230,7 @@ tags:
 - Data Migration
 - Data Integration
 - CRM
-- Help Desk
+- Helpdesk
 - Software-as-a-Service
 - Migration
 - Onboarding

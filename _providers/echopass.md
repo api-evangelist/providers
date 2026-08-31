@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/genesys/
 created: '2026-07-17'
 description: Echopass Corporation was a cloud-based (on-demand / hosted) contact center technology company, headquartered in the San Francisco Bay Area (San Ramon / Pleasanton, California) and backed by Canaan Partners among other venture investors. Its platform delivered multichannel, carrier-grade contact center and customer-interaction capabilities as a hosted service to enterprises. Echopass was acquired by Genesys in 2013 and folded into the Genesys customer-experience portfolio; it no longer operates as an independent company and publishes no live developer, API, or documentation surface. This profile is retained in the API Evangelist network for lineage and portfolio-graph purposes rather than as an active API provider.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/echopass.png
@@ -48,6 +53,11 @@ random_paper: 14
 score:
   band: minimal
   composite: 0.6
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -73,8 +83,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: echopass
 tags:

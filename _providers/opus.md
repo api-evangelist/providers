@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 22
   slug: opus-agentic-access
   summary_line: 22 operations · 13 acting · 13 human-in-the-loop
-api_count: 11
+api_count: 1
 apis:
 - description: The brand-templates API from Opus — 1 operation(s) for brand-templates.
   name: Opus brand-templates API
@@ -58,12 +58,6 @@ apis:
 - description: The collection-content API from Opus — 2 operation(s) for collection-content.
   name: Opus collection-content API
   slug: opus-collection-content-api
-- description: The enterprise API from Opus — 18 operation(s) for enterprise.
-  name: Opus enterprise API
-  slug: opus-enterprise-api
-- description: The exportable-clips API from Opus — 1 operation(s) for exportable-clips.
-  name: Opus exportable-clips API
-  slug: opus-exportable-clips-api
 - description: The ExportableClip API from Opus — 1 operation(s) for exportableclip.
   name: Opus ExportableClip API
   slug: opus-exportableclip-api
@@ -83,7 +77,7 @@ arazzos:
 - description: Clip a video, generate social copy, and publish a clip to a connected social account.
   name: OpusClip — clip a video and publish to social
   slug: opus-clip-and-publish
-artifact_total: 31
+artifact_total: 29
 collections:
 - collection_type: open
   name: API Collection
@@ -290,25 +284,30 @@ modified: '2026-07-20'
 name: Opus
 nav: Providers
 network: true
-overview: 'Opus publishes 11 APIs on the [APIs.io](https://apis.io/) network, including brand-templates API, censor-jobs API, clip-project API, and 8 more. Tagged areas include Company, Frontier Tech, Video, Artificial Intelligence, and Video Editing.
+overview: 'Opus publishes 9 APIs on the [APIs.io](https://apis.io/) network, including brand-templates API, censor-jobs API, clip-project API, and 6 more. Tagged areas include Company, Frontier Tech, Video, Artificial Intelligence, and Video Editing.
 
 
   Opus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 random_paper: 14
 score:
   band: developing
-  composite: 49.3
-  delta: 2.4
+  composite: 46.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 16.7
-    contract_quality: 46.1
+    contract_governance: 4.5
+    contract_quality: 46.4
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 46.9
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -319,8 +318,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/screenshots/opus-2026-08-07T190821.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 197
   slug: shoplazza-agentic-access
   summary_line: 197 operations · 96 acting · 1 human-in-the-loop
-api_count: 20
+api_count: 1
 apis:
 - description: The Access API from Shoplazza — 1 operation(s) for access.
   name: Shoplazza Access API
@@ -173,6 +173,10 @@ collections:
   name: SPZ Admin Access Webhook API
   slug: open-shoplazza-webhook-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shoplazza-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -331,7 +335,7 @@ overview: 'Shoplazza publishes 20 APIs on the [APIs.io](https://apis.io/) networ
   The Shoplazza catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Shoplazza''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, signup flow, and 28 more developer resources.'
+  Shoplazza''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, signup flow, and 29 more developer resources.'
 random_paper: 1
 rate_limits:
 - limit_count: 4
@@ -344,18 +348,23 @@ scopes:
   summary_line: 29 scopes
 score:
   band: strong
-  composite: 56.3
-  delta: 0.0
+  composite: 54.3
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.7
     developer_ergonomics: 61.3
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 56.3
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -372,8 +381,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/screenshots/shoplazza-2026-08-17T081837.png
 security:

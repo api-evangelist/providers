@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -33,24 +33,118 @@ agentic_access:
   summary_line: 86 operations · 20 acting
 api_count: 4
 apis:
-- description: UK Open Banking Read/Write Account & Transaction Information API (AISP) - the OBIE standard for accessing account, balance, transaction and statement data with customer consent. FAPI-secured (OAuth2/O
-  name: GB Bank Account and Transaction Information API (AIS)
-  slug: gb-bank-account-transaction-information-api
-- description: UK Open Banking Read/Write Payment Initiation API (PISP) - the OBIE standard for initiating domestic, scheduled, standing-order, international and file payments with customer consent. FAPI-secured (OA
-  name: GB Bank Payment Initiation API (PIS)
-  slug: gb-bank-payment-initiation-api
-- description: UK Open Banking Read/Write Confirmation of Funds API (CBPII) - the OBIE standard for confirming whether funds are available on a payment account with customer consent. FAPI-secured (OAuth2/OIDC, mTLS,
-  name: GB Bank Confirmation of Funds API (CBPII)
-  slug: gb-bank-confirmation-of-funds-api
-- description: GB Bank Open Data API from GB Bank — 6 path(s) described in OpenAPI.
-  name: GB Bank Open Data API
-  slug: uk-open-banking-open-data-api-openapi
-artifact_total: 9
+- description: The Account Access Consents API from GB Bank — 2 operation(s) for account access consents.
+  name: GB Bank Account Access Consents API
+  slug: gb-bank-account-access-consents-api
+- description: The Accounts API from GB Bank — 2 operation(s) for accounts.
+  name: GB Bank Accounts API
+  slug: gb-bank-accounts-api
+- description: Endpoint for getting ATM data
+  name: GB Bank ATM API
+  slug: gb-bank-atm-api
+- description: The Balances API from GB Bank — 2 operation(s) for balances.
+  name: GB Bank Balances API
+  slug: gb-bank-balances-api
+- description: Endpoint for getting Business Current Account data
+  name: GB Bank BCA API
+  slug: gb-bank-bca-api
+- description: The Beneficiaries API from GB Bank — 2 operation(s) for beneficiaries.
+  name: GB Bank Beneficiaries API
+  slug: gb-bank-beneficiaries-api
+- description: Endpoint for getting Branch data
+  name: GB Bank Branch API
+  slug: gb-bank-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: GB Bank CCC API
+  slug: gb-bank-ccc-api
+- description: The Direct Debits API from GB Bank — 2 operation(s) for direct debits.
+  name: GB Bank Direct Debits API
+  slug: gb-bank-direct-debits-api
+- description: The Domestic Payment Consents API from GB Bank — 3 operation(s) for domestic payment consents.
+  name: GB Bank Domestic Payment Consents API
+  slug: gb-bank-domestic-payment-consents-api
+- description: The Domestic Payments API from GB Bank — 3 operation(s) for domestic payments.
+  name: GB Bank Domestic Payments API
+  slug: gb-bank-domestic-payments-api
+- description: The Domestic Scheduled Payment Consents API from GB Bank — 2 operation(s) for domestic scheduled payment consents.
+  name: GB Bank Domestic Scheduled Payment Consents API
+  slug: gb-bank-domestic-scheduled-payment-consents-api
+- description: The Domestic Scheduled Payments API from GB Bank — 3 operation(s) for domestic scheduled payments.
+  name: GB Bank Domestic Scheduled Payments API
+  slug: gb-bank-domestic-scheduled-payments-api
+- description: The Domestic Standing Order Consents API from GB Bank — 2 operation(s) for domestic standing order consents.
+  name: GB Bank Domestic Standing Order Consents API
+  slug: gb-bank-domestic-standing-order-consents-api
+- description: The Domestic Standing Orders API from GB Bank — 3 operation(s) for domestic standing orders.
+  name: GB Bank Domestic Standing Orders API
+  slug: gb-bank-domestic-standing-orders-api
+- description: The File Payment Consents API from GB Bank — 3 operation(s) for file payment consents.
+  name: GB Bank File Payment Consents API
+  slug: gb-bank-file-payment-consents-api
+- description: The File Payments API from GB Bank — 4 operation(s) for file payments.
+  name: GB Bank File Payments API
+  slug: gb-bank-file-payments-api
+- description: The Funds Confirmation Consents API from GB Bank — 2 operation(s) for funds confirmation consents.
+  name: GB Bank Funds Confirmation Consents API
+  slug: gb-bank-funds-confirmation-consents-api
+- description: The Funds Confirmations API from GB Bank — 1 operation(s) for funds confirmations.
+  name: GB Bank Funds Confirmations API
+  slug: gb-bank-funds-confirmations-api
+- description: The International Payment Consents API from GB Bank — 3 operation(s) for international payment consents.
+  name: GB Bank International Payment Consents API
+  slug: gb-bank-international-payment-consents-api
+- description: The International Payments API from GB Bank — 3 operation(s) for international payments.
+  name: GB Bank International Payments API
+  slug: gb-bank-international-payments-api
+- description: The International Scheduled Payments API from GB Bank — 3 operation(s) for international scheduled payments.
+  name: GB Bank International Scheduled Payments API
+  slug: gb-bank-international-scheduled-payments-api
+- description: The International Scheduled Payments Consents API from GB Bank — 3 operation(s) for international scheduled payments consents.
+  name: GB Bank International Scheduled Payments Consents API
+  slug: gb-bank-international-scheduled-payments-consents-api
+- description: The International Standing Orders API from GB Bank — 3 operation(s) for international standing orders.
+  name: GB Bank International Standing Orders API
+  slug: gb-bank-international-standing-orders-api
+- description: The International Standing Orders Consents API from GB Bank — 2 operation(s) for international standing orders consents.
+  name: GB Bank International Standing Orders Consents API
+  slug: gb-bank-international-standing-orders-consents-api
+- description: The Offers API from GB Bank — 2 operation(s) for offers.
+  name: GB Bank Offers API
+  slug: gb-bank-offers-api
+- description: The Parties API from GB Bank — 3 operation(s) for parties.
+  name: GB Bank Parties API
+  slug: gb-bank-parties-api
+- description: Endpoint for getting Personal Current Account data
+  name: GB Bank PCA API
+  slug: gb-bank-pca-api
+- description: The Products API from GB Bank — 2 operation(s) for products.
+  name: GB Bank Products API
+  slug: gb-bank-products-api
+- description: The Scheduled Payments API from GB Bank — 2 operation(s) for scheduled payments.
+  name: GB Bank Scheduled Payments API
+  slug: gb-bank-scheduled-payments-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: GB Bank SME API
+  slug: gb-bank-sme-api
+- description: The Standing Orders API from GB Bank — 2 operation(s) for standing orders.
+  name: GB Bank Standing Orders API
+  slug: gb-bank-standing-orders-api
+- description: The Statements API from GB Bank — 5 operation(s) for statements.
+  name: GB Bank Statements API
+  slug: gb-bank-statements-api
+- description: The Transactions API from GB Bank — 2 operation(s) for transactions.
+  name: GB Bank Transactions API
+  slug: gb-bank-transactions-api
+artifact_total: 39
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-uk-open-banking-open-data-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gb-bank-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -140,10 +234,10 @@ modified: '2026-07-23'
 name: GB Bank
 nav: Providers
 network: true
-overview: 'GB Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account and Transaction Information API (AIS), Payment Initiation API (PIS), Confirmation of Funds API (CBPII), and 1 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'GB Bank publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 31 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  GB Bank''s developer surface includes authentication, support, engineering blog, and 17 more developer resources.'
+  GB Bank''s developer surface includes authentication, support, engineering blog, and 18 more developer resources.'
 random_paper: 7
 scopes:
 - name: Gb Bank Scopes
@@ -152,18 +246,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 37.3
-  delta: 1.6
+  composite: 37.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 49.0
+    contract_quality: 50.9
     developer_ergonomics: 35.7
     discoverability: 72.2
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 35.7
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -174,12 +273,16 @@ score:
       total: 4
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gb-bank/refs/heads/main/screenshots/gb-bank-2026-07-25T215509.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: oracle-database-19c-agentic-access
   summary_line: 12 operations · 7 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Document-oriented NoSQL-style API for storing, retrieving, and querying JSON documents in Oracle Database.
   name: Oracle Database SODA (Simple Oracle Document Access)
@@ -176,7 +176,7 @@ modified: '2026-05-19'
 name: Oracle Database 19c
 nav: Providers
 network: true
-overview: 'Oracle Database 19c publishes 4 APIs on the [APIs.io](https://apis.io/) network, including AutoREST API, Metadata API, SODA API, and 1 more. Tagged areas include Database, Enterprise, JSON, Machine-Learning, and NoSQL.
+overview: 'Oracle Database 19c publishes 4 APIs on the [APIs.io](https://apis.io/) network, including AutoREST API, Metadata API, SODA API, and 1 more. Tagged areas include Database, Enterprise, JSON, Machine-Learning, and Nosql.
 
 
   The Oracle Database 19c catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -210,18 +210,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 33.5
-  delta: 4.3
+  composite: 32.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 49.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 58.5
     developer_ergonomics: 33.3
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 29.2
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -229,8 +234,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-database-19c/refs/heads/main/screenshots/oracle-database-19c-2026-08-07T190822.png
 security:
@@ -248,8 +253,8 @@ tags:
 - Enterprise
 - JSON
 - Machine-Learning
-- NoSQL
+- Nosql
 - Oracle
 - REST
-- SQL
+- Sql
 ---

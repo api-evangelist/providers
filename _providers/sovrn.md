@@ -35,39 +35,39 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-26'
-api_count: 10
+  scored_at: '2026-08-30'
+api_count: 26
 apis:
-- description: Check whether a destination URL can be monetized by Sovrn Commerce, get its estimated earnings per click, and receive the optimized affiliate URL to use in its place. Supports a geo override for affil
-  name: Sovrn Commerce Link Check API
-  slug: sovrn-commerce-link-check-api
-- description: Real-time bid on a single click. Returns either a bid win (pricing model CPC or CPA, expected earnings per click net of revenue share, the Sovrn redirect URL and a millisecond expiry) or a no-fill, so
-  name: Sovrn Commerce Bid Check API
-  slug: sovrn-commerce-bid-check-api
-- description: List the campaigns (sites) on a Sovrn Commerce account or search them by name or campaignId, returning each campaign's id, public API key, approval status, category, platform and application type. Sup
-  name: Sovrn Commerce Campaigns API
-  slug: sovrn-commerce-campaigns-api
-- description: Eight endpoints returning affiliate commission performance in real time, each aggregating the same event set on a different dimension — individual transactions, merchants, merchants by date, links, pa
-  name: Sovrn Commerce Real-Time Reports API
-  slug: sovrn-commerce-real-time-reports-api
-- description: Retrieve the merchants a Commerce account is approved to work with, including geo-specific commission rates, rate formats, average EPC and order value, preferred-status flags and per-merchant domains.
-  name: Sovrn Commerce Merchant Group Summaries API
-  slug: sovrn-commerce-merchant-group-summaries-api
-- description: Returns products tailored to a piece of content. Callers pass their content plus optional filters such as price range or preferred merchants and receive a curated product list with sale and retail pri
-  name: Sovrn Commerce Product Recommendation API
-  slug: sovrn-commerce-product-recommendation-api
-- description: Compare prices for the same product across merchants in a given market, ranked by match accuracy, returning merchant identity and logo, deep link, images, sale and retail price, discount rate, affilia
-  name: Sovrn Commerce Price Comparisons (Product Affiliate) API
-  slug: sovrn-commerce-price-comparisons-product-affiliate-api
-- description: Retrieve ranked, product-specific promo codes with verification status — code, affiliated URL, original price, price with the code applied, currency, verified flag and timestamp — alongside merchant i
-  name: Sovrn Commerce Product Promo Codes API
-  slug: sovrn-commerce-product-promo-codes-api
-- description: Custom reporting over Sovrn Ad Exchange performance across web, connected TV and mobile app inventory. Requires start, end, metrics, dimensions and granularity on every request, with hour, day and mon
-  name: Sovrn Advertising Performance Reporting API
-  slug: sovrn-advertising-performance-reporting-api
 - description: Hosted, beta Model Context Protocol server exposing Sovrn Commerce affiliate data, campaigns and products to AI clients — twelve tools covering price search, link checking, product recommendations and
   name: Sovrn Commerce MCP Server
   slug: sovrn-commerce-mcp-server
+- description: The Account API from Sovrn — 1 operation(s) for account.
+  name: Sovrn Account API
+  slug: sovrn-account-api
+- description: The Ai Orchestration API from Sovrn — 1 operation(s) for ai orchestration.
+  name: Sovrn Ai Orchestration API
+  slug: sovrn-ai-orchestration-api
+- description: The Bid API from Sovrn — 1 operation(s) for bid.
+  name: Sovrn Bid API
+  slug: sovrn-bid-api
+- description: The Link API from Sovrn — 1 operation(s) for link.
+  name: Sovrn Link API
+  slug: sovrn-link-api
+- description: The Merchant Group Summaries API from Sovrn — 2 operation(s) for merchant group summaries.
+  name: Sovrn Merchant Group Summaries API
+  slug: sovrn-merchant-group-summaries-api
+- description: The Product Coupons API from Sovrn — 1 operation(s) for product coupons.
+  name: Sovrn Product Coupons API
+  slug: sovrn-product-coupons-api
+- description: The reporting API from Sovrn — 1 operation(s) for reporting.
+  name: Sovrn Reporting API
+  slug: sovrn-reporting-api
+- description: The reports API from Sovrn — 8 operation(s) for reports.
+  name: Sovrn Reports API
+  slug: sovrn-reports-api
+- description: The Sites API from Sovrn — 1 operation(s) for sites.
+  name: Sovrn Sites API
+  slug: sovrn-sites-api
 artifact_total: 26
 collections:
 - collection_type: open
@@ -98,6 +98,42 @@ collections:
   name: Sovrn Commerce Product Recommendation API
   slug: open-sovrn-product-recommendations
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sovrn-commerce-link-check-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sovrn-commerce-bid-check-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sovrn-commerce-campaigns-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sovrn-commerce-reports-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sovrn-merchant-summaries-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sovrn-product-recommendations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sovrn-price-comparisons-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sovrn-product-coupons-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sovrn-advertising-reporting-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -238,10 +274,10 @@ modified: '2026-08-12'
 name: Sovrn
 nav: Providers
 network: true
-overview: 'Sovrn publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Commerce Link Check API, Commerce Bid Check API, Commerce Campaigns API, and 6 more. Tagged areas include Company, AdTech, Advertising, Monetization, and Affiliate Marketing.
+overview: 'Sovrn publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Ai Orchestration API, Bid API, and 6 more. Tagged areas include Company, Adtech, Advertising, Monetization, and Affiliate Marketing.
 
 
-  Sovrn''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 24 more developer resources.'
+  Sovrn''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 33 more developer resources.'
 plans:
 - name: Sovrn Plans Pricing
   plan_count: 0
@@ -253,18 +289,23 @@ rate_limits:
   slug: sovrn-rate-limits
 score:
   band: developing
-  composite: 50.0
-  delta: 0.7
+  composite: 48.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 16.7
-    contract_quality: 54.5
+    contract_governance: 4.5
+    contract_quality: 56.0
     developer_ergonomics: 54.2
     discoverability: 92.6
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 49.3
+  previous_composite: 48.9
   provenance:
     conformance: derived
     contracts:
@@ -274,8 +315,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/screenshots/sovrn-2026-08-17T082014.png
 security:
@@ -294,7 +335,7 @@ security:
 slug: sovrn
 tags:
 - Company
-- AdTech
+- Adtech
 - Advertising
 - Monetization
 - Affiliate Marketing
@@ -304,6 +345,6 @@ tags:
 - Data
 - Reporting
 - Product Data
-- agent-native
+- Agent Native
 website: https://www.sovrn.com
 ---

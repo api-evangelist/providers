@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: bird-agentic-access
   summary_line: 16 operations · 6 acting
-api_count: 10
+api_count: 6
 apis:
 - description: Sync customer data from multiple sources in real time to build a 360-degree customer view. Manage contacts, lists, segmentation, and profile enrichment programmatically.
   name: Bird Customer Data API
@@ -74,7 +74,25 @@ apis:
 - description: MessageBird’s SMS API allows you to send and receive SMS messages to and from any country in the world through a REST API. Each message is identified by a unique random ID so that users can always che
   name: Bird SMS Messaging API
   slug: bird-sms-messaging-api
-artifact_total: 38
+- description: Manage workspace channels and channel media.
+  name: Bird Channels API
+  slug: bird-channels-api
+- description: Manage workspace contacts and lists.
+  name: Bird Contacts API
+  slug: bird-contacts-api
+- description: Manage threaded omnichannel conversations.
+  name: Bird Conversations API
+  slug: bird-conversations-api
+- description: Predecessor MessageBird REST API (rest.messagebird.com).
+  name: Bird Legacy MessageBird API
+  slug: bird-legacy-messagebird-api
+- description: Send and receive messages across channels.
+  name: Bird Messaging API
+  slug: bird-messaging-api
+- description: Discover, purchase, and manage phone numbers.
+  name: Bird Numbers API
+  slug: bird-numbers-api
+artifact_total: 44
 collections:
 - collection_type: open
   name: API Collection
@@ -116,6 +134,10 @@ collections:
   name: Bird FAQ SMS Messaging API
   slug: open-bird-sms-messaging-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bird-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -218,13 +240,13 @@ modified: '2026-08-08'
 name: Bird
 nav: Providers
 network: true
-overview: 'Bird publishes 5 APIs on the [APIs.io](https://apis.io/) network, including FAQ API, Intent API, LanguageDetection API, and 2 more. Tagged areas include Communications, SMS, Email, WhatsApp, and Voice.
+overview: 'Bird publishes 11 APIs on the [APIs.io](https://apis.io/) network, including FAQ API, Intent API, LanguageDetection API, and 8 more. Tagged areas include Communications, SMS, Email, WhatsApp, and Voice.
 
 
   The Bird catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Bird''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
+  Bird''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
 plans:
 - name: Bird Plans Pricing
   plan_count: 3
@@ -247,18 +269,23 @@ rules:
   slug: bird-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.2
+  composite: 43.2
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 9.8
-    contract_quality: 62.0
+    contract_quality: 58.0
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 18.4
-  previous_composite: 44.2
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -272,8 +299,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 38.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bird/refs/heads/main/screenshots/bird-2026-06-20T173301.png
 security:

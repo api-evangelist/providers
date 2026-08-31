@@ -11,10 +11,10 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -23,9 +23,9 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-26'
+  score: 45.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 81
   slug: oracle-cloud-agentic-access
   summary_line: 81 operations · 42 acting · 2 human-in-the-loop
-api_count: 25
+api_count: 9
 apis:
 - description: The Alarms API from Oracle Cloud Infrastructure — 2 operation(s) for alarms.
   name: Oracle Cloud Infrastructure Alarms API
@@ -174,7 +174,11 @@ arazzos:
 - description: List subnets in a VCN, delete the first subnet, then delete the VCN itself.
   name: Oracle Cloud Teardown VCN Network
   slug: oracle-cloud-teardown-vcn-network-workflow
-artifact_total: 460
+artifact_total: 464
+asyncapis:
+- description: ''
+  name: Oracle Cloud Events Webhooks
+  slug: oracle-cloud-events-webhooks
 collections:
 - collection_type: postman
   name: Oracle Cloud Compute API
@@ -279,6 +283,30 @@ collections:
   name: Oracle Cloud Compute Alarms Volume Attachments API
   slug: open-oracle-cloud-volume-attachments-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.oracle.com/cloud/
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/oracle/oci-cli/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/oracle/oci-cli/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/oracle/oci-cli/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/oracle/oci-cli/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/oracle/oci-cli/blob/master/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -375,10 +403,6 @@ common:
   title: ''
   type: Portal
   url: https://cloud.oracle.com/
-- group: start
-  title: ''
-  type: Console
-  url: https://console.oracle.com/
 - group: docs
   title: ''
   type: Documentation
@@ -435,10 +459,6 @@ common:
   title: ''
   type: Signup
   url: https://www.oracle.com/cloud/free/
-- group: learn
-  title: ''
-  type: Training
-  url: https://www.oracle.com/cloud/training/
 - group: operate
   title: ''
   type: ChangeLog
@@ -623,8 +643,168 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/oracle-cloud-monitoring-alarm-context.jsonld
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/oracle-cloud-core-services-openapi.yaml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/oracle-cloud-identity-openapi.yaml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/oracle-cloud-object-storage-openapi.yaml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/oracle-cloud-database-openapi.yaml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/oracle-cloud-kubernetes-engine-openapi.yaml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/oracle-cloud-monitoring-openapi.yaml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/oracle-cloud-functions-openapi.yaml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/oracle-cloud-events-openapi.yaml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/oracle-cloud-notifications-openapi.yaml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.oracle.com/en-us/iaas/api/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.oracle.com/cloud/free/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/oracle-cloud-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/oracle-cloud-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/oracle-cloud-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/oracle-cloud-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/oracle-cloud-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/oracle-cloud-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/oracle-cloud-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/oracle-cloud-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/oracle-cloud-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/oracle-cloud-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/oracle-cloud-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/oracle-cloud-cli.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/oracle-cloud-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/oracle-cloud-events-webhooks.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/oracle-cloud-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/oracle-cloud-conformance.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/oracle-cloud-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/oracle-cloud-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/oracle-cloud-trust-center.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-cloud-core-services-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-cloud-identity-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-cloud-object-storage-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-cloud-database-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-cloud-kubernetes-engine-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-cloud-monitoring-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-cloud-functions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-cloud-events-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-cloud-notifications-overlay.yaml
 created: '2024-01-01'
-description: Collection of Oracle Cloud Infrastructure (OCI) REST APIs for managing cloud resources and services.
+description: Oracle Cloud Infrastructure (OCI) is Oracle's public cloud, exposed as a REST control plane of 159 service APIs covering compute, virtual cloud networking, block and object storage, identity and access management, Autonomous Database, Kubernetes Engine, Functions, monitoring, events and notifications. Every request is signed with an RSA API signing key rather than a bearer token, every service is versioned by a YYYYMMDD segment in the URL path, and Oracle publishes a first-party Swagger 2.0 contract for each service from a single machine-readable index at docs.oracle.com/en-us/iaas/api/specs/. Client SDKs ship for Python, Java, TypeScript, Go, Ruby, .NET and PowerShell alongside the OCI CLI, a Terraform provider, and a repository of 27 reference MCP servers for agent access.
 examples:
 - key_count: 5
   name: Compute Attach Volume Details Example
@@ -1742,24 +1922,28 @@ jsonld:
   property_count: 2
   slug: oracle-cloud-oke-update-context
 layout: provider
-modified: '2026-04-18'
+mcp_servers:
+- description: Oracle publishes a first-party MCP monorepo at github.com/oracle/mcp containing 32 MCP servers, 27 of which target Oracle Cloud Infrastructure. Two are general-purpose entry points — oci-cloud-mcp-ser
+  name: Oracle MCP Servers for OCI
+  slug: oracle-mcp-servers-for-oci
+modified: '2026-08-29'
 name: Oracle Cloud Infrastructure
 nav: Providers
 network: true
-overview: 'Oracle Cloud Infrastructure publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Applications API, Autonomous Databases API, and 22 more. Tagged areas include Cloud Computing, Enterprise Cloud, Infrastructure-as-a-Service, Oracle, and Platform-as-a-Service.
+overview: 'Oracle Cloud Infrastructure publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Applications API, Autonomous Databases API, and 22 more. Tagged areas include Cloud Computing, Enterprise Cloud, Infrastructure as a Service, Oracle, and Platform-as-a-Service.
 
 
-  The Oracle Cloud Infrastructure catalog on APIs.io includes 34 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Oracle Cloud Infrastructure catalog on APIs.io includes 1 event-driven AsyncAPI specification, 34 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Oracle Cloud Infrastructure''s developer surface includes authentication, developer portal, developer console, documentation, CLI, support, pricing, and 79 more developer resources.'
+  Oracle Cloud Infrastructure''s developer surface includes authentication, developer portal, documentation, CLI, support, pricing, getting-started guide, and 123 more developer resources.'
 plans:
 - name: Oracle Cloud Plans Pricing
-  plan_count: 6
+  plan_count: 4
   slug: oracle-cloud-plans-pricing
 random_paper: 13
 rate_limits:
-- limit_count: 3
+- limit_count: 0
   name: Oracle Cloud Rate Limits
   slug: oracle-cloud-rate-limits
 rules:
@@ -1785,19 +1969,27 @@ rules:
     warn: 12
   slug: oracle-cloud-spectral-rules
 score:
-  band: developing
-  composite: 52.0
-  delta: 0.7
+  band: exemplar
+  composite: 69.1
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 60.5
-    commercial_clarity: 60.5
-    contract_governance: 28.8
-    contract_quality: 34.5
-    developer_ergonomics: 82.1
-    discoverability: 59.3
-    governance: 28.8
-    operational_transparency: 42.1
-  previous_composite: 51.3
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 47.0
+    contract_quality: 42.9
+    developer_ergonomics: 92.9
+    discoverability: 75.9
+    governance: 47.0
+    operational_transparency: 60.5
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 69.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1805,26 +1997,42 @@ score:
       derived: 25
       marker_coverage: 100.0
       total: 25
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/screenshots/oracle-cloud-2026-06-20T191120.png
 security:
 - kind: authentication
   name: Oracle Cloud Authentication
   slug: oracle-cloud-authentication
-  summary_line: http · 1 scheme
+  summary_line: http-signature · 1 scheme
 - kind: domain-security
   name: Oracle Cloud Domain Security
   slug: oracle-cloud-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Oracle Cloud Vulnerability Disclosure
+  slug: oracle-cloud-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Oracle Cloud Trust Center
+  slug: oracle-cloud-trust-center
+  summary_line: SOC 1, SOC 2, SOC 3, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO/IEC 27701, PCI DSS, HIPAA, HITRUST, FedRAMP, DoD Impact Levels, CJIS, ITAR, IRAP, C5, ENS, HDS, G-Cloud / Cyber Essentials, ISMAP, K-ISMS, MTCS, TISAX, CSA STAR, CSA AI STAR, GDPR, NIST
 slug: oracle-cloud
 tags:
 - Cloud Computing
 - Enterprise Cloud
-- Infrastructure-as-a-Service
+- Infrastructure as a Service
 - Oracle
 - Platform-as-a-Service
+- Compute
+- Object Storage
+- Identity and Access Management
+- Database
+- Kubernetes
+- Serverless
+- Monitoring
+- Event Driven
 use_cases:
 - description: Migrate on-premises workloads to OCI with tools for assessment, planning, and execution
   name: Cloud Migration
@@ -1846,5 +2054,5 @@ use_cases:
   name: IoT and Edge Computing
 - description: Connect OCI with AWS, Azure, and Google Cloud using FastConnect and partnerships
   name: Multi-Cloud Networking
-website: https://cloud.oracle.com/
+website: https://www.oracle.com/cloud/
 ---

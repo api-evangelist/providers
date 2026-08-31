@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 48
   slug: neon-commerce-agentic-access
   summary_line: 48 operations · 28 acting
-api_count: 13
+api_count: 10
 apis:
 - description: The Account API from Neon Commerce — 2 operation(s) for account.
   name: Neon Commerce Account API
@@ -131,6 +131,10 @@ collections:
   name: Account Subscriptions API
   slug: open-neon-commerce-subscriptions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/neon-commerce-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -285,22 +289,27 @@ overview: 'Neon Commerce publishes 13 APIs on the [APIs.io](https://apis.io/) ne
   The Neon Commerce catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Neon Commerce''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
+  Neon Commerce''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
 random_paper: 18
 score:
-  band: strong
-  composite: 55.4
+  band: developing
+  composite: 53.9
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
-    contract_quality: 62.7
+    contract_governance: 4.5
+    contract_quality: 62.4
     developer_ergonomics: 64.9
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 55.4
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -317,8 +326,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neon-commerce/refs/heads/main/screenshots/neon-commerce-2026-08-17T082605.png
 security:

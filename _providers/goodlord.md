@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-26'
+  score: 34.7
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -33,16 +33,52 @@ agentic_access:
   summary_line: 65 operations · 36 acting
 api_count: 3
 apis:
-- description: Goodlord's public Referencing API — the production surface of the Referencing Product listed in the public catalogue of the Goodlord Developer Portal. It lets a lettings agency's own system create ren
-  name: Goodlord Referencing API
-  slug: goodlord-referencing-api
-- description: The sandbox environment of the Goodlord Referencing Product, published as a separate entry in the developer portal's public catalogue and carrying its own OpenAPI 3.1.0 document with the sandbox serve
-  name: Goodlord Referencing API (Sandbox)
-  slug: goodlord-referencing-api-sandbox
-- description: A second real Goodlord API surface, discovered outside the developer portal. The Goodlord Insurance App is an API Platform (Symfony) service whose OpenAPI 3.1.0 document is served publicly and unauthe
-  name: Goodlord Insurance App API
-  slug: goodlord-insurance-app-api
-artifact_total: 13
+- description: Resource 'Agent' operations.
+  name: Goodlord Agent API
+  slug: goodlord-agent-api
+- description: An application contains rental information and all of the applicants/guarantors which are applying for a tenancy.
+  name: Goodlord Application API
+  slug: goodlord-application-api
+- description: Authentication operations
+  name: Goodlord Authentication API
+  slug: goodlord-authentication-api
+- description: Resource 'Company' operations.
+  name: Goodlord Company API
+  slug: goodlord-company-api
+- description: Resource 'File' operations.
+  name: Goodlord File API
+  slug: goodlord-file-api
+- description: Resource 'InsuranceClaim' operations.
+  name: Goodlord Insurance Claim API
+  slug: goodlord-insuranceclaim-api
+- description: Operations which are concerned around retrieving files
+  name: Goodlord Media API
+  slug: goodlord-media-api
+- description: Resource 'Payment' operations.
+  name: Goodlord Payment API
+  slug: goodlord-payment-api
+- description: Resource 'RentSchedule' operations.
+  name: Goodlord Rent Schedule API
+  slug: goodlord-rentschedule-api
+- description: Resource 'RentScheduleRow' operations.
+  name: Goodlord Rent Schedule Row API
+  slug: goodlord-rentschedulerow-api
+- description: Resource 'RentScheduleRowPostDto' operations.
+  name: Goodlord Rent Schedule Row Post Dto API
+  slug: goodlord-rentschedulerowpostdto-api
+- description: Resource 'RentScheduleRowUpdate' operations.
+  name: Goodlord Rent Schedule Row Update API
+  slug: goodlord-rentschedulerowupdate-api
+- description: Resource 'Role' operations.
+  name: Goodlord Role API
+  slug: goodlord-role-api
+- description: Resource 'RoleGroup' operations.
+  name: Goodlord Role Group API
+  slug: goodlord-rolegroup-api
+- description: A person who exists on an application.
+  name: Goodlord Subject API
+  slug: goodlord-subject-api
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Goodlord Referencing Webhooks
@@ -58,6 +94,22 @@ collections:
   name: Referencing API
   slug: open-goodlord-referencing-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/goodlord-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/goodlord-referencing-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/goodlord-referencing-api-sandbox-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/goodlord-insurance-app-api-overlay.yaml
 - group: design
   title: ''
   type: Conventions
@@ -215,13 +267,13 @@ modified: '2026-07-26'
 name: Goodlord
 nav: Providers
 network: true
-overview: 'Goodlord publishes 3 APIs on the [APIs.io](https://apis.io/) network: Referencing API, Referencing API (Sandbox), and Insurance App API. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Management, and Rentals.
+overview: 'Goodlord publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Application API, Authentication API, and 12 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Management, and Rentals.
 
 
   The Goodlord catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Goodlord''s developer surface includes sandbox, API reference, getting-started guide, support, authentication, documentation, engineering blog, and 29 more developer resources.'
+  Goodlord''s developer surface includes sandbox, API reference, getting-started guide, support, authentication, documentation, engineering blog, and 33 more developer resources.'
 random_paper: 18
 scopes:
 - name: Goodlord Scopes
@@ -230,18 +282,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 61.3
-  delta: -0.4
+  composite: 58.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
-    contract_quality: 68.3
+    contract_governance: 4.5
+    contract_quality: 67.0
     developer_ergonomics: 66.1
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 74.1
+    governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 61.7
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,12 +311,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodlord/refs/heads/main/screenshots/goodlord-2026-08-07T165804.png
 security:

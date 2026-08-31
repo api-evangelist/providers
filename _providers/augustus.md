@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 37
   slug: augustus-agentic-access
   summary_line: 37 operations · 12 acting · 12 human-in-the-loop
-api_count: 14
+api_count: 1
 apis:
 - description: The 2023-01-01 Ivy API for Open Banking pay-ins and Manual Bank Transfer. Checkout sessions, orders, customers, refunds, banks, capabilities, and beneficiary payouts. Existing Ivy customers keep using
   name: Ivy API (Open Banking)
@@ -85,7 +85,10 @@ apis:
 - description: The Webhook Subscriptions API from Augustus — 3 operation(s) for webhook subscriptions.
   name: Augustus Webhook Subscriptions API
   slug: augustus-webhook-subscriptions-api
-artifact_total: 34
+- description: The Webhook Events API from Augustus — 0 operation(s) for webhook events.
+  name: Augustus Webhook Events API
+  slug: augustus-webhook-events-api
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Augustus Webhooks
@@ -134,6 +137,10 @@ collections:
   name: Augustus Banking Account Programs Webhook Subscriptions API
   slug: open-augustus-webhook-subscriptions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/augustus-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -278,13 +285,13 @@ modified: '2026-07-18'
 name: Augustus
 nav: Providers
 network: true
-overview: 'Augustus publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account Programs API, Accounts API, API Key API, and 10 more. Tagged areas include Company, Fintech, Payments, Banking, and Open Banking.
+overview: 'Augustus publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account Programs API, Accounts API, API Key API, and 11 more. Tagged areas include Company, Fintech, Payments, Banking, and Open Banking.
 
 
   The Augustus catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Augustus'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, sandbox, and 26 more developer resources.'
+  Augustus'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, sandbox, and 27 more developer resources.'
 random_paper: 15
 scopes:
 - name: Augustus Scopes
@@ -293,18 +300,23 @@ scopes:
   summary_line: 16 scopes
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 48.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
-    contract_quality: 62.2
+    contract_governance: 4.5
+    contract_quality: 61.2
     developer_ergonomics: 70.8
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 50.8
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -321,8 +333,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/screenshots/augustus-2026-07-25T201725.png
 security:
@@ -341,7 +353,7 @@ tags:
 - Payments
 - Banking
 - Open Banking
-- Stablecoins
+- Stablecoin
 - Payouts
 - Foreign Exchange
 - Webhook

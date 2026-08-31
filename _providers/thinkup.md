@@ -32,10 +32,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/ThinkUpLLC/ThinkUp/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/ThinkUpLLC/ThinkUp/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/ThinkUpLLC/ThinkUp/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -59,8 +71,13 @@ network: true
 overview: ThinkUp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Social-Media, Social Media Analytics, and Open-Source.
 random_paper: 15
 score:
-  band: minimal
-  composite: 5.3
+  band: emerging
+  composite: 11.7
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -70,7 +87,7 @@ score:
     developer_ergonomics: 0.0
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 2.6
+    operational_transparency: 18.4
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
@@ -79,9 +96,12 @@ score:
       reason: no_resolvable_host
     - owner: catalog
       reason: never_enriched
-  previous_composite: 5.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 11.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: thinkup
 tags:

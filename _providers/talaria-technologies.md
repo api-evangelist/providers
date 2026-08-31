@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/google/
 created: '2026-07-17'
 description: Talaria Technologies, Inc. was a developer-tools startup based in Palo Alto, California, founded in 2011, that built a dynamic web application server and runtime infrastructure for web developers — notably a just-in-time (JIT) compiler and runtime for PHP intended to help developers build and run websites more efficiently. It was surfaced as an Andreessen Horowitz (a16z) portfolio/investment-list company. Per public company-intelligence sources (indexed.vc, PrivCo, Bloomberg, CB Insights), Talaria was acquired by Google in 2013 and ceased operating as an independent company; it maintains no active website, developer portal, or public API surface today.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/talaria-technologies.png
@@ -48,6 +53,11 @@ random_paper: 5
 score:
   band: minimal
   composite: 5.0
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -67,8 +77,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: talaria-technologies
 tags:

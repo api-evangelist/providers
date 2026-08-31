@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 9
 apis:
 - description: Juvenescence's news stream — 57 published posts across Press Releases, In the News, Juv on the Road, Publications and Videos — read from the WordPress REST content API behind juvlabs.com.
@@ -204,7 +204,7 @@ modified: '2026-08-23'
 name: Juvenescence
 nav: Providers
 network: true
-overview: 'Juvenescence publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 6 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Longevity, and Drug Discovery.
+overview: 'Juvenescence publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 6 more. Tagged areas include Company, biotechnology, pharmaceuticals, longevity, and drug-discovery.
 
 
   Juvenescence''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 30 more developer resources.'
@@ -219,18 +219,23 @@ rate_limits:
   slug: juvenescence-rate-limits
 score:
   band: developing
-  composite: 41.9
-  delta: -0.3
+  composite: 40.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 54.9
     developer_ergonomics: 44.6
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 42.2
+  previous_composite: 40.4
   provenance:
     conformance: derived
     contracts:
@@ -246,8 +251,8 @@ score:
     regime: Health
     regime_id: health
     score: 48.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -261,14 +266,14 @@ security:
 slug: juvenescence
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Longevity
-- Drug Discovery
-- Life Sciences
-- Clinical Trials
-- Artificial Intelligence
-- Aging
+- biotechnology
+- pharmaceuticals
+- longevity
+- drug-discovery
+- life-sciences
+- clinical-trials
+- artificial-intelligence
+- aging
 - content-api
 website: https://juvlabs.com/
 ---

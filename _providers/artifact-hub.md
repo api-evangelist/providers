@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 58
   slug: artifact-hub-agentic-access
   summary_line: 58 operations · 30 acting · 2 human-in-the-loop
-api_count: 10
+api_count: 1
 apis:
 - description: The Artifact Hub REST API provides endpoints for searching and retrieving cloud-native packages across all supported artifact types, managing repositories, handling user authentication and sessions, m
   name: Artifact Hub API
@@ -218,19 +218,27 @@ rate_limits:
   name: Artifact Hub Rate Limits
   slug: artifact-hub-rate-limits
 score:
-  band: thin
-  composite: 37.1
-  delta: 0.0
+  band: developing
+  composite: 43.6
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 5.8
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 55.9
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.1
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -238,9 +246,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/screenshots/artifact-hub-2026-06-20T172443.png
 security:
 - kind: authentication

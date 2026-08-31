@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 5
   slug: routerplex-agentic-access
   summary_line: 5 operations · 4 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The Chat API from RouterPlex — 1 operation(s) for chat.
   name: RouterPlex Chat API
@@ -229,7 +229,7 @@ modified: '2026-08-09'
 name: RouterPlex
 nav: Providers
 network: true
-overview: 'RouterPlex publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Images API, Messages API, and 2 more. Tagged areas include LLM, Artificial Intelligence, AI Gateway, Inference, and Model Router.
+overview: 'RouterPlex publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Images API, Messages API, and 2 more. Tagged areas include llm, Artificial Intelligence, ai-gateway, Inference, and model-router.
 
 
   RouterPlex''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
@@ -244,18 +244,23 @@ rate_limits:
   slug: routerplex-rate-limits
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 45.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 53.9
     developer_ergonomics: 36.3
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 87.0
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 47.2
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,8 +271,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/routerplex/refs/heads/main/screenshots/routerplex-2026-08-17T081643.png
 security:
@@ -281,20 +286,20 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: routerplex
 tags:
-- LLM
+- llm
 - Artificial Intelligence
-- AI Gateway
+- ai-gateway
 - Inference
-- Model Router
-- OpenAI-Compatible
-- Anthropic Compatible
-- Claude
-- GPT
-- Gemini
-- API Gateway
-- Agent Infrastructure
+- model-router
+- openai-compatible
+- anthropic-compatible
+- claude
+- gpt
+- gemini
+- api-gateway
+- agent-infrastructure
 - Developer Tools
 - MCP
-- LLMOps
+- llmops
 website: https://routerplex.com
 ---

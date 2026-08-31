@@ -23,14 +23,39 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: Public REST API for Skore Hub, Probabl's hosted collaboration platform for machine-learning experiments. Covers identity (OAuth authorization-code and device flows, token refresh, user profile, per-wo
-  name: Skore Hub API
-  slug: skore-hub-api
-artifact_total: 3
+- description: The Anthropic Compatible Agent API from Probabl — 1 operation(s) for anthropic compatible agent.
+  name: Probabl Anthropic Compatible Agent API
+  slug: probabl-anthropic-compatible-agent-api
+- description: The Health API from Probabl — 1 operation(s) for health.
+  name: Probabl Health API
+  slug: probabl-health-api
+- description: The identity API from Probabl — 22 operation(s) for identity.
+  name: Probabl Identity API
+  slug: probabl-identity-api
+- description: The Liveness API from Probabl — 1 operation(s) for liveness.
+  name: Probabl Liveness API
+  slug: probabl-liveness-api
+- description: The LLM Provider API from Probabl — 3 operation(s) for llm provider.
+  name: Probabl LLM Provider API
+  slug: probabl-llm-provider-api
+- description: The OpenAI Compatible Agent API from Probabl — 3 operation(s) for openai compatible agent.
+  name: Probabl OpenAI Compatible Agent API
+  slug: probabl-openai-compatible-agent-api
+- description: The projects API from Probabl — 19 operation(s) for projects.
+  name: Probabl Projects API
+  slug: probabl-projects-api
+- description: The Readiness API from Probabl — 1 operation(s) for readiness.
+  name: Probabl Readiness API
+  slug: probabl-readiness-api
+artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/probabl-skore-hub-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -128,28 +153,33 @@ modified: '2026-08-17'
 name: Probabl
 nav: Providers
 network: true
-overview: 'Probabl publishes 1 API on the [APIs.io](https://apis.io/) network: Skore Hub API. Tagged areas include Company, Open-Source, Machine-Learning, Data Science, and scikit-learn.
+overview: 'Probabl publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Anthropic Compatible Agent API, Health API, Identity API, and 5 more. Tagged areas include Company, Open-Source, machine-learning, data-science, and scikit-learn.
 
 
-  Probabl''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, CLI, and 14 more developer resources.'
+  Probabl''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, CLI, and 15 more developer resources.'
 random_paper: 3
 score:
   band: developing
-  composite: 43.0
-  delta: 5.2
+  composite: 39.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 12.1
-    contract_quality: 48.0
+    contract_governance: 0.0
+    contract_quality: 46.4
     developer_ergonomics: 71.4
-    discoverability: 87.0
-    governance: 12.1
+    discoverability: 68.5
+    governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 37.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  previous_composite: 39.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: domain-security
   name: Probabl Domain Security
@@ -159,15 +189,15 @@ slug: probabl
 tags:
 - Company
 - Open-Source
-- Machine-Learning
-- Data Science
+- machine-learning
+- data-science
 - scikit-learn
-- MLOps
-- Model Evaluation
-- Experiment Tracking
-- Agent Skills
-- Artificial Intelligence
-- Python
-- France
+- mlops
+- model-evaluation
+- experiment-tracking
+- agent-skills
+- artificial-intelligence
+- python
+- france
 website: https://probabl.ai/
 ---

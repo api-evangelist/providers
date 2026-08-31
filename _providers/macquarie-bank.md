@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 19
   slug: macquarie-bank-agentic-access
   summary_line: 19 operations · 3 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Macquarie's connectivity / data APIs for business, documented through the registered Macquarie developer portal, let approved businesses and software partners automate account information retrieval an
   name: Macquarie Connectivity & Data API
@@ -97,6 +97,10 @@ collections:
   name: CDR Banking Banking Account Balances Banking Products API
   slug: open-macquarie-bank-banking-products-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/macquarie-bank-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -228,7 +232,7 @@ network: true
 overview: 'Macquarie Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Data Right.
 
 
-  Macquarie Bank''s developer surface includes authentication, sandbox, documentation, support, API reference, signup flow, and 23 more developer resources.'
+  Macquarie Bank''s developer surface includes authentication, sandbox, documentation, support, API reference, signup flow, and 24 more developer resources.'
 random_paper: 2
 scopes:
 - name: Macquarie Bank Scopes
@@ -237,18 +241,23 @@ scopes:
   summary_line: 10 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.9
-  delta: 0.0
+  composite: 42.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 49.7
     developer_ergonomics: 51.8
-    discoverability: 64.8
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 43.9
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -265,8 +274,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 64.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macquarie-bank/refs/heads/main/screenshots/macquarie-bank-2026-07-21T130910.png
 security:

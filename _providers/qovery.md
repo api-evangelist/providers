@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 271
   human_in_the_loop: 23
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 508
   slug: qovery-agentic-access
   summary_line: 508 operations · 271 acting · 23 human-in-the-loop
-api_count: 94
+api_count: 1
 apis:
 - description: The Account Info API from Qovery — 1 operation(s) for account info.
   name: Qovery Account Info API
@@ -614,6 +614,10 @@ collections:
   name: Qovery Account Info Variable Main Calls API
   slug: open-qovery-variable-main-calls-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/qovery-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -729,7 +733,7 @@ network: true
 overview: 'Qovery publishes 94 APIs on the [APIs.io](https://apis.io/) network, including Account Info API, Alert Receivers API, Alert Rules API, and 91 more. Tagged areas include Cloud Deployment, Developer Experience, and Internal Developer Platform.
 
 
-  Qovery''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, changelog, support, and 18 more developer resources.'
+  Qovery''s developer surface includes authentication, documentation, developer portal, pricing, engineering blog, changelog, support, and 19 more developer resources.'
 plans:
 - name: Qovery Plans Pricing
   plan_count: 3
@@ -741,18 +745,23 @@ rate_limits:
   slug: qovery-rate-limits
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 33.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 92.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 58.5
     developer_ergonomics: 40.5
-    discoverability: 50.0
+    discoverability: 25.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 35.9
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -760,8 +769,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 94
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qovery/refs/heads/main/screenshots/qovery-2026-06-20T192353.png
 security:

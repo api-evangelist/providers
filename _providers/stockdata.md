@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: stockdata-agentic-access
   summary_line: 16 operations
-api_count: 3
+api_count: 1
 apis:
 - description: Entity search and metadata
   name: StockData Entities API
@@ -299,18 +299,23 @@ rules:
   slug: stockdata-rules
 score:
   band: strong
-  composite: 63.4
-  delta: 0.0
+  composite: 61.4
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 64.6
     developer_ergonomics: 61.3
-    discoverability: 74.1
-    governance: 45.5
+    discoverability: 68.5
+    governance: 33.3
     operational_transparency: 31.6
-  previous_composite: 63.4
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,8 +332,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/screenshots/stockdata-2026-06-20T194552.png
 security:

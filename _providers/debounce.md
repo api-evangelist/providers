@@ -13,7 +13,7 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 69.0
-  scored_at: '2026-08-26'
+  score: 62.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: debounce-agentic-access
   summary_line: 7 operations
-api_count: 6
+api_count: 3
 apis:
 - description: Real-time single email address validation. Returns a deliverability result (Safe to Send, Risky, Invalid, Unknown), a result code, role-account and free-provider flags, a did-you-mean typo suggestion,
   name: DeBounce Validation API
@@ -334,18 +334,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 72.5
-  delta: 0.7
+  composite: 69.9
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 22.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 55.3
+    contract_governance: 43.2
     contract_quality: 68.8
     developer_ergonomics: 69.0
-    discoverability: 92.6
-    governance: 55.3
+    discoverability: 81.5
+    governance: 43.2
     operational_transparency: 55.3
-  previous_composite: 71.8
+  previous_composite: 69.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -356,8 +361,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debounce/refs/heads/main/screenshots/debounce-2026-06-20T175751.png
 security:

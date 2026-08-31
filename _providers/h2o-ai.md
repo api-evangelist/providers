@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 259
   human_in_the_loop: 15
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 429
   slug: h2o-ai-agentic-access
   summary_line: 429 operations · 259 acting · 15 human-in-the-loop
-api_count: 26
+api_count: 2
 apis:
 - description: H2OGPTe MCP Server is H2O.ai's first-party Model Context Protocol server for Enterprise h2oGPTe. It runs locally over stdio and proxies traffic to the h2oGPTe REST API, generating one MCP tool per RES
   name: h2oGPTe MCP Server
@@ -348,18 +348,26 @@ overview: 'H2O.ai publishes 25 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 8
 score:
   band: developing
-  composite: 51.9
-  delta: 0.0
+  composite: 46.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.9
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 56.2
     developer_ergonomics: 70.8
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 51.9
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -370,8 +378,8 @@ score:
       total: 25
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/h2o-ai/refs/heads/main/screenshots/h2o-ai-2026-08-07T165917.png
 security:

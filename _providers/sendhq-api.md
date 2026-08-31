@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Resend-compatible REST API for transactional and inbound email, domains, templates, deliverability, and workspace administration. Base URL https://sendhq.cc/api/v1 with Bearer re_ API keys.
@@ -37,11 +37,17 @@ modified: '2026-08-24'
 name: SendHQ API
 nav: Providers
 network: true
-overview: 'SendHQ API publishes 1 API on the [APIs.io](https://apis.io/) network: SendHQ REST API. Tagged areas include email API, transactional email, inbound email, email deliverability, and developer tools.'
+overview: 'SendHQ API publishes 1 API on the [APIs.io](https://apis.io/) network: SendHQ REST API. Tagged areas include Email API, Transactional Email, Inbound Email, Email Deliverability, and Developer Tools.'
 random_paper: 15
 score:
   band: emerging
   composite: 14.5
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -51,15 +57,17 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 14.5
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 slug: sendhq-api
 tags:
-- email API
-- transactional email
-- inbound email
-- email deliverability
-- developer tools
-- AI infrastructure
-- agent-ready
+- Email API
+- Transactional Email
+- Inbound Email
+- Email Deliverability
+- Developer Tools
+- AI Infrastructure
+- Agent Ready
 ---

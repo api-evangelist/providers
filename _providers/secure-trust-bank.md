@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -33,24 +33,134 @@ agentic_access:
   summary_line: 86 operations · 20 acting
 api_count: 4
 apis:
-- description: The UK Open Banking Open Data API - a public, unauthenticated reference-data surface for ATMs, branches and product information (Personal Current Accounts, Business Current Accounts, Unsecured SME Loa
-  name: Secure Trust Bank Open Data API (OBIE Standard)
-  slug: open-data-api
-- description: The OBIE Read/Write Account and Transaction Information (AIS) API - FAPI-secured access to account, balance, transaction, standing order, direct debit and statement data with customer consent. FAPI-gr
-  name: Secure Trust Bank Account & Transaction Information API (OBIE Read/Write, AIS)
-  slug: account-transaction-information-api
-- description: 'The OBIE Read/Write Payment Initiation (PIS) API - FAPI-secured initiation of domestic, scheduled, standing-order, international and file payments on behalf of a consenting customer, with PSD2 strong '
-  name: Secure Trust Bank Payment Initiation API (OBIE Read/Write, PIS)
-  slug: payment-initiation-api
-- description: The OBIE Read/Write Confirmation of Funds (CBPII) API - FAPI-secured yes/no confirmation that funds are available on an account, for card-based payment instrument issuers, under PSD2 strong customer a
-  name: Secure Trust Bank Confirmation of Funds API (OBIE Read/Write, CBPII)
-  slug: confirmation-of-funds-api
-artifact_total: 10
+- description: The Account Access Consents API from Secure Trust Bank — 2 operation(s) for account access consents.
+  name: Secure Trust Bank Account Access Consents API
+  slug: secure-trust-bank-account-access-consents-api
+- description: The Accounts API from Secure Trust Bank — 2 operation(s) for accounts.
+  name: Secure Trust Bank Accounts API
+  slug: secure-trust-bank-accounts-api
+- description: Endpoint for getting ATM data
+  name: Secure Trust Bank ATM API
+  slug: secure-trust-bank-atm-api
+- description: The Balances API from Secure Trust Bank — 2 operation(s) for balances.
+  name: Secure Trust Bank Balances API
+  slug: secure-trust-bank-balances-api
+- description: Endpoint for getting Business Current Account data
+  name: Secure Trust Bank BCA API
+  slug: secure-trust-bank-bca-api
+- description: The Beneficiaries API from Secure Trust Bank — 2 operation(s) for beneficiaries.
+  name: Secure Trust Bank Beneficiaries API
+  slug: secure-trust-bank-beneficiaries-api
+- description: Endpoint for getting Branch data
+  name: Secure Trust Bank Branch API
+  slug: secure-trust-bank-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: Secure Trust Bank CCC API
+  slug: secure-trust-bank-ccc-api
+- description: The Direct Debits API from Secure Trust Bank — 2 operation(s) for direct debits.
+  name: Secure Trust Bank Direct Debits API
+  slug: secure-trust-bank-direct-debits-api
+- description: The Domestic Payment Consents API from Secure Trust Bank — 3 operation(s) for domestic payment consents.
+  name: Secure Trust Bank Domestic Payment Consents API
+  slug: secure-trust-bank-domestic-payment-consents-api
+- description: The Domestic Payments API from Secure Trust Bank — 3 operation(s) for domestic payments.
+  name: Secure Trust Bank Domestic Payments API
+  slug: secure-trust-bank-domestic-payments-api
+- description: The Domestic Scheduled Payment Consents API from Secure Trust Bank — 2 operation(s) for domestic scheduled payment consents.
+  name: Secure Trust Bank Domestic Scheduled Payment Consents API
+  slug: secure-trust-bank-domestic-scheduled-payment-consents-api
+- description: The Domestic Scheduled Payments API from Secure Trust Bank — 3 operation(s) for domestic scheduled payments.
+  name: Secure Trust Bank Domestic Scheduled Payments API
+  slug: secure-trust-bank-domestic-scheduled-payments-api
+- description: The Domestic Standing Order Consents API from Secure Trust Bank — 2 operation(s) for domestic standing order consents.
+  name: Secure Trust Bank Domestic Standing Order Consents API
+  slug: secure-trust-bank-domestic-standing-order-consents-api
+- description: The Domestic Standing Orders API from Secure Trust Bank — 3 operation(s) for domestic standing orders.
+  name: Secure Trust Bank Domestic Standing Orders API
+  slug: secure-trust-bank-domestic-standing-orders-api
+- description: The File Payment Consents API from Secure Trust Bank — 3 operation(s) for file payment consents.
+  name: Secure Trust Bank File Payment Consents API
+  slug: secure-trust-bank-file-payment-consents-api
+- description: The File Payments API from Secure Trust Bank — 4 operation(s) for file payments.
+  name: Secure Trust Bank File Payments API
+  slug: secure-trust-bank-file-payments-api
+- description: The Funds Confirmation Consents API from Secure Trust Bank — 2 operation(s) for funds confirmation consents.
+  name: Secure Trust Bank Funds Confirmation Consents API
+  slug: secure-trust-bank-funds-confirmation-consents-api
+- description: The Funds Confirmations API from Secure Trust Bank — 1 operation(s) for funds confirmations.
+  name: Secure Trust Bank Funds Confirmations API
+  slug: secure-trust-bank-funds-confirmations-api
+- description: The International Payment Consents API from Secure Trust Bank — 3 operation(s) for international payment consents.
+  name: Secure Trust Bank International Payment Consents API
+  slug: secure-trust-bank-international-payment-consents-api
+- description: The International Payments API from Secure Trust Bank — 3 operation(s) for international payments.
+  name: Secure Trust Bank International Payments API
+  slug: secure-trust-bank-international-payments-api
+- description: The International Scheduled Payments API from Secure Trust Bank — 3 operation(s) for international scheduled payments.
+  name: Secure Trust Bank International Scheduled Payments API
+  slug: secure-trust-bank-international-scheduled-payments-api
+- description: The International Scheduled Payments Consents API from Secure Trust Bank — 3 operation(s) for international scheduled payments consents.
+  name: Secure Trust Bank International Scheduled Payments Consents API
+  slug: secure-trust-bank-international-scheduled-payments-consents-api
+- description: The International Standing Orders API from Secure Trust Bank — 3 operation(s) for international standing orders.
+  name: Secure Trust Bank International Standing Orders API
+  slug: secure-trust-bank-international-standing-orders-api
+- description: The International Standing Orders Consents API from Secure Trust Bank — 2 operation(s) for international standing orders consents.
+  name: Secure Trust Bank International Standing Orders Consents API
+  slug: secure-trust-bank-international-standing-orders-consents-api
+- description: The Offers API from Secure Trust Bank — 2 operation(s) for offers.
+  name: Secure Trust Bank Offers API
+  slug: secure-trust-bank-offers-api
+- description: The Parties API from Secure Trust Bank — 3 operation(s) for parties.
+  name: Secure Trust Bank Parties API
+  slug: secure-trust-bank-parties-api
+- description: Endpoint for getting Personal Current Account data
+  name: Secure Trust Bank PCA API
+  slug: secure-trust-bank-pca-api
+- description: The Products API from Secure Trust Bank — 2 operation(s) for products.
+  name: Secure Trust Bank Products API
+  slug: secure-trust-bank-products-api
+- description: The Scheduled Payments API from Secure Trust Bank — 2 operation(s) for scheduled payments.
+  name: Secure Trust Bank Scheduled Payments API
+  slug: secure-trust-bank-scheduled-payments-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: Secure Trust Bank SME API
+  slug: secure-trust-bank-sme-api
+- description: The Standing Orders API from Secure Trust Bank — 2 operation(s) for standing orders.
+  name: Secure Trust Bank Standing Orders API
+  slug: secure-trust-bank-standing-orders-api
+- description: The Statements API from Secure Trust Bank — 5 operation(s) for statements.
+  name: Secure Trust Bank Statements API
+  slug: secure-trust-bank-statements-api
+- description: The Transactions API from Secure Trust Bank — 2 operation(s) for transactions.
+  name: Secure Trust Bank Transactions API
+  slug: secure-trust-bank-transactions-api
+artifact_total: 40
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-obie-open-data-standard
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/secure-trust-bank-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/secure-trust-bank-open-data-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/secure-trust-bank-account-info-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/secure-trust-bank-payment-initiation-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/secure-trust-bank-confirmation-of-funds-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -160,10 +270,10 @@ modified: '2026-07-23'
 name: Secure Trust Bank
 nav: Providers
 network: true
-overview: 'Secure Trust Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data API (OBIE Standard), Account & Transaction Information API (OBIE Read/Write, AIS), Payment Initiation API (OBIE Read/Write, PIS), and 1 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Secure Trust Bank publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 31 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  Secure Trust Bank''s developer surface includes authentication, engineering blog, support, and 21 more developer resources.'
+  Secure Trust Bank''s developer surface includes authentication, engineering blog, support, and 26 more developer resources.'
 random_paper: 5
 scopes:
 - name: Secure Trust Bank Scopes
@@ -172,18 +282,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 41.6
-  delta: 1.7
+  composite: 40.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 49.0
+    contract_governance: 4.5
+    contract_quality: 50.9
     developer_ergonomics: 37.5
     discoverability: 72.2
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 39.9
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -196,12 +311,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

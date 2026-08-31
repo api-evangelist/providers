@@ -23,16 +23,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 10
 apis:
-- description: The anonymously readable WordPress REST API that serves scimar.ca content as JSON — news stories, Science & Products and About pages, the media library, categories, tags, taxonomies, content-type disc
-  name: Scimar Content API (WordPress REST wp/v2)
-  slug: content
 - description: 'Two Model Context Protocol endpoints advertised in the scimar.ca WordPress REST route index under the "mcp" namespace — /wp-json/mcp/mcp-oauth-server and /wp-json/mcp/mcp-adapter-default-server. Both '
   name: Scimar MCP Server (WordPress MCP Adapter)
   slug: mcp
-artifact_total: 8
+- description: The Comments API from Scimar — 2 operation(s) for comments.
+  name: Scimar Comments API
+  slug: scimar-comments-api
+- description: The Discovery API from Scimar — 4 operation(s) for discovery.
+  name: Scimar Discovery API
+  slug: scimar-discovery-api
+- description: The Media API from Scimar — 4 operation(s) for media.
+  name: Scimar Media API
+  slug: scimar-media-api
+- description: The Pages API from Scimar — 6 operation(s) for pages.
+  name: Scimar Pages API
+  slug: scimar-pages-api
+- description: The Posts API from Scimar — 6 operation(s) for posts.
+  name: Scimar Posts API
+  slug: scimar-posts-api
+- description: The Search API from Scimar — 1 operation(s) for search.
+  name: Scimar Search API
+  slug: scimar-search-api
+- description: The Settings API from Scimar — 1 operation(s) for settings.
+  name: Scimar Settings API
+  slug: scimar-settings-api
+- description: The Taxonomy API from Scimar — 6 operation(s) for taxonomy.
+  name: Scimar Taxonomy API
+  slug: scimar-taxonomy-api
+- description: The Users API from Scimar — 6 operation(s) for users.
+  name: Scimar Users API
+  slug: scimar-users-api
+artifact_total: 16
 common:
 - group: company
   title: ''
@@ -175,7 +199,7 @@ modified: '2026-08-26'
 name: Scimar
 nav: Providers
 network: true
-overview: 'Scimar publishes 1 API on the [APIs.io](https://apis.io/) network: Content API (WordPress REST wp/v2). Tagged areas include Company, Biotechnology, Life Sciences, Pharmaceuticals, and Diabetes.
+overview: 'Scimar publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Discovery API, Media API, and 6 more. Tagged areas include Company, Biotechnology, Life Sciences, Pharmaceuticals, and Diabetes.
 
 
   Scimar''s developer surface includes engineering blog, product news, support, authentication, and 28 more developer resources.'
@@ -194,17 +218,24 @@ scopes:
   slug: scimar-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 27.5
+  band: emerging
+  composite: 25.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 13.3
+    contract_governance: 4.5
+    contract_quality: 13.2
     developer_ergonomics: 20.8
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 0.0
+  previous_composite: 25.4
   provenance:
     conformance: derived
     contracts:
@@ -220,8 +251,9 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Scimar Authentication

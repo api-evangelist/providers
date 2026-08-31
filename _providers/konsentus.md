@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 1
   slug: konsentus-agentic-access
   summary_line: 1 operation
-api_count: 3
+api_count: 1
 apis:
 - description: 'Managed service that maintains the up-to-date eIDAS certificate trust chain required to secure PSD2 Open Banking API traffic. Removes the burden of tracking EU trusted list updates, QTSP changes, and '
   name: Konsentus Certificate Chain Service API
@@ -201,15 +201,20 @@ overview: 'Konsentus publishes 1 API on the [APIs.io](https://apis.io/) network:
 random_paper: 15
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 37.1
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 57.8
     developer_ergonomics: 54.8
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 37.6
@@ -226,8 +231,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/konsentus/refs/heads/main/screenshots/konsentus-2026-06-20T184135.png
 security:

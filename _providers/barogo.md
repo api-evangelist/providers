@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 21
   slug: barogo-agentic-access
   summary_line: 21 operations · 14 acting
-api_count: 5
+api_count: 1
 apis:
 - description: 상점 배달 권역 / 불가 구역 / 할증 구역 조회
   name: Barogo Areas API
@@ -76,6 +76,10 @@ collections:
   name: Barogo Gorela Order Agency Stores API
   slug: open-barogo-stores-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/barogo-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -222,22 +226,27 @@ overview: 'Barogo publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Barogo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Barogo''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, product news, and 25 more developer resources.'
+  Barogo''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, product news, and 26 more developer resources.'
 random_paper: 4
 score:
-  band: developing
-  composite: 41.6
-  delta: 0.7
+  band: thin
+  composite: 38.5
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 70.1
     developer_ergonomics: 39.9
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 40.9
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,8 +257,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barogo/refs/heads/main/screenshots/barogo-2026-08-07T162156.png
 security:
@@ -268,7 +277,7 @@ tags:
 - Logistics
 - Last Mile Delivery
 - Food Delivery
-- Couriers
+- Courier
 - Fulfillment
 - Order
 - Webhook

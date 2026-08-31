@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 0
@@ -42,14 +42,86 @@ agentic_access:
   summary_line: 150 operations · 82 acting
 api_count: 2
 apis:
-- description: The publicly readable content API of the Advantage Solutions corporate site. youradv.com runs WordPress on WP Engine behind Cloudflare and serves the standard REST API at /wp-json/, advertising 219 ro
-  name: Advantage Solutions Corporate Content API (WordPress REST)
-  slug: youradv-content
-- description: The publicly readable content API of MRKT, described by its own discovery document as "MRKT | An Advantage Solutions Publication". mrktblog.com runs WordPress on WP Engine behind Cloudflare and serves
-  name: MRKT Blog Content API (WordPress REST)
-  slug: mrktblog-content
-artifact_total: 8
+- description: The advantage360-category API from Advantage Solutions — 2 operation(s) for advantage360-category.
+  name: Advantage Solutions Advantage360 Category API
+  slug: advantage-solutions-advantage360-category-api
+- description: The advantage360-reports API from Advantage Solutions — 2 operation(s) for advantage360-reports.
+  name: Advantage Solutions Advantage360 Reports API
+  slug: advantage-solutions-advantage360-reports-api
+- description: The blog-author API from Advantage Solutions — 2 operation(s) for blog-author.
+  name: Advantage Solutions Blog Author API
+  slug: advantage-solutions-blog-author-api
+- description: The categories API from Advantage Solutions — 2 operation(s) for categories.
+  name: Advantage Solutions Categories API
+  slug: advantage-solutions-categories-api
+- description: The comments API from Advantage Solutions — 2 operation(s) for comments.
+  name: Advantage Solutions Comments API
+  slug: advantage-solutions-comments-api
+- description: The director API from Advantage Solutions — 2 operation(s) for director.
+  name: Advantage Solutions Director API
+  slug: advantage-solutions-director-api
+- description: The event API from Advantage Solutions — 2 operation(s) for event.
+  name: Advantage Solutions Event API
+  slug: advantage-solutions-event-api
+- description: The media API from Advantage Solutions — 4 operation(s) for media.
+  name: Advantage Solutions Media API
+  slug: advantage-solutions-media-api
+- description: The mrktblog-category API from Advantage Solutions — 2 operation(s) for mrktblog-category.
+  name: Advantage Solutions Mrktblog Category API
+  slug: advantage-solutions-mrktblog-category-api
+- description: The mrktblog-posts API from Advantage Solutions — 2 operation(s) for mrktblog-posts.
+  name: Advantage Solutions Mrktblog Posts API
+  slug: advantage-solutions-mrktblog-posts-api
+- description: The oembed API from Advantage Solutions — 1 operation(s) for oembed.
+  name: Advantage Solutions Oembed API
+  slug: advantage-solutions-oembed-api
+- description: The pages API from Advantage Solutions — 2 operation(s) for pages.
+  name: Advantage Solutions Pages API
+  slug: advantage-solutions-pages-api
+- description: The posts API from Advantage Solutions — 2 operation(s) for posts.
+  name: Advantage Solutions Posts API
+  slug: advantage-solutions-posts-api
+- description: The review API from Advantage Solutions — 2 operation(s) for review.
+  name: Advantage Solutions Review API
+  slug: advantage-solutions-review-api
+- description: The search API from Advantage Solutions — 1 operation(s) for search.
+  name: Advantage Solutions Search API
+  slug: advantage-solutions-search-api
+- description: The solution API from Advantage Solutions — 2 operation(s) for solution.
+  name: Advantage Solutions Solution API
+  slug: advantage-solutions-solution-api
+- description: The statuses API from Advantage Solutions — 2 operation(s) for statuses.
+  name: Advantage Solutions Statuses API
+  slug: advantage-solutions-statuses-api
+- description: The tags API from Advantage Solutions — 2 operation(s) for tags.
+  name: Advantage Solutions Tags API
+  slug: advantage-solutions-tags-api
+- description: The taxonomies API from Advantage Solutions — 2 operation(s) for taxonomies.
+  name: Advantage Solutions Taxonomies API
+  slug: advantage-solutions-taxonomies-api
+- description: The team-member API from Advantage Solutions — 2 operation(s) for team-member.
+  name: Advantage Solutions Team Member API
+  slug: advantage-solutions-team-member-api
+- description: The types API from Advantage Solutions — 2 operation(s) for types.
+  name: Advantage Solutions Types API
+  slug: advantage-solutions-types-api
+- description: The users API from Advantage Solutions — 6 operation(s) for users.
+  name: Advantage Solutions Users API
+  slug: advantage-solutions-users-api
+artifact_total: 28
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/advantage-solutions-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/advantage-solutions-youradv-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/advantage-solutions-mrktblog-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -158,10 +230,10 @@ modified: '2026-08-13'
 name: Advantage Solutions
 nav: Providers
 network: true
-overview: 'Advantage Solutions publishes 2 APIs on the [APIs.io](https://apis.io/) network: Corporate Content API (WordPress REST) and MRKT Blog Content API (WordPress REST). Tagged areas include Sales, Marketing, Merchandising, Consumer Goods, and Retail.
+overview: 'Advantage Solutions publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Advantage360 Category API, Advantage360 Reports API, Blog Author API, and 19 more. Tagged areas include Sales, Marketing, Merchandising, Consumer Goods, and Retail.
 
 
-  Advantage Solutions'' developer surface includes engineering blog, support, FAQ, authentication, and 20 more developer resources.'
+  Advantage Solutions'' developer surface includes engineering blog, support, FAQ, authentication, and 23 more developer resources.'
 plans:
 - name: Advantage Solutions Plans Pricing
   plan_count: 0
@@ -173,18 +245,23 @@ rate_limits:
   slug: advantage-solutions-rate-limits
 score:
   band: thin
-  composite: 36.3
-  delta: 1.9
+  composite: 34.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
-    contract_quality: 60.5
+    contract_governance: 4.5
+    contract_quality: 58.7
     developer_ergonomics: 30.4
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 34.4
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -195,8 +272,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/screenshots/advantage-solutions-2026-06-20T165343.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 36
@@ -33,19 +33,127 @@ agentic_access:
   summary_line: 276 operations · 137 acting · 36 human-in-the-loop
 api_count: 4
 apis:
-- description: The external, public-facing API contract for APIHUB — Netcracker's open-source API registry and developer portal product. Covers package and catalog operations, publication workflows, versions, export
-  name: Qubership APIHUB Registry API
-  slug: qubership-apihub-registry-api
-- description: The external administration API contract for APIHUB, covering technical administration operations — package transitions, system operations, role management and administrator management. OpenAPI 3.0.3,
-  name: Qubership APIHUB System Administrators API
-  slug: qubership-apihub-admin-api
-- description: The REST API for Qubership MaaS, Netcracker's open-source messaging-as-a-service component that provisions and manages Kafka topics and RabbitMQ virtual hosts for microservices running on the Qubershi
-  name: Qubership MaaS (Messaging as a Service) API
-  slug: qubership-maas-api
-- description: The REST API for Qubership DBaaS, Netcracker's open-source Database as a Service aggregator. It collects requests for managed databases and routes them to the appropriate database adapter, tracking ev
-  name: Qubership DBaaS Aggregator API
-  slug: qubership-dbaas-aggregator-api
-artifact_total: 14
+- description: APIs for technical administration.
+  name: Netcracker Admin API
+  slug: netcracker-admin-api
+- description: The Aggregated Database Administration No Namespace Controller V 3 API from Netcracker — 3 operation(s) for aggregated database administration no namespace controller v 3.
+  name: Netcracker Aggregated Database Administration No Namespace Controller V 3 API
+  slug: netcracker-aggregated-database-administration-no-namespace-controller-v-3-api
+- description: APIs for AI chat assistant. Each user has their own chat list; chats are persisted on the server with a configurable TTL and pinning support. Conversations support streaming responses (SSE) and automa
+  name: Netcracker AI Chat API
+  slug: netcracker-ai-chat-api
+- description: Providing API version info
+  name: Netcracker API version controller API
+  slug: netcracker-api-version-controller-api
+- description: APIs for auth integrations.
+  name: Netcracker Auth API
+  slug: netcracker-auth-api
+- description: Backup & Restore operations for DBaaS
+  name: Netcracker Backup & Restore API
+  slug: netcracker-backup-restore-api
+- description: Allows to get list of available backups, trigger backup collector and restore some specific backup. All backup management is per namespace.
+  name: Netcracker Backups administration API
+  slug: netcracker-backups-administration-api
+- description: Allows to configure a logic of balancing logical databases over physical.
+  name: Netcracker Balancing Rules Administration V3 API
+  slug: netcracker-balancing-rules-administration-v3-api
+- description: The Blue Green Controller V 1 API from Netcracker — 12 operation(s) for blue green controller v 1.
+  name: Netcracker Blue Green Controller V 1 API
+  slug: netcracker-blue-green-controller-v-1-api
+- description: Changes APIs.
+  name: Netcracker Changes API
+  slug: netcracker-changes-api
+- description: The Composite Controller API from Netcracker — 3 operation(s) for composite controller.
+  name: Netcracker Composite Controller API
+  slug: netcracker-composite-controller-api
+- description: The Config Controller V 1 API from Netcracker — 4 operation(s) for config controller v 1.
+  name: Netcracker Config Controller V 1 API
+  slug: netcracker-config-controller-v-1-api
+- description: DDL and MCP contract APIs.
+  name: Netcracker Contracts API
+  slug: netcracker-contracts-api
+- description: Allows to create, access and drop databases. This API uses classifier as a key to create and retrieve databases. Classifier is an abstract key that could be any JSON object mapping to (String -> Objec
+  name: Netcracker Controller Database administration API
+  slug: netcracker-controller-database-administration-api
+- description: The Controller for debug operations API from Netcracker — 5 operation(s) for controller for debug operations.
+  name: Netcracker Controller for debug operations API
+  slug: netcracker-controller-for-debug-operations-api
+- description: Custom APIs.
+  name: Netcracker Custom API
+  slug: netcracker-custom-api
+- description: This controller contains API for operations with already created databases, users.
+  name: Netcracker Database operation controller v3 API
+  slug: netcracker-database-operation-controller-v3-api
+- description: This controller contains API for operations with database users.
+  name: Netcracker Database users controller v3 API
+  slug: netcracker-database-users-controller-v3-api
+- description: The Declarative Controller API from Netcracker — 2 operation(s) for declarative controller.
+  name: Netcracker Declarative Controller API
+  slug: netcracker-declarative-controller-api
+- description: Documents APIs.
+  name: Netcracker Documents API
+  slug: netcracker-documents-api
+- description: APIs for short-lived file downloads. Files are stored temporarily on the server and accessed via signed tokens embedded in producer responses (e.g. AI chat assistant markdown links).
+  name: Netcracker Ephemeral Files API
+  slug: netcracker-ephemeral-files-api
+- description: Export API documentation.
+  name: Netcracker Export API
+  slug: netcracker-export-api
+- description: This controller provides APIs for performing operations on existing databases and users without requiring a specific namespace in the endpoints.
+  name: Netcracker Global Database Operation Controller v3 API
+  slug: netcracker-global-database-operation-controller-v3-api
+- description: APIs for internal documents management.
+  name: Netcracker Internal Documents API
+  slug: netcracker-internal-documents-api
+- description: This controller contains APIs based on microservice value.
+  name: Netcracker Microservice controller v3 API
+  slug: netcracker-microservice-controller-v3-api
+- description: 'Provides API to migrate: database registration from another source, database passwords to external system.'
+  name: Netcracker Migration controller API
+  slug: netcracker-migration-controller-api
+- description: Operation groups
+  name: Netcracker Operation groups API
+  slug: netcracker-operation-groups-api
+- description: Operations APIs.
+  name: Netcracker Operations API
+  slug: netcracker-operations-api
+- description: APIs for the package management.
+  name: Netcracker Packages API
+  slug: netcracker-packages-api
+- description: Provides API to register new physical databases
+  name: Netcracker Physical databases registration controller API
+  slug: netcracker-physical-databases-registration-controller-api
+- description: Publish version API
+  name: Netcracker Publish API
+  slug: netcracker-publish-api
+- description: APIs for role management.
+  name: Netcracker Roles API
+  slug: netcracker-roles-api
+- description: Search functions.
+  name: Netcracker Search API
+  slug: netcracker-search-api
+- description: Operations to move packages
+  name: Netcracker Transition API
+  slug: netcracker-transition-api
+- description: API for 'try it' functionality
+  name: Netcracker Try It API
+  slug: netcracker-tryit-api
+- description: APIs for user's personal settings.
+  name: Netcracker User profile API
+  slug: netcracker-user-profile-api
+- description: APIs for the user operations.
+  name: Netcracker Users API
+  slug: netcracker-users-api
+- description: The V1 API from Netcracker — 22 operation(s) for v1.
+  name: Netcracker V1 API
+  slug: netcracker-v1-api
+- description: The V2 API from Netcracker — 13 operation(s) for v2.
+  name: Netcracker V2 API
+  slug: netcracker-v2-api
+- description: Published package versions API.
+  name: Netcracker Versions API
+  slug: netcracker-versions-api
+artifact_total: 50
 collections:
 - collection_type: open
   name: APIHUB system administrators API – External
@@ -60,6 +168,26 @@ collections:
   name: Maas Service API
   slug: open-netcracker-qubership-maas-swagger
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/netcracker-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/netcracker-qubership-apihub-registry-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/netcracker-qubership-apihub-admin-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/netcracker-qubership-maas-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/netcracker-qubership-dbaas-overlay.yaml
 - group: operate
   title: ''
   type: IssueTracker
@@ -257,25 +385,33 @@ modified: '2026-07-25'
 name: Netcracker
 nav: Providers
 network: true
-overview: 'Netcracker publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Qubership APIHUB Registry API, Qubership APIHUB System Administrators API, Qubership MaaS (Messaging as a Service) API, and 1 more. Tagged areas include Telecommunications, United States, BSS, OSS, and Network Vendor.
+overview: 'Netcracker publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Aggregated Database Administration No Namespace Controller V 3 API, AI Chat API, and 37 more. Tagged areas include Telecommunications, United States, BSS, OSS, and Network Vendor.
 
 
-  Netcracker''s developer surface includes authentication, changelog, CLI, sandbox, documentation, getting-started guide, support, and 39 more developer resources.'
+  Netcracker''s developer surface includes authentication, changelog, CLI, sandbox, documentation, getting-started guide, support, and 44 more developer resources.'
 random_paper: 8
 score:
-  band: developing
-  composite: 54.2
-  delta: 1.4
+  band: strong
+  composite: 58.9
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 5.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 30.3
-    contract_quality: 54.0
+    contract_governance: 18.2
+    contract_quality: 57.1
     developer_ergonomics: 75.6
-    discoverability: 64.8
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 52.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -292,9 +428,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/netcracker/refs/heads/main/screenshots/netcracker-2026-08-07T184931.png
 security:
 - kind: authentication

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
 - description: pmsXchange is SiteMinder's integration API for property management systems (PMS), revenue management systems (RMS), and central reservation systems (CRS) that need to synchronize rooms, rates, availab
@@ -180,7 +180,12 @@ random_paper: 5
 score:
   band: thin
   composite: 29.2
-  delta: 7.7
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -190,10 +195,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 21.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  previous_composite: 29.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/siteminder/refs/heads/main/screenshots/siteminder-2026-06-20T193959.png
 security:
 - kind: domain-security

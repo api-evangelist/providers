@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 36
   slug: mealme-agentic-access
   summary_line: 36 operations · 22 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Cart creation, retrieval, and item management.
   name: MealMe Carts API
@@ -107,6 +107,10 @@ collections:
   name: MealMe Food Ordering API
   slug: open-mealme
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mealme-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -274,7 +278,7 @@ overview: 'MealMe publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   The MealMe catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  MealMe''s developer surface includes authentication, engineering blog, developer portal, documentation, and 11 more developer resources.'
+  MealMe''s developer surface includes authentication, engineering blog, developer portal, documentation, and 12 more developer resources.'
 plans:
 - name: Mealme Plans Pricing
   plan_count: 3
@@ -308,18 +312,23 @@ rules:
   slug: mealme-spectral-rules
 score:
   band: developing
-  composite: 39.3
-  delta: 2.6
+  composite: 39.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 67.2
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 36.7
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -327,8 +336,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mealme/refs/heads/main/screenshots/mealme-2026-06-20T185111.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 13
   slug: squadcast-agentic-access
   summary_line: 13 operations · 9 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Public REST API for managing incidents, services, on-call schedules, escalation policies, users, and teams in Squadcast. Authentication uses HTTP Bearer access tokens exchanged from a refresh token at
   name: Squadcast Public API
@@ -128,15 +128,20 @@ overview: 'Squadcast publishes 3 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 3
 score:
   band: thin
-  composite: 29.9
-  delta: 0.0
+  composite: 29.3
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 55.3
     developer_ergonomics: 17.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 29.9
@@ -147,8 +152,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/squadcast/refs/heads/main/screenshots/squadcast-2026-06-20T194432.png
 security:

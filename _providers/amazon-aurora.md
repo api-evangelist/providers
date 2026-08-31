@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 21
   slug: amazon-aurora-agentic-access
   summary_line: 21 operations · 21 acting · 2 human-in-the-loop
-api_count: 6
+api_count: 1
 apis:
 - description: Operations for managing Aurora cluster endpoints
   name: Amazon Aurora DB Cluster Endpoints API
@@ -692,16 +692,21 @@ rules:
   slug: amazon-aurora-spectral-rules
 score:
   band: thin
-  composite: 34.2
-  delta: 2.5
+  composite: 32.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 72.1
     developer_ergonomics: 11.9
-    discoverability: 83.3
-    governance: 45.5
+    discoverability: 77.8
+    governance: 33.3
     operational_transparency: 0.0
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -709,7 +714,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 31.7
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -719,8 +724,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-aurora/refs/heads/main/screenshots/amazon-aurora-2026-07-25T195929.png
 security:

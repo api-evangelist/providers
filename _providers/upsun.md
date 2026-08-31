@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-26'
-api_count: 50
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Add-ons API from Upsun — 1 operation(s) for add-ons.
   name: Upsun Add-ons API
@@ -497,6 +497,10 @@ collections:
   name: Upsun.com Rest Add-ons Vouchers API
   slug: open-upsun-vouchers-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/upsun-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -661,13 +665,13 @@ modified: '2026-07-21'
 name: Upsun
 nav: Providers
 network: true
-overview: 'Upsun publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Add-ons API, Alerts API, API Tokens API, and 47 more. Tagged areas include Company, Infrastructure Saas, Cloud, Platform-as-a-Service, and Hosting.
+overview: 'Upsun publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Add-ons API, Alerts API, API Tokens API, and 47 more. Tagged areas include Company, Infrastructure Saas, Cloud, PaaS, and Hosting.
 
 
   The Upsun catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Upsun''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, developer console, and 31 more developer resources.'
+  Upsun''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, developer console, and 32 more developer resources.'
 random_paper: 4
 scopes:
 - name: Upsun Scopes
@@ -675,19 +679,24 @@ scopes:
   slug: upsun-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 54.3
-  delta: 0.0
+  band: developing
+  composite: 51.2
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 58.7
     developer_ergonomics: 73.2
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 70.4
+    governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 54.3
+  previous_composite: 51.7
   provenance:
     conformance: derived
     contracts:
@@ -697,8 +706,8 @@ score:
       total: 50
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upsun/refs/heads/main/screenshots/upsun-2026-08-17T082640.png
 security:
@@ -723,7 +732,7 @@ tags:
 - Company
 - Infrastructure Saas
 - Cloud
-- Platform-as-a-Service
+- PaaS
 - Hosting
 - Deployment
 - DevOps

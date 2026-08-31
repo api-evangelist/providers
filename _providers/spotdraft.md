@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 182
   slug: spotdraft-agentic-access
   summary_line: 182 operations · 106 acting · 1 human-in-the-loop
-api_count: 48
+api_count: 1
 apis:
 - description: Contract creation, retrieval, updates, previews, downloads, uploads, and lifecycle actions across public API versions.
   name: SpotDraft V1 Contract APIs API
@@ -485,6 +485,10 @@ collections:
   name: SpotDraft API
   slug: open-spotdraft
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/spotdraft-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -630,7 +634,7 @@ overview: 'SpotDraft publishes 48 APIs on the [APIs.io](https://apis.io/) networ
   The SpotDraft catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SpotDraft''s developer surface includes authentication, documentation, support, pricing, signup flow, engineering blog, GitHub presence, and 16 more developer resources.'
+  SpotDraft''s developer surface includes authentication, documentation, support, pricing, signup flow, engineering blog, GitHub presence, and 17 more developer resources.'
 plans:
 - name: Spotdraft Plans Pricing
   plan_count: 4
@@ -664,18 +668,23 @@ rules:
   slug: spotdraft-rules
 score:
   band: developing
-  composite: 50.7
-  delta: 3.6
+  composite: 50.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
     contract_governance: 28.8
     contract_quality: 68.8
     developer_ergonomics: 33.3
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 47.1
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     contracts:
@@ -683,8 +692,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 48
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spotdraft/refs/heads/main/screenshots/spotdraft-2026-06-20T194352.png
 security:

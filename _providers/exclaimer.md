@@ -32,13 +32,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 10
 apis:
-- description: Partner and distributor provisioning API for Exclaimer Cloud tenants. Covers creating and managing subscriptions (add, update, activate, deactivate, end, reactivate, migrate, transfer ownership, chang
-  name: Exclaimer Cloud API
-  slug: exclaimer-cloud-api
-artifact_total: 16
+- description: The End Users API from Exclaimer — 1 operation(s) for end users.
+  name: Exclaimer End Users API
+  slug: exclaimer-end-users-api
+- description: The Mailboxes API from Exclaimer — 1 operation(s) for mailboxes.
+  name: Exclaimer Mailboxes API
+  slug: exclaimer-mailboxes-api
+- description: The Miscellaneous API from Exclaimer — 2 operation(s) for miscellaneous.
+  name: Exclaimer Miscellaneous API
+  slug: exclaimer-miscellaneous-api
+- description: The MSP API from Exclaimer — 4 operation(s) for msp.
+  name: Exclaimer MSP API
+  slug: exclaimer-msp-api
+- description: The Reference Resources API from Exclaimer — 3 operation(s) for reference resources.
+  name: Exclaimer Reference Resources API
+  slug: exclaimer-reference-resources-api
+- description: The Resellers API from Exclaimer — 1 operation(s) for resellers.
+  name: Exclaimer Resellers API
+  slug: exclaimer-resellers-api
+- description: The Subscription Transfers API from Exclaimer — 3 operation(s) for subscription transfers.
+  name: Exclaimer Subscription Transfers API
+  slug: exclaimer-subscription-transfers-api
+- description: The Subscription Users API from Exclaimer — 4 operation(s) for subscription users.
+  name: Exclaimer Subscription Users API
+  slug: exclaimer-subscription-users-api
+- description: The Subscriptions API from Exclaimer — 13 operation(s) for subscriptions.
+  name: Exclaimer Subscriptions API
+  slug: exclaimer-subscriptions-api
+artifact_total: 24
 collections:
 - collection_type: open
   name: Exclaimer Cloud API — End Users
@@ -68,6 +92,14 @@ collections:
   name: Exclaimer Cloud API — Subscriptions
   slug: open-exclaimer-subscriptions
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/exclaimer-cloud-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -180,10 +212,10 @@ modified: '2026-08-13'
 name: Exclaimer
 nav: Providers
 network: true
-overview: 'Exclaimer publishes 1 API on the [APIs.io](https://apis.io/) network: Cloud API. Tagged areas include Company, Email, Email Signatures, Email Signature Management, and Microsoft-365.
+overview: 'Exclaimer publishes 9 APIs on the [APIs.io](https://apis.io/) network, including End Users API, Mailboxes API, Miscellaneous API, and 6 more. Tagged areas include Company, Email, Email Signatures, Email Signature Management, and Microsoft-365.
 
 
-  Exclaimer''s developer surface includes pricing, engineering blog, signup flow, documentation, API reference, getting-started guide, support, and 19 more developer resources.'
+  Exclaimer''s developer surface includes pricing, engineering blog, signup flow, documentation, API reference, getting-started guide, support, and 21 more developer resources.'
 plans:
 - name: Exclaimer Plans Pricing
   plan_count: 4
@@ -195,18 +227,23 @@ rate_limits:
   slug: exclaimer-rate-limits
 score:
   band: strong
-  composite: 62.8
-  delta: 4.1
+  composite: 60.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 16.7
-    contract_quality: 54.6
+    contract_governance: 4.5
+    contract_quality: 54.0
     developer_ergonomics: 66.1
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 58.7
+  previous_composite: 60.7
   provenance:
     conformance: derived
     contracts:
@@ -216,8 +253,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exclaimer/refs/heads/main/screenshots/exclaimer-2026-07-25T213850.png
 security:

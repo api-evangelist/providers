@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 40
   slug: azure-storage-accounts-agentic-access
   summary_line: 40 operations · 26 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 2
 apis:
 - description: The BlobContainers API from Azure Storage Accounts — 8 operation(s) for blobcontainers.
   name: Azure Storage Accounts BlobContainers API
@@ -678,15 +678,20 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 47.4
-  delta: 0.0
+  composite: 46.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 28.8
     contract_quality: 56.9
     developer_ergonomics: 59.5
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 23.7
   previous_composite: 47.4
@@ -697,8 +702,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/screenshots/azure-storage-accounts-2026-06-20T172908.png
 security:

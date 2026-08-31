@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 9
 apis:
 - description: 'Unified task API for all Tripo generative 3D operations. A single POST creates an asynchronous task keyed by task_type (text_to_model, image_to_model, multiview_to_model, texture_model, refine_model, '
@@ -65,6 +65,14 @@ apis:
   slug: triposr
 artifact_total: 13
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/VAST-AI-Research/tripo-python-sdk/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/VAST-AI-Research/tripo-python-sdk/releases
 - group: commercial
   title: ''
   type: License
@@ -117,10 +125,10 @@ modified: '2026-05-23'
 name: Tripo AI
 nav: Providers
 network: true
-overview: 'Tripo AI publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Generative AI, 3D Modeling, Text-to-3D, and Image-to-3D.
+overview: 'Tripo AI publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Generative AI, 3D Modeling, Text to 3D, and Image to 3D.
 
 
-  Tripo AI''s developer surface includes documentation, signup flow, pricing, GitHub presence, engineering blog, and 5 more developer resources.'
+  Tripo AI''s developer surface includes documentation, signup flow, pricing, GitHub presence, engineering blog, and 7 more developer resources.'
 plans:
 - name: Tripo Ai Plans Pricing
   plan_count: 1
@@ -132,7 +140,12 @@ rate_limits:
   slug: tripo-ai-rate-limits
 score:
   band: emerging
-  composite: 22.2
+  composite: 24.3
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 52.6
@@ -142,10 +155,13 @@ score:
     developer_ergonomics: 7.1
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 22.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 24.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripo-ai/refs/heads/main/screenshots/tripo-ai-2026-06-20T195733.png
 security:
@@ -158,8 +174,8 @@ tags:
 - 3D
 - Generative AI
 - 3D Modeling
-- Text-to-3D
-- Image-to-3D
+- Text to 3D
+- Image to 3D
 - Rigging
 - Animation
 - Texturing

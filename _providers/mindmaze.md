@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,10 +33,28 @@ agentic_access:
   summary_line: 17 operations
 api_count: 1
 apis:
-- description: The public, anonymous WordPress REST API behind mindmazetherapeutics.com. It is not a MindMaze product, clinical or device API - none exists - but it is a real machine-readable surface, and because Mi
-  name: MindMaze Therapeutics Content API
-  slug: mindmaze-therapeutics-content-api
-artifact_total: 9
+- description: 'Self-describing metadata: the API index, registered content types, taxonomies and post statuses.'
+  name: MindMaze Discovery API
+  slug: mindmaze-discovery-api
+- description: Images, documents and files in the MindMaze media library.
+  name: MindMaze Media API
+  slug: mindmaze-media-api
+- description: oEmbed representation of a mindmazetherapeutics.com URL.
+  name: MindMaze O Embed API
+  slug: mindmaze-oembed-api
+- description: Marketing, product, platform, research and investor-relations pages on mindmazetherapeutics.com.
+  name: MindMaze Pages API
+  slug: mindmaze-pages-api
+- description: 'MindMaze Therapeutics news: EQS regulatory and ad-hoc announcements, investor-relations news, press releases, in-the-media coverage, events, testimonials and product announcements.'
+  name: MindMaze Posts API
+  slug: mindmaze-posts-api
+- description: Cross-content-type search over published mindmazetherapeutics.com content.
+  name: MindMaze Search API
+  slug: mindmaze-search-api
+- description: The categories and tags used to classify MindMaze posts, including the EQS, ad-hoc-news and other-ir-news disclosure categories.
+  name: MindMaze Taxonomy API
+  slug: mindmaze-taxonomy-api
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -45,6 +63,10 @@ collections:
   name: MindMaze Therapeutics Content API
   slug: open-mindmaze-content
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mindmaze-content-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -205,25 +227,30 @@ modified: '2026-08-01'
 name: MindMaze
 nav: Providers
 network: true
-overview: 'MindMaze publishes 1 API on the [APIs.io](https://apis.io/) network: Therapeutics Content API. Tagged areas include Company, Digital Therapeutics, Neurotechnology, Neurorehabilitation, and Medical Devices.
+overview: 'MindMaze publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, O Embed API, and 4 more. Tagged areas include Company, Digital Therapeutics, Neurotechnology, Neurorehabilitation, and Medical Devices.
 
 
-  MindMaze''s developer surface includes authentication, support, engineering blog, YouTube channel, and 31 more developer resources.'
+  MindMaze''s developer surface includes authentication, support, engineering blog, YouTube channel, and 32 more developer resources.'
 random_paper: 13
 score:
-  band: thin
-  composite: 26.8
-  delta: 0.7
+  band: emerging
+  composite: 25.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 12.1
-    contract_quality: 17.0
+    contract_governance: 0.0
+    contract_quality: 16.4
     developer_ergonomics: 20.8
-    discoverability: 68.5
-    governance: 12.1
+    discoverability: 75.9
+    governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 26.1
+  previous_composite: 26.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -236,12 +263,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 57.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/screenshots/mindmaze-2026-08-07T172930.png
 security:
@@ -263,7 +294,7 @@ tags:
 - Health
 - Artificial Intelligence
 - Stroke
-- Parkinson's Disease
+- Parkinsons Disease
 - Switzerland
 website: https://mindmazetherapeutics.com/
 ---

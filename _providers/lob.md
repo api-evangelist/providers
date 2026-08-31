@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-26'
-api_count: 46
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Accounts API from Lob — 1 operation(s) for accounts.
   name: Lob Accounts API
@@ -174,7 +174,13 @@ apis:
 - description: The Zip Lookups API from Lob — 1 operation(s) for zip lookups.
   name: Lob Zip  Lookups API
   slug: lob-zip-lookups-api
-artifact_total: 98
+- description: The Events API from Lob — 0 operation(s) for events.
+  name: Lob Events API
+  slug: lob-events-api
+- description: The Tracking Events API from Lob — 0 operation(s) for tracking events.
+  name: Lob Tracking Events API
+  slug: lob-tracking-events-api
+artifact_total: 100
 collections:
 - collection_type: open
   name: API Collection
@@ -318,6 +324,10 @@ collections:
   name: Lob Zip  Lookups API
   slug: open-lob-zip-lookups-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lob-capability-edges.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -410,10 +420,10 @@ modified: '2026-08-08'
 name: Lob
 nav: Providers
 network: true
-overview: 'Lob publishes 46 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Addresses API, Bank  Accounts API, and 43 more. Tagged areas include Direct Mail, Print, and Address Verification.
+overview: 'Lob publishes 48 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Addresses API, Bank  Accounts API, and 45 more. Tagged areas include Direct Mail, Print, and Address Verification.
 
 
-  Lob''s developer surface includes authentication, getting-started guide, changelog, pricing, support, engineering blog, and 14 more developer resources.'
+  Lob''s developer surface includes authentication, getting-started guide, changelog, pricing, support, engineering blog, and 15 more developer resources.'
 plans:
 - name: Lob Plans Pricing
   plan_count: 3
@@ -425,26 +435,31 @@ rate_limits:
   slug: lob-rate-limits
 score:
   band: developing
-  composite: 45.5
-  delta: 1.9
+  composite: 40.8
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -4.5
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 0.0
-    contract_quality: 59.6
-    developer_ergonomics: 47.6
-    discoverability: 55.6
+    contract_quality: 58.8
+    developer_ergonomics: 35.7
+    discoverability: 50.0
     governance: 0.0
-    operational_transparency: 34.2
-  previous_composite: 43.6
+    operational_transparency: 22.4
+  previous_composite: 45.3
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/screenshots/lob-2026-06-20T184627.png
 security:

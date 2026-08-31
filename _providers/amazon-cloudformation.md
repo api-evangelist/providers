@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 13
   slug: amazon-cloudformation-agentic-access
   summary_line: 13 operations
-api_count: 4
+api_count: 1
 apis:
 - description: Operations for managing CloudFormation change sets
   name: Amazon CloudFormation Change Sets API
@@ -389,18 +389,23 @@ rules:
   slug: amazon-cloudformation-spectral-rules
 score:
   band: strong
-  composite: 60.5
-  delta: 7.3
+  composite: 57.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 71.9
     developer_ergonomics: 71.4
-    discoverability: 83.3
-    governance: 45.5
+    discoverability: 66.7
+    governance: 33.3
     operational_transparency: 18.4
-  previous_composite: 53.2
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -410,9 +415,9 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/screenshots/amazon-cloudformation-2026-07-25T195946.png
 security:
 - kind: authentication

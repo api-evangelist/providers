@@ -27,15 +27,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.5
-  scored_at: '2026-08-26'
+  score: 41.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 22
   slug: adobe-agentic-access
   summary_line: 22 operations · 20 acting
-api_count: 34
+api_count: 4
 apis:
 - description: Extract text, images, tables, and more from native and scanned PDFs into structured JSON using AI technology.
   name: Adobe PDF Extract API
@@ -141,12 +141,66 @@ apis:
 - description: Split a PDF document into multiple smaller PDFs.
   name: Adobe PDF Services Split PDF API
   slug: adobe-split-pdf-api
-- description: Generate 3D object composites, render 3D scenes, and run Substance 3D material and model operations through the Firefly Services REST API.
-  name: Adobe Substance 3D API
-  slug: adobe-substance-3d-api
-- description: Read and manage Creative Cloud Libraries, their elements, representations, bookmarks, and public library shares on behalf of a Creative Cloud user.
-  name: Adobe Creative Cloud Libraries API
-  slug: adobe-cc-libraries-api
+- description: The Composites API from Adobe — 1 operation(s) for composites.
+  name: Adobe Composites API
+  slug: adobe-composites-api
+- description: The Export PDF Form Data API will retrieve the data from a PDF form and return it as a JSON file.
+  name: Adobe Export PDF Form Data API
+  slug: adobe-export-pdf-form-data-api
+- description: 'Creates an access token using client id and client secret. Click <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/IMS/">here</a> to refer '
+  name: Adobe Generate Token API
+  slug: adobe-generate-token-api
+- description: Convert HTML Resources to a PDF File
+  name: Adobe Html to PDF API
+  slug: adobe-html-to-pdf-api
+- description: The Import PDF Form Data API will take the form data provided as a JSON, insert it into the PDF form, and generate the resulting PDF.
+  name: Adobe Import PDF Form Data API
+  slug: adobe-import-pdf-form-data-api
+- description: App-facing APIs for Adobe CC Libraries.
+  name: Adobe Library Service API
+  slug: adobe-library-service-api
+- description: App-facing APIs specifically for Adobe CC Library Bookmarks.
+  name: Adobe Library Service - Bookmarks API
+  slug: adobe-library-service-bookmarks-api
+- description: App-facing APIs specifically for Adobe CC Public Libraries.
+  name: Adobe Library Service - Public API
+  slug: adobe-library-service-public-api
+- description: Rotate and delete pages of a PDF File
+  name: Adobe Page Manipulation API
+  slug: adobe-page-manipulation-api
+- description: Operation to create the tagged pdf and excel report for accessibility auto-tag use case.
+  name: Adobe PDF Accessibility Auto-Tag API
+  slug: adobe-pdf-accessibility-auto-tag-api
+- description: Accessibility Checker API will check PDF files to see if they meet the machine-verifiable requirements of PDF/UA and WCAG.
+  name: Adobe PDF Accessibility Checker API
+  slug: adobe-pdf-accessibility-checker-api
+- description: Create electronic seal on PDF documents like invoices, agreements etc using the digital certificate issued to the user by Trust Service Provider.
+  name: Adobe PDF Electronic Seal API
+  slug: adobe-pdf-electronic-seal-api
+- description: Convert a PDF File to image files
+  name: Adobe PDF To Images API
+  slug: adobe-pdf-to-images-api
+- description: Extract content from PDF documents and output it in a well-formatted LLM-friendly Markdown text, along with tables and figures
+  name: Adobe PDF To Markdown API
+  slug: adobe-pdf-to-markdown-api
+- description: PDF Watermark API will add a watermark in PDF document.
+  name: Adobe PDF Watermark API
+  slug: adobe-pdf-watermark-api
+- description: The Scenes API from Adobe — 5 operation(s) for scenes.
+  name: Adobe Scenes API
+  slug: adobe-scenes-api
+- description: The Spaces API from Adobe — 2 operation(s) for spaces.
+  name: Adobe Spaces API
+  slug: adobe-spaces-api
+- description: The SpacesFrameIO API from Adobe — 1 operation(s) for spacesframeio.
+  name: Adobe Spaces Frame IO API
+  slug: adobe-spacesframeio-api
+- description: The SpacesNextFrameIO API from Adobe — 1 operation(s) for spacesnextframeio.
+  name: Adobe Spaces Next Frame IO API
+  slug: adobe-spacesnextframeio-api
+- description: The SpacesURL API from Adobe — 1 operation(s) for spacesurl.
+  name: Adobe Spaces URL API
+  slug: adobe-spacesurl-api
 arazzos:
 - description: Upload a PDF, auto-tag it for accessibility, poll the job, and fetch the tagged result.
   name: Adobe Auto-tag a PDF For Accessibility
@@ -193,7 +247,7 @@ arazzos:
 - description: Upload a PDF, split it by page count into multiple files, poll the job, and fetch the result.
   name: Adobe Split a PDF
   slug: adobe-split-pdf-workflow
-artifact_total: 239
+artifact_total: 257
 asyncapis:
 - description: ''
   name: Adobe Pdf Services Webhooks
@@ -999,7 +1053,7 @@ modified: '2026-08-13'
 name: Adobe
 nav: Providers
 network: true
-overview: 'Adobe publishes 22 APIs on the [APIs.io](https://apis.io/) network, including PDF Services Accessibility Auto-Tag API, PDF Services Assets API, PDF Services Combine PDF API, and 19 more. Tagged areas include Fortune 1000, Analytics, Creative Cloud, Digital Asset Management, and Document Services.
+overview: 'Adobe publishes 40 APIs on the [APIs.io](https://apis.io/) network, including PDF Services Accessibility Auto-Tag API, PDF Services Assets API, PDF Services Combine PDF API, and 37 more. Tagged areas include Fortune 1000, Analytics, Creative Cloud, Digital Asset Management, and Document Services.
 
 
   The Adobe catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 2 Spectral governance rulesets.
@@ -1055,18 +1109,23 @@ rules:
   slug: adobe-spectral-rules
 score:
   band: exemplar
-  composite: 82.3
-  delta: 1.9
+  composite: 78.2
+  coverage:
+    artifact_dirs: 38
+    catalog_gap: 34.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 59.1
-    contract_quality: 81.1
+    contract_governance: 47.0
+    contract_quality: 74.2
     developer_ergonomics: 95.2
-    discoverability: 66.7
-    governance: 59.1
+    discoverability: 57.4
+    governance: 47.0
     operational_transparency: 71.1
-  previous_composite: 80.4
+  previous_composite: 78.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1077,8 +1136,8 @@ score:
       total: 20
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png
 security:

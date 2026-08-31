@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 71
   slug: amazon-app-runner-agentic-access
   summary_line: 71 operations · 71 acting · 2 human-in-the-loop
-api_count: 36
+api_count: 3
 apis:
 - description: The Amazon App Runner AWS App Runner API API from Amazon App Runner — 1 operation(s) for amazon app runner aws app runner api.
   name: Amazon App Runner Amazon App Runner AWS App Runner API API
@@ -265,6 +265,10 @@ collections:
   name: 'AWS App Runner Amazon App Runner AWS App Runner API #X Amz Target=AppRunner.UpdateVpcIngressConnection API'
   slug: open-amazon-app-runner-x-amz-target-apprunner-updatevpcingressconnection-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-app-runner-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -2053,7 +2057,7 @@ overview: 'Amazon App Runner publishes 36 APIs on the [APIs.io](https://apis.io/
   The Amazon App Runner catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon App Runner''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 25 more developer resources.'
+  Amazon App Runner''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 26 more developer resources.'
 random_paper: 1
 rules:
 - effective_rule_count: 6
@@ -2079,18 +2083,23 @@ rules:
   slug: amazon-app-runner-spectral-rules
 score:
   band: developing
-  composite: 51.8
-  delta: 2.1
+  composite: 49.3
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 67.4
     developer_ergonomics: 42.9
-    discoverability: 87.0
-    governance: 45.5
+    discoverability: 75.9
+    governance: 33.3
     operational_transparency: 13.2
-  previous_composite: 49.7
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2100,8 +2109,8 @@ score:
       marker_coverage: 0.0
       total: 36
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-runner/refs/heads/main/screenshots/amazon-app-runner-2026-07-25T195915.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 endpoint for the 5ireChain mainnet (EIP-155 chain ID 995, native currency 5ire, 18 decimals). Serves the standard eth_*, net_* and web3_* method families against the E
@@ -158,29 +158,37 @@ modified: '2026-08-02'
 name: 5ire
 nav: Providers
 network: true
-overview: '5ire publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, Layer 1, Smart Contracts, EVM, and Web3.
+overview: '5ire publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, layer-1, smart-contracts, EVM, and Web3.
 
 
   5ire''s developer surface includes documentation, getting-started guide, engineering blog, support, FAQ, sandbox, authentication, and 21 more developer resources.'
 random_paper: 16
 score:
   band: emerging
-  composite: 20.8
-  delta: 0.0
+  composite: 23.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.9
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 48.8
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 20.8
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 21.5
   provenance:
     conformance: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -194,16 +202,16 @@ security:
 slug: 5ire
 tags:
 - Blockchain
-- Layer 1
-- Smart Contracts
+- layer-1
+- smart-contracts
 - EVM
 - Web3
-- Substrate
-- JSON-RPC
-- Sustainability
+- substrate
+- json-rpc
+- sustainability
 - ESG
-- Proof of Stake
-- Cryptocurrency
+- proof-of-stake
+- cryptocurrency
 - Developer Tools
 website: https://5ire.org/
 ---

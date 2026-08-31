@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 16
   slug: zencoder-agentic-access
   summary_line: 16 operations · 6 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Operations for managing accounts.
   name: Zencoder Accounts API
@@ -83,6 +83,14 @@ collections:
   name: Zencoder Accounts Reports API
   slug: open-zencoder-reports-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/brightcove/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zencoder-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -217,22 +225,27 @@ overview: 'Zencoder publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The Zencoder catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Zencoder''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 22 more developer resources.'
+  Zencoder''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 24 more developer resources.'
 random_paper: 18
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 48.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 56.9
     developer_ergonomics: 70.8
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 50.9
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -243,8 +256,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zencoder/refs/heads/main/screenshots/zencoder-2026-08-17T083039.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 78
   slug: transmit-security-agentic-access
   summary_line: 78 operations · 49 acting
-api_count: 9
+api_count: 7
 apis:
 - description: 'No-code identity orchestration API and policy engine enabling dynamic identity flow composition, adaptive access control, and integration with third-party services through pre-built journey templates '
   name: Mosaic Orchestration API
@@ -295,6 +295,11 @@ scopes:
 score:
   band: developing
   composite: 51.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 21.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -313,8 +318,8 @@ score:
       derived: 1
       marker_coverage: 12.5
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transmit-security/refs/heads/main/screenshots/transmit-security-2026-06-20T195547.png
 security:

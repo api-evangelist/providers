@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 147
   slug: seldon-agentic-access
   summary_line: 147 operations · 81 acting · 1 human-in-the-loop
-api_count: 31
+api_count: 3
 apis:
 - description: The Seldon Inference API provides REST and gRPC endpoints for serving machine learning model predictions at scale. Following the Open Inference Protocol (V2), the API exposes standardized endpoints fo
   name: Seldon Inference API
@@ -74,9 +74,6 @@ apis:
 - description: Explanation APIs for Seldon Deploy
   name: Seldon Explain API
   slug: seldon-explain-api
-- description: The External Ambassador API API from Seldon — 2 operation(s) for external ambassador api.
-  name: Seldon External Ambassador API API
-  slug: seldon-external-ambassador-api-api
 - description: GitOps APIs for Seldon Deploy
   name: Seldon GitOps API
   slug: seldon-gitops-api
@@ -104,9 +101,6 @@ apis:
 - description: Metrics Server APIs for Seldon Deploy
   name: Seldon MetricsServer API
   slug: seldon-metricsserver-api
-- description: The model API from Seldon — 6 operation(s) for model.
-  name: Seldon model API
-  slug: seldon-model-api
 - description: The ModelMetadataService API from Seldon — 2 operation(s) for modelmetadataservice.
   name: Seldon ModelMetadataService API
   slug: seldon-modelmetadataservice-api
@@ -134,10 +128,7 @@ apis:
 - description: SeldonDeployments APIs for Seldon Deploy
   name: Seldon SeldonDeployments API
   slug: seldon-seldondeployments-api
-- description: The server API from Seldon — 3 operation(s) for server.
-  name: Seldon server API
-  slug: seldon-server-api
-artifact_total: 77
+artifact_total: 74
 collections:
 - collection_type: open
   name: API Collection
@@ -370,7 +361,7 @@ modified: 2026-06-12
 name: Seldon
 nav: Providers
 network: true
-overview: 'Seldon publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Inference API, AlertingService API, ApplicationLogs API, and 26 more. Tagged areas include MLOps, Machine-Learning, Model Serving, Inference, and Kubernetes.
+overview: 'Seldon publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Inference API, AlertingService API, ApplicationLogs API, and 23 more. Tagged areas include MLOps, Machine-Learning, Model Serving, Inference, and Kubernetes.
 
 
   The Seldon catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -404,18 +395,23 @@ scopes:
   summary_line: 5 scopes · password
 score:
   band: thin
-  composite: 38.6
+  composite: 38.5
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 25.0
-    contract_quality: 53.0
+    contract_quality: 52.5
     developer_ergonomics: 28.6
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 38.6
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -423,8 +419,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seldon/refs/heads/main/screenshots/seldon-2026-06-20T193641.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 36
   slug: teelaunch-agentic-access
   summary_line: 36 operations · 12 acting
-api_count: 11
+api_count: 1
 apis:
 - description: Account
   name: Teelaunch Account API
@@ -116,6 +116,10 @@ collections:
   name: teelaunch Account Products API
   slug: open-teelaunch-products-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/teelaunch-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -175,7 +179,7 @@ network: true
 overview: 'Teelaunch publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account Payment API, Account Settings API, and 8 more. Tagged areas include Print on Demand, POD, E-Commerce, Fulfillment, and Dropshipping.
 
 
-  Teelaunch''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Teelaunch''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Teelaunch Plans Pricing
   plan_count: 2
@@ -187,18 +191,23 @@ rate_limits:
   slug: teelaunch-rate-limits
 score:
   band: thin
-  composite: 36.2
-  delta: 0.9
+  composite: 35.7
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 52.8
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 35.3
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -206,8 +215,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

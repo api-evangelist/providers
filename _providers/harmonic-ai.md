@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 113
   slug: harmonic-ai-agentic-access
   summary_line: 113 operations · 70 acting
-api_count: 2
+api_count: 1
 apis:
 - description: 'REST API for company search, enrichment, saved searches, list management, and bulk operations, plus a full GraphQL endpoint for flexible queries across companies, people, investors, lists, and custom '
   name: Harmonic REST & GraphQL API
@@ -230,7 +230,7 @@ modified: '2026-08-14'
 name: Harmonic.ai
 nav: Providers
 network: true
-overview: 'Harmonic.ai publishes 1 API on the [APIs.io](https://apis.io/) network: Harmonic REST & GraphQL API. Tagged areas include Startup Intelligence, Venture Capital, Company Data, People Data, and investor-data.
+overview: 'Harmonic.ai publishes 1 API on the [APIs.io](https://apis.io/) network: Harmonic REST & GraphQL API. Tagged areas include startup-intelligence, venture-capital, company-data, people-data, and investor-data.
 
 
   The Harmonic.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -253,18 +253,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.0
-  delta: 1.3
+  composite: 47.5
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 58.9
     developer_ergonomics: 30.4
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 48.7
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -275,8 +280,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmonic-ai/refs/heads/main/screenshots/harmonic-ai-2026-07-25T220821.png
 security:
@@ -294,16 +299,16 @@ security:
   summary_line: Hackerone
 slug: harmonic-ai
 tags:
-- Startup Intelligence
-- Venture Capital
-- Company Data
-- People Data
+- startup-intelligence
+- venture-capital
+- company-data
+- people-data
 - investor-data
 - funding-data
 - Data Enrichment
-- Sales Intelligence
+- sales-intelligence
 - Market Intelligence
-- GraphQL
+- graphql
 - MCP
 - agent-native
 website: https://console.harmonic.ai/

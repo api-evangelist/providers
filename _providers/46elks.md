@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: 46elks-agentic-access
   summary_line: 15 operations · 6 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Make and receive programmable voice calls.
   name: 46elks Calls API
@@ -83,6 +83,10 @@ collections:
   name: 46elks API
   slug: open-46elks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/46elks-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -142,7 +146,7 @@ network: true
 overview: '46elks publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Media API, MMS API, and 2 more. Tagged areas include CPaaS, SMS, MMS, Voice, and Messaging.
 
 
-  46elks'' developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  46elks'' developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: 46Elks Plans Pricing
   plan_count: 2
@@ -154,18 +158,23 @@ rate_limits:
   slug: 46elks-rate-limits
 score:
   band: thin
-  composite: 35.8
-  delta: 2.4
+  composite: 35.2
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 51.6
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 33.4
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +188,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/screenshots/46elks-2026-07-25T181206.png
 security:
@@ -201,5 +210,6 @@ tags:
 - Messaging
 - Phone Numbers
 - Communications
+- Sweden
 website: https://46elks.com/
 ---

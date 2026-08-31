@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 23
   slug: typo3-agentic-access
   summary_line: 23 operations · 13 acting
-api_count: 6
+api_count: 1
 apis:
 - description: The TYPO3 Headless extension provides a JSON API for delivering page content, navigation structures, layouts, and media to decoupled frontend applications. Responds with JSON when the Accept header is
   name: TYPO3 Headless JSON Content API
@@ -80,6 +80,22 @@ collections:
   name: get.typo3.org Cache sitepackage API
   slug: open-typo3-sitepackage-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/TYPO3-Headless/headless/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/TYPO3-Headless/headless/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/TYPO3-Headless/headless/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/TYPO3-Headless/headless/blob/master/CONTRIBUTING.rst
 - group: commercial
   title: ''
   type: License
@@ -163,7 +179,7 @@ overview: 'TYPO3 publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   The TYPO3 catalog on APIs.io includes 1 JSON-LD context.
 
 
-  TYPO3''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  TYPO3''s developer surface includes authentication, documentation, engineering blog, pricing, and 15 more developer resources.'
 plans:
 - name: Typo3 Plans Pricing
   plan_count: 3
@@ -175,18 +191,26 @@ rate_limits:
   slug: typo3-rate-limits
 score:
   band: developing
-  composite: 39.5
-  delta: 2.9
+  composite: 43.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 48.8
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 36.6
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     contracts:
@@ -194,8 +218,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/screenshots/typo3-2026-06-20T195907.png
 security:
@@ -214,7 +238,7 @@ tags:
 - Enterprise
 - PHP
 - Headless
-- JSON:API
+- JSON API
 - Open-Source
 website: https://typo3.org
 ---

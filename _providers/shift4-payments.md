@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 54
   slug: shift4-payments-agentic-access
   summary_line: 54 operations · 26 acting
-api_count: 20
+api_count: 1
 apis:
 - description: Shift4 Checkout provides a drop-in, frictionless checkout overlay that can be added to a website with copy-paste integration for fast and secure payment acceptance.
   name: Shift4 Checkout
@@ -167,6 +167,10 @@ collections:
   name: Shift4 Payments Blacklist Webhook Endpoints API
   slug: open-shift4-payments-webhook-endpoints-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shift4-payments-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -298,7 +302,7 @@ overview: 'Shift4 Payments publishes 18 APIs on the [APIs.io](https://apis.io/) 
   The Shift4 Payments catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Shift4 Payments'' developer surface includes authentication, documentation, API reference, code examples, support, and 7 more developer resources.'
+  Shift4 Payments'' developer surface includes authentication, documentation, API reference, code examples, support, and 8 more developer resources.'
 plans:
 - name: Shift4 Payments Plans Pricing
   plan_count: 1
@@ -332,18 +336,23 @@ rules:
   slug: shift4-payments-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.0
-  delta: 4.8
+  composite: 50.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 34.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 69.7
     contract_quality: 65.1
     developer_ergonomics: 66.7
-    discoverability: 50.0
+    discoverability: 44.4
     governance: 69.7
     operational_transparency: 23.7
-  previous_composite: 46.2
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     contracts:
@@ -357,8 +366,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/screenshots/shift4-payments-2026-06-20T193806.png
 security:

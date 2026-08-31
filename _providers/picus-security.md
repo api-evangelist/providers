@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 84
   slug: picus-security-agentic-access
   summary_line: 84 operations · 25 acting
-api_count: 14
+api_count: 15
 apis:
 - description: The Activity-Logs API from Picus Security — 1 operation(s) for activity-logs.
   name: Picus Security Activity Logs API
@@ -271,7 +271,7 @@ modified: '2026-08-02'
 name: Picus Security
 nav: Providers
 network: true
-overview: 'Picus Security publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Activity Logs API, Agents API, Authentication API, and 11 more. Tagged areas include Cybersecurity, Security Validation, Breach and Attack Simulation, Adversarial Exposure Validation, and Continuous Threat Exposure Management.
+overview: 'Picus Security publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Activity Logs API, Agents API, Authentication API, and 11 more. Tagged areas include Cybersecurity, security-validation, breach-and-attack-simulation, adversarial-exposure-validation, and continuous-threat-exposure-management.
 
 
   Picus Security''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 27 more developer resources.'
@@ -282,18 +282,23 @@ rate_limits:
   slug: picus-security-rate-limits
 score:
   band: developing
-  composite: 50.1
+  composite: 48.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 54.3
     developer_ergonomics: 35.1
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 59.2
-  previous_composite: 50.1
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -304,8 +309,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/screenshots/picus-security-2026-08-17T081225.png
 security:
@@ -328,14 +333,14 @@ security:
 slug: picus-security
 tags:
 - Cybersecurity
-- Security Validation
-- Breach and Attack Simulation
-- Adversarial Exposure Validation
-- Continuous Threat Exposure Management
-- Penetration Testing
+- security-validation
+- breach-and-attack-simulation
+- adversarial-exposure-validation
+- continuous-threat-exposure-management
+- penetration-testing
 - Threat Intelligence
 - mitre-attack
-- Detection Engineering
-- Security Operations
+- detection-engineering
+- security-operations
 website: https://www.picussecurity.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -490,6 +490,10 @@ collections:
   name: Amazon VPC Lattice
   slug: open-amazon-vpc-lattice
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-vpc-lattice-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -590,7 +594,7 @@ overview: 'Amazon VPC Lattice publishes 73 APIs on the [APIs.io](https://apis.io
   The Amazon VPC Lattice catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Amazon VPC Lattice''s developer surface includes developer portal, documentation, developer console, support, signup flow, and 12 more developer resources.'
+  Amazon VPC Lattice''s developer surface includes developer portal, documentation, developer console, support, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Vpc Lattice Plans Pricing
   plan_count: 3
@@ -614,18 +618,23 @@ rules:
   slug: amazon-vpc-lattice-spectral-rules
 score:
   band: developing
-  composite: 45.6
-  delta: 5.0
+  composite: 43.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 70.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 26.5
     contract_quality: 42.9
     developer_ergonomics: 50.0
-    discoverability: 59.3
+    discoverability: 40.7
     governance: 26.5
     operational_transparency: 26.3
-  previous_composite: 40.6
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     contracts:
@@ -633,9 +642,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 73
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/screenshots/amazon-vpc-lattice-2026-06-20T171847.png
 security:
 - kind: domain-security

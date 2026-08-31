@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 141
   human_in_the_loop: 25
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 227
   slug: kisi-agentic-access
   summary_line: 227 operations · 141 acting · 25 human-in-the-loop
-api_count: 48
+api_count: 1
 apis:
 - description: The Calendars API from KISI — 1 operation(s) for calendars.
   name: KISI Calendars API
@@ -337,6 +337,10 @@ collections:
   name: Kisi Calendars Wireless locks API
   slug: open-kisi-wireless-locks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kisi-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -472,7 +476,7 @@ network: true
 overview: 'KISI publishes 48 APIs on the [APIs.io](https://apis.io/) network, including Calendars API, Cameras API, Card assignments API, and 45 more. Tagged areas include Company, Physical Access Control, Security, Identity, and IoT.
 
 
-  KISI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+  KISI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
 random_paper: 12
 rate_limits:
 - limit_count: 0
@@ -485,18 +489,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.2
-  delta: 0.0
+  composite: 47.2
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.3
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 54.5
     developer_ergonomics: 49.4
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 49.2
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -507,8 +516,8 @@ score:
       total: 48
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/screenshots/kisi-2026-07-25T223853.png
 security:

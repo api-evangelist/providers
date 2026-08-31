@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 2
 common:
@@ -176,7 +176,7 @@ modified: '2026-05-23'
 name: IKEA U.S.
 nav: Providers
 network: true
-overview: 'IKEA U.S. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include B2B, Big-Box, Buy Back, Click and Collect, and Delivery.
+overview: 'IKEA U.S. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include B2B, Big-Box, Buy Back, Click And Collect, and Delivery.
 
 
   IKEA U.S.''s developer surface includes support, FAQ, GitHub presence, YouTube channel, and 29 more developer resources.'
@@ -184,6 +184,11 @@ random_paper: 7
 score:
   band: minimal
   composite: 6.6
+  coverage:
+    artifact_dirs: 2
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -195,8 +200,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 6.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security
@@ -212,7 +217,7 @@ tags:
 - B2B
 - Big-Box
 - Buy Back
-- Click and Collect
+- Click And Collect
 - Delivery
 - E-Commerce
 - Furniture

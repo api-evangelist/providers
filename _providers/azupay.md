@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -33,25 +33,37 @@ agentic_access:
   summary_line: 37 operations · 25 acting · 1 human-in-the-loop
 api_count: 6
 apis:
-- description: 'Receive real-time account-to-account payments from customers by creating PayID-addressed payment requests. Create, retrieve, search, delete, and refund PaymentRequests; poll payment status to confirm '
-  name: Azupay PaymentRequest API (AzupayId)
-  slug: azupay-payment-request-api
-- description: Send outbound NPP payments to a PayID or to a BSB and account number, then poll for settlement status. Search prior payments. Part of Azupay's AzupayOut disbursement/payout product for real-time money
-  name: Azupay Payment API (AzupayOut)
-  slug: azupay-payment-api
-- description: Establish and manage PayTo payment agreements and initiate eligible debits against them. Create, amend, change status, and search agreements; create payment agreement requests; schedule payments; init
-  name: Azupay PaymentAgreement & Initiation API (AzupayTo / PayTo)
-  slug: azupay-payment-agreement-api
-- description: 'Reduce misdirected-payment and fraud risk with real-time account checks. Confirm a payee''s BSB/account number and name via Confirmation of Payee (CoP), check whether an account issuer can receive NPP '
-  name: Azupay Account Check API (Confirmation of Payee)
+- description: Manage API keys for your clients.
+  name: Azupay API Keys API
+  slug: azupay-api-keys-api
+- description: Fetch transaction, billing and other reports.
+  name: Azupay Billing and Transaction Reports API
+  slug: azupay-billing-and-transaction-reports-api
+- description: Before you submit a Payment you can validate if the PayID or BSB account of the recipient exists and is eligible to receive payments.
+  name: Azupay Check Accounts API
   slug: azupay-check-accounts-api
-- description: Retrieve daily transaction reports by month or date range, obtain time-limited download links for reports, and check the current balance of an Azupay client account.
-  name: Azupay Report & Balance API
-  slug: azupay-reports-api
-- description: Manage the platform configuration for an Azupay integration. Create, replace, and disable sub-clients; provision, retrieve, and update API keys for sub merchants; enable and read OAuth 2.0 configurati
-  name: Azupay Clients & API Key Management API
-  slug: azupay-configuration-api
-artifact_total: 18
+- description: Would let you manage clients
+  name: Azupay Clients API
+  slug: azupay-clients-api
+- description: Obtain current dollar balances for Azupay products
+  name: Azupay Current Balances API
+  slug: azupay-current-balances-api
+- description: This API allows you to request Payments using mandates.
+  name: Azupay Payment Agreement API
+  slug: azupay-payment-agreement-api
+- description: This API generates a link to a one-time UX experience that enables payers to create and approve a PayTo Agreement, facilitating the setup of recurring payments through the Payment Initiation API or ba
+  name: Azupay Payment Agreement Request API
+  slug: azupay-payment-agreement-request-api
+- description: This API allows you to make outbound payments to PayID or NPP enabled BSB accounts.
+  name: Azupay Payment API
+  slug: azupay-payment-api
+- description: This API allows you to initiate Payments using mandates.
+  name: Azupay Payment Initiation API
+  slug: azupay-payment-initiation-api
+- description: This API allows your customers to make payments using PayID on your website, mobile app or over the counter.
+  name: Azupay Payment Request API
+  slug: azupay-payment-request-api
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Azupay Webhooks
@@ -76,6 +88,34 @@ collections:
   name: Azupay Reports & Balance API
   slug: open-azupay-reports
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/azupay-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/azupay-payment-request-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/azupay-payment-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/azupay-payment-agreement-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/azupay-check-accounts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/azupay-reports-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/azupay-configuration-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -221,13 +261,13 @@ modified: '2026-07-24'
 name: Azupay
 nav: Providers
 network: true
-overview: 'Azupay publishes 6 APIs on the [APIs.io](https://apis.io/) network, including PaymentRequest API (AzupayId), Payment API (AzupayOut), PaymentAgreement & Initiation API (AzupayTo / PayTo), and 3 more. Tagged areas include Payments, Australia, Real-Time Payments, Account-to-Account, and New Payments Platform.
+overview: 'Azupay publishes 10 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Billing and Transaction Reports API, Check Accounts API, and 7 more. Tagged areas include Payments, Australia, Real-Time Payments, Account-to-Account, and New Payments Platform.
 
 
   The Azupay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Azupay''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, changelog, pricing, and 26 more developer resources.'
+  Azupay''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, changelog, pricing, and 33 more developer resources.'
 random_paper: 15
 scopes:
 - name: Azupay Scopes
@@ -236,18 +276,23 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 53.0
+  composite: 51.3
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
-    contract_quality: 65.6
+    contract_governance: 4.5
+    contract_quality: 64.6
     developer_ergonomics: 53.0
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 53.0
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -264,8 +309,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/screenshots/azupay-2026-07-25T202124.png
 security:

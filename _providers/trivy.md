@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 2
   slug: trivy-agentic-access
   summary_line: 2 operations
-api_count: 4
+api_count: 1
 apis:
 - description: The Trivy Operator is a Kubernetes-native security toolkit that automatically scans clusters and generates security reports as Kubernetes Custom Resources. It defines 12 CRDs covering vulnerability re
   name: Trivy Operator
@@ -71,6 +71,22 @@ collections:
   name: Trivy Server API
   slug: open-trivy-server
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/aquasecurity/trivy-operator/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/aquasecurity/trivy-operator/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/aquasecurity/.github/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/aquasecurity/trivy-operator/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -233,7 +249,7 @@ overview: 'Trivy publishes 2 APIs on the [APIs.io](https://apis.io/) network: He
   The Trivy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Trivy''s developer surface includes authentication, documentation, getting-started guide, release notes, and 19 more developer resources.'
+  Trivy''s developer surface includes authentication, documentation, getting-started guide, release notes, and 23 more developer resources.'
 plans:
 - name: Trivy Plans Pricing
   plan_count: 3
@@ -267,18 +283,26 @@ rules:
   slug: trivy-rules
 score:
   band: thin
-  composite: 32.5
-  delta: 0.0
+  composite: 35.3
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 60.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 17.4
     contract_quality: 52.4
     developer_ergonomics: 21.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 17.4
     operational_transparency: 26.3
-  previous_composite: 32.5
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -286,8 +310,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trivy/refs/heads/main/screenshots/trivy-2026-06-20T195737.png
 security:

@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-26'
-api_count: 14
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: JSON WebSocket streaming of US stock trade/quote, options trade/quote, and index price streams, served locally by the Theta Terminal at ws://127.0.0.1:25520/v1/events. Requires a paid subscription wit
   name: ThetaData Streaming WebSocket API
@@ -44,43 +44,22 @@ apis:
 - description: Model Context Protocol server built into Theta Terminal v3, exposing the full v3 API to LLM CLIs (documented for Claude CLI and Gemini CLI) over SSE at http://127.0.0.1:25503/mcp/sse. Requires the ter
   name: ThetaData MCP Server
   slug: thetadata-mcp-server
-- description: The At-Time API from ThetaData — 5 operation(s) for at-time.
-  name: ThetaData At-Time API
-  slug: thetadata-at-time-api
 - description: The Calendar API from ThetaData — 3 operation(s) for calendar.
   name: ThetaData Calendar API
   slug: thetadata-calendar-api
-- description: The FlatFile API from ThetaData — 6 operation(s) for flatfile.
-  name: ThetaData FlatFile API
-  slug: thetadata-flatfile-api
-- description: The History API from ThetaData — 26 operation(s) for history.
-  name: ThetaData History API
-  slug: thetadata-history-api
 - description: The Index API from ThetaData — 10 operation(s) for index.
   name: ThetaData Index API
   slug: thetadata-index-api
 - description: The Interest Rate API from ThetaData — 1 operation(s) for interest rate.
   name: ThetaData Interest Rate API
   slug: thetadata-interest-rate-api
-- description: The List API from ThetaData — 9 operation(s) for list.
-  name: ThetaData List API
-  slug: thetadata-list-api
 - description: The Option API from ThetaData — 37 operation(s) for option.
   name: ThetaData Option API
   slug: thetadata-option-api
-- description: The Single Day API from ThetaData — 2 operation(s) for single day.
-  name: ThetaData Single Day API
-  slug: thetadata-single-day-api
-- description: The Snapshot API from ThetaData — 17 operation(s) for snapshot.
-  name: ThetaData Snapshot API
-  slug: thetadata-snapshot-api
 - description: The Stock API from ThetaData — 15 operation(s) for stock.
   name: ThetaData Stock API
   slug: thetadata-stock-api
-- description: The Year API from ThetaData — 1 operation(s) for year.
-  name: ThetaData Year API
-  slug: thetadata-year-api
-artifact_total: 45
+artifact_total: 38
 asyncapis:
 - description: JSON WebSocket streaming of US stock trade/quote, option trade/quote/full-trade, and index price/market-value streams, served locally by Theta Terminal v3. A single connection per user is permitted; a
   name: ThetaData Streaming WebSocket API (derived)
@@ -162,6 +141,34 @@ collections:
   name: Theta Data v3 At-Time Year API
   slug: open-thetadata-year-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/thetadata-at-time-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/thetadata-flatfile-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/thetadata-history-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/thetadata-list-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/thetadata-single-day-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/thetadata-snapshot-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/thetadata-year-api-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -318,13 +325,13 @@ modified: '2026-07-22'
 name: ThetaData
 nav: Providers
 network: true
-overview: 'ThetaData publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Streaming WebSocket API, At-Time API, Calendar API, and 10 more. Tagged areas include Financial, Market Data, Options, Stocks, and Indices.
+overview: 'ThetaData publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Streaming WebSocket API, Calendar API, Index API, and 3 more. Tagged areas include Financial, Market Data, Options, Stocks, and Indices.
 
 
   The ThetaData catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ThetaData''s developer surface includes developer portal, documentation, engineering blog, pricing, signup flow, support, getting-started guide, and 29 more developer resources.'
+  ThetaData''s developer surface includes developer portal, documentation, engineering blog, pricing, signup flow, support, getting-started guide, and 36 more developer resources.'
 plans:
 - name: Thetadata Plans
   plan_count: 7
@@ -336,18 +343,23 @@ rate_limits:
   slug: thetadata-rate-limits
 score:
   band: strong
-  composite: 65.2
-  delta: 0.0
+  composite: 63.2
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
-    contract_quality: 52.7
+    contract_governance: 4.5
+    contract_quality: 52.9
     developer_ergonomics: 73.2
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 78.9
-  previous_composite: 65.2
+  previous_composite: 63.8
   provenance:
     conformance: derived
     contracts:
@@ -363,8 +375,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/screenshots/thetadata-2026-07-22T202634.png
 security:

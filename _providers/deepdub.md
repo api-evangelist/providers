@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 24
   slug: deepdub-agentic-access
   summary_line: 24 operations · 15 acting
-api_count: 7
+api_count: 2
 apis:
 - description: The Dubbing API from Deepdub — 4 operation(s) for dubbing.
   name: Deepdub Dubbing API
@@ -91,6 +91,10 @@ collections:
   name: Deepdub Dubbing Voice API
   slug: open-deepdub-voice-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/deepdub-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -227,10 +231,10 @@ modified: '2026-07-18'
 name: Deepdub
 nav: Providers
 network: true
-overview: 'Deepdub publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Dubbing API, Gender Detection API, Infrastructure API, and 4 more. Tagged areas include Company, Voice, Text-to-Speech, Dubbing, and Localization.
+overview: 'Deepdub publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Dubbing API, Gender Detection API, Infrastructure API, and 4 more. Tagged areas include Company, Voice, Text to Speech, Dubbing, and Localization.
 
 
-  Deepdub''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 24 more developer resources.'
+  Deepdub''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 25 more developer resources.'
 random_paper: 15
 rate_limits:
 - limit_count: 2
@@ -238,18 +242,23 @@ rate_limits:
   slug: deepdub-rate-limits
 score:
   band: developing
-  composite: 52.0
-  delta: 0.0
+  composite: 50.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 66.0
     developer_ergonomics: 73.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 52.0
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -260,8 +269,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/screenshots/deepdub-2026-07-25T211547.png
 security:
@@ -277,7 +286,7 @@ slug: deepdub
 tags:
 - Company
 - Voice
-- Text-to-Speech
+- Text to Speech
 - Dubbing
 - Localization
 - Speech Synthesis

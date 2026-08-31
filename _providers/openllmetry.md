@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
 - description: The Traceloop SDK is the developer-facing entry point for OpenLLMetry. A single Traceloop.init() call configures OpenTelemetry, registers all available LLM/vector-DB/framework instrumentations, and st
@@ -55,6 +55,26 @@ apis:
   slug: openllmetry-otlp-exporters
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/traceloop/openllmetry/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/traceloop/openllmetry/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/traceloop/openllmetry/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/traceloop/openllmetry/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/traceloop/openllmetry/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -110,12 +130,17 @@ network: true
 overview: 'OpenLLMetry publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LLM, Observability, Open-Source, and OpenTelemetry.
 
 
-  OpenLLMetry''s developer surface includes documentation, engineering blog, getting-started guide, and 8 more developer resources.'
+  OpenLLMetry''s developer surface includes documentation, engineering blog, getting-started guide, and 13 more developer resources.'
 random_paper: 14
 score:
   band: emerging
-  composite: 13.8
-  delta: 3.3
+  composite: 25.5
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -124,10 +149,13 @@ score:
     developer_ergonomics: 33.3
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 10.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 31.6
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 25.5
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openllmetry/refs/heads/main/screenshots/openllmetry-2026-06-20T191014.png
 security:

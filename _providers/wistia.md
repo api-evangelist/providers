@@ -25,15 +25,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.6
-  scored_at: '2026-08-26'
+  score: 38.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -41,17 +41,8 @@ agentic_access:
   operation_count: 48
   slug: wistia-agentic-access
   summary_line: 48 operations · 32 acting
-api_count: 16
+api_count: 4
 apis:
-- description: REST API providing programmatic access to medias, projects, accounts, customizations, captions, and statistics in a Wistia account. Data is returned in JSON over HTTPS. Authentication uses Bearer Toke
-  name: Wistia Data API
-  slug: data-api
-- description: The current STABLE release of Wistia's modern Data API — 55 paths and 85 operations covering media, folders, subfolders, folder sharings, captions, localizations, trims, customizations, tags, taggings
-  name: Wistia Data API 2026-01
-  slug: data-api-2026-01
-- description: 'The edge description of Wistia''s modern API — 115 paths and 167 operations, the preview of what lands in the next dated stable release. It carries surfaces absent from 2026-01: Remix (AI video editing'
-  name: Wistia Data API (modern, edge)
-  slug: data-api-modern-edge
 - description: Wistia's first-party hosted Model Context Protocol server, exposing 125 tools across the media, folders, channels, captions, customizations, tags, webinars, sharing, account, analytics, stats and remi
   name: Wistia MCP Server
   slug: mcp
@@ -91,7 +82,118 @@ apis:
 - description: The Webinars API from Wistia — 3 operation(s) for webinars.
   name: Wistia Webinars API
   slug: wistia-webinars-api
-artifact_total: 39
+- description: The Allowed Domains API from Wistia — 2 operation(s) for allowed domains.
+  name: Wistia Allowed Domains API
+  slug: wistia-allowed-domains-api
+- description: The Analytics:Account API from Wistia — 4 operation(s) for analytics:account.
+  name: Wistia Analytics:Account API
+  slug: wistia-analytics-account-api
+- description: The Analytics:Media API from Wistia — 7 operation(s) for analytics:media.
+  name: Wistia Analytics:Media API
+  slug: wistia-analytics-media-api
+- description: The Analytics:Webinar API from Wistia — 5 operation(s) for analytics:webinar.
+  name: Wistia Analytics:Webinar API
+  slug: wistia-analytics-webinar-api
+- description: The Background Job Status API from Wistia — 1 operation(s) for background job status.
+  name: Wistia Background Job Status API
+  slug: wistia-background-job-status-api
+- description: The Brands API from Wistia — 1 operation(s) for brands.
+  name: Wistia Brands API
+  slug: wistia-brands-api
+- description: The Bulk Actions API from Wistia — 1 operation(s) for bulk actions.
+  name: Wistia Bulk Actions API
+  slug: wistia-bulk-actions-api
+- description: The Channel Collaborators API from Wistia — 2 operation(s) for channel collaborators.
+  name: Wistia Channel Collaborators API
+  slug: wistia-channel-collaborators-api
+- description: The Channel Episodes API from Wistia — 6 operation(s) for channel episodes.
+  name: Wistia Channel Episodes API
+  slug: wistia-channel-episodes-api
+- description: The Custom Metadata Field Definitions API from Wistia — 3 operation(s) for custom metadata field definitions.
+  name: Wistia Custom Metadata Field Definitions API
+  slug: wistia-custom-metadata-field-definitions-api
+- description: The Custom Metadata Field Values API from Wistia — 2 operation(s) for custom metadata field values.
+  name: Wistia Custom Metadata Field Values API
+  slug: wistia-custom-metadata-field-values-api
+- description: The Deleted Media API from Wistia — 2 operation(s) for deleted media.
+  name: Wistia Deleted Media API
+  slug: wistia-deleted-media-api
+- description: The Expiring Access Tokens API from Wistia — 1 operation(s) for expiring access tokens.
+  name: Wistia Expiring Access Tokens API
+  slug: wistia-expiring-access-tokens-api
+- description: The Extended Audio Descriptions API from Wistia — 4 operation(s) for extended audio descriptions.
+  name: Wistia Extended Audio Descriptions API
+  slug: wistia-extended-audio-descriptions-api
+- description: The Folder Sharings API from Wistia — 2 operation(s) for folder sharings.
+  name: Wistia Folder Sharings API
+  slug: wistia-folder-sharings-api
+- description: The Live Stream Event Registrations API from Wistia — 1 operation(s) for live stream event registrations.
+  name: Wistia Live Stream Event Registrations API
+  slug: wistia-live-stream-event-registrations-api
+- description: The Live Stream Events API from Wistia — 2 operation(s) for live stream events.
+  name: Wistia Live Stream Events API
+  slug: wistia-live-stream-events-api
+- description: The Localizations API from Wistia — 2 operation(s) for localizations.
+  name: Wistia Localizations API
+  slug: wistia-localizations-api
+- description: The Media API from Wistia — 11 operation(s) for media.
+  name: Wistia Media API
+  slug: wistia-media-api
+- description: The Project Sharings API from Wistia — 2 operation(s) for project sharings.
+  name: Wistia Project Sharings API
+  slug: wistia-project-sharings-api
+- description: The Projects API from Wistia — 3 operation(s) for projects.
+  name: Wistia Projects API
+  slug: wistia-projects-api
+- description: The Push Devices API from Wistia — 2 operation(s) for push devices.
+  name: Wistia Push Devices API
+  slug: wistia-push-devices-api
+- description: The Remix API from Wistia — 5 operation(s) for remix.
+  name: Wistia Remix API
+  slug: wistia-remix-api
+- description: The Resource URLs API from Wistia — 1 operation(s) for resource urls.
+  name: Wistia Resource URLs API
+  slug: wistia-resource-urls-api
+- description: The Review Bundles API from Wistia — 2 operation(s) for review bundles.
+  name: Wistia Review Bundles API
+  slug: wistia-review-bundles-api
+- description: The Search API from Wistia — 1 operation(s) for search.
+  name: Wistia Search API
+  slug: wistia-search-api
+- description: The Share Links API from Wistia — 2 operation(s) for share links.
+  name: Wistia Share Links API
+  slug: wistia-share-links-api
+- description: The Stats:Account API from Wistia — 2 operation(s) for stats:account.
+  name: Wistia Stats:Account API
+  slug: wistia-stats-account-api
+- description: The Stats:Events API from Wistia — 2 operation(s) for stats:events.
+  name: Wistia Stats:Events API
+  slug: wistia-stats-events-api
+- description: The Stats:Media API from Wistia — 3 operation(s) for stats:media.
+  name: Wistia Stats:Media API
+  slug: wistia-stats-media-api
+- description: The Stats:Projects API from Wistia — 1 operation(s) for stats:projects.
+  name: Wistia Stats:Projects API
+  slug: wistia-stats-projects-api
+- description: The Stats:Visitors API from Wistia — 2 operation(s) for stats:visitors.
+  name: Wistia Stats:Visitors API
+  slug: wistia-stats-visitors-api
+- description: The Subfolders API from Wistia — 5 operation(s) for subfolders.
+  name: Wistia Subfolders API
+  slug: wistia-subfolders-api
+- description: The Taggings API from Wistia — 1 operation(s) for taggings.
+  name: Wistia Taggings API
+  slug: wistia-taggings-api
+- description: The Trims API from Wistia — 1 operation(s) for trims.
+  name: Wistia Trims API
+  slug: wistia-trims-api
+- description: The Webinar Collaborators API from Wistia — 2 operation(s) for webinar collaborators.
+  name: Wistia Webinar Collaborators API
+  slug: wistia-webinar-collaborators-api
+- description: The Webinar Registrations API from Wistia — 1 operation(s) for webinar registrations.
+  name: Wistia Webinar Registrations API
+  slug: wistia-webinar-registrations-api
+artifact_total: 73
 asyncapis:
 - description: AsyncAPI 2.6 description of Wistia's webhook surface. Wistia delivers real-time notifications about media lifecycle events to a consumer endpoint configured in your Wistia account. All webhooks are de
   name: Wistia Webhooks API
@@ -137,6 +239,10 @@ collections:
   name: Wistia Data API
   slug: open-wistia
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/wistia-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -309,13 +415,13 @@ modified: '2026-08-14'
 name: Wistia
 nav: Providers
 network: true
-overview: 'Wistia publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Data API, Data API 2026-01, Data API (modern, edge), and 11 more. Tagged areas include Video Hosting, Video Marketing, Video Analytics, Lead Generation, and Webinars.
+overview: 'Wistia publishes 48 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Account API, AllowedDomains API, and 45 more. Tagged areas include Video Hosting, Video Marketing, Video Analytics, Lead Generation, and Webinars.
 
 
   The Wistia catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
-  Wistia''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, pricing, and 33 more developer resources.'
+  Wistia''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, pricing, and 34 more developer resources.'
 plans:
 - name: Wistia Plans Pricing
   plan_count: 4
@@ -344,18 +450,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 66.2
-  delta: 1.1
+  composite: 62.8
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 60.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.9
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 41.7
-    contract_quality: 62.9
+    contract_governance: 29.5
+    contract_quality: 65.0
     developer_ergonomics: 54.2
-    discoverability: 81.5
-    governance: 41.7
+    discoverability: 57.4
+    governance: 29.5
     operational_transparency: 61.8
-  previous_composite: 65.1
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -366,8 +477,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/screenshots/wistia-2026-06-20T201532.png
 security:

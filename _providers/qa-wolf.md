@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Continuous integration triggers and pipeline gating
   name: QA Wolf CI API
@@ -194,7 +194,7 @@ modified: '2026-07-20'
 name: QA Wolf
 nav: Providers
 network: true
-overview: 'QA Wolf publishes 2 APIs on the [APIs.io](https://apis.io/) network: CI API and Webhooks API. Tagged areas include Company, DevTools, Testing, Test Automation, and QA.
+overview: 'QA Wolf publishes 2 APIs on the [APIs.io](https://apis.io/) network: CI API and Webhooks API. Tagged areas include Company, Devtools, Testing, Test Automation, and QA.
 
 
   The QA Wolf catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -204,18 +204,23 @@ overview: 'QA Wolf publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 random_paper: 2
 score:
   band: developing
-  composite: 43.3
+  composite: 41.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 22.4
     developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 43.3
+  previous_composite: 41.8
   provenance:
     conformance: derived
     contracts:
@@ -225,8 +230,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qa-wolf/refs/heads/main/screenshots/qa-wolf-2026-08-17T081412.png
 security:
@@ -245,7 +250,7 @@ security:
 slug: qa-wolf
 tags:
 - Company
-- DevTools
+- Devtools
 - Testing
 - Test Automation
 - QA

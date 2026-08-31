@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 3
   slug: lowes-agentic-access
   summary_line: 3 operations
-api_count: 3
+api_count: 1
 apis:
 - description: Check product availability and stock levels.
   name: Lowe's Inventory API
@@ -71,6 +71,10 @@ collections:
   name: Lowe's Product Inventory Stores API
   slug: open-lowes-stores-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lowes-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -122,7 +126,7 @@ network: true
 overview: 'Lowe''s publishes 3 APIs on the [APIs.io](https://apis.io/) network: Inventory API, Products API, and Stores API. Tagged areas include E-Commerce, Home Improvement, Product, Retail, and Fortune 100.
 
 
-  Lowe''s'' developer surface includes authentication, developer portal, signup flow, and 6 more developer resources.'
+  Lowe''s'' developer surface includes authentication, developer portal, signup flow, and 7 more developer resources.'
 plans:
 - name: Lowes Plans Pricing
   plan_count: 1
@@ -150,18 +154,23 @@ rate_limits:
   slug: lowes-rate-limits
 score:
   band: thin
-  composite: 31.0
-  delta: 1.9
+  composite: 30.4
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 19.7
     commercial_clarity: 19.7
     contract_governance: 0.0
     contract_quality: 49.7
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 29.1
+  previous_composite: 31.0
   provenance:
     agentic_access: derived
     contracts:
@@ -169,8 +178,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/screenshots/lowes-2026-06-20T184736.png
 security:

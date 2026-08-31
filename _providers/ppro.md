@@ -23,21 +23,77 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 21
 apis:
-- description: PPRO's current-generation REST payments platform. Payment charges, payment instruments, payment agreements and payment sessions are the four core objects; captures, refunds and voids are sub-resources
-  name: PPRO Global API
-  slug: ppro-global-api
-- description: Merchant boarding and enrollment for PPRO platforms and PSPs — create and amend merchants, people, platforms and PSP records, and enroll merchants onto payment methods. The boarding contract publishes
-  name: PPRO Onboarding API
-  slug: ppro-onboarding-api
-artifact_total: 10
+- description: The Authorization Endpoints API from PPRO — 5 operation(s) for authorization endpoints.
+  name: PPRO Authorization Endpoints API
+  slug: ppro-authorization-endpoints-api
+- description: The Capture Endpoints API from PPRO — 2 operation(s) for capture endpoints.
+  name: PPRO Capture Endpoints API
+  slug: ppro-capture-endpoints-api
+- description: Endpoints for generating and retrieving dispute reports
+  name: PPRO Dispute Reports API
+  slug: ppro-dispute-reports-api
+- description: The Disputes API from PPRO — 6 operation(s) for disputes.
+  name: PPRO Disputes API
+  slug: ppro-disputes-api
+- description: The Enrollment Endpoints API from PPRO — 2 operation(s) for enrollment endpoints.
+  name: PPRO Enrollment Endpoints API
+  slug: ppro-enrollment-endpoints-api
+- description: The Internal API from PPRO — 4 operation(s) for internal.
+  name: PPRO Internal API
+  slug: ppro-internal-api
+- description: Merchant management
+  name: PPRO Merchants API
+  slug: ppro-merchants-api
+- description: The Payment Agreement Revocations API from PPRO — 1 operation(s) for payment agreement revocations.
+  name: PPRO Payment Agreement Revocations API
+  slug: ppro-payment-agreement-revocations-api
+- description: The Payment Agreements API from PPRO — 2 operation(s) for payment agreements.
+  name: PPRO Payment Agreements API
+  slug: ppro-payment-agreements-api
+- description: The payment-charge-controller API from PPRO — 1 operation(s) for payment-charge-controller.
+  name: PPRO Payment Charge Controller API
+  slug: ppro-payment-charge-controller-api
+- description: The Payment Charges API from PPRO — 1 operation(s) for payment charges.
+  name: PPRO Payment Charges API
+  slug: ppro-payment-charges-api
+- description: The Payment Instruments API from PPRO — 2 operation(s) for payment instruments.
+  name: PPRO Payment Instruments API
+  slug: ppro-payment-instruments-api
+- description: The Payment Sessions API from PPRO — 3 operation(s) for payment sessions.
+  name: PPRO Payment Sessions API
+  slug: ppro-payment-sessions-api
+- description: Person management
+  name: PPRO People API
+  slug: ppro-people-api
+- description: Platform management
+  name: PPRO Platforms API
+  slug: ppro-platforms-api
+- description: PSP management
+  name: PPRO PS Ps API
+  slug: ppro-psps-api
+- description: The Refund Endpoints API from PPRO — 2 operation(s) for refund endpoints.
+  name: PPRO Refund Endpoints API
+  slug: ppro-refund-endpoints-api
+- description: The Void Endpoints API from PPRO — 2 operation(s) for void endpoints.
+  name: PPRO Void Endpoints API
+  slug: ppro-void-endpoints-api
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Ppro Webhooks
   slug: ppro-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ppro-capability-edges.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/ppro-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -182,13 +238,13 @@ modified: '2026-08-26'
 name: PPRO
 nav: Providers
 network: true
-overview: 'PPRO publishes 2 APIs on the [APIs.io](https://apis.io/) network: Global API and Onboarding API. Tagged areas include Payments, Local Payment Methods, Financial Services, Fintech, and Acquiring.
+overview: 'PPRO publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Authorization Endpoints API, Capture Endpoints API, Dispute Reports API, and 15 more. Tagged areas include Payments, Local Payment Methods, Financial-Services, Fintech, and Acquiring.
 
 
   The PPRO catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  PPRO''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 26 more developer resources.'
+  PPRO''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 28 more developer resources.'
 plans:
 - name: Ppro Plans Pricing
   plan_count: 0
@@ -199,17 +255,24 @@ rate_limits:
   name: Ppro Rate Limits
   slug: ppro-rate-limits
 score:
-  band: strong
-  composite: 56.0
+  band: developing
+  composite: 53.8
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 30.3
-    contract_quality: 61.3
+    contract_governance: 18.2
+    contract_quality: 60.3
     developer_ergonomics: 54.2
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 73.7
+  previous_composite: 53.8
   provenance:
     conformance: first-party
     contracts:
@@ -225,8 +288,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Ppro Authentication
@@ -248,12 +312,12 @@ slug: ppro
 tags:
 - Payments
 - Local Payment Methods
-- Financial Services
+- Financial-Services
 - Fintech
 - Acquiring
 - Checkout
-- E-commerce
-- Digital Wallets
+- E-Commerce
+- Digital Wallet
 - Recurring Payments
 - Disputes
 - Chargebacks

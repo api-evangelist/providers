@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 277
   slug: labguru-agentic-access
   summary_line: 277 operations · 143 acting
-api_count: 69
+api_count: 2
 apis:
 - description: The Antibodies API from Labguru — 2 operation(s) for antibodies.
   name: Labguru Antibodies API
@@ -463,6 +463,10 @@ collections:
   name: Labguru Antibodies Yeasts API
   slug: open-labguru-yeasts-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/labguru-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1087,7 +1091,7 @@ overview: 'Labguru publishes 69 APIs on the [APIs.io](https://apis.io/) network,
   The Labguru catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Labguru''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+  Labguru''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
 plans:
 - name: Labguru Plans Pricing
   plan_count: 3
@@ -1110,18 +1114,23 @@ rules:
   slug: labguru-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.3
-  delta: 6.8
+  composite: 41.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 49.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 57.0
     developer_ergonomics: 23.8
-    discoverability: 68.5
+    discoverability: 44.4
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 37.5
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1135,9 +1144,9 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labguru/refs/heads/main/screenshots/labguru-2026-06-20T184239.png
 security:
 - kind: domain-security

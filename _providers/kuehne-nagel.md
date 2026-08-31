@@ -23,61 +23,154 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 17
 apis:
-- description: Find and show details of the customer's shipments, with contents reflecting the visibility configured in myKN. Search shipments, load a single shipment by unique reference, and read history records. R
-  name: Kuehne+Nagel ShipmentTracking API
-  slug: shipment-tracking
-- description: 'Find and show details of the customer''s seafreight containers, reflecting myKN visibility. Container search plus a per-container read keyed on the Kuehne+Nagel unique shipment reference and container '
-  name: Kuehne+Nagel ContainerTracking API
-  slug: container-tracking
-- description: A service for consumers to receive order data information, searched by order attributes. Carries UN/LOCODE port fields, HS codes, EORI numbers and a GS1 global location number field on item attributes
-  name: Kuehne+Nagel OrderTracking API
-  slug: order-tracking
-- description: Read cargo items and their telemetry readings for real-time visibility. Two GET operations, polled; no subscription or push channel is published.
-  name: Kuehne+Nagel RealTimeVisibility-Tracking API
-  slug: real-time-visibility-tracking
-- description: 'A service for consumers to book an air shipment, optionally applying product prices supplied via the Airfreight Quote API. Carries IATA three-letter airport codes, air waybill and HAWB service types, '
-  name: Kuehne+Nagel BookingAir API
-  slug: booking-air
-- description: A service for consumers to book road shipments, with master-data category lookups and a document upload operation alongside booking creation.
-  name: Kuehne+Nagel BookingRoad API
-  slug: booking-road
-- description: Create and update order bookings by shipper's reference and poll a process state. Discriminated booking bodies for AIR, FCL and LCL, with UN/LOCODE-typed ports and airports.
-  name: Kuehne+Nagel OrderBooking API
-  slug: order-booking
-- description: Create, patch, search and cancel purchase orders scoped to a Kuehne+Nagel customer code. UN/LOCODE ports, HS codes and EORI numbers appear on the order model.
-  name: Kuehne+Nagel PurchaseOrderManagement API
-  slug: purchase-order-management
-- description: Read the purchase-order configuration for a given Kuehne+Nagel customer code. The devportal publishes only an internal gateway environment for this API; no external endpoint URL is advertised.
-  name: Kuehne+Nagel eSOPPurchaseOrderConfiguration API
-  slug: esop-purchase-order-configuration
-- description: Lets service providers submit container equipment events for shipments booked with Kuehne+Nagel, following Digital Container Shipping Association (DCSA) standards. Inbound only — Kuehne+Nagel receives
-  name: Kuehne+Nagel OceanEventInbox API
-  slug: ocean-event-inbox
-- description: Validates and accepts incoming shipment event entries from third parties. Inbound only; the specification names a third-party application as the intended publisher.
-  name: Kuehne+Nagel ShipmentEventIntegration API
-  slug: shipment-event-integration
-- description: Upsert or delete an externally-sourced shipment against a Kuehne+Nagel customer code and shipment number — the surface through which non-Kuehne+Nagel shipments are fed into Kuehne+Nagel visibility.
-  name: Kuehne+Nagel ExternalShipmentIntegration API
-  slug: external-shipment-integration
-- description: 'Carrier-facing pickup-and-delivery execution for sea intermodal legs — list assigned consignments, pull job documents, post job status, post GPS tracking and post proof of delivery per waypoint. Uses '
-  name: Kuehne+Nagel IntermodalTransportExecution API
-  slug: intermodal-transport-execution
-- description: List, download, add and delete shipment-related documents against a Kuehne+Nagel unique shipment reference, plus a lookup of uploadable document types. The current version for new integrations.
-  name: Kuehne+Nagel ShipmentDocumentManagement API v3
-  slug: shipment-document-management-v3
-- description: Legacy document management for shipment documents, limited to adding and downloading documents. Marked in the developer portal as legacy and intended for existing integrations only; v3 is directed for
-  name: Kuehne+Nagel ShipmentDocumentManagement API v2
-  slug: shipment-document-management-v2
-- description: Described in the developer portal as being for bespoke customs integrations with customers. The published OpenAPI declares two POST operations, /order and /document, with no request schemas, no respon
-  name: Kuehne+Nagel B2B-CustomsEDI API
-  slug: b2b-customs-edi
-- description: Published in the developer portal as B2B-OldKAIExtractAPI — extract structured information from documents, with workspace management, synchronous and asynchronous file and zip processing, prompt-drive
-  name: Kuehne+Nagel KAI Document Extract API
-  slug: kai-document-extract
-artifact_total: 34
+- description: The administration-layer API from Kuehne+Nagel — 1 operation(s) for administration-layer.
+  name: Kuehne+Nagel Administration Layer API
+  slug: kuehne-nagel-administration-layer-api
+- description: Management of API keys for workspace authentication.
+  name: Kuehne+Nagel API Keys API
+  slug: kuehne-nagel-api-keys-api
+- description: The Assigned Consignments API from Kuehne+Nagel — 1 operation(s) for assigned consignments.
+  name: Kuehne+Nagel Assigned Consignments API
+  slug: kuehne-nagel-assigned-consignments-api
+- description: Monitor and manage background scheduled tasks.
+  name: Kuehne+Nagel Background Tasks API
+  slug: kuehne-nagel-background-tasks-api
+- description: The booking API from Kuehne+Nagel — 2 operation(s) for booking.
+  name: Kuehne+Nagel Booking API
+  slug: kuehne-nagel-booking-api
+- description: The Booking Requests API from Kuehne+Nagel — 1 operation(s) for booking requests.
+  name: Kuehne+Nagel Booking Requests API
+  slug: kuehne-nagel-booking-requests-api
+- description: Assets (possible types are PACKAGE, CONTAINER and UNKNOWN) belonging to a shipment.
+  name: Kuehne+Nagel Cargo Items API
+  slug: kuehne-nagel-cargoitems-api
+- description: API configuration and metadata endpoints.
+  name: Kuehne+Nagel Config API
+  slug: kuehne-nagel-config-api
+- description: The container API from Kuehne+Nagel — 2 operation(s) for container.
+  name: Kuehne+Nagel Container API
+  slug: kuehne-nagel-container-api
+- description: Operations to delete shipment documents.
+  name: Kuehne+Nagel Delete API
+  slug: kuehne-nagel-delete-api
+- description: The Document API from Kuehne+Nagel — 1 operation(s) for document.
+  name: Kuehne+Nagel Document API
+  slug: kuehne-nagel-document-api
+- description: The Document Request API from Kuehne+Nagel — 1 operation(s) for document request.
+  name: Kuehne+Nagel Document Request API
+  slug: kuehne-nagel-document-request-api
+- description: The documents API from Kuehne+Nagel — 4 operation(s) for documents.
+  name: Kuehne+Nagel Documents API
+  slug: kuehne-nagel-documents-api
+- description: Operations to download shipment documents.
+  name: Kuehne+Nagel Download API
+  slug: kuehne-nagel-download-api
+- description: The esp-order-track API from Kuehne+Nagel — 1 operation(s) for esp-order-track.
+  name: Kuehne+Nagel Esp Order Track API
+  slug: kuehne-nagel-esp-order-track-api
+- description: Event operations
+  name: Kuehne+Nagel Events API
+  slug: kuehne-nagel-events-api
+- description: The export API from Kuehne+Nagel — 1 operation(s) for export.
+  name: Kuehne+Nagel Export API
+  slug: kuehne-nagel-export-api
+- description: The ExternalShipment API from Kuehne+Nagel — 1 operation(s) for externalshipment.
+  name: Kuehne+Nagel External Shipment API
+  slug: kuehne-nagel-externalshipment-api
+- description: The GPS Tracking API from Kuehne+Nagel — 1 operation(s) for gps tracking.
+  name: Kuehne+Nagel GPS Tracking API
+  slug: kuehne-nagel-gps-tracking-api
+- description: The Health API from Kuehne+Nagel — 1 operation(s) for health.
+  name: Kuehne+Nagel Health API
+  slug: kuehne-nagel-health-api
+- description: The Healthz API from Kuehne+Nagel — 1 operation(s) for healthz.
+  name: Kuehne+Nagel Healthz API
+  slug: kuehne-nagel-healthz-api
+- description: The Job Documents API from Kuehne+Nagel — 1 operation(s) for job documents.
+  name: Kuehne+Nagel Job Documents API
+  slug: kuehne-nagel-job-documents-api
+- description: The Job Status API from Kuehne+Nagel — 1 operation(s) for job status.
+  name: Kuehne+Nagel Job Status API
+  slug: kuehne-nagel-job-status-api
+- description: Operations for monitoring and managing asynchronous extraction jobs.
+  name: Kuehne+Nagel Jobs API
+  slug: kuehne-nagel-jobs-api
+- description: Operations to list shipment documents.
+  name: Kuehne+Nagel List API
+  slug: kuehne-nagel-list-api
+- description: The Master Data API from Kuehne+Nagel — 3 operation(s) for master data.
+  name: Kuehne+Nagel Master Data API
+  slug: kuehne-nagel-master-data-api
+- description: The Metrics API from Kuehne+Nagel — 1 operation(s) for metrics.
+  name: Kuehne+Nagel Metrics API
+  slug: kuehne-nagel-metrics-api
+- description: The Order API from Kuehne+Nagel — 1 operation(s) for order.
+  name: Kuehne+Nagel Order API
+  slug: kuehne-nagel-order-api
+- description: Post event description
+  name: Kuehne+Nagel Post event API
+  slug: kuehne-nagel-post-event-api
+- description: Process individual files using LLM extraction with prompt templates.
+  name: Kuehne+Nagel Process File API
+  slug: kuehne-nagel-process-file-api
+- description: The process-state API from Kuehne+Nagel — 1 operation(s) for process-state.
+  name: Kuehne+Nagel Process State API
+  slug: kuehne-nagel-process-state-api
+- description: Process ZIP archives containing multiple files using LLM extraction.
+  name: Kuehne+Nagel Process Zip API
+  slug: kuehne-nagel-process-zip-api
+- description: Assign and manage tags for specific prompt versions.
+  name: Kuehne+Nagel Prompt Tags API
+  slug: kuehne-nagel-prompt-tags-api
+- description: Manage prompts for workspaces.
+  name: Kuehne+Nagel Prompts API
+  slug: kuehne-nagel-prompts-api
+- description: The Proof of Delivery API from Kuehne+Nagel — 1 operation(s) for proof of delivery.
+  name: Kuehne+Nagel Proof of Delivery API
+  slug: kuehne-nagel-proof-of-delivery-api
+- description: The purchase-order-layer API from Kuehne+Nagel — 3 operation(s) for purchase-order-layer.
+  name: Kuehne+Nagel Purchase Order Layer API
+  slug: kuehne-nagel-purchase-order-layer-api
+- description: Manage workspace processing quotas and limits.
+  name: Kuehne+Nagel Quotas API
+  slug: kuehne-nagel-quotas-api
+- description: Manage schemas for workspaces.
+  name: Kuehne+Nagel Schemas API
+  slug: kuehne-nagel-schemas-api
+- description: The shipment API from Kuehne+Nagel — 4 operation(s) for shipment.
+  name: Kuehne+Nagel Shipment API
+  slug: kuehne-nagel-shipment-api
+- description: Manage tags for workspaces and prompts.
+  name: Kuehne+Nagel Tags API
+  slug: kuehne-nagel-tags-api
+- description: Telemetry assigned to a cargo item (PACKAGE/CONTAINER/UNKNOWN).
+  name: Kuehne+Nagel Telemetry API
+  slug: kuehne-nagel-telemetry-api
+- description: Manage test cases for prompt evaluation.
+  name: Kuehne+Nagel Test Cases API
+  slug: kuehne-nagel-test-cases-api
+- description: The test-sets API from Kuehne+Nagel — 8 operation(s) for test-sets.
+  name: Kuehne+Nagel Test Sets API
+  slug: kuehne-nagel-test-sets-api
+- description: Manage and discover available LLM tools for function calling. Includes both local tools and tools from registered MCP servers.
+  name: Kuehne+Nagel Tools API
+  slug: kuehne-nagel-tools-api
+- description: Operations to upload shipment documents.
+  name: Kuehne+Nagel Upload API
+  slug: kuehne-nagel-upload-api
+- description: The usage-statistics API from Kuehne+Nagel — 1 operation(s) for usage-statistics.
+  name: Kuehne+Nagel Usage Statistics API
+  slug: kuehne-nagel-usage-statistics-api
+- description: The users API from Kuehne+Nagel — 4 operation(s) for users.
+  name: Kuehne+Nagel Users API
+  slug: kuehne-nagel-users-api
+- description: Manage workspaces.
+  name: Kuehne+Nagel Workspaces API
+  slug: kuehne-nagel-workspaces-api
+artifact_total: 65
 collections:
 - collection_type: open
   name: B2B-CustomsEDI
@@ -131,6 +224,10 @@ collections:
   name: ShipmentTracking
   slug: open-kuehne-nagel-shipment-tracking-v2
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kuehne-nagel-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -172,22 +269,27 @@ modified: '2026-07-30'
 name: Kuehne+Nagel
 nav: Providers
 network: true
-overview: 'Kuehne+Nagel publishes 17 APIs on the [APIs.io](https://apis.io/) network, including ShipmentTracking API, ContainerTracking API, OrderTracking API, and 14 more. Tagged areas include Logistics, Supply Chain, Switzerland, Freight Forwarding, and Ocean Freight.
+overview: 'Kuehne+Nagel publishes 48 APIs on the [APIs.io](https://apis.io/) network, including Administration Layer API, API Keys API, Assigned Consignments API, and 45 more. Tagged areas include Logistics, Supply Chain, Switzerland, Freight Forwarding, and Ocean Freight.
 
 
-  Kuehne+Nagel''s developer surface includes documentation, developer portal, signup flow, and 5 more developer resources.'
+  Kuehne+Nagel''s developer surface includes documentation, developer portal, signup flow, and 6 more developer resources.'
 random_paper: 7
 score:
   band: emerging
-  composite: 23.3
-  delta: -0.6
+  composite: 24.3
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 47.9
+    contract_quality: 50.3
     developer_ergonomics: 9.5
-    discoverability: 64.8
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
   needs_work:
@@ -196,15 +298,15 @@ score:
     reasons:
     - owner: catalog
       reason: not_a_repo
-  previous_composite: 23.9
+  previous_composite: 24.3
   provenance:
     contracts:
       callable: 35.3
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuehne-nagel/refs/heads/main/screenshots/kuehne-nagel-2026-08-07T171345.png
 slug: kuehne-nagel

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 20
   slug: cloudflare-queues-agentic-access
   summary_line: 20 operations · 14 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Operations for managing queue consumers (Worker push or HTTP pull)
   name: Cloudflare Queues Consumer API
@@ -262,18 +262,26 @@ rules:
     warn: 4
   slug: cloudflare-queues-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 52.2
-  delta: 0.0
+  band: strong
+  composite: 56.5
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 4.3
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 63.7
     developer_ergonomics: 47.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 78.9
+  open_source:
+    applies: true
+    score: 100.0
   previous_composite: 52.2
   provenance:
     agentic_access: derived
@@ -282,8 +290,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-queues/refs/heads/main/screenshots/cloudflare-queues-2026-06-20T174559.png
 security:
@@ -308,6 +316,6 @@ tags:
 - Cloudflare
 - Async
 - Dead Letter Queue
-- Event-Driven
+- Event Driven
 website: https://www.cloudflare.com/developer-platform/queues/
 ---

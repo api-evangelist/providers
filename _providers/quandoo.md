@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 24
   slug: quandoo-agentic-access
   summary_line: 24 operations · 6 acting
-api_count: 10
+api_count: 1
 apis:
 - description: The Availabilities API from Quandoo — 2 operation(s) for availabilities.
   name: Quandoo Availabilities API
@@ -838,18 +838,23 @@ rules:
   slug: quandoo-spectral-rules
 score:
   band: strong
-  composite: 55.9
-  delta: 3.1
+  composite: 55.3
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 27.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 28.8
     contract_quality: 75.8
     developer_ergonomics: 50.0
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 52.8
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     contracts:
@@ -863,8 +868,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quandoo/refs/heads/main/screenshots/quandoo-2026-06-20T192405.png
 security:

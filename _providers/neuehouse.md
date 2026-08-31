@@ -23,14 +23,135 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: 'The public content API NeueHouse serves from its own host at https://www.neuehouse.com/wp-json/. NeueHouse runs on WordPress and the WordPress REST API is exposed and answering anonymously; the route '
-  name: NeueHouse Content API
-  slug: neuehouse-content-api
-artifact_total: 6
+- description: WordPress REST `block-directory` resource on www.neuehouse.com.
+  name: NeueHouse Block Directory API
+  slug: neuehouse-block-directory-api
+- description: WordPress REST `block-patterns` resource on www.neuehouse.com.
+  name: NeueHouse Block Patterns API
+  slug: neuehouse-block-patterns-api
+- description: WordPress REST `block-renderer` resource on www.neuehouse.com.
+  name: NeueHouse Block Renderer API
+  slug: neuehouse-block-renderer-api
+- description: WordPress REST `block-types` resource on www.neuehouse.com.
+  name: NeueHouse Block Types API
+  slug: neuehouse-block-types-api
+- description: WordPress REST `blocks` resource on www.neuehouse.com.
+  name: NeueHouse Blocks API
+  slug: neuehouse-blocks-api
+- description: WordPress REST `categories` resource on www.neuehouse.com.
+  name: NeueHouse Categories API
+  slug: neuehouse-categories-api
+- description: WordPress REST `comments` resource on www.neuehouse.com.
+  name: NeueHouse Comments API
+  slug: neuehouse-comments-api
+- description: WordPress REST `event` resource on www.neuehouse.com.
+  name: NeueHouse Event API
+  slug: neuehouse-event-api
+- description: WordPress REST `font-collections` resource on www.neuehouse.com.
+  name: NeueHouse Font Collections API
+  slug: neuehouse-font-collections-api
+- description: WordPress REST `font-families` resource on www.neuehouse.com.
+  name: NeueHouse Font Families API
+  slug: neuehouse-font-families-api
+- description: WordPress REST `global-styles` resource on www.neuehouse.com.
+  name: NeueHouse Global Styles API
+  slug: neuehouse-global-styles-api
+- description: WordPress REST `icons` resource on www.neuehouse.com.
+  name: NeueHouse Icons API
+  slug: neuehouse-icons-api
+- description: WordPress REST `location` resource on www.neuehouse.com.
+  name: NeueHouse Location API
+  slug: neuehouse-location-api
+- description: WordPress REST `media` resource on www.neuehouse.com.
+  name: NeueHouse Media API
+  slug: neuehouse-media-api
+- description: WordPress REST `menu-items` resource on www.neuehouse.com.
+  name: NeueHouse Menu Items API
+  slug: neuehouse-menu-items-api
+- description: WordPress REST `menu-locations` resource on www.neuehouse.com.
+  name: NeueHouse Menu Locations API
+  slug: neuehouse-menu-locations-api
+- description: WordPress REST `menus` resource on www.neuehouse.com.
+  name: NeueHouse Menus API
+  slug: neuehouse-menus-api
+- description: WordPress REST `navigation` resource on www.neuehouse.com.
+  name: NeueHouse Navigation API
+  slug: neuehouse-navigation-api
+- description: WordPress REST `neuejournal` resource on www.neuehouse.com.
+  name: NeueHouse Neuejournal API
+  slug: neuehouse-neuejournal-api
+- description: WordPress REST `oembed` resource on www.neuehouse.com.
+  name: NeueHouse Oembed API
+  slug: neuehouse-oembed-api
+- description: WordPress REST `pages` resource on www.neuehouse.com.
+  name: NeueHouse Pages API
+  slug: neuehouse-pages-api
+- description: WordPress REST `pattern-directory` resource on www.neuehouse.com.
+  name: NeueHouse Pattern Directory API
+  slug: neuehouse-pattern-directory-api
+- description: WordPress REST `plugins` resource on www.neuehouse.com.
+  name: NeueHouse Plugins API
+  slug: neuehouse-plugins-api
+- description: WordPress REST `posts` resource on www.neuehouse.com.
+  name: NeueHouse Posts API
+  slug: neuehouse-posts-api
+- description: WordPress REST `press` resource on www.neuehouse.com.
+  name: NeueHouse Press API
+  slug: neuehouse-press-api
+- description: WordPress REST `search` resource on www.neuehouse.com.
+  name: NeueHouse Search API
+  slug: neuehouse-search-api
+- description: WordPress REST `settings` resource on www.neuehouse.com.
+  name: NeueHouse Settings API
+  slug: neuehouse-settings-api
+- description: WordPress REST `sidebars` resource on www.neuehouse.com.
+  name: NeueHouse Sidebars API
+  slug: neuehouse-sidebars-api
+- description: WordPress REST `statuses` resource on www.neuehouse.com.
+  name: NeueHouse Statuses API
+  slug: neuehouse-statuses-api
+- description: WordPress REST `tags` resource on www.neuehouse.com.
+  name: NeueHouse Tags API
+  slug: neuehouse-tags-api
+- description: WordPress REST `taxonomies` resource on www.neuehouse.com.
+  name: NeueHouse Taxonomies API
+  slug: neuehouse-taxonomies-api
+- description: WordPress REST `template-parts` resource on www.neuehouse.com.
+  name: NeueHouse Template Parts API
+  slug: neuehouse-template-parts-api
+- description: WordPress REST `templates` resource on www.neuehouse.com.
+  name: NeueHouse Templates API
+  slug: neuehouse-templates-api
+- description: WordPress REST `themes` resource on www.neuehouse.com.
+  name: NeueHouse Themes API
+  slug: neuehouse-themes-api
+- description: WordPress REST `types` resource on www.neuehouse.com.
+  name: NeueHouse Types API
+  slug: neuehouse-types-api
+- description: WordPress REST `users` resource on www.neuehouse.com.
+  name: NeueHouse Users API
+  slug: neuehouse-users-api
+- description: WordPress REST `widget-types` resource on www.neuehouse.com.
+  name: NeueHouse Widget Types API
+  slug: neuehouse-widget-types-api
+- description: WordPress REST `widgets` resource on www.neuehouse.com.
+  name: NeueHouse Widgets API
+  slug: neuehouse-widgets-api
+- description: WordPress REST `wp` resource on www.neuehouse.com.
+  name: NeueHouse Wp API
+  slug: neuehouse-wp-api
+- description: WordPress REST `wp_pattern_category` resource on www.neuehouse.com.
+  name: NeueHouse Wp Pattern Category API
+  slug: neuehouse-wp-pattern-category-api
+artifact_total: 45
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/neuehouse-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -156,10 +277,10 @@ modified: '2026-08-26'
 name: NeueHouse
 nav: Providers
 network: true
-overview: 'NeueHouse publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Hospitality, Coworking, Events, Content, and WordPress.
+overview: 'NeueHouse publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Block Directory API, Block Patterns API, Block Renderer API, and 37 more. Tagged areas include Hospitality, Co-Working, Event, Content, and WordPress.
 
 
-  NeueHouse''s developer surface includes documentation, API reference, support, signup flow, authentication, and 23 more developer resources.'
+  NeueHouse''s developer surface includes documentation, API reference, support, signup flow, authentication, and 24 more developer resources.'
 plans:
 - name: Neuehouse Plans Pricing
   plan_count: 0
@@ -171,16 +292,23 @@ rate_limits:
   slug: neuehouse-rate-limits
 score:
   band: thin
-  composite: 37.0
+  composite: 34.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.3
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 57.2
+    contract_governance: 4.5
+    contract_quality: 56.5
     developer_ergonomics: 35.1
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 63.0
+    governance: 4.5
     operational_transparency: 0.0
+  previous_composite: 33.5
   provenance:
     conformance: derived
     contracts:
@@ -190,8 +318,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Neuehouse Authentication
@@ -204,12 +333,12 @@ security:
 slug: neuehouse
 tags:
 - Hospitality
-- Coworking
-- Events
+- Co-Working
+- Event
 - Content
 - WordPress
 - Membership
-- Real Estate
+- Real-Estate
 - Media
 - Workspace
 website: https://www.neuehouse.com/

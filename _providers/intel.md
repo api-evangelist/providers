@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 5
   slug: intel-agentic-access
   summary_line: 5 operations · 1 acting
-api_count: 4
+api_count: 2
 apis:
 - description: Attestation verification operations
   name: intel Attestation API
@@ -79,6 +79,10 @@ collections:
   name: Intel Trust Authority API
   slug: open-intel-trust-authority-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/intel-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -117,7 +121,7 @@ network: true
 overview: 'intel publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Attestation API, Policies API, Tokens API, and 1 more. Tagged areas include Fortune 100.
 
 
-  intel''s developer surface includes engineering blog and 4 more developer resources.'
+  intel''s developer surface includes engineering blog and 5 more developer resources.'
 plans:
 - name: Intel Plans Pricing
   plan_count: 3
@@ -145,18 +149,23 @@ rate_limits:
   slug: intel-rate-limits
 score:
   band: emerging
-  composite: 24.8
-  delta: 1.9
+  composite: 24.3
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 53.0
     developer_ergonomics: 11.9
-    discoverability: 50.0
+    discoverability: 44.4
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 22.9
+  previous_composite: 24.8
   provenance:
     agentic_access: derived
     contracts:
@@ -164,8 +173,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intel/refs/heads/main/screenshots/intel-2026-06-20T183445.png
 security:

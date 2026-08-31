@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Search for packages, retrieve package metadata, version details, publisher information, and scoring data from the official Dart and Flutter package registry.
@@ -41,6 +41,22 @@ apis:
   slug: pubdev-packages-api
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/dart-lang/pub-dev/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/dart-lang/pub-dev/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/dart-lang/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/dart-lang/pub-dev/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -96,7 +112,7 @@ network: true
 overview: 'pub.dev publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Dart, Flutter, Package Registry, Package Management, and Open-Source.
 
 
-  pub.dev''s developer surface includes documentation and 9 more developer resources.'
+  pub.dev''s developer surface includes documentation and 13 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -107,9 +123,14 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 score:
-  band: emerging
-  composite: 22.6
-  delta: 1.1
+  band: thin
+  composite: 28.7
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -118,10 +139,13 @@ score:
     developer_ergonomics: 9.5
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 23.7
-  previous_composite: 21.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 28.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pub-dev/refs/heads/main/screenshots/pub-dev-2026-06-20T192237.png
 security:

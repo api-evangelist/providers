@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 325
   slug: tidal-agentic-access
   summary_line: 325 operations · 93 acting
-api_count: 65
+api_count: 8
 apis:
 - description: Create, read, update, delete, and reorder TIDAL playlists. Manage playlist items, cover art, owners, and editorial vs. user-created classifications. Requires playlists.read and playlists.write scopes.
   name: TIDAL Playlists API
@@ -522,6 +522,10 @@ collections:
   name: TIDAL Catalog acceptedTerms videos API
   slug: open-tidal-videos-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tidal-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -784,7 +788,7 @@ overview: 'TIDAL publishes 65 APIs on the [APIs.io](https://apis.io/) network, i
   The TIDAL catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TIDAL''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, engineering blog, tooling, and 40 more developer resources.'
+  TIDAL''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, engineering blog, tooling, and 41 more developer resources.'
 plans:
 - name: Tidal Plans Pricing
   plan_count: 6
@@ -824,6 +828,11 @@ scopes:
 score:
   band: developing
   composite: 52.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 73.7
@@ -842,8 +851,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 65
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/screenshots/tidal-2026-06-20T195337.png
 security:

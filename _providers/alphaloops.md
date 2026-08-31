@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
 - description: Hosted remote Model Context Protocol server exposing 2.7M U.S. motor carriers as tools for LLM clients (Claude Desktop/Code, Cursor, Windsurf, VS Code Copilot, Clay). Advertises 30+ tools across six c
@@ -43,16 +43,16 @@ apis:
   slug: alphaloops-mcp-server
 - description: The Carriers API from AlphaLoops FMCSA Carrier Data API — 19 operation(s) for carriers.
   name: AlphaLoops FMCSA Carrier Data API Carriers API
-  slug: alphaloops-fmcsa-carrier-data-api-carriers-api
+  slug: alphaloops-carriers-api
 - description: The Contacts API from AlphaLoops FMCSA Carrier Data API — 2 operation(s) for contacts.
   name: AlphaLoops FMCSA Carrier Data API Contacts API
-  slug: alphaloops-fmcsa-carrier-data-api-contacts-api
+  slug: alphaloops-contacts-api
 - description: The Inspections API from AlphaLoops FMCSA Carrier Data API — 2 operation(s) for inspections.
   name: AlphaLoops FMCSA Carrier Data API Inspections API
-  slug: alphaloops-fmcsa-carrier-data-api-inspections-api
+  slug: alphaloops-inspections-api
 - description: The Vins API from AlphaLoops FMCSA Carrier Data API — 1 operation(s) for vins.
   name: AlphaLoops FMCSA Carrier Data API Vins API
-  slug: alphaloops-fmcsa-carrier-data-api-vins-api
+  slug: alphaloops-vins-api
 artifact_total: 14
 collections:
 - collection_type: open
@@ -190,7 +190,7 @@ modified: '2026-08-11'
 name: AlphaLoops FMCSA Carrier Data API
 nav: Providers
 network: true
-overview: 'AlphaLoops FMCSA Carrier Data API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Contacts API, Inspections API, and 1 more. Tagged areas include fmcsa api, safer web api, dot lookup, carrier data, and Freight.
+overview: 'AlphaLoops FMCSA Carrier Data API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Contacts API, Inspections API, and 1 more. Tagged areas include fmcsa api, safer web api, dot lookup, carrier data, and freight.
 
 
   AlphaLoops FMCSA Carrier Data API''s developer surface includes authentication, CLI, changelog, pricing, support, and 24 more developer resources.'
@@ -205,18 +205,23 @@ rate_limits:
   slug: alphaloops-rate-limits
 score:
   band: exemplar
-  composite: 67.4
-  delta: 7.6
+  composite: 67.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 16.7
-    contract_quality: 59.0
+    contract_governance: 4.5
+    contract_quality: 62.4
     developer_ergonomics: 70.8
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 85.2
+    governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 59.8
+  previous_composite: 67.9
   provenance:
     conformance: derived
     contracts:
@@ -232,9 +237,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/screenshots/alphaloops-2026-07-25T195758.png
 security:
 - kind: authentication
@@ -259,13 +264,13 @@ tags:
 - safer web api
 - dot lookup
 - carrier data
-- Freight
-- Trucking
+- freight
+- trucking
 - motor carrier
 - fleet intelligence
 - Sales Intelligence
-- MCP Server
-- Contact Enrichment
-- Risk
-- Fraud
+- mcp server
+- contact enrichment
+- risk
+- fraud
 ---

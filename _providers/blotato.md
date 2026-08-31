@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: blotato-agentic-access
   summary_line: 10 operations · 3 acting
-api_count: 4
+api_count: 1
 apis:
 - description: User and connected social account lookup.
   name: Blotato Accounts API
@@ -77,6 +77,10 @@ collections:
   name: Blotato API
   slug: open-blotato
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/blotato-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -133,10 +137,10 @@ modified: '2026-06-25'
 name: Blotato
 nav: Providers
 network: true
-overview: 'Blotato publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Media API, Posts API, and 1 more. Tagged areas include Social-Media, Publishing, AI content, Automation, and Content Creation.
+overview: 'Blotato publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Media API, Posts API, and 1 more. Tagged areas include Social-Media, Publishing, AI Content, Automation, and Content Creation.
 
 
-  Blotato''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Blotato''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Blotato Plans Pricing
   plan_count: 3
@@ -148,18 +152,23 @@ rate_limits:
   slug: blotato-rate-limits
 score:
   band: thin
-  composite: 38.7
-  delta: 1.5
+  composite: 38.1
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 56.3
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 37.2
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +176,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/screenshots/blotato-2026-07-25T203418.png
 security:
@@ -184,7 +193,7 @@ slug: blotato
 tags:
 - Social-Media
 - Publishing
-- AI content
+- AI Content
 - Automation
 - Content Creation
 website: https://www.blotato.com/

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -33,10 +33,19 @@ agentic_access:
   summary_line: 14 operations · 1 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The Wattwatchers REST API v3, code-named Mercury — 14 documented operations across 13 paths, covering device inventory and configuration (including switch control via PATCH), 30-second "short energy" '
-  name: Wattwatchers REST API v3 (Mercury)
-  slug: wattwatchers-rest-api-v3
-artifact_total: 8
+- description: Operations related to devices
+  name: Wattwatchers Devices API
+  slug: wattwatchers-devices-api
+- description: Operations related to Long Energy (LE)
+  name: Wattwatchers Long Energy API
+  slug: wattwatchers-long-energy-api
+- description: Operations related to Modbus
+  name: Wattwatchers Modbus API
+  slug: wattwatchers-modbus-api
+- description: Operations related to Short Energy (SE)
+  name: Wattwatchers Short Energy API
+  slug: wattwatchers-short-energy-api
+artifact_total: 11
 collections:
 - collection_type: open
   name: Wattwatchers API
@@ -183,7 +192,7 @@ modified: '2026-07-27'
 name: Wattwatchers
 nav: Providers
 network: true
-overview: 'Wattwatchers publishes 1 API on the [APIs.io](https://apis.io/) network: REST API v3 (Mercury). Tagged areas include Energy, Australia, Utilities, Electricity, and Smart Metering.
+overview: 'Wattwatchers publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Long Energy API, Modbus API, and 1 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Smart Metering.
 
 
   Wattwatchers'' developer surface includes authentication, documentation, changelog, support, API reference, getting-started guide, code examples, and 24 more developer resources.'
@@ -194,18 +203,23 @@ rate_limits:
   slug: wattwatchers-rate-limits
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 42.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
-    contract_quality: 60.5
+    contract_governance: 4.5
+    contract_quality: 60.2
     developer_ergonomics: 56.5
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 45.4
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -222,8 +236,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

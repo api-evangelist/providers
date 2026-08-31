@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 3
 common:
@@ -76,11 +76,16 @@ modified: '2026-07-18'
 name: coachhub
 nav: Providers
 network: true
-overview: coachhub is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, Digital Coaching, Learning and Development, and HR Tech.
+overview: coachhub is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, Digital Coaching, Learning And Development, and HR Tech.
 random_paper: 10
 score:
   band: emerging
   composite: 13.7
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -92,8 +97,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 13.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coachhub/refs/heads/main/screenshots/coachhub-2026-07-25T205813.png
 security:
@@ -114,7 +119,7 @@ tags:
 - Company
 - Ai Enterprise Software
 - Digital Coaching
-- Learning and Development
+- Learning And Development
 - HR Tech
 - Employee Development
 - Software-as-a-Service

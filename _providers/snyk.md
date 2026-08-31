@@ -12,9 +12,10 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -23,9 +24,9 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-26'
+  score: 41.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 134
   human_in_the_loop: 9
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 277
   slug: snyk-agentic-access
   summary_line: 277 operations · 134 acting · 9 human-in-the-loop
-api_count: 48
+api_count: 1
 apis:
 - description: Manages Snyk Apps, the OAuth2-based extensibility surface that lets third-party applications act on behalf of Snyk users, organizations, and groups.
   name: Snyk REST API - Apps (OAuth)
@@ -50,6 +51,15 @@ apis:
 - description: The original Snyk REST API. Still in use for project import, monitor, test, and certain reporting endpoints not yet ported to the dated REST API. Subject to end-of-life migration; new integrations sho
   name: Snyk V1 API (Legacy)
   slug: v1
+- description: The user-facing half of Snyk's RFC 6749 OAuth2 flow for Snyk Apps. Served from the Snyk app subdomain rather than the API subdomain, it initiates the authorization-code grant and redirects back to the
+  name: Snyk OAuth2 API - Authorize
+  slug: oauth2-authorize
+- description: The token half of Snyk's OAuth2 API - exchange an authorization code for an access token, refresh an expiring token, and revoke a token. Supports authorization_code, refresh_token and client_credentia
+  name: Snyk OAuth2 API - Token
+  slug: oauth2-token
+- description: 'Snyk''s first-party Model Context Protocol server, shipped inside the Snyk CLI and run locally over stdio (`npx -y snyk@latest mcp -t stdio`). Twelve security tools - code, dependency, container, IaC, '
+  name: Snyk MCP Server (Snyk Studio)
+  slug: mcp
 - description: The AccessRequests API from Snyk — 1 operation(s) for accessrequests.
   name: Snyk AccessRequests API
   slug: snyk-accessrequests-api
@@ -188,7 +198,11 @@ apis:
 - description: The Users API from Snyk — 3 operation(s) for users.
   name: Snyk Users API
   slug: snyk-users-api
-artifact_total: 105
+artifact_total: 110
+asyncapis:
+- description: ''
+  name: Snyk Webhooks
+  slug: snyk-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -335,6 +349,10 @@ collections:
   name: Snyk AccessRequests Users API
   slug: open-snyk-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/snyk-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -370,7 +388,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.snyk.io/snyk-api
+  url: https://docs.snyk.io/developer-tools/snyk-api
 - group: docs
   title: ''
   type: APIReference
@@ -389,32 +407,147 @@ common:
   url: finops/snyk-finops.yml
 - group: agent
   title: ''
-  type: LlmsText
+  type: LLMsTxt
   url: https://docs.snyk.io/llms.txt
 - group: company
   title: ''
-  type: Blog
+  type: BlogRSS
   url: https://snyk.io/blog/feed/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/snyk-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/snyk-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/snyk-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/snyk-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/snyk-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/snyk-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/snyk-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/snyk-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/snyk-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/snyk-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/snyk-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/snyk-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/snyk-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/snyk-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.snyk.io/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/snyk-changelog.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/snyk-scopes.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/snyk-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/snyk-webhooks.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.snyk.io/developer-tools/snyk-api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.snyk.io/getting-started-guides/getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.snyk.io/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://snyk.io/plans/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.snyk.io/signup
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://snyk.io/policies/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://snyk.io/policies/privacy/
+- group: company
+  title: ''
+  type: Blog
+  url: https://snyk.io/blog/
 created: '2026-05-08'
 description: Snyk is a developer-first security platform covering code, open-source dependencies, container images, and infrastructure-as-code. The Snyk REST API and V1 API expose groups, organizations, projects, issues, targets, integrations, audit logs, SBOMs, container images, custom base images, webhooks, and exports for application-security teams.
 finops:
 - name: Snyk Finops
   service_category: Application Security
   slug: snyk-finops
-graphqls:
-- description: Snyk is a developer security platform for finding and fixing vulnerabilities in code, dependencies, containers, and IaC. The API covers project scanning, vulnerability data, dependency graphs, license
-  name: Snyk GraphQL API
-  slug: snyk-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/snyk.png
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: 'Snyk ships a first-party MCP server as part of Snyk Studio, its agentic-development security layer. It is deliberately LOCAL ONLY: the server runs on the developer''s own machine through the Snyk CLI s'
+  name: Snyk MCP Server
+  slug: snyk-mcp-server
+modified: '2026-08-27'
 name: Snyk
 nav: Providers
 network: true
-overview: 'Snyk publishes 46 APIs on the [APIs.io](https://apis.io/) network, including AccessRequests API, AiBom API, Apps API, and 43 more. Tagged areas include Security, DevSecOps, Vulnerability Management, Application Security, and SCA.
+overview: 'Snyk publishes 48 APIs on the [APIs.io](https://apis.io/) network, including OAuth2 API - Authorize, OAuth2 API - Token, AccessRequests API, and 45 more. Tagged areas include Security, DevSecOps, Vulnerability Management, Application Security, and SCA.
 
 
-  Snyk''s developer surface includes authentication, documentation, API reference, engineering blog, and 11 more developer resources.'
+  The Snyk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Snyk''s developer surface includes authentication, documentation, API reference, CLI, changelog, getting-started guide, support, and 37 more developer resources.'
 plans:
 - name: Snyk Plans Pricing
   plan_count: 4
@@ -424,20 +557,30 @@ rate_limits:
 - limit_count: 3
   name: Snyk Rate Limits
   slug: snyk-rate-limits
+scopes:
+- name: Snyk Scopes
+  scope_count: 0
+  slug: snyk-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 33.8
-  delta: 0.0
+  band: strong
+  composite: 63.8
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
-    access_clarity: 23.7
-    commercial_clarity: 23.7
-    contract_governance: 0.0
-    contract_quality: 61.5
-    developer_ergonomics: 23.8
-    discoverability: 75.9
-    governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 33.8
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 68.3
+    developer_ergonomics: 71.4
+    discoverability: 61.1
+    governance: 18.2
+    operational_transparency: 68.4
+  previous_composite: 64.4
   provenance:
     agentic_access: derived
     contracts:
@@ -445,15 +588,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/screenshots/snyk-2026-06-20T194114.png
 security:
 - kind: authentication
   name: Snyk Authentication
   slug: snyk-authentication
-  summary_line: apiKey/http · 2 schemes
+  summary_line: apiKey/http/oauth2 · 3 schemes
 - kind: domain-security
   name: Snyk Domain Security
   slug: snyk-domain-security

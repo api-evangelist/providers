@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -42,18 +42,66 @@ agentic_access:
   operation_count: 318
   slug: groundtruth-agentic-access
   summary_line: 318 operations · 63 acting
-api_count: 3
+api_count: 4
 apis:
-- description: 'REST API for the GroundTruth Ads Manager platform: create and manage accounts, organizations, tenants, users, campaigns, ad groups, creatives and creative assets; run audience, location and static ref'
-  name: GroundTruth Ads Manager Public API
-  slug: groundtruth-ads-manager-public-api
-- description: 'Read-only external reporting API (the "demand" API) for pulling GroundTruth campaign performance out of the platform and into a partner or agency reporting stack: account, organization, campaign, ad g'
-  name: Groundtruth Reporting API
-  slug: groundtruth-reporting-api
 - description: Model Context Protocol endpoint served on the GroundTruth developer documentation host. It answers MCP JSON-RPC on /mcp but returns error -32001 "Authorization required" to anonymous initialize and to
   name: GroundTruth Documentation MCP Server
   slug: groundtruth-documentation-mcp-server
-artifact_total: 12
+- description: The Accounts API from GroundTruth — 6 operation(s) for accounts.
+  name: GroundTruth Accounts API
+  slug: groundtruth-accounts-api
+- description: The Ad Groups API from GroundTruth — 6 operation(s) for ad groups.
+  name: GroundTruth Ad Groups API
+  slug: groundtruth-ad-groups-api
+- description: The Audiences API from GroundTruth — 2 operation(s) for audiences.
+  name: GroundTruth Audiences API
+  slug: groundtruth-audiences-api
+- description: The Campaigns API from GroundTruth — 6 operation(s) for campaigns.
+  name: GroundTruth Campaigns API
+  slug: groundtruth-campaigns-api
+- description: The Creative Assets API from GroundTruth — 2 operation(s) for creative assets.
+  name: GroundTruth Creative Assets API
+  slug: groundtruth-creative-assets-api
+- description: The Creatives API from GroundTruth — 5 operation(s) for creatives.
+  name: GroundTruth Creatives API
+  slug: groundtruth-creatives-api
+- description: Demand API documentation
+  name: GroundTruth Demand API
+  slug: groundtruth-demand-api
+- description: The Direct Mail API from GroundTruth — 1 operation(s) for direct mail.
+  name: GroundTruth Direct Mail API
+  slug: groundtruth-direct-mail-api
+- description: The Health API from GroundTruth — 1 operation(s) for health.
+  name: GroundTruth Health API
+  slug: groundtruth-health-api
+- description: The Jobs API from GroundTruth — 9 operation(s) for jobs.
+  name: GroundTruth Jobs API
+  slug: groundtruth-jobs-api
+- description: The Miscellaneous API from GroundTruth — 1 operation(s) for miscellaneous.
+  name: GroundTruth Miscellaneous API
+  slug: groundtruth-miscellaneous-api
+- description: The Organizations API from GroundTruth — 2 operation(s) for organizations.
+  name: GroundTruth Organizations API
+  slug: groundtruth-organizations-api
+- description: The Reporting API from GroundTruth — 160 operation(s) for reporting.
+  name: GroundTruth Reporting API
+  slug: groundtruth-reporting-api
+- description: The Search API from GroundTruth — 18 operation(s) for search.
+  name: GroundTruth Search API
+  slug: groundtruth-search-api
+- description: The Static API from GroundTruth — 12 operation(s) for static.
+  name: GroundTruth Static API
+  slug: groundtruth-static-api
+- description: The Tenants API from GroundTruth — 1 operation(s) for tenants.
+  name: GroundTruth Tenants API
+  slug: groundtruth-tenants-api
+- description: The Upload API from GroundTruth — 1 operation(s) for upload.
+  name: GroundTruth Upload API
+  slug: groundtruth-upload-api
+- description: The Users API from GroundTruth — 4 operation(s) for users.
+  name: GroundTruth Users API
+  slug: groundtruth-users-api
+artifact_total: 28
 collections:
 - collection_type: open
   name: Ads Manager API
@@ -194,7 +242,7 @@ modified: '2026-08-12'
 name: GroundTruth
 nav: Providers
 network: true
-overview: 'GroundTruth publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ads Manager Public API and Reporting API. Tagged areas include Company, MarTech, Advertising, Location Intelligence, and Marketing.
+overview: 'GroundTruth publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Ad Groups API, Audiences API, and 15 more. Tagged areas include Company, Martech, Advertising, Location Intelligence, and Marketing.
 
 
   GroundTruth''s developer surface includes documentation, API reference, signup flow, engineering blog, support, getting-started guide, authentication, and 22 more developer resources.'
@@ -209,16 +257,21 @@ rate_limits:
   slug: groundtruth-rate-limits
 score:
   band: developing
-  composite: 41.9
-  delta: 0.7
+  composite: 41.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 53.6
+    contract_governance: 4.5
+    contract_quality: 56.6
     developer_ergonomics: 57.7
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
   previous_composite: 41.2
   provenance:
@@ -231,8 +284,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/screenshots/groundtruth-2026-07-25T220343.png
 security:
@@ -247,11 +300,11 @@ security:
 slug: groundtruth
 tags:
 - Company
-- MarTech
+- Martech
 - Advertising
 - Location Intelligence
 - Marketing
-- AdTech
+- Adtech
 - Location-Based Marketing
 - Advertising API
 - Campaign Management

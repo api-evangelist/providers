@@ -1,14 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Free · partially keyless
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - examples/iit-bombay-instiapp-examples.yml
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -25,44 +25,82 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.0
-  scored_at: '2026-08-26'
-api_count: 3
+  score: 19.2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: 'An OAuth 2.0 (RFC 6749) identity and profile API operated by the IIT Bombay Students'' Gymkhana. It exposes authorization, token, and token-revocation endpoints plus a user resource endpoint returning '
+- description: IIT Bombay's campus-life API and the single largest first-party programmable surface the institution operates. 112 paths and 164 operations over student bodies and their role graphs (154 bodies live),
+  name: InstiApp API
+  slug: instiapp-api
+- description: 'The IIT Bombay Computer Centre''s central identity provider, and the credential every institutional service sits behind. It publishes a live OpenID Connect Discovery 1.0 document and a JWKS: issuer htt'
+  name: IITB Central SSO — OpenID Connect
+  slug: sso-oidc
+- description: An OAuth 2.0 (RFC 6749) identity and profile API operated by the IIT Bombay Students' Gymkhana, with ten separately-consented scopes covering SSO id, name, picture, sex, LDAP username and e-mail, phon
   name: Gymkhana Profiles OAuth API
   slug: gymkhana-profiles
-- description: A session-based Single Sign-On service maintained by the Institute Technical Council (ITC) for authenticating IIT Bombay users in student and club projects. A redirect-based ssocall flow returns an ac
-  name: ITC Single Sign-On API
-  slug: itc-sso
-- description: The IIT Bombay Central Library institutional repository is built on DSpace and exposes an OAI-PMH 2.0 metadata harvesting interface over its theses, journal articles, and conference papers. The Identi
-  name: DSpace Institutional Repository OAI-PMH
+- description: The IIT Bombay Central Library institutional repository, running DSpace over theses, journal articles and conference papers. Its OAI-PMH 2.0 harvesting interface is the surface of interest and it is N
+  name: DSpace Institutional Repository (Central Library)
   slug: dspace-oai-pmh
-artifact_total: 8
+- description: A session-based Single Sign-On service maintained by the Institute Technical Council for authenticating IIT Bombay users in student and club projects. A redirect-based ssocall flow returns an access i
+  name: ITC Single Sign-On
+  slug: itc-sso
+artifact_total: 15
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/iit-bombay-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://www.iitb.ac.in/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://gymkhana.iitb.ac.in/instiapp/api/docs/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://gymkhana.iitb.ac.in/profiles/doc/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://sso.iitb.ac.in/.well-known/openid-configuration
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://dspace.library.iitb.ac.in/
 - group: build
   title: ''
-  type: GitHub
+  type: LibraryCatalog
+  url: https://www.library.iitb.ac.in/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://asc.iitb.ac.in/
+- group: build
+  title: ''
+  type: GitHubOrganization
   url: https://github.com/DevCom-IITB
+- group: operate
+  title: ''
+  type: Support
+  url: https://github.com/DevCom-IITB/instiapp-api/issues
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.iitb.ac.in/credits-disclaimer
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/indian-institute-of-technology-bombay/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/iit-bombay-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -80,29 +118,38 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'The Indian Institute of Technology Bombay (IIT Bombay), founded in 1958 and located in Powai, Mumbai, is one of India''s premier engineering and research institutions, ranked #97 in the QS World University Rankings 2025. Its public developer footprint is largely student- and community-driven rather than a central institutional API program: the Students'' Gymkhana operates an OAuth 2.0 "Profiles" identity API, the Institute Technical Council runs an ITC Single Sign-On service, and the Central Library exposes an OAI-PMH 2.0 interface over its DSpace institutional repository. No unified central developer portal was found; access to several APIs is gated to IIT Bombay infrastructure.'
+description: 'The Indian Institute of Technology Bombay (IIT Bombay), founded in 1958 at Powai, Mumbai, is one of India''s premier engineering and research institutions and one of the very few universities in this catalog that actually publishes a first-party, machine-readable API contract of its own. It operates no central developer portal and no institutional API programme, and there is no course catalog, registrar, open-data or research-computing API in public view. What it does run — and what almost every peer institution does not — is a live OpenAPI-described campus-life API, InstiApp, served from its own host at gymkhana.iitb.ac.in with an autogenerated 112-path specification, an institutional contact address and AGPL-3.0 source published by the Developers'' Community. Alongside it sit two institution-operated identity surfaces: the Computer Centre''s central OpenID Connect provider at sso.iitb.ac.in, which publishes a live discovery document and JWKS, and the Students'' Gymkhana OAuth
+  2.0 Profiles service with ten documented consent scopes, access to which is restricted to applications hosted on Gymkhana infrastructure. The Central Library runs a DSpace institutional repository whose OAI-PMH endpoint is currently denied at the web-server layer. A fourth surface, the Institute Technical Council''s SSO, is run by an IIT Bombay student body but on a domain the institution does not own, and is recorded as a tenant relationship rather than credited to the institution.'
 finops:
 - name: Iit Bombay Finops
   service_category: Education
   slug: iit-bombay-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iit-bombay.png
+json_schemas:
+- name: IIT Bombay InstiApp API — data model
+  property_count: 0
+  slug: iit-bombay-instiapp-schemas
 jsonld:
 - class_count: 29
   name: Iit Bombay Context
   property_count: 0
   slug: iit-bombay-context
+- class_count: 0
+  name: Iit Bombay Surfaces Context
+  property_count: 0
+  slug: iit-bombay-surfaces
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Indian Institute of Technology Bombay
 nav: Providers
 network: true
-overview: 'Indian Institute of Technology Bombay publishes 1 API on the [APIs.io](https://apis.io/) network: DSpace Institutional Repository OAI-PMH. Tagged areas include Education, Higher Education, University, Research, and India.
+overview: 'Indian Institute of Technology Bombay publishes 1 API on the [APIs.io](https://apis.io/) network: InstiApp API. Tagged areas include University, Higher Education, Education, India, and Institute of Technology.
 
 
-  The Indian Institute of Technology Bombay catalog on APIs.io includes 1 JSON-LD context.
+  The Indian Institute of Technology Bombay catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Indian Institute of Technology Bombay''s developer surface includes GitHub presence and 7 more developer resources.'
+  Indian Institute of Technology Bombay''s developer surface includes API reference, documentation, support, and 13 more developer resources.'
 plans:
 - name: Iit Bombay Plans Pricing
   plan_count: 2
@@ -112,43 +159,73 @@ rate_limits:
 - limit_count: 1
   name: Iit Bombay Rate Limits
   slug: iit-bombay-rate-limits
+rules:
+- effective_rule_count: 7
+  extends: []
+  name: Indian Institute of Technology Bombay API Rules
+  rule_count: 7
+  severity_counts:
+    error: 3
+    hint: 0
+    info: 0
+    warn: 4
+  slug: iit-bombay-rules
+scopes:
+- name: Iit Bombay Scopes
+  scope_count: 0
+  slug: iit-bombay-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 30.8
-  delta: 5.9
+  band: developing
+  composite: 48.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 30.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 18.0
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 0.0
-    contract_quality: 37.3
-    developer_ergonomics: 21.4
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 24.9
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 63.6
+    contract_quality: 49.0
+    developer_ergonomics: 33.3
+    discoverability: 68.5
+    governance: 63.6
+    operational_transparency: 23.7
+  previous_composite: 30.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 57.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/iit-bombay/refs/heads/main/screenshots/iit-bombay-2026-06-20T183229.png
 security:
+- kind: authentication
+  name: Iit Bombay Authentication
+  slug: iit-bombay-authentication
+  summary_line: 4 schemes
 - kind: domain-security
   name: Iit Bombay Domain Security
   slug: iit-bombay-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: iit-bombay
 tags:
-- Education
-- Higher Education
 - University
-- Research
+- Higher Education
+- Education
 - India
-- Open Access
+- Institute of Technology
+- Research
 - Identity
+- Single Sign-On
+- OpenID Connect
+- Campus Life
+- Research Repository
+- Open Source
 website: https://www.iitb.ac.in/
 ---

@@ -1,28 +1,27 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free · Open harvesting endpoints · no signup
+  onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
-  - authentication
+  - probed
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: false
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -30,195 +29,98 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.5
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 183
-  human_in_the_loop: 1
-  name: University Of Bath Agentic Access
-  operation_count: 663
-  slug: university-of-bath-agentic-access
-  summary_line: 663 operations · 183 acting · 1 human-in-the-loop
-api_count: 26
+  score: 2.5
+  scored_at: '2026-08-30'
+api_count: 5
 apis:
-- description: OAI-PMH 2.0 metadata harvesting interface for the University of Bath Open Access Repository, served by the institution's Elsevier Pure research information system. Confirmed live via the Identify verb
-  name: Research Portal (Pure) OAI-PMH
-  slug: pure-oai
-- description: OAI-PMH 2.0 metadata harvesting endpoint for the University of Bath Research Data Archive, an EPrints 3.4 institutional data repository. Confirmed live; the archive footer advertises OAI 2.0 support a
+- description: 'OAI-PMH 2.0 metadata harvesting interface for the University of Bath Research Data Archive, an EPrints 3.4.7 repository the University runs on its own infrastructure (researchdata.bath.ac.uk resolves '
   name: Research Data Archive OAI-PMH
   slug: researchdata-oai
-- description: EPrints REST/XML interface and Atom/RSS feeds for the University of Bath Research Data Archive, exposing dataset records and search. The /rest path resolves (HTTP 200); EPrints provides RSS 1.0, RSS 2
-  name: Research Data Archive REST/Feeds
+- description: 'EPrints REST/XML interface for the University of Bath Research Data Archive, on the same institution-operated host. Confirmed live 2026-08-30: /rest/ returns an "EPrints REST: Datasets" index exposing'
+  name: Research Data Archive REST/XML
   slug: researchdata-rest
-- description: The University of Bath library catalogue runs on Ex Libris Alma with the Primo discovery service. Primo VE exposes search/discovery interfaces (Primo REST/Search APIs) typically requiring an Ex Libris
-  name: Library Discovery (Ex Libris Primo)
+- description: The University's Elsevier Pure research information system exposes the Pure Web Service under a Bath hostname. The DEPLOYMENT is Bath's and the data is Bath's; the CONTRACT is Elsevier's. purehost.bat
+  name: Research Portal (Elsevier Pure) Web Service — Bath tenancy
+  slug: pure-ws-api
+- description: OAI-PMH 2.0 harvesting interface served by the University's Elsevier Pure tenancy, advertising the OpenAIRE CERIF 1.2 profile alongside mods, qdc, nl_didl, oai_dc, xmetadiss and uketd_dc. Live but DEF
+  name: Research Portal (Elsevier Pure) OAI-PMH — Bath tenancy
+  slug: pure-oai
+- description: The University of Bath library catalogue runs on Ex Libris Alma with Primo VE discovery. The public front end at bath.primo.exlibrisgroup.com redirects to the Bath view (vid=44BAT_INST:NDE) and return
+  name: Library Discovery (Ex Libris Alma/Primo) — Bath tenancy
   slug: primo-discovery
-- description: The University operates a Microsoft Azure API Management developer portal. The publicly reachable instance is a non-production "test" environment (portal.apim.test.bath.ac.uk, HTTP 200) with sign-in/s
-  name: Azure API Management Developer Portal (non-production)
-  slug: apim-portal
-- description: The activity API from University of Bath — 38 operation(s) for activity.
-  name: University of Bath activity API
-  slug: university-of-bath-activity-api
-- description: The application API from University of Bath — 36 operation(s) for application.
-  name: University of Bath application API
-  slug: university-of-bath-application-api
-- description: The authorCollaboration API from University of Bath — 9 operation(s) for authorcollaboration.
-  name: University of Bath authorCollaboration API
-  slug: university-of-bath-authorcollaboration-api
-- description: The award API from University of Bath — 35 operation(s) for award.
-  name: University of Bath award API
-  slug: university-of-bath-award-api
-- description: The classificationScheme API from University of Bath — 7 operation(s) for classificationscheme.
-  name: University of Bath classificationScheme API
-  slug: university-of-bath-classificationscheme-api
-- description: The dataSet API from University of Bath — 29 operation(s) for dataset.
-  name: University of Bath dataSet API
-  slug: university-of-bath-dataset-api
-- description: The equipment API from University of Bath — 26 operation(s) for equipment.
-  name: University of Bath equipment API
-  slug: university-of-bath-equipment-api
-- description: The event API from University of Bath — 21 operation(s) for event.
-  name: University of Bath event API
-  slug: university-of-bath-event-api
-- description: The externalOrganization API from University of Bath — 29 operation(s) for externalorganization.
-  name: University of Bath externalOrganization API
-  slug: university-of-bath-externalorganization-api
-- description: The externalPerson API from University of Bath — 22 operation(s) for externalperson.
-  name: University of Bath externalPerson API
-  slug: university-of-bath-externalperson-api
-- description: The journal API from University of Bath — 22 operation(s) for journal.
-  name: University of Bath journal API
-  slug: university-of-bath-journal-api
-- description: The organization API from University of Bath — 33 operation(s) for organization.
-  name: University of Bath organization API
-  slug: university-of-bath-organization-api
-- description: The person API from University of Bath — 57 operation(s) for person.
-  name: University of Bath person API
-  slug: university-of-bath-person-api
-- description: The pressMedia API from University of Bath — 24 operation(s) for pressmedia.
-  name: University of Bath pressMedia API
-  slug: university-of-bath-pressmedia-api
-- description: The prize API from University of Bath — 28 operation(s) for prize.
-  name: University of Bath prize API
-  slug: university-of-bath-prize-api
-- description: The project API from University of Bath — 33 operation(s) for project.
-  name: University of Bath project API
-  slug: university-of-bath-project-api
-- description: The publisher API from University of Bath — 18 operation(s) for publisher.
-  name: University of Bath publisher API
-  slug: university-of-bath-publisher-api
-- description: The researchOutput API from University of Bath — 66 operation(s) for researchoutput.
-  name: University of Bath researchOutput API
-  slug: university-of-bath-researchoutput-api
-- description: The role API from University of Bath — 2 operation(s) for role.
-  name: University of Bath role API
-  slug: university-of-bath-role-api
-- description: The studentThesis API from University of Bath — 26 operation(s) for studentthesis.
-  name: University of Bath studentThesis API
-  slug: university-of-bath-studentthesis-api
-- description: The user API from University of Bath — 7 operation(s) for user.
-  name: University of Bath user API
-  slug: university-of-bath-user-api
-artifact_total: 72
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Pure activity API
-  slug: open-university-of-bath-activity-api
-- collection_type: open
-  name: Pure activity application API
-  slug: open-university-of-bath-application-api
-- collection_type: open
-  name: Pure activity authorCollaboration API
-  slug: open-university-of-bath-authorcollaboration-api
-- collection_type: open
-  name: Pure activity award API
-  slug: open-university-of-bath-award-api
-- collection_type: open
-  name: Pure activity classificationScheme API
-  slug: open-university-of-bath-classificationscheme-api
-- collection_type: open
-  name: Pure activity dataSet API
-  slug: open-university-of-bath-dataset-api
-- collection_type: open
-  name: Pure activity equipment API
-  slug: open-university-of-bath-equipment-api
-- collection_type: open
-  name: Pure activity event API
-  slug: open-university-of-bath-event-api
-- collection_type: open
-  name: Pure activity externalOrganization API
-  slug: open-university-of-bath-externalorganization-api
-- collection_type: open
-  name: Pure activity externalPerson API
-  slug: open-university-of-bath-externalperson-api
-- collection_type: open
-  name: Pure activity journal API
-  slug: open-university-of-bath-journal-api
-- collection_type: open
-  name: Pure activity organization API
-  slug: open-university-of-bath-organization-api
-- collection_type: open
-  name: Pure activity person API
-  slug: open-university-of-bath-person-api
-- collection_type: open
-  name: Pure activity pressMedia API
-  slug: open-university-of-bath-pressmedia-api
-- collection_type: open
-  name: Pure activity prize API
-  slug: open-university-of-bath-prize-api
-- collection_type: open
-  name: Pure activity project API
-  slug: open-university-of-bath-project-api
-- collection_type: open
-  name: Pure activity publisher API
-  slug: open-university-of-bath-publisher-api
-- collection_type: open
-  name: Pure activity researchOutput API
-  slug: open-university-of-bath-researchoutput-api
-- collection_type: open
-  name: Pure activity role API
-  slug: open-university-of-bath-role-api
-- collection_type: open
-  name: Pure activity studentThesis API
-  slug: open-university-of-bath-studentthesis-api
-- collection_type: open
-  name: Pure activity user API
-  slug: open-university-of-bath-user-api
+artifact_total: 9
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/university-of-bath-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/university-of-bath-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/university-of-bath-authentication.yml
 - group: company
   title: ''
   type: Website
   url: https://www.bath.ac.uk/
 - group: build
   title: ''
-  type: GitHub
+  type: GitHubOrganization
   url: https://github.com/uniofbathdmc
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-bath/
-- group: start
+- group: other
   title: ''
-  type: DeveloperPortal
-  url: https://portal.apim.test.bath.ac.uk/
+  type: ResearchRepository
+  url: https://researchdata.bath.ac.uk/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://researchportal.bath.ac.uk/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://library.bath.ac.uk/home
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://www.bath.ac.uk/courses/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://www.bath.ac.uk/topics/open-research/
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://www.bath.ac.uk/professional-services/research-computing/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.bath.ac.uk/guides/student-guidance-on-uploading-documents-to-genai-tools-or-third-party-websites/
+- group: build
+  title: ''
+  type: AITooling
+  url: https://www.bath.ac.uk/announcements/support-for-students-to-use-genai-tools-effectively-and-responsibly/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.bath.ac.uk/legal-information/data-protection-and-privacy-statement-summary/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.bath.ac.uk/legal-information/digital-accessibility-policy/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.bath.ac.uk/services/pure/
+- group: operate
+  title: ''
+  type: Status
+  url: https://status.bath.ac.uk/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/university-of-bath-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/university-of-bath-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -236,77 +138,22 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'The University of Bath is a public research university in Bath, United Kingdom, ranked #150 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on scholarly metadata rather than a commercial developer program: an Elsevier Pure research portal exposing an OAI-PMH interface, an EPrints 3.4 Research Data Archive with OAI-PMH and a REST interface, and an Ex Libris Alma/Primo library discovery platform. The University operates an Azure API Management developer portal, but the publicly reachable instance is a non-production ("test") environment with no openly documented production APIs. Administrative and identity services are gated behind institutional affiliation.'
-examples:
-- key_count: 3
-  name: University Of Bath Activity List Example
-  slug: university-of-bath-activity-list-example
-- key_count: 3
-  name: University Of Bath Dataset List Example
-  slug: university-of-bath-dataset-list-example
-- key_count: 3
-  name: University Of Bath Organization List Example
-  slug: university-of-bath-organization-list-example
-- key_count: 3
-  name: University Of Bath Person List Example
-  slug: university-of-bath-person-list-example
-- key_count: 3
-  name: University Of Bath Researchoutput List Example
-  slug: university-of-bath-researchoutput-list-example
+description: 'The University of Bath is a public research university in Bath, United Kingdom, and a member of the Russell Group. It operates no public developer program: a full crawl of its 21,530-URL sitemap on 2026-08-30 returned no developer portal, no API reference, and no published OpenAPI under any bath.ac.uk path. Its one genuinely institution-operated machine-readable surface is the Research Data Archive at researchdata.bath.ac.uk — EPrints 3.4.7 running on the University''s own infrastructure (138.38.44.144) — which serves a live OAI-PMH 2.0 interface, an EPrints REST/XML interface, and DataCite kernel-4 records carrying ORCID identifiers and DOIs under the University''s own 10.15125 prefix. Everything else that appears to be a Bath API is a vendor contract running under a Bath hostname: purehost.bath.ac.uk and researchportal.bath.ac.uk both CNAME to bath-prod.elsevierpure.com and are an Elsevier Pure tenancy; the library catalogue is an Ex Libris Alma/Primo tenancy; library.bath.ac.uk
+  is Springshare LibGuides; status.bath.ac.uk is Better Stack. The programme and unit catalogue is entirely behind CAS authentication at auth.bath.ac.uk, and the student records system behind Microsoft Entra ID. An Azure API Management portal exists only as a non-production "test" instance and is not recorded as a surface. This profile is deliberately thin because the footprint is thin.'
 finops:
 - name: University Of Bath Finops
   service_category: Education
   slug: university-of-bath-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-bath.png
-json_schemas:
-- name: University of Bath Pure API Activity
-  property_count: 36
-  slug: university-of-bath-activity
-- name: University of Bath Pure API DataSet
-  property_count: 52
-  slug: university-of-bath-dataset
-- name: University of Bath Pure API Organization
-  property_count: 31
-  slug: university-of-bath-organization
-- name: University of Bath Pure API Person
-  property_count: 49
-  slug: university-of-bath-person
-- name: University of Bath Pure API ResearchOutput
-  property_count: 48
-  slug: university-of-bath-researchoutput
-json_structures:
-- name: University Of Bath Activity Structure
-  property_count: 36
-  slug: university-of-bath-activity-structure
-- name: University Of Bath Dataset Structure
-  property_count: 52
-  slug: university-of-bath-dataset-structure
-- name: University Of Bath Organization Structure
-  property_count: 31
-  slug: university-of-bath-organization-structure
-- name: University Of Bath Person Structure
-  property_count: 49
-  slug: university-of-bath-person-structure
-- name: University Of Bath Researchoutput Structure
-  property_count: 48
-  slug: university-of-bath-researchoutput-structure
-jsonld:
-- class_count: 17
-  name: University Of Bath Context
-  property_count: 12
-  slug: university-of-bath-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: University of Bath
 nav: Providers
 network: true
-overview: 'University of Bath publishes 21 APIs on the [APIs.io](https://apis.io/) network, including activity API, application API, authorCollaboration API, and 18 more. Tagged areas include Education, Higher Education, University, United Kingdom, and Research.
+overview: 'University of Bath publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
 
 
-  The University of Bath catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  University of Bath''s developer surface includes authentication, GitHub presence, and 9 more developer resources.'
+  University of Bath''s developer surface includes documentation, status page, and 19 more developer resources.'
 plans:
 - name: University Of Bath Plans Pricing
   plan_count: 2
@@ -316,42 +163,25 @@ rate_limits:
 - limit_count: 1
   name: University Of Bath Rate Limits
   slug: university-of-bath-rate-limits
-rules:
-- effective_rule_count: 6
-  extends: []
-  name: University of Bath API Rules
-  rule_count: 6
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 4
-  slug: university-of-bath-jsonschema-spectral-rules
-- effective_rule_count: 47
-  extends:
-  - spectral:oas
-  name: University of Bath API Rules
-  rule_count: 6
-  severity_counts:
-    error: 2
-    hint: 1
-    info: 0
-    warn: 3
-  slug: university-of-bath-rules
 score:
-  band: thin
-  composite: 38.4
-  delta: 1.9
+  band: emerging
+  composite: 23.5
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -14.9
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 13.6
-    contract_quality: 57.3
-    developer_ergonomics: 31.0
-    discoverability: 64.8
-    governance: 13.6
-    operational_transparency: 26.3
-  previous_composite: 36.5
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 9.5
+    discoverability: 74.1
+    governance: 0.0
+    operational_transparency: 23.7
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -364,29 +194,29 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 35.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-bath/refs/heads/main/screenshots/university-of-bath-2026-06-20T200134.png
 security:
-- kind: authentication
-  name: University Of Bath Authentication
-  slug: university-of-bath-authentication
-  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: University Of Bath Domain Security
   slug: university-of-bath-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: university-of-bath
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - United Kingdom
-- Research
+- Russell Group
+- Research Data
+- Research Repository
 - Open Data
 - Library
+- OAI-PMH
 - Metadata
+- Research Computing
 website: https://www.bath.ac.uk/
 ---

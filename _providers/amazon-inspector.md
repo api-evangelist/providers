@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 53
   slug: amazon-inspector-agentic-access
   summary_line: 53 operations · 51 acting · 4 human-in-the-loop
-api_count: 22
+api_count: 2
 apis:
 - description: The Accountpermissions API from Amazon Inspector — 1 operation(s) for accountpermissions.
   name: Amazon Inspector Accountpermissions API
@@ -2139,18 +2139,23 @@ rules:
   slug: amazon-inspector-spectral-rules
 score:
   band: strong
-  composite: 56.2
-  delta: 4.5
+  composite: 55.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 28.8
     contract_quality: 68.6
     developer_ergonomics: 61.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 51.7
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     contracts:
@@ -2158,8 +2163,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-inspector/refs/heads/main/screenshots/amazon-inspector-2026-06-20T171705.png
 security:

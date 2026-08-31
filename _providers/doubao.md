@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: doubao-agentic-access
   summary_line: 7 operations · 6 acting
-api_count: 6
+api_count: 1
 apis:
 - description: OpenAI-compatible chat, responses, embedding, batch, image (Seedream), video (Seedance), 3D, and TTS APIs serving the Doubao model family. Base URL https://ark.cn-beijing.volces.com/api/v3. Includes t
   name: Volcano Engine Ark API
@@ -138,7 +138,7 @@ modified: '2026-05-08'
 name: ByteDance Doubao
 nav: Providers
 network: true
-overview: 'ByteDance Doubao publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Chat API, Embeddings API, and 2 more. Tagged areas include Artificial Intelligence, LLM, Inference, ByteDance, and Multi-Modal.
+overview: 'ByteDance Doubao publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Batch API, Chat API, Embeddings API, and 2 more. Tagged areas include Artificial Intelligence, LLM, Inference, ByteDance, and Multimodal.
 
 
   ByteDance Doubao''s developer surface includes authentication, documentation, and 8 more developer resources.'
@@ -153,18 +153,23 @@ rate_limits:
   slug: doubao-rate-limits
 score:
   band: thin
-  composite: 31.5
-  delta: 3.6
+  composite: 30.9
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 27.9
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     contracts:
@@ -172,8 +177,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doubao/refs/heads/main/screenshots/doubao-2026-06-20T180218.png
 security:
@@ -195,7 +200,7 @@ tags:
 - LLM
 - Inference
 - ByteDance
-- Multi-Modal
+- Multimodal
 - Volcano Engine
 website: https://www.volcengine.com/product/doubao
 ---

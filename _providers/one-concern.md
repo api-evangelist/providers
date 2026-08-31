@@ -23,14 +23,26 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: The Domino AI API returns One Concern's location-based physical-risk analytics for a single latitude/longitude. Five POST operations cover business-interruption risk scores by return period, by averag
-  name: One Concern Domino AI API
-  slug: one-concern-domino-ai-api
+- description: The Location API from One Concern — 5 operation(s) for location.
+  name: One Concern Location API
+  slug: one-concern-location-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/one-concern-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/one-concern-domino-ai-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -112,10 +124,10 @@ modified: '2026-08-26'
 name: One Concern
 nav: Providers
 network: true
-overview: 'One Concern publishes 1 API on the [APIs.io](https://apis.io/) network: Domino AI API. Tagged areas include Climate Risk, Catastrophe Modeling, Resilience, Insurance, and Reinsurance.
+overview: 'One Concern publishes 1 API on the [APIs.io](https://apis.io/) network: Location API. Tagged areas include Climate Risk, Catastrophe Modeling, Resilience, Insurance, and Reinsurance.
 
 
-  One Concern''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, and 13 more developer resources.'
+  One Concern''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, and 16 more developer resources.'
 plans:
 - name: One Concern Plans Pricing
   plan_count: 0
@@ -127,16 +139,23 @@ rate_limits:
   slug: one-concern-rate-limits
 score:
   band: thin
-  composite: 38.8
+  composite: 36.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 43.5
+    contract_governance: 4.5
+    contract_quality: 46.3
     developer_ergonomics: 58.9
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 2.6
+  previous_composite: 36.9
   provenance:
     conformance: derived
     contracts:
@@ -152,8 +171,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: One Concern Authentication
@@ -173,8 +193,8 @@ tags:
 - Risk Analytics
 - Geospatial
 - Business Interruption
-- Real Estate
-- Financial Services
+- Real-Estate
+- Financial-Services
 - Artificial Intelligence
 website: https://oneconcern.com/en/
 ---

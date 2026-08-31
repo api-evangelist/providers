@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 3
 common:
@@ -61,7 +61,7 @@ modified: '2026-08-26'
 name: Protego Trust Bank
 nav: Providers
 network: true
-overview: Protego Trust Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Financial Services, Digital Assets, and Cryptocurrency.
+overview: Protego Trust Bank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Financial-Services, Digital Assets, and Cryptocurrency.
 plans:
 - name: Protego Trust Bank Plans Pricing
   plan_count: 0
@@ -74,6 +74,12 @@ rate_limits:
 score:
   band: minimal
   composite: 1.1
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 90.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -83,14 +89,16 @@ score:
     discoverability: 46.3
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 1.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 7.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: domain-security
   name: Protego Trust Bank Domain Security
@@ -100,7 +108,7 @@ slug: protego-trust-bank
 tags:
 - Company
 - Banking
-- Financial Services
+- Financial-Services
 - Digital Assets
 - Cryptocurrency
 - Custody

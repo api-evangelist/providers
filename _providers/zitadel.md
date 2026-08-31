@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 32
   slug: zitadel-agentic-access
   summary_line: 32 operations · 26 acting
-api_count: 11
+api_count: 1
 apis:
 - description: The Zitadel Auth API provides endpoints for authenticated users to perform operations on their own accounts, including profile management, session handling, MFA setup, and personal data management. Ac
   name: Zitadel Auth API
@@ -128,6 +128,26 @@ collections:
   name: Zitadel Management Applications Users API
   slug: open-zitadel-users-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/zitadel/zitadel/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/zitadel/zitadel/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/zitadel/zitadel/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/zitadel/zitadel/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/zitadel/zitadel/blob/main/CONTRIBUTING.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -412,7 +432,7 @@ overview: 'Zitadel publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The Zitadel catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Zitadel''s developer surface includes authentication, engineering blog, documentation, tooling, signup flow, pricing, and 16 more developer resources.'
+  Zitadel''s developer surface includes authentication, engineering blog, documentation, tooling, signup flow, pricing, and 21 more developer resources.'
 plans:
 - name: Zitadel Plans Pricing
   plan_count: 3
@@ -445,19 +465,27 @@ rules:
     warn: 4
   slug: zitadel-spectral
 score:
-  band: developing
-  composite: 48.8
-  delta: 0.8
+  band: strong
+  composite: 56.5
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 28.8
     contract_quality: 74.4
     developer_ergonomics: 35.7
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
-    operational_transparency: 7.9
-  previous_composite: 48.0
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     contracts:
@@ -465,8 +493,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/screenshots/zitadel-2026-06-20T201924.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -487,18 +487,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.0
-  delta: 7.8
+  composite: 48.5
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 45.5
-    contract_quality: 31.5
+    contract_governance: 33.3
+    contract_quality: 31.9
     developer_ergonomics: 83.3
-    discoverability: 75.9
-    governance: 45.5
+    discoverability: 64.8
+    governance: 33.3
     operational_transparency: 26.3
-  previous_composite: 43.2
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -508,9 +513,9 @@ score:
       marker_coverage: 100.0
       total: 9
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-excel/refs/heads/main/screenshots/microsoft-excel-2026-06-20T185500.png
 security:
 - kind: authentication

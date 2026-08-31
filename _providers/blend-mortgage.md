@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 52
   slug: blend-mortgage-agentic-access
   summary_line: 52 operations · 25 acting · 1 human-in-the-loop
-api_count: 10
+api_count: 1
 apis:
 - description: Borrowers, coborrowers, realtors, employers, incomes, and positions.
   name: Blend Borrowers & Parties API
@@ -113,6 +113,10 @@ collections:
   name: Blend Public API
   slug: open-blend-mortgage
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/blend-mortgage-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -176,7 +180,7 @@ network: true
 overview: 'Blend publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Borrowers & Parties API, Closings & eSignature API, Consumer Lending & Deposit API, and 7 more. Tagged areas include Digital Lending, Mortgage, Consumer Lending, Account Opening, and Fintech.
 
 
-  Blend''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 7 more developer resources.'
+  Blend''s developer surface includes authentication, documentation, API reference, signup flow, engineering blog, and 8 more developer resources.'
 plans:
 - name: Blend Mortgage Plans Pricing
   plan_count: 3
@@ -188,18 +192,23 @@ rate_limits:
   slug: blend-mortgage-rate-limits
 score:
   band: thin
-  composite: 36.0
-  delta: 0.9
+  composite: 35.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 0.0
     contract_quality: 52.7
     developer_ergonomics: 22.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 35.1
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     contracts:
@@ -213,8 +222,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/screenshots/blend-mortgage-2026-07-25T203309.png
 security:

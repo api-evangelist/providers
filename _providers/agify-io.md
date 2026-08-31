@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -160,18 +160,23 @@ rules:
   slug: agify-io-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 22.0
-  delta: 0.0
+  composite: 21.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 65.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.1
   facets:
-    access_clarity: 26.3
-    commercial_clarity: 26.3
+    access_clarity: 21.1
+    commercial_clarity: 21.1
     contract_governance: 9.8
-    contract_quality: 16.2
+    contract_quality: 16.5
     developer_ergonomics: 19.0
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 22.0
+  previous_composite: 22.1
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +184,8 @@ score:
       derived: 1
       marker_coverage: 100.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agify-io/refs/heads/main/screenshots/agify-io-2026-06-20T170134.png
 security:

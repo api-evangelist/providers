@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 13
   slug: spx-agentic-access
   summary_line: 13 operations · 4 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Save and load custom JSON data
   name: SPX Graphics Data API
@@ -82,6 +82,10 @@ collections:
   name: SPX Graphics Control Data Rundown API
   slug: open-spx-rundown-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/spx-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -152,7 +156,7 @@ overview: 'SPX Graphics publishes 5 APIs on the [APIs.io](https://apis.io/) netw
   The SPX Graphics catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SPX Graphics'' developer surface includes GitHub presence, documentation, engineering blog, and 5 more developer resources.'
+  SPX Graphics'' developer surface includes GitHub presence, documentation, engineering blog, and 6 more developer resources.'
 plans:
 - name: Spx Plans Pricing
   plan_count: 3
@@ -202,18 +206,23 @@ rules:
   slug: spx-rules
 score:
   band: thin
-  composite: 34.5
-  delta: 6.3
+  composite: 33.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 54.4
     developer_ergonomics: 23.8
-    discoverability: 57.4
+    discoverability: 51.9
     governance: 28.8
     operational_transparency: 28.9
-  previous_composite: 28.2
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -221,9 +230,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spx/refs/heads/main/screenshots/spx-2026-06-20T194423.png
 security:
 - kind: domain-security

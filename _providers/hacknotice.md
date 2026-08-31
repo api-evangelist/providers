@@ -23,16 +23,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: 'REST API over the HackNotice threat-intelligence platform: authentication, leak and leak-file search, first-party domain watchlists and alerts, third-party vendor watchlists, hacks and alerts, end-use'
-  name: HackNotice API
-  slug: hacknotice-api
 - description: 'Remote Model Context Protocol server operated by HackNotice, speaking JSON-RPC 2.0 over Streamable HTTP at https://mcp.hacknotice.com:13330/mcp. It publishes 80 tools across third-party, first-party, '
   name: HackNotice MCP Server
   slug: hacknotice-mcp
-artifact_total: 8
+- description: Cross-service alert retrieval.
+  name: HackNotice Alerts API
+  slug: hacknotice-alerts-api
+- description: Authentication, leak/leakfile search, customer records, metrics, habits, downloads, utilities and item notes shared by every business account.
+  name: HackNotice All Business Accounts API
+  slug: hacknotice-all-business-accounts-api
+- description: Aggregate/rollup calculation endpoints for breaches, threat actors and per-service alerts.
+  name: HackNotice Calc endpoints API
+  slug: hacknotice-calc-endpoints-api
+- description: Endpoints HackNotice groups as deprecated in its published collection (dark hash alerts, Teams accounts).
+  name: HackNotice Deprecated API
+  slug: hacknotice-deprecated-api
+- description: 'First-party domain monitoring: domain watchlists, domain leaks, domain alerts and downloads.'
+  name: HackNotice Domain Business Accounts API
+  slug: hacknotice-domain-business-accounts-api
+- description: 'End-user monitoring: end-user watchlists, end-user leaks and end-user alerts.'
+  name: HackNotice Enduser Business Accounts API
+  slug: hacknotice-enduser-business-accounts-api
+- description: Threat-research search over terms, filenames and word pools, plus saved searches.
+  name: HackNotice Research Service Accounts API
+  slug: hacknotice-research-service-accounts-api
+- description: 'Third-party vendor monitoring: hacks, hack updates, watchlists, alerts and vendor security assessments.'
+  name: HackNotice Third Party Accounts API
+  slug: hacknotice-third-party-accounts-api
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Hacknotice Webhooks
@@ -186,7 +207,7 @@ modified: '2026-08-22'
 name: HackNotice
 nav: Providers
 network: true
-overview: 'HackNotice publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Threat Intelligence, Cybersecurity, and Dark Web Monitoring.
+overview: 'HackNotice publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, All Business Accounts API, Calc endpoints API, and 5 more. Tagged areas include Company, Security, Threat Intelligence, Cybersecurity, and Dark Web Monitoring.
 
 
   The HackNotice catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -204,18 +225,23 @@ rate_limits:
   slug: hacknotice-rate-limits
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 52.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_governance: 16.7
-    contract_quality: 66.1
+    contract_governance: 4.5
+    contract_quality: 65.7
     developer_ergonomics: 49.4
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 53.6
+  previous_composite: 52.6
   provenance:
     conformance: derived
     contracts:
@@ -225,8 +251,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -246,7 +272,7 @@ tags:
 - Dark Web Monitoring
 - Data Breaches
 - Credential Monitoring
-- Third Party Risk
+- Third-Party Risk
 - Vendor Risk Management
 - Vulnerability Management
 - Ransomware

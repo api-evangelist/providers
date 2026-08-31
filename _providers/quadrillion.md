@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 195
   human_in_the_loop: 8
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 320
   slug: quadrillion-agentic-access
   summary_line: 320 operations · 195 acting · 8 human-in-the-loop
-api_count: 51
+api_count: 1
 apis:
 - description: The account API from Quadrillion — 3 operation(s) for account.
   name: Quadrillion account API
@@ -355,6 +355,10 @@ collections:
   name: Quadrillion Cloud account You API
   slug: open-quadrillion-you-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/quadrillion-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -474,20 +478,25 @@ network: true
 overview: 'Quadrillion publishes 51 APIs on the [APIs.io](https://apis.io/) network, including account API, admin API, api-keys API, and 48 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Research, and Data Science.
 
 
-  Quadrillion''s developer surface includes documentation, getting-started guide, pricing, signup flow, changelog, support, authentication, and 19 more developer resources.'
+  Quadrillion''s developer surface includes documentation, getting-started guide, pricing, signup flow, changelog, support, authentication, and 20 more developer resources.'
 random_paper: 12
 score:
   band: developing
-  composite: 47.0
-  delta: 1.4
+  composite: 45.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 49.2
     developer_ergonomics: 49.4
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 31.6
   previous_composite: 45.6
   provenance:
@@ -500,8 +509,8 @@ score:
       total: 51
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quadrillion/refs/heads/main/screenshots/quadrillion-2026-08-17T081425.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 3
@@ -43,14 +43,26 @@ agentic_access:
   operation_count: 59
   slug: quandela-agentic-access
   summary_line: 59 operations · 31 acting · 3 human-in-the-loop
-api_count: 2
+api_count: 8
 apis:
-- description: The core Quandela Cloud REST surface — Perceval job submission, status/result polling, cancel and rerun, plus the full Cloud Job Token lifecycle (create, list, read, update, revoke, reopen, delete) an
-  name: Quandela Cloud API
-  slug: quandela-cloud-api
-- description: Quandela's pre-built quantum primitives, published as a separate specification at https://api.cloud.quandela.com/qt-openapi.json. Five fully typed algorithms — Chemistry VQE, Custom VQE, CVaR VQE, Gra
+- description: APIs related to job token
+  name: Quandela Api - Job Token API
+  slug: quandela-api-job-token-api
+- description: Operations about job - Authenticate by `Cloud Job Token`
+  name: Quandela Api - Perceval Job API
+  slug: quandela-api-perceval-job-api
+- description: Operations about job token - Authenticate by `Cloud Job Token`
+  name: Quandela Api - Perceval Job Token API
+  slug: quandela-api-perceval-job-token-api
+- description: Service root, health check and specification endpoints
+  name: Quandela Platform API
+  slug: quandela-platform-api
+- description: Quantum Random Number generation
+  name: Quandela QRNG API
+  slug: quandela-qrng-api
+- description: Quantum Toolbox entrypoints
   name: Quandela Quantum Toolbox API
-  slug: quandela-quantum-toolbox-api
+  slug: quandela-quantumtoolbox-api
 arazzos:
 - description: Price a Chemistry VQE workload with the estimator before committing credits, check the Quantum Toolbox concurrency ceiling, submit, poll and collect.
   name: Estimate then run a Chemistry VQE workload on Quandela Quantum Toolbox
@@ -61,8 +73,20 @@ arazzos:
 - description: Mint a Cloud Job Token, verify account capacity, submit a photonic-circuit job, poll to completion, then retrieve the result and the submission record.
   name: Submit a Perceval job to Quandela Cloud and collect the result
   slug: quandela-submit-and-collect-perceval-job
-artifact_total: 10
+artifact_total: 14
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Quandela/Perceval/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Quandela/Perceval/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Quandela/Perceval/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -316,10 +340,10 @@ modified: '2026-08-17'
 name: Quandela
 nav: Providers
 network: true
-overview: 'Quandela publishes 2 APIs on the [APIs.io](https://apis.io/) network: Cloud API and Quantum Toolbox API. Tagged areas include Quantum Computing, Photonic Quantum, Photonics, Single Photon Sources, and Quantum Hardware.
+overview: 'Quandela publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Api - Job Token API, Api - Perceval Job API, Api - Perceval Job Token API, and 3 more. Tagged areas include Quantum Computing, Photonic Quantum, Photonics, Single Photon Sources, and Quantum Hardware.
 
 
-  Quandela''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, pricing, and 54 more developer resources.'
+  Quandela''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, pricing, and 57 more developer resources.'
 plans:
 - name: Quandela Plans Pricing
   plan_count: 0
@@ -331,18 +355,26 @@ rate_limits:
   slug: quandela-rate-limits
 score:
   band: developing
-  composite: 49.8
+  composite: 50.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
-    contract_quality: 55.8
+    contract_governance: 4.5
+    contract_quality: 55.3
     developer_ergonomics: 61.3
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 74.1
+    governance: 4.5
     operational_transparency: 71.1
-  previous_composite: 49.8
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -353,8 +385,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/screenshots/quandela-2026-06-20T192405.png
 security:

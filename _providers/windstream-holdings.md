@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 38
   slug: windstream-holdings-agentic-access
   summary_line: 38 operations · 16 acting · 4 human-in-the-loop
-api_count: 9
+api_count: 2
 apis:
 - description: Agent state management
   name: Windstream Holdings agents API
@@ -110,6 +110,10 @@ collections:
   name: Windstream Enterprise Voice API
   slug: open-windstream-voice
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/windstream-holdings-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -195,7 +199,7 @@ overview: 'Windstream Holdings publishes 9 APIs on the [APIs.io](https://apis.io
   The Windstream Holdings catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Windstream Holdings'' developer surface includes authentication, developer portal, documentation, and 9 more developer resources.'
+  Windstream Holdings'' developer surface includes authentication, developer portal, documentation, and 10 more developer resources.'
 plans:
 - name: Windstream Holdings Plans Pricing
   plan_count: 3
@@ -245,18 +249,23 @@ rules:
   slug: windstream-holdings-rules
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 35.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 59.6
+    contract_quality: 60.9
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 35.3
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -270,8 +279,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/screenshots/windstream-holdings-2026-06-20T201507.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: metrilo-agentic-access
   summary_line: 10 operations · 10 acting
-api_count: 5
+api_count: 2
 apis:
 - description: The Categories API from Metrilo — 2 operation(s) for categories.
   name: Metrilo Categories API
@@ -56,9 +56,9 @@ apis:
 - description: The Products API from Metrilo — 2 operation(s) for products.
   name: Metrilo Products API
   slug: metrilo-products-api
-- description: Metrilo's own published specification for the tracking and CRM ingestion API — OpenAPI 3.0.1, version 2.1.1, 10 operations and 19 schemas covering categories, products, customers (including tag/untag)
-  name: Metrilo Tracking API
-  slug: metrilo-tracking-api
+- description: The API API from Metrilo — 10 operation(s) for api.
+  name: Metrilo API
+  slug: metrilo-api-api
 artifact_total: 16
 collections:
 - collection_type: open
@@ -228,18 +228,23 @@ rate_limits:
   slug: metrilo-rate-limits
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 44.5
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 30.3
-    contract_quality: 13.5
+    contract_governance: 18.2
+    contract_quality: 13.7
     developer_ergonomics: 60.1
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 47.5
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -250,8 +255,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metrilo/refs/heads/main/screenshots/metrilo-2026-08-07T172735.png
 security:

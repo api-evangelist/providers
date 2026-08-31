@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: delighted-agentic-access
   summary_line: 18 operations · 9 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Manage Autopilot drip campaign configuration and membership
   name: Delighted Autopilot API
@@ -175,7 +175,7 @@ modified: '2026-06-13'
 name: Delighted
 nav: Providers
 network: true
-overview: 'Delighted publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Autopilot API, Bounces API, Metrics API, and 3 more. Tagged areas include NPS, CSAT, Customer Satisfaction, CES, and Customer Effort Score.
+overview: 'Delighted publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Autopilot API, Bounces API, Metrics API, and 3 more. Tagged areas include NPS, Net Promoter Score, CSAT, Customer Satisfaction, and CES.
 
 
   The Delighted catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -204,15 +204,20 @@ rules:
   slug: delighted-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.6
-  delta: 0.0
+  composite: 32.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 61.6
     developer_ergonomics: 0.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 5.3
   previous_composite: 32.6
@@ -223,8 +228,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delighted/refs/heads/main/screenshots/delighted-2026-06-20T175852.png
 security:
@@ -239,6 +244,7 @@ security:
 slug: delighted
 tags:
 - NPS
+- Net Promoter Score
 - CSAT
 - Customer Satisfaction
 - CES

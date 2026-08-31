@@ -27,15 +27,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 43.0
-  scored_at: '2026-08-26'
+  score: 45.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 45
   slug: ada-agentic-access
   summary_line: 45 operations · 26 acting
-api_count: 14
+api_count: 4
 apis:
 - description: Real-time management of end-user profile information with webhook events for new chats and profile updates.
   name: Ada End Users API
@@ -57,37 +57,58 @@ apis:
 - description: Model Context Protocol server exposing Ada's management surface to AI assistants — metrics, conversation transcripts, knowledge and coaching search, entity discovery, test cases and runs, change sets,
   name: Ada MCP Server
   slug: ada-mcp-server
-- description: The subpackage_channels API from Ada — 1 operation(s) for subpackage_channels.
-  name: Ada subpackage_channels API
-  slug: ada-subpackage-channels-api
-- description: The subpackage_conversations API from Ada — 9 operation(s) for subpackage_conversations.
-  name: Ada subpackage_conversations API
-  slug: ada-subpackage-conversations-api
-- description: The subpackage_deleteChatterData API from Ada — 1 operation(s) for subpackage_deletechatterdata.
-  name: Ada subpackage_deleteChatterData API
-  slug: ada-subpackage-deletechatterdata-api
-- description: The subpackage_endUsers API from Ada — 2 operation(s) for subpackage_endusers.
-  name: Ada subpackage_endUsers API
-  slug: ada-subpackage-endusers-api
-- description: The subpackage_knowledge.subpackage_knowledge/articles API from Ada — 3 operation(s) for subpackage_knowledge.subpackage_knowledge/articles.
-  name: Ada subpackage_knowledge.subpackage_knowledge/articles API
-  slug: ada-subpackage-knowledge-subpackage-knowledge-articles-api
-- description: The subpackage_knowledge.subpackage_knowledge/sources API from Ada — 2 operation(s) for subpackage_knowledge.subpackage_knowledge/sources.
-  name: Ada subpackage_knowledge.subpackage_knowledge/sources API
-  slug: ada-subpackage-knowledge-subpackage-knowledge-sources-api
-- description: The subpackage_knowledge.subpackage_knowledge/tags API from Ada — 3 operation(s) for subpackage_knowledge.subpackage_knowledge/tags.
-  name: Ada subpackage_knowledge.subpackage_knowledge/tags API
-  slug: ada-subpackage-knowledge-subpackage-knowledge-tags-api
-- description: The subpackage_messages API from Ada — 2 operation(s) for subpackage_messages.
-  name: Ada subpackage_messages API
-  slug: ada-subpackage-messages-api
-- description: The subpackage_platformIntegrations API from Ada — 4 operation(s) for subpackage_platformintegrations.
-  name: Ada subpackage_platformIntegrations API
-  slug: ada-subpackage-platformintegrations-api
-- description: The subpackage_webhookManagement API from Ada — 5 operation(s) for subpackage_webhookmanagement.
-  name: Ada subpackage_webhookManagement API
-  slug: ada-subpackage-webhookmanagement-api
-artifact_total: 44
+- description: The auditLog API from Ada — 1 operation(s) for auditlog.
+  name: Ada Audit Log API
+  slug: ada-auditlog-api
+- description: The channels API from Ada — 2 operation(s) for channels.
+  name: Ada Channels API
+  slug: ada-channels-api
+- description: The conversations API from Ada — 9 operation(s) for conversations.
+  name: Ada Conversations API
+  slug: ada-conversations-api
+- description: The customInstructions API from Ada — 2 operation(s) for custominstructions.
+  name: Ada Custom Instructions API
+  slug: ada-custominstructions-api
+- description: The deleteChatterData API from Ada — 1 operation(s) for deletechatterdata.
+  name: Ada Delete Chatter Data API
+  slug: ada-deletechatterdata-api
+- description: The endUsers API from Ada — 2 operation(s) for endusers.
+  name: Ada End Users API
+  slug: ada-endusers-api
+- description: The getDeletionJob API from Ada — 1 operation(s) for getdeletionjob.
+  name: Ada Get Deletion Job API
+  slug: ada-getdeletionjob-api
+- description: The Knowledge API from Ada — 0 operation(s) for knowledge.
+  name: Ada Knowledge API
+  slug: ada-knowledge-api
+- description: The knowledge > articles API from Ada — 3 operation(s) for knowledge > articles.
+  name: Ada knowledge > articles API
+  slug: ada-knowledge-articles-api
+- description: The knowledge > sources API from Ada — 2 operation(s) for knowledge > sources.
+  name: Ada knowledge > sources API
+  slug: ada-knowledge-sources-api
+- description: The knowledge > tags API from Ada — 3 operation(s) for knowledge > tags.
+  name: Ada knowledge > tags API
+  slug: ada-knowledge-tags-api
+- description: The messages API from Ada — 2 operation(s) for messages.
+  name: Ada Messages API
+  slug: ada-messages-api
+- description: The persona API from Ada — 1 operation(s) for persona.
+  name: Ada Persona API
+  slug: ada-persona-api
+- description: The platformIntegrations API from Ada — 4 operation(s) for platformintegrations.
+  name: Ada Platform Integrations API
+  slug: ada-platformintegrations-api
+- description: The submitDeletionRequest API from Ada — 1 operation(s) for submitdeletionrequest.
+  name: Ada Submit Deletion Request API
+  slug: ada-submitdeletionrequest-api
+- description: The Variables API from Ada — 2 operation(s) for variables.
+  name: Ada Variables API
+  slug: ada-variables-api
+- description: The webhookManagement API from Ada — 5 operation(s) for webhookmanagement.
+  name: Ada Webhook Management API
+  slug: ada-webhookmanagement-api
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Ada Webhooks
@@ -127,6 +148,42 @@ collections:
   name: Data Compliance subpackage_channels subpackage_webhookManagement API
   slug: open-ada-subpackage-webhookmanagement-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ada-subpackage-channels-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ada-subpackage-conversations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ada-subpackage-deletechatterdata-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ada-subpackage-endusers-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ada-subpackage-knowledge-subpackage-knowledge-sources-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ada-subpackage-knowledge-subpackage-knowledge-tags-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ada-subpackage-messages-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ada-subpackage-platformintegrations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ada-subpackage-webhookmanagement-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -377,13 +434,13 @@ modified: 2026-08-14
 name: Ada
 nav: Providers
 network: true
-overview: 'Ada publishes 10 APIs on the [APIs.io](https://apis.io/) network, including subpackage_channels API, subpackage_conversations API, subpackage_deleteChatterData API, and 7 more. Tagged areas include Artificial Intelligence, Customer Service, Chatbots, Automation, and Conversational AI.
+overview: 'Ada publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Conversations API, Audit Log API, Channels API, and 15 more. Tagged areas include Artificial Intelligence, customer-service, Chatbots, automation, and conversational-ai.
 
 
   The Ada catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Ada''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 45 more developer resources.'
+  Ada''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 54 more developer resources.'
 plans:
 - name: Ada Plans Pricing
   plan_count: 1
@@ -411,18 +468,23 @@ scopes:
   summary_line: 8 scopes · authorizationCode/refreshToken
 score:
   band: exemplar
-  composite: 75.7
+  composite: 74.0
+  coverage:
+    artifact_dirs: 33
+    catalog_gap: 44.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
-    contract_governance: 55.3
-    contract_quality: 72.9
+    contract_governance: 43.2
+    contract_quality: 72.0
     developer_ergonomics: 85.7
     discoverability: 92.6
-    governance: 55.3
+    governance: 43.2
     operational_transparency: 60.5
-  previous_composite: 75.7
+  previous_composite: 74.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -433,8 +495,8 @@ score:
       total: 10
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ada/refs/heads/main/screenshots/ada-2026-06-20T164442.png
 security:
@@ -457,14 +519,14 @@ security:
 slug: ada
 tags:
 - Artificial Intelligence
-- Customer Service
+- customer-service
 - Chatbots
-- Automation
-- Conversational AI
-- Help Desk
+- automation
+- conversational-ai
+- helpdesk
 - CRM
 - Integration
-- Knowledge-Management
-- Data Export
+- knowledge-management
+- data-export
 website: https://www.ada.cx/
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 4
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 89
   slug: climateai-agentic-access
   summary_line: 89 operations · 49 acting · 4 human-in-the-loop
-api_count: 15
+api_count: 2
 apis:
 - description: ClimateAI authentication and routing gateway for platform services. Covers accounts, account configuration, users, roles, permissions, device API keys, products, platform labels, reports, transactiona
   name: ClimateAI Platform API
@@ -126,6 +126,10 @@ collections:
   name: ClimateAI Platform User API
   slug: open-climateai-user-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/climateai-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -245,22 +249,27 @@ network: true
 overview: 'ClimateAI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Platform API, Account API, Account Config API, and 12 more. Tagged areas include Company, Weather, Climate, Climate Intelligence, and Forecasting.
 
 
-  ClimateAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 19 more developer resources.'
+  ClimateAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 20 more developer resources.'
 random_paper: 13
 score:
   band: developing
-  composite: 45.0
-  delta: 0.8
+  composite: 43.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 31.8
+    contract_governance: 19.7
     contract_quality: 52.2
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 31.8
+    discoverability: 75.9
+    governance: 19.7
     operational_transparency: 10.5
-  previous_composite: 44.2
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,8 +280,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/climateai/refs/heads/main/screenshots/climateai-2026-08-07T163452.png
 security:

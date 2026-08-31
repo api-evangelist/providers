@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 114
   slug: salesforce-sales-cloud-agentic-access
   summary_line: 114 operations · 45 acting
-api_count: 52
+api_count: 8
 apis:
 - description: Comprehensive SOAP-based API for enterprise integrations with full CRUD operations on Salesforce objects. Uses WSDL files to define parameters for accessing data through the API.
   name: Salesforce SOAP API
@@ -53,15 +53,6 @@ apis:
 - description: Push notification API using Bayeux protocol to receive near real-time updates when data changes in Salesforce. Enables event-driven integrations without polling.
   name: Streaming API
   slug: streaming-api
-- description: Event-driven architecture API for publishing and subscribing to custom events for app integration. Supports defining custom event channels with schema for loosely coupled systems.
-  name: Platform Events API
-  slug: platform-events-api
-- description: Executes a series of REST API requests in a single call, reducing round trips between client and server. Supports composite batches, composite requests, and composite graphs for complex multi-step ope
-  name: Salesforce Composite API
-  slug: salesforce-composite-api
-- description: Query Salesforce data using GraphQL, allowing clients to request exactly the fields they need in a single request. Reduces payload size and supports aggregation across object relationships.
-  name: Salesforce GraphQL API
-  slug: salesforce-graphql-api
 - description: gRPC-based API for publishing and subscribing to platform events, change data capture events, and real-time event monitoring events. Uses Apache Avro format for efficient binary event message delivery
   name: Salesforce Pub/Sub API
   slug: salesforce-pubsub-api
@@ -74,12 +65,6 @@ apis:
 - description: Apex code completions
   name: Salesforce Sales Cloud Completions API
   slug: salesforce-sales-cloud-completions-api
-- description: Batch of independent subrequests
-  name: Salesforce Sales Cloud Composite Batch API
-  slug: salesforce-sales-cloud-composite-batch-api
-- description: Complex multi-step composite graph operations
-  name: Salesforce Sales Cloud Composite Graph API
-  slug: salesforce-sales-cloud-composite-graph-api
 - description: Custom Apex REST endpoints defined by @RestResource annotated classes
   name: Salesforce Sales Cloud Custom Endpoints API
   slug: salesforce-sales-cloud-custom-endpoints-api
@@ -179,9 +164,6 @@ apis:
 - description: CRUD operations on individual sObject records
   name: Salesforce Sales Cloud SObject Rows API
   slug: salesforce-sales-cloud-sobject-rows-api
-- description: Hierarchical record creation
-  name: Salesforce Sales Cloud SObject Tree API
-  slug: salesforce-sales-cloud-sobject-tree-api
 - description: Tab metadata
   name: Salesforce Sales Cloud Tabs API
   slug: salesforce-sales-cloud-tabs-api
@@ -255,7 +237,7 @@ arazzos:
 - description: Upsert an Account on an external ID field, then attach a Contact to it.
   name: Salesforce Sales Cloud Upsert Account By External ID
   slug: salesforce-sales-cloud-upsert-account-by-external-id-workflow
-artifact_total: 208
+artifact_total: 202
 collections:
 - collection_type: postman
   name: Salesforce Sales Cloud Salesforce Analytics REST API
@@ -462,6 +444,10 @@ collections:
   name: Salesforce Sales Cloud Salesforce Analytics REST Change Events Users API
   slug: open-salesforce-sales-cloud-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/salesforce-sales-cloud-capability-edges.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -891,13 +877,13 @@ modified: '2026-08-21'
 name: Salesforce Sales Cloud
 nav: Providers
 network: true
-overview: 'Salesforce Sales Cloud publishes 48 APIs on the [APIs.io](https://apis.io/) network, including Platform Events API, Salesforce Composite API, Salesforce GraphQL API, and 45 more. Tagged areas include Cloud, CRM, Customer Management, Enterprise, and Sales.
+overview: 'Salesforce Sales Cloud publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Change Events API, Communities API, Completions API, and 39 more. Tagged areas include Cloud, CRM, Customer Management, Enterprise, and Sales.
 
 
   The Salesforce Sales Cloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesforce Sales Cloud''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 50 more developer resources.'
+  Salesforce Sales Cloud''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 51 more developer resources.'
 plans:
 - name: Salesforce Sales Cloud Plans Pricing
   plan_count: 1
@@ -935,18 +921,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 53.4
-  delta: 2.3
+  composite: 51.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 69.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 25.0
     contract_quality: 68.8
     developer_ergonomics: 76.2
-    discoverability: 66.7
+    discoverability: 48.1
     governance: 25.0
     operational_transparency: 23.7
-  previous_composite: 51.1
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     contracts:
@@ -954,8 +945,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 48
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-sales-cloud/refs/heads/main/screenshots/salesforce-sales-cloud-2026-06-20T193350.png
 security:

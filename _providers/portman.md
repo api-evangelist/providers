@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Portman is an open source CLI tool that auto-generates Postman collections with contract and variation tests from OpenAPI specifications. It converts static OpenAPI specs into dynamic, testable Postma
@@ -41,6 +41,14 @@ apis:
   slug: portman
 artifact_total: 4
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apideck-libraries/portman/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/apideck-libraries/portman/releases
 - group: commercial
   title: ''
   type: License
@@ -80,7 +88,7 @@ network: true
 overview: 'Portman publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Contract Testing, OpenAPI, Postman, and Testing.
 
 
-  Portman''s developer surface includes documentation and 5 more developer resources.'
+  Portman''s developer surface includes documentation and 7 more developer resources.'
 plans:
 - name: Portman Plans Pricing
   plan_count: 3
@@ -92,7 +100,12 @@ rate_limits:
   slug: portman-rate-limits
 score:
   band: emerging
-  composite: 11.8
+  composite: 14.9
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -102,10 +115,13 @@ score:
     developer_ergonomics: 9.5
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 13.2
-  previous_composite: 11.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 14.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portman/refs/heads/main/screenshots/portman-2026-06-20T191942.png
 slug: portman

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 48
   slug: gocardless-agentic-access
   summary_line: 48 operations · 21 acting
-api_count: 16
+api_count: 1
 apis:
 - description: The billing_request_flows API from GoCardless — 2 operation(s) for billing_request_flows.
   name: GoCardless billing_request_flows API
@@ -152,6 +152,10 @@ collections:
   name: GoCardless REST API
   slug: open-gocardless
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gocardless-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -254,7 +258,7 @@ overview: 'GoCardless publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
   The GoCardless catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  GoCardless'' developer surface includes authentication, sandbox, changelog, documentation, pricing, signup flow, support, and 15 more developer resources.'
+  GoCardless'' developer surface includes authentication, sandbox, changelog, documentation, pricing, signup flow, support, and 16 more developer resources.'
 random_paper: 13
 rules:
 - effective_rule_count: 33
@@ -275,18 +279,23 @@ scopes:
   summary_line: 1 scope
 score:
   band: developing
-  composite: 46.9
-  delta: 3.3
+  composite: 46.3
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 74.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 11.4
     contract_quality: 58.5
     developer_ergonomics: 45.2
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 43.6
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     contracts:
@@ -300,8 +309,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 50.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/screenshots/gocardless-2026-06-20T181944.png
 security:

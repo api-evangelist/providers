@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 4
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 286
   slug: clio-agentic-access
   summary_line: 286 operations · 143 acting · 4 human-in-the-loop
-api_count: 85
+api_count: 1
 apis:
 - description: Clio Webhooks deliver near real-time notifications when matters, contacts, activities, tasks, calendar entries, bills, and other Clio resources are created, updated, or deleted. Subscriptions are mana
   name: Clio Webhooks
@@ -555,6 +555,10 @@ collections:
   name: Clio API Documentation
   slug: open-clio
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/clio-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -666,7 +670,7 @@ overview: 'Clio publishes 83 APIs on the [APIs.io](https://apis.io/) network, in
   The Clio catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Clio''s developer surface includes documentation, pricing, signup flow, developer portal, authentication, support, engineering blog, and 15 more developer resources.'
+  Clio''s developer surface includes documentation, pricing, signup flow, developer portal, authentication, support, engineering blog, and 16 more developer resources.'
 random_paper: 3
 rules:
 - effective_rule_count: 51
@@ -682,18 +686,23 @@ rules:
   slug: clio-rules
 score:
   band: developing
-  composite: 46.5
-  delta: 0.0
+  composite: 45.0
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 54.5
     contract_quality: 64.3
     developer_ergonomics: 40.5
-    discoverability: 59.3
+    discoverability: 44.4
     governance: 54.5
     operational_transparency: 21.1
-  previous_composite: 46.5
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -701,8 +710,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 83
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/screenshots/clio-2026-06-20T174526.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -132,6 +132,22 @@ collections:
   name: HashiCorp Vault System Backend API
   slug: open-vault-sys
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/hashicorp/vault/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/hashicorp/vault/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/hashicorp/vault/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/hashicorp/vault/blob/main/CONTRIBUTING.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -471,7 +487,7 @@ overview: 'HashiCorp Vault publishes 8 APIs on the [APIs.io](https://apis.io/) n
   The HashiCorp Vault catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  HashiCorp Vault''s developer surface includes authentication, developer portal, engineering blog, Stack Overflow tag, training material, and 11 more developer resources.'
+  HashiCorp Vault''s developer surface includes authentication, developer portal, engineering blog, Stack Overflow tag, training material, and 15 more developer resources.'
 plans:
 - name: Vault Plans Pricing
   plan_count: 3
@@ -504,19 +520,27 @@ rules:
     warn: 17
   slug: vault-spectral-rules
 score:
-  band: thin
-  composite: 38.2
-  delta: 7.0
+  band: developing
+  composite: 40.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 13.6
-    contract_quality: 30.8
+    contract_quality: 31.1
     developer_ergonomics: 53.6
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 42.1
-  previous_composite: 31.2
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -524,9 +548,9 @@ score:
       derived: 8
       marker_coverage: 100.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vault/refs/heads/main/screenshots/vault-2026-06-20T200835.png
 security:
 - kind: authentication

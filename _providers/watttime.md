@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -361,7 +361,12 @@ rules:
 score:
   band: thin
   composite: 37.1
-  delta: 2.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -371,7 +376,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 35.0
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -385,8 +390,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/watttime/refs/heads/main/screenshots/watttime-2026-06-20T201256.png
 security:

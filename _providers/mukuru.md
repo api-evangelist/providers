@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -181,7 +181,7 @@ modified: '2026-05-24'
 name: Mukuru
 nav: Providers
 network: true
-overview: 'Mukuru is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Remittance, Money Transfer, Cross-Border Payments, Africa, and South Africa.
+overview: 'Mukuru is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Remittance, Money Transfer, Cross Border Payments, Africa, and South Africa.
 
 
   Mukuru''s developer surface includes signup flow, engineering blog, legal docs, GitHub presence, YouTube channel, and 29 more developer resources.'
@@ -189,6 +189,11 @@ random_paper: 9
 score:
   band: minimal
   composite: 8.4
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 17.1
@@ -206,8 +211,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 15.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mukuru/refs/heads/main/screenshots/mukuru-2026-06-20T185859.png
 security:
@@ -219,7 +224,7 @@ slug: mukuru
 tags:
 - Remittance
 - Money Transfer
-- Cross-Border Payments
+- Cross Border Payments
 - Africa
 - South Africa
 - Diaspora
@@ -229,7 +234,7 @@ tags:
 - Funeral Insurance
 - Disbursements
 - Collection
-- Cash-In Cash-Out
+- Cash In Cash Out
 - Financial Inclusion
 - Fintech
 website: https://www.mukuru.com

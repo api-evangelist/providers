@@ -1,22 +1,22 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Institution-internal
   onboarding: unknown
   pricing: free
   public: false
   source:
-  - plans
+  - probe
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -25,30 +25,28 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
+  score: 20.5
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: Fudan University Dataverse is a research data repository built on the Dataverse open-source platform, hosting survey, census, and social-science datasets contributed by Fudan researchers. The Datavers
-  name: Fudan University Dataverse (Research Data Repository)
-  slug: dataverse
-artifact_total: 7
+- description: The OpenID Connect provider Fudan operates for campus single sign-on at id.fudan.edu.cn. Issuer https://id.fudan.edu.cn/idp. The discovery document and the JWKS are both served anonymously and were ca
+  name: Fudan University Unified Identity — OpenID Connect
+  slug: identity-oidc
+- description: Fudan's SAML 2.0 identity provider, entityID https://idpfudan.fudan.edu.cn/idp/shibboleth, asserting scope fudan.edu.cn. It is registered with CARSI, China's education federation, and interfederated i
+  name: Fudan University Shibboleth Identity Provider (CARSI / eduGAIN)
+  slug: identity-saml
+- description: 'Fudan''s institutional research data repository, operated by the Research Center for Social Sciences. It moved off Dataverse: dvn.fudan.edu.cn now only meta-refreshes to rdr.fudan.edu.cn/datahome, whic'
+  name: Fudan University Social Science Data Platform (复旦大学社会科学数据平台)
+  slug: research-data-platform
+artifact_total: 14
 common:
-- group: auth
-  title: ''
-  type: VulnerabilityDisclosure
-  url: security/fudan-vulnerability-disclosure.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/fudan-domain-security.yml
 - group: company
   title: ''
   type: Website
@@ -57,14 +55,62 @@ common:
   title: ''
   type: Website
   url: https://www.fudan.edu.cn/en/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://idpfudan.fudan.edu.cn/idp/shibboleth
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://id.fudan.edu.cn/idp/.well-known/openid-configuration
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://rdr.fudan.edu.cn/datahome/open/dataResource
 - group: build
   title: ''
-  type: GitHub
+  type: LibraryCatalog
+  url: https://library.fudan.edu.cn/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://jwc.fudan.edu.cn/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://news.fudan.edu.cn/2024/1220/c3163a143685/page.htm
+- group: operate
+  title: ''
+  type: Support
+  url: https://xxb.fudan.edu.cn/
+- group: company
+  title: ''
+  type: Blog
+  url: https://news.fudan.edu.cn/
+- group: build
+  title: ''
+  type: GitHubOrganization
   url: https://github.com/FudanUniversity
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/FudanNLP
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/FudanSELab
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/fudan-university/
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/fudan-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/fudan-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -81,30 +127,65 @@ common:
   title: ''
   type: Review
   url: review.yml
+coverage:
+  detail: 'Fudan operates real, institution-owned surfaces and two of them publish machine-readable metadata anonymously — the SAML 2.0 IdP metadata at idpfudan.fudan.edu.cn/idp/shibboleth and the OpenID Connect discovery document plus JWKS at id.fudan.edu.cn/idp. Those are captured and described here in full. Everything the institution actually runs behind them is closed: the OIDC endpoints need a client_id issued by the IT Office and there is no public registration; the research data platform''s JSON backend answers every unauthenticated call with HTTP 200 and the body {"status":4000,"message":"状态锁不得为空"}. No developer portal, no API key programme and no documentation exists for any of it. This is not a bot block and not a language barrier — Chinese-language surfaces were searched and read, and the Chinese Information Technology Office pages were the source for several corrections here.'
+  evidence:
+  - status: 200
+    url: https://idpfudan.fudan.edu.cn/idp/shibboleth
+  - status: 200
+    url: https://id.fudan.edu.cn/idp/.well-known/openid-configuration
+  - status: 200
+    url: https://id.fudan.edu.cn/idp/oidc/getPublicKey
+  - status: 200
+    url: https://rdr.fudan.edu.cn/datahome/open/admin/loginUserInfo.do
+  - status: 404
+    url: https://rdr.fudan.edu.cn/api/info/version
+  - status: 404
+    url: https://dvn.fudan.edu.cn/oai?verb=Identify
+  - status: 200
+    url: https://library.fudan.edu.cn/oai?verb=Identify
+  - status: 404
+    url: https://www.fudan.edu.cn/robots.txt
+  - status: 404
+    url: https://www.fudan.edu.cn/llms.txt
+  reason: auth_required
+  state: gated
 created: '2026-06-03'
-description: 'Fudan University is a major public research university in Shanghai, China, ranked #84 in the QS World University Rankings 2025. It operates a Dataverse research data repository (Fudan University Dataverse, launched in 2014) hosting tens of thousands of files across social science, demography, and economics datasets, and maintains the China Open Data Index via its Digital and Mobile Governance Laboratory. As of this review, Fudan exposes no openly documented, publicly reachable developer API program: its Dataverse host (which by the Dataverse software design provides a native REST API and OAI-PMH) returns an access-forbidden page to requests originating outside mainland China, and the official GitHub organization carries no public repositories.'
+description: 'Fudan University is a public research university in Shanghai, China, and a member of the national C9 League and Double First-Class programme. Its programmable footprint is small and almost entirely internal, but — unusually for this cohort — none of it is a vendor''s contract wearing the university''s name: every surface catalogued here runs on a host under fudan.edu.cn and is operated by Fudan itself. The real find is identity federation. Fudan operates a Shibboleth SAML 2.0 identity provider, registered with the CARSI federation and published to eduGAIN since February 2020, and it serves its own SAML metadata live at idpfudan.fudan.edu.cn. Alongside it, id.fudan.edu.cn publishes a working OpenID Connect discovery document and JWKS with no authentication required. Both are genuinely machine-readable and neither is documented anywhere Fudan publishes. Beyond identity, the Social Science Data Platform migrated off Dataverse to a custom application at rdr.fudan.edu.cn/datahome;
+  its JSON backend answers, but it is undocumented, session-bound, and returns application-level refusals with HTTP 200. There is no developer portal, no public API key programme, no OAI-PMH, no open data portal, no robots.txt and no llms.txt on the main site, and the official GitHub organisation has zero public repositories — the university''s public code lives instead in departmental lab organisations.'
+examples:
+- key_count: 1
+  name: Fudan Idp Jwks
+  slug: fudan-idp-jwks
+- key_count: 13
+  name: Fudan Openid Configuration
+  slug: fudan-openid-configuration
 finops:
 - name: Fudan Finops
   service_category: Education
   slug: fudan-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fudan.png
+json_schemas:
+- name: Fudan University OpenID Connect discovery document
+  property_count: 13
+  slug: fudan-openid-configuration
 jsonld:
 - class_count: 15
   name: Fudan Context
   property_count: 0
   slug: fudan-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Fudan University
 nav: Providers
 network: true
-overview: 'Fudan University publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research Data, and Open Data.
+overview: 'Fudan University publishes 1 API on the [APIs.io](https://apis.io/) network: Unified Identity — OpenID Connect. Tagged areas include University, Higher Education, Education, China, and Shanghai.
 
 
   The Fudan University catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Fudan University''s developer surface includes GitHub presence and 9 more developer resources.'
+  Fudan University''s developer surface includes support, engineering blog, and 18 more developer resources.'
 plans:
 - name: Fudan Plans Pricing
   plan_count: 2
@@ -114,31 +195,45 @@ rate_limits:
 - limit_count: 1
   name: Fudan Rate Limits
   slug: fudan-rate-limits
+scopes:
+- name: Fudan Scopes
+  scope_count: 0
+  slug: fudan-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 20.3
-  delta: 1.9
+  band: developing
+  composite: 41.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 45.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 20.7
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 0.0
-    contract_quality: 10.7
-    developer_ergonomics: 9.5
+    contract_governance: 15.2
+    contract_quality: 60.8
+    developer_ergonomics: 19.0
     discoverability: 59.3
-    governance: 0.0
+    governance: 15.2
     operational_transparency: 26.3
-  previous_composite: 18.4
+  previous_composite: 20.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 61.1
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/fudan/refs/heads/main/screenshots/fudan-2026-06-20T181623.png
 security:
+- kind: authentication
+  name: Fudan Authentication
+  slug: fudan-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Fudan Domain Security
   slug: fudan-domain-security
@@ -149,12 +244,14 @@ security:
   summary_line: disclosure policy published
 slug: fudan
 tags:
-- Education
-- Higher Education
 - University
-- Research Data
-- Open Data
+- Higher Education
+- Education
 - China
 - Shanghai
+- C9 League
+- Identity Federation
+- Research Data
+- Single Sign-On
 website: https://www.fudan.edu.cn
 ---

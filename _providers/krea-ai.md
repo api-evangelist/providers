@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 72
   slug: krea-ai-agentic-access
   summary_line: 72 operations · 64 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Asset management endpoints for uploading and managing images, videos, audio files, and 3D models
   name: Krea Assets API
@@ -94,6 +94,10 @@ collections:
   name: Krea API
   slug: open-krea-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/krea-ai-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -303,22 +307,27 @@ network: true
 overview: 'Krea publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Assets API, General API, Image API, and 4 more. Tagged areas include Artificial Intelligence, Image-Generation, Video Generation, Generative AI, and Real-Time.
 
 
-  Krea''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, sandbox, YouTube channel, and 38 more developer resources.'
+  Krea''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, sandbox, YouTube channel, and 39 more developer resources.'
 random_paper: 15
 score:
   band: developing
-  composite: 40.0
-  delta: 1.6
+  composite: 39.5
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 55.2
     developer_ergonomics: 61.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 38.4
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -326,8 +335,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/screenshots/krea-ai-2026-06-20T184155.png
 security:
@@ -350,7 +359,7 @@ tags:
 - Video Generation
 - Generative AI
 - Real-Time
-- Multi-Modal
+- Multimodal
 - Creative Tools
 - 3D
 - Upscaling

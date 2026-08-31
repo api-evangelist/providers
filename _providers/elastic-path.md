@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 3
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 541
   slug: elastic-path-agentic-access
   summary_line: 541 operations · 294 acting · 3 human-in-the-loop
-api_count: 100
+api_count: 27
 apis:
 - description: GraphQL abstraction over a subset of the Elastic Path Commerce Cloud APIs, providing a flexible query interface optimized for shopper-facing experiences including product browsing and catalog queries.
   name: Elastic Path GraphQL API
@@ -646,6 +646,10 @@ collections:
   name: Addresses Introduction Account Addresses Variations API
   slug: open-elastic-path-variations-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/elastic-path-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -785,7 +789,7 @@ overview: 'Elastic Path publishes 99 APIs on the [APIs.io](https://apis.io/) net
   The Elastic Path catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Elastic Path''s developer surface includes authentication, documentation, engineering blog, pricing, support, and 14 more developer resources.'
+  Elastic Path''s developer surface includes authentication, documentation, engineering blog, pricing, support, and 15 more developer resources.'
 plans:
 - name: Elastic Path Plans Pricing
   plan_count: 0
@@ -808,18 +812,23 @@ rules:
   slug: elastic-path-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.0
+  composite: 39.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 69.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 9.8
-    contract_quality: 66.0
+    contract_quality: 64.8
     developer_ergonomics: 33.3
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 42.0
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -833,8 +842,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elastic-path/refs/heads/main/screenshots/elastic-path-2026-06-20T180529.png
 security:

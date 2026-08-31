@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 97
   slug: pirsch-agentic-access
   summary_line: 97 operations · 54 acting
-api_count: 15
+api_count: 1
 apis:
 - description: Manage shareable access links for dashboard visibility
   name: Pirsch Access Links API
@@ -511,18 +511,23 @@ rules:
   slug: pirsch-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 68.7
-  delta: 0.0
+  composite: 66.7
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 31.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 37.1
+    contract_governance: 25.0
     contract_quality: 70.8
     developer_ergonomics: 66.1
-    discoverability: 74.1
-    governance: 37.1
+    discoverability: 68.5
+    governance: 25.0
     operational_transparency: 57.9
-  previous_composite: 68.7
+  previous_composite: 67.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -533,8 +538,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pirsch/refs/heads/main/screenshots/pirsch-2026-06-20T191730.png
 security:

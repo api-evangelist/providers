@@ -16,21 +16,21 @@
      "slug": "america-movil",
      "description": "América Móvil, S.A.B. de C.V. is the largest telecommunications group in Latin America, headquartered in Mexico City and controlled by the Slim family. It serves roughly 331 million wireless subscribers and 79 million fixed revenue-generating units across 23 countries (2025 Form 20-F), operating as Telcel and Telmex in its home market of Mexico, as Claro across most of Latin America and the Caribbean, and as the majority owner of A1 Telekom Austria Group in Central and Eastern Europe. In the value chain it is a mobile network operator and fixed-line carrier — it owns the spectrum, the radio access network, the SIM estate and the subscriber identity records that network APIs monetize, and it does not resell anyone else's connectivity. Its API posture is the classic carrier posture: there is no corporate developer portal at americamovil.com (the domain is an investor-relations site and returns 403 to non-browser clients; developer.*, developers.*, docs.*, api.* and opengateway.* subdomains do not resolve), and the only real API surface in the group sits inside one operating company — Claro Brasil's \"Claro Insight\" marketplace at claroinsight.com.br, a registration-gated catalog of 14 network and identity APIs including CAMARA-aligned SIM Swap, Number Verification and Device Location. In Mexico, Telcel launched GSMA Open Gateway on 28 May 2025 alongside Altán Redes, AT&T Mexico and Telefónica Mexico with three APIs — SIM Swap, Number Verification and Device Location — but publishes no portal, no specification and no sandbox, only a business sales contact form. América Móvil is a GSMA Open Gateway participant and was named in Ericsson's September 2024 launch of the Aduna network-API joint venture, but it is absent from the final twelve-CSP equity structure completed in July 2025; in Brazil its CAMARA APIs reach developers through the CPaaS aggregator Infobip. Outside the Brazilian marketplace, América Móvil is partner-gated and sales-led, and is reachable by most developers only through an aggregator rather than directly.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/screenshots/america-movil-2026-08-07T161348.png",
-     "score": 59.6,
+     "score": 58.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 72.2,
-      "contract_quality": 61.5,
-      "governance": 30.3,
-      "contract_governance": 30.3,
+      "contract_quality": 61.3,
+      "governance": 18.2,
+      "contract_governance": 18.2,
       "operational_transparency": 55.3,
       "developer_ergonomics": 54.2,
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -38,14 +38,14 @@
       "score": 72.2,
       "matched_via": "tags"
      },
-     "agent_score": 32.6,
+     "agent_score": 35.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": "bearer",
+      "auth_clarity": "negotiable",
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": "partial",
@@ -68,11 +68,11 @@
      "slug": "conekta",
      "description": "Conekta is a Mexico-based payment processor that lets businesses accept credit and debit cards, OXXO cash vouchers, SPEI bank transfers, Apple Pay, Google Pay, and Buy Now Pay Later through a single PCI-DSS Level 1 certified API. The platform serves the Mexican market with Spanish-language documentation, CNBV-aligned compliance, and full Orders, Charges, Customers, Subscriptions, Payment Links, Antifraud, Webhooks, Payouts, and Balances resources. Conekta publishes its OpenAPI 3.1 specification publicly under MIT license, ships official SDKs for PHP, Node.js, Python, Ruby, .NET, and Java, and offers mobile components for Android, iOS, Flutter, and React Native plus plugins for major e-commerce platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/screenshots/conekta-2026-06-20T174849.png",
-     "score": 56.3,
+     "score": 55.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 74.1,
+      "discoverability": 68.5,
       "contract_quality": 71.4,
       "governance": 13.6,
       "contract_governance": 13.6,
@@ -81,8 +81,8 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -123,48 +123,55 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 11,
-   "shown": 11,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
-     "name": "Syntage",
-     "slug": "syntage",
-     "description": "Syntage is a Mexican fintech data platform that aggregates business and fiscal data from official Mexican sources (the SAT tax authority, RPC, RUG, credit bureaus / Buro de Credito, and blacklists) into a single API and dashboard. Financial institutions use it to analyze credit risk, verify CFDI invoices for factoring operations, run KYB/KYC/PLD compliance checks, and monitor taxpayer data changes in real time. Data is consumable via a REST API (JSON-LD / Hydra), an app dashboard, PDF reports, and Excel exports. Reported scale includes 300+ financial-institution clients and billions of transactions processed. ISO/IEC 27001:2022 certified.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/screenshots/syntage-2026-08-17T082234.png",
-     "score": 52.6,
+     "name": "Mercado Pago",
+     "slug": "mercado-pago",
+     "description": "Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Founded in 2003, it processes a substantial share of LatAm digital payments across Brazil (PIX, Boleto, cards), Argentina, Mexico (SPEI, OXXO), Chile, Colombia, Peru, and Uruguay, with consumer wallet, merchant acquiring, card issuing, lending, and crypto products layered on top. The developer portal at developers.mercadopago.com exposes a deep payments stack — Checkout Pro (hosted), Checkout Bricks (composable web components), Checkout API (full server-side control), Orders API (next-gen checkout), Subscriptions, Payment Links, Point (in-person card readers), and QR payments — backed by REST APIs and official SDKs in Node.js / TypeScript, Python, PHP, Ruby, Java, .NET, Go, iOS, and Android, plus a CLI, an MCP server for AI agents, e-commerce plugins (WooCommerce, VTEX, Tiendanube, Shopify), and an n8n integration. Regional developer portals (.com.ar, .com.br, .com.mx, .com.cl, .com.co, .com.pe, .com.uy) localise docs and pricing per LATAM market.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/screenshots/mercado-pago-2026-06-20T185325.png",
+     "score": 51.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 69.6,
-      "governance": 16.7,
-      "contract_governance": 16.7,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 66.1,
-      "commercial_clarity": 35.5,
-      "access_clarity": 35.5
+      "discoverability": 63.0,
+      "contract_quality": 63.2,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 54.8,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 35.8,
-     "agent_band": "agent-ready",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 42.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 24.7,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
+      "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
+      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -189,8 +196,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -224,51 +231,44 @@
      "rank": 4
     },
     {
-     "name": "Mercado Pago",
-     "slug": "mercado-pago",
-     "description": "Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Founded in 2003, it processes a substantial share of LatAm digital payments across Brazil (PIX, Boleto, cards), Argentina, Mexico (SPEI, OXXO), Chile, Colombia, Peru, and Uruguay, with consumer wallet, merchant acquiring, card issuing, lending, and crypto products layered on top. The developer portal at developers.mercadopago.com exposes a deep payments stack — Checkout Pro (hosted), Checkout Bricks (composable web components), Checkout API (full server-side control), Orders API (next-gen checkout), Subscriptions, Payment Links, Point (in-person card readers), and QR payments — backed by REST APIs and official SDKs in Node.js / TypeScript, Python, PHP, Ruby, Java, .NET, Go, iOS, and Android, plus a CLI, an MCP server for AI agents, e-commerce plugins (WooCommerce, VTEX, Tiendanube, Shopify), and an n8n integration. Regional developer portals (.com.ar, .com.br, .com.mx, .com.cl, .com.co, .com.pe, .com.uy) localise docs and pricing per LATAM market.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/screenshots/mercado-pago-2026-06-20T185325.png",
-     "score": 50.8,
+     "name": "Syntage",
+     "slug": "syntage",
+     "description": "Syntage is a Mexican fintech data platform that aggregates business and fiscal data from official Mexican sources (the SAT tax authority, RPC, RUG, credit bureaus / Buro de Credito, and blacklists) into a single API and dashboard. Financial institutions use it to analyze credit risk, verify CFDI invoices for factoring operations, run KYB/KYC/PLD compliance checks, and monitor taxpayer data changes in real time. Data is consumable via a REST API (JSON-LD / Hydra), an app dashboard, PDF reports, and Excel exports. Reported scale includes 300+ financial-institution clients and billions of transactions processed. ISO/IEC 27001:2022 certified.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/screenshots/syntage-2026-08-17T082234.png",
+     "score": 51.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 63.2,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 54.8,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
+      "discoverability": 75.9,
+      "contract_quality": 69.6,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 66.1,
+      "commercial_clarity": 35.5,
+      "access_clarity": 35.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 42.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 24.7,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 35.8,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": "documented",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": "documented",
+      "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -280,21 +280,21 @@
      "slug": "palenca-vech",
      "description": "Palenca is a Latin American income and employment verification API (headquartered in Mexico, backed by 500 Global). Through a single REST API and an embeddable Widget, workers securely connect their gig-economy platform (Uber, Rappi, DiDi, inDriver, iFood, PedidosYa) and formal-economy sources (IMSS, ISSSTE, CDT/Carteira de Trabalho) to share verified income, earnings, employment history, and account data with fintechs, banks, and lenders. Palenca serves Mexico and Brazil, exposes users, accounts, logins, earnings, consents, insights, and webhooks resources, and ships a JS/CDN/ES6 widget and mobile SDKs for end-user account linking.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/screenshots/palenca-vech-2026-08-07T191315.png",
-     "score": 49.6,
+     "score": 46.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 55.4,
-      "governance": 30.3,
-      "contract_governance": 30.3,
+      "discoverability": 75.9,
+      "contract_quality": 51.2,
+      "governance": 18.2,
+      "contract_governance": 18.2,
       "operational_transparency": 39.5,
       "developer_ergonomics": 50.6,
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 30.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -325,21 +325,21 @@
      "slug": "99-minutos",
      "description": "99minutos (99 Minutos) is a Latin American last-mile logistics and delivery platform serving ecommerce businesses across Mexico, Chile, Colombia and Peru. It offers express parcel delivery (envios99), full-truck-load and drayage freight (freight99), fulfillment and warehousing (fulfill99) and custom logistics operations (tailor99), backed by a network of pickup/delivery points (Punto99). Its public REST API v3 lets developers resolve addresses to reusable location ids, quote shipping rates and coverage, create/confirm orders (including multibox), print PDF and ZPL labels, track shipments and subscribe to real-time status webhooks. Authentication is OAuth2 client-credentials that returns a bearer JWT. Surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline from the provider's own developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/screenshots/99-minutos-2026-07-25T181249.png",
-     "score": 47.8,
+     "score": 45.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 81.5,
+      "discoverability": 75.9,
       "contract_quality": 57.8,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 39.5,
       "developer_ergonomics": 47.0,
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -370,21 +370,21 @@
      "slug": "contalink",
      "description": "Contalink is a Mexican cloud accounting and payroll platform (\"contabilidad en la nube\") built for independent accountants, accounting firms (despachos) and SMEs. It automates repetitive Mexican fiscal work — bulk CFDI download and classification, electronic accounting, DIOT preparation, treasury and bank reconciliation, invoicing (facturación) and payroll (nómina) with digital stamping — across multiple companies and users. Contalink also exposes a REST API that lets external systems read and post accounting data: trial balance (balanza de comprobación), account balances, manual accounting policies (pólizas manuales), invoice reconciliation (conciliación), bank transactions (movimientos bancarios) and CFDI fiscal-document listing, upload and status checks. The API authenticates with a per-company API key sent in the Authorization header. Backed by 500 Global.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/screenshots/contalink-2026-07-25T210322.png",
-     "score": 43.7,
+     "score": 42.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 50.2,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "discoverability": 75.9,
+      "contract_quality": 51.6,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 18.4,
       "developer_ergonomics": 58.9,
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 18.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -428,8 +428,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -480,8 +480,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -532,8 +532,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -565,79 +565,38 @@
       "agentic_commerce": false
      },
      "rank": 11
-    },
-    {
-     "name": "Ualá",
-     "slug": "ual",
-     "description": "Ualá is a Latin American fintech founded in Argentina in 2017 by Pierpaolo Barbieri, offering a neobank super-app (prepaid and credit cards, savings, investments, loans, insurance) in Argentina and Mexico, where it operates as Ualá ABC through the acquired ABC Capital bank. Its merchant arm, Ualá Bis, provides payments acceptance — link de pago, POS, e-commerce plugins, and the API Cobros Online v2, a checkout API with hosted payment links, order retrieval and listing, refunds, and webhook status notifications, documented at developers.ualabis.com.ar with official Node.js and PHP SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/screenshots/ual-2026-08-17T082515.png",
-     "score": 40.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 21.7,
-      "governance": 16.7,
-      "contract_governance": 16.7,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 70.8,
-      "commercial_clarity": 38.2,
-      "access_clarity": 38.2
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 31.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 35.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "verified",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 12
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "26.2 – 39.2",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 10,
+   "shown": 10,
+   "providers": [
     {
      "name": "Atrato",
      "slug": "atrato",
      "description": "Atrato (Atrato Technologies S.A.P.I. de C.V., atratopago.com) is a Mexican fintech offering buy-now-pay-later (BNPL) point-of-sale financing. Affiliated merchants let shoppers split purchases of up to $200,000 MXN into installments of up to 24 months, without a credit or debit card, with approval in minutes. Atrato serves furniture, healthcare, mobility, construction, motorcycle, appliance and other verticals, and is regulated by PROFECO. Its Atrato Partners platform exposes a REST integration API (api-partners) covering in-store cash-in payment collection and ecommerce checkout order generation, plus status/disbursement webhooks and WooCommerce, Shopify and Magento plugins. This profile was enriched from Atrato's public developer documentation at docs.atratopago.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/atrato/refs/heads/main/screenshots/atrato-2026-07-25T201622.png",
-     "score": 39.8,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 38.3,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 59.0,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 7.9,
       "developer_ergonomics": 47.0,
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -668,29 +627,70 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 12
+    },
+    {
+     "name": "Ualá",
+     "slug": "ual",
+     "description": "Ualá is a Latin American fintech founded in Argentina in 2017 by Pierpaolo Barbieri, offering a neobank super-app (prepaid and credit cards, savings, investments, loans, insurance) in Argentina and Mexico, where it operates as Ualá ABC through the acquired ABC Capital bank. Its merchant arm, Ualá Bis, provides payments acceptance — link de pago, POS, e-commerce plugins, and the API Cobros Online v2, a checkout API with hosted payment links, order retrieval and listing, refunds, and webhook status notifications, documented at developers.ualabis.com.ar with official Node.js and PHP SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ual/refs/heads/main/screenshots/ual-2026-08-17T082515.png",
+     "score": 38.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 21.4,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 70.8,
+      "commercial_clarity": 38.2,
+      "access_clarity": 38.2
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 31.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 35.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 13
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "26.2 – 39.2",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 9,
-   "shown": 9,
-   "providers": [
+    },
     {
      "name": "Bitso",
      "slug": "bitso",
      "description": "Bitso is one of Latin America's largest cryptocurrency exchanges and stablecoin-rail providers, serving Mexico, Argentina, Brazil, Colombia, and other LATAM markets. Bitso exposes a public REST trading API and a WebSocket feed at bitso.com/api/v3 for market data, order management, conversions, OTC / RFQ, and account operations; a Payouts & Pay-Ins API for cross-border crypto and fiat disbursements; and the Juno API for Mexican peso (MXN) rails and stablecoin programmable money. API and OpenAPI references are catalogued at docs.bitso.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/screenshots/bitso-2026-06-20T173323.png",
-     "score": 37.8,
+     "score": 37.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 63.0,
       "contract_quality": 54.5,
       "governance": 11.4,
       "contract_governance": 11.4,
@@ -699,8 +699,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -737,11 +737,11 @@
      "name": "Skydropx",
      "slug": "skydropx",
      "description": "Skydropx is a Mexican multi-carrier shipping and logistics platform that lets e-commerce sellers and businesses compare rates, generate labels, schedule pickups, and track parcels across national and international carriers from a single API. Its modern Skydropx Pro API (base https://pro.skydropx.com/api/v1) is a REST interface secured with OAuth2 client-credentials Bearer tokens and covers quotations, shipments, labels/orders, pickups, address templates, tracking, and account credit balances. A separate classic Skydropx API (https://api.skydropx.com/v1, authenticated with an API key Token header) and a Radar tracking API also exist. Billing is prepaid - the platform is free to use and you pay per label from a wallet balance.",
-     "score": 34.8,
+     "score": 34.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
+      "discoverability": 68.5,
       "contract_quality": 55.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -750,8 +750,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -801,8 +801,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -846,8 +846,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -878,11 +878,11 @@
      "slug": "tecnologico-de-monterrey",
      "description": "Tecnológico de Monterrey (ITESM) is a private Mexican multi-campus university system headquartered in Monterrey, ranked #185 in the QS World University Rankings 2025. It operates a public API developer portal at api.tec.mx that exposes institutional API products (such as student grade/academic-progress, student management, human-capital management, and billing APIs) behind registration and subscription approval, and a public Dataverse-based research open-data repository at datahub.tec.mx run by its Institute for the Future of Education, which serves a public Native REST API and an OAI-PMH metadata endpoint.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tecnologico-de-monterrey/refs/heads/main/screenshots/tecnologico-de-monterrey-2026-06-20T195020.png",
-     "score": 32.8,
+     "score": 32.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 64.8,
+      "discoverability": 59.3,
       "contract_quality": 44.3,
       "governance": 13.6,
       "contract_governance": 13.6,
@@ -891,8 +891,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -926,57 +926,6 @@
      "rank": 18
     },
     {
-     "name": "Super Seguros",
-     "slug": "super-seguros",
-     "description": "Super Seguros (super.mx) is a Mexican insurtech that lets people quote, buy, and manage insurance entirely online. Its developer product, Super Studio, is a set of REST APIs partners use to generate insurance quotes and sell policies — covering life insurance (12-month term and 5-year plans with savings), home, renters, and landlord products. Quoting endpoints are broadly available and return prefilled purchase links to super.mx; purchase endpoints let approved partners sell insurance directly via API. Authentication is via an X-Api-Key header, with separate sandbox and production hosts. Super Seguros is backed by Anthemis.",
-     "score": 30.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 53.7,
-      "governance": 16.7,
-      "contract_governance": 16.7,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 39.9,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 25.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 24.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 19
-    },
-    {
      "name": "Kueski",
      "slug": "kueski",
      "description": "Kueski is a Mexican financial technology company founded in 2012 and headquartered in Guadalajara, Jalisco, offering online consumer credit across Mexico. Its flagship product, Kueski Pay, is a buy-now-pay-later (BNPL) payment method that lets shoppers buy without a credit card and repay in biweekly installments at thousands of online and physical merchants. Kueski also offers personal loans and cash advances. For merchants, Kueski Pay is distributed as e-commerce platform plugins (WooCommerce, Shopify, VTEX IO, Magento, PrestaShop, Tiendanube, T1 Paginas) plus a JavaScript widget library and a bearer-token HTTP merchant API for order creation, order synchronization and refunds. Kueski operates as a SOFOM E.N.R. regulated entity registered with Mexico's CONDUSEF.",
@@ -994,8 +943,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1026,6 +975,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 19
+    },
+    {
+     "name": "Super Seguros",
+     "slug": "super-seguros",
+     "description": "Super Seguros (super.mx) is a Mexican insurtech that lets people quote, buy, and manage insurance entirely online. Its developer product, Super Studio, is a set of REST APIs partners use to generate insurance quotes and sell policies — covering life insurance (12-month term and 5-year plans with savings), home, renters, and landlord products. Quoting endpoints are broadly available and return prefilled purchase links to super.mx; purchase endpoints let approved partners sell insurance directly via API. Authentication is via an X-Api-Key header, with separate sandbox and production hosts. Super Seguros is backed by Anthemis.",
+     "score": 29.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 55.1,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 39.9,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 25.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 24.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 20
     },
     {
@@ -1046,8 +1046,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1079,15 +1079,25 @@
       "agentic_commerce": false
      },
      "rank": 21
-    },
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "11 – 26.1",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 38,
+   "shown": 38,
+   "providers": [
     {
      "name": "Aplazo",
      "slug": "aplazo",
      "description": "Aplazo is a Mexican buy now, pay later (BNPL) payment platform that lets shoppers split online and in-store purchases into installments without a credit card, paying over time directly from their bank account. For merchants, Aplazo exposes a REST payment API (api.aplazo.mx) and official e-commerce plugins (Magento 2, VTEX, Shopify, PrestaShop, Tiendanube) to originate loans at checkout, retrieve loan status, and process refunds and cancellations. Merchants authenticate with an apiToken and merchantId to obtain a short-lived JWT bearer token, then create loans that redirect the customer to Aplazo to complete financing. Aplazo is backed by QED Investors and operates in Mexico, settling in Mexican pesos (MXN).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/screenshots/aplazo-2026-07-25T200637.png",
-     "score": 26.2,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 25.8,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 42.7,
@@ -1098,8 +1108,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1131,26 +1141,16 @@
       "agentic_commerce": false
      },
      "rank": 22
-    }
-   ]
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "11 – 26.1",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 36,
-   "shown": 36,
-   "providers": [
+    },
     {
      "name": "Worky",
      "slug": "worky",
      "description": "Worky is a Mexican HR and payroll SaaS platform for SMBs and mid-market companies that unifies operations, talent, and payroll in one system — from employee onboarding through CFDI 4.0 payroll stamping (timbrado) and salary dispersal — with direct IMSS, SUA, and INFONAVIT connectivity, digital time-clock and attendance, recruiting, performance reviews, people analytics, and an operational AI agent (SophIA). Backed by QED Investors. Worky publishes no public developer API; its backend at api.worky.mx is a private JWT-authenticated service.",
-     "score": 24.1,
+     "score": 24.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -1159,8 +1159,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1204,8 +1204,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1255,8 +1255,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1307,8 +1307,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1359,8 +1359,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1410,8 +1410,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1462,8 +1462,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1514,8 +1514,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1559,8 +1559,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1594,51 +1594,6 @@
      "rank": 31
     },
     {
-     "name": "Lamudi",
-     "slug": "lamudi",
-     "description": "Lamudi is an online real estate classifieds marketplace focused exclusively on emerging markets, founded in 2013 and today operating consumer property portals in the Philippines (lamudi.com.ph), Indonesia (lamudi.co.id) and Mexico (lamudi.com.mx). The platform lets buyers, renters, sellers and landlords search and list houses, condominiums/apartments, land, commercial space and offices, filtered by geography, property group and operation (buy/rent). Search results pages carry area market statistics, interactive maps and nearby points of interest, alongside country-specific features such as Philippine foreclosures and home-loan comparison, Indonesian KPR mortgage simulators, and Mexican Infonavit-eligible listings and bank repossessions. Agencies and developers publish inventory through the pro.lamudi.com professional portal. Lamudi operates as part of LIFULL Connect, which supplies its legal notice, privacy policy and contact surface. Lamudi publishes no public developer API, SDK or developer portal; its notable machine-readable surface is a first-party llms.txt on each country site that documents the URL grammar of its search, new development and project pages for AI agents.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lamudi/refs/heads/main/screenshots/lamudi-2026-07-25T224449.png",
-     "score": 15.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 2.9,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 32
-    },
-    {
      "name": "Clivi",
      "slug": "clivi",
      "description": "Clivi is Mexico's largest digital clinic for diabetes and obesity care, delivering fully online telehealth treatment that combines endocrinologists, internists, nutritionists, and psychologists with continuous glucose monitoring and GLP-1 medications (Ozempic, Wegovy, Mounjaro, Saxenda, Rybelsus). Founded in 2020 and based in Mexico City, Clivi serves patients nationwide through WhatsApp-based virtual care, home medication delivery via its Farmacia Clivi digital pharmacy, and tiered treatment plans (Clivi Pro, Plus, Total, and Zero). Backed by 500 Global and other investors, Clivi operates as a consumer healthtech service; it publishes no public developer API, but does expose an llms.txt content index for AI agents.",
@@ -1656,8 +1611,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1688,51 +1643,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
-    },
-    {
-     "name": "Houm",
-     "slug": "houm",
-     "description": "Houm (Houm Technologies SpA) is a Chilean proptech operating a digital real-estate brokerage and rental-management marketplace across Chile, Mexico and Colombia, with operations in Santiago, Viña del Mar, Concepcion, Bogota and Ciudad de Mexico. Founded in 2018 by Benjamin Labra and Nicolas Knockaert, the company lets owners list, rent and sell apartments and houses without a guarantor (sin aval), guarantees on-time rent payment to the owner even when the tenant does not pay, and runs a network of freelance field agents (\"Houmers\") who photograph, show and manage properties. Its ReV pricing algorithm (houm.com/cl/algoritmo-precio) values a property online, and it also runs an investor product and a broker exchange (Houm Aliados / Canje Corredores). Houm raised a $35M Series A in 2021 led by Goodwater Capital. As of this profile Houm publishes no public developer program, API reference or machine-readable contract; its production backend at api.houm.com answers 403 to every anonymous request and carries no published documentation.",
-     "score": 14.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 16.7,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 5.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 34
+     "rank": 32
     },
     {
      "name": "Sofia",
@@ -1751,8 +1662,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1783,7 +1694,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 33
     },
     {
      "name": "Expansive",
@@ -1803,8 +1714,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1828,29 +1739,29 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 34
     },
     {
-     "name": "Mercanto",
-     "slug": "mercanto",
-     "description": "Mercanto (mercanto.mx) is a Mexican B2B wholesale marketplace that supplies restaurants, cafeterias, and food-service businesses with ingredients, groceries, cleaning supplies, and packaging bought at wholesale from vetted suppliers, with negotiated pricing and next-day delivery. Buyers order across categories including produce, groceries and pantry, dairy and eggs, proteins and cold cuts, bakery and desserts, beverages, frozen foods, and non-food items, while Mercanto handles supplier selection, negotiation, and fulfillment. The company is backed by Bain Capital Ventures. Its customer-facing storefront runs on a private backend (api.mercanto.mx) that is not publicly documented for third-party developers, so there is no public API product, developer portal, or SDK surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mercanto/refs/heads/main/screenshots/mercanto-2026-08-07T172548.png",
+     "name": "Lamudi",
+     "slug": "lamudi",
+     "description": "Lamudi is an online real estate classifieds marketplace focused exclusively on emerging markets, founded in 2013 and today operating consumer property portals in the Philippines (lamudi.com.ph), Indonesia (lamudi.co.id) and Mexico (lamudi.com.mx). The platform lets buyers, renters, sellers and landlords search and list houses, condominiums/apartments, land, commercial space and offices, filtered by geography, property group and operation (buy/rent). Search results pages carry area market statistics, interactive maps and nearby points of interest, alongside country-specific features such as Philippine foreclosures and home-loan comparison, Indonesian KPR mortgage simulators, and Mexican Infonavit-eligible listings and bank repossessions. Agencies and developers publish inventory through the pro.lamudi.com professional portal. Lamudi operates as part of LIFULL Connect, which supplies its legal notice, privacy policy and contact surface. Lamudi publishes no public developer API, SDK or developer portal; its notable machine-readable surface is a first-party llms.txt on each country site that documents the URL grammar of its search, new development and project pages for AI agents.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lamudi/refs/heads/main/screenshots/lamudi-2026-07-25T224449.png",
      "score": 14.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 2.9,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1864,7 +1775,7 @@
       "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -1873,7 +1784,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 35
     },
     {
      "name": "Terapify",
@@ -1892,8 +1803,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1924,7 +1835,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 36
     },
     {
      "name": "Cometa",
@@ -1944,8 +1855,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1976,7 +1887,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 37
     },
     {
      "name": "Mattilda",
@@ -1996,8 +1907,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2028,52 +1939,51 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 38
     },
     {
-     "name": "Circulo de Belleza",
-     "slug": "circulo-de-belleza",
-     "description": "Círculo de Belleza is an authorized distributor of professional beauty products in Mexico, operating an e-commerce storefront at circulodebelleza.com. It sells salon-quality hair care, hair color, nail, barbershop, and facial/spa supplies from 40+ professional brands (L'Oréal Professionnel, Olaplex, Wella, Schwarzkopf, Matrix, Alfaparf Milano) at professional pricing with no minimum purchase, same-day fulfillment, and nationwide Mexico delivery. The store is built on Shopify and exposes a native agent-commerce surface: a published llms.txt/agents.md, OpenID Connect and OAuth authorization-server discovery documents, and a Universal Commerce Protocol (UCP) MCP endpoint for agent-driven catalog search, cart, and buyer-approved checkout.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/circulo-de-belleza/refs/heads/main/screenshots/circulo-de-belleza-2026-08-07T163427.png",
-     "score": 13.5,
+     "name": "Houm",
+     "slug": "houm",
+     "description": "Houm (Houm Technologies SpA) is a Chilean proptech operating a digital real-estate brokerage and rental-management marketplace across Chile, Mexico and Colombia, with operations in Santiago, Viña del Mar, Concepcion, Bogota and Ciudad de Mexico. Founded in 2018 by Benjamin Labra and Nicolas Knockaert, the company lets owners list, rent and sell apartments and houses without a guarantor (sin aval), guarantees on-time rent payment to the owner even when the tenant does not pay, and runs a network of freelance field agents (\"Houmers\") who photograph, show and manage properties. Its ReV pricing algorithm (houm.com/cl/algoritmo-precio) values a property online, and it also runs an investor product and a broker exchange (Houm Aliados / Canje Corredores). Houm raised a $35M Series A in 2021 led by Goodwater Capital. As of this profile Houm publishes no public developer program, API reference or machine-readable contract; its production backend at api.houm.com answers 403 to every anonymous request and carries no published documentation.",
+     "score": 13.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 11.9,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 16.7,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 20.3,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 5.0,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": "served",
+      "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": "platform"
+      "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 39
     },
     {
      "name": "Cicada",
@@ -2093,8 +2003,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -2125,7 +2035,52 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 40
+    },
+    {
+     "name": "Mercanto",
+     "slug": "mercanto",
+     "description": "Mercanto (mercanto.mx) is a Mexican B2B wholesale marketplace that supplies restaurants, cafeterias, and food-service businesses with ingredients, groceries, cleaning supplies, and packaging bought at wholesale from vetted suppliers, with negotiated pricing and next-day delivery. Buyers order across categories including produce, groceries and pantry, dairy and eggs, proteins and cold cuts, bakery and desserts, beverages, frozen foods, and non-food items, while Mercanto handles supplier selection, negotiation, and fulfillment. The company is backed by Bain Capital Ventures. Its customer-facing storefront runs on a private backend (api.mercanto.mx) that is not publicly documented for third-party developers, so there is no public API product, developer portal, or SDK surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mercanto/refs/heads/main/screenshots/mercanto-2026-08-07T172548.png",
+     "score": 12.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 41
     },
     {
      "name": "Minu Holdings Limited",
@@ -2145,8 +2100,60 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 42
+    },
+    {
+     "name": "Mienvío",
+     "slug": "mienv-o",
+     "description": "Mienvío is a Mexican logistics control-tower platform that unifies multiple parcel carriers behind a single multi-carrier shipping API and dashboard for e-commerce, retail, marketplace, and fintech shippers across Latin America. It compares carrier rates, automates routing by cost, SLA, and coverage zone, generates shipping labels, and provides real-time tracking, delivery-incident management, and post-purchase customer notifications. Merchants integrate through the REST API (api.mienvio.mx/v2) or prebuilt Shopify and WooCommerce connectors, shipping nationally, internationally, and locally across Mexico, Colombia, Chile, Costa Rica, Peru, Guatemala, and El Salvador.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mienv-o/refs/heads/main/screenshots/mienv-o-2026-08-07T172857.png",
+     "score": 12.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 19.0,
+      "commercial_clarity": 17.1,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 13.9,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2190,8 +2197,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2241,8 +2248,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2276,6 +2283,51 @@
      "rank": 45
     },
     {
+     "name": "Circulo de Belleza",
+     "slug": "circulo-de-belleza",
+     "description": "Círculo de Belleza is an authorized distributor of professional beauty products in Mexico, operating an e-commerce storefront at circulodebelleza.com. It sells salon-quality hair care, hair color, nail, barbershop, and facial/spa supplies from 40+ professional brands (L'Oréal Professionnel, Olaplex, Wella, Schwarzkopf, Matrix, Alfaparf Milano) at professional pricing with no minimum purchase, same-day fulfillment, and nationwide Mexico delivery. The store is built on Shopify and exposes a native agent-commerce surface: a published llms.txt/agents.md, OpenID Connect and OAuth authorization-server discovery documents, and a Universal Commerce Protocol (UCP) MCP endpoint for agent-driven catalog search, cart, and buyer-approved checkout.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/circulo-de-belleza/refs/heads/main/screenshots/circulo-de-belleza-2026-08-07T163427.png",
+     "score": 12.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 11.9,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 20.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": "platform"
+     },
+     "rank": 46
+    },
+    {
      "name": "Cuida Mi Mascota",
      "slug": "cuida-mi-mascota",
      "description": "Cuida Mi Mascota (CuidaMiMascota SAPI de CV) is a Mexican pet-care marketplace that connects pet owners with vetted, trusted caregivers for boarding (hospedaje), daycare, in-home visits, and dog walking across cities in Mexico. Delivered primarily as consumer iOS and Android mobile apps, the platform has served more than 250,000 pet owners and lets caregivers register to offer services. It is a 500 Global portfolio company. The company exposes no public API, developer portal, or SDK today; this profile is maintained in the API Evangelist network as a company lead with identity and domain-security signals captured for discovery.",
@@ -2293,8 +2345,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2318,7 +2370,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Mision Admision",
@@ -2338,8 +2390,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2370,7 +2422,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Shuttle Central",
@@ -2389,59 +2441,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 48
-    },
-    {
-     "name": "Plenna",
-     "slug": "plenna",
-     "description": "Plenna is a women's healthcare provider operating a network of integrated medical clinics across Mexico City, redefining health for women across every life stage. Its services span gynecology, maternity and prenatal care, fertility, menopause, contraception, gynecological surgery, psychology, nutrition, laboratory studies, vaccines and lactation support, delivered across six physical clinics (Tlalpan, Coapa, Del Valle, Polanco, San Angel and Satelite) and through Portal Plenna, a patient portal and iOS/Android mobile app for scheduling appointments, virtual consultations, test results, prescriptions and pregnancy tracking. Plenna is a 500 Global portfolio company. It is surfaced in the API Evangelist network as a company profile; no public developer API surface was found during enrichment.",
-     "score": 11.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 17.5,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2468,30 +2469,29 @@
      "rank": 49
     },
     {
-     "name": "Mienvío",
-     "slug": "mienv-o",
-     "description": "Mienvío is a Mexican logistics control-tower platform that unifies multiple parcel carriers behind a single multi-carrier shipping API and dashboard for e-commerce, retail, marketplace, and fintech shippers across Latin America. It compares carrier rates, automates routing by cost, SLA, and coverage zone, generates shipping labels, and provides real-time tracking, delivery-incident management, and post-purchase customer notifications. Merchants integrate through the REST API (api.mienvio.mx/v2) or prebuilt Shopify and WooCommerce connectors, shipping nationally, internationally, and locally across Mexico, Colombia, Chile, Costa Rica, Peru, Guatemala, and El Salvador.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mienv-o/refs/heads/main/screenshots/mienv-o-2026-08-07T172857.png",
-     "score": 11.7,
+     "name": "Plenna",
+     "slug": "plenna",
+     "description": "Plenna is a women's healthcare provider operating a network of integrated medical clinics across Mexico City, redefining health for women across every life stage. Its services span gynecology, maternity and prenatal care, fertility, menopause, contraception, gynecological surgery, psychology, nutrition, laboratory studies, vaccines and lactation support, delivered across six physical clinics (Tlalpan, Coapa, Del Valle, Polanco, San Angel and Satelite) and through Portal Plenna, a patient portal and iOS/Android mobile app for scheduling appointments, virtual consultations, test results, prescriptions and pregnancy tracking. Plenna is a 500 Global portfolio company. It is surfaced in the API Evangelist network as a company profile; no public developer API surface was found during enrichment.",
+     "score": 11.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 19.0,
-      "commercial_clarity": 17.1,
-      "access_clarity": 17.1
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 13.9,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -2536,8 +2536,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2581,8 +2581,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2633,8 +2633,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2668,599 +2668,24 @@
      "rank": 53
     },
     {
-     "name": "Pacto",
-     "slug": "pacto",
-     "description": "Pacto is a Mexican fintech company modernizing payment acquisition for banks and hospitality businesses, moving them \"de lo legacy a lo digital\" (from legacy to digital). Pacto builds point-of-sale (POS) software and payment terminals: a miniPOS terminal and \"Ordena y Paga\" (order-and-pay) terminals plus value-added modules for banks, and a full restaurant POS suite (Pacto POS, Pacto GetNet, Order & Pay QR ordering, bill splitting, inventory, and reporting) for restaurants, cafes, bars, and fast-food counters. Backed by 500 Global and Banco Santander's GetNet, Pacto helps traditional financial institutions and merchants accept digital card payments and manage operations. This profile was surfaced as a 500 Global portfolio company; Pacto publishes a marketing site, blog, and pricing but no public developer API or documentation at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pacto/refs/heads/main/screenshots/pacto-2026-08-07T191250.png",
+     "name": "La Haus",
+     "slug": "la-haus",
+     "description": "La Haus is a Latin American proptech company, founded in 2017 and headquartered in Medellín and Bogotá, Colombia, that operates the residential real-estate marketplaces lahaus.com (Colombia) and lahaus.mx (Mexico) together with an in-house brokerage. The platform lists de-duplicated, verified new-construction and resale housing from vetted developers, adds mortgage and down-payment simulators, buyer guides and an AI assistant, and takes buyers through negotiation and closing at no cost to the buyer. It has raised more than $135M in equity plus debt facilities from Kaszek, NFX, Acrew Capital, Greenspring Associates, SoftBank and Bezos Expeditions. La Haus publishes NO public developer portal, API documentation, SDK or machine-readable contract: the consumer sites are server-rendered applications whose /api/* paths are disallowed in robots.txt, and api.lahaus.com is a private AWS API Gateway that answers every anonymous request with MissingAuthenticationToken. Partner/portal syndication runs through access-controlled marketing feed integrations (Trovit). This profile therefore records the company's public web surface and security posture rather than an API surface.",
      "score": 11.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 31.6,
-      "access_clarity": 31.6
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 21.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 54
-    },
-    {
-     "name": "The Fit Body Co",
-     "slug": "the-fit-body-co",
-     "description": "The Fit Body Co (Fitbody) is a Mexican direct-to-consumer sports nutrition and dietary supplements brand selling isolated and hydrolyzed protein powders, creatine, vitamins, and wellness products, along with digital recipe guides, through a Shopify-based online storefront at fitbody.mx. It is a portfolio company of 500 Global. As an e-commerce retail brand it publishes no public developer API, developer portal, SDK, or API documentation; this API Evangelist profile captures its company identity and domain-security posture rather than an API surface.",
-     "score": 11.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 61.1,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 36.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 10.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 55
-    },
-    {
-     "name": "Crabi",
-     "slug": "crabi",
-     "description": "Crabi is a Mexican digital auto-insurance company (insurtech) offering fully online vehicle policies purchasable in about fifteen minutes from a mobile device. Coverage spans material damage, theft, third-party civil liability, medical expenses, and roadside and legal assistance across 27 Mexican states, sold and serviced through its mobile apps, online quoter (cotizador), and customer login portal. The company is regulated in Mexico by the CNSF and CONDUSEF and is a portfolio company of 500 Global. Crabi publishes no public developer API, documentation, or SDKs; this profile captures its identity and public web surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crabi/refs/heads/main/screenshots/crabi-2026-07-25T210628.png",
-     "score": 11.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 21.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 56
-    },
-    {
-     "name": "Draftea",
-     "slug": "draftea",
-     "description": "Draftea is a Mexico-based daily fantasy sports and real-money sports gaming platform, billed as the first daily fantasy sports (DFS) product for the Spanish-speaking world. Fans draft lineups of real athletes across soccer, American football (via an NFL partnership), basketball, baseball, and Formula 1, enter paid contests, and compete against other users for cash prizes rather than against a bookmaker. The company operates in Mexico under regulatory approval (DGAJS/SCEVF/P-06/2005-TER), distributes through native iOS and Android apps, and is backed by Sequoia, Kaszek, Bullpen Capital, Stepstone Group, and Courtside Ventures, along with athlete investors. Draftea is a consumer product company and does not currently publish a public developer API program; this profile captures its public web, support, legal, and open-source engineering surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/draftea/refs/heads/main/screenshots/draftea-2026-07-25T212334.png",
-     "score": 11.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 57
-    },
-    {
-     "name": "Mubit",
-     "slug": "mubit",
-     "description": "Mubit is a temporary storage and logistics service based in Guadalajara, Mexico, offering on-demand collection, climate-controlled warehousing, digital photo inventory, and delivery for both individuals and businesses. Customers pay only for the space they use, with free pickup and drop-off, optional professional packing, and 24/7 CCTV-monitored facilities across three warehouses (Colli, Tijera, and Casuarina). Backed by 500 Global and Techstars, the company reports 4,000+ customers and a 4.9-star Google rating, and operates a mobile/web customer portal at clientes.mubit.co for scheduling pickups and deliveries and viewing stored items. Mubit publishes no public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mubit/refs/heads/main/screenshots/mubit-2026-08-07T184425.png",
-     "score": 11.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 58
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 10.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 63,
-   "shown": 63,
-   "providers": [
-    {
-     "name": "Aviva",
-     "slug": "aviva",
-     "description": "Aviva (Aviva Financial, S.A. de C.V., SOFOM E.N.R.) is a Mexican fintech lender operating under the tagline \"Tu historia importa.\" It offers quick, secured personal and business loans originated in person through a network of 100+ physical kiosks across central Mexico (Puebla, Hidalgo, Estado de Mexico, Morelos, Queretaro, Tlaxcala and Veracruz), using a video-call onboarding flow (the Aviva Onboarding System, AOS) with same-day or 24-hour direct-deposit disbursement. Products include Aviva Contigo (everyday expenses, up to $15,000), Aviva tu Negocio (business owners, up to $20,000), Aviva tu Compra (appliances at Bodega Aurrera), and Aviva tu Casa (construction materials via Construrama). Borrowers manage payments through the Aviva mobile app. Aviva was surfaced as a 500 Global portfolio company and added to the API Evangelist network. As of this enrichment pass Aviva publishes no public developer portal, API, SDKs, or OpenAPI - it exposes a consumer web/app and kiosk surface only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aviva/refs/heads/main/screenshots/aviva-2026-07-25T201948.png",
-     "score": 10.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 59
-    },
-    {
-     "name": "Baubap",
-     "slug": "baubap",
-     "description": "Baubap is a Mexican fintech offering instant personal microloans through an Android mobile app. Founded in 2018 in Mexico City by Roberto Salcedo and Luis Villarreal, it grants loans from $500 to roughly $9,000 MXN in minutes with no credit-bureau check and no income verification, using its own AI/ML-based alternative-scoring model to serve underbanked and no-credit-history borrowers. On-time repayment unlocks progressively larger amounts and helps users build a positive credit history. Baubap operates as a regulated SOFOM registered with CONDUSEF and supervised by CNBV, complying with Mexican data-protection and financial-security regulations. It has no public developer API; this profile captures the company's identity, its published /llms.txt, and its domain-security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/baubap/refs/heads/main/screenshots/baubap-2026-07-25T202438.png",
-     "score": 10.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 60
-    },
-    {
-     "name": "Boletia",
-     "slug": "boletia",
-     "description": "Boletia (Boletia Mexico SA de CV) is a Mexican event ticketing, registration, and access-management platform headquartered in Monterrey, Nuevo Leon. Event organizers use Boletia to create and promote events, sell tickets online, manage attendee registration, assign numbered seating, publish billboards (cartelera) and venue pages, and control event-day access and check-in. The platform spans concerts, comedy and stand-up, sports, expos and congresses, festivals, theater, and workshops across Mexico, and provides the payment and infrastructure backend that powers ticket sales for its event organizers. Boletia is backed by 500 Global.",
-     "score": 10.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
       "operational_transparency": 2.6,
       "developer_ergonomics": 7.1,
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 21.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 61
-    },
-    {
-     "name": "Come Bien",
-     "slug": "come-bien",
-     "description": "Come Bien is a Mexican foodtech company operating a digital corporate cafeteria (comedor digital) that delivers fresh, home-style, nutritionally balanced meals to offices without requiring any on-site kitchen installation. Employees choose from a rotating seven-week cyclical menu each day, place their order through the Come Bien app, and receive individually bagged, ready-to-eat meals delivered to the workplace in 100% biodegradable packaging. A dedicated backoffice platform lets employers subsidize, administer, and gain full visibility into their team's food benefit. Backed by 500 Global, the company reports serving 100+ companies, 10,000+ employees, and more than 1.5M orders delivered.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/come-bien/refs/heads/main/screenshots/come-bien-2026-07-25T210112.png",
-     "score": 10.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 23.7,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 62
-    },
-    {
-     "name": "Clikalia",
-     "slug": "clikalia",
-     "description": "Clikalia is a Spanish proptech founded in 2018 by Alister Moreno and Pablo Fernandez that operates an iBuyer model for residential real estate: it makes homeowners an instant purchase offer, can close a sale within days, then renovates and returns properties to the market in turnkey condition. The company pairs proprietary technology with a large operations team to digitize a historically slow home buying and selling process, and also offers mortgage brokerage (hipotecas) and renovation services (Studio by Clikalia). Backed by Fifth Wall and SoftBank Vision Fund, Clikalia operates across Spain, Portugal, France and Mexico. Clikalia does not publish a public developer API; this API Evangelist profile captures its public web, legal, and domain-security surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clikalia/refs/heads/main/screenshots/clikalia-2026-07-25T205624.png",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 63
-    },
-    {
-     "name": "Habi",
-     "slug": "habi",
-     "description": "Habi is a Colombian real estate technology company (proptech) that operates as a direct home buyer and seller — an iBuyer model where Habi itself purchases apartments in cash, typically within 10 days, rather than acting as a traditional agency. It operates across Bogota, Medellin, Cali, Barranquilla and 20+ Colombian cities and is expanding into Mexico. Products include Habimetro (an online property valuation simulator), property listings and search, Habi Credit (mortgage financing), Habi Inmobiliaria (assisted longer-term sales), and an allied-agent partner network. The company reports 40,000+ families served, 4,000+ allied real estate agents, and 550+ real estate experts. Backed by Homebrew. This profile was added to the API Evangelist network and enriched from Habi's public surface; the company publishes no public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/habi/refs/heads/main/screenshots/habi-2026-07-25T220508.png",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 64
-    },
-    {
-     "name": "Shopeando",
-     "slug": "shopeando",
-     "description": "Shopeando is a Mexican technology and logistics startup that manages the full international shipping process, enabling businesses and individuals to import and export merchandise between China, Europe, the United States and Mexico. Through its platform it coordinates cross-border logistics, customs handling and last-mile delivery, and provides dedicated import, export and e-commerce fulfillment services for online stores. Shopeando is backed by 500 Global.",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 65
-    },
-    {
-     "name": "La Haus",
-     "slug": "la-haus",
-     "description": "La Haus is a Latin American proptech company, founded in 2017 and headquartered in Medellín and Bogotá, Colombia, that operates the residential real-estate marketplaces lahaus.com (Colombia) and lahaus.mx (Mexico) together with an in-house brokerage. The platform lists de-duplicated, verified new-construction and resale housing from vetted developers, adds mortgage and down-payment simulators, buyer guides and an AI assistant, and takes buyers through negotiation and closing at no cost to the buyer. It has raised more than $135M in equity plus debt facilities from Kaszek, NFX, Acrew Capital, Greenspring Associates, SoftBank and Bezos Expeditions. La Haus publishes NO public developer portal, API documentation, SDK or machine-readable contract: the consumer sites are server-rendered applications whose /api/* paths are disallowed in robots.txt, and api.lahaus.com is a private AWS API Gateway that answers every anonymous request with MissingAuthenticationToken. Partner/portal syndication runs through access-controlled marketing feed integrations (Trovit). This profile therefore records the company's public web surface and security posture rather than an API surface.",
-     "score": 10.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -3291,18 +2716,70 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 54
+    },
+    {
+     "name": "Pacto",
+     "slug": "pacto",
+     "description": "Pacto is a Mexican fintech company modernizing payment acquisition for banks and hospitality businesses, moving them \"de lo legacy a lo digital\" (from legacy to digital). Pacto builds point-of-sale (POS) software and payment terminals: a miniPOS terminal and \"Ordena y Paga\" (order-and-pay) terminals plus value-added modules for banks, and a full restaurant POS suite (Pacto POS, Pacto GetNet, Order & Pay QR ordering, bill splitting, inventory, and reporting) for restaurants, cafes, bars, and fast-food counters. Backed by 500 Global and Banco Santander's GetNet, Pacto helps traditional financial institutions and merchants accept digital card payments and manage operations. This profile was surfaced as a 500 Global portfolio company; Pacto publishes a marketing site, blog, and pricing but no public developer API or documentation at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pacto/refs/heads/main/screenshots/pacto-2026-08-07T191250.png",
+     "score": 11.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 31.6,
+      "access_clarity": 31.6
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 21.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 55
     },
     {
      "name": "Albo",
      "slug": "albo",
      "description": "Albo (albo.com, formerly albo.mx) is a Mexican digital financial services company founded in 2016 and operating since 2022 as an Institución de Fondos de Pago Electrónico (IFPE) authorized by the Comisión Nacional Bancaria y de Valores (CNBV) and regulated by Banco de México. Albo ships a mobile-first personal account with a Mastercard debit card — SPEI transfers, bill payments, cash deposit and withdrawal at partner locations, and real-time notifications — alongside \"albo empresa\", a business account for payroll, employee cards, and bulk dispersion of up to 3,000 transactions at a time. Adjacent credit (abea, by Aureo Lab) and crypto (albit, by Indigo DeFi) products are offered by independent partners. Albo publishes no public developer program: no developer portal, API reference, OpenAPI/AsyncAPI specification, SDK, webhook catalog, or sandbox was found on any albo.com, albo.mx or albo.live host.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/albo/refs/heads/main/screenshots/albo-2026-08-07T161145.png",
-     "score": 10.3,
-     "band": "minimal",
-     "band_label": "Minimal",
+     "score": 11.0,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -3311,8 +2788,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3343,7 +2820,479 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 56
+    },
+    {
+     "name": "Crabi",
+     "slug": "crabi",
+     "description": "Crabi is a Mexican digital auto-insurance company (insurtech) offering fully online vehicle policies purchasable in about fifteen minutes from a mobile device. Coverage spans material damage, theft, third-party civil liability, medical expenses, and roadside and legal assistance across 27 Mexican states, sold and serviced through its mobile apps, online quoter (cotizador), and customer login portal. The company is regulated in Mexico by the CNSF and CONDUSEF and is a portfolio company of 500 Global. Crabi publishes no public developer API, documentation, or SDKs; this profile captures its identity and public web surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crabi/refs/heads/main/screenshots/crabi-2026-07-25T210628.png",
+     "score": 11.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 21.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 57
+    },
+    {
+     "name": "Draftea",
+     "slug": "draftea",
+     "description": "Draftea is a Mexico-based daily fantasy sports and real-money sports gaming platform, billed as the first daily fantasy sports (DFS) product for the Spanish-speaking world. Fans draft lineups of real athletes across soccer, American football (via an NFL partnership), basketball, baseball, and Formula 1, enter paid contests, and compete against other users for cash prizes rather than against a bookmaker. The company operates in Mexico under regulatory approval (DGAJS/SCEVF/P-06/2005-TER), distributes through native iOS and Android apps, and is backed by Sequoia, Kaszek, Bullpen Capital, Stepstone Group, and Courtside Ventures, along with athlete investors. Draftea is a consumer product company and does not currently publish a public developer API program; this profile captures its public web, support, legal, and open-source engineering surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/draftea/refs/heads/main/screenshots/draftea-2026-07-25T212334.png",
+     "score": 11.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 58
+    },
+    {
+     "name": "Mubit",
+     "slug": "mubit",
+     "description": "Mubit is a temporary storage and logistics service based in Guadalajara, Mexico, offering on-demand collection, climate-controlled warehousing, digital photo inventory, and delivery for both individuals and businesses. Customers pay only for the space they use, with free pickup and drop-off, optional professional packing, and 24/7 CCTV-monitored facilities across three warehouses (Colli, Tijera, and Casuarina). Backed by 500 Global and Techstars, the company reports 4,000+ customers and a 4.9-star Google rating, and operates a mobile/web customer portal at clientes.mubit.co for scheduling pickups and deliveries and viewing stored items. Mubit publishes no public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mubit/refs/heads/main/screenshots/mubit-2026-08-07T184425.png",
+     "score": 11.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 59
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 10.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 62,
+   "shown": 62,
+   "providers": [
+    {
+     "name": "Aviva",
+     "slug": "aviva",
+     "description": "Aviva (Aviva Financial, S.A. de C.V., SOFOM E.N.R.) is a Mexican fintech lender operating under the tagline \"Tu historia importa.\" It offers quick, secured personal and business loans originated in person through a network of 100+ physical kiosks across central Mexico (Puebla, Hidalgo, Estado de Mexico, Morelos, Queretaro, Tlaxcala and Veracruz), using a video-call onboarding flow (the Aviva Onboarding System, AOS) with same-day or 24-hour direct-deposit disbursement. Products include Aviva Contigo (everyday expenses, up to $15,000), Aviva tu Negocio (business owners, up to $20,000), Aviva tu Compra (appliances at Bodega Aurrera), and Aviva tu Casa (construction materials via Construrama). Borrowers manage payments through the Aviva mobile app. Aviva was surfaced as a 500 Global portfolio company and added to the API Evangelist network. As of this enrichment pass Aviva publishes no public developer portal, API, SDKs, or OpenAPI - it exposes a consumer web/app and kiosk surface only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aviva/refs/heads/main/screenshots/aviva-2026-07-25T201948.png",
+     "score": 10.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 60
+    },
+    {
+     "name": "Baubap",
+     "slug": "baubap",
+     "description": "Baubap is a Mexican fintech offering instant personal microloans through an Android mobile app. Founded in 2018 in Mexico City by Roberto Salcedo and Luis Villarreal, it grants loans from $500 to roughly $9,000 MXN in minutes with no credit-bureau check and no income verification, using its own AI/ML-based alternative-scoring model to serve underbanked and no-credit-history borrowers. On-time repayment unlocks progressively larger amounts and helps users build a positive credit history. Baubap operates as a regulated SOFOM registered with CONDUSEF and supervised by CNBV, complying with Mexican data-protection and financial-security regulations. It has no public developer API; this profile captures the company's identity, its published /llms.txt, and its domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/baubap/refs/heads/main/screenshots/baubap-2026-07-25T202438.png",
+     "score": 10.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 61
+    },
+    {
+     "name": "Boletia",
+     "slug": "boletia",
+     "description": "Boletia (Boletia Mexico SA de CV) is a Mexican event ticketing, registration, and access-management platform headquartered in Monterrey, Nuevo Leon. Event organizers use Boletia to create and promote events, sell tickets online, manage attendee registration, assign numbered seating, publish billboards (cartelera) and venue pages, and control event-day access and check-in. The platform spans concerts, comedy and stand-up, sports, expos and congresses, festivals, theater, and workshops across Mexico, and provides the payment and infrastructure backend that powers ticket sales for its event organizers. Boletia is backed by 500 Global.",
+     "score": 10.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 21.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 62
+    },
+    {
+     "name": "Come Bien",
+     "slug": "come-bien",
+     "description": "Come Bien is a Mexican foodtech company operating a digital corporate cafeteria (comedor digital) that delivers fresh, home-style, nutritionally balanced meals to offices without requiring any on-site kitchen installation. Employees choose from a rotating seven-week cyclical menu each day, place their order through the Come Bien app, and receive individually bagged, ready-to-eat meals delivered to the workplace in 100% biodegradable packaging. A dedicated backoffice platform lets employers subsidize, administer, and gain full visibility into their team's food benefit. Backed by 500 Global, the company reports serving 100+ companies, 10,000+ employees, and more than 1.5M orders delivered.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/come-bien/refs/heads/main/screenshots/come-bien-2026-07-25T210112.png",
+     "score": 10.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 23.7,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 63
+    },
+    {
+     "name": "Clikalia",
+     "slug": "clikalia",
+     "description": "Clikalia is a Spanish proptech founded in 2018 by Alister Moreno and Pablo Fernandez that operates an iBuyer model for residential real estate: it makes homeowners an instant purchase offer, can close a sale within days, then renovates and returns properties to the market in turnkey condition. The company pairs proprietary technology with a large operations team to digitize a historically slow home buying and selling process, and also offers mortgage brokerage (hipotecas) and renovation services (Studio by Clikalia). Backed by Fifth Wall and SoftBank Vision Fund, Clikalia operates across Spain, Portugal, France and Mexico. Clikalia does not publish a public developer API; this API Evangelist profile captures its public web, legal, and domain-security surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clikalia/refs/heads/main/screenshots/clikalia-2026-07-25T205624.png",
+     "score": 10.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 64
+    },
+    {
+     "name": "Habi",
+     "slug": "habi",
+     "description": "Habi is a Colombian real estate technology company (proptech) that operates as a direct home buyer and seller — an iBuyer model where Habi itself purchases apartments in cash, typically within 10 days, rather than acting as a traditional agency. It operates across Bogota, Medellin, Cali, Barranquilla and 20+ Colombian cities and is expanding into Mexico. Products include Habimetro (an online property valuation simulator), property listings and search, Habi Credit (mortgage financing), Habi Inmobiliaria (assisted longer-term sales), and an allied-agent partner network. The company reports 40,000+ families served, 4,000+ allied real estate agents, and 550+ real estate experts. Backed by Homebrew. This profile was added to the API Evangelist network and enriched from Habi's public surface; the company publishes no public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/habi/refs/heads/main/screenshots/habi-2026-07-25T220508.png",
+     "score": 10.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 65
+    },
+    {
+     "name": "Shopeando",
+     "slug": "shopeando",
+     "description": "Shopeando is a Mexican technology and logistics startup that manages the full international shipping process, enabling businesses and individuals to import and export merchandise between China, Europe, the United States and Mexico. Through its platform it coordinates cross-border logistics, customs handling and last-mile delivery, and provides dedicated import, export and e-commerce fulfillment services for online stores. Shopeando is backed by 500 Global.",
+     "score": 10.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 66
     },
     {
      "name": "Gloset",
@@ -3363,8 +3312,53 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 67
+    },
+    {
+     "name": "Mi Dulce Hogar",
+     "slug": "mi-dulce-hogar",
+     "description": "Mi Dulce Hogar is a professional home and commercial cleaning services company operating in Mexico City (CDMX), connecting customers with vetted, background-screened cleaning professionals. Services include residential and office cleaning, upholstery and carpet washing, floor polishing, and pest control/fumigation. The company states it has delivered more than 100,000 services and screens candidates through a rigorous criminological vetting process. Surfaced as a 500 Global portfolio company and added to the API Evangelist network as a lead; the public web presence is a consumer marketing and booking site with no public developer API, SDK, or documentation surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mi-dulce-hogar/refs/heads/main/screenshots/mi-dulce-hogar-2026-08-07T172814.png",
+     "score": 10.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3391,10 +3385,9 @@
      "rank": 68
     },
     {
-     "name": "Mi Dulce Hogar",
-     "slug": "mi-dulce-hogar",
-     "description": "Mi Dulce Hogar is a professional home and commercial cleaning services company operating in Mexico City (CDMX), connecting customers with vetted, background-screened cleaning professionals. Services include residential and office cleaning, upholstery and carpet washing, floor polishing, and pest control/fumigation. The company states it has delivered more than 100,000 services and screens candidates through a rigorous criminological vetting process. Surfaced as a 500 Global portfolio company and added to the API Evangelist network as a lead; the public web presence is a consumer marketing and booking site with no public developer API, SDK, or documentation surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mi-dulce-hogar/refs/heads/main/screenshots/mi-dulce-hogar-2026-08-07T172814.png",
+     "name": "Vioo",
+     "slug": "vioo",
+     "description": "Vioo is a Mexican professional visual-content platform that connects businesses with a national network of 1,500+ certified photographers and creators across Mexico, delivering photography, videography, drone footage, 3D renders, and Matterport virtual tours. It serves real estate, gastronomy, e-commerce, hospitality, events, and portrait use cases with AI-assisted editing and 48-hour delivery, and offers scheduling either through a personalized form or automatically via an integration API. Surfaced as a 500 Global portfolio company and added to the API Evangelist network.",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3408,8 +3401,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3436,50 +3429,6 @@
      "rank": 69
     },
     {
-     "name": "Vioo",
-     "slug": "vioo",
-     "description": "Vioo is a Mexican professional visual-content platform that connects businesses with a national network of 1,500+ certified photographers and creators across Mexico, delivering photography, videography, drone footage, 3D renders, and Matterport virtual tours. It serves real estate, gastronomy, e-commerce, hospitality, events, and portrait use cases with AI-assisted editing and 48-hour delivery, and offers scheduling either through a personalized form or automatically via an integration API. Surfaced as a 500 Global portfolio company and added to the API Evangelist network.",
-     "score": 10.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 70
-    },
-    {
      "name": "Optimal",
      "slug": "optimal",
      "description": "Optimal is a preventive-health and longevity company based in Mexico City, backed by 500 Global, operating across Latin America (Mexico, Colombia, and Peru). Optimal offers a consumer blood test that analyzes more than 300 biomarkers and uses AI to surface problems before symptoms appear, positioning itself as a predictive health platform (branded \"health OS\") that integrates biological data, wearable metrics, behavioral patterns, and medical history into longitudinal health models to identify risk before it becomes disease. The company sells directly to consumers via a web app and subscriptions and does not currently publish a public developer API, developer portal, or API documentation.",
@@ -3497,8 +3446,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3529,6 +3478,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 70
+    },
+    {
+     "name": "The Fit Body Co",
+     "slug": "the-fit-body-co",
+     "description": "The Fit Body Co (Fitbody) is a Mexican direct-to-consumer sports nutrition and dietary supplements brand selling isolated and hydrolyzed protein powders, creatine, vitamins, and wellness products, along with digital recipe guides, through a Shopify-based online storefront at fitbody.mx. It is a portfolio company of 500 Global. As an e-commerce retail brand it publishes no public developer API, developer portal, SDK, or API documentation; this API Evangelist profile captures its company identity and domain-security posture rather than an API surface.",
+     "score": 10.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 11.9,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 36.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 10.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 71
     },
     {
@@ -3549,8 +3549,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3601,8 +3601,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3653,8 +3653,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3705,8 +3705,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3733,30 +3733,30 @@
      "rank": 75
     },
     {
-     "name": "Arq",
-     "slug": "arq",
-     "description": "Arq (formerly DolarApp) is a Latin American cross-border fintech app that gives travelers, investors, and professionals digital dollar and digital euro accounts at real market rates without hidden fees. Founded in 2021, the mobile-first platform offers currency conversion, a borderless payment card, global accounts to send and receive international payments, bill payment, PIX transfers, stock and ETF investing, and high-yield Trade and Save accounts, plus ARQ Premium and Prestige tiers. Arq raised $70M from Sequoia Capital and Founders Fund and serves over 2 million users across the Americas. Arq is a consumer mobile product and does not publish a public API or developer portal; this profile captures its verified public identity and web surface for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arq/refs/heads/main/screenshots/arq-2026-07-25T201245.png",
-     "score": 9.1,
+     "name": "Klar",
+     "slug": "klar",
+     "description": "Klar is a Mexican digital financial services platform (neobank) headquartered in Mexico City with engineering in Berlin, serving roughly 7 million customers. Regulated by Mexico's CNBV, Klar offers a deposit account with yield, a no-annual-fee credit card, a secured (garantizada) credit card, the metal Platino card, personal loans, investment products, and Chubb-underwritten life and fraud insurance, plus cashback and interest-free-months (MSI) benefits. It also runs Klar Empresarial for business customers, partnered with Uber to launch the Uber Card in Mexico, and announced the acquisition of mortgage fintech Yave. Klar's product surface is delivered entirely through its consumer mobile app and website; as of this profile Klar publishes NO public developer portal, API reference, SDKs, or sandbox, and no OpenAPI, AsyncAPI, or webhook surface could be found. Third-party access to Klar accounts is generally brokered through Latin American open-finance aggregators (Belvo, Pluggy, Plaid) rather than a first-party Klar API. Klar does operate a public GitHub organization (klar-mx), but its repositories are internal infrastructure and DevOps tooling and forks, not client libraries for a Klar API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/klar/refs/heads/main/screenshots/klar-2026-07-25T223928.png",
+     "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 4.8,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 21.9,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 17.7,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -3785,11 +3785,11 @@
      "rank": 76
     },
     {
-     "name": "Mundi",
-     "slug": "mundi",
-     "description": "Mundi is a digital cross-border trade finance platform for exporters, primarily connecting Mexican exporters with US importers. It provides non-recourse international factoring (invoice advances up to $10M USD / $200M MXN with rates from 0.9% per month), foreign-exchange spot and hedging across 100+ currencies, purchase-order and revolving-line financing, multi-currency virtual US accounts and international payments/collections, and digital cargo insurance. Backed by Speedinvest and Union Square Ventures, Mundi operates a customer web application but publishes no public developer API, SDK, or documentation surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mundi/refs/heads/main/screenshots/mundi-2026-08-07T184438.png",
-     "score": 8.9,
+     "name": "Arq",
+     "slug": "arq",
+     "description": "Arq (formerly DolarApp) is a Latin American cross-border fintech app that gives travelers, investors, and professionals digital dollar and digital euro accounts at real market rates without hidden fees. Founded in 2021, the mobile-first platform offers currency conversion, a borderless payment card, global accounts to send and receive international payments, bill payment, PIX transfers, stock and ETF investing, and high-yield Trade and Save accounts, plus ARQ Premium and Prestige tiers. Arq raised $70M from Sequoia Capital and Founders Fund and serves over 2 million users across the Americas. Arq is a consumer mobile product and does not publish a public API or developer portal; this profile captures its verified public identity and web surface for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arq/refs/heads/main/screenshots/arq-2026-07-25T201245.png",
+     "score": 9.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3798,12 +3798,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3837,56 +3837,11 @@
      "rank": 77
     },
     {
-     "name": "Finaccess",
-     "slug": "finaccess",
-     "description": "Finaccess Mexico, S.A. de C.V., Sociedad Operadora de Fondos de Inversion, is an independent Mexican investment-fund operator (asset manager) authorized by the CNBV and the SHCP and regulated by Banco de Mexico. Founded in 2000 and headquartered in Mexico City, it is part of Grupo Finaccess and operates under the tagline \"Acceso financiero para todos\" (financial access for everyone). Finaccess manages the AXES family of mutual funds spanning short/medium/long-term local debt (AXES CP, MP, LP), domestic and international equity (AXES BMV, GLO, GSP, USA), dollar-denominated debt (AXES COB), and ESG equity (AXES ESG), and it distributes third-party funds from Franklin Templeton, Santander, and Scotiabank. It provides model portfolios, published rate-of-return tracking, and Morningstar-rated fund evaluation for retail and institutional clients. Finaccess publishes no public developer API; this profile carries company identity and domain-security enrichment only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/finaccess/refs/heads/main/screenshots/finaccess-2026-07-25T214602.png",
-     "score": 8.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 78
-    },
-    {
-     "name": "Nelo",
-     "slug": "nelo",
-     "description": "Nelo is a Mexican fintech offering consumer credit that lets shoppers buy now and pay later in bi-weekly installments (quincenas). Its mobile app (iOS and Android) provides instant credit approval, an in-app marketplace (Tienda Nelo), bill payment for utilities such as CFE, water, gas and internet, phone recharges, cash withdrawals, and a premium Nelo VIP tier with a physical credit card. Backed by Homebrew, Nelo operates primarily as a consumer mobile product and, as of this enrichment pass, publishes no public developer API, developer portal, or API documentation. Sector: fintech / buy-now-pay-later (BNPL).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nelo/refs/heads/main/screenshots/nelo-2026-08-07T184825.png",
-     "score": 8.6,
+     "name": "Mundi",
+     "slug": "mundi",
+     "description": "Mundi is a digital cross-border trade finance platform for exporters, primarily connecting Mexican exporters with US importers. It provides non-recourse international factoring (invoice advances up to $10M USD / $200M MXN with rates from 0.9% per month), foreign-exchange spot and hedging across 100+ currencies, purchase-order and revolving-line financing, multi-currency virtual US accounts and international payments/collections, and digital cargo insurance. Backed by Speedinvest and Union Square Ventures, Mundi operates a customer web application but publishes no public developer API, SDK, or documentation surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mundi/refs/heads/main/screenshots/mundi-2026-08-07T184438.png",
+     "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3895,12 +3850,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3931,14 +3886,59 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 78
+    },
+    {
+     "name": "Finaccess",
+     "slug": "finaccess",
+     "description": "Finaccess Mexico, S.A. de C.V., Sociedad Operadora de Fondos de Inversion, is an independent Mexican investment-fund operator (asset manager) authorized by the CNBV and the SHCP and regulated by Banco de Mexico. Founded in 2000 and headquartered in Mexico City, it is part of Grupo Finaccess and operates under the tagline \"Acceso financiero para todos\" (financial access for everyone). Finaccess manages the AXES family of mutual funds spanning short/medium/long-term local debt (AXES CP, MP, LP), domestic and international equity (AXES BMV, GLO, GSP, USA), dollar-denominated debt (AXES COB), and ESG equity (AXES ESG), and it distributes third-party funds from Franklin Templeton, Santander, and Scotiabank. It provides model portfolios, published rate-of-return tracking, and Morningstar-rated fund evaluation for retail and institutional clients. Finaccess publishes no public developer API; this profile carries company identity and domain-security enrichment only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/finaccess/refs/heads/main/screenshots/finaccess-2026-07-25T214602.png",
+     "score": 8.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 79
     },
     {
-     "name": "AutoChilango",
-     "slug": "autochilango",
-     "description": "AutoChilango (Auto Chilango) is a Mexico City-based mobile application that consolidates the everyday services drivers in CDMX and the State of Mexico need into a single app. It covers the \"Hoy No Circula\" driving-restriction calendar, vehicular verification schedules, traffic fines (multas) lookup and payment, annual registration (tenencia), insurance, parking, gas stations, and mechanical services for private cars, motorcycles, taxis, and special plates. Backed by 500 Global and added to the API Evangelist network as a company profile; no public developer/API surface has been found, so this profile captures the provider's identity, information surface (blog, FAQs, privacy), and probed domain security.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autochilango/refs/heads/main/screenshots/autochilango-2026-07-25T201821.png",
-     "score": 8.5,
+     "name": "Nelo",
+     "slug": "nelo",
+     "description": "Nelo is a Mexican fintech offering consumer credit that lets shoppers buy now and pay later in bi-weekly installments (quincenas). Its mobile app (iOS and Android) provides instant credit approval, an in-app marketplace (Tienda Nelo), bill payment for utilities such as CFE, water, gas and internet, phone recharges, cash withdrawals, and a premium Nelo VIP tier with a physical credit card. Backed by Homebrew, Nelo operates primarily as a consumer mobile product and, as of this enrichment pass, publishes no public developer API, developer portal, or API documentation. Sector: fintech / buy-now-pay-later (BNPL).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nelo/refs/heads/main/screenshots/nelo-2026-08-07T184825.png",
+     "score": 8.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3947,12 +3947,19 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 21.9,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3979,10 +3986,10 @@
      "rank": 80
     },
     {
-     "name": "Klar",
-     "slug": "klar",
-     "description": "Klar is a Mexican digital financial services platform (neobank) headquartered in Mexico City with engineering in Berlin, serving roughly 7 million customers. Regulated by Mexico's CNBV, Klar offers a deposit account with yield, a no-annual-fee credit card, a secured (garantizada) credit card, the metal Platino card, personal loans, investment products, and Chubb-underwritten life and fraud insurance, plus cashback and interest-free-months (MSI) benefits. It also runs Klar Empresarial for business customers, partnered with Uber to launch the Uber Card in Mexico, and announced the acquisition of mortgage fintech Yave. Klar's product surface is delivered entirely through its consumer mobile app and website; as of this profile Klar publishes NO public developer portal, API reference, SDKs, or sandbox, and no OpenAPI, AsyncAPI, or webhook surface could be found. Third-party access to Klar accounts is generally brokered through Latin American open-finance aggregators (Belvo, Pluggy, Plaid) rather than a first-party Klar API. Klar does operate a public GitHub organization (klar-mx), but its repositories are internal infrastructure and DevOps tooling and forks, not client libraries for a Klar API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/klar/refs/heads/main/screenshots/klar-2026-07-25T223928.png",
+     "name": "AutoChilango",
+     "slug": "autochilango",
+     "description": "AutoChilango (Auto Chilango) is a Mexico City-based mobile application that consolidates the everyday services drivers in CDMX and the State of Mexico need into a single app. It covers the \"Hoy No Circula\" driving-restriction calendar, vehicular verification schedules, traffic fines (multas) lookup and payment, annual registration (tenencia), insurance, parking, gas stations, and mechanical services for private cars, motorcycles, taxis, and special plates. Backed by 500 Global and added to the API Evangelist network as a company profile; no public developer/API surface has been found, so this profile captures the provider's identity, information surface (blog, FAQs, privacy), and probed domain security.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autochilango/refs/heads/main/screenshots/autochilango-2026-07-25T201821.png",
      "score": 8.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3991,20 +3998,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 17.7,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4048,8 +4048,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4100,8 +4100,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4152,8 +4152,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4204,8 +4204,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4255,8 +4255,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4299,8 +4299,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4343,8 +4343,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4387,8 +4387,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4438,8 +4438,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4489,8 +4489,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4533,8 +4533,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4585,8 +4585,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4629,8 +4629,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4673,8 +4673,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4718,8 +4718,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4770,8 +4770,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4814,8 +4814,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4858,8 +4858,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4903,8 +4903,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4948,8 +4948,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4992,8 +4992,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5037,8 +5037,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5082,8 +5082,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5126,8 +5126,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5170,8 +5170,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5214,8 +5214,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5258,8 +5258,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5302,8 +5302,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5346,8 +5346,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5390,8 +5390,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5434,8 +5434,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5479,8 +5479,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -5531,8 +5531,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -5583,8 +5583,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -5634,8 +5634,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -5686,8 +5686,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -5738,8 +5738,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -5790,8 +5790,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5841,8 +5841,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5892,8 +5892,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",

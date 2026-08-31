@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: hawksoft-agentic-access
   summary_line: 9 operations · 4 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Agencies and their offices
   name: HawkSoft Agencies API
@@ -140,7 +140,7 @@ modified: '2026-07-10'
 name: HawkSoft
 nav: Providers
 network: true
-overview: 'HawkSoft publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agencies API, Attachments API, Clients API, and 2 more. Tagged areas include Insurance, Agency Management System, AMS, Insurtech, and Property and Casualty.
+overview: 'HawkSoft publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agencies API, Attachments API, Clients API, and 2 more. Tagged areas include Insurance, Agency Management System, AMS, InsurTech, and Property and Casualty.
 
 
   HawkSoft''s developer surface includes authentication, documentation, signup flow, engineering blog, and 8 more developer resources.'
@@ -155,18 +155,23 @@ rate_limits:
   slug: hawksoft-rate-limits
 score:
   band: thin
-  composite: 31.1
-  delta: 1.5
+  composite: 30.5
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 13.1
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 29.6
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     contracts:
@@ -180,8 +185,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 24.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/screenshots/hawksoft-2026-07-25T220807.png
 security:
@@ -198,7 +203,7 @@ tags:
 - Insurance
 - Agency Management System
 - AMS
-- Insurtech
+- InsurTech
 - Property and Casualty
 - Partner API
 - Gated API

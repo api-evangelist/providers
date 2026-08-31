@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: An anonymous Model Context Protocol endpoint served from www.puzzlemed.com and advertised by the company's own /llms.txt. It is the Wix platform Site Visitor Assistant, provisioned by the website host
@@ -99,7 +99,7 @@ modified: '2026-08-26'
 name: Puzzle Medical Devices
 nav: Providers
 network: true
-overview: 'Puzzle Medical Devices publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Health Care, Cardiology, and Heart Failure.
+overview: 'Puzzle Medical Devices publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Cardiology, and Heart Failure.
 
 
   Puzzle Medical Devices'' developer surface includes engineering blog, support, and 12 more developer resources.'
@@ -115,6 +115,12 @@ rate_limits:
 score:
   band: minimal
   composite: 10.5
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -124,6 +130,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
+  previous_composite: 10.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -133,8 +140,9 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: domain-security
   name: Puzzle Medical Devices Domain Security
@@ -144,7 +152,7 @@ slug: puzzle-medical-devices
 tags:
 - Company
 - Medical Devices
-- Health Care
+- Healthcare
 - Cardiology
 - Heart Failure
 - Mechanical Circulatory Support

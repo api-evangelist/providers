@@ -23,34 +23,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-26'
-api_count: 8
+  scored_at: '2026-08-30'
+api_count: 7
 apis:
-- description: Search live routes, schedules, capacity, availability and rates across CargoAi's airline network from a single POST /search call, returning quotable flight options with rate types, transit times and C
-  name: CargoAi Routes, Schedules and Rates API
-  slug: cargoai-routes-schedules-and-rates-api
-- description: Book a quoted air cargo option, read a booking back by flight UUID, and cancel a booking made through CargoCONNECT. Booking updates from the airline are pushed back on a customer-registered booking ca
-  name: CargoAi Booking API
-  slug: cargoai-booking-api
-- description: Subscribe an air waybill to CargoAi's milestone tracking service and receive event updates by webhook callback and email, or unsubscribe. Supports interline subscriptions that merge two carriers' mile
-  name: CargoAi Track & Trace API
-  slug: cargoai-track-and-trace-api
-- description: Send master (FWB) and house (FHL) air waybill data to the airline handling a booking as JSON, with CargoAi parsing and formatting it into the IATA cargo message the airline expects, so the caller need
-  name: CargoAi FWB & FHL API
-  slug: cargoai-fwb-fhl-api
-- description: Create, read, update and delete the end users an integrator carries under its own CargoCONNECT API key, and mint a redirection token that drops a user into the CargoMART portal without a separate logi
-  name: CargoAi User Provisioning API
-  slug: cargoai-user-provisioning-api
-- description: Return the CO2 emissions for an air waybill or a specific flight leg, calculated per IATA Recommended Practice 1678 using the exact routing and aircraft code rather than an origin-destination approxim
-  name: CargoAi Cargo2ZERO CO2 API
-  slug: cargoai-cargo2zero-api
-- description: AI extraction endpoints that turn an air waybill image or raw shipment email text into structured JSON that can be fed straight into the quote, book and eAWB endpoints, removing manual re-keying betwe
-  name: CargoAi CargoCOPILOT API
-  slug: cargoai-cargocopilot-api
 - description: A hosted Model Context Protocol server that wraps the CargoCONNECT endpoints as tools for AI assistants - track a shipment by AWB, search flight rates, look up airline contacts and ground handling age
   name: CargoAi MCP Connector
   slug: cargoai-mcp-connector
-artifact_total: 15
+- description: The Ai API from CargoAi — 2 operation(s) for ai.
+  name: CargoAi AI API
+  slug: cargoai-ai-api
+- description: The Book API from CargoAi — 1 operation(s) for book.
+  name: CargoAi Book API
+  slug: cargoai-book-api
+- description: The Bookings API from CargoAi — 1 operation(s) for bookings.
+  name: CargoAi Bookings API
+  slug: cargoai-bookings-api
+- description: The Co2calculation API from CargoAi — 1 operation(s) for co2calculation.
+  name: CargoAi Co2calculation API
+  slug: cargoai-co2calculation-api
+- description: The Eawb API from CargoAi — 1 operation(s) for eawb.
+  name: CargoAi Eawb API
+  slug: cargoai-eawb-api
+- description: The Search API from CargoAi — 1 operation(s) for search.
+  name: CargoAi Search API
+  slug: cargoai-search-api
+- description: The Track API from CargoAi — 3 operation(s) for track.
+  name: CargoAi Track API
+  slug: cargoai-track-api
+- description: The Users API from CargoAi — 1 operation(s) for users.
+  name: CargoAi Users API
+  slug: cargoai-users-api
+artifact_total: 16
 collections:
 - collection_type: open
   name: Solutions
@@ -138,33 +141,38 @@ modified: '2026-07-30'
 name: CargoAi
 nav: Providers
 network: true
-overview: 'CargoAi publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Routes, Schedules and Rates API, Booking API, Track & Trace API, and 4 more. Tagged areas include Logistics, Supply Chain, Singapore, Air Cargo, and Freight Forwarding.
+overview: 'CargoAi publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AI API, Book API, Bookings API, and 5 more. Tagged areas include Logistics, Supply Chain, Singapore, Air Cargo, and Freight Forwarding.
 
 
   CargoAi''s developer surface includes documentation, API reference, changelog, engineering blog, developer portal, signup flow, and 8 more developer resources.'
 random_paper: 12
 score:
   band: emerging
-  composite: 17.3
-  delta: -0.4
+  composite: 16.9
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 14.6
+    contract_quality: 15.3
     developer_ergonomics: 22.6
-    discoverability: 77.8
+    discoverability: 72.2
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 17.7
+  previous_composite: 16.9
   provenance:
     contracts:
       callable: 100.0
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargoai/refs/heads/main/screenshots/cargoai-2026-08-07T163015.png
 slug: cargoai

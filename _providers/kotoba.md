@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 2
   slug: kotoba-agentic-access
   summary_line: 2 operations · 1 acting
-api_count: 1
+api_count: 4
 apis:
 - description: The transcriptionApi API from Kotoba — 2 operation(s) for transcriptionapi.
   name: Kotoba transcriptionApi API
@@ -227,18 +227,26 @@ overview: 'Kotoba publishes 1 API on the [APIs.io](https://apis.io/) network: tr
 random_paper: 10
 score:
   band: developing
-  composite: 46.7
-  delta: 1.4
+  composite: 43.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 58.5
     developer_ergonomics: 66.1
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 45.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,8 +257,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kotoba/refs/heads/main/screenshots/kotoba-2026-07-25T224316.png
 security:
@@ -270,7 +278,7 @@ tags:
 - Voice
 - Speech Recognition
 - Speech-to-Text
-- Text-to-Speech
+- Text to Speech
 - Translation
 - Real-Time
 - WebSockets

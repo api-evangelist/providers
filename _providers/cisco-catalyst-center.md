@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-26'
-api_count: 30
+  scored_at: '2026-08-30'
+api_count: 27
 apis:
 - description: 'First-party open-source Model Context Protocol server for Catalyst Center, published by Cisco under Apache-2.0 at cisco-en-programmability/catc-mcp-oss. It is self-hosted: the operator builds the Dock'
   name: Cisco Catalyst Center MCP Server
@@ -122,6 +122,10 @@ asyncapis:
   name: Cisco Catalyst Center Webhooks
   slug: cisco-catalyst-center-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cisco-catalyst-center-capability-edges.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -428,7 +432,7 @@ overview: 'Cisco Catalyst Center publishes 29 APIs on the [APIs.io](https://apis
   The Cisco Catalyst Center catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cisco Catalyst Center''s developer surface includes developer portal, documentation, API reference, sandbox, changelog, authentication, getting-started guide, and 65 more developer resources.'
+  Cisco Catalyst Center''s developer surface includes developer portal, documentation, API reference, sandbox, changelog, authentication, getting-started guide, and 66 more developer resources.'
 plans:
 - name: Cisco Catalyst Center Plans Pricing
   plan_count: 0
@@ -440,18 +444,23 @@ rate_limits:
   slug: cisco-catalyst-center-rate-limits
 score:
   band: strong
-  composite: 65.9
+  composite: 64.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.5
     developer_ergonomics: 73.2
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 65.9
+  previous_composite: 64.2
   provenance:
     conformance: derived
     contracts:
@@ -467,8 +476,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 66.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -501,7 +510,7 @@ tags:
 - Observability
 - Telemetry
 - MCP
-- agent-native
+- Agent Native
 - Cisco
 website: https://developer.cisco.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: survicate-agentic-access
   summary_line: 9 operations · 1 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Survicate JavaScript SDK enables web-based feedback collection on websites and web applications. It provides methods to trigger surveys, set visitor traits, handle custom events, and control surve
   name: Survicate JavaScript SDK
@@ -215,18 +215,23 @@ rules:
   slug: survicate-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.1
-  delta: -0.8
+  composite: 46.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 38.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
     contract_quality: 59.4
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 42.1
-  previous_composite: 47.9
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     contracts:
@@ -234,8 +239,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/survicate/refs/heads/main/screenshots/survicate-2026-06-20T194742.png
 security:

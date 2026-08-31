@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 8
   slug: bonneville-power-administration-agentic-access
   summary_line: 8 operations
-api_count: 7
+api_count: 1
 apis:
 - description: The BPA GIS Data Hub provides publicly available geospatial data from Bonneville Power Administration. The hub is built on ArcGIS and supports data downloads in multiple formats including CSV, KML, Ge
   name: BPA GIS Data Hub API
@@ -174,18 +174,23 @@ rate_limits:
   slug: bonneville-power-administration-rate-limits
 score:
   band: emerging
-  composite: 19.6
-  delta: 1.9
+  composite: 19.0
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 65.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 45.6
     developer_ergonomics: 11.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 17.7
+  previous_composite: 19.6
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +204,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/screenshots/bonneville-power-administration-2026-06-20T173608.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 49
   slug: turso-agentic-access
   summary_line: 49 operations · 24 acting · 2 human-in-the-loop
-api_count: 6
+api_count: 1
 apis:
 - description: 'HTTP API for executing SQL statements directly against a Turso database instance at the edge. Supports query execution via the /v2/pipeline endpoint, health checks, server version retrieval, database '
   name: Turso SQL over HTTP API
@@ -80,6 +80,14 @@ collections:
   name: Turso Platform Auth User API
   slug: open-turso-user-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/tursodatabase/agentfs/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/tursodatabase/agentfs/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -204,13 +212,13 @@ modified: '2026-06-12'
 name: Turso
 nav: Providers
 network: true
-overview: 'Turso publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Locations API, Organizations API, and 1 more. Tagged areas include Database, Edge Computing, SQLite, Developer Tools, and Multi-Tenant.
+overview: 'Turso publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Locations API, Organizations API, and 1 more. Tagged areas include Database, Edge Computing, SQLite, Developer Tools, and Multi-tenant.
 
 
   The Turso catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Turso''s developer surface includes authentication, documentation, engineering blog, pricing, CLI, code examples, and 15 more developer resources.'
+  Turso''s developer surface includes authentication, documentation, engineering blog, pricing, CLI, code examples, and 17 more developer resources.'
 plans:
 - name: Turso Plans Pricing
   plan_count: 5
@@ -233,18 +241,26 @@ rules:
   slug: turso-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.5
-  delta: 0.0
+  composite: 45.7
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 59.8
     developer_ergonomics: 38.1
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 25.0
-    operational_transparency: 34.2
-  previous_composite: 46.5
+    operational_transparency: 50.0
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     contracts:
@@ -252,8 +268,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/screenshots/turso-2026-06-20T195837.png
 security:
@@ -275,7 +291,7 @@ tags:
 - Edge Computing
 - SQLite
 - Developer Tools
-- Multi-Tenant
+- Multi-tenant
 - AI Agents
 website: https://turso.tech
 ---

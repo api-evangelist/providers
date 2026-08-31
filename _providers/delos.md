@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -31,12 +31,42 @@ agentic_access:
   operation_count: 39
   slug: delos-agentic-access
   summary_line: 39 operations · 23 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
-- description: REST API behind the WellCube / Darwin Cloud platform. Covers session and limited-session issuance, user product entitlements and product invitations, installation and product administration with per-i
-  name: WellCube Cloud BE API
-  slug: wellcube-cloud-be-api
-artifact_total: 9
+- description: The actions API from Delos — 1 operation(s) for actions.
+  name: Delos Actions API
+  slug: delos-actions-api
+- description: The admin/installations API from Delos — 3 operation(s) for admin/installations.
+  name: Delos Admin/installations API
+  slug: delos-admin-installations-api
+- description: The admin/products API from Delos — 3 operation(s) for admin/products.
+  name: Delos Admin/products API
+  slug: delos-admin-products-api
+- description: The admin/products-bundles API from Delos — 1 operation(s) for admin/products-bundles.
+  name: Delos Admin/products Bundles API
+  slug: delos-admin-products-bundles-api
+- description: The admin/users API from Delos — 4 operation(s) for admin/users.
+  name: Delos Admin/users API
+  slug: delos-admin-users-api
+- description: The global API from Delos — 3 operation(s) for global.
+  name: Delos Global API
+  slug: delos-global-api
+- description: The installations API from Delos — 1 operation(s) for installations.
+  name: Delos Installations API
+  slug: delos-installations-api
+- description: The local-accounts API from Delos — 6 operation(s) for local-accounts.
+  name: Delos Local Accounts API
+  slug: delos-local-accounts-api
+- description: The products API from Delos — 1 operation(s) for products.
+  name: Delos Products API
+  slug: delos-products-api
+- description: The sessions API from Delos — 4 operation(s) for sessions.
+  name: Delos Sessions API
+  slug: delos-sessions-api
+- description: The users API from Delos — 6 operation(s) for users.
+  name: Delos Users API
+  slug: delos-users-api
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Delos Events
@@ -166,7 +196,7 @@ modified: '2026-08-12'
 name: Delos
 nav: Providers
 network: true
-overview: 'Delos publishes 1 API on the [APIs.io](https://apis.io/) network: WellCube Cloud BE API. Tagged areas include wellness-real-estate, Indoor Air Quality, indoor-environmental-quality, IoT, and Smart Buildings.
+overview: 'Delos publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Admin/installations API, Admin/products API, and 8 more. Tagged areas include wellness-real-estate, indoor-air-quality, indoor-environmental-quality, iot, and smart-buildings.
 
 
   The Delos catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -184,18 +214,23 @@ rate_limits:
   slug: delos-rate-limits
 score:
   band: thin
-  composite: 36.4
-  delta: 0.0
+  composite: 34.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
-    contract_quality: 56.6
+    contract_governance: 4.5
+    contract_quality: 54.8
     developer_ergonomics: 37.5
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 36.4
+  previous_composite: 35.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -206,8 +241,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/screenshots/delos-2026-08-17T080906.png
 security:
@@ -222,16 +257,16 @@ security:
 slug: delos
 tags:
 - wellness-real-estate
-- Indoor Air Quality
+- indoor-air-quality
 - indoor-environmental-quality
-- IoT
-- Smart Buildings
-- Building Automation
-- Air Purification
+- iot
+- smart-buildings
+- building-automation
+- air-purification
 - environmental-sensors
-- Commercial Real Estate
+- commercial-real-estate
 - healthy-buildings
-- Hospitality
+- hospitality
 - ESG
 website: https://delos.com/
 ---

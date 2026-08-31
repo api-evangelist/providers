@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 33
   slug: cloudflare-stream-agentic-access
   summary_line: 33 operations · 21 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Account storage usage and viewing analytics.
   name: Cloudflare Stream Analytics API
@@ -89,6 +89,10 @@ collections:
   name: Cloudflare Stream API
   slug: open-cloudflare-stream
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cloudflare-stream-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -156,7 +160,7 @@ network: true
 overview: 'Cloudflare Stream publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Captions API, Live Inputs API, and 3 more. Tagged areas include Video, Streaming, Live Streaming, Media, and Video Hosting.
 
 
-  Cloudflare Stream''s developer surface includes authentication, documentation, pricing, engineering blog, and 9 more developer resources.'
+  Cloudflare Stream''s developer surface includes authentication, documentation, pricing, engineering blog, and 10 more developer resources.'
 plans:
 - name: Cloudflare Stream Plans Pricing
   plan_count: 3
@@ -168,18 +172,23 @@ rate_limits:
   slug: cloudflare-stream-rate-limits
 score:
   band: developing
-  composite: 44.7
-  delta: 4.8
+  composite: 44.1
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 53.1
     developer_ergonomics: 47.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 39.9
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +196,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-stream/refs/heads/main/screenshots/cloudflare-stream-2026-07-25T205657.png
 security:

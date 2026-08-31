@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 23
   slug: wunderkind-agentic-access
   summary_line: 23 operations · 21 acting
-api_count: 7
+api_count: 5
 apis:
 - description: 'RESTful endpoints for delivering text messages from platforms external to the Wunderkind ecosystem (ESP, CDP, etc.): single and bulk sends of up to 50,000 messages per request, message status lookup, '
   name: Wunderkind Text Message API
@@ -92,6 +92,10 @@ collections:
   name: Wunderkind Email Wunderhook API
   slug: open-wunderkind-wunderhook-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/wunderkind-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -290,7 +294,7 @@ overview: 'Wunderkind publishes 6 APIs on the [APIs.io](https://apis.io/) networ
   The Wunderkind catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Wunderkind''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 34 more developer resources.'
+  Wunderkind''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 35 more developer resources.'
 plans:
 - name: Wunderkind Plans Pricing
   plan_count: 0
@@ -302,18 +306,23 @@ rate_limits:
   slug: wunderkind-rate-limits
 score:
   band: strong
-  composite: 59.1
+  composite: 57.7
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 58.7
     developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 59.1
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -330,8 +339,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/screenshots/wunderkind-2026-08-17T082958.png
 security:

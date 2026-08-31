@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Yubico OTP validation operations.
@@ -199,18 +199,23 @@ overview: 'Yubico publishes 1 API on the [APIs.io](https://apis.io/) network: Va
 random_paper: 0
 score:
   band: strong
-  composite: 57.6
+  composite: 55.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 55.1
     developer_ergonomics: 73.2
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 57.6
+  previous_composite: 55.1
   provenance:
     conformance: first-party
     contracts:
@@ -220,8 +225,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yubico/refs/heads/main/screenshots/yubico-2026-08-17T083021.png
 security:

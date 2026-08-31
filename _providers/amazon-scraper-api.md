@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST/JSON API for single-product (ASIN) extraction, search results, and async batch scraping across 20 Amazon marketplaces. API key auth via ?api_key= query parameter; only HTTP 2xx responses are bill
@@ -37,12 +37,17 @@ modified: '2026-07-16'
 name: Amazon Scraper API
 nav: Providers
 network: true
-overview: Amazon Scraper API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Web Scraping, Data Extraction, E-Commerce Data, Amazon, and marketplace data.
+overview: Amazon Scraper API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include web scraping, data extraction, e-commerce data, Amazon, and marketplace data.
 random_paper: 17
 score:
   band: minimal
   composite: 7.8
-  delta: 1.9
+  coverage:
+    artifact_dirs: 1
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -58,21 +63,21 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 5.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 7.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-scraper-api/refs/heads/main/screenshots/amazon-scraper-api-2026-07-25T200010.png
 slug: amazon-scraper-api
 tags:
-- Web Scraping
-- Data Extraction
-- E-Commerce Data
+- web scraping
+- data extraction
+- e-commerce data
 - Amazon
 - marketplace data
-- Product Intelligence
-- Price Monitoring
-- Competitor Research
+- product intelligence
+- price monitoring
+- competitor research
 - MCP
-- Agent Tooling
+- agent tooling
 ---

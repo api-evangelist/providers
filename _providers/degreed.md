@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The Degreed REST API provides HTTP-based access to manage learning data within the Degreed platform. It covers user management, learning content (articles, books, courses, videos, podcasts, events), p
@@ -78,7 +78,7 @@ modified: 2026-06-13
 name: Degreed
 nav: Providers
 network: true
-overview: 'Degreed publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Learning Experience Platform, Skill Development, Learning Pathways, Workforce Upskilling, and E-Learning.
+overview: 'Degreed publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Learning Experience Platform, Skill Development, Learning Pathways, Workforce Upskilling, and eLearning.
 
 
   The Degreed catalog on APIs.io includes 1 JSON-LD context.'
@@ -94,7 +94,12 @@ rate_limits:
 score:
   band: emerging
   composite: 23.9
-  delta: 3.2
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 50.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -104,9 +109,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 20.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 23.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/degreed/refs/heads/main/screenshots/degreed-2026-06-20T175855.png
 security:
@@ -124,6 +129,6 @@ tags:
 - Skill Development
 - Learning Pathways
 - Workforce Upskilling
-- E-Learning
+- eLearning
 - HR Technology
 ---

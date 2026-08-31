@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 74
   slug: canix-agentic-access
   summary_line: 74 operations · 19 acting
-api_count: 28
+api_count: 1
 apis:
 - description: Canix's hosted Model Context Protocol server, announced 2026-07-09, connects Canix account data to AI assistants such as Claude and ChatGPT. It is published as an OAuth 2.1 protected resource at https
   name: Canix MCP Server
@@ -205,6 +205,10 @@ collections:
   name: Canix Weight Units API
   slug: open-canix-weightunits-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/canix-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -333,10 +337,10 @@ modified: '2026-08-09'
 name: Canix
 nav: Providers
 network: true
-overview: 'Canix publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Audited Actions API, Bill of Materials API, Brands API, and 24 more. Tagged areas include Cannabis, ERP, Seed-to-Sale, Compliance, and Inventory Management.
+overview: 'Canix publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Audited Actions API, Bill of Materials API, Brands API, and 24 more. Tagged areas include Cannabis, ERP, Seed to Sale, Compliance, and Inventory Management.
 
 
-  Canix''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
+  Canix''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
 random_paper: 6
 scopes:
 - name: Canix Scopes
@@ -345,18 +349,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 43.8
-  delta: 0.0
+  composite: 40.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 60.0
     developer_ergonomics: 47.0
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 43.8
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -367,8 +376,8 @@ score:
       total: 27
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/screenshots/canix-2026-08-17T080801.png
 security:
@@ -384,7 +393,7 @@ slug: canix
 tags:
 - Cannabis
 - ERP
-- Seed-to-Sale
+- Seed to Sale
 - Compliance
 - Inventory Management
 - Supply Chain

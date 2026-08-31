@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 58
   slug: amazon-workspaces-web-agentic-access
   summary_line: 58 operations · 38 acting
-api_count: 10
+api_count: 1
 apis:
 - description: The BrowserSettings API from Amazon WorkSpaces Web — 2 operation(s) for browsersettings.
   name: Amazon WorkSpaces Web BrowserSettings API
@@ -1704,18 +1704,23 @@ rules:
   slug: amazon-workspaces-web-spectral-rules
 score:
   band: strong
-  composite: 57.7
-  delta: 5.9
+  composite: 57.2
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 47.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 28.8
     contract_quality: 72.8
     developer_ergonomics: 69.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 51.8
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1723,9 +1728,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces-web/refs/heads/main/screenshots/amazon-workspaces-web-2026-06-20T171850.png
 security:
 - kind: authentication

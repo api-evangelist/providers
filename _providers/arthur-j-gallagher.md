@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 4
   slug: arthur-j-gallagher-agentic-access
   summary_line: 4 operations
-api_count: 5
+api_count: 1
 apis:
 - description: API for integrating with Gallagher Bassett claims management services. Gallagher Bassett is a global third-party claims administrator and subsidiary of Arthur J. Gallagher, providing workers compensat
   name: Gallagher Bassett Claims Management API
@@ -79,6 +79,10 @@ collections:
   name: Gallagher Command Centre REST API
   slug: open-gallagher-command-centre-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/arthur-j-gallagher-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -132,7 +136,7 @@ network: true
 overview: 'Arthur J. Gallagher publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Access Groups API, Alarms API, Cardholders API, and 1 more. Tagged areas include Insurance, Brokerage, Risk Management, Claims Management, and Security.
 
 
-  Arthur J. Gallagher''s developer surface includes developer portal, documentation, and 4 more developer resources.'
+  Arthur J. Gallagher''s developer surface includes developer portal, documentation, and 5 more developer resources.'
 plans:
 - name: Arthur J Gallagher Plans Pricing
   plan_count: 3
@@ -160,15 +164,20 @@ rate_limits:
   slug: arthur-j-gallagher-rate-limits
 score:
   band: emerging
-  composite: 20.7
-  delta: 0.0
+  composite: 20.1
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 65.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 46.9
     developer_ergonomics: 19.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 20.7
@@ -185,8 +194,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/screenshots/arthur-j-gallagher-2026-06-20T172441.png
 security:

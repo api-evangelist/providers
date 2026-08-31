@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/walmart/
 created: '2026-07-17'
 description: Jet (Walmart) was a US e-commerce marketplace founded by Marc Lore and backed by Bain Capital Ventures, acquired by Walmart in 2016 for roughly 3.3 billion USD and subsequently wound down. The jet.com domain now 302-redirects to walmart.com (confirmed 2026-07-19) and no standalone Jet developer portal, API, documentation, or SDK surface exists; the brand and its commerce technology were absorbed into Walmart. This profile was surfaced as a portfolio company of bain-capital-ventures and added to the API Evangelist network as a stub. It is retained for lineage/graph purposes but has no live public API surface to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jet-walmart.png
@@ -48,6 +53,11 @@ random_paper: 15
 score:
   band: minimal
   composite: 5.0
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -67,8 +77,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: jet-walmart
 tags:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: aws-healthlake-agentic-access
   summary_line: 13 operations · 13 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Asynchronous bulk import API for loading FHIR R4 resources from Amazon S3 into a HealthLake data store. Supports starting, describing, and listing import jobs with up to 1 million files and 5 TB total
   name: AWS HealthLake FHIR Import API
@@ -98,6 +98,10 @@ collections:
   name: Amazon HealthLake Datastore Tags API
   slug: open-aws-healthlake-tags-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/aws-healthlake-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -374,7 +378,7 @@ overview: 'AWS HealthLake publishes 4 APIs on the [APIs.io](https://apis.io/) ne
   The AWS HealthLake catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  AWS HealthLake''s developer surface includes authentication, documentation, API reference, pricing, getting-started guide, developer console, CLI, and 18 more developer resources.'
+  AWS HealthLake''s developer surface includes authentication, documentation, API reference, pricing, getting-started guide, developer console, CLI, and 19 more developer resources.'
 plans:
 - name: Aws Healthlake Plans
   plan_count: 2
@@ -397,15 +401,20 @@ rules:
   slug: aws-healthlake-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 60.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 9.8
     contract_quality: 65.1
     developer_ergonomics: 73.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 63.2
   previous_composite: 61.3
@@ -422,8 +431,8 @@ score:
     regime: Health
     regime_id: health
     score: 35.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-healthlake/refs/heads/main/screenshots/aws-healthlake-2026-06-20T172758.png
 security:

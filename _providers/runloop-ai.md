@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 8
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 302
   slug: runloop-ai-agentic-access
   summary_line: 302 operations · 154 acting · 8 human-in-the-loop
-api_count: 24
+api_count: 14
 apis:
 - description: The agents API from Runloop — 5 operation(s) for agents.
   name: Runloop agents API
@@ -306,6 +306,10 @@ collections:
   name: Runloop Secrets API
   slug: open-runloop-secrets-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/stripe/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -660,7 +664,7 @@ overview: 'Runloop publishes 24 APIs on the [APIs.io](https://apis.io/) network,
   The Runloop catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Runloop''s developer surface includes authentication, documentation, API reference, developer portal, signup flow, pricing, engineering blog, and 57 more developer resources.'
+  Runloop''s developer surface includes authentication, documentation, API reference, developer portal, signup flow, pricing, engineering blog, and 58 more developer resources.'
 plans:
 - name: Runloop Ai Plans Pricing
   plan_count: 4
@@ -695,7 +699,12 @@ rules:
 score:
   band: strong
   composite: 62.5
-  delta: 0.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 32.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
@@ -705,7 +714,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 61.6
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     contracts:
@@ -713,8 +722,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/screenshots/runloop-ai-2026-06-20T193255.png
 security:
@@ -743,7 +752,7 @@ tags:
 - SWE-Bench
 - MCP
 - Snapshots
-- MicroVM
+- microVM
 - Enterprise
 - SOC 2
 website: https://runloop.ai

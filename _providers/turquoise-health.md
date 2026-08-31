@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,19 +43,23 @@ agentic_access:
   operation_count: 15
   slug: turquoise-health-agentic-access
   summary_line: 15 operations · 4 acting
-api_count: 3
+api_count: 2
 apis:
-- description: REST API providing consumer-friendly healthcare price estimates — cash and insurer-negotiated rates — for shoppable services, addressed by Standard Service Package rather than raw billing code so ever
-  name: Turquoise Consumer Pricing API
-  slug: turquoise-consumer-pricing-api
 - description: Hosted Model Context Protocol server exposing Turquoise's consumer pricing to AI agents over streamable HTTP. Five workflow-shaped tools — find_entity, compare_prices, provider_cost_detail, explain_pr
   name: Turquoise Connector (MCP)
   slug: turquoise-connector-mcp
 - description: Turquoise's open library of Standard Service Packages, which gather all medical services, materials and fees associated with a healthcare procedure and represent them as a single standardized code. SS
   name: Standard Service Packages (SSP)
   slug: standard-service-packages-ssp
+- description: The Consumer Pricing API from Turquoise Health — 15 operation(s) for consumer pricing.
+  name: Turquoise Health Consumer Pricing API
+  slug: turquoise-health-consumer-pricing-api
 artifact_total: 13
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/turquoise-health-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -217,13 +221,13 @@ modified: '2026-08-14'
 name: Turquoise Health
 nav: Providers
 network: true
-overview: 'Turquoise Health publishes 1 API on the [APIs.io](https://apis.io/) network: Turquoise Consumer Pricing API. Tagged areas include Healthcare, Price Transparency, Hospital Rates, Payer Rates, and Machine-Readable Files.
+overview: 'Turquoise Health publishes 1 API on the [APIs.io](https://apis.io/) network: Consumer Pricing API. Tagged areas include Healthcare, Price Transparency, Hospital Rates, Payer Rates, and Machine-Readable Files.
 
 
   The Turquoise Health catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Turquoise Health''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 28 more developer resources.'
+  Turquoise Health''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 29 more developer resources.'
 plans:
 - name: Turquoise Health Plans Pricing
   plan_count: 3
@@ -240,18 +244,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 63.8
-  delta: 0.0
+  composite: 60.7
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 52.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 64.7
     developer_ergonomics: 61.3
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 63.8
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -264,12 +273,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turquoise-health/refs/heads/main/screenshots/turquoise-health-2026-08-17T082500.png
 security:

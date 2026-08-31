@@ -23,20 +23,77 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: 'Public cloud REST API for SC//Fleet Manager. Read-mostly, role-restricted access to an organization''s fleet: list and retrieve HyperCore clusters, virtual machines, cluster conditions (issues reported'
-  name: SC//Fleet Manager API
-  slug: scfleet-manager-api
-- description: Undocumented v1 control-plane REST API served alongside SC//Fleet Manager on api.scalecomputing.com, whose OpenAPI 3.0 description is published anonymously at /swagger.json. Covers cluster registratio
-  name: Scale Computing Platform Core API
-  slug: scale-computing-platform-core-api
 - description: On-appliance REST API exposed by every SC//HyperCore (HC3) clustered node for automating virtual machines, virtual disks, networks, snapshots, snapshot schedules, replication, node and cluster operati
   name: SC//HyperCore REST API
   slug: schypercore-rest-api
-artifact_total: 11
+- description: Manage Fleet Manager API access independently of users
+  name: Scale Computing API Keys API
+  slug: scale-computing-api-keys-api
+- description: The Clusters API from Scale Computing — 10 operation(s) for clusters.
+  name: Scale Computing Clusters API
+  slug: scale-computing-clusters-api
+- description: Issues reported by SC//HyperCore clusters
+  name: Scale Computing Conditions API
+  slug: scale-computing-conditions-api
+- description: The Health API from Scale Computing — 1 operation(s) for health.
+  name: Scale Computing Health API
+  slug: scale-computing-health-api
+- description: Historical tracking of CPU, RAM and Storage metrics across your fleet
+  name: Scale Computing Metrics API
+  slug: scale-computing-metrics-api
+- description: The Nodes API from Scale Computing — 5 operation(s) for nodes.
+  name: Scale Computing Nodes API
+  slug: scale-computing-nodes-api
+- description: Audit log of many user and system-generated events in Fleet Manager
+  name: Scale Computing Organization Activities API
+  slug: scale-computing-organization-activities-api
+- description: The Organization API from Scale Computing — 2 operation(s) for organization.
+  name: Scale Computing Organization API
+  slug: scale-computing-organization-api
+- description: The Organization Salesforce Account API from Scale Computing — 1 operation(s) for organization salesforce account.
+  name: Scale Computing Organization Salesforce Account API
+  slug: scale-computing-organization-salesforce-account-api
+- description: The OrganizationRoles API from Scale Computing — 2 operation(s) for organizationroles.
+  name: Scale Computing Organization Roles API
+  slug: scale-computing-organizationroles-api
+- description: The Organizations API from Scale Computing — 4 operation(s) for organizations.
+  name: Scale Computing Organizations API
+  slug: scale-computing-organizations-api
+- description: The OrganizationUser API from Scale Computing — 1 operation(s) for organizationuser.
+  name: Scale Computing Organization User API
+  slug: scale-computing-organizationuser-api
+- description: The OrganizationUsers API from Scale Computing — 1 operation(s) for organizationusers.
+  name: Scale Computing Organization Users API
+  slug: scale-computing-organizationusers-api
+- description: The Salesforce API from Scale Computing — 1 operation(s) for salesforce.
+  name: Scale Computing Salesforce API
+  slug: scale-computing-salesforce-api
+- description: The Staged Clusters API from Scale Computing — 4 operation(s) for staged clusters.
+  name: Scale Computing Staged Clusters API
+  slug: scale-computing-staged-clusters-api
+- description: The Users API from Scale Computing — 13 operation(s) for users.
+  name: Scale Computing Users API
+  slug: scale-computing-users-api
+- description: Virtual Machines on SC//HyperCore clusters
+  name: Scale Computing Vms API
+  slug: scale-computing-vms-api
+artifact_total: 26
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/scale-computing-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/scale-computing-fleet-manager-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/scale-computing-core-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -166,10 +223,10 @@ modified: '2026-08-26'
 name: Scale Computing
 nav: Providers
 network: true
-overview: 'Scale Computing publishes 2 APIs on the [APIs.io](https://apis.io/) network: SC//Fleet Manager API and Platform Core API. Tagged areas include Edge Computing, Hyperconverged Infrastructure, Virtualization, Infrastructure Management, and Fleet Management.
+overview: 'Scale Computing publishes 17 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Clusters API, Conditions API, and 14 more. Tagged areas include edge-computing, hyperconverged-infrastructure, Virtualization, infrastructure-management, and fleet-management.
 
 
-  Scale Computing''s developer surface includes documentation, API reference, support, engineering blog, pricing, authentication, and 22 more developer resources.'
+  Scale Computing''s developer surface includes documentation, API reference, support, engineering blog, pricing, authentication, and 25 more developer resources.'
 plans:
 - name: Scale Computing Plans Pricing
   plan_count: 0
@@ -180,23 +237,31 @@ rate_limits:
   name: Scale Computing Rate Limits
   slug: scale-computing-rate-limits
 score:
-  band: developing
-  composite: 41.8
+  band: thin
+  composite: 36.6
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
-    contract_quality: 48.3
+    contract_governance: 4.5
+    contract_quality: 38.1
     developer_ergonomics: 54.2
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 74.1
+    governance: 4.5
     operational_transparency: 5.3
+  previous_composite: 36.6
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Scale Computing Authentication
@@ -216,15 +281,14 @@ security:
   summary_line: trust center published
 slug: scale-computing
 tags:
-- Edge Computing
-- Hyperconverged Infrastructure
+- edge-computing
+- hyperconverged-infrastructure
 - Virtualization
-- Infrastructure Management
-- Fleet Management
-- Virtual Machines
-- Observability
-- Infrastructure as Code
-- Kubernetes
-- Company
+- infrastructure-management
+- fleet-management
+- virtual-machines
+- observability
+- infrastructure-as-code
+- kubernetes
 website: https://www.scalecomputing.com/
 ---

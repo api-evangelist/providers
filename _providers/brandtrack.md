@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 32
   slug: brandtrack-agentic-access
   summary_line: 32 operations · 18 acting
-api_count: 9
+api_count: 1
 apis:
 - description: The Accounts API from Brandtrack — 3 operation(s) for accounts.
   name: Brandtrack Accounts API
@@ -103,6 +103,10 @@ collections:
   name: Brandtrack API Documentation Accounts Zones API
   slug: open-brandtrack-zones-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/brandtrack-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -222,7 +226,7 @@ network: true
 overview: 'Brandtrack publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Groups API, Locations API, and 6 more. Tagged areas include Company, Music, Background Music, Audio, and Streaming.
 
 
-  Brandtrack''s developer surface includes documentation, API reference, authentication, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
+  Brandtrack''s developer surface includes documentation, API reference, authentication, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
 random_paper: 2
 scopes:
 - name: Brandtrack Scopes
@@ -231,18 +235,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 43.1
-  delta: 0.0
+  composite: 39.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 55.2
     developer_ergonomics: 51.8
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 43.1
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,8 +262,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/screenshots/brandtrack-2026-07-25T203725.png
 security:

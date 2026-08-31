@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -43,29 +43,38 @@ agentic_access:
   operation_count: 51
   slug: landmark-information-agentic-access
   summary_line: 51 operations · 32 acting · 1 human-in-the-loop
-api_count: 7
+api_count: 5
 apis:
-- description: Compliance ordering API used to place and retrieve Landmark compliance product orders — AML individual and company checks, UK and international AML with facial recognition, Persons with Significant Co
-  name: Landmark Order Experience API
-  slug: landmark-order-experience-api
-- description: Panel conveyancing API for quoting, instructing and managing conveyancing work through Landmark Optimus. Introducers create quotes, choose a conveyancer and instruct on a client's behalf; conveyancers
-  name: Landmark Conveyancing Experience API
-  slug: landmark-conveyancing-experience-api
-- description: Case creation and management API for the Intelliworks legal case management system, letting third-party systems create and update cases outside the Intelliworks UI for Sale, Purchase, New Build Purcha
-  name: Landmark Intelliworks APIs
-  slug: landmark-intelliworks-api
-- description: API behind Contract Pack Vault — creates a secure, shareable container of transaction documents, adds and removes files (virus-scanned and analysed asynchronously, status Pending then Available or Qua
-  name: Landmark Document Vault API
-  slug: landmark-document-vault-api
-- description: 'Callback registration API for valuation transaction milestone notifications on the Landmark Secure Panel Network (SPN). Consumers register, update and delete callback URLs that Landmark then calls as '
-  name: Landmark Milestone Notification Service API
-  slug: landmark-milestone-notification-service-api
 - description: RESTful planning-application data API combining Barbour ABI project information with Landmark geospatial data, covering UK and Republic of Ireland planning applications from 1 January 2017 (with histo
   name: Landmark Planning API (powered by Barbour ABI)
   slug: landmark-planning-api
 - description: On-demand raster mapping tile service delivered against the Open Geospatial Consortium Web Map Tile Service (OGC WMTS) standard, with 20 zoom levels spanning Ordnance Survey MasterMap through national
   name: Landmark Geodata Web Map Tile Service (WMTS)
   slug: landmark-geodata-web-map-tile-service
+- description: Read a vault's audit history.
+  name: Landmark Information Group Activities API
+  slug: landmark-information-activities-api
+- description: 'Once you instruct a quote it becomes a case. If you''re the conveyancer, these are the cases assigned to you: you work them through to completion and post updates as you go. If you''re the introducer, t'
+  name: Landmark Information Group Cases API
+  slug: landmark-information-cases-api
+- description: Create a vault and manage its details and recipients.
+  name: Landmark Information Group Document Vaults API
+  slug: landmark-information-document-vaults-api
+- description: Add and remove the files held in a vault.
+  name: Landmark Information Group Documents API
+  slug: landmark-information-documents-api
+- description: Operations to manage callback configurations for transaction milestone notifications
+  name: Landmark Information Group Milestones API
+  slug: landmark-information-milestones-api
+- description: Operations to create and receive order results.
+  name: Landmark Information Group Order Experience API
+  slug: landmark-information-order-experience-api-api
+- description: Quotes are where a job begins. You build a quote for your client's transaction, get back the panel conveyancers available to you with their pricing, and instruct one of them to turn the quote into a l
+  name: Landmark Information Group Quotes API
+  slug: landmark-information-quotes-api
+- description: APIs for tracking asynchronous request status
+  name: Landmark Information Group Transaction Requests API
+  slug: landmark-information-transaction-requests-api
 arazzos:
 - description: Create a Document Vault, add a document, set the recipient organisation and a recipient, and read back the vault and its activity trail.
   name: Assemble a Contract Pack Vault
@@ -79,7 +88,7 @@ arazzos:
 - description: Register a callback endpoint for Secure Panel Network valuation milestones, update its configuration, then remove it.
   name: Subscribe to valuation milestone notifications
   slug: landmark-information-subscribe-valuation-milestones
-artifact_total: 23
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Landmark Information Webhooks
@@ -101,6 +110,50 @@ collections:
   name: Order Experience API
   slug: open-landmark-information-order-experience-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/landmark-information-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/landmark-information-order-experience-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/landmark-information-order-compliance-check.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/landmark-information-conveyancing-experience-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/landmark-information-quote-and-instruct-conveyancing.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/landmark-information-intelliworks-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/landmark-information-create-intelliworks-case.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/landmark-information-document-vault-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/landmark-information-build-contract-pack-vault.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/landmark-information-milestone-notification-service-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/landmark-information-subscribe-valuation-milestones.md
 - group: start
   title: ''
   type: DeveloperPortal
@@ -251,13 +304,13 @@ modified: '2026-07-26'
 name: Landmark Information Group
 nav: Providers
 network: true
-overview: 'Landmark Information Group publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Landmark Order Experience API, Landmark Conveyancing Experience API, Landmark Intelliworks APIs, and 2 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Data, and Conveyancing.
+overview: 'Landmark Information Group publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Cases API, Document Vaults API, and 5 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Data, and Conveyancing.
 
 
   The Landmark Information Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Landmark Information Group''s developer surface includes API reference, getting-started guide, support, changelog, sandbox, authentication, documentation, and 27 more developer resources.'
+  Landmark Information Group''s developer surface includes API reference, getting-started guide, support, changelog, sandbox, authentication, documentation, and 38 more developer resources.'
 random_paper: 19
 rate_limits:
 - limit_count: 2
@@ -270,18 +323,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.5
+  composite: 49.9
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 66.8
+    contract_governance: 4.5
+    contract_quality: 66.6
     developer_ergonomics: 66.1
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 64.8
+    governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 52.5
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -292,8 +350,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landmark-information/refs/heads/main/screenshots/landmark-information-2026-08-07T171441.png
 security:

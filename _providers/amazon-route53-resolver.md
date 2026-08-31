@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 63
   slug: amazon-route53-resolver-agentic-access
   summary_line: 63 operations · 63 acting
-api_count: 63
+api_count: 1
 apis:
 - description: 'The #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup API from Amazon Route 53 Resolver — 1 operation(s) for #x amz target=route53resolver.associatefirewallrulegroup.'
   name: 'Amazon Route 53 Resolver #X Amz Target=Route53Resolver.AssociateFirewallRuleGroup API'
@@ -620,6 +620,10 @@ collections:
   name: Amazon Route 53 Resolver
   slug: open-amazon-route53-resolver
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-route53-resolver-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -5252,7 +5256,7 @@ overview: 'Amazon Route 53 Resolver publishes 63 APIs on the [APIs.io](https://a
   The Amazon Route 53 Resolver catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Route 53 Resolver''s developer surface includes authentication, developer portal, documentation, support, signup flow, code examples, and 661 more developer resources.'
+  Amazon Route 53 Resolver''s developer surface includes authentication, developer portal, documentation, support, signup flow, code examples, and 662 more developer resources.'
 plans:
 - name: Amazon Route53 Resolver Plans Pricing
   plan_count: 3
@@ -5286,18 +5290,23 @@ rules:
   slug: amazon-route53-resolver-spectral-rules
 score:
   band: developing
-  composite: 49.9
-  delta: 4.4
+  composite: 51.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 28.8
     contract_quality: 64.6
     developer_ergonomics: 52.4
-    discoverability: 40.7
+    discoverability: 53.7
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 45.5
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     contracts:
@@ -5305,8 +5314,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 63
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-route53-resolver/refs/heads/main/screenshots/amazon-route53-resolver-2026-06-20T171815.png
 security:

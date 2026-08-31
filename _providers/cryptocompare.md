@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 54
   slug: cryptocompare-agentic-access
   summary_line: 54 operations
-api_count: 18
+api_count: 2
 apis:
 - description: 'Single secure WebSocket endpoint multiplexing every subscription via tilde-delimited subscription strings (e.g. 5~CCCAGG~BTC~USD). Channel types: Trade (0), Ticker (2), Aggregate Index / CCCAGG (5), O'
   name: CryptoCompare Streaming WebSocket
@@ -534,19 +534,24 @@ rules:
     warn: 6
   slug: cryptocompare-rules
 score:
-  band: strong
-  composite: 54.6
-  delta: 0.8
+  band: developing
+  composite: 52.2
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 29.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 45.5
-    contract_quality: 75.5
+    contract_governance: 33.3
+    contract_quality: 75.3
     developer_ergonomics: 29.2
-    discoverability: 79.6
-    governance: 45.5
+    discoverability: 70.4
+    governance: 33.3
     operational_transparency: 42.1
-  previous_composite: 53.8
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -563,8 +568,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/screenshots/cryptocompare-2026-06-20T175310.png
 security:
@@ -595,7 +600,7 @@ tags:
 - News
 - Social
 - Blockchain
-- Onchain
+- On-Chain
 - Order Book
 - Streaming
 - Index

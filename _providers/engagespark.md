@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 23
   slug: engagespark-agentic-access
   summary_line: 23 operations · 12 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Balance API from engageSPARK — 1 operation(s) for balance.
   name: engageSPARK Balance API
@@ -95,6 +95,10 @@ collections:
   name: engageSPARK Balance WhatsApp API
   slug: open-engagespark-whatsapp-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/engagespark-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -189,22 +193,27 @@ overview: 'engageSPARK publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
   The engageSPARK catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  engageSPARK''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
+  engageSPARK''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
 random_paper: 5
 score:
   band: thin
-  composite: 37.1
-  delta: 5.7
+  composite: 35.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 64.4
     developer_ergonomics: 30.4
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 31.4
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -221,9 +230,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 29.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/screenshots/engagespark-2026-07-25T213341.png
 security:
 - kind: authentication

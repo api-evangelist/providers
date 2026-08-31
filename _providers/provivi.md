@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The KeystoneJS 5 headless-CMS GraphQL backend that serves the provivi.com marketing site. It exposes 199 types, 83 query fields and 122 mutation fields covering the site's content model — Article, Pre
@@ -135,7 +135,7 @@ modified: '2026-08-26'
 name: Provivi
 nav: Providers
 network: true
-overview: 'Provivi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, AgTech, Biotechnology, Crop Protection, and Pheromones.
+overview: 'Provivi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agriculture, agtech, biotechnology, crop-protection, and pheromones.
 
 
   Provivi''s developer surface includes engineering blog, support, FAQ, YouTube channel, authentication, and 18 more developer resources.'
@@ -151,6 +151,12 @@ rate_limits:
 score:
   band: emerging
   composite: 24.7
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -160,10 +166,12 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 0.0
+  previous_composite: 24.7
   provenance:
     conformance: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Provivi Authentication
@@ -176,12 +184,12 @@ security:
 slug: provivi
 tags:
 - Agriculture
-- AgTech
-- Biotechnology
-- Crop Protection
-- Pheromones
-- Sustainability
-- Content Management
-- GraphQL
+- agtech
+- biotechnology
+- crop-protection
+- pheromones
+- sustainability
+- content-management
+- graphql
 website: https://www.provivi.com/en
 ---

@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Server-side conversion event ingestion. Accepts batches of up to 100 events over HTTPS with Bearer authentication, so conversions that happen off-site (CRM milestones such as ClosedWon, BecameSQL or R
   name: Knotch Events API
@@ -49,7 +49,10 @@ apis:
 - description: 'Publisher traffic verification tag, a component of Knotch Blueprint. A single script element carrying a data-kvpid attribute, fired once on document onLoad, collecting page views, unique visitors and '
   name: Knotch Verification Pixel
   slug: verification-pixel
-artifact_total: 8
+- description: The Health API from Knotch — 1 operation(s) for health.
+  name: Knotch Health API
+  slug: knotch-health-api
+artifact_total: 9
 common:
 - group: company
   title: ''
@@ -164,7 +167,7 @@ modified: '2026-08-13'
 name: Knotch
 nav: Providers
 network: true
-overview: 'Knotch publishes 1 API on the [APIs.io](https://apis.io/) network: Events API. Tagged areas include Company, Content Intelligence, Content Marketing, Analytics, and Artificial Intelligence.
+overview: 'Knotch publishes 2 APIs on the [APIs.io](https://apis.io/) network: Events API and Health API. Tagged areas include Company, Content Intelligence, Content Marketing, Analytics, and Artificial Intelligence.
 
 
   Knotch''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 20 more developer resources.'
@@ -178,19 +181,24 @@ rate_limits:
   name: Knotch Rate Limits
   slug: knotch-rate-limits
 score:
-  band: developing
-  composite: 40.2
-  delta: 0.0
+  band: thin
+  composite: 38.5
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 49.7
+    contract_governance: 4.5
+    contract_quality: 51.0
     developer_ergonomics: 63.7
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 40.2
+  previous_composite: 39.0
   provenance:
     conformance: derived
     contracts:
@@ -200,8 +208,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knotch/refs/heads/main/screenshots/knotch-2026-07-25T224004.png
 security:

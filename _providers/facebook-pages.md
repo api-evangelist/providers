@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 18
   slug: facebook-pages-agentic-access
   summary_line: 18 operations · 7 acting
-api_count: 12
+api_count: 1
 apis:
 - description: Graph API endpoints for reading and managing Facebook Pages, including publishing posts and stories, retrieving Page insights, managing comments and conversations, and configuring Page metadata. Authe
   name: Meta Graph API - Pages
@@ -121,6 +121,10 @@ collections:
   name: Meta Graph API - Pages
   slug: open-facebook-pages
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/facebook-pages-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -176,7 +180,7 @@ network: true
 overview: 'Facebook Pages API publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Conversations API, Feed API, and 8 more. Tagged areas include Social-Media, Facebook, Meta Graph API, Pages, and Content Publishing.
 
 
-  Facebook Pages API''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 5 more developer resources.'
+  Facebook Pages API''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
 random_paper: 13
 scopes:
 - name: Facebook Pages Scopes
@@ -185,18 +189,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: thin
-  composite: 32.2
-  delta: 3.4
+  composite: 31.7
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 28.6
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 28.8
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -204,8 +213,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook-pages/refs/heads/main/screenshots/facebook-pages-2026-06-20T181006.png
 security:

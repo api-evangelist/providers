@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 64
   slug: national-archives-and-records-administration-agentic-access
   summary_line: 64 operations · 22 acting
-api_count: 16
+api_count: 1
 apis:
 - description: The Accounts API from National Archives and Records Administration — 4 operation(s) for accounts.
   name: National Archives and Records Administration Accounts API
@@ -198,19 +198,24 @@ rate_limits:
   name: National Archives And Records Administration Rate Limits
   slug: national-archives-and-records-administration-rate-limits
 score:
-  band: thin
-  composite: 26.2
-  delta: 2.6
+  band: emerging
+  composite: 25.6
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 47.5
     developer_ergonomics: 19.0
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 23.6
+  previous_composite: 26.2
   provenance:
     agentic_access: derived
     contracts:
@@ -224,8 +229,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-archives-and-records-administration/refs/heads/main/screenshots/national-archives-and-records-administration-2026-06-20T185959.png
 security:

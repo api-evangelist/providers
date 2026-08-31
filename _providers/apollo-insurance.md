@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -33,16 +33,19 @@ agentic_access:
   summary_line: 8 operations · 6 acting
 api_count: 3
 apis:
-- description: The current APOLLO Affiliate API. Two partner-scoped POST operations — quote an application and create an application — scoped by affiliateId (the partner's co-branded APOLLO subdomain) and insuranceT
-  name: APOLLO Affiliates API
-  slug: apollo-affiliates-api
-- description: The earlier APOLLO public affiliate surface, still published in its own Stoplight project. Two POST operations fixed to the tenant line — generate a quote (returning contents, ALE, liability and add-o
-  name: APOLLO Public API - Affiliates
-  slug: apollo-public-api-affiliates
-- description: CoverTrack is APOLLO's tenant-insurance compliance product for REITs and property managers, served from its own api.covertrack.ca host. Three real operations plus one documented callback — read a sing
-  name: APOLLO CoverTrack API
-  slug: apollo-covertrack-api
-artifact_total: 12
+- description: The Affiliates API from APOLLO Insurance — 2 operation(s) for affiliates.
+  name: APOLLO Insurance Affiliates API
+  slug: apollo-insurance-affiliates-api
+- description: APOLLO public API
+  name: APOLLO Insurance API
+  slug: apollo-insurance-api-api
+- description: The Compliance API from APOLLO Insurance — 3 operation(s) for compliance.
+  name: APOLLO Insurance Compliance API
+  slug: apollo-insurance-compliance-api
+- description: The Quote API from APOLLO Insurance — 1 operation(s) for quote.
+  name: APOLLO Insurance Quote API
+  slug: apollo-insurance-quote-api
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Apollo Insurance Covertrack Webhooks
@@ -58,6 +61,22 @@ collections:
   name: CoverTrack API's
   slug: open-apollo-insurance-covertrack
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/apollo-insurance-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/apollo-insurance-affiliates-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/apollo-insurance-affiliates-legacy-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/apollo-insurance-covertrack-overlay.yaml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -247,28 +266,33 @@ modified: '2026-07-25'
 name: APOLLO Insurance
 nav: Providers
 network: true
-overview: 'APOLLO Insurance publishes 3 APIs on the [APIs.io](https://apis.io/) network: APOLLO Affiliates API, APOLLO Public API - Affiliates, and APOLLO CoverTrack API. Tagged areas include Insurance, Canada, Insurtech, Brokers, and Embedded Insurance.
+overview: 'APOLLO Insurance publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Affiliates API, Compliance API, and 2 more. Tagged areas include Insurance, Canada, Insurtech, Brokers, and Embedded Insurance.
 
 
   The APOLLO Insurance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  APOLLO Insurance''s developer surface includes sandbox, code examples, authentication, documentation, engineering blog, API reference, getting-started guide, and 37 more developer resources.'
+  APOLLO Insurance''s developer surface includes sandbox, code examples, authentication, documentation, engineering blog, API reference, getting-started guide, and 41 more developer resources.'
 random_paper: 1
 score:
   band: developing
-  composite: 52.9
+  composite: 53.2
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
-    contract_quality: 59.2
+    contract_governance: 18.2
+    contract_quality: 63.4
     developer_ergonomics: 66.1
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 52.9
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -285,8 +309,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/screenshots/apollo-insurance-2026-07-25T200828.png
 security:

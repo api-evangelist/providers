@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: JWT-based Single Sign-On REST API that lets a partner's online or mobile banking platform transfer an authenticated member into SavvyMoney without a second set of credentials. Publicly documented oper
@@ -143,7 +143,7 @@ modified: '2026-08-26'
 name: SavvyMoney
 nav: Providers
 network: true
-overview: 'SavvyMoney publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Credit Scores, Credit Monitoring, and Financial Wellness.
+overview: 'SavvyMoney publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Credit Scores, Credit Monitoring, and Financial Wellness.
 
 
   SavvyMoney''s developer surface includes documentation, support, engineering blog, signup flow, changelog, and 20 more developer resources.'
@@ -163,16 +163,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.9
+  composite: 40.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 45.2
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
+  previous_composite: 40.8
   provenance:
     conformance: first-party
     mcp: derived
@@ -182,8 +189,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 74.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Savvymoney Authentication
@@ -204,14 +212,14 @@ security:
 slug: savvymoney
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Credit Scores
 - Credit Monitoring
 - Financial Wellness
 - Banking
 - Credit Unions
 - Fintech
-- Single Sign On
+- Single Sign-On
 - Embedded Finance
 - Lending
 - Account Opening

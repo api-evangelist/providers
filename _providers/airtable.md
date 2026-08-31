@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -42,17 +42,8 @@ agentic_access:
   operation_count: 56
   slug: airtable-agentic-access
   summary_line: 56 operations · 36 acting · 1 human-in-the-loop
-api_count: 12
+api_count: 3
 apis:
-- description: The Airtable Enterprise API allows enterprise teams to manage their account programmatically outside of the Admin panel. It supports managing users, updating access permissions, and managing bases, ta
-  name: Airtable Enterprise API
-  slug: airtable-enterprise-api
-- description: The Airtable Audit Logs API provides programmatic access to enterprise audit logs for compliance monitoring and security tracking. It supports creating and retrieving audit log requests with event fil
-  name: Airtable Audit Logs API
-  slug: airtable-audit-logs-api
-- description: The Airtable Shares API allows enterprise administrators to list, manage, and delete share links across an organization. It provides programmatic control over base sharing and access management.
-  name: Airtable Shares API
-  slug: airtable-shares-api
 - description: List and create bases, retrieve base schemas
   name: Airtable Bases API
   slug: airtable-bases-api
@@ -77,9 +68,6 @@ apis:
 - description: Subscribe to real-time change notifications on bases
   name: Airtable Webhooks API
   slug: airtable-webhooks-api
-- description: Manage enterprise workspaces
-  name: Airtable Workspaces API
-  slug: airtable-workspaces-api
 arazzos:
 - description: Add a new table to an existing base and then add a field to that table.
   name: Airtable Add a Table with Fields
@@ -153,7 +141,7 @@ arazzos:
 - description: Confirm the token's identity and scopes, then list the bases it can reach.
   name: Airtable Verify Token Access
   slug: airtable-verify-token-access-workflow
-artifact_total: 169
+artifact_total: 165
 asyncapis:
 - description: The Airtable Webhooks API delivers lightweight change notifications to a subscriber's notification URL whenever data within a base or table changes. Airtable sends a small "ping" via HTTP POST identif
   name: Airtable Webhooks API
@@ -783,7 +771,7 @@ modified: '2026-05-19'
 name: Airtable
 nav: Providers
 network: true
-overview: 'Airtable publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Enterprise API, Audit Logs API, Shares API, and 9 more. Tagged areas include Application, Collaboration, Data, Databases, and Low-Code.
+overview: 'Airtable publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Bases API, Comments API, Fields API, and 5 more. Tagged areas include Application, Collaboration, Data, Databases, and Low-Code.
 
 
   The Airtable catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -834,18 +822,23 @@ rules:
   slug: airtable-spectral-rules
 score:
   band: strong
-  composite: 63.6
-  delta: 1.5
+  composite: 63.7
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 28.8
-    contract_quality: 84.2
+    contract_quality: 84.5
     developer_ergonomics: 76.2
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 62.1
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     contracts:
@@ -853,8 +846,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/screenshots/airtable-2026-06-20T171430.png
 security:

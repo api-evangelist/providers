@@ -11,13 +11,13 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.1
-  scored_at: '2026-08-26'
+  score: 29.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 115
   slug: alloy-com-agentic-access
   summary_line: 115 operations · 69 acting
-api_count: 17
+api_count: 2
 apis:
 - description: Bank account records and related entity history.
   name: Alloy Bank Accounts API
@@ -95,7 +95,13 @@ apis:
 - description: Manual review notes and decisions on entities.
   name: Alloy Reviews API
   slug: alloy-com-reviews-api
-artifact_total: 84
+- description: Entity groups can be used to associate multiple Person and Business Entities together at the point of onboarding and update throughout the entity lifecycle.
+  name: Alloy Entity Groups API
+  slug: alloy-com-entity-groups-api
+- description: Manage transactions. These transactions are aggregated and decisioned through Transaction Monitoring workflows and evaluations.
+  name: Alloy Transactions API
+  slug: alloy-com-transactions-api
+artifact_total: 86
 collections:
 - collection_type: open
   name: API Collection
@@ -158,6 +164,10 @@ collections:
   name: Alloy API
   slug: open-alloy
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/alloy-com-capability-edges.yml
 - group: start
   title: ''
   type: GettingStarted
@@ -367,13 +377,13 @@ modified: '2026-08-08'
 name: Alloy
 nav: Providers
 network: true
-overview: 'Alloy publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Bank Accounts API, Batches API, Cases API, and 14 more. Tagged areas include Identity Decisioning, Identity Verification, KYC, KYB, and AML.
+overview: 'Alloy publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Bank Accounts API, Batches API, Cases API, and 16 more. Tagged areas include Identity Decisioning, Identity Verification, KYC, KYB, and AML.
 
 
   The Alloy catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Alloy''s developer surface includes getting-started guide, authentication, developer portal, documentation, API reference, signup flow, pricing, and 24 more developer resources.'
+  Alloy''s developer surface includes getting-started guide, authentication, developer portal, documentation, API reference, signup flow, pricing, and 25 more developer resources.'
 plans:
 - name: Alloy Com Plans Pricing
   plan_count: 1
@@ -407,18 +417,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 59.0
-  delta: 4.4
+  composite: 58.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
     contract_governance: 9.8
-    contract_quality: 56.5
+    contract_quality: 53.9
     developer_ergonomics: 73.8
-    discoverability: 74.1
+    discoverability: 75.9
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 54.6
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     contracts:
@@ -432,8 +447,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alloy-com/refs/heads/main/screenshots/alloy-com-2026-06-20T171540.png
 security:

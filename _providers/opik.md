@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
-api_count: 39
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Agent configuration management
   name: Opik Agent Configs API
@@ -276,6 +276,22 @@ collections:
   name: Opik REST Workspaces API
   slug: open-opik-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/opik-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/comet-ml/opik/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/comet-ml/opik/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/comet-ml/opik/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -411,7 +427,7 @@ overview: 'Opik publishes 39 APIs on the [APIs.io](https://apis.io/) network, in
   The Opik catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Opik''s developer surface includes documentation, engineering blog, pricing, changelog, and 19 more developer resources.'
+  Opik''s developer surface includes documentation, engineering blog, pricing, changelog, and 23 more developer resources.'
 plans:
 - name: Opik Plans Pricing
   plan_count: 5
@@ -434,26 +450,34 @@ rules:
   slug: opik-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 47.9
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 34.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
     contract_quality: 56.0
     developer_ergonomics: 16.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 68.4
-  previous_composite: 48.2
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 48.4
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/screenshots/opik-2026-06-20T191101.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -31,35 +31,35 @@ agentic_access:
   operation_count: 58
   slug: twentyci-agentic-access
   summary_line: 58 operations · 6 acting
-api_count: 9
+api_count: 2
 apis:
-- description: The single documented authentication endpoint for TwentyAPI. Exchanges a TwentyCi-issued client_id, client_secret, username and password for a bearer access token and refresh token, which is then pres
-  name: TwentyAPI OAuth Token API
-  slug: twentyapi-oauth-token-api
-- description: 'The core DOMUS property surface of TwentyAPI. Retrieves property information and detail by UPRN, recent sales and comparable properties for sale in the area, average property values and AVM valuation '
-  name: TwentyAPI Properties API
-  slug: twentyapi-properties-api
-- description: Estate-agent and letting-agent benchmarking built on TwentyCi sales and rental data. Ranks brands by SSTC, new instructions, exchange, PIPA (percentage of initial price achieved) and days from new ins
-  name: TwentyAPI Agent Performance API
-  slug: twentyapi-agent-performance-api
-- description: 'Home-mover event triggers - the transaction-lifecycle signals TwentyCi is built on. Retrieves a specific trigger, lists properties by trigger type (including properties with no UPRN), and returns the '
-  name: TwentyAPI Trigger Information API
-  slug: twentyapi-trigger-information-api
-- description: Lists the attribute categories available for a property and returns a specific category, providing the vocabulary that the Properties API's attribute endpoints are organised around.
-  name: TwentyAPI Categories API
-  slug: twentyapi-categories-api
-- description: Partial address matching. Submits a fragmentary or unstructured UK address to a match-address process and resolves it against TwentyCi's addressing layer, the capability marketed as AddressMaster / In
-  name: TwentyAPI Address Match API
-  slug: twentyapi-address-match-api
-- description: Returns nearby schools for a given UK postcode, one of the neighbourhood-context datasets TwentyCi layers onto a property record.
-  name: TwentyAPI Schools API
-  slug: twentyapi-schools-api
-- description: Aggregate UK housing market metrics for a specified timeframe - new instructions, SSTCs (sold subject to contract) and PCDs (predicted to complete date) - the market-level view behind TwentyCi's publi
-  name: TwentyAPI UK Housing Market Metrics API
-  slug: twentyapi-uk-housing-market-metrics-api
-- description: '"This is Now" retail propensity to buy goods. Local and national search endpoints returning consumer propensity signal derived from home-mover events, aimed at retailers and media agencies targeting p'
-  name: TwentyAPI This is Now API
-  slug: twentyapi-this-is-now-api
+- description: '- Partial Address Matching'
+  name: TwentyCi Address Match API
+  slug: twentyci-address-match-api
+- description: '- Agent Performance based on Sales Data - Agent Performance based on Rental Data'
+  name: TwentyCi Agent Performance API
+  slug: twentyci-agent-performance-api
+- description: Bearer-token issuance for TwentyAPI.
+  name: TwentyCi Authorisation API
+  slug: twentyci-authorisation-api
+- description: '- Obtain a List of Categories for a Property - Obtain a Specific Categories for a Property'
+  name: TwentyCi Categories API
+  slug: twentyci-categories-api
+- description: '- Property Information by Pagination - Properties Information by UPRN - Properties Details by UPRN - Recent Property Sales in the Area - Similar properties for sale in the area - Average Property Valu'
+  name: TwentyCi Properties API
+  slug: twentyci-properties-api
+- description: '- Nearby Schools by Postcode'
+  name: TwentyCi Schools API
+  slug: twentyci-schools-api
+- description: '- Local Search - National Search'
+  name: TwentyCi This is Now | Retail Propensity To Buy Goods API
+  slug: twentyci-this-is-now-retail-propensity-to-buy-goods-api
+- description: '- Obtain a Specific Trigger - Get Properties by Trigger Type - Get no UPRN Properties by Trigger Type - Trigger History'
+  name: TwentyCi Trigger Information API
+  slug: twentyci-trigger-information-api
+- description: '- New Instructions, SSTC''s and PCD''s for a Specific Timeframe'
+  name: TwentyCi UK Housing Market Metrics API
+  slug: twentyci-uk-housing-market-metrics-api
 artifact_total: 16
 collections:
 - collection_type: open
@@ -222,7 +222,7 @@ modified: '2026-07-26'
 name: TwentyCi
 nav: Providers
 network: true
-overview: 'TwentyCi publishes 9 APIs on the [APIs.io](https://apis.io/) network, including TwentyAPI OAuth Token API, TwentyAPI Properties API, TwentyAPI Agent Performance API, and 6 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Data, and Valuation.
+overview: 'TwentyCi publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Address Match API, Agent Performance API, Authorisation API, and 6 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Data, and Valuation.
 
 
   TwentyCi''s developer surface includes authentication, code examples, documentation, API reference, getting-started guide, engineering blog, and 29 more developer resources.'
@@ -234,18 +234,23 @@ scopes:
   summary_line: 1 scope · password
 score:
   band: thin
-  composite: 32.6
-  delta: 0.0
+  composite: 30.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 16.4
     developer_ergonomics: 54.2
-    discoverability: 81.5
-    governance: 45.5
+    discoverability: 75.9
+    governance: 33.3
     operational_transparency: 2.6
-  previous_composite: 32.6
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -256,8 +261,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

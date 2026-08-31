@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: navis-agentic-access
   summary_line: 8 operations
-api_count: 5
+api_count: 1
 apis:
 - description: Truck gate transactions
   name: Navis (Kaleris) Gate API
@@ -98,6 +98,10 @@ collections:
   name: Navis N4 Terminal Operating System REST Gate Vessel Visits API
   slug: open-navis-vessel-visits-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/navis-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -181,7 +185,7 @@ overview: 'Navis (Kaleris) publishes 5 APIs on the [APIs.io](https://apis.io/) n
   The Navis (Kaleris) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Navis (Kaleris)''s developer surface includes authentication, developer portal, support, engineering blog, and 10 more developer resources.'
+  Navis (Kaleris)''s developer surface includes authentication, developer portal, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Navis Plans Pricing
   plan_count: 3
@@ -204,18 +208,23 @@ rules:
   slug: navis-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.2
-  delta: 1.9
+  composite: 43.7
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 53.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 9.8
     contract_quality: 63.9
     developer_ergonomics: 42.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 42.3
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     contracts:
@@ -223,8 +232,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/screenshots/navis-2026-06-20T190102.png
 security:

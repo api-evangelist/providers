@@ -24,46 +24,49 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-26'
-api_count: 12
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: REST API for Google Flow (Veo 3.1 video, Gemini Omni Flash audio-native video, Imagen 4 and Nano Banana image generation) driven through one or more linked Google accounts, with a captcha-solver pipel
-  name: Google Flow API v1
-  slug: google-flow-v1
-- description: 'REST API for Google Flow Music (Lyria 3 Pro) — generate complete vocal or instrumental songs from a prompt, restyle with cover, remix lyrics, extend, replace and apply audio effects, plus lyrics-only '
-  name: Flow Music API v1
-  slug: flowmusic-v1
-- description: REST API for ByteDance Dreamina (CapCut) — Seedance video models and Seedream image models, with asset upload, image and video upscale, frame interpolation and a job scheduler.
-  name: Dreamina API v1
-  slug: dreamina-v1
-- description: REST API for Kling AI by Kuaishou — Kling v3/O3, Turbo, 2.x and 1.x video models plus lip-sync avatars, native audio, motion control, reusable elements and custom voice cloning.
-  name: Kling AI API v1
-  slug: kling-v1
-- description: REST API for MiniMax via Hailuo AI — Hailuo video models plus third-party video, a broad image model catalog, MiniMax Speech 2.5 text-to-speech, Music 2.0, a MiniMax Agent endpoint and a free MiniMax-
-  name: MiniMax / Hailuo AI API v1
-  slug: minimax-v1
-- description: 'REST API for Runway AI — Gen-4.x native video plus third-party video models routed through Runway, a large image model catalog, Act Two character animation, lip sync, Frames, image and video upscale, '
-  name: Runway API v1
-  slug: runwayml-v1
-- description: REST API for PixVerse.ai — native PixVerse video models plus third-party video, a broad image catalog, music generation, text-to-speech across MiniMax and ElevenLabs voices, extend, upscale, lip sync,
-  name: PixVerse API v2
-  slug: pixverse-v2
-- description: REST API for Mureka AI by Kunlun Tech — generate songs from lyrics, descriptions or musical styles across the Mureka V9, O2, V8 and V7.6 models, with vocal references, melody seeding, custom vocal clo
-  name: Mureka API v1
-  slug: mureka-v1
-- description: REST API for TemPolor royalty-free music generation — create soundtracks from text prompts, custom lyrics or MIDI, with voice cloning, chord and BPM customization and export to mp3, wav and stems.
-  name: TemPolor API v1
-  slug: tempolor-v1
-- description: REST API for the InsightFaceSwap Discord bot by Picsi.Ai — swap faces from source images onto target images with HiFidelity mode, ARTIFY effects, age transformation, multi-face morphing, background ch
-  name: InsightFaceSwap API v1
-  slug: faceswap-v1
 - description: Cross-cutting account API for the useapi.net subscription itself — retrieve account details and the configured service accounts, set the default replyUrl webhook applied to every API, and query per-bo
   name: useapi.net Account Management API v2
   slug: account-v2
-- description: Reverse-engineered REST API for Midjourney, driven through a linked Discord account. Retired — useapi.net discontinued Midjourney support on June 24, 2026. The v1 surface was previously sunset on Marc
-  name: Midjourney REST API v2 (retired)
-  slug: midjourney-v2
-artifact_total: 28
+- description: The Account API from useapi.net — 4 operation(s) for account.
+  name: useapi.net Account API
+  slug: useapi-account-api
+- description: Dreamina API v1 by useapi.net
+  name: useapi.net Dreamina API
+  slug: useapi-dreamina-api
+- description: InsightFaceSwap API v1 by useapi.net
+  name: useapi.net Faceswap API
+  slug: useapi-faceswap-api
+- description: FlowMusic API v1 by useapi.net
+  name: useapi.net Flowmusic API
+  slug: useapi-flowmusic-api
+- description: Google Flow API v1 by useapi.net
+  name: useapi.net Google Flow API
+  slug: useapi-google-flow-api
+- description: The Jobs API from useapi.net — 12 operation(s) for jobs.
+  name: useapi.net Jobs API
+  slug: useapi-jobs-api
+- description: Kling API v1 by useapi.net
+  name: useapi.net Kling API
+  slug: useapi-kling-api
+- description: MiniMax API v1 by useapi.net
+  name: useapi.net Minimax API
+  slug: useapi-minimax-api
+- description: Mureka API v1 by useapi.net
+  name: useapi.net Mureka API
+  slug: useapi-mureka-api
+- description: PixVerse API v2 (web) by useapi.net
+  name: useapi.net Pixverse API
+  slug: useapi-pixverse-api
+- description: Runway API v1 by useapi.net
+  name: useapi.net Runwayml API
+  slug: useapi-runwayml-api
+- description: TemPolor API v1 by useapi.net
+  name: useapi.net Tempolor API
+  slug: useapi-tempolor-api
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Useapi Jobs Webhooks
@@ -106,6 +109,46 @@ collections:
   name: TemPolor API v1 by useapi.net
   slug: open-useapi-tempolor-v1
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/useapi-google-flow-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/useapi-flowmusic-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/useapi-dreamina-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/useapi-kling-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/useapi-minimax-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/useapi-runwayml-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/useapi-pixverse-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/useapi-mureka-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/useapi-tempolor-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/useapi-faceswap-v1-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -271,28 +314,33 @@ modified: '2026-07-27'
 name: useapi.net
 nav: Providers
 network: true
-overview: 'useapi.net publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Google Flow API v1, Flow Music API v1, Dreamina API v1, and 8 more. Tagged areas include Company, Artificial Intelligence, Generative AI, Video Generation, and Image-Generation.
+overview: 'useapi.net publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account API, Dreamina API, Faceswap API, and 9 more. Tagged areas include Company, Artificial Intelligence, Generative AI, Video Generation, and Image-Generation.
 
 
   The useapi.net catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  useapi.net''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+  useapi.net''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 41 more developer resources.'
 random_paper: 17
 score:
-  band: strong
-  composite: 55.4
-  delta: 0.0
+  band: developing
+  composite: 51.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
-    contract_quality: 64.4
+    contract_governance: 4.5
+    contract_quality: 62.7
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 55.4
+  previous_composite: 52.4
   provenance:
     conformance: derived
     contracts:
@@ -302,8 +350,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/useapi/refs/heads/main/screenshots/useapi-2026-08-17T082646.png
 security:
@@ -323,7 +371,7 @@ tags:
 - Video Generation
 - Image-Generation
 - Music Generation
-- Text-to-Speech
+- Text to Speech
 - Face Swap
 - API Aggregator
 - Machine-Learning

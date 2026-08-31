@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Pod''s Open Charge Point Interface (OCPI) 2.2.1 service in the Charge Point Operator role, used for e-mobility roaming and as the technical vehicle named by the UK Public Charge Point Regulations 2023 '
@@ -156,18 +156,23 @@ overview: 'Pod Point publishes 1 API on the [APIs.io](https://apis.io/) network.
 random_paper: 19
 score:
   band: thin
-  composite: 29.7
-  delta: 2.6
+  composite: 28.6
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 6.7
     developer_ergonomics: 39.3
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 27.1
+  previous_composite: 28.6
   provenance:
     conformance: first-party
   regulatory:
@@ -176,8 +181,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

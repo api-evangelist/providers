@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 281
   human_in_the_loop: 0
@@ -282,18 +282,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 34.4
+  composite: 32.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 16.0
     developer_ergonomics: 30.4
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 34.4
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -310,8 +315,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

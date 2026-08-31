@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-26'
-api_count: 5
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: JavaScript SDK providing publisher-side API methods for managing ad placements and requesting page views in single-page applications and infinite scroll implementations. Enables dynamic ad loading wit
   name: Yieldmo JavaScript SDK API
@@ -49,15 +49,41 @@ apis:
 - description: Proprietary programmatic exchange and creative intelligence platform offering curated inventory access, contextual targeting, attention analytics, and deal management for advertisers and demand-side p
   name: Yieldmo YMax Platform API
   slug: yieldmo-ymax-platform-api
-- description: OAuth-protected campaign reporting and analytics API over Yieldmo YMax exchange data, served as both a Model Context Protocol server and a REST API by one application at api.yieldmo.com/dcs/mcp. Ninet
-  name: Yieldmo DCS Reporting API
-  slug: yieldmo-dcs-reporting-api
-artifact_total: 14
+- description: The Canned Reports API from Yieldmo — 19 operation(s) for canned reports.
+  name: Yieldmo Canned Reports API
+  slug: yieldmo-canned-reports-api
+- description: The Dcs API from Yieldmo — 1 operation(s) for dcs.
+  name: Yieldmo Dcs API
+  slug: yieldmo-dcs-api
+- description: The Manage API from Yieldmo — 1 operation(s) for manage.
+  name: Yieldmo Manage API
+  slug: yieldmo-manage-api
+- description: The Mcp API from Yieldmo — 1 operation(s) for mcp.
+  name: Yieldmo MCP API
+  slug: yieldmo-mcp-api
+- description: The Ping API from Yieldmo — 1 operation(s) for ping.
+  name: Yieldmo Ping API
+  slug: yieldmo-ping-api
+- description: The Register API from Yieldmo — 1 operation(s) for register.
+  name: Yieldmo Register API
+  slug: yieldmo-register-api
+- description: The .well Known API from Yieldmo — 3 operation(s) for .well known.
+  name: Yieldmo .well Known API
+  slug: yieldmo-well-known-api
+artifact_total: 20
 collections:
 - collection_type: open
   name: FastAPI
   slug: open-yieldmo-dcs-mcp
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/yieldmo/yieldmo-js-sdk/issues
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/yieldmo-dcs-mcp-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -195,13 +221,13 @@ modified: '2026-08-12'
 name: Yieldmo
 nav: Providers
 network: true
-overview: 'Yieldmo publishes 1 API on the [APIs.io](https://apis.io/) network: DCS Reporting API. Tagged areas include Advertising, Programmatic, Native Advertising, Ad Exchange, and Publisher Monetization.
+overview: 'Yieldmo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Canned Reports API, Dcs API, Manage API, and 4 more. Tagged areas include Advertising, Programmatic, Native Advertising, Ad Exchange, and Publisher Monetization.
 
 
   The Yieldmo catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Yieldmo''s developer surface includes documentation, engineering blog, pricing, authentication, sandbox, and 24 more developer resources.'
+  Yieldmo''s developer surface includes documentation, engineering blog, pricing, authentication, sandbox, and 26 more developer resources.'
 plans:
 - name: Yieldmo Plans Pricing
   plan_count: 3
@@ -218,24 +244,32 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.6
-  delta: 0.0
+  composite: 27.6
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
-    contract_governance: 16.7
-    contract_quality: 42.9
+    contract_governance: 4.5
+    contract_quality: 43.8
     developer_ergonomics: 37.5
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 33.6
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 28.1
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yieldmo/refs/heads/main/screenshots/yieldmo-2026-06-20T201742.png
 security:
@@ -257,7 +291,7 @@ tags:
 - Header Bidding
 - Contextual Targeting
 - Ad Formats
-- Supply Side Platform
+- Supply-Side Platform
 - SSP
 - Campaign Reporting
 - Attention Analytics

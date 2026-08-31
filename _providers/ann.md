@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Ann Taylor's affiliate program enables publishers and content creators to earn commissions on sales generated through affiliate links to anntaylor.com. Available through affiliate networks including F
@@ -41,6 +41,10 @@ apis:
   slug: ann-taylor-affiliate-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ascena-retail-group/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -96,7 +100,7 @@ network: true
 overview: 'ANN Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Ann Taylor, Fashion, KnitWell, LOFT, and Lou And Grey.
 
 
-  ANN Inc.''s developer surface includes support and 9 more developer resources.'
+  ANN Inc.''s developer surface includes support and 10 more developer resources.'
 plans:
 - name: Ann Plans Pricing
   plan_count: 1
@@ -125,7 +129,12 @@ rate_limits:
 score:
   band: emerging
   composite: 16.7
-  delta: 1.9
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -141,9 +150,9 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 14.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 16.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ann/refs/heads/main/screenshots/ann-2026-06-20T172011.png
 security:

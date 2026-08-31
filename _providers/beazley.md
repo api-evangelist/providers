@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -31,36 +31,66 @@ agentic_access:
   operation_count: 75
   slug: beazley-agentic-access
   summary_line: 75 operations · 26 acting
-api_count: 9
+api_count: 14
 apis:
-- description: The current published version of Beazley's risk data capture API. Provides a channel for partner systems to feed quote and risk data directly into Beazley's core Record of Risk systems, with create, r
-  name: 'Beazley Data Capture: Quote and Risk Data v2'
-  slug: beazley-data-capture-quote-and-risk-data-v2
-- description: The original version of Beazley's risk data capture API, feeding quote and risk data from partner systems into Beazley's core Record of Risk systems. Superseded by v2 but still published in the develo
-  name: 'Beazley Data Capture: Quote and Risk Data v1'
-  slug: beazley-data-capture-quote-and-risk-data-v1
-- description: A pre-release version of the Data Capture API published under Beazley's Prerelease APIM product, exposing a single create-risk operation. Backed by an Azure Logic App rather than the core Record of Ri
-  name: 'Beazley Data Capture: Quote and Risk Data v3 (pre-release)'
-  slug: beazley-data-capture-quote-and-risk-data-v3
-- description: Compliance validation and search for Beazley's underwriting systems. Runs rule-driven compliance checks determined by system and action parameters, searches broker agencies, broker contacts and produc
-  name: Beazley Compliance Web API
-  slug: beazley-compliance-web-api
-- description: Marketing details for Beazley's partner organisations — broker and insured organisations, contacts and microsites — with read and write operations over contacts and organisations plus microsite-scoped
-  name: Beazley Broker and Insured Marketing Data v2
-  slug: beazley-broker-and-insured-marketing-data-v2
-- description: A standard set of foreign exchange rates for Beazley systems, exposing rates, rate providers and supported currencies. Reference data supporting multi-currency specialty insurance placement, published
-  name: Beazley Currency Exchange
-  slug: beazley-currency-exchange
-- description: 'Public-facing reference data on Beazley''s people and divisions, with person lookup by record id, profile images, profile image by email, and a deleted people feed for downstream synchronisation. Sold '
-  name: About Beazley
-  slug: beazley-about-beazley
-- description: Insurance glossary and knowledge API providing definitions of insurance terms, frequently asked questions by intent name, and Beazley product lookup by term. Published sandbox-only and backed by an Az
-  name: Beazley Fast Reader
-  slug: beazley-fast-reader
-- description: A set of simple rating endpoints published for testing, exposing a single cyber rating operation. The only rating surface in Beazley's public catalog, and explicitly described as being for testing rat
-  name: Beazley Simple Raters
-  slug: beazley-simple-raters
-artifact_total: 30
+- description: The Audit API from Beazley — 2 operation(s) for audit.
+  name: Beazley Audit API
+  slug: beazley-audit-api
+- description: The Check API from Beazley — 1 operation(s) for check.
+  name: Beazley Check API
+  slug: beazley-check-api
+- description: The Contacts API from Beazley — 4 operation(s) for contacts.
+  name: Beazley Contacts API
+  slug: beazley-contacts-api
+- description: The Currencies API from Beazley — 1 operation(s) for currencies.
+  name: Beazley Currencies API
+  slug: beazley-currencies-api
+- description: The Cyber API from Beazley — 1 operation(s) for cyber.
+  name: Beazley Cyber API
+  slug: beazley-cyber-api
+- description: The Definitions API from Beazley — 2 operation(s) for definitions.
+  name: Beazley Definitions API
+  slug: beazley-definitions-api
+- description: The Faqs API from Beazley — 2 operation(s) for faqs.
+  name: Beazley Faqs API
+  slug: beazley-faqs-api
+- description: The Health API from Beazley — 1 operation(s) for health.
+  name: Beazley Health API
+  slug: beazley-health-api
+- description: The Lockstate API from Beazley — 1 operation(s) for lockstate.
+  name: Beazley Lockstate API
+  slug: beazley-lockstate-api
+- description: The Microsites API from Beazley — 3 operation(s) for microsites.
+  name: Beazley Microsites API
+  slug: beazley-microsites-api
+- description: The Organisations API from Beazley — 4 operation(s) for organisations.
+  name: Beazley Organisations API
+  slug: beazley-organisations-api
+- description: The People API from Beazley — 5 operation(s) for people.
+  name: Beazley People API
+  slug: beazley-people-api
+- description: The Ping API from Beazley — 1 operation(s) for ping.
+  name: Beazley Ping API
+  slug: beazley-ping-api
+- description: The Products API from Beazley — 1 operation(s) for products.
+  name: Beazley Products API
+  slug: beazley-products-api
+- description: The Providers API from Beazley — 1 operation(s) for providers.
+  name: Beazley Providers API
+  slug: beazley-providers-api
+- description: The Rates API from Beazley — 1 operation(s) for rates.
+  name: Beazley Rates API
+  slug: beazley-rates-api
+- description: The Report API from Beazley — 1 operation(s) for report.
+  name: Beazley Report API
+  slug: beazley-report-api
+- description: The Risks API from Beazley — 2 operation(s) for risks.
+  name: Beazley Risks API
+  slug: beazley-risks-api
+- description: The Search API from Beazley — 1 operation(s) for search.
+  name: Beazley Search API
+  slug: beazley-search-api
+artifact_total: 40
 collections:
 - collection_type: open
   name: About Beazley (Sandbox)
@@ -105,6 +135,42 @@ collections:
   name: Simple Raters
   slug: open-beazley-simple-raters
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/beazley-data-capture-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/beazley-data-capture-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/beazley-data-capture-v3-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/beazley-compliance-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/beazley-marketing-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/beazley-currency-exchange-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/beazley-about-beazley-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/beazley-fast-reader-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/beazley-simple-raters-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -254,10 +320,10 @@ modified: '2026-07-25'
 name: Beazley
 nav: Providers
 network: true
-overview: 'Beazley publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Data Capture: Quote and Risk Data v2, Data Capture: Quote and Risk Data v1, Data Capture: Quote and Risk Data v3 (pre-release), and 6 more. Tagged areas include Insurance, United Kingdom, Property and Casualty, Cyber Insurance, and Specialty Insurance.
+overview: 'Beazley publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Check API, Contacts API, and 16 more. Tagged areas include Insurance, United Kingdom, Property and Casualty, Cyber Insurance, and Specialty Insurance.
 
 
-  Beazley''s developer surface includes authentication, documentation, API reference, signup flow, sandbox, support, product news, and 27 more developer resources.'
+  Beazley''s developer surface includes authentication, documentation, API reference, signup flow, sandbox, support, product news, and 36 more developer resources.'
 plans:
 - name: Beazley Plans
   plan_count: 9
@@ -269,18 +335,23 @@ rate_limits:
   slug: beazley-rate-limits
 score:
   band: developing
-  composite: 52.0
+  composite: 49.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_governance: 16.7
-    contract_quality: 44.1
+    contract_governance: 4.5
+    contract_quality: 47.8
     developer_ergonomics: 51.8
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 57.4
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 52.0
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -297,8 +368,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 39.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beazley/refs/heads/main/screenshots/beazley-2026-07-25T202607.png
 security:

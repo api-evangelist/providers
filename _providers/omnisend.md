@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -43,14 +43,8 @@ agentic_access:
   operation_count: 60
   slug: omnisend-agentic-access
   summary_line: 60 operations · 38 acting
-api_count: 15
+api_count: 21
 apis:
-- description: The Analytics API from Omnisend — 2 operation(s) for analytics. Version 2026-03-15, harvested from Omnisend's published contract.
-  name: Omnisend Analytics API
-  slug: omnisend-analytics-api
-- description: The Batches API from Omnisend — 4 operation(s) for batches. Version 2026-03-15, harvested from Omnisend's published contract.
-  name: Omnisend Batches API
-  slug: omnisend-batches-api
 - description: The Brands API from Omnisend — 2 operation(s) for brands. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Brands API
   slug: omnisend-brands-api
@@ -60,24 +54,12 @@ apis:
 - description: The Contacts API from Omnisend — 7 operation(s) for contacts. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Contacts API
   slug: omnisend-contacts-api
-- description: The EmailContent API from Omnisend — 3 operation(s) for emailcontent. Version 2026-03-15, harvested from Omnisend's published contract.
-  name: Omnisend EmailContent API
-  slug: omnisend-emailcontent-api
-- description: The EmailTemplates API from Omnisend — 7 operation(s) for emailtemplates. Version 2026-03-15, harvested from Omnisend's published contract.
-  name: Omnisend EmailTemplates API
-  slug: omnisend-emailtemplates-api
-- description: The EmailUniversalLayouts API from Omnisend — 5 operation(s) for emailuniversallayouts. Version 2026-03-15, harvested from Omnisend's published contract.
-  name: Omnisend EmailUniversalLayouts API
-  slug: omnisend-emailuniversallayouts-api
 - description: The Events API from Omnisend — 1 operation(s) for events. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Events API
   slug: omnisend-events-api
 - description: The Images API from Omnisend — 5 operation(s) for images. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Images API
   slug: omnisend-images-api
-- description: The ProductCategories API from Omnisend — 5 operation(s) for productcategories. Version 2026-03-15, harvested from Omnisend's published contract.
-  name: Omnisend ProductCategories API
-  slug: omnisend-productcategories-api
 - description: The Products API from Omnisend — 5 operation(s) for products. Version 2026-03-15, harvested from Omnisend's published contract.
   name: Omnisend Products API
   slug: omnisend-products-api
@@ -90,6 +72,27 @@ apis:
 - description: The Event Metadata API from Omnisend — 3 operation(s) for declaring, merging and querying brand-custom event schemas. The only Omnisend operations that carry an operationId.
   name: Omnisend Event Metadata API
   slug: omnisend-event-metadata-api
+- description: The Batch API from Omnisend — 3 operation(s) for batch.
+  name: Omnisend Batch API
+  slug: omnisend-batch-api
+- description: The Email Content API from Omnisend — 2 operation(s) for email content.
+  name: Omnisend Email Content API
+  slug: omnisend-email-content-api
+- description: The Email Templates API from Omnisend — 4 operation(s) for email templates.
+  name: Omnisend Email Templates API
+  slug: omnisend-email-templates-api
+- description: The Email Universal Layouts API from Omnisend — 2 operation(s) for email universal layouts.
+  name: Omnisend Email Universal Layouts API
+  slug: omnisend-email-universal-layouts-api
+- description: The Product Categories API from Omnisend — 2 operation(s) for product categories.
+  name: Omnisend Product Categories API
+  slug: omnisend-product-categories-api
+- description: The Reports API from Omnisend — 1 operation(s) for reports.
+  name: Omnisend Reports API
+  slug: omnisend-reports-api
+- description: The Statistics API from Omnisend — 1 operation(s) for statistics.
+  name: Omnisend Statistics API
+  slug: omnisend-statistics-api
 arazzos:
 - description: Copy an existing campaign, read the copy to confirm, then queue it for sending.
   name: Omnisend Copy and Send Campaign
@@ -130,7 +133,7 @@ arazzos:
 - description: Look up a contact by id and update it if it exists, otherwise create or update it by email.
   name: Omnisend Upsert a Contact
   slug: omnisend-upsert-contact-workflow
-artifact_total: 78
+artifact_total: 79
 asyncapis:
 - description: ''
   name: Omnisend Webhooks
@@ -575,7 +578,7 @@ modified: '2026-08-13'
 name: Omnisend
 nav: Providers
 network: true
-overview: 'Omnisend publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Batches API, Brands API, and 12 more. Tagged areas include Email Marketing, Marketing Automation, E-Commerce, SMS Marketing, and Customer Engagement.
+overview: 'Omnisend publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Brands API, Campaigns API, Contacts API, and 13 more. Tagged areas include Email Marketing, Marketing Automation, E-Commerce, SMS Marketing, and Customer Engagement.
 
 
   The Omnisend catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -609,18 +612,23 @@ scopes:
   summary_line: 20 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 69.9
+  composite: 67.3
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 29.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
-    contract_governance: 40.2
-    contract_quality: 73.1
+    contract_governance: 28.0
+    contract_quality: 73.0
     developer_ergonomics: 47.0
-    discoverability: 92.6
-    governance: 40.2
+    discoverability: 81.5
+    governance: 28.0
     operational_transparency: 97.4
-  previous_composite: 69.9
+  previous_composite: 67.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -631,8 +639,8 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/screenshots/omnisend-2026-06-20T190706.png
 security:

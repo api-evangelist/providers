@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,22 +25,29 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.0
-  scored_at: '2026-08-26'
+  score: 30.0
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: Invoca's date-versioned REST developer platform covering call transactions, signal reporting, call ingestion, RingPool trackable-number allocation, network integration, and pre-call (PreSense) insight
-  name: Invoca API
-  slug: invoca-api
-artifact_total: 7
+- description: Messages
+  name: Invoca Messages API
+  slug: invoca-messages-api
+- description: Phone Numbers
+  name: Invoca Phone Numbers API
+  slug: invoca-phone-numbers-api
+artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/invoca-sms-messaging-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -189,10 +196,10 @@ modified: '2026-08-13'
 name: Invoca
 nav: Providers
 network: true
-overview: 'Invoca publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Call Tracking, Conversation Intelligence, and Marketing.
+overview: 'Invoca publishes 2 APIs on the [APIs.io](https://apis.io/) network: Messages API and Phone Numbers API. Tagged areas include Company, Artificial Intelligence, Call Tracking, Conversation Intelligence, and Marketing.
 
 
-  Invoca''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Invoca''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Invoca Plans Pricing
   plan_count: 3
@@ -204,24 +211,29 @@ rate_limits:
   slug: invoca-rate-limits
 score:
   band: developing
-  composite: 50.7
+  composite: 52.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 16.7
-    contract_quality: 26.7
+    contract_governance: 4.5
+    contract_quality: 40.1
     developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 50.7
+  previous_composite: 52.6
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invoca/refs/heads/main/screenshots/invoca-2026-07-25T222753.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 15
   slug: crates-io-agentic-access
   summary_line: 15 operations · 5 acting
-api_count: 5
+api_count: 2
 apis:
 - description: Registry configuration document
   name: crates.io Config API
@@ -317,18 +317,23 @@ rules:
   slug: crates-io-rules
 score:
   band: developing
-  composite: 40.7
-  delta: 0.7
+  composite: 40.8
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 13.6
-    contract_quality: 65.6
+    contract_quality: 68.4
     developer_ergonomics: 50.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 47.4
-  previous_composite: 40.0
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -336,8 +341,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crates-io/refs/heads/main/screenshots/crates-io-2026-06-20T175213.png
 security:

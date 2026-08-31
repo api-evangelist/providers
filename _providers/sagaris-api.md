@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: REST API for the SAGARIS Agentic Revenue OS, including the Company Brain context endpoints. Bearer/workspace-key authentication. Formal reference, SDKs, and webhooks are marked 'Soon' (pre-launch).
@@ -44,11 +44,17 @@ modified: '2026-08-24'
 name: SAGARIS API
 nav: Providers
 network: true
-overview: SAGARIS API publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include sales, crm, sales-engagement, dialer, and ai-agents.
+overview: SAGARIS API publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Sales, CRM, Sales Engagement, Dialer, and AI Agents.
 random_paper: 13
 score:
   band: minimal
   composite: 3.4
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -58,25 +64,27 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 3.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 slug: sagaris-api
 tags:
-- sales
-- crm
-- sales-engagement
-- dialer
-- ai-agents
-- mcp
-- revenue
-- conversation-intelligence
-- sms
-- email
-- ai-receptionist
+- Sales
+- CRM
+- Sales Engagement
+- Dialer
+- AI Agents
+- MCP
+- Revenue
+- Conversation Intelligence
+- SMS
+- Email
+- AI Receptionist
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -43,27 +43,39 @@ agentic_access:
   operation_count: 4
   slug: vim-agentic-access
   summary_line: 4 operations · 4 acting
-api_count: 6
+api_count: 2
 apis:
 - description: The Vim Canvas developer platform and VimOS.js JavaScript SDK for embedding applications at the point of care. Reads EHR state (Patient, Encounter, Orders, Referral, Claim, plus problem/medication/all
   name: Vim Canvas SDK (VimOS.js)
   slug: vim-canvas-sdk
-- description: REST endpoints for retrieving the organizations connected to an application and the users within an organization application. OAuth 2.0 client-credentials authenticated.
-  name: Vim Applications & Organizations API
+- description: Obtaining a Bearer service token to make API requests
+  name: Vim Access Token Retrieval API
+  slug: vim-access-token-retrieval-api
+- description: The Applications API from Vim — 2 operation(s) for applications.
+  name: Vim Applications API
   slug: vim-applications-api
-- description: REST endpoint for inviting users to access applications on Vim. OAuth 2.0 client-credentials authenticated.
-  name: Vim Invitations API
-  slug: vim-invitations-api
-- description: REST endpoint returning future appointment data (a 10-day lookahead) for a Vim organization. OAuth 2.0 client-credentials authenticated.
+- description: The Appointments API from Vim — 1 operation(s) for appointments.
   name: Vim Appointments API
   slug: vim-appointments-api
-- description: REST endpoint for obtaining a download URL for a chart-retrieval request. OAuth 2.0 client-credentials authenticated.
+- description: The Authentication API from Vim — 1 operation(s) for authentication.
+  name: Vim Authentication API
+  slug: vim-authentication-api
+- description: The Chart Retrieval API from Vim — 1 operation(s) for chart retrieval.
   name: Vim Chart Retrieval API
   slug: vim-chart-retrieval-api
-- description: 'Ingestion surface for pushing patient-specific clinical insights and gaps (Diagnosis Gaps, Risk, Quality, Social Determinants of Health) into Vim for surfacing at the point of care, via either API or '
-  name: Vim Data Source
-  slug: vim-data-source
-artifact_total: 16
+- description: Retrieving patient care insights such as diagnosis gaps and care insights
+  name: Vim Get Patient Care Insights API
+  slug: vim-get-patient-care-insights-api
+- description: The Invitations API from Vim — 1 operation(s) for invitations.
+  name: Vim Invitations API
+  slug: vim-invitations-api
+- description: Sending feedback about the care insights
+  name: Vim Patient Care Insights Feedback API
+  slug: vim-patient-care-insights-feedback-api
+- description: Identify the patient based on personal information
+  name: Vim Patient Identification API
+  slug: vim-patient-identification-api
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Vim Webhooks
@@ -73,6 +85,10 @@ collections:
   name: Vim Data Source API Integration
   slug: open-vim-data-source-openapi-original
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vim-capability-edges.yml
 - group: docs
   title: ''
   type: OpenAPI
@@ -270,13 +286,13 @@ modified: '2026-08-15'
 name: Vim
 nav: Providers
 network: true
-overview: 'Vim publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applications & Organizations API, Invitations API, Appointments API, and 2 more. Tagged areas include Healthcare, United States, Clinical AI, EHR Integration, and Point of Care.
+overview: 'Vim publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Access Token Retrieval API, Applications API, Appointments API, and 6 more. Tagged areas include Healthcare, United States, Clinical AI, EHR Integration, and Point of Care.
 
 
   The Vim catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Vim''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, support, and 39 more developer resources.'
+  Vim''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, support, and 40 more developer resources.'
 plans:
 - name: Vim Plans Pricing
   plan_count: 0
@@ -292,19 +308,24 @@ scopes:
   slug: vim-scopes
   summary_line: 4 scopes · implicit/clientCredentials
 score:
-  band: exemplar
-  composite: 68.2
-  delta: 0.0
+  band: strong
+  composite: 65.1
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
-    contract_quality: 59.9
+    contract_governance: 18.2
+    contract_quality: 60.2
     developer_ergonomics: 78.0
-    discoverability: 83.3
-    governance: 30.3
+    discoverability: 66.7
+    governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 68.2
+  previous_composite: 65.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -317,12 +338,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/screenshots/vim-2026-08-17T082750.png
 security:

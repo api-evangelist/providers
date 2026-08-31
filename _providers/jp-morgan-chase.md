@@ -33,88 +33,202 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-26'
-api_count: 26
+  scored_at: '2026-08-30'
+api_count: 20
 apis:
-- description: Streamline your client onboarding process to create, update, and manage clients, parties, documents, and due diligence requirements in a fully digital workflow so you can automate Know Your Customer (
-  name: Digital Onboarding API
-  slug: digital-onboarding-api
-- description: The consumer profile management API provides merchant functionality to create, store, update, and maintain customer or consumer profiles.
-  name: Consumer Profile Management API
-  slug: consumer-profile-management-api
-- description: Merchant Services Tokenization APIs enable merchants to secure their cards on file by replacing the sensitive Primary Account Number (PAN) with a token. Currently supports network tokenization via Mas
-  name: Tokenization API
-  slug: tokenization-api
-- description: Data Reports API enables easy access to build consumable data sets. It is designed for merchants or system integrators looking for transaction-level payment data.
-  name: Reporting API
-  slug: reporting-api
 - description: Notification API enables merchants to subscribe to and receive notifications in real-time.
   name: Notifications API
   slug: notifications-api
-- description: Streamline your digital payment experience to create, update, and manage payment requests and payment links, letting your customers pay instantly via shareable QR codes or payment URLs. You can easily
-  name: Request to Pay via QR Code API
-  slug: request-to-pay-via-qr-code-api
-- description: The Checkout API provides a unified interface for merchants to enable consumer checkout and accept payments within their overall commerce experience.
-  name: Checkout API
-  slug: checkout-api
-- description: End to end disputes management interface.
-  name: Dispute Management API
-  slug: dispute-management-api
 - description: Manage your accounts programmatically. Create new accounts, retrieve details and balances, and organize all your client accounts in one place. This allows you to automate account operations and keep y
   name: Accounts API
   slug: accounts-api
-- description: Programmatically receives and decisions Payment Holds, automating your fraud review and hold resolution workflow to minimize operational delays while adhering to corporate IT standards.
-  name: Alerts and Decisioning API
-  slug: alerts-and-decisioning-api
-- description: Product configuration APIs that can be used to create, configure and maintain Commerce platform accounts.
-  name: Product Configuration API
-  slug: product-configuration-api
 - description: Streamline how you set up, manage, and verify payees by creating, updating, listing, and validating recipients for your payment transactions. This helps keep your payment workflows organized and secur
   name: Recipients API
   slug: recipients-api
 - description: Set up and manage webhook subscriptions to receive real-time notifications about key events, like transactions, account changes, or client onboarding, directly to your platform, so you can automate wo
   name: Webhooks API
   slug: webhooks-api
-- description: Standalone authentication API for processing consumer payments
-  name: 3-D Secure API
-  slug: 3-d-secure-api
-- description: The Account Updater API provides recurring and stored payment merchants with their customers latest card account credentials.
-  name: Account Updater API
-  slug: account-updater-api
-- description: Streamline your global payment operations by initiating, tracking, and managing multiple payment types across international markets through a single, unified interface, so you can handle everything fr
-  name: Global Payments API
-  slug: global-payments-api
 - description: Create, track, and manage payments, such as ACH, wire, and real-time transfers, while easily filtering and retrieving transaction details by type, status, account, or date. This lets you automate fund
   name: Transactions API
   slug: transactions-api
-- description: 'Access real-time and historical balances for your eligible J.P. Morgan accounts, so you can easily track cash positions and reconcile transactions across up to 100 accounts per request. This API lets '
-  name: Blockchain Deposit Account Balances API
-  slug: blockchain-deposit-account-balances-api
 - description: Manage your documents programmatically. Generate new documents and retrieve documents relevant to your accounts. This allows you to obtain important documentation with ease.
   name: Documents API
   slug: documents-api
-- description: Verify accounts and identities for individuals and organizations in real time, so you can confidently onboard customers, reduce fraud, and meet compliance requirements with a single, streamlined integ
-  name: Validation Services API
-  slug: validation-services-api
-- description: 'The Wallet Decryption API decrypts the Apple Pay, Google Pay, and Paze wallet encrypted payment bundles to obtain network tokens, cryptograms, electronic commerce indicators (ECIs), and other payment '
-  name: Wallet Decryption API
-  slug: wallet-decryption-api
-- description: JPMorgan Chase Account Information Services from JPMorgan Chase — 7 path(s) described in OpenAPI.
-  name: JPMorgan Chase Account Information Services
-  slug: jp-morgan-chase-account-information-services-openapi
-- description: JPMorgan Chase Global Payments from JPMorgan Chase — 4 path(s) described in OpenAPI.
-  name: JPMorgan Chase Global Payments
-  slug: jp-morgan-chase-global-payments-openapi
-- description: JPMorgan Chase J.P. Morgan Business Direct Connect from JPMorgan Chase — 7 path(s) described in OpenAPI.
-  name: JPMorgan Chase J.P. Morgan Business Direct Connect
-  slug: jp-morgan-chase-j-p-morgan-business-direct-connect-openapi
-- description: JPMorgan Chase Pay By Bank PIS from JPMorgan Chase — 12 path(s) described in OpenAPI.
-  name: JPMorgan Chase Pay By Bank PIS
-  slug: jp-morgan-chase-pay-by-bank-pis-openapi
-- description: JPMorgan Chase Payment Initiation Service from JPMorgan Chase — 6 path(s) described in OpenAPI.
-  name: JPMorgan Chase Payment Initiation Service
-  slug: jp-morgan-chase-payment-initiation-service-openapi
-artifact_total: 58
+- description: To retrieve the account details
+  name: JPMorgan Chase Account Information API
+  slug: jp-morgan-chase-account-information-api
+- description: Add, Remove restrictions on the accounts.
+  name: JPMorgan Chase Account Restrictions API
+  slug: jp-morgan-chase-account-restrictions-api
+- description: Account Information - Services
+  name: JPMorgan Chase Account Services API
+  slug: jp-morgan-chase-account-services-api
+- description: The Account Statements API from JPMorgan Chase — 2 operation(s) for account statements.
+  name: JPMorgan Chase Account Statements API
+  slug: jp-morgan-chase-account-statements-api
+- description: The Account Transactions API from JPMorgan Chase — 1 operation(s) for account transactions.
+  name: JPMorgan Chase Account Transactions API
+  slug: jp-morgan-chase-account-transactions-api
+- description: Request updates to an account.
+  name: JPMorgan Chase Account Updates API
+  slug: jp-morgan-chase-account-updates-api
+- description: API to validate accounts
+  name: JPMorgan Chase Account Validation API
+  slug: jp-morgan-chase-account-validation-api
+- description: Addresses API
+  name: JPMorgan Chase Addresses API
+  slug: jp-morgan-chase-addresses-api
+- description: The AIS API from JPMorgan Chase — 6 operation(s) for ais.
+  name: JPMorgan Chase AIS API
+  slug: jp-morgan-chase-ais-api
+- description: Authentication
+  name: JPMorgan Chase Authentication API
+  slug: jp-morgan-chase-authentication-api
+- description: Balance Information
+  name: JPMorgan Chase Balances API
+  slug: jp-morgan-chase-balances-api
+- description: The Bulk Import API from JPMorgan Chase — 1 operation(s) for bulk import.
+  name: JPMorgan Chase Bulk Import API
+  slug: jp-morgan-chase-bulk-import-api
+- description: Bulk Key Management
+  name: JPMorgan Chase Bulk Key Management API
+  slug: jp-morgan-chase-bulk-key-management-api
+- description: Bulk Token Operation.
+  name: JPMorgan Chase Bulk Operation API
+  slug: jp-morgan-chase-bulk-operation-api
+- description: Operations related to setting up and managing checkout sessions.
+  name: JPMorgan Chase Checkout Intent API
+  slug: jp-morgan-chase-checkout-intent-api
+- description: Onboard and manage clients.
+  name: JPMorgan Chase Clients API
+  slug: jp-morgan-chase-clients-api
+- description: Communication Update
+  name: JPMorgan Chase Communication API
+  slug: jp-morgan-chase-communication-api
+- description: Pay By Bank - Connectivity
+  name: JPMorgan Chase Connectivity API
+  slug: jp-morgan-chase-connectivity-api
+- description: Account Information - Consents
+  name: JPMorgan Chase Consents API
+  slug: jp-morgan-chase-consents-api
+- description: Consumer Profiles API
+  name: JPMorgan Chase Consumer Profiles API
+  slug: jp-morgan-chase-consumer-profiles-api
+- description: Request cryptograms for a token.
+  name: JPMorgan Chase Cryptograms Request API
+  slug: jp-morgan-chase-cryptograms-request-api
+- description: Operations for executing actions on disputes, such as challenging, accepting, and fulfilling requests.
+  name: JPMorgan Chase Disputes Actions API
+  slug: jp-morgan-chase-disputes-actions-api
+- description: Operations for fetching dispute-related data, such as list of disputes, details, status, and issuer documents
+  name: JPMorgan Chase Disputes Data Retrieval API
+  slug: jp-morgan-chase-disputes-data-retrieval-api
+- description: View details of requests for documents.
+  name: JPMorgan Chase Document requests API
+  slug: jp-morgan-chase-document-requests-api
+- description: API to validate entities
+  name: JPMorgan Chase Entity Validation API
+  slug: jp-morgan-chase-entity-validation-api
+- description: Service Health Checks
+  name: JPMorgan Chase Health API
+  slug: jp-morgan-chase-health-api
+- description: Validate the health of the service.
+  name: JPMorgan Chase Health Check API
+  slug: jp-morgan-chase-health-check-api
+- description: Merchant entity information
+  name: JPMorgan Chase Merchant API
+  slug: jp-morgan-chase-merchant-api
+- description: Operations related to generating and managing payment links
+  name: JPMorgan Chase Merchant Catalog API
+  slug: jp-morgan-chase-merchant-catalog-api
+- description: Operations related to merchant notifications.
+  name: JPMorgan Chase Merchant Notification API
+  slug: jp-morgan-chase-merchant-notification-api
+- description: The Merchant Onboarding API from JPMorgan Chase — 2 operation(s) for merchant onboarding.
+  name: JPMorgan Chase Merchant Onboarding API
+  slug: jp-morgan-chase-merchant-onboarding-api
+- description: The Money Movement API from JPMorgan Chase — 1 operation(s) for money movement.
+  name: JPMorgan Chase Money Movement API
+  slug: jp-morgan-chase-money-movement-api
+- description: Create and manage legal parties.
+  name: JPMorgan Chase Party API
+  slug: jp-morgan-chase-party-api
+- description: Manage Payment Holds
+  name: JPMorgan Chase Payment Holds API
+  slug: jp-morgan-chase-payment-holds-api
+- description: APIs to retrieve status and details of a payment
+  name: JPMorgan Chase Payment Information Retrieval API
+  slug: jp-morgan-chase-payment-information-retrieval-api
+- description: API to initiate a payment
+  name: JPMorgan Chase Payment Initiation API
+  slug: jp-morgan-chase-payment-initiation-api
+- description: Manage Payment Links
+  name: JPMorgan Chase Payment Link API
+  slug: jp-morgan-chase-payment-link-api
+- description: Operations related to catalog services
+  name: JPMorgan Chase Payment Links API
+  slug: jp-morgan-chase-payment-links-api
+- description: Payment Methods API
+  name: JPMorgan Chase Payment Methods API
+  slug: jp-morgan-chase-payment-methods-api
+- description: Manage Payment Requests
+  name: JPMorgan Chase Payment Request API
+  slug: jp-morgan-chase-payment-request-api
+- description: Manage Payment Requests in Bulk
+  name: JPMorgan Chase Payment Request - Bulk API
+  slug: jp-morgan-chase-payment-request-bulk-api
+- description: API to initiate payment returns
+  name: JPMorgan Chase Payment Returns API
+  slug: jp-morgan-chase-payment-returns-api
+- description: API to initiate payments
+  name: JPMorgan Chase Payments API
+  slug: jp-morgan-chase-payments-api
+- description: Pay By Bank - PayoutsPayments
+  name: JPMorgan Chase Payouts API
+  slug: jp-morgan-chase-payouts-api
+- description: The Personal Information API from JPMorgan Chase — 1 operation(s) for personal information.
+  name: JPMorgan Chase Personal Information API
+  slug: jp-morgan-chase-personal-information-api
+- description: Payment Initiation Services
+  name: JPMorgan Chase PIS API
+  slug: jp-morgan-chase-pis-api
+- description: View details about answering questions by id.
+  name: JPMorgan Chase Questions API
+  slug: jp-morgan-chase-questions-api
+- description: Generates recommendations based on the provided input.
+  name: JPMorgan Chase Recommendations API
+  slug: jp-morgan-chase-recommendations-api
+- description: Refund initiation services.
+  name: JPMorgan Chase Refunds API
+  slug: jp-morgan-chase-refunds-api
+- description: Endpoints for report configurations.
+  name: JPMorgan Chase Report Configurations API
+  slug: jp-morgan-chase-report-configurations-api
+- description: Endpoints for report files.
+  name: JPMorgan Chase Report Files API
+  slug: jp-morgan-chase-report-files-api
+- description: Endpoints for report types.
+  name: JPMorgan Chase Report Types API
+  slug: jp-morgan-chase-report-types-api
+- description: Reporting Group Information
+  name: JPMorgan Chase Reporting Groups API
+  slug: jp-morgan-chase-reporting-groups-api
+- description: Endpoints for reports.
+  name: JPMorgan Chase Reports API
+  slug: jp-morgan-chase-reports-api
+- description: Create session for clients or parties.
+  name: JPMorgan Chase Session API
+  slug: jp-morgan-chase-session-api
+- description: Manage notification subscriptions
+  name: JPMorgan Chase Subscriptions API
+  slug: jp-morgan-chase-subscriptions-api
+- description: Manage or request token state information.
+  name: JPMorgan Chase Token Lifecycle Management API
+  slug: jp-morgan-chase-token-lifecycle-management-api
+- description: Manage or request tokens and cryptograms.
+  name: JPMorgan Chase Token Processing API
+  slug: jp-morgan-chase-token-processing-api
+artifact_total: 96
 asyncapis:
 - description: ''
   name: Jp Morgan Chase Webhooks
@@ -199,6 +313,10 @@ collections:
   name: Webhooks API
   slug: open-jp-morgan-chase-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/jp-morgan-chase-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -331,13 +449,13 @@ modified: '2026-07-28'
 name: JPMorgan Chase
 nav: Providers
 network: true
-overview: 'JPMorgan Chase publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Digital Onboarding API, Consumer Profile Management API, Tokenization API, and 23 more. Tagged areas include Banking, Financial-Services, Payments, Treasury, and Fortune 100.
+overview: 'JPMorgan Chase publishes 64 APIs on the [APIs.io](https://apis.io/) network, including Notifications API, Accounts API, Recipients API, and 61 more. Tagged areas include Banking, Financial-Services, Payments, Treasury, and Fortune 100.
 
 
   The JPMorgan Chase catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  JPMorgan Chase''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, signup flow, and 23 more developer resources.'
+  JPMorgan Chase''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, signup flow, and 24 more developer resources.'
 plans:
 - name: Jp Morgan Chase Plans Pricing
   plan_count: 1
@@ -374,18 +492,23 @@ rate_limits:
   slug: jp-morgan-chase-rate-limits
 score:
   band: developing
-  composite: 49.2
+  composite: 49.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 68.8
+    contract_quality: 72.5
     developer_ergonomics: 59.5
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 49.2
+  previous_composite: 49.6
   provenance:
     contracts:
       callable: 100.0
@@ -398,8 +521,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/screenshots/jp-morgan-chase-2026-06-20T183806.png
 security:

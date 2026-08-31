@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: intuit-agentic-access
   summary_line: 17 operations · 11 acting
-api_count: 11
+api_count: 1
 apis:
 - description: Intuit APIs provide developers with access to a wide range of services and functionalities to help them build innovative solutions for financial management, accounting, and tax-related needs. These AP
   name: Intuit APIs
@@ -154,6 +154,10 @@ collections:
   name: QuickBooks Online Accounting API
   slug: open-quickbooks-accounting
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/intuit-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -611,7 +615,7 @@ overview: 'Intuit publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
   The Intuit catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Intuit''s developer surface includes authentication, signup flow, engineering blog, support, sandbox, developer console, FAQ, and 43 more developer resources.'
+  Intuit''s developer surface includes authentication, signup flow, engineering blog, support, sandbox, developer console, FAQ, and 44 more developer resources.'
 plans:
 - name: Intuit Plans Pricing
   plan_count: 3
@@ -677,18 +681,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 64.9
-  delta: 5.7
+  composite: 64.3
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 13.6
     contract_quality: 80.1
     developer_ergonomics: 85.7
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 13.6
     operational_transparency: 55.3
-  previous_composite: 59.2
+  previous_composite: 64.9
   provenance:
     agentic_access: derived
     contracts:
@@ -702,9 +711,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/screenshots/intuit-2026-06-20T183515.png
 security:
 - kind: authentication

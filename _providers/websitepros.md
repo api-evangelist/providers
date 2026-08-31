@@ -34,13 +34,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 5
 apis:
-- description: The partner-facing API for Web.com's International ("NTS") platform, fronted by Azure API Management. Ten documented operations cover the sales-order lifecycle (create, list with paging and filtering,
-  name: Web.com International Platform API
-  slug: international-platform
-artifact_total: 6
+- description: Domain-name availability and suggestion.
+  name: WebsitePros Domains API
+  slug: websitepros-domains-api
+- description: Gateway and service liveness.
+  name: WebsitePros Health API
+  slug: websitepros-health-api
+- description: Create, read, update and delete sales orders in the Web.com International pipeline.
+  name: WebsitePros Sales Orders API
+  slug: websitepros-sales-orders-api
+- description: Provision products and services against a customer and account.
+  name: WebsitePros Service Orders API
+  slug: websitepros-service-orders-api
+- description: Generate a single-sign-on URL for a customer owned by your tenant.
+  name: WebsitePros SSO API
+  slug: websitepros-sso-api
+artifact_total: 10
 common:
 - group: auth
   title: ''
@@ -147,7 +159,7 @@ modified: '2026-08-13'
 name: WebsitePros
 nav: Providers
 network: true
-overview: 'WebsitePros publishes 1 API on the [APIs.io](https://apis.io/) network: Web.com International Platform API. Tagged areas include Company, Website Builder, Web Hosting, Domains, and Small Business.
+overview: 'WebsitePros publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Domains API, Health API, Sales Orders API, and 2 more. Tagged areas include Company, Website Builder, Web Hosting, Domains, and Small Business.
 
 
   WebsitePros'' developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, sandbox, and 17 more developer resources.'
@@ -162,18 +174,23 @@ rate_limits:
   slug: websitepros-rate-limits
 score:
   band: thin
-  composite: 28.7
-  delta: 0.0
+  composite: 26.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.2
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 16.7
-    contract_quality: 17.8
-    developer_ergonomics: 63.7
-    discoverability: 68.5
-    governance: 16.7
+    contract_governance: 4.5
+    contract_quality: 17.4
+    developer_ergonomics: 57.7
+    discoverability: 74.1
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 28.7
+  previous_composite: 27.7
   provenance:
     conformance: derived
     contracts:
@@ -183,8 +200,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,10 +33,34 @@ agentic_access:
   summary_line: 22 operations
 api_count: 1
 apis:
-- description: The public, read-only WordPress REST API (wp/v2) behind housesigma.com/blog-en, which serves HouseSigma's Canadian housing-market analysis blog as JSON. This is the only anonymously callable, machine-
-  name: HouseSigma Blog Content API
-  slug: housesigma-blog-content-api
-artifact_total: 11
+- description: The Comments API from HouseSigma — 2 operation(s) for comments.
+  name: HouseSigma Comments API
+  slug: housesigma-comments-api
+- description: The Media API from HouseSigma — 2 operation(s) for media.
+  name: HouseSigma Media API
+  slug: housesigma-media-api
+- description: The oEmbed API from HouseSigma — 1 operation(s) for oembed.
+  name: HouseSigma O Embed API
+  slug: housesigma-oembed-api
+- description: The Pages API from HouseSigma — 2 operation(s) for pages.
+  name: HouseSigma Pages API
+  slug: housesigma-pages-api
+- description: The Posts API from HouseSigma — 2 operation(s) for posts.
+  name: HouseSigma Posts API
+  slug: housesigma-posts-api
+- description: The Search API from HouseSigma — 1 operation(s) for search.
+  name: HouseSigma Search API
+  slug: housesigma-search-api
+- description: The Taxonomies API from HouseSigma — 4 operation(s) for taxonomies.
+  name: HouseSigma Taxonomies API
+  slug: housesigma-taxonomies-api
+- description: The Types API from HouseSigma — 6 operation(s) for types.
+  name: HouseSigma Types API
+  slug: housesigma-types-api
+- description: The Users API from HouseSigma — 2 operation(s) for users.
+  name: HouseSigma Users API
+  slug: housesigma-users-api
+artifact_total: 19
 collections:
 - collection_type: open
   name: HouseSigma Blog Content API
@@ -192,25 +216,30 @@ modified: '2026-07-26'
 name: HouseSigma
 nav: Providers
 network: true
-overview: 'HouseSigma publishes 1 API on the [APIs.io](https://apis.io/) network: Blog Content API. Tagged areas include Real-Estate, Canada, Property Listings, MLS, and Valuation.
+overview: 'HouseSigma publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Media API, O Embed API, and 6 more. Tagged areas include Real-Estate, Canada, Property Listings, MLS, and Valuation.
 
 
   HouseSigma''s developer surface includes authentication, engineering blog, code examples, support, FAQ, and 25 more developer resources.'
 random_paper: 6
 score:
   band: thin
-  composite: 33.4
-  delta: 0.0
+  composite: 32.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 60.5
     developer_ergonomics: 20.8
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 33.4
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -221,8 +250,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/housesigma/refs/heads/main/screenshots/housesigma-2026-08-07T170335.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -98,6 +98,18 @@ collections:
   name: Upwork REST API
   slug: open-upwork-rest-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/upwork/python-upwork-oauth2/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/upwork/python-upwork-oauth2/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/upwork/python-upwork-oauth2/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -438,7 +450,7 @@ overview: 'Upwork publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
   The Upwork catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Upwork''s developer surface includes authentication, documentation, developer portal, support, and 18 more developer resources.'
+  Upwork''s developer surface includes authentication, documentation, developer portal, support, and 21 more developer resources.'
 plans:
 - name: Upwork Plans Pricing
   plan_count: 3
@@ -477,18 +489,26 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: thin
-  composite: 28.2
+  composite: 32.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 22.5
+    contract_quality: 22.8
     developer_ergonomics: 35.7
     discoverability: 74.1
     governance: 28.8
-    operational_transparency: 10.5
-  previous_composite: 28.2
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 32.3
   provenance:
     agentic_access: derived
     contracts:
@@ -496,8 +516,8 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/screenshots/upwork-2026-06-20T200510.png
 security:

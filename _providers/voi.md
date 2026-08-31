@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: Deep-integration Mobility-as-a-Service API for partners to complete full user journeys inside their own apps - register users, discover vehicles by zone, get per-vehicle pricing, start and end rentals
@@ -191,7 +191,7 @@ modified: '2026-08-08'
 name: Voi
 nav: Providers
 network: true
-overview: 'Voi publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Micromobility, E-Scooters, E-Bikes, Mobility As A Service, and Transportation.
+overview: 'Voi publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Micromobility, E-Scooters, E-Bikes, Mobility-as-a-Service, and Transportation.
 
 
   Voi''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 27 more developer resources.'
@@ -199,6 +199,11 @@ random_paper: 19
 score:
   band: thin
   composite: 29.1
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 31.6
@@ -212,8 +217,8 @@ score:
   previous_composite: 29.1
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voi/refs/heads/main/screenshots/voi-2026-06-20T201128.png
 security:
@@ -230,7 +235,7 @@ tags:
 - Micromobility
 - E-Scooters
 - E-Bikes
-- Mobility As A Service
+- Mobility-as-a-Service
 - Transportation
 - GBFS
 - MDS

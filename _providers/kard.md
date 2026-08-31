@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 59
   slug: kard-agentic-access
   summary_line: 59 operations · 33 acting
-api_count: 16
+api_count: 2
 apis:
 - description: The attributions API from Kard — 1 operation(s) for attributions.
   name: Kard attributions API
@@ -91,7 +91,10 @@ apis:
 - description: The users > WebView API from Kard — 1 operation(s) for users > webview.
   name: Kard users > WebView API
   slug: kard-users-webview-api
-artifact_total: 40
+- description: The API Reference API from Kard — 0 operation(s) for api reference.
+  name: Kard API Reference API
+  slug: kard-api-reference-api
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Kard Notifications Webhooks
@@ -301,7 +304,7 @@ modified: '2026-07-19'
 name: Kard
 nav: Providers
 network: true
-overview: 'Kard publishes 16 APIs on the [APIs.io](https://apis.io/) network, including attributions API, Files API, notifications > Notifications API, and 13 more. Tagged areas include Company, Rewards, Card-Linked Offers, Loyalty, and Fintech.
+overview: 'Kard publishes 17 APIs on the [APIs.io](https://apis.io/) network, including attributions API, Files API, notifications > Notifications API, and 14 more. Tagged areas include Company, Rewards, Card-Linked Offers, Loyalty, and Fintech.
 
 
   The Kard catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -315,19 +318,24 @@ scopes:
   slug: kard-scopes
   summary_line: 13 scopes · clientCredentials
 score:
-  band: strong
-  composite: 55.3
-  delta: 0.0
+  band: developing
+  composite: 52.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 16.7
-    contract_quality: 62.3
+    contract_governance: 4.5
+    contract_quality: 61.4
     developer_ergonomics: 70.8
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 55.3
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -344,8 +352,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 57.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kard/refs/heads/main/screenshots/kard-2026-07-25T223510.png
 security:

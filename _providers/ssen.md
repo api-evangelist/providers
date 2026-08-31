@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 16
   slug: ssen-agentic-access
   summary_line: 16 operations
-api_count: 4
+api_count: 1
 apis:
 - description: The public CKAN 2.10.10 Action API behind the SSEN Distribution Data Portal, serving 45 open datasets covering substations, LV feeder smart meter half-hourly usage, the Embedded Capacity Register, fle
   name: SSEN Distribution Data Portal API
@@ -42,15 +42,22 @@ apis:
 - description: Near real-time power flow data from SSEN Distribution's EHV, HV and LV networks, drawn from SCADA PowerOn, LV monitoring equipment, the load model forecasting tool, the connectivity model and the Long
   name: SSEN NeRDA (Near Real-time Data Access) API
   slug: ssen-nerda-api
-- description: The Opendatasoft Explore API v2.1 served from the SSEN Transmission Open Data Portal, exposing 60 CC BY 4.0 transmission datasets — Electricity Ten Year Statement circuits and fault levels, ground inv
-  name: SSEN Transmission Open Data Explore API
-  slug: ssen-transmission-open-data-explore-api
-artifact_total: 11
+- description: API to enumerate datasets
+  name: Scottish and Southern Electricity Networks Catalog API
+  slug: ssen-catalog-api
+- description: API to work on records
+  name: Scottish and Southern Electricity Networks Dataset API
+  slug: ssen-dataset-api
+artifact_total: 12
 collections:
 - collection_type: open
   name: Explore API
   slug: open-ssen-transmission-opendatasoft-explore-v2
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ssen-transmission-opendatasoft-explore-v2.1-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -204,10 +211,10 @@ modified: '2026-07-27'
 name: Scottish and Southern Electricity Networks
 nav: Providers
 network: true
-overview: 'Scottish and Southern Electricity Networks publishes 1 API on the [APIs.io](https://apis.io/) network: SSEN Transmission Open Data Explore API. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Grid.
+overview: 'Scottish and Southern Electricity Networks publishes 2 APIs on the [APIs.io](https://apis.io/) network: Catalog API and Dataset API. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Grid.
 
 
-  Scottish and Southern Electricity Networks'' developer surface includes authentication, getting-started guide, support, engineering blog, signup flow, documentation, developer portal, and 28 more developer resources.'
+  Scottish and Southern Electricity Networks'' developer surface includes authentication, getting-started guide, support, engineering blog, signup flow, documentation, developer portal, and 29 more developer resources.'
 random_paper: 0
 rate_limits:
 - limit_count: 1
@@ -215,18 +222,23 @@ rate_limits:
   slug: ssen-rate-limits
 score:
   band: developing
-  composite: 52.2
-  delta: 2.8
+  composite: 49.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 53.7
+    contract_governance: 4.5
+    contract_quality: 53.8
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 49.4
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,8 +250,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ssen/refs/heads/main/screenshots/ssen-2026-08-17T082055.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 23
   slug: cloudfront-agentic-access
   summary_line: 23 operations · 11 acting · 2 human-in-the-loop
-api_count: 7
+api_count: 1
 apis:
 - description: The AWS CloudFront REST API exposes operations for managing distributions (CreateDistribution, GetDistribution, UpdateDistribution, DeleteDistribution, ListDistributions), origins, cache policies, inv
   name: AWS CloudFront API (canonical)
@@ -91,6 +91,10 @@ collections:
   name: Amazon CloudFront API
   slug: open-cloudfront
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cloudfront-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -142,19 +146,24 @@ network: true
 overview: 'CloudFront publishes 6 APIs on the [APIs.io](https://apis.io/) network, including CachePolicies API, Distributions API, Functions API, and 3 more. Tagged areas include Alias, CDN, Caching, Content Delivery, and Edge Computing.
 
 
-  CloudFront''s developer surface includes authentication, documentation, pricing, and 7 more developer resources.'
+  CloudFront''s developer surface includes authentication, documentation, pricing, and 8 more developer resources.'
 random_paper: 17
 score:
   band: thin
-  composite: 30.0
-  delta: 0.0
+  composite: 29.4
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 30.0
@@ -165,8 +174,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudfront/refs/heads/main/screenshots/cloudfront-2026-06-20T174603.png
 security:

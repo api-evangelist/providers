@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: spanning-agentic-access
   summary_line: 9 operations · 4 acting
-api_count: 4
+api_count: 1
 apis:
 - description: RESTful API for managing Spanning Backup for Microsoft 365. Region-specific endpoints (US, EU, AP, CA, UK) for user license management and data export operations. Authentication uses API tokens obtain
   name: Spanning Backup for Microsoft 365 API
@@ -74,6 +74,14 @@ collections:
   name: Spanning Backup for Google Workspace Exports Users API
   slug: open-spanning-users-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/SpanningCloudApps/SB365-Powershell/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/SpanningCloudApps/SB365-Powershell/releases
 - group: commercial
   title: ''
   type: License
@@ -149,7 +157,7 @@ overview: 'Spanning publishes 3 APIs on the [APIs.io](https://apis.io/) network:
   The Spanning catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spanning''s developer surface includes authentication, documentation, API reference, GitHub presence, pricing, and 5 more developer resources.'
+  Spanning''s developer surface includes authentication, documentation, API reference, GitHub presence, pricing, and 7 more developer resources.'
 plans:
 - name: Spanning Plans Pricing
   plan_count: 3
@@ -182,18 +190,26 @@ rules:
   slug: spanning-rules
 score:
   band: thin
-  composite: 37.8
-  delta: 1.8
+  composite: 37.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 25.0
     contract_quality: 67.3
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
-    operational_transparency: 13.2
-  previous_composite: 36.0
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -201,8 +217,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spanning/refs/heads/main/screenshots/spanning-2026-06-20T194245.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 2
@@ -408,7 +408,12 @@ rules:
 score:
   band: developing
   composite: 47.4
-  delta: 4.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -418,7 +423,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 43.2
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     contracts:
@@ -426,8 +431,8 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-fault-injection-simulator/refs/heads/main/screenshots/amazon-fault-injection-simulator-2026-06-20T171648.png
 security:

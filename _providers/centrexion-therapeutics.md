@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
-api_count: 10
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Comment collection — one item, the default WordPress sample comment on the placeholder post.
   name: Centrexion Therapeutics Comments API
@@ -185,25 +185,30 @@ modified: '2026-08-09'
 name: Centrexion Therapeutics
 nav: Providers
 network: true
-overview: 'Centrexion Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Custom Types API, Discovery API, and 7 more. Tagged areas include Company, Biopharmaceutical, Pharmaceuticals, Chronic Pain, and non-opioid-analgesics.
+overview: 'Centrexion Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Custom Types API, Discovery API, and 7 more. Tagged areas include Company, biopharmaceutical, pharmaceuticals, chronic-pain, and non-opioid-analgesics.
 
 
   Centrexion Therapeutics'' developer surface includes authentication and 20 more developer resources.'
 random_paper: 14
 score:
-  band: developing
-  composite: 39.4
-  delta: 0.0
+  band: thin
+  composite: 37.4
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 52.7
     developer_ergonomics: 13.7
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 39.4
+  previous_composite: 37.9
   provenance:
     conformance: derived
     contracts:
@@ -218,8 +223,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -233,14 +238,14 @@ security:
 slug: centrexion-therapeutics
 tags:
 - Company
-- Biopharmaceutical
-- Pharmaceuticals
-- Chronic Pain
+- biopharmaceutical
+- pharmaceuticals
+- chronic-pain
 - non-opioid-analgesics
-- Immunology
+- immunology
 - inflammation
-- Clinical Trials
-- Life Sciences
+- clinical-trials
+- life-sciences
 - content-api
 website: https://centrexion.com/
 ---

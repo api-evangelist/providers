@@ -33,15 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-26'
-api_count: 8
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Open, unauthenticated JSON API (v2) over UCSF Profiles, the research-networking platform run by UCSF CTSI, covering 8,000+ UCSF researchers, faculty and postdocs — name, school, department, titles, OR
-  name: UCSF Profiles JSON API
-  slug: profiles-json
-- description: Public, unauthenticated Apache Solr query interface over the UCSF Industry Documents Library, an archive of 28,298,987 internal documents from the tobacco, drug, chemical, food, fossil fuel and opioid
-  name: UCSF Industry Documents Library Solr API
-  slug: industry-documents-solr
 - description: UCSF's Shibboleth SAML 2.0 identity provider, registered in the InCommon Federation and re-exported to eduGAIN. Signed, versioned, publicly retrievable federation metadata describing SingleSignOnServi
   name: UCSF Identity Provider (Shibboleth / InCommon)
   slug: incommon-idp
@@ -60,6 +54,12 @@ apis:
 - description: 'The 2026–27 UCSF course catalog, published through Leepfrog''s CourseLeaf. No public course, timetable or registrar API exists — the CourseLeaf JSON endpoints that some institutions leave open are not '
   name: UCSF Course Catalog (CourseLeaf)
   slug: course-catalog
+- description: Query the IDL document corpus by identifier or by Solr query syntax.
+  name: University of California, San Francisco Documents API
+  slug: ucsf-documents-api
+- description: Look up a UCSF person's public research profile.
+  name: University of California, San Francisco Profiles API
+  slug: ucsf-profiles-api
 artifact_total: 22
 common:
 - group: company
@@ -245,7 +245,7 @@ modified: '2026-08-19'
 name: University of California, San Francisco
 nav: Providers
 network: true
-overview: 'University of California, San Francisco publishes 2 APIs on the [APIs.io](https://apis.io/) network: UCSF Profiles JSON API and UCSF Industry Documents Library Solr API. Tagged areas include University, Higher Education, Education, United States, and California.
+overview: 'University of California, San Francisco publishes 2 APIs on the [APIs.io](https://apis.io/) network: Documents API and Profiles API. Tagged areas include University, Higher Education, Education, United States, and California.
 
 
   The University of California, San Francisco catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -279,18 +279,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.0
-  delta: 0.0
+  composite: 41.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 44.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 3.8
-    contract_quality: 25.3
+    contract_quality: 28.1
     developer_ergonomics: 45.2
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 3.8
     operational_transparency: 23.7
-  previous_composite: 41.0
+  previous_composite: 41.7
   provenance:
     conformance: first-party
     contracts:
@@ -304,8 +309,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

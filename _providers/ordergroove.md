@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 25
   slug: ordergroove-agentic-access
   summary_line: 25 operations · 12 acting
-api_count: 7
+api_count: 1
 apis:
 - description: 'A GraphQL surface over Ordergroove subscription and order data, announced in Early Access and positioned for AI agents to explore the schema and fetch exactly the fields they need. The public schema, '
   name: Ordergroove GraphQL API (Early Access)
@@ -92,6 +92,10 @@ collections:
   name: Ordergroove REST API
   slug: open-ordergroove
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ordergroove-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -163,7 +167,7 @@ network: true
 overview: 'Ordergroove publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Items API, Offers API, and 3 more. Tagged areas include Subscription, Recurring Commerce, Relationship Commerce, E-Commerce, and Autoship.
 
 
-  Ordergroove''s developer surface includes authentication, documentation, signup flow, engineering blog, and 10 more developer resources.'
+  Ordergroove''s developer surface includes authentication, documentation, signup flow, engineering blog, and 11 more developer resources.'
 plans:
 - name: Ordergroove Plans Pricing
   plan_count: 2
@@ -175,18 +179,23 @@ rate_limits:
   slug: ordergroove-rate-limits
 score:
   band: thin
-  composite: 36.9
-  delta: 1.6
+  composite: 36.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 27.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 35.3
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     contracts:
@@ -194,8 +203,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordergroove/refs/heads/main/screenshots/ordergroove-2026-08-07T190929.png
 security:
@@ -222,7 +231,7 @@ tags:
 - Relationship Commerce
 - E-Commerce
 - Autoship
-- Direct to Consumer
+- DTC
 - Retail
 - Subscription Management
 website: https://www.ordergroove.com

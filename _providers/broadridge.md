@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: broadridge-agentic-access
   summary_line: 6 operations
-api_count: 7
+api_count: 1
 apis:
 - description: The Broadridge Galaxia Fund Data API enables access to and distribution of global fund data for regulatory reporting and investor communications. APIs provide fund data dissemination for UCITS, PRIIPS
   name: Broadridge Fund Data Distribution (Galaxia) API
@@ -86,6 +86,10 @@ collections:
   name: Broadridge Wealth Management API
   slug: open-broadridge-wealth
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/broadridge-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -175,7 +179,7 @@ overview: 'broadridge publishes 4 APIs on the [APIs.io](https://apis.io/) networ
   The broadridge catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  broadridge''s developer surface includes authentication, developer portal, support, documentation, and 11 more developer resources.'
+  broadridge''s developer surface includes authentication, developer portal, support, documentation, and 12 more developer resources.'
 plans:
 - name: Broadridge Plans Pricing
   plan_count: 1
@@ -218,16 +222,21 @@ scopes:
   slug: broadridge-scopes
   summary_line: 3 scopes · clientCredentials
 score:
-  band: developing
-  composite: 39.5
-  delta: 3.9
+  band: thin
+  composite: 38.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 71.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 9.8
     contract_quality: 55.6
     developer_ergonomics: 54.8
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 7.9
   needs_work:
@@ -236,7 +245,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 35.6
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -244,8 +253,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/screenshots/broadridge-2026-06-20T173715.png
 security:

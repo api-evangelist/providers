@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 598
   human_in_the_loop: 291
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 979
   slug: eventscom-agentic-access
   summary_line: 979 operations · 598 acting · 291 human-in-the-loop
-api_count: 113
+api_count: 6
 apis:
 - description: Hosted Model Context Protocol server for the DataGol workbook surface, reachable at the /mcp, /sse and /messages transport paths. Connections are gated on workspace_id, workbook_id and token query par
   name: DataGol MCP Server
@@ -729,6 +729,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/eventscom-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/eventscom-datagol-ai-overlay.yaml
 - group: company
@@ -835,28 +839,33 @@ modified: '2026-08-04'
 name: Events.com
 nav: Providers
 network: true
-overview: 'Events.com publishes 112 APIs on the [APIs.io](https://apis.io/) network, including Agent Config Controller API, Agent Config Migration Controller API, Agent Email Controller API, and 109 more. Tagged areas include Event Management, Ticketing, Event Registration, Event Marketing, and Sponsorship.
+overview: 'Events.com publishes 112 APIs on the [APIs.io](https://apis.io/) network, including Agent Config Controller API, Agent Config Migration Controller API, Agent Email Controller API, and 109 more. Tagged areas include event-management, Ticketing, event-registration, event-marketing, and sponsorship.
 
 
   The Events.com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Events.com''s developer surface includes API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
+  Events.com''s developer surface includes API reference, support, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
 random_paper: 14
 score:
-  band: developing
-  composite: 39.6
-  delta: 0.4
+  band: thin
+  composite: 35.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.3
   facets:
-    access_clarity: 44.7
-    commercial_clarity: 44.7
-    contract_governance: 16.7
+    access_clarity: 38.2
+    commercial_clarity: 38.2
+    contract_governance: 4.5
     contract_quality: 59.2
     developer_ergonomics: 28.0
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 57.4
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 39.2
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -867,8 +876,8 @@ score:
       total: 115
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventscom/refs/heads/main/screenshots/eventscom-2026-08-07T165031.png
 security:
@@ -882,17 +891,17 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: eventscom
 tags:
-- Event Management
+- event-management
 - Ticketing
-- Event Registration
-- Event Marketing
-- Sponsorship
-- Event Discovery
-- Data Platform
-- Business Intelligence
-- Artificial Intelligence
+- event-registration
+- event-marketing
+- sponsorship
+- event-discovery
+- data-platform
+- business-intelligence
+- artificial-intelligence
 - MCP
 - agent-native
-- No-Code
+- no-code
 website: https://events.com/
 ---

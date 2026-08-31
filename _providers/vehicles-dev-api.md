@@ -23,21 +23,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-08-26'
-api_count: 10
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The Admin API from Vehicles.dev — 4 operation(s) for admin.
-  name: Vehicles.dev Admin API
-  slug: vehicles-dev-api-admin-api
-- description: The Billing API from Vehicles.dev — 14 operation(s) for billing.
-  name: Vehicles.dev Billing API
-  slug: vehicles-dev-api-billing-api
 - description: The Control API from Vehicles.dev — 23 operation(s) for control.
   name: Vehicles.dev Control API
   slug: vehicles-dev-api-control-api
-- description: The Data API from Vehicles.dev — 12 operation(s) for data.
-  name: Vehicles.dev Data API
-  slug: vehicles-dev-api-data-api
 - description: The Employment API from Vehicles.dev — 2 operation(s) for employment.
   name: Vehicles.dev Employment API
   slug: vehicles-dev-api-employment-api
@@ -47,17 +38,34 @@ apis:
 - description: The Operator API from Vehicles.dev — 11 operation(s) for operator.
   name: Vehicles.dev Operator API
   slug: vehicles-dev-api-operator-api
-- description: The Reports API from Vehicles.dev — 8 operation(s) for reports.
-  name: Vehicles.dev Reports API
-  slug: vehicles-dev-api-reports-api
 - description: The Vehicles API from Vehicles.dev — 14 operation(s) for vehicles.
   name: Vehicles.dev Vehicles API
   slug: vehicles-dev-api-vehicles-api
 - description: The Webhooks API from Vehicles.dev — 1 operation(s) for webhooks.
   name: Vehicles.dev Webhooks API
   slug: vehicles-dev-api-webhooks-api
-artifact_total: 15
+artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vehicles-dev-api-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vehicles-dev-api-admin-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vehicles-dev-api-billing-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vehicles-dev-api-data-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vehicles-dev-api-reports-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -169,10 +177,10 @@ modified: '2026-08-16'
 name: Vehicles.dev
 nav: Providers
 network: true
-overview: 'Vehicles.dev publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Billing API, Control API, and 7 more. Tagged areas include Automotive, Vehicle Data, VIN Decoding, Vehicle Valuation, and Market Value.
+overview: 'Vehicles.dev publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Control API, Employment API, Operations API, and 3 more. Tagged areas include Automotive, Vehicle Data, VIN Decoding, Vehicle Valuation, and Market Value.
 
 
-  Vehicles.dev''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 18 more developer resources.'
+  Vehicles.dev''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 23 more developer resources.'
 plans:
 - name: Vehicles Dev Api Plans Pricing
   plan_count: 3
@@ -184,18 +192,23 @@ rate_limits:
   slug: vehicles-dev-api-rate-limits
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 43.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.6
   facets:
-    access_clarity: 55.3
-    commercial_clarity: 55.3
-    contract_governance: 16.7
-    contract_quality: 46.8
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 4.5
+    contract_quality: 46.0
     developer_ergonomics: 56.5
-    discoverability: 70.4
-    governance: 16.7
+    discoverability: 64.8
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 47.2
+  previous_composite: 45.5
   provenance:
     conformance: derived
     contracts:
@@ -205,8 +218,8 @@ score:
       total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vehicles-dev-api/refs/heads/main/screenshots/vehicles-dev-api-2026-08-17T082722.png
 security:

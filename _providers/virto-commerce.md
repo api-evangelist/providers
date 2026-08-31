@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 283
   human_in_the_loop: 9
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 426
   slug: virto-commerce-agentic-access
   summary_line: 426 operations · 283 acting · 9 human-in-the-loop
-api_count: 13
+api_count: 14
 apis:
 - description: Easily manage your products, categories, variations, and properties
   name: Virto Commerce Catalog API
@@ -77,12 +77,12 @@ apis:
 - description: Register HTTP webhooks against the platform domain-event catalog, compose the payload from selected entity properties (including previous values), fire test deliveries, and audit every delivery attemp
   name: Virto Commerce Webhooks API
   slug: virto-commerce-webhooks-api
-- description: Forward platform domain events to an external message queue as CloudEvents. Manage provider connections (Azure Event Grid built in), subscriptions with JsonPath filtering and Liquid payload transforma
-  name: Virto Commerce Event Bus API
-  slug: virto-commerce-event-bus-api
 - description: 'Return management: search returns, read a return by id, create or update a return against an order, and read the quantities still available to return.'
   name: Virto Commerce Returns API
   slug: virto-commerce-returns-api
+- description: The module enables you to be notified of new messages or changes via a Message Queue of your choice
+  name: Virto Commerce Event Bus module API
+  slug: virto-commerce-event-bus-module-api
 artifact_total: 35
 asyncapis:
 - description: ''
@@ -123,6 +123,22 @@ collections:
   name: VirtoCommerce.Cart Catalog VirtoCommerce Platform API
   slug: open-virto-commerce-virtocommerce-platform-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/virto-commerce-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/VirtoCommerce/vc-module-catalog/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/VirtoCommerce/vc-module-catalog/releases
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/virto-commerce-event-bus-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -320,13 +336,13 @@ modified: '2026-08-13'
 name: Virto Commerce
 nav: Providers
 network: true
-overview: 'Virto Commerce publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Companies and Contacts API, Inventory API, and 10 more. Tagged areas include B2B E-Commerce, Catalog Management, Order Management, Pricing, and Inventory.
+overview: 'Virto Commerce publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Companies and Contacts API, Inventory API, and 10 more. Tagged areas include B2B eCommerce, Catalog Management, Order Management, Pricing, and Inventory.
 
 
   The Virto Commerce catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Virto Commerce''s developer surface includes authentication, documentation, engineering blog, pricing, support, changelog, CLI, and 36 more developer resources.'
+  Virto Commerce''s developer surface includes authentication, documentation, engineering blog, pricing, support, changelog, CLI, and 40 more developer resources.'
 plans:
 - name: Virto Commerce Plans Pricing
   plan_count: 3
@@ -342,19 +358,27 @@ scopes:
   slug: virto-commerce-scopes
   summary_line: 84 scopes · password/clientCredentials
 score:
-  band: exemplar
-  composite: 70.3
-  delta: 1.2
+  band: strong
+  composite: 64.9
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 40.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 58.6
     developer_ergonomics: 80.4
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 69.1
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 64.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -371,8 +395,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/virto-commerce/refs/heads/main/screenshots/virto-commerce-2026-06-20T201036.png
 security:
@@ -386,7 +410,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: virto-commerce
 tags:
-- B2B E-Commerce
+- B2B eCommerce
 - Catalog Management
 - Order Management
 - Pricing

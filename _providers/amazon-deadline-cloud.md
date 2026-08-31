@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: amazon-deadline-cloud-agentic-access
   summary_line: 16 operations · 8 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Operations for managing render farms
   name: Amazon Deadline Cloud Farms API
@@ -98,6 +98,10 @@ collections:
   name: Amazon Deadline Cloud API
   slug: open-amazon-deadline-cloud
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-deadline-cloud-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -358,7 +362,7 @@ overview: 'Amazon Deadline Cloud publishes 5 APIs on the [APIs.io](https://apis.
   The Amazon Deadline Cloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Deadline Cloud''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 12 more developer resources.'
+  Amazon Deadline Cloud''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Deadline Cloud Plans Pricing
   plan_count: 3
@@ -392,18 +396,23 @@ rules:
   slug: amazon-deadline-cloud-spectral-rules
 score:
   band: developing
-  composite: 49.8
-  delta: 3.1
+  composite: 49.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 28.8
     contract_quality: 63.8
     developer_ergonomics: 40.5
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 46.7
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     contracts:
@@ -411,8 +420,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-deadline-cloud/refs/heads/main/screenshots/amazon-deadline-cloud-2026-06-20T171619.png
 security:

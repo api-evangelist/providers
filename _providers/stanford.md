@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-26'
-api_count: 15
+  scored_at: '2026-08-30'
+api_count: 5
 apis:
 - description: Persistent URLs into the Stanford Digital Repository. GET /{druid} returns HTML, /{druid}.xml returns the cocina publicObject document, /{druid}.mods returns MODS 3.7. Open, no credential. Verified li
   name: Stanford Libraries PURL API
@@ -52,21 +52,6 @@ apis:
 - description: oEmbed-style service returning an embeddable viewer for a Stanford Digital Repository object. Documentation verified live 2026-08-19.
   name: Stanford Libraries Embed API
   slug: library-embed
-- description: Stanford Digital Repository deposit API. First-party OpenAPI 3.0.0 published by SUL-DLSS under Apache 2.0; 7 paths, 8 operations, bearer auth. Servers are sdr-api-{env}.stanford.edu — the production h
-  name: SDR API
-  slug: sdr-api
-- description: 'The backend API for the Stanford Digital Repository, and the largest contract Stanford publishes — OpenAPI 3.1.2, 40 paths, 53 operations, Apache 2.0, bearer auth. Validates writes against Stanford''s '
-  name: DOR Services API
-  slug: dor-services-api
-- description: Tracks the preservation state of Stanford Digital Repository objects (moab layout). First-party OpenAPI 3.0.0, Apache 2.0, 7 paths, 8 operations, bearer auth. Servers are preservation-catalog-{env}-01
-  name: Preservation Catalog HTTP API
-  slug: preservation-catalog-api
-- description: Technical (format, characterization) metadata for Stanford Digital Repository files. First-party OpenAPI 3.0.0, Apache 2.0, 3 paths, 3 operations, 14 component schemas. Declares no security scheme; se
-  name: Technical Metadata API
-  slug: technical-metadata-api
-- description: Stanford Uniform Resource Identifier service — mints the druids every other SDR surface keys on. First-party OpenAPI 3.0.0, Apache 2.0, 3 paths, 4 operations, and an in-contract `legacy` tag alongside
-  name: SURI API
-  slug: suri-api
 - description: The Registrar's course catalog, queryable as XML by appending view=xml-20140630 to a search. Open, no credential, and the largest genuinely public dataset Stanford serves — a single department query r
   name: ExploreCourses course-data XML query interface
   slug: explorecourses
@@ -82,7 +67,55 @@ apis:
 - description: API over the Community Academic Profiles directory (18,000+ faculty, students, postdocs and staff). The interactive console at cap.stanford.edu/cap-api/console redirects to authentication; credentials
   name: CAP / Stanford Profiles API
   slug: cap-profiles
-artifact_total: 32
+- description: The About API from Stanford University — 1 operation(s) for about.
+  name: Stanford University About API
+  slug: stanford-about-api
+- description: Authenticate the user
+  name: Stanford University Authentication API
+  slug: stanford-authentication-api
+- description: Add and update Moabs in the catalog
+  name: Stanford University Catalog API
+  slug: stanford-catalog-api
+- description: Operations about events
+  name: Stanford University Events API
+  slug: stanford-events-api
+- description: upload binary files
+  name: Stanford University Files API
+  slug: stanford-files-api
+- description: Identifier operations
+  name: Stanford University Identifiers API
+  slug: stanford-identifiers-api
+- description: Integrations with other Systems
+  name: Stanford University Integrations API
+  slug: stanford-integrations-api
+- description: Operations involving background jobs
+  name: Stanford University Jobs API
+  slug: stanford-jobs-api
+- description: Legacy endpoints
+  name: Stanford University Legacy API
+  slug: stanford-legacy-api
+- description: Digital Repository Objects
+  name: Stanford University Metadata API
+  slug: stanford-metadata-api
+- description: Digital Repository Objects
+  name: Stanford University Objects API
+  slug: stanford-objects-api
+- description: Operations about release tags
+  name: Stanford University Release Tags API
+  slug: stanford-release-tags-api
+- description: Tags
+  name: Stanford University Tags API
+  slug: stanford-tags-api
+- description: Operations about object versions
+  name: Stanford University Versions API
+  slug: stanford-versions-api
+- description: Operations about workflows
+  name: Stanford University Workflows API
+  slug: stanford-workflows-api
+- description: Operations about workspaces
+  name: Stanford University Workspaces API
+  slug: stanford-workspaces-api
+artifact_total: 43
 common:
 - group: company
   title: ''
@@ -272,7 +305,7 @@ modified: '2026-08-19'
 name: Stanford University
 nav: Providers
 network: true
-overview: 'Stanford University publishes 5 APIs on the [APIs.io](https://apis.io/) network, including SDR API, DOR Services API, Preservation Catalog HTTP API, and 2 more. Tagged areas include University, Higher Education, Education, Research, and United States.
+overview: 'Stanford University publishes 16 APIs on the [APIs.io](https://apis.io/) network, including About API, Authentication API, Catalog API, and 13 more. Tagged areas include University, Higher Education, Education, Research, and United States.
 
 
   The Stanford University catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -306,18 +339,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 55.5
-  delta: 5.0
+  composite: 56.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 44.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 3.8
-    contract_quality: 58.2
+    contract_quality: 65.8
     developer_ergonomics: 48.8
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 3.8
     operational_transparency: 23.7
-  previous_composite: 50.5
+  previous_composite: 56.9
   provenance:
     conformance: first-party
     contracts:
@@ -331,9 +369,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 74.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/screenshots/stanford-2026-06-20T194502.png
 security:
 - kind: authentication

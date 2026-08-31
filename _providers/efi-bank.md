@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 34
   slug: efi-bank-agentic-access
   summary_line: 34 operations · 22 acting
-api_count: 7
+api_count: 1
 apis:
 - description: OAuth2 client-credentials token endpoints (per host).
   name: Efí Authorization API
@@ -95,6 +95,10 @@ collections:
   name: Efí (formerly Gerencianet) Payments API
   slug: open-efi-bank
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/efi-bank-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -146,7 +150,7 @@ network: true
 overview: 'Efí publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Carnê API, Cobranças API, and 4 more. Tagged areas include Payments, Pix, Boleto, Banking, and Brazil.
 
 
-  Efí''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  Efí''s developer surface includes authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Efi Bank Plans Pricing
   plan_count: 4
@@ -158,18 +162,23 @@ rate_limits:
   slug: efi-bank-rate-limits
 score:
   band: thin
-  composite: 37.0
-  delta: 1.5
+  composite: 36.4
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 56.9
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 35.5
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -183,8 +192,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/screenshots/efi-bank-2026-07-25T212946.png
 security:

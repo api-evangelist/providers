@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 41
   slug: deezer-agentic-access
   summary_line: 41 operations · 3 acting
-api_count: 12
+api_count: 1
 apis:
 - description: Public REST API covering /track, /album, /artist, /playlist, /chart, /search, /genre, /radio, /user, and /editorial. Public endpoints (catalog, search) are unauthenticated and return JSON; user-scoped
   name: Deezer API
@@ -122,6 +122,10 @@ collections:
   name: Deezer Public API
   slug: open-deezer
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/deezer-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -189,7 +193,7 @@ network: true
 overview: 'Deezer publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Album API, Artist API, Chart API, and 8 more. Tagged areas include Music, Streaming, Audio, Authentication, and Catalog.
 
 
-  Deezer''s developer surface includes authentication and 11 more developer resources.'
+  Deezer''s developer surface includes authentication and 12 more developer resources.'
 plans:
 - name: Deezer Plans Pricing
   plan_count: 2
@@ -206,18 +210,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: thin
-  composite: 31.1
-  delta: 3.3
+  composite: 30.6
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 49.7
     developer_ergonomics: 38.1
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 27.8
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     contracts:
@@ -225,8 +234,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/screenshots/deezer-2026-06-20T175819.png
 security:

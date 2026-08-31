@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 7
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 256
   slug: fastly-agentic-access
   summary_line: 256 operations · 130 acting · 7 human-in-the-loop
-api_count: 80
+api_count: 22
 apis:
 - description: Operations for managing ACL containers within a service version.
   name: Fastly ACL API
@@ -724,6 +724,10 @@ collections:
   name: Fastly Account ACL Websites API
   slug: open-fastly-websites-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fastly-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1299,7 +1303,7 @@ overview: 'Fastly publishes 80 APIs on the [APIs.io](https://apis.io/) network, 
   The Fastly catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Fastly''s developer surface includes authentication, API reference, documentation, pricing, engineering blog, support, signup flow, and 68 more developer resources.'
+  Fastly''s developer surface includes authentication, API reference, documentation, pricing, engineering blog, support, signup flow, and 69 more developer resources.'
 plans:
 - name: Fastly Plans Pricing
   plan_count: 12
@@ -1344,18 +1348,23 @@ rules:
   slug: fastly-rules
 score:
   band: strong
-  composite: 60.8
+  composite: 60.6
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 28.8
-    contract_quality: 79.8
+    contract_quality: 79.1
     developer_ergonomics: 73.8
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 60.8
+  previous_composite: 60.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1363,8 +1372,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 81
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastly/refs/heads/main/screenshots/fastly-2026-06-20T181052.png
 security:

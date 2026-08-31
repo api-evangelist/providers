@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 351
   slug: deribit-agentic-access
   summary_line: 351 operations
-api_count: 19
+api_count: 3
 apis:
 - description: JSON-RPC over WebSocket interface for real-time bidirectional communication with the Deribit exchange. Recommended for most use cases, supporting real-time market data subscriptions, trading operation
   name: Deribit WebSocket API
@@ -65,24 +65,12 @@ apis:
 - description: The Combo Books API from Deribit — 5 operation(s) for combo books.
   name: Deribit Combo Books API
   slug: deribit-combo-books-api
-- description: The Mark Price API from Deribit — 1 operation(s) for mark price.
-  name: Deribit Mark Price API
-  slug: deribit-mark-price-api
 - description: The Market Data API from Deribit — 31 operation(s) for market data.
   name: Deribit Market Data API
   slug: deribit-market-data-api
-- description: The Matching Engine API from Deribit — 23 operation(s) for matching engine.
-  name: Deribit Matching Engine API
-  slug: deribit-matching-engine-api
 - description: Endpoints that operate on the authenticated portfolio.
   name: Deribit Portfolio Management API
   slug: deribit-portfolio-management-api
-- description: <p>Private methods require authentication. All requests must include a valid OAuth2 token.</p> <p>A token can be requested using the <a href="#public-auth">/public/auth</a> method.</p> <p>When using t
-  name: Deribit Private API
-  slug: deribit-private-api
-- description: Public methods can be used without authentication.
-  name: Deribit Public API
-  slug: deribit-public-api
 - description: The Session Management API from Deribit — 5 operation(s) for session management.
   name: Deribit Session Management API
   slug: deribit-session-management-api
@@ -98,10 +86,7 @@ apis:
 - description: The Wallet API from Deribit — 21 operation(s) for wallet.
   name: Deribit Wallet API
   slug: deribit-wallet-api
-- description: Can only be used over websockets.
-  name: Deribit WebSocket Only API
-  slug: deribit-websocket-only-api
-artifact_total: 612
+artifact_total: 607
 collections:
 - collection_type: open
   name: API Collection
@@ -1946,7 +1931,7 @@ modified: '2026-06-13'
 name: Deribit
 nav: Providers
 network: true
-overview: 'Deribit publishes 18 APIs on the [APIs.io](https://apis.io/) network, including WebSocket API, Account Management API, Authentication API, and 15 more. Tagged areas include Derivatives, Cryptocurrency, Bitcoin, Ethereum, and Options.
+overview: 'Deribit publishes 13 APIs on the [APIs.io](https://apis.io/) network, including WebSocket API, Account Management API, Authentication API, and 10 more. Tagged areas include Derivatives, Cryptocurrency, Bitcoin, Ethereum, and Options.
 
 
   The Deribit catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -1975,18 +1960,23 @@ rules:
   slug: deribit-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.5
-  delta: 1.9
+  composite: 46.7
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 9.8
-    contract_quality: 57.2
+    contract_quality: 58.1
     developer_ergonomics: 45.2
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 44.6
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -2000,8 +1990,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/screenshots/deribit-2026-06-20T175930.png
 security:

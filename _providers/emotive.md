@@ -34,39 +34,159 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-26'
-api_count: 8
+  scored_at: '2026-08-30'
+api_count: 18
 apis:
-- description: The public Emotive Open API for eCommerce integrations — track orders for attribution, opt a phone number out of SMS, and push custom events that can trigger an Emotive Flow. Authenticated with an Emo
-  name: Emotive Open API
-  slug: emotive-open-api
-- description: List Growth API for opting customers in to SMS and email from an external system. Returns the active signup flows (subscriber lists) a subscriber can be added to.
-  name: Emotive Lists API (Subscriber Engine)
-  slug: emotive-lists-api-subscriber-engine
-- description: Inbound webhook receiver on the Emotive API gateway — create subscribers singly and in bulk, set profile properties, and receive Shopify, Twilio and Alloy callbacks. This is the API behind the documen
-  name: Emotive Sensus Webhooks API
-  slug: emotive-sensus-webhooks-api
-- description: Connect a custom helpdesk to Emotive — register a ticket-system connection, mint a brand token, configure webhooks for ticket creation and updates, and post ticket events back to Emotive. Emotive's kn
-  name: Emotive Helpdesk API
-  slug: emotive-helpdesk-api
-- description: Emotive's authentication and tenancy service — OAuth token issuance, Auth0, Google and Shopify login legs, JWT claims, brand and user management, roles, invitations, products and the Zapier app key ch
-  name: Emotive Auth Server API
-  slug: emotive-auth-server-api
-- description: Create, retrieve, update and archive audience segments used to target SMS broadcasts and flows.
-  name: Emotive Segments API
-  slug: emotive-segments-api
-- description: Read campaign and campaign-step analytics for an Emotive Experience (Flow).
-  name: Emotive Experiences API
-  slug: emotive-experiences-api
 - description: 'Anonymous remote MCP server published by Emotive''s Mintlify knowledge base. Three tools — documentation search, a read-only virtual filesystem over the docs, and documentation feedback. Verified live '
   name: Emotive Knowledge Base MCP Server
   slug: emotive-knowledge-base-mcp-server
-artifact_total: 14
+- description: The Admin API from Emotive — 1 operation(s) for admin.
+  name: Emotive Admin API
+  slug: emotive-admin-api
+- description: The Auth0 API from Emotive — 5 operation(s) for auth0.
+  name: Emotive Auth0 API
+  slug: emotive-auth0-api
+- description: The Authentication Source API API from Emotive — 2 operation(s) for authentication source api.
+  name: Emotive Authentication Source API
+  slug: emotive-authentication-source-api-api
+- description: The Brand API from Emotive — 1 operation(s) for brand.
+  name: Emotive Brand API
+  slug: emotive-brand-api
+- description: The Brands API from Emotive — 9 operation(s) for brands.
+  name: Emotive Brands API
+  slug: emotive-brands-api
+- description: The Bulk Subscriber API from Emotive — 1 operation(s) for bulk subscriber.
+  name: Emotive Bulk Subscriber API
+  slug: emotive-bulk-subscriber-api
+- description: The Connections API from Emotive — 4 operation(s) for connections.
+  name: Emotive Connections API
+  slug: emotive-connections-api
+- description: Push arbitrary customer events that can trigger an Emotive Flow.
+  name: Emotive Custom Events API
+  slug: emotive-custom-events-api
+- description: The Experience API from Emotive — 2 operation(s) for experience.
+  name: Emotive Experience API
+  slug: emotive-experience-api
+- description: The Google API from Emotive — 6 operation(s) for google.
+  name: Emotive Google API
+  slug: emotive-google-api
+- description: The Impersonate API from Emotive — 2 operation(s) for impersonate.
+  name: Emotive Impersonate API
+  slug: emotive-impersonate-api
+- description: The Jwt API from Emotive — 1 operation(s) for jwt.
+  name: Emotive JWT API
+  slug: emotive-jwt-api
+- description: The Logout API from Emotive — 2 operation(s) for logout.
+  name: Emotive Logout API
+  slug: emotive-logout-api
+- description: The Messaging API from Emotive — 1 operation(s) for messaging.
+  name: Emotive Messaging API
+  slug: emotive-messaging-api
+- description: The Oauth API from Emotive — 2 operation(s) for oauth.
+  name: Emotive OAUTH API
+  slug: emotive-oauth-api
+- description: Manual unsubscribe of a phone number.
+  name: Emotive Opt Outs API
+  slug: emotive-opt-outs-api
+- description: Order tracking for custom eCommerce sites.
+  name: Emotive Orders API
+  slug: emotive-orders-api
+- description: The Password API from Emotive — 2 operation(s) for password.
+  name: Emotive Password API
+  slug: emotive-password-api
+- description: The Product API API from Emotive — 2 operation(s) for product api.
+  name: Emotive Product API
+  slug: emotive-product-api-api
+- description: The Profile Properties API from Emotive — 2 operation(s) for profile properties.
+  name: Emotive Profile Properties API
+  slug: emotive-profile-properties-api
+- description: The QA API from Emotive — 1 operation(s) for qa.
+  name: Emotive QA API
+  slug: emotive-qa-api
+- description: The Search API from Emotive — 2 operation(s) for search.
+  name: Emotive Search API
+  slug: emotive-search-api
+- description: The Segment Filter API from Emotive — 1 operation(s) for segment filter.
+  name: Emotive Segment Filter API
+  slug: emotive-segment-filter-api
+- description: The Sensus Webhooks API from Emotive — 1 operation(s) for sensus webhooks.
+  name: Emotive Sensus Webhooks API
+  slug: emotive-sensus-webhooks-api
+- description: The Shopify API from Emotive — 5 operation(s) for shopify.
+  name: Emotive Shopify API
+  slug: emotive-shopify-api
+- description: The Single Segment API from Emotive — 2 operation(s) for single segment.
+  name: Emotive Single Segment API
+  slug: emotive-single-segment-api
+- description: The Subscriber API from Emotive — 1 operation(s) for subscriber.
+  name: Emotive Subscriber API
+  slug: emotive-subscriber-api
+- description: The subscriber_engine Subscriber API from Emotive — 1 operation(s) for subscriber_engine subscriber.
+  name: Emotive subscriber_engine Subscriber API
+  slug: emotive-subscriber-engine-subscriber-api
+- description: The Sync API from Emotive — 1 operation(s) for sync.
+  name: Emotive Sync API
+  slug: emotive-sync-api
+- description: The Ticket Systems API from Emotive — 2 operation(s) for ticket systems.
+  name: Emotive Ticket Systems API
+  slug: emotive-ticket-systems-api
+- description: The Tickets API from Emotive — 6 operation(s) for tickets.
+  name: Emotive Tickets API
+  slug: emotive-tickets-api
+- description: The Token API from Emotive — 1 operation(s) for token.
+  name: Emotive Token API
+  slug: emotive-token-api
+- description: The User API API from Emotive — 3 operation(s) for user api.
+  name: Emotive User API
+  slug: emotive-user-api-api
+- description: The Webhooks API from Emotive — 2 operation(s) for webhooks.
+  name: Emotive Webhooks API
+  slug: emotive-webhooks-api
+- description: The Zapier Me API API from Emotive — 1 operation(s) for zapier me api.
+  name: Emotive Zapier Me API
+  slug: emotive-zapier-me-api-api
+artifact_total: 42
 asyncapis:
 - description: ''
   name: Emotive Webhooks
   slug: emotive-webhooks
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/privy/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/emotive-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emotive-open-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emotive-subscriber-engine-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emotive-sensus-webhook-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emotive-helpdesk-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emotive-auth-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emotive-segments-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emotive-experiences-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -176,13 +296,13 @@ modified: '2026-08-13'
 name: Emotive
 nav: Providers
 network: true
-overview: 'Emotive publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Open API, Lists API (Subscriber Engine), Sensus Webhooks API, and 4 more. Tagged areas include Company, Marketing, SMS, Messaging, and E-Commerce.
+overview: 'Emotive publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Auth0 API, Authentication Source API, and 32 more. Tagged areas include Company, Marketing, SMS, Messaging, and E-Commerce.
 
 
   The Emotive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Emotive''s developer surface includes pricing, engineering blog, support, documentation, API reference, getting-started guide, and 18 more developer resources.'
+  Emotive''s developer surface includes pricing, engineering blog, support, documentation, API reference, getting-started guide, and 27 more developer resources.'
 plans:
 - name: Emotive Plans Pricing
   plan_count: 0
@@ -193,19 +313,24 @@ rate_limits:
   name: Emotive Rate Limits
   slug: emotive-rate-limits
 score:
-  band: strong
-  composite: 54.7
-  delta: 4.7
+  band: developing
+  composite: 53.0
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
-    contract_governance: 30.3
-    contract_quality: 57.8
+    contract_governance: 18.2
+    contract_quality: 57.0
     developer_ergonomics: 64.3
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 50.0
+  previous_composite: 53.0
   provenance:
     conformance: first-party
     contracts:
@@ -221,8 +346,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 51.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emotive/refs/heads/main/screenshots/emotive-2026-07-25T213253.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 3
@@ -42,23 +42,64 @@ agentic_access:
   operation_count: 88
   slug: blng-agentic-access
   summary_line: 88 operations · 49 acting · 3 human-in-the-loop
-api_count: 3
+api_count: 4
 apis:
-- description: REST API behind the BLNG Design application that manages design and shopping journeys, the prompts submitted against them, uploaded and generated image assets, chat prompts, design plans, and 3D model
-  name: BLNG Journey API
-  slug: blng-journey-api
 - description: REST API that manages BLNG users, roles and permissions, workspaces and workspace members, workspace and subscription invitations, organizations, SSO configuration, marketing consent, tooltips, and us
   name: BLNG User API
   slug: blng-user-api
 - description: REST API that manages BLNG payment and billing — listing Stripe products and prices, creating Stripe checkout sessions and customer-portal sessions, confirming checkout, and submitting enterprise "con
   name: BLNG Billing API
   slug: blng-billing-api
-artifact_total: 11
+- description: The Chat Prompts API from Blng — 2 operation(s) for chat prompts.
+  name: Blng Chat Prompts API
+  slug: blng-chat-prompts-api
+- description: The Composite API from Blng — 2 operation(s) for composite.
+  name: Blng Composite API
+  slug: blng-composite-api
+- description: The Design Journey API from Blng — 16 operation(s) for design journey.
+  name: Blng Design Journey API
+  slug: blng-design-journey-api
+- description: The Invitation API from Blng — 5 operation(s) for invitation.
+  name: Blng Invitation API
+  slug: blng-invitation-api
+- description: The Journeys API from Blng — 6 operation(s) for journeys.
+  name: Blng Journeys API
+  slug: blng-journeys-api
+- description: The Organization API from Blng — 3 operation(s) for organization.
+  name: Blng Organization API
+  slug: blng-organization-api
+- description: The Prompts API from Blng — 4 operation(s) for prompts.
+  name: Blng Prompts API
+  slug: blng-prompts-api
+- description: The Subscription API from Blng — 4 operation(s) for subscription.
+  name: Blng Subscription API
+  slug: blng-subscription-api
+- description: The User Subscription API from Blng — 3 operation(s) for user subscription.
+  name: Blng User Subscription API
+  slug: blng-user-subscription-api
+- description: The User Tooltip API from Blng — 2 operation(s) for user tooltip.
+  name: Blng User Tooltip API
+  slug: blng-user-tooltip-api
+- description: The Webhook API from Blng — 3 operation(s) for webhook.
+  name: Blng Webhook API
+  slug: blng-webhook-api
+- description: The Workspace API from Blng — 15 operation(s) for workspace.
+  name: Blng Workspace API
+  slug: blng-workspace-api
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Blng Webhooks
   slug: blng-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/blng-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/blng-journey-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -184,13 +225,13 @@ modified: '2026-08-13'
 name: Blng
 nav: Providers
 network: true
-overview: 'Blng publishes 3 APIs on the [APIs.io](https://apis.io/) network: Journey API, User API, and Billing API. Tagged areas include Company, Jewelry, Generative AI, Design, and Creative Tools.
+overview: 'Blng publishes 14 APIs on the [APIs.io](https://apis.io/) network, including User API, Billing API, Chat Prompts API, and 11 more. Tagged areas include Company, Jewelry, Generative AI, Design, and Creative Tools.
 
 
   The Blng catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Blng''s developer surface includes documentation, getting-started guide, pricing, engineering blog, support, signup flow, authentication, and 22 more developer resources.'
+  Blng''s developer surface includes documentation, getting-started guide, pricing, engineering blog, support, signup flow, authentication, and 24 more developer resources.'
 plans:
 - name: Blng Plans Pricing
   plan_count: 5
@@ -207,18 +248,23 @@ scopes:
   summary_line: 4 scopes · implicit
 score:
   band: developing
-  composite: 50.6
-  delta: 2.3
+  composite: 48.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_governance: 16.7
-    contract_quality: 56.1
+    contract_governance: 4.5
+    contract_quality: 54.9
     developer_ergonomics: 49.4
     discoverability: 74.1
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 48.3
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -229,8 +275,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/screenshots/blng-2026-07-25T203330.png
 security:

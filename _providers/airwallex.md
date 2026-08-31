@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,19 +22,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
+    openapi_examples: documented
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.5
-  scored_at: '2026-08-26'
+  score: 43.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: airwallex-agentic-access
   summary_line: 18 operations · 10 acting
-api_count: 14
+api_count: 1
 apis:
 - description: The Airwallex Payment Acceptance API enables businesses to accept online payments globally. Supports credit and debit cards, local payment methods, and 3D Secure. Available as hosted checkout or embed
   name: Airwallex Payment Acceptance API
@@ -86,7 +86,11 @@ apis:
 - description: The Transfers API from Airwallex — 2 operation(s) for transfers.
   name: Airwallex Transfers API
   slug: airwallex-transfers-api
-artifact_total: 71
+artifact_total: 74
+asyncapis:
+- description: ''
+  name: Airwallex Webhooks
+  slug: airwallex-webhooks
 collections:
 - collection_type: postman
   name: Airwallex Open Authentication API
@@ -143,6 +147,10 @@ collections:
   name: Airwallex Open API
   slug: open-airwallex
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.airwallex.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -198,7 +206,7 @@ common:
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.airwallex.com/privacy
+  url: https://www.airwallex.com/terms/privacy-policy
 - group: company
   title: ''
   type: Blog
@@ -227,6 +235,138 @@ common:
   title: ''
   type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/airwallex/refs/heads/main/vocabulary/airwallex-vocabulary.yaml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/airwallex-packages.yml
+- group: build
+  title: Airwallex first-party SDKs
+  type: SDKs
+  url: packages/airwallex-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/airwallex-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/airwallex-security.txt
+- group: auth
+  title: Bug Bounty Program Rules
+  type: Security
+  url: https://help.airwallex.com/hc/en-gb/articles/900004502526-Bug-Bounty-Program-Rules
+- group: auth
+  title: Airwallex Trust Center
+  type: Compliance
+  url: https://security.airwallex.com/
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/airwallex-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/airwallex-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/airwallex-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/airwallex-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/airwallex-problem-types.yml
+- group: build
+  title: ''
+  type: DeclineCodes
+  url: errors/airwallex-decline-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/airwallex-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.airwallex.com
+- group: operate
+  title: Airwallex API versioning and migration policy
+  type: Deprecation
+  url: https://www.airwallex.com/docs/api/versioning
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/airwallex-changelog.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/airwallex-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/airwallex-conventions.yml
+- group: design
+  title: request_id idempotency contract
+  type: Idempotency
+  url: conventions/airwallex-conventions.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/airwallex-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/airwallex-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/airwallex-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/airwallex-webhooks.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/airwallex-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/airwallex-plans-pricing.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.airwallex.com/docs/api/introduction
+- group: start
+  title: ''
+  type: Quickstart
+  url: https://www.airwallex.com/docs/api/getting_started
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.airwallex.com/hc/en-gb
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.airwallex.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://www.airwallex.com/app/login
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/kinlaneapi/airwallex/overview
 created: '2025-02-17'
 description: Airwallex is a financial technology company that specializes in providing global payment solutions for businesses. Their platform enables companies to accept payments, manage multi-currency accounts, convert currencies at competitive rates, send cross-border payments, issue corporate cards, and embed financial services into their own products. Airwallex serves businesses in over 150 countries with APIs for payment acceptance, FX, accounts, transfers, and embedded finance.
 examples:
@@ -298,6 +438,10 @@ jsonld:
   property_count: 19
   slug: airwallex-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: Airwallex MCP Server
+  slug: airwallex-mcp-server
 modified: '2026-04-19'
 name: Airwallex
 nav: Providers
@@ -305,17 +449,17 @@ network: true
 overview: 'Airwallex publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Balances API, Beneficiaries API, and 5 more. Tagged areas include Cross-Border Payments, Fintech, Foreign Exchange, Payments, and Global.
 
 
-  The Airwallex catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Airwallex catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Airwallex''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, engineering blog, CLI, and 14 more developer resources.'
+  Airwallex''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, engineering blog, CLI, and 48 more developer resources.'
 plans:
 - name: Airwallex Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: airwallex-plans-pricing
 random_paper: 3
 rate_limits:
-- limit_count: 5
+- limit_count: 8
   name: Airwallex Rate Limits
   slug: airwallex-rate-limits
 rules:
@@ -340,26 +484,36 @@ rules:
     info: 4
     warn: 17
   slug: airwallex-spectral-rules
+scopes:
+- name: Airwallex Scopes
+  scope_count: 180
+  slug: airwallex-scopes
+  summary_line: 180 scopes
 score:
-  band: strong
-  composite: 58.9
-  delta: 3.3
+  band: exemplar
+  composite: 83.6
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 24.7
   facets:
-    access_clarity: 55.3
-    commercial_clarity: 55.3
-    contract_governance: 28.8
-    contract_quality: 58.3
-    developer_ergonomics: 81.0
-    discoverability: 74.1
-    governance: 28.8
-    operational_transparency: 13.2
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 47.0
+    contract_quality: 69.9
+    developer_ergonomics: 95.2
+    discoverability: 68.5
+    governance: 47.0
+    operational_transparency: 71.1
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 55.6
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     contracts:
@@ -369,19 +523,25 @@ score:
       total: 8
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: EU
+      standard: psd2-sca
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 62.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 100.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/airwallex/refs/heads/main/screenshots/airwallex-2026-06-20T171444.png
 security:
 - kind: authentication
   name: Airwallex Authentication
   slug: airwallex-authentication
-  summary_line: apiKey/http · 3 schemes
+  summary_line: apiKey/http/oauth2 · 4 schemes
 - kind: domain-security
   name: Airwallex Domain Security
   slug: airwallex-domain-security
@@ -418,5 +578,5 @@ use_cases:
   name: SaaS Platform Monetization
 - description: Pay remote workers and freelancers in their local currencies.
   name: Freelancer Payouts
-website: https://www.airwallex.com
+website: https://www.airwallex.com/
 ---

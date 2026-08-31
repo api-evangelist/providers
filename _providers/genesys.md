@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: true
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: verified
     mcp_server: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.8
-  scored_at: '2026-08-26'
+  score: 58.7
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1702
   human_in_the_loop: 67
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 3180
   slug: genesys-agentic-access
   summary_line: 3180 operations · 1702 acting · 67 human-in-the-loop
-api_count: 87
+api_count: 1
 apis:
 - description: Manage virtual agent assistants.
   name: Genesys Agent Assistants API
@@ -577,6 +577,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/genesys-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/genesys-platform-api-overlay.yaml
 - group: auth
@@ -721,7 +725,7 @@ overview: 'Genesys publishes 87 APIs on the [APIs.io](https://apis.io/) network,
   The Genesys catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Genesys'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
+  Genesys'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
 random_paper: 10
 scopes:
 - name: Genesys Scopes
@@ -729,19 +733,24 @@ scopes:
   slug: genesys-scopes
   summary_line: 135 scopes · implicit
 score:
-  band: strong
-  composite: 55.1
-  delta: 2.4
+  band: developing
+  composite: 52.9
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 65.1
     developer_ergonomics: 32.7
-    discoverability: 77.8
-    governance: 30.3
+    discoverability: 70.4
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 52.7
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -754,12 +763,20 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: fedramp
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genesys/refs/heads/main/screenshots/genesys-2026-07-25T215607.png
 security:

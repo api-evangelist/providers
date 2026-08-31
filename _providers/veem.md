@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 27
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 50
   slug: veem-agentic-access
   summary_line: 50 operations · 27 acting · 27 human-in-the-loop
-api_count: 14
+api_count: 1
 apis:
 - description: Attachment Controller
   name: Veem attachment-controller API
@@ -279,19 +279,24 @@ scopes:
   slug: veem-scopes
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 39.9
-  delta: 0.0
+  band: thin
+  composite: 37.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 56.6
     developer_ergonomics: 47.0
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 39.9
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -308,8 +313,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veem/refs/heads/main/screenshots/veem-2026-08-17T082715.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 56
   slug: amazon-well-architected-tool-agentic-access
   summary_line: 56 operations · 34 acting
-api_count: 13
+api_count: 1
 apis:
 - description: The ConsolidatedReport#Format API from Amazon Well-Architected Tool — 1 operation(s) for consolidatedreport#format.
   name: Amazon Well-Architected Tool ConsolidatedReport#Format API
@@ -2678,18 +2678,26 @@ rules:
   slug: amazon-well-architected-tool-spectral-rules
 score:
   band: strong
-  composite: 58.9
-  delta: 5.9
+  composite: 56.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 42.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.4
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
     contract_governance: 28.8
     contract_quality: 69.4
     developer_ergonomics: 66.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 53.0
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     contracts:
@@ -2697,9 +2705,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-well-architected-tool/refs/heads/main/screenshots/amazon-well-architected-tool-2026-07-25T200017.png
 security:
 - kind: authentication

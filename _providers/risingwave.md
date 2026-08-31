@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -76,6 +76,10 @@ collections:
   name: RisingWave Events Sql API
   slug: open-risingwave-sql-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/risingwavelabs/risingwave-mcp/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -170,7 +174,7 @@ overview: 'RisingWave publishes 3 APIs on the [APIs.io](https://apis.io/) networ
   The RisingWave catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  RisingWave''s developer surface includes documentation, engineering blog, pricing, changelog, and 11 more developer resources.'
+  RisingWave''s developer surface includes documentation, engineering blog, pricing, changelog, and 12 more developer resources.'
 plans:
 - name: Risingwave Plans Pricing
   plan_count: 4
@@ -193,18 +197,26 @@ rules:
   slug: risingwave-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.3
+  composite: 39.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 54.0
+    contract_quality: 55.3
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 50.0
-  previous_composite: 43.3
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +224,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/risingwave/refs/heads/main/screenshots/risingwave-2026-06-20T193128.png
 security:

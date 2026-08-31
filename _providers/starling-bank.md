@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
-api_count: 13
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Bespoke Starling Developer API for retrieving a customer's accounts, account identifiers (sort code / account number), and balances. Served over OAuth2 at the api.starlingbank.com/api/v2 host with a f
   name: Starling Accounts API
@@ -64,9 +64,6 @@ apis:
 - description: Returns the identity and token/authorising-individual context for the authenticated Starling user, including the scopes granted to the access token, via the bespoke Developer API.
   name: Starling Identity API
   slug: starling-identity-api
-- description: UK Open Banking Open Data API - PUBLIC, unauthenticated reference data (personal and business current accounts, and, for banks with a physical estate, ATMs and branches) modelled on the OBIE Open Data
-  name: Starling Open Data API (OBIE Standard)
-  slug: starling-open-data-api
 - description: UK Open Banking Read/Write Account and Transaction Information (AIS) API for accessing account, balance, transaction, and product data as an FCA-authorised ASPSP, conformant to the OBIE Read/Write sta
   name: Starling Account and Transaction Information API (AIS, OBIE Read/Write)
   slug: starling-account-transaction-api
@@ -76,12 +73,34 @@ apis:
 - description: 'UK Open Banking Read/Write Confirmation of Funds (CBPII) API allowing a card-based payment instrument issuer to confirm whether funds are available, as an FCA-authorised ASPSP, conformant to the OBIE '
   name: Starling Confirmation of Funds API (CBPII, OBIE Read/Write)
   slug: starling-confirmation-of-funds-api
-artifact_total: 17
+- description: Endpoint for getting ATM data
+  name: Starling Bank ATM API
+  slug: starling-bank-atm-api
+- description: Endpoint for getting Business Current Account data
+  name: Starling Bank BCA API
+  slug: starling-bank-bca-api
+- description: Endpoint for getting Branch data
+  name: Starling Bank Branch API
+  slug: starling-bank-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: Starling Bank CCC API
+  slug: starling-bank-ccc-api
+- description: Endpoint for getting Personal Current Account data
+  name: Starling Bank PCA API
+  slug: starling-bank-pca-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: Starling Bank SME API
+  slug: starling-bank-sme-api
+artifact_total: 22
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-obie-opendata-swagger
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/starling-bank-capability-edges.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -211,25 +230,30 @@ modified: '2026-07-23'
 name: Starling Bank
 nav: Providers
 network: true
-overview: 'Starling Bank publishes 1 API on the [APIs.io](https://apis.io/) network: Starling Open Data API (OBIE Standard). Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Starling Bank publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 3 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  Starling Bank''s developer surface includes authentication, sandbox, API reference, documentation, getting-started guide, engineering blog, support, and 23 more developer resources.'
+  Starling Bank''s developer surface includes authentication, sandbox, API reference, documentation, getting-started guide, engineering blog, support, and 24 more developer resources.'
 random_paper: 2
 score:
   band: developing
-  composite: 50.9
-  delta: -2.4
+  composite: 47.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 78.6
     commercial_clarity: 78.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 32.7
     developer_ergonomics: 28.6
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 53.3
+  previous_composite: 48.3
   provenance:
     conformance: first-party
     contracts:
@@ -239,12 +263,16 @@ score:
       total: 1
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 62.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/screenshots/starling-bank-2026-08-17T082108.png
 security:

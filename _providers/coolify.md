@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 136
   slug: coolify-agentic-access
   summary_line: 136 operations · 74 acting · 1 human-in-the-loop
-api_count: 19
+api_count: 1
 apis:
 - description: The Coolify platform - an open-source, Apache-2.0 licensed, self-hostable PaaS written in PHP (Laravel) that automates deployment of applications, databases, and services to user-controlled servers vi
   name: Coolify
@@ -261,7 +261,7 @@ common:
   url: https://github.com/coollabsio/sentinel
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/coollabsio/coolify-examples
 - group: docs
   title: ''
@@ -303,18 +303,23 @@ overview: 'Coolify publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 1
 score:
   band: developing
-  composite: 46.3
-  delta: 1.4
+  composite: 45.8
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 61.3
     developer_ergonomics: 64.3
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 44.9
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
@@ -322,8 +327,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/screenshots/coolify-2026-06-20T175004.png
 security:

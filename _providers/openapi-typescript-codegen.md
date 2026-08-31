@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The openapi CLI and Node.js library. Consumes an OpenAPI 2.0 or 3.0 specification and writes a typed TypeScript client (models, services, and core runtime) for fetch, node-fetch, XHR, Axios, or Angula
@@ -42,6 +42,18 @@ apis:
   slug: openapi-typescript-codegen
 artifact_total: 4
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/ferdikoomen/openapi-typescript-codegen/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/ferdikoomen/openapi-typescript-codegen/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/ferdikoomen/openapi-typescript-codegen/blob/main/CONTRIBUTING.md
 - group: company
   title: ''
   type: Website
@@ -135,7 +147,7 @@ network: true
 overview: 'OpenAPI TypeScript Codegen publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, OpenAPI, Swagger, SDK, and TypeScript.
 
 
-  OpenAPI TypeScript Codegen''s developer surface includes documentation, getting-started guide, support, changelog, CLI, and 11 more developer resources.'
+  OpenAPI TypeScript Codegen''s developer surface includes documentation, getting-started guide, support, changelog, CLI, and 14 more developer resources.'
 plans:
 - name: Openapi Typescript Codegen Plans Pricing
   plan_count: 1
@@ -146,8 +158,13 @@ rate_limits:
   name: Openapi Typescript Codegen Rate Limits
   slug: openapi-typescript-codegen-rate-limits
 score:
-  band: emerging
-  composite: 24.0
+  band: thin
+  composite: 28.7
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -155,14 +172,17 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 24.0
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 28.7
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openapi-typescript-codegen/refs/heads/main/screenshots/openapi-typescript-codegen-2026-06-20T190912.png
 slug: openapi-typescript-codegen

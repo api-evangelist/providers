@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -43,14 +43,8 @@ agentic_access:
   operation_count: 207
   slug: mediamath-agentic-access
   summary_line: 207 operations · 88 acting
-api_count: 46
+api_count: 15
 apis:
-- description: API for leveraging PMP Direct and Exchange supply sources, enabling programmatic access to private marketplace deals and exchange inventory within the MediaMath Platform.
-  name: MediaMath Marketplaces API V2.0
-  slug: mediamath-marketplaces-api-v20
-- description: API for applying custom bidding algorithms within the MediaMath platform brain, including Campaign Settings configuration and Custom Bid Router for external algorithm invocation during bid opportuniti
-  name: MediaMath Bring Your Own Algorithm (BYOA) API
-  slug: mediamath-bring-your-own-algorithm-byoa-api
 - description: API for ingesting audience event data into the MediaMath Platform via real-time server-side pixel events and batch event uploads. Supports UUID, mobile advertising IDs, and CTV device IDs for cross-de
   name: MediaMath Audience Onboarding API
   slug: mediamath-audience-onboarding-api
@@ -168,22 +162,64 @@ apis:
 - description: Verticals
   name: MediaMath Verticals API
   slug: mediamath-verticals-api
-- description: 'Audience Segments API (DMP v2.0) for onboarding and activating first- and third-party audience data in the MediaMath Platform. Manages global and permissioned taxonomies, external data segments (data '
-  name: MediaMath Audience Segments API
-  slug: mediamath-audience-segments-api
-- description: Bid Request Firehose (BOF) configuration API. BOF is a high-performance system that ingests bid opportunities from MediaMath bidders and filters and batches them to third-party consumers based on conf
-  name: MediaMath BOF Config API
-  slug: mediamath-bof-config-api
 - description: Component Creatives API (v3.0) for building and managing modular, component-based creatives in the MediaMath Platform — assembling creative components into dynamic ad units, managing component metadat
   name: MediaMath Component Creatives API
   slug: mediamath-component-creatives-api
-- description: Reporting API V1 (standard reports). Thirty GET report endpoints — performance, win/loss, win/loss creative, device technology, geo, site, audience index and more — each with a companion /meta endpoin
-  name: MediaMath Reporting API V1
-  slug: mediamath-reporting-api-v1
-- description: Video Creatives API (v1.0) for hosted video and audio creative management — reserving creative records, obtaining presigned S3 upload URLs, polling encode status through Pending/Processing/Finished, l
-  name: MediaMath Video Creatives API
-  slug: mediamath-video-creatives-api
-artifact_total: 424
+- description: v3.0 creative approval status endpoints.
+  name: MediaMath Approvals API
+  slug: mediamath-approvals-api
+- description: BYOA (Bring Your Own Algorithm) allows advertisers to apply their own bidding algorithms within MediaMath. The participating campaigns and strategies are configured with the BYOA Campaign Settings
+  name: MediaMath Campaign Settings API
+  slug: mediamath-campaign-settings-api
+- description: '{% admonition type="danger" name="This API is deprecated and will be removed in July 2026" %} Please migrate to the **Classification API v3.0** documented below. {% /admonition %} {% admonition type="'
+  name: MediaMath Classification (V1.0 - Deprecated) API
+  slug: mediamath-classification-v1-0-deprecated-api
+- description: V3.0 creative classification endpoints. Uses Bearer (JWT) authentication.
+  name: MediaMath Classification (V3) API
+  slug: mediamath-classification-v3-api
+- description: v3.0 component definition endpoints.
+  name: MediaMath Components API
+  slug: mediamath-components-api
+- description: _
+  name: MediaMath Consumer Management API
+  slug: mediamath-consumer-management-api
+- description: v3.0 component (native) creative endpoints.
+  name: MediaMath Creatives - Native API
+  slug: mediamath-creatives-native-api
+- description: Custom Bid Router further extends the BYOA architecture allowing advertisers to apply their own bidding algorithms in their own ecosystem. The MediaMath system will invoke an external call to the clie
+  name: MediaMath Custom Bid Router API
+  slug: mediamath-custom-bid-router-api
+- description: In Customized Brain, the client uses the BYOA API to upload a set of logistic coefficients corresponding to any of the variables currently in use by the MediaMath Brain. These coefficients will then b
+  name: MediaMath Custom Brain API
+  slug: mediamath-custom-brain-api
+- description: _
+  name: MediaMath Data Retrieval API
+  slug: mediamath-data-retrieval-api
+- description: V3.0 IAB data endpoints. A single pair of endpoints serves all categories (`iab_verticals`, `iab_attributes`, `language`). Uses Bearer (JWT) authentication.
+  name: MediaMath IAB Data (V3) API
+  slug: mediamath-iab-data-v3-api
+- description: '{% admonition type="danger" name="This API is deprecated and will be removed in July 2026" %} Please migrate to the **IAB Data API v3.0** (`GET /v3.0/static_data/{category}`) documented below. {% /adm'
+  name: MediaMath IAB (V1.0 - Deprecated) API
+  slug: mediamath-iab-v1-0-deprecated-api
+- description: _
+  name: MediaMath Metadata API
+  slug: mediamath-metadata-api
+- description: _
+  name: MediaMath Permission Taxonomies API
+  slug: mediamath-permission-taxonomies-api
+- description: Private Marketplace Direct (PMP-E)
+  name: MediaMath Private Marketplace Exchange (PMP-E) API
+  slug: mediamath-private-marketplace-exchange-pmp-e-api
+- description: _
+  name: MediaMath Reports API
+  slug: mediamath-reports-api
+- description: V2.0 video creative endpoints (legacy)
+  name: MediaMath Video Creative Management (V2) API
+  slug: mediamath-video-creative-management-v2-api
+- description: V3.0 video creative management endpoints
+  name: MediaMath Video Creative Management (V3) API
+  slug: mediamath-video-creative-management-v3-api
+artifact_total: 436
 asyncapis:
 - description: ''
   name: Mediamath Webhooks
@@ -304,6 +340,10 @@ collections:
   name: Campaigns Ad Servers Verticals API
   slug: open-mediamath-verticals-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mediamath-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1494,13 +1534,13 @@ modified: '2026-08-13'
 name: MediaMath
 nav: Providers
 network: true
-overview: 'MediaMath publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Marketplaces API V2.0, Bring Your Own Algorithm (BYOA) API, Ad Servers API, and 41 more. Tagged areas include Programmatic Advertising, DSP, Demand-Side Platform, Campaign Management, and AdTech.
+overview: 'MediaMath publishes 56 APIs on the [APIs.io](https://apis.io/) network, including Ad Servers API, Advertisers API, Agencies API, and 53 more. Tagged areas include Programmatic Advertising, DSP, Demand-Side Platform, Campaign Management, and Ad Tech.
 
 
   The MediaMath catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  MediaMath''s developer surface includes authentication, documentation, engineering blog, support, academy / training, code examples, API reference, and 39 more developer resources.'
+  MediaMath''s developer surface includes authentication, documentation, engineering blog, support, academy / training, code examples, API reference, and 40 more developer resources.'
 plans:
 - name: Mediamath Plans
   plan_count: 2
@@ -1528,18 +1568,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode/password/clientCredentials
 score:
   band: strong
-  composite: 63.3
+  composite: 60.5
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
-    contract_governance: 26.5
-    contract_quality: 72.3
+    contract_governance: 14.4
+    contract_quality: 71.2
     developer_ergonomics: 70.8
-    discoverability: 87.0
-    governance: 26.5
+    discoverability: 75.9
+    governance: 14.4
     operational_transparency: 60.5
-  previous_composite: 63.3
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1550,8 +1595,8 @@ score:
       total: 44
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/screenshots/mediamath-2026-06-20T185115.png
 security:
@@ -1573,7 +1618,7 @@ tags:
 - DSP
 - Demand-Side Platform
 - Campaign Management
-- AdTech
+- Ad Tech
 - Bidding
 - Audience Segments
 - Creative Management

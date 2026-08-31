@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 80
   slug: plandex-agentic-access
   summary_line: 80 operations · 46 acting · 1 human-in-the-loop
-api_count: 15
+api_count: 1
 apis:
 - description: User account, email verification, and authentication operations.
   name: Plandex Accounts API
@@ -511,18 +511,26 @@ rules:
   slug: plandex-rules
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 47.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 31.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 28.8
     contract_quality: 64.6
     developer_ergonomics: 31.0
-    discoverability: 59.3
+    discoverability: 53.7
     governance: 28.8
     operational_transparency: 55.3
-  previous_composite: 50.0
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -530,8 +538,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

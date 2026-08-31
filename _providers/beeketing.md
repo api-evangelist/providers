@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,21 +25,99 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.8
-  scored_at: '2026-08-26'
-api_count: 1
+  score: 30.3
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: REST Admin API (and GraphQL Admin API) for building apps, themes, and payment gateways on ShopBase — products, orders, transactions, fulfillments, customers, inventory, checkouts, shipping, price rule
-  name: ShopBase Admin API
-  slug: shopbase-admin-api
-artifact_total: 7
+- description: You can query the Checkout resource to return abandoned checkouts. A checkout is considered abandoned when a customer leaves the checkout after the first page without completing their purchase
+  name: Beeketing Abandoned Checkout API
+  slug: beeketing-abandoned-checkout-api
+- description: The Balance API from Beeketing — 2 operation(s) for balance.
+  name: Beeketing Balance API
+  slug: beeketing-balance-api
+- description: The Collect resource connects a product to a custom collection. </br></br>Collects are meant for managing the relationship between products and custom collections. For every product in a custom collec
+  name: Beeketing Collect API
+  slug: beeketing-collect-api
+- description: The Custom Collection API from Beeketing — 3 operation(s) for custom collection.
+  name: Beeketing Custom Collection API
+  slug: beeketing-custom-collection-api
+- description: The Customer Address API from Beeketing — 4 operation(s) for customer address.
+  name: Beeketing Customer Address API
+  slug: beeketing-customer-address-api
+- description: The Customer API from Beeketing — 4 operation(s) for customer.
+  name: Beeketing Customer API
+  slug: beeketing-customer-api
+- description: The DiscountCode API from Beeketing — 3 operation(s) for discountcode.
+  name: Beeketing Discount Code API
+  slug: beeketing-discountcode-api
+- description: You can use the domain resource to view
+  name: Beeketing Domain API
+  slug: beeketing-domain-api
+- description: The DraftOrder API from Beeketing — 2 operation(s) for draftorder.
+  name: Beeketing Draft Order API
+  slug: beeketing-draftorder-api
+- description: You can use the Fulfillment resource to view, create, modify, or delete an order's fulfillment. </br></br>A fulfillment represents a group of one or more items in an order
+  name: Beeketing Fulfillment API
+  slug: beeketing-fulfillment-api
+- description: The FulfillmentService API from Beeketing — 2 operation(s) for fulfillmentservice.
+  name: Beeketing Fulfillment Service API
+  slug: beeketing-fulfillmentservice-api
+- description: The Metafield API from Beeketing — 3 operation(s) for metafield.
+  name: Beeketing Metafield API
+  slug: beeketing-metafield-api
+- description: An order is a customer's completed request to purchase one or more products from a shop. An order is created when a customer completes the checkout process, during which time they provide an email add
+  name: Beeketing Order API
+  slug: beeketing-order-api
+- description: The Page API from Beeketing — 3 operation(s) for page.
+  name: Beeketing Page API
+  slug: beeketing-page-api
+- description: The Payment Simulator API from Beeketing — 4 operation(s) for payment simulator.
+  name: Beeketing Payment Simulator API
+  slug: beeketing-payment-simulator-api
+- description: PhubOrderApi
+  name: Beeketing Phub Order API
+  slug: beeketing-phuborderapi-api
+- description: The PriceRule API from Beeketing — 3 operation(s) for pricerule.
+  name: Beeketing Price Rule API
+  slug: beeketing-pricerule-api
+- description: The Product resource lets you update and create products in a merchant's store. You can use product variants with the Product resource to create or update different versions of the same product. You c
+  name: Beeketing Product API
+  slug: beeketing-product-api
+- description: The Product Image API from Beeketing — 3 operation(s) for product image.
+  name: Beeketing Product Image API
+  slug: beeketing-product-image-api
+- description: A variant can be added to a Product resource to represent one version of a product with several options. The Product resource will have a variant for every possible combination of its options. Each pr
+  name: Beeketing Product Variant API
+  slug: beeketing-product-variant-api
+- description: The Redirect API from Beeketing — 2 operation(s) for redirect.
+  name: Beeketing Redirect API
+  slug: beeketing-redirect-api
+- description: There are two major parts to a refund:</br>- A record of money returned to the customer</br>- The line items included in the refund, along with restocking instructions</br></br>Before you create a ref
+  name: Beeketing Refund API
+  slug: beeketing-refund-api
+- description: The ScriptTag API from Beeketing — 2 operation(s) for scripttag.
+  name: Beeketing Script Tag API
+  slug: beeketing-scripttag-api
+- description: The Shop API from Beeketing — 1 operation(s) for shop.
+  name: Beeketing Shop API
+  slug: beeketing-shop-api
+- description: The SmartCollection API from Beeketing — 3 operation(s) for smartcollection.
+  name: Beeketing Smart Collection API
+  slug: beeketing-smartcollection-api
+- description: There are two major parts to a refund:</br>- A record of money returned to the customer</br>- The line items included in the refund, along with restocking instructions</br></br>Before you create a ref
+  name: Beeketing Transaction API
+  slug: beeketing-transaction-api
+- description: The Webhook API from Beeketing — 2 operation(s) for webhook.
+  name: Beeketing Webhook API
+  slug: beeketing-webhook-api
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Beeketing Webhooks
@@ -197,7 +275,7 @@ modified: '2026-08-13'
 name: Beeketing
 nav: Providers
 network: true
-overview: 'Beeketing publishes 1 API on the [APIs.io](https://apis.io/) network: ShopBase Admin API. Tagged areas include Company, E-Commerce, Cross-Border Commerce, Marketing, and Shopify Apps.
+overview: 'Beeketing publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Abandoned Checkout API, Balance API, Collect API, and 24 more. Tagged areas include Company, E-Commerce, Cross-border Commerce, Marketing, and Shopify Apps.
 
 
   The Beeketing catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -220,18 +298,23 @@ scopes:
   summary_line: 24 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.9
-  delta: 0.0
+  composite: 61.2
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
-    contract_governance: 30.3
-    contract_quality: 54.4
+    contract_governance: 18.2
+    contract_quality: 60.7
     developer_ergonomics: 73.2
-    discoverability: 75.9
-    governance: 30.3
+    discoverability: 57.4
+    governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 62.9
+  previous_composite: 61.7
   provenance:
     conformance: first-party
     contracts:
@@ -247,8 +330,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beeketing/refs/heads/main/screenshots/beeketing-2026-07-25T202630.png
 security:
@@ -264,7 +347,7 @@ slug: beeketing
 tags:
 - Company
 - E-Commerce
-- Cross-Border Commerce
+- Cross-border Commerce
 - Marketing
 - Shopify Apps
 - REST API

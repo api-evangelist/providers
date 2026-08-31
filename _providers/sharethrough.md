@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: REST-ish reporting API enabling publishers to pull programmatic performance data for their Sharethrough inventory. A single POST /v2/programmatic endpoint takes a query object (startDate, endDate, gro
@@ -183,7 +183,12 @@ rate_limits:
   slug: sharethrough-rate-limits
 score:
   band: thin
-  composite: 31.5
+  composite: 30.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 57.9
@@ -191,14 +196,14 @@ score:
     contract_governance: 18.2
     contract_quality: 14.7
     developer_ergonomics: 28.6
-    discoverability: 79.6
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 31.5
+  previous_composite: 30.3
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/screenshots/sharethrough-2026-06-20T193746.png
 security:

@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/precision-neuroscience/layer7-nbme2025/issues
 - group: commercial
   title: ''
   type: License
@@ -124,14 +128,19 @@ modified: '2026-08-05'
 name: Precision Neuroscience
 nav: Providers
 network: true
-overview: 'Precision Neuroscience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Brain-Computer Interface, Neurotechnology, Medical Devices, and Neuroscience.
+overview: 'Precision Neuroscience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, brain-computer-interface, neurotechnology, medical-devices, and neuroscience.
 
 
-  Precision Neuroscience''s developer surface includes product news, engineering blog, and 16 more developer resources.'
+  Precision Neuroscience''s developer surface includes product news, engineering blog, and 17 more developer resources.'
 random_paper: 11
 score:
   band: emerging
-  composite: 11.3
+  composite: 11.0
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -139,10 +148,13 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 11.3
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 11.0
   provenance:
     conformance: derived
   regulatory:
@@ -151,8 +163,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security
@@ -162,14 +174,14 @@ security:
 slug: precision-neuroscience
 tags:
 - Company
-- Brain-Computer Interface
-- Neurotechnology
-- Medical Devices
-- Neuroscience
-- Implantable Devices
+- brain-computer-interface
+- neurotechnology
+- medical-devices
+- neuroscience
+- implantable-devices
 - neural-interfaces
-- Health Technology
-- Clinical Research
-- Deep Tech
+- health-technology
+- clinical-research
+- deep-tech
 website: https://www.precisionneuro.io/
 ---

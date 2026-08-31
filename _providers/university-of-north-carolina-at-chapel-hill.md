@@ -1,303 +1,161 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Free · keyless public read endpoints
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - probed
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: true
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 258
-  human_in_the_loop: 7
-  name: University Of North Carolina At Chapel Hill Agentic Access
-  operation_count: 541
-  slug: university-of-north-carolina-at-chapel-hill-agentic-access
-  summary_line: 541 operations · 258 acting · 7 human-in-the-loop
-api_count: 39
+  score: 5.0
+  scored_at: '2026-08-30'
+api_count: 10
 apis:
-- description: UNC-Chapel Hill's ArcGIS Hub open-data site publishing geospatial and institutional datasets. Data is programmatically accessible via ArcGIS Hub DCAT-US 1.1 catalog feeds and the underlying ArcGIS RES
-  name: UNC GIS Open Data Hub
-  slug: gis-opendata
-- description: The UNC Libraries Digital Collections Repository, powered by the open-source box-c application maintained by the UNC Libraries software development team on GitHub. Provides web access to digitized spe
-  name: UNC Libraries Digital Collections Repository (box-c)
-  slug: digital-collections
-- description: REST API for the Space Planning and Occupancy Tracking System (SPOTS) provided by UNC Facilities Services for campus space and occupancy data. Documentation is gated behind UNC Onyen single sign-on an
+- description: Public, keyless JSON API behind the Carolina Digital Repository, UNC Libraries' institutional repository for digitized special collections, theses, dissertations and research output. GET /services/api
+  name: Carolina Digital Repository Services API (box-c)
+  slug: cdr-services-api
+- description: The UNC University Library catalog answers machine-readable search over its full bibliographic index at /catalog.json, the Blacklight JSON response format, with query, search_field, facet and paginati
+  name: UNC Libraries Catalog Search API (TRLN Discovery / Blacklight)
+  slug: library-catalog-search
+- description: 'Machine-readable search across the finding aids of the Wilson Special Collections Library, served at /catalog.json in Blacklight''s JSON:API form — a `links` object with self/next/last, a `meta.pages` '
+  name: UNC Finding Aids Search API (Blacklight JSON:API)
+  slug: finding-aids-search
+- description: OAI-PMH 2.0 harvesting endpoint for the UNC Dataverse research data repository, operated by the Odum Institute / Institute for Research in Social Science. Identify reports repositoryName "UNC Datavers
+  name: UNC Dataverse OAI-PMH Archive
+  slug: dataverse-oai-pmh
+- description: UNC's Onyen single sign-on is a Shibboleth Identity Provider that publishes SAML 2.0 metadata at its canonical /idp/shibboleth location — an EntityDescriptor with an IDPSSODescriptor and HTTP-POST, HT
+  name: UNC Shibboleth Identity Provider (SAML 2.0 / InCommon)
+  slug: shibboleth-idp
+- description: REST API for the Space Planning and Occupancy Tracking System run by UNC Facilities Services, the campus system of record for building and room space data. The documentation page resolves (200) but it
   name: Facilities SPOTS REST API
-  slug: spots
-- description: The Access API from University of North Carolina at Chapel Hill — 23 operation(s) for access.
-  name: University of North Carolina at Chapel Hill Access API
-  slug: university-of-north-carolina-at-chapel-hill-access-api
-- description: Uploads a set of files to a dataset
-  name: University of North Carolina at Chapel Hill addFilesToDataset API
-  slug: university-of-north-carolina-at-chapel-hill-addfilestodataset-api
-- description: Uploads a file for a dataset
-  name: University of North Carolina at Chapel Hill addFileToDataset API
-  slug: university-of-north-carolina-at-chapel-hill-addfiletodataset-api
-- description: Uploads a Globus file for a dataset
-  name: University of North Carolina at Chapel Hill addGlobusFilesToDataset API
-  slug: university-of-north-carolina-at-chapel-hill-addglobusfilestodataset-api
-- description: The Admin API from University of North Carolina at Chapel Hill — 127 operation(s) for admin.
-  name: University of North Carolina at Chapel Hill Admin API
-  slug: university-of-north-carolina-at-chapel-hill-admin-api
-- description: The Batch API from University of North Carolina at Chapel Hill — 3 operation(s) for batch.
-  name: University of North Carolina at Chapel Hill Batch API
-  slug: university-of-north-carolina-at-chapel-hill-batch-api
-- description: The Builtin Users API from University of North Carolina at Chapel Hill — 4 operation(s) for builtin users.
-  name: University of North Carolina at Chapel Hill Builtin Users API
-  slug: university-of-north-carolina-at-chapel-hill-builtin-users-api
-- description: The Datasetfields API from University of North Carolina at Chapel Hill — 1 operation(s) for datasetfields.
-  name: University of North Carolina at Chapel Hill Datasetfields API
-  slug: university-of-north-carolina-at-chapel-hill-datasetfields-api
-- description: The Datasets API from University of North Carolina at Chapel Hill — 94 operation(s) for datasets.
-  name: University of North Carolina at Chapel Hill Datasets API
-  slug: university-of-north-carolina-at-chapel-hill-datasets-api
-- description: The Datatags API from University of North Carolina at Chapel Hill — 1 operation(s) for datatags.
-  name: University of North Carolina at Chapel Hill Datatags API
-  slug: university-of-north-carolina-at-chapel-hill-datatags-api
-- description: The DataverseFeaturedItems API from University of North Carolina at Chapel Hill — 1 operation(s) for dataversefeatureditems.
-  name: University of North Carolina at Chapel Hill DataverseFeaturedItems API
-  slug: university-of-north-carolina-at-chapel-hill-dataversefeatureditems-api
-- description: The Dataverses API from University of North Carolina at Chapel Hill — 40 operation(s) for dataverses.
-  name: University of North Carolina at Chapel Hill Dataverses API
-  slug: university-of-north-carolina-at-chapel-hill-dataverses-api
-- description: The Edit API from University of North Carolina at Chapel Hill — 1 operation(s) for edit.
-  name: University of North Carolina at Chapel Hill Edit API
-  slug: university-of-north-carolina-at-chapel-hill-edit-api
-- description: The ExternalTools API from University of North Carolina at Chapel Hill — 2 operation(s) for externaltools.
-  name: University of North Carolina at Chapel Hill ExternalTools API
-  slug: university-of-north-carolina-at-chapel-hill-externaltools-api
-- description: The Files API from University of North Carolina at Chapel Hill — 21 operation(s) for files.
-  name: University of North Carolina at Chapel Hill Files API
-  slug: university-of-north-carolina-at-chapel-hill-files-api
-- description: The Harvest API from University of North Carolina at Chapel Hill — 7 operation(s) for harvest.
-  name: University of North Carolina at Chapel Hill Harvest API
-  slug: university-of-north-carolina-at-chapel-hill-harvest-api
-- description: The Inbox API from University of North Carolina at Chapel Hill — 1 operation(s) for inbox.
-  name: University of North Carolina at Chapel Hill Inbox API
-  slug: university-of-north-carolina-at-chapel-hill-inbox-api
-- description: The Info API from University of North Carolina at Chapel Hill — 50 operation(s) for info.
-  name: University of North Carolina at Chapel Hill Info API
-  slug: university-of-north-carolina-at-chapel-hill-info-api
-- description: The Ingest API from University of North Carolina at Chapel Hill — 1 operation(s) for ingest.
-  name: University of North Carolina at Chapel Hill Ingest API
-  slug: university-of-north-carolina-at-chapel-hill-ingest-api
-- description: The Licenses API from University of North Carolina at Chapel Hill — 6 operation(s) for licenses.
-  name: University of North Carolina at Chapel Hill Licenses API
-  slug: university-of-north-carolina-at-chapel-hill-licenses-api
-- description: The Localcontexts API from University of North Carolina at Chapel Hill — 2 operation(s) for localcontexts.
-  name: University of North Carolina at Chapel Hill Localcontexts API
-  slug: university-of-north-carolina-at-chapel-hill-localcontexts-api
-- description: The Logout API from University of North Carolina at Chapel Hill — 1 operation(s) for logout.
-  name: University of North Carolina at Chapel Hill Logout API
-  slug: university-of-north-carolina-at-chapel-hill-logout-api
-- description: The Mail API from University of North Carolina at Chapel Hill — 1 operation(s) for mail.
-  name: University of North Carolina at Chapel Hill Mail API
-  slug: university-of-north-carolina-at-chapel-hill-mail-api
-- description: The Meta API from University of North Carolina at Chapel Hill — 2 operation(s) for meta.
-  name: University of North Carolina at Chapel Hill Meta API
-  slug: university-of-north-carolina-at-chapel-hill-meta-api
-- description: The Metadatablocks API from University of North Carolina at Chapel Hill — 2 operation(s) for metadatablocks.
-  name: University of North Carolina at Chapel Hill Metadatablocks API
-  slug: university-of-north-carolina-at-chapel-hill-metadatablocks-api
-- description: The Mydata API from University of North Carolina at Chapel Hill — 2 operation(s) for mydata.
-  name: University of North Carolina at Chapel Hill Mydata API
-  slug: university-of-north-carolina-at-chapel-hill-mydata-api
-- description: The Notifications API from University of North Carolina at Chapel Hill — 8 operation(s) for notifications.
-  name: University of North Carolina at Chapel Hill Notifications API
-  slug: university-of-north-carolina-at-chapel-hill-notifications-api
-- description: The Pids API from University of North Carolina at Chapel Hill — 6 operation(s) for pids.
-  name: University of North Carolina at Chapel Hill Pids API
-  slug: university-of-north-carolina-at-chapel-hill-pids-api
-- description: Replace a file to a dataset
-  name: University of North Carolina at Chapel Hill replaceFilesInDataset API
-  slug: university-of-north-carolina-at-chapel-hill-replacefilesindataset-api
-- description: The Roles API from University of North Carolina at Chapel Hill — 3 operation(s) for roles.
-  name: University of North Carolina at Chapel Hill Roles API
-  slug: university-of-north-carolina-at-chapel-hill-roles-api
-- description: Save Auxiliary File With Version
-  name: University of North Carolina at Chapel Hill saveAuxiliaryFileWithVersion API
-  slug: university-of-north-carolina-at-chapel-hill-saveauxiliaryfilewithversion-api
-- description: The Search API from University of North Carolina at Chapel Hill — 2 operation(s) for search.
-  name: University of North Carolina at Chapel Hill Search API
-  slug: university-of-north-carolina-at-chapel-hill-search-api
-- description: The Sendfeedback API from University of North Carolina at Chapel Hill — 1 operation(s) for sendfeedback.
-  name: University of North Carolina at Chapel Hill Sendfeedback API
-  slug: university-of-north-carolina-at-chapel-hill-sendfeedback-api
-- description: Uploads a logo for a dataset
-  name: University of North Carolina at Chapel Hill uploadDatasetLogo API
-  slug: university-of-north-carolina-at-chapel-hill-uploaddatasetlogo-api
-- description: The Users API from University of North Carolina at Chapel Hill — 10 operation(s) for users.
-  name: University of North Carolina at Chapel Hill Users API
-  slug: university-of-north-carolina-at-chapel-hill-users-api
-- description: The Workflows API from University of North Carolina at Chapel Hill — 1 operation(s) for workflows.
-  name: University of North Carolina at Chapel Hill Workflows API
-  slug: university-of-north-carolina-at-chapel-hill-workflows-api
-artifact_total: 90
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Dataverse Access API
-  slug: open-university-of-north-carolina-at-chapel-hill-access-api
-- collection_type: open
-  name: Dataverse Access addFilesToDataset API
-  slug: open-university-of-north-carolina-at-chapel-hill-addfilestodataset-api
-- collection_type: open
-  name: Dataverse Access addFileToDataset API
-  slug: open-university-of-north-carolina-at-chapel-hill-addfiletodataset-api
-- collection_type: open
-  name: Dataverse Access addGlobusFilesToDataset API
-  slug: open-university-of-north-carolina-at-chapel-hill-addglobusfilestodataset-api
-- collection_type: open
-  name: Dataverse Access Admin API
-  slug: open-university-of-north-carolina-at-chapel-hill-admin-api
-- collection_type: open
-  name: Dataverse Access Batch API
-  slug: open-university-of-north-carolina-at-chapel-hill-batch-api
-- collection_type: open
-  name: Dataverse Access Builtin Users API
-  slug: open-university-of-north-carolina-at-chapel-hill-builtin-users-api
-- collection_type: open
-  name: Dataverse Access Datasetfields API
-  slug: open-university-of-north-carolina-at-chapel-hill-datasetfields-api
-- collection_type: open
-  name: Dataverse Access Datasets API
-  slug: open-university-of-north-carolina-at-chapel-hill-datasets-api
-- collection_type: open
-  name: Dataverse Access Datatags API
-  slug: open-university-of-north-carolina-at-chapel-hill-datatags-api
-- collection_type: open
-  name: Dataverse Access DataverseFeaturedItems API
-  slug: open-university-of-north-carolina-at-chapel-hill-dataversefeatureditems-api
-- collection_type: open
-  name: Dataverse Access Dataverses API
-  slug: open-university-of-north-carolina-at-chapel-hill-dataverses-api
-- collection_type: open
-  name: Dataverse Access Edit API
-  slug: open-university-of-north-carolina-at-chapel-hill-edit-api
-- collection_type: open
-  name: Dataverse Access ExternalTools API
-  slug: open-university-of-north-carolina-at-chapel-hill-externaltools-api
-- collection_type: open
-  name: Dataverse Access Files API
-  slug: open-university-of-north-carolina-at-chapel-hill-files-api
-- collection_type: open
-  name: Dataverse Access Harvest API
-  slug: open-university-of-north-carolina-at-chapel-hill-harvest-api
-- collection_type: open
-  name: Dataverse Access Inbox API
-  slug: open-university-of-north-carolina-at-chapel-hill-inbox-api
-- collection_type: open
-  name: Dataverse Access Info API
-  slug: open-university-of-north-carolina-at-chapel-hill-info-api
-- collection_type: open
-  name: Dataverse Access Ingest API
-  slug: open-university-of-north-carolina-at-chapel-hill-ingest-api
-- collection_type: open
-  name: Dataverse Access Licenses API
-  slug: open-university-of-north-carolina-at-chapel-hill-licenses-api
-- collection_type: open
-  name: Dataverse Access Localcontexts API
-  slug: open-university-of-north-carolina-at-chapel-hill-localcontexts-api
-- collection_type: open
-  name: Dataverse Access Logout API
-  slug: open-university-of-north-carolina-at-chapel-hill-logout-api
-- collection_type: open
-  name: Dataverse Access Mail API
-  slug: open-university-of-north-carolina-at-chapel-hill-mail-api
-- collection_type: open
-  name: Dataverse Access Meta API
-  slug: open-university-of-north-carolina-at-chapel-hill-meta-api
-- collection_type: open
-  name: Dataverse Access Metadatablocks API
-  slug: open-university-of-north-carolina-at-chapel-hill-metadatablocks-api
-- collection_type: open
-  name: Dataverse Access Mydata API
-  slug: open-university-of-north-carolina-at-chapel-hill-mydata-api
-- collection_type: open
-  name: Dataverse Access Notifications API
-  slug: open-university-of-north-carolina-at-chapel-hill-notifications-api
-- collection_type: open
-  name: Dataverse Access Pids API
-  slug: open-university-of-north-carolina-at-chapel-hill-pids-api
-- collection_type: open
-  name: Dataverse Access replaceFilesInDataset API
-  slug: open-university-of-north-carolina-at-chapel-hill-replacefilesindataset-api
-- collection_type: open
-  name: Dataverse Access Roles API
-  slug: open-university-of-north-carolina-at-chapel-hill-roles-api
-- collection_type: open
-  name: Dataverse Access saveAuxiliaryFileWithVersion API
-  slug: open-university-of-north-carolina-at-chapel-hill-saveauxiliaryfilewithversion-api
-- collection_type: open
-  name: Dataverse Access Search API
-  slug: open-university-of-north-carolina-at-chapel-hill-search-api
-- collection_type: open
-  name: Dataverse Access Sendfeedback API
-  slug: open-university-of-north-carolina-at-chapel-hill-sendfeedback-api
-- collection_type: open
-  name: Dataverse Access uploadDatasetLogo API
-  slug: open-university-of-north-carolina-at-chapel-hill-uploaddatasetlogo-api
-- collection_type: open
-  name: Dataverse Access Users API
-  slug: open-university-of-north-carolina-at-chapel-hill-users-api
-- collection_type: open
-  name: Dataverse Access Workflows API
-  slug: open-university-of-north-carolina-at-chapel-hill-workflows-api
+  slug: facilities-spots
+- description: UNC Dataverse, the Odum Institute's research data repository, runs Dataverse 6.8 and exposes the Dataverse Native REST API at /api. GET /api/info/version is keyless and returned {"version":"6.8","buil
+  name: UNC Dataverse Native REST API (Dataverse deployment)
+  slug: dataverse-native-api
+- description: The University Catalog exposes a keyless JSON course-search API at /course-search/api/?page=fose&route=search. A POST carrying a criteria array returns {"srcdb","count","results":[{"key","code","srcdb
+  name: UNC Catalog Course Search API (CourseLeaf)
+  slug: course-catalog-search
+- description: UNC-Chapel Hill's campus open-data site for geospatial and institutional datasets, published through ArcGIS Hub. The DCAT-US 1.1 catalog feed at /api/feed/dcat-us/1.1.json returned 48,189 bytes of app
+  name: UNC GIS Open Data Hub (ArcGIS Hub DCAT-US)
+  slug: gis-opendata
+- description: '"Search the Special Collections", UNC University Library''s discovery layer over its digitized special collections. A WordPress front at the root fronts an OCLC CONTENTdm 6.10 installation that handles'
+  name: UNC Digital Collections Search (OCLC CONTENTdm)
+  slug: digital-collections
+artifact_total: 14
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/university-of-north-carolina-at-chapel-hill-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/university-of-north-carolina-at-chapel-hill-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://www.unc.edu/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://github.com/UNC-Libraries/box-c
 - group: build
   title: ''
-  type: GitHub
-  url: https://github.com/unc-libraries
-- group: company
+  type: GitHubOrganization
+  url: https://github.com/UNC-Libraries
+- group: other
   title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/unc-chapel-hill/
+  type: ResearchRepository
+  url: https://dcr.lib.unc.edu/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://dataverse.unc.edu/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://catalog.lib.unc.edu/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://catalog.unc.edu/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://gisdata-uncadmin.opendata.arcgis.com/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://sso.unc.edu/idp/shibboleth
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://mdq.incommon.org/entities/urn:mace:incommon:unc.edu
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://help.rc.unc.edu/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://ai.unc.edu/ai-guidance-for-faculty/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://ai.unc.edu/staff-generative-ai-usage-guidance/
+- group: build
+  title: ''
+  type: AITooling
+  url: https://ai.unc.edu/tools/
 - group: auth
   title: ''
   type: Authentication
   url: https://sso.unc.edu/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://policies.unc.edu/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.unc.edu/about/privacy-statement/
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.unc.edu/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.unc.edu/feed/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/unc-chapel-hill/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/university-of-north-carolina-at-chapel-hill-education-standards-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/university-of-north-carolina-at-chapel-hill-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -314,55 +172,23 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.unc.edu/feed/
 created: '2026-06-03'
-description: 'The University of North Carolina at Chapel Hill is a leading public research university in Chapel Hill, North Carolina, United States, ranked #155 in the QS World University Rankings 2025. Its public developer and API footprint is centered on research and open-data infrastructure rather than a single unified developer portal: UNC Dataverse exposes a live, documented native REST API for social-science and research data (running Dataverse 6.8), the campus ArcGIS Hub open-data site publishes geospatial data through DCAT-US feeds and ArcGIS REST services, and the UNC Libraries software-development team maintains a public GitHub organization with the box-c Digital Collections Repository and other open-source tooling. Most administrative and student-information-system APIs (such as the Facilities SPOTS REST API and campus single sign-on) are gated behind Onyen/Shibboleth authentication.'
-examples:
-- key_count: 2
-  name: University Of North Carolina At Chapel Hill Info Version Example
-  slug: university-of-north-carolina-at-chapel-hill-info-version-example
-- key_count: 2
-  name: University Of North Carolina At Chapel Hill Search Example
-  slug: university-of-north-carolina-at-chapel-hill-search-example
+description: 'The University of North Carolina at Chapel Hill is a public research university in Chapel Hill, North Carolina, a member of the Association of American Universities and the flagship of the seventeen-campus University of North Carolina System. It operates no central developer portal, no API gateway, and publishes no OpenAPI of its own — but it does run several genuinely institution-engineered machine-readable surfaces. The strongest is the Carolina Digital Repository services API at dcr.lib.unc.edu, including IIIF Presentation 3.0 and Image 3.0 endpoints, served by box-c, a repository application UNC Libraries writes and maintains in the open on GitHub. Alongside it are two Blacklight JSON search APIs on UNC''s own hardware (the TRLN Discovery library catalog and the Wilson Library finding aids), an OAI-PMH 2.0 archive on UNC Dataverse advertising DataCite metadata, and UNC''s own Shibboleth/InCommon SAML 2.0 metadata. The rest of the programmable footprint is tenant relationships
+  rather than UNC engineering: the UNC Dataverse native REST API is the Dataverse product''s contract, the course-catalog search API is Leepfrog CourseLeaf''s, the GIS open-data hub is Esri ArcGIS Hub''s, and the Digital Collections search at dc.lib.unc.edu is OCLC CONTENTdm. The Facilities SPOTS REST API is institution-operated but its documentation is entirely Onyen-gated and could not be read.'
 finops:
 - name: University Of North Carolina At Chapel Hill Finops
   service_category: Education
   slug: university-of-north-carolina-at-chapel-hill-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-north-carolina-at-chapel-hill.png
-json_schemas:
-- name: Dataverse Dataset
-  property_count: 16
-  slug: university-of-north-carolina-at-chapel-hill-dataset
-- name: Dataverse Info Version Response
-  property_count: 2
-  slug: university-of-north-carolina-at-chapel-hill-info-version
-json_structures:
-- name: University Of North Carolina At Chapel Hill Dataset Structure
-  property_count: 10
-  slug: university-of-north-carolina-at-chapel-hill-dataset-structure
-- name: University Of North Carolina At Chapel Hill Info Version Structure
-  property_count: 2
-  slug: university-of-north-carolina-at-chapel-hill-info-version-structure
-jsonld:
-- class_count: 8
-  name: University Of North Carolina At Chapel Hill Context
-  property_count: 4
-  slug: university-of-north-carolina-at-chapel-hill-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: University of North Carolina at Chapel Hill
 nav: Providers
 network: true
-overview: 'University of North Carolina at Chapel Hill publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Access API, addFilesToDataset API, addFileToDataset API, and 33 more. Tagged areas include Education, Higher Education, University, Research Data, and Open Data.
+overview: 'University of North Carolina at Chapel Hill publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Public Research University, and United States.
 
 
-  The University of North Carolina at Chapel Hill catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  University of North Carolina at Chapel Hill''s developer surface includes GitHub presence, authentication, engineering blog, and 8 more developer resources.'
+  University of North Carolina at Chapel Hill''s developer surface includes documentation, authentication, support, engineering blog, and 22 more developer resources.'
 plans:
 - name: University Of North Carolina At Chapel Hill Plans Pricing
   plan_count: 2
@@ -372,41 +198,25 @@ rate_limits:
 - limit_count: 1
   name: University Of North Carolina At Chapel Hill Rate Limits
   slug: university-of-north-carolina-at-chapel-hill-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: University of North Carolina at Chapel Hill API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 3
-  slug: university-of-north-carolina-at-chapel-hill-jsonschema-spectral-rules
-- effective_rule_count: 5
-  extends: []
-  name: University of North Carolina at Chapel Hill API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 1
-    info: 2
-    warn: 2
-  slug: university-of-north-carolina-at-chapel-hill-rules
 score:
   band: thin
-  composite: 33.1
-  delta: 1.9
+  composite: 29.5
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -3.6
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 45.6
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 0.0
+    contract_quality: 9.3
     developer_ergonomics: 23.8
-    discoverability: 59.3
-    governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 31.2
+    discoverability: 64.8
+    governance: 0.0
+    operational_transparency: 23.7
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
@@ -419,9 +229,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 46.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-north-carolina-at-chapel-hill/refs/heads/main/screenshots/university-of-north-carolina-at-chapel-hill-2026-06-20T200208.png
 security:
@@ -434,11 +244,18 @@ tags:
 - Education
 - Higher Education
 - University
-- Research Data
-- Open Data
-- Geospatial
-- Digital Library
+- Public Research University
 - United States
 - North Carolina
+- University of North Carolina System
+- Association of American Universities
+- Research Data
+- Open Data
+- Digital Library
+- Library
+- Course Catalog
+- Identity Federation
+- Geospatial
+- Open-Source
 website: https://www.unc.edu/
 ---

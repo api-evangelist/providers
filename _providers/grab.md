@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: grab-agentic-access
   summary_line: 12 operations · 8 acting
-api_count: 19
+api_count: 1
 apis:
 - description: Grab ID is Grab's OAuth 2.0 / OpenID Connect identity provider. Partner applications use the Login With Grab flow to authenticate Grab consumers and obtain ID and access tokens scoped to a specific Gr
   name: Login With Grab (Grab ID) API
@@ -119,6 +119,10 @@ collections:
   name: Grab Partner APIs (GrabID, GrabPay, GrabExpress)
   slug: open-grab
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/grab-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -199,10 +203,10 @@ modified: '2026-05-23'
 name: Grab
 nav: Providers
 network: true
-overview: 'Grab publishes 3 APIs on the [APIs.io](https://apis.io/) network: GrabExpress API, GrabID API, and GrabPay API. Tagged areas include Ride Hailing, Food Delivery, Last-Mile Logistics, Digital Payments, and Super App.
+overview: 'Grab publishes 3 APIs on the [APIs.io](https://apis.io/) network: GrabExpress API, GrabID API, and GrabPay API. Tagged areas include Ride Hailing, Food Delivery, Last-Mile Logistics, Digital Payments, and Superapp.
 
 
-  Grab''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 13 more developer resources.'
+  Grab''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 14 more developer resources.'
 plans:
 - name: Grab Plans Pricing
   plan_count: 1
@@ -214,18 +218,23 @@ rate_limits:
   slug: grab-rate-limits
 score:
   band: thin
-  composite: 32.3
-  delta: 0.0
+  composite: 32.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 46.5
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 32.3
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     contracts:
@@ -239,8 +248,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 28.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/screenshots/grab-2026-06-20T182311.png
 security:
@@ -262,7 +271,7 @@ tags:
 - Food Delivery
 - Last-Mile Logistics
 - Digital Payments
-- Super App
+- Superapp
 - Southeast Asia
 - Identity
 - Loyalty

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 19
   slug: aruba-agentic-access
   summary_line: 19 operations · 8 acting
-api_count: 11
+api_count: 1
 apis:
 - description: REST API for ClearPass Policy Manager providing role- and device-based secure network access control for IoT, BYOD, corporate devices, as well as employees, contractors, and guests across any multiven
   name: Aruba ClearPass API
@@ -101,6 +101,10 @@ collections:
   name: Aruba Central Access Points Sites API
   slug: open-aruba-sites-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/aruba-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -494,7 +498,7 @@ overview: 'Aruba publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
   The Aruba catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Aruba''s developer surface includes authentication, engineering blog, support, and 9 more developer resources.'
+  Aruba''s developer surface includes authentication, engineering blog, support, and 10 more developer resources.'
 plans:
 - name: Aruba Plans Pricing
   plan_count: 1
@@ -528,18 +532,23 @@ rules:
   slug: aruba-spectral-rules
 score:
   band: developing
-  composite: 44.9
-  delta: 8.3
+  composite: 45.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 70.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 13.6
     contract_quality: 65.6
     developer_ergonomics: 65.5
-    discoverability: 55.6
+    discoverability: 57.4
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 36.6
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -547,9 +556,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/screenshots/aruba-2026-06-20T172454.png
 security:
 - kind: authentication

@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-26'
-api_count: 12
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The client-api-assessment-rest-resource API from VISO Trust (Protecht) — 7 operation(s) for client-api-assessment-rest-resource.
   name: VISO Trust (Protecht) client-api-assessment-rest-resource API
@@ -227,19 +227,24 @@ overview: 'VISO Trust (Protecht) publishes 12 APIs on the [APIs.io](https://apis
   VISO Trust (Protecht)''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, and 16 more developer resources.'
 random_paper: 16
 score:
-  band: developing
-  composite: 40.6
-  delta: 0.0
+  band: thin
+  composite: 38.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 56.7
     developer_ergonomics: 42.3
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 40.6
+  previous_composite: 39.1
   provenance:
     conformance: derived
     contracts:
@@ -249,8 +254,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viso-trust-protecht/refs/heads/main/screenshots/viso-trust-protecht-2026-08-17T082805.png
 security:

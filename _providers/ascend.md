@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 86
   slug: ascend-agentic-access
   summary_line: 86 operations · 49 acting
-api_count: 23
+api_count: 1
 apis:
 - description: The Accounts API from Ascend — 2 operation(s) for accounts.
   name: Ascend Accounts API
@@ -193,6 +193,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/ascend-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/ascend-openapi-overlay.yaml
 - group: agent
@@ -311,28 +315,33 @@ modified: '2026-07-18'
 name: Ascend
 nav: Providers
 network: true
-overview: 'Ascend publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Billables API, and 20 more. Tagged areas include Company, Fintech, Insurance, Insurtech, and Payments.
+overview: 'Ascend publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Billables API, and 20 more. Tagged areas include Company, Fintech, Insurance, InsurTech, and Payments.
 
 
   The Ascend catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ascend''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 20 more developer resources.'
+  Ascend''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 21 more developer resources.'
 random_paper: 13
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 48.3
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 58.9
     developer_ergonomics: 44.6
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 50.3
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -349,8 +358,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/screenshots/ascend-2026-07-25T201401.png
 security:
@@ -371,7 +380,7 @@ tags:
 - Company
 - Fintech
 - Insurance
-- Insurtech
+- InsurTech
 - Payments
 - Premium Financing
 - Billing

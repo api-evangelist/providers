@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 15
 apis:
 - description: The Basketball Common API API from iSports API — 5 operation(s) for basketball common api.
@@ -595,16 +595,21 @@ rate_limits:
   slug: isports-api-rate-limits
 score:
   band: developing
-  composite: 45.7
-  delta: 0.7
+  composite: 45.0
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 16.0
     developer_ergonomics: 73.2
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 18.4
   previous_composite: 45.0
   provenance:
@@ -615,8 +620,8 @@ score:
       marker_coverage: 100.0
       total: 15
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/screenshots/isports-api-2026-08-17T081004.png
 security:
@@ -637,7 +642,7 @@ tags:
 - Odds
 - Live Data
 - Sports Statistics
-- Live Scores
+- Livescores
 - Widgets
 - REST API
 website: https://www.isportsapi.com/en/

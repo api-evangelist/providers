@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-08-26'
-api_count: 21
+  scored_at: '2026-08-30'
+api_count: 6
 apis:
 - description: The Asset Custom Fieldsets API from Knak — 2 operation(s) for asset custom fieldsets.
   name: Knak Asset Custom Fieldsets API
@@ -100,7 +100,25 @@ apis:
 - description: The Custom Validator contract — 1 operation. This is a contract the CUSTOMER implements so Knak can run assets through their own validation pipeline; the base URL is the placeholder host Knak publishe
   name: Knak Validation API
   slug: knak-validation-api
-artifact_total: 52
+- description: The asset.approval_status_updated API from Knak — 0 operation(s) for asset.approval_status_updated.
+  name: Knak Asset.approval Status Updated API
+  slug: knak-asset-approval-status-updated-api
+- description: The asset.created API from Knak — 0 operation(s) for asset.created.
+  name: Knak Asset.created API
+  slug: knak-asset-created-api
+- description: The asset.sync_confirmation_responded API from Knak — 0 operation(s) for asset.sync_confirmation_responded.
+  name: Knak Asset.sync Confirmation Responded API
+  slug: knak-asset-sync-confirmation-responded-api
+- description: The asset.sync_requested API from Knak — 0 operation(s) for asset.sync_requested.
+  name: Knak Asset.sync Requested API
+  slug: knak-asset-sync-requested-api
+- description: The asset.translation_requested API from Knak — 0 operation(s) for asset.translation_requested.
+  name: Knak Asset.translation Requested API
+  slug: knak-asset-translation-requested-api
+- description: The translation_request.created API from Knak — 0 operation(s) for translation_request.created.
+  name: Knak Translation Request.created API
+  slug: knak-translation-request-created-api
+artifact_total: 58
 asyncapis:
 - description: ''
   name: Knak Enterprise Webhooks
@@ -173,6 +191,10 @@ collections:
   name: Knak Custom Validator API Reference — Validation
   slug: open-knak-validation-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/knak-capability-edges.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -345,13 +367,13 @@ modified: '2026-08-13'
 name: Knak
 nav: Providers
 network: true
-overview: 'Knak publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Asset Custom Fieldsets API, AssetFolders API, Assets API, and 18 more. Tagged areas include Company, Email Marketing, Marketing Automation, Landing Pages, and Content Creation.
+overview: 'Knak publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Asset Custom Fieldsets API, AssetFolders API, Assets API, and 24 more. Tagged areas include Company, Email Marketing, Marketing Automation, Landing Pages, and Content Creation.
 
 
   The Knak catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Knak''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
+  Knak''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
 plans:
 - name: Knak Plans Pricing
   plan_count: 0
@@ -368,18 +390,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 58.7
+  composite: 56.5
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
-    contract_quality: 63.1
+    contract_governance: 4.5
+    contract_quality: 61.6
     developer_ergonomics: 58.9
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 58.7
+  previous_composite: 56.5
   provenance:
     conformance: derived
     contracts:
@@ -389,8 +416,8 @@ score:
       total: 21
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/screenshots/knak-2026-07-25T223953.png
 security:

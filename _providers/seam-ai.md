@@ -12,9 +12,8 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: false
     agentic_commerce: false
@@ -34,15 +33,19 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-26'
+  score: 32.9
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: The Seam AI Enrichment API enriches customer data with generative AI and traditional third-party data providers. It exposes an OpenAI-compatible chat-completions surface — a single POST /v1/chat/compl
-  name: Seam AI Enrichment API
-  slug: seam-ai-enrichment-api
+- description: The Completions API from Seam AI — 1 operation(s) for completions.
+  name: Seam AI Completions API
+  slug: seam-ai-completions-api
 artifact_total: 6
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/seam-ai-enrichment-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -155,10 +158,10 @@ modified: '2026-08-13'
 name: Seam AI
 nav: Providers
 network: true
-overview: 'Seam AI publishes 1 API on the [APIs.io](https://apis.io/) network: Enrichment API. Tagged areas include Company, Ai Ml, Account Based Marketing, Sales Intelligence, and Marketing.
+overview: 'Seam AI publishes 1 API on the [APIs.io](https://apis.io/) network: Completions API. Tagged areas include Company, Ai Ml, Account Based Marketing, Sales Intelligence, and Marketing.
 
 
-  Seam AI''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
+  Seam AI''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
 plans:
 - name: Seam Ai Plans Pricing
   plan_count: 3
@@ -170,18 +173,23 @@ rate_limits:
   slug: seam-ai-rate-limits
 score:
   band: developing
-  composite: 51.5
-  delta: -0.9
+  composite: 50.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 55.8
     developer_ergonomics: 47.6
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 52.4
+  previous_composite: 50.1
   provenance:
     conformance: first-party
     contracts:
@@ -191,8 +199,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seam-ai/refs/heads/main/screenshots/seam-ai-2026-08-17T081740.png
 security:

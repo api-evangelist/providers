@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 223
   human_in_the_loop: 6
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 335
   slug: logto-agentic-access
   summary_line: 335 operations · 223 acting · 6 human-in-the-loop
-api_count: 39
+api_count: 1
 apis:
 - description: Customize your account API settings.
   name: Logto Account center API
@@ -284,6 +284,10 @@ collections:
   name: Logto API references Account center Well-known API
   slug: open-logto-well-known-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/logto-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -363,7 +367,7 @@ network: true
 overview: 'Logto publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Account center API, Applications API, Audit logs API, and 36 more. Tagged areas include Authentication, Authorization, Identity, OIDC, and SAML.
 
 
-  Logto''s developer surface includes authentication, documentation, engineering blog, and 13 more developer resources.'
+  Logto''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
 plans:
 - name: Logto Plans Pricing
   plan_count: 3
@@ -380,17 +384,25 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 31.4
-  delta: 0.0
+  composite: 34.2
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 2.8
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 55.0
     developer_ergonomics: 23.8
-    discoverability: 63.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 65.0
   previous_composite: 31.4
   provenance:
     agentic_access: derived
@@ -399,8 +411,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logto/refs/heads/main/screenshots/logto-2026-06-20T184700.png
 security:

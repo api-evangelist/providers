@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Free keyless RESTful JSON API serving random anime/neko images across many categories with rich metadata, a tags endpoint, session mechanism, and content ratings.
@@ -189,7 +189,7 @@ modified: '2026-08-19'
 name: Nekosia API
 nav: Providers
 network: true
-overview: 'Nekosia API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anime, neko, nekos, neko api, and booru.
+overview: 'Nekosia API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include anime, neko, nekos, neko api, and booru.
 
 
   Nekosia API''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, code examples, and 25 more developer resources.'
@@ -204,7 +204,12 @@ rate_limits:
   slug: nekosia-rate-limits
 score:
   band: thin
-  composite: 33.5
+  composite: 33.1
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 27.6
@@ -212,15 +217,15 @@ score:
     contract_governance: 18.2
     contract_quality: 6.7
     developer_ergonomics: 61.9
-    discoverability: 79.6
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 33.5
+  previous_composite: 33.1
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -237,15 +242,15 @@ security:
   summary_line: security.txt · contact published
 slug: nekosia
 tags:
-- Anime
+- anime
 - neko
 - nekos
 - neko api
 - booru
 - Image
 - Media
-- Entertainment
-- Free API
-- Open Access
+- entertainment
+- free api
+- open access
 website: https://nekosia.cat/
 ---

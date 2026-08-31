@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 135
   slug: swell-io-agentic-access
   summary_line: 135 operations · 71 acting · 1 human-in-the-loop
-api_count: 34
+api_count: 2
 apis:
 - description: 'Experimental (alpha) GraphQL endpoint that exposes a curated subset of the storefront commerce model — products, attributes, categories, accounts, sessions, carts, orders, payments, payment settings, '
   name: Swell GraphQL API
@@ -730,18 +730,23 @@ rules:
   slug: swell-rules
 score:
   band: exemplar
-  composite: 68.1
-  delta: 2.3
+  composite: 68.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 35.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 28.8
-    contract_quality: 68.6
+    contract_quality: 67.9
     developer_ergonomics: 85.7
-    discoverability: 50.0
+    discoverability: 53.7
     governance: 28.8
     operational_transparency: 57.9
-  previous_composite: 65.8
+  previous_composite: 68.9
   provenance:
     agentic_access: derived
     contracts:
@@ -755,8 +760,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/screenshots/swell-io-2026-06-20T194803.png
 security:

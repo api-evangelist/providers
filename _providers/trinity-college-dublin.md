@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: TARA is Trinity College Dublin's open-access institutional repository, built on DSpace. It exposes an OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) interface for harvesting Dubli
@@ -44,6 +44,10 @@ apis:
   slug: digital-collections-iiif
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/TCDLibrary/TCD-Hyrax-Web-App/issues
 - group: auth
   title: ''
   type: DomainSecurity
@@ -88,10 +92,6 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 - group: design
   title: ''
   type: JSONLD
@@ -119,7 +119,7 @@ overview: 'Trinity College Dublin publishes 2 APIs on the [APIs.io](https://apis
   The Trinity College Dublin catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Trinity College Dublin''s developer surface includes GitHub presence, authentication, engineering blog, and 10 more developer resources.'
+  Trinity College Dublin''s developer surface includes GitHub presence, authentication, and 11 more developer resources.'
 plans:
 - name: Trinity College Dublin Plans Pricing
   plan_count: 2
@@ -131,26 +131,34 @@ rate_limits:
   slug: trinity-college-dublin-rate-limits
 score:
   band: emerging
-  composite: 23.1
-  delta: 1.9
+  composite: 20.5
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.4
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 10.7
-    developer_ergonomics: 23.8
+    developer_ergonomics: 21.4
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 21.2
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 20.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/screenshots/trinity-college-dublin-2026-06-20T195720.png
 security:

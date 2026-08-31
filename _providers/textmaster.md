@@ -24,18 +24,83 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: OpenAPI 3.0.3-described REST API for ordering and managing translation, proofreading and copywriting work. 54 operations across Projects (create, quote, finalize, launch sync/async, pause, resume, can
-  name: TextMaster API v1
-  slug: textmaster-api-v1
-artifact_total: 9
+- description: The Abilities API from TextMaster — 1 operation(s) for abilities.
+  name: TextMaster Abilities API
+  slug: textmaster-abilities-api
+- description: The API Templates API from TextMaster — 2 operation(s) for api templates.
+  name: TextMaster API Templates API
+  slug: textmaster-api-templates-api
+- description: The Authors API from TextMaster — 1 operation(s) for authors.
+  name: TextMaster Authors API
+  slug: textmaster-authors-api
+- description: The Categories API from TextMaster — 1 operation(s) for categories.
+  name: TextMaster Categories API
+  slug: textmaster-categories-api
+- description: The Countries API from TextMaster — 1 operation(s) for countries.
+  name: TextMaster Countries API
+  slug: textmaster-countries-api
+- description: The Documents API from TextMaster — 7 operation(s) for documents.
+  name: TextMaster Documents API
+  slug: textmaster-documents-api
+- description: The Expertises API from TextMaster — 3 operation(s) for expertises.
+  name: TextMaster Expertises API
+  slug: textmaster-expertises-api
+- description: The Glossaries API from TextMaster — 1 operation(s) for glossaries.
+  name: TextMaster Glossaries API
+  slug: textmaster-glossaries-api
+- description: The Invoices API from TextMaster — 1 operation(s) for invoices.
+  name: TextMaster Invoices API
+  slug: textmaster-invoices-api
+- description: The Languages API from TextMaster — 1 operation(s) for languages.
+  name: TextMaster Languages API
+  slug: textmaster-languages-api
+- description: The Locales API from TextMaster — 1 operation(s) for locales.
+  name: TextMaster Locales API
+  slug: textmaster-locales-api
+- description: The My Authors API from TextMaster — 3 operation(s) for my authors.
+  name: TextMaster My Authors API
+  slug: textmaster-my-authors-api
+- description: The Negotiated Contracts API from TextMaster — 1 operation(s) for negotiated contracts.
+  name: TextMaster Negotiated Contracts API
+  slug: textmaster-negotiated-contracts-api
+- description: The Projects API from TextMaster — 14 operation(s) for projects.
+  name: TextMaster Projects API
+  slug: textmaster-projects-api
+- description: The Receipts API from TextMaster — 1 operation(s) for receipts.
+  name: TextMaster Receipts API
+  slug: textmaster-receipts-api
+- description: The Support Messages API from TextMaster — 1 operation(s) for support messages.
+  name: TextMaster Support Messages API
+  slug: textmaster-support-messages-api
+- description: The Transactions API from TextMaster — 1 operation(s) for transactions.
+  name: TextMaster Transactions API
+  slug: textmaster-transactions-api
+- description: The UploadProperties API from TextMaster — 1 operation(s) for uploadproperties.
+  name: TextMaster Upload Properties API
+  slug: textmaster-uploadproperties-api
+- description: The Users API from TextMaster — 2 operation(s) for users.
+  name: TextMaster Users API
+  slug: textmaster-users-api
+- description: The Work Templates API from TextMaster — 2 operation(s) for work templates.
+  name: TextMaster Work Templates API
+  slug: textmaster-work-templates-api
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Textmaster Event Surface
   slug: textmaster-event-surface
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/textmaster-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/textmaster-api-v1-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -144,13 +209,13 @@ modified: '2026-08-17'
 name: TextMaster
 nav: Providers
 network: true
-overview: 'TextMaster publishes 1 API on the [APIs.io](https://apis.io/) network: API v1. Tagged areas include Company, Translation, Localization, Language Services, and Copywriting.
+overview: 'TextMaster publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Abilities API, API Templates API, Authors API, and 17 more. Tagged areas include Company, Translation, Localization, Language Services, and Copywriting.
 
 
   The TextMaster catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  TextMaster''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, and 19 more developer resources.'
+  TextMaster''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, and 21 more developer resources.'
 plans:
 - name: Textmaster Plans Pricing
   plan_count: 0
@@ -167,18 +232,23 @@ scopes:
   summary_line: 22 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.0
-  delta: 5.7
+  composite: 46.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
-    contract_governance: 30.3
-    contract_quality: 55.8
+    contract_governance: 18.2
+    contract_quality: 56.3
     developer_ergonomics: 75.6
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 42.3
+  previous_composite: 47.3
   provenance:
     conformance: first-party
     contracts:
@@ -188,9 +258,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Textmaster Authentication

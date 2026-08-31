@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 73
   slug: hellosign-agentic-access
   summary_line: 73 operations · 46 acting
-api_count: 12
+api_count: 1
 apis:
 - description: '{''$ref'': ''./markdown/en/tags/account-tag-description.md''}'
   name: Dropbox Sign (HelloSign) Account API
@@ -80,7 +80,10 @@ apis:
 - description: '{''$ref'': ''./markdown/en/tags/unclaimed-draft-tag-description.md''}'
   name: Dropbox Sign (HelloSign) Unclaimed Draft API
   slug: hellosign-unclaimed-draft-api
-artifact_total: 45
+- description: The Callbacks and Events API from Dropbox Sign (HelloSign) — 0 operation(s) for callbacks and events.
+  name: Dropbox Sign (HelloSign) Callbacks and Events API
+  slug: hellosign-callbacks-and-events-api
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Hellosign Events Webhooks
@@ -162,6 +165,10 @@ collections:
   name: Dropbox Sign Account Unclaimed Draft API
   slug: open-hellosign-unclaimed-draft-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/dropbox/
 - group: other
   title: ''
   type: Overlay
@@ -318,13 +325,13 @@ modified: '2026-07-19'
 name: Dropbox Sign (HelloSign)
 nav: Providers
 network: true
-overview: 'Dropbox Sign (HelloSign) publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account API, Api App API, Bulk Send Job API, and 9 more. Tagged areas include Company, E-Signature, Electronic Signatures, Documents, and Digital Agreements.
+overview: 'Dropbox Sign (HelloSign) publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account API, Api App API, Bulk Send Job API, and 10 more. Tagged areas include Company, eSignature, Electronic Signatures, Documents, and Digital Agreements.
 
 
   The Dropbox Sign (HelloSign) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dropbox Sign (HelloSign)''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
+  Dropbox Sign (HelloSign)''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 30 more developer resources.'
 random_paper: 20
 scopes:
 - name: Hellosign Scopes
@@ -333,18 +340,23 @@ scopes:
   summary_line: 7 scopes
 score:
   band: strong
-  composite: 60.7
-  delta: 0.0
+  composite: 58.3
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
-    contract_quality: 66.5
+    contract_governance: 18.2
+    contract_quality: 64.9
     developer_ergonomics: 68.5
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 60.7
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -355,8 +367,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hellosign/refs/heads/main/screenshots/hellosign-2026-07-25T220935.png
 security:
@@ -379,7 +391,7 @@ security:
 slug: hellosign
 tags:
 - Company
-- E-Signature
+- eSignature
 - Electronic Signatures
 - Documents
 - Digital Agreements

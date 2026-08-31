@@ -32,21 +32,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: Publisher-facing reporting API for the Domob mobile advertising platform. A single POST operation returns delivery and revenue statistics — ad requests, bids, impressions, clicks, CPM and media billin
-  name: Domob Media Data API
-  slug: domob-media-data-api
 - description: Domob's mobile ad exchange, supporting RTB, PMP, PD and PDB buying. Listed on the Domob developer platform's API docking page with a docking document updated 2025-06-13, but that document is hosted on
   name: Domob ADX
   slug: domob-adx
+- description: Media revenue and delivery statistics for a publisher's ad slots.
+  name: domob Reporting API
+  slug: domob-reporting-api
 artifact_total: 8
 collections:
 - collection_type: open
   name: Domob Media Data API
   slug: open-domob-media-data-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/domob-media-data-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -180,10 +184,10 @@ modified: '2026-08-12'
 name: domob
 nav: Providers
 network: true
-overview: 'domob publishes 1 API on the [APIs.io](https://apis.io/) network: Media Data API. Tagged areas include Company, Advertising, Mobile, AdTech, and Marketing.
+overview: 'domob publishes 1 API on the [APIs.io](https://apis.io/) network: Reporting API. Tagged areas include Company, Advertising, Mobile, AdTech, and Marketing.
 
 
-  domob''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
+  domob''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
 plans:
 - name: Domob Plans Pricing
   plan_count: 0
@@ -195,18 +199,23 @@ rate_limits:
   slug: domob-rate-limits
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 44.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.1
   facets:
-    access_clarity: 34.2
-    commercial_clarity: 34.2
-    contract_governance: 12.1
+    access_clarity: 27.6
+    commercial_clarity: 27.6
+    contract_governance: 0.0
     contract_quality: 59.2
-    developer_ergonomics: 73.2
-    discoverability: 68.5
-    governance: 12.1
+    developer_ergonomics: 69.6
+    discoverability: 75.9
+    governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 47.0
+  previous_composite: 46.3
   provenance:
     conformance: derived
     contracts:
@@ -216,8 +225,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domob/refs/heads/main/screenshots/domob-2026-07-25T212250.png
 security:

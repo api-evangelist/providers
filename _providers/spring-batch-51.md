@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 8
   slug: spring-batch-51-agentic-access
   summary_line: 8 operations
-api_count: 4
+api_count: 1
 apis:
 - description: Spring Boot Actuator-based monitoring endpoints for Spring Batch 5.1 applications providing job health, execution status, and Micrometer metrics visibility.
   name: Spring Batch 5.1 Actuator Monitoring
@@ -73,6 +73,14 @@ collections:
   name: Spring Batch 5.1 Actuator API
   slug: open-spring-batch-51
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/spring-projects/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/spring-projects/spring-batch/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -149,7 +157,7 @@ overview: 'Spring Batch 5.1 publishes 3 APIs on the [APIs.io](https://apis.io/) 
   The Spring Batch 5.1 catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spring Batch 5.1''s developer surface includes engineering blog, support, and 6 more developer resources.'
+  Spring Batch 5.1''s developer surface includes engineering blog, support, and 8 more developer resources.'
 plans:
 - name: Spring Batch 51 Plans Pricing
   plan_count: 3
@@ -183,18 +191,26 @@ rules:
   slug: spring-batch-51-rules
 score:
   band: thin
-  composite: 28.3
-  delta: 4.1
+  composite: 31.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 49.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 13.6
     contract_quality: 53.3
     developer_ergonomics: 11.9
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 24.2
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -202,8 +218,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-batch-51/refs/heads/main/screenshots/spring-batch-51-2026-06-20T194406.png
 security:

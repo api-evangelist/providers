@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 1
   slug: spiffe-agentic-access
   summary_line: 1 operation
-api_count: 4
+api_count: 1
 apis:
 - description: The SPIFFE Workload API is a gRPC streaming interface through which workloads request and receive SPIFFE Verifiable Identity Documents (SVIDs) including X.509-SVIDs and JWT-SVIDs, as well as trust bun
   name: SPIFFE Workload API
@@ -71,6 +71,18 @@ collections:
   name: SPIFFE Federation Bundle Endpoint API
   slug: open-spiffe-federation
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/spiffe/spiffe/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/spiffe/spiffe/blob/main/CODE-OF-CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/spiffe/spiffe/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -178,7 +190,7 @@ overview: 'SPIFFE publishes 2 APIs on the [APIs.io](https://apis.io/) network: W
   The SPIFFE catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  SPIFFE''s developer surface includes documentation, getting-started guide, engineering blog, Stack Overflow tag, and 14 more developer resources.'
+  SPIFFE''s developer surface includes documentation, getting-started guide, engineering blog, Stack Overflow tag, and 17 more developer resources.'
 plans:
 - name: Spiffe Plans Pricing
   plan_count: 3
@@ -223,18 +235,26 @@ rules:
   slug: spiffe-rules
 score:
   band: thin
-  composite: 33.5
-  delta: 1.5
+  composite: 33.6
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 50.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 28.8
     contract_quality: 59.0
     developer_ergonomics: 33.3
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 32.0
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -242,8 +262,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spiffe/refs/heads/main/screenshots/spiffe-2026-06-20T194311.png
 security:

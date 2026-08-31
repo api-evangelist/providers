@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Linkerd is a CNCF-graduated service mesh for Kubernetes that transparently adds mutual TLS encryption, latency-aware load balancing, retries, timeouts, circuit breaking, and observability to any Kuber
@@ -130,9 +130,14 @@ rate_limits:
   name: Buoyant Rate Limits
   slug: buoyant-rate-limits
 score:
-  band: emerging
-  composite: 22.2
-  delta: 1.5
+  band: thin
+  composite: 30.0
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 7.8
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -142,10 +147,13 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 20.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 22.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/buoyant/refs/heads/main/screenshots/buoyant-2026-06-20T173802.png
 security:
 - kind: domain-security

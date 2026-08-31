@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 66
   slug: pinecone-agentic-access
   summary_line: 66 operations · 39 acting
-api_count: 9
+api_count: 6
 apis:
 - description: Actions that manage API Keys.
   name: Pinecone API Keys API
@@ -120,6 +120,14 @@ collections:
   name: Pinecone Admin API Keys Vector Operations API
   slug: open-pinecone-vector-operations-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/pinecone-io/pinecone-api/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/pinecone-io/pinecone-api/releases
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -810,7 +818,7 @@ overview: 'Pinecone publishes 9 APIs on the [APIs.io](https://apis.io/) network,
   The Pinecone catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Pinecone''s developer surface includes authentication, pricing, engineering blog, documentation, getting-started guide, code examples, changelog, and 17 more developer resources.'
+  Pinecone''s developer surface includes authentication, pricing, engineering blog, documentation, getting-started guide, code examples, changelog, and 19 more developer resources.'
 plans:
 - name: Pinecone Plans Pricing
   plan_count: 4
@@ -832,8 +840,13 @@ rules:
     warn: 4
   slug: pinecone-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 54.6
+  band: developing
+  composite: 51.6
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 67.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 61.8
@@ -844,7 +857,10 @@ score:
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 55.3
-  previous_composite: 54.6
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -852,8 +868,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/screenshots/pinecone-2026-06-20T191712.png
 security:

@@ -1,28 +1,27 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free and keyless where public; institutional affiliation where not
+  onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
-  - authentication
+  - probed
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: true
+    dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -33,488 +32,82 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.9
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 542
-  human_in_the_loop: 8
-  name: University Of Groningen Agentic Access
-  operation_count: 1525
-  slug: university-of-groningen-agentic-access
-  summary_line: 1525 operations · 542 acting · 8 human-in-the-loop
-api_count: 75
+  score: 20.5
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: OAI-PMH metadata-harvesting endpoint over the University of Groningen research portal, powered by Elsevier Pure (CRIS). Exposes research-output and CRIS metadata using the OpenAIRE CERIF profile and s
-  name: UG Research Portal OAI-PMH (Pure)
+- description: 'The JSON backend behind Ocasys, the University''s own course and degree-programme catalog. Verified live 2026-08-30 with no credentials: course search, full course records, the catalog page projection,'
+  name: University of Groningen Ocasys Course Catalog API
+  slug: ocasys-course-catalog
+- description: 'Keyless OAI-PMH 2.0 metadata-harvesting endpoint operated by the University on its own domain. Verified live 2026-08-30: Identify reports protocolVersion 2.0, repositoryName "University of Groningen R'
+  name: University of Groningen Research Database OAI-PMH
   slug: pure-oai-pmh
-- description: 'Open-source Python client libraries and tooling for interacting with iRODS research-data-management storage, published by the official University of Groningen Centre for Information Technology GitHub '
-  name: iBridges / Python API for iRODS
-  slug: irods-python-api
-- description: The Access API from University of Groningen — 23 operation(s) for access.
-  name: University of Groningen Access API
-  slug: university-of-groningen-access-api
-- description: The activity API from University of Groningen — 39 operation(s) for activity.
-  name: University of Groningen activity API
-  slug: university-of-groningen-activity-api
-- description: Uploads a set of files to a dataset
-  name: University of Groningen addFilesToDataset API
-  slug: university-of-groningen-addfilestodataset-api
-- description: Uploads a file for a dataset
-  name: University of Groningen addFileToDataset API
-  slug: university-of-groningen-addfiletodataset-api
-- description: Uploads a Globus file for a dataset
-  name: University of Groningen addGlobusFilesToDataset API
-  slug: university-of-groningen-addglobusfilestodataset-api
-- description: The Admin API from University of Groningen — 127 operation(s) for admin.
-  name: University of Groningen Admin API
-  slug: university-of-groningen-admin-api
-- description: The application API from University of Groningen — 36 operation(s) for application.
-  name: University of Groningen application API
-  slug: university-of-groningen-application-api
-- description: The authorCollaboration API from University of Groningen — 9 operation(s) for authorcollaboration.
-  name: University of Groningen authorCollaboration API
-  slug: university-of-groningen-authorcollaboration-api
-- description: The award API from University of Groningen — 37 operation(s) for award.
-  name: University of Groningen award API
-  slug: university-of-groningen-award-api
-- description: The Batch API from University of Groningen — 3 operation(s) for batch.
-  name: University of Groningen Batch API
-  slug: university-of-groningen-batch-api
-- description: The Builtin Users API from University of Groningen — 4 operation(s) for builtin users.
-  name: University of Groningen Builtin Users API
-  slug: university-of-groningen-builtin-users-api
-- description: The classificationScheme API from University of Groningen — 7 operation(s) for classificationscheme.
-  name: University of Groningen classificationScheme API
-  slug: university-of-groningen-classificationscheme-api
-- description: The concept API from University of Groningen — 4 operation(s) for concept.
-  name: University of Groningen concept API
-  slug: university-of-groningen-concept-api
-- description: The conferenceSeries API from University of Groningen — 14 operation(s) for conferenceseries.
-  name: University of Groningen conferenceSeries API
-  slug: university-of-groningen-conferenceseries-api
-- description: The contract API from University of Groningen — 26 operation(s) for contract.
-  name: University of Groningen contract API
-  slug: university-of-groningen-contract-api
-- description: The course API from University of Groningen — 27 operation(s) for course.
-  name: University of Groningen course API
-  slug: university-of-groningen-course-api
-- description: The dataSet API from University of Groningen — 30 operation(s) for dataset.
-  name: University of Groningen dataSet API
-  slug: university-of-groningen-dataset-api
-- description: The Datasetfields API from University of Groningen — 1 operation(s) for datasetfields.
-  name: University of Groningen Datasetfields API
-  slug: university-of-groningen-datasetfields-api
-- description: The Datasets API from University of Groningen — 101 operation(s) for datasets.
-  name: University of Groningen Datasets API
-  slug: university-of-groningen-datasets-api
-- description: The Datatags API from University of Groningen — 1 operation(s) for datatags.
-  name: University of Groningen Datatags API
-  slug: university-of-groningen-datatags-api
-- description: The DataverseFeaturedItems API from University of Groningen — 1 operation(s) for dataversefeatureditems.
-  name: University of Groningen DataverseFeaturedItems API
-  slug: university-of-groningen-dataversefeatureditems-api
-- description: The Dataverses API from University of Groningen — 43 operation(s) for dataverses.
-  name: University of Groningen Dataverses API
-  slug: university-of-groningen-dataverses-api
-- description: The Edit API from University of Groningen — 1 operation(s) for edit.
-  name: University of Groningen Edit API
-  slug: university-of-groningen-edit-api
-- description: The education API from University of Groningen — 14 operation(s) for education.
-  name: University of Groningen education API
-  slug: university-of-groningen-education-api
-- description: The equipment API from University of Groningen — 28 operation(s) for equipment.
-  name: University of Groningen equipment API
-  slug: university-of-groningen-equipment-api
-- description: The ethicalReview API from University of Groningen — 22 operation(s) for ethicalreview.
-  name: University of Groningen ethicalReview API
-  slug: university-of-groningen-ethicalreview-api
-- description: The event API from University of Groningen — 22 operation(s) for event.
-  name: University of Groningen event API
-  slug: university-of-groningen-event-api
-- description: The externalOrganization API from University of Groningen — 29 operation(s) for externalorganization.
-  name: University of Groningen externalOrganization API
-  slug: university-of-groningen-externalorganization-api
-- description: The externalPerson API from University of Groningen — 22 operation(s) for externalperson.
-  name: University of Groningen externalPerson API
-  slug: university-of-groningen-externalperson-api
-- description: The ExternalTools API from University of Groningen — 2 operation(s) for externaltools.
-  name: University of Groningen ExternalTools API
-  slug: university-of-groningen-externaltools-api
-- description: The Files API from University of Groningen — 21 operation(s) for files.
-  name: University of Groningen Files API
-  slug: university-of-groningen-files-api
-- description: The fingerprint API from University of Groningen — 3 operation(s) for fingerprint.
-  name: University of Groningen fingerprint API
-  slug: university-of-groningen-fingerprint-api
-- description: The fundingOpportunity API from University of Groningen — 21 operation(s) for fundingopportunity.
-  name: University of Groningen fundingOpportunity API
-  slug: university-of-groningen-fundingopportunity-api
-- description: The Harvest API from University of Groningen — 7 operation(s) for harvest.
-  name: University of Groningen Harvest API
-  slug: university-of-groningen-harvest-api
-- description: The impact API from University of Groningen — 31 operation(s) for impact.
-  name: University of Groningen impact API
-  slug: university-of-groningen-impact-api
-- description: The Inbox API from University of Groningen — 1 operation(s) for inbox.
-  name: University of Groningen Inbox API
-  slug: university-of-groningen-inbox-api
-- description: The Info API from University of Groningen — 50 operation(s) for info.
-  name: University of Groningen Info API
-  slug: university-of-groningen-info-api
-- description: The Ingest API from University of Groningen — 1 operation(s) for ingest.
-  name: University of Groningen Ingest API
-  slug: university-of-groningen-ingest-api
-- description: The journal API from University of Groningen — 22 operation(s) for journal.
-  name: University of Groningen journal API
-  slug: university-of-groningen-journal-api
-- description: The keywordGroupConfiguration API from University of Groningen — 7 operation(s) for keywordgroupconfiguration.
-  name: University of Groningen keywordGroupConfiguration API
-  slug: university-of-groningen-keywordgroupconfiguration-api
-- description: The Licenses API from University of Groningen — 6 operation(s) for licenses.
-  name: University of Groningen Licenses API
-  slug: university-of-groningen-licenses-api
-- description: The Localcontexts API from University of Groningen — 2 operation(s) for localcontexts.
-  name: University of Groningen Localcontexts API
-  slug: university-of-groningen-localcontexts-api
-- description: The Logout API from University of Groningen — 1 operation(s) for logout.
-  name: University of Groningen Logout API
-  slug: university-of-groningen-logout-api
-- description: The Mail API from University of Groningen — 1 operation(s) for mail.
-  name: University of Groningen Mail API
-  slug: university-of-groningen-mail-api
-- description: The Meta API from University of Groningen — 2 operation(s) for meta.
-  name: University of Groningen Meta API
-  slug: university-of-groningen-meta-api
-- description: The Metadatablocks API from University of Groningen — 2 operation(s) for metadatablocks.
-  name: University of Groningen Metadatablocks API
-  slug: university-of-groningen-metadatablocks-api
-- description: The milestone API from University of Groningen — 24 operation(s) for milestone.
-  name: University of Groningen milestone API
-  slug: university-of-groningen-milestone-api
-- description: The Mydata API from University of Groningen — 2 operation(s) for mydata.
-  name: University of Groningen Mydata API
-  slug: university-of-groningen-mydata-api
-- description: The Notifications API from University of Groningen — 8 operation(s) for notifications.
-  name: University of Groningen Notifications API
-  slug: university-of-groningen-notifications-api
-- description: The organization API from University of Groningen — 34 operation(s) for organization.
-  name: University of Groningen organization API
-  slug: university-of-groningen-organization-api
-- description: The person API from University of Groningen — 58 operation(s) for person.
-  name: University of Groningen person API
-  slug: university-of-groningen-person-api
-- description: The personExpertise API from University of Groningen — 7 operation(s) for personexpertise.
-  name: University of Groningen personExpertise API
-  slug: university-of-groningen-personexpertise-api
-- description: The Pids API from University of Groningen — 6 operation(s) for pids.
-  name: University of Groningen Pids API
-  slug: university-of-groningen-pids-api
-- description: The pressMedia API from University of Groningen — 24 operation(s) for pressmedia.
-  name: University of Groningen pressMedia API
-  slug: university-of-groningen-pressmedia-api
-- description: The prize API from University of Groningen — 29 operation(s) for prize.
-  name: University of Groningen prize API
-  slug: university-of-groningen-prize-api
-- description: The project API from University of Groningen — 33 operation(s) for project.
-  name: University of Groningen project API
-  slug: university-of-groningen-project-api
-- description: The publisher API from University of Groningen — 18 operation(s) for publisher.
-  name: University of Groningen publisher API
-  slug: university-of-groningen-publisher-api
-- description: Replace a file to a dataset
-  name: University of Groningen replaceFilesInDataset API
-  slug: university-of-groningen-replacefilesindataset-api
-- description: The researchOutput API from University of Groningen — 67 operation(s) for researchoutput.
-  name: University of Groningen researchOutput API
-  slug: university-of-groningen-researchoutput-api
-- description: The role API from University of Groningen — 2 operation(s) for role.
-  name: University of Groningen role API
-  slug: university-of-groningen-role-api
-- description: The Roles API from University of Groningen — 3 operation(s) for roles.
-  name: University of Groningen Roles API
-  slug: university-of-groningen-roles-api
-- description: Save Auxiliary File With Version
-  name: University of Groningen saveAuxiliaryFileWithVersion API
-  slug: university-of-groningen-saveauxiliaryfilewithversion-api
-- description: The Search API from University of Groningen — 2 operation(s) for search.
-  name: University of Groningen Search API
-  slug: university-of-groningen-search-api
-- description: The semester API from University of Groningen — 8 operation(s) for semester.
-  name: University of Groningen semester API
-  slug: university-of-groningen-semester-api
-- description: The Sendfeedback API from University of Groningen — 1 operation(s) for sendfeedback.
-  name: University of Groningen Sendfeedback API
-  slug: university-of-groningen-sendfeedback-api
-- description: The specialization API from University of Groningen — 8 operation(s) for specialization.
-  name: University of Groningen specialization API
-  slug: university-of-groningen-specialization-api
-- description: The studentProject API from University of Groningen — 26 operation(s) for studentproject.
-  name: University of Groningen studentProject API
-  slug: university-of-groningen-studentproject-api
-- description: The studentThesis API from University of Groningen — 26 operation(s) for studentthesis.
-  name: University of Groningen studentThesis API
-  slug: university-of-groningen-studentthesis-api
-- description: The thesaurus API from University of Groningen — 5 operation(s) for thesaurus.
-  name: University of Groningen thesaurus API
-  slug: university-of-groningen-thesaurus-api
-- description: Uploads a logo for a dataset
-  name: University of Groningen uploadDatasetLogo API
-  slug: university-of-groningen-uploaddatasetlogo-api
-- description: The user API from University of Groningen — 7 operation(s) for user.
-  name: University of Groningen user API
-  slug: university-of-groningen-user-api
-- description: The Users API from University of Groningen — 10 operation(s) for users.
-  name: University of Groningen Users API
-  slug: university-of-groningen-users-api
-- description: The Workflows API from University of Groningen — 1 operation(s) for workflows.
-  name: University of Groningen Workflows API
-  slug: university-of-groningen-workflows-api
-artifact_total: 167
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Dataverse Access API
-  slug: open-university-of-groningen-access-api
-- collection_type: open
-  name: Dataverse Access activity API
-  slug: open-university-of-groningen-activity-api
-- collection_type: open
-  name: Dataverse Access addFilesToDataset API
-  slug: open-university-of-groningen-addfilestodataset-api
-- collection_type: open
-  name: Dataverse Access addFileToDataset API
-  slug: open-university-of-groningen-addfiletodataset-api
-- collection_type: open
-  name: Dataverse Access addGlobusFilesToDataset API
-  slug: open-university-of-groningen-addglobusfilestodataset-api
-- collection_type: open
-  name: Dataverse Access Admin API
-  slug: open-university-of-groningen-admin-api
-- collection_type: open
-  name: Dataverse Access application API
-  slug: open-university-of-groningen-application-api
-- collection_type: open
-  name: Dataverse Access authorCollaboration API
-  slug: open-university-of-groningen-authorcollaboration-api
-- collection_type: open
-  name: Dataverse Access award API
-  slug: open-university-of-groningen-award-api
-- collection_type: open
-  name: Dataverse Access Batch API
-  slug: open-university-of-groningen-batch-api
-- collection_type: open
-  name: Dataverse Access Builtin Users API
-  slug: open-university-of-groningen-builtin-users-api
-- collection_type: open
-  name: Dataverse Access classificationScheme API
-  slug: open-university-of-groningen-classificationscheme-api
-- collection_type: open
-  name: Dataverse Access concept API
-  slug: open-university-of-groningen-concept-api
-- collection_type: open
-  name: Dataverse Access conferenceSeries API
-  slug: open-university-of-groningen-conferenceseries-api
-- collection_type: open
-  name: Dataverse Access contract API
-  slug: open-university-of-groningen-contract-api
-- collection_type: open
-  name: Dataverse Access course API
-  slug: open-university-of-groningen-course-api
-- collection_type: open
-  name: Dataverse Access dataSet API
-  slug: open-university-of-groningen-dataset-api
-- collection_type: open
-  name: Dataverse Access Datasetfields API
-  slug: open-university-of-groningen-datasetfields-api
-- collection_type: open
-  name: Dataverse Access Datasets API
-  slug: open-university-of-groningen-datasets-api
-- collection_type: open
-  name: Dataverse Access Datatags API
-  slug: open-university-of-groningen-datatags-api
-- collection_type: open
-  name: Dataverse Access DataverseFeaturedItems API
-  slug: open-university-of-groningen-dataversefeatureditems-api
-- collection_type: open
-  name: Dataverse Access Dataverses API
-  slug: open-university-of-groningen-dataverses-api
-- collection_type: open
-  name: Dataverse Access Edit API
-  slug: open-university-of-groningen-edit-api
-- collection_type: open
-  name: Dataverse Access education API
-  slug: open-university-of-groningen-education-api
-- collection_type: open
-  name: Dataverse Access equipment API
-  slug: open-university-of-groningen-equipment-api
-- collection_type: open
-  name: Dataverse Access event API
-  slug: open-university-of-groningen-event-api
-- collection_type: open
-  name: Dataverse Access externalOrganization API
-  slug: open-university-of-groningen-externalorganization-api
-- collection_type: open
-  name: Dataverse Access externalPerson API
-  slug: open-university-of-groningen-externalperson-api
-- collection_type: open
-  name: Dataverse Access ExternalTools API
-  slug: open-university-of-groningen-externaltools-api
-- collection_type: open
-  name: Dataverse Access Files API
-  slug: open-university-of-groningen-files-api
-- collection_type: open
-  name: Dataverse Access fingerprint API
-  slug: open-university-of-groningen-fingerprint-api
-- collection_type: open
-  name: Dataverse Access fundingOpportunity API
-  slug: open-university-of-groningen-fundingopportunity-api
-- collection_type: open
-  name: Dataverse Access Harvest API
-  slug: open-university-of-groningen-harvest-api
-- collection_type: open
-  name: Dataverse Access impact API
-  slug: open-university-of-groningen-impact-api
-- collection_type: open
-  name: Dataverse Access Inbox API
-  slug: open-university-of-groningen-inbox-api
-- collection_type: open
-  name: Dataverse Access Info API
-  slug: open-university-of-groningen-info-api
-- collection_type: open
-  name: Dataverse Access Ingest API
-  slug: open-university-of-groningen-ingest-api
-- collection_type: open
-  name: Dataverse Access journal API
-  slug: open-university-of-groningen-journal-api
-- collection_type: open
-  name: Dataverse Access keywordGroupConfiguration API
-  slug: open-university-of-groningen-keywordgroupconfiguration-api
-- collection_type: open
-  name: Dataverse Access Licenses API
-  slug: open-university-of-groningen-licenses-api
-- collection_type: open
-  name: Dataverse Access Localcontexts API
-  slug: open-university-of-groningen-localcontexts-api
-- collection_type: open
-  name: Dataverse Access Logout API
-  slug: open-university-of-groningen-logout-api
-- collection_type: open
-  name: Dataverse Access Mail API
-  slug: open-university-of-groningen-mail-api
-- collection_type: open
-  name: Dataverse Access Meta API
-  slug: open-university-of-groningen-meta-api
-- collection_type: open
-  name: Dataverse Access Metadatablocks API
-  slug: open-university-of-groningen-metadatablocks-api
-- collection_type: open
-  name: Dataverse Access milestone API
-  slug: open-university-of-groningen-milestone-api
-- collection_type: open
-  name: Dataverse Access Mydata API
-  slug: open-university-of-groningen-mydata-api
-- collection_type: open
-  name: Dataverse Access Notifications API
-  slug: open-university-of-groningen-notifications-api
-- collection_type: open
-  name: Dataverse Access organization API
-  slug: open-university-of-groningen-organization-api
-- collection_type: open
-  name: Dataverse Access person API
-  slug: open-university-of-groningen-person-api
-- collection_type: open
-  name: Dataverse Access personExpertise API
-  slug: open-university-of-groningen-personexpertise-api
-- collection_type: open
-  name: Dataverse Access Pids API
-  slug: open-university-of-groningen-pids-api
-- collection_type: open
-  name: Dataverse Access pressMedia API
-  slug: open-university-of-groningen-pressmedia-api
-- collection_type: open
-  name: Dataverse Access prize API
-  slug: open-university-of-groningen-prize-api
-- collection_type: open
-  name: Dataverse Access project API
-  slug: open-university-of-groningen-project-api
-- collection_type: open
-  name: Dataverse Access publisher API
-  slug: open-university-of-groningen-publisher-api
-- collection_type: open
-  name: Dataverse Access replaceFilesInDataset API
-  slug: open-university-of-groningen-replacefilesindataset-api
-- collection_type: open
-  name: Dataverse Access researchOutput API
-  slug: open-university-of-groningen-researchoutput-api
-- collection_type: open
-  name: Dataverse Access role API
-  slug: open-university-of-groningen-role-api
-- collection_type: open
-  name: Dataverse Access Roles API
-  slug: open-university-of-groningen-roles-api
-- collection_type: open
-  name: Dataverse Access saveAuxiliaryFileWithVersion API
-  slug: open-university-of-groningen-saveauxiliaryfilewithversion-api
-- collection_type: open
-  name: Dataverse Access Search API
-  slug: open-university-of-groningen-search-api
-- collection_type: open
-  name: Dataverse Access semester API
-  slug: open-university-of-groningen-semester-api
-- collection_type: open
-  name: Dataverse Access Sendfeedback API
-  slug: open-university-of-groningen-sendfeedback-api
-- collection_type: open
-  name: Dataverse Access specialization API
-  slug: open-university-of-groningen-specialization-api
-- collection_type: open
-  name: Dataverse Access studentProject API
-  slug: open-university-of-groningen-studentproject-api
-- collection_type: open
-  name: Dataverse Access studentThesis API
-  slug: open-university-of-groningen-studentthesis-api
-- collection_type: open
-  name: Dataverse Access thesaurus API
-  slug: open-university-of-groningen-thesaurus-api
-- collection_type: open
-  name: Dataverse Access uploadDatasetLogo API
-  slug: open-university-of-groningen-uploaddatasetlogo-api
-- collection_type: open
-  name: Dataverse Access user API
-  slug: open-university-of-groningen-user-api
-- collection_type: open
-  name: Dataverse Access Users API
-  slug: open-university-of-groningen-users-api
-- collection_type: open
-  name: Dataverse Access Workflows API
-  slug: open-university-of-groningen-workflows-api
+- description: 'The University runs its own SAML 2.0 identity provider and publishes signed federation metadata at signon.rug.nl for entityID https://signon.rug.nl/nidp/saml2/metadata. Verified live 2026-08-30: 25KB '
+  name: University of Groningen Identity Provider (SURFconext / eduGAIN)
+  slug: identity-provider
+- description: 'The Elsevier Pure web service deployed on the University''s CRIS host. Probed 2026-08-30: pure.rug.nl/ws/api redirects to /ws/api/documentation/index.html, whose rel=canonical is https://api.elsevierpu'
+  name: University of Groningen Research Portal (Pure) REST API
+  slug: pure-ws-api
+- description: The University's default repository for research data and software is a collection inside DataverseNL, the shared national Dataverse installation that DANS and SURF operate at dataverse.nl — a host th
+  name: University of Groningen research data collection on DataverseNL
+  slug: dataversenl-collection
+- description: Library discovery runs on OCLC WorldCat Discovery at rug.on.worldcat.org, a tenant instance on OCLC's platform rather than a catalog interface the University operates. Verified live 2026-08-30. Any Wo
+  name: University of Groningen Library discovery (OCLC WorldCat)
+  slug: worldcat-discovery
+artifact_total: 21
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/university-of-groningen-agentic-access.yml
-- group: auth
-  title: ''
-  type: VulnerabilityDisclosure
-  url: security/university-of-groningen-vulnerability-disclosure.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/university-of-groningen-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/university-of-groningen-authentication.yml
 - group: company
   title: ''
   type: Website
   url: https://www.rug.nl/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://ocasys.rug.nl/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://signon.rug.nl/nidp/saml2/metadata
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://research.rug.nl/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://www.rug.nl/digital-competence-centre/research-data/archive-and-publish/dataversenl
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://rug.on.worldcat.org/discovery
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://www.rug.nl/society-business/center-for-information-technology/research/services/hpc/habrok
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://wiki.hpc.rug.nl/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://www.rug.nl/digital-competence-centre/research-data/archive-and-publish/open-data
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.rug.nl/cit/services/ai-office/beleid-en-regelgeving/
+- group: build
+  title: ''
+  type: AITooling
+  url: https://www.rug.nl/cit/services/ai-office/ai-oplossingen/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/rijksuniversiteit-groningen
 - group: build
   title: ''
   type: GitHub
-  url: https://github.com/rijksuniversiteit-groningen
+  url: https://github.com/rug-cit-hpc
 - group: company
   title: ''
   type: LinkedIn
@@ -523,6 +116,50 @@ common:
   title: ''
   type: Twitter
   url: https://twitter.com/univgroningen
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.rug.nl/about-ug/latest-news/news/latest-rug-news!rss
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.rug.nl/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.rug.nl/info/disclaimer-copyright
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.rug.nl/society-business/center-for-information-technology/support/
+- group: auth
+  title: ''
+  type: SecurityDisclosure
+  url: https://www.rug.nl/.well-known/security.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/university-of-groningen-authentication.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/university-of-groningen-education-standards-conformance.yml
+- group: design
+  title: ''
+  type: Errors
+  url: errors/university-of-groningen-errors.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/university-of-groningen-course-catalog-vocabulary.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/university-of-groningen-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/university-of-groningen-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -539,64 +176,54 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.rug.nl/about-ug/latest-news/news/latest-rug-news!rss
 created: '2026-06-03'
-description: 'The University of Groningen (Rijksuniversiteit Groningen, RUG/UG) is a public research university in Groningen, Netherlands, founded in 1614 and ranked #75 in the QS World University Rankings 2025. Its public, machine-readable developer/API footprint is centered on research-output and research-data infrastructure: an OAI-PMH metadata-harvesting endpoint over its Pure CRIS research portal (OpenAIRE CERIF profile), the Elsevier Pure REST web-services API (live but API-key gated), and the shared DataverseNL data repository (Dataverse Native REST API) that serves as the UG default repository for research data and software. The University does not operate a single unified, self-service public developer portal; most institutional, SIS, timetable, and identity APIs are internal or gated. The University also maintains an official GitHub organization publishing open-source research-data and education tools.'
+description: 'The University of Groningen (Rijksuniversiteit Groningen, RUG/UG) is a public research university in Groningen, the Netherlands, founded in 1614. Measured honestly, it runs no API programme: there is no developer portal, no api.rug.nl, no status page, no published versioning or deprecation policy, and no first-party OpenAPI anywhere on its estate — api.rug.nl, data.rug.nl, developer.rug.nl and status.rug.nl do not resolve at all. What it does operate, on its own domain, is a small set of real programmable surfaces: the Ocasys course and degree-programme catalog, whose JSON backend at ocasys.rug.nl/api answers unauthenticated course search, full course records, programme search, faculties and controlled option lists, and emits RFC 9457 problem details on error; a keyless OAI-PMH 2.0 endpoint at pure.rug.nl/ws/oai serving 1,521,703 identifiers across six metadata profiles including OpenAIRE CERIF 1.2 with resolvable ORCID iDs; and its own SAML 2.0 identity provider at signon.rug.nl,
+  registered in eduGAIN through SURFconext. Everything else that looks like a University of Groningen API is a purchase. The CRIS is Elsevier Pure, research data lives in a collection inside the shared national DataverseNL installation that DANS and SURF operate, and library discovery is OCLC WorldCat. Those are recorded here as tenant relationships, not as the University''s engineering.'
 examples:
-- key_count: 2
-  name: University Of Groningen Dataverse Get Dataset Example
-  slug: university-of-groningen-dataverse-get-dataset-example
-- key_count: 2
-  name: University Of Groningen Dataverse Search Example
-  slug: university-of-groningen-dataverse-search-example
-- key_count: 9
-  name: University Of Groningen Pure Get Activity Example
-  slug: university-of-groningen-pure-get-activity-example
+- key_count: 7
+  name: University Of Groningen Ocasys Course Search Example
+  slug: university-of-groningen-ocasys-course-search-example
+- key_count: 7
+  name: University Of Groningen Ocasys Faculties Example
+  slug: university-of-groningen-ocasys-faculties-example
+- key_count: 7
+  name: University Of Groningen Ocasys Get Course Example
+  slug: university-of-groningen-ocasys-get-course-example
+- key_count: 7
+  name: University Of Groningen Ocasys Problem Detail Example
+  slug: university-of-groningen-ocasys-problem-detail-example
+- key_count: 7
+  name: University Of Groningen Ocasys Program Search Example
+  slug: university-of-groningen-ocasys-program-search-example
 finops:
 - name: University Of Groningen Finops
   service_category: Education
   slug: university-of-groningen-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-groningen.png
 json_schemas:
-- name: Pure Activity
-  property_count: 15
-  slug: university-of-groningen-activity
-- name: Dataverse DataFile
-  property_count: 9
-  slug: university-of-groningen-datafile
-- name: Dataverse Dataset
-  property_count: 11
-  slug: university-of-groningen-dataset
-json_structures:
-- name: University Of Groningen Activity Structure
-  property_count: 7
-  slug: university-of-groningen-activity-structure
-- name: University Of Groningen Datafile Structure
-  property_count: 5
-  slug: university-of-groningen-datafile-structure
-- name: University Of Groningen Dataset Structure
-  property_count: 8
-  slug: university-of-groningen-dataset-structure
+- name: Ocasys Course
+  property_count: 30
+  slug: university-of-groningen-ocasys-course
+- name: Ocasys Degree Programme
+  property_count: 14
+  slug: university-of-groningen-ocasys-program
 jsonld:
 - class_count: 17
-  name: University Of Groningen Context
-  property_count: 1
-  slug: university-of-groningen-context
+  name: University Of Groningen Course Context
+  property_count: 4
+  slug: university-of-groningen-course-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: University of Groningen
 nav: Providers
 network: true
-overview: 'University of Groningen publishes 73 APIs on the [APIs.io](https://apis.io/) network, including Access API, activity API, addFilesToDataset API, and 70 more. Tagged areas include Education, Higher Education, University, Research, and Open Data.
+overview: 'University of Groningen publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ocasys Course Catalog API and Research Database OAI-PMH. Tagged areas include Education, Higher Education, University, Netherlands, and Europe.
 
 
-  The University of Groningen catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The University of Groningen catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  University of Groningen''s developer surface includes authentication, GitHub presence, engineering blog, and 10 more developer resources.'
+  University of Groningen''s developer surface includes documentation, GitHub presence, engineering blog, support, authentication, and 25 more developer resources.'
 plans:
 - name: University Of Groningen Plans Pricing
   plan_count: 2
@@ -607,40 +234,35 @@ rate_limits:
   name: University Of Groningen Rate Limits
   slug: university-of-groningen-rate-limits
 rules:
-- effective_rule_count: 5
+- effective_rule_count: 9
   extends: []
   name: University of Groningen API Rules
-  rule_count: 5
+  rule_count: 9
   severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 3
-  slug: university-of-groningen-jsonschema-spectral-rules
-- effective_rule_count: 5
-  extends: []
-  name: University of Groningen API Rules
-  rule_count: 5
-  severity_counts:
-    error: 1
+    error: 4
     hint: 0
     info: 0
-    warn: 4
-  slug: university-of-groningen-rules
+    warn: 5
+  slug: university-of-groningen-course-catalog-rules
 score:
-  band: thin
-  composite: 35.5
-  delta: 1.9
+  band: developing
+  composite: 46.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 11.3
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 48.8
-    developer_ergonomics: 23.8
-    discoverability: 59.3
-    governance: 9.8
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 22.7
+    contract_quality: 54.6
+    developer_ergonomics: 28.6
+    discoverability: 68.5
+    governance: 22.7
     operational_transparency: 26.3
-  previous_composite: 33.6
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -653,16 +275,16 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 42.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 57.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/screenshots/university-of-groningen-2026-06-20T200155.png
 security:
 - kind: authentication
   name: University Of Groningen Authentication
   slug: university-of-groningen-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: 4 schemes
 - kind: domain-security
   name: University Of Groningen Domain Security
   slug: university-of-groningen-domain-security
@@ -676,12 +298,15 @@ tags:
 - Education
 - Higher Education
 - University
-- Research
-- Open Data
-- Research Data
-- Library
-- Metadata
 - Netherlands
 - Europe
+- Research
+- Research Data
+- Course Catalog
+- Identity Federation
+- OAI-PMH
+- Library
+- Metadata
+- Open Data
 website: https://www.rug.nl/
 ---

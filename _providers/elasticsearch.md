@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 17
   slug: elasticsearch-agentic-access
   summary_line: 17 operations · 7 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The Cat API from Elasticsearch — 3 operation(s) for cat.
   name: Elasticsearch Cat API
@@ -304,18 +304,23 @@ rate_limits:
   slug: elasticsearch-rate-limits
 score:
   band: developing
-  composite: 44.5
-  delta: 0.0
+  composite: 42.5
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 46.9
     developer_ergonomics: 47.6
-    discoverability: 72.2
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 44.5
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -325,8 +330,8 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/screenshots/elasticsearch-2026-06-20T180540.png
 security:

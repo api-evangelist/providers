@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -490,18 +490,23 @@ rules:
   slug: applovin-rules
 score:
   band: thin
-  composite: 37.4
+  composite: 35.6
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_governance: 45.5
-    contract_quality: 32.6
+    contract_governance: 33.3
+    contract_quality: 32.9
     developer_ergonomics: 37.5
-    discoverability: 85.2
-    governance: 45.5
+    discoverability: 81.5
+    governance: 33.3
     operational_transparency: 47.4
-  previous_composite: 37.4
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -512,8 +517,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/screenshots/applovin-2026-06-20T172326.png
 security:

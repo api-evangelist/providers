@@ -23,21 +23,48 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
-- description: 'The RELEX Data API is the near-real-time REST interface for exchanging master data, transactional data and customer-specific custom resources between a customer''s ERP, POS, WMS or MDM systems and the '
-  name: RELEX Data API
-  slug: relex-data-api
-- description: 'The RELEX Monitoring API lets customers observe the status of their own RELEX environments programmatically: file ingestion events, planning job events, environment inventory and platform metrics. It '
-  name: RELEX Monitoring API
-  slug: relex-monitoring-api
-artifact_total: 10
+- description: Endpoints for managing and retrieving customer-specific environment configurations.
+  name: RELEX Solutions Environments API
+  slug: relex-environments-api
+- description: Endpoints for fetching files and jobs event data.
+  name: RELEX Solutions Events API
+  slug: relex-events-api
+- description: Endpoint that report on the Monitoring API operational and readiness status.
+  name: RELEX Solutions Health API
+  slug: relex-health-api
+- description: The namespace for master data contains the different endpoints for transferring master data.
+  name: RELEX Solutions Master data API
+  slug: relex-master-data-api
+- description: The namespace for metadata contains the different endpoints for API metadata.
+  name: RELEX Solutions Metadata API
+  slug: relex-metadata-api
+- description: The Monitoring API exposes a Prometheus-compatible metrics endpoint at `/api/v1/{customer_id}/metrics`. The metrics available over this endpoint give quantitative insight into the throughput, latency,
+  name: RELEX Solutions Metrics API
+  slug: relex-metrics-api
+- description: The namespace for transaction data contains the different endpoints for inventory transactions, balance and open order information.
+  name: RELEX Solutions Transactions API
+  slug: relex-transactions-api
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Relex Data Api Webhooks
   slug: relex-data-api-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/relex-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/relex-data-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/relex-monitoring-api-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -183,13 +210,13 @@ modified: '2026-08-26'
 name: RELEX Solutions
 nav: Providers
 network: true
-overview: 'RELEX Solutions publishes 2 APIs on the [APIs.io](https://apis.io/) network: RELEX Data API and RELEX Monitoring API. Tagged areas include Supply Chain, Retail, Demand Planning, Inventory Management, and Forecasting.
+overview: 'RELEX Solutions publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Environments API, Events API, Health API, and 4 more. Tagged areas include Supply Chain, Retail, Demand Planning, Inventory Management, and Forecasting.
 
 
   The RELEX Solutions catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  RELEX Solutions'' developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 28 more developer resources.'
+  RELEX Solutions'' developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 31 more developer resources.'
 plans:
 - name: Relex Plans Pricing
   plan_count: 0
@@ -205,17 +232,24 @@ scopes:
   slug: relex-scopes
   summary_line: 51 scopes
 score:
-  band: strong
-  composite: 54.3
+  band: developing
+  composite: 51.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 30.3
-    contract_quality: 67.5
+    contract_governance: 18.2
+    contract_quality: 66.6
     developer_ergonomics: 49.4
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 65.8
+  previous_composite: 52.0
   provenance:
     conformance: first-party
     contracts:
@@ -225,8 +259,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Relex Authentication

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 313
   human_in_the_loop: 1
@@ -31,360 +31,591 @@ agentic_access:
   operation_count: 465
   slug: 3gpp-agentic-access
   summary_line: 465 operations · 313 acting · 1 human-in-the-loop
-api_count: 117
+api_count: 116
 apis:
-- description: OAS 3.0.1 specification of the MDA NRM. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance management servi
-  name: 3GPP TS 28.104 Mda Nrm API
-  slug: 3gpp-ts28104-mdanrm
-- description: OAS 3.0.1 specification of the MDA Report. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance management se
-  name: 3GPP TS 28.104 Mda Report API
-  slug: 3gpp-ts28104-mdareport
-- description: OAS 3.0.1 specification of the AI/ML NRM. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance management ser
-  name: 3GPP TS 28.105 Ai Ml Nrm API
-  slug: 3gpp-ts28105-aimlnrm
-- description: OAS 3.0.1 definition of the Fault Supervision MnS. An OpenAPI 3.0.1 document with 1 path(s), API version 19.3.0, published verbatim by 3GPP in 3GPP TS 28.111 as part of the Management Services (SA5 OA
-  name: 3GPP TS 28.111 Fault Notifications API
-  slug: 3gpp-ts28111-faultnotifications
-- description: OAS 3.0.1 definition of the Fault Supervision MnS. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance manag
-  name: 3GPP TS 28.111 Fault Nrm API
-  slug: 3gpp-ts28111-faultnrm
-- description: OAS 3.0.1 specification of the Energy Information NRM. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance m
-  name: 3GPP TS 28.310 Energy Information Nrm API
-  slug: 3gpp-ts28310-energyinformationnrm
-- description: OAS 3.0.1 definition of scenario specific Intent Expectations. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Perfo
-  name: 3GPP TS 28.312 Intent Expectations API
-  slug: 3gpp-ts28312-intentexpectations
-- description: OAS 3.0.1 definition of the Intent NRM. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance management servi
-  name: 3GPP TS 28.312 Intent Nrm API
-  slug: 3gpp-ts28312-intentnrm
-- description: OAS 3.0.1 definition of the RANSC NRM. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance management servic
-  name: 3GPP TS 28.317 Ran Sc Nrm API
-  slug: 3gpp-ts28317-ranscnrm
-- description: OAS 3.0.1 specification of the OutageAndRecoveryInfo NRM. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performanc
-  name: 3GPP TS 28.318 Dso Nrm API
-  slug: 3gpp-ts28318-dsonrm
-- description: OAS 3.0.1 definition of the MSAC NRM. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance management service
-  name: 3GPP TS 28.319 Msac Nrm API
-  slug: 3gpp-ts28319-msacnrm
-- description: OAS 3.0.1 definition of the Network Slice Provisioning MnS. An OpenAPI 3.0.1 document with 2 path(s), API version 18.6.0, published verbatim by 3GPP in 3GPP TS 28.531 as part of the Management Service
-  name: 3GPP TS 28.531 NS Prov Mn S API
-  slug: 3gpp-ts28531-nsprovmns
-- description: OAS 3.0.1 definition of the Network Slice Suubnet Provisioning MnS. An OpenAPI 3.0.1 document with 2 path(s), API version 18.6.0, published verbatim by 3GPP in 3GPP TS 28.531 as part of the Management
-  name: 3GPP TS 28.531 NSS Prov Mn S API
-  slug: 3gpp-ts28531-nssprovmns
-- description: 'OAS 3.0.1 definition of the File Data Reporting MnS. An OpenAPI 3.0.1 document with 3 path(s), API version 19.1.0, published verbatim by 3GPP in 3GPP TS 28.532 as part of the Management Services (SA5 '
-  name: 3GPP TS 28.532 File Data Reporting Mn S API
-  slug: 3gpp-ts28532-filedatareportingmns
-- description: OAS 3.0.1 definition of the heartbeat notification. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance mana
-  name: 3GPP TS 28.532 Heartbeat Ntf API
-  slug: 3gpp-ts28532-heartbeatntf
-- description: OAS 3.0.1 definition of the Performance Threshold Monitoring MnS. An OpenAPI 3.0.1 document with 1 path(s), API version 18.1.0, published verbatim by 3GPP in 3GPP TS 28.532 as part of the Management S
-  name: 3GPP TS 28.532 Perf Mn S API
-  slug: 3gpp-ts28532-perfmns
-- description: OAS 3.0.1 definition of the Provisioning MnS. An OpenAPI 3.0.1 document with 2 path(s), API version 19.2.0, published verbatim by 3GPP in 3GPP TS 28.532 as part of the Management Services (SA5 OAM) su
-  name: 3GPP TS 28.532 Prov Mn S API
-  slug: 3gpp-ts28532-provmns
-- description: 'OAS 3.0.1 specification for the Streaming data reporting service (Streaming MnS). An OpenAPI 3.0.1 document with 4 path(s), API version 19.0.0, published verbatim by 3GPP in 3GPP TS 28.532 as part of '
-  name: 3GPP TS 28.532 Streaming Data Mn S API
-  slug: 3gpp-ts28532-streamingdatamns
-- description: OAS 3.0.1 specification of the Cosla NRM. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance management ser
-  name: 3GPP TS 28.536 Cosla Nrm API
-  slug: 3gpp-ts28536-coslanrm
-- description: OAS 3.0.1 specification of the Edge NRM. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance management serv
-  name: 3GPP TS 28.538 Edge Nrm API
-  slug: 3gpp-ts28538-edgenrm
-- description: OAS 3.0.1 specification of the 5GC NRM. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance management servi
-  name: 3GPP TS 28.541 5 Gc Nrm API
-  slug: 3gpp-ts28541-5gcnrm
-- description: OAS 3.0.1 specification of the NR NRM. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance management servic
-  name: 3GPP TS 28.541 Nr Nrm API
-  slug: 3gpp-ts28541-nrnrm
-- description: OAS 3.0.1 specification of the Slice NRM @ 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC). All rights reserved. An OpenAPI 3.0.1 data-model-only document (no paths; it de
-  name: 3GPP TS 28.541 Slice Nrm API
-  slug: 3gpp-ts28541-slicenrm
-- description: OAS 3.0.1 specification of the Performance Measurement Job Control Service @ 2025, 3GPP Organizational Partners (ARIB, ATIS, CCSA, ETSI, TSDSI, TTA, TTC). All rights reserved. An OpenAPI 3.0.1 documen
-  name: 3GPP TS 28.550 Perf Meas Job Ctrl Mn S API
-  slug: 3gpp-ts28550-perfmeasjobctrlmns
-- description: OAS 3.0.1 definition of the NDT NRM. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance management services
-  name: 3GPP TS 28.561 Ndt Nrm API
-  slug: 3gpp-ts28561-ndtnrm
-- description: OAS 3.0.1 definition of the CCL NRM. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance management services
-  name: 3GPP TS 28.567 Ccl Nrm API
-  slug: 3gpp-ts28567-cclnrm
-- description: OAS 3.0.1 specification of API for managing network configuration plans and related jobs. An OpenAPI 3.0.1 document with 16 path(s), API version 19.2.0, published verbatim by 3GPP in 3GPP TS 28.572 as
-  name: 3GPP TS 28.572 Plan Management API
-  slug: 3gpp-ts28572-planmanagement
-- description: OAS 3.0.1 specification of common type definitions in the Generic NRM. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning a
-  name: 3GPP TS 28.623 Com Defs API
-  slug: 3gpp-ts28623-comdefs
-- description: OAS 3.0.1 definition of the External data type NRM fragment. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Perform
-  name: 3GPP TS 28.623 External Data Mgmt Nrm API
-  slug: 3gpp-ts28623-externaldatamgmtnrm
-- description: 'OAS 3.0.1 definition of the Features of NRM. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance management '
-  name: 3GPP TS 28.623 Feature Nrm API
-  slug: 3gpp-ts28623-featurenrm
-- description: OAS 3.0.1 definition of the File Management NRM fragment. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performanc
-  name: 3GPP TS 28.623 File Management Nrm API
-  slug: 3gpp-ts28623-filemanagementnrm
-- description: OAS 3.0.1 definition of the Generic NRM. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance management serv
-  name: 3GPP TS 28.623 Generic Nrm API
-  slug: 3gpp-ts28623-genericnrm
-- description: OAS 3.0.1 definition of the Management Data Collection NRM fragment. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and
-  name: 3GPP TS 28.623 Management Data Collection Nrm API
-  slug: 3gpp-ts28623-managementdatacollectionnrm
-- description: OAS 3.0.1 definition of the MnS Registry NRM fragment. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance m
-  name: 3GPP TS 28.623 Mn S Registry Nrm API
-  slug: 3gpp-ts28623-mnsregistrynrm
-- description: OAS 3.0.1 definition of the PM control NRM fragment. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance man
-  name: 3GPP TS 28.623 Pm Control Nrm API
-  slug: 3gpp-ts28623-pmcontrolnrm
-- description: OAS 3.0.1 definition of the QoE Measurement Collection NRM. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performa
-  name: 3GPP TS 28.623 Qo E Measurement Collection Nrm API
-  slug: 3gpp-ts28623-qoemeasurementcollectionnrm
-- description: OAS 3.0.1 definition of the Subscription Control NRM fragment. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Perfo
-  name: 3GPP TS 28.623 Subscription Control Nrm API
-  slug: 3gpp-ts28623-subscriptioncontrolnrm
-- description: OAS 3.0.1 definition of the Threshold Monitor NRM fragment. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performa
-  name: 3GPP TS 28.623 Threshold Monitor Nrm API
-  slug: 3gpp-ts28623-thresholdmonitornrm
-- description: 'OAS 3.0.1 definition of the Trace Control NRM fragment. An OpenAPI 3.0.1 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance '
-  name: 3GPP TS 28.623 Trace Control Nrm API
-  slug: 3gpp-ts28623-tracecontrolnrm
-- description: API for setting us an AS session with required QoS. An OpenAPI 3.0.0 document with 2 path(s), API version 1.4.1, published verbatim by 3GPP in 3GPP TS 29.122 as part of the T8 Northbound (SCEF/NEF Exp
-  name: 3GPP TS 29.122 As Session With Qo S API
-  slug: 3gpp-ts29122-assessionwithqos
-- description: API for Chargeable Party management. An OpenAPI 3.0.0 document with 2 path(s), API version 1.4.1, published verbatim by 3GPP in 3GPP TS 29.122 as part of the T8 Northbound (SCEF/NEF Exposure) suite an
-  name: 3GPP TS 29.122 Chargeable Party API
-  slug: 3gpp-ts29122-chargeableparty
-- description: Data types applicable to several APIs. An OpenAPI 3.0.0 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance management servic
-  name: 3GPP TS 29.122 Common Data API
-  slug: 3gpp-ts29122-commondata
-- description: 'API for provisioning communication pattern parameters. An OpenAPI 3.0.0 document with 3 path(s), API version 1.4.0, published verbatim by 3GPP in 3GPP TS 29.122 as part of the T8 Northbound (SCEF/NEF '
-  name: 3GPP TS 29.122 Cp Provisioning API
-  slug: 3gpp-ts29122-cpprovisioning
-- description: 'Device Triggering API. An OpenAPI 3.0.0 document with 2 path(s), API version 1.3.0, published verbatim by 3GPP in 3GPP TS 29.122 as part of the T8 Northbound (SCEF/NEF Exposure) suite and mirrored in '
-  name: 3GPP TS 29.122 Device Triggering API
-  slug: 3gpp-ts29122-devicetriggering
-- description: API for enhanced converage restriction control. An OpenAPI 3.0.0 document with 2 path(s), API version 1.2.0, published verbatim by 3GPP in 3GPP TS 29.122 as part of the T8 Northbound (SCEF/NEF Exposur
-  name: 3GPP TS 29.122 ECR Control API
-  slug: 3gpp-ts29122-ecrcontrol
-- description: API for Group Message Delivery via MBMS by MB2. An OpenAPI 3.0.0 document with 4 path(s), API version 1.4.0, published verbatim by 3GPP in 3GPP TS 29.122 as part of the T8 Northbound (SCEF/NEF Exposur
-  name: 3GPP TS 29.122 GM Dvia MBM Sby MB2 API
-  slug: 3gpp-ts29122-gmdviambmsbymb2
-- description: API for Group Message Delivery via MBMS by xMB. An OpenAPI 3.0.0 document with 4 path(s), API version 1.4.0, published verbatim by 3GPP in 3GPP TS 29.122 as part of the T8 Northbound (SCEF/NEF Exposur
-  name: 3GPP TS 29.122 GM Dvia MBM Sbyx MB API
-  slug: 3gpp-ts29122-gmdviambmsbyxmb
-- description: Monitoring Event API. An OpenAPI 3.0.0 document with 2 path(s), API version 1.4.0, published verbatim by 3GPP in 3GPP TS 29.122 as part of the T8 Northbound (SCEF/NEF Exposure) suite and mirrored in t
-  name: 3GPP TS 29.122 Monitoring Event API
-  slug: 3gpp-ts29122-monitoringevent
-- description: API for MSISDN-less Mobile Originated SMS. An OpenAPI 3.0.0 document with 1 path(s), API version 1.2.0, published verbatim by 3GPP in 3GPP TS 29.122 as part of the T8 Northbound (SCEF/NEF Exposure) su
-  name: 3GPP TS 29.122 Msisdn Less Mo Sms API
-  slug: 3gpp-ts29122-msisdnlessmosms
-- description: API for non IP data delivery. An OpenAPI 3.0.0 document with 6 path(s), API version 1.3.0, published verbatim by 3GPP in 3GPP TS 29.122 as part of the T8 Northbound (SCEF/NEF Exposure) suite and mirro
-  name: 3GPP TS 29.122 NIDD API
-  slug: 3gpp-ts29122-nidd
-- description: API for network parameter configuration. An OpenAPI 3.0.0 document with 2 path(s), API version 1.4.0, published verbatim by 3GPP in 3GPP TS 29.122 as part of the T8 Northbound (SCEF/NEF Exposure) suit
-  name: 3GPP TS 29.122 Np Configuration API
-  slug: 3gpp-ts29122-npconfiguration
-- description: Pfd Management API. An OpenAPI 3.0.0 document with 3 path(s), API version 1.4.0, published verbatim by 3GPP in 3GPP TS 29.122 as part of the T8 Northbound (SCEF/NEF Exposure) suite and mirrored in the
-  name: 3GPP TS 29.122 Pfd Management API
-  slug: 3gpp-ts29122-pfdmanagement
-- description: API for provisioning UE radio capability parameters. An OpenAPI 3.0.0 document with 2 path(s), API version 1.2.0, published verbatim by 3GPP in 3GPP TS 29.122 as part of the T8 Northbound (SCEF/NEF Ex
-  name: 3GPP TS 29.122 Racs Parameter Provisioning API
-  slug: 3gpp-ts29122-racsparameterprovisioning
-- description: API for reporting network status. An OpenAPI 3.0.0 document with 2 path(s), API version 1.3.0, published verbatim by 3GPP in 3GPP TS 29.122 as part of the T8 Northbound (SCEF/NEF Exposure) suite and m
-  name: 3GPP TS 29.122 Reporting Network Status API
-  slug: 3gpp-ts29122-reportingnetworkstatus
-- description: API for BDT resouce management. An OpenAPI 3.0.0 document with 2 path(s), API version 1.4.0, published verbatim by 3GPP in 3GPP TS 29.122 as part of the T8 Northbound (SCEF/NEF Exposure) suite and mir
-  name: 3GPP TS 29.122 Resource Management Of Bdt API
-  slug: 3gpp-ts29122-resourcemanagementofbdt
-- description: API for AEF security management. An OpenAPI 3.0.0 document with 2 path(s), API version 1.4.0, published verbatim by 3GPP in 3GPP TS 29.222 as part of the CAPIF (Common API Framework) suite and mirrore
-  name: 3GPP TS 29.222 AEF Security API
-  slug: 3gpp-ts29222-aef-security-api
-- description: 'API for access control policy. An OpenAPI 3.0.0 document with 1 path(s), API version 1.4.0, published verbatim by 3GPP in 3GPP TS 29.222 as part of the CAPIF (Common API Framework) suite and mirrored '
-  name: 3GPP TS 29.222 CAPIF Access Control Policy API
-  slug: 3gpp-ts29222-capif-access-control-policy-api
-- description: API for API invoker management. An OpenAPI 3.0.0 document with 2 path(s), API version 1.4.0, published verbatim by 3GPP in 3GPP TS 29.222 as part of the CAPIF (Common API Framework) suite and mirrored
-  name: 3GPP TS 29.222 CAPIF API Invoker Management API
-  slug: 3gpp-ts29222-capif-api-invoker-management-api
-- description: 'API for API provider domain functions management. An OpenAPI 3.0.0 document with 2 path(s), API version 1.3.0, published verbatim by 3GPP in 3GPP TS 29.222 as part of the CAPIF (Common API Framework) '
-  name: 3GPP TS 29.222 CAPIF API Provider Management API
-  slug: 3gpp-ts29222-capif-api-provider-management-api
-- description: CAPIF Auditing API. An OpenAPI 3.0.0 document with 1 path(s), API version 1.4.0, published verbatim by 3GPP in 3GPP TS 29.222 as part of the CAPIF (Common API Framework) suite and mirrored in the publ
-  name: 3GPP TS 29.222 CAPIF Auditing API
-  slug: 3gpp-ts29222-capif-auditing-api
-- description: API for discovering service APIs. An OpenAPI 3.0.0 document with 1 path(s), API version 1.4.0, published verbatim by 3GPP in 3GPP TS 29.222 as part of the CAPIF (Common API Framework) suite and mirror
-  name: 3GPP TS 29.222 CAPIF Discover Service API
-  slug: 3gpp-ts29222-capif-discover-service-api
-- description: API for event subscription management. An OpenAPI 3.0.0 document with 2 path(s), API version 1.4.0, published verbatim by 3GPP in 3GPP TS 29.222 as part of the CAPIF (Common API Framework) suite and m
-  name: 3GPP TS 29.222 CAPIF Events API
-  slug: 3gpp-ts29222-capif-events-api
-- description: CAPIF Logging API Invocation API. An OpenAPI 3.0.0 document with 2 path(s), API version 1.4.0, published verbatim by 3GPP in 3GPP TS 29.222 as part of the CAPIF (Common API Framework) suite and mirror
-  name: 3GPP TS 29.222 CAPIF Logging API Invocation API
-  slug: 3gpp-ts29222-capif-logging-api-invocation-api
-- description: 'API for open discovery of service APIs. An OpenAPI 3.0.0 document with 1 path(s), API version 1.0.0, published verbatim by 3GPP in 3GPP TS 29.222 as part of the CAPIF (Common API Framework) suite and '
-  name: 3GPP TS 29.222 CAPIF Open Discover Service API
-  slug: 3gpp-ts29222-capif-open-discover-service-api
-- description: API for publishing service APIs. An OpenAPI 3.0.0 document with 2 path(s), API version 1.4.0, published verbatim by 3GPP in 3GPP TS 29.222 as part of the CAPIF (Common API Framework) suite and mirrore
-  name: 3GPP TS 29.222 CAPIF Publish Service API
-  slug: 3gpp-ts29222-capif-publish-service-api
-- description: API for Routing information. An OpenAPI 3.0.0 document with 1 path(s), API version 1.3.0, published verbatim by 3GPP in 3GPP TS 29.222 as part of the CAPIF (Common API Framework) suite and mirrored in
-  name: 3GPP TS 29.222 CAPIF Routing Info API
-  slug: 3gpp-ts29222-capif-routing-info-api
-- description: API for CAPIF security management. An OpenAPI 3.0.0 document with 4 path(s), API version 1.4.0, published verbatim by 3GPP in 3GPP TS 29.222 as part of the CAPIF (Common API Framework) suite and mirro
-  name: 3GPP TS 29.222 CAPIF Security API
-  slug: 3gpp-ts29222-capif-security-api
-- description: Session Management Policy Control Service. An OpenAPI 3.0.0 document with 4 path(s), API version 1.1.7, published verbatim by 3GPP in 3GPP TS 29.512 as part of the Policy Control (PCF) suite and mirro
-  name: 3GPP TS 29.512 Npcf SM Policy Control API
-  slug: 3gpp-ts29512-npcf-smpolicycontrol
-- description: PCF Policy Authorization Service. An OpenAPI 3.0.0 document with 5 path(s), API version 1.1.5, published verbatim by 3GPP in 3GPP TS 29.514 as part of the Policy Authorization (PCF) suite and mirrored
-  name: 3GPP TS 29.514 Npcf Policy Authorization API
-  slug: 3gpp-ts29514-npcf-policyauthorization
-- description: Nnwdaf_AnalyticsInfo Service API. An OpenAPI 3.0.0 document with 2 path(s), API version 1.2.1, published verbatim by 3GPP in 3GPP TS 29.520 as part of the Network Data Analytics (NWDAF) suite and mirr
-  name: 3GPP TS 29.520 Nnwdaf Analytics Info API
-  slug: 3gpp-ts29520-nnwdaf-analyticsinfo
-- description: Nnwdaf_EventsSubscription Service API. An OpenAPI 3.0.0 document with 4 path(s), API version 1.2.0, published verbatim by 3GPP in 3GPP TS 29.520 as part of the Network Data Analytics (NWDAF) suite and
-  name: 3GPP TS 29.520 Nnwdaf Events Subscription API
-  slug: 3gpp-ts29520-nnwdaf-eventssubscription
-- description: 'API for 5G LAN Parameter Provision. An OpenAPI 3.0.0 document with 2 path(s), API version 1.3.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite '
-  name: 3GPP TS 29.522 5 GLAN Parameter Provision API
-  slug: 3gpp-ts29522-5glanparameterprovision
-- description: 'API for 5G ACS Parameter Provision. An OpenAPI 3.0.0 document with 2 path(s), API version 1.1.2, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite '
-  name: 3GPP TS 29.522 ACS Parameter Provision API
-  slug: 3gpp-ts29522-acsparameterprovision
-- description: API for Addressing Parameters Provisioning. An OpenAPI 3.0.0 document with 2 path(s), API version 1.0.1, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure
-  name: 3GPP TS 29.522 Addressing Param Provision API
-  slug: 3gpp-ts29522-addressingparamprovision
-- description: API for UE Address service. An OpenAPI 3.0.0 document with 2 path(s), API version 1.0.1, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and mirr
-  name: 3GPP TS 29.522 A Io T API
-  slug: 3gpp-ts29522-aiot
-- description: AKMA API. An OpenAPI 3.0.0 document with 1 path(s), API version 1.1.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and mirrored in the public
-  name: 3GPP TS 29.522 AKMA API
-  slug: 3gpp-ts29522-akma
-- description: AM Influence API. An OpenAPI 3.0.0 document with 2 path(s), API version 1.2.1, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and mirrored in th
-  name: 3GPP TS 29.522 AM Influence API
-  slug: 3gpp-ts29522-aminfluence
-- description: API for AM policy authorization. An OpenAPI 3.0.0 document with 3 path(s), API version 1.2.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and
-  name: 3GPP TS 29.522 AM Policy Authorization API
-  slug: 3gpp-ts29522-ampolicyauthorization
-- description: API for Analytics Exposure. An OpenAPI 3.0.0 document with 3 path(s), API version 1.3.1, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and mirr
-  name: 3GPP TS 29.522 Analytics Exposure API
-  slug: 3gpp-ts29522-analyticsexposure
-- description: API for applying BDT policy. An OpenAPI 3.0.0 document with 2 path(s), API version 1.1.1, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and mir
-  name: 3GPP TS 29.522 Applying Bdt Policy API
-  slug: 3gpp-ts29522-applyingbdtpolicy
-- description: ASTI API. An OpenAPI 3.0.0 document with 3 path(s), API version 1.2.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and mirrored in the public
-  name: 3GPP TS 29.522 ASTI API
-  slug: 3gpp-ts29522-asti
-- description: API for CAG Information Parameters Provisioning. An OpenAPI 3.0.0 document with 2 path(s), API version 1.0.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exp
-  name: 3GPP TS 29.522 Cag Info Param Provision API
-  slug: 3gpp-ts29522-caginfoparamprovision
-- description: API for 3GPP Data Reporting. An OpenAPI 3.0.0 document with 3 path(s), API version 1.2.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and mir
-  name: 3GPP TS 29.522 Data Reporting API
-  slug: 3gpp-ts29522-datareporting
-- description: API for 3GPP Data Reporting and Provisioning. An OpenAPI 3.0.0 document with 4 path(s), API version 1.2.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposu
-  name: 3GPP TS 29.522 Data Reporting Provisioning API
-  slug: 3gpp-ts29522-datareportingprovisioning
-- description: DNAI Mapping API. An OpenAPI 3.0.0 document with 2 path(s), API version 1.0.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and mirrored in th
-  name: 3GPP TS 29.522 DNAI Mapping API
-  slug: 3gpp-ts29522-dnaimapping
-- description: API for AF provisioned EAS Deployment. An OpenAPI 3.0.0 document with 3 path(s), API version 1.2.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) sui
-  name: 3GPP TS 29.522 EAS Deployment API
-  slug: 3gpp-ts29522-easdeployment
-- description: API for AF provisioned ECS Address Configuration Information. An OpenAPI 3.0.0 document with 3 path(s), API version 1.1.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound
-  name: 3GPP TS 29.522 ECS Address API
-  slug: 3gpp-ts29522-ecsaddress
-- description: API for ECS Address Provisioning. An OpenAPI 3.0.0 document with 2 path(s), API version 1.2.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite an
-  name: 3GPP TS 29.522 Ecs Address Provision API
-  slug: 3gpp-ts29522-ecsaddressprovision
-- description: API for Group Parameters Provisioning. An OpenAPI 3.0.0 document with 2 path(s), API version 1.1.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) sui
-  name: 3GPP TS 29.522 Group Parameters Provisioning API
-  slug: 3gpp-ts29522-groupparametersprovisioning
-- description: API for the IMS Event Exposure Service. An OpenAPI 3.0.0 document with 2 path(s), API version 1.0.1, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) su
-  name: 3GPP TS 29.522 Ims Event Exposure API
-  slug: 3gpp-ts29522-imseventexposure
-- description: API for the IMS Parameters Provisioning Service. An OpenAPI 3.0.0 document with 2 path(s), API version 1.0.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exp
-  name: 3GPP TS 29.522 Ims Param Provision API
-  slug: 3gpp-ts29522-imsparamprovision
-- description: API for the IMS Session Management Service. An OpenAPI 3.0.0 document with 2 path(s), API version 1.0.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure
-  name: 3GPP TS 29.522 Ims Session Management API
-  slug: 3gpp-ts29522-imssessionmanagement
-- description: API for IPTV configuration. An OpenAPI 3.0.0 document with 2 path(s), API version 1.2.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and mirr
-  name: 3GPP TS 29.522 IPTV Configuration API
-  slug: 3gpp-ts29522-iptvconfiguration
-- description: 'API for Location Privacy Indication Parameters Provisioning. An OpenAPI 3.0.0 document with 2 path(s), API version 1.2.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound '
-  name: 3GPP TS 29.522 Lpi Parameter Provision API
-  slug: 3gpp-ts29522-lpiparameterprovision
-- description: 'API for MBS Group Message Delivery. An OpenAPI 3.0.0 document with 2 path(s), API version 1.1.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite '
-  name: 3GPP TS 29.522 MBS Group Msg Delivery API
-  slug: 3gpp-ts29522-mbsgroupmsgdelivery
-- description: 'API for MBS Session Management. An OpenAPI 3.0.0 document with 6 path(s), API version 1.3.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and '
-  name: 3GPP TS 29.522 MBS Session API
-  slug: 3gpp-ts29522-mbssession
-- description: 'API for the allocation, deallocation and management of TMGI(s) for MBS. An OpenAPI 3.0.0 document with 2 path(s), API version 1.2.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF '
-  name: 3GPP TS 29.522 MBSTMGI API
-  slug: 3gpp-ts29522-mbstmgi
-- description: API for MBS User Data Ingest Session. An OpenAPI 3.0.0 document with 4 path(s), API version 1.2.1, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suit
-  name: 3GPP TS 29.522 MBS User Data Ingest Session API
-  slug: 3gpp-ts29522-mbsuserdataingestsession
-- description: MBS User Service API. An OpenAPI 3.0.0 document with 2 path(s), API version 1.1.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and mirrored i
-  name: 3GPP TS 29.522 MBS User Service API
-  slug: 3gpp-ts29522-mbsuserservice
-- description: API for Member UE Selection Assistance. An OpenAPI 3.0.0 document with 2 path(s), API version 1.1.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) su
-  name: 3GPP TS 29.522 Member UE Selection Assistance API
-  slug: 3gpp-ts29522-memberueselectionassistance
-- description: API for UE updated location information notification. An OpenAPI 3.0.0 document with 1 path(s), API version 1.3.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Networ
-  name: 3GPP TS 29.522 Mo Lcs Notify API
-  slug: 3gpp-ts29522-molcsnotify
-- description: API for Media Streaming Event Exposure. An OpenAPI 3.0.0 document with 2 path(s), API version 1.2.1, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) su
-  name: 3GPP TS 29.522 MS Event Exposure API
-  slug: 3gpp-ts29522-mseventexposure
-- description: 'API for NIDD Configuration Trigger. An OpenAPI 3.0.0 document with 1 path(s), API version 1.1.1, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite '
-  name: 3GPP TS 29.522 NIDD Configuration Trigger API
-  slug: 3gpp-ts29522-niddconfigurationtrigger
-- description: API for PDTQ Policy Negotiation. An OpenAPI 3.0.0 document with 2 path(s), API version 1.1.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and
-  name: 3GPP TS 29.522 PDTQ Policy Negotiation API
-  slug: 3gpp-ts29522-pdtqpolicynegotiation
-- description: API for RSLPPI Parameters Provisioning. An OpenAPI 3.0.0 document with 2 path(s), API version 1.0.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) su
-  name: 3GPP TS 29.522 RSLPPI Parameters Provisioning API
-  slug: 3gpp-ts29522-rslppiparametersprovisioning
-- description: API for AF service paramter. An OpenAPI 3.0.0 document with 2 path(s), API version 1.3.1, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and mir
-  name: 3GPP TS 29.522 Service Parameter API
-  slug: 3gpp-ts29522-serviceparameter
-- description: API for Network Slice Parameters Provisioning. An OpenAPI 3.0.0 document with 2 path(s), API version 1.0.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Expos
-  name: 3GPP TS 29.522 Slice Param Provision API
-  slug: 3gpp-ts29522-sliceparamprovision
-- description: API for time synchronization exposure. An OpenAPI 3.0.0 document with 4 path(s), API version 1.2.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) sui
-  name: 3GPP TS 29.522 Time Sync Exposure API
-  slug: 3gpp-ts29522-timesyncexposure
-- description: API for AF traffic influence. An OpenAPI 3.0.0 document with 2 path(s), API version 1.4.1, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and mi
-  name: 3GPP TS 29.522 Traffic Influence API
-  slug: 3gpp-ts29522-trafficinfluence
-- description: API for UAV Flight Assistance. An OpenAPI 3.0.0 document with 3 path(s), API version 1.0.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and m
-  name: 3GPP TS 29.522 UAV Flight Assistance API
-  slug: 3gpp-ts29522-uavflightassistance
-- description: API for UE Address service. An OpenAPI 3.0.0 document with 3 path(s), API version 1.1.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and mirr
-  name: 3GPP TS 29.522 UE Address API
-  slug: 3gpp-ts29522-ueaddress
-- description: UE Id API. An OpenAPI 3.0.0 document with 5 path(s), API version 1.2.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and mirrored in the publi
-  name: 3GPP TS 29.522 UE Id API
-  slug: 3gpp-ts29522-ueid
-- description: VFL Inference API. An OpenAPI 3.0.0 document with 2 path(s), API version 1.0.1, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and mirrored in t
-  name: 3GPP TS 29.522 VFL Inference API
-  slug: 3gpp-ts29522-vflinference
-- description: VFLNF Discovery API. An OpenAPI 3.0.0 document with 2 path(s), API version 1.0.0, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and mirrored in
-  name: 3GPP TS 29.522 VFLNF Discovery API
-  slug: 3gpp-ts29522-vflnfdiscovery
-- description: VFL Training API. An OpenAPI 3.0.0 document with 2 path(s), API version 1.0.1, published verbatim by 3GPP in 3GPP TS 29.522 as part of the 5G NEF Northbound (Network Exposure) suite and mirrored in th
-  name: 3GPP TS 29.522 VFL Training API
-  slug: 3gpp-ts29522-vfltraining
-- description: Common Data Types for Service Based Interfaces. An OpenAPI 3.0.0 data-model-only document (no paths; it defines the schemas/Network Resource Model consumed by the Provisioning and Performance manageme
-  name: 3GPP TS 29.571 Common Data API
-  slug: 3gpp-ts29571-commondata
 - description: 'The 3GPP Forge (forge.3gpp.org) is a self-managed GitLab instance where 3GPP publishes the machine-readable OpenAPI for the 5G Service Based Architecture, the NEF/SCEF northbound exposure APIs, CAPIF '
   name: 3GPP Forge API
   slug: forge-gitlab-api
-artifact_total: 240
+- description: The 3gpp Nidd Configuration Trigger API from 3GPP — 1 operation(s) for 3gpp nidd configuration trigger.
+  name: 3GPP 3gpp Nidd Configuration Trigger API
+  slug: 3gpp-3gpp-nidd-configuration-trigger-api
+- description: The 5GLAN Parameters Provision Subscriptions API from 3GPP — 1 operation(s) for 5glan parameters provision subscriptions.
+  name: 3GPP 5GLAN Parameters Provision Subscriptions API
+  slug: 3gpp-5glan-parameters-provision-subscriptions-api
+- description: The Access Control Policy List (Collection) API from 3GPP — 1 operation(s) for access control policy list (collection).
+  name: 3GPP Access Control Policy List (Collection) API
+  slug: 3gpp-access-control-policy-list-collection-api
+- description: The ACS Configuration Subscriptions API from 3GPP — 1 operation(s) for acs configuration subscriptions.
+  name: 3GPP ACS Configuration Subscriptions API
+  slug: 3gpp-acs-configuration-subscriptions-api
+- description: The Activation Management API from 3GPP — 4 operation(s) for activation management.
+  name: 3GPP Activation Management API
+  slug: 3gpp-activation-management-api
+- description: The Addressing Parameters Provisionings (Collection) API from 3GPP — 1 operation(s) for addressing parameters provisionings (collection).
+  name: 3GPP Addressing Parameters Provisionings (Collection) API
+  slug: 3gpp-addressing-parameters-provisionings-collection-api
+- description: The AF level UE location update notification operation API from 3GPP — 1 operation(s) for af level ue location update notification operation.
+  name: 3GPP AF level UE location update notification operation API
+  slug: 3gpp-af-level-ue-location-update-notification-operation-api
+- description: The AIoT Command Request (custom operation without associated resources) API from 3GPP — 1 operation(s) for aiot command request (custom operation without associated resources).
+  name: 3GPP AIoT Command Request (custom operation without associated resources) API
+  slug: 3gpp-aiot-command-request-custom-operation-without-associated-resources-api
+- description: The AIoT Inventory Request (custom operation without associated resources) API from 3GPP — 1 operation(s) for aiot inventory request (custom operation without associated resources).
+  name: 3GPP AIoT Inventory Request (custom operation without associated resources) API
+  slug: 3gpp-aiot-inventory-request-custom-operation-without-associated-resources-api
+- description: The All API Provider Domains Registrations (Collection) API from 3GPP — 1 operation(s) for all api provider domains registrations (collection).
+  name: 3GPP All API Provider Domains Registrations (Collection) API
+  slug: 3gpp-all-api-provider-domains-registrations-collection-api
+- description: The All published service APIs (Collection) API from 3GPP — 1 operation(s) for all published service apis (collection).
+  name: 3GPP All published service APIs (Collection) API
+  slug: 3gpp-all-published-service-apis-collection-api
+- description: The All service API invocation logs (Collection) API from 3GPP — 1 operation(s) for all service api invocation logs (collection).
+  name: 3GPP All service API invocation logs (Collection) API
+  slug: 3gpp-all-service-api-invocation-logs-collection-api
+- description: The AM Influence Subscription API from 3GPP — 1 operation(s) for am influence subscription.
+  name: 3GPP AM Influence Subscription API
+  slug: 3gpp-am-influence-subscription-api
+- description: The AM Policy Events Subscription API from 3GPP — 1 operation(s) for am policy events subscription.
+  name: 3GPP AM Policy Events Subscription API
+  slug: 3gpp-am-policy-events-subscription-api
+- description: The Analytics Exposure Subscriptions API from 3GPP — 1 operation(s) for analytics exposure subscriptions.
+  name: 3GPP Analytics Exposure Subscriptions API
+  slug: 3gpp-analytics-exposure-subscriptions-api
+- description: The AnalyticsExposure API Fetch analytics information API from 3GPP — 1 operation(s) for analyticsexposure api fetch analytics information.
+  name: 3GPP AnalyticsExposure API Fetch analytics information API
+  slug: 3gpp-analyticsexposure-api-fetch-analytics-information-api
+- description: The APF published APIs (Collection) API from 3GPP — 1 operation(s) for apf published apis (collection).
+  name: 3GPP APF published APIs (Collection) API
+  slug: 3gpp-apf-published-apis-collection-api
+- description: The Application AM Contexts API from 3GPP — 1 operation(s) for application am contexts.
+  name: 3GPP Application AM Contexts API
+  slug: 3gpp-application-am-contexts-api
+- description: The Application Sessions (Collection) API from 3GPP — 1 operation(s) for application sessions (collection).
+  name: 3GPP Application Sessions (Collection) API
+  slug: 3gpp-application-sessions-collection-api
+- description: The Applied BDT Policy Subscription API from 3GPP — 1 operation(s) for applied bdt policy subscription.
+  name: 3GPP Applied BDT Policy Subscription API
+  slug: 3gpp-applied-bdt-policy-subscription-api
+- description: The AS Session with Required QoS Subscriptions API from 3GPP — 1 operation(s) for as session with required qos subscriptions.
+  name: 3GPP AS Session with Required QoS Subscriptions API
+  slug: 3gpp-as-session-with-required-qos-subscriptions-api
+- description: The ASTI Configurations API from 3GPP — 2 operation(s) for asti configurations.
+  name: 3GPP ASTI Configurations API
+  slug: 3gpp-asti-configurations-api
+- description: The BDT Subscription API from 3GPP — 1 operation(s) for bdt subscription.
+  name: 3GPP BDT Subscription API
+  slug: 3gpp-bdt-subscription-api
+- description: The CAG Information Parameters Provisionings (Collection) API from 3GPP — 1 operation(s) for cag information parameters provisionings (collection).
+  name: 3GPP CAG Information Parameters Provisionings (Collection) API
+  slug: 3gpp-cag-information-parameters-provisionings-collection-api
+- description: The CAPIFs Events Subscriptions (Collection) API from 3GPP — 1 operation(s) for capifs events subscriptions (collection).
+  name: 3GPP CAPIFs Events Subscriptions (Collection) API
+  slug: 3gpp-capifs-events-subscriptions-collection-api
+- description: The Chargeable Party Transaction Operation API from 3GPP — 1 operation(s) for chargeable party transaction operation.
+  name: 3GPP Chargeable Party Transaction Operation API
+  slug: 3gpp-chargeable-party-transaction-operation-api
+- description: The Check Authentication Request API from 3GPP — 1 operation(s) for check authentication request.
+  name: 3GPP Check Authentication Request API
+  slug: 3gpp-check-authentication-request-api
+- description: The Configure API from 3GPP — 1 operation(s) for configure.
+  name: 3GPP Configure API
+  slug: 3gpp-configure-api
+- description: The Connections API from 3GPP — 4 operation(s) for connections.
+  name: 3GPP Connections API
+  slug: 3gpp-connections-api
+- description: The CP provisioning Subscriptions API from 3GPP — 1 operation(s) for cp provisioning subscriptions.
+  name: 3GPP CP provisioning Subscriptions API
+  slug: 3gpp-cp-provisioning-subscriptions-api
+- description: The Data Reporting Configurations API from 3GPP — 1 operation(s) for data reporting configurations.
+  name: 3GPP Data Reporting Configurations API
+  slug: 3gpp-data-reporting-configurations-api
+- description: The Data Reporting Provisioning Sessions API from 3GPP — 1 operation(s) for data reporting provisioning sessions.
+  name: 3GPP Data Reporting Provisioning Sessions API
+  slug: 3gpp-data-reporting-provisioning-sessions-api
+- description: The Data Reporting Sessions API from 3GPP — 1 operation(s) for data reporting sessions.
+  name: 3GPP Data Reporting Sessions API
+  slug: 3gpp-data-reporting-sessions-api
+- description: The Delivery via MBMS Operation API from 3GPP — 2 operation(s) for delivery via mbms operation.
+  name: 3GPP Delivery via MBMS Operation API
+  slug: 3gpp-delivery-via-mbms-operation-api
+- description: The Device Triggering API Transactions API from 3GPP — 1 operation(s) for device triggering api transactions.
+  name: 3GPP Device Triggering API Transactions API
+  slug: 3gpp-device-triggering-api-transactions-api
+- description: The Device Triggering Transactions API from 3GPP — 1 operation(s) for device triggering transactions.
+  name: 3GPP Device Triggering Transactions API
+  slug: 3gpp-device-triggering-transactions-api
+- description: The DNAI Mapping Subscriptions (Collection) API from 3GPP — 1 operation(s) for dnai mapping subscriptions (collection).
+  name: 3GPP DNAI Mapping Subscriptions (Collection) API
+  slug: 3gpp-dnai-mapping-subscriptions-collection-api
+- description: The EAS Deployment Information (Collection) API from 3GPP — 1 operation(s) for eas deployment information (collection).
+  name: 3GPP EAS Deployment Information (Collection) API
+  slug: 3gpp-eas-deployment-information-collection-api
+- description: The EAS Deployment Information removal API from 3GPP — 1 operation(s) for eas deployment information removal.
+  name: 3GPP EAS Deployment Information removal API
+  slug: 3gpp-eas-deployment-information-removal-api
+- description: The ECS Address Configuration Information Deletion Request API from 3GPP — 1 operation(s) for ecs address configuration information deletion request.
+  name: 3GPP ECS Address Configuration Information Deletion Request API
+  slug: 3gpp-ecs-address-configuration-information-deletion-request-api
+- description: The ECS Address Configuration Information Sets (Collection) API from 3GPP — 1 operation(s) for ecs address configuration information sets (collection).
+  name: 3GPP ECS Address Configuration Information Sets (Collection) API
+  slug: 3gpp-ecs-address-configuration-information-sets-collection-api
+- description: The ECS Address Provision Configurations (Collection) API from 3GPP — 1 operation(s) for ecs address provision configurations (collection).
+  name: 3GPP ECS Address Provision Configurations (Collection) API
+  slug: 3gpp-ecs-address-provision-configurations-collection-api
+- description: The Events Subscription (Document) API from 3GPP — 1 operation(s) for events subscription (document).
+  name: 3GPP Events Subscription (Document) API
+  slug: 3gpp-events-subscription-document-api
+- description: The Fallback Descriptor Management API from 3GPP — 2 operation(s) for fallback descriptor management.
+  name: 3GPP Fallback Descriptor Management API
+  slug: 3gpp-fallback-descriptor-management-api
+- description: The Fault Management Notifications API from 3GPP — 1 operation(s) for fault management notifications.
+  name: 3GPP Fault Management Notifications API
+  slug: 3gpp-fault-management-notifications-api
+- description: The Files API from 3GPP — 1 operation(s) for files.
+  name: 3GPP Files API
+  slug: 3gpp-files-api
+- description: The Get Msisdn API from 3GPP — 1 operation(s) for get msisdn.
+  name: 3GPP Get Msisdn API
+  slug: 3gpp-get-msisdn-api
+- description: The Group Parameters Provisioning (Collection) API from 3GPP — 1 operation(s) for group parameters provisioning (collection).
+  name: 3GPP Group Parameters Provisioning (Collection) API
+  slug: 3gpp-group-parameters-provisioning-collection-api
+- description: The Group Parameters Provisionings (Collection) API from 3GPP — 1 operation(s) for group parameters provisionings (collection).
+  name: 3GPP Group Parameters Provisionings (Collection) API
+  slug: 3gpp-group-parameters-provisionings-collection-api
+- description: The IMS EE Subscriptions (Collection) API from 3GPP — 1 operation(s) for ims ee subscriptions (collection).
+  name: 3GPP IMS EE Subscriptions (Collection) API
+  slug: 3gpp-ims-ee-subscriptions-collection-api
+- description: The IMS Parameters Provisionings (Collection) API from 3GPP — 1 operation(s) for ims parameters provisionings (collection).
+  name: 3GPP IMS Parameters Provisionings (Collection) API
+  slug: 3gpp-ims-parameters-provisionings-collection-api
+- description: The IMS Session Creation (Collection) API from 3GPP — 1 operation(s) for ims session creation (collection).
+  name: 3GPP IMS Session Creation (Collection) API
+  slug: 3gpp-ims-session-creation-collection-api
+- description: The IMS Sessions (Collection) API from 3GPP — 1 operation(s) for ims sessions (collection).
+  name: 3GPP IMS Sessions (Collection) API
+  slug: 3gpp-ims-sessions-collection-api
+- description: The Individual 5GLAN Parameters Provision Subscription API from 3GPP — 1 operation(s) for individual 5glan parameters provision subscription.
+  name: 3GPP Individual 5GLAN Parameters Provision Subscription API
+  slug: 3gpp-individual-5glan-parameters-provision-subscription-api
+- description: The Individual ACS Configuration Subscription API from 3GPP — 1 operation(s) for individual acs configuration subscription.
+  name: 3GPP Individual ACS Configuration Subscription API
+  slug: 3gpp-individual-acs-configuration-subscription-api
+- description: The Individual Addressing Parameters Provisioning (Document) API from 3GPP — 1 operation(s) for individual addressing parameters provisioning (document).
+  name: 3GPP Individual Addressing Parameters Provisioning (Document) API
+  slug: 3gpp-individual-addressing-parameters-provisioning-document-api
+- description: The Individual AM Influence Subscription API from 3GPP — 1 operation(s) for individual am influence subscription.
+  name: 3GPP Individual AM Influence Subscription API
+  slug: 3gpp-individual-am-influence-subscription-api
+- description: The Individual Analytics Exposure Subscription API from 3GPP — 1 operation(s) for individual analytics exposure subscription.
+  name: 3GPP Individual Analytics Exposure Subscription API
+  slug: 3gpp-individual-analytics-exposure-subscription-api
+- description: The Individual APF published API (Document) API from 3GPP — 1 operation(s) for individual apf published api (document).
+  name: 3GPP Individual APF published API (Document) API
+  slug: 3gpp-individual-apf-published-api-document-api
+- description: The Individual API Provider Domain Registration (Document) API from 3GPP — 1 operation(s) for individual api provider domain registration (document).
+  name: 3GPP Individual API Provider Domain Registration (Document) API
+  slug: 3gpp-individual-api-provider-domain-registration-document-api
+- description: The Individual Application AM Context API from 3GPP — 1 operation(s) for individual application am context.
+  name: 3GPP Individual Application AM Context API
+  slug: 3gpp-individual-application-am-context-api
+- description: The Individual Application PFD Management API from 3GPP — 1 operation(s) for individual application pfd management.
+  name: 3GPP Individual Application PFD Management API
+  slug: 3gpp-individual-application-pfd-management-api
+- description: The Individual Application Session Context (Document) API from 3GPP — 2 operation(s) for individual application session context (document).
+  name: 3GPP Individual Application Session Context (Document) API
+  slug: 3gpp-individual-application-session-context-document-api
+- description: The Individual Applied BDT Policy Subscription API from 3GPP — 1 operation(s) for individual applied bdt policy subscription.
+  name: 3GPP Individual Applied BDT Policy Subscription API
+  slug: 3gpp-individual-applied-bdt-policy-subscription-api
+- description: The Individual AS Session with Required QoS Subscription API from 3GPP — 1 operation(s) for individual as session with required qos subscription.
+  name: 3GPP Individual AS Session with Required QoS Subscription API
+  slug: 3gpp-individual-as-session-with-required-qos-subscription-api
+- description: The Individual ASTI Configuration API from 3GPP — 1 operation(s) for individual asti configuration.
+  name: 3GPP Individual ASTI Configuration API
+  slug: 3gpp-individual-asti-configuration-api
+- description: The Individual BDT Subscription API from 3GPP — 1 operation(s) for individual bdt subscription.
+  name: 3GPP Individual BDT Subscription API
+  slug: 3gpp-individual-bdt-subscription-api
+- description: The Individual CAG Information Parameters Provisioning (Document) API from 3GPP — 1 operation(s) for individual cag information parameters provisioning (document).
+  name: 3GPP Individual CAG Information Parameters Provisioning (Document) API
+  slug: 3gpp-individual-cag-information-parameters-provisioning-document-api
+- description: The Individual CAPIFs Events Subscription (Document) API from 3GPP — 1 operation(s) for individual capifs events subscription (document).
+  name: 3GPP Individual CAPIFs Events Subscription (Document) API
+  slug: 3gpp-individual-capifs-events-subscription-document-api
+- description: The Individual chargeable party resource Operation API from 3GPP — 1 operation(s) for individual chargeable party resource operation.
+  name: 3GPP Individual chargeable party resource Operation API
+  slug: 3gpp-individual-chargeable-party-resource-operation-api
+- description: The Individual CP Provisioning Subscription API from 3GPP — 1 operation(s) for individual cp provisioning subscription.
+  name: 3GPP Individual CP Provisioning Subscription API
+  slug: 3gpp-individual-cp-provisioning-subscription-api
+- description: The Individual CP set Provisioning API from 3GPP — 1 operation(s) for individual cp set provisioning.
+  name: 3GPP Individual CP set Provisioning API
+  slug: 3gpp-individual-cp-set-provisioning-api
+- description: The Individual Data Reporting Configuration API from 3GPP — 1 operation(s) for individual data reporting configuration.
+  name: 3GPP Individual Data Reporting Configuration API
+  slug: 3gpp-individual-data-reporting-configuration-api
+- description: The Individual Data Reporting Provisioning Session API from 3GPP — 1 operation(s) for individual data reporting provisioning session.
+  name: 3GPP Individual Data Reporting Provisioning Session API
+  slug: 3gpp-individual-data-reporting-provisioning-session-api
+- description: The Individual Data Reporting Session API from 3GPP — 2 operation(s) for individual data reporting session.
+  name: 3GPP Individual Data Reporting Session API
+  slug: 3gpp-individual-data-reporting-session-api
+- description: The Individual Delivery via MBMS resource Operation API from 3GPP — 2 operation(s) for individual delivery via mbms resource operation.
+  name: 3GPP Individual Delivery via MBMS resource Operation API
+  slug: 3gpp-individual-delivery-via-mbms-resource-operation-api
+- description: The Individual Device Triggering Transaction API from 3GPP — 1 operation(s) for individual device triggering transaction.
+  name: 3GPP Individual Device Triggering Transaction API
+  slug: 3gpp-individual-device-triggering-transaction-api
+- description: The Individual DNAI Mapping Subscription (Document) API from 3GPP — 1 operation(s) for individual dnai mapping subscription (document).
+  name: 3GPP Individual DNAI Mapping Subscription (Document) API
+  slug: 3gpp-individual-dnai-mapping-subscription-document-api
+- description: The Individual EAS Deployment Information API from 3GPP — 1 operation(s) for individual eas deployment information.
+  name: 3GPP Individual EAS Deployment Information API
+  slug: 3gpp-individual-eas-deployment-information-api
+- description: The Individual ECS Address Configuration Information Set (Document) API from 3GPP — 1 operation(s) for individual ecs address configuration information set (document).
+  name: 3GPP Individual ECS Address Configuration Information Set (Document) API
+  slug: 3gpp-individual-ecs-address-configuration-information-set-document-api
+- description: The Individual ECS Address Provision Configuration API from 3GPP — 1 operation(s) for individual ecs address provision configuration.
+  name: 3GPP Individual ECS Address Provision Configuration API
+  slug: 3gpp-individual-ecs-address-provision-configuration-api
+- description: The Individual Group Parameters Provisioning (Document) API from 3GPP — 2 operation(s) for individual group parameters provisioning (document).
+  name: 3GPP Individual Group Parameters Provisioning (Document) API
+  slug: 3gpp-individual-group-parameters-provisioning-document-api
+- description: The Individual IMS EE Subscription (Document) API from 3GPP — 1 operation(s) for individual ims ee subscription (document).
+  name: 3GPP Individual IMS EE Subscription (Document) API
+  slug: 3gpp-individual-ims-ee-subscription-document-api
+- description: The Individual IMS Parameters Provisioning (Document) API from 3GPP — 1 operation(s) for individual ims parameters provisioning (document).
+  name: 3GPP Individual IMS Parameters Provisioning (Document) API
+  slug: 3gpp-individual-ims-parameters-provisioning-document-api
+- description: The Individual IMS Session API from 3GPP — 1 operation(s) for individual ims session.
+  name: 3GPP Individual IMS Session API
+  slug: 3gpp-individual-ims-session-api
+- description: The Individual IMS Session (Document) API from 3GPP — 1 operation(s) for individual ims session (document).
+  name: 3GPP Individual IMS Session (Document) API
+  slug: 3gpp-individual-ims-session-document-api
+- description: The Individual Individual ECS Address Configuration Set (Document) API from 3GPP — 1 operation(s) for individual individual ecs address configuration set (document).
+  name: 3GPP Individual Individual ECS Address Configuration Set (Document) API
+  slug: 3gpp-individual-individual-ecs-address-configuration-set-document-api
+- description: The Individual IPTV Configuration API from 3GPP — 1 operation(s) for individual iptv configuration.
+  name: 3GPP Individual IPTV Configuration API
+  slug: 3gpp-individual-iptv-configuration-api
+- description: The Individual LPI Parameters Provisioning API from 3GPP — 1 operation(s) for individual lpi parameters provisioning.
+  name: 3GPP Individual LPI Parameters Provisioning API
+  slug: 3gpp-individual-lpi-parameters-provisioning-api
+- description: The Individual ManagePort Configuration API from 3GPP — 1 operation(s) for individual manageport configuration.
+  name: 3GPP Individual ManagePort Configuration API
+  slug: 3gpp-individual-manageport-configuration-api
+- description: The Individual MBS Group Message Delivery (Document) API from 3GPP — 1 operation(s) for individual mbs group message delivery (document).
+  name: 3GPP Individual MBS Group Message Delivery (Document) API
+  slug: 3gpp-individual-mbs-group-message-delivery-document-api
+- description: The Individual MBS Parameters Provisioning API from 3GPP — 1 operation(s) for individual mbs parameters provisioning.
+  name: 3GPP Individual MBS Parameters Provisioning API
+  slug: 3gpp-individual-mbs-parameters-provisioning-api
+- description: The Individual MBS Session API from 3GPP — 1 operation(s) for individual mbs session.
+  name: 3GPP Individual MBS Session API
+  slug: 3gpp-individual-mbs-session-api
+- description: The Individual MBS Session Subscription API from 3GPP — 1 operation(s) for individual mbs session subscription.
+  name: 3GPP Individual MBS Session Subscription API
+  slug: 3gpp-individual-mbs-session-subscription-api
+- description: The Individual MBS User Data Ingest Session (Document) API from 3GPP — 1 operation(s) for individual mbs user data ingest session (document).
+  name: 3GPP Individual MBS User Data Ingest Session (Document) API
+  slug: 3gpp-individual-mbs-user-data-ingest-session-document-api
+- description: The Individual MBS User Data Ingest Session Status Subscription (Document) API from 3GPP — 1 operation(s) for individual mbs user data ingest session status subscription (document).
+  name: 3GPP Individual MBS User Data Ingest Session Status Subscription (Document) API
+  slug: 3gpp-individual-mbs-user-data-ingest-session-status-subscription-document-api
+- description: The Individual MBS User Service API from 3GPP — 1 operation(s) for individual mbs user service.
+  name: 3GPP Individual MBS User Service API
+  slug: 3gpp-individual-mbs-user-service-api
+- description: The Individual Media Streaming Event Exposure Subscription (Document) API from 3GPP — 1 operation(s) for individual media streaming event exposure subscription (document).
+  name: 3GPP Individual Media Streaming Event Exposure Subscription (Document) API
+  slug: 3gpp-individual-media-streaming-event-exposure-subscription-document-api
+- description: The Individual Member UE Selection Assistance Subscription (Document) API from 3GPP — 1 operation(s) for individual member ue selection assistance subscription (document).
+  name: 3GPP Individual Member UE Selection Assistance Subscription (Document) API
+  slug: 3gpp-individual-member-ue-selection-assistance-subscription-document-api
+- description: The Individual Monitoring Event Subscription API from 3GPP — 1 operation(s) for individual monitoring event subscription.
+  name: 3GPP Individual Monitoring Event Subscription API
+  slug: 3gpp-individual-monitoring-event-subscription-api
+- description: The Individual Network Status Reporting Subscription API from 3GPP — 1 operation(s) for individual network status reporting subscription.
+  name: 3GPP Individual Network Status Reporting Subscription API
+  slug: 3gpp-individual-network-status-reporting-subscription-api
+- description: The Individual NIDD configuration API from 3GPP — 1 operation(s) for individual nidd configuration.
+  name: 3GPP Individual NIDD configuration API
+  slug: 3gpp-individual-nidd-configuration-api
+- description: The Individual NIDD downlink data delivery API from 3GPP — 1 operation(s) for individual nidd downlink data delivery.
+  name: 3GPP Individual NIDD downlink data delivery API
+  slug: 3gpp-individual-nidd-downlink-data-delivery-api
+- description: The Individual Np Configuration API from 3GPP — 1 operation(s) for individual np configuration.
+  name: 3GPP Individual Np Configuration API
+  slug: 3gpp-individual-np-configuration-api
+- description: The Individual NWDAF Event Subscription Transfer (Document) API from 3GPP — 1 operation(s) for individual nwdaf event subscription transfer (document).
+  name: 3GPP Individual NWDAF Event Subscription Transfer (Document) API
+  slug: 3gpp-individual-nwdaf-event-subscription-transfer-document-api
+- description: The Individual NWDAF Events Subscription (Document) API from 3GPP — 1 operation(s) for individual nwdaf events subscription (document).
+  name: 3GPP Individual NWDAF Events Subscription (Document) API
+  slug: 3gpp-individual-nwdaf-events-subscription-document-api
+- description: The Individual On-boarded API Invoker (Document) API from 3GPP — 1 operation(s) for individual on-boarded api invoker (document).
+  name: 3GPP Individual On-boarded API Invoker (Document) API
+  slug: 3gpp-individual-on-boarded-api-invoker-document-api
+- description: The Individual PDTQ Policy Subscription (Document) API from 3GPP — 1 operation(s) for individual pdtq policy subscription (document).
+  name: 3GPP Individual PDTQ Policy Subscription (Document) API
+  slug: 3gpp-individual-pdtq-policy-subscription-document-api
+- description: The Individual PFD Management Transaction API from 3GPP — 1 operation(s) for individual pfd management transaction.
+  name: 3GPP Individual PFD Management Transaction API
+  slug: 3gpp-individual-pfd-management-transaction-api
+- description: The Individual RACS Parameter Provisioning API from 3GPP — 1 operation(s) for individual racs parameter provisioning.
+  name: 3GPP Individual RACS Parameter Provisioning API
+  slug: 3gpp-individual-racs-parameter-provisioning-api
+- description: The Individual RSLPPI Parameters Provisioning (Document) API from 3GPP — 1 operation(s) for individual rslppi parameters provisioning (document).
+  name: 3GPP Individual RSLPPI Parameters Provisioning (Document) API
+  slug: 3gpp-individual-rslppi-parameters-provisioning-document-api
+- description: The Individual Service API routing Info (Document) API from 3GPP — 1 operation(s) for individual service api routing info (document).
+  name: 3GPP Individual Service API routing Info (Document) API
+  slug: 3gpp-individual-service-api-routing-info-document-api
+- description: The Individual Service Operation API from 3GPP — 1 operation(s) for individual service operation.
+  name: 3GPP Individual Service Operation API
+  slug: 3gpp-individual-service-operation-api
+- description: The Individual Service Parameter Subscription API from 3GPP — 1 operation(s) for individual service parameter subscription.
+  name: 3GPP Individual Service Parameter Subscription API
+  slug: 3gpp-individual-service-parameter-subscription-api
+- description: The Individual Slice Parameters Provisioning (Document) API from 3GPP — 1 operation(s) for individual slice parameters provisioning (document).
+  name: 3GPP Individual Slice Parameters Provisioning (Document) API
+  slug: 3gpp-individual-slice-parameters-provisioning-document-api
+- description: The Individual SM Policy (Document) API from 3GPP — 3 operation(s) for individual sm policy (document).
+  name: 3GPP Individual SM Policy (Document) API
+  slug: 3gpp-individual-sm-policy-document-api
+- description: The Individual Time Synchronization Exposure Configuration API from 3GPP — 1 operation(s) for individual time synchronization exposure configuration.
+  name: 3GPP Individual Time Synchronization Exposure Configuration API
+  slug: 3gpp-individual-time-synchronization-exposure-configuration-api
+- description: The Individual Time Synchronization Exposure Subscription API from 3GPP — 2 operation(s) for individual time synchronization exposure subscription.
+  name: 3GPP Individual Time Synchronization Exposure Subscription API
+  slug: 3gpp-individual-time-synchronization-exposure-subscription-api
+- description: The Individual TMGI Allocation Operation API from 3GPP — 1 operation(s) for individual tmgi allocation operation.
+  name: 3GPP Individual TMGI Allocation Operation API
+  slug: 3gpp-individual-tmgi-allocation-operation-api
+- description: The Individual Traffic Influence Subscription API from 3GPP — 1 operation(s) for individual traffic influence subscription.
+  name: 3GPP Individual Traffic Influence Subscription API
+  slug: 3gpp-individual-traffic-influence-subscription-api
+- description: The Individual trusted API invoker (Store) API from 3GPP — 4 operation(s) for individual trusted api invoker (store).
+  name: 3GPP Individual trusted API invoker (Store) API
+  slug: 3gpp-individual-trusted-api-invoker-store-api
+- description: The Individual UAV Flight Assistance Configuration (Document) API from 3GPP — 1 operation(s) for individual uav flight assistance configuration (document).
+  name: 3GPP Individual UAV Flight Assistance Configuration (Document) API
+  slug: 3gpp-individual-uav-flight-assistance-configuration-document-api
+- description: The Individual UE Address Subscription (Document) API from 3GPP — 1 operation(s) for individual ue address subscription (document).
+  name: 3GPP Individual UE Address Subscription (Document) API
+  slug: 3gpp-individual-ue-address-subscription-document-api
+- description: The Individual UE ID Mapping Information Provisioning (Document) API from 3GPP — 1 operation(s) for individual ue id mapping information provisioning (document).
+  name: 3GPP Individual UE ID Mapping Information Provisioning (Document) API
+  slug: 3gpp-individual-ue-id-mapping-information-provisioning-document-api
+- description: The Individual VFL Inference Subscription (Document) API from 3GPP — 1 operation(s) for individual vfl inference subscription (document).
+  name: 3GPP Individual VFL Inference Subscription (Document) API
+  slug: 3gpp-individual-vfl-inference-subscription-document-api
+- description: The Individual VFL Training Subscription (Document) API from 3GPP — 1 operation(s) for individual vfl training subscription (document).
+  name: 3GPP Individual VFL Training Subscription (Document) API
+  slug: 3gpp-individual-vfl-training-subscription-document-api
+- description: The IPTV Configurations API from 3GPP — 1 operation(s) for iptv configurations.
+  name: 3GPP IPTV Configurations API
+  slug: 3gpp-iptv-configurations-api
+- description: The Logs (Collection) API from 3GPP — 1 operation(s) for logs (collection).
+  name: 3GPP Logs (Collection) API
+  slug: 3gpp-logs-collection-api
+- description: The LPI Parameters Provisionings API from 3GPP — 1 operation(s) for lpi parameters provisionings.
+  name: 3GPP LPI Parameters Provisionings API
+  slug: 3gpp-lpi-parameters-provisionings-api
+- description: The ManagePort Configurations API from 3GPP — 1 operation(s) for manageport configurations.
+  name: 3GPP ManagePort Configurations API
+  slug: 3gpp-manageport-configurations-api
+- description: The MBS Group Message Deliveries (Collection) API from 3GPP — 1 operation(s) for mbs group message deliveries (collection).
+  name: 3GPP MBS Group Message Deliveries (Collection) API
+  slug: 3gpp-mbs-group-message-deliveries-collection-api
+- description: The MBS Parameters Provisioning API from 3GPP — 1 operation(s) for mbs parameters provisioning.
+  name: 3GPP MBS Parameters Provisioning API
+  slug: 3gpp-mbs-parameters-provisioning-api
+- description: The MBS Parameters Provisionings API from 3GPP — 1 operation(s) for mbs parameters provisionings.
+  name: 3GPP MBS Parameters Provisionings API
+  slug: 3gpp-mbs-parameters-provisionings-api
+- description: The MBS Session Subscriptions API from 3GPP — 1 operation(s) for mbs session subscriptions.
+  name: 3GPP MBS Session Subscriptions API
+  slug: 3gpp-mbs-session-subscriptions-api
+- description: The MBS Sessions collection API from 3GPP — 1 operation(s) for mbs sessions collection.
+  name: 3GPP MBS Sessions collection API
+  slug: 3gpp-mbs-sessions-collection-api
+- description: The MBS TMGI Deallocation API from 3GPP — 1 operation(s) for mbs tmgi deallocation.
+  name: 3GPP MBS TMGI Deallocation API
+  slug: 3gpp-mbs-tmgi-deallocation-api
+- description: The MBS User Data Ingest Session Status Subscriptions (Collection) API from 3GPP — 1 operation(s) for mbs user data ingest session status subscriptions (collection).
+  name: 3GPP MBS User Data Ingest Session Status Subscriptions (Collection) API
+  slug: 3gpp-mbs-user-data-ingest-session-status-subscriptions-collection-api
+- description: The MBS User Data Ingest Sessions (Collection) API from 3GPP — 1 operation(s) for mbs user data ingest sessions (collection).
+  name: 3GPP MBS User Data Ingest Sessions (Collection) API
+  slug: 3gpp-mbs-user-data-ingest-sessions-collection-api
+- description: The MBS User Services API from 3GPP — 1 operation(s) for mbs user services.
+  name: 3GPP MBS User Services API
+  slug: 3gpp-mbs-user-services-api
+- description: The MeasJobs API from 3GPP — 2 operation(s) for measjobs.
+  name: 3GPP Meas Jobs API
+  slug: 3gpp-measjobs-api
+- description: The Media Streaming Event Exposure Subscriptions (Collection) API from 3GPP — 1 operation(s) for media streaming event exposure subscriptions (collection).
+  name: 3GPP Media Streaming Event Exposure Subscriptions (Collection) API
+  slug: 3gpp-media-streaming-event-exposure-subscriptions-collection-api
+- description: The Member UE Selection Assistance Subscriptions (Collection) API from 3GPP — 1 operation(s) for member ue selection assistance subscriptions (collection).
+  name: 3GPP Member UE Selection Assistance Subscriptions (Collection) API
+  slug: 3gpp-member-ue-selection-assistance-subscriptions-collection-api
+- description: The Monitoring Event Subscriptions API from 3GPP — 1 operation(s) for monitoring event subscriptions.
+  name: 3GPP Monitoring Event Subscriptions API
+  slug: 3gpp-monitoring-event-subscriptions-api
+- description: The MSISDN-less MO SMS Notification API from 3GPP — 1 operation(s) for msisdn-less mo sms notification.
+  name: 3GPP MSISDN-less MO SMS Notification API
+  slug: 3gpp-msisdn-less-mo-sms-notification-api
+- description: The Network Status Reporting Subscriptions API from 3GPP — 1 operation(s) for network status reporting subscriptions.
+  name: 3GPP Network Status Reporting Subscriptions API
+  slug: 3gpp-network-status-reporting-subscriptions-api
+- description: The NIDD configurations API from 3GPP — 1 operation(s) for nidd configurations.
+  name: 3GPP NIDD configurations API
+  slug: 3gpp-nidd-configurations-api
+- description: The NIDD downlink data deliveries API from 3GPP — 1 operation(s) for nidd downlink data deliveries.
+  name: 3GPP NIDD downlink data deliveries API
+  slug: 3gpp-nidd-downlink-data-deliveries-api
+- description: The NotificationSink API from 3GPP — 1 operation(s) for notificationsink.
+  name: 3GPP Notification Sink API
+  slug: 3gpp-notificationsink-api
+- description: The Np Configurations API from 3GPP — 1 operation(s) for np configurations.
+  name: 3GPP Np Configurations API
+  slug: 3gpp-np-configurations-api
+- description: The NWDAF Analytics (Document) API from 3GPP — 1 operation(s) for nwdaf analytics (document).
+  name: 3GPP NWDAF Analytics (Document) API
+  slug: 3gpp-nwdaf-analytics-document-api
+- description: The NWDAF Context (Document) API from 3GPP — 1 operation(s) for nwdaf context (document).
+  name: 3GPP NWDAF Context (Document) API
+  slug: 3gpp-nwdaf-context-document-api
+- description: The NWDAF Event Subscription Transfers (Collection) API from 3GPP — 1 operation(s) for nwdaf event subscription transfers (collection).
+  name: 3GPP NWDAF Event Subscription Transfers (Collection) API
+  slug: 3gpp-nwdaf-event-subscription-transfers-collection-api
+- description: The NWDAF Events Subscriptions (Collection) API from 3GPP — 1 operation(s) for nwdaf events subscriptions (collection).
+  name: 3GPP NWDAF Events Subscriptions (Collection) API
+  slug: 3gpp-nwdaf-events-subscriptions-collection-api
+- description: The On-boarded API Invokers (Collection) API from 3GPP — 1 operation(s) for on-boarded api invokers (collection).
+  name: 3GPP On-boarded API Invokers (Collection) API
+  slug: 3gpp-on-boarded-api-invokers-collection-api
+- description: The PCSCF Restoration Indication API from 3GPP — 1 operation(s) for pcscf restoration indication.
+  name: 3GPP PCSCF Restoration Indication API
+  slug: 3gpp-pcscf-restoration-indication-api
+- description: The PDTQ Policy Subscriptions (Collection) API from 3GPP — 1 operation(s) for pdtq policy subscriptions (collection).
+  name: 3GPP PDTQ Policy Subscriptions (Collection) API
+  slug: 3gpp-pdtq-policy-subscriptions-collection-api
+- description: The PFD Management Transactions API from 3GPP — 1 operation(s) for pfd management transactions.
+  name: 3GPP PFD Management Transactions API
+  slug: 3gpp-pfd-management-transactions-api
+- description: The Plan Descriptor Management API from 3GPP — 2 operation(s) for plan descriptor management.
+  name: 3GPP Plan Descriptor Management API
+  slug: 3gpp-plan-descriptor-management-api
+- description: The Plan Group Descriptor Management API from 3GPP — 2 operation(s) for plan group descriptor management.
+  name: 3GPP Plan Group Descriptor Management API
+  slug: 3gpp-plan-group-descriptor-management-api
+- description: The Provisioning MnS API from 3GPP — 2 operation(s) for provisioning mns.
+  name: 3GPP Provisioning MnS API
+  slug: 3gpp-provisioning-mns-api
+- description: The Query API from 3GPP — 1 operation(s) for query.
+  name: 3GPP Query API
+  slug: 3gpp-query-api
+- description: The RACS Parameter Provisionings API from 3GPP — 1 operation(s) for racs parameter provisionings.
+  name: 3GPP RACS Parameter Provisionings API
+  slug: 3gpp-racs-parameter-provisionings-api
+- description: The Retrieve API from 3GPP — 1 operation(s) for retrieve.
+  name: 3GPP Retrieve API
+  slug: 3gpp-retrieve-api
+- description: The Retrieve (custom operation without associated resources) API from 3GPP — 1 operation(s) for retrieve (custom operation without associated resources).
+  name: 3GPP Retrieve (custom operation without associated resources) API
+  slug: 3gpp-retrieve-custom-operation-without-associated-resources-api
+- description: The Revoke Authorization Request API from 3GPP — 1 operation(s) for revoke authorization request.
+  name: 3GPP Revoke Authorization Request API
+  slug: 3gpp-revoke-authorization-request-api
+- description: The RSLPPI Parameters Provisioning (Collection) API from 3GPP — 1 operation(s) for rslppi parameters provisioning (collection).
+  name: 3GPP RSLPPI Parameters Provisioning (Collection) API
+  slug: 3gpp-rslppi-parameters-provisioning-collection-api
+- description: The RSLPPI Parameters Provisionings (Collection) API from 3GPP — 1 operation(s) for rslppi parameters provisionings (collection).
+  name: 3GPP RSLPPI Parameters Provisionings (Collection) API
+  slug: 3gpp-rslppi-parameters-provisionings-collection-api
+- description: The Service APIs (Collection) API from 3GPP — 1 operation(s) for service apis (collection).
+  name: 3GPP Service APIs (Collection) API
+  slug: 3gpp-service-apis-collection-api
+- description: The Service Operation API from 3GPP — 1 operation(s) for service operation.
+  name: 3GPP Service Operation API
+  slug: 3gpp-service-operation-api
+- description: The Service Parameter Subscriptions API from 3GPP — 1 operation(s) for service parameter subscriptions.
+  name: 3GPP Service Parameter Subscriptions API
+  slug: 3gpp-service-parameter-subscriptions-api
+- description: The ServiceProfiles API from 3GPP — 2 operation(s) for serviceprofiles.
+  name: 3GPP Service Profiles API
+  slug: 3gpp-serviceprofiles-api
+- description: The Slice Parameters Provisionings (Collection) API from 3GPP — 1 operation(s) for slice parameters provisionings (collection).
+  name: 3GPP Slice Parameters Provisionings (Collection) API
+  slug: 3gpp-slice-parameters-provisionings-collection-api
+- description: The SliceProfiles API from 3GPP — 2 operation(s) for sliceprofiles.
+  name: 3GPP Slice Profiles API
+  slug: 3gpp-sliceprofiles-api
+- description: The SM Policies (Collection) API from 3GPP — 1 operation(s) for sm policies (collection).
+  name: 3GPP SM Policies (Collection) API
+  slug: 3gpp-sm-policies-collection-api
+- description: The Subscriptions API from 3GPP — 2 operation(s) for subscriptions.
+  name: 3GPP Subscriptions API
+  slug: 3gpp-subscriptions-api
+- description: The Subscriptions (Collection) API from 3GPP — 1 operation(s) for subscriptions (collection).
+  name: 3GPP Subscriptions (Collection) API
+  slug: 3gpp-subscriptions-collection-api
+- description: The Time Synchronization Exposure Configurations API from 3GPP — 1 operation(s) for time synchronization exposure configurations.
+  name: 3GPP Time Synchronization Exposure Configurations API
+  slug: 3gpp-time-synchronization-exposure-configurations-api
+- description: The Time Synchronization Exposure Subscriptions API from 3GPP — 1 operation(s) for time synchronization exposure subscriptions.
+  name: 3GPP Time Synchronization Exposure Subscriptions API
+  slug: 3gpp-time-synchronization-exposure-subscriptions-api
+- description: The TMGI Allocation Operation API from 3GPP — 1 operation(s) for tmgi allocation operation.
+  name: 3GPP TMGI Allocation Operation API
+  slug: 3gpp-tmgi-allocation-operation-api
+- description: The TMGI Allocation or Timer Expiry Refresh API from 3GPP — 1 operation(s) for tmgi allocation or timer expiry refresh.
+  name: 3GPP TMGI Allocation or Timer Expiry Refresh API
+  slug: 3gpp-tmgi-allocation-or-timer-expiry-refresh-api
+- description: The Traffic Influence Subscription API from 3GPP — 1 operation(s) for traffic influence subscription.
+  name: 3GPP Traffic Influence Subscription API
+  slug: 3gpp-traffic-influence-subscription-api
+- description: The Trigger Descriptor Management API from 3GPP — 2 operation(s) for trigger descriptor management.
+  name: 3GPP Trigger Descriptor Management API
+  slug: 3gpp-trigger-descriptor-management-api
+- description: The UAV Flight Assistance Configurations (Collection) API from 3GPP — 1 operation(s) for uav flight assistance configurations (collection).
+  name: 3GPP UAV Flight Assistance Configurations (Collection) API
+  slug: 3gpp-uav-flight-assistance-configurations-collection-api
+- description: The UE Address(es) Information Retrieval API from 3GPP — 1 operation(s) for ue address(es) information retrieval.
+  name: 3GPP UE Address(es) Information Retrieval API
+  slug: 3gpp-ue-address-es-information-retrieval-api
+- description: The UE Address Subscriptions (Collection) API from 3GPP — 1 operation(s) for ue address subscriptions (collection).
+  name: 3GPP UE Address Subscriptions (Collection) API
+  slug: 3gpp-ue-address-subscriptions-collection-api
+- description: The UE ID Mapping Information Provisioning (Collection) API from 3GPP — 1 operation(s) for ue id mapping information provisioning (collection).
+  name: 3GPP UE ID Mapping Information Provisioning (Collection) API
+  slug: 3gpp-ue-id-mapping-information-provisioning-collection-api
+- description: The UE ID Mapping Information Provisionings (Collection) API from 3GPP — 1 operation(s) for ue id mapping information provisionings (collection).
+  name: 3GPP UE ID Mapping Information Provisionings (Collection) API
+  slug: 3gpp-ue-id-mapping-information-provisionings-collection-api
+- description: The Validation Management API from 3GPP — 4 operation(s) for validation management.
+  name: 3GPP Validation Management API
+  slug: 3gpp-validation-management-api
+- description: The Verify Msisdn API from 3GPP — 1 operation(s) for verify msisdn.
+  name: 3GPP Verify Msisdn API
+  slug: 3gpp-verify-msisdn-api
+- description: The VFL Inference Subscriptions (Collection) API from 3GPP — 1 operation(s) for vfl inference subscriptions (collection).
+  name: 3GPP VFL Inference Subscriptions (Collection) API
+  slug: 3gpp-vfl-inference-subscriptions-collection-api
+- description: The VFL NF discovery API from 3GPP — 1 operation(s) for vfl nf discovery.
+  name: 3GPP VFL NF discovery API
+  slug: 3gpp-vfl-nf-discovery-api
+- description: The VFL NF discovery release API from 3GPP — 1 operation(s) for vfl nf discovery release.
+  name: 3GPP VFL NF discovery release API
+  slug: 3gpp-vfl-nf-discovery-release-api
+- description: The VFL Training Subscriptions (Collection) API from 3GPP — 1 operation(s) for vfl training subscriptions (collection).
+  name: 3GPP VFL Training Subscriptions (Collection) API
+  slug: 3gpp-vfl-training-subscriptions-collection-api
+artifact_total: 317
 asyncapis:
 - description: ''
   name: 3Gpp Notifications Webhooks
@@ -739,6 +970,10 @@ collections:
   name: Common Data Types
   slug: open-3gpp-ts29571-commondata
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/3gpp-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -892,13 +1127,13 @@ modified: '2026-07-25'
 name: 3GPP
 nav: Providers
 network: true
-overview: '3GPP publishes 116 APIs on the [APIs.io](https://apis.io/) network, including TS 28.104 Mda Nrm API, TS 28.104 Mda Report API, TS 28.105 Ai Ml Nrm API, and 113 more. Tagged areas include Telecommunications, Global, Standards, Standards Body, and Network APIs.
+overview: '3GPP publishes 193 APIs on the [APIs.io](https://apis.io/) network, including 3gpp Nidd Configuration Trigger API, 5GLAN Parameters Provision Subscriptions API, Access Control Policy List (Collection) API, and 190 more. Tagged areas include Telecommunications, Global, Standards, Standards Body, and Network APIs.
 
 
   The 3GPP catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  3GPP''s developer surface includes authentication, documentation, developer portal, tooling, engineering blog, changelog, support, and 28 more developer resources.'
+  3GPP''s developer surface includes authentication, documentation, developer portal, tooling, engineering blog, changelog, support, and 29 more developer resources.'
 random_paper: 0
 scopes:
 - name: 3Gpp Scopes
@@ -907,18 +1142,23 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: developing
-  composite: 46.4
+  composite: 47.0
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 51.5
+    contract_governance: 4.5
+    contract_quality: 56.2
     developer_ergonomics: 56.5
-    discoverability: 66.7
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 46.4
+  previous_composite: 47.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -935,8 +1175,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 69.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/3gpp/refs/heads/main/screenshots/3gpp-2026-08-07T160703.png
 security:

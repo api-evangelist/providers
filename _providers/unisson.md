@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 28
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 478
   slug: unisson-agentic-access
   summary_line: 478 operations · 272 acting · 28 human-in-the-loop
-api_count: 45
+api_count: 1
 apis:
 - description: The agent-evals API from Unisson — 5 operation(s) for agent-evals.
   name: Unisson agent-evals API
@@ -325,6 +325,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/unisson-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/unisson-platform-overlay.yaml
 - group: auth
@@ -425,22 +429,27 @@ overview: 'Unisson publishes 45 APIs on the [APIs.io](https://apis.io/) network,
   The Unisson catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Unisson''s developer surface includes authentication, support, and 19 more developer resources.'
+  Unisson''s developer surface includes authentication, support, and 20 more developer resources.'
 random_paper: 6
 score:
   band: thin
-  composite: 35.7
-  delta: 1.4
+  composite: 33.6
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 64.0
     developer_ergonomics: 18.5
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 34.3
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -451,8 +460,8 @@ score:
       total: 45
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

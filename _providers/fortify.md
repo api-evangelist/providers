@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 138
   slug: fortify-agentic-access
   summary_line: 138 operations · 62 acting · 1 human-in-the-loop
-api_count: 42
+api_count: 3
 apis:
 - description: Manage alert definitions
   name: Fortify Alert Definitions API
@@ -437,6 +437,10 @@ collections:
   name: Fortify on Demand Alert Definitions Vulnerabilities API
   slug: open-fortify-vulnerabilities-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fortify-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -584,7 +588,7 @@ overview: 'Fortify publishes 42 APIs on the [APIs.io](https://apis.io/) network,
   The Fortify catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Fortify''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 20 more developer resources.'
+  Fortify''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 21 more developer resources.'
 plans:
 - name: Fortify Plans Pricing
   plan_count: 4
@@ -608,7 +612,12 @@ rules:
 score:
   band: developing
   composite: 53.3
-  delta: 1.4
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 58.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -618,7 +627,7 @@ score:
     discoverability: 75.9
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 51.9
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     contracts:
@@ -626,8 +635,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 42
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/screenshots/fortify-2026-08-17T123433.png
 security:

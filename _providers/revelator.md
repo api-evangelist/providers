@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 32
   slug: revelator-agentic-access
   summary_line: 32 operations · 13 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Partner account signup, login, switching, and permissions.
   name: Revelator Account API
@@ -101,6 +101,10 @@ collections:
   name: Revelator API
   slug: open-revelator
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/revelator-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -156,7 +160,7 @@ network: true
 overview: 'Revelator publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounting API, Analytics API, and 5 more. Tagged areas include Music, Distribution, Rights, Royalties, and Payments.
 
 
-  Revelator''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+  Revelator''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Revelator Plans Pricing
   plan_count: 4
@@ -168,18 +172,23 @@ rate_limits:
   slug: revelator-rate-limits
 score:
   band: thin
-  composite: 37.3
-  delta: 2.4
+  composite: 36.7
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 51.0
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 34.9
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -193,8 +202,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

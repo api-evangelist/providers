@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 60
   slug: convoy-agentic-access
   summary_line: 60 operations · 40 acting · 1 human-in-the-loop
-api_count: 11
+api_count: 1
 apis:
 - description: Delivery Attempt related APIs
   name: Convoy Delivery Attempts API
@@ -159,6 +159,10 @@ collections:
   name: Convoy API Reference
   slug: open-convoy
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/convoy-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -647,7 +651,7 @@ overview: 'Convoy publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
   The Convoy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Convoy''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, signup flow, pricing, and 42 more developer resources.'
+  Convoy''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, signup flow, pricing, and 43 more developer resources.'
 plans:
 - name: Convoy Plans Pricing
   plan_count: 3
@@ -680,19 +684,27 @@ rules:
     warn: 5
   slug: convoy-rules
 score:
-  band: exemplar
-  composite: 67.4
-  delta: 3.9
+  band: strong
+  composite: 65.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 27.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.3
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
     contract_governance: 28.8
     contract_quality: 75.1
     developer_ergonomics: 73.8
-    discoverability: 68.5
+    discoverability: 70.4
     governance: 28.8
     operational_transparency: 65.8
-  previous_composite: 63.5
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 68.1
   provenance:
     agentic_access: derived
     contracts:
@@ -700,8 +712,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/screenshots/convoy-2026-06-20T175006.png
 security:

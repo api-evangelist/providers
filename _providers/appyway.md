@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 88
   slug: appyway-agentic-access
   summary_line: 88 operations · 69 acting
-api_count: 30
+api_count: 7
 apis:
 - description: The ActivityTypes API from AppyWay — 1 operation(s) for activitytypes.
   name: AppyWay ActivityTypes API
@@ -251,6 +251,10 @@ collections:
   name: AppyWay Traffic Data API
   slug: open-traffic-data-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/appyway-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -346,7 +350,7 @@ overview: 'AppyWay publishes 30 APIs on the [APIs.io](https://apis.io/) network,
   The AppyWay catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AppyWay''s developer surface includes authentication, engineering blog, and 13 more developer resources.'
+  AppyWay''s developer surface includes authentication, engineering blog, and 14 more developer resources.'
 plans:
 - name: Appyway Plans Pricing
   plan_count: 1
@@ -386,7 +390,12 @@ scopes:
 score:
   band: thin
   composite: 38.2
-  delta: 4.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -396,7 +405,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 33.8
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -410,8 +419,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/screenshots/appyway-2026-06-20T172339.png
 security:

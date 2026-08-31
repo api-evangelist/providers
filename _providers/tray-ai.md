@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 35
   slug: tray-ai-agentic-access
   summary_line: 35 operations · 25 acting
-api_count: 12
+api_count: 2
 apis:
 - description: Generate and manage user tokens for authenticating API calls. The authorize mutation generates a user token from a master token.
   name: Tray.ai Authentication API
@@ -282,11 +282,11 @@ common:
   url: https://github.com/trayio/threadneedle
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/trayio/CDK-examples-public
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/trayio/embedded-edition-sample-app
 - group: build
   title: ''
@@ -414,7 +414,7 @@ overview: 'Tray.ai publishes 12 APIs on the [APIs.io](https://apis.io/) network,
   The Tray.ai catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tray.ai''s developer surface includes authentication, engineering blog, developer portal, tooling, and 32 more developer resources.'
+  Tray.ai''s developer surface includes authentication, engineering blog, developer portal, code examples, tooling, and 31 more developer resources.'
 plans:
 - name: Tray Ai Plans Pricing
   plan_count: 3
@@ -448,18 +448,23 @@ rules:
   slug: tray-ai-rules
 score:
   band: developing
-  composite: 54.1
-  delta: 1.9
+  composite: 53.5
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 28.8
     contract_quality: 73.7
     developer_ergonomics: 45.2
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 52.2
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     contracts:
@@ -467,8 +472,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/screenshots/tray-ai-2026-06-20T195639.png
 security:

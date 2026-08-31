@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 101
   slug: trello-agentic-access
   summary_line: 101 operations · 53 acting
-api_count: 16
+api_count: 1
 apis:
 - description: The Trello Webhooks API allows developers to receive real-time notifications when changes occur on Trello models such as boards, lists, and cards. Rather than polling the REST API for updates, webhook
   name: Trello Webhooks API
@@ -312,18 +312,23 @@ rules:
   slug: trello-spectral-rules
 score:
   band: thin
-  composite: 37.5
-  delta: 1.9
+  composite: 37.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 64.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 28.8
     contract_quality: 74.7
     developer_ergonomics: 21.4
-    discoverability: 50.0
+    discoverability: 44.4
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 35.6
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -335,8 +340,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trello/refs/heads/main/screenshots/trello-2026-06-20T195704.png
 security:

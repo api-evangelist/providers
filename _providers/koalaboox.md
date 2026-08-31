@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST API for the Koalaboox / Cegid Click & Finance invoicing and invoice-financing platform. Resource-oriented URLs, JSON-encoded requests and responses, standard HTTP status codes, and OAuth 2.0 auth
@@ -150,7 +150,7 @@ modified: '2026-07-19'
 name: Koalaboox
 nav: Providers
 network: true
-overview: 'Koalaboox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Invoicing, Electronic Invoicing, PEPPOL, and Accounting.
+overview: 'Koalaboox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Invoicing, Electronic Invoicing, Peppol, and Accounting.
 
 
   Koalaboox''s developer surface includes documentation, pricing, signup flow, support, authentication, and 19 more developer resources.'
@@ -161,7 +161,12 @@ plans:
 random_paper: 15
 score:
   band: thin
-  composite: 29.1
+  composite: 28.8
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 55.3
@@ -169,15 +174,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 31.0
-    discoverability: 79.6
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 29.1
+  previous_composite: 28.8
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koalaboox/refs/heads/main/screenshots/koalaboox-2026-07-25T224027.png
 security:
@@ -198,7 +203,7 @@ tags:
 - Company
 - Invoicing
 - Electronic Invoicing
-- PEPPOL
+- Peppol
 - Accounting
 - Invoice Financing
 - Working Capital

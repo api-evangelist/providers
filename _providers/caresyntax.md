@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -131,7 +131,12 @@ overview: 'Caresyntax is profiled on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 19
 score:
   band: emerging
-  composite: 14.8
+  composite: 15.5
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 23.7
@@ -139,20 +144,28 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 6.0
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 14.8
+  previous_composite: 15.5
   provenance:
     conformance: first-party
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    - jurisdiction: US
+      standard: hitech
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Health
     regime_id: health
     score: 27.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

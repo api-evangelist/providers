@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 19
   slug: hsbc-australia-agentic-access
   summary_line: 19 operations · 3 acting
-api_count: 8
+api_count: 1
 apis:
 - description: HSBC Group's global developer portal (develop.hsbc.com) documents commercial / corporate-banking APIs available to HSBC's business and corporate clients, alongside Open Banking APIs for non-Australian
   name: HSBC Developer Portal - Commercial APIs (HSBC Group, partner-gated)
@@ -98,6 +98,10 @@ collections:
   name: CDR Banking Banking Account Balances Banking Products API
   slug: open-hsbc-australia-banking-products-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hsbc-australia-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -214,7 +218,7 @@ network: true
 overview: 'HSBC Bank Australia publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Data Right.
 
 
-  HSBC Bank Australia''s developer surface includes documentation, getting-started guide, support, authentication, and 21 more developer resources.'
+  HSBC Bank Australia''s developer surface includes documentation, getting-started guide, support, authentication, and 22 more developer resources.'
 random_paper: 20
 scopes:
 - name: Hsbc Australia Scopes
@@ -223,18 +227,23 @@ scopes:
   summary_line: 10 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.4
-  delta: 0.7
+  composite: 43.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 49.7
     developer_ergonomics: 53.0
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 45.7
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -251,8 +260,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hsbc-australia/refs/heads/main/screenshots/hsbc-australia-2026-07-21T114727.png
 security:

@@ -27,15 +27,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.6
-  scored_at: '2026-08-26'
+  score: 26.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -43,25 +43,102 @@ agentic_access:
   operation_count: 111
   slug: magic-moment-agentic-access
   summary_line: 111 operations · 51 acting
-api_count: 5
+api_count: 10
 apis:
-- description: 'Swagger 2.0 contract for the Playbook Salesforce integration service: OAuth 2.0 connection to Salesforce, sync settings, field and ID mappings, engagement sync settings, Salesforce lead statuses / opp'
-  name: Magic Moment Playbook Salesforce Integration API
-  slug: magic-moment-playbook-salesforce-integration-api
-- description: 'Swagger 2.0 contract for the Playbook HubSpot integration service: OAuth 2.0 connection to HubSpot, sync settings and field mappings, Playbook <-> HubSpot ID mappings, engagement sync settings, HubSpo'
-  name: Magic Moment Playbook HubSpot Integration API
-  slug: magic-moment-playbook-hubspot-integration-api
-- description: 'Swagger 2.0 contract for the Playbook office-suite integration service: calendar event create/list/update/delete across connected Google Workspace and Microsoft 365 accounts, mail sync (OAuth results '
-  name: Magic Moment Playbook Office Suite Integration API
-  slug: magic-moment-playbook-office-suite-integration-api
-- description: 'Swagger 2.0 contract for the Playbook call integration service: call-log capture (including MiiTel), call-provider settings, capability tokens for the softphone client, and conference control (create,'
-  name: Magic Moment Playbook Call Integration API
-  slug: magic-moment-playbook-call-integration-api
-- description: 'Swagger 2.0 contract for the Playbook aggregation/reporting service: performance summary and detail by team, rep, and playbook phase, achievement by unit and user, performance targets, playbook phase '
-  name: Magic Moment Playbook Reporting API
-  slug: magic-moment-playbook-reporting-api
-artifact_total: 11
+- description: The aggregate API from Magic Moment — 2 operation(s) for aggregate.
+  name: Magic Moment Aggregate API
+  slug: magic-moment-aggregate-api
+- description: The calendars API from Magic Moment — 4 operation(s) for calendars.
+  name: Magic Moment Calendars API
+  slug: magic-moment-calendars-api
+- description: The call-log API from Magic Moment — 2 operation(s) for call-log.
+  name: Magic Moment Call Log API
+  slug: magic-moment-call-log-api
+- description: The capability API from Magic Moment — 1 operation(s) for capability.
+  name: Magic Moment Capability API
+  slug: magic-moment-capability-api
+- description: The conference API from Magic Moment — 3 operation(s) for conference.
+  name: Magic Moment Conference API
+  slug: magic-moment-conference-api
+- description: The engagement_sync_settings API from Magic Moment — 2 operation(s) for engagement_sync_settings.
+  name: Magic Moment Engagement Sync Settings API
+  slug: magic-moment-engagement-sync-settings-api
+- description: The fetch_hubspot API from Magic Moment — 3 operation(s) for fetch_hubspot.
+  name: Magic Moment Fetch Hubspot API
+  slug: magic-moment-fetch-hubspot-api
+- description: The fetch_sfdc API from Magic Moment — 3 operation(s) for fetch_sfdc.
+  name: Magic Moment Fetch Sfdc API
+  slug: magic-moment-fetch-sfdc-api
+- description: The healthcheck API from Magic Moment — 1 operation(s) for healthcheck.
+  name: Magic Moment Healthcheck API
+  slug: magic-moment-healthcheck-api
+- description: The mail API from Magic Moment — 5 operation(s) for mail.
+  name: Magic Moment Mail API
+  slug: magic-moment-mail-api
+- description: The mappings API from Magic Moment — 2 operation(s) for mappings.
+  name: Magic Moment Mappings API
+  slug: magic-moment-mappings-api
+- description: The microsoft365 API from Magic Moment — 2 operation(s) for microsoft365.
+  name: Magic Moment Microsoft365 API
+  slug: magic-moment-microsoft365-api
+- description: The oauth2 API from Magic Moment — 7 operation(s) for oauth2.
+  name: Magic Moment Oauth2 API
+  slug: magic-moment-oauth2-api
+- description: The performance API from Magic Moment — 9 operation(s) for performance.
+  name: Magic Moment Performance API
+  slug: magic-moment-performance-api
+- description: The performance-target API from Magic Moment — 2 operation(s) for performance-target.
+  name: Magic Moment Performance Target API
+  slug: magic-moment-performance-target-api
+- description: The playbook-phase API from Magic Moment — 4 operation(s) for playbook-phase.
+  name: Magic Moment Playbook Phase API
+  slug: magic-moment-playbook-phase-api
+- description: The profiles API from Magic Moment — 1 operation(s) for profiles.
+  name: Magic Moment Profiles API
+  slug: magic-moment-profiles-api
+- description: The sales API from Magic Moment — 2 operation(s) for sales.
+  name: Magic Moment Sales API
+  slug: magic-moment-sales-api
+- description: The settings API from Magic Moment — 8 operation(s) for settings.
+  name: Magic Moment Settings API
+  slug: magic-moment-settings-api
+- description: The sync_hubspot API from Magic Moment — 2 operation(s) for sync_hubspot.
+  name: Magic Moment Sync Hubspot API
+  slug: magic-moment-sync-hubspot-api
+- description: The sync_sfdc API from Magic Moment — 2 operation(s) for sync_sfdc.
+  name: Magic Moment Sync Sfdc API
+  slug: magic-moment-sync-sfdc-api
+- description: The utils API from Magic Moment — 1 operation(s) for utils.
+  name: Magic Moment Utils API
+  slug: magic-moment-utils-api
+- description: The value API from Magic Moment — 1 operation(s) for value.
+  name: Magic Moment Value API
+  slug: magic-moment-value-api
+- description: The zoom API from Magic Moment — 6 operation(s) for zoom.
+  name: Magic Moment Zoom API
+  slug: magic-moment-zoom-api
+artifact_total: 30
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/magic-moment-salesforce-integration-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/magic-moment-hubspot-integration-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/magic-moment-office-suite-integration-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/magic-moment-call-integration-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/magic-moment-reporting-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -154,10 +231,10 @@ modified: '2026-08-13'
 name: Magic Moment
 nav: Providers
 network: true
-overview: 'Magic Moment publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Playbook Salesforce Integration API, Playbook HubSpot Integration API, Playbook Office Suite Integration API, and 2 more. Tagged areas include Company, Enterprise, Sales, Artificial Intelligence, and CRM.
+overview: 'Magic Moment publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Aggregate API, Calendars API, Call Log API, and 21 more. Tagged areas include Company, Enterprise, Sales, Artificial Intelligence, and CRM.
 
 
-  Magic Moment''s developer surface includes authentication, engineering blog, support, pricing, and 17 more developer resources.'
+  Magic Moment''s developer surface includes authentication, engineering blog, support, pricing, and 22 more developer resources.'
 plans:
 - name: Magic Moment Plans Pricing
   plan_count: 2
@@ -169,18 +246,23 @@ rate_limits:
   slug: magic-moment-rate-limits
 score:
   band: developing
-  composite: 42.4
-  delta: 1.3
+  composite: 40.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
-    contract_governance: 30.3
-    contract_quality: 50.5
+    contract_governance: 18.2
+    contract_quality: 49.2
     developer_ergonomics: 25.6
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 41.1
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -191,8 +273,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magic-moment/refs/heads/main/screenshots/magic-moment-2026-07-25T225847.png
 security:

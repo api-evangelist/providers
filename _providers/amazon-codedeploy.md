@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 54
   slug: amazon-codedeploy-agentic-access
   summary_line: 54 operations · 50 acting · 1 human-in-the-loop
-api_count: 49
+api_count: 2
 apis:
 - description: Operations for creating and managing CodeDeploy applications
   name: Amazon CodeDeploy Applications API
@@ -490,6 +490,10 @@ collections:
   name: 'AWS CodeDeploy Applications #X Amz Target=CodeDeploy 20141006.UpdateDeploymentGroup API'
   slug: open-amazon-codedeploy-x-amz-target-codedeploy-20141006-updatedeploymentgroup-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-codedeploy-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -3503,7 +3507,7 @@ overview: 'Amazon CodeDeploy publishes 49 APIs on the [APIs.io](https://apis.io/
   The Amazon CodeDeploy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodeDeploy''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 25 more developer resources.'
+  Amazon CodeDeploy''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 26 more developer resources.'
 random_paper: 12
 rules:
 - effective_rule_count: 5
@@ -3528,19 +3532,24 @@ rules:
     warn: 9
   slug: amazon-codedeploy-spectral-rules
 score:
-  band: strong
-  composite: 55.9
-  delta: 1.4
+  band: developing
+  composite: 52.8
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 70.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 71.3
     developer_ergonomics: 64.3
-    discoverability: 68.5
-    governance: 45.5
+    discoverability: 51.9
+    governance: 33.3
     operational_transparency: 18.4
-  previous_composite: 54.5
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -3550,8 +3559,8 @@ score:
       marker_coverage: 0.0
       total: 49
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codedeploy/refs/heads/main/screenshots/amazon-codedeploy-2026-07-25T195954.png
 security:

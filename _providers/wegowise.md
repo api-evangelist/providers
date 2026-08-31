@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 33
   slug: wegowise-agentic-access
   summary_line: 33 operations · 16 acting
-api_count: 11
+api_count: 1
 apis:
 - description: The WegoPro API for multifamily and commercial property portfolios. Provides endpoints for buildings, apartments, areas, meters, raw data, and monthly normalized usage data. The primary API for proper
   name: WegoWise Pro API
@@ -240,16 +240,21 @@ rules:
     warn: 10
   slug: wegowise-rules
 score:
-  band: developing
-  composite: 39.3
-  delta: 0.0
+  band: thin
+  composite: 38.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 28.8
     contract_quality: 72.4
     developer_ergonomics: 22.6
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 7.9
   previous_composite: 39.3
@@ -266,8 +271,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 29.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/screenshots/wegowise-2026-06-20T201345.png
 security:

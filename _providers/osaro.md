@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 4
 common:
@@ -115,7 +115,7 @@ modified: '2026-08-26'
 name: OSARO
 nav: Providers
 network: true
-overview: 'OSARO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Artificial Intelligence, Machine Learning, and Warehouse Automation.
+overview: 'OSARO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Artificial Intelligence, Machine-Learning, and Warehouse Automation.
 
 
   OSARO''s developer surface includes engineering blog, FAQ, YouTube channel, and 13 more developer resources.'
@@ -127,6 +127,12 @@ random_paper: 2
 score:
   band: emerging
   composite: 13.4
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -136,10 +142,12 @@ score:
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 0.0
+  previous_composite: 13.4
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: domain-security
   name: Osaro Domain Security
@@ -158,11 +166,11 @@ tags:
 - Company
 - Robotics
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Warehouse Automation
 - Logistics
 - Supply Chain
-- Computer Vision
+- Computer-Vision
 - Manufacturing
 website: https://www.osaro.com/
 ---

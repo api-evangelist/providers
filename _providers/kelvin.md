@@ -35,13 +35,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: REST API for kelvin's energy-renovation engine. Create a simulation from a latitude/longitude (and optionally a Base Adresse Nationale key), record the occupant's qualification profile, run kelvin's m
-  name: kelvin API
-  slug: kelvin-api
-artifact_total: 9
+- description: Endpoints pour consulter les documents générés pour une simulation
+  name: Kelvin Documents API
+  slug: kelvin-documents-api
+- description: Endpoints disponibles dans l'offre Qualification
+  name: Kelvin Qualification API
+  slug: kelvin-qualification-api
+- description: Endpoints disponibles dans l'offre Simulateur
+  name: Kelvin Simulateur API
+  slug: kelvin-simulateur-api
+- description: The Simulations API from Kelvin — 2 operation(s) for simulations.
+  name: Kelvin Simulations API
+  slug: kelvin-simulations-api
+artifact_total: 12
 collections:
 - collection_type: open
   name: kelvin API
@@ -50,6 +59,18 @@ collections:
   name: kelvin API
   slug: open-kelvin-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kelvin-api-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/kelvin-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: auth
   title: ''
   type: Authentication
@@ -126,10 +147,10 @@ modified: '2026-08-14'
 name: Kelvin
 nav: Providers
 network: true
-overview: 'Kelvin publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Energy Efficiency, Home Renovation, and Construction.
+overview: 'Kelvin publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Qualification API, Simulateur API, and 1 more. Tagged areas include Company, Energy, Energy Efficiency, Home Renovation, and Construction.
 
 
-  Kelvin''s developer surface includes authentication, engineering blog, signup flow, documentation, API reference, support, and 10 more developer resources.'
+  Kelvin''s developer surface includes authentication, engineering blog, signup flow, documentation, API reference, support, and 13 more developer resources.'
 plans:
 - name: Kelvin Plans Pricing
   plan_count: 0
@@ -146,18 +167,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.2
-  delta: 3.4
+  composite: 45.3
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 51.0
     developer_ergonomics: 47.0
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 42.8
+  previous_composite: 45.3
   provenance:
     conformance: derived
     contracts:
@@ -173,8 +199,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/screenshots/kelvin-2026-07-25T223602.png
 security:

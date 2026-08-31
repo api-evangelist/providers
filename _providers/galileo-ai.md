@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 37
   slug: galileo-ai-agentic-access
   summary_line: 37 operations · 20 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The Annotations API from Galileo — 2 operation(s) for annotations.
   name: Galileo Annotations API
@@ -259,18 +259,23 @@ rules:
   slug: galileo-ai-rules
 score:
   band: developing
-  composite: 42.1
-  delta: 2.3
+  composite: 41.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 28.8
     contract_quality: 55.1
     developer_ergonomics: 52.4
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 39.8
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -278,8 +283,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galileo-ai/refs/heads/main/screenshots/galileo-ai-2026-06-20T181635.png
 security:

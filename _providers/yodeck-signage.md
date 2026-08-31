@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 36
   slug: yodeck-signage-agentic-access
   summary_line: 36 operations · 22 acting · 1 human-in-the-loop
-api_count: 7
+api_count: 1
 apis:
 - description: Multi-zone screen layouts that split a display into regions.
   name: Yodeck Layouts API
@@ -95,6 +95,10 @@ collections:
   name: Yodeck REST API (Modeled)
   slug: open-yodeck-signage
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/yodeck-signage-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -154,7 +158,7 @@ network: true
 overview: 'Yodeck publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Layouts API, Media API, Playlists API, and 4 more. Tagged areas include Digital Signage, Screen Management, Content Management, Media, and Playlists.
 
 
-  Yodeck''s developer surface includes authentication, documentation, API reference, signup flow, and 7 more developer resources.'
+  Yodeck''s developer surface includes authentication, documentation, API reference, signup flow, and 8 more developer resources.'
 plans:
 - name: Yodeck Signage Plans Pricing
   plan_count: 4
@@ -166,18 +170,23 @@ rate_limits:
   slug: yodeck-signage-rate-limits
 score:
   band: developing
-  composite: 41.9
-  delta: 0.9
+  composite: 41.3
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 52.8
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 41.0
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -185,8 +194,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: thermo-fisher-scientific-agentic-access
   summary_line: 15 operations · 6 acting
-api_count: 10
+api_count: 2
 apis:
 - description: The Thermo Fisher Connect Platform OData API provides standards-based interoperability for laboratory data management, enabling integration between instruments, LIMS, ELN, and enterprise systems throu
   name: Thermo Fisher Connect Platform OData API
@@ -113,6 +113,10 @@ collections:
   name: Thermo Fisher NanoDrop Ultra Web Authentication Workflows API
   slug: open-thermo-fisher-scientific-workflows-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/thermo-fisher-scientific-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -194,7 +198,7 @@ overview: 'Thermo Fisher Scientific publishes 9 APIs on the [APIs.io](https://ap
   The Thermo Fisher Scientific catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Thermo Fisher Scientific''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+  Thermo Fisher Scientific''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Thermo Fisher Scientific Plans Pricing
   plan_count: 1
@@ -243,15 +247,20 @@ rules:
   slug: thermo-fisher-scientific-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.2
-  delta: 0.0
+  composite: 34.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 53.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 39.4
-    contract_quality: 51.8
+    contract_quality: 54.4
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 39.4
     operational_transparency: 10.5
   needs_work:
@@ -260,7 +269,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 34.2
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -274,8 +283,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/screenshots/thermo-fisher-scientific-2026-06-20T195253.png
 security:

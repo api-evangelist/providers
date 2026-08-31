@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 6
   slug: windsurfrules-agentic-access
   summary_line: 6 operations · 6 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Code completion and Cascade AI usage analytics
   name: Windsurf analytics API
@@ -70,6 +70,10 @@ collections:
   name: Windsurf Enterprise analytics teams API
   slug: open-windsurfrules-teams-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Exafunction/windsurf.nvim/issues
 - group: commercial
   title: ''
   type: License
@@ -177,7 +181,7 @@ overview: 'Windsurf publishes 3 APIs on the [APIs.io](https://apis.io/) network:
   The Windsurf catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Windsurf''s developer surface includes documentation, API reference, changelog, engineering blog, pricing, and 14 more developer resources.'
+  Windsurf''s developer surface includes documentation, API reference, changelog, engineering blog, pricing, and 15 more developer resources.'
 plans:
 - name: Windsurfrules Plans Pricing
   plan_count: 3
@@ -210,19 +214,27 @@ rules:
     warn: 4
   slug: windsurfrules-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.4
-  delta: 0.0
+  band: thin
+  composite: 37.7
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 38.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 58.3
     contract_quality: 59.2
     developer_ergonomics: 22.6
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 58.3
     operational_transparency: 28.9
-  previous_composite: 42.4
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -230,8 +242,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windsurfrules/refs/heads/main/screenshots/windsurfrules-2026-06-20T201512.png
 security:

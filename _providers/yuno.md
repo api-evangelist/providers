@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Core Yuno Payments API — customers, checkout sessions, payments, refunds, captures, subscriptions, payouts, disputes, reports, banking connectivity and PCI Proxy. Header API-key auth with X-Idempotenc
@@ -214,19 +214,24 @@ overview: 'Yuno publishes 1 API on the [APIs.io](https://apis.io/) network: Paym
   Yuno''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, changelog, authentication, and 29 more developer resources.'
 random_paper: 18
 score:
-  band: strong
-  composite: 54.8
+  band: developing
+  composite: 53.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 42.7
     developer_ergonomics: 68.5
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 54.8
+  previous_composite: 53.3
   provenance:
     conformance: first-party
     mcp: first-party
@@ -237,8 +242,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 65.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/screenshots/yuno-2026-08-17T083027.png
 security:

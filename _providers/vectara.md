@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 34
   slug: vectara-agentic-access
   summary_line: 34 operations · 23 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: Multi-turn conversational interface over a Vectara corpus that maintains chat history and produces grounded, cited answers with optional streaming.
   name: Vectara Chat API
@@ -224,15 +224,15 @@ common:
   url: https://github.com/vectara/agent-skills
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/vectara/getting-started
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/vectara/example-notebooks
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/vectara/design-patterns
 - group: build
   title: ''
@@ -347,7 +347,7 @@ overview: 'Vectara publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The Vectara catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Vectara''s developer surface includes authentication, documentation, tooling, GitHub presence, engineering blog, pricing, support, and 36 more developer resources.'
+  Vectara''s developer surface includes authentication, documentation, tooling, code examples, GitHub presence, engineering blog, pricing, and 36 more developer resources.'
 plans:
 - name: Vectara Plans Pricing
   plan_count: 1
@@ -386,15 +386,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.2
-  delta: 0.0
+  composite: 55.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 31.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 28.8
     contract_quality: 67.0
     developer_ergonomics: 33.3
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 57.9
   previous_composite: 56.2
@@ -405,8 +410,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vectara/refs/heads/main/screenshots/vectara-2026-06-20T200838.png
 security:

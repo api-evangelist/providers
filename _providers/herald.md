@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: herald-agentic-access
   summary_line: 18 operations · 8 acting
-api_count: 10
+api_count: 1
 apis:
 - description: The Applications API from Herald — 2 operation(s) for applications.
   name: Herald Applications API
@@ -113,6 +113,10 @@ collections:
   name: Herald API
   slug: open-herald
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/herald-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -164,7 +168,7 @@ network: true
 overview: 'Herald publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Classifications API, and 7 more. Tagged areas include Insurance, Insurtech, Commercial Insurance, Quoting, and Carriers.
 
 
-  Herald''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  Herald''s developer surface includes authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Herald Plans Pricing
   plan_count: 1
@@ -176,18 +180,23 @@ rate_limits:
   slug: herald-rate-limits
 score:
   band: thin
-  composite: 35.4
-  delta: 1.5
+  composite: 34.8
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 51.1
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 33.9
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -201,8 +210,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/screenshots/herald-2026-07-25T221009.png
 security:

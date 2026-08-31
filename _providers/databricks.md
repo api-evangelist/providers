@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 25
   slug: databricks-agentic-access
   summary_line: 25 operations · 15 acting · 2 human-in-the-loop
-api_count: 57
+api_count: 1
 apis:
 - description: Databricks is a cloud-based data platform that simplifies and accelerates the process of preparing and analyzing large volumes of data. The platform integrates with popular data sources and tools, all
   name: Databricks
@@ -307,6 +307,10 @@ collections:
   name: Databricks REST API
   slug: open-databricks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/databricks-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1004,13 +1008,13 @@ modified: '2026-05-19'
 name: Databricks
 nav: Providers
 network: true
-overview: 'Databricks publishes 3 APIs on the [APIs.io](https://apis.io/) network: Clusters API, Jobs API, and Workspace API. Tagged areas include Artificial Intelligence, Analytics, Apache Spark, Big Data, and Clean Rooms.
+overview: 'Databricks publishes 3 APIs on the [APIs.io](https://apis.io/) network: Clusters API, Jobs API, and Workspace API. Tagged areas include Artificial Intelligence, Analytics, Apache Spark, Big Data, and Cleanrooms.
 
 
   The Databricks catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Databricks'' developer surface includes authentication, getting-started guide, support, API reference, documentation, pricing, signup flow, and 63 more developer resources.'
+  Databricks'' developer surface includes authentication, getting-started guide, support, API reference, documentation, pricing, signup flow, and 64 more developer resources.'
 plans:
 - name: Databricks Plans Pricing
   plan_count: 5
@@ -1044,15 +1048,20 @@ rules:
   slug: databricks-spectral-rules
 score:
   band: strong
-  composite: 59.1
-  delta: 0.0
+  composite: 58.6
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 72.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 13.6
     contract_quality: 63.3
     developer_ergonomics: 83.3
-    discoverability: 57.4
+    discoverability: 51.9
     governance: 13.6
     operational_transparency: 55.3
   previous_composite: 59.1
@@ -1063,8 +1072,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/screenshots/databricks-2026-06-20T175634.png
 security:
@@ -1136,7 +1145,7 @@ tags:
 - Analytics
 - Apache Spark
 - Big Data
-- Clean Rooms
+- Cleanrooms
 - Cloud Computing
 - Data
 - Data Analytics

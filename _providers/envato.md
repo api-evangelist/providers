@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: envato-agentic-access
   summary_line: 11 operations
-api_count: 8
+api_count: 1
 apis:
 - description: REST API for ThemeForest, CodeCanyon, AudioJungle, VideoHive, GraphicRiver, 3DOcean, and PhotoDune. Endpoints cover catalog (search, popular, new files), item detail, item downloads (for buyers), user
   name: Envato Market API
@@ -179,18 +179,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 27.9
-  delta: 1.9
+  composite: 27.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 26.0
+  previous_composite: 27.9
   provenance:
     agentic_access: derived
     contracts:
@@ -198,8 +203,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envato/refs/heads/main/screenshots/envato-2026-06-20T180736.png
 security:

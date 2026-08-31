@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 73
   slug: 1komma5-agentic-access
   summary_line: 73 operations · 40 acting
-api_count: 28
+api_count: 1
 apis:
 - description: The Heartbeat API is the customer-facing energy API behind the 1KOMMA5° mobile apps and the Heartbeat AI platform — sites and systems, live power snapshots for PV, battery, heat pump and EV charger, e
   name: 1KOMMA5° Heartbeat API
@@ -207,6 +207,10 @@ collections:
   name: Offer Tool Users API
   slug: open-1komma5-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/1komma5-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -334,7 +338,7 @@ network: true
 overview: '1KOMMA5° publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Admin - Audit Logs API, Admin - Branches API, Admin - Concepts API, and 24 more. Tagged areas include Company, Energy, Solar, Renewable Energy, and Smart Home.
 
 
-  1KOMMA5°''s developer surface includes support, engineering blog, authentication, and 25 more developer resources.'
+  1KOMMA5°''s developer surface includes support, engineering blog, authentication, and 26 more developer resources.'
 random_paper: 5
 scopes:
 - name: 1Komma5 Scopes
@@ -343,18 +347,23 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: thin
-  composite: 37.4
-  delta: 0.0
+  composite: 35.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 43.9
     developer_ergonomics: 20.8
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 5.3
-  previous_composite: 37.4
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -371,8 +380,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1komma5/refs/heads/main/screenshots/1komma5-2026-08-07T160650.png
 security:

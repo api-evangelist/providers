@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: finops-foundation-agentic-access
   summary_line: 5 operations · 1 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Endpoints for querying contract commitment data, a supplemental dataset introduced in FOCUS v1.3 that isolates contract terms from cost and usage rows.
   name: FinOps Foundation Contract Commitments API
@@ -71,6 +71,10 @@ collections:
   name: FinOps Foundation FOCUS Cost and Usage Contract Commitments Schema Metadata API
   slug: open-finops-foundation-schema-metadata-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/finops-foundation-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -141,7 +145,7 @@ overview: 'FinOps Foundation publishes 3 APIs on the [APIs.io](https://apis.io/)
   The FinOps Foundation catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  FinOps Foundation''s developer surface includes authentication, engineering blog, and 8 more developer resources.'
+  FinOps Foundation''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
 plans:
 - name: Finops Foundation Plans Pricing
   plan_count: 3
@@ -164,18 +168,26 @@ rules:
   slug: finops-foundation-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.0
-  delta: 4.0
+  composite: 37.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 57.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.8
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 66.7
     developer_ergonomics: 33.3
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 28.9
-  previous_composite: 33.0
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -183,8 +195,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finops-foundation/refs/heads/main/screenshots/finops-foundation-2026-06-20T181221.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 3
 common:
@@ -104,7 +104,7 @@ modified: '2026-08-26'
 name: Rx Redefined
 nav: Providers
 network: true
-overview: 'Rx Redefined is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Care, Medical Supplies, and DMEPOS.
+overview: 'Rx Redefined is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Supplies, DMEPOS, and Durable Medical Equipment.
 
 
   Rx Redefined''s developer surface includes engineering blog, support, and 11 more developer resources.'
@@ -119,16 +119,23 @@ rate_limits:
   slug: rx-redefined-rate-limits
 score:
   band: emerging
-  composite: 14.5
+  composite: 15.3
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
+  previous_composite: 15.3
   provenance:
     conformance: first-party
   regulatory:
@@ -137,8 +144,9 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: domain-security
   name: Rx Redefined Domain Security
@@ -148,7 +156,6 @@ slug: rx-redefined
 tags:
 - Company
 - Healthcare
-- Health Care
 - Medical Supplies
 - DMEPOS
 - Durable Medical Equipment

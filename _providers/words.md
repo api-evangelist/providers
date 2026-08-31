@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -107,6 +107,10 @@ collections:
   name: Words API
   slug: open-words
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/WordsAPI/wordfrequencies/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -557,13 +561,13 @@ modified: '2026-05-30'
 name: Words API
 nav: Providers
 network: true
-overview: 'Words API publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Definitions API, Examples API, and 6 more. Tagged areas include Dictionaries, Linguistics, English, thesaurus, and Lexical Data.
+overview: 'Words API publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Definitions API, Examples API, and 6 more. Tagged areas include Dictionaries, Linguistics, English, Thesaurus, and Lexical Data.
 
 
   The Words API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Words API''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 14 more developer resources.'
+  Words API''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 15 more developer resources.'
 plans:
 - name: Words Plans Pricing
   plan_count: 5
@@ -596,19 +600,27 @@ rules:
     warn: 18
   slug: words-rules
 score:
-  band: developing
-  composite: 42.7
-  delta: 2.1
+  band: thin
+  composite: 38.5
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 17.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 28.8
-    contract_quality: 31.3
+    contract_quality: 31.6
     developer_ergonomics: 31.0
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 40.6
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -616,8 +628,8 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/words/refs/heads/main/screenshots/words-2026-06-20T201547.png
 security:
@@ -645,7 +657,7 @@ tags:
 - Dictionaries
 - Linguistics
 - English
-- thesaurus
+- Thesaurus
 - Lexical Data
 - Public APIs
 use_cases:

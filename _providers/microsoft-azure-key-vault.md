@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 29
   slug: microsoft-azure-key-vault-agentic-access
   summary_line: 29 operations · 20 acting
-api_count: 6
+api_count: 1
 apis:
 - description: 'REST API for creating, importing, updating, and performing cryptographic operations with keys in Azure Key Vault. Supports RSA, EC, and symmetric key types with operations including encrypt, decrypt, '
   name: Azure Key Vault Keys API
@@ -807,18 +807,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 62.3
-  delta: 8.9
+  composite: 61.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 33.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 69.7
     contract_quality: 66.0
     developer_ergonomics: 71.4
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 69.7
     operational_transparency: 50.0
-  previous_composite: 53.4
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     contracts:
@@ -826,9 +831,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-key-vault/refs/heads/main/screenshots/microsoft-azure-key-vault-2026-06-20T185418.png
 security:
 - kind: authentication

@@ -24,16 +24,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
-- description: API-key-authenticated REST API returning de-vigged consensus sports probabilities, fixtures, outrights, line movement, and webhook alerts across 13 sports. Public OpenAPI 3.0.3 contract with 11 operat
-  name: SkipOdds REST API
-  slug: skipodds-rest-api
 - description: Hosted Model Context Protocol server exposing the SkipOdds Index to AI assistants — stateless streamable-http at https://skipodds.com/mcp, protocol version 2025-06-18, five read-only tools (list_fixtu
   name: SkipOdds MCP Server
   slug: skipodds-mcp-server
-artifact_total: 10
+- description: The Alerts API from SkipOdds — 1 operation(s) for alerts.
+  name: SkipOdds Alerts API
+  slug: skipodds-alerts-api
+- description: The Fixtures API from SkipOdds — 6 operation(s) for fixtures.
+  name: SkipOdds Fixtures API
+  slug: skipodds-fixtures-api
+- description: The Golf API from SkipOdds — 2 operation(s) for golf.
+  name: SkipOdds Golf API
+  slug: skipodds-golf-api
+- description: The Outrights API from SkipOdds — 1 operation(s) for outrights.
+  name: SkipOdds Outrights API
+  slug: skipodds-outrights-api
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Skipodds Webhooks
@@ -162,7 +171,7 @@ modified: '2026-08-11'
 name: SkipOdds
 nav: Providers
 network: true
-overview: 'SkipOdds publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Sports, Odds, probabilities, Betting Data, and de-vig.
+overview: 'SkipOdds publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Fixtures API, Golf API, and 1 more. Tagged areas include Sports, Odds, probabilities, betting-data, and de-vig.
 
 
   The SkipOdds catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -179,19 +188,24 @@ rate_limits:
   name: Skipodds Rate Limits
   slug: skipodds-rate-limits
 score:
-  band: strong
-  composite: 57.1
-  delta: 0.0
+  band: developing
+  composite: 53.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.9
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
-    contract_governance: 16.7
-    contract_quality: 59.9
+    access_clarity: 64.5
+    commercial_clarity: 64.5
+    contract_governance: 4.5
+    contract_quality: 62.6
     developer_ergonomics: 51.8
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 57.1
+  previous_composite: 56.8
   provenance:
     conformance: derived
     contracts:
@@ -207,8 +221,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skipodds/refs/heads/main/screenshots/skipodds-2026-08-17T081914.png
 security:
@@ -225,12 +239,12 @@ tags:
 - Sports
 - Odds
 - probabilities
-- Betting Data
+- betting-data
 - de-vig
-- Sports Data
+- sports-data
 - Real-Time
 - Webhook
-- Sports Betting
+- sports-betting
 - MCP
 - Agent Ready
 - Market Data

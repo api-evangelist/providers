@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,22 +31,40 @@ agentic_access:
   operation_count: 27
   slug: red-energy-agentic-access
   summary_line: 27 operations
-api_count: 3
+api_count: 2
 apis:
-- description: 'The unauthenticated Consumer Data Right Product Reference Data surface for the Red Energy brand - Get Generic Plans and Get Generic Plan Detail from the Consumer Data Standards CDR Energy API. Unlike '
-  name: Red Energy CDR Energy Product Reference Data API
-  slug: red-energy-cdr-energy-product-reference-data-api
-- description: Red Energy's own registered Consumer Data Right public base URI, serving the two unauthenticated Data Holder Operations endpoints of the Consumer Data Standards CDR Common API - Get Status and Get Out
-  name: Red Energy CDR Discovery API
-  slug: red-energy-cdr-discovery-api
-- description: The consumer-authorised half of the Consumer Data Right energy obligation that Red Energy is designated to meet as a data holder - electricity service points, usage, distributed energy resources, ener
-  name: Red Energy CDR Energy Consumer Data API
-  slug: red-energy-cdr-energy-consumer-data-api
+- description: Data Holder Customer endpoints
+  name: Red Energy Data Holder Customers API
+  slug: red-energy-data-holder-customers-api
+- description: Data Holder Operations endpoints
+  name: Red Energy Data Holder Operations API
+  slug: red-energy-data-holder-operations-api
+- description: Distributed Energy Resource endpoints
+  name: Red Energy Distributed Energy Resources API
+  slug: red-energy-distributed-energy-resources-api
+- description: Electricity Service Point endpoints
+  name: Red Energy Electricity Service Points API
+  slug: red-energy-electricity-service-points-api
+- description: Electricity Usage endpoints
+  name: Red Energy Electricity Usage API
+  slug: red-energy-electricity-usage-api
+- description: Energy Account Balance endpoints
+  name: Red Energy Energy Account Balances API
+  slug: red-energy-energy-account-balances-api
+- description: Energy Account Billing endpoints
+  name: Red Energy Energy Account Billing API
+  slug: red-energy-energy-account-billing-api
+- description: Energy Account endpoints
+  name: Red Energy Energy Accounts API
+  slug: red-energy-energy-accounts-api
+- description: Energy Plan endpoints
+  name: Red Energy Energy Plans API
+  slug: red-energy-energy-plans-api
 arazzos:
 - description: Check that Red Energy's CDR implementation is available, then list its published electricity plans and pull the full tariff detail for one of them. Every step is unauthenticated — no API key, no signu
   name: Compare Red Energy tariff plans
   slug: red-energy-compare-plans-workflow
-artifact_total: 19
+artifact_total: 25
 collections:
 - collection_type: open
   name: CDR Common API
@@ -55,6 +73,30 @@ collections:
   name: CDR Energy API
   slug: open-red-energy-cds-energy
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/red-energy-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/red-energy-cds-energy-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/red-energy-compare-energy-plans.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/red-energy-cds-common-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/red-energy-check-cdr-availability.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/red-energy-share-consumer-energy-data.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -234,10 +276,10 @@ modified: '2026-07-27'
 name: Red Energy
 nav: Providers
 network: true
-overview: 'Red Energy publishes 3 APIs on the [APIs.io](https://apis.io/) network: CDR Energy Product Reference Data API, CDR Discovery API, and CDR Energy Consumer Data API. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
+overview: 'Red Energy publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Data Holder Customers API, Data Holder Operations API, Distributed Energy Resources API, and 6 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
 
 
-  Red Energy''s developer surface includes authentication, changelog, code examples, status page, documentation, API reference, support, and 29 more developer resources.'
+  Red Energy''s developer surface includes authentication, changelog, code examples, status page, documentation, API reference, support, and 35 more developer resources.'
 random_paper: 2
 rate_limits:
 - limit_count: 15
@@ -250,18 +292,23 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.4
-  delta: 0.0
+  composite: 55.7
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 30.3
-    contract_quality: 53.1
+    contract_governance: 18.2
+    contract_quality: 54.4
     developer_ergonomics: 35.1
-    discoverability: 64.8
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 56.4
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -278,8 +325,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

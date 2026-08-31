@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 64
   slug: openaq-agentic-access
   summary_line: 64 operations
-api_count: 28
+api_count: 1
 apis:
 - description: The Averages API from OpenAQ — 1 operation(s) for averages.
   name: OpenAQ Averages API
@@ -87,9 +87,6 @@ apis:
 - description: The Measurements API from OpenAQ — 5 operation(s) for measurements.
   name: OpenAQ Measurements API
   slug: openaq-measurements-api
-- description: The Monthly API from OpenAQ — 2 operation(s) for monthly.
-  name: OpenAQ Monthly API
-  slug: openaq-monthly-api
 - description: The Owners API from OpenAQ — 2 operation(s) for owners.
   name: OpenAQ Owners API
   slug: openaq-owners-api
@@ -108,28 +105,16 @@ apis:
 - description: The Readme API from OpenAQ — 1 operation(s) for readme.
   name: OpenAQ Readme API
   slug: openaq-readme-api
-- description: The Sensor API from OpenAQ — 1 operation(s) for sensor.
-  name: OpenAQ Sensor API
-  slug: openaq-sensor-api
 - description: The Sensors API from OpenAQ — 19 operation(s) for sensors.
   name: OpenAQ Sensors API
   slug: openaq-sensors-api
-- description: The Slug API from OpenAQ — 1 operation(s) for slug.
-  name: OpenAQ Slug API
-  slug: openaq-slug-api
 - description: The Sources API from OpenAQ — 3 operation(s) for sources.
   name: OpenAQ Sources API
   slug: openaq-sources-api
 - description: The Summary API from OpenAQ — 1 operation(s) for summary.
   name: OpenAQ Summary API
   slug: openaq-summary-api
-- description: The Yearly API from OpenAQ — 2 operation(s) for yearly.
-  name: OpenAQ Yearly API
-  slug: openaq-yearly-api
-- description: The Years API from OpenAQ — 1 operation(s) for years.
-  name: OpenAQ Years API
-  slug: openaq-years-api
-artifact_total: 65
+artifact_total: 60
 collections:
 - collection_type: open
   name: API Collection
@@ -262,7 +247,7 @@ modified: '2026-05-19'
 name: OpenAQ
 nav: Providers
 network: true
-overview: 'OpenAQ publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Averages API, Cities API, Countries API, and 25 more. Tagged areas include Data and Data Quality.
+overview: 'OpenAQ publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Averages API, Cities API, Countries API, and 20 more. Tagged areas include Data and Data Quality.
 
 
   OpenAQ''s developer surface includes authentication, developer portal, and 5 more developer resources.'
@@ -277,18 +262,23 @@ rate_limits:
   slug: openaq-rate-limits
 score:
   band: thin
-  composite: 30.6
-  delta: 2.4
+  composite: 29.5
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 52.2
+    contract_quality: 50.0
     developer_ergonomics: 31.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 28.2
+  previous_composite: 30.1
   provenance:
     agentic_access: derived
     contracts:
@@ -296,8 +286,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/screenshots/openaq-2026-06-20T190913.png
 security:

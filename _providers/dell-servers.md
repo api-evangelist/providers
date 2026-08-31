@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 47
   slug: dell-servers-agentic-access
   summary_line: 47 operations · 8 acting · 1 human-in-the-loop
-api_count: 27
+api_count: 2
 apis:
 - description: RESTful API for managing Dell PowerEdge MX7000 modular chassis and its components including compute sleds, network devices, IOMs, and storage. OME-Modular shares a common codebase with OpenManage Ente
   name: Dell OpenManage Enterprise Modular API
@@ -249,6 +249,10 @@ collections:
   name: Dell Servers Dell iDRAC Redfish REST Accounts Update Service API
   slug: open-dell-servers-update-service-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dell-servers-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -505,7 +509,7 @@ overview: 'Dell Servers publishes 19 APIs on the [APIs.io](https://apis.io/) net
   The Dell Servers catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Dell Servers'' developer surface includes authentication, developer portal, getting-started guide, documentation, support, engineering blog, GitHub presence, and 32 more developer resources.'
+  Dell Servers'' developer surface includes authentication, developer portal, getting-started guide, documentation, support, engineering blog, GitHub presence, and 33 more developer resources.'
 plans:
 - name: Dell Servers Plans Pricing
   plan_count: 3
@@ -550,18 +554,26 @@ rules:
   slug: dell-servers-openmanage-enterprise-rules
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 48.2
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -3.2
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 69.7
     contract_quality: 64.2
     developer_ergonomics: 57.1
-    discoverability: 50.0
+    discoverability: 53.7
     governance: 69.7
     operational_transparency: 13.2
-  previous_composite: 50.5
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -569,8 +581,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/screenshots/dell-servers-2026-06-20T175900.png
 security:

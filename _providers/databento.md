@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 203
   slug: databento-agentic-access
   summary_line: 203 operations · 88 acting · 2 human-in-the-loop
-api_count: 7
+api_count: 2
 apis:
 - description: Streams historical market data over HTTP for a requested date/time range. A single request selects a dataset, one or more symbols, a schema (MBO full order book, MBP-1/MBP-10, trades, OHLCV bars, stat
   name: Databento Historical Timeseries API
@@ -62,10 +62,61 @@ apis:
 - description: Reference and non-price data that complements the market data feeds - a security master (instrument definitions and identifiers), corporate actions (splits, dividends, symbol changes, and other events
   name: Databento Reference API
   slug: databento-reference-api
-- description: Databento OpenAPI specification from Databento — 158 path(s) described in OpenAPI.
-  name: Databento OpenAPI specification
-  slug: databento-platform-openapi-official
-artifact_total: 28
+- description: The adjustment_factors API from Databento — 1 operation(s) for adjustment_factors.
+  name: Databento Adjustment Factors API
+  slug: databento-adjustment-factors-api
+- description: The analytics API from Databento — 1 operation(s) for analytics.
+  name: Databento Analytics API
+  slug: databento-analytics-api
+- description: The auth API from Databento — 12 operation(s) for auth.
+  name: Databento Auth API
+  slug: databento-auth-api
+- description: The billing API from Databento — 14 operation(s) for billing.
+  name: Databento Billing API
+  slug: databento-billing-api
+- description: The corporate_actions API from Databento — 1 operation(s) for corporate_actions.
+  name: Databento Corporate Actions API
+  slug: databento-corporate-actions-api
+- description: The Databento OpenAPI Specification API from Databento — 1 operation(s) for databento openapi specification.
+  name: Databento Databento OpenAPI Specification API
+  slug: databento-databento-openapi-specification-api
+- description: The dataset API from Databento — 17 operation(s) for dataset.
+  name: Databento Dataset API
+  slug: databento-dataset-api
+- description: The display API from Databento — 1 operation(s) for display.
+  name: Databento Display API
+  slug: databento-display-api
+- description: The docs API from Databento — 3 operation(s) for docs.
+  name: Databento Docs API
+  slug: databento-docs-api
+- description: The instrument API from Databento — 3 operation(s) for instrument.
+  name: Databento Instrument API
+  slug: databento-instrument-api
+- description: The latency API from Databento — 6 operation(s) for latency.
+  name: Databento Latency API
+  slug: databento-latency-api
+- description: The licensing API from Databento — 12 operation(s) for licensing.
+  name: Databento Licensing API
+  slug: databento-licensing-api
+- description: The log_post_param_vals API from Databento — 70 operation(s) for log_post_param_vals.
+  name: Databento Log Post Param Vals API
+  slug: databento-log-post-param-vals-api
+- description: The registration API from Databento — 9 operation(s) for registration.
+  name: Databento Registration API
+  slug: databento-registration-api
+- description: The security_master API from Databento — 2 operation(s) for security_master.
+  name: Databento Security Master API
+  slug: databento-security-master-api
+- description: The teams API from Databento — 11 operation(s) for teams.
+  name: Databento Teams API
+  slug: databento-teams-api
+- description: The usage API from Databento — 11 operation(s) for usage.
+  name: Databento Usage API
+  slug: databento-usage-api
+- description: The users API from Databento — 28 operation(s) for users.
+  name: Databento Users API
+  slug: databento-users-api
+artifact_total: 45
 collections:
 - collection_type: postman
   name: Databento Historical and Reference Batch API
@@ -279,7 +330,7 @@ modified: '2026-07-22'
 name: Databento
 nav: Providers
 network: true
-overview: 'Databento publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Historical Timeseries API, Metadata API, Symbology API, and 3 more. Tagged areas include Market Data, Financial Data, Reference Data, Historical Market Data, and Trading.
+overview: 'Databento publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Historical Timeseries API, Metadata API, Symbology API, and 20 more. Tagged areas include Market Data, Financial Data, Reference Data, Historical Market Data, and Trading.
 
 
   Databento''s developer surface includes changelog, CLI, pricing, support, signup flow, getting-started guide, API reference, and 32 more developer resources.'
@@ -298,19 +349,24 @@ scopes:
   slug: databento-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 58.9
-  delta: 0.0
+  band: developing
+  composite: 53.8
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 16.7
-    contract_quality: 54.1
+    contract_governance: 4.5
+    contract_quality: 46.5
     developer_ergonomics: 68.5
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 78.9
-  previous_composite: 58.9
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -327,8 +383,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/screenshots/databento-2026-07-22T202314.png
 security:

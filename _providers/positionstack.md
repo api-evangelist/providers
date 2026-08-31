@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 2
   slug: positionstack-agentic-access
   summary_line: 2 operations
-api_count: 3
+api_count: 1
 apis:
-- description: Run multiple forward or reverse geocoding lookups in a single request (Professional plan and above).
-  name: positionstack Batch Geocoding API
-  slug: positionstack-batch-geocoding-api
 - description: Convert addresses, place names, or partial location strings into geographic coordinates.
   name: positionstack Forward Geocoding API
   slug: positionstack-forward-geocoding-api
@@ -63,7 +60,7 @@ arazzos:
 - description: Reverse geocode a coordinate pair with country, timezone, and sun modules to build a full place profile.
   name: positionstack Reverse Geocode Enriched Place Profile
   slug: positionstack-reverse-enrich-place-workflow
-artifact_total: 58
+artifact_total: 57
 collections:
 - collection_type: postman
   name: positionstack
@@ -84,6 +81,10 @@ collections:
   name: positionstack
   slug: open-positionstack
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apilayer/positionstack/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -271,13 +272,13 @@ modified: '2026-05-29'
 name: positionstack
 nav: Providers
 network: true
-overview: 'positionstack publishes 3 APIs on the [APIs.io](https://apis.io/) network: Batch Geocoding API, Forward Geocoding API, and Reverse Geocoding API. Tagged areas include Geocoding, Reverse Geocoding, Maps, Location, and Address Validation.
+overview: 'positionstack publishes 2 APIs on the [APIs.io](https://apis.io/) network: Forward Geocoding API and Reverse Geocoding API. Tagged areas include Geocoding, Reverse Geocoding, Maps, Location, and Address Validation.
 
 
   The positionstack catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  positionstack''s developer surface includes authentication, developer portal, signup flow, pricing, documentation, getting-started guide, engineering blog, and 20 more developer resources.'
+  positionstack''s developer surface includes authentication, developer portal, signup flow, pricing, documentation, getting-started guide, engineering blog, and 21 more developer resources.'
 plans:
 - name: Positionstack Plans Pricing
   plan_count: 5
@@ -311,18 +312,26 @@ rules:
   slug: positionstack-rules
 score:
   band: strong
-  composite: 65.5
-  delta: 2.2
+  composite: 58.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 23.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 28.8
     contract_quality: 73.5
     developer_ergonomics: 60.7
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 63.3
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     contracts:
@@ -330,8 +339,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/screenshots/positionstack-2026-08-17T124828.png
 security:
@@ -361,7 +370,7 @@ tags:
 - Maps
 - Location
 - Address Validation
-- APILayer
+- apilayer
 - Public APIs
 use_cases:
 - description: Power address autocomplete and validation in signup or checkout flows.

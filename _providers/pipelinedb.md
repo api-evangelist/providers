@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/pipelinedb/pipelinedb/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/pipelinedb/pipelinedb/releases
 - group: build
   title: ''
   type: GitHubOrganization
@@ -79,8 +87,13 @@ network: true
 overview: Pipelinedb is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Database, PostgreSQL, Streaming, and Time Series.
 random_paper: 2
 score:
-  band: minimal
-  composite: 8.5
+  band: emerging
+  composite: 12.0
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -90,16 +103,19 @@ score:
     developer_ergonomics: 7.1
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 10.5
+    operational_transparency: 26.3
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 8.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 12.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: pipelinedb
 tags:

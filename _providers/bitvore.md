@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 121
   slug: bitvore-agentic-access
   summary_line: 121 operations · 53 acting
-api_count: 19
+api_count: 12
 apis:
 - description: Alerts API
   name: Bitvore Alert API API
@@ -297,7 +297,7 @@ modified: '2026-08-14'
 name: Bitvore
 nav: Providers
 network: true
-overview: 'Bitvore publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Alert API API, Bond API, Corporate News API, and 16 more. Tagged areas include Financial Data, Market Intelligence, Alternative Data, News API, and NLP.
+overview: 'Bitvore publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Alert API API, Bond API, Corporate News API, and 16 more. Tagged areas include Financial Data, Market Intelligence, alternative-data, news-api, and NLP.
 
 
   Bitvore''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, changelog, authentication, and 27 more developer resources.'
@@ -317,18 +317,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 43.0
+  composite: 41.6
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 54.1
     developer_ergonomics: 28.0
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 43.0
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -345,8 +350,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 64.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitvore/refs/heads/main/screenshots/bitvore-2026-08-07T162558.png
 security:
@@ -362,15 +367,15 @@ slug: bitvore
 tags:
 - Financial Data
 - Market Intelligence
-- Alternative Data
-- News API
+- alternative-data
+- news-api
 - NLP
 - ESG
-- Municipal Bonds
-- Credit Risk
-- Company Data
-- Sentiment Analysis
-- Unstructured Data
-- Fixed Income
+- municipal-bonds
+- credit-risk
+- company-data
+- sentiment-analysis
+- unstructured-data
+- fixed-income
 website: https://bondwave.com/muni-news/
 ---

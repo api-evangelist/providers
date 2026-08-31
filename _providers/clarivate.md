@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: clarivate-agentic-access
   summary_line: 4 operations
-api_count: 6
+api_count: 1
 apis:
 - description: Web of Science APIs deliver publication and citation data drawn from the curated Web of Science Core Collection, supporting bibliometric analysis, research evaluation, and institutional assessment wor
   name: Web of Science APIs
@@ -180,18 +180,23 @@ rules:
   slug: clarivate-rules
 score:
   band: developing
-  composite: 44.1
-  delta: 1.9
+  composite: 43.6
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 45.5
     contract_quality: 55.8
     developer_ergonomics: 38.1
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 45.5
     operational_transparency: 10.5
-  previous_composite: 42.2
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     contracts:
@@ -205,8 +210,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/screenshots/clarivate-2026-06-20T174437.png
 security:

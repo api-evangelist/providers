@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: GraphQL API for fetching feedback entries and group taxonomy, batch-importing feedback, and building classification groups. Authenticated with a personal API key sent as an HTTP Bearer token, scoped t
@@ -193,7 +193,12 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 39.1
+  composite: 38.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 47.4
@@ -201,16 +206,16 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 61.3
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 39.1
+  previous_composite: 38.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unwrap/refs/heads/main/screenshots/unwrap-2026-08-17T082635.png
 security:

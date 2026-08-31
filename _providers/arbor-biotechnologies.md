@@ -23,18 +23,43 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 8
 apis:
-- description: Read-only, anonymously accessible WordPress REST API served by the Arbor Biotechnologies corporate site at https://arbor.bio/wp-json. It exposes the company's press releases and announcements (59 post
-  name: Arbor Biotechnologies Content API (WordPress REST)
-  slug: arbor-biotechnologies-content-api
-artifact_total: 4
+- description: oEmbed and SEO head metadata.
+  name: Arbor Biotechnologies Embed API
+  slug: arbor-biotechnologies-embed-api
+- description: Contact Form 7 form definitions.
+  name: Arbor Biotechnologies Forms API
+  slug: arbor-biotechnologies-forms-api
+- description: The media library.
+  name: Arbor Biotechnologies Media API
+  slug: arbor-biotechnologies-media-api
+- description: Registered post types, taxonomies and statuses.
+  name: Arbor Biotechnologies Metadata API
+  slug: arbor-biotechnologies-metadata-api
+- description: Static site pages — pipeline, what we do, who we are, clinical trial, policies.
+  name: Arbor Biotechnologies Pages API
+  slug: arbor-biotechnologies-pages-api
+- description: Press releases and company announcements.
+  name: Arbor Biotechnologies Posts API
+  slug: arbor-biotechnologies-posts-api
+- description: Cross-content search.
+  name: Arbor Biotechnologies Search API
+  slug: arbor-biotechnologies-search-api
+- description: Categories and tags applied to posts, plus taxonomy metadata.
+  name: Arbor Biotechnologies Taxonomies API
+  slug: arbor-biotechnologies-taxonomies-api
+artifact_total: 11
 collections:
 - collection_type: open
   name: Arbor Biotechnologies Content API (WordPress REST)
   slug: open-arbor-biotechnologies-content
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arbor-biotechnologies-content-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -140,25 +165,30 @@ modified: '2026-07-31'
 name: Arbor Biotechnologies
 nav: Providers
 network: true
-overview: 'Arbor Biotechnologies publishes 1 API on the [APIs.io](https://apis.io/) network: Content API (WordPress REST). Tagged areas include Company, Biotechnology, Gene Editing, CRISPR, and Genomic Medicine.
+overview: 'Arbor Biotechnologies publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Embed API, Forms API, Media API, and 5 more. Tagged areas include Company, Biotechnology, Gene Editing, CRISPR, and Genomic Medicine.
 
 
-  Arbor Biotechnologies'' developer surface includes engineering blog, support, and 22 more developer resources.'
+  Arbor Biotechnologies'' developer surface includes engineering blog, support, and 23 more developer resources.'
 random_paper: 14
 score:
   band: emerging
-  composite: 23.9
-  delta: 5.9
+  composite: 23.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 13.3
+    contract_governance: 4.5
+    contract_quality: 13.5
     developer_ergonomics: 28.0
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 74.1
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 18.0
+  previous_composite: 23.0
   provenance:
     conformance: derived
     contracts:
@@ -173,9 +203,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arbor-biotechnologies/refs/heads/main/screenshots/arbor-biotechnologies-2026-08-07T161620.png
 security:
 - kind: authentication

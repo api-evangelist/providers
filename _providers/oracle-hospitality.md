@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
@@ -22,187 +22,10 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.6
-  scored_at: '2026-08-26'
-api_count: 135
+  score: 32.5
+  scored_at: '2026-08-30'
+api_count: 59
 apis:
-- description: 'Oracle Hospitality Distribution ARI publication message specification for distribution partners to receive in real time property restrictions/availability, rate, and inventory schedules updates, also '
-  name: OPERA Cloud Distribution ARI Publication
-  slug: opera-cloud-distribution-ari-publication
-- description: Oracle Hospitality Distribution External Lookup is to get rate plan and room types from external channel partners. Compatible with OPERA Cloud release 26.2.0.0. 2 operation(s) documented; base path /l
-  name: OPERA Cloud Distribution Outbound Lookup
-  slug: opera-cloud-distribution-outbound-lookup
-- description: Oracle Hospitality Distribution Content notification message specification for distribution partners to receive in real time property content, channel room and rate updates. Partner receives this mess
-  name: OPERA Cloud Distribution Content Notification
-  slug: opera-cloud-distribution-content-notification
-- description: OPERA Cloud Distribution Reservations API allows authorized channel partners to create and update reservations for any active property in Oracle Hospitality Distribution (regardless if the property is
-  name: OPERA Cloud Distribution Book
-  slug: opera-cloud-distribution-book
-- description: Oracle Hospitality Distribution Content is for distribution partners to retrieve property Channel content information. Compatible with OPERA Cloud release 26.2.0.0. 5 operation(s) documented; base pat
-  name: OPERA Cloud Distribution Content
-  slug: opera-cloud-distribution-content
-- description: Oracle Hospitality Distribution Property Controls specification for distribution partners to retrieve property controls and settings. Compatible with OPERA Cloud release 26.2.0.0. 1 operation(s) docum
-  name: OPERA Cloud Distribution Property Controls
-  slug: opera-cloud-distribution-property-controls
-- description: The OPERA Cloud Distribution Reservation API enables authorized channel partners to create, update, fetch and cancel reservations for properties managed through OPERA Cloud Foundation or OPERA Cloud C
-  name: OPERA Cloud Distribution Reservation Service
-  slug: opera-cloud-distribution-reservation-service
-- description: API to obtain the access token (in the JWT format) that matches the provided credentials issued by the Oracle Hospitality Distribution administrator for a specific Distribution channel partner. The to
-  name: OPERA Cloud Distribution Authentication API
-  slug: opera-cloud-distribution-authentication-api
-- description: Oracle Hospitality Distribution Onboarding specification for distribution partners to retrieve property status with its attributes and update property status. Compatible with OPERA Cloud release 26.2.
-  name: OPERA Cloud Distribution Onboarding
-  slug: opera-cloud-distribution-onboarding
-- description: OPERA Cloud Distribution Reservation Notifications API allows authorized channel partners to create and update reservations for any active property in Oracle Hospitality Distribution (regardless if th
-  name: OPERA Cloud Distribution Reservation Notification
-  slug: opera-cloud-distribution-reservation-notification
-- description: 'Oracle Hospitality Distribution Shop is for distribution partners to find properties availability, room-rates offers for a single property or a specific room-rate offer detail.. Compatible with OPERA '
-  name: OPERA Cloud Distribution Shop
-  slug: opera-cloud-distribution-shop
-- description: An upsell service that can be consumed to display upgrade offers to a hotel guest prior to arrival. Pre-arrival upsells are becoming increasingly important due to the adoption of mobile and kiosk chec
-  name: Nor1 Integrated Upsell API
-  slug: nor1-integrated-upsell-api
-- description: APIs to cater for Customer Relationship Management external (outbound) functionality with OPERA. These APIs facilitate various operations related to getting data from an external system, and inserting
-  name: OPERA Cloud Customer Relationship Management Outbound API
-  slug: opera-cloud-customer-relationship-management-outbound-api
-- description: APIs to cater for Cashiering related external (outbound) functionality with OPERA. These APIs facilitate various operations related to getting data from an external system, and inserting it into OPERA
-  name: OPERA Cloud Cashiering Outbound API
-  slug: opera-cloud-cashiering-outbound-api
-- description: APIs to cater for Front Desk related external (outbound) functionality with OPERA Cloud. These APIs facilitate various operations related to getting data from an external system, and inserting it into
-  name: OPERA Cloud Front Desk Operations Outbound API
-  slug: opera-cloud-front-desk-operations-outbound-api
-- description: APIs to cater for Sales Activity functionality in OPERA Cloud. Activities provide you with an account management tool for managing daily tasks such as appointments, sales calls, contact follow-up, and
-  name: OPERA Cloud Activity API
-  slug: opera-cloud-activity-api
-- description: 'APIs to cater for Activity Configuration functionality in OPERA Cloud. In this module you can retrieve, create, update Activity configuration codes, for example create a new Activity Type. Compatible '
-  name: OPERA Cloud Activity Management API
-  slug: opera-cloud-activity-management-api
-- description: APIs to cater for Accounts Receivables functionality in OPERA Cloud. 60 operation(s) documented; base path /ars/v1. Harvested verbatim from Oracle's public hospitality-api-docs repository (Swagger 2.0
-  name: OPERA Cloud Accounts Receivables API
-  slug: opera-cloud-accounts-receivables-api
-- description: 'APIs to cater for Business Block functionality in OPERA Cloud. A block is a group of rooms held for guests who are attending an event, meeting, or function. You can create blocks for family reunions, '
-  name: OPERA Cloud Block API
-  slug: opera-cloud-block-api
-- description: 'APIs to cater Block Reservation related asynchronous functionality in OPERA. Compatible with OPERA Cloud release 26.2.0.0. 14 operation(s) documented; base path /blk/async/v1. Harvested verbatim from '
-  name: OPERA Cloud Block Reservation Asynchronous API
-  slug: opera-cloud-block-reservation-asynchronous-api
-- description: APIs for Block configuration, such as creating, updating, fetching and removing codes related to blocks. 57 operation(s) documented; base path /blk/config/v1. Harvested verbatim from Oracle's public h
-  name: OPERA Cloud Block Configuration API
-  slug: opera-cloud-block-configuration-api
-- description: APIs to cater for Back Office Operations functionality in OPERA Cloud. A common BackOffice industry term is End of Day. This closes and balances each day's business activities. It reconciles guest fol
-  name: OPERA Cloud Back Office Operations API
-  slug: opera-cloud-back-office-operations-api
-- description: APIs to cater for Channel Management functionality in OPERA Cloud. Channel Management allows a property to configure and administer channels such as OTAs, and web channels, covering functionality such
-  name: OPERA Cloud Channel Configuration API
-  slug: opera-cloud-channel-configuration-api
-- description: 'This API deals with the different aspect of the CustomerManagement. Compatible with OPERA Cloud release 26.2.0.0. 6 operation(s) documented; base path /cms/v1. Harvested verbatim from Oracle''s public '
-  name: OPERA Cloud API for Customer Management Service
-  slug: opera-cloud-api-for-customer-management-service
-- description: 'APIs to cater for Customer Relationship Management (profile) functionality in OPERA Cloud. There are different types of profiles in OPERA Cloud, including Guest, Company, Travel Agent, Source, Group, '
-  name: OPERA Cloud Customer Relationship Management API
-  slug: opera-cloud-customer-relationship-management-api
-- description: APIs to insert Stay Records related asynchronous functionality in OPERA. Compatible with OPERA Cloud release 26.2.0.0. 4 operation(s) documented; base path /crm/async/v1. Harvested verbatim from Oracl
-  name: OPERA Cloud CRM Asynchronous API
-  slug: opera-cloud-crm-asynchronous-api
-- description: APIs for Customer Relationship Management (profile) configuration, such as creating preferences, or address types. It also includes Membership Configuration, where you can retrieve membership levels t
-  name: OPERA Cloud CRM Configuration API
-  slug: opera-cloud-crm-configuration-api
-- description: APIs to cater for Cashiering related functionality in OPERA Cloud. Cashiering provides access to a guest folio, posting journals, receipt histories, currency calculations, credit card settlements, and
-  name: OPERA Cloud Cashiering API
-  slug: opera-cloud-cashiering-api
-- description: APIs to cater for Cashiering related asynchronous functionality in OPERA Cloud. Compatible with OPERA Cloud release 26.2.0.0. 2 operation(s) documented; base path /csh/async/v1. Harvested verbatim fro
-  name: OPERA Cloud Cashiering Asynchronous API
-  slug: opera-cloud-cashiering-asynchronous-api
-- description: APIs which offer external systems to config and use values different than what are configured in opera Compatible with OPERA Cloud release 26.2.0.0. 10 operation(s) documented; base path /dvm/v1. Harv
-  name: OPERA Cloud DataValueMapping Service API
-  slug: opera-cloud-datavaluemapping-service-api
-- description: ECommerce Tokenization API This API allows you to process credit card tokenization via e-commerce token form. Compatible with OPERA Cloud release 25.3.0.0. 2 operation(s) documented; base path /eComm/
-  name: Cloud OPI Tokenization ECommerce API
-  slug: cloud-opi-tokenization-ecommerce-api
-- description: 'APIs to cater for Enterprise Configuration functionality in OPERA Cloud. 246 operation(s) documented; base path /ent/config/v1. Harvested verbatim from Oracle''s public hospitality-api-docs repository '
-  name: OPERA Cloud Enterprise Configuration API
-  slug: opera-cloud-enterprise-configuration-api
-- description: 'APIs to cater for Event Management functionality in OPERA Cloud. The Events feature in OPERA Cloud is designed to manage any kind of catering activity. Events can be as simple as a one-hour reception '
-  name: OPERA Cloud Sales Event Management API
-  slug: opera-cloud-sales-event-management-api
-- description: This API caters for Event Configuration in OPERA Cloud. 137 operation(s) documented; base path /evm/config/v1. Harvested verbatim from Oracle's public hospitality-api-docs repository (Swagger 2.0, rel
-  name: OPERA Cloud Event Configuration API
-  slug: opera-cloud-event-configuration-api
-- description: APIs catering to the managing export master data configuration. 22 operation(s) documented; base path /exp/config/v1. Harvested verbatim from Oracle's public hospitality-api-docs repository (Swagger 2
-  name: OPERA Cloud Export Configuration API
-  slug: opera-cloud-export-configuration-api
-- description: APIs to cater for Front Desk Operations and Front Desk Statistic functionality in OPERA Cloud. Front Desk features some of the most commonly used operations in OPERA Cloud, such as managing guest arri
-  name: OPERA Cloud Front Desk Operations Service
-  slug: opera-cloud-front-desk-operations-service
-- description: APIs to cater for Front Desk Configuration in OPERA Cloud. Here you can find operations to get, post, put and delete front desk codes such as commission codes, transaction groups, codes & subgroups, a
-  name: OPERA Cloud Front Desk Configuration API
-  slug: opera-cloud-front-desk-configuration-api
-- description: APIs to cater for Housekeeping functionality in OPERA Cloud. Housekeeping enables you to schedule daily room cleaning, maintenance, and housekeeping staff activities. It provides information on room s
-  name: OPERA Cloud Housekeeping Service API
-  slug: opera-cloud-housekeeping-service-api
-- description: APIs to get Business Events generated in OPERA Cloud. Compatible with OPERA Cloud release 26.2.0.0. 2 operation(s) documented; base path /int/v1. Harvested verbatim from Oracle's public hospitality-ap
-  name: OPERA Cloud Integration Processor API
-  slug: opera-cloud-integration-processor-api
-- description: 'APIs catering to Integration Configuration in OPERA Cloud. Operations such as get Hotel Interface Types, or get UDF mappings can be found in this module. Compatible with OPERA Cloud release 26.2.0.0. '
-  name: OPERA Cloud Integration Configuration API
-  slug: opera-cloud-integration-configuration-api
-- description: APIs to cater for Inventory functionality in OPERA Cloud. This includes sell limits for date ranges, viewing and updating the properties inventory, as well as item inventory (such as rollaways, microw
-  name: OPERA Cloud Inventory API
-  slug: opera-cloud-inventory-api
-- description: APIs to cater for Inventory related asynchronous functionality in OPERA Cloud. This includes viewing inventory data along with its revenue and updating inventory&apos;s sell limits for date ranges. Th
-  name: Opera Cloud Inventory Asynchronous API
-  slug: opera-cloud-inventory-asynchronous-api
-- description: APIs to cater for external Leisure Management functionality integrated with OPERA Cloud. Compatible with OPERA Cloud release 26.2.0.0. 26 operation(s) documented; base path /lms/v1. Harvested verbatim
-  name: OPERA Cloud Leisure Management API
-  slug: opera-cloud-leisure-management-api
-- description: APIs to cater for List of Value functionality in OPERA Cloud. A List of Values in the OPERA Application can be configured by a property. Then by using these APIs you can retrieve all configured codes.
-  name: OPERA Cloud List of Values Management API
-  slug: opera-cloud-list-of-values-management-api
-- description: 'Opera Content Service offers capability to manage large content such as images and files. Compatible with OPERA Cloud release 26.2.0.0. 11 operation(s) documented; base path /med/config/v1. Harvested '
-  name: OPERA Cloud Content Service
-  slug: opera-cloud-content-service
-- description: REST API to obtain an OAuth token from the Oracle Hospitality Integration Platform. For authenticating to Distribution APIs please use the Early Release OPERA Cloud Distribution Authentication API. Co
-  name: oAuth API for OHIP
-  slug: oauth-api-for-ohip
-- description: APIs to cater to provisioning and deprovisioning of new properties and chains in OPERA. Compatible with OPERA Cloud release 26.2.0.0. 1 operation(s) documented; base path /ops/v1. Harvested verbatim f
-  name: OPERA Provisioning Service API
-  slug: opera-provisioning-service-api
-- description: APIs to cater for Price and Rate Availability functionality in OPERA Cloud. Availability enables you to manage your room inventory by providing a detailed view of all available and sold rooms at a pro
-  name: OPERA Cloud Price Availability Rate API
-  slug: opera-cloud-price-availability-rate-api
-- description: APIs to cater for Price and Rate Availability Asynchronous functionality in OPERA Cloud. Compatible with OPERA Cloud release 26.2.0.0. 2 operation(s) documented; base path /par/async/v1. Harvested ver
-  name: OPERA Cloud Price Availability Rate Async API
-  slug: opera-cloud-price-availability-rate-async-api
-- description: APIs for adding, updating, and deleting stationery reports in OPERA Cloud. Compatible with OPERA Cloud release 26.2.0.0. 12 operation(s) documented; base path /rep/config/v1. Harvested verbatim from O
-  name: OPERA Cloud Report Master Data Management API
-  slug: opera-cloud-report-master-data-management-api
-- description: APIs to cater for room configuration, such as configuring room types, room Classes, creating new room features, or updating housekeeping room maintenance reasons. Compatible with OPERA Cloud release 2
-  name: OPERA Cloud Room Configuration API
-  slug: opera-cloud-room-configuration-api
-- description: APIs to facilitate Room Rotation functionality in OPERA Cloud. Api provides capability to handle Room Rotation in OPERA Cloud. Room Rotation provides room ownership options for automatic inventory rot
-  name: OPERA Cloud Room Rotation Service API
-  slug: opera-cloud-room-rotation-service-api
-- description: 'APIs to cater for Room Rotation Configuration functionality in OPERA Cloud. Api provides capability to handle Room Rotation in OPERA Cloud. Room Rotation provides room ownership options for automatic '
-  name: OPERA Cloud Room Rotation Configuration Service API
-  slug: opera-cloud-room-rotation-configuration-service-api
-- description: 'APIs to cater for Reservation functionality in OPERA Cloud. OPERA Cloud Reservations provides a complete set of capabilities for creating and updating reservations. Reservations are a central feature '
-  name: OPERA Cloud Reservation API
-  slug: opera-cloud-reservation-api
-- description: APIs to cater for Reservation Asynchronous functionality in OPERA Cloud. This includes viewing reservation data along with its revenue. This API follows an async pattern where You make an initial requ
-  name: OPERA Cloud Reservation Asynchronous API
-  slug: opera-cloud-reservation-asynchronous-api
-- description: APIs to cater for Reservation Configuration in OPERA Cloud. In this module you can retrieve, create, modify or delete configuration related to Reservations, Blocks and Leisure Management. Compatible w
-  name: OPERA Cloud Reservation Master Data Management API
-  slug: opera-cloud-reservation-master-data-management-api
-- description: APIs to cater for Rate Availability functionality in OPERA Cloud. Rate Management provides all the tools you need to effectively define and manage the rate structures for a property in OPERA Cloud. So
-  name: OPERA Cloud Rate API
-  slug: opera-cloud-rate-api
-- description: 'APIs catering to the Rate Plan asynchronous related functionality in a hotel. This includes adding/updating daily rates&apos; pricing schedules and best available rates by day or length of stay. This '
-  name: Opera Cloud Rate Plan Asynchronous Service API
-  slug: opera-cloud-rate-plan-asynchronous-service-api
-- description: Oracle Token Exchange Service Specification Compatible with OPERA Cloud release 1.0.1. 1 operation(s) documented; base path /tokenExchange/v1. Harvested verbatim from Oracle's public hospitality-api-d
-  name: OPI Token Exchange Service API
-  slug: opi-token-exchange-service-api
 - description: Provides information of Sales activities related to Accounts, Contacts, and Blocks for the selected Property. Compatible with OPERA Cloud RnA release 26.1.0.0. Read-only GraphQL subject area in the OP
   name: OPERA Cloud RnA Activities GraphQL API
   slug: opera-cloud-rna-activities
@@ -431,7 +254,241 @@ apis:
 - description: Push delivery of OPERA Cloud Business Events as a GraphQL subscription over WebSocket. Each event carries the resource that changed, the event name, the old value and the new value. Subscription is pe
   name: OPERA Cloud Business Events Streaming API
   slug: opera-cloud-business-events-streaming
-artifact_total: 202
+- description: The REST API's will allow you to create, manage, or delete accounts, add comments, traces, reminders, create or close invoices for example.
+  name: Oracle Hospitality Accounts Receivables API
+  slug: oracle-hospitality-accountsreceivables-api
+- description: The Accounts Receivables Config module offers the capability of creating, managing, and retrieving of Accounts Receivables configuration.
+  name: Oracle Hospitality Accounts Receivables Config API
+  slug: oracle-hospitality-accountsreceivablesconfig-api
+- description: The Activity REST APIs allow you to view, create, update, and complete an Activity in OPERA Cloud. You are also able to perform more actions such as add attachments.
+  name: Oracle Hospitality Activity API
+  slug: oracle-hospitality-activity-api
+- description: The Activity Configuration APIs offers capability of creating, managing, and retrieving Activity configuration elements, such as Activity Type code, Activity Result codes.
+  name: Oracle Hospitality Activity Management API
+  slug: oracle-hospitality-activitymanagement-api
+- description: The API to Fulfill Upsell Offers to customers and third parties API from Oracle Hospitality — 1 operation(s) for api to fulfill upsell offers to customers and third parties.
+  name: Oracle Hospitality API to Fulfill Upsell Offers to customers and third parties API
+  slug: oracle-hospitality-api-to-fulfill-upsell-offers-to-customers-and-third-parties-api
+- description: The ARI Publication service provides ability to send distribution partners with hotel property inventory level, room rates, and restrictions.
+  name: Oracle Hospitality ARI Publication API
+  slug: oracle-hospitality-ari-publication-api
+- description: Authentication service
+  name: Oracle Hospitality Authentication API
+  slug: oracle-hospitality-authentication-api
+- description: The Availability APIs allow you to manage a properties room-rate availability, which is configured for a channel. This also includes operations to manage restrictions and hurdles.
+  name: Oracle Hospitality Availability API
+  slug: oracle-hospitality-availability-api
+- description: The Availability Asynchronous module provides capability for an external system to retrieve availability related data using an asynchronous approach.
+  name: Oracle Hospitality Availability Async API
+  slug: oracle-hospitality-availabilityasync-api
+- description: The AvailabilityExternal API from Oracle Hospitality — 2 operation(s) for availabilityexternal.
+  name: Oracle Hospitality Availability External API
+  slug: oracle-hospitality-availabilityexternal-api
+- description: This module provides APIs to service Back Office operations for property, such as managing end-of-day, getting the properties current business date, and perform cashier closure.
+  name: Oracle Hospitality Back Office Operations API
+  slug: oracle-hospitality-backofficeoperations-api
+- description: The BEProcessor Service offers capability of creating, managing, and retrieving of BE Processor configuration.
+  name: Oracle Hospitality BE Processor API
+  slug: oracle-hospitality-beprocessor-api
+- description: These APIs will allow you to completely create and manage your block in OPERA Cloud - including all related functionalities of a block such as manage Room allocation, Status update, block reservations
+  name: Oracle Hospitality Block API
+  slug: oracle-hospitality-block-api
+- description: The Block Async Service Web Service provides capability to implement block related asynchronous operations in OPERA Cloud.
+  name: Oracle Hospitality Block Async API
+  slug: oracle-hospitality-blockasync-api
+- description: The Block Configuration module offers capability of creating, managing, and retrieving of Block configuration.
+  name: Oracle Hospitality Block Config API
+  slug: oracle-hospitality-blockconfig-api
+- description: The Block External module provides operations for OPERA Cloud to access blocks from an external interfaces. It also offers capability for downloading external blocks into OPERA Cloud.
+  name: Oracle Hospitality Block External API
+  slug: oracle-hospitality-blockexternal-api
+- description: Block Statistics provide statistical data of blocks that exist in OPERA Cloud.
+  name: Oracle Hospitality Block Stats API
+  slug: oracle-hospitality-blockstats-api
+- description: 'Cashiering module provides APIs to service front desk billing requirements, as well as any requirements related to a reservation''s folio. You can retrieve a guest folio, post billing charges to guest '
+  name: Oracle Hospitality Cashiering API
+  slug: oracle-hospitality-cashiering-api
+- description: The CashieringAsync API from Oracle Hospitality — 2 operation(s) for cashieringasync.
+  name: Oracle Hospitality Cashiering Async API
+  slug: oracle-hospitality-cashieringasync-api
+- description: 'Cashiering configurations affect the control and management of financial transactions at your property. You can configure cashiering components for articles for sale, cancellation handling, deposits, '
+  name: Oracle Hospitality Cashiering Config API
+  slug: oracle-hospitality-cashieringconfig-api
+- description: The ChainConfigService Web Service offers capability of creating, managing, and retrieving of chain configuration.
+  name: Oracle Hospitality Chain Config API
+  slug: oracle-hospitality-chainconfig-api
+- description: The Channel APIs allows you to view, configure and manage the mappings for your channel rate codes, negotiated rates, room types, global descriptions, letters, credit card types and channel codes.
+  name: Oracle Hospitality Channel API
+  slug: oracle-hospitality-channel-api
+- description: These Commission APIs allow you to get, update, and remove commissions on an Account Receivable (AR) profile in OPERA Cloud.
+  name: Oracle Hospitality Commission Config API
+  slug: oracle-hospitality-commissionconfig-api
+- description: Commission web service provides commission processing service like payment processing, payment activity and search.
+  name: Oracle Hospitality Commissions API
+  slug: oracle-hospitality-commissions-api
+- description: The Content API from Oracle Hospitality — 5 operation(s) for content.
+  name: Oracle Hospitality Content API
+  slug: oracle-hospitality-content-api
+- description: The Content Notification service provides ability to send distribution partners with hotel property inventory level, room rates, and restrictions.
+  name: Oracle Hospitality Content Notification API
+  slug: oracle-hospitality-content-notification-api
+- description: The Credit Card Internal Service contains operations used internally by OPERA Cloud.
+  name: Oracle Hospitality Credit Card API
+  slug: oracle-hospitality-creditcard-api
+- description: The CRM Async Web Service provides capability to implement stay records related asynchronous operations in OPERA Cloud.
+  name: Oracle Hospitality CRM Async API
+  slug: oracle-hospitality-crmasync-api
+- description: Customer Management web service caters operations for Customer Management activities.
+  name: Oracle Hospitality Customer Management API
+  slug: oracle-hospitality-customermanagement-api
+- description: The DataValueMappingService Web Service offers capability to convert Opera values to external vendor's values or vice versa.
+  name: Oracle Hospitality Data Value Mapping API
+  slug: oracle-hospitality-datavaluemapping-api
+- description: Distribution Property Controls
+  name: Oracle Hospitality Distribution Controls API
+  slug: oracle-hospitality-distribution-controls-api
+- description: The EndOfDay Configuration module offers the capability of creating, managing, and retrieving a properties End of Day configuration.
+  name: Oracle Hospitality End Of Day Config API
+  slug: oracle-hospitality-endofdayconfig-api
+- description: The Event APIs will allow you to retrieve, create, manage and delete events and related event functionality such as event resources, catering packages and even event waitlists.
+  name: Oracle Hospitality Event Management API
+  slug: oracle-hospitality-eventmanagement-api
+- description: The Export Service provides operations used by Opera to configure and generate file exports of Opera data.
+  name: Oracle Hospitality Export API
+  slug: oracle-hospitality-export-api
+- description: The ExternalConfig API from Oracle Hospitality — 1 operation(s) for externalconfig.
+  name: Oracle Hospitality External Config API
+  slug: oracle-hospitality-externalconfig-api
+- description: The ExternalSystemsConfig API from Oracle Hospitality — 27 operation(s) for externalsystemsconfig.
+  name: Oracle Hospitality External Systems Config API
+  slug: oracle-hospitality-externalsystemsconfig-api
+- description: The Front Desk Statistics module will provide statistical data related to front desk operations in a property.
+  name: Oracle Hospitality FOF Stats API
+  slug: oracle-hospitality-fofstats-api
+- description: Front Desk module provides APIs related to a guests stay in the property. For example, checking a guest into the property, providing room information, splitting reservations, as well as adding wake-up
+  name: Oracle Hospitality Front Desk Operations API
+  slug: oracle-hospitality-frontdeskoperations-api
+- description: The FrontOffice External module provides operations for OPERA Cloud to access FrontOffice operations from external interfaces.
+  name: Oracle Hospitality Front Office External API
+  slug: oracle-hospitality-frontofficeexternal-api
+- description: These APIs will allow you to configure profile related configuration related to Administration.
+  name: Oracle Hospitality Hotel Config API
+  slug: oracle-hospitality-hotelconfig-api
+- description: Operations related to e-commerce tokenization for OPERA Cloud Properties.
+  name: Oracle Hospitality Hotels API
+  slug: oracle-hospitality-hotels-api
+- description: 'These APIs allows for retrieving and managing a room''s housekeeping data and front office status, for example update room 101 to be Out Of Order. Additionally, you can view room discrepancies between '
+  name: Oracle Hospitality Housekeeping API
+  slug: oracle-hospitality-housekeeping-api
+- description: The Integration Processor Service provides a set of operations which help the external customers and vendors to process Business Events generated in OPERA.
+  name: Oracle Hospitality Integration Processor API
+  slug: oracle-hospitality-integrationprocessor-api
+- description: The Inventory APIs allow you to manage a properties room inventory, as well as manage overbooking/sell limits at different levels. It also contains operations to get Item Inventory.
+  name: Oracle Hospitality Inventory API
+  slug: oracle-hospitality-inventory-api
+- description: The Inventory Asynchronous module provides capability for an external system to retrieve inventory related data using an asynchronous approach.
+  name: Oracle Hospitality Inventory Async API
+  slug: oracle-hospitality-inventoryasync-api
+- description: 'The Inventory Statistics APIs provide the ability to fetch hotels inventory statistics or block inventory statistics for a specified date range provided in the request. It also contains operations to '
+  name: Oracle Hospitality INV Stats API
+  slug: oracle-hospitality-invstats-api
+- description: The Leisure Management module offers a set of APIs to manage the activities for a guest like spa, golf, tours etc. The external system can create, change, cancel activities and send these updates to O
+  name: Oracle Hospitality Leisure Management API
+  slug: oracle-hospitality-leisuremanagement-api
+- description: The Leisure Management Configuration module offers a set of operations to manage the configuration of activities like Status codes, locations, types etc. User can create, change, remove and fetch Stat
+  name: Oracle Hospitality Leisure Management Config API
+  slug: oracle-hospitality-leisuremanagementconfig-api
+- description: The Lookup API from Oracle Hospitality — 2 operation(s) for lookup.
+  name: Oracle Hospitality Lookup API
+  slug: oracle-hospitality-lookup-api
+- description: The LOV Service provides various List of Values for drop-down components and single/multi-select LOVs for the user interface. This is a generic service in that the particular LOV is requested by code.
+  name: Oracle Hospitality LOV API
+  slug: oracle-hospitality-lov-api
+- description: These APIs will allow you to configure membership configuration such as membership rates, levels, groups, benefit programs and membership awards.
+  name: Oracle Hospitality Membership Config API
+  slug: oracle-hospitality-membershipconfig-api
+- description: The OEDSConfig API from Oracle Hospitality — 1 operation(s) for oedsconfig.
+  name: Oracle Hospitality OEDS Config API
+  slug: oracle-hospitality-oedsconfig-api
+- description: Distribution Onboarding
+  name: Oracle Hospitality Onboarding API
+  slug: oracle-hospitality-onboarding-api
+- description: Opera Content Service offers capability to manage big content using MTOM
+  name: Oracle Hospitality Opera Content API
+  slug: oracle-hospitality-operacontent-api
+- description: The PackageCategory API from Oracle Hospitality — 1 operation(s) for packagecategory.
+  name: Oracle Hospitality Package Category API
+  slug: oracle-hospitality-packagecategory-api
+- description: The Profile APIs allow you to view, create, update, and delete profiles in OPERA Cloud. Each time a new profile in created in OPERA Cloud, a profileID is assigned. Use this profileID to retrieve and u
+  name: Oracle Hospitality Profile API
+  slug: oracle-hospitality-profile-api
+- description: APIs for Customer Relationship Management (profile) configuration including preference groups and preferences.
+  name: Oracle Hospitality Profile Configuration API
+  slug: oracle-hospitality-profileconfiguration-api
+- description: The Profile External module allows you to retrieve and manage profiles from an external system.
+  name: Oracle Hospitality Profile External API
+  slug: oracle-hospitality-profileexternal-api
+- description: Profiles have many Lists of Values, storing the available options a user can select when updating a profile. This module allows you to get available ListOfValues for Profile Preferences and AR Address
+  name: Oracle Hospitality Profile LOV API
+  slug: oracle-hospitality-profilelov-api
+- description: This will allow you to create a guest profile enrollment in OPERA Cloud. Enrollment relates to a membership program, so as an example you can enrol the guest Mr Tom Smith into a Membership / loyalty p
+  name: Oracle Hospitality Profile Membership API
+  slug: oracle-hospitality-profilemembership-api
+- description: These APIs will allow you to retrieve statistical data for a specified profile.
+  name: Oracle Hospitality Profile Statistics API
+  slug: oracle-hospitality-profilestatistics-api
+- description: The ProvisioningService Web Service offers capability of provisioning and deprovisioning properties and chains in Opera.
+  name: Oracle Hospitality Provisioning API
+  slug: oracle-hospitality-provisioning-api
+- description: The Rate Plan APIs allow for creating, managing, and retrieving rates and their related components such as negotiated rates and packages.
+  name: Oracle Hospitality Rate Plan API
+  slug: oracle-hospitality-rateplan-api
+- description: The RatePlanAsync API from Oracle Hospitality — 18 operation(s) for rateplanasync.
+  name: Oracle Hospitality Rate Plan Async API
+  slug: oracle-hospitality-rateplanasync-api
+- description: The Report Service provides information about available report modules which may be generated, along with their parameters.
+  name: Oracle Hospitality Report API
+  slug: oracle-hospitality-report-api
+- description: Reservation API
+  name: Oracle Hospitality Reservation API
+  slug: oracle-hospitality-reservation-api
+- description: 'Reservation Notification API operations allow a channel to deliver, modify and cancel a reservation created and already confirmed from an external system (for example an OTA).<br/> It is usually used '
+  name: Oracle Hospitality Reservation Notification API
+  slug: oracle-hospitality-reservation-notification-api
+- description: Reservation Request API operations allow a channel to create, modify and cancel reservations in Oracle Hospitality Distribution.<br/> It is usually used in conjunction with OPERA Cloud Distribution Sh
+  name: Oracle Hospitality Reservation Request API
+  slug: oracle-hospitality-reservation-request-api
+- description: The Reservation Asynchronous module provides capability for an external system to retrieve reservation related data using an asynchronous approach.
+  name: Oracle Hospitality Reservation Async API
+  slug: oracle-hospitality-reservationasync-api
+- description: The Reservation Configuration module offers capability of creating, managing, and retrieving of Reservation configuration.
+  name: Oracle Hospitality Reservation Config API
+  slug: oracle-hospitality-reservationconfig-api
+- description: The Reservation External module provides operations for OPERA Cloud to access reservations from external interfaces.
+  name: Oracle Hospitality Reservation External API
+  slug: oracle-hospitality-reservationexternal-api
+- description: The Resource Config Service Web Service offers capability to configure Master Data needed for Hotel Resources such as managing Inventory Items, Item Pools, Item Classes, etc.
+  name: Oracle Hospitality Resource Config API
+  slug: oracle-hospitality-resourceconfig-api
+- description: The REST APIs allow you to perform all actions related to Room Rotation from configuring point calculations for owner rooms, adjustment options for room prioritization and automatic assignment based o
+  name: Oracle Hospitality Room Rotation API
+  slug: oracle-hospitality-roomrotation-api
+- description: The REST APIs allow you to perform all actions related to Room Rotation from configuring point calculations for owner rooms, adjustment options for room prioritization and automatic assignment based o
+  name: Oracle Hospitality Room Rotation Config API
+  slug: oracle-hospitality-roomrotationconfig-api
+- description: The Reservation Statistics Service provides statistical data for reservations that exist in OPERA Cloud.
+  name: Oracle Hospitality RSV Stats API
+  slug: oracle-hospitality-rsvstats-api
+- description: The Shop API from Oracle Hospitality — 6 operation(s) for shop.
+  name: Oracle Hospitality Shop API
+  slug: oracle-hospitality-shop-api
+- description: These APIs will allow you to view, create, update, and delete profiles in OPERA Cloud.
+  name: Oracle Hospitality Suspended Stay API
+  slug: oracle-hospitality-suspendedstay-api
+- description: The Upsell Offers API from Oracle Hospitality — 1 operation(s) for upsell offers.
+  name: Oracle Hospitality Upsell Offers API
+  slug: oracle-hospitality-upsell-offers-api
+artifact_total: 221
 asyncapis:
 - description: 'Oracle publishes no AsyncAPI document for Oracle Hospitality. This document is DERIVED, by the API Evangelist enrichment pipeline, from two real, published surfaces: (1) the six outbound Swagger 2.0 s'
   name: Oracle Hospitality event and outbound-callback surface
@@ -615,6 +672,266 @@ collections:
   name: OPI Token Exchange Service API
   slug: open-oracle-hospitality-property-v1-tokenexchange
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/oracle-hospitality-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/oracle/hospitality-api-docs/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/oracle/hospitality-api-docs/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/oracle/hospitality-api-docs/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/oracle/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/oracle/hospitality-api-docs/blob/main/CONTRIBUTING.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-distribution-outbound-aripublication-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-distribution-outbound-lookup-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-distribution-outbound-notification-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-distribution-v1-book-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-distribution-v1-content-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-distribution-v1-controls-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-distribution-v1-distribution-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-distribution-v1-hdpbaoauth2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-distribution-v1-onboard-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-distribution-v1-resnotif-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-distribution-v1-shop-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-nor1-v1-upselloffers-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-outbound-crmoutbound-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-outbound-cshoutbound-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-outbound-fofoutbound-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-act-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-actcfg-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-ars-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-blk-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-blkasync-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-blkcfg-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-bof-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-chl-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-cms-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-crm-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-crmasync-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-crmcfg-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-csh-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-cshasync-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-dvm-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-ecommtokenization-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-entcfg-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-evm-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-evmcfg-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-expcfg-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-fof-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-fofcfg-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-hsk-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-int-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-intcfg-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-inv-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-invasync-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-lms-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-lov-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-medcfg-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-oauth-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-ops-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-par-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-parasync-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-repcfg-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-rmcfg-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-rmr-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-rmrcfg-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-rsv-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-rsvasync-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-rsvcfg-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-rtp-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-rtpasync-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oracle-hospitality-property-v1-tokenexchange-overlay.yaml
 - group: other
   title: ''
   type: ParentCompany
@@ -820,13 +1137,13 @@ modified: '2026-08-21'
 name: Oracle Hospitality
 nav: Providers
 network: true
-overview: 'Oracle Hospitality publishes 60 APIs on the [APIs.io](https://apis.io/) network, including OPERA Cloud Distribution ARI Publication, OPERA Cloud Distribution Outbound Lookup, OPERA Cloud Distribution Content Notification, and 57 more. Tagged areas include Travel, United States, Hospitality, Hotels, and Property Management.
+overview: 'Oracle Hospitality publishes 79 APIs on the [APIs.io](https://apis.io/) network, including OPERA Cloud Business Events Streaming API, Accounts Receivables API, Accounts Receivables Config API, and 76 more. Tagged areas include Travel, United States, Hospitality, Hotels, and Property Management.
 
 
   The Oracle Hospitality catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Oracle Hospitality''s developer surface includes authentication, developer portal, documentation, support, sandbox, changelog, API reference, and 41 more developer resources.'
+  Oracle Hospitality''s developer surface includes authentication, developer portal, documentation, support, sandbox, changelog, API reference, and 106 more developer resources.'
 random_paper: 16
 rate_limits:
 - limit_count: 9
@@ -839,18 +1156,26 @@ scopes:
   summary_line: 1 scope · clientCredentials/password
 score:
   band: strong
-  composite: 60.5
+  composite: 65.0
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
-    contract_quality: 59.9
+    contract_governance: 18.2
+    contract_quality: 61.4
     developer_ergonomics: 70.8
-    discoverability: 50.0
-    governance: 30.3
+    discoverability: 66.7
+    governance: 18.2
     operational_transparency: 81.6
-  previous_composite: 60.5
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 65.0
   provenance:
     conformance: first-party
     contracts:
@@ -860,8 +1185,8 @@ score:
       total: 59
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-hospitality/refs/heads/main/screenshots/oracle-hospitality-2026-08-07T190821.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: luma-ai-agentic-access
   summary_line: 13 operations · 8 acting
-api_count: 8
+api_count: 1
 apis:
 - description: REST API for video (Ray series) and image (Photon) generation. Submit a generation request, then poll for status. Documentation at https://docs.lumalabs.ai/. Auth via API key from https://lumalabs.ai/
   name: Luma Dream Machine API
@@ -185,18 +185,23 @@ rules:
   slug: luma-ai-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 37.0
-  delta: 4.7
+  composite: 36.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 66.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 11.4
     contract_quality: 57.2
     developer_ergonomics: 21.4
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 11.4
     operational_transparency: 7.9
-  previous_composite: 32.3
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -204,8 +209,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma-ai/refs/heads/main/screenshots/luma-ai-2026-06-20T184752.png
 security:
@@ -224,6 +229,6 @@ tags:
 - Image-Generation
 - 3D
 - Dream Machine
-- Multi-Modal
+- Multimodal
 website: https://lumalabs.ai/
 ---

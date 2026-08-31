@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
-api_count: 6
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The OTLP gRPC API defines Protocol Buffers service definitions for exporting traces, metrics, and logs over gRPC. It is the primary transport for OpenTelemetry data between SDK instrumentation, the Op
   name: OpenTelemetry Protocol (OTLP) gRPC API
@@ -73,6 +73,22 @@ collections:
   name: OpenTelemetry Protocol (OTLP) HTTP Traces API
   slug: open-opentelemetry-traces-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/open-telemetry/opentelemetry-proto/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/open-telemetry/opentelemetry-proto/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/open-telemetry/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/open-telemetry/opentelemetry-proto/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -155,7 +171,7 @@ overview: 'OpenTelemetry publishes 3 APIs on the [APIs.io](https://apis.io/) net
   The OpenTelemetry catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  OpenTelemetry''s developer surface includes documentation, getting-started guide, engineering blog, Stack Overflow tag, changelog, and 11 more developer resources.'
+  OpenTelemetry''s developer surface includes documentation, getting-started guide, engineering blog, Stack Overflow tag, changelog, and 15 more developer resources.'
 plans:
 - name: Opentelemetry Plans Pricing
   plan_count: 3
@@ -179,26 +195,34 @@ rules:
   slug: opentelemetry-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 41.7
-  delta: 1.4
+  composite: 43.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 63.9
     developer_ergonomics: 42.9
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 39.5
-  previous_composite: 40.3
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 44.0
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/screenshots/opentelemetry-2026-06-20T191044.png
 security:

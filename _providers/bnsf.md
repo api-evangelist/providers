@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 2
   slug: bnsf-agentic-access
   summary_line: 2 operations
-api_count: 8
+api_count: 1
 apis:
 - description: The BNSF Tracing API provides real-time shipment tracking from origin to destination for automotive VINs, carload railcars, intermodal units, and trains. Supports bulk queries of up to 300 vehicles or
   name: BNSF Tracing API
@@ -146,15 +146,20 @@ rate_limits:
   slug: bnsf-rate-limits
 score:
   band: thin
-  composite: 32.3
-  delta: 0.0
+  composite: 31.8
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 52.4
     developer_ergonomics: 42.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 32.3
@@ -165,8 +170,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/screenshots/bnsf-2026-06-20T173544.png
 security:

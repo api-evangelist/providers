@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 25
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 44
   slug: altruistiq-agentic-access
   summary_line: 44 operations · 29 acting · 25 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: '### Altruistiq’s datasource API enables you to: - Create new datasources - Manage existing datasources (read, update) - Upload data to a datasource A datasource is the place where you will share a sin'
   name: Altruistiq Datasource API
@@ -335,18 +335,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.5
-  delta: 2.5
+  composite: 48.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 28.8
     contract_quality: 72.6
     developer_ergonomics: 31.0
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 28.8
     operational_transparency: 2.6
-  previous_composite: 47.0
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -360,8 +365,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/screenshots/altruistiq-2026-06-20T171616.png
 security:

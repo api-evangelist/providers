@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 40
   slug: flatcar-container-linux-agentic-access
   summary_line: 40 operations · 17 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The Activity API from Flatcar Container Linux — 1 operation(s) for activity.
   name: Flatcar Container Linux Activity API
@@ -196,18 +196,26 @@ rate_limits:
   slug: flatcar-container-linux-rate-limits
 score:
   band: thin
-  composite: 32.4
-  delta: 0.5
+  composite: 38.7
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 6.3
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 47.3
     developer_ergonomics: 26.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 31.9
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -215,9 +223,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/screenshots/flatcar-container-linux-2026-06-20T181304.png
 security:
 - kind: authentication

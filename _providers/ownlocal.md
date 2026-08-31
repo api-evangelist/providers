@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,25 +22,34 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.8
-  scored_at: '2026-08-26'
-api_count: 1
+  score: 29.7
+  scored_at: '2026-08-30'
+api_count: 5
 apis:
-- description: Partner-facing REST API (v1) for OwnLocal's automated print-to-digital advertising platform. Publishers and their systems create and list ads, upload the source print-ad PDF for conversion, create and
-  name: OwnLocal API
-  slug: ownlocal-api
-artifact_total: 10
+- description: Print ads converted into digital ad units — create, list, retrieve, update and upload the source PDF for an ad.
+  name: OwnLocal Ads API
+  slug: ownlocal-ads-api
+- description: Local business (advertiser) records — create, list, retrieve, and attach logo/imagery.
+  name: OwnLocal Businesses API
+  slug: ownlocal-businesses-api
+- description: The OwnLocal business category and sub-category vocabulary used to classify businesses and filter ads.
+  name: OwnLocal Categories API
+  slug: ownlocal-categories-api
+- description: Performance reporting for ads and businesses — impressions, interaction breakdowns, leads, digital lift and search-rank history.
+  name: OwnLocal Reports Data API
+  slug: ownlocal-reports-data-api-api
+artifact_total: 13
 collections:
 - collection_type: open
   name: OwnLocal API — Ads
@@ -55,6 +64,26 @@ collections:
   name: OwnLocal API — Reports Data API
   slug: open-ownlocal-reports-data-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ownlocal-ads-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ownlocal-businesses-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ownlocal-categories-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ownlocal-reports-data-api-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/ownlocal-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -148,10 +177,10 @@ modified: '2026-08-12'
 name: OwnLocal
 nav: Providers
 network: true
-overview: 'OwnLocal publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Local Media, Digital Advertising, and Marketing.
+overview: 'OwnLocal publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Businesses API, Categories API, and 1 more. Tagged areas include Company, Advertising, Local Media, Digital Advertising, and Marketing.
 
 
-  OwnLocal''s developer surface includes documentation, API reference, support, authentication, and 16 more developer resources.'
+  OwnLocal''s developer surface includes documentation, API reference, support, authentication, and 21 more developer resources.'
 plans:
 - name: Ownlocal Plans Pricing
   plan_count: 0
@@ -163,18 +192,23 @@ rate_limits:
   slug: ownlocal-rate-limits
 score:
   band: thin
-  composite: 28.7
+  composite: 33.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 33.3
+    contract_governance: 4.5
+    contract_quality: 54.4
     developer_ergonomics: 35.1
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 28.7
+  previous_composite: 33.8
   provenance:
     conformance: derived
     contracts:
@@ -184,8 +218,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ownlocal/refs/heads/main/screenshots/ownlocal-2026-08-07T191206.png
 security:

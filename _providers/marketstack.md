@@ -34,13 +34,55 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: Real-time, intraday and historical market data API with 45 endpoints spanning end-of-day bars, intraday bars, real-time stock prices, commodities, company ratings, splits, dividends, tickers, indexes,
-  name: Marketstack API v2
-  slug: marketstack-api-v2
-artifact_total: 7
+- description: The Bonds API from Marketstack — 2 operation(s) for bonds.
+  name: Marketstack Bonds API
+  slug: marketstack-bonds-api
+- description: The Commodities API from Marketstack — 2 operation(s) for commodities.
+  name: Marketstack Commodities API
+  slug: marketstack-commodities-api
+- description: The Company Ratings API from Marketstack — 1 operation(s) for company ratings.
+  name: Marketstack Company Ratings API
+  slug: marketstack-company-ratings-api
+- description: The Currencies API from Marketstack — 1 operation(s) for currencies.
+  name: Marketstack Currencies API
+  slug: marketstack-currencies-api
+- description: The Dividends API from Marketstack — 1 operation(s) for dividends.
+  name: Marketstack Dividends API
+  slug: marketstack-dividends-api
+- description: The EDGAR API from Marketstack — 6 operation(s) for edgar.
+  name: Marketstack EDGAR API
+  slug: marketstack-edgar-api
+- description: The End-of-day API from Marketstack — 3 operation(s) for end-of-day.
+  name: Marketstack End Of Day API
+  slug: marketstack-end-of-day-api
+- description: The ETFs API from Marketstack — 2 operation(s) for etfs.
+  name: Marketstack ET Fs API
+  slug: marketstack-etfs-api
+- description: The Exchanges API from Marketstack — 9 operation(s) for exchanges.
+  name: Marketstack Exchanges API
+  slug: marketstack-exchanges-api
+- description: The Indexes API from Marketstack — 2 operation(s) for indexes.
+  name: Marketstack Indexes API
+  slug: marketstack-indexes-api
+- description: The Intraday API from Marketstack — 3 operation(s) for intraday.
+  name: Marketstack Intraday API
+  slug: marketstack-intraday-api
+- description: The Splits API from Marketstack — 1 operation(s) for splits.
+  name: Marketstack Splits API
+  slug: marketstack-splits-api
+- description: The Stock Prices API from Marketstack — 1 operation(s) for stock prices.
+  name: Marketstack Stock Prices API
+  slug: marketstack-stock-prices-api
+- description: The Tickers API from Marketstack — 10 operation(s) for tickers.
+  name: Marketstack Tickers API
+  slug: marketstack-tickers-api
+- description: The Timezones API from Marketstack — 1 operation(s) for timezones.
+  name: Marketstack Timezones API
+  slug: marketstack-timezones-api
+artifact_total: 21
 collections:
 - collection_type: open
   name: Marketstack API v2
@@ -174,7 +216,7 @@ modified: '2026-07-22'
 name: Marketstack
 nav: Providers
 network: true
-overview: 'Marketstack publishes 1 API on the [APIs.io](https://apis.io/) network: API v2. Tagged areas include Finance, Stock Market, Market Data, End-of-Day Data, and Intraday Data.
+overview: 'Marketstack publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Bonds API, Commodities API, Company Ratings API, and 12 more. Tagged areas include Finance, Stock Market, Market Data, End-of-Day Data, and Intraday Data.
 
 
   Marketstack''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, engineering blog, and 22 more developer resources.'
@@ -189,18 +231,23 @@ rate_limits:
   slug: marketstack-rate-limits
 score:
   band: strong
-  composite: 56.1
-  delta: 0.0
+  composite: 54.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
-    contract_quality: 44.2
+    contract_governance: 4.5
+    contract_quality: 43.0
     developer_ergonomics: 57.7
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 56.1
+  previous_composite: 54.9
   provenance:
     conformance: derived
     mcp: first-party
@@ -211,8 +258,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/screenshots/marketstack-2026-06-20T184956.png
 security:

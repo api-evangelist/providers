@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The only anonymously reachable, machine-readable EasyWebinar API surface. The application host publishes a complete OpenID Connect discovery document and RFC 8414 authorization-server metadata, with l
@@ -155,7 +155,12 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials/implicit
 score:
   band: developing
-  composite: 45.1
+  composite: 44.0
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 84.2
@@ -163,14 +168,14 @@ score:
     contract_governance: 18.2
     contract_quality: 42.7
     developer_ergonomics: 28.6
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 45.1
+  previous_composite: 44.0
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/easywebinar/refs/heads/main/screenshots/easywebinar-2026-08-17T080912.png
 security:

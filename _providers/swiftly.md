@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The GraphQL API that backs Swiftly-built retailer mobile apps and websites. Exposes 45 queries and 11 mutations across offers and coupons, product catalog and barcode lookup, store and chain directori
@@ -143,7 +143,12 @@ overview: 'Swiftly publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 9
 score:
   band: thin
-  composite: 27.0
+  composite: 27.7
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -151,16 +156,16 @@ score:
     contract_governance: 4.5
     contract_quality: 37.2
     developer_ergonomics: 20.8
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 27.0
+  previous_composite: 27.7
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

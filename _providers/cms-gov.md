@@ -16,9 +16,9 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: bound
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-26'
+  score: 26.6
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 71
   slug: cms-gov-agentic-access
   summary_line: 71 operations · 14 acting
-api_count: 25
+api_count: 10
 apis:
 - description: The Articles API from CMS — Centers for Medicare & Medicaid Services — 1 operation(s) for articles.
   name: CMS — Centers for Medicare & Medicaid Services Articles API
@@ -229,6 +229,10 @@ collections:
   name: CMS AB2D Articles Submissions API
   slug: open-cms-gov-submissions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cms-gov-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -403,7 +407,7 @@ overview: 'CMS — Centers for Medicare & Medicaid Services publishes 25 APIs on
   The CMS — Centers for Medicare & Medicaid Services catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  CMS — Centers for Medicare & Medicaid Services'' developer surface includes authentication, developer portal, support, sandbox, engineering blog, privacy policy, documentation, and 26 more developer resources.'
+  CMS — Centers for Medicare & Medicaid Services'' developer surface includes authentication, developer portal, support, sandbox, engineering blog, privacy policy, documentation, and 27 more developer resources.'
 random_paper: 7
 rate_limits:
 - limit_count: 0
@@ -438,18 +442,26 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.9
-  delta: 0.0
+  composite: 49.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 6.2
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 13.6
-    contract_quality: 59.2
+    contract_quality: 55.9
     developer_ergonomics: 45.2
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 31.6
-  previous_composite: 43.9
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -463,9 +475,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms-gov/refs/heads/main/screenshots/cms-gov-2026-06-20T174633.png
 security:
 - kind: authentication

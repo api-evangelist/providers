@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 4
 common:
@@ -137,7 +137,12 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 19.3
+  composite: 19.0
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -145,14 +150,14 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 61.1
+    discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 19.3
+  previous_composite: 19.0
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackpoint/refs/heads/main/screenshots/blackpoint-2026-07-25T203257.png
 security:

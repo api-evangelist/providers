@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 9
@@ -33,31 +33,40 @@ agentic_access:
   summary_line: 48 operations · 30 acting · 9 human-in-the-loop
 api_count: 8
 apis:
-- description: Create or update meters on the Leap platform individually or in bulk, accepting CSV or JSON input and returning a job ID, plus endpoints to list meter upload jobs, check job status and manage provisio
-  name: Leap Create Meters API
+- description: The create meters API from Leap — 4 operation(s) for create meters.
+  name: Leap create meters API
   slug: leapfrog-power-create-meters-api
-- description: Retrieve and search enrollment information for meters, including current enrollment status, participation preferences, associated programs and required actions, alongside idle period, disenrollment an
-  name: Leap Meter Enrollment API
-  slug: leapfrog-power-meter-enrollment-api
-- description: Get and search meter details such as customer, utility, site and device information across a partner's meter inventory, with optional filtering by request parameters. OpenAPI 3.0.2.
-  name: Leap Meter Details API
-  slug: leapfrog-power-meter-details-api
-- description: Suggest, retrieve and delete nomination suggestions for individual meters or in bulk for each applicable program and time period. Suggestions are reviewed by Leap before becoming actual market nominat
-  name: Leap Meter Nomination API
-  slug: leapfrog-power-nominations-api
-- description: Receive and search grid dispatch instructions at meter and group level through Leap Dispatch API V2, including webhook URL management for meter and group dispatches. OpenAPI 3.0.3, served from the /v2
-  name: Leap Dispatch API
-  slug: leapfrog-power-dispatch-api
-- description: List, create, update, delete and test webhooks that deliver Leap event notifications such as meter, connect and dispatch events to a partner receiver URL. OpenAPI 3.0.1.
-  name: Leap Webhook Subscription API
-  slug: leapfrog-power-webhooks-api
-- description: Retrieve settlement and performance data — monthly revenue reports, annual revenue data, revenue report versions, event performance and unresponsive meter reporting — for a partner's enrolled fleet. O
-  name: Leap Revenue and Analytics API
-  slug: leapfrog-power-revenue-analytics-api
-- description: 'Submit and monitor partner-supplied interval meter data — upload statuses, data validation errors, aggregated intervals and meter-level intervals — for meters where Leap does not receive utility data '
+- description: Endpoints for group dispatches
+  name: Leap Group Dispatches API
+  slug: leapfrog-power-group-dispatches-api
+- description: The interval_data_upload API from Leap — 6 operation(s) for interval_data_upload.
   name: Leap Interval Data Upload API
   slug: leapfrog-power-interval-data-upload-api
-artifact_total: 21
+- description: The Meter Details API from Leap — 2 operation(s) for meter details.
+  name: Leap Meter Details API
+  slug: leapfrog-power-meter-details-api
+- description: Endpoints for meter dispatches
+  name: Leap Meter Dispatches API
+  slug: leapfrog-power-meter-dispatches-api
+- description: The meter enrollment API from Leap — 2 operation(s) for meter enrollment.
+  name: Leap meter enrollment API
+  slug: leapfrog-power-meter-enrollment-api
+- description: The nominations API from Leap — 5 operation(s) for nominations.
+  name: Leap Nominations API
+  slug: leapfrog-power-nominations-api
+- description: The performance API from Leap — 1 operation(s) for performance.
+  name: Leap Performance API
+  slug: leapfrog-power-performance-api
+- description: The provisional assets API from Leap — 2 operation(s) for provisional assets.
+  name: Leap provisional assets API
+  slug: leapfrog-power-provisional-assets-api
+- description: The revenue API from Leap — 8 operation(s) for revenue.
+  name: Leap Revenue API
+  slug: leapfrog-power-revenue-api
+- description: The webhooks API from Leap — 3 operation(s) for webhooks.
+  name: Leap Webhooks API
+  slug: leapfrog-power-webhooks-api
+artifact_total: 24
 asyncapis:
 - description: API Evangelist DERIVED AsyncAPI rendering of Leap's published webhook surface. Leap does not publish an AsyncAPI document; this document was derived from the public event catalog and the published exa
   name: Leap Webhook Events
@@ -88,6 +97,10 @@ collections:
   name: Webhook Subscription API
   slug: open-leapfrog-power-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/leapfrog-power-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -268,28 +281,33 @@ modified: '2026-07-27'
 name: Leap
 nav: Providers
 network: true
-overview: 'Leap publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Create Meters API, Meter Enrollment API, Meter Details API, and 5 more. Tagged areas include Energy, United States, Electricity, Grid, and Demand Response.
+overview: 'Leap publishes 11 APIs on the [APIs.io](https://apis.io/) network, including create meters API, Group Dispatches API, Interval Data Upload API, and 8 more. Tagged areas include Energy, United States, Electricity, Grid, and Demand Response.
 
 
   The Leap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Leap''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, signup flow, support, and 35 more developer resources.'
+  Leap''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, signup flow, support, and 36 more developer resources.'
 random_paper: 1
 score:
   band: developing
-  composite: 44.2
-  delta: -0.3
+  composite: 43.4
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 66.4
+    contract_governance: 4.5
+    contract_quality: 69.3
     developer_ergonomics: 38.7
     discoverability: 77.8
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 44.5
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -306,8 +324,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leapfrog-power/refs/heads/main/screenshots/leapfrog-power-2026-08-07T171518.png
 security:

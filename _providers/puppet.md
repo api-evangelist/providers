@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: puppet-agentic-access
   summary_line: 12 operations · 7 acting · 2 human-in-the-loop
-api_count: 11
+api_count: 1
 apis:
 - description: The Orchestrator API enables you to gather details about orchestrator jobs you run and inspect application instances. It powers running tasks and orchestration workflows across PE-managed nodes.
   name: Puppet Enterprise Orchestrator API
@@ -171,15 +171,20 @@ rate_limits:
   slug: puppet-rate-limits
 score:
   band: thin
-  composite: 32.3
-  delta: 0.0
+  composite: 31.8
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 53.7
     developer_ergonomics: 23.8
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 32.3
@@ -190,8 +195,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/puppet/refs/heads/main/screenshots/puppet-2026-06-20T192311.png
 security:

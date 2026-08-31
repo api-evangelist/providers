@@ -6,7 +6,7 @@ agent_readiness:
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-08-26'
+  score: 33.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -31,41 +31,121 @@ agentic_access:
   operation_count: 32
   slug: optoro-agentic-access
   summary_line: 32 operations · 23 acting
-api_count: 9
+api_count: 34
 apis:
-- description: OAuth 2.0 client-credentials token endpoint for every Optoro API. Exchanges the client_id and client_secret issued by Optoro's Client Success team for a bearer access token valid 25 hours (90000 secon
-  name: Optoro Auth API
-  slug: optoro-auth-api
-- description: Product master data feed. POST /catalog_entry_updates upserts a catalog entry — SKU, title, imagery, GS1 UPC/ASIN product identifiers, allowed and disallowed resale channels, and configurable custom f
-  name: Optoro Catalogs API
-  slug: optoro-catalogs-api
-- description: Create or update the stores and warehouses in a retailer’s returns network so units can be received, dispositioned and moved against a known location. Single upsert operation, version 2024-08-08, OAut
-  name: Optoro Facilities API
-  slug: optoro-facilities-api
-- description: Return-to-vendor agreements. POST /vendor_updates creates or updates a vendor and the policy terms that govern which returned units are routed back to that vendor rather than resold, refurbished or li
-  name: Optoro RTV Vendor API
-  slug: optoro-rtv-vendor-api
-- description: Advance shipping notices for returns and stock moving into an Optoro facility. POST /asns creates an ASN carrying carrier, tracking number, ship date, origin and destination plus cartons and their lin
-  name: Optoro Inbound ASN API
-  slug: optoro-inbound-asn-api
-- description: Unified external API for unit and location bin changes inside an Optoro warehouse. The only Optoro surface publishing both a write and a read-back operation (createExternalBinChange / showExternalBinC
+- description: The Asns API from Optoro — 2 operation(s) for asns.
+  name: Optoro Asns API
+  slug: optoro-asns-api
+- description: The Catalog Entry Updates API from Optoro — 1 operation(s) for catalog entry updates.
+  name: Optoro Catalog Entry Updates API
+  slug: optoro-catalog-entry-updates-api
+- description: The Dispositions API from Optoro — 1 operation(s) for dispositions.
+  name: Optoro Dispositions API
+  slug: optoro-dispositions-api
+- description: The Drop Shipment Cancellation API from Optoro — 1 operation(s) for drop shipment cancellation.
+  name: Optoro Drop Shipment Cancellation API
+  slug: optoro-drop-shipment-cancellation-api
+- description: The Drop Shipment Confirmation API from Optoro — 1 operation(s) for drop shipment confirmation.
+  name: Optoro Drop Shipment Confirmation API
+  slug: optoro-drop-shipment-confirmation-api
+- description: The Drop Shipment Partial Cancellation API from Optoro — 1 operation(s) for drop shipment partial cancellation.
+  name: Optoro Drop Shipment Partial Cancellation API
+  slug: optoro-drop-shipment-partial-cancellation-api
+- description: The Exchange Orders API from Optoro — 1 operation(s) for exchange orders.
+  name: Optoro Exchange Orders API
+  slug: optoro-exchange-orders-api
+- description: The External Bin Changes API from Optoro — 2 operation(s) for external bin changes.
   name: Optoro External Bin Changes API
   slug: optoro-external-bin-changes-api
-- description: Fulfil orders directly from returned and excess units and lots held in the Optoro RMS. Twelve operations across listings (index, show, update quantity), orders (index, show, create, batch create, upda
-  name: Optoro Drop Ship API
-  slug: optoro-drop-ship-api
-- description: Retailers POST a full snapshot of each order — order, items, customer, refunds, discounts — to Optoro at the first shipped event and again on every lifecycle change, which is what the shopper sees whe
+- description: The Facilities API from Optoro — 1 operation(s) for facilities.
+  name: Optoro Facilities API
+  slug: optoro-facilities-api
+- description: The Final Dispositions API from Optoro — 1 operation(s) for final dispositions.
+  name: Optoro Final Dispositions API
+  slug: optoro-final-dispositions-api
+- description: The Forward Orders API from Optoro — 1 operation(s) for forward orders.
+  name: Optoro Forward Orders API
+  slug: optoro-forward-orders-api
+- description: The Inventory Receipt API from Optoro — 1 operation(s) for inventory receipt.
+  name: Optoro Inventory Receipt API
+  slug: optoro-inventory-receipt-api
+- description: The Listings API from Optoro — 2 operation(s) for listings.
+  name: Optoro Listings API
+  slug: optoro-listings-api
+- description: The Oauth API from Optoro — 1 operation(s) for oauth.
+  name: Optoro OAUTH API
+  slug: optoro-oauth-api
+- description: The Orders API from Optoro — 3 operation(s) for orders.
+  name: Optoro Orders API
+  slug: optoro-orders-api
+- description: The Outbound Asn API from Optoro — 1 operation(s) for outbound asn.
+  name: Optoro Outbound Asn API
+  slug: optoro-outbound-asn-api
+- description: The Returns Portal Orders API from Optoro — 1 operation(s) for returns portal orders.
   name: Optoro Returns Portal Orders API
   slug: optoro-returns-portal-orders-api
-- description: 'Ten Optoro-to-customer message contracts published as OpenAPI: the RMAs webhook (return initiated, tracking issued, carrier scan, drop-off, warehouse receipt, refund posted), Disposition Update, Final'
-  name: Optoro Event Webhooks and Customer Endpoints
-  slug: optoro-event-webhooks-and-customer-endpoints
-artifact_total: 18
+- description: The Rmas API from Optoro — 1 operation(s) for rmas.
+  name: Optoro Rmas API
+  slug: optoro-rmas-api
+- description: The Shipments API from Optoro — 3 operation(s) for shipments.
+  name: Optoro Shipments API
+  slug: optoro-shipments-api
+- description: The Sku API from Optoro — 1 operation(s) for sku.
+  name: Optoro Sku API
+  slug: optoro-sku-api
+- description: The Vendor Updates API from Optoro — 1 operation(s) for vendor updates.
+  name: Optoro Vendor Updates API
+  slug: optoro-vendor-updates-api
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Optoro Webhooks
   slug: optoro-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/optoro-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/optoro-auth-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/optoro-catalogs-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/optoro-facilities-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/optoro-rtv-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/optoro-asn-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/optoro-external-bin-changes-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/optoro-drop-ship-order.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/optoro-returns-experience.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/optoro-returns-portal-orders-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/optoro-rmas-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -219,13 +299,13 @@ modified: '2026-08-26'
 name: Optoro
 nav: Providers
 network: true
-overview: 'Optoro publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Catalogs API, Facilities API, and 6 more. Tagged areas include Returns Management, Reverse Logistics, Retail, Supply Chain, and eCommerce.
+overview: 'Optoro publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Asns API, Catalog Entry Updates API, Dispositions API, and 18 more. Tagged areas include returns-management, reverse-logistics, Retail, Supply Chain, and E-Commerce.
 
 
   The Optoro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Optoro''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 28 more developer resources.'
+  Optoro''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 39 more developer resources.'
 plans:
 - name: Optoro Plans Pricing
   plan_count: 0
@@ -242,16 +322,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.3
+  composite: 56.3
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
-    contract_quality: 59.9
+    contract_governance: 18.2
+    contract_quality: 61.8
     developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 73.7
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -262,8 +349,9 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Optoro Authentication
@@ -279,15 +367,15 @@ security:
   summary_line: disclosure policy published
 slug: optoro
 tags:
-- Returns Management
-- Reverse Logistics
+- returns-management
+- reverse-logistics
 - Retail
 - Supply Chain
-- eCommerce
-- Fulfillment
-- Drop Ship
+- E-Commerce
+- fulfillment
+- drop-ship
 - Inventory
-- Webhooks
-- Order Management
+- Webhook
+- order-management
 website: https://www.optoro.com/
 ---

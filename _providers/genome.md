@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 2
   slug: genome-agentic-access
   summary_line: 2 operations · 2 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Below you can find the information and tutorials that will teach you how to use Genome hosted payment pages, host to host integration, Payout API and Query on demand API.
   name: Genome
@@ -114,18 +114,23 @@ rate_limits:
   slug: genome-rate-limits
 score:
   band: emerging
-  composite: 23.8
-  delta: 3.4
+  composite: 23.2
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 84.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 52.4
     developer_ergonomics: 21.4
-    discoverability: 46.3
+    discoverability: 40.7
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 20.4
+  previous_composite: 23.8
   provenance:
     agentic_access: derived
     contracts:
@@ -139,8 +144,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/screenshots/genome-2026-06-20T181737.png
 security:

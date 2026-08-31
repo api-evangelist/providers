@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: MADlib provides SQL-callable functions for classification, regression, clustering, dimensionality reduction, graph analytics, time series analysis, deep learning with Keras/TensorFlow backend, and oth
@@ -138,8 +138,13 @@ rate_limits:
   slug: apache-madlib-rate-limits
 score:
   band: emerging
-  composite: 18.8
-  delta: 4.3
+  composite: 18.4
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.4
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -149,9 +154,12 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 14.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 15.0
+  previous_composite: 18.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-madlib/refs/heads/main/screenshots/apache-madlib-2026-06-20T172118.png
 security:

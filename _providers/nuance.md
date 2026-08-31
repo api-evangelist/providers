@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
 - description: 'Automatic Speech Recognition as a Service — convert speech to text in real time over a gRPC streaming API (Recognizer service), with wordsets, training and ForgetMe operations. Secured with OAuth 2.0 '
@@ -53,6 +53,10 @@ apis:
   slug: nuance-mix-nraas-grpc-api
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/microsoft/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -129,14 +133,19 @@ modified: '2026-07-20'
 name: Nuance
 nav: Providers
 network: true
-overview: 'Nuance publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Speech Recognition, Conversational AI, Natural Language Understanding, and Text-to-Speech.
+overview: 'Nuance publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Speech Recognition, Conversational AI, Natural Language Understanding, and Text to Speech.
 
 
-  Nuance''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 10 more developer resources.'
+  Nuance''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 11 more developer resources.'
 random_paper: 4
 score:
   band: emerging
   composite: 24.9
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 13.2
@@ -157,8 +166,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuance/refs/heads/main/screenshots/nuance-2026-08-07T185712.png
 security:
@@ -176,7 +185,7 @@ tags:
 - Speech Recognition
 - Conversational AI
 - Natural Language Understanding
-- Text-to-Speech
+- Text to Speech
 - Speech Synthesis
 - Voice
 - Dialog

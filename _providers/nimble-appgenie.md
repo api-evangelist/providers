@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: An llms.txt marketing/brand document structured to help large language models interpret Nimble AppGenie's expertise, industry verticals, compliance standards, and service capabilities. It is not a mac
@@ -37,12 +37,17 @@ modified: '2026-08-13'
 name: Nimble AppGenie
 nav: Providers
 network: true
-overview: Nimble AppGenie publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include fintech, mobile-app-development, web-development, ai-software, and ewallet.
+overview: Nimble AppGenie publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Mobile App Development, Web Development, ai-software, and E-Wallet.
 random_paper: 5
 score:
   band: minimal
-  composite: 6.7
-  delta: 0.8
+  composite: 1.8
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -4.9
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -52,21 +57,27 @@ score:
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 6.7
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Payments
+    regime_id: payments
+    score: 0.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: nimble-appgenie
 tags:
-- fintech
-- mobile-app-development
-- web-development
+- Fintech
+- Mobile App Development
+- Web Development
 - ai-software
-- ewallet
+- E-Wallet
 - neobanking
 - lending-bnpl
-- crypto-defi
+- Crypto Defi
 - regtech-compliance
-- software-development-agency
-- staff-augmentation
+- Software Development Agency
+- Staff Augmentation
 ---

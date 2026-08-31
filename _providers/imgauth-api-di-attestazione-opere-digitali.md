@@ -23,21 +23,64 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: Attestation/proof-of-existence REST API. Client-side SHA-256 hashing, signed PDF certificates, RFC 3161 timestamps, OpenTimestamps/Bitcoin anchoring, verifiable certificate pages, and status telemetry
-  name: imgauth REST API
-  slug: imgauth-rest-api
 - description: 'Hosted, zero-install MCP server (Streamable HTTP, protocol 2025-06-18) exposing the attestation service to MCP-capable agents. The eight tools were read live from tools/list on 2026-08-11: service_sta'
   name: imgauth Remote MCP Server
   slug: imgauth-remote-mcp-server
-artifact_total: 11
+- description: The Agent API from imgauth — API di attestazione opere digitali — 4 operation(s) for agent.
+  name: imgauth — API di attestazione opere digitali Agent API
+  slug: imgauth-api-di-attestazione-opere-digitali-agent-api
+- description: The Badge API from imgauth — API di attestazione opere digitali — 2 operation(s) for badge.
+  name: imgauth — API di attestazione opere digitali Badge API
+  slug: imgauth-api-di-attestazione-opere-digitali-badge-api
+- description: The C API from imgauth — API di attestazione opere digitali — 1 operation(s) for c.
+  name: imgauth — API di attestazione opere digitali C API
+  slug: imgauth-api-di-attestazione-opere-digitali-c-api
+- description: The Cert API from imgauth — API di attestazione opere digitali — 1 operation(s) for cert.
+  name: imgauth — API di attestazione opere digitali Cert API
+  slug: imgauth-api-di-attestazione-opere-digitali-cert-api
+- description: The Cert Pdf API from imgauth — API di attestazione opere digitali — 1 operation(s) for cert pdf.
+  name: imgauth — API di attestazione opere digitali Cert Pdf API
+  slug: imgauth-api-di-attestazione-opere-digitali-cert-pdf-api
+- description: The Hash API from imgauth — API di attestazione opere digitali — 1 operation(s) for hash.
+  name: imgauth — API di attestazione opere digitali Hash API
+  slug: imgauth-api-di-attestazione-opere-digitali-hash-api
+- description: The Health Log API from imgauth — API di attestazione opere digitali — 1 operation(s) for health log.
+  name: imgauth — API di attestazione opere digitali Health Log API
+  slug: imgauth-api-di-attestazione-opere-digitali-health-log-api
+- description: The Integrations API from imgauth — API di attestazione opere digitali — 1 operation(s) for integrations.
+  name: imgauth — API di attestazione opere digitali Integrations API
+  slug: imgauth-api-di-attestazione-opere-digitali-integrations-api
+- description: The Integrazioni API from imgauth — API di attestazione opere digitali — 1 operation(s) for integrazioni.
+  name: imgauth — API di attestazione opere digitali Integrazioni API
+  slug: imgauth-api-di-attestazione-opere-digitali-integrazioni-api
+- description: The Ots API from imgauth — API di attestazione opere digitali — 1 operation(s) for ots.
+  name: imgauth — API di attestazione opere digitali Ots API
+  slug: imgauth-api-di-attestazione-opere-digitali-ots-api
+- description: The Ping API from imgauth — API di attestazione opere digitali — 1 operation(s) for ping.
+  name: imgauth — API di attestazione opere digitali Ping API
+  slug: imgauth-api-di-attestazione-opere-digitali-ping-api
+- description: The Status API from imgauth — API di attestazione opere digitali — 1 operation(s) for status.
+  name: imgauth — API di attestazione opere digitali Status API
+  slug: imgauth-api-di-attestazione-opere-digitali-status-api
+- description: The Status History API from imgauth — API di attestazione opere digitali — 1 operation(s) for status history.
+  name: imgauth — API di attestazione opere digitali Status History API
+  slug: imgauth-api-di-attestazione-opere-digitali-status-history-api
+- description: The Verify API from imgauth — API di attestazione opere digitali — 1 operation(s) for verify.
+  name: imgauth — API di attestazione opere digitali Verify API
+  slug: imgauth-api-di-attestazione-opere-digitali-verify-api
+artifact_total: 24
 collections:
 - collection_type: open
   name: imgauth — API di attestazione opere digitali
   slug: open-imgauth-api-di-attestazione-opere-digitali-openapi-original
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/imgauth-api-di-attestazione-opere-digitali-openapi-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -194,10 +237,10 @@ modified: '2026-08-11'
 name: imgauth — API di attestazione opere digitali
 nav: Providers
 network: true
-overview: 'imgauth — API di attestazione opere digitali publishes 1 API on the [APIs.io](https://apis.io/) network: imgauth REST API. Tagged areas include digital notarization, Timestamping, proof-of-existence, content authenticity, and Provenance.
+overview: 'imgauth — API di attestazione opere digitali publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Badge API, C API, and 11 more. Tagged areas include digital notarization, timestamping, proof-of-existence, content authenticity, and provenance.
 
 
-  imgauth — API di attestazione opere digitali''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, support, and 28 more developer resources.'
+  imgauth — API di attestazione opere digitali''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, support, and 29 more developer resources.'
 plans:
 - name: Imgauth Api Di Attestazione Opere Digitali Plans Pricing
   plan_count: 4
@@ -209,18 +252,23 @@ rate_limits:
   slug: imgauth-api-di-attestazione-opere-digitali-rate-limits
 score:
   band: strong
-  composite: 65.7
-  delta: 0.0
+  composite: 64.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 30.3
-    contract_quality: 50.8
+    contract_governance: 18.2
+    contract_quality: 50.5
     developer_ergonomics: 70.8
     discoverability: 68.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 65.7
+  previous_composite: 64.7
   provenance:
     conformance: first-party
     contracts:
@@ -230,8 +278,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imgauth-api-di-attestazione-opere-digitali/refs/heads/main/screenshots/imgauth-api-di-attestazione-opere-digitali-2026-08-17T080953.png
 security:
@@ -254,10 +302,10 @@ security:
 slug: imgauth-api-di-attestazione-opere-digitali
 tags:
 - digital notarization
-- Timestamping
+- timestamping
 - proof-of-existence
 - content authenticity
-- Provenance
+- provenance
 - Copyright
 - IP protection
 - Blockchain
@@ -265,7 +313,7 @@ tags:
 - OpenTimestamps
 - Security
 - Document
-- E-Signature
+- e-signature
 - MCP
 website: https://attestazione.spaziogenesi.org/en/developer/
 ---

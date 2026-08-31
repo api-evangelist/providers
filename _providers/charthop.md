@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 430
   human_in_the_loop: 11
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 738
   slug: charthop-agentic-access
   summary_line: 738 operations · 430 acting · 11 human-in-the-loop
-api_count: 87
+api_count: 1
 apis:
 - description: The access API from Charthop — 2 operation(s) for access.
   name: Charthop access API
@@ -573,6 +573,10 @@ collections:
   name: ChartHop access well-known API
   slug: open-charthop-well-known-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/charthop-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -719,22 +723,27 @@ overview: 'Charthop publishes 87 APIs on the [APIs.io](https://apis.io/) network
   The Charthop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Charthop''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 25 more developer resources.'
+  Charthop''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 26 more developer resources.'
 random_paper: 17
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 45.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 16.7
-    contract_quality: 46.6
+    contract_governance: 4.5
+    contract_quality: 46.7
     developer_ergonomics: 58.9
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 46.4
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -745,8 +754,8 @@ score:
       total: 87
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charthop/refs/heads/main/screenshots/charthop-2026-07-25T205113.png
 security:

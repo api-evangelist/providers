@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 21
   slug: amazon-seller-central-agentic-access
   summary_line: 21 operations · 9 acting
-api_count: 13
+api_count: 1
 apis:
 - description: REST API that lets approved developers and sellers manage Amazon Selling Partner accounts including catalog items, listings, orders, shipments, inventory, pricing, fees, reports, feeds, finances, noti
   name: Amazon Selling Partner API (SP-API)
@@ -127,6 +127,10 @@ collections:
   name: Amazon Selling Partner API (SP-API)
   slug: open-amazon-seller-central
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-seller-central-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -170,19 +174,24 @@ network: true
 overview: 'Amazon Selling Partner API publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Catalog API, Feeds API, and 9 more. Tagged areas include E-Commerce, Marketplace, Selling Partner, Amazon, and Seller Central.
 
 
-  Amazon Selling Partner API''s developer surface includes authentication, documentation, pricing, signup flow, and 4 more developer resources.'
+  Amazon Selling Partner API''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
 random_paper: 7
 score:
   band: thin
-  composite: 27.8
-  delta: 0.0
+  composite: 27.3
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 11.9
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 27.8
@@ -193,8 +202,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/screenshots/amazon-seller-central-2026-06-20T171817.png
 security:

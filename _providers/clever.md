@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 51
   slug: clever-agentic-access
   summary_line: 51 operations · 4 acting
-api_count: 11
+api_count: 2
 apis:
 - description: OAuth 2.0, OIDC, and SAML-based single sign-on integration that enables application partners to authenticate students, teachers, and staff through the Clever portal. Issues bearer access tokens scoped
   name: Clever Single Sign-On API
@@ -113,6 +113,10 @@ collections:
   name: Data Assignments Users API
   slug: open-clever-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/clever-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -274,7 +278,7 @@ overview: 'Clever publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   The Clever catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Clever''s developer surface includes authentication, documentation, engineering blog, pricing, code examples, and 22 more developer resources.'
+  Clever''s developer surface includes authentication, documentation, engineering blog, pricing, code examples, and 23 more developer resources.'
 plans:
 - name: Clever Plans Pricing
   plan_count: 3
@@ -302,15 +306,20 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 50.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
     contract_quality: 63.9
     developer_ergonomics: 19.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 21.1
   previous_composite: 50.9
@@ -327,8 +336,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 70.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clever/refs/heads/main/screenshots/clever-2026-06-20T174509.png
 security:

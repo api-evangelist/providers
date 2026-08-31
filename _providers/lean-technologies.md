@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 218
   slug: lean-technologies-agentic-access
   summary_line: 218 operations · 70 acting · 1 human-in-the-loop
-api_count: 67
+api_count: 33
 apis:
 - description: The Account Controls (New) API from Lean Technologies — 1 operation(s) for account controls (new).
   name: Lean Technologies Account Controls (New) API
@@ -455,6 +455,10 @@ collections:
   name: Consents Account On File Account Controls (New) Account Controls (New) Transactions Raw Data API
   slug: open-lean-technologies-transactions-raw-data-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lean-technologies-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -609,7 +613,7 @@ overview: 'Lean Technologies publishes 67 APIs on the [APIs.io](https://apis.io/
   The Lean Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lean Technologies'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 27 more developer resources.'
+  Lean Technologies'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 28 more developer resources.'
 random_paper: 2
 scopes:
 - name: Lean Technologies Scopes
@@ -617,19 +621,24 @@ scopes:
   slug: lean-technologies-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: strong
-  composite: 54.8
+  band: developing
+  composite: 53.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 18.2
-    contract_quality: 66.8
+    contract_quality: 66.9
     developer_ergonomics: 62.5
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 54.8
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -646,8 +655,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/screenshots/lean-technologies-2026-07-25T224735.png
 security:

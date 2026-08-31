@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: Access BVAL evaluated prices, yield curves, spread data, and pricing transparency metadata for fixed income securities via BLPAPI and Data License. Supports corporate bonds, municipal bonds, governmen
@@ -47,6 +47,10 @@ apis:
   slug: bval-structured-products
 artifact_total: 19
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -92,14 +96,14 @@ finops:
   slug: bloomberg-valuation-service-bval-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-valuation-service-bval.png
 layout: provider
-modified: '2026-04-21'
+modified: '2026-08-27'
 name: Bloomberg Valuation Service (BVAL)
 nav: Providers
 network: true
 overview: 'Bloomberg Valuation Service (BVAL) publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include BVAL, Evaluated Pricing, Fixed Income, Fair Value, and Bond Pricing.
 
 
-  Bloomberg Valuation Service (BVAL)''s developer surface includes developer portal, documentation, support, and 3 more developer resources.'
+  Bloomberg Valuation Service (BVAL)''s developer surface includes developer portal, documentation, support, and 4 more developer resources.'
 plans:
 - name: Bloomberg Valuation Service Bval Plans Pricing
   plan_count: 3
@@ -112,6 +116,11 @@ rate_limits:
 score:
   band: emerging
   composite: 20.3
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -129,8 +138,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 25.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-valuation-service-bval/refs/heads/main/screenshots/bloomberg-valuation-service-bval-2026-07-25T203407.png
 security:

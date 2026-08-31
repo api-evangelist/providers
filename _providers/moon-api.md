@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: moon-api-agentic-access
   summary_line: 7 operations
-api_count: 7
+api_count: 1
 apis:
 - description: The Advanced API from Moon-API — 1 operation(s) for advanced.
   name: Moon-API Advanced API
@@ -154,18 +154,23 @@ rate_limits:
   slug: moon-api-rate-limits
 score:
   band: thin
-  composite: 30.2
-  delta: 0.0
+  composite: 30.3
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 55.0
     developer_ergonomics: 11.9
-    discoverability: 72.2
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 30.2
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     contracts:
@@ -173,8 +178,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moon-api/refs/heads/main/screenshots/moon-api-2026-06-20T185757.png
 security:

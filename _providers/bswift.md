@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: bswift's partner-facing REST API, served from an AWS API Gateway at api.bswift.com. bswift publicly describes API coverage for demographics and employment data, with lifecycle domains (plan, rate, enr
@@ -31,6 +31,10 @@ apis:
   slug: bswift-partner-api
 artifact_total: 4
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/aetna/
 - group: company
   title: ''
   type: Website
@@ -108,12 +112,17 @@ network: true
 overview: 'bswift publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Benefits Administration, Human Resources, Insurance, and Health Insurance.
 
 
-  bswift''s developer surface includes engineering blog, changelog, and 11 more developer resources.'
+  bswift''s developer surface includes engineering blog, changelog, and 12 more developer resources.'
 random_paper: 4
 score:
   band: emerging
   composite: 23.8
-  delta: 3.8
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -123,17 +132,23 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 20.0
+  previous_composite: 23.8
   provenance:
     conformance: first-party
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    - jurisdiction: US
+      standard: hitrust
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 48.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

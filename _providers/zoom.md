@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 206
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 217
   slug: zoom-agentic-access
   summary_line: 217 operations · 206 acting · 2 human-in-the-loop
-api_count: 47
+api_count: 12
 apis:
 - description: The Zoom Meeting API lets developers access meeting and webinar data from Zoom Meeting. Use this API to build private services or public applications on the Zoom App Marketplace.
   name: Zoom Meeting API
@@ -349,6 +349,14 @@ collections:
   name: Zoom / Account Webinar API
   slug: open-zoom-webinar-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zoom-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/zoom/api/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -828,7 +836,7 @@ overview: 'Zoom publishes 17 APIs on the [APIs.io](https://apis.io/) network, in
   The Zoom catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Zoom''s developer surface includes authentication, getting-started guide, changelog, support, developer portal, documentation, engineering blog, and 42 more developer resources.'
+  Zoom''s developer surface includes authentication, getting-started guide, changelog, support, developer portal, documentation, engineering blog, and 44 more developer resources.'
 plans:
 - name: Zoom Plans Pricing
   plan_count: 4
@@ -877,9 +885,14 @@ scopes:
   slug: zoom-scopes
   summary_line: 19 scopes · authorizationCode
 score:
-  band: strong
-  composite: 55.0
-  delta: 3.9
+  band: developing
+  composite: 49.5
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -889,7 +902,10 @@ score:
     discoverability: 75.9
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 51.1
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -897,8 +913,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/screenshots/zoom-2026-06-20T165938.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -42,44 +42,17 @@ agentic_access:
   operation_count: 67
   slug: university-of-calgary-agentic-access
   summary_line: 67 operations · 38 acting
-api_count: 16
+api_count: 2
 apis:
-- description: PRISM is the University of Calgary's institutional repository, running on DSpace 8.3 (now served from ucalgary.scholaris.ca). It exposes the standard DSpace REST API for programmatic access to communi
-  name: PRISM Institutional Repository (DSpace)
-  slug: prism-dspace
-- description: The University of Calgary's PRISM research-data repository is a Dataverse collection hosted on the Borealis (Canadian Dataverse) platform, exposing the public Dataverse REST API (Borealis runs Dataver
-  name: PRISM Research Data Repository (Borealis Dataverse)
-  slug: prism-dataverse
-- description: The Application.wadl API from University of Calgary — 2 operation(s) for application.wadl.
-  name: University of Calgary Application.wadl API
-  slug: university-of-calgary-application-wadl-api
 - description: Endpoints to utilize the Auroral Transport Model
   name: University of Calgary Auroral Transport Model (ATM) API
   slug: university-of-calgary-auroral-transport-model-atm-api
-- description: Authenticate via email and password to get an Access Token. Use your API Key if you are building software without user interaction to run against the API.
-  name: University of Calgary Authenticate API
-  slug: university-of-calgary-authenticate-api
-- description: Retrieve information about data in the database
-  name: University of Calgary Availability API
-  slug: university-of-calgary-availability-api
-- description: Search for conjunctions between multiple sets of data sources
-  name: University of Calgary Conjunction Search API
-  slug: university-of-calgary-conjunction-search-api
 - description: Endpoints supporting data distribution
   name: University of Calgary Data Distribution API
   slug: university-of-calgary-data-distribution-api
-- description: Search for data products
-  name: University of Calgary Data Products Search API
-  slug: university-of-calgary-data-products-search-api
-- description: Interact with data sources
-  name: University of Calgary Data Sources API
-  slug: university-of-calgary-data-sources-api
-- description: Search ephemeris records
-  name: University of Calgary Ephemeris Search API
-  slug: university-of-calgary-ephemeris-search-api
-- description: Operations relating to managing ephemeris and data products data
-  name: University of Calgary Manage Data API
-  slug: university-of-calgary-manage-data-api
+- description: The HAPI 3.3 interface of the UCalgary Space Remote Sensing API — /hapi, /about, /capabilities, /catalog, /info and /data — serving ground-based instrument time series (NORSTAR riometers and related a
+  name: University of Calgary SRS HAPI (Heliophysics API) Server
+  slug: university-of-calgary-hapi-api
 - description: Endpoints for Scientist In The Loop (SITL) operations
   name: University of Calgary Operations - SITL API
   slug: university-of-calgary-operations-sitl-api
@@ -89,10 +62,49 @@ apis:
 - description: Various helper endpoints
   name: University of Calgary Utilities API
   slug: university-of-calgary-utilities-api
+- description: The WADL service-description endpoints exposed by the AuroraX API.
+  name: University of Calgary AuroraX Application.wadl API
+  slug: university-of-calgary-application-wadl-api
+- description: Authenticate via email and password to get an Access Token. Use your API Key if you are building software without user interaction to run against the API.
+  name: University of Calgary AuroraX Authenticate API
+  slug: university-of-calgary-authenticate-api
+- description: Retrieve information about data in the database
+  name: University of Calgary AuroraX Availability API
+  slug: university-of-calgary-availability-api
+- description: Search for conjunctions between multiple sets of data sources
+  name: University of Calgary AuroraX Conjunction Search API
+  slug: university-of-calgary-conjunction-search-api
+- description: Search for data products
+  name: University of Calgary AuroraX Data Products Search API
+  slug: university-of-calgary-data-products-search-api
+- description: Interact with data sources
+  name: University of Calgary AuroraX Data Sources API
+  slug: university-of-calgary-data-sources-api
+- description: Search ephemeris records
+  name: University of Calgary AuroraX Ephemeris Search API
+  slug: university-of-calgary-ephemeris-search-api
+- description: Operations relating to managing ephemeris and data products data
+  name: University of Calgary AuroraX Manage Data API
+  slug: university-of-calgary-manage-data-api
 - description: Various utilities
-  name: University of Calgary Utils API
+  name: University of Calgary AuroraX Utils API
   slug: university-of-calgary-utils-api
-artifact_total: 47
+- description: The university's own Open Journal Systems 3.4.0.10 installation, hosting UCalgary scholarly journals and exposing a live OAI-PMH 2.0 harvesting endpoint under repositoryName "University of Calgary Jou
+  name: University of Calgary Journal Hosting (OJS) OAI-PMH
+  slug: journal-hosting-oai
+- description: RCSWiki, the documentation platform for University of Calgary Advanced Research Computing, runs MediaWiki 1.43.3 on university infrastructure with the MediaWiki Action API openly reachable at /api.php
+  name: University of Calgary Research Computing Services Wiki API
+  slug: rcs-wiki-api
+- description: PRISM is the University of Calgary's institutional repository — the university's content, the university's DOIs, the university's open-access mandate — but it is no longer run by the university. It is
+  name: PRISM Institutional Repository (DSpace on Scholaris)
+  slug: prism-dspace
+- description: 'The University of Calgary''s research-data collection is a Dataverse collection on Borealis, the national Canadian Dataverse repository operated by Scholars Portal. The data and the collection are the '
+  name: PRISM Research Data Repository (Borealis Dataverse)
+  slug: prism-dataverse
+- description: The ucalgary.ca single-sign-on identity provider, run as a Microsoft Entra ID tenant. It publishes signed SAML 2.0 federation metadata and an OpenID Connect discovery document, both keyless and machin
+  name: University of Calgary Identity Federation (SAML 2.0 / OpenID Connect)
+  slug: identity-federation
+artifact_total: 54
 collections:
 - collection_type: open
   name: API Collection
@@ -140,10 +152,82 @@ collections:
   name: AuroraX Application.wadl Utils API
   slug: open-university-of-calgary-utils-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ucalgary.ca/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://libguides.ucalgary.ca/apis
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.phys.ucalgary.ca/docs
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/ucalgary
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/aurorax-space
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://ca.linkedin.com/school/ucalgary/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.ucalgary.ca/news/rss.xml
+- group: operate
+  title: ''
+  type: Support
+  url: https://ucalgary.service-now.com/it
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://prism.ucalgary.ca/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://borealisdata.ca/dataverse/calgary
+- group: other
+  title: ''
+  type: OpenData
+  url: https://data.phys.ucalgary.ca/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://library.ucalgary.ca/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://calendar.ucalgary.ca/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://login.microsoftonline.com/c609a0ec-a5e3-4631-9686-192280bd9151/federationmetadata/2007-06/federationmetadata.xml
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://rcs.ucalgary.ca/Main_Page
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://grad.ucalgary.ca/current-students/important-resources-and-supports/graduate-ai-guidelines
+- group: build
+  title: ''
+  type: AITooling
+  url: https://ai.ucalgary.ca/
 - group: agent
   title: ''
   type: AgenticAccess
   url: agentic-access/university-of-calgary-agentic-access.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/university-of-calgary-conformance.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -156,22 +240,6 @@ common:
   title: ''
   type: Authentication
   url: authentication/university-of-calgary-authentication.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://www.ucalgary.ca/
-- group: build
-  title: ''
-  type: GitHub
-  url: https://github.com/ucalgary
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://ca.linkedin.com/school/ucalgary/
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://libguides.ucalgary.ca/apis
 - group: commercial
   title: ''
   type: Plans
@@ -200,16 +268,22 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/university-of-calgary-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.ucalgary.ca/news/rss.xml
 created: '2026-06-03'
-description: 'The University of Calgary is a public research university in Calgary, Alberta, Canada, ranked #198 in the QS World University Rankings 2025. Its public, documented developer footprint centers on research and scholarly infrastructure rather than a single central developer portal: the Space Remote Sensing (SRS) group operates a documented RESTful API at api.phys.ucalgary.ca and the related AuroraX auroral-science API at api.aurorax.space, with Python and IDL client libraries. The institutional repository PRISM runs on DSpace 8.3 (REST API plus OAI-PMH) and the PRISM research-data repository is hosted on the Borealis Dataverse platform, which exposes a public Dataverse REST API. The university also maintains a GitHub organization and a library guide cataloging third-party scholarly APIs.'
+description: 'The University of Calgary is a public research university in Calgary, Alberta and a member of the U15 group of Canadian research universities. It operates no central developer portal and no campus-wide API programme; what it does operate is a small number of genuinely institution-run scientific and scholarly surfaces, and a larger number of vendor-platform tenancies that carry the university''s name. The real institution-operated APIs both belong to the Space Remote Sensing group in the Department of Physics and Astronomy: the UCalgary Space Remote Sensing API at api.phys.ucalgary.ca, which self-publishes an OpenAPI 3.1 document and includes a conformant HAPI 3.3 Heliophysics time-series server, and the AuroraX auroral-science API at api.aurorax.space, which runs on the same University of Calgary netblock. Alongside them the university runs its own Open Journal Systems installation with a live OAI-PMH endpoint and a keyless MediaWiki Action API for Research Computing Services
+  documentation. Everything else is a tenancy: PRISM, the institutional repository, is a DSpace tenant on the consortial Scholaris service; the research-data collection is a Dataverse collection on Borealis; the academic calendar is on Coursedog; the identity federation is a Microsoft Entra ID tenant. There is no course-catalog, transit, dining or campus-life API, and www.ucalgary.ca serves a soft 404 on every unknown path, so link presence there is never evidence.'
 examples:
 - key_count: 11
   name: University Of Calgary Datasets Example
   slug: university-of-calgary-datasets-example
+- key_count: 6
+  name: University Of Calgary Hapi About Example
+  slug: university-of-calgary-hapi-about-example
+- key_count: 4
+  name: University Of Calgary Hapi Capabilities Example
+  slug: university-of-calgary-hapi-capabilities-example
+- key_count: 3
+  name: University Of Calgary Hapi Catalog Example
+  slug: university-of-calgary-hapi-catalog-example
 finops:
 - name: University Of Calgary Finops
   service_category: Education
@@ -238,17 +312,17 @@ jsonld:
   property_count: 2
   slug: university-of-calgary-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: University of Calgary
 nav: Providers
 network: true
-overview: 'University of Calgary publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Application.wadl API, Auroral Transport Model (ATM) API, Authenticate API, and 11 more. Tagged areas include Education, Higher Education, University, Research, and Open Data.
+overview: 'University of Calgary publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Auroral Transport Model (ATM) API, Data Distribution API, SRS HAPI (Heliophysics API) Server, and 12 more. Tagged areas include Education, Higher Education, University, Public Research University, and Canada.
 
 
   The University of Calgary catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  University of Calgary''s developer surface includes authentication, GitHub presence, engineering blog, and 13 more developer resources.'
+  University of Calgary''s developer surface includes documentation, API reference, GitHub presence, engineering blog, support, authentication, and 23 more developer resources.'
 plans:
 - name: University Of Calgary Plans Pricing
   plan_count: 2
@@ -281,18 +355,23 @@ rules:
   slug: university-of-calgary-rules
 score:
   band: developing
-  composite: 42.2
-  delta: 1.9
+  composite: 47.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 42.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 4.9
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 25.0
-    contract_quality: 54.7
-    developer_ergonomics: 33.3
-    discoverability: 74.1
-    governance: 25.0
-    operational_transparency: 26.3
-  previous_composite: 40.3
+    contract_governance: 43.2
+    contract_quality: 59.1
+    developer_ergonomics: 35.7
+    discoverability: 68.5
+    governance: 43.2
+    operational_transparency: 23.7
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -305,9 +384,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 42.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 57.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/screenshots/university-of-calgary-2026-06-20T200144.png
 security:
@@ -328,10 +407,19 @@ tags:
 - Education
 - Higher Education
 - University
-- Research
-- Open Data
-- Repository
-- Space Physics
+- Public Research University
 - Canada
+- Alberta
+- U15
+- Research
+- Research Data
+- Open Access
+- Repository
+- OAI-PMH
+- Identity Federation
+- Research Computing
+- Space Physics
+- Heliophysics
+- Open Data
 website: https://www.ucalgary.ca/
 ---

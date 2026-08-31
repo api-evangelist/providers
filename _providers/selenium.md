@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 13
   slug: selenium-agentic-access
   summary_line: 13 operations · 9 acting · 1 human-in-the-loop
-api_count: 8
+api_count: 1
 apis:
 - description: WebDriver is a browser automation framework that accepts commands and sends them to a browser. It is implemented through a browser-specific driver that sends commands to a browser and retrieves result
   name: Selenium WebDriver
@@ -250,7 +250,7 @@ modified: '2026-08-26'
 name: Selenium
 nav: Providers
 network: true
-overview: 'Selenium publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cookies API, Elements API, Navigation API, and 3 more. Tagged areas include Automation, Browsers, End-to-End Testing, Quality Assurance, and Testing.
+overview: 'Selenium publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cookies API, Elements API, Navigation API, and 3 more. Tagged areas include Automation, Browsers, End-To-End Testing, Quality Assurance, and Testing.
 
 
   The Selenium catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -268,18 +268,23 @@ rate_limits:
   slug: selenium-rate-limits
 score:
   band: developing
-  composite: 43.4
-  delta: 20.2
+  composite: 41.4
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 48.8
     developer_ergonomics: 73.2
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 74.1
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 23.2
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -290,9 +295,9 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/screenshots/selenium-2026-06-20T193639.png
 security:
 - kind: authentication
@@ -307,7 +312,7 @@ slug: selenium
 tags:
 - Automation
 - Browsers
-- End-to-End Testing
+- End-To-End Testing
 - Quality Assurance
 - Testing
 - WebDriver

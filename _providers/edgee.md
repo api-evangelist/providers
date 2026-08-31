@@ -23,17 +23,36 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: 'OpenAI-compatible AI Gateway API. One API for any model and any provider: chat completions, Anthropic-format messages, OpenAI Responses, a live model catalog, token counting, and a standalone token-co'
-  name: Edgee AI Gateway API
-  slug: edgee-ai-gateway
 - description: 'Management API for an Edgee organization: export AI Gateway usage and cost data as CSV or JSON, create/list/update/delete AI Gateway API keys, and configure custom BYOK provider keys. Bearer-token aut'
   name: Edgee Console API
   slug: edgee-console
-artifact_total: 8
+- description: Chat completion endpoints (OpenAI format)
+  name: Edgee Chat API
+  slug: edgee-chat-api
+- description: Standalone token compression endpoint
+  name: Edgee Compress API
+  slug: edgee-compress-api
+- description: Messages endpoints (Anthropic format)
+  name: Edgee Messages API
+  slug: edgee-messages-api
+- description: Model management endpoints
+  name: Edgee Models API
+  slug: edgee-models-api
+- description: Responses endpoints (OpenAI Responses API format)
+  name: Edgee Responses API
+  slug: edgee-responses-api
+- description: Token estimation endpoints
+  name: Edgee Tokens API
+  slug: edgee-tokens-api
+artifact_total: 13
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/edgee-gateway-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -182,10 +201,10 @@ modified: '2026-08-17'
 name: Edgee
 nav: Providers
 network: true
-overview: 'Edgee publishes 1 API on the [APIs.io](https://apis.io/) network: AI Gateway API. Tagged areas include Company, Artificial Intelligence, LLM, AI Gateway, and Agents.
+overview: 'Edgee publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Compress API, Messages API, and 3 more. Tagged areas include Company, Artificial Intelligence, LLM, AI Gateway, and Agents.
 
 
-  Edgee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
+  Edgee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Edgee Plans Pricing
   plan_count: 3
@@ -197,18 +216,23 @@ rate_limits:
   slug: edgee-rate-limits
 score:
   band: strong
-  composite: 59.4
-  delta: 0.0
+  composite: 57.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 16.7
-    contract_quality: 57.4
+    contract_governance: 4.5
+    contract_quality: 56.6
     developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 59.4
+  previous_composite: 58.3
   provenance:
     conformance: derived
     contracts:
@@ -218,8 +242,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

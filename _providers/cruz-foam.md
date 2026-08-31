@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 23
   slug: cruz-foam-agentic-access
   summary_line: 23 operations
-api_count: 9
+api_count: 12
 apis:
 - description: Public, unauthenticated read access to the Cruz Foam news and blog archive via the WordPress core REST API. Verified live at 139 published posts.
   name: Cruz Foam Posts API
@@ -55,9 +55,6 @@ apis:
 - description: 'Public, unauthenticated read access to the media library behind cruzfoam.com — product photography, material and science imagery, and press assets with their generated size variants. Verified live at '
   name: Cruz Foam Media API
   slug: cruz-foam-media-api
-- description: 'Public, unauthenticated read access to the classification vocabularies behind cruzfoam.com: post categories, post tags, and the site-specific portfolio-categories taxonomy that groups the customer sho'
-  name: Cruz Foam Taxonomy API
-  slug: cruz-foam-taxonomy-api
 - description: Public, unauthenticated cross-content search over cruzfoam.com — posts, pages and the customer showcase — returning lightweight id / title / url / type / subtype records. Verified live at 142 searchab
   name: Cruz Foam Search API
   slug: cruz-foam-search-api
@@ -70,7 +67,19 @@ apis:
 - description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed JSON-LD schema.org graph for any cruzfoam.com URL — a structured-data view of every page without scraping the HTML.
   name: Cruz Foam SEO Metadata API
   slug: cruz-foam-seo-api
-artifact_total: 23
+- description: Post categories.
+  name: Cruz Foam Categories API
+  slug: cruz-foam-categories-api
+- description: Segments applied to the customer showcase.
+  name: Cruz Foam Portfolio Categories API
+  slug: cruz-foam-portfolio-categories-api
+- description: Post tags.
+  name: Cruz Foam Tags API
+  slug: cruz-foam-tags-api
+- description: Public author records.
+  name: Cruz Foam Users API
+  slug: cruz-foam-users-api
+artifact_total: 26
 collections:
 - collection_type: open
   name: Cruz Foam Customers API
@@ -100,6 +109,14 @@ collections:
   name: Cruz Foam Taxonomy API
   slug: open-cruz-foam-taxonomy-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cruz-foam-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cruz-foam-taxonomy-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -229,10 +246,10 @@ modified: '2026-08-11'
 name: Cruz Foam
 nav: Providers
 network: true
-overview: 'Cruz Foam publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Customers API, and 6 more. Tagged areas include Company, Materials Science, Sustainable Packaging, Compostable Materials, and Biomaterials.
+overview: 'Cruz Foam publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Customers API, and 9 more. Tagged areas include Company, Materials Science, Sustainable Packaging, Compostable Materials, and Biomaterials.
 
 
-  Cruz Foam''s developer surface includes engineering blog, authentication, code examples, and 27 more developer resources.'
+  Cruz Foam''s developer surface includes engineering blog, authentication, code examples, and 29 more developer resources.'
 plans:
 - name: Cruz Foam Plans Pricing
   plan_count: 0
@@ -244,18 +261,23 @@ rate_limits:
   slug: cruz-foam-rate-limits
 score:
   band: thin
-  composite: 30.9
+  composite: 29.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 56.0
+    contract_governance: 4.5
+    contract_quality: 55.8
     developer_ergonomics: 16.1
     discoverability: 74.1
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 30.9
+  previous_composite: 29.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,8 +288,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

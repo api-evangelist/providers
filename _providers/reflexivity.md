@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Reflexivity's institutional REST API. Documented by the company as "JSON REST based services" whose requests are authenticated with an OAuth 2.0 Bearer token obtained from the Reflexivity OAuth servic
@@ -127,7 +127,7 @@ modified: '2026-08-26'
 name: Reflexivity
 nav: Providers
 network: true
-overview: 'Reflexivity publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Investment Analysis, Market Data, and Artificial Intelligence.
+overview: 'Reflexivity publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Investment Analysis, Market Data, and Artificial Intelligence.
 
 
   Reflexivity''s developer surface includes documentation, API reference, engineering blog, support, signup flow, pricing, and 12 more developer resources.'
@@ -147,16 +147,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 34.0
+  composite: 32.9
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 79.6
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
+  previous_composite: 32.9
   provenance:
     conformance: first-party
     mcp: first-party
@@ -166,8 +173,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Reflexivity Authentication
@@ -180,11 +188,11 @@ security:
 slug: reflexivity
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Investment Analysis
 - Market Data
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Fintech
 - Research
 - Knowledge Graph

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +56,7 @@ modified: '2026-07-17'
 name: Anda
 nav: Providers
 network: true
-overview: 'Anda is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Ride Hailing, Delivery, and Transportation.
+overview: 'Anda is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobility, Ride-hailing, Delivery, and Transportation.
 
 
   Anda''s developer surface includes support and 2 more developer resources.'
@@ -64,6 +64,11 @@ random_paper: 5
 score:
   band: minimal
   composite: 6.0
+  coverage:
+    artifact_dirs: 2
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -75,8 +80,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anda/refs/heads/main/screenshots/anda-2026-07-25T200216.png
 security:
@@ -88,7 +93,7 @@ slug: anda
 tags:
 - Company
 - Mobility
-- Ride Hailing
+- Ride-hailing
 - Delivery
 - Transportation
 - Fintech

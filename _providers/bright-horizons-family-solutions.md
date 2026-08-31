@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ modified: '2026-05-23'
 name: Bright Horizons Family Solutions
 nav: Providers
 network: true
-overview: 'Bright Horizons Family Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Childcare, Early Childhood Education, Employee Benefits, Back-Up Care, and Tuition Assistance.
+overview: 'Bright Horizons Family Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Child Care, Early Childhood Education, Employee Benefits, Back-Up Care, and Tuition Assistance.
 
 
   Bright Horizons Family Solutions'' developer surface includes engineering blog and 9 more developer resources.'
@@ -93,6 +93,11 @@ random_paper: 20
 score:
   band: minimal
   composite: 3.3
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -110,8 +115,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bright-horizons-family-solutions/refs/heads/main/screenshots/bright-horizons-family-solutions-2026-06-20T173702.png
 security:
@@ -121,7 +126,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: bright-horizons-family-solutions
 tags:
-- Childcare
+- Child Care
 - Early Childhood Education
 - Employee Benefits
 - Back-Up Care

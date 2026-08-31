@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-26'
-api_count: 197
+  scored_at: '2026-08-30'
+api_count: 104
 apis:
 - description: The AcctStatus API from Cisco Identity Services Engine — 1 operation(s) for acctstatus.
   name: Cisco Identity Services Engine Acct Status API
@@ -623,6 +623,10 @@ asyncapis:
   name: Cisco Ise Webhooks
   slug: cisco-ise-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cisco-ise-capability-edges.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -938,7 +942,7 @@ overview: 'Cisco Identity Services Engine publishes 197 APIs on the [APIs.io](ht
   The Cisco Identity Services Engine catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cisco Identity Services Engine''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 68 more developer resources.'
+  Cisco Identity Services Engine''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 69 more developer resources.'
 plans:
 - name: Cisco Ise Plans Pricing
   plan_count: 6
@@ -949,19 +953,24 @@ rate_limits:
   name: Cisco Ise Rate Limits
   slug: cisco-ise-rate-limits
 score:
-  band: exemplar
-  composite: 67.8
+  band: strong
+  composite: 65.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 56.0
     developer_ergonomics: 73.2
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 67.8
+  previous_composite: 65.2
   provenance:
     conformance: derived
     contracts:
@@ -977,8 +986,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

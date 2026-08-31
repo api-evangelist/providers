@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.0
-  scored_at: '2026-08-26'
+  score: 26.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -33,9 +33,21 @@ agentic_access:
   summary_line: 12 operations · 2 acting
 api_count: 1
 apis:
-- description: The Landcor Property API is a live REST service on api.landcor.com that publishes a valid OpenAPI 3.1.0 contract titled "Landcor Property API" version 0.1.0, served anonymously at https://api.landcor.
-  name: Landcor Property API
+- description: The AVM Summary API from Landcor Data — 1 operation(s) for avm summary.
+  name: Landcor Data AVM Summary API
+  slug: landcor-avm-summary-api
+- description: The Comparables API from Landcor Data — 1 operation(s) for comparables.
+  name: Landcor Data Comparables API
+  slug: landcor-comparables-api
+- description: The Health API from Landcor Data — 1 operation(s) for health.
+  name: Landcor Data Health API
+  slug: landcor-health-api
+- description: The Property API from Landcor Data — 4 operation(s) for property.
+  name: Landcor Data Property API
   slug: landcor-property-api
+- description: The Valuation API from Landcor Data — 5 operation(s) for valuation.
+  name: Landcor Data Valuation API
+  slug: landcor-valuation-api
 arazzos:
 - description: Resolve a BC street address to a Landcor PID, then pull property detail, the AVM valuation range and the valuation history.
   name: Landcor — address to valuation
@@ -43,12 +55,16 @@ arazzos:
 - description: Run a proposed mortgage amount against Landcor's AVM value for a BC property and retrieve the password-protected PDF valuation report for the file.
   name: Landcor — loan-to-value check and valuation report
   slug: landcor-ltv-check-and-report
-artifact_total: 8
+artifact_total: 12
 collections:
 - collection_type: open
   name: Landcor Property API
   slug: open-landcor-property-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/landcor-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -191,32 +207,37 @@ modified: '2026-07-26'
 name: Landcor Data
 nav: Providers
 network: true
-overview: 'Landcor Data publishes 1 API on the [APIs.io](https://apis.io/) network: Landcor Property API. Tagged areas include Real-Estate, Canada, Valuation, AVM, and Property Records.
+overview: 'Landcor Data publishes 5 APIs on the [APIs.io](https://apis.io/) network, including AVM Summary API, Comparables API, Health API, and 2 more. Tagged areas include Real-Estate, Canada, Valuation, AVM, and Property Records.
 
 
-  Landcor Data''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 25 more developer resources.'
+  Landcor Data''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 26 more developer resources.'
 random_paper: 4
 score:
-  band: developing
-  composite: 40.1
-  delta: 0.0
+  band: thin
+  composite: 38.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
-    contract_quality: 52.4
+    contract_governance: 4.5
+    contract_quality: 50.0
     developer_ergonomics: 37.5
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 40.1
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/screenshots/landcor-2026-08-07T171419.png
 security:

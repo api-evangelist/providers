@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,15 +33,19 @@ agentic_access:
   summary_line: 2 operations
 api_count: 1
 apis:
-- description: Public, unauthenticated, CORS-open JSON API serving the Electra.aero newsroom — press releases, program milestones and syndicated coverage. This is the default Statamic Content REST API behind the cor
-  name: Electra.aero Content API
-  slug: electraaero-content-api
+- description: Electra newsroom and in-the-news entries.
+  name: Electra.aero News API
+  slug: electra.aero-news-api
 artifact_total: 7
 collections:
 - collection_type: open
   name: Electra.aero Content API (news)
   slug: open-electra
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/electra.aero-content-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -123,10 +127,10 @@ modified: '2026-08-12'
 name: Electra.aero
 nav: Providers
 network: true
-overview: 'Electra.aero publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Aerospace, Aviation, Aircraft Manufacturing, Advanced Air Mobility, and Electric Aviation.
+overview: 'Electra.aero publishes 1 API on the [APIs.io](https://apis.io/) network: News API. Tagged areas include Aerospace, Aviation, Aircraft Manufacturing, Advanced Air Mobility, and Electric Aviation.
 
 
-  Electra.aero''s developer surface includes engineering blog, support, YouTube channel, authentication, and 14 more developer resources.'
+  Electra.aero''s developer surface includes engineering blog, support, YouTube channel, authentication, and 15 more developer resources.'
 plans:
 - name: Electra.Aero Plans Pricing
   plan_count: 0
@@ -138,18 +142,23 @@ rate_limits:
   slug: electra.aero-rate-limits
 score:
   band: thin
-  composite: 27.3
+  composite: 26.6
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 57.1
     developer_ergonomics: 20.8
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 27.3
+  previous_composite: 26.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -160,8 +169,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

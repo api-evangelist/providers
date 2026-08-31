@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 88
   slug: nexhealth-agentic-access
   summary_line: 88 operations · 22 acting
-api_count: 33
+api_count: 1
 apis:
 - description: Adjustment types used to create adjustment
   name: NexHealth Adjustment Types API
@@ -350,6 +350,10 @@ collections:
   name: NexHealth Adjustment Types Working Hours API
   slug: open-nexhealth-working-hours-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nexhealth-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -508,22 +512,27 @@ overview: 'NexHealth publishes 33 APIs on the [APIs.io](https://apis.io/) networ
   The NexHealth catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  NexHealth''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
+  NexHealth''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
 random_paper: 16
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 50.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 68.4
     developer_ergonomics: 44.6
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 30.3
-  previous_composite: 52.4
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -536,12 +545,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexhealth/refs/heads/main/screenshots/nexhealth-2026-08-07T185152.png
 security:

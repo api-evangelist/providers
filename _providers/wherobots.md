@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 8
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 165
   slug: wherobots-agentic-access
   summary_line: 165 operations · 88 acting · 8 human-in-the-loop
-api_count: 34
+api_count: 1
 apis:
 - description: The apikey API from Wherobots — 2 operation(s) for apikey.
   name: Wherobots apikey API
@@ -253,6 +253,10 @@ collections:
   name: Wherobots Cloud apikey workos API
   slug: open-wherobots-workos-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/wherobots-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -408,22 +412,27 @@ network: true
 overview: 'Wherobots publishes 34 APIs on the [APIs.io](https://apis.io/) network, including apikey API, audit-log API, catalogs API, and 31 more. Tagged areas include Company, Geospatial, Spatial Analytics, Apache Sedona, and Spatial SQL.
 
 
-  Wherobots'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  Wherobots'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 random_paper: 2
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 51.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 53.3
     developer_ergonomics: 73.2
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 53.5
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -434,8 +443,8 @@ score:
       total: 34
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wherobots/refs/heads/main/screenshots/wherobots-2026-08-17T082916.png
 security:

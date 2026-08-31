@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: verified
+    rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.9
-  scored_at: '2026-08-26'
+  score: 34.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 71
   slug: anthropic-agentic-access
   summary_line: 71 operations · 37 acting · 3 human-in-the-loop
-api_count: 24
+api_count: 6
 apis:
 - description: Send a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation. The Messages API supports text, images, tool use, extended th
   name: Anthropic Messages API
@@ -50,21 +50,12 @@ apis:
 - description: List and inspect Claude models including Opus 4.7, Sonnet 4.6, and Haiku 4.5. The response includes max_input_tokens, max_tokens, and a capabilities object for every model so clients can discover mode
   name: Anthropic Models API
   slug: anthropic-models-api
-- description: Send a batch of Message creation requests at 50% off both input and output tokens. Batches can take up to 24 hours to complete. Supports up to 300k output tokens per request on Opus 4.6/4.7 and Sonnet
-  name: Anthropic Message Batches API
-  slug: anthropic-message-batches-api
 - description: 'The Files API lets you upload and manage files for reuse across Messages, Batches, code execution, and Managed Agents without re-uploading content. 500 MB request limit; supports PDFs, images, Office '
   name: Anthropic Files API
   slug: anthropic-files-api
-- description: Count the number of tokens in a Message, including tools, images, and documents, without creating it. The Token Count API accepts the same structured list of inputs as Messages including system prompt
-  name: Anthropic Token Counting API
-  slug: anthropic-token-counting-api
 - description: Create and manage custom Agent Skills. Skills are filesystem-based directories of instructions, scripts, and resources that Claude loads on demand via progressive disclosure. Workspace-wide sharing. T
   name: Anthropic Skills API
   slug: anthropic-skills-api
-- description: Daily aggregated user-level Claude Code productivity metrics — sessions, lines of code, commits, pull requests, tool actions, and estimated costs by model — via /v1/organizations/usage_report/claude_c
-  name: Anthropic Claude Code Analytics API
-  slug: anthropic-claude-code-analytics-api
 - description: Reusable, versioned agent configurations
   name: Anthropic Agents API
   slug: anthropic-agents-api
@@ -101,12 +92,6 @@ apis:
 - description: Stateful agent execution instances
   name: Anthropic Sessions API
   slug: anthropic-sessions-api
-- description: Manage versions of a Skill
-  name: Anthropic Skill Versions API
-  slug: anthropic-skill-versions-api
-- description: APIs for counting tokens in messages
-  name: Anthropic Tokens API
-  slug: anthropic-tokens-api
 - description: Token usage and consumption reporting
   name: Anthropic Usage API
   slug: anthropic-usage-api
@@ -116,6 +101,78 @@ apis:
 - description: Create and manage workspaces within an organization
   name: Anthropic Workspaces API
   slug: anthropic-workspaces-api
+- description: The Agents?beta=true API from Anthropic — 1 operation(s) for agents?beta=true.
+  name: Anthropic Agents?beta=true API
+  slug: anthropic-agents-beta-true-api
+- description: The Anthropic API API from Anthropic — 0 operation(s) for anthropic api.
+  name: Anthropic Anthropic API
+  slug: anthropic-anthropic-api-api
+- description: The Complete API from Anthropic — 1 operation(s) for complete.
+  name: Anthropic Complete API
+  slug: anthropic-complete-api
+- description: The Deployment Runs API from Anthropic — 1 operation(s) for deployment runs.
+  name: Anthropic Deployment Runs API
+  slug: anthropic-deployment-runs-api
+- description: The Deployment Runs?beta=true API from Anthropic — 1 operation(s) for deployment runs?beta=true.
+  name: Anthropic Deployment Runs?beta=true API
+  slug: anthropic-deployment-runs-beta-true-api
+- description: The Deployments API from Anthropic — 5 operation(s) for deployments.
+  name: Anthropic Deployments API
+  slug: anthropic-deployments-api
+- description: The Deployments?beta=true API from Anthropic — 1 operation(s) for deployments?beta=true.
+  name: Anthropic Deployments?beta=true API
+  slug: anthropic-deployments-beta-true-api
+- description: The Dreams API from Anthropic — 3 operation(s) for dreams.
+  name: Anthropic Dreams API
+  slug: anthropic-dreams-api
+- description: The Dreams?beta=true API from Anthropic — 1 operation(s) for dreams?beta=true.
+  name: Anthropic Dreams?beta=true API
+  slug: anthropic-dreams-beta-true-api
+- description: The Environments?beta=true API from Anthropic — 1 operation(s) for environments?beta=true.
+  name: Anthropic Environments?beta=true API
+  slug: anthropic-environments-beta-true-api
+- description: The Files?beta=true API from Anthropic — 1 operation(s) for files?beta=true.
+  name: Anthropic Files?beta=true API
+  slug: anthropic-files-beta-true-api
+- description: The Memory Stores API from Anthropic — 7 operation(s) for memory stores.
+  name: Anthropic Memory Stores API
+  slug: anthropic-memory-stores-api
+- description: The Memory Stores?beta=true API from Anthropic — 1 operation(s) for memory stores?beta=true.
+  name: Anthropic Memory Stores?beta=true API
+  slug: anthropic-memory-stores-beta-true-api
+- description: The Messages?beta=true API from Anthropic — 1 operation(s) for messages?beta=true.
+  name: Anthropic Messages?beta=true API
+  slug: anthropic-messages-beta-true-api
+- description: The Models?beta=true API from Anthropic — 1 operation(s) for models?beta=true.
+  name: Anthropic Models?beta=true API
+  slug: anthropic-models-beta-true-api
+- description: The Organizations API from Anthropic — 43 operation(s) for organizations.
+  name: Anthropic Organizations API
+  slug: anthropic-organizations-api
+- description: The Sessions?beta=true API from Anthropic — 1 operation(s) for sessions?beta=true.
+  name: Anthropic Sessions?beta=true API
+  slug: anthropic-sessions-beta-true-api
+- description: The Skills?beta=true API from Anthropic — 1 operation(s) for skills?beta=true.
+  name: Anthropic Skills?beta=true API
+  slug: anthropic-skills-beta-true-api
+- description: The Tunnels API from Anthropic — 7 operation(s) for tunnels.
+  name: Anthropic Tunnels API
+  slug: anthropic-tunnels-api
+- description: The Tunnels?beta=true API from Anthropic — 1 operation(s) for tunnels?beta=true.
+  name: Anthropic Tunnels?beta=true API
+  slug: anthropic-tunnels-beta-true-api
+- description: The User Profiles API from Anthropic — 2 operation(s) for user profiles.
+  name: Anthropic User Profiles API
+  slug: anthropic-user-profiles-api
+- description: The User Profiles?beta=true API from Anthropic — 1 operation(s) for user profiles?beta=true.
+  name: Anthropic User Profiles?beta=true API
+  slug: anthropic-user-profiles-beta-true-api
+- description: The Vaults API from Anthropic — 6 operation(s) for vaults.
+  name: Anthropic Vaults API
+  slug: anthropic-vaults-api
+- description: The Vaults?beta=true API from Anthropic — 1 operation(s) for vaults?beta=true.
+  name: Anthropic Vaults?beta=true API
+  slug: anthropic-vaults-beta-true-api
 arazzos:
 - description: Create a batch, request cancellation, then poll until it leaves the canceling state.
   name: Anthropic Cancel a Message Batch and Confirm
@@ -150,11 +207,14 @@ arazzos:
 - description: Upload a file, read back its metadata, and download its content when it is downloadable.
   name: Anthropic Upload, Verify, and Download a File
   slug: anthropic-upload-verify-download-file-workflow
-artifact_total: 117
+artifact_total: 137
 asyncapis:
 - description: 'AsyncAPI specification modeling the Server-Sent Events (SSE) stream produced by Anthropic''s Messages API when `"stream": true` is set on a POST to `/v1/messages`. Transport: HTTP/1.1 with `Content-Typ'
   name: Anthropic Messages Streaming API
   slug: anthropic-asyncapi
+- description: ''
+  name: Anthropic Webhooks
+  slug: anthropic-webhooks
 collections:
 - collection_type: postman
   name: Anthropic Admin API
@@ -277,6 +337,10 @@ collections:
   name: Anthropic Admin Agents Workspaces API
   slug: open-anthropic-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/anthropic-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -460,7 +524,7 @@ common:
 - group: operate
   title: ''
   type: ChangeLog
-  url: https://platform.claude.com/docs/en/release-notes/api
+  url: https://platform.claude.com/docs/en/release-notes/overview
 - group: docs
   title: ''
   type: Documentation
@@ -492,7 +556,7 @@ common:
 - group: operate
   title: ''
   type: Support
-  url: https://docs.anthropic.com/en/api/getting-help
+  url: https://support.claude.com/en/collections/4078531-api
 - group: commercial
   title: ''
   type: Plans
@@ -548,7 +612,7 @@ common:
 - group: start
   title: ''
   type: Sandbox
-  url: https://platform.claude.com/workbench
+  url: https://platform.claude.com/playground
 - group: docs
   title: ''
   type: Documentation
@@ -752,7 +816,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.anthropic.com/en/docs/build-with-claude/structured-output
+  url: https://platform.claude.com/docs/en/build-with-claude/structured-outputs
 - group: docs
   title: ''
   type: Documentation
@@ -776,17 +840,57 @@ common:
 - group: commercial
   title: ''
   type: Plans
-  url: https://plans/anthropic-plans-pricing.yml
+  url: plans/anthropic-plans-pricing.yml
 - group: operate
   title: ''
   type: RateLimits
-  url: https://rate-limits/anthropic-rate-limits.yml
+  url: rate-limits/anthropic-rate-limits.yml
 - group: commercial
   title: ''
   type: FinOps
-  url: https://finops/anthropic-finops.yml
+  url: finops/anthropic-finops.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/anthropic-tool-crosswalk.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/anthropic-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/anthropic-webhooks.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: https://docs.anthropic.com/llms.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/anthropic-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/anthropic-trust-center.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/anthropic-lifecycle.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://platform.claude.com/docs/en/api/overview
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://platform.claude.com/docs/en/home
 created: '2025-08-14T00:00:00.000Z'
-description: Anthropic is an AI safety company and creator of the Claude family of large language models (Opus, Sonnet, Haiku). The Claude API provides access to Claude models for text generation, vision, tool use, extended thinking, batch processing, and agentic workflows including managed agents, skills, memory, compaction, and computer use. Anthropic also publishes the open Model Context Protocol (MCP) for standardized AI tool integration and ships Claude Code, the terminal-based agentic coding tool.
+description: 'Anthropic is an AI safety company and the creator of the Claude family of large language models (Opus, Sonnet, Haiku, and the Fable/Mythos frontier line). The Claude Developer Platform exposes them through a single REST API at api.anthropic.com: the Messages API for text, vision, tool use, thinking, streaming and structured outputs; Message Batches for asynchronous work at half price; Files, Token Counting, Models, and experimental Prompt Tools; Managed Agents with sessions, environments, memory stores, vaults and scheduled deployments; a Skills API; and an Admin API for organizations, workspaces, members, invites and API keys. Authentication is x-api-key with a required anthropic-version date header and dated anthropic-beta opt-ins. Anthropic also authors two of the open standards the agent ecosystem runs on — the Model Context Protocol and the Agent Skills specification — and ships Claude Code, the terminal agentic coding tool, which doubles as a first-party stdio MCP server.'
 features:
 - Claude Opus 4.7 — most capable generally available model for complex reasoning and agentic coding
 - Claude Sonnet 4.6 — balanced model combining speed and intelligence with 1M context window
@@ -840,17 +944,17 @@ mcp_servers:
 - description: ''
   name: Anthropic MCP Server
   slug: anthropic-mcp-server
-modified: '2026-06-20'
+modified: '2026-08-27'
 name: Anthropic
 nav: Providers
 network: true
-overview: 'Anthropic publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Messages API, Models API, Message Batches API, and 21 more. Tagged areas include Artificial Intelligence, Claude, Foundation Models, Large Language Models, and Machine-Learning.
+overview: 'Anthropic publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Messages API, Models API, Files API, and 40 more. Tagged areas include Artificial Intelligence, Claude, Foundation Models, Large Language Models, and Machine-Learning.
 
 
-  The Anthropic catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Anthropic catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Anthropic''s developer surface includes authentication, changelog, CLI, documentation, developer portal, support, pricing, and 120 more developer resources.'
+  Anthropic''s developer surface includes authentication, changelog, CLI, documentation, developer portal, support, pricing, and 131 more developer resources.'
 plans:
 - name: Anthropic Plans Pricing
   plan_count: 5
@@ -884,18 +988,23 @@ rules:
   slug: anthropic-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 68.6
-  delta: 0.0
+  composite: 74.0
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.8
   facets:
-    access_clarity: 68.4
-    commercial_clarity: 68.4
-    contract_governance: 30.3
-    contract_quality: 85.1
-    developer_ergonomics: 85.7
-    discoverability: 70.4
-    governance: 30.3
-    operational_transparency: 44.7
-  previous_composite: 68.6
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 79.0
+    developer_ergonomics: 100.0
+    discoverability: 75.9
+    governance: 18.2
+    operational_transparency: 71.1
+  previous_composite: 72.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -905,8 +1014,8 @@ score:
       marker_coverage: 0.0
       total: 24
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/screenshots/anthropic-2026-06-20T172029.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 77
   slug: wetravel-agentic-access
   summary_line: 77 operations · 46 acting
-api_count: 17
+api_count: 1
 apis:
 - description: The Access token API from WeTravel — 1 operation(s) for access token.
   name: WeTravel Access token API
@@ -156,6 +156,10 @@ collections:
   name: WeTravel Partner Access token Trips API
   slug: open-wetravel-trips-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/wetravel-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -282,7 +286,7 @@ overview: 'WeTravel publishes 17 APIs on the [APIs.io](https://apis.io/) network
   The WeTravel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  WeTravel''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 20 more developer resources.'
+  WeTravel''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 21 more developer resources.'
 random_paper: 13
 rate_limits:
 - limit_count: 1
@@ -290,18 +294,23 @@ rate_limits:
   slug: wetravel-rate-limits
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 43.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.2
     developer_ergonomics: 44.6
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 77.6
-  previous_composite: 45.5
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -318,8 +327,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wetravel/refs/heads/main/screenshots/wetravel-2026-08-17T082914.png
 security:

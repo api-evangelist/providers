@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 17
 apis:
 - description: The shop authorization flow lets a Shopee seller grant a registered partner application access to their shop. The partner receives a per-shop access token (and refresh token) used for all subsequent v
@@ -145,7 +145,7 @@ modified: '2026-05-23'
 name: Shopee
 nav: Providers
 network: true
-overview: 'Shopee publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Marketplace, Southeast Asia, Cross-Border, and Order.
+overview: 'Shopee publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Marketplace, Southeast Asia, Cross-border, and Order.
 
 
   Shopee''s developer surface includes documentation and 10 more developer resources.'
@@ -160,7 +160,12 @@ rate_limits:
   slug: shopee-rate-limits
 score:
   band: emerging
-  composite: 15.9
+  composite: 16.7
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -168,12 +173,12 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 15.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 16.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopee/refs/heads/main/screenshots/shopee-2026-06-20T193833.png
 security:
@@ -186,7 +191,7 @@ tags:
 - E-Commerce
 - Marketplace
 - Southeast Asia
-- Cross-Border
+- Cross-border
 - Order
 - Product
 - Logistics

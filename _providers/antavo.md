@@ -33,61 +33,97 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-26'
-api_count: 17
+  scored_at: '2026-08-30'
+api_count: 18
 apis:
-- description: Records customer interactions from e-commerce, POS, websites, and mobile apps as loyalty events (for example point_add, checkout_accept), driving the rules and workflows of the loyalty program. Suppor
-  name: Antavo Events API
-  slug: antavo-events-api
-- description: Queues events for reliable background processing during high-traffic periods, returning a correlation id that can be polled for status. Uses token-based authentication via the /v1/auth/token endpoint.
+- description: This endpoint collects and aggregates all activities, provided by all modules
+  name: Antavo Activities API
+  slug: antavo-activities-api
+- description: The Async Events API from Antavo — 2 operation(s) for async events.
   name: Antavo Async Events API
   slug: antavo-async-events-api
-- description: Search, retrieve, and manage loyalty member profiles - including login, opt-in registration, password reset, verification, account merging, and active-customer counts - while maintaining member privac
-  name: Antavo Customer API
-  slug: antavo-customer-api
-- description: The primary headless API for building the member-facing loyalty experience - listing earn and spend activities, challenges, rewards, offers, coupons, transactions, wallet passes, quizzes, contests, pr
-  name: Antavo Display API
-  slug: antavo-display-api
-- description: 'Generic CRUD surface for the foundational building blocks of a program - rewards, challenges, stores, products, transactions, and customer lists - addressed as entities under a module namespace, with '
-  name: Antavo Entities API
-  slug: antavo-entities-api
-- description: Manage the reward catalog and redemptions - create, list, retrieve, update, and archive rewards via the entities surface, and claim rewards. Legacy /rewards claim endpoints are superseded by the Displ
-  name: Antavo Rewards API
-  slug: antavo-rewards-api
-- description: Query coupon usage independent of a customer and create or manage coupon pools - configuring value, expiration, and code patterns - with bulk import of codes and status/error reporting on the batch op
-  name: Antavo Coupons and Coupon Pools API
-  slug: antavo-coupons-api
-- description: Submit a cart and retrieve applicable pre-purchase offers used for customer acquisition and engagement, and list a member's available offers through the Display surface.
-  name: Antavo Offers API
-  slug: antavo-offers-api
-- description: Preview the loyalty points a transaction would earn, including bonus points assigned by the Workflows module, before the transaction is committed.
-  name: Antavo Points Preview API
-  slug: antavo-points-preview-api
-- description: Retrieve ranked lists of top customers with their scores for display in mobile apps, websites, and CRMs.
-  name: Antavo Leaderboard API
-  slug: antavo-leaderboard-api
-- description: Batch processing for reward claims across many customers and for adding or removing customers from lists, each returning a batch id with status and error reporting endpoints.
-  name: Antavo Bulk Operations API
-  slug: antavo-bulk-operations-api
-- description: Create and administer member clubs and communities - templates, membership, invitations, applicants, bans, ownership, point adjustments and donations, history, and disbanding.
+- description: The Authentication API API from Antavo — 1 operation(s) for authentication api.
+  name: Antavo Authentication API
+  slug: antavo-authentication-api-api
+- description: Cart endpoints collection
+  name: Antavo Cart API
+  slug: antavo-cart-api
+- description: Endpoints provided by the _Challenges_ module
+  name: Antavo Challenges API
+  slug: antavo-challenges-api
+- description: The Clubs API from Antavo — 21 operation(s) for clubs.
   name: Antavo Clubs API
   slug: antavo-clubs-api
-- description: List and manage promotions and apply them at checkout - submit a cart to retrieve applicable promotions and finalize the checkout with the resulting discounts.
-  name: Antavo Promotion Engine API
-  slug: antavo-promotion-engine-api
-- description: Generate short-lived access tokens for credential clients configured in the Authentication Manager, used for token-based authentication such as the Async Events API.
-  name: Antavo Authentication API
-  slug: antavo-authentication-api
-- description: Read-only access to the questions and answers configured and managed in the Antavo FAQ module. A valid request returns an array of FAQ entries and, by design, includes no personally identifiable custo
+- description: The Content consumption API from Antavo — 1 operation(s) for content consumption.
+  name: Antavo Content consumption API
+  slug: antavo-content-consumption-api
+- description: Endpoints provided by the _Contests Lite_ module
+  name: Antavo Contests API
+  slug: antavo-contests-api
+- description: The Coupon pools API from Antavo — 2 operation(s) for coupon pools.
+  name: Antavo Coupon pools API
+  slug: antavo-coupon-pools-api
+- description: Bulk Coupons API endpoints
+  name: Antavo Coupons API
+  slug: antavo-coupons-api
+- description: Bulk Customer List API endpoints
+  name: Antavo Customer lists API
+  slug: antavo-customer-lists-api
+- description: The Customers API from Antavo — 11 operation(s) for customers.
+  name: Antavo Customers API
+  slug: antavo-customers-api
+- description: Endpoints for probing data extensions
+  name: Antavo Data extensions API
+  slug: antavo-data-extensions-api
+- description: The Events API from Antavo — 3 operation(s) for events.
+  name: Antavo Events API
+  slug: antavo-events-api
+- description: The FAQ API from Antavo — 1 operation(s) for faq.
   name: Antavo FAQ API
   slug: antavo-faq-api
-- description: A dedicated read-optimised API served from its own per-environment host (read-api.<environment>.antavo.com) for pulling loyalty data at volume. Returns paginated, filterable and sortable lists of cust
-  name: Antavo Loyalty Read API
-  slug: antavo-loyalty-read-api
-- description: Registers a customer's intent to share content for an active campaign configured in the Social Share Campaigns module. Called when a member clicks a share button on a content page with the customer ID
+- description: A general method for creating, accessing and modifying an Antavo entity.
+  name: Antavo Generic API
+  slug: antavo-generic-api
+- description: Endpoints providing information regarding the customers interactions with the loyalty cloud
+  name: Antavo History API
+  slug: antavo-history-api
+- description: The Leaderboard API from Antavo — 1 operation(s) for leaderboard.
+  name: Antavo Leaderboard API
+  slug: antavo-leaderboard-api
+- description: Endpoints provided by the _Offers_ module
+  name: Antavo Offers API
+  slug: antavo-offers-api
+- description: The Points Preview API API from Antavo — 1 operation(s) for points preview api.
+  name: Antavo Points Preview API
+  slug: antavo-points-preview-api-api
+- description: The Prize wheels API from Antavo — 2 operation(s) for prize wheels.
+  name: Antavo Prize wheels API
+  slug: antavo-prize-wheels-api
+- description: Endpoints provided by the _Gamified Profiling_ module
+  name: Antavo Profiling API
+  slug: antavo-profiling-api
+- description: Promotion endpoints collection
+  name: Antavo Promotion API
+  slug: antavo-promotion-api
+- description: Endpoints provided by the _Quizzes_ module
+  name: Antavo Quizzes API
+  slug: antavo-quizzes-api
+- description: Bulk Reward Claim API endpoints
+  name: Antavo Rewards API
+  slug: antavo-rewards-api
+- description: The Social Share Campaigns API from Antavo — 1 operation(s) for social share campaigns.
   name: Antavo Social Share Campaigns API
   slug: antavo-social-share-campaigns-api
-artifact_total: 43
+- description: Endpoints providing customer information regarding specified transaction ids.
+  name: Antavo Transactions API
+  slug: antavo-transactions-api
+- description: The Treasure hunt API from Antavo — 1 operation(s) for treasure hunt.
+  name: Antavo Treasure hunt API
+  slug: antavo-treasure-hunt-api
+- description: Endpoints provided by the _Wallet_ module
+  name: Antavo Wallet API
+  slug: antavo-wallet-api
+artifact_total: 55
 asyncapis:
 - description: ''
   name: Antavo Webhooks
@@ -145,6 +181,82 @@ collections:
   name: Antavo Socal Share Campaigns API
   slug: open-antavo-social-share-campaigns
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/antavo-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antavo-events-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antavo-async-events-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antavo-customer-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antavo-display-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antavo-entities-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antavo-rewards-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antavo-coupons-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antavo-coupon-pools-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antavo-offers-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antavo-points-preview-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antavo-leaderboard-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antavo-bulk-operations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antavo-clubs-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antavo-promotion-engine-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antavo-authentication-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antavo-faq-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antavo-loyalty-read-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/antavo-social-share-campaigns-overlay.yaml
 - group: auth
   title: ''
   type: Authentication
@@ -317,13 +429,13 @@ modified: '2026-08-13'
 name: Antavo
 nav: Providers
 network: true
-overview: 'Antavo publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Events API, Async Events API, Customer API, and 14 more. Tagged areas include Loyalty, Customer Loyalty, Rewards, Enterprise, and Headless.
+overview: 'Antavo publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Async Events API, Authentication API, and 26 more. Tagged areas include Loyalty, Customer Loyalty, Rewards, Enterprise, and Headless.
 
 
   The Antavo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Antavo''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, pricing, and 33 more developer resources.'
+  Antavo''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, pricing, and 52 more developer resources.'
 plans:
 - name: Antavo Plans Pricing
   plan_count: 2
@@ -340,18 +452,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 62.0
+  composite: 62.1
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 52.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 30.3
-    contract_quality: 60.9
-    developer_ergonomics: 58.9
+    contract_governance: 18.2
+    contract_quality: 60.4
+    developer_ergonomics: 67.3
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 77.6
-  previous_composite: 62.0
+  previous_composite: 62.1
   provenance:
     conformance: first-party
     contracts:
@@ -361,8 +478,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/screenshots/antavo-2026-07-25T200404.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -248,18 +248,23 @@ overview: 'Enveda publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 4
 score:
   band: emerging
-  composite: 25.6
-  delta: 0.7
+  composite: 24.2
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 19.5
     developer_ergonomics: 20.8
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 24.9
+  previous_composite: 24.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,8 +281,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enveda-biosciences/refs/heads/main/screenshots/enveda-biosciences-2026-08-07T164935.png
 security:

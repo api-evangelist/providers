@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 233
   slug: smokeball-agentic-access
   summary_line: 233 operations · 119 acting
-api_count: 34
+api_count: 1
 apis:
 - description: The Activity Codes API from Smokeball — 2 operation(s) for activity codes.
   name: Smokeball Activity Codes API
@@ -254,6 +254,14 @@ collections:
   name: Smokeball Activity Codes Webhooks API
   slug: open-smokeball-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/smokeball-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/smokeballdev/api-docs/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -440,7 +448,7 @@ overview: 'Smokeball publishes 34 APIs on the [APIs.io](https://apis.io/) networ
   The Smokeball catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Smokeball''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  Smokeball''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Smokeball Plans Pricing
   plan_count: 4
@@ -462,19 +470,27 @@ rules:
     warn: 4
   slug: smokeball-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 43.6
-  delta: 1.8
+  band: thin
+  composite: 38.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 38.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 25.0
     contract_quality: 70.0
     developer_ergonomics: 11.9
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 25.0
     operational_transparency: 42.1
-  previous_composite: 41.8
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     contracts:
@@ -482,8 +498,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 34
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smokeball/refs/heads/main/screenshots/smokeball-2026-06-20T194100.png
 security:

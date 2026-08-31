@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 287
   human_in_the_loop: 4
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 438
   slug: solvimon-agentic-access
   summary_line: 438 operations · 287 acting · 4 human-in-the-loop
-api_count: 64
+api_count: 4
 apis:
 - description: The alertRules API from Solvimon — 2 operation(s) for alertrules.
   name: Solvimon alertRules API
@@ -435,6 +435,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/solvimon-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/solvimon-configuration-api-overlay.yaml
 - group: company
@@ -584,22 +588,27 @@ network: true
 overview: 'Solvimon publishes 64 APIs on the [APIs.io](https://apis.io/) network, including alertRules API, alerts API, apiKeys API, and 61 more. Tagged areas include Company, Fintech, Billing, Payments, and Monetization.
 
 
-  Solvimon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 27 more developer resources.'
+  Solvimon''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 28 more developer resources.'
 random_paper: 5
 score:
-  band: strong
-  composite: 54.3
+  band: developing
+  composite: 51.7
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 53.3
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 54.3
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -616,8 +625,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solvimon/refs/heads/main/screenshots/solvimon-2026-08-17T082000.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 3
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 130
   slug: ondo-finance-agentic-access
   summary_line: 130 operations · 59 acting · 3 human-in-the-loop
-api_count: 26
+api_count: 3
 apis:
 - description: The Account API from Ondo Finance — 3 operation(s) for account.
   name: Ondo Finance Account API
@@ -205,6 +205,10 @@ collections:
   name: GM Backend Account Wallet API
   slug: open-ondo-finance-wallet-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ondo-finance-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -348,26 +352,31 @@ network: true
 overview: 'Ondo Finance publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Account API, API Keys API, Assets API, and 23 more. Tagged areas include Company, Crypto, Tokenization, Real World Assets, and DeFi.
 
 
-  Ondo Finance''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 25 more developer resources.'
+  Ondo Finance''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 26 more developer resources.'
 random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Ondo Finance Rate Limits
   slug: ondo-finance-rate-limits
 score:
-  band: strong
-  composite: 55.2
-  delta: 1.0
+  band: developing
+  composite: 53.7
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 55.8
     developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 54.2
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -384,8 +393,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ondo-finance/refs/heads/main/screenshots/ondo-finance-2026-08-07T190231.png
 security:

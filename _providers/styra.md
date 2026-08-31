@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 6
   slug: styra-agentic-access
   summary_line: 6 operations · 4 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The Batch API from Styra — 1 operation(s) for batch.
   name: Styra Batch API
@@ -190,18 +190,23 @@ overview: 'Styra publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 17
 score:
   band: thin
-  composite: 31.4
-  delta: 0.0
+  composite: 30.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 45.0
     developer_ergonomics: 54.2
-    discoverability: 64.8
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 31.4
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -218,8 +223,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,17 +42,17 @@ agentic_access:
   operation_count: 32
   slug: northern-powergrid-agentic-access
   summary_line: 32 operations
-api_count: 3
+api_count: 2
 apis:
-- description: The current Opendatasoft Explore REST API (v2.1) over Northern Powergrid's open data portal. Read only, GET only, JSON only, driven by the Opendatasoft Query Language (ODSQL). Sixteen documented paths
-  name: Northern Powergrid Open Data Explore API
-  slug: northern-powergrid-open-data-explore-api
-- description: The previous major version of the Opendatasoft Explore REST API, still served and still publishing its own OpenAPI 3.0.3 description at /api/explore/v2.0/swagger.json. Byte-identical to the document s
-  name: Northern Powergrid Open Data Explore API v2.0
-  slug: northern-powergrid-open-data-explore-api-v2-0
 - description: The original Opendatasoft Search API, still live on the portal and still carrying its own interactive console. Confirmed anonymously on 2026-07-27 — GET /api/datasets/1.0/search/?rows=1 returned nhits
   name: Northern Powergrid Open Data Search API v1
   slug: northern-powergrid-open-data-search-api-v1
+- description: API to enumerate datasets
+  name: Northern Powergrid Catalog API
+  slug: northern-powergrid-catalog-api
+- description: API to work on records
+  name: Northern Powergrid Dataset API
+  slug: northern-powergrid-dataset-api
 artifact_total: 12
 collections:
 - collection_type: open
@@ -62,6 +62,14 @@ collections:
   name: Explore API
   slug: open-northern-powergrid-open-data-explore-api-v2-1
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/northern-powergrid-open-data-explore-api-v2-1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/northern-powergrid-open-data-explore-api-v2-0-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -255,10 +263,10 @@ modified: '2026-07-27'
 name: Northern Powergrid
 nav: Providers
 network: true
-overview: 'Northern Powergrid publishes 2 APIs on the [APIs.io](https://apis.io/) network: Open Data Explore API and Open Data Explore API v2.0. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Grid.
+overview: 'Northern Powergrid publishes 2 APIs on the [APIs.io](https://apis.io/) network: Catalog API and Dataset API. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Grid.
 
 
-  Northern Powergrid''s developer surface includes authentication, changelog, code examples, sandbox, API reference, getting-started guide, support, and 38 more developer resources.'
+  Northern Powergrid''s developer surface includes authentication, changelog, code examples, sandbox, API reference, getting-started guide, support, and 40 more developer resources.'
 random_paper: 14
 rate_limits:
 - limit_count: 1
@@ -271,18 +279,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 60.7
-  delta: 0.0
+  composite: 57.6
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 56.5
     developer_ergonomics: 70.8
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 63.2
-  previous_composite: 60.7
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -294,8 +307,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/northern-powergrid/refs/heads/main/screenshots/northern-powergrid-2026-08-07T185523.png
 security:

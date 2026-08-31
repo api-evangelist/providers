@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ modified: '2026-08-05'
 name: 73 Strings
 nav: Providers
 network: true
-overview: '73 Strings publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Asset Info API, Captable API, Documents API, and 3 more. Tagged areas include Private Markets, Valuation, Portfolio Monitoring, Private Equity, and Private Credit.
+overview: '73 Strings publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Asset Info API, Captable API, Documents API, and 3 more. Tagged areas include private-markets, valuation, portfolio-monitoring, private-equity, and private-credit.
 
 
   73 Strings'' developer surface includes authentication, documentation, API reference, signup flow, support, engineering blog, and 26 more developer resources.'
@@ -231,18 +231,23 @@ rate_limits:
   slug: 73-strings-rate-limits
 score:
   band: developing
-  composite: 52.6
+  composite: 51.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 58.5
     developer_ergonomics: 47.0
     discoverability: 74.1
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 52.6
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,8 +258,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/screenshots/73-strings-2026-08-07T160710.png
 security:
@@ -268,17 +273,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: 73-strings
 tags:
-- Private Markets
-- Valuation
-- Portfolio Monitoring
-- Private Equity
-- Private Credit
-- Venture Capital
-- Alternative Assets
+- private-markets
+- valuation
+- portfolio-monitoring
+- private-equity
+- private-credit
+- venture-capital
+- alternative-assets
 - Financial Data
-- Data Extraction
+- data-extraction
 - Fintech
-- Asset Management
-- Azure API Management
+- asset-management
+- azure-api-management
 website: https://www.73strings.com/
 ---

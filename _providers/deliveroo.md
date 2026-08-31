@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -479,18 +479,23 @@ rules:
   slug: deliveroo-spectral-rules
 score:
   band: developing
-  composite: 40.8
-  delta: 0.5
+  composite: 40.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 28.8
-    contract_quality: 28.2
+    contract_quality: 28.6
     developer_ergonomics: 32.1
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 38.2
-  previous_composite: 40.3
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -498,8 +503,8 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliveroo/refs/heads/main/screenshots/deliveroo-2026-06-20T175902.png
 security:

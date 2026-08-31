@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 26
   slug: spacemesh-agentic-access
   summary_line: 26 operations · 16 acting
-api_count: 8
+api_count: 2
 apis:
 - description: The AccountService API from Spacemesh — 2 operation(s) for accountservice.
   name: Spacemesh AccountService API
@@ -96,6 +96,26 @@ collections:
   name: Spacemesh AccountService TransactionService API
   slug: open-spacemesh-transactionservice-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/spacemeshos/go-spacemesh/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/spacemeshos/go-spacemesh/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/spacemeshos/go-spacemesh/blob/develop/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/spacemeshos/go-spacemesh/blob/develop/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/spacemeshos/go-spacemesh/blob/develop/CONTRIBUTING.md
 - group: other
   title: ''
   type: Overlay
@@ -199,22 +219,30 @@ network: true
 overview: 'Spacemesh publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AccountService API, ActivationService API, LayerService API, and 5 more. Tagged areas include Company, Crypto Infrastructure, Blockchain, Cryptocurrency, and Proof of Space-Time.
 
 
-  Spacemesh''s developer surface includes documentation, API reference, CLI, changelog, and 18 more developer resources.'
+  Spacemesh''s developer surface includes documentation, API reference, CLI, changelog, and 23 more developer resources.'
 random_paper: 8
 score:
   band: thin
-  composite: 29.8
-  delta: 0.0
+  composite: 36.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 42.9
     developer_ergonomics: 32.7
-    discoverability: 81.5
-    governance: 16.7
-    operational_transparency: 18.4
-  previous_composite: 29.8
+    discoverability: 75.9
+    governance: 4.5
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,8 +253,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

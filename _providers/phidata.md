@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: Open-source Python framework for building agents with memory, knowledge, and tools. Provides Agent, Team, Workflow, Tools, Memory, Knowledge, and Storage primitives. Multi-modal and type-safe; support
@@ -47,6 +47,22 @@ apis:
   slug: agentos-control-plane
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/agno-agi/agno/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/agno-agi/agno/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/agno-agi/agno/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/agno-agi/agno/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -122,7 +138,7 @@ network: true
 overview: 'Phidata / Agno publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Agno, Phidata, Python, and Framework.
 
 
-  Phidata / Agno''s developer surface includes developer portal, documentation, GitHub presence, code examples, engineering blog, and 10 more developer resources.'
+  Phidata / Agno''s developer surface includes developer portal, documentation, GitHub presence, code examples, engineering blog, and 14 more developer resources.'
 plans:
 - name: Phidata Plans Pricing
   plan_count: 1
@@ -133,8 +149,13 @@ rate_limits:
   name: Phidata Rate Limits
   slug: phidata-rate-limits
 score:
-  band: emerging
-  composite: 25.8
+  band: thin
+  composite: 31.6
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 35.5
@@ -144,10 +165,13 @@ score:
     developer_ergonomics: 31.0
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 25.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 31.6
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phidata/refs/heads/main/screenshots/phidata-2026-06-20T191648.png
 security:

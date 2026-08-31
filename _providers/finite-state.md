@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: Token-authenticated REST API for the Finite State platform, served under /api/public/v0 on the platform host. Interactive Swagger documentation is published per organization at https://[org].finitesta
@@ -196,8 +196,13 @@ overview: 'Finite State publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 11
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 36.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.4
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -207,13 +212,16 @@ score:
     discoverability: 81.5
     governance: 18.2
     operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 50.0
   previous_composite: 35.3
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finite-state/refs/heads/main/screenshots/finite-state-2026-08-07T165305.png
 security:

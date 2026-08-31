@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 22
   slug: decentro-agentic-access
   summary_line: 22 operations · 16 acting
-api_count: 11
+api_count: 2
 apis:
 - description: Identity verification, customer onboarding, DigiLocker integration, Aadhaar OTP, document classification, and face match.
   name: Decentro KYC & Onboarding API
@@ -122,6 +122,10 @@ collections:
   name: Decentro KYC & Onboarding Accounts Virtual Accounts API
   slug: open-decentro-virtual-accounts-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/decentro-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -198,13 +202,13 @@ modified: '2026-05-19'
 name: Decentro
 nav: Providers
 network: true
-overview: 'Decentro publishes 11 APIs on the [APIs.io](https://apis.io/) network, including KYC & Onboarding API, Virtual Accounts API, Accounts API, and 8 more. Tagged areas include Banking, Banking as a Service, Fintech, India, and KYC.
+overview: 'Decentro publishes 11 APIs on the [APIs.io](https://apis.io/) network, including KYC & Onboarding API, Virtual Accounts API, Accounts API, and 8 more. Tagged areas include Banking, Banking-as-a-Service, Fintech, India, and KYC.
 
 
   The Decentro catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Decentro''s developer surface includes authentication, developer portal, engineering blog, pricing, and 9 more developer resources.'
+  Decentro''s developer surface includes authentication, developer portal, engineering blog, pricing, and 10 more developer resources.'
 plans:
 - name: Decentro Plans Pricing
   plan_count: 2
@@ -238,18 +242,23 @@ rules:
   slug: decentro-payments-api-rules
 score:
   band: thin
-  composite: 35.4
-  delta: 0.9
+  composite: 34.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 57.8
     developer_ergonomics: 35.7
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 34.5
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -263,8 +272,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/screenshots/decentro-2026-06-20T175753.png
 security:
@@ -279,7 +288,7 @@ security:
 slug: decentro
 tags:
 - Banking
-- Banking as a Service
+- Banking-as-a-Service
 - Fintech
 - India
 - KYC

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: google-cloud-datastore-agentic-access
   summary_line: 9 operations · 8 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Stable REST API for Google Cloud Datastore / Firestore in Datastore mode. Provides entity lookup, commit, rollback, allocateIds, reserveIds, runQuery, and runAggregationQuery operations against a Goog
   name: Cloud Datastore API v1
@@ -136,15 +136,20 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 30.7
-  delta: 0.0
+  composite: 30.2
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 47.6
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 30.7
@@ -155,8 +160,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastore/refs/heads/main/screenshots/google-cloud-datastore-2026-06-20T182103.png
 security:

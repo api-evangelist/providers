@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -41,47 +41,20 @@ agentic_access:
   operation_count: 52
   slug: dedaluslabs-agentic-access
   summary_line: 52 operations · 28 acting
-api_count: 16
+api_count: 2
 apis:
-- description: The Audio API from Dedalus Labs — 3 operation(s) for audio.
-  name: Dedalus Labs Audio API
-  slug: dedaluslabs-audio-api
-- description: The Chat API from Dedalus Labs — 1 operation(s) for chat.
-  name: Dedalus Labs Chat API
-  slug: dedaluslabs-chat-api
 - description: The Dedalus API API from Dedalus Labs — 1 operation(s) for dedalus api.
   name: Dedalus Labs Dedalus API API
   slug: dedaluslabs-dedalus-api-api
 - description: The Health API from Dedalus Labs — 1 operation(s) for health.
   name: Dedalus Labs Health API
   slug: dedaluslabs-health-api
-- description: The Images API from Dedalus Labs — 3 operation(s) for images.
-  name: Dedalus Labs Images API
-  slug: dedaluslabs-images-api
-- description: The Machine Artifacts API from Dedalus Labs — 2 operation(s) for machine artifacts.
-  name: Dedalus Labs Machine Artifacts API
-  slug: dedaluslabs-machine-artifacts-api
-- description: The Machine Executions API from Dedalus Labs — 4 operation(s) for machine executions.
-  name: Dedalus Labs Machine Executions API
-  slug: dedaluslabs-machine-executions-api
 - description: The Machine Lifecycle API from Dedalus Labs — 18 operation(s) for machine lifecycle.
   name: Dedalus Labs Machine Lifecycle API
   slug: dedaluslabs-machine-lifecycle-api
-- description: The Machine Previews API from Dedalus Labs — 2 operation(s) for machine previews.
-  name: Dedalus Labs Machine Previews API
-  slug: dedaluslabs-machine-previews-api
-- description: The Machine SSH API from Dedalus Labs — 2 operation(s) for machine ssh.
-  name: Dedalus Labs Machine SSH API
-  slug: dedaluslabs-machine-ssh-api
-- description: The Machine Terminals API from Dedalus Labs — 3 operation(s) for machine terminals.
-  name: Dedalus Labs Machine Terminals API
-  slug: dedaluslabs-machine-terminals-api
 - description: The Marketplace API from Dedalus Labs — 6 operation(s) for marketplace.
   name: Dedalus Labs Marketplace API
   slug: dedaluslabs-marketplace-api
-- description: The OCR API from Dedalus Labs — 1 operation(s) for ocr.
-  name: Dedalus Labs OCR API
-  slug: dedaluslabs-ocr-api
 - description: The private API from Dedalus Labs — 1 operation(s) for private.
   name: Dedalus Labs private API
   slug: dedaluslabs-private-api
@@ -95,7 +68,7 @@ arazzos:
 - description: Provision a persistent Linux VM, execute a command, read the output, then sleep it to pause billing.
   name: Create a Dedalus Machine, run a command, and sleep it
   slug: dedaluslabs-machine-run-and-sleep
-artifact_total: 39
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Dedaluslabs Events
@@ -310,7 +283,7 @@ modified: '2026-07-18'
 name: Dedalus Labs
 nav: Providers
 network: true
-overview: 'Dedalus Labs publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Dedalus API API, and 13 more. Tagged areas include Company, Artificial Intelligence, Agents, MCP, and LLM.
+overview: 'Dedalus Labs publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Dedalus API API, Health API, Machine Lifecycle API, and 4 more. Tagged areas include Company, Artificial Intelligence, Agents, MCP, and LLM.
 
 
   The Dedalus Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -319,19 +292,24 @@ overview: 'Dedalus Labs publishes 16 APIs on the [APIs.io](https://apis.io/) net
   Dedalus Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 random_paper: 1
 score:
-  band: strong
-  composite: 56.2
-  delta: 0.0
+  band: developing
+  composite: 52.7
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
-    contract_quality: 61.2
+    contract_governance: 4.5
+    contract_quality: 59.5
     developer_ergonomics: 70.8
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 56.2
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -342,8 +320,8 @@ score:
       total: 16
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dedaluslabs/refs/heads/main/screenshots/dedaluslabs-2026-07-25T211533.png
 security:

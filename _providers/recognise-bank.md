@@ -33,27 +33,121 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 4
 apis:
-- description: Shared UK Open Banking Open Data standard for public, unauthenticated reference data (ATMs, branches, personal and business current accounts, unsecured SME loans, commercial credit cards). Included as
-  name: UK Open Banking Open Data API (OBIE Standard)
-  slug: uk-open-banking-open-data-api
-- description: Shared OBIE Read/Write Account & Transaction Information (AIS) standard, FAPI-secured with OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authentication. Included as the OBIE v4.0 standard specific
-  name: UK Open Banking Account & Transaction Information API (OBIE Standard)
-  slug: uk-open-banking-account-information-api
-- description: Shared OBIE Read/Write Payment Initiation (PIS) standard, FAPI-secured with OAuth2/OIDC, mutual-TLS, and PSD2 SCA. Included as the OBIE v4.0 standard specification, not a confirmed Recognise Bank cont
-  name: UK Open Banking Payment Initiation API (OBIE Standard)
-  slug: uk-open-banking-payment-initiation-api
-- description: Shared OBIE Read/Write Confirmation of Funds (CBPII) standard, FAPI-secured with OAuth2/OIDC, mutual-TLS, and PSD2 SCA. Included as the OBIE v4.0 standard specification, not a confirmed Recognise Bank
-  name: UK Open Banking Confirmation of Funds API (OBIE Standard)
-  slug: uk-open-banking-confirmation-of-funds-api
-artifact_total: 9
+- description: The Account Access Consents API from Recognise Bank — 2 operation(s) for account access consents.
+  name: Recognise Bank Account Access Consents API
+  slug: recognise-bank-account-access-consents-api
+- description: The Accounts API from Recognise Bank — 2 operation(s) for accounts.
+  name: Recognise Bank Accounts API
+  slug: recognise-bank-accounts-api
+- description: Endpoint for getting ATM data
+  name: Recognise Bank ATM API
+  slug: recognise-bank-atm-api
+- description: The Balances API from Recognise Bank — 2 operation(s) for balances.
+  name: Recognise Bank Balances API
+  slug: recognise-bank-balances-api
+- description: Endpoint for getting Business Current Account data
+  name: Recognise Bank BCA API
+  slug: recognise-bank-bca-api
+- description: The Beneficiaries API from Recognise Bank — 2 operation(s) for beneficiaries.
+  name: Recognise Bank Beneficiaries API
+  slug: recognise-bank-beneficiaries-api
+- description: Endpoint for getting Branch data
+  name: Recognise Bank Branch API
+  slug: recognise-bank-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: Recognise Bank CCC API
+  slug: recognise-bank-ccc-api
+- description: The Direct Debits API from Recognise Bank — 2 operation(s) for direct debits.
+  name: Recognise Bank Direct Debits API
+  slug: recognise-bank-direct-debits-api
+- description: The Domestic Payment Consents API from Recognise Bank — 3 operation(s) for domestic payment consents.
+  name: Recognise Bank Domestic Payment Consents API
+  slug: recognise-bank-domestic-payment-consents-api
+- description: The Domestic Payments API from Recognise Bank — 3 operation(s) for domestic payments.
+  name: Recognise Bank Domestic Payments API
+  slug: recognise-bank-domestic-payments-api
+- description: The Domestic Scheduled Payment Consents API from Recognise Bank — 2 operation(s) for domestic scheduled payment consents.
+  name: Recognise Bank Domestic Scheduled Payment Consents API
+  slug: recognise-bank-domestic-scheduled-payment-consents-api
+- description: The Domestic Scheduled Payments API from Recognise Bank — 3 operation(s) for domestic scheduled payments.
+  name: Recognise Bank Domestic Scheduled Payments API
+  slug: recognise-bank-domestic-scheduled-payments-api
+- description: The Domestic Standing Order Consents API from Recognise Bank — 2 operation(s) for domestic standing order consents.
+  name: Recognise Bank Domestic Standing Order Consents API
+  slug: recognise-bank-domestic-standing-order-consents-api
+- description: The Domestic Standing Orders API from Recognise Bank — 3 operation(s) for domestic standing orders.
+  name: Recognise Bank Domestic Standing Orders API
+  slug: recognise-bank-domestic-standing-orders-api
+- description: The File Payment Consents API from Recognise Bank — 3 operation(s) for file payment consents.
+  name: Recognise Bank File Payment Consents API
+  slug: recognise-bank-file-payment-consents-api
+- description: The File Payments API from Recognise Bank — 4 operation(s) for file payments.
+  name: Recognise Bank File Payments API
+  slug: recognise-bank-file-payments-api
+- description: The Funds Confirmation Consents API from Recognise Bank — 2 operation(s) for funds confirmation consents.
+  name: Recognise Bank Funds Confirmation Consents API
+  slug: recognise-bank-funds-confirmation-consents-api
+- description: The Funds Confirmations API from Recognise Bank — 1 operation(s) for funds confirmations.
+  name: Recognise Bank Funds Confirmations API
+  slug: recognise-bank-funds-confirmations-api
+- description: The International Payment Consents API from Recognise Bank — 3 operation(s) for international payment consents.
+  name: Recognise Bank International Payment Consents API
+  slug: recognise-bank-international-payment-consents-api
+- description: The International Payments API from Recognise Bank — 3 operation(s) for international payments.
+  name: Recognise Bank International Payments API
+  slug: recognise-bank-international-payments-api
+- description: The International Scheduled Payments API from Recognise Bank — 3 operation(s) for international scheduled payments.
+  name: Recognise Bank International Scheduled Payments API
+  slug: recognise-bank-international-scheduled-payments-api
+- description: The International Scheduled Payments Consents API from Recognise Bank — 3 operation(s) for international scheduled payments consents.
+  name: Recognise Bank International Scheduled Payments Consents API
+  slug: recognise-bank-international-scheduled-payments-consents-api
+- description: The International Standing Orders API from Recognise Bank — 3 operation(s) for international standing orders.
+  name: Recognise Bank International Standing Orders API
+  slug: recognise-bank-international-standing-orders-api
+- description: The International Standing Orders Consents API from Recognise Bank — 2 operation(s) for international standing orders consents.
+  name: Recognise Bank International Standing Orders Consents API
+  slug: recognise-bank-international-standing-orders-consents-api
+- description: The Offers API from Recognise Bank — 2 operation(s) for offers.
+  name: Recognise Bank Offers API
+  slug: recognise-bank-offers-api
+- description: The Parties API from Recognise Bank — 3 operation(s) for parties.
+  name: Recognise Bank Parties API
+  slug: recognise-bank-parties-api
+- description: Endpoint for getting Personal Current Account data
+  name: Recognise Bank PCA API
+  slug: recognise-bank-pca-api
+- description: The Products API from Recognise Bank — 2 operation(s) for products.
+  name: Recognise Bank Products API
+  slug: recognise-bank-products-api
+- description: The Scheduled Payments API from Recognise Bank — 2 operation(s) for scheduled payments.
+  name: Recognise Bank Scheduled Payments API
+  slug: recognise-bank-scheduled-payments-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: Recognise Bank SME API
+  slug: recognise-bank-sme-api
+- description: The Standing Orders API from Recognise Bank — 2 operation(s) for standing orders.
+  name: Recognise Bank Standing Orders API
+  slug: recognise-bank-standing-orders-api
+- description: The Statements API from Recognise Bank — 5 operation(s) for statements.
+  name: Recognise Bank Statements API
+  slug: recognise-bank-statements-api
+- description: The Transactions API from Recognise Bank — 2 operation(s) for transactions.
+  name: Recognise Bank Transactions API
+  slug: recognise-bank-transactions-api
+artifact_total: 39
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-obie-opendata-swagger
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/recognise-bank-capability-edges.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -127,10 +221,10 @@ modified: '2026-07-23'
 name: Recognise Bank
 nav: Providers
 network: true
-overview: 'Recognise Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including UK Open Banking Open Data API (OBIE Standard), UK Open Banking Account & Transaction Information API (OBIE Standard), UK Open Banking Payment Initiation API (OBIE Standard), and 1 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Recognise Bank publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 31 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  Recognise Bank''s developer surface includes authentication, engineering blog, and 14 more developer resources.'
+  Recognise Bank''s developer surface includes authentication, engineering blog, and 15 more developer resources.'
 random_paper: 9
 scopes:
 - name: Recognise Bank Scopes
@@ -139,18 +233,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 39.8
-  delta: 1.6
+  composite: 40.3
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 49.0
+    contract_quality: 50.9
     developer_ergonomics: 31.0
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 38.2
+  previous_composite: 40.3
   provenance:
     conformance: derived
     contracts:
@@ -160,12 +259,16 @@ score:
       total: 4
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

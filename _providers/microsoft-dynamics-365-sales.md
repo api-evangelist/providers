@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 31
   slug: microsoft-dynamics-365-sales-agentic-access
   summary_line: 31 operations · 18 acting
-api_count: 12
+api_count: 1
 apis:
 - description: OData v4.0 RESTful Web API for Microsoft Dataverse used to create, read, update, and delete Dynamics 365 Sales records (leads, opportunities, accounts, contacts, quotes, orders, invoices, products) an
   name: Microsoft Dataverse Web API (Dynamics 365 Sales)
@@ -318,7 +318,7 @@ modified: '2026-08-13'
 name: Microsoft Dynamics 365 Sales
 nav: Providers
 network: true
-overview: 'Microsoft Dynamics 365 Sales publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, $batch API, Contacts API, and 7 more. Tagged areas include CRM, Sales, Dynamics 365, Microsoft, and Dataverse.
+overview: 'Microsoft Dynamics 365 Sales publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, $batch API, Contacts API, and 7 more. Tagged areas include CRM, Sales, Customer Relationship Management, Dynamics 365, and Microsoft.
 
 
   The Microsoft Dynamics 365 Sales catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -341,18 +341,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 69.9
-  delta: 0.0
+  composite: 67.5
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 61.2
     developer_ergonomics: 80.4
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 81.6
-  previous_composite: 69.9
+  previous_composite: 68.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -363,8 +368,8 @@ score:
       total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/screenshots/microsoft-dynamics-365-sales-2026-06-20T185455.png
 security:
@@ -388,6 +393,7 @@ slug: microsoft-dynamics-365-sales
 tags:
 - CRM
 - Sales
+- Customer Relationship Management
 - Dynamics 365
 - Microsoft
 - Dataverse

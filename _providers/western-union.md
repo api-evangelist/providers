@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: western-union-agentic-access
   summary_line: 12 operations · 4 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Western Union's PSD2-compliant Open Banking API enables Payment Service Providers to access account information (AIS) and initiate payments (PIS) in compliance with European Payment Services Directive
   name: Western Union Open Banking API
@@ -98,6 +98,10 @@ collections:
   name: Western Union Mass Payments Balances Quotes API
   slug: open-western-union-quotes-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/western-union-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -180,16 +184,16 @@ jsonld:
   slug: western-union-context
 layout: provider
 modified: '2026-05-19'
-name: western-union
+name: The Western Union Company
 nav: Providers
 network: true
-overview: 'western-union publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Balances API, Batches API, Customers API, and 4 more. Tagged areas include Fortune 500.
+overview: 'The Western Union Company publishes 7 APIs on the [APIs.io](https://apis.io/) network, including western-union Balances API, western-union Batches API, western-union Customers API, and 4 more. Tagged areas include Fortune 500.
 
 
-  The western-union catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The The Western Union Company catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  western-union''s developer surface includes authentication, developer portal, getting-started guide, and 9 more developer resources.'
+  The Western Union Company''s developer surface includes authentication, developer portal, getting-started guide, and 10 more developer resources.'
 plans:
 - name: Western Union Plans Pricing
   plan_count: 1
@@ -218,7 +222,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: western-union API Rules
+  name: The Western Union Company API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -229,7 +233,7 @@ rules:
 - effective_rule_count: 49
   extends:
   - spectral:oas
-  name: western-union API Rules
+  name: The Western Union Company API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -239,18 +243,23 @@ rules:
   slug: western-union-rules
 score:
   band: thin
-  composite: 38.6
-  delta: 1.9
+  composite: 38.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 66.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 13.6
     contract_quality: 63.3
     developer_ergonomics: 36.9
-    discoverability: 59.3
+    discoverability: 53.7
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 36.7
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -258,8 +267,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/screenshots/western-union-2026-06-20T201410.png
 security:

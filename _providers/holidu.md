@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 58
   slug: holidu-agentic-access
   summary_line: 58 operations · 29 acting
-api_count: 23
+api_count: 5
 apis:
 - description: The Apartment API from Holidu — 5 operation(s) for apartment.
   name: Holidu Apartment API
@@ -188,6 +188,10 @@ collections:
   name: Affiliate Apartment Testa API
   slug: open-holidu-testa-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/holidu-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -342,7 +346,7 @@ overview: 'Holidu publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
   The Holidu catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Holidu''s developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 27 more developer resources.'
+  Holidu''s developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 28 more developer resources.'
 random_paper: 15
 scopes:
 - name: Holidu Scopes
@@ -350,19 +354,24 @@ scopes:
   slug: holidu-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 41.1
+  band: thin
+  composite: 38.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 60.2
     developer_ergonomics: 42.3
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 48.7
-  previous_composite: 41.1
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -373,8 +382,8 @@ score:
       total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holidu/refs/heads/main/screenshots/holidu-2026-07-25T221319.png
 security:

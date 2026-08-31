@@ -23,18 +23,58 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: The WordPress core REST API (wp/v2 namespace) served by elixirmedical.com, the Elixir Medical corporate website. It exposes the site's pages, news posts, media library, categories, tags, comments, aut
-  name: Elixir Medical Website Content API (WordPress REST)
-  slug: elixir-medical-wordpress-content
-artifact_total: 6
+- description: The categories API from Elixir Medical — 2 operation(s) for categories.
+  name: Elixir Medical Categories API
+  slug: elixir-medical-categories-api
+- description: The comments API from Elixir Medical — 2 operation(s) for comments.
+  name: Elixir Medical Comments API
+  slug: elixir-medical-comments-api
+- description: The media API from Elixir Medical — 4 operation(s) for media.
+  name: Elixir Medical Media API
+  slug: elixir-medical-media-api
+- description: The pages API from Elixir Medical — 6 operation(s) for pages.
+  name: Elixir Medical Pages API
+  slug: elixir-medical-pages-api
+- description: The posts API from Elixir Medical — 6 operation(s) for posts.
+  name: Elixir Medical Posts API
+  slug: elixir-medical-posts-api
+- description: The search API from Elixir Medical — 1 operation(s) for search.
+  name: Elixir Medical Search API
+  slug: elixir-medical-search-api
+- description: The statuses API from Elixir Medical — 2 operation(s) for statuses.
+  name: Elixir Medical Statuses API
+  slug: elixir-medical-statuses-api
+- description: The tags API from Elixir Medical — 2 operation(s) for tags.
+  name: Elixir Medical Tags API
+  slug: elixir-medical-tags-api
+- description: The taxonomies API from Elixir Medical — 2 operation(s) for taxonomies.
+  name: Elixir Medical Taxonomies API
+  slug: elixir-medical-taxonomies-api
+- description: The types API from Elixir Medical — 2 operation(s) for types.
+  name: Elixir Medical Types API
+  slug: elixir-medical-types-api
+- description: The users API from Elixir Medical — 6 operation(s) for users.
+  name: Elixir Medical Users API
+  slug: elixir-medical-users-api
+- description: The wpfm_designations API from Elixir Medical — 2 operation(s) for wpfm_designations.
+  name: Elixir Medical Wpfm Designations API
+  slug: elixir-medical-wpfm-designations-api
+- description: The wpfm_locations API from Elixir Medical — 2 operation(s) for wpfm_locations.
+  name: Elixir Medical Wpfm Locations API
+  slug: elixir-medical-wpfm-locations-api
+artifact_total: 18
 collections:
 - collection_type: open
   name: Elixir Medical Website Content API (WordPress REST wp/v2)
   slug: open-elixir-medical-wordpress-content
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/elixir-medical-wordpress-content-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -115,10 +155,10 @@ modified: '2026-08-12'
 name: Elixir Medical
 nav: Providers
 network: true
-overview: 'Elixir Medical publishes 1 API on the [APIs.io](https://apis.io/) network: Website Content API (WordPress REST). Tagged areas include Company, Medical Devices, Health, Cardiovascular, and Coronary Intervention.
+overview: 'Elixir Medical publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Media API, and 10 more. Tagged areas include Company, Medical Devices, Health, Cardiovascular, and Coronary Intervention.
 
 
-  Elixir Medical''s developer surface includes support, engineering blog, authentication, and 15 more developer resources.'
+  Elixir Medical''s developer surface includes support, engineering blog, authentication, and 16 more developer resources.'
 plans:
 - name: Elixir Medical Plans Pricing
   plan_count: 0
@@ -130,18 +170,23 @@ rate_limits:
   slug: elixir-medical-rate-limits
 score:
   band: emerging
-  composite: 24.3
-  delta: 0.0
+  composite: 22.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 17.7
+    contract_governance: 4.5
+    contract_quality: 17.5
     developer_ergonomics: 20.8
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 24.3
+  previous_composite: 23.3
   provenance:
     conformance: derived
     contracts:
@@ -156,8 +201,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

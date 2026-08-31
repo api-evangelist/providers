@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: veeva-agentic-access
   summary_line: 15 operations · 8 acting
-api_count: 9
+api_count: 1
 apis:
 - description: 'The Veeva Vault Java SDK (VAPIL) is an open-source Java-based REST API client for the Vault REST API. Provides type-safe access to all Vault API operations including document management, object CRUD, '
   name: Veeva Vault Java SDK
@@ -509,18 +509,23 @@ rules:
   slug: veeva-spectral-rules
 score:
   band: exemplar
-  composite: 77.5
-  delta: 2.5
+  composite: 75.5
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 27.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 59.1
+    contract_governance: 47.0
     contract_quality: 81.2
     developer_ergonomics: 80.4
-    discoverability: 81.5
-    governance: 59.1
+    discoverability: 75.9
+    governance: 47.0
     operational_transparency: 76.3
-  previous_composite: 75.0
+  previous_composite: 76.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -537,8 +542,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/screenshots/veeva-2026-06-20T200859.png
 security:

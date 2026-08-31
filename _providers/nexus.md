@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 16
   slug: nexus-agentic-access
   summary_line: 16 operations · 3 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Comprehensive REST API for managing repositories, components, assets, search, security, blob stores, capabilities, tasks, tags, staging, and scripts in Sonatype Nexus Repository Manager 3. The full Op
   name: Nexus Repository Manager REST API
@@ -157,7 +157,7 @@ modified: '2026-04-28'
 name: Nexus Repository Manager
 nav: Providers
 network: true
-overview: 'Nexus Repository Manager publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Assets API, BlobStores API, Components API, and 5 more. Tagged areas include Artifact Management, DevOps, Docker, Maven, and npm.
+overview: 'Nexus Repository Manager publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Assets API, BlobStores API, Components API, and 5 more. Tagged areas include Artifact Management, DevOps, Docker, Maven, and Npm.
 
 
   Nexus Repository Manager''s developer surface includes authentication, documentation, support, getting-started guide, GitHub presence, engineering blog, and 4 more developer resources.'
@@ -172,15 +172,20 @@ rate_limits:
   slug: nexus-rate-limits
 score:
   band: thin
-  composite: 27.1
-  delta: 0.0
+  composite: 26.6
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 44.2
     developer_ergonomics: 19.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 27.1
@@ -191,8 +196,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexus/refs/heads/main/screenshots/nexus-2026-06-20T190305.png
 security:
@@ -210,7 +215,7 @@ tags:
 - DevOps
 - Docker
 - Maven
-- npm
+- Npm
 - Package Management
 - Repository Manager
 - Software Supply Chain

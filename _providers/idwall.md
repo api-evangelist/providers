@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: RESTful JSON API for identity verification, background checks, public-data consultation, document (CNH) validation, verification reports (relatorios) built from configurable matrices (matrizes), peopl
@@ -139,7 +139,12 @@ overview: 'IDwall publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 7
 score:
   band: thin
-  composite: 33.8
+  composite: 32.7
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 6.6
@@ -147,12 +152,12 @@ score:
     contract_governance: 0.0
     contract_quality: 42.7
     developer_ergonomics: 50.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 33.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 32.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idwall/refs/heads/main/screenshots/idwall-2026-07-25T222043.png
 security:

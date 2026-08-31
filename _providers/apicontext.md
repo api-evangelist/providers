@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 37
   slug: apicontext-agentic-access
   summary_line: 37 operations · 17 acting · 1 human-in-the-loop
-api_count: 13
+api_count: 1
 apis:
 - description: APIContext provides synthetic API testing and monitoring that continuously tests APIs from multiple global locations to measure performance, validate responses against expected schemas, and enforce SL
   name: APIContext Synthetic API Testing
@@ -205,15 +205,20 @@ rate_limits:
   slug: apicontext-rate-limits
 score:
   band: thin
-  composite: 29.1
-  delta: 0.0
+  composite: 28.6
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 52.7
     developer_ergonomics: 14.3
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 29.1
@@ -224,8 +229,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apicontext/refs/heads/main/screenshots/apicontext-2026-06-20T172235.png
 security:

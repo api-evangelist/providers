@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 48
   slug: wrike-agentic-access
   summary_line: 48 operations · 23 acting
-api_count: 17
+api_count: 1
 apis:
 - description: The Wrike DataHub Public API provides programmatic access to raw analytical data from Wrike, enabling custom reporting and integration with downstream analytics platforms.
   name: Wrike DataHub Public API
@@ -498,18 +498,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.5
-  delta: 2.8
+  composite: 47.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 71.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 9.8
     contract_quality: 64.3
     developer_ergonomics: 36.9
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 9.8
     operational_transparency: 31.6
-  previous_composite: 44.7
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -517,8 +522,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wrike/refs/heads/main/screenshots/wrike-2026-06-20T201636.png
 security:

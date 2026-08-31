@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 32
   slug: tribune-media-agentic-access
   summary_line: 32 operations
-api_count: 10
+api_count: 1
 apis:
 - description: The Celebrities API from Tribune Media — 3 operation(s) for celebrities.
   name: Tribune Media Celebrities API
@@ -113,6 +113,14 @@ collections:
   name: TMS OnConnect Celebrities Theatres API
   slug: open-tribune-media-theatres-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/nexstar-media-group/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tribune-media-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -203,7 +211,7 @@ overview: 'Tribune Media publishes 10 APIs on the [APIs.io](https://apis.io/) ne
   The Tribune Media catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tribune Media''s developer surface includes authentication, documentation, getting-started guide, signup flow, and 6 more developer resources.'
+  Tribune Media''s developer surface includes authentication, documentation, getting-started guide, signup flow, and 8 more developer resources.'
 plans:
 - name: Tribune Media Plans Pricing
   plan_count: 3
@@ -262,15 +270,20 @@ rules:
   slug: tribune-media-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 45.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 45.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 54.5
     contract_quality: 60.4
     developer_ergonomics: 42.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 54.5
     operational_transparency: 7.9
   previous_composite: 45.6
@@ -281,8 +294,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tribune-media/refs/heads/main/screenshots/tribune-media-2026-06-20T195707.png
 security:

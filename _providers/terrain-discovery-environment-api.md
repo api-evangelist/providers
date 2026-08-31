@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 27
   slug: terrain-discovery-environment-api-agentic-access
   summary_line: 27 operations · 13 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: Job submission, monitoring, and management
   name: Terrain Discovery Environment API Analyses API
@@ -107,6 +107,14 @@ collections:
   name: Terrain Discovery Environment API
   slug: open-terrain
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/cyverse-de/terrain/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/cyverse-de/terrain/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -178,7 +186,7 @@ overview: 'Terrain Discovery Environment API publishes 9 APIs on the [APIs.io](h
   The Terrain Discovery Environment API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Terrain Discovery Environment API''s developer surface includes authentication, developer portal, documentation, and 6 more developer resources.'
+  Terrain Discovery Environment API''s developer surface includes authentication, developer portal, documentation, and 8 more developer resources.'
 plans:
 - name: Terrain Discovery Environment Api Plans Pricing
   plan_count: 3
@@ -212,18 +220,26 @@ rules:
   slug: terrain-rules
 score:
   band: thin
-  composite: 33.6
-  delta: 0.0
+  composite: 34.1
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 60.1
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 13.6
-    operational_transparency: 13.2
-  previous_composite: 33.6
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -237,8 +253,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/screenshots/terrain-discovery-environment-api-2026-06-20T195131.png
 security:

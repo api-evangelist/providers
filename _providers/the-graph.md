@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 2
   slug: the-graph-agentic-access
   summary_line: 2 operations · 2 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Per-subgraph GraphQL endpoints served by the decentralized network of Indexers. Each subgraph defines its own schema; queries are billed in GRT or via a hosted gateway in USD.
   name: The Graph Subgraphs (GraphQL)
@@ -134,7 +134,7 @@ modified: '2026-05-08'
 name: The Graph
 nav: Providers
 network: true
-overview: 'The Graph publishes 1 API on the [APIs.io](https://apis.io/) network: Subgraphs API. Tagged areas include Web3, Indexing, GraphQL, Subgraphs, and Multi-Chain.
+overview: 'The Graph publishes 1 API on the [APIs.io](https://apis.io/) network: Subgraphs API. Tagged areas include Web3, Indexing, GraphQL, Subgraphs, and Multi-chain.
 
 
   The Graph''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
@@ -149,18 +149,23 @@ rate_limits:
   slug: the-graph-rate-limits
 score:
   band: thin
-  composite: 28.6
-  delta: 1.9
+  composite: 28.8
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 26.7
+  previous_composite: 29.3
   provenance:
     agentic_access: derived
     contracts:
@@ -168,8 +173,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-graph/refs/heads/main/screenshots/the-graph-2026-06-20T195224.png
 security:
@@ -191,6 +196,6 @@ tags:
 - Indexing
 - GraphQL
 - Subgraphs
-- Multi-Chain
+- Multi-chain
 website: https://thegraph.com/
 ---

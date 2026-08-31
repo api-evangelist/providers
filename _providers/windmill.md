@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 361
   human_in_the_loop: 6
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 714
   slug: windmill-agentic-access
   summary_line: 714 operations · 361 acting · 6 human-in-the-loop
-api_count: 59
+api_count: 1
 apis:
 - description: The admin API from Windmill — 6 operation(s) for admin.
   name: Windmill admin API
@@ -615,6 +615,22 @@ collections:
   name: Windmill admin workspace_integration API
   slug: open-windmill-workspace-integration-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/windmill-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/windmill-labs/windmill/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/windmill-labs/windmill/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/windmill-labs/windmill/blob/main/CONTRIBUTING.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -862,13 +878,13 @@ modified: '2026-05-19'
 name: Windmill
 nav: Providers
 network: true
-overview: 'Windmill publishes 59 APIs on the [APIs.io](https://apis.io/) network, including admin API, agent_workers API, app API, and 56 more. Tagged areas include Automation, Internal Tools, Open-Source, Pro-Code-API-Composition, and Scripts.
+overview: 'Windmill publishes 59 APIs on the [APIs.io](https://apis.io/) network, including admin API, agent_workers API, app API, and 56 more. Tagged areas include Automation, Internal Tools, Open-Source, ProCode API Composition, and Scripts.
 
 
   The Windmill catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Windmill''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 34 more developer resources.'
+  Windmill''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 38 more developer resources.'
 plans:
 - name: Windmill Plans Pricing
   plan_count: 3
@@ -902,18 +918,26 @@ rules:
   slug: windmill-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.0
-  delta: 1.4
+  composite: 53.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 54.5
     contract_quality: 51.5
     developer_ergonomics: 61.9
-    discoverability: 50.0
+    discoverability: 63.0
     governance: 54.5
     operational_transparency: 34.2
-  previous_composite: 50.6
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     contracts:
@@ -921,8 +945,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 59
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/screenshots/windmill-2026-06-20T201510.png
 security:
@@ -939,7 +963,7 @@ tags:
 - Automation
 - Internal Tools
 - Open-Source
-- Pro-Code-API-Composition
+- ProCode API Composition
 - Scripts
 - Webhook
 - Workflow Engine

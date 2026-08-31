@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'The Ring Partner API (Amazon Vision API / AVA) lets certified Ring Appstore partners access Ring device data and media on behalf of consenting users: list and inspect devices, read status/capabilities'
@@ -183,7 +183,12 @@ overview: 'Ring publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 12
 score:
   band: developing
-  composite: 43.7
+  composite: 42.6
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 31.6
@@ -191,15 +196,15 @@ score:
     contract_governance: 18.2
     contract_quality: 42.7
     developer_ergonomics: 50.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 43.7
+  previous_composite: 42.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ring/refs/heads/main/screenshots/ring-2026-08-17T081710.png
 security:

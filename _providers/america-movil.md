@@ -6,7 +6,7 @@ agent_readiness:
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
     dry_run_mode: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.6
-  scored_at: '2026-08-26'
+  score: 35.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -31,20 +31,11 @@ agentic_access:
   operation_count: 4
   slug: america-movil-agentic-access
   summary_line: 4 operations · 3 acting
-api_count: 15
+api_count: 3
 apis:
-- description: CAMARA-aligned SIM Swap API from Claro Brasil, exposed through the Claro Insight API marketplace. Returns the date of the most recent SIM pairing change on a Brazilian mobile line, or checks whether a
-  name: Claro SIM Swap API
-  slug: claro-sim-swap-api
-- description: Location-Based Services device-location API from Claro Brasil, published as "Mobile - LBS Devices Locations" (Apigee proxy mobile-lbsdeviceslocations-v1). Returns the last known network-derived locati
-  name: Claro Device Location API
-  slug: claro-device-location-api
 - description: CAMARA-aligned Number Verification API from Claro Brasil — silent verification that a mobile number is the one actually attached to the device making the request, offered as an alternative to SMS one-
   name: Claro Number Verification API
   slug: claro-number-verification-api
-- description: Verifies whether a mobile device is located within a caller-supplied geographic area, using Claro Brasil network-derived location, returning true or false. Claro's product page names GSMA as co-author
-  name: Claro Device Location Verify API
-  slug: claro-device-location-verify-api
 - description: KYC Match-style API from Claro Brasil that validates user-supplied identity attributes — phone number, name, address, e-mail — against Claro's subscriber records for onboarding and fraud prevention. L
   name: Claro Know Your Customer API
   slug: claro-know-your-customer-api
@@ -78,11 +69,23 @@ apis:
 - description: América Móvil's GSMA Open Gateway surface in its home market of Mexico, marketed by Telcel to enterprises as "Autenticación Móvil" — Number Verification (silent authentication of the mobile number), S
   name: Telcel Mobile Authentication APIs
   slug: telcel-mobile-authentication-apis
+- description: The Check SIM swap API from América Móvil — 1 operation(s) for check sim swap.
+  name: América Móvil Check SIM swap API
+  slug: america-movil-check-sim-swap-api
+- description: The Device Locations API from América Móvil — 1 operation(s) for device locations.
+  name: América Móvil Device Locations API
+  slug: america-movil-device-locations-api
+- description: The Location verification API from América Móvil — 1 operation(s) for location verification.
+  name: América Móvil Location verification API
+  slug: america-movil-location-verification-api
+- description: The Retrieve SIM swap date API from América Móvil — 1 operation(s) for retrieve sim swap date.
+  name: América Móvil Retrieve SIM swap date API
+  slug: america-movil-retrieve-sim-swap-date-api
 arazzos:
 - description: 'Before trusting a phone number as an authentication factor, ask Claro Brasil two questions: has the SIM pairing changed recently, and where is the device on the network? Step one is the decision gate '
   name: Account-takeover check for a Brazilian mobile line
   slug: america-movil-account-takeover-check
-artifact_total: 26
+artifact_total: 27
 asyncapis:
 - description: ''
   name: America Movil Webhooks
@@ -95,6 +98,26 @@ collections:
   name: SIM Swap
   slug: open-america-movil-claro-sim-swap
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/america-movil-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/america-movil-claro-sim-swap-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/america-movil-sim-swap-fraud-check.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/america-movil-claro-device-location-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/america-movil-device-location-lookup.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -269,13 +292,13 @@ modified: '2026-07-25'
 name: América Móvil
 nav: Providers
 network: true
-overview: 'América Móvil publishes 3 APIs on the [APIs.io](https://apis.io/) network: Claro SIM Swap API, Claro Device Location API, and Claro Device Location Verify API. Tagged areas include Telecommunications, Mexico, Latin America, Mobile Network Operator, and Network APIs.
+overview: 'América Móvil publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Check SIM swap API, Device Locations API, Location verification API, and 1 more. Tagged areas include Telecommunications, Mexico, Latin America, Mobile Network Operator, and Network APIs.
 
 
   The América Móvil catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  América Móvil''s developer surface includes authentication, documentation, signup flow, FAQ, privacy policy, engineering blog, changelog, and 33 more developer resources.'
+  América Móvil''s developer surface includes authentication, documentation, signup flow, FAQ, privacy policy, engineering blog, changelog, and 38 more developer resources.'
 plans:
 - name: America Movil Plans
   plan_count: 2
@@ -292,18 +315,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 59.6
+  composite: 58.1
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 30.3
-    contract_quality: 61.5
+    contract_governance: 18.2
+    contract_quality: 61.3
     developer_ergonomics: 54.2
     discoverability: 72.2
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 55.3
-  previous_composite: 59.6
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -320,8 +348,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 72.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/america-movil/refs/heads/main/screenshots/america-movil-2026-08-07T161348.png
 security:

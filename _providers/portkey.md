@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 122
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 231
   slug: portkey-agentic-access
   summary_line: 231 operations · 122 acting · 1 human-in-the-loop
-api_count: 51
+api_count: 1
 apis:
 - description: Get data points for graphical representation.
   name: Portkey Analytics > Graphs API
@@ -359,6 +359,10 @@ collections:
   name: Portkey API
   slug: open-portkey
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/portkey-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -494,7 +498,7 @@ network: true
 overview: 'Portkey publishes 51 APIs on the [APIs.io](https://apis.io/) network, including Analytics > Graphs API, Analytics > Groups API, Analytics > Summary API, and 48 more. Tagged areas include AI Gateways, Gateways, Governance, Guardrails, and Observability.
 
 
-  Portkey''s developer surface includes authentication, documentation, changelog, engineering blog, pricing, getting-started guide, API reference, and 23 more developer resources.'
+  Portkey''s developer surface includes authentication, documentation, changelog, engineering blog, pricing, getting-started guide, API reference, and 24 more developer resources.'
 plans:
 - name: Portkey Plans Pricing
   plan_count: 4
@@ -506,15 +510,20 @@ rate_limits:
   slug: portkey-rate-limits
 score:
   band: developing
-  composite: 51.3
-  delta: 0.0
+  composite: 50.7
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 54.8
     developer_ergonomics: 61.9
-    discoverability: 59.3
+    discoverability: 53.7
     governance: 0.0
     operational_transparency: 55.3
   previous_composite: 51.3
@@ -525,8 +534,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 51
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portkey/refs/heads/main/screenshots/portkey-2026-06-20T191938.png
 security:

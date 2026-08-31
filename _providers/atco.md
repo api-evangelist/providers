@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,16 +41,19 @@ agentic_access:
   operation_count: 5
   slug: atco-agentic-access
   summary_line: 5 operations
-api_count: 1
+api_count: 2
 apis:
-- description: ATCO Electric's distributed energy resource (DER) hosting capacity data, published as a public Esri ArcGIS REST feature service and surfaced through the "DER HOSTING CAPACITY MAP" web application that
-  name: ATCO Electric Hosting Capacity Feature Service
-  slug: atco-electric-hosting-capacity-feature-service
+- description: Read-only queries against the hosting capacity feature layer
+  name: ATCO Query API
+  slug: atco-query-api
+- description: Feature service and feature layer metadata
+  name: ATCO Service API
+  slug: atco-service-api
 arazzos:
 - description: Go from ATCO Electric's whole Alberta distribution grid to a small, mapped shortlist of the feeder segments with the most DER hosting capacity, without ever pulling all 880,623 features.
   name: ATCO Electric DER siting shortlist
   slug: atco-der-siting-shortlist
-artifact_total: 9
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -62,6 +65,10 @@ collections:
   name: ATCO Electric Hosting Capacity Feature Service
   slug: open-atco-electric-hosting-capacity
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/atco-electric-hosting-capacity-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -179,25 +186,30 @@ modified: '2026-07-27'
 name: ATCO
 nav: Providers
 network: true
-overview: 'ATCO publishes 1 API on the [APIs.io](https://apis.io/) network: Electric Hosting Capacity Feature Service. Tagged areas include Energy, Canada, Utilities, Electricity, and Gas.
+overview: 'ATCO publishes 2 APIs on the [APIs.io](https://apis.io/) network: Query API and Service API. Tagged areas include Energy, Canada, Utilities, Electricity, and Gas.
 
 
-  ATCO''s developer surface includes authentication, support, product news, and 23 more developer resources.'
+  ATCO''s developer surface includes authentication, support, product news, and 24 more developer resources.'
 random_paper: 3
 score:
   band: thin
-  composite: 39.2
-  delta: 4.0
+  composite: 38.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
-    contract_quality: 56.1
+    contract_governance: 4.5
+    contract_quality: 56.0
     developer_ergonomics: 35.1
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 35.2
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -214,8 +226,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atco/refs/heads/main/screenshots/atco-2026-08-07T161823.png
 security:

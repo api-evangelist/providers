@@ -11,21 +11,22 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.0
-  scored_at: '2026-08-26'
+  score: 44.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -42,35 +43,8 @@ agentic_access:
   operation_count: 46
   slug: toast-agentic-access
   summary_line: 46 operations · 26 acting · 1 human-in-the-loop
-api_count: 23
+api_count: 20
 apis:
-- description: The Toast Configuration API returns information about the configuration of a restaurant and its menus, such as menu items and alternate payment types, plus physical configuration including cash drawer
-  name: Toast Configuration API
-  slug: toast-configuration
-- description: The Toast Analytics API provides an enterprise reporting and analytics service with operations that retrieve data for all or a subset of restaurants in a management group, create requests for reportin
-  name: Toast Analytics API
-  slug: toast-analytics
-- description: The Toast Cash Management API provides information about cash operations that add cash to or remove cash from a restaurant cash drawer, separately from cash transaction payments.
-  name: Toast Cash Management API
-  slug: toast-cash-management
-- description: The Toast Kitchen API returns information about kitchen operations for a restaurant, supporting kitchen display and fulfillment workflow integrations.
-  name: Toast Kitchen API
-  slug: toast-kitchen
-- description: The Toast Credit Cards API is a simple, single-request, synchronous API to authorize credit card transactions associated with a Toast Orders API order.
-  name: Toast Credit Cards API
-  slug: toast-credit-cards
-- description: The Toast Menus V3 API is the next-generation menu retrieval API, returning structured menu, item, modifier, and pricing data for a restaurant in an updated catalog-oriented model alongside the existi
-  name: Toast Menus V3 API
-  slug: toast-menus-v3
-- description: The Toast Gift Cards integration specification is an outbound API. The partner hosts an HTTPS endpoint that accepts POST requests from the Toast platform to process gift card transactions (balance inq
-  name: Toast Gift Cards Integration API
-  slug: toast-gift-cards-integration
-- description: 'The Toast Loyalty integration specification is an outbound API. The partner hosts an HTTPS endpoint that accepts POST requests from the Toast platform to handle loyalty program transactions (accrual, '
-  name: Toast Loyalty Integration API
-  slug: toast-loyalty-integration
-- description: The Toast Tender integration specification is an outbound API. The partner hosts an HTTPS endpoint that accepts POST requests from the Toast platform to receive tender transaction data for alternate o
-  name: Toast Tender Integration API
-  slug: toast-tender-integration
 - description: The Authentication API from Toast — 1 operation(s) for authentication.
   name: Toast Authentication API
   slug: toast-authentication-api
@@ -113,7 +87,131 @@ apis:
 - description: The Time entries API from Toast — 2 operation(s) for time entries.
   name: Toast Time entries API
   slug: toast-time-entries-api
-artifact_total: 388
+- description: The analytics API endpoints for aggregated sales reporting data covering sales and labor information.
+  name: Toast Aggregated sales API
+  slug: toast-aggregated-sales-api
+- description: The Alternate Payment Types API from Toast — 2 operation(s) for alternate payment types.
+  name: Toast Alternate Payment Types API
+  slug: toast-alternate-payment-types-api
+- description: The availability API from Toast — 1 operation(s) for availability.
+  name: Toast Availability API
+  slug: toast-availability-api
+- description: The Break Types API from Toast — 2 operation(s) for break types.
+  name: Toast Break Types API
+  slug: toast-break-types-api
+- description: The Cash Drawers API from Toast — 2 operation(s) for cash drawers.
+  name: Toast Cash Drawers API
+  slug: toast-cash-drawers-api
+- description: The analytics API endpoints for check reporting data.
+  name: Toast Check API
+  slug: toast-check-api
+- description: The Deposits API from Toast — 1 operation(s) for deposits.
+  name: Toast Deposits API
+  slug: toast-deposits-api
+- description: The Device details API from Toast — 1 operation(s) for device details.
+  name: Toast Device details API
+  slug: toast-device-details-api
+- description: The Dining Options API from Toast — 2 operation(s) for dining options.
+  name: Toast Dining Options API
+  slug: toast-dining-options-api
+- description: The Entries API from Toast — 1 operation(s) for entries.
+  name: Toast Entries API
+  slug: toast-entries-api
+- description: The Export API from Toast — 1 operation(s) for export.
+  name: Toast Export API
+  slug: toast-export-api
+- description: The analytics API endpoint for guest reporting data organized by payment.
+  name: Toast Guest API
+  slug: toast-guest-api
+- description: The analytics API endpoints for labor reporting data. This only supports hourly job and employee data.
+  name: Toast Labor API
+  slug: toast-labor-api
+- description: The analytics API endpoints for menu reporting data.
+  name: Toast Menu API
+  slug: toast-menu-api
+- description: The Menu Groups API from Toast — 2 operation(s) for menu groups.
+  name: Toast Menu Groups API
+  slug: toast-menu-groups-api
+- description: The Menu Items API from Toast — 2 operation(s) for menu items.
+  name: Toast Menu Items API
+  slug: toast-menu-items-api
+- description: The Merchants API from Toast — 1 operation(s) for merchants.
+  name: Toast Merchants API
+  slug: toast-merchants-api
+- description: The Modifier Groups API from Toast — 2 operation(s) for modifier groups.
+  name: Toast Modifier Groups API
+  slug: toast-modifier-groups-api
+- description: The No Sale Reasons API from Toast — 2 operation(s) for no sale reasons.
+  name: Toast No Sale Reasons API
+  slug: toast-no-sale-reasons-api
+- description: Operations related to online ordering schedules
+  name: Toast Ordering Schedule API
+  slug: toast-ordering-schedule-api
+- description: The analytics API endpoint for payout reporting data organized by payments.
+  name: Toast Payout by payments API
+  slug: toast-payout-by-payments-api
+- description: The analytics API endpoint for payout reporting data organized by sales date.
+  name: Toast Payout by sales date API
+  slug: toast-payout-by-sales-date-api
+- description: The analytics API endpoint for payout reporting data organized by settled date.
+  name: Toast Payout by settled date API
+  slug: toast-payout-by-settled-date-api
+- description: The Payout Reasons API from Toast — 2 operation(s) for payout reasons.
+  name: Toast Payout Reasons API
+  slug: toast-payout-reasons-api
+- description: The Pre Modifier Groups API from Toast — 2 operation(s) for pre modifier groups.
+  name: Toast Pre Modifier Groups API
+  slug: toast-pre-modifier-groups-api
+- description: The Pre Modifiers API from Toast — 2 operation(s) for pre modifiers.
+  name: Toast Pre Modifiers API
+  slug: toast-pre-modifiers-api
+- description: The Price Groups API from Toast — 2 operation(s) for price groups.
+  name: Toast Price Groups API
+  slug: toast-price-groups-api
+- description: The Printers API from Toast — 2 operation(s) for printers.
+  name: Toast Printers API
+  slug: toast-printers-api
+- description: The Published API from Toast — 3 operation(s) for published.
+  name: Toast Published API
+  slug: toast-published-api
+- description: The Restaurant Services API from Toast — 2 operation(s) for restaurant services.
+  name: Toast Restaurant Services API
+  slug: toast-restaurant-services-api
+- description: The analytics API endpoint for providing information about restaurants in a management group.
+  name: Toast Restaurants information API
+  slug: toast-restaurants-information-api
+- description: The Revenue Centers API from Toast — 2 operation(s) for revenue centers.
+  name: Toast Revenue Centers API
+  slug: toast-revenue-centers-api
+- description: The Sales Categories API from Toast — 2 operation(s) for sales categories.
+  name: Toast Sales Categories API
+  slug: toast-sales-categories-api
+- description: The Service Areas API from Toast — 2 operation(s) for service areas.
+  name: Toast Service Areas API
+  slug: toast-service-areas-api
+- description: The Service Charges API from Toast — 2 operation(s) for service charges.
+  name: Toast Service Charges API
+  slug: toast-service-charges-api
+- description: The Tables API from Toast — 2 operation(s) for tables.
+  name: Toast Tables API
+  slug: toast-tables-api
+- description: The Tax Rates API from Toast — 2 operation(s) for tax rates.
+  name: Toast Tax Rates API
+  slug: toast-tax-rates-api
+- description: The Tip Withholding API from Toast — 1 operation(s) for tip withholding.
+  name: Toast Tip Withholding API
+  slug: toast-tip-withholding-api
+- description: The Void Reasons API from Toast — 2 operation(s) for void reasons.
+  name: Toast Void Reasons API
+  slug: toast-void-reasons-api
+- description: The Yourendpointname API from Toast — 1 operation(s) for yourendpointname.
+  name: Toast Yourendpointname API
+  slug: toast-yourendpointname-api
+artifact_total: 420
+asyncapis:
+- description: ''
+  name: Toast Webhooks
+  slug: toast-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -161,6 +259,62 @@ collections:
   name: Toast Authentication Time entries API
   slug: open-toast-time-entries-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/toast-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/toast-configuration-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/toast-analytics-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/toast-cash-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/toast-kitchen-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/toast-credit-cards-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/toast-menus-v3-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/toast-gift-cards-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/toast-loyalty-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/toast-tender-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/toast-device-details-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/toast-packaging-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/toast-ordermgmt-configuration-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/toast-restaurant-availability-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -213,6 +367,206 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/toast-vocabulary.yaml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/toast-packages.yml
+- group: agent
+  title: ''
+  type: WellKnownProbe
+  url: well-known/toast-well-known.yml
+- group: agent
+  title: ''
+  type: MCPCandidate
+  url: mcp/toast-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/toast-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/toast-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/toast-problem-types.yml
+- group: build
+  title: ''
+  type: DeclineCodes
+  url: errors/toast-decline-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/toast-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.toasttab.com/
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://doc.toasttab.com/doc/devguide/apiDeprecatedApiFunctions.html
+- group: auth
+  title: ''
+  type: Security
+  url: security/toast-vulnerability-disclosure.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/toast-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/toast-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://api-updates.toasttab.com/
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/toast-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/toast-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/toast-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/toast-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/toast-finops.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://doc.toasttab.com/openapi/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://doc.toasttab.com/doc/devguide/portalHowToBuildAToastIntegration.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://doc.toasttab.com/doc/devguide/apiSupport.html
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://central.toasttab.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://pos.toasttab.com/api-terms-of-use
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://doc.toasttab.com/openapi/
+- group: build
+  title: ''
+  type: Examples
+  url: examples/authentication-authentication-request-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/authentication-authentication-response-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/authentication-authentication-token-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/labor-employee-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/labor-external-reference-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/labor-job-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/labor-job-wage-override-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/labor-schedule-config-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/labor-shift-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/labor-time-entry-break-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/labor-time-entry-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/labor-toast-reference-example.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/authentication-authentication-request-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/authentication-authentication-response-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/authentication-authentication-token-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/labor-employee-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/labor-external-reference-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/labor-job-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/labor-job-wage-override-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/labor-schedule-config-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/labor-shift-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/labor-time-entry-break-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/labor-time-entry-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/labor-toast-reference-schema.json
 created: '2025-02-08'
 description: Toast is a restaurant technology platform providing cloud-based point-of-sale, payment processing, and business management tools for the restaurant industry. The Toast platform exposes REST APIs enabling technology partners to build integrations for orders, menus, labor management, restaurant configuration, inventory/stock management, authentication, and partner ecosystem access. APIs use OAuth 2.0 client credentials authentication with GUIDs for resource identification. Toast serves 120,000+ restaurant locations and offers both partner integrations (requiring formal partnership) and custom integrations via the developer portal.
 examples:
@@ -511,7 +865,7 @@ finops:
   service_category: Restaurant POS & Payments
   slug: toast-finops
 graphqls:
-- description: This conceptual GraphQL schema represents the Toast restaurant technology platform API surface. Toast provides cloud-based point-of-sale, payment processing, and business management tools for the rest
+- description: '> **PROVENANCE WARNING — added 2026-08-27 by the API Evangelist enrichment pipeline.**'
   name: Toast GraphQL Schema
   slug: toast-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/toast.png
@@ -1224,24 +1578,24 @@ jsonld:
   property_count: 9
   slug: toast-stock-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-27'
 name: Toast
 nav: Providers
 network: true
-overview: 'Toast publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, ConnectedRestaurants API, Discounts API, and 11 more. Tagged areas include Food Service, Point-of-Sale, Restaurant, and Hospitality.
+overview: 'Toast publishes 54 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, ConnectedRestaurants API, Discounts API, and 51 more. Tagged areas include Food Service, Point-of-Sale, Restaurant, and Hospitality.
 
 
-  The Toast catalog on APIs.io includes 7 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Toast catalog on APIs.io includes 1 event-driven AsyncAPI specification, 7 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Toast''s developer surface includes authentication, documentation, developer portal, signup flow, and 9 more developer resources.'
+  Toast''s developer surface includes authentication, documentation, developer portal, signup flow, sandbox, changelog, API reference, and 70 more developer resources.'
 plans:
 - name: Toast Plans Pricing
-  plan_count: 1
+  plan_count: 4
   slug: toast-plans-pricing
 random_paper: 9
 rate_limits:
-- limit_count: 1
+- limit_count: 5
   name: Toast Rate Limits
   slug: toast-rate-limits
 rules:
@@ -1268,23 +1622,28 @@ rules:
   slug: toast-spectral-rules
 scopes:
 - name: Toast Scopes
-  scope_count: 22
+  scope_count: 28
   slug: toast-scopes
-  summary_line: 22 scopes · clientCredentials
+  summary_line: 28 scopes
 score:
-  band: thin
-  composite: 37.7
-  delta: 0.0
+  band: strong
+  composite: 60.9
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -6.1
   facets:
-    access_clarity: 26.3
-    commercial_clarity: 26.3
-    contract_governance: 28.8
-    contract_quality: 64.7
-    developer_ergonomics: 31.0
-    discoverability: 55.6
-    governance: 28.8
-    operational_transparency: 7.9
-  previous_composite: 37.7
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 47.0
+    contract_quality: 75.6
+    developer_ergonomics: 69.0
+    discoverability: 57.4
+    governance: 47.0
+    operational_transparency: 68.4
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1292,15 +1651,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/screenshots/toast-2026-06-20T195427.png
 security:
 - kind: authentication
   name: Toast Authentication
   slug: toast-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: oauth2 · 2 schemes
 - kind: domain-security
   name: Toast Domain Security
   slug: toast-domain-security

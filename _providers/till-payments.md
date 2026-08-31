@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -31,20 +31,35 @@ agentic_access:
   operation_count: 35
   slug: till-payments-agentic-access
   summary_line: 35 operations · 32 acting
-api_count: 4
+api_count: 2
 apis:
-- description: The Till Payments Gateway V3 API for processing card-present and card-not-present transactions — debit, preauthorize, capture, void, refund, payout, registration/tokenization, recurring schedules, tra
-  name: Till Payments Gateway API
-  slug: till-payments-gateway
-- description: The Till Payments Direct PCI-enabled Payment Platform V3 API for merchants that are PCI DSS certified to collect and transmit raw cardholder data. Requests are sent over HTTPS (TLS 1.2+) with JSON bod
-  name: Till Payments Direct PCI-enabled API
-  slug: till-payments-direct-pci
 - description: The Till Payments Pay By Link API for generating shareable hosted payment links, documented on the Till developer documentation site. No downloadable OpenAPI specification was published for this produ
   name: Till Payments Pay By Link API
   slug: till-payments-pay-by-link
 - description: Terminal Connect is Till Payments' in-person integration surface for connecting point-of-sale software to Till payment terminals, documented via getting-started and integration guides on the Till deve
   name: Till Payments Terminal Connect API
   slug: till-payments-terminal-connect
+- description: The continue-dcc API from Till Payments — 1 operation(s) for continue-dcc.
+  name: Till Payments Continue Dcc API
+  slug: till-payments-continue-dcc-api
+- description: The Dispute API from Till Payments — 4 operation(s) for dispute.
+  name: Till Payments Dispute API
+  slug: till-payments-dispute-api
+- description: Retrieve a list of options
+  name: Till Payments Options API
+  slug: till-payments-options-api
+- description: Prepare Transactions
+  name: Till Payments Prepare Transaction API
+  slug: till-payments-prepare-transaction-api
+- description: Set and manage transaction schedules
+  name: Till Payments Schedule API
+  slug: till-payments-schedule-api
+- description: Retrieve the status of transactions
+  name: Till Payments Status API
+  slug: till-payments-status-api
+- description: Process transactions
+  name: Till Payments Transaction API
+  slug: till-payments-transaction-api
 arazzos:
 - description: Preauthorize a card payment, then capture the reserved funds, on the Till Payments Gateway V3 API.
   name: Till Payments — authorize and capture
@@ -52,7 +67,7 @@ arazzos:
 - description: Register (tokenize) a payment instrument, then charge it with a debit using the returned transactionToken.
   name: Till Payments — tokenize and charge
   slug: till-payments-tokenize-and-charge
-artifact_total: 13
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Till Payments Callbacks Webhooks
@@ -65,6 +80,22 @@ collections:
   name: Till Payments Gateway
   slug: open-till-payments-gateway
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/nuvei/
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/till-payments-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/till-payments-gateway-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/till-payments-direct-pci-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -177,28 +208,33 @@ modified: '2026-07-24'
 name: Till Payments
 nav: Providers
 network: true
-overview: 'Till Payments publishes 2 APIs on the [APIs.io](https://apis.io/) network: Gateway API and Direct PCI-enabled API. Tagged areas include Payments, Australia, Payment Gateway, Payment Processing, and Acquiring.
+overview: 'Till Payments publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Continue Dcc API, Dispute API, Options API, and 4 more. Tagged areas include Payments, Australia, Payment Gateway, Payment Processing, and Acquiring.
 
 
   The Till Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Till Payments'' developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 19 more developer resources.'
+  Till Payments'' developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 23 more developer resources.'
 random_paper: 19
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 35.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
-    contract_quality: 59.1
+    contract_governance: 4.5
+    contract_quality: 59.5
     developer_ergonomics: 39.9
-    discoverability: 72.2
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 37.8
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -219,8 +255,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/screenshots/till-payments-2026-08-17T082354.png
 security:

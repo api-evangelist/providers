@@ -28,15 +28,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-26'
+  score: 33.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 21
   slug: validic-agentic-access
   summary_line: 21 operations · 9 acting
-api_count: 7
+api_count: 3
 apis:
 - description: Cellular-enabled health device activation and suspension.
   name: Validic Devices API
@@ -67,7 +67,19 @@ apis:
 - description: Self-serve registration, email verification, login and organization provisioning for the free Validic developer tier. Returns the organization_id and organization_token that every Inform API call requ
   name: Validic Developer Signup API
   slug: validic-developer-signup-api
-artifact_total: 24
+- description: The Measurements API from Validic — 1 operation(s) for measurements.
+  name: Validic Measurements API
+  slug: validic-measurements-api
+- description: The Organizations API from Validic — 15 operation(s) for organizations.
+  name: Validic Organizations API
+  slug: validic-organizations-api
+- description: The Streams API from Validic — 1 operation(s) for streams.
+  name: Validic Streams API
+  slug: validic-streams-api
+- description: The Streams?token={token} API from Validic — 1 operation(s) for streams?token={token}.
+  name: Validic Streams?token={token} API
+  slug: validic-streams-token-token-api
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Validic Events Webhooks
@@ -250,7 +262,7 @@ modified: '2026-08-15'
 name: Validic
 nav: Providers
 network: true
-overview: 'Validic publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Marketplace & Connections API, Observations & Data API, and 3 more. Tagged areas include Health Data, Digital Health, Wearables, Remote Patient Monitoring, and Health IoT.
+overview: 'Validic publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Marketplace & Connections API, Observations & Data API, and 7 more. Tagged areas include Health Data, Digital Health, Wearables, Remote Patient Monitoring, and Health IoT.
 
 
   The Validic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -268,18 +280,23 @@ rate_limits:
   slug: validic-rate-limits
 score:
   band: strong
-  composite: 64.2
+  composite: 61.7
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_governance: 12.1
+    contract_governance: 0.0
     contract_quality: 38.0
     developer_ergonomics: 64.3
-    discoverability: 92.6
-    governance: 12.1
+    discoverability: 81.5
+    governance: 0.0
     operational_transparency: 73.7
-  previous_composite: 64.2
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -296,8 +313,8 @@ score:
     regime: Health
     regime_id: health
     score: 53.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/screenshots/validic-2026-08-17T082707.png
 security:

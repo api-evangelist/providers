@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: vendr-agentic-access
   summary_line: 6 operations · 4 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The Vendr Model Context Protocol (MCP) server exposes Vendr pricing intelligence to AI agents via the MCP standard. It provides tools for searching the product catalog, retrieving custom price estimat
   name: Vendr MCP Server
@@ -80,6 +80,14 @@ collections:
   name: Vendr OpenPrice API
   slug: open-vendr
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/vendrinc/vendr-mcp/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/vendrinc/vendr-mcp/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -187,7 +195,7 @@ overview: 'Vendr publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   The Vendr catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Vendr''s developer surface includes authentication, documentation, support, engineering blog, and 10 more developer resources.'
+  Vendr''s developer surface includes authentication, documentation, support, engineering blog, and 12 more developer resources.'
 plans:
 - name: Vendr Plans Pricing
   plan_count: 3
@@ -221,18 +229,26 @@ rules:
   slug: vendr-rules
 score:
   band: developing
-  composite: 40.3
-  delta: 1.8
+  composite: 40.1
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 28.8
     contract_quality: 70.4
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
-    operational_transparency: 10.5
-  previous_composite: 38.5
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -240,8 +256,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/screenshots/vendr-2026-06-20T200912.png
 security:

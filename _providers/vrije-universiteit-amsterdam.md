@@ -1,28 +1,27 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free · Institutional affiliation required for all but the harvesting endpoint
+  onboarding: unknown
   pricing: free
   public: false
   source:
-  - plans
-  - authentication
+  - probe
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -30,212 +29,88 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.5
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 206
-  human_in_the_loop: 1
-  name: Vrije Universiteit Amsterdam Agentic Access
-  operation_count: 738
-  slug: vrije-universiteit-amsterdam-agentic-access
-  summary_line: 738 operations · 206 acting · 1 human-in-the-loop
-api_count: 28
+  score: 5.0
+  scored_at: '2026-08-30'
+api_count: 7
 apis:
-- description: 'OAI-PMH 2.0 metadata harvesting endpoint for the Vrije Universiteit Amsterdam Repository, served by the institution''s Elsevier Pure research information system at research.vu.nl. Confirmed live: an Id'
+- description: OAI-PMH 2.0 metadata harvesting interface for the Vrije Universiteit Amsterdam Repository, served from the institution's own domain and administered by the VU University Library (adminEmail pure.ub@vu
   name: VU Research Portal OAI-PMH
   slug: research-portal-oai
-- description: Vrije Universiteit Amsterdam publishes and shares research datasets through DataverseNL, the national Dataverse repository service. The Dataverse software exposes a documented Native and Search REST A
-  name: VU Amsterdam research data on DataverseNL
+- description: Vrije Universiteit Amsterdam operates its own SAML 2.0 identity provider on Microsoft ADFS and publishes signed, machine-readable federation metadata for it. entityID http://stsfed.login.vu.nl/adfs/se
+  name: VU Amsterdam SAML 2.0 identity provider (SURFconext / eduGAIN)
+  slug: identity-federation
+- description: 'VU Amsterdam''s tenancy of the Elsevier Pure research information system, reachable at research.vu.nl/ws/api and API-key gated (GET /524/persons returns HTTP 401). The contract is Elsevier''s, not VU''s:'
+  name: Elsevier Pure REST web service — VU Amsterdam deployment
+  slug: pure-web-service-deployment
+- description: 'VU Amsterdam''s research data management and publication platform, running at portal.yoda.vu.nl. Yoda is open-source iRODS-based software built by Utrecht University and, per its own DataCite registry '
+  name: VU Yoda research data repository
+  slug: yoda
+- description: Vrije Universiteit Amsterdam publishes research datasets into DataverseNL, the shared national Dataverse service, under the collection dataverse.nl/dataverse/vuamsterdam. The REST API at dataverse.nl/
+  name: VU Amsterdam collection on DataverseNL
   slug: dataverse-nl
-- description: The activity API from Vrije Universiteit Amsterdam — 38 operation(s) for activity.
-  name: Vrije Universiteit Amsterdam activity API
-  slug: vrije-universiteit-amsterdam-activity-api
-- description: The application API from Vrije Universiteit Amsterdam — 36 operation(s) for application.
-  name: Vrije Universiteit Amsterdam application API
-  slug: vrije-universiteit-amsterdam-application-api
-- description: The authorCollaboration API from Vrije Universiteit Amsterdam — 9 operation(s) for authorcollaboration.
-  name: Vrije Universiteit Amsterdam authorCollaboration API
-  slug: vrije-universiteit-amsterdam-authorcollaboration-api
-- description: The award API from Vrije Universiteit Amsterdam — 35 operation(s) for award.
-  name: Vrije Universiteit Amsterdam award API
-  slug: vrije-universiteit-amsterdam-award-api
-- description: The classificationScheme API from Vrije Universiteit Amsterdam — 7 operation(s) for classificationscheme.
-  name: Vrije Universiteit Amsterdam classificationScheme API
-  slug: vrije-universiteit-amsterdam-classificationscheme-api
-- description: The concept API from Vrije Universiteit Amsterdam — 4 operation(s) for concept.
-  name: Vrije Universiteit Amsterdam concept API
-  slug: vrije-universiteit-amsterdam-concept-api
-- description: The course API from Vrije Universiteit Amsterdam — 27 operation(s) for course.
-  name: Vrije Universiteit Amsterdam course API
-  slug: vrije-universiteit-amsterdam-course-api
-- description: The dataSet API from Vrije Universiteit Amsterdam — 29 operation(s) for dataset.
-  name: Vrije Universiteit Amsterdam dataSet API
-  slug: vrije-universiteit-amsterdam-dataset-api
-- description: The equipment API from Vrije Universiteit Amsterdam — 26 operation(s) for equipment.
-  name: Vrije Universiteit Amsterdam equipment API
-  slug: vrije-universiteit-amsterdam-equipment-api
-- description: The event API from Vrije Universiteit Amsterdam — 21 operation(s) for event.
-  name: Vrije Universiteit Amsterdam event API
-  slug: vrije-universiteit-amsterdam-event-api
-- description: The externalOrganization API from Vrije Universiteit Amsterdam — 29 operation(s) for externalorganization.
-  name: Vrije Universiteit Amsterdam externalOrganization API
-  slug: vrije-universiteit-amsterdam-externalorganization-api
-- description: The externalPerson API from Vrije Universiteit Amsterdam — 22 operation(s) for externalperson.
-  name: Vrije Universiteit Amsterdam externalPerson API
-  slug: vrije-universiteit-amsterdam-externalperson-api
-- description: The fundingOpportunity API from Vrije Universiteit Amsterdam — 21 operation(s) for fundingopportunity.
-  name: Vrije Universiteit Amsterdam fundingOpportunity API
-  slug: vrije-universiteit-amsterdam-fundingopportunity-api
-- description: The journal API from Vrije Universiteit Amsterdam — 22 operation(s) for journal.
-  name: Vrije Universiteit Amsterdam journal API
-  slug: vrije-universiteit-amsterdam-journal-api
-- description: The keywordGroupConfiguration API from Vrije Universiteit Amsterdam — 7 operation(s) for keywordgroupconfiguration.
-  name: Vrije Universiteit Amsterdam keywordGroupConfiguration API
-  slug: vrije-universiteit-amsterdam-keywordgroupconfiguration-api
-- description: The organization API from Vrije Universiteit Amsterdam — 33 operation(s) for organization.
-  name: Vrije Universiteit Amsterdam organization API
-  slug: vrije-universiteit-amsterdam-organization-api
-- description: The person API from Vrije Universiteit Amsterdam — 57 operation(s) for person.
-  name: Vrije Universiteit Amsterdam person API
-  slug: vrije-universiteit-amsterdam-person-api
-- description: The pressMedia API from Vrije Universiteit Amsterdam — 24 operation(s) for pressmedia.
-  name: Vrije Universiteit Amsterdam pressMedia API
-  slug: vrije-universiteit-amsterdam-pressmedia-api
-- description: The prize API from Vrije Universiteit Amsterdam — 28 operation(s) for prize.
-  name: Vrije Universiteit Amsterdam prize API
-  slug: vrije-universiteit-amsterdam-prize-api
-- description: The project API from Vrije Universiteit Amsterdam — 33 operation(s) for project.
-  name: Vrije Universiteit Amsterdam project API
-  slug: vrije-universiteit-amsterdam-project-api
-- description: The publisher API from Vrije Universiteit Amsterdam — 18 operation(s) for publisher.
-  name: Vrije Universiteit Amsterdam publisher API
-  slug: vrije-universiteit-amsterdam-publisher-api
-- description: The researchOutput API from Vrije Universiteit Amsterdam — 66 operation(s) for researchoutput.
-  name: Vrije Universiteit Amsterdam researchOutput API
-  slug: vrije-universiteit-amsterdam-researchoutput-api
-- description: The role API from Vrije Universiteit Amsterdam — 2 operation(s) for role.
-  name: Vrije Universiteit Amsterdam role API
-  slug: vrije-universiteit-amsterdam-role-api
-- description: The studentThesis API from Vrije Universiteit Amsterdam — 26 operation(s) for studentthesis.
-  name: Vrije Universiteit Amsterdam studentThesis API
-  slug: vrije-universiteit-amsterdam-studentthesis-api
-- description: The thesaurus API from Vrije Universiteit Amsterdam — 5 operation(s) for thesaurus.
-  name: Vrije Universiteit Amsterdam thesaurus API
-  slug: vrije-universiteit-amsterdam-thesaurus-api
-- description: The user API from Vrije Universiteit Amsterdam — 7 operation(s) for user.
-  name: Vrije Universiteit Amsterdam user API
-  slug: vrije-universiteit-amsterdam-user-api
-artifact_total: 72
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Pure activity API
-  slug: open-vrije-universiteit-amsterdam-activity-api
-- collection_type: open
-  name: Pure activity application API
-  slug: open-vrije-universiteit-amsterdam-application-api
-- collection_type: open
-  name: Pure activity authorCollaboration API
-  slug: open-vrije-universiteit-amsterdam-authorcollaboration-api
-- collection_type: open
-  name: Pure activity award API
-  slug: open-vrije-universiteit-amsterdam-award-api
-- collection_type: open
-  name: Pure activity classificationScheme API
-  slug: open-vrije-universiteit-amsterdam-classificationscheme-api
-- collection_type: open
-  name: Pure activity concept API
-  slug: open-vrije-universiteit-amsterdam-concept-api
-- collection_type: open
-  name: Pure activity course API
-  slug: open-vrije-universiteit-amsterdam-course-api
-- collection_type: open
-  name: Pure activity dataSet API
-  slug: open-vrije-universiteit-amsterdam-dataset-api
-- collection_type: open
-  name: Pure activity equipment API
-  slug: open-vrije-universiteit-amsterdam-equipment-api
-- collection_type: open
-  name: Pure activity event API
-  slug: open-vrije-universiteit-amsterdam-event-api
-- collection_type: open
-  name: Pure activity externalOrganization API
-  slug: open-vrije-universiteit-amsterdam-externalorganization-api
-- collection_type: open
-  name: Pure activity externalPerson API
-  slug: open-vrije-universiteit-amsterdam-externalperson-api
-- collection_type: open
-  name: Pure activity fundingOpportunity API
-  slug: open-vrije-universiteit-amsterdam-fundingopportunity-api
-- collection_type: open
-  name: Pure activity journal API
-  slug: open-vrije-universiteit-amsterdam-journal-api
-- collection_type: open
-  name: Pure activity keywordGroupConfiguration API
-  slug: open-vrije-universiteit-amsterdam-keywordgroupconfiguration-api
-- collection_type: open
-  name: Pure activity organization API
-  slug: open-vrije-universiteit-amsterdam-organization-api
-- collection_type: open
-  name: Pure activity person API
-  slug: open-vrije-universiteit-amsterdam-person-api
-- collection_type: open
-  name: Pure activity pressMedia API
-  slug: open-vrije-universiteit-amsterdam-pressmedia-api
-- collection_type: open
-  name: Pure activity prize API
-  slug: open-vrije-universiteit-amsterdam-prize-api
-- collection_type: open
-  name: Pure activity project API
-  slug: open-vrije-universiteit-amsterdam-project-api
-- collection_type: open
-  name: Pure activity publisher API
-  slug: open-vrije-universiteit-amsterdam-publisher-api
-- collection_type: open
-  name: Pure activity researchOutput API
-  slug: open-vrije-universiteit-amsterdam-researchoutput-api
-- collection_type: open
-  name: Pure activity role API
-  slug: open-vrije-universiteit-amsterdam-role-api
-- collection_type: open
-  name: Pure activity studentThesis API
-  slug: open-vrije-universiteit-amsterdam-studentthesis-api
-- collection_type: open
-  name: Pure activity thesaurus API
-  slug: open-vrije-universiteit-amsterdam-thesaurus-api
-- collection_type: open
-  name: Pure activity user API
-  slug: open-vrije-universiteit-amsterdam-user-api
+- description: 'Instructure Canvas deployed for VU Amsterdam at canvas.vu.nl. The Canvas REST API is live and credential-gated — GET /api/v1/accounts returns HTTP 401 with a JSON body — and the sign-in page renders. '
+  name: VU Amsterdam Canvas LMS API
+  slug: canvas
+- description: VU Amsterdam's class timetable at rooster.vu.nl, running Semestry MyTimetable (the vendor is named in an HTML comment in the served page). A JSON REST API is live behind authentication — /api/, /api/r
+  name: VU Amsterdam timetable (MyTimetable)
+  slug: timetable
+artifact_total: 11
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/vrije-universiteit-amsterdam-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/vrije-universiteit-amsterdam-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/vrije-universiteit-amsterdam-authentication.yml
 - group: company
   title: ''
   type: Website
   url: https://vu.nl/en
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://research.vu.nl/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://portal.yoda.vu.nl
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://studiegids.vu.nl/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://stsfed.login.vu.nl/FederationMetadata/2007-06/FederationMetadata.xml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://rdm.vu.nl/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://vu.nl/en/education/more-about/teaching-and-ai
 - group: build
   title: ''
-  type: GitHub
-  url: https://github.com/Vrije-Universiteit-Amsterdam
+  type: AITooling
+  url: https://vu.nl/en/student/examinations/generative-ai-your-use-our-expectations
 - group: build
   title: ''
-  type: SourceCode
+  type: GitHubOrganization
   url: https://github.com/ubvu
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://vu.nl/en/about-vu/more-about/disclaimer
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://vu.nl/en/about-vu/more-about/privacy-statement-vrije-universiteit-amsterdam
+- group: operate
+  title: ''
+  type: Support
+  url: https://vu.nl/en/about-vu/more-about/contact
+- group: company
+  title: ''
+  type: Blog
+  url: https://vu.nl/en/news
 - group: company
   title: ''
   type: LinkedIn
@@ -244,6 +119,14 @@ common:
   title: ''
   type: Twitter
   url: https://twitter.com/VUamsterdam
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/vrije-universiteit-amsterdam-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/vrije-universiteit-amsterdam-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -260,57 +143,57 @@ common:
   title: ''
   type: Review
   url: review.yml
+coverage:
+  detail: 'Two institution-operated machine-readable surfaces were reached and read in full — the OAI-PMH 2.0 endpoint at research.vu.nl/ws/oai (Identify, ListMetadataFormats, ListSets and a 108KB ListRecords harvest all returned 200) and the signed SAML 2.0 IdP metadata at stsfed.login.vu.nl (200, 116,822 bytes, also present in the SURFconext national feed). Beyond those two, every programmable surface under a vu.nl subdomain is a vendor product VU is a tenant of, and every one of them is credential-gated: the Elsevier Pure REST web service (research.vu.nl/ws/api/524/persons -> 401), Instructure Canvas (canvas.vu.nl/api/v1/accounts -> 401), Semestry MyTimetable (rooster.vu.nl/api/ -> 401) and VU Yoda''s WebDAV endpoint (data.yoda.vu.nl -> 401). The two Yoda public hosts and DataverseNL sit behind an Anubis bot challenge that returns HTTP 200 with a "checking your connection" body rather than content, and research.vu.nl HTML pages sit behind a Cloudflare challenge (403) even though its /ws/
+    protocol endpoints are open. No developer portal, no llms.txt, no security.txt and no institution-authored API contract exists at any probed location. This profile is thin because the institution is a buyer, not a producer — not because the surface was unreachable.'
+  evidence:
+  - status: 200
+    url: https://research.vu.nl/ws/oai?verb=Identify
+  - status: 200
+    url: https://research.vu.nl/ws/oai?verb=ListSets
+  - status: 200
+    url: https://stsfed.login.vu.nl/FederationMetadata/2007-06/FederationMetadata.xml
+  - status: 200
+    url: https://metadata.surfconext.nl/idps-metadata.xml
+  - status: 401
+    url: https://research.vu.nl/ws/api/524/persons
+  - status: 401
+    url: https://canvas.vu.nl/api/v1/accounts
+  - status: 401
+    url: https://rooster.vu.nl/api/
+  - status: 401
+    url: https://data.yoda.vu.nl/
+  - status: 200
+    url: https://portal.yoda.vu.nl/
+  - status: 200
+    url: https://publication.yoda.vu.nl/
+  - status: 200
+    url: https://dataverse.nl/api/info/version
+  - status: 403
+    url: https://research.vu.nl/en/organisations
+  - status: 404
+    url: https://vu.nl/llms.txt
+  - status: 404
+    url: https://vu.nl/.well-known/security.txt
+  reason: tenant_only
+  state: gated
 created: '2026-06-03'
-description: 'Vrije Universiteit Amsterdam (VU Amsterdam) is a public research university in the Netherlands, ranked #221 in the QS World University Rankings 2025. Like most universities, VU Amsterdam does not operate a centralized public developer portal. Its programmatic footprint is concentrated in research-infrastructure systems: the VU Research Portal (research.vu.nl), an Elsevier Pure instance that exposes a live OAI-PMH harvesting endpoint and a Pure REST web service, and research data published through DataverseNL. The University Library maintains an active public GitHub organization (ubvu) of open-science tooling. Most teaching, student-information, and identity systems are internal and not publicly documented.'
-examples:
-- key_count: 3
-  name: Vrije Universiteit Amsterdam Persons List Example
-  slug: vrije-universiteit-amsterdam-persons-list-example
-- key_count: 3
-  name: Vrije Universiteit Amsterdam Research Outputs List Example
-  slug: vrije-universiteit-amsterdam-research-outputs-list-example
+description: 'Vrije Universiteit Amsterdam (VU Amsterdam) is a public research university in the Netherlands, founded in 1880 and ranked #221 in the QS World University Rankings 2025. It operates no public developer program, no API portal, and no first-party API contract: every OpenAPI previously attributed to VU in this repository was Elsevier''s Pure API v5.34.3 (contact pure-support@elsevier.com), the same product contract at least nine other universities ship, and it has been removed. What VU genuinely operates and publishes machine-readably is two protocol surfaces on its own domain — a live OAI-PMH 2.0 repository interface at research.vu.nl/ws/oai serving OpenAIRE CERIF and Dublin Core, administered by the University Library, and a signed SAML 2.0 identity-provider metadata document at stsfed.login.vu.nl published into the SURFconext national federation and onward to eduGAIN. Everything else programmable under a vu.nl subdomain is a vendor product VU is the tenant of: the Elsevier
+  Pure REST web service, VU Yoda (Utrecht University software maintained by SURF for VU), Instructure Canvas, and Semestry MyTimetable — all credential-gated. Research data is also published to the national DataverseNL service. The University Library GitHub organisation (ubvu) is the institution''s active open-source presence with 90 public repositories; the official VU GitHub organisation has none.'
 finops:
 - name: Vrije Universiteit Amsterdam Finops
   service_category: Education
   slug: vrije-universiteit-amsterdam-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vrije-universiteit-amsterdam.png
-json_schemas:
-- name: Organization
-  property_count: 12
-  slug: vrije-universiteit-amsterdam-organization
-- name: Person
-  property_count: 14
-  slug: vrije-universiteit-amsterdam-person
-- name: Project
-  property_count: 14
-  slug: vrije-universiteit-amsterdam-project
-- name: ResearchOutput
-  property_count: 27
-  slug: vrije-universiteit-amsterdam-research-output
-json_structures:
-- name: Vrije Universiteit Amsterdam Person Structure
-  property_count: 9
-  slug: vrije-universiteit-amsterdam-person-structure
-- name: Vrije Universiteit Amsterdam Research Output Structure
-  property_count: 17
-  slug: vrije-universiteit-amsterdam-research-output-structure
-jsonld:
-- class_count: 4
-  name: Vrije Universiteit Amsterdam Context
-  property_count: 5
-  slug: vrije-universiteit-amsterdam-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Vrije Universiteit Amsterdam
 nav: Providers
 network: true
-overview: 'Vrije Universiteit Amsterdam publishes 26 APIs on the [APIs.io](https://apis.io/) network, including activity API, application API, authorCollaboration API, and 23 more. Tagged areas include Education, Higher Education, University, Netherlands, and Research.
+overview: 'Vrije Universiteit Amsterdam publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Netherlands, and Europe.
 
 
-  The Vrije Universiteit Amsterdam catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  Vrije Universiteit Amsterdam''s developer surface includes authentication, GitHub presence, and 10 more developer resources.'
+  Vrije Universiteit Amsterdam''s developer surface includes documentation, support, engineering blog, and 18 more developer resources.'
 plans:
 - name: Vrije Universiteit Amsterdam Plans Pricing
   plan_count: 2
@@ -320,41 +203,25 @@ rate_limits:
 - limit_count: 1
   name: Vrije Universiteit Amsterdam Rate Limits
   slug: vrije-universiteit-amsterdam-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: Vrije Universiteit Amsterdam API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 3
-  slug: vrije-universiteit-amsterdam-jsonschema-spectral-rules
-- effective_rule_count: 6
-  extends: []
-  name: Vrije Universiteit Amsterdam API Rules
-  rule_count: 6
-  severity_counts:
-    error: 2
-    hint: 0
-    info: 0
-    warn: 4
-  slug: vrije-universiteit-amsterdam-rules
 score:
   band: thin
-  composite: 36.9
-  delta: 1.9
+  composite: 30.7
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -6.2
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 57.0
-    developer_ergonomics: 21.4
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 0.0
+    contract_quality: 6.7
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 35.0
+    governance: 0.0
+    operational_transparency: 23.7
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     contracts:
@@ -367,28 +234,29 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 46.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/screenshots/vrije-universiteit-amsterdam-2026-06-20T201145.png
 security:
-- kind: authentication
-  name: Vrije Universiteit Amsterdam Authentication
-  slug: vrije-universiteit-amsterdam-authentication
-  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Vrije Universiteit Amsterdam Domain Security
   slug: vrije-universiteit-amsterdam-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: vrije-universiteit-amsterdam
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Netherlands
+- Europe
 - Research
-- Open Data
-- Repository
+- Research Data
+- Research Repository
+- Identity Federation
+- OAI-PMH
+- Open Access
+- Public Research University
 website: https://vu.nl/en
 ---

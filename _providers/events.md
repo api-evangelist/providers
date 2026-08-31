@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 18
 apis:
 - description: CNCF-graduated specification (graduated January 25, 2024) for describing event data in a common way. Defines a payload envelope with required attributes id, source, specversion, and type, and optional
@@ -204,7 +204,7 @@ modified: '2026-05-22'
 name: Events
 nav: Providers
 network: true
-overview: 'Events publishes 18 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Event, Event-Driven, Event Streaming, Messaging, and Pub-Sub.
+overview: 'Events publishes 18 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Event, Event-Driven, Event Streaming, Messaging, and Pub Sub.
 
 
   The Events catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -224,9 +224,14 @@ rules:
     warn: 3
   slug: events-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 25.1
-  delta: 10.2
+  band: thin
+  composite: 27.3
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 2.2
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -236,16 +241,19 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 18.4
-  previous_composite: 14.9
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 25.1
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 18.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/events/refs/heads/main/screenshots/events-2026-06-20T180902.png
 security:
 - kind: domain-security
@@ -267,7 +275,7 @@ tags:
 - Event-Driven
 - Event Streaming
 - Messaging
-- Pub-Sub
+- Pub Sub
 - Brokers
 - CloudEvents
 - AsyncAPI

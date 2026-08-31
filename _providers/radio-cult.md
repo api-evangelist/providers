@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: radio-cult-agentic-access
   summary_line: 18 operations · 6 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Artists API from Radio Cult — 3 operation(s) for artists.
   name: Radio Cult Artists API
@@ -95,6 +95,10 @@ collections:
   name: Radio Cult API
   slug: open-radio-cult
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/radio-cult-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -130,7 +134,7 @@ network: true
 overview: 'Radio Cult publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Artists API, Media API, Playlists API, and 4 more. Tagged areas include Radio, Streaming, Audio, Music, and Broadcasting.
 
 
-  Radio Cult''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
+  Radio Cult''s developer surface includes authentication, engineering blog, and 4 more developer resources.'
 plans:
 - name: Radio Cult Plans Pricing
   plan_count: 3
@@ -142,18 +146,23 @@ rate_limits:
   slug: radio-cult-rate-limits
 score:
   band: thin
-  composite: 27.0
-  delta: 1.9
+  composite: 26.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 46.3
     developer_ergonomics: 23.8
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 25.1
+  previous_composite: 27.0
   provenance:
     agentic_access: derived
     contracts:
@@ -161,8 +170,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-cult/refs/heads/main/screenshots/radio-cult-2026-06-20T192517.png
 security:

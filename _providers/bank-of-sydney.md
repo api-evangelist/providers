@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 19
   slug: bank-of-sydney-agentic-access
   summary_line: 19 operations · 3 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Banking Account Balance endpoints
   name: Bank of Sydney Banking Account Balances API
@@ -91,6 +91,10 @@ collections:
   name: CDR Banking Banking Account Balances Banking Products API
   slug: open-bank-of-sydney-banking-products-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bank-of-sydney-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -182,7 +186,7 @@ network: true
 overview: 'Bank of Sydney publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Banking.
 
 
-  Bank of Sydney''s developer surface includes documentation, getting-started guide, API reference, authentication, and 15 more developer resources.'
+  Bank of Sydney''s developer surface includes documentation, getting-started guide, API reference, authentication, and 16 more developer resources.'
 random_paper: 18
 scopes:
 - name: Bank Of Sydney Scopes
@@ -191,18 +195,23 @@ scopes:
   summary_line: 5 scopes
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 33.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 49.7
     developer_ergonomics: 42.3
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 35.9
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -219,8 +228,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 50.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-sydney/refs/heads/main/screenshots/bank-of-sydney-2026-07-21T130910.png
 security:

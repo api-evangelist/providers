@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Agent Controller
   name: aPriori Agent API
@@ -171,18 +171,23 @@ overview: 'aPriori publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 random_paper: 2
 score:
   band: developing
-  composite: 41.3
+  composite: 40.5
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 44.4
     developer_ergonomics: 47.0
-    discoverability: 59.3
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 41.3
+  previous_composite: 40.5
   provenance:
     conformance: derived
     contracts:
@@ -192,8 +197,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apriori/refs/heads/main/screenshots/apriori-2026-08-07T161510.png
 security:
@@ -218,9 +223,9 @@ tags:
 - should-cost
 - plm-integration
 - cost-engineering
-- Digital Manufacturing
-- Sustainability
-- Workflow-Automation
-- CAD
+- digital-manufacturing
+- sustainability
+- workflow-automation
+- cad
 website: https://www.apriori.com/
 ---

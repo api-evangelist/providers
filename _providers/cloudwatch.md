@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 25
   slug: cloudwatch-agentic-access
   summary_line: 25 operations · 25 acting · 1 human-in-the-loop
-api_count: 8
+api_count: 1
 apis:
 - description: API for automatic instrumentation and monitoring of application services with service level objectives.
   name: Amazon CloudWatch Application Signals API
@@ -113,6 +113,10 @@ collections:
   name: AWS CloudWatch Amazon CloudWatch API
   slug: open-cloudwatch
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cloudwatch-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1119,13 +1123,13 @@ modified: '2026-05-19'
 name: AWS CloudWatch
 nav: Providers
 network: true
-overview: 'AWS CloudWatch publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Anomaly Detection API, Composite Alarms API, and 3 more. Tagged areas include Alarms, Dashboards, Logs, Metrics, and Monitoring.
+overview: 'AWS CloudWatch publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Anomaly Detection API, Composite Alarms API, and 3 more. Tagged areas include Alarms, Aws, Dashboards, Logs, and Metrics.
 
 
   The AWS CloudWatch catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AWS CloudWatch''s developer surface includes authentication, engineering blog, FAQ, support, changelog, pricing, developer console, and 14 more developer resources.'
+  AWS CloudWatch''s developer surface includes authentication, engineering blog, FAQ, support, changelog, pricing, developer console, and 15 more developer resources.'
 plans:
 - name: Cloudwatch Plans Pricing
   plan_count: 7
@@ -1159,18 +1163,23 @@ rules:
   slug: cloudwatch-spectral-rules
 score:
   band: strong
-  composite: 55.3
-  delta: 3.8
+  composite: 54.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 49.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 28.8
     contract_quality: 71.8
     developer_ergonomics: 66.7
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 51.5
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1178,8 +1187,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudwatch/refs/heads/main/screenshots/cloudwatch-2026-06-20T174619.png
 security:
@@ -1202,6 +1211,7 @@ security:
 slug: cloudwatch
 tags:
 - Alarms
+- Aws
 - Dashboards
 - Logs
 - Metrics

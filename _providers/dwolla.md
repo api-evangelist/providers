@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -43,64 +43,61 @@ agentic_access:
   summary_line: 164 operations · 68 acting
 api_count: 19
 apis:
-- description: Retrieve details about your master Dwolla Account and manage account-level resources including creating and listing the account's own funding sources, and listing the account's transfers and mass paym
+- description: Operations related to Accounts
   name: Dwolla Accounts API
   slug: dwolla-accounts-api
-- description: Create, retrieve, update, list and search Dwolla Customers — the account holders you onboard to send or receive money. Supports Unverified, Receive-Only, Personal Verified and Business Verified custom
+- description: Operations related to Beneficial Owners
+  name: Dwolla beneficial owners API
+  slug: dwolla-beneficial-owners-api
+- description: Operations related to Client Tokens
+  name: Dwolla client tokens API
+  slug: dwolla-client-tokens-api
+- description: Operations related to Customers
   name: Dwolla Customers API
   slug: dwolla-customers-api
-- description: Create, retrieve, update, remove and certify beneficial owners for Business Verified Customers. Implements the U.S. CDD/beneficial-ownership requirements by collecting and verifying the individuals wh
-  name: Dwolla Beneficial Owners API
-  slug: dwolla-beneficial-owners-api
-- description: Knowledge-Based Authentication (KBA) for Personal Verified Customers whose identity could not be automatically verified. Initiate a KBA session, retrieve the dynamically generated question set, and su
-  name: Dwolla KBA API
-  slug: dwolla-kba-api
-- description: Upload and retrieve identity-verification documents for Customers and beneficial owners when additional documentation is required to clear verification. Supports photo ID and business documents, track
+- description: Operations related to Documents
   name: Dwolla Documents API
   slug: dwolla-documents-api
-- description: Attach, verify, retrieve, update and remove bank-account and balance funding sources for Accounts and Customers. Supports micro-deposit verification, instant Open Banking verification (Plaid/MX and ot
-  name: Dwolla Funding Sources API
-  slug: dwolla-funding-sources-api
-- description: Initiate, retrieve, list, search and cancel money transfers between funding sources over the U.S. banking rails — standard ACH, Same-Day ACH, and instant/real-time payments via the RTP Network and Fed
-  name: Dwolla Transfers API
-  slug: dwolla-transfers-api
-- description: Initiate a single batch (mass payment) of up to 5,000 individual transfers from one source funding source, then retrieve, update (pause/cancel), and list the mass payment and its items. Built for payr
-  name: Dwolla Mass Payments API
-  slug: dwolla-mass-payments-api
-- description: 'Allocate and track funds within a Verified Customer''s Dwolla balance using labels (a virtual sub-ledger). Create and list labels, reallocate balance between labels, and read the label ledger entries, '
-  name: Dwolla Labels API
-  slug: dwolla-labels-api
-- description: Manage Open Banking exchange connections used to instantly verify and fund from bank accounts. List available exchange partners (Plaid, MX, Flinks, Finicity, Checkout.com), create and list exchange re
-  name: Dwolla Exchanges API
-  slug: dwolla-exchanges-api
-- description: Create and manage exchange sessions — the short-lived tokens that drive the Open Banking connect experience. Start a Customer exchange session, list available exchange connections, create a re-authent
-  name: Dwolla Exchange Sessions API
-  slug: dwolla-exchange-sessions-api
-- description: 'List and retrieve Events — the immutable record of every state change across your Dwolla application (customer verified, transfer created/completed/failed, funding source added, and more). Events are '
+- description: Operations related to Events
   name: Dwolla Events API
   slug: dwolla-events-api
-- description: Create, retrieve, list, pause and remove webhook subscriptions that tell Dwolla where to deliver event notifications. Each subscription carries a secret used to HMAC-sign payloads so your endpoint can
-  name: Dwolla Webhook Subscriptions API
-  slug: dwolla-webhook-subscriptions-api
-- description: 'Inspect and manage individual webhook deliveries. Retrieve a specific webhook, list the delivery attempts for a subscription, and retry failed deliveries — giving you full visibility into and control '
-  name: Dwolla Webhooks API
-  slug: dwolla-webhooks-api
-- description: Generate single-use, narrowly-scoped client tokens that authorize Dwolla's low-code Drop-in Components and client-side flows to act on behalf of a specific Customer. Keeps your application secret on t
-  name: Dwolla Client Tokens API
-  slug: dwolla-client-tokens-api
-- description: Exchange your application key and secret for an OAuth 2.0 client-credentials application access token used as the bearer token on every server-to-server Dwolla API request. Tokens are short-lived (def
-  name: Dwolla Tokens API
-  slug: dwolla-tokens-api
-- description: The API root — a JSON-HAL hypermedia entry point that returns the _links an authenticated application can follow (its account, customers, and other top-level collections). Reflects Dwolla's hypermedia
+- description: Operations related to Exchange Sessions
+  name: Dwolla exchange sessions API
+  slug: dwolla-exchange-sessions-api
+- description: Operations related to Exchanges
+  name: Dwolla Exchanges API
+  slug: dwolla-exchanges-api
+- description: Operations related to Funding Sources
+  name: Dwolla funding sources API
+  slug: dwolla-funding-sources-api
+- description: Operations related to Knowledge-Based Authentication
+  name: Dwolla Kba API
+  slug: dwolla-kba-api
+- description: Operations related to Labels
+  name: Dwolla Labels API
+  slug: dwolla-labels-api
+- description: Operations related to Mass Payments
+  name: Dwolla mass payments API
+  slug: dwolla-mass-payments-api
+- description: Root API operations
   name: Dwolla Root API
   slug: dwolla-root-api
-- description: Sandbox-only endpoint that advances the state of test transfers and other resources so developers can simulate ACH processing, clearing, and failure scenarios on demand rather than waiting for real ba
-  name: Dwolla Sandbox Simulations API
+- description: Sandbox-only operations for simulating processing of bank transfers
+  name: Dwolla sandbox simulations API
   slug: dwolla-sandbox-simulations-api
-- description: Dwolla API from Dwolla — 59 path(s) described in OpenAPI.
-  name: Dwolla API
-  slug: dwolla-openapi
-artifact_total: 63
+- description: Operations related to Application Access Tokens
+  name: Dwolla Tokens API
+  slug: dwolla-tokens-api
+- description: Operations related to Transfers
+  name: Dwolla Transfers API
+  slug: dwolla-transfers-api
+- description: Operations related to Webhook Subscriptions
+  name: Dwolla webhook subscriptions API
+  slug: dwolla-webhook-subscriptions-api
+- description: Operations related to Webhooks
+  name: Dwolla Webhooks API
+  slug: dwolla-webhooks-api
+artifact_total: 62
 asyncapis:
 - description: ''
   name: Dwolla Webhooks
@@ -218,6 +215,10 @@ collections:
   name: Dwolla API
   slug: open-dwolla
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dwolla-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -422,13 +423,13 @@ modified: '2026-07-23'
 name: Dwolla
 nav: Providers
 network: true
-overview: 'Dwolla publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Customers API, Beneficial Owners API, and 16 more. Tagged areas include Payments, ACH, Bank Transfers, Fintech, and Account-to-Account Payments.
+overview: 'Dwolla publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, beneficial owners API, client tokens API, and 15 more. Tagged areas include Payments, ACH, Bank Transfers, Fintech, and Account-to-Account Payments.
 
 
   The Dwolla catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dwolla''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 41 more developer resources.'
+  Dwolla''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 42 more developer resources.'
 random_paper: 13
 rate_limits:
 - limit_count: 0
@@ -436,18 +437,23 @@ rate_limits:
   slug: dwolla-rate-limits
 score:
   band: strong
-  composite: 62.6
+  composite: 61.8
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
-    contract_quality: 64.3
+    contract_governance: 18.2
+    contract_quality: 66.9
     developer_ergonomics: 75.6
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 62.6
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -464,8 +470,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/screenshots/dwolla-2026-07-25T212550.png
 security:

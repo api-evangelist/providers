@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-26'
-api_count: 11
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: Endpoints to operate on [Depots](/docs/models/depot) resources. This resource is currently read-only on the API.
   name: Circuit Depots API
@@ -112,6 +112,10 @@ collections:
   name: Spoke Depots Unassigned Stops API
   slug: open-circuit-unassigned-stops-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/circuit-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -250,7 +254,7 @@ overview: 'Circuit publishes 11 APIs on the [APIs.io](https://apis.io/) network,
   The Circuit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Circuit''s developer surface includes authentication, documentation, API reference, getting-started guide, code examples, support, pricing, and 23 more developer resources.'
+  Circuit''s developer surface includes authentication, documentation, API reference, getting-started guide, code examples, support, pricing, and 24 more developer resources.'
 random_paper: 20
 rate_limits:
 - limit_count: 6
@@ -258,18 +262,23 @@ rate_limits:
   slug: circuit-rate-limits
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 51.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 68.5
     developer_ergonomics: 56.5
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 78.9
-  previous_composite: 53.1
+  previous_composite: 51.6
   provenance:
     conformance: derived
     contracts:
@@ -279,8 +288,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circuit/refs/heads/main/screenshots/circuit-2026-07-25T205411.png
 security:
@@ -300,7 +309,7 @@ tags:
 - Last Mile
 - Route Optimization
 - Dispatch
-- Couriers
+- Courier
 - Fleet
 - Proof of Delivery
 - Field Service

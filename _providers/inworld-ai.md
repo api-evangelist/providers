@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: inworld-ai-agentic-access
   summary_line: 16 operations · 9 acting
-api_count: 7
+api_count: 6
 apis:
 - description: Discover available models.
   name: Inworld AI Models API
@@ -413,7 +413,7 @@ modified: '2026-05-25'
 name: Inworld AI
 nav: Providers
 network: true
-overview: 'Inworld AI publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Models API, Realtime API, Speech To Text API, and 4 more. Tagged areas include Artificial Intelligence, Voice, Text-to-Speech, Speech-to-Text, and Real-Time.
+overview: 'Inworld AI publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Models API, Realtime API, Speech To Text API, and 4 more. Tagged areas include Artificial Intelligence, Voice, Text-to-Speech, Speech To Text, and Real-Time.
 
 
   The Inworld AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -465,6 +465,11 @@ rules:
 score:
   band: exemplar
   composite: 66.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 37.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 71.1
@@ -483,8 +488,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/screenshots/inworld-ai-2026-06-20T183526.png
 security:
@@ -505,7 +510,7 @@ tags:
 - Artificial Intelligence
 - Voice
 - Text-to-Speech
-- Speech-to-Text
+- Speech To Text
 - Real-Time
 - LLM Routing
 - Voice Cloning

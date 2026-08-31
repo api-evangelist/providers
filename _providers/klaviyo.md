@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 308
   slug: klaviyo-agentic-access
   summary_line: 308 operations · 128 acting
-api_count: 23
+api_count: 1
 apis:
 - description: accounts
   name: Klaviyo Accounts API
@@ -261,6 +261,10 @@ collections:
   name: Klaviyo API
   slug: open-klaviyo
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/klaviyo-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -4095,7 +4099,7 @@ overview: 'Klaviyo publishes 23 APIs on the [APIs.io](https://apis.io/) network,
   The Klaviyo catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Klaviyo''s developer surface includes authentication, developer portal, documentation, changelog, engineering blog, signup flow, pricing, and 44 more developer resources.'
+  Klaviyo''s developer surface includes authentication, developer portal, documentation, changelog, engineering blog, signup flow, pricing, and 45 more developer resources.'
 plans:
 - name: Klaviyo Plans Pricing
   plan_count: 1
@@ -4134,18 +4138,23 @@ scopes:
   summary_line: 46 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 76.9
-  delta: 0.0
+  composite: 73.8
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_governance: 43.9
+    contract_governance: 31.8
     contract_quality: 71.9
     developer_ergonomics: 57.7
-    discoverability: 92.6
-    governance: 43.9
+    discoverability: 75.9
+    governance: 31.8
     operational_transparency: 76.3
-  previous_composite: 76.9
+  previous_composite: 74.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -4158,12 +4167,18 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/klaviyo/refs/heads/main/screenshots/klaviyo-2026-06-20T184103.png
 security:

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/aveva/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -67,11 +71,16 @@ network: true
 overview: 'OSIsoft is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Industrial, Operational Data, and Time Series.
 
 
-  OSIsoft''s developer surface includes documentation, support, and 3 more developer resources.'
+  OSIsoft''s developer surface includes documentation, support, and 4 more developer resources.'
 random_paper: 19
 score:
   band: minimal
   composite: 9.8
+  coverage:
+    artifact_dirs: 2
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -83,8 +92,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osisoft/refs/heads/main/screenshots/osisoft-2026-08-07T191017.png
 security:

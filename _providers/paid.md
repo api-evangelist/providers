@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-26'
-api_count: 22
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: The agents API from Paid — 3 operation(s) for agents.
   name: Paid agents API
@@ -316,18 +316,23 @@ overview: 'Paid publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 15
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 50.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.8
     developer_ergonomics: 81.0
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 53.4
+  previous_composite: 50.8
   provenance:
     conformance: derived
     contracts:
@@ -343,8 +348,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paid/refs/heads/main/screenshots/paid-2026-08-07T191309.png
 security:

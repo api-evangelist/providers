@@ -35,18 +35,33 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: The MetadataONE Model Context Protocol server — Metadata's only public developer surface. 141 documented tools let an MCP client (Claude Code, Claude Desktop, Hermes, Paperclip, OpenClaw or a custom a
-  name: Metadata MCP Server (MetadataONE)
-  slug: metadata-mcp-server-metadataone
-artifact_total: 9
+- description: The Health API from Metadata — 1 operation(s) for health.
+  name: Metadata Health API
+  slug: metadata-health-api
+- description: The Mcp API from Metadata — 1 operation(s) for mcp.
+  name: Metadata MCP API
+  slug: metadata-mcp-api
+artifact_total: 10
 collections:
 - collection_type: open
   name: MCP Metadata Server
   slug: open-metadata-mcp-server
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/metadata-mcp-server-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/metadata-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -128,10 +143,10 @@ modified: '2026-08-12'
 name: Metadata
 nav: Providers
 network: true
-overview: 'Metadata publishes 1 API on the [APIs.io](https://apis.io/) network: MCP Server (MetadataONE). Tagged areas include Company, Marketing, Marketing Automation, Demand Generation, and Advertising.
+overview: 'Metadata publishes 2 APIs on the [APIs.io](https://apis.io/) network: Health API and MCP API. Tagged areas include Company, Marketing, Marketing Automation, Demand Generation, and Advertising.
 
 
-  Metadata''s developer surface includes support, engineering blog, pricing, documentation, API reference, getting-started guide, and 11 more developer resources.'
+  Metadata''s developer surface includes support, engineering blog, pricing, documentation, API reference, getting-started guide, and 14 more developer resources.'
 plans:
 - name: Metadata Plans Pricing
   plan_count: 0
@@ -148,24 +163,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.9
-  delta: 2.7
+  composite: 43.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
-    contract_quality: 38.8
+    contract_governance: 4.5
+    contract_quality: 41.5
     developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 41.2
+  previous_composite: 43.1
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metadata/refs/heads/main/screenshots/metadata-2026-08-07T172641.png
 security:

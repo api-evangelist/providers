@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -33,40 +33,52 @@ agentic_access:
   summary_line: 31 operations · 29 acting
 api_count: 11
 apis:
-- description: Open and manage sterling accounts, retrieve account details, balances, transactions, Bacs data, and reporting for financial institution customers.
-  name: ClearBank GBP Accounts API
-  slug: clearbank-gbp-accounts-api
-- description: Initiate and manage UK Faster Payments (FPS) and internal transfers, including payment origination overview, for onboarded institutions.
-  name: ClearBank Faster Payments API
-  slug: clearbank-faster-payments-api
-- description: Initiate and manage high-value CHAPS RTGS payments, returns, and bank-to-bank settlement as a direct CHAPS participant.
-  name: ClearBank CHAPS API
-  slug: clearbank-chaps-api
-- description: Create and manage multi-currency (MCCY) accounts, retrieve balances, transactions, and statements across supported currencies.
-  name: ClearBank Multi-Currency Accounts API
-  slug: clearbank-multi-currency-accounts-api
-- description: Orchestrate outbound and inbound multi-currency payments across supported currencies and payment rails for embedded and agency banking customers.
-  name: ClearBank Multi-Currency Payments API
-  slug: clearbank-multi-currency-payments-api
-- description: Foreign-exchange trading orchestration supporting spot and request-for-quote (RFQ) currency conversion tied to multi-currency accounts.
-  name: ClearBank FX API
-  slug: clearbank-fx-api
-- description: Send and receive SEPA Credit Transfer (SCT) euro payments across the Single Euro Payments Area for onboarded institutions.
-  name: ClearBank SEPA Credit Transfer API
-  slug: clearbank-sepa-credit-transfer-api
-- description: Outbound Confirmation of Payee (CoP) name-checking against payee account details to reduce misdirected payments and APP fraud.
-  name: ClearBank Confirmation of Payee API
-  slug: clearbank-confirmation-of-payee-api
-- description: Know Your Customer / Customer Due Diligence checks for onboarding and verifying customers within embedded and agency banking propositions.
-  name: ClearBank Customer Due Diligence (KYC) API
+- description: The Accounts API from ClearBank — 2 operation(s) for accounts.
+  name: ClearBank Accounts API
+  slug: clearbank-accounts-api
+- description: The CoP API from ClearBank — 1 operation(s) for cop.
+  name: ClearBank Co P API
+  slug: clearbank-cop-api
+- description: The CreateFxQuoteEndpoint API from ClearBank — 1 operation(s) for createfxquoteendpoint.
+  name: ClearBank Create Fx Quote Endpoint API
+  slug: clearbank-createfxquoteendpoint-api
+- description: The Customer API from ClearBank — 6 operation(s) for customer.
+  name: ClearBank Customer API
+  slug: clearbank-customer-api
+- description: The Customer Due Diligence API from ClearBank — 1 operation(s) for customer due diligence.
+  name: ClearBank Customer Due Diligence API
   slug: clearbank-customer-due-diligence-api
-- description: Cross-border sterling payment initiation and management for institutions moving funds internationally through ClearBank.
-  name: ClearBank Cross-Border Sterling Payments API
-  slug: clearbank-cross-border-api
-- description: Embedded Banking APIs to create and manage retail customers, hub and payment accounts, savings, and ISAs on ClearBank's banking infrastructure.
-  name: ClearBank Retail Embedded Banking Customers API
-  slug: clearbank-retail-customers-api
-artifact_total: 28
+- description: The ExternalCrossBorderCustomerPaymentsV4 API from ClearBank — 1 operation(s) for externalcrossbordercustomerpaymentsv4.
+  name: ClearBank External Cross Border Customer Payments V4 API
+  slug: clearbank-externalcrossbordercustomerpaymentsv4-api
+- description: The ExternalCustomerPaymentsV6 API from ClearBank — 1 operation(s) for externalcustomerpaymentsv6.
+  name: ClearBank External Customer Payments V6 API
+  slug: clearbank-externalcustomerpaymentsv6-api
+- description: The ExternalInstitutionPaymentsV6 API from ClearBank — 1 operation(s) for externalinstitutionpaymentsv6.
+  name: ClearBank External Institution Payments V6 API
+  slug: clearbank-externalinstitutionpaymentsv6-api
+- description: The ExternalReturnPaymentsV6 API from ClearBank — 1 operation(s) for externalreturnpaymentsv6.
+  name: ClearBank External Return Payments V6 API
+  slug: clearbank-externalreturnpaymentsv6-api
+- description: The FpsPayments API from ClearBank — 2 operation(s) for fpspayments.
+  name: ClearBank Fps Payments API
+  slug: clearbank-fpspayments-api
+- description: The Fx Orders API from ClearBank — 1 operation(s) for fx orders.
+  name: ClearBank Fx Orders API
+  slug: clearbank-fx-orders-api
+- description: The Payments API from ClearBank — 3 operation(s) for payments.
+  name: ClearBank Payments API
+  slug: clearbank-payments-api
+- description: The Retail API from ClearBank — 2 operation(s) for retail.
+  name: ClearBank Retail API
+  slug: clearbank-retail-api
+- description: The SCT Payments API from ClearBank — 4 operation(s) for sct payments.
+  name: ClearBank SCT Payments API
+  slug: clearbank-sct-payments-api
+- description: The SecondaryReferenceData API from ClearBank — 1 operation(s) for secondaryreferencedata.
+  name: ClearBank Secondary Reference Data API
+  slug: clearbank-secondaryreferencedata-api
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Clearbank Webhooks
@@ -106,6 +118,10 @@ collections:
   name: ClearBank Financial Institutions API
   slug: open-clearbank-sterling-v4
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/clearbank-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -291,28 +307,33 @@ modified: '2026-07-23'
 name: ClearBank
 nav: Providers
 network: true
-overview: 'ClearBank publishes 11 APIs on the [APIs.io](https://apis.io/) network, including GBP Accounts API, Faster Payments API, CHAPS API, and 8 more. Tagged areas include Financial-Services, Banking, Banking as a Service, Embedded Banking, and Payments.
+overview: 'ClearBank publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Co P API, Create Fx Quote Endpoint API, and 12 more. Tagged areas include Financial-Services, Banking, Banking as a Service, Embedded Banking, and Payments.
 
 
   The ClearBank catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ClearBank''s developer surface includes authentication, sandbox, documentation, getting-started guide, API reference, engineering blog, and 37 more developer resources.'
+  ClearBank''s developer surface includes authentication, sandbox, documentation, getting-started guide, API reference, engineering blog, and 38 more developer resources.'
 random_paper: 7
 score:
   band: developing
-  composite: 47.8
+  composite: 45.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 49.0
+    contract_governance: 4.5
+    contract_quality: 49.2
     developer_ergonomics: 61.3
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 47.8
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -329,8 +350,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/screenshots/clearbank-2026-07-25T205542.png
 security:

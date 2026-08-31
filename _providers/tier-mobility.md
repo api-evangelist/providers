@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: tier-mobility-agentic-access
   summary_line: 9 operations
-api_count: 5
+api_count: 1
 apis:
 - description: GBFS discovery and versioning
   name: TIER Discovery API
@@ -82,6 +82,10 @@ collections:
   name: TIER / Dott GBFS Discovery Zones API
   slug: open-tier-mobility-zones-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tier-mobility-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -206,7 +210,7 @@ overview: 'TIER publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   The TIER catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TIER''s developer surface includes support, engineering blog, and 15 more developer resources.'
+  TIER''s developer surface includes support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Tier Mobility Plans Pricing
   plan_count: 2
@@ -240,18 +244,23 @@ rules:
   slug: tier-mobility-rules
 score:
   band: thin
-  composite: 38.4
-  delta: 2.7
+  composite: 37.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 28.8
     contract_quality: 63.9
     developer_ergonomics: 2.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 0.0
-  previous_composite: 35.7
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -265,8 +274,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tier-mobility/refs/heads/main/screenshots/tier-mobility-2026-06-20T195343.png
 security:

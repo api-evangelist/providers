@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: amazon-secrets-manager-agentic-access
   summary_line: 12 operations · 12 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Operations for generating passwords.
   name: Amazon Secrets Manager Passwords API
@@ -111,6 +111,10 @@ collections:
   name: Amazon Secrets Manager API
   slug: open-amazon-secrets-manager
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-secrets-manager-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -468,7 +472,7 @@ overview: 'Amazon Secrets Manager publishes 5 APIs on the [APIs.io](https://apis
   The Amazon Secrets Manager catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Secrets Manager''s developer surface includes authentication, CLI, developer portal, getting-started guide, documentation, API reference, developer console, and 57 more developer resources.'
+  Amazon Secrets Manager''s developer surface includes authentication, CLI, developer portal, getting-started guide, documentation, API reference, developer console, and 58 more developer resources.'
 plans:
 - name: Amazon Secrets Manager Plans Pricing
   plan_count: 3
@@ -501,19 +505,24 @@ rules:
     warn: 13
   slug: amazon-secrets-manager-spectral-rules
 score:
-  band: exemplar
-  composite: 66.5
-  delta: -0.9
+  band: strong
+  composite: 63.4
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 65.3
     developer_ergonomics: 76.2
-    discoverability: 94.4
-    governance: 45.5
+    discoverability: 77.8
+    governance: 33.3
     operational_transparency: 36.8
-  previous_composite: 67.4
+  previous_composite: 63.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -523,8 +532,8 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/screenshots/amazon-secrets-manager-2026-06-20T171815.png
 security:

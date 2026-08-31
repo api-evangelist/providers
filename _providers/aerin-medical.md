@@ -23,18 +23,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: 'Anonymously readable REST surface served by aerinmedical.com at /wp-json — 321 routes across 15 namespaces. The substantive part is Aerin Medical''s own doctor-finder plugin (em-locator/v1): 1,012 ENT '
-  name: Aerin Medical Site API (WordPress REST)
-  slug: aerin-medical-site-api-wordpress-rest
-artifact_total: 5
+- description: Route index / discovery documents.
+  name: Aerin Medical Discovery API
+  slug: aerin-medical-discovery-api
+- description: oEmbed representations of aerinmedical.com URLs.
+  name: Aerin Medical Embed API
+  slug: aerin-medical-embed-api
+- description: Site form-submission endpoints (lead capture, NOSE score assessments). Side-effecting; not invoked during derivation.
+  name: Aerin Medical Forms API
+  slug: aerin-medical-forms-api
+- description: The Aerin doctor finder — treating ENT locations, filterable by product, designation, text and geography.
+  name: Aerin Medical Locator API
+  slug: aerin-medical-locator-api
+- description: Cross-content-type site search.
+  name: Aerin Medical Search API
+  slug: aerin-medical-search-api
+artifact_total: 9
 collections:
 - collection_type: open
   name: Aerin Medical Site API (WordPress REST)
   slug: open-aerin-medical-site
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aerin-medical-site-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -152,25 +168,30 @@ modified: '2026-07-31'
 name: Aerin Medical
 nav: Providers
 network: true
-overview: 'Aerin Medical publishes 1 API on the [APIs.io](https://apis.io/) network: Site API (WordPress REST). Tagged areas include Company, Medical Devices, Healthcare, ENT, and Otolaryngology.
+overview: 'Aerin Medical publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Embed API, Forms API, and 2 more. Tagged areas include Company, Medical Devices, Healthcare, ENT, and Otolaryngology.
 
 
-  Aerin Medical''s developer surface includes engineering blog, product news, support, documentation, authentication, and 22 more developer resources.'
+  Aerin Medical''s developer surface includes engineering blog, product news, support, documentation, authentication, and 23 more developer resources.'
 random_paper: 10
 score:
   band: thin
-  composite: 33.3
-  delta: 0.9
+  composite: 31.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 30.3
-    contract_quality: 12.2
+    contract_governance: 18.2
+    contract_quality: 12.5
     developer_ergonomics: 30.4
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 32.4
+  previous_composite: 32.5
   provenance:
     conformance: first-party
     contracts:
@@ -185,8 +206,8 @@ score:
     regime: Health
     regime_id: health
     score: 55.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aerin-medical/refs/heads/main/screenshots/aerin-medical-2026-08-07T160959.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 95
   slug: shutterstock-agentic-access
   summary_line: 95 operations · 28 acting
-api_count: 10
+api_count: 1
 apis:
 - description: The audio API from Shutterstock — 11 operation(s) for audio.
   name: Shutterstock audio API
@@ -113,6 +113,10 @@ collections:
   name: Shutterstock API Reference
   slug: open-shutterstock
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shutterstock-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -178,7 +182,7 @@ overview: 'Shutterstock publishes 10 APIs on the [APIs.io](https://apis.io/) net
   The Shutterstock catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Shutterstock''s developer surface includes authentication and 5 more developer resources.'
+  Shutterstock''s developer surface includes authentication and 6 more developer resources.'
 plans:
 - name: Shutterstock Plans Pricing
   plan_count: 3
@@ -217,18 +221,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.8
-  delta: 9.3
+  composite: 43.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 75.6
     developer_ergonomics: 47.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 34.5
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     contracts:
@@ -236,9 +245,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shutterstock/refs/heads/main/screenshots/shutterstock-2026-06-20T193851.png
 security:
 - kind: authentication

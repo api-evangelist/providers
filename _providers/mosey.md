@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 52
   slug: mosey-agentic-access
   summary_line: 52 operations · 29 acting
-api_count: 12
+api_count: 3
 apis:
 - description: The Accounts API from Mosey — 7 operation(s) for accounts.
   name: Mosey Accounts API
@@ -121,6 +121,10 @@ collections:
   name: Mosey Accounts Tasks API
   slug: open-mosey-tasks-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/gusto/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -224,22 +228,27 @@ network: true
 overview: 'Mosey publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Agency Accounts API, Auth API, and 9 more. Tagged areas include Company, Compliance, Regulatory Technology, State Compliance, and Tax.
 
 
-  Mosey''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 16 more developer resources.'
+  Mosey''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
 random_paper: 11
 score:
   band: thin
-  composite: 38.3
-  delta: 1.4
+  composite: 36.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 48.1
     developer_ergonomics: 42.3
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 36.9
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,8 +259,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/screenshots/mosey-2026-08-07T184318.png
 security:

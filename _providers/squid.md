@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 15
   slug: squid-agentic-access
   summary_line: 15 operations
-api_count: 6
+api_count: 1
 apis:
 - description: Squid provides extensive access control configuration through its squid.conf file and runtime reload capabilities. The access control system supports ACLs for IP addresses, domain names, URL patterns,
   name: Squid Access Control Configuration API
@@ -219,18 +219,23 @@ rules:
   slug: squid-rules
 score:
   band: thin
-  composite: 37.8
-  delta: 2.4
+  composite: 37.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 58.5
     developer_ergonomics: 33.3
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 35.4
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -238,8 +243,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/screenshots/squid-2026-06-20T194428.png
 security:

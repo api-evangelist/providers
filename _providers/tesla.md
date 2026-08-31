@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 14
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 65
   slug: tesla-agentic-access
   summary_line: 65 operations · 54 acting · 14 human-in-the-loop
-api_count: 4
+api_count: 1
 apis:
 - description: The Authentication API from Tesla — 1 operation(s) for authentication.
   name: Tesla Authentication API
@@ -73,6 +73,18 @@ collections:
   name: Tesla Authentication Vehicles API
   slug: open-tesla-vehicles-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tesla-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/timdorr/tesla-api/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/timdorr/tesla-api/releases
 - group: commercial
   title: ''
   type: License
@@ -172,7 +184,7 @@ overview: 'Tesla publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   The Tesla catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tesla''s developer surface includes developer portal, FAQ, and 13 more developer resources.'
+  Tesla''s developer surface includes developer portal, FAQ, and 16 more developer resources.'
 plans:
 - name: Tesla Plans Pricing
   plan_count: 3
@@ -206,18 +218,26 @@ rules:
   slug: tesla-rules
 score:
   band: developing
-  composite: 39.5
-  delta: 5.5
+  composite: 39.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 55.2
     developer_ergonomics: 42.9
-    discoverability: 88.9
+    discoverability: 83.3
     governance: 13.6
-    operational_transparency: 13.2
-  previous_composite: 34.0
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -231,9 +251,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 31.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: domain-security
   name: Tesla Domain Security

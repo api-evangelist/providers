@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: us-bureau-of-labor-statistics-agentic-access
   summary_line: 5 operations · 1 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Retrieve the most popular BLS series identifiers
   name: US Bureau of Labor Statistics Popular Series API
@@ -158,18 +158,23 @@ rules:
   slug: us-bureau-of-labor-statistics-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.4
-  delta: 7.7
+  composite: 41.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 53.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 39.4
     contract_quality: 61.7
     developer_ergonomics: 21.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 39.4
     operational_transparency: 7.9
-  previous_composite: 34.7
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -183,9 +188,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-bureau-of-labor-statistics/refs/heads/main/screenshots/us-bureau-of-labor-statistics-2026-06-20T200548.png
 security:
 - kind: authentication

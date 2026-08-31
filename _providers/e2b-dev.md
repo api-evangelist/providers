@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 67
   slug: e2b-dev-agentic-access
   summary_line: 67 operations · 36 acting · 1 human-in-the-loop
-api_count: 14
+api_count: 3
 apis:
 - description: 'Higher-level SDK on top of the Sandbox API that exposes a Jupyter-style code interpreter for LLM-driven Python and JavaScript execution. Returns structured execution results including stdout, stderr, '
   name: E2B Code Interpreter SDK
@@ -86,7 +86,10 @@ apis:
 - description: The webhooks API from E2B — 2 operation(s) for webhooks.
   name: E2B webhooks API
   slug: e2b-dev-webhooks-api
-artifact_total: 72
+- description: The E2B Sandbox Events And Webhooks API API from E2B — 0 operation(s) for e2b sandbox events and webhooks api.
+  name: E2B E2B Sandbox Events And Webhooks API
+  slug: e2b-dev-e2b-sandbox-events-and-webhooks-api-api
+artifact_total: 73
 collections:
 - collection_type: postman
   name: E2B access-tokens API
@@ -418,7 +421,7 @@ modified: '2026-05-30'
 name: E2B
 nav: Providers
 network: true
-overview: 'E2B publishes 12 APIs on the [APIs.io](https://apis.io/) network, including access-tokens API, admin API, api-keys API, and 9 more. Tagged areas include Artificial Intelligence, Agents, Code Execution, Code Interpreter, and Sandboxes.
+overview: 'E2B publishes 13 APIs on the [APIs.io](https://apis.io/) network, including access-tokens API, admin API, api-keys API, and 10 more. Tagged areas include Artificial Intelligence, Agents, Code Execution, Code Interpreter, and Sandboxes.
 
 
   The E2B catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -447,18 +450,23 @@ rules:
   slug: e2b-dev-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.7
+  composite: 65.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 28.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
     contract_governance: 9.8
-    contract_quality: 71.0
+    contract_quality: 70.4
     developer_ergonomics: 85.7
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 65.7
+  previous_composite: 65.6
   provenance:
     agentic_access: derived
     contracts:
@@ -466,8 +474,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/screenshots/e2b-dev-2026-06-20T180353.png
 security:
@@ -491,7 +499,7 @@ tags:
 - Code Interpreter
 - Sandboxes
 - Firecracker
-- MicroVMs
+- microVMs
 - Computer Use
 - Desktop Sandbox
 - Templates

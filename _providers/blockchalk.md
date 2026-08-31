@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Location-pinned neighborhood messages.
@@ -92,18 +92,23 @@ overview: 'BlockChalk publishes 1 API on the [APIs.io](https://apis.io/) network
 random_paper: 9
 score:
   band: emerging
-  composite: 18.1
-  delta: 2.9
+  composite: 17.4
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 14.1
     developer_ergonomics: 28.6
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 15.2
+  previous_composite: 17.4
   provenance:
     conformance: derived
     contracts:
@@ -111,8 +116,8 @@ score:
       derived: 1
       marker_coverage: 100.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockchalk/refs/heads/main/screenshots/blockchalk-2026-07-25T203346.png
 security:

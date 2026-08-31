@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 4
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 280
   slug: dnsfilter-agentic-access
   summary_line: 280 operations · 111 acting · 4 human-in-the-loop
-api_count: 45
+api_count: 1
 apis:
 - description: The Agent Local User Bulk Deletes API from DNSFilter — 3 operation(s) for agent local user bulk deletes.
   name: DNSFilter Agent Local User Bulk Deletes API
@@ -316,6 +316,10 @@ collections:
   name: DNSFilter Agent Local User Bulk Deletes Users API
   slug: open-dnsfilter-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dnsfilter-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -443,22 +447,27 @@ network: true
 overview: 'DNSFilter publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Agent Local User Bulk Deletes API, Agent Local Users API, Agent Local Users CSV Export API, and 42 more. Tagged areas include Company, DNS, Security, Content Filtering, and Threat Protection.
 
 
-  DNSFilter''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+  DNSFilter''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
 random_paper: 5
 score:
   band: developing
-  composite: 43.0
-  delta: 0.0
+  composite: 40.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 58.8
     developer_ergonomics: 30.4
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 43.0
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -469,8 +478,8 @@ score:
       total: 45
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dnsfilter/refs/heads/main/screenshots/dnsfilter-2026-07-25T212151.png
 security:

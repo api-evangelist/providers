@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 122
   slug: forgerock-agentic-access
   summary_line: 122 operations · 49 acting
-api_count: 38
+api_count: 7
 apis:
 - description: Request and approve access to resources
   name: ForgeRock Access Requests API
@@ -407,6 +407,10 @@ collections:
   name: ForgeRock Access Management Access Requests Workflow API
   slug: open-forgerock-workflow-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/forgerock-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -800,7 +804,7 @@ overview: 'ForgeRock publishes 38 APIs on the [APIs.io](https://apis.io/) networ
   The ForgeRock catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ForgeRock''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 22 more developer resources.'
+  ForgeRock''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 23 more developer resources.'
 plans:
 - name: Forgerock Plans Pricing
   plan_count: 6
@@ -823,18 +827,23 @@ rules:
   slug: forgerock-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.8
-  delta: 3.5
+  composite: 47.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 73.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 9.8
     contract_quality: 61.5
     developer_ergonomics: 69.0
-    discoverability: 66.7
+    discoverability: 48.1
     governance: 9.8
     operational_transparency: 31.6
-  previous_composite: 46.3
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -842,8 +851,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forgerock/refs/heads/main/screenshots/forgerock-2026-06-20T181426.png
 security:

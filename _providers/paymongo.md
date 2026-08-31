@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: paymongo-agentic-access
   summary_line: 28 operations · 15 acting · 2 human-in-the-loop
-api_count: 10
+api_count: 1
 apis:
 - description: The Checkout Sessions API from PayMongo — 3 operation(s) for checkout sessions.
   name: PayMongo Checkout Sessions API
@@ -346,18 +346,23 @@ rate_limits:
   slug: paymongo-rate-limits
 score:
   band: exemplar
-  composite: 73.3
-  delta: 0.0
+  composite: 71.3
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 60.9
     developer_ergonomics: 67.3
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 56.6
-  previous_composite: 73.3
+  previous_composite: 71.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -374,8 +379,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paymongo/refs/heads/main/screenshots/paymongo-2026-08-07T191645.png
 security:

@@ -35,14 +35,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: 'Asynchronous REST APIs that export Observe.AI contact-center data into external systems: Interactions (Moments, transcripts and metadata for voice calls, webchat and email), Summarization AI (GenAI su'
-  name: Observe.AI Reporting APIs
-  slug: observeai-reporting-apis
-artifact_total: 23
+- description: Ack Dispute API can be used to pull all evaluation related data which are sent for acknowledgment or dispute. Please note - <ol> <li>Allow 24 hrs to pass before pulling Ack Dispute Data. ie., For Eval
+  name: Observe.AI Ack Dispute Flow API
+  slug: observeai-ack-dispute-flow-api
+- description: 'OAuth 2.0, which stands for “Open Authorization”, is a standard design to allow a website or application to access resources hosted by other web apps on behalf of a user <b>Note</b>: If you have been '
+  name: Observe.AI Authentication API
+  slug: observeai-authentication-api
+- description: Coachings API can be used to pull all the Coaching sessions done on Observe AI platform. Please note - <ol> <li>Allow 24 hrs to pass before pulling Coaching sessions. ie., For Coaching sessions comple
+  name: Observe.AI Coachings API
+  slug: observeai-coachings-api
+- description: DSR (Data Subject Request) deletion APIs allow customers to submit metadata-based deletion requests and check the processing status of those requests. <h3>Authentication</h3> OAuth 2.0 Bearer Token is
+  name: Observe.AI DSR API
+  slug: observeai-dsr-api
+- description: Evaluations API can be used to pull all the Evaluations(Manual and Auto QA) done on Observe AI platform. Please note - <ol> <li>Allow 24 hrs to pass before pulling Evaluations. ie., For Evaluations co
+  name: Observe.AI Evaluations API
+  slug: observeai-evaluations-api
+- description: Interactions API is an omnichannel API can be used to obtain all the data related to the interactions like Moments, Transcripts and metadata related to Interactions(including Voice calls and Web chat)
+  name: Observe.AI Interactions API
+  slug: observeai-interactions-api
+- description: Summarization AI API can be used to pull the data related to summaries for a particular interaction including calls and chats. Please note - <ol> <li> Summaries can only be extracted if they are avail
+  name: Observe.AI Summary API
+  slug: observeai-summary-api
+artifact_total: 29
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/observeai-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/observeai-reporting-apis-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -221,10 +247,10 @@ modified: '2026-08-14'
 name: Observe.AI
 nav: Providers
 network: true
-overview: 'Observe.AI publishes 1 API on the [APIs.io](https://apis.io/) network: Reporting APIs. Tagged areas include Company, Ai Apps, Contact Center, Conversation Intelligence, and Customer-Support.
+overview: 'Observe.AI publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Ack Dispute Flow API, Authentication API, Coachings API, and 4 more. Tagged areas include Company, Ai Apps, Contact Center, Conversation Intelligence, and Customer-Support.
 
 
-  Observe.AI''s developer surface includes engineering blog, support, documentation, API reference, getting-started guide, changelog, authentication, and 23 more developer resources.'
+  Observe.AI''s developer surface includes engineering blog, support, documentation, API reference, getting-started guide, changelog, authentication, and 25 more developer resources.'
 plans:
 - name: Observeai Plans Pricing
   plan_count: 1
@@ -235,19 +261,24 @@ rate_limits:
   name: Observeai Rate Limits
   slug: observeai-rate-limits
 score:
-  band: strong
-  composite: 56.6
-  delta: 0.0
+  band: developing
+  composite: 53.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.2
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 16.7
-    contract_quality: 53.1
-    developer_ergonomics: 54.2
-    discoverability: 68.5
-    governance: 16.7
-    operational_transparency: 84.2
-  previous_composite: 56.6
+    contract_governance: 4.5
+    contract_quality: 51.3
+    developer_ergonomics: 48.2
+    discoverability: 75.9
+    governance: 4.5
+    operational_transparency: 80.3
+  previous_composite: 55.9
   provenance:
     conformance: derived
     contracts:
@@ -257,8 +288,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/observeai/refs/heads/main/screenshots/observeai-2026-08-07T185911.png
 security:

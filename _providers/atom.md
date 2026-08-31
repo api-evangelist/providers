@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: 'REST service for managing the customer (cliente) records behind Atom''s WhatsApp conversations. The provider knowledge base documents three operations: create or update a customer, retrieve the list of'
@@ -154,7 +154,12 @@ rate_limits:
   slug: atom-rate-limits
 score:
   band: thin
-  composite: 36.8
+  composite: 37.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 69.7
@@ -162,15 +167,15 @@ score:
     contract_governance: 4.5
     contract_quality: 42.7
     developer_ergonomics: 19.0
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 36.8
+  previous_composite: 37.6
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atom/refs/heads/main/screenshots/atom-2026-07-25T201559.png
 security:

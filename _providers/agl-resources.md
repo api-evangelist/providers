@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/southern-company/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -47,7 +51,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://southerncompanygas.com/
+  url: https://www.southerncompanygas.com/
 - group: company
   title: ''
   type: Website
@@ -55,11 +59,38 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://southerncompanygas.com/legal
+  url: https://www.southerncompany.com/terms-and-conditions.html
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://southerncompanygas.com/privacy
+  url: https://www.southerncompany.com/privacy-statement.html
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.southerncompanygas.com/news.html
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/agl-resources-llms.txt
+coverage:
+  checked: '2026-08-30'
+  detail: AGL Resources ceased to exist as an operating brand when Southern Company acquired it in 2016 and renamed it Southern Company Gas — the legacy corporate domain www.aglresources.com now redirects to www.southerncompanygas.com, and that successor site is a consumer/corporate information site whose full sitemap contains no developer, API or documentation section, with /developers returning 404 and every /.well-known/ path on southerncompanygas.com, atlantagaslight.com and the parent southerncompany.com returning 404.
+  evidence:
+  - status: 200
+    url: https://www.aglresources.com/
+  - status: 404
+    url: https://www.southerncompanygas.com/developers
+  - status: 404
+    url: https://www.southerncompanygas.com/.well-known/api-catalog
+  - status: 404
+    url: https://www.southerncompanygas.com/openapi.json
+  - status: 404
+    url: https://www.atlantagaslight.com/.well-known/agent-card.json
+  - status: 200
+    url: https://www.southerncompanygas.com/sitemap.xml
+  reason: defunct
+  state: none
+created: '2026-04-19'
 description: AGL Resources was an energy services holding company headquartered in Atlanta, Georgia, whose principal business was the distribution of natural gas to residential, commercial, and industrial customers. In 2016, AGL Resources was acquired by Southern Company and renamed Southern Company Gas, becoming the nation's largest natural gas-only distribution company. The company distributes natural gas through subsidiaries including Atlanta Gas Light, Chattanooga Gas, Nicor Gas, and Virginia Natural Gas. AGL Resources / Southern Company Gas does not offer a public developer API; utility data access is available through third-party data aggregators and community-built integrations.
 features:
 - description: Distribution of natural gas to over 1.6 million residential, commercial, and industrial customers in Georgia and other states.
@@ -77,11 +108,14 @@ integrations:
 - description: Customer account portal for usage monitoring, billing, and payment management.
   name: Southern Company Online Account
 layout: provider
-modified: '2026-04-19'
-name: agl-resources
+modified: '2026-08-30'
+name: AGL Resources
 nav: Providers
 network: true
-overview: agl-resources is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Utilities, Energy Distribution, and Georgia.
+overview: 'AGL Resources is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Natural Gas, Utilities, Energy Distribution, and Georgia.
+
+
+  AGL Resources'' developer surface includes engineering blog and 8 more developer resources.'
 press:
 - date: '2026-05-25'
   title: Southern Company (SO) and the New Energy Tsunami
@@ -101,15 +135,20 @@ press:
 random_paper: 17
 score:
   band: minimal
-  composite: 2.7
-  delta: 0.0
+  composite: 9.6
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 6.9
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 44.4
+    developer_ergonomics: 2.4
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 2.7
@@ -118,10 +157,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 8.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 18.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/agl-resources/refs/heads/main/screenshots/agl-resources-2026-06-20T170314.png
 security:
 - kind: domain-security
@@ -143,5 +182,5 @@ use_cases:
   name: Commercial and Industrial Supply
 - description: Utility data aggregators (such as UtilityAPI) can provide programmatic access to usage data with customer consent.
   name: Third-Party Data Aggregation
-website: https://southerncompanygas.com/
+website: https://www.southerncompanygas.com/
 ---

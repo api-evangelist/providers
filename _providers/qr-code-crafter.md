@@ -11,19 +11,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: documented
     mcp_server: documented
-    openapi_examples: documented
+    openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.5
-  scored_at: '2026-08-26'
+  score: 38.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -33,15 +33,31 @@ agentic_access:
   summary_line: 19 operations · 13 acting
 api_count: 1
 apis:
-- description: REST API for generating static and bulk QR codes and managing dynamic URL redirects/vaults with aggregate analytics. Includes an OpenAPI 3.0.1 contract, WebMCP browser-agent context, ai-plugin.json, l
-  name: QRCodeCrafter API
-  slug: qrcodecrafter-api
-artifact_total: 7
+- description: The Dynamic Qr API from QR Code Crafter — 2 operation(s) for dynamic qr.
+  name: QR Code Crafter Dynamic Qr API
+  slug: qr-code-crafter-dynamic-qr-api
+- description: The Dynamic Qr Vaults API from QR Code Crafter — 5 operation(s) for dynamic qr vaults.
+  name: QR Code Crafter Dynamic Qr Vaults API
+  slug: qr-code-crafter-dynamic-qr-vaults-api
+- description: The .netlify API from QR Code Crafter — 3 operation(s) for .netlify.
+  name: QR Code Crafter .netlify API
+  slug: qr-code-crafter-netlify-api
+- description: The R API from QR Code Crafter — 1 operation(s) for r.
+  name: QR Code Crafter R API
+  slug: qr-code-crafter-r-api
+- description: The Send Feedback API from QR Code Crafter — 1 operation(s) for send feedback.
+  name: QR Code Crafter Send Feedback API
+  slug: qr-code-crafter-send-feedback-api
+artifact_total: 11
 collections:
 - collection_type: open
   name: QRCodeCrafter API
   slug: open-qr-code-crafter-openapi-original
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/qr-code-crafter-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -166,10 +182,10 @@ modified: '2026-08-11'
 name: QR Code Crafter
 nav: Providers
 network: true
-overview: 'QR Code Crafter publishes 1 API on the [APIs.io](https://apis.io/) network: QRCodeCrafter API. Tagged areas include QR Code, QR Code Generation, Static Qr, Dynamic QR, and dynamic redirects.
+overview: 'QR Code Crafter publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Dynamic Qr API, Dynamic Qr Vaults API, .netlify API, and 2 more. Tagged areas include QR code, QR code generation, static QR, dynamic QR, and dynamic redirects.
 
 
-  QR Code Crafter''s developer surface includes documentation, API reference, pricing, support, authentication, changelog, code examples, and 22 more developer resources.'
+  QR Code Crafter''s developer surface includes documentation, API reference, pricing, support, authentication, changelog, code examples, and 23 more developer resources.'
 plans:
 - name: Qr Code Crafter Plans Pricing
   plan_count: 1
@@ -181,18 +197,23 @@ rate_limits:
   slug: qr-code-crafter-rate-limits
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 48.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 16.7
-    contract_quality: 46.7
+    contract_governance: 4.5
+    contract_quality: 60.5
     developer_ergonomics: 42.3
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 46.4
+  previous_composite: 49.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -203,8 +224,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qr-code-crafter/refs/heads/main/screenshots/qr-code-crafter-2026-08-17T081420.png
 security:
@@ -218,10 +239,10 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: qr-code-crafter
 tags:
-- QR Code
-- QR Code Generation
-- Static Qr
-- Dynamic QR
+- QR code
+- QR code generation
+- static QR
+- dynamic QR
 - dynamic redirects
 - image export
 - bulk generation

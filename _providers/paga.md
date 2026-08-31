@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 8
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 23
   slug: paga-agentic-access
   summary_line: 23 operations · 15 acting · 8 human-in-the-loop
-api_count: 5
+api_count: 1
 apis:
 - description: OAuth-based hosted checkout that lets third parties charge a customer's Paga wallet and read account/merchant details after the customer authorizes access. Documented separately from the hash-authenti
   name: Paga Connect
@@ -267,18 +267,23 @@ rate_limits:
   slug: paga-rate-limits
 score:
   band: strong
-  composite: 58.3
-  delta: 0.7
+  composite: 56.3
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 58.6
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 57.6
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,8 +300,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paga/refs/heads/main/screenshots/paga-2026-08-07T191255.png
 security:

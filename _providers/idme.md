@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: ID.me's OpenID Connect and OAuth 2.0 identity provider. Supports the authorization code flow (with PKCE), refresh tokens, encrypted ID tokens and userinfo, and returns verified identity attributes and
@@ -191,7 +191,12 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.7
+  composite: 50.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -199,10 +204,10 @@ score:
     contract_governance: 18.2
     contract_quality: 42.7
     developer_ergonomics: 69.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 51.7
+  previous_composite: 50.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -212,8 +217,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 70.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idme/refs/heads/main/screenshots/idme-2026-08-17T123853.png
 security:

@@ -16,15 +16,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.4
-  scored_at: '2026-08-26'
+  score: 50.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 43
   slug: jane-app-agentic-access
   summary_line: 43 operations · 15 acting
-api_count: 8
+api_count: 1
 apis:
 - description: 'Retrieve, list, and free-text search patient records for the practitioner''s accessible patients within a clinic. Free-text search is a POST-body endpoint so PII does not leak into query strings. Part '
   name: Jane Patients API
@@ -55,10 +55,49 @@ apis:
 - description: Create, read, update, delete, and list Jane Extensions, and browse the catalog of approved extensions available to clinics. This is the management surface for the partner integrations built on the Jan
   name: Jane Extensions API
   slug: jane-extensions-api
-- description: Jane JDP API from Jane — 31 path(s) described in OpenAPI.
-  name: Jane JDP API
-  slug: jane-app-jdp-openapi
-artifact_total: 16
+- description: The Appointments API from Jane — 2 operation(s) for appointments.
+  name: Jane Appointments API
+  slug: jane-app-appointments-api
+- description: The CarePlans API from Jane — 4 operation(s) for careplans.
+  name: Jane Care Plans API
+  slug: jane-app-careplans-api
+- description: The Catalog API from Jane — 2 operation(s) for catalog.
+  name: Jane Catalog API
+  slug: jane-app-catalog-api
+- description: The Company API from Jane — 1 operation(s) for company.
+  name: Jane Company API
+  slug: jane-app-company-api
+- description: The Disciplines API from Jane — 2 operation(s) for disciplines.
+  name: Jane Disciplines API
+  slug: jane-app-disciplines-api
+- description: The DocumentUploads API from Jane — 2 operation(s) for documentuploads.
+  name: Jane Document Uploads API
+  slug: jane-app-documentuploads-api
+- description: The Extensions API from Jane — 2 operation(s) for extensions.
+  name: Jane Extensions API
+  slug: jane-app-extensions-api
+- description: The Locations API from Jane — 2 operation(s) for locations.
+  name: Jane Locations API
+  slug: jane-app-locations-api
+- description: The Medications API from Jane — 3 operation(s) for medications.
+  name: Jane Medications API
+  slug: jane-app-medications-api
+- description: The Observations API from Jane — 2 operation(s) for observations.
+  name: Jane Observations API
+  slug: jane-app-observations-api
+- description: The Patients API from Jane — 3 operation(s) for patients.
+  name: Jane Patients API
+  slug: jane-app-patients-api
+- description: The StaffMembers API from Jane — 2 operation(s) for staffmembers.
+  name: Jane Staff Members API
+  slug: jane-app-staffmembers-api
+- description: The Treatments API from Jane — 2 operation(s) for treatments.
+  name: Jane Treatments API
+  slug: jane-app-treatments-api
+- description: The Webhooks API from Jane — 2 operation(s) for webhooks.
+  name: Jane Webhooks API
+  slug: jane-app-webhooks-api
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Jane App Webhooks
@@ -68,6 +107,10 @@ collections:
   name: JDP API
   slug: open-jane-app-jdp
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/jane-app-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -213,13 +256,13 @@ modified: '2026-07-24'
 name: Jane
 nav: Providers
 network: true
-overview: 'Jane publishes 1 API on the [APIs.io](https://apis.io/) network: JDP API. Tagged areas include Healthcare, Canada, Practice Management, EHR, and EMR.
+overview: 'Jane publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Care Plans API, Catalog API, and 11 more. Tagged areas include Healthcare, Canada, Practice Management, EHR, and EMR.
 
 
   The Jane catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Jane''s developer surface includes authentication, sandbox, support, documentation, API reference, getting-started guide, pricing, and 26 more developer resources.'
+  Jane''s developer surface includes authentication, sandbox, support, documentation, API reference, getting-started guide, pricing, and 27 more developer resources.'
 random_paper: 3
 scopes:
 - name: Jane App Scopes
@@ -228,18 +271,23 @@ scopes:
   summary_line: 30 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.0
-  delta: 0.0
+  composite: 58.0
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 30.3
-    contract_quality: 67.0
+    contract_governance: 18.2
+    contract_quality: 67.2
     developer_ergonomics: 47.0
-    discoverability: 83.3
-    governance: 30.3
+    discoverability: 66.7
+    governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 61.0
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -256,8 +304,8 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/screenshots/jane-app-2026-07-25T223058.png
 security:

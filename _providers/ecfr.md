@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 15
   slug: ecfr-agentic-access
   summary_line: 15 operations
-api_count: 3
+api_count: 1
 apis:
 - description: Access eCFR metadata through JSON
   name: eCFR Admin Service API
@@ -67,6 +67,10 @@ collections:
   name: eCFR API Documentation Admin Service Versioner Service API
   slug: open-ecfr-versioner-service-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ecfr-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -223,7 +227,7 @@ overview: 'eCFR publishes 3 APIs on the [APIs.io](https://apis.io/) network: Adm
   The eCFR catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  eCFR''s developer surface includes documentation, engineering blog, pricing, code examples, and 21 more developer resources.'
+  eCFR''s developer surface includes documentation, engineering blog, pricing, code examples, and 22 more developer resources.'
 plans:
 - name: Ecfr Plans Pricing
   plan_count: 1
@@ -246,15 +250,20 @@ rules:
   slug: ecfr-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.5
-  delta: 0.0
+  composite: 31.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 55.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 25.0
     contract_quality: 45.6
     developer_ergonomics: 0.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 25.0
     operational_transparency: 26.3
   previous_composite: 31.5
@@ -271,8 +280,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecfr/refs/heads/main/screenshots/ecfr-2026-07-25T212731.png
 security:

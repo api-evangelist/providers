@@ -11,15 +11,15 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.1
-  scored_at: '2026-08-26'
+  score: 32.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 69
   slug: salla-agentic-access
   summary_line: 69 operations · 30 acting
-api_count: 18
+api_count: 3
 apis:
 - description: Server-to-server event delivery covering order, product, customer, shipping, shipment, store branch, category, brand, abandoned cart, coupon, invoice, special offer, and review lifecycle events. Paylo
   name: Salla Webhooks
@@ -204,6 +204,10 @@ collections:
   name: Salla Apps Branches Zones API
   slug: open-salla-zones-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/salla-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -492,7 +496,7 @@ overview: 'Salla publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
   The Salla catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salla''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, developer console, pricing, and 45 more developer resources.'
+  Salla''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, developer console, pricing, and 46 more developer resources.'
 plans:
 - name: Salla Plans Pricing
   plan_count: 5
@@ -531,18 +535,23 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 73.3
-  delta: 0.8
+  composite: 73.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 28.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 28.8
-    contract_quality: 68.5
+    contract_quality: 70.2
     developer_ergonomics: 85.7
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 68.4
-  previous_composite: 72.5
+  previous_composite: 73.7
   provenance:
     agentic_access: derived
     contracts:
@@ -556,8 +565,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salla/refs/heads/main/screenshots/salla-2026-06-20T193358.png
 security:

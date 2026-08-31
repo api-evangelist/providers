@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 6
   slug: openssf-agentic-access
   summary_line: 6 operations · 3 acting
-api_count: 7
+api_count: 2
 apis:
 - description: Sigstore is an OpenSSF-hosted standard and service for signing, verifying, and protecting software. The public-good Sigstore instance exposes Fulcio (code-signing certificate authority) and Rekor (tra
   name: Sigstore Public Good APIs
@@ -91,6 +91,26 @@ collections:
   name: OSV (Open Source Vulnerabilities) Projects Vulns API
   slug: open-openssf-vulns-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/guacsec/guac/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/guacsec/guac/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/guacsec/guac/blob/main/SECURITY-INSIGHTS.yml
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/guacsec/guac/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/guacsec/guac/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -178,7 +198,7 @@ overview: 'OpenSSF publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The OpenSSF catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenSSF''s developer surface includes documentation, developer portal, engineering blog, and 11 more developer resources.'
+  OpenSSF''s developer surface includes documentation, developer portal, engineering blog, and 16 more developer resources.'
 plans:
 - name: Openssf Plans Pricing
   plan_count: 3
@@ -200,19 +220,27 @@ rules:
     warn: 4
   slug: openssf-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 33.4
-  delta: 0.0
+  band: developing
+  composite: 42.7
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 60.3
     developer_ergonomics: 26.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
-    operational_transparency: 10.5
-  previous_composite: 33.4
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -220,8 +248,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openssf/refs/heads/main/screenshots/openssf-2026-06-20T191036.png
 security:

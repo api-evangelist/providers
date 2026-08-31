@@ -34,28 +34,121 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-26'
-api_count: 6
+  scored_at: '2026-08-30'
+api_count: 10
 apis:
-- description: Monitor and retrieve data across social platforms (X, Instagram, Intercom, and more); apply filters, configure alerts, and track API usage.
-  name: Lucidya Social Listening API
-  slug: lucidya-social-listening-api
-- description: Analyze text and audio with Lucidya's AI models — sentiment analysis, Arabic dialect detection, theme/sub-theme classification, domain categorization, and audio transcription.
-  name: Lucidya AI API
-  slug: lucidya-ai-api
-- description: Access unified customer profiles, interaction histories, and survey data from the Customer Data Platform.
-  name: Lucidya CDP API
-  slug: lucidya-cdp-api
-- description: Retrieve widget data across all connected channels — social, chat, rating, mail, and call.
-  name: Lucidya OmniChannel API
-  slug: lucidya-omnichannel-api
-- description: Fetch analytics results for Inbox, SLAs, Agents, and In-Chat Survey, including KPIs, time-series, and distributions.
-  name: Lucidya OmniServe Analytics API
-  slug: lucidya-omniserve-analytics-api
 - description: Receive real-time push notifications when specific events or conditions are met across your monitors.
   name: Lucidya Webhooks
   slug: lucidya-webhooks
-artifact_total: 19
+- description: The aggregated pages > Analytics API from Lucidya Ltd — 1 operation(s) for aggregated pages > analytics.
+  name: Lucidya Ltd aggregated pages > Analytics API
+  slug: lucidya-ltd-aggregated-pages-analytics-api
+- description: The aggregated pages > Interactions API from Lucidya Ltd — 1 operation(s) for aggregated pages > interactions.
+  name: Lucidya Ltd aggregated pages > Interactions API
+  slug: lucidya-ltd-aggregated-pages-interactions-api
+- description: Endpoints for creating and retrieving analytics jobs
+  name: Lucidya Ltd Analytics Jobs API
+  slug: lucidya-ltd-analytics-jobs-api
+- description: Endpoints for discovering and managing analytics pages, widgets, and filters
+  name: Lucidya Ltd Analytics Pages API
+  slug: lucidya-ltd-analytics-pages-api
+- description: The Audio Transcription API from Lucidya Ltd — 3 operation(s) for audio transcription.
+  name: Lucidya Ltd Audio Transcription API
+  slug: lucidya-ltd-audio-transcription-api
+- description: Operations related to Genesys channel.
+  name: Lucidya Ltd Calls > Genesys API
+  slug: lucidya-ltd-calls-genesys-api
+- description: The Chats > chats API from Lucidya Ltd — 1 operation(s) for chats > chats.
+  name: Lucidya Ltd Chats > chats API
+  slug: lucidya-ltd-chats-chats-api
+- description: Operations related to Intercom channel.
+  name: Lucidya Ltd Chats > Intercom API
+  slug: lucidya-ltd-chats-intercom-api
+- description: The Chats > Whatsapp API from Lucidya Ltd — 1 operation(s) for chats > whatsapp.
+  name: Lucidya Ltd Chats > Whatsapp API
+  slug: lucidya-ltd-chats-whatsapp-api
+- description: Endpoints for CSAT (Customer Satisfaction) survey analytics
+  name: Lucidya Ltd CSAT Analytics API
+  slug: lucidya-ltd-csat-analytics-api
+- description: Endpoints for retrieving per-engagement applied custom-field values (job-based)
+  name: Lucidya Ltd Custom Fields API
+  slug: lucidya-ltd-custom-fields-api
+- description: Operations related to default and main endpoints on OmniChannel.
+  name: Lucidya Ltd Default API
+  slug: lucidya-ltd-default-api
+- description: The Dialects API from Lucidya Ltd — 1 operation(s) for dialects.
+  name: Lucidya Ltd Dialects API
+  slug: lucidya-ltd-dialects-api
+- description: The Domains API from Lucidya Ltd — 1 operation(s) for domains.
+  name: Lucidya Ltd Domains API
+  slug: lucidya-ltd-domains-api
+- description: Operations related to Gmail channel.
+  name: Lucidya Ltd Email > Gmail API
+  slug: lucidya-ltd-email-gmail-api
+- description: The Filters API from Lucidya Ltd — 1 operation(s) for filters.
+  name: Lucidya Ltd Filters API
+  slug: lucidya-ltd-filters-api
+- description: The Profile Interactions API from Lucidya Ltd — 2 operation(s) for profile interactions.
+  name: Lucidya Ltd Profile Interactions API
+  slug: lucidya-ltd-profile-interactions-api
+- description: The Profiles API from Lucidya Ltd — 2 operation(s) for profiles.
+  name: Lucidya Ltd Profiles API
+  slug: lucidya-ltd-profiles-api
+- description: The Public API - Monitors List API from Lucidya Ltd — 1 operation(s) for public api - monitors list.
+  name: Lucidya Ltd Public API - Monitors List API
+  slug: lucidya-ltd-public-api-monitors-list-api
+- description: The Public APIs - Social Listening - Base APIs API from Lucidya Ltd — 3 operation(s) for public apis - social listening - base apis.
+  name: Lucidya Ltd Public APIs - Social Listening - Base APIs API
+  slug: lucidya-ltd-public-apis-social-listening-base-apis-api
+- description: The Public APIs - Social Listening - Facebook widget_data APIs API from Lucidya Ltd — 1 operation(s) for public apis - social listening - facebook widget_data apis.
+  name: Lucidya Ltd Public APIs - Social Listening - Facebook widget_data APIs API
+  slug: lucidya-ltd-public-apis-social-listening-facebook-widget-data-apis-api
+- description: The Public APIs - Social Listening - instagram widget_data APIs API from Lucidya Ltd — 1 operation(s) for public apis - social listening - instagram widget_data apis.
+  name: Lucidya Ltd Public APIs - Social Listening - instagram widget_data APIs API
+  slug: lucidya-ltd-public-apis-social-listening-instagram-widget-data-apis-api
+- description: The Public APIs - Social Listening - nb widget_data APIs API from Lucidya Ltd — 1 operation(s) for public apis - social listening - nb widget_data apis.
+  name: Lucidya Ltd Public APIs - Social Listening - nb widget_data APIs API
+  slug: lucidya-ltd-public-apis-social-listening-nb-widget-data-apis-api
+- description: The Public APIs - Social Listening - twitter widget_data APIs API from Lucidya Ltd — 1 operation(s) for public apis - social listening - twitter widget_data apis.
+  name: Lucidya Ltd Public APIs - Social Listening - twitter widget_data APIs API
+  slug: lucidya-ltd-public-apis-social-listening-twitter-widget-data-apis-api
+- description: Operations related to Google My Business channel.
+  name: Lucidya Ltd Rating > Google My Business API
+  slug: lucidya-ltd-rating-google-my-business-api
+- description: Endpoints for fetching reference data (agents, teams, data sources)
+  name: Lucidya Ltd Reference Data API
+  slug: lucidya-ltd-reference-data-api
+- description: The Segments API from Lucidya Ltd — 3 operation(s) for segments.
+  name: Lucidya Ltd Segments API
+  slug: lucidya-ltd-segments-api
+- description: The Sentiment API from Lucidya Ltd — 1 operation(s) for sentiment.
+  name: Lucidya Ltd Sentiment API
+  slug: lucidya-ltd-sentiment-api
+- description: Operations related to Facebook "Public and Private" channel.
+  name: Lucidya Ltd Social Media > Facebook API
+  slug: lucidya-ltd-social-media-facebook-api
+- description: Operations related to Instagram "Public and Private" channel.
+  name: Lucidya Ltd Social Media > Instagram API
+  slug: lucidya-ltd-social-media-instagram-api
+- description: Operations related to Linkedin channel.
+  name: Lucidya Ltd Social Media > Linkedin API
+  slug: lucidya-ltd-social-media-linkedin-api
+- description: Operations related to all social cannels.
+  name: Lucidya Ltd Social Media > Social API
+  slug: lucidya-ltd-social-media-social-api
+- description: Operations related to TikTok channel.
+  name: Lucidya Ltd Social Media > TikTok API
+  slug: lucidya-ltd-social-media-tiktok-api
+- description: Operations related to X (Twitter) "Public and Private" channel.
+  name: Lucidya Ltd Social Media > X (Twitter) API
+  slug: lucidya-ltd-social-media-x-twitter-api
+- description: The Surveys API from Lucidya Ltd — 1 operation(s) for surveys.
+  name: Lucidya Ltd Surveys API
+  slug: lucidya-ltd-surveys-api
+- description: The Themes API from Lucidya Ltd — 1 operation(s) for themes.
+  name: Lucidya Ltd Themes API
+  slug: lucidya-ltd-themes-api
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Lucidya Ltd Webhooks
@@ -77,6 +170,46 @@ collections:
   name: Lucidya Social Listening Public API
   slug: open-lucidya-ltd-social-listening-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lucidya-ltd-capability-edges.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/lucidya-ltd-pull-social-listening-widget-data.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lucidya-ltd-ai-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/lucidya-ltd-analyze-arabic-text.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/lucidya-ltd-transcribe-audio.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lucidya-ltd-cdp-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/lucidya-ltd-manage-cdp-profiles-and-segments.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lucidya-ltd-omnichannel-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lucidya-ltd-omniserve-analytics-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/lucidya-ltd-run-omniserve-analytics-job.md
 - group: company
   title: ''
   type: Website
@@ -237,13 +370,13 @@ modified: '2026-08-13'
 name: Lucidya Ltd
 nav: Providers
 network: true
-overview: 'Lucidya Ltd publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Lucidya Social Listening API, Lucidya AI API, Lucidya CDP API, and 2 more. Tagged areas include Company, Customer Experience, Social Listening, Customer Data Platform, and Analytics.
+overview: 'Lucidya Ltd publishes 36 APIs on the [APIs.io](https://apis.io/) network, including aggregated pages > Analytics API, aggregated pages > Interactions API, Analytics Jobs API, and 33 more. Tagged areas include Company, Customer Experience, Social Listening, Customer Data Platform, and Analytics.
 
 
   The Lucidya Ltd catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lucidya Ltd''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 30 more developer resources.'
+  Lucidya Ltd''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 40 more developer resources.'
 plans:
 - name: Lucidya Ltd Plans Pricing
   plan_count: 5
@@ -255,18 +388,23 @@ rate_limits:
   slug: lucidya-ltd-rate-limits
 score:
   band: exemplar
-  composite: 68.7
+  composite: 67.5
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 30.3
-    contract_quality: 65.7
+    contract_governance: 18.2
+    contract_quality: 65.8
     developer_ergonomics: 66.1
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 68.7
+  previous_composite: 67.5
   provenance:
     conformance: first-party
     contracts:
@@ -276,8 +414,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/screenshots/lucidya-ltd-2026-07-25T225641.png
 security:

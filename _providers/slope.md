@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 40
   slug: slope-agentic-access
   summary_line: 40 operations · 25 acting
-api_count: 10
+api_count: 1
 apis:
 - description: The Auth API from Slope — 2 operation(s) for auth.
   name: Slope Auth API
@@ -129,6 +129,10 @@ collections:
   name: Slope v4 Auth User Links API
   slug: open-slope-user-links-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/slope-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -287,7 +291,7 @@ overview: 'Slope publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
   The Slope catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Slope''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, sandbox, changelog, and 28 more developer resources.'
+  Slope''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, sandbox, changelog, and 29 more developer resources.'
 random_paper: 1
 rate_limits:
 - limit_count: 0
@@ -295,18 +299,23 @@ rate_limits:
   slug: slope-rate-limits
 score:
   band: developing
-  composite: 47.8
-  delta: 0.0
+  composite: 45.8
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 64.5
     developer_ergonomics: 47.0
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 43.4
-  previous_composite: 47.8
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -323,8 +332,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slope/refs/heads/main/screenshots/slope-2026-08-17T081924.png
 security:

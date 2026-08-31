@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: payerset-agentic-access
   summary_line: 13 operations
-api_count: 5
+api_count: 1
 apis:
 - description: Billing code classification, categorization, and code type reference data.
   name: Payerset Billing Codes API
@@ -83,6 +83,10 @@ collections:
   name: Payerset Data Lake API
   slug: open-payerset
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/payerset-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -142,7 +146,7 @@ network: true
 overview: 'Payerset publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Billing Codes API, Hospital MRF API, Payers API, and 2 more. Tagged areas include Healthcare, Price Transparency, Negotiated Rates, Machine-Readable Files, and Payer Data.
 
 
-  Payerset''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Payerset''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Payerset Plans Pricing
   plan_count: 2
@@ -154,18 +158,23 @@ rate_limits:
   slug: payerset-rate-limits
 score:
   band: thin
-  composite: 34.0
-  delta: 0.1
+  composite: 33.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 50.1
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 33.9
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +188,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payerset/refs/heads/main/screenshots/payerset-2026-08-07T191632.png
 security:

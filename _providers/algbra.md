@@ -11,15 +11,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-08-26'
+  score: 38.7
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 8
   slug: algbra-agentic-access
   summary_line: 8 operations · 2 acting
-api_count: 4
+api_count: 1
 apis:
-- description: Algbra's UK Open Banking Account & Transaction Information (AIS) dedicated interface, conformant to the OBIE Read/Write Standard v3.1, enabling authorised AISP Third Party Providers to create account-
-  name: Algbra Account and Transaction Information API (AIS)
-  slug: algbra-account-transaction-api
 - description: Algbra's UK Open Banking Payment Initiation (PIS) dedicated interface under the OBIE Read/Write Standard v3.1.8, allowing authorised PISP Third Party Providers to initiate payments on a customer's beh
   name: Algbra Payment Initiation API (PIS)
   slug: algbra-payment-initiation-api
@@ -56,11 +53,26 @@ apis:
 - description: Algbra Labs' first-party Partner Banking (Banking-as-a-Service) API for B2B partners, covering customer onboarding and compliance checks, primary and virtual accounts, card issuing, internal/inbound/o
   name: Algbra Partner Banking API
   slug: algbra-partner-banking-api
+- description: The Account Access API from Algbra — 2 operation(s) for account access.
+  name: Algbra Account Access API
+  slug: algbra-account-access-api
+- description: The Accounts API from Algbra — 2 operation(s) for accounts.
+  name: Algbra Accounts API
+  slug: algbra-accounts-api
+- description: The Balances API from Algbra — 1 operation(s) for balances.
+  name: Algbra Balances API
+  slug: algbra-balances-api
+- description: The Beneficiaries API from Algbra — 1 operation(s) for beneficiaries.
+  name: Algbra Beneficiaries API
+  slug: algbra-beneficiaries-api
+- description: The Transactions API from Algbra — 1 operation(s) for transactions.
+  name: Algbra Transactions API
+  slug: algbra-transactions-api
 arazzos:
 - description: Create an OBIE account-access consent, confirm it is authorised, then read the customer's accounts, balances and transactions through Algbra's UK Open Banking (AIS) dedicated interface. All operationI
   name: Algbra OBIE account-access and read
   slug: algbra-account-access-flow
-artifact_total: 12
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Algbra Partner Banking Webhooks
@@ -191,7 +203,7 @@ modified: '2026-07-23'
 name: Algbra
 nav: Providers
 network: true
-overview: 'Algbra publishes 1 API on the [APIs.io](https://apis.io/) network: Account and Transaction Information API (AIS). Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Algbra publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Accounts API, Balances API, and 2 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   The Algbra catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -206,18 +218,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 58.3
-  delta: 2.5
+  composite: 56.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 59.9
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 55.8
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -229,12 +246,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 88.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algbra/refs/heads/main/screenshots/algbra-2026-07-25T195604.png
 security:

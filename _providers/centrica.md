@@ -23,18 +23,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: Token-issuing API on the Centrica FieldOps API Management platform, published on Centrica's Azure API Management developer portal. A single POST /oauth2/token operation exchanges an OAuth2 client_cred
-  name: Centrica FieldOps Identity API
-  slug: centrica-fieldops-identity-api
+- description: The Oauth2 API from Centrica — 1 operation(s) for oauth2.
+  name: Centrica Oauth2 API
+  slug: centrica-oauth2-api
 artifact_total: 8
 collections:
 - collection_type: open
   name: Identity API
   slug: open-centrica-fieldops-identity-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/centrica-fieldops-identity-api-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -164,10 +168,10 @@ modified: '2026-07-27'
 name: Centrica
 nav: Providers
 network: true
-overview: 'Centrica publishes 1 API on the [APIs.io](https://apis.io/) network: FieldOps Identity API. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
+overview: 'Centrica publishes 1 API on the [APIs.io](https://apis.io/) network: Oauth2 API. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
 
 
-  Centrica''s developer surface includes authentication, sandbox, documentation, signup flow, API reference, engineering blog, and 23 more developer resources.'
+  Centrica''s developer surface includes authentication, sandbox, documentation, signup flow, API reference, engineering blog, and 24 more developer resources.'
 plans:
 - name: Centrica Plans
   plan_count: 2
@@ -179,18 +183,23 @@ rate_limits:
   slug: centrica-rate-limits
 score:
   band: developing
-  composite: 53.8
+  composite: 52.6
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 16.7
-    contract_quality: 48.3
+    contract_governance: 4.5
+    contract_quality: 51.0
     developer_ergonomics: 49.4
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 53.8
+  previous_composite: 52.6
   provenance:
     conformance: derived
     contracts:
@@ -206,8 +215,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/screenshots/centrica-2026-08-07T163224.png
 security:

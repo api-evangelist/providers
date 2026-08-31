@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: 'The WooCommerce Store API served from the Reed Semiconductor corporate site. Anonymous, read-only over the product catalog: 99 power-management parts (multiphase controllers, smart power stages, eFuse'
@@ -138,7 +138,7 @@ modified: '2026-08-26'
 name: Reed Semiconductor
 nav: Providers
 network: true
-overview: 'Reed Semiconductor publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Power Management, Electronic Components, and Data Center.
+overview: 'Reed Semiconductor publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Power Management, Electronic Components, and Data-Center.
 
 
   Reed Semiconductor''s developer surface includes engineering blog, support, signup flow, authentication, and 18 more developer resources.'
@@ -158,16 +158,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 19.7
+  composite: 18.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 85.2
+    discoverability: 74.1
     governance: 18.2
     operational_transparency: 0.0
+  previous_composite: 18.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -177,8 +184,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Reed Semiconductor Authentication
@@ -194,7 +202,7 @@ tags:
 - Semiconductors
 - Power Management
 - Electronic Components
-- Data Center
+- Data-Center
 - Artificial Intelligence
 - Automotive
 - Hardware

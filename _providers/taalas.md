@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.0
-  scored_at: '2026-08-26'
+  score: 23.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -176,25 +176,30 @@ modified: '2026-08-02'
 name: Taalas
 nav: Providers
 network: true
-overview: 'Taalas publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Models API, Monitoring API, and 1 more. Tagged areas include Company, Artificial Intelligence, AI Inference, Semiconductors, and AI Accelerator.
+overview: 'Taalas publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Models API, Monitoring API, and 1 more. Tagged areas include Company, artificial-intelligence, ai-inference, semiconductors, and ai-accelerator.
 
 
   Taalas'' developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 20 more developer resources.'
 random_paper: 0
 score:
   band: thin
-  composite: 35.1
-  delta: 0.8
+  composite: 34.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 45.9
+    contract_governance: 4.5
+    contract_quality: 46.8
     developer_ergonomics: 31.5
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 34.3
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -205,8 +210,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -220,15 +225,15 @@ security:
 slug: taalas
 tags:
 - Company
-- Artificial Intelligence
-- AI Inference
-- Semiconductors
-- AI Accelerator
-- Large Language Models
-- Llama
-- Inference API
-- OpenAI-Compatible
-- Hardware
-- Deep Tech
+- artificial-intelligence
+- ai-inference
+- semiconductors
+- ai-accelerator
+- large-language-models
+- llama
+- inference-api
+- openai-compatible
+- hardware
+- deep-tech
 website: https://taalas.com/
 ---

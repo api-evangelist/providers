@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 95
   slug: amazon-storage-gateway-agentic-access
   summary_line: 95 operations · 95 acting · 3 human-in-the-loop
-api_count: 95
+api_count: 2
 apis:
 - description: The Amazon Storage Gateway REST API API from Amazon Storage Gateway — 1 operation(s) for amazon storage gateway rest api.
   name: Amazon Storage Gateway Amazon Storage Gateway REST API API
@@ -908,6 +908,10 @@ collections:
   name: 'Amazon Storage Gateway REST Amazon Storage Gateway REST API #X Amz Target=StorageGateway 20130630.UpdateVTLDeviceType API'
   slug: open-amazon-storage-gateway-x-amz-target-storagegateway-20130630-updatevtldevicetype-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-storage-gateway-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -2990,7 +2994,7 @@ overview: 'Amazon Storage Gateway publishes 95 APIs on the [APIs.io](https://api
   The Amazon Storage Gateway catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Storage Gateway''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 13 more developer resources.'
+  Amazon Storage Gateway''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Storage Gateway Plans Pricing
   plan_count: 3
@@ -3024,18 +3028,23 @@ rules:
   slug: amazon-storage-gateway-spectral-rules
 score:
   band: strong
-  composite: 55.4
-  delta: 4.5
+  composite: 54.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 28.8
     contract_quality: 64.6
     developer_ergonomics: 61.9
-    discoverability: 75.9
+    discoverability: 70.4
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 50.9
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     contracts:
@@ -3043,8 +3052,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 95
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/screenshots/amazon-storage-gateway-2026-06-20T171833.png
 security:

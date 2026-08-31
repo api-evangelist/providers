@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 11
   slug: bmw-connecteddrive-agentic-access
   summary_line: 11 operations · 2 acting
-api_count: 4
+api_count: 1
 apis:
 - description: The BMW CarData Streaming API delivers near-real-time vehicle telematics over MQTT 3.1.1 with TLS. Clients connect to `customer.streaming-cardata.bmwgroup.com` on port 9000, authenticate with their GC
   name: BMW CarData Streaming API
@@ -70,6 +70,10 @@ collections:
   name: CARDATA Containers Vehicles API
   slug: open-bmw-connecteddrive-vehicles-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bmw-connecteddrive-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -201,19 +205,24 @@ network: true
 overview: 'BMW ConnectedDrive publishes 2 APIs on the [APIs.io](https://apis.io/) network: Containers API and Vehicles API. Tagged areas include Automotive, Connected Vehicle, Telematics, Vehicle Data, and CarData.
 
 
-  BMW ConnectedDrive''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, YouTube channel, and 21 more developer resources.'
+  BMW ConnectedDrive''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, YouTube channel, and 22 more developer resources.'
 random_paper: 8
 score:
   band: thin
-  composite: 31.3
-  delta: 0.0
+  composite: 30.8
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 52.4
     developer_ergonomics: 33.3
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 31.3
@@ -224,8 +233,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmw-connecteddrive/refs/heads/main/screenshots/bmw-connecteddrive-2026-06-20T173542.png
 security:

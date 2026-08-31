@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 58.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -43,30 +43,27 @@ agentic_access:
   operation_count: 23
   slug: permutive-agentic-access
   summary_line: 23 operations · 15 acting
-api_count: 7
+api_count: 11
 apis:
-- description: Programmatic create, read, update and delete of audience cohorts in a Permutive workspace. Cohort behaviour is defined by a JSON query language; cohorts carry a UUID id, a short workspace-scoped integ
-  name: Permutive Cohorts API
-  slug: permutive-cohorts-api
 - description: Retrieve contextual cohort targeting values for a page URL without processing any user data, for ad-server integration. Returns cohort codes, per-destination activation mappings and content classifica
   name: Permutive Contextual API
   slug: permutive-contextual-api
-- description: Track first-party behavioural events into Permutive for downstream segmentation, insights and data-lake routing. Events are validated against the event schema defined in the workspace; Permutive gener
-  name: Permutive Events API
-  slug: permutive-events-api
-- description: Mint a first-party Permutive user ID, associate external identities with it (email hashes, ID5, LiveRamp RampID, UID2) as prioritised aliases, and read the resolved identity set back. Publisher-scoped
-  name: Permutive Identity API
-  slug: permutive-identity-api
-- description: Custom Cohort Segmentation (CCS) — evaluate a batch of up to ten events for a user against the workspace's cohort definitions and return the cohorts they belong to plus per-destination activation valu
-  name: Permutive Segmentation API
-  slug: permutive-segmentation-api
-- description: Manage second- and third-party data imports and the segment taxonomy inside them — the mapping of partner segment codes to names, descriptions, categories and CPM. Supports single-segment addressing b
-  name: Permutive Taxonomy API
-  slug: permutive-taxonomy-api
 - description: Permutive's Model Context Protocol surface. A live, anonymous documentation MCP server at https://docs.permutive.com/mcp (search, virtual-filesystem query, feedback), plus an invitation-only audience-
   name: Permutive MCP Server
   slug: permutive-mcp
-artifact_total: 23
+- description: The API version 1 API from Permutive — 2 operation(s) for api version 1.
+  name: Permutive API version 1 API
+  slug: permutive-api-version-1-api
+- description: The v1 API from Permutive — 5 operation(s) for v1.
+  name: Permutive V1 API
+  slug: permutive-v1-api
+- description: The v2.0 API from Permutive — 4 operation(s) for v2.0.
+  name: Permutive V2.0 API
+  slug: permutive-v2-0-api
+- description: The v2 API from Permutive — 2 operation(s) for v2.
+  name: Permutive V2 API
+  slug: permutive-v2-api
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Permutive Webhooks
@@ -94,6 +91,38 @@ collections:
   name: Taxonomy API
   slug: open-permutive-taxonomy-api
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/permutive-manage-cohorts.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/permutive-events-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/permutive-track-and-identify.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/permutive-identity-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/permutive-segmentation-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/permutive-segment-without-an-sdk.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/permutive-taxonomy-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/permutive-manage-import-taxonomy.md
 - group: company
   title: ''
   type: Website
@@ -258,13 +287,13 @@ modified: '2026-08-13'
 name: Permutive
 nav: Providers
 network: true
-overview: 'Permutive publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cohorts API, Contextual API, Events API, and 3 more. Tagged areas include Company, Publishing, Advertising, AdTech, and MarTech.
+overview: 'Permutive publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contextual API, API version 1 API, V1 API, and 2 more. Tagged areas include Company, Publishing, Advertising, AdTech, and MarTech.
 
 
   The Permutive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Permutive''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, authentication, and 31 more developer resources.'
+  Permutive''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, support, authentication, and 39 more developer resources.'
 plans:
 - name: Permutive Plans Pricing
   plan_count: 0
@@ -275,19 +304,24 @@ rate_limits:
   name: Permutive Rate Limits
   slug: permutive-rate-limits
 score:
-  band: strong
-  composite: 56.9
+  band: developing
+  composite: 54.2
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
-    contract_quality: 60.4
+    contract_governance: 18.2
+    contract_quality: 60.2
     developer_ergonomics: 66.7
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 56.9
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -298,8 +332,8 @@ score:
       total: 6
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/permutive/refs/heads/main/screenshots/permutive-2026-08-17T081200.png
 security:

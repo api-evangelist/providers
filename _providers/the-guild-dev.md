@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 10
 apis:
 - description: The @envelop/core package exposes the envelop() function and a set of built-in plugins (useSchema, useEngine, useLogger, useMaskedErrors, useExtendContext) that wrap the GraphQL execution pipeline — p
@@ -58,6 +58,14 @@ apis:
   slug: schema-stitching
 artifact_total: 53
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/dotansimha/graphql-code-generator/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/dotansimha/graphql-code-generator/releases
 - group: commercial
   title: ''
   type: License
@@ -486,7 +494,7 @@ overview: 'The Guild publishes 1 API on the [APIs.io](https://apis.io/) network:
   The The Guild catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  The Guild''s developer surface includes documentation, engineering blog, pricing, getting-started guide, GitHub presence, code examples, and 79 more developer resources.'
+  The Guild''s developer surface includes documentation, engineering blog, pricing, getting-started guide, GitHub presence, code examples, and 81 more developer resources.'
 plans:
 - name: Graphql Codegen Plans Pricing
   plan_count: 3
@@ -547,8 +555,13 @@ rules:
   slug: schema-stitching-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 39.3
-  delta: 1.5
+  composite: 39.7
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 45.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -557,10 +570,13 @@ score:
     developer_ergonomics: 31.0
     discoverability: 72.2
     governance: 25.0
-    operational_transparency: 10.5
-  previous_composite: 37.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 39.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-guild-dev/refs/heads/main/screenshots/schema-stitching-2026-06-20T193517.png
 security:

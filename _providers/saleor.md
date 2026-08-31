@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 2
   slug: saleor-agentic-access
   summary_line: 2 operations · 1 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Single GraphQL endpoint exposing the entire Saleor commerce model - products, variants, categories, collections, channels, checkout, orders, payments, promotions, taxes, attributes, warehouses, and us
   name: Saleor GraphQL API
@@ -83,6 +83,18 @@ collections:
   name: Saleor GraphQL API
   slug: open-saleor
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/saleor/saleor-app-sdk/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/saleor/saleor-app-sdk/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/saleor/.github/blob/main/CODE_OF_CONDUCT.md
 - group: commercial
   title: ''
   type: License
@@ -158,7 +170,7 @@ network: true
 overview: 'Saleor publishes 1 API on the [APIs.io](https://apis.io/) network: Saleor GraphQL API API. Tagged areas include Commerce, Headless, E-Commerce, GraphQL, and Open-Source.
 
 
-  Saleor''s developer surface includes authentication, documentation, API reference, GitHub presence, status page, engineering blog, and 8 more developer resources.'
+  Saleor''s developer surface includes authentication, documentation, API reference, GitHub presence, status page, engineering blog, and 11 more developer resources.'
 plans:
 - name: Saleor Plans Pricing
   plan_count: 1
@@ -169,19 +181,27 @@ rate_limits:
   name: Saleor Rate Limits
   slug: saleor-rate-limits
 score:
-  band: thin
-  composite: 38.8
-  delta: 0.0
+  band: developing
+  composite: 40.2
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 57.1
     developer_ergonomics: 35.7
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 38.8
+    operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     contracts:
@@ -189,8 +209,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saleor/refs/heads/main/screenshots/saleor-2026-06-20T193340.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 91
   slug: sublime-security-agentic-access
   summary_line: 91 operations · 48 acting
-api_count: 16
+api_count: 2
 apis:
 - description: The BinExplode API from Sublime Security — 2 operation(s) for binexplode.
   name: Sublime Security BinExplode API
@@ -270,19 +270,24 @@ overview: 'Sublime Security publishes 16 APIs on the [APIs.io](https://apis.io/)
   Sublime Security''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 19 more developer resources.'
 random_paper: 6
 score:
-  band: developing
-  composite: 39.7
-  delta: 0.0
+  band: thin
+  composite: 38.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_governance: 16.7
-    contract_quality: 60.5
+    contract_governance: 4.5
+    contract_quality: 61.9
     developer_ergonomics: 47.0
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 39.7
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -293,8 +298,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sublime-security/refs/heads/main/screenshots/sublime-security-2026-08-17T082147.png
 security:

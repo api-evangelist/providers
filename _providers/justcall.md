@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 3
   slug: justcall-agentic-access
   summary_line: 3 operations · 2 acting
-api_count: 4
+api_count: 1
 apis:
 - description: REST API for placing calls, sending SMS and MMS messages, managing contacts, phone numbers, users, and call dispositions in JustCall. Authentication uses an API key and API secret passed in the Author
   name: JustCall REST API
@@ -73,6 +73,10 @@ collections:
   name: JustCall REST API
   slug: open-justcall
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/justcall-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -136,22 +140,27 @@ network: true
 overview: 'JustCall publishes 3 APIs on the [APIs.io](https://apis.io/) network: Calls API, Contacts API, and SMS API. Tagged areas include Voice, SMS, Cloud Phone, Contact Center, and Telephony.
 
 
-  JustCall''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
+  JustCall''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
 random_paper: 5
 score:
   band: thin
-  composite: 37.3
-  delta: 2.5
+  composite: 36.7
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 54.4
     developer_ergonomics: 45.2
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 34.8
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -165,8 +174,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/screenshots/justcall-2026-06-20T183845.png
 security:

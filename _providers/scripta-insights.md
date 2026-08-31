@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: A live, anonymous Model Context Protocol endpoint served from the Scripta Insights marketing host and advertised in the company's own /llms.txt. It is the stock Wix Site MCP server (platform-authored,
@@ -137,27 +137,41 @@ rate_limits:
   slug: scripta-insights-rate-limits
 score:
   band: emerging
-  composite: 25.4
+  composite: 24.1
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
+    access_clarity: 43.4
+    commercial_clarity: 43.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 10.5
+  previous_composite: 24.1
   provenance:
     conformance: first-party
     mcp: first-party
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: ccpa-cpra
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: domain-security
   name: Scripta Insights Domain Security
@@ -182,6 +196,6 @@ tags:
 - Digital Health
 - Healthcare Costs
 - Insurance
-- Model Context Protocol
+- MCP
 website: https://www.scriptainsights.com/
 ---

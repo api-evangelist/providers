@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 445
   human_in_the_loop: 88
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 957
   slug: cisco-meraki-agentic-access
   summary_line: 957 operations · 445 acting · 88 human-in-the-loop
-api_count: 21
+api_count: 6
 apis:
 - description: Webhooks API for receiving real-time alerts and events from Meraki networks, including device, network, and security events delivered to configured HTTPS endpoints.
   name: Meraki Webhooks
@@ -96,16 +96,16 @@ apis:
   slug: cisco-meraki-wirelesscontroller-api
 - description: The Deployments API from Cisco Meraki — 8 operation(s) for deployments.
   name: Cisco Meraki Deployments API
-  slug: cisco-meraki-secure-connect-deployments-api
+  slug: cisco-meraki-deployments-api
 - description: The Firewall Applications API from Cisco Meraki — 1 operation(s) for firewall applications.
   name: Cisco Meraki Firewall Applications API
-  slug: cisco-meraki-secure-connect-firewallapplications-api
+  slug: cisco-meraki-firewall-applications-api
 - description: The Policies API from Cisco Meraki — 4 operation(s) for policies.
   name: Cisco Meraki Policies API
-  slug: cisco-meraki-secure-connect-policies-api
+  slug: cisco-meraki-policies-api
 - description: The Reports API from Cisco Meraki — 9 operation(s) for reports.
   name: Cisco Meraki Reports API
-  slug: cisco-meraki-secure-connect-reports-api
+  slug: cisco-meraki-reports-api
 artifact_total: 41
 collections:
 - collection_type: open
@@ -160,6 +160,10 @@ collections:
   name: Cisco Meraki Dashboard API
   slug: open-cisco-meraki
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cisco-meraki-capability-edges.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -223,12 +227,17 @@ network: true
 overview: 'Cisco Meraki publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Administered API, Appliance API, Camera API, and 17 more. Tagged areas include Networking, Wireless, Switching, Security Appliances, and Cloud-Managed Networking.
 
 
-  Cisco Meraki''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
+  Cisco Meraki''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
 random_paper: 10
 score:
   band: thin
   composite: 30.7
-  delta: 2.3
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -238,7 +247,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 28.4
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
@@ -246,8 +255,8 @@ score:
       derived: 0
       marker_coverage: 100.0
       total: 20
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/screenshots/cisco-meraki-2026-06-20T174358.png
 security:

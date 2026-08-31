@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 8
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 84
   slug: stacklok-agentic-access
   summary_line: 84 operations · 39 acting · 8 human-in-the-loop
-api_count: 13
+api_count: 1
 apis:
 - description: The clients API from Stacklok — 5 operation(s) for clients.
   name: Stacklok clients API
@@ -152,18 +152,23 @@ overview: Stacklok publishes 13 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 20
 score:
   band: emerging
-  composite: 19.6
-  delta: 0.0
+  composite: 17.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 95.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 48.8
     developer_ergonomics: 1.8
-    discoverability: 50.0
-    governance: 16.7
+    discoverability: 44.4
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 19.6
+  previous_composite: 18.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -174,8 +179,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

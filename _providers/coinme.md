@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 39
   slug: coinme-agentic-access
   summary_line: 39 operations · 20 acting
-api_count: 28
+api_count: 1
 apis:
 - description: The AuthLinkResult API from Coinme — 1 operation(s) for authlinkresult.
   name: Coinme AuthLinkResult API
@@ -472,18 +472,23 @@ scopes:
   summary_line: 3 scopes · authorization_code/refresh_token/client_credentials/device_code
 score:
   band: strong
-  composite: 57.5
-  delta: 0.0
+  composite: 55.5
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 64.3
     developer_ergonomics: 64.9
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 57.5
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -500,8 +505,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinme/refs/heads/main/screenshots/coinme-2026-07-25T210029.png
 security:

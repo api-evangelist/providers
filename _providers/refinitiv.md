@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 47
   slug: refinitiv-agentic-access
   summary_line: 47 operations · 16 acting
-api_count: 45
+api_count: 5
 apis:
 - description: Python library providing uniform access to the breadth and depth of financial data and services available on the LSEG Data Platform. It offers ease-of-use interfaces for streaming and non-streaming da
   name: Refinitiv Data Library for Python
@@ -273,6 +273,18 @@ collections:
   name: Refinitiv World-Check One API
   slug: open-refinitiv-world-check-one
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/refinitiv-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Refinitiv/Real-Time-SDK/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Refinitiv/Real-Time-SDK/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -476,7 +488,7 @@ overview: 'Refinitiv publishes 26 APIs on the [APIs.io](https://apis.io/) networ
   The Refinitiv catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Refinitiv''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, engineering blog, and 32 more developer resources.'
+  Refinitiv''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, engineering blog, and 35 more developer resources.'
 plans:
 - name: Refinitiv Plans Pricing
   plan_count: 1
@@ -521,18 +533,26 @@ rules:
   slug: refinitiv-rules
 score:
   band: developing
-  composite: 45.0
-  delta: 2.1
+  composite: 44.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 66.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 28.8
-    contract_quality: 71.5
+    contract_quality: 71.4
     developer_ergonomics: 47.6
     discoverability: 50.0
     governance: 28.8
-    operational_transparency: 7.9
-  previous_composite: 42.9
+    operational_transparency: 23.7
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     contracts:
@@ -544,8 +564,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/screenshots/refinitiv-2026-06-20T192746.png
 security:

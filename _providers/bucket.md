@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: bucket-agentic-access
   summary_line: 12 operations · 4 acting
-api_count: 2
+api_count: 1
 apis:
 - description: JSON-over-HTTP API browsers and backends use at runtime to fetch evaluated and enabled flags, and to send users, companies and feature-usage events. Publishable-key (client) or secret-key (server) bea
   name: Reflag Runtime API
@@ -209,19 +209,24 @@ overview: 'Bucket publishes 1 API on the [APIs.io](https://apis.io/) network: Ap
   Bucket''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 26 more developer resources.'
 random_paper: 8
 score:
-  band: strong
-  composite: 54.7
+  band: developing
+  composite: 52.1
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 56.5
     developer_ergonomics: 68.5
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 54.7
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -232,8 +237,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bucket/refs/heads/main/screenshots/bucket-2026-07-25T204024.png
 security:

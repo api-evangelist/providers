@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 98
   slug: synthflow-agentic-access
   summary_line: 98 operations · 61 acting
-api_count: 8
+api_count: 1
 apis:
 - description: 'The Synthflow Platform API provides REST endpoints to manage assistants, phone numbers, calls, knowledge bases, and custom actions for no-code voice AI agents. Authentication is via bearer tokens and '
   name: Synthflow Platform API
@@ -50,24 +50,24 @@ apis:
 - description: The Default API from Synthflow — 49 operation(s) for default.
   name: Synthflow Default API
   slug: synthflow-default-api
-- description: The subpackage_chat API from Synthflow — 4 operation(s) for subpackage_chat.
-  name: Synthflow subpackage_chat API
-  slug: synthflow-subpackage-chat-api
-- description: The subpackage_contacts API from Synthflow — 2 operation(s) for subpackage_contacts.
-  name: Synthflow subpackage_contacts API
-  slug: synthflow-subpackage-contacts-api
-- description: The subpackage_mcp API from Synthflow — 3 operation(s) for subpackage_mcp.
-  name: Synthflow subpackage_mcp API
-  slug: synthflow-subpackage-mcp-api
-- description: The subpackage_memoryStores API from Synthflow — 1 operation(s) for subpackage_memorystores.
-  name: Synthflow subpackage_memoryStores API
-  slug: synthflow-subpackage-memorystores-api
-- description: The subpackage_phoneNumbers API from Synthflow — 3 operation(s) for subpackage_phonenumbers.
-  name: Synthflow subpackage_phoneNumbers API
-  slug: synthflow-subpackage-phonenumbers-api
-- description: The subpackage_webhookLogs API from Synthflow — 2 operation(s) for subpackage_webhooklogs.
-  name: Synthflow subpackage_webhookLogs API
-  slug: synthflow-subpackage-webhooklogs-api
+- description: The chat API from Synthflow — 4 operation(s) for chat.
+  name: Synthflow Chat API
+  slug: synthflow-chat-api
+- description: The contacts API from Synthflow — 2 operation(s) for contacts.
+  name: Synthflow Contacts API
+  slug: synthflow-contacts-api
+- description: The mcp API from Synthflow — 3 operation(s) for mcp.
+  name: Synthflow MCP API
+  slug: synthflow-mcp-api
+- description: The memoryStores API from Synthflow — 1 operation(s) for memorystores.
+  name: Synthflow Memory Stores API
+  slug: synthflow-memorystores-api
+- description: The phoneNumbers API from Synthflow — 3 operation(s) for phonenumbers.
+  name: Synthflow Phone Numbers API
+  slug: synthflow-phonenumbers-api
+- description: The webhookLogs API from Synthflow — 2 operation(s) for webhooklogs.
+  name: Synthflow Webhook Logs API
+  slug: synthflow-webhooklogs-api
 artifact_total: 28
 asyncapis:
 - description: ''
@@ -285,7 +285,7 @@ modified: '2026-08-13'
 name: Synthflow
 nav: Providers
 network: true
-overview: 'Synthflow publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Default API, subpackage_chat API, subpackage_contacts API, and 4 more. Tagged areas include Voice, Voice Agents, No-Code, Telephony, and Phone.
+overview: 'Synthflow publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Default API, Chat API, Contacts API, and 4 more. Tagged areas include Voice, Voice Agents, No-Code, Telephony, and Phone.
 
 
   The Synthflow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -308,18 +308,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
   band: strong
-  composite: 61.8
-  delta: 0.0
+  composite: 59.8
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 63.2
     developer_ergonomics: 71.4
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 61.8
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -330,8 +335,8 @@ score:
       total: 7
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/screenshots/synthflow-2026-06-20T194834.png
 security:

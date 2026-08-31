@@ -24,27 +24,70 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: HIPAA compliant transactional email API. Send a single message, send bulk messages (batches of 50 or fewer recommended), retrieve a message receipt with delivery, open and click tracking, and manage H
-  name: Paubox Email API
-  slug: paubox-email-api
-- description: HIPAA compliant email marketing API. Create, fetch, update, send, schedule, test and bulk-delete campaign mailings; run drip campaigns; manage subscribers, subscriptions and subscription lists includi
-  name: Paubox Marketing API
-  slug: paubox-marketing-api
-- description: HIPAA compliant online form API. Public respondent-facing endpoints retrieve a form definition (HTML, JSON schema, CSS) and submit a response with no authentication — the form UUID is the access contr
-  name: Paubox Forms API
-  slug: paubox-forms-api
 - description: Hosted Model Context Protocol server exposing 30 Paubox tools across email, forms and email marketing to MCP-compatible AI clients. Reachable over streamable HTTP at https://mcp.paubox.com/mcp with OA
   name: Paubox MCP Server
   slug: paubox-mcp-server
-artifact_total: 12
+- description: Campaign analytics and reporting operations
+  name: Paubox Analytics API
+  slug: paubox-analytics-api
+- description: Campaign mailing management and sending operations
+  name: Paubox Campaign Mailings API
+  slug: paubox-campaign-mailings-api
+- description: Drip campaign management and automation operations
+  name: Paubox Drip Campaigns API
+  slug: paubox-drip-campaigns-api
+- description: Manage and use dynamic Handlebars templates for email content
+  name: Paubox Dynamic Templates API
+  slug: paubox-dynamic-templates-api
+- description: Create, list, update, copy, and archive forms (requires API key)
+  name: Paubox Form management API
+  slug: paubox-form-management-api
+- description: Retrieve form definitions and accept submissions
+  name: Paubox Forms API
+  slug: paubox-forms-api
+- description: Send individual or bulk transactional email
+  name: Paubox Messages API
+  slug: paubox-messages-api
+- description: List and export form submissions (requires API key)
+  name: Paubox Submissions API
+  slug: paubox-submissions-api
+- description: Subscriber management operations
+  name: Paubox Subscribers API
+  slug: paubox-subscribers-api
+- description: Subscription list management operations
+  name: Paubox Subscription Lists API
+  slug: paubox-subscription-lists-api
+- description: Subscriber opt-in and opt-out operations
+  name: Paubox Subscriptions API
+  slug: paubox-subscriptions-api
+- description: Tracking link analytics and data operations
+  name: Paubox Tracking Links API
+  slug: paubox-tracking-links-api
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Paubox Email Webhooks
   slug: paubox-email-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/paubox-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/paubox-email-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/paubox-marketing-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/paubox-forms-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -198,13 +241,13 @@ modified: '2026-08-26'
 name: Paubox
 nav: Providers
 network: true
-overview: 'Paubox publishes 3 APIs on the [APIs.io](https://apis.io/) network: Email API, Marketing API, and Forms API. Tagged areas include Email, HIPAA, Healthcare, Compliance, and Transactional Email.
+overview: 'Paubox publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Campaign Mailings API, Drip Campaigns API, and 9 more. Tagged areas include Email, HIPAA, Healthcare, Compliance, and Transactional Email.
 
 
   The Paubox catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Paubox''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  Paubox''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 plans:
 - name: Paubox Plans Pricing
   plan_count: 6
@@ -216,16 +259,23 @@ rate_limits:
   slug: paubox-rate-limits
 score:
   band: exemplar
-  composite: 74.8
+  composite: 72.1
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 30.3
-    contract_quality: 65.9
+    contract_governance: 18.2
+    contract_quality: 65.5
     developer_ergonomics: 78.6
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 57.9
+  previous_composite: 72.1
   provenance:
     conformance: first-party
     contracts:
@@ -237,12 +287,21 @@ score:
     skills: first-party
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    - jurisdiction: US
+      standard: hitech
+    - jurisdiction: US
+      standard: hitrust
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Paubox Authentication

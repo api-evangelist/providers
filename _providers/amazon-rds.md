@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: amazon-rds-agentic-access
   summary_line: 12 operations
-api_count: 4
+api_count: 1
 apis:
 - description: Operations for creating and managing Aurora database clusters
   name: Amazon RDS DB Clusters API
@@ -573,7 +573,7 @@ modified: '2026-05-19'
 name: Amazon RDS
 nav: Providers
 network: true
-overview: 'Amazon RDS publishes 4 APIs on the [APIs.io](https://apis.io/) network, including DB Clusters API, DB Engine Versions API, DB Instances API, and 1 more. Tagged areas include Cloud Databases, Database Service, Database-as-a-Service, Managed Databases, and Relational Databases.
+overview: 'Amazon RDS publishes 4 APIs on the [APIs.io](https://apis.io/) network, including DB Clusters API, DB Engine Versions API, DB Instances API, and 1 more. Tagged areas include Cloud Databases, Database Service, DBaaS, Managed Databases, and Relational Databases.
 
 
   The Amazon RDS catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -613,18 +613,23 @@ rules:
   slug: amazon-rds-spectral-rules
 score:
   band: strong
-  composite: 61.5
-  delta: 7.3
+  composite: 61.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 42.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
     contract_governance: 28.8
     contract_quality: 72.6
     developer_ergonomics: 69.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 54.2
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     contracts:
@@ -632,9 +637,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/screenshots/amazon-rds-2026-06-20T171805.png
 security:
 - kind: authentication
@@ -657,7 +662,7 @@ slug: amazon-rds
 tags:
 - Cloud Databases
 - Database Service
-- Database-as-a-Service
+- DBaaS
 - Managed Databases
 - Relational Databases
 website: https://aws.amazon.com/

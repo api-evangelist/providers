@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 92
   slug: amazon-config-agentic-access
   summary_line: 92 operations · 92 acting · 1 human-in-the-loop
-api_count: 92
+api_count: 1
 apis:
 - description: 'The #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig API from Amazon Config — 1 operation(s) for #x amz target=starlingdoveservice.batchgetaggregateresourceconfig.'
   name: 'Amazon Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig API'
@@ -601,6 +601,10 @@ collections:
   name: 'AWS Config #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.BatchGetAggregateResourceConfig #X Amz Target=StarlingDoveService.UntagResource API'
   slug: open-amazon-config-x-amz-target-starlingdoveservice-untagresource-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-config-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -4442,7 +4446,7 @@ overview: 'Amazon Config publishes 92 APIs on the [APIs.io](https://apis.io/) ne
   The Amazon Config catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Config''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
+  Amazon Config''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 24 more developer resources.'
 random_paper: 19
 rules:
 - effective_rule_count: 5
@@ -4468,18 +4472,23 @@ rules:
   slug: amazon-config-spectral-rules
 score:
   band: strong
-  composite: 55.0
-  delta: 5.9
+  composite: 54.8
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 45.5
-    contract_quality: 67.7
+    contract_governance: 33.3
+    contract_quality: 71.8
     developer_ergonomics: 64.3
-    discoverability: 68.5
-    governance: 45.5
+    discoverability: 70.4
+    governance: 33.3
     operational_transparency: 18.4
-  previous_composite: 49.1
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -4489,9 +4498,9 @@ score:
       marker_coverage: 0.0
       total: 92
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/screenshots/amazon-config-2026-07-25T200004.png
 security:
 - kind: authentication

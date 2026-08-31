@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.0
-  scored_at: '2026-08-26'
+  score: 23.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 94
   slug: mode-agentic-access
   summary_line: 94 operations · 45 acting
-api_count: 11
+api_count: 1
 apis:
 - description: The Account API from Mode — 1 operation(s) for account.
   name: Mode Account API
@@ -115,6 +115,10 @@ collections:
   name: Mode Account Verify API
   slug: open-mode-verify-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/thoughtspot/
 - group: other
   title: ''
   type: Overlay
@@ -230,22 +234,27 @@ network: true
 overview: 'Mode publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account API, Audit Logs API, Data Sources API, and 8 more. Tagged areas include Company, Enterprise, Business Intelligence, Analytics, and Data.
 
 
-  Mode''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 18 more developer resources.'
+  Mode''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 19 more developer resources.'
 random_paper: 1
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 43.7
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 55.1
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 45.7
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,8 +265,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mode/refs/heads/main/screenshots/mode-2026-08-07T183917.png
 security:

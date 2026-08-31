@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 68
   slug: cisco-voice-portal-agentic-access
   summary_line: 68 operations · 24 acting · 1 human-in-the-loop
-api_count: 24
+api_count: 4
 apis:
 - description: Event-driven interface for consuming real-time CVP call lifecycle events, system alerts, device status changes, and operational notifications via JMS messaging and syslog.
   name: Cisco Voice Portal Call Events API
@@ -973,6 +973,11 @@ rules:
 score:
   band: thin
   composite: 32.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 47.4
@@ -991,8 +996,8 @@ score:
       derived: 23
       marker_coverage: 100.0
       total: 23
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/screenshots/cisco-voice-portal-2026-06-20T174408.png
 security:

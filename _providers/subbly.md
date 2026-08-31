@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 21
   slug: subbly-agentic-access
   summary_line: 21 operations · 10 acting
-api_count: 6
+api_count: 1
 apis:
 - description: 'Public Orders API for integrating Subbly orders directly with any third-party logistics (3PL) / fulfillment provider. Subbly states it will provide the Orders API documentation on request rather than '
   name: Subbly Orders API
@@ -166,18 +166,23 @@ rate_limits:
   slug: subbly-rate-limits
 score:
   band: thin
-  composite: 33.4
-  delta: 1.3
+  composite: 32.8
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 13.0
     developer_ergonomics: 47.6
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 32.1
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -185,8 +190,8 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/screenshots/subbly-2026-08-17T082145.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 184
   human_in_the_loop: 10
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 366
   slug: visier-agentic-access
   summary_line: 366 operations · 184 acting · 10 human-in-the-loop
-api_count: 51
+api_count: 9
 apis:
 - description: Visier's hosted Model Context Protocol server, exposing Vee (natural-language workforce question answering) and structured data-query tools to MCP clients such as Claude Desktop and Cursor over HTTPS/
   name: Visier Query MCP Server
@@ -348,6 +348,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/visier-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/visier-administration-apis-overlay.yaml
 - group: company
@@ -520,7 +524,7 @@ overview: 'Visier publishes 50 APIs on the [APIs.io](https://apis.io/) network, 
   The Visier catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Visier''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 32 more developer resources.'
+  Visier''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 33 more developer resources.'
 random_paper: 7
 rate_limits:
 - limit_count: 2
@@ -533,18 +537,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode/password
 score:
   band: strong
-  composite: 57.4
-  delta: 1.1
+  composite: 57.6
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 55.6
     developer_ergonomics: 82.7
-    discoverability: 50.0
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 76.3
-  previous_composite: 56.3
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -555,8 +564,8 @@ score:
       total: 50
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visier/refs/heads/main/screenshots/visier-2026-08-17T082801.png
 security:

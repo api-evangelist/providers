@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 10
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 419
   slug: scaleway-agentic-access
   summary_line: 419 operations · 257 acting · 10 human-in-the-loop
-api_count: 74
+api_count: 10
 apis:
 - description: Scaleway Generative APIs provide access to AI language models and generative AI services hosted on Scaleway's European cloud infrastructure. Compatible with the OpenAI API format for easy integration.
   name: Scaleway Generative APIs
@@ -740,6 +740,10 @@ collections:
   name: Managed Database for PostgreSQL and MySQL Access Control List Webhooks API
   slug: open-scaleway-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/scaleway-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1911,7 +1915,7 @@ overview: 'Scaleway publishes 73 APIs on the [APIs.io](https://apis.io/) network
   The Scaleway catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Scaleway''s developer surface includes authentication, developer portal, documentation, API reference, GitHub presence, CLI, pricing, and 19 more developer resources.'
+  Scaleway''s developer surface includes authentication, developer portal, documentation, API reference, GitHub presence, CLI, pricing, and 20 more developer resources.'
 plans:
 - name: Scaleway Plans Pricing
   plan_count: 2
@@ -1945,7 +1949,12 @@ rules:
 score:
   band: developing
   composite: 50.0
-  delta: 2.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 59.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -1955,7 +1964,7 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 47.6
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1963,8 +1972,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 73
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/screenshots/scaleway-2026-08-17T125218.png
 security:

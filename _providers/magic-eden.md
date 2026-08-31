@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 86
   slug: magic-eden-agentic-access
   summary_line: 86 operations · 25 acting
-api_count: 19
+api_count: 4
 apis:
 - description: The Activity API from Magic Eden — 1 operation(s) for activity.
   name: Magic Eden Activity API
@@ -101,7 +101,22 @@ apis:
 - description: Get information of a wallet
   name: Magic Eden wallets API
   slug: magic-eden-wallets-api
-artifact_total: 80
+- description: Endpoints related to Bitcoin blockchain
+  name: Magic Eden Bitcoin API
+  slug: magic-eden-bitcoin-api
+- description: Endpoints related to Ethereum, Polygon and Base blockchain
+  name: Magic Eden EVM API
+  slug: magic-eden-evm-api
+- description: The General API from Magic Eden — 1 operation(s) for general.
+  name: Magic Eden General API
+  slug: magic-eden-general-api
+- description: Check Diamond Rewards Eligibility
+  name: Magic Eden Rewards API
+  slug: magic-eden-rewards-api
+- description: Endpoints related to Solana blockchain
+  name: Magic Eden Solana API
+  slug: magic-eden-solana-api
+artifact_total: 85
 collections:
 - collection_type: open
   name: API Collection
@@ -366,7 +381,7 @@ modified: '2026-08-08'
 name: Magic Eden
 nav: Providers
 network: true
-overview: 'Magic Eden publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Assets API, Blocks API, and 16 more. Tagged areas include NFT, Web3, Blockchain, Marketplace, and Solana.
+overview: 'Magic Eden publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Assets API, Blocks API, and 21 more. Tagged areas include NFT, Web3, Blockchain, Marketplace, and Solana.
 
 
   The Magic Eden catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -398,18 +413,23 @@ rules:
   slug: magic-eden-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.5
+  composite: 45.6
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 40.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 52.6
+    contract_quality: 53.0
     developer_ergonomics: 42.9
     discoverability: 81.5
     governance: 9.8
     operational_transparency: 50.0
-  previous_composite: 45.5
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -417,8 +437,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magic-eden/refs/heads/main/screenshots/magic-eden-2026-06-20T184844.png
 security:
@@ -445,7 +465,7 @@ tags:
 - Bitcoin
 - Ordinals
 - Runes
-- Multi-Chain
+- Multi-chain
 use_cases:
 - description: Retrieve tokens owned by a wallet and activity history to build a multi-chain NFT portfolio dashboard
   name: NFT Portfolio Tracker

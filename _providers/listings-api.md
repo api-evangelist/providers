@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.1) for managing locations, listings, connected accounts, reviews, posts, and analytics, with a hosted MCP server and llms.txt for agent-native access.
@@ -51,12 +51,17 @@ modified: '2026-07-12'
 name: Listings API
 nav: Providers
 network: true
-overview: 'Listings API publishes 1 API on the [APIs.io](https://apis.io/) network: Listings API. Tagged areas include Business Listings, Local SEO, Locations, Reviews, and Google Business Profile.'
+overview: 'Listings API publishes 1 API on the [APIs.io](https://apis.io/) network: Listings API. Tagged areas include business-listings, local-seo, Locations, Reviews, and google-business-profile.'
 random_paper: 18
 score:
   band: emerging
   composite: 14.9
-  delta: 1.9
+  coverage:
+    artifact_dirs: 1
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -72,21 +77,21 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 13.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 14.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/listings-api/refs/heads/main/screenshots/listings-api-2026-07-25T225325.png
 slug: listings-api
 tags:
-- Business Listings
-- Local SEO
+- business-listings
+- local-seo
 - Locations
 - Reviews
-- Google Business Profile
+- google-business-profile
 - Analytics
 - citation-management
-- Local Marketing
+- local-marketing
 - social-publishing
 - MCP
 - agent-native

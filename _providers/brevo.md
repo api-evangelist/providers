@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
-    idempotency: documented
+    idempotency: verified
     mcp_server: documented
     openapi_examples: partial
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 49.6
-  scored_at: '2026-08-26'
+  score: 52.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 218
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 360
   slug: brevo-agentic-access
   summary_line: 360 operations · 218 acting · 4 human-in-the-loop
-api_count: 29
+api_count: 21
 apis:
 - description: Manage agent online status for conversation availability.
   name: brevo Agent Status API
@@ -113,25 +113,97 @@ apis:
 - description: Create and manage WhatsApp message templates that require Meta approval before use.
   name: brevo WhatsApp Templates API
   slug: brevo-whatsapp-templates-api
-- description: Build and operate reward programs programmatically — create and publish loyalty programs, define point balances and limits, enroll contacts, run the two-phase credit/debit transaction lifecycle, issue
-  name: Brevo Loyalty API
-  slug: brevo-loyalty-api
-- description: 'Manage the Brevo Sales CRM object graph — deals, companies, tasks, notes, files and pipelines — including linking and unlinking deals to contacts and companies, bulk import, and server-side filtering '
-  name: Brevo Sales CRM API
-  slug: brevo-sales-crm-api
-- description: 'Account-level administration: sender identities and IPs, sending domain creation and authentication, webhook subscriptions, organization users and permissions, master-account and sub-account managemen'
-  name: Brevo Accounts and Settings API
-  slug: brevo-accounts-and-settings-api
-- description: Track contact interactions by creating individual or batched events against a contact identifier, feeding automation triggers and segmentation. Batch requests wrap the event array in an events object.
-  name: Brevo Events API
-  slug: brevo-events-api
-- description: Generic create, read and delete over account-defined custom object record types, letting an account model data Brevo does not ship natively — subscription dates, store locations, bookings — and use it
-  name: Brevo Object Management API
-  slug: brevo-object-management-api
-- description: 'Generate a per-contact installation URL for an Apple Wallet or Google Wallet pass. The returned URL encodes the pass, contact and organization identifiers in an encrypted token so it can be shared by '
+- description: The account API from Brevo — 2 operation(s) for account.
+  name: Brevo Account API
+  slug: brevo-account-api
+- description: The balance API from Brevo — 12 operation(s) for balance.
+  name: Brevo Balance API
+  slug: brevo-balance-api
+- description: The companies API from Brevo — 6 operation(s) for companies.
+  name: Brevo Companies API
+  slug: brevo-companies-api
+- description: The consentGroups API from Brevo — 2 operation(s) for consentgroups.
+  name: Brevo Consent Groups API
+  slug: brevo-consentgroups-api
+- description: The conversations API from Brevo — 6 operation(s) for conversations.
+  name: Brevo Conversations API
+  slug: brevo-conversations-api
+- description: The coupons API from Brevo — 3 operation(s) for coupons.
+  name: Brevo Coupons API
+  slug: brevo-coupons-api
+- description: The customObjects API from Brevo — 3 operation(s) for customobjects.
+  name: Brevo Custom Objects API
+  slug: brevo-customobjects-api
+- description: The deals API from Brevo — 8 operation(s) for deals.
+  name: Brevo Deals API
+  slug: brevo-deals-api
+- description: The domains API from Brevo — 3 operation(s) for domains.
+  name: Brevo Domains API
+  slug: brevo-domains-api
+- description: The ecommerce API from Brevo — 15 operation(s) for ecommerce.
+  name: Brevo Ecommerce API
+  slug: brevo-ecommerce-api
+- description: The emailCampaigns API from Brevo — 10 operation(s) for emailcampaigns.
+  name: Brevo Email Campaigns API
+  slug: brevo-emailcampaigns-api
+- description: The event API from Brevo — 2 operation(s) for event.
+  name: Brevo Event API
+  slug: brevo-event-api
+- description: The externalFeeds API from Brevo — 2 operation(s) for externalfeeds.
+  name: Brevo External Feeds API
+  slug: brevo-externalfeeds-api
+- description: The files API from Brevo — 3 operation(s) for files.
+  name: Brevo Files API
+  slug: brevo-files-api
+- description: The inboundParsing API from Brevo — 3 operation(s) for inboundparsing.
+  name: Brevo Inbound Parsing API
+  slug: brevo-inboundparsing-api
+- description: The masterAccount API from Brevo — 21 operation(s) for masteraccount.
+  name: Brevo Master Account API
+  slug: brevo-masteraccount-api
+- description: The notes API from Brevo — 2 operation(s) for notes.
+  name: Brevo Notes API
+  slug: brevo-notes-api
+- description: The payments API from Brevo — 2 operation(s) for payments.
+  name: Brevo Payments API
+  slug: brevo-payments-api
+- description: The process API from Brevo — 2 operation(s) for process.
+  name: Brevo Process API
+  slug: brevo-process-api
+- description: The program API from Brevo — 7 operation(s) for program.
+  name: Brevo Program API
+  slug: brevo-program-api
+- description: The reward API from Brevo — 9 operation(s) for reward.
+  name: Brevo Reward API
+  slug: brevo-reward-api
+- description: The smsCampaigns API from Brevo — 7 operation(s) for smscampaigns.
+  name: Brevo Sms Campaigns API
+  slug: brevo-smscampaigns-api
+- description: The tasks API from Brevo — 3 operation(s) for tasks.
+  name: Brevo Tasks API
+  slug: brevo-tasks-api
+- description: The tier API from Brevo — 6 operation(s) for tier.
+  name: Brevo Tier API
+  slug: brevo-tier-api
+- description: The transactionalEmails API from Brevo — 18 operation(s) for transactionalemails.
+  name: Brevo Transactional Emails API
+  slug: brevo-transactionalemails-api
+- description: The transactionalSms API from Brevo — 4 operation(s) for transactionalsms.
+  name: Brevo Transactional Sms API
+  slug: brevo-transactionalsms-api
+- description: The transactionalWhatsApp API from Brevo — 2 operation(s) for transactionalwhatsapp.
+  name: Brevo Transactional Whats App API
+  slug: brevo-transactionalwhatsapp-api
+- description: The user API from Brevo — 6 operation(s) for user.
+  name: Brevo User API
+  slug: brevo-user-api
+- description: The wallet API from Brevo — 1 operation(s) for wallet.
   name: Brevo Wallet API
   slug: brevo-wallet-api
-artifact_total: 150
+- description: The whatsAppCampaigns API from Brevo — 6 operation(s) for whatsappcampaigns.
+  name: Brevo Whats App Campaigns API
+  slug: brevo-whatsappcampaigns-api
+artifact_total: 174
 asyncapis:
 - description: Brevo delivers real-time event notifications via webhooks for transactional emails, marketing campaigns, transactional SMS, and conversations. When configured, Brevo sends HTTP POST requests to your s
   name: Brevo Webhook Events
@@ -264,6 +336,10 @@ collections:
   name: Brevo WhatsApp API
   slug: open-brevo-whatsapp
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/brevo-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -759,13 +835,13 @@ modified: '2026-08-13'
 name: Brevo
 nav: Providers
 network: true
-overview: 'Brevo publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Agent Status API, Automated Messages API, Campaign Statistics API, and 26 more. Tagged areas include Marketing, Marketing Automation, Email Marketing, Transactional Email, and SMS Marketing.
+overview: 'Brevo publishes 53 APIs on the [APIs.io](https://apis.io/) network, including Agent Status API, Automated Messages API, Campaign Statistics API, and 50 more. Tagged areas include Marketing, Marketing Automation, Email Marketing, Transactional Email, and SMS Marketing.
 
 
   The Brevo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Brevo''s developer surface includes authentication, CLI, changelog, sandbox, documentation, API reference, getting-started guide, and 62 more developer resources.'
+  Brevo''s developer surface includes authentication, CLI, changelog, sandbox, documentation, API reference, getting-started guide, and 63 more developer resources.'
 plans:
 - name: Brevo Plans Pricing
   plan_count: 5
@@ -804,18 +880,23 @@ scopes:
   summary_line: 37 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 87.3
+  composite: 84.4
+  coverage:
+    artifact_dirs: 35
+    catalog_gap: 30.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
-    contract_governance: 45.5
-    contract_quality: 76.9
+    contract_governance: 33.3
+    contract_quality: 75.7
     developer_ergonomics: 80.4
-    discoverability: 92.6
-    governance: 45.5
+    discoverability: 81.5
+    governance: 33.3
     operational_transparency: 92.1
-  previous_composite: 87.3
+  previous_composite: 84.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -832,8 +913,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/screenshots/brevo-2026-06-20T173653.png
 security:

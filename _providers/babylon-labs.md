@@ -20,7 +20,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -31,8 +31,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.5
-  scored_at: '2026-08-26'
+  score: 21.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 19
   slug: babylon-labs-agentic-access
   summary_line: 19 operations · 1 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Shared API endpoints
   name: Babylon Labs shared API
@@ -180,19 +180,24 @@ overview: 'Babylon Labs publishes 3 APIs on the [APIs.io](https://apis.io/) netw
   Babylon Labs'' developer surface includes changelog, documentation, getting-started guide, engineering blog, support, and 19 more developer resources.'
 random_paper: 9
 score:
-  band: developing
-  composite: 39.7
-  delta: 2.8
+  band: thin
+  composite: 38.5
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 44.2
+    contract_governance: 4.5
+    contract_quality: 47.6
     developer_ergonomics: 54.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 36.9
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -203,8 +208,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/screenshots/babylon-labs-2026-07-25T202203.png
 security:

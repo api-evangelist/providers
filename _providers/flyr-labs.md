@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 2.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: FLYR's airline retailing API surface — the Offer & Order Management System (OOMS), a certified NDC+ API for rich-content offers and orders, an NDC Gateway that extends modern retailing to indirect and
@@ -119,14 +119,19 @@ modified: '2026-08-04'
 name: FLYR Labs
 nav: Providers
 network: true
-overview: 'FLYR Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel Technology, Airlines, Hospitality, and Revenue Management.
+overview: 'FLYR Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, travel-technology, airlines, hospitality, and revenue-management.
 
 
   FLYR Labs'' developer surface includes documentation, support, engineering blog, legal docs, and 15 more developer resources.'
 random_paper: 5
 score:
   band: emerging
-  composite: 15.1
+  composite: 14.0
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 17.1
@@ -134,14 +139,14 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 77.8
+    discoverability: 66.7
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 15.1
+  previous_composite: 14.0
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flyr-labs/refs/heads/main/screenshots/flyr-labs-2026-08-07T165355.png
 security:
@@ -152,17 +157,17 @@ security:
 slug: flyr-labs
 tags:
 - Company
-- Travel Technology
-- Airlines
-- Hospitality
-- Revenue Management
-- Dynamic Pricing
-- Artificial Intelligence
+- travel-technology
+- airlines
+- hospitality
+- revenue-management
+- dynamic-pricing
+- artificial-intelligence
 - airline-retailing
-- NDC
+- ndc
 - offer-and-order
-- Hotel Technology
-- Forecasting
-- Cargo
+- hotel-technology
+- forecasting
+- cargo
 website: https://flyr.com/
 ---

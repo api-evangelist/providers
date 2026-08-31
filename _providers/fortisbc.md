@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,7 +103,12 @@ overview: 'FortisBC is profiled on the [APIs.io](https://apis.io/) network. Tagg
 random_paper: 20
 score:
   band: emerging
-  composite: 17.7
+  composite: 18.5
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 27.6
@@ -111,10 +116,10 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 17.7
+  previous_composite: 18.5
   provenance:
     conformance: derived
   regulatory:
@@ -123,8 +128,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 25.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortisbc/refs/heads/main/screenshots/fortisbc-2026-08-07T165419.png
 security:

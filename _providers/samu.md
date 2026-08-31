@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,13 +45,19 @@ agentic_access:
   summary_line: 10 operations · 2 acting
 api_count: 2
 apis:
-- description: REST API for the Samu conversation-intelligence platform. Covers account users, meeting creation and update from externally recorded calls (audio/video URL plus optional transcription), meeting retrie
-  name: API Samu
-  slug: api-samu
 - description: Hosted, remote MCP server that connects Samu to Claude, ChatGPT and other AI agents, published as a Pro-plan feature. The endpoint answers MCP JSON-RPC over HTTP POST at https://api.samu.ai/mcp and is
   name: Samu MCP Server
   slug: samu-mcp-server
-artifact_total: 12
+- description: The Meetings API from Samu — 4 operation(s) for meetings.
+  name: Samu Meetings API
+  slug: samu-meetings-api
+- description: Conversaciones (threads/messages/interactions) de WhatsApp y otros providers
+  name: Samu Threads API
+  slug: samu-threads-api
+- description: The Usuarios API from Samu — 1 operation(s) for usuarios.
+  name: Samu Usuarios API
+  slug: samu-usuarios-api
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Samu
@@ -185,7 +191,7 @@ modified: '2026-08-13'
 name: Samu
 nav: Providers
 network: true
-overview: 'Samu publishes 1 API on the [APIs.io](https://apis.io/) network: API Samu. Tagged areas include Company, Artificial Intelligence, Sales, Sales Intelligence, and Conversation Intelligence.
+overview: 'Samu publishes 3 APIs on the [APIs.io](https://apis.io/) network: Meetings API, Threads API, and Usuarios API. Tagged areas include Company, Artificial Intelligence, Sales, Sales Intelligence, and Conversation Intelligence.
 
 
   Samu''s developer surface includes pricing, signup flow, engineering blog, documentation, API reference, authentication, and 22 more developer resources.'
@@ -205,18 +211,23 @@ scopes:
   summary_line: 1 scope · authorizationCode/refreshToken
 score:
   band: developing
-  composite: 49.2
-  delta: 0.0
+  composite: 46.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 30.3
-    contract_quality: 48.6
+    contract_governance: 18.2
+    contract_quality: 46.9
     developer_ergonomics: 32.7
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 49.2
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -227,8 +238,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/samu/refs/heads/main/screenshots/samu-2026-08-17T081719.png
 security:
@@ -258,6 +269,6 @@ tags:
 - Transcription
 - WhatsApp
 - MCP
-- agent-native
+- Agent Native
 website: https://samu.ai
 ---

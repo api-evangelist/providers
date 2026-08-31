@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 173
   slug: vicai-agentic-access
   summary_line: 173 operations · 112 acting
-api_count: 33
+api_count: 1
 apis:
 - description: GL (General Ledger) accounts are part of your *ERP* **Masterdata**. In order to be associated with an invoice line item, key data about the account must be stored in Vic.ai. These operations allow que
   name: Vic.ai Accounts API
@@ -253,6 +253,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/vicai-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/vicai-overlay.yaml
 - group: start
@@ -385,7 +389,7 @@ overview: 'Vic.ai publishes 33 APIs on the [APIs.io](https://apis.io/) network, 
   The Vic.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Vic.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  Vic.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
 random_paper: 20
 rate_limits:
 - limit_count: 1
@@ -393,18 +397,23 @@ rate_limits:
   slug: vicai-rate-limits
 score:
   band: strong
-  composite: 56.7
-  delta: 0.0
+  composite: 54.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 66.9
     developer_ergonomics: 58.9
-    discoverability: 57.4
-    governance: 16.7
+    discoverability: 51.9
+    governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 56.7
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -421,8 +430,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vicai/refs/heads/main/screenshots/vicai-2026-08-17T082809.png
 security:

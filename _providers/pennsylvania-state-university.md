@@ -1,16 +1,17 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Free · key issued on request by the operating unit
   onboarding: unknown
   pricing: free
   public: false
   source:
-  - plans
+  - openapi
+  - authentication
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,19 +22,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.9
-  scored_at: '2026-08-26'
+  score: 32.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,30 +42,36 @@ agentic_access:
   operation_count: 6
   slug: pennsylvania-state-university-agentic-access
   summary_line: 6 operations
-api_count: 7
+api_count: 3
 apis:
-- description: Penn State University Libraries' faculty and research metadata service, maintained with OSVPR and West Arete. Publishes cleaned researcher metadata (publications, presentations, performances, advising
+- description: Penn State University Libraries' faculty and research metadata service, built and run in-house with OSVPR and West Arete. Publishes cleaned researcher metadata — publications, grants, presentations, p
   name: Researcher Metadata Database (RMD) API
   slug: rmd
-- description: Penn State Information Technology operates a web developer portal that catalogs internal REST services and events and lets developers find, subscribe to, and request elevated access for APIs. Document
-  name: Penn State IT Web Developer Services
-  slug: developer-portal
-- description: University buildings and their facility attributes.
+- description: Penn State's next-generation institutional repository, written by Penn State University Libraries and released under MIT — not a Figshare, Dataverse or DSpace tenancy. The API is described by the Libr
+  name: ScholarSphere API
+  slug: scholarsphere
+- description: An open OAI-PMH 2.0 harvesting endpoint over Penn State's Electronic Theses and Dissertations Archive, served by the Libraries' own etda_explore application on a psu.edu host. Identify reports reposit
+  name: ETDA OAI-PMH Provider
+  slug: etda-oai-pmh
+- description: Penn State operates its own Shibboleth identity provider and registers it in the InCommon federation under entityID urn:mace:incommon:psu.edu. Penn State SERVES ITS OWN SAML metadata at https://as1.fi
+  name: Penn State Identity Federation (InCommon / Shibboleth)
+  slug: identity-federation
+- description: University buildings and their facility attributes. One tag of the Office of Physical Plant's single LionSpaceFIS service; the buildings, campuses, rooms, events and health entries in this file are fi
   name: Pennsylvania State University Buildings API
   slug: pennsylvania-state-university-buildings-api
-- description: Penn State campus reference data.
+- description: Penn State campus reference data, from the Office of Physical Plant LionSpaceFIS service.
   name: Pennsylvania State University Campuses API
   slug: pennsylvania-state-university-campuses-api
-- description: Change events for buildings and rooms.
+- description: Change events for buildings and rooms, from the Office of Physical Plant LionSpaceFIS service.
   name: Pennsylvania State University Events API
   slug: pennsylvania-state-university-events-api
-- description: Service health and status.
+- description: Service health and status for the LionSpaceFIS facilities service; returns appVersion and appStatus with a database connectivity check. Unauthenticated and live (appVersion 1.14.0, probed 2026-08-30).
   name: Pennsylvania State University Health API
   slug: pennsylvania-state-university-health-api
-- description: Rooms within buildings.
+- description: Rooms within buildings, from the Office of Physical Plant LionSpaceFIS service.
   name: Pennsylvania State University Rooms API
   slug: pennsylvania-state-university-rooms-api
-artifact_total: 30
+artifact_total: 36
 collections:
 - collection_type: open
   name: API Collection
@@ -85,6 +92,78 @@ collections:
   name: LionSpaceFIS REST Buildings Rooms API
   slug: open-pennsylvania-state-university-rooms-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.psu.edu/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://metadata.libraries.psu.edu/api_docs
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.scholarsphere.psu.edu/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://scholarsphere.psu.edu/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://etda.libraries.psu.edu/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://as1.fim.psu.edu/idp/shibboleth
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://libraries.psu.edu/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://bulletins.psu.edu/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://www.datacommons.psu.edu/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://ai.psu.edu/explore/guidelines
+- group: build
+  title: ''
+  type: AITooling
+  url: https://ai.psu.edu/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/PennState
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/psu-libraries
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.psu.edu/web-privacy-statement
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/penn-state-university/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/pennsylvania-state-university-conformance.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/pennsylvania-state-university-authentication.yml
+- group: design
+  title: ''
+  type: Errors
+  url: errors/pennsylvania-state-university-problem-types.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -101,26 +180,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/pennsylvania-state-university-domain-security.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://www.psu.edu/
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://docs.developer.psu.edu/
-- group: build
-  title: ''
-  type: GitHub
-  url: https://github.com/PennState
-- group: build
-  title: ''
-  type: SourceCode
-  url: https://github.com/psu-libraries
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/penn-state-university/
 - group: commercial
   title: ''
   type: Plans
@@ -138,7 +197,8 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'Pennsylvania State University (Penn State) is a public, land-grant research university with its primary campus at University Park, PA, and is ranked #69 in the QS World University Rankings 2025. Its public developer footprint is centered on a Penn State IT web developer portal (docs.developer.psu.edu) that catalogs internal REST services such as PSU ID, Academic Course, Cornerstone, Sponsored Accounts, and ASR Lookup, though those API reference pages sit behind Shibboleth/WebAccess single sign-on. Publicly reachable APIs include the Office of Physical Plant LionSpaceFIS facilities REST API and the University Libraries Researcher Metadata Database (RMD), which exposes researcher/publication metadata via an OpenAPI-described REST API gated by a license key. Penn State also maintains public open-source GitHub organizations.'
+description: 'Pennsylvania State University (Penn State) is a public, land-grant research university with its primary campus at University Park, PA, and is ranked #69 in the QS World University Rankings 2025. Its programmable footprint is real but narrow, and it lives almost entirely in University Libraries rather than in central IT. Penn State publishes two genuine first-party OpenAPI descriptions of services it builds and operates itself: the Researcher Metadata Database (RMD), the authority on faculty and research metadata, and ScholarSphere, its self-built institutional repository — both key-gated, both described in OpenAPI 3.0 by the Libraries team that wrote them. Alongside those it runs an open OAI-PMH 2.0 provider over the Electronic Theses and Dissertations Archive, an unauthenticated facilities API from the Office of Physical Plant (LionSpaceFIS), and its own Shibboleth identity provider registered in InCommon. Penn State also authors open-source identity software, including a
+  SCIM 2.0 server implementation. What it no longer has is a central developer portal: docs.developer.psu.edu, which catalogued internal REST services such as PSU ID, Academic Course and Cornerstone behind WebAccess single sign-on, now redirects to sites.psu.edu and has been decommissioned. There is no unified API gateway, no shared credential, and no self-service onboarding — each surface issues its own key out of the unit that operates it.'
 examples:
 - key_count: 2
   name: Pennsylvania State University Gethealth Example
@@ -146,9 +206,18 @@ examples:
 - key_count: 2
   name: Pennsylvania State University Listbuildings Example
   slug: pennsylvania-state-university-listBuildings-example
+- key_count: 6
+  name: Pennsylvania State University Listcampuses Example
+  slug: pennsylvania-state-university-listCampuses-example
 - key_count: 2
   name: Pennsylvania State University Listrooms Example
   slug: pennsylvania-state-university-listRooms-example
+- key_count: 6
+  name: Pennsylvania State University Rmd Unauthenticated Example
+  slug: pennsylvania-state-university-rmd-unauthenticated-example
+- key_count: 6
+  name: Pennsylvania State University Scholarsphere Unauthenticated Example
+  slug: pennsylvania-state-university-scholarsphere-unauthenticated-example
 finops:
 - name: Pennsylvania State University Finops
   service_category: Education
@@ -174,17 +243,17 @@ jsonld:
   property_count: 0
   slug: pennsylvania-state-university-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Pennsylvania State University
 nav: Providers
 network: true
-overview: 'Pennsylvania State University publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Buildings API, Campuses API, Events API, and 2 more. Tagged areas include Education, Higher Education, University, Research, and Library.
+overview: 'Pennsylvania State University publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Researcher Metadata Database (RMD) API, ScholarSphere API, Buildings API, and 4 more. Tagged areas include Education, Higher Education, University, Public Research University, and Land Grant.
 
 
   The Pennsylvania State University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Pennsylvania State University''s developer surface includes GitHub presence and 12 more developer resources.'
+  Pennsylvania State University''s developer surface includes API reference, documentation, authentication, and 23 more developer resources.'
 plans:
 - name: Pennsylvania State University Plans Pricing
   plan_count: 2
@@ -217,19 +286,24 @@ rules:
     warn: 3
   slug: pennsylvania-state-university-rules
 score:
-  band: thin
-  composite: 33.2
-  delta: 6.2
+  band: developing
+  composite: 49.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 16.7
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
-    contract_governance: 13.6
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 31.8
     contract_quality: 24.4
-    developer_ergonomics: 9.5
-    discoverability: 64.8
-    governance: 13.6
-    operational_transparency: 26.3
-  previous_composite: 27.0
+    developer_ergonomics: 35.7
+    discoverability: 74.1
+    governance: 31.8
+    operational_transparency: 23.7
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -242,12 +316,16 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 51.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 81.5
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/pennsylvania-state-university/refs/heads/main/screenshots/pennsylvania-state-university-2026-06-20T191542.png
 security:
+- kind: authentication
+  name: Pennsylvania State University Authentication
+  slug: pennsylvania-state-university-authentication
+  summary_line: apiKey/none/saml · 5 schemes
 - kind: domain-security
   name: Pennsylvania State University Domain Security
   slug: pennsylvania-state-university-domain-security
@@ -265,7 +343,14 @@ tags:
 - Education
 - Higher Education
 - University
+- Public Research University
+- Land Grant
+- Big Ten
 - Research
+- Research Data
+- Research Repository
+- Open Access
+- Identity Federation
 - Library
 - Facilities
 - United States

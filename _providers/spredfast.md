@@ -34,37 +34,160 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-26'
-api_count: 9
+  scored_at: '2026-08-30'
+api_count: 17
 apis:
 - description: 'The current Spredfast / Khoros Marketing publishing and content surface — 39 operations covering initiatives, account sets, message publishing and scheduling, the Content Center (assets and folders), '
   name: Spredfast Conversations API (v2)
   slug: spredfast-conversations-api-v2
-- description: The original Spredfast Conversations API, still live alongside v2 on api.spredfast.com — 27 operations for publishing, assets, folders, initiatives, plans and privileges. Paths take the form /{environ
-  name: Spredfast Conversations API (v1)
-  slug: spredfast-conversations-api-v1
-- description: Asynchronous analytics exports — 12 operations. Eight export endpoints (published posts, daily account metrics, daily post summary, ads net values, stream items, stream item actions, customer feedback
-  name: Spredfast Analytics Reporting API
-  slug: spredfast-analytics-reporting-api
-- description: The event surface — six operations managing event subscriptions. A subscription binds one eventName; setting notificationUri makes delivery a push (with an optional subscriber-supplied bearerToken), o
-  name: Spredfast Notifications (Events) API
-  slug: spredfast-notifications-events-api
-- description: Curated social stream data powering Khoros Marketing Experiences visualisations — 48 operations for stream items, leaderboards, stream meta, topic and hashtag counts, and volume comparison. Served fro
-  name: Spredfast Experiences Stream API
-  slug: spredfast-experiences-stream-api
-- description: Two operations to register and update a customer-implemented Custom CRM so Khoros Marketing can call it — POST /admin/custom and PATCH /admin/custom/{crmId}. The paired contract the customer must impl
-  name: Spredfast CRM Registration API
-  slug: spredfast-crm-registration-api
-- description: 'An INVERTED contract — 13 operations the CUSTOMER implements on their own domain and Khoros Marketing calls. Cases, customers, best-match lookup, a customer''s cases, list and asset resources, and GET '
-  name: Spredfast Custom CRM Callback Contract
-  slug: spredfast-custom-crm-callback-contract
-- description: One operation returning a page of content labels nested within their label sets. Labels are applied to messages and to inbox stream items, and their application raises the stream-item-label-applied ev
-  name: Spredfast Label Sets API
-  slug: spredfast-label-sets-api
-- description: Token introspection — a single GET returning the identity and company behind the presented access token. The whoami call for the Spredfast OAuth surface.
+- description: The AccountSet API from Spredfast — 1 operation(s) for accountset.
+  name: Spredfast Account Set API
+  slug: spredfast-accountset-api
+- description: The Admin API from Spredfast — 2 operation(s) for admin.
+  name: Spredfast Admin API
+  slug: spredfast-admin-api
+- description: The Asset API from Spredfast — 1 operation(s) for asset.
+  name: Spredfast Asset API
+  slug: spredfast-asset-api
+- description: The Assets API from Spredfast — 3 operation(s) for assets.
+  name: Spredfast Assets API
+  slug: spredfast-assets-api
+- description: The Case API from Spredfast — 2 operation(s) for case.
+  name: Spredfast Case API
+  slug: spredfast-case-api
+- description: The Compare.json?streams API from Spredfast — 1 operation(s) for compare.json?streams.
+  name: Spredfast Compare.json?streams API
+  slug: spredfast-compare-json-streams-api
+- description: The Compare.json?streams={content}&sort API from Spredfast — 1 operation(s) for compare.json?streams={content}&sort.
+  name: Spredfast Compare.json?streams={content}&sort API
+  slug: spredfast-compare-json-streams-content-sort-api
+- description: The Compare.json?streams={content}&target API from Spredfast — 1 operation(s) for compare.json?streams={content}&target.
+  name: Spredfast Compare.json?streams={content}&target API
+  slug: spredfast-compare-json-streams-content-target-api
+- description: The Compare.json?streams={content}&target={number}&precision API from Spredfast — 1 operation(s) for compare.json?streams={content}&target={number}&precision.
+  name: Spredfast Compare.json?streams={content}&target={number}&precision API
+  slug: spredfast-compare-json-streams-content-target-number-precision-api
+- description: The Customer API from Spredfast — 4 operation(s) for customer.
+  name: Spredfast Customer API
+  slug: spredfast-customer-api
+- description: The Customers API from Spredfast — 1 operation(s) for customers.
+  name: Spredfast Customers API
+  slug: spredfast-customers-api
+- description: The Data API from Spredfast — 1 operation(s) for data.
+  name: Spredfast Data API
+  slug: spredfast-data-api
+- description: The Entities.json?entity Ids API from Spredfast — 1 operation(s) for entities.json?entity ids.
+  name: Spredfast Entities.json?entity Ids API
+  slug: spredfast-entities-json-entity-ids-api
+- description: The Export API from Spredfast — 10 operation(s) for export.
+  name: Spredfast Export API
+  slug: spredfast-export-api
+- description: The Folder API from Spredfast — 3 operation(s) for folder.
+  name: Spredfast Folder API
+  slug: spredfast-folder-api
+- description: The Initiatives API from Spredfast — 2 operation(s) for initiatives.
+  name: Spredfast Initiatives API
+  slug: spredfast-initiatives-api
+- description: The Introspection Api API from Spredfast — 1 operation(s) for introspection api.
   name: Spredfast Introspection API
-  slug: spredfast-introspection-api
-artifact_total: 26
+  slug: spredfast-introspection-api-api
+- description: The Labels API from Spredfast — 1 operation(s) for labels.
+  name: Spredfast Labels API
+  slug: spredfast-labels-api
+- description: The Labelsets Api API from Spredfast — 1 operation(s) for labelsets api.
+  name: Spredfast Labelsets API
+  slug: spredfast-labelsets-api-api
+- description: The List API from Spredfast — 2 operation(s) for list.
+  name: Spredfast List API
+  slug: spredfast-list-api
+- description: The Me API from Spredfast — 2 operation(s) for me.
+  name: Spredfast Me API
+  slug: spredfast-me-api
+- description: The Messages API from Spredfast — 6 operation(s) for messages.
+  name: Spredfast Messages API
+  slug: spredfast-messages-api
+- description: The Meta API from Spredfast — 1 operation(s) for meta.
+  name: Spredfast Meta API
+  slug: spredfast-meta-api
+- description: The Meta.json?activity API from Spredfast — 1 operation(s) for meta.json?activity.
+  name: Spredfast Meta.json?activity API
+  slug: spredfast-meta-json-activity-api
+- description: The Meta.json?all Topics API from Spredfast — 1 operation(s) for meta.json?all topics.
+  name: Spredfast Meta.json?all Topics API
+  slug: spredfast-meta-json-all-topics-api
+- description: The Meta.json API from Spredfast — 1 operation(s) for meta.json.
+  name: Spredfast Meta.json API
+  slug: spredfast-meta-json-api
+- description: The Meta.json?disregard API from Spredfast — 1 operation(s) for meta.json?disregard.
+  name: Spredfast Meta.json?disregard API
+  slug: spredfast-meta-json-disregard-api
+- description: The Meta.json?finish API from Spredfast — 1 operation(s) for meta.json?finish.
+  name: Spredfast Meta.json?finish API
+  slug: spredfast-meta-json-finish-api
+- description: The Meta.json? Networks API from Spredfast — 1 operation(s) for meta.json? networks.
+  name: Spredfast Meta.json? Networks API
+  slug: spredfast-meta-json-networks-api
+- description: The Meta.json?num Contributors API from Spredfast — 1 operation(s) for meta.json?num contributors.
+  name: Spredfast Meta.json?num Contributors API
+  slug: spredfast-meta-json-num-contributors-api
+- description: The Meta.json?num Days API from Spredfast — 1 operation(s) for meta.json?num days.
+  name: Spredfast Meta.json?num Days API
+  slug: spredfast-meta-json-num-days-api
+- description: The Meta.json?num Hashtags API from Spredfast — 1 operation(s) for meta.json?num hashtags.
+  name: Spredfast Meta.json?num Hashtags API
+  slug: spredfast-meta-json-num-hashtags-api
+- description: The Meta.json?num Hours API from Spredfast — 1 operation(s) for meta.json?num hours.
+  name: Spredfast Meta.json?num Hours API
+  slug: spredfast-meta-json-num-hours-api
+- description: The Meta.json?num Minutes API from Spredfast — 1 operation(s) for meta.json?num minutes.
+  name: Spredfast Meta.json?num Minutes API
+  slug: spredfast-meta-json-num-minutes-api
+- description: The Meta.json?num Trends API from Spredfast — 1 operation(s) for meta.json?num trends.
+  name: Spredfast Meta.json?num Trends API
+  slug: spredfast-meta-json-num-trends-api
+- description: The Meta.json?percent API from Spredfast — 1 operation(s) for meta.json?percent.
+  name: Spredfast Meta.json?percent API
+  slug: spredfast-meta-json-percent-api
+- description: The Meta.json?precision API from Spredfast — 1 operation(s) for meta.json?precision.
+  name: Spredfast Meta.json?precision API
+  slug: spredfast-meta-json-precision-api
+- description: The Meta.json?sort API from Spredfast — 1 operation(s) for meta.json?sort.
+  name: Spredfast Meta.json?sort API
+  slug: spredfast-meta-json-sort-api
+- description: The Meta.json?top Count API from Spredfast — 1 operation(s) for meta.json?top count.
+  name: Spredfast Meta.json?top Count API
+  slug: spredfast-meta-json-top-count-api
+- description: The Meta.json?top Periods API from Spredfast — 1 operation(s) for meta.json?top periods.
+  name: Spredfast Meta.json?top Periods API
+  slug: spredfast-meta-json-top-periods-api
+- description: The Meta.json?top Periods Relative API from Spredfast — 1 operation(s) for meta.json?top periods relative.
+  name: Spredfast Meta.json?top Periods Relative API
+  slug: spredfast-meta-json-top-periods-relative-api
+- description: The MultiChannelMessages API from Spredfast — 1 operation(s) for multichannelmessages.
+  name: Spredfast Multi Channel Messages API
+  slug: spredfast-multichannelmessages-api
+- description: The Permissions API from Spredfast — 1 operation(s) for permissions.
+  name: Spredfast Permissions API
+  slug: spredfast-permissions-api
+- description: The Plans API from Spredfast — 1 operation(s) for plans.
+  name: Spredfast Plans API
+  slug: spredfast-plans-api
+- description: The Stream Api API from Spredfast — 25 operation(s) for stream api.
+  name: Spredfast Stream API
+  slug: spredfast-stream-api-api
+- description: The Streams API from Spredfast — 1 operation(s) for streams.
+  name: Spredfast Streams API
+  slug: spredfast-streams-api
+- description: The Subscription API from Spredfast — 3 operation(s) for subscription.
+  name: Spredfast Subscription API
+  slug: spredfast-subscription-api
+- description: The Surveys API from Spredfast — 1 operation(s) for surveys.
+  name: Spredfast Surveys API
+  slug: spredfast-surveys-api
+- description: The Users API from Spredfast — 1 operation(s) for users.
+  name: Spredfast Users API
+  slug: spredfast-users-api
+artifact_total: 67
 asyncapis:
 - description: ''
   name: Spredfast Events Webhooks
@@ -98,6 +221,50 @@ collections:
   name: notification-service
   slug: open-spredfast-notification-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/spredfast-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spredfast-conversations-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spredfast-analytics-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/spredfast-export-analytics.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spredfast-notification-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/spredfast-subscribe-to-events.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spredfast-experiences-stream-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spredfast-crm-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spredfast-custom-crm-callback-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spredfast-labelsets-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spredfast-introspection-api-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -207,13 +374,13 @@ modified: '2026-08-13'
 name: Spredfast
 nav: Providers
 network: true
-overview: 'Spredfast publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Conversations API (v2), Conversations API (v1), Analytics Reporting API, and 6 more. Tagged areas include Company, Social-Media, Social Media Management, Marketing, and Social Marketing.
+overview: 'Spredfast publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Conversations API (v2), Account Set API, Admin API, and 47 more. Tagged areas include Company, Social-Media, Social Media Management, Marketing, and Social Marketing.
 
 
   The Spredfast catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Spredfast''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 18 more developer resources.'
+  Spredfast''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 29 more developer resources.'
 plans:
 - name: Spredfast Plans Pricing
   plan_count: 0
@@ -230,18 +397,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 36.5
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.9
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 16.7
-    contract_quality: 60.6
+    contract_governance: 4.5
+    contract_quality: 62.7
     developer_ergonomics: 20.8
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 57.4
+    governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 39.1
+  previous_composite: 38.4
   provenance:
     conformance: derived
     contracts:
@@ -251,8 +423,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/screenshots/spredfast-2026-08-17T082041.png
 security:

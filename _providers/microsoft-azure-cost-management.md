@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -117,13 +117,13 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-cost-management.png
 layout: provider
 modified: '2026-05-19'
-name: microsoft-azure-cost-management
+name: Azure Cost Management
 nav: Providers
 network: true
-overview: 'microsoft-azure-cost-management publishes 2 APIs on the [APIs.io](https://apis.io/) network: Exports API and Operations API.
+overview: 'Azure Cost Management publishes 2 APIs on the [APIs.io](https://apis.io/) network: microsoft-azure-cost-management Exports API and microsoft-azure-cost-management Operations API.
 
 
-  microsoft-azure-cost-management''s developer surface includes authentication, developer portal, pricing, support, and 7 more developer resources.'
+  Azure Cost Management''s developer surface includes authentication, developer portal, pricing, support, and 7 more developer resources.'
 plans:
 - name: Microsoft Azure Cost Management Plans Pricing
   plan_count: 3
@@ -140,18 +140,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: thin
-  composite: 36.2
-  delta: 1.9
+  composite: 36.9
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 35.7
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 34.3
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     contracts:
@@ -163,8 +168,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/screenshots/microsoft-azure-cost-management-2026-06-20T185407.png
 security:

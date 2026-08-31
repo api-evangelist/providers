@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,7 +96,7 @@ modified: '2026-07-19'
 name: Hokan
 nav: Providers
 network: true
-overview: 'Hokan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurtech, Insurance, CRM, and Software-as-a-Service.
+overview: 'Hokan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, InsurTech, Insurance, CRM, and Software-as-a-Service.
 
 
   Hokan''s developer surface includes support, engineering blog, and 11 more developer resources.'
@@ -104,6 +104,11 @@ random_paper: 4
 score:
   band: emerging
   composite: 11.5
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 23.7
@@ -121,8 +126,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 15.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hokan/refs/heads/main/screenshots/hokan-2026-07-25T221315.png
 security:
@@ -133,7 +138,7 @@ security:
 slug: hokan
 tags:
 - Company
-- Insurtech
+- InsurTech
 - Insurance
 - CRM
 - Software-as-a-Service

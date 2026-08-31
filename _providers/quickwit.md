@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 26
   slug: quickwit-agentic-access
   summary_line: 26 operations · 15 acting · 1 human-in-the-loop
-api_count: 7
+api_count: 1
 apis:
 - description: Monitor cluster state and node health
   name: Quickwit Cluster API
@@ -91,6 +91,26 @@ collections:
   name: Quickwit REST Cluster Sources API
   slug: open-quickwit-sources-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/quickwit-oss/quickwit/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/quickwit-oss/quickwit/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/quickwit-oss/quickwit/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/quickwit-oss/quickwit/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/quickwit-oss/quickwit/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -170,7 +190,7 @@ network: true
 overview: 'Quickwit publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Delete Tasks API, Index Templates API, and 4 more. Tagged areas include Search, Log Management, Observability, Full-Text Search, and Cloud-Native.
 
 
-  Quickwit''s developer surface includes documentation, engineering blog, YouTube channel, pricing, and 12 more developer resources.'
+  Quickwit''s developer surface includes documentation, engineering blog, YouTube channel, pricing, and 17 more developer resources.'
 plans:
 - name: Quickwit Plans Pricing
   plan_count: 1
@@ -181,19 +201,27 @@ rate_limits:
   name: Quickwit Rate Limits
   slug: quickwit-rate-limits
 score:
-  band: thin
-  composite: 36.2
-  delta: 0.0
+  band: developing
+  composite: 45.1
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 50.9
     developer_ergonomics: 16.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 36.8
-  previous_composite: 36.2
+    operational_transparency: 63.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -201,8 +229,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quickwit/refs/heads/main/screenshots/quickwit-2026-06-20T192434.png
 security:

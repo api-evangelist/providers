@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 4
   slug: xoserve-agentic-access
   summary_line: 4 operations
-api_count: 4
+api_count: 2
 apis:
 - description: Bundled by Xoserve as the Supply Point Quantities service. Lets gas Shippers view the proposed Formula Year (Billing) Annual Quantity value for a meter point ahead of the late-March notification to th
   name: Xoserve Shipper API
@@ -39,13 +39,7 @@ apis:
 - description: Bundled by Xoserve as the Supply Point Enquiry service, part of the Gas Enquiry Service (GES). Exposes detailed supply meter point information, filtered by MPRN, address_id or postcode combined with o
   name: Xoserve Supplier API
   slug: xoserve-supplier-api
-- description: Xoserve Meter Asset from Xoserve, described in OpenAPI.
-  name: Xoserve Meter Asset (Xoserve Meter Asset Api V1)
-  slug: xoserve-meter-asset-api-v1-openapi
-- description: Xoserve Meter Asset from Xoserve, described in OpenAPI.
-  name: Xoserve Meter Asset (Xoserve Meter Asset Api V2)
-  slug: xoserve-meter-asset-api-v2-openapi
-artifact_total: 22
+artifact_total: 20
 collections:
 - collection_type: open
   name: Meter Asset
@@ -236,7 +230,7 @@ modified: '2026-07-27'
 name: Xoserve
 nav: Providers
 network: true
-overview: 'Xoserve publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Shipper API, Supplier API, Meter Asset (Xoserve Meter Asset Api V1), and 1 more. Tagged areas include Energy, United Kingdom, Gas, Utilities, and Energy Markets.
+overview: 'Xoserve publishes 2 APIs on the [APIs.io](https://apis.io/) network: Shipper API and Supplier API. Tagged areas include Energy, United Kingdom, Gas, Utilities, and Energy Markets.
 
 
   Xoserve''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, pricing, getting-started guide, and 27 more developer resources.'
@@ -251,18 +245,23 @@ rate_limits:
   slug: xoserve-rate-limits
 score:
   band: strong
-  composite: 66.3
-  delta: 0.9
+  composite: 64.2
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 38.8
     developer_ergonomics: 66.1
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 63.2
-  previous_composite: 65.4
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -279,8 +278,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 67.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xoserve/refs/heads/main/screenshots/xoserve-2026-08-17T083012.png
 security:

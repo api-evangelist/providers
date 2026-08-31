@@ -25,15 +25,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.2
-  scored_at: '2026-08-26'
+  score: 26.7
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 254
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 413
   slug: picker-agentic-access
   summary_line: 413 operations · 254 acting · 2 human-in-the-loop
-api_count: 64
+api_count: 1
 apis:
 - description: The accounting API from Picker — 1 operation(s) for accounting.
   name: Picker accounting API
@@ -434,6 +434,10 @@ collections:
   name: Picker Production Documentation accounting vtex API
   slug: open-picker-vtex-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/picker-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -530,28 +534,33 @@ modified: '2026-07-20'
 name: Picker
 nav: Providers
 network: true
-overview: 'Picker publishes 64 APIs on the [APIs.io](https://apis.io/) network, including accounting API, Admin API, antiFraud API, and 61 more. Tagged areas include Company, Logistics, Delivery, Last Mile, and Couriers.
+overview: 'Picker publishes 64 APIs on the [APIs.io](https://apis.io/) network, including accounting API, Admin API, antiFraud API, and 61 more. Tagged areas include Company, Logistics, Delivery, Last Mile, and Courier.
 
 
   The Picker catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Picker''s developer surface includes authentication, sandbox, documentation, API reference, pricing, signup flow, engineering blog, and 14 more developer resources.'
+  Picker''s developer surface includes authentication, sandbox, documentation, API reference, pricing, signup flow, engineering blog, and 15 more developer resources.'
 random_paper: 8
 score:
   band: thin
-  composite: 31.8
-  delta: 0.0
+  composite: 29.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 44.4
     developer_ergonomics: 30.4
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 31.8
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -562,8 +571,8 @@ score:
       total: 64
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -580,7 +589,7 @@ tags:
 - Logistics
 - Delivery
 - Last Mile
-- Couriers
+- Courier
 - E-Commerce
 - Shipping
 - Tracking

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 27
   slug: enode-agentic-access
   summary_line: 27 operations · 9 acting · 2 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: Read and control connected home batteries.
   name: Enode Batteries API
@@ -107,6 +107,10 @@ collections:
   name: Enode API
   slug: open-enode
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/enode-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -170,7 +174,7 @@ network: true
 overview: 'Enode publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Batteries API, Chargers API, HVAC API, and 6 more. Tagged areas include Energy, Electric Vehicles, EV Charging, Smart Charging, and Energy Transition.
 
 
-  Enode''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Enode''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Enode Plans Pricing
   plan_count: 2
@@ -182,18 +186,23 @@ rate_limits:
   slug: enode-rate-limits
 score:
   band: thin
-  composite: 37.9
-  delta: 2.3
+  composite: 37.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 49.7
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 35.6
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -207,8 +216,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 24.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/screenshots/enode-2026-07-25T213409.png
 security:

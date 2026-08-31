@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: REST API for account entitlements, credit balance, commercial-insurance prospect search across 134 filter properties, single-prospect retrieval, and asynchronous decision-maker contact enrichment with
   name: LeO Public API
@@ -49,6 +49,10 @@ apis:
   slug: leo-site-mcp-wix-provided
 artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/leo-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -187,7 +191,7 @@ network: true
 overview: 'LeO publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Insurance, Commercial Insurance, Property and Casualty, and Employee Benefits.
 
 
-  LeO''s developer surface includes pricing, signup flow, support, FAQ, engineering blog, documentation, API reference, and 22 more developer resources.'
+  LeO''s developer surface includes pricing, signup flow, support, FAQ, engineering blog, documentation, API reference, and 23 more developer resources.'
 plans:
 - name: Leo Plans Pricing
   plan_count: 4
@@ -204,18 +208,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.3
-  delta: 0.0
+  composite: 54.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 55.1
     developer_ergonomics: 37.5
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 56.3
+  previous_composite: 54.9
   provenance:
     conformance: first-party
     contracts:
@@ -227,12 +236,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 78.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leo/refs/heads/main/screenshots/leo-2026-07-25T224918.png
 security:
@@ -261,6 +274,6 @@ tags:
 - Non-Profit
 - Trucking
 - MCP
-- agent-native
+- Agent Native
 website: https://www.meetleo.com/
 ---

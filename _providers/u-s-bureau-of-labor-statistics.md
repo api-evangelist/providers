@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -304,18 +304,23 @@ rules:
   slug: u-s-bureau-of-labor-statistics-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.4
-  delta: 0.7
+  composite: 35.5
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 25.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 69.7
-    contract_quality: 31.4
+    contract_quality: 31.7
     developer_ergonomics: 33.3
     discoverability: 68.5
     governance: 69.7
     operational_transparency: 7.9
-  previous_composite: 34.7
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -329,8 +334,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-bureau-of-labor-statistics/refs/heads/main/screenshots/u-s-bureau-of-labor-statistics-2026-06-20T195913.png
 security:

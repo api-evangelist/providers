@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -42,12 +42,24 @@ agentic_access:
   operation_count: 43
   slug: stack-moxie-agentic-access
   summary_line: 43 operations · 23 acting
-api_count: 1
+api_count: 2
 apis:
-- description: 'The hosted Stack Moxie REST API. Create, read, update and delete test Scenarios; run them synchronously or asynchronously and read their outcomes and logs; schedule recurring runs; manage Connections '
-  name: Stack Moxie REST API
-  slug: stack-moxie-rest-api
-artifact_total: 8
+- description: Use these calls to provision Organizations (e.g. for your own clients/customers), and automatically grant them (or your own team members) access.
+  name: 'Stack Moxie How To: Administer API'
+  slug: stack-moxie-how-to-administer-api
+- description: Use these calls to Schedule Scenario runs.
+  name: 'Stack Moxie How To: Automate API'
+  slug: stack-moxie-how-to-automate-api
+- description: Use these calls to connect an Organization with Marketing/Sales technologies supported by Stack Moxie.
+  name: 'Stack Moxie How To: Integrate API'
+  slug: stack-moxie-how-to-integrate-api
+- description: Use these calls to organize your test Scenarios into Folders.
+  name: 'Stack Moxie How To: Organize API'
+  slug: stack-moxie-how-to-organize-api
+- description: Use these calls to define test Scenarios, Run them, and retrieve their results.
+  name: 'Stack Moxie How To: Test API'
+  slug: stack-moxie-how-to-test-api
+artifact_total: 12
 common:
 - group: agent
   title: ''
@@ -213,7 +225,7 @@ modified: '2026-08-14'
 name: Stack Moxie
 nav: Providers
 network: true
-overview: 'Stack Moxie publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Company, Revenue Operations, Marketing Operations, Observability, and Monitoring.
+overview: 'Stack Moxie publishes 5 APIs on the [APIs.io](https://apis.io/) network, including How To: Administer API, How To: Automate API, How To: Integrate API, and 2 more. Tagged areas include Company, Revenue Operations, Marketing Operations, Observability, and Monitoring.
 
 
   Stack Moxie''s developer surface includes authentication, API reference, documentation, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
@@ -228,18 +240,23 @@ rate_limits:
   slug: stack-moxie-rate-limits
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 59.3
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 16.7
-    contract_quality: 52.4
+    contract_governance: 4.5
+    contract_quality: 52.0
     developer_ergonomics: 73.2
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 60.8
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,8 +267,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stack-moxie/refs/heads/main/screenshots/stack-moxie-2026-08-17T082056.png
 security:

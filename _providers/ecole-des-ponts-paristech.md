@@ -10,13 +10,13 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -25,56 +25,111 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
-api_count: 3
+  score: 6.3
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: École des Ponts ParisTech's scientific output is deposited in its institutional open-access repository, exposed as the ENPC collection on the national HAL platform operated by CCSD. The HAL Search API
-  name: HAL Search API (ENPC collection)
-  slug: hal-search
-- description: The HAL platform hosting the ENPC institutional repository collection exposes an OAI-PMH 2.0 endpoint for metadata harvesting. The Identify verb resolves live and the ENPC set can be harvested for the
-  name: HAL OAI-PMH Endpoint
-  slug: hal-oai-pmh
-- description: Public PHP source hosted on the official EcoleDesPontsParisTech GitHub organization. A forked OAI-PMH repository plugin for Omeka, modified for the project exposing the school's digital heritage libra
-  name: OAI-PMH Repository Plugin (Omeka)
-  slug: oai-pmh-omeka
-artifact_total: 8
+- description: The one machine-readable contract École des Ponts ParisTech operates on its own infrastructure. A live SAML 2.0 EntityDescriptor served as application/xml from idp.enpc.fr, declaring SingleSignOnServi
+  name: ENPC SAML 2.0 Identity Provider Metadata
+  slug: saml-idp
+- description: 'ENPC''s institutional open-access repository is the ENPC collection inside HAL, the French national open archive operated by CCSD/CNRS, with an ENPC-branded portal at enpc.hal.science. 43,955 records, '
+  name: HAL — ENPC Open-Access Collection (tenant)
+  slug: hal-enpc
+- description: ENPC's research-data repository is the collection with alias "ecoledesponts" (id 148870, dataverseType ORGANIZATIONS_INSTITUTIONS, created 2022-09-13) inside Recherche Data Gouv, the French national D
+  name: Recherche Data Gouv — ENPC Dataverse Collection (tenant)
+  slug: recherche-data-gouv
+- description: ENPC's heritage digital library, holding more than 15,000 digitised documents from the school's collections, serves IIIF Presentation API 2.0 manifests and Gallica image delivery under the hostname he
+  name: L'Héritage des Ponts et Chaussées — IIIF Presentation API (tenant)
+  slug: heritage-iiif
+artifact_total: 10
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/ecole-des-ponts-paristech-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://ecoledesponts.fr/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://ecoledesponts.fr/en/documentation/open-science
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://idp.enpc.fr/saml/metadata
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://enpc.hal.science/
+- group: other
+  title: ''
+  type: ResearchData
+  url: https://entrepot.recherche.data.gouv.fr/dataverse/ecoledesponts
 - group: build
   title: ''
-  type: GitHub
-  url: https://github.com/EcoleDesPontsParisTech
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/ecole-des-ponts-paristech/
-- group: company
-  title: ''
-  type: Twitter
-  url: https://twitter.com/EcoledesPonts
+  type: LibraryCatalog
+  url: https://bibliotheque.enpc.fr/exl-php/accueil
 - group: build
   title: ''
   type: Library
-  url: https://lib.enpc.fr/
+  url: https://ecoledesponts.fr/bibliotheque
+- group: build
+  title: ''
+  type: DigitalLibrary
+  url: https://heritage.ecoledesponts.fr/enpc/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/EcoleDesPontsParisTech
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://ecoledesponts.fr/mentions-legales
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://ecoledesponts.fr/en/data-processing-and-privacy-policy
 - group: other
   title: ''
-  type: Repository
-  url: https://enpc.hal.science/
+  type: Accessibility
+  url: https://ecoledesponts.fr/declaration-accessibilite
+- group: company
+  title: ''
+  type: Blog
+  url: https://ecoledesponts.fr/actualites-evenements
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/ecole-nationale-des-ponts-et-chaussees/
+- group: company
+  title: ''
+  type: Bluesky
+  url: https://bsky.app/profile/ecoledesponts.bsky.social
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/user/EcoledesPonts
+- group: company
+  title: ''
+  type: Instagram
+  url: https://www.instagram.com/ecoledesponts/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ecole-des-ponts-paristech-authentication.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ecole-des-ponts-paristech-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/ecole-des-ponts-paristech-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -91,8 +146,48 @@ common:
   title: ''
   type: Review
   url: review.yml
+coverage:
+  detail: 'ENPC publishes no public API, no developer portal and no OpenAPI. Probed and found absent: api.enpc.fr, api.ecoledesponts.fr, data.enpc.fr, data.ecoledesponts.fr (all DNS-unresolvable), /llms.txt and /.well-known/security.txt on the main site (404). One institution-operated machine-readable contract exists and is recorded — the SAML 2.0 IdP metadata at idp.enpc.fr. Every other programmable surface belongs to a national or vendor platform on which ENPC is a tenant: HAL (CCSD), Recherche Data Gouv (Dataverse), and Gallica Marque Blanche (BnF), the last of which runs under an ENPC hostname that resolves into BnF address space. The previous profile recorded the generic national HAL endpoints at api.archives-ouvertes.fr as ENPC''s own APIs; they are shared national infrastructure used by every French institution and have been re-labelled as a single tenant relationship. Two soft-200 traps were found and are NOT recorded as surfaces: the heritage SRU route returns the HTML search page
+    for every request including operation=explain, and idp.enpc.fr answers every unknown path, including /.well-known/openid-configuration, with the LemonLDAP::NG portal shell. The HAL portal enpc.hal.science answers 200 with an Anubis bot challenge — live, not dead. A dead pointer was removed: the previous Library pointer lib.enpc.fr now redirects off-domain to an unrelated research demo at aikon-demo.huma-num.fr, and the previous Twitter pointer 404s with no X account linked from the ENPC homepage.'
+  evidence:
+  - status: 200
+    url: https://ecoledesponts.fr/
+  - note: DNS does not resolve
+    status: 0
+    url: https://api.ecoledesponts.fr/
+  - note: DNS does not resolve
+    status: 0
+    url: https://api.enpc.fr/
+  - note: DNS does not resolve
+    status: 0
+    url: https://data.ecoledesponts.fr/
+  - status: 404
+    url: https://ecoledesponts.fr/llms.txt
+  - status: 404
+    url: https://ecoledesponts.fr/.well-known/security.txt
+  - note: institution-operated SAML 2.0 EntityDescriptor, 18751 bytes
+    status: 200
+    url: https://idp.enpc.fr/saml/metadata
+  - note: soft-200 — returns the LemonLDAP::NG portal HTML, not an OIDC document
+    status: 200
+    url: https://idp.enpc.fr/.well-known/openid-configuration
+  - note: Anubis bot challenge body — live but bot-blocked
+    status: 200
+    url: https://enpc.hal.science/
+  - note: soft-200 — 45KB HTML search page, not an SRU response
+    status: 200
+    url: https://heritage.ecoledesponts.fr/services/engine/search/sru?operation=explain&version=1.2
+  - note: redirects off-domain to aikon-demo.huma-num.fr — dead as an ENPC pointer, removed
+    status: 200
+    url: https://lib.enpc.fr/
+  - note: dead pointer, removed
+    status: 404
+    url: https://twitter.com/EcoledesPonts
+  reason: no_public_api
+  state: none
 created: '2026-06-03'
-description: 'École des Ponts ParisTech (École nationale des ponts et chaussées, ENPC) is a leading French public engineering grande école based in Champs-sur-Marne, ranked #205 in the QS World University Rankings 2025. Its public developer/API footprint is research- and library-oriented rather than a commercial developer program: the institution operates an institutional open-access repository as the ENPC collection within the national HAL platform, which is harvestable through the HAL Search API and an OAI-PMH endpoint. The school maintains a small public GitHub organization (EcoleDesPontsParisTech) hosting an OAI-PMH repository plugin used for exposing its digital heritage library metadata to Gallica and Europeana. No general-purpose, self-service developer portal with course, timetable, or identity APIs was found publicly documented.'
+description: 'École des Ponts ParisTech (École nationale des ponts et chaussées, ENPC) is a public French grande école of engineering founded in 1747, based in Champs-sur-Marne and a founding member of ParisTech. Its programmable footprint is small and must be read honestly: ENPC operates no public API programme, no developer portal and no API key issuance — api.enpc.fr and api.ecoledesponts.fr do not resolve, and there is no developer section anywhere in the 1,910-URL sitemap of ecoledesponts.fr. The single machine-readable contract ENPC genuinely operates itself is its SAML 2.0 Identity Provider metadata at idp.enpc.fr, whose entityID is registered in the RENATER Fédération Éducation-Recherche and therefore reachable through eduGAIN. Everything else that looks like an ENPC API is a tenant relationship on someone else''s platform: the open-access repository is the ENPC collection inside the national HAL platform operated by CCSD; the research-data repository is the ecoledesponts collection
+  inside the national Recherche Data Gouv Dataverse; and the heritage digital library, though served under heritage.ecoledesponts.fr, is a Gallica Marque Blanche deployment hosted on BnF infrastructure with BnF ARKs and BnF attribution. Those are real institutional facts and are recorded as tenant surfaces — the data is ENPC''s, the contract is not.'
 finops:
 - name: Ecole Des Ponts Paristech Finops
   service_category: Education
@@ -104,17 +199,17 @@ jsonld:
   property_count: 3
   slug: ecole-des-ponts-paristech-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: École des Ponts ParisTech
 nav: Providers
 network: true
-overview: 'École des Ponts ParisTech publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Engineering, and Research.
+overview: 'École des Ponts ParisTech publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Technical University, and Grande École.
 
 
   The École des Ponts ParisTech catalog on APIs.io includes 1 JSON-LD context.
 
 
-  École des Ponts ParisTech''s developer surface includes GitHub presence and 10 more developer resources.'
+  École des Ponts ParisTech''s developer surface includes documentation, engineering blog, YouTube channel, authentication, and 20 more developer resources.'
 plans:
 - name: Ecole Des Ponts Paristech Plans Pricing
   plan_count: 2
@@ -125,45 +220,59 @@ rate_limits:
   name: Ecole Des Ponts Paristech Rate Limits
   slug: ecole-des-ponts-paristech-rate-limits
 score:
-  band: emerging
-  composite: 19.2
-  delta: 1.9
+  band: thin
+  composite: 32.4
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 13.2
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 50.0
+    commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 10.7
-    developer_ergonomics: 9.5
-    discoverability: 64.8
+    contract_quality: 17.3
+    developer_ergonomics: 23.8
+    discoverability: 74.1
     governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 17.3
+    operational_transparency: 23.7
+  previous_composite: 19.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 46.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/screenshots/ecole-des-ponts-paristech-2026-06-20T180431.png
 security:
+- kind: authentication
+  name: Ecole Des Ponts Paristech Authentication
+  slug: ecole-des-ponts-paristech-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Ecole Des Ponts Paristech Domain Security
   slug: ecole-des-ponts-paristech-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: ecole-des-ponts-paristech
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- Technical University
+- Grande École
 - Engineering
+- France
 - Research
 - Open Access
-- Open Data
-- Library
+- Research Data
+- Identity Federation
+- Digital Library
 - OAI-PMH
-- France
+- IIIF
+- SAML
 website: https://ecoledesponts.fr/
 ---

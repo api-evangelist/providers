@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 42
   slug: amazon-agentic-access
   summary_line: 42 operations · 20 acting
-api_count: 18
+api_count: 3
 apis:
 - description: The Amazon Creators API provides programmatic access to Amazon product data for publishers, influencers, and affiliate partners. It is the recommended replacement for the Product Advertising API and r
   name: Amazon Creators API
@@ -203,6 +203,10 @@ collections:
   name: Amazon Advertising Ad Groups Targets API
   slug: open-amazon-targets-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -830,7 +834,7 @@ overview: 'Amazon publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
   The Amazon catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, engineering blog, and 16 more developer resources.'
+  Amazon''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, engineering blog, and 17 more developer resources.'
 plans:
 - name: Amazon Plans Pricing
   plan_count: 3
@@ -881,12 +885,17 @@ rules:
 score:
   band: developing
   composite: 51.5
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 28.8
-    contract_quality: 71.3
+    contract_quality: 71.2
     developer_ergonomics: 50.0
     discoverability: 81.5
     governance: 28.8
@@ -905,8 +914,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png
 security:

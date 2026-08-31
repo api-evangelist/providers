@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-26'
-api_count: 8
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: A first-party Model Context Protocol tool manifest published by Fullpath for AI assistants. Thirteen tools with real JSON Schema inputSchemas covering consent management, shoppers, audiences, tasks, l
   name: Fullpath MCP Tools
@@ -77,6 +77,10 @@ collections:
   name: Autoleadstar Tasks API
   slug: open-autoleadstar-tasks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/autoleadstar-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -181,10 +185,6 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://forgeglobal.com/autoleadstar_stock/
 created: '2026-08-06'
 description: AutoLeadStar is an automotive marketing technology company founded in 2015 in Jerusalem, Israel, that rebranded as Fullpath in March 2023 after raising a $40M Series C. It builds an enhanced Customer Data Platform (CDP) and AI ecosystem for franchise car dealerships, unifying first-party data from the dealership CRM, DMS, website, inventory feed and advertising accounts into a single shopper profile, then activating it through digital advertising, VIN-specific campaigns, equity mining, email/SMS audience activation, website personalization and an AI chat agent. The company opened a public API for the platform in November 2022 and today publishes a Scalar-rendered OpenAPI 3.0 reference at developers.fullpath.com covering shoppers, audiences, leads, tasks, appointments, activities and a vendor Consent Management API, alongside a downloadable Model Context Protocol tool manifest. Fullpath reports more than 2,000 dealership clients across North America and 200+ pre-built integrations,
   and was acquired by Cox Automotive.
@@ -212,19 +212,24 @@ rate_limits:
   name: Autoleadstar Rate Limits
   slug: autoleadstar-rate-limits
 score:
-  band: strong
-  composite: 54.3
-  delta: 4.8
+  band: developing
+  composite: 52.3
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 58.3
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 49.5
+  previous_composite: 52.9
   provenance:
     conformance: first-party
     contracts:
@@ -234,8 +239,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autoleadstar/refs/heads/main/screenshots/autoleadstar-2026-08-07T161958.png
 security:

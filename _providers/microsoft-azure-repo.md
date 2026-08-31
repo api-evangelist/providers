@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 24
   slug: microsoft-azure-repo-agentic-access
   summary_line: 24 operations · 10 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Operations for accessing commit details and commit history within a repository, including diffs and changes.
   name: Azure Repos Commits API
@@ -235,19 +235,24 @@ scopes:
   slug: microsoft-azure-repo-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: strong
-  composite: 54.5
-  delta: 1.4
+  band: developing
+  composite: 53.9
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 61.7
     developer_ergonomics: 71.4
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 53.1
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     contracts:
@@ -255,8 +260,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/screenshots/microsoft-azure-repo-2026-06-20T185433.png
 security:

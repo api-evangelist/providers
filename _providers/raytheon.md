@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-05-02'
 name: Raytheon
 nav: Providers
 network: true
-overview: 'Raytheon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Command and Control, Cybersecurity, Defense, and Electronic Warfare.
+overview: 'Raytheon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Command and Control, Cyber Security, Defense, and Electronic Warfare.
 
 
   Raytheon''s developer surface includes engineering blog and 6 more developer resources.'
@@ -96,6 +96,11 @@ random_paper: 13
 score:
   band: minimal
   composite: 4.2
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -113,8 +118,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raytheon/refs/heads/main/screenshots/raytheon-2026-06-20T192618.png
 security:
@@ -126,7 +131,7 @@ slug: raytheon
 tags:
 - Aerospace
 - Command and Control
-- Cybersecurity
+- Cyber Security
 - Defense
 - Electronic Warfare
 - Fortune 500

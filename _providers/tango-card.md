@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 46
   slug: tango-card-agentic-access
   summary_line: 46 operations · 20 acting
-api_count: 13
+api_count: 1
 apis:
 - description: Manage customer accounts and balances
   name: Tango Card Accounts API
@@ -262,18 +262,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 41.2
-  delta: 1.3
+  composite: 40.6
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 44.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 63.8
     developer_ergonomics: 16.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 30.3
-  previous_composite: 39.9
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -287,8 +292,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/screenshots/tango-card-2026-06-20T194915.png
 security:

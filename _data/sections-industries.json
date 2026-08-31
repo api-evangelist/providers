@@ -11,7 +11,7 @@
   "name": "Agriculture",
   "description": "",
   "icon": "/industries/assets/icons/agriculture.png",
-  "count": 252
+  "count": 253
  },
  {
   "slug": "air-traffic-airspace",
@@ -25,42 +25,42 @@
   "name": "Artificial Intelligence",
   "description": "Model providers, agent frameworks, inference platforms, and the applied AI companies putting them to work behind an API.",
   "icon": "smart_toy",
-  "count": 5194
+  "count": 5139
  },
  {
   "slug": "automotive",
   "name": "Automotive",
   "description": "",
   "icon": "/industries/assets/icons/automotive.png",
-  "count": 397
+  "count": 399
  },
  {
   "slug": "banking",
   "name": "Banking & Open Banking",
   "description": "Banks, credit unions, neobanks, and the open-banking and banking-as-a-service rails that connect to them.",
   "icon": "savings",
-  "count": 878
+  "count": 875
  },
  {
   "slug": "biotechnology",
   "name": "Biotechnology & Drug Discovery",
   "description": "Drug discovery and development, genomics, clinical research, and the computational biology behind modern therapeutics.",
   "icon": "biotech",
-  "count": 1265
+  "count": 1266
  },
  {
   "slug": "blockchain-crypto",
   "name": "Blockchain, Crypto & Web3",
   "description": "Chains, exchanges, wallets, and the on-chain data and settlement infrastructure the digital-asset economy runs on.",
   "icon": "currency_bitcoin",
-  "count": 1342
+  "count": 1344
  },
  {
   "slug": "cannabis",
   "name": "Cannabis",
   "description": "",
   "icon": "/industries/assets/icons/cannabis.png",
-  "count": 24
+  "count": 25
  },
  {
   "slug": "chemicals",
@@ -74,7 +74,7 @@
   "name": "Climate & Sustainability",
   "description": "Climate tech, clean energy, carbon accounting, and the ESG and circular-economy data companies now report against.",
   "icon": "eco",
-  "count": 1105
+  "count": 1106
  },
  {
   "slug": "cloud-data-platform",
@@ -95,14 +95,14 @@
   "name": "Construction",
   "description": "",
   "icon": "/industries/assets/icons/construction.png",
-  "count": 322
+  "count": 320
  },
  {
   "slug": "consumer-goods",
   "name": "Consumer Goods",
   "description": "",
   "icon": "/industries/assets/icons/consumer-goods.png",
-  "count": 164
+  "count": 165
  },
  {
   "slug": "cruise-lines",
@@ -123,14 +123,14 @@
   "name": "Cybersecurity & Identity",
   "description": "Security and identity providers — authentication and authorization, threat detection, application and cloud security, fraud, and privacy.",
   "icon": "security",
-  "count": 2219
+  "count": 2209
  },
  {
   "slug": "data-analytics",
   "name": "Data & Analytics",
   "description": "Warehouses, catalogs, pipelines, and the analytics and business-intelligence layers companies expose as APIs.",
   "icon": "insights",
-  "count": 2418
+  "count": 2407
  },
  {
   "slug": "defense",
@@ -144,14 +144,14 @@
   "name": "Developer Tools & DevOps",
   "description": "The companies developers build on — SDKs and CLIs, CI/CD, containers, observability, API gateways, and the platforms that run it all.",
   "icon": "terminal",
-  "count": 3076
+  "count": 3039
  },
  {
   "slug": "digital-health",
   "name": "Digital Health & Telehealth",
   "description": "Care delivered and coordinated through software — telehealth, EHR interoperability, patient engagement, remote monitoring, and behavioral health.",
   "icon": "monitor_heart",
-  "count": 1880
+  "count": 1876
  },
  {
   "slug": "e-commerce-platform",
@@ -165,28 +165,28 @@
   "name": "Education & EdTech",
   "description": "Universities, school systems, and the learning platforms, credentialing, and research infrastructure around them.",
   "icon": "school",
-  "count": 1155
+  "count": 1150
  },
  {
   "slug": "energy",
   "name": "Energy",
   "description": "",
   "icon": "/industries/assets/icons/energy.png",
-  "count": 687
+  "count": 688
  },
  {
   "slug": "enterprise-software",
   "name": "Enterprise Software",
   "description": "",
   "icon": "/industries/assets/icons/enterprise-software.png",
-  "count": 319
+  "count": 318
  },
  {
   "slug": "entertainment",
   "name": "Entertainment",
   "description": "",
   "icon": "/industries/assets/icons/entertainment.png",
-  "count": 410
+  "count": 411
  },
  {
   "slug": "environmental-services",
@@ -207,7 +207,7 @@
   "name": "Financial Services",
   "description": "",
   "icon": "/industries/assets/icons/financial-services.png",
-  "count": 1141
+  "count": 1206
  },
  {
   "slug": "financial-technology",
@@ -235,28 +235,28 @@
   "name": "Food Service",
   "description": "",
   "icon": "/industries/assets/icons/food-service.png",
-  "count": 73
+  "count": 74
  },
  {
   "slug": "gaming",
   "name": "Gaming & Interactive",
   "description": "Game studios and the engines, multiplayer backends, and immersive platforms behind interactive entertainment.",
   "icon": "sports_esports",
-  "count": 708
+  "count": 707
  },
  {
   "slug": "government",
   "name": "Government & Public Sector",
   "description": "Federal, state, and municipal agencies plus the open-data portals, GovTech vendors, and public-safety systems serving them.",
   "icon": "account_balance",
-  "count": 653
+  "count": 651
  },
  {
   "slug": "healthcare",
   "name": "Healthcare",
   "description": "",
   "icon": "/industries/assets/icons/healthcare.png",
-  "count": 2027
+  "count": 2009
  },
  {
   "slug": "hospitality",
@@ -270,14 +270,14 @@
   "name": "Human Resources & Payroll",
   "description": "Hiring, payroll, benefits, and the workforce systems of record companies run their people on.",
   "icon": "groups",
-  "count": 877
+  "count": 875
  },
  {
   "slug": "hvac-building-automation",
   "name": "HVAC & Building Automation",
   "description": "Heating, ventilation, air conditioning and refrigeration equipment, building automation and management systems, building performance and commissioning analytics, and the field-service software the contracting trade runs on.",
   "icon": "hvac",
-  "count": 67
+  "count": 66
  },
  {
   "slug": "industrial",
@@ -291,28 +291,28 @@
   "name": "Insurance",
   "description": "",
   "icon": "/industries/assets/icons/insurance.png",
-  "count": 687
+  "count": 686
  },
  {
   "slug": "iot",
   "name": "IoT & Connected Devices",
   "description": "Sensors, telematics, smart home and industrial IoT — the physical world reporting in over an API.",
   "icon": "sensors",
-  "count": 931
+  "count": 925
  },
  {
   "slug": "legal-compliance",
   "name": "Legal & Compliance Tech",
   "description": "Legal software and the compliance, RegTech, and risk platforms companies use to stay inside the rules.",
   "icon": "gavel",
-  "count": 1134
+  "count": 1131
  },
  {
   "slug": "life-sciences",
   "name": "Life Sciences",
   "description": "",
   "icon": "/industries/assets/icons/life-sciences.png",
-  "count": 1044
+  "count": 1013
  },
  {
   "slug": "logistics",
@@ -333,14 +333,14 @@
   "name": "Marketing & Advertising",
   "description": "AdTech and MarTech — campaigns, attribution, customer data, personalization, and the demand-generation stack.",
   "icon": "campaign",
-  "count": 1551
+  "count": 1539
  },
  {
   "slug": "media",
   "name": "Media",
   "description": "",
   "icon": "/industries/assets/icons/media.png",
-  "count": 553
+  "count": 554
  },
  {
   "slug": "mining",
@@ -354,14 +354,14 @@
   "name": "Mobility & Fleet",
   "description": "Ride-hailing, micromobility, fleet management, EV charging, and the telematics layer under moving vehicles.",
   "icon": "directions_car",
-  "count": 672
+  "count": 663
  },
  {
   "slug": "creator-economy",
   "name": "Music, Audio & Creator Economy",
   "description": "Music and audio platforms, podcasting, publishing, social, and the tools creators use to make and monetize what they publish.",
   "icon": "graphic_eq",
-  "count": 791
+  "count": 784
  },
  {
   "slug": "nutrition",
@@ -375,7 +375,7 @@
   "name": "Pet Care",
   "description": "",
   "icon": "/industries/assets/icons/pet-care.png",
-  "count": 34
+  "count": 33
  },
  {
   "slug": "pharmaceutical",
@@ -396,7 +396,7 @@
   "name": "Professional Services",
   "description": "",
   "icon": "/industries/assets/icons/professional-services.png",
-  "count": 84
+  "count": 83
  },
  {
   "slug": "rail",
@@ -410,14 +410,14 @@
   "name": "Real Estate",
   "description": "",
   "icon": "/industries/assets/icons/real-estate.png",
-  "count": 611
+  "count": 622
  },
  {
   "slug": "retail",
   "name": "Retail",
   "description": "",
   "icon": "/industries/assets/icons/retail.png",
-  "count": 1043
+  "count": 1046
  },
  {
   "slug": "robotics",
@@ -431,7 +431,7 @@
   "name": "Semiconductors & Hardware",
   "description": "Chips, compute, consumer electronics, and the data-center hardware everything else is built on.",
   "icon": "memory",
-  "count": 1075
+  "count": 1072
  },
  {
   "slug": "space",
@@ -445,14 +445,14 @@
   "name": "Sports",
   "description": "",
   "icon": "/industries/assets/icons/sports.png",
-  "count": 183
+  "count": 182
  },
  {
   "slug": "supply-chain",
   "name": "Supply Chain & Procurement",
   "description": "Sourcing, procurement, freight, warehousing, and the inventory and fulfillment systems that move goods.",
   "icon": "inventory_2",
-  "count": 1279
+  "count": 1280
  },
  {
   "slug": "tax-compliance-software",
@@ -473,21 +473,21 @@
   "name": "Telecommunications & Connectivity",
   "description": "Carriers, network operators, and the messaging, voice, and connectivity platforms built on top of them.",
   "icon": "cell_tower",
-  "count": 1336
+  "count": 1332
  },
  {
   "slug": "transportation",
   "name": "Transportation",
   "description": "",
   "icon": "/industries/assets/icons/transportation.png",
-  "count": 393
+  "count": 394
  },
  {
   "slug": "travel-technology",
   "name": "Travel Technology",
   "description": "",
   "icon": "/industries/assets/icons/travel-technology.png",
-  "count": 54
+  "count": 53
  },
  {
   "slug": "utilities",
@@ -501,14 +501,14 @@
   "name": "Venture Capital & Investing",
   "description": "The firms allocating capital and the platforms moving it — venture and private equity, brokerages, trading, market data, and wealth management.",
   "icon": "trending_up",
-  "count": 1393
+  "count": 1379
  },
  {
   "slug": "video-streaming",
   "name": "Video Streaming",
   "description": "",
   "icon": "/industries/assets/icons/video-streaming.png",
-  "count": 35
+  "count": 36
  },
  {
   "slug": "waste-management",
@@ -522,6 +522,6 @@
   "name": "Weather & Geospatial",
   "description": "Weather, mapping, geocoding, and the satellite and location data feeding everything from logistics to insurance.",
   "icon": "public",
-  "count": 527
+  "count": 528
  }
 ]

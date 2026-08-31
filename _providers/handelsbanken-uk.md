@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 7
 apis:
 - description: The Great Britain market Account Information Service (AIS) API - retrieve account details, balances, and transactions for consenting Handelsbanken UK customers. Published to the Berlin Group NextGenPS
@@ -163,18 +163,23 @@ overview: 'Handelsbanken UK publishes 7 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 10
 score:
   band: thin
-  composite: 37.2
-  delta: 1.5
+  composite: 37.9
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 61.9
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 35.7
+  previous_composite: 37.9
   provenance:
     conformance: first-party
   regulatory:
@@ -182,13 +187,17 @@ score:
     jurisdictions:
     - jurisdiction: EU
       standard: berlin-group-nextgenpsd2
+    - jurisdiction: EU
+      standard: eidas
+    - jurisdiction: EU
+      standard: psd2
     jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/handelsbanken-uk/refs/heads/main/screenshots/handelsbanken-uk-2026-07-25T220612.png
 security:

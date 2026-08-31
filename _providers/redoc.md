@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: ReDoc is an open-source API documentation renderer for OpenAPI specifications, originally created by Rebilly and now maintained by Redocly. It generates a responsive three-panel documentation layout f
@@ -172,7 +172,12 @@ rules:
 score:
   band: thin
   composite: 27.1
-  delta: 1.8
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 54.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -182,9 +187,9 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 28.9
-  previous_composite: 25.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 27.1
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redoc/refs/heads/main/screenshots/redoc-2026-06-20T192730.png
 security:

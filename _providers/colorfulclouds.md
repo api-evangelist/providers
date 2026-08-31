@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -613,18 +613,23 @@ rules:
   slug: colorfulclouds-rules
 score:
   band: thin
-  composite: 38.3
-  delta: 4.7
+  composite: 38.4
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 27.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 28.8
-    contract_quality: 24.2
+    contract_quality: 24.6
     developer_ergonomics: 28.6
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 33.6
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -632,8 +637,8 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/colorfulclouds/refs/heads/main/screenshots/colorfulclouds-2026-06-20T174759.png
 security:

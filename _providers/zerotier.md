@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 38
   slug: zerotier-agentic-access
   summary_line: 38 operations · 16 acting · 2 human-in-the-loop
-api_count: 8
+api_count: 2
 apis:
 - description: The controller API from ZeroTier — 6 operation(s) for controller.
   name: ZeroTier controller API
@@ -125,6 +125,10 @@ collections:
   name: ZeroTier Central controller util API
   slug: open-zerotier-util-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zerotier-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -305,28 +309,33 @@ modified: '2026-07-21'
 name: ZeroTier
 nav: Providers
 network: true
-overview: 'ZeroTier publishes 8 APIs on the [APIs.io](https://apis.io/) network, including controller API, network API, network-member API, and 5 more. Tagged areas include Company, Networking, Software Defined Networking, SDN, and VPN.
+overview: 'ZeroTier publishes 8 APIs on the [APIs.io](https://apis.io/) network, including controller API, network API, network-member API, and 5 more. Tagged areas include Company, Networking, Software-Defined Networking, SDN, and VPN.
 
 
   The ZeroTier catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ZeroTier''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 35 more developer resources.'
+  ZeroTier''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 36 more developer resources.'
 random_paper: 2
 score:
   band: strong
-  composite: 58.3
-  delta: 0.0
+  composite: 56.3
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.8
     developer_ergonomics: 78.0
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 58.3
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -337,8 +346,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerotier/refs/heads/main/screenshots/zerotier-2026-08-17T083100.png
 security:
@@ -362,7 +371,7 @@ slug: zerotier
 tags:
 - Company
 - Networking
-- Software Defined Networking
+- Software-Defined Networking
 - SDN
 - VPN
 - Security

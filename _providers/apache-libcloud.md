@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: The Libcloud Compute API provides a unified Python interface for managing virtual machine instances, images, sizes, and networks across AWS EC2, Azure, GCP, DigitalOcean, Linode, and 25+ other provide
@@ -154,8 +154,13 @@ rate_limits:
   slug: apache-libcloud-rate-limits
 score:
   band: emerging
-  composite: 21.4
-  delta: 0.0
+  composite: 23.2
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.8
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -165,9 +170,12 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 40.0
   previous_composite: 21.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-libcloud/refs/heads/main/screenshots/apache-libcloud-2026-06-20T172117.png
 security:

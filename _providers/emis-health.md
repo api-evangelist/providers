@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -31,23 +31,58 @@ agentic_access:
   operation_count: 80
   slug: emis-health-agentic-access
   summary_line: 80 operations · 8 acting
-api_count: 3
+api_count: 1
 apis:
-- description: The EMIS Partner API (PAPI) is a RESTful JSON API for EMIS-X / EMIS Web integration, exposing appointments, the clinical/medical record, patient demographics, patient matching, organisation lookup, an
-  name: EMIS Partner API (PAPI)
-  slug: emis-partner-api
 - description: EMIS-X App Launch lets partner applications be launched in-context from within the EMIS-X / EMIS Web clinical workflow, passing an authenticated user and patient context to the integrating application
   name: EMIS-X App Launch
   slug: emis-x-app-launch
 - description: EMIS-X Analytics provides partner access to an EMIS-X data warehouse with modelled datasets across domains including Community Pharmacy, Incremental Primary Care Views (iPCVs), OpenSAFELY, Recruit, an
   name: EMIS-X Analytics
   slug: emis-x-analytics
-artifact_total: 9
+- description: The appointments API from EMIS Health — 17 operation(s) for appointments.
+  name: EMIS Health Appointments API
+  slug: emis-health-appointments-api
+- description: The CORS API from EMIS Health — 40 operation(s) for cors.
+  name: EMIS Health CORS API
+  slug: emis-health-cors-api
+- description: The health API from EMIS Health — 1 operation(s) for health.
+  name: EMIS Health Health API
+  slug: emis-health-health-api
+- description: The medicalRecord API from EMIS Health — 12 operation(s) for medicalrecord.
+  name: EMIS Health Medical Record API
+  slug: emis-health-medicalrecord-api
+- description: The organisation API from EMIS Health — 2 operation(s) for organisation.
+  name: EMIS Health Organisation API
+  slug: emis-health-organisation-api
+- description: The patient API from EMIS Health — 1 operation(s) for patient.
+  name: EMIS Health Patient API
+  slug: emis-health-patient-api
+- description: The patientMatching API from EMIS Health — 4 operation(s) for patientmatching.
+  name: EMIS Health Patient Matching API
+  slug: emis-health-patientmatching-api
+- description: The search API from EMIS Health — 1 operation(s) for search.
+  name: EMIS Health Search API
+  slug: emis-health-search-api
+- description: The swagger API from EMIS Health — 1 operation(s) for swagger.
+  name: EMIS Health Swagger API
+  slug: emis-health-swagger-api
+- description: The user API from EMIS Health — 1 operation(s) for user.
+  name: EMIS Health User API
+  slug: emis-health-user-api
+artifact_total: 18
 collections:
 - collection_type: open
   name: Partner API
   slug: open-emis-health-partner-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/emis-health-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emis-health-partner-api-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -144,10 +179,10 @@ modified: '2026-07-24'
 name: EMIS Health
 nav: Providers
 network: true
-overview: 'EMIS Health publishes 1 API on the [APIs.io](https://apis.io/) network: EMIS Partner API (PAPI). Tagged areas include Healthcare, United Kingdom, EHR, EMR, and Interoperability.
+overview: 'EMIS Health publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, CORS API, Health API, and 7 more. Tagged areas include Healthcare, United Kingdom, EHR, EMR, and Interoperability.
 
 
-  EMIS Health''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, and 16 more developer resources.'
+  EMIS Health''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, and 18 more developer resources.'
 random_paper: 13
 scopes:
 - name: Emis Health Scopes
@@ -155,19 +190,24 @@ scopes:
   slug: emis-health-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: developing
-  composite: 39.7
-  delta: 0.0
+  band: thin
+  composite: 37.5
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 40.1
+    contract_governance: 4.5
+    contract_quality: 43.9
     developer_ergonomics: 58.9
-    discoverability: 83.3
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 39.7
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -184,8 +224,8 @@ score:
     regime: Health
     regime_id: health
     score: 55.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/screenshots/emis-health-2026-07-25T213240.png
 security:

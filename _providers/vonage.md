@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 25
   slug: vonage-agentic-access
   summary_line: 25 operations · 18 acting · 3 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: Build multi-channel conversation experiences with threading across SMS, voice, and messaging channels. Manage members, events, and legs within conversation contexts.
   name: Vonage Conversations API
@@ -120,6 +120,10 @@ collections:
   name: Vonage Communications API
   slug: open-vonage
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vonage-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -345,7 +349,7 @@ overview: 'Vonage publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Vonage catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Vonage''s developer surface includes authentication, developer portal, documentation, support, engineering blog, CLI, pricing, and 20 more developer resources.'
+  Vonage''s developer surface includes authentication, developer portal, documentation, support, engineering blog, CLI, pricing, and 21 more developer resources.'
 plans:
 - name: Vonage Plans Pricing
   plan_count: 2
@@ -390,15 +394,20 @@ rules:
   slug: vonage-rules
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 52.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 13.6
     contract_quality: 69.4
     developer_ergonomics: 66.7
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 13.6
     operational_transparency: 13.2
   previous_composite: 53.2
@@ -415,8 +424,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/screenshots/vonage-2026-06-20T165933.png
 security:

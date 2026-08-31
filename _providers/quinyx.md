@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 143
   slug: quinyx-agentic-access
   summary_line: 143 operations · 80 acting
-api_count: 35
+api_count: 3
 apis:
 - description: The Absence Schedules API from Quinyx — 1 operation(s) for absence schedules.
   name: Quinyx Absence Schedules API
@@ -265,6 +265,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/quinyx-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/quinyx-api-v2-overlay.yaml
 - group: start
@@ -390,7 +394,7 @@ network: true
 overview: 'Quinyx publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Absence Schedules API, Absence Types API, Absences API, and 32 more. Tagged areas include Workforce Management, Scheduling, Human Resources, Time Tracking, and Forecasting.
 
 
-  Quinyx''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
+  Quinyx''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
 random_paper: 14
 scopes:
 - name: Quinyx Scopes
@@ -399,18 +403,23 @@ scopes:
   summary_line: 14 scopes · clientCredentials
 score:
   band: developing
-  composite: 48.2
+  composite: 46.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 16.7
-    contract_quality: 54.1
+    contract_governance: 4.5
+    contract_quality: 54.8
     developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 48.2
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -421,8 +430,8 @@ score:
       total: 35
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quinyx/refs/heads/main/screenshots/quinyx-2026-08-17T081427.png
 security:

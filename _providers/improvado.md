@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.7
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Workspace-scoped REST API for embedding Improvado's data extraction, transformation, and load pipeline into agency and platform products. Manages data sources, connections, accounts, extraction templa
   name: Improvado Embedded API v3
@@ -42,9 +42,9 @@ apis:
 - description: Hosted, remote Model Context Protocol server exposing Improvado's marketing data platform to any MCP client (Claude, ChatGPT/Codex, Gemini CLI, Antigravity, Cursor) as 83 published tools across twelve
   name: Improvado Customer MCP
   slug: improvado-customer-mcp
-- description: Free, unauthenticated plain-text question endpoint for AI agents. POST a question and receive a cited plain-text answer about marketing data architecture, connectors, pipelines, attribution and MCP de
-  name: Improvado Public Agent Ask API
-  slug: improvado-public-agent-ask-api
+- description: The Ask API from Improvado — 1 operation(s) for ask.
+  name: Improvado Ask API
+  slug: improvado-ask-api
 artifact_total: 12
 asyncapis:
 - description: ''
@@ -235,7 +235,7 @@ modified: '2026-08-13'
 name: Improvado
 nav: Providers
 network: true
-overview: 'Improvado publishes 1 API on the [APIs.io](https://apis.io/) network: Public Agent Ask API. Tagged areas include Company, Marketing, Marketing Intelligence, Marketing Analytics, and Data Pipeline.
+overview: 'Improvado publishes 1 API on the [APIs.io](https://apis.io/) network: Ask API. Tagged areas include Company, Marketing, Marketing Intelligence, Marketing Analytics, and Data Pipeline.
 
 
   The Improvado catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -258,18 +258,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.2
-  delta: 0.0
+  composite: 61.7
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 30.3
-    contract_quality: 53.7
+    contract_governance: 18.2
+    contract_quality: 56.5
     developer_ergonomics: 71.4
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 64.2
+  previous_composite: 62.3
   provenance:
     conformance: first-party
     contracts:
@@ -279,8 +284,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/screenshots/improvado-2026-07-25T222205.png
 security:

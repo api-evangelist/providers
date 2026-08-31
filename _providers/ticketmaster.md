@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 2
   slug: ticketmaster-agentic-access
   summary_line: 2 operations
-api_count: 8
+api_count: 2
 apis:
 - description: The Ticketmaster Partner API is a restricted API for authorized distribution partners that enables reserving, purchasing, and retrieving ticket and event information programmatically. Authentication u
   name: Ticketmaster Partner API
@@ -240,15 +240,20 @@ rules:
   slug: ticketmaster-rules
 score:
   band: developing
-  composite: 40.5
-  delta: 0.0
+  composite: 40.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 13.6
     contract_quality: 58.8
     developer_ergonomics: 42.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 13.6
     operational_transparency: 10.5
   previous_composite: 40.5
@@ -259,8 +264,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ticketmaster/refs/heads/main/screenshots/ticketmaster-2026-06-20T195332.png
 security:

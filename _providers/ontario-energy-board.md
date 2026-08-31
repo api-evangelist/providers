@@ -23,16 +23,46 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
-- description: The Ontario Energy Board's Open Data programme, launched September 2022 under Ontario's Digital and Data Directive (2021) and expanded in October 2023 ("Open Data 2.0") and August 2024. A crawl of bot
-  name: OEB Open Data
-  slug: oeb-open-data
-- description: The OEB's public regulatory document search, serving every filing, decision, order, licence, code amendment and piece of correspondence in the Board's case record. It runs on Micro Focus / OpenText Co
-  name: OEB Regulatory Document Search (RDS)
-  slug: oeb-regulatory-document-search
-artifact_total: 11
+- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/applications-oeb'
+  name: Ontario Energy Board Applications before the OEB API
+  slug: ontario-energy-board-applications-before-the-oeb-api
+- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/current-electricity-rates-general-service-50-kw-rate-class'
+  name: Ontario Energy Board Current Electricity Rates (General Service < 50 kW Rate Class) API
+  slug: ontario-energy-board-current-electricity-rates-general-service-50-kw-rate-class-api
+- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/current-electricity-rates-residential-rate-class'
+  name: Ontario Energy Board Current Electricity Rates (Residential Rate Class) API
+  slug: ontario-energy-board-current-electricity-rates-residential-rate-class-api
+- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/current-natural-gas-rates-residential-rate-classes'
+  name: Ontario Energy Board Current Natural Gas Rates (Residential Rate Classes) API
+  slug: ontario-energy-board-current-natural-gas-rates-residential-rate-classes-api
+- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/electricity-and-natural-gas-distributors-service-areas'
+  name: Ontario Energy Board Electricity and Natural Gas Distributors - Service Areas API
+  slug: ontario-energy-board-electricity-and-natural-gas-distributors-service-areas-api
+- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/electricity-distributor-complaints-received-oeb'
+  name: Ontario Energy Board Electricity Distributor Complaints Received by the OEB API
+  slug: ontario-energy-board-electricity-distributor-complaints-received-by-the-oeb-api
+- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/electricity-distributor-performance-scorecard'
+  name: Ontario Energy Board Electricity Distributor Performance – Scorecard API
+  slug: ontario-energy-board-electricity-distributor-performance-scorecard-api
+- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/electricity-reporting-record-keeping-requirements-rrr-section-2142-system-reliability'
+  name: 'Ontario Energy Board Electricity Reporting & Record Keeping Requirements (RRR): Section ... API'
+  slug: ontario-energy-board-electricity-reporting-record-keeping-requirements-rrr-section-api
+- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/historical-regulated-price-plan-electricity-rates'
+  name: Ontario Energy Board Historical Regulated Price Plan Electricity Rates API
+  slug: ontario-energy-board-historical-regulated-price-plan-electricity-rates-api
+- description: 'OEB Open Data dataset landing page: https://www.oeb.ca/open-data/licensed-market-participants'
+  name: Ontario Energy Board Licensed Market Participants API
+  slug: ontario-energy-board-licensed-market-participants-api
+- description: Search and retrieve records (filings, decisions, orders, licences, correspondence) in the OEB case record.
+  name: Ontario Energy Board Records API
+  slug: ontario-energy-board-records-api
+- description: The machine-readable query vocabulary the RDS search form itself loads.
+  name: Ontario Energy Board Search Metadata API
+  slug: ontario-energy-board-search-metadata-api
+artifact_total: 21
 collections:
 - collection_type: open
   name: OEB Open Data
@@ -41,6 +71,26 @@ collections:
   name: OEB Regulatory Document Search (RDS)
   slug: open-ontario-energy-board-rds
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ontario-energy-board-open-data-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/ontario-energy-board-pull-open-data.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ontario-energy-board-rds-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/ontario-energy-board-track-case-filings.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/ontario-energy-board-verify-green-button-mandate.md
 - group: agent
   title: ''
   type: MCPServer
@@ -181,25 +231,30 @@ modified: '2026-07-27'
 name: Ontario Energy Board
 nav: Providers
 network: true
-overview: 'Ontario Energy Board publishes 2 APIs on the [APIs.io](https://apis.io/) network: OEB Open Data and OEB Regulatory Document Search (RDS). Tagged areas include Energy, Canada, Ontario, Utilities, and Electricity.
+overview: 'Ontario Energy Board publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Applications before the OEB API, Current Electricity Rates (General Service < 50 kW Rate Class) API, Current Electricity Rates (Residential Rate Class) API, and 9 more. Tagged areas include Energy, Canada, Ontario, Utilities, and Electricity.
 
 
-  Ontario Energy Board''s developer surface includes documentation, developer portal, support, engineering blog, authentication, changelog, and 22 more developer resources.'
+  Ontario Energy Board''s developer surface includes documentation, developer portal, support, engineering blog, authentication, changelog, and 27 more developer resources.'
 random_paper: 8
 score:
   band: developing
-  composite: 49.1
-  delta: 3.1
+  composite: 47.1
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 55.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
-    contract_governance: 45.5
-    contract_quality: 56.9
+    contract_governance: 33.3
+    contract_quality: 57.0
     developer_ergonomics: 58.9
-    discoverability: 68.5
-    governance: 45.5
+    discoverability: 63.0
+    governance: 33.3
     operational_transparency: 15.8
-  previous_composite: 46.0
+  previous_composite: 47.6
   provenance:
     conformance: first-party
     contracts:
@@ -215,8 +270,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ontario-energy-board/refs/heads/main/screenshots/ontario-energy-board-2026-08-07T190420.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: First-party GraphQL router backing the Brigad talent (freelancer) app — talents, propositions/missions, onboarding, experiences, availabilities and billing. Endpoint is hardcoded in Brigad's own web S
@@ -142,7 +142,12 @@ rate_limits:
   slug: brigad-rate-limits
 score:
   band: thin
-  composite: 31.3
+  composite: 30.2
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 38.2
@@ -150,10 +155,10 @@ score:
     contract_governance: 0.0
     contract_quality: 37.2
     developer_ergonomics: 19.0
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 31.3
+  previous_composite: 30.2
   provenance:
     mcp: derived
   regulatory:
@@ -162,8 +167,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brigad/refs/heads/main/screenshots/brigad-2026-07-25T203819.png
 security:

@@ -23,12 +23,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.2
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Unauthenticated, source-linked current and historical Southend-on-Sea observations covering weather, designated bathing waters, marine conditions, modelled air quality and flood alerts. Three operatio
-  name: Southend Now Public Data API
-  slug: southendonsea-now-api
+- description: Current and archived source-linked city observations
+  name: SouthendOnSea.city Southend Now API
+  slug: southendonsea-southend-now-api
 artifact_total: 2
 common:
 - group: other
@@ -66,7 +66,7 @@ modified: '2026-08-23'
 name: SouthendOnSea.city
 nav: Providers
 network: true
-overview: 'SouthendOnSea.city publishes 1 API on the [APIs.io](https://apis.io/) network: Southend Now Public Data API. Tagged areas include Open Data, Local Government Data, Environment, Weather, and Water Quality.
+overview: 'SouthendOnSea.city publishes 1 API on the [APIs.io](https://apis.io/) network: Southend Now API. Tagged areas include open data, Southend-on-Sea, weather, environment, and local data.
 
 
   SouthendOnSea.city''s developer surface includes documentation and 5 more developer resources.'
@@ -74,7 +74,12 @@ random_paper: 1
 score:
   band: emerging
   composite: 25.6
-  delta: 2.2
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -84,7 +89,7 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 23.4
+  previous_composite: 25.6
   provenance:
     contracts:
       callable: 100.0
@@ -97,18 +102,15 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 14.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: southendonsea
 tags:
-- Open Data
-- Local Government Data
-- Environment
-- Weather
-- Water Quality
-- Air Quality
-- Civic Tech
-- United Kingdom
+- open data
+- Southend-on-Sea
+- weather
+- environment
+- local data
 website: https://southendonsea.city
 ---

@@ -12,9 +12,10 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,10 +23,10 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.1
-  scored_at: '2026-08-26'
+  score: 43.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 2
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 171
   slug: walmart-agentic-access
   summary_line: 171 operations · 82 acting · 2 human-in-the-loop
-api_count: 25
+api_count: 27
 apis:
 - description: The Assortment Recommendations API from Walmart — 3 operation(s) for assortment recommendations.
   name: Walmart Assortment Recommendations API
@@ -119,7 +120,14 @@ apis:
 - description: The Utilities API from Walmart — 4 operation(s) for utilities.
   name: Walmart Utilities API
   slug: walmart-utilities-api
-artifact_total: 69
+artifact_total: 77
+asyncapis:
+- description: AsyncAPI 2.6 description of the Walmart Marketplace Notifications surface — also known as Walmart's seller webhooks / push notifications. Walmart POSTs a JSON payload describing an event to a seller-d
+  name: Walmart Marketplace Notifications (Webhooks)
+  slug: walmart-marketplace-notifications-asyncapi
+- description: ''
+  name: Walmart Webhooks
+  slug: walmart-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -197,6 +205,10 @@ collections:
   name: Walmart Cost Management Assortment Recommendations Utilities API
   slug: open-walmart-utilities-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/walmart-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -228,35 +240,155 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://developer.walmart.com/home/us-mp/
+  url: https://developer.walmart.com/us-marketplace/docs/introduction-to-marketplace-apis
 - group: start
   title: ''
   type: Sandbox
-  url: https://developer.walmart.com/doc/sandbox/
+  url: https://developer.walmart.com/us-marketplace/docs/walmart-api-sandbox
 - group: other
   title: ''
   type: Whats New
-  url: https://developer.walmart.com/category/us/whats-new/
+  url: https://developer.walmart.com/us-marketplace/page/whats-new
 - group: operate
   title: ''
   type: Support
-  url: https://developer.walmart.com/home/help/
+  url: https://developer.walmart.com/us-marketplace/docs/troubleshooting-and-support
 - group: operate
   title: ''
   type: FAQ
-  url: https://developer.walmart.com/faq/us/
+  url: https://developer.walmart.com/us-marketplace/docs/frequently-asked-questions-faqs
 - group: operate
   title: ''
   type: StatusPage
-  url: https://developer.walmart.com/apiStatus
+  url: https://developer.walmart.com/api-status
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://developer.walmart.com/faq/terms-and-conditions
+  url: https://developer.walmart.com/us-marketplace/page/terms-and-conditions
 - group: other
   title: ''
   type: Summary
   url: ''
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.walmart.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.walmart.com/us-marketplace/reference/getallorders
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.walmart.com/us-marketplace/page/getting-started
+- group: company
+  title: ''
+  type: Blog
+  url: https://tech.walmart.com/content/walmart-global-tech/en_us/blog.html
+- group: build
+  title: ''
+  type: Postman
+  url: https://developer.walmart.com/us-marketplace/page/walmart-api-postman-collection
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://marketplace.walmart.com/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://marketplace.walmart.com/apply/
+- group: start
+  title: ''
+  type: Login
+  url: https://developer.walmart.com/account/generateKey
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://corporate.walmart.com/privacy-security
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developer.walmart.com/us-marketplace/docs/walmart-marketplace-api-deprecation-guide
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/walmart-changelog.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://corporate.walmart.com/article/responsible-disclosure-policy
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/walmart-lifecycle.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/walmart-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/walmart-plans-pricing.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/walmart-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/walmart-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/walmart-conformance.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/walmart-mcp.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/walmart-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/walmart-security.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/walmart-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/walmart-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/walmart-packages.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/walmart-marketplace-notifications-asyncapi.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/walmart-webhooks.yml
+- group: docs
+  title: ''
+  type: GraphQL
+  url: graphql/walmart-graphql.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/walmart-orders-api-overlay.yaml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/walmart-marketplace-orders-listOrders-example.json
 created: 2023/11/15
 description: Walmart is a multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores. The company is known for offering a wide range of products at competitive prices, attracting customers from all walks of life. Walmart also provides various convenience services, such as pharmacy, optical, and financial services, making it a one-stop shop for many consumers. The Walmart Marketplace APIs enable third-party sellers to list and sell products, manage orders, inventory, pricing, fulfillment, and reporting on Walmart.com.
 examples:
@@ -267,9 +399,14 @@ examples:
   name: Walmart Marketplace Orders Listorders Example
   slug: walmart-marketplace-orders-listOrders-example
 features:
-- 'Walmart: API access via partner / B2B contracts only'
-- No public API pricing published — contact enterprise sales
-- Walmart Marketplace APIs require Marketplace seller approval; commission rates 6-15% by category.
+- Remote MCP server live at https://developer.walmart.com/mcp (OAuth 2.1 + PKCE, scopes openapi_read/offline_access)
+- 202 per-operation rate limits published, token-bucket, allotted per seller; headers x-current-token-count + X-Next-Replenishment-Time
+- Formal four-state API deprecation guide (Active/Legacy/Deprecated/Sunset) with published sunset dates
+- Dated changelog, 51 entries, roughly weekly, written at operation and property granularity
+- No idempotency mechanism anywhere in the surface — writes are not replay-safe
+- No maintained first-party SDK; both walmartlabs repos are archived (2019, 2020). Walmart directs developers to OpenAPI Generator
+- GS1 GTIN-14 is a first-class item identifier declared in the contract, with a GTIN Exemption API for products without one
+- 'No API metering: access follows an approved seller account; referral fees 6-15% by category, no setup or monthly fee'
 finops:
 - name: Walmart Finops
   service_category: Retail / Marketplace
@@ -296,20 +433,24 @@ jsonld:
   property_count: 17
   slug: walmart-context
 layout: provider
-modified: '2026-05-30'
+mcp_servers:
+- description: Walmart runs a first-party remote MCP server on its developer portal at https://developer.walmart.com/mcp. It answers JSON-RPC over HTTP and is guarded by OAuth 2.1 (authorization-code + PKCE S256, dy
+  name: Walmart Developer Portal MCP Server
+  slug: walmart-developer-portal-mcp-server
+modified: '2026-08-27'
 name: Walmart
 nav: Providers
 network: true
-overview: 'Walmart publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Assortment Recommendations API, Authorization API, DSV Cost API, and 22 more. Tagged areas include Commerce, Retail, and Fortune 100.
+overview: 'Walmart publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Assortment Recommendations API, Authorization API, DSV Cost API, and 22 more. Tagged areas include Commerce, Retail, Fortune 100, Marketplace, and E-Commerce.
 
 
-  The Walmart catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Walmart catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Walmart''s developer surface includes authentication, developer portal, documentation, sandbox, support, FAQ, and 8 more developer resources.'
+  Walmart''s developer surface includes authentication, developer portal, documentation, sandbox, support, FAQ, API reference, and 38 more developer resources.'
 plans:
 - name: Walmart Plans Pricing
-  plan_count: 1
+  plan_count: 2
   slug: walmart-plans-pricing
 press:
 - date: '2026-05-25'
@@ -329,7 +470,7 @@ press:
   url: https://corporate.walmart.com/news/2025/10/14/walmart-partners-with-openai-to-create-ai-first-shopping-experiences
 random_paper: 4
 rate_limits:
-- limit_count: 1
+- limit_count: 202
   name: Walmart Rate Limits
   slug: walmart-rate-limits
 rules:
@@ -355,19 +496,24 @@ rules:
     warn: 6
   slug: walmart-rules
 score:
-  band: thin
-  composite: 37.4
+  band: strong
+  composite: 55.4
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
-    access_clarity: 23.7
-    commercial_clarity: 23.7
-    contract_governance: 13.6
-    contract_quality: 61.3
+    access_clarity: 57.9
+    commercial_clarity: 57.9
+    contract_governance: 31.8
+    contract_quality: 72.4
     developer_ergonomics: 33.3
-    discoverability: 59.3
-    governance: 13.6
-    operational_transparency: 23.7
-  previous_composite: 37.4
+    discoverability: 74.1
+    governance: 31.8
+    operational_transparency: 60.5
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     contracts:
@@ -375,15 +521,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/screenshots/walmart-2026-06-20T201220.png
 security:
 - kind: authentication
   name: Walmart Authentication
   slug: walmart-authentication
-  summary_line: http · 1 scheme
+  summary_line: oauth2/http · 2 schemes
 - kind: domain-security
   name: Walmart Domain Security
   slug: walmart-domain-security
@@ -391,11 +537,20 @@ security:
 - kind: vulnerability-disclosure
   name: Walmart Vulnerability Disclosure
   slug: walmart-vulnerability-disclosure
-  summary_line: security.txt · contact published
+  summary_line: Hackerone · contact published
 slug: walmart
 tags:
 - Commerce
 - Retail
 - Fortune 100
+- Marketplace
+- E-Commerce
+- Order
+- Inventory
+- Fulfillment
+- Supply Chain
+- Seller APIs
+- Webhook
+- MCP
 website: https://developer.walmart.com/
 ---

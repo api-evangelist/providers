@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 79
   slug: amc-entertainment-holdings-agentic-access
   summary_line: 79 operations · 23 acting
-api_count: 16
+api_count: 1
 apis:
 - description: Ticket and loyalty QR codes and Code 128 barcodes.
   name: AMC Entertainment Holdings Barcodes API
@@ -301,18 +301,23 @@ rules:
   slug: amc-theatres-rules
 score:
   band: thin
-  composite: 37.6
-  delta: 5.9
+  composite: 38.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 31.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 28.8
     contract_quality: 32.5
     developer_ergonomics: 38.1
-    discoverability: 50.0
+    discoverability: 63.0
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 31.7
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -320,9 +325,9 @@ score:
       derived: 16
       marker_coverage: 100.0
       total: 16
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/screenshots/amc-entertainment-holdings-2026-06-20T171856.png
 security:
 - kind: authentication

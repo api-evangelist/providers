@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST API for managing Swiftype search engines, indexing documents, controlling the web crawler and domains, running search and autocomplete queries, and retrieving query/click analytics. Authenticated
@@ -41,6 +41,10 @@ apis:
   slug: swiftype-site-search-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/elastic/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -117,10 +121,10 @@ modified: '2026-07-21'
 name: Swiftype
 nav: Providers
 network: true
-overview: 'Swiftype publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Search, Site Search, App Search, Full-Text Search, and Autocomplete.
+overview: 'Swiftype publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Search, Site Search, App Search, Full Text Search, and Autocomplete.
 
 
-  Swiftype''s developer surface includes documentation, API reference, support, authentication, and 12 more developer resources.'
+  Swiftype''s developer surface includes documentation, API reference, support, authentication, and 13 more developer resources.'
 random_paper: 9
 rate_limits:
 - limit_count: 0
@@ -128,7 +132,12 @@ rate_limits:
   slug: swiftype-rate-limits
 score:
   band: emerging
-  composite: 19.8
+  composite: 20.5
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -136,15 +145,15 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 19.8
+  previous_composite: 20.5
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -160,7 +169,7 @@ tags:
 - Search
 - Site Search
 - App Search
-- Full-Text Search
+- Full Text Search
 - Autocomplete
 - Web Crawler
 - Analytics

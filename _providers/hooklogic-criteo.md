@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 114
   slug: hooklogic-criteo-agentic-access
   summary_line: 114 operations · 74 acting · 2 human-in-the-loop
-api_count: 8
+api_count: 1
 apis:
 - description: The Accounts API from HookLogic (Criteo) — 12 operation(s) for accounts.
   name: HookLogic (Criteo) Accounts API
@@ -97,6 +97,10 @@ collections:
   name: Criteo Accounts Gateway API
   slug: open-hooklogic-criteo-gateway-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hooklogic-criteo-capability-edges.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -280,7 +284,7 @@ network: true
 overview: 'HookLogic (Criteo) publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, Audience API, and 5 more. Tagged areas include Company, Commerce, Retail Media, Advertising, and E-Commerce.
 
 
-  HookLogic (Criteo)''s developer surface includes quickstart, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 35 more developer resources.'
+  HookLogic (Criteo)''s developer surface includes quickstart, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 36 more developer resources.'
 plans:
 - name: Hooklogic Criteo Plans Pricing
   plan_count: 0
@@ -297,18 +301,23 @@ scopes:
   summary_line: 11 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 59.8
-  delta: 0.0
+  composite: 56.7
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 49.4
     developer_ergonomics: 71.4
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 78.9
-  previous_composite: 59.8
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -319,8 +328,8 @@ score:
       total: 8
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hooklogic-criteo/refs/heads/main/screenshots/hooklogic-criteo-2026-07-25T221415.png
 security:

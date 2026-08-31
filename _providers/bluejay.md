@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 174
   slug: bluejay-agentic-access
   summary_line: 174 operations · 128 acting · 1 human-in-the-loop
-api_count: 60
+api_count: 1
 apis:
 - description: The Agents API from Bluejay — 9 operation(s) for agents.
   name: Bluejay Agents API
@@ -223,7 +223,10 @@ apis:
 - description: The Workflows API from Bluejay — 3 operation(s) for workflows.
   name: Bluejay Workflows API
   slug: bluejay-workflows-api
-artifact_total: 126
+- description: The Bluejay API API from Bluejay — 0 operation(s) for bluejay api.
+  name: Bluejay Bluejay API
+  slug: bluejay-bluejay-api-api
+artifact_total: 127
 asyncapis:
 - description: ''
   name: Bluejay Webhooks
@@ -413,6 +416,10 @@ collections:
   name: Bluejay Agents Workflows API
   slug: open-bluejay-workflows-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bluejay-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -541,28 +548,33 @@ modified: '2026-07-18'
 name: Bluejay
 nav: Providers
 network: true
-overview: 'Bluejay publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Alerts API, Api Keys API, and 57 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Voice AI, and Conversational AI.
+overview: 'Bluejay publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Alerts API, Api Keys API, and 58 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Voice AI, and Conversational AI.
 
 
   The Bluejay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bluejay''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 22 more developer resources.'
+  Bluejay''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 23 more developer resources.'
 random_paper: 13
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 45.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 91.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.5
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
-    contract_governance: 16.7
-    contract_quality: 62.5
+    contract_governance: 4.5
+    contract_quality: 62.2
     developer_ergonomics: 61.3
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 51.9
+    governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 49.8
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -573,8 +585,8 @@ score:
       total: 60
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/screenshots/bluejay-2026-07-25T203452.png
 security:

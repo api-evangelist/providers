@@ -25,24 +25,45 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.7
-  scored_at: '2026-08-26'
-api_count: 2
+  score: 42.2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: RESTful loyalty & gamification API for managing customers, events, orders, payments, points transactions, holds, coupons, reward campaigns, VIP tiers, redemption options, leaderboards and batch operat
-  name: Gameball REST API
-  slug: gameball-rest-api
 - description: Official remote Model Context Protocol server exposing 54 tools over the Gameball merchant/dashboard surface — customer lookup and points adjustment, tag management, earning configuration and custom e
   name: Gameball MCP Server
   slug: gameball-mcp-server
-artifact_total: 11
+- description: The Batches API from Gameball — 1 operation(s) for batches.
+  name: Gameball Batches API
+  slug: gameball-batches-api
+- description: The Customers API from Gameball — 1 operation(s) for customers.
+  name: Gameball Customers API
+  slug: gameball-customers-api
+- description: The Events API from Gameball — 1 operation(s) for events.
+  name: Gameball Events API
+  slug: gameball-events-api
+- description: The Gameball API API from Gameball — 0 operation(s) for gameball api.
+  name: Gameball Gameball API
+  slug: gameball-gameball-api-api
+- description: The Integrations API from Gameball — 62 operation(s) for integrations.
+  name: Gameball Integrations API
+  slug: gameball-integrations-api
+- description: The Orders API from Gameball — 4 operation(s) for orders.
+  name: Gameball Orders API
+  slug: gameball-orders-api
+- description: The Payments API from Gameball — 1 operation(s) for payments.
+  name: Gameball Payments API
+  slug: gameball-payments-api
+- description: The Plants API from Gameball — 2 operation(s) for plants.
+  name: Gameball Plants API
+  slug: gameball-plants-api
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Gameball Webhooks
@@ -240,7 +261,7 @@ modified: '2026-08-13'
 name: Gameball
 nav: Providers
 network: true
-overview: 'Gameball publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Company, Loyalty, Rewards, Gamification, and Customer Engagement.
+overview: 'Gameball publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Batches API, Customers API, Events API, and 5 more. Tagged areas include Company, Loyalty, Rewards, Gamification, and Customer Engagement.
 
 
   The Gameball catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -263,18 +284,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.3
-  delta: 0.0
+  composite: 58.6
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 16.7
-    contract_quality: 51.5
+    contract_governance: 4.5
+    contract_quality: 58.5
     developer_ergonomics: 78.6
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 58.3
+  previous_composite: 59.1
   provenance:
     conformance: derived
     contracts:
@@ -284,8 +310,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/screenshots/gameball-2026-07-25T215414.png
 security:

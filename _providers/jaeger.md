@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: jaeger-agentic-access
   summary_line: 9 operations
-api_count: 7
+api_count: 1
 apis:
 - description: The Jaeger Collector API receives trace spans from instrumented applications and SDKs. Since Jaeger v1.11 the primary protocol is the jaeger.api_v2.CollectorService gRPC endpoint; the collector also a
   name: Jaeger Collector API
@@ -202,18 +202,26 @@ rules:
   slug: jaeger-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.2
-  delta: 1.4
+  composite: 36.7
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 66.8
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 6.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 9.8
     contract_quality: 46.1
     developer_ergonomics: 35.7
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 28.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 30.2
   provenance:
     agentic_access: derived
     contracts:
@@ -221,9 +229,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/jaeger/refs/heads/main/screenshots/jaeger-2026-06-20T183651.png
 security:
 - kind: domain-security

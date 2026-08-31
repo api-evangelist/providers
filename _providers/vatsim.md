@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -19,7 +19,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.1
-  scored_at: '2026-08-26'
+  score: 30.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 34
   slug: vatsim-agentic-access
   summary_line: 34 operations · 2 acting
-api_count: 18
+api_count: 8
 apis:
 - description: Delivers information about upcoming events on the VATSIM network, including dates, times, organizers, airports, routes, and banner images. Publicly accessible without authentication and provides listi
   name: VATSIM Events API
@@ -193,18 +193,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 34.0
-  delta: 1.9
+  composite: 34.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 52.1
+    contract_quality: 54.0
     developer_ergonomics: 21.4
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 32.1
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +217,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/screenshots/vatsim-2026-06-20T200846.png
 security:

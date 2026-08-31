@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -76,6 +76,26 @@ collections:
   name: Volcano Job Jobs Queues API
   slug: open-volcano-queues-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/volcano-sh/volcano/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/volcano-sh/volcano/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/volcano-sh/volcano/blob/master/SECURITY-INSIGHTS.yml
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/volcano-sh/volcano/blob/master/code_of_conduct.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/volcano-sh/volcano/blob/master/contributing.md
 - group: commercial
   title: ''
   type: License
@@ -181,7 +201,7 @@ overview: 'Volcano publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
   The Volcano catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Volcano''s developer surface includes documentation, getting-started guide, engineering blog, and 13 more developer resources.'
+  Volcano''s developer surface includes documentation, getting-started guide, engineering blog, and 18 more developer resources.'
 plans:
 - name: Volcano Plans Pricing
   plan_count: 1
@@ -214,9 +234,14 @@ rules:
     warn: 4
   slug: volcano-rules
 score:
-  band: thin
-  composite: 36.5
-  delta: 1.4
+  band: developing
+  composite: 45.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -225,8 +250,11 @@ score:
     developer_ergonomics: 33.3
     discoverability: 72.2
     governance: 28.8
-    operational_transparency: 7.9
-  previous_composite: 35.1
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -234,8 +262,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volcano/refs/heads/main/screenshots/volcano-2026-06-20T201130.png
 security:

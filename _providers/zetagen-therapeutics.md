@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
-api_count: 9
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Posts, pages and the block library.
   name: Zetagen Therapeutics Content API
@@ -215,25 +215,30 @@ modified: '2026-08-05'
 name: Zetagen Therapeutics
 nav: Providers
 network: true
-overview: 'Zetagen Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Downloads API, and 6 more. Tagged areas include Company, biopharmaceuticals, Oncology, Bone Health, and Orthopedics.
+overview: 'Zetagen Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Downloads API, and 6 more. Tagged areas include Company, biopharmaceuticals, oncology, bone-health, and orthopedics.
 
 
   Zetagen Therapeutics'' developer surface includes product news, authentication, and 28 more developer resources.'
 random_paper: 13
 score:
   band: emerging
-  composite: 23.4
-  delta: 0.0
+  composite: 22.2
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 12.5
     developer_ergonomics: 13.7
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 23.4
+  previous_composite: 22.7
   provenance:
     conformance: derived
     contracts:
@@ -248,8 +253,8 @@ score:
     regime: Health
     regime_id: health
     score: 35.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -264,13 +269,13 @@ slug: zetagen-therapeutics
 tags:
 - Company
 - biopharmaceuticals
-- Oncology
-- Bone Health
-- Orthopedics
-- Clinical Trials
-- Life Sciences
-- Drug Development
-- Medical Devices
+- oncology
+- bone-health
+- orthopedics
+- clinical-trials
+- life-sciences
+- drug-development
+- medical-devices
 - content-api
 website: https://zetagen.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: library-of-congress-agentic-access
   summary_line: 18 operations
-api_count: 12
+api_count: 3
 apis:
 - description: The Bills API from Library of Congress — 3 operation(s) for bills.
   name: Library of Congress Bills API
@@ -131,6 +131,10 @@ collections:
   name: Library of Congress Chronicling America Bills Titles API
   slug: open-library-of-congress-titles-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/library-of-congress-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -186,7 +190,7 @@ network: true
 overview: 'Library of Congress publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Bills API, Collections API, Committees API, and 9 more. Tagged areas include Cultural Heritage, Federal-Government, Library, Legislative, and Newspapers.
 
 
-  Library of Congress'' developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+  Library of Congress'' developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Library Of Congress Plans Pricing
   plan_count: 3
@@ -198,18 +202,23 @@ rate_limits:
   slug: library-of-congress-rate-limits
 score:
   band: thin
-  composite: 33.6
-  delta: 2.6
+  composite: 33.9
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 48.0
+    contract_quality: 49.1
     developer_ergonomics: 31.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 31.0
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
@@ -223,8 +232,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 33.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/library-of-congress/refs/heads/main/screenshots/library-of-congress-2026-06-20T184501.png
 security:

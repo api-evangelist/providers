@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 47
   slug: prometheus-agentic-access
   summary_line: 47 operations · 17 acting · 1 human-in-the-loop
-api_count: 14
+api_count: 4
 apis:
 - description: The Prometheus Remote Write API defines a standard protocol for sending time series data from Prometheus or compatible agents to remote storage backends via HTTP POST with Snappy-compressed protobuf p
   name: Prometheus Remote Write API
@@ -190,6 +190,22 @@ collections:
   name: Prometheus Alertmanager Admin TSDB API
   slug: open-prometheus-tsdb-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/prometheus/prometheus/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/prometheus/prometheus/blob/main/SECURITY-INSIGHTS.yml
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/prometheus/prometheus/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/prometheus/prometheus/blob/main/CONTRIBUTING.md
 - group: other
   title: ''
   type: Overlay
@@ -385,7 +401,7 @@ overview: 'Prometheus publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
   The Prometheus catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Prometheus'' developer surface includes authentication, changelog, CLI, documentation, getting-started guide, engineering blog, Stack Overflow tag, and 34 more developer resources.'
+  Prometheus'' developer surface includes authentication, changelog, CLI, documentation, getting-started guide, engineering blog, Stack Overflow tag, and 38 more developer resources.'
 plans:
 - name: Prometheus Plans Pricing
   plan_count: 1
@@ -419,18 +435,26 @@ rules:
   slug: prometheus-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.5
-  delta: 1.4
+  composite: 49.1
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 65.9
     developer_ergonomics: 52.4
     discoverability: 72.2
-    governance: 30.3
-    operational_transparency: 23.7
-  previous_composite: 42.1
+    governance: 18.2
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -440,8 +464,8 @@ score:
       marker_coverage: 0.0
       total: 12
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/screenshots/prometheus-2026-06-20T192155.png
 security:

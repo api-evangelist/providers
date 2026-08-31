@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 36
@@ -46,58 +46,85 @@ agentic_access:
   summary_line: 171 operations · 97 acting · 36 human-in-the-loop
 api_count: 17
 apis:
-- description: SCIM-based user provisioning for an Egencia corporate travel programme. Egencia's own overview states the API "supports SCIM, or System for Cross-domain Identity Management, an open standard that allo
-  name: Egencia User Sync API
-  slug: egencia-user-sync-api
-- description: 'Single sign-on entry point that carries contextual data into the Egencia booking flow at authentication time. Documented endpoints are GET /v1/newTrip and GET /v2/startTrip, which accept trip context '
-  name: Egencia Context SSO API
-  slug: egencia-context-sso-api
-- description: Retrieves company information for an Egencia corporate account - name, display name and related detail - plus e-commerce settings and an audit view of those settings. Documented operations are GET /v1
-  name: Egencia Company Details API
-  slug: egencia-company-details-api
-- description: 'Manages custom data fields - the client-defined fields Egencia describes as capturing "invoicing, reporting, approval, billing" detail, commonly department, billing unit, reason for travel or project '
-  name: Egencia Company CDF API
-  slug: egencia-company-cdf-api
-- description: 'A service provider interface, not a consumable API - Egencia calls the customer. At checkout, when a traveller presses book, Egencia posts the booking payload to a web service the customer must build '
-  name: Egencia Validation SPI
-  slug: egencia-validation-spi
-- description: Near real-time push of booking and expense data out of Egencia into a customer's expense or ERP system. Egencia describes it as an "Expense capability" that pushes a message to a connected partner web
-  name: Egencia Expense SPI
-  slug: egencia-expense-spi
-- description: Retrieval of a booking and its individual trip items, plus the receipts attached to an item. Documented operations are GET /v1/bookings/{bookingId}, GET /v1/bookings/{bookingId}/items/{itemId}, GET an
-  name: Egencia Get Booking API
-  slug: egencia-get-booking-api
-- description: Trip-level cancellation and deletion of bookings. Documented operations are POST /v1/bookings/{bookingId}/cancel and POST /v1/bookings/{bookingId}/delete, which act on every trip item in the booking a
-  name: Egencia Expense Cancellation and Deletion API
-  slug: egencia-cancellation-deletion-api
-- description: Programmatic approval or denial of booking requests, at trip level and at trip-item level. Documented operations are POST /v1/bookings/{bookingId}/approve, /deny and the matching /items/{itemId}/appro
-  name: Egencia Approval Workflow API
-  slug: egencia-approval-workflow-api
-- description: An outbound service provider interface that lets a customer decide, at checkout time, whether level one and level two approval are required for a booking and who the approvers are. Egencia calls the c
-  name: Egencia Approval Customisation SPI
-  slug: egencia-approval-customisation-spi
-- description: Retrieval of the receipt for a booked trip item, via GET /v1/receipts/{itemId}, paired with a Receipt SPI that pushes a notification to a customer-built web service whenever a receipt is generated. Th
-  name: Egencia Receipt API
-  slug: egencia-receipt-api
-- description: Traveller-tracking data for risk and duty-of-care programmes. Egencia documents POST https://apis.egencia.com/dutyofcare/api/v1/bookings to create a paginated query of booking data for a partner ID ov
-  name: Egencia Duty of Care API
-  slug: egencia-duty-of-care-api
-- description: Consolidated booking transaction data out of Egencia, and the closest thing in the estate to a documented exit path. POST /v1/transactions creates a filtered report over a date range and returns pagin
-  name: Egencia Reporting API (BI Transactions)
-  slug: egencia-reporting-api
-- description: American Express Global Business Travel BI API from American Express Global Business Travel — 14 path(s) described in OpenAPI.
-  name: American Express Global Business Travel BI API
-  slug: amex-gbt-service-bi-openapi
-- description: American Express Global Business Travel OpenAPI definition from American Express Global Business Travel — 10 path(s) described in OpenAPI.
-  name: American Express Global Business Travel OpenAPI definition (Amex Gbt Service Company)
-  slug: amex-gbt-service-company-openapi
-- description: American Express Global Business Travel Duty Of Care API from American Express Global Business Travel — 7 path(s) described in OpenAPI.
-  name: American Express Global Business Travel Duty Of Care API
-  slug: amex-gbt-service-dutyofcare-openapi
-- description: American Express Global Business Travel OpenAPI definition from American Express Global Business Travel — 36 path(s) described in OpenAPI.
-  name: American Express Global Business Travel OpenAPI definition (Amex Gbt Service Openconnect)
-  slug: amex-gbt-service-openconnect-openapi
-artifact_total: 41
+- description: The Agent Assist Notes API from American Express Global Business Travel — 1 operation(s) for agent assist notes.
+  name: American Express Global Business Travel Agent Assist Notes API
+  slug: amex-gbt-agent-assist-notes-api
+- description: Approval interface that will get approval custom detail from external client based on the booking data passed in request
+  name: American Express Global Business Travel Approval API
+  slug: amex-gbt-approval-api
+- description: The availability-probes-controller API from American Express Global Business Travel — 2 operation(s) for availability-probes-controller.
+  name: American Express Global Business Travel Availability Probes Controller API
+  slug: amex-gbt-availability-probes-controller-api
+- description: The bookings v1 API from American Express Global Business Travel — 12 operation(s) for bookings v1.
+  name: American Express Global Business Travel bookings v1 API
+  slug: amex-gbt-bookings-v1-api
+- description: The bookings v2 API from American Express Global Business Travel — 2 operation(s) for bookings v2.
+  name: American Express Global Business Travel bookings v2 API
+  slug: amex-gbt-bookings-v2-api
+- description: The Company Details API from American Express Global Business Travel — 2 operation(s) for company details.
+  name: American Express Global Business Travel Company Details API
+  slug: amex-gbt-company-details-api
+- description: The custom-data-field-cleanup-controller API from American Express Global Business Travel — 1 operation(s) for custom-data-field-cleanup-controller.
+  name: American Express Global Business Travel Custom Data Field Cleanup Controller API
+  slug: amex-gbt-custom-data-field-cleanup-controller-api
+- description: CDF APIs to retrieve Definitions and Manage Values.
+  name: American Express Global Business Travel Custom Data Fields (CDF) API
+  slug: amex-gbt-custom-data-fields-cdf-api
+- description: The doc-audit-clean-up-controller API from American Express Global Business Travel — 1 operation(s) for doc-audit-clean-up-controller.
+  name: American Express Global Business Travel Doc Audit Clean Up Controller API
+  slug: amex-gbt-doc-audit-clean-up-controller-api
+- description: The DutyOfCare Data API from American Express Global Business Travel — 2 operation(s) for dutyofcare data.
+  name: American Express Global Business Travel DutyOfCare Data API
+  slug: amex-gbt-dutyofcare-data-api
+- description: The ecommerce-settings-controller API from American Express Global Business Travel — 2 operation(s) for ecommerce-settings-controller.
+  name: American Express Global Business Travel Ecommerce Settings Controller API
+  slug: amex-gbt-ecommerce-settings-controller-api
+- description: Push Expense and Subscription Operation. This is only an example. The path and the host are specific for each implementor. However, the model is fixed and versioned.
+  name: American Express Global Business Travel Expense SPI API
+  slug: amex-gbt-expense-spi-api
+- description: The gdpr-controller API from American Express Global Business Travel — 1 operation(s) for gdpr-controller.
+  name: American Express Global Business Travel Gdpr Controller API
+  slug: amex-gbt-gdpr-controller-api
+- description: The pos-iata-controller API from American Express Global Business Travel — 1 operation(s) for pos-iata-controller.
+  name: American Express Global Business Travel Pos Iata Controller API
+  slug: amex-gbt-pos-iata-controller-api
+- description: The receipts API from American Express Global Business Travel — 1 operation(s) for receipts.
+  name: American Express Global Business Travel Receipts API
+  slug: amex-gbt-receipts-api
+- description: The redirection-controller API from American Express Global Business Travel — 2 operation(s) for redirection-controller.
+  name: American Express Global Business Travel Redirection Controller API
+  slug: amex-gbt-redirection-controller-api
+- description: The resolve-controller API from American Express Global Business Travel — 1 operation(s) for resolve-controller.
+  name: American Express Global Business Travel Resolve Controller API
+  slug: amex-gbt-resolve-controller-api
+- description: The schemas-controller API from American Express Global Business Travel — 2 operation(s) for schemas-controller.
+  name: American Express Global Business Travel Schemas Controller API
+  slug: amex-gbt-schemas-controller-api
+- description: SCIM 2.0 compliant user sync APIs
+  name: American Express Global Business Travel SCIM User Sync V1 API
+  slug: amex-gbt-scim-user-sync-v1-api
+- description: SCIM 2.0 compliant user sync APIs version 2.
+  name: American Express Global Business Travel SCIM User Sync V2 API
+  slug: amex-gbt-scim-user-sync-v2-api
+- description: SCIM 2.0 compliant user sync APIs version 3.
+  name: American Express Global Business Travel SCIM User Sync V3 API
+  slug: amex-gbt-scim-user-sync-v3-api
+- description: SCIM 2.0 compliant admin-users sync APIs
+  name: American Express Global Business Travel SCIM V1 Admin Users API
+  slug: amex-gbt-scim-v1-admin-users-api
+- description: The Third Party Acknowledgement API from American Express Global Business Travel — 1 operation(s) for third party acknowledgement.
+  name: American Express Global Business Travel Third Party Acknowledgement API
+  slug: amex-gbt-third-party-acknowledgement-api
+- description: Transaction data operations
+  name: American Express Global Business Travel Transaction Service Controller API
+  slug: amex-gbt-transaction-service-controller-api
+- description: Validation interface that will request authorization of booking based on the data provided at checkout time.This is only an example. The path and the host are specific for each implementor. However, t
+  name: American Express Global Business Travel Validation API
+  slug: amex-gbt-validation-api
+- description: The version-controller API from American Express Global Business Travel — 1 operation(s) for version-controller.
+  name: American Express Global Business Travel Version Controller API
+  slug: amex-gbt-version-controller-api
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Amex Gbt Webhooks
@@ -155,6 +182,54 @@ collections:
   name: Validation SPI
   slug: open-amex-gbt-validation-spi
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amex-gbt-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amex-gbt-sso-context-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amex-gbt-company-info-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amex-gbt-company-cdf-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amex-gbt-validation-spi-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amex-gbt-expense-spi-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amex-gbt-booking-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amex-gbt-cancellation-deletion-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amex-gbt-approval-workflow-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amex-gbt-approval-customisation-spi-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amex-gbt-receipt-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amex-gbt-duty-of-care-api-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -348,13 +423,13 @@ modified: '2026-07-28'
 name: American Express Global Business Travel
 nav: Providers
 network: true
-overview: 'American Express Global Business Travel publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Egencia User Sync API, Egencia Context SSO API, Egencia Company Details API, and 14 more. Tagged areas include Travel, United States, Corporate Travel, Travel Management, and Business Travel.
+overview: 'American Express Global Business Travel publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Agent Assist Notes API, Approval API, Availability Probes Controller API, and 23 more. Tagged areas include Travel, United States, Corporate Travel, Travel Management, and Business Travel.
 
 
   The American Express Global Business Travel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  American Express Global Business Travel''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 38 more developer resources.'
+  American Express Global Business Travel''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 50 more developer resources.'
 random_paper: 12
 scopes:
 - name: Amex Gbt Scopes
@@ -363,18 +438,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.6
+  composite: 44.7
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 62.3
+    contract_governance: 4.5
+    contract_quality: 60.4
     developer_ergonomics: 58.9
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 47.6
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -385,8 +465,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

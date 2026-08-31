@@ -10,35 +10,32 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: documented
+    openapi_examples: documented
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 5.0
-  scored_at: '2026-08-26'
-api_count: 6
+  score: 35.6
+  scored_at: '2026-08-30'
+api_count: 5
 apis:
-- description: REST API for executing Power Query mashups and managing data transformations programmatically.
-  name: Power Query REST API
-  slug: rest-api
 - description: API and language reference for the M formula language used in Power Query for data transformation expressions and custom functions.
   name: Power Query M Formula Language
   slug: m-language
@@ -51,11 +48,35 @@ apis:
 - description: Development toolkit for building custom Power Query connectors using Visual Studio Code, including project scaffolding, testing, and packaging of .mez connector files.
   name: Power Query SDK
   slug: sdk
-- description: REST API for programmatically executing Power Query M transformations in Microsoft Fabric, enabling integration with Spark notebooks, pipelines, and external applications.
-  name: Fabric Power Query Programmatic API
+- description: REST API for the Microsoft Fabric Dataflow item - the productized Power Query mashup engine. Creates, reads, updates and deletes dataflows, publishes and retrieves their Power Query definitions, disco
+  name: Fabric Dataflow REST API (Power Query)
   slug: fabric-api
-artifact_total: 27
+artifact_total: 31
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://powerquery.microsoft.com/
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/power-query-vulnerability-disclosure.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Microsoft/DataConnectors/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Microsoft/DataConnectors/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/microsoft/DataConnectors/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/microsoft/DataConnectors/blob/master/CODE_OF_CONDUCT.md
 - group: commercial
   title: ''
   type: License
@@ -83,7 +104,7 @@ common:
 - group: build
   title: ''
   type: GitHubOrganization
-  url: https://github.com/MicrosoftDocs/powerquery-docs
+  url: https://github.com/microsoft
 - group: operate
   title: ''
   type: Support
@@ -120,8 +141,136 @@ common:
   title: ''
   type: ChangeLog
   url: https://learn.microsoft.com/en-us/power-bi/fundamentals/desktop-change-log
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://learn.microsoft.com/en-us/rest/api/fabric/dataflow/items
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://learn.microsoft.com/en-us/powerquery-m/power-query-m-function-reference
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://roadmap.fabric.microsoft.com/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/power-query-fabric-dataflow-swagger.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/fabric-dataflow/
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/power-query-fabric-dataflow-overlay.yaml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/power-query-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/power-query-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/power-query-cli.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/power-query-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/power-query-security.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/power-query-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/power-query-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/power-query-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/power-query-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/power-query-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/power-query-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/power-query-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/power-query-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/power-query-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/power-query-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/power-query-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/power-query-conformance.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/power-query-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/power-query-trust-center.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/power-query-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/power-query-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/power-query-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/power-query-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/power-query-vocabulary.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/power-query-changelog.yml
 created: '2024-01-01'
-description: Power Query is a data transformation and mashup engine used across Microsoft products including Excel, Power BI, and Azure. This API collection provides programmatic access to Power Query functionality for data connectivity, transformation, and integration using the M formula language and connector SDK.
+description: 'Power Query is Microsoft''s data connectivity and transformation engine, driven by the M formula language. It ships inside Excel, Power BI Desktop, Analysis Services, Azure Data Factory and Microsoft Fabric, and reaches 300+ data sources through built-in and custom connectors built with the MIT-licensed Power Query SDK. Its programmatic surface is the Microsoft Fabric Dataflow REST API on api.fabric.microsoft.com: thirteen Swagger-documented operations that create, read, update and delete dataflows, publish and retrieve their Power Query definitions, discover their parameters, schedule execute and applyChanges jobs, and execute an M query against a dataflow on demand. Authentication is Microsoft Entra ID OAuth 2.0 with delegated Dataflow.* and Item.* scopes layered on top of Fabric workspace roles.'
 features:
 - description: Powerful M formula language for complex data transformations including filtering, pivoting, merging, and custom functions.
   name: Data Transformation Engine
@@ -157,49 +306,84 @@ jsonld:
   property_count: 12
   slug: power-query-context
 layout: provider
-modified: '2026-04-18'
+mcp_servers:
+- description: Microsoft does not publish a Power Query-specific or Fabric-specific MCP server. It does operate one official, anonymous, remote MCP server — the Microsoft Learn MCP Server — which indexes the whole o
+  name: Microsoft Learn MCP Server
+  slug: microsoft-learn-mcp-server
+modified: '2026-08-29'
 name: Power Query
 nav: Providers
 network: true
-overview: 'Power Query publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Business Intelligence, Data Integration, Data Transformation, ETL, and Microsoft.
+overview: 'Power Query publishes 1 API on the [APIs.io](https://apis.io/) network: Fabric Dataflow REST API (Power Query). Tagged areas include Business Intelligence, Data Integration, Data Transformation, ETL, and Microsoft.
 
 
   The Power Query catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Power Query''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, pricing, signup flow, and 9 more developer resources.'
+  Power Query''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, pricing, signup flow, and 47 more developer resources.'
 plans:
 - name: Power Query Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: power-query-plans-pricing
 random_paper: 13
 rate_limits:
-- limit_count: 5
+- limit_count: 3
   name: Power Query Rate Limits
   slug: power-query-rate-limits
+scopes:
+- name: Power Query Scopes
+  scope_count: 0
+  slug: power-query-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 39.1
-  delta: 2.8
+  band: exemplar
+  composite: 75.2
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 50.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 60.5
-    commercial_clarity: 60.5
-    contract_governance: 0.0
-    contract_quality: 14.7
-    developer_ergonomics: 52.4
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 42.1
-  previous_composite: 36.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 33.3
+    contract_quality: 53.7
+    developer_ergonomics: 85.7
+    discoverability: 81.5
+    governance: 33.3
+    operational_transparency: 65.8
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 75.2
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 71.6
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-query/refs/heads/main/screenshots/power-query-2026-06-20T192025.png
 security:
+- kind: authentication
+  name: Power Query Authentication
+  slug: power-query-authentication
+  summary_line: 1 scheme
 - kind: domain-security
   name: Power Query Domain Security
   slug: power-query-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Power Query Vulnerability Disclosure
+  slug: power-query-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Power Query Trust Center
+  slug: power-query-trust-center
+  summary_line: ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO/IEC 27701, ISO/IEC 42001, ISO 22301, ISO 9001, SOC 1, SOC 2, SOC 3, CSA STAR (attestation, certification, self-assessment), FedRAMP, FIPS 140-2, DoD IL2 / IL5, NIST 800-171, HIPAA / HITECH, HITRUST, PCI DSS, PCI 3DS, GxP / FDA CFR Title 21 Part 11, GDPR, DORA (EU), C5 (Germany), IRAP (Australia), ISMAP (Japan)
 slug: power-query
 tags:
 - Business Intelligence
@@ -207,6 +391,12 @@ tags:
 - Data Transformation
 - ETL
 - Microsoft
+- Microsoft Fabric
+- Power BI
+- Dataflows
+- M Language
+- Data Connectors
+- Self-Service ETL
 use_cases:
 - description: Clean, transform, and shape data from multiple sources for analytics and reporting.
   name: Data Preparation
@@ -218,5 +408,5 @@ use_cases:
   name: Cross-Platform Data Integration
 - description: Implement data quality rules and transformations for consistent enterprise data.
   name: Data Quality Management
-website: https://app.powerbi.com/
+website: https://powerquery.microsoft.com/
 ---

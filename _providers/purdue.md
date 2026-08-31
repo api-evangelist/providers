@@ -1,22 +1,22 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Free - one keyless surface, the rest gated by Purdue institutional identity
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - probe
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: na
@@ -25,113 +25,128 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: documented
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.5
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 0
-  human_in_the_loop: 0
-  name: Purdue Agentic Access
-  operation_count: 20
-  slug: purdue-agentic-access
-  summary_line: 20 operations
-api_count: 11
+  score: 26.7
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The Purdue University Research Repository (PURR) exposes an OAI-PMH endpoint for harvesting research dataset metadata, supporting standard verbs (Identify, ListSets, ListMetadataFormats, ListIdentifie
+- description: The Rosen Center for Advanced Computing publishes its own OpenAPI 3.0.0 description at www.rcac.purdue.edu/api - 206 paths and 452 operations covering research computing groups and their members, depa
+  name: Purdue RCAC API
+  slug: purdue-rcac-api
+- description: A public, keyless HTTP API operated by Purdue University Housing and Food Services at api.hfs.purdue.edu, serving dining-court locations, published daily menus by location and date, and per-item nutri
+  name: Purdue HFS Dining Menus API
+  slug: purdue-hfs-dining-menus-api
+- description: The Purdue University Research Repository exposes an OAI-PMH 2.0 endpoint for harvesting research dataset metadata, supporting the standard verbs (Identify, ListSets, ListMetadataFormats, ListIdentifi
   name: PURR OAI-PMH Metadata API
   slug: purr-oaipmh
-- description: The Buildings API from Purdue University — 2 operation(s) for buildings.
-  name: Purdue University Buildings API
-  slug: purdue-buildings-api
-- description: The Campuses API from Purdue University — 2 operation(s) for campuses.
-  name: Purdue University Campuses API
-  slug: purdue-campuses-api
-- description: The Classes API from Purdue University — 2 operation(s) for classes.
-  name: Purdue University Classes API
-  slug: purdue-classes-api
-- description: The Courses API from Purdue University — 2 operation(s) for courses.
-  name: Purdue University Courses API
-  slug: purdue-courses-api
-- description: The Instructors API from Purdue University — 2 operation(s) for instructors.
-  name: Purdue University Instructors API
-  slug: purdue-instructors-api
-- description: The Meetings API from Purdue University — 2 operation(s) for meetings.
-  name: Purdue University Meetings API
-  slug: purdue-meetings-api
-- description: The Rooms API from Purdue University — 2 operation(s) for rooms.
-  name: Purdue University Rooms API
-  slug: purdue-rooms-api
-- description: The Sections API from Purdue University — 2 operation(s) for sections.
-  name: Purdue University Sections API
-  slug: purdue-sections-api
-- description: The Subjects API from Purdue University — 2 operation(s) for subjects.
-  name: Purdue University Subjects API
-  slug: purdue-subjects-api
-- description: The Terms API from Purdue University — 2 operation(s) for terms.
-  name: Purdue University Terms API
-  slug: purdue-terms-api
-artifact_total: 39
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Purdue.io Course Catalog Buildings API
-  slug: open-purdue-buildings-api
-- collection_type: open
-  name: Purdue.io Course Catalog Buildings Campuses API
-  slug: open-purdue-campuses-api
-- collection_type: open
-  name: Purdue.io Course Catalog Buildings Classes API
-  slug: open-purdue-classes-api
-- collection_type: open
-  name: Purdue.io Course Catalog Buildings Courses API
-  slug: open-purdue-courses-api
-- collection_type: open
-  name: Purdue.io Course Catalog Buildings Instructors API
-  slug: open-purdue-instructors-api
-- collection_type: open
-  name: Purdue.io Course Catalog Buildings Meetings API
-  slug: open-purdue-meetings-api
-- collection_type: open
-  name: Purdue.io Course Catalog Buildings Rooms API
-  slug: open-purdue-rooms-api
-- collection_type: open
-  name: Purdue.io Course Catalog Buildings Sections API
-  slug: open-purdue-sections-api
-- collection_type: open
-  name: Purdue.io Course Catalog Buildings Subjects API
-  slug: open-purdue-subjects-api
-- collection_type: open
-  name: Purdue.io Course Catalog Buildings Terms API
-  slug: open-purdue-terms-api
+- description: 'Purdue operates its own Shibboleth identity provider, entityID https://idp.purdue.edu/idp/shibboleth, with SAML 2.0 SSO endpoints under sso.purdue.edu. The IdP is registered in InCommon and therefore '
+  name: Purdue Shibboleth Identity Provider
+  slug: purdue-shibboleth-idp
+- description: 'Purdue e-Pubs is the university''s institutional repository for scholarly output, reachable at docs.lib.purdue.edu with a working OAI-PMH 2.0 endpoint. The content, the collections and the scholarship '
+  name: Purdue e-Pubs OAI-PMH (bepress Digital Commons tenant)
+  slug: purdue-epubs-oaipmh
+- description: Purdue's public events calendar at events.purdue.edu serves a live JSON events API on the Localist v2 contract. The events are Purdue's; the API is Localist's. events.purdue.edu is a CNAME chain to pu
+  name: Purdue Events Calendar API (Localist tenant)
+  slug: purdue-events-api
+- description: Purdue.io is an OData v4 API over Purdue's course catalog, started in 2015 as a Computer Science senior design project and still maintained by its community. It is genuinely useful and genuinely about
+  name: Purdue.io Course Catalog API (community-built, third-party)
+  slug: purdueio-course-catalog-api
+artifact_total: 17
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/purdue-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/purdue-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://www.purdue.edu/
 - group: build
   title: ''
-  type: GitHub
+  type: GitHubOrganization
   url: https://github.com/Purdue
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/purdue-university/
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://www.rcac.purdue.edu/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://purr.purdue.edu/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://sso.purdue.edu/idp/shibboleth
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://catalog.purdue.edu/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.purdue.edu/ai/ai-governance-and-review/
+- group: build
+  title: ''
+  type: AITooling
+  url: https://www.purdue.edu/ai/enterprise-ai-toolkit/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.purdue.edu/purdue/about/privacy-notice.php
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.purdue.edu/home/disclaimer/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.rcac.purdue.edu/help
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.purdue.edu/newsroom/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.rcac.purdue.edu/knowledge
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.rcac.purdue.edu/api
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/purdue-authentication.yml
+- group: design
+  title: ''
+  type: Errors
+  url: errors/purdue-errors.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/purdue-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/purdue-lifecycle.yml
+- group: design
+  title: ''
+  type: Rules
+  url: rules/purdue-openapi-spectral-rules.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/purdue-vocabulary.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/purdue-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -148,64 +163,40 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: design
-  title: ''
-  type: JSONLD
-  url: json-ld/purdue-context.jsonld
 created: '2026-06-03'
-description: 'Purdue University is a public land-grant research university in West Lafayette, Indiana, United States, ranked #99 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is limited and largely community- or service-specific rather than a single centralized developer portal. Confirmed public interfaces include the community-built Purdue.io OData course-catalog API and the Purdue University Research Repository (PURR) OAI-PMH metadata endpoint. A Purdue Libraries API host exists but currently serves only a placeholder page.'
+description: 'Purdue University is a public land-grant research university in West Lafayette, Indiana, United States, a member of the Association of American Universities and the Big Ten Academic Alliance. Purdue operates no central developer portal, no API gateway and no self-service key issuance, and its programmable footprint is small, scattered across service units, and almost entirely undocumented. Four surfaces were confirmed institution-operated by live probe: the Rosen Center for Advanced Computing (RCAC) publishes its own OpenAPI 3.0 document at www.rcac.purdue.edu/api covering 206 paths and 452 operations behind Purdue Web Authentication; Housing and Food Services runs an open, keyless dining menus API at api.hfs.purdue.edu/menus/v2; the Purdue University Research Repository exposes an OAI-PMH 2.0 endpoint at purr.purdue.edu/oaipmh; and Purdue runs its own Shibboleth identity provider, registered in InCommon, whose SAML 2.0 metadata is public. Three further surfaces are recorded
+  as tenant relationships, not Purdue engineering - Purdue e-Pubs on bepress Digital Commons, the events calendar on Localist, and the community-built Purdue.io course-catalog API, which runs on a privately registered domain and DigitalOcean hosting with no evidence of institutional operation or endorsement. The Purdue Libraries API host resolves but has served only a placeholder page since at least June 2026.'
 examples:
 - key_count: 2
-  name: Purdue Listcampuses Example
-  slug: purdue-listCampuses-example
+  name: Purdue Hfs Location Menu Example
+  slug: purdue-hfs-location-menu-example
 - key_count: 2
-  name: Purdue Listcourses Example
-  slug: purdue-listCourses-example
-- key_count: 2
-  name: Purdue Listsubjects Example
-  slug: purdue-listSubjects-example
+  name: Purdue Hfs Locations Example
+  slug: purdue-hfs-locations-example
 finops:
 - name: Purdue Finops
   service_category: Education
   slug: purdue-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/purdue.png
 json_schemas:
-- name: Course
-  property_count: 6
-  slug: purdue-course
-- name: Meeting
-  property_count: 9
-  slug: purdue-meeting
-- name: Section
-  property_count: 6
-  slug: purdue-section
-- name: Subject
-  property_count: 3
-  slug: purdue-subject
-json_structures:
-- name: Purdue Course Structure
-  property_count: 6
-  slug: purdue-course-structure
-- name: Purdue Section Structure
-  property_count: 6
-  slug: purdue-section-structure
-jsonld:
-- class_count: 34
-  name: Purdue Context
-  property_count: 3
-  slug: purdue-context
+- name: Purdue HFS Published Daily Menu
+  property_count: 5
+  slug: purdue-hfs-location-menu
+- name: Purdue HFS Dining Location
+  property_count: 11
+  slug: purdue-hfs-location
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Purdue University
 nav: Providers
 network: true
-overview: 'Purdue University publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Buildings API, Campuses API, Classes API, and 7 more. Tagged areas include Education, Higher Education, University, Research, and Open Data.
+overview: 'Purdue University publishes 2 APIs on the [APIs.io](https://apis.io/) network: Purdue RCAC API and Purdue HFS Dining Menus API. Tagged areas include University, Higher Education, Education, United States, and Indiana.
 
 
-  The Purdue University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Purdue University catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Purdue University''s developer surface includes GitHub presence and 9 more developer resources.'
+  Purdue University''s developer surface includes support, engineering blog, documentation, API reference, authentication, and 21 more developer resources.'
 plans:
 - name: Purdue Plans Pricing
   plan_count: 2
@@ -216,41 +207,36 @@ rate_limits:
   name: Purdue Rate Limits
   slug: purdue-rate-limits
 rules:
-- effective_rule_count: 5
-  extends: []
-  name: Purdue University API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 1
-    warn: 4
-  slug: purdue-jsonschema-spectral-rules
-- effective_rule_count: 47
+- effective_rule_count: 49
   extends:
   - spectral:oas
   name: Purdue University API Rules
-  rule_count: 6
+  rule_count: 8
   severity_counts:
-    error: 3
+    error: 1
     hint: 0
-    info: 0
+    info: 4
     warn: 3
-  slug: purdue-rules
+  slug: purdue-openapi-spectral-rules
 score:
-  band: thin
-  composite: 37.7
-  delta: 4.6
+  band: developing
+  composite: 47.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 39.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 9.9
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 50.0
+    commercial_clarity: 50.0
     contract_governance: 28.8
-    contract_quality: 67.3
-    developer_ergonomics: 9.5
-    discoverability: 74.1
+    contract_quality: 57.2
+    developer_ergonomics: 35.7
+    discoverability: 68.5
     governance: 28.8
-    operational_transparency: 26.3
-  previous_composite: 33.1
+    operational_transparency: 23.7
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -263,23 +249,36 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 46.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/purdue/refs/heads/main/screenshots/purdue-2026-06-20T192313.png
 security:
+- kind: authentication
+  name: Purdue Authentication
+  slug: purdue-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Purdue Domain Security
   slug: purdue-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: purdue
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
+- Higher Education
+- Education
 - United States
+- Indiana
+- Public Research University
+- Land-Grant University
+- Association of American Universities
+- Big Ten Academic Alliance
+- Research Computing
+- Research Repository
+- Identity Federation
+- OAI-PMH
+- Campus Life
+- Course Catalog
 website: https://www.purdue.edu/
 ---

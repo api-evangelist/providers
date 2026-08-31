@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -40,11 +40,11 @@ agentic_access:
   operation_count: 2
   slug: replicant-agentic-access
   summary_line: 2 operations · 2 acting
-api_count: 1
+api_count: 2
 apis:
-- description: Places outbound AI voice calls and SMS messages through Replicant against a pre-configured campaign, and notifies the caller of call status. Two POST operations — placeCall and sendSMS — each taking a
-  name: Replicant Outbound API
-  slug: replicant-outbound-api
+- description: The Replicant API from Replicant — 2 operation(s) for replicant.
+  name: Replicant Replicant API
+  slug: replicant-replicant-api
 artifact_total: 9
 asyncapis:
 - description: ''
@@ -167,7 +167,7 @@ modified: '2026-08-14'
 name: Replicant
 nav: Providers
 network: true
-overview: 'Replicant publishes 1 API on the [APIs.io](https://apis.io/) network: Outbound API. Tagged areas include Company, Contact Center, Conversational AI, Customer Service, and Voice AI.
+overview: 'Replicant publishes 1 API on the [APIs.io](https://apis.io/) network: Replicant API. Tagged areas include Company, Contact Center, Conversational AI, Customer Service, and Voice AI.
 
 
   The Replicant catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -185,18 +185,23 @@ rate_limits:
   slug: replicant-rate-limits
 score:
   band: strong
-  composite: 56.0
-  delta: 3.4
+  composite: 54.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 66.7
     developer_ergonomics: 37.5
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 52.6
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -207,8 +212,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/replicant/refs/heads/main/screenshots/replicant-2026-08-17T081526.png
 security:

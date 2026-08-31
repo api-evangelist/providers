@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 0
@@ -31,39 +31,123 @@ agentic_access:
   operation_count: 117
   slug: egym-agentic-access
   summary_line: 117 operations · 62 acting
-api_count: 10
+api_count: 16
 apis:
-- description: The current member-management-system integration API. RESTful contract for gym management software to sync member accounts and memberships into EGYM Cloud, manage profile pictures, RFID and NFC creden
-  name: EGYM MMS API V2
-  slug: mms-api-v2
-- description: The legacy member-management-system API (Gym API v1). Publishes and reads member profiles, gym and user products, check-in / check-out events, trainer tasks and a liveness endpoint. EGYM documents thi
-  name: EGYM MMS API v1
-  slug: mms-api-v1
-- description: Analytics and measurement export API for the authenticated gym location. Offers six synchronous CSV/JSON export endpoints — general analytics, Smart Strength workouts, Smart Strength assessments, flex
-  name: EGYM Data Hub API
-  slug: data-hub
-- description: 'Per-account export API returning a member''s workouts and their strength, cardio and body measurements. Marked "Alpha preview" by EGYM. Notable discovery property: this API is listed in EGYM''s AI-agent'
-  name: EGYM Data Export API
-  slug: data-export
-- description: 'Device-to-server API for equipment vendors integrating cardio, strength and measurement hardware directly with EGYM Cloud. Covers OAuth token exchange (RFID, NFC wallet, encrypted/obfuscated user id, '
-  name: EGYM Equipment Vendor API (standalone clients)
-  slug: equipment-vendor-standalone
-- description: 'Backend-to-backend API for equipment vendors whose measurement devices report through the vendor''s own cloud rather than talking to EGYM directly. Covers OAuth token creation with RFID / NFC-wallet / '
-  name: EGYM Equipment Vendor API (server-to-server)
-  slug: equipment-vendor-server
-- description: User-authorized API that lets third-party fitness and wearable apps write a member's own data into their EGYM ID account. Accepts workout submissions and cardio measurements — VO2 max, resting heart r
-  name: EGYM User Connect API
-  slug: user-connect
-- description: 'An inverted contract: rather than an API EGYM operates, this is an "API blueprint" that EGYM publishes for member-management-system vendors to IMPLEMENT on their own hosts, so EGYM''s white-label membe'
-  name: EGYM Canonical GroupX Classes API (blueprint)
-  slug: canonical-groupx-classes
 - description: Authorization-and-capture API for booking platforms. A Wellpass member generates a single-use booking code in the Wellpass app for a specific gym; the partner platform validates the code (dryRun true)
   name: EGYM Pay with Wellpass API
   slug: pay-with-wellpass
 - description: Official hosted Model Context Protocol server published by EGYM at developer.egym.com/mcp and documented on the portal with copy-paste Codex configuration. Exposes six tools over the API catalog and d
   name: EGYM Documentation MCP Server
   slug: mcp-docs
-artifact_total: 27
+- description: API for submitting cardio measurements
+  name: EGYM 1. Cardio Measurements API
+  slug: egym-1-cardio-measurements-api
+- description: API for submitting workouts
+  name: EGYM 2. Workouts API
+  slug: egym-2-workouts-api
+- description: The alive API from EGYM — 1 operation(s) for alive.
+  name: EGYM Alive API
+  slug: egym-alive-api
+- description: Background export jobs that produce downloadable JSON, JSONL, or CSV files.
+  name: EGYM Asynchronous exports API
+  slug: egym-asynchronous-exports-api
+- description: The Body Measurement API from EGYM — 2 operation(s) for body measurement.
+  name: EGYM Body Measurement API
+  slug: egym-body-measurement-api
+- description: The Cardio Measurement API from EGYM — 2 operation(s) for cardio measurement.
+  name: EGYM Cardio Measurement API
+  slug: egym-cardio-measurement-api
+- description: The Cardio Test API from EGYM — 3 operation(s) for cardio test.
+  name: EGYM Cardio Test API
+  slug: egym-cardio-test-api
+- description: The Cardio Workouts API from EGYM — 2 operation(s) for cardio workouts.
+  name: EGYM Cardio Workouts API
+  slug: egym-cardio-workouts-api
+- description: The Flexibility Measurement API from EGYM — 2 operation(s) for flexibility measurement.
+  name: EGYM Flexibility Measurement API
+  slug: egym-flexibility-measurement-api
+- description: The gym API from EGYM — 2 operation(s) for gym.
+  name: EGYM Gym API
+  slug: egym-gym-api
+- description: These operations are needed to transmit the information to EGYM, that a specific member is currently in the gym. Based on that information several business logics are built, to provide a seamless trai
+  name: EGYM Gym Visit API
+  slug: egym-gym-visit-api
+- description: The Image API from EGYM — 1 operation(s) for image.
+  name: EGYM Image API
+  slug: egym-image-api
+- description: Operations related to L2 level of integration
+  name: EGYM L2 API
+  slug: egym-l2-api
+- description: Operations related to L3 level of integration
+  name: EGYM L3 API
+  slug: egym-l3-api
+- description: The Machine API from EGYM — 1 operation(s) for machine.
+  name: EGYM Machine API
+  slug: egym-machine-api
+- description: These operations are needed to retrieve measurements with corresponding metrics. Additional permissions are required to access these endpoints.
+  name: EGYM Measurements API
+  slug: egym-measurements-api
+- description: These operations are needed to create and update member accounts and their membership information.
+  name: EGYM Member Account API
+  slug: egym-member-account-api
+- description: Note that NFC API endpoints are in beta as we've been tuning setup processes on both EGYM and partner sides.
+  name: EGYM Member Account NFC API
+  slug: egym-member-account-nfc-api
+- description: These operation are needed to assign and retrieve member account roles
+  name: EGYM Member Account Roles API
+  slug: egym-member-account-roles-api
+- description: Operations with RFIDs
+  name: EGYM Member RFIDs API
+  slug: egym-member-rfids-api
+- description: These operations are needed to migrate members from V1 API to V2 API.
+  name: EGYM Migrating members API
+  slug: egym-migrating-members-api
+- description: The OAuth API from EGYM — 2 operation(s) for oauth.
+  name: EGYM O Auth API
+  slug: egym-oauth-api
+- description: The Open Exercise Workouts API from EGYM — 1 operation(s) for open exercise workouts.
+  name: EGYM Open Exercise Workouts API
+  slug: egym-open-exercise-workouts-api
+- description: The Partners API from EGYM — 1 operation(s) for partners.
+  name: EGYM Partners API
+  slug: egym-partners-api
+- description: Operations on EGYM products. Currently available products are EGYM Smart Strength (Machine Admission) and EGYM+
+  name: EGYM Products booking API
+  slug: egym-products-booking-api
+- description: Send push notifications to EGYM mobile apps
+  name: EGYM Push notifications API
+  slug: egym-push-notifications-api
+- description: The Resource API from EGYM — 2 operation(s) for resource.
+  name: EGYM Resource API
+  slug: egym-resource-api
+- description: The Statistics API from EGYM — 2 operation(s) for statistics.
+  name: EGYM Statistics API
+  slug: egym-statistics-api
+- description: The Strength Workouts API from EGYM — 2 operation(s) for strength workouts.
+  name: EGYM Strength Workouts API
+  slug: egym-strength-workouts-api
+- description: Immediate paginated JSON exports for weekly analytics and recent event data.
+  name: EGYM Synchronous exports API
+  slug: egym-synchronous-exports-api
+- description: The task API from EGYM — 2 operation(s) for task.
+  name: EGYM Task API
+  slug: egym-task-api
+- description: These operations are needed to create and update trainer tasks.
+  name: EGYM Trainer Task API
+  slug: egym-trainer-task-api
+- description: The User API from EGYM — 9 operation(s) for user.
+  name: EGYM User API
+  slug: egym-user-api
+- description: The User Details API from EGYM — 1 operation(s) for user details.
+  name: EGYM User Details API
+  slug: egym-user-details-api
+- description: Operations with webhooks
+  name: EGYM Webhooks API
+  slug: egym-webhooks-api
+- description: These operations are needed to retrieve workouts. Additional permissions are required to access these endpoints.
+  name: EGYM Workouts API
+  slug: egym-workouts-api
+artifact_total: 55
 asyncapis:
 - description: ''
   name: Egym Events Webhooks
@@ -97,6 +181,34 @@ collections:
   name: OpenAPI definition
   slug: open-egym-user-connect
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/egym-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/egym-mms-api-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/egym-data-hub-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/egym-data-export-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/egym-equipment-vendor-standalone-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/egym-equipment-vendor-server-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/egym-user-connect-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -286,13 +398,13 @@ modified: '2026-08-12'
 name: EGYM
 nav: Providers
 network: true
-overview: 'EGYM publishes 8 APIs on the [APIs.io](https://apis.io/) network, including MMS API V2, MMS API v1, Data Hub API, and 5 more. Tagged areas include Company, Fitness, Health, Wellness, and Corporate Wellness.
+overview: 'EGYM publishes 36 APIs on the [APIs.io](https://apis.io/) network, including 1. Cardio Measurements API, 2. Workouts API, Alive API, and 33 more. Tagged areas include Company, Fitness, Health, Wellness, and Corporate Wellness.
 
 
   The EGYM catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  EGYM''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
+  EGYM''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 44 more developer resources.'
 plans:
 - name: Egym Plans Pricing
   plan_count: 0
@@ -309,18 +421,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 66.0
+  composite: 62.8
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
-    contract_quality: 67.2
+    contract_governance: 4.5
+    contract_quality: 67.1
     developer_ergonomics: 73.2
-    discoverability: 83.3
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 71.1
-  previous_composite: 66.0
+  previous_composite: 62.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -337,8 +454,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/screenshots/egym-2026-08-17T080915.png
 security:
@@ -360,7 +477,7 @@ tags:
 - Connected Equipment
 - Gym Management
 - Member Management
-- Check-in
+- Check-In
 - Measurements
 - Workouts
 - Analytics

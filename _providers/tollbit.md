@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-26'
-api_count: 11
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Auth Tokens API from Tollbit — 3 operation(s) for auth tokens.
   name: Tollbit Auth Tokens API
@@ -42,34 +42,19 @@ apis:
 - description: The Dev API from Tollbit — 1 operation(s) for dev.
   name: Tollbit Dev API
   slug: tollbit-dev-api
-- description: The Get Catalog of Pages for Property API from Tollbit — 1 operation(s) for get catalog of pages for property.
-  name: Tollbit Get Catalog of Pages for Property API
-  slug: tollbit-get-catalog-of-pages-for-property-api
-- description: The Get Tollbit Content API from Tollbit — 1 operation(s) for get tollbit content.
-  name: Tollbit Get Tollbit Content API
-  slug: tollbit-get-tollbit-content-api
-- description: The Get Tollbit Rates API from Tollbit — 2 operation(s) for get tollbit rates.
-  name: Tollbit Get Tollbit Rates API
-  slug: tollbit-get-tollbit-rates-api
-- description: The Report Content Usage API from Tollbit — 1 operation(s) for report content usage.
-  name: Tollbit Report Content Usage API
-  slug: tollbit-report-content-usage-api
 - description: The Reporting API from Tollbit — 1 operation(s) for reporting.
   name: Tollbit Reporting API
   slug: tollbit-reporting-api
 - description: The Search API from Tollbit — 1 operation(s) for search.
   name: Tollbit Search API
   slug: tollbit-search-api
-- description: The Search Content API from Tollbit — 1 operation(s) for search content.
-  name: Tollbit Search Content API
-  slug: tollbit-search-content-api
 - description: The Tollbit Content API from Tollbit — 4 operation(s) for tollbit content.
   name: Tollbit Tollbit Content API
   slug: tollbit-tollbit-content-api
 - description: The Tollbit Subdomain API from Tollbit — 1 operation(s) for tollbit subdomain.
   name: Tollbit Tollbit Subdomain API
   slug: tollbit-tollbit-subdomain-api
-artifact_total: 27
+artifact_total: 22
 asyncapis:
 - description: TollBit pushes real-time webhook notifications to subscriber applications when content becomes available (created or updated) from TollBit publisher properties, so consumers do not have to poll. Deliv
   name: TollBit Content Events (Webhooks)
@@ -229,7 +214,7 @@ modified: '2026-07-21'
 name: Tollbit
 nav: Providers
 network: true
-overview: 'Tollbit publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Auth Tokens API, Dev API, Get Catalog of Pages for Property API, and 8 more. Tagged areas include Company, Content Licensing, Content Monetization, AI Agents, and Agentic Web.
+overview: 'Tollbit publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Auth Tokens API, Dev API, Reporting API, and 3 more. Tagged areas include Company, Content Licensing, Content Monetization, AI Agents, and Agentic Web.
 
 
   The Tollbit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -239,18 +224,23 @@ overview: 'Tollbit publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 6
 score:
   band: developing
-  composite: 44.5
-  delta: 1.0
+  composite: 42.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 57.9
+    contract_governance: 4.5
+    contract_quality: 58.4
     developer_ergonomics: 58.3
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 43.5
+  previous_composite: 43.2
   provenance:
     conformance: derived
     contracts:
@@ -260,8 +250,8 @@ score:
       total: 11
     mcp: first-party
     skills: unknown
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tollbit/refs/heads/main/screenshots/tollbit-2026-08-17T082402.png
 security:

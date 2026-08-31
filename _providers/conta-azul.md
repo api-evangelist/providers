@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 9
 apis:
 - description: Conjunto de recursos para acompanhar e administrar operações relacionadas ao gerenciamento de baixas - esses recursos incluem criar uma nova baixa, retornar as baixas pelo id da parcela, atualizar par
   name: Conta Azul v1 API
@@ -187,19 +187,24 @@ scopes:
   slug: conta-azul-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: strong
-  composite: 54.4
-  delta: 0.0
+  band: developing
+  composite: 52.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 56.7
     developer_ergonomics: 58.9
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 54.4
+  previous_composite: 51.8
   provenance:
     conformance: derived
     contracts:
@@ -215,8 +220,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/screenshots/conta-azul-2026-07-25T210322.png
 security:

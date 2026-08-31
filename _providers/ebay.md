@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 200
   slug: ebay-agentic-access
   summary_line: 200 operations · 85 acting · 2 human-in-the-loop
-api_count: 64
+api_count: 25
 apis:
 - description: The Advertising_eligibility API from eBay — 1 operation(s) for advertising_eligibility.
   name: eBay Advertising_eligibility API
@@ -434,6 +434,10 @@ collections:
   name: eBay Account Advertising_eligibility Video API
   slug: open-ebay-video-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ebay-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1954,7 +1958,7 @@ overview: 'eBay publishes 64 APIs on the [APIs.io](https://apis.io/) network, in
   The eBay catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  eBay''s developer surface includes authentication, getting-started guide, tooling, support, FAQ, engineering blog, and 15 more developer resources.'
+  eBay''s developer surface includes authentication, getting-started guide, tooling, support, FAQ, engineering blog, and 16 more developer resources.'
 plans:
 - name: Ebay Plans Pricing
   plan_count: 7
@@ -1999,7 +2003,12 @@ scopes:
 score:
   band: developing
   composite: 41.9
-  delta: 4.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 65.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -2009,7 +2018,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 37.9
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -2017,8 +2026,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 71
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebay/refs/heads/main/screenshots/ebay-2026-07-25T212757.png
 security:

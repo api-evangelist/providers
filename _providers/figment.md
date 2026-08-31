@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 1
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 129
   slug: figment-agentic-access
   summary_line: 129 operations · 87 acting · 1 human-in-the-loop
-api_count: 25
+api_count: 1
 apis:
 - description: Hosted Model Context Protocol server served from Figment's own documentation host at docs.figment.io/mcp, exposing the Figment documentation and API reference to MCP clients. The endpoint is OAuth-pro
   name: Figment Documentation MCP Server
@@ -363,7 +363,7 @@ modified: '2026-08-04'
 name: Figment
 nav: Providers
 network: true
-overview: 'Figment publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Aptos API, Avalanche API, and 21 more. Tagged areas include Staking, Blockchain, Digital Assets, Proof of Stake, and Validators.
+overview: 'Figment publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Aptos API, Avalanche API, and 21 more. Tagged areas include staking, Blockchain, digital-assets, proof-of-stake, and validators.
 
 
   Figment''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 34 more developer resources.'
@@ -374,18 +374,23 @@ rate_limits:
   slug: figment-rate-limits
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 47.4
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 48.1
     developer_ergonomics: 54.2
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 50.5
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -396,8 +401,8 @@ score:
       total: 24
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/screenshots/figment-2026-08-07T165258.png
 security:
@@ -419,17 +424,17 @@ security:
   summary_line: SOC 2 Type II, ISO Certificate
 slug: figment
 tags:
-- Staking
+- staking
 - Blockchain
-- Digital Assets
-- Proof of Stake
-- Validators
-- Institutional Finance
+- digital-assets
+- proof-of-stake
+- validators
+- institutional-finance
 - rewards-reporting
-- Ethereum
-- Solana
-- Web3 Infrastructure
-- Custody
+- ethereum
+- solana
+- web3-infrastructure
+- custody
 - x402
 website: https://www.figment.io/
 ---

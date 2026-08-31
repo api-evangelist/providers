@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Gigya / SAP Customer Data Cloud REST API for accounts, identity, social login, consent, and profile data. Endpoints are data-center scoped under {service}.{dc}.gigya.com (e.g. accounts.us1.gigya.com) '
@@ -41,6 +41,10 @@ apis:
   slug: gigya-rest-api-sap-customer-data-cloud
 artifact_total: 4
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sap/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -104,11 +108,16 @@ network: true
 overview: 'Gigya publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Identity, Authentication, CIAM, and Customer Identity.
 
 
-  Gigya''s developer surface includes documentation, authentication, and 11 more developer resources.'
+  Gigya''s developer surface includes documentation, authentication, and 12 more developer resources.'
 random_paper: 4
 score:
   band: emerging
-  composite: 18.0
+  composite: 16.9
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 7.9
@@ -116,14 +125,14 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 18.0
+  previous_composite: 16.9
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gigya/refs/heads/main/screenshots/gigya-2026-07-25T215815.png
 security:

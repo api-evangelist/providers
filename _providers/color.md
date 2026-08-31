@@ -35,18 +35,28 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: 'Color''s partner-facing REST API — 13 operations over three surfaces: eligibility entries (list/create/read/update plus CSV or ANSI 834 file upload), population reporting (participants, samples, result'
-  name: Color External API V1
+- description: Eligibility entries and eligibility-file uploads for a population.
+  name: Color Eligibility API
   slug: color-eligibility-api
-artifact_total: 9
+- description: 'Read-side queries across a population: participants, results, samples, self-reported results.'
+  name: Color Populations API
+  slug: color-populations-api
+- description: 'Lab/LIMS sample lifecycle: accession, result reporting, destruction.'
+  name: Color Samples API
+  slug: color-samples-api
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
   slug: open-.refine-report
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/color-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -187,10 +197,10 @@ modified: '2026-08-15'
 name: Color
 nav: Providers
 network: true
-overview: 'Color publishes 1 API on the [APIs.io](https://apis.io/) network: External API V1. Tagged areas include Company, Health, Healthcare, Genomics, and Oncology.
+overview: 'Color publishes 3 APIs on the [APIs.io](https://apis.io/) network: Eligibility API, Populations API, and Samples API. Tagged areas include Company, Health, Healthcare, Genomics, and Oncology.
 
 
-  Color''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, signup flow, support, and 25 more developer resources.'
+  Color''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, signup flow, support, and 26 more developer resources.'
 plans:
 - name: Color Plans Pricing
   plan_count: 0
@@ -202,18 +212,23 @@ rate_limits:
   slug: color-rate-limits
 score:
   band: developing
-  composite: 54.1
-  delta: 0.0
+  composite: 51.3
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
-    contract_quality: 58.2
+    contract_governance: 18.2
+    contract_quality: 57.1
     developer_ergonomics: 47.0
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 54.1
+  previous_composite: 51.8
   provenance:
     conformance: first-party
     contracts:
@@ -225,12 +240,18 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: ccpa
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/screenshots/color-2026-07-25T210056.png
 security:

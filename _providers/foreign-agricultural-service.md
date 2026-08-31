@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 35
   slug: foreign-agricultural-service-agentic-access
   summary_line: 35 operations
-api_count: 4
+api_count: 1
 apis:
 - description: The USDA Foreign Agricultural Service Open Data API provides programmatic access to U.S. agricultural trade data, including the Global Agricultural Trade System (GATS), Export Sales Reporting (ESR), a
   name: USDA FAS Open Data API
@@ -121,18 +121,23 @@ rate_limits:
   slug: foreign-agricultural-service-rate-limits
 score:
   band: emerging
-  composite: 17.1
-  delta: 1.9
+  composite: 16.5
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 11.9
     developer_ergonomics: 21.4
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 15.2
+  previous_composite: 17.1
   provenance:
     agentic_access: derived
     contracts:
@@ -146,8 +151,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foreign-agricultural-service/refs/heads/main/screenshots/foreign-agricultural-service-2026-06-20T181418.png
 security:

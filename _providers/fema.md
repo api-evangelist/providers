@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 9
   slug: fema-agentic-access
   summary_line: 9 operations
-api_count: 7
+api_count: 1
 apis:
 - description: Self-describing metadata - dataset list and data dictionaries.
   name: OpenFEMA Catalog API
@@ -93,6 +93,10 @@ collections:
   name: OpenFEMA API
   slug: open-fema
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fema-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -124,26 +128,31 @@ network: true
 overview: 'OpenFEMA publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Disaster Declarations API, Hazard Mitigation API, and 4 more. Tagged areas include Government, Open Data, Emergency Management, Disaster, and FEMA.
 
 
-  OpenFEMA''s developer surface includes documentation and 4 more developer resources.'
+  OpenFEMA''s developer surface includes documentation and 5 more developer resources.'
 random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Fema Rate Limits
   slug: fema-rate-limits
 score:
-  band: thin
-  composite: 26.7
-  delta: 1.4
+  band: emerging
+  composite: 26.1
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 53.7
     developer_ergonomics: 16.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 25.3
+  previous_composite: 26.7
   provenance:
     agentic_access: derived
     contracts:
@@ -157,8 +166,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

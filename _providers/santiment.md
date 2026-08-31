@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: 'The primary Santiment GraphQL API giving developers programmatic access to on-chain metrics, social sentiment, developer activity, and price data for 2,800+ crypto assets. Supports timeseries queries '
@@ -43,6 +43,10 @@ apis:
   slug: sansheets
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/santiment/sanpy/issues
 - group: commercial
   title: ''
   type: License
@@ -114,12 +118,17 @@ overview: 'Santiment publishes 1 API on the [APIs.io](https://apis.io/) network:
   The Santiment catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Santiment''s developer surface includes developer portal, pricing, status page, engineering blog, authentication, and 7 more developer resources.'
+  Santiment''s developer surface includes developer portal, pricing, status page, engineering blog, authentication, and 8 more developer resources.'
 random_paper: 13
 score:
-  band: thin
-  composite: 28.7
-  delta: 1.9
+  band: emerging
+  composite: 25.8
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -129,9 +138,12 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 26.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 25.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/santiment/refs/heads/main/screenshots/santiment-2026-06-20T193411.png
 security:

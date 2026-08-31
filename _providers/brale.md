@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-26'
-api_count: 6
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Accounts API from Brale — 4 operation(s) for accounts.
   name: Brale Accounts API
@@ -100,6 +100,10 @@ collections:
   name: Brale Accounts Webhooks API
   slug: open-brale-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/brale-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -278,7 +282,7 @@ overview: 'Brale publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
   The Brale catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Brale''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 33 more developer resources.'
+  Brale''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 34 more developer resources.'
 random_paper: 14
 scopes:
 - name: Brale Scopes
@@ -287,18 +291,23 @@ scopes:
   summary_line: 20 scopes · clientCredentials
 score:
   band: strong
-  composite: 63.3
-  delta: 0.0
+  composite: 60.5
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
-    contract_quality: 63.3
+    contract_governance: 4.5
+    contract_quality: 64.6
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 63.3
+  previous_composite: 61.0
   provenance:
     conformance: derived
     contracts:
@@ -314,8 +323,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/screenshots/brale-2026-07-25T203713.png
 security:

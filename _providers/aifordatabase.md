@@ -11,30 +11,71 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.5
-  scored_at: '2026-08-26'
-api_count: 1
+  score: 34.9
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Scoped Bearer-auth REST API for natural-language queries, chat, connections, dashboards, workflows, webhooks, metrics, saved queries, query approval, usage, and API key management. Documented via a pu
-  name: AI for Database API
-  slug: ai-for-database-api
-artifact_total: 8
+- description: Send natural-language messages and receive AI-generated SQL and insights
+  name: AI for Database Chat API
+  slug: aifordatabase-chat-api
+- description: Manage database connections, schemas, annotations, and execute SQL queries
+  name: AI for Database Connections API
+  slug: aifordatabase-connections-api
+- description: Manage chat conversation history
+  name: AI for Database Conversations API
+  slug: aifordatabase-conversations-api
+- description: Create and manage dashboards and their widgets
+  name: AI for Database Dashboards API
+  slug: aifordatabase-dashboards-api
+- description: Manage platform API keys
+  name: AI for Database Keys API
+  slug: aifordatabase-keys-api
+- description: Define and evaluate metric formulas against connections
+  name: AI for Database Metrics API
+  slug: aifordatabase-metrics-api
+- description: Submit queries for human approval before execution
+  name: AI for Database Query Approval API
+  slug: aifordatabase-query-approval-api
+- description: Store, parameterize, and execute reusable SQL queries
+  name: AI for Database Saved Queries API
+  slug: aifordatabase-saved-queries-api
+- description: View usage records and budget information
+  name: AI for Database Usage API
+  slug: aifordatabase-usage-api
+- description: Manage webhook endpoints, deliveries, and test events
+  name: AI for Database Webhooks API
+  slug: aifordatabase-webhooks-api
+- description: Manage encrypted, destination-bound credentials for workflow actions
+  name: AI for Database Workflow Credentials API
+  slug: aifordatabase-workflow-credentials-api
+- description: Build and run scheduled or manual multi-step workflows
+  name: AI for Database Workflows API
+  slug: aifordatabase-workflows-api
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Aifordatabase Webhooks
   slug: aifordatabase-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aifordatabase-openapi-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/aifordatabase-mcp.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -112,20 +153,20 @@ description: 'AI for Database is a natural-language data layer for operational d
 image: https://www.aifordatabase.com/logo.png
 layout: provider
 mcp_servers:
-- description: Local-stdio MCP server (npm aifordatabase-mcp@0.1.2, 9 tools). No hosted/remote endpoint.
+- description: ''
   name: AI for Database MCP Server
   slug: ai-for-database-mcp-server
 modified: '2026-08-26'
 name: AI for Database
 nav: Providers
 network: true
-overview: 'AI for Database publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Database, Analytics, Developer Tools, and Natural Language Query.
+overview: 'AI for Database publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Connections API, Conversations API, and 9 more. Tagged areas include Artificial Intelligence, Database, Analytics, Developer Tools, and Natural Language Query.
 
 
   The AI for Database catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AI for Database''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
+  AI for Database''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
 plans:
 - name: Aifordatabase Plans Pricing
   plan_count: 3
@@ -137,16 +178,23 @@ rate_limits:
   slug: aifordatabase-rate-limits
 score:
   band: strong
-  composite: 55.8
+  composite: 58.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
-    contract_governance: 16.7
-    contract_quality: 49.3
+    contract_governance: 4.5
+    contract_quality: 64.5
     developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 39.5
+  previous_composite: 58.7
   provenance:
     conformance: derived
     contracts:
@@ -156,8 +204,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Aifordatabase Authentication
@@ -173,7 +222,7 @@ security:
   summary_line: SOC 2, GDPR
 slug: aifordatabase
 tags:
-- AI
+- Artificial Intelligence
 - Database
 - Analytics
 - Developer Tools
@@ -181,12 +230,12 @@ tags:
 - Text-to-SQL
 - Dashboards
 - Business Intelligence
-- Workflow Automation
+- Workflow-Automation
 - Alerts
-- Agent-Native
-- LLMSTxt
+- agent-native
+- llms-txt
 - OpenAPI
-- Webhooks
+- Webhook
 - MCP
 - PostgreSQL
 - MySQL

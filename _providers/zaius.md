@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-26'
-api_count: 17
+  scored_at: '2026-08-30'
+api_count: 11
 apis:
 - description: The Compliance API from Zaius — 7 operation(s) for compliance.
   name: Zaius Compliance API
@@ -323,18 +323,23 @@ rate_limits:
   slug: zaius-rate-limits
 score:
   band: strong
-  composite: 61.7
+  composite: 60.2
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 56.0
     developer_ergonomics: 66.7
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 80.3
-  previous_composite: 61.7
+  previous_composite: 60.2
   provenance:
     conformance: first-party
     contracts:
@@ -344,8 +349,8 @@ score:
       total: 17
     mcp: derived
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/screenshots/zaius-2026-08-17T083035.png
 security:

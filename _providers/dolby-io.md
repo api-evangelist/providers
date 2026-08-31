@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 85
   slug: dolby-io-agentic-access
   summary_line: 85 operations · 35 acting · 2 human-in-the-loop
-api_count: 18
+api_count: 2
 apis:
 - description: Legacy Dolby.io Media APIs for cloud-based audio and video processing. Includes Enhance (noise reduction, leveling, dialog isolation), Analyze (loudness, speech metrics, diagnostics), Transcode (web/m
   name: Dolby.io Media API
@@ -192,6 +192,10 @@ collections:
   name: Dolby OptiView Real-time Streaming ABR Ladders Webhooks API
   slug: open-dolby-io-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dolby-io-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -490,13 +494,13 @@ modified: '2026-06-20'
 name: Dolby.io
 nav: Providers
 network: true
-overview: 'Dolby.io publishes 14 APIs on the [APIs.io](https://apis.io/) network, including ABR Ladders API, Analytics API, Channels API, and 11 more. Tagged areas include Media, Streaming, Real-Time Streaming, WebRTC, and Live Streaming.
+overview: 'Dolby.io publishes 14 APIs on the [APIs.io](https://apis.io/) network, including ABR Ladders API, Analytics API, Channels API, and 11 more. Tagged areas include Media, Streaming, Real-time Streaming, WebRTC, and Live Streaming.
 
 
   The Dolby.io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Dolby.io''s developer surface includes CLI, authentication, developer portal, documentation, getting-started guide, signup flow, pricing, and 51 more developer resources.'
+  Dolby.io''s developer surface includes CLI, authentication, developer portal, documentation, getting-started guide, signup flow, pricing, and 52 more developer resources.'
 plans:
 - name: Dolby Io Plans Pricing
   plan_count: 4
@@ -530,18 +534,23 @@ rules:
   slug: dolby-io-rules
 score:
   band: strong
-  composite: 65.5
-  delta: 0.0
+  composite: 61.9
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 36.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
-    contract_governance: 30.3
-    contract_quality: 67.4
+    contract_governance: 18.2
+    contract_quality: 65.7
     developer_ergonomics: 78.6
-    discoverability: 83.3
-    governance: 30.3
+    discoverability: 66.7
+    governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 65.5
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -551,8 +560,8 @@ score:
       marker_coverage: 0.0
       total: 14
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dolby-io/refs/heads/main/screenshots/dolby-io-2026-06-20T180134.png
 security:
@@ -572,7 +581,7 @@ slug: dolby-io
 tags:
 - Media
 - Streaming
-- Real-Time Streaming
+- Real-time Streaming
 - WebRTC
 - Live Streaming
 - Low Latency

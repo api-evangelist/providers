@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 419
   human_in_the_loop: 12
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 722
   slug: socotra-agentic-access
   summary_line: 722 operations · 419 acting · 12 human-in-the-loop
-api_count: 18
+api_count: 1
 apis:
 - description: The Auth API from Socotra — 41 operation(s) for auth.
   name: Socotra Auth API
@@ -161,6 +161,10 @@ collections:
   name: Socotra Insurance Suite OpenAPI Definition Work Management API
   slug: open-socotra-work-management-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/socotra-capability-edges.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -307,22 +311,27 @@ overview: 'Socotra publishes 18 APIs on the [APIs.io](https://apis.io/) network,
   The Socotra catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Socotra''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 25 more developer resources.'
+  Socotra''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 26 more developer resources.'
 random_paper: 7
 score:
   band: developing
-  composite: 51.8
-  delta: 0.0
+  composite: 49.7
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 45.3
     developer_ergonomics: 80.4
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 51.8
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -339,8 +348,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socotra/refs/heads/main/screenshots/socotra-2026-08-17T081950.png
 security:

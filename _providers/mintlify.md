@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: mintlify-agentic-access
   summary_line: 8 operations · 4 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Mintlify is a developer documentation platform that helps product and engineering teams create, maintain, and host modern docs. It uses a docs‑as‑code workflow (Markdown in your repo) with a rich comp
   name: Mintlify
@@ -296,15 +296,20 @@ rules:
   slug: mintlify-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.1
-  delta: 0.0
+  composite: 50.5
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 75.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 9.8
     contract_quality: 49.0
     developer_ergonomics: 52.4
-    discoverability: 63.0
+    discoverability: 57.4
     governance: 9.8
     operational_transparency: 55.3
   needs_work:
@@ -321,8 +326,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/screenshots/mintlify-2026-06-20T185606.png
 security:

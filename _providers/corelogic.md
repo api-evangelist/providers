@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 43
   slug: corelogic-agentic-access
   summary_line: 43 operations · 11 acting
-api_count: 27
+api_count: 2
 apis:
 - description: Trestle's RETS endpoint implements the RETS 1.8 specification on top of the same data catalog as the RESO Web API. The service is session-less; authentication uses HTTP Basic with client credentials o
   name: Trestle RETS
@@ -203,6 +203,10 @@ collections:
   name: CoreLogic Trestle Direct Web API — CRM Contacts UserRegistry API
   slug: open-corelogic-userregistry-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/corelogic-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -390,7 +394,7 @@ overview: 'CoreLogic (Cotality) publishes 22 APIs on the [APIs.io](https://apis.
   The CoreLogic (Cotality) catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  CoreLogic (Cotality)''s developer surface includes authentication, documentation, API reference, getting-started guide, FAQ, signup flow, product news, and 24 more developer resources.'
+  CoreLogic (Cotality)''s developer surface includes authentication, documentation, API reference, getting-started guide, FAQ, signup flow, product news, and 25 more developer resources.'
 plans:
 - name: Corelogic Plans Pricing
   plan_count: 4
@@ -440,18 +444,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 60.0
-  delta: 0.0
+  composite: 60.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 28.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
     contract_governance: 69.7
     contract_quality: 61.5
     developer_ergonomics: 50.0
-    discoverability: 59.3
+    discoverability: 61.1
     governance: 69.7
     operational_transparency: 34.2
-  previous_composite: 60.0
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     contracts:
@@ -465,8 +474,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 57.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corelogic/refs/heads/main/screenshots/corelogic-2026-06-20T175025.png
 security:

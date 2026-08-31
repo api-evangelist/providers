@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: documented
+    openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.3
-  scored_at: '2026-08-26'
+  score: 34.6
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -31,13 +31,20 @@ agentic_access:
   operation_count: 4
   slug: dreamthreads-agentic-access
   summary_line: 4 operations · 3 acting
-api_count: 1
+api_count: 2
 apis:
-- description: REST API for dream text parsing and interpretation. Includes a keyless public parser and liveness endpoint, plus gated partner endpoints for structured parsing and reflective interpretation. Also expo
-  name: DreamGraph API
-  slug: dreamgraph-api
-artifact_total: 13
+- description: Generate a tentative, context-aware dream reflection with a factor trace and provenance.
+  name: DreamThreads Dream interpretation API
+  slug: dreamthreads-dream-interpretation-api
+- description: Turn dream text into structured entities, emotions, actions, agency, threat, outcome, and recurrence.
+  name: DreamThreads Dream parsing API
+  slug: dreamthreads-dream-parsing-api
+artifact_total: 14
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/dreamthreads-mcp.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -196,20 +203,20 @@ json_schemas:
   slug: dreamthreads-mcp-search-dream-concepts-output.schema
 layout: provider
 mcp_servers:
-- description: ''
+- description: Parse dreams into structured context and search DreamGraph concepts without storing dream text.
   name: DreamThreads MCP Server
   slug: dreamthreads-mcp-server
-- description: Parse dreams into structured context and search DreamGraph concepts without storing dream text.
-  name: DreamGraph MCP server manifest
-  slug: dreamgraph-mcp-server-manifest
+- description: ''
+  name: Public DreamGraph MCP server (streamable-http, keyless)
+  slug: public-dreamgraph-mcp-server-streamable-http-keyless
 modified: '2026-08-14'
 name: DreamThreads
 nav: Providers
 network: true
-overview: 'DreamThreads publishes 1 API on the [APIs.io](https://apis.io/) network: DreamGraph API. Tagged areas include dream analysis, dream interpretation, Natural Language Processing, structured parsing, and AI Agents.
+overview: 'DreamThreads publishes 2 APIs on the [APIs.io](https://apis.io/) network: Dream interpretation API and Dream parsing API. Tagged areas include dream analysis, Dream interpretation, natural language processing, structured parsing, and AI Agents.
 
 
-  DreamThreads'' developer surface includes documentation, API reference, getting-started guide, support, GitHub presence, pricing, signup flow, and 28 more developer resources.'
+  DreamThreads'' developer surface includes documentation, API reference, getting-started guide, support, GitHub presence, pricing, signup flow, and 29 more developer resources.'
 plans:
 - name: Dreamthreads Plans Pricing
   plan_count: 2
@@ -220,19 +227,24 @@ rate_limits:
   name: Dreamthreads Rate Limits
   slug: dreamthreads-rate-limits
 score:
-  band: developing
-  composite: 53.0
+  band: strong
+  composite: 57.4
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 53.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 31.8
-    contract_quality: 40.0
+    contract_governance: 19.7
+    contract_quality: 63.6
     developer_ergonomics: 61.3
     discoverability: 75.9
-    governance: 31.8
+    governance: 19.7
     operational_transparency: 47.4
-  previous_composite: 53.0
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -243,8 +255,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dreamthreads/refs/heads/main/screenshots/dreamthreads-2026-08-17T080903.png
 security:
@@ -263,11 +275,11 @@ security:
 slug: dreamthreads
 tags:
 - dream analysis
-- dream interpretation
-- Natural Language Processing
+- Dream interpretation
+- natural language processing
 - structured parsing
 - AI Agents
-- MCP Server
+- MCP server
 - OpenAPI
 - wellness / sleep
 - research tooling

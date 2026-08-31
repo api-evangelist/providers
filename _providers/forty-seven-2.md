@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/gilead-sciences/
 - group: company
   title: ''
   type: Website
@@ -52,11 +56,16 @@ modified: '2026-07-20'
 name: Forty Seven 2
 nav: Providers
 network: true
-overview: Forty Seven 2 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Immuno-Oncology, Healthcare, and Clinical Stage.
+overview: Forty Seven 2 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Immuno-Oncology, Healthcare, and Clinical-Stage.
 random_paper: 10
 score:
   band: minimal
   composite: 2.2
+  coverage:
+    artifact_dirs: 1
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -80,8 +89,8 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forty-seven-2/refs/heads/main/screenshots/forty-seven-2-2026-07-25T215018.png
 slug: forty-seven-2
@@ -90,7 +99,7 @@ tags:
 - Biopharmaceutical
 - Immuno-Oncology
 - Healthcare
-- Clinical Stage
+- Clinical-Stage
 - Acquired
 - Life Sciences
 website: https://www.gilead.com/

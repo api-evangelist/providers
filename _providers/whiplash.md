@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 86
   slug: whiplash-agentic-access
   summary_line: 86 operations · 30 acting
-api_count: 10
+api_count: 1
 apis:
 - description: Components defining quantity and relationships within product bundles — retrieve, update quantity, and destroy
   name: Whiplash Bundle Items API
@@ -110,6 +110,10 @@ collections:
   name: Whiplash (Rydership) Bundle Items Simulate API
   slug: open-whiplash-simulate-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/whiplash-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -221,7 +225,7 @@ overview: 'Whiplash publishes 10 APIs on the [APIs.io](https://apis.io/) network
   The Whiplash catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Whiplash''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  Whiplash''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Whiplash Plans Pricing
   plan_count: 1
@@ -243,19 +247,24 @@ rules:
     warn: 3
   slug: whiplash-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 39.4
-  delta: -0.8
+  band: thin
+  composite: 38.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 47.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 9.8
     contract_quality: 56.7
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 40.2
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -263,8 +272,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whiplash/refs/heads/main/screenshots/whiplash-2026-08-17T130420.png
 security:

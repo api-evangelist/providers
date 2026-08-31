@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 211
   human_in_the_loop: 9
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 437
   slug: alayacare-agentic-access
   summary_line: 437 operations · 211 acting · 9 human-in-the-loop
-api_count: 113
+api_count: 15
 apis:
 - description: 'REST API for managing employee records including staff information, designations, departments, and employee-level attributes. Enables HR and workforce management integrations. Supports pagination and '
   name: AlayaCare Employee API
@@ -701,6 +701,10 @@ collections:
   name: AlayaCare Accounting Accounts work session outbox API
   slug: open-alayacare-work-session-outbox-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/alayacare-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -817,7 +821,7 @@ overview: 'AlayaCare publishes 107 APIs on the [APIs.io](https://apis.io/) netwo
   The AlayaCare catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  AlayaCare''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 9 more developer resources.'
+  AlayaCare''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 10 more developer resources.'
 plans:
 - name: Alayacare Plans Pricing
   plan_count: 4
@@ -839,19 +843,24 @@ rules:
     warn: 5
   slug: alayacare-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 38.9
-  delta: -0.8
+  band: developing
+  composite: 39.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 55.7
     developer_ergonomics: 23.8
-    discoverability: 59.3
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 39.7
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -865,8 +874,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alayacare/refs/heads/main/screenshots/alayacare-2026-06-20T171503.png
 security:

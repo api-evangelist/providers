@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 6
   slug: apache-samza-agentic-access
   summary_line: 6 operations · 2 acting · 1 human-in-the-loop
-api_count: 3
+api_count: 1
 apis:
 - description: The Checkpoints API from Apache Samza — 1 operation(s) for checkpoints.
   name: Apache Samza Checkpoints API
@@ -257,15 +257,20 @@ rules:
   slug: apache-samza-spectral-rules
 score:
   band: thin
-  composite: 29.9
-  delta: 0.0
+  composite: 29.4
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 52.4
     developer_ergonomics: 11.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 10.5
   previous_composite: 29.9
@@ -276,8 +281,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-samza/refs/heads/main/screenshots/apache-samza-2026-06-20T172138.png
 security:

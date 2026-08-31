@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 24
   slug: loops-agentic-access
   summary_line: 24 operations · 10 acting
-api_count: 20
+api_count: 1
 apis:
 - description: Validate a Loops API key and discover which team it belongs to. 1 operation(s) in the Loops REST API v1 (OpenAPI 1.21.6).
   name: Loops API key API
@@ -104,7 +104,10 @@ apis:
 - description: Outbound event surface. Seventeen signed event types covering contact lifecycle, mailing-list membership, and email delivery, engagement and complaint signals, delivered by HTTP POST to one subscriber
   name: Loops Webhooks
   slug: loops-webhooks
-artifact_total: 42
+- description: 'Events Loops sends to your configured webhook endpoint when certain events happen in your account. Configure an endpoint in Settings → Webhooks. Each account supports one webhook endpoint. Events are '
+  name: Loops Webhooks API
+  slug: loops-webhooks-api
+artifact_total: 43
 asyncapis:
 - description: Event catalog for the Loops webhook surface, derived operation-for-operation from the `webhooks` block of the Loops OpenAPI 3.1 document (info.version 1.21.6, published at https://app.loops.so/openapi
   name: Loops Webhooks
@@ -147,6 +150,10 @@ collections:
   name: Loops OpenAPI Spec API key Transactional emails API
   slug: open-loops-transactional-emails-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/loops-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -343,13 +350,13 @@ modified: '2026-08-13'
 name: Loops
 nav: Providers
 network: true
-overview: 'Loops publishes 19 APIs on the [APIs.io](https://apis.io/) network, including API key API, Audience segments API, Campaign groups API, and 16 more. Tagged areas include Email, Email API, Marketing Automation, Transactional Email, and Lifecycle Email.
+overview: 'Loops publishes 20 APIs on the [APIs.io](https://apis.io/) network, including API key API, Audience segments API, Campaign groups API, and 17 more. Tagged areas include Email, Email API, Marketing Automation, Transactional Email, and Lifecycle Email.
 
 
   The Loops catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Loops'' developer surface includes authentication, code examples, CLI, changelog, documentation, API reference, getting-started guide, and 38 more developer resources.'
+  Loops'' developer surface includes authentication, code examples, CLI, changelog, documentation, API reference, getting-started guide, and 39 more developer resources.'
 plans:
 - name: Loops Plans Pricing
   plan_count: 2
@@ -366,18 +373,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 72.3
-  delta: 0.0
+  composite: 68.9
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
-    contract_governance: 30.3
-    contract_quality: 64.7
+    contract_governance: 18.2
+    contract_quality: 63.7
     developer_ergonomics: 78.6
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 72.3
+  previous_composite: 69.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -388,8 +400,8 @@ score:
       total: 18
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loops/refs/heads/main/screenshots/loops-2026-06-20T184718.png
 security:

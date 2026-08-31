@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -44,42 +44,84 @@ agentic_access:
   operation_count: 32
   slug: rea-group-agentic-access
   summary_line: 32 operations · 5 acting
-api_count: 11
+api_count: 9
 apis:
-- description: 'The OAuth 2.0 client credentials token service. POST /oauth2/token with the partner api_key and api_secret Base64-encoded as HTTP Basic returns a JWT access token with a 3600 second TTL, presented as '
-  name: PropTrack OAuth 2.0 Token API
-  slug: proptrack-oauth-api
-- description: Address match and address suggest. Resolves free-text or partial Australian addresses to a canonical propertyId and gpid with a matchScore - the entry point for almost every PropTrack workflow. Struct
-  name: PropTrack Address API
-  slug: proptrack-address-api
-- description: The largest PropTrack service - 15 operations spanning property summary, attributes, listings, planning and zoning, tenure type, transactions and property search (summaries and map geopoints) under /a
-  name: PropTrack Properties API
-  slug: proptrack-properties-api
-- description: Listing detail by listingId plus two cursor-paginated search shapes - point and radius, and suburb and postcode - exposing for-sale and for-rent listing data from realestate.com.au and realcommercial.
-  name: PropTrack Listings API
-  slug: proptrack-listings-api
-- description: Sold transaction search by point and radius and by suburb and postcode, cursor-paginated. On trial agreements, transactions sourced from the Victorian Valuer-General are withheld while agent-advised t
-  name: PropTrack Transactions API
-  slug: proptrack-transactions-api
-- description: Suburb-level market statistics - sale price history, rent history, supply and demand, auction results and demographics. Keyed by geography (searchType plus state, postcode or suburb) rather than by pr
-  name: PropTrack Market API
-  slug: proptrack-market-api
-- description: Renders an ordered AVM valuation as a PDF by valuationId, and orders a standalone property report. Rate limited to 25 requests per second and the only operations besides AVM that document a 504 Gatewa
-  name: PropTrack Reports API
-  slug: proptrack-reports-api
-- description: Serves the attribution and disclaimer text PropTrack contractually requires be displayed wherever its data is rendered, plus the associated branding rules. Fetching it rather than hardcoding is the do
-  name: PropTrack Disclaimers API
-  slug: proptrack-disclaimers-api
-- description: Documented but not yet released. A nearby-education-facilities endpoint keyed by propertyId, published ahead of availability on the Coming Soon page - the closest thing PropTrack publishes to a roadma
-  name: PropTrack Upcoming APIs (Schools)
-  slug: proptrack-upcoming-api
 - description: REA Group's REAXML listing feed - the long-standing industry-standard XML property schema used by Australian agency CRMs to publish residential and commercial for-sale and for-rent listings onto reale
   name: realestate.com.au Listing Feed (REAXML)
   slug: realestate-listing-feed-reaxml
 - description: The realestate.com.au Partner Portal is REA Group's integration surface for agencies and their software / CRM providers - covering partner onboarding, API credential management (Client ID + API secret
   name: realestate.com.au Partner Portal
   slug: realestate-partner-portal
-artifact_total: 26
+- description: Property Attributes
+  name: REA Group Attributes API
+  slug: rea-group-attributes-api
+- description: The Auction Results API from REA Group — 1 operation(s) for auction results.
+  name: REA Group Auction Results API
+  slug: rea-group-auction-results-api
+- description: AVM
+  name: REA Group AVM API
+  slug: rea-group-avm-api
+- description: The AVM Report API from REA Group — 1 operation(s) for avm report.
+  name: REA Group AVM Report API
+  slug: rea-group-avm-report-api
+- description: The Demographics API from REA Group — 1 operation(s) for demographics.
+  name: REA Group Demographics API
+  slug: rea-group-demographics-api
+- description: The Disclaimers API from REA Group — 1 operation(s) for disclaimers.
+  name: REA Group Disclaimers API
+  slug: rea-group-disclaimers-api
+- description: The Listing by listingId API from REA Group — 1 operation(s) for listing by listingid.
+  name: REA Group Listing by listingId API
+  slug: rea-group-listing-by-listingid-api
+- description: Property Listings
+  name: REA Group Listings API
+  slug: rea-group-listings-api
+- description: The Match API from REA Group — 1 operation(s) for match.
+  name: REA Group Match API
+  slug: rea-group-match-api
+- description: The Oauth2 API from REA Group — 1 operation(s) for oauth2.
+  name: REA Group Oauth2 API
+  slug: rea-group-oauth2-api
+- description: Property Planning Overlays
+  name: REA Group Planning API
+  slug: rea-group-planning-api
+- description: The Point & Radius Search API from REA Group — 2 operation(s) for point & radius search.
+  name: REA Group Point & Radius Search API
+  slug: rea-group-point-radius-search-api
+- description: The Property Report API from REA Group — 1 operation(s) for property report.
+  name: REA Group Property Report API
+  slug: rea-group-property-report-api
+- description: The Rent History API from REA Group — 1 operation(s) for rent history.
+  name: REA Group Rent History API
+  slug: rea-group-rent-history-api
+- description: The Sale History API from REA Group — 1 operation(s) for sale history.
+  name: REA Group Sale History API
+  slug: rea-group-sale-history-api
+- description: The Schools API from REA Group — 1 operation(s) for schools.
+  name: REA Group Schools API
+  slug: rea-group-schools-api
+- description: Property Search
+  name: REA Group Search API
+  slug: rea-group-search-api
+- description: The Suburb & Postcode Search API from REA Group — 2 operation(s) for suburb & postcode search.
+  name: REA Group Suburb & Postcode Search API
+  slug: rea-group-suburb-postcode-search-api
+- description: The Suggest API from REA Group — 1 operation(s) for suggest.
+  name: REA Group Suggest API
+  slug: rea-group-suggest-api
+- description: Property Summary
+  name: REA Group Summary API
+  slug: rea-group-summary-api
+- description: The Supply & Demand API from REA Group — 1 operation(s) for supply & demand.
+  name: REA Group Supply & Demand API
+  slug: rea-group-supply-demand-api
+- description: Property Tenure Type History
+  name: REA Group Tenure Type API
+  slug: rea-group-tenure-type-api
+- description: Property Transactions
+  name: REA Group Transactions API
+  slug: rea-group-transactions-api
+artifact_total: 40
 collections:
 - collection_type: open
   name: Address API
@@ -109,6 +151,10 @@ collections:
   name: Transactions
   slug: open-rea-group-transactions
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/rea-group-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -270,10 +316,10 @@ modified: '2026-07-27T12:00:00Z'
 name: REA Group
 nav: Providers
 network: true
-overview: 'REA Group publishes 9 APIs on the [APIs.io](https://apis.io/) network, including PropTrack OAuth 2.0 Token API, PropTrack Address API, PropTrack Properties API, and 6 more. Tagged areas include Real-Estate, Property Data, Valuations, AVM, and Market Insights.
+overview: 'REA Group publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Attributes API, Auction Results API, AVM API, and 20 more. Tagged areas include Real-Estate, Property Data, Valuations, AVM, and Market Insights.
 
 
-  REA Group''s developer surface includes documentation, API reference, getting-started guide, YouTube channel, engineering blog, support, FAQ, and 31 more developer resources.'
+  REA Group''s developer surface includes documentation, API reference, getting-started guide, YouTube channel, engineering blog, support, FAQ, and 32 more developer resources.'
 plans:
 - name: Rea Group Plans
   plan_count: 2
@@ -284,19 +330,24 @@ rate_limits:
   name: Rea Group Rate Limits
   slug: rea-group-rate-limits
 score:
-  band: strong
-  composite: 55.3
+  band: developing
+  composite: 49.7
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
-    contract_quality: 57.2
-    developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 16.7
+    contract_governance: 4.5
+    contract_quality: 57.7
+    developer_ergonomics: 62.5
+    discoverability: 57.4
+    governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 55.3
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,8 +358,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rea-group/refs/heads/main/screenshots/rea-group-2026-07-27T125400.png
 security:

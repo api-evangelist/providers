@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: google-people-agentic-access
   summary_line: 12 operations · 6 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The contactGroups API from Google People — 2 operation(s) for contactgroups.
   name: Google People contactGroups API
@@ -217,15 +217,20 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 45.2
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 9.8
     contract_quality: 67.3
     developer_ergonomics: 47.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 26.3
   previous_composite: 45.7
@@ -236,8 +241,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-people/refs/heads/main/screenshots/google-people-2026-06-20T182221.png
 security:

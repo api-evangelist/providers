@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 103
   slug: courier-agentic-access
   summary_line: 103 operations · 60 acting
-api_count: 22
+api_count: 1
 apis:
 - description: WebSocket service that delivers Inbox messages and message-state events (read, unread, opened, archived, clicked, mark-all-read, archive-all, archive-read) to authenticated users in real time.
   name: Courier Inbox Real-Time API
@@ -186,6 +186,10 @@ collections:
   name: Courier
   slug: open-courier
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/courier-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -252,7 +256,7 @@ overview: 'Courier publishes 22 APIs on the [APIs.io](https://apis.io/) network,
   The Courier catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Courier''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
+  Courier''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
 plans:
 - name: Courier Plans Pricing
   plan_count: 1
@@ -276,18 +280,23 @@ rules:
   slug: courier-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 33.5
-  delta: 1.9
+  composite: 32.9
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 76.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 13.6
     contract_quality: 68.7
     developer_ergonomics: 23.8
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 31.6
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -301,8 +310,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/screenshots/courier-2026-06-20T175109.png
 security:

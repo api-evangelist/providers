@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 9
   slug: alibaba-sentinel-agentic-access
   summary_line: 9 operations · 5 acting
-api_count: 4
+api_count: 1
 apis:
 - description: The Authority Rules API from Alibaba Sentinel — 1 operation(s) for authority rules.
   name: Alibaba Sentinel Authority Rules API
@@ -175,19 +175,24 @@ rules:
     warn: 3
   slug: alibaba-sentinel-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 28.1
-  delta: 0.0
+  band: emerging
+  composite: 26.1
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 69.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 26.5
+    contract_governance: 14.4
     contract_quality: 45.6
     developer_ergonomics: 21.4
-    discoverability: 64.8
-    governance: 26.5
+    discoverability: 59.3
+    governance: 14.4
     operational_transparency: 21.1
-  previous_composite: 28.1
+  previous_composite: 26.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -197,8 +202,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/screenshots/alibaba-sentinel-2026-07-25T195610.png
 security:

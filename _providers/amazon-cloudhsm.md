@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: API for creating and managing CloudHSM clusters and HSM instances for dedicated hardware-based cryptographic key management.
@@ -207,24 +207,29 @@ rules:
   slug: amazon-cloudhsm-spectral-rules
 score:
   band: developing
-  composite: 42.2
-  delta: 7.4
+  composite: 41.1
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 59.1
     contract_quality: 0.0
     developer_ergonomics: 59.5
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 59.1
     operational_transparency: 18.4
-  previous_composite: 34.8
+  previous_composite: 41.1
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudhsm/refs/heads/main/screenshots/amazon-cloudhsm-2026-07-25T195946.png
 security:
 - kind: domain-security

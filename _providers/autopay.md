@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 30
   slug: autopay-agentic-access
   summary_line: 30 operations · 15 acting · 3 human-in-the-loop
-api_count: 19
+api_count: 1
 apis:
 - description: The Autopay Accounting API provides Autopay invoicing data to external accounting and ERP systems, enabling automated reconciliation of parking revenue and invoice export.
   name: Autopay Accounting API
@@ -140,6 +140,10 @@ collections:
   name: Autopay API
   slug: open-autopay
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/autopay-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -221,7 +225,7 @@ network: true
 overview: 'Autopay publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounting API, Booking API, Customer Club API, and 7 more. Tagged areas include Parking, Parking Payments, Fleet Management, Permits, and Parking Operators.
 
 
-  Autopay''s developer surface includes authentication, developer portal, documentation, and 9 more developer resources.'
+  Autopay''s developer surface includes authentication, developer portal, documentation, and 10 more developer resources.'
 plans:
 - name: Autopay Plans Pricing
   plan_count: 3
@@ -238,18 +242,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 33.9
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 48.4
     developer_ergonomics: 31.0
-    discoverability: 64.8
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 33.7
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -263,8 +272,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/screenshots/autopay-2026-06-20T172701.png
 security:

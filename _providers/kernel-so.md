@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 13
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 133
   slug: kernel-so-agentic-access
   summary_line: 133 operations · 82 acting · 13 human-in-the-loop
-api_count: 22
+api_count: 1
 apis:
 - description: Hosted Model Context Protocol server at mcp.onkernel.com that exposes Kernel resources (browsers, profiles, proxies, apps) as MCP tools and bundles four standalone tools — computer actions, Playwright
   name: Kernel MCP Server
@@ -304,15 +304,20 @@ overview: 'Kernel publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 9
 score:
   band: developing
-  composite: 41.6
-  delta: 0.0
+  composite: 41.1
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 58.7
     developer_ergonomics: 61.9
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 41.6
@@ -323,8 +328,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kernel-so/refs/heads/main/screenshots/kernel-so-2026-06-20T183954.png
 security:

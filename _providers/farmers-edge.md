@@ -25,16 +25,16 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.2
-  scored_at: '2026-08-26'
-api_count: 11
+  score: 21.8
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The canplug API from Farmers Edge — 1 operation(s) for canplug.
   name: Farmers Edge canplug API
@@ -186,19 +186,24 @@ overview: 'Farmers Edge publishes 11 APIs on the [APIs.io](https://apis.io/) net
   Farmers Edge''s developer surface includes authentication, documentation, API reference, and 12 more developer resources.'
 random_paper: 5
 score:
-  band: thin
-  composite: 27.3
-  delta: 0.0
+  band: emerging
+  composite: 25.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
-    contract_quality: 44.2
+    contract_governance: 4.5
+    contract_quality: 44.4
     developer_ergonomics: 30.4
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 27.3
+  previous_composite: 25.9
   provenance:
     conformance: derived
     contracts:
@@ -208,8 +213,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farmers-edge/refs/heads/main/screenshots/farmers-edge-2026-07-25T214231.png
 security:

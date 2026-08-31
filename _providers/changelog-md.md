@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 25
 common:
@@ -120,15 +120,20 @@ modified: '2026-04-23'
 name: CHANGELOG.md (Keep a Changelog)
 nav: Providers
 network: true
-overview: 'CHANGELOG.md (Keep a Changelog) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Changelog, Change Tracking, Documentation, Markdown, and Open-Source.
+overview: 'CHANGELOG.md (Keep a Changelog) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Change Log, Change Tracking, Documentation, Markdown, and Open-Source.
 
 
   CHANGELOG.md (Keep a Changelog)''s developer surface includes documentation, tooling, and 11 more developer resources.'
 random_paper: 14
 score:
   band: emerging
-  composite: 11.7
-  delta: 0.0
+  composite: 17.1
+  coverage:
+    artifact_dirs: 2
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 5.4
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -138,10 +143,13 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 21.1
+  open_source:
+    applies: true
+    score: 65.0
   previous_composite: 11.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/changelog-md/refs/heads/main/screenshots/changelog-md-2026-06-20T174213.png
 security:
 - kind: domain-security
@@ -150,7 +158,7 @@ security:
   summary_line: TLSv1.3 · DNSSEC
 slug: changelog-md
 tags:
-- Changelog
+- Change Log
 - Change Tracking
 - Documentation
 - Markdown

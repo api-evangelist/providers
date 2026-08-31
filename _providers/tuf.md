@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 7
 apis:
 - description: The TUF specification defines the structure of update repositories including the root, targets, snapshot, and timestamp metadata files. Each metadata file has a defined schema with signatures, expirat
@@ -59,6 +59,14 @@ apis:
   slug: tuf-conformance
 artifact_total: 22
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/theupdateframework/specification/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/theupdateframework/specification/releases
 - group: auth
   title: ''
   type: DomainSecurity
@@ -176,7 +184,7 @@ overview: 'The Update Framework (TUF) publishes 7 APIs on the [APIs.io](https://
   The The Update Framework (TUF) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  The Update Framework (TUF)''s developer surface includes documentation, getting-started guide, engineering blog, and 13 more developer resources.'
+  The Update Framework (TUF)''s developer surface includes documentation, getting-started guide, engineering blog, and 15 more developer resources.'
 plans:
 - name: Tuf Plans Pricing
   plan_count: 3
@@ -198,8 +206,13 @@ rules:
     warn: 5
   slug: tuf-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 26.0
+  band: thin
+  composite: 27.7
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 44.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -209,10 +222,13 @@ score:
     developer_ergonomics: 26.2
     discoverability: 72.2
     governance: 25.0
-    operational_transparency: 10.5
-  previous_composite: 26.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 27.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tuf/refs/heads/main/screenshots/tuf-2026-06-20T195821.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Consume a deployed Lua agent directly over HTTP — single-shot generation or real-time SSE streaming — with bearer API-key auth.
@@ -179,7 +179,12 @@ overview: 'Lua Global Inc publishes 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 7
 score:
   band: thin
-  composite: 37.5
+  composite: 36.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -187,16 +192,16 @@ score:
     contract_governance: 4.5
     contract_quality: 42.7
     developer_ergonomics: 70.8
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 37.5
+  previous_composite: 36.4
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lua-global-inc/refs/heads/main/screenshots/lua-global-inc-2026-07-25T225637.png
 security:

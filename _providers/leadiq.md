@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.1
-  scored_at: '2026-08-26'
+  score: 48.6
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -50,10 +50,16 @@ apis:
 - description: Single GraphQL endpoint exposing all LeadIQ queries and mutations.
   name: LeadIQ GraphQL API
   slug: leadiq-graphql-api
-- description: 'REST API for LeadIQ''s saved prospecting workspace — create and read prospect lists, create prospects singly or in batches of up to 100, search saved prospects, verify email deliverability, and export '
-  name: LeadIQ Prospector REST API
-  slug: leadiq-prospector-api
-artifact_total: 15
+- description: The account API from LeadIQ — 1 operation(s) for account.
+  name: LeadIQ Account API
+  slug: leadiq-account-api
+- description: The lists API from LeadIQ — 5 operation(s) for lists.
+  name: LeadIQ Lists API
+  slug: leadiq-lists-api
+- description: The prospects API from LeadIQ — 5 operation(s) for prospects.
+  name: LeadIQ Prospects API
+  slug: leadiq-prospects-api
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -290,7 +296,7 @@ modified: '2026-08-13'
 name: LeadIQ
 nav: Providers
 network: true
-overview: 'LeadIQ publishes 2 APIs on the [APIs.io](https://apis.io/) network: GraphQL API and Prospector REST API. Tagged areas include Sales Intelligence, B2B Data, Contact Data, Lead Generation, and Prospecting.
+overview: 'LeadIQ publishes 4 APIs on the [APIs.io](https://apis.io/) network, including GraphQL API, Account API, Lists API, and 1 more. Tagged areas include Sales Intelligence, B2B Data, Contact Data, Lead Generation, and Prospecting.
 
 
   LeadIQ''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 44 more developer resources.'
@@ -310,18 +316,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: strong
-  composite: 57.7
-  delta: 0.6
+  composite: 55.1
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 59.9
     developer_ergonomics: 58.9
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 74.1
+    governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 57.1
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -332,8 +343,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/screenshots/leadiq-2026-06-20T184350.png
 security:

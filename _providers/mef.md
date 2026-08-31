@@ -23,295 +23,172 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-26'
-api_count: 95
+  scored_at: '2026-08-30'
+api_count: 94
 apis:
 - description: MEF 133.1 streaming template — the AsyncAPI definition published by Mplify (formerly MEF) in the MEF LSO Interlude SDK, Kylie release. LSO Interlude is the Interface Reference Point between two Servic
   name: MEF LSO Interlude MEF 133.1 streaming template
   slug: mef-lso-interlude-performance.template
-- description: Legato Service Catalog API — the OpenAPI definition published by Mplify (formerly MEF) in the MEF LSO Legato SDK, Kylie release. LSO Legato is the Interface Reference Point between Business Applicatio
-  name: MEF LSO Legato Legato Service Catalog API
-  slug: mef-lso-legato-service-catalog-api
-- description: Legato Service Catalog Notification API — the OpenAPI definition published by Mplify (formerly MEF) in the MEF LSO Legato SDK, Kylie release. LSO Legato is the Interface Reference Point between Busine
-  name: MEF LSO Legato Legato Service Catalog Notification API
-  slug: mef-lso-legato-service-catalog-notification-api
-- description: MEF Alarm Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Alarm Management (Mef Lso Allegro Alarm Management)
-  slug: mef-lso-allegro-alarm-management-openapi
-- description: MEF Alarm Notification from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Alarm Notification (Mef Lso Allegro Alarm Notification)
-  slug: mef-lso-allegro-alarm-notification-openapi
-- description: MEF Fault Management from MEF — 15 path(s) described in OpenAPI.
-  name: MEF Fault Management (Mef Lso Allegro Fault Management)
-  slug: mef-lso-allegro-fault-management-openapi
-- description: MEF Fault Management Notification from MEF — 9 path(s) described in OpenAPI.
-  name: MEF Fault Management Notification (Mef Lso Allegro Fault Notification)
-  slug: mef-lso-allegro-fault-notification-openapi
-- description: MEF Performance Monitoring from MEF — 17 path(s) described in OpenAPI.
-  name: MEF Performance Monitoring (Mef Lso Allegro Performance Monitoring)
-  slug: mef-lso-allegro-performance-monitoring-openapi
-- description: MEF Performance Monitoring Notification from MEF — 12 path(s) described in OpenAPI.
-  name: MEF Performance Monitoring Notification (Mef Lso Allegro Performance Notification)
-  slug: mef-lso-allegro-performance-notification-openapi
-- description: MEF Service Function Testing Notification from MEF — 12 path(s) described in OpenAPI.
-  name: MEF Service Function Testing Notification (Mef Lso Allegro Service Function Test Notification)
-  slug: mef-lso-allegro-service-function-test-notification-openapi
-- description: MEF Service Function Testing from MEF — 16 path(s) described in OpenAPI.
-  name: MEF Service Function Testing (Mef Lso Allegro Service Function Test)
-  slug: mef-lso-allegro-service-function-test-openapi
-- description: MEF Service Inventory Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Service Inventory Management (Mef Lso Allegro Service Inventory Management)
-  slug: mef-lso-allegro-service-inventory-management-openapi
-- description: MEF Service Inventory Notification from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Service Inventory Notification (Mef Lso Allegro Service Inventory Notification)
-  slug: mef-lso-allegro-service-inventory-notification-openapi
-- description: MEF Service Ordering Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Service Ordering Management (Mef Lso Allegro Service Ordering Management)
-  slug: mef-lso-allegro-service-ordering-management-openapi
-- description: MEF Service Ordering Notification from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Service Ordering Notification (Mef Lso Allegro Service Ordering Notification)
-  slug: mef-lso-allegro-service-ordering-notification-openapi
-- description: MEF Streaming Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Streaming Management (Mef Lso Allegro Streaming Management All In One)
-  slug: mef-lso-allegro-streaming-management-all-in-one-openapi
-- description: MEF Streaming Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Streaming Management (Mef Lso Allegro Streaming Management)
-  slug: mef-lso-allegro-streaming-management-openapi
-- description: MEF Appointment Management from MEF — 6 path(s) described in OpenAPI.
-  name: MEF Appointment Management (Mef Lso Cantata Appointment Management)
-  slug: mef-lso-cantata-appointment-management-openapi
-- description: MEF Appointment Management Notification from MEF — 2 path(s) described in OpenAPI.
-  name: MEF Appointment Management Notification (Mef Lso Cantata Appointment Notification)
-  slug: mef-lso-cantata-appointment-notification-openapi
-- description: MEF Billing Management from MEF — 5 path(s) described in OpenAPI.
-  name: MEF Billing Management (Mef Lso Cantata Billing Management)
-  slug: mef-lso-cantata-billing-management-openapi
-- description: MEF Billing Notification from MEF — 2 path(s) described in OpenAPI.
-  name: MEF Billing Notification (Mef Lso Cantata Billing Notification)
-  slug: mef-lso-cantata-billing-notification-openapi
-- description: MEF Circuit Impairment and Maintenance Notification from MEF — 3 path(s) described in OpenAPI.
-  name: MEF Circuit Impairment and Maintenance Notification (Mef Lso Cantata Circuit Impairment And Maintenance Notification)
-  slug: mef-lso-cantata-circuit-impairment-and-maintenance-notification-openapi
-- description: MEF Circuit Impairment and Maintenance from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Circuit Impairment and Maintenance (Mef Lso Cantata Circuit Impairment And Maintenance)
-  slug: mef-lso-cantata-circuit-impairment-and-maintenance-openapi
-- description: MEF Geographic Address Management from MEF — 5 path(s) described in OpenAPI.
-  name: MEF Geographic Address Management (Mef Lso Cantata Geographic Address Management)
-  slug: mef-lso-cantata-geographic-address-management-openapi
-- description: MEF Geographic Address Notification from MEF — 1 path(s) described in OpenAPI.
-  name: MEF Geographic Address Notification (Mef Lso Cantata Geographic Address Notification)
-  slug: mef-lso-cantata-geographic-address-notification-openapi
-- description: MEF Geographic Site Management from MEF — 2 path(s) described in OpenAPI.
-  name: MEF Geographic Site Management (Mef Lso Cantata Geographic Site Management)
-  slug: mef-lso-cantata-geographic-site-management-openapi
-- description: MEF Product Catalog Notification from MEF — 8 path(s) described in OpenAPI.
-  name: MEF Product Catalog Notification (Mef Lso Cantata Product Catalog Notification)
-  slug: mef-lso-cantata-product-catalog-notification-openapi
-- description: MEF Product Catalog from MEF — 8 path(s) described in OpenAPI.
-  name: MEF Product Catalog (Mef Lso Cantata Product Catalog)
-  slug: mef-lso-cantata-product-catalog-openapi
-- description: MEF Product Inventory Management from MEF — 2 path(s) described in OpenAPI.
-  name: MEF Product Inventory Management (Mef Lso Cantata Product Inventory Management)
-  slug: mef-lso-cantata-product-inventory-management-openapi
-- description: MEF Product Offering Availability And Pricing Discovery Management from MEF — 2 path(s) described in OpenAPI.
-  name: MEF Product Offering Availability And Pricing Discovery Management (Mef Lso Cantata Product Offering Availability And Pricing Discovery)
-  slug: mef-lso-cantata-product-offering-availability-and-pricing-discovery-openapi
-- description: MEF Product Offering Qualification Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Product Offering Qualification Management (Mef Lso Cantata Product Offering Qualification Management)
-  slug: mef-lso-cantata-product-offering-qualification-management-openapi
-- description: MEF Product Offering Qualification Notification from MEF — 2 path(s) described in OpenAPI.
-  name: MEF Product Offering Qualification Notification (Mef Lso Cantata Product Offering Qualification Notification)
-  slug: mef-lso-cantata-product-offering-qualification-notification-openapi
-- description: MEF Product Ordering Management from MEF — 10 path(s) described in OpenAPI.
-  name: MEF Product Ordering Management (Mef Lso Cantata Product Order Management)
-  slug: mef-lso-cantata-product-order-management-openapi
-- description: MEF Product Ordering Notification from MEF — 9 path(s) described in OpenAPI.
-  name: MEF Product Ordering Notification (Mef Lso Cantata Product Order Notification)
-  slug: mef-lso-cantata-product-order-notification-openapi
-- description: MEF Quote Management from MEF — 6 path(s) described in OpenAPI.
-  name: MEF Quote Management (Mef Lso Cantata Quote Management)
-  slug: mef-lso-cantata-quote-management-openapi
-- description: MEF Quote Notification from MEF — 2 path(s) described in OpenAPI.
-  name: MEF Quote Notification (Mef Lso Cantata Quote Notification)
-  slug: mef-lso-cantata-quote-notification-openapi
-- description: MEF Trouble Ticket and Incident Management from MEF — 9 path(s) described in OpenAPI.
-  name: MEF Trouble Ticket and Incident Management (Mef Lso Cantata Trouble Ticket Management)
-  slug: mef-lso-cantata-trouble-ticket-management-openapi
-- description: MEF Trouble Ticket and Incident Notification from MEF — 7 path(s) described in OpenAPI.
-  name: MEF Trouble Ticket and Incident Notification (Mef Lso Cantata Trouble Ticket Notification)
-  slug: mef-lso-cantata-trouble-ticket-notification-openapi
-- description: MEF WorkOrder Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF WorkOrder Management (Mef Lso Cantata Workorder Management)
-  slug: mef-lso-cantata-workorder-management-openapi
-- description: MEF WorkOrder Management Notification from MEF — 3 path(s) described in OpenAPI.
-  name: MEF WorkOrder Management Notification (Mef Lso Cantata Workorder Notification)
-  slug: mef-lso-cantata-workorder-notification-openapi
-- description: MEF Alarm Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Alarm Management (Mef Lso Interlude Alarm Management)
-  slug: mef-lso-interlude-alarm-management-openapi
-- description: MEF Alarm Notification from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Alarm Notification (Mef Lso Interlude Alarm Notification)
-  slug: mef-lso-interlude-alarm-notification-openapi
-- description: MEF Fault Management from MEF — 15 path(s) described in OpenAPI.
-  name: MEF Fault Management (Mef Lso Interlude Fault Management)
-  slug: mef-lso-interlude-fault-management-openapi
-- description: MEF Fault Management Notification from MEF — 9 path(s) described in OpenAPI.
-  name: MEF Fault Management Notification (Mef Lso Interlude Fault Notification)
-  slug: mef-lso-interlude-fault-notification-openapi
-- description: MEF Performance Monitoring from MEF — 17 path(s) described in OpenAPI.
-  name: MEF Performance Monitoring (Mef Lso Interlude Performance Monitoring)
-  slug: mef-lso-interlude-performance-monitoring-openapi
-- description: MEF Performance Monitoring Notification from MEF — 12 path(s) described in OpenAPI.
-  name: MEF Performance Monitoring Notification (Mef Lso Interlude Performance Notification)
-  slug: mef-lso-interlude-performance-notification-openapi
-- description: MEF Service Function Testing Notification from MEF — 12 path(s) described in OpenAPI.
-  name: MEF Service Function Testing Notification (Mef Lso Interlude Service Function Test Notification)
-  slug: mef-lso-interlude-service-function-test-notification-openapi
-- description: MEF Service Function Testing from MEF — 16 path(s) described in OpenAPI.
-  name: MEF Service Function Testing (Mef Lso Interlude Service Function Test)
-  slug: mef-lso-interlude-service-function-test-openapi
-- description: MEF Service Inventory Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Service Inventory Management (Mef Lso Interlude Service Inventory Management)
-  slug: mef-lso-interlude-service-inventory-management-openapi
-- description: MEF Service Inventory Notification from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Service Inventory Notification (Mef Lso Interlude Service Inventory Notification)
-  slug: mef-lso-interlude-service-inventory-notification-openapi
-- description: MEF Service Ordering Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Service Ordering Management (Mef Lso Interlude Service Ordering Management)
-  slug: mef-lso-interlude-service-ordering-management-openapi
-- description: MEF Service Ordering Notification from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Service Ordering Notification (Mef Lso Interlude Service Ordering Notification)
-  slug: mef-lso-interlude-service-ordering-notification-openapi
-- description: MEF Streaming Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Streaming Management (Mef Lso Interlude Streaming Management All In One)
-  slug: mef-lso-interlude-streaming-management-all-in-one-openapi
-- description: MEF Streaming Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Streaming Management (Mef Lso Interlude Streaming Management)
-  slug: mef-lso-interlude-streaming-management-openapi
-- description: MEF Alarm Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Alarm Management (Mef Lso Legato Alarm Management)
-  slug: mef-lso-legato-alarm-management-openapi
-- description: MEF Alarm Notification from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Alarm Notification (Mef Lso Legato Alarm Notification)
-  slug: mef-lso-legato-alarm-notification-openapi
-- description: MEF Fault Management from MEF — 15 path(s) described in OpenAPI.
-  name: MEF Fault Management (Mef Lso Legato Fault Management)
-  slug: mef-lso-legato-fault-management-openapi
-- description: MEF Fault Management Notification from MEF — 9 path(s) described in OpenAPI.
-  name: MEF Fault Management Notification (Mef Lso Legato Fault Notification)
-  slug: mef-lso-legato-fault-notification-openapi
-- description: MEF Performance Monitoring from MEF — 17 path(s) described in OpenAPI.
-  name: MEF Performance Monitoring (Mef Lso Legato Performance Monitoring)
-  slug: mef-lso-legato-performance-monitoring-openapi
-- description: MEF Performance Monitoring Notification from MEF — 12 path(s) described in OpenAPI.
-  name: MEF Performance Monitoring Notification (Mef Lso Legato Performance Notification)
-  slug: mef-lso-legato-performance-notification-openapi
-- description: MEF Service Function Testing Notification from MEF — 12 path(s) described in OpenAPI.
-  name: MEF Service Function Testing Notification (Mef Lso Legato Service Function Test Notification)
-  slug: mef-lso-legato-service-function-test-notification-openapi
-- description: MEF Service Function Testing from MEF — 16 path(s) described in OpenAPI.
-  name: MEF Service Function Testing (Mef Lso Legato Service Function Test)
-  slug: mef-lso-legato-service-function-test-openapi
-- description: MEF Service Inventory Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Service Inventory Management (Mef Lso Legato Service Inventory Management)
-  slug: mef-lso-legato-service-inventory-management-openapi
-- description: MEF Service Inventory Notification from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Service Inventory Notification (Mef Lso Legato Service Inventory Notification)
-  slug: mef-lso-legato-service-inventory-notification-openapi
-- description: MEF Service Ordering Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Service Ordering Management (Mef Lso Legato Service Ordering Management)
-  slug: mef-lso-legato-service-ordering-management-openapi
-- description: MEF Service Ordering Notification from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Service Ordering Notification (Mef Lso Legato Service Ordering Notification)
-  slug: mef-lso-legato-service-ordering-notification-openapi
-- description: MEF Streaming Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Streaming Management (Mef Lso Legato Streaming Management All In One)
-  slug: mef-lso-legato-streaming-management-all-in-one-openapi
-- description: MEF Streaming Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Streaming Management (Mef Lso Legato Streaming Management)
-  slug: mef-lso-legato-streaming-management-openapi
-- description: MEF Network Resource Provisioning from MEF — 32 path(s) described in OpenAPI.
-  name: MEF Network Resource Provisioning
-  slug: mef-lso-presto-nrp-openapi
-- description: mef-common,tapi-topology,tapi-common,tapi-connectivity,mef-common-types,nrm-connectivity,nrp-interface API from MEF — 17 path(s) described in OpenAPI.
-  name: mef-common,tapi-topology,tapi-common,tapi-connectivity,mef-common-types,nrm-connectivity,nrp-interface API (Mef Lso Presto Nrp Rcp Only)
-  slug: mef-lso-presto-nrp-rcp-only-openapi
-- description: mef-common,tapi-topology,tapi-common,tapi-connectivity,mef-common-types,nrm-connectivity,nrp-interface API from MEF — 14 path(s) described in OpenAPI.
-  name: mef-common,tapi-topology,tapi-common,tapi-connectivity,mef-common-types,nrm-connectivity,nrp-interface API (Mef Lso Presto Nrp Rpc Only Simplified Hierarchy)
-  slug: mef-lso-presto-nrp-rpc-only-simplified-hierarchy-openapi
-- description: mef-common,tapi-topology,tapi-common,tapi-connectivity,mef-common-types,nrm-connectivity,nrp-interface API from MEF — 32 path(s) described in OpenAPI.
-  name: mef-common,tapi-topology,tapi-common,tapi-connectivity,mef-common-types,nrm-connectivity,nrp-interface API (Mef Lso Presto Nrp Simplified Hierarchy)
-  slug: mef-lso-presto-nrp-simplified-hierarchy-openapi
-- description: MEF Appointment Management from MEF — 6 path(s) described in OpenAPI.
-  name: MEF Appointment Management (Mef Lso Sonata Appointment Management)
-  slug: mef-lso-sonata-appointment-management-openapi
-- description: MEF Appointment Management Notification from MEF — 2 path(s) described in OpenAPI.
-  name: MEF Appointment Management Notification (Mef Lso Sonata Appointment Notification)
-  slug: mef-lso-sonata-appointment-notification-openapi
-- description: MEF Billing Management from MEF — 5 path(s) described in OpenAPI.
-  name: MEF Billing Management (Mef Lso Sonata Billing Management)
-  slug: mef-lso-sonata-billing-management-openapi
-- description: MEF Billing Notification from MEF — 2 path(s) described in OpenAPI.
-  name: MEF Billing Notification (Mef Lso Sonata Billing Notification)
-  slug: mef-lso-sonata-billing-notification-openapi
-- description: MEF Circuit Impairment and Maintenance Notification from MEF — 3 path(s) described in OpenAPI.
-  name: MEF Circuit Impairment and Maintenance Notification (Mef Lso Sonata Circuit Impairment And Maintenance Notification)
-  slug: mef-lso-sonata-circuit-impairment-and-maintenance-notification-openapi
-- description: MEF Circuit Impairment and Maintenance from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Circuit Impairment and Maintenance (Mef Lso Sonata Circuit Impairment And Maintenance)
-  slug: mef-lso-sonata-circuit-impairment-and-maintenance-openapi
-- description: MEF Geographic Address Management from MEF — 5 path(s) described in OpenAPI.
-  name: MEF Geographic Address Management (Mef Lso Sonata Geographic Address Management)
-  slug: mef-lso-sonata-geographic-address-management-openapi
-- description: MEF Geographic Address Notification from MEF — 1 path(s) described in OpenAPI.
-  name: MEF Geographic Address Notification (Mef Lso Sonata Geographic Address Notification)
-  slug: mef-lso-sonata-geographic-address-notification-openapi
-- description: MEF Geographic Site Management from MEF — 2 path(s) described in OpenAPI.
-  name: MEF Geographic Site Management (Mef Lso Sonata Geographic Site Management)
-  slug: mef-lso-sonata-geographic-site-management-openapi
-- description: MEF Product Catalog Notification from MEF — 8 path(s) described in OpenAPI.
-  name: MEF Product Catalog Notification (Mef Lso Sonata Product Catalog Notification)
-  slug: mef-lso-sonata-product-catalog-notification-openapi
-- description: MEF Product Catalog from MEF — 8 path(s) described in OpenAPI.
-  name: MEF Product Catalog (Mef Lso Sonata Product Catalog)
-  slug: mef-lso-sonata-product-catalog-openapi
-- description: MEF Product Inventory Management from MEF — 2 path(s) described in OpenAPI.
-  name: MEF Product Inventory Management (Mef Lso Sonata Product Inventory Management)
-  slug: mef-lso-sonata-product-inventory-management-openapi
-- description: MEF Product Offering Availability And Pricing Discovery Management from MEF — 2 path(s) described in OpenAPI.
-  name: MEF Product Offering Availability And Pricing Discovery Management (Mef Lso Sonata Product Offering Availability And Pricing Discovery)
-  slug: mef-lso-sonata-product-offering-availability-and-pricing-discovery-openapi
-- description: MEF Product Offering Qualification Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF Product Offering Qualification Management (Mef Lso Sonata Product Offering Qualification Management)
-  slug: mef-lso-sonata-product-offering-qualification-management-openapi
-- description: MEF Product Offering Qualification Notification from MEF — 2 path(s) described in OpenAPI.
-  name: MEF Product Offering Qualification Notification (Mef Lso Sonata Product Offering Qualification Notification)
-  slug: mef-lso-sonata-product-offering-qualification-notification-openapi
-- description: MEF Product Ordering Management from MEF — 10 path(s) described in OpenAPI.
-  name: MEF Product Ordering Management (Mef Lso Sonata Product Order Management)
-  slug: mef-lso-sonata-product-order-management-openapi
-- description: MEF Product Ordering Notification from MEF — 9 path(s) described in OpenAPI.
-  name: MEF Product Ordering Notification (Mef Lso Sonata Product Order Notification)
-  slug: mef-lso-sonata-product-order-notification-openapi
-- description: MEF Quote Management from MEF — 6 path(s) described in OpenAPI.
-  name: MEF Quote Management (Mef Lso Sonata Quote Management)
-  slug: mef-lso-sonata-quote-management-openapi
-- description: MEF Quote Notification from MEF — 2 path(s) described in OpenAPI.
-  name: MEF Quote Notification (Mef Lso Sonata Quote Notification)
-  slug: mef-lso-sonata-quote-notification-openapi
-- description: MEF Trouble Ticket and Incident Management from MEF — 9 path(s) described in OpenAPI.
-  name: MEF Trouble Ticket and Incident Management (Mef Lso Sonata Trouble Ticket Management)
-  slug: mef-lso-sonata-trouble-ticket-management-openapi
-- description: MEF Trouble Ticket and Incident Notification from MEF — 7 path(s) described in OpenAPI.
-  name: MEF Trouble Ticket and Incident Notification (Mef Lso Sonata Trouble Ticket Notification)
-  slug: mef-lso-sonata-trouble-ticket-notification-openapi
-- description: MEF WorkOrder Management from MEF — 4 path(s) described in OpenAPI.
-  name: MEF WorkOrder Management (Mef Lso Sonata Workorder Management)
-  slug: mef-lso-sonata-workorder-management-openapi
-- description: MEF WorkOrder Management Notification from MEF — 3 path(s) described in OpenAPI.
-  name: MEF WorkOrder Management Notification (Mef Lso Sonata Workorder Notification)
-  slug: mef-lso-sonata-workorder-notification-openapi
-artifact_total: 195
+- description: The alarm API from MEF — 2 operation(s) for alarm.
+  name: MEF Alarm API
+  slug: mef-alarm-api
+- description: The appointment API from MEF — 2 operation(s) for appointment.
+  name: MEF Appointment API
+  slug: mef-appointment-api
+- description: The appointment operations API from MEF — 1 operation(s) for appointment operations.
+  name: MEF appointment operations API
+  slug: mef-appointment-operations-api
+- description: The cancelProductOrder API from MEF — 2 operation(s) for cancelproductorder.
+  name: MEF Cancel Product Order API
+  slug: mef-cancelproductorder-api
+- description: The cancelTestJob API from MEF — 2 operation(s) for canceltestjob.
+  name: MEF Cancel Test Job API
+  slug: mef-canceltestjob-api
+- description: The category API from MEF — 2 operation(s) for category.
+  name: MEF Category API
+  slug: mef-category-api
+- description: The charge API from MEF — 2 operation(s) for charge.
+  name: MEF Charge API
+  slug: mef-charge-api
+- description: The CIM Incident API from MEF — 2 operation(s) for cim incident.
+  name: MEF CIM Incident API
+  slug: mef-cim-incident-api
+- description: The Customer Bill API from MEF — 3 operation(s) for customer bill.
+  name: MEF Customer Bill API
+  slug: mef-customer-bill-api
+- description: Mechanism for SOF to publish *Service* notifications to BUS
+  name: MEF Event listeners API
+  slug: mef-event-listeners-api
+- description: The events subscription API from MEF — 2 operation(s) for events subscription.
+  name: MEF events subscription API
+  slug: mef-events-subscription-api
+- description: Mechanisms for BUS to subscribe/unsubscribe to *Notifications*.
+  name: MEF Event Subscription Hub API
+  slug: mef-eventsubscriptionhub-api
+- description: The faultManagementJob API from MEF — 9 operation(s) for faultmanagementjob.
+  name: MEF Fault Management Job API
+  slug: mef-faultmanagementjob-api
+- description: The faultManagementReport API from MEF — 3 operation(s) for faultmanagementreport.
+  name: MEF Fault Management Report API
+  slug: mef-faultmanagementreport-api
+- description: The geographicAddress API from MEF — 1 operation(s) for geographicaddress.
+  name: MEF Geographic Address API
+  slug: mef-geographicaddress-api
+- description: The geographicAddressValidation API from MEF — 2 operation(s) for geographicaddressvalidation.
+  name: MEF Geographic Address Validation API
+  slug: mef-geographicaddressvalidation-api
+- description: The geographicSite API from MEF — 2 operation(s) for geographicsite.
+  name: MEF Geographic Site API
+  slug: mef-geographicsite-api
+- description: The incident API from MEF — 2 operation(s) for incident.
+  name: MEF Incident API
+  slug: mef-incident-api
+- description: The modifyProductOrderItemRequestedDeliveryDate API from MEF — 2 operation(s) for modifyproductorderitemrequesteddeliverydate.
+  name: MEF Modify Product Order Item Requested Delivery Date API
+  slug: mef-modifyproductorderitemrequesteddeliverydate-api
+- description: The modifyTestJob API from MEF — 2 operation(s) for modifytestjob.
+  name: MEF Modify Test Job API
+  slug: mef-modifytestjob-api
+- description: The Buyer/Client's endpoint to send particular event types notifications to.
+  name: MEF Notification listeners API
+  slug: mef-notification-listeners-api
+- description: The performanceJob API from MEF — 9 operation(s) for performancejob.
+  name: MEF Performance Job API
+  slug: mef-performancejob-api
+- description: The performanceProfile API from MEF — 2 operation(s) for performanceprofile.
+  name: MEF Performance Profile API
+  slug: mef-performanceprofile-api
+- description: The performanceReport API from MEF — 3 operation(s) for performancereport.
+  name: MEF Performance Report API
+  slug: mef-performancereport-api
+- description: The Pricing Discovery API from MEF — 1 operation(s) for pricing discovery.
+  name: MEF Pricing Discovery API
+  slug: mef-pricing-discovery-api
+- description: The product API from MEF — 2 operation(s) for product.
+  name: MEF Product API
+  slug: mef-product-api
+- description: The Product Offering Availability API from MEF — 1 operation(s) for product offering availability.
+  name: MEF Product Offering Availability API
+  slug: mef-product-offering-availability-api
+- description: The productOffering API from MEF — 2 operation(s) for productoffering.
+  name: MEF Product Offering API
+  slug: mef-productoffering-api
+- description: Operations for managing the Product Offering Qualification request.
+  name: MEF Product Offering Qualification API
+  slug: mef-productofferingqualification-api
+- description: The productOrder API from MEF — 2 operation(s) for productorder.
+  name: MEF Product Order API
+  slug: mef-productorder-api
+- description: The productSpecification API from MEF — 2 operation(s) for productspecification.
+  name: MEF Product Specification API
+  slug: mef-productspecification-api
+- description: The quote API from MEF — 2 operation(s) for quote.
+  name: MEF Quote API
+  slug: mef-quote-api
+- description: The quote operations API from MEF — 2 operation(s) for quote operations.
+  name: MEF quote operations API
+  slug: mef-quote-operations-api
+- description: The resumeTestJob API from MEF — 2 operation(s) for resumetestjob.
+  name: MEF Resume Test Job API
+  slug: mef-resumetestjob-api
+- description: The searchTimeSlot API from MEF — 1 operation(s) for searchtimeslot.
+  name: MEF Search Time Slot API
+  slug: mef-searchtimeslot-api
+- description: Mechanisms for BUS to query and retrieve *ServiceInstances*.
+  name: MEF Service API
+  slug: mef-service-api
+- description: Operations for Service Order Resource
+  name: MEF Service Order API
+  slug: mef-service-order-api
+- description: Mechanisms for BUS to query and retrieve *ServiceSpecifications*.
+  name: MEF Service Specification API
+  slug: mef-servicespecification-api
+- description: Mechanism for SOF to publish *ServiceSpecification* notifications to BUS
+  name: MEF Service Specification Notification API
+  slug: mef-servicespecificationnotification-api
+- description: Groups all operations related to subscribed topics and subscription management.
+  name: MEF Subscription API
+  slug: mef-subscription-api
+- description: The suspendTestJob API from MEF — 2 operation(s) for suspendtestjob.
+  name: MEF Suspend Test Job API
+  slug: mef-suspendtestjob-api
+- description: The tapi-common API from MEF — 18 operation(s) for tapi-common.
+  name: MEF Tapi Common API
+  slug: mef-tapi-common-api
+- description: The tapi-connectivity API from MEF — 6 operation(s) for tapi-connectivity.
+  name: MEF Tapi Connectivity API
+  slug: mef-tapi-connectivity-api
+- description: The tapi-path-computation API from MEF — 3 operation(s) for tapi-path-computation.
+  name: MEF Tapi Path Computation API
+  slug: mef-tapi-path-computation-api
+- description: The tapi-topology API from MEF — 5 operation(s) for tapi-topology.
+  name: MEF Tapi Topology API
+  slug: mef-tapi-topology-api
+- description: The testJob API from MEF — 2 operation(s) for testjob.
+  name: MEF Test Job API
+  slug: mef-testjob-api
+- description: The testProfile API from MEF — 2 operation(s) for testprofile.
+  name: MEF Test Profile API
+  slug: mef-testprofile-api
+- description: The testResult API from MEF — 2 operation(s) for testresult.
+  name: MEF Test Result API
+  slug: mef-testresult-api
+- description: Groups all operations related to the available topic.
+  name: MEF Topic API
+  slug: mef-topic-api
+- description: The trackingRecord API from MEF — 1 operation(s) for trackingrecord.
+  name: MEF Tracking Record API
+  slug: mef-trackingrecord-api
+- description: The troubleTicket API from MEF — 2 operation(s) for troubleticket.
+  name: MEF Trouble Ticket API
+  slug: mef-troubleticket-api
+- description: The troubleTicket operations API from MEF — 3 operation(s) for troubleticket operations.
+  name: MEF troubleTicket operations API
+  slug: mef-troubleticket-operations-api
+- description: The workorder API from MEF — 2 operation(s) for workorder.
+  name: MEF Workorder API
+  slug: mef-workorder-api
+artifact_total: 154
 asyncapis:
 - description: ''
   name: MEF 133.1 streaming template
@@ -603,6 +480,18 @@ collections:
   name: WorkOrder Management Notification
   slug: open-mef-lso-sonata-workorder-notification
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mef-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mef-lso-legato-service-catalog-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mef-lso-legato-service-catalog-notification-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -824,13 +713,13 @@ modified: '2026-07-25'
 name: MEF
 nav: Providers
 network: true
-overview: 'MEF publishes 95 APIs on the [APIs.io](https://apis.io/) network, including LSO Interlude MEF 133.1 streaming template, LSO Legato Legato Service Catalog API, LSO Legato Legato Service Catalog Notification API, and 92 more. Tagged areas include Telecommunications, United States, Standards, LSO, and Network APIs.
+overview: 'MEF publishes 54 APIs on the [APIs.io](https://apis.io/) network, including LSO Interlude MEF 133.1 streaming template, Alarm API, Appointment API, and 51 more. Tagged areas include Telecommunications, United States, Standards, LSO, and Network APIs.
 
 
   The MEF catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  MEF''s developer surface includes documentation, SDKs, tooling, getting-started guide, support, authentication, changelog, and 45 more developer resources.'
+  MEF''s developer surface includes documentation, SDKs, tooling, getting-started guide, support, authentication, changelog, and 48 more developer resources.'
 random_paper: 18
 scopes:
 - name: Mef Scopes
@@ -839,18 +728,23 @@ scopes:
   summary_line: 218 scopes · clientCredentials
 score:
   band: developing
-  composite: 54.0
-  delta: 0.0
+  composite: 52.4
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.9
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 53.7
+    contract_governance: 4.5
+    contract_quality: 53.0
     developer_ergonomics: 85.1
     discoverability: 57.4
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 54.0
+  previous_composite: 53.3
   provenance:
     conformance: derived
     contracts:
@@ -866,8 +760,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 66.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mef/refs/heads/main/screenshots/mef-2026-08-07T172427.png
 security:

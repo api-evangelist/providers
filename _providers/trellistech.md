@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Trellis property contracts generated from Hono/Zod schemas.
   name: Trellis properties API
@@ -54,6 +54,10 @@ collections:
   name: Trellis Public API v1 properties tasks API
   slug: open-trellistech-tasks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/trellistech-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -157,22 +161,27 @@ network: true
 overview: 'Trellis publishes 2 APIs on the [APIs.io](https://apis.io/) network: properties API and tasks API. Tagged areas include Company, Property Management, Vacation Rentals, Short-Term Rentals, and AI Agents.
 
 
-  Trellis'' developer surface includes CLI, changelog, documentation, API reference, getting-started guide, engineering blog, signup flow, and 15 more developer resources.'
+  Trellis'' developer surface includes CLI, changelog, documentation, API reference, getting-started guide, engineering blog, signup flow, and 16 more developer resources.'
 random_paper: 11
 score:
   band: developing
-  composite: 44.1
-  delta: 2.4
+  composite: 42.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 50.3
     developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 41.7
+  previous_composite: 42.6
   provenance:
     conformance: derived
     contracts:
@@ -182,8 +191,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trellistech/refs/heads/main/screenshots/trellistech-2026-08-17T082435.png
 security:

@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.5
-  scored_at: '2026-08-26'
+  score: 43.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 39
   slug: mercedes-me-agentic-access
   summary_line: 39 operations · 5 acting · 1 human-in-the-loop
-api_count: 17
+api_count: 4
 apis:
 - description: The Vehicle Status API delivers real-time vehicle state — doors, windows, deck lid, sunroof, tire pressure, and overall lock state — for a customer-consented Mercedes-Benz vehicle by VIN. Returns last
   name: Mercedes-Benz Vehicle Status API
@@ -150,6 +150,10 @@ collections:
   name: Vehicle Image
   slug: open-mercedes-me-vehicle-images-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mercedes-me-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -359,7 +363,7 @@ overview: 'Mercedes-Benz Mercedes me publishes 11 APIs on the [APIs.io](https://
   The Mercedes-Benz Mercedes me catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Mercedes-Benz Mercedes me''s developer surface includes developer portal, documentation, GitHub presence, authentication, sandbox, and 36 more developer resources.'
+  Mercedes-Benz Mercedes me''s developer surface includes developer portal, documentation, GitHub presence, authentication, sandbox, and 37 more developer resources.'
 plans:
 - name: Mercedes Me Plans Pricing
   plan_count: 4
@@ -398,18 +402,23 @@ scopes:
   summary_line: 38 scopes
 score:
   band: developing
-  composite: 53.9
-  delta: 13.8
+  composite: 51.3
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 34.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 59.1
+    contract_governance: 47.0
     contract_quality: 71.8
     developer_ergonomics: 56.5
-    discoverability: 75.9
-    governance: 59.1
+    discoverability: 64.8
+    governance: 47.0
     operational_transparency: 15.8
-  previous_composite: 40.1
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -420,9 +429,9 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercedes-me/refs/heads/main/screenshots/mercedes-me-2026-06-20T185206.png
 security:
 - kind: authentication

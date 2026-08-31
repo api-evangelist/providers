@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -165,7 +165,7 @@ modified: '2026-05-25'
 name: Cowbell
 nav: Providers
 network: true
-overview: 'Cowbell is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cyber Insurance, Insurance, Insurtech, Cybersecurity, and Risk Management.
+overview: 'Cowbell is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cyber Insurance, Insurance, InsurTech, Cybersecurity, and Risk Management.
 
 
   Cowbell''s developer surface includes engineering blog, FAQ, developer console, academy / training, privacy policy, GitHub presence, YouTube channel, and 23 more developer resources.'
@@ -173,6 +173,11 @@ random_paper: 9
 score:
   band: minimal
   composite: 9.5
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -190,8 +195,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 21.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cowbell/refs/heads/main/screenshots/cowbell-2026-06-20T175148.png
 security:
@@ -203,7 +208,7 @@ slug: cowbell
 tags:
 - Cyber Insurance
 - Insurance
-- Insurtech
+- InsurTech
 - Cybersecurity
 - Risk Management
 - Risk Assessment
@@ -215,7 +220,7 @@ tags:
 - Penetration Testing
 - Compliance
 - Quoting
-- Bindings
+- Binding
 - Brokers
 - Agencies
 website: https://cowbell.insure

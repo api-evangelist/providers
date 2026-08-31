@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 50
   slug: lancedb-agentic-access
   summary_line: 50 operations · 47 acting
-api_count: 16
+api_count: 1
 apis:
 - description: Distributed, multi-tenant multimodal lakehouse. Adds curation and deduplication, Python UDF feature engineering, materialized views, GPU-accelerated index build via cuVS, distributed query, and direct
   name: LanceDB Enterprise
@@ -68,31 +68,19 @@ apis:
 - description: Model Context Protocol (MCP) server exposing LanceDB tables as retrieval tools for MCP-aware agents and IDEs.
   name: LanceDB MCP Server
   slug: mcp-server
-- description: Operations that interact with object data and might be computationally intensive
-  name: LanceDB Data API
-  slug: lancedb-data-api
-- description: Operations that are related to an index
-  name: LanceDB Index API
-  slug: lancedb-index-api
 - description: The MaterializedView API from LanceDB — 2 operation(s) for materializedview.
   name: LanceDB MaterializedView API
   slug: lancedb-materializedview-api
-- description: Operations that only interact with object metadata and should be computationally lightweight
-  name: LanceDB Metadata API
-  slug: lancedb-metadata-api
 - description: Operations that are related to a namespace
   name: LanceDB Namespace API
   slug: lancedb-namespace-api
 - description: Operations that are related to a table
   name: LanceDB Table API
   slug: lancedb-table-api
-- description: Operations that are related to tags
-  name: LanceDB Tag API
-  slug: lancedb-tag-api
 - description: Operations that are related to a transaction
   name: LanceDB Transaction API
   slug: lancedb-transaction-api
-artifact_total: 45
+artifact_total: 41
 collections:
 - collection_type: open
   name: API Collection
@@ -249,7 +237,7 @@ modified: '2026-05-25'
 name: LanceDB
 nav: Providers
 network: true
-overview: 'LanceDB publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Data API, Index API, MaterializedView API, and 5 more. Tagged areas include Vector Database, Multi-Modal, Lance Format, Lakehouse, and RAG.
+overview: 'LanceDB publishes 4 APIs on the [APIs.io](https://apis.io/) network, including MaterializedView API, Namespace API, Table API, and 1 more. Tagged areas include Vector Database, Multimodal, Lance Format, Lakehouse, and RAG.
 
 
   The LanceDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -294,18 +282,26 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.6
-  delta: 4.4
+  composite: 48.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 37.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.4
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 28.8
     contract_quality: 55.8
     developer_ergonomics: 40.5
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 44.2
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     contracts:
@@ -313,8 +309,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lancedb/refs/heads/main/screenshots/lancedb-2026-06-20T184404.png
 security:
@@ -333,7 +329,7 @@ security:
 slug: lancedb
 tags:
 - Vector Database
-- Multi-Modal
+- Multimodal
 - Lance Format
 - Lakehouse
 - RAG

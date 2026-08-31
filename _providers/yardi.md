@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: yardi-agentic-access
   summary_line: 13 operations · 13 acting
-api_count: 11
+api_count: 1
 apis:
 - description: 'Yardi''s first-party Model Context Protocol server, announced in early access on 2025-09-10 and described as generally available in Virtuoso Enterprise on 2026-06-16. Listed on the Anthropic connector '
   name: Yardi Virtuoso Connector (MCP)
@@ -357,18 +357,23 @@ rules:
   slug: yardi-rules
 score:
   band: thin
-  composite: 38.7
-  delta: 3.5
+  composite: 38.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 64.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
     contract_governance: 9.8
     contract_quality: 26.7
     developer_ergonomics: 52.4
-    discoverability: 75.9
+    discoverability: 70.4
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 35.2
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -376,8 +381,8 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/screenshots/yardi-2026-06-20T201730.png
 security:

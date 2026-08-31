@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -31,14 +31,14 @@ agentic_access:
   operation_count: 7
   slug: accessibe-agentic-access
   summary_line: 7 operations · 4 acting
-api_count: 2
+api_count: 1
 apis:
-- description: 'The Partners API allows accessiBe partners to manage accessWidget licenses programmatically across their accounts, with full control over the license lifecycle: create, retrieve, list, filter and upda'
-  name: accessiBe Partners API License
-  slug: partners-api
 - description: The accessFlow Model Context Protocol server connects AI clients such as GitHub Copilot and Cursor directly to accessFlow accessibility data. It exposes three tools — getMostUrgentIssues, getIssueReme
   name: accessFlow MCP Server
   slug: accessflow-mcp
+- description: The Accounts API from accessiBe — 5 operation(s) for accounts.
+  name: accessiBe Accounts API
+  slug: accessibe-accounts-api
 artifact_total: 7
 common:
 - group: agent
@@ -189,25 +189,30 @@ modified: '2026-07-31'
 name: accessiBe
 nav: Providers
 network: true
-overview: 'accessiBe publishes 1 API on the [APIs.io](https://apis.io/) network: Partners API License. Tagged areas include Company, Accessibility, Web Accessibility, WCAG, and ADA Compliance.
+overview: 'accessiBe publishes 1 API on the [APIs.io](https://apis.io/) network: Accounts API. Tagged areas include Company, Accessibility, Web Accessibility, WCAG, and ADA Compliance.
 
 
   accessiBe''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 random_paper: 6
 score:
   band: developing
-  composite: 45.2
+  composite: 44.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
-    contract_quality: 51.7
+    contract_governance: 4.5
+    contract_quality: 54.4
     developer_ergonomics: 49.4
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 45.2
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -218,8 +223,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accessibe/refs/heads/main/screenshots/accessibe-2026-08-07T160757.png
 security:

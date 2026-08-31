@@ -23,14 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
 common:
 - group: company
   title: ''
   type: Website
-  url: https://forgeglobal.com/commonbond_stock/
+  url: https://commonbond.co
 coverage:
   checked: '2026-08-09'
   detail: CommonBond wound down after exiting student loan refinancing in 2022; commonbond.co is now a ParkingCrew "Buy this domain" holding page and every path on it — including the former Postman documented API host api-docs.commonbond.co — answers HTTP 410 Gone, and the CommonBond GitHub organization holds zero public repositories.
@@ -59,6 +59,11 @@ random_paper: 18
 score:
   band: minimal
   composite: 0.5
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 90.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -84,8 +89,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: commonbond
 tags:
@@ -96,5 +101,5 @@ tags:
 - Student Loans
 - Consumer Finance
 - Defunct
-website: https://forgeglobal.com/commonbond_stock/
+website: https://commonbond.co
 ---

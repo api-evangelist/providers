@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
 - description: The wasmCloud control interface provides a NATS-based API for managing the wasmCloud lattice. It supports operations for starting and stopping actors and providers, establishing links between componen
@@ -63,6 +63,18 @@ asyncapis:
   name: wasmCloud wadm Application Deployment Manager API
   slug: wasmcloud-wadm-asyncapi
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/wasmCloud/wadm/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/wasmCloud/wadm/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/wasmCloud/wadm/blob/main/SECURITY.md
 - group: commercial
   title: ''
   type: License
@@ -222,7 +234,7 @@ overview: 'wasmCloud publishes 2 APIs on the [APIs.io](https://apis.io/) network
   The wasmCloud catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  wasmCloud''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 22 more developer resources.'
+  wasmCloud''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 25 more developer resources.'
 plans:
 - name: Wasmcloud Plans Pricing
   plan_count: 3
@@ -256,8 +268,13 @@ rules:
   slug: wasmcloud-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.6
-  delta: 1.5
+  composite: 44.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -266,10 +283,13 @@ score:
     developer_ergonomics: 33.3
     discoverability: 79.6
     governance: 28.8
-    operational_transparency: 26.3
-  previous_composite: 40.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 60.0
+  previous_composite: 44.6
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wasmcloud/refs/heads/main/screenshots/wasmcloud-2026-06-20T201238.png
 security:

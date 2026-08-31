@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 63
   slug: moniepoint-agentic-access
   summary_line: 63 operations · 33 acting
-api_count: 19
+api_count: 13
 apis:
 - description: Asynchronous server-to-server notifications for nine event categories — successful collection, successful / failed / reversed disbursement, successful / failed refund, settlement completion, mandate s
   name: Monnify Webhooks
@@ -279,6 +279,10 @@ collections:
   name: Monnify Wallets API
   slug: open-monnify-wallets-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/moniepoint-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -573,7 +577,7 @@ overview: 'Moniepoint publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
   The Moniepoint catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Moniepoint''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, support, and 48 more developer resources.'
+  Moniepoint''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, support, and 49 more developer resources.'
 plans:
 - name: Moniepoint Plans Pricing
   plan_count: 3
@@ -608,7 +612,12 @@ rules:
 score:
   band: strong
   composite: 57.6
-  delta: -0.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 31.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -618,7 +627,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 57.9
-  previous_composite: 58.5
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     contracts:
@@ -632,8 +641,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/screenshots/moniepoint-2026-06-20T185727.png
 security:
@@ -657,7 +666,7 @@ tags:
 - Banking
 - Fintech
 - Acquiring
-- Point-of-Sale
+- POS
 - Collection
 - Disbursements
 - Virtual Accounts

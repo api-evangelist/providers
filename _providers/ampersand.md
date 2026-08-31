@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 81
   slug: ampersand-agentic-access
   summary_line: 81 operations · 44 acting · 1 human-in-the-loop
-api_count: 18
+api_count: 1
 apis:
 - description: The API Key API from Ampersand — 2 operation(s) for api key.
   name: Ampersand API Key API
@@ -742,15 +742,20 @@ rules:
   slug: ampersand-spectral-rules
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 37.2
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
     contract_governance: 28.8
     contract_quality: 60.3
     developer_ergonomics: 26.2
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 10.5
   previous_composite: 37.8
@@ -761,8 +766,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ampersand/refs/heads/main/screenshots/ampersand-2026-06-20T171937.png
 security:

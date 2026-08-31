@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 63
   slug: servicem8-agentic-access
   summary_line: 63 operations · 36 acting
-api_count: 11
+api_count: 1
 apis:
 - description: Files linked to jobs - photos, PDFs, signed documents.
   name: ServiceM8 Attachments API
@@ -203,18 +203,23 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: developing
-  composite: 40.0
-  delta: 2.3
+  composite: 39.5
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 52.6
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.7
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -222,8 +227,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

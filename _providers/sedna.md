@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 4
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 162
   slug: sedna-agentic-access
   summary_line: 162 operations · 81 acting · 4 human-in-the-loop
-api_count: 17
+api_count: 1
 apis:
 - description: The Authentication API from SEDNA — 1 operation(s) for authentication.
   name: SEDNA Authentication API
@@ -274,19 +274,24 @@ scopes:
   slug: sedna-scopes
   summary_line: 53 scopes · clientCredentials
 score:
-  band: developing
-  composite: 39.5
-  delta: 0.0
+  band: thin
+  composite: 37.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 48.1
     developer_ergonomics: 33.9
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 39.5
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -297,8 +302,8 @@ score:
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

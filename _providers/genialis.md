@@ -23,14 +23,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: The REST API behind the Genialis Expressions platform, built on the open-source Resolwe dataflow engine and Django REST Framework. Covers data objects, samples, collections, relations, processes, desc
-  name: Genialis Expressions API
-  slug: genialis-expressions-api
-artifact_total: 6
+- description: The about API from Genialis — 3 operation(s) for about.
+  name: Genialis About API
+  slug: genialis-about-api
+- description: The api API from Genialis — 156 operation(s) for api.
+  name: Genialis API
+  slug: genialis-api-api
+- description: The health_check API from Genialis — 1 operation(s) for health_check.
+  name: Genialis Health Check API
+  slug: genialis-health-check-api
+- description: The rest-auth API from Genialis — 6 operation(s) for rest-auth.
+  name: Genialis Rest Auth API
+  slug: genialis-rest-auth-api
+- description: The saml-auth API from Genialis — 3 operation(s) for saml-auth.
+  name: Genialis Saml Auth API
+  slug: genialis-saml-auth-api
+artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/genialis-base-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -147,10 +163,10 @@ modified: '2026-08-21'
 name: Genialis
 nav: Providers
 network: true
-overview: 'Genialis publishes 1 API on the [APIs.io](https://apis.io/) network: Expressions API. Tagged areas include Company, Bioinformatics, Precision Medicine, Genomics, and Life Sciences.
+overview: 'Genialis publishes 5 APIs on the [APIs.io](https://apis.io/) network, including About API, Health Check API, and 3 more. Tagged areas include Company, Bioinformatics, Precision Medicine, Genomics, and Life Sciences.
 
 
-  Genialis'' developer surface includes documentation, getting-started guide, API reference, signup flow, support, engineering blog, authentication, and 20 more developer resources.'
+  Genialis'' developer surface includes documentation, getting-started guide, API reference, signup flow, support, engineering blog, authentication, and 21 more developer resources.'
 plans:
 - name: Genialis Plans Pricing
   plan_count: 0
@@ -162,16 +178,21 @@ rate_limits:
   slug: genialis-rate-limits
 score:
   band: developing
-  composite: 48.2
-  delta: 2.3
+  composite: 45.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 12.1
-    contract_quality: 48.3
+    contract_governance: 0.0
+    contract_quality: 47.1
     developer_ergonomics: 66.1
-    discoverability: 79.6
-    governance: 12.1
+    discoverability: 68.5
+    governance: 0.0
     operational_transparency: 18.4
   previous_composite: 45.9
   provenance:
@@ -189,8 +210,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -213,11 +234,11 @@ tags:
 - Genomics
 - Life Sciences
 - Healthcare
-- Machine Learning
+- Machine-Learning
 - Artificial Intelligence
 - Multiomics
 - Oncology
 - Data Platform
-- Open Source
+- Open-Source
 website: https://www.genialis.com/
 ---

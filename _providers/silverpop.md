@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: silverpop-agentic-access
   summary_line: 17 operations · 7 acting
-api_count: 6
+api_count: 1
 apis:
 - description: OAuth 2.0 token management
   name: Silverpop Authentication API
@@ -89,6 +89,10 @@ collections:
   name: Silverpop Engage API (Acoustic Campaign)
   slug: open-silverpop
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/silverpop-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -265,7 +269,7 @@ overview: 'Silverpop publishes 6 APIs on the [APIs.io](https://apis.io/) network
   The Silverpop catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Silverpop''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 27 more developer resources.'
+  Silverpop''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 28 more developer resources.'
 plans:
 - name: Silverpop Plans Pricing
   plan_count: 3
@@ -299,18 +303,23 @@ rules:
   slug: silverpop-rules
 score:
   band: strong
-  composite: 64.9
-  delta: 0.0
+  composite: 64.0
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 42.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 31.8
     contract_quality: 59.9
     developer_ergonomics: 48.8
-    discoverability: 85.2
+    discoverability: 75.9
     governance: 31.8
     operational_transparency: 47.4
-  previous_composite: 64.9
+  previous_composite: 64.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -326,8 +335,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 51.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/screenshots/silverpop-2026-06-20T193920.png
 security:

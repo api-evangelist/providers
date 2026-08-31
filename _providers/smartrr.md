@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 43
   slug: smartrr-agentic-access
   summary_line: 43 operations · 21 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Recurring bills (subscription transactions) and their retry / cancel lifecycle.
   name: Smartrr Bills API
@@ -141,7 +141,7 @@ modified: '2026-07-10'
 name: Smartrr
 nav: Providers
 network: true
-overview: 'Smartrr publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Bills API, Orders API, Plans API, and 3 more. Tagged areas include Subscription, Loyalty, Shopify, E-Commerce, and Direct to Consumer.
+overview: 'Smartrr publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Bills API, Orders API, Plans API, and 3 more. Tagged areas include Subscription, Loyalty, Shopify, E-Commerce, and DTC.
 
 
   Smartrr''s developer surface includes authentication, documentation, API reference, and 7 more developer resources.'
@@ -156,18 +156,23 @@ rate_limits:
   slug: smartrr-rate-limits
 score:
   band: thin
-  composite: 39.2
-  delta: 1.0
+  composite: 38.6
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 52.4
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 38.2
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -175,8 +180,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -193,7 +198,7 @@ tags:
 - Loyalty
 - Shopify
 - E-Commerce
-- Direct to Consumer
+- DTC
 - Recurring Revenue
 - Subscription Management
 website: https://smartrr.com

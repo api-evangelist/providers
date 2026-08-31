@@ -33,19 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: 浙江大学开源软件镜像站 — ZJU's public open source software mirror. The site publishes a machine-readable service catalog at /mirrorz.json implementing the MirrorZ data contract (self-declared version 1.7), listi
-  name: Open Source Software Mirror Service (MirrorZ catalog)
-  slug: mirrors
 - description: Zhejiang University operates a Shibboleth SAML 2.0 Identity Provider, entityID https://idp.zju.edu.cn/idp/shibboleth, registered in CARSI (the CERNET Authentication and Resource Sharing Infrastructure
   name: Shibboleth Identity Provider (SAML 2.0)
   slug: shibboleth
 - description: ZJU's unified identity authentication platform — a Central Authentication Service (CAS) single sign-on login fronting campus systems. It supports username/password, QR-code scanning and third-party ha
   name: Unified Identity Authentication (CAS / SSO)
   slug: sso
-artifact_total: 14
+- description: The machine-readable mirror service catalog.
+  name: Zhejiang University Catalog API
+  slug: zhejiang-catalog-api
+- description: The mirrored package/distribution trees themselves.
+  name: Zhejiang University Repositories API
+  slug: zhejiang-repositories-api
+artifact_total: 15
 common:
 - group: company
   title: ''
@@ -177,7 +180,7 @@ modified: '2026-08-19'
 name: Zhejiang University
 nav: Providers
 network: true
-overview: 'Zhejiang University publishes 1 API on the [APIs.io](https://apis.io/) network: Open Source Software Mirror Service (MirrorZ catalog). Tagged areas include University, Higher Education, Education, Research, and China.
+overview: 'Zhejiang University publishes 2 APIs on the [APIs.io](https://apis.io/) network: Catalog API and Repositories API. Tagged areas include University, Higher Education, Education, Research, and China.
 
 
   The Zhejiang University catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -211,18 +214,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 34.9
-  delta: 2.1
+  composite: 34.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 3.8
     contract_quality: 26.0
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 3.8
     operational_transparency: 23.7
-  previous_composite: 32.8
+  previous_composite: 34.9
   provenance:
     conformance: first-party
     contracts:
@@ -236,8 +244,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 61.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zhejiang/refs/heads/main/screenshots/zhejiang-2026-06-20T201856.png
 security:

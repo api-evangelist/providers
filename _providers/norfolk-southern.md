@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 3
   slug: norfolk-southern-agentic-access
   summary_line: 3 operations
-api_count: 5
+api_count: 1
 apis:
 - description: Track a shipment's progress on its planned route with its current ETA, future movements, and completed movements.
   name: Norfolk Southern Trip Plan API
@@ -73,6 +73,10 @@ collections:
   name: Norfolk Southern Shipment Status Gate Receipts Trip Plan API
   slug: open-norfolk-southern-trip-plan-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/norfolk-southern-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -120,7 +124,7 @@ network: true
 overview: 'Norfolk Southern publishes 3 APIs on the [APIs.io](https://apis.io/) network: Gate Receipts API, Shipment Status API, and Trip Plan API. Tagged areas include Freight, Logistics, Railroad, Shipping, and Transportation.
 
 
-  Norfolk Southern''s developer surface includes developer portal, support, and 6 more developer resources.'
+  Norfolk Southern''s developer surface includes developer portal, support, and 7 more developer resources.'
 plans:
 - name: Norfolk Southern Plans Pricing
   plan_count: 1
@@ -148,15 +152,20 @@ rate_limits:
   slug: norfolk-southern-rate-limits
 score:
   band: emerging
-  composite: 24.4
-  delta: 0.0
+  composite: 23.8
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 61.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 52.4
     developer_ergonomics: 14.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 24.4
@@ -167,8 +176,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/screenshots/norfolk-southern-2026-06-20T190408.png
 security:

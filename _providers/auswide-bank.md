@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-08-26'
-api_count: 7
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Banking Account Balance endpoints
   name: Auswide Bank Banking Account Balances API
@@ -84,6 +84,10 @@ collections:
   name: CDR Banking Banking Account Balances Banking Products API
   slug: open-auswide-bank-banking-products-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/auswide-bank-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -175,7 +179,7 @@ network: true
 overview: 'Auswide Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Banking.
 
 
-  Auswide Bank''s developer surface includes authentication, documentation, support, and 16 more developer resources.'
+  Auswide Bank''s developer surface includes authentication, documentation, support, and 17 more developer resources.'
 random_paper: 14
 scopes:
 - name: Auswide Bank Scopes
@@ -183,19 +187,24 @@ scopes:
   slug: auswide-bank-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: developing
-  composite: 39.3
-  delta: 1.4
+  band: thin
+  composite: 37.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 49.7
     developer_ergonomics: 35.1
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 37.9
+  previous_composite: 37.8
   provenance:
     conformance: derived
     contracts:
@@ -207,12 +216,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: AU
+      standard: cdr-consumer-data-standards
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auswide-bank/refs/heads/main/screenshots/auswide-bank-2026-07-21T114702.png
 security:

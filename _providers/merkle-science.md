@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Query and retrieve off-chain VASP due-diligence entities.
@@ -171,18 +171,23 @@ overview: 'Merkle Science publishes 1 API on the [APIs.io](https://apis.io/) net
 random_paper: 8
 score:
   band: developing
-  composite: 42.2
+  composite: 40.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 59.9
     developer_ergonomics: 47.0
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 42.2
+  previous_composite: 40.8
   provenance:
     conformance: derived
     contracts:
@@ -192,8 +197,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merkle-science/refs/heads/main/screenshots/merkle-science-2026-08-07T172608.png
 security:

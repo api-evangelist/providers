@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -31,27 +31,108 @@ agentic_access:
   operation_count: 81
   slug: advancedmd-agentic-access
   summary_line: 81 operations · 19 acting
-api_count: 6
+api_count: 3
 apis:
-- description: Read-only HL7 FHIR R4 (4.0.1) API for single-patient data access, aligned to the HL7 FHIR US Core Implementation Guide STU 6.1.0 and published for ONC (g)(10) Cures Act certification. Supports both st
-  name: AdvancedMD FHIR Single API (US Core 6.1.0)
-  slug: advancedmd-fhir-single-api
-- description: HL7 FHIR Bulk Data Access (Flat FHIR) API for exporting a patient group's data from AdvancedMD. Documented operations cover backend-services token acquisition (POST /v1/oauth2/token with client_assert
-  name: AdvancedMD FHIR Bulk API
-  slug: advancedmd-fhir-bulk-api
 - description: Developer-portal helper API that mints JWT client assertions for testing the FHIR Bulk Data workflow. Documented as POST /v1/fhir-jwks/token with a grant_type=client_credentials&alg=rsa body, authoriz
   name: AdvancedMD FHIR Bulk JWKS API
   slug: advancedmd-fhir-bulk-jwks-api
 - description: 'Public, unauthenticated service base URL publication required of ONC-certified API suppliers. GET https://providerapi.advancedmd.com/v1/r4/endpoints returns a FHIR Bundle of Endpoint and Organization '
   name: AdvancedMD FHIR Endpoint Directory
   slug: advancedmd-fhir-endpoint-directory
-- description: Non-FHIR REST API family published on the AdvancedMD FHIR portal as "Legacy Patient APIs" and titled "AdvancedMD Application Access APIs" in its own Swagger 2.0 definition (version 1.0.1, supported Ad
-  name: AdvancedMD Application Access APIs (Legacy Patient APIs)
-  slug: advancedmd-application-access-apis
 - description: AdvancedMD's proprietary partner API family, published in both XML-RPC and REST formats, which lets developers build companion applications that replicate functionality available in the AdvancedMD use
   name: AdvancedMD Connect APIs
   slug: advancedmd-connect-apis
-artifact_total: 16
+- description: The AllergyIntolerance API from AdvancedMD — 3 operation(s) for allergyintolerance.
+  name: AdvancedMD Allergy Intolerance API
+  slug: advancedmd-allergyintolerance-api
+- description: The Authentication API from AdvancedMD — 1 operation(s) for authentication.
+  name: AdvancedMD Authentication API
+  slug: advancedmd-authentication-api
+- description: The C-CDA API from AdvancedMD — 1 operation(s) for c-cda.
+  name: AdvancedMD C CDA API
+  slug: advancedmd-c-cda-api
+- description: The Cancel Bulk Data Export API from AdvancedMD — 1 operation(s) for cancel bulk data export.
+  name: AdvancedMD Cancel Bulk Data Export API
+  slug: advancedmd-cancel-bulk-data-export-api
+- description: The CarePlan API from AdvancedMD — 3 operation(s) for careplan.
+  name: AdvancedMD Care Plan API
+  slug: advancedmd-careplan-api
+- description: The CareTeam API from AdvancedMD — 3 operation(s) for careteam.
+  name: AdvancedMD Care Team API
+  slug: advancedmd-careteam-api
+- description: The Check Data Export Status API from AdvancedMD — 1 operation(s) for check data export status.
+  name: AdvancedMD Check Data Export Status API
+  slug: advancedmd-check-data-export-status-api
+- description: The Clinical API from AdvancedMD — 15 operation(s) for clinical.
+  name: AdvancedMD Clinical API
+  slug: advancedmd-clinical-api
+- description: The Condition API from AdvancedMD — 3 operation(s) for condition.
+  name: AdvancedMD Condition API
+  slug: advancedmd-condition-api
+- description: The Coverage API from AdvancedMD — 3 operation(s) for coverage.
+  name: AdvancedMD Coverage API
+  slug: advancedmd-coverage-api
+- description: The Device API from AdvancedMD — 3 operation(s) for device.
+  name: AdvancedMD Device API
+  slug: advancedmd-device-api
+- description: The DiagnosticReport API from AdvancedMD — 3 operation(s) for diagnosticreport.
+  name: AdvancedMD Diagnostic Report API
+  slug: advancedmd-diagnosticreport-api
+- description: The DocumentReference API from AdvancedMD — 4 operation(s) for documentreference.
+  name: AdvancedMD Document Reference API
+  slug: advancedmd-documentreference-api
+- description: The Encounter API from AdvancedMD — 2 operation(s) for encounter.
+  name: AdvancedMD Encounter API
+  slug: advancedmd-encounter-api
+- description: The Get FHIR Entity API from AdvancedMD — 1 operation(s) for get fhir entity.
+  name: AdvancedMD Get FHIR Entity API
+  slug: advancedmd-get-fhir-entity-api
+- description: The Goal API from AdvancedMD — 3 operation(s) for goal.
+  name: AdvancedMD Goal API
+  slug: advancedmd-goal-api
+- description: The Immunization API from AdvancedMD — 3 operation(s) for immunization.
+  name: AdvancedMD Immunization API
+  slug: advancedmd-immunization-api
+- description: The Location API from AdvancedMD — 2 operation(s) for location.
+  name: AdvancedMD Location API
+  slug: advancedmd-location-api
+- description: The MedicationDispense API from AdvancedMD — 3 operation(s) for medicationdispense.
+  name: AdvancedMD Medication Dispense API
+  slug: advancedmd-medicationdispense-api
+- description: The MedicationRequest API from AdvancedMD — 3 operation(s) for medicationrequest.
+  name: AdvancedMD Medication Request API
+  slug: advancedmd-medicationrequest-api
+- description: The Observation API from AdvancedMD — 3 operation(s) for observation.
+  name: AdvancedMD Observation API
+  slug: advancedmd-observation-api
+- description: The Obtain Access Token API from AdvancedMD — 1 operation(s) for obtain access token.
+  name: AdvancedMD Obtain Access Token API
+  slug: advancedmd-obtain-access-token-api
+- description: The Organization API from AdvancedMD — 2 operation(s) for organization.
+  name: AdvancedMD Organization API
+  slug: advancedmd-organization-api
+- description: The Patient API from AdvancedMD — 3 operation(s) for patient.
+  name: AdvancedMD Patient API
+  slug: advancedmd-patient-api
+- description: The Patient Demographics API from AdvancedMD — 1 operation(s) for patient demographics.
+  name: AdvancedMD Patient Demographics API
+  slug: advancedmd-patient-demographics-api
+- description: The Practitioner API from AdvancedMD — 2 operation(s) for practitioner.
+  name: AdvancedMD Practitioner API
+  slug: advancedmd-practitioner-api
+- description: The Procedure API from AdvancedMD — 3 operation(s) for procedure.
+  name: AdvancedMD Procedure API
+  slug: advancedmd-procedure-api
+- description: The Provenance API from AdvancedMD — 1 operation(s) for provenance.
+  name: AdvancedMD Provenance API
+  slug: advancedmd-provenance-api
+- description: The RelatedPerson API from AdvancedMD — 3 operation(s) for relatedperson.
+  name: AdvancedMD Related Person API
+  slug: advancedmd-relatedperson-api
+- description: The Start Bulk Data Export API from AdvancedMD — 1 operation(s) for start bulk data export.
+  name: AdvancedMD Start Bulk Data Export API
+  slug: advancedmd-start-bulk-data-export-api
+artifact_total: 43
 collections:
 - collection_type: open
   name: AdvancedMD Application Access APIs
@@ -63,6 +144,22 @@ collections:
   name: FHIR Single API - US Core 6.1.0
   slug: open-advancedmd-fhir-single-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/advancedmd-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/advancedmd-fhir-single-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/advancedmd-fhir-bulk-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/advancedmd-application-access-apis-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -252,10 +349,10 @@ modified: '2026-08-15'
 name: AdvancedMD
 nav: Providers
 network: true
-overview: 'AdvancedMD publishes 3 APIs on the [APIs.io](https://apis.io/) network: FHIR Single API (US Core 6.1.0), FHIR Bulk API, and Application Access APIs (Legacy Patient APIs). Tagged areas include Healthcare, United States, EHR, EMR, and Practice Management.
+overview: 'AdvancedMD publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Allergy Intolerance API, Authentication API, C CDA API, and 27 more. Tagged areas include Healthcare, United States, EHR, EMR, and Practice Management.
 
 
-  AdvancedMD''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, FAQ, signup flow, and 37 more developer resources.'
+  AdvancedMD''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, FAQ, signup flow, and 41 more developer resources.'
 plans:
 - name: Advancedmd Plans Pricing
   plan_count: 6
@@ -272,18 +369,23 @@ scopes:
   summary_line: 128 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 58.3
+  composite: 54.3
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 30.3
-    contract_quality: 49.8
+    contract_governance: 18.2
+    contract_quality: 50.0
     developer_ergonomics: 32.7
-    discoverability: 83.3
-    governance: 30.3
+    discoverability: 57.4
+    governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 58.3
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -296,12 +398,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 77.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advancedmd/refs/heads/main/screenshots/advancedmd-2026-08-07T160939.png
 security:

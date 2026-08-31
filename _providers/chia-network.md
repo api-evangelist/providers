@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Local JSON-over-HTTPS RPC surface exposed by the chia-blockchain reference node. Each service (full_node, wallet, farmer, harvester, datalayer, crawler, timelord, solver) listens on its own port and i
@@ -168,23 +168,31 @@ overview: 'Chia Network publishes 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 10
 score:
   band: thin
-  composite: 29.8
-  delta: 0.0
+  composite: 37.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 6.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 66.7
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 29.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 30.6
   provenance:
     conformance: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/chia-network/refs/heads/main/screenshots/chia-network-2026-07-25T205208.png
 security:
 - kind: authentication

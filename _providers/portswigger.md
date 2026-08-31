@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
 - description: The primary API for integrating with Burp Suite DAST, recommended for all new integrations. Exposes the broadest range of functionality including managing sites, initiating and monitoring scans, retri
@@ -53,6 +53,14 @@ apis:
   slug: mcp-server
 artifact_total: 12
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/PortSwigger/burp-extensions-montoya-api/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/PortSwigger/burp-extensions-montoya-api/releases
 - group: auth
   title: ''
   type: TrustCenter
@@ -132,7 +140,7 @@ overview: 'PortSwigger publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
   The PortSwigger catalog on APIs.io includes 1 JSON-LD context.
 
 
-  PortSwigger''s developer surface includes documentation, engineering blog, pricing, release notes, and 9 more developer resources.'
+  PortSwigger''s developer surface includes documentation, engineering blog, pricing, release notes, and 11 more developer resources.'
 plans:
 - name: Portswigger Plans Pricing
   plan_count: 3
@@ -143,8 +151,13 @@ rate_limits:
   name: Portswigger Rate Limits
   slug: portswigger-rate-limits
 score:
-  band: developing
-  composite: 39.4
+  band: thin
+  composite: 38.0
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 45.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 57.9
@@ -155,9 +168,12 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 39.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 38.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portswigger/refs/heads/main/screenshots/portswigger-2026-06-20T191938.png
 security:

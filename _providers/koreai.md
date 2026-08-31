@@ -23,30 +23,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-26'
-api_count: 5
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: 'Deployment-scoped conversation operations for agents built on the Kore.ai Agent Platform: send a message to a deployed agent, run a one-shot completion, and stream an agent response over Server-Sent E'
-  name: Kore.ai Agent Platform ABL Runtime API — Conversation
-  slug: koreai-agent-platform-abl-runtime-api-conversation
-- description: Invoke and execute deployed Kore.ai Agent Platform workflows, execute a pinned workflow version, and poll asynchronous workflow execution status.
-  name: Kore.ai Agent Platform ABL Runtime API — Workflows
-  slug: koreai-agent-platform-abl-runtime-api-workflows
-- description: Read usage metrics for a Kore.ai Agent Platform project, with optional date range and grouping.
-  name: Kore.ai Agent Platform ABL Runtime API — Sessions
-  slug: koreai-agent-platform-abl-runtime-api-sessions
 - description: The AI for Service REST estate — Automation AI (bot lifecycle, NLP training, analytics, admin, data tables), Search AI (answer generation, content and chunk management, ingestion, connectors), Contact
   name: Kore.ai AI for Service Platform APIs
   slug: koreai-ai-for-service-platform-apis
 - description: A stdio Model Context Protocol server, @koreai/arch-mcp-tools, that exposes the Kore.ai Agent Platform control plane to an MCP client as 45 tools across build, evaluate, optimize, debug and analyze. I
   name: Kore.ai Arch MCP Server
   slug: koreai-arch-mcp-server
+- description: The Chat API from Kore.ai — 5 operation(s) for chat.
+  name: Kore.ai Chat API
+  slug: koreai-chat-api
+- description: The Conversation API from Kore.ai — 3 operation(s) for conversation.
+  name: Kore.ai Conversation API
+  slug: koreai-conversation-api
+- description: The Workflows API from Kore.ai — 4 operation(s) for workflows.
+  name: Kore.ai Workflows API
+  slug: koreai-workflows-api
 artifact_total: 12
 asyncapis:
 - description: ''
   name: Koreai Webhooks
   slug: koreai-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/koreai-abl-runtime-conversation-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/koreai-abl-runtime-workflows-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/koreai-abl-runtime-sessions-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -204,13 +216,13 @@ modified: '2026-08-23'
 name: Kore.ai
 nav: Providers
 network: true
-overview: 'Kore.ai publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Agent Platform ABL Runtime API — Conversation, Agent Platform ABL Runtime API — Workflows, Agent Platform ABL Runtime API — Sessions, and 1 more. Tagged areas include Company, Artificial Intelligence, Conversational AI, Agents, and Agent Platform.
+overview: 'Kore.ai publishes 4 APIs on the [APIs.io](https://apis.io/) network, including AI for Service Platform APIs, Chat API, Conversation API, and 1 more. Tagged areas include Company, Artificial Intelligence, Conversational AI, Agents, and Agent Platform.
 
 
   The Kore.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kore.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 29 more developer resources.'
+  Kore.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 32 more developer resources.'
 plans:
 - name: Koreai Plans Pricing
   plan_count: 0
@@ -222,18 +234,23 @@ rate_limits:
   slug: koreai-rate-limits
 score:
   band: strong
-  composite: 56.5
-  delta: -3.0
+  composite: 55.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 30.3
-    contract_quality: 56.7
+    contract_governance: 18.2
+    contract_quality: 59.2
     developer_ergonomics: 83.3
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 59.5
+  previous_composite: 55.7
   provenance:
     conformance: first-party
     contracts:
@@ -243,8 +260,8 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -271,7 +288,7 @@ tags:
 - Employee Experience
 - Voice
 - Automation
-- Model Context Protocol
+- MCP
 - Enterprise Software
 website: https://www.kore.ai/
 ---

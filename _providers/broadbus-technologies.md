@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/motorola/
 created: '2026-07-17'
 description: Broadbus Technologies was a video-on-demand (VOD) streaming infrastructure company based in Boxborough, Massachusetts. It developed RAM-based VOD streaming server technology (the B-1 server) used by cable operators to deliver on-demand video at scale. The company was acquired by Motorola in 2006 and folded into Motorola's Connected Home / cable video business. It was surfaced as a portfolio company of Battery Ventures and added to the API Evangelist network as a stub. As a defunct hardware and infrastructure vendor with no surviving corporate or developer presence, it exposes no public API, developer portal, documentation, or discoverable web surface to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/broadbus-technologies.png
@@ -43,11 +48,16 @@ modified: '2026-07-18'
 name: Broadbus Technologies
 nav: Providers
 network: true
-overview: Broadbus Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Video-on-Demand, Streaming, and Cable.
+overview: Broadbus Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Video on Demand, Streaming, and Cable.
 random_paper: 16
 score:
   band: minimal
   composite: 5.0
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -67,14 +77,14 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: broadbus-technologies
 tags:
 - Company
 - Video
-- Video-on-Demand
+- Video on Demand
 - Streaming
 - Cable
 - Infrastructure

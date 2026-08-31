@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
 common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/servicemaster-global-holdings-domain-security.yml
 - group: company
   title: ''
   type: LinkedIn
@@ -43,15 +47,41 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.servicemaster-global-holdings.com
-description: ServiceMaster Global Holdings was the parent company of Terminix and other home services brands providing termite and pest control, cleaning and disaster restoration, and other services.
+  url: https://www.servicemaster.com/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/servicemaster-global-holdings-llms.txt
+coverage:
+  checked: '2026-08-29'
+  detail: 'ServiceMaster Global Holdings ceased to exist as a company: it sold ServiceMaster Brands to Roark Capital in October 2020, renamed itself Terminix Global Holdings, and was absorbed by Rentokil Initial in October 2022 — its own registered domain www.servicemaster-global-holdings.com no longer resolves, and the surviving ServiceMaster Brands site publishes only 14 pages with no developer, API or integration page among them.'
+  evidence:
+  - status: 0
+    url: https://www.servicemaster-global-holdings.com
+  - status: 200
+    url: https://www.servicemaster.com/page-sitemap.xml
+  - status: 404
+    url: https://www.servicemaster.com/openapi.json
+  - status: 404
+    url: https://www.servicemaster.com/llms.txt
+  - status: 404
+    url: https://www.servicemaster.com/.well-known/api-catalog
+  - status: 404
+    url: https://www.servicemasterclean.com/.well-known/agent-card.json
+  - status: 404
+    url: https://www.servicemasterrestore.com/openapi.json
+  reason: defunct
+  state: none
+created: '2026-03-24'
+description: 'ServiceMaster Global Holdings, Inc. (NYSE: SERV) was the Memphis-based parent company behind Terminix, ServiceMaster Restore, ServiceMaster Clean, Merry Maids, AmeriSpec and Furniture Medic — termite and pest control, disaster restoration, commercial and residential cleaning, home inspection and furniture repair, delivered largely through a franchise network. The company no longer exists under this name. On 1 October 2020 it sold the ServiceMaster Brands franchise business to Roark Capital for $1.553 billion, and later that month renamed itself Terminix Global Holdings, Inc., changing its NYSE ticker to TMX. Rentokil Initial plc completed its acquisition of Terminix Global Holdings in October 2022, absorbing the remaining pest-control business. The ServiceMaster brand itself continues under the independent, Roark-owned ServiceMaster Brands at servicemaster.com. Neither the historic holding company nor its successors publish a public developer program, API documentation, or
+  a machine-readable contract of any kind.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/servicemaster-global-holdings.png
 layout: provider
-modified: '2026-03-24'
-name: servicemaster-global-holdings
+modified: '2026-08-29'
+name: ServiceMaster Global Holdings
 nav: Providers
 network: true
-overview: servicemaster-global-holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
+overview: ServiceMaster Global Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000, Home Services, Pest Control, Facilities Management, and Disaster Restoration.
 press:
 - date: '2026-05-25'
   title: ServiceMaster Invests in Salesforce, Differentiates Itself to ...
@@ -71,7 +101,12 @@ press:
 random_paper: 15
 score:
   band: minimal
-  composite: 2.6
+  composite: 5.0
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -79,7 +114,7 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 25.9
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   needs_work:
@@ -88,12 +123,24 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 2.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 5.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
+security:
+- kind: domain-security
+  name: Servicemaster Global Holdings Domain Security
+  slug: servicemaster-global-holdings-domain-security
+  summary_line: TLSv1.3 · DMARC
 slug: servicemaster-global-holdings
 tags:
 - Fortune 1000
-website: https://www.servicemaster-global-holdings.com
+- Home Services
+- Pest Control
+- Facilities Management
+- Disaster Restoration
+- Cleaning Services
+- Franchising
+- Acquired
+website: https://www.servicemaster.com/
 ---

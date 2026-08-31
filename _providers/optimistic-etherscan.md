@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,30 +42,12 @@ agentic_access:
   operation_count: 1
   slug: optimistic-etherscan-agentic-access
   summary_line: 1 operation
-api_count: 7
+api_count: 1
 apis:
 - description: Address balances, transaction lists, and token holdings on OP Mainnet
   name: Optimism Etherscan Accounts API
   slug: optimistic-etherscan-accounts-api
-- description: Block rewards, countdowns, and block-to-timestamp lookups
-  name: Optimism Etherscan Blocks API
-  slug: optimistic-etherscan-blocks-api
-- description: Smart contract source code, ABI, creation info, and verification
-  name: Optimism Etherscan Contracts API
-  slug: optimistic-etherscan-contracts-api
-- description: Ethereum JSON-RPC proxy for direct node-level queries
-  name: Optimism Etherscan Geth Proxy API
-  slug: optimistic-etherscan-geth-proxy-api
-- description: OP Mainnet network statistics, OP token supply, and gas oracle
-  name: Optimism Etherscan Stats API
-  slug: optimistic-etherscan-stats-api
-- description: ERC-20 and ERC-721 token balances, supply, and holder lists
-  name: Optimism Etherscan Tokens API
-  slug: optimistic-etherscan-tokens-api
-- description: Transaction execution status, receipts, and internal transactions
-  name: Optimism Etherscan Transactions API
-  slug: optimistic-etherscan-transactions-api
-artifact_total: 23
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -157,7 +139,7 @@ modified: '2026-06-13'
 name: Optimism Etherscan
 nav: Providers
 network: true
-overview: 'Optimism Etherscan publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Contracts API, and 4 more. Tagged areas include Blockchain, Optimism, Layer 2, Ethereum, and EVM.
+overview: 'Optimism Etherscan publishes 1 API on the [APIs.io](https://apis.io/) network: Accounts API. Tagged areas include Blockchain, Optimism, Layer 2, Ethereum, and EVM.
 
 
   The Optimism Etherscan catalog on APIs.io includes 1 JSON-LD context.
@@ -175,18 +157,23 @@ rate_limits:
   slug: optimistic-etherscan-rate-limits
 score:
   band: developing
-  composite: 51.0
-  delta: 1.9
+  composite: 50.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 38.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 15.2
     contract_quality: 61.9
     developer_ergonomics: 33.3
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 15.2
     operational_transparency: 31.6
-  previous_composite: 49.1
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     contracts:
@@ -194,8 +181,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optimistic-etherscan/refs/heads/main/screenshots/optimistic-etherscan-2026-08-17T124250.png
 security:

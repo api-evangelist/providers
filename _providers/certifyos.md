@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 61
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 520
   slug: certifyos-agentic-access
   summary_line: 520 operations · 350 acting · 61 human-in-the-loop
-api_count: 59
+api_count: 3
 apis:
 - description: Address standardization and validation preview (CP-28784)
   name: Certifyos Address Standardization API
@@ -399,6 +399,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/certifyos-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/certifyos-api-service-overlay.yaml
 - group: agent
@@ -528,22 +532,27 @@ overview: 'Certifyos publishes 59 APIs on the [APIs.io](https://apis.io/) networ
   The Certifyos catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Certifyos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 22 more developer resources.'
+  Certifyos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 23 more developer resources.'
 random_paper: 18
 score:
   band: developing
-  composite: 51.1
+  composite: 49.5
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 66.5
     developer_ergonomics: 58.9
-    discoverability: 77.8
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 51.1
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -560,8 +569,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/screenshots/certifyos-2026-07-25T205001.png
 security:

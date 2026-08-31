@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: na
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-08-26'
+  score: 43.6
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ apis:
 - description: Best Buy store location and information queries
   name: Best Buy Stores API
   slug: best-buy-stores-api
-artifact_total: 68
+artifact_total: 69
 collections:
 - collection_type: open
   name: API Collection
@@ -149,6 +149,94 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/best-buy-vocabulary.yaml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/best-buy-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/best-buy-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/best-buy-cli.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/best-buy-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/best-buy-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/best-buy-data-model.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/best-buy-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/best-buy-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/best-buy-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/best-buy-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/best-buy-conformance.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/best-buy-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/best-buy-vulnerability-disclosure.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/best-buy-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/best-buy-plans-pricing.yml
+- group: agent
+  title: ''
+  type: MCP
+  url: mcp/best-buy-mcp.yml
+- group: agent
+  title: ''
+  type: WellKnownProbe
+  url: well-known/best-buy-well-known.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://bestbuyapis.github.io/api-documentation/#products-api
+- group: operate
+  title: ''
+  type: Support
+  url: https://developer.bestbuy.com/contact-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://developer.bestbuy.com/legal
+- group: start
+  title: ''
+  type: Console
+  url: https://bestbuyapis.github.io/bby-query-builder/
 created: '2026-04-19'
 description: Best Buy is a multinational consumer electronics retailer offering technology products, services, and solutions through stores, online, and in-home consultations. Best Buy provides a developer API giving access to product data, store locations, categories, recommendations, open box offers, and commerce capabilities for partners and developers building retail integrations and applications.
 examples:
@@ -285,7 +373,7 @@ jsonld:
   property_count: 27
   slug: best-buy-stores-api-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-27'
 name: Best Buy
 nav: Providers
 network: true
@@ -295,10 +383,10 @@ overview: 'Best Buy publishes 3 APIs on the [APIs.io](https://apis.io/) network:
   The Best Buy catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Best Buy''s developer surface includes authentication, documentation, getting-started guide, signup flow, engineering blog, and 13 more developer resources.'
+  Best Buy''s developer surface includes authentication, documentation, getting-started guide, signup flow, engineering blog, CLI, changelog, and 33 more developer resources.'
 plans:
 - name: Best Buy Plans Pricing
-  plan_count: 1
+  plan_count: 2
   slug: best-buy-plans-pricing
 press:
 - date: '2026-05-25'
@@ -318,7 +406,7 @@ press:
   url: https://www.forbes.com/sites/maribellopez/2025/06/17/how-best-buy-uses-ai-to-transform-customer-experience/
 random_paper: 13
 rate_limits:
-- limit_count: 1
+- limit_count: 2
   name: Best Buy Rate Limits
   slug: best-buy-rate-limits
 rules:
@@ -344,19 +432,27 @@ rules:
     warn: 17
   slug: best-buy-spectral-rules
 score:
-  band: thin
-  composite: 32.3
-  delta: 0.0
+  band: developing
+  composite: 47.5
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.5
   facets:
-    access_clarity: 26.3
-    commercial_clarity: 26.3
-    contract_governance: 28.8
-    contract_quality: 28.2
-    developer_ergonomics: 45.2
-    discoverability: 64.8
-    governance: 28.8
-    operational_transparency: 7.9
-  previous_composite: 32.3
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 47.0
+    contract_quality: 28.5
+    developer_ergonomics: 85.7
+    discoverability: 72.2
+    governance: 47.0
+    operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     contracts:
@@ -364,19 +460,23 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/screenshots/best-buy-2026-06-20T173159.png
 security:
 - kind: authentication
   name: Best Buy Authentication
   slug: best-buy-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Best Buy Domain Security
   slug: best-buy-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Best Buy Vulnerability Disclosure
+  slug: best-buy-vulnerability-disclosure
+  summary_line: Hackerone
 slug: best-buy
 tags:
 - Fortune 100

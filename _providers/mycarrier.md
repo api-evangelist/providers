@@ -15,35 +15,141 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.7
-  scored_at: '2026-08-26'
-api_count: 4
+  score: 37.2
+  scored_at: '2026-08-30'
+api_count: 6
 apis:
-- description: The documented MyCarrier Public API — order creation and management, rate quoting and dispatch, routing-guide rules, shipping locations and shipment detail retrieval. 17 operations over HTTP Basic aut
-  name: MyCarrier Public API
-  slug: mycarrier-public-api
-- description: The MyCarrier Order Public API — create or modify an order, delete an order by reference ID, and retrieve an order by reference ID. Served from its own host with HTTP Basic authentication (email / api
-  name: MyCarrier Order API
-  slug: mycarrier-order-api
-- description: The MyCarrier FreightAudit (Invoice Hub) API — freight bill audit, invoice filtering and retrieval, disputes, notes, tags, bulk import/export, payments and remittance, invoice analytics and shipment l
-  name: MyCarrier FreightAudit API
+- description: The BulkImport API from MyCarrier — 4 operation(s) for bulkimport.
+  name: MyCarrier Bulk Import API
+  slug: mycarrier-bulkimport-api
+- description: The CarrierInvoiceSetting API from MyCarrier — 5 operation(s) for carrierinvoicesetting.
+  name: MyCarrier Carrier Invoice Setting API
+  slug: mycarrier-carrierinvoicesetting-api
+- description: The CustomerInvoiceSetting API from MyCarrier — 6 operation(s) for customerinvoicesetting.
+  name: MyCarrier Customer Invoice Setting API
+  slug: mycarrier-customerinvoicesetting-api
+- description: The Dispatch API from MyCarrier — 1 operation(s) for dispatch.
+  name: MyCarrier Dispatch API
+  slug: mycarrier-dispatch-api
+- description: The Dispute API from MyCarrier — 6 operation(s) for dispute.
+  name: MyCarrier Dispute API
+  slug: mycarrier-dispute-api
+- description: The Download API from MyCarrier — 1 operation(s) for download.
+  name: MyCarrier Download API
+  slug: mycarrier-download-api
+- description: The Export API from MyCarrier — 6 operation(s) for export.
+  name: MyCarrier Export API
+  slug: mycarrier-export-api
+- description: The FreightAssist API from MyCarrier — 2 operation(s) for freightassist.
+  name: MyCarrier Freight Assist API
+  slug: mycarrier-freightassist-api
+- description: The FreightAudit API from MyCarrier — 11 operation(s) for freightaudit.
+  name: MyCarrier Freight Audit API
   slug: mycarrier-freightaudit-api
-- description: The MyCarrier webhook registration surface (ITM.Services.Webhook.Api) — register, update and delete webhook subscriptions, webhook types and additional outbound HTTP headers. Bearer JWT. The published
-  name: MyCarrier Webhook Registration API
+- description: The Import API from MyCarrier — 2 operation(s) for import.
+  name: MyCarrier Import API
+  slug: mycarrier-import-api
+- description: The Integrations API from MyCarrier — 5 operation(s) for integrations.
+  name: MyCarrier Integrations API
+  slug: mycarrier-integrations-api
+- description: The Invoice API from MyCarrier — 3 operation(s) for invoice.
+  name: MyCarrier Invoice API
+  slug: mycarrier-invoice-api
+- description: The Invoice Management API from MyCarrier — 4 operation(s) for invoice management.
+  name: MyCarrier Invoice Management API
+  slug: mycarrier-invoice-management-api
+- description: The InvoiceAnalytics API from MyCarrier — 5 operation(s) for invoiceanalytics.
+  name: MyCarrier Invoice Analytics API
+  slug: mycarrier-invoiceanalytics-api
+- description: The InvoiceOverviewV3 API from MyCarrier — 3 operation(s) for invoiceoverviewv3.
+  name: MyCarrier Invoice Overview V3 API
+  slug: mycarrier-invoiceoverviewv3-api
+- description: The InvoiceV3 API from MyCarrier — 4 operation(s) for invoicev3.
+  name: MyCarrier Invoice V3 API
+  slug: mycarrier-invoicev3-api
+- description: The Notes API from MyCarrier — 2 operation(s) for notes.
+  name: MyCarrier Notes API
+  slug: mycarrier-notes-api
+- description: The Notes Management API from MyCarrier — 2 operation(s) for notes management.
+  name: MyCarrier Notes Management API
+  slug: mycarrier-notes-management-api
+- description: The Orders API from MyCarrier — 5 operation(s) for orders.
+  name: MyCarrier Orders API
+  slug: mycarrier-orders-api
+- description: The Payment API from MyCarrier — 5 operation(s) for payment.
+  name: MyCarrier Payment API
+  slug: mycarrier-payment-api
+- description: The Payment Management API from MyCarrier — 2 operation(s) for payment management.
+  name: MyCarrier Payment Management API
+  slug: mycarrier-payment-management-api
+- description: The PaymentV3 API from MyCarrier — 1 operation(s) for paymentv3.
+  name: MyCarrier Payment V3 API
+  slug: mycarrier-paymentv3-api
+- description: The Rating API from MyCarrier — 2 operation(s) for rating.
+  name: MyCarrier Rating API
+  slug: mycarrier-rating-api
+- description: The Routing Guide API from MyCarrier — 7 operation(s) for routing guide.
+  name: MyCarrier Routing Guide API
+  slug: mycarrier-routing-guide-api
+- description: The ShipmentDetails API from MyCarrier — 1 operation(s) for shipmentdetails.
+  name: MyCarrier Shipment Details API
+  slug: mycarrier-shipmentdetails-api
+- description: The Shipments API from MyCarrier — 5 operation(s) for shipments.
+  name: MyCarrier Shipments API
+  slug: mycarrier-shipments-api
+- description: The ShippingLocations API from MyCarrier — 2 operation(s) for shippinglocations.
+  name: MyCarrier Shipping Locations API
+  slug: mycarrier-shippinglocations-api
+- description: The Tags API from MyCarrier — 3 operation(s) for tags.
+  name: MyCarrier Tags API
+  slug: mycarrier-tags-api
+- description: The UserInvoiceSettingV3 API from MyCarrier — 2 operation(s) for userinvoicesettingv3.
+  name: MyCarrier User Invoice Setting V3 API
+  slug: mycarrier-userinvoicesettingv3-api
+- description: The View Invoices API from MyCarrier — 2 operation(s) for view invoices.
+  name: MyCarrier View Invoices API
+  slug: mycarrier-view-invoices-api
+- description: The View Notes API from MyCarrier — 1 operation(s) for view notes.
+  name: MyCarrier View Notes API
+  slug: mycarrier-view-notes-api
+- description: The Webhook API from MyCarrier — 5 operation(s) for webhook.
+  name: MyCarrier Webhook API
   slug: mycarrier-webhook-api
-artifact_total: 11
+- description: The WebhookHttpHeader API from MyCarrier — 2 operation(s) for webhookhttpheader.
+  name: MyCarrier Webhook HTTP Header API
+  slug: mycarrier-webhookhttpheader-api
+- description: The WebhookType API from MyCarrier — 2 operation(s) for webhooktype.
+  name: MyCarrier Webhook Type API
+  slug: mycarrier-webhooktype-api
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Mycarrier Events Webhooks
   slug: mycarrier-events-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mycarrier-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mycarrier-public-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mycarrier-order-public-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mycarrier-freightaudit-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -176,13 +282,13 @@ modified: '2026-08-26'
 name: MyCarrier
 nav: Providers
 network: true
-overview: 'MyCarrier publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Public API, Order API, FreightAudit API, and 1 more. Tagged areas include Company, Logistics, Transportation, Freight, and Shipping.
+overview: 'MyCarrier publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Bulk Import API, Carrier Invoice Setting API, Customer Invoice Setting API, and 31 more. Tagged areas include Company, Logistics, Transportation, Freight, and Shipping.
 
 
   The MyCarrier catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MyCarrier''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 24 more developer resources.'
+  MyCarrier''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 28 more developer resources.'
 plans:
 - name: Mycarrier Plans Pricing
   plan_count: 4
@@ -194,16 +300,23 @@ rate_limits:
   slug: mycarrier-rate-limits
 score:
   band: strong
-  composite: 56.2
+  composite: 54.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 16.7
-    contract_quality: 56.7
+    contract_governance: 4.5
+    contract_quality: 55.0
     developer_ergonomics: 51.8
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 23.7
+  previous_composite: 54.3
   provenance:
     conformance: derived
     contracts:
@@ -213,8 +326,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Mycarrier Authentication

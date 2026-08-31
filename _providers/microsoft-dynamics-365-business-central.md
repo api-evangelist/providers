@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 26
   slug: microsoft-dynamics-365-business-central-agentic-access
   summary_line: 26 operations · 14 acting
-api_count: 9
+api_count: 1
 apis:
 - description: OData v4 endpoints exposing published Business Central pages and queries as web services for custom integrations, reporting, and Power Platform connectors when standard API v2.0 entities are insuffici
   name: Business Central OData Web Services
@@ -100,6 +100,10 @@ collections:
   name: Microsoft Dynamics 365 Business Central API v2.0
   slug: open-microsoft-dynamics-365-business-central
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-dynamics-365-business-central-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -159,7 +163,7 @@ network: true
 overview: 'Microsoft Dynamics 365 Business Central publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Customers API, Items API, and 4 more. Tagged areas include ERP, Cloud ERP, Finance, Accounting, and Supply Chain.
 
 
-  Microsoft Dynamics 365 Business Central''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
+  Microsoft Dynamics 365 Business Central''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
 random_paper: 17
 scopes:
 - name: Microsoft Dynamics 365 Business Central Scopes
@@ -168,15 +172,20 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 31.4
-  delta: 0.0
+  composite: 30.8
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 31.4
@@ -187,8 +196,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/screenshots/microsoft-dynamics-365-business-central-2026-06-20T185459.png
 security:

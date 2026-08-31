@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -125,13 +125,13 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-container-registry.png
 layout: provider
 modified: '2026-05-19'
-name: microsoft-azure-container-registry
+name: Azure Container Registry
 nav: Providers
 network: true
-overview: 'microsoft-azure-container-registry publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Blobs API, Manifests API, Repositories API, and 1 more.
+overview: 'Azure Container Registry publishes 4 APIs on the [APIs.io](https://apis.io/) network, including microsoft-azure-container-registry Blobs API, microsoft-azure-container-registry Manifests API, microsoft-azure-container-registry Repositories API, and 1 more.
 
 
-  microsoft-azure-container-registry''s developer surface includes authentication, developer portal, pricing, documentation, support, and 5 more developer resources.'
+  Azure Container Registry''s developer surface includes authentication, developer portal, pricing, documentation, support, and 5 more developer resources.'
 plans:
 - name: Microsoft Azure Container Registry Plans Pricing
   plan_count: 3
@@ -144,6 +144,11 @@ rate_limits:
 score:
   band: thin
   composite: 37.4
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 47.4
@@ -166,8 +171,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-container-registry/refs/heads/main/screenshots/microsoft-azure-container-registry-2026-06-20T185406.png
 security:

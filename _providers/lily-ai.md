@@ -32,18 +32,83 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: The middleware API behind Lily AI's customer application at app.lily.ai. Publicly served with a Swagger UI at /api and an OpenAPI 3.0.0 contract at /api-json (63 paths, 100 operations, 41 schemas), co
-  name: LilyApp Middleware API
-  slug: lilyapp-middleware-api
-artifact_total: 7
+- description: The Auth API from Lily AI — 5 operation(s) for auth.
+  name: Lily AI Auth API
+  slug: lily-ai-auth-api
+- description: The Batch API from Lily AI — 1 operation(s) for batch.
+  name: Lily AI Batch API
+  slug: lily-ai-batch-api
+- description: The Config API from Lily AI — 6 operation(s) for config.
+  name: Lily AI Config API
+  slug: lily-ai-config-api
+- description: The Enrichment Platform Proxy API from Lily AI — 1 operation(s) for enrichment platform proxy.
+  name: Lily AI Enrichment Platform Proxy API
+  slug: lily-ai-enrichment-platform-proxy-api
+- description: The Faqs API from Lily AI — 1 operation(s) for faqs.
+  name: Lily AI Faqs API
+  slug: lily-ai-faqs-api
+- description: The Health API from Lily AI — 1 operation(s) for health.
+  name: Lily AI Health API
+  slug: lily-ai-health-api
+- description: The Integration API from Lily AI — 2 operation(s) for integration.
+  name: Lily AI Integration API
+  slug: lily-ai-integration-api
+- description: The LilyApp API Nest Based Application API from Lily AI — 1 operation(s) for lilyapp api nest based application.
+  name: Lily AI LilyApp API Nest Based Application API
+  slug: lily-ai-lilyapp-api-nest-based-application-api
+- description: The Metrics API from Lily AI — 1 operation(s) for metrics.
+  name: Lily AI Metrics API
+  slug: lily-ai-metrics-api
+- description: The Mock Data API from Lily AI — 7 operation(s) for mock data.
+  name: Lily AI Mock Data API
+  slug: lily-ai-mock-data-api
+- description: The Pi Api Proxy API from Lily AI — 1 operation(s) for pi api proxy.
+  name: Lily AI Pi Api Proxy API
+  slug: lily-ai-pi-api-proxy-api
+- description: The Pi Config Proxy API from Lily AI — 1 operation(s) for pi config proxy.
+  name: Lily AI Pi Config Proxy API
+  slug: lily-ai-pi-config-proxy-api
+- description: The Pi Connector Proxy API from Lily AI — 1 operation(s) for pi connector proxy.
+  name: Lily AI Pi Connector Proxy API
+  slug: lily-ai-pi-connector-proxy-api
+- description: The Productcopy API from Lily AI — 11 operation(s) for productcopy.
+  name: Lily AI Productcopy API
+  slug: lily-ai-productcopy-api
+- description: The ProductcopyV2 API from Lily AI — 6 operation(s) for productcopyv2.
+  name: Lily AI Productcopy V2 API
+  slug: lily-ai-productcopyv2-api
+- description: The Products API from Lily AI — 1 operation(s) for products.
+  name: Lily AI Products API
+  slug: lily-ai-products-api
+- description: The Search API from Lily AI — 11 operation(s) for search.
+  name: Lily AI Search API
+  slug: lily-ai-search-api
+- description: The Subsidiary API from Lily AI — 2 operation(s) for subsidiary.
+  name: Lily AI Subsidiary API
+  slug: lily-ai-subsidiary-api
+- description: The Superset API from Lily AI — 2 operation(s) for superset.
+  name: Lily AI Superset API
+  slug: lily-ai-superset-api
+- description: The Tce Api Proxy API from Lily AI — 1 operation(s) for tce api proxy.
+  name: Lily AI Tce Api Proxy API
+  slug: lily-ai-tce-api-proxy-api
+artifact_total: 26
 collections:
 - collection_type: open
   name: LilyApp API - Nest Based Application
   slug: open-lily-ai-lilyapp-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lily-ai-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lily-ai-lilyapp-api-overlay.yaml
 - group: build
   title: ''
   type: Packages
@@ -141,10 +206,10 @@ modified: '2026-08-12'
 name: Lily AI
 nav: Providers
 network: true
-overview: 'Lily AI publishes 1 API on the [APIs.io](https://apis.io/) network: LilyApp Middleware API. Tagged areas include Company, Retail, E-Commerce, Artificial Intelligence, and Product Data.
+overview: 'Lily AI publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Batch API, Config API, and 17 more. Tagged areas include Company, Retail, E-Commerce, Artificial Intelligence, and Product Data.
 
 
-  Lily AI''s developer surface includes authentication, engineering blog, pricing, signup flow, support, and 17 more developer resources.'
+  Lily AI''s developer surface includes authentication, engineering blog, pricing, signup flow, support, and 19 more developer resources.'
 plans:
 - name: Lily Ai Plans Pricing
   plan_count: 0
@@ -156,18 +221,23 @@ rate_limits:
   slug: lily-ai-rate-limits
 score:
   band: developing
-  composite: 42.1
-  delta: 1.5
+  composite: 40.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 16.7
-    contract_quality: 44.9
+    contract_governance: 4.5
+    contract_quality: 45.6
     developer_ergonomics: 28.0
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 40.6
+  previous_composite: 41.3
   provenance:
     conformance: derived
     contracts:
@@ -177,8 +247,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lily-ai/refs/heads/main/screenshots/lily-ai-2026-07-25T225157.png
 security:

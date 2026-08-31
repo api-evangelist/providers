@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 29
   slug: radio-browser-agentic-access
   summary_line: 29 operations · 1 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Aggregated counts of countries, languages, tags, codecs, and states.
   name: Radio Browser Categories API
@@ -76,6 +76,18 @@ collections:
   name: Radio Browser API
   slug: open-radio-browser
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/segler-alex/radiobrowser-api-rust/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/segler-alex/radiobrowser-api-rust/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/segler-alex/radiobrowser-api-rust/blob/master/CODE_OF_CONDUCT.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -236,7 +248,7 @@ overview: 'Radio Browser publishes 4 APIs on the [APIs.io](https://apis.io/) net
   The Radio Browser catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Radio Browser''s developer surface includes documentation, API reference, and 20 more developer resources.'
+  Radio Browser''s developer surface includes documentation, API reference, and 23 more developer resources.'
 plans:
 - name: Radio Browser Plans Pricing
   plan_count: 1
@@ -270,18 +282,26 @@ rules:
   slug: radio-browser-rules
 score:
   band: developing
-  composite: 45.3
-  delta: 4.9
+  composite: 46.2
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 30.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 28.8
     contract_quality: 60.9
     developer_ergonomics: 45.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
-    operational_transparency: 34.2
-  previous_composite: 40.4
+    operational_transparency: 50.0
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -295,8 +315,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/screenshots/radio-browser-2026-06-20T192514.png
 security:

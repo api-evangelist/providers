@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: RESTful API for managing recruitment workflows including jobs, candidates, placements, submissions, interviews, and companies in JobAdder. Authentication uses OAuth 2.0 authorization code flow with be
@@ -84,7 +84,7 @@ modified: '2026-05-11'
 name: JobAdder
 nav: Providers
 network: true
-overview: 'JobAdder publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Recruitment, ATS, Staffing, Human Resources, and Talent Acquisition.
+overview: 'JobAdder publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Recruitment, Applicant Tracking System, Staffing, Human Resources, and Talent Acquisition.
 
 
   JobAdder''s developer surface includes documentation, support, signup flow, pricing, engineering blog, and 4 more developer resources.'
@@ -92,7 +92,12 @@ random_paper: 8
 score:
   band: emerging
   composite: 17.6
-  delta: 2.3
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -102,9 +107,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 15.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 17.6
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jobadder/refs/heads/main/screenshots/jobadder-2026-06-20T183744.png
 security:
@@ -115,7 +120,7 @@ security:
 slug: jobadder
 tags:
 - Recruitment
-- ATS
+- Applicant Tracking System
 - Staffing
 - Human Resources
 - Talent Acquisition

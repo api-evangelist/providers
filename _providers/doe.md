@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 278
   slug: doe-agentic-access
   summary_line: 278 operations · 53 acting · 4 human-in-the-loop
-api_count: 22
+api_count: 1
 apis:
 - description: NREL/NLR Developer Network electricity APIs covering utility rates, electricity costs, generation, transmission, delivery, and monitoring. Includes OpenEI Utility Rates API providing access to utility
   name: NLR Electricity APIs
@@ -331,18 +331,23 @@ rules:
   slug: doe-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.1
-  delta: 5.6
+  composite: 43.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 9.8
     contract_quality: 47.5
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 38.5
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     contracts:
@@ -356,9 +361,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/screenshots/doe-2026-06-20T180122.png
 security:
 - kind: authentication

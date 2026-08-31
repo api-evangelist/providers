@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 75.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 1
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 129
   slug: primitive-agentic-access
   summary_line: 129 operations · 76 acting · 1 human-in-the-loop
-api_count: 22
+api_count: 1
 apis:
 - description: Manage your account settings, storage, and webhook secret
   name: Primitive Account API
@@ -209,17 +209,22 @@ overview: 'Primitive publishes 22 APIs on the [APIs.io](https://apis.io/) networ
   The Primitive catalog on APIs.io includes 1 event-driven AsyncAPI specification.'
 random_paper: 19
 score:
-  band: thin
-  composite: 28.0
-  delta: 0.0
+  band: emerging
+  composite: 24.9
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 100.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 71.2
     developer_ergonomics: 7.1
-    discoverability: 51.9
-    governance: 30.3
+    discoverability: 35.2
+    governance: 18.2
     operational_transparency: 0.0
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -227,7 +232,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 28.0
+  previous_composite: 25.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -238,8 +243,8 @@ score:
       total: 22
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 119
   slug: alpaca-agentic-access
   summary_line: 119 operations · 39 acting
-api_count: 23
+api_count: 2
 apis:
 - description: The Alpaca Trading API enables commission-free trading of US-listed equities, options, and crypto. It exposes endpoints for orders, positions, account information, watchlists, calendar, clock, and ass
   name: Alpaca Trading API
@@ -50,12 +50,6 @@ apis:
 - description: The Alpaca OAuth API allows third-party applications to authenticate Alpaca users and obtain access tokens for the Trading and Market Data APIs.
   name: Alpaca OAuth API
   slug: oauth-api
-- description: Head to https://alpaca.markets/docs/api-references/trading-api/account-activities/ to view complete documentation on the Account Activities API.
-  name: Alpaca Account Activities API
-  slug: alpaca-account-activities-api
-- description: Head to https://alpaca.markets/docs/api-documentation/api-v2/account-configuration/ to view complete documentation on the Account Configurations API.
-  name: Alpaca Account Configurations API
-  slug: alpaca-account-configurations-api
 - description: The Accounts API from Alpaca — 14 operation(s) for accounts.
   name: Alpaca Accounts API
   slug: alpaca-accounts-api
@@ -92,15 +86,6 @@ apis:
 - description: The News API from Alpaca — 1 operation(s) for news.
   name: Alpaca News API
   slug: alpaca-news-api
-- description: Head to https://alpaca.markets/docs/api-documentation/api-v2/orders/ to view complete documentation on the Orders API.
-  name: Alpaca Orders API
-  slug: alpaca-orders-api
-- description: Head to https://alpaca.markets/docs/api-documentation/api-v2/portfolio-history/ to view complete documentation on the Portfolio History API.
-  name: Alpaca Portfolio History API
-  slug: alpaca-portfolio-history-api
-- description: Head to https://alpaca.markets/docs/api-documentation/api-v2/positions/ to view complete documentation on the Positions API.
-  name: Alpaca Positions API
-  slug: alpaca-positions-api
 - description: The Screener API from Alpaca — 1 operation(s) for screener.
   name: Alpaca Screener API
   slug: alpaca-screener-api
@@ -110,10 +95,7 @@ apis:
 - description: The Watchlist API from Alpaca — 2 operation(s) for watchlist.
   name: Alpaca Watchlist API
   slug: alpaca-watchlist-api
-- description: Head to https://alpaca.markets/docs/api-documentation/api-v2/watchlist/ to view complete documentation on the Watchlist API.
-  name: Alpaca Watchlists API
-  slug: alpaca-watchlists-api
-artifact_total: 83
+artifact_total: 77
 asyncapis:
 - description: AsyncAPI 2.6 description of Alpaca's public WebSocket streaming APIs. Covers real-time stock market data (IEX / SIP / delayed SIP / BOATS), real-time crypto market data (US and Global), real-time news
   name: Alpaca WebSocket Streaming APIs
@@ -456,7 +438,7 @@ modified: '2026-07-22'
 name: Alpaca
 nav: Providers
 network: true
-overview: 'Alpaca publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Trading API, OAuth API, Account Activities API, and 20 more. Tagged areas include Fintech, Trading, Stocks, Crypto, and Brokerage.
+overview: 'Alpaca publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Trading API, OAuth API, Accounts API, and 14 more. Tagged areas include Fintech, Trading, Stocks, Crypto, and Brokerage.
 
 
   The Alpaca catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -491,18 +473,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.7
-  delta: 0.0
+  composite: 59.8
+  coverage:
+    artifact_dirs: 28
+    catalog_gap: 64.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 43.9
-    contract_quality: 66.9
+    contract_governance: 31.8
+    contract_quality: 67.6
     developer_ergonomics: 53.6
-    discoverability: 92.6
-    governance: 43.9
+    discoverability: 75.9
+    governance: 31.8
     operational_transparency: 63.2
-  previous_composite: 62.7
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -515,12 +502,16 @@ score:
     skills: first-party
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 73.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/screenshots/alpaca-2026-06-20T171542.png
 security:

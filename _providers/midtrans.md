@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 33
   slug: midtrans-agentic-access
   summary_line: 33 operations · 21 acting · 1 human-in-the-loop
-api_count: 7
+api_count: 1
 apis:
 - description: Client-key card token and card registration (browser-side).
   name: Midtrans Card Tokenization API
@@ -151,7 +151,7 @@ modified: '2026-07-12'
 name: Midtrans
 nav: Providers
 network: true
-overview: 'Midtrans publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Card Tokenization API, Core API API, GoPay Tokenization API, and 4 more. Tagged areas include Payments, Payment Gateway, Indonesia, Southeast Asia, and SNAP.
+overview: 'Midtrans publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Card Tokenization API, Core API API, GoPay Tokenization API, and 4 more. Tagged areas include Payments, Payment Gateway, Indonesia, Southeast Asia, and Snap.
 
 
   Midtrans'' developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -166,18 +166,23 @@ rate_limits:
   slug: midtrans-rate-limits
 score:
   band: thin
-  composite: 39.1
-  delta: 2.4
+  composite: 38.5
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 56.9
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 36.7
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -191,8 +196,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/screenshots/midtrans-2026-08-07T172858.png
 security:
@@ -210,7 +215,7 @@ tags:
 - Payment Gateway
 - Indonesia
 - Southeast Asia
-- SNAP
+- Snap
 - E-Wallet
 - Virtual Account
 - Cards

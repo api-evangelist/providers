@@ -35,18 +35,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: 'The HL7 FHIR REST API of the Commure Developer Platform, together with its OpenID Connect / SMART App Launch authentication surface. Covers the FHIR RESTful interactions (read, vread, update, delete, '
+- description: The auth API from Commure — 6 operation(s) for auth.
+  name: Commure Auth API
+  slug: commure-auth-api
+- description: The FHIR API from Commure — 49 operation(s) for fhir.
   name: Commure FHIR API
   slug: commure-fhir-api
-artifact_total: 9
+artifact_total: 10
 collections:
 - collection_type: open
   name: Commure FHIR API
   slug: open-commure-fhir
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/commure-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -248,10 +255,10 @@ modified: '2026-08-15'
 name: Commure
 nav: Providers
 network: true
-overview: 'Commure publishes 1 API on the [APIs.io](https://apis.io/) network: FHIR API. Tagged areas include Healthcare, United States, Clinical AI, Ambient AI, and Revenue Cycle Management.
+overview: 'Commure publishes 2 APIs on the [APIs.io](https://apis.io/) network: Auth API and FHIR API. Tagged areas include Healthcare, United States, Clinical AI, Ambient AI, and Revenue Cycle Management.
 
 
-  Commure''s developer surface includes API reference, authentication, sandbox, pricing, signup flow, engineering blog, product news, and 40 more developer resources.'
+  Commure''s developer surface includes API reference, authentication, sandbox, pricing, signup flow, engineering blog, product news, and 41 more developer resources.'
 plans:
 - name: Commure Plans Pricing
   plan_count: 0
@@ -268,18 +275,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 53.1
+  composite: 51.8
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
-    contract_quality: 46.9
+    contract_governance: 4.5
+    contract_quality: 52.0
     developer_ergonomics: 28.0
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 53.1
+  previous_composite: 51.8
   provenance:
     conformance: derived
     contracts:
@@ -295,8 +307,8 @@ score:
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/screenshots/commure-2026-07-25T210143.png
 security:

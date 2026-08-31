@@ -23,38 +23,46 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 9
 apis:
-- description: Company news archive — press releases, scientific presentations and publications (8 published at harvest time, spanning the November 2023 Series B announcement through the July 2025 EphA5 ADC publicat
-  name: MBrace Therapeutics News API
-  slug: mbrace-therapeutics-news-api
-- description: The five company-specific custom post types MBrace Therapeutics registered for its own governance and backer disclosures — board members (8), executive committee (8), founders (2), investors (5) and t
-  name: MBrace Therapeutics People API
-  slug: mbrace-therapeutics-people-api
-- description: Corporate site pages (12 published at harvest time), including About Us, Pipeline, Discovery Platform, the MBRC-101 and MBRC-201 clinical programme pages and the Expanded Access Statement.
-  name: MBrace Therapeutics Pages API
-  slug: mbrace-therapeutics-pages-api
-- description: Media library — 224 attachments at harvest time, including the corporate logo and leadership headshots.
-  name: MBrace Therapeutics Media API
-  slug: mbrace-therapeutics-media-api
-- description: Category and tag terms. Four categories are registered and are shared across the post, board-member, executive-committee and founders types; the post_tag taxonomy is registered but returned zero terms
-  name: MBrace Therapeutics Taxonomy API
-  slug: mbrace-therapeutics-taxonomy-api
-- description: Cross-content search across every published object (76 searchable objects at harvest time), returning lightweight {id, title, url, type, subtype} references.
-  name: MBrace Therapeutics Search API
-  slug: mbrace-therapeutics-search-api
-- description: 'Route, post type, taxonomy and status discovery documents. The API root index at /wp-json/ is the only machine-readable API description MBrace Therapeutics serves — 346 routes across 17 namespaces at '
+- description: Route, type, taxonomy and status discovery documents.
   name: MBrace Therapeutics Discovery API
   slug: mbrace-therapeutics-discovery-api
-- description: Post authors (3 at harvest time). Anonymously readable on this deployment — display fields only, no email addresses or capabilities.
+- description: Media library (224 attachments at harvest time).
+  name: MBrace Therapeutics Media API
+  slug: mbrace-therapeutics-media-api
+- description: Company news archive — press releases, scientific presentations and publications (8 published at harvest time, spanning November 2023 through July 2025).
+  name: MBrace Therapeutics News API
+  slug: mbrace-therapeutics-news-api
+- description: oEmbed 1.0 provider endpoint for mbracetrx.com URLs.
+  name: MBrace Therapeutics Oembed API
+  slug: mbrace-therapeutics-oembed-api
+- description: Corporate site pages (12 published at harvest time).
+  name: MBrace Therapeutics Pages API
+  slug: mbrace-therapeutics-pages-api
+- description: 'The five company-specific custom post types MBrace Therapeutics registered for its own governance and backer disclosures: board members, executive committee, founders, investors and the scientific adv'
+  name: MBrace Therapeutics People API
+  slug: mbrace-therapeutics-people-api
+- description: Cross-content search across every published object on the deployment (76 searchable objects at harvest time).
+  name: MBrace Therapeutics Search API
+  slug: mbrace-therapeutics-search-api
+- description: Category and tag terms. Four categories are registered; the post_tag taxonomy is registered but empty.
+  name: MBrace Therapeutics Taxonomy API
+  slug: mbrace-therapeutics-taxonomy-api
+- description: Post authors exposed by the users collection (3 at harvest time).
   name: MBrace Therapeutics Users API
   slug: mbrace-therapeutics-users-api
-- description: oEmbed 1.0 provider endpoint resolving any mbracetrx.com URL to a titled, authored embed record.
-  name: MBrace Therapeutics oEmbed API
-  slug: mbrace-therapeutics-oembed-api
 artifact_total: 13
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mbrace-therapeutics-news-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mbrace-therapeutics-people-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -168,10 +176,10 @@ modified: '2026-08-25'
 name: MBrace Therapeutics
 nav: Providers
 network: true
-overview: 'MBrace Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including News API, People API, Pages API, and 6 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Antibody Drug Conjugates.
+overview: 'MBrace Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Media API, News API, and 6 more. Tagged areas include Company, biotechnology, pharmaceuticals, oncology, and antibody-drug-conjugates.
 
 
-  MBrace Therapeutics'' developer surface includes product news, authentication, and 24 more developer resources.'
+  MBrace Therapeutics'' developer surface includes product news, authentication, and 26 more developer resources.'
 plans:
 - name: Mbrace Therapeutics Plans Pricing
   plan_count: 0
@@ -183,16 +191,23 @@ rate_limits:
   slug: mbrace-therapeutics-rate-limits
 score:
   band: thin
-  composite: 31.4
+  composite: 30.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 52.6
     developer_ergonomics: 13.7
     discoverability: 74.1
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
+  previous_composite: 30.0
   provenance:
     conformance: derived
     contracts:
@@ -208,8 +223,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Mbrace Therapeutics Authentication
@@ -222,14 +238,14 @@ security:
 slug: mbrace-therapeutics
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Oncology
-- Antibody Drug Conjugates
-- Drug Discovery
-- Clinical Trials
-- Life Sciences
-- Precision Medicine
+- biotechnology
+- pharmaceuticals
+- oncology
+- antibody-drug-conjugates
+- drug-discovery
+- clinical-trials
+- life-sciences
+- precision-medicine
 - content-api
 website: https://mbracetrx.com/
 ---

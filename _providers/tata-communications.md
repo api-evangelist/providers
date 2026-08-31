@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.6
-  scored_at: '2026-08-26'
+  score: 29.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -31,17 +31,8 @@ agentic_access:
   operation_count: 7
   slug: tata-communications-agentic-access
   summary_line: 7 operations · 1 acting
-api_count: 6
+api_count: 3
 apis:
-- description: Queries the number-lookup details of any E.164 number and returns subscriber type, the current and parent network, the port-corrected service provider network (SPN), and MCC/MNC when the number is mob
-  name: Number Intelligence API
-  slug: tata-communications-number-intelligence-api
-- description: Account administration and lookup reporting for the Tata Communications Mobile Messaging Exchange (A2P/wholesale SMS) platform, covering destination lookup, report retrieval, and sender-ID registratio
-  name: Mobile Messaging Exchange - Account Administration
-  slug: tata-communications-mobile-messaging-exchange-account-administration
-- description: Call/message detail record reporting for the Tata Communications Mobile Messaging Exchange, returning message logs for a given account ID and time frame or for a single customer message ID. Publicly v
-  name: Mobile Messaging Exchange - CDR Report API
-  slug: tata-communications-mobile-messaging-exchange-cdr-report-api
 - description: Full-service API for the Tata Communications MOVE platform SIM Connect product, supporting management of a tenancy — its key entities, services, and the products the tenancy avails. Published on the s
   name: MOVE SIM Connect API
   slug: tata-communications-move-sim-connect-api
@@ -51,7 +42,25 @@ apis:
 - description: Issues an OAuth 2.0 bearer access token used to call the other Tata Communications MOVE APIs. Published on the MOVE Azure API Management developer portal; the reference is behind sign-in and no anonym
   name: MOVE Access Token API
   slug: tata-communications-move-access-token-api
-artifact_total: 15
+- description: The CDR by Customer Message Id API from Tata Communications — 1 operation(s) for cdr by customer message id.
+  name: Tata Communications CDR by Customer Message Id API
+  slug: tata-communications-cdr-by-customer-message-id-api
+- description: The Destination API from Tata Communications — 1 operation(s) for destination.
+  name: Tata Communications Destination API
+  slug: tata-communications-destination-api
+- description: The Number Intelligence API from Tata Communications — 2 operation(s) for number intelligence.
+  name: Tata Communications Number Intelligence API
+  slug: tata-communications-number-intelligence-api
+- description: The Report API from Tata Communications — 1 operation(s) for report.
+  name: Tata Communications Report API
+  slug: tata-communications-report-api
+- description: The SenderId API from Tata Communications — 1 operation(s) for senderid.
+  name: Tata Communications Sender ID API
+  slug: tata-communications-senderid-api
+- description: The TOP 25 CDR by account Id & Time Frame API from Tata Communications — 1 operation(s) for top 25 cdr by account id & time frame.
+  name: Tata Communications TOP 25 CDR by account Id & Time Frame API
+  slug: tata-communications-top-25-cdr-by-account-id-time-frame-api
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Tata Communications Webhooks
@@ -67,6 +76,18 @@ collections:
   name: Number Intelligence API
   slug: open-tata-communications-number-intelligence-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tata-communications-number-intelligence-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tata-communications-mobile-messaging-exchange-account-administration-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tata-communications-mobile-messaging-exchange-cdr-report-api-overlay.yaml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -216,28 +237,33 @@ modified: '2026-07-25'
 name: Tata Communications
 nav: Providers
 network: true
-overview: 'Tata Communications publishes 3 APIs on the [APIs.io](https://apis.io/) network: Number Intelligence API, Mobile Messaging Exchange - Account Administration, and Mobile Messaging Exchange - CDR Report API. Tagged areas include Telecommunications, India, Wholesale Carrier, CPaaS, and Messaging.
+overview: 'Tata Communications publishes 6 APIs on the [APIs.io](https://apis.io/) network, including CDR by Customer Message Id API, Destination API, Number Intelligence API, and 3 more. Tagged areas include Telecommunications, India, Wholesale Carrier, CPaaS, and Messaging.
 
 
   The Tata Communications catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tata Communications'' developer surface includes authentication, code examples, sandbox, documentation, signup flow, engineering blog, developer portal, and 27 more developer resources.'
+  Tata Communications'' developer surface includes authentication, code examples, sandbox, documentation, signup flow, engineering blog, developer portal, and 30 more developer resources.'
 random_paper: 10
 score:
   band: developing
-  composite: 50.8
-  delta: 1.4
+  composite: 48.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
-    contract_quality: 50.3
+    contract_governance: 18.2
+    contract_quality: 43.9
     developer_ergonomics: 54.2
-    discoverability: 72.2
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 49.4
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -249,8 +275,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tata-communications/refs/heads/main/screenshots/tata-communications-2026-08-17T082254.png
 security:

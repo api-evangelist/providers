@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 386
   human_in_the_loop: 22
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 692
   slug: vtex-agentic-access
   summary_line: 692 operations · 386 acting · 22 human-in-the-loop
-api_count: 142
+api_count: 44
 apis:
 - description: The Account API from VTEX — 13 operation(s) for account.
   name: VTEX Account API
@@ -899,6 +899,10 @@ collections:
   name: VTex Anti-fraud Provider Account Warehouses API
   slug: open-vtex-warehouses-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vtex-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -4360,7 +4364,7 @@ overview: 'VTEX publishes 142 APIs on the [APIs.io](https://apis.io/) network, i
   The VTEX catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  VTEX''s developer surface includes authentication, developer portal, changelog, support, engineering blog, and 14 more developer resources.'
+  VTEX''s developer surface includes authentication, developer portal, changelog, support, engineering blog, and 15 more developer resources.'
 plans:
 - name: Vtex Plans Pricing
   plan_count: 2
@@ -4394,18 +4398,23 @@ rules:
   slug: vtex-rules
 score:
   band: developing
-  composite: 42.4
-  delta: 1.9
+  composite: 42.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 49.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
-    contract_quality: 56.3
+    contract_quality: 57.9
     developer_ergonomics: 45.2
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 40.5
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -4419,8 +4428,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vtex/refs/heads/main/screenshots/vtex-2026-06-20T201148.png
 security:

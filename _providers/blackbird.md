@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 25
   slug: blackbird-agentic-access
   summary_line: 25 operations · 5 acting
-api_count: 10
+api_count: 1
 apis:
 - description: The App API from Blackbird — 1 operation(s) for app.
   name: Blackbird App API
@@ -241,18 +241,23 @@ scopes:
   summary_line: 9 scopes
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 43.9
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 55.8
     developer_ergonomics: 78.6
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 46.0
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -269,8 +274,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/screenshots/blackbird-2026-07-25T203240.png
 security:

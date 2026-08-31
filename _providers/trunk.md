@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 16
   slug: trunk-agentic-access
   summary_line: 16 operations · 15 acting
-api_count: 5
+api_count: 1
 apis:
 - description: CI test-result ingestion surface. The trunk-analytics-cli (and the trunk-io/analytics-uploader GitHub Action) uploads JUnit XML, Bazel BEP, and XCResult test reports to Trunk for flaky-test detection,
   name: Trunk Test Uploads (Analytics CLI)
@@ -207,18 +207,23 @@ rate_limits:
   slug: trunk-rate-limits
 score:
   band: developing
-  composite: 50.6
-  delta: 3.8
+  composite: 48.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 64.5
     developer_ergonomics: 51.8
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 46.8
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -229,8 +234,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trunk/refs/heads/main/screenshots/trunk-2026-06-20T195810.png
 security:

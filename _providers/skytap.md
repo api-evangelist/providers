@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST API for managing Skytap environments (configurations), VMs, networks, templates, users, projects, assets and webhooks. v2 adds filtering, sorting and pagination; v1 remains for operations not yet
@@ -153,7 +153,7 @@ modified: '2026-07-21'
 name: Skytap
 nav: Providers
 network: true
-overview: 'Skytap publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, IBM Power, Infrastructure-as-a-Service, and Application Modernization.
+overview: 'Skytap publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, IBM Power, Infrastructure as a Service, and Application Modernization.
 
 
   The Skytap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -164,6 +164,11 @@ random_paper: 17
 score:
   band: developing
   composite: 39.4
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 13.2
@@ -184,8 +189,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -201,7 +206,7 @@ tags:
 - Company
 - Cloud
 - IBM Power
-- Infrastructure-as-a-Service
+- Infrastructure as a Service
 - Application Modernization
 - Azure
 - Virtual Machines

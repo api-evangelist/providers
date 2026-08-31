@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: ERC-4337 bundler JSON-RPC endpoint. Accepts User Operations into the mempool, estimates UserOp gas, returns a UserOp and its receipt by hash, and lists supported EntryPoint addresses. One endpoint per
@@ -142,7 +142,7 @@ modified: '2026-08-17'
 name: Cometh
 nav: Providers
 network: true
-overview: 'Cometh publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Account Abstraction, ERC-4337, and Smart Wallet.
+overview: 'Cometh publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, account-abstraction, erc-4337, and smart-wallet.
 
 
   Cometh''s developer surface includes documentation, API reference, getting-started guide, signup flow, YouTube channel, authentication, sandbox, and 17 more developer resources.'
@@ -158,6 +158,11 @@ rate_limits:
 score:
   band: thin
   composite: 29.6
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -178,8 +183,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -198,21 +203,21 @@ slug: cometh
 tags:
 - Company
 - Blockchain
-- Account Abstraction
-- ERC-4337
-- Smart Wallet
-- Paymaster
-- Bundler
-- Passkeys
-- WebAuthn
-- Gasless Transactions
+- account-abstraction
+- erc-4337
+- smart-wallet
+- paymaster
+- bundler
+- passkeys
+- webauthn
+- gasless-transactions
 - DeFi
-- Custody
-- Staking
+- custody
+- staking
 - Payments
-- JSON-RPC
-- MiCA
-- SAFe
+- json-rpc
+- mica
+- safe
 - Web3
 website: https://www.cometh.io/
 ---

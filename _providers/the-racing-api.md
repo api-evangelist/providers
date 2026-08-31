@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,14 +42,11 @@ agentic_access:
   operation_count: 58
   slug: the-racing-api-agentic-access
   summary_line: 58 operations
-api_count: 17
+api_count: 1
 apis:
 - description: The Australia API from The Racing API — 3 operation(s) for australia.
   name: The Racing API Australia API
   slug: the-racing-api-australia-api
-- description: The Basic Plan API from The Racing API — 7 operation(s) for basic plan.
-  name: The Racing API Basic Plan API
-  slug: the-racing-api-basic-plan-api
 - description: The Courses API from The Racing API — 2 operation(s) for courses.
   name: The Racing API Courses API
   slug: the-racing-api-courses-api
@@ -59,9 +56,6 @@ apis:
 - description: The Damsires API from The Racing API — 4 operation(s) for damsires.
   name: The Racing API Damsires API
   slug: the-racing-api-damsires-api
-- description: The Free Plan API from The Racing API — 4 operation(s) for free plan.
-  name: The Racing API Free Plan API
-  slug: the-racing-api-free-plan-api
 - description: The Horses API from The Racing API — 5 operation(s) for horses.
   name: The Racing API Horses API
   slug: the-racing-api-horses-api
@@ -89,13 +83,10 @@ apis:
 - description: The Sires API from The Racing API — 4 operation(s) for sires.
   name: The Racing API Sires API
   slug: the-racing-api-sires-api
-- description: The Standard Plan API from The Racing API — 38 operation(s) for standard plan.
-  name: The Racing API Standard Plan API
-  slug: the-racing-api-standard-plan-api
 - description: The Trainers API from The Racing API — 7 operation(s) for trainers.
   name: The Racing API Trainers API
   slug: the-racing-api-trainers-api
-artifact_total: 422
+artifact_total: 419
 collections:
 - collection_type: open
   name: API Collection
@@ -1346,7 +1337,7 @@ modified: '2026-05-19'
 name: The Racing API
 nav: Providers
 network: true
-overview: 'The Racing API publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Australia API, Basic Plan API, Courses API, and 14 more. Tagged areas include Horse Racing, Sports, Statistics, Betting, and Analytics.
+overview: 'The Racing API publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Australia API, Courses API, Dams API, and 11 more. Tagged areas include Horse Racing, Sports, Statistics, Betting, and Analytics.
 
 
   The The Racing API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -1386,15 +1377,20 @@ rules:
   slug: the-racing-api-spectral-rules
 score:
   band: developing
-  composite: 43.3
-  delta: 0.0
+  composite: 42.8
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 28.8
     contract_quality: 70.7
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 7.9
   previous_composite: 43.3
@@ -1405,8 +1401,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-racing-api/refs/heads/main/screenshots/the-racing-api-2026-06-20T195235.png
 security:

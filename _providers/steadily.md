@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 39
   slug: steadily-agentic-access
   summary_line: 39 operations · 14 acting
-api_count: 8
+api_count: 3
 apis:
 - description: 'Steadily uses Bearer Tokens to authenticate requests to the quoting endpoints on behalf of some appointed agent. There''s two steps to this process: 1. Use your agency''s Steadily API Key to request a b'
   name: Steadily Account API
@@ -97,6 +97,10 @@ collections:
   name: Partner Account Reporting API
   slug: open-steadily-reporting-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/steadily-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -204,20 +208,25 @@ network: true
 overview: 'Steadily publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account API, Draft Quote API, Lead Referrals API, and 5 more. Tagged areas include Company, Fintech, Insurance, Landlord Insurance, and Insurtech.
 
 
-  Steadily''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, and 17 more developer resources.'
+  Steadily''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, signup flow, and 18 more developer resources.'
 random_paper: 2
 score:
   band: developing
-  composite: 41.4
-  delta: 1.4
+  composite: 40.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 52.9
     developer_ergonomics: 49.4
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 10.5
   previous_composite: 40.0
   provenance:
@@ -236,8 +245,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 40.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

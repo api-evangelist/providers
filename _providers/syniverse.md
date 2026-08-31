@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.8
-  scored_at: '2026-08-26'
+  score: 33.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 0
@@ -31,45 +31,153 @@ agentic_access:
   operation_count: 187
   slug: syniverse-agentic-access
   summary_line: 187 operations · 117 acting
-api_count: 12
+api_count: 11
 apis:
-- description: 'The Syniverse Communication Gateway (SCG) API — the core of the Syniverse Developer Community platform. 72 documented paths and 148 operations covering message requests, messages, scheduled messages, '
-  name: Syniverse Omni-Channel Messaging API (SCG)
-  slug: syniverse-omni-channel-messaging-api
-- description: Generates and validates one-time passwords and delivers customized tokens over SMS, voice or push to verify an end user. Documented as part of the SCG API surface with application, user, associate, va
-  name: Syniverse Multi-Factor Authentication API
-  slug: syniverse-multi-factor-authentication-api
-- description: Single-number lookup service that returns the current carrier, line type and status of a phone number so an enterprise can detect ported, deactivated, disconnected or reassigned numbers. Batch file lo
-  name: Syniverse Phone Number Verification API
-  slug: syniverse-phone-number-verification-api
-- description: A single POST /v2/match operation that returns match scores comparing an end user's asserted identity against Syniverse-sourced mobile data. This is Syniverse's own identity-matching API, not the CAMA
-  name: Syniverse Right Party Verification API
-  slug: syniverse-right-party-verification-api
-- description: 'A single POST /v1/simCheck operation that reports whether an end user''s mobile channel has had recent SIM changes or call forwarding enabled, as an account-takeover risk signal. Functionally adjacent '
-  name: Syniverse Account Takeover Detection API
-  slug: syniverse-account-takeover-detection-api
-- description: Resolves inbound text and MMS traffic to a disposition — the spam and messaging-abuse classification service sold to messaging operators and enterprises. Two operations, /v1/txt/resolve and /v1/mms/re
-  name: Syniverse Messaging Trust Resolve API
-  slug: syniverse-messaging-trust-resolve-api
-- description: Submits spam reports into the Messaging Trust datafeed via a single POST /spam/report operation, secured with OAuth2 client credentials against the Messaging Trust token endpoint.
-  name: Syniverse Messaging Trust Spam Datafeed API
-  slug: syniverse-messaging-trust-spam-datafeed-api
-- description: US 10DLC (10-digit long code) campaign provisioning — create, retrieve, suspend and resume campaigns, attach and detach long codes and number pools, and manage AT&T DCA campaigns and application addre
-  name: Syniverse 10DLC API
-  slug: syniverse-10dlc-api
-- description: 'The deprecated version 1 of the 10DLC provisioning API, still published in the SDC documentation under an explicitly deprecated section. Adds and removes 10DLC long codes and number pool associations '
-  name: Syniverse 10DLC Number Pool API (v1, deprecated)
-  slug: syniverse-10dlc-number-pool-api
-- description: 'Developer Community gateway service for managing whitelists of entities and transactions, used to allow trial-account destination numbers and similar platform-level allow lists. Six operations across '
-  name: Syniverse Whitelisting Service API
-  slug: syniverse-whitelisting-service-api
-- description: Regenerates the access token associated with an SDC application via GET /saop-rest-data/v1/apptoken-refresh. This is the token-lifecycle piece of the Syniverse Developer Community bearer-token auth mo
-  name: Syniverse SDC Application Access Token Management API
-  slug: syniverse-access-token-management-api
 - description: 'The webhook and event layer of the Syniverse Developer Community. The Event Subscription Service (ESS) API manages topics, topic-subscriptions, delivery-configurations, event-types, event-deliveries, '
   name: Syniverse Event Subscription Service API (Event Manager)
   slug: syniverse-event-subscription-service-api
-artifact_total: 29
+- description: The 10DLC ATT API from Syniverse — 1 operation(s) for 10dlc att.
+  name: Syniverse 10DLC ATT API
+  slug: syniverse-10dlc-att-api
+- description: The 10DLC LongCodes API from Syniverse — 1 operation(s) for 10dlc longcodes.
+  name: Syniverse 10DLC LongCodes API
+  slug: syniverse-10dlc-longcodes-api
+- description: The 10DLC Number Pools API from Syniverse — 2 operation(s) for 10dlc number pools.
+  name: Syniverse 10DLC Number Pools API
+  slug: syniverse-10dlc-number-pools-api
+- description: Initial 10DLC Number to Campaign Association Management
+  name: Syniverse 10DLC v1 API
+  slug: syniverse-10dlc-v1-api
+- description: Enhanced 10DLC Number Pool to Campaign Association Management
+  name: Syniverse 10DLC v1 Number Pools API
+  slug: syniverse-10dlc-v1-number-pools-api
+- description: The Access Token API from Syniverse — 2 operation(s) for access token.
+  name: Syniverse Access Token API
+  slug: syniverse-access-token-api
+- description: The Application API from Syniverse — 2 operation(s) for application.
+  name: Syniverse Application API
+  slug: syniverse-application-api
+- description: The Application Instance API from Syniverse — 2 operation(s) for application instance.
+  name: Syniverse Application Instance API
+  slug: syniverse-application-instance-api
+- description: The Application Instance Session API from Syniverse — 2 operation(s) for application instance session.
+  name: Syniverse Application Instance Session API
+  slug: syniverse-application-instance-session-api
+- description: The Application Processor Results API from Syniverse — 1 operation(s) for application processor results.
+  name: Syniverse Application Processor Results API
+  slug: syniverse-application-processor-results-api
+- description: The Application Script API from Syniverse — 2 operation(s) for application script.
+  name: Syniverse Application Script API
+  slug: syniverse-application-script-api
+- description: The ATT DCA Campaigns API from Syniverse — 1 operation(s) for att dca campaigns.
+  name: Syniverse ATT DCA Campaigns API
+  slug: syniverse-att-dca-campaigns-api
+- description: The Attachment API from Syniverse — 4 operation(s) for attachment.
+  name: Syniverse Attachment API
+  slug: syniverse-attachment-api
+- description: The Auto Alias History API from Syniverse — 2 operation(s) for auto alias history.
+  name: Syniverse Auto Alias History API
+  slug: syniverse-auto-alias-history-api
+- description: The Auto Alias Message Request API from Syniverse — 1 operation(s) for auto alias message request.
+  name: Syniverse Auto Alias Message Request API
+  slug: syniverse-auto-alias-message-request-api
+- description: The Bridge API from Syniverse — 3 operation(s) for bridge.
+  name: Syniverse Bridge API
+  slug: syniverse-bridge-api
+- description: The Call API from Syniverse — 5 operation(s) for call.
+  name: Syniverse Call API
+  slug: syniverse-call-api
+- description: The Campaigns API from Syniverse — 4 operation(s) for campaigns.
+  name: Syniverse Campaigns API
+  slug: syniverse-campaigns-api
+- description: The Channel API from Syniverse — 4 operation(s) for channel.
+  name: Syniverse Channel API
+  slug: syniverse-channel-api
+- description: The Conference API from Syniverse — 4 operation(s) for conference.
+  name: Syniverse Conference API
+  slug: syniverse-conference-api
+- description: The ConferenceMember API from Syniverse — 2 operation(s) for conferencemember.
+  name: Syniverse Conference Member API
+  slug: syniverse-conferencemember-api
+- description: The Connector API from Syniverse — 2 operation(s) for connector.
+  name: Syniverse Connector API
+  slug: syniverse-connector-api
+- description: The Contact Address History API from Syniverse — 1 operation(s) for contact address history.
+  name: Syniverse Contact Address History API
+  slug: syniverse-contact-address-history-api
+- description: The Contact Address Status API from Syniverse — 2 operation(s) for contact address status.
+  name: Syniverse Contact Address Status API
+  slug: syniverse-contact-address-status-api
+- description: The Contact Address Status Optout API from Syniverse — 1 operation(s) for contact address status optout.
+  name: Syniverse Contact Address Status Optout API
+  slug: syniverse-contact-address-status-optout-api
+- description: The Contact API from Syniverse — 4 operation(s) for contact.
+  name: Syniverse Contact API
+  slug: syniverse-contact-api
+- description: The Contact Application Token API from Syniverse — 2 operation(s) for contact application token.
+  name: Syniverse Contact Application Token API
+  slug: syniverse-contact-application-token-api
+- description: The Contact Group API from Syniverse — 4 operation(s) for contact group.
+  name: Syniverse Contact Group API
+  slug: syniverse-contact-group-api
+- description: The Detect API from Syniverse — 1 operation(s) for detect.
+  name: Syniverse Detect API
+  slug: syniverse-detect-api
+- description: The Digits Collector API from Syniverse — 2 operation(s) for digits collector.
+  name: Syniverse Digits Collector API
+  slug: syniverse-digits-collector-api
+- description: The Fast Access API from Syniverse — 2 operation(s) for fast access.
+  name: Syniverse Fast Access API
+  slug: syniverse-fast-access-api
+- description: The Keywords API from Syniverse — 2 operation(s) for keywords.
+  name: Syniverse Keywords API
+  slug: syniverse-keywords-api
+- description: The Lookup API from Syniverse — 1 operation(s) for lookup.
+  name: Syniverse Lookup API
+  slug: syniverse-lookup-api
+- description: The Match API from Syniverse — 1 operation(s) for match.
+  name: Syniverse Match API
+  slug: syniverse-match-api
+- description: The Message API from Syniverse — 3 operation(s) for message.
+  name: Syniverse Message API
+  slug: syniverse-message-api
+- description: The Message Request API from Syniverse — 3 operation(s) for message request.
+  name: Syniverse Message Request API
+  slug: syniverse-message-request-api
+- description: The Message Template API from Syniverse — 2 operation(s) for message template.
+  name: Syniverse Message Template API
+  slug: syniverse-message-template-api
+- description: The MMS Resolver API API from Syniverse — 1 operation(s) for mms resolver api.
+  name: Syniverse MMS Resolver API
+  slug: syniverse-mms-resolver-api-api
+- description: The Regenerate access token API from Syniverse — 1 operation(s) for regenerate access token.
+  name: Syniverse Regenerate access token API
+  slug: syniverse-regenerate-access-token-api
+- description: The reports API from Syniverse — 1 operation(s) for reports.
+  name: Syniverse Reports API
+  slug: syniverse-reports-api
+- description: The Scheduled Message API from Syniverse — 1 operation(s) for scheduled message.
+  name: Syniverse Scheduled Message API
+  slug: syniverse-scheduled-message-api
+- description: The Scheduled Message Request API from Syniverse — 1 operation(s) for scheduled message request.
+  name: Syniverse Scheduled Message Request API
+  slug: syniverse-scheduled-message-request-api
+- description: The Sender ID API from Syniverse — 4 operation(s) for sender id.
+  name: Syniverse Sender ID API
+  slug: syniverse-sender-id-api
+- description: The Sender Import Job API from Syniverse — 2 operation(s) for sender import job.
+  name: Syniverse Sender Import Job API
+  slug: syniverse-sender-import-job-api
+- description: The Text Resolver API API from Syniverse — 1 operation(s) for text resolver api.
+  name: Syniverse Text Resolver API
+  slug: syniverse-text-resolver-api-api
+- description: The User API from Syniverse — 5 operation(s) for user.
+  name: Syniverse User API
+  slug: syniverse-user-api
+- description: The whitelist API from Syniverse — 3 operation(s) for whitelist.
+  name: Syniverse Whitelist API
+  slug: syniverse-whitelist-api
+artifact_total: 65
 asyncapis:
 - description: ''
   name: Syniverse Event Manager Webhooks
@@ -106,6 +214,54 @@ collections:
   name: Whitelisting_Service
   slug: open-syniverse-whitelisting-service
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/syniverse-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/syniverse-omni-channel-messaging-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/syniverse-multi-factor-authentication-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/syniverse-phone-number-verification-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/syniverse-right-party-verification-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/syniverse-account-takeover-detection-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/syniverse-messaging-trust-resolve-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/syniverse-messaging-trust-datafeed-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/syniverse-10dlc-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/syniverse-10dlc-number-pool-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/syniverse-whitelisting-service-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/syniverse-token-management-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -251,13 +407,13 @@ modified: '2026-07-25'
 name: Syniverse
 nav: Providers
 network: true
-overview: 'Syniverse publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Omni-Channel Messaging API (SCG), Multi-Factor Authentication API, Phone Number Verification API, and 8 more. Tagged areas include Telecommunications, United States, CPaaS, Messaging, and SMS.
+overview: 'Syniverse publishes 47 APIs on the [APIs.io](https://apis.io/) network, including 10DLC ATT API, 10DLC LongCodes API, 10DLC Number Pools API, and 44 more. Tagged areas include Telecommunications, United States, CPaaS, Messaging, and SMS.
 
 
   The Syniverse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Syniverse''s developer surface includes authentication, sandbox, getting-started guide, documentation, signup flow, support, engineering blog, and 26 more developer resources.'
+  Syniverse''s developer surface includes authentication, sandbox, getting-started guide, documentation, signup flow, support, engineering blog, and 38 more developer resources.'
 random_paper: 13
 rate_limits:
 - limit_count: 4
@@ -270,18 +426,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.4
-  delta: 1.1
+  composite: 51.6
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 53.6
+    contract_governance: 4.5
+    contract_quality: 54.3
     developer_ergonomics: 63.7
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 52.3
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -298,8 +459,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 66.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/syniverse/refs/heads/main/screenshots/syniverse-2026-08-17T082233.png
 security:

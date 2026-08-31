@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 235
   slug: agicap-agentic-access
   summary_line: 235 operations · 132 acting · 2 human-in-the-loop
-api_count: 52
+api_count: 19
 apis:
 - description: The Account reports API from Agicap — 2 operation(s) for account reports.
   name: Agicap Account reports API
@@ -524,6 +524,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/agicap-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/agicap-ar-clients-v1-overlay.yaml
 - group: build
@@ -680,7 +684,7 @@ overview: 'Agicap publishes 52 APIs on the [APIs.io](https://apis.io/) network, 
   The Agicap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Agicap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 28 more developer resources.'
+  Agicap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 29 more developer resources.'
 random_paper: 4
 scopes:
 - name: Agicap Scopes
@@ -689,18 +693,23 @@ scopes:
   summary_line: 5 scopes · clientCredentials/implicit
 score:
   band: developing
-  composite: 53.2
+  composite: 50.6
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 60.6
     developer_ergonomics: 23.2
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 53.2
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -717,8 +726,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 74.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agicap/refs/heads/main/screenshots/agicap-2026-07-25T195300.png
 security:

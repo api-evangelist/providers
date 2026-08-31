@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 32
   slug: nomba-agentic-access
   summary_line: 32 operations · 20 acting · 1 human-in-the-loop
-api_count: 14
+api_count: 8
 apis:
 - description: The Nomba Checkout SDK provides pre-built plugins and client libraries for integrating Nomba payment acceptance into websites and mobile applications. It includes an iOS SDK and e-commerce plugins suc
   name: Nomba Checkout SDK
@@ -159,6 +159,10 @@ collections:
   name: Nomba Virtual Accounts API
   slug: open-nomba-virtual-accounts
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nomba-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -348,7 +352,7 @@ overview: 'Nomba publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
   The Nomba catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Nomba''s developer surface includes authentication, engineering blog, and 12 more developer resources.'
+  Nomba''s developer surface includes authentication, engineering blog, and 13 more developer resources.'
 plans:
 - name: Nomba Plans Pricing
   plan_count: 1
@@ -383,7 +387,12 @@ rules:
 score:
   band: thin
   composite: 37.4
-  delta: 1.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -393,7 +402,7 @@ score:
     discoverability: 81.5
     governance: 13.6
     operational_transparency: 5.3
-  previous_composite: 35.5
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -407,8 +416,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/screenshots/nomba-2026-06-20T190355.png
 security:

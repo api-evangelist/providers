@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 63.9
-  scored_at: '2026-08-26'
+  score: 60.6
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 0
@@ -43,11 +43,8 @@ agentic_access:
   operation_count: 143
   slug: lemlist-agentic-access
   summary_line: 143 operations · 84 acting
-api_count: 22
+api_count: 3
 apis:
-- description: The full lemlist REST API - 143 operations across campaigns, sequences, leads, contacts, companies, the B2B people database, enrichment, the unified inbox, Signal Agents, unsubscribes, webhooks, lemwa
-  name: lemlist REST API
-  slug: rest-api
 - description: lemlist's hosted remote Model Context Protocol server. An MCP client POSTs to https://app.lemlist.com/mcp and authenticates with OAuth 2.1 (authorization code + PKCE, dynamic client registration) or a
   name: lemlist MCP Server
   slug: mcp-server
@@ -111,6 +108,9 @@ apis:
 - description: The custom field definitions available on leads, contacts and companies.
   name: lemlist Fields API
   slug: lemlist-fields-api
+- description: The Stats API from lemlist — 2 operation(s) for stats.
+  name: lemlist Stats API
+  slug: lemlist-stats-api
 artifact_total: 39
 asyncapis:
 - description: ''
@@ -325,7 +325,7 @@ modified: '2026-08-13'
 name: lemlist
 nav: Providers
 network: true
-overview: 'lemlist publishes 21 APIs on the [APIs.io](https://apis.io/) network, including REST API, Campaigns API, Sequences API, and 18 more. Tagged areas include Email Outreach, Sales Engagement, Cold Email, Sales Automation, and LinkedIn Outreach.
+overview: 'lemlist publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Sequences API, Leads API, and 18 more. Tagged areas include Email Outreach, Sales Engagement, Cold Email, Sales Automation, and LinkedIn Outreach.
 
 
   The lemlist catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -347,19 +347,24 @@ scopes:
   slug: lemlist-scopes
   summary_line: 14 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 68.3
+  band: strong
+  composite: 65.0
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 30.3
-    contract_quality: 64.2
+    contract_governance: 18.2
+    contract_quality: 61.4
     developer_ergonomics: 78.6
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 68.3
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -370,8 +375,8 @@ score:
       total: 20
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/screenshots/lemlist-2026-06-20T184417.png
 security:

@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-26'
-api_count: 41
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: <a id="group-answers"></a> Answers are the users’ replies to the questions raised by their colleagues in the Questions menu. Other users can vote for answers they think are best, like them, and a user
   name: Yoobic Answers API
@@ -292,6 +292,10 @@ collections:
   name: YOOBIC Public Answers Webhooks API
   slug: open-yoobic-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/yoobic-capability-edges.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -386,22 +390,27 @@ overview: 'Yoobic publishes 41 APIs on the [APIs.io](https://apis.io/) network, 
   The Yoobic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Yoobic''s developer surface includes documentation, engineering blog, pricing, signup flow, support, authentication, and 13 more developer resources.'
+  Yoobic''s developer surface includes documentation, engineering blog, pricing, signup flow, support, authentication, and 14 more developer resources.'
 random_paper: 15
 score:
   band: developing
-  composite: 50.7
-  delta: 6.9
+  composite: 49.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 58.2
     developer_ergonomics: 58.9
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 70.4
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 43.8
+  previous_composite: 49.9
   provenance:
     conformance: derived
     contracts:
@@ -411,9 +420,9 @@ score:
       total: 41
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yoobic/refs/heads/main/screenshots/yoobic-2026-08-17T083024.png
 security:
 - kind: authentication

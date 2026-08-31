@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 12
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 20
   slug: mockserver-agentic-access
   summary_line: 20 operations · 20 acting · 12 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
 - description: Manage state or process (both MockServer & MockServer Proxy)
   name: MockServer control API
@@ -157,17 +157,25 @@ rate_limits:
   slug: mockserver-rate-limits
 score:
   band: thin
-  composite: 29.0
-  delta: 0.0
+  composite: 35.6
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 6.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 38.1
     developer_ergonomics: 21.4
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
   previous_composite: 29.0
   provenance:
     agentic_access: derived
@@ -176,9 +184,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/screenshots/mockserver-2026-06-20T185638.png
 security:
 - kind: domain-security

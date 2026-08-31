@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.4
-  scored_at: '2026-08-26'
-api_count: 8
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Company profiles, funding rounds, SEC filings and fund formations, keyed to real-time business events.
   name: Fundz API
@@ -223,7 +223,7 @@ modified: '2026-08-14'
 name: Fundz
 nav: Providers
 network: true
-overview: 'Fundz publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Acquisitions API, Agreements API, Crowdfundings API, and 3 more. Tagged areas include Business Intelligence, Funding, Private Markets, Mergers and Acquisitions, and SEC Filings.
+overview: 'Fundz publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Acquisitions API, Agreements API, Crowdfundings API, and 3 more. Tagged areas include Business Intelligence, Funding, Private Markets, Mergers And Acquisitions, and SEC Filings.
 
 
   The Fundz catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -244,16 +244,21 @@ rate_limits:
   slug: fundz-rate-limits
 score:
   band: strong
-  composite: 65.5
-  delta: 0.0
+  composite: 63.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 68.7
     developer_ergonomics: 73.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 44.7
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -261,7 +266,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 65.5
+  previous_composite: 64.1
   provenance:
     conformance: derived
     contracts:
@@ -277,8 +282,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundz/refs/heads/main/screenshots/fundz-2026-08-17T123449.png
 security:
@@ -295,7 +300,7 @@ tags:
 - Business Intelligence
 - Funding
 - Private Markets
-- Mergers and Acquisitions
+- Mergers And Acquisitions
 - SEC Filings
 - Signals
 - Sales Intelligence

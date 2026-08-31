@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/hewlett-packard/
 created: '2026-07-17'
 description: 3Com Corporation was a networking-technology pioneer founded in 1979 by Robert Metcalfe, the co-inventor of Ethernet, and colleagues; its name derived from "Computer, Communication, and Compatibility." 3Com built Ethernet network interface cards, switches, routers, and enterprise networking and security hardware, and at one point owned the Palm handheld computing business. An early Mayfield Fund portfolio investment (seed participation in 1981, alongside NEA, Venrock, and Sequoia), 3Com later operated the 3Com, H3C, and TippingPoint brands before being acquired by Hewlett-Packard in 2010 for roughly $2.7 billion, after which the standalone brand was wound down. This record is a historical company profile; 3Com no longer operates an independent developer portal, public API, or live product surface (the 3com.com domain now serves a placeholder page).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/3com.png
@@ -48,6 +53,11 @@ random_paper: 13
 score:
   band: minimal
   composite: 5.0
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -67,8 +77,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: 3com
 tags:

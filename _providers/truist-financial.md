@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: truist-financial-agentic-access
   summary_line: 11 operations
-api_count: 8
+api_count: 4
 apis:
 - description: The Truist Personal and Small Business Client Contact API provides access to client contact information associated with personal and small business accounts, including address, phone number, and email
   name: Truist Personal and Small Business Client Contact API
@@ -270,7 +270,12 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 41.1
+  composite: 41.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -278,10 +283,10 @@ score:
     contract_governance: 13.6
     contract_quality: 63.3
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 41.1
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -295,8 +300,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/screenshots/truist-financial-2026-06-20T195759.png
 security:

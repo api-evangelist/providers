@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 36
   slug: oracle-enterprise-manager-agentic-access
   summary_line: 36 operations · 16 acting · 1 human-in-the-loop
-api_count: 22
+api_count: 1
 apis:
 - description: 'Command-line interface providing scriptable access to Enterprise Manager functionality including target management, job operations, patching, provisioning, and administration tasks through verbs that '
   name: Enterprise Manager Command Line Interface (EM CLI)
@@ -171,6 +171,10 @@ collections:
   name: Oracle Enterprise Manager Cloud Control REST Blackouts Targets API
   slug: open-oracle-enterprise-manager-targets-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/oracle-enterprise-manager-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -908,7 +912,7 @@ overview: 'Oracle Enterprise Manager publishes 6 APIs on the [APIs.io](https://a
   The Oracle Enterprise Manager catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Oracle Enterprise Manager''s developer surface includes authentication, changelog, CLI, developer portal, documentation, support, pricing, and 31 more developer resources.'
+  Oracle Enterprise Manager''s developer surface includes authentication, changelog, CLI, developer portal, documentation, support, pricing, and 32 more developer resources.'
 plans:
 - name: Oracle Enterprise Manager Plans Pricing
   plan_count: 6
@@ -941,19 +945,24 @@ rules:
     warn: 7
   slug: oracle-enterprise-manager-spectral-rules
 score:
-  band: strong
-  composite: 56.0
-  delta: 1.4
+  band: developing
+  composite: 54.0
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 47.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 73.0
     developer_ergonomics: 69.0
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 54.6
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -963,8 +972,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/screenshots/oracle-enterprise-manager-2026-06-20T191128.png
 security:

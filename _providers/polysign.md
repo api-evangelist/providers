@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-26'
-api_count: 17
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
 - description: The ABC Accounts API from PolySign — 3 operation(s) for abc accounts.
   name: PolySign ABC Accounts API
@@ -134,6 +134,10 @@ collections:
   name: AtomicNet API Server Utility API
   slug: open-polysign-utility-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ripple/
 - group: agent
   title: ''
   type: MCPServer
@@ -238,10 +242,10 @@ modified: '2026-08-02'
 name: PolySign
 nav: Providers
 network: true
-overview: 'PolySign publishes 17 APIs on the [APIs.io](https://apis.io/) network, including ABC Accounts API, ABC Memorials API, ABC Signing API, and 14 more. Tagged areas include Digital Assets, Blockchain, institutional-custody, Settlement, and Escrow.
+overview: 'PolySign publishes 17 APIs on the [APIs.io](https://apis.io/) network, including ABC Accounts API, ABC Memorials API, ABC Signing API, and 14 more. Tagged areas include digital-assets, Blockchain, Institutional Custody, settlement, and escrow.
 
 
-  PolySign''s developer surface includes documentation, API reference, support, authentication, sandbox, and 18 more developer resources.'
+  PolySign''s developer surface includes documentation, API reference, support, authentication, sandbox, and 19 more developer resources.'
 random_paper: 3
 scopes:
 - name: Polysign Scopes
@@ -250,18 +254,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 29.1
+  composite: 27.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 41.3
     developer_ergonomics: 42.3
     discoverability: 64.8
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 29.1
+  previous_composite: 27.6
   provenance:
     conformance: derived
     contracts:
@@ -277,8 +286,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -291,15 +300,15 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: polysign
 tags:
-- Digital Assets
+- digital-assets
 - Blockchain
-- institutional-custody
-- Settlement
-- Escrow
-- Capital Markets
+- Institutional Custody
+- settlement
+- escrow
+- capital-markets
 - Payments
 - Fintech
-- Distributed Ledger
+- distributed-ledger
 - atomicnet
 website: https://www.polysign.io/
 ---

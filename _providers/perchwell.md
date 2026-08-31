@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 18
   slug: perchwell-agentic-access
   summary_line: 18 operations · 8 acting
-api_count: 8
+api_count: 2
 apis:
 - description: Legacy RETS 1.7 server (DMQL2 query language) providing backward compatibility for RETS clients, exposing Listing, Agent, Brokerage, Office, and OpenHouse resources via the Search and GetMetadata tran
   name: Perchwell RETS API
@@ -94,6 +94,10 @@ collections:
   name: Perchwell JSON Listings Property API
   slug: open-perchwell-property-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/perchwell-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -213,22 +217,27 @@ network: true
 overview: 'Perchwell publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Listings API, Media API, Member API, and 4 more. Tagged areas include Company, Real-Estate, MLS, Listings, and Property Data.
 
 
-  Perchwell''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 20 more developer resources.'
+  Perchwell''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 21 more developer resources.'
 random_paper: 0
 score:
   band: thin
-  composite: 36.8
-  delta: 0.0
+  composite: 34.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 53.6
     developer_ergonomics: 20.8
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 36.8
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -239,8 +248,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perchwell/refs/heads/main/screenshots/perchwell-2026-08-17T081157.png
 security:

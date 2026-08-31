@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: The Customer API is for Jiko customers integrating Jiko directly into their own internal systems. It uses OAuth 2.0 (authorization code and client credentials flows) with Private Key JWT client authen
@@ -199,7 +199,12 @@ scopes:
   summary_line: 25 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 56.5
+  composite: 55.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -207,10 +212,10 @@ score:
     contract_governance: 18.2
     contract_quality: 42.7
     developer_ergonomics: 66.1
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 55.3
-  previous_composite: 56.5
+  previous_composite: 55.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -221,8 +226,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jiko/refs/heads/main/screenshots/jiko-2026-08-17T123926.png
 security:

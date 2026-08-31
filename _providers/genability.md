@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -31,51 +31,15 @@ agentic_access:
   operation_count: 33
   slug: genability-agentic-access
   summary_line: 33 operations · 3 acting
-api_count: 14
+api_count: 1
 apis:
-- description: 'Search and retrieve North American electricity tariffs, including rate structures, applicability properties, documents and the effective-dated history of a master tariff. The list endpoint exposes 33 '
-  name: Genability Signal Tariff API
-  slug: genability-signal-tariff-api
-- description: List and retrieve Load Serving Entities (LSEs) — the investor-owned utilities, municipal utilities and cooperatives that serve electricity across the USA, Canada and Mexico — searchable by postal code
-  name: Genability Signal Load Serving Entity API
-  slug: genability-signal-load-serving-entity-api
-- description: List and retrieve territories — the service, baseline, climate and tariff applicability geographies that a utility uses to scope which rates apply to a given premise.
-  name: Genability Signal Territory API
-  slug: genability-signal-territory-api
-- description: On-demand bill calculation against any North American tariff. Post a usage scenario and receive a modeled cost breakdown, or use the mass calculation endpoint to price many scenarios in one request fo
-  name: Genability Signal Cost Calculation API
-  slug: genability-signal-cost-calculation-api
-- description: Returns a single blended price signal ($/kWh) for a utility, tariff and time window, for use in dispatch logic, EV charging schedules and consumer-facing price displays.
-  name: Genability Signal Smart Price API
-  slug: genability-signal-smart-price-api
-- description: Retrieve time-of-use (TOU) groups, TOU definitions and their interval schedules for a utility, and create private TOU definitions scoped to your own organization.
-  name: Genability Signal Time of Use API
-  slug: genability-signal-time-of-use-api
-- description: List calendars and calendar dates — the holiday and special-day schedules that determine which rate periods apply on a given date under a tariff.
-  name: Genability Signal Calendar API
-  slug: genability-signal-calendar-api
-- description: List season groups, the seasonal definitions a utility applies when a tariff prices summer and winter usage differently.
-  name: Genability Signal Season API
-  slug: genability-signal-season-api
-- description: List and retrieve property keys — the typed inputs a tariff calculation accepts — along with their permitted lookup values and usage statistics, so a client can discover exactly what a given rate need
-  name: Genability Signal Property and Lookup API
-  slug: genability-signal-property-and-lookup-api
-- description: Returns a best-fit typical usage baseline — a modeled hourly or monthly load profile — for a location and building type, used when real interval data for a customer is not available.
-  name: Genability Signal Typical Baseline API
-  slug: genability-signal-typical-baseline-api
-- description: Retrieve details for a ZIP code, including the utilities and territories that serve it, as the entry point for identifying a customer's tariff from an address.
-  name: Genability Signal ZIP Code API
-  slug: genability-signal-zip-code-api
-- description: List and retrieve the utility taxes that apply to an electricity bill by jurisdiction, so a modeled bill reflects the taxes a customer actually pays.
-  name: Genability Signal Utility Tax API
-  slug: genability-signal-utility-tax-api
-- description: Reports your own organization's Signal API consumption, the metering surface behind Genability's subscription billing.
-  name: Genability Signal Organization Usage API
-  slug: genability-signal-organization-usage-api
-- description: Testing and debugging endpoints that validate credentials, echo a hello response, simulate error codes and validate input formats before a client calls the priced endpoints.
-  name: Genability Signal Echo API
-  slug: genability-signal-echo-api
-artifact_total: 20
+- description: The GET API from Genability — 1 operation(s) for get.
+  name: Genability GET API
+  slug: genability-get-api
+- description: The Rest API from Genability — 32 operation(s) for rest.
+  name: Genability Rest API
+  slug: genability-rest-api
+artifact_total: 8
 collections:
 - collection_type: open
   name: signal
@@ -254,25 +218,30 @@ modified: '2026-07-27'
 name: Genability
 nav: Providers
 network: true
-overview: 'Genability publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Signal Tariff API, Signal Load Serving Entity API, Signal Territory API, and 11 more. Tagged areas include Energy, United States, Utilities, Electricity, and Tariffs.
+overview: 'Genability publishes 2 APIs on the [APIs.io](https://apis.io/) network: GET API and Rest API. Tagged areas include Energy, United States, Utilities, Electricity, and Tariffs.
 
 
   Genability''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 33 more developer resources.'
 random_paper: 14
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 48.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.9
   facets:
-    access_clarity: 34.2
-    commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 50.9
+    access_clarity: 23.7
+    commercial_clarity: 23.7
+    contract_governance: 4.5
+    contract_quality: 55.4
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 52.7
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -288,9 +257,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 52.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 47.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genability/refs/heads/main/screenshots/genability-2026-08-07T165554.png
 security:

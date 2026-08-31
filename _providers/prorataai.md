@@ -23,17 +23,39 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The public Gist Answers API. Chat creation and streaming completions, citations and attributions for a chat turn, thread listing/retrieval/deletion, recommended and related questions, URL-scoped docum
-  name: Prorata API Service
-  slug: prorataai-prorata-api-service
 - description: The publisher ingest API for the Gist Content Network. Publisher partners push articles to ProRata in real time (POST /ingest/article) or in bulk for archived content (POST /ingest/multiple_articles),
   name: Gist Content API (Ingest)
   slug: prorataai-gist-content-api
-artifact_total: 7
+- description: The Chat API from ProRata.ai — 5 operation(s) for chat.
+  name: ProRata.ai Chat API
+  slug: prorataai-chat-api
+- description: The Health API from ProRata.ai — 1 operation(s) for health.
+  name: ProRata.ai Health API
+  slug: prorataai-health-api
+- description: The Publishers API from ProRata.ai — 2 operation(s) for publishers.
+  name: ProRata.ai Publishers API
+  slug: prorataai-publishers-api
+- description: The Questions API from ProRata.ai — 2 operation(s) for questions.
+  name: ProRata.ai Questions API
+  slug: prorataai-questions-api
+- description: The Root API from ProRata.ai — 1 operation(s) for root.
+  name: ProRata.ai Root API
+  slug: prorataai-root-api
+- description: The Summaries API from ProRata.ai — 2 operation(s) for summaries.
+  name: ProRata.ai Summaries API
+  slug: prorataai-summaries-api
+- description: The Threads API from ProRata.ai — 2 operation(s) for threads.
+  name: ProRata.ai Threads API
+  slug: prorataai-threads-api
+artifact_total: 13
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/prorataai-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -154,10 +176,10 @@ modified: '2026-08-26'
 name: ProRata.ai
 nav: Providers
 network: true
-overview: 'ProRata.ai publishes 1 API on the [APIs.io](https://apis.io/) network: Prorata API Service. Tagged areas include Artificial Intelligence, Search, Content, Publishing, and Advertising.
+overview: 'ProRata.ai publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Health API, Publishers API, and 4 more. Tagged areas include Artificial Intelligence, Search, Content, Publishing, and Advertising.
 
 
-  ProRata.ai''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, authentication, sandbox, and 20 more developer resources.'
+  ProRata.ai''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, authentication, sandbox, and 21 more developer resources.'
 plans:
 - name: Prorataai Plans Pricing
   plan_count: 0
@@ -168,23 +190,31 @@ rate_limits:
   name: Prorataai Rate Limits
   slug: prorataai-rate-limits
 score:
-  band: developing
-  composite: 41.0
+  band: thin
+  composite: 39.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
-    contract_quality: 49.3
+    contract_governance: 18.2
+    contract_quality: 47.9
     developer_ergonomics: 50.6
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 23.7
+  previous_composite: 39.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Prorataai Authentication

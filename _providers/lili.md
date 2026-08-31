@@ -24,27 +24,33 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: The Lili Connect Application API creates a new business bank account application (lead) in the Lili platform from partner-supplied applicant data, returning a customer UUID and a hosted onboarding URL
-  name: Lili Application API
-  slug: lili-application-api
-- description: 'Endpoints for managing an onboarded Lili customer from a partner platform: download a signed bank account verification letter, register an incoming payment notification against a customer, and list th'
-  name: Lili Customer Management API
-  slug: lili-customer-management-api
-- description: Register, list, update and delete webhook listeners that receive Lili onboarding and account lifecycle events (submitApplication, idVerification, firstRequestedDocs, applicationRejected, onboardingCom
-  name: Lili Webhooks API
-  slug: lili-webhooks-api
 - description: Remote, OAuth 2.0 protected Model Context Protocol server (Streamable HTTP, MCP spec 2025-03-26) exposing 44 tools that let an AI assistant read a Lili business customer's account summary, transaction
   name: Lili MCP Server
   slug: lili-mcp-server
-artifact_total: 12
+- description: The Lili API from Lili — 8 operation(s) for lili.
+  name: Lili Lili API
+  slug: lili-lili-api
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Lili Webhooks
   slug: lili-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lili-application-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lili-customer-management-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lili-webhooks-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -196,13 +202,13 @@ modified: '2026-08-25'
 name: Lili
 nav: Providers
 network: true
-overview: 'Lili publishes 3 APIs on the [APIs.io](https://apis.io/) network: Application API, Customer Management API, and Webhooks API. Tagged areas include Banking, Business Banking, Financial Services, Fintech, and Embedded Finance.
+overview: 'Lili publishes 1 API on the [APIs.io](https://apis.io/) network: Lili API. Tagged areas include banking, business-banking, Financial-Services, Fintech, and embedded-finance.
 
 
   The Lili catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lili''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Lili''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Lili Plans Pricing
   plan_count: 4
@@ -218,17 +224,24 @@ scopes:
   slug: lili-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 67.4
+  band: strong
+  composite: 65.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.6
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 30.3
-    contract_quality: 57.6
+    contract_governance: 18.2
+    contract_quality: 59.9
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 23.7
+  previous_composite: 64.8
   provenance:
     conformance: first-party
     contracts:
@@ -244,8 +257,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Lili Authentication
@@ -257,19 +271,19 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: lili
 tags:
-- Banking
-- Business Banking
-- Financial Services
+- banking
+- business-banking
+- Financial-Services
 - Fintech
-- Embedded Finance
+- embedded-finance
 - Onboarding
-- KYC
-- Webhooks
+- kyc
+- Webhook
 - MCP
 - agent-native
 - Invoicing
-- Bill Pay
-- Accounting
-- Small Business
+- bill-pay
+- accounting
+- small-business
 website: https://lili.co/
 ---

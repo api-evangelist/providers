@@ -1,15 +1,15 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free · Access granted on request (email integration@cardiff.ac.uk)
+  onboarding: unknown
   pricing: free
   public: false
   source:
-  - plans
   - authentication
+  - documentation
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,57 +42,72 @@ agentic_access:
   operation_count: 26
   slug: cardiff-agentic-access
   summary_line: 26 operations
-api_count: 16
+api_count: 5
 apis:
-- description: The Assessments API from Cardiff University — 1 operation(s) for assessments.
-  name: Cardiff University Assessments API
-  slug: cardiff-assessments-api
-- description: The Clearing Adjustments API from Cardiff University — 1 operation(s) for clearing adjustments.
-  name: Cardiff University Clearing Adjustments API
-  slug: cardiff-clearing-adjustments-api
-- description: The Courses API from Cardiff University — 4 operation(s) for courses.
+- description: Course records, descriptions and structure for taught programmes. 4 operation(s), from Cardiff's own CoursesApi contract on the api.data.cardiff.ac.uk gateway (base path /courses/v1).
   name: Cardiff University Courses API
   slug: cardiff-courses-api
-- description: The * API from Cardiff University — 1 operation(s) for *.
-  name: Cardiff University * API
-  slug: cardiff-default-api
-- description: The Groups API from Cardiff University — 1 operation(s) for groups.
+- description: Clearing and adjustment availability against the course catalogue. 1 operation(s), from Cardiff's own CoursesApi contract on the api.data.cardiff.ac.uk gateway (base path /courses/v1).
+  name: Cardiff University Clearing Adjustments API
+  slug: cardiff-clearing-adjustments-api
+- description: Course grouping records exposed by the Courses contract. 1 operation(s), from Cardiff's own CoursesApi contract on the api.data.cardiff.ac.uk gateway (base path /courses/v1).
   name: Cardiff University Groups API
   slug: cardiff-groups-api
-- description: The Levels API from Cardiff University — 1 operation(s) for levels.
-  name: Cardiff University Levels API
-  slug: cardiff-levels-api
-- description: The Modules API from Cardiff University — 5 operation(s) for modules.
+- description: Module records and module catalogues for taught modules. 5 operation(s), from Cardiff's own ModulesApi contract on the api.data.cardiff.ac.uk gateway (base path /modules/v1).
   name: Cardiff University Modules API
   slug: cardiff-modules-api
-- description: The Occurrences API from Cardiff University — 4 operation(s) for occurrences.
+- description: Assessments attached to a module, filterable by academic year. 1 operation(s), from Cardiff's own ModulesApi contract on the api.data.cardiff.ac.uk gateway (base path /modules/v1).
+  name: Cardiff University Assessments API
+  slug: cardiff-assessments-api
+- description: Module occurrences, including the VLE (learn) occurrence records. 4 operation(s), from Cardiff's own ModulesApi contract on the api.data.cardiff.ac.uk gateway (base path /modules/v1).
   name: Cardiff University Occurrences API
   slug: cardiff-occurrences-api
-- description: The Publications API from Cardiff University — 2 operation(s) for publications.
-  name: Cardiff University Publications API
-  slug: cardiff-publications-api
-- description: The Qualifications API from Cardiff University — 1 operation(s) for qualifications.
-  name: Cardiff University Qualifications API
-  slug: cardiff-qualifications-api
-- description: The Rollover API from Cardiff University — 2 operation(s) for rollover.
+- description: Year-on-year module rollover mapping. 2 operation(s), from Cardiff's own ModulesApi contract on the api.data.cardiff.ac.uk gateway (base path /modules/v1).
   name: Cardiff University Rollover API
   slug: cardiff-rollover-api
-- description: The Schools API from Cardiff University — 1 operation(s) for schools.
+- description: Reference list of academic schools used across the University. 1 operation(s), from Cardiff's own LookupsApi contract on the api.data.cardiff.ac.uk gateway (base path /lookups/v1).
   name: Cardiff University Schools API
   slug: cardiff-schools-api
-- description: The Semesters API from Cardiff University — 1 operation(s) for semesters.
-  name: Cardiff University Semesters API
-  slug: cardiff-semesters-api
-- description: The Subjects API from Cardiff University — 1 operation(s) for subjects.
+- description: Reference list of subject codes. 1 operation(s), from Cardiff's own LookupsApi contract on the api.data.cardiff.ac.uk gateway (base path /lookups/v1).
   name: Cardiff University Subjects API
   slug: cardiff-subjects-api
-- description: The Test API from Cardiff University — 1 operation(s) for test.
-  name: Cardiff University Test API
-  slug: cardiff-test-api
-- description: The Years API from Cardiff University — 1 operation(s) for years.
+- description: Reference list of study levels. 1 operation(s), from Cardiff's own LookupsApi contract on the api.data.cardiff.ac.uk gateway (base path /lookups/v1).
+  name: Cardiff University Levels API
+  slug: cardiff-levels-api
+- description: Reference list of semester codes. 1 operation(s), from Cardiff's own LookupsApi contract on the api.data.cardiff.ac.uk gateway (base path /lookups/v1).
+  name: Cardiff University Semesters API
+  slug: cardiff-semesters-api
+- description: Reference list of qualification codes. 1 operation(s), from Cardiff's own LookupsApi contract on the api.data.cardiff.ac.uk gateway (base path /lookups/v1).
+  name: Cardiff University Qualifications API
+  slug: cardiff-qualifications-api
+- description: Reference list of academic years. 1 operation(s), from Cardiff's own LookupsApi contract on the api.data.cardiff.ac.uk gateway (base path /lookups/v1).
   name: Cardiff University Years API
   slug: cardiff-years-api
-artifact_total: 54
+- description: Research publication records, keyed on the ORCA EPrints identifier. 2 operation(s), from Cardiff's own PublicationsApi contract on the api.data.cardiff.ac.uk gateway (base path /publications/v1).
+  name: Cardiff University Publications API
+  slug: cardiff-publications-api
+- description: Gateway connectivity-test catch-all path. 1 operation(s), from Cardiff's own EchoTest contract on the api.data.cardiff.ac.uk gateway (base path /echo/v1).
+  name: Cardiff University Echo Default API
+  slug: cardiff-default-api
+- description: Gateway connectivity-test endpoint. 1 operation(s), from Cardiff's own EchoTest contract on the api.data.cardiff.ac.uk gateway (base path /echo/v1).
+  name: Cardiff University Echo Test API
+  slug: cardiff-test-api
+- description: Online Research @ Cardiff (ORCA) is Cardiff University's own EPrints institutional repository, listed as an IT service the University runs. Its OAI-PMH interface has been registered under Cardiff Univ
+  name: ORCA OAI-PMH Interface
+  slug: cardiff-orca-oai-pmh
+- description: 'Cardiff University publishes IT service status on an Atlassian Statuspage at status.cardiff.ac.uk, which carries the standard Statuspage v2 JSON API. Verified live: summary.json returned 200 with 40 n'
+  name: Cardiff University IT Status API
+  slug: cardiff-status-api
+- description: Cardiff's research data repository at research-data.cardiff.ac.uk is a Figshare for Institutions instance - the host CNAMEs to proxy-eu-01.figshare.com, and Cardiff's own DataCite repository client bl
+  name: Cardiff University Research Data Repository (Figshare tenancy)
+  slug: cardiff-research-data-repository
+- description: research.cardiff.ac.uk is Cardiff's research information system, running on Clarivate Converis - the host CNAMEs to cu.converis.clarivate.com and the University's IT status page lists "Research Portal
+  name: Cardiff University Research Portal (Converis tenancy)
+  slug: cardiff-research-portal
+- description: librarysearch.cardiff.ac.uk is Cardiff's discovery layer, an Ex Libris Primo view (vid=44WHELF_CAR:CAR) sitting on the WHELF shared Alma library management system; the IT status page lists ALMA, Primo
+  name: Cardiff LibrarySearch (Ex Libris Primo tenancy)
+  slug: cardiff-librarysearch
+artifact_total: 59
 collections:
 - collection_type: open
   name: API Collection
@@ -146,6 +161,78 @@ collections:
   name: CoursesApi Assessments Years API
   slug: open-cardiff-years-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cardiff.ac.uk/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://data.cardiff.ac.uk/devportal/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://data.cardiff.ac.uk/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://idp.cardiff.ac.uk/idp/shibboleth
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: http://metadata.ukfederation.org.uk/ukfederation-metadata.xml
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://orca.cardiff.ac.uk/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://research-data.cardiff.ac.uk/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://librarysearch.cardiff.ac.uk/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://data.cardiff.ac.uk/devportal/
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://arcca.github.io/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ARCCA
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/cardiffnlp
+- group: operate
+  title: ''
+  type: Status
+  url: https://status.cardiff.ac.uk/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://sites.cardiff.ac.uk/ilrb/using-gen-ai-to-support-your-literature-searching/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: http://www.cardiff.ac.uk/terms/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/cardiff-university/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/cardiff-education-standards.yml
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cardiff-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -162,22 +249,6 @@ common:
   title: ''
   type: OAuthScopes
   url: scopes/cardiff-scopes.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://www.cardiff.ac.uk/
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://data.cardiff.ac.uk/devportal/
-- group: auth
-  title: ''
-  type: Authentication
-  url: https://data.cardiff.ac.uk/devportal/
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/cardiff-university/
 - group: commercial
   title: ''
   type: Plans
@@ -195,7 +266,8 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'Cardiff University is a public research university in Cardiff, Wales, United Kingdom, ranked #186 in the QS World University Rankings 2025. The university operates a public developer portal at data.cardiff.ac.uk (powered by WSO2 API Manager) exposing a small set of RESTful institutional APIs covering courses, modules, lookups, and research publications. The APIs are OAuth2-secured: integration requires creating an application and generating consumer keys and access tokens, with external developer access granted on request by emailing integration@cardiff.ac.uk. The gateway is hosted at api.data.cardiff.ac.uk.'
+description: 'Cardiff University is a public research university in Cardiff, Wales, and a member of the Russell Group. Unusually for a UK institution it operates its own API gateway rather than only buying one: api.data.cardiff.ac.uk runs WSO2 API Manager under the University''s own registrable domain and serves five institution-authored REST contracts - Courses, Modules, Lookups, Publications and an Echo connectivity test - published through a developer portal at data.cardiff.ac.uk/devportal. Access is OAuth2 client-credentials and is not open self-serve: external developers must email integration@cardiff.ac.uk with a use case before an application can be created. As of a probe on 2026-08-30 both data.cardiff.ac.uk and api.data.cardiff.ac.uk 302-redirect every path to the University''s service-unavailable page at outage.cf.ac.uk, so nothing on the gateway is callable from outside at this moment; the contracts in this repository were harvested while it was up. Beyond the gateway, Cardiff''s
+  genuinely institution-operated machine-readable surfaces are its Shibboleth identity federation membership (a registered UK Access Management Federation IdP), the OAI-PMH interface of its own EPrints repository ORCA, its DataCite repository client and DOI prefix 10.17035, and the ARCCA research-computing GitHub organisation. Its research data repository, research portal and library discovery layer are vendor platforms running under Cardiff subdomains - Figshare, Clarivate Converis and Ex Libris respectively - and are recorded here as tenant relationships, not as Cardiff''s engineering.'
 examples:
 - key_count: 2
   name: Cardiff Courses List Example
@@ -243,17 +315,17 @@ jsonld:
   property_count: 4
   slug: cardiff-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Cardiff University
 nav: Providers
 network: true
-overview: 'Cardiff University publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Assessments API, Clearing Adjustments API, Courses API, and 13 more. Tagged areas include Education, Higher Education, University, United Kingdom, and Wales.
+overview: 'Cardiff University publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Courses API, Clearing Adjustments API, Groups API, and 13 more. Tagged areas include Education, Higher Education, University, Public Research University, and United Kingdom.
 
 
   The Cardiff University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cardiff University''s developer surface includes authentication and 11 more developer resources.'
+  Cardiff University''s developer surface includes status page, authentication, and 24 more developer resources.'
 plans:
 - name: Cardiff Plans Pricing
   plan_count: 2
@@ -291,18 +363,23 @@ scopes:
   summary_line: 2 scopes · implicit
 score:
   band: developing
-  composite: 41.9
-  delta: 4.5
+  composite: 41.3
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 49.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 9.8
     contract_quality: 50.5
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 64.8
     governance: 9.8
-    operational_transparency: 21.1
-  previous_composite: 37.4
+    operational_transparency: 23.7
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -316,8 +393,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/screenshots/cardiff-2026-06-20T173956.png
 security:
@@ -334,10 +411,15 @@ tags:
 - Education
 - Higher Education
 - University
+- Public Research University
 - United Kingdom
 - Wales
+- Russell Group
 - Open Data
-- Courses
-- Research
+- Course Catalog
+- Research Repository
+- Identity Federation
+- Research Computing
+- Publications
 website: https://www.cardiff.ac.uk/
 ---

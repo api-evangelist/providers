@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 24
   slug: moodys-corporation-agentic-access
   summary_line: 24 operations · 8 acting
-api_count: 17
+api_count: 2
 apis:
 - description: Programmatic access to the Scenario Studio macroeconomic scenario platform, enabling automatic retrieval of custom scenarios generated against the Moody's Analytics Global Macroeconomic Model. Support
   name: Moody's Analytics Scenario Studio API
@@ -286,18 +286,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 50.0
-  delta: 4.8
+  composite: 49.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 41.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 54.5
     contract_quality: 64.6
     developer_ergonomics: 47.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 54.5
     operational_transparency: 2.6
-  previous_composite: 45.2
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     contracts:
@@ -305,8 +310,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/screenshots/moodys-corporation-2026-08-17T081109.png
 security:

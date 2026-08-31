@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Local developer API for the Double 3 telepresence robot. Commands and events are exchanged as JSON packets over a standard Unix domain socket with the core D3 system service (Ubuntu 18.04, aarch64). A
@@ -96,14 +96,19 @@ modified: '2026-07-18'
 name: Double Robotics
 nav: Providers
 network: true
-overview: 'Double Robotics publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telepresence, Robotics, Video Conferencing, and Hybrid Work.
+overview: 'Double Robotics publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telepresence, Robotics, Videoconferencing, and Hybrid Work.
 
 
   Double Robotics'' developer surface includes documentation, authentication, and 9 more developer resources.'
 random_paper: 16
 score:
   band: emerging
-  composite: 17.3
+  composite: 18.0
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 17.1
@@ -111,12 +116,12 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 17.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 18.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/double-robotics/refs/heads/main/screenshots/double-robotics-2026-07-25T212319.png
 security:
@@ -133,7 +138,7 @@ tags:
 - Company
 - Telepresence
 - Robotics
-- Video Conferencing
+- Videoconferencing
 - Hybrid Work
 - SDK
 - Fleet Management

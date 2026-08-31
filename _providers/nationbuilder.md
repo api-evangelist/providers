@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 190
   slug: nationbuilder-agentic-access
   summary_line: 190 operations · 108 acting
-api_count: 41
+api_count: 1
 apis:
 - description: This endpoint is used to get information about deferred or asynchronous processes returned by other endpoints such as adding and removing signups from a list or tagging and untagging signups from a li
   name: NationBuilder Async Processes API
@@ -295,6 +295,10 @@ collections:
   name: NationBuilder V2 Async Processes Voters API
   slug: open-nationbuilder-voters-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nationbuilder-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -426,24 +430,29 @@ network: true
 overview: 'NationBuilder publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Async Processes API, Automation Enrollments API, Automations API, and 38 more. Tagged areas include Community Organizing, CRM, Political, Non-Profit, and Fundraising.
 
 
-  NationBuilder''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 22 more developer resources.'
+  NationBuilder''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 23 more developer resources.'
 random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Nationbuilder Rate Limits
   slug: nationbuilder-rate-limits
 score:
-  band: strong
-  composite: 55.2
-  delta: 1.5
+  band: developing
+  composite: 53.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 60.0
     developer_ergonomics: 58.9
-    discoverability: 75.9
-    governance: 30.3
+    discoverability: 70.4
+    governance: 18.2
     operational_transparency: 63.2
   previous_composite: 53.7
   provenance:
@@ -456,8 +465,8 @@ score:
       total: 41
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationbuilder/refs/heads/main/screenshots/nationbuilder-2026-08-17T124218.png
 security:

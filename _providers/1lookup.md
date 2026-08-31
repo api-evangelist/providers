@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: 'RESTful API over HTTPS covering all 1Lookup products (phone/email/IP validation, fraud, enrichment, B2B data, SEO intelligence). API-key Bearer auth (sk_live_ keys, organization-scoped), JSON bodies, '
@@ -221,7 +221,7 @@ modified: '2026-08-14'
 name: 1Lookup
 nav: Providers
 network: true
-overview: '1Lookup publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Phone Validation, Email Validation, IP Intelligence, Fraud and Risk, and Data Enrichment.
+overview: '1Lookup publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include phone validation, email validation, IP intelligence, fraud & risk, and data enrichment.
 
 
   The 1Lookup catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -245,6 +245,11 @@ scopes:
 score:
   band: strong
   composite: 61.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
@@ -260,8 +265,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1lookup/refs/heads/main/screenshots/1lookup-2026-08-17T080542.png
 security:
@@ -283,14 +288,14 @@ security:
   summary_line: trust center published
 slug: 1lookup
 tags:
-- Phone Validation
-- Email Validation
-- IP Intelligence
-- Fraud and Risk
-- Data Enrichment
+- phone validation
+- email validation
+- IP intelligence
+- fraud & risk
+- data enrichment
 - B2B contact & company data
 - SEO / web analytics
-- Audio Transcription
+- audio transcription
 - MCP / agent-native
 - REST API
 website: https://www.1lookup.io

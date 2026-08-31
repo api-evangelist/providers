@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -315,7 +315,7 @@ modified: '2026-05-19'
 name: Azure Function Apps
 nav: Providers
 network: true
-overview: 'Azure Function Apps publishes 1 API on the [APIs.io](https://apis.io/) network: WebApps API. Tagged areas include Azure, Compute, Function-as-a-Service, Functions, and Serverless.
+overview: 'Azure Function Apps publishes 1 API on the [APIs.io](https://apis.io/) network: WebApps API. Tagged areas include Azure, Compute, FaaS, Functions, and Serverless.
 
 
   The Azure Function Apps catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -355,18 +355,23 @@ rules:
   slug: azure-function-apps-spectral-rules
 score:
   band: developing
-  composite: 44.1
-  delta: 4.8
+  composite: 44.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 28.8
     contract_quality: 55.8
     developer_ergonomics: 45.2
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 39.3
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -374,8 +379,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-function-apps/refs/heads/main/screenshots/azure-function-apps-2026-06-20T172854.png
 security:
@@ -387,7 +392,7 @@ slug: azure-function-apps
 tags:
 - Azure
 - Compute
-- Function-as-a-Service
+- FaaS
 - Functions
 - Serverless
 website: https://portal.azure.com

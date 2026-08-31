@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 5
   slug: federal-railroad-administration-agentic-access
   summary_line: 5 operations
-api_count: 5
+api_count: 1
 apis:
 - description: The Accidents API from Federal Railroad Administration — 1 operation(s) for accidents.
   name: Federal Railroad Administration Accidents API
@@ -129,15 +129,20 @@ rate_limits:
   slug: federal-railroad-administration-rate-limits
 score:
   band: emerging
-  composite: 17.9
-  delta: 0.0
+  composite: 17.4
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 70.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 44.2
     developer_ergonomics: 9.5
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 17.9
@@ -154,8 +159,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-railroad-administration/refs/heads/main/screenshots/federal-railroad-administration-2026-06-20T181126.png
 security:

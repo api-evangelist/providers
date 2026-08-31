@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6530
   human_in_the_loop: 347
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 12778
   slug: microsoft-azure-agentic-access
   summary_line: 12778 operations · 6530 acting · 347 human-in-the-loop
-api_count: 1667
+api_count: 697
 apis:
 - description: Azure AI Search is an enterprise-ready information retrieval system for building search experiences over private, heterogeneous content in web, mobile, and enterprise applications. It provides full te
   name: Microsoft Azure AI Search API
@@ -11188,6 +11188,10 @@ collections:
   name: Microsoft Azure AccessControlClient AccessConnector Zones API
   slug: open-microsoft-azure-zones-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-azure-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -13864,13 +13868,13 @@ modified: '2026-06-20'
 name: Microsoft Azure
 nav: Providers
 network: true
-overview: 'Microsoft Azure publishes 1659 APIs on the [APIs.io](https://apis.io/) network, including AccessConnector API, AccessControlRecords API, AccessPolicies API, and 1656 more. Tagged areas include API Management, Cloud, Cloud Computing, Enterprise, and Infrastructure-as-a-Service.
+overview: 'Microsoft Azure publishes 1659 APIs on the [APIs.io](https://apis.io/) network, including AccessConnector API, AccessControlRecords API, AccessPolicies API, and 1656 more. Tagged areas include API Management, Cloud, Cloud Computing, Enterprise, and Infrastructure as a Service.
 
 
   The Microsoft Azure catalog on APIs.io includes 9 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Microsoft Azure''s developer surface includes authentication, CLI, pricing, getting-started guide, engineering blog, support, developer portal, and 48 more developer resources.'
+  Microsoft Azure''s developer surface includes authentication, CLI, pricing, getting-started guide, engineering blog, support, developer portal, and 49 more developer resources.'
 plans:
 - name: Microsoft Azure Plans Pricing
   plan_count: 3
@@ -13909,18 +13913,23 @@ scopes:
   summary_line: 25 scopes · implicit/authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 58.8
-  delta: 1.5
+  composite: 57.6
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 61.3
     developer_ergonomics: 76.2
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 57.3
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -13930,8 +13939,8 @@ score:
       marker_coverage: 0.0
       total: 1659
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/screenshots/microsoft-azure-2026-06-20T185349.png
 security:
@@ -13957,7 +13966,7 @@ tags:
 - Cloud
 - Cloud Computing
 - Enterprise
-- Infrastructure-as-a-Service
+- Infrastructure as a Service
 - Platform-as-a-Service
 - T1
 use_cases:

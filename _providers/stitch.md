@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 2
   slug: stitch-agentic-access
   summary_line: 2 operations · 2 acting
-api_count: 10
+api_count: 1
 apis:
 - description: Stitch Pay By Bank enables merchants to accept instant bank transfer payments directly from customers' bank accounts in South Africa and Nigeria.
   name: Stitch Pay By Bank
@@ -65,16 +65,10 @@ apis:
 - description: OAuth 2.0 token operations.
   name: Stitch Authentication API
   slug: stitch-authentication-api
-- description: Outbound payment and payout operations.
-  name: Stitch Disbursements API
-  slug: stitch-disbursements-api
-- description: Bank account and transaction data.
-  name: Stitch Financial Data API
-  slug: stitch-financial-data-api
 - description: Payment initiation and management.
   name: Stitch Payments API
   slug: stitch-payments-api
-artifact_total: 49
+artifact_total: 47
 collections:
 - collection_type: open
   name: API Collection
@@ -214,7 +208,7 @@ modified: '2026-05-19'
 name: Stitch
 nav: Providers
 network: true
-overview: 'Stitch publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Disbursements API, Financial Data API, and 1 more. Tagged areas include Africa, Financial Data, Open Banking, Payments, and Unified-API.
+overview: 'Stitch publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Payments API. Tagged areas include Africa, Financial Data, Open Banking, Payments, and Unified-API.
 
 
   The Stitch catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -254,15 +248,20 @@ rules:
   slug: stitch-rules
 score:
   band: thin
-  composite: 38.2
-  delta: 0.0
+  composite: 37.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 62.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 63.9
     developer_ergonomics: 23.8
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 23.7
   previous_composite: 38.2
@@ -279,8 +278,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 34.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stitch/refs/heads/main/screenshots/stitch-2026-06-20T194553.png
 security:

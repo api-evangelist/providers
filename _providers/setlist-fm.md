@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 15
   slug: setlist-fm-agentic-access
   summary_line: 15 operations
-api_count: 15
+api_count: 2
 apis:
 - description: The /1.0/artist/{mbid} API from setlist.fm — 1 operation(s) for /1.0/artist/{mbid}.
   name: setlist.fm /1.0/artist/{mbid} API
@@ -88,7 +88,28 @@ apis:
 - description: The /1.0/venue/{venueId}/setlists API from setlist.fm — 1 operation(s) for /1.0/venue/{venueid}/setlists.
   name: setlist.fm /1.0/venue/{venueId}/setlists API
   slug: setlist-fm-1-0-venue-venueid-setlists-api
-artifact_total: 62
+- description: Artists keyed by MusicBrainz MBID and their setlists.
+  name: setlist.fm Artists API
+  slug: setlist-fm-artists-api
+- description: Cities resolved by GeoNames geoId.
+  name: setlist.fm Cities API
+  slug: setlist-fm-cities-api
+- description: The reference list of countries.
+  name: setlist.fm Countries API
+  slug: setlist-fm-countries-api
+- description: Full-text search across artists, venues, cities, and setlists.
+  name: setlist.fm Search API
+  slug: setlist-fm-search-api
+- description: Individual setlists and their historical versions.
+  name: setlist.fm Setlists API
+  slug: setlist-fm-setlists-api
+- description: Community members and their attended/edited setlists.
+  name: setlist.fm User API
+  slug: setlist-fm-user-api
+- description: Concert venues and the setlists performed at them.
+  name: setlist.fm Venues API
+  slug: setlist-fm-venues-api
+artifact_total: 69
 collections:
 - collection_type: open
   name: API Collection
@@ -276,7 +297,7 @@ modified: '2026-08-08'
 name: setlist.fm
 nav: Providers
 network: true
-overview: 'setlist.fm publishes 15 APIs on the [APIs.io](https://apis.io/) network, including /1.0/artist/{mbid} API, /1.0/artist/{mbid}/setlists API, /1.0/city/{geoId} API, and 12 more. Tagged areas include Music, Concerts, Setlists, Live Music, and Venues.
+overview: 'setlist.fm publishes 22 APIs on the [APIs.io](https://apis.io/) network, including /1.0/artist/{mbid} API, /1.0/artist/{mbid}/setlists API, /1.0/city/{geoId} API, and 19 more. Tagged areas include Music, Concerts, Setlists, Live Music, and Venues.
 
 
   The setlist.fm catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -305,18 +326,23 @@ rules:
   slug: setlist-fm-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.9
-  delta: 0.0
+  composite: 33.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 63.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 45.0
+    contract_quality: 49.4
     developer_ergonomics: 22.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 32.9
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -324,8 +350,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/setlist-fm/refs/heads/main/screenshots/setlist-fm-2026-06-20T193734.png
 security:
@@ -345,7 +371,7 @@ tags:
 - Live Music
 - Venues
 - Artists
-- tour dates
+- Tour Dates
 - Event
 website: https://www.setlist.fm
 ---

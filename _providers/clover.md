@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -333,7 +333,7 @@ modified: '2026-06-02'
 name: Clover
 nav: Providers
 network: true
-overview: 'Clover publishes 9 APIs on the [APIs.io](https://apis.io/) network, including CHARGES API, CHECKOUT API, CUSTOMERS API, and 6 more. Tagged areas include Restaurant, Point-of-Sale, Payments, Retail, and SMB.
+overview: 'Clover publishes 9 APIs on the [APIs.io](https://apis.io/) network, including CHARGES API, CHECKOUT API, CUSTOMERS API, and 6 more. Tagged areas include Restaurant, POS, Payments, Retail, and SMB.
 
 
   The Clover catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -378,18 +378,23 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 40.0
-  delta: 3.3
+  composite: 40.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 28.8
     contract_quality: 21.8
     developer_ergonomics: 50.0
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 36.7
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -403,8 +408,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clover/refs/heads/main/screenshots/clover-2026-06-20T174623.png
 security:
@@ -419,7 +424,7 @@ security:
 slug: clover
 tags:
 - Restaurant
-- Point-of-Sale
+- POS
 - Payments
 - Retail
 - SMB

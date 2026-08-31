@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 125
   slug: modernizing-medicine-agentic-access
   summary_line: 125 operations · 20 acting
-api_count: 43
+api_count: 4
 apis:
 - description: 'The AllergyIntolerance FHIR resource type<br/>Base profile: http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance'
   name: ModMed Allergy Intolerance API
@@ -298,6 +298,10 @@ collections:
   name: ModMed Certified Value Set API
   slug: open-modernizing-medicine-valueset-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/modernizing-medicine-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -453,7 +457,7 @@ network: true
 overview: 'ModMed publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Allergy Intolerance API, Appointments and Slots API, Authentication API, and 40 more. Tagged areas include Company, Healthcare, Electronic Health Records, Practice Management, and FHIR.
 
 
-  ModMed''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 28 more developer resources.'
+  ModMed''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 29 more developer resources.'
 random_paper: 7
 rate_limits:
 - limit_count: 2
@@ -466,18 +470,23 @@ scopes:
   summary_line: 76 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.2
+  composite: 57.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 52.9
     developer_ergonomics: 41.1
-    discoverability: 68.5
-    governance: 30.3
+    discoverability: 87.0
+    governance: 18.2
     operational_transparency: 35.5
-  previous_composite: 57.2
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -498,8 +507,8 @@ score:
     regime: Health
     regime_id: health
     score: 100.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modernizing-medicine/refs/heads/main/screenshots/modernizing-medicine-2026-08-07T184015.png
 security:

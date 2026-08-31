@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'The HTTP API behind the Percepto AIM (Autonomous Inspection and Monitoring) console at drones.percepto.co. The application is a Django/Django-REST-Framework deployment: /api/schema/ and /api/docs/ are'
@@ -110,7 +110,7 @@ modified: '2026-08-26'
 name: Percepto
 nav: Providers
 network: true
-overview: 'Percepto publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Drones, Robotics, Industrial Inspection, Autonomous Systems, and Computer Vision.
+overview: 'Percepto publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Drones, Robotics, Industrial Inspection, Autonomous Systems, and Computer-Vision.
 
 
   Percepto''s developer surface includes engineering blog, support, signup flow, and 11 more developer resources.'
@@ -125,16 +125,23 @@ rate_limits:
   slug: percepto-rate-limits
 score:
   band: emerging
-  composite: 18.3
+  composite: 19.0
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
+  previous_composite: 19.0
   provenance:
     conformance: first-party
   regulatory:
@@ -143,8 +150,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 27.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: domain-security
   name: Percepto Domain Security
@@ -156,7 +164,7 @@ tags:
 - Robotics
 - Industrial Inspection
 - Autonomous Systems
-- Computer Vision
+- Computer-Vision
 - Asset Monitoring
 - Energy
 - Oil and Gas

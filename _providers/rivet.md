@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 24
   slug: rivet-agentic-access
   summary_line: 24 operations · 10 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The Actors API from Rivet — 3 operation(s) for actors.
   name: Rivet Actors API
@@ -188,18 +188,23 @@ overview: 'Rivet publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ac
 random_paper: 8
 score:
   band: thin
-  composite: 39.2
-  delta: 1.4
+  composite: 37.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 37.4
     developer_ergonomics: 78.6
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 37.8
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -210,8 +215,8 @@ score:
       total: 2
     mcp: derived
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/screenshots/rivet-2026-08-17T081626.png
 security:

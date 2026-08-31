@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: Read-write REST API for programmatically managing your JWP media library, players, playlists, live streams, advertising configurations, DRM policies, transformations, and webhooks. Authenticated via B
@@ -103,10 +103,6 @@ common:
   title: ''
   type: BlogRSS
   url: https://jwx.com/blog/rss.xml
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 - group: design
   title: ''
   type: JSONLD
@@ -134,7 +130,7 @@ overview: 'JW Player publishes 3 APIs on the [APIs.io](https://apis.io/) network
   The JW Player catalog on APIs.io includes 1 JSON-LD context.
 
 
-  JW Player''s developer surface includes documentation, GitHub presence, engineering blog, pricing, and 12 more developer resources.'
+  JW Player''s developer surface includes documentation, GitHub presence, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Jwplayer Plans Pricing
   plan_count: 3
@@ -147,6 +143,11 @@ rate_limits:
 score:
   band: thin
   composite: 28.6
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 41.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 57.9
@@ -158,8 +159,8 @@ score:
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 28.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jwplayer/refs/heads/main/screenshots/jwplayer-2026-06-20T183847.png
 security:

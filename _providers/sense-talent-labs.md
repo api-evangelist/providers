@@ -6,35 +6,73 @@ agent_readiness:
     agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: documented
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.3
-  scored_at: '2026-08-26'
+  score: 37.6
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: The Sense partner REST API used to synchronize applicant-tracking-system data into the Sense Talent Engagement Platform. It exposes batch upsert, single-entity fetch, partial update and dropdown possi
-  name: Sense API
-  slug: sense-talent-labs-sense-api
-artifact_total: 9
+- description: An interview or a meeting with a Candidate or Contact.
+  name: Sense Talent Labs Appointment API
+  slug: sense-talent-labs-appointment-api
+- description: Authenticate using client credentials to obtain a Bearer access_token.
+  name: Sense Talent Labs Authentication API
+  slug: sense-talent-labs-authentication-api
+- description: A person seeking a job.
+  name: Sense Talent Labs Candidate API
+  slug: sense-talent-labs-candidate-api
+- description: The credential and or certificate of Candidate, or as required by a Job.
+  name: Sense Talent Labs Certification API
+  slug: sense-talent-labs-certification-api
+- description: A contact person at a Company.
+  name: Sense Talent Labs Client Contact API
+  slug: sense-talent-labs-clientcontact-api
+- description: A company that is a client of your organization.
+  name: Sense Talent Labs Company API
+  slug: sense-talent-labs-company-api
+- description: An internal person at your organization.
+  name: Sense Talent Labs Internal User API
+  slug: sense-talent-labs-internaluser-api
+- description: A job to be filled by a Candidate.
+  name: Sense Talent Labs Job Order API
+  slug: sense-talent-labs-joborder-api
+- description: A new prospective client or contact
+  name: Sense Talent Labs Lead API
+  slug: sense-talent-labs-lead-api
+- description: A job that has been filled by a Candidate.
+  name: Sense Talent Labs Placement API
+  slug: sense-talent-labs-placement-api
+- description: Sending a Candidate’s info for additional review.
+  name: Sense Talent Labs Submission API
+  slug: sense-talent-labs-submission-api
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Sense Talent Labs Writeback Webhooks
   slug: sense-talent-labs-writeback-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sense-talent-labs-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sense-talent-labs-sense-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -163,13 +201,13 @@ modified: '2026-08-26'
 name: Sense Talent Labs
 nav: Providers
 network: true
-overview: 'Sense Talent Labs publishes 1 API on the [APIs.io](https://apis.io/) network: Sense API. Tagged areas include Human Resources, Recruiting, Talent Acquisition, Staffing, and Applicant Tracking.
+overview: 'Sense Talent Labs publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Appointment API, Authentication API, Candidate API, and 8 more. Tagged areas include Human Resources, Recruiting, Talent Acquisition, Staffing, and Applicant Tracking.
 
 
   The Sense Talent Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sense Talent Labs'' developer surface includes documentation, API reference, engineering blog, support, pricing, changelog, authentication, and 23 more developer resources.'
+  Sense Talent Labs'' developer surface includes documentation, API reference, engineering blog, support, pricing, changelog, authentication, and 25 more developer resources.'
 plans:
 - name: Sense Talent Labs Plans Pricing
   plan_count: 6
@@ -186,22 +224,30 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 55.3
+  composite: 58.5
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 16.7
-    contract_quality: 42.7
+    contract_governance: 4.5
+    contract_quality: 61.3
     developer_ergonomics: 47.0
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 81.6
+  previous_composite: 59.1
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Sense Talent Labs Authentication
@@ -232,6 +278,6 @@ tags:
 - Messaging
 - Interview Scheduling
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 website: https://www.sensehq.com/
 ---

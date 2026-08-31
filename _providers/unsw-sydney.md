@@ -34,15 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-26'
-api_count: 9
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: UNSWorks is the UNSW open-access institutional repository, running DSpace 7.0 on UNSW infrastructure and administered by the UNSW Library. The HAL/REST server at /server/api is readable without creden
-  name: UNSWorks Repository REST API (DSpace 7.0)
-  slug: unsworks-rest
-- description: OAI-PMH 2.0 metadata harvesting endpoint for UNSWorks. Fully anonymous. All six verbs were exercised live and answer with a well-formed envelope; twelve metadata formats are offered (oai_dc, qdc, uket
-  name: UNSWorks Repository OAI-PMH
-  slug: unsworks-oai
 - description: UNSW's own SAML 2.0 identity provider — a Shibboleth IdP whose entity metadata is published as a machine-readable XML document at the entityID URL and is carried in the AAF federation aggregate, which
   name: UNSW Shibboleth Identity Provider (AAF / eduGAIN)
   slug: shibboleth-idp
@@ -64,7 +58,19 @@ apis:
 - description: 'A public API for fetching degree, specialisation and course information from the UNSW Handbook, published by the UNSW Computer Science and Engineering Society. ARCHIVED BY ITS OWNER ON 2026-04-03 and '
   name: UNSW Handbook API (CSESoc, community) — ARCHIVED
   slug: handbook-api
-artifact_total: 20
+- description: Communities, collections, sites and the metadata registry.
+  name: University of New South Wales Core API
+  slug: unsw-sydney-core-api
+- description: Public discovery search over repository objects.
+  name: University of New South Wales Discover API
+  slug: unsw-sydney-discover-api
+- description: OAI-PMH 2.0 verbs, all exercised live against this endpoint.
+  name: University of New South Wales Oai Pmh API
+  slug: unsw-sydney-oai-pmh-api
+- description: Service entry point and HAL link index.
+  name: University of New South Wales Root API
+  slug: unsw-sydney-root-api
+artifact_total: 22
 common:
 - group: company
   title: ''
@@ -271,7 +277,7 @@ modified: '2026-08-19'
 name: University of New South Wales
 nav: Providers
 network: true
-overview: 'University of New South Wales publishes 2 APIs on the [APIs.io](https://apis.io/) network: UNSWorks Repository REST API (DSpace 7.0) and UNSWorks Repository OAI-PMH. Tagged areas include University, Higher Education, Education, Research, and Australia.
+overview: 'University of New South Wales publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Core API, Discover API, Oai Pmh API, and 1 more. Tagged areas include University, Higher Education, Education, Research, and Australia.
 
 
   The University of New South Wales catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -305,18 +311,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.4
-  delta: 2.7
+  composite: 52.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 45.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 15.2
-    contract_quality: 64.6
+    contract_quality: 63.9
     developer_ergonomics: 38.1
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 15.2
     operational_transparency: 23.7
-  previous_composite: 50.7
+  previous_composite: 53.2
   provenance:
     conformance: first-party
     contracts:
@@ -330,8 +341,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/screenshots/unsw-sydney-2026-06-20T200413.png
 security:

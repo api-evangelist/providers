@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: regal-entertainment-group-agentic-access
   summary_line: 9 operations · 2 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Regal Crown Club loyalty rewards
   name: regal-entertainment-group Loyalty API
@@ -83,6 +83,10 @@ collections:
   name: Regal Cinema Loyalty Tickets API
   slug: open-regal-entertainment-group-tickets-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/regal-entertainment-group-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -153,16 +157,16 @@ jsonld:
   slug: regal-entertainment-group-context
 layout: provider
 modified: '2026-05-19'
-name: regal-entertainment-group
+name: Regal Entertainment Group
 nav: Providers
 network: true
-overview: 'regal-entertainment-group publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Loyalty API, Movies API, Showtimes API, and 2 more. Tagged areas include Cinema, Entertainment, Movies, Ticketing, and Loyalty.
+overview: 'Regal Entertainment Group publishes 5 APIs on the [APIs.io](https://apis.io/) network, including regal-entertainment-group Loyalty API, regal-entertainment-group Movies API, regal-entertainment-group Showtimes API, and 2 more. Tagged areas include Cinema, Entertainment, Movies, Ticketing, and Loyalty.
 
 
-  The regal-entertainment-group catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Regal Entertainment Group catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  regal-entertainment-group''s developer surface includes authentication and 8 more developer resources.'
+  Regal Entertainment Group''s developer surface includes authentication and 9 more developer resources.'
 plans:
 - name: Regal Entertainment Group Plans Pricing
   plan_count: 1
@@ -192,7 +196,7 @@ rules:
 - effective_rule_count: 49
   extends:
   - spectral:oas
-  name: regal-entertainment-group API Rules
+  name: Regal Entertainment Group API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -202,7 +206,7 @@ rules:
   slug: regal-cinema-rules
 - effective_rule_count: 5
   extends: []
-  name: regal-entertainment-group API Rules
+  name: Regal Entertainment Group API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -212,18 +216,23 @@ rules:
   slug: regal-entertainment-group-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.7
-  delta: 4.6
+  composite: 42.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 69.7
     contract_quality: 61.2
     developer_ergonomics: 31.0
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 69.7
     operational_transparency: 5.3
-  previous_composite: 38.1
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -231,8 +240,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

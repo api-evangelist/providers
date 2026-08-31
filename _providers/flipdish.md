@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 323
   human_in_the_loop: 10
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 591
   slug: flipdish-agentic-access
   summary_line: 591 operations · 323 acting · 10 human-in-the-loop
-api_count: 85
+api_count: 10
 apis:
 - description: Operations for Accounts.
   name: Flipdish Accounts API
@@ -845,6 +845,10 @@ collections:
   name: Flipdish API - Apps Accounts WhiteLabelConfig API
   slug: open-flipdish-whitelabelconfig-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/flipdish-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -3549,7 +3553,7 @@ overview: 'Flipdish publishes 85 APIs on the [APIs.io](https://apis.io/) network
   The Flipdish catalog on APIs.io includes 10 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Flipdish''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, support, and 28 more developer resources.'
+  Flipdish''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, support, and 29 more developer resources.'
 plans:
 - name: Flipdish Plans Pricing
   plan_count: 3
@@ -3589,6 +3593,11 @@ scopes:
 score:
   band: developing
   composite: 54.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 31.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 56.6
@@ -3613,8 +3622,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipdish/refs/heads/main/screenshots/flipdish-2026-06-20T181315.png
 security:

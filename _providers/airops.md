@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -42,12 +42,63 @@ agentic_access:
   operation_count: 42
   slug: airops-agentic-access
   summary_line: 42 operations · 29 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
-- description: 'Public REST API for running AirOps Workflows/Apps (synchronous, asynchronous, and webhook execution), managing executions, interacting with Knowledge Bases (Memory Stores), and reading AEO analytics, '
-  name: AirOps API
-  slug: airops-api
-artifact_total: 11
+- description: An endpoint for interacting with Agent apps using chat messages.
+  name: AirOps Agent API
+  slug: airops-agent-api
+- description: The Analytics API from AirOps — 1 operation(s) for analytics.
+  name: AirOps Analytics API
+  slug: airops-analytics-api
+- description: The Answers API from AirOps — 2 operation(s) for answers.
+  name: AirOps Answers API
+  slug: airops-answers-api
+- description: Endpoints for listing and retrieving app information.
+  name: AirOps Apps API
+  slug: airops-apps-api
+- description: Endpoints for managing brand kits and their associated resources.
+  name: AirOps Brand Kits API
+  slug: airops-brand-kits-api
+- description: The Citations API from AirOps — 2 operation(s) for citations.
+  name: AirOps Citations API
+  slug: airops-citations-api
+- description: The Competitors API from AirOps — 2 operation(s) for competitors.
+  name: AirOps Competitors API
+  slug: airops-competitors-api
+- description: The Content Updates API from AirOps — 3 operation(s) for content updates.
+  name: AirOps Content Updates API
+  slug: airops-content-updates-api
+- description: An execution is a single run of an app, it contains the inputs, outputs, and status of the run, and can be used to check the status of the run.
+  name: AirOps Executions API
+  slug: airops-executions-api
+- description: Endpoints for managing workspace files.
+  name: AirOps Files API
+  slug: airops-files-api
+- description: Endpoints for working with grid data and CSV exports.
+  name: AirOps Grids API
+  slug: airops-grids-api
+- description: Endpoints for managing memory stores (vector stores) and document search.
+  name: AirOps Memory Stores API
+  slug: airops-memory-stores-api
+- description: The Personas API from AirOps — 2 operation(s) for personas.
+  name: AirOps Personas API
+  slug: airops-personas-api
+- description: The Prompts API from AirOps — 2 operation(s) for prompts.
+  name: AirOps Prompts API
+  slug: airops-prompts-api
+- description: The Sentiment Theme Answers API from AirOps — 1 operation(s) for sentiment theme answers.
+  name: AirOps Sentiment Theme Answers API
+  slug: airops-sentiment-theme-answers-api
+- description: The Tags API from AirOps — 2 operation(s) for tags.
+  name: AirOps Tags API
+  slug: airops-tags-api
+- description: The Topics API from AirOps — 2 operation(s) for topics.
+  name: AirOps Topics API
+  slug: airops-topics-api
+- description: The Web Pages API from AirOps — 1 operation(s) for web pages.
+  name: AirOps Web Pages API
+  slug: airops-web-pages-api
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Airops Webhooks
@@ -229,7 +280,7 @@ modified: '2026-08-13'
 name: AirOps
 nav: Providers
 network: true
-overview: 'AirOps publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Application, Artificial Intelligence, Content, and SEO.
+overview: 'AirOps publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Analytics API, Answers API, and 15 more. Tagged areas include Company, Application, Artificial Intelligence, Content, and SEO.
 
 
   The AirOps catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -252,18 +303,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.9
-  delta: 0.0
+  composite: 60.2
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 30.3
-    contract_quality: 58.0
+    contract_governance: 18.2
+    contract_quality: 61.3
     developer_ergonomics: 78.6
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 61.9
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -274,8 +330,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/screenshots/airops-2026-07-25T195431.png
 security:

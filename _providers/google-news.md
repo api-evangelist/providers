@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 4
   slug: google-news-agentic-access
   summary_line: 4 operations
-api_count: 3
+api_count: 1
 apis:
 - description: Retrieve top news headlines
   name: Google News RSS Headlines API
@@ -175,18 +175,23 @@ rules:
   slug: google-news-spectral-rules
 score:
   band: developing
-  composite: 40.0
-  delta: 1.9
+  composite: 39.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 44.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 13.6
     contract_quality: 57.1
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 38.1
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -194,8 +199,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/screenshots/google-news-2026-06-20T182219.png
 security:

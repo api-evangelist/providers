@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -41,12 +41,42 @@ agentic_access:
   operation_count: 25
   slug: admob-agentic-access
   summary_line: 25 operations · 13 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
-- description: REST/JSON API providing programmatic access to AdMob account data, apps, ad units, mediation configuration, and network, mediation and campaign performance reports. v1 is read-only; v1beta adds the wr
-  name: AdMob API
-  slug: admob-api
-artifact_total: 11
+- description: The accounts API from AdMob — 4 operation(s) for accounts.
+  name: AdMob Accounts API
+  slug: admob-accounts-api
+- description: The adapters API from AdMob — 1 operation(s) for adapters.
+  name: AdMob Adapters API
+  slug: admob-adapters-api
+- description: The adSources API from AdMob — 1 operation(s) for adsources.
+  name: AdMob Ad Sources API
+  slug: admob-adsources-api
+- description: The adUnitMappings API from AdMob — 2 operation(s) for adunitmappings.
+  name: AdMob Ad Unit Mappings API
+  slug: admob-adunitmappings-api
+- description: The adUnits API from AdMob — 2 operation(s) for adunits.
+  name: AdMob Ad Units API
+  slug: admob-adunits-api
+- description: The apps API from AdMob — 2 operation(s) for apps.
+  name: AdMob Apps API
+  slug: admob-apps-api
+- description: The campaignReport API from AdMob — 1 operation(s) for campaignreport.
+  name: AdMob Campaign Report API
+  slug: admob-campaignreport-api
+- description: The mediationAbExperiments API from AdMob — 2 operation(s) for mediationabexperiments.
+  name: AdMob Mediation Ab Experiments API
+  slug: admob-mediationabexperiments-api
+- description: The mediationGroups API from AdMob — 2 operation(s) for mediationgroups.
+  name: AdMob Mediation Groups API
+  slug: admob-mediationgroups-api
+- description: The mediationReport API from AdMob — 2 operation(s) for mediationreport.
+  name: AdMob Mediation Report API
+  slug: admob-mediationreport-api
+- description: The networkReport API from AdMob — 2 operation(s) for networkreport.
+  name: AdMob Network Report API
+  slug: admob-networkreport-api
+artifact_total: 21
 collections:
 - collection_type: open
   name: AdMob API
@@ -55,6 +85,14 @@ collections:
   name: AdMob API
   slug: open-admob-api-v1beta
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/admob-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/admob-api-v1beta-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -215,10 +253,10 @@ modified: '2026-08-12'
 name: AdMob
 nav: Providers
 network: true
-overview: 'AdMob publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Mobile, Monetization, and Ads.
+overview: 'AdMob publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Adapters API, Ad Sources API, and 8 more. Tagged areas include Company, Advertising, Mobile, Monetization, and Ads.
 
 
-  AdMob''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, signup flow, and 31 more developer resources.'
+  AdMob''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, signup flow, and 33 more developer resources.'
 plans:
 - name: Admob Plans Pricing
   plan_count: 0
@@ -235,18 +273,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.0
-  delta: 0.0
+  composite: 54.8
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
-    contract_quality: 56.5
+    contract_governance: 4.5
+    contract_quality: 53.9
     developer_ergonomics: 61.3
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 84.2
-  previous_composite: 58.0
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -257,8 +300,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/admob/refs/heads/main/screenshots/admob-2026-07-25T181651.png
 security:

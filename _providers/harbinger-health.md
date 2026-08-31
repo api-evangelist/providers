@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 236
   slug: harbinger-health-agentic-access
   summary_line: 236 operations · 130 acting
-api_count: 37
+api_count: 1
 apis:
 - description: A live Model Context Protocol server namespace published on Harbinger Health's own host at https://harbinger-health.com/wp-json/mcp/, exposing two servers - mcp-oauth-server and mcp-adapter-default-se
   name: Harbinger Health MCP Server
@@ -457,18 +457,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 32.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 19.0
     developer_ergonomics: 20.8
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 35.3
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -485,8 +490,8 @@ score:
     regime: Health
     regime_id: health
     score: 75.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harbinger-health/refs/heads/main/screenshots/harbinger-health-2026-08-07T165948.png
 security:

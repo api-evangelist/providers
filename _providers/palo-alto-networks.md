@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 269
   human_in_the_loop: 5
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 526
   slug: palo-alto-networks-agentic-access
   summary_line: 526 operations · 269 acting · 5 human-in-the-loop
-api_count: 741
+api_count: 468
 apis:
 - description: The comprehensive XML-based API for PAN-OS providing full access to all firewall configuration, operational commands, reporting, logging, and commit operations. Supports request types including keygen
   name: PAN-OS XML API
@@ -2268,6 +2268,243 @@ apis:
 - description: The ZoomQosController API from Palo Alto Networks — 1 operation(s) for zoomqoscontroller.
   name: Palo Alto Networks Zoom Qos Controller API
   slug: palo-alto-networks-zoomqoscontroller-api
+- description: Access policy management for role-based access control.
+  name: Palo Alto Networks Access Policies API
+  slug: palo-alto-networks-access-policies-api
+- description: Query and retrieve PSIRT security advisories.
+  name: Palo Alto Networks Advisories API
+  slug: palo-alto-networks-advisories-api
+- description: Monitored agent and endpoint inventory management.
+  name: Palo Alto Networks Agents API
+  slug: palo-alto-networks-agents-api
+- description: Agent and endpoint experience score monitoring for tracking the health and experience of monitored user devices.
+  name: Palo Alto Networks Agent Scores API
+  slug: palo-alto-networks-agentscores-api
+- description: Multi-tenant aggregated data queries.
+  name: Palo Alto Networks Aggregation Queries API
+  slug: palo-alto-networks-aggregation-queries-api
+- description: SaaS application catalog and metadata.
+  name: Palo Alto Networks App Catalog API
+  slug: palo-alto-networks-app-catalog-api
+- description: Application experience score monitoring providing aggregated performance ratings for SaaS and internal applications.
+  name: Palo Alto Networks Application Scores API
+  slug: palo-alto-networks-applicationscores-api
+- description: Advanced Threat Prevention detailed analysis reports and PCAP files.
+  name: Palo Alto Networks ATP API
+  slug: palo-alto-networks-atp-api
+- description: Email attachment retrieval operations.
+  name: Palo Alto Networks Attachments API
+  slug: palo-alto-networks-attachments-api
+- description: Available attack category reference data.
+  name: Palo Alto Networks Attack Categories API
+  slug: palo-alto-networks-attack-categories-api
+- description: Attack surface rule configuration and management.
+  name: Palo Alto Networks Attack Surface Rules API
+  slug: palo-alto-networks-attacksurfacerules-api
+- description: Audit and management log retrieval.
+  name: Palo Alto Networks Audit API
+  slug: palo-alto-networks-audit-api
+- description: Token-based authentication for API access.
+  name: Palo Alto Networks Authentication API
+  slug: palo-alto-networks-authentication-api
+- description: Bandwidth allocation visibility.
+  name: Palo Alto Networks Bandwidth API
+  slug: palo-alto-networks-bandwidth-api
+- description: Completed assessment report retrieval.
+  name: Palo Alto Networks BPA Reports API
+  slug: palo-alto-networks-bpa-reports-api
+- description: Best Practice Assessment request submission and status tracking.
+  name: Palo Alto Networks BPA Requests API
+  slug: palo-alto-networks-bpa-requests-api
+- description: Data classification results and taxonomy operations.
+  name: Palo Alto Networks Classifications API
+  slug: palo-alto-networks-classifications-api
+- description: Cloud account onboarding and management.
+  name: Palo Alto Networks Cloud Accounts API
+  slug: palo-alto-networks-cloudaccounts-api
+- description: Configuration commit operations.
+  name: Palo Alto Networks Commit API
+  slug: palo-alto-networks-commit-api
+- description: Compliance posture and reporting.
+  name: Palo Alto Networks Compliance API
+  slug: palo-alto-networks-compliance-api
+- description: Candidate configuration management and job tracking.
+  name: Palo Alto Networks Configuration API
+  slug: palo-alto-networks-configuration-api
+- description: Logical grouping of ZTNA connectors for high availability.
+  name: Palo Alto Networks Connector Groups API
+  slug: palo-alto-networks-connector-groups-api
+- description: ZTNA connector lifecycle management.
+  name: Palo Alto Networks Connectors API
+  slug: palo-alto-networks-connectors-api
+- description: Execute custom data resource queries with filters and aggregations
+  name: Palo Alto Networks Custom Queries API
+  slug: palo-alto-networks-custom-queries-api
+- description: Export data resource results for external processing
+  name: Palo Alto Networks Data Exports API
+  slug: palo-alto-networks-data-exports-api
+- description: Query Prisma Access deployment health and performance data resources
+  name: Palo Alto Networks Data Resources API
+  slug: palo-alto-networks-data-resources-api
+- description: Data asset discovery and inventory operations.
+  name: Palo Alto Networks Data Assets API
+  slug: palo-alto-networks-dataassets-api
+- description: Data pattern configuration and lookup operations.
+  name: Palo Alto Networks Data Patterns API
+  slug: palo-alto-networks-datapatterns-api
+- description: Data store inventory and discovery operations.
+  name: Palo Alto Networks Data Stores API
+  slug: palo-alto-networks-datastores-api
+- description: Browser deployment configuration management.
+  name: Palo Alto Networks Deployments API
+  slug: palo-alto-networks-deployments-api
+- description: The Device API from Palo Alto Networks — 2 operation(s) for device.
+  name: Palo Alto Networks Device API
+  slug: palo-alto-networks-device-api
+- description: Domain categorization and threat intelligence lookups.
+  name: Palo Alto Networks Domains API
+  slug: palo-alto-networks-domains-api
+- description: Email forwarding destination management.
+  name: Palo Alto Networks Email Destinations API
+  slug: palo-alto-networks-email-destinations-api
+- description: Endpoint management, isolation, and scanning.
+  name: Palo Alto Networks Endpoints API
+  slug: palo-alto-networks-endpoints-api
+- description: Investigation entry (work note) management.
+  name: Palo Alto Networks Entries API
+  slug: palo-alto-networks-entries-api
+- description: Cloud NGFW firewall instance management.
+  name: Palo Alto Networks Firewalls API
+  slug: palo-alto-networks-firewalls-api
+- description: Automated fix suggestions for pull requests.
+  name: Palo Alto Networks Fixes API
+  slug: palo-alto-networks-fixes-api
+- description: FQDN-based access rules for ZTNA applications.
+  name: Palo Alto Networks FQDN Rules API
+  slug: palo-alto-networks-fqdn-rules-api
+- description: FQDN list management for use in security rule destination criteria.
+  name: Palo Alto Networks FQDN Lists API
+  slug: palo-alto-networks-fqdnlists-api
+- description: HTTPS forwarding destination management.
+  name: Palo Alto Networks HTTPS Destinations API
+  slug: palo-alto-networks-https-destinations-api
+- description: Incident management and investigation.
+  name: Palo Alto Networks Incidents API
+  slug: palo-alto-networks-incidents-api
+- description: Data source configuration for log ingestion.
+  name: Palo Alto Networks Ingestion API
+  slug: palo-alto-networks-ingestion-api
+- description: Investigation management.
+  name: Palo Alto Networks Investigations API
+  slug: palo-alto-networks-investigations-api
+- description: Owned IP range management.
+  name: Palo Alto Networks IP Ranges API
+  slug: palo-alto-networks-ipranges-api
+- description: LAN network configuration for defining local networks at SD-WAN sites.
+  name: Palo Alto Networks LAN Networks API
+  slug: palo-alto-networks-lannetworks-api
+- description: Detailed network performance metrics providing granular visibility into each segment of the user-to-application connection.
+  name: Palo Alto Networks Metrics API
+  slug: palo-alto-networks-metrics-api
+- description: Site performance metrics, application usage data, and alarm monitoring.
+  name: Palo Alto Networks Monitoring API
+  slug: palo-alto-networks-monitoring-api
+- description: NAT policy rule management.
+  name: Palo Alto Networks NAT Rules API
+  slug: palo-alto-networks-natrules-api
+- description: 5G network slice configuration and management.
+  name: Palo Alto Networks Network Slices API
+  slug: palo-alto-networks-network-slices-api
+- description: Address objects, address groups, service objects, service groups, and tag management.
+  name: Palo Alto Networks Objects API
+  slug: palo-alto-networks-objects-api
+- description: Remote network onboarding status.
+  name: Palo Alto Networks Onboarding API
+  slug: palo-alto-networks-onboarding-api
+- description: Path policy rule management for controlling traffic steering decisions across available WAN links.
+  name: Palo Alto Networks Path Rules API
+  slug: palo-alto-networks-pathrules-api
+- description: Playbook listing and execution.
+  name: Palo Alto Networks Playbooks API
+  slug: palo-alto-networks-playbooks-api
+- description: Security posture check results and remediation status.
+  name: Palo Alto Networks Posture Checks API
+  slug: palo-alto-networks-posture-checks-api
+- description: IP prefix list management for use in security rule source and destination criteria.
+  name: Palo Alto Networks Prefix Lists API
+  slug: palo-alto-networks-prefixlists-api
+- description: Query affected products referenced in security advisories.
+  name: Palo Alto Networks Products API
+  slug: palo-alto-networks-products-api
+- description: Quality of Service rule management for traffic prioritization across WAN links.
+  name: Palo Alto Networks Qo S Rules API
+  slug: palo-alto-networks-qosrules-api
+- description: Email recipient retrieval operations.
+  name: Palo Alto Networks Recipients API
+  slug: palo-alto-networks-recipients-api
+- description: Content release notes for PAN-OS content updates.
+  name: Palo Alto Networks Release Notes API
+  slug: palo-alto-networks-releasenotes-api
+- description: Data security risk identification and management.
+  name: Palo Alto Networks Risks API
+  slug: palo-alto-networks-risks-api
+- description: Rule stack management. Rule stacks contain the security policy applied to Cloud NGFW instances.
+  name: Palo Alto Networks Rule Stacks API
+  slug: palo-alto-networks-rulestacks-api
+- description: Script execution and results retrieval.
+  name: Palo Alto Networks Scripts API
+  slug: palo-alto-networks-scripts-api
+- description: 5G security policy management.
+  name: Palo Alto Networks Security Policies API
+  slug: palo-alto-networks-security-policies-api
+- description: Service account management and credential generation.
+  name: Palo Alto Networks Service Accounts API
+  slug: palo-alto-networks-service-accounts-api
+- description: The Sse API from Palo Alto Networks — 2 operation(s) for sse.
+  name: Palo Alto Networks Sse API
+  slug: palo-alto-networks-sse-api
+- description: Network access and DNS query statistics.
+  name: Palo Alto Networks Statistics API
+  slug: palo-alto-networks-statistics-api
+- description: File, URL, and link submission for malware analysis.
+  name: Palo Alto Networks Submit API
+  slug: palo-alto-networks-submit-api
+- description: Subnet-based access rules for ZTNA network segments.
+  name: Palo Alto Networks Subnet Rules API
+  slug: palo-alto-networks-subnet-rules-api
+- description: Subscription and license management.
+  name: Palo Alto Networks Subscriptions API
+  slug: palo-alto-networks-subscriptions-api
+- description: Syslog forwarding destination management.
+  name: Palo Alto Networks Syslog Destinations API
+  slug: palo-alto-networks-syslog-destinations-api
+- description: AI scan target definition and management.
+  name: Palo Alto Networks Targets API
+  slug: palo-alto-networks-targets-api
+- description: Tenant Service Group lifecycle management and hierarchy queries.
+  name: Palo Alto Networks Tenant Service Groups API
+  slug: palo-alto-networks-tenant-service-groups-api
+- description: Multi-tenant 5G configuration management.
+  name: Palo Alto Networks Tenants API
+  slug: palo-alto-networks-tenants-api
+- description: Synthetic test results for proactive monitoring of application reachability and performance from user endpoints.
+  name: Palo Alto Networks Tests API
+  slug: palo-alto-networks-tests-api
+- description: Threat signature lookup and metadata retrieval.
+  name: Palo Alto Networks Threats API
+  slug: palo-alto-networks-threats-api
+- description: Retrieve analysis verdicts by file hash.
+  name: Palo Alto Networks Verdict API
+  slug: palo-alto-networks-verdict-api
+- description: Device vulnerability tracking operations.
+  name: Palo Alto Networks Vulnerabilities API
+  slug: palo-alto-networks-vulnerabilities-api
+- description: WAN interface configuration for defining upstream connectivity including ISP links, MPLS circuits, and LTE connections.
+  name: Palo Alto Networks WAN Interfaces API
+  slug: palo-alto-networks-waninterfaces-api
+- description: XQL (Extended Query Language) query execution.
+  name: Palo Alto Networks XQL API
+  slug: palo-alto-networks-xql-api
 arazzos:
 - description: Find an endpoint by filter, isolate it from the network, then poll until isolation is confirmed.
   name: Cortex XDR Endpoint Isolation and Verification
@@ -2302,7 +2539,7 @@ arazzos:
 - description: Authenticate to Prisma Cloud, run an RQL config query, then run a matching RQL asset query.
   name: Prisma Cloud RQL Configuration and Asset Search
   slug: palo-alto-networks-prisma-cloud-rql-config-search-workflow
-artifact_total: 2148
+artifact_total: 2227
 asyncapis:
 - description: Cortex XDR Webhooks provide real-time incident and alert notifications for security events detected across endpoints, networks, and cloud workloads. Webhooks are configured in Cortex XDR Settings > No
   name: Cortex XDR Webhooks
@@ -2450,6 +2687,22 @@ collections:
   name: 'Prisma Cloud: Managed Security Service Provider (MSSP)'
   slug: open-palo-alto-prisma-cloud-mssp-api-openapi-original
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/palo-alto-networks-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/demisto/content/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/demisto/content/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/demisto/content/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -6788,13 +7041,13 @@ modified: '2026-05-19'
 name: Palo Alto Networks
 nav: Providers
 network: true
-overview: 'Palo Alto Networks publishes 732 APIs on the [APIs.io](https://apis.io/) network, including 5G Deregistered Trend API, 5G Network Interconnects and Bandwidth API, 5G Registered Trend API, and 729 more. Tagged areas include Cloud Security, Cybersecurity, Firewall, Network Security, and SASE.
+overview: 'Palo Alto Networks publishes 811 APIs on the [APIs.io](https://apis.io/) network, including 5G Deregistered Trend API, 5G Network Interconnects and Bandwidth API, 5G Registered Trend API, and 808 more. Tagged areas include Cloud Security, Cybersecurity, Firewall, Network Security, and SASE.
 
 
   The Palo Alto Networks catalog on APIs.io includes 5 event-driven AsyncAPI specifications, 54 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Palo Alto Networks'' developer surface includes authentication, developer portal, documentation, support, engineering blog, CLI, tooling, and 71 more developer resources.'
+  Palo Alto Networks'' developer surface includes authentication, developer portal, documentation, support, engineering blog, CLI, tooling, and 75 more developer resources.'
 plans:
 - name: Palo Alto Networks Plans Pricing
   plan_count: 1
@@ -6843,19 +7096,27 @@ scopes:
   slug: palo-alto-networks-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: exemplar
-  composite: 68.1
-  delta: 4.4
+  band: strong
+  composite: 65.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 25.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 28.8
-    contract_quality: 84.9
+    contract_quality: 87.6
     developer_ergonomics: 85.7
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 68.4
-  previous_composite: 63.7
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 65.9
   provenance:
     agentic_access: derived
     contracts:
@@ -6863,8 +7124,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 573
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/screenshots/palo-alto-networks-2026-06-20T191330.png
 security:

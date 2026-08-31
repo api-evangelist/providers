@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -41,93 +41,21 @@ agentic_access:
   operation_count: 126
   slug: magicbell-agentic-access
   summary_line: 126 operations · 80 acting
-api_count: 28
+api_count: 1
 apis:
 - description: The legacy MagicBell REST API (v1) for notification delivery, user management, and channel configuration. Supports API key and user external ID based authentication. Rate limits are lower than v2 (100
   name: MagicBell REST API v1
   slug: rest-api-v1
-- description: The apns API from MagicBell — 6 operation(s) for apns.
-  name: MagicBell apns API
-  slug: magicbell-apns-api
-- description: The awssns API from MagicBell — 3 operation(s) for awssns.
-  name: MagicBell awssns API
-  slug: magicbell-awssns-api
-- description: The broadcasts API from MagicBell — 2 operation(s) for broadcasts.
-  name: MagicBell broadcasts API
-  slug: magicbell-broadcasts-api
-- description: The channel/email API from MagicBell — 8 operation(s) for channel/email.
-  name: MagicBell channel/email API
-  slug: magicbell-channel-email-api
-- description: The channel/mobile_push API from MagicBell — 6 operation(s) for channel/mobile_push.
-  name: MagicBell channel/mobile_push API
-  slug: magicbell-channel-mobile-push-api
-- description: The channel/slack API from MagicBell — 2 operation(s) for channel/slack.
-  name: MagicBell channel/slack API
-  slug: magicbell-channel-slack-api
-- description: The channel/sms API from MagicBell — 2 operation(s) for channel/sms.
-  name: MagicBell channel/sms API
-  slug: magicbell-channel-sms-api
-- description: The channel/web_push API from MagicBell — 2 operation(s) for channel/web_push.
-  name: MagicBell channel/web_push API
-  slug: magicbell-channel-web-push-api
-- description: The channels API from MagicBell — 25 operation(s) for channels.
-  name: MagicBell channels API
-  slug: magicbell-channels-api
-- description: The expo API from MagicBell — 6 operation(s) for expo.
-  name: MagicBell expo API
-  slug: magicbell-expo-api
-- description: The fcm API from MagicBell — 6 operation(s) for fcm.
-  name: MagicBell fcm API
-  slug: magicbell-fcm-api
-- description: The github API from MagicBell — 3 operation(s) for github.
-  name: MagicBell github API
-  slug: magicbell-github-api
-- description: The inbox API from MagicBell — 4 operation(s) for inbox.
-  name: MagicBell inbox API
-  slug: magicbell-inbox-api
 - description: The integrations API from MagicBell — 42 operation(s) for integrations.
   name: MagicBell integrations API
   slug: magicbell-integrations-api
-- description: The mailgun API from MagicBell — 2 operation(s) for mailgun.
-  name: MagicBell mailgun API
-  slug: magicbell-mailgun-api
-- description: The mobile_push API from MagicBell — 12 operation(s) for mobile_push.
-  name: MagicBell mobile_push API
-  slug: magicbell-mobile-push-api
-- description: The ping_email API from MagicBell — 2 operation(s) for ping_email.
-  name: MagicBell ping_email API
-  slug: magicbell-ping-email-api
 - description: The project API from MagicBell — 52 operation(s) for project.
   name: MagicBell project API
   slug: magicbell-project-api
-- description: The sendgrid API from MagicBell — 2 operation(s) for sendgrid.
-  name: MagicBell sendgrid API
-  slug: magicbell-sendgrid-api
-- description: The ses API from MagicBell — 2 operation(s) for ses.
-  name: MagicBell ses API
-  slug: magicbell-ses-api
-- description: The slack API from MagicBell — 9 operation(s) for slack.
-  name: MagicBell slack API
-  slug: magicbell-slack-api
-- description: The stripe API from MagicBell — 3 operation(s) for stripe.
-  name: MagicBell stripe API
-  slug: magicbell-stripe-api
-- description: The teams API from MagicBell — 4 operation(s) for teams.
-  name: MagicBell teams API
-  slug: magicbell-teams-api
-- description: The templates API from MagicBell — 3 operation(s) for templates.
-  name: MagicBell templates API
-  slug: magicbell-templates-api
-- description: The twilio API from MagicBell — 2 operation(s) for twilio.
-  name: MagicBell twilio API
-  slug: magicbell-twilio-api
 - description: The user API from MagicBell — 20 operation(s) for user.
   name: MagicBell user API
   slug: magicbell-user-api
-- description: The web_push API from MagicBell — 8 operation(s) for web_push.
-  name: MagicBell web_push API
-  slug: magicbell-web-push-api
-artifact_total: 79
+artifact_total: 55
 collections:
 - collection_type: open
   name: API Collection
@@ -358,7 +286,7 @@ modified: '2026-06-12'
 name: MagicBell
 nav: Providers
 network: true
-overview: 'MagicBell publishes 28 APIs on the [APIs.io](https://apis.io/) network, including REST API v1, apns API, awssns API, and 25 more. Tagged areas include Notification, Push Notifications, In-App Notifications, Email, and SMS.
+overview: 'MagicBell publishes 4 APIs on the [APIs.io](https://apis.io/) network, including REST API v1, integrations API, project API, and 1 more. Tagged areas include Notification, push notifications, in-app notifications, Email, and SMS.
 
 
   The MagicBell catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -387,18 +315,23 @@ rules:
   slug: magicbell-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.9
-  delta: 4.6
+  composite: 47.3
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 34.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
     contract_quality: 48.3
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 43.3
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -412,8 +345,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 30.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magicbell/refs/heads/main/screenshots/magicbell-2026-06-20T184842.png
 security:
@@ -428,16 +361,16 @@ security:
 slug: magicbell
 tags:
 - Notification
-- Push Notifications
-- In-App Notifications
+- push notifications
+- in-app notifications
 - Email
 - SMS
 - Slack
 - Microsoft Teams
 - Webhook
 - notification inbox
-- Multi-Channel
-- Mobile Push
-- Web Push
+- multichannel
+- mobile push
+- web push
 website: https://www.magicbell.com/
 ---

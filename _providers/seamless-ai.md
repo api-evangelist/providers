@@ -16,7 +16,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: near-conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -36,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.7
-  scored_at: '2026-08-26'
+  score: 55.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -50,15 +50,19 @@ apis:
 - description: The Seamless.AI Public API v1 — nine operations covering contact and company search, asynchronous enrichment (research), result polling, org-data retrieval and the OAuth token exchange. Search and org
   name: Seamless.AI Public API
   slug: seamless-ai-public-api
-- description: 'Hosted Model Context Protocol server exposing 54 tools across 11 domains — search, research, user, lists, saved searches, campaigns, templates, email, calls, tasks and activity — plus seven read-only '
-  name: Seamless.AI MCP Server
-  slug: seamless-ai-mcp-server
+- description: The Mcp API from Seamless.AI — 1 operation(s) for mcp.
+  name: Seamless.AI MCP API
+  slug: seamless-ai-mcp-api
 artifact_total: 28
 asyncapis:
 - description: ''
   name: Seamless Ai Webhooks
   slug: seamless-ai-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/seamless-ai-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -346,13 +350,13 @@ modified: '2026-08-14'
 name: Seamless.AI
 nav: Providers
 network: true
-overview: 'Seamless.AI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Public API and MCP Server. Tagged areas include B2B, Contact Data, Sales Intelligence, Prospecting, and Lead Generation.
+overview: 'Seamless.AI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Public API and MCP API. Tagged areas include B2B, Contact Data, Sales Intelligence, Prospecting, and Lead Generation.
 
 
   The Seamless.AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Seamless.AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 49 more developer resources.'
+  Seamless.AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 50 more developer resources.'
 plans:
 - name: Seamless Ai Plans Pricing
   plan_count: 3
@@ -391,18 +395,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 69.8
+  composite: 67.9
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 37.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 45.5
-    contract_quality: 69.4
+    contract_governance: 33.3
+    contract_quality: 72.1
     developer_ergonomics: 69.0
-    discoverability: 87.0
-    governance: 45.5
+    discoverability: 75.9
+    governance: 33.3
     operational_transparency: 34.2
-  previous_composite: 69.8
+  previous_composite: 67.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -413,8 +422,8 @@ score:
       total: 7
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/screenshots/seamless-ai-2026-06-20T193614.png
 security:

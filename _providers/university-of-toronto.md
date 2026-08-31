@@ -33,12 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-26'
-api_count: 5
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The public JSON API behind the official University of Toronto Timetable Builder, operated by Enterprise Applications and Solutions Integration (EASI) within U of T Information Technology Services on t
-  name: Timetable Builder API
-  slug: ttb-course-timetable
 - description: The University of Toronto's Shibboleth identity provider, entityID https://idpz.utorauth.utoronto.ca/shibboleth, serving signed SAML 2.0 metadata from the University's own utorauth.utoronto.ca host. R
   name: UTORauth Shibboleth Identity Provider (SAML 2.0 metadata)
   slug: utorauth-shibboleth-idp
@@ -51,7 +48,13 @@ apis:
 - description: The University of Toronto's research data repository collection inside Borealis, the Canadian Dataverse Repository operated by Scholars Portal for the Ontario Council of University Libraries. Verified
   name: U of T Dataverse (Borealis) — tenant
   slug: uoft-dataverse-borealis
-artifact_total: 25
+- description: Course, section and meeting-time retrieval.
+  name: University of Toronto Courses API
+  slug: university-of-toronto-courses-api
+- description: Sessions, divisions, campuses and other search facets.
+  name: University of Toronto Reference Data API
+  slug: university-of-toronto-reference-data-api
+artifact_total: 26
 common:
 - group: company
   title: ''
@@ -234,7 +237,7 @@ modified: '2026-08-19'
 name: University of Toronto
 nav: Providers
 network: true
-overview: 'University of Toronto publishes 1 API on the [APIs.io](https://apis.io/) network: Timetable Builder API. Tagged areas include University, Higher Education, Education, Canada, and U15.
+overview: 'University of Toronto publishes 2 APIs on the [APIs.io](https://apis.io/) network: Courses API and Reference Data API. Tagged areas include University, Higher Education, Education, Canada, and U15.
 
 
   The University of Toronto catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -268,18 +271,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 35.3
-  delta: 4.0
+  composite: 34.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 52.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 11.4
     contract_quality: 22.3
     developer_ergonomics: 28.6
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 11.4
     operational_transparency: 23.7
-  previous_composite: 31.3
+  previous_composite: 35.3
   provenance:
     conformance: first-party
     contracts:
@@ -293,8 +301,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-toronto/refs/heads/main/screenshots/university-of-toronto-2026-06-20T200245.png
 security:

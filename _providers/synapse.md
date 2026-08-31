@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: synapse-agentic-access
   summary_line: 18 operations · 6 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: API for integrating application services (bridges and bots) with the Matrix homeserver. Allows third-party applications to handle namespaced user IDs and room aliases, enabling Matrix bridges for IRC,
   name: Synapse Application Service API
@@ -104,6 +104,10 @@ collections:
   name: Synapse Admin Federation Users API
   slug: open-synapse-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/synapse-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -207,7 +211,7 @@ overview: 'Synapse publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
   The Synapse catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Synapse''s developer surface includes authentication, GitHub presence, documentation, getting-started guide, changelog, engineering blog, and 11 more developer resources.'
+  Synapse''s developer surface includes authentication, GitHub presence, documentation, getting-started guide, changelog, engineering blog, and 12 more developer resources.'
 plans:
 - name: Synapse Plans Pricing
   plan_count: 2
@@ -241,15 +245,20 @@ rules:
   slug: synapse-rules
 score:
   band: thin
-  composite: 37.2
-  delta: 0.0
+  composite: 36.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
     contract_quality: 58.3
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 13.6
     operational_transparency: 28.9
   previous_composite: 37.2
@@ -260,8 +269,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synapse/refs/heads/main/screenshots/synapse-2026-06-20T194821.png
 security:

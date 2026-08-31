@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 25
   slug: zenml-agentic-access
   summary_line: 25 operations · 7 acting
-api_count: 14
+api_count: 1
 apis:
 - description: The ZenML Pro REST API extends the OSS API with managed control-plane features for teams, including organization and tenant management, role-based access control, audit logs, and enterprise governance
   name: ZenML Pro REST API
@@ -174,6 +174,26 @@ collections:
   name: ZenML OSS REST API
   slug: open-zenml
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/zenml-io/zenml/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/zenml-io/zenml/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/zenml-io/zenml/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/zenml-io/zenml/blob/main/CODE-OF-CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/zenml-io/zenml/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -390,7 +410,7 @@ overview: 'ZenML publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
   The ZenML catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  ZenML''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, pricing, engineering blog, and 32 more developer resources.'
+  ZenML''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, pricing, engineering blog, and 37 more developer resources.'
 plans:
 - name: Zenml Plans Pricing
   plan_count: 3
@@ -423,19 +443,27 @@ rules:
     warn: 3
   slug: zenml-rules
 score:
-  band: developing
-  composite: 53.8
-  delta: 2.2
+  band: strong
+  composite: 59.2
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 13.6
     contract_quality: 61.6
     developer_ergonomics: 71.4
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
-    operational_transparency: 44.7
-  previous_composite: 51.6
+    operational_transparency: 55.3
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     contracts:
@@ -443,8 +471,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenml/refs/heads/main/screenshots/zenml-2026-06-20T201813.png
 security:

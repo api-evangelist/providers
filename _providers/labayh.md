@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -91,6 +91,10 @@ collections:
   name: Labayh Content Consultants Webinars API
   slug: open-labayh-webinars-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/labayh-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -219,22 +223,27 @@ network: true
 overview: 'Labayh publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Consultants API, Content API, Events API, and 4 more. Tagged areas include Company, Mental Health, Healthcare, Telehealth, and Therapy.
 
 
-  Labayh''s developer surface includes support, engineering blog, authentication, and 21 more developer resources.'
+  Labayh''s developer surface includes support, engineering blog, authentication, and 22 more developer resources.'
 random_paper: 16
 score:
   band: developing
-  composite: 41.0
-  delta: 0.8
+  composite: 39.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 68.9
     developer_ergonomics: 20.8
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 40.2
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,8 +260,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labayh/refs/heads/main/screenshots/labayh-2026-07-25T224413.png
 security:

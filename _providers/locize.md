@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The Locize REST API enables developers to programmatically manage translation namespaces, keys, languages, and versions. It supports fetching and updating translations via CDN endpoints, reporting mis
@@ -81,10 +81,6 @@ common:
   title: ''
   type: FinOps
   url: finops/locize-finops.yml
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 - group: design
   title: ''
   type: JSONLDContext
@@ -112,7 +108,7 @@ overview: 'Locize publishes 1 API on the [APIs.io](https://apis.io/) network: RE
   The Locize catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Locize''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+  Locize''s developer surface includes documentation, engineering blog, pricing, and 8 more developer resources.'
 plans:
 - name: Locize Plans Pricing
   plan_count: 7
@@ -125,6 +121,11 @@ rate_limits:
 score:
   band: thin
   composite: 33.3
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -136,8 +137,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 33.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/locize/refs/heads/main/screenshots/locize-2026-06-20T184640.png
 security:

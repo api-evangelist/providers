@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 19
   slug: smartrecruiters-agentic-access
   summary_line: 19 operations · 7 acting
-api_count: 12
+api_count: 3
 apis:
 - description: The Application API enables integration of the full candidate application including screening questions, and allows new applications to be submitted through partner systems and career sites.
   name: SmartRecruiters Application API
@@ -334,6 +334,11 @@ scopes:
 score:
   band: thin
   composite: 35.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 23.7
@@ -352,8 +357,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartrecruiters/refs/heads/main/screenshots/smartrecruiters-2026-06-20T194047.png
 security:

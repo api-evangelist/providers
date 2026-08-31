@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 31
   slug: paywithmybank-agentic-access
   summary_line: 31 operations · 15 acting
-api_count: 11
+api_count: 1
 apis:
 - description: The accountData API from PayWithMyBank (Trustly) — 4 operation(s) for accountdata.
   name: PayWithMyBank (Trustly) accountData API
@@ -76,7 +76,10 @@ apis:
 - description: The verifyCustomer API from PayWithMyBank (Trustly) — 1 operation(s) for verifycustomer.
   name: PayWithMyBank (Trustly) verifyCustomer API
   slug: paywithmybank-verifycustomer-api
-artifact_total: 28
+- description: The API API from PayWithMyBank (Trustly) — 0 operation(s) for api.
+  name: PayWithMyBank (Trustly) API
+  slug: paywithmybank-api-api
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Paywithmybank Webhooks
@@ -119,6 +122,10 @@ collections:
   name: accountData verifyCustomer API
   slug: open-paywithmybank-verifycustomer-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/paywithmybank-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -263,28 +270,33 @@ modified: '2026-07-20'
 name: PayWithMyBank (Trustly)
 nav: Providers
 network: true
-overview: 'PayWithMyBank (Trustly) publishes 11 APIs on the [APIs.io](https://apis.io/) network, including accountData API, accounts API, countries API, and 8 more. Tagged areas include Company, Payments, Pay by Bank, Open Banking, and ACH.
+overview: 'PayWithMyBank (Trustly) publishes 12 APIs on the [APIs.io](https://apis.io/) network, including accountData API, accounts API, countries API, and 9 more. Tagged areas include Company, Payments, Pay by Bank, Open Banking, and ACH.
 
 
   The PayWithMyBank (Trustly) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  PayWithMyBank (Trustly)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
+  PayWithMyBank (Trustly)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
 random_paper: 9
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 46.2
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 61.9
+    contract_governance: 4.5
+    contract_quality: 60.5
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 49.7
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -301,8 +313,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/screenshots/paywithmybank-2026-08-07T191723.png
 security:

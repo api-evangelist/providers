@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 32
   slug: sensible-so-agentic-access
   summary_line: 32 operations · 19 acting
-api_count: 7
+api_count: 4
 apis:
 - description: The Configuration API from sensible-so — 4 operation(s) for configuration.
   name: sensible-so Configuration API
@@ -320,11 +320,11 @@ common:
   url: https://github.com/sensible-hq/sensible-code-examples
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/sensible-hq/sensible-configuration-library
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/sensible-hq/sensible-sample-documents
 - group: build
   title: ''
@@ -418,16 +418,16 @@ mcp_servers:
   name: Sensible MCP Endpoint
   slug: sensible-mcp-endpoint
 modified: '2026-05-25'
-name: sensible-so
+name: Sensible
 nav: Providers
 network: true
-overview: 'sensible-so publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Configuration API, Document API, Document type API, and 4 more.
+overview: 'Sensible publishes 7 APIs on the [APIs.io](https://apis.io/) network, including sensible-so Configuration API, sensible-so Document API, sensible-so Document type API, and 4 more.
 
 
-  The sensible-so catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Sensible catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  sensible-so''s developer surface includes authentication, developer portal, documentation, changelog, getting-started guide, signup flow, pricing, and 41 more developer resources.'
+  Sensible''s developer surface includes authentication, developer portal, documentation, changelog, getting-started guide, signup flow, pricing, and 41 more developer resources.'
 plans:
 - name: Sensible So Plans Pricing
   plan_count: 4
@@ -440,7 +440,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: sensible-so API Rules
+  name: Sensible API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -450,7 +450,7 @@ rules:
   slug: sensible-so-jsonschema-spectral-rules
 - effective_rule_count: 12
   extends: []
-  name: sensible-so API Rules
+  name: Sensible API Rules
   rule_count: 12
   severity_counts:
     error: 9
@@ -461,6 +461,11 @@ rules:
 score:
   band: strong
   composite: 62.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 34.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 71.1
@@ -483,8 +488,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/screenshots/sensible-so-2026-06-20T193703.png
 security:

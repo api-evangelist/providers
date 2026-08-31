@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: rentcast-agentic-access
   summary_line: 10 operations
-api_count: 4
+api_count: 1
 apis:
 - description: The Avm API from RentCast — 2 operation(s) for avm.
   name: RentCast Avm API
@@ -77,6 +77,10 @@ collections:
   name: RentCast API
   slug: open-rentcast
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/rentcast-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -162,7 +166,7 @@ overview: 'RentCast publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The RentCast catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  RentCast''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 6 more developer resources.'
+  RentCast''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 7 more developer resources.'
 plans:
 - name: Rentcast Plans Pricing
   plan_count: 3
@@ -196,18 +200,23 @@ rules:
   slug: rentcast-rules
 score:
   band: developing
-  composite: 40.4
-  delta: 2.8
+  composite: 39.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 66.7
     developer_ergonomics: 38.1
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 37.6
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -215,8 +224,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentcast/refs/heads/main/screenshots/rentcast-2026-06-20T192855.png
 security:

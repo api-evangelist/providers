@@ -34,19 +34,247 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 6
 apis:
-- description: The stable REST surface of the Opal marketing planning platform — 66 paths and 97 operations across stories, moments, content, placements, assets, asset references, labels, label sets, stamps, brands,
-  name: Opal API v2
-  slug: opal-api-v2
-- description: The next-generation Opal REST surface, published as work in progress — 97 paths and 154 operations across boards, board objects and collections, board collaborators, blocks and block connectors, categ
-  name: Opal API v3
-  slug: opal-api-v3
-- description: A backend-for-frontend service published in the same public documentation set — 11 paths covering workspace-scoped blocks, smart blocks, smart categories, plans, in-market calendar and experimental pl
-  name: Opal Asgard BFF API
-  slug: opal-asgard-bff-api
-artifact_total: 12
+- description: The Accounts API from Opal — 4 operation(s) for accounts.
+  name: Opal Accounts API
+  slug: opal-accounts-api
+- description: '## Activities Overview In Opal, "activities" encompass both things like someone adding an asset to content and also someone sending a chat message. In the user interface, these are called "Chat & Acti'
+  name: Opal Activities API
+  slug: opal-activities-api
+- description: The Annotations API from Opal — 4 operation(s) for annotations.
+  name: Opal Annotations API
+  slug: opal-annotations-api
+- description: The Asset Reference Options API from Opal — 1 operation(s) for asset reference options.
+  name: Opal Asset Reference Options API
+  slug: opal-asset-reference-options-api
+- description: The Asset Reference Usage Rights Options API from Opal — 1 operation(s) for asset reference usage rights options.
+  name: Opal Asset Reference Usage Rights Options API
+  slug: opal-asset-reference-usage-rights-options-api
+- description: '## Asset References Overview In Opal, you create `assets` to represent files uploaded to the platform and `asset_references` to surface those assets for use in the Asset Library, Moments, Content, and'
+  name: Opal Asset References API
+  slug: opal-asset-references-api
+- description: '## Assets Overview Assets represent images, videos, PDFs, and any other file uploads. Any upload to the Opal platform must start with an `asset`. Some resources like `boards` can be directly related t'
+  name: Opal Assets API
+  slug: opal-assets-api
+- description: '## Block Connectors Block connectors link blocks to views. A view can contain many blocks via block connectors. A block can also belong to many views via block connectors. In the current platform, blo'
+  name: Opal Block Connectors API
+  slug: opal-block-connectors-api
+- description: The Block Custom Field Values API from Opal — 2 operation(s) for block custom field values.
+  name: Opal Block Custom Field Values API
+  slug: opal-block-custom-field-values-api
+- description: The Block Duplication API from Opal — 2 operation(s) for block duplication.
+  name: Opal Block Duplication API
+  slug: opal-block-duplication-api
+- description: The Blocks API from Opal — 5 operation(s) for blocks.
+  name: Opal Blocks API
+  slug: opal-blocks-api
+- description: '## Board Collaborators Overview Board Collaborators allow opal users to add other users as a collaborator on their **private** Boards. This allows the Collaborators to view and edit the Board as if th'
+  name: Opal Board Collaborators API
+  slug: opal-board-collaborators-api
+- description: The Board Columns API from Opal — 2 operation(s) for board columns.
+  name: Opal Board Columns API
+  slug: opal-board-columns-api
+- description: The Board Duplication API from Opal — 2 operation(s) for board duplication.
+  name: Opal Board Duplication API
+  slug: opal-board-duplication-api
+- description: '## Overview - **[Board](#tag/Boards/operation/CreateBoardV3)**: A board is the parent container and encapsulates its Board Objects and Board Object Collections - **[Board Object Collection](#tag/Board'
+  name: Opal Board Objects API
+  slug: opal-board-objects-api
+- description: The Board Standard Columns API from Opal — 1 operation(s) for board standard columns.
+  name: Opal Board Standard Columns API
+  slug: opal-board-standard-columns-api
+- description: The Board User Settings API from Opal — 1 operation(s) for board user settings.
+  name: Opal Board User Settings API
+  slug: opal-board-user-settings-api
+- description: The Boards API from Opal — 5 operation(s) for boards.
+  name: Opal Boards API
+  slug: opal-boards-api
+- description: The Brand Settings API from Opal — 2 operation(s) for brand settings.
+  name: Opal Brand Settings API
+  slug: opal-brand-settings-api
+- description: The Brands API from Opal — 1 operation(s) for brands.
+  name: Opal Brands API
+  slug: opal-brands-api
+- description: The Budgets API from Opal — 2 operation(s) for budgets.
+  name: Opal Budgets API
+  slug: opal-budgets-api
+- description: '## Bulk Operations A Bulk Operation represents a number of individual actions to be performed. ### Terms - **``Operation ID``**: A unique string identifier that corresponds to a specific individual op'
+  name: Opal Bulk Operations API
+  slug: opal-bulk-operations-api
+- description: '## Overview Categories are in a tree: a given category has zero or more ancestors and zero or more descendants. The tree is built by recursively following `parent_category` relationships. Currently ou'
+  name: Opal Categories API
+  slug: opal-categories-api
+- description: The Category Types API from Opal — 2 operation(s) for category types.
+  name: Opal Category Types API
+  slug: opal-category-types-api
+- description: The Channels API from Opal — 1 operation(s) for channels.
+  name: Opal Channels API
+  slug: opal-channels-api
+- description: The Charts API from Opal — 3 operation(s) for charts.
+  name: Opal Charts API
+  slug: opal-charts-api
+- description: The Checkpoints API from Opal — 1 operation(s) for checkpoints.
+  name: Opal Checkpoints API
+  slug: opal-checkpoints-api
+- description: The Content API from Opal — 6 operation(s) for content.
+  name: Opal Content API
+  slug: opal-content-api
+- description: The Content Schedules API from Opal — 2 operation(s) for content schedules.
+  name: Opal Content Schedules API
+  slug: opal-content-schedules-api
+- description: The Custom Field Colors API from Opal — 1 operation(s) for custom field colors.
+  name: Opal Custom Field Colors API
+  slug: opal-custom-field-colors-api
+- description: The Custom Field Options API from Opal — 1 operation(s) for custom field options.
+  name: Opal Custom Field Options API
+  slug: opal-custom-field-options-api
+- description: The Custom Field Types API from Opal — 1 operation(s) for custom field types.
+  name: Opal Custom Field Types API
+  slug: opal-custom-field-types-api
+- description: '## Custom Fields Overview Custom Fields let you create custom inputs, the value of which can then be associated with a Moment, and allow your users to track dimensions based on your specific needs. - '
+  name: Opal Custom Fields API
+  slug: opal-custom-fields-api
+- description: The Delivery Records API from Opal — 1 operation(s) for delivery records.
+  name: Opal Delivery Records API
+  slug: opal-delivery-records-api
+- description: The Experimental API from Opal — 2 operation(s) for experimental.
+  name: Opal Experimental API
+  slug: opal-experimental-api
+- description: The Filter Sets API from Opal — 2 operation(s) for filter sets.
+  name: Opal Filter Sets API
+  slug: opal-filter-sets-api
+- description: The Gem Chats API from Opal — 2 operation(s) for gem chats.
+  name: Opal Gem Chats API
+  slug: opal-gem-chats-api
+- description: The Gem Files API from Opal — 2 operation(s) for gem files.
+  name: Opal Gem Files API
+  slug: opal-gem-files-api
+- description: The In Market API from Opal — 1 operation(s) for in market.
+  name: Opal In Market API
+  slug: opal-in-market-api
+- description: The Key Dates API from Opal — 2 operation(s) for key dates.
+  name: Opal Key Dates API
+  slug: opal-key-dates-api
+- description: The Label Sets API from Opal — 1 operation(s) for label sets.
+  name: Opal Label Sets API
+  slug: opal-label-sets-api
+- description: '## Labels Overview In Opal, Labels are a useful way of categorizing resources to be filtered or grouped. ### Label Inheritance Labels follow StoryFirst inheritance rules. This means that **Content** i'
+  name: Opal Labels API
+  slug: opal-labels-api
+- description: The Messages API from Opal — 2 operation(s) for messages.
+  name: Opal Messages API
+  slug: opal-messages-api
+- description: The Moment Assignees API from Opal — 2 operation(s) for moment assignees.
+  name: Opal Moment Assignees API
+  slug: opal-moment-assignees-api
+- description: The Moment Custom Fields API from Opal — 2 operation(s) for moment custom fields.
+  name: Opal Moment Custom Fields API
+  slug: opal-moment-custom-fields-api
+- description: The Moment Duplication API from Opal — 2 operation(s) for moment duplication.
+  name: Opal Moment Duplication API
+  slug: opal-moment-duplication-api
+- description: The Moment Schedules API from Opal — 2 operation(s) for moment schedules.
+  name: Opal Moment Schedules API
+  slug: opal-moment-schedules-api
+- description: The Moments API from Opal — 6 operation(s) for moments.
+  name: Opal Moments API
+  slug: opal-moments-api
+- description: '## Onboarding Overview Unlike many other Opal endpoints, the Onboarding endpoints are only accessible via a special OAuth scope that is not currently offered to Opal customers (i.e. it is internal-use'
+  name: Opal Onboarding API
+  slug: opal-onboarding-api
+- description: The Phase Items API from Opal — 2 operation(s) for phase items.
+  name: Opal Phase Items API
+  slug: opal-phase-items-api
+- description: The Planning Status API from Opal — 1 operation(s) for planning status.
+  name: Opal Planning Status API
+  slug: opal-planning-status-api
+- description: The Plans API from Opal — 1 operation(s) for plans.
+  name: Opal Plans API
+  slug: opal-plans-api
+- description: The Post Types API from Opal — 1 operation(s) for post types.
+  name: Opal Post Types API
+  slug: opal-post-types-api
+- description: Workspace brand presentation themes
+  name: Opal Presentation Themes API
+  slug: opal-presentation-themes-api
+- description: The Privacy API from Opal — 1 operation(s) for privacy.
+  name: Opal Privacy API
+  slug: opal-privacy-api
+- description: The Reactions API from Opal — 3 operation(s) for reactions.
+  name: Opal Reactions API
+  slug: opal-reactions-api
+- description: '## Overview ### Client libraries and document formats Rich Text Document endpoints can accept documents in arbitrary formats. The `client_library` attribute identifies the framework or library that ge'
+  name: Opal Rich Text Documents API
+  slug: opal-rich-text-documents-api
+- description: The Rich Texts API from Opal — 2 operation(s) for rich texts.
+  name: Opal Rich Texts API
+  slug: opal-rich-texts-api
+- description: The Search API from Opal — 1 operation(s) for search.
+  name: Opal Search API
+  slug: opal-search-api
+- description: The Services API from Opal — 1 operation(s) for services.
+  name: Opal Services API
+  slug: opal-services-api
+- description: The Smart Blocks API from Opal — 2 operation(s) for smart blocks.
+  name: Opal Smart Blocks API
+  slug: opal-smart-blocks-api
+- description: '## Stamps Overview In Opal, a Stamp acts as a pre-configured template for creating `moment`s or `content`. The `stamp_type` attribute specifies if the stamp is intended for moments or content. ### Typ'
+  name: Opal Stamps API
+  slug: opal-stamps-api
+- description: The Stories API from Opal — 6 operation(s) for stories.
+  name: Opal Stories API
+  slug: opal-stories-api
+- description: The Stories V1 API from Opal — 1 operation(s) for stories v1.
+  name: Opal Stories V1 API
+  slug: opal-stories-v1-api
+- description: The URL Previews API from Opal — 1 operation(s) for url previews.
+  name: Opal URL Previews API
+  slug: opal-url-previews-api
+- description: The Url Uploads API from Opal — 2 operation(s) for url uploads.
+  name: Opal Url Uploads API
+  slug: opal-url-uploads-api
+- description: The User Domain Views API from Opal — 1 operation(s) for user domain views.
+  name: Opal User Domain Views API
+  slug: opal-user-domain-views-api
+- description: The User Groups API from Opal — 5 operation(s) for user groups.
+  name: Opal User Groups API
+  slug: opal-user-groups-api
+- description: The Users API from Opal — 6 operation(s) for users.
+  name: Opal Users API
+  slug: opal-users-api
+- description: The View Colors API from Opal — 1 operation(s) for view colors.
+  name: Opal View Colors API
+  slug: opal-view-colors-api
+- description: The View Columns API from Opal — 2 operation(s) for view columns.
+  name: Opal View Columns API
+  slug: opal-view-columns-api
+- description: The View Standard Columns API from Opal — 1 operation(s) for view standard columns.
+  name: Opal View Standard Columns API
+  slug: opal-view-standard-columns-api
+- description: The Views API from Opal — 3 operation(s) for views.
+  name: Opal Views API
+  slug: opal-views-api
+- description: The Workflow Assignments API from Opal — 2 operation(s) for workflow assignments.
+  name: Opal Workflow Assignments API
+  slug: opal-workflow-assignments-api
+- description: The Workflow Contexts API from Opal — 1 operation(s) for workflow contexts.
+  name: Opal Workflow Contexts API
+  slug: opal-workflow-contexts-api
+- description: The Workflow Responses API from Opal — 2 operation(s) for workflow responses.
+  name: Opal Workflow Responses API
+  slug: opal-workflow-responses-api
+- description: The Workflow Stages API from Opal — 2 operation(s) for workflow stages.
+  name: Opal Workflow Stages API
+  slug: opal-workflow-stages-api
+- description: '## Workflows Overview In Opal, a workflow is an arrangement of tasks and approvals required to progress through the lifecycle of a StoryFirst resource. **Historical Note:** *The v2 Workflows API will '
+  name: Opal Workflows API
+  slug: opal-workflows-api
+- description: The Workspaces API from Opal — 3 operation(s) for workspaces.
+  name: Opal Workspaces API
+  slug: opal-workspaces-api
+artifact_total: 88
 collections:
 - collection_type: open
   name: Asgard BFF API
@@ -58,6 +286,22 @@ collections:
   name: Opal API (⚠️  WIP)
   slug: open-opal-v3
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/opal-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/opal-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/opal-v3-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/opal-asgard-bff-overlay.yaml
 - group: auth
   title: ''
   type: OAuthScopes
@@ -187,10 +431,10 @@ modified: '2026-08-13'
 name: Opal
 nav: Providers
 network: true
-overview: 'Opal publishes 3 APIs on the [APIs.io](https://apis.io/) network: API v2, API v3, and Asgard BFF API. Tagged areas include Company, Consumer, Marketing, Content Planning, and Marketing Calendar.
+overview: 'Opal publishes 79 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Activities API, Annotations API, and 76 more. Tagged areas include Company, Consumer, Marketing, Content Planning, and Marketing Calendar.
 
 
-  Opal''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 23 more developer resources.'
+  Opal''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 27 more developer resources.'
 plans:
 - name: Opal Plans Pricing
   plan_count: 0
@@ -207,18 +451,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 48.6
+  composite: 46.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
-    contract_quality: 54.3
+    contract_governance: 4.5
+    contract_quality: 55.0
     developer_ergonomics: 58.9
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 48.6
+  previous_composite: 46.8
   provenance:
     conformance: derived
     contracts:
@@ -228,8 +477,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opal/refs/heads/main/screenshots/opal-2026-08-07T190443.png
 security:

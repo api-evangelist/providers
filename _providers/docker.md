@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.7
-  scored_at: '2026-08-26'
+  score: 25.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 4
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 107
   slug: docker-agentic-access
   summary_line: 107 operations · 62 acting · 4 human-in-the-loop
-api_count: 15
+api_count: 1
 apis:
 - description: Configs are application configurations that can be used by services. Swarm mode must be enabled for these endpoints to work.
   name: Docker Config API
@@ -384,18 +384,23 @@ rate_limits:
   slug: docker-rate-limits
 score:
   band: developing
-  composite: 43.2
-  delta: 2.4
+  composite: 40.6
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
-    contract_quality: 40.0
+    contract_governance: 4.5
+    contract_quality: 42.2
     developer_ergonomics: 31.0
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 57.4
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 40.8
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -405,8 +410,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/screenshots/docker-2026-06-20T180111.png
 security:

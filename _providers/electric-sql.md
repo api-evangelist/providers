@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 3
   slug: electric-sql-agentic-access
   summary_line: 3 operations · 2 acting
-api_count: 3
+api_count: 1
 apis:
 - description: 'The official @electric-sql/client NPM package that wraps the HTTP Sync API with two high-level primitives: ShapeStream (low-level message stream) and Shape (materialized view). Supports SSE, long-poll'
   name: Electric TypeScript Client
@@ -133,10 +133,6 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/electric-sql-vocabulary.yml
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: '2026-06-12'
 description: ElectricSQL (Electric) is a local-first sync engine for Postgres that streams live database changes to embedded clients in browsers, apps, and AI agents via an HTTP-based Shape sync protocol. It exposes a low-level HTTP API and TypeScript, Elixir, and other client SDKs that materialize real-time Postgres data into local state with sub-millisecond reactivity. Developers can run Electric self-hosted as a Docker service or use Electric Cloud, a managed offering with pay-as-you-go and subscription plans. The platform also underpins PGlite (an embeddable Postgres under 3 MB) and Durable Streams for reliable agent messaging, making it a broader data-infrastructure toolkit for building collaborative and multi-agent systems.
 examples:
@@ -177,7 +173,7 @@ overview: 'ElectricSQL publishes 1 API on the [APIs.io](https://apis.io/) networ
   The ElectricSQL catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ElectricSQL''s developer surface includes documentation, engineering blog, changelog, pricing, and 15 more developer resources.'
+  ElectricSQL''s developer surface includes documentation, engineering blog, changelog, pricing, and 14 more developer resources.'
 plans:
 - name: Electric Sql Plans Pricing
   plan_count: 4
@@ -200,15 +196,20 @@ rules:
   slug: electric-sql-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.7
-  delta: 0.0
+  composite: 41.2
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 49.7
     developer_ergonomics: 16.7
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 25.0
     operational_transparency: 50.0
   previous_composite: 41.7
@@ -219,8 +220,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electric-sql/refs/heads/main/screenshots/electric-sql-2026-06-20T180546.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 11
   slug: pie-insurance-agentic-access
   summary_line: 11 operations · 7 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Appetite API from Pie Insurance — 1 operation(s) for appetite.
   name: Pie Insurance Appetite API
@@ -94,6 +94,10 @@ collections:
   name: Pie Insurance Quote Api Appetite Quotes API
   slug: open-pie-insurance-quotes-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pie-insurance-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -228,19 +232,24 @@ network: true
 overview: 'Pie Insurance publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Appetite API, ClassCodeSearch API, Eligibility API, and 4 more. Tagged areas include Insurance, Insurtech, Workers Compensation, Small Business, and Commercial Insurance.
 
 
-  Pie Insurance''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, and 22 more developer resources.'
+  Pie Insurance''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, and 23 more developer resources.'
 random_paper: 8
 score:
   band: thin
-  composite: 28.3
-  delta: 0.0
+  composite: 27.8
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
     contract_governance: 0.0
     contract_quality: 45.2
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 28.3
@@ -257,8 +266,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 24.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/screenshots/pie-insurance-2026-06-20T191702.png
 security:
@@ -284,6 +293,6 @@ tags:
 - Agency Portal
 - Partner API
 - Quoting
-- Bindings
+- Binding
 website: https://www.pieinsurance.com
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 15
   slug: spring-boot-admin-console-agentic-access
   summary_line: 15 operations · 4 acting · 1 human-in-the-loop
-api_count: 7
+api_count: 1
 apis:
 - description: Manage registered Spring Boot applications. Applications are logical groupings of instances sharing the same name and management URL base.
   name: Applications API
@@ -82,6 +82,14 @@ collections:
   name: Spring Boot Admin Server API
   slug: open-spring-boot-admin-console
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/codecentric/spring-boot-admin/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/codecentric/spring-boot-admin/blob/master/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -162,7 +170,7 @@ overview: 'Spring Boot Admin Console publishes 3 APIs on the [APIs.io](https://a
   The Spring Boot Admin Console catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spring Boot Admin Console''s developer surface includes engineering blog and 8 more developer resources.'
+  Spring Boot Admin Console''s developer surface includes engineering blog and 10 more developer resources.'
 plans:
 - name: Spring Boot Admin Console Plans Pricing
   plan_count: 1
@@ -196,18 +204,26 @@ rules:
   slug: spring-boot-admin-console-rules
 score:
   band: thin
-  composite: 29.6
-  delta: 3.0
+  composite: 31.2
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 60.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
     contract_quality: 54.2
     developer_ergonomics: 9.5
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 26.6
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     contracts:
@@ -215,8 +231,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: spring-boot-admin-console
 tags:

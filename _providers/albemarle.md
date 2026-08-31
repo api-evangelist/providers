@@ -26,20 +26,24 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-26'
+  score: 2.5
+  scored_at: '2026-08-30'
 api_count: 0
-artifact_total: 19
+artifact_total: 21
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/albemarle-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/albemarle-llms.txt
 - group: company
   title: ''
   type: Website
@@ -48,18 +52,18 @@ common:
   title: ''
   type: Blog
   url: https://www.albemarle.com/news
-- group: start
+- group: other
   title: ''
-  type: Portal
+  type: Products
   url: https://www.albemarle.com/us/en/what-we-offer
 - group: company
   title: ''
   type: LinkedIn
-  url: https://www.linkedin.com/company/albemarle-corporation
+  url: https://www.linkedin.com/company/albemarlecorp
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.albemarle.com/us/en/legal
+  url: https://www.albemarle.com/us/en/terms-use
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -68,6 +72,20 @@ common:
   title: ''
   type: Contact
   url: https://www.albemarle.com/us/en/contact-us
+coverage:
+  checked: '2026-08-30'
+  detail: 'Albemarle is a lithium and bromine specialty-chemicals manufacturer selling physical product under negotiated supply agreements, and it operates no developer surface at all: api.albemarle.com resolves to an unconfigured vhost serving "Web Site Not Found", developer.albemarle.com and developers.albemarle.com both 404, and the Drupal corporate site returns its standard 404 page for /openapi.json, /swagger.json and /api-docs. The one machine-readable document Albemarle does publish is an llms.txt at the site root, which is agent context about the company, not an API contract.'
+  evidence:
+  - status: 404
+    url: https://api.albemarle.com/
+  - status: 404
+    url: https://developer.albemarle.com/
+  - status: 404
+    url: https://www.albemarle.com/openapi.json
+  - status: 200
+    url: https://www.albemarle.com/llms.txt
+  reason: not-a-software-company
+  state: none
 created: '2026-03-23'
 description: Albemarle Corporation is a global specialty chemicals company and leading provider of lithium, bromine, and other essential elements. Operating from its global headquarters in Charlotte, NC, Albemarle serves customers in approximately 70 countries with world-class hard-rock and brine lithium resources, state-of-the-art lithium conversion facilities, advanced lithium material and process development, bromine production facilities, and the US's only producing lithium resource in Silver Peak, NV. The company serves critical markets including electric vehicle batteries, energy storage, flame retardants, pharmaceutical ingredients, catalysts, and specialty chemicals, employing approximately 7,800 people and holding over 1,500 active patents worldwide.
 features:
@@ -96,14 +114,18 @@ integrations:
 - description: Catalyst supply and technical service partnerships with refining and petrochemical customers worldwide.
   name: Petroleum Refiners
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-30'
 name: Albemarle
 nav: Providers
 network: true
 overview: 'Albemarle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Chemicals, Lithium, Bromine, Energy Storage, and Electric Vehicles.
 
 
-  Albemarle''s developer surface includes engineering blog, developer portal, and 6 more developer resources.'
+  Albemarle''s developer surface includes engineering blog and 8 more developer resources.'
+plans:
+- name: Albemarle Plans Pricing
+  plan_count: 0
+  slug: albemarle-plans-pricing
 press:
 - date: '2026-05-25'
   title: Albemarle Reports Fourth Quarter and Full Year 2025 ...
@@ -121,16 +143,25 @@ press:
   title: Innovation
   url: https://www.albemarle.com/us/en/who-we-are/innovation
 random_paper: 9
+rate_limits:
+- limit_count: 0
+  name: Albemarle Rate Limits
+  slug: albemarle-rate-limits
 score:
   band: minimal
-  composite: 8.6
-  delta: 0.0
+  composite: 9.6
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.0
   facets:
-    access_clarity: 10.5
-    commercial_clarity: 10.5
+    access_clarity: 21.1
+    commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 2.4
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -140,9 +171,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 13.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 18.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/albemarle/refs/heads/main/screenshots/albemarle-2026-06-20T171503.png
 security:

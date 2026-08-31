@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 32
   slug: td-bank-agentic-access
   summary_line: 32 operations · 7 acting · 2 human-in-the-loop
-api_count: 16
+api_count: 8
 apis:
 - description: FDX v6.2 Transactions endpoint that returns posted and pending transaction data for a consented account — amounts, dates, descriptions, merchant fields, status — with support for pagination, date-rang
   name: TD Bank Transactions API
@@ -167,6 +167,10 @@ collections:
   name: TD Bank Account Basic Accounts Transactions API
   slug: open-td-bank-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/td-bank-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -342,7 +346,7 @@ overview: 'TD Bank publishes 15 APIs on the [APIs.io](https://apis.io/) network,
   The TD Bank catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TD Bank''s developer surface includes authentication, developer portal, documentation, GitHub presence, and 25 more developer resources.'
+  TD Bank''s developer surface includes authentication, developer portal, documentation, GitHub presence, and 26 more developer resources.'
 plans:
 - name: Td Bank Plans Pricing
   plan_count: 3
@@ -382,7 +386,12 @@ scopes:
 score:
   band: developing
   composite: 48.4
-  delta: -0.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -392,7 +401,7 @@ score:
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 47.4
-  previous_composite: 49.2
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     contracts:
@@ -406,8 +415,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/td-bank/refs/heads/main/screenshots/td-bank-2026-08-17T082254.png
 security:
@@ -426,7 +435,7 @@ tags:
 - Akoya
 - Banking
 - Bank Secrecy Act
-- Bill Payments
+- Bill Payment
 - Consent
 - Consumer Banking
 - FDX

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 19
   slug: lyft-agentic-access
   summary_line: 19 operations · 6 acting
-api_count: 7
+api_count: 2
 apis:
 - description: Endpoints for creating, scheduling, tracking, and managing rides on behalf of passengers who may not have a Lyft account.
   name: lyft Concierge Rides API
@@ -98,6 +98,10 @@ collections:
   name: Lyft Concierge Concierge Rides API
   slug: open-lyft-rides-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lyft-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -174,7 +178,7 @@ overview: 'lyft publishes 7 APIs on the [APIs.io](https://apis.io/) network, inc
   The lyft catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  lyft''s developer surface includes authentication, engineering blog, and 8 more developer resources.'
+  lyft''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
 plans:
 - name: Lyft Plans Pricing
   plan_count: 3
@@ -197,18 +201,23 @@ rules:
   slug: lyft-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.9
-  delta: 1.9
+  composite: 31.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 73.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 65.6
     developer_ergonomics: 23.8
-    discoverability: 50.0
+    discoverability: 44.4
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 30.0
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     contracts:
@@ -220,8 +229,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lyft/refs/heads/main/screenshots/lyft-2026-06-20T184816.png
 security:

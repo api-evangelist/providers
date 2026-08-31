@@ -23,24 +23,74 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: 'REST API for the Osano platform covering Cookie Consent configurations, rules, discoveries and audit log; Subject Rights requests, request types, action items, summaries, portal messages and activity '
-  name: Osano Customer REST API
-  slug: osano-customer-rest-api
-- description: REST API for the Osano Unified Consent platform — submit and check consents, retrieve unified consent and consent profiles for a subject, list privacy protocol collections, create and verify subject p
-  name: Osano Unified Consent Core API
-  slug: osano-unified-consent-core-api
 - description: Browser-side JavaScript API for the Osano Consent Management Platform, loaded from cmp.osano.com. Exposes functions (showDialog, showDrawer, getConsent, ready, addEventListener), properties (consentMo
   name: Osano CMP JavaScript API
   slug: osano-cmp-javascript-api
-artifact_total: 10
+- description: The cmp API from Osano — 6 operation(s) for cmp.
+  name: Osano Cmp API
+  slug: osano-cmp-api
+- description: The cmpRules API from Osano — 2 operation(s) for cmprules.
+  name: Osano Cmp Rules API
+  slug: osano-cmprules-api
+- description: The Collections API from Osano — 2 operation(s) for collections.
+  name: Osano Collections API
+  slug: osano-collections-api
+- description: The Config API from Osano — 1 operation(s) for config.
+  name: Osano Config API
+  slug: osano-config-api
+- description: The connectors API from Osano — 1 operation(s) for connectors.
+  name: Osano Connectors API
+  slug: osano-connectors-api
+- description: The Consent Profiles API from Osano — 1 operation(s) for consent profiles.
+  name: Osano Consent Profiles API
+  slug: osano-consent-profiles-api
+- description: The Consents API from Osano — 4 operation(s) for consents.
+  name: Osano Consents API
+  slug: osano-consents-api
+- description: The customerInsights API from Osano — 1 operation(s) for customerinsights.
+  name: Osano Customer Insights API
+  slug: osano-customerinsights-api
+- description: Discover and manage data stores and personal data fields
+  name: Osano Data Discovery API
+  slug: osano-datadiscovery-api
+- description: Manage subject rights requests and data subject access requests
+  name: Osano Dsar API
+  slug: osano-dsar-api
+- description: Manage action items for subject rights requests
+  name: Osano Dsar Action Items API
+  slug: osano-dsaractionitems-api
+- description: The Sessions API from Osano — 1 operation(s) for sessions.
+  name: Osano Sessions API
+  slug: osano-sessions-api
+- description: The subjectRightsPortal API from Osano — 2 operation(s) for subjectrightsportal.
+  name: Osano Subject Rights Portal API
+  slug: osano-subjectrightsportal-api
+- description: The Subjects API from Osano — 9 operation(s) for subjects.
+  name: Osano Subjects API
+  slug: osano-subjects-api
+- description: The Token API from Osano — 1 operation(s) for token.
+  name: Osano Token API
+  slug: osano-token-api
+- description: The Unified Consent Core API API from Osano — 1 operation(s) for unified consent core api.
+  name: Osano Unified Consent Core API
+  slug: osano-unified-consent-core-api-api
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Osano Webhooks
   slug: osano-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/osano-customer-rest-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/osano-unified-consent-core-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -194,13 +244,13 @@ modified: '2026-08-26'
 name: Osano
 nav: Providers
 network: true
-overview: 'Osano publishes 2 APIs on the [APIs.io](https://apis.io/) network: Customer REST API and Unified Consent Core API. Tagged areas include Company, Data Privacy, Consent Management, Compliance, and GDPR.
+overview: 'Osano publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Cmp API, Cmp Rules API, Collections API, and 13 more. Tagged areas include Company, Data Privacy, Consent Management, Compliance, and GDPR.
 
 
   The Osano catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Osano''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Osano''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
 plans:
 - name: Osano Plans Pricing
   plan_count: 3
@@ -212,16 +262,23 @@ rate_limits:
   slug: osano-rate-limits
 score:
   band: strong
-  composite: 55.8
+  composite: 54.4
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 16.7
-    contract_quality: 57.2
+    contract_governance: 4.5
+    contract_quality: 57.7
     developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 50.0
+  previous_composite: 54.4
   provenance:
     conformance: derived
     contracts:
@@ -231,8 +288,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Osano Authentication

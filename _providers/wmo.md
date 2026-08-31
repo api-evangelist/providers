@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 21
   slug: wmo-agentic-access
   summary_line: 21 operations · 4 acting
-api_count: 9
+api_count: 1
 apis:
 - description: The WMO World Weather Information Service (WWIS) provides public JSON endpoints delivering official city weather forecasts and climatological data contributed by WMO member national meteorological and
   name: World Weather Information Service API
@@ -174,18 +174,23 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 39.1
-  delta: 2.4
+  composite: 38.8
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 55.0
+    contract_quality: 56.3
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 36.7
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +204,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wmo/refs/heads/main/screenshots/wmo-2026-06-20T201531.png
 security:

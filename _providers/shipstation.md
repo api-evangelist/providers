@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 36
   slug: shipstation-agentic-access
   summary_line: 36 operations · 19 acting
-api_count: 11
+api_count: 1
 apis:
 - description: The ShipStation V2 API is the next-generation shipping and inventory API built on ShipEngine technology. It provides improved endpoints for creating orders, managing customers, querying order and ship
   name: ShipStation V2 API
@@ -150,6 +150,10 @@ collections:
   name: ShipStation V1 Accounts Webhooks API
   slug: open-shipstation-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shipstation-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -361,7 +365,7 @@ overview: 'ShipStation publishes 10 APIs on the [APIs.io](https://apis.io/) netw
   The ShipStation catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  ShipStation''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 11 more developer resources.'
+  ShipStation''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 12 more developer resources.'
 plans:
 - name: Shipstation Plans Pricing
   plan_count: 3
@@ -406,18 +410,23 @@ rules:
   slug: shipstation-rules
 score:
   band: developing
-  composite: 49.7
-  delta: 1.8
+  composite: 49.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 28.8
     contract_quality: 80.8
     developer_ergonomics: 52.4
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 47.9
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     contracts:
@@ -425,8 +434,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/screenshots/shipstation-2026-06-20T193826.png
 security:

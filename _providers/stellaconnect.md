@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 14
   slug: stellaconnect-agentic-access
   summary_line: 14 operations · 7 acting
-api_count: 6
+api_count: 3
 apis:
 - description: The Coaching API from Stella Connect (Medallia Agent Connect) — 1 operation(s) for coaching.
   name: Stella Connect (Medallia Agent Connect) Coaching API
@@ -85,6 +85,10 @@ collections:
   name: Agent Connect Coaching Requests API
   slug: open-stellaconnect-requests-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/stellaconnect-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -220,7 +224,7 @@ network: true
 overview: 'Stella Connect (Medallia Agent Connect) publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Coaching API, Data API, Employees API, and 3 more. Tagged areas include Customer Service, Customer Feedback, Quality Assurance, Coaching, and Contact Centers.
 
 
-  Stella Connect (Medallia Agent Connect)''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, sandbox, and 23 more developer resources.'
+  Stella Connect (Medallia Agent Connect)''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, sandbox, and 24 more developer resources.'
 random_paper: 5
 rate_limits:
 - limit_count: 5
@@ -228,18 +232,23 @@ rate_limits:
   slug: stellaconnect-rate-limits
 score:
   band: developing
-  composite: 41.7
+  composite: 40.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 49.8
     developer_ergonomics: 20.8
     discoverability: 74.1
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 41.7
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -250,8 +259,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stellaconnect/refs/heads/main/screenshots/stellaconnect-2026-08-17T082119.png
 security:

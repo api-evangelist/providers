@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-08-26'
-api_count: 10
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: 'Account-scoped data: profile, images, albums, favorites, settings, notifications.'
   name: Imgur Account API
@@ -326,27 +326,32 @@ rules:
   slug: imgur-rules
 score:
   band: strong
-  composite: 58.6
-  delta: 5.9
+  composite: 56.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 20.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.8
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 28.8
     contract_quality: 67.4
-    developer_ergonomics: 54.8
-    discoverability: 81.5
+    developer_ergonomics: 48.8
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 52.7
+  previous_composite: 58.6
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imgur/refs/heads/main/screenshots/imgur-2026-06-20T183301.png
 security:
 - kind: domain-security

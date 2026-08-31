@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The Landbase cloud gateway that landbase-cli calls in platform mode. It backs natural-language audience search and agent runs, dataset upload/lineage/download, record match, synchronous person/company
@@ -155,7 +155,7 @@ modified: '2026-08-23'
 name: Landbase
 nav: Providers
 network: true
-overview: 'Landbase publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Go To Market, Sales, Marketing, and B2B Data.
+overview: 'Landbase publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Go-To-Market, Sales, Marketing, and B2B Data.
 
 
   Landbase''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
@@ -170,24 +170,29 @@ rate_limits:
   slug: landbase-rate-limits
 score:
   band: developing
-  composite: 45.4
-  delta: -1.3
+  composite: 44.3
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 66.7
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 46.7
+  previous_composite: 44.3
   provenance:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -253,7 +258,7 @@ skills:
 slug: landbase
 tags:
 - Company
-- Go To Market
+- Go-To-Market
 - Sales
 - Marketing
 - B2B Data

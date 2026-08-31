@@ -23,16 +23,61 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 17
 apis:
-- description: The public, anonymously-readable WordPress REST content API served by inflammatix.com. Alongside the standard WordPress collections (posts, pages, media, categories, tags, comments, search) it exposes
-  name: Inflammatix Site Content API
-  slug: site-content
-- description: The public, anonymously-readable WordPress REST content API served by support.inflammatix.com, the Inflammatix customer support and TriVerity/Myrna operator-training portal. In addition to the standar
-  name: Inflammatix Support and Training Content API
-  slug: support-content
-artifact_total: 7
+- description: The Categories API from Inflammatix — 2 operation(s) for categories.
+  name: Inflammatix Categories API
+  slug: inflammatix-categories-api
+- description: The Comments API from Inflammatix — 2 operation(s) for comments.
+  name: Inflammatix Comments API
+  slug: inflammatix-comments-api
+- description: The CourseCategories API from Inflammatix — 2 operation(s) for coursecategories.
+  name: Inflammatix Course Categories API
+  slug: inflammatix-coursecategories-api
+- description: The Courses API from Inflammatix — 2 operation(s) for courses.
+  name: Inflammatix Courses API
+  slug: inflammatix-courses-api
+- description: The CourseTags API from Inflammatix — 2 operation(s) for coursetags.
+  name: Inflammatix Course Tags API
+  slug: inflammatix-coursetags-api
+- description: The Lessons API from Inflammatix — 2 operation(s) for lessons.
+  name: Inflammatix Lessons API
+  slug: inflammatix-lessons-api
+- description: The Media API from Inflammatix — 2 operation(s) for media.
+  name: Inflammatix Media API
+  slug: inflammatix-media-api
+- description: The Pages API from Inflammatix — 2 operation(s) for pages.
+  name: Inflammatix Pages API
+  slug: inflammatix-pages-api
+- description: The Posts API from Inflammatix — 2 operation(s) for posts.
+  name: Inflammatix Posts API
+  slug: inflammatix-posts-api
+- description: The PublicationCategories API from Inflammatix — 2 operation(s) for publicationcategories.
+  name: Inflammatix Publication Categories API
+  slug: inflammatix-publicationcategories-api
+- description: The Publications API from Inflammatix — 2 operation(s) for publications.
+  name: Inflammatix Publications API
+  slug: inflammatix-publications-api
+- description: The Quizzes API from Inflammatix — 2 operation(s) for quizzes.
+  name: Inflammatix Quizzes API
+  slug: inflammatix-quizzes-api
+- description: The Search API from Inflammatix — 1 operation(s) for search.
+  name: Inflammatix Search API
+  slug: inflammatix-search-api
+- description: The Statuses API from Inflammatix — 1 operation(s) for statuses.
+  name: Inflammatix Statuses API
+  slug: inflammatix-statuses-api
+- description: The Tags API from Inflammatix — 2 operation(s) for tags.
+  name: Inflammatix Tags API
+  slug: inflammatix-tags-api
+- description: The Taxonomies API from Inflammatix — 1 operation(s) for taxonomies.
+  name: Inflammatix Taxonomies API
+  slug: inflammatix-taxonomies-api
+- description: The Types API from Inflammatix — 1 operation(s) for types.
+  name: Inflammatix Types API
+  slug: inflammatix-types-api
+artifact_total: 22
 collections:
 - collection_type: open
   name: Inflammatix Site Content API (WordPress REST)
@@ -41,6 +86,14 @@ collections:
   name: Inflammatix Support & Training Content API (WordPress REST)
   slug: open-inflammatix-support-content
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/inflammatix-content-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/inflammatix-support-content-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -158,25 +211,30 @@ modified: '2026-08-01'
 name: Inflammatix
 nav: Providers
 network: true
-overview: 'Inflammatix publishes 2 APIs on the [APIs.io](https://apis.io/) network: Site Content API and Support and Training Content API. Tagged areas include Company, Health, Healthcare, Diagnostics, and Medical Devices.
+overview: 'Inflammatix publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Course Categories API, and 14 more. Tagged areas include Company, Health, Healthcare, Diagnostics, and Medical Devices.
 
 
-  Inflammatix''s developer surface includes support, engineering blog, authentication, and 23 more developer resources.'
+  Inflammatix''s developer surface includes support, engineering blog, authentication, and 25 more developer resources.'
 random_paper: 2
 score:
   band: developing
-  composite: 39.9
-  delta: 0.9
+  composite: 39.3
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
-    contract_governance: 30.3
-    contract_quality: 58.5
+    contract_governance: 18.2
+    contract_quality: 56.9
     developer_ergonomics: 20.8
-    discoverability: 68.5
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 5.3
-  previous_composite: 39.0
+  previous_composite: 39.3
   provenance:
     conformance: first-party
     contracts:
@@ -192,8 +250,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inflammatix/refs/heads/main/screenshots/inflammatix-2026-08-07T170701.png
 security:

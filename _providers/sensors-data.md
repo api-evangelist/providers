@@ -32,22 +32,94 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 58
 apis:
-- description: 'OpenAPI for Sensors Analytics — the product-analytics engine. 64 operations across eight services: analysis models (funnel, retention, LTV, attribution, path, interval, addiction, segmentation, custom'
-  name: Sensors Analytics OpenAPI (神策分析)
-  slug: sensors-analytics-openapi-神策分析
-- description: OpenAPI for Sensors Horizon (神策数界), the real-time customer data platform layer. 54 operations for schema management (event tables, user tables, fields, extended tables), segment definitions and segmen
-  name: Sensors Horizon CDP OpenAPI (神策数界)
-  slug: sensors-horizon-cdp-openapi-神策数界
-- description: OpenAPI for Sensors Focus, the smart-operations / marketing-automation cloud. 70 operations covering reach channels and channel instances (including AI channel-selection endpoints), audience rules and
-  name: Sensors Focus OpenAPI (神策智能运营)
-  slug: sensors-focus-openapi-神策智能运营
-- description: OpenAPI for the Sensors Data business portal — the shared identity, tenancy and resource plane across every Sensors product. 64 operations for accounts (project-scoped and global), roles and permissio
-  name: Sensors Portal OpenAPI (神策业务门户)
-  slug: sensors-portal-openapi-神策业务门户
-artifact_total: 40
+- description: The Catalog API from Sensors Data — 3 operation(s) for catalog.
+  name: Sensors Data Catalog API
+  slug: sensors-data-catalog-api
+- description: The Channel API from Sensors Data — 5 operation(s) for channel.
+  name: Sensors Data Channel API
+  slug: sensors-data-channel-api
+- description: The Dashboard API from Sensors Data — 9 operation(s) for dashboard.
+  name: Sensors Data Dashboard API
+  slug: sensors-data-dashboard-api
+- description: The Data Subscription API from Sensors Data — 7 operation(s) for data subscription.
+  name: Sensors Data Data Subscription API
+  slug: sensors-data-data-subscription-api
+- description: The Dataset API from Sensors Data — 7 operation(s) for dataset.
+  name: Sensors Data Dataset API
+  slug: sensors-data-dataset-api
+- description: The Event Meta API from Sensors Data — 2 operation(s) for event meta.
+  name: Sensors Data Event Meta API
+  slug: sensors-data-event-meta-api
+- description: The Express Action Channel API from Sensors Data — 14 operation(s) for express action channel.
+  name: Sensors Data Express Action Channel API
+  slug: sensors-data-express-action-channel-api
+- description: The Express Attribute API from Sensors Data — 5 operation(s) for express attribute.
+  name: Sensors Data Express Attribute API
+  slug: sensors-data-express-attribute-api
+- description: The Express Attribute Online API from Sensors Data — 2 operation(s) for express attribute online.
+  name: Sensors Data Express Attribute Online API
+  slug: sensors-data-express-attribute-online-api
+- description: The Express Audience Meta API from Sensors Data — 6 operation(s) for express audience meta.
+  name: Sensors Data Express Audience Meta API
+  slug: sensors-data-express-audience-meta-api
+- description: The Express Audience Online API from Sensors Data — 4 operation(s) for express audience online.
+  name: Sensors Data Express Audience Online API
+  slug: sensors-data-express-audience-online-api
+- description: The Express Notify API from Sensors Data — 3 operation(s) for express notify.
+  name: Sensors Data Express Notify API
+  slug: sensors-data-express-notify-api
+- description: The Identity API from Sensors Data — 51 operation(s) for identity.
+  name: Sensors Data Identity API
+  slug: sensors-data-identity-api
+- description: The Management API from Sensors Data — 9 operation(s) for management.
+  name: Sensors Data Management API
+  slug: sensors-data-management-api
+- description: The Model API from Sensors Data — 25 operation(s) for model.
+  name: Sensors Data Model API
+  slug: sensors-data-model-api
+- description: The Property Meta API from Sensors Data — 6 operation(s) for property meta.
+  name: Sensors Data Property Meta API
+  slug: sensors-data-property-meta-api
+- description: The Real Time Tag API from Sensors Data — 5 operation(s) for real time tag.
+  name: Sensors Data Real Time Tag API
+  slug: sensors-data-real-time-tag-api
+- description: The Resource Management API from Sensors Data — 4 operation(s) for resource management.
+  name: Sensors Data Resource Management API
+  slug: sensors-data-resource-management-api
+- description: The Schema API from Sensors Data — 13 operation(s) for schema.
+  name: Sensors Data Schema API
+  slug: sensors-data-schema-api
+- description: The Segment API from Sensors Data — 12 operation(s) for segment.
+  name: Sensors Data Segment API
+  slug: sensors-data-segment-api
+- description: The Smart Alarm API from Sensors Data — 3 operation(s) for smart alarm.
+  name: Sensors Data Smart Alarm API
+  slug: sensors-data-smart-alarm-api
+- description: The Table API from Sensors Data — 5 operation(s) for table.
+  name: Sensors Data Table API
+  slug: sensors-data-table-api
+- description: The Tag API from Sensors Data — 14 operation(s) for tag.
+  name: Sensors Data Tag API
+  slug: sensors-data-tag-api
+- description: The Trigger Strategy API from Sensors Data — 9 operation(s) for trigger strategy.
+  name: Sensors Data Trigger Strategy API
+  slug: sensors-data-trigger-strategy-api
+- description: The Web API from Sensors Data — 12 operation(s) for web.
+  name: Sensors Data Web API
+  slug: sensors-data-web-api
+- description: The Web Black Users API from Sensors Data — 1 operation(s) for web black users.
+  name: Sensors Data Web Black Users API
+  slug: sensors-data-web-black-users-api
+- description: The Web Materials API from Sensors Data — 5 operation(s) for web materials.
+  name: Sensors Data Web Materials API
+  slug: sensors-data-web-materials-api
+- description: The Web Sections API from Sensors Data — 4 operation(s) for web sections.
+  name: Sensors Data Web Sections API
+  slug: sensors-data-web-sections-api
+artifact_total: 64
 asyncapis:
 - description: ''
   name: Sensors Data Webhooks
@@ -141,6 +213,34 @@ collections:
   name: 神策业务门户
   slug: open-sensors-data-portal-resource-management-v2
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sensors-data-run-funnel-analysis.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sensors-data-horizon-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sensors-data-build-and-evaluate-a-segment.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sensors-data-focus-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sensors-data-receive-focus-webhooks.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sensors-data-portal-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sensors-data-provision-account-access.md
 - group: company
   title: ''
   type: Website
@@ -277,13 +377,13 @@ modified: '2026-08-13'
 name: Sensors Data
 nav: Providers
 network: true
-overview: 'Sensors Data publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Sensors Analytics OpenAPI (神策分析), Sensors Horizon CDP OpenAPI (神策数界), Sensors Focus OpenAPI (神策智能运营), and 1 more. Tagged areas include Company, Enterprise, Analytics, Customer Data Platform, and Product Analytics.
+overview: 'Sensors Data publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Channel API, Dashboard API, and 25 more. Tagged areas include Company, Enterprise, Analytics, Customer Data Platform, and Product Analytics.
 
 
   The Sensors Data catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sensors Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 25 more developer resources.'
+  Sensors Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 32 more developer resources.'
 plans:
 - name: Sensors Data Plans Pricing
   plan_count: 0
@@ -295,18 +395,23 @@ rate_limits:
   slug: sensors-data-rate-limits
 score:
   band: developing
-  composite: 42.4
+  composite: 42.3
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 16.7
-    contract_quality: 49.0
+    contract_governance: 4.5
+    contract_quality: 51.7
     developer_ergonomics: 60.1
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 42.4
+  previous_composite: 42.3
   provenance:
     conformance: derived
     contracts:
@@ -316,8 +421,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/screenshots/sensors-data-2026-08-17T081809.png
 security:

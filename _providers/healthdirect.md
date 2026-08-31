@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
 - description: Real-time, read-only HL7 FHIR API over the National Health Services Directory, aligned to the HL7 AU Provider Directory (AU-PD) implementation guide. Supports querying Organization, HealthcareService,
@@ -182,8 +182,13 @@ overview: 'Healthdirect Australia publishes 1 API on the [APIs.io](https://apis.
   Healthdirect Australia''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 23 more developer resources.'
 random_paper: 5
 score:
-  band: developing
-  composite: 39.5
+  band: thin
+  composite: 38.4
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 42.1
@@ -191,10 +196,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 70.8
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 39.5
+  previous_composite: 38.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -205,8 +210,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthdirect/refs/heads/main/screenshots/healthdirect-2026-07-25T220837.png
 security:

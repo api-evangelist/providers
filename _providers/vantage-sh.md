@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 193
   slug: vantage-sh-agentic-access
   summary_line: 193 operations · 101 acting
-api_count: 44
+api_count: 1
 apis:
 - description: Operations about AccessGrants
   name: Vantage AccessGrants API
@@ -317,6 +317,10 @@ collections:
   name: Vantage API
   slug: open-vantage-sh
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vantage-sh-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -376,7 +380,7 @@ network: true
 overview: 'Vantage publishes 44 APIs on the [APIs.io](https://apis.io/) network, including AccessGrants API, AnomalyAlerts API, AnomalyNotifications API, and 41 more. Tagged areas include Cloud Cost, FinOps, Cost Management, Cloud Optimization, and Cost Visibility.
 
 
-  Vantage''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Vantage''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Vantage Sh Plans Pricing
   plan_count: 5
@@ -388,15 +392,20 @@ rate_limits:
   slug: vantage-sh-rate-limits
 score:
   band: developing
-  composite: 40.0
-  delta: 0.0
+  composite: 39.5
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 62.0
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
   previous_composite: 40.0
@@ -407,8 +416,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 44
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

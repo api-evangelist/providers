@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 6
   slug: amazon-security-hub-agentic-access
   summary_line: 6 operations · 5 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Operations for enabling and configuring Security Hub.
   name: Amazon Security Hub Administration API
@@ -326,18 +326,23 @@ rules:
   slug: amazon-security-hub-spectral-rules
 score:
   band: developing
-  composite: 54.2
-  delta: -0.8
+  composite: 53.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 28.8
     contract_quality: 59.3
     developer_ergonomics: 50.0
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 55.0
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     contracts:
@@ -345,8 +350,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-security-hub/refs/heads/main/screenshots/amazon-security-hub-2026-06-20T171826.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: finnhub-agentic-access
   summary_line: 15 operations
-api_count: 7
+api_count: 2
 apis:
 - description: The Company News API from Finnhub — 1 operation(s) for company news.
   name: Finnhub Company News API
@@ -65,7 +65,10 @@ apis:
 - description: The Stock API from Finnhub — 5 operation(s) for stock.
   name: Finnhub Stock API
   slug: finnhub-stock-api
-artifact_total: 26
+- description: The Default API from Finnhub — 117 operation(s) for default.
+  name: Finnhub Default API
+  slug: finnhub-default-api
+artifact_total: 27
 asyncapis:
 - description: AsyncAPI specification for Finnhub's real-time streaming WebSocket APIs. A single WebSocket endpoint (wss://ws.finnhub.io) multiplexes three documented streams selected by the envelope `type` field on
   name: Finnhub WebSocket API
@@ -234,7 +237,7 @@ modified: '2026-07-22'
 name: Finnhub
 nav: Providers
 network: true
-overview: 'Finnhub publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Company News API, Crypto API, Forex API, and 4 more. Tagged areas include Financial, Market Data, Stocks, Forex, and Cryptocurrency.
+overview: 'Finnhub publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Company News API, Crypto API, Forex API, and 5 more. Tagged areas include Financial, Market Data, Stocks, Forex, and Cryptocurrency.
 
 
   The Finnhub catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -264,18 +267,23 @@ rules:
   slug: finnhub-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 45.1
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 65.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 28.0
+    contract_governance: 15.9
     contract_quality: 56.5
     developer_ergonomics: 47.0
-    discoverability: 74.1
-    governance: 28.0
+    discoverability: 68.5
+    governance: 15.9
     operational_transparency: 10.5
-  previous_composite: 47.1
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -292,8 +300,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 45.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/screenshots/finnhub-2026-06-20T181219.png
 security:

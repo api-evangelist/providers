@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 128
   slug: bridge-agentic-access
   summary_line: 128 operations · 57 acting
-api_count: 24
+api_count: 1
 apis:
 - description: The API Keys API from Bridge — 2 operation(s) for api keys.
   name: Bridge API Keys API
@@ -197,6 +197,10 @@ collections:
   name: Bridge API Keys Webhooks API
   slug: open-bridge-webhooks-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/stripe/
 - group: company
   title: ''
   type: Website
@@ -343,7 +347,7 @@ overview: 'Bridge publishes 24 APIs on the [APIs.io](https://apis.io/) network, 
   The Bridge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bridge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 25 more developer resources.'
+  Bridge''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 26 more developer resources.'
 random_paper: 12
 scopes:
 - name: Bridge Scopes
@@ -352,18 +356,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 50.3
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 64.1
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 52.4
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -380,8 +389,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/screenshots/bridge-2026-07-25T203806.png
 security:

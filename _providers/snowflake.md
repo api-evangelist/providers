@@ -19,7 +19,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.8
-  scored_at: '2026-08-26'
+  score: 37.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 14
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 263
   slug: snowflake-agentic-access
   summary_line: 263 operations · 177 acting · 14 human-in-the-loop
-api_count: 47
+api_count: 37
 apis:
 - description: The Snowflake Artifact Repository API is a REST API that you can use to access, update, and perform certain actions on Artifact Repository resources in a Snowflake database.
   name: Snowflake Artifact Repository API
@@ -468,6 +468,10 @@ collections:
   name: Snowflake account warehouse API
   slug: open-snowflake-warehouse-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/snowflake-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -4265,7 +4269,7 @@ overview: 'Snowflake publishes 36 APIs on the [APIs.io](https://apis.io/) networ
   The Snowflake catalog on APIs.io includes 38 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Snowflake''s developer surface includes authentication, changelog, getting-started guide, documentation, engineering blog, support, developer portal, and 47 more developer resources.'
+  Snowflake''s developer surface includes authentication, changelog, getting-started guide, documentation, engineering blog, support, developer portal, and 48 more developer resources.'
 plans:
 - name: Snowflake Plans Pricing
   plan_count: 4
@@ -4304,18 +4308,23 @@ scopes:
   summary_line: 1 scope · authorizationCode/implicit
 score:
   band: strong
-  composite: 54.6
+  composite: 54.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 64.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 13.6
-    contract_quality: 74.7
+    contract_quality: 74.1
     developer_ergonomics: 61.9
     discoverability: 48.1
     governance: 13.6
     operational_transparency: 42.1
-  previous_composite: 54.6
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     contracts:
@@ -4323,8 +4332,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 36
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/screenshots/snowflake-2026-06-20T194110.png
 security:

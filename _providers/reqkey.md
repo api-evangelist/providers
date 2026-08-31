@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST API for API key management, usage credits/metering, rate limiting, and traffic analytics. POST/JSON endpoints authenticated with a project root key via Bearer token; single unauthenticated GET /h
@@ -151,7 +151,7 @@ modified: '2026-08-09'
 name: ReqKey
 nav: Providers
 network: true
-overview: 'ReqKey publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include APIKeys, Authentication, Authorization, Rate Limiting, and Usage Metering.
+overview: 'ReqKey publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include APIKeys, Authentication, Authorization, rate-limiting, and usage-metering.
 
 
   ReqKey''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 20 more developer resources.'
@@ -167,6 +167,11 @@ rate_limits:
 score:
   band: thin
   composite: 38.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 76.3
@@ -181,8 +186,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -202,12 +207,12 @@ tags:
 - APIKeys
 - Authentication
 - Authorization
-- Rate Limiting
-- Usage Metering
-- API Analytics
-- API Management
+- rate-limiting
+- usage-metering
+- api-analytics
+- api-management
 - Developer Tools
-- Middleware
-- Observability
+- middleware
+- observability
 website: https://www.reqkey.com
 ---

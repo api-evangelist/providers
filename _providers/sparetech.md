@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 28
   slug: sparetech-agentic-access
   summary_line: 28 operations · 20 acting
-api_count: 6
+api_count: 2
 apis:
 - description: The Authentication API from Sparetech — 2 operation(s) for authentication.
   name: Sparetech Authentication API
@@ -85,6 +85,10 @@ collections:
   name: Sync Authentication Schema API
   slug: open-sparetech-schema-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sparetech-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -216,22 +220,27 @@ network: true
 overview: 'Sparetech publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, ChangeIntent API, CreationIntent API, and 3 more. Tagged areas include Company, Manufacturing, Spare Parts, MRO, and Maintenance.
 
 
-  Sparetech''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 22 more developer resources.'
+  Sparetech''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
 random_paper: 14
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 44.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 54.4
     developer_ergonomics: 56.5
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 46.8
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -242,8 +251,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sparetech/refs/heads/main/screenshots/sparetech-2026-08-17T082021.png
 security:

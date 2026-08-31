@@ -23,13 +23,208 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: The Graphiant Portal REST API is the machine-readable surface of the Graphiant NaaS platform. It exposes 525 operations across 460 paths on api.graphiant.com covering authentication and MSP tenant swi
-  name: Graphiant Portal REST API
-  slug: graphiant-portal-api
-artifact_total: 7
+- description: The Account API from Graphiant — 5 operation(s) for account.
+  name: Graphiant Account API
+  slug: graphiant-account-api
+- description: The Ack API from Graphiant — 1 operation(s) for ack.
+  name: Graphiant Ack API
+  slug: graphiant-ack-api
+- description: The Activity API from Graphiant — 1 operation(s) for activity.
+  name: Graphiant Activity API
+  slug: graphiant-activity-api
+- description: The Aggregated Notification API from Graphiant — 2 operation(s) for aggregated notification.
+  name: Graphiant Aggregated Notification API
+  slug: graphiant-aggregated-notification-api
+- description: The Allowlist API from Graphiant — 4 operation(s) for allowlist.
+  name: Graphiant Allowlist API
+  slug: graphiant-allowlist-api
+- description: The Allowlist By Enterprise API from Graphiant — 1 operation(s) for allowlist by enterprise.
+  name: Graphiant Allowlist By Enterprise API
+  slug: graphiant-allowlist-by-enterprise-api
+- description: The Apps API from Graphiant — 5 operation(s) for apps.
+  name: Graphiant Apps API
+  slug: graphiant-apps-api
+- description: The Assistant API from Graphiant — 9 operation(s) for assistant.
+  name: Graphiant Assistant API
+  slug: graphiant-assistant-api
+- description: The Assurance API from Graphiant — 35 operation(s) for assurance.
+  name: Graphiant Assurance API
+  slug: graphiant-assurance-api
+- description: The Audit API from Graphiant — 2 operation(s) for audit.
+  name: Graphiant Audit API
+  slug: graphiant-audit-api
+- description: The Auth API from Graphiant — 13 operation(s) for auth.
+  name: Graphiant Auth API
+  slug: graphiant-auth-api
+- description: The Backbone Health API from Graphiant — 6 operation(s) for backbone health.
+  name: Graphiant Backbone Health API
+  slug: graphiant-backbone-health-api
+- description: The Bwtracker API from Graphiant — 19 operation(s) for bwtracker.
+  name: Graphiant Bwtracker API
+  slug: graphiant-bwtracker-api
+- description: The Childalertlist API from Graphiant — 1 operation(s) for childalertlist.
+  name: Graphiant Childalertlist API
+  slug: graphiant-childalertlist-api
+- description: The Data Assurance API from Graphiant — 4 operation(s) for data assurance.
+  name: Graphiant Data Assurance API
+  slug: graphiant-data-assurance-api
+- description: The Device API from Graphiant — 28 operation(s) for device.
+  name: Graphiant Device API
+  slug: graphiant-device-api
+- description: The Device Status API from Graphiant — 2 operation(s) for device status.
+  name: Graphiant Device Status API
+  slug: graphiant-device-status-api
+- description: The Devices API from Graphiant — 40 operation(s) for devices.
+  name: Graphiant Devices API
+  slug: graphiant-devices-api
+- description: The Devices Summary API from Graphiant — 1 operation(s) for devices summary.
+  name: Graphiant Devices Summary API
+  slug: graphiant-devices-summary-api
+- description: The Diagnostic API from Graphiant — 21 operation(s) for diagnostic.
+  name: Graphiant Diagnostic API
+  slug: graphiant-diagnostic-api
+- description: The Edges Hardware API from Graphiant — 2 operation(s) for edges hardware.
+  name: Graphiant Edges Hardware API
+  slug: graphiant-edges-hardware-api
+- description: The Edges Summary API from Graphiant — 1 operation(s) for edges summary.
+  name: Graphiant Edges Summary API
+  slug: graphiant-edges-summary-api
+- description: The Enterprise API from Graphiant — 4 operation(s) for enterprise.
+  name: Graphiant Enterprise API
+  slug: graphiant-enterprise-api
+- description: The Enterprises API from Graphiant — 6 operation(s) for enterprises.
+  name: Graphiant Enterprises API
+  slug: graphiant-enterprises-api
+- description: The Extranet API from Graphiant — 33 operation(s) for extranet.
+  name: Graphiant Extranet API
+  slug: graphiant-extranet-api
+- description: The Extranet B2b Monitoring API from Graphiant — 6 operation(s) for extranet b2b monitoring.
+  name: Graphiant Extranet B2b Monitoring API
+  slug: graphiant-extranet-b2b-monitoring-api
+- description: The Extranets API from Graphiant — 6 operation(s) for extranets.
+  name: Graphiant Extranets API
+  slug: graphiant-extranets-api
+- description: The Extranets B2b API from Graphiant — 13 operation(s) for extranets b2b.
+  name: Graphiant Extranets B2b API
+  slug: graphiant-extranets-b2b-api
+- description: The Extranets B2b General API from Graphiant — 2 operation(s) for extranets b2b general.
+  name: Graphiant Extranets B2b General API
+  slug: graphiant-extranets-b2b-general-api
+- description: The Extranets B2b Peering API from Graphiant — 13 operation(s) for extranets b2b peering.
+  name: Graphiant Extranets B2b Peering API
+  slug: graphiant-extranets-b2b-peering-api
+- description: The Extranets Monitoring API from Graphiant — 4 operation(s) for extranets monitoring.
+  name: Graphiant Extranets Monitoring API
+  slug: graphiant-extranets-monitoring-api
+- description: The Flows API from Graphiant — 2 operation(s) for flows.
+  name: Graphiant Flows API
+  slug: graphiant-flows-api
+- description: The Gateways API from Graphiant — 8 operation(s) for gateways.
+  name: Graphiant Gateways API
+  slug: graphiant-gateways-api
+- description: The Global API from Graphiant — 43 operation(s) for global.
+  name: Graphiant Global API
+  slug: graphiant-global-api
+- description: The Groups API from Graphiant — 9 operation(s) for groups.
+  name: Graphiant Groups API
+  slug: graphiant-groups-api
+- description: The Integration API from Graphiant — 4 operation(s) for integration.
+  name: Graphiant Integration API
+  slug: graphiant-integration-api
+- description: The Invitation API from Graphiant — 1 operation(s) for invitation.
+  name: Graphiant Invitation API
+  slug: graphiant-invitation-api
+- description: The Lan Segments API from Graphiant — 2 operation(s) for lan segments.
+  name: Graphiant Lan Segments API
+  slug: graphiant-lan-segments-api
+- description: The Lldp API from Graphiant — 3 operation(s) for lldp.
+  name: Graphiant Lldp API
+  slug: graphiant-lldp-api
+- description: The Logs API from Graphiant — 1 operation(s) for logs.
+  name: Graphiant Logs API
+  slug: graphiant-logs-api
+- description: The Monitoring API from Graphiant — 23 operation(s) for monitoring.
+  name: Graphiant Monitoring API
+  slug: graphiant-monitoring-api
+- description: The Msp API from Graphiant — 1 operation(s) for msp.
+  name: Graphiant Msp API
+  slug: graphiant-msp-api
+- description: The Nat API from Graphiant — 2 operation(s) for nat.
+  name: Graphiant Nat API
+  slug: graphiant-nat-api
+- description: The Notification API from Graphiant — 4 operation(s) for notification.
+  name: Graphiant Notification API
+  slug: graphiant-notification-api
+- description: The Notificationlist API from Graphiant — 1 operation(s) for notificationlist.
+  name: Graphiant Notificationlist API
+  slug: graphiant-notificationlist-api
+- description: The Notificationmutelist API from Graphiant — 4 operation(s) for notificationmutelist.
+  name: Graphiant Notificationmutelist API
+  slug: graphiant-notificationmutelist-api
+- description: The Onboarding API from Graphiant — 1 operation(s) for onboarding.
+  name: Graphiant Onboarding API
+  slug: graphiant-onboarding-api
+- description: The Parentalertlist API from Graphiant — 1 operation(s) for parentalertlist.
+  name: Graphiant Parentalertlist API
+  slug: graphiant-parentalertlist-api
+- description: The Policy API from Graphiant — 6 operation(s) for policy.
+  name: Graphiant Policy API
+  slug: graphiant-policy-api
+- description: The Presharedkey API from Graphiant — 1 operation(s) for presharedkey.
+  name: Graphiant Presharedkey API
+  slug: graphiant-presharedkey-api
+- description: The Pvif API from Graphiant — 4 operation(s) for pvif.
+  name: Graphiant Pvif API
+  slug: graphiant-pvif-api
+- description: The Qos API from Graphiant — 1 operation(s) for qos.
+  name: Graphiant Qos API
+  slug: graphiant-qos-api
+- description: The Regions API from Graphiant — 2 operation(s) for regions.
+  name: Graphiant Regions API
+  slug: graphiant-regions-api
+- description: The Rule API from Graphiant — 1 operation(s) for rule.
+  name: Graphiant Rule API
+  slug: graphiant-rule-api
+- description: The Rulelist API from Graphiant — 1 operation(s) for rulelist.
+  name: Graphiant Rulelist API
+  slug: graphiant-rulelist-api
+- description: The Search API from Graphiant — 1 operation(s) for search.
+  name: Graphiant Search API
+  slug: graphiant-search-api
+- description: The Site API from Graphiant — 4 operation(s) for site.
+  name: Graphiant Site API
+  slug: graphiant-site-api
+- description: The Sites API from Graphiant — 6 operation(s) for sites.
+  name: Graphiant Sites API
+  slug: graphiant-sites-api
+- description: The Software API from Graphiant — 9 operation(s) for software.
+  name: Graphiant Software API
+  slug: graphiant-software-api
+- description: The Talkers API from Graphiant — 2 operation(s) for talkers.
+  name: Graphiant Talkers API
+  slug: graphiant-talkers-api
+- description: The Temp API from Graphiant — 1 operation(s) for temp.
+  name: Graphiant Temp API
+  slug: graphiant-temp-api
+- description: The Troubleshooting API from Graphiant — 6 operation(s) for troubleshooting.
+  name: Graphiant Troubleshooting API
+  slug: graphiant-troubleshooting-api
+- description: The Users API from Graphiant — 11 operation(s) for users.
+  name: Graphiant Users API
+  slug: graphiant-users-api
+- description: The Version API from Graphiant — 1 operation(s) for version.
+  name: Graphiant Version API
+  slug: graphiant-version-api
+- description: The Zones API from Graphiant — 1 operation(s) for zones.
+  name: Graphiant Zones API
+  slug: graphiant-zones-api
+- description: The Ztagent API from Graphiant — 2 operation(s) for ztagent.
+  name: Graphiant Ztagent API
+  slug: graphiant-ztagent-api
+artifact_total: 72
 asyncapis:
 - description: ''
   name: Graphiant Notifications Webhooks
@@ -39,6 +234,10 @@ collections:
   name: Graphiant APIs
   slug: open-graphiant-portal-openapi-original
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/graphiant-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -264,28 +463,36 @@ modified: '2026-08-01'
 name: Graphiant
 nav: Providers
 network: true
-overview: 'Graphiant publishes 1 API on the [APIs.io](https://apis.io/) network: Portal REST API. Tagged areas include Networking, Network as a Service, NaaS, Connectivity, and SD-WAN.
+overview: 'Graphiant publishes 66 APIs on the [APIs.io](https://apis.io/) network, including Account API, Ack API, Activity API, and 63 more. Tagged areas include Networking, Network as a Service, NaaS, Connectivity, and SD-WAN.
 
 
   The Graphiant catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Graphiant''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 46 more developer resources.'
+  Graphiant''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 47 more developer resources.'
 random_paper: 13
 score:
-  band: developing
-  composite: 50.2
-  delta: 0.0
+  band: strong
+  composite: 55.1
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 4.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 16.7
-    contract_quality: 44.5
+    contract_governance: 4.5
+    contract_quality: 52.1
     developer_ergonomics: 68.5
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 70.4
+    governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 50.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 50.6
   provenance:
     conformance: derived
     contracts:
@@ -295,8 +502,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/screenshots/graphiant-2026-08-07T165827.png
 security:

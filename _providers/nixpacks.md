@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
 - description: 'The Nixpacks command-line interface is the primary interface for generating build plans and producing Docker images from application source. Core commands include `nixpacks plan` (emit the JSON build '
@@ -125,7 +125,7 @@ modified: '2026-05-24'
 name: Nixpacks
 nav: Providers
 network: true
-overview: 'Nixpacks publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Build Tools, Buildpacks, Docker, OCI, and Nix.
+overview: 'Nixpacks publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Build Tool, Buildpacks, Docker, OCI, and Nix.
 
 
   Nixpacks'' developer surface includes documentation, getting-started guide, changelog, and 13 more developer resources.'
@@ -133,7 +133,12 @@ random_paper: 4
 score:
   band: emerging
   composite: 14.9
-  delta: 1.4
+  coverage:
+    artifact_dirs: 2
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -143,9 +148,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 13.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 14.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nixpacks/refs/heads/main/screenshots/nixpacks-2026-06-20T190333.png
 security:
@@ -155,7 +160,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: nixpacks
 tags:
-- Build Tools
+- Build Tool
 - Buildpacks
 - Docker
 - OCI
@@ -168,6 +173,6 @@ tags:
 - Rust
 - DevOps
 - Platform Engineering
-- Platform-as-a-Service
+- PaaS
 website: https://nixpacks.com
 ---

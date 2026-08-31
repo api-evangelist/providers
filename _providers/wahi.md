@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,20 +31,28 @@ agentic_access:
   operation_count: 1
   slug: wahi-agentic-access
   summary_line: 1 operation
-api_count: 2
+api_count: 1
 apis:
 - description: 'The stock WordPress REST API served by Wahi''s marketing and Learning Centre CMS at https://wahi.com/wp-json/. It is publicly reachable and self-describing: an anonymous GET on the root returns a 319KB'
   name: Wahi WordPress REST API
   slug: wahi-wordpress-rest-api
-- description: Wahi's own real estate API, and the only machine-readable contract it authors. Discovered through https://wahi.com/.well-known/ai-plugin.json, an OpenAI-style AI plugin manifest that points at https:/
-  name: Wahi Listing Search API
-  slug: wahi-listing-search-api
+- description: The Search API from Wahi — 1 operation(s) for search.
+  name: Wahi Search API
+  slug: wahi-search-api
 artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
   slug: open-wahi-wp-json-discovery
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/wahi-listing-search-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/wahi-search-listings.md
 - group: agent
   title: ''
   type: MCPServer
@@ -139,25 +147,30 @@ modified: '2026-07-26'
 name: Wahi
 nav: Providers
 network: true
-overview: 'Wahi publishes 1 API on the [APIs.io](https://apis.io/) network: Listing Search API. Tagged areas include Real-Estate, Canada, Property Listings, MLS, and Valuation.
+overview: 'Wahi publishes 1 API on the [APIs.io](https://apis.io/) network: Search API. Tagged areas include Real-Estate, Canada, Property Listings, MLS, and Valuation.
 
 
-  Wahi''s developer surface includes authentication, support, engineering blog, and 17 more developer resources.'
+  Wahi''s developer surface includes authentication, support, engineering blog, and 19 more developer resources.'
 random_paper: 5
 score:
   band: thin
-  composite: 38.8
-  delta: 1.9
+  composite: 38.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
-    contract_governance: 16.7
-    contract_quality: 41.5
+    contract_governance: 4.5
+    contract_quality: 44.2
     developer_ergonomics: 30.4
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 36.9
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -174,8 +187,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

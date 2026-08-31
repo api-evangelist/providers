@@ -10,13 +10,14 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -24,16 +25,16 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 28.1
-  scored_at: '2026-08-26'
+  score: 40.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -85,7 +86,7 @@ apis:
 - description: Manage shows (productions) in OpenCue
   name: Academy Software Foundation Shows API
   slug: academy-software-foundation-shows-api
-artifact_total: 85
+artifact_total: 87
 collections:
 - collection_type: open
   name: API Collection
@@ -126,7 +127,7 @@ common:
 - group: commercial
   title: ''
   type: License
-  url: https://github.com/AcademySoftwareFoundation/openexr/blob/main/LICENSE
+  url: https://github.com/AcademySoftwareFoundation/openexr/blob/main/LICENSE.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -162,11 +163,11 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.aswf.io/terms/
+  url: https://www.linuxfoundation.org/terms
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.aswf.io/privacy/
+  url: https://www.linuxfoundation.org/privacy
 - group: design
   title: ''
   type: SpectralRules
@@ -175,6 +176,106 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/academy-software-foundation-vocabulary.yaml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/academy-software-foundation-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/academy-software-foundation-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/academy-software-foundation-cli.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/academy-software-foundation-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/academy-software-foundation-api-catalog.json
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/academy-software-foundation-llms.txt
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/academy-software-foundation-grpc.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/academy-software-foundation-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/academy-software-foundation-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/academy-software-foundation-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/academy-software-foundation-lifecycle.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/academy-software-foundation-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/academy-software-foundation-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/academy-software-foundation-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/academy-software-foundation-sandbox.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/academy-software-foundation-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/academy-software-foundation-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/academy-software-foundation-plans-pricing.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/academy-software-foundation-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/academy-software-foundation-vulnerability-disclosure.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.opencue.io/docs/reference/rest-api-reference/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.aswf.io/get-involved/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.aswf.io/join/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.aswf.io/join/
 created: '2026-03-16'
 description: The Academy Software Foundation (ASWF) is a Linux Foundation project that supports open source software development for the motion picture, visual effects, and animation industries. ASWF hosts a portfolio of production-proven open source projects including OpenEXR, OpenVDB, OpenColorIO, OpenTimelineIO, OpenShadingLanguage, MaterialX, and more. These projects form the backbone of modern film and media production pipelines worldwide.
 examples:
@@ -337,7 +438,7 @@ jsonld:
   property_count: 22
   slug: academy-software-foundation-opencue-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-29'
 name: Academy Software Foundation
 nav: Providers
 network: true
@@ -347,14 +448,14 @@ overview: 'Academy Software Foundation publishes 4 APIs on the [APIs.io](https:/
   The Academy Software Foundation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Academy Software Foundation''s developer surface includes documentation, engineering blog, getting-started guide, and 15 more developer resources.'
+  Academy Software Foundation''s developer surface includes documentation, engineering blog, getting-started guide, CLI, authentication, changelog, sandbox, and 36 more developer resources.'
 plans:
 - name: Academy Software Foundation Plans Pricing
   plan_count: 0
   slug: academy-software-foundation-plans-pricing
 random_paper: 17
 rate_limits:
-- limit_count: 0
+- limit_count: 1
   name: Academy Software Foundation Rate Limits
   slug: academy-software-foundation-rate-limits
 rules:
@@ -380,19 +481,27 @@ rules:
     warn: 8
   slug: academy-software-foundation-spectral-rules
 score:
-  band: thin
-  composite: 26.5
-  delta: 0.6
+  band: strong
+  composite: 55.6
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 4.9
   facets:
-    access_clarity: 7.9
-    commercial_clarity: 7.9
-    contract_governance: 28.8
-    contract_quality: 26.0
-    developer_ergonomics: 23.8
-    discoverability: 64.8
-    governance: 28.8
-    operational_transparency: 28.9
-  previous_composite: 25.9
+    access_clarity: 52.6
+    commercial_clarity: 52.6
+    contract_governance: 47.0
+    contract_quality: 26.4
+    developer_ergonomics: 76.2
+    discoverability: 72.2
+    governance: 47.0
+    operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     contracts:
@@ -400,15 +509,23 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/academy-software-foundation/refs/heads/main/screenshots/academy-software-foundation-2026-06-20T163501.png
 security:
+- kind: authentication
+  name: Academy Software Foundation Authentication
+  slug: academy-software-foundation-authentication
+  summary_line: 1 scheme
 - kind: domain-security
   name: Academy Software Foundation Domain Security
   slug: academy-software-foundation-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Academy Software Foundation Vulnerability Disclosure
+  slug: academy-software-foundation-vulnerability-disclosure
+  summary_line: disclosure policy published
 slug: academy-software-foundation
 tags:
 - Animation

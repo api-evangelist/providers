@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The unified REST entry point for all crosschain operations on Across — request swap/bridge quotes and approval data, execute embedded crosschain actions on the destination chain, run gasless flows, en
@@ -121,7 +121,7 @@ modified: '2026-07-17'
 name: Across
 nav: Providers
 network: true
-overview: 'Across publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Infrastructure, Cross-Chain, Bridge, and Interoperability.
+overview: 'Across publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Infrastructure, Cross Chain, Bridge, and Interoperability.
 
 
   Across'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 11 more developer resources.'
@@ -129,6 +129,11 @@ random_paper: 0
 score:
   band: emerging
   composite: 24.0
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -148,8 +153,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/across/refs/heads/main/screenshots/across-2026-07-25T181521.png
 security:
@@ -173,7 +178,7 @@ slug: across
 tags:
 - Company
 - Crypto Infrastructure
-- Cross-Chain
+- Cross Chain
 - Bridge
 - Interoperability
 - Blockchain

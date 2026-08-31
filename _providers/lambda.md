@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: lambda-agentic-access
   summary_line: 11 operations · 5 acting · 1 human-in-the-loop
-api_count: 5
+api_count: 1
 apis:
 - description: Operations for managing persistent storage file systems.
   name: Lambda File Systems API
@@ -98,6 +98,10 @@ collections:
   name: Lambda Cloud File Systems SSH Keys API
   slug: open-lambda-ssh-keys-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lambda-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -209,7 +213,7 @@ overview: 'Lambda publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Lambda catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Lambda''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 12 more developer resources.'
+  Lambda''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 13 more developer resources.'
 plans:
 - name: Lambda Plans Pricing
   plan_count: 3
@@ -232,18 +236,23 @@ rules:
   slug: lambda-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.7
-  delta: 1.4
+  composite: 50.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 9.8
     contract_quality: 61.7
     developer_ergonomics: 69.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 49.3
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     contracts:
@@ -251,8 +260,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lambda/refs/heads/main/screenshots/lambda-2026-06-20T184249.png
 security:

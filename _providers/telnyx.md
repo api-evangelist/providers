@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 553
   human_in_the_loop: 61
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 1038
   slug: telnyx-agentic-access
   summary_line: 1038 operations · 553 acting · 61 human-in-the-loop
-api_count: 168
+api_count: 1
 apis:
 - description: Access Tokens creation
   name: Telnyx Access Tokens API
@@ -549,7 +549,10 @@ apis:
 - description: Operations for x402 cryptocurrency payment transactions. Fund your Telnyx account using USDC stablecoin payments via the x402 protocol.
   name: Telnyx x402 Payment Transactions API
   slug: telnyx-x402-payment-transactions-api
-artifact_total: 347
+- description: Callbacks
+  name: Telnyx Callbacks API
+  slug: telnyx-callbacks-api
+artifact_total: 348
 collections:
 - collection_type: open
   name: API Collection
@@ -1062,6 +1065,10 @@ collections:
   name: Telnyx API
   slug: open-telnyx
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/telnyx-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1130,10 +1137,10 @@ modified: '2026-05-19'
 name: Telnyx
 nav: Providers
 network: true
-overview: 'Telnyx publishes 168 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Addresses API, Advanced Number Orders API, and 165 more. Tagged areas include Communications, CPaaS, Voice, SMS, and IoT.
+overview: 'Telnyx publishes 169 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Addresses API, Advanced Number Orders API, and 166 more. Tagged areas include Communications, CPaaS, Voice, SMS, and IoT.
 
 
-  Telnyx''s developer surface includes authentication, engineering blog, and 12 more developer resources.'
+  Telnyx''s developer surface includes authentication, engineering blog, and 13 more developer resources.'
 plans:
 - name: Telnyx Plans Pricing
   plan_count: 1
@@ -1150,15 +1157,20 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 35.9
-  delta: 1.9
+  composite: 33.5
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 89.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 61.3
+    contract_quality: 61.2
     developer_ergonomics: 23.8
-    discoverability: 66.7
+    discoverability: 42.6
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 34.0
@@ -1175,8 +1187,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 55.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telnyx/refs/heads/main/screenshots/telnyx-2026-06-20T195051.png
 security:

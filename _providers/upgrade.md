@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: Marketing Offers API
@@ -60,6 +60,10 @@ collections:
   name: Flex Pay API (Upgrade) Marketing Offers Transactions API
   slug: open-upgrade-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/upgrade-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -195,22 +199,27 @@ network: true
 overview: 'Upgrade publishes 3 APIs on the [APIs.io](https://apis.io/) network: Marketing Offers API, Orders API, and Transactions API. Tagged areas include Company, Fintech, Lending, Buy Now Pay Later, and Payments.
 
 
-  Upgrade''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 24 more developer resources.'
+  Upgrade''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 25 more developer resources.'
 random_paper: 9
 score:
-  band: strong
-  composite: 54.4
+  band: developing
+  composite: 53.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
-    contract_quality: 51.2
+    contract_governance: 18.2
+    contract_quality: 52.6
     developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 54.4
+  previous_composite: 53.3
   provenance:
     conformance: first-party
     contracts:
@@ -226,8 +235,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upgrade/refs/heads/main/screenshots/upgrade-2026-08-17T082636.png
 security:

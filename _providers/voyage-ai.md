@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-26'
-api_count: 9
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Reranking endpoint that scores a list of candidate documents against a query and returns relevance scores. Powered by the voyage-rerank-2 model family, used downstream of vector search to improve retr
   name: Voyage AI Rerank API
@@ -81,6 +81,14 @@ collections:
   name: Voyage AI Rerank API
   slug: open-voyage-ai-rerank-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/voyage-ai/voyageai-python/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/voyage-ai/voyageai-python/releases
 - group: commercial
   title: ''
   type: License
@@ -144,7 +152,7 @@ network: true
 overview: 'Voyage AI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Contextualized API, Embeddings API, Multimodal API, and 1 more. Tagged areas include Embeddings, Rerankers, RAG, Semantic Search, and AI Models.
 
 
-  Voyage AI''s developer surface includes documentation, GitHub presence, pricing, engineering blog, and 8 more developer resources.'
+  Voyage AI''s developer surface includes documentation, GitHub presence, pricing, engineering blog, and 10 more developer resources.'
 plans:
 - name: Voyage Ai Plans Pricing
   plan_count: 1
@@ -156,26 +164,34 @@ rate_limits:
   slug: voyage-ai-rate-limits
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 33.6
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 51.7
     developer_ergonomics: 7.1
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 33.1
+    operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 34.1
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voyage-ai/refs/heads/main/screenshots/voyage-ai-2026-06-20T201141.png
 security:
@@ -191,6 +207,6 @@ tags:
 - Semantic Search
 - AI Models
 - Vector Search
-- Multi-Modal
+- Multimodal
 website: https://www.voyageai.com/
 ---

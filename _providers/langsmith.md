@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 343
   human_in_the_loop: 14
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 556
   slug: langsmith-agentic-access
   summary_line: 556 operations · 343 acting · 14 human-in-the-loop
-api_count: 73
+api_count: 1
 apis:
 - description: The access_policies API from LangSmith — 3 operation(s) for access_policies.
   name: LangSmith access_policies API
@@ -491,6 +491,10 @@ collections:
   name: LangSmith
   slug: open-langsmith
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/langsmith-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -546,7 +550,7 @@ network: true
 overview: 'LangSmith publishes 73 APIs on the [APIs.io](https://apis.io/) network, including access_policies API, ace API, agents API, and 70 more. Tagged areas include Artificial Intelligence, LLM, Observability, Evaluations, and LangChain.
 
 
-  LangSmith''s developer surface includes authentication, documentation, pricing, engineering blog, and 6 more developer resources.'
+  LangSmith''s developer surface includes authentication, documentation, pricing, engineering blog, and 7 more developer resources.'
 plans:
 - name: Langsmith Plans Pricing
   plan_count: 3
@@ -558,15 +562,20 @@ rate_limits:
   slug: langsmith-rate-limits
 score:
   band: thin
-  composite: 31.0
-  delta: 0.0
+  composite: 30.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 52.3
     developer_ergonomics: 23.8
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 31.0
@@ -577,8 +586,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 73
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langsmith/refs/heads/main/screenshots/langsmith-2026-06-20T184315.png
 security:

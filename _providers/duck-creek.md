@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: duck-creek-agentic-access
   summary_line: 13 operations · 6 acting
-api_count: 9
+api_count: 1
 apis:
 - description: 'Duck Creek Policy Administration API enables product configuration, premium calculation, policy lifecycle management, and policy issuance for P&C and specialty insurance carriers. Supports end-to-end '
   name: Duck Creek Policy Administration API
@@ -302,18 +302,23 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: developing
-  composite: 43.9
-  delta: 0.7
+  composite: 43.3
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 69.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 9.8
     contract_quality: 60.7
     developer_ergonomics: 64.3
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 43.2
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     contracts:
@@ -325,8 +330,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/screenshots/duck-creek-2026-06-20T180408.png
 security:

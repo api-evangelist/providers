@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 5
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 36
   slug: videosdk-agentic-access
   summary_line: 36 operations · 18 acting · 5 human-in-the-loop
-api_count: 7
+api_count: 1
 apis:
 - description: HLS live streaming and playback management.
   name: VideoSDK HLS Streaming API
@@ -92,6 +92,10 @@ collections:
   name: VideoSDK Real-Time Communication HLS Streaming Track Recordings API
   slug: open-videosdk-track-recordings-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/videosdk-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -207,7 +211,7 @@ overview: 'VideoSDK publishes 7 APIs on the [APIs.io](https://apis.io/) network,
   The VideoSDK catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  VideoSDK''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  VideoSDK''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Videosdk Plans Pricing
   plan_count: 3
@@ -230,15 +234,20 @@ rules:
   slug: videosdk-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.4
-  delta: 0.0
+  composite: 40.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 9.8
     contract_quality: 63.0
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 5.3
   previous_composite: 41.4
@@ -249,8 +258,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/screenshots/videosdk-2026-06-20T201124.png
 security:

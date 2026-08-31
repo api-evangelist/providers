@@ -23,18 +23,71 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: REST API for creating and managing recipients, destination payment accounts (bank, card, PayPal, Venmo, prepaid), payments accepted in the Recipient Portal or a hosted widget, and transactions for imm
-  name: Interchecks Payments API v2
-  slug: interchecks-payments-api-v2
-artifact_total: 6
+- description: The Accounts API from Interchecks — 16 operation(s) for accounts.
+  name: Interchecks Accounts API
+  slug: interchecks-accounts-api
+- description: OAuth 2.0 is used for authentication and authorization to the API. Client ID and Secret Key can be generated in the Developer Portal.
+  name: Interchecks Authentication API
+  slug: interchecks-authentication-api
+- description: The Oauth2 API from Interchecks — 1 operation(s) for oauth2.
+  name: Interchecks Oauth2 API
+  slug: interchecks-oauth2-api
+- description: Endpoints to retrieve a payer's connected accounts (aka good funds accounts) and payout method configuration for the `payer_id` designated in the URL.
+  name: Interchecks Payers API
+  slug: interchecks-payers-api
+- description: The Payload API from Interchecks — 5 operation(s) for payload.
+  name: Interchecks Payload API
+  slug: interchecks-payload-api
+- description: The Payment Accounts - Bank API from Interchecks — 2 operation(s) for payment accounts - bank.
+  name: Interchecks Payment Accounts - Bank API
+  slug: interchecks-payment-accounts-bank-api
+- description: The Payment Accounts - Card API from Interchecks — 3 operation(s) for payment accounts - card.
+  name: Interchecks Payment Accounts - Card API
+  slug: interchecks-payment-accounts-card-api
+- description: The Payment Accounts - PayPal API from Interchecks — 3 operation(s) for payment accounts - paypal.
+  name: Interchecks Payment Accounts - PayPal API
+  slug: interchecks-payment-accounts-paypal-api
+- description: The Payments API from Interchecks — 7 operation(s) for payments.
+  name: Interchecks Payments API
+  slug: interchecks-payments-api
+- description: The Recipient Emails API from Interchecks — 1 operation(s) for recipient emails.
+  name: Interchecks Recipient Emails API
+  slug: interchecks-recipient-emails-api
+- description: The Recipient Verification API from Interchecks — 1 operation(s) for recipient verification.
+  name: Interchecks Recipient Verification API
+  slug: interchecks-recipient-verification-api
+- description: The Recipients API from Interchecks — 9 operation(s) for recipients.
+  name: Interchecks Recipients API
+  slug: interchecks-recipients-api
+- description: The Reports API from Interchecks — 5 operation(s) for reports.
+  name: Interchecks Reports API
+  slug: interchecks-reports-api
+- description: The Test Harness API from Interchecks — 4 operation(s) for test harness.
+  name: Interchecks Test Harness API
+  slug: interchecks-test-harness-api
+- description: The Transactions API from Interchecks — 4 operation(s) for transactions.
+  name: Interchecks Transactions API
+  slug: interchecks-transactions-api
+- description: The Widgets API from Interchecks — 4 operation(s) for widgets.
+  name: Interchecks Widgets API
+  slug: interchecks-widgets-api
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Interchecks Webhooks
   slug: interchecks-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/interchecks-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/interchecks-payments-api-v2-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -155,13 +208,13 @@ modified: '2026-08-23'
 name: Interchecks
 nav: Providers
 network: true
-overview: 'Interchecks publishes 1 API on the [APIs.io](https://apis.io/) network: Payments API v2. Tagged areas include Payments, Payouts, ACH, Real-Time Payments, and Instant Payments.
+overview: 'Interchecks publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Oauth2 API, and 13 more. Tagged areas include Payments, Payouts, ACH, Real-Time Payments, and Instant Payments.
 
 
   The Interchecks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Interchecks'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 21 more developer resources.'
+  Interchecks'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 23 more developer resources.'
 plans:
 - name: Interchecks Plans Pricing
   plan_count: 0
@@ -173,18 +226,23 @@ rate_limits:
   slug: interchecks-rate-limits
 score:
   band: developing
-  composite: 48.3
-  delta: 0.0
+  composite: 47.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
-    contract_quality: 59.8
+    contract_governance: 18.2
+    contract_quality: 60.5
     developer_ergonomics: 63.7
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 48.3
+  previous_composite: 47.5
   provenance:
     conformance: first-party
     contracts:
@@ -200,8 +258,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 43.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -221,8 +279,8 @@ tags:
 - Instant Payments
 - Disbursements
 - Cards
-- Financial Services
+- Financial-Services
 - Fintech
-- Webhooks
+- Webhook
 website: https://home.interchecks.com/
 ---

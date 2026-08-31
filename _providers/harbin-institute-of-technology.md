@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: harbin-institute-of-technology-agentic-access
   summary_line: 16 operations · 8 acting
-api_count: 3
+api_count: 1
 apis:
 - description: RSS 2.0 feeds (with Dublin Core extensions) from the HIT Elsevier Pure research portal. The research output feed returns the latest publications; a persons feed lists researcher profiles. Verified liv
   name: HIT Research Portal RSS Feeds
@@ -65,6 +65,10 @@ collections:
   name: HIT Research Portal (Pure) person researchOutput API
   slug: open-harbin-institute-of-technology-researchoutput-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/harbin-institute-of-technology-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -160,7 +164,7 @@ overview: 'Harbin Institute of Technology publishes 2 APIs on the [APIs.io](http
   The Harbin Institute of Technology catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Harbin Institute of Technology''s developer surface includes authentication, GitHub presence, and 10 more developer resources.'
+  Harbin Institute of Technology''s developer surface includes authentication, GitHub presence, and 11 more developer resources.'
 plans:
 - name: Harbin Institute Of Technology Plans Pricing
   plan_count: 2
@@ -193,18 +197,23 @@ rules:
   slug: harbin-institute-of-technology-rules
 score:
   band: developing
-  composite: 42.6
-  delta: 2.0
+  composite: 42.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 41.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 65.3
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 40.6
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -218,8 +227,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 42.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harbin-institute-of-technology/refs/heads/main/screenshots/harbin-institute-of-technology-2026-06-20T182524.png
 security:

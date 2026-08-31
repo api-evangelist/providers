@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-26'
-api_count: 100
+  scored_at: '2026-08-30'
+api_count: 28
 apis:
 - description: The Lithium/Khoros Community platform API. Version 2 is driven by LiQL (Lithium Query Language), a SQL-like query language over community objects such as messages, users, boards and categories; the le
   name: Khoros Community API
@@ -643,6 +643,10 @@ collections:
   name: agent-states-api-v2 AccountSet Workqueues API
   slug: open-lithium-workqueues-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lithium-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -840,13 +844,13 @@ modified: '2026-08-13'
 name: Lithium
 nav: Providers
 network: true
-overview: 'Lithium publishes 99 APIs on the [APIs.io](https://apis.io/) network, including AccountSet API, Active API, Admin API, and 96 more. Tagged areas include Company, MarTech, Community, Social-Media, and Customer Engagement.
+overview: 'Lithium publishes 99 APIs on the [APIs.io](https://apis.io/) network, including AccountSet API, Active API, Admin API, and 96 more. Tagged areas include Company, Martech, Community, Social-Media, and Customer Engagement.
 
 
   The Lithium catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lithium''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 39 more developer resources.'
+  Lithium''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 40 more developer resources.'
 plans:
 - name: Lithium Plans Pricing
   plan_count: 0
@@ -863,18 +867,23 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 60.2
+  composite: 57.8
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 63.6
     developer_ergonomics: 44.6
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 77.8
+    governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 60.2
+  previous_composite: 57.8
   provenance:
     conformance: first-party
     contracts:
@@ -884,8 +893,8 @@ score:
       total: 99
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png
 security:
@@ -908,7 +917,7 @@ security:
 slug: lithium
 tags:
 - Company
-- MarTech
+- Martech
 - Community
 - Social-Media
 - Customer Engagement

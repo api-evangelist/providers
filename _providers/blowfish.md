@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 5
   slug: blowfish-agentic-access
   summary_line: 5 operations · 5 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Endpoints related to downloading blocklists
   name: Blowfish Download blocklist API
@@ -200,18 +200,23 @@ overview: 'Blowfish publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 1
 score:
   band: thin
-  composite: 38.0
-  delta: 0.0
+  composite: 36.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 76.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
-    contract_governance: 20.5
+    contract_governance: 8.3
     contract_quality: 59.2
     developer_ergonomics: 41.1
-    discoverability: 81.5
-    governance: 20.5
+    discoverability: 75.9
+    governance: 8.3
     operational_transparency: 2.6
-  previous_composite: 38.0
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -228,8 +233,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blowfish/refs/heads/main/screenshots/blowfish-2026-07-25T203426.png
 security:

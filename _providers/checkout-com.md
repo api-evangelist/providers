@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: checkout-com-agentic-access
   summary_line: 18 operations · 12 acting
-api_count: 17
+api_count: 1
 apis:
 - description: Process card and alternative payment methods with full lifecycle support including authorization, capture, void, refund.
   name: Checkout.com Payments API
@@ -226,19 +226,24 @@ scopes:
   slug: checkout-com-scopes
   summary_line: 3 scopes · clientCredentials
 score:
-  band: thin
-  composite: 26.3
-  delta: 1.9
+  band: emerging
+  composite: 25.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 22.0
     developer_ergonomics: 31.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 24.4
+  previous_composite: 26.3
   provenance:
     agentic_access: derived
     contracts:
@@ -252,8 +257,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/screenshots/checkout-com-2026-06-20T174248.png
 security:

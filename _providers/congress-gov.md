@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 108
   slug: congress-gov-agentic-access
   summary_line: 108 operations
-api_count: 20
+api_count: 1
 apis:
 - description: Returns amendment data from the API
   name: Congress.gov API amendments API
@@ -170,6 +170,10 @@ collections:
   name: Congress.gov amendments treaty API
   slug: open-congress-gov-treaty-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/congress-gov-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -680,7 +684,7 @@ overview: 'Congress.gov API publishes 20 APIs on the [APIs.io](https://apis.io/)
   The Congress.gov API catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Congress.gov API''s developer surface includes authentication, documentation, engineering blog, pricing, signup flow, changelog, and 8 more developer resources.'
+  Congress.gov API''s developer surface includes authentication, documentation, engineering blog, pricing, signup flow, changelog, and 9 more developer resources.'
 plans:
 - name: Congress Gov Plans Pricing
   plan_count: 1
@@ -703,15 +707,20 @@ rules:
   slug: congress-gov-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.1
-  delta: 0.0
+  composite: 45.6
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 9.8
     contract_quality: 52.0
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 52.6
   previous_composite: 46.1
@@ -728,8 +737,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/congress-gov/refs/heads/main/screenshots/congress-gov-2026-06-20T174909.png
 security:

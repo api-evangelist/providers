@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -31,13 +31,29 @@ agentic_access:
   operation_count: 15
   slug: icontainers-agentic-access
   summary_line: 15 operations · 7 acting
-api_count: 1
+api_count: 2
 apis:
-- description: The Brutus API is iContainers' published REST contract for programmatic freight quoting and booking. It exposes quote creation for FCL, LCL, air and LTL shipments, quote retrieval by UUID, price calcu
-  name: iContainers Brutus API
-  slug: icontainers-brutus-api
-artifact_total: 6
+- description: Bookings
+  name: iContainers Bookings API
+  slug: icontainers-bookings-api
+- description: Documents
+  name: iContainers Documents API
+  slug: icontainers-documents-api
+- description: Places
+  name: iContainers Places API
+  slug: icontainers-places-api
+- description: Quotes
+  name: iContainers Quotes API
+  slug: icontainers-quotes-api
+- description: Rates
+  name: iContainers Rates API
+  slug: icontainers-rates-api
+artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/icontainers-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -150,10 +166,10 @@ modified: '2026-08-17'
 name: iContainers
 nav: Providers
 network: true
-overview: 'iContainers publishes 1 API on the [APIs.io](https://apis.io/) network: Brutus API. Tagged areas include Company, Marketplace, Logistics, Freight, and Shipping.
+overview: 'iContainers publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Bookings API, Documents API, Places API, and 2 more. Tagged areas include Company, Marketplace, Logistics, Freight, and Shipping.
 
 
-  iContainers'' developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, sandbox, and 19 more developer resources.'
+  iContainers'' developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, sandbox, and 20 more developer resources.'
 plans:
 - name: Icontainers Plans Pricing
   plan_count: 0
@@ -165,18 +181,23 @@ rate_limits:
   slug: icontainers-rate-limits
 score:
   band: developing
-  composite: 43.3
-  delta: 0.0
+  composite: 42.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 53.0
+    contract_governance: 4.5
+    contract_quality: 53.7
     developer_ergonomics: 54.2
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 43.3
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -187,8 +208,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -212,6 +233,6 @@ tags:
 - Customs
 - Freight Quoting
 - Container Shipping
-- Track and Trace
+- Track And Trace
 website: https://www.icontainers.com/
 ---

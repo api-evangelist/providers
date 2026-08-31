@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -100,7 +100,7 @@ modified: '2026-07-19'
 name: Hyground
 nav: Providers
 network: true
-overview: 'Hyground is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Site Reliability Engineering, DevOps, and Kubernetes.
+overview: 'Hyground is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai/Ml, Site Reliability Engineering, DevOps, and Kubernetes.
 
 
   Hyground''s developer surface includes documentation, engineering blog, pricing, sandbox, support, YouTube channel, and 8 more developer resources.'
@@ -108,6 +108,11 @@ random_paper: 19
 score:
   band: emerging
   composite: 20.6
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
@@ -121,8 +126,8 @@ score:
   previous_composite: 20.6
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyground/refs/heads/main/screenshots/hyground-2026-07-25T221838.png
 security:
@@ -133,7 +138,7 @@ security:
 slug: hyground
 tags:
 - Company
-- Ai Ml
+- Ai/Ml
 - Site Reliability Engineering
 - DevOps
 - Kubernetes

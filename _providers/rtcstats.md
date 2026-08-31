@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 9
   slug: rtcstats-agentic-access
   summary_line: 9 operations · 5 acting
-api_count: 1
+api_count: 2
 apis:
 - description: The rtcStats API API from rtcStats — 8 operation(s) for rtcstats api.
   name: rtcStats rtcStats API API
@@ -45,6 +45,14 @@ collections:
   name: rtcStats rtcStats API API
   slug: open-rtcstats-rtcstats-api-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/rtcstats/rtcstats/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/rtcstats/rtcstats/releases
 - group: commercial
   title: ''
   type: License
@@ -189,10 +197,10 @@ modified: '2026-08-09'
 name: rtcStats
 nav: Providers
 network: true
-overview: 'rtcStats publishes 1 API on the [APIs.io](https://apis.io/) network: rtcStats API API. Tagged areas include WebRTC, Observability, Monitoring, Debugging, and Real-Time Communications.
+overview: 'rtcStats publishes 1 API on the [APIs.io](https://apis.io/) network: rtcStats API API. Tagged areas include WebRTC, observability, Monitoring, debugging, and real-time-communications.
 
 
-  rtcStats'' developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 26 more developer resources.'
+  rtcStats'' developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 28 more developer resources.'
 plans:
 - name: Rtcstats Plans
   plan_count: 3
@@ -203,19 +211,27 @@ rate_limits:
   name: Rtcstats Rate Limits
   slug: rtcstats-rate-limits
 score:
-  band: strong
-  composite: 58.4
+  band: developing
+  composite: 53.8
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 55.4
     developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 58.4
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,8 +242,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rtcstats/refs/heads/main/screenshots/rtcstats-2026-08-17T081649.png
 security:
@@ -242,10 +258,10 @@ security:
 slug: rtcstats
 tags:
 - WebRTC
-- Observability
+- observability
 - Monitoring
-- Debugging
-- Real-Time Communications
+- debugging
+- real-time-communications
 - Video
 - Voice
 - Artificial Intelligence

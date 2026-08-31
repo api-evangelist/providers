@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 298
   slug: netter-agentic-access
   summary_line: 298 operations · 169 acting · 2 human-in-the-loop
-api_count: 44
+api_count: 1
 apis:
 - description: The actions API from Netter — 7 operation(s) for actions.
   name: Netter actions API
@@ -313,6 +313,10 @@ collections:
   name: DMI Backend actions workflow-architect API
   slug: open-netter-workflow-architect-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/netter-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -412,22 +416,27 @@ network: true
 overview: 'Netter publishes 44 APIs on the [APIs.io](https://apis.io/) network, including actions API, api-keys API, app-chat API, and 41 more. Tagged areas include Company, Data, Data Platform, Analytics, and Artificial Intelligence.
 
 
-  Netter''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 15 more developer resources.'
+  Netter''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 16 more developer resources.'
 random_paper: 7
 score:
   band: thin
-  composite: 37.8
-  delta: 1.4
+  composite: 35.7
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 53.4
     developer_ergonomics: 56.5
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 36.4
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -438,8 +447,8 @@ score:
       total: 44
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netter/refs/heads/main/screenshots/netter-2026-08-07T184948.png
 security:

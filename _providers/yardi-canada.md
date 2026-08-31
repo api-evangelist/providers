@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 8
   slug: yardi-canada-agentic-access
   summary_line: 8 operations
-api_count: 4
+api_count: 1
 apis:
 - description: 'The documented family of Voyager web-service interfaces that Yardi Canada clients and their vendors integrate against — Collections, Commercial, Construction, Internet Listing Service (ILS) and Guest '
   name: Yardi Voyager Standard Interfaces
@@ -43,10 +43,19 @@ apis:
 - description: Yardi's first-party Model Context Protocol server, announced in early access on 2025-09-10 and described as available now in Virtuoso Enterprise on 2026-06-16. Listed on the Anthropic connector direct
   name: Yardi Virtuoso Connector (MCP)
   slug: yardi-virtuoso-connector-mcp
-- description: The only Yardi API that can be called today without a contract. It is the Atlassian Statuspage v2 REST API hosted on Yardi's own status host, with the endpoint list published by Yardi at https://statu
-  name: Yardi Systems Status API
-  slug: yardi-systems-status-api
-artifact_total: 11
+- description: Per-product and per-region service components
+  name: Yardi Canada Components API
+  slug: yardi-canada-components-api
+- description: Unplanned service incidents and their updates
+  name: Yardi Canada Incidents API
+  slug: yardi-canada-incidents-api
+- description: Scheduled maintenance windows
+  name: Yardi Canada Maintenance API
+  slug: yardi-canada-maintenance-api
+- description: Rolled-up page status
+  name: Yardi Canada Status API
+  slug: yardi-canada-status-api
+artifact_total: 14
 collections:
 - collection_type: open
   name: Yardi Systems Status API
@@ -210,7 +219,7 @@ modified: '2026-07-26'
 name: Yardi Canada
 nav: Providers
 network: true
-overview: 'Yardi Canada publishes 1 API on the [APIs.io](https://apis.io/) network: Yardi Systems Status API. Tagged areas include Real-Estate, Canada, Property Management, Rentals, and Commercial Real Estate.
+overview: 'Yardi Canada publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Components API, Incidents API, Maintenance API, and 1 more. Tagged areas include Real-Estate, Canada, Property Management, Rentals, and Commercial Real Estate.
 
 
   Yardi Canada''s developer surface includes documentation, authentication, changelog, support, legal docs, engineering blog, product news, and 29 more developer resources.'
@@ -222,18 +231,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.6
-  delta: 2.4
+  composite: 60.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 68.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 30.3
-    contract_quality: 52.4
+    contract_governance: 18.2
+    contract_quality: 50.9
     developer_ergonomics: 42.3
-    discoverability: 75.9
-    governance: 30.3
+    discoverability: 59.3
+    governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 61.2
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -246,12 +260,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/screenshots/yardi-canada-2026-08-17T083014.png
 security:

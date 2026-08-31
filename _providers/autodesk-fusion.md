@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 146
   slug: autodesk-fusion-agentic-access
   summary_line: 146 operations · 64 acting · 3 human-in-the-loop
-api_count: 37
+api_count: 8
 apis:
 - description: The Fusion Automation API is a cloud-based Premium API that runs Fusion scripts and automation jobs at scale without requiring desktop software. It supports parametric design customization, advanced m
   name: Fusion Automation API (Design Automation)
@@ -263,6 +263,10 @@ collections:
   name: Construction.Account.Admin Account Management Versions API
   slug: open-autodesk-fusion-versions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/autodesk-fusion-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -358,7 +362,7 @@ network: true
 overview: 'Autodesk Fusion publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account Management API, Account Users API, Buckets API, and 31 more. Tagged areas include CAD, CAM, CAE, Manufacturing, and Design Automation.
 
 
-  Autodesk Fusion''s developer surface includes authentication, documentation, engineering blog, pricing, and 15 more developer resources.'
+  Autodesk Fusion''s developer surface includes authentication, documentation, engineering blog, pricing, and 16 more developer resources.'
 plans:
 - name: Autodesk Fusion Plans Pricing
   plan_count: 5
@@ -376,6 +380,11 @@ scopes:
 score:
   band: developing
   composite: 41.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -394,8 +403,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 34
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk-fusion/refs/heads/main/screenshots/autodesk-fusion-2026-06-20T172708.png
 security:

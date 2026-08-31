@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 119
   slug: when-i-work-agentic-access
   summary_line: 119 operations · 71 acting
-api_count: 22
+api_count: 1
 apis:
 - description: 'Accounts (aka Workplaces) are objects that define a business account with When I Work. Each user is associated with an account enabling them to access Shifts or other data. For more information about '
   name: When I Work Accounts API
@@ -317,18 +317,23 @@ rules:
   slug: when-i-work-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.2
-  delta: 2.5
+  composite: 42.1
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
-    contract_quality: 67.2
+    contract_quality: 60.4
     developer_ergonomics: 14.3
-    discoverability: 68.5
+    discoverability: 44.4
     governance: 25.0
     operational_transparency: 39.5
-  previous_composite: 43.7
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -336,8 +341,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/when-i-work/refs/heads/main/screenshots/when-i-work-2026-06-20T201428.png
 security:

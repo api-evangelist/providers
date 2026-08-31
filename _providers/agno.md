@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 117
   slug: agno-agentic-access
   summary_line: 117 operations · 61 acting · 1 human-in-the-loop
-api_count: 21
+api_count: 1
 apis:
 - description: The A2A API from Agno — 15 operation(s) for a2a.
   name: Agno A2A API
@@ -331,15 +331,20 @@ rules:
   slug: agno-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 48.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 31.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 69.4
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 50.0
   previous_composite: 49.0
@@ -350,8 +355,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/screenshots/agno-2026-06-20T170338.png
 security:

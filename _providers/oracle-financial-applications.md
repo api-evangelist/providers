@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: oracle-financial-applications-agentic-access
   summary_line: 12 operations · 3 acting
-api_count: 15
+api_count: 1
 apis:
 - description: APIs for managing chart of accounts, journal entries, budgets, allocations, and financial reporting in Oracle ERP Cloud.
   name: Oracle General Ledger REST API
@@ -188,18 +188,23 @@ rate_limits:
   slug: oracle-financial-applications-rate-limits
 score:
   band: developing
-  composite: 42.5
-  delta: 4.8
+  composite: 41.9
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 84.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 61.9
-    discoverability: 46.3
+    discoverability: 40.7
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 37.7
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -207,8 +212,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-financial-applications/refs/heads/main/screenshots/oracle-financial-applications-2026-06-20T191129.png
 security:

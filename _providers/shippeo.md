@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: shippeo-agentic-access
   summary_line: 11 operations · 5 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Retrieve predictive ETAs, statuses, and milestone events (Events-out, pull).
   name: Shippeo ETA and Status API
@@ -77,6 +77,10 @@ collections:
   name: Shippeo Real-Time Transportation Visibility API
   slug: open-shippeo
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shippeo-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -136,7 +140,7 @@ network: true
 overview: 'Shippeo publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ETA and Status API, Event Subscriptions API, Positions API, and 1 more. Tagged areas include Supply Chain, Transportation Visibility, Real-Time Visibility, Logistics, and Shipment Tracking.
 
 
-  Shippeo''s developer surface includes authentication, documentation, signup flow, and 8 more developer resources.'
+  Shippeo''s developer surface includes authentication, documentation, signup flow, and 9 more developer resources.'
 plans:
 - name: Shippeo Plans Pricing
   plan_count: 1
@@ -148,18 +152,23 @@ rate_limits:
   slug: shippeo-rate-limits
 score:
   band: thin
-  composite: 36.6
-  delta: 0.9
+  composite: 36.2
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 55.8
+    contract_quality: 56.1
     developer_ergonomics: 16.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 35.7
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +176,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 4
   slug: united-states-fire-administration-agentic-access
   summary_line: 4 operations
-api_count: 2
+api_count: 1
 apis:
 - description: OpenFEMA dataset metadata
   name: United States Fire Administration Datasets API
@@ -64,6 +64,10 @@ collections:
   name: OpenFEMA Fire Data Datasets Disaster Declarations API
   slug: open-united-states-fire-administration-disaster-declarations-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/united-states-fire-administration-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -148,7 +152,12 @@ rules:
 score:
   band: thin
   composite: 30.3
-  delta: 3.8
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 39.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -158,7 +167,7 @@ score:
     discoverability: 68.5
     governance: 39.4
     operational_transparency: 7.9
-  previous_composite: 26.5
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -172,8 +181,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-fire-administration/refs/heads/main/screenshots/united-states-fire-administration-2026-06-20T200055.png
 security:

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: derived
     idempotency: na
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.0
-  scored_at: '2026-08-26'
+  score: 38.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: financial-modeling-prep-agentic-access
   summary_line: 10 operations
-api_count: 10
+api_count: 1
 apis:
 - description: The Balance Sheet Statement API from Financial Modeling Prep — 1 operation(s) for balance sheet statement.
   name: Financial Modeling Prep Balance Sheet Statement API
@@ -361,18 +361,23 @@ rules:
   slug: financial-modeling-prep-asyncapi-spectral-rules
 score:
   band: exemplar
-  composite: 72.8
-  delta: 0.0
+  composite: 67.5
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 47.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 28.0
-    contract_quality: 66.0
+    contract_governance: 15.9
+    contract_quality: 57.3
     developer_ergonomics: 51.8
-    discoverability: 92.6
-    governance: 28.0
+    discoverability: 75.9
+    governance: 15.9
     operational_transparency: 73.7
-  previous_composite: 72.8
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -389,8 +394,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/financial-modeling-prep/refs/heads/main/screenshots/financial-modeling-prep-2026-08-17T080057.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: national-library-of-medicine-agentic-access
   summary_line: 9 operations · 1 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Discover database metadata, related records, and citations.
   name: National Library of Medicine Discovery API
@@ -127,18 +127,23 @@ rate_limits:
   slug: national-library-of-medicine-rate-limits
 score:
   band: thin
-  composite: 29.0
-  delta: 5.7
+  composite: 28.5
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 48.3
     developer_ergonomics: 38.1
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 23.3
+  previous_composite: 29.0
   provenance:
     agentic_access: derived
     contracts:
@@ -152,9 +157,9 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-library-of-medicine/refs/heads/main/screenshots/national-library-of-medicine-2026-06-20T190032.png
 security:
 - kind: domain-security

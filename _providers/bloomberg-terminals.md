@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: The Bloomberg Open API provides programmatic access to data available in the Bloomberg Terminal including real-time prices, reference data, historical data, news, and analytics. SDKs for C++, Java, Py
@@ -47,6 +47,10 @@ apis:
   slug: bloomberg-launchpad
 artifact_total: 17
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
 - group: operate
   title: ''
   type: IssueTracker
@@ -116,14 +120,14 @@ finops:
   slug: bloomberg-terminals-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-terminals.png
 layout: provider
-modified: '2026-04-21'
+modified: '2026-08-27'
 name: Bloomberg Terminals
 nav: Providers
 network: true
 overview: 'Bloomberg Terminals publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Terminal, Bloomberg Professional, Market Data, Financial Data, and Trading.
 
 
-  Bloomberg Terminals'' developer surface includes developer portal, documentation, support, and 9 more developer resources.'
+  Bloomberg Terminals'' developer surface includes developer portal, documentation, support, and 10 more developer resources.'
 plans:
 - name: Bloomberg Terminals Plans Pricing
   plan_count: 3
@@ -135,8 +139,13 @@ rate_limits:
   slug: bloomberg-terminals-rate-limits
 score:
   band: emerging
-  composite: 21.1
-  delta: 0.0
+  composite: 23.0
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.9
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -146,6 +155,9 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
+  open_source:
+    applies: true
+    score: 40.0
   previous_composite: 21.1
   regulatory:
     applies: true
@@ -153,8 +165,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-terminals/refs/heads/main/screenshots/bloomberg-terminals-2026-06-20T173520.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 7
   slug: ucsd-agentic-access
   summary_line: 7 operations · 6 acting
-api_count: 12
+api_count: 4
 apis:
 - description: 'Chat completion endpoints on the OpenAI-compatible LLM gateway UC San Diego operates for approved campus faculty, staff, researchers and teams. The gateway runs on the campus Data Science and Machine '
   name: TritonAI Developer API — chat
@@ -66,9 +66,6 @@ apis:
 - description: SCIM 2.0 (RFC 7643 / RFC 7644) user and group provisioning surface exposed by the TritonAI gateway on UC San Diego infrastructure — 18 operations across /scim/v2/Users, /scim/v2/Groups, /scim/v2/Schem
   name: TritonAI Developer API — SCIM 2.0 provisioning
   slug: tritonai-scim-api
-- description: Public, read-only JSON search-and-retrieval over the UC San Diego Library Digital Collections, the Library's locally developed Fedora-backed Digital Asset Management System fronted by Blacklight/Solr.
-  name: UC San Diego Library Digital Collections JSON API
-  slug: library-digital-collections-api
 - description: The campus API gateway, running WSO2 API Manager 4.1.0 at api.ucsd.edu on UC San Diego address space (169.228.220.90), with a developer portal, a publisher console and a legacy carbon admin console. T
   name: UC San Diego API Gateway (WSO2 API Manager)
   slug: api-gateway
@@ -81,7 +78,13 @@ apis:
 - description: UC San Diego Library mints DOIs for its Digital Collections under DataCite repository account CDL.UCSD ("UC San Diego", registered 2012), prefix 10.6075. 22,934 DOIs resolve to library.ucsd.edu/dc lan
   name: UC San Diego DOI registration (DataCite / California Digital Library)
   slug: datacite-doi-registration
-artifact_total: 36
+- description: Retrieval of a single digital object or assembled collection record.
+  name: University of California, San Diego Objects API
+  slug: ucsd-objects-api
+- description: Faceted search across publicly discoverable digital objects and collections.
+  name: University of California, San Diego Search API
+  slug: ucsd-search-api
+artifact_total: 37
 collections:
 - collection_type: open
   name: API Collection
@@ -105,6 +108,10 @@ collections:
   name: TritonAI Developer API (LiteLLM Gateway) audio models API
   slug: open-ucsd-models-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ucsd-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -275,13 +282,13 @@ modified: '2026-08-19'
 name: University of California, San Diego
 nav: Providers
 network: true
-overview: 'University of California, San Diego publishes 8 APIs on the [APIs.io](https://apis.io/) network, including TritonAI Developer API — chat, TritonAI Developer API — completions, TritonAI Developer API — embeddings, and 5 more. Tagged areas include Education, Higher Education, University, Public Research University, and UC System.
+overview: 'University of California, San Diego publishes 9 APIs on the [APIs.io](https://apis.io/) network, including TritonAI Developer API — chat, TritonAI Developer API — completions, TritonAI Developer API — embeddings, and 6 more. Tagged areas include Education, Higher Education, University, Public Research University, and UC System.
 
 
   The University of California, San Diego catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  University of California, San Diego''s developer surface includes documentation, API reference, GitHub presence, status page, support, engineering blog, authentication, and 25 more developer resources.'
+  University of California, San Diego''s developer surface includes documentation, API reference, GitHub presence, status page, support, engineering blog, authentication, and 26 more developer resources.'
 plans:
 - name: Ucsd Plans Pricing
   plan_count: 2
@@ -320,17 +327,22 @@ scopes:
 score:
   band: developing
   composite: 53.6
-  delta: 2.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 49.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 9.8
-    contract_quality: 61.1
+    contract_quality: 60.9
     developer_ergonomics: 45.2
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 51.0
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -345,8 +357,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucsd/refs/heads/main/screenshots/ucsd-2026-06-20T195946.png
 security:

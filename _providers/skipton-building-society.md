@@ -33,12 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.3
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: UK Open Banking Open Data standard - public, unauthenticated reference data (branches, ATMs, personal and business current accounts, unsecured SME loans, commercial credit cards) as defined by the OBI
-  name: Skipton Open Banking Open Data API (OBIE Standard)
-  slug: skipton-open-data-api
 - description: Account and Transaction Information Services (AIS) as defined by the OBIE Read/Write API Standard - FAPI-secured (OAuth2/OIDC, mutual-TLS, PSD2 strong customer authentication). Represented here as the
   name: Skipton Account & Transaction Information API (OBIE Read/Write Standard)
   slug: skipton-account-information-api
@@ -48,12 +45,34 @@ apis:
 - description: Confirmation of Funds Services (CBPII) as defined by the OBIE Read/Write API Standard - FAPI-secured (OAuth2/OIDC, mutual-TLS, PSD2 SCA). Represented here as the shared OBIE standard; Skipton ASPSP pu
   name: Skipton Confirmation of Funds API (OBIE Read/Write Standard)
   slug: skipton-confirmation-of-funds-api
-artifact_total: 7
+- description: Endpoint for getting ATM data
+  name: Skipton Building Society ATM API
+  slug: skipton-building-society-atm-api
+- description: Endpoint for getting Business Current Account data
+  name: Skipton Building Society BCA API
+  slug: skipton-building-society-bca-api
+- description: Endpoint for getting Branch data
+  name: Skipton Building Society Branch API
+  slug: skipton-building-society-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: Skipton Building Society CCC API
+  slug: skipton-building-society-ccc-api
+- description: Endpoint for getting Personal Current Account data
+  name: Skipton Building Society PCA API
+  slug: skipton-building-society-pca-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: Skipton Building Society SME API
+  slug: skipton-building-society-sme-api
+artifact_total: 12
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-obie-opendata
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/skipton-building-society-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -139,25 +158,30 @@ modified: '2026-07-23'
 name: Skipton Building Society
 nav: Providers
 network: true
-overview: 'Skipton Building Society publishes 1 API on the [APIs.io](https://apis.io/) network: Skipton Open Banking Open Data API (OBIE Standard). Tagged areas include Financial-Services, Banking, Building Society, Open Banking, and PSD2.
+overview: 'Skipton Building Society publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 3 more. Tagged areas include Financial-Services, Banking, Building Society, Open Banking, and PSD2.
 
 
-  Skipton Building Society''s developer surface includes support, engineering blog, authentication, and 16 more developer resources.'
+  Skipton Building Society''s developer surface includes support, engineering blog, authentication, and 17 more developer resources.'
 random_paper: 2
 score:
   band: thin
-  composite: 37.4
-  delta: 1.0
+  composite: 35.4
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 68.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 32.7
     developer_ergonomics: 35.7
-    discoverability: 72.2
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 36.4
+  previous_composite: 35.9
   provenance:
     conformance: derived
     contracts:
@@ -171,8 +195,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

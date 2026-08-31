@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 49
   slug: expedia-group-agentic-access
   summary_line: 49 operations · 22 acting
-api_count: 15
+api_count: 5
 apis:
 - description: The primary itinerary method of the Booking API creates a reservation for the selected hotel, room, rate and occupancy.
   name: Expedia Group Bookings API
@@ -140,6 +140,10 @@ collections:
   name: Expedia Group EPS Deposit Bookings Shopping API
   slug: open-expedia-group-shopping-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/expedia-group-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -207,7 +211,7 @@ network: true
 overview: 'Expedia Group publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Bookings API, Content API, Deposit API, and 12 more. Tagged areas include Flights, Hotels, Lodging, Travel, and Fortune 500.
 
 
-  Expedia Group''s developer surface includes authentication, developer portal, engineering blog, support, and 8 more developer resources.'
+  Expedia Group''s developer surface includes authentication, developer portal, engineering blog, support, and 9 more developer resources.'
 plans:
 - name: Expedia Group Plans Pricing
   plan_count: 1
@@ -224,18 +228,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 36.5
-  delta: 1.9
+  composite: 36.1
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 58.0
+    contract_quality: 56.4
     developer_ergonomics: 45.2
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 34.6
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -243,8 +252,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/screenshots/expedia-group-2026-06-20T180935.png
 security:

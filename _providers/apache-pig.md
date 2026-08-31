@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -240,18 +240,23 @@ rules:
   slug: apache-pig-spectral-rules
 score:
   band: emerging
-  composite: 20.5
+  composite: 20.6
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 18.7
+    contract_quality: 19.0
     developer_ergonomics: 9.5
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 20.5
+  previous_composite: 20.6
   provenance:
     agentic_access: derived
     contracts:
@@ -259,8 +264,8 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-pig/refs/heads/main/screenshots/apache-pig-2026-06-20T172132.png
 security:

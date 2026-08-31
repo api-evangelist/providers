@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 151
   slug: oracle-fusion-agentic-access
   summary_line: 151 operations · 67 acting · 1 human-in-the-loop
-api_count: 52
+api_count: 7
 apis:
 - description: Absence management and leave tracking
   name: Oracle Fusion Cloud Applications Absences API
@@ -541,6 +541,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/oracle-fusion-capability-edges.yml
+- group: other
+  title: ''
   type: ParentCompany
   url: https://apis.io/providers/oracle/
 - group: build
@@ -985,7 +989,7 @@ overview: 'Oracle Fusion Cloud Applications publishes 52 APIs on the [APIs.io](h
   The Oracle Fusion Cloud Applications catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle Fusion Cloud Applications'' developer surface includes authentication, developer portal, support, getting-started guide, changelog, signup flow, and 16 more developer resources.'
+  Oracle Fusion Cloud Applications'' developer surface includes authentication, developer portal, support, getting-started guide, changelog, signup flow, and 17 more developer resources.'
 plans:
 - name: Oracle Fusion Plans Pricing
   plan_count: 2
@@ -1009,7 +1013,12 @@ rules:
 score:
   band: developing
   composite: 47.2
-  delta: 1.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 58.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -1019,7 +1028,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 45.3
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1027,8 +1036,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 52
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-fusion/refs/heads/main/screenshots/oracle-fusion-2026-06-20T191134.png
 security:

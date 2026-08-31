@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.3
-  scored_at: '2026-08-26'
+  score: 28.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 759
   human_in_the_loop: 29
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 1302
   slug: spectro-cloud-agentic-access
   summary_line: 1302 operations · 759 acting · 29 human-in-the-loop
-api_count: 42
+api_count: 2
 apis:
 - description: The activations API from Spectro Cloud — 1 operation(s) for activations.
   name: Spectro Cloud activations API
@@ -301,6 +301,10 @@ collections:
   name: Local Management APIs activations workspaces API
   slug: open-spectro-cloud-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/spectro-cloud-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -452,7 +456,7 @@ network: true
 overview: 'Spectro Cloud publishes 42 APIs on the [APIs.io](https://apis.io/) network, including activations API, apiKeys API, appDeployments API, and 39 more. Tagged areas include Company, Infrastructure, Kubernetes, Cloud-Native, and Cluster Management.
 
 
-  Spectro Cloud''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 27 more developer resources.'
+  Spectro Cloud''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 28 more developer resources.'
 random_paper: 4
 rate_limits:
 - limit_count: 0
@@ -460,18 +464,23 @@ rate_limits:
   slug: spectro-cloud-rate-limits
 score:
   band: developing
-  composite: 51.1
-  delta: 0.0
+  composite: 49.1
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 44.9
     developer_ergonomics: 73.2
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 51.1
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -482,8 +491,8 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spectro-cloud/refs/heads/main/screenshots/spectro-cloud-2026-08-17T082021.png
 security:

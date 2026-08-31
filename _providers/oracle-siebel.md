@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-26'
-api_count: 16
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: SOAP-based web services for enterprise integration with Siebel CRM, supporting complex business operations and workflows. Siebel provides both inbound web services for external clients to access Siebe
   name: Oracle Siebel SOAP Web Services
@@ -124,6 +124,18 @@ collections:
   name: Oracle Siebel REST Service Requests API
   slug: open-oracle-siebel-service-requests-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/oracle-siebel-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/OracleSiebel/ConfiguringSiebel/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/OracleSiebel/ConfiguringSiebel/releases
 - group: other
   title: ''
   type: ParentCompany
@@ -329,7 +341,7 @@ overview: 'Oracle Siebel publishes 11 APIs on the [APIs.io](https://apis.io/) ne
   The Oracle Siebel catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Oracle Siebel''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, changelog, and 37 more developer resources.'
+  Oracle Siebel''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, changelog, and 40 more developer resources.'
 plans:
 - name: Oracle Siebel Plans Pricing
   plan_count: 3
@@ -367,19 +379,27 @@ scopes:
   slug: oracle-siebel-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 67.1
-  delta: 0.0
+  band: strong
+  composite: 61.7
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 66.4
     developer_ergonomics: 70.8
-    discoverability: 64.8
-    governance: 30.3
+    discoverability: 66.7
+    governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 67.1
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 62.2
   provenance:
     conformance: derived
     contracts:
@@ -389,8 +409,8 @@ score:
       total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/screenshots/oracle-siebel-2026-06-20T191147.png
 security:

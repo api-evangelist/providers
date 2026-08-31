@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.0
-  scored_at: '2026-08-26'
+  score: 29.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 60
   slug: wpengine-agentic-access
   summary_line: 60 operations · 29 acting
-api_count: 17
+api_count: 1
 apis:
 - description: The Account API from WP Engine — 3 operation(s) for account.
   name: WP Engine Account API
@@ -591,18 +591,23 @@ rules:
   slug: wpengine-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 39.9
-  delta: 0.0
+  composite: 39.4
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 47.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 55.3
+    contract_quality: 55.7
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 39.9
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -610,8 +615,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/screenshots/wpengine-2026-06-20T201629.png
 security:

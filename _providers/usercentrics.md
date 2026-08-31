@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 29
   slug: usercentrics-agentic-access
   summary_line: 29 operations · 17 acting · 1 human-in-the-loop
-api_count: 11
+api_count: 3
 apis:
 - description: Hosted server-side Google Tag Manager service for first-party data collection, consent enforcement, and tag execution off the browser. Includes Meta Signals Gateway for the Meta Conversions API and co
   name: Usercentrics Server-Side Tagging (sGTM)
@@ -277,18 +277,23 @@ rate_limits:
   slug: usercentrics-rate-limits
 score:
   band: developing
-  composite: 47.9
-  delta: 2.5
+  composite: 47.8
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 53.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 0.0
-    contract_quality: 46.3
+    contract_quality: 45.7
     developer_ergonomics: 42.9
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 45.4
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     contracts:
@@ -296,8 +301,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/screenshots/usercentrics-2026-06-20T200655.png
 security:

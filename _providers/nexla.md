@@ -24,21 +24,243 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: RESTful control-plane API for the Nexla platform. 155 paths / 274 operations across 31 tags covering data flows, sources, Nexsets (data sets), sinks, credentials, data maps, transforms, code container
-  name: Nexla REST API
-  slug: nexla-rest-api
-- description: OpenAPI 3.1 contract for Nexla's GenAI service, combining the Agentic RAG query API with MCPaaS — the MCP Tools control plane. 110 paths / 131 operations covering agentic RAG query and cache, per-nexs
-  name: Nexla GenAI API (RAG + MCPaaS)
-  slug: nexla-genai-api-rag-mcpaas
-artifact_total: 10
+- description: Operations for managing access control to resources
+  name: Nexla Access Control API
+  slug: nexla-access-control-api
+- description: Operations for managing all requests made by users without permissions.
+  name: Nexla Approval Requests API
+  slug: nexla-approval-requests-api
+- description: Operations for managing asynchronous tasks.
+  name: Nexla Async Tasks API
+  slug: nexla-async-tasks-api
+- description: Operations for reviewing the change history of resources.
+  name: Nexla Audit Logs API
+  slug: nexla-audit-logs-api
+- description: The Bulk Evaluation API from Nexla — 1 operation(s) for bulk evaluation.
+  name: Nexla Bulk Evaluation API
+  slug: nexla-bulk-evaluation-api
+- description: The Bulk Query API from Nexla — 1 operation(s) for bulk query.
+  name: Nexla Bulk Query API
+  slug: nexla-bulk-query-api
+- description: The Clear Dataset Cache API from Nexla — 1 operation(s) for clear dataset cache.
+  name: Nexla Clear Dataset Cache API
+  slug: nexla-clear-dataset-cache-api
+- description: The Clear Token Cache API from Nexla — 1 operation(s) for clear token cache.
+  name: Nexla Clear Token Cache API
+  slug: nexla-clear-token-cache-api
+- description: The Code API from Nexla — 2 operation(s) for code.
+  name: Nexla Code API
+  slug: nexla-code-api
+- description: Code containers are a general-purpose resource in the platform for storing user-defined functions that can be referenced by different modules for different purposes. These containers can either hold t
+  name: Nexla Code Containers API
+  slug: nexla-code-containers-api
+- description: The credential-mappings API from Nexla — 2 operation(s) for credential-mappings.
+  name: Nexla Credential Mappings API
+  slug: nexla-credential-mappings-api
+- description: Operations for managing data credentials.
+  name: Nexla Credentials API
+  slug: nexla-credentials-api
+- description: Operations for managing custom runtimes.
+  name: Nexla Custom Runtimes API
+  slug: nexla-custom-runtimes-api
+- description: The Data Maps API from Nexla — 4 operation(s) for data maps.
+  name: Nexla Data Maps API
+  slug: nexla-data-maps-api
+- description: The Data Sets API from Nexla — 1 operation(s) for data sets.
+  name: Nexla Data Sets API
+  slug: nexla-data-sets-api
+- description: Operations for managing data sinks. Note that Destinations on the Nexla UI are aliased as `data_sinks` in the Nexla API reference model, so all endpoints and responses use the term `data_sinks` instea
+  name: Nexla Destinations (Data Sinks) API
+  slug: nexla-destinations-data-sinks-api
+- description: The Docs API from Nexla — 1 operation(s) for docs.
+  name: Nexla Docs API
+  slug: nexla-docs-api
+- description: The Flow API from Nexla — 2 operation(s) for flow.
+  name: Nexla Flow API
+  slug: nexla-flow-api
+- description: Operations for managing flows.
+  name: Nexla Flows API
+  slug: nexla-flows-api
+- description: The gateway API from Nexla — 11 operation(s) for gateway.
+  name: Nexla Gateway API
+  slug: nexla-gateway-api
+- description: Operations for requesting AI recommendations for documentation.
+  name: Nexla Gen AI Recommendations API
+  slug: nexla-gen-ai-recommendations-api
+- description: The Genai Codegen API from Nexla — 1 operation(s) for genai codegen.
+  name: Nexla Genai Codegen API
+  slug: nexla-genai-codegen-api
+- description: The GenAI Configs API from Nexla — 1 operation(s) for genai configs.
+  name: Nexla GenAI Configs API
+  slug: nexla-genai-configs-api
+- description: The GenAI Configuration API from Nexla — 1 operation(s) for genai configuration.
+  name: Nexla GenAI Configuration API
+  slug: nexla-genai-configuration-api
+- description: Operations for managing GenAI configurations.
+  name: Nexla GenAI Configurations API
+  slug: nexla-genai-configurations-api
+- description: The Genai Dsl Transform API from Nexla — 1 operation(s) for genai dsl transform.
+  name: Nexla Genai Dsl Transform API
+  slug: nexla-genai-dsl-transform-api
+- description: The Genai Transform API from Nexla — 1 operation(s) for genai transform.
+  name: Nexla Genai Transform API
+  slug: nexla-genai-transform-api
+- description: The Generate Document API from Nexla — 2 operation(s) for generate document.
+  name: Nexla Generate Document API
+  slug: nexla-generate-document-api
+- description: The health API from Nexla — 5 operation(s) for health.
+  name: Nexla Health API
+  slug: nexla-health-api
+- description: The Health Check API from Nexla — 2 operation(s) for health check.
+  name: Nexla Health Check API
+  slug: nexla-health-check-api
+- description: The Initialize API from Nexla — 1 operation(s) for initialize.
+  name: Nexla Initialize API
+  slug: nexla-initialize-api
+- description: Rate limit endpoints
+  name: Nexla Limits API
+  slug: nexla-limits-api
+- description: The List Dataset Cache API from Nexla — 1 operation(s) for list dataset cache.
+  name: Nexla List Dataset Cache API
+  slug: nexla-list-dataset-cache-api
+- description: The List Models API from Nexla — 1 operation(s) for list models.
+  name: Nexla List Models API
+  slug: nexla-list-models-api
+- description: The Lookup Enrich API from Nexla — 1 operation(s) for lookup enrich.
+  name: Nexla Lookup Enrich API
+  slug: nexla-lookup-enrich-api
+- description: The Marketing Chat API from Nexla — 1 operation(s) for marketing chat.
+  name: Nexla Marketing Chat API
+  slug: nexla-marketing-chat-api
+- description: Operations for managing the marketplace domains and items.
+  name: Nexla Marketplace API
+  slug: nexla-marketplace-api
+- description: The Mcp API from Nexla — 2 operation(s) for mcp.
+  name: Nexla MCP API
+  slug: nexla-mcp-api
+- description: The mcp-config API from Nexla — 3 operation(s) for mcp-config.
+  name: Nexla MCP Config API
+  slug: nexla-mcp-config-api
+- description: The Mcp Query API from Nexla — 1 operation(s) for mcp query.
+  name: Nexla Mcp Query API
+  slug: nexla-mcp-query-api
+- description: The MCP Tools API from Nexla — 6 operation(s) for mcp tools.
+  name: Nexla MCP Tools API
+  slug: nexla-mcp-tools-api
+- description: Operations for retrieving metrics.
+  name: Nexla Metrics API
+  slug: nexla-metrics-api
+- description: The Nexla Admin Api API from Nexla — 1 operation(s) for nexla admin api.
+  name: Nexla Nexla Admin API
+  slug: nexla-nexla-admin-api-api
+- description: Operations for managing Nexsets. Note that Nexsets on the Nexla UI are aliased as `data_sets` in the Nexla API reference model, so all endpoints and responses use the term `data_sets` instead of `nexs
+  name: Nexla Nexsets (Data Sets) API
+  slug: nexla-nexsets-data-sets-api
+- description: Operations for managing notifications.
+  name: Nexla Notifications API
+  slug: nexla-notifications-api
+- description: Operations for managing organization authentication configurations.
+  name: Nexla Org authentication configs API
+  slug: nexla-org-authentication-configs-api
+- description: Operations for managing the user's organization.
+  name: Nexla Organizations API
+  slug: nexla-organizations-api
+- description: The Private Query API from Nexla — 1 operation(s) for private query.
+  name: Nexla Private Query API
+  slug: nexla-private-query-api
+- description: Operations for managing projects.
+  name: Nexla Projects API
+  slug: nexla-projects-api
+- description: Operations for managing quarantine settings.
+  name: Nexla Quarantine Settings API
+  slug: nexla-quarantine-settings-api
+- description: The Query API from Nexla — 1 operation(s) for query.
+  name: Nexla Query API
+  slug: nexla-query-api
+- description: The receipts API from Nexla — 2 operation(s) for receipts.
+  name: Nexla Receipts API
+  slug: nexla-receipts-api
+- description: The Search Nexsets API from Nexla — 1 operation(s) for search nexsets.
+  name: Nexla Search Nexsets API
+  slug: nexla-search-nexsets-api
+- description: Operations for approving self-signup requests.
+  name: Nexla Self Sign-Up Admin API
+  slug: nexla-self-sign-up-admin-api
+- description: Operations for self-signup and verification.
+  name: Nexla Self Sign-Up API
+  slug: nexla-self-sign-up-api
+- description: 'Operations for managing your Nexla session programmatically. > Note: Unless unavoidable, we recommend starting your session from the Nexla UI and using the `Nexla Session Token` from the Nexla UI as t'
+  name: Nexla Session Management API
+  slug: nexla-session-management-api
+- description: The sessions API from Nexla — 5 operation(s) for sessions.
+  name: Nexla Sessions API
+  slug: nexla-sessions-api
+- description: Operations for managing data sources.
+  name: Nexla Sources API
+  slug: nexla-sources-api
+- description: The Struct Extraction API from Nexla — 1 operation(s) for struct extraction.
+  name: Nexla Struct Extraction API
+  slug: nexla-struct-extraction-api
+- description: Operations for managing teams.
+  name: Nexla Teams API
+  slug: nexla-teams-api
+- description: The tools API from Nexla — 10 operation(s) for tools.
+  name: Nexla Tools API
+  slug: nexla-tools-api
+- description: The toolsets API from Nexla — 19 operation(s) for toolsets.
+  name: Nexla Toolsets API
+  slug: nexla-toolsets-api
+- description: Operations for managing reusable attribute and record transforms.
+  name: Nexla Transforms API
+  slug: nexla-transforms-api
+- description: The usage API from Nexla — 4 operation(s) for usage.
+  name: Nexla Usage API
+  slug: nexla-usage-api
+- description: The User Settings API from Nexla — 1 operation(s) for user settings.
+  name: Nexla User Settings API
+  slug: nexla-user-settings-api
+- description: Operations for managing user settings.
+  name: Nexla Users API
+  slug: nexla-users-api
+- description: The v2-filters API from Nexla — 3 operation(s) for v2-filters.
+  name: Nexla V2 Filters API
+  slug: nexla-v2-filters-api
+- description: The v2-nexset-info API from Nexla — 2 operation(s) for v2-nexset-info.
+  name: Nexla V2 Nexset Info API
+  slug: nexla-v2-nexset-info-api
+- description: The v2-query API from Nexla — 3 operation(s) for v2-query.
+  name: Nexla V2 Query API
+  slug: nexla-v2-query-api
+- description: The v2-skills API from Nexla — 3 operation(s) for v2-skills.
+  name: Nexla V2 Skills API
+  slug: nexla-v2-skills-api
+- description: Operations for sending events to the Nexla `webhook` connector.
+  name: Nexla Webhooks API
+  slug: nexla-webhooks-api
+- description: The .well Known API from Nexla — 2 operation(s) for .well known.
+  name: Nexla .well Known API
+  slug: nexla-well-known-api
+artifact_total: 80
 asyncapis:
 - description: ''
   name: Nexla Webhooks
   slug: nexla-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nexla-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nexla-rest-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nexla-genai-mcpaas-overlay.yaml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -188,13 +410,13 @@ modified: '2026-08-26'
 name: Nexla
 nav: Providers
 network: true
-overview: 'Nexla publishes 2 APIs on the [APIs.io](https://apis.io/) network: REST API and GenAI API (RAG + MCPaaS). Tagged areas include Company, Data Integration, Data Engineering, ETL, and ELT.
+overview: 'Nexla publishes 72 APIs on the [APIs.io](https://apis.io/) network, including Access Control API, Approval Requests API, Async Tasks API, and 69 more. Tagged areas include Company, Data Integration, Data Engineering, ETL, and ELT.
 
 
   The Nexla catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Nexla''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Nexla''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Nexla Plans Pricing
   plan_count: 3
@@ -206,16 +428,23 @@ rate_limits:
   slug: nexla-rate-limits
 score:
   band: strong
-  composite: 61.9
+  composite: 60.5
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_governance: 30.3
-    contract_quality: 52.8
+    contract_governance: 18.2
+    contract_quality: 55.1
     developer_ergonomics: 73.2
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 57.9
+  previous_composite: 60.5
   provenance:
     conformance: first-party
     contracts:
@@ -225,8 +454,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Nexla Authentication
@@ -259,7 +489,7 @@ tags:
 - Retrieval Augmented Generation
 - MCP
 - Agent Tools
-- Data Pipelines
+- Data Pipeline
 - Connectors
 website: https://nexla.com/
 ---

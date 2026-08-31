@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 7
 apis:
 - description: Core gRPC-based API for the XMTP decentralized messaging network. Provides operations for sending and retrieving encrypted group messages, managing MLS key packages, publishing identity updates, and s
@@ -59,6 +59,22 @@ apis:
   slug: xmtp-app-chain-rpc-api
 artifact_total: 11
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/xmtp/xmtp-js/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/xmtp/xmtp-js/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/xmtp/xmtp-js/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/xmtp/xmtp-js/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -118,7 +134,7 @@ network: true
 overview: 'XMTP publishes 1 API on the [APIs.io](https://apis.io/) network: Network gRPC API. Tagged areas include Web3, Messaging, Encryption, Decentralized, and Ethereum.
 
 
-  XMTP''s developer surface includes GitHub presence, engineering blog, status page, and 8 more developer resources.'
+  XMTP''s developer surface includes GitHub presence, engineering blog, status page, and 12 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -130,8 +146,13 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 34.0
-  delta: 4.3
+  composite: 38.8
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 52.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -140,16 +161,19 @@ score:
     developer_ergonomics: 26.2
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 29.7
+    operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 38.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xmtp/refs/heads/main/screenshots/xmtp-2026-06-20T201710.png
 security:

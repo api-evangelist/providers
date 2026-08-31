@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 5
 common:
@@ -214,8 +214,13 @@ rate_limits:
   slug: ernst-and-young-rate-limits
 score:
   band: thin
-  composite: 26.8
-  delta: 0.0
+  composite: 26.6
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 57.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.2
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -225,9 +230,12 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 25.0
   previous_composite: 26.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ernst-and-young/refs/heads/main/screenshots/ernst-and-young-2026-06-20T180813.png
 security:
@@ -256,7 +264,7 @@ tags:
 - Artificial Intelligence
 - Agentic AI
 - Blockchain
-- Zero-Knowledge Proofs
+- Zero Knowledge Proofs
 - Privacy
 - Insights
 - Research

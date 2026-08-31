@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-08-26'
-api_count: 15
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
 - description: Endpoints for creating and managing loan application contracts
   name: LendKey Application Contracts API
@@ -136,6 +136,10 @@ collections:
   name: LendKey E-Sign API (via Kong Gateway) Application Contracts Webhooks API
   slug: open-lendkey-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lendkey-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -250,7 +254,7 @@ overview: 'LendKey publishes 15 APIs on the [APIs.io](https://apis.io/) network,
   The LendKey catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  LendKey''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, sandbox, and 17 more developer resources.'
+  LendKey''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, sandbox, and 18 more developer resources.'
 random_paper: 13
 scopes:
 - name: Lendkey Scopes
@@ -259,18 +263,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.3
+  composite: 46.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
-    contract_quality: 62.1
+    contract_governance: 4.5
+    contract_quality: 60.3
     developer_ergonomics: 54.2
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 48.3
+  previous_composite: 46.4
   provenance:
     conformance: derived
     contracts:
@@ -286,8 +295,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/screenshots/lendkey-2026-07-25T224904.png
 security:

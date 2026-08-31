@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -303,18 +303,26 @@ rules:
   slug: apache-bookkeeper-spectral-rules
 score:
   band: thin
-  composite: 28.8
-  delta: 0.0
+  composite: 32.5
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 3.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 28.8
-    contract_quality: 19.7
+    contract_quality: 20.0
     developer_ergonomics: 26.2
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 28.8
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 28.9
   provenance:
     agentic_access: derived
     contracts:
@@ -322,8 +330,8 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-bookkeeper/refs/heads/main/screenshots/apache-bookkeeper-2026-06-20T172044.png
 security:

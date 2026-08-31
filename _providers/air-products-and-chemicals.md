@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Air Products and Chemicals provides industrial, specialty, and process gases including hydrogen, helium, nitrogen, oxygen, argon, and carbon dioxide. The company also offers gas generation equipment, '
@@ -56,7 +56,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://www.airproducts.com/products
+  url: https://www.airproducts.com/gases
 - group: docs
   title: ''
   type: Documentation
@@ -72,13 +72,63 @@ common:
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.airproducts.com/company/privacy-notice
+  url: https://www.airproducts.com/privacy-notice
 - group: start
   title: ''
   type: Portal
   url: https://www.airproducts.com/careers
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.airproducts.com/customer-support
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.airproducts.com/company/news-center
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.airproducts.com/legal-documents/air-products-terms-and-conditions
+- group: start
+  title: ''
+  type: Login
+  url: https://account.airproducts.com/login
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.airproducts.com/services/smart-technology
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.airproducts.com/company/sustainability/certifications
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/air-products-and-chemicals-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/air-products-and-chemicals-llms.txt
+coverage:
+  checked: '2026-08-30'
+  detail: Air Products runs a live Axway (Vordel) API gateway at api.airproducts.com that answers every anonymous path - including "/" and "?wsdl" - with an HTTP 404 SOAP fault:MessageBlocked, and the only other digital surfaces (MyAirProducts ordering and Smart Technology tank telemetry) redirect to the account.airproducts.com login, so the contract is reachable only by an existing contracted customer.
+  evidence:
+  - status: 404
+    url: https://api.airproducts.com/
+  - status: 404
+    url: https://api.airproducts.com/?wsdl
+  - status: 200
+    url: https://apdirect.airproducts.com/
+  - status: 404
+    url: https://www.airproducts.com/openapi.json
+  - status: 404
+    url: https://www.airproducts.com/llms.txt
+  - status: 404
+    url: https://www.airproducts.com/.well-known/security.txt
+  reason: customer-only-docs
+  state: gated
 created: '2025-02-17'
-description: Air Products and Chemicals, Inc. is a global industrial gases company founded in 1940 and headquartered in Allentown, Pennsylvania. It is one of the largest producers of hydrogen and helium worldwide, supplying atmospheric, process, and specialty gases including nitrogen, oxygen, argon, hydrogen, helium, and carbon dioxide, as well as related equipment and engineering services to customers in manufacturing, healthcare, technology, energy, and other industries. Air Products does not currently provide a public developer API.
+description: Air Products and Chemicals, Inc. is a global industrial gases company founded in 1940 and headquartered in Allentown, Pennsylvania. It is one of the largest producers of hydrogen and helium worldwide, supplying atmospheric, process, and specialty gases including nitrogen, oxygen, argon, hydrogen, helium, and carbon dioxide, as well as related equipment and engineering services to customers in manufacturing, healthcare, technology, energy, and other industries. Air Products does not currently provide a public developer API, developer portal, or machine-readable contract. A live Axway (Vordel) API gateway operates at api.airproducts.com but blocks every anonymous path with a SOAP MessageBlocked fault, and customer ordering and tank telemetry sit behind the MyAirProducts login; integration is provisioned bilaterally under a gas supply agreement.
 examples:
 - key_count: 8
   name: Airproducts Gas Order Example
@@ -142,7 +192,7 @@ jsonld:
   property_count: 12
   slug: airproducts-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-30'
 name: Air Products and Chemicals
 nav: Providers
 network: true
@@ -152,7 +202,7 @@ overview: 'Air Products and Chemicals publishes 1 API on the [APIs.io](https://a
   The Air Products and Chemicals catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Air Products and Chemicals'' developer surface includes documentation, developer portal, and 7 more developer resources.'
+  Air Products and Chemicals'' developer surface includes documentation, developer portal, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Air Products And Chemicals Plans Pricing
   plan_count: 1
@@ -190,15 +240,20 @@ rules:
     warn: 4
   slug: air-products-and-chemicals-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 19.1
-  delta: 0.0
+  band: thin
+  composite: 28.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 64.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 9.6
   facets:
-    access_clarity: 23.7
-    commercial_clarity: 23.7
+    access_clarity: 55.3
+    commercial_clarity: 55.3
     contract_governance: 9.8
     contract_quality: 10.7
-    developer_ergonomics: 19.0
+    developer_ergonomics: 26.2
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 5.3
@@ -214,10 +269,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 20.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 32.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 security:
 - kind: domain-security
   name: Air Products And Chemicals Domain Security

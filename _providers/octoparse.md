@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 21
   slug: octoparse-agentic-access
   summary_line: 21 operations · 15 acting · 2 human-in-the-loop
-api_count: 19
+api_count: 1
 apis:
 - description: The Action API from Octoparse — 1 operation(s) for action.
   name: Octoparse Action API
@@ -70,18 +70,6 @@ apis:
 - description: The Items API from Octoparse — 1 operation(s) for items.
   name: Octoparse Items API
   slug: octoparse-items-api
-- description: The Loop API from Octoparse — 1 operation(s) for loop.
-  name: Octoparse Loop API
-  slug: octoparse-loop-api
-- description: The Move API from Octoparse — 1 operation(s) for move.
-  name: Octoparse Move API
-  slug: octoparse-move-api
-- description: The Properties API from Octoparse — 1 operation(s) for properties.
-  name: Octoparse Properties API
-  slug: octoparse-properties-api
-- description: The Remove API from Octoparse — 1 operation(s) for remove.
-  name: Octoparse Remove API
-  slug: octoparse-remove-api
 - description: The Search API from Octoparse — 1 operation(s) for search.
   name: Octoparse Search API
   slug: octoparse-search-api
@@ -94,13 +82,10 @@ apis:
 - description: The Subtasks API from Octoparse — 2 operation(s) for subtasks.
   name: Octoparse Subtasks API
   slug: octoparse-subtasks-api
-- description: The Task API from Octoparse — 9 operation(s) for task.
-  name: Octoparse Task API
-  slug: octoparse-task-api
 - description: The Token API from Octoparse — 1 operation(s) for token.
   name: Octoparse Token API
   slug: octoparse-token-api
-artifact_total: 45
+artifact_total: 40
 collections:
 - collection_type: open
   name: API Collection
@@ -250,7 +235,7 @@ modified: '2026-05-19'
 name: Octoparse
 nav: Providers
 network: true
-overview: 'Octoparse publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Action API, Actions API, Cloud_ Extraction API, and 16 more. Tagged areas include Harvesting and Scraping.
+overview: 'Octoparse publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Action API, Actions API, Cloud_ Extraction API, and 11 more. Tagged areas include Harvesting and Scraping.
 
 
   Octoparse''s developer surface includes pricing, engineering blog, support, authentication, signup flow, FAQ, and 12 more developer resources.'
@@ -265,18 +250,23 @@ rate_limits:
   slug: octoparse-rate-limits
 score:
   band: thin
-  composite: 38.1
-  delta: 1.9
+  composite: 37.5
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 49.7
     developer_ergonomics: 28.6
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 36.2
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -284,8 +274,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octoparse/refs/heads/main/screenshots/octoparse-2026-06-20T190615.png
 security:

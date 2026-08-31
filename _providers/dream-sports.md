@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 4
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 254
   slug: dream-sports-agentic-access
   summary_line: 254 operations · 154 acting · 4 human-in-the-loop
-api_count: 62
+api_count: 8
 apis:
 - description: First-party Model Context Protocol server (stdio transport) published by Dream Horizon that exposes Odin — Dream Sports' internal developer platform — to agents. It adapts 45 documented tools onto the
   name: Odin MCP Server
@@ -409,6 +409,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/dream-sports-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/dream-sports-checkmate-overlay.yaml
 - group: operate
@@ -556,13 +560,13 @@ modified: '2026-08-04'
 name: Dream Sports
 nav: Providers
 network: true
-overview: 'Dream Sports publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Account API, and 59 more. Tagged areas include Company, Sports Technology, Fantasy Sports, Open-Source, and Developer Tools.
+overview: 'Dream Sports publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Access Keys API, Account API, and 59 more. Tagged areas include Company, sports-technology, fantasy-sports, Open-Source, and Developer Tools.
 
 
   The Dream Sports catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dream Sports'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 27 more developer resources.'
+  Dream Sports'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 28 more developer resources.'
 random_paper: 10
 scopes:
 - name: Dream Sports Scopes
@@ -571,18 +575,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.9
-  delta: 0.7
+  composite: 46.3
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 59.1
     developer_ergonomics: 73.2
-    discoverability: 77.8
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 48.2
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -593,8 +602,8 @@ score:
       total: 61
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dream-sports/refs/heads/main/screenshots/dream-sports-2026-08-07T164521.png
 security:
@@ -613,21 +622,21 @@ security:
 slug: dream-sports
 tags:
 - Company
-- Sports Technology
-- Fantasy Sports
+- sports-technology
+- fantasy-sports
 - Open-Source
 - Developer Tools
-- Platform Engineering
+- platform-engineering
 - Authentication
-- OpenID Connect
+- openid-connect
 - Mobile
-- React Native
-- DevOps
-- Observability
-- Test Management
-- OTA Updates
-- Feature Flags
-- India
+- react-native
+- devops
+- observability
+- test-management
+- ota-updates
+- feature-flags
+- india
 - MCP
 - agent-native
 website: https://www.dreamsports.group/

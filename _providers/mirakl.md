@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 352
   slug: mirakl-agentic-access
   summary_line: 352 operations · 126 acting
-api_count: 26
+api_count: 14
 apis:
 - description: The Carriers API from Mirakl — 1 operation(s) for carriers.
   name: Mirakl Carriers API
@@ -101,28 +101,52 @@ apis:
 - description: The Users API from Mirakl — 1 operation(s) for users.
   name: Mirakl Users API
   slug: mirakl-users-api
-- description: The Mirakl Connect API — the seller-side network API behind Mirakl Connect, covering stores, channels, catalog, offers, orders and business requests across 24 paths. Bearer (JWT) authenticated against
-  name: Mirakl Connect APIs
-  slug: mirakl-connect-api
-- description: The Connect Channel Platform API used by channel partners integrating a sales channel with Mirakl Connect — store business information, channel catalog configuration, taxonomy upserts, product feedbac
-  name: Mirakl Connect Channel Platform APIs
-  slug: mirakl-connect-channel-platform-api
-- description: The Account Channel Platform API for creating and updating seller-account stores and linking them to a Mirakl seller account (3 paths), OAuth 2.0 protected and served from the dedicated Mirakl Account
-  name: Mirakl Account Channel Platform APIs
-  slug: mirakl-account-channel-platform-api
-- description: The MMP Front API surface — machine-to-machine operations designed for storefront and CMS integration with a Mirakl marketplace instance (78 paths across orders, offers, products, returns, messaging a
-  name: Mirakl Marketplace Front APIs
-  slug: mirakl-marketplace-front-api
-- description: The Mirakl Catalog Platform (MCM) Front API — 20 paths for storefront-facing catalog reads and transformations against a Mirakl catalog instance. Front bearer token or OAuth 2.0.
-  name: Mirakl Catalog Manager Front APIs
-  slug: mirakl-catalog-manager-front-api
-- description: The Mirakl Platform for Services (MPS) Front API — 22 paths for storefront-facing service-offer discovery, ordering and post-sale flows. Front bearer token, front API key or OAuth 2.0.
-  name: Mirakl Platform for Services Front APIs
-  slug: mirakl-services-front-api
-- description: The public API of Mirakl's Shopify operator connector — 52 paths for settings, product bindings, storefront orders and returns, and synchronization jobs between a Shopify storefront and a Mirakl marke
-  name: Mirakl Shopify Operator Connector APIs
-  slug: mirakl-shopify-operator-connector-api
-artifact_total: 55
+- description: The Catalog API from Mirakl — 1 operation(s) for catalog.
+  name: Mirakl Catalog API
+  slug: mirakl-catalog-api
+- description: The Channel API from Mirakl — 1 operation(s) for channel.
+  name: Mirakl Channel API
+  slug: mirakl-channel-api
+- description: The Checkout API from Mirakl — 1 operation(s) for checkout.
+  name: Mirakl Checkout API
+  slug: mirakl-checkout-api
+- description: The Connection API from Mirakl — 2 operation(s) for connection.
+  name: Mirakl Connection API
+  slug: mirakl-connection-api
+- description: The Conversations API from Mirakl — 5 operation(s) for conversations.
+  name: Mirakl Conversations API
+  slug: mirakl-conversations-api
+- description: The Mapping API from Mirakl — 2 operation(s) for mapping.
+  name: Mirakl Mapping API
+  slug: mirakl-mapping-api
+- description: The Mirakl Connect Channel Platform Webhooks API from Mirakl — 0 operation(s) for mirakl connect channel platform webhooks.
+  name: Mirakl Mirakl Connect Channel Platform Webhooks API
+  slug: mirakl-mirakl-connect-channel-platform-webhooks-api
+- description: The Product Bindings API from Mirakl — 2 operation(s) for product bindings.
+  name: Mirakl Product Bindings API
+  slug: mirakl-product-bindings-api
+- description: The Public API from Mirakl — 2 operation(s) for public.
+  name: Mirakl Public API
+  slug: mirakl-public-api
+- description: The Settings API from Mirakl — 1 operation(s) for settings.
+  name: Mirakl Settings API
+  slug: mirakl-settings-api
+- description: The Setup API from Mirakl — 3 operation(s) for setup.
+  name: Mirakl Setup API
+  slug: mirakl-setup-api
+- description: The Shipments API from Mirakl — 2 operation(s) for shipments.
+  name: Mirakl Shipments API
+  slug: mirakl-shipments-api
+- description: The Storefront API from Mirakl — 13 operation(s) for storefront.
+  name: Mirakl Storefront API
+  slug: mirakl-storefront-api
+- description: The Synchronization API from Mirakl — 11 operation(s) for synchronization.
+  name: Mirakl Synchronization API
+  slug: mirakl-synchronization-api
+- description: The Synchronization Errors API from Mirakl — 14 operation(s) for synchronization errors.
+  name: Mirakl Synchronization Errors API
+  slug: mirakl-synchronization-errors-api
+artifact_total: 63
 asyncapis:
 - description: ''
   name: Mirakl Webhooks
@@ -189,6 +213,38 @@ collections:
   name: Mirakl Connect Channel Platform APIs Carriers Users API
   slug: open-mirakl-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mirakl-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mirakl-connect-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mirakl-connect-channel-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mirakl-account-channel-platform-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mirakl-mmp-front-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mirakl-mcm-front-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mirakl-mms-front-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mirakl-shopify-operator-connector-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -353,13 +409,13 @@ modified: '2026-08-13'
 name: Mirakl
 nav: Providers
 network: true
-overview: 'Mirakl publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Catalog Configuration API, Incidents API, and 23 more. Tagged areas include Company, Commerce, E-Commerce, Marketplace, and Dropship.
+overview: 'Mirakl publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Catalog Configuration API, Incidents API, and 31 more. Tagged areas include Company, Commerce, E-Commerce, Marketplace, and Dropship.
 
 
   The Mirakl catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mirakl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 31 more developer resources.'
+  Mirakl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 39 more developer resources.'
 plans:
 - name: Mirakl Plans Pricing
   plan_count: 3
@@ -375,19 +431,24 @@ scopes:
   slug: mirakl-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 68.7
+  band: strong
+  composite: 65.5
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 30.3
-    contract_quality: 64.9
+    contract_governance: 18.2
+    contract_quality: 62.6
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 68.7
+  previous_composite: 65.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -398,8 +459,8 @@ score:
       total: 19
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/screenshots/mirakl-2026-08-07T183712.png
 security:

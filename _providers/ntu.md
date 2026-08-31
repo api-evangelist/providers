@@ -25,15 +25,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.8
-  scored_at: '2026-08-26'
+  score: 22.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 6
   slug: ntu-agentic-access
   summary_line: 6 operations
-api_count: 4
+api_count: 3
 apis:
 - description: NTU's institutional open research data repository, running Dataverse 6.1 self-hosted on NTU's own network. The publicly documented, unauthenticated read subset covers dataset search and the platform v
   name: DR-NTU (Data) — Dataverse API
@@ -55,7 +55,19 @@ apis:
 - description: 'NTU''s SAML 2.0 identity provider, registered in the Singapore Access Federation (SGAF) by SingAREN and interfederated into eduGAIN, asserting the scope ntu.edu.sg. Live machine-readable SAML metadata '
   name: NTU Identity Provider — SGAF / eduGAIN
   slug: ntu-identity-federation
-artifact_total: 23
+- description: The Discover API from Nanyang Technological University — 1 operation(s) for discover.
+  name: Nanyang Technological University Discover API
+  slug: ntu-discover-api
+- description: The Items API from Nanyang Technological University — 1 operation(s) for items.
+  name: Nanyang Technological University Items API
+  slug: ntu-items-api
+- description: The OAI-PMH API from Nanyang Technological University — 1 operation(s) for oai-pmh.
+  name: Nanyang Technological University OAI PMH API
+  slug: ntu-oai-pmh-api
+- description: The Root API from Nanyang Technological University — 1 operation(s) for root.
+  name: Nanyang Technological University Root API
+  slug: ntu-root-api
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -238,7 +250,7 @@ modified: '2026-08-19'
 name: Nanyang Technological University
 nav: Providers
 network: true
-overview: 'Nanyang Technological University publishes 1 API on the [APIs.io](https://apis.io/) network: DR-NTU (Data) — Dataverse API. Tagged areas include University, Higher Education, Education, Singapore, and Public Research University.
+overview: 'Nanyang Technological University publishes 5 APIs on the [APIs.io](https://apis.io/) network, including DR-NTU (Data) — Dataverse API, Discover API, Items API, and 2 more. Tagged areas include University, Higher Education, Education, Singapore, and Public Research University.
 
 
   The Nanyang Technological University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -282,18 +294,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.5
+  composite: 43.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 41.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 58.5
+    contract_quality: 57.4
     developer_ergonomics: 16.7
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 43.5
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -308,8 +325,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 53.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/screenshots/ntu-2026-06-20T190501.png
 security:

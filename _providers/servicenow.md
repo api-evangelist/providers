@@ -12,14 +12,15 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.3
-  scored_at: '2026-08-26'
+  score: 40.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 44
   slug: servicenow-agentic-access
   summary_line: 44 operations · 21 acting · 1 human-in-the-loop
-api_count: 63
+api_count: 9
 apis:
 - description: The ServiceNow Batch API enables sending multiple REST API requests in a single HTTP call, reducing network overhead and improving integration performance. Each request in the batch is executed indepe
   name: ServiceNow Batch API
@@ -409,6 +410,10 @@ collections:
   name: ServiceNow Trouble Ticket API
   slug: open-servicenow-trouble-ticket-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/servicenow-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1337,13 +1342,13 @@ modified: '2026-06-20'
 name: ServiceNow
 nav: Providers
 network: true
-overview: 'ServiceNow publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Event Management Topic Open API, Aggregate Statistics API, Attachments API, and 13 more. Tagged areas include Automation, Cloud Services, Digital Workflows, Enterprise Platform, and ITSM.
+overview: 'ServiceNow publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Event Management Topic Open API, Aggregate Statistics API, Attachments API, and 13 more. Tagged areas include Automation, Cloud Services, Digital Workflows, Enterprise Platform, and IT Service Management.
 
 
   The ServiceNow catalog on APIs.io includes 1 event-driven AsyncAPI specification, 10 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  ServiceNow''s developer surface includes authentication, CLI, changelog, sandbox, developer portal, engineering blog, documentation, and 99 more developer resources.'
+  ServiceNow''s developer surface includes authentication, CLI, changelog, sandbox, developer portal, engineering blog, documentation, and 100 more developer resources.'
 plans:
 - name: Servicenow Plans Pricing
   plan_count: 1
@@ -1393,18 +1398,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 64.8
+  composite: 62.3
+  coverage:
+    artifact_dirs: 36
+    catalog_gap: 65.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 45.5
-    contract_quality: 71.3
+    contract_governance: 33.3
+    contract_quality: 67.1
     developer_ergonomics: 90.5
     discoverability: 48.1
-    governance: 45.5
+    governance: 33.3
     operational_transparency: 42.1
-  previous_composite: 64.8
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1414,8 +1424,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/screenshots/servicenow-2026-06-20T193735.png
 security:
@@ -1437,6 +1447,7 @@ tags:
 - Cloud Services
 - Digital Workflows
 - Enterprise Platform
+- IT Service Management
 - ITSM
 - Processes
 - T1

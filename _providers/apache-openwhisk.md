@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -332,7 +332,7 @@ modified: '2026-05-19'
 name: Apache OpenWhisk
 nav: Providers
 network: true
-overview: 'Apache OpenWhisk publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Activations API, Namespaces API, and 3 more. Tagged areas include Cloud-Native, Event-Driven, Function-as-a-Service, Serverless, and Apache.
+overview: 'Apache OpenWhisk publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Activations API, Namespaces API, and 3 more. Tagged areas include Cloud-Native, Event-Driven, FaaS, Serverless, and Apache.
 
 
   The Apache OpenWhisk catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -372,18 +372,23 @@ rules:
   slug: apache-openwhisk-spectral-rules
 score:
   band: emerging
-  composite: 23.8
+  composite: 23.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 20.2
+    contract_quality: 20.5
     developer_ergonomics: 21.4
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 23.8
+  previous_composite: 23.9
   provenance:
     agentic_access: derived
     contracts:
@@ -391,8 +396,8 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-openwhisk/refs/heads/main/screenshots/apache-openwhisk-2026-06-20T172129.png
 security:
@@ -412,7 +417,7 @@ slug: apache-openwhisk
 tags:
 - Cloud-Native
 - Event-Driven
-- Function-as-a-Service
+- FaaS
 - Serverless
 - Apache
 - Open-Source

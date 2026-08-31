@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
 - description: REST API for the Nexxen DSP (formerly Amobee / Tremor Video DSP) Campaign Management service — advertisers, insertion orders, packages, line items, ads, creatives, audience segments, retargeting segme
@@ -179,7 +179,7 @@ modified: '2026-08-13'
 name: Tremor Video
 nav: Providers
 network: true
-overview: 'Tremor Video publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Nexxen DSP API, Nexxen DSP Token Service, Nexxen DSP Reporting API, and 2 more. Tagged areas include Company, MarTech, Advertising, AdTech, and DSP.
+overview: 'Tremor Video publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Nexxen DSP API, Nexxen DSP Token Service, Nexxen DSP Reporting API, and 2 more. Tagged areas include Company, Martech, Advertising, AdTech, and DSP.
 
 
   Tremor Video''s developer surface includes documentation, API reference, getting-started guide, authentication, code examples, engineering blog, support, and 21 more developer resources.'
@@ -199,7 +199,12 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: emerging
-  composite: 25.3
+  composite: 24.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 27.6
@@ -207,16 +212,16 @@ score:
     contract_governance: 4.5
     contract_quality: 6.7
     developer_ergonomics: 20.8
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 25.3
+  previous_composite: 24.2
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -230,7 +235,7 @@ security:
 slug: tremor-video
 tags:
 - Company
-- MarTech
+- Martech
 - Advertising
 - AdTech
 - DSP

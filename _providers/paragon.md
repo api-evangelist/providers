@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -42,29 +42,8 @@ agentic_access:
   operation_count: 33
   slug: paragon-agentic-access
   summary_line: 33 operations · 20 acting
-api_count: 10
+api_count: 2
 apis:
-- description: Send requests directly to an integration provider, on behalf of Connected Users. The Proxy API allows you to access any third-party provider's API methods via Paragon's managed credential handling. Su
-  name: Proxy API
-  slug: proxy-api
-- description: The Users API allows you to query and modify the state of your Connected Users and their integrations. Endpoints cover retrieving user info, setting metadata, listing and disconnecting integrations, a
-  name: Users API
-  slug: users-api
-- description: The Task History API allows you to query your users' usage of integration workflows and access data from historical workflow executions. Includes endpoints to list and inspect workflow executions, dri
-  name: Task History API
-  slug: task-history-api
-- description: The Triggers API (Beta) lets you "subscribe to events from your users' integrations, using our catalog of pre-built triggers or Custom Webhooks." Exposes discovery, subscription, update, and unsubscri
-  name: Triggers API
-  slug: triggers-api
-- description: Manage user Connect credentials.
-  name: Paragon Credentials API
-  slug: paragon-credentials-api
-- description: Proxy requests to custom integration APIs.
-  name: Paragon Custom Integrations API
-  slug: paragon-custom-integrations-api
-- description: Query and manage user integrations.
-  name: Paragon Integrations API
-  slug: paragon-integrations-api
 - description: ReBAC-style access checks over synced objects and subjects.
   name: Paragon Permissions API
   slug: paragon-permissions-api
@@ -99,7 +78,7 @@ arazzos:
 - description: Confirm the Connected User has the integration enabled, then proxy a live API call to it.
   name: Paragon Verify Integration then Proxy a Request
   slug: paragon-verify-integration-and-proxy-request-workflow
-artifact_total: 241
+artifact_total: 234
 collections:
 - collection_type: postman
   name: Paragon ActionKit API
@@ -657,7 +636,7 @@ modified: '2026-05-22'
 name: Paragon
 nav: Providers
 network: true
-overview: 'Paragon publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Proxy API, Users API, Task History API, and 7 more. Tagged areas include Embedded Integrations, Integration Infrastructure, iPaaS, AI Agents, and MCP.
+overview: 'Paragon publishes 3 APIs on the [APIs.io](https://apis.io/) network: Permissions API, Sync API, and Tools API. Tagged areas include Embedded Integrations, Integration Infrastructure, iPaaS, AI Agents, and MCP.
 
 
   The Paragon catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -697,18 +676,23 @@ rules:
   slug: paragon-rules
 score:
   band: strong
-  composite: 58.0
-  delta: 0.7
+  composite: 57.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 28.8
-    contract_quality: 72.2
+    contract_quality: 71.0
     developer_ergonomics: 47.6
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 63.2
-  previous_composite: 57.3
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     contracts:
@@ -716,8 +700,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/screenshots/paragon-2026-06-20T191356.png
 security:

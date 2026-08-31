@@ -6,12 +6,12 @@ agent_readiness:
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: documented
     mcp_server: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-08-26'
+  score: 36.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 2
@@ -31,30 +31,93 @@ agentic_access:
   operation_count: 205
   slug: form3-agentic-access
   summary_line: 205 operations · 84 acting · 2 human-in-the-loop
-api_count: 7
+api_count: 1
 apis:
-- description: The unified Form3 Public API - a single REST API built on the json:api specification that connects banks and fintechs to domestic and cross-border payment schemes, covering payments, direct debits, ma
-  name: Form3 Public API
-  slug: form3-public-api
-- description: Send and receive account-to-account payments across supported schemes - UK Faster Payments, Bacs and CHAPS, SEPA Credit Transfer, SEPA Instant, and US instant rails - and handle payment exceptions suc
-  name: Form3 Payments API
-  slug: form3-payments-api
-- description: Originate and receive Bacs and SEPA direct debits, manage direct debit mandates, and process indemnity claims. Represented by the DirectDebits, DirectDebitsReads and Mandates operations under /transac
-  name: Form3 Direct Debits & Mandates API
-  slug: form3-direct-debits-mandates-api
-- description: Generate and manage scheme-addressable customer account numbers, validate UK sort code / account number combinations, and run Confirmation of Payee (UK) and Verification of Payee name-checking. Repres
-  name: Form3 Account Identification & Verification API
-  slug: form3-account-verification-api
-- description: Submit and receive bulk payment instructions and scheme messages as files. Represented by the Transaction File API and Scheme File API operations under /files in the Form3 Public API.
-  name: Form3 Files API
-  slug: form3-files-api
-- description: Subscribe to and receive event notifications (webhooks) for payment and platform lifecycle events, and verify their signatures. Represented by the Subscriptions and notification operations under /noti
-  name: Form3 Event Notifications API
-  slug: form3-event-notifications-api
-- description: 'Manage users, roles, access-control entries and public keys under a flexible security and approval model, and read full audit trails and platform metrics. Represented by the Users, Roles, ACE, Public '
-  name: Form3 Security & Access API
-  slug: form3-security-access-api
-artifact_total: 17
+- description: The AccountIdentification API from Form3 — 2 operation(s) for accountidentification.
+  name: Form3 Account Identification API
+  slug: form3-accountidentification-api
+- description: The Accounts API from Form3 — 3 operation(s) for accounts.
+  name: Form3 Accounts API
+  slug: form3-accounts-api
+- description: The AccountValidation API from Form3 — 2 operation(s) for accountvalidation.
+  name: Form3 Account Validation API
+  slug: form3-accountvalidation-api
+- description: The ACE API from Form3 — 2 operation(s) for ace.
+  name: Form3 ACE API
+  slug: form3-ace-api
+- description: The Audit API from Form3 — 2 operation(s) for audit.
+  name: Form3 Audit API
+  slug: form3-audit-api
+- description: The Branches API from Form3 — 2 operation(s) for branches.
+  name: Form3 Branches API
+  slug: form3-branches-api
+- description: The BranchIdentification API from Form3 — 2 operation(s) for branchidentification.
+  name: Form3 Branch Identification API
+  slug: form3-branchidentification-api
+- description: The Claims API from Form3 — 8 operation(s) for claims.
+  name: Form3 Claims API
+  slug: form3-claims-api
+- description: The DirectDebits API from Form3 — 26 operation(s) for directdebits.
+  name: Form3 Direct Debits API
+  slug: form3-directdebits-api
+- description: The DirectDebitsReads API from Form3 — 1 operation(s) for directdebitsreads.
+  name: Form3 Direct Debits Reads API
+  slug: form3-directdebitsreads-api
+- description: The Mandates API from Form3 — 9 operation(s) for mandates.
+  name: Form3 Mandates API
+  slug: form3-mandates-api
+- description: The Metrics API API from Form3 — 3 operation(s) for metrics api.
+  name: Form3 Metrics API
+  slug: form3-metrics-api-api
+- description: The Name Verification API API from Form3 — 3 operation(s) for name verification api.
+  name: Form3 Name Verification API
+  slug: form3-name-verification-api-api
+- description: The Oauth2 API from Form3 — 1 operation(s) for oauth2.
+  name: Form3 Oauth2 API
+  slug: form3-oauth2-api
+- description: The Organisations API from Form3 — 2 operation(s) for organisations.
+  name: Form3 Organisations API
+  slug: form3-organisations-api
+- description: The PaymentReads API from Form3 — 31 operation(s) for paymentreads.
+  name: Form3 Payment Reads API
+  slug: form3-paymentreads-api
+- description: The PaymentWrites API from Form3 — 18 operation(s) for paymentwrites.
+  name: Form3 Payment Writes API
+  slug: form3-paymentwrites-api
+- description: The platformsecurityapi API from Form3 — 2 operation(s) for platformsecurityapi.
+  name: Form3 Platformsecurityapi API
+  slug: form3-platformsecurityapi-api
+- description: The Public Keys API from Form3 — 4 operation(s) for public keys.
+  name: Form3 Public Keys API
+  slug: form3-public-keys-api
+- description: The QualifiedTransactions API from Form3 — 2 operation(s) for qualifiedtransactions.
+  name: Form3 Qualified Transactions API
+  slug: form3-qualifiedtransactions-api
+- description: The query_api API from Form3 — 10 operation(s) for query_api.
+  name: Form3 Query API
+  slug: form3-query-api-api
+- description: The Reports API from Form3 — 4 operation(s) for reports.
+  name: Form3 Reports API
+  slug: form3-reports-api
+- description: The Roles API from Form3 — 2 operation(s) for roles.
+  name: Form3 Roles API
+  slug: form3-roles-api
+- description: The Scheme File API API from Form3 — 6 operation(s) for scheme file api.
+  name: Form3 Scheme File API
+  slug: form3-scheme-file-api-api
+- description: The SchemeMessages API from Form3 — 3 operation(s) for schememessages.
+  name: Form3 Scheme Messages API
+  slug: form3-schememessages-api
+- description: The Subscriptions API from Form3 — 2 operation(s) for subscriptions.
+  name: Form3 Subscriptions API
+  slug: form3-subscriptions-api
+- description: The Transaction File API API from Form3 — 7 operation(s) for transaction file api.
+  name: Form3 Transaction File API
+  slug: form3-transaction-file-api-api
+- description: The Users API from Form3 — 11 operation(s) for users.
+  name: Form3 Users API
+  slug: form3-users-api
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Form3 Notifications Webhooks
@@ -67,6 +130,10 @@ collections:
   name: Form3 Public API
   slug: open-form3-payments
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/form3-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -232,13 +299,13 @@ modified: '2026-07-24'
 name: Form3
 nav: Providers
 network: true
-overview: 'Form3 publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Public API, Payments API, Direct Debits & Mandates API, and 4 more. Tagged areas include Payments, United Kingdom, Payment Processing, Account-to-Account, and Real-Time Payments.
+overview: 'Form3 publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Account Identification API, Accounts API, Account Validation API, and 25 more. Tagged areas include Payments, United Kingdom, Payment Processing, Account-to-Account, and Real-Time Payments.
 
 
   The Form3 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Form3''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, and 32 more developer resources.'
+  Form3''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, and 33 more developer resources.'
 random_paper: 4
 scopes:
 - name: Form3 Scopes
@@ -247,18 +314,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 44.1
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 91.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.4
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 16.7
-    contract_quality: 54.1
+    contract_governance: 4.5
+    contract_quality: 59.0
     developer_ergonomics: 28.0
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 51.9
+    governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 48.4
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,12 +343,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png
 security:
@@ -309,7 +385,7 @@ tags:
 - Direct Debit
 - Confirmation of Payee
 - Cross-Border
-- Banking as a Service
+- Banking-as-a-Service
 - Embedded Payments
 website: https://www.form3.tech/
 ---

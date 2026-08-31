@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 57
   slug: sponge-agentic-access
   summary_line: 57 operations · 33 acting
-api_count: 10
+api_count: 1
 apis:
 - description: The Agents API from Sponge — 5 operation(s) for agents.
   name: Sponge Agents API
@@ -253,18 +253,23 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 53.1
-  delta: 1.4
+  composite: 50.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 52.1
     developer_ergonomics: 83.3
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 51.7
+  previous_composite: 50.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -281,8 +286,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sponge/refs/heads/main/screenshots/sponge-2026-08-17T082030.png
 security:
@@ -309,6 +314,6 @@ tags:
 - MCP
 - Fintech
 - Cards
-- On-Ramp
+- Onramp
 website: https://paysponge.com
 ---

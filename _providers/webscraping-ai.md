@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 65.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 7
   slug: webscraping-ai-agentic-access
   summary_line: 7 operations
-api_count: 6
+api_count: 1
 apis:
 - description: Hosted remote Model Context Protocol server exposing the same seven capabilities as tools to AI assistants. Streamable HTTP transport, OAuth 2.1 login with PKCE and dynamic client registration, no API
   name: WebScraping.AI MCP Server
@@ -84,6 +84,14 @@ collections:
   name: WebScraping.AI Text API
   slug: open-webscraping-ai-text-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/webscraping-ai/webscraping-ai-mcp-server/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/webscraping-ai/webscraping-ai-mcp-server/releases
 - group: docs
   title: ''
   type: OpenAPI
@@ -251,7 +259,7 @@ network: true
 overview: 'WebScraping.AI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, AI API, HTML API, and 2 more. Tagged areas include Web Scraping, Data Extraction, Proxies, Artificial Intelligence, and Browser Automation.
 
 
-  WebScraping.AI''s developer surface includes authentication, CLI, sandbox, documentation, API reference, getting-started guide, developer console, and 31 more developer resources.'
+  WebScraping.AI''s developer surface includes authentication, CLI, sandbox, documentation, API reference, getting-started guide, developer console, and 33 more developer resources.'
 plans:
 - name: Webscraping Ai Plans
   plan_count: 6
@@ -263,18 +271,26 @@ rate_limits:
   slug: webscraping-ai-rate-limits
 score:
   band: strong
-  composite: 62.6
-  delta: 0.0
+  composite: 56.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.4
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
-    contract_governance: 16.7
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 4.5
     contract_quality: 57.8
     developer_ergonomics: 85.7
-    discoverability: 92.6
-    governance: 16.7
-    operational_transparency: 34.2
-  previous_composite: 62.6
+    discoverability: 75.9
+    governance: 4.5
+    operational_transparency: 50.0
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -285,8 +301,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webscraping-ai/refs/heads/main/screenshots/webscraping-ai-2026-06-20T201335.png
 security:
@@ -308,10 +324,10 @@ tags:
 - MCP
 - Development
 - Public APIs
-- HTML
-- LLM Tools
-- Structured Data
-- Headless Browser
-- CAPTCHA
+- html
+- llm-tools
+- structured-data
+- headless-browser
+- captcha
 website: https://webscraping.ai/
 ---

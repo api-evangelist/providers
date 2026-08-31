@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 63
   slug: fiware-agentic-access
   summary_line: 63 operations · 41 acting
-api_count: 15
+api_count: 2
 apis:
 - description: The API Entry Point API from FIWARE — 1 operation(s) for api entry point.
   name: FIWARE API Entry Point API
@@ -64,12 +64,6 @@ apis:
 - description: The Context Subscription API from FIWARE — 2 operation(s) for context subscription.
   name: FIWARE Context Subscription API
   slug: fiware-context-subscription-api
-- description: The CSourceRegistrations API from FIWARE — 2 operation(s) for csourceregistrations.
-  name: FIWARE CSourceRegistrations API
-  slug: fiware-csourceregistrations-api
-- description: The CSourceSubscriptions API from FIWARE — 2 operation(s) for csourcesubscriptions.
-  name: FIWARE CSourceSubscriptions API
-  slug: fiware-csourcesubscriptions-api
 - description: The Entities API from FIWARE — 11 operation(s) for entities.
   name: FIWARE Entities API
   slug: fiware-entities-api
@@ -79,16 +73,13 @@ apis:
 - description: The Subscriptions API from FIWARE — 4 operation(s) for subscriptions.
   name: FIWARE Subscriptions API
   slug: fiware-subscriptions-api
-- description: The Temporal API from FIWARE — 5 operation(s) for temporal.
-  name: FIWARE Temporal API
-  slug: fiware-temporal-api
 - description: The Temporal Evolution API from FIWARE — 5 operation(s) for temporal evolution.
   name: FIWARE Temporal Evolution API
   slug: fiware-temporal-evolution-api
 - description: The Types API from FIWARE — 2 operation(s) for types.
   name: FIWARE Types API
   slug: fiware-types-api
-artifact_total: 38
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -189,7 +180,7 @@ modified: '2026-05-19'
 name: FIWARE
 nav: Providers
 network: true
-overview: 'FIWARE publishes 15 APIs on the [APIs.io](https://apis.io/) network, including API Entry Point API, Attribute Value API, Attributes API, and 12 more. Tagged areas include Context Information, Devices, Internet of Things, Linked Data, and NGSI.
+overview: 'FIWARE publishes 12 APIs on the [APIs.io](https://apis.io/) network, including API Entry Point API, Attribute Value API, Attributes API, and 9 more. Tagged areas include Context Information, Devices, Internet of Things, Linked Data, and NGSI.
 
 
   FIWARE''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
@@ -204,18 +195,23 @@ rate_limits:
   slug: fiware-rate-limits
 score:
   band: emerging
-  composite: 25.2
-  delta: 0.0
+  composite: 24.5
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 47.3
+    contract_quality: 46.8
     developer_ergonomics: 11.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 25.2
+  previous_composite: 25.1
   provenance:
     agentic_access: derived
     contracts:
@@ -223,8 +219,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiware/refs/heads/main/screenshots/fiware-2026-06-20T181304.png
 security:

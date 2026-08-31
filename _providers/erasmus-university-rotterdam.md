@@ -1,125 +1,121 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free and keyless for the public OAI-PMH surface · everything else is affiliation-gated
+  onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
   - authentication
+  - plans
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 81
-  human_in_the_loop: 2
-  name: Erasmus University Rotterdam Agentic Access
-  operation_count: 157
-  slug: erasmus-university-rotterdam-agentic-access
-  summary_line: 157 operations · 81 acting · 2 human-in-the-loop
-api_count: 12
+  score: 23.0
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: OAI-PMH 2.0 metadata harvesting interface for RePub, the Erasmus University institutional repository. Verified live; the Identify response self-reports as "Erasmus University OAIPMH Feed" and supports
-  name: RePub OAI-PMH Metadata Feed
+- description: 'OAI-PMH 2.0 harvesting interface for RePub, the Erasmus University Rotterdam institutional publication repository. Keyless and live: Identify, ListMetadataFormats, ListSets and ListIdentifiers all ret'
+  name: RePub OAI-PMH Metadata Harvesting Interface
   slug: repub-oai
-- description: 'OAI-PMH metadata service for the EUR & Erasmus MC Research Information Portal, which runs on Elsevier Pure (CRIS). The web portal resolves (HTTP 200) and the documented OAI service path is reachable; '
-  name: Pure Research Portal OAI-PMH
+- description: 'An EUR-operated Kong API gateway. It is unambiguously live and unambiguously closed: the root returns 401 application/json {"message":"Unauthorized"} with WWW-Authenticate: Basic realm="kong", HSTS ma'
+  name: EUR API Gateway (api.eur.nl)
+  slug: api-gateway
+- description: 'The EUR & Erasmus MC research information portal runs on Elsevier Pure (CRIS). Its OAI-PMH endpoint is live (Identify 200, repositoryName "EUR Research Repository", earliestDatestamp 2021-06-14T10:37:'
+  name: EUR Research Repository — Pure OAI-PMH (Elsevier tenancy)
   slug: pure-oai
-- description: The altmetric API from Erasmus University Rotterdam — 1 operation(s) for altmetric.
-  name: Erasmus University Rotterdam altmetric API
-  slug: erasmus-university-rotterdam-altmetric-api
-- description: The articles API from Erasmus University Rotterdam — 34 operation(s) for articles.
-  name: Erasmus University Rotterdam articles API
-  slug: erasmus-university-rotterdam-articles-api
-- description: The authors API from Erasmus University Rotterdam — 2 operation(s) for authors.
-  name: Erasmus University Rotterdam authors API
-  slug: erasmus-university-rotterdam-authors-api
-- description: The collections API from Erasmus University Rotterdam — 21 operation(s) for collections.
-  name: Erasmus University Rotterdam collections API
-  slug: erasmus-university-rotterdam-collections-api
-- description: The institutions API from Erasmus University Rotterdam — 20 operation(s) for institutions.
-  name: Erasmus University Rotterdam institutions API
-  slug: erasmus-university-rotterdam-institutions-api
-- description: The oauth API from Erasmus University Rotterdam — 1 operation(s) for oauth.
-  name: Erasmus University Rotterdam oauth API
-  slug: erasmus-university-rotterdam-oauth-api
-- description: The other API from Erasmus University Rotterdam — 7 operation(s) for other.
-  name: Erasmus University Rotterdam other API
-  slug: erasmus-university-rotterdam-other-api
-- description: The profiles API from Erasmus University Rotterdam — 2 operation(s) for profiles.
-  name: Erasmus University Rotterdam profiles API
-  slug: erasmus-university-rotterdam-profiles-api
-- description: The projects API from Erasmus University Rotterdam — 17 operation(s) for projects.
-  name: Erasmus University Rotterdam projects API
-  slug: erasmus-university-rotterdam-projects-api
-- description: The symplectic API from Erasmus University Rotterdam — 5 operation(s) for symplectic.
-  name: Erasmus University Rotterdam symplectic API
-  slug: erasmus-university-rotterdam-symplectic-api
-artifact_total: 43
+- description: EUR's institutional research DATA repository, distinct from the RePub publication repository. This entry replaces the ten Figshare contracts the June 2026 profile saved here. Two things were wrong wit
+  name: EUR Data Repository (DataverseNL tenancy)
+  slug: edr-dataverse
+- description: 'EUR''s learning management system. Live and credentialed: /api/v1/courses returns 401 {"status":"unauthenticated","errors":[{"message":"user authorisation required"}]}. Two machine-readable surfaces an'
+  name: Canvas LMS (Instructure tenancy) — REST + LTI 1.3
+  slug: canvas-lms
+- description: 'EUR''s course catalogue and student self-service, on Caci''s OSIRIS. The public entry points courses.eur.nl and osiris.eur.nl both land on an Angular SPA shell that returns HTTP 200 with no data, which '
+  name: OSIRIS Course Catalogue (Caci tenancy)
+  slug: osiris-course-catalog
+- description: EUR's identity federation entry — the machine-readable institutional surface universities almost never get catalogued for. EUR is registered as an identity provider in SURFconext, the Dutch national r
+  name: SURFconext / eduGAIN Identity Provider
+  slug: surfconext-idp
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
   slug: open-.refine-report
-- collection_type: open
-  name: Figshare altmetric API
-  slug: open-erasmus-university-rotterdam-altmetric-api
-- collection_type: open
-  name: Figshare altmetric articles API
-  slug: open-erasmus-university-rotterdam-articles-api
-- collection_type: open
-  name: Figshare altmetric authors API
-  slug: open-erasmus-university-rotterdam-authors-api
-- collection_type: open
-  name: Figshare altmetric collections API
-  slug: open-erasmus-university-rotterdam-collections-api
-- collection_type: open
-  name: Figshare altmetric institutions API
-  slug: open-erasmus-university-rotterdam-institutions-api
-- collection_type: open
-  name: Figshare altmetric oauth API
-  slug: open-erasmus-university-rotterdam-oauth-api
-- collection_type: open
-  name: Figshare altmetric other API
-  slug: open-erasmus-university-rotterdam-other-api
-- collection_type: open
-  name: Figshare altmetric profiles API
-  slug: open-erasmus-university-rotterdam-profiles-api
-- collection_type: open
-  name: Figshare altmetric projects API
-  slug: open-erasmus-university-rotterdam-projects-api
-- collection_type: open
-  name: Figshare altmetric symplectic API
-  slug: open-erasmus-university-rotterdam-symplectic-api
 common:
-- group: agent
+- group: company
   title: ''
-  type: AgenticAccess
-  url: agentic-access/erasmus-university-rotterdam-agentic-access.yml
+  type: Website
+  url: https://www.eur.nl/en
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://metadata.surfconext.nl/idps-metadata.xml
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://repub.eur.nl/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://dataverse.nl/dataverse/eur
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://pure.eur.nl/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://courses.eur.nl/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://www.eur.nl/en/library
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.eur.nl/en/about-university/policy-and-regulations/regulations-and-guidelines/ai-usage-guidelines
+- group: build
+  title: ''
+  type: AITooling
+  url: https://www.eur.nl/en/about-university/vision-strategy-2030/aieur
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/erasmus-university-rotterdam-education-standards.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/erasmus-university-rotterdam-authentication.yml
+- group: design
+  title: ''
+  type: Errors
+  url: errors/erasmus-university-rotterdam-errors.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/erasmus-university-rotterdam-examples.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -130,16 +126,12 @@ common:
   url: security/erasmus-university-rotterdam-domain-security.yml
 - group: auth
   title: ''
-  type: Authentication
-  url: authentication/erasmus-university-rotterdam-authentication.yml
-- group: auth
+  type: SecurityTxt
+  url: https://www.eur.nl/.well-known/security.txt
+- group: operate
   title: ''
-  type: OAuthScopes
-  url: scopes/erasmus-university-rotterdam-scopes.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://www.eur.nl/en
+  type: Status
+  url: https://status.eur.nl/
 - group: build
   title: ''
   type: GitHub
@@ -148,6 +140,22 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/erasmus-university-rotterdam/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.eur.nl/en/disclaimer
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.eur.nl/en/privacy
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.eur.nl/en/library/research-support
+- group: start
+  title: ''
+  type: Registry
+  url: https://ror.org/057w15z03
 - group: commercial
   title: ''
   type: Plans
@@ -164,60 +172,112 @@ common:
   title: ''
   type: Review
   url: review.yml
+coverage:
+  detail: 'Erasmus University Rotterdam publishes no API of its own — no OpenAPI, no developer portal, no API reference, no open data portal, no llms.txt. It operates exactly one public, callable, keyless API — the RePub OAI-PMH 2.0 harvesting endpoint — and it publishes no machine-readable contract for it. The OpenAPI in this repo is DERIVED by API Evangelist from live probes, not published by EUR. Everything else is either a vendor platform running under an eur.nl hostname or a gateway that exposes nothing to an unauthenticated caller. Nothing blocked us: sixty-plus hosts and paths were probed successfully and the thinness is the institution''s, not a fetch failure. Verified institution-operated and live: https://repub.eur.nl/oai answers Identify (repositoryName "Erasmus University OAIPMH Feed", adminEmail opdecoul@ubib.eur.nl and vanhuisstede@ubib.eur.nl, earliestDatestamp 2023-11-24T00:00:00Z, deletedRecord transient), ListMetadataFormats (oai_dc, mods, nl_didl), ListSets (openaire,
+    nwo) and ListIdentifiers, all 200, all keyless; repub.eur.nl is a CNAME to bib-app01.ubib.eur.nl -> 145.5.2.24 with no vendor in the chain. Institution-operated but closed: https://api.eur.nl/ returns 401 with WWW-Authenticate: Basic realm="kong" and {"message":"Unauthorized"}, and every probed path returns Kong''s {"message":"no Route matched with those values"} — a real EUR-run API gateway (api.eur.nl -> api2.eur.nl -> 145.5.1.16) whose entire route table, documentation and contract are private; /openapi.json, /swagger.json, /docs, /v1, /api, /health and /status were all probed. Institution-operated non-API surfaces: a live RFC 9116 https://www.eur.nl/.well-known/security.txt (Contact mailto:cert@eur.nl, Expires 2026-12-07, policy and hall-of-fame URLs, both 200) and a status page at status.eur.nl (200, "Status: Erasmus University Rotterdam", on Netlify, with no JSON feed — /api/v2/status.json and /index.json both 404). Verified live but tenant-operated: pure.eur.nl (CNAME erasmus.elsevierpure.com
+    -> eu.prod.elsevierpure.com, OAI-PMH 200 with the OpenAIRE CERIF 1.2 profile, adminEmail purehosted@elsevier.com, /ws/api/524/openapi.json 401), canvas.eur.nl (CNAME EUR-vanity.instructure.com, LTI 1.3 JWKS 200 and .well-known/openid-configuration 200, /api/v1/courses 401), eur.osiris-student.nl (Caci OSIRIS; the SPA shell 200s but POST /student/osiris/student/cursussen/zoeken returns a structured OSIRIS Link JSON error with an exchange-id, proving a live service behind it), and dataverse.nl/dataverse/eur (200; the dataverse.nl API is behind an Anubis proof-of-work bot challenge, so /api/info/version and /api/dataverses/eur return the challenge page rather than JSON — the host is live, we are the ones excluded). Confirmed dead or absent: datarepository.eur.nl returns NXDOMAIN — the Figshare-era repository hostname the June profile''s vocabulary and rulesets still cited; no DNS for developer.eur.nl, developers.eur.nl, opendata.eur.nl, data.open.eur.nl, edr.eur.nl, dataverse.eur.nl, idp.eur.nl,
+    adfs.eur.nl, hpc.eur.nl, mcp.eur.nl, library.eur.nl, primo.eur.nl, catalogue.eur.nl, vle.eur.nl or lms.eur.nl; data.eur.nl resolves but serves only a Taggrs server-side tracking endpoint, not open data; www.eur.nl/llms.txt, /.well-known/api-catalog, /.well-known/ai-plugin.json and /openapi.json all return the site''s soft 404 ("Pagina niet gevonden", 146,268 bytes of HTML under an HTTP 404 status).'
+  evidence:
+  - status: 200
+    url: https://repub.eur.nl/oai?verb=Identify
+  - status: 200
+    url: https://repub.eur.nl/oai?verb=ListMetadataFormats
+  - status: 200
+    url: https://repub.eur.nl/oai?verb=ListSets
+  - status: 200
+    url: https://repub.eur.nl/oai?verb=ListIdentifiers&metadataPrefix=oai_dc
+  - status: 200
+    url: https://repub.eur.nl/oai?verb=BadVerb
+  - status: 200
+    url: https://repub.eur.nl/
+  - status: 404
+    url: https://repub.eur.nl/openapi.json
+  - status: 401
+    url: https://api.eur.nl/
+  - status: 404
+    url: https://api.eur.nl/openapi.json
+  - status: 404
+    url: https://api.eur.nl/swagger.json
+  - status: 401
+    url: https://api.eur.nl/docs
+  - status: 404
+    url: https://api.eur.nl/v1
+  - status: 200
+    url: https://pure.eur.nl/ws/oai?verb=Identify
+  - status: 200
+    url: https://pure.eur.nl/ws/oai?verb=ListMetadataFormats
+  - status: 200
+    url: https://pure.eur.nl/ws/oai?verb=ListSets
+  - status: 200
+    url: https://pure.eur.nl/ws/api
+  - status: 401
+    url: https://pure.eur.nl/ws/api/524/openapi.json
+  - status: 200
+    url: https://canvas.eur.nl/api/lti/security/jwks
+  - status: 200
+    url: https://canvas.eur.nl/.well-known/openid-configuration
+  - status: 401
+    url: https://canvas.eur.nl/api/v1/courses
+  - status: 401
+    url: https://canvas.eur.nl/login/oauth2/auth
+  - status: 500
+    url: https://eur.osiris-student.nl/student/osiris/student/cursussen/zoeken
+  - status: 200
+    url: https://courses.eur.nl/
+  - status: 200
+    url: https://dataverse.nl/dataverse/eur
+  - status: 200
+    url: https://dataverse.nl/api/info/version
+  - status: 200
+    url: https://metadata.surfconext.nl/idps-metadata.xml
+  - status: 200
+    url: https://api.datacite.org/providers/dhcm
+  - status: 200
+    url: https://api.datacite.org/repositories?provider-id=dhcm
+  - status: 200
+    url: https://api.datacite.org/dois?provider-id=dhcm
+  - status: 200
+    url: https://api.crossref.org/members?query=erasmus+university+rotterdam
+  - status: 200
+    url: https://api.ror.org/v2/organizations/057w15z03
+  - status: 200
+    url: https://www.eur.nl/.well-known/security.txt
+  - status: 200
+    url: https://status.eur.nl/
+  - status: 404
+    url: https://status.eur.nl/api/v2/status.json
+  - status: 404
+    url: https://www.eur.nl/llms.txt
+  - status: 404
+    url: https://www.eur.nl/.well-known/api-catalog
+  - status: 404
+    url: https://www.eur.nl/openapi.json
+  - status: 200
+    url: https://github.com/eur-nl
+  - status: 0
+    url: https://datarepository.eur.nl/
+  - status: 202
+    url: https://eur.figshare.com/
+  reason: no_public_api
+  state: gated
 created: '2026-06-03'
-description: 'Erasmus University Rotterdam (EUR) is a public research university in Rotterdam, the Netherlands, ranked #158 in the QS World University Rankings 2025. EUR does not operate a single consolidated public developer portal; its discoverable, programmatic surface is concentrated in scholarly and research-data infrastructure. RePub, the institutional repository, exposes a confirmed live OAI-PMH metadata feed, the EUR research data repository is hosted on Figshare (reachable via the Figshare public REST API), and the EUR & Erasmus MC research information portal runs on Pure (CRIS) with an OAI-PMH service path. Most course, timetable, identity, and administrative interfaces are gated behind institutional affiliation rather than openly documented.'
-examples:
-- key_count: 19
-  name: Erasmus University Rotterdam Get Article Example
-  slug: erasmus-university-rotterdam-get-article-example
-- key_count: 6
-  name: Erasmus University Rotterdam Search Articles Request Example
-  slug: erasmus-university-rotterdam-search-articles-request-example
+description: 'Erasmus University Rotterdam (EUR) is a Dutch public research university founded in 1913, ranked #158 in the QS World University Rankings 2025, with ROR https://ror.org/057w15z03 and the registrable domain eur.nl. Re-profiled on 2026-08-30 under the API Evangelist university pipeline, which settles WHO OPERATES a surface before crediting it to the institution. The June 2026 profile credited EUR with eleven API entries and ten OpenAPI contracts. Every one of them was api.figshare.com/v2 — one Figshare document that the same pass attributed to twenty-five different universities, split by tag into ten apparent surfaces titled "Figshare altmetric Articles API", "Figshare altmetric Authors API" and so on, and it put EUR fifth in the whole 248-institution university cohort. Those contracts, and the twenty Postman and OpenCollection files, four JSON Schemas, three JSON Structures, four payload examples, the JSON-LD context, the vocabulary, the OAuth scopes, the authentication summary,
+  the agentic-access classification, the two Spectral rulesets and the capability map derived from them, have all been removed — 51 files. The attribution was wrong twice over: EUR''s Figshare tenancy ENDED on 30 October 2025, when the EUR Data Repository moved to DataverseNL hosted by DANS, and datarepository.eur.nl now has no DNS record at all. What is left is what EUR actually operates. The genuine institution-run surface is the RePub OAI-PMH 2.0 endpoint at repub.eur.nl/oai — keyless, live, correctly configured with an OpenAIRE and an NWO set and three metadata formats, on the university library''s own infrastructure with @ubib.eur.nl administrative contacts and no vendor CNAME in the chain. Beside it sits api.eur.nl, a Kong API gateway EUR runs on its own address space that answers 401 with WWW-Authenticate: Basic realm="kong" and publishes no route, no reference and no contract to the public internet. EUR holds its own DataCite membership (symbol DHCM, 3,722 DOIs minted) and publishes
+  a live RFC 9116 security.txt. Everything else programmable is a tenancy that is a real institutional fact but somebody else''s engineering: the EUR Research Repository on Elsevier Pure at pure.eur.nl, the EUR Data Repository on DataverseNL, the course catalogue on Caci''s OSIRIS, the Canvas LMS with a live LTI 1.3 keyset, and the SURFconext/eduGAIN identity provider that is a Microsoft Entra tenant behind SURF''s proxy. EUR publishes no OpenAPI of its own, no developer portal, no open data portal and no llms.txt.'
 finops:
 - name: Erasmus University Rotterdam Finops
   service_category: Education
   slug: erasmus-university-rotterdam-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/erasmus-university-rotterdam.png
-json_schemas:
-- name: Figshare Article
-  property_count: 16
-  slug: erasmus-university-rotterdam-article
-- name: Figshare Author
-  property_count: 7
-  slug: erasmus-university-rotterdam-author
-- name: Figshare Collection
-  property_count: 6
-  slug: erasmus-university-rotterdam-collection
-- name: Figshare Project
-  property_count: 5
-  slug: erasmus-university-rotterdam-project
-json_structures:
-- name: Erasmus University Rotterdam Article Structure
-  property_count: 16
-  slug: erasmus-university-rotterdam-article-structure
-- name: Erasmus University Rotterdam Collection Structure
-  property_count: 6
-  slug: erasmus-university-rotterdam-collection-structure
-- name: Erasmus University Rotterdam Project Structure
-  property_count: 5
-  slug: erasmus-university-rotterdam-project-structure
-jsonld:
-- class_count: 13
-  name: Erasmus University Rotterdam Context
-  property_count: 11
-  slug: erasmus-university-rotterdam-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Erasmus University Rotterdam
 nav: Providers
 network: true
-overview: 'Erasmus University Rotterdam publishes 10 APIs on the [APIs.io](https://apis.io/) network, including altmetric API, articles API, authors API, and 7 more. Tagged areas include Education, Higher Education, University, Research Data, and Open Access.
+overview: 'Erasmus University Rotterdam publishes 1 API on the [APIs.io](https://apis.io/) network: RePub OAI-PMH Metadata Harvesting Interface. Tagged areas include University, Higher Education, Education, Netherlands, and Rotterdam.
 
 
-  The Erasmus University Rotterdam catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  Erasmus University Rotterdam''s developer surface includes authentication, GitHub presence, and 10 more developer resources.'
+  Erasmus University Rotterdam''s developer surface includes authentication, code examples, status page, GitHub presence, documentation, and 22 more developer resources.'
 plans:
 - name: Erasmus University Rotterdam Plans Pricing
   plan_count: 2
@@ -227,46 +287,25 @@ rate_limits:
 - limit_count: 1
   name: Erasmus University Rotterdam Rate Limits
   slug: erasmus-university-rotterdam-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: Erasmus University Rotterdam API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 1
-    warn: 4
-  slug: erasmus-university-rotterdam-jsonschema-spectral-rules
-- effective_rule_count: 6
-  extends: []
-  name: Erasmus University Rotterdam API Rules
-  rule_count: 6
-  severity_counts:
-    error: 2
-    hint: 0
-    info: 1
-    warn: 3
-  slug: erasmus-university-rotterdam-rules
-scopes:
-- name: Erasmus University Rotterdam Scopes
-  scope_count: 1
-  slug: erasmus-university-rotterdam-scopes
-  summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 45.5
-  delta: 3.8
+  composite: 47.3
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.8
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 25.0
-    contract_quality: 66.2
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 59.8
     developer_ergonomics: 21.4
-    discoverability: 74.1
-    governance: 25.0
+    discoverability: 79.6
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 41.7
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -279,16 +318,16 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 61.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 57.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/screenshots/erasmus-university-rotterdam-2026-06-20T180813.png
 security:
 - kind: authentication
   name: Erasmus University Rotterdam Authentication
   slug: erasmus-university-rotterdam-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: none/http_basic/oauth2/saml2 · 5 schemes
 - kind: domain-security
   name: Erasmus University Rotterdam Domain Security
   slug: erasmus-university-rotterdam-domain-security
@@ -299,13 +338,18 @@ security:
   summary_line: security.txt · contact published
 slug: erasmus-university-rotterdam
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- Netherlands
+- Rotterdam
+- Research
 - Research Data
 - Open Access
 - Repository
 - OAI-PMH
-- Netherlands
+- Identity Federation
+- Course Catalog
+- Learning Management
 website: https://www.eur.nl/en
 ---

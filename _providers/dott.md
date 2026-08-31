@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-08-26'
-api_count: 5
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Auto-discovery of available feeds and cities
   name: Dott Discovery API
@@ -72,6 +72,10 @@ collections:
   name: Dott GBFS Discovery Zones API
   slug: open-dott-zones-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dott-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -191,22 +195,27 @@ network: true
 overview: 'Dott publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Stations API, System API, and 2 more. Tagged areas include Company, Transportation, Micromobility, Mobility, and E-Scooter.
 
 
-  Dott''s developer surface includes documentation, API reference, getting-started guide, engineering blog, code examples, authentication, and 16 more developer resources.'
+  Dott''s developer surface includes documentation, API reference, getting-started guide, engineering blog, code examples, authentication, and 17 more developer resources.'
 random_paper: 2
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 43.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 49.8
     developer_ergonomics: 47.0
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 45.4
+  previous_composite: 43.9
   provenance:
     conformance: first-party
     contracts:
@@ -216,8 +225,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dott/refs/heads/main/screenshots/dott-2026-07-25T212315.png
 security:

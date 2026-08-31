@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 56.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 724
   slug: morningstar-agentic-access
   summary_line: 724 operations · 75 acting
-api_count: 18
+api_count: 41
 apis:
 - description: On-demand access to Morningstar's financial market data over HTTP in XML and JSON - real-time, delayed, and end-of-day pricing, price and quote, time and sales, price history, OHLCV, corporate actions
   name: Morningstar Market Data Web Services API
@@ -631,18 +631,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.9
-  delta: 1.9
+  composite: 45.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 56.6
     developer_ergonomics: 71.4
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 64.8
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 46.0
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -659,8 +664,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 61.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/screenshots/morningstar-2026-07-22T202515.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: bluecore-agentic-access
   summary_line: 9 operations · 6 acting
-api_count: 8
+api_count: 3
 apis:
 - description: The Authn API from Bluecore — 1 operation(s) for authn.
   name: Bluecore Authn API
@@ -62,17 +62,20 @@ apis:
 - description: The Transactional API from Bluecore — 1 operation(s) for transactional.
   name: Bluecore Transactional API
   slug: bluecore-transactional-api
-- description: The original Bluecore Transactional API on https://api.bluecore.com/email/ - send a transactional or real-time welcome email against a Bluecore campaign, and retrieve the delivery status of a previous
-  name: Bluecore Transactional API (legacy)
-  slug: bluecore-transactional-legacy-api
 - description: Bluecore's event-ingestion API - POST shopper behaviour and identity events (viewed_product, search, add_to_cart, remove_from_cart, wishlist, purchase, customer_patch, identify, optin, unsubscribe, pl
   name: Bluecore Events API
   slug: bluecore-events-api
+- description: The GET STATUS API from Bluecore — 1 operation(s) for get status.
+  name: Bluecore GET STATUS API
+  slug: bluecore-get-status-api
+- description: The SEND EMAIL API from Bluecore — 1 operation(s) for send email.
+  name: Bluecore SEND EMAIL API
+  slug: bluecore-send-email-api
 arazzos:
 - description: Authenticate, upsert a Customer Profile, opt them into marketing, send a transactional message with an idempotency key, and read its delivery status.
   name: Onboard a Bluecore customer and send a transactional message
   slug: bluecore-onboard-and-message.arazzo
-artifact_total: 26
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Bluecore Events
@@ -100,6 +103,10 @@ collections:
   name: Bluecore Authn Transactional API
   slug: open-bluecore-transactional-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bluecore-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -280,13 +287,13 @@ modified: '2026-08-13'
 name: Bluecore
 nav: Providers
 network: true
-overview: 'Bluecore publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authn API, CampaignsAPIPublic API, Direct send API, and 4 more. Tagged areas include Company, Retail, Marketing, Customer Data Platform, and Personalization.
+overview: 'Bluecore publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authn API, CampaignsAPIPublic API, Direct send API, and 5 more. Tagged areas include Company, Retail, Marketing, Customer Data Platform, and Personalization.
 
 
   The Bluecore catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bluecore''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 35 more developer resources.'
+  Bluecore''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 36 more developer resources.'
 plans:
 - name: Bluecore Plans Pricing
   plan_count: 0
@@ -302,19 +309,24 @@ scopes:
   slug: bluecore-scopes
   summary_line: 7 scopes
 score:
-  band: strong
-  composite: 54.9
+  band: developing
+  composite: 52.0
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 16.7
-    contract_quality: 62.6
+    contract_governance: 4.5
+    contract_quality: 61.3
     developer_ergonomics: 44.6
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 54.9
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -331,8 +343,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/screenshots/bluecore-2026-07-25T203448.png
 security:

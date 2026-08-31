@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-20'
 name: Mediacao Online
 nav: Providers
 network: true
-overview: 'Mediacao Online is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal Tech, Online Dispute Resolution, Mediation, and Conflict Resolution.
+overview: 'Mediacao Online is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legaltech, Online Dispute Resolution, Mediation, and Conflict Resolution.
 
 
   Mediacao Online''s developer surface includes engineering blog, support, and 3 more developer resources.'
@@ -72,6 +72,11 @@ random_paper: 18
 score:
   band: minimal
   composite: 7.0
+  coverage:
+    artifact_dirs: 2
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 5.3
@@ -89,14 +94,14 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 7.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediacao-online/refs/heads/main/screenshots/mediacao-online-2026-08-07T172328.png
 slug: mediacao-online
 tags:
 - Company
-- Legal Tech
+- Legaltech
 - Online Dispute Resolution
 - Mediation
 - Conflict Resolution

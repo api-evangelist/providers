@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 24
   slug: alpic-agentic-access
   summary_line: 24 operations · 11 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The analytics API from Alpic — 1 operation(s) for analytics.
   name: Alpic analytics API
@@ -205,7 +205,7 @@ modified: '2026-07-17'
 name: Alpic
 nav: Providers
 network: true
-overview: 'Alpic publishes 8 APIs on the [APIs.io](https://apis.io/) network, including analytics API, beacon API, deployments API, and 5 more. Tagged areas include Company, Ai Ml, MCP, Cloud Platform, and Developer Tools.
+overview: 'Alpic publishes 8 APIs on the [APIs.io](https://apis.io/) network, including analytics API, beacon API, deployments API, and 5 more. Tagged areas include Company, Ai/Ml, MCP, Cloud Platform, and Developer Tools.
 
 
   Alpic''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, engineering blog, pricing, and 17 more developer resources.'
@@ -217,18 +217,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 45.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 56.2
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 48.2
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,8 +244,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpic/refs/heads/main/screenshots/alpic-2026-07-25T195808.png
 security:
@@ -259,7 +264,7 @@ security:
 slug: alpic
 tags:
 - Company
-- Ai Ml
+- Ai/Ml
 - MCP
 - Cloud Platform
 - Developer Tools

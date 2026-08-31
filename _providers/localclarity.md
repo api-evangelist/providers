@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,13 +41,17 @@ agentic_access:
   operation_count: 6
   slug: localclarity-agentic-access
   summary_line: 6 operations · 5 acting
-api_count: 1
+api_count: 3
 apis:
-- description: REST API for programmatic access to LocalClarity platform data. Six documented operations cover profiles, organizations, business locations (returned as Google Business Profile location resources), re
-  name: LocalClarity REST API
-  slug: localclarity-rest-api
+- description: LocalClarity data endpoints.
+  name: LocalClarity Endpoints API
+  slug: localclarity-endpoints-api
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/localclarity-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -185,13 +189,13 @@ modified: '2026-08-13'
 name: LocalClarity
 nav: Providers
 network: true
-overview: 'LocalClarity publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Local SEO, Google Business Profile, Review Management, Local Search, and Listings Management.
+overview: 'LocalClarity publishes 1 API on the [APIs.io](https://apis.io/) network: Endpoints API. Tagged areas include Local SEO, Google Business Profile, Review Management, Local Search, and Listings Management.
 
 
   The LocalClarity catalog on APIs.io includes 1 JSON-LD context.
 
 
-  LocalClarity''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
+  LocalClarity''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
 plans:
 - name: Localclarity Plans Pricing
   plan_count: 3
@@ -203,18 +207,23 @@ rate_limits:
   slug: localclarity-rate-limits
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 51.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.5
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.3
     developer_ergonomics: 49.4
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 74.1
+    governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 52.8
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,8 +234,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/screenshots/localclarity-2026-06-20T184634.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 26
   slug: sap-bydesign-agentic-access
   summary_line: 26 operations · 7 acting
-api_count: 11
+api_count: 1
 apis:
 - description: OData v2 REST API for UI-driven access to SAP Business ByDesign business objects. Supports querying, reading, creating, updating, deleting, and performing actions on business objects and documents acr
   name: SAP Business ByDesign OData Business Objects API
@@ -192,7 +192,7 @@ modified: '2026-08-21'
 name: SAP Business ByDesign
 nav: Providers
 network: true
-overview: 'SAP Business ByDesign publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, CRM API, Financials API, and 5 more. Tagged areas include ERP, Cloud, Mid-Market, Financials, and CRM.
+overview: 'SAP Business ByDesign publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, CRM API, Financials API, and 5 more. Tagged areas include ERP, Cloud, Midmarket, Financials, and CRM.
 
 
   The SAP Business ByDesign catalog on APIs.io includes 1 JSON-LD context.
@@ -215,15 +215,20 @@ scopes:
   summary_line: 1 scope · clientCredentials/saml2Bearer
 score:
   band: developing
-  composite: 43.9
-  delta: 0.0
+  composite: 43.3
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 46.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 59.4
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 43.9
@@ -234,8 +239,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/screenshots/sap-bydesign-2026-06-20T193421.png
 security:
@@ -255,7 +260,7 @@ slug: sap-bydesign
 tags:
 - ERP
 - Cloud
-- Mid-Market
+- Midmarket
 - Financials
 - CRM
 - Procurement

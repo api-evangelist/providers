@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
 - description: Installment, interest and service-fee breakdown.
@@ -76,6 +76,10 @@ collections:
   name: Kredivo Checkout Calculator Transactions API
   slug: open-kredivo-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kredivo-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -230,22 +234,27 @@ overview: 'Kredivo publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The Kredivo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kredivo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 27 more developer resources.'
+  Kredivo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 28 more developer resources.'
 random_paper: 0
 score:
-  band: strong
-  composite: 54.7
+  band: developing
+  composite: 53.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 64.9
     developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 54.7
+  previous_composite: 53.2
   provenance:
     conformance: derived
     contracts:
@@ -261,8 +270,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/screenshots/kredivo-2026-07-25T224258.png
 security:

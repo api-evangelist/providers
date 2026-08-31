@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-26'
+  score: 25.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 96
   slug: fatcat-agentic-access
   summary_line: 96 operations · 42 acting
-api_count: 11
+api_count: 1
 apis:
 - description: 'Helper methods and internal APIs for editor authentication. # TAGLINE'
   name: Fatcat auth API
@@ -116,6 +116,10 @@ collections:
   name: fatcat auth works API
   slug: open-fatcat-works-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fatcat-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -187,7 +191,7 @@ overview: 'Fatcat publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
   The Fatcat catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Fatcat''s developer surface includes authentication and 3 more developer resources.'
+  Fatcat''s developer surface includes authentication and 4 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -210,18 +214,26 @@ rules:
   slug: fatcat-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.4
-  delta: 1.7
+  composite: 32.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 57.1
     developer_ergonomics: 16.7
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 32.7
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     contracts:
@@ -235,8 +247,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

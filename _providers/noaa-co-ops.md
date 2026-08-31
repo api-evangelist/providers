@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 14
   slug: noaa-co-ops-agentic-access
   summary_line: 14 operations
-api_count: 13
+api_count: 3
 apis:
 - description: The Benchmarks API from NOAA CO-OPS — 1 operation(s) for benchmarks.
   name: NOAA CO-OPS Benchmarks API
@@ -263,6 +263,11 @@ rules:
 score:
   band: thin
   composite: 33.0
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 66.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
@@ -287,8 +292,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/screenshots/noaa-co-ops-2026-06-20T190339.png
 security:

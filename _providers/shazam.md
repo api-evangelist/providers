@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: shazam-agentic-access
   summary_line: 12 operations · 1 acting
-api_count: 7
+api_count: 1
 apis:
 - description: 'ShazamKit is Apple''s official framework for integrating Shazam music recognition into iOS, macOS, tvOS, visionOS, watchOS, and Android applications. It supports matching audio against Shazam''s global '
   name: ShazamKit
@@ -89,6 +89,10 @@ collections:
   name: Shazam REST Albums Tracks API
   slug: open-shazam-tracks-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/apple/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -174,7 +178,7 @@ overview: 'Shazam publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Shazam catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Shazam''s developer surface includes authentication and 11 more developer resources.'
+  Shazam''s developer surface includes authentication and 12 more developer resources.'
 plans:
 - name: Shazam Plans Pricing
   plan_count: 7
@@ -197,18 +201,23 @@ rules:
   slug: shazam-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.5
-  delta: 6.4
+  composite: 48.9
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 9.8
     contract_quality: 58.5
     developer_ergonomics: 38.1
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 34.2
-  previous_composite: 43.1
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -216,9 +225,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shazam/refs/heads/main/screenshots/shazam-2026-06-20T193748.png
 security:
 - kind: authentication

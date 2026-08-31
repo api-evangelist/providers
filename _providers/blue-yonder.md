@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: blue-yonder-agentic-access
   summary_line: 7 operations · 2 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Blue Yonder Demand Planning API enables access to demand forecasting models, statistical baselines, and demand signals for retail and manufacturing supply chains. REST APIs support integration wit
   name: Blue Yonder Demand Planning API
@@ -86,6 +86,10 @@ collections:
   name: Blue Yonder Warehouse Management API
   slug: open-blue-yonder-warehouse-management
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/blue-yonder-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -168,7 +172,7 @@ overview: 'blue-yonder publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
   The blue-yonder catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  blue-yonder''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 9 more developer resources.'
+  blue-yonder''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 10 more developer resources.'
 plans:
 - name: Blue Yonder Plans Pricing
   plan_count: 1
@@ -196,15 +200,20 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 33.6
-  delta: 0.0
+  composite: 33.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 72.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 9.8
     contract_quality: 56.6
     developer_ergonomics: 45.2
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 7.9
   previous_composite: 33.6
@@ -219,8 +228,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/screenshots/blue-yonder-2026-06-20T173532.png
 security:

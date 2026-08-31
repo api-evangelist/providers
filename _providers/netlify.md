@@ -11,30 +11,31 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
+    delegated_identity: served
+    dry_run_mode: true
+    dynamic_client_registration: true
+    error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
-    protected_resource_metadata: false
+    openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 26.0
-  scored_at: '2026-08-26'
+  score: 57.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 1
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 133
   slug: netlify-agentic-access
   summary_line: 133 operations · 73 acting · 1 human-in-the-loop
-api_count: 35
+api_count: 2
 apis:
 - description: The accessToken API from Netlify — 1 operation(s) for accesstoken.
   name: Netlify accessToken API
@@ -149,7 +150,28 @@ apis:
 - description: The X-Internal API from Netlify — 3 operation(s) for x-internal.
   name: Netlify X-Internal API
   slug: netlify-x-internal-api
-artifact_total: 206
+- description: The agentRunner API from Netlify — 6 operation(s) for agentrunner.
+  name: Netlify Agent Runner API
+  slug: netlify-agentrunner-api
+- description: The agentRunnerHook API from Netlify — 2 operation(s) for agentrunnerhook.
+  name: Netlify Agent Runner Hook API
+  slug: netlify-agentrunnerhook-api
+- description: The agentRunnerSession API from Netlify — 2 operation(s) for agentrunnersession.
+  name: Netlify Agent Runner Session API
+  slug: netlify-agentrunnersession-api
+- description: The aiGateway API from Netlify — 3 operation(s) for aigateway.
+  name: Netlify AI Gateway API
+  slug: netlify-aigateway-api
+- description: The database API from Netlify — 14 operation(s) for database.
+  name: Netlify Database API
+  slug: netlify-database-api
+- description: The edgeFunction API from Netlify — 1 operation(s) for edgefunction.
+  name: Netlify Edge Function API
+  slug: netlify-edgefunction-api
+- description: The service API from Netlify — 3 operation(s) for service.
+  name: Netlify Service API
+  slug: netlify-service-api
+artifact_total: 215
 asyncapis:
 - description: 'AsyncAPI description of Netlify''s asynchronous event surface. Two documented surfaces are modelled here: 1. Outgoing webhooks (deploy / form / split test notifications). Netlify issues an HTTP POST to'
   name: Netlify Webhooks and Build Hooks
@@ -369,6 +391,10 @@ collections:
   name: Netlify Netlify's API documentation accessToken X-Internal API
   slug: open-netlify-x-internal-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/netlify-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -521,13 +547,125 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.netlify.com/llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/netlify-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/netlify-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/netlify-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/netlify-components.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/netlify-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/netlify-api-catalog.json
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/netlify-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/netlify-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/netlify-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/netlify-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/netlify-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/netlify-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/netlify-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/netlify-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/netlify-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/netlify-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/netlify-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/netlify-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/netlify-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/netlify-rate-limits.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/netlify-webhooks-asyncapi.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/netlify-vocabulary.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.netlify.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://open-api.netlify.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.netlify.com/signup
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://answers.netlify.com/
+- group: agent
+  title: ''
+  type: AgentSkillSource
+  url: https://github.com/netlify/context-and-tools
 created: '2023-11-14'
-description: Netlify is a cloud platform for building, deploying, and scaling modern web applications with continuous deployment, serverless functions, and edge computing capabilities.
+description: 'Netlify is a cloud platform for building, deploying and scaling modern web applications, with continuous deployment from Git, serverless and edge functions, a global CDN, forms, identity, Postgres storage and an image CDN. Its public REST API at https://api.netlify.com/api/v1 is described by an OpenAPI that Netlify maintains in the open at github.com/netlify/open-api and serves at open-api.netlify.com, covering deploys, sites, DNS, builds, forms, environment variables and split tests. Netlify also ships an unusually complete agent surface: an RFC 9727 API catalog at the domain root, an OAuth-gated remote MCP server, fifteen published Agent Skills, an llms.txt, and a Markdown twin of every documentation page.'
 features:
 - 'Free: 300 credits/mo, unlimited deploy previews, global CDN'
 - 'Personal at $9/mo: 1,000 credits, smart secret detection'
 - 'Pro at $20/mo: 3,000 credits, 3+ concurrent builds, private repos'
-- 'Enterprise custom: unlimited credits, 99.99% SLA, SSO/SCIM'
+- 'Enterprise custom: custom credit allocation, 99.99% SLA, SSO/SCIM'
 - REST API at api.netlify.com
 - 'Open API: 500 req/min/token rate limit'
 - 'Deploy creates: 3/min/site'
@@ -769,24 +907,27 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-30'
+- description: 'Netlify ships an official MCP server in BOTH deployments. A hosted remote server answers Streamable HTTP at https://netlify-mcp.netlify.app/mcp behind OAuth, and the identical build runs locally over '
+  name: Netlify MCP Server
+  slug: netlify-mcp-server
+modified: '2026-08-27'
 name: Netlify
 nav: Providers
 network: true
-overview: 'Netlify publishes 35 APIs on the [APIs.io](https://apis.io/) network, including accessToken API, accountMembership API, accountType API, and 32 more. Tagged areas include CDN, Cloud, Continuous Deployment, Edge Computing, and JAMstack.
+overview: 'Netlify publishes 42 APIs on the [APIs.io](https://apis.io/) network, including accessToken API, accountMembership API, accountType API, and 39 more. Tagged areas include CDN, Cloud, Continuous Deployment, Edge Computing, and JAMstack.
 
 
   The Netlify catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Netlify''s developer surface includes authentication, engineering blog, changelog, support, signup flow, developer portal, pricing, and 31 more developer resources.'
+  Netlify''s developer surface includes authentication, engineering blog, changelog, support, signup flow, developer portal, pricing, and 60 more developer resources.'
 plans:
 - name: Netlify Plans Pricing
   plan_count: 4
   slug: netlify-plans-pricing
 random_paper: 7
 rate_limits:
-- limit_count: 4
+- limit_count: 5
   name: Netlify Rate Limits
   slug: netlify-rate-limits
 rules:
@@ -818,18 +959,26 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 54.3
-  delta: 0.0
+  composite: 61.6
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 72.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.0
   facets:
-    access_clarity: 68.4
-    commercial_clarity: 68.4
-    contract_governance: 13.6
-    contract_quality: 52.5
-    developer_ergonomics: 61.9
-    discoverability: 66.7
-    governance: 13.6
-    operational_transparency: 52.6
-  previous_composite: 54.3
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 47.0
+    contract_quality: 52.7
+    developer_ergonomics: 83.3
+    discoverability: 51.9
+    governance: 47.0
+    operational_transparency: 60.5
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     contracts:
@@ -837,8 +986,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netlify/refs/heads/main/screenshots/netlify-2026-06-20T190259.png
 security:
@@ -850,6 +999,10 @@ security:
   name: Netlify Domain Security
   slug: netlify-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Netlify Vulnerability Disclosure
+  slug: netlify-vulnerability-disclosure
+  summary_line: Hackerone
 - kind: trust-center
   name: Netlify Trust Center
   slug: netlify-trust-center
@@ -866,5 +1019,5 @@ tags:
 - Static Sites
 - Web Hosting
 - Websites
-website: https://app.netlify.com/
+website: https://developers.netlify.com/
 ---

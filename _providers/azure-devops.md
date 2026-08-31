@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: azure-devops-agentic-access
   summary_line: 12 operations · 5 acting
-api_count: 9
+api_count: 2
 apis:
 - description: The Azure DevOps Git Repositories API provides REST endpoints for managing Git repositories, branches, commits, pull requests, and code reviews. APIs enable automation of repository management, pull r
   name: Azure DevOps Git Repositories API
@@ -117,6 +117,10 @@ collections:
   name: Azure DevOps Pipelines Fields WorkItems API
   slug: open-azure-devops-workitems-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/azure-devops-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -338,7 +342,6 @@ finops:
 - name: Azure Devops Finops
   service_category: Developer Tools
   slug: azure-devops-finops
-image: https://raw.githubusercontent.com/api-evangelist/azure-devops/refs/heads/main/image.png
 integrations:
 - description: Import repositories and trigger pipelines from GitHub events
   name: GitHub
@@ -445,7 +448,7 @@ overview: 'Azure DevOps publishes 5 APIs on the [APIs.io](https://apis.io/) netw
   The Azure DevOps catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Azure DevOps'' developer surface includes authentication, documentation, developer portal, API reference, getting-started guide, changelog, CLI, and 35 more developer resources.'
+  Azure DevOps'' developer surface includes authentication, documentation, developer portal, API reference, getting-started guide, changelog, CLI, and 36 more developer resources.'
 plans:
 - name: Azure Devops Plans Pricing
   plan_count: 6
@@ -495,15 +498,20 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 49.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.9
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 69.3
     developer_ergonomics: 81.0
-    discoverability: 64.8
+    discoverability: 55.6
     governance: 28.8
     operational_transparency: 26.3
   previous_composite: 50.0
@@ -514,8 +522,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-devops/refs/heads/main/screenshots/azure-devops-2026-06-20T172853.png
 security:

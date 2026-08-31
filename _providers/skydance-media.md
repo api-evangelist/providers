@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -251,18 +251,23 @@ overview: 'Skydance Media publishes 12 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 0
 score:
   band: emerging
-  composite: 21.7
-  delta: 0.7
+  composite: 20.2
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 19.4
     developer_ergonomics: 16.1
     discoverability: 74.1
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 21.0
+  previous_composite: 20.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -272,8 +277,8 @@ score:
       marker_coverage: 100.0
       total: 12
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

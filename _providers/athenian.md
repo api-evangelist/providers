@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 3
@@ -41,14 +41,11 @@ agentic_access:
   operation_count: 79
   slug: athenian-agentic-access
   summary_line: 79 operations · 55 acting · 3 human-in-the-loop
-api_count: 16
+api_count: 1
 apis:
 - description: The align API from Athenian — 3 operation(s) for align.
   name: Athenian align API
   slug: athenian-align-api
-- description: The default API from Athenian — 70 operation(s) for default.
-  name: Athenian default API
-  slug: athenian-default-api
 - description: The events API from Athenian — 4 operation(s) for events.
   name: Athenian events API
   slug: athenian-events-api
@@ -91,7 +88,7 @@ apis:
 - description: The version API from Athenian — 1 operation(s) for version.
   name: Athenian version API
   slug: athenian-version-api
-artifact_total: 37
+artifact_total: 36
 collections:
 - collection_type: open
   name: API Collection
@@ -209,25 +206,30 @@ modified: '2026-07-18'
 name: Athenian
 nav: Providers
 network: true
-overview: 'Athenian publishes 16 APIs on the [APIs.io](https://apis.io/) network, including align API, default API, events API, and 13 more. Tagged areas include Company, Engineering Intelligence, Software Development Analytics, Developer Productivity, and DevOps.
+overview: 'Athenian publishes 15 APIs on the [APIs.io](https://apis.io/) network, including align API, events API, filter API, and 12 more. Tagged areas include Company, Engineering Intelligence, Software Development Analytics, Developer Productivity, and DevOps.
 
 
   Athenian''s developer surface includes authentication and 12 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 25.7
-  delta: 0.0
+  composite: 23.7
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 49.9
     developer_ergonomics: 13.7
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 25.7
+  previous_composite: 24.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,8 +240,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athenian/refs/heads/main/screenshots/athenian-2026-07-25T201535.png
 security:
@@ -260,7 +262,7 @@ tags:
 - DevOps
 - Metrics
 - Git
-- Jira
+- JIRA
 - CI/CD
 - Analytics
 website: https://athenian.com

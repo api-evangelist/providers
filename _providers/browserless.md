@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 76
   slug: browserless-agentic-access
   summary_line: 76 operations · 43 acting
-api_count: 3
+api_count: 1
 apis:
 - description: The Browser REST APIs API from Browserless — 41 operation(s) for browser rest apis.
   name: Browserless Browser REST APIs API
@@ -307,19 +307,27 @@ rules:
     warn: 6
   slug: browserless-rules
 score:
-  band: strong
-  composite: 55.2
-  delta: 6.0
+  band: developing
+  composite: 52.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 30.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -3.6
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
     contract_governance: 28.8
-    contract_quality: 47.6
+    contract_quality: 49.0
     developer_ergonomics: 40.5
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 49.2
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     contracts:
@@ -327,9 +335,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/screenshots/browserless-2026-06-20T173726.png
 security:
 - kind: domain-security

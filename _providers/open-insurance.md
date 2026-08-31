@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -31,20 +31,28 @@ agentic_access:
   operation_count: 1
   slug: open-insurance-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 2
+api_count: 1
 apis:
-- description: The single documented server-side REST operation on the Open Platform. POST /v1/policy/coc retrieves a Certificate of Currency for an existing policy directly from the insurer to validate cover, retur
-  name: Open Certificate of Currency API
-  slug: open-certificate-of-currency-api
 - description: Open's browser JavaScript library for embedding insurance into a partner's web app. Documented methods are opensdk.quote.load, opensdk.quote.prepare, opensdk.quote.portal, opensdk.quote.status, opensd
   name: Open.js Embedded Insurance SDK
   slug: open-js-embedded-insurance-sdk
+- description: The Policy API from Open — 1 operation(s) for policy.
+  name: Open Policy API
+  slug: open-insurance-policy-api
 artifact_total: 7
 collections:
 - collection_type: open
   name: Open Insurance API
   slug: open-open-insurance-certificate-of-currency
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/open-insurance-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-insurance-certificate-of-currency-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -206,25 +214,30 @@ modified: '2026-07-25'
 name: Open
 nav: Providers
 network: true
-overview: 'Open publishes 1 API on the [APIs.io](https://apis.io/) network: Certificate of Currency API. Tagged areas include Insurance, Australia, Insurtech, Embedded Insurance, and Property and Casualty.
+overview: 'Open publishes 1 API on the [APIs.io](https://apis.io/) network: Policy API. Tagged areas include Insurance, Australia, Insurtech, Embedded Insurance, and Property and Casualty.
 
 
-  Open''s developer surface includes documentation, API reference, authentication, status page, developer portal, getting-started guide, support, and 30 more developer resources.'
+  Open''s developer surface includes documentation, API reference, authentication, status page, developer portal, getting-started guide, support, and 32 more developer resources.'
 random_paper: 19
 score:
   band: developing
-  composite: 45.9
+  composite: 44.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
-    contract_quality: 42.9
+    contract_governance: 18.2
+    contract_quality: 45.6
     developer_ergonomics: 53.0
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 45.9
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -236,8 +249,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-insurance/refs/heads/main/screenshots/open-insurance-2026-08-07T190517.png
 security:

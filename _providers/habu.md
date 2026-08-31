@@ -32,18 +32,125 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: The Habu Clean Room API — published by LiveRamp as "External APIs for Customer Integration" and still served from Habu's own api.habu.com host — lets customers set up and manage clean rooms, provision
-  name: Habu Clean Room API
-  slug: habu-clean-room-api
-artifact_total: 9
+- description: The Billable Configs API from Habu — 2 operation(s) for billable configs.
+  name: Habu Billable Configs API
+  slug: habu-billable-configs-api
+- description: The Cleanroom API from Habu — 2 operation(s) for cleanroom.
+  name: Habu Cleanroom API
+  slug: habu-cleanroom-api
+- description: The Cleanroom Datasets API from Habu — 5 operation(s) for cleanroom datasets.
+  name: Habu Cleanroom Datasets API
+  slug: habu-cleanroom-datasets-api
+- description: The Cleanroom Destinations API from Habu — 3 operation(s) for cleanroom destinations.
+  name: Habu Cleanroom Destinations API
+  slug: habu-cleanroom-destinations-api
+- description: The Cleanroom Exports API from Habu — 4 operation(s) for cleanroom exports.
+  name: Habu Cleanroom Exports API
+  slug: habu-cleanroom-exports-api
+- description: The Cleanroom Flow Runs API from Habu — 10 operation(s) for cleanroom flow runs.
+  name: Habu Cleanroom Flow Runs API
+  slug: habu-cleanroom-flow-runs-api
+- description: The Cleanroom Flows API from Habu — 10 operation(s) for cleanroom flows.
+  name: Habu Cleanroom Flows API
+  slug: habu-cleanroom-flows-api
+- description: The Cleanroom Partners API from Habu — 8 operation(s) for cleanroom partners.
+  name: Habu Cleanroom Partners API
+  slug: habu-cleanroom-partners-api
+- description: The Cleanroom Question Datasets API from Habu — 4 operation(s) for cleanroom question datasets.
+  name: Habu Cleanroom Question Datasets API
+  slug: habu-cleanroom-question-datasets-api
+- description: The Cleanroom Question Permissions API from Habu — 1 operation(s) for cleanroom question permissions.
+  name: Habu Cleanroom Question Permissions API
+  slug: habu-cleanroom-question-permissions-api
+- description: The Cleanroom Question Result Shares API from Habu — 1 operation(s) for cleanroom question result shares.
+  name: Habu Cleanroom Question Result Shares API
+  slug: habu-cleanroom-question-result-shares-api
+- description: The Cleanroom Question Run Schedule API from Habu — 2 operation(s) for cleanroom question run schedule.
+  name: Habu Cleanroom Question Run Schedule API
+  slug: habu-cleanroom-question-run-schedule-api
+- description: The Cleanroom Question Runs API from Habu — 10 operation(s) for cleanroom question runs.
+  name: Habu Cleanroom Question Runs API
+  slug: habu-cleanroom-question-runs-api
+- description: The Cleanroom Question Tags API from Habu — 2 operation(s) for cleanroom question tags.
+  name: Habu Cleanroom Question Tags API
+  slug: habu-cleanroom-question-tags-api
+- description: The Cleanroom Questions API from Habu — 5 operation(s) for cleanroom questions.
+  name: Habu Cleanroom Questions API
+  slug: habu-cleanroom-questions-api
+- description: The Cleanroom Roles API from Habu — 2 operation(s) for cleanroom roles.
+  name: Habu Cleanroom Roles API
+  slug: habu-cleanroom-roles-api
+- description: The Cleanroom Users API from Habu — 3 operation(s) for cleanroom users.
+  name: Habu Cleanroom Users API
+  slug: habu-cleanroom-users-api
+- description: The Cleanrooms API from Habu — 4 operation(s) for cleanrooms.
+  name: Habu Cleanrooms API
+  slug: habu-cleanrooms-api
+- description: The Credential Sources API from Habu — 3 operation(s) for credential sources.
+  name: Habu Credential Sources API
+  slug: habu-credential-sources-api
+- description: The Data Connections API from Habu — 5 operation(s) for data connections.
+  name: Habu Data Connections API
+  slug: habu-data-connections-api
+- description: The Data Source Parameters API from Habu — 1 operation(s) for data source parameters.
+  name: Habu Data Source Parameters API
+  slug: habu-data-source-parameters-api
+- description: The Data Sources API from Habu — 2 operation(s) for data sources.
+  name: Habu Data Sources API
+  slug: habu-data-sources-api
+- description: The Data Types API from Habu — 2 operation(s) for data types.
+  name: Habu Data Types API
+  slug: habu-data-types-api
+- description: The DataConnectionViews API from Habu — 2 operation(s) for dataconnectionviews.
+  name: Habu Data Connection Views API
+  slug: habu-dataconnectionviews-api
+- description: The Destinations API from Habu — 3 operation(s) for destinations.
+  name: Habu Destinations API
+  slug: habu-destinations-api
+- description: The Flow Decision Configurations API from Habu — 1 operation(s) for flow decision configurations.
+  name: Habu Flow Decision Configurations API
+  slug: habu-flow-decision-configurations-api
+- description: The Health API from Habu — 1 operation(s) for health.
+  name: Habu Health API
+  slug: habu-health-api
+- description: The Import Data Types API from Habu — 1 operation(s) for import data types.
+  name: Habu Import Data Types API
+  slug: habu-import-data-types-api
+- description: The Intelligence API from Habu — 4 operation(s) for intelligence.
+  name: Habu Intelligence API
+  slug: habu-intelligence-api
+- description: For internal LiveRamp consumption. These operations are not part of the supported external customer contract and may change without notice.
+  name: Habu Internal API
+  slug: habu-internal-api
+- description: The Invitations API from Habu — 3 operation(s) for invitations.
+  name: Habu Invitations API
+  slug: habu-invitations-api
+- description: The Organization Credentials API from Habu — 2 operation(s) for organization credentials.
+  name: Habu Organization Credentials API
+  slug: habu-organization-credentials-api
+- description: The Organization Users API from Habu — 1 operation(s) for organization users.
+  name: Habu Organization Users API
+  slug: habu-organization-users-api
+- description: The Questions API from Habu — 3 operation(s) for questions.
+  name: Habu Questions API
+  slug: habu-questions-api
+artifact_total: 42
 collections:
 - collection_type: open
   name: External APIs for Customer Integration
   slug: open-habu-clean-room-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/liveramp/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/habu-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -189,10 +296,10 @@ modified: '2026-08-12'
 name: Habu
 nav: Providers
 network: true
-overview: 'Habu publishes 1 API on the [APIs.io](https://apis.io/) network: Clean Room API. Tagged areas include Company, Data Clean Room, Data Collaboration, Advertising, and Privacy.
+overview: 'Habu publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Billable Configs API, Cleanroom API, Cleanroom Datasets API, and 31 more. Tagged areas include Company, Data Clean Room, Data Collaboration, Advertising, and Privacy.
 
 
-  Habu''s developer surface includes API reference, getting-started guide, changelog, authentication, documentation, engineering blog, pricing, and 27 more developer resources.'
+  Habu''s developer surface includes API reference, getting-started guide, changelog, authentication, documentation, engineering blog, pricing, and 29 more developer resources.'
 plans:
 - name: Habu Plans Pricing
   plan_count: 0
@@ -209,18 +316,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 45.1
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
-    contract_quality: 55.1
+    contract_governance: 4.5
+    contract_quality: 54.6
     developer_ergonomics: 16.1
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 70.4
+    governance: 4.5
     operational_transparency: 76.3
-  previous_composite: 48.4
+  previous_composite: 45.7
   provenance:
     conformance: derived
     contracts:
@@ -230,8 +342,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/screenshots/habu-2026-07-25T220519.png
 security:

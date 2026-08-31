@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ericsson/
 created: '2026-07-17'
 description: Apcera was an enterprise container and policy management platform founded in 2012 by Derek Collison, offering a "trusted cloud" runtime that layered fine-grained, policy-driven governance over workloads, containers, and services across hybrid infrastructure. Backed by a16z and DCVC, the company took a majority investment from Ericsson in 2015, was fully acquired by Ericsson in 2016, and the platform was subsequently wound down around 2017. The company is defunct - its primary domain (apcera.com) no longer resolves to a company site (it 301-redirects to an unrelated third party), and there is no live developer portal, API documentation, OpenAPI definition, or reachable API host to enrich. This profile is retained as a historical portfolio-lead record only.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apcera.png
@@ -48,6 +53,11 @@ random_paper: 11
 score:
   band: minimal
   composite: 0.9
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -73,8 +83,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: apcera
 tags:

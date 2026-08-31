@@ -23,20 +23,45 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: FastAPI-generated service ("labsapi") behind Kortext's AI study features — quiz sessions generated from a book, a URL or pasted text; content indexing and retrieval-augmented chat over a student's Kor
-  name: Kortext Labs AI Study Tools API
-  slug: kortext-labs-ai-study-tools-api
 - description: The institution-facing integration surface behind vle.kortext.com — 1EdTech LTI 1.1 launch and LTI 1.3 Deep Linking endpoints that place Kortext content and KeyLinks reading lists inside Blackboard, M
   name: Kortext VLE / LTI Integration API
   slug: kortext-vle-lti-integration-api
 - description: The authenticated application API behind app.kortext.com serving the Kortext study reader and companion apps — identity, content, upload, cover, features, assessments, events and the genai and study-t
   name: Kortext Platform API
   slug: kortext-platform-api
-artifact_total: 7
+- description: The Chat API from Kortext — 31 operation(s) for chat.
+  name: Kortext Chat API
+  slug: kortext-chat-api
+- description: The Content API from Kortext — 20 operation(s) for content.
+  name: Kortext Content API
+  slug: kortext-content-api
+- description: The Health Checks API from Kortext — 2 operation(s) for health checks.
+  name: Kortext Health Checks API
+  slug: kortext-health-checks-api
+- description: The Labs API from Kortext — 1 operation(s) for labs.
+  name: Kortext Labs API
+  slug: kortext-labs-api
+- description: The Podcast API from Kortext — 3 operation(s) for podcast.
+  name: Kortext Podcast API
+  slug: kortext-podcast-api
+- description: The Quiz API from Kortext — 8 operation(s) for quiz.
+  name: Kortext Quiz API
+  slug: kortext-quiz-api
+- description: The Reading List API from Kortext — 1 operation(s) for reading list.
+  name: Kortext Reading List API
+  slug: kortext-reading-list-api
+- description: The Test API from Kortext — 2 operation(s) for test.
+  name: Kortext Test API
+  slug: kortext-test-api
+artifact_total: 14
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kortext-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -166,10 +191,10 @@ modified: '2026-08-23'
 name: Kortext
 nav: Providers
 network: true
-overview: 'Kortext publishes 1 API on the [APIs.io](https://apis.io/) network: Labs AI Study Tools API. Tagged areas include Company, Education, EdTech, Higher Education, and Digital Textbooks.
+overview: 'Kortext publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Content API, Health Checks API, and 5 more. Tagged areas include education, edtech, higher-education, digital-textbooks, and learning-analytics.
 
 
-  Kortext''s developer surface includes documentation, API reference, support, engineering blog, signup flow, getting-started guide, authentication, and 23 more developer resources.'
+  Kortext''s developer surface includes documentation, API reference, support, engineering blog, signup flow, getting-started guide, authentication, and 24 more developer resources.'
 plans:
 - name: Kortext Plans Pricing
   plan_count: 0
@@ -181,18 +206,23 @@ rate_limits:
   slug: kortext-rate-limits
 score:
   band: developing
-  composite: 47.6
-  delta: 0.0
+  composite: 44.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 30.3
-    contract_quality: 47.8
+    contract_governance: 18.2
+    contract_quality: 47.7
     developer_ergonomics: 58.9
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 47.6
+  previous_composite: 45.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -203,8 +233,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -217,17 +247,16 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: kortext
 tags:
-- Company
-- Education
-- EdTech
-- Higher Education
-- Digital Textbooks
-- Learning Analytics
-- Artificial Intelligence
-- Content Delivery
-- LTI
-- Libraries
-- Student Engagement
-- Publishing
+- education
+- edtech
+- higher-education
+- digital-textbooks
+- learning-analytics
+- artificial-intelligence
+- content-delivery
+- lti
+- libraries
+- student-engagement
+- publishing
 website: https://kortext.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: podbean-api-agentic-access
   summary_line: 8 operations · 2 acting
-api_count: 6
+api_count: 1
 apis:
 - description: This is for third-party apps to connect to Podbean in order to manage a user's podcast. To manage your own podcast via API, please use Client Credentials and Get Multiple Podcasts Tokens. Provides OAu
   name: Podbean API
@@ -86,6 +86,10 @@ collections:
   name: Podbean API
   slug: open-podbean-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/podbean-api-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -133,7 +137,7 @@ network: true
 overview: 'Podbean API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Episodes API, OAuth API, and 2 more. Tagged areas include Podcasts, Podcasting, Audio, Media, and Authentication.
 
 
-  Podbean API''s developer surface includes authentication, engineering blog, documentation, and 5 more developer resources.'
+  Podbean API''s developer surface includes authentication, engineering blog, documentation, and 6 more developer resources.'
 plans:
 - name: Podbean Api Plans Pricing
   plan_count: 3
@@ -150,15 +154,20 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: thin
-  composite: 28.6
-  delta: 0.0
+  composite: 28.0
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 48.8
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 28.6
@@ -169,8 +178,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podbean-api/refs/heads/main/screenshots/podbean-api-2026-06-20T191831.png
 security:

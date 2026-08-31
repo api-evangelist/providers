@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 180
   slug: binance-agentic-access
   summary_line: 180 operations · 64 acting
-api_count: 28
+api_count: 19
 apis:
 - description: The Binance Spot WebSocket API provides an alternative way to access spot trading functionality through persistent WebSocket connections. It is functionally equivalent to the REST API, accepting the s
   name: Binance Spot WebSocket API
@@ -510,18 +510,23 @@ rules:
   slug: binance-spectral-rules
 score:
   band: developing
-  composite: 43.2
+  composite: 41.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 64.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 65.8
+    contract_quality: 66.0
     developer_ergonomics: 50.0
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 43.2
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -535,8 +540,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 48.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/screenshots/binance-2026-06-20T173243.png
 security:

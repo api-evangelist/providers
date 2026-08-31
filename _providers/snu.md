@@ -33,25 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-26'
-api_count: 5
+  scored_at: '2026-08-30'
+api_count: 6
 apis:
-- description: 'OAI-PMH 2.0 metadata harvesting for S-Space, the SNU Open Repository and Archive. Verified live and anonymous on 2026-08-19: repositoryName "SNU Open Repository and Archive", repositoryIdentifier s-sp'
-  name: S-Space OAI-PMH Repository Interface
-  slug: s-space-oai-pmh
-- description: OAI-PMH 2.0 metadata harvesting for KOSSDA (한국사회과학자료원), the Korea Social Science Data Archive at Seoul National University — SNU's social-science research data archive, listed in re3data as r3d1000146
-  name: KOSSDA OAI-PMH Repository Interface
-  slug: kossda-oai-pmh
 - description: SNU's federated identity provider, entityID https://kafegw.snu.ac.kr/idp/simplesamlphp, registered by the Korea Access Federation (registrationAuthority http://kafe.kreonet.net, registrationInstant 20
   name: Seoul National University SAML 2.0 Identity Provider
   slug: kafe-saml-idp
-- description: OpenSearch 1.1 search over the SNU Open Repository and Archive. A description document is served at /open-search/description.xml as application/opensearchdescription+xml with LongName "SNU Open Reposi
-  name: S-Space OpenSearch Interface
-  slug: s-space-opensearch
 - description: Seoul National University Library runs library management and discovery on Ex Libris Alma and Primo, institution code 82SNU / 82SNU_INST, on the institution-specific host snu-primo.hosted.exlibrisgrou
   name: SNU Library Discovery (Ex Libris Primo / Alma) — tenancy
   slug: library-discovery-primo
-artifact_total: 15
+- description: Open Archives Initiative Protocol for Metadata Harvesting 2.0 verbs.
+  name: Seoul National University OAI PMH API
+  slug: snu-oai-pmh-api
+- description: OpenSearch 1.1 description and query endpoints.
+  name: Seoul National University Open Search API
+  slug: snu-opensearch-api
+artifact_total: 14
 common:
 - group: company
   title: ''
@@ -174,7 +171,7 @@ modified: '2026-08-19'
 name: Seoul National University
 nav: Providers
 network: true
-overview: 'Seoul National University publishes 3 APIs on the [APIs.io](https://apis.io/) network: S-Space OAI-PMH Repository Interface, KOSSDA OAI-PMH Repository Interface, and S-Space OpenSearch Interface. Tagged areas include University, Higher Education, Education, South Korea, and Research.
+overview: 'Seoul National University publishes 2 APIs on the [APIs.io](https://apis.io/) network: OAI PMH API and Open Search API. Tagged areas include University, Higher Education, Education, South Korea, and Research.
 
 
   The Seoul National University catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -209,18 +206,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.6
+  composite: 50.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 28.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 67.4
-    contract_quality: 61.5
+    contract_quality: 61.9
     developer_ergonomics: 11.9
     discoverability: 74.1
     governance: 67.4
     operational_transparency: 21.1
-  previous_composite: 50.6
+  previous_composite: 50.7
   provenance:
     conformance: first-party
     contracts:
@@ -234,8 +236,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 72.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/screenshots/snu-2026-06-20T194118.png
 security:

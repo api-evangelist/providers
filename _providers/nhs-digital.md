@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 52
   slug: nhs-digital-agentic-access
   summary_line: 52 operations · 25 acting
-api_count: 23
+api_count: 3
 apis:
 - description: Access the national NHS patient demographic database. Supports search, retrieval, and update of patient records including names, addresses, dates of birth, registered GPs, nominated pharmacies, and NH
   name: Personal Demographics Service - FHIR API
@@ -143,6 +143,10 @@ collections:
   name: and Referral Booking STU3 API
   slug: open-nhs-digital-stu3-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nhs-digital-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -227,13 +231,13 @@ modified: '2026-06-13'
 name: NHS Digital
 nav: Providers
 network: true
-overview: 'NHS Digital publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Booking API, communication API, Message API, and 5 more. Tagged areas include NHS, Health, FHIR, UK, and Patient Demographics.
+overview: 'NHS Digital publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Booking API, communication API, Message API, and 5 more. Tagged areas include NHS, Health, FHIR, UK, and patient demographics.
 
 
   The NHS Digital catalog on APIs.io includes 1 JSON-LD context.
 
 
-  NHS Digital''s developer surface includes authentication, getting-started guide, sandbox, GitHub presence, and 13 more developer resources.'
+  NHS Digital''s developer surface includes authentication, getting-started guide, sandbox, GitHub presence, and 14 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -245,18 +249,23 @@ rate_limits:
   slug: rate-limits
 score:
   band: developing
-  composite: 43.5
-  delta: 1.9
+  composite: 43.3
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 58.2
+    contract_quality: 57.1
     developer_ergonomics: 42.9
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 41.6
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -270,8 +279,8 @@ score:
     regime: Health
     regime_id: health
     score: 33.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/screenshots/nhs-digital-2026-08-07T185239.png
 security:
@@ -293,11 +302,11 @@ tags:
 - Health
 - FHIR
 - UK
-- Patient Demographics
-- Prescriptions
+- patient demographics
+- prescriptions
 - Referrals
-- Clinical Data
-- Digital Health
-- Government
+- clinical data
+- digital health
+- government
 website: https://digital.nhs.uk/developer
 ---

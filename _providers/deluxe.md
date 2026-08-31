@@ -33,22 +33,49 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 4
 apis:
-- description: 'The DPP Gateway Experience API is the core Deluxe Payments Platform contract: 37 operations across payments (sale, authorize, complete, cancel, search, batch), EMV card-present processing and device m'
-  name: Deluxe Payments Platform — Gateway Experience API
-  slug: deluxe-api
-- description: 'The DPP Reports Experience API publishes eight read operations over merchant settlement and transaction history — credit card and ACH daily settlement, credit card and ACH monthly fee statements, and '
-  name: Deluxe Payments Platform — Reports Experience API
-  slug: dpp-reports-api
-- description: The DPP Invoice Experience API publishes eleven operations for merchant invoicing — create a draft, modify invoice details, modify invoice status, retrieve, search, share, clone and download an invoic
-  name: Deluxe Payments Platform — Invoice Experience API
-  slug: dpp-invoices-api
-- description: The only OpenAPI document Deluxe publishes itself — an OpenAPI 3.0.0 definition titled "Deluxe Postman-Sandbox", served from Deluxe's own Stoplight workspace and describing the sandbox bearer token ex
-  name: Deluxe Payments Platform — Sandbox API (Deluxe-published OpenAPI)
-  slug: dpp-sandbox-api
-artifact_total: 15
+- description: The American API from Deluxe Corporation — 3 operation(s) for american.
+  name: Deluxe Corporation American API
+  slug: deluxe-american-api
+- description: The batches API from Deluxe Corporation — 1 operation(s) for batches.
+  name: Deluxe Corporation Batches API
+  slug: deluxe-batches-api
+- description: The customers API from Deluxe Corporation — 3 operation(s) for customers.
+  name: Deluxe Corporation Customers API
+  slug: deluxe-customers-api
+- description: The emv API from Deluxe Corporation — 5 operation(s) for emv.
+  name: Deluxe Corporation Emv API
+  slug: deluxe-emv-api
+- description: The events API from Deluxe Corporation — 5 operation(s) for events.
+  name: Deluxe Corporation Events API
+  slug: deluxe-events-api
+- description: The invoices API from Deluxe Corporation — 8 operation(s) for invoices.
+  name: Deluxe Corporation Invoices API
+  slug: deluxe-invoices-api
+- description: The paymentlinks API from Deluxe Corporation — 2 operation(s) for paymentlinks.
+  name: Deluxe Corporation Paymentlinks API
+  slug: deluxe-paymentlinks-api
+- description: The paymentmethods API from Deluxe Corporation — 7 operation(s) for paymentmethods.
+  name: Deluxe Corporation Paymentmethods API
+  slug: deluxe-paymentmethods-api
+- description: The payments API from Deluxe Corporation — 6 operation(s) for payments.
+  name: Deluxe Corporation Payments API
+  slug: deluxe-payments-api
+- description: The refunds API from Deluxe Corporation — 2 operation(s) for refunds.
+  name: Deluxe Corporation Refunds API
+  slug: deluxe-refunds-api
+- description: The reports API from Deluxe Corporation — 8 operation(s) for reports.
+  name: Deluxe Corporation Reports API
+  slug: deluxe-reports-api
+- description: The Secservices API from Deluxe Corporation — 1 operation(s) for secservices.
+  name: Deluxe Corporation Secservices API
+  slug: deluxe-secservices-api
+- description: The subscriptions API from Deluxe Corporation — 2 operation(s) for subscriptions.
+  name: Deluxe Corporation Subscriptions API
+  slug: deluxe-subscriptions-api
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Deluxe Webhooks
@@ -67,6 +94,22 @@ collections:
   name: Deluxe Postman-Sandbox
   slug: open-deluxe-postman-sandbox
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deluxe-dpp-gateway-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deluxe-dpp-reports-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deluxe-dpp-invoices-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deluxe-postman-sandbox-overlay.yaml
 - group: docs
   title: ''
   type: OpenAPI
@@ -208,13 +251,13 @@ modified: '2026-08-13'
 name: Deluxe Corporation
 nav: Providers
 network: true
-overview: 'Deluxe Corporation publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Deluxe Payments Platform — Gateway Experience API, Deluxe Payments Platform — Reports Experience API, Deluxe Payments Platform — Invoice Experience API, and 1 more. Tagged areas include Payments, Merchant Services, Card Processing, ACH, and Invoicing.
+overview: 'Deluxe Corporation publishes 13 APIs on the [APIs.io](https://apis.io/) network, including American API, Batches API, Customers API, and 10 more. Tagged areas include Payments, Merchant Services, Card Processing, ACH, and Invoicing.
 
 
   The Deluxe Corporation catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Deluxe Corporation''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
+  Deluxe Corporation''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 28 more developer resources.'
 plans:
 - name: Deluxe Plans Pricing
   plan_count: 0
@@ -225,19 +268,24 @@ rate_limits:
   name: Deluxe Rate Limits
   slug: deluxe-rate-limits
 score:
-  band: thin
-  composite: 26.4
+  band: emerging
+  composite: 25.2
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_governance: 16.7
-    contract_quality: 21.9
+    contract_governance: 4.5
+    contract_quality: 23.0
     developer_ergonomics: 33.9
     discoverability: 74.1
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 26.4
+  previous_composite: 25.2
   provenance:
     conformance: derived
     contracts:
@@ -253,8 +301,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deluxe/refs/heads/main/screenshots/deluxe-2026-06-20T175905.png
 security:

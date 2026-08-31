@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 26
   slug: caplight-agentic-access
   summary_line: 26 operations
-api_count: 17
+api_count: 1
 apis:
 - description: Hosted, remote MCP server that connects Claude.ai and Claude Desktop to the Caplight dataset. Caplight documents 15 tools spanning live MarketPrice quotes and price history, the secondary order book a
   name: Caplight MCP Server
@@ -265,23 +265,28 @@ modified: '2026-08-09'
 name: Caplight
 nav: Providers
 network: true
-overview: 'Caplight publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Company API, Company Details API, and 13 more. Tagged areas include Private Markets, Secondary Market, Market Data, Venture Capital, and Company Data.
+overview: 'Caplight publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Company API, Company Details API, and 13 more. Tagged areas include private-markets, secondary-market, Market Data, venture-capital, and company-data.
 
 
   Caplight''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, authentication, and 21 more developer resources.'
 random_paper: 4
 score:
   band: developing
-  composite: 43.0
-  delta: 0.0
+  composite: 39.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 54.2
     developer_ergonomics: 51.8
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 15.8
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -289,7 +294,7 @@ score:
     reasons:
     - owner: catalog
       reason: venue_as_website
-  previous_composite: 43.0
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -306,8 +311,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caplight/refs/heads/main/screenshots/caplight-2026-08-17T080811.png
 security:
@@ -321,14 +326,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: caplight
 tags:
-- Private Markets
-- Secondary Market
+- private-markets
+- secondary-market
 - Market Data
-- Venture Capital
-- Company Data
+- venture-capital
+- company-data
 - investor-data
-- Funding Rounds
-- Pricing Data
+- funding-rounds
+- pricing-data
 - Financial Data
 - Fintech
 - MCP

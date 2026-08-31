@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 70
   slug: upvest-agentic-access
   summary_line: 70 operations · 27 acting
-api_count: 35
+api_count: 1
 apis:
 - description: Transfer accounts between entities.
   name: Upvest Account Transfers API
@@ -372,6 +372,18 @@ collections:
   name: Upvest Investment Account Transfers Withdrawals API
   slug: open-upvest-withdrawals-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/upvest-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/upvestco/httpsignature-proxy/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/upvestco/httpsignature-proxy/releases
 - group: commercial
   title: ''
   type: License
@@ -1046,7 +1058,7 @@ overview: 'Upvest publishes 35 APIs on the [APIs.io](https://apis.io/) network, 
   The Upvest catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Upvest''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, signup flow, and 18 more developer resources.'
+  Upvest''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, signup flow, and 21 more developer resources.'
 plans:
 - name: Upvest Plans Pricing
   plan_count: 3
@@ -1096,18 +1108,26 @@ scopes:
   summary_line: 18 scopes · clientCredentials
 score:
   band: strong
-  composite: 58.5
-  delta: 0.0
+  composite: 57.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 28.8
     contract_quality: 85.4
     developer_ergonomics: 50.0
-    discoverability: 75.9
+    discoverability: 70.4
     governance: 28.8
-    operational_transparency: 10.5
-  previous_composite: 58.5
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1121,8 +1141,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 70.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upvest/refs/heads/main/screenshots/upvest-2026-06-20T200511.png
 security:

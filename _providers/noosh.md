@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.6
-  scored_at: '2026-08-26'
+  score: 26.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -43,13 +43,89 @@ agentic_access:
   operation_count: 107
   slug: noosh-agentic-access
   summary_line: 107 operations · 29 acting
-api_count: 1
+api_count: 2
 apis:
-- description: The Noosh API is the integration surface behind Noosh's marketing-execution platform — the API Noosh's own partners page credits for "over 60 integrations to enterprise software systems". It is publis
-  name: Noosh API
-  slug: noosh-api
-artifact_total: 6
+- description: The Contact API from Noosh — 3 operation(s) for contact.
+  name: Noosh Contact API
+  slug: noosh-contact-api
+- description: The Country API from Noosh — 1 operation(s) for country.
+  name: Noosh Country API
+  slug: noosh-country-api
+- description: The Deactivation Reason API from Noosh — 1 operation(s) for deactivation reason.
+  name: Noosh Deactivation Reason API
+  slug: noosh-deactivation-reason-api
+- description: The Estimate API from Noosh — 2 operation(s) for estimate.
+  name: Noosh Estimate API
+  slug: noosh-estimate-api
+- description: The Exchange Rate API from Noosh — 1 operation(s) for exchange rate.
+  name: Noosh Exchange Rate API
+  slug: noosh-exchange-rate-api
+- description: The File API from Noosh — 7 operation(s) for file.
+  name: Noosh File API
+  slug: noosh-file-api
+- description: The Invoice API from Noosh — 3 operation(s) for invoice.
+  name: Noosh Invoice API
+  slug: noosh-invoice-api
+- description: The My Info API from Noosh — 4 operation(s) for my info.
+  name: Noosh My Info API
+  slug: noosh-my-info-api
+- description: The Order API from Noosh — 9 operation(s) for order.
+  name: Noosh Order API
+  slug: noosh-order-api
+- description: The Project API from Noosh — 3 operation(s) for project.
+  name: Noosh Project API
+  slug: noosh-project-api
+- description: The Project Category API from Noosh — 2 operation(s) for project category.
+  name: Noosh Project Category API
+  slug: noosh-project-category-api
+- description: The Project Status API from Noosh — 2 operation(s) for project status.
+  name: Noosh Project Status API
+  slug: noosh-project-status-api
+- description: The Quote API from Noosh — 4 operation(s) for quote.
+  name: Noosh Quote API
+  slug: noosh-quote-api
+- description: The RFE API from Noosh — 2 operation(s) for rfe.
+  name: Noosh RFE API
+  slug: noosh-rfe-api
+- description: The Rfq API from Noosh — 2 operation(s) for rfq.
+  name: Noosh Rfq API
+  slug: noosh-rfq-api
+- description: The Shipment API from Noosh — 3 operation(s) for shipment.
+  name: Noosh Shipment API
+  slug: noosh-shipment-api
+- description: The Spec API from Noosh — 7 operation(s) for spec.
+  name: Noosh Spec API
+  slug: noosh-spec-api
+- description: The Spec Template API from Noosh — 2 operation(s) for spec template.
+  name: Noosh Spec Template API
+  slug: noosh-spec-template-api
+- description: The Task API from Noosh — 9 operation(s) for task.
+  name: Noosh Task API
+  slug: noosh-task-api
+- description: The Team Member API from Noosh — 4 operation(s) for team member.
+  name: Noosh Team Member API
+  slug: noosh-team-member-api
+- description: The Team Member Role API from Noosh — 1 operation(s) for team member role.
+  name: Noosh Team Member Role API
+  slug: noosh-team-member-role-api
+- description: The Time Card API from Noosh — 4 operation(s) for time card.
+  name: Noosh Time Card API
+  slug: noosh-time-card-api
+- description: The User Fields API from Noosh — 2 operation(s) for user fields.
+  name: Noosh User Fields API
+  slug: noosh-user-fields-api
+- description: The Workgroup API from Noosh — 6 operation(s) for workgroup.
+  name: Noosh Workgroup API
+  slug: noosh-workgroup-api
+- description: The Workgroup Members API from Noosh — 2 operation(s) for workgroup members.
+  name: Noosh Workgroup Members API
+  slug: noosh-workgroup-members-api
+artifact_total: 30
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/noosh-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -159,10 +235,10 @@ modified: '2026-08-13'
 name: Noosh
 nav: Providers
 network: true
-overview: 'Noosh publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Marketing Execution, Procurement, and Print.
+overview: 'Noosh publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Contact API, Country API, Deactivation Reason API, and 22 more. Tagged areas include Company, Marketing, Marketing Execution, Procurement, and Print.
 
 
-  Noosh''s developer surface includes authentication, support, engineering blog, API reference, documentation, changelog, and 19 more developer resources.'
+  Noosh''s developer surface includes authentication, support, engineering blog, API reference, documentation, changelog, and 20 more developer resources.'
 plans:
 - name: Noosh Plans Pricing
   plan_count: 0
@@ -174,18 +250,23 @@ rate_limits:
   slug: noosh-rate-limits
 score:
   band: thin
-  composite: 38.1
-  delta: 0.0
+  composite: 37.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
-    contract_quality: 48.3
+    contract_governance: 4.5
+    contract_quality: 49.9
     developer_ergonomics: 37.5
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 38.1
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -196,8 +277,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noosh/refs/heads/main/screenshots/noosh-2026-08-07T185512.png
 security:

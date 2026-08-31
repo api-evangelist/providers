@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-08-26'
-api_count: 6
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Playlists that auto-play when Bridge starts
   name: Looking Glass Autostart API
@@ -193,19 +193,24 @@ overview: 'Looking Glass publishes 6 APIs on the [APIs.io](https://apis.io/) net
   Looking Glass'' developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
 random_paper: 15
 score:
-  band: developing
-  composite: 39.8
-  delta: 0.0
+  band: thin
+  composite: 37.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 40.1
     developer_ergonomics: 49.4
-    discoverability: 72.2
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 39.8
+  previous_composite: 38.3
   provenance:
     conformance: derived
     contracts:
@@ -215,8 +220,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/looking-glass/refs/heads/main/screenshots/looking-glass-2026-07-25T225514.png
 security:

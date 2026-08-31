@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -33,10 +33,88 @@ agentic_access:
   summary_line: 80 operations · 59 acting
 api_count: 1
 apis:
-- description: The CloudKitchens Public API is a resource-oriented REST API over JSON secured with OAuth 2.0, used by integration partners — ordering channels, POS and kitchen systems, delivery networks and reportin
-  name: CloudKitchens Public API
-  slug: cloudkitchens-public-api
-artifact_total: 9
+- description: Endpoints to manage store onboarding and status
+  name: CloudKitchens Account Pairing Endpoints API
+  slug: cloudkitchens-account-pairing-endpoints-api
+- description: Webhooks to manage store onboarding and status
+  name: CloudKitchens Account Pairing Webhooks API
+  slug: cloudkitchens-account-pairing-webhooks-api
+- description: Endpoints to handle token management.
+  name: CloudKitchens Auth Endpoints API
+  slug: cloudkitchens-auth-endpoints-api
+- description: Endpoints for callback management.
+  name: CloudKitchens Callback Endpoints API
+  slug: cloudkitchens-callback-endpoints-api
+- description: Endpoints to manage delivery.
+  name: CloudKitchens Delivery Endpoints API
+  slug: cloudkitchens-delivery-endpoints-api
+- description: Webhooks from the delivery domain.
+  name: CloudKitchens Delivery Webhooks API
+  slug: cloudkitchens-delivery-webhooks-api
+- description: Endpoints to get orders directly.
+  name: CloudKitchens Direct Orders Endpoints API
+  slug: cloudkitchens-direct-orders-endpoints-api
+- description: Endpoints to handle financial data.
+  name: CloudKitchens Finance Endpoints API
+  slug: cloudkitchens-finance-endpoints-api
+- description: Endpoints to interact with product inventory.
+  name: CloudKitchens Inventory Endpoints API
+  slug: cloudkitchens-inventory-endpoints-api
+- description: Endpoints to manage loyalty.
+  name: CloudKitchens Manager Loyalty Endpoints API
+  slug: cloudkitchens-manager-loyalty-endpoints-api
+- description: Endpoints for applications managing menus related data and operations.
+  name: CloudKitchens Manager Menu Endpoints API
+  slug: cloudkitchens-manager-menu-endpoints-api
+- description: Endpoints for applications that act on the merchant/store side of an order rather than as the ordering marketplace — typically Point-of-Sale (POS) systems, Business Intelligence (BI) tools, and report
+  name: CloudKitchens Manager Order Endpoints API
+  slug: cloudkitchens-manager-order-endpoints-api
+- description: Webhooks delivered to merchant-side applications (POS, BI, and reporting integrations) so they can react to changes in an order as it progresses through its lifecycle.
+  name: CloudKitchens Manager Orders Webhooks API
+  slug: cloudkitchens-manager-orders-webhooks-api
+- description: Endpoints for applications managing storefront related data and operations.
+  name: CloudKitchens Manager Storefront Endpoints API
+  slug: cloudkitchens-manager-storefront-endpoints-api
+- description: The marketintel_endpoints API from CloudKitchens — 1 operation(s) for marketintel_endpoints.
+  name: CloudKitchens Marketintel Endpoints API
+  slug: cloudkitchens-marketintel-endpoints-api
+- description: Endpoints to manage menus.
+  name: CloudKitchens Menus Endpoints API
+  slug: cloudkitchens-menus-endpoints-api
+- description: Webhooks from menus domain.
+  name: CloudKitchens Menus Webhooks API
+  slug: cloudkitchens-menus-webhooks-api
+- description: 'Endpoints used by ordering marketplaces and other order sources to send orders to a store and keep them up to date. This domain lets an order source submit new orders as customers place them, reflect '
+  name: CloudKitchens Orders Endpoints API
+  slug: cloudkitchens-orders-endpoints-api
+- description: Webhooks from orders domains.
+  name: CloudKitchens Orders Webhooks API
+  slug: cloudkitchens-orders-webhooks-api
+- description: Endpoints to interact with with organizations/brands/stores and with integration connections.
+  name: CloudKitchens Organization Endpoints API
+  slug: cloudkitchens-organization-endpoints-api
+- description: Endpoints to ping and test system authentication.
+  name: CloudKitchens Ping Endpoints API
+  slug: cloudkitchens-ping-endpoints-api
+- description: Webhooks to ping and test the system integration.
+  name: CloudKitchens Ping Webhooks API
+  slug: cloudkitchens-ping-webhooks-api
+- description: Endpoints to reports generation operations
+  name: CloudKitchens Reports Endpoints API
+  slug: cloudkitchens-reports-endpoints-api
+- description: Webhooks from the reports generation operations
+  name: CloudKitchens Reports Webhooks API
+  slug: cloudkitchens-reports-webhooks-api
+- description: Endpoints for review operations
+  name: CloudKitchens Reviews Endpoints API
+  slug: cloudkitchens-reviews-endpoints-api
+- description: Endpoints to manage storefront state
+  name: CloudKitchens Storefront Endpoints API
+  slug: cloudkitchens-storefront-endpoints-api
+- description: Webhooks from storefront domain.
+  name: CloudKitchens Storefront Webhooks API
+  slug: cloudkitchens-storefront-webhooks-api
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Cloudkitchens Webhooks
@@ -46,6 +124,10 @@ collections:
   name: Public API
   slug: open-cloudkitchens-public-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cloudkitchens-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -179,13 +261,13 @@ modified: '2026-08-01'
 name: CloudKitchens
 nav: Providers
 network: true
-overview: 'CloudKitchens publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Restaurant, Ghost Kitchens, Food Delivery, Order Management, and Menu Management.
+overview: 'CloudKitchens publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Account Pairing Endpoints API, Account Pairing Webhooks API, Auth Endpoints API, and 24 more. Tagged areas include Restaurant, Ghost Kitchens, Food Delivery, Order Management, and Menu Management.
 
 
   The CloudKitchens catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  CloudKitchens'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
+  CloudKitchens'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 24 more developer resources.'
 random_paper: 6
 rate_limits:
 - limit_count: 3
@@ -197,19 +279,24 @@ scopes:
   slug: cloudkitchens-scopes
   summary_line: 31 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 41.4
-  delta: 0.0
+  band: thin
+  composite: 37.7
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 56.5
+    contract_governance: 4.5
+    contract_quality: 52.6
     developer_ergonomics: 39.9
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 41.4
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -220,8 +307,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudkitchens/refs/heads/main/screenshots/cloudkitchens-2026-08-07T163508.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 79
   slug: sp-global-agentic-access
   summary_line: 79 operations · 17 acting
-api_count: 9
+api_count: 5
 apis:
 - description: REST API and Model Context Protocol server exposing S&P Capital IQ Financials, Market Data, Business Relationships, Earnings Call Transcripts, Company Intelligence, M&A Transactions, and Global Securi
   name: S&P Global LLM-Ready API (kFinance)
@@ -890,18 +890,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode/refresh_token
 score:
   band: exemplar
-  composite: 69.9
-  delta: 5.3
+  composite: 67.3
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
-    contract_governance: 59.1
+    contract_governance: 47.0
     contract_quality: 70.7
     developer_ergonomics: 92.9
-    discoverability: 83.3
-    governance: 59.1
+    discoverability: 72.2
+    governance: 47.0
     operational_transparency: 36.8
-  previous_composite: 64.6
+  previous_composite: 67.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -912,9 +917,9 @@ score:
       total: 34
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/screenshots/sp-global-2026-06-20T194233.png
 security:
 - kind: authentication

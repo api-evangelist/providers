@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: echo-global-agentic-access
   summary_line: 14 operations · 7 acting
-api_count: 8
+api_count: 3
 apis:
 - description: GET and POST to shipment documents endpoints.
   name: Echo Global Logistics documents API
@@ -98,6 +98,10 @@ collections:
   name: Echo Authorizer documents token API
   slug: open-echo-global-token-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/echo-global-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -196,7 +200,7 @@ overview: 'Echo Global Logistics publishes 8 APIs on the [APIs.io](https://apis.
   The Echo Global Logistics catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Echo Global Logistics'' developer surface includes authentication, documentation, engineering blog, pricing, and 9 more developer resources.'
+  Echo Global Logistics'' developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
 plans:
 - name: Echo Global Plans Pricing
   plan_count: 3
@@ -220,6 +224,11 @@ rules:
 score:
   band: developing
   composite: 42.8
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -238,8 +247,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/screenshots/echo-global-2026-06-20T180419.png
 security:

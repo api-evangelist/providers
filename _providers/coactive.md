@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 118
   slug: coactive-agentic-access
   summary_line: 118 operations · 71 acting · 1 human-in-the-loop
-api_count: 22
+api_count: 1
 apis:
 - description: The agentic-search > agenticSearch API from Coactive — 2 operation(s) for agentic-search > agenticsearch.
   name: Coactive agentic-search > agenticSearch API
@@ -184,6 +184,10 @@ collections:
   name: API Reference agentic-search > agenticSearch video-scores > videoScores API
   slug: open-coactive-video-scores-videoscores-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/coactive-capability-edges.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -343,7 +347,7 @@ network: true
 overview: 'Coactive publishes 22 APIs on the [APIs.io](https://apis.io/) network, including agentic-search > agenticSearch API, celebrity-detection API, classification API, and 19 more. Tagged areas include Company, Artificial Intelligence, Multimodal AI, Computer-Vision, and Video Intelligence.
 
 
-  Coactive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 29 more developer resources.'
+  Coactive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 30 more developer resources.'
 plans:
 - name: Coactive Plans Pricing
   plan_count: 0
@@ -354,19 +358,24 @@ rate_limits:
   name: Coactive Rate Limits
   slug: coactive-rate-limits
 score:
-  band: developing
-  composite: 39.3
-  delta: 0.0
+  band: thin
+  composite: 37.3
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 55.1
     developer_ergonomics: 28.0
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 39.3
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -377,8 +386,8 @@ score:
       total: 22
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coactive/refs/heads/main/screenshots/coactive-2026-07-25T205821.png
 security:

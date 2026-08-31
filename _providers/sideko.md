@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 23
   slug: sideko-agentic-access
   summary_line: 23 operations · 12 acting
-api_count: 18
+api_count: 1
 apis:
 - description: The Sideko CLI is a Rust binary (current release v1.6.3, Aug 2025) that provides command-line access to the Sideko platform. Commands are organized into five resource groups — `sideko api` (create, ve
   name: Sideko CLI
@@ -295,18 +295,23 @@ rules:
   slug: sideko-rules
 score:
   band: developing
-  composite: 45.9
-  delta: 4.1
+  composite: 45.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 28.8
     contract_quality: 78.2
     developer_ergonomics: 35.7
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 41.8
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -314,8 +319,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/screenshots/sideko-2026-06-20T193853.png
 security:

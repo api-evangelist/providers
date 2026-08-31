@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-26'
-api_count: 25
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
 - description: The ANALYTICS API from Inspectorio — 2 operation(s) for analytics.
   name: Inspectorio ANALYTICS API
@@ -198,6 +198,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/inspectorio-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/inspectorio-fms-overlay.yaml
 - group: company
@@ -342,22 +346,27 @@ overview: 'Inspectorio publishes 25 APIs on the [APIs.io](https://apis.io/) netw
   The Inspectorio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Inspectorio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 25 more developer resources.'
+  Inspectorio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 26 more developer resources.'
 random_paper: 2
 score:
   band: developing
-  composite: 53.6
+  composite: 52.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 60.1
     developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 53.6
+  previous_composite: 52.2
   provenance:
     conformance: derived
     contracts:
@@ -367,8 +376,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inspectorio/refs/heads/main/screenshots/inspectorio-2026-07-25T222543.png
 security:

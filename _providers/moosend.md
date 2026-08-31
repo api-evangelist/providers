@@ -33,13 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: The Moosend REST API (v3) enables programmatic access to email marketing and automation capabilities including managing email lists, subscribers, campaigns, segments, and transactional emails. Authent
-  name: Moosend API
-  slug: moosend-api
-artifact_total: 11
+- description: The Campaigns API from Moosend — 19 operation(s) for campaigns.
+  name: Moosend Campaigns API
+  slug: moosend-campaigns-api
+- description: The Mailing Lists API from Moosend — 9 operation(s) for mailing lists.
+  name: Moosend Mailing Lists API
+  slug: moosend-mailing-lists-api
+- description: The Segments API from Moosend — 8 operation(s) for segments.
+  name: Moosend Segments API
+  slug: moosend-segments-api
+- description: The Subscribers API from Moosend — 11 operation(s) for subscribers.
+  name: Moosend Subscribers API
+  slug: moosend-subscribers-api
+artifact_total: 14
 collections:
 - collection_type: open
   name: Moosend API
@@ -133,10 +142,6 @@ common:
   title: ''
   type: FinOps
   url: finops/moosend-finops.yml
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 - group: design
   title: ''
   type: JSONLD
@@ -222,13 +227,13 @@ modified: '2026-08-13'
 name: Moosend
 nav: Providers
 network: true
-overview: 'Moosend publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Email Marketing, Marketing Automation, Campaigns, Mailing Lists, and Subscribers.
+overview: 'Moosend publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Mailing Lists API, Segments API, and 1 more. Tagged areas include Email Marketing, Marketing Automation, Campaigns, Mailing Lists, and Subscribers.
 
 
   The Moosend catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Moosend''s developer surface includes authentication, documentation, API reference, support, signup flow, engineering blog, pricing, and 32 more developer resources.'
+  Moosend''s developer surface includes authentication, documentation, API reference, support, signup flow, engineering blog, pricing, and 31 more developer resources.'
 plans:
 - name: Moosend Plans Pricing
   plan_count: 5
@@ -239,19 +244,24 @@ rate_limits:
   name: Moosend Rate Limits
   slug: moosend-rate-limits
 score:
-  band: exemplar
-  composite: 67.9
-  delta: 0.0
+  band: strong
+  composite: 65.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 60.5
     developer_ergonomics: 50.6
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 67.9
+  previous_composite: 65.9
   provenance:
     conformance: derived
     contracts:
@@ -267,8 +277,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moosend/refs/heads/main/screenshots/moosend-2026-06-20T185801.png
 security:

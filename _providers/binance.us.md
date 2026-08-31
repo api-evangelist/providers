@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: The Binance.US REST API is the primary programmatic interface to the exchange. It exposes general system and exchange information, market and trade data (recent/aggregate/historical trades, order book
@@ -189,19 +189,24 @@ rate_limits:
   name: Binance.Us Rate Limits
   slug: binance.us-rate-limits
 score:
-  band: strong
-  composite: 55.1
-  delta: 0.0
+  band: developing
+  composite: 52.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.9
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 45.2
-    developer_ergonomics: 57.1
-    discoverability: 85.2
+    developer_ergonomics: 47.6
+    discoverability: 81.5
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 55.1
+  previous_composite: 54.7
   provenance:
     conformance: first-party
   regulatory:
@@ -210,8 +215,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binance.us/refs/heads/main/screenshots/binance.us-2026-08-07T162440.png
 security:

@@ -34,14 +34,29 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: 'The termscout-data API turns a commercial agreement into structured contract intelligence. Callers upload a contract (or point at a hosted public contract URL), poll processing status, then read back '
-  name: TermScout Data API
-  slug: termscout-data-api
-artifact_total: 7
+- description: The Contract Positions API from TermScout — 1 operation(s) for contract positions.
+  name: TermScout Contract Positions API
+  slug: termscout-contract-positions-api
+- description: The Contracts API from TermScout — 9 operation(s) for contracts.
+  name: TermScout Contracts API
+  slug: termscout-contracts-api
+artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/termscout-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/termscout-data-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -107,10 +122,10 @@ modified: '2026-08-14'
 name: TermScout
 nav: Providers
 network: true
-overview: 'TermScout publishes 1 API on the [APIs.io](https://apis.io/) network: Data API. Tagged areas include Company, Legal Tech, Contract Intelligence, Contract Certification, and Contract Analysis.
+overview: 'TermScout publishes 2 APIs on the [APIs.io](https://apis.io/) network: Contract Positions API and Contracts API. Tagged areas include Company, Legal Tech, Contract Intelligence, Contract Certification, and Contract Analysis.
 
 
-  TermScout''s developer surface includes engineering blog, support, pricing, and 11 more developer resources.'
+  TermScout''s developer surface includes engineering blog, support, pricing, and 14 more developer resources.'
 plans:
 - name: Termscout Plans Pricing
   plan_count: 3
@@ -122,18 +137,23 @@ rate_limits:
   slug: termscout-rate-limits
 score:
   band: developing
-  composite: 43.9
-  delta: 2.7
+  composite: 42.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 16.7
-    contract_quality: 46.9
+    contract_governance: 4.5
+    contract_quality: 48.6
     developer_ergonomics: 20.8
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 41.2
+  previous_composite: 42.9
   provenance:
     conformance: derived
     contracts:
@@ -143,8 +163,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/termscout/refs/heads/main/screenshots/termscout-2026-08-17T082319.png
 security:

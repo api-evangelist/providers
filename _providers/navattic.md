@@ -12,7 +12,7 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: near-conformant
+    agent_card: false
     agent_skills: true
     agentic_access: false
     agentic_commerce: false
@@ -32,22 +32,26 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.7
-  scored_at: '2026-08-26'
-api_count: 2
+  score: 45.7
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The Navattic REST API allows developers to programmatically create and manage interactive product demos, retrieve analytics and engagement data, and integrate demo activity into downstream systems. Na
-  name: Navattic API
-  slug: navattic-api
 - description: Navattic's hosted, remote Model Context Protocol server — the company's primary machine-readable product surface. Agents authenticate with an OAuth 2.1 authorization-code flow (PKCE, dynamic client re
   name: Navattic MCP Server
   slug: navattic-mcp-server
+- description: The Health API from Navattic — 1 operation(s) for health.
+  name: Navattic Health API
+  slug: navattic-health-api
 artifact_total: 13
 asyncapis:
 - description: ''
   name: Navattic Webhooks
   slug: navattic-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/navattic-website-overlay.yaml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -237,13 +241,13 @@ modified: 2026-08-13
 name: Navattic
 nav: Providers
 network: true
-overview: 'Navattic publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Interactive Demos, Product Demo, Sales Enablement, Marketing, and No-Code.
+overview: 'Navattic publishes 1 API on the [APIs.io](https://apis.io/) network: Health API. Tagged areas include Interactive Demos, Product Demo, Sales Enablement, Marketing, and No-Code.
 
 
   The Navattic catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Navattic''s developer surface includes documentation, engineering blog, pricing, authentication, changelog, getting-started guide, support, and 35 more developer resources.'
+  Navattic''s developer surface includes documentation, engineering blog, pricing, authentication, changelog, getting-started guide, support, and 36 more developer resources.'
 plans:
 - name: Navattic Plans Pricing
   plan_count: 5
@@ -260,18 +264,23 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.0
+  composite: 59.3
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
-    contract_governance: 30.3
-    contract_quality: 55.1
+    contract_governance: 18.2
+    contract_quality: 57.8
     developer_ergonomics: 47.6
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 60.0
+  previous_composite: 59.3
   provenance:
     conformance: first-party
     contracts:
@@ -281,8 +290,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/screenshots/navattic-2026-06-20T190058.png
 security:

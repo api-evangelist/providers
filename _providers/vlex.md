@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: vlex-agentic-access
   summary_line: 7 operations · 6 acting
-api_count: 6
+api_count: 2
 apis:
 - description: Single sign-on authentication API for corporate vLex accounts. Generates redirect URLs using HMAC authentication for seamless user access to vLex.com from institutional portals.
   name: vLex Remote Authentication API
@@ -89,6 +89,10 @@ collections:
   name: vLex Iceberg Anonymization Search API
   slug: open-vlex-search-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/vlex/remote_auth/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -176,7 +180,7 @@ overview: 'vLex publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   The vLex catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  vLex''s developer surface includes authentication, documentation, support, engineering blog, and 9 more developer resources.'
+  vLex''s developer surface includes authentication, documentation, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Vlex Plans Pricing
   plan_count: 1
@@ -209,19 +213,27 @@ rules:
     warn: 5
   slug: vlex-rules
 score:
-  band: developing
-  composite: 39.3
-  delta: 0.0
+  band: thin
+  composite: 34.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 60.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 13.6
     contract_quality: 66.3
     developer_ergonomics: 45.2
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 39.3
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -229,8 +241,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vlex/refs/heads/main/screenshots/vlex-2026-06-20T201112.png
 security:

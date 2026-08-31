@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -33,19 +33,85 @@ agentic_access:
   summary_line: 128 operations · 54 acting
 api_count: 4
 apis:
-- description: Zai's core payments platform API. Onboard users, create and manage wallet accounts, items (transaction records), bank and card accounts, companies, fees, tokens, callbacks and batch transactions to co
-  name: Zai Assembly API
-  slug: zai-assembly-api
-- description: Create and manage Virtual Accounts and PayIDs on the New Payments Platform (NPP), letting platforms receive real-time account-to-account pay-ins to uniquely addressable virtual accounts. OpenAPI 3.0.0
-  name: Zai Virtual Accounts and PayIDs API
-  slug: zai-virtual-accounts-payid-api
-- description: Create and manage PayTo agreements (mandated real-time debits) and initiate payments against them over the New Payments Platform. OpenAPI 3.0.1, version 1.4-external, 10 documented paths, secured with
-  name: Zai PayTo API
-  slug: zai-payto-api
-- description: Asynchronous API for submitting long-running operations and retrieving their results without blocking, complementing the synchronous Assembly API. OpenAPI 3.0.0, version 1.0.0, 3 documented paths, sup
-  name: Zai Asynchronous API
-  slug: zai-async-api
-artifact_total: 18
+- description: The Addresses API from Zai — 1 operation(s) for addresses.
+  name: Zai Addresses API
+  slug: zai-addresses-api
+- description: The Authentication API from Zai — 1 operation(s) for authentication.
+  name: Zai Authentication API
+  slug: zai-authentication-api
+- description: The Bank Accounts API from Zai — 6 operation(s) for bank accounts.
+  name: Zai Bank Accounts API
+  slug: zai-bank-accounts-api
+- description: The Batch Transactions API from Zai — 2 operation(s) for batch transactions.
+  name: Zai Batch Transactions API
+  slug: zai-batch-transactions-api
+- description: The BPay Accounts API from Zai — 3 operation(s) for bpay accounts.
+  name: Zai BPay Accounts API
+  slug: zai-bpay-accounts-api
+- description: The Callbacks API from Zai — 4 operation(s) for callbacks.
+  name: Zai Callbacks API
+  slug: zai-callbacks-api
+- description: The Card Accounts API from Zai — 4 operation(s) for card accounts.
+  name: Zai Card Accounts API
+  slug: zai-card-accounts-api
+- description: The Charges API from Zai — 4 operation(s) for charges.
+  name: Zai Charges API
+  slug: zai-charges-api
+- description: The Companies API from Zai — 2 operation(s) for companies.
+  name: Zai Companies API
+  slug: zai-companies-api
+- description: The Direct Debit Authorities API from Zai — 2 operation(s) for direct debit authorities.
+  name: Zai Direct Debit Authorities API
+  slug: zai-direct-debit-authorities-api
+- description: The Disbursements API from Zai — 7 operation(s) for disbursements.
+  name: Zai Disbursements API
+  slug: zai-disbursements-api
+- description: The Fees API from Zai — 2 operation(s) for fees.
+  name: Zai Fees API
+  slug: zai-fees-api
+- description: The Item Actions API from Zai — 8 operation(s) for item actions.
+  name: Zai Item Actions API
+  slug: zai-item-actions-api
+- description: The Items API from Zai — 9 operation(s) for items.
+  name: Zai Items API
+  slug: zai-items-api
+- description: The Marketplaces API from Zai — 1 operation(s) for marketplaces.
+  name: Zai Marketplaces API
+  slug: zai-marketplaces-api
+- description: The PayIDs API from Zai — 3 operation(s) for payids.
+  name: Zai Pay I Ds API
+  slug: zai-payids-api
+- description: Agreement Management APIs
+  name: Zai PayTo Agreements API
+  slug: zai-payto-agreements-api
+- description: Payment Initiation APIs
+  name: Zai PayTo Payments API
+  slug: zai-payto-payments-api
+- description: The Requests API from Zai — 2 operation(s) for requests.
+  name: Zai Requests API
+  slug: zai-requests-api
+- description: The Sub-wallets API from Zai — 9 operation(s) for sub-wallets.
+  name: Zai Sub Wallets API
+  slug: zai-sub-wallets-api
+- description: The Token Auth API from Zai — 1 operation(s) for token auth.
+  name: Zai Token Auth API
+  slug: zai-token-auth-api
+- description: The Tools API from Zai — 1 operation(s) for tools.
+  name: Zai Tools API
+  slug: zai-tools-api
+- description: The Transactions API from Zai — 7 operation(s) for transactions.
+  name: Zai Transactions API
+  slug: zai-transactions-api
+- description: The Users API from Zai — 9 operation(s) for users.
+  name: Zai Users API
+  slug: zai-users-api
+- description: The Virtual Accounts API from Zai — 5 operation(s) for virtual accounts.
+  name: Zai Virtual Accounts API
+  slug: zai-virtual-accounts-api
+- description: The Wallet Accounts API from Zai — 6 operation(s) for wallet accounts.
+  name: Zai Wallet Accounts API
+  slug: zai-wallet-accounts-api
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Zai Webhooks
@@ -76,6 +142,26 @@ collections:
   name: Virtual Accounts and PayIDs
   slug: open-zai-virtual-accounts-payid
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zai-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zai-assembly-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zai-virtual-accounts-payid-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zai-payto-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zai-async-api-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -233,13 +319,13 @@ modified: '2026-07-24'
 name: Zai
 nav: Providers
 network: true
-overview: 'Zai publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Assembly API, Virtual Accounts and PayIDs API, PayTo API, and 1 more. Tagged areas include Payments, Australia, Payment Gateway, Payment Processing, and Marketplace Payments.
+overview: 'Zai publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Authentication API, Bank Accounts API, and 23 more. Tagged areas include Payments, Australia, Payment Gateway, Payment Processing, and Marketplace Payments.
 
 
   The Zai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Zai''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 29 more developer resources.'
+  Zai''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 34 more developer resources.'
 random_paper: 9
 scopes:
 - name: Zai Scopes
@@ -248,18 +334,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.7
+  composite: 55.2
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 30.3
-    contract_quality: 63.6
+    contract_governance: 18.2
+    contract_quality: 62.0
     developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 22.4
-  previous_composite: 58.7
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -271,8 +362,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 81.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/screenshots/zai-2026-08-17T083031.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 10
   slug: neverbounce-agentic-access
   summary_line: 10 operations · 5 acting
-api_count: 5
+api_count: 1
 apis:
 - description: RESTful JSON API for email verification. Provides single email verification (`/single/check`), bulk job verification (`/jobs/create`, `/jobs/parse`, `/jobs/start`, `/jobs/status`, `/jobs/results`, `/j
   name: NeverBounce API v4
@@ -257,18 +257,23 @@ rate_limits:
   slug: neverbounce-rate-limits
 score:
   band: strong
-  composite: 62.2
-  delta: 0.0
+  composite: 60.1
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 61.2
     developer_ergonomics: 54.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 81.6
-  previous_composite: 62.2
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,8 +284,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neverbounce/refs/heads/main/screenshots/neverbounce-2026-06-20T190221.png
 security:

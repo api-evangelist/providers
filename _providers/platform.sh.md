@@ -1,14 +1,15 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
@@ -22,19 +23,200 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-26'
-api_count: 1
+  score: 40.0
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: 'The public REST API for the Platform.sh / Upsun cloud application platform: 263 operations over 187 paths covering projects, environments, deployments, backups and restores, domains, TLS certificates,'
-  name: Platform.sh REST API
-  slug: platform.sh-rest-api
-artifact_total: 9
+- description: The Add-ons API from Platform.sh — 1 operation(s) for add-ons.
+  name: Platform.sh Add Ons API
+  slug: platform.sh-add-ons-api
+- description: The Alerts API from Platform.sh — 1 operation(s) for alerts.
+  name: Platform.sh Alerts API
+  slug: platform.sh-alerts-api
+- description: The API Tokens API from Platform.sh — 2 operation(s) for api tokens.
+  name: Platform.sh API Tokens API
+  slug: platform.sh-api-tokens-api
+- description: Upsun provides native support for autoscaling, allowing your applications to automatically adjust based on resource usage. This ensures that your apps remain responsive under load while helping you op
+  name: Platform.sh Autoscaling API
+  slug: platform.sh-autoscaling-api
+- description: The Blackfire Monitoring API from Platform.sh — 4 operation(s) for blackfire monitoring.
+  name: Platform.sh Blackfire Monitoring API
+  slug: platform.sh-blackfire-monitoring-api
+- description: The Blackfire Profiling API from Platform.sh — 6 operation(s) for blackfire profiling.
+  name: Platform.sh Blackfire Profiling API
+  slug: platform.sh-blackfire-profiling-api
+- description: User-supplied SSL/TLS certificates can be managed using these endpoints. You can now list and modify certificate provisioners using the `/projects/{projectId}/provisioners` and `/projects/{projectId}/
+  name: Platform.sh Cert Management API
+  slug: platform.sh-cert-management-api
+- description: The Connections API from Platform.sh — 2 operation(s) for connections.
+  name: Platform.sh Connections API
+  slug: platform.sh-connections-api
+- description: The Continuous Profiling API from Platform.sh — 4 operation(s) for continuous profiling.
+  name: Platform.sh Continuous Profiling API
+  slug: platform.sh-continuous-profiling-api
+- description: The Deployment API from Platform.sh — 2 operation(s) for deployment.
+  name: Platform.sh Deployment API
+  slug: platform.sh-deployment-api
+- description: 'Upsun is capable of deploying the production environments of projects in multiple topologies: both in clusters of containers, and as dedicated virtual machines. This is an internal API that can only b'
+  name: Platform.sh Deployment Target API
+  slug: platform.sh-deployment-target-api
+- description: The Diff API from Platform.sh — 1 operation(s) for diff.
+  name: Platform.sh Diff API
+  slug: platform.sh-diff-api
+- description: The Discounts API from Platform.sh — 3 operation(s) for discounts.
+  name: Platform.sh Discounts API
+  slug: platform.sh-discounts-api
+- description: These endpoints can be used to add, modify, or remove domain claims from a project. For more information on how domains function on Upsun, see the [Domains](https://docs.upsun.com/anchors/domains/cust
+  name: Platform.sh Domain Claim API
+  slug: platform.sh-domain-claim-api
+- description: These endpoints can be used to add, modify, or remove domains from a project. For more information on how domains function on Upsun, see the [Domains](https://docs.upsun.com/anchors/domains/custom/) s
+  name: Platform.sh Domain Management API
+  slug: platform.sh-domain-management-api
+- description: The Entrypoint API from Platform.sh — 1 operation(s) for entrypoint.
+  name: Platform.sh Entrypoint API
+  slug: platform.sh-entrypoint-api
+- description: The Environment Activity API from Platform.sh — 3 operation(s) for environment activity.
+  name: Platform.sh Environment Activity API
+  slug: platform.sh-environment-activity-api
+- description: On Upsun, an environment encompasses a single instance of your entire application stack, the services used by the application, the application's data storage, and the environment's backups. In general
+  name: Platform.sh Environment API
+  slug: platform.sh-environment-api
+- description: A snapshot is a complete backup of an environment, including all the persistent data from all services running in an environment and all files present in mounted volumes. These endpoints can be used t
+  name: Platform.sh Environment Backups API
+  slug: platform.sh-environment-backups-api
+- description: 'Environment Types is the way Upsun manages access. We currently have 3 environment types: * Development * Staging * Production Each environment type will contain a group of users and their accesses. W'
+  name: Platform.sh Environment Type API
+  slug: platform.sh-environment-type-api
+- description: These endpoints manipulate user-defined variables which are bound to a specific environment, as well as (optionally) the children of an environment. These variables can be made available at both build
+  name: Platform.sh Environment Variables API
+  slug: platform.sh-environment-variables-api
+- description: The Grants API from Platform.sh — 2 operation(s) for grants.
+  name: Platform.sh Grants API
+  slug: platform.sh-grants-api
+- description: The Http Traffic API from Platform.sh — 3 operation(s) for http traffic.
+  name: Platform.sh Http Traffic API
+  slug: platform.sh-http-traffic-api
+- description: These endpoints can be used to retrieve invoices from our billing system. An invoice of type "invoice" is generated automatically every month, if the customer has active projects. Invoices of type "cr
+  name: Platform.sh Invoices API
+  slug: platform.sh-invoices-api
+- description: Multi-Factor Authentication (MFA) requires the user to present two (or more) types of evidence (or factors) to prove their identity. For example, the evidence might be a password and a device-generate
+  name: Platform.sh MFA API
+  slug: platform.sh-mfa-api
+- description: 'These endpoints can be used to retrieve order information from our billing system. Here you can view information about your bill for our services, include the billed amount and a link to a PDF of the '
+  name: Platform.sh Orders API
+  slug: platform.sh-orders-api
+- description: The Organization Invitations API from Platform.sh — 2 operation(s) for organization invitations.
+  name: Platform.sh Organization Invitations API
+  slug: platform.sh-organization-invitations-api
+- description: The Organization Management API from Platform.sh — 4 operation(s) for organization management.
+  name: Platform.sh Organization Management API
+  slug: platform.sh-organization-management-api
+- description: The Organization Members API from Platform.sh — 2 operation(s) for organization members.
+  name: Platform.sh Organization Members API
+  slug: platform.sh-organization-members-api
+- description: The Organization Projects API from Platform.sh — 4 operation(s) for organization projects.
+  name: Platform.sh Organization Projects API
+  slug: platform.sh-organization-projects-api
+- description: The Organizations API from Platform.sh — 4 operation(s) for organizations.
+  name: Platform.sh Organizations API
+  slug: platform.sh-organizations-api
+- description: The PhoneNumber API from Platform.sh — 2 operation(s) for phonenumber.
+  name: Platform.sh Phone Number API
+  slug: platform.sh-phonenumber-api
+- description: The Profiles API from Platform.sh — 2 operation(s) for profiles.
+  name: Platform.sh Profiles API
+  slug: platform.sh-profiles-api
+- description: The Project Activity API from Platform.sh — 3 operation(s) for project activity.
+  name: Platform.sh Project Activity API
+  slug: platform.sh-project-activity-api
+- description: '## Project Overview On Upsun, a Project is backed by a single Git repository and encompasses your entire application stack, the services used by your application, the application''s data storage, the p'
+  name: Platform.sh Project API
+  slug: platform.sh-project-api
+- description: The Project Invitations API from Platform.sh — 2 operation(s) for project invitations.
+  name: Platform.sh Project Invitations API
+  slug: platform.sh-project-invitations-api
+- description: These endpoints can be used to retrieve and manipulate project-level settings. Only the `initialize` property can be set by end users. It is used to initialize a project from an existing Git repositor
+  name: Platform.sh Project Settings API
+  slug: platform.sh-project-settings-api
+- description: These endpoints manipulate user-defined variables which are bound to an entire project. These variables are accessible to all environments within a single project, and they can be made available at bo
+  name: Platform.sh Project Variables API
+  slug: platform.sh-project-variables-api
+- description: The Projects API from Platform.sh — 1 operation(s) for projects.
+  name: Platform.sh Projects API
+  slug: platform.sh-projects-api
+- description: These endpoints retrieve information about which plans were assigned to a particular project at which time.
+  name: Platform.sh Records API
+  slug: platform.sh-records-api
+- description: The References API from Platform.sh — 5 operation(s) for references.
+  name: Platform.sh References API
+  slug: platform.sh-references-api
+- description: The Regions API from Platform.sh — 2 operation(s) for regions.
+  name: Platform.sh Regions API
+  slug: platform.sh-regions-api
+- description: The Git repository backing projects hosted on Upsun can be accessed in a **read-only** manner through the `/projects/{projectId}/git/*` family of endpoints. With these endpoints, you can retrieve obje
+  name: Platform.sh Repository API
+  slug: platform.sh-repository-api
+- description: The Resources API from Platform.sh — 3 operation(s) for resources.
+  name: Platform.sh Resources API
+  slug: platform.sh-resources-api
+- description: These endpoints modify an environment's `routes:` section of the `.upsun/config.yaml` file. For routes to propagate to child environments, the child environments must be synchronized with their parent
+  name: Platform.sh Routing API
+  slug: platform.sh-routing-api
+- description: The Runtime Operations API from Platform.sh — 1 operation(s) for runtime operations.
+  name: Platform.sh Runtime Operations API
+  slug: platform.sh-runtime-operations-api
+- description: These endpoints interact with source code operations as defined in the `source.operations` key in a project's `.upsun/config.yaml` configuration. More information on source code operations is [availab
+  name: Platform.sh Source Operations API
+  slug: platform.sh-source-operations-api
+- description: The SSH Keys API from Platform.sh — 2 operation(s) for ssh keys.
+  name: Platform.sh SSH Keys API
+  slug: platform.sh-ssh-keys-api
+- description: Each project is represented by a subscription that holds the plan information. These endpoints can be used to go to a larger plan, add more storage, or subscribe to optional features.
+  name: Platform.sh Subscriptions API
+  slug: platform.sh-subscriptions-api
+- description: These endpoints can be used to retrieve information about support ticket priority and allow you to submit new ticket to the Upsun Support Team.
+  name: Platform.sh Support API
+  slug: platform.sh-support-api
+- description: These endpoints can be used to retrieve low-level information and interact with the core component of Upsun infrastructure. This is an internal API that can only be used by privileged users.
+  name: Platform.sh System Information API
+  slug: platform.sh-system-information-api
+- description: These endpoints can be used to manage tasks, which are one-off commands that can be run in the context of an environment. Tasks are useful for running database migrations, executing maintenance script
+  name: Platform.sh Task API
+  slug: platform.sh-task-api
+- description: The Team Access API from Platform.sh — 4 operation(s) for team access.
+  name: Platform.sh Team Access API
+  slug: platform.sh-team-access-api
+- description: The Teams API from Platform.sh — 5 operation(s) for teams.
+  name: Platform.sh Teams API
+  slug: platform.sh-teams-api
+- description: Upsun can easily integrate with many third-party services, including Git hosting services (GitHub, GitLab, and Bitbucket), health notification services (email, Slack, PagerDuty), performance analytics
+  name: Platform.sh Third-Party Integrations API
+  slug: platform.sh-third-party-integrations-api
+- description: The Tickets API from Platform.sh — 1 operation(s) for tickets.
+  name: Platform.sh Tickets API
+  slug: platform.sh-tickets-api
+- description: The User Access API from Platform.sh — 4 operation(s) for user access.
+  name: Platform.sh User Access API
+  slug: platform.sh-user-access-api
+- description: The User Profiles API from Platform.sh — 4 operation(s) for user profiles.
+  name: Platform.sh User Profiles API
+  slug: platform.sh-user-profiles-api
+- description: The Users API from Platform.sh — 9 operation(s) for users.
+  name: Platform.sh Users API
+  slug: platform.sh-users-api
+- description: These endpoints can be used to retrieve vouchers associated with a particular user as well as apply a voucher to a particular user.
+  name: Platform.sh Vouchers API
+  slug: platform.sh-vouchers-api
+artifact_total: 68
 asyncapis:
 - description: ''
   name: Platform.Sh Webhooks
   slug: platform.sh-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/platform.sh-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -212,13 +394,13 @@ modified: '2026-08-26'
 name: Platform.sh
 nav: Providers
 network: true
-overview: 'Platform.sh publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Platform as a Service, Cloud Hosting, Application Hosting, Deployment, and DevOps.
+overview: 'Platform.sh publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Add Ons API, Alerts API, API Tokens API, and 57 more. Tagged areas include Platform-as-a-Service, Cloud Hosting, Application Hosting, Deployment, and DevOps.
 
 
   The Platform.sh catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Platform.sh''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
+  Platform.sh''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
 plans:
 - name: Platform.Sh Plans Pricing
   plan_count: 0
@@ -234,17 +416,24 @@ scopes:
   slug: platform.sh-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 56.4
+  band: developing
+  composite: 53.7
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 30.3
-    contract_quality: 59.5
+    contract_governance: 18.2
+    contract_quality: 56.0
     developer_ergonomics: 73.2
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 44.7
+  previous_composite: 53.7
   provenance:
     conformance: first-party
     contracts:
@@ -254,8 +443,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Platform.Sh Authentication
@@ -271,17 +461,17 @@ security:
   summary_line: security.txt · contact published
 slug: platform.sh
 tags:
-- Platform as a Service
+- Platform-as-a-Service
 - Cloud Hosting
 - Application Hosting
 - Deployment
 - DevOps
 - Continuous Deployment
 - Containers
-- Managed Services
+- Managed Service
 - Developer Tools
 - Infrastructure
-- Multicloud
+- Multi-Cloud
 - Web Hosting
 website: https://upsun.com/
 ---

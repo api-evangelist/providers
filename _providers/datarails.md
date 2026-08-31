@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,20 +31,37 @@ agentic_access:
   operation_count: 5
   slug: datarails-agentic-access
   summary_line: 5 operations
-api_count: 2
+api_count: 1
 apis:
-- description: Hosted Model Context Protocol server that connects an AI assistant to a tenant's Datarails financial data. Exposes read-only tools for discovering data models and fields, profiling numeric and categor
-  name: Datarails FinanceOS MCP Server
-  slug: financeos-mcp
 - description: REST file-upload endpoint used to push a CSV or Excel file into a Datarails Filebox. Authenticated with HTTP Basic using a base64-encoded Datarails sync user (which must not have MFA enabled). The tar
   name: Datarails Data Gateway Service (DGS)
   slug: data-gateway-service
-artifact_total: 11
+- description: The Health API from Datarails — 1 operation(s) for health.
+  name: Datarails Health API
+  slug: datarails-health-api
+- description: The Oauth API from Datarails — 1 operation(s) for oauth.
+  name: Datarails OAUTH API
+  slug: datarails-oauth-api
+- description: The Ready API from Datarails — 1 operation(s) for ready.
+  name: Datarails Ready API
+  slug: datarails-ready-api
+- description: The .well Known API from Datarails — 2 operation(s) for .well known.
+  name: Datarails .well Known API
+  slug: datarails-well-known-api
+artifact_total: 14
 collections:
 - collection_type: open
   name: Datarails Finance OS MCP Server
   slug: open-datarails-financeos-mcp
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/datarails-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/datarails-financeos-mcp-overlay.yaml
 - group: operate
   title: ''
   type: IssueTracker
@@ -206,10 +223,10 @@ modified: '2026-08-01'
 name: Datarails
 nav: Providers
 network: true
-overview: 'Datarails publishes 1 API on the [APIs.io](https://apis.io/) network: FinanceOS MCP Server. Tagged areas include Company, FP&A, Financial Planning, Finance, and Accounting.
+overview: 'Datarails publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Health API, OAUTH API, Ready API, and 1 more. Tagged areas include Company, FP&A, Financial Planning, Finance, and Accounting.
 
 
-  Datarails'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 30 more developer resources.'
+  Datarails'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 32 more developer resources.'
 plans:
 - name: Datarails Plans
   plan_count: 3
@@ -225,26 +242,34 @@ scopes:
   slug: datarails-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 57.7
-  delta: 0.0
+  band: developing
+  composite: 53.1
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -3.7
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 30.3
-    contract_quality: 34.7
+    contract_governance: 18.2
+    contract_quality: 39.1
     developer_ergonomics: 61.9
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 55.3
-  previous_composite: 57.7
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datarails/refs/heads/main/screenshots/datarails-2026-08-07T164205.png
 security:

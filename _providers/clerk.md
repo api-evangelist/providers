@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 29
   slug: clerk-agentic-access
   summary_line: 29 operations · 19 acting · 3 human-in-the-loop
-api_count: 24
+api_count: 1
 apis:
 - description: 'Browser-facing API consumed by Clerk''s frontend SDKs and ClerkJS for sign-up, sign-in, session refresh, and user profile mutations. Endpoint is instance-specific (subdomain on clerk.accounts.dev or a '
   name: Clerk Frontend API
@@ -272,17 +272,25 @@ rules:
   slug: clerk-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 46.6
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 55.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 11.4
     contract_quality: 64.3
     developer_ergonomics: 23.8
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 11.4
     operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 65.0
   previous_composite: 45.1
   provenance:
     agentic_access: derived
@@ -291,8 +299,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk/refs/heads/main/screenshots/clerk-2026-06-20T174506.png
 security:

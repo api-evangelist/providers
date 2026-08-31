@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -31,20 +31,11 @@ agentic_access:
   operation_count: 63
   slug: starlink-agentic-access
   summary_line: 63 operations · 36 acting · 3 human-in-the-loop
-api_count: 7
+api_count: 1
 apis:
-- description: The Starlink Public API V2 manages accounts, addresses, contacts, service lines, user terminals, WiFi routers, data pools, and billing for business and enterprise Starlink accounts. The public OpenAPI
-  name: Starlink Public API V2
-  slug: starlink-public-api-v2
 - description: A low-latency JSON over HTTP streaming API for device telemetry, consumed by repeated small-batch POST requests with batchSize and maxLingerMs parameters. POST /public/v2/telemetry/stream returns comp
   name: Starlink Telemetry Stream API
   slug: starlink-telemetry-stream-api
-- description: A gated feature within the Starlink Public API V2 exposing Starlink Mobile radio access network data, usage and beam reliability timeseries, and map data, each partitioned by timestamp date and hour a
-  name: Starlink Mobile Data API
-  slug: starlink-mobile-data-api
-- description: 'A single endpoint, POST /public/v2/flights/status, for posting real-time flight events from a Starlink-equipped aircraft. It is only callable from an aviation account and requires the Aviation flight '
-  name: Starlink Aviation Flight Status API
-  slug: starlink-aviation-flight-status-api
 - description: SpaceX's officially supported local gRPC API on Starlink hardware, defined in protobuf and published verbatim on GitHub as device.proto. The SpaceX.API.Device service exposes a single Handle RPC carry
   name: Starlink Local Device API
   slug: starlink-local-device-api
@@ -54,7 +45,43 @@ apis:
 - description: 'The API behind space-safety.starlink.com, SpaceX''s free conjunction screening and maneuver coordination platform for satellite operators. Version 0.1 of the reference documents five resource groups - '
   name: Starlink Space Traffic Coordination API
   slug: starlink-space-traffic-coordination-api
-artifact_total: 16
+- description: The Account API from Starlink — 3 operation(s) for account.
+  name: Starlink Account API
+  slug: starlink-account-api
+- description: The Addresses API from Starlink — 2 operation(s) for addresses.
+  name: Starlink Addresses API
+  slug: starlink-addresses-api
+- description: The Billing API from Starlink — 3 operation(s) for billing.
+  name: Starlink Billing API
+  slug: starlink-billing-api
+- description: The Contacts API from Starlink — 2 operation(s) for contacts.
+  name: Starlink Contacts API
+  slug: starlink-contacts-api
+- description: The Data Pools API from Starlink — 3 operation(s) for data pools.
+  name: Starlink Data Pools API
+  slug: starlink-data-pools-api
+- description: The Flights API from Starlink — 1 operation(s) for flights.
+  name: Starlink Flights API
+  slug: starlink-flights-api
+- description: The Managed Accounts API from Starlink — 2 operation(s) for managed accounts.
+  name: Starlink Managed Accounts API
+  slug: starlink-managed-accounts-api
+- description: The Managed API from Starlink — 1 operation(s) for managed.
+  name: Starlink Managed API
+  slug: starlink-managed-api
+- description: The Mobile API from Starlink — 3 operation(s) for mobile.
+  name: Starlink Mobile API
+  slug: starlink-mobile-api
+- description: The Routers API from Starlink — 10 operation(s) for routers.
+  name: Starlink Routers API
+  slug: starlink-routers-api
+- description: The Service Lines API from Starlink — 13 operation(s) for service lines.
+  name: Starlink Service Lines API
+  slug: starlink-service-lines-api
+- description: The User Terminals API from Starlink — 6 operation(s) for user terminals.
+  name: Starlink User Terminals API
+  slug: starlink-user-terminals-api
+artifact_total: 25
 asyncapis:
 - description: 'Event surface for Starlink enterprise device telemetry. Starlink exposes it as a poll-based JSON-over-HTTP stream rather than a broker: the consumer makes continuous small-batch POST requests to /publ'
   name: Starlink Telemetry Stream and Device Alerts
@@ -64,6 +91,14 @@ collections:
   name: Starlink Public API
   slug: open-starlink-public-api-v2
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/starlink-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/SpaceExplorationTechnologies/enterprise-api/issues
 - group: company
   title: ''
   type: Website
@@ -269,13 +304,13 @@ modified: '2026-07-25'
 name: Starlink
 nav: Providers
 network: true
-overview: 'Starlink publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Public API V2, Telemetry Stream API, Mobile Data API, and 1 more. Tagged areas include Telecommunications, United States, Satellite, Broadband, and Non-Terrestrial Networks.
+overview: 'Starlink publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Telemetry Stream API, Account API, Addresses API, and 10 more. Tagged areas include Telecommunications, United States, Satellite, Broadband, and Non-Terrestrial Networks.
 
 
   The Starlink catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Starlink''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, sandbox, developer portal, and 41 more developer resources.'
+  Starlink''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, sandbox, developer portal, and 43 more developer resources.'
 random_paper: 11
 rate_limits:
 - limit_count: 3
@@ -288,18 +323,26 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 39.3
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
-    contract_quality: 55.0
+    contract_governance: 4.5
+    contract_quality: 54.7
     developer_ergonomics: 47.0
-    discoverability: 83.3
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 59.2
-  previous_composite: 46.3
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -316,8 +359,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 63.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/screenshots/starlink-2026-08-17T082120.png
 security:

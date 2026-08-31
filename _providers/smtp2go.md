@@ -23,19 +23,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
     mcp_server: documented
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-26'
+  score: 39.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -43,29 +43,20 @@ agentic_access:
   operation_count: 52
   slug: smtp2go-agentic-access
   summary_line: 52 operations · 52 acting
-api_count: 11
+api_count: 1
 apis:
-- description: REST API for sending transactional emails and SMS, managing sender domains, SMTP users, API keys, templates, webhooks, suppressions, and accessing delivery reports and activity statistics.
-  name: SMTP2GO Email API
-  slug: smtp2go-email-api
 - description: Email activity search
   name: SMTP2GO Activity API
   slug: smtp2go-activity-api
 - description: API key management
   name: SMTP2GO API Keys API
   slug: smtp2go-api-keys-api
-- description: Sender domain management
-  name: SMTP2GO Domains API
-  slug: smtp2go-domains-api
 - description: Send and receive SMS messages
   name: SMTP2GO SMS API
   slug: smtp2go-sms-api
 - description: SMTP user account management
   name: SMTP2GO SMTP Users API
   slug: smtp2go-smtp-users-api
-- description: Email delivery statistics and reports
-  name: SMTP2GO Stats API
-  slug: smtp2go-stats-api
 - description: Subaccount management
   name: SMTP2GO Subaccounts API
   slug: smtp2go-subaccounts-api
@@ -78,7 +69,37 @@ apis:
 - description: Webhook configuration
   name: SMTP2GO Webhooks API
   slug: smtp2go-webhooks-api
-artifact_total: 38
+- description: Manage the allowed recipients list
+  name: SMTP2GO ALLOWED RECIPIENTS API
+  slug: smtp2go-allowed-recipients-api
+- description: Manage the allowed/restricted senders list
+  name: SMTP2GO ALLOWED SENDERS API
+  slug: smtp2go-allowed-senders-api
+- description: View dedicated IP addresses on the account
+  name: SMTP2GO DEDICATED IPS API
+  slug: smtp2go-dedicated-ips-api
+- description: Search and retrieve archived email content
+  name: SMTP2GO EMAIL ARCHIVE API
+  slug: smtp2go-email-archive-api
+- description: Send standard, MIME and batch email; manage scheduled sends
+  name: SMTP2GO EMAILS API
+  slug: smtp2go-emails-api
+- description: Manage the account IP allow list for SMTP and API access
+  name: SMTP2GO IP Allow List API
+  slug: smtp2go-ip-allow-list-api
+- description: Manage IP-authenticated sending entries
+  name: SMTP2GO IP AUTH API
+  slug: smtp2go-ip-auth-api
+- description: Add, verify and manage sender domains, tracking and return-path subdomains
+  name: SMTP2GO SENDER DOMAINS API
+  slug: smtp2go-sender-domains-api
+- description: Verify individual From addresses
+  name: SMTP2GO SINGLE SENDER EMAILS API
+  slug: smtp2go-single-sender-emails-api
+- description: Delivery, bounce, spam, unsubscribe and cycle statistics
+  name: SMTP2GO STATISTICS API
+  slug: smtp2go-statistics-api
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Smtp2Go Webhooks
@@ -121,6 +142,10 @@ collections:
   name: SMTP2GO Email Activity Webhooks API
   slug: open-smtp2go-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/smtp2go-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -315,13 +340,13 @@ modified: '2026-08-13'
 name: SMTP2GO
 nav: Providers
 network: true
-overview: 'SMTP2GO publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Email API, Activity API, API Keys API, and 8 more. Tagged areas include Email, Email Delivery, Transactional Email, SMTP, and SMS.
+overview: 'SMTP2GO publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Activity API, API Keys API, SMS API, and 15 more. Tagged areas include Email, Email Delivery, Transactional Email, SMTP, and SMS.
 
 
   The SMTP2GO catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  SMTP2GO''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, support, changelog, and 32 more developer resources.'
+  SMTP2GO''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, support, changelog, and 33 more developer resources.'
 plans:
 - name: Smtp2Go Plans Pricing
   plan_count: 4
@@ -344,18 +369,23 @@ rules:
   slug: smtp2go-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 73.6
-  delta: 0.0
+  composite: 72.6
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 40.2
-    contract_quality: 71.5
+    contract_governance: 28.0
+    contract_quality: 75.5
     developer_ergonomics: 63.1
-    discoverability: 81.5
-    governance: 40.2
+    discoverability: 75.9
+    governance: 28.0
     operational_transparency: 76.3
-  previous_composite: 73.6
+  previous_composite: 73.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -372,8 +402,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smtp2go/refs/heads/main/screenshots/smtp2go-2026-06-20T194102.png
 security:

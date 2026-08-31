@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 55
   slug: brightspace-agentic-access
   summary_line: 55 operations · 18 acting
-api_count: 13
+api_count: 1
 apis:
 - description: Assignment (Dropbox) folders, submissions, and feedback.
   name: D2L Brightspace Assignments API
@@ -131,6 +131,10 @@ collections:
   name: D2L Brightspace Valence API
   slug: open-brightspace
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/brightspace-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -194,7 +198,7 @@ network: true
 overview: 'D2L Brightspace publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Calendar API, Content API, and 10 more. Tagged areas include LMS, Learning Management System, EdTech, Education, and Valence.
 
 
-  D2L Brightspace''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  D2L Brightspace''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Brightspace Plans Pricing
   plan_count: 3
@@ -211,18 +215,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.0
-  delta: 2.4
+  composite: 41.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 52.6
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 39.6
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -236,8 +245,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/screenshots/brightspace-2026-07-25T203856.png
 security:

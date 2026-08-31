@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-26'
-api_count: 90
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: Account configurations
   name: Xentral Account API
@@ -583,6 +583,10 @@ collections:
   name: Xentral Account Webhook API
   slug: open-xentral-webhook-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/xentral-capability-edges.yml
 - group: auth
   title: ''
   type: Authentication
@@ -722,7 +726,7 @@ network: true
 overview: 'Xentral publishes 90 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounting Export API, AuthPlatform API, and 87 more. Tagged areas include Company, ERP, E-Commerce, Fulfillment, and Warehousing.
 
 
-  Xentral''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
+  Xentral''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 25 more developer resources.'
 random_paper: 10
 rate_limits:
 - limit_count: 1
@@ -735,18 +739,23 @@ scopes:
   summary_line: 100 scopes
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 46.8
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 62.6
     developer_ergonomics: 52.4
-    discoverability: 66.7
-    governance: 16.7
+    discoverability: 70.4
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 47.9
+  previous_composite: 47.3
   provenance:
     conformance: derived
     contracts:
@@ -756,8 +765,8 @@ score:
       total: 90
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/screenshots/xentral-2026-08-17T083012.png
 security:

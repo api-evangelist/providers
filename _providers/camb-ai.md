@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: camb-ai-agentic-access
   summary_line: 17 operations · 8 acting
-api_count: 6
+api_count: 1
 apis:
 - description: End-to-end video and audio dubbing across languages.
   name: Camb.AI Dubbing API
@@ -149,7 +149,7 @@ modified: '2026-07-11'
 name: Camb.AI
 nav: Providers
 network: true
-overview: 'Camb.AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Dubbing API, Languages API, Text-to-Speech API, and 3 more. Tagged areas include Artificial Intelligence, Text-to-Speech, Dubbing, Translation, and Transcription.
+overview: 'Camb.AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Dubbing API, Languages API, Text-to-Speech API, and 3 more. Tagged areas include Artificial Intelligence, Text to Speech, Dubbing, Translation, and Transcription.
 
 
   The Camb.AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -179,18 +179,23 @@ rules:
   slug: camb-ai-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 34.2
-  delta: 2.4
+  composite: 33.6
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 47.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 11.4
     contract_quality: 22.3
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 11.4
     operational_transparency: 36.8
-  previous_composite: 31.8
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -198,8 +203,8 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/camb-ai/refs/heads/main/screenshots/camb-ai-2026-07-25T204253.png
 security:
@@ -214,7 +219,7 @@ security:
 slug: camb-ai
 tags:
 - Artificial Intelligence
-- Text-to-Speech
+- Text to Speech
 - Dubbing
 - Translation
 - Transcription

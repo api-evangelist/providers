@@ -11,8 +11,8 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.15.1
-last_updated: '2026-08-27'
+schema_version: 0.17.2
+last_updated: '2026-08-30'
 maintainer: kin@apievangelist.com
 
 # The public "what changed" note. The apis.io /rating/ page renders this rather than
@@ -22,44 +22,47 @@ maintainer: kin@apievangelist.com
 # checked against schema_version by test_rubric_record.py: a rubric cannot reach a
 # rebuild carrying the previous release's story.
 release_note:
-  version: 0.15.1
+  version: 0.17.2
   body: |
-    A TRACKED SIGNAL, NOT A SCORED ONE. No new dimensions, no weight changes, no change to the
-    139-point agent-readiness denominator, and no band re-cut — because nothing about any
-    provider's score moves. Scores stamped 0.15.0 remain correct under 0.15.1.
+    A RULE EXTENSION WITH NO SCORE MOVEMENT. No new dimension, no weight change, no facet
+    denominator moved and no band re-cut. Every provider's composite is identical under 0.17.2
+    to what it was under 0.17.1, and scores stamped 0.17.1 remain correct.
 
-    WHAT IS NEW is a third list in the agent-readiness layer. `dimensions` are scored.
-    `planned_dimensions` are things we cannot measure yet — each blocked on a probe, a parser, a
-    collection we do not have. `observed_signals` is neither: fully implemented, running on every
-    pass, and finding nobody. The detector works; the catalog is empty.
+    AAUTH IS NOW A RECOGNISED WELL-KNOWN SURFACE. `well_known_published` accepts a served
+    /.well-known/aauth-resource.json alongside api-catalog, security.txt and RFC 9728
+    protected-resource metadata. This moves nobody today, which is exactly why it is safe to add
+    now: measured 2026-08-30 across the 1,486 catalog hosts serving a real OAuth/OIDC discovery
+    document, ZERO serve an AAuth document. Naming it before anyone serves one is the roadmap#123
+    lesson applied in advance — the first provider to publish one is credited instead of scoring
+    as though they published nothing.
 
-    THE FIRST TWO ENTRIES ARE RFC 10008 — the HTTP QUERY method, published as a Proposed Standard
-    in June 2026. QUERY is safe and idempotent like GET but carries a request body like POST, and
-    the RFC registers `Accept-Query` as the response header through which a resource advertises
-    that it accepts QUERY and which query media types it understands. We track both: the header at
-    runtime, and the method in the contract.
+    A SCORED AAUTH DIMENSION IS PARKED, NOT ADDED. `aauth_resource_metadata` sits in the
+    agent-auth cluster with `agent_identity_declared`, under the same rule: a dimension nobody can
+    earn measures the market, not the provider.
 
-    WHY THIS SIGNAL AND NOT ANOTHER. Every other machine-readable declaration this rubric reads is
-    a document somewhere else — a spec file, a well-known linkset, an MCP manifest. `Accept-Query`
-    is served by the resource, at the resource, at request time. An agent asking whether a search
-    endpoint speaks a structured query language asks the endpoint. That is a different class of
-    discovery from anything else scored here.
+    AND A PROBE DISCIPLINE CHANGE THAT OUTLIVES AAUTH. The one apparent hit was a host echoing the
+    requested path back into the document's own required field, so a required-field test credited
+    it. Any probe for a NEW well-known path must now carry a negative control — one request to a
+    path that cannot exist — and discard the host on a 2xx. Swept across all 1,486 hosts, exactly
+    one behaves this way, so this is a guard against a future false positive rather than a repair
+    of a present one.
 
-    WHY ZERO POINTS. A dimension no provider can earn is not a measurement, it is a rescale.
-    Adding four points with zero earners divides every provider by 143 instead of 139 and moves
-    roughly 1,900 across a band cut without anyone having gotten worse at anything — the
-    `agent_card` failure of 0.5.1, where a raised denominator produced demotions that were pure
-    arithmetic. The standing rule that a denominator change ships with a band re-cut is exactly
-    what makes that trade not worth paying to distinguish nobody from nobody.
+    THAT SECOND NUMBER IS THE POINT. The rubric's own attribution block defines the `catalog` class
+    as work needing no provider action, so an unearned check there is our backlog, not their gap.
+    A low score with a high catalog_gap means WE HAVE NOT LOOKED; a low score with a low one means
+    the provider published little. The composite alone cannot tell those apart, and until now
+    nothing said which one you were reading. Measured: stripe 69.5, twilio 57.5, shopify 43.5.
 
-    THE ZERO IS THE POINT. Zero of 26,641 providers declare `Accept-Query` as of 2026-08-27. The
-    method is three months old and OpenAPI could not describe it at all until 3.2 added
-    `additionalOperations` — 3.1's Path Item Object has a fixed set of method fields with no room
-    for QUERY. Recording the zero now makes it a baseline rather than a discovery later. Each pass
-    prints the count; at 25 distinct providers — the headers catalog's own promotion line, reused
-    so both catalogs mean the same thing by "in use" — a signal graduates to a scored dimension
-    with points and a band re-cut.
+    It is never subtracted from the composite. It is there so a cohort statistic can state the
+    enrichment depth it was computed over — because only 12.8% of the catalog holds both
+    enrichment tiers, and two providers differing only in which wave reached them differ by about
+    18 composite points.
 
+    THE PUBLISHED SCORE-BLOCK SCHEMA WAS REBUILT ALONGSIDE IT. Adding `coverage` meant validating
+    the schema against real data for the first time, and it rejected roughly one published block
+    in twelve — a version number typed as a number when it parses as a string, a dimension typed
+    boolean after it became a grade, four dimensions that could not be marked inapplicable. It now
+    validates all 27,459 published blocks.
 aliases:
   # 0.13 (roadmap#71) — the Examples family. A provider publishing a separate example
   # corpus wired `Examples` in good faith and it was read by NOTHING; four spellings of
@@ -1038,7 +1041,7 @@ artifacts:
         label: Serves a .well-known surface
         facet: discoverability
         points: 6
-        rule: 'well-known/ carries an api-catalog, security.txt, or a protected-resource doc'
+        rule: 'well-known/ carries an api-catalog, security.txt, a protected-resource doc, or an AAuth resource doc'
         description: >
           The provider serves machine entrypoints at RFC 8615 well-known paths — an
           api-catalog linkset (RFC 9727), a security.txt, an OAuth protected-resource
@@ -2365,7 +2368,7 @@ bands:
     label: Exemplar
     min: 66.5
     range: 66.5+
-    share: 1.0%
+    share: 0.9%
     description: >
       Reference-quality API operations across every facet — a rich contract, published
       governance, transparent operations, and machine-readable commercial terms. The
@@ -2374,7 +2377,7 @@ bands:
     label: Strong
     min: 54.3
     range: 54.3 – 66.4
-    share: 3.8%
+    share: 4.1%
     description: >
       Solid contracts, transparent operations, and an easy start. Typically complete on
       four or five facets with one clear soft spot — most often governance or a missing
@@ -2383,7 +2386,7 @@ bands:
     label: Developing
     min: 39.3
     range: 39.3 – 54.2
-    share: 13.3%
+    share: 14.3%
     description: >
       Real signal across most facets with visible, nameable gaps. The contract exists
       but is thin on descriptions or examples, or the portal is good while governance
@@ -2392,7 +2395,7 @@ bands:
     label: Thin
     min: 26.2
     range: 26.2 – 39.2
-    share: 15.9%
+    share: 15.6%
     description: >
       Limited machine-readable signal and partial portal coverage. Usually a provider
       with documentation a human can read but little a machine or agent can consume
@@ -2411,7 +2414,7 @@ bands:
     label: Minimal
     min: 0
     range: 0 – 10.9
-    share: 41.9%
+    share: 41.0%
     description: >
       Index entry only; little beyond a description and a link. Nothing here is
       machine-readable enough for an agent to act on without a human first reading
@@ -3107,7 +3110,7 @@ agent_readiness:
       label: Agent-Native
       min: 38.7
       range: 38.7+
-      share: 1.1%
+      share: 1.3%
       description: >
         Built to be driven by agents, and the provider built it — a contract, a
         real agent surface the provider itself publishes, and the safety rails
@@ -3118,7 +3121,7 @@ agent_readiness:
       label: Agent-Ready
       min: 28.6
       range: 28.6 – 38.6
-      share: 9.6%
+      share: 10.3%
       description: >
         An agent can drive the core surface. A machine-readable contract and
         documented auth are in place, and there is real agent-facing work beyond
@@ -3134,7 +3137,7 @@ agent_readiness:
       label: Agent-Aware
       min: 5.1
       range: 5.1 – 28.5
-      share: 26.1%
+      share: 26.5%
       description: >
         Partial machine-readable surface. An agent can read some of the API but
         would hit implicit conventions a human silently absorbs — the gaps where it
@@ -3143,7 +3146,7 @@ agent_readiness:
       label: Human-Only
       min: 0
       range: 0 – 5
-      share: 63.1%
+      share: 61.9%
       description: >
         Little an agent can consume without a human first reading the site. A
         developer can integrate it; their agent cannot yet.
@@ -3378,6 +3381,44 @@ agent_readiness:
         well above zero on purpose: a documented API key is still machine-readable
         auth, and zeroing 2,209 providers would measure the market rather than them.
         Readable TODAY from the refined per-tag OpenAPIs — no probe, no new artifact.
+    - id: aauth_resource_metadata
+      label: AAuth Resource Metadata
+      signal: 'a served /.well-known/aauth-resource.json carrying `issuer` and `jwks_uri`'
+      blocked_on: adoption
+      description: >
+        draft-hardt-oauth-aauth-protocol (Dick Hardt, 20 August 2026, Standards Track,
+        expires 21 February 2027) — catalogued at /store/aauth/. Unlike
+        draft-klrc-aiagent-auth above, AAuth IS observable: it defines four
+        `/.well-known/aauth-*.json` documents, three JWT `typ` values and three HTTP
+        headers, so it passes the test this cluster applies to AP2 and x402. Only
+        `aauth-resource.json` is a PROVIDER's to serve — agent, person and access
+        belong to three other roles.
+        MEASURED 2026-08-30, AND THE ANSWER IS ZERO. Probed across the 1,486 hosts in
+        this catalog that serve a REAL OAuth/OIDC discovery document — the most
+        AAuth-adjacent cohort that exists, 1,304 providers, 513 of them serving a real
+        RFC 9728 protected-resource doc — at all four AAuth paths. 5,944 requests.
+        ZERO hosts serve an AAuth document. 269 answered 200 with something that was
+        not one.
+        PARKED, NOT DROPPED, and parked for the reason `agent_identity_declared` is: a
+        dimension nobody can earn measures the market rather than the provider, and
+        belongs in a report finding. `well_known_published` above now names
+        aauth-resource.json in its accepted set, which costs nothing today and means
+        the first provider to serve one is credited rather than silently zeroed — the
+        roadmap#123 lesson, applied before the fact instead of after.
+        RE-MEASURE BEFORE BUILDING. The probe is in the enrichment recipe's named path
+        list; the write-up is all/0-working/aauth-adoption-2026-08-30.md.
+        THE ONE APPARENT HIT WAS A CATCH-ALL, and it changed how this cluster probes.
+        data.nasdaq.com returned a validly-shaped document at all four AAuth paths —
+        and at a nonsense control path, `/.well-known/apis-io-negative-control-<rand>`,
+        which returned the identical body. Testing a required field is NOT sufficient
+        when the host echoes the requested path back into that field: `resource` was
+        populated because the catch-all filled it from the URL. THE PROBE FOR ANY NEW
+        WELL-KNOWN PATH MUST INCLUDE A NEGATIVE CONTROL — one request to a path that
+        cannot exist — and discard the host on a 2xx. A control sweep of all 1,486
+        hosts found exactly one such host, so the defect is contained and NOT systemic;
+        nasdaq-data-link's protected_resource_metadata credit stands, because that
+        document is genuine and at its correct path. What is not creditable is anything
+        NEW probed against that host.
     - id: agent_identity_declared
       label: Workload Identity for Callers
       signal: 'WIMSE/SPIFFE identifiers, WIT/SVID credentials, or Workload-Proof-Token accepted at the API surface'

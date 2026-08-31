@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 64
   slug: gitbook-agentic-access
   summary_line: 64 operations · 32 acting
-api_count: 19
+api_count: 1
 apis:
 - description: Manage content within a change request.
   name: GitBook Change Request Content API
@@ -283,18 +283,23 @@ rules:
   slug: gitbook-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.4
-  delta: 1.9
+  composite: 37.9
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 13.6
     contract_quality: 75.7
     developer_ergonomics: 23.8
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 36.5
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -302,8 +307,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/screenshots/gitbook-2026-06-20T181833.png
 security:

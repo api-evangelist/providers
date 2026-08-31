@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 8
 apis:
 - description: The Content API is Prismic's primary read surface. It queries published documents from a repository with a bracketed filter language (`q`), orderings, locale selection, link expansion (`fetchLinks`) a
@@ -262,7 +262,12 @@ rate_limits:
   slug: prismic-rate-limits
 score:
   band: exemplar
-  composite: 70.3
+  composite: 69.2
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 84.2
@@ -270,16 +275,16 @@ score:
     contract_governance: 18.2
     contract_quality: 48.9
     developer_ergonomics: 90.5
-    discoverability: 100.0
+    discoverability: 88.9
     governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 70.3
+  previous_composite: 69.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/screenshots/prismic-2026-06-20T192117.png
 security:

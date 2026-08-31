@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 22
   slug: cognee-agentic-access
   summary_line: 22 operations · 10 acting
-api_count: 7
+api_count: 1
 apis:
 - description: AI agent identity management
   name: Cognee agents API
@@ -188,10 +188,6 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/cognee-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: '2026-06-12'
 description: Cognee is an open-source AI memory and knowledge graph platform that enables developers to build persistent, structured memory for AI agents and LLM applications. The platform provides a REST API and Python/TypeScript SDKs for ingesting documents and data from 28+ sources, processing them through a six-stage ECL (Extract, Cognify, Load) pipeline, and storing the resulting entities and relationships in a hybrid graph-vector-relational store. Developers can query the knowledge graph using 13+ search modes including semantic graph completion, RAG completion, and temporal search. Cognee is available as a managed cloud service on AWS, GCP, and Azure, or as a self-hosted deployment via Docker, Modal, Railway, Fly.io, and Render.
 examples:
@@ -226,7 +222,7 @@ overview: 'Cognee publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
   The Cognee catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cognee''s developer surface includes authentication, documentation, engineering blog, pricing, and 21 more developer resources.'
+  Cognee''s developer surface includes authentication, documentation, engineering blog, pricing, and 20 more developer resources.'
 plans:
 - name: Cognee Plans Pricing
   plan_count: 4
@@ -249,17 +245,25 @@ rules:
   slug: cognee-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 52.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 38.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 4.7
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 59.7
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 100.0
   previous_composite: 47.9
   provenance:
     agentic_access: derived
@@ -268,8 +272,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognee/refs/heads/main/screenshots/cognee-2026-06-20T174711.png
 security:

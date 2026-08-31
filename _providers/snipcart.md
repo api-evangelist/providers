@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 30
   slug: snipcart-agentic-access
   summary_line: 30 operations · 12 acting
-api_count: 9
+api_count: 1
 apis:
 - description: View and track abandoned shopping carts
   name: Snipcart AbandonedCarts API
@@ -215,15 +215,20 @@ rate_limits:
   slug: snipcart-rate-limits
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 46.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 42.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 15.2
     contract_quality: 63.0
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 15.2
     operational_transparency: 63.2
   previous_composite: 47.1
@@ -240,8 +245,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snipcart/refs/heads/main/screenshots/snipcart-2026-06-20T194105.png
 security:
@@ -262,6 +267,6 @@ tags:
 - Payments
 - Webhook
 - Headless Commerce
-- JAMstack
+- Jamstack
 website: https://snipcart.com
 ---

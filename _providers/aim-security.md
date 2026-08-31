@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/cato-networks/
 created: '2026-07-17'
 description: Aim Security was an Israeli cybersecurity company (founded 2022) that built a security platform for enterprise adoption of generative AI and large language models — covering GenAI/LLM data-loss prevention, prompt-injection and jailbreak defense, shadow-AI discovery, and governance guardrails for employee use of AI applications. The company was acquired by Cato Networks and its standalone site (aim.security) now permanently redirects to catonetworks.com; its technology has been folded into the Cato SASE Cloud platform. As of this enrichment pass Aim Security exposes no independent public developer API, documentation portal, SDKs, or MCP server of its own.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aim-security.png
@@ -48,6 +53,11 @@ random_paper: 5
 score:
   band: minimal
   composite: 5.0
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -67,8 +77,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: aim-security
 tags:

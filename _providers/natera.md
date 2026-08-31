@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 2
   slug: natera-agentic-access
   summary_line: 2 operations · 1 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Connect once to the Epic Aura (Order and Results Anywhere) hub for secure, HIPAA-compliant bidirectional order and results integration, transmitting order documentation (progress notes, pathology repo
   name: Natera Epic Aura Hub Integration
@@ -79,6 +79,10 @@ collections:
   name: Natera
   slug: open-natera
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/natera-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -126,7 +130,7 @@ network: true
 overview: 'Natera publishes 2 APIs on the [APIs.io](https://apis.io/) network: Orders API and Results API. Tagged areas include Genetic Testing, Healthcare, Diagnostics, EHR Integration, and HL7.
 
 
-  Natera''s developer surface includes documentation and 7 more developer resources.'
+  Natera''s developer surface includes documentation and 8 more developer resources.'
 plans:
 - name: Natera Plans Pricing
   plan_count: 2
@@ -138,15 +142,20 @@ rate_limits:
   slug: natera-rate-limits
 score:
   band: thin
-  composite: 27.3
-  delta: 0.0
+  composite: 26.7
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 48.3
     developer_ergonomics: 9.5
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 27.3
@@ -163,8 +172,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natera/refs/heads/main/screenshots/natera-2026-06-20T185957.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 14
   slug: valgo-agentic-access
   summary_line: 14 operations · 9 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The Compute API from Valgo — 1 operation(s) for compute.
   name: Valgo Compute API
@@ -208,18 +208,23 @@ overview: 'Valgo publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 12
 score:
   band: developing
-  composite: 44.3
-  delta: 7.1
+  composite: 43.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 46.7
     developer_ergonomics: 61.9
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 37.2
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,9 +241,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Valgo Authentication

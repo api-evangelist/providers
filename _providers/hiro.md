@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 154
   slug: hiro-agentic-access
   summary_line: 154 operations · 14 acting
-api_count: 26
+api_count: 4
 apis:
 - description: REST API for Chainhook predicate registration and event streaming for Bitcoin and Stacks.
   name: Hiro Chainhooks API
@@ -267,18 +267,23 @@ rate_limits:
   slug: hiro-rate-limits
 score:
   band: thin
-  composite: 29.6
-  delta: 1.9
+  composite: 29.7
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 53.1
+    contract_quality: 53.4
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 27.7
+  previous_composite: 29.7
   provenance:
     agentic_access: derived
     contracts:
@@ -286,8 +291,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hiro/refs/heads/main/screenshots/hiro-2026-06-20T182757.png
 security:

@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 0
@@ -32,17 +32,8 @@ agentic_access:
   operation_count: 215
   slug: happyrobot-agentic-access
   summary_line: 215 operations · 104 acting
-api_count: 6
+api_count: 2
 apis:
-- description: The current Happyrobot Public API (v2) — 205 operations over 162 paths, described by a live OpenAPI 3.0.3 document served from the API host at /api/v2/docs/json. Covers workflows, workflow folders and
-  name: Happyrobot Public API
-  slug: happyrobot-public-api
-- description: The legacy v1 read API, described by an OpenAPI 3.0.2 document at /api/v1/openapi.json. Ten read-only operations covering runs, run recordings, use cases, workflow versions, issues and organization us
-  name: Happyrobot Platform API v1
-  slug: happyrobot-platform-api-v1
-- description: 'EU data-residency mirror of the Happyrobot Public API, serving an identical OpenAPI 3.0.3 document with its own OAuth authorization server and its own MCP hosts. Selected in the SDKs and MCP packages '
-  name: Happyrobot Public API (EU cluster)
-  slug: happyrobot-public-api-eu-cluster
 - description: Happyrobot's first-party remote MCP server for building and governing workflows — 26 published tools plus 5 MCP prompts, served over Streamable HTTP and protected by OAuth 2.0 (scope mcp:full, RFC 972
   name: Happyrobot Workflows MCP Server
   slug: happyrobot-workflows-mcp-server
@@ -52,7 +43,106 @@ apis:
 - description: A hosted documentation-search MCP server on the docs host, discovered via RFC 9728 protected-resource metadata at https://docs.happyrobot.ai/.well-known/oauth-protected-resource. It advertises a singl
   name: Happyrobot Docs MCP Server
   slug: happyrobot-docs-mcp-server
-artifact_total: 18
+- description: The Adversarial Suites API from Happyrobot — 8 operation(s) for adversarial suites.
+  name: Happyrobot Adversarial Suites API
+  slug: happyrobot-adversarial-suites-api
+- description: The Adversarial Tests API from Happyrobot — 8 operation(s) for adversarial tests.
+  name: Happyrobot Adversarial Tests API
+  slug: happyrobot-adversarial-tests-api
+- description: The API Keys API from Happyrobot — 1 operation(s) for api keys.
+  name: Happyrobot API Keys API
+  slug: happyrobot-api-keys-api
+- description: The Apps API from Happyrobot — 1 operation(s) for apps.
+  name: Happyrobot Apps API
+  slug: happyrobot-apps-api
+- description: The Artifacts API from Happyrobot — 1 operation(s) for artifacts.
+  name: Happyrobot Artifacts API
+  slug: happyrobot-artifacts-api
+- description: The Audits API from Happyrobot — 8 operation(s) for audits.
+  name: Happyrobot Audits API
+  slug: happyrobot-audits-api
+- description: The Billing API from Happyrobot — 4 operation(s) for billing.
+  name: Happyrobot Billing API
+  slug: happyrobot-billing-api
+- description: The Chat API from Happyrobot — 7 operation(s) for chat.
+  name: Happyrobot Chat API
+  slug: happyrobot-chat-api
+- description: The Contacts API from Happyrobot — 5 operation(s) for contacts.
+  name: Happyrobot Contacts API
+  slug: happyrobot-contacts-api
+- description: The Custom Evals API from Happyrobot — 8 operation(s) for custom evals.
+  name: Happyrobot Custom Evals API
+  slug: happyrobot-custom-evals-api
+- description: The Events API from Happyrobot — 1 operation(s) for events.
+  name: Happyrobot Events API
+  slug: happyrobot-events-api
+- description: The Integration Resources API from Happyrobot — 15 operation(s) for integration resources.
+  name: Happyrobot Integration Resources API
+  slug: happyrobot-integration-resources-api
+- description: The Integrations API from Happyrobot — 4 operation(s) for integrations.
+  name: Happyrobot Integrations API
+  slug: happyrobot-integrations-api
+- description: The Issues API from Happyrobot — 3 operation(s) for issues.
+  name: Happyrobot Issues API
+  slug: happyrobot-issues-api
+- description: The Knowledge Bases API from Happyrobot — 6 operation(s) for knowledge bases.
+  name: Happyrobot Knowledge Bases API
+  slug: happyrobot-knowledge-bases-api
+- description: The MCP Servers API from Happyrobot — 3 operation(s) for mcp servers.
+  name: Happyrobot MCP Servers API
+  slug: happyrobot-mcp-servers-api
+- description: The Messages API from Happyrobot — 1 operation(s) for messages.
+  name: Happyrobot Messages API
+  slug: happyrobot-messages-api
+- description: The Northstars API from Happyrobot — 9 operation(s) for northstars.
+  name: Happyrobot Northstars API
+  slug: happyrobot-northstars-api
+- description: The Organization API from Happyrobot — 2 operation(s) for organization.
+  name: Happyrobot Organization API
+  slug: happyrobot-organization-api
+- description: The Phone Numbers API from Happyrobot — 10 operation(s) for phone numbers.
+  name: Happyrobot Phone Numbers API
+  slug: happyrobot-phone-numbers-api
+- description: The Realtime API from Happyrobot — 1 operation(s) for realtime.
+  name: Happyrobot Realtime API
+  slug: happyrobot-realtime-api
+- description: The Runs API from Happyrobot — 12 operation(s) for runs.
+  name: Happyrobot Runs API
+  slug: happyrobot-runs-api
+- description: The Sessions API from Happyrobot — 4 operation(s) for sessions.
+  name: Happyrobot Sessions API
+  slug: happyrobot-sessions-api
+- description: The Signals API from Happyrobot — 4 operation(s) for signals.
+  name: Happyrobot Signals API
+  slug: happyrobot-signals-api
+- description: The SIP Trunks API from Happyrobot — 4 operation(s) for sip trunks.
+  name: Happyrobot SIP Trunks API
+  slug: happyrobot-sip-trunks-api
+- description: The Twin API from Happyrobot — 6 operation(s) for twin.
+  name: Happyrobot Twin API
+  slug: happyrobot-twin-api
+- description: The Use Cases API from Happyrobot — 1 operation(s) for use cases.
+  name: Happyrobot Use Cases API
+  slug: happyrobot-use-cases-api
+- description: The UseCases API from Happyrobot — 2 operation(s) for usecases.
+  name: Happyrobot Use Cases API
+  slug: happyrobot-usecases-api
+- description: The Versions API from Happyrobot — 16 operation(s) for versions.
+  name: Happyrobot Versions API
+  slug: happyrobot-versions-api
+- description: The Voice API from Happyrobot — 1 operation(s) for voice.
+  name: Happyrobot Voice API
+  slug: happyrobot-voice-api
+- description: The Workflow Folders API from Happyrobot — 2 operation(s) for workflow folders.
+  name: Happyrobot Workflow Folders API
+  slug: happyrobot-workflow-folders-api
+- description: The Workflow Variables API from Happyrobot — 2 operation(s) for workflow variables.
+  name: Happyrobot Workflow Variables API
+  slug: happyrobot-workflow-variables-api
+- description: The Workflows API from Happyrobot — 10 operation(s) for workflows.
+  name: Happyrobot Workflows API
+  slug: happyrobot-workflows-api
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Happyrobot Events
@@ -65,6 +155,10 @@ collections:
   name: Happyrobot Public API
   slug: open-happyrobot-public-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/happyrobot-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -252,13 +346,13 @@ modified: '2026-08-01'
 name: Happyrobot
 nav: Providers
 network: true
-overview: 'Happyrobot publishes 3 APIs on the [APIs.io](https://apis.io/) network: Public API, Platform API v1, and Public API (EU cluster). Tagged areas include AI Agents, Agent Orchestration, Voice AI, Conversational AI, and Logistics.
+overview: 'Happyrobot publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Adversarial Suites API, Adversarial Tests API, API Keys API, and 30 more. Tagged areas include AI Agents, agent-orchestration, voice-ai, conversational-ai, and Logistics.
 
 
   The Happyrobot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Happyrobot''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 35 more developer resources.'
+  Happyrobot''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 36 more developer resources.'
 random_paper: 4
 scopes:
 - name: Happyrobot Scopes
@@ -267,25 +361,30 @@ scopes:
   summary_line: 8 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 39.4
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 91.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.4
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
-    contract_governance: 30.3
-    contract_quality: 52.5
+    contract_governance: 18.2
+    contract_quality: 55.3
     developer_ergonomics: 35.1
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 51.9
+    governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 43.5
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/happyrobot/refs/heads/main/screenshots/happyrobot-2026-08-07T165946.png
 security:
@@ -308,18 +407,18 @@ security:
 slug: happyrobot
 tags:
 - AI Agents
-- Agent Orchestration
-- Voice AI
-- Conversational AI
+- agent-orchestration
+- voice-ai
+- conversational-ai
 - Logistics
-- Freight
+- freight
 - Supply Chain
-- Workflow-Automation
-- Contact Center
-- Telephony
+- workflow-automation
+- contact-center
+- telephony
 - MCP
 - agent-native
-- Agent Governance
-- Enterprise Automation
+- agent-governance
+- enterprise-automation
 website: https://www.happyrobot.ai/
 ---

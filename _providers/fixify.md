@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 3
 common:
@@ -100,7 +100,7 @@ modified: '2026-07-19'
 name: Fixify
 nav: Providers
 network: true
-overview: 'Fixify is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, ITSM, Help Desk, and IT Automation.
+overview: 'Fixify is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, IT Service Management, Help Desk, and IT Automation.
 
 
   Fixify''s developer surface includes pricing, engineering blog, and 12 more developer resources.'
@@ -108,6 +108,11 @@ random_paper: 4
 score:
   band: emerging
   composite: 21.9
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 53.9
@@ -121,8 +126,8 @@ score:
   previous_composite: 21.9
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fixify/refs/heads/main/screenshots/fixify-2026-07-25T214654.png
 security:
@@ -142,10 +147,11 @@ slug: fixify
 tags:
 - Company
 - Infrastructure
-- ITSM
+- IT Service Management
 - Help Desk
 - IT Automation
 - Artificial Intelligence
+- ITSM
 - Support
 - Software-as-a-Service
 website: https://www.fixify.com/

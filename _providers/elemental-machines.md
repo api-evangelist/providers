@@ -23,21 +23,62 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 14
 apis:
-- description: Public REST API for the Elemental Machines LabOps platform. Read machines (sensor-connected assets), their time-series samples and computed sample statistics, aggregated/hourly/status utilization roll
-  name: Elemental Machines API
-  slug: elemental-machines-api
 - description: A remote Model Context Protocol server served from the elementalmachines.com WordPress host via the WordPress MCP Adapter, advertised by /.well-known/oauth-protected-resource and /.well-known/oauth-au
   name: Elemental Machines Website MCP Server
   slug: elemental-machines-website-mcp-server
-artifact_total: 10
+- description: The Alert Logs API from Elemental Machines — 1 operation(s) for alert logs.
+  name: Elemental Machines Alert Logs API
+  slug: elemental-machines-alert-logs-api
+- description: The Alert Rules API from Elemental Machines — 1 operation(s) for alert rules.
+  name: Elemental Machines Alert Rules API
+  slug: elemental-machines-alert-rules-api
+- description: The Authentication API from Elemental Machines — 1 operation(s) for authentication.
+  name: Elemental Machines Authentication API
+  slug: elemental-machines-authentication-api
+- description: The Groups API from Elemental Machines — 2 operation(s) for groups.
+  name: Elemental Machines Groups API
+  slug: elemental-machines-groups-api
+- description: The Machines API from Elemental Machines — 2 operation(s) for machines.
+  name: Elemental Machines Machines API
+  slug: elemental-machines-machines-api
+- description: The Machines Sample Stats API from Elemental Machines — 1 operation(s) for machines sample stats.
+  name: Elemental Machines Machines Sample Stats API
+  slug: elemental-machines-machines-sample-stats-api
+- description: The Machines Samples API from Elemental Machines — 1 operation(s) for machines samples.
+  name: Elemental Machines Machines Samples API
+  slug: elemental-machines-machines-samples-api
+- description: The Machines Usage API from Elemental Machines — 3 operation(s) for machines usage.
+  name: Elemental Machines Machines Usage API
+  slug: elemental-machines-machines-usage-api
+- description: The Release Notes API from Elemental Machines — 1 operation(s) for release notes.
+  name: Elemental Machines Release Notes API
+  slug: elemental-machines-release-notes-api
+- description: The Status API from Elemental Machines — 1 operation(s) for status.
+  name: Elemental Machines Status API
+  slug: elemental-machines-status-api
+- description: The User Activities API from Elemental Machines — 1 operation(s) for user activities.
+  name: Elemental Machines User Activities API
+  slug: elemental-machines-user-activities-api
+- description: The Users API from Elemental Machines — 2 operation(s) for users.
+  name: Elemental Machines Users API
+  slug: elemental-machines-users-api
+artifact_total: 21
 collections:
 - collection_type: open
   name: Elemental Machines API
   slug: open-elemental-machines-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/elemental-machines-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/elemental-machines-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -154,10 +195,10 @@ modified: '2026-08-12'
 name: Elemental Machines
 nav: Providers
 network: true
-overview: 'Elemental Machines publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include lab-operations, laboratory-monitoring, IoT, Sensors, and Life Sciences.
+overview: 'Elemental Machines publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Alert Logs API, Alert Rules API, Authentication API, and 9 more. Tagged areas include lab-operations, laboratory-monitoring, iot, sensors, and life-sciences.
 
 
-  Elemental Machines'' developer surface includes documentation, API reference, support, engineering blog, signup flow, changelog, authentication, and 18 more developer resources.'
+  Elemental Machines'' developer surface includes documentation, API reference, support, engineering blog, signup flow, changelog, authentication, and 20 more developer resources.'
 plans:
 - name: Elemental Machines Plans Pricing
   plan_count: 0
@@ -174,18 +215,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.1
+  composite: 50.2
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
-    contract_quality: 45.6
+    contract_governance: 18.2
+    contract_quality: 45.7
     developer_ergonomics: 47.0
-    discoverability: 68.5
-    governance: 30.3
+    discoverability: 74.1
+    governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 51.1
+  previous_composite: 50.2
   provenance:
     conformance: first-party
     contracts:
@@ -201,8 +247,8 @@ score:
     regime: Health
     regime_id: health
     score: 65.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elemental-machines/refs/heads/main/screenshots/elemental-machines-2026-08-17T080912.png
 security:
@@ -218,17 +264,17 @@ slug: elemental-machines
 tags:
 - lab-operations
 - laboratory-monitoring
-- IoT
-- Sensors
-- Life Sciences
-- Cold Chain
-- Environmental Monitoring
+- iot
+- sensors
+- life-sciences
+- cold-chain
+- environmental-monitoring
 - equipment-utilization
-- Asset Management
+- asset-management
 - Alerting
 - Compliance
-- GxP
+- gxp
 - Manufacturing
-- Time Series
+- time-series
 website: https://elementalmachines.com/
 ---

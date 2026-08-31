@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 17
   slug: monero-agentic-access
   summary_line: 17 operations · 17 acting · 1 human-in-the-loop
-api_count: 8
+api_count: 2
 apis:
 - description: Blockchain data and block operations
   name: Monero Blockchain API
@@ -235,17 +235,25 @@ rules:
   slug: monero-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 34.7
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 53.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.9
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 50.3
     developer_ergonomics: 26.2
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 21.1
+  open_source:
+    applies: true
+    score: 50.0
   previous_composite: 33.8
   provenance:
     agentic_access: derived
@@ -260,8 +268,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/screenshots/monero-2026-06-20T185722.png
 security:

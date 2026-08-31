@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 25
   slug: restate-agentic-access
   summary_line: 25 operations · 12 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: Cluster health
   name: Restate cluster_health API
@@ -106,6 +106,14 @@ collections:
   name: Admin cluster_health version API
   slug: open-restate-version-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/restatedev/restate/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/restatedev/restate/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -228,7 +236,7 @@ overview: 'Restate publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
   The Restate catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Restate''s developer surface includes documentation, code examples, engineering blog, and 14 more developer resources.'
+  Restate''s developer surface includes documentation, code examples, engineering blog, and 16 more developer resources.'
 plans:
 - name: Restate Plans Pricing
   plan_count: 3
@@ -263,17 +271,25 @@ rules:
 score:
   band: thin
   composite: 38.7
-  delta: 1.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 28.8
     contract_quality: 61.2
     developer_ergonomics: 33.3
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
-    operational_transparency: 10.5
-  previous_composite: 36.9
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -281,8 +297,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/screenshots/restate-2026-06-20T193014.png
 security:

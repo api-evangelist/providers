@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 178
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 337
   slug: pagerduty-agentic-access
   summary_line: 337 operations · 178 acting · 2 human-in-the-loop
-api_count: 38
+api_count: 1
 apis:
 - description: The PagerDuty Events API is a system for triggering, acknowledging, and resolving alerts from monitoring tools and other data sources.
   name: PagerDuty Events API
@@ -390,6 +390,10 @@ collections:
   name: PagerDuty Abilities Webhooks API
   slug: open-pagerduty-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pagerduty-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -516,7 +520,7 @@ overview: 'PagerDuty publishes 38 APIs on the [APIs.io](https://apis.io/) networ
   The PagerDuty catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  PagerDuty''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, engineering blog, support, and 14 more developer resources.'
+  PagerDuty''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, engineering blog, support, and 15 more developer resources.'
 plans:
 - name: Pagerduty Plans Pricing
   plan_count: 4
@@ -540,18 +544,23 @@ rules:
   slug: pagerduty-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 38.7
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 11.4
     contract_quality: 73.3
     developer_ergonomics: 19.0
-    discoverability: 50.0
+    discoverability: 51.9
     governance: 11.4
     operational_transparency: 10.5
-  previous_composite: 38.5
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     contracts:
@@ -559,8 +568,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagerduty/refs/heads/main/screenshots/pagerduty-2026-06-20T191325.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Read-only API for querying OpenStreetMap data. Supports retrieval of nodes, ways, relations, and areas using the Overpass Query Language (QL) or XML syntax, with output in JSON, XML, CSV, or custom fo
@@ -41,6 +41,14 @@ apis:
   slug: overpass-api
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/drolbr/Overpass-API/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/drolbr/Overpass-API/releases
 - group: auth
   title: ''
   type: DomainSecurity
@@ -103,7 +111,7 @@ overview: 'Overpass API publishes 1 API on the [APIs.io](https://apis.io/) netwo
   The Overpass API catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Overpass API''s developer surface includes documentation and 9 more developer resources.'
+  Overpass API''s developer surface includes documentation and 11 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -115,7 +123,12 @@ rate_limits:
   slug: rate-limits
 score:
   band: emerging
-  composite: 21.8
+  composite: 24.0
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 50.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -125,16 +138,19 @@ score:
     developer_ergonomics: 9.5
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 44.7
-  previous_composite: 21.8
+    operational_transparency: 60.5
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 24.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overpass-api/refs/heads/main/screenshots/overpass-api-2026-06-20T191236.png
 security:

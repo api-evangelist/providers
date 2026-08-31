@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-26'
-api_count: 11
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Endpoints related to Develocity authentication and authorization. The permissions required for these endpoints vary. Consult the endpoint descriptions.
   name: Gradle Auth API
@@ -48,15 +48,9 @@ apis:
 - description: Endpoints for comparing two builds to identify differences in work unit inputs, dependencies, and other dimensions. To access these endpoints the user requires the `Access build data via the API` perm
   name: Gradle Comparison API
   slug: gradle-comparison-api
-- description: All endpoints of the Develocity API.
-  name: Gradle Develocity API
-  slug: gradle-develocity-api
 - description: 'Endpoints related to retrieving details about failures of builds from the Develocity instance. To access these endpoints the user requires the `Access build data via the API` permission. **<mark>Beta:'
   name: Gradle Failures API
   slug: gradle-failures-api
-- description: '**This tag is deprecated, use `Develocity` instead**. All endpoints of the Develocity API.'
-  name: Gradle GradleEnterprise API
-  slug: gradle-gradleenterprise-api
 - description: Endpoints related to the Develocity installation and its state.
   name: Gradle Meta API
   slug: gradle-meta-api
@@ -69,7 +63,7 @@ apis:
 - description: Endpoints related to retrieving details of tests of the Develocity instance. To access these endpoints the user requires the `Access build data via the API` permission. The Develocity installation als
   name: Gradle Tests API
   slug: gradle-tests-api
-artifact_total: 28
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -256,25 +250,30 @@ modified: '2026-07-19'
 name: Gradle
 nav: Providers
 network: true
-overview: 'Gradle publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Auth API, BuildCache API, Builds API, and 8 more. Tagged areas include Company, Developer Tools, Build Automation, Developer Productivity, and CI/CD.
+overview: 'Gradle publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Auth API, BuildCache API, Builds API, and 6 more. Tagged areas include Company, Developer Tools, Build Automation, Developer Productivity, and CI/CD.
 
 
   Gradle''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 27 more developer resources.'
 random_paper: 14
 score:
   band: strong
-  composite: 57.5
-  delta: 0.0
+  composite: 54.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
-    contract_quality: 59.1
+    contract_governance: 4.5
+    contract_quality: 58.9
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 57.5
+  previous_composite: 54.9
   provenance:
     conformance: derived
     contracts:
@@ -284,8 +283,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradle/refs/heads/main/screenshots/gradle-2026-07-25T220203.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -140,6 +140,18 @@ collections:
   name: SpaceX REST Capsules Starlink API
   slug: open-spacex-starlink-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/SpaceXLand/api/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/SpaceXLand/api/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/SpaceXLand/api/blob/master/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -396,7 +408,7 @@ overview: 'SpaceX (Community API) publishes 14 APIs on the [APIs.io](https://api
   The SpaceX (Community API) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SpaceX (Community API)''s developer surface includes authentication, documentation, getting-started guide, changelog, status page, tooling, and 19 more developer resources.'
+  SpaceX (Community API)''s developer surface includes authentication, documentation, getting-started guide, changelog, status page, tooling, and 22 more developer resources.'
 plans:
 - name: Spacex Plans Pricing
   plan_count: 2
@@ -430,18 +442,26 @@ rules:
   slug: spacex-rules
 score:
   band: thin
-  composite: 38.9
-  delta: 4.3
+  composite: 39.2
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 35.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 28.8
-    contract_quality: 25.5
+    contract_quality: 25.8
     developer_ergonomics: 54.8
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 34.6
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -455,8 +475,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/screenshots/spacex-2026-06-20T194240.png
 security:

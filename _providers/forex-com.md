@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: forex-com-agentic-access
   summary_line: 17 operations · 5 acting · 1 human-in-the-loop
-api_count: 13
+api_count: 1
 apis:
 - description: Authenticate and manage API sessions for the FOREX.com trading platform. A POST request to the session endpoint with username, password, and AppKey returns a session ID used as a header credential for
   name: FOREX.com Session API
@@ -110,6 +110,10 @@ collections:
   name: FOREX.com REST Account Session API
   slug: open-forex-com-session-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/forex-com-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -214,7 +218,7 @@ overview: 'FOREX.com publishes 11 APIs on the [APIs.io](https://apis.io/) networ
   The FOREX.com catalog on APIs.io includes 1 JSON-LD context.
 
 
-  FOREX.com''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, signup flow, support, and 9 more developer resources.'
+  FOREX.com''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, signup flow, support, and 10 more developer resources.'
 plans:
 - name: Forex Com Plans Pricing
   plan_count: 3
@@ -226,15 +230,20 @@ rate_limits:
   slug: forex-com-rate-limits
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 50.9
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 0.0
     contract_quality: 58.3
     developer_ergonomics: 47.6
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 31.6
   needs_work:
@@ -257,8 +266,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forex-com/refs/heads/main/screenshots/forex-com-2026-06-20T181434.png
 security:

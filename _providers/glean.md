@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 61
   slug: glean-agentic-access
   summary_line: 61 operations · 57 acting
-api_count: 22
+api_count: 1
 apis:
 - description: Run unified semantic and keyword search across all connected enterprise content with permission-aware results, filters, and facets.
   name: Glean Search API
@@ -270,15 +270,20 @@ rate_limits:
   slug: glean-rate-limits
 score:
   band: thin
-  composite: 33.5
-  delta: 0.0
+  composite: 33.0
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 12.6
     developer_ergonomics: 26.2
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 57.9
   previous_composite: 33.5
@@ -289,8 +294,8 @@ score:
       derived: 16
       marker_coverage: 100.0
       total: 16
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glean/refs/heads/main/screenshots/glean-2026-06-20T181906.png
 security:

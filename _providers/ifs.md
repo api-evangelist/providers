@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: ifs-agentic-access
   summary_line: 7 operations
-api_count: 7
+api_count: 1
 apis:
 - description: 'IFS Field Service Management APIs enable work order management, scheduling optimization, technician dispatch, parts inventory, and mobile workforce coordination for energy, manufacturing, and telecom '
   name: IFS Field Service Management API
@@ -115,7 +115,6 @@ finops:
 - name: Ifs Finops
   service_category: Enterprise Software
   slug: ifs-finops
-image: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/image.png
 json_schemas:
 - name: IFS Work Order
   property_count: 17
@@ -164,18 +163,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.8
-  delta: 1.9
+  composite: 35.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 61.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 9.8
     contract_quality: 66.7
     developer_ergonomics: 23.8
-    discoverability: 68.5
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 34.9
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     contracts:
@@ -189,8 +193,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/screenshots/ifs-2026-06-20T183215.png
 security:
@@ -210,4 +214,5 @@ tags:
 - Manufacturing
 - Energy
 - Cloud
+- Sweden
 ---

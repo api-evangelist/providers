@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: old-dominion-freight-line-agentic-access
   summary_line: 4 operations · 2 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Submits electronic bills of lading to the Old Dominion Freight Line billing system, generating shipping labels and BOL documents. Used by shippers to programmatically create freight documentation.
   name: ODFL Bill of Lading API
@@ -77,6 +77,10 @@ collections:
   name: ODFL Bill of Lading Tracking API
   slug: open-old-dominion-freight-line-tracking-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/old-dominion-freight-line-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -124,7 +128,7 @@ network: true
 overview: 'Old Dominion Freight Line publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ODFL Bill of Lading API, ODFL Pickup API, ODFL Tracking API, and 1 more. Tagged areas include Freight, Less-Than-Truckload, Logistics, Shipping, and Transportation.
 
 
-  Old Dominion Freight Line''s developer surface includes authentication, support, tooling, and 5 more developer resources.'
+  Old Dominion Freight Line''s developer surface includes authentication, support, tooling, and 6 more developer resources.'
 plans:
 - name: Old Dominion Freight Line Plans Pricing
   plan_count: 1
@@ -152,18 +156,23 @@ rate_limits:
   slug: old-dominion-freight-line-rate-limits
 score:
   band: thin
-  composite: 30.3
-  delta: 1.9
+  composite: 29.7
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 57.1
     developer_ergonomics: 26.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 28.4
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -171,8 +180,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/screenshots/old-dominion-freight-line-2026-06-20T190653.png
 security:

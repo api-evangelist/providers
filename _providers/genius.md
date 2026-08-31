@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -284,18 +284,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.7
-  delta: 8.6
+  composite: 36.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 39.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.2
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 28.8
-    contract_quality: 29.3
-    developer_ergonomics: 47.6
+    contract_quality: 29.6
+    developer_ergonomics: 41.7
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 2.6
-  previous_composite: 29.1
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -303,9 +308,9 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Genius Authentication

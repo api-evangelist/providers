@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 212
   slug: seekr-agentic-access
   summary_line: 212 operations · 113 acting
-api_count: 35
+api_count: 8
 apis:
 - description: A hosted, anonymous, read-only MCP server that gives an AI assistant direct access to the SeekrFlow documentation and the four SeekrFlow OpenAPI specs, so the assistant can generate working authentica
   name: Seekr Documentation MCP Server
@@ -246,6 +246,10 @@ collections:
   name: SeekrFlow Wake Up API
   slug: open-seekr-wake-up-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/seekr-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -422,25 +426,30 @@ modified: '2026-08-05'
 name: Seekr
 nav: Providers
 network: true
-overview: 'Seekr publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Agents v1 - legacy API, Alignment API, and 31 more. Tagged areas include Artificial Intelligence, Generative AI, Agents, LLM, and Fine-Tuning.
+overview: 'Seekr publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Agents v1 - legacy API, Alignment API, and 31 more. Tagged areas include artificial-intelligence, generative-ai, Agents, llm, and Fine-Tuning.
 
 
-  Seekr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
+  Seekr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
 random_paper: 13
 score:
   band: strong
-  composite: 61.3
+  composite: 59.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 53.7
     developer_ergonomics: 71.4
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 61.3
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -453,12 +462,16 @@ score:
     skills: first-party
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: cmmc
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 55.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seekr/refs/heads/main/screenshots/seekr-2026-08-17T081750.png
 security:
@@ -476,22 +489,22 @@ security:
   summary_line: SOC 2 Type 1, SOC 2 Type 2, ISO/IEC 27001:2022, CMMC Certified
 slug: seekr
 tags:
-- Artificial Intelligence
-- Generative AI
+- artificial-intelligence
+- generative-ai
 - Agents
-- LLM
+- llm
 - Fine-Tuning
 - Inference
 - RAG
-- Vector Database
-- Explainability
-- AI Governance
-- Model Evaluation
-- Observability
-- Geospatial Intelligence
-- Defense
-- Government
-- Regulated Industries
+- vector-database
+- explainability
+- ai-governance
+- model-evaluation
+- observability
+- geospatial-intelligence
+- defense
+- government
+- regulated-industries
 - MCP
 - agent-native
 website: https://www.seekr.com/

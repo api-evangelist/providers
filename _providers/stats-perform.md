@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: stats-perform-agentic-access
   summary_line: 12 operations
-api_count: 7
+api_count: 1
 apis:
 - description: Retrieve editorial content including news articles, previews, and recaps associated with events, teams, and players.
   name: Stats Perform Editorial API
@@ -234,15 +234,20 @@ rules:
   slug: stats-perform-rules
 score:
   band: thin
-  composite: 37.2
-  delta: 0.0
+  composite: 36.6
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 60.5
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 10.5
   previous_composite: 37.2
@@ -253,8 +258,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stats-perform/refs/heads/main/screenshots/stats-perform-2026-06-20T194526.png
 security:

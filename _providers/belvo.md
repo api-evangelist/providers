@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 32
   slug: belvo-agentic-access
   summary_line: 32 operations · 14 acting
-api_count: 10
+api_count: 1
 apis:
 - description: Bank accounts held inside a Link.
   name: Belvo Accounts API
@@ -113,6 +113,10 @@ collections:
   name: Belvo API
   slug: open-belvo
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/belvo-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -176,7 +180,7 @@ network: true
 overview: 'Belvo publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Balances API, Incomes API, and 7 more. Tagged areas include Open Finance, Open Banking, Bank Data, Aggregation, and Payments.
 
 
-  Belvo''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Belvo''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Belvo Plans Pricing
   plan_count: 3
@@ -188,18 +192,23 @@ rate_limits:
   slug: belvo-rate-limits
 score:
   band: thin
-  composite: 38.5
-  delta: 2.4
+  composite: 37.9
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 51.2
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 36.1
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -213,8 +222,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 22.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/belvo/refs/heads/main/screenshots/belvo-2026-07-25T202719.png
 security:

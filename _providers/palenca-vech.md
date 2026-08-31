@@ -33,145 +33,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-08-26'
-api_count: 45
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The accounts API from Palenca (Vech) — 34 operation(s) for accounts.
-  name: Palenca (Vech) accounts API
-  slug: palenca-vech-accounts-api
 - description: The admin API from Palenca (Vech) — 4 operation(s) for admin.
   name: Palenca (Vech) admin API
   slug: palenca-vech-admin-api
-- description: The argyle API from Palenca (Vech) — 18 operation(s) for argyle.
-  name: Palenca (Vech) argyle API
-  slug: palenca-vech-argyle-api
 - description: The Check Platform Health API from Palenca (Vech) — 1 operation(s) for check platform health.
   name: Palenca (Vech) Check Platform Health API
   slug: palenca-vech-check-platform-health-api
-- description: The companies API from Palenca (Vech) — 5 operation(s) for companies.
-  name: Palenca (Vech) companies API
-  slug: palenca-vech-companies-api
-- description: The consents API from Palenca (Vech) — 2 operation(s) for consents.
-  name: Palenca (Vech) consents API
-  slug: palenca-vech-consents-api
-- description: The console/accounts API from Palenca (Vech) — 11 operation(s) for console/accounts.
-  name: Palenca (Vech) console/accounts API
-  slug: palenca-vech-console-accounts-api
 - description: The console API from Palenca (Vech) — 27 operation(s) for console.
   name: Palenca (Vech) console API
   slug: palenca-vech-console-api
-- description: The console/companies API from Palenca (Vech) — 2 operation(s) for console/companies.
-  name: Palenca (Vech) console/companies API
-  slug: palenca-vech-console-companies-api
-- description: The console/insights API from Palenca (Vech) — 4 operation(s) for console/insights.
-  name: Palenca (Vech) console/insights API
-  slug: palenca-vech-console-insights-api
-- description: The console/status API from Palenca (Vech) — 1 operation(s) for console/status.
-  name: Palenca (Vech) console/status API
-  slug: palenca-vech-console-status-api
-- description: The console/webhooks API from Palenca (Vech) — 6 operation(s) for console/webhooks.
-  name: Palenca (Vech) console/webhooks API
-  slug: palenca-vech-console-webhooks-api
-- description: The console/widgets API from Palenca (Vech) — 3 operation(s) for console/widgets.
-  name: Palenca (Vech) console/widgets API
-  slug: palenca-vech-console-widgets-api
-- description: The countries API from Palenca (Vech) — 2 operation(s) for countries.
-  name: Palenca (Vech) countries API
-  slug: palenca-vech-countries-api
-- description: The cpf API from Palenca (Vech) — 1 operation(s) for cpf.
-  name: Palenca (Vech) cpf API
-  slug: palenca-vech-cpf-api
-- description: The cron-jobs API from Palenca (Vech) — 3 operation(s) for cron-jobs.
-  name: Palenca (Vech) cron-jobs API
-  slug: palenca-vech-cron-jobs-api
-- description: The finsus API from Palenca (Vech) — 1 operation(s) for finsus.
-  name: Palenca (Vech) finsus API
-  slug: palenca-vech-finsus-api
-- description: The groups API from Palenca (Vech) — 6 operation(s) for groups.
-  name: Palenca (Vech) groups API
-  slug: palenca-vech-groups-api
-- description: The health API from Palenca (Vech) — 1 operation(s) for health.
-  name: Palenca (Vech) health API
-  slug: palenca-vech-health-api
-- description: The imss API from Palenca (Vech) — 3 operation(s) for imss.
-  name: Palenca (Vech) imss API
-  slug: palenca-vech-imss-api
-- description: The insights API from Palenca (Vech) — 7 operation(s) for insights.
-  name: Palenca (Vech) insights API
-  slug: palenca-vech-insights-api
-- description: The insights-report API from Palenca (Vech) — 3 operation(s) for insights-report.
-  name: Palenca (Vech) insights-report API
-  slug: palenca-vech-insights-report-api
-- description: The internal/accounts API from Palenca (Vech) — 5 operation(s) for internal/accounts.
-  name: Palenca (Vech) internal/accounts API
-  slug: palenca-vech-internal-accounts-api
-- description: The internal API from Palenca (Vech) — 20 operation(s) for internal.
-  name: Palenca (Vech) internal API
-  slug: palenca-vech-internal-api
-- description: The internal/bulks API from Palenca (Vech) — 2 operation(s) for internal/bulks.
-  name: Palenca (Vech) internal/bulks API
-  slug: palenca-vech-internal-bulks-api
-- description: The internal/companies API from Palenca (Vech) — 2 operation(s) for internal/companies.
-  name: Palenca (Vech) internal/companies API
-  slug: palenca-vech-internal-companies-api
-- description: The internal/groups API from Palenca (Vech) — 2 operation(s) for internal/groups.
-  name: Palenca (Vech) internal/groups API
-  slug: palenca-vech-internal-groups-api
-- description: The internal/indriver API from Palenca (Vech) — 1 operation(s) for internal/indriver.
-  name: Palenca (Vech) internal/indriver API
-  slug: palenca-vech-internal-indriver-api
-- description: The internal/insights API from Palenca (Vech) — 2 operation(s) for internal/insights.
-  name: Palenca (Vech) internal/insights API
-  slug: palenca-vech-internal-insights-api
-- description: The internal/status-history API from Palenca (Vech) — 1 operation(s) for internal/status-history.
-  name: Palenca (Vech) internal/status-history API
-  slug: palenca-vech-internal-status-history-api
-- description: The link API from Palenca (Vech) — 1 operation(s) for link.
-  name: Palenca (Vech) link API
-  slug: palenca-vech-link-api
-- description: The logins API from Palenca (Vech) — 5 operation(s) for logins.
-  name: Palenca (Vech) logins API
-  slug: palenca-vech-logins-api
 - description: The Ping API from Palenca (Vech) — 1 operation(s) for ping.
   name: Palenca (Vech) Ping API
   slug: palenca-vech-ping-api
-- description: The platforms API from Palenca (Vech) — 4 operation(s) for platforms.
-  name: Palenca (Vech) platforms API
-  slug: palenca-vech-platforms-api
 - description: The Pong API from Palenca (Vech) — 1 operation(s) for pong.
   name: Palenca (Vech) Pong API
   slug: palenca-vech-pong-api
-- description: The rappi-income-distribution API from Palenca (Vech) — 1 operation(s) for rappi-income-distribution.
-  name: Palenca (Vech) rappi-income-distribution API
-  slug: palenca-vech-rappi-income-distribution-api
-- description: The rappi-start-location-recovery API from Palenca (Vech) — 1 operation(s) for rappi-start-location-recovery.
-  name: Palenca (Vech) rappi-start-location-recovery API
-  slug: palenca-vech-rappi-start-location-recovery-api
-- description: The status-history API from Palenca (Vech) — 1 operation(s) for status-history.
-  name: Palenca (Vech) status-history API
-  slug: palenca-vech-status-history-api
-- description: The uber-direct-api API from Palenca (Vech) — 5 operation(s) for uber-direct-api.
-  name: Palenca (Vech) uber-direct-api API
-  slug: palenca-vech-uber-direct-api-api
-- description: The uber-income-distribution API from Palenca (Vech) — 1 operation(s) for uber-income-distribution.
-  name: Palenca (Vech) uber-income-distribution API
-  slug: palenca-vech-uber-income-distribution-api
-- description: The users API from Palenca (Vech) — 7 operation(s) for users.
-  name: Palenca (Vech) users API
-  slug: palenca-vech-users-api
 - description: The v1 API from Palenca (Vech) — 147 operation(s) for v1.
   name: Palenca (Vech) v1 API
   slug: palenca-vech-v1-api
 - description: The Version API from Palenca (Vech) — 1 operation(s) for version.
   name: Palenca (Vech) Version API
   slug: palenca-vech-version-api
-- description: The webhooks API from Palenca (Vech) — 3 operation(s) for webhooks.
-  name: Palenca (Vech) webhooks API
-  slug: palenca-vech-webhooks-api
-- description: The widgets API from Palenca (Vech) — 3 operation(s) for widgets.
-  name: Palenca (Vech) widgets API
-  slug: palenca-vech-widgets-api
-artifact_total: 98
+artifact_total: 60
 asyncapis:
 - description: ''
   name: Palenca Vech Webhooks
@@ -456,7 +342,7 @@ modified: '2026-07-20'
 name: Palenca (Vech)
 nav: Providers
 network: true
-overview: 'Palenca (Vech) publishes 45 APIs on the [APIs.io](https://apis.io/) network, including accounts API, admin API, argyle API, and 42 more. Tagged areas include Company, Income Verification, Employment Verification, Fintech, and Gig Economy.
+overview: 'Palenca (Vech) publishes 7 APIs on the [APIs.io](https://apis.io/) network, including admin API, Check Platform Health API, console API, and 4 more. Tagged areas include Company, Income Verification, Employment Verification, Fintech, and Gig Economy.
 
 
   The Palenca (Vech) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -470,18 +356,23 @@ rate_limits:
   slug: palenca-vech-rate-limits
 score:
   band: developing
-  composite: 49.6
-  delta: 1.4
+  composite: 46.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
-    contract_quality: 55.4
+    contract_governance: 18.2
+    contract_quality: 51.2
     developer_ergonomics: 50.6
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 48.2
+  previous_composite: 47.1
   provenance:
     conformance: first-party
     contracts:
@@ -491,8 +382,8 @@ score:
       total: 45
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/screenshots/palenca-vech-2026-08-07T191315.png
 security:

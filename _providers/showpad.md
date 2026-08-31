@@ -34,33 +34,102 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-26'
-api_count: 6
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Manage assets, query content with ShowQL, get content recommendations, and handle buyer engagement through shares, sharing themes, and digital shared spaces.
-  name: Showpad Content API
-  slug: showpad-content-api
-- description: The actively developed Showpad REST API. Covers assets and asset files, tags and tag categories, divisions, users, shares, Shared Spaces with templates, themes and quick actions, CRM recommendation ru
-  name: Showpad API v4
-  slug: showpad-api-v4
 - description: Access analytics and insights for coaching and training programs, including learning paths, skill assessments, roleplay AI analysis, and coach analytics data.
   name: Showpad Coach API
   slug: showpad-coach-api
-- description: Create and manage users, groups, divisions, and permissions with full SCIM 2.0 support for automated identity provisioning and deprovisioning.
-  name: Showpad User Management API
-  slug: showpad-user-management-api
 - description: Create and manage webhook subscriptions and read their delivery logs. Notifications carry a CloudEvents-shaped envelope and are signed with HMAC-SHA256 over the raw body plus a timestamp, with a five-
   name: Showpad Webhooks API
   slug: showpad-webhooks-api
 - description: Hosted remote Model Context Protocol server that lets AI assistants such as Claude and Cursor search Showpad assets, fetch their content, run ShowQL filters, ask questions with cited sources, and read
   name: Showpad MCP Server
   slug: showpad-mcp-server
-artifact_total: 16
+- description: The assets API from Showpad — 16 operation(s) for assets.
+  name: Showpad Assets API
+  slug: showpad-assets-api
+- description: The channels API from Showpad — 22 operation(s) for channels.
+  name: Showpad Channels API
+  slug: showpad-channels-api
+- description: The comments API from Showpad — 4 operation(s) for comments.
+  name: Showpad Comments API
+  slug: showpad-comments-api
+- description: These are endpoints for managing crm recommendation rules and fetching shares and shared spaces cmr records
+  name: Showpad CRM API
+  slug: showpad-crm-api
+- description: The divisionpermissions API from Showpad — 6 operation(s) for divisionpermissions.
+  name: Showpad Divisionpermissions API
+  slug: showpad-divisionpermissions-api
+- description: The divisions API from Showpad — 17 operation(s) for divisions.
+  name: Showpad Divisions API
+  slug: showpad-divisions-api
+- description: The exports API from Showpad — 25 operation(s) for exports.
+  name: Showpad Exports API
+  slug: showpad-exports-api
+- description: The generic API from Showpad — 1 operation(s) for generic.
+  name: Showpad Generic API
+  slug: showpad-generic-api
+- description: These are endpoints for fetching available Languages and Countries information.
+  name: Showpad Locale API
+  slug: showpad-locale-api
+- description: These are endpoints for managing Mutual Action Plans
+  name: Showpad Mutual Action Plan API
+  slug: showpad-mutual-action-plan-api
+- description: The recommendations API from Showpad — 6 operation(s) for recommendations.
+  name: Showpad Recommendations API
+  slug: showpad-recommendations-api
+- description: These are endpoints for managing Shared Space Templates
+  name: Showpad Shared Space Templates API
+  slug: showpad-shared-space-templates-api
+- description: These are endpoints for managing Shared Spaces
+  name: Showpad Shared Spaces API
+  slug: showpad-shared-spaces-api
+- description: These are endpoints for managing Shared Spaces Quick Actions
+  name: Showpad Shared Spaces Quick Actions API
+  slug: showpad-shared-spaces-quick-actions-api
+- description: These are endpoints for managing Shares
+  name: Showpad Shares API
+  slug: showpad-shares-api
+- description: These are endpoints for managing Tag Categories.
+  name: Showpad Tag Categories API
+  slug: showpad-tag-categories-api
+- description: The tags API from Showpad — 12 operation(s) for tags.
+  name: Showpad Tags API
+  slug: showpad-tags-api
+- description: These are endpoints for managing Themes
+  name: Showpad Themes API
+  slug: showpad-themes-api
+- description: The tickets API from Showpad — 9 operation(s) for tickets.
+  name: Showpad Tickets API
+  slug: showpad-tickets-api
+- description: The usergroups API from Showpad — 14 operation(s) for usergroups.
+  name: Showpad Usergroups API
+  slug: showpad-usergroups-api
+- description: The userpermissions API from Showpad — 6 operation(s) for userpermissions.
+  name: Showpad Userpermissions API
+  slug: showpad-userpermissions-api
+- description: The users API from Showpad — 22 operation(s) for users.
+  name: Showpad Users API
+  slug: showpad-users-api
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Showpad Webhooks
   slug: showpad-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/showpad-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/showpad-v3-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/showpad-v4-overlay.yaml
 - group: auth
   title: ''
   type: OAuthScopes
@@ -257,13 +326,13 @@ modified: '2026-08-14'
 name: Showpad
 nav: Providers
 network: true
-overview: 'Showpad publishes 3 APIs on the [APIs.io](https://apis.io/) network: Content API, API v4, and User Management API. Tagged areas include Sales Enablement, Sales Coaching, Content Management, Buyer Engagement, and Sales Analytics.
+overview: 'Showpad publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Channels API, Comments API, and 19 more. Tagged areas include Sales Enablement, Sales Coaching, Content Management, Buyer Engagement, and Sales Analytics.
 
 
   The Showpad catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Showpad''s developer surface includes authentication, CLI, sandbox, developer portal, documentation, API reference, getting-started guide, and 38 more developer resources.'
+  Showpad''s developer surface includes authentication, CLI, sandbox, developer portal, documentation, API reference, getting-started guide, and 41 more developer resources.'
 plans:
 - name: Showpad Plans Pricing
   plan_count: 3
@@ -280,18 +349,23 @@ scopes:
   summary_line: 8 scopes · password/authorizationCode
 score:
   band: strong
-  composite: 66.2
-  delta: 0.0
+  composite: 63.5
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 30.3
-    contract_quality: 61.0
+    contract_governance: 18.2
+    contract_quality: 62.5
     developer_ergonomics: 70.8
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 66.2
+  previous_composite: 64.1
   provenance:
     conformance: first-party
     contracts:
@@ -301,8 +375,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/screenshots/showpad-2026-06-20T193845.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 35
   slug: livechat-agentic-access
   summary_line: 35 operations · 35 acting
-api_count: 12
+api_count: 1
 apis:
 - description: REST and RTM APIs for agents to manage chats, send messages, transfer conversations, and update statuses. Authenticated with OAuth 2.1 bearer tokens or Personal Access Tokens.
   name: LiveChat Agent Chat API
@@ -112,6 +112,10 @@ collections:
   name: LiveChat Agent Chat API
   slug: open-livechat
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/livechat-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -167,19 +171,24 @@ network: true
 overview: 'LiveChat publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Webhooks and RTM API, Chats API, Customers API, and 5 more. Tagged areas include Live Chat, Customer Service, Customer-Support, Messaging, and Sales.
 
 
-  LiveChat''s developer surface includes authentication, documentation, developer console, signup flow, pricing, engineering blog, and 5 more developer resources.'
+  LiveChat''s developer surface includes authentication, documentation, developer console, signup flow, pricing, engineering blog, and 6 more developer resources.'
 random_paper: 8
 score:
   band: thin
-  composite: 33.4
-  delta: 0.0
+  composite: 32.9
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 59.0
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 33.4
@@ -190,8 +199,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/screenshots/livechat-2026-06-20T184613.png
 security:

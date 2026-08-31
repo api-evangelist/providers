@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -31,14 +31,14 @@ agentic_access:
   operation_count: 4
   slug: moxe-health-agentic-access
   summary_line: 4 operations · 2 acting
-api_count: 2
+api_count: 4
 apis:
-- description: Initiate a patient chart request and check its status. The API ingests a release-of-information request with member and demographic identifiers, searches connected EHRs for the specified patient and d
-  name: Moxe Health Chart Retrieval API
-  slug: moxe-health-chart-retrieval-api
-- description: 'Initiate a claim management request and check its status. Retrieves the clinical chart supporting a specific claim by member and claim identifiers, then delivers the extracted data to a predetermined '
-  name: Moxe Health Claim Management API
-  slug: moxe-health-claim-management-api
+- description: The Claims API from Moxe Health — 2 operation(s) for claims.
+  name: Moxe Health Claims API
+  slug: moxe-health-claims-api
+- description: The Patient API from Moxe Health — 2 operation(s) for patient.
+  name: Moxe Health Patient API
+  slug: moxe-health-patient-api
 arazzos:
 - description: Initiate a claim-management request to retrieve the clinical chart supporting a specific claim, then poll the status endpoint with the returned moxeRequestId.
   name: Request a claim-supporting chart and poll for status
@@ -61,6 +61,10 @@ collections:
   name: Chart Retrieval API
   slug: open-moxe-health-claim-management-status
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/moxe-health-capability-edges.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -234,10 +238,10 @@ modified: '2026-07-24T12:00:00Z'
 name: Moxe Health
 nav: Providers
 network: true
-overview: 'Moxe Health publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chart Retrieval API and Claim Management API. Tagged areas include Healthcare, United States, Interoperability, Clinical Data, and Payer.
+overview: 'Moxe Health publishes 2 APIs on the [APIs.io](https://apis.io/) network: Claims API and Patient API. Tagged areas include Healthcare, United States, Interoperability, Clinical Data, and Payer.
 
 
-  Moxe Health''s developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, engineering blog, support, and 33 more developer resources.'
+  Moxe Health''s developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, engineering blog, support, and 34 more developer resources.'
 plans:
 - name: Moxe Health Plans Pricing
   plan_count: 0
@@ -254,18 +258,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.9
-  delta: 0.0
+  composite: 49.1
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.6
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 53.1
     developer_ergonomics: 33.9
-    discoverability: 75.9
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 49.9
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -278,12 +287,18 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Health
     regime_id: health
     score: 73.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/screenshots/moxe-health-2026-08-07T184405.png
 security:

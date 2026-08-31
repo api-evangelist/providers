@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: deepl-agentic-access
   summary_line: 15 operations · 6 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The DeepL Voice API provides real-time speech transcription and translation. A POST to /v3/voice/realtime issues an ephemeral token and WebSocket streaming URL; clients then open a WSS channel to stre
   name: DeepL Voice API
@@ -275,18 +275,23 @@ rules:
   slug: deepl-translation-api-rules
 score:
   band: developing
-  composite: 51.3
-  delta: 1.4
+  composite: 50.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 28.8
     contract_quality: 68.7
     developer_ergonomics: 52.4
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 49.9
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     contracts:
@@ -294,8 +299,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/screenshots/deepl-2026-06-20T175808.png
 security:

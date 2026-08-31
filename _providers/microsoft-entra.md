@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: microsoft-entra-agentic-access
   summary_line: 28 operations · 17 acting
-api_count: 17
+api_count: 1
 apis:
 - description: API for identity risk detection, investigation, and remediation.
   name: Microsoft Entra ID Protection API
@@ -162,6 +162,10 @@ collections:
   name: Microsoft Entra Microsoft Graph Identity Applications Users API
   slug: open-microsoft-entra-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-entra-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -657,7 +661,7 @@ overview: 'Microsoft Entra publishes 4 APIs on the [APIs.io](https://apis.io/) n
   The Microsoft Entra catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Microsoft Entra''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, changelog, pricing, and 28 more developer resources.'
+  Microsoft Entra''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, changelog, pricing, and 29 more developer resources.'
 plans:
 - name: Microsoft Entra Plans Pricing
   plan_count: 10
@@ -696,18 +700,23 @@ scopes:
   summary_line: 13 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 54.0
-  delta: 3.3
+  composite: 53.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 64.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 13.6
     contract_quality: 68.7
     developer_ergonomics: 69.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 42.1
-  previous_composite: 50.7
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     contracts:
@@ -715,8 +724,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-entra/refs/heads/main/screenshots/microsoft-entra-2026-06-20T185457.png
 security:

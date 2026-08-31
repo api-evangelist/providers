@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 31
   slug: fulfil-io-agentic-access
   summary_line: 31 operations · 17 acting
-api_count: 10
+api_count: 1
 apis:
 - description: Verify API credentials.
   name: Fulfil Authentication API
@@ -113,6 +113,10 @@ collections:
   name: Fulfil REST API (v2)
   slug: open-fulfil-io
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fulfil-io-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -180,7 +184,7 @@ network: true
 overview: 'Fulfil publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Customers API, Inventory & Stock API, and 7 more. Tagged areas include ERP, E-Commerce, Order Management, Inventory, and Warehouse Management.
 
 
-  Fulfil''s developer surface includes authentication, documentation, and 11 more developer resources.'
+  Fulfil''s developer surface includes authentication, documentation, and 12 more developer resources.'
 plans:
 - name: Fulfil Io Plans Pricing
   plan_count: 4
@@ -197,18 +201,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 40.6
-  delta: 1.7
+  composite: 40.0
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 53.1
     developer_ergonomics: 29.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.9
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -216,8 +225,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/screenshots/fulfil-io-2026-07-25T215253.png
 security:

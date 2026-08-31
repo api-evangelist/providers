@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -33,24 +33,122 @@ agentic_access:
   summary_line: 86 operations · 20 acting
 api_count: 4
 apis:
-- description: UK Open Banking Open Data API — the PUBLIC, unauthenticated reference-data surface (ATM locations, branches, personal and business current accounts, unsecured SME loans, commercial credit cards) defin
-  name: Shawbrook Open Data API (OBIE Standard, Unverified)
-  slug: shawbrook-open-data-api
-- description: UK Open Banking Read/Write Account & Transaction Information API (AISP) as defined by the OBIE Account and Transaction API Specification v4.0.1 (OpenAPI 3.0.0). FAPI-secured — OAuth2/OIDC authorizatio
-  name: Shawbrook Account & Transaction Information API (AIS, OBIE Standard, Unverified)
-  slug: shawbrook-account-transaction-api
-- description: 'UK Open Banking Read/Write Payment Initiation API (PISP) as defined by the OBIE Payment Initiation API Specification v4.0.1 (OpenAPI 3.0.0). FAPI-secured with OAuth2/OIDC, mutual-TLS, and PSD2 strong '
-  name: Shawbrook Payment Initiation API (PIS, OBIE Standard, Unverified)
-  slug: shawbrook-payment-initiation-api
-- description: 'UK Open Banking Read/Write Confirmation of Funds API (CBPII) as defined by the OBIE Confirmation of Funds API Specification v4.0.1 (OpenAPI 3.0.0). FAPI-secured with OAuth2/OIDC, mutual-TLS, and PSD2 '
-  name: Shawbrook Confirmation of Funds API (CBPII, OBIE Standard, Unverified)
-  slug: shawbrook-confirmation-of-funds-api
-artifact_total: 9
+- description: The Account Access Consents API from Shawbrook Bank — 2 operation(s) for account access consents.
+  name: Shawbrook Bank Account Access Consents API
+  slug: shawbrook-bank-account-access-consents-api
+- description: The Accounts API from Shawbrook Bank — 2 operation(s) for accounts.
+  name: Shawbrook Bank Accounts API
+  slug: shawbrook-bank-accounts-api
+- description: Endpoint for getting ATM data
+  name: Shawbrook Bank ATM API
+  slug: shawbrook-bank-atm-api
+- description: The Balances API from Shawbrook Bank — 2 operation(s) for balances.
+  name: Shawbrook Bank Balances API
+  slug: shawbrook-bank-balances-api
+- description: Endpoint for getting Business Current Account data
+  name: Shawbrook Bank BCA API
+  slug: shawbrook-bank-bca-api
+- description: The Beneficiaries API from Shawbrook Bank — 2 operation(s) for beneficiaries.
+  name: Shawbrook Bank Beneficiaries API
+  slug: shawbrook-bank-beneficiaries-api
+- description: Endpoint for getting Branch data
+  name: Shawbrook Bank Branch API
+  slug: shawbrook-bank-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: Shawbrook Bank CCC API
+  slug: shawbrook-bank-ccc-api
+- description: The Direct Debits API from Shawbrook Bank — 2 operation(s) for direct debits.
+  name: Shawbrook Bank Direct Debits API
+  slug: shawbrook-bank-direct-debits-api
+- description: The Domestic Payment Consents API from Shawbrook Bank — 3 operation(s) for domestic payment consents.
+  name: Shawbrook Bank Domestic Payment Consents API
+  slug: shawbrook-bank-domestic-payment-consents-api
+- description: The Domestic Payments API from Shawbrook Bank — 3 operation(s) for domestic payments.
+  name: Shawbrook Bank Domestic Payments API
+  slug: shawbrook-bank-domestic-payments-api
+- description: The Domestic Scheduled Payment Consents API from Shawbrook Bank — 2 operation(s) for domestic scheduled payment consents.
+  name: Shawbrook Bank Domestic Scheduled Payment Consents API
+  slug: shawbrook-bank-domestic-scheduled-payment-consents-api
+- description: The Domestic Scheduled Payments API from Shawbrook Bank — 3 operation(s) for domestic scheduled payments.
+  name: Shawbrook Bank Domestic Scheduled Payments API
+  slug: shawbrook-bank-domestic-scheduled-payments-api
+- description: The Domestic Standing Order Consents API from Shawbrook Bank — 2 operation(s) for domestic standing order consents.
+  name: Shawbrook Bank Domestic Standing Order Consents API
+  slug: shawbrook-bank-domestic-standing-order-consents-api
+- description: The Domestic Standing Orders API from Shawbrook Bank — 3 operation(s) for domestic standing orders.
+  name: Shawbrook Bank Domestic Standing Orders API
+  slug: shawbrook-bank-domestic-standing-orders-api
+- description: The File Payment Consents API from Shawbrook Bank — 3 operation(s) for file payment consents.
+  name: Shawbrook Bank File Payment Consents API
+  slug: shawbrook-bank-file-payment-consents-api
+- description: The File Payments API from Shawbrook Bank — 4 operation(s) for file payments.
+  name: Shawbrook Bank File Payments API
+  slug: shawbrook-bank-file-payments-api
+- description: The Funds Confirmation Consents API from Shawbrook Bank — 2 operation(s) for funds confirmation consents.
+  name: Shawbrook Bank Funds Confirmation Consents API
+  slug: shawbrook-bank-funds-confirmation-consents-api
+- description: The Funds Confirmations API from Shawbrook Bank — 1 operation(s) for funds confirmations.
+  name: Shawbrook Bank Funds Confirmations API
+  slug: shawbrook-bank-funds-confirmations-api
+- description: The International Payment Consents API from Shawbrook Bank — 3 operation(s) for international payment consents.
+  name: Shawbrook Bank International Payment Consents API
+  slug: shawbrook-bank-international-payment-consents-api
+- description: The International Payments API from Shawbrook Bank — 3 operation(s) for international payments.
+  name: Shawbrook Bank International Payments API
+  slug: shawbrook-bank-international-payments-api
+- description: The International Scheduled Payments API from Shawbrook Bank — 3 operation(s) for international scheduled payments.
+  name: Shawbrook Bank International Scheduled Payments API
+  slug: shawbrook-bank-international-scheduled-payments-api
+- description: The International Scheduled Payments Consents API from Shawbrook Bank — 3 operation(s) for international scheduled payments consents.
+  name: Shawbrook Bank International Scheduled Payments Consents API
+  slug: shawbrook-bank-international-scheduled-payments-consents-api
+- description: The International Standing Orders API from Shawbrook Bank — 3 operation(s) for international standing orders.
+  name: Shawbrook Bank International Standing Orders API
+  slug: shawbrook-bank-international-standing-orders-api
+- description: The International Standing Orders Consents API from Shawbrook Bank — 2 operation(s) for international standing orders consents.
+  name: Shawbrook Bank International Standing Orders Consents API
+  slug: shawbrook-bank-international-standing-orders-consents-api
+- description: The Offers API from Shawbrook Bank — 2 operation(s) for offers.
+  name: Shawbrook Bank Offers API
+  slug: shawbrook-bank-offers-api
+- description: The Parties API from Shawbrook Bank — 3 operation(s) for parties.
+  name: Shawbrook Bank Parties API
+  slug: shawbrook-bank-parties-api
+- description: Endpoint for getting Personal Current Account data
+  name: Shawbrook Bank PCA API
+  slug: shawbrook-bank-pca-api
+- description: The Products API from Shawbrook Bank — 2 operation(s) for products.
+  name: Shawbrook Bank Products API
+  slug: shawbrook-bank-products-api
+- description: The Scheduled Payments API from Shawbrook Bank — 2 operation(s) for scheduled payments.
+  name: Shawbrook Bank Scheduled Payments API
+  slug: shawbrook-bank-scheduled-payments-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: Shawbrook Bank SME API
+  slug: shawbrook-bank-sme-api
+- description: The Standing Orders API from Shawbrook Bank — 2 operation(s) for standing orders.
+  name: Shawbrook Bank Standing Orders API
+  slug: shawbrook-bank-standing-orders-api
+- description: The Statements API from Shawbrook Bank — 5 operation(s) for statements.
+  name: Shawbrook Bank Statements API
+  slug: shawbrook-bank-statements-api
+- description: The Transactions API from Shawbrook Bank — 2 operation(s) for transactions.
+  name: Shawbrook Bank Transactions API
+  slug: shawbrook-bank-transactions-api
+artifact_total: 39
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-obie-opendata-swagger
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shawbrook-bank-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/OpenBankingUK/opendata-api-spec-compiled/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -144,10 +242,10 @@ modified: '2026-07-23'
 name: Shawbrook Bank
 nav: Providers
 network: true
-overview: 'Shawbrook Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Shawbrook Open Data API (OBIE Standard, Unverified), Shawbrook Account & Transaction Information API (AIS, OBIE Standard, Unverified), Shawbrook Payment Initiation API (PIS, OBIE Standard, Unverified), and 1 more. Tagged areas include Financial-Services, Banking, Savings, Specialist Lending, and Open Banking.
+overview: 'Shawbrook Bank publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 31 more. Tagged areas include Financial-Services, Banking, Savings, Specialist Lending, and Open Banking.
 
 
-  Shawbrook Bank''s developer surface includes authentication, engineering blog, support, and 18 more developer resources.'
+  Shawbrook Bank''s developer surface includes authentication, engineering blog, support, and 20 more developer resources.'
 random_paper: 5
 scopes:
 - name: Shawbrook Bank Scopes
@@ -156,18 +254,26 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 36.7
-  delta: 0.9
+  composite: 31.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 49.0
+    contract_governance: 4.5
+    contract_quality: 50.9
     developer_ergonomics: 30.4
-    discoverability: 83.3
-    governance: 16.7
+    discoverability: 72.2
+    governance: 4.5
     operational_transparency: 5.3
-  previous_composite: 35.8
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -179,12 +285,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

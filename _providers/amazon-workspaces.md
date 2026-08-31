@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 65
   slug: amazon-workspaces-agentic-access
   summary_line: 65 operations · 65 acting · 4 human-in-the-loop
-api_count: 65
+api_count: 1
 apis:
 - description: 'The #X Amz Target=WorkspacesService.AssociateConnectionAlias API from Amazon WorkSpaces — 1 operation(s) for #x amz target=workspacesservice.associateconnectionalias.'
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias API'
@@ -635,6 +635,10 @@ collections:
   name: 'Amazon WorkSpaces #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.AssociateConnectionAlias #X Amz Target=WorkspacesService.UpdateWorkspaceImagePermission API'
   slug: open-amazon-workspaces-x-amz-target-workspacesservice-updateworkspaceimagepermission-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-workspaces-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -3213,7 +3217,7 @@ overview: 'Amazon WorkSpaces publishes 65 APIs on the [APIs.io](https://apis.io/
   The Amazon WorkSpaces catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon WorkSpaces'' developer surface includes authentication, engineering blog, developer portal, documentation, support, developer console, signup flow, and 14 more developer resources.'
+  Amazon WorkSpaces'' developer surface includes authentication, engineering blog, developer portal, documentation, support, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon Workspaces Plans Pricing
   plan_count: 3
@@ -3246,19 +3250,24 @@ rules:
     warn: 11
   slug: amazon-workspaces-spectral-rules
 score:
-  band: strong
-  composite: 54.9
-  delta: 5.9
+  band: developing
+  composite: 51.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 66.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 28.8
-    contract_quality: 69.3
+    contract_quality: 65.2
     developer_ergonomics: 61.9
-    discoverability: 59.3
+    discoverability: 35.2
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 49.0
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     contracts:
@@ -3266,9 +3275,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 65
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-workspaces/refs/heads/main/screenshots/amazon-workspaces-2026-06-20T171849.png
 security:
 - kind: authentication

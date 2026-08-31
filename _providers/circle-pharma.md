@@ -23,18 +23,49 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 10
 apis:
-- description: 'The anonymously readable WordPress REST API behind circlepharma.com. It exposes Circle Pharma press releases, publications and in-the-news items (posts), site pages, the media library, the leadership '
-  name: Circle Pharma Content API
-  slug: circle-pharma-content-api
-artifact_total: 4
+- description: Post categories
+  name: Circle Pharma Categories API
+  slug: circle-pharma-categories-api
+- description: Comments on posts
+  name: Circle Pharma Comments API
+  slug: circle-pharma-comments-api
+- description: Route index, content types, taxonomies and statuses
+  name: Circle Pharma Discovery API
+  slug: circle-pharma-discovery-api
+- description: Upcoming and past events
+  name: Circle Pharma Events API
+  slug: circle-pharma-events-api
+- description: Media library items
+  name: Circle Pharma Media API
+  slug: circle-pharma-media-api
+- description: Static site pages (pipeline, science, clinical trials)
+  name: Circle Pharma Pages API
+  slug: circle-pharma-pages-api
+- description: Press releases, publications and in-the-news items
+  name: Circle Pharma Posts API
+  slug: circle-pharma-posts-api
+- description: Cross-content search
+  name: Circle Pharma Search API
+  slug: circle-pharma-search-api
+- description: Post tags
+  name: Circle Pharma Tags API
+  slug: circle-pharma-tags-api
+- description: Leadership, board and team member records
+  name: Circle Pharma Team API
+  slug: circle-pharma-team-api
+artifact_total: 13
 collections:
 - collection_type: open
   name: Circle Pharma Content API (WordPress REST API)
   slug: open-circle-pharma-content
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/circle-pharma-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -144,25 +175,30 @@ modified: '2026-08-01'
 name: Circle Pharma
 nav: Providers
 network: true
-overview: 'Circle Pharma publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Drug Discovery.
+overview: 'Circle Pharma publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Discovery API, and 7 more. Tagged areas include Company, biotechnology, pharmaceuticals, oncology, and drug-discovery.
 
 
-  Circle Pharma''s developer surface includes engineering blog, support, authentication, and 22 more developer resources.'
+  Circle Pharma''s developer surface includes engineering blog, support, authentication, and 23 more developer resources.'
 random_paper: 2
 score:
   band: thin
-  composite: 32.9
+  composite: 32.2
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 55.1
+    contract_governance: 4.5
+    contract_quality: 53.1
     developer_ergonomics: 20.8
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 32.9
+  previous_composite: 32.2
   provenance:
     conformance: derived
     contracts:
@@ -177,8 +213,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circle-pharma/refs/heads/main/screenshots/circle-pharma-2026-08-07T163423.png
 security:
@@ -193,13 +229,13 @@ security:
 slug: circle-pharma
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Oncology
-- Drug Discovery
-- Macrocycles
-- Clinical Trials
-- Life Sciences
+- biotechnology
+- pharmaceuticals
+- oncology
+- drug-discovery
+- macrocycles
+- clinical-trials
+- life-sciences
 - content-api
 website: https://circlepharma.com/
 ---

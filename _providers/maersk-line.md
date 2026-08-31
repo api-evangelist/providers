@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 20
   slug: maersk-line-agentic-access
   summary_line: 20 operations · 6 acting
-api_count: 11
+api_count: 8
 apis:
 - description: Container Maintenance and Repair (M&R) API surfacing equipment-management events and repair workflow data for Maersk container assets.
   name: Maersk Container Maintenance and Repair API
@@ -137,6 +137,10 @@ collections:
   name: Maersk Verified Gross Mass API
   slug: open-maersk-vgm-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/maersk-line-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -367,7 +371,7 @@ overview: 'Maersk publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   The Maersk catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Maersk''s developer surface includes authentication, developer portal, documentation, support, getting-started guide, FAQ, engineering blog, and 29 more developer resources.'
+  Maersk''s developer surface includes authentication, developer portal, documentation, support, getting-started guide, FAQ, engineering blog, and 30 more developer resources.'
 plans:
 - name: Maersk Line Plans Pricing
   plan_count: 5
@@ -407,7 +411,12 @@ scopes:
 score:
   band: developing
   composite: 48.5
-  delta: 0.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -417,7 +426,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 47.7
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     contracts:
@@ -425,8 +434,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/screenshots/maersk-line-2026-06-20T184832.png
 security:

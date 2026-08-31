@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: pendo-agentic-access
   summary_line: 13 operations · 3 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The Pendo Engage API provides programmatic access to product analytics data and in-app guide management — visitors, accounts, features, pages, guides, reports, metadata, and aggregations. Used to push
   name: Pendo Engage API
@@ -181,18 +181,23 @@ rate_limits:
   slug: pendo-rate-limits
 score:
   band: thin
-  composite: 29.1
-  delta: 0.0
+  composite: 28.1
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.7
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 50.3
-    developer_ergonomics: 23.8
-    discoverability: 64.8
+    developer_ergonomics: 17.9
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 29.1
+  previous_composite: 29.8
   provenance:
     agentic_access: derived
     contracts:
@@ -200,8 +205,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pendo/refs/heads/main/screenshots/pendo-2026-06-20T191536.png
 security:

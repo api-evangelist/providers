@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 8
 apis:
 - description: 'The core uShip marketplace API — a RESTful, hypermedia-driven JSON API over the shipment lifecycle: searching active listings, creating and retrieving listings by commodity category, bids and bid acce'
@@ -165,7 +165,7 @@ modified: '2026-08-02'
 name: uShip
 nav: Providers
 network: true
-overview: 'uShip publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Shipping, Logistics, Freight, Marketplace, and Transportation.
+overview: 'uShip publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Shipping, Logistics, freight, Marketplace, and Transportation.
 
 
   The uShip catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -176,6 +176,11 @@ random_paper: 7
 score:
   band: thin
   composite: 37.0
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
@@ -189,8 +194,8 @@ score:
   previous_composite: 37.0
   provenance:
     conformance: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uship/refs/heads/main/screenshots/uship-2026-08-17T082657.png
 security:
@@ -206,13 +211,13 @@ slug: uship
 tags:
 - Shipping
 - Logistics
-- Freight
+- freight
 - Marketplace
 - Transportation
 - auto-transport
 - ltl-freight
-- Last Mile Delivery
-- Shipment Tracking
+- last-mile-delivery
+- shipment-tracking
 - E-Commerce
 - Supply Chain
 - rate-quotes

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -23,7 +23,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
@@ -32,14 +32,92 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.1
-  scored_at: '2026-08-26'
-api_count: 1
+  score: 39.3
+  scored_at: '2026-08-30'
+api_count: 24
 apis:
-- description: REST API for managing customer communications including messaging, reviews, payments, webchat, contacts, automations, and webhooks for local businesses. Base URL is https://api.podium.com/v4/ and uses
-  name: Podium API
-  slug: podium-api
-artifact_total: 21
+- description: The Appointment API from Podium — 1 operation(s) for appointment.
+  name: Podium Appointment API
+  slug: podium-appointment-api
+- description: The Call API from Podium — 1 operation(s) for call.
+  name: Podium Call API
+  slug: podium-call-api
+- description: The Campaign API from Podium — 2 operation(s) for campaign.
+  name: Podium Campaign API
+  slug: podium-campaign-api
+- description: The Campaign Interaction API from Podium — 1 operation(s) for campaign interaction.
+  name: Podium Campaign Interaction API
+  slug: podium-campaign-interaction-api
+- description: The Contact API from Podium — 6 operation(s) for contact.
+  name: Podium Contact API
+  slug: podium-contact-api
+- description: The Contact Attribute API from Podium — 2 operation(s) for contact attribute.
+  name: Podium Contact Attribute API
+  slug: podium-contact-attribute-api
+- description: The Contact Tag API from Podium — 2 operation(s) for contact tag.
+  name: Podium Contact Tag API
+  slug: podium-contact-tag-api
+- description: The Conversation API from Podium — 4 operation(s) for conversation.
+  name: Podium Conversation API
+  slug: podium-conversation-api
+- description: The Conversation Assignee API from Podium — 1 operation(s) for conversation assignee.
+  name: Podium Conversation Assignee API
+  slug: podium-conversation-assignee-api
+- description: The Feedback API from Podium — 1 operation(s) for feedback.
+  name: Podium Feedback API
+  slug: podium-feedback-api
+- description: The Invoice API from Podium — 6 operation(s) for invoice.
+  name: Podium Invoice API
+  slug: podium-invoice-api
+- description: The Location API from Podium — 2 operation(s) for location.
+  name: Podium Location API
+  slug: podium-location-api
+- description: The Message API from Podium — 6 operation(s) for message.
+  name: Podium Message API
+  slug: podium-message-api
+- description: The Organization API from Podium — 1 operation(s) for organization.
+  name: Podium Organization API
+  slug: podium-organization-api
+- description: The Payment API from Podium — 1 operation(s) for payment.
+  name: Podium Payment API
+  slug: podium-payment-api
+- description: The Product API from Podium — 4 operation(s) for product.
+  name: Podium Product API
+  slug: podium-product-api
+- description: The Reader API from Podium — 1 operation(s) for reader.
+  name: Podium Reader API
+  slug: podium-reader-api
+- description: The Refund API from Podium — 2 operation(s) for refund.
+  name: Podium Refund API
+  slug: podium-refund-api
+- description: The Review API from Podium — 2 operation(s) for review.
+  name: Podium Review API
+  slug: podium-review-api
+- description: The Review Attribution API from Podium — 1 operation(s) for review attribution.
+  name: Podium Review Attribution API
+  slug: podium-review-attribution-api
+- description: The Review Invite API from Podium — 2 operation(s) for review invite.
+  name: Podium Review Invite API
+  slug: podium-review-invite-api
+- description: The Review Response API from Podium — 2 operation(s) for review response.
+  name: Podium Review Response API
+  slug: podium-review-response-api
+- description: The Review Sites Summary API from Podium — 1 operation(s) for review sites summary.
+  name: Podium Review Sites Summary API
+  slug: podium-review-sites-summary-api
+- description: The Review Summary API from Podium — 1 operation(s) for review summary.
+  name: Podium Review Summary API
+  slug: podium-review-summary-api
+- description: The Template API from Podium — 2 operation(s) for template.
+  name: Podium Template API
+  slug: podium-template-api
+- description: The User API from Podium — 2 operation(s) for user.
+  name: Podium User API
+  slug: podium-user-api
+- description: The Webhook API from Podium — 2 operation(s) for webhook.
+  name: Podium Webhook API
+  slug: podium-webhook-api
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Podium Webhooks
@@ -79,6 +157,58 @@ collections:
   name: Webhooks
   slug: open-podium-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/podium-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/podium-accounts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/podium-appointments-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/podium-campaigns-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/podium-contacts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/podium-conversations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/podium-feedback-surveys-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/podium-messenger-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/podium-payments-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/podium-phones-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/podium-products-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/podium-reviews-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/podium-webhooks-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -244,13 +374,13 @@ modified: '2026-08-14'
 name: Podium
 nav: Providers
 network: true
-overview: 'Podium publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Customer Communication, Reviews, Messaging, Payments, and Web Chat.
+overview: 'Podium publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Appointment API, Call API, Campaign API, and 24 more. Tagged areas include Customer Communication, Reviews, Messaging, Payments, and Webchat.
 
 
   The Podium catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Podium''s developer surface includes documentation, engineering blog, pricing, authentication, changelog, sandbox, API reference, and 30 more developer resources.'
+  Podium''s developer surface includes documentation, engineering blog, pricing, authentication, changelog, sandbox, API reference, and 43 more developer resources.'
 plans:
 - name: Podium Plans Pricing
   plan_count: 0
@@ -266,19 +396,24 @@ scopes:
   slug: podium-scopes
   summary_line: 25 scopes · authorizationCode
 score:
-  band: strong
-  composite: 55.6
-  delta: 0.0
+  band: developing
+  composite: 51.2
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -3.0
   facets:
-    access_clarity: 53.9
-    commercial_clarity: 53.9
-    contract_governance: 16.7
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 4.5
     contract_quality: 65.1
     developer_ergonomics: 43.5
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 43.4
-  previous_composite: 55.6
+  previous_composite: 54.2
   provenance:
     conformance: derived
     contracts:
@@ -293,9 +428,9 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 65.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 59.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podium/refs/heads/main/screenshots/podium-2026-06-20T191840.png
 security:
@@ -317,7 +452,7 @@ tags:
 - Reviews
 - Messaging
 - Payments
-- Web Chat
+- Webchat
 - Local Business
 - SMS
 - Lead Generation

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Storybook is an open-source frontend workshop for building UI components and pages in isolation. Supports React, Vue, Angular, Svelte, Web Components, Ember, Preact, and more. Core features include co
@@ -44,6 +44,26 @@ apis:
   slug: storybook-mcp
 artifact_total: 13
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/storybookjs/storybook/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/storybookjs/storybook/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/storybookjs/storybook/blob/next/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/storybookjs/storybook/blob/next/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/storybookjs/storybook/blob/next/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -127,13 +147,13 @@ modified: '2026-05-02'
 name: Storybook
 nav: Providers
 network: true
-overview: 'Storybook publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Accessibility Testing, Component Documentation, Component Testing, Design Systems, and Front-End Development.
+overview: 'Storybook publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Accessibility Testing, Component Documentation, Component Testing, Design Systems, and Frontend Development.
 
 
   The Storybook catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Storybook''s developer surface includes documentation, engineering blog, release notes, YouTube channel, and 8 more developer resources.'
+  Storybook''s developer surface includes documentation, engineering blog, release notes, YouTube channel, and 13 more developer resources.'
 plans:
 - name: Storybook Plans Pricing
   plan_count: 3
@@ -155,8 +175,13 @@ rules:
     warn: 4
   slug: storybook-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 20.0
+  band: thin
+  composite: 29.3
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 62.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -166,10 +191,13 @@ score:
     developer_ergonomics: 16.7
     discoverability: 59.3
     governance: 9.8
-    operational_transparency: 28.9
-  previous_composite: 20.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 29.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/storybook/refs/heads/main/screenshots/storybook-2026-06-20T194609.png
 security:
@@ -183,7 +211,7 @@ tags:
 - Component Documentation
 - Component Testing
 - Design Systems
-- Front-End Development
+- Frontend Development
 - Open-Source
 - React
 - UI Components

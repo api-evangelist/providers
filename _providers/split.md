@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 53
   slug: split-agentic-access
   summary_line: 53 operations · 28 acting · 1 human-in-the-loop
-api_count: 21
+api_count: 2
 apis:
 - description: 'The Split Admin API is a REST API that enables programmatic management of workspaces (projects), environments, traffic types, attributes, users, groups, API keys, and change requests within the Split '
   name: Split Admin API
@@ -62,18 +62,6 @@ apis:
 - description: The Split React SDK provides React-specific components and hooks for integrating feature flags including a SplitProvider context, useTreatments hooks, and conditional rendering components.
   name: Split React SDK
   slug: split-react-sdk
-- description: Create and delete API keys for authenticating with the Split platform, with configurable roles and scopes.
-  name: Split API Keys API
-  slug: split-api-keys-api
-- description: Manage attributes used in targeting rules for feature flag definitions.
-  name: Split Attributes API
-  slug: split-attributes-api
-- description: Manage change requests for controlled approval workflows when modifying feature flag definitions.
-  name: Split Change Requests API
-  slug: split-change-requests-api
-- description: Manage environments within workspaces for deploying and testing feature flags across stages such as staging and production.
-  name: Split Environments API
-  slug: split-environments-api
 - description: Endpoints for evaluating feature flags and retrieving treatment values for given keys and feature flag names.
   name: Split Evaluation API
   slug: split-evaluation-api
@@ -86,28 +74,7 @@ apis:
 - description: Create, retrieve, update, and delete feature flags (splits) within workspaces. Feature flags represent the toggles used to control feature rollouts.
   name: Split Feature Flags API
   slug: split-feature-flags-api
-- description: Manage groups for organizing users and assigning permissions.
-  name: Split Groups API
-  slug: split-groups-api
-- description: Manage identities (keys) within segments.
-  name: Split Identities API
-  slug: split-identities-api
-- description: Manage large segments optimized for high-volume identity lists.
-  name: Split Large Segments API
-  slug: split-large-segments-api
-- description: Manage segments which define reusable groups of identities for targeting.
-  name: Split Segments API
-  slug: split-segments-api
-- description: Manage traffic types which define the entities (users, accounts, etc.) that feature flags target.
-  name: Split Traffic Types API
-  slug: split-traffic-types-api
-- description: Manage users within the Split account, including inviting new users and updating user roles.
-  name: Split Users API
-  slug: split-users-api
-- description: Manage workspaces (projects) which organize feature flags and experiments across business units, product lines, and applications.
-  name: Split Workspaces API
-  slug: split-workspaces-api
-artifact_total: 133
+artifact_total: 122
 collections:
 - collection_type: postman
   name: Split Admin API
@@ -496,7 +463,7 @@ modified: '2026-05-19'
 name: Split
 nav: Providers
 network: true
-overview: 'Split publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Admin API, API Keys API, Attributes API, and 13 more. Tagged areas include Experimentation, Feature Flags, Feature Management, Rollouts, and SDK.
+overview: 'Split publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Evaluation API, Events API, and 2 more. Tagged areas include Experimentation, Feature Flags, Feature Management, Rollouts, and SDK.
 
 
   The Split catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -536,18 +503,23 @@ rules:
   slug: split-rules
 score:
   band: developing
-  composite: 42.0
-  delta: 0.0
+  composite: 40.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 28.8
-    contract_quality: 62.9
+    contract_quality: 59.0
     developer_ergonomics: 38.1
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 42.0
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -555,8 +527,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/split/refs/heads/main/screenshots/split-2026-06-20T194330.png
 security:

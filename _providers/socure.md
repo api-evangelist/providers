@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,14 +42,8 @@ agentic_access:
   operation_count: 12
   slug: socure-agentic-access
   summary_line: 12 operations · 9 acting
-api_count: 8
+api_count: 3
 apis:
-- description: Socure's rule-based decisioning module returns a single deterministic outcome — accept, reject, review, refer, or resubmit — derived from ID+ module scores and customer-configured rules. Decision rule
-  name: Socure Decision API
-  slug: socure-decision-api
-- description: Real-time validation of US bank accounts — verifying open/closed status, ownership (name match), and account-type signals. Powers funding-account checks for fintech onboarding, payroll, and ACH origin
-  name: Socure Account Intelligence API
-  slug: socure-account-intelligence-api
 - description: RiskOS is Socure's identity and fraud orchestration platform that combines ID+ modules, customer-configured workflows, case management, and a no-code rules editor under a unified API. RiskOS Enterpris
   name: Socure RiskOS API
   slug: socure-riskos-api
@@ -96,7 +90,7 @@ arazzos:
 - description: List open watchlist monitoring alerts for a profile and move a selected alert through its disposition.
   name: Socure Watchlist Alert Triage
   slug: socure-watchlist-alert-triage-workflow
-artifact_total: 71
+artifact_total: 69
 asyncapis:
 - description: Webhook event stream emitted by the Socure Predictive DocV service to notify the integrator of session lifecycle events. The customer registers a webhook URL when creating a DocV transaction; Socure P
   name: Socure DocV Webhooks
@@ -428,7 +422,7 @@ modified: '2026-05-25'
 name: socure
 nav: Providers
 network: true
-overview: 'socure publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Decision API, Account Intelligence API, Alerts API, and 4 more.
+overview: 'socure publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, ID+ API, Monitoring API, and 2 more.
 
 
   The socure catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -479,18 +473,23 @@ rules:
   slug: socure-rules
 score:
   band: strong
-  composite: 64.3
+  composite: 64.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 30.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
     contract_governance: 28.8
-    contract_quality: 70.3
+    contract_quality: 71.7
     developer_ergonomics: 66.7
     discoverability: 63.0
     governance: 28.8
     operational_transparency: 60.5
-  previous_composite: 64.3
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     contracts:
@@ -502,8 +501,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/screenshots/socure-2026-06-20T194123.png
 security:

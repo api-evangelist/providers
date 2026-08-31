@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 27
   slug: uniblock-agentic-access
   summary_line: 27 operations · 3 acting
-api_count: 7
+api_count: 2
 apis:
 - description: The Uniblock JSON-RPC API provides a single endpoint for standard JSON-RPC calls across hundreds of blockchain networks. Rather than managing individual node provider connections for each chain, devel
   name: Uniblock JSON-RPC API
@@ -267,18 +267,23 @@ rules:
   slug: uniblock-rules
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 38.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
     contract_governance: 28.8
     contract_quality: 70.3
     developer_ergonomics: 23.8
-    discoverability: 64.8
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 37.8
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -286,8 +291,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/screenshots/uniblock-2026-06-20T200030.png
 security:

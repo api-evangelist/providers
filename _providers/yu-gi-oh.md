@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -332,18 +332,23 @@ rules:
   slug: yu-gi-oh-rules
 score:
   band: thin
-  composite: 28.2
-  delta: 7.6
+  composite: 28.3
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 28.8
-    contract_quality: 23.3
+    contract_quality: 23.7
     developer_ergonomics: 26.2
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 20.6
+  previous_composite: 28.3
   provenance:
     agentic_access: derived
     contracts:
@@ -357,9 +362,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/screenshots/yu-gi-oh-2026-06-20T201751.png
 security:
 - kind: domain-security

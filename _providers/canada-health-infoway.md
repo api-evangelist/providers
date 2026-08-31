@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,13 +43,40 @@ agentic_access:
   summary_line: 60 operations · 6 acting
 api_count: 2
 apis:
-- description: HL7 FHIR R4 (4.0.1) terminology service from Canada Health Infoway's Terminology Gateway (HAPI FHIR), exposing CodeSystem, ValueSet, ConceptMap, and OperationDefinition resources with read/vread/histo
-  name: Infoway FHIR Terminology Service API
-  slug: infoway-fhir-terminology-service-api
-- description: RESTful (non-FHIR) terminology API from Canada Health Infoway for browsing and downloading Canadian terminology content - code systems, subsets (value sets), maps, resource locations, and packages - w
-  name: Infoway Terminology Service API
-  slug: infoway-terminology-service-api
-artifact_total: 9
+- description: The CapabilityStatement API from Canada Health Infoway — 1 operation(s) for capabilitystatement.
+  name: Canada Health Infoway Capability Statement API
+  slug: canada-health-infoway-capabilitystatement-api
+- description: The CodeSystem API from Canada Health Infoway — 5 operation(s) for codesystem.
+  name: Canada Health Infoway Code System API
+  slug: canada-health-infoway-codesystem-api
+- description: APIs for accessing code system data
+  name: Canada Health Infoway Codesystems API
+  slug: canada-health-infoway-codesystems-api
+- description: The ConceptMap API from Canada Health Infoway — 5 operation(s) for conceptmap.
+  name: Canada Health Infoway Concept Map API
+  slug: canada-health-infoway-conceptmap-api
+- description: APIs for accessing map data
+  name: Canada Health Infoway Maps API
+  slug: canada-health-infoway-maps-api
+- description: APIs for accessing user notifications
+  name: Canada Health Infoway Notification API
+  slug: canada-health-infoway-notification-api
+- description: APIs for accessing package data
+  name: Canada Health Infoway Packages API
+  slug: canada-health-infoway-packages-api
+- description: APIs for accessing resource location data
+  name: Canada Health Infoway Resourcelocations API
+  slug: canada-health-infoway-resourcelocations-api
+- description: APIs for programmatically logging in
+  name: Canada Health Infoway Session API
+  slug: canada-health-infoway-session-api
+- description: APIs for terminology subsets
+  name: Canada Health Infoway Subsets API
+  slug: canada-health-infoway-subsets-api
+- description: The ValueSet API from Canada Health Infoway — 8 operation(s) for valueset.
+  name: Canada Health Infoway Value Set API
+  slug: canada-health-infoway-valueset-api
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Canada Health Infoway Notifications Webhooks
@@ -175,7 +202,7 @@ modified: '2026-07-24'
 name: Canada Health Infoway
 nav: Providers
 network: true
-overview: 'Canada Health Infoway publishes 2 APIs on the [APIs.io](https://apis.io/) network: Infoway FHIR Terminology Service API and Infoway Terminology Service API. Tagged areas include Healthcare, Canada, FHIR, HL7, and Interoperability.
+overview: 'Canada Health Infoway publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Capability Statement API, Code System API, Codesystems API, and 8 more. Tagged areas include Healthcare, Canada, FHIR, HL7, and Interoperability.
 
 
   The Canada Health Infoway catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -185,18 +212,23 @@ overview: 'Canada Health Infoway publishes 2 APIs on the [APIs.io](https://apis.
 random_paper: 6
 score:
   band: developing
-  composite: 43.4
-  delta: 0.0
+  composite: 42.5
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 30.3
-    contract_quality: 51.5
+    contract_governance: 18.2
+    contract_quality: 53.7
     developer_ergonomics: 42.3
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 43.4
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -213,8 +245,8 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/screenshots/canada-health-infoway-2026-07-25T204326.png
 security:

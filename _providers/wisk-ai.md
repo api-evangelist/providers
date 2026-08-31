@@ -25,15 +25,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-26'
+  score: 24.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,24 +41,15 @@ agentic_access:
   operation_count: 1
   slug: wisk-ai-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 5
+api_count: 1
 apis:
-- description: 'Tracks bottles, ingredients, and SKUs with counts, par levels, and variance across the venue''s item catalog. Exposed in the WISK product and apps; not published as a public, self-serve developer API. '
-  name: WISK Inventory & Items API
-  slug: wisk-ai-inventory-items-api
-- description: Organizes inventory, users, and reporting per venue (location) for single sites and multi-location groups. Surfaced in the WISK platform; not published as a public, self-serve developer API.
-  name: WISK Venues API
-  slug: wisk-ai-venues-api
-- description: Captures, AI-processes, and reconciles supplier invoices against purchases and pricing to track cost of goods. Available in the WISK product; not published as a public, self-serve developer API.
-  name: WISK Invoices API
-  slug: wisk-ai-invoices-api
-- description: Partner-gated integration for POS providers to push sales data (POS code or item name, quantity sold, net sales) into WISK customer accounts via a documented Public Sales upload flow. WISK can alterna
-  name: WISK POS Integration (Public Sales Upload) API
-  slug: wisk-ai-pos-integration-api
 - description: No public, documented webhook or event-subscription surface is published by WISK as of this catalog date. Event-driven exchange with POS partners is arranged through WISK's partner integration process
   name: WISK Webhooks
   slug: wisk-ai-webhooks
-artifact_total: 30
+- description: Push point-of-sale sales line items into a WISK venue account.
+  name: WISK Sales API
+  slug: wisk-ai-sales-api
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -184,7 +175,7 @@ modified: '2026-08-08'
 name: WISK
 nav: Providers
 network: true
-overview: 'WISK publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Inventory & Items API, Venues API, Invoices API, and 1 more. Tagged areas include Inventory, Restaurant, Bar, Hospitality, and Cost Management.
+overview: 'WISK publishes 1 API on the [APIs.io](https://apis.io/) network: Sales API. Tagged areas include Inventory, Restaurant, Bar, Hospitality, and Cost Management.
 
 
   The WISK catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -224,18 +215,23 @@ rules:
   slug: wisk-ai-spectral-rules
 score:
   band: thin
-  composite: 32.4
+  composite: 33.7
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
     contract_governance: 28.8
-    contract_quality: 10.7
+    contract_quality: 18.0
     developer_ergonomics: 28.6
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 21.1
-  previous_composite: 32.4
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -243,8 +239,8 @@ score:
       derived: 1
       marker_coverage: 100.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/screenshots/wisk-ai-2026-06-20T201524.png
 security:

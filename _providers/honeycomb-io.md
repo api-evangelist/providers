@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 85
   slug: honeycomb-io-agentic-access
   summary_line: 85 operations · 50 acting
-api_count: 22
+api_count: 13
 apis:
 - description: API Keys have various scopes permissions and belong to a specific Team or Environment. Any valid Honeycomb ingest or configuration API Key will work with this endpoint. Learn more about [API keys](htt
   name: Honeycomb Auth API
@@ -698,18 +698,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 84.8
-  delta: 24.8
+  composite: 82.3
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 43.9
+    contract_governance: 31.8
     contract_quality: 74.2
     developer_ergonomics: 100.0
-    discoverability: 87.0
-    governance: 43.9
+    discoverability: 75.9
+    governance: 31.8
     operational_transparency: 94.7
-  previous_composite: 60.0
+  previous_composite: 82.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -720,9 +725,9 @@ score:
       total: 22
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/screenshots/honeycomb-io-2026-06-20T182823.png
 security:
 - kind: authentication

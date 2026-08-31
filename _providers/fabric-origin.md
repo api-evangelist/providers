@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 23
   slug: fabric-origin-agentic-access
   summary_line: 23 operations · 5 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The Entertainment API ingests and serves metadata for movies, television shows, and games, including identifiers used to retrieve associated videos and images from sibling APIs. Responses are availabl
   name: Fabric Origin Entertainment API
@@ -86,6 +86,10 @@ collections:
   name: Fabric Origin Entertainment Data APIs
   slug: open-fabric-origin
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fabric-origin-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -129,7 +133,7 @@ network: true
 overview: 'Fabric Origin publishes 3 APIs on the [APIs.io](https://apis.io/) network: Entertainment API, Images API, and Videos API. Tagged areas include Entertainment, Movies, Television, Games, and Trailers.
 
 
-  Fabric Origin''s developer surface includes authentication, documentation, and 5 more developer resources.'
+  Fabric Origin''s developer surface includes authentication, documentation, and 6 more developer resources.'
 plans:
 - name: Fabric Origin Plans Pricing
   plan_count: 3
@@ -141,15 +145,20 @@ rate_limits:
   slug: fabric-origin-rate-limits
 score:
   band: thin
-  composite: 29.6
-  delta: 0.0
+  composite: 29.0
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 47.2
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 29.6
@@ -160,8 +169,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/screenshots/fabric-origin-2026-06-20T181001.png
 security:

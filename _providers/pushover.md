@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 6
   slug: pushover-agentic-access
   summary_line: 6 operations · 3 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Real-time client API for Pushover. Combines a WebSocket channel at wss://client.pushover.net/push that streams single-byte control frames (`#` keepalive, `!` new message, `R` reload, `E` permanent err
   name: Pushover Open Client API
@@ -146,15 +146,20 @@ overview: 'Pushover publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 10
 score:
   band: thin
-  composite: 31.4
-  delta: 0.0
+  composite: 30.9
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 54.2
     developer_ergonomics: 16.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 31.4
@@ -165,8 +170,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pushover/refs/heads/main/screenshots/pushover-2026-06-20T192319.png
 security:

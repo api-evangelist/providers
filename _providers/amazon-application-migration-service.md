@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 45
   slug: amazon-application-migration-service-agentic-access
   summary_line: 45 operations · 43 acting · 1 human-in-the-loop
-api_count: 10
+api_count: 1
 apis:
 - description: Application groupings for migration
   name: Amazon Application Migration Service Applications API
@@ -1119,16 +1119,21 @@ rules:
   slug: amazon-application-migration-service-spectral-rules
 score:
   band: thin
-  composite: 33.3
-  delta: 2.5
+  composite: 30.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 73.7
     developer_ergonomics: 11.9
-    discoverability: 70.4
-    governance: 45.5
+    discoverability: 53.7
+    governance: 33.3
     operational_transparency: 0.0
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -1136,7 +1141,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 30.8
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1146,8 +1151,8 @@ score:
       marker_coverage: 0.0
       total: 10
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/screenshots/amazon-application-migration-service-2026-07-25T195925.png
 security:

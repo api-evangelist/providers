@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,14 +42,8 @@ agentic_access:
   operation_count: 11
   slug: pypi-agentic-access
   summary_line: 11 operations · 1 acting
-api_count: 6
+api_count: 3
 apis:
-- description: 'The PyPI Index API implements the PEP 503 (HTML) and PEP 691 (JSON) simple repository standards for discovering and downloading Python packages. It provides a machine-readable index of all registered '
-  name: PyPI Index API
-  slug: index
-- description: 'The PyPI Upload API is the endpoint used by tools like twine and build frontends to publish Python package distributions to the Python Package Index. Served at upload.pypi.org, it emulates the legacy '
-  name: PyPI Upload API
-  slug: upload
 - description: 'PyPI provides RSS feeds that allow developers and tools to monitor package activity on the Python Package Index. Three feeds are available: the Newest Packages feed for recently registered projects, t'
   name: PyPI RSS Feeds
   slug: feeds
@@ -62,7 +56,7 @@ apis:
 - description: Retrieve digital attestations and provenance information for Python package distribution files hosted on PyPI.
   name: PyPI Provenance API
   slug: pypi-provenance-api
-artifact_total: 26
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -168,7 +162,7 @@ modified: '2026-05-19'
 name: PyPI
 nav: Providers
 network: true
-overview: 'PyPI publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Index API, Upload API, Downloads API, and 2 more. Tagged areas include Developer Tools, Open-Source, Package Management, Packages, and Python.
+overview: 'PyPI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Downloads API, Projects API, and Provenance API. Tagged areas include Developer Tools, Open-Source, Package Management, Packages, and Python.
 
 
   The PyPI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -197,18 +191,23 @@ rules:
   slug: pypi-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.4
+  composite: 36.5
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 64.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 30.3
     commercial_clarity: 30.3
     contract_governance: 9.8
-    contract_quality: 56.2
+    contract_quality: 56.5
     developer_ergonomics: 38.1
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 36.4
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -216,8 +215,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/screenshots/pypi-2026-06-20T192329.png
 security:

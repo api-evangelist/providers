@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 7
   slug: nominatim-agentic-access
   summary_line: 7 operations
-api_count: 7
+api_count: 1
 apis:
 - description: Objects removed from OpenStreetMap but retained in Nominatim.
   name: Nominatim Deletable API
@@ -302,7 +302,7 @@ modified: '2026-05-29'
 name: Nominatim
 nav: Providers
 network: true
-overview: 'Nominatim publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Deletable API, Details API, Lookup API, and 4 more. Tagged areas include Geocoding, OpenStreetMap, Maps, Location Services, and Open-Source.
+overview: 'Nominatim publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Deletable API, Details API, Lookup API, and 4 more. Tagged areas include Geocoding, OpenStreetMap, Maps, LocationServices, and OpenSource.
 
 
   The Nominatim catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -342,18 +342,26 @@ rules:
   slug: nominatim-rules
 score:
   band: developing
-  composite: 43.3
-  delta: 3.6
+  composite: 47.0
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 42.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 3.7
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 28.8
     contract_quality: 65.5
     developer_ergonomics: 26.2
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 28.9
-  previous_composite: 39.7
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -361,8 +369,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nominatim/refs/heads/main/screenshots/nominatim-2026-06-20T190357.png
 security:
@@ -382,8 +390,8 @@ tags:
 - Geocoding
 - OpenStreetMap
 - Maps
-- Location Services
-- Open-Source
+- LocationServices
+- OpenSource
 - Public APIs
 use_cases:
 - description: Power "find a place" search boxes in OSM-based map applications.

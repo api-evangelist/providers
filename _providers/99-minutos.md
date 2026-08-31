@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 29
   slug: 99-minutos-agentic-access
   summary_line: 29 operations · 16 acting
-api_count: 9
+api_count: 1
 apis:
 - description: The coverage API from 99 Minutos — 1 operation(s) for coverage.
   name: 99 Minutos coverage API
@@ -107,6 +107,10 @@ collections:
   name: API Version 3 coverage webhooks API
   slug: open-99-minutos-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/99-minutos-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -253,7 +257,7 @@ overview: '99 Minutos publishes 9 APIs on the [APIs.io](https://apis.io/) networ
   The 99 Minutos catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  99 Minutos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
+  99 Minutos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
 random_paper: 18
 rate_limits:
 - limit_count: 1
@@ -261,18 +265,23 @@ rate_limits:
   slug: 99-minutos-rate-limits
 score:
   band: developing
-  composite: 47.8
-  delta: 0.0
+  composite: 45.8
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 57.8
     developer_ergonomics: 47.0
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 47.8
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -283,8 +292,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/screenshots/99-minutos-2026-07-25T181252.png
 security:

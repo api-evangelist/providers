@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 113
   slug: transifex-agentic-access
   summary_line: 113 operations · 57 acting
-api_count: 18
+api_count: 1
 apis:
 - description: The Activity Reports API from Transifex — 9 operation(s) for activity reports.
   name: Transifex Activity Reports API
@@ -261,7 +261,7 @@ modified: '2026-06-13'
 name: Transifex
 nav: Providers
 network: true
-overview: 'Transifex publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Activity Reports API, Context Screenshots API, Glossaries API, and 15 more. Tagged areas include Localization, Translation, i18n, L10n, and Language.
+overview: 'Transifex publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Activity Reports API, Context Screenshots API, Glossaries API, and 15 more. Tagged areas include Localization, Translation, i18n, l10n, and Language.
 
 
   The Transifex catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -290,18 +290,23 @@ rules:
   slug: transifex-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.5
-  delta: 1.8
+  composite: 43.3
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 37.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
-    contract_quality: 71.1
+    contract_quality: 72.3
     developer_ergonomics: 13.1
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 21.1
-  previous_composite: 41.7
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     contracts:
@@ -309,8 +314,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/screenshots/transifex-2026-06-20T195541.png
 security:
@@ -327,7 +332,7 @@ tags:
 - Localization
 - Translation
 - i18n
-- L10n
+- l10n
 - Language
 - Content Management
 - Workflow-Automation

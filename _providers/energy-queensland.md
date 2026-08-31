@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,18 +31,36 @@ agentic_access:
   operation_count: 27
   slug: energy-queensland-agentic-access
   summary_line: 27 operations
-api_count: 3
+api_count: 2
 apis:
-- description: 'The unauthenticated Consumer Data Right Product Reference Data surface for Energy Queensland''s retail brand, Ergon Energy Retail - Get Generic Plans and Get Generic Plan Detail from the Consumer Data '
-  name: Ergon Energy Retail CDR Energy Product Reference Data API
-  slug: ergon-energy-retail-cdr-energy-product-reference-data-api
-- description: Ergon Energy Retail's own registered Consumer Data Right public base URI, serving the two unauthenticated Data Holder Operations endpoints of the Consumer Data Standards CDR Common API - Get Status an
-  name: Ergon Energy Retail CDR Discovery API
-  slug: ergon-energy-retail-cdr-discovery-api
-- description: The consumer-authorised half of the Consumer Data Right energy obligation that Ergon Energy Queensland Pty Ltd is designated to meet as a data holder - electricity service points, usage, distributed e
-  name: Ergon Energy Retail CDR Energy Consumer Data API
-  slug: ergon-energy-retail-cdr-energy-consumer-data-api
-artifact_total: 11
+- description: Data Holder Customer endpoints
+  name: Energy Queensland Data Holder Customers API
+  slug: energy-queensland-data-holder-customers-api
+- description: Data Holder Operations endpoints
+  name: Energy Queensland Data Holder Operations API
+  slug: energy-queensland-data-holder-operations-api
+- description: Distributed Energy Resource endpoints
+  name: Energy Queensland Distributed Energy Resources API
+  slug: energy-queensland-distributed-energy-resources-api
+- description: Electricity Service Point endpoints
+  name: Energy Queensland Electricity Service Points API
+  slug: energy-queensland-electricity-service-points-api
+- description: Electricity Usage endpoints
+  name: Energy Queensland Electricity Usage API
+  slug: energy-queensland-electricity-usage-api
+- description: Energy Account Balance endpoints
+  name: Energy Queensland Energy Account Balances API
+  slug: energy-queensland-energy-account-balances-api
+- description: Energy Account Billing endpoints
+  name: Energy Queensland Energy Account Billing API
+  slug: energy-queensland-energy-account-billing-api
+- description: Energy Account endpoints
+  name: Energy Queensland Energy Accounts API
+  slug: energy-queensland-energy-accounts-api
+- description: Energy Plan endpoints
+  name: Energy Queensland Energy Plans API
+  slug: energy-queensland-energy-plans-api
+artifact_total: 17
 collections:
 - collection_type: open
   name: CDR Common API
@@ -51,6 +69,18 @@ collections:
   name: CDR Energy API
   slug: open-energy-queensland-cds-energy
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/energy-queensland-read-ergon-tariff-plans.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/energy-queensland-check-cdr-availability.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/energy-queensland-consume-accredited-energy-data.md
 - group: agent
   title: ''
   type: MCPServer
@@ -180,10 +210,10 @@ modified: '2026-07-27'
 name: Energy Queensland
 nav: Providers
 network: true
-overview: 'Energy Queensland publishes 3 APIs on the [APIs.io](https://apis.io/) network: Ergon Energy Retail CDR Energy Product Reference Data API, Ergon Energy Retail CDR Discovery API, and Ergon Energy Retail CDR Energy Consumer Data API. Tagged areas include Energy, Australia, Utilities, Electricity, and Grid.
+overview: 'Energy Queensland publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Data Holder Customers API, Data Holder Operations API, Distributed Energy Resources API, and 6 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Grid.
 
 
-  Energy Queensland''s developer surface includes authentication, changelog, API reference, status page, documentation, and 24 more developer resources.'
+  Energy Queensland''s developer surface includes authentication, changelog, API reference, status page, documentation, and 27 more developer resources.'
 random_paper: 3
 rate_limits:
 - limit_count: 15
@@ -196,18 +226,23 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.7
-  delta: 0.0
+  composite: 43.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_governance: 30.3
-    contract_quality: 49.7
+    contract_governance: 18.2
+    contract_quality: 51.0
     developer_ergonomics: 30.4
-    discoverability: 64.8
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 43.7
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -224,8 +259,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energy-queensland/refs/heads/main/screenshots/energy-queensland-2026-08-07T164903.png
 security:

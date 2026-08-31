@@ -1,145 +1,154 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free · No signup, anonymous read
+  onboarding: open
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
   - authentication
+  - plans
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-08-26'
+  score: 21.0
+  scored_at: '2026-08-30'
 agentic_access:
-- acting_count: 81
-  human_in_the_loop: 2
+- acting_count: 0
+  human_in_the_loop: 0
   name: University Of The Witwatersrand Agentic Access
-  operation_count: 166
+  operation_count: 9
   slug: university-of-the-witwatersrand-agentic-access
-  summary_line: 166 operations · 81 acting · 2 human-in-the-loop
-api_count: 15
+  summary_line: 9 operations
+api_count: 2
 apis:
-- description: The altmetric API from University of the Witwatersrand — 1 operation(s) for altmetric.
-  name: University of the Witwatersrand altmetric API
-  slug: university-of-the-witwatersrand-altmetric-api
-- description: The articles API from University of the Witwatersrand — 34 operation(s) for articles.
-  name: University of the Witwatersrand articles API
-  slug: university-of-the-witwatersrand-articles-api
-- description: The authors API from University of the Witwatersrand — 2 operation(s) for authors.
-  name: University of the Witwatersrand authors API
-  slug: university-of-the-witwatersrand-authors-api
-- description: The collections API from University of the Witwatersrand — 23 operation(s) for collections.
-  name: University of the Witwatersrand collections API
-  slug: university-of-the-witwatersrand-collections-api
-- description: Top-level and sub-community containers
-  name: University of the Witwatersrand Communities API
-  slug: university-of-the-witwatersrand-communities-api
-- description: Browse and search/discovery endpoints
-  name: University of the Witwatersrand Discovery API
-  slug: university-of-the-witwatersrand-discovery-api
-- description: The institutions API from University of the Witwatersrand — 20 operation(s) for institutions.
-  name: University of the Witwatersrand institutions API
-  slug: university-of-the-witwatersrand-institutions-api
-- description: Repository items (records)
-  name: University of the Witwatersrand Items API
-  slug: university-of-the-witwatersrand-items-api
-- description: The oauth API from University of the Witwatersrand — 1 operation(s) for oauth.
-  name: University of the Witwatersrand oauth API
-  slug: university-of-the-witwatersrand-oauth-api
-- description: The other API from University of the Witwatersrand — 7 operation(s) for other.
-  name: University of the Witwatersrand other API
-  slug: university-of-the-witwatersrand-other-api
-- description: The profiles API from University of the Witwatersrand — 2 operation(s) for profiles.
-  name: University of the Witwatersrand profiles API
-  slug: university-of-the-witwatersrand-profiles-api
-- description: The projects API from University of the Witwatersrand — 17 operation(s) for projects.
-  name: University of the Witwatersrand projects API
-  slug: university-of-the-witwatersrand-projects-api
-- description: The Request API from University of the Witwatersrand — 1 operation(s) for request.
-  name: University of the Witwatersrand Request API
-  slug: university-of-the-witwatersrand-request-api
-- description: HAL/JSON API root document
-  name: University of the Witwatersrand Root API
+- description: HAL/JSON root document of the WIReDSpace DSpace 9.2 REST API, advertising 80 endpoint links including communities, collections, items, discovery, authn and identifiers. Operated by the University of t
+  name: WIReDSpace DSpace REST Root API
   slug: university-of-the-witwatersrand-root-api
-- description: The symplectic API from University of the Witwatersrand — 5 operation(s) for symplectic.
-  name: University of the Witwatersrand symplectic API
-  slug: university-of-the-witwatersrand-symplectic-api
-artifact_total: 48
+- description: Top-level and sub-community containers in WIReDSpace, aligned to Wits faculties, schools and research groupings. Anonymous read, paginated HAL collections.
+  name: WIReDSpace DSpace REST Communities API
+  slug: university-of-the-witwatersrand-communities-api
+- description: 'Collections of items within WIReDSpace communities. Repaired on 2026-08-30: this contract had been welded to twenty-one Figshare /collections and /account/collections paths by a per-tag split across t'
+  name: WIReDSpace DSpace REST Collections API
+  slug: university-of-the-witwatersrand-collections-api
+- description: Individual repository records — theses, dissertations, research articles and reports — each with Dublin Core metadata, bitstreams and a Handle under the 10539 prefix.
+  name: WIReDSpace DSpace REST Items API
+  slug: university-of-the-witwatersrand-items-api
+- description: Browse indexes and the search/discovery endpoint over WIReDSpace holdings, plus an OpenSearch 1.1 description document at /server/opensearch/service.
+  name: WIReDSpace DSpace REST Discovery API
+  slug: university-of-the-witwatersrand-discovery-api
+- description: OAI-PMH 2.0 metadata harvesting endpoint for WIReDSpace. Single-endpoint, verb-driven, answering anonymously, advertising thirteen metadata prefixes (oai_dc, qdc, dim, mets, mods, ore, didl, rdf, marc
+  name: WIReDSpace OAI-PMH Interface
+  slug: university-of-the-witwatersrand-request-api
+- description: The Wits research data repository. The hostname opendata.wits.ac.za is the university's and CNAMEs to proxy-eu-01.figshare.com; the DOIs are minted under the Wits DataCite prefix 10.71796 through Data
+  name: Wits Open Data Vault (Figshare tenant)
+  slug: university-of-the-witwatersrand-open-data-vault
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
   slug: open-.refine-report
 - collection_type: open
-  name: Figshare altmetric API
-  slug: open-university-of-the-witwatersrand-altmetric-api
-- collection_type: open
-  name: Figshare altmetric articles API
-  slug: open-university-of-the-witwatersrand-articles-api
-- collection_type: open
-  name: Figshare altmetric authors API
-  slug: open-university-of-the-witwatersrand-authors-api
-- collection_type: open
-  name: Figshare altmetric collections API
+  name: WIReDSpace DSpace REST Collections API
   slug: open-university-of-the-witwatersrand-collections-api
 - collection_type: open
-  name: Figshare altmetric Communities API
+  name: WIReDSpace DSpace REST Communities API
   slug: open-university-of-the-witwatersrand-communities-api
 - collection_type: open
-  name: Figshare altmetric Discovery API
+  name: WIReDSpace DSpace REST Discovery API
   slug: open-university-of-the-witwatersrand-discovery-api
 - collection_type: open
-  name: Figshare altmetric institutions API
-  slug: open-university-of-the-witwatersrand-institutions-api
-- collection_type: open
-  name: Figshare altmetric Items API
+  name: WIReDSpace DSpace REST Items API
   slug: open-university-of-the-witwatersrand-items-api
 - collection_type: open
-  name: Figshare altmetric oauth API
-  slug: open-university-of-the-witwatersrand-oauth-api
-- collection_type: open
-  name: Figshare altmetric other API
-  slug: open-university-of-the-witwatersrand-other-api
-- collection_type: open
-  name: Figshare altmetric profiles API
-  slug: open-university-of-the-witwatersrand-profiles-api
-- collection_type: open
-  name: Figshare altmetric projects API
-  slug: open-university-of-the-witwatersrand-projects-api
-- collection_type: open
-  name: Figshare altmetric Request API
+  name: WIReDSpace OAI-PMH Interface Request API
   slug: open-university-of-the-witwatersrand-request-api
 - collection_type: open
-  name: Figshare altmetric Root API
+  name: WIReDSpace DSpace REST Root API
   slug: open-university-of-the-witwatersrand-root-api
-- collection_type: open
-  name: Figshare altmetric symplectic API
-  slug: open-university-of-the-witwatersrand-symplectic-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.wits.ac.za/
+- group: company
+  title: ''
+  type: About
+  url: https://www.wits.ac.za/about-wits/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://wiredspace.wits.ac.za/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://opendata.wits.ac.za/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://idp.wits.ac.za/safss/saml2/idp/metadata.php
+- group: build
+  title: ''
+  type: Library
+  url: https://www.wits.ac.za/library/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://www.wits.ac.za/course-finder/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.wits.ac.za/ai-policies/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.wits.ac.za/news/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.wits.ac.za/site-assets/small-footer/terms-and-conditions-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.wits.ac.za/popia/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/WitsSoftDev
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/university-of-the-witwatersrand/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/university-of-the-witwatersrand-conformance.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/university-of-the-witwatersrand-authentication.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -148,30 +157,22 @@ common:
   title: ''
   type: DomainSecurity
   url: security/university-of-the-witwatersrand-domain-security.yml
-- group: auth
+- group: design
   title: ''
-  type: Authentication
-  url: authentication/university-of-the-witwatersrand-authentication.yml
-- group: auth
+  type: Vocabulary
+  url: vocabulary/university-of-the-witwatersrand-vocabulary.yml
+- group: design
   title: ''
-  type: OAuthScopes
-  url: scopes/university-of-the-witwatersrand-scopes.yml
-- group: company
+  type: JSONLD
+  url: json-ld/university-of-the-witwatersrand-context.jsonld
+- group: design
   title: ''
-  type: Website
-  url: https://www.wits.ac.za/
-- group: build
+  type: Rules
+  url: rules/university-of-the-witwatersrand-rules.yml
+- group: design
   title: ''
-  type: Library
-  url: https://www.wits.ac.za/library/
-- group: build
-  title: ''
-  type: GitHub
-  url: https://github.com/WitsSoftDev
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/university-of-the-witwatersrand/
+  type: SpectralRules
+  url: rules/university-of-the-witwatersrand-jsonschema-spectral-rules.yml
 - group: commercial
   title: ''
   type: Plans
@@ -188,24 +189,10 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: design
-  title: ''
-  type: Rules
-  url: rules/university-of-the-witwatersrand-rules.yml
-- group: design
-  title: ''
-  type: Vocabulary
-  url: vocabulary/university-of-the-witwatersrand-vocabulary.yml
-- group: design
-  title: ''
-  type: JSONLD
-  url: json-ld/university-of-the-witwatersrand-context.jsonld
 created: '2026-06-03'
-description: 'The University of the Witwatersrand (Wits) is a leading public research university in Johannesburg, South Africa, ranked #268 in the QS World University Rankings 2025. Wits does not operate a central, branded developer portal, but it exposes standards-based machine-readable interfaces through its library and open-research infrastructure. The most clearly public surfaces are the WIReDSpace institutional repository (DSpace 9.2), which offers both a REST API and an OAI-PMH metadata harvesting endpoint, and the Wits Open Data Vault, a Figshare-powered research data repository carrying DOIs for datasets. Other systems (Springshare LibGuides/LibCal, identity/SSO, and student services) are vendor-hosted and generally gated rather than openly documented.'
+description: 'The University of the Witwatersrand (Wits) is a public research university in Johannesburg, South Africa (ROR 03rp50x72). Wits operates no central developer portal and no student, timetable or registrar API. What it does operate, on its own domain and its own infrastructure, is WIReDSpace — the institutional repository running DSpace 9.2 — which exposes a HAL/JSON REST API and a complete OAI-PMH 2.0 harvesting interface advertising thirteen metadata formats, both answering anonymous callers. It also runs its own SAML 2.0 identity provider, registered in SAFIRE (the South African Identity Federation) and published to eduGAIN, which serves signed metadata as application/samlmetadata+xml — a genuine machine-readable institutional surface that is almost never catalogued as one. Its research data repository, the Wits Open Data Vault at opendata.wits.ac.za, is a Figshare tenant: the hostname is the university''s and the 214 DOIs under the Wits DataCite prefix 10.71796 are the university''s,
+  but the API contract underneath is Figshare''s and is catalogued against Figshare, not against Wits. Everything else in the estate — library discovery, LibGuides, the LMS, student self-service — is vendor software behind authentication. This profile was corrected on 2026-08-30: it previously credited Wits with the generic Figshare v2 API and nine of its tag splits, which were the vendor''s engineering, not the university''s.'
 examples:
-- key_count: 16
-  name: University Of The Witwatersrand Getarticle Example
-  slug: university-of-the-witwatersrand-getArticle-example
 - key_count: 8
   name: University Of The Witwatersrand Getcommunity Example
   slug: university-of-the-witwatersrand-getCommunity-example
@@ -218,36 +205,30 @@ finops:
   slug: university-of-the-witwatersrand-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-the-witwatersrand.png
 json_schemas:
-- name: Figshare Article
-  property_count: 16
-  slug: university-of-the-witwatersrand-article
 - name: WIReDSpace Community
   property_count: 8
   slug: university-of-the-witwatersrand-community
 json_structures:
-- name: University Of The Witwatersrand Article Structure
-  property_count: 14
-  slug: university-of-the-witwatersrand-article-structure
 - name: University Of The Witwatersrand Community Structure
   property_count: 6
   slug: university-of-the-witwatersrand-community-structure
 jsonld:
-- class_count: 16
+- class_count: 15
   name: University Of The Witwatersrand Context
-  property_count: 5
+  property_count: 3
   slug: university-of-the-witwatersrand-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: University of the Witwatersrand
 nav: Providers
 network: true
-overview: 'University of the Witwatersrand publishes 15 APIs on the [APIs.io](https://apis.io/) network, including altmetric API, articles API, authors API, and 12 more. Tagged areas include Education, Higher Education, University, Research, and Open Data.
+overview: 'University of the Witwatersrand publishes 6 APIs on the [APIs.io](https://apis.io/) network, including WIReDSpace DSpace REST Root API, WIReDSpace DSpace REST Communities API, WIReDSpace DSpace REST Collections API, and 3 more. Tagged areas include University, Higher Education, Education, Research, and South Africa.
 
 
   The University of the Witwatersrand catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  University of the Witwatersrand''s developer surface includes authentication, GitHub presence, and 13 more developer resources.'
+  University of the Witwatersrand''s developer surface includes engineering blog, authentication, and 23 more developer resources.'
 plans:
 - name: University Of The Witwatersrand Plans Pricing
   plan_count: 2
@@ -278,25 +259,25 @@ rules:
     info: 1
     warn: 5
   slug: university-of-the-witwatersrand-rules
-scopes:
-- name: University Of The Witwatersrand Scopes
-  scope_count: 1
-  slug: university-of-the-witwatersrand-scopes
-  summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 44.6
-  delta: 1.9
+  composite: 47.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 3.1
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 50.0
+    commercial_clarity: 50.0
     contract_governance: 25.0
-    contract_quality: 69.3
-    developer_ergonomics: 21.4
-    discoverability: 74.1
+    contract_quality: 63.8
+    developer_ergonomics: 28.6
+    discoverability: 68.5
     governance: 25.0
-    operational_transparency: 26.3
-  previous_composite: 42.7
+    operational_transparency: 23.7
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     contracts:
@@ -309,30 +290,33 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 46.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-the-witwatersrand/refs/heads/main/screenshots/university-of-the-witwatersrand-2026-08-17T082627.png
 security:
 - kind: authentication
   name: University Of The Witwatersrand Authentication
   slug: university-of-the-witwatersrand-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: none/session · 2 schemes
 - kind: domain-security
   name: University Of The Witwatersrand Domain Security
   slug: university-of-the-witwatersrand-domain-security
-  summary_line: TLSv1.2 · DMARC
+  summary_line: TLSv1.2 · HSTS · DMARC
 slug: university-of-the-witwatersrand
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
-- Open Data
-- Library
-- Institutional Repository
 - South Africa
 - Africa
+- Institutional Repository
+- Research Data
+- Open Access
+- Identity Federation
+- OAI-PMH
+- DSpace
 website: https://www.wits.ac.za/
 ---

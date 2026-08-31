@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-08-26'
-api_count: 8
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The agent API from Groundwork Open Source — 8 operation(s) for agent.
   name: Groundwork Open Source agent API
@@ -42,15 +42,9 @@ apis:
 - description: The alert API from Groundwork Open Source — 3 operation(s) for alert.
   name: Groundwork Open Source alert API
   slug: groundwork-open-source-alert-api
-- description: The connector API from Groundwork Open Source — 8 operation(s) for connector.
-  name: Groundwork Open Source connector API
-  slug: groundwork-open-source-connector-api
 - description: The downtimes API from Groundwork Open Source — 2 operation(s) for downtimes.
   name: Groundwork Open Source downtimes API
   slug: groundwork-open-source-downtimes-api
-- description: The event API from Groundwork Open Source — 3 operation(s) for event.
-  name: Groundwork Open Source event API
-  slug: groundwork-open-source-event-api
 - description: The inventory API from Groundwork Open Source — 1 operation(s) for inventory.
   name: Groundwork Open Source inventory API
   slug: groundwork-open-source-inventory-api
@@ -60,7 +54,7 @@ apis:
 - description: The metrics API from Groundwork Open Source — 1 operation(s) for metrics.
   name: Groundwork Open Source metrics API
   slug: groundwork-open-source-metrics-api
-artifact_total: 19
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -178,25 +172,30 @@ modified: '2026-07-19'
 name: Groundwork Open Source
 nav: Providers
 network: true
-overview: 'Groundwork Open Source publishes 8 APIs on the [APIs.io](https://apis.io/) network, including agent API, alert API, connector API, and 5 more. Tagged areas include Company, Monitoring, Network Monitoring, IT Infrastructure, and Observability.
+overview: 'Groundwork Open Source publishes 6 APIs on the [APIs.io](https://apis.io/) network, including agent API, alert API, downtimes API, and 3 more. Tagged areas include Company, Monitoring, Network Monitoring, IT Infrastructure, and Observability.
 
 
   Groundwork Open Source''s developer surface includes authentication, documentation, API reference, and 16 more developer resources.'
 random_paper: 19
 score:
   band: emerging
-  composite: 25.7
-  delta: 0.0
+  composite: 24.5
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
-    contract_quality: 34.5
+    contract_governance: 4.5
+    contract_quality: 37.8
     developer_ergonomics: 37.5
-    discoverability: 72.2
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 25.7
+  previous_composite: 25.0
   provenance:
     conformance: derived
     contracts:
@@ -206,8 +205,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/screenshots/groundwork-open-source-2026-07-25T220352.png
 security:

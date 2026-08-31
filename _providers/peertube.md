@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 8
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 580
   slug: peertube-agentic-access
   summary_line: 580 operations · 350 acting · 8 human-in-the-loop
-api_count: 54
+api_count: 2
 apis:
 - description: Abuses deal with reports of local or remote videos/comments/accounts alike.
   name: PeerTube Abuses API
@@ -1865,18 +1865,23 @@ scopes:
   summary_line: 3 scopes · password
 score:
   band: thin
-  composite: 35.6
-  delta: 1.5
+  composite: 35.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 61.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 55.7
     developer_ergonomics: 35.7
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 34.1
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1884,8 +1889,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 54
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peertube/refs/heads/main/screenshots/peertube-2026-06-20T191525.png
 security:

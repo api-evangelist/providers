@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: ubuntu-agentic-access
   summary_line: 18 operations · 2 acting
-api_count: 17
+api_count: 3
 apis:
 - description: API for managing Ubuntu Pro subscriptions and entitlements, including security patches, compliance tooling, and extended security maintenance.
   name: Ubuntu Pro API
@@ -197,7 +197,7 @@ modified: '2026-05-19'
 name: Ubuntu
 nav: Providers
 network: true
-overview: 'Ubuntu publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Bugs API, Categories API, CVEs API, and 9 more. Tagged areas include Cloud, Containers, DevOps, Enterprise, and Linux.
+overview: 'Ubuntu publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Bugs API, Categories API, CVEs API, and 9 more. Tagged areas include Cloud, Containers, Devops, Enterprise, and Linux.
 
 
   The Ubuntu catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -237,18 +237,23 @@ rules:
   slug: ubuntu-rules
 score:
   band: thin
-  composite: 36.1
-  delta: 5.3
+  composite: 36.6
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 67.3
+    contract_quality: 69.3
     developer_ergonomics: 25.0
     discoverability: 81.5
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 30.8
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     contracts:
@@ -256,9 +261,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/screenshots/ubuntu-2026-06-20T195936.png
 security:
 - kind: authentication
@@ -273,7 +278,7 @@ slug: ubuntu
 tags:
 - Cloud
 - Containers
-- DevOps
+- Devops
 - Enterprise
 - Linux
 - Security

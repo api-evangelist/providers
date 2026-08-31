@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 99
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 99
   slug: kinesis-agentic-access
   summary_line: 99 operations · 99 acting · 4 human-in-the-loop
-api_count: 100
+api_count: 4
 apis:
 - description: 'Amazon Managed Service for Apache Flink (formerly Amazon Kinesis Data Analytics for Apache Flink) is a fully managed service for processing and analyzing streaming data using Apache Flink. Developers '
   name: Amazon Managed Service for Apache Flink API
@@ -647,6 +647,10 @@ collections:
   name: 'Amazon Kinesis Firehose CreateSignalingChannel #X Amz Target=KinesisAnalytics 20180523.UpdateApplicationMaintenanceConfiguration API'
   slug: open-kinesis-x-amz-target-kinesisanalytics-20180523-updateapplicationmaintenanceconfiguration-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kinesis-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2936,7 +2940,7 @@ overview: 'AWS Kinesis publishes 99 APIs on the [APIs.io](https://apis.io/) netw
   The AWS Kinesis catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  AWS Kinesis'' developer surface includes authentication, documentation, engineering blog, developer console, support, getting-started guide, legal docs, and 9 more developer resources.'
+  AWS Kinesis'' developer surface includes authentication, documentation, engineering blog, developer console, support, getting-started guide, legal docs, and 10 more developer resources.'
 plans:
 - name: Kinesis Plans Pricing
   plan_count: 4
@@ -2959,18 +2963,23 @@ rules:
   slug: kinesis-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.8
-  delta: 3.4
+  composite: 43.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 65.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 9.8
-    contract_quality: 53.7
+    contract_quality: 53.0
     developer_ergonomics: 54.8
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 34.2
-  previous_composite: 38.4
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -2978,8 +2987,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 99
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinesis/refs/heads/main/screenshots/kinesis-2026-06-20T184044.png
 security:

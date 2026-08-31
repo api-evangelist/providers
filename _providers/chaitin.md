@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-26'
-api_count: 556
+  scored_at: '2026-08-30'
+api_count: 6
 apis:
 - description: The account API from Chaitin Tech — 22 operation(s) for account.
   name: Chaitin Tech account API
@@ -3378,6 +3378,10 @@ collections:
   name: APISec Management account 资产/种子/域名 WHOIS API
   slug: open-chaitin-whois-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/chaitin-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -3485,22 +3489,27 @@ network: true
 overview: 'Chaitin Tech publishes 556 APIs on the [APIs.io](https://apis.io/) network, including account API, account/staff_devices/{staff_id}/add API, account/staff_devices/{staff_id}/remove API, and 553 more. Tagged areas include Security, Web Application Firewall, WAF, Cybersecurity, and API Security.
 
 
-  Chaitin Tech''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 16 more developer resources.'
+  Chaitin Tech''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 17 more developer resources.'
 random_paper: 1
 score:
   band: thin
-  composite: 36.7
-  delta: 1.4
+  composite: 33.4
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 41.6
     developer_ergonomics: 71.4
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 57.4
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 35.3
+  previous_composite: 33.4
   provenance:
     conformance: derived
     contracts:
@@ -3510,8 +3519,8 @@ score:
       total: 556
     mcp: derived
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/screenshots/chaitin-2026-07-25T205025.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 22
   slug: ruby-agentic-access
   summary_line: 22 operations · 8 acting
-api_count: 23
+api_count: 1
 apis:
 - description: 'The HTTP client class shipped with the Ruby standard library. Provides class and instance methods for GET, POST, PUT, DELETE, HEAD, PATCH, OPTIONS, TRACE plus WebDAV methods (COPY, LOCK, MKCOL, MOVE, '
   name: Net::HTTP (Ruby Standard Library)
@@ -148,6 +148,22 @@ collections:
   name: RubyGems.org Registry API
   slug: open-rubygems-registry
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ruby-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/ruby/ruby/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/ruby/ruby/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/ruby/ruby/blob/master/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -306,7 +322,7 @@ overview: 'Ruby Programming Language and Popular API Gems publishes 9 APIs on th
   The Ruby Programming Language and Popular API Gems catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Ruby Programming Language and Popular API Gems'' developer surface includes authentication, documentation, getting-started guide, release notes, engineering blog, and 17 more developer resources.'
+  Ruby Programming Language and Popular API Gems'' developer surface includes authentication, documentation, getting-started guide, release notes, engineering blog, and 21 more developer resources.'
 random_paper: 9
 rules:
 - effective_rule_count: 5
@@ -332,18 +348,26 @@ rules:
   slug: rubygems-registry-rules
 score:
   band: developing
-  composite: 44.3
-  delta: 3.7
+  composite: 44.4
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 28.8
     contract_quality: 72.4
     developer_ergonomics: 52.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 40.6
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     contracts:
@@ -351,8 +375,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/screenshots/ruby-2026-06-20T193244.png
 security:

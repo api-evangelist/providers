@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 6
   slug: pangaea-agentic-access
   summary_line: 6 operations · 2 acting
-api_count: 9
+api_count: 3
 apis:
 - description: REST service for retrieving tabular dataset data filtered by dataset DOI and parameter values. Supports column selection, value filtering with range queries, and multiple filter criteria with AND/OR l
   name: PANGAEA Data Download Service - Filter by DOI
@@ -137,7 +137,12 @@ rate_limits:
 score:
   band: thin
   composite: 31.5
-  delta: 1.9
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -147,7 +152,7 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 29.6
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     contracts:
@@ -161,8 +166,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pangaea/refs/heads/main/screenshots/pangaea-2026-06-20T191337.png
 security:

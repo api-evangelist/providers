@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -162,6 +162,10 @@ collections:
   name: Meta Graph API - User
   slug: open-meta
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/meta-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -580,7 +584,7 @@ overview: 'Meta publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cus
   The Meta catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Meta''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, documentation, getting-started guide, and 78 more developer resources.'
+  Meta''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, documentation, getting-started guide, and 79 more developer resources.'
 plans:
 - name: Meta Plans Pricing
   plan_count: 3
@@ -608,16 +612,21 @@ scopes:
   summary_line: 15 scopes · implicit
 score:
   band: strong
-  composite: 60.9
+  composite: 58.3
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 68.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 26.5
+    contract_governance: 14.4
     contract_quality: 55.4
     developer_ergonomics: 92.9
-    discoverability: 74.1
-    governance: 26.5
+    discoverability: 63.0
+    governance: 14.4
     operational_transparency: 60.5
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -625,7 +634,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 60.9
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -635,8 +644,8 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/screenshots/meta-2026-06-20T185238.png
 security:

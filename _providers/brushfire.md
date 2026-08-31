@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 135
   slug: brushfire-agentic-access
   summary_line: 135 operations · 57 acting · 1 human-in-the-loop
-api_count: 16
+api_count: 1
 apis:
 - description: The AccessCodes API from Brushfire — 3 operation(s) for accesscodes.
   name: Brushfire AccessCodes API
@@ -206,7 +206,7 @@ modified: '2026-07-05'
 name: Brushfire
 nav: Providers
 network: true
-overview: 'Brushfire publishes 16 APIs on the [APIs.io](https://apis.io/) network, including AccessCodes API, Accounts API, Attendees API, and 13 more. Tagged areas include Event Ticketing, Registration, Event, Ticketing, and Check-in.
+overview: 'Brushfire publishes 16 APIs on the [APIs.io](https://apis.io/) network, including AccessCodes API, Accounts API, Attendees API, and 13 more. Tagged areas include Event Ticketing, Registration, Event, Ticketing, and Check-In.
 
 
   Brushfire''s developer surface includes authentication, documentation, API reference, signup flow, and 8 more developer resources.'
@@ -221,15 +221,20 @@ rate_limits:
   slug: brushfire-rate-limits
 score:
   band: thin
-  composite: 32.6
-  delta: 0.0
+  composite: 32.1
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 51.3
     developer_ergonomics: 19.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 32.6
@@ -246,8 +251,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/screenshots/brushfire-2026-07-25T204003.png
 security:
@@ -265,7 +270,7 @@ tags:
 - Registration
 - Event
 - Ticketing
-- Check-in
+- Check-In
 - Churches
 - Payments
 website: https://www.brushfire.com

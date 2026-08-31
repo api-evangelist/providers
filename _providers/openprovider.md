@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 111
   slug: openprovider-agentic-access
   summary_line: 111 operations · 64 acting · 3 human-in-the-loop
-api_count: 35
+api_count: 1
 apis:
 - description: The Openprovider Reseller API provides programmatic access to domain registration and management, DNS, SSL certificate provisioning, hosting products, and customer/billing operations across the Openpr
   name: Openprovider API
@@ -260,6 +260,10 @@ collections:
   name: REST API
   slug: open-openprovider
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/openprovider-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -323,7 +327,7 @@ network: true
 overview: 'Openprovider publishes 34 APIs on the [APIs.io](https://apis.io/) network, including AdditionalData API, ApproverEmail API, Auth API, and 31 more. Tagged areas include Domains, DNS, Hosting, Reseller, and SSL Certificates.
 
 
-  Openprovider''s developer surface includes authentication, documentation, support, engineering blog, and 8 more developer resources.'
+  Openprovider''s developer surface includes authentication, documentation, support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Openprovider Plans Pricing
   plan_count: 3
@@ -335,18 +339,23 @@ rate_limits:
   slug: openprovider-rate-limits
 score:
   band: thin
-  composite: 33.3
-  delta: 1.9
+  composite: 33.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
     contract_governance: 0.0
     contract_quality: 49.6
     developer_ergonomics: 38.1
-    discoverability: 74.1
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 31.4
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -354,8 +363,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 34
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openprovider/refs/heads/main/screenshots/openprovider-2026-06-20T191025.png
 security:

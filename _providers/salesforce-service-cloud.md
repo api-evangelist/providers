@@ -17,9 +17,9 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-08-26'
+  score: 25.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: salesforce-service-cloud-agentic-access
   summary_line: 18 operations · 7 acting
-api_count: 18
+api_count: 2
 apis:
 - description: SOAP-based API for enterprise integration and complex service cloud operations.
   name: Salesforce Service Cloud SOAP API
@@ -174,6 +174,10 @@ collections:
   name: Salesforce Service Cloud Salesforce Chat REST Accounts Settings API
   slug: open-salesforce-service-cloud-settings-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/salesforce-service-cloud-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -328,7 +332,7 @@ overview: 'Salesforce Service Cloud publishes 11 APIs on the [APIs.io](https://a
   The Salesforce Service Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Salesforce Service Cloud''s developer surface includes authentication, getting-started guide, support, pricing, engineering blog, signup flow, developer console, and 21 more developer resources.'
+  Salesforce Service Cloud''s developer surface includes authentication, getting-started guide, support, pricing, engineering blog, signup flow, developer console, and 22 more developer resources.'
 plans:
 - name: Salesforce Service Cloud Plans Pricing
   plan_count: 1
@@ -377,18 +381,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.9
-  delta: 3.3
+  composite: 50.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 28.8
     contract_quality: 69.0
     developer_ergonomics: 69.0
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 47.6
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     contracts:
@@ -396,8 +405,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/screenshots/salesforce-service-cloud-2026-06-20T193350.png
 security:

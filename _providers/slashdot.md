@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,30 +41,12 @@ agentic_access:
   operation_count: 8
   slug: slashdot-agentic-access
   summary_line: 8 operations
-api_count: 7
+api_count: 1
 apis:
-- description: The Apple API from Slashdot — 1 operation(s) for apple.
-  name: Slashdot Apple API
-  slug: slashdot-apple-api
-- description: The Developers API from Slashdot — 1 operation(s) for developers.
-  name: Slashdot Developers API
-  slug: slashdot-developers-api
 - description: The Feeds API from Slashdot — 8 operation(s) for feeds.
   name: Slashdot Feeds API
   slug: slashdot-feeds-api
-- description: The Games API from Slashdot — 1 operation(s) for games.
-  name: Slashdot Games API
-  slug: slashdot-games-api
-- description: The Linux API from Slashdot — 1 operation(s) for linux.
-  name: Slashdot Linux API
-  slug: slashdot-linux-api
-- description: The Rights API from Slashdot — 1 operation(s) for rights.
-  name: Slashdot Rights API
-  slug: slashdot-rights-api
-- description: The Science API from Slashdot — 1 operation(s) for science.
-  name: Slashdot Science API
-  slug: slashdot-science-api
-artifact_total: 24
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -195,7 +177,7 @@ modified: '2026-05-19'
 name: Slashdot
 nav: Providers
 network: true
-overview: 'Slashdot publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Apple API, Developers API, Feeds API, and 4 more. Tagged areas include Media, Open-Source, Technology News, and RSS.
+overview: 'Slashdot publishes 1 API on the [APIs.io](https://apis.io/) network: Feeds API. Tagged areas include Media, Open-Source, Technology News, and RSS.
 
 
   The Slashdot catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -225,18 +207,23 @@ rules:
   slug: slashdot-rules
 score:
   band: thin
-  composite: 27.9
+  composite: 27.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 45.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 60.6
-    contract_quality: 53.4
+    contract_quality: 55.1
     developer_ergonomics: 0.0
-    discoverability: 63.0
+    discoverability: 57.4
     governance: 60.6
     operational_transparency: 7.9
-  previous_composite: 27.9
+  previous_composite: 27.8
   provenance:
     agentic_access: derived
     contracts:
@@ -244,8 +231,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slashdot/refs/heads/main/screenshots/slashdot-2026-06-20T194022.png
 security:

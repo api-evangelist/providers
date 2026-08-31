@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: GraphQL API exposed by a running Mina daemon (node) for querying node, account, and chain state and submitting payments, delegations, and zkApp transactions. Bound to localhost:3085 by default. 41 que
@@ -157,7 +157,7 @@ modified: '2026-07-20'
 name: Mina
 nav: Providers
 network: true
-overview: 'Mina publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Blockchain, Zero Knowledge, and zkApps.
+overview: 'Mina publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Blockchain, Zero-Knowledge, and zkApps.
 
 
   Mina''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, sandbox, changelog, and 19 more developer resources.'
@@ -165,7 +165,12 @@ random_paper: 1
 score:
   band: thin
   composite: 31.3
-  delta: 1.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -175,13 +180,13 @@ score:
     discoverability: 66.7
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 29.8
+  previous_composite: 31.3
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mina/refs/heads/main/screenshots/mina-2026-08-07T172921.png
 security:
@@ -202,7 +207,7 @@ tags:
 - Company
 - Crypto
 - Blockchain
-- Zero Knowledge
+- Zero-Knowledge
 - zkApps
 - GraphQL
 - Web3

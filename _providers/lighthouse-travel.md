@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 14
   slug: lighthouse-travel-agentic-access
   summary_line: 14 operations
-api_count: 8
+api_count: 1
 apis:
 - description: Market demand predictions per arrival date.
   name: Lighthouse Demand API
@@ -97,6 +97,10 @@ collections:
   name: Lighthouse Integration Demand Rates API
   slug: open-lighthouse-travel-rates-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lighthouse-travel-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -245,22 +249,27 @@ network: true
 overview: 'Lighthouse publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Demand API, Hotels API, Market Insight API, and 5 more. Tagged areas include Hospitality, Hotels, Travel, Revenue Management, and Market Intelligence.
 
 
-  Lighthouse''s developer surface includes authentication, engineering blog, GitHub presence, YouTube channel, and 30 more developer resources.'
+  Lighthouse''s developer surface includes authentication, engineering blog, GitHub presence, YouTube channel, and 31 more developer resources.'
 random_paper: 19
 score:
   band: thin
-  composite: 28.4
-  delta: 1.9
+  composite: 27.8
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
     contract_governance: 0.0
     contract_quality: 52.4
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 26.5
+  previous_composite: 28.4
   provenance:
     agentic_access: derived
     contracts:
@@ -268,8 +277,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/screenshots/lighthouse-travel-2026-06-20T184520.png
 security:

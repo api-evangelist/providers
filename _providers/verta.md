@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 264
   slug: verta-agentic-access
   summary_line: 264 operations · 179 acting
-api_count: 11
+api_count: 12
 apis:
 - description: The AuthzService API from Verta — 4 operation(s) for authzservice.
   name: Verta AuthzService API
@@ -115,6 +115,14 @@ collections:
   name: deployment/APISync.proto AuthzService VersioningService API
   slug: open-verta-versioningservice-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/VertaAI/modeldb/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/VertaAI/modeldb/releases
 - group: other
   title: ''
   type: Overlay
@@ -202,22 +210,30 @@ network: true
 overview: 'Verta publishes 11 APIs on the [APIs.io](https://apis.io/) network, including AuthzService API, DatasetService API, ExperimentRunService API, and 8 more. Tagged areas include MLOps, Machine-Learning, Model Management, Experiment Tracking, and Model Registry.
 
 
-  Verta''s developer surface includes authentication, changelog, documentation, and 15 more developer resources.'
+  Verta''s developer surface includes authentication, changelog, documentation, and 17 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 24.8
+  composite: 23.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
-    contract_quality: 32.3
+    contract_governance: 4.5
+    contract_quality: 34.3
     developer_ergonomics: 20.8
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 24.8
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 23.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -228,8 +244,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

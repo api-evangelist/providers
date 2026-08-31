@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: sauce-labs-agentic-access
   summary_line: 18 operations · 8 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 2
 apis:
 - description: Retrieve information about Sauce Labs supported automation environments, browser/OS combinations, and overall platform status. Useful for dynamically querying available test configurations.
   name: Sauce Labs Platform API
@@ -256,15 +256,20 @@ rules:
   slug: sauce-labs-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 48.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 34.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 61.5
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 50.0
   previous_composite: 49.4
@@ -275,8 +280,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/screenshots/sauce-labs-2026-06-20T193442.png
 security:

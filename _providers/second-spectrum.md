@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Customer-facing platform delivering Second Spectrum tracking data, visualizations, and clips to club analysts and coaching staff. Access is gated by Auth0-backed login under the Genius Sports Performa
@@ -43,6 +43,10 @@ apis:
   slug: tracking-data
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/genius-sports/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -86,12 +90,17 @@ network: true
 overview: 'Second Spectrum (Genius Sports) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Sports Tracking, Computer-Vision, Artificial Intelligence, Broadcast, and NBA.
 
 
-  Second Spectrum (Genius Sports)''s developer surface includes developer portal and 7 more developer resources.'
+  Second Spectrum (Genius Sports)''s developer surface includes developer portal and 8 more developer resources.'
 random_paper: 10
 score:
   band: emerging
   composite: 11.1
-  delta: 2.3
+  coverage:
+    artifact_dirs: 2
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -101,9 +110,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 11.1
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/second-spectrum/refs/heads/main/screenshots/second-spectrum-2026-06-20T193622.png
 security:

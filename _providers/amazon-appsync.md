@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 44
   slug: amazon-appsync-agentic-access
   summary_line: 44 operations · 27 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Manage API keys for authentication
   name: Amazon AppSync Api Keys API
@@ -883,16 +883,21 @@ rules:
   slug: amazon-appsync-spectral-rules
 score:
   band: thin
-  composite: 33.8
-  delta: 2.5
+  composite: 32.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 60.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 77.3
     developer_ergonomics: 11.9
-    discoverability: 66.7
-    governance: 45.5
+    discoverability: 68.5
+    governance: 33.3
     operational_transparency: 0.0
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -900,7 +905,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 31.3
+  previous_composite: 33.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -910,8 +915,8 @@ score:
       marker_coverage: 0.0
       total: 9
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/screenshots/amazon-appsync-2026-07-25T195928.png
 security:

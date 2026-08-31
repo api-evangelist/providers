@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 27
   slug: replicate-agentic-access
   summary_line: 27 operations · 12 acting
-api_count: 16
+api_count: 1
 apis:
 - description: The Accounts API from Replicate — 1 operation(s) for accounts.
   name: Replicate Accounts API
@@ -65,33 +65,18 @@ apis:
 - description: The Models API from Replicate — 1 operation(s) for models.
   name: Replicate Models API
   slug: replicate-models-api
-- description: The Name API from Replicate — 7 operation(s) for name.
-  name: Replicate Name API
-  slug: replicate-name-api
-- description: The Owner API from Replicate — 7 operation(s) for owner.
-  name: Replicate Owner API
-  slug: replicate-owner-api
 - description: The Predictions API from Replicate — 5 operation(s) for predictions.
   name: Replicate Predictions API
   slug: replicate-predictions-api
 - description: The Secrets API from Replicate — 1 operation(s) for secrets.
   name: Replicate Secrets API
   slug: replicate-secrets-api
-- description: The Slug API from Replicate — 1 operation(s) for slug.
-  name: Replicate Slug API
-  slug: replicate-slug-api
 - description: The Training API from Replicate — 2 operation(s) for training.
   name: Replicate Training API
   slug: replicate-training-api
 - description: The Trainings API from Replicate — 1 operation(s) for trainings.
   name: Replicate Trainings API
   slug: replicate-trainings-api
-- description: The Version API from Replicate — 2 operation(s) for version.
-  name: Replicate Version API
-  slug: replicate-version-api
-- description: The Webhooks API from Replicate — 1 operation(s) for webhooks.
-  name: Replicate Webhooks API
-  slug: replicate-webhooks-api
 arazzos:
 - description: Read a curated collection, confirm a chosen model, run its latest version, and poll the prediction.
   name: Replicate Pick a Model from a Collection and Predict
@@ -123,7 +108,7 @@ arazzos:
 - description: Retrieve the default webhook signing secret, then create a prediction that posts to a webhook.
   name: Replicate Fetch Webhook Secret and Run a Webhook Prediction
   slug: replicate-webhook-secured-predict-workflow
-artifact_total: 90
+artifact_total: 85
 asyncapis:
 - description: 'AsyncAPI definition for Replicate''s event-driven surfaces: - Server-Sent Events (SSE) stream returned for predictions where the model supports streaming output. The stream URL is published by the Pred'
   name: Replicate Streaming and Webhooks API
@@ -403,7 +388,7 @@ modified: '2026-05-29'
 name: Replicate
 nav: Providers
 network: true
-overview: 'Replicate publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Cancel API, Collections API, and 13 more. Tagged areas include Artificial Intelligence, Machine-Learning, Image-Generation, Language Models, and Model Deployment.
+overview: 'Replicate publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Cancel API, Collections API, and 8 more. Tagged areas include Artificial Intelligence, Machine-Learning, Image-Generation, Language Models, and Model Deployment.
 
 
   The Replicate catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -454,18 +439,23 @@ rules:
   slug: replicate-rules
 score:
   band: strong
-  composite: 56.1
-  delta: 1.8
+  composite: 55.6
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 28.8
-    contract_quality: 71.8
+    contract_quality: 72.0
     developer_ergonomics: 56.0
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 54.3
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     contracts:
@@ -473,8 +463,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/replicate/refs/heads/main/screenshots/replicate-2026-06-20T192926.png
 security:

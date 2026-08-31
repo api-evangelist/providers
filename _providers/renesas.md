@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: renesas-agentic-access
   summary_line: 18 operations · 2 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Endpoints for retrieving boards and kits.
   name: Renesas Board & Kit API
@@ -86,6 +86,10 @@ collections:
   name: Renesas Web Data Board & Kit Software Tool API
   slug: open-renesas-software-tool-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/renesas-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -213,22 +217,27 @@ network: true
 overview: 'Renesas publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Board & Kit API, Document API, Package API, and 3 more. Tagged areas include Company, Semiconductors, Microcontrollers, Electronics, and Hardware.
 
 
-  Renesas'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 21 more developer resources.'
+  Renesas'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 22 more developer resources.'
 random_paper: 18
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 43.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 51.7
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 46.6
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,8 +248,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/screenshots/renesas-2026-08-17T081518.png
 security:

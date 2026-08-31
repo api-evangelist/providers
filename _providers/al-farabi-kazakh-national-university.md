@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 184
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 400
   slug: al-farabi-kazakh-national-university-agentic-access
   summary_line: 400 operations · 184 acting · 4 human-in-the-loop
-api_count: 47
+api_count: 1
 apis:
 - description: The agreements API from Al-Farabi Kazakh National University — 2 operation(s) for agreements.
   name: Al-Farabi Kazakh National University agreements API
@@ -332,6 +332,10 @@ collections:
   name: Open edX agreements xblock API
   slug: open-al-farabi-kazakh-national-university-xblock-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/al-farabi-kazakh-national-university-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -439,7 +443,7 @@ overview: 'Al-Farabi Kazakh National University publishes 47 APIs on the [APIs.i
   The Al-Farabi Kazakh National University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Al-Farabi Kazakh National University''s developer surface includes authentication and 11 more developer resources.'
+  Al-Farabi Kazakh National University''s developer surface includes authentication and 12 more developer resources.'
 plans:
 - name: Al Farabi Kazakh National University Plans Pricing
   plan_count: 2
@@ -472,15 +476,20 @@ rules:
   slug: al-farabi-kazakh-national-university-rules
 score:
   band: thin
-  composite: 32.2
-  delta: 0.0
+  composite: 31.7
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 63.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 51.7
     developer_ergonomics: 16.7
-    discoverability: 50.0
+    discoverability: 44.4
     governance: 9.8
     operational_transparency: 26.3
   previous_composite: 32.2
@@ -497,8 +506,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/al-farabi-kazakh-national-university/refs/heads/main/screenshots/al-farabi-kazakh-national-university-2026-06-20T171458.png
 security:

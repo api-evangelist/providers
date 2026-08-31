@@ -23,18 +23,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
-api_count: 9
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: Token issuance and session verification for the Origami Risk platform APIs. Two documented token formats — a simple JSON payload (Account, User, Password, ClientName) and an OAuth-style client_credent
-  name: Origami Risk Authentication API
-  slug: origami-risk-authentication-api
-- description: The core Origami Risk platform API — generic domain and entity CRUD (get, upsert, bulk insert, bulk upsert, delete), domain metadata and data dictionary lookups, screen configuration, notes, emails, f
-  name: Origami Risk Public API
-  slug: origami-risk-public-api
-- description: Standalone standard rating service that accepts a rating request referencing a rater and intake payloads and returns rating results, offered in both synchronous and asynchronous modes with request ret
-  name: Origami Risk Standard Rating API
-  slug: origami-risk-standard-rating-api
 - description: Quote-side policy lifecycle — create and patch proposals, add and remove policy lines, coverages, schedules and linked schedules, list insurance programs, carriers, policy lines and states, run or que
   name: Origami Risk Quotes and Proposals API
   slug: origami-risk-quotes-and-proposals-api
@@ -53,7 +44,22 @@ apis:
 - description: Reporting surface for requesting a report run, retrieving report details and options, validating a report filter, and converting between the platform's view-filter string form and its JSON tree form.
   name: Origami Risk Reports API
   slug: origami-risk-reports-api
-artifact_total: 19
+- description: The Authentication API from Origami Risk — 4 operation(s) for authentication.
+  name: Origami Risk Authentication API
+  slug: origami-risk-authentication-api
+- description: The HasTokenExpired API from Origami Risk — 1 operation(s) for hastokenexpired.
+  name: Origami Risk Has Token Expired API
+  slug: origami-risk-hastokenexpired-api
+- description: The New Endpoint 1 API from Origami Risk — 1 operation(s) for new endpoint 1.
+  name: Origami Risk New Endpoint 1 API
+  slug: origami-risk-new-endpoint-1-api
+- description: The New Endpoint API from Origami Risk — 1 operation(s) for new endpoint.
+  name: Origami Risk New Endpoint API
+  slug: origami-risk-new-endpoint-api
+- description: The Requests API from Origami Risk — 3 operation(s) for requests.
+  name: Origami Risk Requests API
+  slug: origami-risk-requests-api
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Origami Risk Webhooks
@@ -72,6 +78,30 @@ collections:
   name: Rating API
   slug: open-origami-risk-standard-rating-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/origami-risk-authentication-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/origami-risk-public-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/origami-risk-domain-data-access.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/origami-risk-standard-rating-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/origami-risk-rating-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/origami-risk-standard-rating-service.md
 - group: auth
   title: ''
   type: TrustCenter
@@ -229,13 +259,13 @@ modified: '2026-07-25'
 name: Origami Risk
 nav: Providers
 network: true
-overview: 'Origami Risk publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Public API, and Standard Rating API. Tagged areas include Insurance, United States, Property and Casualty, Policy Administration, and Claims.
+overview: 'Origami Risk publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Has Token Expired API, New Endpoint 1 API, and 2 more. Tagged areas include Insurance, United States, Property and Casualty, Policy Administration, and Claims.
 
 
   The Origami Risk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Origami Risk''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
+  Origami Risk''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 35 more developer resources.'
 random_paper: 12
 rate_limits:
 - limit_count: 5
@@ -243,18 +273,23 @@ rate_limits:
   slug: origami-risk-rate-limits
 score:
   band: developing
-  composite: 52.4
+  composite: 53.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
-    contract_quality: 42.6
+    contract_governance: 4.5
+    contract_quality: 47.2
     developer_ergonomics: 50.6
-    discoverability: 64.8
-    governance: 16.7
+    discoverability: 74.1
+    governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 52.4
+  previous_composite: 53.0
   provenance:
     conformance: derived
     mcp: derived
@@ -265,8 +300,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origami-risk/refs/heads/main/screenshots/origami-risk-2026-08-07T190927.png
 security:

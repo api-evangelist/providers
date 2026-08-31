@@ -17,9 +17,9 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.4
-  scored_at: '2026-08-26'
+  score: 34.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 145
   human_in_the_loop: 5
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 252
   slug: slack-agentic-access
   summary_line: 252 operations · 145 acting · 5 human-in-the-loop
-api_count: 115
+api_count: 32
 apis:
 - description: The Slack Events API enables apps to respond to activities in Slack by subscribing to specific event types. Rather than polling for changes, apps receive HTTP POST payloads when subscribed events occu
   name: Slack Events API
@@ -80,30 +80,15 @@ apis:
 - description: The Applications API from Slack — 13 operation(s) for applications.
   name: Slack Applications API
   slug: slack-applications-api
-- description: The Approve API from Slack — 2 operation(s) for approve.
-  name: Slack Approve API
-  slug: slack-approve-api
-- description: The Approved API from Slack — 2 operation(s) for approved.
-  name: Slack Approved API
-  slug: slack-approved-api
 - description: The Archive API from Slack — 2 operation(s) for archive.
   name: Slack Archive API
   slug: slack-archive-api
-- description: The Assign API from Slack — 1 operation(s) for assign.
-  name: Slack Assign API
-  slug: slack-assign-api
-- description: The Assistants API from Slack — 3 operation(s) for assistants.
-  name: Slack Assistants API
-  slug: slack-assistants-api
 - description: Authentication and authorization methods
   name: Slack Auth API
   slug: slack-auth-api
 - description: The Authentication API from Slack — 2 operation(s) for authentication.
   name: Slack Authentication API
   slug: slack-authentication-api
-- description: The Authorization API from Slack — 1 operation(s) for authorization.
-  name: Slack Authorization API
-  slug: slack-authorization-api
 - description: The Automation API from Slack — 5 operation(s) for automation.
   name: Slack Automation API
   slug: slack-automation-api
@@ -140,15 +125,9 @@ apis:
 - description: The Create API from Slack — 7 operation(s) for create.
   name: Slack Create API
   slug: slack-create-api
-- description: The Delete API from Slack — 3 operation(s) for delete.
-  name: Slack Delete API
-  slug: slack-delete-api
 - description: The Deletes API from Slack — 5 operation(s) for deletes.
   name: Slack Deletes API
   slug: slack-deletes-api
-- description: The Deny API from Slack — 1 operation(s) for deny.
-  name: Slack Deny API
-  slug: slack-deny-api
 - description: The Disables API from Slack — 1 operation(s) for disables.
   name: Slack Disables API
   slug: slack-disables-api
@@ -158,225 +137,45 @@ apis:
 - description: Do Not Disturb management
   name: Slack Dnd API
   slug: slack-dnd-api
-- description: The Do API from Slack — 5 operation(s) for do.
-  name: Slack Do API
-  slug: slack-do-api
-- description: The Documents API from Slack — 3 operation(s) for documents.
-  name: Slack Documents API
-  slug: slack-documents-api
-- description: The Edit API from Slack — 2 operation(s) for edit.
-  name: Slack Edit API
-  slug: slack-edit-api
 - description: The Emoji API from Slack — 1 operation(s) for emoji.
   name: Slack Emoji API
   slug: slack-emoji-api
 - description: The Enables API from Slack — 1 operation(s) for enables.
   name: Slack Enables API
   slug: slack-enables-api
-- description: The End API from Slack — 3 operation(s) for end.
-  name: Slack End API
-  slug: slack-end-api
-- description: The Events API from Slack — 1 operation(s) for events.
-  name: Slack Events API
-  slug: slack-events-api
 - description: The Exchange API from Slack — 1 operation(s) for exchange.
   name: Slack Exchange API
   slug: slack-exchange-api
 - description: The Files API from Slack — 13 operation(s) for files.
   name: Slack Files API
   slug: slack-files-api
-- description: The Functions API from Slack — 5 operation(s) for functions.
-  name: Slack Functions API
-  slug: slack-functions-api
 - description: The Get API from Slack — 76 operation(s) for get.
   name: Slack Get API
   slug: slack-get-api
 - description: The Groups API from Slack — 7 operation(s) for groups.
   name: Slack Groups API
   slug: slack-groups-api
-- description: The History API from Slack — 1 operation(s) for history.
-  name: Slack History API
-  slug: slack-history-api
-- description: The Identity API from Slack — 3 operation(s) for identity.
-  name: Slack Identity API
-  slug: slack-identity-api
-- description: The Info API from Slack — 11 operation(s) for info.
-  name: Slack Info API
-  slug: slack-info-api
-- description: The Information API from Slack — 1 operation(s) for information.
-  name: Slack Information API
-  slug: slack-information-api
-- description: The Invalidate API from Slack — 1 operation(s) for invalidate.
-  name: Slack Invalidate API
-  slug: slack-invalidate-api
-- description: The Invites API from Slack — 3 operation(s) for invites.
-  name: Slack Invites API
-  slug: slack-invites-api
-- description: The Items API from Slack — 4 operation(s) for items.
-  name: Slack Items API
-  slug: slack-items-api
-- description: The Join API from Slack — 1 operation(s) for join.
-  name: Slack Join API
-  slug: slack-join-api
-- description: The Kick API from Slack — 1 operation(s) for kick.
-  name: Slack Kick API
-  slug: slack-kick-api
-- description: The Leave API from Slack — 1 operation(s) for leave.
-  name: Slack Leave API
-  slug: slack-leave-api
 - description: The Lists API from Slack — 34 operation(s) for lists.
   name: Slack Lists API
   slug: slack-lists-api
-- description: The Lookup API from Slack — 1 operation(s) for lookup.
-  name: Slack Lookup API
-  slug: slack-lookup-api
-- description: The Mark API from Slack — 1 operation(s) for mark.
-  name: Slack Mark API
-  slug: slack-mark-api
-- description: The Members API from Slack — 1 operation(s) for members.
-  name: Slack Members API
-  slug: slack-members-api
-- description: The Messages API from Slack — 1 operation(s) for messages.
-  name: Slack Messages API
-  slug: slack-messages-api
-- description: The Migrations API from Slack — 1 operation(s) for migrations.
-  name: Slack Migrations API
-  slug: slack-migrations-api
-- description: The Oauth API from Slack — 3 operation(s) for oauth.
-  name: Slack Oauth API
-  slug: slack-oauth-api
-- description: The Open API from Slack — 3 operation(s) for open.
-  name: Slack Open API
-  slug: slack-open-api
-- description: The OpenID Connect API from Slack — 2 operation(s) for openid connect.
-  name: Slack OpenID Connect API
-  slug: slack-openid-connect-api
-- description: The Owners API from Slack — 1 operation(s) for owners.
-  name: Slack Owners API
-  slug: slack-owners-api
-- description: The Participants API from Slack — 2 operation(s) for participants.
-  name: Slack Participants API
-  slug: slack-participants-api
-- description: The Permissions API from Slack — 9 operation(s) for permissions.
-  name: Slack Permissions API
-  slug: slack-permissions-api
 - description: The Pins API from Slack — 3 operation(s) for pins.
   name: Slack Pins API
   slug: slack-pins-api
 - description: The Post API from Slack — 94 operation(s) for post.
   name: Slack Post API
   slug: slack-post-api
-- description: The Profile API from Slack — 3 operation(s) for profile.
-  name: Slack Profile API
-  slug: slack-profile-api
-- description: The Project Management API from Slack — 6 operation(s) for project management.
-  name: Slack Project Management API
-  slug: slack-project-management-api
-- description: The Prompts API from Slack — 1 operation(s) for prompts.
-  name: Slack Prompts API
-  slug: slack-prompts-api
-- description: The Publish API from Slack — 1 operation(s) for publish.
-  name: Slack Publish API
-  slug: slack-publish-api
-- description: The Push API from Slack — 1 operation(s) for push.
-  name: Slack Push API
-  slug: slack-push-api
 - description: The Reactions API from Slack — 4 operation(s) for reactions.
   name: Slack Reactions API
   slug: slack-reactions-api
 - description: Create and manage reminders
   name: Slack Reminders API
   slug: slack-reminders-api
-- description: The Remote API from Slack — 6 operation(s) for remote.
-  name: Slack Remote API
-  slug: slack-remote-api
-- description: The Remove API from Slack — 8 operation(s) for remove.
-  name: Slack Remove API
-  slug: slack-remove-api
-- description: The Rename API from Slack — 3 operation(s) for rename.
-  name: Slack Rename API
-  slug: slack-rename-api
-- description: The Replies API from Slack — 1 operation(s) for replies.
-  name: Slack Replies API
-  slug: slack-replies-api
-- description: The Requests API from Slack — 3 operation(s) for requests.
-  name: Slack Requests API
-  slug: slack-requests-api
-- description: The Reset API from Slack — 1 operation(s) for reset.
-  name: Slack Reset API
-  slug: slack-reset-api
-- description: The Resources API from Slack — 1 operation(s) for resources.
-  name: Slack Resources API
-  slug: slack-resources-api
-- description: The Restrict API from Slack — 1 operation(s) for restrict.
-  name: Slack Restrict API
-  slug: slack-restrict-api
-- description: The Restricted API from Slack — 1 operation(s) for restricted.
-  name: Slack Restricted API
-  slug: slack-restricted-api
-- description: The Revoke API from Slack — 1 operation(s) for revoke.
-  name: Slack Revoke API
-  slug: slack-revoke-api
-- description: The Scopes API from Slack — 1 operation(s) for scopes.
-  name: Slack Scopes API
-  slug: slack-scopes-api
 - description: The Search API from Slack — 3 operation(s) for search.
   name: Slack Search API
   slug: slack-search-api
-- description: The Sections API from Slack — 1 operation(s) for sections.
-  name: Slack Sections API
-  slug: slack-sections-api
-- description: The Sessions API from Slack — 2 operation(s) for sessions.
-  name: Slack Sessions API
-  slug: slack-sessions-api
-- description: The Set API from Slack — 1 operation(s) for set.
-  name: Slack Set API
-  slug: slack-set-api
-- description: The Sets API from Slack — 1 operation(s) for sets.
-  name: Slack Sets API
-  slug: slack-sets-api
-- description: The Settings API from Slack — 6 operation(s) for settings.
-  name: Slack Settings API
-  slug: slack-settings-api
-- description: The Share API from Slack — 1 operation(s) for share.
-  name: Slack Share API
-  slug: slack-share-api
-- description: The Snooze API from Slack — 2 operation(s) for snooze.
-  name: Slack Snooze API
-  slug: slack-snooze-api
-- description: The Status API from Slack — 1 operation(s) for status.
-  name: Slack Status API
-  slug: slack-status-api
 - description: Access workspace information
   name: Slack Team API
   slug: slack-team-api
-- description: The Teams API from Slack — 16 operation(s) for teams.
-  name: Slack Teams API
-  slug: slack-teams-api
-- description: The Tests API from Slack — 2 operation(s) for tests.
-  name: Slack Tests API
-  slug: slack-tests-api
-- description: The Titles API from Slack — 1 operation(s) for titles.
-  name: Slack Titles API
-  slug: slack-titles-api
-- description: The Tokens API from Slack — 1 operation(s) for tokens.
-  name: Slack Tokens API
-  slug: slack-tokens-api
-- description: The Unarchive API from Slack — 2 operation(s) for unarchive.
-  name: Slack Unarchive API
-  slug: slack-unarchive-api
-- description: The Unfurl API from Slack — 1 operation(s) for unfurl.
-  name: Slack Unfurl API
-  slug: slack-unfurl-api
-- description: The Uninstall API from Slack — 1 operation(s) for uninstall.
-  name: Slack Uninstall API
-  slug: slack-uninstall-api
-- description: The Update API from Slack — 8 operation(s) for update.
-  name: Slack Update API
-  slug: slack-update-api
-- description: The Upload API from Slack — 1 operation(s) for upload.
-  name: Slack Upload API
-  slug: slack-upload-api
 - description: Manage user groups
   name: Slack Usergroups API
   slug: slack-usergroups-api
@@ -456,7 +255,7 @@ arazzos:
 - description: Fetch a user's profile, open a DM, and post a personalized greeting.
   name: Slack Look Up a User and Send a Personalized Greeting
   slug: slack-user-info-dm-greeting-workflow
-artifact_total: 377
+artifact_total: 310
 asyncapis:
 - description: The Slack Events API enables apps to respond to activities in Slack by subscribing to specific event types. Rather than polling for changes, apps receive HTTP POST payloads when subscribed events occu
   name: Slack Events API
@@ -982,6 +781,10 @@ collections:
   name: Slack Workflows
   slug: open-slack-workflows
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1463,17 +1266,17 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-08-30'
 name: Slack
 nav: Providers
 network: true
-overview: 'Slack publishes 109 APIs on the [APIs.io](https://apis.io/) network, including Events API, Access API, Add API, and 106 more. Tagged areas include Bots, Chat, Collaboration, Messaging, and Productivity.
+overview: 'Slack publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Events API, Access API, Add API, and 39 more. Tagged areas include Bots, Chat, Collaboration, Messaging, and Productivity.
 
 
   The Slack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Slack''s developer surface includes authentication, developer portal, getting-started guide, code examples, sandbox, engineering blog, support, and 85 more developer resources.'
+  Slack''s developer surface includes authentication, developer portal, getting-started guide, code examples, sandbox, engineering blog, support, and 86 more developer resources.'
 plans:
 - name: Slack Plans Pricing
   plan_count: 4
@@ -1523,18 +1326,23 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.4
-  delta: 3.1
+  composite: 64.7
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 49.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 28.8
-    contract_quality: 73.2
+    contract_quality: 70.7
     developer_ergonomics: 85.7
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 63.2
-  previous_composite: 62.3
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1542,8 +1350,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 108
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png
 security:

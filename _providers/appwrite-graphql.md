@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The Appwrite GraphQL API provides a unified GraphQL endpoint at /v1/graphql that exposes all Appwrite platform resources including databases, users, storage buckets, and cloud functions. It supports s
@@ -92,7 +92,7 @@ modified: 2026-06-14
 name: Appwrite GraphQL
 nav: Providers
 network: true
-overview: 'Appwrite GraphQL publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Backend-as-a-Service, Database, Authentication, and Storage.
+overview: 'Appwrite GraphQL publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Backend as a Service, BaaS, Database, and Authentication.
 
 
   Appwrite GraphQL''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
@@ -100,6 +100,11 @@ random_paper: 13
 score:
   band: emerging
   composite: 23.1
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
@@ -117,8 +122,8 @@ score:
     - owner: catalog
       reason: no_resolvable_host
   previous_composite: 23.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appwrite-graphql/refs/heads/main/screenshots/appwrite-graphql-2026-06-20T172339.png
 security:
@@ -129,7 +134,8 @@ security:
 slug: appwrite-graphql
 tags:
 - GraphQL
-- Backend-as-a-Service
+- Backend as a Service
+- BaaS
 - Database
 - Authentication
 - Storage

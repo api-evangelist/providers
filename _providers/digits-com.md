@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 24
   slug: digits-com-agentic-access
   summary_line: 24 operations · 8 acting
-api_count: 10
+api_count: 2
 apis:
 - description: Receive event notifications from Digits at a configured webhook endpoint; Digits POSTs a JSON event body and expects a 2xx acknowledgment (WebhookService.receiveWebhookEvent).
   name: Digits Webhooks API
@@ -74,7 +74,16 @@ apis:
 - description: Event delivery to partner-configured endpoints.
   name: Digits Webhooks API
   slug: digits-com-webhooks-api
-artifact_total: 34
+- description: The Llms.txt API from Digits — 1 operation(s) for llms.txt.
+  name: Digits Llms.txt API
+  slug: digits-com-llms-txt-api
+- description: The Sitemap.xml API from Digits — 1 operation(s) for sitemap.xml.
+  name: Digits Sitemap.xml API
+  slug: digits-com-sitemap-xml-api
+- description: The .well Known API from Digits — 2 operation(s) for .well known.
+  name: Digits .well Known API
+  slug: digits-com-well-known-api
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Digits Com Webhooks
@@ -296,7 +305,7 @@ modified: '2026-08-08'
 name: Digits
 nav: Providers
 network: true
-overview: 'Digits publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Chart of Accounts API, Connections API, and 6 more. Tagged areas include Accounting, Bookkeeping, Finance, General Ledger, and Artificial Intelligence.
+overview: 'Digits publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Chart of Accounts API, Connections API, and 9 more. Tagged areas include Accounting, Bookkeeping, Finance, General Ledger, and Artificial Intelligence.
 
 
   The Digits catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -318,19 +327,24 @@ scopes:
   slug: digits-com-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: strong
-  composite: 55.6
-  delta: 1.0
+  band: developing
+  composite: 52.4
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 30.3
-    contract_quality: 59.0
+    contract_governance: 18.2
+    contract_quality: 58.7
     developer_ergonomics: 51.8
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 54.6
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -341,8 +355,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digits-com/refs/heads/main/screenshots/digits-com-2026-07-25T212036.png
 security:

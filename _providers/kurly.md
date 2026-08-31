@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 33
   slug: kurly-agentic-access
   summary_line: 33 operations · 22 acting
-api_count: 3
+api_count: 4
 apis:
 - description: The Authentication API from Kurly — 1 operation(s) for authentication.
   name: Kurly Authentication API
@@ -77,6 +77,10 @@ collections:
   name: Kurly Logistics Services (KLS) Open API Authentication Delivery Tracking (배송추적) API
   slug: open-kurly-delivery-tracking-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kurly-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -220,7 +224,7 @@ network: true
 overview: 'Kurly publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, 배송운영 정책 API, and Delivery Tracking (배송추적) API. Tagged areas include Company, Technology, Logistics, Fulfillment, and Supply Chain.
 
 
-  Kurly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, developer console, and 25 more developer resources.'
+  Kurly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, developer console, and 26 more developer resources.'
 random_paper: 0
 rate_limits:
 - limit_count: 0
@@ -228,18 +232,23 @@ rate_limits:
   slug: kurly-rate-limits
 score:
   band: thin
-  composite: 36.2
+  composite: 34.4
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 31.8
+    contract_governance: 19.7
     contract_quality: 50.3
     developer_ergonomics: 31.5
-    discoverability: 85.2
-    governance: 31.8
+    discoverability: 81.5
+    governance: 19.7
     operational_transparency: 18.4
-  previous_composite: 36.2
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,8 +259,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kurly/refs/heads/main/screenshots/kurly-2026-07-25T224336.png
 security:

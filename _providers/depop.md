@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 43
   slug: depop-agentic-access
   summary_line: 43 operations · 27 acting
-api_count: 12
+api_count: 1
 apis:
 - description: Service health and status endpoints
   name: depop API status API
@@ -79,6 +79,9 @@ apis:
 - description: Shop and seller information endpoints
   name: depop Shop Management API
   slug: depop-shop-management-api
+- description: The Seller API API from depop — 0 operation(s) for seller api.
+  name: depop Seller API
+  slug: depop-seller-api-api
 arazzos:
 - description: Create/update a Depop listing by SKU, verify it, then mark it as sold.
   name: List a product and mark it sold
@@ -86,7 +89,7 @@ arazzos:
 - description: Read an order, mark a parcel shipped with tracking, optionally refund.
   name: Order fulfillment
   slug: depop-order-fulfillment.arazzo
-artifact_total: 35
+artifact_total: 36
 asyncapis:
 - description: Event surface for the Depop Selling API, generated from the webhooks section of the OpenAPI 3.1 document. Depop delivers order and product engagement events to a partner-registered HTTPS endpoint. Eve
   name: Depop Selling API — Webhooks
@@ -132,6 +135,10 @@ collections:
   name: Seller API status Shop Management API
   slug: open-depop-shop-management-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/depop-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -280,13 +287,13 @@ modified: '2026-07-18'
 name: depop
 nav: Providers
 network: true
-overview: 'depop publishes 12 APIs on the [APIs.io](https://apis.io/) network, including API status API, Authentication API, Docs API, and 9 more. Tagged areas include Company, Fashion, Marketplace, E-Commerce, and Resale.
+overview: 'depop publishes 13 APIs on the [APIs.io](https://apis.io/) network, including API status API, Authentication API, Docs API, and 10 more. Tagged areas include Company, Fashion, Marketplace, E-Commerce, and Resale.
 
 
   The depop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  depop''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 27 more developer resources.'
+  depop''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 28 more developer resources.'
 random_paper: 11
 rate_limits:
 - limit_count: 2
@@ -298,19 +305,24 @@ scopes:
   slug: depop-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: strong
-  composite: 56.7
-  delta: 0.0
+  band: developing
+  composite: 53.2
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 69.6
+    contract_governance: 4.5
+    contract_quality: 68.0
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 81.6
-  previous_composite: 56.7
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -321,8 +333,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/screenshots/depop-2026-07-25T211730.png
 security:

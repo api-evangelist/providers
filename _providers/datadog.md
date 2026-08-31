@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 324
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 558
   slug: datadog-agentic-access
   summary_line: 558 operations · 324 acting · 4 human-in-the-loop
-api_count: 290
+api_count: 6
 apis:
 - description: The Dashboards API allows you to create, update, delete, and retrieve dashboards and dashboard lists. It also supports organizing, finding, and sharing dashboards with your team and organization.
   name: Datadog Dashboards API
@@ -314,9 +314,6 @@ apis:
 - description: The Aggregated API from Datadog — 1 operation(s) for aggregated.
   name: Datadog Aggregated API
   slug: datadog-aggregated-api
-- description: The Aggregations API from Datadog — 1 operation(s) for aggregations.
-  name: Datadog Aggregations API
-  slug: datadog-aggregations-api
 - description: The All API from Datadog — 44 operation(s) for all.
   name: Datadog All API
   slug: datadog-all-api
@@ -329,9 +326,6 @@ apis:
 - description: The Archive API from Datadog — 5 operation(s) for archive.
   name: Datadog Archive API
   slug: datadog-archive-api
-- description: The Archives API from Datadog — 1 operation(s) for archives.
-  name: Datadog Archives API
-  slug: datadog-archives-api
 - description: The Assets API from Datadog — 2 operation(s) for assets.
   name: Datadog Assets API
   slug: datadog-assets-api
@@ -389,57 +383,30 @@ apis:
 - description: The Cloud API from Datadog — 5 operation(s) for cloud.
   name: Datadog Cloud API
   slug: datadog-cloud-api
-- description: The Cloudflare API from Datadog — 2 operation(s) for cloudflare.
-  name: Datadog Cloudflare API
-  slug: datadog-cloudflare-api
 - description: The Configuration API from Datadog — 4 operation(s) for configuration.
   name: Datadog Configuration API
   slug: datadog-configuration-api
 - description: The Configure API from Datadog — 1 operation(s) for configure.
   name: Datadog Configure API
   slug: datadog-configure-api
-- description: The Connection API from Datadog — 2 operation(s) for connection.
-  name: Datadog Connection API
-  slug: datadog-connection-api
-- description: The Connections API from Datadog — 1 operation(s) for connections.
-  name: Datadog Connections API
-  slug: datadog-connections-api
-- description: The Containers API allows you to query container data for your organization. See the [Container Monitoring page](https://docs.datadoghq.com/containers/) for more information.
-  name: Datadog Containers API
-  slug: datadog-containers-api
 - description: The Convert API from Datadog — 3 operation(s) for convert.
   name: Datadog Convert API
   slug: datadog-convert-api
 - description: The Cost API from Datadog — 10 operation(s) for cost.
   name: Datadog Cost API
   slug: datadog-cost-api
-- description: The Coverage API from Datadog — 3 operation(s) for coverage.
-  name: Datadog Coverage API
-  slug: datadog-coverage-api
 - description: The Create API from Datadog — 69 operation(s) for create.
   name: Datadog Create API
   slug: datadog-create-api
-- description: The Current API from Datadog — 2 operation(s) for current.
-  name: Datadog Current API
-  slug: datadog-current-api
 - description: The Custom API from Datadog — 8 operation(s) for custom.
   name: Datadog Custom API
   slug: datadog-custom-api
 - description: The Dashboards API from Datadog — 1 operation(s) for dashboards.
   name: Datadog Dashboards API
   slug: datadog-dashboards-api
-- description: The Data API from Datadog — 2 operation(s) for data.
-  name: Datadog Data API
-  slug: datadog-data-api
 - description: The Definition API from Datadog — 2 operation(s) for definition.
   name: Datadog Definition API
   slug: datadog-definition-api
-- description: The Definitions API from Datadog — 1 operation(s) for definitions.
-  name: Datadog Definitions API
-  slug: datadog-definitions-api
-- description: The Delegate API from Datadog — 1 operation(s) for delegate.
-  name: Datadog Delegate API
-  slug: datadog-delegate-api
 - description: The Delete API from Datadog — 72 operation(s) for delete.
   name: Datadog Delete API
   slug: datadog-delete-api
@@ -449,24 +416,12 @@ apis:
 - description: The Deployments API from Datadog — 3 operation(s) for deployments.
   name: Datadog Deployments API
   slug: datadog-deployments-api
-- description: The Destination API from Datadog — 2 operation(s) for destination.
-  name: Datadog Destination API
-  slug: datadog-destination-api
-- description: The Destinations API from Datadog — 1 operation(s) for destinations.
-  name: Datadog Destinations API
-  slug: datadog-destinations-api
 - description: The Detection API from Datadog — 2 operation(s) for detection.
   name: Datadog Detection API
   slug: datadog-detection-api
 - description: The Devices API from Datadog — 4 operation(s) for devices.
   name: Datadog Devices API
   slug: datadog-devices-api
-- description: The Dimension API from Datadog — 1 operation(s) for dimension.
-  name: Datadog Dimension API
-  slug: datadog-dimension-api
-- description: The Dimensions API from Datadog — 1 operation(s) for dimensions.
-  name: Datadog Dimensions API
-  slug: datadog-dimensions-api
 - description: The Disables API from Datadog — 1 operation(s) for disables.
   name: Datadog Disables API
   slug: datadog-disables-api
@@ -482,18 +437,12 @@ apis:
 - description: The Emails API from Datadog — 1 operation(s) for emails.
   name: Datadog Emails API
   slug: datadog-emails-api
-- description: The Enabled API from Datadog — 1 operation(s) for enabled.
-  name: Datadog Enabled API
-  slug: datadog-enabled-api
 - description: The Entities API from Datadog — 1 operation(s) for entities.
   name: Datadog Entities API
   slug: datadog-entities-api
 - description: The Entity API from Datadog — 2 operation(s) for entity.
   name: Datadog Entity API
   slug: datadog-entity-api
-- description: The Entry API from Datadog — 1 operation(s) for entry.
-  name: Datadog Entry API
-  slug: datadog-entry-api
 - description: The Escalate API from Datadog — 1 operation(s) for escalate.
   name: Datadog Escalate API
   slug: datadog-escalate-api
@@ -509,15 +458,9 @@ apis:
 - description: The External API from Datadog — 1 operation(s) for external.
   name: Datadog External API
   slug: datadog-external-api
-- description: The Failure API from Datadog — 2 operation(s) for failure.
-  name: Datadog Failure API
-  slug: datadog-failure-api
 - description: The Family API from Datadog — 1 operation(s) for family.
   name: Datadog Family API
   slug: datadog-family-api
-- description: The Files API from Datadog — 2 operation(s) for files.
-  name: Datadog Files API
-  slug: datadog-files-api
 - description: The Filter API from Datadog — 8 operation(s) for filter.
   name: Datadog Filter API
   slug: datadog-filter-api
@@ -527,18 +470,9 @@ apis:
 - description: The Findings API from Datadog — 1 operation(s) for findings.
   name: Datadog Findings API
   slug: datadog-findings-api
-- description: The Framework API from Datadog — 2 operation(s) for framework.
-  name: Datadog Framework API
-  slug: datadog-framework-api
-- description: The Generate API from Datadog — 1 operation(s) for generate.
-  name: Datadog Generate API
-  slug: datadog-generate-api
 - description: The Get API from Datadog — 170 operation(s) for get.
   name: Datadog Get API
   slug: datadog-get-api
-- description: The Given API from Datadog — 3 operation(s) for given.
-  name: Datadog Given API
-  slug: datadog-given-api
 - description: The Grants API from Datadog — 3 operation(s) for grants.
   name: Datadog Grants API
   slug: datadog-grants-api
@@ -551,75 +485,21 @@ apis:
 - description: The Historical API from Datadog — 3 operation(s) for historical.
   name: Datadog Historical API
   slug: datadog-historical-api
-- description: The History API from Datadog — 1 operation(s) for history.
-  name: Datadog History API
-  slug: datadog-history-api
-- description: The Hosts API from Datadog — 1 operation(s) for hosts.
-  name: Datadog Hosts API
-  slug: datadog-hosts-api
-- description: The Hourly API from Datadog — 4 operation(s) for hourly.
-  name: Datadog Hourly API
-  slug: datadog-hourly-api
-- description: The Identifiers API from Datadog — 3 operation(s) for identifiers.
-  name: Datadog Identifiers API
-  slug: datadog-identifiers-api
-- description: The Images API from Datadog — 1 operation(s) for images.
-  name: Datadog Images API
-  slug: datadog-images-api
 - description: The Incident API from Datadog — 14 operation(s) for incident.
   name: Datadog Incident API
   slug: datadog-incident-api
-- description: Manage teams associated with incidents
-  name: Datadog Incident Teams API
-  slug: datadog-incident-teams-api
-- description: Create and manage incident records
-  name: Datadog Incidents API
-  slug: datadog-incidents-api
-- description: The Information API from Datadog — 3 operation(s) for information.
-  name: Datadog Information API
-  slug: datadog-information-api
-- description: The Instance API from Datadog — 2 operation(s) for instance.
-  name: Datadog Instance API
-  slug: datadog-instance-api
 - description: The Instances API from Datadog — 1 operation(s) for instances.
   name: Datadog Instances API
   slug: datadog-instances-api
 - description: The Integration API from Datadog — 4 operation(s) for integration.
   name: Datadog Integration API
   slug: datadog-integration-api
-- description: The Integrations API from Datadog — 1 operation(s) for integrations.
-  name: Datadog Integrations API
-  slug: datadog-integrations-api
-- description: The Interfaces API from Datadog — 1 operation(s) for interfaces.
-  name: Datadog Interfaces API
-  slug: datadog-interfaces-api
-- description: The Invitation API from Datadog — 2 operation(s) for invitation.
-  name: Datadog Invitation API
-  slug: datadog-invitation-api
-- description: The Invocations API from Datadog — 1 operation(s) for invocations.
-  name: Datadog Invocations API
-  slug: datadog-invocations-api
 - description: The Ip API from Datadog — 1 operation(s) for ip.
   name: Datadog Ip API
   slug: datadog-ip-api
-- description: The Items API from Datadog — 1 operation(s) for items.
-  name: Datadog Items API
-  slug: datadog-items-api
-- description: The Jobs API from Datadog — 4 operation(s) for jobs.
-  name: Datadog Jobs API
-  slug: datadog-jobs-api
-- description: The Keys API from Datadog — 8 operation(s) for keys.
-  name: Datadog Keys API
-  slug: datadog-keys-api
-- description: The Lambda API from Datadog — 1 operation(s) for lambda.
-  name: Datadog Lambda API
-  slug: datadog-lambda-api
 - description: The Link API from Datadog — 2 operation(s) for link.
   name: Datadog Link API
   slug: datadog-link-api
-- description: The Links API from Datadog — 1 operation(s) for links.
-  name: Datadog Links API
-  slug: datadog-links-api
 - description: The Lists API from Datadog — 75 operation(s) for lists.
   name: Datadog Lists API
   slug: datadog-lists-api
@@ -632,15 +512,6 @@ apis:
 - description: Search your logs and send them to your Datadog platform over HTTP. See the [Log Management page](https://docs.datadoghq.com/logs/) for more information.
   name: Datadog Logs API
   slug: datadog-logs-api
-- description: The Management API from Datadog — 4 operation(s) for management.
-  name: Datadog Management API
-  slug: datadog-management-api
-- description: The Mapping API from Datadog — 3 operation(s) for mapping.
-  name: Datadog Mapping API
-  slug: datadog-mapping-api
-- description: The Memberships API from Datadog — 3 operation(s) for memberships.
-  name: Datadog Memberships API
-  slug: datadog-memberships-api
 - description: View and manage metric metadata and active metrics
   name: Datadog Metric Metadata API
   slug: datadog-metric-metadata-api
@@ -650,9 +521,6 @@ apis:
 - description: 'The metrics endpoint allows you to: - Post metrics data so it can be graphed on Datadog’s dashboards - Query metrics from any time period (timeseries and scalar) - Modify tag configurations for metric'
   name: Datadog Metrics API
   slug: datadog-metrics-api
-- description: The Modify API from Datadog — 1 operation(s) for modify.
-  name: Datadog Modify API
-  slug: datadog-modify-api
 - description: The Monitor API from Datadog — 5 operation(s) for monitor.
   name: Datadog Monitor API
   slug: datadog-monitor-api
@@ -665,21 +533,6 @@ apis:
 - description: Create, read, update, and delete monitors
   name: Datadog Monitors API
   slug: datadog-monitors-api
-- description: The Monthly API from Datadog — 1 operation(s) for monthly.
-  name: Datadog Monthly API
-  slug: datadog-monthly-api
-- description: The Multiple API from Datadog — 4 operation(s) for multiple.
-  name: Datadog Multiple API
-  slug: datadog-multiple-api
-- description: The Mute API from Datadog — 1 operation(s) for mute.
-  name: Datadog Mute API
-  slug: datadog-mute-api
-- description: The Names API from Datadog — 4 operation(s) for names.
-  name: Datadog Names API
-  slug: datadog-names-api
-- description: The Namespaces API from Datadog — 1 operation(s) for namespaces.
-  name: Datadog Namespaces API
-  slug: datadog-namespaces-api
 - description: The Objects API from Datadog — 2 operation(s) for objects.
   name: Datadog Objects API
   slug: datadog-objects-api
@@ -692,21 +545,12 @@ apis:
 - description: The Order API from Datadog — 2 operation(s) for order.
   name: Datadog Order API
   slug: datadog-order-api
-- description: Create, edit, and manage your organizations. Read more about [multi-org accounts](https://docs.datadoghq.com/account_management/multi_organization).
-  name: Datadog Organizations API
-  slug: datadog-organizations-api
-- description: The Owned API from Datadog — 2 operation(s) for owned.
-  name: Datadog Owned API
-  slug: datadog-owned-api
 - description: The Pages API from Datadog — 4 operation(s) for pages.
   name: Datadog Pages API
   slug: datadog-pages-api
 - description: The Patch API from Datadog — 5 operation(s) for patch.
   name: Datadog Patch API
   slug: datadog-patch-api
-- description: The Patterns API from Datadog — 1 operation(s) for patterns.
-  name: Datadog Patterns API
-  slug: datadog-patterns-api
 - description: The Permissions API from Datadog — 5 operation(s) for permissions.
   name: Datadog Permissions API
   slug: datadog-permissions-api
@@ -716,204 +560,48 @@ apis:
 - description: The Policies API from Datadog — 9 operation(s) for policies.
   name: Datadog Policies API
   slug: datadog-policies-api
-- description: The Post API from Datadog — 4 operation(s) for post.
-  name: Datadog Post API
-  slug: datadog-post-api
-- description: The Principal API from Datadog — 1 operation(s) for principal.
-  name: Datadog Principal API
-  slug: datadog-principal-api
-- description: The Priority API from Datadog — 1 operation(s) for priority.
-  name: Datadog Priority API
-  slug: datadog-priority-api
-- description: The Product API from Datadog — 1 operation(s) for product.
-  name: Datadog Product API
-  slug: datadog-product-api
-- description: The Products API from Datadog — 2 operation(s) for products.
-  name: Datadog Products API
-  slug: datadog-products-api
 - description: The Projects API from Datadog — 2 operation(s) for projects.
   name: Datadog Projects API
   slug: datadog-projects-api
-- description: The Protections API from Datadog — 8 operation(s) for protections.
-  name: Datadog Protections API
-  slug: datadog-protections-api
-- description: The Publish API from Datadog — 1 operation(s) for publish.
-  name: Datadog Publish API
-  slug: datadog-publish-api
 - description: The Queries API from Datadog — 7 operation(s) for queries.
   name: Datadog Queries API
   slug: datadog-queries-api
-- description: The Read API from Datadog — 1 operation(s) for read.
-  name: Datadog Read API
-  slug: datadog-read-api
-- description: The Ready API from Datadog — 1 operation(s) for ready.
-  name: Datadog Ready API
-  slug: datadog-ready-api
-- description: The Related API from Datadog — 2 operation(s) for related.
-  name: Datadog Related API
-  slug: datadog-related-api
 - description: The Remove API from Datadog — 5 operation(s) for remove.
   name: Datadog Remove API
   slug: datadog-remove-api
-- description: The Reorder API from Datadog — 1 operation(s) for reorder.
-  name: Datadog Reorder API
-  slug: datadog-reorder-api
-- description: The Reports API from Datadog — 3 operation(s) for reports.
-  name: Datadog Reports API
-  slug: datadog-reports-api
-- description: The Resolve API from Datadog — 1 operation(s) for resolve.
-  name: Datadog Resolve API
-  slug: datadog-resolve-api
 - description: The Resource API from Datadog — 3 operation(s) for resource.
   name: Datadog Resource API
   slug: datadog-resource-api
-- description: The Resources API from Datadog — 1 operation(s) for resources.
-  name: Datadog Resources API
-  slug: datadog-resources-api
-- description: The Restrictions API from Datadog — 6 operation(s) for restrictions.
-  name: Datadog Restrictions API
-  slug: datadog-restrictions-api
-- description: The Result API from Datadog — 1 operation(s) for result.
-  name: Datadog Result API
-  slug: datadog-result-api
 - description: The Retention API from Datadog — 6 operation(s) for retention.
   name: Datadog Retention API
   slug: datadog-retention-api
-- description: The Revoke API from Datadog — 3 operation(s) for revoke.
-  name: Datadog Revoke API
-  slug: datadog-revoke-api
 - description: The Role API from Datadog — 8 operation(s) for role.
   name: Datadog Role API
   slug: datadog-role-api
-- description: The Roles API is used to create and manage Datadog roles, what [global permissions](https://docs.datadoghq.com/account_management/rbac/) they grant, and which users belong to them. Permissions related
-  name: Datadog Roles API
-  slug: datadog-roles-api
 - description: The Routing API from Datadog — 1 operation(s) for routing.
   name: Datadog Routing API
   slug: datadog-routing-api
 - description: The Rules API from Datadog — 27 operation(s) for rules.
   name: Datadog Rules API
   slug: datadog-rules-api
-- description: Manage your Real User Monitoring (RUM) applications, and search or aggregate your RUM events over HTTP. See the [RUM & Session Replay page](https://docs.datadoghq.com/real_user_monitoring/) for more i
-  name: Datadog Rum API
-  slug: datadog-rum-api
-- description: The Runs API from Datadog — 1 operation(s) for runs.
-  name: Datadog Runs API
-  slug: datadog-runs-api
-- description: The Save API from Datadog — 1 operation(s) for save.
-  name: Datadog Save API
-  slug: datadog-save-api
-- description: The Scan API from Datadog — 2 operation(s) for scan.
-  name: Datadog Scan API
-  slug: datadog-scan-api
-- description: The Scanning API from Datadog — 5 operation(s) for scanning.
-  name: Datadog Scanning API
-  slug: datadog-scanning-api
 - description: The Schedules API from Datadog — 4 operation(s) for schedules.
   name: Datadog Schedules API
   slug: datadog-schedules-api
 - description: The Search API from Datadog — 10 operation(s) for search.
   name: Datadog Search API
   slug: datadog-search-api
-- description: The Security API from Datadog — 8 operation(s) for security.
-  name: Datadog Security API
-  slug: datadog-security-api
-- description: The Send API from Datadog — 5 operation(s) for send.
-  name: Datadog Send API
-  slug: datadog-send-api
-- description: The Serverless API from Datadog — 2 operation(s) for serverless.
-  name: Datadog Serverless API
-  slug: datadog-serverless-api
-- description: The Sets API from Datadog — 2 operation(s) for sets.
-  name: Datadog Sets API
-  slug: datadog-sets-api
-- description: The Setting API from Datadog — 1 operation(s) for setting.
-  name: Datadog Setting API
-  slug: datadog-setting-api
-- description: The Settings API from Datadog — 1 operation(s) for settings.
-  name: Datadog Settings API
-  slug: datadog-settings-api
-- description: The Signal API from Datadog — 4 operation(s) for signal.
-  name: Datadog Signal API
-  slug: datadog-signal-api
-- description: The Single API from Datadog — 3 operation(s) for single.
-  name: Datadog Single API
-  slug: datadog-single-api
 - description: The Specific API from Datadog — 2 operation(s) for specific.
   name: Datadog Specific API
   slug: datadog-specific-api
-- description: The Standard API from Datadog — 1 operation(s) for standard.
-  name: Datadog Standard API
-  slug: datadog-standard-api
-- description: The State API from Datadog — 1 operation(s) for state.
-  name: Datadog State API
-  slug: datadog-state-api
-- description: The Status API from Datadog — 2 operation(s) for status.
-  name: Datadog Status API
-  slug: datadog-status-api
-- description: The Submit API from Datadog — 1 operation(s) for submit.
-  name: Datadog Submit API
-  slug: datadog-submit-api
-- description: The Suppression API from Datadog — 2 operation(s) for suppression.
-  name: Datadog Suppression API
-  slug: datadog-suppression-api
-- description: The Tasks API from Datadog — 2 operation(s) for tasks.
-  name: Datadog Tasks API
-  slug: datadog-tasks-api
 - description: View and manage teams within Datadog. See the [Teams page](https://docs.datadoghq.com/account_management/teams/) for more information.
   name: Datadog Teams API
   slug: datadog-teams-api
-- description: The Terraform API from Datadog — 2 operation(s) for terraform.
-  name: Datadog Terraform API
-  slug: datadog-terraform-api
-- description: The Tests API from Datadog — 5 operation(s) for tests.
-  name: Datadog Tests API
-  slug: datadog-tests-api
-- description: The Type API from Datadog — 2 operation(s) for type.
-  name: Datadog Type API
-  slug: datadog-type-api
-- description: The Types API from Datadog — 1 operation(s) for types.
-  name: Datadog Types API
-  slug: datadog-types-api
-- description: The Unarchive API from Datadog — 1 operation(s) for unarchive.
-  name: Datadog Unarchive API
-  slug: datadog-unarchive-api
-- description: The Unassign API from Datadog — 1 operation(s) for unassign.
-  name: Datadog Unassign API
-  slug: datadog-unassign-api
 - description: The Update API from Datadog — 72 operation(s) for update.
   name: Datadog Update API
   slug: datadog-update-api
 - description: The Upload API from Datadog — 2 operation(s) for upload.
   name: Datadog Upload API
   slug: datadog-upload-api
-- description: The Usage API from Datadog — 5 operation(s) for usage.
-  name: Datadog Usage API
-  slug: datadog-usage-api
-- description: Create, edit, and disable users.
-  name: Datadog Users API
-  slug: datadog-users-api
-- description: The Validate API from Datadog — 2 operation(s) for validate.
-  name: Datadog Validate API
-  slug: datadog-validate-api
-- description: The Value API from Datadog — 2 operation(s) for value.
-  name: Datadog Value API
-  slug: datadog-value-api
-- description: The Versions API from Datadog — 1 operation(s) for versions.
-  name: Datadog Versions API
-  slug: datadog-versions-api
-- description: The Volumes API from Datadog — 1 operation(s) for volumes.
-  name: Datadog Volumes API
-  slug: datadog-volumes-api
-- description: The Vulnerabilities API from Datadog — 3 operation(s) for vulnerabilities.
-  name: Datadog Vulnerabilities API
-  slug: datadog-vulnerabilities-api
-- description: The Webhooks API from Datadog — 2 operation(s) for webhooks.
-  name: Datadog Webhooks API
-  slug: datadog-webhooks-api
-- description: The Workflows API from Datadog — 7 operation(s) for workflows.
-  name: Datadog Workflows API
-  slug: datadog-workflows-api
 arazzos:
 - description: Search monitors by tag, then mute a matched monitor to silence alerts.
   name: Datadog Bulk Mute Monitors
@@ -987,7 +675,7 @@ arazzos:
 - description: Fetch a Datadog monitor, then update its options and alert thresholds.
   name: Datadog Tune Monitor Thresholds
   slug: datadog-tune-monitor-thresholds-workflow
-artifact_total: 770
+artifact_total: 666
 collections:
 - collection_type: postman
   name: Datadog API
@@ -1662,6 +1350,10 @@ collections:
   name: Datadog Account Workflows API
   slug: open-datadog-workflows-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/datadog-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2606,13 +2298,13 @@ modified: '2026-05-19'
 name: Datadog
 nav: Providers
 network: true
-overview: 'Datadog publishes 221 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, Users API, Roles API, and 218 more. Tagged areas include Analytics, Dashboards, Monitoring, Platform, and T1.
+overview: 'Datadog publishes 110 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, Teams API, Audit API, and 107 more. Tagged areas include Analytics, Dashboards, Monitoring, Platform, and T1.
 
 
   The Datadog catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Datadog''s developer surface includes authentication, developer portal, documentation, engineering blog, support, pricing, signup flow, and 77 more developer resources.'
+  Datadog''s developer surface includes authentication, developer portal, documentation, engineering blog, support, pricing, signup flow, and 78 more developer resources.'
 plans:
 - name: Datadog Plans Pricing
   plan_count: 7
@@ -2652,17 +2344,22 @@ scopes:
 score:
   band: strong
   composite: 58.5
-  delta: 1.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 13.6
-    contract_quality: 73.5
+    contract_quality: 73.4
     developer_ergonomics: 69.0
     discoverability: 75.9
     governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 57.1
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     contracts:
@@ -2670,8 +2367,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 211
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/screenshots/datadog-2026-06-20T175637.png
 security:

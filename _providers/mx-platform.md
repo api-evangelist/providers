@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
-api_count: 55
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Account_numbers API from MX Platform — 2 operation(s) for account_numbers.
   name: MX Platform Account_numbers API
@@ -491,18 +491,23 @@ rate_limits:
   slug: mx-platform-rate-limits
 score:
   band: developing
-  composite: 41.7
-  delta: 1.9
+  composite: 41.5
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 87.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
     contract_governance: 0.0
-    contract_quality: 58.1
+    contract_quality: 59.5
     developer_ergonomics: 26.2
-    discoverability: 48.1
+    discoverability: 42.6
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 39.8
+  previous_composite: 42.1
   provenance:
     contracts:
       callable: 100.0
@@ -515,8 +520,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mx-platform/refs/heads/main/screenshots/mx-platform-2026-06-20T185909.png
 security:

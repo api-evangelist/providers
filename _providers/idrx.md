@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 13
   slug: idrx-agentic-access
   summary_line: 13 operations · 7 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Onboard users and manage their bank accounts.
   name: IDRX Onboarding API
@@ -49,7 +49,10 @@ apis:
 - description: Mint, redeem, and bridge IDRX, and query rates/fees/history.
   name: IDRX Transaction API
   slug: idrx-transaction-api
-artifact_total: 10
+- description: The IDRX API API from IDRX — 0 operation(s) for idrx api.
+  name: IDRX IDRX API
+  slug: idrx-idrx-api-api
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Idrx Callback Webhooks
@@ -165,7 +168,7 @@ modified: '2026-07-19'
 name: IDRX
 nav: Providers
 network: true
-overview: 'IDRX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Onboarding API and Transaction API. Tagged areas include Stablecoins, Cryptocurrency, Payments, Blockchain, and Fintech.
+overview: 'IDRX publishes 3 APIs on the [APIs.io](https://apis.io/) network: Onboarding API, Transaction API, and IDRX API. Tagged areas include Stablecoin, Cryptocurrency, Payments, Blockchain, and Fintech.
 
 
   The IDRX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -174,19 +177,24 @@ overview: 'IDRX publishes 2 APIs on the [APIs.io](https://apis.io/) network: Onb
   IDRX''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, authentication, and 15 more developer resources.'
 random_paper: 19
 score:
-  band: developing
-  composite: 39.9
-  delta: 0.0
+  band: thin
+  composite: 36.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 65.8
+    contract_governance: 4.5
+    contract_quality: 59.5
     developer_ergonomics: 56.5
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 39.9
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -203,8 +211,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/screenshots/idrx-2026-07-25T222044.png
 security:
@@ -218,7 +226,7 @@ security:
   summary_line: TLSv1.3
 slug: idrx
 tags:
-- Stablecoins
+- Stablecoin
 - Cryptocurrency
 - Payments
 - Blockchain

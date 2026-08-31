@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 35
   slug: blockchain.com-agentic-access
   summary_line: 35 operations · 5 acting
-api_count: 18
+api_count: 3
 apis:
 - description: Real-time WebSocket gateway for the Blockchain.com Exchange. Anonymous channels stream heartbeat, L2/L3 order books, prices, symbols, ticker and trades; authenticated channels cover auth, balances and
   name: Blockchain.com Exchange WebSocket API
@@ -284,7 +284,7 @@ modified: '2026-08-02'
 name: Blockchain.com
 nav: Providers
 network: true
-overview: 'Blockchain.com publishes 10 APIs on the [APIs.io](https://apis.io/) network, including NFT Market API, Eligibility API, Nft API, and 7 more. Tagged areas include Cryptocurrency, Bitcoin, Blockchain, Exchange, and Trading.
+overview: 'Blockchain.com publishes 10 APIs on the [APIs.io](https://apis.io/) network, including NFT Market API, Eligibility API, Nft API, and 7 more. Tagged areas include cryptocurrency, bitcoin, Blockchain, exchange, and Trading.
 
 
   The Blockchain.com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -303,18 +303,23 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 59.7
+  composite: 57.2
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 58.4
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 59.7
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -331,8 +336,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/screenshots/blockchain.com-2026-08-07T162627.png
 security:
@@ -350,16 +355,16 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: blockchain.com
 tags:
-- Cryptocurrency
-- Bitcoin
+- cryptocurrency
+- bitcoin
 - Blockchain
-- Exchange
+- exchange
 - Trading
 - Market Data
 - Payments
-- On-Ramp
+- on-ramp
 - Wallets
-- Block Explorer
+- block-explorer
 - Fintech
 - Webhook
 website: https://www.blockchain.com/

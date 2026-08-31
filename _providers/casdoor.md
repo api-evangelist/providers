@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 24
   slug: casdoor-agentic-access
   summary_line: 24 operations · 13 acting
-api_count: 15
+api_count: 1
 apis:
 - description: The Casdoor REST API provides programmatic access to the IAM platform's core resources including users, organizations, applications, roles, groups, permissions, identity providers, tokens, sessions, c
   name: Casdoor REST API
@@ -277,18 +277,26 @@ rate_limits:
   name: Casdoor Rate Limits
   slug: casdoor-rate-limits
 score:
-  band: emerging
-  composite: 25.2
-  delta: 0.0
+  band: thin
+  composite: 28.2
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 3.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 12.6
     developer_ergonomics: 38.1
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 60.0
   previous_composite: 25.2
   provenance:
     agentic_access: derived
@@ -297,8 +305,8 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/screenshots/casdoor-2026-06-20T174037.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 20
   slug: eridu-agentic-access
   summary_line: 20 operations
-api_count: 7
+api_count: 1
 apis:
 - description: Anonymous, unauthenticated read access to the Eridu news and press archive published at eridu.ai, served by the WordPress core REST API. Verified live at 1 published post on 2026-08-12.
   name: Eridu Content API
@@ -78,6 +78,10 @@ collections:
   name: Eridu Taxonomy API
   slug: open-eridu-taxonomy-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ciena/
 - group: company
   title: ''
   type: Website
@@ -214,7 +218,7 @@ network: true
 overview: 'Eridu publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Content API, Pages API, Media API, and 4 more. Tagged areas include Company, Artificial Intelligence, AI Infrastructure, Networking, and Semiconductors.
 
 
-  Eridu''s developer surface includes engineering blog, product news, YouTube channel, authentication, code examples, and 26 more developer resources.'
+  Eridu''s developer surface includes engineering blog, product news, YouTube channel, authentication, code examples, and 27 more developer resources.'
 plans:
 - name: Eridu Plans Pricing
   plan_count: 0
@@ -226,18 +230,23 @@ rate_limits:
   slug: eridu-rate-limits
 score:
   band: emerging
-  composite: 21.0
-  delta: 0.0
+  composite: 19.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 16.7
     developer_ergonomics: 16.1
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 21.0
+  previous_composite: 20.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,8 +257,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

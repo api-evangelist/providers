@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: GET-based HTTP image API that returns a screenshot for any given web page URI. Embeddable directly in HTML via img/anchor tags. Supports request options such as size=original and viewport for mobile/t
@@ -76,7 +76,7 @@ modified: '2026-08-26'
 name: LinkPeek
 nav: Providers
 network: true
-overview: 'LinkPeek publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Screenshots, webpage-capture, website-thumbnails, Image-Generation, and Rendering.
+overview: 'LinkPeek publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Screenshots, webpage-capture, website-thumbnails, Image-Generation, and rendering.
 
 
   LinkPeek''s developer surface includes documentation, API reference, support, engineering blog, and 4 more developer resources.'
@@ -84,7 +84,12 @@ random_paper: 11
 score:
   band: emerging
   composite: 12.7
-  delta: 2.6
+  coverage:
+    artifact_dirs: 1
+    catalog_gap: 85.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
@@ -94,15 +99,15 @@ score:
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.1
+  previous_composite: 12.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: linkpeek
 tags:
@@ -110,10 +115,10 @@ tags:
 - webpage-capture
 - website-thumbnails
 - Image-Generation
-- Rendering
+- rendering
 - web-scraping-adjacent
 - Developer Tools
-- Software-as-a-Service
+- saas
 - rest-image-api
 - Utility API
 - URL Metadata
@@ -127,55 +132,8 @@ tags:
 - IP Geolocation
 - Data Conversion
 - LLM-Compatible API
-- API Utilities
+- api-utilities
 - dns-whois
 - openai-compatible-llm
-- Screenshot API
-- Web Capture
-- Imaging API
-- Website Monitoring
-- SaaS
-- Website Screenshots
-- Web Page Thumbnails
-- Image Generation
-- Web Rendering
-- Media/Utilities
-- screenshots
-- thumbnails
-- image-generation
-- developer-tools
-- rest-api
-- media/imaging
-- Image Capture / Rendering
-- Web Content / Media
-- SaaS Utility API
-- Website Capture
-- Web Thumbnails
-- Web Scraping
-- Web Publishing
-- website-screenshots
-- screenshot-api
-- web-rendering
-- image-capture
-- link-preview
-- website screenshot
-- webpage snapshot
-- thumbnail generation
-- image-as-a-service
-- web capture
-- developer tools
-- SEO
-- marketing tooling
-- Web Page Capture
-- Image Generation & Rendering
-- Media & Thumbnails
-- Thumbnails
-- Website screenshots
-- Webpage snapshots
-- Web capture
-- Thumbnail generation
-- Website monitoring
-- Developer tools
-- Media & imaging API
 website: https://linkpeek.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
 - description: OpenAPI-described REST API for the Semgrep AppSec Platform. Lists deployments, projects, findings, scans, secrets, and supply chain data, and supports CI/CD and triage automation. Requires a Team or E
@@ -56,6 +56,26 @@ apis:
   slug: docs
 artifact_total: 12
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/semgrep/semgrep/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/semgrep/semgrep/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/semgrep/semgrep/blob/develop/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/semgrep/semgrep/blob/develop/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/semgrep/semgrep/blob/develop/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -119,7 +139,7 @@ network: true
 overview: 'Semgrep publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Static Analysis, SAST, Application Security, Supply Chain, and Secrets Detection.
 
 
-  Semgrep''s developer surface includes documentation, GitHub presence, and 10 more developer resources.'
+  Semgrep''s developer surface includes documentation, GitHub presence, and 15 more developer resources.'
 plans:
 - name: Semgrep Plans Pricing
   plan_count: 1
@@ -130,8 +150,13 @@ rate_limits:
   name: Semgrep Rate Limits
   slug: semgrep-rate-limits
 score:
-  band: emerging
-  composite: 20.8
+  band: thin
+  composite: 31.8
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -141,10 +166,13 @@ score:
     developer_ergonomics: 9.5
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 20.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 31.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semgrep/refs/heads/main/screenshots/semgrep-2026-06-20T193645.png
 security:

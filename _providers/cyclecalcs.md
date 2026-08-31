@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 29
   slug: cyclecalcs-agentic-access
   summary_line: 29 operations
-api_count: 30
+api_count: 1
 apis:
 - description: Hosted stateless Streamable HTTP MCP server exposing 11 astronomy tools backed by the v2 REST endpoints. Requires Bearer RapidAPI key on every call; basic plan free. Works with Claude Code, custom con
   name: CycleCalcs MCP Server
@@ -437,18 +437,23 @@ rate_limits:
   slug: cyclecalcs-rate-limits
 score:
   band: strong
-  composite: 64.4
-  delta: 0.0
+  composite: 63.5
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 49.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 62.5
     developer_ergonomics: 63.7
-    discoverability: 81.5
-    governance: 45.5
+    discoverability: 87.0
+    governance: 33.3
     operational_transparency: 55.3
-  previous_composite: 64.4
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -459,8 +464,8 @@ score:
       total: 30
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/screenshots/cyclecalcs-2026-08-17T080843.png
 security:
@@ -486,6 +491,6 @@ tags:
 - Calendar
 - Geolocation
 - MCP
-- agent-native
+- Agent-native
 website: https://www.cyclecalcs.com/api.html
 ---

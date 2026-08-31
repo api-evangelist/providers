@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 51
   slug: autocontent-api-agentic-access
   summary_line: 51 operations · 25 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Generate AI-powered podcast episodes from URLs, PDFs, YouTube videos, plain text, or social media feeds. Produces MP3 audio with metadata using NotebookLM-style AI with support for standard voices and
   name: Podcast Generation API
@@ -186,15 +186,20 @@ rate_limits:
   slug: autocontent-api-rate-limits
 score:
   band: emerging
-  composite: 20.8
-  delta: 0.0
+  composite: 20.2
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 13.0
     developer_ergonomics: 2.4
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 20.8
@@ -205,8 +210,8 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autocontent-api/refs/heads/main/screenshots/autocontent-api-2026-06-20T172653.png
 security:
@@ -226,7 +231,7 @@ tags:
 - Podcasts
 - Video
 - Generative AI
-- Text-to-Speech
+- Text to Speech
 - Automation
 use_cases:
 - description: Content creators and media teams automating production of podcast episodes, videos, and written content from research materials at scale.

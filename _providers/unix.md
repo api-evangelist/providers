@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 11
 apis:
 - description: System calls for file and directory manipulation, including open, read, write, and file descriptor management.
@@ -133,7 +133,7 @@ modified: '2026-04-18'
 name: UNIX System Call
 nav: Providers
 network: true
-overview: 'UNIX System Call publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include C API, Ieee-1003, Kernel, Open-Group, and Operating System.
+overview: 'UNIX System Call publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include C-Api, Ieee-1003, Kernel, Open-Group, and Operating-System.
 
 
   UNIX System Call''s developer surface includes documentation, getting-started guide, API reference, and 5 more developer resources.'
@@ -149,7 +149,12 @@ rate_limits:
 score:
   band: emerging
   composite: 17.5
-  delta: 1.7
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -159,9 +164,9 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 15.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 17.5
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unix/refs/heads/main/screenshots/unix-2026-06-20T200339.png
 security:
@@ -171,12 +176,12 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: unix
 tags:
-- C API
+- C-Api
 - Ieee-1003
 - Kernel
 - Open-Group
-- Operating System
-- POSIX
+- Operating-System
+- Posix
 - System-Calls
 - Unix
 use_cases:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: sec-api-agentic-access
   summary_line: 7 operations · 5 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Real-time, push-based WebSocket feed of newly published SEC EDGAR filings. Connect to wss://stream.sec-api.io with an API key and receive a stringified JSON array of filing metadata objects the moment
   name: SEC API Filing Stream API
@@ -174,18 +174,23 @@ rules:
   slug: sec-api-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 41.9
-  delta: 1.4
+  composite: 41.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 63.7
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 13.6
     operational_transparency: 31.6
-  previous_composite: 40.5
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +204,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/screenshots/sec-api-2026-08-17T081743.png
 security:

@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-26'
-api_count: 90
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Activity API from Samsara — 1 operation(s) for activity.
   name: Samsara Activity API
@@ -579,6 +579,14 @@ collections:
   name: Samsara Webhooks API
   slug: open-samsara-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/samsara-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/samsarahq/api-docs/issues
 - group: auth
   title: ''
   type: DomainSecurity
@@ -698,7 +706,7 @@ overview: 'Samsara publishes 90 APIs on the [APIs.io](https://apis.io/) network,
   The Samsara catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Samsara''s developer surface includes documentation, authentication, code examples, and 14 more developer resources.'
+  Samsara''s developer surface includes documentation, authentication, code examples, and 16 more developer resources.'
 plans:
 - name: Samsara Plans Pricing
   plan_count: 3
@@ -732,26 +740,34 @@ rules:
   slug: samsara-rules
 score:
   band: thin
-  composite: 34.1
-  delta: 0.0
+  composite: 32.1
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 69.8
+    contract_quality: 71.0
     developer_ergonomics: 10.7
-    discoverability: 64.8
+    discoverability: 77.8
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 34.1
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 32.6
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 90
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/samsara/refs/heads/main/screenshots/samsara-2026-06-20T193402.png
 security:

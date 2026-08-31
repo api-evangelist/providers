@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 23
   slug: sec-agentic-access
   summary_line: 23 operations · 12 acting
-api_count: 9
+api_count: 3
 apis:
 - description: Historical values for a single XBRL concept
   name: SEC EDGAR Company Concept API
@@ -104,6 +104,10 @@ collections:
   name: SEC EDGAR Data Company Concept Submissions API
   slug: open-sec-submissions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sec-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -168,10 +172,6 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/sec-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: '2026-06-12'
 description: The U.S. Securities and Exchange Commission (SEC) EDGAR (Electronic Data Gathering, Analysis, and Retrieval) system provides free public access to corporate financial filings submitted to the SEC. The EDGAR REST API at data.sec.gov delivers JSON-formatted data without requiring authentication or API keys, covering company submissions, XBRL financial facts, and company concept data. Endpoints support CIK lookups, full filing history, structured XBRL financial disclosures across reporting periods, and cross-company comparative frames for US-GAAP and IFRS taxonomies.
 examples:
@@ -235,18 +235,23 @@ rules:
   slug: sec-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.0
+  composite: 44.3
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 26.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 25.0
-    contract_quality: 68.3
+    contract_quality: 69.5
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 44.0
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     contracts:
@@ -260,8 +265,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/screenshots/sec-2026-06-20T193619.png
 security:

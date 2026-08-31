@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 77
   slug: tapfiliate-agentic-access
   summary_line: 77 operations · 41 acting
-api_count: 11
+api_count: 1
 apis:
 - description: Manage affiliate groups
   name: Tapfiliate Affiliate Groups API
@@ -118,6 +118,10 @@ collections:
   name: Tapfiliate REST Affiliate Groups Programs API
   slug: open-tapfiliate-programs-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tapfiliate-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -329,7 +333,7 @@ overview: 'Tapfiliate publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
   The Tapfiliate catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Tapfiliate''s developer surface includes authentication, documentation, engineering blog, pricing, sandbox, API reference, getting-started guide, and 34 more developer resources.'
+  Tapfiliate''s developer surface includes authentication, documentation, engineering blog, pricing, sandbox, API reference, getting-started guide, and 35 more developer resources.'
 plans:
 - name: Tapfiliate Plans Pricing
   plan_count: 3
@@ -356,19 +360,24 @@ scopes:
   slug: tapfiliate-scopes
   summary_line: 4 scopes
 score:
-  band: exemplar
-  composite: 68.4
-  delta: 0.0
+  band: strong
+  composite: 66.0
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 46.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 41.7
+    contract_governance: 29.5
     contract_quality: 72.9
     developer_ergonomics: 73.2
-    discoverability: 85.2
-    governance: 41.7
+    discoverability: 75.9
+    governance: 29.5
     operational_transparency: 39.5
-  previous_composite: 68.4
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -379,8 +388,8 @@ score:
       total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/screenshots/tapfiliate-2026-06-20T194920.png
 security:

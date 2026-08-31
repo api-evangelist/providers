@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: liquidonate-agentic-access
   summary_line: 9 operations · 9 acting
-api_count: 5
+api_count: 2
 apis:
 - description: Bulky, multi-package and pickup-scheduled donations.
   name: LiquiDonate Donate API
@@ -58,7 +58,10 @@ apis:
 - description: Purchase donation shipping labels.
   name: LiquiDonate Ship API
   slug: liquidonate-ship-api
-artifact_total: 16
+- description: The ReturnsDirect By LiquiDonate (Beta) API from LiquiDonate — 0 operation(s) for returnsdirect by liquidonate (beta).
+  name: LiquiDonate ReturnsDirect By LiquiDonate (Beta) API
+  slug: liquidonate-returnsdirect-by-liquidonate-beta-api
+artifact_total: 17
 asyncapis:
 - description: Outbound webhook event surface for ReturnsDirect by LiquiDonate. LiquiDonate POSTs return and refund status events to the webhook URL a retailer registers, so the retailer can update its own order man
   name: ReturnsDirect by LiquiDonate - Return and Refund Events
@@ -83,6 +86,10 @@ collections:
   name: MagicMatch by LiquiDonate Donate Ship API
   slug: open-liquidonate-ship-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/liquidonate-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -264,28 +271,33 @@ modified: '2026-07-19'
 name: LiquiDonate
 nav: Providers
 network: true
-overview: 'LiquiDonate publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Donate API, Match API, Orders API, and 2 more. Tagged areas include Reverse Logistics, Returns Management, Donations, Non-Profit, and Retail.
+overview: 'LiquiDonate publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Donate API, Match API, Orders API, and 3 more. Tagged areas include Reverse Logistics, Returns Management, Donations, Non-Profit, and Retail.
 
 
   The LiquiDonate catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  LiquiDonate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
+  LiquiDonate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
 random_paper: 7
 score:
-  band: strong
-  composite: 54.7
-  delta: 0.0
+  band: developing
+  composite: 52.5
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 31.8
-    contract_quality: 69.3
+    contract_governance: 19.7
+    contract_quality: 65.5
     developer_ergonomics: 70.8
-    discoverability: 74.1
-    governance: 31.8
+    discoverability: 75.9
+    governance: 19.7
     operational_transparency: 23.7
-  previous_composite: 54.7
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -296,8 +308,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/screenshots/liquidonate-2026-07-25T225320.png
 security:

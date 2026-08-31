@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: hud-agentic-access
   summary_line: 8 operations
-api_count: 10
+api_count: 5
 apis:
 - description: Provides Fair Market Rent (FMR) data by state, county, and metropolitan area. Returns efficiency through four-bedroom rental rates used as the basis for Section 8 Housing Choice Voucher payment standa
   name: HUD User Fair Market Rents API
@@ -217,18 +217,23 @@ rules:
   slug: hud-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.8
+  composite: 38.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 44.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
-    contract_quality: 62.3
+    contract_quality: 61.4
     developer_ergonomics: 9.5
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 38.8
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -242,8 +247,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hud/refs/heads/main/screenshots/hud-2026-06-20T182921.png
 security:

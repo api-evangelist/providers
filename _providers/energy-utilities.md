@@ -34,7 +34,7 @@ tags:
 - Demand Response
 - DERMS
 - EV Charging
-- ISO RTO
+- ISO/RTO
 - Renewable Energy
 - Solar
 - Wind

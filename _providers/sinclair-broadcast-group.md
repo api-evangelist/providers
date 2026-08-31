@@ -34,18 +34,51 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: The public, unauthenticated read surface of Sinclair's corporate site at sbgi.net. Sinclair runs no developer program and publishes no API reference, but the site is WordPress and serves a live REST A
-  name: Sinclair Corporate Content API
-  slug: sinclair-corporate-content-api
-artifact_total: 33
+- description: Corporate pages and the interactive 'Sinclair World' experience.
+  name: Sinclair, Inc. Corporate API
+  slug: sinclair-broadcast-group-corporate-api
+- description: oEmbed representations of Sinclair corporate URLs.
+  name: Sinclair, Inc. Embed API
+  slug: sinclair-broadcast-group-embed-api
+- description: Media library assets served from the corporate site.
+  name: Sinclair, Inc. Media API
+  slug: sinclair-broadcast-group-media-api
+- description: Press releases, newsroom posts and comments.
+  name: Sinclair, Inc. Press API
+  slug: sinclair-broadcast-group-press-api
+- description: 'Self-describing metadata: content types, taxonomies and statuses.'
+  name: Sinclair, Inc. Schema API
+  slug: sinclair-broadcast-group-schema-api
+- description: Cross-content search over the corporate site.
+  name: Sinclair, Inc. Search API
+  slug: sinclair-broadcast-group-search-api
+- description: Sinclair's owned, operated and managed television station footprint.
+  name: Sinclair, Inc. Stations API
+  slug: sinclair-broadcast-group-stations-api
+- description: Categories and tags that classify press releases.
+  name: Sinclair, Inc. Taxonomy API
+  slug: sinclair-broadcast-group-taxonomy-api
+artifact_total: 40
 collections:
 - collection_type: open
   name: Sinclair Corporate Content API
   slug: open-sinclair-broadcast-group-content
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sinclair-broadcast-group-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sinclair-broadcast-group-content-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/sinclair-broadcast-group-mcp.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -153,10 +186,10 @@ modified: '2026-08-12'
 name: Sinclair, Inc.
 nav: Providers
 network: true
-overview: 'Sinclair, Inc. publishes 1 API on the [APIs.io](https://apis.io/) network: Sinclair Corporate Content API. Tagged areas include Broadcasting, Television, Local News, Sports Media, and Regional Sports Networks.
+overview: 'Sinclair, Inc. publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Corporate API, Embed API, Media API, and 5 more. Tagged areas include Broadcasting, Television, Local News, Sports Media, and Regional Sports Networks.
 
 
-  Sinclair, Inc.''s developer surface includes support, engineering blog, developer portal, and 13 more developer resources.'
+  Sinclair, Inc.''s developer surface includes support, engineering blog, developer portal, and 16 more developer resources.'
 plans:
 - name: Sinclair Broadcast Group Plans Pricing
   plan_count: 0
@@ -168,18 +201,23 @@ rate_limits:
   slug: sinclair-broadcast-group-rate-limits
 score:
   band: thin
-  composite: 37.3
-  delta: 5.7
+  composite: 36.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 52.4
     developer_ergonomics: 47.0
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 31.6
+  previous_composite: 37.1
   provenance:
     conformance: derived
     contracts:
@@ -189,9 +227,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png
 security:
 - kind: authentication

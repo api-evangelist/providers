@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 162
   slug: propertyware-agentic-access
   summary_line: 162 operations · 86 acting
-api_count: 14
+api_count: 1
 apis:
 - description: Resources providing access to accounting data such as general ledger accounts and financial transactions.
   name: Propertyware Accounting API
@@ -134,6 +134,10 @@ collections:
   name: Open API, powered by Propertyware Accounting Work orders API
   slug: open-propertyware-work-orders-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/propertyware-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -953,7 +957,7 @@ overview: 'Propertyware publishes 14 APIs on the [APIs.io](https://apis.io/) net
   The Propertyware catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Propertyware''s developer surface includes authentication, documentation, engineering blog, pricing, and 9 more developer resources.'
+  Propertyware''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
 plans:
 - name: Propertyware Plans Pricing
   plan_count: 3
@@ -976,15 +980,20 @@ rules:
   slug: propertyware-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.8
-  delta: 0.0
+  composite: 40.2
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 65.3
     developer_ergonomics: 19.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 15.8
   previous_composite: 40.8
@@ -995,8 +1004,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propertyware/refs/heads/main/screenshots/propertyware-2026-06-20T192210.png
 security:

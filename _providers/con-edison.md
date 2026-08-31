@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,15 +42,54 @@ agentic_access:
   operation_count: 37
   slug: con-edison-agentic-access
   summary_line: 37 operations · 2 acting
-api_count: 2
+api_count: 1
 apis:
-- description: Con Edison and Orange & Rockland's Green Button Connect My Data (CMD) implementation, branded "Share My Data" — the NAESB REQ.21 Energy Services Provider Interface (ESPI) machine-to-machine API throug
-  name: Con Edison Green Button Connect My Data API
-  slug: con-edison-green-button-connect-my-data-api
 - description: Con Edison's distribution-grid open data, published as anonymously readable Esri ArcGIS REST feature services behind the public Hosting Capacity Map. Con Edison's own documentation states that "REST A
   name: Con Edison Hosting Capacity Map REST API
   slug: con-edison-hosting-capacity-map-rest-api
-artifact_total: 10
+- description: The ApplicationInformation API from Con Edison — 1 operation(s) for applicationinformation.
+  name: Con Edison Application Information API
+  slug: con-edison-applicationinformation-api
+- description: The Authorization API from Con Edison — 3 operation(s) for authorization.
+  name: Con Edison Authorization API
+  slug: con-edison-authorization-api
+- description: The Batch API from Con Edison — 4 operation(s) for batch.
+  name: Con Edison Batch API
+  slug: con-edison-batch-api
+- description: The ElectricPowerUsageSummary API from Con Edison — 2 operation(s) for electricpowerusagesummary.
+  name: Con Edison Electric Power Usage Summary API
+  slug: con-edison-electricpowerusagesummary-api
+- description: The IntervalBlock API from Con Edison — 2 operation(s) for intervalblock.
+  name: Con Edison Interval Block API
+  slug: con-edison-intervalblock-api
+- description: The LocalTimeParameters API from Con Edison — 2 operation(s) for localtimeparameters.
+  name: Con Edison Local Time Parameters API
+  slug: con-edison-localtimeparameters-api
+- description: The MeterReading API from Con Edison — 2 operation(s) for meterreading.
+  name: Con Edison Meter Reading API
+  slug: con-edison-meterreading-api
+- description: The ReadingType API from Con Edison — 2 operation(s) for readingtype.
+  name: Con Edison Reading Type API
+  slug: con-edison-readingtype-api
+- description: The RealTimeBatch API from Con Edison — 3 operation(s) for realtimebatch.
+  name: Con Edison Real Time Batch API
+  slug: con-edison-realtimebatch-api
+- description: The RealTimeIntervalBlock API from Con Edison — 2 operation(s) for realtimeintervalblock.
+  name: Con Edison Real Time Interval Block API
+  slug: con-edison-realtimeintervalblock-api
+- description: The RealTimeReadingType API from Con Edison — 2 operation(s) for realtimereadingtype.
+  name: Con Edison Real Time Reading Type API
+  slug: con-edison-realtimereadingtype-api
+- description: The RetailCustomer API from Con Edison — 9 operation(s) for retailcustomer.
+  name: Con Edison Retail Customer API
+  slug: con-edison-retailcustomer-api
+- description: The ServiceStatus API from Con Edison — 1 operation(s) for servicestatus.
+  name: Con Edison Service Status API
+  slug: con-edison-servicestatus-api
+- description: The UsagePoint API from Con Edison — 2 operation(s) for usagepoint.
+  name: Con Edison Usage Point API
+  slug: con-edison-usagepoint-api
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Con Edison Batch Notification Webhooks
@@ -60,6 +99,14 @@ collections:
   name: DCX GBC API V2
   slug: open-con-edison-green-button-connect-my-data-swagger
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/con-edison-green-button-connect-my-data-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/con-edison-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -159,19 +206,19 @@ description: 'Consolidated Edison Company of New York, Inc. (CECONY, trading as 
 layout: provider
 mcp_servers:
 - description: ''
-  name: Candidate MCP tool list derived from the published Swagger definition (no server exists)
-  slug: candidate-mcp-tool-list-derived-from-the-published-swagger-definition-no-server-exists
+  name: Con Edison MCP Server
+  slug: con-edison-mcp-server
 modified: '2026-07-27'
 name: Con Edison
 nav: Providers
 network: true
-overview: 'Con Edison publishes 1 API on the [APIs.io](https://apis.io/) network: Green Button Connect My Data API. Tagged areas include Energy, United States, New York, Utilities, and Electricity.
+overview: 'Con Edison publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Application Information API, Authorization API, Batch API, and 11 more. Tagged areas include Energy, United States, New York, Utilities, and Electricity.
 
 
   The Con Edison catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Con Edison''s developer surface includes support, documentation, signup flow, authentication, and 19 more developer resources.'
+  Con Edison''s developer surface includes support, documentation, signup flow, authentication, and 21 more developer resources.'
 random_paper: 20
 rate_limits:
 - limit_count: 2
@@ -184,18 +231,23 @@ scopes:
   summary_line: 17 scopes
 score:
   band: developing
-  composite: 51.2
-  delta: 6.8
+  composite: 48.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 30.3
-    contract_quality: 44.9
+    contract_governance: 18.2
+    contract_quality: 42.9
     developer_ergonomics: 68.5
-    discoverability: 64.8
-    governance: 30.3
+    discoverability: 59.3
+    governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 44.4
+  previous_composite: 49.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -212,9 +264,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/con-edison/refs/heads/main/screenshots/con-edison-2026-08-07T163921.png
 security:
 - kind: authentication

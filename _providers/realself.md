@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'RealSelf Lead Sharing publishes a notification to a partner-owned HTTPS endpoint every time a new patient lead is created on the platform. Delivery is over an Amazon SNS topic subscription: the subscr'
@@ -157,16 +157,23 @@ rate_limits:
   slug: realself-rate-limits
 score:
   band: thin
-  composite: 34.5
+  composite: 34.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 56.4
     developer_ergonomics: 23.8
-    discoverability: 79.6
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 21.1
+  previous_composite: 34.1
   provenance:
     conformance: derived
     mcp: derived
@@ -176,8 +183,9 @@ score:
     regime: Health
     regime_id: health
     score: 33.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Realself Authentication
@@ -200,7 +208,7 @@ tags:
 - Reviews
 - Lead Generation
 - Consumer Health
-- Webhooks
-- JSON Schema
+- Webhook
+- JSON-Schema
 website: https://www.realself.com/
 ---

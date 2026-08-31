@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST Assured is a Java DSL library for testing and validating RESTful APIs using a fluent, BDD-style syntax with given-when-then patterns. It supports HTTP methods, JSON/XML validation, authentication
@@ -41,6 +41,14 @@ apis:
   slug: rest-assured
 artifact_total: 12
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/rest-assured/rest-assured/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/rest-assured/rest-assured/blob/master/SECURITY.md
 - group: commercial
   title: ''
   type: License
@@ -114,7 +122,7 @@ overview: 'REST Assured publishes 1 API on the [APIs.io](https://apis.io/) netwo
   The REST Assured catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  REST Assured''s developer surface includes documentation, support, and 6 more developer resources.'
+  REST Assured''s developer surface includes documentation, support, and 8 more developer resources.'
 plans:
 - name: Rest Assured Plans Pricing
   plan_count: 3
@@ -137,21 +145,29 @@ rules:
   slug: rest-assured-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.4
-  delta: 6.1
+  composite: 30.3
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 44.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.9
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 25.0
     contract_quality: 34.7
-    developer_ergonomics: 26.2
+    developer_ergonomics: 21.4
     discoverability: 59.3
     governance: 25.0
-    operational_transparency: 26.3
-  previous_composite: 23.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 35.0
+  previous_composite: 31.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rest-assured/refs/heads/main/screenshots/rest-assured-2026-06-20T192958.png
 security:
 - kind: domain-security

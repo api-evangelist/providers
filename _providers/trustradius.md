@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 11
   slug: trustradius-agentic-access
   summary_line: 11 operations
-api_count: 5
+api_count: 1
 apis:
 - description: Product identity and scoring. GET /product-ids exchanges a TrustRadius product slug for the opaque product `_id` and owning `vendor._id` that every other TrustRadius operation requires, and called wit
   name: TrustRadius Product Data API
@@ -393,18 +393,23 @@ rules:
   slug: trustradius-rules
 score:
   band: strong
-  composite: 61.1
-  delta: 0.0
+  composite: 59.1
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 63.8
     developer_ergonomics: 70.8
-    discoverability: 74.1
-    governance: 45.5
+    discoverability: 68.5
+    governance: 33.3
     operational_transparency: 26.3
-  previous_composite: 61.1
+  previous_composite: 59.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -415,8 +420,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trustradius/refs/heads/main/screenshots/trustradius-2026-06-20T195813.png
 security:

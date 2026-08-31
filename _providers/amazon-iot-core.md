@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 247
   slug: amazon-iot-core-agentic-access
   summary_line: 247 operations · 143 acting · 2 human-in-the-loop
-api_count: 70
+api_count: 2
 apis:
 - description: The Accept Certificate Transfer API from Amazon IoT Core — 1 operation(s) for accept certificate transfer.
   name: Amazon IoT Core Accept Certificate Transfer API
@@ -683,6 +683,10 @@ collections:
   name: Amazon IoT Core API
   slug: open-amazon-iot-core
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-iot-core-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -2621,7 +2625,7 @@ overview: 'Amazon IoT Core publishes 70 APIs on the [APIs.io](https://apis.io/) 
   The Amazon IoT Core catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon IoT Core''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
+  Amazon IoT Core''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 16 more developer resources.'
 plans:
 - name: Amazon Iot Core Plans Pricing
   plan_count: 3
@@ -2654,19 +2658,24 @@ rules:
     warn: 10
   slug: amazon-iot-core-spectral-rules
 score:
-  band: developing
-  composite: 53.4
-  delta: 4.4
+  band: strong
+  composite: 54.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 28.8
     contract_quality: 71.0
     developer_ergonomics: 61.9
-    discoverability: 40.7
+    discoverability: 53.7
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 49.0
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     contracts:
@@ -2674,8 +2683,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 70
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-core/refs/heads/main/screenshots/amazon-iot-core-2026-06-20T171706.png
 security:

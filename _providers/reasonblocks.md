@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 32
   slug: reasonblocks-agentic-access
   summary_line: 32 operations · 18 acting
-api_count: 9
+api_count: 1
 apis:
 - description: The Billing API from ReasonBlocks — 1 operation(s) for billing.
   name: ReasonBlocks Billing API
@@ -210,18 +210,23 @@ overview: 'ReasonBlocks publishes 9 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 5
 score:
   band: thin
-  composite: 37.5
-  delta: 1.4
+  composite: 36.2
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 54.0
     developer_ergonomics: 66.1
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 36.1
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -232,8 +237,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

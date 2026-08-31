@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 2
@@ -31,23 +31,23 @@ agentic_access:
   operation_count: 10
   slug: voltus-agentic-access
   summary_line: 10 operations · 5 acting · 2 human-in-the-loop
-api_count: 5
+api_count: 1
 apis:
-- description: Grid dispatch events for enrolled sites — list dispatches, retrieve a single dispatch by ID, and create a test dispatch. Documented operations are GET /dispatches ("Returns a list of dispatches."), PO
-  name: Voltus Dispatches API
-  slug: voltus-dispatches-api
-- description: 'Read the sites (facilities) enrolled with Voltus under the calling account, with their meters. The single documented operation is GET /sites ("Returns a list of your sites."), returning site name, id '
-  name: Voltus Sites API
-  slug: voltus-sites-api
-- description: Submit and retrieve interval energy telemetry for enrolled sites. Documented operations are POST /telemetry, POST /telemetry/controllable-load ("Posts controllable load.") and GET /telemetry/kw ("Retu
-  name: Voltus Telemetry API
-  slug: voltus-telemetry-api
-- description: Register HTTP callbacks so Voltus can push dispatch notifications instead of the partner polling. Documented operations are GET /webhooks ("Returns a list of all webhooks that have been created."), PO
-  name: Voltus Webhooks API
-  slug: voltus-webhooks-api
 - description: Standards-based alternative to the REST dispatch integration. Voltus states it "supports OpenADR2.0a via Simple HTTP (PULL)" and that "Voltus provides a VTN, and our partners run one or more VENs". Pa
   name: Voltus OpenADR 2.0a VTN
   slug: voltus-openadr-vtn
+- description: The Dispatches API from Voltus — 2 operation(s) for dispatches.
+  name: Voltus Dispatches API
+  slug: voltus-dispatches-api
+- description: The Sites API from Voltus — 1 operation(s) for sites.
+  name: Voltus Sites API
+  slug: voltus-sites-api
+- description: The Telemetry API from Voltus — 3 operation(s) for telemetry.
+  name: Voltus Telemetry API
+  slug: voltus-telemetry-api
+- description: The Webhooks API from Voltus — 2 operation(s) for webhooks.
+  name: Voltus Webhooks API
+  slug: voltus-webhooks-api
 arazzos:
 - description: 'The core Voltus demand-response loop: resolve your enrolled sites, poll for dispatches, then read the individual dispatch to drive per-site curtailment commitments. Runs end-to-end against the public '
   name: Poll Voltus dispatches and curtail enrolled sites
@@ -68,6 +68,22 @@ collections:
   name: Voltus API Reference
   slug: open-voltus
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/voltus-capability-edges.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/voltus-dispatch-integration.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/voltus-telemetry-reporting.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/voltus-webhook-dispatch-listener.md
 - group: agent
   title: ''
   type: MCPServer
@@ -260,7 +276,7 @@ overview: 'Voltus publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
   The Voltus catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Voltus'' developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, changelog, support, and 33 more developer resources.'
+  Voltus'' developer surface includes authentication, documentation, API reference, getting-started guide, sandbox, changelog, support, and 37 more developer resources.'
 random_paper: 13
 rate_limits:
 - limit_count: 2
@@ -268,18 +284,23 @@ rate_limits:
   slug: voltus-rate-limits
 score:
   band: strong
-  composite: 56.4
-  delta: 0.0
+  composite: 54.4
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 62.6
     developer_ergonomics: 66.1
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 55.3
-  previous_composite: 56.4
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -296,8 +317,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voltus/refs/heads/main/screenshots/voltus-2026-08-17T082820.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: triplit-agentic-access
   summary_line: 18 operations · 16 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: RESTful HTTP API for interacting with a Triplit sync server, supporting fetch, insert, bulk-insert, update, delete, delete-all, and healthcheck operations. Authenticated via JWT Bearer tokens (Service
   name: Triplit HTTP API
@@ -95,6 +95,18 @@ collections:
   name: Triplit HTTP Advanced Webhooks API
   slug: open-triplit-webhooks-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/aspen-cloud/triplit/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/aspen-cloud/triplit/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/aspen-cloud/triplit/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -197,13 +209,13 @@ modified: '2026-06-12'
 name: Triplit
 nav: Providers
 network: true
-overview: 'Triplit publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Advanced API, Auth API, Data API, and 3 more. Tagged areas include Database, Real-Time, Sync, Local-First, and Developer Tools.
+overview: 'Triplit publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Advanced API, Auth API, Data API, and 3 more. Tagged areas include Database, Real-Time, Sync, Local-first, and Developer Tools.
 
 
   The Triplit catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Triplit''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
+  Triplit''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
 plans:
 - name: Triplit Plans Pricing
   plan_count: 1
@@ -226,18 +238,26 @@ rules:
   slug: triplit-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.7
-  delta: 0.0
+  composite: 38.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 49.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 62.6
     developer_ergonomics: 17.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
-    operational_transparency: 23.7
-  previous_composite: 35.7
+    operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -245,8 +265,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -262,7 +282,7 @@ tags:
 - Database
 - Real-Time
 - Sync
-- Local-First
+- Local-first
 - Developer Tools
 - TypeScript
 - Open-Source

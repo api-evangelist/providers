@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 24
   slug: span-io-agentic-access
   summary_line: 24 operations · 9 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: 'Publish/subscribe streaming API hosted on SPAN Panel using the Electrification Bus (eBus) integration framework and the Homie Convention. SPAN Panel hosts an MQTT broker accessible over MQTTS (8883), '
   name: SPAN eBus MQTT API
@@ -108,6 +108,10 @@ collections:
   name: Span
   slug: open-span-rest-api
 common:
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/spanio/SPAN-API-Client-Docs/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -300,7 +304,7 @@ overview: 'SPAN publishes 9 APIs on the [APIs.io](https://apis.io/) network, inc
   The SPAN catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  SPAN''s developer surface includes authentication, developer portal, documentation, engineering blog, support, changelog, tooling, and 29 more developer resources.'
+  SPAN''s developer surface includes authentication, developer portal, documentation, engineering blog, support, changelog, tooling, and 30 more developer resources.'
 plans:
 - name: Span Io Plans Pricing
   plan_count: 3
@@ -335,18 +339,26 @@ rules:
   slug: span-io-rules
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 46.4
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 49.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 13.6
     contract_quality: 61.9
     developer_ergonomics: 52.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 18.4
-  previous_composite: 49.0
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     contracts:
@@ -360,8 +372,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 36.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/screenshots/span-io-2026-06-20T194242.png
 security:

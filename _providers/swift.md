@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 22
   slug: swift-agentic-access
   summary_line: 22 operations
-api_count: 11
+api_count: 1
 apis:
 - description: The SWIFT GPI (Global Payments Innovation) API enables financial institutions to track cross-border payment transactions in real time, update payment statuses, and manage stop-and-recall requests. Use
   name: SWIFT GPI API
@@ -134,6 +134,10 @@ collections:
   name: SWIFT SwiftRef API
   slug: open-swift-swiftref-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/swift-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -255,7 +259,7 @@ overview: 'SWIFT publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
   The SWIFT catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SWIFT''s developer surface includes authentication, API reference, sandbox, support, and 16 more developer resources.'
+  SWIFT''s developer surface includes authentication, API reference, sandbox, support, and 17 more developer resources.'
 plans:
 - name: Swift Plans Pricing
   plan_count: 1
@@ -294,18 +298,23 @@ scopes:
   summary_line: 2 scopes · password
 score:
   band: thin
-  composite: 39.0
-  delta: 1.0
+  composite: 38.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 30.3
     commercial_clarity: 30.3
     contract_governance: 13.6
     contract_quality: 59.2
     developer_ergonomics: 32.1
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 38.0
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -319,8 +328,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/screenshots/swift-2026-06-20T194804.png
 security:

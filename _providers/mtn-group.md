@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 246
   human_in_the_loop: 14
@@ -31,353 +31,8 @@ agentic_access:
   operation_count: 475
   slug: mtn-group-agentic-access
   summary_line: 475 operations · 246 acting · 14 human-in-the-loop
-api_count: 119
+api_count: 115
 apis:
-- description: 'API to consume and process account management actions to perform account status changes to customers with a MoMo Advance account. ChangeLog: 03-March-23 - First version.'
-  name: MTN Account Decisioning
-  slug: account-decisioning
-- description: 'TMF API Reference: TMF 678 - Customer bill Management Release: 19.5 - December 2019 The Customer Bill Management API allows to find and retrieve one or several customer bills (also called invoices) pr'
-  name: MTN TMF Customer Bill Management - TMF678
-  slug: tmf-customer-bill-management
-- description: Api Documentation.
-  name: MTN Loans
-  slug: mtn-customer-loans-api-v1
-- description: Api Documentation.
-  name: MTN Subscriber Details
-  slug: subscriber-details
-- description: Api Documentation.
-  name: MTN Subscriber Type
-  slug: subscriber-type
-- description: Api Documentation.
-  name: MTN Provisioning
-  slug: provisioning
-- description: Api Documentation.
-  name: MTN Unified Balance V1
-  slug: unified-balance-v1
-- description: 'TMF API Reference: TMF639 - Resource Inventory Release : 19.5 - December 2019 Resource Inventory API goal is to provide the ability to manage Resources. Operations Resource Inventory API performs the '
-  name: MTN TMF Resource Inventory Management - TMF639
-  slug: tmf-resourceinventorymanagement-tmf639
-- description: 'TMF API Reference : TMF 699 - Sales This API provides interfaces for Sales Lead, Sales Opportunity, Sales Quote and the other management capabilities to support the sales activities to build relations'
-  name: MTN Sales Lead
-  slug: sales-management
-- description: 'TMF API Reference: TMF640 - Service Activation and Configuration Version 4.0 Service Activation and Configuration API goal is to provide the ability to activate and configure Service. This API feature'
-  name: MTN Service Activation and Configuration
-  slug: service-activation-and-configuration
-- description: 'TMF API Reference : TMF 641 - Service Ordering Management Version 4.1 TMF641 performs the following operations on service order resource : - Retrieval of a service order or a collection of service ord'
-  name: MTN Service Ordering
-  slug: service-ordering
-- description: Authentication API.
-  name: MTN BSS TT OAuth V1
-  slug: bss-tt-oauth-v1
-- description: The Balance Management API facilitates the management of Customer Account capabilitites. It provides a generic API any client or back-end can call to request a Topup function that allows a reseller to
-  name: MTN Balance Management V1
-  slug: balance-management-v1
-- description: callmeback API will be used to post a request in AYO, when initiated by Users via different Applications like "portal", "IVR" etc.
-  name: MTN Callmeback V1
-  slug: callmeback-v1
-- description: callmeback API will be used to post a request to Backend systems when initiated by Users via different Applications like "portal", "IVR" etc.
-  name: MTN Callmeback V2
-  slug: callmeback-v2
-- description: This API Provides a capability to create and send communications, notifications, and instructions to Parties, Individuals, Organizations or Users.
-  name: MTN RCS Communication
-  slug: rcs-communication
-- description: This is Swagger UI environment generated for the TMF Communication Management specification.
-  name: MTN Communication Management V1
-  slug: communication-management-v1
-- description: This is Swagger UI environment generated for the TMF Communication Management specification.
-  name: MTN TMF681 Communication Management
-  slug: tmf681-communication-management
-- description: A suite of apis for customer consent validation.
-  name: MTN Consent Validation V1
-  slug: ayo-preapproval
-- description: The API provides a target system with data content to be pushed via a channel to a customer. Supported Actions 1. SendSms. **Supported OpCo's:** MTN Uganda, MTN Ghana, MTN SA.
-  name: MTN Content Push
-  slug: content-push
-- description: To facilitate the capability for consumers to retrieve bill information at service level , account level or invoice level etc.
-  name: MTN Customer Bill Management
-  slug: mtn-customer-bill-management
-- description: To register services and activate services content tokens.
-  name: MTN Customer Billing Token V1
-  slug: customer-billing-token-v1
-- description: 'The Data Gifting API facilitates purchase of data product for Beneficiary subscriber(Customer) and charging shall be done from Charging system using Requesting subscriber(Sponsor) msisdn and SMS will '
-  name: MTN Data Gifting
-  slug: mtn-nigeria-data-gifting-v1
-- description: The Data Share API facilitates data share between Data Share Agent(Data Sender) and Customer(Data Receiver) also provides a data analytics. It also provides functionality to manage provider and consum
-  name: MTN Customer Datashare
-  slug: mtn-nigeria-customer-datashare
-- description: To retrieve and schedule delivery information for MTN Customers.
-  name: MTN Customer Delivery Booking
-  slug: customer-delivery-booking
-- description: The Customer Identification API provides information about a customer and their historical usage events on voice, data, SMS, Roaming etc. Information can be retrieved by stating the date range for the
-  name: MTN Customer Identification V1
-  slug: customer-identification-v1
-- description: The Customer KYC Consent API facilitates the consent from the customer while capturing and retrieval of Customer Information. This aggregator service provides comprehensive Know Your Customer (KYC) co
-  name: MTN KYC Consent
-  slug: kyc-consent
-- description: 'An API to manage customer loyalty operations. Can also be used by 3rd-party partners (3PP) to get a customer''s loyalty products and rewards **04-Oct-21 ChangeID: 0000000000235** -Branched off from the'
-  name: MTN Customer Loyalty Management
-  slug: customer-loyalty-management
-- description: An API to Create customers,create admin users,activate/deactivate,disable Sims.
-  name: MTN Customer Management - COE
-  slug: customer-management-coe-za-preprod
-- description: To facilitate the capability for customer to create/validate/change Pin Information.
-  name: MTN Customer Pin Management v2
-  slug: customer-pin-management-v2
-- description: API Documentation.
-  name: MTN Customer Promotion
-  slug: customer-promotion
-- description: The API facilitates product survey with a MTN Customer.
-  name: MTN Customer Survey
-  slug: customer-survey
-- description: API will enable MTN customers to transfer part of their active airtime or data to another MTN customer. This service excludes special data plans.
-  name: MTN Customer Data Transfer(ng prod)
-  slug: customer-data-transfer-ng-prod
-- description: API will enable MTN customers to transfer part of their active airtime or data to another MTN customer. This service excludes special data plans.
-  name: MTN Customer Data Transfer
-  slug: mtn-customer-datatransfer
-- description: The Device Swap API is designed to detect changes in the International Mobile Equipment Identity (IMEI) associated with a mobile subscriber's number (MSISDN) within a specific period, typically the la
-  name: MTN Device Swap V1
-  slug: device-swap-v1
-- description: 'TMF API Reference: TMF720 - Digital Identity Management Digital Identity Management API goal is to provide the ability to manage a digital identity. This digital identity allows to identify an individ'
-  name: MTN TMF 720 - Digital Identity Management
-  slug: tmf-720-digital-identity-management
-- description: TM Forum Open APIs (Apache 2.0) Party Management API Provides standardized mechanism for digital partner management such as creation, update, retrieval, deletion and notification of events. Partner is
-  name: MTN Digital Partner Management
-  slug: digital-partner-management
-- description: TMF667 Document API describes the meta-data of a Document, such as the name, creationDate and lifecycle status. The (typically binary) body of this document (such as a Word.doc, PDF, Video clip, or Im
-  name: MTN Document Management
-  slug: document-managment
-- description: This is Swagger UI environment generated for the TMF Document Management specification.
-  name: MTN TMF Document Management - TMF667
-  slug: tmf-document-management-tmf667
-- description: The Event Management API provides a standardized client interface to the enterprise event management system.
-  name: MTN TMF688 - Event Management
-  slug: tmf688-event-management
-- description: This API provides EEC Token Management.
-  name: MTN EEC Token Management
-  slug: eec-token-management
-- description: List of services to integrate with insurance service provider to manage insurance policies and policy related information. It provides the ability for channel applications to request for quote, submit
-  name: MTN Insurance
-  slug: insurance
-- description: This service provides comprehensive IoT device management capabilities for TMF908 operations including device information retrieval, device management operations, and lifecycle management. The service
-  name: MTN IoT Device Management
-  slug: iot-device-management
-- description: Api Documentation.
-  name: MTN HCM V1
-  slug: hcm-v1
-- description: Facility to query failed transactions.
-  name: MTN LogBack V1
-  slug: logback-v1
-- description: The TMForum Loyalty API Specification as developed by Globetom.
-  name: MTN TMF Loyalty Management - TMF658
-  slug: tmf-loyalty-management-tmf658
-- description: This API provides ability to check the capability of an MSISDN to receive RCS mesages.
-  name: MTN RCS Capability
-  slug: rcs-capability
-- description: Provides a RESTful API to expose SMS capability.
-  name: MTN Medallia SMS V2
-  slug: medallia-sms-v2
-- description: This service provides comprehensive mobile advertisement management capabilities for MTN operations including ad targeting, content delivery, campaign management, and performance analytics. The servic
-  name: MTN Advertising V2
-  slug: advertising-v2
-- description: A brief description of the API. It can be multiple lines.
-  name: MTN Advertising
-  slug: mtn-advertising-api-v1
-- description: The mobile info API provides network related data. Supported Operations 1. Get last SIM Swap date of an MSISDN. 2. Get last SIM Swap date indicator of a MSISDN **Supported OpCo's:** MTN Uganda, MTN Gh
-  name: MTN Mobile Customer Information
-  slug: mobile-customer-information
-- description: To facilitate the capability for consumers to realize withdrawals via MADAPI. The callback (i.. Completed) will be handled via MADAPI's callback API.
-  name: MTN MoMo Withdrawals V1
-  slug: withdrawals-v1
-- description: A suite of apis for customer validation.
-  name: MTN MoMo Verification V1-ToBeDeleted
-  slug: momo-verification
-- description: The Accountholders API returns basic information of the Accountholder including MTN Mobile Money account status. i.e. ACTIVE, SUSPENDED, BLOCKED etc. It also support validation of a MoMo accountholder
-  name: MTN AccountHolders V1
-  slug: ayoaccountholderinfo
-- description: An API to retrieve the profile of an MTN field agent. Please refer to the reference guides https://developers.mtn.com/getting-started and Response and Error Codes documents https://developers.mtn.com/
-  name: MTN Agent Profile
-  slug: agent-profile
-- description: This API manages tasks for an MTN customer.
-  name: MTN Customer Account Management V1
-  slug: customer-account-management-v1
-- description: MTN Customer KYC API allows clients to view the KYC (Know Your Customer) details of an MTN customer. The KYC API is a subset of the Customer Profile API.
-  name: MTN KYC v1
-  slug: mtn-customer-kyc-api-v1-product
-- description: The Customer KYC(Know Your Client) Verification API will validate the 3PP Customer KYC information with MTN Customer KYC information.
-  name: MTN Customer KYC Verification
-  slug: customer-kyc-verification
-- description: This API facilitate loan in advance for an MTN customer.
-  name: MTN Loans v2
-  slug: loans-v2
-- description: An API to retrieve the Location details of an MTN customer. Please refer to the Response and Error Codes documents https://developers.mtn.com/insights/response-codes.
-  name: MTN Locations
-  slug: mtn-customer-locations-api-v1
-- description: An API to register MoMo on Tier 0 for BSS. Please refer to the reference guides https://developers.mtn.com/API-Reference-Guides and Response and Error Codes documents https://developers.mtn.com/Respon
-  name: MTN Customer Management
-  slug: customer-management
-- description: 'An API to retrieve the Plan details of an MTN customer and calculate aYo premiums. Can also be used by 3rd-party partners (3PP) for airtime recharge of a prepaid subscriber **24-June-21: ChangeID: c83'
-  name: MTN Plans v2
-  slug: mtn-customer-plans-api-v2
-- description: An API to retrieve the profile of an MTN customer. Please refer to the reference guides https://developers.mtn.com/API-Reference-Guides and Response and Error Codes documents https://developers.mtn.co
-  name: MTN Profiles V2
-  slug: mtn-customer-profiles-api-v2-product
-- description: This API assesses risks for an MTN customer as well as creates applications.
-  name: MTN Risk Management
-  slug: risk-management
-- description: This API is used to determine the customer's score through an activities performed within a period of time.
-  name: MTN Customer Score V1
-  slug: mtn-customer-score
-- description: 'This API is used to verify/validate SIM Swap status, SIM Activation status and SIM Recycle status of a customer''s msisdn. - **''/simSwap/verifyStatus''** capability is used to verify sim swap status as '
-  name: MTN SIM Verification
-  slug: simverification
-- description: MTN Customer Subscription Management API — an MTN Group API product published on the MTN Developer Platform (MADAPI) with a downloadable machine-readable definition covering 6 path(s).
-  name: MTN Subscriptions v2
-  slug: mtn-subscription-api-v2
-- description: API to provide capability to manage Offering specification of products.
-  name: MTN G2M
-  slug: g2m
-- description: Generates an access token based on username and password.
-  name: MTN OAuth V1
-  slug: oauth-v1
-- description: To enable merchants to manage purchases of subscribers.
-  name: MTN Merchant Provisioning V1
-  slug: merchant-provisioning-v1
-- description: MTN SMS Messaging API allowing developers to include SMS messaging in their applications.
-  name: MTN SMS
-  slug: mtn-sms-api-v1
-- description: Provides a RESTful API to expose USSD capability.
-  name: MTN USSD interface
-  slug: ussd
-- description: A MTN API that controls the display of the catalog of Products available for a customer to purchase.
-  name: MTN Product Offering v2
-  slug: mtn-product-offering-api-v2
-- description: A MTN API that controls the display of the catalog of Products available for a customer to purchase.
-  name: MTN Product Offering v3
-  slug: mtn-product-offering-api-v3
-- description: An API to enable MTN retailers track their productivity KPI's over a period of time. Please refer to the reference guides https://developers.mtn.com/API-Reference-Guides and Response and Error Codes d
-  name: MTN Retailer Productivity Tracking v1
-  slug: mtn-ng-retailer-productivity-tracking-v1
-- description: The Shopping Cart API provides a standardized mechanism for the management of shopping carts. Including creation, update, retrieval.
-  name: MTN TMF633 - Shopping Cart Management
-  slug: tmf633-shopping-cart-management
-- description: This API assesses risks for an MTN customer as well as creates applications.
-  name: MTN Siebel
-  slug: siebel
-- description: This service provides comprehensive party management capabilities for MTN customers including individual and organization management, credit information, and partner services. It serves as the aggrega
-  name: MTN TMF Party Management - TMF632
-  slug: tmf-party-management
-- description: This service provides comprehensive usage management capabilities for MTN operations including data usage tracking, subscription management, balance inquiries, and usage analytics. The service integra
-  name: MTN TMF Usage Management - TMF635
-  slug: tmf-usage-management-tmf635
-- description: This service provides comprehensive usage management capabilities for MTN operations including data usage tracking, subscription management, balance inquiries, and usage analytics. The service integra
-  name: MTN Usage Management
-  slug: usage-management
-- description: Interface to the Apigee Cloud MTN-ID userinfo function.
-  name: MTN MTNID-getInfo
-  slug: mtnid-getinfo
-- description: To facilitate notifications. Allows 3PPs to register and have notifications processed to them from the applicable backends.
-  name: MTN Notification V1
-  slug: notification-production
-- description: To facilitate notifications. Allows 3PPs to register and have notifications processed to them from the applicable backends.
-  name: MTN Notification v2
-  slug: notification-v2
-- description: This API provides ability to digital channel to purchase different offers and make payment through Netbanking or Card Payments.
-  name: MTN Order Fulfillment
-  slug: order-fulfillment
-- description: '**TMF API Reference : TMF - 683 Party Interaction** **Release : 19.5 - Oct 2019** The Party Interaction Management API provides a mechanism to manage party interactions. Creation, update and retrieval'
-  name: MTN TMF Party Interaction - TMF683
-  slug: tmf-party-interaction-tmf683
-- description: This API provides standardized mechanism for party management such as creation, update, retrieval and deletion of a party. Party can be an individual or an organization that has any kind of relation w
-  name: MTN Party Management
-  slug: mtn-party-management
-- description: This API provides standardized mechanism for party management such as creation, update, retrieval and deletion of a party. Party can be an individual or an organization that has any kind of relation w
-  name: MTN Rwanda Party Management
-  slug: rwanda-party-management
-- description: 'A suite of apis for customer payment method details and its data type. **07-July-21: ChangeID: 00000** - Updated the response body for the /paymentMethod endpoint **06-December-21:** - Added a new met'
-  name: MTN Payment Methods V1
-  slug: payment-methods-management-sa
-- description: This is the Payment API for MADAPI. Handles payment use cases such as spTransfer, Debit request, Payment request, and related financial transactions. Provides comprehensive payment processing capabili
-  name: MTN Payments V1
-  slug: payments-v1
-- description: This is a sample representation of the Prepay Balance Management TMForum API. It is important to bear in mind that swagger 2.0 does not properly support polymorphism, so the link between the payment m
-  name: MTN TMF Prepay Balance Management - TMF654
-  slug: tmf-prepay-balance-management-tmf654
-- description: API to provide capability to manage catalog, category, Offerings, Offering price and specification of products.
-  name: MTN Product Catalog - COE
-  slug: product-catalog-coe
-- description: API to provide capability to manage catalog, category, Offerings, Offering price and specification of products.
-  name: MTN Product Catalog Management V1
-  slug: product-catalog-management-v1
-- description: API to provide capability to manage catalog, category, Offerings, Offering price and specification of products.
-  name: MTN Product Catalogue Management
-  slug: product-catalogue-management
-- description: API to provide capability to manage catalog, category, Offerings, Offering price and specification of products.
-  name: MTN TMF Product Catalog - TMF620
-  slug: tmf-product-catalog-tmf620
-- description: A Product Order is a type of order which can be used to place an order between a customer and a service provider or between a service provider and a partner and vice versa. Main Product Order attribut
-  name: MTN Product Ordering - COE
-  slug: product-ordering-coe
-- description: A Product Order is a type of order which can be used to place an order between a customer and a service provider or between a service provider and a partner and vice versa. Main Product Order attribut
-  name: MTN TMF Product Ordering - TMF622
-  slug: tmf-product-ordering-tmf622
-- description: API to provision,configure and activate Resource Functions.
-  name: MTN Resource Configuration V1
-  slug: resource-config-v1
-- description: This is Swagger UI environment generated for the TMF Resource Ordering Management specification.
-  name: MTN TMF Resource Ordering - TMF652
-  slug: tmf-resource-ordering-tmf652
-- description: Service Activation and Configuration API goal is to provide the ability to activate and configure Service. This API features Monitor pattern allowing to manage service configuration/activation asynchr
-  name: MTN TMF Service Activation - TMF640
-  slug: tmf-service-activation-tmf678
-- description: An API to share an incident tickets between Remedy and ServiceNow.
-  name: MTN Job Card Management
-  slug: job-card-management
-- description: An API to share an incident tickets between Remedy and ServiceNow.
-  name: MTN Incident API
-  slug: ticket
-- description: Provides a RESTful API to expose SMS capability.
-  name: MTN SMS V2
-  slug: mtn-sms-interface
-- description: Provides a Restful API to expose SMS capability for sending of messages , Mobile originating messages and Delivery Receipts.
-  name: MTN SMS v3 API
-  slug: sms-v3-api
-- description: 'This API provides a comprehensive suite of services for managing SIM-related operations, including SIM swap initiation, status tracking, eligibility checks, and resource management. It ensures secure '
-  name: MTN SIM Management V1
-  slug: sim-management-staging
-- description: The SIM Swap Verification API provides information about an MSISDN's sim-swap details. Supported Operations 1. Get last SIM Swap date of a phone Number.
-  name: MTN SIM Swap Verification V1
-  slug: sim-swap-verification-v1
-- description: This API to be used to manage a Subscriber information.
-  name: MTN Subscriber Management
-  slug: subscriber-management
-- description: This service provides comprehensive taxation management capabilities for MTN operations including tax calculation, validation, reporting, and compliance. It handles various taxation scenarios includin
-  name: MTN Taxation V1
-  slug: taxation-v1
-- description: TMF621 Trouble Ticket Management Aggregator This service provides endpoint to fetch the ticket details with ticket id, create ticket, fetch list of tickets by customer id and update the existing ticke
-  name: MTN TMF Trouble Ticket - TMF621
-  slug: tmf-trouble-ticket-tmf621
-- description: This is Swagger UI environment generated for the TMF Customer Management specification.
-  name: MTN TMF629 - Customer Management
-  slug: tmf629-customer-management
-- description: '**TMF API Reference : TMF 637 - Product Inventory Management**.'
-  name: MTN TMF637 Product Inventory
-  slug: tmf637-product-inventory
-- description: TMF666 Account Management API with MTN extensions to retrieve financial account transactions, transaction details, outstanding balances, account balances.
-  name: MTN Account Management - COE
-  slug: account-management-coe
-- description: TMF676 Payment Management Aggregator API provides comprehensive payment management capabilities following TM Forum TMF676 standards. This service enables payment processing, payment method management,
-  name: MTN TMF Payment Management - TMF676
-  slug: tmf-payment-management-tmf676
-- description: This API provides the option to reserver MSISDN for registration and also validate starter pack pairing.
-  name: MTN TMF Resource Pool Management - TMF685
-  slug: resource-pool-management
-- description: API to fetch Airtime, Currency, Voice, Data and SMS balance details for a subscriber.
-  name: MTN TMF Usage Consumption - TMF677
-  slug: tmf-usage-consumption-tmf677
-- description: API to fetch Airtime, Currency, Voice, Data and SMS balance details for a subscriber.
-  name: MTN Usage Consumption V1
-  slug: usage-consumption
 - description: Enable remote collection of bills, fees or taxes from consumer and business MoMo wallets. Operations include RequestToPay, invoices, pre-approvals, delivery notification, account balance and account h
   name: MTN MoMo Collection API
   slug: momo-collection
@@ -390,7 +45,439 @@ apis:
 - description: Provision sandbox API users and API keys for the MTN MoMo Open API test environment, the self-serve step that lets a developer obtain credentials before calling Collection, Disbursements or Remittance
   name: MTN MoMo Sandbox User Provisioning API
   slug: momo-sandbox-user-provisioning
-artifact_total: 232
+- description: Accessible to Client APP (3PP) - ApiKeyAuth, to subscribe (MO/MT), unsubscribe and push/send message.
+  name: MTN Group Accessible to 3PP API
+  slug: mtn-group-accessible-to-3pp-api
+- description: Used by USSDGW - using ApiKeyAuth, to send MO generated messages to 3PP through MADAPI.
+  name: MTN Group Accessible to USSD Gateway API
+  slug: mtn-group-accessible-to-ussd-gateway-api
+- description: The Activation API from MTN Group — 1 operation(s) for activation.
+  name: MTN Group Activation API
+  slug: mtn-group-activation-api
+- description: The Add User API from MTN Group — 1 operation(s) for add user.
+  name: MTN Group Add User API
+  slug: mtn-group-add-user-api
+- description: The Admin Suspend API from MTN Group — 1 operation(s) for admin suspend.
+  name: MTN Group Admin Suspend API
+  slug: mtn-group-admin-suspend-api
+- description: The Adverts API from MTN Group — 3 operation(s) for adverts.
+  name: MTN Group Adverts API
+  slug: mtn-group-adverts-api
+- description: The Advice Reconcile API from MTN Group — 1 operation(s) for advice reconcile.
+  name: MTN Group Advice Reconcile API
+  slug: mtn-group-advice-reconcile-api
+- description: The agents API from MTN Group — 4 operation(s) for agents.
+  name: MTN Group Agents API
+  slug: mtn-group-agents-api
+- description: The appliedCustomerBillingRate API from MTN Group — 2 operation(s) for appliedcustomerbillingrate.
+  name: MTN Group Applied Customer Billing Rate API
+  slug: mtn-group-appliedcustomerbillingrate-api
+- description: The auth API from MTN Group — 1 operation(s) for auth.
+  name: MTN Group Auth API
+  slug: mtn-group-auth-api
+- description: The Balance Buckets Methods API from MTN Group — 1 operation(s) for balance buckets methods.
+  name: MTN Group Balance Buckets Methods API
+  slug: mtn-group-balance-buckets-methods-api
+- description: The Balance Management API from MTN Group — 1 operation(s) for balance management.
+  name: MTN Group Balance Management API
+  slug: mtn-group-balance-management-api
+- description: The BalanceTransfer API from MTN Group — 1 operation(s) for balancetransfer.
+  name: MTN Group Balance Transfer API
+  slug: mtn-group-balancetransfer-api
+- description: The banktech API from MTN Group — 1 operation(s) for banktech.
+  name: MTN Group Banktech API
+  slug: mtn-group-banktech-api
+- description: The Callback API from MTN Group — 2 operation(s) for callback.
+  name: MTN Group Callback API
+  slug: mtn-group-callback-api
+- description: The Callmeback API from MTN Group — 1 operation(s) for callmeback.
+  name: MTN Group Callmeback API
+  slug: mtn-group-callmeback-api
+- description: The callmeback with geographicLocation API from MTN Group — 1 operation(s) for callmeback with geographiclocation.
+  name: MTN Group callmeback with geographicLocation API
+  slug: mtn-group-callmeback-with-geographiclocation-api
+- description: The Cancel Customer PreApproval API from MTN Group — 1 operation(s) for cancel customer preapproval.
+  name: MTN Group Cancel Customer PreApproval API
+  slug: mtn-group-cancel-customer-preapproval-api
+- description: The capabilityCheck API from MTN Group — 1 operation(s) for capabilitycheck.
+  name: MTN Group Capability Check API
+  slug: mtn-group-capabilitycheck-api
+- description: The catalog API from MTN Group — 2 operation(s) for catalog.
+  name: MTN Group Catalog API
+  slug: mtn-group-catalog-api
+- description: The category API from MTN Group — 1 operation(s) for category.
+  name: MTN Group Category API
+  slug: mtn-group-category-api
+- description: Channel VAS Controller
+  name: MTN Group Channel Vas Controller API
+  slug: mtn-group-channel-vas-controller-api
+- description: The channelService API from MTN Group — 1 operation(s) for channelservice.
+  name: MTN Group Channel Service API
+  slug: mtn-group-channelservice-api
+- description: The Communication API from MTN Group — 4 operation(s) for communication.
+  name: MTN Group Communication API
+  slug: mtn-group-communication-api
+- description: The communicationMessage API from MTN Group — 4 operation(s) for communicationmessage.
+  name: MTN Group Communication Message API
+  slug: mtn-group-communicationmessage-api
+- description: The Consent API from MTN Group — 2 operation(s) for consent.
+  name: MTN Group Consent API
+  slug: mtn-group-consent-api
+- description: Consent Validation Implementation to confirm user consent
+  name: MTN Group Consent Validation API
+  slug: mtn-group-consent-validation-api
+- description: The Content Push API from MTN Group — 2 operation(s) for content push.
+  name: MTN Group Content Push API
+  slug: mtn-group-content-push-api
+- description: The Create Customer API from MTN Group — 1 operation(s) for create customer.
+  name: MTN Group Create Customer API
+  slug: mtn-group-create-customer-api
+- description: The Create Customer PreApproval API from MTN Group — 1 operation(s) for create customer preapproval.
+  name: MTN Group Create Customer PreApproval API
+  slug: mtn-group-create-customer-preapproval-api
+- description: The Customer API from MTN Group — 10 operation(s) for customer.
+  name: MTN Group Customer API
+  slug: mtn-group-customer-api
+- description: The Customer Attribute API from MTN Group — 1 operation(s) for customer attribute.
+  name: MTN Group Customer Attribute API
+  slug: mtn-group-customer-attribute-api
+- description: The Customer Characteristics API from MTN Group — 1 operation(s) for customer characteristics.
+  name: MTN Group Customer Characteristics API
+  slug: mtn-group-customer-characteristics-api
+- description: The Customer Information API from MTN Group — 1 operation(s) for customer information.
+  name: MTN Group Customer Information API
+  slug: mtn-group-customer-information-api
+- description: The Customer KYC API from MTN Group — 7 operation(s) for customer kyc.
+  name: MTN Group Customer KYC API
+  slug: mtn-group-customer-kyc-api
+- description: The Customer Mobile Carrier Data API from MTN Group — 2 operation(s) for customer mobile carrier data.
+  name: MTN Group Customer Mobile Carrier Data API
+  slug: mtn-group-customer-mobile-carrier-data-api
+- description: The Customer Promotion API from MTN Group — 3 operation(s) for customer promotion.
+  name: MTN Group Customer Promotion API
+  slug: mtn-group-customer-promotion-api
+- description: The customerBill API from MTN Group — 2 operation(s) for customerbill.
+  name: MTN Group Customer Bill API
+  slug: mtn-group-customerbill-api
+- description: The customerBillOnDemand API from MTN Group — 2 operation(s) for customerbillondemand.
+  name: MTN Group Customer Bill On Demand API
+  slug: mtn-group-customerbillondemand-api
+- description: The Customers API from MTN Group — 21 operation(s) for customers.
+  name: MTN Group Customers API
+  slug: mtn-group-customers-api
+- description: The CustomerTransferService API from MTN Group — 3 operation(s) for customertransferservice.
+  name: MTN Group Customer Transfer Service API
+  slug: mtn-group-customertransferservice-api
+- description: The Deactivation API from MTN Group — 1 operation(s) for deactivation.
+  name: MTN Group Deactivation API
+  slug: mtn-group-deactivation-api
+- description: The Debit API from MTN Group — 1 operation(s) for debit.
+  name: MTN Group Debit API
+  slug: mtn-group-debit-api
+- description: The Device Information API from MTN Group — 1 operation(s) for device information.
+  name: MTN Group Device Information API
+  slug: mtn-group-device-information-api
+- description: The Device Swap API API from MTN Group — 2 operation(s) for device swap api.
+  name: MTN Group Device Swap API
+  slug: mtn-group-device-swap-api-api
+- description: The document API from MTN Group — 2 operation(s) for document.
+  name: MTN Group Document API
+  slug: mtn-group-document-api
+- description: The Employee Leaves API from MTN Group — 1 operation(s) for employee leaves.
+  name: MTN Group Employee Leaves API
+  slug: mtn-group-employee-leaves-api
+- description: The event API from MTN Group — 2 operation(s) for event.
+  name: MTN Group Event API
+  slug: mtn-group-event-api
+- description: The events subscription API from MTN Group — 2 operation(s) for events subscription.
+  name: MTN Group events subscription API
+  slug: mtn-group-events-subscription-api
+- description: The FinancialAccount API from MTN Group — 4 operation(s) for financialaccount.
+  name: MTN Group Financial Account API
+  slug: mtn-group-financialaccount-api
+- description: The fraudManagement API from MTN Group — 2 operation(s) for fraudmanagement.
+  name: MTN Group Fraud Management API
+  slug: mtn-group-fraudmanagement-api
+- description: The GENEYSIS-EEC-TOKENS API from MTN Group — 1 operation(s) for geneysis-eec-tokens.
+  name: MTN Group GENEYSIS EEC TOKENS API
+  slug: mtn-group-geneysis-eec-tokens-api
+- description: The Get access token API from MTN Group — 1 operation(s) for get access token.
+  name: MTN Group Get access token API
+  slug: mtn-group-get-access-token-api
+- description: The getInfo API from MTN Group — 1 operation(s) for getinfo.
+  name: MTN Group Get Info API
+  slug: mtn-group-getinfo-api
+- description: The hub API from MTN Group — 2 operation(s) for hub.
+  name: MTN Group Hub API
+  slug: mtn-group-hub-api
+- description: The Incident ticket API from MTN Group — 1 operation(s) for incident ticket.
+  name: MTN Group Incident ticket API
+  slug: mtn-group-incident-ticket-api
+- description: The individual API from MTN Group — 2 operation(s) for individual.
+  name: MTN Group Individual API
+  slug: mtn-group-individual-api
+- description: The Kyc API from MTN Group — 2 operation(s) for kyc.
+  name: MTN Group Kyc API
+  slug: mtn-group-kyc-api
+- description: The license-aggregator-controller API from MTN Group — 2 operation(s) for license-aggregator-controller.
+  name: MTN Group License Aggregator Controller API
+  slug: mtn-group-license-aggregator-controller-api
+- description: The Link Accounts API from MTN Group — 1 operation(s) for link accounts.
+  name: MTN Group Link Accounts API
+  slug: mtn-group-link-accounts-api
+- description: The Loyalty Balance API from MTN Group — 1 operation(s) for loyalty balance.
+  name: MTN Group Loyalty Balance API
+  slug: mtn-group-loyalty-balance-api
+- description: The Loyalty Burn API from MTN Group — 1 operation(s) for loyalty burn.
+  name: MTN Group Loyalty Burn API
+  slug: mtn-group-loyalty-burn-api
+- description: The Loyalty Member API from MTN Group — 2 operation(s) for loyalty member.
+  name: MTN Group Loyalty Member API
+  slug: mtn-group-loyalty-member-api
+- description: The Loyalty Program Product API from MTN Group — 2 operation(s) for loyalty program product.
+  name: MTN Group Loyalty Program Product API
+  slug: mtn-group-loyalty-program-product-api
+- description: The Member Summary API from MTN Group — 1 operation(s) for member summary.
+  name: MTN Group Member Summary API
+  slug: mtn-group-member-summary-api
+- description: The Mobile Ads Service API from MTN Group — 1 operation(s) for mobile ads service.
+  name: MTN Group Mobile Ads Service API
+  slug: mtn-group-mobile-ads-service-api
+- description: The MoMo API from MTN Group — 1 operation(s) for momo.
+  name: MTN Group Mo Mo API
+  slug: mtn-group-momo-api
+- description: The monitor API from MTN Group — 2 operation(s) for monitor.
+  name: MTN Group Monitor API
+  slug: mtn-group-monitor-api
+- description: The netflix-integration-controller API from MTN Group — 4 operation(s) for netflix-integration-controller.
+  name: MTN Group Netflix Integration Controller API
+  slug: mtn-group-netflix-integration-controller-api
+- description: The notification listeners (client side) API from MTN Group — 15 operation(s) for notification listeners (client side).
+  name: MTN Group notification listeners (client side) API
+  slug: mtn-group-notification-listeners-client-side-api
+- description: Send Notifications
+  name: MTN Group Notifications API
+  slug: mtn-group-notifications-api
+- description: The NumberRecycleService API from MTN Group — 1 operation(s) for numberrecycleservice.
+  name: MTN Group Number Recycle Service API
+  slug: mtn-group-numberrecycleservice-api
+- description: The OrderFulfillment API from MTN Group — 1 operation(s) for orderfulfillment.
+  name: MTN Group Order Fulfillment API
+  slug: mtn-group-orderfulfillment-api
+- description: The organization API from MTN Group — 2 operation(s) for organization.
+  name: MTN Group Organization API
+  slug: mtn-group-organization-api
+- description: The Organizations API from MTN Group — 3 operation(s) for organizations.
+  name: MTN Group Organizations API
+  slug: mtn-group-organizations-api
+- description: The OTP API from MTN Group — 2 operation(s) for otp.
+  name: MTN Group OTP API
+  slug: mtn-group-otp-api
+- description: The partners API from MTN Group — 2 operation(s) for partners.
+  name: MTN Group Partners API
+  slug: mtn-group-partners-api
+- description: The partyAccount API from MTN Group — 1 operation(s) for partyaccount.
+  name: MTN Group Party Account API
+  slug: mtn-group-partyaccount-api
+- description: The partyInteraction API from MTN Group — 1 operation(s) for partyinteraction.
+  name: MTN Group Party Interaction API
+  slug: mtn-group-partyinteraction-api
+- description: The partyRoleRiskAssessment API from MTN Group — 8 operation(s) for partyroleriskassessment.
+  name: MTN Group Party Role Risk Assessment API
+  slug: mtn-group-partyroleriskassessment-api
+- description: The Payment API from MTN Group — 13 operation(s) for payment.
+  name: MTN Group Payment API
+  slug: mtn-group-payment-api
+- description: The payment methods API from MTN Group — 2 operation(s) for payment methods.
+  name: MTN Group payment methods API
+  slug: mtn-group-payment-methods-api
+- description: The PIN API from MTN Group — 2 operation(s) for pin.
+  name: MTN Group PIN API
+  slug: mtn-group-pin-api
+- description: The Policy API from MTN Group — 1 operation(s) for policy.
+  name: MTN Group Policy API
+  slug: mtn-group-policy-api
+- description: The Premiums API from MTN Group — 1 operation(s) for premiums.
+  name: MTN Group Premiums API
+  slug: mtn-group-premiums-api
+- description: The Process Operations API from MTN Group — 6 operation(s) for process operations.
+  name: MTN Group Process Operations API
+  slug: mtn-group-process-operations-api
+- description: The product API from MTN Group — 2 operation(s) for product.
+  name: MTN Group Product API
+  slug: mtn-group-product-api
+- description: The Productivity Report API from MTN Group — 1 operation(s) for productivity report.
+  name: MTN Group Productivity Report API
+  slug: mtn-group-productivity-report-api
+- description: The productOffering API from MTN Group — 1 operation(s) for productoffering.
+  name: MTN Group Product Offering API
+  slug: mtn-group-productoffering-api
+- description: The productOrder API from MTN Group — 2 operation(s) for productorder.
+  name: MTN Group Product Order API
+  slug: mtn-group-productorder-api
+- description: The products API from MTN Group — 13 operation(s) for products.
+  name: MTN Group Products API
+  slug: mtn-group-products-api
+- description: The Provider API from MTN Group — 3 operation(s) for provider.
+  name: MTN Group Provider API
+  slug: mtn-group-provider-api
+- description: The Purchase API from MTN Group — 1 operation(s) for purchase.
+  name: MTN Group Purchase API
+  slug: mtn-group-purchase-api
+- description: The Query By Data API from MTN Group — 1 operation(s) for query by data.
+  name: MTN Group Query By Data API
+  slug: mtn-group-query-by-data-api
+- description: The Query By Transaction ID API from MTN Group — 1 operation(s) for query by transaction id.
+  name: MTN Group Query By Transaction ID API
+  slug: mtn-group-query-by-transaction-id-api
+- description: The Query logback by targetURL and country code API from MTN Group — 1 operation(s) for query logback by targeturl and country code.
+  name: MTN Group Query logback by targetURL and country code API
+  slug: mtn-group-query-logback-by-targeturl-and-country-code-api
+- description: The Quotation API from MTN Group — 1 operation(s) for quotation.
+  name: MTN Group Quotation API
+  slug: mtn-group-quotation-api
+- description: The Receiving SMS API from MTN Group — 1 operation(s) for receiving sms.
+  name: MTN Group Receiving SMS API
+  slug: mtn-group-receiving-sms-api
+- description: The Reference Data Operations API from MTN Group — 3 operation(s) for reference data operations.
+  name: MTN Group Reference Data Operations API
+  slug: mtn-group-reference-data-operations-api
+- description: The Refund API from MTN Group — 1 operation(s) for refund.
+  name: MTN Group Refund API
+  slug: mtn-group-refund-api
+- description: The Registration API from MTN Group — 7 operation(s) for registration.
+  name: MTN Group Registration API
+  slug: mtn-group-registration-api
+- description: The Reporting API from MTN Group — 1 operation(s) for reporting.
+  name: MTN Group Reporting API
+  slug: mtn-group-reporting-api
+- description: The resource API from MTN Group — 2 operation(s) for resource.
+  name: MTN Group Resource API
+  slug: mtn-group-resource-api
+- description: The ResourceFunction API from MTN Group — 1 operation(s) for resourcefunction.
+  name: MTN Group Resource Function API
+  slug: mtn-group-resourcefunction-api
+- description: The resourceOrder API from MTN Group — 2 operation(s) for resourceorder.
+  name: MTN Group Resource Order API
+  slug: mtn-group-resourceorder-api
+- description: The salesLead API from MTN Group — 1 operation(s) for saleslead.
+  name: MTN Group Sales Lead API
+  slug: mtn-group-saleslead-api
+- description: The Sending SMS API from MTN Group — 4 operation(s) for sending sms.
+  name: MTN Group Sending SMS API
+  slug: mtn-group-sending-sms-api
+- description: The service-activation-controller API from MTN Group — 1 operation(s) for service-activation-controller.
+  name: MTN Group Service Activation Controller API
+  slug: mtn-group-service-activation-controller-api
+- description: The service API from MTN Group — 2 operation(s) for service.
+  name: MTN Group Service API
+  slug: mtn-group-service-api
+- description: The serviceOrder API from MTN Group — 2 operation(s) for serviceorder.
+  name: MTN Group Service Order API
+  slug: mtn-group-serviceorder-api
+- description: The shoppingCart API from MTN Group — 6 operation(s) for shoppingcart.
+  name: MTN Group Shopping Cart API
+  slug: mtn-group-shoppingcart-api
+- description: The siebel API from MTN Group — 3 operation(s) for siebel.
+  name: MTN Group Siebel API
+  slug: mtn-group-siebel-api
+- description: The Sim Activation API from MTN Group — 2 operation(s) for sim activation.
+  name: MTN Group Sim Activation API
+  slug: mtn-group-sim-activation-api
+- description: The SIM & MSISDN Availability APIs API from MTN Group — 3 operation(s) for sim & msisdn availability apis.
+  name: MTN Group SIM & MSISDN Availability APIs API
+  slug: mtn-group-sim-msisdn-availability-apis-api
+- description: The Sim Recycle API from MTN Group — 1 operation(s) for sim recycle.
+  name: MTN Group Sim Recycle API
+  slug: mtn-group-sim-recycle-api
+- description: The SIM Swap API API from MTN Group — 1 operation(s) for sim swap api.
+  name: MTN Group SIM Swap API
+  slug: mtn-group-sim-swap-api-api
+- description: The Sim Swap API from MTN Group — 2 operation(s) for sim swap.
+  name: MTN Group Sim Swap API
+  slug: mtn-group-sim-swap-api
+- description: The SimManagementService API from MTN Group — 11 operation(s) for simmanagementservice.
+  name: MTN Group Sim Management Service API
+  slug: mtn-group-simmanagementservice-api
+- description: The status API from MTN Group — 3 operation(s) for status.
+  name: MTN Group Status API
+  slug: mtn-group-status-api
+- description: The Submit Withdrawal Request API from MTN Group — 1 operation(s) for submit withdrawal request.
+  name: MTN Group Submit Withdrawal Request API
+  slug: mtn-group-submit-withdrawal-request-api
+- description: Subscriber Attributes Controller
+  name: MTN Group Subscriber Attributes Controller API
+  slug: mtn-group-subscriber-attributes-controller-api
+- description: The Subscriber Type API from MTN Group — 1 operation(s) for subscriber type.
+  name: MTN Group Subscriber Type API
+  slug: mtn-group-subscriber-type-api
+- description: The subscriberinfo API from MTN Group — 2 operation(s) for subscriberinfo.
+  name: MTN Group Subscriberinfo API
+  slug: mtn-group-subscriberinfo-api
+- description: The Subscribing for Mobile Originating and Delivery Receipts API from MTN Group — 2 operation(s) for subscribing for mobile originating and delivery receipts.
+  name: MTN Group Subscribing for Mobile Originating and Delivery Receipts API
+  slug: mtn-group-subscribing-for-mobile-originating-and-delivery-receipts-api
+- description: The Taxation API from MTN Group — 1 operation(s) for taxation.
+  name: MTN Group Taxation API
+  slug: mtn-group-taxation-api
+- description: The TMF632 Party Management API from MTN Group — 5 operation(s) for tmf632 party management.
+  name: MTN Group TMF632 Party Management API
+  slug: mtn-group-tmf632-party-management-api
+- description: The TMF676 Payment Management Aggregator API from MTN Group — 2 operation(s) for tmf676 payment management aggregator.
+  name: MTN Group TMF676 Payment Management Aggregator API
+  slug: mtn-group-tmf676-payment-management-aggregator-api
+- description: The TMF908 IoT Device Management API from MTN Group — 3 operation(s) for tmf908 iot device management.
+  name: MTN Group TMF908 IoT Device Management API
+  slug: mtn-group-tmf908-iot-device-management-api
+- description: The topic API from MTN Group — 2 operation(s) for topic.
+  name: MTN Group Topic API
+  slug: mtn-group-topic-api
+- description: The Track ticket API from MTN Group — 2 operation(s) for track ticket.
+  name: MTN Group Track ticket API
+  slug: mtn-group-track-ticket-api
+- description: The trouble-ticket-aggregator-controller API from MTN Group — 5 operation(s) for trouble-ticket-aggregator-controller.
+  name: MTN Group Trouble Ticket Aggregator Controller API
+  slug: mtn-group-trouble-ticket-aggregator-controller-api
+- description: The Unified Balance Enquiry API from MTN Group — 1 operation(s) for unified balance enquiry.
+  name: MTN Group Unified Balance Enquiry API
+  slug: mtn-group-unified-balance-enquiry-api
+- description: The urlCreate API from MTN Group — 1 operation(s) for urlcreate.
+  name: MTN Group URL Create API
+  slug: mtn-group-urlcreate-api
+- description: The Usage Historical Information API from MTN Group — 1 operation(s) for usage historical information.
+  name: MTN Group Usage Historical Information API
+  slug: mtn-group-usage-historical-information-api
+- description: The Usage Limit Adjust API from MTN Group — 1 operation(s) for usage limit adjust.
+  name: MTN Group Usage Limit Adjust API
+  slug: mtn-group-usage-limit-adjust-api
+- description: The usageConsumptionReport API from MTN Group — 2 operation(s) for usageconsumptionreport.
+  name: MTN Group Usage Consumption Report API
+  slug: mtn-group-usageconsumptionreport-api
+- description: The UsageManagement API from MTN Group — 12 operation(s) for usagemanagement.
+  name: MTN Group Usage Management API
+  slug: mtn-group-usagemanagement-api
+- description: The UsageManagementsSSd API from MTN Group — 3 operation(s) for usagemanagementsssd.
+  name: MTN Group Usage Managements S Sd API
+  slug: mtn-group-usagemanagementsssd-api
+- description: The Users API from MTN Group — 3 operation(s) for users.
+  name: MTN Group Users API
+  slug: mtn-group-users-api
+- description: The Validate an Individual's Account Status API from MTN Group — 1 operation(s) for validate an individual's account status.
+  name: MTN Group Validate an Individual's Account Status API
+  slug: mtn-group-validate-an-individual-s-account-status-api
+- description: The Validate Customer API from MTN Group — 1 operation(s) for validate customer.
+  name: MTN Group Validate Customer API
+  slug: mtn-group-validate-customer-api
+- description: The Validate using QnA API from MTN Group — 2 operation(s) for validate using qna.
+  name: MTN Group Validate using QnA API
+  slug: mtn-group-validate-using-qna-api
+- description: The VAS Services API from MTN Group — 5 operation(s) for vas services.
+  name: MTN Group VAS Services API
+  slug: mtn-group-vas-services-api
+- description: The Verify a Partner's FInancial Resources API from MTN Group — 1 operation(s) for verify a partner's financial resources.
+  name: MTN Group Verify a Partner's FInancial Resources API
+  slug: mtn-group-verify-a-partner-s-financial-resources-api
+artifact_total: 261
 asyncapis:
 - description: ''
   name: Mtn Group Webhooks
@@ -718,6 +805,470 @@ collections:
   name: Mobile Money Withdrawals v1
   slug: open-mtn-group-withdrawals-v1
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mtn-group-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-account-decisioning-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf-customer-bill-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtn-customer-loans-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-subscriber-details-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-subscriber-type-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-provisioning-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-unified-balance-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf-resourceinventorymanagement-tmf639-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-sales-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-service-activation-and-configuration-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-service-ordering-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-bss-tt-oauth-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-balance-management-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-callmeback-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-callmeback-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-rcs-communication-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-communication-management-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf681-communication-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-ayo-preapproval-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-content-push-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtn-customer-bill-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-customer-billing-token-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtn-nigeria-data-gifting-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtn-nigeria-customer-datashare-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-customer-delivery-booking-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-customer-identification-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-kyc-consent-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-customer-loyalty-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-customer-management-coe-za-preprod-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-customer-pin-management-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-customer-promotion-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-customer-survey-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-customer-data-transfer-ng-prod-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtn-customer-datatransfer-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-device-swap-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf-720-digital-identity-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-digital-partner-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-document-managment-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf-document-management-tmf667-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf688-event-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-eec-token-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-insurance-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-iot-device-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-hcm-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-logback-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf-loyalty-management-tmf658-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-rcs-capability-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-medallia-sms-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-advertising-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtn-advertising-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mobile-customer-information-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-withdrawals-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-momo-verification-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-ayoaccountholderinfo-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-agent-profile-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-customer-account-management-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtn-customer-kyc-api-v1-product-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-customer-kyc-verification-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-loans-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtn-customer-locations-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-customer-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtn-customer-plans-api-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtn-customer-profiles-api-v2-product-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-risk-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtn-customer-score-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-simverification-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtn-subscription-api-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-g2m-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-oauth-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-merchant-provisioning-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtn-sms-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-ussd-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtn-product-offering-api-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtn-product-offering-api-v3-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtn-ng-retailer-productivity-tracking-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf633-shopping-cart-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-siebel-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf-party-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf-usage-management-tmf635-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-usage-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtnid-getinfo-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-notification-production-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-notification-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-order-fulfillment-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf-party-interaction-tmf683-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtn-party-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-rwanda-party-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-payment-methods-management-sa-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-payments-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf-prepay-balance-management-tmf654-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-product-catalog-coe-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-product-catalog-management-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-product-catalogue-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf-product-catalog-tmf620-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-product-ordering-coe-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf-product-ordering-tmf622-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-resource-config-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf-resource-ordering-tmf652-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf-service-activation-tmf678-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-job-card-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-ticket-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-mtn-sms-interface-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-sms-v3-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-sim-management-staging-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-sim-swap-verification-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-subscriber-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-taxation-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf-trouble-ticket-tmf621-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf629-customer-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf637-product-inventory-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-account-management-coe-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf-payment-management-tmf676-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-resource-pool-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-tmf-usage-consumption-tmf677-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mtn-group-usage-consumption-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -931,13 +1482,13 @@ modified: '2026-07-25'
 name: MTN Group
 nav: Providers
 network: true
-overview: 'MTN Group publishes 115 APIs on the [APIs.io](https://apis.io/) network, including MTN Account Decisioning, MTN TMF Customer Bill Management - TMF678, MTN Loans, and 112 more. Tagged areas include Telecommunications, South Africa, Africa, Mobile Network Operator, and Network APIs.
+overview: 'MTN Group publishes 144 APIs on the [APIs.io](https://apis.io/) network, including Accessible to 3PP API, Accessible to USSD Gateway API, Activation API, and 141 more. Tagged areas include Telecommunications, South Africa, Africa, Mobile Network Operator, and Network APIs.
 
 
   The MTN Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MTN Group''s developer surface includes authentication, documentation, API reference, signup flow, FAQ, support, YouTube channel, and 43 more developer resources.'
+  MTN Group''s developer surface includes authentication, documentation, API reference, signup flow, FAQ, support, YouTube channel, and 159 more developer resources.'
 random_paper: 13
 scopes:
 - name: Mtn Group Scopes
@@ -946,18 +1497,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 53.6
-  delta: -0.1
+  composite: 52.5
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 30.3
-    contract_quality: 57.5
+    contract_governance: 18.2
+    contract_quality: 58.9
     developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 53.7
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -974,8 +1530,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 66.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mtn-group/refs/heads/main/screenshots/mtn-group-2026-08-07T184423.png
 security:

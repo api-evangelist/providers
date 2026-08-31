@@ -26,21 +26,45 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.8
-  scored_at: '2026-08-26'
-api_count: 1
+  score: 24.3
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: Public REST API covering the MerQube IndexAPI (index manifests, target portfolios, index documents, identifiers, portfolio handlers, index templating helpers and run state) and the SecAPI (security me
+- description: The api API from MerQube — 1 operation(s) for api.
   name: MerQube API
-  slug: merqube-api
-artifact_total: 5
+  slug: merqube-api-api
+- description: The helper API from MerQube — 14 operation(s) for helper.
+  name: MerQube Helper API
+  slug: merqube-helper-api
+- description: tickers for various providers
+  name: MerQube Identifier API
+  slug: merqube-identifier-api
+- description: APIs for MerQube Indices
+  name: MerQube Index API
+  slug: merqube-index-api
+- description: Equity securities (legacy non secapi)
+  name: MerQube Legacy Equity Security API
+  slug: merqube-legacy-equity-security-api
+- description: Option Pricing APIs
+  name: MerQube Options API
+  slug: merqube-options-api
+- description: list of portfolio handlers
+  name: MerQube Portfolio Handler API
+  slug: merqube-portfolio-handler-api
+- description: securities
+  name: MerQube Security API
+  slug: merqube-security-api
+- description: lists of securities
+  name: MerQube Security List API
+  slug: merqube-security-list-api
+artifact_total: 13
 common:
 - group: auth
   title: ''
@@ -182,7 +206,7 @@ modified: '2026-08-25'
 name: MerQube
 nav: Providers
 network: true
-overview: 'MerQube publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Index Data, Market Data, and Capital Markets.
+overview: 'MerQube publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Helper API, Identifier API, and 7 more. Tagged areas include company, Financial-Services, index-data, Market Data, and capital-markets.
 
 
   MerQube''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, FAQ, and 26 more developer resources.'
@@ -197,16 +221,23 @@ rate_limits:
   slug: merqube-rate-limits
 score:
   band: thin
-  composite: 33.3
+  composite: 37.4
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
-    contract_governance: 12.1
-    contract_quality: 26.7
+    contract_governance: 0.0
+    contract_quality: 46.5
     developer_ergonomics: 70.8
-    discoverability: 68.5
-    governance: 12.1
+    discoverability: 74.1
+    governance: 0.0
     operational_transparency: 18.4
+  previous_composite: 37.4
   provenance:
     conformance: derived
     mcp: derived
@@ -217,8 +248,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Merqube Authentication
@@ -230,16 +262,16 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: merqube
 tags:
-- Company
-- Financial Services
-- Index Data
+- company
+- Financial-Services
+- index-data
 - Market Data
-- Capital Markets
-- Investment Strategies
-- Asset Management
-- ETF
-- Structured Products
-- Quantitative Finance
+- capital-markets
+- investment-strategies
+- asset-management
+- ETFs
+- structured-products
+- quantitative-finance
 - OpenAPI
 website: https://merqube.com/
 ---

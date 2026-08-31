@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: tealium-agentic-access
   summary_line: 15 operations · 7 acting
-api_count: 12
+api_count: 6
 apis:
 - description: Sends authenticated events from any application via HTTP requests into the Tealium Customer Data Hub. Supports single-event and bulk-event endpoints (up to 10 events per request) with regional routing
   name: Tealium Collect HTTP API
@@ -77,9 +77,9 @@ apis:
 - description: The Privacy API from Tealium — 3 operation(s) for privacy.
   name: Tealium Privacy API
   slug: tealium-privacy-api
-- description: Tealium's own minimal, read-only API for AI agents, published as OpenAPI 3.0.3 at https://tealium.com/.well-known/openapi.yaml and discovered from https://tealium.com/llms.txt. Three unauthenticated G
-  name: Tealium AI Read API
-  slug: tealium-ai-read-api
+- description: The Wp Json API from Tealium — 3 operation(s) for wp json.
+  name: Tealium Wp Json API
+  slug: tealium-wp-json-api
 artifact_total: 39
 asyncapis:
 - description: ''
@@ -108,6 +108,10 @@ collections:
   name: Tealium Authentication Auth Privacy API
   slug: open-tealium-privacy-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tealium-ai-read-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -332,7 +336,7 @@ overview: 'Tealium publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Tealium catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Tealium''s developer surface includes authentication, documentation, engineering blog, pricing, release notes, changelog, sandbox, and 35 more developer resources.'
+  Tealium''s developer surface includes authentication, documentation, engineering blog, pricing, release notes, changelog, sandbox, and 36 more developer resources.'
 plans:
 - name: Tealium Plans Pricing
   plan_count: 3
@@ -355,18 +359,23 @@ rules:
   slug: tealium-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 69.2
+  composite: 68.3
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
-    contract_governance: 55.3
-    contract_quality: 61.1
+    contract_governance: 43.2
+    contract_quality: 63.5
     developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 55.3
+    governance: 43.2
     operational_transparency: 44.7
-  previous_composite: 69.2
+  previous_composite: 68.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -377,8 +386,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/screenshots/tealium-2026-06-20T194955.png
 security:

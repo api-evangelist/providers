@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 24
   slug: microsoft-azure-kubernetes-service-agentic-access
   summary_line: 24 operations · 16 acting · 3 human-in-the-loop
-api_count: 7
+api_count: 1
 apis:
 - description: REST API for managing planned maintenance configurations, used to configure when updates can be deployed to an AKS managed cluster.
   name: Azure Kubernetes Service Maintenance Configurations API
@@ -1020,18 +1020,26 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: exemplar
-  composite: 68.7
-  delta: 4.8
+  composite: 71.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 40.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 2.6
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 54.5
     contract_quality: 63.9
     developer_ergonomics: 85.7
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 54.5
     operational_transparency: 55.3
-  previous_composite: 63.9
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 68.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1039,8 +1047,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/screenshots/microsoft-azure-kubernetes-service-2026-06-20T185419.png
 security:

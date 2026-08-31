@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: oracle-financials-agentic-access
   summary_line: 9 operations · 4 acting · 1 human-in-the-loop
-api_count: 5
+api_count: 1
 apis:
 - description: Manage budget transactions and view budgetary control validation results
   name: Oracle Financials Budgetary Control API
@@ -83,6 +83,10 @@ collections:
   name: Oracle Financials General Ledger Budgetary Control Ledger Balances API
   slug: open-oracle-financials-ledger-balances-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/oracle-financials-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -171,7 +175,7 @@ overview: 'Oracle Financials publishes 5 APIs on the [APIs.io](https://apis.io/)
   The Oracle Financials catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Oracle Financials'' developer surface includes authentication, getting-started guide, support, and 8 more developer resources.'
+  Oracle Financials'' developer surface includes authentication, getting-started guide, support, and 9 more developer resources.'
 plans:
 - name: Oracle Financials Plans Pricing
   plan_count: 2
@@ -194,18 +198,23 @@ rules:
   slug: oracle-financials-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 39.8
-  delta: 1.9
+  composite: 39.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 71.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 9.8
     contract_quality: 57.1
     developer_ergonomics: 38.1
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 37.9
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -213,8 +222,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/screenshots/oracle-financials-2026-06-20T191131.png
 security:

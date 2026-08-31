@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: commscope-holding-agentic-access
   summary_line: 10 operations · 3 acting
-api_count: 11
+api_count: 1
 apis:
 - description: REST and OpenAPI surface for managing on-premises SmartZone controllers (SZ144, SZ300, vSZ-E, vSZ-H) and ICX Management. Used to integrate SmartZone with NMS, monitoring, and provisioning pipelines. A
   name: RUCKUS SmartZone Public API
@@ -110,6 +110,10 @@ collections:
   name: RUCKUS One API
   slug: open-ruckus-one-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/commscope-holding-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -201,7 +205,7 @@ overview: 'CommScope Holding publishes 8 APIs on the [APIs.io](https://apis.io/)
   The CommScope Holding catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  CommScope Holding''s developer surface includes authentication, GitHub presence, privacy policy, engineering blog, and 12 more developer resources.'
+  CommScope Holding''s developer surface includes authentication, GitHub presence, privacy policy, engineering blog, and 13 more developer resources.'
 plans:
 - name: Commscope Holding Plans Pricing
   plan_count: 1
@@ -260,18 +264,23 @@ rules:
   slug: commscope-holding-rules
 score:
   band: thin
-  composite: 33.6
-  delta: 2.8
+  composite: 33.1
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 66.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 13.6
     contract_quality: 54.8
     developer_ergonomics: 28.6
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 30.8
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     contracts:
@@ -279,8 +288,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commscope-holding/refs/heads/main/screenshots/commscope-holding-2026-06-20T174823.png
 security:

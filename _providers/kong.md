@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 782
   human_in_the_loop: 122
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1242
   slug: kong-agentic-access
   summary_line: 1242 operations · 782 acting · 122 human-in-the-loop
-api_count: 139
+api_count: 2
 apis:
 - description: Kong Gateway is the open-source, lightweight, cloud-native API gateway optimized for microservices, delivering low-latency performance and scalability through a rich plugin ecosystem. It is the data-p
   name: Kong Gateway
@@ -1265,6 +1265,10 @@ collections:
   name: Kong Enterprise Admin ACLs Workspaces API
   slug: open-kong-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kong-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -5496,7 +5500,7 @@ overview: 'Kong publishes 132 APIs on the [APIs.io](https://apis.io/) network, i
   The Kong catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Kong''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, CLI, support, and 26 more developer resources.'
+  Kong''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, CLI, support, and 27 more developer resources.'
 plans:
 - name: Kong Plans Pricing
   plan_count: 6
@@ -5529,19 +5533,27 @@ rules:
     warn: 8
   slug: kong-spectral-rules
 score:
-  band: developing
-  composite: 52.6
-  delta: 1.4
+  band: strong
+  composite: 56.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 66.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 4.3
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 13.6
-    contract_quality: 65.6
+    contract_quality: 63.5
     developer_ergonomics: 54.8
-    discoverability: 57.4
+    discoverability: 51.9
     governance: 13.6
     operational_transparency: 52.6
-  previous_composite: 51.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     contracts:
@@ -5549,8 +5561,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 132
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/screenshots/kong-2026-06-20T184130.png
 security:

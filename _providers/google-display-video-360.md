@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 0
@@ -42,15 +42,57 @@ agentic_access:
   operation_count: 282
   slug: google-display-video-360-agentic-access
   summary_line: 282 operations · 156 acting
-api_count: 2
+api_count: 3
 apis:
-- description: The full Display & Video 360 API surface — 179 operations across advertisers, partners, campaigns, insertion orders, line items, ad groups, creatives, ad assets, audiences, inventory sources, guarante
-  name: Google Display & Video 360 API
-  slug: google-display-video-360-api
 - description: The advertiser-scoped slice of the Display & Video 360 API — 103 operations under /v4/advertisers covering campaigns, insertion orders, line items, ad groups, ad group ads, creatives, ad assets, chann
   name: Google Display & Video 360 Advertisers API
   slug: google-display-video-360-advertisers-api
-artifact_total: 17
+- description: The Combined Audiences API from Google Display & Video 360 — 2 operation(s) for combined audiences.
+  name: Google Display & Video 360 Combined Audiences API
+  slug: google-display-video-360-combined-audiences-api
+- description: The Custom Bidding Algorithms API from Google Display & Video 360 — 8 operation(s) for custom bidding algorithms.
+  name: Google Display & Video 360 Custom Bidding Algorithms API
+  slug: google-display-video-360-custom-bidding-algorithms-api
+- description: The Custom Lists API from Google Display & Video 360 — 2 operation(s) for custom lists.
+  name: Google Display & Video 360 Custom Lists API
+  slug: google-display-video-360-custom-lists-api
+- description: The First Party and Partner Audiences API from Google Display & Video 360 — 3 operation(s) for first party and partner audiences.
+  name: Google Display & Video 360 First Party and Partner Audiences API
+  slug: google-display-video-360-first-party-and-partner-audiences-api
+- description: The Floodlight Groups API from Google Display & Video 360 — 4 operation(s) for floodlight groups.
+  name: Google Display & Video 360 Floodlight Groups API
+  slug: google-display-video-360-floodlight-groups-api
+- description: The Google Audiences API from Google Display & Video 360 — 2 operation(s) for google audiences.
+  name: Google Display & Video 360 Google Audiences API
+  slug: google-display-video-360-google-audiences-api
+- description: The Guaranteed Orders API from Google Display & Video 360 — 3 operation(s) for guaranteed orders.
+  name: Google Display & Video 360 Guaranteed Orders API
+  slug: google-display-video-360-guaranteed-orders-api
+- description: The Inventory Source Groups API from Google Display & Video 360 — 6 operation(s) for inventory source groups.
+  name: Google Display & Video 360 Inventory Source Groups API
+  slug: google-display-video-360-inventory-source-groups-api
+- description: The Inventory Sources API from Google Display & Video 360 — 3 operation(s) for inventory sources.
+  name: Google Display & Video 360 Inventory Sources API
+  slug: google-display-video-360-inventory-sources-api
+- description: The Media API from Google Display & Video 360 — 2 operation(s) for media.
+  name: Google Display & Video 360 Media API
+  slug: google-display-video-360-media-api
+- description: The Partners API from Google Display & Video 360 — 13 operation(s) for partners.
+  name: Google Display & Video 360 Partners API
+  slug: google-display-video-360-partners-api
+- description: The SDF Download Tasks API from Google Display & Video 360 — 2 operation(s) for sdf download tasks.
+  name: Google Display & Video 360 SDF Download Tasks API
+  slug: google-display-video-360-sdf-download-tasks-api
+- description: The SDF Upload Tasks API from Google Display & Video 360 — 1 operation(s) for sdf upload tasks.
+  name: Google Display & Video 360 SDF Upload Tasks API
+  slug: google-display-video-360-sdf-upload-tasks-api
+- description: The Targeting Types API from Google Display & Video 360 — 3 operation(s) for targeting types.
+  name: Google Display & Video 360 Targeting Types API
+  slug: google-display-video-360-targeting-types-api
+- description: The Users API from Google Display & Video 360 — 3 operation(s) for users.
+  name: Google Display & Video 360 Users API
+  slug: google-display-video-360-users-api
+artifact_total: 31
 collections:
 - collection_type: postman
   name: Google Display & Video 360 Advertisers API
@@ -68,6 +110,10 @@ collections:
   name: Google Display & Video 360 API
   slug: open-openapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-display-video-360-api-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -240,13 +286,13 @@ modified: '2026-08-13'
 name: Google Display & Video 360
 nav: Providers
 network: true
-overview: 'Google Display & Video 360 publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Advertisers API, and 1 more. Tagged areas include Campaign Management, Display Ads, DV360, Programmatic Advertising, and Targeting.
+overview: 'Google Display & Video 360 publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Advertisers API, Combined Audiences API, Custom Bidding Algorithms API, and 13 more. Tagged areas include Campaign Management, Display Ads, DV360, Programmatic Advertising, and Targeting.
 
 
   The Google Display & Video 360 catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Display & Video 360''s developer surface includes authentication, changelog, release notes, developer portal, getting-started guide, documentation, API reference, and 32 more developer resources.'
+  Google Display & Video 360''s developer surface includes authentication, changelog, release notes, developer portal, getting-started guide, documentation, API reference, and 33 more developer resources.'
 plans:
 - name: Google Display Video 360 Plans Pricing
   plan_count: 0
@@ -274,18 +320,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.8
+  composite: 57.6
+  coverage:
+    artifact_dirs: 28
+    catalog_gap: 50.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
-    contract_governance: 26.5
-    contract_quality: 65.7
+    contract_governance: 14.4
+    contract_quality: 64.9
     developer_ergonomics: 70.8
-    discoverability: 79.6
-    governance: 26.5
+    discoverability: 74.1
+    governance: 14.4
     operational_transparency: 68.4
-  previous_composite: 59.8
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -296,8 +347,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/screenshots/google-display-video-360-2026-06-20T182156.png
 security:

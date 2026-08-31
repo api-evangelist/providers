@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 70
   slug: vectorsolutions-agentic-access
   summary_line: 70 operations · 19 acting · 2 human-in-the-loop
-api_count: 14
+api_count: 1
 apis:
 - description: The Courses API from Vector Solutions — 4 operation(s) for courses.
   name: Vector Solutions Courses API
@@ -251,19 +251,24 @@ overview: 'Vector Solutions publishes 14 APIs on the [APIs.io](https://apis.io/)
   Vector Solutions'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 18 more developer resources.'
 random_paper: 8
 score:
-  band: developing
-  composite: 40.4
-  delta: 0.0
+  band: thin
+  composite: 38.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 13.9
     developer_ergonomics: 66.1
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 40.4
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -280,8 +285,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

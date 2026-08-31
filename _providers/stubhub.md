@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 81
   slug: stubhub-agentic-access
   summary_line: 81 operations · 37 acting
-api_count: 15
+api_count: 5
 apis:
 - description: The Addressess API from StubHub — 2 operation(s) for addressess.
   name: StubHub Addressess API
@@ -286,18 +286,23 @@ scopes:
   summary_line: 9 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 48.2
+  composite: 46.7
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.3
     developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 48.2
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -308,8 +313,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stubhub/refs/heads/main/screenshots/stubhub-2026-08-17T082143.png
 security:

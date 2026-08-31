@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 30
   slug: ceramic-agentic-access
   summary_line: 30 operations · 5 acting
-api_count: 10
+api_count: 1
 apis:
 - description: The Config API from Ceramic — 1 operation(s) for config.
   name: Ceramic Config API
@@ -265,15 +265,20 @@ rules:
   slug: ceramic-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.5
-  delta: 0.0
+  composite: 28.0
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 64.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 37.2
     developer_ergonomics: 16.7
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 2.6
   previous_composite: 28.5
@@ -284,8 +289,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/screenshots/ceramic-2026-06-20T174136.png
 security:

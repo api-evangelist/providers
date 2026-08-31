@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.3
-  scored_at: '2026-08-26'
+  score: 35.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 121
   slug: listrak-agentic-access
   summary_line: 121 operations · 51 acting
-api_count: 56
+api_count: 18
 apis:
 - description: Endpoints to manage app push devices.
   name: Listrak app-push-mobile-client-device API
@@ -203,15 +203,15 @@ apis:
 - description: The TransactionalMessageResend API from Listrak — 1 operation(s) for transactionalmessageresend.
   name: Listrak TransactionalMessageResend API
   slug: listrak-transactionalmessageresend-api
-- description: Directory management for the Listrak media library - list top-level directories, list a directory's contents, and create, rename or delete a directory. Part of the Listrak Media REST API (OpenAPI 3.1.
-  name: Listrak Media Directories API
-  slug: listrak-media-directories-api
-- description: Image file management for the Listrak media library - upload a file into a directory, update its metadata, and delete it. Part of the Listrak Media REST API (OpenAPI 3.1.1).
-  name: Listrak Media Files API
-  slug: listrak-media-files-api
-- description: Read the fonts available to the account for use alongside media library assets. Part of the Listrak Media REST API (OpenAPI 3.1.1).
-  name: Listrak Media Fonts API
-  slug: listrak-media-fonts-api
+- description: The Directories API from Listrak — 2 operation(s) for directories.
+  name: Listrak Directories API
+  slug: listrak-directories-api
+- description: The Files API from Listrak — 2 operation(s) for files.
+  name: Listrak Files API
+  slug: listrak-files-api
+- description: The Fonts API from Listrak — 1 operation(s) for fonts.
+  name: Listrak Fonts API
+  slug: listrak-fonts-api
 artifact_total: 132
 asyncapis:
 - description: ''
@@ -378,6 +378,10 @@ collections:
   name: Listrak Cross Channel REST app-push-mobile-client-device TransactionalMessageResend API
   slug: open-listrak-transactionalmessageresend-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/listrak-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -600,7 +604,7 @@ overview: 'Listrak publishes 56 APIs on the [APIs.io](https://apis.io/) network,
   The Listrak catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Listrak''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 34 more developer resources.'
+  Listrak''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 35 more developer resources.'
 plans:
 - name: Listrak Plans Pricing
   plan_count: 1
@@ -628,18 +632,23 @@ scopes:
   summary_line: 10 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 77.4
+  composite: 76.5
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 35.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
-    contract_governance: 41.7
-    contract_quality: 72.3
+    contract_governance: 29.5
+    contract_quality: 74.6
     developer_ergonomics: 60.1
     discoverability: 68.5
-    governance: 41.7
+    governance: 29.5
     operational_transparency: 84.2
-  previous_composite: 77.4
+  previous_composite: 76.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -652,12 +661,18 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa-cpra
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/screenshots/listrak-2026-06-20T184559.png
 security:

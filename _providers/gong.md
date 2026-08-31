@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 57
   slug: gong-agentic-access
   summary_line: 57 operations · 33 acting · 1 human-in-the-loop
-api_count: 26
+api_count: 12
 apis:
 - description: List calls, retrieve metadata, transcripts, recordings and trackers.
   name: Gong Calls API
@@ -775,18 +775,23 @@ scopes:
   summary_line: 6 scopes
 score:
   band: strong
-  composite: 66.4
+  composite: 63.8
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 40.2
+    contract_governance: 28.0
     contract_quality: 72.0
     developer_ergonomics: 67.3
-    discoverability: 92.6
-    governance: 40.2
+    discoverability: 81.5
+    governance: 28.0
     operational_transparency: 81.6
-  previous_composite: 66.4
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -797,8 +802,8 @@ score:
       total: 21
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gong/refs/heads/main/screenshots/gong-2026-06-20T182025.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 39
   slug: adobe-creative-suite-agentic-access
   summary_line: 39 operations · 30 acting
-api_count: 38
+api_count: 4
 apis:
 - description: 'The Adobe Illustrator API enables programmatic creation and manipulation of vector graphics through scripting and plugin interfaces. It exposes the Illustrator object model so developers can automate '
   name: Adobe Illustrator API
@@ -336,6 +336,10 @@ collections:
   name: Adobe Creative Suite Adobe Firefly Accessibility Video Generation API
   slug: open-adobe-creative-suite-video-generation-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/adobe-creative-suite-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1258,7 +1262,7 @@ overview: 'Adobe Creative Suite publishes 27 APIs on the [APIs.io](https://apis.
   The Adobe Creative Suite catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Adobe Creative Suite''s developer surface includes authentication, developer portal, signup flow, getting-started guide, documentation, engineering blog, Stack Overflow tag, and 39 more developer resources.'
+  Adobe Creative Suite''s developer surface includes authentication, developer portal, signup flow, getting-started guide, documentation, engineering blog, Stack Overflow tag, and 40 more developer resources.'
 plans:
 - name: Adobe Creative Suite Plans Pricing
   plan_count: 1
@@ -1293,7 +1297,12 @@ rules:
 score:
   band: developing
   composite: 50.1
-  delta: 1.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -1303,7 +1312,7 @@ score:
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 48.7
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1311,8 +1320,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/screenshots/adobe-creative-suite-2026-06-20T164857.png
 security:

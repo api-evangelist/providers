@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 4
 apis:
 - description: JSON-RPC interface to the XRP Ledger mainnet for querying accounts, transactions, ledgers, order books, AMM pools, NFTs, and server info. Served by community-run public rippled and Clio nodes.
@@ -50,6 +50,22 @@ apis:
   slug: xrpl-websocket-api-testnet
 artifact_total: 8
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/XRPLF/rippled/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/XRPLF/rippled/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/XRPLF/rippled/blob/develop/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/XRPLF/rippled/blob/develop/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -129,7 +145,7 @@ network: true
 overview: 'XRP Ledger publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, XRP, Cryptocurrency, DeFi, and Ledger.
 
 
-  XRP Ledger''s developer surface includes documentation, getting-started guide, changelog, engineering blog, and 12 more developer resources.'
+  XRP Ledger''s developer surface includes documentation, getting-started guide, changelog, engineering blog, and 16 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -140,8 +156,13 @@ rate_limits:
   name: Rate Limits
   slug: rate-limits
 score:
-  band: emerging
-  composite: 24.8
+  band: thin
+  composite: 32.1
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -151,10 +172,13 @@ score:
     developer_ergonomics: 21.4
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 18.4
-  previous_composite: 24.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 32.1
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xrpl/refs/heads/main/screenshots/xrpl-2026-06-20T201721.png
 security:

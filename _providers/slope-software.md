@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-26'
-api_count: 14
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Arrays API from Slope Software — 2 operation(s) for arrays.
   name: Slope Software Arrays API
@@ -133,6 +133,10 @@ collections:
   name: Slope Arrays Users API
   slug: open-slope-software-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/slope-software-capability-edges.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -248,22 +252,27 @@ network: true
 overview: 'Slope Software publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Arrays API, Authorize API, DataTables API, and 11 more. Tagged areas include Company, Actuarial, Insurance, Actuarial Modeling, and Valuation.
 
 
-  Slope Software''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 20 more developer resources.'
+  Slope Software''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 21 more developer resources.'
 random_paper: 18
 score:
   band: developing
-  composite: 43.9
-  delta: 1.4
+  composite: 40.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 51.2
     developer_ergonomics: 42.3
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 42.5
+  previous_composite: 41.3
   provenance:
     conformance: first-party
     contracts:
@@ -275,12 +284,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 39.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

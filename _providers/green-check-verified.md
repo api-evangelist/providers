@@ -24,14 +24,69 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: Green Check Access is Green Check's public REST API suite for service providers — financial institutions, payroll companies, CRMs and other platforms serving the cannabis industry. It exposes 49 opera
-  name: Green Check Access
-  slug: green-check-access
-artifact_total: 7
+- description: The Authentication API from Green Check Verified — 1 operation(s) for authentication.
+  name: Green Check Verified Authentication API
+  slug: green-check-verified-authentication-api
+- description: The CRB API from Green Check Verified — 1 operation(s) for crb.
+  name: Green Check Verified CRB API
+  slug: green-check-verified-crb-api
+- description: The CRB Customers API from Green Check Verified — 3 operation(s) for crb customers.
+  name: Green Check Verified CRB Customers API
+  slug: green-check-verified-crb-customers-api
+- description: The CRB Documents API from Green Check Verified — 1 operation(s) for crb documents.
+  name: Green Check Verified CRB Documents API
+  slug: green-check-verified-crb-documents-api
+- description: The CRB Info API from Green Check Verified — 2 operation(s) for crb info.
+  name: Green Check Verified CRB Info API
+  slug: green-check-verified-crb-info-api
+- description: The CRB Inventory API from Green Check Verified — 3 operation(s) for crb inventory.
+  name: Green Check Verified CRB Inventory API
+  slug: green-check-verified-crb-inventory-api
+- description: The CRB Inventory Locations API from Green Check Verified — 2 operation(s) for crb inventory locations.
+  name: Green Check Verified CRB Inventory Locations API
+  slug: green-check-verified-crb-inventory-locations-api
+- description: The CRB Products API from Green Check Verified — 3 operation(s) for crb products.
+  name: Green Check Verified CRB Products API
+  slug: green-check-verified-crb-products-api
+- description: The CRB Sales API from Green Check Verified — 1 operation(s) for crb sales.
+  name: Green Check Verified CRB Sales API
+  slug: green-check-verified-crb-sales-api
+- description: The CRB Templates API from Green Check Verified — 3 operation(s) for crb templates.
+  name: Green Check Verified CRB Templates API
+  slug: green-check-verified-crb-templates-api
+- description: The Customers API from Green Check Verified — 2 operation(s) for customers.
+  name: Green Check Verified Customers API
+  slug: green-check-verified-customers-api
+- description: The Documents API from Green Check Verified — 2 operation(s) for documents.
+  name: Green Check Verified Documents API
+  slug: green-check-verified-documents-api
+- description: The Inventory API from Green Check Verified — 3 operation(s) for inventory.
+  name: Green Check Verified Inventory API
+  slug: green-check-verified-inventory-api
+- description: The Inventory Locations API from Green Check Verified — 2 operation(s) for inventory locations.
+  name: Green Check Verified Inventory Locations API
+  slug: green-check-verified-inventory-locations-api
+- description: The Products API from Green Check Verified — 3 operation(s) for products.
+  name: Green Check Verified Products API
+  slug: green-check-verified-products-api
+- description: The Sales API from Green Check Verified — 1 operation(s) for sales.
+  name: Green Check Verified Sales API
+  slug: green-check-verified-sales-api
+- description: The Service Provider API from Green Check Verified — 7 operation(s) for service provider.
+  name: Green Check Verified Service Provider API
+  slug: green-check-verified-service-provider-api
+- description: The Trace API from Green Check Verified — 1 operation(s) for trace.
+  name: Green Check Verified Trace API
+  slug: green-check-verified-trace-api
+artifact_total: 24
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/green-check-verified-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -161,10 +216,10 @@ modified: '2026-08-22'
 name: Green Check Verified
 nav: Providers
 network: true
-overview: 'Green Check Verified publishes 1 API on the [APIs.io](https://apis.io/) network: Green Check Access. Tagged areas include Company, Cannabis, Compliance, Banking, and Financial Services.
+overview: 'Green Check Verified publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, CRB API, CRB Customers API, and 15 more. Tagged areas include Company, Cannabis, Compliance, Banking, and Financial-Services.
 
 
-  Green Check Verified''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
+  Green Check Verified''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 23 more developer resources.'
 plans:
 - name: Green Check Verified Plans Pricing
   plan_count: 0
@@ -181,18 +236,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 45.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 52.5
+    contract_governance: 4.5
+    contract_quality: 52.9
     developer_ergonomics: 66.1
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 47.5
+  previous_composite: 45.6
   provenance:
     conformance: derived
     contracts:
@@ -208,8 +268,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -226,10 +286,10 @@ tags:
 - Cannabis
 - Compliance
 - Banking
-- Financial Services
+- Financial-Services
 - BSA/AML
 - Regulatory Technology
-- Point of Sale
+- Point-of-Sale
 - Onboarding
 - Due Diligence
 - Know Your Customer

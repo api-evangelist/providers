@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 250
   human_in_the_loop: 47
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 487
   slug: ringcentral-agentic-access
   summary_line: 487 operations · 250 acting · 47 human-in-the-loop
-api_count: 88
+api_count: 1
 apis:
 - description: The RingCentral SMS API supports targeted and bulk SMS and MMS with deep insights and regulatory compliance built in. It supports sending and receiving messages, A2P 10DLC registration, message status
   name: RingCentral SMS API
@@ -812,6 +812,10 @@ collections:
   name: RingCentral Adaptive Cards Webinars and Sessions API
   slug: open-ringcentral-webinars-and-sessions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ringcentral-capability-edges.yml
 - group: auth
   title: ''
   type: OAuthScopes
@@ -1062,7 +1066,7 @@ overview: 'RingCentral publishes 79 APIs on the [APIs.io](https://apis.io/) netw
   The RingCentral catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  RingCentral''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, pricing, and 50 more developer resources.'
+  RingCentral''s developer surface includes changelog, sandbox, authentication, documentation, API reference, getting-started guide, pricing, and 51 more developer resources.'
 plans:
 - name: Ringcentral Plans Pricing
   plan_count: 5
@@ -1091,18 +1095,23 @@ scopes:
   summary_line: 38 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.2
-  delta: 0.0
+  composite: 55.1
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 77.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 63.3
     developer_ergonomics: 71.4
-    discoverability: 61.1
-    governance: 30.3
+    discoverability: 44.4
+    governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 58.2
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1118,8 +1127,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 54.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/screenshots/ringcentral-2026-06-20T193124.png
 security:

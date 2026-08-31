@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 31
   slug: beyond-agentic-access
   summary_line: 31 operations · 13 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Accounts API from Beyond — 3 operation(s) for accounts.
   name: Beyond Accounts API
@@ -64,7 +64,10 @@ apis:
 - description: The Users API from Beyond — 3 operation(s) for users.
   name: Beyond Users API
   slug: beyond-users-api
-artifact_total: 21
+- description: The Webhooks API from Beyond — 0 operation(s) for webhooks.
+  name: Beyond Webhooks API
+  slug: beyond-webhooks-api
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Beyond Webhooks
@@ -95,6 +98,10 @@ collections:
   name: Beyond Pricing Public Accounts Users API
   slug: open-beyond-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/beyond-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -227,13 +234,13 @@ modified: '2026-07-18'
 name: Beyond
 nav: Providers
 network: true
-overview: 'Beyond publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Compsets API, Customizations API, and 4 more. Tagged areas include Company, Consumer, Travel, Hospitality, and Short-Term Rentals.
+overview: 'Beyond publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Compsets API, Customizations API, and 5 more. Tagged areas include Company, Consumer, Travel, Hospitality, and Short-Term Rentals.
 
 
   The Beyond catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Beyond''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 23 more developer resources.'
+  Beyond''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 24 more developer resources.'
 random_paper: 11
 scopes:
 - name: Beyond Scopes
@@ -242,18 +249,23 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: developing
-  composite: 51.2
-  delta: 1.4
+  composite: 46.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 30.3
-    contract_quality: 64.2
+    contract_governance: 18.2
+    contract_quality: 59.7
     developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 49.8
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -264,8 +276,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond/refs/heads/main/screenshots/beyond-2026-07-25T202828.png
 security:

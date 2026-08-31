@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: optscale-agentic-access
   summary_line: 16 operations · 6 acting
-api_count: 9
+api_count: 1
 apis:
 - description: User authentication and token management
   name: OptScale Authentication API
@@ -107,6 +107,26 @@ collections:
   name: OptScale REST API
   slug: open-optscale
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/hystax/optscale/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/hystax/optscale/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/hystax/optscale/blob/integration/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/hystax/optscale/blob/integration/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/hystax/optscale/blob/integration/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -162,7 +182,7 @@ network: true
 overview: 'OptScale publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Cloud Accounts API, Employees API, and 6 more. Tagged areas include FinOps, Cost Optimization, Cloud, Kubernetes, and Open-Source.
 
 
-  OptScale''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+  OptScale''s developer surface includes authentication, documentation, engineering blog, and 12 more developer resources.'
 plans:
 - name: Optscale Plans Pricing
   plan_count: 3
@@ -173,19 +193,27 @@ rate_limits:
   name: Optscale Rate Limits
   slug: optscale-rate-limits
 score:
-  band: thin
-  composite: 29.9
-  delta: 2.4
+  band: developing
+  composite: 40.1
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 46.9
     developer_ergonomics: 35.7
-    discoverability: 64.8
+    discoverability: 66.7
     governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 27.5
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -193,8 +221,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optscale/refs/heads/main/screenshots/optscale-2026-06-20T191116.png
 security:

@@ -35,18 +35,46 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: 'REST API to create interview templates and campaigns, invite participants singly or in bulk, create anonymous sessions, and retrieve transcripts, structured results, and cross-session AI insights. 47 '
-  name: Tadeus Integration API
-  slug: tadeus-integration-api
-artifact_total: 9
+- description: The attempts API from Tadeus API — 2 operation(s) for attempts.
+  name: Tadeus API Attempts API
+  slug: tadeus-api-attempts-api
+- description: The billing API from Tadeus API — 6 operation(s) for billing.
+  name: Tadeus API Billing API
+  slug: tadeus-api-billing-api
+- description: The campaigns API from Tadeus API — 5 operation(s) for campaigns.
+  name: Tadeus API Campaigns API
+  slug: tadeus-api-campaigns-api
+- description: The insights API from Tadeus API — 6 operation(s) for insights.
+  name: Tadeus API Insights API
+  slug: tadeus-api-insights-api
+- description: The organisation API from Tadeus API — 2 operation(s) for organisation.
+  name: Tadeus API Organisation API
+  slug: tadeus-api-organisation-api
+- description: The results API from Tadeus API — 4 operation(s) for results.
+  name: Tadeus API Results API
+  slug: tadeus-api-results-api
+- description: The sessions API from Tadeus API — 2 operation(s) for sessions.
+  name: Tadeus API Sessions API
+  slug: tadeus-api-sessions-api
+- description: The templates API from Tadeus API — 2 operation(s) for templates.
+  name: Tadeus API Templates API
+  slug: tadeus-api-templates-api
+- description: The transcripts API from Tadeus API — 2 operation(s) for transcripts.
+  name: Tadeus API Transcripts API
+  slug: tadeus-api-transcripts-api
+artifact_total: 17
 collections:
 - collection_type: open
   name: Integration API
   slug: open-tadeus-api-integration
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tadeus-api-integration-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -167,10 +195,10 @@ modified: '2026-08-11'
 name: Tadeus API
 nav: Providers
 network: true
-overview: 'Tadeus API publishes 1 API on the [APIs.io](https://apis.io/) network: Tadeus Integration API. Tagged areas include Voice AI, Research, Interviews, Workforce, and HR Tech.
+overview: 'Tadeus API publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Attempts API, Billing API, Campaigns API, and 6 more. Tagged areas include Voice AI, Research, Interviews, Workforce, and HR Tech.
 
 
-  Tadeus API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
+  Tadeus API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
 plans:
 - name: Tadeus Api Plans Pricing
   plan_count: 3
@@ -182,18 +210,23 @@ rate_limits:
   slug: tadeus-api-rate-limits
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 46.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.6
   facets:
-    access_clarity: 85.5
-    commercial_clarity: 85.5
-    contract_governance: 30.3
-    contract_quality: 45.6
+    access_clarity: 80.3
+    commercial_clarity: 80.3
+    contract_governance: 18.2
+    contract_quality: 43.5
     developer_ergonomics: 49.4
     discoverability: 70.4
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 49.1
+  previous_composite: 47.6
   provenance:
     conformance: first-party
     contracts:
@@ -203,8 +236,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tadeus-api/refs/heads/main/screenshots/tadeus-api-2026-08-17T082242.png
 security:

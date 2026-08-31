@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 25
   slug: emailoctopus-agentic-access
   summary_line: 25 operations · 15 acting
-api_count: 6
+api_count: 2
 apis:
 - description: Enqueue an existing contact into an EmailOctopus automation. Write-only — the v2 API exposes no operation to list or read automations, so the automation id must come from the dashboard. 1 operation(s)
   name: EmailOctopus Automation API
@@ -239,18 +239,23 @@ rate_limits:
   slug: emailoctopus-rate-limits
 score:
   band: strong
-  composite: 61.5
-  delta: 1.0
+  composite: 59.4
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 65.6
     developer_ergonomics: 54.2
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 55.3
-  previous_composite: 60.5
+  previous_composite: 60.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -267,8 +272,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/screenshots/emailoctopus-2026-07-25T213222.png
 security:

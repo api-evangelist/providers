@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The internal-but-anonymously-discoverable JSON API behind the Zerocater ordering application at app.zerocater.com. Built on Django REST Framework, it serves an RFC 6570 URI-template hypermedia index a
@@ -31,6 +31,14 @@ apis:
   slug: zerocater-api-v3
 artifact_total: 3
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/ZeroCater/PyZeroCater/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/ZeroCater/PyZeroCater/releases
 - group: commercial
   title: ''
   type: License
@@ -139,11 +147,16 @@ network: true
 overview: 'Zerocater publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Catering, Corporate Services, and Workplace.
 
 
-  Zerocater''s developer surface includes engineering blog, support, FAQ, signup flow, authentication, and 19 more developer resources.'
+  Zerocater''s developer surface includes engineering blog, support, FAQ, signup flow, authentication, and 21 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 22.2
+  composite: 24.3
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -153,12 +166,15 @@ score:
     developer_ergonomics: 26.2
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 2.6
-  previous_composite: 22.2
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 24.3
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

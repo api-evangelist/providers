@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 64
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 125
   slug: securitize-agentic-access
   summary_line: 125 operations · 64 acting · 64 human-in-the-loop
-api_count: 7
+api_count: 1
 apis:
 - description: OAuth-based identity API that lets partners add "Log in with Securitize iD" to their own application and, with investor consent, retrieve verified KYC/KYB/AML identity data — investor information, ver
   name: Securitize Connect API (Securitize iD)
@@ -207,7 +207,7 @@ modified: '2026-08-05'
 name: Securitize
 nav: Providers
 network: true
-overview: 'Securitize publishes 5 APIs on the [APIs.io](https://apis.io/) network, including APAC API, Domains API, Health Check API, and 2 more. Tagged areas include Tokenization, Digital Securities, Real World Assets, Capital Markets, and Fund Administration.
+overview: 'Securitize publishes 5 APIs on the [APIs.io](https://apis.io/) network, including APAC API, Domains API, Health Check API, and 2 more. Tagged areas include tokenization, digital-securities, real-world-assets, capital-markets, and fund-administration.
 
 
   The Securitize catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -222,18 +222,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 45.3
-  delta: 1.4
+  composite: 43.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 56.2
     developer_ergonomics: 63.7
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 43.9
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,8 +255,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/securitize/refs/heads/main/screenshots/securitize-2026-08-17T081751.png
 security:
@@ -269,18 +274,18 @@ security:
   summary_line: contact published
 slug: securitize
 tags:
-- Tokenization
-- Digital Securities
-- Real World Assets
-- Capital Markets
-- Fund Administration
-- Transfer Agent
-- KYC
+- tokenization
+- digital-securities
+- real-world-assets
+- capital-markets
+- fund-administration
+- transfer-agent
+- kyc
 - AML
 - Identity Verification
 - Blockchain
-- Broker-Dealer
-- Private Credit
+- broker-dealer
+- private-credit
 - MCP
 - Webhook
 website: https://securitize.io/

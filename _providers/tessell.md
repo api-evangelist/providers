@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-26'
-api_count: 82
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The activity-center API from Tessell — 2 operation(s) for activity-center.
   name: Tessell activity-center API
@@ -538,6 +538,10 @@ collections:
   name: Tessell APIs activity-center VPC Peering Governance API
   slug: open-tessell-vpc-peering-governance-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tessell-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -690,28 +694,33 @@ modified: '2026-07-21'
 name: Tessell
 nav: Providers
 network: true
-overview: 'Tessell publishes 82 APIs on the [APIs.io](https://apis.io/) network, including activity-center API, Ad Domain API, Ad Domain Governance API, and 79 more. Tagged areas include Databases, Database-as-a-Service, Multi-Cloud, Oracle, and PostgreSQL.
+overview: 'Tessell publishes 82 APIs on the [APIs.io](https://apis.io/) network, including activity-center API, Ad Domain API, Ad Domain Governance API, and 79 more. Tagged areas include Databases, DBaaS, Multi-Cloud, Oracle, and PostgreSQL.
 
 
   The Tessell catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tessell''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
+  Tessell''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
 random_paper: 8
 score:
   band: developing
-  composite: 41.0
-  delta: 0.0
+  composite: 40.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 56.7
     developer_ergonomics: 51.8
-    discoverability: 57.4
-    governance: 16.7
+    discoverability: 70.4
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 41.0
+  previous_composite: 41.4
   provenance:
     conformance: derived
     contracts:
@@ -721,8 +730,8 @@ score:
       total: 82
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/screenshots/tessell-2026-08-17T082320.png
 security:
@@ -741,7 +750,7 @@ security:
 slug: tessell
 tags:
 - Databases
-- Database-as-a-Service
+- DBaaS
 - Multi-Cloud
 - Oracle
 - PostgreSQL

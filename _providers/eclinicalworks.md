@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: Provider-centric, backend and bulk FHIR R4 APIs for integrating with the eClinicalWorks EHR. Supports SMART on FHIR EHR Launch, Standalone Launch, Backend Services (private_key_jwt, RS384) and CDS Hoo
@@ -249,7 +249,12 @@ scopes:
   summary_line: 486 scopes
 score:
   band: exemplar
-  composite: 74.9
+  composite: 74.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 44.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
@@ -257,10 +262,10 @@ score:
     contract_governance: 18.2
     contract_quality: 62.4
     developer_ergonomics: 66.1
-    discoverability: 85.2
+    discoverability: 81.5
     governance: 18.2
     operational_transparency: 55.3
-  previous_composite: 74.9
+  previous_composite: 74.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -271,8 +276,8 @@ score:
     regime: Health
     regime_id: health
     score: 83.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/screenshots/eclinicalworks-2026-06-20T180425.png
 security:

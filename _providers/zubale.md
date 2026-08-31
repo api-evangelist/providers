@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 21
   slug: zubale-agentic-access
   summary_line: 21 operations · 19 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The API Documentation for External Notification Handler API from Zubale — 1 operation(s) for api documentation for external notification handler.
   name: Zubale API Documentation for External Notification Handler API
@@ -160,18 +160,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 16.6
-  delta: 0.0
+  composite: 14.6
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 93.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 21.0
     developer_ergonomics: 11.9
-    discoverability: 53.7
-    governance: 16.7
+    discoverability: 48.1
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 16.6
+  previous_composite: 15.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -181,8 +186,8 @@ score:
       marker_coverage: 100.0
       total: 8
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

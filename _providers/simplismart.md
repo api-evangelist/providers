@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 25
   slug: simplismart-agentic-access
   summary_line: 25 operations · 15 acting
-api_count: 8
+api_count: 19
 apis:
 - description: Large Language Model chat completion services
   name: Simplismart Chat Completion API
@@ -97,6 +97,10 @@ collections:
   name: DeepSeek R1 Distil Qwen-32B Chat Completion Training API
   slug: open-simplismart-training-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/simplismart-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -228,22 +232,27 @@ network: true
 overview: 'Simplismart publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Chat Completion API, Flux API, Flux Training API, and 5 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Inference, and LLM.
 
 
-  Simplismart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  Simplismart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
 random_paper: 8
 score:
   band: developing
-  composite: 53.3
+  composite: 51.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
-    contract_quality: 59.9
+    contract_governance: 4.5
+    contract_quality: 59.4
     developer_ergonomics: 80.4
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 53.3
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,8 +263,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplismart/refs/heads/main/screenshots/simplismart-2026-08-17T081859.png
 security:

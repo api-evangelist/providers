@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Playwright provides a cross-browser automation API for end-to-end testing of web applications. It supports Chromium, Firefox, and WebKit with a single API, enabling reliable testing with auto-wait, ne
@@ -104,7 +104,7 @@ modified: '2026-05-19'
 name: Microsoft Playwright
 nav: Providers
 network: true
-overview: 'Microsoft Playwright publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Browser Automation, End-to-End Testing, Microsoft, and Testing.
+overview: 'Microsoft Playwright publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Browser Automation, End-To-End Testing, Microsoft, and Testing.
 
 
   Microsoft Playwright''s developer surface includes developer portal, documentation, getting-started guide, support, and 7 more developer resources.'
@@ -120,6 +120,11 @@ rate_limits:
 score:
   band: emerging
   composite: 20.3
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -131,8 +136,8 @@ score:
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 20.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-playwright/refs/heads/main/screenshots/microsoft-playwright-2026-06-20T185519.png
 security:
@@ -143,7 +148,7 @@ security:
 slug: microsoft-playwright
 tags:
 - Browser Automation
-- End-to-End Testing
+- End-To-End Testing
 - Microsoft
 - Testing
 website: https://playwright.dev/

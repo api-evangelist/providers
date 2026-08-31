@@ -12,14 +12,14 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: true
     error_semantics: documented
     event_surface_described: true
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 71.9
-  scored_at: '2026-08-26'
+  score: 69.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 80
   slug: boom-ai-agentic-access
   summary_line: 80 operations · 41 acting · 1 human-in-the-loop
-api_count: 10
+api_count: 1
 apis:
 - description: The CDP Custom Objects API from Boom Ai — 5 operation(s) for cdp custom objects.
   name: Boom Ai CDP Custom Objects API
@@ -73,7 +73,10 @@ apis:
 - description: The WhatsApp templates API from Boom Ai — 3 operation(s) for whatsapp templates.
   name: Boom Ai WhatsApp templates API
   slug: boom-ai-whatsapp-templates-api
-artifact_total: 30
+- description: The Environments API from Boom Ai — 1 operation(s) for environments.
+  name: Boom Ai Environments API
+  slug: boom-ai-environments-api
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Boom Ai Webhooks
@@ -113,6 +116,10 @@ collections:
   name: Boom CDP Custom Objects WhatsApp templates API
   slug: open-boom-ai-whatsapp-templates-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/boom-ai-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -285,13 +292,13 @@ modified: '2026-08-13'
 name: Boom Ai
 nav: Providers
 network: true
-overview: 'Boom Ai publishes 10 APIs on the [APIs.io](https://apis.io/) network, including CDP Custom Objects API, CDP Events API, CDP People API, and 7 more. Tagged areas include Company, Artificial Intelligence, Conversational AI, Customer Engagement, and Customer Data Platform.
+overview: 'Boom Ai publishes 11 APIs on the [APIs.io](https://apis.io/) network, including CDP Custom Objects API, CDP Events API, CDP People API, and 8 more. Tagged areas include Company, Artificial Intelligence, Conversational AI, Customer Engagement, and Customer Data Platform.
 
 
   The Boom Ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Boom Ai''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 33 more developer resources.'
+  Boom Ai''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 34 more developer resources.'
 plans:
 - name: Boom Ai Plans Pricing
   plan_count: 4
@@ -308,18 +315,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 73.0
-  delta: 0.0
+  composite: 69.8
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 63.3
     developer_ergonomics: 71.4
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 73.0
+  previous_composite: 70.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -336,8 +348,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/screenshots/boom-ai-2026-07-25T203612.png
 security:

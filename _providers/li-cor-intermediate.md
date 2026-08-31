@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 2
   slug: li-cor-intermediate-agentic-access
   summary_line: 2 operations
-api_count: 2
+api_count: 1
 apis:
 - description: The Data API from LI-COR Intermediate — 1 operation(s) for data.
   name: LI-COR Intermediate Data API
@@ -172,18 +172,23 @@ rate_limits:
   slug: li-cor-intermediate-rate-limits
 score:
   band: thin
-  composite: 37.1
+  composite: 36.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 46.3
     developer_ergonomics: 37.5
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 37.1
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -200,8 +205,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/screenshots/li-cor-intermediate-2026-07-25T225010.png
 security:

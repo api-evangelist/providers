@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 105
   slug: oanda-agentic-access
   summary_line: 105 operations · 31 acting
-api_count: 11
+api_count: 13
 apis:
 - description: Manage and retrieve OANDA trading account details, summaries, tradeable instruments, and configuration settings. Supports polling for account state changes since a specified transaction ID.
   name: OANDA Account API
@@ -94,6 +94,10 @@ collections:
   name: OANDA v20 REST Accounts Users API
   slug: open-oanda-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/oanda-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -793,7 +797,7 @@ overview: 'OANDA publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
   The OANDA catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OANDA''s developer surface includes developer portal, documentation, getting-started guide, API reference, authentication, pricing, signup flow, and 11 more developer resources.'
+  OANDA''s developer surface includes developer portal, documentation, getting-started guide, API reference, authentication, pricing, signup flow, and 12 more developer resources.'
 plans:
 - name: Oanda Plans Pricing
   plan_count: 6
@@ -816,13 +820,18 @@ rules:
   slug: oanda-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.8
+  composite: 48.3
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 46.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 9.8
-    contract_quality: 52.7
+    contract_quality: 54.8
     developer_ergonomics: 50.0
     discoverability: 55.6
     governance: 9.8
@@ -833,7 +842,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 47.8
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     contracts:
@@ -847,8 +856,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/screenshots/oanda-2026-06-20T190546.png
 security:

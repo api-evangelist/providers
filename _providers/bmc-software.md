@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST API for Control-M that lets developers programmatically build, schedule, run, and manage application and data workflows as code (Jobs-as-Code), including deploy, run, provision, and config servic
@@ -108,7 +108,7 @@ modified: '2026-07-18'
 name: BMC Software
 nav: Providers
 network: true
-overview: 'BMC Software publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Automation, Workflow Orchestration, and Mainframe.
+overview: 'BMC Software publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Infrastructure, Automation, Workflow Orchestration, and Mainframe.
 
 
   BMC Software''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, CLI, and 8 more developer resources.'
@@ -116,6 +116,11 @@ random_paper: 8
 score:
   band: emerging
   composite: 25.7
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
@@ -127,8 +132,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 25.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmc-software/refs/heads/main/screenshots/bmc-software-2026-07-25T203516.png
 security:
@@ -139,11 +144,11 @@ security:
 slug: bmc-software
 tags:
 - Company
-- AI Infrastructure
+- Ai Infrastructure
 - Automation
 - Workflow Orchestration
 - Mainframe
-- ITSM
+- IT Service Management
 - DevOps
 - Enterprise Software
 website: https://www.bmc.com/

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 34
   slug: revenuecat-agentic-access
   summary_line: 34 operations · 19 acting · 2 human-in-the-loop
-api_count: 12
+api_count: 1
 apis:
 - description: Outbound webhooks that POST subscription lifecycle events (INITIAL_PURCHASE, RENEWAL, CANCELLATION, EXPIRATION, BILLING_ISSUE, PRODUCT_CHANGE, and more) to a customer endpoint, secured with an Authori
   name: RevenueCat Webhooks
@@ -193,18 +193,23 @@ rate_limits:
   slug: revenuecat-rate-limits
 score:
   band: thin
-  composite: 38.7
-  delta: 1.4
+  composite: 38.1
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 51.0
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.3
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +217,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

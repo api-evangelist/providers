@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: wells-fargo-agentic-access
   summary_line: 14 operations · 4 acting
-api_count: 6
+api_count: 2
 apis:
 - description: The Wells Fargo ACH Payments API enables commercial banking customers to initiate ACH credit and debit transactions, including same-day ACH, for payroll, vendor payments, and collections. The API inte
   name: Wells Fargo ACH Payments API
@@ -92,6 +92,10 @@ collections:
   name: Wells Fargo Account Accounts Transactions API
   slug: open-wells-fargo-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/wells-fargo-capability-edges.yml
 - group: operate
   title: ''
   type: Support
@@ -196,16 +200,16 @@ jsonld:
   slug: wells-fargo-context
 layout: provider
 modified: '2026-05-19'
-name: wells-fargo
+name: Wells Fargo
 nav: Providers
 network: true
-overview: 'wells-fargo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Wells Fargo ACH Payments API, Accounts API, Payment Batches API, and 3 more. Tagged areas include Fortune 100.
+overview: 'Wells Fargo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ACH Payments API, wells-fargo Accounts API, wells-fargo Payment Batches API, and 3 more. Tagged areas include Fortune 100.
 
 
-  The wells-fargo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Wells Fargo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  wells-fargo''s developer surface includes support, authentication, documentation, and 12 more developer resources.'
+  Wells Fargo''s developer surface includes support, authentication, documentation, and 13 more developer resources.'
 plans:
 - name: Wells Fargo Plans Pricing
   plan_count: 1
@@ -234,7 +238,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: wells-fargo API Rules
+  name: Wells Fargo API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -245,7 +249,7 @@ rules:
 - effective_rule_count: 53
   extends:
   - spectral:oas
-  name: wells-fargo API Rules
+  name: Wells Fargo API Rules
   rule_count: 12
   severity_counts:
     error: 4
@@ -260,18 +264,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 38.7
-  delta: 0.7
+  composite: 38.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 30.3
     commercial_clarity: 30.3
     contract_governance: 28.8
     contract_quality: 74.2
     developer_ergonomics: 16.7
-    discoverability: 59.3
+    discoverability: 61.1
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 38.0
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -279,8 +288,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/screenshots/wells-fargo-2026-06-20T201349.png
 security:

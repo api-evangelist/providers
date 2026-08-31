@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: ikea-agentic-access
   summary_line: 9 operations
-api_count: 6
+api_count: 4
 apis:
 - description: The DIRIGERA hub is IKEA's next-generation smart home gateway (replacing TRADFRI). It exposes a private, locally-served REST API on the LAN with bearer-token authentication (token obtained by pressing
   name: IKEA DIRIGERA Smart Home Hub API (Unofficial, Local)
@@ -94,6 +94,10 @@ collections:
   name: IKEA After Purchase Ordering Availability Stores API
   slug: open-ikea-stores-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ikea-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -331,13 +335,13 @@ modified: '2026-05-30'
 name: IKEA
 nav: Providers
 network: true
-overview: 'IKEA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Categories API, Parts API, and 2 more. Tagged areas include Retail, Home Furnishings, Consumer Products, Open-Source, and Community.
+overview: 'IKEA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Categories API, Parts API, and 2 more. Tagged areas include Retail, Home Furnishings, Consumer Products, Opensource, and Community.
 
 
   The IKEA catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  IKEA''s developer surface includes authentication, engineering blog, code examples, and 14 more developer resources.'
+  IKEA''s developer surface includes authentication, engineering blog, code examples, and 15 more developer resources.'
 random_paper: 11
 rules:
 - effective_rule_count: 5
@@ -363,18 +367,23 @@ rules:
   slug: ikea-rules
 score:
   band: thin
-  composite: 33.2
-  delta: 3.9
+  composite: 33.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 49.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 13.6
-    contract_quality: 66.4
+    contract_quality: 66.9
     developer_ergonomics: 40.5
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 2.6
-  previous_composite: 29.3
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -382,8 +391,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -403,7 +412,7 @@ tags:
 - Retail
 - Home Furnishings
 - Consumer Products
-- Open-Source
+- Opensource
 - Community
 - Unofficial API
 - Smart Home

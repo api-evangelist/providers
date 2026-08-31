@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 341
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 547
   slug: bigcommerce-agentic-access
   summary_line: 547 operations · 341 acting · 2 human-in-the-loop
-api_count: 161
+api_count: 59
 apis:
 - description: BigCommerce Inventory API exposes location-aware, item-level inventory data to API consumers. You can get inventory levels at all locations or specific locations and update inventory levels at a speci
   name: Big Commerce Inventory
@@ -320,9 +320,6 @@ apis:
 - description: The Payment Actions API from BigCommerce — 7 operation(s) for payment actions.
   name: BigCommerce Payment Actions API
   slug: bigcommerce-payment-actions-api
-- description: The Payments API from BigCommerce — 2 operation(s) for payments.
-  name: BigCommerce Payments API
-  slug: bigcommerce-payments-api
 - description: BigCommerce Placements API Definition.
   name: BigCommerce Placement API
   slug: bigcommerce-placement-api
@@ -527,7 +524,7 @@ apis:
 - description: The Wishlists Items API from BigCommerce — 2 operation(s) for wishlists items.
   name: BigCommerce Wishlists Items API
   slug: bigcommerce-wishlists-items-api
-artifact_total: 1333
+artifact_total: 1332
 asyncapis:
 - description: AsyncAPI description of BigCommerce's outbound webhook surface. BigCommerce delivers near real-time event notifications by issuing HTTP POST requests with a JSON body to a customer-configured destinat
   name: BigCommerce Webhooks
@@ -999,6 +996,10 @@ collections:
   name: BigCommerce Payment Access Token
   slug: open-payment-access-token
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bigcommerce-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -4034,13 +4035,13 @@ modified: '2026-05-30'
 name: BigCommerce
 nav: Providers
 network: true
-overview: 'BigCommerce publishes 153 APIs on the [APIs.io](https://apis.io/) network, including Abandoned Cart Emails API, Abandoned Cart Settings API, Abandoned Carts API, and 150 more. Tagged areas include E-Commerce, Retail, Catalog, Order, and Checkout.
+overview: 'BigCommerce publishes 152 APIs on the [APIs.io](https://apis.io/) network, including Abandoned Cart Emails API, Abandoned Cart Settings API, Abandoned Carts API, and 149 more. Tagged areas include E-Commerce, Retail, Catalog, Order, and Checkout.
 
 
   The BigCommerce catalog on APIs.io includes 1 event-driven AsyncAPI specification and 3 Spectral governance rulesets.
 
 
-  BigCommerce''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 9 more developer resources.'
+  BigCommerce''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 10 more developer resources.'
 plans:
 - name: Bigcommerce Plans Pricing
   plan_count: 4
@@ -4085,18 +4086,23 @@ rules:
   slug: bigcommerce-spectral-rules
 score:
   band: developing
-  composite: 45.3
-  delta: 1.4
+  composite: 44.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 28.8
-    contract_quality: 68.4
+    contract_quality: 65.9
     developer_ergonomics: 52.4
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 43.9
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     contracts:
@@ -4110,8 +4116,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/screenshots/bigcommerce-2026-06-20T173231.png
 security:

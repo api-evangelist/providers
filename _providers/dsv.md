@@ -23,97 +23,106 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 29
 apis:
-- description: OAuth 2.0 token endpoint for the DSV Generic APIs. Exchanges myDSV username/password (sent as client_id/client_secret with grant_type=client_credentials) plus a DSV-Subscription-Key for a 10-minute be
-  name: DSV Access Token API
-  slug: dsv-access-token-api
-- description: Submits and updates shipment bookings to DSV across air, sea, European road and rail. Carries GS1 SSCC package tracking numbers (explicitly referenced to gs1.org/standards/id-keys/sscc), EORI numbers,
-  name: DSV Booking API (Air, Sea, Road EU, Rail)
-  slug: dsv-booking-api-air-sea-road-eu-rail
-- description: Polling track-and-trace over DSV-moved shipments. Lookups by DSV bookingId, DSV TMS shipment id or customer reference; responses carry house and master bill of lading numbers, air waybill numbers, con
-  name: DSV Tracking API (Air, Sea, Road EU, Rail)
-  slug: dsv-tracking-api-air-sea-road-eu-rail
-- description: Prints package labels as PDF for bookings submitted through the DSV Booking API or myDSV, addressed by bookingId and GS1 SSCC package number.
-  name: DSV Label Print API
-  slug: dsv-label-print-api
-- description: Uploads documents against an existing DSV booking or shipment for air, sea, European road and rail traffic.
-  name: DSV Document Upload API
-  slug: dsv-document-upload-api
-- description: Downloads the documents DSV holds against a booking or shipment — proof of delivery, transport documents and customs paperwork — for air, sea, European road and rail traffic.
-  name: DSV Document Download API
-  slug: dsv-document-download-api
-- description: Retrieves freight invoice detail for DSV air, sea and rail shipments, including carrier SCAC, master and house bill of lading references and UN/LOCODE locations.
-  name: DSV Invoice API
-  slug: dsv-invoice-api
-- description: Returns live IoT device readings from DSV Visibility for air, sea, rail and XPress shipments, queried by search filter.
-  name: DSV Visibility API
-  slug: dsv-visibility-api
-- description: Requests freight quotations from DSV. Origin and destination are expressed as 5-character UN/LOCODEs for both ports and airports — the spec explicitly rejects IATA 3-letter airport codes — alongside I
+- description: Booking Api Service
+  name: DSV Booking API
+  slug: dsv-booking-api
+- description: The Bookings API from DSV — 8 operation(s) for bookings.
+  name: DSV Bookings API
+  slug: dsv-bookings-api
+- description: The BookingWebService API from DSV — 1 operation(s) for bookingwebservice.
+  name: DSV Booking Web Service API
+  slug: dsv-bookingwebservice-api
+- description: The BPO Inbound API from DSV — 3 operation(s) for bpo inbound.
+  name: DSV BPO Inbound API
+  slug: dsv-bpo-inbound-api
+- description: The Declarations API from DSV — 2 operation(s) for declarations.
+  name: DSV Declarations API
+  slug: dsv-declarations-api
+- description: The Delivery API from DSV — 1 operation(s) for delivery.
+  name: DSV Delivery API
+  slug: dsv-delivery-api
+- description: The Draft API from DSV — 4 operation(s) for draft.
+  name: DSV Draft API
+  slug: dsv-draft-api
+- description: The EDocs API from DSV — 5 operation(s) for edocs.
+  name: DSV E Docs API
+  slug: dsv-edocs-api
+- description: The Events API from DSV — 2 operation(s) for events.
+  name: DSV Events API
+  slug: dsv-events-api
+- description: The Inbound API from DSV — 1 operation(s) for inbound.
+  name: DSV Inbound API
+  slug: dsv-inbound-api
+- description: The Inventory API from DSV — 2 operation(s) for inventory.
+  name: DSV Inventory API
+  slug: dsv-inventory-api
+- description: The Invoices API from DSV — 5 operation(s) for invoices.
+  name: DSV Invoices API
+  slug: dsv-invoices-api
+- description: Printing API
+  name: DSV Label API
+  slug: dsv-label-api
+- description: The LoadPlans API from DSV — 7 operation(s) for loadplans.
+  name: DSV Load Plans API
+  slug: dsv-loadplans-api
+- description: The Orders API from DSV — 6 operation(s) for orders.
+  name: DSV Orders API
+  slug: dsv-orders-api
+- description: The OrdersAsync API from DSV — 1 operation(s) for ordersasync.
+  name: DSV Orders Async API
+  slug: dsv-ordersasync-api
+- description: The ProductData API from DSV — 1 operation(s) for productdata.
+  name: DSV Product Data API
+  slug: dsv-productdata-api
+- description: The Public API from DSV — 5 operation(s) for public.
+  name: DSV Public API
+  slug: dsv-public-api
+- description: The Quote API from DSV — 1 operation(s) for quote.
   name: DSV Quote API
   slug: dsv-quote-api
-- description: Subscription API for DSV push notifications covering the Invoice, Visibility, Quote, Tracking, Warehousing, Customs and Downtime events. The subscriber supplies a push URL (validated with an OPTIONS t
+- description: The Shipment API from DSV — 1 operation(s) for shipment.
+  name: DSV Shipment API
+  slug: dsv-shipment-api
+- description: The Shipment details API from DSV — 4 operation(s) for shipment details.
+  name: DSV Shipment details API
+  slug: dsv-shipment-details-api
+- description: The Shipment document API from DSV — 1 operation(s) for shipment document.
+  name: DSV Shipment document API
+  slug: dsv-shipment-document-api
+- description: The Shipment documents API from DSV — 3 operation(s) for shipment documents.
+  name: DSV Shipment documents API
+  slug: dsv-shipment-documents-api
+- description: The Shipment list API from DSV — 1 operation(s) for shipment list.
+  name: DSV Shipment list API
+  slug: dsv-shipment-list-api
+- description: The Shipments API from DSV — 1 operation(s) for shipments.
+  name: DSV Shipments API
+  slug: dsv-shipments-api
+- description: The Status API from DSV — 2 operation(s) for status.
+  name: DSV Status API
+  slug: dsv-status-api
+- description: The Token API from DSV — 1 operation(s) for token.
+  name: DSV Token API
+  slug: dsv-token-api
+- description: The Tracking API from DSV — 3 operation(s) for tracking.
+  name: DSV Tracking API
+  slug: dsv-tracking-api
+- description: The TrackingWebServiceV3 API from DSV — 1 operation(s) for trackingwebservicev3.
+  name: DSV Tracking Web Service V3 API
+  slug: dsv-trackingwebservicev3-api
+- description: The Upload attachment using Booking ID API from DSV — 1 operation(s) for upload attachment using booking id.
+  name: DSV Upload attachment using Booking ID API
+  slug: dsv-upload-attachment-using-booking-id-api
+- description: The Upload attachment using Shipment Id API from DSV — 1 operation(s) for upload attachment using shipment id.
+  name: DSV Upload attachment using Shipment Id API
+  slug: dsv-upload-attachment-using-shipment-id-api
+- description: The Webhook API from DSV — 3 operation(s) for webhook.
   name: DSV Webhook API
   slug: dsv-webhook-api
-- description: Integration-environment webhook subscription surface used for the Invoice and Visibility APIs and the Contract Logistics WMS events.
-  name: DSV Webhook API (INT / Warehousing)
-  slug: dsv-webhook-api-int-warehousing
-- description: Transmits, updates and retrieves customs declarations through DSV Customs AI. Fields follow customs-authority vocabulary — HS commodity codes, EORI/importer/exporter registration codes, Incoterms with
-  name: DSV Customs API
-  slug: dsv-customs-api
-- description: SOAP BookingWebService covering land, air and ocean (LCL/FCL) bookings. Inherited from the DB Schenker estate that DSV acquired in 2025 and fronted through the same Azure API Management gateway as the
-  name: DSV Connect Booking API (SOAP)
-  slug: dsv-connect-booking-api-soap
-- description: SOAP TrackingWebService, described in DSV's own API Management metadata as the 'DB Schenker Standard Tracking SOAP API' — the legacy tracking contract carried over from the Schenker acquisition and re
-  name: DSV Connect Tracking API (SOAP)
-  slug: dsv-connect-tracking-api-soap
-- description: Creates express/parcel shipments and retrieves package labels. Carries per-package air waybill numbers, underlying express carrier codes and carrier tracking numbers, plus ADR/IATA dangerous-goods pro
-  name: DSV XPress Booking API
-  slug: dsv-xpress-booking-api
-- description: Express/parcel track-and-trace. Shipments are addressable by DSV shipment id or by air waybill number (GET /shipments/awb/{awb}); responses carry the underlying express carrier's own tracking number a
-  name: DSV XPress Tracking API
-  slug: dsv-xpress-tracking-api
-- description: Compares services and rates for express/parcel shipments against the customer's agreed tariff, including ADR, ADR-LQ, IATA DGR and lithium-battery dangerous-goods service codes.
-  name: DSV XPress Quote API
-  slug: dsv-xpress-quote-api
-- description: Submits and updates purchase orders in DSV's Supply Chain Management (eDC) platform, the order-management layer that sits above the forwarding products. Order and shipment records carry carrier SCAC c
-  name: DSV SCM Orders API
-  slug: dsv-scm-orders-api
-- description: Creates and searches bookings in the DSV SCM (eDC) platform, including original/copy bill of lading counts, carrier SCAC and carrier contract numbers.
-  name: DSV SCM Booking API
-  slug: dsv-scm-booking-api
-- description: Searches shipments in the DSV SCM (eDC) platform by criteria, returning carrier, bill of lading and container detail.
-  name: DSV SCM Shipments API
-  slug: dsv-scm-shipments-api
-- description: Creates and manages load plans in the DSV SCM (eDC) platform across transport legs, each leg carrying carrier code, carrier SCAC and DSV's internal Dakosky carrier code.
-  name: DSV SCM Load Plan API
-  slug: dsv-scm-load-plan-api
-- description: Adds and retrieves electronic documents against SCM orders, bookings and shipments in the DSV eDC platform.
-  name: DSV SCM eDocs API
-  slug: dsv-scm-edocs-api
-- description: 'Writes milestone events into the DSV SCM (eDC) platform. Notably exposes POST /event/ServiceProvider so a third-party service provider — not only the account owner — can post events into DSV''s chain, '
-  name: DSV SCM Events API
-  slug: dsv-scm-events-api
-- description: Customer-specific eDC surface published for the NEOM programme, covering orders, containers, harmonised commodity codes and house bill of lading references.
-  name: DSV NEOM API (eDC)
-  slug: dsv-neom-api-edc
-- description: Creates and updates product master data records in DSV Contract Logistics warehouse management.
-  name: DSV WMS Product Data API
-  slug: dsv-wms-product-data-api
-- description: Creates and updates inbound (pre-advice) orders for DSV Contract Logistics warehouses, with GS1 SSCC pallet/carton codes and container numbers on the line items.
-  name: DSV WMS Inbound Notification API
-  slug: dsv-wms-inbound-notification-api
-- description: Creates and updates outbound delivery notification orders for DSV Contract Logistics warehouses.
-  name: DSV WMS Delivery Notification API
-  slug: dsv-wms-delivery-notification-api
-- description: Retrieves inventory positions from DSV Contract Logistics warehouses, per product id or as a full inventory request.
-  name: DSV WMS Inventory API
-  slug: dsv-wms-inventory-api
-- description: Returns the current status of a specific delivery or inbound order in DSV Contract Logistics warehouse management.
-  name: DSV WMS Order Status API
-  slug: dsv-wms-order-status-api
-artifact_total: 58
+artifact_total: 61
 collections:
 - collection_type: open
   name: Access Token (DEMO)
@@ -203,6 +212,10 @@ collections:
   name: Tracking - XPress
   slug: open-dsv-xpress-tracking-v2
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dsv-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -287,20 +300,25 @@ modified: '2026-07-30'
 name: DSV
 nav: Providers
 network: true
-overview: 'DSV publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Booking API (Air, Sea, Road EU, Rail), Tracking API (Air, Sea, Road EU, Rail), and 26 more. Tagged areas include Logistics, Supply Chain, Denmark, Freight Forwarding, and Air Cargo.
+overview: 'DSV publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Booking API, Bookings API, Booking Web Service API, and 29 more. Tagged areas include Logistics, Supply Chain, Denmark, Freight Forwarding, and Air Cargo.
 
 
-  DSV''s developer surface includes developer portal, documentation, API reference, signup flow, authentication, changelog, FAQ, and 12 more developer resources.'
+  DSV''s developer surface includes developer portal, documentation, API reference, signup flow, authentication, changelog, FAQ, and 13 more developer resources.'
 random_paper: 18
 score:
   band: thin
   composite: 38.7
-  delta: 0.6
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 54.0
+    contract_quality: 53.9
     developer_ergonomics: 47.6
     discoverability: 64.8
     governance: 0.0
@@ -311,15 +329,15 @@ score:
     reasons:
     - owner: catalog
       reason: not_a_repo
-  previous_composite: 38.1
+  previous_composite: 38.7
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dsv/refs/heads/main/screenshots/dsv-2026-08-07T164531.png
 slug: dsv

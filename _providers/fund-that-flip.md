@@ -23,14 +23,64 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: The FlipperForce Public API is the REST API behind Upright's (formerly Fund That Flip's) FlipperForce project management platform for real estate redevelopers. It exposes 50 operations across projects
-  name: FlipperForce Public API
-  slug: flipperforce-public-api
-artifact_total: 5
+- description: The Activity Log API from Fund That Flip — 2 operation(s) for activity log.
+  name: Fund That Flip Activity Log API
+  slug: fund-that-flip-activity-log-api
+- description: The Attachment Upload API from Fund That Flip — 1 operation(s) for attachment upload.
+  name: Fund That Flip Attachment Upload API
+  slug: fund-that-flip-attachment-upload-api
+- description: The Company API from Fund That Flip — 4 operation(s) for company.
+  name: Fund That Flip Company API
+  slug: fund-that-flip-company-api
+- description: 'The Company: Categories API from Fund That Flip — 3 operation(s) for company: categories.'
+  name: 'Fund That Flip Company: Categories API'
+  slug: fund-that-flip-company-categories-api
+- description: The Expense Accounts API from Fund That Flip — 3 operation(s) for expense accounts.
+  name: Fund That Flip Expense Accounts API
+  slug: fund-that-flip-expense-accounts-api
+- description: The Project API from Fund That Flip — 3 operation(s) for project.
+  name: Fund That Flip Project API
+  slug: fund-that-flip-project-api
+- description: 'The Project Expenses: Categories API from Fund That Flip — 1 operation(s) for project expenses: categories.'
+  name: 'Fund That Flip Project Expenses: Categories API'
+  slug: fund-that-flip-project-expenses-categories-api
+- description: 'The Project Expenses: Line Items API from Fund That Flip — 2 operation(s) for project expenses: line items.'
+  name: 'Fund That Flip Project Expenses: Line Items API'
+  slug: fund-that-flip-project-expenses-line-items-api
+- description: 'The Project Expenses: Transactions API from Fund That Flip — 3 operation(s) for project expenses: transactions.'
+  name: 'Fund That Flip Project Expenses: Transactions API'
+  slug: fund-that-flip-project-expenses-transactions-api
+- description: The Project Income API from Fund That Flip — 3 operation(s) for project income.
+  name: Fund That Flip Project Income API
+  slug: fund-that-flip-project-income-api
+- description: 'The Project Photo Log: Photos API from Fund That Flip — 3 operation(s) for project photo log: photos.'
+  name: 'Fund That Flip Project Photo Log: Photos API'
+  slug: fund-that-flip-project-photo-log-photos-api
+- description: The Project Receipts API from Fund That Flip — 3 operation(s) for project receipts.
+  name: Fund That Flip Project Receipts API
+  slug: fund-that-flip-project-receipts-api
+- description: The Project Updates API from Fund That Flip — 3 operation(s) for project updates.
+  name: Fund That Flip Project Updates API
+  slug: fund-that-flip-project-updates-api
+- description: 'The Project Updates: Photos API from Fund That Flip — 2 operation(s) for project updates: photos.'
+  name: 'Fund That Flip Project Updates: Photos API'
+  slug: fund-that-flip-project-updates-photos-api
+- description: The User API from Fund That Flip — 1 operation(s) for user.
+  name: Fund That Flip User API
+  slug: fund-that-flip-user-api
+artifact_total: 19
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fund-that-flip-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/fund-that-flip-flipperforce-public-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -147,10 +197,10 @@ modified: '2026-08-16'
 name: Fund That Flip
 nav: Providers
 network: true
-overview: 'Fund That Flip publishes 1 API on the [APIs.io](https://apis.io/) network: FlipperForce Public API. Tagged areas include Company, Real-Estate, Lending, Construction, and Project Management.
+overview: 'Fund That Flip publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Activity Log API, Attachment Upload API, Company API, and 12 more. Tagged areas include Company, Real-Estate, Lending, Construction, and Project Management.
 
 
-  Fund That Flip''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 20 more developer resources.'
+  Fund That Flip''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 22 more developer resources.'
 plans:
 - name: Fund That Flip Plans Pricing
   plan_count: 7
@@ -162,18 +212,23 @@ rate_limits:
   slug: fund-that-flip-rate-limits
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 51.4
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
-    contract_quality: 56.5
+    contract_governance: 4.5
+    contract_quality: 55.3
     developer_ergonomics: 58.9
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 52.4
+  previous_composite: 51.9
   provenance:
     conformance: derived
     contracts:
@@ -183,8 +238,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fund-that-flip/refs/heads/main/screenshots/fund-that-flip-2026-08-17T080937.png
 security:

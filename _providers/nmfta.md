@@ -23,28 +23,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
-- description: The Digital LTL Council's electronic bill of lading standard, version 2.1.0 — the council's first and most adopted contract. This is the standard's own specification, not any carrier's implementation.
-  name: DSDC LTL eBOL API
-  slug: nmfta-dsdc-ltl-ebol-api
-- description: Gives shippers, carriers and 3PLs visibility into freight charges as they evolve — reclassifications, reweighs and accessorial changes mid-shipment rather than weeks later on the invoice. The only LTL
-  name: DSDC LTL Preliminary Freight Charges API
-  slug: nmfta-dsdc-ltl-preliminary-freight-charges-api
-- description: The Digital FTL Council's electronic bill of lading standard. Published in the public repository as 1.0.0-public-preview while the DSDC website advertises 1.1.0 as released.
-  name: DSDC FTL eBOL API
-  slug: nmfta-dsdc-ftl-ebol-api
-- description: Full truckload rate and quote exchange between shippers, carriers and intermediaries. Published as 1.0.0-public-preview.
-  name: DSDC FTL Rate/Quote API
-  slug: nmfta-dsdc-ftl-rate-quote-api
-- description: Invoicing and supporting document exchange for full truckload movements. Published as 1.0.0-public-preview.
-  name: DSDC FTL Invoice and Documents API
-  slug: nmfta-dsdc-ftl-invoice-and-documents-api
-- description: Shipment status and location events while a full truckload movement is under way. Published as 1.0.0-public-preview; the LTL council's equivalent is still in development.
-  name: DSDC FTL In-Transit Visibility API
-  slug: nmfta-dsdc-ftl-in-transit-visibility-api
-artifact_total: 22
+- description: Standards for Carrier APIs
+  name: NMFTA Carrier API Standards API
+  slug: nmfta-carrier-api-standards-api
+- description: Endpoints for uploading, and managing supporting documents.
+  name: NMFTA Document Management API
+  slug: nmfta-document-management-api
+- description: Pull shipment events
+  name: NMFTA Events API
+  slug: nmfta-events-api
+- description: The In Transit Visibility API API from NMFTA — 0 operation(s) for in transit visibility api.
+  name: NMFTA In Transit Visibility API
+  slug: nmfta-in-transit-visibility-api-api
+- description: Endpoints for creating, retrieving, and managing invoices.
+  name: NMFTA Invoice Management API
+  slug: nmfta-invoice-management-api
+- description: Access freight charges information
+  name: NMFTA Preliminary Freight Charges API
+  slug: nmfta-preliminary-freight-charges-api
+- description: Standards for the FTL Rate Quote API
+  name: NMFTA Rate Quote API Standards API
+  slug: nmfta-rate-quote-api-standards-api
+- description: Manage webhook subscriptions
+  name: NMFTA Subscriptions API
+  slug: nmfta-subscriptions-api
+- description: Webhook management and testing
+  name: NMFTA Webhooks API
+  slug: nmfta-webhooks-api
+artifact_total: 25
 collections:
 - collection_type: open
   name: Electronic Bill Of Lading API
@@ -65,6 +74,10 @@ collections:
   name: Preliminary Freight Charges (PFC) API
   slug: open-nmfta-dsdc-ltl-preliminary-freight-charges
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nmfta-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -161,33 +174,41 @@ modified: '2026-08-03'
 name: NMFTA
 nav: Providers
 network: true
-overview: 'NMFTA publishes 6 APIs on the [APIs.io](https://apis.io/) network, including DSDC LTL eBOL API, DSDC LTL Preliminary Freight Charges API, DSDC FTL eBOL API, and 3 more. Tagged areas include API Standards, DSDC, Digital FTL Council, Digital LTL Council, and Freight.
+overview: 'NMFTA publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Carrier API Standards API, Document Management API, Events API, and 6 more. Tagged areas include API Standards, DSDC, Digital FTL Council, Digital LTL Council, and Freight.
 
 
-  NMFTA''s developer surface includes developer portal, product news, and 17 more developer resources.'
+  NMFTA''s developer surface includes developer portal, product news, and 18 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 22.4
-  delta: 1.9
+  composite: 24.2
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.8
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 47.2
+    contract_quality: 47.3
     developer_ergonomics: 19.0
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 20.5
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 22.4
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/screenshots/nmfta-2026-08-07T185355.png
 slug: nmfta

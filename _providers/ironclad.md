@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 98
   slug: ironclad-agentic-access
   summary_line: 98 operations · 53 acting
-api_count: 13
+api_count: 3
 apis:
 - description: The Ironclad Clickwrap (formerly PactSafe) API delivers programmatic clickwrap and browsewrap acceptance tracking for online agreements — terms of service, privacy policies, EULAs, and checkout-flow a
   name: Ironclad Clickwrap API
@@ -498,18 +498,23 @@ scopes:
   summary_line: 60 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 55.0
-  delta: 0.6
+  composite: 58.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 26.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 28.8
-    contract_quality: 71.6
+    contract_quality: 77.7
     developer_ergonomics: 47.6
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 57.9
-  previous_composite: 54.4
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     contracts:
@@ -517,8 +522,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/screenshots/ironclad-2026-06-20T183610.png
 security:
@@ -554,7 +559,7 @@ tags:
 - LegalOps
 - Enterprise
 - Workflows
-- E-Signature
+- eSignature
 - Clickwrap
 - Artificial Intelligence
 - Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 3
   slug: rxnt-agentic-access
   summary_line: 3 operations · 3 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Obtain a time-limited token and signature.
   name: RXNT Authentication API
@@ -105,7 +105,7 @@ modified: '2026-07-04'
 name: RXNT
 nav: Providers
 network: true
-overview: 'RXNT publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Clinical Data API. Tagged areas include Healthcare, EHR, e-Prescribing, Clinical Data, and ONC Certified.
+overview: 'RXNT publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Clinical Data API. Tagged areas include Healthcare, EHR, E-Prescribing, Clinical Data, and ONC Certified.
 
 
   RXNT''s developer surface includes documentation, pricing, engineering blog, and 6 more developer resources.'
@@ -117,7 +117,12 @@ random_paper: 19
 score:
   band: emerging
   composite: 20.9
-  delta: 1.4
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -127,7 +132,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 19.5
+  previous_composite: 20.9
   provenance:
     agentic_access: derived
     contracts:
@@ -141,8 +146,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security
@@ -153,7 +158,7 @@ slug: rxnt
 tags:
 - Healthcare
 - EHR
-- e-Prescribing
+- E-Prescribing
 - Clinical Data
 - ONC Certified
 - CCDS

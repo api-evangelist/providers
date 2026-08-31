@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -43,87 +43,99 @@ agentic_access:
   operation_count: 77
   slug: beehiiv-agentic-access
   summary_line: 77 operations · 32 acting
-api_count: 26
+api_count: 5
 apis:
-- description: The subpackage_advertisement_opportunities API from beehiiv — 1 operation(s) for subpackage_advertisement_opportunities.
-  name: beehiiv subpackage_advertisement_opportunities API
-  slug: beehiiv-subpackage-advertisement-opportunities-api
-- description: The subpackage_authors API from beehiiv — 2 operation(s) for subpackage_authors.
-  name: beehiiv subpackage_authors API
-  slug: beehiiv-subpackage-authors-api
-- description: The subpackage_automationJourneys API from beehiiv — 2 operation(s) for subpackage_automationjourneys.
-  name: beehiiv subpackage_automationJourneys API
-  slug: beehiiv-subpackage-automationjourneys-api
-- description: The subpackage_automations API from beehiiv — 3 operation(s) for subpackage_automations.
-  name: beehiiv subpackage_automations API
-  slug: beehiiv-subpackage-automations-api
-- description: The subpackage_bulk_subscriptions API from beehiiv — 1 operation(s) for subpackage_bulk_subscriptions.
-  name: beehiiv subpackage_bulk_subscriptions API
-  slug: beehiiv-subpackage-bulk-subscriptions-api
-- description: The subpackage_bulkSubscriptionUpdates API from beehiiv — 4 operation(s) for subpackage_bulksubscriptionupdates.
-  name: beehiiv subpackage_bulkSubscriptionUpdates API
-  slug: beehiiv-subpackage-bulksubscriptionupdates-api
-- description: The subpackage_conditionSets API from beehiiv — 2 operation(s) for subpackage_conditionsets.
-  name: beehiiv subpackage_conditionSets API
-  slug: beehiiv-subpackage-conditionsets-api
-- description: The subpackage_customFields API from beehiiv — 2 operation(s) for subpackage_customfields.
-  name: beehiiv subpackage_customFields API
-  slug: beehiiv-subpackage-customfields-api
-- description: The subpackage_dataDeletion API from beehiiv — 2 operation(s) for subpackage_datadeletion.
-  name: beehiiv subpackage_dataDeletion API
-  slug: beehiiv-subpackage-datadeletion-api
-- description: The subpackage_engagements API from beehiiv — 1 operation(s) for subpackage_engagements.
-  name: beehiiv subpackage_engagements API
-  slug: beehiiv-subpackage-engagements-api
-- description: The subpackage_newsletterLists API from beehiiv — 2 operation(s) for subpackage_newsletterlists.
-  name: beehiiv subpackage_newsletterLists API
-  slug: beehiiv-subpackage-newsletterlists-api
-- description: The subpackage_newsletterListSubscriptions API from beehiiv — 3 operation(s) for subpackage_newsletterlistsubscriptions.
-  name: beehiiv subpackage_newsletterListSubscriptions API
-  slug: beehiiv-subpackage-newsletterlistsubscriptions-api
-- description: The subpackage_oauth_users API from beehiiv — 1 operation(s) for subpackage_oauth_users.
-  name: beehiiv subpackage_oauth_users API
-  slug: beehiiv-subpackage-oauth-users-api
-- description: The subpackage_polls API from beehiiv — 3 operation(s) for subpackage_polls.
-  name: beehiiv subpackage_polls API
-  slug: beehiiv-subpackage-polls-api
-- description: The subpackage_posts API from beehiiv — 3 operation(s) for subpackage_posts.
-  name: beehiiv subpackage_posts API
-  slug: beehiiv-subpackage-posts-api
-- description: The subpackage_postTemplates API from beehiiv — 1 operation(s) for subpackage_posttemplates.
-  name: beehiiv subpackage_postTemplates API
-  slug: beehiiv-subpackage-posttemplates-api
-- description: The subpackage_publications API from beehiiv — 2 operation(s) for subpackage_publications.
-  name: beehiiv subpackage_publications API
-  slug: beehiiv-subpackage-publications-api
-- description: The subpackage_referralProgram API from beehiiv — 1 operation(s) for subpackage_referralprogram.
-  name: beehiiv subpackage_referralProgram API
-  slug: beehiiv-subpackage-referralprogram-api
-- description: The subpackage_segments API from beehiiv — 5 operation(s) for subpackage_segments.
-  name: beehiiv subpackage_segments API
-  slug: beehiiv-subpackage-segments-api
-- description: The subpackage_subscriptions API from beehiiv — 3 operation(s) for subpackage_subscriptions.
-  name: beehiiv subpackage_subscriptions API
-  slug: beehiiv-subpackage-subscriptions-api
-- description: The subpackage_subscriptionTags API from beehiiv — 1 operation(s) for subpackage_subscriptiontags.
-  name: beehiiv subpackage_subscriptionTags API
-  slug: beehiiv-subpackage-subscriptiontags-api
-- description: The subpackage_tiers API from beehiiv — 2 operation(s) for subpackage_tiers.
-  name: beehiiv subpackage_tiers API
-  slug: beehiiv-subpackage-tiers-api
-- description: The subpackage_webhooks API from beehiiv — 2 operation(s) for subpackage_webhooks.
-  name: beehiiv subpackage_webhooks API
-  slug: beehiiv-subpackage-webhooks-api
-- description: The subpackage_workspaces API from beehiiv — 2 operation(s) for subpackage_workspaces.
-  name: beehiiv subpackage_workspaces API
-  slug: beehiiv-subpackage-workspaces-api
-- description: The beehiiv OAuth2 authorization surface — authorization-code flow with PKCE, plus token creation, refresh, revocation, introspection and token-info endpoints. Published by beehiiv as a separate OpenA
-  name: beehiiv OAuth2 API
-  slug: beehiiv-oauth2-api
-- description: 'The beehiiv outbound webhook event surface, published by beehiiv as an OpenAPI 3.1 document using the webhooks object — 22 event types across Subscription, Post, Newsletter List Subscription, Podcast '
-  name: beehiiv Webhook Events
-  slug: beehiiv-webhook-events-api
-artifact_total: 93
+- description: The Authorizations API from beehiiv — 1 operation(s) for authorizations.
+  name: beehiiv Authorizations API
+  slug: beehiiv-authorizations-api
+- description: The Tokens API from beehiiv — 4 operation(s) for tokens.
+  name: beehiiv Tokens API
+  slug: beehiiv-tokens-api
+- description: The Webhooks API from beehiiv — 0 operation(s) for webhooks.
+  name: beehiiv Webhooks API
+  slug: beehiiv-webhooks-api
+- description: The Ad Network Offers API from beehiiv — 2 operation(s) for ad network offers.
+  name: beehiiv Ad Network Offers API
+  slug: beehiiv-ad-network-offers-api
+- description: The Ad Network Reports API from beehiiv — 3 operation(s) for ad network reports.
+  name: beehiiv Ad Network Reports API
+  slug: beehiiv-ad-network-reports-api
+- description: The Advertisement Opportunities API from beehiiv — 1 operation(s) for advertisement opportunities.
+  name: beehiiv Advertisement Opportunities API
+  slug: beehiiv-advertisement-opportunities-api
+- description: The Authors API from beehiiv — 2 operation(s) for authors.
+  name: beehiiv Authors API
+  slug: beehiiv-authors-api
+- description: The Automation Journeys API from beehiiv — 2 operation(s) for automation journeys.
+  name: beehiiv Automation Journeys API
+  slug: beehiiv-automation-journeys-api
+- description: The Automations API from beehiiv — 3 operation(s) for automations.
+  name: beehiiv Automations API
+  slug: beehiiv-automations-api
+- description: The Bulk Subscription Updates API from beehiiv — 4 operation(s) for bulk subscription updates.
+  name: beehiiv Bulk Subscription Updates API
+  slug: beehiiv-bulk-subscription-updates-api
+- description: The Bulk Subscriptions API from beehiiv — 1 operation(s) for bulk subscriptions.
+  name: beehiiv Bulk Subscriptions API
+  slug: beehiiv-bulk-subscriptions-api
+- description: The Complimentary Access API from beehiiv — 2 operation(s) for complimentary access.
+  name: beehiiv Complimentary Access API
+  slug: beehiiv-complimentary-access-api
+- description: The Condition Sets API from beehiiv — 2 operation(s) for condition sets.
+  name: beehiiv Condition Sets API
+  slug: beehiiv-condition-sets-api
+- description: The Custom Fields API from beehiiv — 2 operation(s) for custom fields.
+  name: beehiiv Custom Fields API
+  slug: beehiiv-custom-fields-api
+- description: The Data Deletion API from beehiiv — 2 operation(s) for data deletion.
+  name: beehiiv Data Deletion API
+  slug: beehiiv-data-deletion-api
+- description: The engagements API from beehiiv — 1 operation(s) for engagements.
+  name: beehiiv Engagements API
+  slug: beehiiv-engagements-api
+- description: The Newsletter List Subscriptions API from beehiiv — 3 operation(s) for newsletter list subscriptions.
+  name: beehiiv Newsletter List Subscriptions API
+  slug: beehiiv-newsletter-list-subscriptions-api
+- description: The Newsletter Lists API from beehiiv — 2 operation(s) for newsletter lists.
+  name: beehiiv Newsletter Lists API
+  slug: beehiiv-newsletter-lists-api
+- description: The oauth_users API from beehiiv — 1 operation(s) for oauth_users.
+  name: beehiiv OAUTH Users API
+  slug: beehiiv-oauth-users-api
+- description: The podcasts API from beehiiv — 4 operation(s) for podcasts.
+  name: beehiiv Podcasts API
+  slug: beehiiv-podcasts-api
+- description: The Polls API from beehiiv — 3 operation(s) for polls.
+  name: beehiiv Polls API
+  slug: beehiiv-polls-api
+- description: The Post Templates API from beehiiv — 1 operation(s) for post templates.
+  name: beehiiv Post Templates API
+  slug: beehiiv-post-templates-api
+- description: The Posts API from beehiiv — 5 operation(s) for posts.
+  name: beehiiv Posts API
+  slug: beehiiv-posts-api
+- description: The Publications API from beehiiv — 2 operation(s) for publications.
+  name: beehiiv Publications API
+  slug: beehiiv-publications-api
+- description: The Referral Program API from beehiiv — 1 operation(s) for referral program.
+  name: beehiiv Referral Program API
+  slug: beehiiv-referral-program-api
+- description: The Segments API from beehiiv — 5 operation(s) for segments.
+  name: beehiiv Segments API
+  slug: beehiiv-segments-api
+- description: The Subscription Tags API from beehiiv — 1 operation(s) for subscription tags.
+  name: beehiiv Subscription Tags API
+  slug: beehiiv-subscription-tags-api
+- description: The Subscriptions API from beehiiv — 3 operation(s) for subscriptions.
+  name: beehiiv Subscriptions API
+  slug: beehiiv-subscriptions-api
+- description: The Tiers API from beehiiv — 2 operation(s) for tiers.
+  name: beehiiv Tiers API
+  slug: beehiiv-tiers-api
+- description: The workspaces API from beehiiv — 3 operation(s) for workspaces.
+  name: beehiiv Workspaces API
+  slug: beehiiv-workspaces-api
+artifact_total: 97
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the beehiiv outbound webhook surface. beehiiv posts JSON event payloads to a customer-configured endpoint URL when selected events occur on a publication. The set of event '
   name: beehiiv Webhooks
@@ -280,6 +292,10 @@ collections:
   name: API Reference
   slug: open-beehiiv
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/beehiiv-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -514,13 +530,13 @@ modified: '2026-08-13'
 name: beehiiv
 nav: Providers
 network: true
-overview: 'beehiiv publishes 26 APIs on the [APIs.io](https://apis.io/) network, including subpackage_advertisement_opportunities API, subpackage_authors API, subpackage_automationJourneys API, and 23 more. Tagged areas include Newsletter, Creator, Email, Subscription, and Publishing.
+overview: 'beehiiv publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Authorizations API, Tokens API, Webhooks API, and 27 more. Tagged areas include Newsletter, Creator, Email, Subscription, and Publishing.
 
 
   The beehiiv catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  beehiiv''s developer surface includes authentication, pricing, documentation, API reference, getting-started guide, support, engineering blog, and 43 more developer resources.'
+  beehiiv''s developer surface includes authentication, pricing, documentation, API reference, getting-started guide, support, engineering blog, and 44 more developer resources.'
 plans:
 - name: Beehiiv Plans Pricing
   plan_count: 4
@@ -559,18 +575,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 73.3
+  composite: 71.0
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 35.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 43.9
-    contract_quality: 71.5
+    contract_governance: 31.8
+    contract_quality: 72.3
     developer_ergonomics: 71.4
-    discoverability: 87.0
-    governance: 43.9
+    discoverability: 75.9
+    governance: 31.8
     operational_transparency: 55.3
-  previous_composite: 73.3
+  previous_composite: 71.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -581,8 +602,8 @@ score:
       total: 26
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beehiiv/refs/heads/main/screenshots/beehiiv-2026-06-20T173135.png
 security:

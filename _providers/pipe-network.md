@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Content-addressed decentralized object storage on Solana. Create users, upload/download files, resolve deterministic public URLs, and manage prepaid USDC credits. Auth is SIWS (Sign In With Solana -> '
@@ -41,6 +41,10 @@ apis:
   slug: pipe-storage-firestarter-api
 artifact_total: 4
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/PipeNetwork/lib-storage/issues
 - group: commercial
   title: ''
   type: License
@@ -144,11 +148,16 @@ network: true
 overview: 'Pipe Network publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Storage, Decentralized Storage, and Content Delivery Network.
 
 
-  Pipe Network''s developer surface includes documentation, API reference, CLI, authentication, changelog, and 17 more developer resources.'
+  Pipe Network''s developer surface includes documentation, API reference, CLI, authentication, changelog, and 18 more developer resources.'
 random_paper: 14
 score:
   band: emerging
-  composite: 18.7
+  composite: 17.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -156,16 +165,19 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 44.6
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 18.7
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 17.5
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

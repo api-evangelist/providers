@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: united-states-national-library-of-medicine-agentic-access
   summary_line: 17 operations · 1 acting
-api_count: 10
+api_count: 4
 apis:
 - description: BLAST sequence search submission and retrieval
   name: United States National Library of Medicine BLAST API
@@ -122,6 +122,22 @@ collections:
   name: NCBI URL BLAST Taxonomy API
   slug: open-united-states-national-library-of-medicine-taxonomy-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/united-states-national-library-of-medicine-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/ncbi/datasets/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/ncbi/datasets/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/ncbi/datasets/blob/master/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -186,7 +202,7 @@ overview: 'United States National Library of Medicine publishes 10 APIs on the [
   The United States National Library of Medicine catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  United States National Library of Medicine''s developer surface includes authentication, developer portal, and 3 more developer resources.'
+  United States National Library of Medicine''s developer surface includes authentication, developer portal, and 7 more developer resources.'
 plans:
 - name: United States National Library Of Medicine Plans Pricing
   plan_count: 3
@@ -218,19 +234,27 @@ rules:
     warn: 3
   slug: united-states-national-library-of-medicine-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 37.7
-  delta: 2.6
+  band: developing
+  composite: 40.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 45.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 39.4
-    contract_quality: 56.5
+    contract_quality: 56.9
     developer_ergonomics: 31.0
     discoverability: 74.1
     governance: 39.4
-    operational_transparency: 13.2
-  previous_composite: 35.1
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -244,8 +268,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/screenshots/united-states-national-library-of-medicine-2026-06-20T200054.png
 security:

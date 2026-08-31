@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,14 +45,32 @@ agentic_access:
   summary_line: 11 operations · 1 acting
 api_count: 1
 apis:
-- description: The corporate search service behind knightfrank.com and knightfrank.co.uk, titled "KnightFrank Api v3" by its own OpenAPI document. It exposes 11 operations across seven tags — CMSPage, IntelligenceLa
-  name: KnightFrank Api v3
-  slug: knight-frank-api-v3
+- description: The CMSPage API from Knight Frank — 1 operation(s) for cmspage.
+  name: Knight Frank CMS Page API
+  slug: knight-frank-cmspage-api
+- description: The IntelligenceLab API from Knight Frank — 2 operation(s) for intelligencelab.
+  name: Knight Frank Intelligence Lab API
+  slug: knight-frank-intelligencelab-api
+- description: The Office API from Knight Frank — 2 operation(s) for office.
+  name: Knight Frank Office API
+  slug: knight-frank-office-api
+- description: The Person API from Knight Frank — 3 operation(s) for person.
+  name: Knight Frank Person API
+  slug: knight-frank-person-api
+- description: The Search API from Knight Frank — 1 operation(s) for search.
+  name: Knight Frank Search API
+  slug: knight-frank-search-api
+- description: The ServiceLine API from Knight Frank — 1 operation(s) for serviceline.
+  name: Knight Frank Service Line API
+  slug: knight-frank-serviceline-api
+- description: The Telemetry API from Knight Frank — 1 operation(s) for telemetry.
+  name: Knight Frank Telemetry API
+  slug: knight-frank-telemetry-api
 arazzos:
 - description: Search the Knight Frank office directory, then fetch the full record for the best-matching office.
   name: Knight Frank office lookup
   slug: knight-frank-office-lookup
-artifact_total: 8
+artifact_total: 14
 collections:
 - collection_type: open
   name: KnightFrank Api v3
@@ -196,7 +214,7 @@ modified: '2026-07-26'
 name: Knight Frank
 nav: Providers
 network: true
-overview: 'Knight Frank publishes 1 API on the [APIs.io](https://apis.io/) network: KnightFrank Api v3. Tagged areas include Real-Estate, United Kingdom, Property Listings, Commercial Real Estate, and Valuation.
+overview: 'Knight Frank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including CMS Page API, Intelligence Lab API, Office API, and 4 more. Tagged areas include Real-Estate, United Kingdom, Property Listings, Commercial Real Estate, and Valuation.
 
 
   Knight Frank''s developer surface includes authentication, support, engineering blog, and 28 more developer resources.'
@@ -208,18 +226,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 30.6
-  delta: 1.5
+  composite: 28.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 29.3
     developer_ergonomics: 28.0
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 29.1
+  previous_composite: 28.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,8 +259,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/screenshots/knight-frank-2026-08-07T171255.png
 security:

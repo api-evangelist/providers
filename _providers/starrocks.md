@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: 'Stream Load is a synchronous HTTP-based ingestion API. Clients PUT a CSV or JSON payload to /api/{db}/{table}/_stream_load with HTTP Basic authentication and headers like `label`, `column_separator`, '
@@ -47,6 +47,26 @@ apis:
   slug: starrocks-mysql-protocol
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/StarRocks/starrocks/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/StarRocks/starrocks/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/StarRocks/starrocks/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/StarRocks/starrocks/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/StarRocks/starrocks/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -110,7 +130,7 @@ network: true
 overview: 'StarRocks publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include OLAP, Lakehouse, SQL, Open-Source, and Real-Time Analytics.
 
 
-  StarRocks'' developer surface includes developer portal, engineering blog, and 10 more developer resources.'
+  StarRocks'' developer surface includes developer portal, engineering blog, and 15 more developer resources.'
 plans:
 - name: Starrocks Plans Pricing
   plan_count: 3
@@ -121,9 +141,14 @@ rate_limits:
   name: Starrocks Rate Limits
   slug: starrocks-rate-limits
 score:
-  band: emerging
-  composite: 19.7
-  delta: 4.3
+  band: thin
+  composite: 30.8
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -132,10 +157,13 @@ score:
     developer_ergonomics: 33.3
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 13.2
-  previous_composite: 15.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 30.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starrocks/refs/heads/main/screenshots/starrocks-2026-06-20T194511.png
 security:

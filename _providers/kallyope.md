@@ -23,18 +23,45 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 6
 apis:
-- description: Anonymous, read-only REST surface behind kallyope.com. Kallyope runs WordPress and exposes the WordPress REST API publicly at https://kallyope.com/wp-json with 326 registered routes across 14 namespac
-  name: Kallyope Content REST API
-  slug: content-api
-artifact_total: 6
+- description: Site-wide search and the registered post-type / taxonomy indexes.
+  name: Kallyope Discovery API
+  slug: kallyope-discovery-api
+- description: Kallyope's first-party library of scientific posters, presentations, publications and video.
+  name: Kallyope Documents API
+  slug: kallyope-documents-api
+- description: The uploaded media library backing documents and pages.
+  name: Kallyope Media API
+  slug: kallyope-media-api
+- description: Company news and press-release posts.
+  name: Kallyope News API
+  slug: kallyope-news-api
+- description: Site pages (about, pipeline, platform, partnering, careers, contact).
+  name: Kallyope Pages API
+  slug: kallyope-pages-api
+- description: The first-party program / event / content-type / document-type classifications applied to documents.
+  name: Kallyope Taxonomies API
+  slug: kallyope-taxonomies-api
+artifact_total: 11
 collections:
 - collection_type: open
   name: Kallyope Content REST API (derived)
   slug: open-kallyope-content-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kallyope-content-api-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/kallyope-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -83,10 +110,6 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/kallyope-organization.jsonld
-- group: company
-  title: ''
-  type: Website
-  url: https://forgeglobal.com/kallyope_stock/
 created: '2026-08-01'
 description: 'Kallyope, Inc. is a New York City clinical-stage biotechnology company, founded in 2015 by Columbia University scientists Charles Zuker, Tom Maniatis and Richard Axel, that translates the biology of the gut-brain axis into medicines. It launched with a $44M Series A and has since raised a $66M Series B, a $112M Series C and a $236M Series D co-led by Mubadala Investment Company and The Column Group, with backers including Bill Gates, Lux Capital, Polaris Partners, Casdin Capital and Alexandria Real Estate Equities. Its proprietary Klarity platform integrates single-cell sequencing, pathway circuit mapping, optogenetics and chemogenetics, proprietary human genetics, mouse and human organoid systems, and small-molecule and peptide chemistry to map the neural circuits underlying migraine and metabolism; lead candidate elismetrep, a TRPM8 blocker, is in Phase 3 development for acute migraine. Kallyope publishes no developer portal, API reference, SDKs, CLI, status page or public
   GitHub organization, and no OpenAPI, AsyncAPI, GraphQL, MCP or A2A agent-card surface was found on any host. Enrichment probing did find one real, anonymous, read-only REST surface: kallyope.com runs WordPress and exposes the WordPress REST API publicly at https://kallyope.com/wp-json, carrying the company news feed, site pages, media library and a first-party "document" content type of scientific posters, presentations and publications classified by the custom program, event, content-type and document-type taxonomies.'
@@ -105,26 +128,31 @@ modified: '2026-08-01'
 name: Kallyope
 nav: Providers
 network: true
-overview: 'Kallyope publishes 1 API on the [APIs.io](https://apis.io/) network: Content REST API. Tagged areas include Company, Biotechnology, Life Sciences, Pharmaceuticals, and Drug Discovery.
+overview: 'Kallyope publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Documents API, Media API, and 3 more. Tagged areas include Company, Biotechnology, Life Sciences, Pharmaceuticals, and Drug Discovery.
 
 
   The Kallyope catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Kallyope''s developer surface includes engineering blog, support, and 11 more developer resources.'
+  Kallyope''s developer surface includes engineering blog, support, and 13 more developer resources.'
 random_paper: 4
 score:
   band: emerging
-  composite: 17.2
-  delta: 3.8
+  composite: 16.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 55.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
-    contract_quality: 15.3
+    contract_governance: 4.5
+    contract_quality: 15.6
     developer_ergonomics: 20.8
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 74.1
+    governance: 4.5
     operational_transparency: 0.0
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -132,7 +160,7 @@ score:
     reasons:
     - owner: catalog
       reason: venue_as_website
-  previous_composite: 13.4
+  previous_composite: 16.4
   provenance:
     conformance: derived
     contracts:
@@ -148,8 +176,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kallyope/refs/heads/main/screenshots/kallyope-2026-08-07T171056.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 117
   slug: prewave-agentic-access
   summary_line: 117 operations · 46 acting · 2 human-in-the-loop
-api_count: 25
+api_count: 1
 apis:
 - description: 🆕 NEW - Retrieve actions (tasks/work items), action types, and action statuses for supplier relationships, compliance reviews, and operational activities. Available from February 2026.
   name: Prewave Actions API
@@ -208,6 +208,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/prewave-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/prewave-openapi-overlay.yaml
 - group: company
@@ -322,25 +326,30 @@ modified: '2026-07-20'
 name: Prewave
 nav: Providers
 network: true
-overview: 'Prewave publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Alerts API, Collections - Management API, and 22 more. Tagged areas include Company, Software-as-a-Service, Supply Chain, Risk Intelligence, and Sustainability.
+overview: 'Prewave publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Alerts API, Collections - Management API, and 22 more. Tagged areas include Company, Saas, Supply Chain, Risk Intelligence, and Sustainability.
 
 
-  Prewave''s developer surface includes documentation, API reference, engineering blog, changelog, authentication, and 21 more developer resources.'
+  Prewave''s developer surface includes documentation, API reference, engineering blog, changelog, authentication, and 22 more developer resources.'
 random_paper: 6
 score:
   band: developing
-  composite: 42.4
-  delta: 0.0
+  composite: 40.4
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 58.5
     developer_ergonomics: 42.3
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 42.4
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -351,8 +360,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prewave/refs/heads/main/screenshots/prewave-2026-08-17T081335.png
 security:
@@ -371,7 +380,7 @@ security:
 slug: prewave
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Supply Chain
 - Risk Intelligence
 - Sustainability

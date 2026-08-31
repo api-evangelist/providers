@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 8
   slug: minubo-agentic-access
   summary_line: 8 operations · 3 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Auth endpoints
   name: Minubo Auth API
@@ -74,6 +74,10 @@ collections:
   name: Minubo Auth ETL API
   slug: open-minubo-etl-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/minubo-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -197,7 +201,7 @@ network: true
 overview: 'Minubo publishes 3 APIs on the [APIs.io](https://apis.io/) network: Auth API, Data API, and ETL API. Tagged areas include Company, E-Commerce, Business Intelligence, Analytics, and Retail.
 
 
-  Minubo''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 20 more developer resources.'
+  Minubo''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 21 more developer resources.'
 random_paper: 20
 rate_limits:
 - limit_count: 1
@@ -205,18 +209,23 @@ rate_limits:
   slug: minubo-rate-limits
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 47.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 53.5
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 49.0
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -227,8 +236,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/screenshots/minubo-2026-08-07T173004.png
 security:

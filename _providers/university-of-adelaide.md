@@ -1,153 +1,146 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free · Open repository and harvesting endpoints · no signup
+  onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
-  - authentication
+  - probed
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 81
-  human_in_the_loop: 2
-  name: University Of Adelaide Agentic Access
-  operation_count: 157
-  slug: university-of-adelaide-agentic-access
-  summary_line: 157 operations · 81 acting · 2 human-in-the-loop
-api_count: 12
+  score: 6.3
+  scored_at: '2026-08-30'
+api_count: 5
 apis:
-- description: DSpace 7.6.1 REST (HAL/JSON) API for the University of Adelaide institutional repository "Adelaide Research & Scholarship", exposing communities, collections, items, and bitstreams for theses, article
+- description: DSpace 7.6.1 HAL/JSON REST API for the University of Adelaide institutional repository "Adelaide Research & Scholarship", exposing communities, collections, items, bundles, bitstreams, discovery searc
   name: Adelaide Research & Scholarship REST API
   slug: dspace-rest
-- description: OAI-PMH 2.0 metadata harvesting endpoint for the "Adelaide Research & Scholarship" DSpace repository. Confirmed live; the Identify response reports repository name "Adelaide Research & Scholarship" wi
+- description: 'OAI-PMH 2.0 metadata harvesting endpoint for the "Adelaide Research & Scholarship" repository, on the same institution-operated host. Confirmed live 2026-08-30: Identify returns repositoryName "Adelai'
   name: Adelaide Research & Scholarship OAI-PMH
   slug: dspace-oai-pmh
-- description: The altmetric API from University of Adelaide — 1 operation(s) for altmetric.
-  name: University of Adelaide altmetric API
-  slug: university-of-adelaide-altmetric-api
-- description: The articles API from University of Adelaide — 34 operation(s) for articles.
-  name: University of Adelaide articles API
-  slug: university-of-adelaide-articles-api
-- description: The authors API from University of Adelaide — 2 operation(s) for authors.
-  name: University of Adelaide authors API
-  slug: university-of-adelaide-authors-api
-- description: The collections API from University of Adelaide — 21 operation(s) for collections.
-  name: University of Adelaide collections API
-  slug: university-of-adelaide-collections-api
-- description: The institutions API from University of Adelaide — 20 operation(s) for institutions.
-  name: University of Adelaide institutions API
-  slug: university-of-adelaide-institutions-api
-- description: The oauth API from University of Adelaide — 1 operation(s) for oauth.
-  name: University of Adelaide oauth API
-  slug: university-of-adelaide-oauth-api
-- description: The other API from University of Adelaide — 7 operation(s) for other.
-  name: University of Adelaide other API
-  slug: university-of-adelaide-other-api
-- description: The profiles API from University of Adelaide — 2 operation(s) for profiles.
-  name: University of Adelaide profiles API
-  slug: university-of-adelaide-profiles-api
-- description: The projects API from University of Adelaide — 17 operation(s) for projects.
-  name: University of Adelaide projects API
-  slug: university-of-adelaide-projects-api
-- description: The symplectic API from University of Adelaide — 5 operation(s) for symplectic.
-  name: University of Adelaide symplectic API
-  slug: university-of-adelaide-symplectic-api
-artifact_total: 37
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Figshare altmetric API
-  slug: open-university-of-adelaide-altmetric-api
-- collection_type: open
-  name: Figshare altmetric articles API
-  slug: open-university-of-adelaide-articles-api
-- collection_type: open
-  name: Figshare altmetric authors API
-  slug: open-university-of-adelaide-authors-api
-- collection_type: open
-  name: Figshare altmetric collections API
-  slug: open-university-of-adelaide-collections-api
-- collection_type: open
-  name: Figshare altmetric institutions API
-  slug: open-university-of-adelaide-institutions-api
-- collection_type: open
-  name: Figshare altmetric oauth API
-  slug: open-university-of-adelaide-oauth-api
-- collection_type: open
-  name: Figshare altmetric other API
-  slug: open-university-of-adelaide-other-api
-- collection_type: open
-  name: Figshare altmetric profiles API
-  slug: open-university-of-adelaide-profiles-api
-- collection_type: open
-  name: Figshare altmetric projects API
-  slug: open-university-of-adelaide-projects-api
-- collection_type: open
-  name: Figshare altmetric symplectic API
-  slug: open-university-of-adelaide-symplectic-api
+- description: 'The institution''s own Shibboleth SAML 2.0 Identity Provider, serving machine-readable EntityDescriptor metadata from its own host. Confirmed live 2026-08-30: entityID urn:mace:federation.org.au:testfe'
+  name: Adelaide University Shibboleth Identity Provider (SAML 2.0)
+  slug: saml-idp
+- description: The University's research-data repository runs on Figshare at the institution-specific host adelaide.figshare.com. The DATA, the DOIs and the curation are Adelaide's; the CONTRACT, the object model an
+  name: Adelaide Figshare Research Data Repository — Adelaide tenancy
+  slug: figshare-tenancy
+- description: The University's LMS runs on Instructure Canvas at myuni.adelaide.edu.au. The tenancy, roster and course content are Adelaide's; the API contract is Instructure's. It is recorded because it carries th
+  name: MyUni Learning Management System (Instructure Canvas) — Adelaide tenancy
+  slug: myuni-canvas
+artifact_total: 11
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/university-of-adelaide-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/university-of-adelaide-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/university-of-adelaide-authentication.yml
-- group: auth
-  title: ''
-  type: OAuthScopes
-  url: scopes/university-of-adelaide-scopes.yml
 - group: company
   title: ''
   type: Website
-  url: https://www.adelaide.edu.au/
+  url: https://adelaide.edu.au/
 - group: build
   title: ''
-  type: GitHub
+  type: GitHubOrganization
   url: https://github.com/universityofadelaide
 - group: company
   title: ''
   type: LinkedIn
   url: https://au.linkedin.com/school/uniofadelaide/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://digital.library.adelaide.edu.au/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://adelaide.figshare.com/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://adelaide.edu.au/library/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://adelaide.edu.au/study/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://au-idp.adelaide.edu.au/idp/shibboleth
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://md.aaf.edu.au/aaf-metadata.xml
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://adelaide.edu.au/about/support/technology/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://adelaide.edu.au/about/policies/academic-integrity-policy/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://adelaide.edu.au/about/policies/cyber-security-policy/
+- group: build
+  title: ''
+  type: AITooling
+  url: https://app.chatmate.adelaide.edu.au/
 - group: auth
   title: ''
   type: Authentication
-  url: https://login.adelaide.edu.au/
+  url: https://login.adelaide.edu.au/cas/login
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/university-of-adelaide-authentication.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/university-of-adelaide-education-standards.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/university-of-adelaide-vocabulary.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/university-of-adelaide-examples.yml
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://adelaide.edu.au/about/policies/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://adelaide.edu.au/about/disclaimer/
+- group: company
+  title: ''
+  type: Blog
+  url: https://adelaide.edu.au/about/news/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/university-of-adelaide-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -165,43 +158,26 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'The University of Adelaide is a public research university in Adelaide, South Australia, founded in 1874, and ranked #72 in the QS World University Rankings 2025. Its public, developer-facing footprint is centered on open scholarly infrastructure rather than a unified developer portal: the "Adelaide Research & Scholarship" institutional repository runs on DSpace 7.6.1 and exposes both a REST API and an OAI-PMH metadata endpoint, and the university operates an Adelaide Figshare research-data instance backed by the shared Figshare public API and OAI-PMH. Authentication is handled by a CAS-based single sign-on, and the institution maintains a public GitHub organization built largely around its Drupal "Shepherd" site-management platform. No consolidated, self-service public API developer portal was found.'
+description: 'The University of Adelaide is a public research university in Adelaide, South Australia, founded in 1874 and a member of the Group of Eight. Since January 2026 it has been superseded by Adelaide University, the merged institution formed with the University of South Australia: ROR records the University of Adelaide (https://ror.org/00892tw58) as inactive with successor Adelaide University (https://ror.org/028g18b61), adelaide.edu.au now serves the merged institution, and its DataCite and Australian Access Federation records both read "Adelaide University". It operates no public developer program. A full crawl of the 10,326-URL adelaide.edu.au sitemap on 2026-08-30 returned no developer portal, no API reference, no open-data portal, and no OpenAPI under any path. Its genuinely institution-operated machine-readable surfaces are three: the DSpace 7.6.1 "Adelaide Research & Scholarship" repository at digital.library.adelaide.edu.au, which serves a keyless HAL/JSON REST API and a
+  live OAI-PMH 2.0 endpoint under the institution''s own Handle prefix 2440; and the institution''s Shibboleth SAML 2.0 Identity Provider at au-idp.adelaide.edu.au, registered in the Australian Access Federation and scoped to adelaide.edu.au. Everything else that looks like an Adelaide API is a vendor contract running under an Adelaide name: adelaide.figshare.com is a Figshare tenancy, myuni.adelaide.edu.au is an Instructure Canvas tenancy exposing LTI 1.3 and OIDC discovery, and access.adelaide.edu.au is a PeopleSoft student system behind Okta SSO. This profile is deliberately thin because the footprint is thin.'
+examples:
+- key_count: 6
+  name: University Of Adelaide Dspace Rest Root Response
+  slug: university-of-adelaide-dspace-rest-root-response
 finops:
 - name: University Of Adelaide Finops
   service_category: Education
   slug: university-of-adelaide-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-adelaide.png
-json_schemas:
-- name: Figshare Article
-  property_count: 16
-  slug: university-of-adelaide-article
-- name: Figshare Collection
-  property_count: 6
-  slug: university-of-adelaide-collection
-json_structures:
-- name: University Of Adelaide Article Structure
-  property_count: 15
-  slug: university-of-adelaide-article-structure
-- name: University Of Adelaide Collection Structure
-  property_count: 5
-  slug: university-of-adelaide-collection-structure
-jsonld:
-- class_count: 7
-  name: University Of Adelaide Context
-  property_count: 2
-  slug: university-of-adelaide-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: University of Adelaide
 nav: Providers
 network: true
-overview: 'University of Adelaide publishes 10 APIs on the [APIs.io](https://apis.io/) network, including altmetric API, articles API, authors API, and 7 more. Tagged areas include Education, Higher Education, University, Research, and Institutional Repository.
+overview: 'University of Adelaide publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Australia, and Group of Eight.
 
 
-  The University of Adelaide catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  University of Adelaide''s developer surface includes authentication, GitHub presence, and 10 more developer resources.'
+  University of Adelaide''s developer surface includes authentication, code examples, engineering blog, and 23 more developer resources.'
 plans:
 - name: University Of Adelaide Plans Pricing
   plan_count: 2
@@ -211,46 +187,25 @@ rate_limits:
 - limit_count: 1
   name: University Of Adelaide Rate Limits
   slug: university-of-adelaide-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: University of Adelaide API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 1
-    warn: 4
-  slug: university-of-adelaide-jsonschema-spectral-rules
-- effective_rule_count: 6
-  extends: []
-  name: University of Adelaide API Rules
-  rule_count: 6
-  severity_counts:
-    error: 2
-    hint: 0
-    info: 1
-    warn: 3
-  slug: university-of-adelaide-rules
-scopes:
-- name: University Of Adelaide Scopes
-  scope_count: 1
-  slug: university-of-adelaide-scopes
-  summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 45.7
-  delta: 4.4
+  band: thin
+  composite: 34.2
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -11.5
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 25.0
-    contract_quality: 74.0
-    developer_ergonomics: 21.4
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 15.2
+    contract_quality: 17.1
+    developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 25.0
-    operational_transparency: 26.3
-  previous_composite: 41.3
+    governance: 15.2
+    operational_transparency: 23.7
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     contracts:
@@ -263,28 +218,35 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 46.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/screenshots/university-of-adelaide-2026-06-20T200125.png
 security:
 - kind: authentication
   name: University Of Adelaide Authentication
   slug: university-of-adelaide-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: saml2/cas/oidc · 4 schemes
 - kind: domain-security
   name: University Of Adelaide Domain Security
   slug: university-of-adelaide-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: university-of-adelaide
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Institutional Repository
-- Open Data
+- Higher Education
+- Education
 - Australia
-website: https://www.adelaide.edu.au/
+- Group of Eight
+- Research Repository
+- Research Data
+- Library
+- OAI-PMH
+- DSpace
+- Identity Federation
+- Shibboleth
+- Metadata
+- Course Catalog
+website: https://adelaide.edu.au/
 ---

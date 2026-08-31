@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 7
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 130
   slug: amazon-neptune-agentic-access
   summary_line: 130 operations · 69 acting · 7 human-in-the-loop
-api_count: 29
+api_count: 9
 apis:
 - description: The ?Action=AddTagsToResource API from Amazon Neptune — 1 operation(s) for ?action=addtagstoresource.
   name: Amazon Neptune ?Action=AddTagsToResource API
@@ -354,6 +354,10 @@ collections:
   name: Amazon Neptune Neptune Analytics ?Action=AddTagsToResource ?Action=AddTagsToResource Subnet Groups API
   slug: open-amazon-neptune-subnet-groups-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-neptune-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2140,7 +2144,7 @@ overview: 'Amazon Neptune publishes 29 APIs on the [APIs.io](https://apis.io/) n
   The Amazon Neptune catalog on APIs.io includes 10 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Neptune''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, release notes, and 67 more developer resources.'
+  Amazon Neptune''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, release notes, and 68 more developer resources.'
 plans:
 - name: Amazon Neptune Plans Pricing
   plan_count: 4
@@ -2175,17 +2179,22 @@ rules:
 score:
   band: strong
   composite: 62.7
-  delta: 3.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 28.8
-    contract_quality: 66.5
+    contract_quality: 66.2
     developer_ergonomics: 85.7
     discoverability: 50.0
     governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 59.4
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     contracts:
@@ -2193,8 +2202,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/screenshots/amazon-neptune-2026-06-20T171750.png
 security:

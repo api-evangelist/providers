@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -256,6 +256,10 @@ collections:
   name: Amazon Verified Permissions
   slug: open-amazon-verified-permissions
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-verified-permissions-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -356,7 +360,7 @@ overview: 'Amazon Verified Permissions publishes 34 APIs on the [APIs.io](https:
   The Amazon Verified Permissions catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Amazon Verified Permissions'' developer surface includes developer portal, documentation, developer console, support, signup flow, and 12 more developer resources.'
+  Amazon Verified Permissions'' developer surface includes developer portal, documentation, developer console, support, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Verified Permissions Plans Pricing
   plan_count: 3
@@ -380,18 +384,23 @@ rules:
   slug: amazon-verified-permissions-spectral-rules
 score:
   band: developing
-  composite: 45.6
-  delta: 5.0
+  composite: 43.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 70.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 26.5
     contract_quality: 42.9
     developer_ergonomics: 50.0
-    discoverability: 59.3
+    discoverability: 40.7
     governance: 26.5
     operational_transparency: 26.3
-  previous_composite: 40.6
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     contracts:
@@ -399,9 +408,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 34
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-verified-permissions/refs/heads/main/screenshots/amazon-verified-permissions-2026-06-20T171845.png
 security:
 - kind: domain-security

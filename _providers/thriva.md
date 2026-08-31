@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 29
   slug: thriva-agentic-access
   summary_line: 29 operations · 11 acting
-api_count: 10
+api_count: 1
 apis:
 - description: The Appointments API API from Thriva — 2 operation(s) for appointments api.
   name: Thriva Appointments API API
@@ -114,6 +114,10 @@ collections:
   name: Platform API V1 Appointments API Users API API
   slug: open-thriva-users-api-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/thriva-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -248,22 +252,27 @@ overview: 'Thriva publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   The Thriva catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Thriva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 21 more developer resources.'
+  Thriva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 22 more developer resources.'
 random_paper: 3
 score:
   band: developing
-  composite: 46.1
-  delta: 0.0
+  composite: 43.0
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 57.7
     developer_ergonomics: 47.0
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 46.1
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -280,8 +289,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/screenshots/thriva-2026-08-17T082348.png
 security:

@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Check budget allocations and remaining GPU hours
   name: Chamber Capacity API
@@ -66,6 +66,10 @@ collections:
   name: Chamber Capacity Workloads API
   slug: open-chamber-workloads-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/chamber-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -189,22 +193,27 @@ network: true
 overview: 'Chamber publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Capacity API, Health API, Metrics API, and 1 more. Tagged areas include GPU, AIOps, Machine-Learning, MLOps, and Infrastructure.
 
 
-  Chamber''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
+  Chamber''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
 random_paper: 8
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 44.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 57.1
     developer_ergonomics: 73.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 46.2
+  previous_composite: 44.7
   provenance:
     conformance: derived
     contracts:
@@ -214,8 +223,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/screenshots/chamber-2026-07-25T205029.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 12
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 190
   slug: didomi-agentic-access
   summary_line: 190 operations · 118 acting · 12 human-in-the-loop
-api_count: 37
+api_count: 1
 apis:
 - description: The Didomi Web SDK is the browser-side library that renders consent notices, preference centers, and privacy widgets, gates third-party tags on user consent, and writes IAB TCF v2 / GPP / Didomi conse
   name: Didomi Web SDK
@@ -307,6 +307,10 @@ collections:
   name: Didomi consents/events widgets/notices/remote-configs API
   slug: open-didomi-widgets-notices-remote-configs-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/didomi-capability-edges.yml
 - group: build
   title: ''
   type: Packages
@@ -726,7 +730,7 @@ overview: 'Didomi publishes 32 APIs on the [APIs.io](https://apis.io/) network, 
   The Didomi catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Didomi''s developer surface includes changelog, API reference, authentication, developer portal, documentation, getting-started guide, developer console, and 69 more developer resources.'
+  Didomi''s developer surface includes changelog, API reference, authentication, developer portal, documentation, getting-started guide, developer console, and 70 more developer resources.'
 plans:
 - name: Didomi Plans Pricing
   plan_count: 6
@@ -760,18 +764,23 @@ rules:
   slug: didomi-rules
 score:
   band: exemplar
-  composite: 77.1
-  delta: 0.0
+  composite: 78.1
+  coverage:
+    artifact_dirs: 33
+    catalog_gap: 32.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 59.1
-    contract_quality: 70.5
+    contract_governance: 47.0
+    contract_quality: 78.6
     developer_ergonomics: 80.4
-    discoverability: 57.4
-    governance: 59.1
+    discoverability: 61.1
+    governance: 47.0
     operational_transparency: 81.6
-  previous_composite: 77.1
+  previous_composite: 78.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -782,8 +791,8 @@ score:
       total: 32
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/screenshots/didomi-2026-06-20T180026.png
 security:

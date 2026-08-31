@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 165
   slug: twitter-x-agentic-access
   summary_line: 165 operations · 68 acting · 3 human-in-the-loop
-api_count: 22
+api_count: 1
 apis:
 - description: Endpoints relating to retrieving, managing AAA subscriptions
   name: Twitter/X Account Activity API
@@ -254,6 +254,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/twitter-x-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/twitter-x-x-api-v2-overlay.yaml
 - group: build
@@ -430,7 +434,7 @@ overview: 'Twitter/X publishes 22 APIs on the [APIs.io](https://apis.io/) networ
   The Twitter/X catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Twitter/X''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 33 more developer resources.'
+  Twitter/X''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 34 more developer resources.'
 random_paper: 7
 rate_limits:
 - limit_count: 18
@@ -443,18 +447,23 @@ scopes:
   summary_line: 21 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.6
-  delta: 0.0
+  composite: 59.5
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 62.8
     developer_ergonomics: 73.8
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 92.1
-  previous_composite: 62.6
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -465,8 +474,8 @@ score:
       total: 22
     mcp: first-party
     skills: unknown
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twitter-x/refs/heads/main/screenshots/twitter-x-2026-08-17T082510.png
 security:

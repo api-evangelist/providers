@@ -36,7 +36,7 @@ tags:
 - Artificial Intelligence
 - DevOps
 - Data Infrastructure
-- Health Tech
+- Healthtech
 - New York
 - North America
 ---

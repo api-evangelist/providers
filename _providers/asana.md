@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 316
   slug: asana-agentic-access
   summary_line: 316 operations · 169 acting
-api_count: 55
+api_count: 3
 apis:
 - description: The Asana Allocations API is a tool that allows users to manage and allocate resources within their Asana project management system. With this API, users can easily assign tasks and track the progress
   name: Asana Allocations  API
@@ -487,6 +487,10 @@ collections:
   name: Asana
   slug: open-asana
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/asana-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1473,7 +1477,7 @@ overview: 'Asana publishes 47 APIs on the [APIs.io](https://apis.io/) network, i
   The Asana catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Asana''s developer surface includes authentication, sandbox, getting-started guide, FAQ, documentation, code examples, changelog, and 75 more developer resources.'
+  Asana''s developer surface includes authentication, sandbox, getting-started guide, FAQ, documentation, code examples, changelog, and 76 more developer resources.'
 plans:
 - name: Asana Plans Pricing
   plan_count: 4
@@ -1513,6 +1517,11 @@ scopes:
 score:
   band: exemplar
   composite: 66.5
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 68.4
@@ -1531,8 +1540,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/screenshots/asana-2026-06-20T172555.png
 security:

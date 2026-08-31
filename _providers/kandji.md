@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 10
@@ -31,18 +31,54 @@ agentic_access:
   operation_count: 122
   slug: kandji-agentic-access
   summary_line: 122 operations · 53 acting · 10 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
-- description: Tenant-scoped REST API for the Iru (formerly Kandji) endpoint platform. 121 operations across 94 paths covering device inventory and details, 18 device actions (lock, erase, restart, shutdown, lost mo
-  name: Iru Endpoint Management API
-  slug: iru-endpoint-management-api
-- description: Single-operation S3 pre-signed upload contract returned by the Custom App and IPA App creation endpoints of the Iru Endpoint Management API. The upload URL is variable per request; the provider publis
-  name: Iru Library Item Upload API
-  slug: iru-library-item-upload-api
 - description: 'Hosted, tenant-scoped Model Context Protocol server that exposes the Iru Enterprise API surface as MCP tools for Claude Desktop, Cursor, OpenAI Codex and other MCP clients. Enabled per API token with '
   name: Iru MCP Server
   slug: iru-mcp-server
-artifact_total: 12
+- description: The Audit API from Iru — 1 operation(s) for audit.
+  name: Iru Audit API
+  slug: kandji-audit-api
+- description: The Behavioral Detections API from Iru — 1 operation(s) for behavioral detections.
+  name: Iru Behavioral Detections API
+  slug: kandji-behavioral-detections-api
+- description: The Blueprints API from Iru — 6 operation(s) for blueprints.
+  name: Iru Blueprints API
+  slug: kandji-blueprints-api
+- description: The Devices API from Iru — 34 operation(s) for devices.
+  name: Iru Devices API
+  slug: kandji-devices-api
+- description: The Integrations API from Iru — 8 operation(s) for integrations.
+  name: Iru Integrations API
+  slug: kandji-integrations-api
+- description: The Library API from Iru — 13 operation(s) for library.
+  name: Iru Library API
+  slug: kandji-library-api
+- description: The Prism API from Iru — 19 operation(s) for prism.
+  name: Iru Prism API
+  slug: kandji-prism-api
+- description: The Self Service API from Iru — 1 operation(s) for self service.
+  name: Iru Self Service API
+  slug: kandji-self-service-api
+- description: The Settings API from Iru — 1 operation(s) for settings.
+  name: Iru Settings API
+  slug: kandji-settings-api
+- description: The Tags API from Iru — 2 operation(s) for tags.
+  name: Iru Tags API
+  slug: kandji-tags-api
+- description: The Threat Details API from Iru — 1 operation(s) for threat details.
+  name: Iru Threat Details API
+  slug: kandji-threat-details-api
+- description: The Upload To S3 API from Iru — 1 operation(s) for upload to s3.
+  name: Iru Upload To S3 API
+  slug: kandji-upload-to-s3-api
+- description: The Users API from Iru — 2 operation(s) for users.
+  name: Iru Users API
+  slug: kandji-users-api
+- description: The Vulnerability Management API from Iru — 5 operation(s) for vulnerability management.
+  name: Iru Vulnerability Management API
+  slug: kandji-vulnerability-management-api
+artifact_total: 24
 collections:
 - collection_type: open
   name: Iru Endpoint Management API
@@ -231,7 +267,7 @@ modified: '2026-08-01'
 name: Iru
 nav: Providers
 network: true
-overview: 'Iru publishes 2 APIs on the [APIs.io](https://apis.io/) network: Endpoint Management API and Library Item Upload API. Tagged areas include Company, Device Management, Mobile Device Management, apple-management, and Endpoint Security.
+overview: 'Iru publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Behavioral Detections API, Blueprints API, and 11 more. Tagged areas include Company, device-management, mobile-device-management, apple-management, and endpoint-security.
 
 
   Iru''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
@@ -242,18 +278,23 @@ rate_limits:
   slug: kandji-rate-limits
 score:
   band: strong
-  composite: 58.6
-  delta: 0.0
+  composite: 57.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
-    contract_quality: 47.9
+    contract_governance: 18.2
+    contract_quality: 53.0
     developer_ergonomics: 70.8
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 58.6
+  previous_composite: 58.4
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -264,8 +305,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/screenshots/kandji-2026-08-07T171059.png
 security:
@@ -288,15 +329,15 @@ security:
 slug: kandji
 tags:
 - Company
-- Device Management
-- Mobile Device Management
+- device-management
+- mobile-device-management
 - apple-management
-- Endpoint Security
+- endpoint-security
 - endpoint-detection-response
-- Vulnerability Management
-- Compliance Automation
-- Workforce Identity
-- IT Operations
+- vulnerability-management
+- compliance-automation
+- workforce-identity
+- it-operations
 - MCP
 - agent-native
 website: https://www.iru.com/

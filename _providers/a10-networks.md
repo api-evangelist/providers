@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-26'
-api_count: 6
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Thunder Kubernetes Connector (TKC) runs inside Kubernetes and configures upstream Thunder ADC objects automatically as pods are created and scaled. It defines 24 CRDs covering VirtualServer, Virtu
   name: A10 Thunder Kubernetes Connector (TKC)
@@ -75,6 +75,10 @@ collections:
   name: A10 Networks ACOS aXAPI v3 SLB Virtual Server API
   slug: open-a10-networks-slb-virtual-server-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/a10-networks-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -283,7 +287,7 @@ overview: 'A10 Networks publishes 5 APIs on the [APIs.io](https://apis.io/) netw
   The A10 Networks catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  A10 Networks'' developer surface includes documentation, support, engineering blog, YouTube channel, GitHub presence, and 23 more developer resources.'
+  A10 Networks'' developer surface includes documentation, support, engineering blog, YouTube channel, GitHub presence, and 24 more developer resources.'
 plans:
 - name: A10 Networks Plans Pricing
   plan_count: 6
@@ -317,15 +321,20 @@ rules:
   slug: a10-networks-rules
 score:
   band: thin
-  composite: 35.5
-  delta: 0.0
+  composite: 35.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 61.9
     developer_ergonomics: 16.7
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 5.3
   previous_composite: 35.5
@@ -335,8 +344,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a10-networks/refs/heads/main/screenshots/a10-networks-2026-06-20T162934.png
 security:

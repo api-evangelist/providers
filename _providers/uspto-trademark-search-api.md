@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: uspto-trademark-search-api-agentic-access
   summary_line: 5 operations
-api_count: 5
+api_count: 1
 apis:
 - description: Database freshness and update information
   name: USPTO Trademark Search API Database Status API
@@ -98,6 +98,10 @@ collections:
   name: USPTO Trademark Search API
   slug: open-uspto-trademark-search-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/uspto-trademark-search-api-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -210,7 +214,7 @@ overview: 'USPTO Trademark Search API publishes 5 APIs on the [APIs.io](https://
   The USPTO Trademark Search API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  USPTO Trademark Search API''s developer surface includes authentication, signup flow, documentation, pricing, FAQ, engineering blog, and 11 more developer resources.'
+  USPTO Trademark Search API''s developer surface includes authentication, signup flow, documentation, pricing, FAQ, engineering blog, and 12 more developer resources.'
 plans:
 - name: Uspto Trademark Search Api Plans Pricing
   plan_count: 3
@@ -244,18 +248,23 @@ rules:
   slug: uspto-trademark-search-api-rules
 score:
   band: developing
-  composite: 50.2
-  delta: 2.1
+  composite: 49.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 42.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 28.8
     contract_quality: 70.3
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 48.1
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     contracts:
@@ -269,8 +278,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uspto-trademark-search-api/refs/heads/main/screenshots/uspto-trademark-search-api-2026-06-20T200727.png
 security:

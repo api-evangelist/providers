@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: google-cloud-compute-engine-agentic-access
   summary_line: 7 operations · 2 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Manage persistent disks
   name: Google Cloud Compute Engine Disks API
@@ -178,7 +178,7 @@ modified: '2026-05-19'
 name: Google Cloud Compute Engine
 nav: Providers
 network: true
-overview: 'Google Cloud Compute Engine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Disks API, Firewalls API, Instances API, and 1 more. Tagged areas include Compute, Google Cloud, Infrastructure-as-a-Service, Infrastructure, and Virtual Machines.
+overview: 'Google Cloud Compute Engine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Disks API, Firewalls API, Instances API, and 1 more. Tagged areas include Compute, Google Cloud, IaaS, Infrastructure, and Virtual Machines.
 
 
   The Google Cloud Compute Engine catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -212,15 +212,20 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 47.4
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 9.8
     contract_quality: 63.9
     developer_ergonomics: 52.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 26.3
   previous_composite: 47.9
@@ -231,8 +236,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/screenshots/google-cloud-compute-engine-2026-06-20T182054.png
 security:
@@ -252,7 +257,7 @@ slug: google-cloud-compute-engine
 tags:
 - Compute
 - Google Cloud
-- Infrastructure-as-a-Service
+- IaaS
 - Infrastructure
 - Virtual Machines
 website: https://cloud.google.com/compute

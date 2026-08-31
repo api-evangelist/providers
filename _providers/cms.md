@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -43,14 +43,8 @@ agentic_access:
   operation_count: 94
   slug: cms-agentic-access
   summary_line: 94 operations · 21 acting · 1 human-in-the-loop
-api_count: 26
+api_count: 4
 apis:
-- description: Enables Medicare Accountable Care Organizations (ACOs) and alternative payment model participants to retrieve Medicare Part A, B, and D claims data for their attributed enrollees. Implements the HL7 B
-  name: CMS Beneficiary Claims Data API (BCDA)
-  slug: cms-beneficiary-claims-data-api-bcda
-- description: Enables stand-alone Medicare Part D Prescription Drug Plan sponsors to retrieve bulk Medicare Part A and B claims data for their active beneficiaries using the FHIR standard in NDJSON format. Authenti
-  name: CMS AB2D API (Claims Data to Part D Sponsors)
-  slug: cms-ab2d-api-claims-data-to-part-d-sponsors
 - description: Provides Original Medicare claims data to fee-for-service Medicare providers in a structured, standardized FHIR format at the point of care. Helps providers gain complete views of patient medical hist
   name: CMS Data at the Point of Care (DPC) API
   slug: cms-data-at-the-point-of-care-dpc-api
@@ -123,7 +117,58 @@ apis:
 - description: Beneficiary (Patient) resources.
   name: Centers for Medicare and Medicaid Services Patient API
   slug: centers-for-medicare-and-medicaid-services-patient-api
-artifact_total: 162
+- description: API through which an authenticated and authorized PDP sponsor may request a bulk-data export from a server.
+  name: Centers for Medicare and Medicaid Services 1. Export API
+  slug: cms-1-export-api
+- description: API to determine the status of the job, the files to download once the job is complete and an endpoint to cancel a job
+  name: Centers for Medicare and Medicaid Services 2. Status API
+  slug: cms-2-status-api
+- description: After creating a job, the API to download the generated bulk download files
+  name: Centers for Medicare and Medicaid Services 3. Download API
+  slug: cms-3-download-api
+- description: Provide the standard required FHIR capability statement
+  name: Centers for Medicare and Medicaid Services 4. Capabilities API
+  slug: cms-4-capabilities-api
+- description: The admin-api API from Centers for Medicare and Medicaid Services — 5 operation(s) for admin-api.
+  name: Centers for Medicare and Medicaid Services Admin API
+  slug: cms-admin-api-api
+- description: The attribution API from Centers for Medicare and Medicaid Services — 2 operation(s) for attribution.
+  name: Centers for Medicare and Medicaid Services Attribution API
+  slug: cms-attribution-api
+- description: The auth API from Centers for Medicare and Medicaid Services — 3 operation(s) for auth.
+  name: Centers for Medicare and Medicaid Services Auth API
+  slug: cms-auth-api
+- description: Provide the standard required FHIR capability statement
+  name: Centers for Medicare and Medicaid Services Capabilities API
+  slug: cms-capabilities-api
+- description: The data API from Centers for Medicare and Medicaid Services — 1 operation(s) for data.
+  name: Centers for Medicare and Medicaid Services Data API
+  slug: cms-data-api
+- description: After creating a job, the API to download the generated bulk download files
+  name: Centers for Medicare and Medicaid Services Download API
+  slug: cms-download-api
+- description: API through which an authenticated and authorized PDP sponsor may request a bulk-data export from a server.
+  name: Centers for Medicare and Medicaid Services Export API
+  slug: cms-export-api
+- description: The group API from Centers for Medicare and Medicaid Services — 2 operation(s) for group.
+  name: Centers for Medicare and Medicaid Services Group API
+  slug: cms-group-api
+- description: The health-api API from Centers for Medicare and Medicaid Services — 1 operation(s) for health-api.
+  name: Centers for Medicare and Medicaid Services Health API
+  slug: cms-health-api-api
+- description: The job API from Centers for Medicare and Medicaid Services — 4 operation(s) for job.
+  name: Centers for Medicare and Medicaid Services Job API
+  slug: cms-job-api
+- description: The maintenance-mode-api API from Centers for Medicare and Medicaid Services — 1 operation(s) for maintenance-mode-api.
+  name: Centers for Medicare and Medicaid Services Maintenance Mode API
+  slug: cms-maintenance-mode-api-api
+- description: The metadata API from Centers for Medicare and Medicaid Services — 3 operation(s) for metadata.
+  name: Centers for Medicare and Medicaid Services Metadata API
+  slug: cms-metadata-api
+- description: API to determine the status of the job, the files to download once the job is complete and an endpoint to cancel a job
+  name: Centers for Medicare and Medicaid Services Status API
+  slug: cms-status-api
+artifact_total: 177
 collections:
 - collection_type: open
   name: API Collection
@@ -177,6 +222,18 @@ collections:
   name: Marketplace API Reference Provider & Drug Coverage API
   slug: open-cms-provider-drug-coverage-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cms-capability-edges.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/cms-export-aco-claims-bcda.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/cms-export-partd-claims-ab2d.md
 - group: operate
   title: ''
   type: IssueTracker
@@ -820,13 +877,13 @@ modified: '2026-08-15'
 name: Centers for Medicare and Medicaid Services
 nav: Providers
 network: true
-overview: 'Centers for Medicare and Medicaid Services publishes 17 APIs on the [APIs.io](https://apis.io/) network, including CMS Beneficiary Claims Data API (BCDA), CMS AB2D API (Claims Data to Part D Sponsors), API Reference API, and 14 more. Tagged areas include Medicare, Medicaid, Healthcare, Health Insurance, and FHIR.
+overview: 'Centers for Medicare and Medicaid Services publishes 32 APIs on the [APIs.io](https://apis.io/) network, including API Reference API, Bulk Data API, Code Search API, and 29 more. Tagged areas include Medicare, Medicaid, Healthcare, Health Insurance, and FHIR.
 
 
   The Centers for Medicare and Medicaid Services catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Centers for Medicare and Medicaid Services'' developer surface includes authentication, developer portal, changelog, sandbox, CLI, code examples, documentation, and 69 more developer resources.'
+  Centers for Medicare and Medicaid Services'' developer surface includes authentication, developer portal, changelog, sandbox, CLI, code examples, documentation, and 72 more developer resources.'
 plans:
 - name: Cms Plans Pricing
   plan_count: 3
@@ -860,18 +917,26 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 85.2
-  delta: 0.0
+  composite: 85.5
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 2.7
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
-    contract_governance: 55.3
+    contract_governance: 43.2
     contract_quality: 63.2
     developer_ergonomics: 82.7
-    discoverability: 75.9
-    governance: 55.3
+    discoverability: 66.7
+    governance: 43.2
     operational_transparency: 84.2
-  previous_composite: 85.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 82.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -888,8 +953,8 @@ score:
     regime: Health
     regime_id: health
     score: 83.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/screenshots/cms-2026-06-20T174629.png
 security:

@@ -17,9 +17,9 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.3
-  scored_at: '2026-08-26'
+  score: 27.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,14 +42,8 @@ agentic_access:
   operation_count: 17
   slug: d-wave-agentic-access
   summary_line: 17 operations · 5 acting
-api_count: 6
+api_count: 4
 apis:
-- description: List, inspect, and discover D-Wave solvers available to the authenticated project, including quantum annealing QPU samplers (Advantage, Advantage2) and Leap hybrid samplers (BQM, CQM, DQM, NL). Solver
-  name: D-Wave Solver API (SAPI) - Solvers
-  slug: d-wave-solver-api
-- description: 'Submit, monitor, retrieve, and cancel quantum and hybrid problem jobs. Supports the canonical problem types ising, qubo, bqm, cqm, dqm, and nl with three encoding formats (qp, bq, ref). Problems flow '
-  name: D-Wave Solver API (SAPI) - Problems
-  slug: d-wave-problems-api
 - description: The Account API from D-Wave — 3 operation(s) for account.
   name: D-Wave Account API
   slug: d-wave-account-api
@@ -62,7 +56,7 @@ apis:
 - description: The Regions API from D-Wave — 2 operation(s) for regions.
   name: D-Wave Regions API
   slug: d-wave-regions-api
-artifact_total: 78
+artifact_total: 76
 collections:
 - collection_type: postman
   name: D-Wave Leap Hybrid Solvers Account API
@@ -489,7 +483,7 @@ modified: '2026-05-25'
 name: D-Wave
 nav: Providers
 network: true
-overview: 'D-Wave publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Solver API (SAPI) - Solvers, Solver API (SAPI) - Problems, Account API, and 3 more. Tagged areas include Quantum Computing, Quantum Annealing, Optimization, Hybrid Quantum-Classical, and Ising.
+overview: 'D-Wave publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Hybrid API, QPU API, and 1 more. Tagged areas include Quantum Computing, Quantum Annealing, Optimization, Hybrid Quantum-Classical, and Ising.
 
 
   The D-Wave catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -534,18 +528,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 63.3
+  composite: 63.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 20.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 28.8
-    contract_quality: 68.8
+    contract_quality: 67.7
     developer_ergonomics: 78.6
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 63.3
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     contracts:
@@ -553,8 +552,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-wave/refs/heads/main/screenshots/d-wave-2026-06-20T175418.png
 security:

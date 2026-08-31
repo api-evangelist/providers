@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,22 +15,65 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 27.2
-  scored_at: '2026-08-26'
-api_count: 1
+  score: 29.7
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: External REST API for Happy Buyers organization metadata and inventory data. Requests are authenticated with an API key sent in the hca-api-key header and results are scoped to the organization attach
-  name: Happy Buyers External API
-  slug: happy-buyers-external-api
-artifact_total: 5
+- description: Blockout dates
+  name: Happy Cabbage Analytics Blockout Dates API
+  slug: happy-cabbage-analytics-blockout-dates-api
+- description: Daily product sales and stock metadata
+  name: Happy Cabbage Analytics Daily Sales Metadata API
+  slug: happy-cabbage-analytics-daily-sales-metadata-api
+- description: API key identity and organization context
+  name: Happy Cabbage Analytics Identity API
+  slug: happy-cabbage-analytics-identity-api
+- description: Inventory health data
+  name: Happy Cabbage Analytics Inventory Health API
+  slug: happy-cabbage-analytics-inventory-health-api
+- description: Orders
+  name: Happy Cabbage Analytics Orders API
+  slug: happy-cabbage-analytics-orders-api
+- description: Package-level product inventory
+  name: Happy Cabbage Analytics Packages API
+  slug: happy-cabbage-analytics-packages-api
+- description: Organization POS brand metadata and mappings
+  name: Happy Cabbage Analytics POS Brands API
+  slug: happy-cabbage-analytics-pos-brands-api
+- description: Organization POS category metadata and mappings
+  name: Happy Cabbage Analytics POS Categories API
+  slug: happy-cabbage-analytics-pos-categories-api
+- description: Product-level inventory, sales, and demand metrics
+  name: Happy Cabbage Analytics Product Inventory API
+  slug: happy-cabbage-analytics-product-inventory-api
+- description: Product-line inventory, demand, and replenishment metrics
+  name: Happy Cabbage Analytics Product Line Inventory API
+  slug: happy-cabbage-analytics-product-line-inventory-api
+- description: Product-lines
+  name: Happy Cabbage Analytics Product Lines API
+  slug: happy-cabbage-analytics-product-lines-api
+- description: Organization location metadata
+  name: Happy Cabbage Analytics Stores API
+  slug: happy-cabbage-analytics-stores-api
+- description: Canonical brand metadata across POS systems
+  name: Happy Cabbage Analytics Universal Brands API
+  slug: happy-cabbage-analytics-universal-brands-api
+- description: Canonical product category metadata across POS systems
+  name: Happy Cabbage Analytics Universal Categories API
+  slug: happy-cabbage-analytics-universal-categories-api
+artifact_total: 18
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/happy-cabbage-analytics-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -140,10 +183,10 @@ modified: '2026-08-22'
 name: Happy Cabbage Analytics
 nav: Providers
 network: true
-overview: 'Happy Cabbage Analytics publishes 1 API on the [APIs.io](https://apis.io/) network: Happy Buyers External API. Tagged areas include Cannabis, Retail, Inventory Management, Analytics, and Purchasing.
+overview: 'Happy Cabbage Analytics publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Blockout Dates API, Daily Sales Metadata API, Identity API, and 11 more. Tagged areas include cannabis, Retail, inventory-management, Analytics, and purchasing.
 
 
-  Happy Cabbage Analytics'' developer surface includes documentation, API reference, engineering blog, support, signup flow, changelog, authentication, and 18 more developer resources.'
+  Happy Cabbage Analytics'' developer surface includes documentation, API reference, engineering blog, support, signup flow, changelog, authentication, and 19 more developer resources.'
 plans:
 - name: Happy Cabbage Analytics Plans Pricing
   plan_count: 0
@@ -155,18 +198,23 @@ rate_limits:
   slug: happy-cabbage-analytics-rate-limits
 score:
   band: thin
-  composite: 38.7
-  delta: 0.0
+  composite: 35.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 16.7
-    contract_quality: 56.3
+    contract_governance: 4.5
+    contract_quality: 55.2
     developer_ergonomics: 37.5
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 38.7
+  previous_composite: 36.4
   provenance:
     conformance: derived
     contracts:
@@ -176,8 +224,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -190,14 +238,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: happy-cabbage-analytics
 tags:
-- Cannabis
+- cannabis
 - Retail
-- Inventory Management
+- inventory-management
 - Analytics
-- Purchasing
-- Point of Sale
-- Wholesale
-- Demand Forecasting
+- purchasing
+- point-of-sale
+- wholesale
+- demand-forecasting
 - Supply Chain
 - agent-native
 website: https://www.happycabbage.io/

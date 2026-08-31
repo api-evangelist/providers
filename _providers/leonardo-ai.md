@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -222,6 +222,10 @@ collections:
   name: Leonardo.AI Video Generation API
   slug: open-leonardo-ai-video-generation
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/leonardo-ai-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -472,7 +476,7 @@ overview: 'Leonardo.AI publishes 14 APIs on the [APIs.io](https://apis.io/) netw
   The Leonardo.AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Leonardo.AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, tooling, signup flow, and 38 more developer resources.'
+  Leonardo.AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, tooling, signup flow, and 39 more developer resources.'
 plans:
 - name: Leonardo Ai Plans Pricing
   plan_count: 5
@@ -518,6 +522,11 @@ rules:
 score:
   band: strong
   composite: 59.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 84.2
@@ -536,8 +545,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/screenshots/leonardo-ai-2026-06-20T184426.png
 security:

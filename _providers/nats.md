@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,11 +41,8 @@ agentic_access:
   operation_count: 10
   slug: nats-agentic-access
   summary_line: 10 operations
-api_count: 15
+api_count: 2
 apis:
-- description: HTTP monitoring API providing real-time server status, connection information, route details, subscription statistics, JetStream metrics, and health check endpoints for observability and operations.
-  name: NATS Monitoring API
-  slug: nats-monitoring-api
 - description: Asynchronous messaging API supporting core pub-sub, request-reply, queue groups, and JetStream persistent messaging with streams, consumers, key-value stores, and object stores.
   name: NATS Messaging API
   slug: nats-messaging-api
@@ -88,6 +85,9 @@ apis:
 - description: The Subscriptions API from NATS — 1 operation(s) for subscriptions.
   name: NATS Subscriptions API
   slug: nats-subscriptions-api
+- description: Server monitoring and status endpoints
+  name: NATS Monitoring API
+  slug: nats-monitoring-api
 artifact_total: 37
 asyncapis:
 - description: NATS provides cloud-native messaging with core pub-sub, request-reply, and queue group patterns, plus JetStream for persistent streaming with streams, consumers, key-value stores, and object stores.
@@ -246,7 +246,7 @@ modified: '2026-05-19'
 name: NATS
 nav: Providers
 network: true
-overview: 'NATS publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Monitoring API, Messaging API, JetStream Management API, and 10 more. Tagged areas include Cloud-Native, IoT, Message Broker, Microservices, and Pub-Sub.
+overview: 'NATS publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Messaging API, JetStream Management API, Accounts API, and 10 more. Tagged areas include Cloud-Native, IoT, Message Broker, Microservices, and Pub Sub.
 
 
   The NATS catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
@@ -286,15 +286,20 @@ rules:
   slug: nats-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.2
-  delta: 1.4
+  composite: 42.7
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 54.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
     contract_governance: 13.6
     contract_quality: 59.5
     developer_ergonomics: 50.0
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 28.9
   needs_work:
@@ -303,7 +308,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 41.8
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -311,8 +316,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/screenshots/nats-2026-06-20T190052.png
 security:
@@ -326,6 +331,6 @@ tags:
 - IoT
 - Message Broker
 - Microservices
-- Pub-Sub
+- Pub Sub
 website: https://nats.io
 ---

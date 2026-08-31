@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: na
     mcp_server: false
@@ -32,19 +32,35 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-08-26'
-api_count: 1
+  score: 28.5
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Public HTTPS/JSON API that gives retailers programmatic access to the structured circular ("publication") data that powers the Flipp platform - publications by merchant and store/postal code, publicat
-  name: Flipp FlyerKit API
-  slug: flipp-flyerkit-api
-artifact_total: 6
+- description: The copyright API from Flipp (Wishabi) — 1 operation(s) for copyright.
+  name: Flipp (Wishabi) Copyright API
+  slug: flipp-wishabi-copyright-api
+- description: The fsa API from Flipp (Wishabi) — 1 operation(s) for fsa.
+  name: Flipp (Wishabi) Fsa API
+  slug: flipp-wishabi-fsa-api
+- description: The products API from Flipp (Wishabi) — 4 operation(s) for products.
+  name: Flipp (Wishabi) Products API
+  slug: flipp-wishabi-products-api
+- description: The publications API from Flipp (Wishabi) — 5 operation(s) for publications.
+  name: Flipp (Wishabi) Publications API
+  slug: flipp-wishabi-publications-api
+- description: The stores API from Flipp (Wishabi) — 1 operation(s) for stores.
+  name: Flipp (Wishabi) Stores API
+  slug: flipp-wishabi-stores-api
+artifact_total: 10
 collections:
 - collection_type: open
   name: FlyerKit
   slug: open-flipp-wishabi-flyerkit
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/flipp-wishabi-flyerkit-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -158,10 +174,10 @@ modified: '2026-08-12'
 name: Flipp (Wishabi)
 nav: Providers
 network: true
-overview: 'Flipp (Wishabi) publishes 1 API on the [APIs.io](https://apis.io/) network: Flipp FlyerKit API. Tagged areas include Company, Retail, Retail Media, Advertising, and Flyers.
+overview: 'Flipp (Wishabi) publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Copyright API, Fsa API, Products API, and 2 more. Tagged areas include Company, Retail, Retail Media, Advertising, and Flyers.
 
 
-  Flipp (Wishabi)''s developer surface includes engineering blog, support, documentation, API reference, authentication, changelog, and 20 more developer resources.'
+  Flipp (Wishabi)''s developer surface includes engineering blog, support, documentation, API reference, authentication, changelog, and 21 more developer resources.'
 plans:
 - name: Flipp Wishabi Plans Pricing
   plan_count: 0
@@ -173,18 +189,23 @@ rate_limits:
   slug: flipp-wishabi-rate-limits
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 31.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 45.6
+    contract_governance: 4.5
+    contract_quality: 43.0
     developer_ergonomics: 44.6
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 33.7
+  previous_composite: 32.1
   provenance:
     conformance: derived
     contracts:
@@ -194,8 +215,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipp-wishabi/refs/heads/main/screenshots/flipp-wishabi-2026-07-25T214802.png
 security:

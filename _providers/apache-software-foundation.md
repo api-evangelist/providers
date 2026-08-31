@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,17 +41,11 @@ agentic_access:
   operation_count: 14
   slug: apache-software-foundation-agentic-access
   summary_line: 14 operations
-api_count: 9
+api_count: 1
 apis:
-- description: The Apache Software Foundation Projects API provides read-only access to JSON data about ASF projects, committees, releases, and podlings. The data is served as static JSON files from projects.apache.
-  name: Apache Software Foundation Projects API
-  slug: projects-api
 - description: The Committees API from Apache Software Foundation — 3 operation(s) for committees.
   name: Apache Software Foundation Committees API
   slug: apache-software-foundation-committees-api
-- description: The Foundation API from Apache Software Foundation — 1 operation(s) for foundation.
-  name: Apache Software Foundation Foundation API
-  slug: apache-software-foundation-foundation-api
 - description: The Groups API from Apache Software Foundation — 1 operation(s) for groups.
   name: Apache Software Foundation Groups API
   slug: apache-software-foundation-groups-api
@@ -67,10 +61,7 @@ apis:
 - description: The Podlings API from Apache Software Foundation — 2 operation(s) for podlings.
   name: Apache Software Foundation Podlings API
   slug: apache-software-foundation-podlings-api
-- description: The Releases API from Apache Software Foundation — 1 operation(s) for releases.
-  name: Apache Software Foundation Releases API
-  slug: apache-software-foundation-releases-api
-artifact_total: 50
+artifact_total: 47
 collections:
 - collection_type: open
   name: API Collection
@@ -215,7 +206,7 @@ modified: '2026-05-19'
 name: Apache Software Foundation
 nav: Providers
 network: true
-overview: 'Apache Software Foundation publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Projects API, Committees API, Foundation API, and 6 more. Tagged areas include ASF, Open-Source, Governance, Project, and Apache.
+overview: 'Apache Software Foundation publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Committees API, Groups API, ICLA API, and 3 more. Tagged areas include ASF, Open-Source, Governance, Project, and Apache.
 
 
   The Apache Software Foundation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -255,18 +246,23 @@ rules:
   slug: apache-software-foundation-spectral-rules
 score:
   band: thin
-  composite: 38.0
-  delta: 0.0
+  composite: 35.7
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 44.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
     contract_governance: 28.8
-    contract_quality: 66.7
+    contract_quality: 59.9
     developer_ergonomics: 21.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 38.0
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     contracts:
@@ -274,8 +270,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/screenshots/apache-software-foundation-2026-06-20T172144.png
 security:

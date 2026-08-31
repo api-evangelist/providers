@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -43,18 +43,63 @@ agentic_access:
   operation_count: 86
   slug: cardlytics-agentic-access
   summary_line: 86 operations · 36 acting · 2 human-in-the-loop
-api_count: 3
+api_count: 6
 apis:
-- description: The advertiser-partner integration surface. Partners upsert and delete merchants and offers keyed on their own external identifiers, pull aggregate merchant/offer performance metrics (impressions, pur
-  name: Cardlytics Partner API
-  slug: cardlytics-partner-api
-- description: The Ads Manager campaign object model — Campaigns, AdGroups, Ads, Audiences, AudienceReach, Rewards, PricingModels, RedeemingMerchants, Geo, PurchaseCategories, AuditLogs and per-entity validation rul
-  name: Cardlytics Campaign Build API
-  slug: cardlytics-campaign-build-api
-- description: The bank-side rewards platform API. A publisher opens an institution- or customer-scoped session, retrieves ranked targeted card-linked offers for a customer, and reads that customer's profile, reward
-  name: Cardlytics Publisher API v2
-  slug: cardlytics-publisher-api-v2
-artifact_total: 14
+- description: The AdGroups API from Cardlytics — 8 operation(s) for adgroups.
+  name: Cardlytics Ad Groups API
+  slug: cardlytics-adgroups-api
+- description: The Ads API from Cardlytics — 10 operation(s) for ads.
+  name: Cardlytics Ads API
+  slug: cardlytics-ads-api
+- description: The ads-controller API from Cardlytics — 1 operation(s) for ads-controller.
+  name: Cardlytics Ads Controller API
+  slug: cardlytics-ads-controller-api
+- description: The AudienceReach API from Cardlytics — 1 operation(s) for audiencereach.
+  name: Cardlytics Audience Reach API
+  slug: cardlytics-audiencereach-api
+- description: The Audiences API from Cardlytics — 6 operation(s) for audiences.
+  name: Cardlytics Audiences API
+  slug: cardlytics-audiences-api
+- description: The AuditLogs API from Cardlytics — 1 operation(s) for auditlogs.
+  name: Cardlytics Audit Logs API
+  slug: cardlytics-auditlogs-api
+- description: The Authentication API from Cardlytics — 1 operation(s) for authentication.
+  name: Cardlytics Authentication API
+  slug: cardlytics-authentication-api
+- description: The Campaigns API from Cardlytics — 14 operation(s) for campaigns.
+  name: Cardlytics Campaigns API
+  slug: cardlytics-campaigns-api
+- description: The customer-controller API from Cardlytics — 3 operation(s) for customer-controller.
+  name: Cardlytics Customer Controller API
+  slug: cardlytics-customer-controller-api
+- description: The Geo API from Cardlytics — 6 operation(s) for geo.
+  name: Cardlytics Geo API
+  slug: cardlytics-geo-api
+- description: The Merchants API from Cardlytics — 1 operation(s) for merchants.
+  name: Cardlytics Merchants API
+  slug: cardlytics-merchants-api
+- description: The Offers API from Cardlytics — 1 operation(s) for offers.
+  name: Cardlytics Offers API
+  slug: cardlytics-offers-api
+- description: The PricingModels API from Cardlytics — 3 operation(s) for pricingmodels.
+  name: Cardlytics Pricing Models API
+  slug: cardlytics-pricingmodels-api
+- description: The PurchaseCategories API from Cardlytics — 2 operation(s) for purchasecategories.
+  name: Cardlytics Purchase Categories API
+  slug: cardlytics-purchasecategories-api
+- description: The Redemptions API from Cardlytics — 1 operation(s) for redemptions.
+  name: Cardlytics Redemptions API
+  slug: cardlytics-redemptions-api
+- description: The Reports API from Cardlytics — 1 operation(s) for reports.
+  name: Cardlytics Reports API
+  slug: cardlytics-reports-api
+- description: The Rewards API from Cardlytics — 6 operation(s) for rewards.
+  name: Cardlytics Rewards API
+  slug: cardlytics-rewards-api
+- description: The session-controller API from Cardlytics — 1 operation(s) for session-controller.
+  name: Cardlytics Session Controller API
+  slug: cardlytics-session-controller-api
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Cardlytics Publisher Webhooks
@@ -70,6 +115,22 @@ collections:
   name: OpenAPI definition
   slug: open-cardlytics-publisher-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cardlytics-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cardlytics-partner-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cardlytics-campaign-build-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cardlytics-publisher-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -215,13 +276,13 @@ modified: '2026-08-12'
 name: Cardlytics
 nav: Providers
 network: true
-overview: 'Cardlytics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Partner API, Campaign Build API, and Publisher API v2. Tagged areas include Company, Advertising, Commerce Media, Card-Linked Offers, and Purchase Intelligence.
+overview: 'Cardlytics publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Ad Groups API, Ads API, Ads Controller API, and 15 more. Tagged areas include Company, Advertising, Commerce Media, Card-Linked Offers, and Purchase Intelligence.
 
 
   The Cardlytics catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cardlytics'' developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, and 27 more developer resources.'
+  Cardlytics'' developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, and 31 more developer resources.'
 plans:
 - name: Cardlytics Plans Pricing
   plan_count: 0
@@ -238,18 +299,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode/custom
 score:
   band: strong
-  composite: 55.3
-  delta: 0.5
+  composite: 54.6
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 16.7
-    contract_quality: 54.6
+    contract_governance: 4.5
+    contract_quality: 54.8
     developer_ergonomics: 54.2
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 92.6
+    governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 54.8
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -261,12 +327,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: sox
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/screenshots/cardlytics-2026-07-25T204515.png
 security:

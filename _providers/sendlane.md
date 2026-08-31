@@ -33,13 +33,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: REST API for managing contacts, lists, campaigns, automations, custom fields, sender profiles, tags, and custom integration events for e-commerce email and SMS marketing.
-  name: Sendlane API
-  slug: sendlane-api
-artifact_total: 10
+- description: The Automations API from Sendlane — 1 operation(s) for automations.
+  name: Sendlane Automations API
+  slug: sendlane-automations-api
+- description: The Campaigns API from Sendlane — 3 operation(s) for campaigns.
+  name: Sendlane Campaigns API
+  slug: sendlane-campaigns-api
+- description: The Contacts API from Sendlane — 18 operation(s) for contacts.
+  name: Sendlane Contacts API
+  slug: sendlane-contacts-api
+- description: The Custom Fields API from Sendlane — 2 operation(s) for custom fields.
+  name: Sendlane Custom Fields API
+  slug: sendlane-custom-fields-api
+- description: The Custom Integration Events API from Sendlane — 2 operation(s) for custom integration events.
+  name: Sendlane Custom Integration Events API
+  slug: sendlane-custom-integration-events-api
+- description: The Custom Integration Webhooks API from Sendlane — 9 operation(s) for custom integration webhooks.
+  name: Sendlane Custom Integration Webhooks API
+  slug: sendlane-custom-integration-webhooks-api
+- description: The Custom Integrations API from Sendlane — 2 operation(s) for custom integrations.
+  name: Sendlane Custom Integrations API
+  slug: sendlane-custom-integrations-api
+- description: The List Contacts API from Sendlane — 2 operation(s) for list contacts.
+  name: Sendlane List Contacts API
+  slug: sendlane-list-contacts-api
+- description: The Lists API from Sendlane — 3 operation(s) for lists.
+  name: Sendlane Lists API
+  slug: sendlane-lists-api
+- description: The Segments API from Sendlane — 3 operation(s) for segments.
+  name: Sendlane Segments API
+  slug: sendlane-segments-api
+- description: The Senders API from Sendlane — 2 operation(s) for senders.
+  name: Sendlane Senders API
+  slug: sendlane-senders-api
+- description: The SMS API from Sendlane — 3 operation(s) for sms.
+  name: Sendlane SMS API
+  slug: sendlane-sms-api
+- description: The Suppression API from Sendlane — 3 operation(s) for suppression.
+  name: Sendlane Suppression API
+  slug: sendlane-suppression-api
+- description: The Tags API from Sendlane — 3 operation(s) for tags.
+  name: Sendlane Tags API
+  slug: sendlane-tags-api
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Sendlane Webhooks
@@ -49,6 +88,10 @@ collections:
   name: Api Reference
   slug: open-sendlane
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sendlane-openapi-overlay.yaml
 - group: auth
   title: ''
   type: Authentication
@@ -218,13 +261,13 @@ modified: '2026-08-13'
 name: Sendlane
 nav: Providers
 network: true
-overview: 'Sendlane publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Email Marketing, SMS Marketing, E-Commerce, Marketing Automation, and Contacts.
+overview: 'Sendlane publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Automations API, Campaigns API, Contacts API, and 11 more. Tagged areas include Email Marketing, SMS Marketing, E-Commerce, Marketing Automation, and Contacts.
 
 
   The Sendlane catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Sendlane''s developer surface includes authentication, documentation, engineering blog, pricing, sandbox, changelog, getting-started guide, and 30 more developer resources.'
+  Sendlane''s developer surface includes authentication, documentation, engineering blog, pricing, sandbox, changelog, getting-started guide, and 31 more developer resources.'
 plans:
 - name: Sendlane Plans Pricing
   plan_count: 4
@@ -236,18 +279,23 @@ rate_limits:
   slug: sendlane-rate-limits
 score:
   band: strong
-  composite: 65.3
-  delta: 1.4
+  composite: 63.8
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 47.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 16.7
-    contract_quality: 68.9
+    contract_governance: 4.5
+    contract_quality: 68.8
     developer_ergonomics: 70.8
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 63.2
-  previous_composite: 63.9
+  previous_composite: 64.4
   provenance:
     conformance: derived
     contracts:
@@ -257,8 +305,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendlane/refs/heads/main/screenshots/sendlane-2026-06-20T193659.png
 security:

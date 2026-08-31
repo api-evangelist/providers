@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: 'Rockerbox''s server-side integration. A documented HTTP POST endpoint that accepts one conversion or marketing event per request as JSON, authenticated by a Rockerbox Advertiser ID passed in the query '
@@ -93,10 +93,6 @@ common:
   title: ''
   type: BlogRSS
   url: https://www.rockerbox.com/blog/rss.xml
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 - group: commercial
   title: ''
   type: Pricing
@@ -220,7 +216,7 @@ overview: 'Rockerbox publishes 2 APIs on the [APIs.io](https://apis.io/) network
   The Rockerbox catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Rockerbox''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 29 more developer resources.'
+  Rockerbox''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 28 more developer resources.'
 plans:
 - name: Rockerbox Plans Pricing
   plan_count: 1
@@ -233,6 +229,11 @@ rate_limits:
 score:
   band: developing
   composite: 53.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 75.0
@@ -248,8 +249,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockerbox/refs/heads/main/screenshots/rockerbox-2026-06-20T193150.png
 security:

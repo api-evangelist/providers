@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 58
   slug: flightaware-agentic-access
   summary_line: 58 operations · 6 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: 'AeroAPI is FlightAware''s query-based REST API for accessing aviation data on demand. It exposes 60+ endpoints across flights, airports, operators, alerts, history, and Foresight predictive analytics, '
   name: FlightAware AeroAPI
@@ -184,18 +184,23 @@ rate_limits:
   slug: flightaware-rate-limits
 score:
   band: developing
-  composite: 40.2
-  delta: 1.9
+  composite: 39.7
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 59.8
     developer_ergonomics: 38.1
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 38.3
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     contracts:
@@ -203,8 +208,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

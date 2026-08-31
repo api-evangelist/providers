@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 217
   human_in_the_loop: 1
@@ -1602,18 +1602,26 @@ rules:
   slug: mews-systems-spectral-rules
 score:
   band: strong
-  composite: 61.8
-  delta: 3.1
+  composite: 58.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -3.5
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 28.8
-    contract_quality: 22.5
+    contract_quality: 22.8
     developer_ergonomics: 78.6
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 73.7
-  previous_composite: 58.7
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1627,8 +1635,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mews-systems/refs/heads/main/screenshots/mews-systems-2026-06-20T185318.png
 security:

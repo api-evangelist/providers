@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: The foundational API layer of the Bloomberg Platform providing real-time, reference, and historical data access through a socket-based protocol with SDKs for multiple programming languages.
@@ -47,6 +47,10 @@ apis:
   slug: bloomberg-identity-api
 artifact_total: 17
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
 - group: operate
   title: ''
   type: IssueTracker
@@ -108,14 +112,14 @@ finops:
   slug: bloomberg-platform-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-platform.png
 layout: provider
-modified: '2026-04-21'
+modified: '2026-08-27'
 name: Bloomberg Platform
 nav: Providers
 network: true
 overview: 'Bloomberg Platform publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Platform, Infrastructure, Data Distribution, API Gateway, and Integration.
 
 
-  Bloomberg Platform''s developer surface includes developer portal, documentation, support, and 7 more developer resources.'
+  Bloomberg Platform''s developer surface includes developer portal, documentation, support, and 8 more developer resources.'
 plans:
 - name: Bloomberg Platform Plans Pricing
   plan_count: 3
@@ -127,8 +131,13 @@ rate_limits:
   slug: bloomberg-platform-rate-limits
 score:
   band: emerging
-  composite: 20.0
-  delta: 0.0
+  composite: 22.0
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 2.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -138,9 +147,12 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 10.5
+  open_source:
+    applies: true
+    score: 40.0
   previous_composite: 20.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-platform/refs/heads/main/screenshots/bloomberg-platform-2026-06-20T173451.png
 security:

@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.3
-  scored_at: '2026-08-26'
+  score: 35.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 23
   slug: instacart-agentic-access
   summary_line: 23 operations · 19 acting
-api_count: 10
+api_count: 5
 apis:
 - description: Instacart Shopping Widgets are front-end web components that retailers can embed into their websites to add e-commerce functionalities powered by Instacart without interacting with any API directly. T
   name: Instacart Shopping Widgets
@@ -74,7 +74,13 @@ apis:
 - description: Endpoints for managing item replacements suggested by shoppers during order fulfillment.
   name: instacart Replacements API
   slug: instacart-replacements-api
-artifact_total: 72
+- description: Instacart's first-party remote Model Context Protocol server. Production endpoint https://mcp.instacart.com/mcp over Streamable HTTP, authenticated with a Developer Platform API key as an Authorizatio
+  name: Instacart Developer Platform MCP Server
+  slug: instacart-mcp-server
+- description: The Rest API from instacart — 1 operation(s) for rest.
+  name: instacart Rest API
+  slug: instacart-rest-api
+artifact_total: 76
 asyncapis:
 - description: Instacart Connect notifies retailers of order status changes and fulfillment events through webhook callbacks. Retailers configure callback endpoints to receive real-time notifications about order lif
   name: Instacart Connect Event Callbacks
@@ -123,6 +129,14 @@ collections:
   name: Instacart Catalog Authentication Replacements API
   slug: open-instacart-replacements-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/instacart-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/instacart-llm-integration-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -159,7 +173,181 @@ common:
   title: ''
   type: JSONSchema
   url: json-schema/instacart-product-schema.json
-description: Use the public Instacart APIs to add Instacart shopping capabilities to your applications, such as product shopping lists and recipe ingredients.
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/instacart-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/instacart-security.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/instacart-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/instacart-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/instacart-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/instacart-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/instacart-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/instacart-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/instacart-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/instacart-conventions.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/instacart-sandbox.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/instacart-changelog.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/instacart-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/instacart-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/instacart-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/instacart-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/instacart-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/instacart-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/instacart-vocabulary.yml
+- group: design
+  title: ''
+  type: JSONStructure
+  url: json-structure/instacart-structure.json
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/instacart-connect-events-asyncapi.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/instacart-connect-events-asyncapi.yml
+- group: design
+  title: ''
+  type: Spectral
+  url: rules/instacart-asyncapi-spectral-rules.yml
+- group: design
+  title: ''
+  type: Spectral
+  url: rules/instacart-jsonschema-spectral-rules.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://hackerone.com/instacart
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://enterprise-status.instacart.com/
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.instacart.com/connect/api/fulfillment/deprecated
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.instacart.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.instacart.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.instacart.com/developer_platform_api/api/overview
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.instacart.com/developer_platform_api/get_started/overview
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.instacart.com/developer_platform_api/api/changelog
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: https://docs.instacart.com/developer_platform_api/api/error_and_status_codes
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://docs.instacart.com/connect/api/authentication
+- group: operate
+  title: ''
+  type: Support
+  url: https://instacart.atlassian.net/servicedesk/customer/portal/1
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://docs.instacart.com/developer_platform_api/faq
+- group: company
+  title: ''
+  type: Blog
+  url: https://tech.instacart.com/
+- group: start
+  title: ''
+  type: Signup
+  url: https://dashboard.instacart.com/
+- group: start
+  title: ''
+  type: Portal
+  url: https://dashboard.instacart.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.instacart.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.instacart.com/privacy
+- group: commercial
+  title: ''
+  type: DeveloperTerms
+  url: https://docs.instacart.com/developer_platform_api/guide/terms_and_policies/developer_terms
+created: '2026-05-04'
+description: 'Instacart (Maplebear Inc.) is a North American grocery technology company that operates the Instacart Marketplace and sells its underlying commerce, fulfillment, catalog, advertising and storefront technology to retailers and brands. Its published API surface splits cleanly in two. The Instacart Developer Platform API is open to app and website developers, costs nothing, and exposes two shoppable-page operations plus a nearby-retailers lookup at connect.instacart.com/idp/v1 -- and, unusually, Instacart pays the developer, commissioning attributed orders through an Impact affiliate programme. Instacart Connect is the enterprise half: OAuth 2.0, partner-gated Fulfillment, Post-checkout, Transaction and Sandbox APIs, the Catalog API, Carrot Ads and Shopping Widgets, all bundled into a retailer or brand partner agreement. Instacart also runs a first-party remote Model Context Protocol server at https://mcp.instacart.com/mcp whose tools/list is served anonymously, making it one
+  of the few grocery-sector providers with a directly reachable agent surface.'
 finops:
 - name: Instacart Finops
   service_category: Marketplace + Logistics
@@ -285,24 +473,28 @@ jsonld:
   property_count: 8
   slug: instacart-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: Instacart publishes a first-party, remote Model Context Protocol server that exposes the Instacart Developer Platform's two shoppable-page operations as MCP tools. The production endpoint is https://m
+  name: Instacart Developer Platform MCP Server
+  slug: instacart-developer-platform-mcp-server
+modified: '2026-08-27'
 name: instacart
 nav: Providers
 network: true
-overview: 'instacart publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Chat API, Delivery API, and 6 more.
+overview: 'instacart publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Chat API, Delivery API, and 7 more. Tagged areas include Grocery, E-Commerce, Marketplace, Retail, and Logistics.
 
 
   The instacart catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  instacart''s developer surface includes authentication and 8 more developer resources.'
+  instacart''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 47 more developer resources.'
 plans:
 - name: Instacart Plans Pricing
-  plan_count: 2
+  plan_count: 3
   slug: instacart-plans-pricing
 random_paper: 3
 rate_limits:
-- limit_count: 1
+- limit_count: 2
   name: Instacart Rate Limits
   slug: instacart-rate-limits
 rules:
@@ -327,20 +519,30 @@ rules:
     info: 1
     warn: 5
   slug: instacart-jsonschema-spectral-rules
+scopes:
+- name: Instacart Scopes
+  scope_count: 0
+  slug: instacart-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 32.9
-  delta: 1.9
+  band: strong
+  composite: 65.0
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
-    contract_governance: 13.6
-    contract_quality: 73.3
-    developer_ergonomics: 21.4
-    discoverability: 50.0
-    governance: 13.6
-    operational_transparency: 7.9
-  previous_composite: 31.0
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 47.0
+    contract_quality: 73.7
+    developer_ergonomics: 71.4
+    discoverability: 81.5
+    governance: 47.0
+    operational_transparency: 65.8
+  previous_composite: 65.0
   provenance:
     agentic_access: derived
     contracts:
@@ -348,19 +550,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  regulatory:
-    applies: false
-    note: provider carries no tags; regime could not be determined
-    undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/screenshots/instacart-2026-06-20T183414.png
 security:
 - kind: authentication
   name: Instacart Authentication
   slug: instacart-authentication
-  summary_line: apiKey/http · 2 schemes
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Instacart Domain Security
   slug: instacart-domain-security
@@ -370,4 +568,17 @@ security:
   slug: instacart-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
 slug: instacart
+tags:
+- Grocery
+- E-Commerce
+- Marketplace
+- Retail
+- Logistics
+- Last Mile Delivery
+- Fulfillment
+- Catalog
+- Advertising
+- Agents
+- MCP
+website: https://docs.instacart.com/
 ---

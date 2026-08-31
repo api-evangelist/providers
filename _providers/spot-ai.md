@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -41,53 +41,53 @@ agentic_access:
   operation_count: 43
   slug: spot-agentic-access
   summary_line: 43 operations · 22 acting
-api_count: 15
+api_count: 18
 apis:
-- description: The Analytics API from Spot — 3 operation(s) for analytics.
-  name: Spot Analytics API
-  slug: spot-analytics-api
-- description: The Appliances API from Spot — 2 operation(s) for appliances.
-  name: Spot Appliances API
-  slug: spot-appliances-api
-- description: The Audio API from Spot — 1 operation(s) for audio.
-  name: Spot Audio API
-  slug: spot-audio-api
-- description: The Cameras API from Spot — 8 operation(s) for cameras.
-  name: Spot Cameras API
-  slug: spot-cameras-api
-- description: The Embeds API from Spot — 2 operation(s) for embeds.
-  name: Spot Embeds API
-  slug: spot-embeds-api
-- description: The Historical Footage API from Spot — 2 operation(s) for historical footage.
-  name: Spot Historical Footage API
-  slug: spot-historical-footage-api
-- description: The Integration Devices API from Spot — 3 operation(s) for integration devices.
-  name: Spot Integration Devices API
-  slug: spot-integration-devices-api
-- description: The Integration Event Types API from Spot — 2 operation(s) for integration event types.
-  name: Spot Integration Event Types API
-  slug: spot-integration-event-types-api
-- description: The Integration Events API from Spot — 3 operation(s) for integration events.
-  name: Spot Integration Events API
-  slug: spot-integration-events-api
-- description: The Integrations API from Spot — 2 operation(s) for integrations.
-  name: Spot Integrations API
-  slug: spot-integrations-api
-- description: The Locations API from Spot — 1 operation(s) for locations.
-  name: Spot Locations API
-  slug: spot-locations-api
-- description: The LPI API from Spot — 1 operation(s) for lpi.
-  name: Spot LPI API
-  slug: spot-lpi-api
-- description: The LPR API from Spot — 1 operation(s) for lpr.
-  name: Spot LPR API
-  slug: spot-lpr-api
-- description: The Shared Search API from Spot — 2 operation(s) for shared search.
-  name: Spot Shared Search API
-  slug: spot-shared-search-api
-- description: The Zones API from Spot — 1 operation(s) for zones.
-  name: Spot Zones API
-  slug: spot-zones-api
+- description: The Analytics API from Spot AI — 3 operation(s) for analytics.
+  name: Spot AI Analytics API
+  slug: spot-ai-analytics-api
+- description: The Appliances API from Spot AI — 2 operation(s) for appliances.
+  name: Spot AI Appliances API
+  slug: spot-ai-appliances-api
+- description: The Audio API from Spot AI — 1 operation(s) for audio.
+  name: Spot AI Audio API
+  slug: spot-ai-audio-api
+- description: The Cameras API from Spot AI — 8 operation(s) for cameras.
+  name: Spot AI Cameras API
+  slug: spot-ai-cameras-api
+- description: The Embeds API from Spot AI — 2 operation(s) for embeds.
+  name: Spot AI Embeds API
+  slug: spot-ai-embeds-api
+- description: The Historical Footage API from Spot AI — 2 operation(s) for historical footage.
+  name: Spot AI Historical Footage API
+  slug: spot-ai-historical-footage-api
+- description: The Integration Devices API from Spot AI — 3 operation(s) for integration devices.
+  name: Spot AI Integration Devices API
+  slug: spot-ai-integration-devices-api
+- description: The Integration Event Types API from Spot AI — 2 operation(s) for integration event types.
+  name: Spot AI Integration Event Types API
+  slug: spot-ai-integration-event-types-api
+- description: The Integration Events API from Spot AI — 3 operation(s) for integration events.
+  name: Spot AI Integration Events API
+  slug: spot-ai-integration-events-api
+- description: The Integrations API from Spot AI — 2 operation(s) for integrations.
+  name: Spot AI Integrations API
+  slug: spot-ai-integrations-api
+- description: The Locations API from Spot AI — 1 operation(s) for locations.
+  name: Spot AI Locations API
+  slug: spot-ai-locations-api
+- description: The LPI API from Spot AI — 1 operation(s) for lpi.
+  name: Spot AI LPI API
+  slug: spot-ai-lpi-api
+- description: The LPR API from Spot AI — 1 operation(s) for lpr.
+  name: Spot AI LPR API
+  slug: spot-ai-lpr-api
+- description: The Shared Search API from Spot AI — 2 operation(s) for shared search.
+  name: Spot AI Shared Search API
+  slug: spot-ai-shared-search-api
+- description: The Zones API from Spot AI — 1 operation(s) for zones.
+  name: Spot AI Zones API
+  slug: spot-ai-zones-api
 artifact_total: 37
 asyncapis:
 - description: ''
@@ -271,7 +271,7 @@ modified: '2026-07-21'
 name: Spot AI
 nav: Providers
 network: true
-overview: 'Spot AI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Spot Analytics API, Spot Appliances API, Spot Audio API, and 12 more. Tagged areas include Company, Video, Physical Security, Surveillance, and Computer-Vision.
+overview: 'Spot AI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Appliances API, Audio API, and 12 more. Tagged areas include Company, Video, Physical Security, Surveillance, and Computer-Vision.
 
 
   The Spot AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -281,18 +281,23 @@ overview: 'Spot AI publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 8
 score:
   band: developing
-  composite: 48.3
+  composite: 46.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 65.3
     developer_ergonomics: 39.9
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 48.3
+  previous_composite: 46.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -303,8 +308,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spot-ai/refs/heads/main/screenshots/spot-2026-08-17T082037.png
 security:

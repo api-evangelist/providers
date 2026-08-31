@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -271,8 +271,13 @@ rules:
   slug: apis-guru-spectral-rules
 score:
   band: thin
-  composite: 32.3
-  delta: 1.0
+  composite: 33.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 29.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.7
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -282,7 +287,10 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 31.3
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 32.3
   provenance:
     agentic_access: derived
     contracts:
@@ -290,8 +298,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apis-guru/refs/heads/main/screenshots/apis-guru-2026-06-20T172300.png
 security:

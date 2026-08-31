@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: fever-agentic-access
   summary_line: 13 operations · 7 acting
-api_count: 5
+api_count: 1
 apis:
 - description: This endpoint is used to authenticate a user. It requires a username and password to be passed in the request body. If the user is authenticated successfully, a token is returned in the response body.
   name: Fever Authentication API
@@ -191,18 +191,23 @@ rate_limits:
   slug: fever-rate-limits
 score:
   band: thin
-  composite: 33.3
-  delta: 0.0
+  composite: 30.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 50.3
     developer_ergonomics: 25.6
-    discoverability: 66.7
-    governance: 16.7
+    discoverability: 57.4
+    governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 33.3
+  previous_composite: 31.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -213,8 +218,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/screenshots/fever-2026-07-25T214354.png
 security:

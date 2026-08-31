@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 2
 common:
@@ -104,14 +104,19 @@ modified: '2026-07-19'
 name: HYCU
 nav: Providers
 network: true
-overview: 'HYCU is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Data Protection, Backup, and Disaster Recovery.
+overview: 'HYCU is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Infrastructure, Data Protection, Backup, and Disaster Recovery.
 
 
   HYCU''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 10 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 22.3
+  composite: 23.1
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
@@ -119,12 +124,12 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 22.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 23.1
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hycu/refs/heads/main/screenshots/hycu-2026-07-25T221815.png
 security:
@@ -139,7 +144,7 @@ security:
 slug: hycu
 tags:
 - Company
-- AI Infrastructure
+- Ai Infrastructure
 - Data Protection
 - Backup
 - Disaster Recovery

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Mutiny's hosted Model Context Protocol server and its only public programmatic entry point. It exposes the workspace's asset creation, template, content library and publishing capabilities to any MCP-
@@ -172,7 +172,7 @@ modified: '2026-08-13'
 name: Mutiny HQ
 nav: Providers
 network: true
-overview: 'Mutiny HQ publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Go-To-Market, Sales Enablement, Marketing, and Website Personalization.
+overview: 'Mutiny HQ publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GTM, Sales Enablement, Marketing, and Website Personalization.
 
 
   Mutiny HQ''s developer surface includes documentation, engineering blog, pricing, signup flow, authentication, API reference, getting-started guide, and 22 more developer resources.'
@@ -192,7 +192,12 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.7
+  composite: 36.6
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 77.6
@@ -200,15 +205,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 54.8
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 37.7
+  previous_composite: 36.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mutiny-hq/refs/heads/main/screenshots/mutiny-hq-2026-08-07T184453.png
 security:
@@ -223,14 +228,14 @@ security:
 slug: mutiny-hq
 tags:
 - Company
-- Go-To-Market
+- GTM
 - Sales Enablement
 - Marketing
 - Website Personalization
 - Artificial Intelligence
 - Agents
 - MCP
-- Account Based Marketing
+- ABM
 - Content Generation
 website: https://www.mutinyhq.com/
 ---

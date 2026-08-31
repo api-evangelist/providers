@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 8
   slug: avora-agent-forge-agentic-access
   summary_line: 8 operations · 1 acting
-api_count: 3
+api_count: 2
 apis:
 - description: Hosted streamable-HTTP MCP server exposing eleven tools across scanning, offers, Solana Pay ordering, settlement verification, and aggregate commerce telemetry. tools/list responds 200 anonymously wit
   name: AVORA Agent Forge MCP Server
@@ -180,19 +180,24 @@ plans:
   slug: avora-agent-forge-plans
 random_paper: 5
 score:
-  band: developing
-  composite: 40.2
-  delta: 0.0
+  band: thin
+  composite: 38.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 50.7
     developer_ergonomics: 51.8
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 70.4
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 40.2
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -209,8 +214,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

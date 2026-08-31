@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 43
   slug: testiny-agentic-access
   summary_line: 43 operations · 28 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Automated test cases and test runs submitted from CI/CD.
   name: Testiny Automation API
@@ -154,18 +154,23 @@ rate_limits:
   slug: testiny-rate-limits
 score:
   band: developing
-  composite: 41.3
-  delta: 2.4
+  composite: 40.7
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 52.5
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 38.9
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -173,8 +178,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

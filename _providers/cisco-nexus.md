@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: cisco-nexus-agentic-access
   summary_line: 18 operations · 9 acting · 2 human-in-the-loop
-api_count: 16
+api_count: 1
 apis:
 - description: API that accepts show commands and configuration commands in CLI format.
   name: Cisco NX-API CLI
@@ -620,18 +620,23 @@ rules:
   slug: cisco-nexus-spectral-rules
 score:
   band: thin
-  composite: 32.0
-  delta: 7.2
+  composite: 31.4
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 62.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
     contract_quality: 22.1
     developer_ergonomics: 67.9
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 24.8
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -639,9 +644,9 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/screenshots/cisco-nexus-2026-06-20T174359.png
 security:
 - kind: authentication

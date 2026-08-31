@@ -6,7 +6,7 @@ agent_readiness:
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.6
-  scored_at: '2026-08-26'
+  score: 38.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -33,31 +33,112 @@ agentic_access:
   summary_line: 117 operations · 46 acting · 1 human-in-the-loop
 api_count: 8
 apis:
-- description: The KORE ConnectivityPro API is the largest of KORE's published surfaces — 49 paths and 55 operations covering SIM and eSIM provisioning, eSIM profile management, activation profiles, subscriptions, a
-  name: KORE Connectivity Pro API
-  slug: kore-connectivity-pro-api
-- description: Super SIM is the multi-IMSI global cellular connectivity platform KORE acquired from Twilio IoT. The API exposes 20 paths and 31 operations across Sim, Fleet, NetworkAccessProfile, Network, eSimProfil
-  name: KORE Super SIM API
-  slug: kore-super-sim-api
-- description: Programmable Wireless is the legacy Twilio IoT cellular product now operated by KORE. The API publishes 9 paths and 16 operations covering the Wireless Sim resource, RatePlan, Command, DataSession, an
-  name: KORE Programmable Wireless API
-  slug: kore-programmable-wireless-api
-- description: The KORE SMS API programmatically exchanges short messages with IoT devices on KORE connectivity. Three operations — send a message, list messages, and retrieve SMS message history — form the messagin
-  name: KORE SMS API
-  slug: kore-sms-api
-- description: The public KORE Webhook API creates, retrieves, and modifies the signing secrets used to verify callbacks KORE sends to customer endpoints. KORE webhooks are signature-verified and idempotent, and the
-  name: KORE Webhook API
-  slug: kore-webhook-api
-- description: The KORE IAM API manages customer accounts and their relationships — creating accounts, retrieving account hierarchies, and managing platform-specific mappings between parent and child accounts across
-  name: KORE Identity and Access Management API
-  slug: kore-iam-api
-- description: The Client Management API creates, retrieves, and lists the API Clients that hold the credentials and settings for an integration with KORE. An API Client is the required gateway to every other KORE A
-  name: KORE API Clients API
-  slug: kore-api-clients-api
-- description: The KORE Token API is the OAuth 2.0 authorization endpoint for the whole platform. A single POST to /v1/auth/token exchanges Client Credentials for a bearer access token per RFC 6749 section 4.4, with
-  name: KORE Token API
-  slug: kore-token-api
-artifact_total: 23
+- description: Account details of customer
+  name: KORE Wireless Account API
+  slug: kore-wireless-account-api
+- description: The Accounts API from KORE Wireless — 2 operation(s) for accounts.
+  name: KORE Wireless Accounts API
+  slug: kore-wireless-accounts-api
+- description: API to manage activation profile related activities for a given account . <br> For more details please go to our help desk article [here](https://helpdesk.korewireless.com/hc/en-us/articles/3600501444
+  name: KORE Wireless Activation Profiles API
+  slug: kore-wireless-activation-profiles-api
+- description: APIs that provides alerts on subscribed events
+  name: KORE Wireless Alerting API
+  slug: kore-wireless-alerting-api
+- description: The Auth API from KORE Wireless — 1 operation(s) for auth.
+  name: KORE Wireless Auth API
+  slug: kore-wireless-auth-api
+- description: These APIs enable users to perform various operations, including creating, retrieving, updating, and deleting client information. Through these APIs, users can interact with a wide range of client dat
+  name: KORE Wireless Clients API
+  slug: kore-wireless-clients-api
+- description: The Commands Resource API from KORE Wireless — 2 operation(s) for commands resource.
+  name: KORE Wireless Commands Resource API
+  slug: kore-wireless-commands-resource-api
+- description: The DataSessions Resource API from KORE Wireless — 1 operation(s) for datasessions resource.
+  name: KORE Wireless DataSessions Resource API
+  slug: kore-wireless-datasessions-resource-api
+- description: The Diagnostics API from KORE Wireless — 2 operation(s) for diagnostics.
+  name: KORE Wireless Diagnostics API
+  slug: kore-wireless-diagnostics-api
+- description: Retrieve details about the eligibility of a given account
+  name: KORE Wireless Eligibility API
+  slug: kore-wireless-eligibility-api
+- description: API to manage eSIM Switch related activities for a given account <br> Refer to the <a href="https://korewireless.service-now.com/csm?sys_kb_id=ec87a82f976ee110d038301e6253afa3&id=kb_article_view&syspa
+  name: KORE Wireless eSIM Profile Management API
+  slug: kore-wireless-esim-profile-management-api
+- description: ping health service
+  name: KORE Wireless Health API
+  slug: kore-wireless-health-api
+- description: API to send message to the SIMs about any software upgrade/similar things.
+  name: KORE Wireless Messages API
+  slug: kore-wireless-messages-api
+- description: Status of requests made by the customer
+  name: KORE Wireless Provisioning API
+  slug: kore-wireless-provisioning-api
+- description: The RatePlans Resource API from KORE Wireless — 2 operation(s) for rateplans resource.
+  name: KORE Wireless RatePlans Resource API
+  slug: kore-wireless-rateplans-resource-api
+- description: Customers of KORE who pre-configure report schedules have reports automatically generated and securely stored at the scheduled times — when accessed via API, they receive data in the agreed format, wi
+  name: KORE Wireless Reports API
+  slug: kore-wireless-reports-api
+- description: The Secrets API from KORE Wireless — 2 operation(s) for secrets.
+  name: KORE Wireless Secrets API
+  slug: kore-wireless-secrets-api
+- description: 'Customers of KORE having Radius Accounting integrated at carrier level will have session events collected at KORE. Session START and STOP events are correlated, and data is exposed as Session API for '
+  name: KORE Wireless Session API
+  slug: kore-wireless-session-api
+- description: The Sims Resource API from KORE Wireless — 2 operation(s) for sims resource.
+  name: KORE Wireless Sims Resource API
+  slug: kore-wireless-sims-resource-api
+- description: API provides subscription enquiries made by the customer.
+  name: KORE Wireless Subscription API
+  slug: kore-wireless-subscription-api
+- description: The SupersimV1BillingPeriod API from KORE Wireless — 1 operation(s) for supersimv1billingperiod.
+  name: KORE Wireless Supersim V1 Billing Period API
+  slug: kore-wireless-supersimv1billingperiod-api
+- description: The SupersimV1EsimProfile API from KORE Wireless — 2 operation(s) for supersimv1esimprofile.
+  name: KORE Wireless Supersim V1 Esim Profile API
+  slug: kore-wireless-supersimv1esimprofile-api
+- description: The SupersimV1Fleet API from KORE Wireless — 2 operation(s) for supersimv1fleet.
+  name: KORE Wireless Supersim V1 Fleet API
+  slug: kore-wireless-supersimv1fleet-api
+- description: The SupersimV1IpCommand API from KORE Wireless — 2 operation(s) for supersimv1ipcommand.
+  name: KORE Wireless Supersim V1 Ip Command API
+  slug: kore-wireless-supersimv1ipcommand-api
+- description: The SupersimV1Network API from KORE Wireless — 2 operation(s) for supersimv1network.
+  name: KORE Wireless Supersim V1 Network API
+  slug: kore-wireless-supersimv1network-api
+- description: The SupersimV1NetworkAccessProfile API from KORE Wireless — 2 operation(s) for supersimv1networkaccessprofile.
+  name: KORE Wireless Supersim V1 Network Access Profile API
+  slug: kore-wireless-supersimv1networkaccessprofile-api
+- description: The SupersimV1NetworkAccessProfileNetwork API from KORE Wireless — 2 operation(s) for supersimv1networkaccessprofilenetwork.
+  name: KORE Wireless Supersim V1 Network Access Profile Network API
+  slug: kore-wireless-supersimv1networkaccessprofilenetwork-api
+- description: The SupersimV1SettingsUpdate API from KORE Wireless — 1 operation(s) for supersimv1settingsupdate.
+  name: KORE Wireless Supersim V1 Settings Update API
+  slug: kore-wireless-supersimv1settingsupdate-api
+- description: The SupersimV1Sim API from KORE Wireless — 2 operation(s) for supersimv1sim.
+  name: KORE Wireless Supersim V1 Sim API
+  slug: kore-wireless-supersimv1sim-api
+- description: The SupersimV1SimIpAddress API from KORE Wireless — 1 operation(s) for supersimv1simipaddress.
+  name: KORE Wireless Supersim V1 Sim Ip Address API
+  slug: kore-wireless-supersimv1simipaddress-api
+- description: The SupersimV1SmsCommand API from KORE Wireless — 2 operation(s) for supersimv1smscommand.
+  name: KORE Wireless Supersim V1 Sms Command API
+  slug: kore-wireless-supersimv1smscommand-api
+- description: The SupersimV1UsageRecord API from KORE Wireless — 1 operation(s) for supersimv1usagerecord.
+  name: KORE Wireless Supersim V1 Usage Record API
+  slug: kore-wireless-supersimv1usagerecord-api
+- description: APIs that are currently under testing
+  name: KORE Wireless Testing API
+  slug: kore-wireless-testing-api
+- description: A user can retrieve usage records for a given subscription or plan
+  name: KORE Wireless Usage API
+  slug: kore-wireless-usage-api
+- description: The UsageRecords Resource API from KORE Wireless — 2 operation(s) for usagerecords resource.
+  name: KORE Wireless UsageRecords Resource API
+  slug: kore-wireless-usagerecords-resource-api
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Kore Wireless Event Streams Webhooks
@@ -88,6 +169,42 @@ collections:
   name: Webhook APIs
   slug: open-kore-wireless-webhook
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kore-wireless-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kore-wireless-connectivity-pro-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kore-wireless-supersim-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kore-wireless-programmable-wireless-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kore-wireless-sms-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kore-wireless-webhook-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kore-wireless-iam-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kore-wireless-api-clients-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kore-wireless-token-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -273,13 +390,13 @@ modified: '2026-07-25'
 name: KORE Wireless
 nav: Providers
 network: true
-overview: 'KORE Wireless publishes 8 APIs on the [APIs.io](https://apis.io/) network, including KORE Connectivity Pro API, KORE Super SIM API, KORE Programmable Wireless API, and 5 more. Tagged areas include Telecommunications, United States, IoT, eSIM, and Connectivity.
+overview: 'KORE Wireless publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Activation Profiles API, and 32 more. Tagged areas include Telecommunications, United States, IoT, eSIM, and Connectivity.
 
 
   The KORE Wireless catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  KORE Wireless'' developer surface includes authentication, documentation, API reference, developer console, signup flow, engineering blog, product news, and 36 more developer resources.'
+  KORE Wireless'' developer surface includes authentication, documentation, API reference, developer console, signup flow, engineering blog, product news, and 45 more developer resources.'
 random_paper: 12
 scopes:
 - name: Kore Wireless Scopes
@@ -288,18 +405,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.9
+  composite: 49.9
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 58.5
     developer_ergonomics: 63.7
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 51.9
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -316,8 +438,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 63.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kore-wireless/refs/heads/main/screenshots/kore-wireless-2026-08-07T171327.png
 security:

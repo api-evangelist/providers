@@ -1,6 +1,6 @@
 {
- "total": 73,
- "shown": 73,
+ "total": 74,
+ "shown": 74,
  "limit": 1000,
  "bands": [
   {
@@ -8,29 +8,29 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "Olo",
      "slug": "olo",
      "description": "Olo is a leading on-demand commerce platform powering the digital experience for restaurant brands, serving approximately 750+ enterprise and emerging chains across 90,000+ restaurant locations. The Olo platform combines online ordering, delivery dispatch, marketplace integration (Rails), payments (Olo Pay), guest data (GDP / Marketing), loyalty, and POS connectivity (Omnivore) into a single restaurant commerce stack. Developers and certified Olo Connect partners build against the Ordering API (custom order injection), Rails API (third-party marketplace order delivery), Dispatch API (delivery orchestration), the POS Interface (OloCloud) for direct POS integrations, the Omnivore API (multi-POS abstraction), the Olo Pay SDKs (iOS, Android, Flutter, Digital Wallets), and a webhook surface that fires order, loyalty, gift-card, and tender events. APIs use signature-based request authorization (HMAC) for ordering/rails plus webhook signature validation; sample code is published for C#, Java, PHP, Ruby, JavaScript, and Python. Olo (NYSE - OLO) is headquartered in New York City and went public in March 2021.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/screenshots/olo-2026-06-20T190700.png",
-     "score": 64.9,
+     "score": 62.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 64.8,
+      "discoverability": 59.3,
       "contract_quality": 77.6,
       "governance": 28.8,
       "contract_governance": 28.8,
-      "operational_transparency": 50.0,
+      "operational_transparency": 65.8,
       "developer_ergonomics": 59.5,
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -62,52 +62,41 @@
       "agentic_commerce": false
      },
      "rank": 1
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "39.3 – 54.2",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 4,
-   "shown": 4,
-   "providers": [
+    },
     {
-     "name": "Bear Robotics",
-     "slug": "bear-robotics",
-     "description": "Bear Robotics builds AI-driven autonomous mobile robots for hospitality and service environments — the Servi family (Servi, Servi Plus, Servi Q, Servi Clean) for restaurants, senior living, hotels and hospitals, the Carti cargo line for warehouses and factories, and Kinisi — all managed through the Bear Universe cloud fleet platform. Founded in 2017 by former Google engineer John Ha, headquartered in Redwood City, California, and now majority-owned by LG Electronics. Bear publishes a genuinely open, gRPC-first third-party developer surface: the Bear Cloud API (39 RPCs, 27 unary and 12 server-streaming) for creating missions, streaming robot state and managing fleets, plus an on-robot Bear Base API for direct local control. The Protobuf definitions are published under MPL-2.0 in a public GitHub organization, an OpenAPI 3.0.3 document covers the transcoded REST projection, and v1.3 added outbound webhooks. API keys are issued through an account manager rather than self-serve signup.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/screenshots/bear-robotics-2026-08-07T162236.png",
-     "score": 47.2,
-     "band": "developing",
-     "band_label": "Developing",
+     "name": "Toast",
+     "slug": "toast",
+     "description": "Toast is a restaurant technology platform providing cloud-based point-of-sale, payment processing, and business management tools for the restaurant industry. The Toast platform exposes REST APIs enabling technology partners to build integrations for orders, menus, labor management, restaurant configuration, inventory/stock management, authentication, and partner ecosystem access. APIs use OAuth 2.0 client credentials authentication with GUIDs for resource identification. Toast serves 120,000+ restaurant locations and offers both partner integrations (requiring formal partnership) and custom integrations via the developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/screenshots/toast-2026-06-20T195427.png",
+     "score": 60.9,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 58.2,
-      "governance": 16.7,
-      "contract_governance": 16.7,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 66.1,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
+      "discoverability": 57.4,
+      "contract_quality": 75.6,
+      "governance": 47.0,
+      "contract_governance": 47.0,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 69.0,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 25.4,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 44.0,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "negotiable",
       "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
       "event_surface_described": true,
-      "agent_skills": "derived",
+      "agent_skills": true,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -118,16 +107,27 @@
       "agentic_commerce": false
      },
      "rank": 2
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "39.3 – 54.2",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 3,
+   "shown": 3,
+   "providers": [
     {
      "name": "Venue Authority",
      "slug": "venueauthority",
      "description": "Venue Authority is a self-serve facility verification and monitoring API for payment facilitators, marketplaces, KYB providers and restaurant platforms working with food-service businesses. It matches a business name and street address to a supported regulator facility record, returns source-linked evidence for that match, and supports ongoing portfolio monitoring so a change at the regulator surfaces after onboarding rather than at the next manual review. The public contract is an OpenAPI 3.1 document of 12 paths and 15 operations, authenticated with a bearer API key, and the provider tags every operation into five groups — resolution and evidence, coverage, watchlists, webhooks and audit exports — which is how it is carried here as five per-resource documents. Coverage is enumerated by the API itself rather than described in prose, and the provider publishes an APIs.json, llms.txt, llms-full.txt, a Postman collection and a machine-readable error catalogue alongside the contract, plus MIT-licensed Node.js, Python and MCP client packages released on GitHub with checksummed build artifacts.",
-     "score": 46.1,
+     "score": 45.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 75.9,
+      "discoverability": 70.4,
       "contract_quality": 53.3,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -136,8 +136,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -171,15 +171,60 @@
      "rank": 3
     },
     {
+     "name": "Bear Robotics",
+     "slug": "bear-robotics",
+     "description": "Bear Robotics builds AI-driven autonomous mobile robots for hospitality and service environments — the Servi family (Servi, Servi Plus, Servi Q, Servi Clean) for restaurants, senior living, hotels and hospitals, the Carti cargo line for warehouses and factories, and Kinisi — all managed through the Bear Universe cloud fleet platform. Founded in 2017 by former Google engineer John Ha, headquartered in Redwood City, California, and now majority-owned by LG Electronics. Bear publishes a genuinely open, gRPC-first third-party developer surface: the Bear Cloud API (39 RPCs, 27 unary and 12 server-streaming) for creating missions, streaming robot state and managing fleets, plus an on-robot Bear Base API for direct local control. The Protobuf definitions are published under MPL-2.0 in a public GitHub organization, an OpenAPI 3.0.3 document covers the transcoded REST projection, and v1.3 added outbound webhooks. API keys are issued through an account manager rather than self-serve signup.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bear-robotics/refs/heads/main/screenshots/bear-robotics-2026-08-07T162236.png",
+     "score": 45.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 58.2,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 66.1,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 25.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 4
+    },
+    {
      "name": "ColdSnap",
      "slug": "coldsnap",
      "description": "ColdSnap (formerly Sigma Phase, Corp.) is a Billerica, Massachusetts hardware and frozen-confection company founded in October 2018 by Matt Fonte, whose plug-and-play countertop appliance chills and churns a single serving of premium ice cream, frozen yogurt, non-dairy dessert, frozen latte, protein shake, smoothie or frozen cocktail from a shelf-stable recyclable pod in about two minutes, with no refrigeration, plumbing or cleaning between servings. The company commercially launched in April 2024 and sells machines, pods and accessories to restaurants and bars, hotels, golf and sports clubs, colleges, senior living, car dealerships, offices, convenience stores and micro markets. Its digital surface is a Shopify-hosted commerce storefront at coldsnap.com serving a live, anonymously introspectable Storefront GraphQL API, an anonymous Model Context Protocol server at /api/mcp, a Universal Commerce Protocol (UCP) merchant profile and agentic-commerce endpoint, plus published llms.txt and agents.md agent-instruction documents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/coldsnap/refs/heads/main/screenshots/coldsnap-2026-08-07T163559.png",
-     "score": 44.5,
+     "score": 43.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 92.6,
+      "discoverability": 81.5,
       "contract_quality": 41.5,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -188,8 +233,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 42.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -213,28 +258,39 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 4
-    },
+     "rank": 5
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "26.2 – 39.2",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 6,
+   "shown": 6,
+   "providers": [
     {
      "name": "Daring Foods",
      "slug": "daring-foods",
      "description": "Daring Foods is an American plant-based food company, founded in 2018 by Ross Mackay and Eliott Kessas, that makes 100% plant-based chicken from a deliberately short ingredient list with soy as the protein base. Trading simply as \"Daring\", it sells retail Plant Chicken in shredded, diced and breaded-pieces formats plus a line of ready-to-heat Plant Chicken Bowls and Plant Chicken Wings through more than 15,000 US grocery stores, and runs a separate foodservice business supplying bulk and gluten-free product to restaurants, campus dining and institutional kitchens. The company raised over $120 million across 2020-2021 during the plant-based protein boom and was acquired by the Australian plant-based meat manufacturer v2food in 2025, under which it retains its own brand. Daring Foods is a consumer packaged goods business, not a software vendor: it operates no developer program, publishes no product API, and offers no portal, SDKs or developer support. The only machine-readable interface it exposes is the WordPress REST content API behind daring.com, which is anonymously readable and unusually well-stocked for a CPG site - 208 recipes classified by cooking method, 14 retail products, 7 foodservice products, 17 marketing pages and a 749-item media library - captured here for discovery purposes.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/screenshots/daring-foods-2026-08-07T164036.png",
-     "score": 39.7,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 37.7,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 81.5,
+      "discoverability": 75.9,
       "contract_quality": 57.6,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 0.0,
       "developer_ergonomics": 18.5,
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -258,62 +314,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "26.2 – 39.2",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 6,
-   "shown": 6,
-   "providers": [
-    {
-     "name": "Toast",
-     "slug": "toast",
-     "description": "Toast is a restaurant technology platform providing cloud-based point-of-sale, payment processing, and business management tools for the restaurant industry. The Toast platform exposes REST APIs enabling technology partners to build integrations for orders, menus, labor management, restaurant configuration, inventory/stock management, authentication, and partner ecosystem access. APIs use OAuth 2.0 client credentials authentication with GUIDs for resource identification. Toast serves 120,000+ restaurant locations and offers both partner integrations (requiring formal partnership) and custom integrations via the developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/screenshots/toast-2026-06-20T195427.png",
-     "score": 37.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 55.6,
-      "contract_quality": 64.7,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 31.0,
-      "commercial_clarity": 26.3,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 24.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 6
     },
     {
@@ -321,11 +321,11 @@
      "slug": "marketman",
      "description": "MarketMan is a cloud-based restaurant inventory and purchasing management platform (part of the Meal Ticket portfolio) for back-of-house operations - inventory counts, supplier catalogs, purchase orders, deliveries, invoices, recipes/menu costing, and POS sales. The MarketMan API V3 is a JSON REST API with separate Buyer and Vendor surfaces, token authentication, and webhooks for order events.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/marketman/refs/heads/main/screenshots/marketman-2026-07-25T230236.png",
-     "score": 37.6,
+     "score": 37.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
+      "discoverability": 68.5,
       "contract_quality": 49.7,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -334,8 +334,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -365,11 +365,11 @@
      "name": "Sysco",
      "slug": "sysco",
      "description": "Sysco is the global leader in selling, marketing, and distributing food products to restaurants, healthcare and educational facilities, lodging establishments, and other foodservice customers. Sysco operates the Sysco Shop ecommerce platform (US, Canada, Bahamas) backed by an Apollo GraphQL supergraph composed of domain subgraphs for ordering, product, pricing, delivery, and accounts. Programmatic access is partner/customer-gated through the login-only APIC Developer Portal and through traditional EDI (X12) trading-partner integration; Sysco does not publish a self-serve public developer API, OpenAPI specification, or open GitHub presence.",
-     "score": 36.6,
+     "score": 36.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 53.7,
       "contract_quality": 57.6,
       "governance": 28.8,
       "contract_governance": 28.8,
@@ -378,8 +378,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -410,11 +410,11 @@
      "slug": "starbucks",
      "description": "Starbucks provides partner APIs for ordering, loyalty program integration, store locations, and menu data through their developer portal. These APIs enable authorized partners to integrate Starbucks ordering, rewards, and store discovery into their applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/screenshots/starbucks-2026-06-20T194508.png",
-     "score": 35.1,
+     "score": 34.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 44.4,
       "contract_quality": 61.4,
       "governance": 13.6,
       "contract_governance": 13.6,
@@ -423,8 +423,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -455,12 +455,12 @@
      "slug": "aramark",
      "description": "Aramark is a Fortune 500 company providing food, facilities, and uniform services. The Marko platform provides a data and AI API with 70+ services for real-time insights across organizational, point-of-sale, product, and revenue data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/screenshots/aramark-2026-06-20T172345.png",
-     "score": 28.7,
+     "score": 28.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 21.3,
+      "contract_quality": 21.6,
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 7.9,
@@ -468,8 +468,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 35.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -500,11 +500,11 @@
      "slug": "crunchtime-information-systems",
      "description": "Crunchtime (Crunchtime Information Systems) is a Boston-based provider of AI-powered operations-management software for multi-unit restaurants, founded in 1995 and serving 850+ restaurant brands across 150,000+ locations. Its platform unifies inventory management, labor scheduling, kitchen/operations execution, and analytics. Crunchtime publishes a public developer hub for its Inventory & Labor and Cruise data-integration REST APIs, letting partners and customers push and pull employees, locations, budgets, products, recipes, sales/menu mix, purchase orders, inventory counts, time clock, and forecasting data. Backed by Battery Ventures.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/screenshots/crunchtime-information-systems-2026-07-25T210822.png",
-     "score": 28.0,
+     "score": 28.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 75.9,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -513,8 +513,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 5.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -547,8 +547,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 23,
-   "shown": 23,
+   "count": 24,
+   "shown": 24,
    "providers": [
     {
      "name": "Yum Brands",
@@ -568,8 +568,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -600,11 +600,11 @@
      "slug": "sheetz",
      "description": "Sheetz, Inc. is an American chain of convenience stores and coffee shops headquartered in Altoona, Pennsylvania. Operating more than 800 company-owned stores across Pennsylvania, West Virginia, Maryland, Ohio, Virginia, North Carolina, and Michigan, Sheetz is one of the largest convenience store chains in the United States. The company offers fuel, food service, coffee, and retail products, supported by a mobile app for ordering, rewards, and store locator services. Sheetz provides B2B EDI and API integration capabilities for suppliers and distribution partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sheetz/refs/heads/main/screenshots/sheetz-2026-06-20T193759.png",
-     "score": 21.0,
+     "score": 21.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 66.7,
       "contract_quality": 10.7,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -613,8 +613,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -657,7 +657,7 @@
      "band_label": "Emerging",
      "facets": {
       "discoverability": 64.8,
-      "contract_quality": 22.0,
+      "contract_quality": 22.3,
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 2.6,
@@ -665,8 +665,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -697,11 +697,11 @@
      "slug": "garten",
      "description": "garten (styled lowercase; formerly Oh My Green) is a workplace food and wellbeing company founded in 2014 by Michael Heinrich and backed by Y Combinator, headquartered in the San Francisco Bay Area. It runs turn-key office micro-kitchens and pantries (garten Kitchen), self-serve micro-markets with cashless checkout kiosks (garten Market), corporate catering and cafe management (garten Catering), and virtual and on-site wellbeing programming (garten Wellbeing, plus the garten TV streaming property), serving employers including Google, Nike, Ford and Autodesk across roughly twenty US metros. garten was acquired by the chef-driven catering platform HUNGRY in 2025. garten publishes no public developer portal, API reference, SDK or machine-readable REST contract: its client ordering surface at client.garten.co / api.garten.co is a credentialed Spree/Solidus commerce application whose API rejects anonymous calls with \"You must specify an API key.\" The one genuinely public, machine-readable agent surface sits on its Uscreen-powered streaming property garten TV (tv.garten.co), which serves a Model Context Protocol server at /mcp guarded by a full OAuth 2.1 stack: RFC 9728 protected-resource metadata, RFC 8414 authorization-server metadata, PKCE S256, RFC 7591 dynamic client registration, RFC 8707 resource indicators, and seven named read/write scopes.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/garten/refs/heads/main/screenshots/garten-2026-08-07T165538.png",
-     "score": 19.1,
+     "score": 18.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 79.6,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 4.5,
       "contract_governance": 4.5,
@@ -710,8 +710,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -755,8 +755,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -799,8 +799,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -827,51 +827,6 @@
      "rank": 17
     },
     {
-     "name": "Meal Ticket",
-     "slug": "meal-ticket",
-     "description": "Meal Ticket is a Boise, Idaho-based SaaS company (founded 2011) delivering profitability management software for the foodservice supply chain. Its TrackMax+ platform helps food distributors and suppliers manage rebates, allowances, trade programs, payments, and operator-level intelligence at line-item detail, while its MarketMan platform provides AI-powered inventory and food-cost management to 15,000+ restaurant locations across 55+ countries. Meal Ticket serves 100+ distributors and suppliers and processes $40B+ in annual sales and rebate volume. The company operates as a customer-facing SaaS with a single-sign-on login surface (OpenID Connect) but does not publish a public developer API, developer portal, or API documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/meal-ticket/refs/heads/main/screenshots/meal-ticket-2026-08-07T172255.png",
-     "score": 15.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 61.1,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 19.0,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 6.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 18
-    },
-    {
      "name": "US Foods",
      "slug": "us-foods",
      "description": "US Foods is one of the largest foodservice distributors in the United States, serving restaurants, healthcare facilities, hospitality businesses, government institutions, and educational facilities. As a Fortune 500 company, US Foods operates a national distribution network with over 70 distribution centers and serves approximately 250,000 customers. The company's digital platform includes the MOXe eCommerce application for ordering and business management, EDI integration for B2B transactions, and a supplier PIM system for product data synchronization. US Foods has undergone significant digital transformation building a data mesh architecture on Apache Kafka, MongoDB, and cloud platforms to support its eCommerce and supply chain operations.",
@@ -888,8 +843,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -902,6 +857,51 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 18
+    },
+    {
+     "name": "Meal Ticket",
+     "slug": "meal-ticket",
+     "description": "Meal Ticket is a Boise, Idaho-based SaaS company (founded 2011) delivering profitability management software for the foodservice supply chain. Its TrackMax+ platform helps food distributors and suppliers manage rebates, allowances, trade programs, payments, and operator-level intelligence at line-item detail, while its MarketMan platform provides AI-powered inventory and food-cost management to 15,000+ restaurant locations across 55+ countries. Meal Ticket serves 100+ distributors and suppliers and processes $40B+ in annual sales and rebate volume. The company operates as a customer-facing SaaS with a single-sign-on login surface (OpenID Connect) but does not publish a public developer API, developer portal, or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/meal-ticket/refs/heads/main/screenshots/meal-ticket-2026-08-07T172255.png",
+     "score": 14.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 19.0,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 6.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -933,8 +933,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -961,50 +961,6 @@
      "rank": 20
     },
     {
-     "name": "Prime Roots",
-     "slug": "prime-roots",
-     "description": "Prime Roots is a Berkeley, California foodtech company making koji- and plant-based deli meats and bacon marketed as \"the clean deli meat\" — no preservatives, nitrates, or celery salt. It sells direct-to-consumer and through foodservice, running its online store on Shopify. That storefront exposes a native agent-commerce surface: an llms.txt / agents.md agent guide, a Universal Commerce Protocol (UCP, https://ucp.dev) discovery document at /.well-known/ucp, and a hosted MCP endpoint at /api/ucp/mcp for agent-driven catalog search, cart, and buyer-approved checkout. Added to the API Evangelist network as a Prosus Ventures portfolio company and enriched from its live public discovery surfaces.",
-     "score": 13.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 20.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": "platform"
-     },
-     "rank": 21
-    },
-    {
      "name": "FoodA",
      "slug": "fooda",
      "description": "Fooda is a Chicago-based workplace food-service marketplace that brings meals from local, independent restaurants directly to corporate offices, hospitals, universities, retail locations, and distribution centers. Its technology-enabled platform runs restaurant popup dining events, employer-paid meal programs, contactless lunch delivery, event catering and boxed lunches, coffee, pantry, and micro-market services, plus full cafeteria replacement under the Orange by Fooda brand. Fooda works with 2,000+ restaurant partners and serves upwards of ten million meals per year, using AI predictive modeling and machine learning to match restaurants to locations and schedule thousands of events. Sibling brands include Foodsby and Fooda for Restaurants. Fooda is a 500 Global portfolio company. It publishes no public developer API or partner developer portal; this profile captures its public web presence and domain-security posture.",
@@ -1022,8 +978,53 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 21
+    },
+    {
+     "name": "Freshket",
+     "slug": "freshket",
+     "description": "Freshket is a Thai agri-food supply chain technology company that operates a B2B online marketplace connecting farmers and food producers directly with restaurants, hotels, catering operations, and food manufacturers. The platform uses technology to manage the fresh-produce and ingredient supply chain more efficiently and transparently, giving buyers quality ingredients at fair prices with reliable next-day delivery while giving growers better market access and pricing. Founded in Bangkok and backed by 500 Global, Freshket covers ordering, sourcing, cold-chain logistics, and account management for foodservice businesses across Thailand. It was added to the API Evangelist network as a portfolio-company lead; as of this enrichment pass Freshket publishes a customer-facing web and mobile ordering platform but no public developer API, SDKs, or documented API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/freshket/refs/heads/main/screenshots/freshket-2026-07-25T215208.png",
+     "score": 13.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1050,51 +1051,6 @@
      "rank": 22
     },
     {
-     "name": "Freshket",
-     "slug": "freshket",
-     "description": "Freshket is a Thai agri-food supply chain technology company that operates a B2B online marketplace connecting farmers and food producers directly with restaurants, hotels, catering operations, and food manufacturers. The platform uses technology to manage the fresh-produce and ingredient supply chain more efficiently and transparently, giving buyers quality ingredients at fair prices with reliable next-day delivery while giving growers better market access and pricing. Founded in Bangkok and backed by 500 Global, Freshket covers ordering, sourcing, cold-chain logistics, and account management for foodservice businesses across Thailand. It was added to the API Evangelist network as a portfolio-company lead; as of this enrichment pass Freshket publishes a customer-facing web and mobile ordering platform but no public developer API, SDKs, or documented API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/freshket/refs/heads/main/screenshots/freshket-2026-07-25T215208.png",
-     "score": 13.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 23
-    },
-    {
      "name": "Domino's Pizza",
      "slug": "dominos-pizza",
      "description": "Domino's Pizza is a major US quick-service restaurant corporation and Fortune 1000 company. Domino's does NOT publish an official public developer API or a developer portal. Its digital ordering surface is delivered through consumer channels - the dominos.com website, the Domino's mobile apps, and the \"AnyWare\" ordering platform (text, voice, smart TV, Amazon Echo, Google Home, and more), including the \"Dom\" virtual voice ordering assistant. The undocumented HTTP endpoints behind these first-party apps have been reverse-engineered by the developer community into well-known UNOFFICIAL wrapper libraries (the npm \"dominos\" / node-dominos-pizza-api package and the Python \"pizzapi\" / \"dominos\" packages). These community libraries are not endorsed, supported, or warranted by Domino's. Domino's does expose APIs to select delivery-marketplace partners (e.g. Uber Eats, Just Eat) through direct partnership and a private Postman workspace, but these are not publicly available. No official API specification, pricing, or rate-limit policy is published.",
@@ -1112,8 +1068,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1137,7 +1093,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "Emtethal",
@@ -1157,8 +1113,53 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 24
+    },
+    {
+     "name": "KITRO",
+     "slug": "kitro",
+     "description": "KITRO is a Swiss company founded in 2017 in Zurich that helps professional kitchens measure and reduce food waste through AI-powered automation. Its KITRO TARE device pairs an IoT scale with a camera and computer vision to automatically identify, weigh and categorize discarded food with no change to kitchen workflow, feeding a cloud analytics dashboard that surfaces waste trends by time, item and station, compares performance across properties, and exports reports for sustainability and EU food-waste compliance reporting. KITRO serves hotel groups and resorts, hospitals and care homes, corporate canteens, universities and schools, and river and ocean cruise operators in 20+ countries, with customers including Marriott, Hyatt, TUI BLUE, Pestana, 25hours Hotels and Sydney Opera Bar. KITRO publishes no public developer API, SDKs or developer portal — the only customer-facing software surface is the authenticated dashboard at my.kitro.ch — but it does publish an llms.txt agent-readable company description at www.kitro.ch/llms.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kitro/refs/heads/main/screenshots/kitro-2026-07-25T223912.png",
+     "score": 12.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1185,78 +1186,32 @@
      "rank": 25
     },
     {
-     "name": "Botrista",
-     "slug": "botrista",
-     "description": "Botrista, Inc. is a San Francisco based beverage-automation company founded in 2017 that builds the DrinkBot robotic beverage dispenser and the CloudBar cloud platform behind it. The DrinkBot automates craft beverages — infused teas, flavored lemonades, iced coffees and mocktails — dispensing a drink in roughly twenty seconds from a touchscreen order, and every unit is internet connected so it pulls recipes, reports consumption, tracks ingredient levels and pushes maintenance alerts back to Botrista. CloudBar is the operator-facing web application used by restaurant, campus dining, convenience and theme-park operators to manage recipes, inventory replenishment and sales/menu performance analytics across a fleet of machines, alongside a separate Botrista Data Portal. Botrista sells beverage automation as a service rather than as a developer platform: as of this profiling pass it publishes no public developer portal, no API reference and no machine-readable API contract, and POS integrations are handled case-by-case through its commercial team.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/botrista/refs/heads/main/screenshots/botrista-2026-08-07T162727.png",
-     "score": 12.7,
+     "name": "Prime Roots",
+     "slug": "prime-roots",
+     "description": "Prime Roots is a Berkeley, California foodtech company making koji- and plant-based deli meats and bacon marketed as \"the clean deli meat\" — no preservatives, nitrates, or celery salt. It sells direct-to-consumer and through foodservice, running its online store on Shopify. That storefront exposes a native agent-commerce surface: an llms.txt / agents.md agent guide, a Universal Commerce Protocol (UCP, https://ucp.dev) discovery document at /.well-known/ucp, and a hosted MCP endpoint at /api/ucp/mcp for agent-driven catalog search, cart, and buyer-approved checkout. Added to the API Evangelist network as a Prosus Ventures portfolio company and enriched from its live public discovery surfaces.",
+     "score": 12.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 87.0,
+      "discoverability": 75.9,
       "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
+      "governance": 0.0,
+      "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.4,
-      "commercial_clarity": 6.6,
-      "access_clarity": 6.6
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 11.5,
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 20.3,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": "verified",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 26
-    },
-    {
-     "name": "KITRO",
-     "slug": "kitro",
-     "description": "KITRO is a Swiss company founded in 2017 in Zurich that helps professional kitchens measure and reduce food waste through AI-powered automation. Its KITRO TARE device pairs an IoT scale with a camera and computer vision to automatically identify, weigh and categorize discarded food with no change to kitchen workflow, feeding a cloud analytics dashboard that surfaces waste trends by time, item and station, compares performance across properties, and exports reports for sustainability and EU food-waste compliance reporting. KITRO serves hotel groups and resorts, hospitals and care homes, corporate canteens, universities and schools, and river and ocean cruise operators in 20+ countries, with customers including Marriott, Hyatt, TUI BLUE, Pestana, 25hours Hotels and Sydney Opera Bar. KITRO publishes no public developer API, SDKs or developer portal — the only customer-facing software surface is the authenticated dashboard at my.kitro.ch — but it does publish an llms.txt agent-readable company description at www.kitro.ch/llms.txt.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kitro/refs/heads/main/screenshots/kitro-2026-07-25T223912.png",
-     "score": 12.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
+      "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -1267,12 +1222,12 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
+      "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
-      "agentic_commerce": false
+      "agentic_commerce": "platform"
      },
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "EAT Club",
@@ -1291,8 +1246,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1316,7 +1271,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "Subway",
@@ -1336,8 +1291,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1361,7 +1316,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 28
     },
     {
      "name": "Beengo",
@@ -1381,8 +1336,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1413,14 +1368,14 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 29
     },
     {
-     "name": "Eclipse Foods",
-     "slug": "eclipse-foods",
-     "description": "Eclipse Foods is a Berkeley, California plant-based food company making non-dairy ice cream and soft-serve engineered from cassava, corn, rapeseed, and potato to replicate the taste and texture of traditional dairy. Marketed as chef-crafted (co-founder brings 16-Michelin-Star kitchen experience) and sold in gallon tubs and soft-serve mixes to consumers and foodservice operators. Backed by Initialized Capital. This is a consumer/CPG brand with a WordPress marketing storefront and no public developer API; the profile captures its web identity, published llms.txt, and domain-security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eclipse-foods/refs/heads/main/screenshots/eclipse-foods-2026-07-25T212738.png",
-     "score": 11.4,
+     "name": "Miso Robotics",
+     "slug": "miso-robotics",
+     "description": "Miso Robotics is a Pasadena, California kitchen-automation company that builds AI-powered robotics and restaurant operations software for commercial food service. Its flagship product, Flippy, is an autonomous fry station that uses computer vision and NVIDIA-accelerated motion planning to identify food items, detect doneness and run up to 100 baskets per hour on existing commercial fryers from Frymaster, Henny Penny and Pitco. Miso also ships Zippy (built on the acquired Zignyl platform), a real-time digital shift manager for forecasting, scheduling, task management, incentives and payroll that connects to restaurant point-of-sale systems. Customers include White Castle, Jack in the Box, CaliBurger and Auntie Anne's. Miso publishes no public developer API, no OpenAPI/AsyncAPI contract and no SDKs; its integrations are delivered as private partner connections (Toast, PAR and other POS vendors) arranged through sales, and its public GitHub organization carries ROS/robotics and cloud-infrastructure forks used internally rather than a client-facing API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/miso-robotics/refs/heads/main/screenshots/miso-robotics-2026-08-07T183744.png",
+     "score": 11.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -1428,13 +1383,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 7.1,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1458,12 +1413,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 30
+    },
+    {
+     "name": "Botrista",
+     "slug": "botrista",
+     "description": "Botrista, Inc. is a San Francisco based beverage-automation company founded in 2017 that builds the DrinkBot robotic beverage dispenser and the CloudBar cloud platform behind it. The DrinkBot automates craft beverages — infused teas, flavored lemonades, iced coffees and mocktails — dispensing a drink in roughly twenty seconds from a touchscreen order, and every unit is internet connected so it pulls recipes, reports consumption, tracks ingredient levels and pushes maintenance alerts back to Botrista. CloudBar is the operator-facing web application used by restaurant, campus dining, convenience and theme-park operators to manage recipes, inventory replenishment and sales/menu performance analytics across a fleet of machines, alongside a separate Botrista Data Portal. Botrista sells beverage automation as a service rather than as a developer platform: as of this profiling pass it publishes no public developer portal, no API reference and no machine-readable API contract, and POS integrations are handled case-by-case through its commercial team.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/botrista/refs/heads/main/screenshots/botrista-2026-08-07T162727.png",
+     "score": 11.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 6.6,
+      "access_clarity": 6.6
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 11.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 31
     },
     {
-     "name": "UPSIDE Foods",
-     "slug": "upside-foods",
-     "description": "UPSIDE Foods is a cultivated meat company that grows real chicken directly from animal cells instead of raising and slaughtering animals. Starting from a master cell bank derived from a single heritage-breed chicken egg, cells are fed vitamins, minerals, and nutrients and grown in cultivator tanks, becoming cultivated chicken in about three weeks. The company supplies cultivated chicken to foodservice partners and is backed by SoftBank Vision Fund and Threshold Ventures. UPSIDE Foods publishes no public API, developer portal, or machine-readable interfaces as of July 2026.",
+     "name": "Eclipse Foods",
+     "slug": "eclipse-foods",
+     "description": "Eclipse Foods is a Berkeley, California plant-based food company making non-dairy ice cream and soft-serve engineered from cassava, corn, rapeseed, and potato to replicate the taste and texture of traditional dairy. Marketed as chef-crafted (co-founder brings 16-Michelin-Star kitchen experience) and sold in gallon tubs and soft-serve mixes to consumers and foodservice operators. Backed by Initialized Capital. This is a consumer/CPG brand with a WordPress marketing storefront and no public developer API; the profile captures its web identity, published llms.txt, and domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eclipse-foods/refs/heads/main/screenshots/eclipse-foods-2026-07-25T212738.png",
      "score": 11.4,
      "band": "emerging",
      "band_label": "Emerging",
@@ -1477,8 +1478,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1505,25 +1506,24 @@
      "rank": 32
     },
     {
-     "name": "Hobart",
-     "slug": "hobart",
-     "description": "Hobart is a leading commercial food service equipment manufacturer that offers an API integration to automate work order workflow and streamline the exchange of data between partner systems and Hobart service operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hobart/refs/heads/main/screenshots/hobart-2026-06-20T182807.png",
-     "score": 11.1,
+     "name": "PreciTaste",
+     "slug": "precitaste",
+     "description": "PreciTaste is an AI kitchen management platform for restaurants and foodservice operators. Founded as PreciBake by Ingo and Laura Stork-Wersborg, with offices in New York City, Munich, and India, the company applies demand forecasting and computer vision to kitchen operations: forecasting demand from sales, weather and event signals, telling crews what to prep and cook and how much, planning hourly production, driving predictive inventory ordering, and tracking food levels on the line in real time. Its modules include Do'Cast demand forecasting, Daily Prep Management, Hourly Production Planning, Predictive Ordering, Recipe Viewer, Checklist, Label Printer, Real-Time Food Tracking and Data Analytics, sold into QSR, fast-casual, full-service, c-store and in-store bakery operations and deployed across 5,000+ locations. PreciTaste consumes restaurant point-of-sale data through partner integrations such as Toast rather than publishing a developer API of its own.",
+     "score": 11.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1550,25 +1550,24 @@
      "rank": 33
     },
     {
-     "name": "Miso Robotics",
-     "slug": "miso-robotics",
-     "description": "Miso Robotics is a Pasadena, California kitchen-automation company that builds AI-powered robotics and restaurant operations software for commercial food service. Its flagship product, Flippy, is an autonomous fry station that uses computer vision and NVIDIA-accelerated motion planning to identify food items, detect doneness and run up to 100 baskets per hour on existing commercial fryers from Frymaster, Henny Penny and Pitco. Miso also ships Zippy (built on the acquired Zignyl platform), a real-time digital shift manager for forecasting, scheduling, task management, incentives and payroll that connects to restaurant point-of-sale systems. Customers include White Castle, Jack in the Box, CaliBurger and Auntie Anne's. Miso publishes no public developer API, no OpenAPI/AsyncAPI contract and no SDKs; its integrations are delivered as private partner connections (Toast, PAR and other POS vendors) arranged through sales, and its public GitHub organization carries ROS/robotics and cloud-infrastructure forks used internally rather than a client-facing API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/miso-robotics/refs/heads/main/screenshots/miso-robotics-2026-08-07T183744.png",
-     "score": 11.0,
+     "name": "UPSIDE Foods",
+     "slug": "upside-foods",
+     "description": "UPSIDE Foods is a cultivated meat company that grows real chicken directly from animal cells instead of raising and slaughtering animals. Starting from a master cell bank derived from a single heritage-breed chicken egg, cells are fed vitamins, minerals, and nutrients and grown in cultivator tanks, becoming cultivated chicken in about three weeks. The company supplies cultivated chicken to foodservice partners and is backed by SoftBank Vision Fund and Threshold Ventures. UPSIDE Foods publishes no public API, developer portal, or machine-readable interfaces as of July 2026.",
+     "score": 11.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1593,6 +1592,51 @@
       "agentic_commerce": false
      },
      "rank": 34
+    },
+    {
+     "name": "Hobart",
+     "slug": "hobart",
+     "description": "Hobart is a leading commercial food service equipment manufacturer that offers an API integration to automate work order workflow and streamline the exchange of data between partner systems and Hobart service operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hobart/refs/heads/main/screenshots/hobart-2026-06-20T182807.png",
+     "score": 11.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 35
     }
    ]
   },
@@ -1622,53 +1666,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 35
-    },
-    {
-     "name": "Fibmold",
-     "slug": "fibmold",
-     "description": "Fibmold is an eco-friendly molded-fiber packaging manufacturer building sustainable, plastic-free alternatives to rigid single-use plastic packaging. Its products are thermoformed from natural fibres such as bagasse, bamboo, and hard/soft wood pulp collected from farms, forests, and agro-processing units, then upcycled into compostable and recyclable packaging. Applications span food-service packaging, customised industrial solutions, fibre-based dosing scoops, aviation casseroles, cosmetic inserts, pharma injectable trays, chocolate trays, and noodle cups. Fibmold also runs the Primo by Fibmold retail storefront and builds manufacturing eco-systems and material-science innovation to scale sustainable packaging on the supply side. Backed by Accel.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fibmold/refs/heads/main/screenshots/fibmold-2026-07-25T214403.png",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1695,25 +1694,25 @@
      "rank": 36
     },
     {
-     "name": "Spectra (Defunct / Merged into OVG360)",
-     "slug": "spectra",
-     "description": "Spectra (formerly Spectra Experiences, originally Comcast-Spectacor Ventures / Global Spectrum + Ovations Food Services + Paciolan + Front Row Marketing) was a North American venue management, food services & hospitality, and partnership-sales company headquartered in Philadelphia, PA. Owned jointly by Comcast Spectacor and Atairos, Spectra was acquired by Oak View Group (OVG) in a deal announced August 31, 2021 and closed on November 15, 2021 after receiving U.S. Department of Justice approval. On February 25, 2022, OVG formally consolidated Spectra and OVG Facilities into a single, rebranded division called OVG360. The Spectra and Spectra Experiences brands were retired as a result, and the spectraexperiences.com domain is no longer resolvable. This apis.yml is preserved as an historical record only — Spectra never published a public developer API, OpenAPI specification, SDK, or developer portal. Operational successor: OVG360 (https://www.oakviewgroup.com/ovg360-2/). Ticketing platform Paciolan, which had been part of the Spectra portfolio, was divested before the OVG deal and is now an independent Learfield subsidiary.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spectra/refs/heads/main/screenshots/spectra-2026-06-20T194300.png",
-     "score": 10.5,
+     "name": "Fibmold",
+     "slug": "fibmold",
+     "description": "Fibmold is an eco-friendly molded-fiber packaging manufacturer building sustainable, plastic-free alternatives to rigid single-use plastic packaging. Its products are thermoformed from natural fibres such as bagasse, bamboo, and hard/soft wood pulp collected from farms, forests, and agro-processing units, then upcycled into compostable and recyclable packaging. Applications span food-service packaging, customised industrial solutions, fibre-based dosing scoops, aviation casseroles, cosmetic inserts, pharma injectable trays, chocolate trays, and noodle cups. Fibmold also runs the Primo by Fibmold retail storefront and builds manufacturing eco-systems and material-science innovation to scale sustainable packaging on the supply side. Backed by Accel.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fibmold/refs/heads/main/screenshots/fibmold-2026-07-25T214403.png",
+     "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 14.7,
-      "governance": 15.2,
-      "contract_governance": 15.2,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1740,25 +1739,25 @@
      "rank": 37
     },
     {
-     "name": "lunchlab Corp.",
-     "slug": "lunchlab-corp",
-     "description": "lunchlab Corp. (런치랩) is a Seoul-based corporate lunch subscription and delivery service that brings daily meals to office teams across South Korea. It offers two rotating meal lines — a traditional home-style Korean lunch box and a \"Fresh Meal\" line of poke bowls and sandwiches — with delivery and pickup included for a flat per-meal price, employees choosing their meals through a mobile app while administrators manage orders and billing from a web dashboard. Surfaced as a 500 Global portfolio company and added to the API Evangelist network, lunchlab operates in the food-service / corporate-catering space and does not currently publish a public developer API, developer portal, or SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lunchlab-corp/refs/heads/main/screenshots/lunchlab-corp-2026-07-25T225730.png",
-     "score": 10.2,
+     "name": "Spectra (Defunct / Merged into OVG360)",
+     "slug": "spectra",
+     "description": "Spectra (formerly Spectra Experiences, originally Comcast-Spectacor Ventures / Global Spectrum + Ovations Food Services + Paciolan + Front Row Marketing) was a North American venue management, food services & hospitality, and partnership-sales company headquartered in Philadelphia, PA. Owned jointly by Comcast Spectacor and Atairos, Spectra was acquired by Oak View Group (OVG) in a deal announced August 31, 2021 and closed on November 15, 2021 after receiving U.S. Department of Justice approval. On February 25, 2022, OVG formally consolidated Spectra and OVG Facilities into a single, rebranded division called OVG360. The Spectra and Spectra Experiences brands were retired as a result, and the spectraexperiences.com domain is no longer resolvable. This apis.yml is preserved as an historical record only — Spectra never published a public developer API, OpenAPI specification, SDK, or developer portal. Operational successor: OVG360 (https://www.oakviewgroup.com/ovg360-2/). Ticketing platform Paciolan, which had been part of the Spectra portfolio, was divested before the OVG deal and is now an independent Learfield subsidiary.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spectra/refs/heads/main/screenshots/spectra-2026-06-20T194300.png",
+     "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
+      "contract_quality": 14.7,
+      "governance": 15.2,
+      "contract_governance": 15.2,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1785,9 +1784,10 @@
      "rank": 38
     },
     {
-     "name": "Stockeld Dreamery",
-     "slug": "stockeld-dreamery",
-     "description": "Stockeld Dreamery is a Swedish food-tech company founded in Stockholm in early 2019 by Sorosh Tavakoli (previously founder of the video-advertising company Videoplaza) to reinvent animal-based staples as plant-based alternatives, starting with cheese. The company develops and manufactures fermented, legume-based cultured cheese products — including a cream cheese and a melting cheese aimed at foodservice — as a sustainable substitute for dairy. Backed by venture investors including Creandum and Northzone, Stockeld Dreamery operates as a consumer packaged-goods brand and does not currently publish a public API or developer program.",
+     "name": "lunchlab Corp.",
+     "slug": "lunchlab-corp",
+     "description": "lunchlab Corp. (런치랩) is a Seoul-based corporate lunch subscription and delivery service that brings daily meals to office teams across South Korea. It offers two rotating meal lines — a traditional home-style Korean lunch box and a \"Fresh Meal\" line of poke bowls and sandwiches — with delivery and pickup included for a flat per-meal price, employees choosing their meals through a mobile app while administrators manage orders and billing from a web dashboard. Surfaced as a 500 Global portfolio company and added to the API Evangelist network, lunchlab operates in the food-service / corporate-catering space and does not currently publish a public developer API, developer portal, or SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lunchlab-corp/refs/heads/main/screenshots/lunchlab-corp-2026-07-25T225730.png",
      "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1801,8 +1801,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1829,25 +1829,24 @@
      "rank": 39
     },
     {
-     "name": "Burger King",
-     "slug": "burger-king",
-     "description": "Burger King is one of the world's largest fast-food hamburger chains operating over 18,000 locations in more than 100 countries. Known for the flame-grilled Whopper, Burger King is a subsidiary of Restaurant Brands International (RBI) and operates the BK mobile app, Royal Perks loyalty program, and delivery partnerships with DoorDash, Uber Eats, and Grubhub.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/burger-king/refs/heads/main/screenshots/burger-king-2026-06-20T173819.png",
-     "score": 9.7,
+     "name": "Stockeld Dreamery",
+     "slug": "stockeld-dreamery",
+     "description": "Stockeld Dreamery is a Swedish food-tech company founded in Stockholm in early 2019 by Sorosh Tavakoli (previously founder of the video-advertising company Videoplaza) to reinvent animal-based staples as plant-based alternatives, starting with cheese. The company develops and manufactures fermented, legume-based cultured cheese products — including a cream cheese and a melting cheese aimed at foodservice — as a sustainable substitute for dairy. Backed by venture investors including Creandum and Northzone, Stockeld Dreamery operates as a consumer packaged-goods brand and does not currently publish a public API or developer program.",
+     "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 64.8,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 6.6,
-      "access_clarity": 6.6
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1874,70 +1873,25 @@
      "rank": 40
     },
     {
-     "name": "McDonald's",
-     "slug": "mcdonalds",
-     "description": "McDonald's is the world's leading global foodservice retailer, operating and franchising fast food restaurants serving hamburgers, chicken, breakfast items, soft drinks, milkshakes, and desserts in countries around the world. McDonald's does not operate a public developer program or publish open API documentation. Its digital surface — the Global Mobile App, MyMcDonald's Rewards loyalty, mobile order & pay, kiosks, and drive-thru personalization — runs on internal platforms, and integrations with delivery marketplaces (DoorDash, Uber Eats, Grubhub) and technology partners (Google Cloud, Dynamic Yield) are bilateral and gated to approved partners and franchisees.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mcdonalds/refs/heads/main/screenshots/mcdonalds-2026-06-20T185057.png",
+     "name": "Burger King",
+     "slug": "burger-king",
+     "description": "Burger King is one of the world's largest fast-food hamburger chains operating over 18,000 locations in more than 100 countries. Known for the flame-grilled Whopper, Burger King is a subsidiary of Restaurant Brands International (RBI) and operates the BK mobile app, Royal Perks loyalty program, and delivery partnerships with DoorDash, Uber Eats, and Grubhub.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/burger-king/refs/heads/main/screenshots/burger-king-2026-06-20T173819.png",
      "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 41
-    },
-    {
-     "name": "Axamer",
-     "slug": "axamer",
-     "description": "Axamer is the company behind Menteo (menteo.ai), an AI-agent platform for restaurants and restaurant chains, focused on Latin America. Menteo deploys a team of specialized AI agents for marketing (WhatsApp and email campaigns), 24/7 WhatsApp order taking, loyalty and rewards programs, and customer service, integrating with existing POS systems, delivery platforms, and messaging channels to unify customer data and automate marketing, sales, and retention. Plans start from $149 USD/month with no long-term contract. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network; as of this pass Menteo publishes a public marketing site with Terms of Service and Privacy Policy but no public developer portal, API reference, OpenAPI, or /.well-known discovery surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/axamer/refs/heads/main/screenshots/axamer-2026-07-25T202029.png",
-     "score": 9.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
+      "discoverability": 64.8,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 6.6,
+      "access_clarity": 6.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1961,13 +1915,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 41
+    },
+    {
+     "name": "McDonald's",
+     "slug": "mcdonalds",
+     "description": "McDonald's is the world's leading global foodservice retailer, operating and franchising fast food restaurants serving hamburgers, chicken, breakfast items, soft drinks, milkshakes, and desserts in countries around the world. McDonald's does not operate a public developer program or publish open API documentation. Its digital surface — the Global Mobile App, MyMcDonald's Rewards loyalty, mobile order & pay, kiosks, and drive-thru personalization — runs on internal platforms, and integrations with delivery marketplaces (DoorDash, Uber Eats, Grubhub) and technology partners (Google Cloud, Dynamic Yield) are bilateral and gated to approved partners and franchisees.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mcdonalds/refs/heads/main/screenshots/mcdonalds-2026-06-20T185057.png",
+     "score": 9.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 42
     },
     {
-     "name": "Casey's General Stores",
-     "slug": "caseys-general-stores",
-     "description": "Casey's General Stores is one of the largest convenience store chains in the United States, operating more than 2,900 stores selling fuel, made-from-scratch pizza, prepared food, and other convenience items primarily in small midwestern communities. Casey's is a publicly traded Fortune 500 company (NASDAQ: CASY) and offers a mobile app for pizza ordering, delivery, and its Casey's Rewards loyalty program. No public developer APIs have been documented; partner and supplier integrations are managed privately.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/screenshots/caseys-general-stores-2026-06-20T174033.png",
+     "name": "Axamer",
+     "slug": "axamer",
+     "description": "Axamer is the company behind Menteo (menteo.ai), an AI-agent platform for restaurants and restaurant chains, focused on Latin America. Menteo deploys a team of specialized AI agents for marketing (WhatsApp and email campaigns), 24/7 WhatsApp order taking, loyalty and rewards programs, and customer service, integrating with existing POS systems, delivery platforms, and messaging channels to unify customer data and automate marketing, sales, and retention. Plans start from $149 USD/month with no long-term contract. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network; as of this pass Menteo publishes a public marketing site with Terms of Service and Privacy Policy but no public developer portal, API reference, OpenAPI, or /.well-known discovery surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/axamer/refs/heads/main/screenshots/axamer-2026-07-25T202029.png",
      "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1981,8 +1980,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2009,56 +2008,11 @@
      "rank": 43
     },
     {
-     "name": "Papa John's International",
-     "slug": "papa-johns-international",
-     "description": "Papa John's International, Inc. is a major US-based quick-service pizza restaurant chain and Fortune 1000 company operating company-owned and franchised locations worldwide. Papa John's runs consumer-facing online ordering, a Papa Rewards loyalty program, and mobile apps, and integrates with third-party delivery aggregators and restaurant-technology platforms. Papa John's does NOT publish a public developer API or developer portal; its technology surface is internal, franchise-facing, and partner-only. Integrations are arranged through enterprise and franchise partner agreements.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/papa-johns-international/refs/heads/main/screenshots/papa-johns-international-2026-06-20T191345.png",
-     "score": 8.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 44
-    },
-    {
-     "name": "Chefs for Seniors",
-     "slug": "chefs-for-seniors",
-     "description": "Chefs for Seniors is an in-home personal chef service for older adults, founded in 2013 by Barrett and Nathan Allman. Locally-owned franchise chefs come to a senior's home to plan menus, grocery shop, and cook 10-15 servings of fresh, customized meals each visit for about the cost of meal delivery. Menus rotate across 175+ options and accommodate diabetic, low-sodium, kidney-friendly, vegetarian, and other dietary needs, reviewed by a Registered Dietitian. The company operates across roughly 99 US locations, serves about 15,000 clients, and has prepared over 2.5 million meals. It was surfaced in the API Evangelist network as a portfolio company of 500 Global. Chefs for Seniors publishes no public developer API, SDKs, or machine-readable specifications; this profile captures its public web and domain-security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chefs-for-seniors/refs/heads/main/screenshots/chefs-for-seniors-2026-07-25T205147.png",
-     "score": 8.5,
+     "name": "Casey's General Stores",
+     "slug": "caseys-general-stores",
+     "description": "Casey's General Stores is one of the largest convenience store chains in the United States, operating more than 2,900 stores selling fuel, made-from-scratch pizza, prepared food, and other convenience items primarily in small midwestern communities. Casey's is a publicly traded Fortune 500 company (NASDAQ: CASY) and offers a mobile app for pizza ordering, delivery, and its Casey's Rewards loyalty program. No public developer APIs have been documented; partner and supplier integrations are managed privately.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/caseys-general-stores/refs/heads/main/screenshots/caseys-general-stores-2026-06-20T174033.png",
+     "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2067,12 +2021,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2096,13 +2050,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 44
+    },
+    {
+     "name": "Papa John's International",
+     "slug": "papa-johns-international",
+     "description": "Papa John's International, Inc. is a major US-based quick-service pizza restaurant chain and Fortune 1000 company operating company-owned and franchised locations worldwide. Papa John's runs consumer-facing online ordering, a Papa Rewards loyalty program, and mobile apps, and integrates with third-party delivery aggregators and restaurant-technology platforms. Papa John's does NOT publish a public developer API or developer portal; its technology surface is internal, franchise-facing, and partner-only. Integrations are arranged through enterprise and franchise partner agreements.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/papa-johns-international/refs/heads/main/screenshots/papa-johns-international-2026-06-20T191345.png",
+     "score": 8.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 45
     },
     {
-     "name": "Cracker Barrel Old Country Store",
-     "slug": "cracker-barrel-old-country-store",
-     "description": "Cracker Barrel Old Country Store, Inc. is an American chain of restaurants and gift shops with a Southern country theme, offering home-style meals and retail merchandise. Founded in 1969 and headquartered in Lebanon, Tennessee, Cracker Barrel operates roughly 656 restaurant and retail locations across 44 U.S. states. No public API or developer portal is published; the company offers a consumer website, iOS and Android mobile ordering apps, To-Go and catering ordering, gift cards, and the Cracker Barrel Rewards loyalty program for guests.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cracker-barrel-old-country-store/refs/heads/main/screenshots/cracker-barrel-old-country-store-2026-06-20T175201.png",
+     "name": "Chefs for Seniors",
+     "slug": "chefs-for-seniors",
+     "description": "Chefs for Seniors is an in-home personal chef service for older adults, founded in 2013 by Barrett and Nathan Allman. Locally-owned franchise chefs come to a senior's home to plan menus, grocery shop, and cook 10-15 servings of fresh, customized meals each visit for about the cost of meal delivery. Menus rotate across 175+ options and accommodate diabetic, low-sodium, kidney-friendly, vegetarian, and other dietary needs, reviewed by a Registered Dietitian. The company operates across roughly 99 US locations, serves about 15,000 clients, and has prepared over 2.5 million meals. It was surfaced in the API Evangelist network as a portfolio company of 500 Global. Chefs for Seniors publishes no public developer API, SDKs, or machine-readable specifications; this profile captures its public web and domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chefs-for-seniors/refs/heads/main/screenshots/chefs-for-seniors-2026-07-25T205147.png",
      "score": 8.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2116,8 +2115,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2144,11 +2143,11 @@
      "rank": 46
     },
     {
-     "name": "Cheetah",
-     "slug": "cheetah",
-     "description": "Cheetah (Cheetah Technologies, with its software platform also marketed as Kimelo) is an AI-enabled, app-based restaurant supply and wholesale ordering marketplace launched in 2015 to bridge the digital gap in foodservice. Its eCommerce platform gives small to medium-sized food distributors and restaurants tools for online ordering, process automation, delivery route optimization, supply chain management, and customer retention, with next-day delivery of daily supplies. In June 2024 the company divested its physical distribution business (Pleasanton, CA) to Palo Alto Foods to focus on commercializing its software platform nationwide. The platform provides digital product catalogs, personalized purchasing insights, integrated payment processing, routing management, and automated inventory tracking, and lets distributors integrate directly with their ERP or inventory management and point-of-sale systems to automate order placement. Cheetah does not appear to publish a public developer API or developer portal; integration is offered through direct ERP, inventory, and POS system connections arranged with the company rather than self-service documented endpoints.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cheetah/refs/heads/main/screenshots/cheetah-2026-06-20T174249.png",
-     "score": 8.4,
+     "name": "Cracker Barrel Old Country Store",
+     "slug": "cracker-barrel-old-country-store",
+     "description": "Cracker Barrel Old Country Store, Inc. is an American chain of restaurants and gift shops with a Southern country theme, offering home-style meals and retail merchandise. Founded in 1969 and headquartered in Lebanon, Tennessee, Cracker Barrel operates roughly 656 restaurant and retail locations across 44 U.S. states. No public API or developer portal is published; the company offers a consumer website, iOS and Android mobile ordering apps, To-Go and catering ordering, gift cards, and the Cracker Barrel Rewards loyalty program for guests.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cracker-barrel-old-country-store/refs/heads/main/screenshots/cracker-barrel-old-country-store-2026-06-20T175201.png",
+     "score": 8.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2157,12 +2156,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 3.6,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2189,11 +2188,11 @@
      "rank": 47
     },
     {
-     "name": "Blendid",
-     "slug": "blendid",
-     "description": "Blendid operates fully autonomous robotic smoothie kiosks that prepare chef-created blended beverages from real whole fruits, vegetables, seeds, nuts, and juice with no artificial flavors or added sugar. Each kiosk uses AI and robotics to run without on-site staff, taking mobile-app orders with customization and payment, producing up to eight simultaneous drinks and roughly thirty per hour. Blendid deploys its Blendid M2 platform into retail, colleges and universities, health clubs, and hospitals as a low-labor, low-capex, 24/7 automated food-service offering. It is tracked in the API Evangelist network as a portfolio company of Partech in the Food & Agritech sector; the company publishes no public developer API at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blendid/refs/heads/main/screenshots/blendid-2026-07-25T203325.png",
-     "score": 8.1,
+     "name": "Cheetah",
+     "slug": "cheetah",
+     "description": "Cheetah (Cheetah Technologies, with its software platform also marketed as Kimelo) is an AI-enabled, app-based restaurant supply and wholesale ordering marketplace launched in 2015 to bridge the digital gap in foodservice. Its eCommerce platform gives small to medium-sized food distributors and restaurants tools for online ordering, process automation, delivery route optimization, supply chain management, and customer retention, with next-day delivery of daily supplies. In June 2024 the company divested its physical distribution business (Pleasanton, CA) to Palo Alto Foods to focus on commercializing its software platform nationwide. The platform provides digital product catalogs, personalized purchasing insights, integrated payment processing, routing management, and automated inventory tracking, and lets distributors integrate directly with their ERP or inventory management and point-of-sale systems to automate order placement. Cheetah does not appear to publish a public developer API or developer portal; integration is offered through direct ERP, inventory, and POS system connections arranged with the company rather than self-service documented endpoints.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cheetah/refs/heads/main/screenshots/cheetah-2026-06-20T174249.png",
+     "score": 8.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2202,12 +2201,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "developer_ergonomics": 3.6,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2234,25 +2233,25 @@
      "rank": 48
     },
     {
-     "name": "Bassetts Ice Cream",
-     "slug": "bassetts-ice-cream",
-     "description": "Bassetts Ice Cream is a Philadelphia ice cream brand founded in 1861 and self-described as \"America's oldest ice cream brand.\" The company is family-owned across six generations of the Bassett / Strange family, retails out of a single counter at Reading Terminal Market in Center City Philadelphia, and operates a wholesale frozen-dessert distribution business serving restaurants, hotels, country clubs, dipping parlors, supermarkets, and caterers within a 40-mile radius of Philadelphia (with distributor partners in the New York metro and Florida). Bassetts also exports to China (since 2008), South Korea (2017), and Taiwan (2020), and ships pints nationwide via Goldbelly. The corporate office is at 1211 Chestnut Street, Suite 410, Philadelphia, PA. The bassettsicecream.com website is hosted on Wix and exposes no public API, no developer portal, and no machine-readable product catalog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bassetts-ice-cream/refs/heads/main/screenshots/bassetts-ice-cream-2026-06-20T173048.png",
-     "score": 7.2,
+     "name": "Blendid",
+     "slug": "blendid",
+     "description": "Blendid operates fully autonomous robotic smoothie kiosks that prepare chef-created blended beverages from real whole fruits, vegetables, seeds, nuts, and juice with no artificial flavors or added sugar. Each kiosk uses AI and robotics to run without on-site staff, taking mobile-app orders with customization and payment, producing up to eight simultaneous drinks and roughly thirty per hour. Blendid deploys its Blendid M2 platform into retail, colleges and universities, health clubs, and hospitals as a low-labor, low-capex, 24/7 automated food-service offering. It is tracked in the API Evangelist network as a portfolio company of Partech in the Food & Agritech sector; the company publishes no public developer API at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blendid/refs/heads/main/screenshots/blendid-2026-07-25T203325.png",
+     "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 6.7,
+      "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2279,24 +2278,25 @@
      "rank": 49
     },
     {
-     "name": "teaBOT",
-     "slug": "teabot",
-     "description": "teaBOT is a Toronto-based hardware startup (Y Combinator, Summer 2015) that builds an automated loose-leaf tea-making robot offered to offices, showrooms, and lounges as an amenity-as-a-service. For a flat monthly fee, teams use the companion teaBOT app to explore premium teas and dispense a custom-blended cup in under 30 seconds, which companies such as Google, HubSpot, and McKinsey use as a workplace recruiting and retention perk. Founded by robotics PhD Rehman Merali, teaBOT runs a physical-product and mobile-app business and does not currently publish a public developer API, SDKs, or OpenAPI surface.",
-     "score": 7.1,
+     "name": "Bassetts Ice Cream",
+     "slug": "bassetts-ice-cream",
+     "description": "Bassetts Ice Cream is a Philadelphia ice cream brand founded in 1861 and self-described as \"America's oldest ice cream brand.\" The company is family-owned across six generations of the Bassett / Strange family, retails out of a single counter at Reading Terminal Market in Center City Philadelphia, and operates a wholesale frozen-dessert distribution business serving restaurants, hotels, country clubs, dipping parlors, supermarkets, and caterers within a 40-mile radius of Philadelphia (with distributor partners in the New York metro and Florida). Bassetts also exports to China (since 2008), South Korea (2017), and Taiwan (2020), and ships pints nationwide via Goldbelly. The corporate office is at 1211 Chestnut Street, Suite 410, Philadelphia, PA. The bassettsicecream.com website is hosted on Wix and exposes no public API, no developer portal, and no machine-readable product catalog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bassetts-ice-cream/refs/heads/main/screenshots/bassetts-ice-cream-2026-06-20T173048.png",
+     "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 0.0,
+      "contract_quality": 6.7,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2323,6 +2323,50 @@
      "rank": 50
     },
     {
+     "name": "teaBOT",
+     "slug": "teabot",
+     "description": "teaBOT is a Toronto-based hardware startup (Y Combinator, Summer 2015) that builds an automated loose-leaf tea-making robot offered to offices, showrooms, and lounges as an amenity-as-a-service. For a flat monthly fee, teams use the companion teaBOT app to explore premium teas and dispense a custom-blended cup in under 30 seconds, which companies such as Google, HubSpot, and McKinsey use as a workplace recruiting and retention perk. Founded by robotics PhD Rehman Merali, teaBOT runs a physical-product and mobile-app business and does not currently publish a public developer API, SDKs, or OpenAPI surface.",
+     "score": 7.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 51
+    },
+    {
      "name": "Revolution Foods",
      "slug": "revolution-foods",
      "description": "Revolution Foods is an Oakland, California food company founded in 2006 by Kristin Groos Richmond and Kirsten Saenz Tobey that manufactures and delivers nutritious, freshly prepared meals to schools and senior communities. It is the largest K-12 school meal vendor in California, serving more than 35 million meals a year across 800+ schools and senior centers, with programs spanning district and charter school food service, after-school and summer meals, senior center dining and homebound delivery. The company has been a Certified B Corporation since 2009 and a Public Benefit Corporation since 2021, and reports a 100% audit pass rate across NSLP, SBP, CACFP, SFSP and Title III compliance. Customers order through Centro, a login-gated web ordering portal; Revolution Foods publishes no public developer program, API documentation, or machine-readable specification of any kind.",
@@ -2339,8 +2383,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2371,7 +2415,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Brinker International",
@@ -2391,52 +2435,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 52
-    },
-    {
-     "name": "Conagra Brands",
-     "slug": "conagra-brands",
-     "description": "Conagra Brands is a leading North American branded consumer packaged goods (CPG) food company headquartered in Chicago, Illinois. Its portfolio of iconic frozen, refrigerated, and shelf-stable brands includes Marie Callender's, Healthy Choice, Slim Jim, Reddi-wip, Hunt's, Banquet, Birds Eye, Duncan Hines, and Orville Redenbacher's. Conagra internally describes itself as API-first across its digital estate, but does not publish any public developer APIs at this time. Partner integrations such as foodservice, retail, and supplier portals are managed via direct B2B agreements rather than a public developer surface.",
-     "score": 5.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2463,11 +2463,10 @@
      "rank": 53
     },
     {
-     "name": "Ellis Coffee Company",
-     "slug": "ellis-coffee",
-     "description": "Ellis Coffee Company is a Philadelphia-based wholesale coffee roaster founded in 1854 and now in its fourth generation of family ownership. Ellis supplies coffee, tea, hot chocolate, brewing equipment, and POS materials to restaurants, hotels, resorts, office coffee service (OCS) programs, convenience stores, universities, distributors, and vending operators. Customers place and manage orders through deliver.elliscoffee.com and request brewing equipment service through the OnUpkeep portal. Ellis Coffee Company does not publish a public developer API, OpenAPI definition, webhook program, SDK, or status page.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ellis-coffee/refs/heads/main/screenshots/ellis-coffee-2026-06-20T180617.png",
-     "score": 5.5,
+     "name": "Conagra Brands",
+     "slug": "conagra-brands",
+     "description": "Conagra Brands is a leading North American branded consumer packaged goods (CPG) food company headquartered in Chicago, Illinois. Its portfolio of iconic frozen, refrigerated, and shelf-stable brands includes Marie Callender's, Healthy Choice, Slim Jim, Reddi-wip, Hunt's, Banquet, Birds Eye, Duncan Hines, and Orville Redenbacher's. Conagra internally describes itself as API-first across its digital estate, but does not publish any public developer APIs at this time. Partner integrations such as foodservice, retail, and supplier portals are managed via direct B2B agreements rather than a public developer surface.",
+     "score": 5.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2475,13 +2474,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2508,25 +2507,25 @@
      "rank": 54
     },
     {
-     "name": "Graphic Packaging",
-     "slug": "graphic-packaging",
-     "description": "Graphic Packaging International is a Fortune 500 global manufacturer of sustainable, paperboard-based consumer packaging. Products include folding cartons, multipack cartons, foodservice packaging (cups, lids, to-go containers), microwave and ovenable packaging, paperboard canisters, and packaging machinery. Markets served include food, beverage, foodservice, household, personal care, healthcare, pharmaceuticals, pet care, beauty, and e-commerce. No public developer APIs are documented at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/graphic-packaging/refs/heads/main/screenshots/graphic-packaging-2026-06-20T182327.png",
-     "score": 5.5,
+     "name": "Kitchen United",
+     "slug": "kitchen-united",
+     "description": "Kitchen United was a Pasadena, California ghost-kitchen operator that built and ran shared commissary kitchens — branded \"Kitchen United Mix\" — where multiple restaurant brands cooked out of one facility for delivery and pickup, including a chain of in-store food halls operated with Kroger. Backed by GV (Google Ventures) among others, the company wound down its physical footprint: in late 2023 it announced it would sell or close all remaining units and pivot to licensing its ordering software, and on 2024-03-14 sbe/C3 founder Sam Nazarian acquired its intellectual property and ghost-kitchen assets into a new holding company, Everybody Eats, alongside C3 and Nextbite. Kitchen United never published a public developer API, SDK, CLI or developer portal, and no OpenAPI, AsyncAPI or package-registry artifact exists for it. The kitchenunited.com domain still resolves but now serves a residual WordPress shell whose only remaining page is unrelated SEO spam, so it should not be treated as a live developer surface. This profile is retained as a historical company record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kitchen-united/refs/heads/main/screenshots/kitchen-united-2026-07-25T223901.png",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2553,10 +2552,10 @@
      "rank": 55
     },
     {
-     "name": "PathSpot",
-     "slug": "pathspot",
-     "description": "PathSpot Technologies provides a health-and-safety operating system for restaurants, commercial kitchens, food manufacturers, cafeterias, and hospitality venues. Its flagship HandScanner uses light-based spectroscopy to detect harmful contaminants on employees' hands in about two seconds after washing and drying. Alongside the scanner, PathSpot's SafetySuite bundles real-time temperature monitoring (PowerTemp), digital task management (PowerTasks), and food labeling (PowerLabels), rolling the data up into the SafetySuite Hub dashboard with analytics, automated compliance reporting, email reports, text alerts, and optional API-based data integration. PathSpot markets API integration as a data-delivery feature of SafetySuite but publishes no public developer portal, API reference, OpenAPI, or SDKs as of this profile.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pathspot/refs/heads/main/screenshots/pathspot-2026-08-07T191551.png",
+     "name": "Ellis Coffee Company",
+     "slug": "ellis-coffee",
+     "description": "Ellis Coffee Company is a Philadelphia-based wholesale coffee roaster founded in 1854 and now in its fourth generation of family ownership. Ellis supplies coffee, tea, hot chocolate, brewing equipment, and POS materials to restaurants, hotels, resorts, office coffee service (OCS) programs, convenience stores, universities, distributors, and vending operators. Customers place and manage orders through deliver.elliscoffee.com and request brewing equipment service through the OnUpkeep portal. Ellis Coffee Company does not publish a public developer API, OpenAPI definition, webhook program, SDK, or status page.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ellis-coffee/refs/heads/main/screenshots/ellis-coffee-2026-06-20T180617.png",
      "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2570,8 +2569,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2598,11 +2597,11 @@
      "rank": 56
     },
     {
-     "name": "Chefs' Warehouse",
-     "slug": "chefs-warehouse",
-     "description": "The Chefs' Warehouse, Inc. (NASDAQ: CHEF) is a premier distributor of specialty food products to high-end independent restaurants, fine dining establishments, country clubs, hotels, caterers, culinary schools, bakeries, and specialty food stores across North America and the Middle East. The company offers a broad portfolio of artisan, exotic, and signature ingredients spanning center-of-the-plate proteins, specialty dry goods, produce, pastry, cheese and charcuterie, dairy and eggs, oils and vinegars, and kitchen supplies. Customers order through a B2B e-commerce platform (re-platformed to Optimizely B2B in 2021, previously Magento) and companion iOS and Android wholesale-ordering apps built in partnership with Unbound Commerce. As of this profiling, Chefs' Warehouse does not publish a public developer portal, API documentation, SDKs, or open-source repositories; its digital surface is a buyer-facing ordering experience rather than a programmatic API. This profile documents the company's public footprint for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chefs-warehouse/refs/heads/main/screenshots/chefs-warehouse-2026-06-20T174307.png",
-     "score": 5.3,
+     "name": "Graphic Packaging",
+     "slug": "graphic-packaging",
+     "description": "Graphic Packaging International is a Fortune 500 global manufacturer of sustainable, paperboard-based consumer packaging. Products include folding cartons, multipack cartons, foodservice packaging (cups, lids, to-go containers), microwave and ovenable packaging, paperboard canisters, and packaging machinery. Markets served include food, beverage, foodservice, household, personal care, healthcare, pharmaceuticals, pet care, beauty, and e-commerce. No public developer APIs are documented at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/graphic-packaging/refs/heads/main/screenshots/graphic-packaging-2026-06-20T182327.png",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2610,13 +2609,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2643,10 +2642,11 @@
      "rank": 57
     },
     {
-     "name": "Wawa",
-     "slug": "wawa",
-     "description": "Wawa is a privately held, family-owned convenience store and fuel retail chain headquartered in Pennsylvania. Founded in 1803 as a dairy farm and operating convenience stores since 1964, Wawa runs approximately 1,100 stores across Pennsylvania, New Jersey, Delaware, Maryland, Virginia, Florida, North Carolina, Indiana, and Alabama. The company is a regional fresh-food, beverage, and fuel brand with a strong loyalty program (Wawa Rewards) and a mobile ordering app. Wawa operates an internal API management platform (built with MuleSoft) used to connect to third-party services such as Uber Eats, Grubhub, and DoorDash for delivery, but does not publish a public developer portal or expose public APIs.",
-     "score": 5.3,
+     "name": "PathSpot",
+     "slug": "pathspot",
+     "description": "PathSpot Technologies provides a health-and-safety operating system for restaurants, commercial kitchens, food manufacturers, cafeterias, and hospitality venues. Its flagship HandScanner uses light-based spectroscopy to detect harmful contaminants on employees' hands in about two seconds after washing and drying. Alongside the scanner, PathSpot's SafetySuite bundles real-time temperature monitoring (PowerTemp), digital task management (PowerTasks), and food labeling (PowerLabels), rolling the data up into the SafetySuite Hub dashboard with analytics, automated compliance reporting, email reports, text alerts, and optional API-based data integration. PathSpot markets API integration as a data-delivery feature of SafetySuite but publishes no public developer portal, API reference, OpenAPI, or SDKs as of this profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pathspot/refs/heads/main/screenshots/pathspot-2026-08-07T191551.png",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2654,13 +2654,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2687,10 +2687,11 @@
      "rank": 58
     },
     {
-     "name": "Aitme",
-     "slug": "aitme",
-     "description": "Aitme was a Berlin-based deep-tech robotics company that built a platform for automated food preparation, deploying robotic kitchen and canteen systems that cooked and assembled meals autonomously for foodservice and workplace-catering settings. Surfaced as a portfolio company of HV Capital and added to the API Evangelist network for enrichment, the company has since been acquired and exposes no public developer surface: no documented API, developer portal, SDKs, or hosted domain could be located during enrichment. This profile is retained as an honest catalog record with no fabricated API artifacts.",
-     "score": 5.0,
+     "name": "Chefs' Warehouse",
+     "slug": "chefs-warehouse",
+     "description": "The Chefs' Warehouse, Inc. (NASDAQ: CHEF) is a premier distributor of specialty food products to high-end independent restaurants, fine dining establishments, country clubs, hotels, caterers, culinary schools, bakeries, and specialty food stores across North America and the Middle East. The company offers a broad portfolio of artisan, exotic, and signature ingredients spanning center-of-the-plate proteins, specialty dry goods, produce, pastry, cheese and charcuterie, dairy and eggs, oils and vinegars, and kitchen supplies. Customers order through a B2B e-commerce platform (re-platformed to Optimizely B2B in 2021, previously Magento) and companion iOS and Android wholesale-ordering apps built in partnership with Unbound Commerce. As of this profiling, Chefs' Warehouse does not publish a public developer portal, API documentation, SDKs, or open-source repositories; its digital surface is a buyer-facing ordering experience rather than a programmatic API. This profile documents the company's public footprint for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chefs-warehouse/refs/heads/main/screenshots/chefs-warehouse-2026-06-20T174307.png",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2698,13 +2699,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2731,11 +2732,10 @@
      "rank": 59
     },
     {
-     "name": "Bloomin' Brands",
-     "slug": "bloomin-brands",
-     "description": "Bloomin' Brands, Inc. (NASDAQ: BLMN) is one of the largest casual dining restaurant companies in the world, headquartered in Tampa, Florida and founded in 1988. It owns and operates four restaurant concepts — Outback Steakhouse, Carrabba's Italian Grill, Bonefish Grill, and Fleming's Prime Steakhouse & Wine Bar — across the United States and internationally (Brazil, South Korea, Hong Kong, and China). The company's consumer technology centers on the Web-based Dine Rewards loyalty program, per-brand mobile apps (iOS/Android) for online ordering, curbside takeaway, delivery, table payment, reservations, and waitlist, and corporate supplier portals (BBI Connect). Bloomin' Brands does not currently publish a public developer API, SDKs, or a developer portal; the apis collection below is intentionally empty.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomin-brands/refs/heads/main/screenshots/bloomin-brands-2026-06-20T173518.png",
-     "score": 5.0,
+     "name": "Wawa",
+     "slug": "wawa",
+     "description": "Wawa is a privately held, family-owned convenience store and fuel retail chain headquartered in Pennsylvania. Founded in 1803 as a dairy farm and operating convenience stores since 1964, Wawa runs approximately 1,100 stores across Pennsylvania, New Jersey, Delaware, Maryland, Virginia, Florida, North Carolina, Indiana, and Alabama. The company is a regional fresh-food, beverage, and fuel brand with a strong loyalty program (Wawa Rewards) and a mobile ordering app. Wawa operates an internal API management platform (built with MuleSoft) used to connect to third-party services such as Uber Eats, Grubhub, and DoorDash for delivery, but does not publish a public developer portal or expose public APIs.",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2743,13 +2743,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2776,10 +2776,9 @@
      "rank": 60
     },
     {
-     "name": "chowbotics",
-     "slug": "chowbotics",
-     "description": "Chowbotics was a food-robotics company known for \"Sally,\" a fresh-food and salad vending robot that assembled customized bowls on demand for cafeterias, hospitals, campuses, and grocery locations. The company was acquired by DoorDash in early 2021 and no longer operates as a standalone business; its domain (chowbotics.com) now redirects to DoorDash (get.doordash.com). As of this enrichment pass Chowbotics publishes no independent developer portal, API documentation, OpenAPI definition, SDKs, or other machine-readable developer surface, so this remains an identity-only record in the API Evangelist network rather than an active API provider profile.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chowbotics/refs/heads/main/screenshots/chowbotics-2026-07-25T205257.png",
+     "name": "Aitme",
+     "slug": "aitme",
+     "description": "Aitme was a Berlin-based deep-tech robotics company that built a platform for automated food preparation, deploying robotic kitchen and canteen systems that cooked and assembled meals autonomously for foodservice and workplace-catering settings. Surfaced as a portfolio company of HV Capital and added to the API Evangelist network for enrichment, the company has since been acquired and exposes no public developer surface: no documented API, developer portal, SDKs, or hosted domain could be located during enrichment. This profile is retained as an honest catalog record with no fabricated API artifacts.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2793,8 +2792,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2821,10 +2820,10 @@
      "rank": 61
     },
     {
-     "name": "Core-Mark Holding",
-     "slug": "core-mark-holding",
-     "description": "Core-Mark Holding Company, a subsidiary of Performance Food Group, is one of the largest broad-line, full-service marketers and distributors of packaged consumer products to the convenience retail industry in North America. The company serves more than 41,000 retail locations across the United States and Canada, supplying tobacco, candy, snacks, beverages, foodservice, and other fast-moving consumer goods. Core-Mark provides retailer technology platforms including Core-Source Portal, Retailer Analytics, Core-Mark Ordering, and Core-Mark Intellisite.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/core-mark-holding/refs/heads/main/screenshots/core-mark-holding-2026-06-20T175022.png",
+     "name": "Bloomin' Brands",
+     "slug": "bloomin-brands",
+     "description": "Bloomin' Brands, Inc. (NASDAQ: BLMN) is one of the largest casual dining restaurant companies in the world, headquartered in Tampa, Florida and founded in 1988. It owns and operates four restaurant concepts — Outback Steakhouse, Carrabba's Italian Grill, Bonefish Grill, and Fleming's Prime Steakhouse & Wine Bar — across the United States and internationally (Brazil, South Korea, Hong Kong, and China). The company's consumer technology centers on the Web-based Dine Rewards loyalty program, per-brand mobile apps (iOS/Android) for online ordering, curbside takeaway, delivery, table payment, reservations, and waitlist, and corporate supplier portals (BBI Connect). Bloomin' Brands does not currently publish a public developer API, SDKs, or a developer portal; the apis collection below is intentionally empty.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomin-brands/refs/heads/main/screenshots/bloomin-brands-2026-06-20T173518.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2838,8 +2837,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2866,10 +2865,10 @@
      "rank": 62
     },
     {
-     "name": "Culinarybrands",
-     "slug": "culinarybrands",
-     "description": "Culinary Brands is an Indian foodservice and beverage operator on a mission to prove that fresh, quality food is possible without compromising on taste. The company builds and runs a portfolio of well-known food and coffee brands across India, including Subway (sandwiches / QSR), Lavazza (coffee), and Fresh & Honest (coffee and vending), with a stated focus on sustainability, diversity and inclusion, governance, and CSR. Surfaced as a portfolio company of Norwest Venture Partners and profiled in the API Evangelist network; the public web presence is a WordPress corporate site with no developer portal, documentation, or product API surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/culinarybrands/refs/heads/main/screenshots/culinarybrands-2026-07-25T210914.png",
+     "name": "chowbotics",
+     "slug": "chowbotics",
+     "description": "Chowbotics was a food-robotics company known for \"Sally,\" a fresh-food and salad vending robot that assembled customized bowls on demand for cafeterias, hospitals, campuses, and grocery locations. The company was acquired by DoorDash in early 2021 and no longer operates as a standalone business; its domain (chowbotics.com) now redirects to DoorDash (get.doordash.com). As of this enrichment pass Chowbotics publishes no independent developer portal, API documentation, OpenAPI definition, SDKs, or other machine-readable developer surface, so this remains an identity-only record in the API Evangelist network rather than an active API provider profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chowbotics/refs/heads/main/screenshots/chowbotics-2026-07-25T205257.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2883,8 +2882,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2911,10 +2910,10 @@
      "rank": 63
     },
     {
-     "name": "Kitchen United",
-     "slug": "kitchen-united",
-     "description": "Kitchen United was a Pasadena, California ghost-kitchen operator that built and ran shared commissary kitchens — branded \"Kitchen United Mix\" — where multiple restaurant brands cooked out of one facility for delivery and pickup, including a chain of in-store food halls operated with Kroger. Backed by GV (Google Ventures) among others, the company wound down its physical footprint: in late 2023 it announced it would sell or close all remaining units and pivot to licensing its ordering software, and on 2024-03-14 sbe/C3 founder Sam Nazarian acquired its intellectual property and ghost-kitchen assets into a new holding company, Everybody Eats, alongside C3 and Nextbite. Kitchen United never published a public developer API, SDK, CLI or developer portal, and no OpenAPI, AsyncAPI or package-registry artifact exists for it. The kitchenunited.com domain still resolves but now serves a residual WordPress shell whose only remaining page is unrelated SEO spam, so it should not be treated as a live developer surface. This profile is retained as a historical company record.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kitchen-united/refs/heads/main/screenshots/kitchen-united-2026-07-25T223901.png",
+     "name": "Core-Mark Holding",
+     "slug": "core-mark-holding",
+     "description": "Core-Mark Holding Company, a subsidiary of Performance Food Group, is one of the largest broad-line, full-service marketers and distributors of packaged consumer products to the convenience retail industry in North America. The company serves more than 41,000 retail locations across the United States and Canada, supplying tobacco, candy, snacks, beverages, foodservice, and other fast-moving consumer goods. Core-Mark provides retailer technology platforms including Core-Source Portal, Retailer Analytics, Core-Mark Ordering, and Core-Mark Intellisite.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/core-mark-holding/refs/heads/main/screenshots/core-mark-holding-2026-06-20T175022.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2928,8 +2927,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2956,9 +2955,10 @@
      "rank": 64
     },
     {
-     "name": "Phood Solutions",
-     "slug": "phood-solutions",
-     "description": "Phood Solutions is a New York City-based food-waste technology company founded in 2015 by Luc Dang and Nick Kruczek. Its computer-vision platform, PhoodX, pairs a countertop scale and camera system with a waste-analytics dashboard to automatically identify, weigh, and categorize discarded food in commercial kitchens, grocery prepared-foods operations, and food-service venues. The platform reports product-level margins, recommends demand-based production volumes, and helps operators cut food waste by up to 50 percent, reduce kitchen labor, and lower food-inventory costs. Phood also offers Phood Lab, custom digital solutions built by its food technologists. The company is backed by Techstars. Phood publishes no public API or developer program at this time.",
+     "name": "Culinarybrands",
+     "slug": "culinarybrands",
+     "description": "Culinary Brands is an Indian foodservice and beverage operator on a mission to prove that fresh, quality food is possible without compromising on taste. The company builds and runs a portfolio of well-known food and coffee brands across India, including Subway (sandwiches / QSR), Lavazza (coffee), and Fresh & Honest (coffee and vending), with a stated focus on sustainability, diversity and inclusion, governance, and CSR. Surfaced as a portfolio company of Norwest Venture Partners and profiled in the API Evangelist network; the public web presence is a WordPress corporate site with no developer portal, documentation, or product API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/culinarybrands/refs/heads/main/screenshots/culinarybrands-2026-07-25T210914.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2972,8 +2972,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3000,9 +3000,9 @@
      "rank": 65
     },
     {
-     "name": "Piestro",
-     "slug": "piestro",
-     "description": "Piestro was a Los Angeles-area food-robotics company that built a fully enclosed, automated pizza-making vending machine — an unattended kiosk that pressed, sauced, topped, baked, cut and boxed an artisanal pizza in roughly three minutes, sold both as direct-to-consumer placements and as a white-label unit for existing pizza brands. Founded by Massimo Noja De Marco and incubated by Wavemaker Labs (since rebranded Vebu Labs), it raised roughly $11.7M from equity-crowdfunding investors, largely via StartEngine, and piloted units with partners including Capriotti's and 800 Degrees Go. Piestro shut down in January 2025 without shipping a production unit. It is a hardware and food-service company, not a software vendor: it never ran a developer program, and no public API, SDK, webhook, developer portal or machine-readable contract of any kind was ever published. This profile records that absence rather than inventing a surface.",
+     "name": "Phood Solutions",
+     "slug": "phood-solutions",
+     "description": "Phood Solutions is a New York City-based food-waste technology company founded in 2015 by Luc Dang and Nick Kruczek. Its computer-vision platform, PhoodX, pairs a countertop scale and camera system with a waste-analytics dashboard to automatically identify, weigh, and categorize discarded food in commercial kitchens, grocery prepared-foods operations, and food-service venues. The platform reports product-level margins, recommends demand-based production volumes, and helps operators cut food waste by up to 50 percent, reduce kitchen labor, and lower food-inventory costs. Phood also offers Phood Lab, custom digital solutions built by its food technologists. The company is backed by Techstars. Phood publishes no public API or developer program at this time.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3016,8 +3016,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3044,9 +3044,9 @@
      "rank": 66
     },
     {
-     "name": "RVDS Inc.",
-     "slug": "rvds-inc",
-     "description": "RVDS Inc. is a South Korean food and beverage company that describes itself as growing into Korea's representative Multi-K-Food Brand Operator, building and operating a portfolio of consumer dining brands including Dodo Korea, Butai, and Salad Monster. Based in Cheongju-si, Chungcheongbuk-do, the company is backed by 500 Global. As a consumer food-brand operator it publishes no public API, developer portal, SDKs, or technical documentation, so this profile carries only identity and probed domain-security signals rather than API artifacts.",
+     "name": "Piestro",
+     "slug": "piestro",
+     "description": "Piestro was a Los Angeles-area food-robotics company that built a fully enclosed, automated pizza-making vending machine — an unattended kiosk that pressed, sauced, topped, baked, cut and boxed an artisanal pizza in roughly three minutes, sold both as direct-to-consumer placements and as a white-label unit for existing pizza brands. Founded by Massimo Noja De Marco and incubated by Wavemaker Labs (since rebranded Vebu Labs), it raised roughly $11.7M from equity-crowdfunding investors, largely via StartEngine, and piloted units with partners including Capriotti's and 800 Degrees Go. Piestro shut down in January 2025 without shipping a production unit. It is a hardware and food-service company, not a software vendor: it never ran a developer program, and no public API, SDK, webhook, developer portal or machine-readable contract of any kind was ever published. This profile records that absence rather than inventing a surface.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3060,8 +3060,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3088,24 +3088,24 @@
      "rank": 67
     },
     {
-     "name": "Splash 360",
-     "slug": "splash360",
-     "description": "French vendor of point-of-sale and management software for collective catering — company restaurants, school and institutional canteens. The product line covers a smart till, self-service ordering kiosks and kiosk software, Wifi Order, a Kitchen Display System, a back-office management layer, a coin handler, and loyalty through a YouFid integration. NO PUBLIC API SURFACE: the company sells and deploys into catering operators directly, and publishes no developer portal, API documentation or machine-readable contract. That is the absence of a PUBLIC interface, not the absence of APIs — a till, a kiosk and a kitchen display exchanging orders are API-driven by construction, but those interfaces reach customers through deployment and integration work rather than a public developer program.",
-     "score": 4.6,
+     "name": "RVDS Inc.",
+     "slug": "rvds-inc",
+     "description": "RVDS Inc. is a South Korean food and beverage company that describes itself as growing into Korea's representative Multi-K-Food Brand Operator, building and operating a portfolio of consumer dining brands including Dodo Korea, Butai, and Salad Monster. Based in Cheongju-si, Chungcheongbuk-do, the company is backed by 500 Global. As a consumer food-brand operator it publishes no public API, developer portal, SDKs, or technical documentation, so this profile carries only identity and probed domain-security signals rather than API artifacts.",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3132,11 +3132,10 @@
      "rank": 68
     },
     {
-     "name": "Darden Restaurants",
-     "slug": "darden-restaurants",
-     "description": "Darden Restaurants is the largest full-service restaurant company in the world, owning and operating brands such as Olive Garden, LongHorn Steakhouse, Yard House, The Capital Grille, Cheddar's Scratch Kitchen, Eddie V's, Seasons 52, Bahama Breeze, Ruth's Chris Steak House, and Chuy's. Darden does not publish a public developer API; consumer-facing ordering and loyalty are exposed only via internal mobile apps and partnerships such as Uber for delivery.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/darden-restaurants/refs/heads/main/screenshots/darden-restaurants-2026-07-25T211215.png",
-     "score": 4.1,
+     "name": "Splash 360",
+     "slug": "splash360",
+     "description": "French vendor of point-of-sale and management software for collective catering — company restaurants, school and institutional canteens. The product line covers a smart till, self-service ordering kiosks and kiosk software, Wifi Order, a Kitchen Display System, a back-office management layer, a coin handler, and loyalty through a YouFid integration. NO PUBLIC API SURFACE: the company sells and deploys into catering operators directly, and publishes no developer portal, API documentation or machine-readable contract. That is the absence of a PUBLIC interface, not the absence of APIs — a till, a kiosk and a kitchen display exchanging orders are API-driven by construction, but those interfaces reach customers through deployment and integration work rather than a public developer program.",
+     "score": 4.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3145,12 +3144,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3177,10 +3176,10 @@
      "rank": 69
     },
     {
-     "name": "Performance Food Group",
-     "slug": "performance-food",
-     "description": "Performance Food Group is one of the largest foodservice distributors in North America, marketing and distributing food and food-related products to independent and chain restaurants and other institutional customers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/performance-food/refs/heads/main/screenshots/performance-food-2026-06-20T191605.png",
+     "name": "Darden Restaurants",
+     "slug": "darden-restaurants",
+     "description": "Darden Restaurants is the largest full-service restaurant company in the world, owning and operating brands such as Olive Garden, LongHorn Steakhouse, Yard House, The Capital Grille, Cheddar's Scratch Kitchen, Eddie V's, Seasons 52, Bahama Breeze, Ruth's Chris Steak House, and Chuy's. Darden does not publish a public developer API; consumer-facing ordering and loyalty are exposed only via internal mobile apps and partnerships such as Uber for delivery.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/darden-restaurants/refs/heads/main/screenshots/darden-restaurants-2026-07-25T211215.png",
      "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3194,8 +3193,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3222,6 +3221,51 @@
      "rank": 70
     },
     {
+     "name": "Performance Food Group",
+     "slug": "performance-food",
+     "description": "Performance Food Group is one of the largest foodservice distributors in North America, marketing and distributing food and food-related products to independent and chain restaurants and other institutional customers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/performance-food/refs/heads/main/screenshots/performance-food-2026-06-20T191605.png",
+     "score": 4.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 71
+    },
+    {
      "name": "Notch",
      "slug": "notch",
      "description": "Notch (formerly OrderEZE/ChefHero) brings the restaurant supply chain online, digitizing the paper-driven process of wholesale food ordering and order taking between restaurants and their distributors. Founded in 2015 and headquartered in Toronto, the platform spans four product surfaces — Order Manager and Invoice Manager for buyers, AP Manager for restaurant accounts payable, and AR Manager for distributor accounts receivable — handling order placement, invoice management, reconciliation, payment collection, and payment processing for food and beverage suppliers and buyers. Notch keeps ordering and finance workflows in sync through one-way and two-way connectors to accounting and ERP systems including QuickBooks Online, QuickBooks Desktop, NetSuite, Xero, and Microsoft Dynamics 365, plus CSV import/export. Notch does not publish a public developer API or developer portal; its accounting/ERP connectivity is delivered through its own connectors and the third-party Rutter unified accounting API, so Notch operates as an API consumer rather than an API provider. (This profile covers Notch the restaurant-to-supplier ordering and AR/AP automation company at notch.financial, and is unrelated to \"Notch Pay,\" the African payments company at developer.notchpay.co.)",
@@ -3239,8 +3283,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3271,7 +3315,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 72
     },
     {
      "name": "Cheesecake Factory",
@@ -3291,58 +3335,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "regulatory": {
-      "applies": false,
-      "undetermined": true,
-      "note": "provider carries no tags; regime could not be determined"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 72
-    },
-    {
-     "name": "Texas Roadhouse",
-     "slug": "texas-roadhouse",
-     "description": "Profile for Texas Roadhouse in the API Evangelist network. Fortune F1000 (rank 829).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/texas-roadhouse/refs/heads/main/screenshots/texas-roadhouse-2026-06-20T195206.png",
-     "score": 2.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 25.9,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -3372,6 +3366,56 @@
       "agentic_commerce": false
      },
      "rank": 73
+    },
+    {
+     "name": "Texas Roadhouse",
+     "slug": "texas-roadhouse",
+     "description": "Profile for Texas Roadhouse in the API Evangelist network. Fortune F1000 (rank 829).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/texas-roadhouse/refs/heads/main/screenshots/texas-roadhouse-2026-06-20T195206.png",
+     "score": 2.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 25.9,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "regulatory": {
+      "applies": false,
+      "undetermined": true,
+      "note": "provider carries no tags; regime could not be determined"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 74
     }
    ]
   }

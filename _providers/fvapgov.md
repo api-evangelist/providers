@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 6
   slug: fvapgov-agentic-access
   summary_line: 6 operations
-api_count: 6
+api_count: 1
 apis:
 - description: State-specific ballot rules (FPCA, FWAB, VBR).
   name: FVAP.gov Ballot Rules API
@@ -88,6 +88,10 @@ collections:
   name: FVAP.gov XML API
   slug: open-fvapgov-xml-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fvapgov-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -134,7 +138,7 @@ overview: 'FVAP.gov publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   The FVAP.gov catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  FVAP.gov''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
+  FVAP.gov''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
 plans:
 - name: Fvapgov Plans Pricing
   plan_count: 3
@@ -157,15 +161,20 @@ rules:
   slug: fvapgov-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 19.7
-  delta: 0.0
+  composite: 19.2
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 61.8
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 9.8
     contract_quality: 48.6
     developer_ergonomics: 2.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 7.9
   previous_composite: 19.7
@@ -182,8 +191,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fvapgov/refs/heads/main/screenshots/fvapgov-2026-06-20T181628.png
 security:

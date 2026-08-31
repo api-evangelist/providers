@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: amazon-ses-agentic-access
   summary_line: 6 operations · 4 acting
-api_count: 17
+api_count: 2
 apis:
 - description: Official AWS documentation for Amazon Simple Email Service, providing comprehensive guides, API references, and tutorials for email sending and management.
   name: Amazon SES Documentation
@@ -80,9 +80,6 @@ apis:
 - description: Security documentation for Amazon SES covering authentication, authorization, and encryption.
   name: Amazon SES Security
   slug: amazon-ses-security
-- description: The full Amazon Simple Email Service v2 API (API version 2019-09-27) — 86 operations across email sending, email identities and DKIM, configuration sets and event destinations, contact lists and conta
-  name: Amazon SES v2 API
-  slug: amazon-ses-v2-api
 - description: Operations for managing contact lists.
   name: Amazon SES Contact Lists API
   slug: amazon-ses-contact-lists-api
@@ -95,6 +92,9 @@ apis:
 - description: Operations for managing email templates.
   name: Amazon SES Templates API
   slug: amazon-ses-templates-api
+- description: The Email API from Amazon SES — 60 operation(s) for email.
+  name: Amazon SES Email API
+  slug: amazon-ses-email-api
 artifact_total: 47
 asyncapis:
 - description: ''
@@ -446,7 +446,7 @@ modified: '2026-08-13'
 name: Amazon SES
 nav: Providers
 network: true
-overview: 'Amazon SES publishes 5 APIs on the [APIs.io](https://apis.io/) network, including v2 API, Contact Lists API, Email Sending API, and 2 more. Tagged areas include Email, Email Deliverability, Email Service, Marketing Email, and Notification.
+overview: 'Amazon SES publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contact Lists API, Email Sending API, Identities API, and 2 more. Tagged areas include Email, Email Deliverability, Email Service, Marketing Email, and Notification.
 
 
   The Amazon SES catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 2 Spectral governance rulesets.
@@ -486,18 +486,23 @@ rules:
   slug: amazon-ses-spectral-rules
 score:
   band: exemplar
-  composite: 78.8
-  delta: -0.9
+  composite: 76.2
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 59.1
-    contract_quality: 61.1
+    contract_governance: 47.0
+    contract_quality: 63.0
     developer_ergonomics: 90.5
-    discoverability: 74.1
-    governance: 59.1
+    discoverability: 57.4
+    governance: 47.0
     operational_transparency: 84.2
-  previous_composite: 79.7
+  previous_composite: 76.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -508,8 +513,8 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ses/refs/heads/main/screenshots/amazon-ses-2026-06-20T171820.png
 security:

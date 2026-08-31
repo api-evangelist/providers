@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST API for converting HTML content and web page URLs to PDF documents with support for custom page sizes, margins, headers, footers, watermarks, page numbering, and 256-bit HTTPS encryption.
@@ -41,6 +41,10 @@ apis:
   slug: pdflayer-api
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apilayer/pdflayer-API/issues
 - group: auth
   title: ''
   type: DomainSecurity
@@ -116,7 +120,7 @@ network: true
 overview: 'pdflayer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include PDF, HTML to PDF, Document Generation, Web Capture, and APILayer.
 
 
-  pdflayer''s developer surface includes documentation, engineering blog, pricing, FAQ, and 11 more developer resources.'
+  pdflayer''s developer surface includes documentation, engineering blog, pricing, FAQ, and 12 more developer resources.'
 plans:
 - name: Pdflayer Plans Pricing
   plan_count: 4
@@ -128,8 +132,13 @@ rate_limits:
   slug: pdflayer-rate-limits
 score:
   band: thin
-  composite: 34.9
-  delta: 2.4
+  composite: 31.4
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -139,9 +148,12 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 32.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 31.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdflayer/refs/heads/main/screenshots/pdflayer-2026-06-20T191518.png
 security:

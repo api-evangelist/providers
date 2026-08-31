@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 231
   human_in_the_loop: 6
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 252
   slug: dropbox-agentic-access
   summary_line: 252 operations · 231 acting · 6 human-in-the-loop
-api_count: 28
+api_count: 2
 apis:
 - description: The Account API from Dropbox — 4 operation(s) for account.
   name: Dropbox Account API
@@ -128,7 +128,10 @@ apis:
 - description: This namespace contains endpoints and data types for user management.
   name: Dropbox Users API
   slug: dropbox-users-api
-artifact_total: 413
+- description: The Callbacks and Events API from Dropbox — 0 operation(s) for callbacks and events.
+  name: Dropbox Callbacks and Events API
+  slug: dropbox-callbacks-and-events-api
+artifact_total: 414
 collections:
 - collection_type: open
   name: API Collection
@@ -1303,7 +1306,7 @@ modified: '2026-05-19'
 name: Dropbox
 nav: Providers
 network: true
-overview: 'Dropbox publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Account API, Api App API, Auth API, and 25 more. Tagged areas include Documents.
+overview: 'Dropbox publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Account API, Api App API, Auth API, and 26 more. Tagged areas include Documents.
 
 
   The Dropbox catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -1332,18 +1335,23 @@ rules:
   slug: dropbox-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.2
-  delta: 5.7
+  composite: 43.7
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 71.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 9.8
-    contract_quality: 58.0
+    contract_quality: 58.3
     developer_ergonomics: 57.1
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 28.9
-  previous_composite: 38.5
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1351,9 +1359,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/screenshots/dropbox-2026-06-20T180244.png
 security:
 - kind: authentication

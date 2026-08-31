@@ -11,9 +11,8 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -22,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
@@ -33,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.8
-  scored_at: '2026-08-26'
+  score: 36.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +41,7 @@ agentic_access:
   operation_count: 13
   slug: clay-com-agentic-access
   summary_line: 13 operations · 8 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Generic HTTP request column inside Clay Tables that lets users call any external REST or GraphQL endpoint with row-level variables and write the response back into Clay. Acts as Clay's universal API c
   name: Clay HTTP API Enrichment
@@ -62,18 +61,31 @@ apis:
 - description: Browser extension for scraping LinkedIn profiles and other web pages directly into Clay Tables, used to bootstrap prospect lists from manual research.
   name: Clay Chrome Extension
   slug: chrome-extension
-- description: Clay's REST API for programmatic access to the GTM platform — search Clay's proprietary database of companies and people, run Clay-managed functions, custom functions and Workflows as routines (inline
-  name: Clay Public API
-  slug: public-api
 - description: Clay's hosted remote Model Context Protocol server, letting an MCP client search companies and people, run enrichment routines and query Clay tables from natural language. Streamable HTTP at https://a
   name: Clay MCP Server
   slug: mcp
-artifact_total: 20
+- description: Authenticated user and workspace endpoints.
+  name: Clay Me API
+  slug: clay-com-me-api
+- description: Routine discovery and execution endpoints.
+  name: Clay Routines API
+  slug: clay-com-routines-api
+- description: Search creation and pagination endpoints.
+  name: Clay Search API
+  slug: clay-com-search-api
+- description: Structured table query endpoints.
+  name: Clay Tables API
+  slug: clay-com-tables-api
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Clay Com Webhooks
   slug: clay-com-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/clay-com-public-api-overlay.yaml
 - group: agent
   title: ''
   type: LLMsTxt
@@ -274,13 +286,13 @@ modified: '2026-08-14'
 name: Clay
 nav: Providers
 network: true
-overview: 'Clay publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Prospecting, Go-To-Market, Sales, Enrichment, and Automation.
+overview: 'Clay publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Me API, Routines API, Search API, and 1 more. Tagged areas include Prospecting, GTM, Sales, Enrichment, and Automation.
 
 
   The Clay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Clay''s developer surface includes changelog, CLI, API reference, getting-started guide, support, authentication, documentation, and 38 more developer resources.'
+  Clay''s developer surface includes changelog, CLI, API reference, getting-started guide, support, authentication, documentation, and 39 more developer resources.'
 plans:
 - name: Clay Com Plans Pricing
   plan_count: 4
@@ -297,25 +309,30 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 63.7
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
-    contract_governance: 16.7
-    contract_quality: 42.7
+    contract_governance: 4.5
+    contract_quality: 60.7
     developer_ergonomics: 71.4
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 61.3
+  previous_composite: 64.3
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/screenshots/clay-com-2026-06-20T174453.png
 security:
@@ -338,7 +355,7 @@ security:
 slug: clay-com
 tags:
 - Prospecting
-- Go-To-Market
+- GTM
 - Sales
 - Enrichment
 - Automation

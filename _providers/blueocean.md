@@ -33,18 +33,76 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: The application backend for BlueOcean's Spark agentic marketing assistant — saved prompts and prompt analytics, "Siren" recurring schedules, session document upload, persistent user memory, conversati
-  name: BlueOcean Spark Platform API
-  slug: blueocean-spark-platform-api
-artifact_total: 6
+- description: The Delete Conversation API from BlueOcean — 1 operation(s) for delete conversation.
+  name: BlueOcean Delete Conversation API
+  slug: blueocean-delete-conversation-api
+- description: The Get All Conversation History API from BlueOcean — 1 operation(s) for get all conversation history.
+  name: BlueOcean Get All Conversation History API
+  slug: blueocean-get-all-conversation-history-api
+- description: The Get Conversation History Summary API from BlueOcean — 1 operation(s) for get conversation history summary.
+  name: BlueOcean Get Conversation History Summary API
+  slug: blueocean-get-conversation-history-summary-api
+- description: The Get Message History API from BlueOcean — 1 operation(s) for get message history.
+  name: BlueOcean Get Message History API
+  slug: blueocean-get-message-history-api
+- description: The Get Message History V2 API from BlueOcean — 1 operation(s) for get message history v2.
+  name: BlueOcean Get Message History V2 API
+  slug: blueocean-get-message-history-v2-api
+- description: The images API from BlueOcean — 1 operation(s) for images.
+  name: BlueOcean Images API
+  slug: blueocean-images-api
+- description: The langsmith_api API from BlueOcean — 1 operation(s) for langsmith_api.
+  name: BlueOcean Langsmith API
+  slug: blueocean-langsmith-api-api
+- description: The mcp API from BlueOcean — 3 operation(s) for mcp.
+  name: BlueOcean MCP API
+  slug: blueocean-mcp-api
+- description: The mock_mcp API from BlueOcean — 4 operation(s) for mock_mcp.
+  name: BlueOcean Mock MCP API
+  slug: blueocean-mock-mcp-api
+- description: The oauth_providers API from BlueOcean — 15 operation(s) for oauth_providers.
+  name: BlueOcean OAUTH Providers API
+  slug: blueocean-oauth-providers-api
+- description: The pinecone_api API from BlueOcean — 1 operation(s) for pinecone_api.
+  name: BlueOcean Pinecone API
+  slug: blueocean-pinecone-api-api
+- description: The pipedream API from BlueOcean — 7 operation(s) for pipedream.
+  name: BlueOcean Pipedream API
+  slug: blueocean-pipedream-api
+- description: The prompts API from BlueOcean — 6 operation(s) for prompts.
+  name: BlueOcean Prompts API
+  slug: blueocean-prompts-api
+- description: The Rename Conversation API from BlueOcean — 1 operation(s) for rename conversation.
+  name: BlueOcean Rename Conversation API
+  slug: blueocean-rename-conversation-api
+- description: The session_documents API from BlueOcean — 5 operation(s) for session_documents.
+  name: BlueOcean Session Documents API
+  slug: blueocean-session-documents-api
+- description: The siren API from BlueOcean — 4 operation(s) for siren.
+  name: BlueOcean Siren API
+  slug: blueocean-siren-api
+- description: The siren-internal API from BlueOcean — 1 operation(s) for siren-internal.
+  name: BlueOcean Siren Internal API
+  slug: blueocean-siren-internal-api
+- description: The Upsert Widget Data API from BlueOcean — 1 operation(s) for upsert widget data.
+  name: BlueOcean Upsert Widget Data API
+  slug: blueocean-upsert-widget-data-api
+- description: The user_memory API from BlueOcean — 8 operation(s) for user_memory.
+  name: BlueOcean User Memory API
+  slug: blueocean-user-memory-api
+artifact_total: 24
 collections:
 - collection_type: open
   name: FastAPI
   slug: open-blueocean-spark-platform
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/blueocean-spark-platform-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -121,10 +179,10 @@ modified: '2026-08-13'
 name: BlueOcean
 nav: Providers
 network: true
-overview: 'BlueOcean publishes 1 API on the [APIs.io](https://apis.io/) network: Spark Platform API. Tagged areas include Company, Marketing, Artificial Intelligence, Agentic AI, and Brand Intelligence.
+overview: 'BlueOcean publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Delete Conversation API, Get All Conversation History API, Get Conversation History Summary API, and 16 more. Tagged areas include Company, Marketing, Artificial Intelligence, Agentic AI, and Brand Intelligence.
 
 
-  BlueOcean''s developer surface includes engineering blog, authentication, and 15 more developer resources.'
+  BlueOcean''s developer surface includes engineering blog, authentication, and 16 more developer resources.'
 plans:
 - name: Blueocean Plans Pricing
   plan_count: 0
@@ -136,18 +194,23 @@ rate_limits:
   slug: blueocean-rate-limits
 score:
   band: thin
-  composite: 33.8
-  delta: 1.4
+  composite: 32.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
-    contract_governance: 30.3
-    contract_quality: 43.4
+    contract_governance: 18.2
+    contract_quality: 45.6
     developer_ergonomics: 21.4
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 32.4
+  previous_composite: 33.5
   provenance:
     conformance: first-party
     contracts:
@@ -156,8 +219,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blueocean/refs/heads/main/screenshots/blueocean-2026-07-25T203459.png
 security:

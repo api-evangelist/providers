@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 27
   slug: perforce-agentic-access
   summary_line: 27 operations · 15 acting
-api_count: 14
+api_count: 1
 apis:
 - description: Technology Preview REST API introduced with P4 Server 2025.2, providing a new way to automate workflows and integrate P4 with other tools via standard HTTP endpoints for server info, depots, files, an
   name: Perforce P4 REST API
@@ -128,6 +128,18 @@ collections:
   name: Perforce Helix Swarm Activity Version API
   slug: open-perforce-version-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/perforce/helix-authentication-service/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/perforce/helix-authentication-service/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/perforce/helix-authentication-service/blob/main/CODE_OF_CONDUCT.md
 - group: commercial
   title: ''
   type: License
@@ -388,7 +400,7 @@ overview: 'Perforce publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   The Perforce catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Perforce''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, and 11 more developer resources.'
+  Perforce''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Perforce Plans Pricing
   plan_count: 5
@@ -422,18 +434,26 @@ rules:
   slug: perforce-spectral-rules
 score:
   band: developing
-  composite: 50.5
-  delta: 4.9
+  composite: 49.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 64.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 13.6
     contract_quality: 65.2
     developer_ergonomics: 69.0
-    discoverability: 63.0
+    discoverability: 57.4
     governance: 13.6
     operational_transparency: 39.5
-  previous_composite: 45.6
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -445,8 +465,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/screenshots/perforce-2026-06-20T191608.png
 security:

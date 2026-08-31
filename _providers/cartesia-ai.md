@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 86
   slug: cartesia-ai-agentic-access
   summary_line: 86 operations · 48 acting
-api_count: 21
+api_count: 1
 apis:
 - description: 'Bidirectional, multiplexed WebSocket at wss://api.cartesia.ai/tts/websocket for realtime speech generation. Clients send JSON generation requests keyed by a context_id (continuing a context preserves '
   name: Cartesia TTS WebSocket API
@@ -107,7 +107,13 @@ apis:
 - description: Webhook endpoint registration.
   name: Cartesia Webhooks API
   slug: cartesia-ai-webhooks-api
-artifact_total: 54
+- description: The STT API from Cartesia — 1 operation(s) for stt.
+  name: Cartesia STT API
+  slug: cartesia-ai-stt-api
+- description: The TTS API from Cartesia — 2 operation(s) for tts.
+  name: Cartesia TTS API
+  slug: cartesia-ai-tts-api
+artifact_total: 56
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Cartesia''s **documented public WebSocket API**. Unlike most providers in this catalog, Cartesia publishes a real, bidirectional WebSocket protocol - not Server-Sent Events '
   name: Cartesia Realtime WebSocket API (TTS + STT)
@@ -270,7 +276,7 @@ modified: '2026-08-08'
 name: Cartesia
 nav: Providers
 network: true
-overview: 'Cartesia publishes 21 APIs on the [APIs.io](https://apis.io/) network, including TTS WebSocket API, STT WebSocket API, Agents API, and 18 more. Tagged areas include Artificial Intelligence, Voice AI, Text-to-Speech, Speech-to-Text, and Real-Time.
+overview: 'Cartesia publishes 23 APIs on the [APIs.io](https://apis.io/) network, including TTS WebSocket API, STT WebSocket API, Agents API, and 20 more. Tagged areas include Artificial Intelligence, Voice AI, Text to Speech, Speech-to-Text, and Real-Time.
 
 
   The Cartesia catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -300,18 +306,23 @@ rules:
   slug: cartesia-ai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 44.4
-  delta: 1.4
+  composite: 45.6
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 50.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 11.4
-    contract_quality: 62.9
+    contract_quality: 62.5
     developer_ergonomics: 35.7
-    discoverability: 57.4
+    discoverability: 70.4
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 43.0
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     contracts:
@@ -319,8 +330,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/screenshots/cartesia-ai-2026-07-25T204650.png
 security:
@@ -336,7 +347,7 @@ slug: cartesia-ai
 tags:
 - Artificial Intelligence
 - Voice AI
-- Text-to-Speech
+- Text to Speech
 - Speech-to-Text
 - Real-Time
 - WebSocket

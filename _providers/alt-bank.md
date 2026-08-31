@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Real-time consumer credit underwriting / risk-assessment API. Partners POST an underwriting request for a credit-card applicant and receive a Guard Score, risk band and credit-limit decision. The call
   name: GUARD API
@@ -45,7 +45,10 @@ apis:
 - description: Identity verification / KYC SDK and API for onboarding and verifying applicants as part of the alt.bank credit and card flows.
   name: SDK KYC API
   slug: sdk-kyc-api
-artifact_total: 9
+- description: Credit underwriting and risk scoring for partner card issuance.
+  name: Alt Bank Underwriting API
+  slug: alt-bank-underwriting-api
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Alt Bank Guard Webhooks
@@ -58,6 +61,10 @@ collections:
   name: alt.bank GUARD Underwriting API
   slug: open-alt-bank-underwriting-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/alt-bank-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -134,28 +141,33 @@ modified: '2026-08-08'
 name: Alt Bank
 nav: Providers
 network: true
-overview: 'Alt Bank publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Banking, Credit, and Underwriting.
+overview: 'Alt Bank publishes 1 API on the [APIs.io](https://apis.io/) network: Underwriting API. Tagged areas include Company, Fintech, Banking, Credit, and Underwriting.
 
 
   The Alt Bank catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Alt Bank''s developer surface includes documentation, getting-started guide, API reference, support, authentication, sandbox, and 10 more developer resources.'
+  Alt Bank''s developer surface includes documentation, getting-started guide, API reference, support, authentication, sandbox, and 11 more developer resources.'
 random_paper: 1
 score:
   band: emerging
-  composite: 22.2
-  delta: 0.0
+  composite: 25.3
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 49.3
+    contract_quality: 63.9
     developer_ergonomics: 18.5
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 22.2
+  previous_composite: 25.9
   provenance:
     contracts:
       callable: 100.0
@@ -170,8 +182,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/screenshots/alt-bank-2026-07-25T195815.png
 security:

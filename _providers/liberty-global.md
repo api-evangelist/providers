@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.4
-  scored_at: '2026-08-26'
+  score: 29.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -33,15 +33,15 @@ agentic_access:
   summary_line: 14 operations · 6 acting
 api_count: 3
 apis:
-- description: The ASMS (AppStore Metadata Service) REST API from Liberty Global Technology Services BV — the MAS API in RDK. Manages application metadata and maintainer records for the RDK-based set-top box app sto
-  name: AppStore Metadata Service API
-  slug: appstore-metadata-service-api
-- description: The AppStore Bundle Service API from Liberty Global Technology Services BV handles the application bundle generation process by interacting with the Bundle Generator and Bundle Cryptor services, expos
-  name: AppStore Bundle Service API
-  slug: appstore-bundle-service-api
-- description: The AppStore Caching Service API from Liberty Global Technology Services BV acts as a caching proxy in front of the AppStore Bundle Service, serving generated application bundles addressed by applicat
-  name: AppStore Caching Service API
-  slug: appstore-caching-service-api
+- description: The Applications API from Liberty Global — 2 operation(s) for applications.
+  name: Liberty Global Applications API
+  slug: liberty-global-applications-api
+- description: The Maintainer API from Liberty Global — 4 operation(s) for maintainer.
+  name: Liberty Global Maintainer API
+  slug: liberty-global-maintainer-api
+- description: The STB API from Liberty Global — 2 operation(s) for stb.
+  name: Liberty Global STB API
+  slug: liberty-global-stb-api
 artifact_total: 11
 collections:
 - collection_type: open
@@ -54,6 +54,18 @@ collections:
   name: ASMS API
   slug: open-liberty-global-appstore-metadata-service
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/liberty-global-appstore-metadata-service-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/liberty-global-appstore-bundle-service-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/liberty-global-appstore-caching-service-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -171,25 +183,30 @@ modified: '2026-07-25'
 name: Liberty Global
 nav: Providers
 network: true
-overview: 'Liberty Global publishes 3 APIs on the [APIs.io](https://apis.io/) network: AppStore Metadata Service API, AppStore Bundle Service API, and AppStore Caching Service API. Tagged areas include Telecommunications, United Kingdom, Broadband, Fixed Broadband, and Mobile Network Operator.
+overview: 'Liberty Global publishes 3 APIs on the [APIs.io](https://apis.io/) network: Applications API, Maintainer API, and STB API. Tagged areas include Telecommunications, United Kingdom, Broadband, Fixed Broadband, and Mobile Network Operator.
 
 
-  Liberty Global''s developer surface includes engineering blog, authentication, changelog, sandbox, and 22 more developer resources.'
+  Liberty Global''s developer surface includes engineering blog, authentication, changelog, sandbox, and 25 more developer resources.'
 random_paper: 5
 score:
   band: developing
-  composite: 41.1
-  delta: 3.3
+  composite: 40.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 30.3
-    contract_quality: 39.2
+    contract_governance: 18.2
+    contract_quality: 43.1
     developer_ergonomics: 39.9
     discoverability: 72.2
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 37.8
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -206,8 +223,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/screenshots/liberty-global-2026-08-07T171613.png
 security:

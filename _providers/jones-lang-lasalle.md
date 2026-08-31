@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: jones-lang-lasalle-agentic-access
   summary_line: 5 operations · 5 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Track and manage facility assets and equipment.
   name: Jones Lang LaSalle Assets API
@@ -77,6 +77,10 @@ collections:
   name: JLL Corrigo Enterprise REST Assets Work Orders API
   slug: open-jones-lang-lasalle-work-orders-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/jones-lang-lasalle-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -120,7 +124,7 @@ network: true
 overview: 'Jones Lang LaSalle publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Contacts API, Locations API, and 1 more. Tagged areas include Commercial Real Estate, Facility Management, Asset Management, Work Orders, and Fortune 500.
 
 
-  Jones Lang LaSalle''s developer surface includes authentication and 6 more developer resources.'
+  Jones Lang LaSalle''s developer surface includes authentication and 7 more developer resources.'
 plans:
 - name: Jones Lang Lasalle Plans Pricing
   plan_count: 1
@@ -148,18 +152,23 @@ rate_limits:
   slug: jones-lang-lasalle-rate-limits
 score:
   band: thin
-  composite: 26.8
-  delta: 0.9
+  composite: 26.3
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 49.7
     developer_ergonomics: 16.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 25.9
+  previous_composite: 26.8
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +176,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

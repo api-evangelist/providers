@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 388
   human_in_the_loop: 5
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 388
   slug: gitpod-agentic-access
   summary_line: 388 operations · 388 acting · 5 human-in-the-loop
-api_count: 34
+api_count: 1
 apis:
 - description: REST API for managing organizations, groups, members, role assignments, permissions, and organization-level policies. Supports SSO login providers, secrets scoped to organizations, and audit trails fo
   name: Gitpod Organizations API
@@ -329,10 +329,6 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/gitpod-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: '2026-06-12'
 description: Gitpod is a cloud development environment platform that provides on-demand, ephemeral workspaces spun up from git repositories, enabling developers to write, review, and ship code from any device without local setup. Originally focused on browser-based IDEs, the platform evolved into Gitpod Flex, offering REST APIs and SDKs for workspace lifecycle management, environment automation, and organization administration. The Gitpod API supports TypeScript, Python, and Go SDKs and uses bearer token authentication via API keys. In September 2025 Gitpod rebranded to Ona, shifting focus to AI software engineering agents built on top of its secure, isolated environment infrastructure.
 examples:
@@ -385,7 +381,7 @@ overview: 'Gitpod publishes 31 APIs on the [APIs.io](https://apis.io/) network, 
   The Gitpod catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Gitpod''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 17 more developer resources.'
+  Gitpod''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 16 more developer resources.'
 plans:
 - name: Gitpod Plans Pricing
   plan_count: 2
@@ -408,15 +404,20 @@ rules:
   slug: gitpod-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 45.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 42.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 25.0
     contract_quality: 59.0
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 47.4
   previous_composite: 45.6
@@ -427,8 +428,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 31
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitpod/refs/heads/main/screenshots/gitpod-2026-06-20T181852.png
 security:

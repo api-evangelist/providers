@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 22
   slug: nylas-agentic-access
   summary_line: 22 operations · 8 acting
-api_count: 14
+api_count: 2
 apis:
-- description: The Nylas v3 REST API provides programmatic access to email, calendar, contacts, meeting notetaking, scheduling, authentication and administration across Google, Microsoft, Exchange, iCloud, Yahoo and
-  name: Nylas API
-  slug: nylas-api
 - description: 'Application-level administration: Nylas applications, API keys, custom domains, connectors and connector credentials, workspaces, and the rules, policies and lists that govern them.'
   name: Nylas Admin API
   slug: nylas-admin-api
@@ -83,10 +80,10 @@ apis:
 - description: Meeting notetaker. Send a notetaker to a Google Meet, Microsoft Teams or Zoom call, then retrieve the recording, transcript, summary and action items. Available grant-scoped, or standalone with no con
   name: Nylas Notetaker API
   slug: nylas-notetaker-api
-- description: Reusable email templates and automation workflows, at both application and grant scope. Define a template once and send against it, or trigger a workflow on an inbound event.
+- description: The Templates and Workflows API from Nylas — 12 operation(s) for templates and workflows.
   name: Nylas Templates and Workflows API
-  slug: nylas-templates-workflows-api
-artifact_total: 36
+  slug: nylas-templates-and-workflows-api
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -125,6 +122,10 @@ collections:
   name: Nylas API (v3)
   slug: open-nylas
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nylas-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -332,10 +333,10 @@ modified: '2026-04-28'
 name: Nylas
 nav: Providers
 network: true
-overview: 'Nylas publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Auth API, and 12 more. Tagged areas include Calendar, Communications, Contacts, Email, and Messaging.
+overview: 'Nylas publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Auth API, Calendars API, and 10 more. Tagged areas include Calendar, Communications, Contacts, Email, and Messaging.
 
 
-  Nylas'' developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, CLI, support, and 40 more developer resources.'
+  Nylas'' developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, CLI, support, and 41 more developer resources.'
 plans:
 - name: Nylas Plans Pricing
   plan_count: 5
@@ -347,15 +348,20 @@ rate_limits:
   slug: nylas-rate-limits
 score:
   band: exemplar
-  composite: 76.2
-  delta: 0.0
+  composite: 75.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 46.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 33.3
     contract_quality: 56.5
     developer_ergonomics: 92.9
-    discoverability: 92.6
+    discoverability: 87.0
     governance: 33.3
     operational_transparency: 78.9
   previous_composite: 76.2
@@ -368,8 +374,8 @@ score:
       marker_coverage: 100.0
       total: 13
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nylas/refs/heads/main/screenshots/nylas-2026-06-20T190645.png
 security:

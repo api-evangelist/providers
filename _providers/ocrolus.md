@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 82
   slug: ocrolus-agentic-access
   summary_line: 82 operations · 34 acting · 1 human-in-the-loop
-api_count: 16
+api_count: 14
 apis:
 - description: The Book Commands API from Ocrolus — 3 operation(s) for book commands.
   name: Ocrolus Book Commands API
@@ -404,18 +404,23 @@ rate_limits:
   slug: ocrolus-rate-limits
 score:
   band: strong
-  composite: 59.0
-  delta: 1.1
+  composite: 57.5
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 62.2
     developer_ergonomics: 42.3
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 69.7
-  previous_composite: 57.9
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -428,12 +433,20 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    - jurisdiction: US
+      standard: glba
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocrolus/refs/heads/main/screenshots/ocrolus-2026-08-07T185929.png
 security:

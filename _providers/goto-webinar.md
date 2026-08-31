@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -41,11 +41,8 @@ agentic_access:
   operation_count: 53
   slug: goto-webinar-agentic-access
   summary_line: 53 operations · 22 acting
-api_count: 9
+api_count: 1
 apis:
-- description: The full GoTo Webinar v2 REST API as GoTo publishes it — 53 operations across 39 paths covering webinars, sessions, registrants, attendees, panelists, co-organizers, polls, Q&A, surveys, recording ass
-  name: GoTo Webinar REST API v2
-  slug: rest-api-v2
 - description: Session-level attendee reporting for GoTo Webinar — 5 operations covering the attendees of a session, a single attendee, and that attendee's poll answers, Q&A questions and survey responses.
   name: GoTo Webinar Attendees API
   slug: goto-webinar-attendees-api
@@ -70,7 +67,7 @@ apis:
 - description: Webhook management for GoTo Webinar — 11 operations to create the delivery secret key, register and activate webhook callbacks, and create, read, update and delete the per-user subscriptions that make
   name: GoTo Webinar Webhooks API
   slug: goto-webinar-webhooks-api
-artifact_total: 26
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Goto Webinar Webhooks
@@ -270,7 +267,7 @@ modified: '2026-08-13'
 name: GoTo Webinar
 nav: Providers
 network: true
-overview: 'GoTo Webinar publishes 9 APIs on the [APIs.io](https://apis.io/) network, including REST API v2, Attendees API, Panelists API, and 6 more. Tagged areas include Webinars, Virtual Events, Video Conferencing, Marketing, and Lead Capture.
+overview: 'GoTo Webinar publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Panelists API, Registrants API, and 5 more. Tagged areas include Webinars, Virtual Events, Video Conferencing, Marketing, and Lead Capture.
 
 
   The GoTo Webinar catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -292,19 +289,24 @@ scopes:
   slug: goto-webinar-scopes
   summary_line: 1 scope · authorizationCode/password
 score:
-  band: exemplar
-  composite: 67.8
-  delta: 0.0
+  band: strong
+  composite: 64.7
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 16.7
-    contract_quality: 60.6
+    contract_governance: 4.5
+    contract_quality: 60.7
     developer_ergonomics: 70.8
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 67.8
+  previous_composite: 65.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -315,8 +317,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goto-webinar/refs/heads/main/screenshots/goto-webinar-2026-06-20T182256.png
 security:

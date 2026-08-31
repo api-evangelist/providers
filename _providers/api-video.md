@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -64,6 +64,10 @@ collections:
   name: api.video API
   slug: open-api-video
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/api-video-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -143,7 +147,7 @@ network: true
 overview: 'API.Video publishes 1 API on the [APIs.io](https://apis.io/) network: Videos API. Tagged areas include Artificial Intelligence, Analytics, CDN, Encoding, and Live Streaming.
 
 
-  API.Video''s developer surface includes documentation, getting-started guide, pricing, engineering blog, and 6 more developer resources.'
+  API.Video''s developer surface includes documentation, getting-started guide, pricing, engineering blog, and 7 more developer resources.'
 plans:
 - name: Api Video Plans Pricing
   plan_count: 3
@@ -156,6 +160,11 @@ rate_limits:
 score:
   band: thin
   composite: 31.3
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 26.3
@@ -174,8 +183,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/screenshots/api-video-2026-06-20T172221.png
 security:
@@ -192,7 +201,7 @@ tags:
 - Live Streaming
 - Transcription
 - Video
-- Video-on-Demand
+- Video on Demand
 use_cases:
 - description: Host and deliver training videos with analytics to track learner engagement and completion.
   name: Online Learning and Corporate Training

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 364
   human_in_the_loop: 21
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 628
   slug: extreme-networks-agentic-access
   summary_line: 628 operations · 364 acting · 21 human-in-the-loop
-api_count: 52
+api_count: 1
 apis:
 - description: On-premises REST API gateway exposed by the ExtremeCloud IQ Controller (the wired and wireless campus controller). Provides programmatic access to controller configuration, sites, RF management, AP an
   name: ExtremeCloud IQ Controller REST API Gateway
@@ -343,6 +343,10 @@ collections:
   name: ExtremeCloud IQ API
   slug: open-extremecloud-iq
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/extreme-networks-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -459,22 +463,27 @@ network: true
 overview: 'Extreme Networks publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Account API, Administration API, AFC API, and 42 more. Tagged areas include Networking, Wireless, Wired, Switching, and Wi-Fi.
 
 
-  Extreme Networks'' developer surface includes authentication, API reference, GitHub presence, documentation, support, engineering blog, status page, and 19 more developer resources.'
+  Extreme Networks'' developer surface includes authentication, API reference, GitHub presence, documentation, support, engineering blog, status page, and 20 more developer resources.'
 random_paper: 20
 score:
-  band: developing
-  composite: 39.7
-  delta: 6.9
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 86.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 57.2
     developer_ergonomics: 59.5
-    discoverability: 59.3
+    discoverability: 53.7
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 32.8
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -482,9 +491,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 45
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extreme-networks/refs/heads/main/screenshots/extreme-networks-2026-06-20T180950.png
 security:
 - kind: authentication

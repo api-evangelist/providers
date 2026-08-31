@@ -1,16 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Free and open — no registration, no key, no scopes
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - probe
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,29 +29,47 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 5.0
-  scored_at: '2026-08-26'
-api_count: 2
+  score: 18.0
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: OAI-PMH 2.0 metadata harvesting endpoint for Enlighten, the University of Glasgow's EPrints institutional repository of publications (journal articles, theses, conference papers, books and more). Supp
+- description: OAI-PMH 2.0 metadata harvesting over Enlighten, the University of Glasgow's EPrints institutional repository of research outputs — journal articles, conference papers, books, book sections and theses.
   name: Enlighten Publications OAI-PMH
   slug: enlighten-oai
-- description: OAI-PMH 2.0 metadata harvesting endpoint for Enlighten Research Data, the University of Glasgow's EPrints research data repository and registry. Returns a valid Identify response and supports standard
+- description: OAI-PMH 2.0 metadata harvesting over Enlighten Research Data, the University of Glasgow's research data repository and registry. Records carry DataCite DOIs minted under the university's own prefix in
   name: Enlighten Research Data OAI-PMH
   slug: researchdata-oai
-artifact_total: 7
+- description: OAI-PMH 2.0 metadata harvesting over Enlighten Theses, the University of Glasgow's electronic theses repository, with records back to 2012-12-10. Offers oai_dc, didl, mets, oai_bibl, rdf and uketd_dc,
+  name: Enlighten Theses OAI-PMH
+  slug: theses-oai
+- description: 'An anonymous read interface over the Enlighten repositories that the University of Glasgow does not document or advertise anywhere: a dataset index at /rest/, an object index per dataset, a full EPrin'
+  name: Enlighten EPrints REST API
+  slug: enlighten-rest
+- description: The University of Glasgow's virtual learning environment, self-hosted on Moodle, exposes a live LTI 1.3 Advantage platform surface — a public JWKS at /mod/lti/certs.php carrying one RS256 signing key,
+  name: Moodle VLE — LTI 1.3 Platform and Web Services
+  slug: moodle-lti
+- description: The library management system's Sierra REST API, live on the University of Glasgow Library's own catalogue host. /iii/sierra-api/v6/info/token returned 401 on 2026-08-30 — present and credentialed rat
+  name: Library Sierra API (Innovative Interfaces)
+  slug: sierra-library-api
+- description: 'The University of Glasgow Library''s discovery layer, operated for the university by OCLC on a Glasgow-scoped WorldCat subdomain. Programmatic access exists but runs entirely on OCLC''s WorldCat Search '
+  name: WorldCat Discovery (OCLC tenancy)
+  slug: worldcat-discovery
+- description: The library's research guides and databases A-Z, operated for the university by Springshare on a Glasgow-scoped LibGuides subdomain. Any machine access runs on Springshare's LibGuides API with site cr
+  name: LibGuides (Springshare tenancy)
+  slug: libguides
+artifact_total: 15
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/university-of-glasgow-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://www.gla.ac.uk/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/University-of-Glasgow-Public
 - group: build
   title: ''
   type: GitHub
@@ -60,10 +78,74 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-glasgow/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://idp.gla.ac.uk/idp/shibboleth
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://eprints.gla.ac.uk/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://researchdata.gla.ac.uk/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://theses.gla.ac.uk/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://eleanor.lib.gla.ac.uk/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://www.gla.ac.uk/coursecatalogue/
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://www.gla.ac.uk/research/arc/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.gla.ac.uk/myglasgow/leads/allstaff/generativeai/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.gla.ac.uk/legal/privacy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.gla.ac.uk/legal/termsofuse/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.gla.ac.uk/myglasgow/it/
+- group: design
+  title: ''
+  type: x-conformance
+  url: conformance/university-of-glasgow-conformance.yml
 - group: auth
   title: ''
   type: Authentication
-  url: https://www.gla.ac.uk/myglasgow/it/
+  url: authentication/university-of-glasgow-authentication.yml
+- group: design
+  title: ''
+  type: x-errors
+  url: errors/university-of-glasgow-errors.yml
+- group: design
+  title: ''
+  type: x-lifecycle
+  url: lifecycle/university-of-glasgow-lifecycle.yml
+- group: design
+  title: ''
+  type: x-vocabulary
+  url: vocabulary/university-of-glasgow-vocabulary.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/university-of-glasgow-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -80,16 +162,17 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 - group: design
   title: ''
   type: JSONLD
   url: json-ld/university-of-glasgow-context.jsonld
 created: '2026-06-03'
-description: 'The University of Glasgow is a public research university in Glasgow, Scotland, United Kingdom, founded in 1451 and ranked #62 in the QS World University Rankings 2025. Its public, machine-accessible developer footprint is centered on scholarly infrastructure rather than a unified developer portal: the Enlighten institutional repository and Enlighten Research Data repository both run on EPrints and expose OAI-PMH 2.0 metadata harvesting endpoints. There is no single university-wide API developer portal; departmental engineering teams publish open-source code on GitHub, and access to most internal systems is gated behind Shibboleth/SAML single sign-on (GUID).'
+description: 'The University of Glasgow is a public research university in Glasgow, Scotland, founded in 1451 and a member of the Russell Group. Its programmable footprint is entirely its own — no part of it was found to be a vendor''s contract running under the university''s name — but it is small, unadvertised and library-shaped rather than product-shaped. What the institution actually operates and runs itself, verified live on 2026-08-30, is the Enlighten repository estate on its own EPrints deployment: three OAI-PMH 2.0 endpoints (Publications, Research Data and Theses, the last of which was not previously catalogued) and an anonymous read REST interface over the same repositories that the university does not describe anywhere. Alongside them it operates a Shibboleth SAML 2.0 identity provider scoped gla.ac.uk and registered in the UK Access Management Federation, which by volume and maintenance is the institution''s largest machine-readable artifact and is a login federation rather
+  than a data API. It mints its own DataCite DOIs under prefix 10.5525 and is Crossref member 21131. Two further surfaces are live on Glasgow hosts but run a third party''s contract — the self-hosted Moodle VLE''s LTI 1.3 platform endpoints and the library''s Innovative Interfaces Sierra API, both credentialed. Its discovery layer and its research guides are vendor tenancies on OCLC WorldCat and Springshare LibGuides, recorded here as tenant relationships and deliberately not credited to the university. There is no central developer portal, no API key issuance, no changelog, no status page and no developer support channel anywhere on gla.ac.uk.'
+examples:
+- key_count: 1
+  name: University Of Glasgow Moodle Lti Jwks Example
+  slug: university-of-glasgow-moodle-lti-jwks-example
 finops:
 - name: University Of Glasgow Finops
   service_category: Education
@@ -101,17 +184,17 @@ jsonld:
   property_count: 6
   slug: university-of-glasgow-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: University of Glasgow
 nav: Providers
 network: true
-overview: 'University of Glasgow publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Open Access.
+overview: 'University of Glasgow publishes 1 API on the [APIs.io](https://apis.io/) network: Enlighten EPrints REST API. Tagged areas include University, Higher Education, Education, United Kingdom, and Scotland.
 
 
   The University of Glasgow catalog on APIs.io includes 1 JSON-LD context.
 
 
-  University of Glasgow''s developer surface includes GitHub presence, authentication, engineering blog, and 8 more developer resources.'
+  University of Glasgow''s developer surface includes GitHub presence, support, authentication, and 23 more developer resources.'
 plans:
 - name: University Of Glasgow Plans Pricing
   plan_count: 2
@@ -122,44 +205,56 @@ rate_limits:
   name: University Of Glasgow Rate Limits
   slug: university-of-glasgow-rate-limits
 score:
-  band: emerging
-  composite: 24.1
-  delta: 1.9
+  band: developing
+  composite: 40.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 16.7
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 50.0
+    commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 10.7
-    developer_ergonomics: 23.8
-    discoverability: 68.5
+    contract_quality: 55.1
+    developer_ergonomics: 26.2
+    discoverability: 59.3
     governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 22.2
+    operational_transparency: 23.7
+  previous_composite: 24.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 46.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-glasgow/refs/heads/main/screenshots/university-of-glasgow-2026-06-20T200152.png
 security:
+- kind: authentication
+  name: University Of Glasgow Authentication
+  slug: university-of-glasgow-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: University Of Glasgow Domain Security
   slug: university-of-glasgow-domain-security
   summary_line: TLSv1.3 · DMARC
 slug: university-of-glasgow
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Access
-- Repository
-- OAI-PMH
+- Higher Education
+- Education
 - United Kingdom
 - Scotland
+- Russell Group
+- Research Data
+- Repository
+- OAI-PMH
+- Open Access
+- Identity Federation
+- Digital Library
 website: https://www.gla.ac.uk/
 ---

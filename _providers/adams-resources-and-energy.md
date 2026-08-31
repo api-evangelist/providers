@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 12
 common:
@@ -40,30 +40,36 @@ common:
   title: ''
   type: DomainSecurity
   url: security/adams-resources-and-energy-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/adams-resources-and-energy-llms.txt
 - group: company
   title: ''
   type: Website
-  url: https://www.adamsresources.com
-- group: start
-  title: ''
-  type: Portal
   url: https://www.adamsresources.com
 - group: operate
   title: ''
   type: Contact
   url: https://www.adamsresources.com/contact
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://www.adamsresources.com/terms
-- group: commercial
-  title: ''
-  type: PrivacyPolicy
-  url: https://www.adamsresources.com/privacy
 - group: company
   title: ''
   type: LinkedIn
-  url: https://www.linkedin.com/company/adams-resources-energy-inc
+  url: https://www.linkedin.com/company/adams-resources-&-energy-inc
+coverage:
+  checked: '2026-08-30'
+  detail: Adams Resources & Energy is a crude oil marketing, trucking, terminalling and pipeline operator whose entire public surface is an 11-page Squarespace corporate and investor- relations site; there is no api. or developer. subdomain (both fail to resolve), no /openapi.json, /swagger.json, /api-docs, /docs or /graphql, no GitHub organization, and every /.well-known/ path including agent-card.json returns an honest 404.
+  evidence:
+  - status: 404
+    url: https://www.adamsresources.com/openapi.json
+  - status: 404
+    url: https://www.adamsresources.com/.well-known/agent-card.json
+  - status: 0
+    url: https://api.adamsresources.com/
+  - status: 200
+    url: https://www.adamsresources.com/sitemap.xml
+  reason: not-a-software-company
+  state: none
 created: '2026-04-19'
 description: Adams Resources & Energy is a diversified energy company engaged in the marketing, transportation, terminalling, and storage of crude oil and other related petroleum products in select markets across the United States. Through its subsidiaries GulfMark Energy, Firebird Bulk Carriers, Phoenix Oil, and Victoria Express Pipeline, the company purchases approximately 90,000 barrels per day at the wellhead and operates over 260 tractor-trailers and 112 pipeline inventory locations. Adams Resources & Energy serves multiple U.S. petroleum basins including the Gulf Coast, Eagle Ford Shale, Permian Basin, Bakken Shale, and Michigan, with over $1 billion in annual revenues and 400+ employees.
 features:
@@ -81,14 +87,11 @@ features:
   name: Pipeline Operations
 image: https://www.adamsresources.com/favicon.ico
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-30'
 name: Adams Resources & Energy
 nav: Providers
 network: true
-overview: 'Adams Resources & Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Oil and Gas, Crude Oil, Transportation, and Logistics.
-
-
-  Adams Resources & Energy''s developer surface includes developer portal and 6 more developer resources.'
+overview: Adams Resources & Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Oil And Gas, Crude Oil, Transportation, and Logistics.
 press:
 - date: '2026-05-25'
   title: ADAMS RESOURCES & ENERGY, INC. ANNOUNCES ...
@@ -108,14 +111,19 @@ press:
 random_paper: 14
 score:
   band: minimal
-  composite: 5.2
-  delta: 0.0
+  composite: 3.3
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.9
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 0.0
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -126,8 +134,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adams-resources-and-energy/refs/heads/main/screenshots/adams-resources-and-energy-2026-06-20T164525.png
 security:
@@ -138,7 +146,7 @@ security:
 slug: adams-resources-and-energy
 tags:
 - Energy
-- Oil and Gas
+- Oil And Gas
 - Crude Oil
 - Transportation
 - Logistics

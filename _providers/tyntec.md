@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: tyntec-agentic-access
   summary_line: 10 operations · 3 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Programmatic two-factor authentication and one-time passwords. Send an OTP to a recipient number (POST /otp), validate the code the user enters (POST /otp/{otp-id}/validate returning VERIFIED, EXPIRED
   name: tyntec 2FA Authentication API
@@ -86,6 +86,14 @@ collections:
   name: tyntec Phone Number Intelligence Number Information Verify Templates API
   slug: open-tyntec-verify-templates-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/tyntec/api-collection/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/tyntec/api-collection/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -145,7 +153,7 @@ network: true
 overview: 'tyntec publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Number Information API, Number Verification API, Service API, and 1 more. Tagged areas include Number Verification, CPaaS, SMS, WhatsApp, and Phone Number Intelligence.
 
 
-  tyntec''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  tyntec''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Tyntec Plans Pricing
   plan_count: 2
@@ -157,18 +165,26 @@ rate_limits:
   slug: tyntec-rate-limits
 score:
   band: thin
-  composite: 27.2
-  delta: 2.4
+  composite: 28.1
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 17.2
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 34.2
-  previous_composite: 24.8
+    operational_transparency: 50.0
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 28.6
   provenance:
     agentic_access: derived
     contracts:
@@ -182,8 +198,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

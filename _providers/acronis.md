@@ -11,21 +11,21 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    error_semantics: documented
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.3
-  scored_at: '2026-08-26'
+  score: 45.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 30
   slug: acronis-agentic-access
   summary_line: 30 operations · 13 acting · 1 human-in-the-loop
-api_count: 17
+api_count: 12
 apis:
 - description: Acronis Resource and Policy Management API enables organizations to efficiently manage resources and policies within their IT infrastructure.
   name: Acronis Resource and Policy Management API
@@ -95,7 +95,23 @@ apis:
 - description: User account management within tenants
   name: Acronis Users API
   slug: acronis-users-api
-artifact_total: 153
+- description: The platform spine — tenants, users, OAuth clients, applications, licensing (offering items), usage reporting, infrastructure and branding for Acronis Cyber Protect Cloud. 95 operations in the contrac
+  name: Acronis Account Management API
+  slug: account-management-api
+- description: Operational alerting across the Acronis platform — fetch, categorise, register and unregister alert types, and dismiss alerts, so an integration can drive its own monitoring surface from Acronis event
+  name: Acronis Alert Manager API
+  slug: alert-manager-api
+- description: Reads the effective price lists a service-provider tenant is on, so an MSP billing system can reconcile Acronis charges against its own rate cards without scraping the partner portal.
+  name: Acronis Price List API
+  slug: price-list-api
+- description: Manages the Acronis Files Cloud surface — devices, sync-and-share nodes, file revisions and restores, audit log — for building file collaboration and retention workflows on the Acronis platform.
+  name: Acronis File Sync & Share API
+  slug: file-sync-and-share-api
+artifact_total: 161
+asyncapis:
+- description: ''
+  name: Acronis Events Webhooks
+  slug: acronis-events-webhooks
 collections:
 - collection_type: postman
   name: Acronis Account Management Activities API
@@ -167,6 +183,10 @@ collections:
   name: Acronis Account Management Activities Users API
   slug: open-acronis-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.acronis.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -242,7 +262,147 @@ common:
 - group: operate
   title: ''
   type: ChangeLog
+  url: changelog/acronis-changelog.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/acronis-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/acronis-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/acronis-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/acronis-security.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/acronis-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/acronis-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/acronis-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/acronis-account-management-v2-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/acronis-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/acronis-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/acronis-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/acronis-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.acronis.com/
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/acronis-scopes.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/acronis-trust-center.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/acronis-vulnerability-disclosure.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/acronis-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/acronis-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/acronis-conventions.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/acronis-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/acronis-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/acronis-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/acronis-events-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: docs
+  title: ''
+  type: APIReference
   url: https://developer.acronis.com/doc/outbound/apis/index.html
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.acronis.com/doc/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.acronis.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.acronis.com/en-us/company/privacy/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.acronis.com/en-us/my/
+- group: start
+  title: ''
+  type: Login
+  url: https://cloud.acronis.com/login
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/kinlaneapi/acronis/overview
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/acronis-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/acronis-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/acronis-finops.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://dl.acronis.com/u/baas/rn/API_change_log/en-US/AcronisCyberCloud_API_change_log.pdf
 created: '2025-02-17'
 description: Acronis is a leading provider of cyber protection solutions that deliver innovative technology to protect data, applications, and systems from the ever-evolving threats of today's digital world. They offer a comprehensive suite of products, including backup and disaster recovery solutions, file sync and share services, and anti-malware protection.
 examples:
@@ -544,24 +704,28 @@ jsonld:
   property_count: 61
   slug: acronis-context
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: Provides Acronis Cyber Protect Cloud platform APIs as MCP tools — tenant and user provisioning, service and quota management, backup policy configuration, resource protection, agent management, and mo
+  name: Acronis API MCP
+  slug: acronis-api-mcp
+modified: '2026-08-30'
 name: Acronis
 nav: Providers
 network: true
-overview: 'Acronis publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Agent Updates API, Agents API, and 8 more. Tagged areas include Cybersecurity, Data Protection, and Endpoint Management.
+overview: 'Acronis publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Resource and Policy Management API, Advanced Automation API, Event Manager API, and 18 more. Tagged areas include Cybersecurity, Data Protection, Endpoint Management, Backup and Recovery, and Disaster Recovery.
 
 
-  The Acronis catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Acronis catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Acronis'' developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, pricing, changelog, and 12 more developer resources.'
+  Acronis'' developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, pricing, changelog, and 48 more developer resources.'
 plans:
 - name: Acronis Plans Pricing
   plan_count: 4
   slug: acronis-plans-pricing
 random_paper: 16
 rate_limits:
-- limit_count: 1
+- limit_count: 5
   name: Acronis Rate Limits
   slug: acronis-rate-limits
 rules:
@@ -586,20 +750,30 @@ rules:
     info: 7
     warn: 16
   slug: acronis-spectral-rules
+scopes:
+- name: Acronis Scopes
+  scope_count: 0
+  slug: acronis-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 36.2
-  delta: 1.9
+  band: strong
+  composite: 59.8
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 23.5
   facets:
-    access_clarity: 36.8
-    commercial_clarity: 36.8
-    contract_governance: 28.8
-    contract_quality: 23.3
-    developer_ergonomics: 54.8
-    discoverability: 55.6
-    governance: 28.8
-    operational_transparency: 23.7
-  previous_composite: 34.3
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 47.0
+    contract_quality: 31.2
+    developer_ergonomics: 85.7
+    discoverability: 81.5
+    governance: 47.0
+    operational_transparency: 44.7
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     contracts:
@@ -607,15 +781,15 @@ score:
       derived: 11
       marker_coverage: 100.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/screenshots/acronis-2026-06-20T164007.png
 security:
 - kind: authentication
   name: Acronis Authentication
   slug: acronis-authentication
-  summary_line: http · 2 schemes
+  summary_line: oauth2/openIdConnect/http · 4 schemes
 - kind: domain-security
   name: Acronis Domain Security
   slug: acronis-domain-security
@@ -624,11 +798,20 @@ security:
   name: Acronis Vulnerability Disclosure
   slug: acronis-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Acronis Trust Center
+  slug: acronis-trust-center
+  summary_line: ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO/IEC 27018:2019, ISO 9001, SOC 2, PCI DSS, IEC 62443-4-1, IT-Grundschutz, Cyber Essentials, ENS, Cloud Italia, FIPS 140-2, UAE IAR, HIPAA, PHIPA, HDS, NEN 7510, 2G3M, EU-US Data Privacy Framework, CSA STAR Level 1
 slug: acronis
 tags:
 - Cybersecurity
 - Data Protection
 - Endpoint Management
+- Backup and Recovery
+- Disaster Recovery
+- Managed Service Providers
+- Endpoint Detection and Response
+- Cloud Storage
 use_cases:
 - description: Automate tenant provisioning, licensing management, and usage reporting for managed service providers.
   name: MSP Platform Automation
@@ -640,5 +823,5 @@ use_cases:
   name: Compliance Reporting
 - description: Trigger and monitor DR failover workflows programmatically for RTO/RPO compliance.
   name: Disaster Recovery Automation
-website: https://developer.acronis.com/
+website: https://www.acronis.com/
 ---

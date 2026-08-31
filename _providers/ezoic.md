@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 3
   slug: ezoic-agentic-access
   summary_line: 3 operations
-api_count: 5
+api_count: 2
 apis:
 - description: The Access API from ezoic — 1 operation(s) for access.
   name: ezoic Access API
@@ -53,13 +53,22 @@ apis:
 - description: The Purchases API from ezoic — 1 operation(s) for purchases.
   name: ezoic Purchases API
   slug: ezoic-purchases-api
-- description: The Big Data Analytics (BDA) REST API pulls the same reports and analytics data a publisher sees in the Ezoic dashboard — predefined reports that ship with the account and custom reports the publisher
-  name: ezoic Big Data Analytics API
-  slug: ezoic-big-data-analytics-api
 - description: The CDN REST API clears and purges cached content on the Ezoic CDN — a single URL, a batch of URLs in groups of 100, a comma-separated set of surrogate keys, or a whole domain — plus a ping liveness c
   name: ezoic CDN API
   slug: ezoic-cdn-api
-artifact_total: 17
+- description: Pulling report data and ad-hoc custom data.
+  name: ezoic Data API
+  slug: ezoic-data-api
+- description: Multifilters and multifilter types used to build segments.
+  name: ezoic Filters API
+  slug: ezoic-filters-api
+- description: Predefined and custom report definitions.
+  name: ezoic Reports API
+  slug: ezoic-reports-api
+- description: Segments that split report data into categories.
+  name: ezoic Segments API
+  slug: ezoic-segments-api
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -74,6 +83,18 @@ collections:
   name: Ezoic Subscriptions Server-to-Server REST Access Purchases API
   slug: open-ezoic-purchases-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ezoic-big-data-analytics-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/ezoic-pull-analytics-report.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/ezoic-build-custom-report.md
 - group: other
   title: ''
   type: Overlay
@@ -243,10 +264,10 @@ modified: '2026-08-13'
 name: ezoic
 nav: Providers
 network: true
-overview: 'ezoic publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Access API, Products API, Purchases API, and 2 more. Tagged areas include Company, Advertising, AdTech, Publisher Monetization, and Analytics.
+overview: 'ezoic publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Access API, Products API, Purchases API, and 5 more. Tagged areas include Company, Advertising, AdTech, Publisher Monetization, and Analytics.
 
 
-  ezoic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
+  ezoic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
 plans:
 - name: Ezoic Plans Pricing
   plan_count: 3
@@ -262,19 +283,24 @@ scopes:
   slug: ezoic-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 57.0
-  delta: 0.9
+  band: developing
+  composite: 53.7
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
-    contract_governance: 30.3
-    contract_quality: 39.2
+    contract_governance: 18.2
+    contract_quality: 38.6
     developer_ergonomics: 78.0
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 56.1
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -285,8 +311,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezoic/refs/heads/main/screenshots/ezoic-2026-07-25T214052.png
 security:

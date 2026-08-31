@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 23
   slug: envoy-agentic-access
   summary_line: 23 operations · 9 acting · 2 human-in-the-loop
-api_count: 15
+api_count: 3
 apis:
 - description: 'The xDS (x Discovery Service) APIs provide dynamic configuration for Envoy proxies via a management server, including LDS, RDS, CDS, EDS, SDS, and ADS. xDS APIs are served over gRPC or REST and allow '
   name: Envoy xDS APIs
@@ -283,19 +283,27 @@ rules:
     warn: 5
   slug: envoy-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 38.7
-  delta: 1.4
+  band: developing
+  composite: 44.7
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 55.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 6.1
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 9.8
-    contract_quality: 60.0
+    contract_quality: 59.6
     developer_ergonomics: 44.0
     discoverability: 63.0
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 37.3
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -303,9 +311,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/screenshots/envoy-2026-06-20T180740.png
 security:
 - kind: authentication

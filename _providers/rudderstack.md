@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 12
   slug: rudderstack-agentic-access
   summary_line: 12 operations · 12 acting
-api_count: 13
+api_count: 1
 apis:
 - description: The RudderStack Config Backend API manages workspace configuration objects — sources, destinations, connections, and workspace settings — supporting full programmatic provisioning of pipelines outside
   name: RudderStack Config Backend API
@@ -420,18 +420,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 80.2
-  delta: 0.0
+  composite: 77.1
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
-    contract_governance: 43.9
+    contract_governance: 31.8
     contract_quality: 67.8
     developer_ergonomics: 100.0
-    discoverability: 83.3
-    governance: 43.9
+    discoverability: 66.7
+    governance: 31.8
     operational_transparency: 84.2
-  previous_composite: 80.2
+  previous_composite: 77.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -442,8 +447,8 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/screenshots/rudderstack-2026-06-20T193249.png
 security:

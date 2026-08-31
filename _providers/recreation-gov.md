@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 25
   slug: recreation-gov-agentic-access
   summary_line: 25 operations
-api_count: 10
+api_count: 1
 apis:
 - description: The Activities API from Recreation.gov — 2 operation(s) for activities.
   name: Recreation.gov Activities API
@@ -168,18 +168,23 @@ rate_limits:
   slug: recreation-gov-rate-limits
 score:
   band: thin
-  composite: 30.6
-  delta: 2.6
+  composite: 30.8
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 11.9
-    discoverability: 74.1
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 28.0
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     contracts:
@@ -193,8 +198,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 33.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recreation-gov/refs/heads/main/screenshots/recreation-gov-2026-06-20T192708.png
 security:

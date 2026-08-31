@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -33,13 +33,31 @@ agentic_access:
   summary_line: 20 operations · 2 acting
 api_count: 2
 apis:
-- description: The undocumented JSON API that serves the ITU DataHub (datahub.itu.int), ITU's official ICT statistics portal and the successor to ICT Eye. Confirmed anonymously callable on 2026-07-25 with no key, he
-  name: ITU DataHub API
-  slug: itu-datahub-api
-- description: An ITU-D Technology and Network Development API that scores a batch of coordinates against the ITU Interactive Transmission Map (Broadband Maps) fibre network data. Two routes are published on the ITU
-  name: ITU Proximity to Fibre Node API
-  slug: itu-proximity-to-fibre-node-api
-artifact_total: 8
+- description: Curated DataHub dashboard definitions.
+  name: ITU Dashboards API
+  slug: itu-dashboards-api
+- description: Indicator time series, by indicator, country and region aggregate.
+  name: ITU Data API
+  slug: itu-data-api
+- description: ICT Development Index composite scores.
+  name: ITU IDI API
+  slug: itu-idi-api
+- description: The indicator dictionary — categories, definitions, units and coverage.
+  name: ITU Indicators API
+  slug: itu-indicators-api
+- description: Dataset provenance and the owning ITU divisions.
+  name: ITU Methodology API
+  slug: itu-methodology-api
+- description: Batch proximity scoring of coordinates against the ITU Interactive Transmission Map.
+  name: ITU Proximity API
+  slug: itu-proximity-api
+- description: Country and region reference data.
+  name: ITU Reference API
+  slug: itu-reference-api
+- description: Universal and Meaningful Connectivity targets and scores.
+  name: ITU UMC API
+  slug: itu-umc-api
+artifact_total: 14
 collections:
 - collection_type: open
   name: ITU DataHub API
@@ -48,6 +66,14 @@ collections:
   name: ITU Proximity to Fibre Node API
   slug: open-itu-proximity
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/itu-datahub-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/itu-proximity-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -149,25 +175,30 @@ modified: '2026-07-26'
 name: ITU
 nav: Providers
 network: true
-overview: 'ITU publishes 2 APIs on the [APIs.io](https://apis.io/) network: DataHub API and Proximity to Fibre Node API. Tagged areas include Telecommunications, Global, Regulator, Standards, and Spectrum.
+overview: 'ITU publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, Data API, IDI API, and 5 more. Tagged areas include Telecommunications, Global, Regulator, Standards, and Spectrum.
 
 
-  ITU''s developer surface includes authentication, code examples, documentation, engineering blog, support, and 17 more developer resources.'
+  ITU''s developer surface includes authentication, code examples, documentation, engineering blog, support, and 19 more developer resources.'
 random_paper: 2
 score:
   band: thin
-  composite: 27.8
-  delta: 1.4
+  composite: 26.2
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 16.6
+    contract_governance: 4.5
+    contract_quality: 15.8
     developer_ergonomics: 37.5
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 26.4
+  previous_composite: 26.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -184,8 +215,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/screenshots/itu-2026-08-07T170931.png
 security:

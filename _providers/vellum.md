@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 59
   slug: vellum-agentic-access
   summary_line: 59 operations · 32 acting
-api_count: 16
+api_count: 1
 apis:
 - description: 'The Vellum REST API exposes prompts, workflows, evaluations, datasets, document indexes, deployments, and execution endpoints so developers can run versioned LLM pipelines from their own backends and '
   name: Vellum LLM Platform API
@@ -218,7 +218,7 @@ modified: '2026-05-23'
 name: Vellum AI
 nav: Providers
 network: true
-overview: 'Vellum AI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Default API, subpackage_deployments API, subpackage_documentIndexes API, and 12 more. Tagged areas include LLM Platform, Prompt Engineering, Workflows, Evaluations, and LLMOps.
+overview: 'Vellum AI publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Default API, subpackage_deployments API, subpackage_documentIndexes API, and 12 more. Tagged areas include LLM Platform, Prompt Engineering, Workflows, Evaluations, and LLM Ops.
 
 
   Vellum AI''s developer surface includes authentication, documentation, engineering blog, pricing, signup flow, and 10 more developer resources.'
@@ -232,19 +232,24 @@ rate_limits:
   name: Vellum Rate Limits
   slug: vellum-rate-limits
 score:
-  band: developing
-  composite: 39.6
-  delta: 1.4
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 0.0
     contract_quality: 51.9
     developer_ergonomics: 31.0
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 38.2
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -252,8 +257,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vellum/refs/heads/main/screenshots/vellum-2026-06-20T200908.png
 security:
@@ -271,7 +276,7 @@ tags:
 - Prompt Engineering
 - Workflows
 - Evaluations
-- LLMOps
+- LLM Ops
 - RAG
 - Observability
 - Datasets

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 22
   slug: red-hat-satellite-agentic-access
   summary_line: 22 operations · 13 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Command-line interface tool for Red Hat Satellite that provides scriptable access to Satellite functions including host management, content views, and provisioning.
   name: Red Hat Satellite Hammer CLI
@@ -110,6 +110,18 @@ collections:
   name: Red Hat Satellite REST Content Views Subscriptions API
   slug: open-red-hat-satellite-subscriptions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/red-hat-satellite-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/theforeman/foreman/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/theforeman/foreman/blob/develop/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -474,7 +486,7 @@ overview: 'Red Hat Satellite publishes 5 APIs on the [APIs.io](https://apis.io/)
   The Red Hat Satellite catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Red Hat Satellite''s developer surface includes authentication, developer portal, documentation, support, engineering blog, release notes, API reference, and 20 more developer resources.'
+  Red Hat Satellite''s developer surface includes authentication, developer portal, documentation, support, engineering blog, release notes, API reference, and 23 more developer resources.'
 plans:
 - name: Red Hat Satellite Plans Pricing
   plan_count: 1
@@ -513,18 +525,26 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.1
-  delta: 3.1
+  composite: 45.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 28.8
     contract_quality: 67.6
     developer_ergonomics: 69.0
-    discoverability: 55.6
+    discoverability: 44.4
     governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 46.0
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     contracts:
@@ -532,8 +552,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/screenshots/red-hat-satellite-2026-06-20T192721.png
 security:

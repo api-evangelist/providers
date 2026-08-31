@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: scalar-api-agentic-access
   summary_line: 4 operations · 1 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Open-source (MIT) renderer that turns an OpenAPI/Swagger or AsyncAPI document into an interactive API reference with a built-in request-testing panel and multi-language code samples. Embeds from a sin
   name: Scalar API Reference
@@ -83,6 +83,26 @@ collections:
   name: Scalar Registry (Public Read Surface) - Modeled
   slug: open-scalar-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/scalar/scalar/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/scalar/scalar/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/scalar/scalar/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/scalar/scalar/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/scalar/scalar/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -143,7 +163,7 @@ network: true
 overview: 'Scalar publishes 2 APIs on the [APIs.io](https://apis.io/) network: Registry Management API and Registry Read API. Tagged areas include API Documentation, API Client, Open-Source, Developer Tools, and API Reference.
 
 
-  Scalar''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Scalar''s developer surface includes authentication, documentation, engineering blog, and 13 more developer resources.'
 plans:
 - name: Scalar Api Plans Pricing
   plan_count: 5
@@ -154,19 +174,27 @@ rate_limits:
   name: Scalar Api Rate Limits
   slug: scalar-api-rate-limits
 score:
-  band: thin
-  composite: 32.2
-  delta: 5.0
+  band: developing
+  composite: 41.5
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 35.7
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
-    operational_transparency: 34.2
-  previous_composite: 27.2
+    operational_transparency: 60.5
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -174,9 +202,9 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Scalar Api Authentication

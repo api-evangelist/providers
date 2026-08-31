@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: microsoft-windows-server-agentic-access
   summary_line: 15 operations · 9 acting
-api_count: 18
+api_count: 1
 apis:
 - description: PowerShell and WMI-based management APIs for Windows Server administration.
   name: Windows Server Management API
@@ -596,7 +596,7 @@ modified: '2026-05-19'
 name: Microsoft Windows Server
 nav: Providers
 network: true
-overview: 'Microsoft Windows Server publishes 3 APIs on the [APIs.io](https://apis.io/) network: Application Pools API, Applications API, and Web Sites API. Tagged areas include Data-Center, Enterprise, Infrastructure, Microsoft, and Operating System.
+overview: 'Microsoft Windows Server publishes 3 APIs on the [APIs.io](https://apis.io/) network: Application Pools API, Applications API, and Web Sites API. Tagged areas include Datacenter, Enterprise, Infrastructure, Microsoft, and Operating System.
 
 
   The Microsoft Windows Server catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -636,18 +636,26 @@ rules:
   slug: microsoft-windows-server-spectral-rules
 score:
   band: developing
-  composite: 50.3
-  delta: 5.2
+  composite: 49.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 64.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 13.6
     contract_quality: 60.5
     developer_ergonomics: 69.0
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 39.5
-  previous_composite: 45.1
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     contracts:
@@ -655,9 +663,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/screenshots/microsoft-windows-server-2026-06-20T185546.png
 security:
 - kind: authentication
@@ -670,7 +678,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: microsoft-windows-server
 tags:
-- Data-Center
+- Datacenter
 - Enterprise
 - Infrastructure
 - Microsoft

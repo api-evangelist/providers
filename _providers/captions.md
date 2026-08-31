@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 23
   slug: captions-agentic-access
   summary_line: 23 operations · 11 acting · 5 human-in-the-loop
-api_count: 7
+api_count: 3
 apis:
 - description: The Audio API from Captions — 1 operation(s) for audio.
   name: Captions Audio API
@@ -65,7 +65,13 @@ apis:
 - description: The Videos API from Captions — 3 operation(s) for videos.
   name: Captions Videos API
   slug: captions-videos-api
-artifact_total: 33
+- description: Generate UGC-style AI advertising videos using AI creators
+  name: Captions AI Ads API
+  slug: captions-ai-ads-api
+- description: Generate talking-head videos using community AI avatars or AI Twins
+  name: Captions AI Creator API
+  slug: captions-ai-creator-api
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -98,6 +104,10 @@ collections:
   name: Mirage Video Audio Videos API
   slug: open-captions-videos-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/captions-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -279,13 +289,13 @@ modified: '2026-08-08'
 name: Captions
 nav: Providers
 network: true
-overview: 'Captions publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Audio API, health API, internal API, and 4 more. Tagged areas include Company, Video, Artificial Intelligence, Video Editing, and Video Generation.
+overview: 'Captions publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Audio API, health API, internal API, and 6 more. Tagged areas include Company, Video, Artificial Intelligence, Video Editing, and Video Generation.
 
 
   The Captions catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Captions'' developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
+  Captions'' developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
 plans:
 - name: Captions Plans Pricing
   plan_count: 6
@@ -311,18 +321,23 @@ rules:
   slug: captions-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 67.4
-  delta: 1.1
+  composite: 66.6
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 31.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 55.3
-    contract_quality: 55.6
+    contract_governance: 43.2
+    contract_quality: 58.2
     developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 55.3
+    governance: 43.2
     operational_transparency: 65.8
-  previous_composite: 66.3
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -333,8 +348,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captions/refs/heads/main/screenshots/captions-2026-07-25T204454.png
 security:
@@ -355,7 +370,7 @@ tags:
 - Video Generation
 - Captions
 - Subtitles
-- Text-to-Speech
+- Text to Speech
 - AI Avatars
 - Content Creation
 - Media

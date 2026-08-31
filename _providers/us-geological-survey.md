@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: us-geological-survey-agentic-access
   summary_line: 13 operations
-api_count: 12
+api_count: 2
 apis:
 - description: The USGS ScienceBase Catalog API provides access to USGS scientific data management infrastructure, enabling upload, documentation, sharing, and dynamic data services for USGS research datasets and sc
   name: USGS ScienceBase Catalog API
@@ -206,17 +206,22 @@ rules:
 score:
   band: thin
   composite: 28.9
-  delta: 1.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 53.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 13.6
-    contract_quality: 56.1
+    contract_quality: 58.2
     developer_ergonomics: 21.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 27.0
+  previous_composite: 29.4
   provenance:
     agentic_access: derived
     contracts:
@@ -230,8 +235,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-geological-survey/refs/heads/main/screenshots/us-geological-survey-2026-06-20T200630.png
 security:

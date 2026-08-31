@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-26'
-api_count: 7
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Large daily exports of the entire Scryfall card database.
   name: Scryfall Bulk Data API
@@ -84,6 +84,14 @@ collections:
   name: Scryfall Symbology API
   slug: open-scryfall-symbology-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/scryfall/api-types/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/scryfall/api-types/releases
 - group: commercial
   title: ''
   type: License
@@ -392,7 +400,7 @@ overview: 'Scryfall publishes 7 APIs on the [APIs.io](https://apis.io/) network,
   The Scryfall catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Scryfall''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, tooling, and 32 more developer resources.'
+  Scryfall''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, tooling, and 34 more developer resources.'
 plans:
 - name: Scryfall Plans Pricing
   plan_count: 2
@@ -425,18 +433,26 @@ rules:
   slug: scryfall-rules
 score:
   band: strong
-  composite: 62.1
-  delta: 4.9
+  composite: 58.5
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 34.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 25.0
     contract_quality: 62.2
     developer_ergonomics: 69.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 57.2
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 59.0
   provenance:
     contracts:
       callable: 100.0
@@ -449,8 +465,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scryfall/refs/heads/main/screenshots/scryfall-2026-06-20T193609.png
 security:

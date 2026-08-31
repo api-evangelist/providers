@@ -23,21 +23,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The public WordPress REST API served by endeavorbiomedicines.com. Content read operations — posts, pages, media, taxonomies and types — answer anonymously, which makes the company's press releases, pi
-  name: Endeavor BioMedicines WordPress REST API
-  slug: endeavor-biomedicines-wordpress-rest-api
 - description: 'An MCP (Model Context Protocol) server exposed by the WordPress MCP adapter at /wp-json/mcp/mcp-oauth-server on endeavorbiomedicines.com. The endpoint is live but authentication-gated: an anonymous in'
   name: Endeavor BioMedicines WordPress MCP Server
   slug: endeavor-biomedicines-wordpress-mcp-server
-artifact_total: 9
+- description: The mcp API from Endeavor BioMedicines — 3 operation(s) for mcp.
+  name: Endeavor BioMedicines MCP API
+  slug: endeavor-biomedicines-mcp-api
+- description: The oembed/1.0 API from Endeavor BioMedicines — 3 operation(s) for oembed/1.0.
+  name: Endeavor BioMedicines Oembed/1.0 API
+  slug: endeavor-biomedicines-oembed-1-0-api
+- description: The wp-abilities/v1 API from Endeavor BioMedicines — 6 operation(s) for wp-abilities/v1.
+  name: Endeavor BioMedicines Wp Abilities/v1 API
+  slug: endeavor-biomedicines-wp-abilities-v1-api
+- description: The wp-block-editor/v1 API from Endeavor BioMedicines — 4 operation(s) for wp-block-editor/v1.
+  name: Endeavor BioMedicines Wp Block Editor/v1 API
+  slug: endeavor-biomedicines-wp-block-editor-v1-api
+- description: The wp-site-health/v1 API from Endeavor BioMedicines — 8 operation(s) for wp-site-health/v1.
+  name: Endeavor BioMedicines Wp Site Health/v1 API
+  slug: endeavor-biomedicines-wp-site-health-v1-api
+- description: The wp/v2 API from Endeavor BioMedicines — 122 operation(s) for wp/v2.
+  name: Endeavor BioMedicines Wp/v2 API
+  slug: endeavor-biomedicines-wp-v2-api
+artifact_total: 14
 collections:
 - collection_type: open
   name: Endeavor BioMedicines WordPress REST API
   slug: open-endeavor-biomedicines-wordpress-rest
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/endeavor-biomedicines-wordpress-rest-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -118,10 +137,10 @@ modified: '2026-08-12'
 name: Endeavor BioMedicines
 nav: Providers
 network: true
-overview: 'Endeavor BioMedicines publishes 1 API on the [APIs.io](https://apis.io/) network: WordPress REST API. Tagged areas include Company, Biotechnology, Pharmaceuticals, Life Sciences, and Clinical Trials.
+overview: 'Endeavor BioMedicines publishes 6 APIs on the [APIs.io](https://apis.io/) network, including MCP API, Oembed/1.0 API, Wp Abilities/v1 API, and 3 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Life Sciences, and Clinical Trials.
 
 
-  Endeavor BioMedicines'' developer surface includes engineering blog, support, authentication, and 14 more developer resources.'
+  Endeavor BioMedicines'' developer surface includes engineering blog, support, authentication, and 15 more developer resources.'
 plans:
 - name: Endeavor Biomedicines Plans Pricing
   plan_count: 0
@@ -138,18 +157,23 @@ scopes:
   summary_line: 1 scope · authorizationCode/refreshToken
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 36.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
-    contract_quality: 54.5
+    contract_governance: 18.2
+    contract_quality: 54.4
     developer_ergonomics: 20.8
     discoverability: 68.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 37.6
+  previous_composite: 36.6
   provenance:
     conformance: first-party
     contracts:
@@ -165,8 +189,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

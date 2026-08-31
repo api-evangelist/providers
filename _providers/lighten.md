@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -103,7 +103,12 @@ overview: 'Lighten is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 12
 score:
   band: emerging
-  composite: 17.4
+  composite: 18.1
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 35.5
@@ -111,20 +116,24 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 17.4
+  previous_composite: 18.1
   provenance:
     conformance: first-party
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lighten/refs/heads/main/screenshots/lighten-2026-07-25T225112.png
 security:
@@ -139,7 +148,7 @@ tags:
 - Life Sciences
 - Artificial Intelligence
 - Electronic Health Records
-- Real-World Evidence
+- Real World Evidence
 - Clinical Data
 - Data Curation
 website: https://lighten-ai.com

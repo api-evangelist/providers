@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/eli-lilly/
 created: '2026-07-17'
 description: Dermira was a biopharmaceutical company focused on medical dermatology, developing and commercializing treatments for chronic skin conditions such as primary axillary hyperhidrosis (Qbrexza / glycopyrronium) and atopic dermatitis (lebrikizumab). Headquartered in Menlo Park, California and originally backed by venture investors including Canaan Partners, the company went public on NASDAQ (DERM) in 2014 and was acquired by Eli Lilly and Company in 2020. Its assets and operations are now part of Eli Lilly; the dermira.com domain redirects to lilly.com. Dermira did not operate a public developer program, API, or developer portal, so this profile carries company identity only and has no API artifacts to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dermira.png
@@ -48,6 +53,11 @@ random_paper: 5
 score:
   band: minimal
   composite: 2.2
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -73,8 +83,8 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: dermira
 tags:

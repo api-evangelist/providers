@@ -23,18 +23,55 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: Read-only, anonymously accessible WordPress REST API served by the Alzheon corporate site at https://alzheon.com/wp-json. It exposes the company's press releases and in-the-news items (224 posts), sta
-  name: Alzheon Content API (WordPress REST)
-  slug: alzheon-content-api-wordpress-rest
-artifact_total: 4
+- description: Comments (the site publishes none).
+  name: Alzheon Comments API
+  slug: alzheon-comments-api
+- description: The route index / discovery document.
+  name: Alzheon Discovery API
+  slug: alzheon-discovery-api
+- description: Avada FAQ custom post type.
+  name: Alzheon FAQ API
+  slug: alzheon-faq-api
+- description: 'The media library: images, posters, publication PDFs.'
+  name: Alzheon Media API
+  slug: alzheon-media-api
+- description: Registered types, taxonomies and statuses.
+  name: Alzheon Metadata API
+  slug: alzheon-metadata-api
+- description: oEmbed representations of alzheon.com URLs.
+  name: Alzheon O Embed API
+  slug: alzheon-oembed-api
+- description: 'Static site pages: science, pipeline, people, patients, careers.'
+  name: Alzheon Pages API
+  slug: alzheon-pages-api
+- description: Avada portfolio custom post type.
+  name: Alzheon Portfolio API
+  slug: alzheon-portfolio-api
+- description: Press releases and in-the-news items published by Alzheon.
+  name: Alzheon Posts API
+  slug: alzheon-posts-api
+- description: Cross-content-type search.
+  name: Alzheon Search API
+  slug: alzheon-search-api
+- description: Categories and tags used to classify content.
+  name: Alzheon Taxonomy API
+  slug: alzheon-taxonomy-api
+- description: Publicly listed content authors.
+  name: Alzheon Users API
+  slug: alzheon-users-api
+artifact_total: 15
 collections:
 - collection_type: open
   name: Alzheon Content API (WordPress REST)
   slug: open-alzheon-content
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/alzheon-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -111,25 +148,30 @@ modified: '2026-07-31'
 name: Alzheon
 nav: Providers
 network: true
-overview: 'Alzheon publishes 1 API on the [APIs.io](https://apis.io/) network: Content API (WordPress REST). Tagged areas include Company, Biotechnology, Pharmaceuticals, Life Sciences, and Clinical Trials.
+overview: 'Alzheon publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Discovery API, FAQ API, and 9 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Life Sciences, and Clinical Trials.
 
 
-  Alzheon''s developer surface includes engineering blog, product news, and 15 more developer resources.'
+  Alzheon''s developer surface includes engineering blog, product news, and 16 more developer resources.'
 random_paper: 18
 score:
   band: emerging
-  composite: 18.8
-  delta: 4.5
+  composite: 17.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 13.8
+    contract_governance: 4.5
+    contract_quality: 13.7
     developer_ergonomics: 16.1
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 14.3
+  previous_composite: 17.8
   provenance:
     conformance: derived
     contracts:
@@ -144,8 +186,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alzheon/refs/heads/main/screenshots/alzheon-2026-08-07T161303.png
 security:

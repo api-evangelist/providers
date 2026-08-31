@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 12
   slug: clozd-agentic-access
   summary_line: 12 operations · 4 acting
-api_count: 8
+api_count: 6
 apis:
 - description: Hosted remote Model Context Protocol server exposing 19 documented read tools over Clozd win-loss data — programs, deals, responses, response summaries, transcripts, decision drivers and categories, d
   name: Clozd MCP Server
@@ -251,7 +251,7 @@ modified: '2026-08-14'
 name: Clozd
 nav: Providers
 network: true
-overview: 'Clozd publishes 7 APIs on the [APIs.io](https://apis.io/) network, including /programs API, /programs/:program Id/competitors API, /programs/:program Id/deals API, and 4 more. Tagged areas include Win-Loss Analysis, Customer Feedback, Decision Intelligence, Sales Intelligence, and Market Research.
+overview: 'Clozd publishes 7 APIs on the [APIs.io](https://apis.io/) network, including /programs API, /programs/:program Id/competitors API, /programs/:program Id/deals API, and 4 more. Tagged areas include win-loss-analysis, customer-feedback, decision-intelligence, sales-intelligence, and market-research.
 
 
   Clozd''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 31 more developer resources.'
@@ -271,18 +271,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: developing
-  composite: 49.2
+  composite: 46.6
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 59.7
     developer_ergonomics: 58.9
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 74.1
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 49.2
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -293,8 +298,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clozd/refs/heads/main/screenshots/clozd-2026-08-07T163518.png
 security:
@@ -316,15 +321,15 @@ security:
   summary_line: ISO 27001, ISO 27701, SOC 2 Type II
 slug: clozd
 tags:
-- Win-Loss Analysis
-- Customer Feedback
-- Decision Intelligence
-- Sales Intelligence
-- Market Research
+- win-loss-analysis
+- customer-feedback
+- decision-intelligence
+- sales-intelligence
+- market-research
 - Competitive Intelligence
-- Voice of Customer
-- Revenue Intelligence
-- Software-as-a-Service
+- voice-of-customer
+- revenue-intelligence
+- saas
 - MCP
 - agent-native
 website: https://www.clozd.com/

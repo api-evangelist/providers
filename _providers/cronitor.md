@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.1
-  scored_at: '2026-08-26'
+  score: 22.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 24
   slug: cronitor-agentic-access
   summary_line: 24 operations · 12 acting
-api_count: 6
+api_count: 2
 apis:
-- description: The Monitors API allows creating, updating, retrieving, deleting, cloning, and pausing monitors for cron jobs, heartbeats, uptime checks, and sites. Monitors are configured with schedules, assertions,
-  name: Cronitor Monitors API
-  slug: monitors-api
 - description: The Cronitor Telemetry API API from Cronitor — 1 operation(s) for cronitor telemetry api.
   name: Cronitor Cronitor Telemetry API API
   slug: cronitor-cronitor-telemetry-api-api
@@ -59,10 +56,7 @@ apis:
 - description: The P API from Cronitor — 1 operation(s) for p.
   name: Cronitor P API
   slug: cronitor-p-api
-- description: The Search API from Cronitor — 1 operation(s) for search.
-  name: Cronitor Search API
-  slug: cronitor-search-api
-artifact_total: 27
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -162,10 +156,6 @@ common:
   title: ''
   type: JSONSchema
   url: json-schema/cronitor-notification-list-schema.json
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: '2026-06-12'
 description: Cronitor is a cron job and scheduled task monitoring platform that provides developers with instant alerts when jobs fail, run too long, or don't run at all. The platform offers a REST API for creating and managing monitors, recording job telemetry events, and configuring alert policies across teams. Cronitor supports job monitoring, heartbeat monitoring, website uptime checks, and Real User Monitoring (RUM), all accessible via a versioned HTTP API using Basic Auth with scoped API keys. SDKs are available for Python, Node.js, Ruby, PHP, Java, Go, and other languages through the cronitorio GitHub organization.
 examples:
@@ -203,13 +193,13 @@ modified: '2026-06-12'
 name: Cronitor
 nav: Providers
 network: true
-overview: 'Cronitor publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Monitors API, Cronitor Telemetry API API, Groups API, and 3 more. Tagged areas include Monitoring, Cron Jobs, Scheduled Tasks, Alerting, and Uptime.
+overview: 'Cronitor publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Cronitor Telemetry API API, Groups API, Notifications API, and 1 more. Tagged areas include Monitoring, Cron Jobs, Scheduled Tasks, Alerting, and Uptime.
 
 
   The Cronitor catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Cronitor''s developer surface includes authentication, documentation, engineering blog, pricing, and 16 more developer resources.'
+  Cronitor''s developer surface includes authentication, documentation, engineering blog, pricing, and 15 more developer resources.'
 plans:
 - name: Cronitor Plans Pricing
   plan_count: 3
@@ -232,18 +222,23 @@ rules:
   slug: cronitor-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 45.2
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 31.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
-    contract_quality: 67.2
+    contract_quality: 64.5
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 34.2
-  previous_composite: 46.4
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     contracts:
@@ -251,8 +246,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/screenshots/cronitor-2026-06-20T175236.png
 security:

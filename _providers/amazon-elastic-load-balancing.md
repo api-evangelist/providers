@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: amazon-elastic-load-balancing-agentic-access
   summary_line: 13 operations
-api_count: 5
+api_count: 1
 apis:
 - description: Operations for creating and managing listeners
   name: Amazon Elastic Load Balancing Listeners API
@@ -120,6 +120,10 @@ collections:
   name: Amazon Elastic Load Balancing v2 API
   slug: open-amazon-elastic-load-balancing
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-elastic-load-balancing-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -453,7 +457,7 @@ overview: 'Amazon Elastic Load Balancing publishes 5 APIs on the [APIs.io](https
   The Amazon Elastic Load Balancing catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Elastic Load Balancing''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 31 more developer resources.'
+  Amazon Elastic Load Balancing''s developer surface includes authentication, developer portal, documentation, engineering blog, developer console, signup flow, support, and 32 more developer resources.'
 plans:
 - name: Amazon Elastic Load Balancing Plans Pricing
   plan_count: 3
@@ -487,18 +491,23 @@ rules:
   slug: amazon-elastic-load-balancing-spectral-rules
 score:
   band: strong
-  composite: 61.5
-  delta: 5.9
+  composite: 60.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
     contract_governance: 28.8
     contract_quality: 69.4
     developer_ergonomics: 69.0
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 55.6
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     contracts:
@@ -506,9 +515,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-load-balancing/refs/heads/main/screenshots/amazon-elastic-load-balancing-2026-06-20T171649.png
 security:
 - kind: authentication

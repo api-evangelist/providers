@@ -24,17 +24,148 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The OK Capsule Core API V2 is a REST API that lets a brand programmatically create supplement orders, manage consumers and their addresses, browse the OK Capsule product formulary and its own client p
-  name: OK Capsule Core API V2
-  slug: ok-capsule-core-api-v2
 - description: A production remote MCP server that exposes the OK Capsule platform — catalog, product intelligence, pack builder, recommendation validation, consumers, orders and fulfillments — as OAuth 2.1 scoped t
   name: OK Capsule MCP Server
   slug: ok-capsule-mcp-server
-artifact_total: 9
+- description: Routes to manage assemblies (formerly packs)
+  name: OK Capsule Assemblies API
+  slug: ok-capsule-assemblies-api
+- description: OK Capsule API uses **Oauth2.0 with OpenID Connect**. It issues **access**, **id**, and **refresh** tokens. **Access** tokens is used to authenticate API requests and are short lived (1 day). *Id toke
+  name: OK Capsule Authentication API
+  slug: ok-capsule-authentication-api
+- description: Routes to manage batches
+  name: OK Capsule Batches API
+  slug: ok-capsule-batches-api
+- description: Routes to manage billing
+  name: OK Capsule Billings API
+  slug: ok-capsule-billings-api
+- description: The Categories API from OK Capsule — 4 operation(s) for categories.
+  name: OK Capsule Categories API
+  slug: ok-capsule-categories-api
+- description: Routes to manage client addresses
+  name: OK Capsule Client Addresses API
+  slug: ok-capsule-client-addresses-api
+- description: The Client Printer Settings API from OK Capsule — 4 operation(s) for client printer settings.
+  name: OK Capsule Client Printer Settings API
+  slug: ok-capsule-client-printer-settings-api
+- description: Routes to manage clients
+  name: OK Capsule Clients API
+  slug: ok-capsule-clients-api
+- description: Routes to manage consumer addresses
+  name: OK Capsule Consumer Addresses API
+  slug: ok-capsule-consumer-addresses-api
+- description: Routes to manage consumers
+  name: OK Capsule Consumers API
+  slug: ok-capsule-consumers-api
+- description: Routes to manage contact addresses
+  name: OK Capsule Contact Addresses API
+  slug: ok-capsule-contact-addresses-api
+- description: Routes to manage contacts
+  name: OK Capsule Contacts API
+  slug: ok-capsule-contacts-api
+- description: The Destination Products API from OK Capsule — 1 operation(s) for destination products.
+  name: OK Capsule Destination Products API
+  slug: ok-capsule-destination-products-api
+- description: Routes to manage fulfillments
+  name: OK Capsule Fulfillments API
+  slug: ok-capsule-fulfillments-api
+- description: The Integrations Orders API from OK Capsule — 2 operation(s) for integrations orders.
+  name: OK Capsule Integrations Orders API
+  slug: ok-capsule-integrations-orders-api
+- description: Routes to manage OK Capsule products
+  name: OK Capsule OKC Products API
+  slug: ok-capsule-okc-products-api
+- description: The Onboarding API from OK Capsule — 1 operation(s) for onboarding.
+  name: OK Capsule Onboarding API
+  slug: ok-capsule-onboarding-api
+- description: The Onboarding (Public) API from OK Capsule — 3 operation(s) for onboarding (public).
+  name: OK Capsule Onboarding (Public) API
+  slug: ok-capsule-onboarding-public-api
+- description: Routes to manage order lines
+  name: OK Capsule Order Lines API
+  slug: ok-capsule-order-lines-api
+- description: The Order transaction logs API from OK Capsule — 2 operation(s) for order transaction logs.
+  name: OK Capsule Order transaction logs API
+  slug: ok-capsule-order-transaction-logs-api
+- description: Routes to manage orders
+  name: OK Capsule Orders API
+  slug: ok-capsule-orders-api
+- description: The Pack Builder API from OK Capsule — 6 operation(s) for pack builder.
+  name: OK Capsule Pack Builder API
+  slug: ok-capsule-pack-builder-api
+- description: The Pack Builder Cart API from OK Capsule — 2 operation(s) for pack builder cart.
+  name: OK Capsule Pack Builder Cart API
+  slug: ok-capsule-pack-builder-cart-api
+- description: The Pack Builder Categories API from OK Capsule — 2 operation(s) for pack builder categories.
+  name: OK Capsule Pack Builder Categories API
+  slug: ok-capsule-pack-builder-categories-api
+- description: The Pack Builder Categories Products API from OK Capsule — 4 operation(s) for pack builder categories products.
+  name: OK Capsule Pack Builder Categories Products API
+  slug: ok-capsule-pack-builder-categories-products-api
+- description: The Pack Builder Client Products API from OK Capsule — 3 operation(s) for pack builder client products.
+  name: OK Capsule Pack Builder Client Products API
+  slug: ok-capsule-pack-builder-client-products-api
+- description: The Pack Builder Integration Settings (Private) API from OK Capsule — 3 operation(s) for pack builder integration settings (private).
+  name: OK Capsule Pack Builder Integration Settings (Private) API
+  slug: ok-capsule-pack-builder-integration-settings-private-api
+- description: The Pack Builder mapped products API from OK Capsule — 2 operation(s) for pack builder mapped products.
+  name: OK Capsule Pack Builder mapped products API
+  slug: ok-capsule-pack-builder-mapped-products-api
+- description: The Pack Builder Settings API from OK Capsule — 1 operation(s) for pack builder settings.
+  name: OK Capsule Pack Builder Settings API
+  slug: ok-capsule-pack-builder-settings-api
+- description: The Pack Builder Shipping Profiles API from OK Capsule — 1 operation(s) for pack builder shipping profiles.
+  name: OK Capsule Pack Builder Shipping Profiles API
+  slug: ok-capsule-pack-builder-shipping-profiles-api
+- description: The Pack Builder Types (Private) API from OK Capsule — 2 operation(s) for pack builder types (private).
+  name: OK Capsule Pack Builder Types (Private) API
+  slug: ok-capsule-pack-builder-types-private-api
+- description: The Pack Builder Widget API from OK Capsule — 5 operation(s) for pack builder widget.
+  name: OK Capsule Pack Builder Widget API
+  slug: ok-capsule-pack-builder-widget-api
+- description: The Packaging Asset Groups API from OK Capsule — 3 operation(s) for packaging asset groups.
+  name: OK Capsule Packaging Asset Groups API
+  slug: ok-capsule-packaging-asset-groups-api
+- description: Routes to manage pamphlets
+  name: OK Capsule Pamphlets API
+  slug: ok-capsule-pamphlets-api
+- description: Routes to manage product lines (formerly brands).
+  name: OK Capsule Product Lines API
+  slug: ok-capsule-product-lines-api
+- description: Routes to manage client product sets (a set is a client product composed of other client products)
+  name: OK Capsule Product Sets API
+  slug: ok-capsule-product-sets-api
+- description: Routes to manage client products
+  name: OK Capsule Products API
+  slug: ok-capsule-products-api
+- description: List of statuses for resources
+  name: OK Capsule Statuses API
+  slug: ok-capsule-statuses-api
+- description: The Sync Processes API from OK Capsule — 2 operation(s) for sync processes.
+  name: OK Capsule Sync Processes API
+  slug: ok-capsule-sync-processes-api
+- description: The Telemetry API from OK Capsule — 2 operation(s) for telemetry.
+  name: OK Capsule Telemetry API
+  slug: ok-capsule-telemetry-api
+- description: The UPC Codes API from OK Capsule — 3 operation(s) for upc codes.
+  name: OK Capsule UPC Codes API
+  slug: ok-capsule-upc-codes-api
+- description: Routes to manage client users
+  name: OK Capsule Users API
+  slug: ok-capsule-users-api
+artifact_total: 50
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ok-capsule-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ok-capsule-core-api-v2-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -178,10 +309,10 @@ modified: '2026-08-26'
 name: OK Capsule
 nav: Providers
 network: true
-overview: 'OK Capsule publishes 1 API on the [APIs.io](https://apis.io/) network: Core API V2. Tagged areas include Supplements, Nutrition, Health, Manufacturing, and Fulfillment.
+overview: 'OK Capsule publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Assemblies API, Authentication API, Batches API, and 39 more. Tagged areas include Supplements, Nutrition, Health, Manufacturing, and Fulfillment.
 
 
-  OK Capsule''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  OK Capsule''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 plans:
 - name: Ok Capsule Plans Pricing
   plan_count: 3
@@ -198,16 +329,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.6
+  composite: 60.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 30.3
-    contract_quality: 53.5
+    contract_governance: 18.2
+    contract_quality: 55.5
     developer_ergonomics: 58.9
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 10.5
+  previous_composite: 61.1
   provenance:
     conformance: first-party
     contracts:
@@ -223,8 +361,9 @@ score:
     regime: Health
     regime_id: health
     score: 65.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Ok Capsule Authentication
@@ -241,9 +380,9 @@ tags:
 - Health
 - Manufacturing
 - Fulfillment
-- Ecommerce
+- E-Commerce
 - Personalization
-- Orders
+- Order
 - Shipping
 - Agents
 - MCP

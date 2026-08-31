@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 119
   slug: agentmail-agentic-access
   summary_line: 119 operations · 57 acting
-api_count: 28
+api_count: 1
 apis:
 - description: The agent API from AgentMail — 2 operation(s) for agent.
   name: AgentMail agent API
@@ -127,7 +127,10 @@ apis:
 - description: The webhooks API from AgentMail — 2 operation(s) for webhooks.
   name: AgentMail webhooks API
   slug: agentmail-webhooks-api
-artifact_total: 63
+- description: The API Reference API from AgentMail — 0 operation(s) for api reference.
+  name: AgentMail API Reference API
+  slug: agentmail-api-reference-api
+artifact_total: 64
 asyncapis:
 - description: ''
   name: API Reference
@@ -221,6 +224,10 @@ collections:
   name: API Reference agent webhooks API
   slug: open-agentmail-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/agentmail-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -369,28 +376,33 @@ modified: '2026-07-17'
 name: AgentMail
 nav: Providers
 network: true
-overview: 'AgentMail publishes 28 APIs on the [APIs.io](https://apis.io/) network, including agent API, api-keys API, auth API, and 25 more. Tagged areas include Company, Artificial Intelligence, Email, AI Agents, and Inbox.
+overview: 'AgentMail publishes 29 APIs on the [APIs.io](https://apis.io/) network, including agent API, api-keys API, auth API, and 26 more. Tagged areas include Company, Artificial Intelligence, Email, AI Agents, and Inbox.
 
 
   The AgentMail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AgentMail''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 27 more developer resources.'
+  AgentMail''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 28 more developer resources.'
 random_paper: 1
 score:
-  band: strong
-  composite: 54.7
-  delta: 0.0
+  band: developing
+  composite: 51.4
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 16.7
-    contract_quality: 65.6
+    contract_governance: 4.5
+    contract_quality: 65.0
     developer_ergonomics: 78.6
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 54.7
+  previous_composite: 52.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -401,8 +413,8 @@ score:
       total: 28
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentmail/refs/heads/main/screenshots/agentmail-2026-07-25T195240.png
 security:

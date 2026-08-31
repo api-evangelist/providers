@@ -23,20 +23,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: The HTTP server started by `furiosa-llm serve <ARTIFACT_PATH>`. It hosts a single model on RNGD NPUs and exposes an OpenAI-compatible surface - /v1/completions, /v1/chat/completions, /v1/responses (Op
   name: Furiosa-LLM OpenAI-Compatible Server
   slug: furiosa-llm-openai-server
-- description: The REST and gRPC inference surface of Furiosa Model Server, serving TFLite/ONNX models on FuriosaAI NPUs. Implements the KServe/KFServing V2 Dataplane - server liveness and readiness, server and mode
-  name: Furiosa Model Server - Predict API (KServe v2)
-  slug: furiosa-server-predict-v2
-- description: 'The model-management surface of Furiosa Model Server, implementing the Triton Inference Server Model Repository extension - POST /v2/repository/index to list the repository and each model''s readiness '
-  name: Furiosa Model Server - Model Repository API
-  slug: furiosa-model-repository-v2
-artifact_total: 7
+- description: The Health API from FuriosaAI — 2 operation(s) for health.
+  name: FuriosaAI Health API
+  slug: furiosa-health-api
+- description: The Models API from FuriosaAI — 3 operation(s) for models.
+  name: FuriosaAI Models API
+  slug: furiosa-models-api
+- description: The Predict API API from FuriosaAI — 1 operation(s) for predict api.
+  name: FuriosaAI Predict API
+  slug: furiosa-predict-api-api
+- description: The Repository API from FuriosaAI — 3 operation(s) for repository.
+  name: FuriosaAI Repository API
+  slug: furiosa-repository-api
+artifact_total: 9
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/furiosa-predict-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/furiosa-model-repository-v2-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -169,10 +183,10 @@ modified: '2026-08-16'
 name: FuriosaAI
 nav: Providers
 network: true
-overview: 'FuriosaAI publishes 2 APIs on the [APIs.io](https://apis.io/) network: Furiosa Model Server - Predict API (KServe v2) and Furiosa Model Server - Model Repository API. Tagged areas include Artificial Intelligence, Machine-Learning, Inference, Semiconductors, and NPU.
+overview: 'FuriosaAI publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Health API, Models API, Predict API, and 1 more. Tagged areas include Artificial Intelligence, Machine-Learning, Inference, Semiconductors, and NPU.
 
 
-  FuriosaAI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, signup flow, and 24 more developer resources.'
+  FuriosaAI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, signup flow, and 26 more developer resources.'
 plans:
 - name: Furiosa Plans Pricing
   plan_count: 0
@@ -184,18 +198,23 @@ rate_limits:
   slug: furiosa-rate-limits
 score:
   band: developing
-  composite: 44.6
-  delta: 0.0
+  composite: 44.5
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 30.3
-    contract_quality: 34.4
+    contract_governance: 18.2
+    contract_quality: 39.3
     developer_ergonomics: 80.4
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 44.6
+  previous_composite: 45.1
   provenance:
     conformance: first-party
     contracts:
@@ -205,8 +224,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/furiosa/refs/heads/main/screenshots/furiosa-2026-08-17T080944.png
 security:

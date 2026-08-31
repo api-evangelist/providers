@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Azure CLI is the official cross-platform command-line tool for managing Microsoft Azure resources and services from the terminal.
@@ -152,8 +152,13 @@ rate_limits:
   slug: azure-cli-rate-limits
 score:
   band: emerging
-  composite: 17.1
-  delta: 0.0
+  composite: 25.4
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 84.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 8.3
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -163,10 +168,13 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 100.0
   previous_composite: 17.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-cli/refs/heads/main/screenshots/azure-cli-2026-06-20T172838.png
 security:
 - kind: domain-security

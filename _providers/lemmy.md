@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 52
   slug: lemmy-agentic-access
   summary_line: 52 operations · 32 acting · 1 human-in-the-loop
-api_count: 14
+api_count: 1
 apis:
 - description: User account management and settings
   name: Lemmy Account API
@@ -268,18 +268,26 @@ rules:
   slug: lemmy-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.1
-  delta: 2.6
+  composite: 44.4
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 21.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.7
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 25.0
     contract_quality: 74.3
     developer_ergonomics: 11.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 60.5
-  previous_composite: 44.5
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     contracts:
@@ -287,8 +295,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/screenshots/lemmy-2026-06-20T184415.png
 security:

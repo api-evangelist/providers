@@ -10,31 +10,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: documented
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
-api_count: 2
+  score: 12.6
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
 - description: 'ACUS maintains an online database of Equal Access to Justice Act (EAJA) awards, tracking awards of attorney''s fees and other costs against the United States government. ACUS collects and reports this '
   name: Equal Access to Justice Act (EAJA) Database
@@ -42,8 +42,83 @@ apis:
 - description: 'A joint project between ACUS and Stanford Law School, the Federal Administrative Adjudication Database provides comprehensive data on federal agency adjudication processes across the U.S. government. '
   name: Federal Administrative Adjudication Database
   slug: federal-administrative-adjudication-database
-artifact_total: 17
+- description: 'The Federal Administrative Procedure Sourcebook is ACUS''s reference wiki covering the core statutes of U.S. federal administrative procedure — the Administrative Procedure Act, FOIA, the Privacy Act, '
+  name: Federal Administrative Procedure Sourcebook API
+  slug: federal-administrative-procedure-sourcebook
+artifact_total: 20
 common:
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/administrative-conference-of-the-united-states-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/administrative-conference-of-the-united-states-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/administrative-conference-of-the-united-states-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/administrative-conference-of-the-united-states-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/administrative-conference-of-the-united-states-lifecycle.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/administrative-conference-of-the-united-states-sourcebook-api-examples.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/administrative-conference-of-the-united-states-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/administrative-conference-of-the-united-states-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/administrative-conference-of-the-united-states-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/administrative-conference-of-the-united-states-rate-limits.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/administrative-conference-of-the-united-states-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.acus.gov/vulnerability-disclosure-policy
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://sourcebook.acus.gov/api.php
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.acus.gov/page/resources
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.acus.gov/document/privacy-policy
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.acus.gov/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.acus.gov/rss.xml
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.acus.gov/about-acus
 - group: auth
   title: ''
   type: DomainSecurity
@@ -89,51 +164,64 @@ finops:
   slug: administrative-conference-of-the-united-states-finops
 image: /assets/icons/administrative-conference-of-the-united-states.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-30'
 name: Administrative Conference of the United States
 nav: Providers
 network: true
-overview: 'Administrative Conference of the United States publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Regulatory Reform, Administrative Law, Government Efficiency, and Open Data.
+overview: 'Administrative Conference of the United States publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Regulatory Reform, Administrative Law, Government Efficiency, and Open Data.
 
 
-  Administrative Conference of the United States'' developer surface includes developer portal and 5 more developer resources.'
+  Administrative Conference of the United States'' developer surface includes authentication, code examples, API reference, documentation, engineering blog, support, developer portal, and 17 more developer resources.'
 plans:
 - name: Administrative Conference Of The United States Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: administrative-conference-of-the-united-states-plans-pricing
 random_paper: 4
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Administrative Conference Of The United States Rate Limits
   slug: administrative-conference-of-the-united-states-rate-limits
 score:
-  band: emerging
-  composite: 12.3
-  delta: 1.9
+  band: thin
+  composite: 28.7
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 16.4
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 19.0
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 7.9
-  previous_composite: 10.4
+    access_clarity: 18.4
+    commercial_clarity: 18.4
+    contract_governance: 18.2
+    contract_quality: 6.7
+    developer_ergonomics: 45.2
+    discoverability: 64.8
+    governance: 18.2
+    operational_transparency: 10.5
+  previous_composite: 12.3
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 50.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 security:
+- kind: authentication
+  name: Administrative Conference Of The United States Authentication
+  slug: administrative-conference-of-the-united-states-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Administrative Conference Of The United States Domain Security
   slug: administrative-conference-of-the-united-states-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Administrative Conference Of The United States Vulnerability Disclosure
+  slug: administrative-conference-of-the-united-states-vulnerability-disclosure
+  summary_line: contact published
 slug: administrative-conference-of-the-united-states
 tags:
 - Federal-Government

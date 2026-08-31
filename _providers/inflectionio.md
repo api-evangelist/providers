@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: flavored
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.2
-  scored_at: '2026-08-26'
+  score: 52.7
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 20
   slug: inflectionio-agentic-access
   summary_line: 20 operations · 10 acting
-api_count: 6
+api_count: 1
 apis:
 - description: The Contact Activity API from Inflection.io — 4 operation(s) for contact activity.
   name: Inflection.io Contact Activity API
@@ -263,7 +263,7 @@ modified: '2026-08-13'
 name: Inflection.io
 nav: Providers
 network: true
-overview: 'Inflection.io publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contact Activity API, Contacts API, Emails API, and 2 more. Tagged areas include Company, Software-as-a-Service, Marketing, Marketing Automation, and Email Marketing.
+overview: 'Inflection.io publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contact Activity API, Contacts API, Emails API, and 2 more. Tagged areas include Company, Saas, Marketing, Marketing Automation, and Email Marketing.
 
 
   The Inflection.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -286,18 +286,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.9
-  delta: 0.0
+  composite: 59.8
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 62.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 63.8
     developer_ergonomics: 64.3
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 62.9
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -308,8 +313,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/screenshots/inflectionio-2026-07-25T222410.png
 security:
@@ -332,7 +337,7 @@ security:
 slug: inflectionio
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Marketing
 - Marketing Automation
 - Email Marketing

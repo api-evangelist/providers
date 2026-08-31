@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: yoast-agentic-access
   summary_line: 5 operations
-api_count: 9
+api_count: 3
 apis:
 - description: The Yoast Surfaces API provides a PHP interface for retrieving SEO metadata programmatically within WordPress. It exposes the YoastSEO() surface with methods to get metadata for the current page, a sp
   name: Yoast Surfaces API
@@ -65,13 +65,22 @@ apis:
 - description: Yoast SEO registers its content-analysis results as WordPress Abilities (the Abilities API introduced in WordPress 6.9), making them discoverable and executable over the WordPress REST API by AI agent
   name: Yoast SEO Abilities API
   slug: yoast-abilities-api
-- description: The Yoast Schema Aggregator exposes a site's aggregated Schema.org structured data over the WordPress REST API as paginated JSON-L, plus an XML schemamap listing every available schema endpoint on the
+- description: Provisioner account self-service
+  name: Yoast Provisioning Account API
+  slug: yoast-provisioning-account-api
+- description: Current product versions and download URLs for a product code
+  name: Yoast Provisioning Downloads API
+  slug: yoast-provisioning-downloads-api
+- description: Customer-level operations, including scheduled GDPR delete
+  name: Yoast Provisioning Users API
+  slug: yoast-provisioning-users-api
+- description: Aggregated Schema.org output for a WordPress site
   name: Yoast Schema Aggregator API
   slug: yoast-schema-aggregator-api
-- description: The MyYoast Provisioning API (also called the Subscription API) is the one API Yoast hosts itself. It lets an approved Yoast provisioning partner create, read, renew, cancel, refund and site-link Yoas
-  name: MyYoast Provisioning API
-  slug: myyoast-provisioning-api
-artifact_total: 30
+- description: Create, read and manage provisioned Yoast subscriptions
+  name: Yoast Subscription Provisioning API
+  slug: yoast-subscription-provisioning-api
+artifact_total: 33
 collections:
 - collection_type: open
   name: API Collection
@@ -89,6 +98,14 @@ collections:
   name: Yoast REST Pages SEO Head API
   slug: open-yoast-seo-head-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/yoast-schema-aggregator-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/yoast-myyoast-provisioning-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -346,13 +363,13 @@ modified: '2026-08-13'
 name: Yoast
 nav: Providers
 network: true
-overview: 'Yoast publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Pages API, Posts API, SEO Head API, and 3 more. Tagged areas include SEO, WordPress, Content Optimization, Schema, and Metadata.
+overview: 'Yoast publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Pages API, Posts API, SEO Head API, and 6 more. Tagged areas include SEO, WordPress, Content Optimization, Schema, and Metadata.
 
 
   The Yoast catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Yoast''s developer surface includes documentation, engineering blog, pricing, API reference, getting-started guide, support, signup flow, and 48 more developer resources.'
+  Yoast''s developer surface includes documentation, engineering blog, pricing, API reference, getting-started guide, support, signup flow, and 50 more developer resources.'
 plans:
 - name: Yoast Plans Pricing
   plan_count: 2
@@ -391,18 +408,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 64.7
+  composite: 62.5
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 59.1
-    contract_quality: 59.2
+    contract_governance: 47.0
+    contract_quality: 60.5
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 59.1
+    discoverability: 81.5
+    governance: 47.0
     operational_transparency: 52.6
-  previous_composite: 64.7
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -413,8 +435,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/screenshots/yoast-2026-06-20T201746.png
 security:

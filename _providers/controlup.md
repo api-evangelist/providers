@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-26'
-api_count: 61
+  scored_at: '2026-08-30'
+api_count: 24
 apis:
 - description: Official Model Context Protocol server published by ControlUp as the npm package @controlup-ai/mcp. Runs locally over stdio via npx, authenticates with a ControlUp API key plus organization ID, and ex
   name: ControlUp MCP Server
@@ -399,6 +399,10 @@ collections:
   name: VDI & DAAS Windows Events API
   slug: open-controlup-windowsevents-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/controlup-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -624,13 +628,13 @@ modified: '2026-08-04'
 name: ControlUp
 nav: Providers
 network: true
-overview: 'ControlUp publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Alerts - Devices API, Applications API, and 57 more. Tagged areas include Digital Employee Experience, Endpoint Management, VDI, DaaS, and Virtual Desktop.
+overview: 'ControlUp publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Alerts - Devices API, Applications API, and 57 more. Tagged areas include digital-employee-experience, endpoint-management, vdi, daas, and virtual-desktop.
 
 
   The ControlUp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ControlUp''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 46 more developer resources.'
+  ControlUp''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 47 more developer resources.'
 random_paper: 11
 rate_limits:
 - limit_count: 6
@@ -638,18 +642,23 @@ rate_limits:
   slug: controlup-rate-limits
 score:
   band: strong
-  composite: 61.8
+  composite: 62.2
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 70.2
     developer_ergonomics: 58.9
-    discoverability: 57.4
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 97.4
-  previous_composite: 61.8
+  previous_composite: 62.2
   provenance:
     conformance: derived
     contracts:
@@ -659,8 +668,8 @@ score:
       total: 60
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/controlup/refs/heads/main/screenshots/controlup-2026-08-07T163802.png
 security:
@@ -682,20 +691,20 @@ security:
   summary_line: ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO/IEC 27018:2019, ISO/IEC 27701:2019, SOC 2 Type 2, SOC 3, FIPS 140-2 Level 1, CSA STAR Level 1, GDPR
 slug: controlup
 tags:
-- Digital Employee Experience
-- Endpoint Management
-- VDI
-- DaaS
-- Virtual Desktop
-- Observability
+- digital-employee-experience
+- endpoint-management
+- vdi
+- daas
+- virtual-desktop
+- observability
 - Monitoring
-- Synthetic Monitoring
-- Device Management
+- synthetic-monitoring
+- device-management
 - Compliance
-- Vulnerability Management
-- Workflow-Automation
-- Citrix
-- Azure Virtual Desktop
+- vulnerability-management
+- workflow-automation
+- citrix
+- azure-virtual-desktop
 - MCP
 - agent-native
 website: https://www.controlup.com/

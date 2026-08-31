@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: bank-of-new-york-mellon-agentic-access
   summary_line: 9 operations · 2 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The Accounts API from BNY Mellon — 2 operation(s) for accounts.
   name: BNY Mellon Accounts API
@@ -83,6 +83,10 @@ collections:
   name: BNY Mellon Treasury Services API
   slug: open-bny-mellon-treasury-services-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bank-of-new-york-mellon-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -298,7 +302,7 @@ overview: 'BNY Mellon publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   The BNY Mellon catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  BNY Mellon''s developer surface includes authentication, engineering blog, documentation, and 11 more developer resources.'
+  BNY Mellon''s developer surface includes authentication, engineering blog, documentation, and 12 more developer resources.'
 plans:
 - name: Bank Of New York Mellon Plans Pricing
   plan_count: 3
@@ -363,18 +367,23 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: thin
-  composite: 37.2
-  delta: -0.8
+  composite: 36.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 57.8
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 38.0
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -388,8 +397,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/screenshots/bank-of-new-york-mellon-2026-06-20T172950.png
 security:

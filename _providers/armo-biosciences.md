@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/eli-lilly/
 created: '2026-07-17'
 description: ARMO BioSciences was a clinical-stage immuno-oncology biopharmaceutical company based in Redwood City, California, developing biologic therapeutics that activate a patient's own immune system to fight cancer. Its lead candidate was pegilodecakin (AM0010), a PEGylated recombinant human interleukin-10 (IL-10) evaluated across solid tumors. Backed by GV and Kleiner Perkins, the company IPO'd on NASDAQ in 2018 and was acquired by Eli Lilly and Company that same year for approximately $1.6 billion; its former web domain now redirects to lilly.com. As a life-sciences therapeutics developer it exposes no public developer API, SDK, or documentation surface. This profile is retained in the API Evangelist network as a portfolio/acquisition record rather than an active API provider.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/armo-biosciences.png
@@ -48,6 +53,11 @@ random_paper: 18
 score:
   band: minimal
   composite: 2.2
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -73,8 +83,8 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: armo-biosciences
 tags:

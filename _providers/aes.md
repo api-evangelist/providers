@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
+  score: 6.0
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Mosaic is an AI-powered intelligent bidding application developed by Fluence (an AES and Siemens company) for optimizing energy market participation. Mosaic automates bidding strategies for battery en
@@ -42,12 +42,44 @@ apis:
 - description: Nispera is an asset performance management software platform by Fluence (an AES and Siemens company) for optimizing the performance of renewable energy and battery storage assets. Nispera provides mon
   name: Fluence Nispera API
   slug: fluence-nispera-api
-artifact_total: 28
+artifact_total: 29
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.aes.com/
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/aes-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/aes-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/aes-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/aes-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/aes-conventions.yml
+- group: auth
+  title: AES Global Ethics and Compliance
+  type: Compliance
+  url: https://www.aes.com/about-us/our-people/ethics-and-compliance
+- group: operate
+  title: Contact the AES clean energy solutions team
+  type: Support
+  url: https://www.aes.com/customer-contact-form
+- group: docs
+  title: FERC-registered AES entities and standards-of-conduct posting
+  type: Documentation
+  url: https://www.aes.com/ferc-registered-entities
 - group: start
   title: ''
   type: Portal
@@ -71,7 +103,7 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.aes.com/legal
+  url: https://www.aes.com/terms-conditions
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -88,6 +120,28 @@ common:
   title: Fluence Energy
   type: Portal
   url: https://fluenceenergy.com
+coverage:
+  checked: '2026-08-30'
+  detail: AES Corporation runs no developer program at all — its 485-URL sitemap contains no developer, API or documentation section, and the one host that ever looked like an API, api.aes.com, is now a dangling CNAME to a decommissioned Azure App Service (microgridenergy-api.azurewebsites.net, NXDOMAIN), so the only machine-readable contract AES ever had has been retired without notice.
+  evidence:
+  - status: 404
+    url: https://www.aes.com/openapi.json
+  - status: 404
+    url: https://www.aes.com/.well-known/api-catalog
+  - status: 404
+    url: https://www.aes.com/.well-known/agent-card.json
+  - status: 200
+    url: https://www.aes.com/sitemap.xml
+  - status: 0
+    url: https://api.aes.com/
+  - status: 404
+    url: https://fluenceenergy.com/openapi.json
+  - status: 404
+    url: https://www.aesindiana.com/openapi.json
+  - status: 404
+    url: https://www.aesohio.com/openapi.json
+  reason: no-developer-program
+  state: none
 created: '2025-03-01'
 description: The AES Corporation is a Fortune 500 global energy company that generates and distributes electrical power. AES operates a diverse portfolio of renewable, thermal, LNG, and battery storage facilities across multiple countries, serving utilities, industrial facilities, and end users. AES is the largest global supplier of clean energy to corporations in the Americas and operates 34.7 GW globally with $12.2 billion in annual revenue. The company serves 18.7 million household equivalents through utilities in Indiana, Ohio, and El Salvador. AES also co-founded Fluence Energy, a leading energy storage and software platform company.
 features:
@@ -122,17 +176,17 @@ integrations:
 - description: Participation in Midcontinent and PJM wholesale electricity markets through AES Indiana and AES Ohio utility operations.
   name: MISO and PJM Markets
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-30'
 name: AES Corporation
 nav: Providers
 network: true
 overview: 'AES Corporation publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Power Generation, Renewable Energy, Battery Storage, and Utility.
 
 
-  AES Corporation''s developer surface includes developer portal, documentation, engineering blog, and 8 more developer resources.'
+  AES Corporation''s developer surface includes support, documentation, developer portal, engineering blog, and 15 more developer resources.'
 plans:
 - name: Aes Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: aes-plans-pricing
 press:
 - date: '2026-05-25'
@@ -152,22 +206,27 @@ press:
   url: https://www.prnewswire.com/news-releases/aes-deploys-ai-safety-platform-in-us-operations-302711682.html
 random_paper: 19
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Aes Rate Limits
   slug: aes-rate-limits
 score:
   band: emerging
-  composite: 18.6
-  delta: 0.0
+  composite: 22.1
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 3.5
   facets:
-    access_clarity: 34.2
-    commercial_clarity: 34.2
+    access_clarity: 36.8
+    commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 68.5
+    developer_ergonomics: 26.2
+    discoverability: 75.9
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 0.0
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
@@ -180,9 +239,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 18.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 32.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aes/refs/heads/main/screenshots/aes-2026-06-20T165545.png
 security:
@@ -190,6 +249,10 @@ security:
   name: Aes Domain Security
   slug: aes-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Aes Vulnerability Disclosure
+  slug: aes-vulnerability-disclosure
+  summary_line: Hackerone
 slug: aes
 solutions:
 - description: Global clean energy development with 17.9 GW in operation and 67 GW in development, primarily solar and wind projects serving corporate and utility customers.

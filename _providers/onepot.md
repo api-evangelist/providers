@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Programmatic access to onepot CORE for make-on-demand molecule discovery and synthesis. Run similarity (Tanimoto) and substructure (SMILES/SMARTS) search, optional retrosynthetic decomposition with bu
@@ -120,7 +120,12 @@ overview: 'Onepot publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 10
 score:
   band: emerging
-  composite: 18.6
+  composite: 19.3
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -128,10 +133,10 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 61.3
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.6
+  previous_composite: 19.3
   provenance:
     mcp: derived
     skills: derived
@@ -141,8 +146,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onepot/refs/heads/main/screenshots/onepot-2026-08-07T190333.png
 security:

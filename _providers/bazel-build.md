@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 5
   slug: bazel-build-agentic-access
   summary_line: 5 operations
-api_count: 6
+api_count: 1
 apis:
 - description: The `bazel` command line tool is the primary user-facing surface of Bazel. It exposes commands such as `build`, `test`, `run`, `query`, `cquery`, `aquery`, `mod`, `fetch`, `info`, `coverage`, and `cle
   name: Bazel Command Line Interface
@@ -334,7 +334,7 @@ modified: '2026-05-25'
 name: Bazel
 nav: Providers
 network: true
-overview: 'Bazel publishes 2 APIs on the [APIs.io](https://apis.io/) network: Modules API and Registry API. Tagged areas include Build Systems, Build Tools, Bzlmod, CI/CD, and Developer Tools.
+overview: 'Bazel publishes 2 APIs on the [APIs.io](https://apis.io/) network: Modules API and Registry API. Tagged areas include Build Systems, Build Tool, Bzlmod, CI/CD, and Developer Tools.
 
 
   The Bazel catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -366,17 +366,25 @@ rules:
   slug: bazel-build-rules
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 47.9
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 40.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.3
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
     contract_governance: 28.8
     contract_quality: 68.4
     developer_ergonomics: 61.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 23.7
+  open_source:
+    applies: true
+    score: 50.0
   previous_composite: 48.2
   provenance:
     agentic_access: derived
@@ -385,8 +393,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/screenshots/bazel-build-2026-06-20T173055.png
 security:
@@ -397,7 +405,7 @@ security:
 slug: bazel-build
 tags:
 - Build Systems
-- Build Tools
+- Build Tool
 - Bzlmod
 - CI/CD
 - Developer Tools

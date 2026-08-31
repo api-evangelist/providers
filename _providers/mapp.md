@@ -24,22 +24,121 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 4
 apis:
-- description: 'The Mapp Engage REST API (REST 2.0, incremental version v19) exchanges data between external systems and Mapp Engage: create and update contacts, manage group memberships and attributes, send single, '
-  name: Mapp Engage API
-  slug: engage
-- description: The Mapp Intelligence Analytics API gives programmatic access to Mapp Intelligence (formerly Webtrekk) digital-analytics data and functions — submit analysis queries (pivot, comparison, time series, p
-  name: Mapp Intelligence Analytics API
-  slug: intelligence-analytics
-- description: The Product Catalog Public API manages product and variant data inside Mapp Cloud catalogs — create, replace, partially update, upsert, bulk-load and delete variants, manage variant attributes, read c
-  name: Mapp Product Catalog Public API
-  slug: product-catalog
-- description: 'The Mapp Fashion (formerly Dressipi) recommendation API returns curated fashion and retail recommendations: related and complementary items for a seed product, themed and facetted recommendations, top'
-  name: Mapp Fashion API
-  slug: fashion
-artifact_total: 17
+- description: The Address Attributes API from Mapp Marketing Cloud — 1 operation(s) for address attributes.
+  name: Mapp Marketing Cloud Address Attributes API
+  slug: mapp-address-attributes-api
+- description: Submit analysis and get data
+  name: Mapp Marketing Cloud Analysis API
+  slug: mapp-analysis-api
+- description: The Async API from Mapp Marketing Cloud — 8 operation(s) for async.
+  name: Mapp Marketing Cloud Async API
+  slug: mapp-async-api
+- description: The Audit Log API from Mapp Marketing Cloud — 1 operation(s) for audit log.
+  name: Mapp Marketing Cloud Audit Log API
+  slug: mapp-audit-log-api
+- description: Operations for obtaining or refreshing JWTs
+  name: Mapp Marketing Cloud Authorization API
+  slug: mapp-authorization-api
+- description: The Automation API from Mapp Marketing Cloud — 3 operation(s) for automation.
+  name: Mapp Marketing Cloud Automation API
+  slug: mapp-automation-api
+- description: Get information about available objects you can use to build Analysis
+  name: Mapp Marketing Cloud Available Objects API
+  slug: mapp-available-objects-api
+- description: The Blacklist API from Mapp Marketing Cloud — 6 operation(s) for blacklist.
+  name: Mapp Marketing Cloud Blacklist API
+  slug: mapp-blacklist-api
+- description: Endpoints for catalog metadata operations
+  name: Mapp Marketing Cloud Catalog Metadata Operations API
+  slug: mapp-catalog-metadata-operations-api
+- description: The CMS API from Mapp Marketing Cloud — 2 operation(s) for cms.
+  name: Mapp Marketing Cloud CMS API
+  slug: mapp-cms-api
+- description: The Contact API from Mapp Marketing Cloud — 8 operation(s) for contact.
+  name: Mapp Marketing Cloud Contact API
+  slug: mapp-contact-api
+- description: The Content API from Mapp Marketing Cloud — 2 operation(s) for content.
+  name: Mapp Marketing Cloud Content API
+  slug: mapp-content-api
+- description: The Draft Message API from Mapp Marketing Cloud — 6 operation(s) for draft message.
+  name: Mapp Marketing Cloud Draft Message API
+  slug: mapp-draft-message-api
+- description: The Ecommerce API from Mapp Marketing Cloud — 8 operation(s) for ecommerce.
+  name: Mapp Marketing Cloud Ecommerce API
+  slug: mapp-ecommerce-api
+- description: The Group API from Mapp Marketing Cloud — 11 operation(s) for group.
+  name: Mapp Marketing Cloud Group API
+  slug: mapp-group-api
+- description: The Group Attributes API from Mapp Marketing Cloud — 8 operation(s) for group attributes.
+  name: Mapp Marketing Cloud Group Attributes API
+  slug: mapp-group-attributes-api
+- description: Operations for retrieving recommendations or items related to one or more seed items
+  name: Mapp Marketing Cloud Items API
+  slug: mapp-items-api
+- description: The Landing Page API from Mapp Marketing Cloud — 4 operation(s) for landing page.
+  name: Mapp Marketing Cloud Landing Page API
+  slug: mapp-landing-page-api
+- description: The Member Attributes API from Mapp Marketing Cloud — 6 operation(s) for member attributes.
+  name: Mapp Marketing Cloud Member Attributes API
+  slug: mapp-member-attributes-api
+- description: The Membership API from Mapp Marketing Cloud — 16 operation(s) for membership.
+  name: Mapp Marketing Cloud Membership API
+  slug: mapp-membership-api
+- description: The Message API from Mapp Marketing Cloud — 14 operation(s) for message.
+  name: Mapp Marketing Cloud Message API
+  slug: mapp-message-api
+- description: The Meta API from Mapp Marketing Cloud — 13 operation(s) for meta.
+  name: Mapp Marketing Cloud Meta API
+  slug: mapp-meta-api
+- description: The Mobile Push API from Mapp Marketing Cloud — 9 operation(s) for mobile push.
+  name: Mapp Marketing Cloud Mobile Push API
+  slug: mapp-mobile-push-api
+- description: The Prepared Message API from Mapp Marketing Cloud — 4 operation(s) for prepared message.
+  name: Mapp Marketing Cloud Prepared Message API
+  slug: mapp-prepared-message-api
+- description: The Process API from Mapp Marketing Cloud — 3 operation(s) for process.
+  name: Mapp Marketing Cloud Process API
+  slug: mapp-process-api
+- description: Endpoints for product data operations
+  name: Mapp Marketing Cloud Product Data Operations API
+  slug: mapp-product-data-operations-api
+- description: The Profile Attributes API from Mapp Marketing Cloud — 14 operation(s) for profile attributes.
+  name: Mapp Marketing Cloud Profile Attributes API
+  slug: mapp-profile-attributes-api
+- description: Operations about recommendations
+  name: Mapp Marketing Cloud Recommendations API
+  slug: mapp-recommendations-api
+- description: The Related Data API from Mapp Marketing Cloud — 4 operation(s) for related data.
+  name: Mapp Marketing Cloud Related Data API
+  slug: mapp-related-data-api
+- description: The Segmentation API from Mapp Marketing Cloud — 10 operation(s) for segmentation.
+  name: Mapp Marketing Cloud Segmentation API
+  slug: mapp-segmentation-api
+- description: The System API from Mapp Marketing Cloud — 2 operation(s) for system.
+  name: Mapp Marketing Cloud System API
+  slug: mapp-system-api
+- description: The System User API from Mapp Marketing Cloud — 5 operation(s) for system user.
+  name: Mapp Marketing Cloud System User API
+  slug: mapp-system-user-api
+- description: The Usage Statistics API from Mapp Marketing Cloud — 2 operation(s) for usage statistics.
+  name: Mapp Marketing Cloud Usage Statistics API
+  slug: mapp-usage-statistics-api
+- description: The User API from Mapp Marketing Cloud — 18 operation(s) for user.
+  name: Mapp Marketing Cloud User API
+  slug: mapp-user-api
+- description: Endpoints for variant data bulk operations
+  name: Mapp Marketing Cloud Variant Data Bulk Operations API
+  slug: mapp-variant-data-bulk-operations-api
+- description: Endpoints for variant data operations
+  name: Mapp Marketing Cloud Variant Data Operations API
+  slug: mapp-variant-data-operations-api
+- description: The Whiteboard API from Mapp Marketing Cloud — 8 operation(s) for whiteboard.
+  name: Mapp Marketing Cloud Whiteboard API
+  slug: mapp-whiteboard-api
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Mapp Data Streams
@@ -58,6 +157,26 @@ collections:
   name: Product Catalog - Public API
   slug: open-mapp-product-catalog
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mapp-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mapp-engage-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mapp-intelligence-analytics-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mapp-product-catalog-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mapp-fashion-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -230,13 +349,13 @@ modified: '2026-08-12'
 name: Mapp Marketing Cloud
 nav: Providers
 network: true
-overview: 'Mapp Marketing Cloud publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Mapp Engage API, Mapp Intelligence Analytics API, Mapp Product Catalog Public API, and 1 more. Tagged areas include Company, Marketing, Marketing Automation, Email, and Analytics.
+overview: 'Mapp Marketing Cloud publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Address Attributes API, Analysis API, Async API, and 34 more. Tagged areas include Company, Marketing, Marketing Automation, Email, and Analytics.
 
 
   The Mapp Marketing Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mapp Marketing Cloud''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 33 more developer resources.'
+  Mapp Marketing Cloud''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 38 more developer resources.'
 plans:
 - name: Mapp Plans Pricing
   plan_count: 3
@@ -253,18 +372,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 74.7
-  delta: 0.0
+  composite: 70.9
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 65.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.8
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 30.3
-    contract_quality: 58.3
+    contract_governance: 18.2
+    contract_quality: 60.7
     developer_ergonomics: 70.8
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 63.0
+    governance: 18.2
     operational_transparency: 63.2
-  previous_composite: 74.7
+  previous_composite: 72.7
   provenance:
     conformance: first-party
     contracts:
@@ -276,12 +400,22 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: dora
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: EU
+      standard: nis2
+    - jurisdiction: US
+      standard: ccpa
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 72.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mapp/refs/heads/main/screenshots/mapp-2026-08-17T080404.png
 security:

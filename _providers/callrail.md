@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 8
   slug: callrail-agentic-access
   summary_line: 8 operations · 2 acting
-api_count: 4
+api_count: 1
 apis:
 - description: REST API providing programmatic access to CallRail accounts, companies, tracking numbers, calls, text messages, form submissions, users, tags, and integrations. Requests authenticate via the HTTP head
   name: CallRail v3 API
@@ -257,19 +257,24 @@ rate_limits:
   name: Callrail Rate Limits
   slug: callrail-rate-limits
 score:
-  band: strong
-  composite: 56.4
-  delta: 0.0
+  band: developing
+  composite: 52.2
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -3.5
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 61.2
-    developer_ergonomics: 56.5
-    discoverability: 74.1
-    governance: 30.3
-    operational_transparency: 73.7
-  previous_composite: 56.4
+    developer_ergonomics: 47.0
+    discoverability: 75.9
+    governance: 18.2
+    operational_transparency: 65.8
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -280,8 +285,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/callrail/refs/heads/main/screenshots/callrail-2026-06-20T173850.png
 security:

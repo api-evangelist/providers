@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 10
   slug: helm-agentic-access
   summary_line: 10 operations · 3 acting
-api_count: 10
+api_count: 1
 apis:
 - description: JSON Schema defining the structure and validation rules for Chart.yaml, the metadata file required in every Helm chart. Describes chart name, version, dependencies, maintainers, and other metadata fie
   name: Helm Chart.yaml Schema
@@ -233,19 +233,27 @@ rules:
     warn: 4
   slug: helm-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 37.8
-  delta: 1.4
+  band: developing
+  composite: 43.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 58.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 5.7
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 9.8
     contract_quality: 59.4
     developer_ergonomics: 35.7
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 36.4
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -253,9 +261,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/helm/refs/heads/main/screenshots/helm-2026-06-20T182629.png
 security:
 - kind: domain-security

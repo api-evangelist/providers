@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -193,6 +193,10 @@ collections:
   name: LiteLLM Proxy API
   slug: open-litellm
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/litellm-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -308,7 +312,7 @@ network: true
 overview: 'LiteLLM publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Assistants API, Audio API, Batches API, and 11 more. Tagged areas include Gateways.
 
 
-  LiteLLM''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, changelog, release notes, support, and 18 more developer resources.'
+  LiteLLM''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, changelog, release notes, support, and 19 more developer resources.'
 plans:
 - name: Litellm Plans Pricing
   plan_count: 3
@@ -321,6 +325,11 @@ rate_limits:
 score:
   band: thin
   composite: 33.7
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 26.3
@@ -339,8 +348,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litellm/refs/heads/main/screenshots/litellm-2026-06-20T184603.png
 security:

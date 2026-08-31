@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 30
   slug: safeline-agentic-access
   summary_line: 30 operations · 18 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: 'SafeLine provides two MCP (Model Context Protocol) Server implementations for AI-assisted WAF management: a Python MCP Server for tool-based API management and a Go MCP Server for high-performance man'
   name: SafeLine MCP Server
@@ -104,6 +104,14 @@ collections:
   name: SafeLine Management ACL Rules Websites API
   slug: open-safeline-websites-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/chaitin/SafeLine/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/chaitin/SafeLine/releases
 - group: commercial
   title: ''
   type: License
@@ -215,7 +223,7 @@ overview: 'SafeLine publishes 8 APIs on the [APIs.io](https://apis.io/) network,
   The SafeLine catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SafeLine''s developer surface includes authentication, documentation, and 14 more developer resources.'
+  SafeLine''s developer surface includes authentication, documentation, and 16 more developer resources.'
 plans:
 - name: Safeline Plans Pricing
   plan_count: 3
@@ -249,18 +257,26 @@ rules:
   slug: safeline-rules
 score:
   band: thin
-  composite: 34.0
-  delta: 0.0
+  composite: 34.4
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 60.9
     developer_ergonomics: 21.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
-    operational_transparency: 10.5
-  previous_composite: 34.0
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -268,8 +284,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/safeline/refs/heads/main/screenshots/safeline-2026-06-20T193323.png
 security:

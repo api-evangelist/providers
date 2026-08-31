@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,30 +42,12 @@ agentic_access:
   operation_count: 1
   slug: etherscan-agentic-access
   summary_line: 1 operation
-api_count: 7
+api_count: 1
 apis:
 - description: Address balances, transactions, and token holdings
   name: Etherscan Accounts API
   slug: etherscan-accounts-api
-- description: Block details, rewards, and uncles
-  name: Etherscan Blocks API
-  slug: etherscan-blocks-api
-- description: Smart contract source, ABI, and verification
-  name: Etherscan Contracts API
-  slug: etherscan-contracts-api
-- description: Network gas oracle and gas price estimates
-  name: Etherscan Gas Tracker API
-  slug: etherscan-gas-tracker-api
-- description: Network and supply statistics
-  name: Etherscan Stats API
-  slug: etherscan-stats-api
-- description: ERC-20, ERC-721, and ERC-1155 token data
-  name: Etherscan Tokens API
-  slug: etherscan-tokens-api
-- description: Transaction status and receipts
-  name: Etherscan Transactions API
-  slug: etherscan-transactions-api
-artifact_total: 23
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -159,7 +141,7 @@ modified: '2026-05-19'
 name: Etherscan
 nav: Providers
 network: true
-overview: 'Etherscan publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Contracts API, and 4 more. Tagged areas include Blockchain, Cryptocurrency, Ethereum, EVM, and Web3.
+overview: 'Etherscan publishes 1 API on the [APIs.io](https://apis.io/) network: Accounts API. Tagged areas include Blockchain, Cryptocurrency, Ethereum, EVM, and Web3.
 
 
   Etherscan''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
@@ -174,7 +156,12 @@ rate_limits:
   slug: etherscan-rate-limits
 score:
   band: thin
-  composite: 37.7
+  composite: 37.1
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -182,10 +169,10 @@ score:
     contract_governance: 0.0
     contract_quality: 53.7
     developer_ergonomics: 23.8
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 37.7
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -193,8 +180,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/screenshots/etherscan-2026-06-20T180843.png
 security:

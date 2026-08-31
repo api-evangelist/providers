@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 82.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 56
@@ -31,18 +31,75 @@ agentic_access:
   operation_count: 127
   slug: xquik-agentic-access
   summary_line: 127 operations · 56 acting · 56 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
-- description: OpenAPI 3.1 REST API for public X data, connected-account write actions, monitoring, signed webhooks, exports, account management, and billing.
-  name: Xquik REST API
-  slug: xquik-rest-api
 - description: Hosted MCP server for the Xquik API with OAuth 2.1 and API-key access.
   name: Xquik API MCP Server
   slug: xquik-api-mcp-server
 - description: Read-only hosted MCP server for searching Xquik documentation.
   name: Xquik Docs MCP Server
   slug: xquik-docs-mcp-server
-artifact_total: 21
+- description: Account info and settings
+  name: Xquik Account API
+  slug: xquik-api-account-api
+- description: API key management (session auth only)
+  name: Xquik API Keys API
+  slug: xquik-api-api-keys-api
+- description: Long-form X Article extraction
+  name: Xquik Articles API
+  slug: xquik-api-articles-api
+- description: X Community info, members, and tweets
+  name: Xquik Communities API
+  slug: xquik-api-communities-api
+- description: AI tweet composition, drafts, writing styles, and radar
+  name: Xquik Composition API
+  slug: xquik-api-composition-api
+- description: Giveaway draws from tweet replies
+  name: Xquik Draws API
+  slug: xquik-api-draws-api
+- description: Activity events from monitored accounts
+  name: Xquik Events API
+  slug: xquik-api-events-api
+- description: Bulk data extraction (23 tool types)
+  name: Xquik Extractions API
+  slug: xquik-api-extractions-api
+- description: Accountless prepaid access for paid read endpoints
+  name: Xquik Guest Wallets API
+  slug: xquik-api-guest-wallets-api
+- description: X List followers, members, and tweets
+  name: Xquik Lists API
+  slug: xquik-api-lists-api
+- description: Media upload and download
+  name: Xquik Media API
+  slug: xquik-api-media-api
+- description: X account monitoring with 1-second checks
+  name: Xquik Monitors API
+  slug: xquik-api-monitors-api
+- description: Subscription, billing, and credits
+  name: Xquik Subscribe API
+  slug: xquik-api-subscribe-api
+- description: Support ticket management
+  name: Xquik Support API
+  slug: xquik-api-support-api
+- description: Trending topics and hashtags by region
+  name: Xquik Trends API
+  slug: xquik-api-trends-api
+- description: Look up, search, and analyze individual tweets
+  name: Xquik Tweets API
+  slug: xquik-api-tweets-api
+- description: Look up, search, and explore user profiles and relationships
+  name: Xquik Users API
+  slug: xquik-api-users-api
+- description: Webhook endpoint management and delivery
+  name: Xquik Webhooks API
+  slug: xquik-api-webhooks-api
+- description: Connected X account management
+  name: Xquik X Accounts API
+  slug: xquik-api-x-accounts-api
+- description: X write actions (tweets, likes, follows, DMs)
+  name: Xquik X Write API
+  slug: xquik-api-x-write-api
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Xquik Asyncapi Provenance
@@ -155,10 +212,6 @@ common:
   title: ''
   type: Support
   url: mailto:support@xquik.com
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/xquik-developer-updates.md
 - group: commercial
   title: ''
   type: Plans
@@ -365,13 +418,13 @@ modified: '2026-08-13'
 name: Xquik
 nav: Providers
 network: true
-overview: 'Xquik publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include social-media-data, X / Twitter, Social Listening, Data Extraction, and Automation.
+overview: 'Xquik publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Account API, API Keys API, Articles API, and 17 more. Tagged areas include social media data, X / Twitter, social listening, data extraction, and automation.
 
 
   The Xquik catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Xquik''s developer surface includes authentication, documentation, API reference, getting-started guide, SDKs, CLI, sandbox, and 62 more developer resources.'
+  Xquik''s developer surface includes authentication, documentation, API reference, getting-started guide, SDKs, CLI, sandbox, and 61 more developer resources.'
 plans:
 - name: Xquik Plans
   plan_count: 4
@@ -399,18 +452,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 92.3
-  delta: 0.0
+  composite: 89.3
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 20.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.1
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 100.0
-    contract_quality: 78.7
-    developer_ergonomics: 100.0
-    discoverability: 100.0
-    governance: 100.0
+    contract_governance: 87.9
+    contract_quality: 76.8
+    developer_ergonomics: 97.6
+    discoverability: 94.4
+    governance: 87.9
     operational_transparency: 81.6
-  previous_composite: 92.3
+  previous_composite: 90.4
   provenance:
     agentic_access: unknown
     conformance: first-party
@@ -421,8 +479,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/screenshots/xquik-api-2026-08-17T075407.png
 security:
@@ -440,13 +498,13 @@ security:
   summary_line: security.txt · contact published
 slug: xquik-api
 tags:
-- social-media-data
+- social media data
 - X / Twitter
-- Social Listening
-- Data Extraction
-- Automation
+- social listening
+- data extraction
+- automation
 - Webhook
 - MCP
-- Developer API
+- developer API
 website: https://xquik.com/en
 ---

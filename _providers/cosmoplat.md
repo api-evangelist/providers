@@ -23,16 +23,40 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The 物联开发平台 (IoT development platform) API published by COSMOPlat as the "OpenApi-线上" reference. Twenty-six documented operations across product management, device management, alarm rules, alarm record
-  name: COSMOPlat IoT Platform OpenAPI
-  slug: cosmoplat-iot-platform-openapi
 - description: The MQTT publish/subscribe surface of the COSMOPlat IoT development platform, documented in 数据流转引擎 (data flow engine). Devices publish telemetry to iot.cosmoplat.com:1883 on v1/devices/me/telemetry; t
   name: COSMOPlat IoT Telemetry (MQTT)
   slug: cosmoplat-iot-telemetry-mqtt
-artifact_total: 9
+- description: The Alarm Records API from Cosmoplat — 2 operation(s) for alarm records.
+  name: Cosmoplat Alarm Records API
+  slug: cosmoplat-alarm-records-api
+- description: The Alarm Rules API from Cosmoplat — 3 operation(s) for alarm rules.
+  name: Cosmoplat Alarm Rules API
+  slug: cosmoplat-alarm-rules-api
+- description: The Attribute Data API from Cosmoplat — 1 operation(s) for attribute data.
+  name: Cosmoplat Attribute Data API
+  slug: cosmoplat-attribute-data-api
+- description: The Device Management API from Cosmoplat — 4 operation(s) for device management.
+  name: Cosmoplat Device Management API
+  slug: cosmoplat-device-management-api
+- description: The Device RPC API from Cosmoplat — 2 operation(s) for device rpc.
+  name: Cosmoplat Device RPC API
+  slug: cosmoplat-device-rpc-api
+- description: The Product Management API from Cosmoplat — 3 operation(s) for product management.
+  name: Cosmoplat Product Management API
+  slug: cosmoplat-product-management-api
+- description: The Rule Chains API from Cosmoplat — 3 operation(s) for rule chains.
+  name: Cosmoplat Rule Chains API
+  slug: cosmoplat-rule-chains-api
+- description: The Thing Model (Telemetry Profile) API from Cosmoplat — 6 operation(s) for thing model (telemetry profile).
+  name: Cosmoplat Thing Model (Telemetry Profile) API
+  slug: cosmoplat-thing-model-telemetry-profile-api
+- description: The Time-series Data API from Cosmoplat — 1 operation(s) for time-series data.
+  name: Cosmoplat Time-series Data API
+  slug: cosmoplat-time-series-data-api
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Cosmoplat Event Surface
@@ -166,7 +190,7 @@ modified: '2026-08-11'
 name: Cosmoplat
 nav: Providers
 network: true
-overview: 'Cosmoplat publishes 2 APIs on the [APIs.io](https://apis.io/) network: IoT Platform OpenAPI and IoT Telemetry (MQTT). Tagged areas include Company, Industrial Internet, Industrial IoT, Internet of Things, and Manufacturing.
+overview: 'Cosmoplat publishes 10 APIs on the [APIs.io](https://apis.io/) network, including IoT Telemetry (MQTT), Alarm Records API, Alarm Rules API, and 7 more. Tagged areas include Company, Industrial Internet, Industrial IoT, Internet of Things, and Manufacturing.
 
 
   The Cosmoplat catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -184,18 +208,23 @@ rate_limits:
   slug: cosmoplat-rate-limits
 score:
   band: thin
-  composite: 30.1
-  delta: 0.0
+  composite: 28.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
-    contract_quality: 22.8
+    contract_governance: 4.5
+    contract_quality: 22.9
     developer_ergonomics: 42.3
-    discoverability: 70.4
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 30.1
+  previous_composite: 29.0
   provenance:
     conformance: derived
     contracts:
@@ -205,8 +234,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosmoplat/refs/heads/main/screenshots/cosmoplat-2026-08-17T123144.png
 security:

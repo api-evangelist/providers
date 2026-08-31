@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -43,20 +43,14 @@ agentic_access:
   operation_count: 116
   slug: nutshell-agentic-access
   summary_line: 116 operations · 47 acting
-api_count: 27
+api_count: 7
 apis:
-- description: Nutshell's primary REST API — 87 paths and 112 operations across 24 resource families (accounts, contacts, leads, activities, notes, tasks, products, quotes, invoices, pipelines, tags, users and more)
-  name: Nutshell REST API
-  slug: rest-api
 - description: Nutshell's original JSON-RPC API, available since 2010. Nutshell states it is no longer adding new endpoints to this API but continues to support existing customers, making it a maintenance-only surfa
   name: Nutshell Legacy JSON-RPC API
   slug: json-rpc
 - description: 'A GraphQL endpoint served at https://app.nutshell.com/graphql. Nutshell''s API authentication guide names GraphQL alongside REST and JSON-RPC as an authenticated surface. Introspection is gated: an ano'
   name: Nutshell GraphQL API
   slug: graphql
-- description: 'Companies and organizations you do business with (shown as Companies in the Nutshell UI): create, read, update, delete, undelete, list, custom fields, account types and industries. 13 operation(s) acr'
-  name: Nutshell Accounts (Companies) API
-  slug: nutshell-accounts-api
 - description: Meetings, calls and logged interactions attached to Nutshell records, plus the activity type reference. 5 operation(s) across 3 path(s).
   name: Nutshell Activities API
   slug: nutshell-activities-api
@@ -66,21 +60,12 @@ apis:
 - description: Competitor records and the lead-to-competitor relationships (competitor maps) attached to a lead. 6 operation(s) across 4 path(s).
   name: Nutshell Competitors API
   slug: nutshell-competitors-api
-- description: 'People you do business with (shown as People in the Nutshell UI): create, read, update, delete, undelete, list and contact custom fields. 11 operation(s) across 8 path(s).'
-  name: Nutshell Contacts (People) API
-  slug: nutshell-contacts-api
 - description: Marketing email editions — individual email sends and their metadata. 2 operation(s) across 2 path(s).
   name: Nutshell Editions API
   slug: nutshell-editions-api
 - description: Individual email messages recorded against Nutshell records. 1 operation(s) across 1 path(s).
   name: Nutshell Emails API
   slug: nutshell-emails-api
-- description: The Nutshell timeline/change-log feed, including a separate feed of deletion events. 2 operation(s) across 2 path(s).
-  name: Nutshell Events (Timeline) API
-  slug: nutshell-events-api
-- description: Saved filters and lists used to scope list endpoints across the core Nutshell entities. 1 operation(s) across 1 path(s).
-  name: Nutshell Filters API
-  slug: nutshell-filters-api
 - description: Nutshell Forms and their fields, including the field IDs used in each published form. 3 operation(s) across 3 path(s).
   name: Nutshell Forms API
   slug: nutshell-forms-api
@@ -99,12 +84,6 @@ apis:
 - description: Free-text notes attached to accounts, contacts and leads, with delete and undelete. 5 operation(s) across 3 path(s).
   name: Nutshell Notes API
   slug: nutshell-notes-api
-- description: Pipelines (stagesets) and their stages, plus a CSV export of lead movement through a pipeline. 3 operation(s) across 3 path(s).
-  name: Nutshell Pipelines (Stagesets) API
-  slug: nutshell-pipelines-api
-- description: Product categories used to group the products attached to leads and quotes. 3 operation(s) across 2 path(s).
-  name: Nutshell Product Categories API
-  slug: nutshell-product-categories-api
 - description: The product catalog and product maps — instances of a product attached to a lead with quantity and custom pricing. 8 operation(s) across 6 path(s).
   name: Nutshell Products API
   slug: nutshell-products-api
@@ -126,7 +105,25 @@ apis:
 - description: Nutshell users in the instance. 2 operation(s) across 2 path(s).
   name: Nutshell Users API
   slug: nutshell-users-api
-artifact_total: 60
+- description: The Accounts (Companies) API from Nutshell — 10 operation(s) for accounts (companies).
+  name: Nutshell Accounts (Companies) API
+  slug: nutshell-accounts-companies-api
+- description: The Contacts (People) API from Nutshell — 8 operation(s) for contacts (people).
+  name: Nutshell Contacts (People) API
+  slug: nutshell-contacts-people-api
+- description: The Events (Timeline) API from Nutshell — 2 operation(s) for events (timeline).
+  name: Nutshell Events (Timeline) API
+  slug: nutshell-events-timeline-api
+- description: The Filter API from Nutshell — 1 operation(s) for filter.
+  name: Nutshell Filter API
+  slug: nutshell-filter-api
+- description: The ProductCategories API from Nutshell — 2 operation(s) for productcategories.
+  name: Nutshell Product Categories API
+  slug: nutshell-productcategories-api
+- description: The Stagesets (Pipelines) API from Nutshell — 3 operation(s) for stagesets (pipelines).
+  name: Nutshell Stagesets (Pipelines) API
+  slug: nutshell-stagesets-pipelines-api
+artifact_total: 59
 asyncapis:
 - description: ''
   name: Nutshell Webhooks
@@ -205,6 +202,30 @@ collections:
   name: Nutshell Users API
   slug: open-nutshell-users-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nutshell-accounts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nutshell-contacts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nutshell-events-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nutshell-filters-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nutshell-pipelines-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nutshell-product-categories-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -389,13 +410,13 @@ modified: '2026-08-13'
 name: Nutshell
 nav: Providers
 network: true
-overview: 'Nutshell publishes 25 APIs on the [APIs.io](https://apis.io/) network, including REST API, Accounts (Companies) API, Activities API, and 22 more. Tagged areas include CRM, Sales, Pipeline Management, Email Marketing, and Contact Management.
+overview: 'Nutshell publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Audiences API, Competitors API, and 21 more. Tagged areas include CRM, Sales, Pipeline Management, Email Marketing, and Contact Management.
 
 
   The Nutshell catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Nutshell''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 36 more developer resources.'
+  Nutshell''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 42 more developer resources.'
 plans:
 - name: Nutshell Plans Pricing
   plan_count: 5
@@ -412,18 +433,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.8
+  composite: 59.4
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 30.3
-    contract_quality: 60.3
+    contract_governance: 18.2
+    contract_quality: 60.5
     developer_ergonomics: 53.0
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 38.2
-  previous_composite: 60.8
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -434,8 +460,8 @@ score:
       total: 24
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutshell/refs/heads/main/screenshots/nutshell-2026-06-20T190536.png
 security:

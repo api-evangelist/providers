@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: koala-io-agentic-access
   summary_line: 7 operations · 5 acting
-api_count: 5
+api_count: 2
 apis:
 - description: The client-side pixel loaded from cdn.getkoala.com/v1/{key}/sdk.js. Exposes ko.identify(), ko.track(), ko.qualify(), ko.reset() and autotracks pageviews, form fills, and session time. This is a browse
   name: Koala Web Pixel (JavaScript SDK)
@@ -331,7 +331,7 @@ modified: '2026-08-13'
 name: Koala
 nav: Providers
 network: true
-overview: 'Koala publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Collection API, Deletion API, and 1 more. Tagged areas include Buyer Intent, Visitor Identification, De-anonymization, Enrichment, and Go-To-Market.
+overview: 'Koala publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Collection API, Deletion API, and 1 more. Tagged areas include Buyer Intent, Visitor Identification, De-anonymization, Enrichment, and Go-to-Market.
 
 
   The Koala catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -359,19 +359,24 @@ rules:
     warn: 5
   slug: koala-io-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 68.0
-  delta: 1.0
+  band: strong
+  composite: 66.0
+  coverage:
+    artifact_dirs: 28
+    catalog_gap: 34.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 41.7
+    contract_governance: 29.5
     contract_quality: 72.3
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 41.7
+    discoverability: 75.9
+    governance: 29.5
     operational_transparency: 60.5
-  previous_composite: 67.0
+  previous_composite: 66.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -382,8 +387,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koala-io/refs/heads/main/screenshots/koala-io-2026-07-25T224023.png
 security:
@@ -409,7 +414,7 @@ tags:
 - Visitor Identification
 - De-anonymization
 - Enrichment
-- Go-To-Market
+- Go-to-Market
 - Sales Intelligence
 - B2B
 website: https://getkoala.com

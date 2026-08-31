@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-26'
-api_count: 10
+  scored_at: '2026-08-30'
+api_count: 7
 apis:
 - description: The create meters API from Leap — 4 operation(s) for create meters.
   name: Leap create meters API
@@ -106,6 +106,10 @@ collections:
   name: create meters webhooks API
   slug: open-leap-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/leap-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -268,22 +272,27 @@ overview: 'Leap publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
   The Leap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Leap''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 29 more developer resources.'
+  Leap''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 30 more developer resources.'
 random_paper: 19
 score:
   band: developing
-  composite: 46.9
+  composite: 45.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 69.2
     developer_ergonomics: 44.6
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 46.9
+  previous_composite: 45.4
   provenance:
     conformance: derived
     contracts:
@@ -299,8 +308,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leap/refs/heads/main/screenshots/leap-2026-07-25T224743.png
 security:

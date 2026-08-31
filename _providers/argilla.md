@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 73
   slug: argilla-agentic-access
   summary_line: 73 operations · 44 acting
-api_count: 15
+api_count: 1
 apis:
 - description: The Authentication API from Argilla — 4 operation(s) for authentication.
   name: Argilla Authentication API
@@ -200,10 +200,6 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/argilla-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: 2026-06-12
 description: Argilla is an open-source data annotation and curation platform designed for AI engineers and domain experts building high-quality datasets for LLMs and NLP models. The platform provides a FastAPI-based REST API for managing workspaces, datasets, records, responses, suggestions, and vectors, enabling RLHF and preference tuning pipelines. Developers interact with Argilla through a Python SDK (pip install argilla) or directly via REST using API key authentication. Argilla supports deployment on Hugging Face Spaces, Docker, and self-hosted environments, and is licensed under Apache-2.0. The platform recently joined Hugging Face, deepening its integration with the broader open ML ecosystem.
 examples:
@@ -265,13 +261,13 @@ modified: 2026-06-12
 name: Argilla
 nav: Providers
 network: true
-overview: 'Argilla publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, datasets API, fields API, and 12 more. Tagged areas include Data Annotation, LLM, NLP, RLHF, and Machine-Learning.
+overview: 'Argilla publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, datasets API, fields API, and 12 more. Tagged areas include data annotation, LLM, NLP, RLHF, and machine learning.
 
 
   The Argilla catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Argilla''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  Argilla''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Argilla Plans Pricing
   plan_count: 2
@@ -294,15 +290,20 @@ rules:
   slug: argilla-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 39.9
-  delta: 0.0
+  composite: 39.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 25.0
     contract_quality: 63.4
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 23.7
   previous_composite: 39.9
@@ -313,8 +314,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/screenshots/argilla-2026-06-20T172416.png
 security:
@@ -328,14 +329,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: argilla
 tags:
-- Data Annotation
+- data annotation
 - LLM
 - NLP
 - RLHF
-- Machine-Learning
+- machine learning
 - Datasets
-- Open-Source
-- Human Feedback
+- open source
+- human feedback
 - Fine-Tuning
 - Hugging Face
 website: https://argilla.io/

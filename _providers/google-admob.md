@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -45,13 +45,40 @@ agentic_access:
   summary_line: 25 operations · 13 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: 'The stable, entirely read-only channel of the AdMob API. Six operations: get and list publisher accounts, list apps, list ad units, and generate network and mediation reports. Converted from Google''s '
-  name: Google AdMob API v1
-  slug: google-admob-api-v1
-- description: The beta channel of the AdMob API and the only one with a write surface. Nineteen operations adding ad source and adapter discovery, ad unit mappings (single and batch create), app and ad unit creatio
-  name: Google AdMob API v1beta
-  slug: google-admob-api-v1beta
-artifact_total: 21
+- description: The accounts API from Google AdMob — 4 operation(s) for accounts.
+  name: Google AdMob Accounts API
+  slug: google-admob-accounts-api
+- description: The adapters API from Google AdMob — 1 operation(s) for adapters.
+  name: Google AdMob Adapters API
+  slug: google-admob-adapters-api
+- description: The adSources API from Google AdMob — 1 operation(s) for adsources.
+  name: Google AdMob Ad Sources API
+  slug: google-admob-adsources-api
+- description: The adUnitMappings API from Google AdMob — 2 operation(s) for adunitmappings.
+  name: Google AdMob Ad Unit Mappings API
+  slug: google-admob-adunitmappings-api
+- description: The adUnits API from Google AdMob — 2 operation(s) for adunits.
+  name: Google AdMob Ad Units API
+  slug: google-admob-adunits-api
+- description: The apps API from Google AdMob — 2 operation(s) for apps.
+  name: Google AdMob Apps API
+  slug: google-admob-apps-api
+- description: The campaignReport API from Google AdMob — 1 operation(s) for campaignreport.
+  name: Google AdMob Campaign Report API
+  slug: google-admob-campaignreport-api
+- description: The mediationAbExperiments API from Google AdMob — 2 operation(s) for mediationabexperiments.
+  name: Google AdMob Mediation Ab Experiments API
+  slug: google-admob-mediationabexperiments-api
+- description: The mediationGroups API from Google AdMob — 2 operation(s) for mediationgroups.
+  name: Google AdMob Mediation Groups API
+  slug: google-admob-mediationgroups-api
+- description: The mediationReport API from Google AdMob — 2 operation(s) for mediationreport.
+  name: Google AdMob Mediation Report API
+  slug: google-admob-mediationreport-api
+- description: The networkReport API from Google AdMob — 2 operation(s) for networkreport.
+  name: Google AdMob Network Report API
+  slug: google-admob-networkreport-api
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -81,6 +108,14 @@ collections:
   name: Google AdMob API
   slug: open-openapi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-admob-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-admob-api-v1beta-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -266,13 +301,13 @@ modified: '2026-08-13'
 name: Google AdMob
 nav: Providers
 network: true
-overview: 'Google AdMob publishes 2 APIs on the [APIs.io](https://apis.io/) network: API v1 and API v1beta. Tagged areas include Ad Mediation, AdMob, Advertising, App Monetization, and Mobile Advertising.
+overview: 'Google AdMob publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Adapters API, Ad Sources API, and 8 more. Tagged areas include Ad Mediation, AdMob, Advertising, App Monetization, and Mobile Advertising.
 
 
   The Google AdMob catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google AdMob''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 36 more developer resources.'
+  Google AdMob''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 38 more developer resources.'
 plans:
 - name: Google Admob Plans Pricing
   plan_count: 0
@@ -300,18 +335,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.8
-  delta: 0.0
+  composite: 60.8
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 53.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 26.5
-    contract_quality: 63.3
+    contract_governance: 14.4
+    contract_quality: 61.5
     developer_ergonomics: 66.1
-    discoverability: 79.6
-    governance: 26.5
+    discoverability: 68.5
+    governance: 14.4
     operational_transparency: 76.3
-  previous_composite: 63.8
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -322,8 +362,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-admob/refs/heads/main/screenshots/google-admob-2026-06-20T182006.png
 security:

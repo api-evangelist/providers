@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Artillery Cloud provides a hosted platform for running distributed load tests at scale, storing test results, team collaboration, and integrating with CI/CD pipelines. The Artillery Cloud API enables '
@@ -153,9 +153,14 @@ rate_limits:
   name: Artillery Rate Limits
   slug: artillery-rate-limits
 score:
-  band: emerging
-  composite: 23.6
-  delta: 2.4
+  band: thin
+  composite: 31.2
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 7.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -165,10 +170,13 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 21.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 23.6
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/artillery/refs/heads/main/screenshots/artillery-2026-06-20T172444.png
 security:
 - kind: domain-security

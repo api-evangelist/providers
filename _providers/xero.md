@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 214
   human_in_the_loop: 0
@@ -175,6 +175,10 @@ collections:
   name: Xero Projects API
   slug: open-xero-projects
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/xero-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -2493,7 +2497,7 @@ overview: 'Xero publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
   The Xero catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Xero''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, FAQ, and 14 more developer resources.'
+  Xero''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, FAQ, and 15 more developer resources.'
 plans:
 - name: Xero Plans Pricing
   plan_count: 1
@@ -2533,6 +2537,11 @@ scopes:
 score:
   band: strong
   composite: 54.8
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 47.4
@@ -2557,8 +2566,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 46.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/screenshots/xero-2026-06-20T201700.png
 security:

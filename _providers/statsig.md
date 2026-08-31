@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 5
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 66
   slug: statsig-agentic-access
   summary_line: 66 operations · 43 acting · 5 human-in-the-loop
-api_count: 18
+api_count: 4
 apis:
 - description: The Statsig Events API handles the ingestion of event data from both client and server SDKs. It receives exposure events, custom events, and diagnostic data at the events.statsigapi.net endpoint. This
   name: Statsig Events API
@@ -95,10 +95,7 @@ apis:
 - description: Manage user data and lookup user properties within the Statsig project.
   name: statsig Users API
   slug: statsig-users-api
-- description: Endpoint for receiving event data from third-party applications via webhook integration.
-  name: statsig Webhooks API
-  slug: statsig-webhooks-api
-artifact_total: 64
+artifact_total: 63
 asyncapis:
 - description: 'Statsig''s webhook system provides real-time event-driven notifications for exposure events and configuration changes. Webhooks are triggered at runtime as users are assigned to gates and experiments, '
   name: Statsig Webhook Events
@@ -290,7 +287,7 @@ modified: '2026-05-19'
 name: statsig
 nav: Providers
 network: true
-overview: 'statsig publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Events API, Audit Logs API, Autotunes API, and 15 more.
+overview: 'statsig publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Events API, Audit Logs API, Autotunes API, and 14 more.
 
 
   The statsig catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -341,18 +338,23 @@ rules:
   slug: statsig-rules
 score:
   band: thin
-  composite: 37.9
-  delta: 1.9
+  composite: 38.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 28.8
-    contract_quality: 73.4
+    contract_quality: 73.5
     developer_ergonomics: 21.4
     discoverability: 57.4
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 36.0
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     contracts:
@@ -364,8 +366,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/screenshots/statsig-2026-06-20T194528.png
 security:

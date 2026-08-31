@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 29
   slug: pocket-network-agentic-access
   summary_line: 29 operations · 3 acting
-api_count: 16
+api_count: 3
 apis:
 - description: Pocket application module — applications stake POKT to consume relays
   name: Pocket Network Application API
@@ -189,6 +189,14 @@ collections:
   name: Pocket Network CometBFT RPC Application Validators API
   slug: open-pocket-network-validators-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/buildwithgrove/path/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/buildwithgrove/path/releases
 - group: commercial
   title: ''
   type: License
@@ -461,7 +469,7 @@ overview: 'Pocket Network publishes 16 APIs on the [APIs.io](https://apis.io/) n
   The Pocket Network catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Pocket Network''s developer surface includes authentication, developer portal, documentation, tooling, changelog, engineering blog, getting-started guide, and 46 more developer resources.'
+  Pocket Network''s developer surface includes authentication, developer portal, documentation, tooling, changelog, engineering blog, getting-started guide, and 48 more developer resources.'
 plans:
 - name: Pocket Network Plans Pricing
   plan_count: 4
@@ -496,18 +504,26 @@ rules:
   slug: pocket-network-rules
 score:
   band: strong
-  composite: 61.5
-  delta: -0.9
+  composite: 58.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 28.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 28.8
-    contract_quality: 56.7
+    contract_quality: 57.3
     developer_ergonomics: 71.4
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 68.4
-  previous_composite: 62.4
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     contracts:
@@ -515,8 +531,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/screenshots/pocket-network-2026-06-20T191825.png
 security:
@@ -536,7 +552,7 @@ tags:
 - Decentralized Infrastructure
 - Pocket Network
 - Grove
-- Path
+- PATH
 - Shannon
 - Cosmos
 - POKT

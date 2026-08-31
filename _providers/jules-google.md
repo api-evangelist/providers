@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Alpha REST API for Google's Jules autonomous coding agent. Exposes Sources (connected GitHub repositories), Sessions (units of work against a source with a prompt and optional plan-approval workflow),
@@ -113,27 +113,32 @@ modified: '2026-05-24'
 name: Jules
 nav: Providers
 network: true
-overview: 'Jules publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Coding Agents, Autonomous Agent, Asynchronous Agent, and Developer Tools.
+overview: 'Jules publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Coding Agent, Autonomous Agent, Asynchronous Agent, and Developer Tools.
 
 
   Jules'' developer surface includes documentation, API reference, CLI, pricing, engineering blog, and 11 more developer resources.'
 random_paper: 11
 score:
   band: emerging
-  composite: 20.8
-  delta: 2.4
+  composite: 19.7
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.1
   facets:
-    access_clarity: 31.6
-    commercial_clarity: 31.6
+    access_clarity: 26.3
+    commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 38.1
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 20.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jules-google/refs/heads/main/screenshots/jules-google-2026-06-20T183823.png
 security:
@@ -144,7 +149,7 @@ security:
 slug: jules-google
 tags:
 - Artificial Intelligence
-- Coding Agents
+- Coding Agent
 - Autonomous Agent
 - Asynchronous Agent
 - Developer Tools

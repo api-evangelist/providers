@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 19
   slug: gateway-bank-agentic-access
   summary_line: 19 operations · 3 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Banking Account Balance endpoints
   name: Gateway Bank Banking Account Balances API
@@ -91,6 +91,10 @@ collections:
   name: CDR Banking Banking Account Balances Banking Products API
   slug: open-gateway-bank-banking-products-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gateway-bank-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -187,7 +191,7 @@ network: true
 overview: 'Gateway Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Banking.
 
 
-  Gateway Bank''s developer surface includes authentication, documentation, and 18 more developer resources.'
+  Gateway Bank''s developer surface includes authentication, documentation, and 19 more developer resources.'
 random_paper: 14
 scopes:
 - name: Gateway Bank Scopes
@@ -195,19 +199,24 @@ scopes:
   slug: gateway-bank-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: developing
-  composite: 42.3
-  delta: 1.5
+  band: thin
+  composite: 39.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 49.7
     developer_ergonomics: 30.4
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 40.8
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -220,12 +229,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: AU
+      standard: cdr-consumer-data-standards
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 72.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gateway-bank/refs/heads/main/screenshots/gateway-bank-2026-07-21T114722.png
 security:

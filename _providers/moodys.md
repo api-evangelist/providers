@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: moodys-agentic-access
   summary_line: 17 operations · 6 acting
-api_count: 14
+api_count: 5
 apis:
 - description: Moody's Analytics Data Buffet application program interface enables you to retrieve economic, demographic and financial time series directly from the Data Buffet repository, including international an
   name: Moody's Data Buffet API
@@ -77,16 +77,52 @@ apis:
 - description: Bring together real-time news sources, and the best of the business web and social media to empower decision makers. The NewsEdge API provides access to Moody's 24,000+ news sources for integration in
   name: Moody's NewsEdge API
   slug: newsedge-api
-- description: Moody's Analytics AutoCycle API from Moody's — 3 path(s) described in OpenAPI.
-  name: Moody's Analytics AutoCycle API
-  slug: moodys-autocycle-api-swagger
-- description: Moody's Analytics Muni Loss Forecast API from Moody's — 2 path(s) described in OpenAPI.
-  name: Moody's Analytics Muni Loss Forecast API
-  slug: moodys-municipal-api-swagger
-- description: Moody's Scenario Studio Api from Moody's — 57 path(s) described in OpenAPI.
-  name: Moody's Scenario Studio Api
-  slug: moodys-scenario-studio-api-swagger
-artifact_total: 102
+- description: The Audit API from Moody's — 2 operation(s) for audit.
+  name: Moody's Audit API
+  slug: moodys-audit-api
+- description: The DataSeries API from Moody's — 3 operation(s) for dataseries.
+  name: Moody's Data Series API
+  slug: moodys-dataseries-api
+- description: The Forecast API from Moody's — 2 operation(s) for forecast.
+  name: Moody's Forecast API
+  slug: moodys-forecast-api
+- description: The HealthCheck API from Moody's — 1 operation(s) for healthcheck.
+  name: Moody's Health Check API
+  slug: moodys-healthcheck-api
+- description: The Interpolation API from Moody's — 1 operation(s) for interpolation.
+  name: Moody's Interpolation API
+  slug: moodys-interpolation-api
+- description: The Order API from Moody's — 2 operation(s) for order.
+  name: Moody's Order API
+  slug: moodys-order-api
+- description: The Project API from Moody's — 17 operation(s) for project.
+  name: Moody's Project API
+  slug: moodys-project-api
+- description: The Scenario API from Moody's — 7 operation(s) for scenario.
+  name: Moody's Scenario API
+  slug: moodys-scenario-api
+- description: The SeriesSearch API from Moody's — 2 operation(s) for seriessearch.
+  name: Moody's Series Search API
+  slug: moodys-seriessearch-api
+- description: The Universe API from Moody's — 8 operation(s) for universe.
+  name: Moody's Universe API
+  slug: moodys-universe-api
+- description: The Vin API from Moody's — 1 operation(s) for vin.
+  name: Moody's Vin API
+  slug: moodys-vin-api
+- description: The FileTypes API from Moody's — 1 operation(s) for filetypes.
+  name: Moody's File Types API
+  slug: moodys-filetypes-api
+- description: The Frequency API from Moody's — 1 operation(s) for frequency.
+  name: Moody's Frequency API
+  slug: moodys-frequency-api
+- description: The MultiSeries API from Moody's — 1 operation(s) for multiseries.
+  name: Moody's Multi Series API
+  slug: moodys-multiseries-api
+- description: The Vintage API from Moody's — 1 operation(s) for vintage.
+  name: Moody's Vintage API
+  slug: moodys-vintage-api
+artifact_total: 114
 collections:
 - collection_type: postman
   name: Moody's Data Buffet Baskets API
@@ -480,7 +516,7 @@ modified: '2026-07-25'
 name: Moody's
 nav: Providers
 network: true
-overview: 'Moody''s publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Data Buffet API, Analytics AutoCycle API, Analytics Muni Loss Forecast API, and 1 more. Tagged areas include Climate Risk, Compliance, Credit Risk, Economic Data, and Entity Verification.
+overview: 'Moody''s publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Data Buffet API, Audit API, Data Series API, and 13 more. Tagged areas include Climate Risk, Compliance, Credit Risk, Economic Data, and Entity Verification.
 
 
   The Moody''s catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -541,16 +577,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 59.2
-  delta: 1.4
+  composite: 56.9
+  coverage:
+    artifact_dirs: 33
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 30.3
-    contract_quality: 52.3
+    contract_governance: 18.2
+    contract_quality: 53.5
     developer_ergonomics: 80.4
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 74.1
+    governance: 18.2
     operational_transparency: 34.2
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -558,7 +599,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 57.8
+  previous_composite: 56.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -575,8 +616,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png
 security:

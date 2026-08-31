@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 26
   slug: budibase-agentic-access
   summary_line: 26 operations · 17 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Manage Budibase applications.
   name: Budibase Applications API
@@ -244,17 +244,25 @@ rate_limits:
   slug: budibase-rate-limits
 score:
   band: developing
-  composite: 41.7
-  delta: 0.0
+  composite: 47.1
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 5.4
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 0.0
     contract_quality: 53.7
     developer_ergonomics: 17.9
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 100.0
   previous_composite: 41.7
   provenance:
     agentic_access: derived
@@ -263,9 +271,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/screenshots/budibase-2026-06-20T173737.png
 security:
 - kind: authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 33
   slug: meilisearch-agentic-access
   summary_line: 33 operations · 19 acting · 1 human-in-the-loop
-api_count: 8
+api_count: 1
 apis:
 - description: The Meilisearch RESTful API provides endpoints for creating and managing indexes, adding and searching documents, configuring search settings, managing API keys, and monitoring tasks and health status
   name: Meilisearch API
@@ -215,18 +215,23 @@ rate_limits:
   slug: meilisearch-rate-limits
 score:
   band: developing
-  composite: 44.3
-  delta: 5.3
+  composite: 43.7
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 0.0
     contract_quality: 55.3
     developer_ergonomics: 61.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 39.0
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     contracts:
@@ -234,9 +239,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meilisearch/refs/heads/main/screenshots/meilisearch-2026-06-20T185134.png
 security:
 - kind: authentication

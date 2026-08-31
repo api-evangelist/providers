@@ -23,21 +23,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The normative REST binding of the GS1 EPCIS 2.0 standard — the sector's supply chain visibility event interface, describing what happened to an object, when, where and why, using Core Business Vocabul
-  name: GS1 EPCIS 2.0 REST API
-  slug: gs1-epcis-2-0-rest-api
 - description: 'GS1 AISBL''s own live, unauthenticated GS1-Conformant Resolver, implementing the GS1-Conformant Resolver Standard 1.2.0. It takes a GS1 Digital Link URI built from a GS1 identification key and returns '
   name: GS1 Digital Link Resolver (id.gs1.org)
   slug: gs1-digital-link-resolver
-artifact_total: 8
+- description: Endpoints to capture EPCIS events in bulk or individually.
+  name: GS1 Capture API
+  slug: gs1-capture-api
+- description: Endpoints to obtain information about the endpoint, such as EPCIS and CBV versions or custom vocabularies.
+  name: GS1 Discovery API
+  slug: gs1-discovery-api
+- description: Endpoints that allow you to retrieve EPCIS events as Web resources.
+  name: GS1 Events API
+  slug: gs1-events-api
+- description: 'Endpoints to create large named or anonymous queries using the EPCIS Query Language. Named queries have a custom name and are stored until deleted by the user. Anonymous queries are not persisted and '
+  name: GS1 Queries API
+  slug: gs1-queries-api
+- description: EPCIS 2.0 supports query subscriptions using Webhooks or Websockets.
+  name: GS1 Subscriptions API
+  slug: gs1-subscriptions-api
+- description: 'Endpoints to browse or retrieve information about EPCIS resources: - events - types of events - electronic product codes - business steps - business locations - read points - dispositions'
+  name: GS1 Top Level API
+  slug: gs1-top-level-api
+artifact_total: 13
 collections:
 - collection_type: open
   name: EPCIS 2.0 REST Bindings
   slug: open-gs1-epcis-2-0-1
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gs1-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -145,25 +164,30 @@ modified: '2026-07-30'
 name: GS1
 nav: Providers
 network: true
-overview: 'GS1 publishes 1 API on the [APIs.io](https://apis.io/) network: EPCIS 2.0 REST API. Tagged areas include Logistics, Supply Chain, Belgium, Standards, and Track and Trace.
+overview: 'GS1 publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Capture API, Discovery API, Events API, and 3 more. Tagged areas include Logistics, Supply Chain, Belgium, Standards, and Track and Trace.
 
 
   The GS1 catalog on APIs.io includes 1 JSON-LD context.
 
 
-  GS1''s developer surface includes documentation, tooling, and 18 more developer resources.'
+  GS1''s developer surface includes documentation, tooling, and 19 more developer resources.'
 random_paper: 15
 score:
   band: emerging
-  composite: 23.6
-  delta: 0.0
+  composite: 21.7
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.9
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 15.2
-    contract_quality: 54.3
+    contract_quality: 52.6
     developer_ergonomics: 9.5
-    discoverability: 59.3
+    discoverability: 68.5
     governance: 15.2
     operational_transparency: 2.6
   needs_work:
@@ -172,15 +196,18 @@ score:
     reasons:
     - owner: catalog
       reason: not_a_repo
-  previous_composite: 23.6
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 24.6
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gs1/refs/heads/main/screenshots/gs1-2026-08-07T165851.png
 slug: gs1

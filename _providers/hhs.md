@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-26'
-api_count: 21
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: OpenFDA provides RESTful APIs and raw download access to high-value FDA public datasets including drug adverse events, drug labels, drug recalls, medical device 510(k) clearances, device classificatio
   name: openFDA API
@@ -105,6 +105,10 @@ collections:
   name: API Collection
   slug: open-.refine-report
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hhs-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -193,7 +197,7 @@ overview: 'HHS (US Department of Health and Human Services) publishes 16 APIs on
   The HHS (US Department of Health and Human Services) catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  HHS (US Department of Health and Human Services)''s developer surface includes GitHub presence, status page, engineering blog, and 5 more developer resources.'
+  HHS (US Department of Health and Human Services)''s developer surface includes GitHub presence, status page, engineering blog, and 6 more developer resources.'
 plans:
 - name: Openfda
   plan_count: 2
@@ -222,18 +226,23 @@ rules:
   slug: hhs-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.9
-  delta: 6.2
+  composite: 43.3
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 41.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 59.1
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 37.7
+  previous_composite: 43.9
   provenance:
     contracts:
       callable: 0.0
@@ -246,9 +255,9 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hhs/refs/heads/main/screenshots/hhs-2026-06-20T182722.png
 security:
 - kind: domain-security

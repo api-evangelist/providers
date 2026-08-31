@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: ciena-agentic-access
   summary_line: 9 operations · 2 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Ciena's Manage, Control and Plan (MCP) is a multi-layer Software Defined Networking (SDN) and Network Management System (NMS) platform. The MCP REST and RESTCONF APIs enable network-aware management o
   name: Ciena MCP (Manage, Control and Plan) API
@@ -83,6 +83,10 @@ collections:
   name: Ciena Blue Planet Open Alarms Topology API
   slug: open-ciena-topology-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ciena-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -198,7 +202,7 @@ overview: 'Ciena publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
   The Ciena catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ciena''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 17 more developer resources.'
+  Ciena''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 18 more developer resources.'
 plans:
 - name: Ciena Plans Pricing
   plan_count: 2
@@ -242,18 +246,23 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: developing
-  composite: 42.8
-  delta: -0.8
+  composite: 43.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 58.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 9.8
     contract_quality: 58.8
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 75.9
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 43.6
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -267,8 +276,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 66.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/screenshots/ciena-2026-08-17T123118.png
 security:

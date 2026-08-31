@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: shell-agentic-access
   summary_line: 28 operations · 9 acting
-api_count: 12
+api_count: 3
 apis:
 - description: The Shell Aviation Fuel Reseller API enables aviation fuel resellers and operators to manage fuel procurement, pricing queries, order placement, and delivery logistics for Shell Aviation fuel products
   name: Shell Aviation Fuel Reseller API
@@ -161,6 +161,10 @@ collections:
   name: Shell B2B Mobility Accounts Transactions API
   slug: open-shell-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shell-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -369,7 +373,7 @@ overview: 'Shell publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
   The Shell catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Shell''s developer surface includes authentication, getting-started guide, support, engineering blog, and 16 more developer resources.'
+  Shell''s developer surface includes authentication, getting-started guide, support, engineering blog, and 17 more developer resources.'
 plans:
 - name: Shell Plans Pricing
   plan_count: 1
@@ -409,7 +413,12 @@ scopes:
 score:
   band: developing
   composite: 53.9
-  delta: 1.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 42.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -419,7 +428,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 52.0
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     contracts:
@@ -433,8 +442,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/screenshots/shell-2026-06-20T193753.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 15
   slug: cutiss-agentic-access
   summary_line: 15 operations
-api_count: 8
+api_count: 1
 apis:
 - description: The Newsroom API from CUTISS — the `newsroom2021` custom post type served as JSON by the WordPress REST API on cutiss.swiss. 28 newsroom items were readable anonymously at probe time.
   name: CUTISS Newsroom API
@@ -45,9 +45,6 @@ apis:
 - description: The Team API from CUTISS — the `team_member` custom post type carrying staff and leadership profiles and their `cutiss-teams` taxonomy assignment. 128 profiles were readable anonymously at probe time.
   name: CUTISS Team API
   slug: cutiss-team-api
-- description: The Teams Taxonomy API from CUTISS — the `cutiss-teams` taxonomy that groups team member profiles into organizational units. 18 terms were readable anonymously at probe time.
-  name: CUTISS Teams Taxonomy API
-  slug: cutiss-teams-api
 - description: The Media API from CUTISS — the media library of images, press assets and documents attached to pages, posts and newsroom items, with rendered source URLs and size variants. 842 items were readable an
   name: CUTISS Media API
   slug: cutiss-media-api
@@ -57,6 +54,9 @@ apis:
 - description: The Search API from CUTISS — full-text search across every publicly readable object on cutiss.swiss, returning id, title, url, type and subtype. 514 searchable objects at probe time.
   name: CUTISS Search API
   slug: cutiss-search-api
+- description: Read the `cutiss-teams` taxonomy — the organizational groupings team member profiles are filed under. 18 terms published at probe time.
+  name: CUTISS Teams Taxonomy API
+  slug: cutiss-teams-taxonomy-api
 artifact_total: 21
 collections:
 - collection_type: open
@@ -84,6 +84,10 @@ collections:
   name: CUTISS Teams Taxonomy API
   slug: open-cutiss-teams-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cutiss-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -208,7 +212,7 @@ network: true
 overview: 'CUTISS publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Newsroom API, Posts API, Pages API, and 5 more. Tagged areas include Company, Biotechnology, Regenerative Medicine, Tissue Engineering, and Life Sciences.
 
 
-  CUTISS''s developer surface includes engineering blog, product news, support, authentication, and 24 more developer resources.'
+  CUTISS''s developer surface includes engineering blog, product news, support, authentication, and 25 more developer resources.'
 plans:
 - name: Cutiss Plans Pricing
   plan_count: 0
@@ -220,18 +224,23 @@ rate_limits:
   slug: cutiss-rate-limits
 score:
   band: thin
-  composite: 33.6
-  delta: 0.8
+  composite: 31.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 55.8
     developer_ergonomics: 20.8
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 32.8
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,8 +257,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

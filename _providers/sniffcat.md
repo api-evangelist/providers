@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Documented, versioned REST API (/api/v1/*) for checking IPs, retrieving blacklist feeds and report history, and submitting abuse reports. Uses X-Secret-Token header authentication with role-based rate
@@ -155,7 +155,7 @@ modified: '2026-08-19'
 name: SniffCat
 nav: Providers
 network: true
-overview: 'SniffCat publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Threat Intelligence, IP Reputation, abuse-database, Cybersecurity, and OSINT.
+overview: 'SniffCat publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Threat Intelligence, ip-reputation, abuse-database, Cybersecurity, and OSINT.
 
 
   SniffCat''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 22 more developer resources.'
@@ -171,6 +171,11 @@ rate_limits:
 score:
   band: thin
   composite: 33.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 23.7
@@ -185,8 +190,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -204,16 +209,16 @@ security:
 slug: sniffcat
 tags:
 - Threat Intelligence
-- IP Reputation
+- ip-reputation
 - abuse-database
 - Cybersecurity
 - OSINT
-- Network Security
+- network-security
 - sysadmin-tools
 - Blocklist
 - abuse-reporting
 - ip-blocklist
-- IP Intelligence
-- Threat Feeds
+- ip-intelligence
+- threat-feeds
 website: https://sniffcat.com/documentation
 ---

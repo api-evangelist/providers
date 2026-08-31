@@ -23,16 +23,91 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: REST API for the D-Tools Cloud platform. Read, create and update Clients, Products, Opportunities, Quotes, Projects, Change Orders, Purchase Orders, Service Contracts, Files and Time Entries. Requests
-  name: D-Tools Cloud API
-  slug: d-tools-cloud-api
-- description: 'Cloud middleware API that bridges the on-premises or hosted D-Tools System Integrator application to third-party systems. It is a queue, not a live database: publishers POST projects, change orders, t'
-  name: D-Tools System Integrator (SI) API
-  slug: d-tools-system-integrator-si-api
-artifact_total: 9
+- description: The ChangeOrders API from D-Tools — 2 operation(s) for changeorders.
+  name: D-Tools Change Orders API
+  slug: d-tools-changeorders-api
+- description: The Clients API from D-Tools — 4 operation(s) for clients.
+  name: D-Tools Clients API
+  slug: d-tools-clients-api
+- description: The Files API from D-Tools — 1 operation(s) for files.
+  name: D-Tools Files API
+  slug: d-tools-files-api
+- description: The Message API from D-Tools — 2 operation(s) for message.
+  name: D-Tools Message API
+  slug: d-tools-message-api
+- description: The Opportunities API from D-Tools — 4 operation(s) for opportunities.
+  name: D-Tools Opportunities API
+  slug: d-tools-opportunities-api
+- description: The Products API from D-Tools — 5 operation(s) for products.
+  name: D-Tools Products API
+  slug: d-tools-products-api
+- description: The Projects API from D-Tools — 3 operation(s) for projects.
+  name: D-Tools Projects API
+  slug: d-tools-projects-api
+- description: Allows an integration to update a client list to a SI user.
+  name: D-Tools Publish Clients API
+  slug: d-tools-publishclients-api
+- description: Allows an integration to publish a product catalog to a SI user.
+  name: D-Tools Publish Product Catalogs API
+  slug: d-tools-publishproductcatalogs-api
+- description: Allows an integration to publish or update a project to a SI user.
+  name: D-Tools Publish Projects API
+  slug: d-tools-publishprojects-api
+- description: Allows an integration to publish a service order to a SI user.
+  name: D-Tools Publish Service Orders API
+  slug: d-tools-publishserviceorders-api
+- description: Allows an integration to publish a task to a SI user.
+  name: D-Tools Publish Tasks API
+  slug: d-tools-publishtasks-api
+- description: Allows an integration to publish a time sheet to a SI user.
+  name: D-Tools Publish Time Sheets API
+  slug: d-tools-publishtimesheets-api
+- description: Allows an integration to update a vendor list to a SI user. d
+  name: D-Tools Publish Vendors API
+  slug: d-tools-publishvendors-api
+- description: The PurchaseOrders API from D-Tools — 2 operation(s) for purchaseorders.
+  name: D-Tools Purchase Orders API
+  slug: d-tools-purchaseorders-api
+- description: The Quotes API from D-Tools — 2 operation(s) for quotes.
+  name: D-Tools Quotes API
+  slug: d-tools-quotes-api
+- description: The ServiceContracts API from D-Tools — 2 operation(s) for servicecontracts.
+  name: D-Tools Service Contracts API
+  slug: d-tools-servicecontracts-api
+- description: Allows an integration to subscribe to clients published by SI users.
+  name: D-Tools Subscribe Clients API
+  slug: d-tools-subscribeclients-api
+- description: Allows an integration to subscribe to partial projects published by SI users.
+  name: D-Tools Subscribe Partial Projects API
+  slug: d-tools-subscribepartialprojects-api
+- description: Allows an integration to subscribe to product catalogs published by SI users.
+  name: D-Tools Subscribe Product Catalogs API
+  slug: d-tools-subscribeproductcatalogs-api
+- description: Allows an integration to subscribe to projects and change orders published by SI users.
+  name: D-Tools Subscribe Projects API
+  slug: d-tools-subscribeprojects-api
+- description: Allows an integration to subscribe to Purchase orders published by SI users.
+  name: D-Tools Subscribe Purchase Order API
+  slug: d-tools-subscribepurchaseorder-api
+- description: Allows an integration to subscribe to Service orders published by SI users.
+  name: D-Tools Subscribe Service Order API
+  slug: d-tools-subscribeserviceorder-api
+- description: Allows an integration to subscribe to Service plan published by SI users.
+  name: D-Tools Subscribe Service Plan API
+  slug: d-tools-subscribeserviceplan-api
+- description: Allows an integration to subscribe to Tasks published by SI users.
+  name: D-Tools Subscribe Task API
+  slug: d-tools-subscribetask-api
+- description: Allows an integration to subscribe to Time sheets published by SI users.
+  name: D-Tools Subscribe Time Sheet API
+  slug: d-tools-subscribetimesheet-api
+- description: The TimeEntries API from D-Tools — 1 operation(s) for timeentries.
+  name: D-Tools Time Entries API
+  slug: d-tools-timeentries-api
+artifact_total: 34
 asyncapis:
 - description: ''
   name: D Tools Cloud Webhooks
@@ -45,6 +120,14 @@ collections:
   name: D-Tools SI API Documentation
   slug: open-d-tools-si-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/d-tools-cloud-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/d-tools-si-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -166,13 +249,13 @@ modified: '2026-08-11'
 name: D-Tools
 nav: Providers
 network: true
-overview: 'D-Tools publishes 2 APIs on the [APIs.io](https://apis.io/) network: Cloud API and System Integrator (SI) API. Tagged areas include av-integration, Systems Integration, Project Management, Estimation, and Quoting.
+overview: 'D-Tools publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Change Orders API, Clients API, Files API, and 24 more. Tagged areas include av-integration, systems-integration, project-management, estimation, and Quoting.
 
 
   The D-Tools catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  D-Tools'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+  D-Tools'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
 plans:
 - name: D Tools Plans Pricing
   plan_count: 6
@@ -183,19 +266,24 @@ rate_limits:
   name: D Tools Rate Limits
   slug: d-tools-rate-limits
 score:
-  band: strong
-  composite: 54.6
+  band: developing
+  composite: 51.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 65.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
-    contract_quality: 53.1
+    contract_governance: 4.5
+    contract_quality: 52.5
     developer_ergonomics: 45.8
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 63.0
+    governance: 4.5
     operational_transparency: 56.6
-  previous_composite: 54.6
+  previous_composite: 51.7
   provenance:
     conformance: derived
     contracts:
@@ -205,8 +293,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-tools/refs/heads/main/screenshots/d-tools-2026-08-17T080847.png
 security:
@@ -221,15 +309,15 @@ security:
 slug: d-tools
 tags:
 - av-integration
-- Systems Integration
-- Project Management
-- Estimation
+- systems-integration
+- project-management
+- estimation
 - Quoting
-- Field Service Management
-- Construction Tech
+- field-service-management
+- construction-tech
 - low-voltage
-- Product Catalog
-- ERP Integration
-- Vertical SaaS
+- product-catalog
+- erp-integration
+- vertical-saas
 website: https://www.d-tools.com/
 ---

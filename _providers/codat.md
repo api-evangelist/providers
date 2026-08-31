@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 240
   slug: codat-agentic-access
   summary_line: 240 operations · 70 acting
-api_count: 37
+api_count: 3
 apis:
 - description: 'The Codat Sync for Expenses API enables corporate card and expense management platforms to provide high-quality integrations with multiple accounting platforms, synchronizing categorized expense data '
   name: Codat Sync for Expenses API
@@ -156,7 +156,16 @@ apis:
 - description: Create and manage webhooks that listen to Codat's events.
   name: Codat Webhooks API
   slug: codat-webhooks-api
-artifact_total: 384
+- description: The Bank Feeds API from Codat — 0 operation(s) for bank feeds.
+  name: Codat Bank Feeds API
+  slug: codat-bank-feeds-api
+- description: The Lending API from Codat — 0 operation(s) for lending.
+  name: Codat Lending API
+  slug: codat-lending-api
+- description: The Platform API API from Codat — 0 operation(s) for platform api.
+  name: Codat Platform API
+  slug: codat-platform-api-api
+artifact_total: 387
 collections:
 - collection_type: open
   name: API Collection
@@ -267,6 +276,10 @@ collections:
   name: Bank Feeds Account mapping Webhooks API
   slug: open-codat-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/codat-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1283,13 +1296,13 @@ modified: '2026-05-19'
 name: Codat
 nav: Providers
 network: true
-overview: 'Codat publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Account mapping API, Accounting bank data API, Accounts payable API, and 29 more. Tagged areas include Unified-API.
+overview: 'Codat publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Account mapping API, Accounting bank data API, Accounts payable API, and 32 more. Tagged areas include Unified_API.
 
 
   The Codat catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Codat''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, signup flow, and 15 more developer resources.'
+  Codat''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, signup flow, and 16 more developer resources.'
 plans:
 - name: Codat Plans Pricing
   plan_count: 1
@@ -1312,18 +1325,23 @@ rules:
   slug: codat-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.1
-  delta: 1.5
+  composite: 46.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 81.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.9
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 9.8
-    contract_quality: 66.2
+    contract_quality: 64.7
     developer_ergonomics: 69.0
     discoverability: 48.1
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 45.6
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     contracts:
@@ -1331,8 +1349,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codat/refs/heads/main/screenshots/codat-2026-06-20T174652.png
 security:
@@ -1346,6 +1364,6 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: codat
 tags:
-- Unified-API
+- Unified_API
 website: https://app.codat.io/
 ---

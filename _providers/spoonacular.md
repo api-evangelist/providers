@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 99
   slug: spoonacular-agentic-access
   summary_line: 99 operations · 24 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Ingredients API from Spoonacular — 9 operation(s) for ingredients.
   name: Spoonacular Ingredients API
@@ -116,6 +116,10 @@ collections:
   name: spoonacular API
   slug: open-spoonacular
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/ddsky/spoonacular-api-clients/issues
 - group: commercial
   title: ''
   type: License
@@ -338,7 +342,7 @@ overview: 'Spoonacular publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
   The Spoonacular catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spoonacular''s developer surface includes authentication, engineering blog, developer console, signup flow, pricing, code examples, tooling, and 18 more developer resources.'
+  Spoonacular''s developer surface includes authentication, engineering blog, developer console, signup flow, pricing, code examples, tooling, and 19 more developer resources.'
 plans:
 - name: Spoonacular Plans Pricing
   plan_count: 5
@@ -372,18 +376,26 @@ rules:
   slug: spoonacular-spectral-rules
 score:
   band: strong
-  composite: 63.8
-  delta: 7.7
+  composite: 56.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 20.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 28.8
     contract_quality: 75.5
     developer_ergonomics: 81.0
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 56.1
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     contracts:
@@ -391,9 +403,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/screenshots/spoonacular-2026-06-20T194333.png
 security:
 - kind: authentication

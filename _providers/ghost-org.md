@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 56
   slug: ghost-org-agentic-access
   summary_line: 56 operations · 26 acting
-api_count: 19
+api_count: 3
 apis:
 - description: Image uploads.
   name: Ghost Admin - Images API
@@ -101,7 +101,49 @@ apis:
 - description: Read-only public subscription tiers.
   name: Ghost Content - Tiers API
   slug: ghost-org-content-tiers-api
-artifact_total: 95
+- description: Authors represent the staff users who create content in a Ghost publication.
+  name: Ghost Authors API
+  slug: ghost-org-authors-api
+- description: Upload images to the Ghost publication for use in posts, pages, and settings.
+  name: Ghost Images API
+  slug: ghost-org-images-api
+- description: Manage publication members including creating, reading, updating, and deleting member records. Members are people who have signed up for the publication.
+  name: Ghost Members API
+  slug: ghost-org-members-api
+- description: Manage email newsletters that members can subscribe to. Each newsletter has its own design, sender details, and subscription list.
+  name: Ghost Newsletters API
+  slug: ghost-org-newsletters-api
+- description: Manage promotional offers for paid membership tiers, including discounts and trial periods.
+  name: Ghost Offers API
+  slug: ghost-org-offers-api
+- description: Create, read, update, and delete pages. Pages share the same structure as posts but are used for static content.
+  name: Ghost Pages API
+  slug: ghost-org-pages-api
+- description: Create, read, update, and delete posts. Posts are the primary content resource in Ghost and support rich content via the Lexical editor format.
+  name: Ghost Posts API
+  slug: ghost-org-posts-api
+- description: Settings provide access to global publication settings including title, description, navigation, and other configuration values.
+  name: Ghost Settings API
+  slug: ghost-org-settings-api
+- description: Read basic information about the Ghost site.
+  name: Ghost Site API
+  slug: ghost-org-site-api
+- description: The Tags API from Ghost — 3 operation(s) for tags.
+  name: Ghost Tags API
+  slug: ghost-org-tags-api
+- description: Upload, activate, and manage themes that control the front-end appearance of the Ghost publication.
+  name: Ghost Themes API
+  slug: ghost-org-themes-api
+- description: Manage membership tiers including creating, reading, and updating tier configurations with pricing and benefits.
+  name: Ghost Tiers API
+  slug: ghost-org-tiers-api
+- description: Read staff user accounts for the Ghost publication.
+  name: Ghost Users API
+  slug: ghost-org-users-api
+- description: Create, update, and delete webhooks that send HTTP POST notifications when events occur within the publication.
+  name: Ghost Webhooks API
+  slug: ghost-org-webhooks-api
+artifact_total: 109
 asyncapis:
 - description: 'Ghost Webhooks allow developers to receive real-time HTTP notifications when specific events occur within a Ghost publication, such as publishing a new post, updating a page, or gaining a new member. '
   name: Ghost Webhooks
@@ -219,6 +261,10 @@ collections:
   name: Ghost Content and Admin APIs
   slug: open-ghost-org
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ghost-org-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -544,13 +590,13 @@ modified: '2026-08-13'
 name: Ghost
 nav: Providers
 network: true
-overview: 'Ghost publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Admin - Images API, Admin - Labels API, Admin - Members API, and 16 more. Tagged areas include Publishing, Newsletters, Memberships, Subscription, and CMS.
+overview: 'Ghost publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Admin - Images API, Admin - Labels API, Admin - Members API, and 30 more. Tagged areas include Publishing, Newsletters, Memberships, Subscription, and CMS.
 
 
   The Ghost catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Ghost''s developer surface includes authentication, documentation, engineering blog, changelog, developer portal, pricing, CLI, and 48 more developer resources.'
+  Ghost''s developer surface includes authentication, documentation, engineering blog, changelog, developer portal, pricing, CLI, and 49 more developer resources.'
 plans:
 - name: Ghost Org Plans Pricing
   plan_count: 5
@@ -584,18 +630,26 @@ rules:
   slug: ghost-org-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 75.4
-  delta: 1.0
+  composite: 75.1
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 2.7
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 43.9
-    contract_quality: 65.6
+    contract_governance: 31.8
+    contract_quality: 69.0
     developer_ergonomics: 90.5
-    discoverability: 81.5
-    governance: 43.9
+    discoverability: 57.4
+    governance: 31.8
     operational_transparency: 81.6
-  previous_composite: 74.4
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 72.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -606,8 +660,8 @@ score:
       total: 33
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ghost-org/refs/heads/main/screenshots/ghost-org-2026-07-25T215752.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 20
   slug: builtwith-agentic-access
   summary_line: 20 operations · 1 acting
-api_count: 31
+api_count: 10
 apis:
 - description: Current and historical website technology information for single or multiple domains with support for JSON, XML, and CSV formats.
   name: BuiltWith Domain API
@@ -104,15 +104,6 @@ apis:
 - description: Model Context Protocol server integration enabling AI assistants to query BuiltWith technology detection data natively.
   name: BuiltWith MCP API
   slug: builtwith-mcp-api
-- description: Autonomous credit management API enabling AI agents to manage and replenish API credits programmatically. Charges an existing account's saved Stripe payment method against a separately scoped Agent Bi
-  name: BuiltWith Agent Payment API
-  slug: builtwith-agent-payment-api
-- description: The provider-published OpenAPI 3.0.3 document covering the whole BuiltWith REST surface - WhoAmI, Usage, Domain, Change, Lists, Relationships, Free, Company to URL, Tags, Recommendations, Redirects, K
-  name: BuiltWith REST API
-  slug: builtwith-rest-api
-- description: 'Accountless pay-per-call access to BuiltWith intelligence over the x402 v2 payment protocol on Base mainnet. Twelve fixed-price /agent/* routes answer 402 with a PAYMENT-REQUIRED challenge, settle in '
-  name: BuiltWith x402 Pay-per-Call API
-  slug: builtwith-x402-pay-per-call-api
 - description: Asynchronous batch domain processing
   name: BuiltWith Bulk Processing API
   slug: builtwith-bulk-processing-api
@@ -137,7 +128,94 @@ apis:
 - description: Technology adoption trends and market share data
   name: BuiltWith Technology Trends API
   slug: builtwith-technology-trends-api
-artifact_total: 59
+- description: The AgentAuth API from BuiltWith — 2 operation(s) for agentauth.
+  name: BuiltWith Agent Auth API
+  slug: builtwith-agentauth-api
+- description: The AgentPayments API from BuiltWith — 3 operation(s) for agentpayments.
+  name: BuiltWith Agent Payments API
+  slug: builtwith-agentpayments-api
+- description: The Ask API from BuiltWith — 1 operation(s) for ask.
+  name: BuiltWith Ask API
+  slug: builtwith-ask-api
+- description: The Change API from BuiltWith — 1 operation(s) for change.
+  name: BuiltWith Change API
+  slug: builtwith-change-api
+- description: The Company Research API from BuiltWith — 4 operation(s) for company research.
+  name: BuiltWith Company Research API
+  slug: builtwith-company-research-api
+- description: The CompanyToUrl API from BuiltWith — 1 operation(s) for companytourl.
+  name: BuiltWith Company To URL API
+  slug: builtwith-companytourl-api
+- description: The Domain API from BuiltWith — 4 operation(s) for domain.
+  name: BuiltWith Domain API
+  slug: builtwith-domain-api
+- description: The Domain Intelligence API from BuiltWith — 2 operation(s) for domain intelligence.
+  name: BuiltWith Domain Intelligence API
+  slug: builtwith-domain-intelligence-api
+- description: The Financial API from BuiltWith — 1 operation(s) for financial.
+  name: BuiltWith Financial API
+  slug: builtwith-financial-api
+- description: The Free API from BuiltWith — 1 operation(s) for free.
+  name: BuiltWith Free API
+  slug: builtwith-free-api
+- description: The Keywords API from BuiltWith — 1 operation(s) for keywords.
+  name: BuiltWith Keywords API
+  slug: builtwith-keywords-api
+- description: The KeywordSearch API from BuiltWith — 1 operation(s) for keywordsearch.
+  name: BuiltWith Keyword Search API
+  slug: builtwith-keywordsearch-api
+- description: The List Passes API from BuiltWith — 2 operation(s) for list passes.
+  name: BuiltWith List Passes API
+  slug: builtwith-list-passes-api
+- description: The Lists API from BuiltWith — 1 operation(s) for lists.
+  name: BuiltWith Lists API
+  slug: builtwith-lists-api
+- description: The Meta API from BuiltWith — 2 operation(s) for meta.
+  name: BuiltWith Meta API
+  slug: builtwith-meta-api
+- description: The Mppx API from BuiltWith — 3 operation(s) for mppx.
+  name: BuiltWith Mppx API
+  slug: builtwith-mppx-api
+- description: The Product API from BuiltWith — 1 operation(s) for product.
+  name: BuiltWith Product API
+  slug: builtwith-product-api
+- description: The Recommendations API from BuiltWith — 1 operation(s) for recommendations.
+  name: BuiltWith Recommendations API
+  slug: builtwith-recommendations-api
+- description: The Redirects API from BuiltWith — 1 operation(s) for redirects.
+  name: BuiltWith Redirects API
+  slug: builtwith-redirects-api
+- description: The Relationships API from BuiltWith — 1 operation(s) for relationships.
+  name: BuiltWith Relationships API
+  slug: builtwith-relationships-api
+- description: The Social API from BuiltWith — 1 operation(s) for social.
+  name: BuiltWith Social API
+  slug: builtwith-social-api
+- description: The Tags API from BuiltWith — 1 operation(s) for tags.
+  name: BuiltWith Tags API
+  slug: builtwith-tags-api
+- description: The Technology Discovery API from BuiltWith — 1 operation(s) for technology discovery.
+  name: BuiltWith Technology Discovery API
+  slug: builtwith-technology-discovery-api
+- description: The Technology Intelligence API from BuiltWith — 3 operation(s) for technology intelligence.
+  name: BuiltWith Technology Intelligence API
+  slug: builtwith-technology-intelligence-api
+- description: The Trends API from BuiltWith — 1 operation(s) for trends.
+  name: BuiltWith Trends API
+  slug: builtwith-trends-api
+- description: The Trust and Risk API from BuiltWith — 1 operation(s) for trust and risk.
+  name: BuiltWith Trust and Risk API
+  slug: builtwith-trust-and-risk-api
+- description: The Trust API from BuiltWith — 1 operation(s) for trust.
+  name: BuiltWith Trust API
+  slug: builtwith-trust-api
+- description: The Vector API from BuiltWith — 1 operation(s) for vector.
+  name: BuiltWith Vector API
+  slug: builtwith-vector-api
+- description: The Website Search API from BuiltWith — 1 operation(s) for website search.
+  name: BuiltWith Website Search API
+  slug: builtwith-website-search-api
+artifact_total: 85
 asyncapis:
 - description: Real-time technology detection notifications over WebSocket. Subscribe to technology channels or rule channels and receive an event each time BuiltWith detects a technology on a website. Requires an a
   name: BuiltWith Live Feed API
@@ -171,6 +249,14 @@ collections:
   name: BuiltWith Change Bulk Processing Technology Trends API
   slug: open-builtwith-technology-trends-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/builtwith-capability-edges.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/builtwith-pay-per-call-with-x402.md
 - group: operate
   title: ''
   type: IssueTracker
@@ -459,13 +545,13 @@ modified: 2026-08-14
 name: BuiltWith
 nav: Providers
 network: true
-overview: 'BuiltWith publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Live Feed API, Agent Payment API, REST API, and 9 more. Tagged areas include Technology Profiling, Lead Generation, Web Intelligence, Technology Detection, and Website Analysis.
+overview: 'BuiltWith publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Domain API, Lists API, Trends API, and 49 more. Tagged areas include Technology Profiling, Lead Generation, Web Intelligence, Technology Detection, and Website Analysis.
 
 
   The BuiltWith catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  BuiltWith''s developer surface includes authentication, documentation, engineering blog, pricing, CLI, code examples, API reference, and 54 more developer resources.'
+  BuiltWith''s developer surface includes authentication, documentation, engineering blog, pricing, CLI, code examples, API reference, and 56 more developer resources.'
 plans:
 - name: Builtwith Plans Pricing
   plan_count: 6
@@ -493,18 +579,26 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 59.8
-  delta: 0.0
+  composite: 54.7
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -3.3
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 55.3
-    contract_quality: 69.9
+    contract_governance: 43.2
+    contract_quality: 70.8
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 55.3
+    discoverability: 75.9
+    governance: 43.2
     operational_transparency: 28.9
-  previous_composite: 59.8
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 58.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -515,8 +609,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/builtwith/refs/heads/main/screenshots/builtwith-2026-06-20T173756.png
 security:
@@ -545,6 +639,6 @@ tags:
 - AI Agents
 - MCP
 - Agentic Commerce
-- Real-Time Data
+- Real-time Data
 website: https://builtwith.com/
 ---

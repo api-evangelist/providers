@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 55
   slug: teamcity-agentic-access
   summary_line: 55 operations · 16 acting
-api_count: 17
+api_count: 1
 apis:
 - description: Manage agent pools
   name: TeamCity Agent Pools API
@@ -207,6 +207,18 @@ collections:
   name: TeamCity REST Agent Pools VCS Roots API
   slug: open-teamcity-vcs-roots-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/teamcity-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/JetBrains/teamcity-rest-client/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/JetBrains/teamcity-rest-client/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -376,7 +388,7 @@ overview: 'TeamCity publishes 17 APIs on the [APIs.io](https://apis.io/) network
   The TeamCity catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  TeamCity''s developer surface includes authentication, getting-started guide, documentation, pricing, engineering blog, support, changelog, and 14 more developer resources.'
+  TeamCity''s developer surface includes authentication, getting-started guide, documentation, pricing, engineering blog, support, changelog, and 17 more developer resources.'
 plans:
 - name: Teamcity Plans Pricing
   plan_count: 3
@@ -399,18 +411,26 @@ rules:
   slug: teamcity-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.8
-  delta: 1.5
+  composite: 43.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 54.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 60.7
     developer_ergonomics: 66.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 44.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     contracts:
@@ -418,8 +438,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teamcity/refs/heads/main/screenshots/teamcity-2026-06-20T194957.png
 security:

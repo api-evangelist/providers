@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 15
   slug: topaz-agentic-access
   summary_line: 15 operations · 8 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Policy-driven decisions - is, decisiontree, and query - evaluated by the OPA engine.
   name: Topaz Authorizer API
@@ -82,6 +82,26 @@ collections:
   name: Topaz Authorizer and Directory API
   slug: open-topaz
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/aserto-dev/topaz/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/aserto-dev/topaz/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/aserto-dev/topaz/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/aserto-dev/topaz/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/aserto-dev/topaz/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -137,7 +157,7 @@ network: true
 overview: 'Topaz publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authorizer API, Directory Checks API, Directory Objects API, and 2 more. Tagged areas include Access Control, Authorization, Fine-Grained Authorization, Open-Source, and RBAC.
 
 
-  Topaz''s developer surface includes documentation and 9 more developer resources.'
+  Topaz''s developer surface includes documentation and 14 more developer resources.'
 plans:
 - name: Topaz Plans Pricing
   plan_count: 2
@@ -148,19 +168,27 @@ rate_limits:
   name: Topaz Rate Limits
   slug: topaz-rate-limits
 score:
-  band: thin
-  composite: 29.6
-  delta: 1.5
+  band: developing
+  composite: 40.2
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 50.7
     developer_ergonomics: 21.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
-    operational_transparency: 34.2
-  previous_composite: 28.1
+    operational_transparency: 60.5
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     contracts:
@@ -173,9 +201,9 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 9.1
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: topaz
 tags:

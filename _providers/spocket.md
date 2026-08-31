@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Hosted MCP server (Streamable HTTP) with ~20 tools for deploying and managing always-on apps. Uses OAuth 2.1 with PKCE and dynamic client registration; usable by any account holder from Claude Code, C
@@ -146,7 +146,7 @@ modified: '2026-08-09'
 name: Spocket
 nav: Providers
 network: true
-overview: 'Spocket publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Platform-as-a-Service, Application Hosting, bot-hosting, Developer Tools, and Agent Infrastructure.
+overview: 'Spocket publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include PaaS, application-hosting, bot-hosting, Developer Tools, and agent-infrastructure.
 
 
   Spocket''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
@@ -162,7 +162,12 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 38.3
+  composite: 37.2
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 76.3
@@ -170,16 +175,16 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 58.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 38.3
+  previous_composite: 37.2
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -192,14 +197,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: spocket
 tags:
-- Platform-as-a-Service
-- Application Hosting
+- PaaS
+- application-hosting
 - bot-hosting
 - Developer Tools
-- Agent Infrastructure
+- agent-infrastructure
 - MCP
 - Deployment
-- Serverless
+- serverless
 - always-on
 website: https://www.spocket.dev
 ---

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
 - group: company
   title: ''
   type: Website
@@ -64,18 +68,23 @@ created: '2026-07-17'
 description: Bloomberg Second Measure provides alternative data analytics for investors, turning billions of anonymized U.S. consumer card-transaction purchases into daily insights on the performance of thousands of public and private companies and brands. It is a Bloomberg product delivered primarily through the Bloomberg Terminal (ALTD and ECAN commands) and via aggregated and transaction-level data feeds, with 2-, 3-, and 7-day delivery lags that support intra-quarter earnings forecasting and investment monitoring. Second Measure was founded as a Bessemer Venture Partners portfolio company and acquired by Bloomberg in 2020. As of this enrichment pass the company exposes no public developer API, developer portal, or machine-readable API specification; access is gated through Bloomberg data products rather than a self-serve web API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/second-measure.png
 layout: provider
-modified: '2026-07-21'
+modified: '2026-08-27'
 name: Second Measure
 nav: Providers
 network: true
 overview: 'Second Measure is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud, Alternative Data, Analytics, and Consumer Insights.
 
 
-  Second Measure''s developer surface includes engineering blog and 5 more developer resources.'
+  Second Measure''s developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 7
 score:
   band: minimal
   composite: 9.7
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -87,8 +96,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

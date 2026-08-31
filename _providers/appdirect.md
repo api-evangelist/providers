@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.3
-  scored_at: '2026-08-26'
-api_count: 75
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: The AI Embed API from AppDirect — 2 operation(s) for ai embed.
   name: AppDirect AI Embed API
@@ -495,6 +495,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/appdirect-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/appdirect-companies-overlay.yaml
 - group: company
@@ -659,7 +663,7 @@ overview: 'AppDirect publishes 75 APIs on the [APIs.io](https://apis.io/) networ
   The AppDirect catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AppDirect''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 30 more developer resources.'
+  AppDirect''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 31 more developer resources.'
 random_paper: 11
 scopes:
 - name: Appdirect Scopes
@@ -668,18 +672,23 @@ scopes:
   summary_line: 15 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 52.0
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 60.5
     developer_ergonomics: 73.2
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 53.3
+  previous_composite: 52.5
   provenance:
     conformance: derived
     contracts:
@@ -689,8 +698,8 @@ score:
       total: 75
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appdirect/refs/heads/main/screenshots/appdirect-2026-07-25T200730.png
 security:

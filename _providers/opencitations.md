@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: opencitations-agentic-access
   summary_line: 9 operations
-api_count: 6
+api_count: 2
 apis:
 - description: SPARQL endpoints for structured queries against the OpenCitations Meta and Index datasets. Provides access to the full Linked Open Data graph for both bibliographic metadata and citation entity data u
   name: OpenCitations SPARQL Endpoint
@@ -133,18 +133,23 @@ overview: 'OpenCitations publishes 5 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 1
 score:
   band: thin
-  composite: 28.9
-  delta: 1.9
+  composite: 28.3
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 63.4
     developer_ergonomics: 21.4
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 27.0
+  previous_composite: 28.9
   provenance:
     agentic_access: derived
     contracts:
@@ -158,8 +163,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opencitations/refs/heads/main/screenshots/opencitations-2026-06-20T190921.png
 security:

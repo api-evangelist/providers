@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 2
 common:
@@ -88,7 +88,7 @@ modified: '2026-07-19'
 name: HiHello
 nav: Providers
 network: true
-overview: 'HiHello is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Digital Business Cards, Contact Management, and Networking.
+overview: 'HiHello is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Digital Business Cards, Contact Management, and Networking.
 
 
   HiHello''s developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
@@ -96,6 +96,11 @@ random_paper: 6
 score:
   band: emerging
   composite: 18.1
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 53.9
@@ -113,8 +118,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 29.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hihello/refs/heads/main/screenshots/hihello-2026-07-25T221220.png
 security:
@@ -129,7 +134,7 @@ security:
 slug: hihello
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Digital Business Cards
 - Contact Management
 - Networking

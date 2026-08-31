@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 25
   slug: ionq-agentic-access
   summary_line: 25 operations · 7 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The previous-generation IonQ Quantum Cloud REST API (v0.3) for submitting and managing jobs, characterizations, backends, and reports. Superseded by v0.4 which adds Sessions, separated cost/results en
   name: IonQ Quantum Cloud API (v0.3 Legacy)
@@ -444,7 +444,7 @@ modified: '2026-05-24'
 name: IonQ
 nav: Providers
 network: true
-overview: 'IonQ publishes 6 APIs on the [APIs.io](https://apis.io/) network, including backends API, characterizations API, Jobs API, and 3 more. Tagged areas include Quantum Computing, Trapped Ion, QPU, ARIA, and Forte.
+overview: 'IonQ publishes 6 APIs on the [APIs.io](https://apis.io/) network, including backends API, characterizations API, Jobs API, and 3 more. Tagged areas include Quantum Computing, Trapped Ion, QPU, Aria, and Forte.
 
 
   The IonQ catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -484,15 +484,20 @@ rules:
   slug: ionq-rules
 score:
   band: strong
-  composite: 59.4
-  delta: 0.0
+  composite: 58.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 13.6
     contract_quality: 66.1
     developer_ergonomics: 71.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 13.6
     operational_transparency: 36.8
   previous_composite: 59.4
@@ -503,8 +508,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/screenshots/ionq-2026-06-20T183533.png
 security:
@@ -521,7 +526,7 @@ tags:
 - Quantum Computing
 - Trapped Ion
 - QPU
-- ARIA
+- Aria
 - Forte
 - Tempo
 - Quantum Cloud

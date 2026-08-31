@@ -23,31 +23,91 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 7
 apis:
-- description: Programmatic access to Pypestream automation, conversation and agent data. Retrieves single and multiple agent records, session metadata and conversation transcripts over a bounded time window. Availa
-  name: Pypestream Reporting API
-  slug: reporting-api
-- description: Builds integrations between Pypestream and a contact center. Escalates conversations from a Pype or a messaging channel to a live agent, checks agent availability and wait time, exchanges messages and
-  name: Pypestream Contact Center API
-  slug: contact-center-api
-- description: The middleware layer behind the Contact Center API, exposing Settings, Integrations and Conversations operations. The published contract declares an empty servers[] block; the sibling Contact Center A
-  name: Pypestream Middleware API
-  slug: middleware-api
-- description: Lets developers build interfaces and connect messaging channels so end users can engage a Pypestream microapp. Creates an anonymous user session, starts and ends an engagement and sends messages, pair
-  name: Pypestream Engagement API
-  slug: engagement-api
-- description: Product analytics over Pypestream datasets -- events, persons, cohorts, actions, annotations, dashboards, insights (trend, funnel, retention, path), KPIs and property definitions -- plus batch exports
-  name: Pypestream Analytics API
-  slug: analytics-api
-- description: The client-side JavaScript SDK for embedding the Pypestream conversational AI chat interface in a web page, in window or inline mode. Pypestream documents the SDK's methods, configuration and event ha
-  name: Pypestream JavaScript SDK API
-  slug: javascript-sdk
-- description: A single-operation contract for aggregate dashboard report data. Published in Pypestream's own API registry, but every servers[] entry points at an unbranded Vercel preview deployment (analytics-eight
+- description: The Actions API from Pypestream — 2 operation(s) for actions.
+  name: Pypestream Actions API
+  slug: pypestream-actions-api
+- description: Advanced SDK features
+  name: Pypestream Advanced API
+  slug: pypestream-advanced-api
+- description: The Agent API from Pypestream — 2 operation(s) for agent.
+  name: Pypestream Agent API
+  slug: pypestream-agent-api
+- description: The Annotations API from Pypestream — 2 operation(s) for annotations.
+  name: Pypestream Annotations API
+  slug: pypestream-annotations-api
+- description: The Batch Exports API from Pypestream — 7 operation(s) for batch exports.
+  name: Pypestream Batch Exports API
+  slug: pypestream-batch-exports-api
+- description: The Cohorts API from Pypestream — 3 operation(s) for cohorts.
+  name: Pypestream Cohorts API
+  slug: pypestream-cohorts-api
+- description: SDK configuration methods
+  name: Pypestream Configuration API
+  slug: pypestream-configuration-api
+- description: Use the Conversation API after the escalate request
+  name: Pypestream Conversations API
+  slug: pypestream-conversations-api-api
+- description: The Dashboards API from Pypestream — 2 operation(s) for dashboards.
+  name: Pypestream Dashboards API
+  slug: pypestream-dashboards-api
+- description: The Datasets API from Pypestream — 2 operation(s) for datasets.
+  name: Pypestream Datasets API
+  slug: pypestream-datasets-api
+- description: Control chat visibility
+  name: Pypestream Display Control API
+  slug: pypestream-display-control-api
+- description: API to be consumed by the 3rd party apps.
+  name: Pypestream Endpoints API
+  slug: pypestream-endpoints-api
+- description: The Event Definitions API from Pypestream — 2 operation(s) for event definitions.
+  name: Pypestream Event Definitions API
+  slug: pypestream-event-definitions-api
+- description: Register event callbacks
+  name: Pypestream Event Handlers API
+  slug: pypestream-event-handlers-api
+- description: The Events API from Pypestream — 2 operation(s) for events.
+  name: Pypestream Events API
+  slug: pypestream-events-api
+- description: The Insights API from Pypestream — 7 operation(s) for insights.
   name: Pypestream Insights API
-  slug: insights-api
-artifact_total: 16
+  slug: pypestream-insights-api
+- description: (NEW) Enhanced version of the previous Settings API
+  name: Pypestream Integrations API
+  slug: pypestream-integrations-api-api
+- description: The KPIs API from Pypestream — 2 operation(s) for kpis.
+  name: Pypestream KP Is API
+  slug: pypestream-kpis-api
+- description: SDK lifecycle management
+  name: Pypestream Lifecycle API
+  slug: pypestream-lifecycle-api
+- description: The Metadata API from Pypestream — 2 operation(s) for metadata.
+  name: Pypestream Metadata API
+  slug: pypestream-metadata-api
+- description: The Organization API from Pypestream — 2 operation(s) for organization.
+  name: Pypestream Organization API
+  slug: pypestream-organization-api
+- description: The Persons API from Pypestream — 2 operation(s) for persons.
+  name: Pypestream Persons API
+  slug: pypestream-persons-api
+- description: The Projects API from Pypestream — 2 operation(s) for projects.
+  name: Pypestream Projects API
+  slug: pypestream-projects-api
+- description: The Property Definitions API from Pypestream — 2 operation(s) for property definitions.
+  name: Pypestream Property Definitions API
+  slug: pypestream-property-definitions-api
+- description: (DEPRECATED) Please use the new Integrations API
+  name: Pypestream Settings API
+  slug: pypestream-settings-api-api
+- description: The Settings API from Pypestream — 1 operation(s) for settings.
+  name: Pypestream Settings API
+  slug: pypestream-settings-api
+- description: The Transcript API from Pypestream — 2 operation(s) for transcript.
+  name: Pypestream Transcript API
+  slug: pypestream-transcript-api
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Pypestream Contact Center Webhooks
@@ -56,6 +116,30 @@ asyncapis:
   name: Pypestream Engagement API WebSocket
   slug: pypestream-engagement-api-asyncapi
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pypestream-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pypestream-reporting-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pypestream-contact-center-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pypestream-middleware-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pypestream-engagement-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pypestream-analytics-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -192,13 +276,13 @@ modified: '2026-08-26'
 name: Pypestream
 nav: Providers
 network: true
-overview: 'Pypestream publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Reporting API, Contact Center API, Middleware API, and 4 more. Tagged areas include Company, Conversational AI, Agentic AI, Contact Center, and Customer Service.
+overview: 'Pypestream publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Advanced API, Agent API, and 24 more. Tagged areas include Company, Conversational AI, Agentic AI, Contact Center, and Customer Service.
 
 
   The Pypestream catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Pypestream''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 24 more developer resources.'
+  Pypestream''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 30 more developer resources.'
 plans:
 - name: Pypestream Plans Pricing
   plan_count: 0
@@ -210,22 +294,30 @@ rate_limits:
   slug: pypestream-rate-limits
 score:
   band: developing
-  composite: 43.8
+  composite: 41.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 16.7
-    contract_quality: 55.2
+    contract_governance: 4.5
+    contract_quality: 54.2
     developer_ergonomics: 51.8
-    discoverability: 83.3
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 47.4
+  previous_composite: 41.9
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Pypestream Authentication

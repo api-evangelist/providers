@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 39
   slug: up-bank-agentic-access
   summary_line: 39 operations · 9 acting
-api_count: 14
+api_count: 2
 apis:
 - description: 'Accounts represent the underlying store used to track balances and the transactions that have occurred to modify those balances over time. Up currently has three types of account: `SAVER`—used to earn'
   name: Up Accounts API
@@ -138,6 +138,14 @@ collections:
   name: CDR Banking Accounts Webhooks API
   slug: open-up-bank-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/up-bank-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/up-banking/api/issues
 - group: other
   title: ''
   type: Overlay
@@ -301,7 +309,7 @@ overview: 'Up publishes 14 APIs on the [APIs.io](https://apis.io/) network, incl
   The Up catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Up''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 29 more developer resources.'
+  Up''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 31 more developer resources.'
 random_paper: 14
 rate_limits:
 - limit_count: 0
@@ -313,19 +321,27 @@ scopes:
   slug: up-bank-scopes
   summary_line: 10 scopes
 score:
-  band: strong
-  composite: 56.9
-  delta: 1.4
+  band: developing
+  composite: 47.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.2
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 56.3
-    developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 16.7
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 55.5
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -338,12 +354,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: AU
+      standard: cdr-consumer-data-standards
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/screenshots/up-bank-2026-07-21T115740.png
 security:

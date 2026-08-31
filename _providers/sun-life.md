@@ -23,19 +23,58 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
-- description: FHIR R4 (4.0.1) read-only Patient Access API from DentaQuest, the Sun Life U.S. dental company, published under the CMS Interoperability and Patient Access Final Rule (CMS-9115-F). Third-party applica
-  name: DentaQuest FHIR Patient Access API
-  slug: sun-life-dentaquest-fhir-patient-access
-- description: FHIR R4 (4.0.1) Provider Directory API from DentaQuest, the Sun Life U.S. dental company, conforming to the HL7 Da Vinci PDex Plan-Net Implementation Guide 1.1.0 and published under CMS-9115-F. Expose
-  name: DentaQuest FHIR Provider Directory API
-  slug: sun-life-dentaquest-fhir-provider-directory
-- description: Anonymous FHIR R4 conformance endpoint for the DentaQuest (Sun Life U.S.) interoperability platform. A single GET /metadata operation returns the CapabilityStatement of the underlying Azure Healthcare
-  name: DentaQuest FHIR Metadata API
-  slug: sun-life-dentaquest-fhir-metadata
-artifact_total: 10
+- description: The Authorize API from Sun Life — 1 operation(s) for authorize.
+  name: Sun Life Authorize API
+  slug: sun-life-authorize-api
+- description: The Callback API from Sun Life — 1 operation(s) for callback.
+  name: Sun Life Callback API
+  slug: sun-life-callback-api
+- description: The Coverage API from Sun Life — 5 operation(s) for coverage.
+  name: Sun Life Coverage API
+  slug: sun-life-coverage-api
+- description: The Endpoint API from Sun Life — 5 operation(s) for endpoint.
+  name: Sun Life Endpoint API
+  slug: sun-life-endpoint-api
+- description: The HealthcareService API from Sun Life — 5 operation(s) for healthcareservice.
+  name: Sun Life Healthcare Service API
+  slug: sun-life-healthcareservice-api
+- description: The InsurancePlan API from Sun Life — 5 operation(s) for insuranceplan.
+  name: Sun Life Insurance Plan API
+  slug: sun-life-insuranceplan-api
+- description: The Location API from Sun Life — 5 operation(s) for location.
+  name: Sun Life Location API
+  slug: sun-life-location-api
+- description: The Metadata API from Sun Life — 1 operation(s) for metadata.
+  name: Sun Life Metadata API
+  slug: sun-life-metadata-api
+- description: The Organization API from Sun Life — 5 operation(s) for organization.
+  name: Sun Life Organization API
+  slug: sun-life-organization-api
+- description: The Patient API from Sun Life — 5 operation(s) for patient.
+  name: Sun Life Patient API
+  slug: sun-life-patient-api
+- description: The Practitioner API from Sun Life — 5 operation(s) for practitioner.
+  name: Sun Life Practitioner API
+  slug: sun-life-practitioner-api
+- description: The PractitionerRole API from Sun Life — 5 operation(s) for practitionerrole.
+  name: Sun Life Practitioner Role API
+  slug: sun-life-practitionerrole-api
+- description: The RelatedPerson API from Sun Life — 5 operation(s) for relatedperson.
+  name: Sun Life Related Person API
+  slug: sun-life-relatedperson-api
+- description: The Token API from Sun Life — 1 operation(s) for token.
+  name: Sun Life Token API
+  slug: sun-life-token-api
+- description: The Tokenhook API from Sun Life — 1 operation(s) for tokenhook.
+  name: Sun Life Tokenhook API
+  slug: sun-life-tokenhook-api
+- description: The .well Known API from Sun Life — 1 operation(s) for .well known.
+  name: Sun Life .well Known API
+  slug: sun-life-well-known-api
+artifact_total: 23
 collections:
 - collection_type: open
   name: FHIR Metadata
@@ -47,6 +86,26 @@ collections:
   name: Fhir Provider Directory
   slug: open-sun-life-dentaquest-fhir-provider-directory
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sun-life-dentaquest-fhir-patient-access-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sun-life-dentaquest-patient-access-smart-launch.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sun-life-dentaquest-fhir-provider-directory-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sun-life-dentaquest-provider-directory-search.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sun-life-dentaquest-fhir-metadata-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -212,10 +271,10 @@ modified: '2026-07-25'
 name: Sun Life
 nav: Providers
 network: true
-overview: 'Sun Life publishes 3 APIs on the [APIs.io](https://apis.io/) network: DentaQuest FHIR Patient Access API, DentaQuest FHIR Provider Directory API, and DentaQuest FHIR Metadata API. Tagged areas include Insurance, Canada, Life Insurance, Health Insurance, and Employee Benefits.
+overview: 'Sun Life publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Authorize API, Callback API, Coverage API, and 13 more. Tagged areas include Insurance, Canada, Life Insurance, Health Insurance, and Employee Benefits.
 
 
-  Sun Life''s developer surface includes product news, documentation, API reference, getting-started guide, signup flow, support, authentication, and 31 more developer resources.'
+  Sun Life''s developer surface includes product news, documentation, API reference, getting-started guide, signup flow, support, authentication, and 36 more developer resources.'
 random_paper: 5
 scopes:
 - name: Sun Life Scopes
@@ -224,18 +283,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 49.4
+  composite: 48.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
-    contract_quality: 43.8
+    contract_governance: 18.2
+    contract_quality: 45.3
     developer_ergonomics: 56.5
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 49.4
+  previous_composite: 48.0
   provenance:
     conformance: first-party
     contracts:
@@ -247,12 +311,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sun-life/refs/heads/main/screenshots/sun-life-2026-08-17T082154.png
 security:

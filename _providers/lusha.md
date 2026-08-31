@@ -29,13 +29,13 @@ agent_readiness:
     mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 55.4
-  scored_at: '2026-08-26'
+  score: 57.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 58
   slug: lusha-agentic-access
   summary_line: 58 operations · 38 acting
-api_count: 14
+api_count: 2
 apis:
 - description: Find contacts or companies from known identifiers — contact id, LinkedIn URL, email or name + company; company id, name or domain — and return a non-PII preview with `has` and `canReveal` fields descr
   name: Lusha Search API
@@ -87,7 +87,22 @@ apis:
 - description: 'First-party hosted Model Context Protocol server exposing 22 Lusha tools over streamable HTTP. Authenticates with OAuth 2.1 (scope `mcp`, PKCE S256, dynamic client registration at auth.lusha.com) for '
   name: Lusha MCP Server
   slug: mcp
-artifact_total: 39
+- description: 'Manage your account and monitor usage. Use this endpoint to: - Monitor credit usage - Understand consumption patterns - Align API usage with plan limits - Support governance and production operations '
+  name: Lusha Account Management API
+  slug: lusha-account-management-api
+- description: Available filters for company searches
+  name: Lusha Company Filters API
+  slug: lusha-company-filters-api
+- description: Available filters for contact searches
+  name: Lusha Contact Filters API
+  slug: lusha-contact-filters-api
+- description: '**What is enrichment?** Enrichment is the process of adding missing or updated data to existing contact or company records. Use enrichment to: - Complete CRM records - Improve outbound accuracy and de'
+  name: Lusha Enrichment API
+  slug: lusha-enrichment-api
+- description: With Lusha's Prospecting API, you can query Lusha's extensive database based on specific criteria (such as job title, seniority, location, and more) to retrieve detailed contact and company informatio
+  name: Lusha Prospecting - Search & Enrich API
+  slug: lusha-prospecting-search-enrich-api
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Lusha Webhooks
@@ -332,7 +347,7 @@ modified: '2026-08-13'
 name: Lusha
 nav: Providers
 network: true
-overview: 'Lusha publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Search API, Enrich API, Search & Enrich API, and 10 more. Tagged areas include Sales Intelligence, B2B, Enrichment, Contact Data, and Prospecting.
+overview: 'Lusha publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Search API, Enrich API, Search & Enrich API, and 15 more. Tagged areas include Sales Intelligence, B2B, Enrichment, Contact Data, and Prospecting.
 
 
   The Lusha catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -355,18 +370,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 71.7
-  delta: 0.0
+  composite: 68.5
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
-    contract_governance: 30.3
-    contract_quality: 66.4
+    contract_governance: 18.2
+    contract_quality: 66.0
     developer_ergonomics: 61.3
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 86.8
-  previous_composite: 71.7
+  previous_composite: 69.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -377,8 +397,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lusha/refs/heads/main/screenshots/lusha-2026-06-20T184813.png
 security:

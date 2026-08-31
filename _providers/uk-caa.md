@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,6 +46,10 @@ collections:
   name: CAA Consultations API (Citizen Space 2.4)
   slug: open-uk-caa-consultations-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/uk-caa-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -255,22 +259,27 @@ network: true
 overview: 'UK Civil Aviation Authority publishes 1 API on the [APIs.io](https://apis.io/) network: CAA Consultations API. Tagged areas include Travel, United Kingdom, Aviation, Airline, and Airports.
 
 
-  UK Civil Aviation Authority''s developer surface includes authentication, changelog, documentation, pricing, engineering blog, YouTube channel, support, and 37 more developer resources.'
+  UK Civil Aviation Authority''s developer surface includes authentication, changelog, documentation, pricing, engineering blog, YouTube channel, support, and 38 more developer resources.'
 random_paper: 16
 score:
   band: developing
-  composite: 48.6
-  delta: 4.7
+  composite: 47.1
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 66.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 20.5
+    contract_governance: 8.3
     contract_quality: 62.6
     developer_ergonomics: 49.4
     discoverability: 87.0
-    governance: 20.5
+    governance: 8.3
     operational_transparency: 26.3
-  previous_composite: 43.9
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -287,8 +296,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

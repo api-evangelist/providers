@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 4
 apis:
 - description: HTTP and WebSocket speech synthesis. A non-streaming POST /api/v1/tts/generate returns a complete wav/mp3 for up to 300 characters; a WebSocket /api/v2/tts/stream_generate streams base64 PCM chunks wi
@@ -157,7 +157,7 @@ modified: '2026-08-26'
 name: Moore Threads
 nav: Providers
 network: true
-overview: 'Moore Threads publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GPU, Artificial Intelligence, Machine Learning, and Semiconductors.
+overview: 'Moore Threads publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GPU, Artificial Intelligence, Machine-Learning, and Semiconductors.
 
 
   The Moore Threads catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -175,21 +175,29 @@ rate_limits:
   slug: moore-threads-rate-limits
 score:
   band: developing
-  composite: 48.1
+  composite: 47.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
     contract_governance: 0.0
     contract_quality: 42.7
     developer_ergonomics: 58.3
-    discoverability: 85.2
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 57.9
+  previous_composite: 47.0
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Moore Threads Authentication
@@ -204,10 +212,10 @@ tags:
 - Company
 - GPU
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Semiconductors
 - Speech Recognition
-- Text To Speech
+- Text-to-Speech
 - Voice
 - LLM Inference
 - Cloud Computing

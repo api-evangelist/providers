@@ -23,12 +23,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-26'
-api_count: 8
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: The press_release custom post type behind ksqtx.com — the company news archive. 39 items were returned anonymously on 2026-08-23 (X-WP-Total), spanning the Takeda and Ono collaborations, the CRISPR Th
-  name: KSQ Therapeutics Press Releases API
-  slug: ksq-therapeutics-press-releases-api
 - description: WordPress page collection behind ksqtx.com — Home, About, Platform, Pipeline, Partners, News, Press Releases, Careers and the Expanded Access Policy. 9 items on 2026-08-23. Bodies are Divi page-builde
   name: KSQ Therapeutics Pages API
   slug: ksq-therapeutics-pages-api
@@ -50,6 +47,9 @@ apis:
 - description: oEmbed 1.0 discovery for ksqtx.com URLs. Verified live anonymously on 2026-08-23 — provider_name "KSQ Therapeutics", provider_url https://ksqtx.com.
   name: KSQ Therapeutics oEmbed API
   slug: ksq-therapeutics-oembed-api
+- description: Press Releases API operations on the ksqtx.com WordPress deployment.
+  name: KSQ Therapeutics Press Release API
+  slug: ksq-therapeutics-press-release-api
 artifact_total: 12
 common:
 - group: company
@@ -181,7 +181,7 @@ modified: '2026-08-23'
 name: KSQ Therapeutics
 nav: Providers
 network: true
-overview: 'KSQ Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Press Releases API, Pages API, Media API, and 5 more. Tagged areas include Company, Biotechnology, Life Sciences, Therapeutics, and Oncology.
+overview: 'KSQ Therapeutics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Pages API, Media API, Search API, and 5 more. Tagged areas include Company, biotechnology, life-sciences, therapeutics, and oncology.
 
 
   KSQ Therapeutics'' developer surface includes engineering blog, product news, support, authentication, CLI, and 25 more developer resources.'
@@ -196,18 +196,23 @@ rate_limits:
   slug: ksq-therapeutics-rate-limits
 score:
   band: thin
-  composite: 29.6
-  delta: -0.3
+  composite: 27.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 52.4
     developer_ergonomics: 28.0
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 29.9
+  previous_composite: 28.1
   provenance:
     conformance: derived
     contracts:
@@ -223,8 +228,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -238,16 +243,16 @@ security:
 slug: ksq-therapeutics
 tags:
 - Company
-- Biotechnology
-- Life Sciences
-- Therapeutics
-- Oncology
-- Genomics
-- CRISPR
-- Gene Editing
-- Cell Therapy
-- Clinical Stage
-- Functional Genomics
+- biotechnology
+- life-sciences
+- therapeutics
+- oncology
+- genomics
+- crispr
+- gene-editing
+- cell-therapy
+- clinical-stage
+- functional-genomics
 - content-api
 website: https://ksqtx.com/
 ---

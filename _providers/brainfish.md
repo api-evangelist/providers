@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 27
   slug: brainfish-agentic-access
   summary_line: 27 operations · 19 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: AI agent operations for answer generation and streaming
   name: Brainfish Agents API
@@ -239,19 +239,24 @@ rate_limits:
   name: Brainfish Rate Limits
   slug: brainfish-rate-limits
 score:
-  band: strong
-  composite: 56.0
-  delta: 2.4
+  band: developing
+  composite: 52.8
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 60.9
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 53.6
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -262,8 +267,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brainfish/refs/heads/main/screenshots/brainfish-2026-07-25T203705.png
 security:

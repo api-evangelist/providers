@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.5
-  scored_at: '2026-08-26'
+  score: 29.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -33,10 +33,25 @@ agentic_access:
   summary_line: 33 operations · 7 acting
 api_count: 1
 apis:
-- description: 'Public REST API for App Store and Google Play data: app lookup, search, filter search, reviews, rankings, download/revenue estimates, developer lookup, daily installs, keyword suggestions, LiveOps eve'
-  name: AppstoreSpy API
-  slug: appstorespy-api
-artifact_total: 6
+- description: The App Store API from AppstoreSpy — 14 operation(s) for app store.
+  name: AppstoreSpy App Store API
+  slug: appstorespy-app-store-api
+- description: The Events API from AppstoreSpy — 1 operation(s) for events.
+  name: AppstoreSpy Events API
+  slug: appstorespy-events-api
+- description: The Google Play API from AppstoreSpy — 17 operation(s) for google play.
+  name: AppstoreSpy Google Play API
+  slug: appstorespy-google-play-api
+- description: The Jobs API from AppstoreSpy — 1 operation(s) for jobs.
+  name: AppstoreSpy Jobs API
+  slug: appstorespy-jobs-api
+- description: The Search Filter v.2 API from AppstoreSpy — 1 operation(s) for search filter v.2.
+  name: AppstoreSpy Search Filter v.2 API
+  slug: appstorespy-search-filter-v-2-api
+- description: The Suggestions API from AppstoreSpy — 1 operation(s) for suggestions.
+  name: AppstoreSpy Suggestions API
+  slug: appstorespy-suggestions-api
+artifact_total: 11
 common:
 - group: agent
   title: ''
@@ -138,7 +153,7 @@ modified: '2026-08-22'
 name: AppstoreSpy
 nav: Providers
 network: true
-overview: 'AppstoreSpy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include mobile-apps, app-store-optimization, market-intelligence, app-analytics, and google-play.
+overview: 'AppstoreSpy publishes 6 APIs on the [APIs.io](https://apis.io/) network, including App Store API, Events API, Google Play API, and 3 more. Tagged areas include Mobile Apps, App Store Optimization, Market Intelligence, App Analytics, and Google Play.
 
 
   AppstoreSpy''s developer surface includes authentication, API reference, pricing, signup flow, support, engineering blog, and 17 more developer resources.'
@@ -153,25 +168,30 @@ rate_limits:
   slug: appstorespy-rate-limits
 score:
   band: developing
-  composite: 50.3
-  delta: 1.9
+  composite: 49.5
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
-    contract_quality: 50.7
+    contract_governance: 4.5
+    contract_quality: 50.6
     developer_ergonomics: 47.0
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 48.4
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -184,14 +204,14 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: appstorespy
 tags:
-- mobile-apps
-- app-store-optimization
-- market-intelligence
-- app-analytics
-- google-play
+- Mobile Apps
+- App Store Optimization
+- Market Intelligence
+- App Analytics
+- Google Play
 - apple-app-store
-- reviews-and-ratings
+- Reviews and Ratings
 - download-revenue-estimates
-- marketing
+- Marketing
 website: https://appstorespy.com/app-store-api
 ---

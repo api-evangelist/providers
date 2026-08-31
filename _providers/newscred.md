@@ -1,17 +1,18 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
@@ -22,22 +23,85 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-26'
+  score: 39.0
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
-- description: The current Newscred/Welcome content marketing platform REST API, shipping as the Optimizely CMP Open API. 115 paths / 170 operations across Library, Uploader, Labels, Brand Compliance, Tasks, Task St
-  name: Optimizely CMP Open API v3
-  slug: optimizely-cmp-open-api-v3
-- description: The prior-generation Newscred/Welcome Open API, published verbatim by the newscred GitHub organization. 31 paths / 48 operations across Uploader, Library, Labels, Tasks, Campaigns, Users and Settings.
-  name: Welcome Open API v3 (legacy)
-  slug: welcome-open-api-v3-legacy
-artifact_total: 10
+- description: The Assets API from Newscred — 1 operation(s) for assets.
+  name: Newscred Assets API
+  slug: newscred-assets-api
+- description: The Brand Compliance API from Newscred — 2 operation(s) for brand compliance.
+  name: Newscred Brand Compliance API
+  slug: newscred-brand-compliance-api
+- description: The Campaigns API from Newscred — 7 operation(s) for campaigns.
+  name: Newscred Campaigns API
+  slug: newscred-campaigns-api
+- description: The Events API from Newscred — 3 operation(s) for events.
+  name: Newscred Events API
+  slug: newscred-events-api
+- description: The Fields API from Newscred — 4 operation(s) for fields.
+  name: Newscred Fields API
+  slug: newscred-fields-api
+- description: The Labels API from Newscred — 1 operation(s) for labels.
+  name: Newscred Labels API
+  slug: newscred-labels-api
+- description: The Library API from Newscred — 24 operation(s) for library.
+  name: Newscred Library API
+  slug: newscred-library-api
+- description: The Milestones API from Newscred — 2 operation(s) for milestones.
+  name: Newscred Milestones API
+  slug: newscred-milestones-api
+- description: The Publishing API from Newscred — 4 operation(s) for publishing.
+  name: Newscred Publishing API
+  slug: newscred-publishing-api
+- description: The Settings API from Newscred — 1 operation(s) for settings.
+  name: Newscred Settings API
+  slug: newscred-settings-api
+- description: The Structured Contents API from Newscred — 11 operation(s) for structured contents.
+  name: Newscred Structured Contents API
+  slug: newscred-structured-contents-api
+- description: The Task Step API from Newscred — 1 operation(s) for task step.
+  name: Newscred Task Step API
+  slug: newscred-task-step-api
+- description: 'Facilitates the integration of external systems with Optimizely CMP through the following use cases: 1. **External Work Management** – Use the endpoints to link Optimizely CMP with an external system '
+  name: Newscred Tasks API
+  slug: newscred-tasks-api
+- description: The Teams API from Newscred — 2 operation(s) for teams.
+  name: Newscred Teams API
+  slug: newscred-teams-api
+- description: The Templates API from Newscred — 2 operation(s) for templates.
+  name: Newscred Templates API
+  slug: newscred-templates-api
+- description: The Uploader API from Newscred — 4 operation(s) for uploader.
+  name: Newscred Uploader API
+  slug: newscred-uploader-api
+- description: The Users API from Newscred — 3 operation(s) for users.
+  name: Newscred Users API
+  slug: newscred-users-api
+- description: The Work Requests API from Newscred — 13 operation(s) for work requests.
+  name: Newscred Work Requests API
+  slug: newscred-work-requests-api
+- description: The Workflows API from Newscred — 2 operation(s) for workflows.
+  name: Newscred Workflows API
+  slug: newscred-workflows-api
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Newscred Cmp Webhooks
   slug: newscred-cmp-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/newscred-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/newscred-cmp-open-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/newscred-welcome-open-api-overlay.yaml
 - group: auth
   title: ''
   type: Security
@@ -183,13 +247,13 @@ modified: '2026-08-26'
 name: Newscred
 nav: Providers
 network: true
-overview: 'Newscred publishes 2 APIs on the [APIs.io](https://apis.io/) network: Optimizely CMP Open API v3 and Welcome Open API v3 (legacy). Tagged areas include Company, Content Marketing, Content Management, Digital Asset Management, and Marketing.
+overview: 'Newscred publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Brand Compliance API, Campaigns API, and 16 more. Tagged areas include Company, Content Marketing, Content Management, Digital Asset Management, and Marketing.
 
 
   The Newscred catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Newscred''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 27 more developer resources.'
+  Newscred''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 30 more developer resources.'
 plans:
 - name: Newscred Plans Pricing
   plan_count: 0
@@ -206,16 +270,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 56.7
+  composite: 57.7
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 30.3
-    contract_quality: 55.0
+    contract_governance: 18.2
+    contract_quality: 64.9
     developer_ergonomics: 51.8
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 81.6
+  previous_composite: 58.3
   provenance:
     conformance: first-party
     contracts:
@@ -225,8 +296,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Newscred Authentication
@@ -252,9 +324,9 @@ tags:
 - Digital Asset Management
 - Marketing
 - Marketing Resource Management
-- Workflow
+- Workflows
 - Publishing
-- Webhooks
+- Webhook
 - Acquired
 website: https://www.optimizely.com/campaigns/acquisition/newscred
 ---

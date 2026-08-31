@@ -33,19 +33,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: The STIR/SHAKEN call Authentication Service and Verification Service behind TransUnion TruContact Branded Communications. Nine POST operations sign SIP Identity headers (PASSporTs) and verify them, wi
-  name: TransUnion TruContact Trusted Call Solutions (STI-AS / STI-VS)
-  slug: trucontact-trusted-call-solutions
 - description: TransUnion's API products for credit reporting, identity verification, fraud prevention and consumer risk decisioning. Access requires a business agreement with TransUnion and credentials issued by an
   name: TransUnion Global Developer Portal
   slug: global-developer-portal
 - description: Device recognition and fraud signals, formerly iovation FraudForce. Mobile SDKs collect a device "blackbox" that is submitted to a risk check from your servers. The API host api.iovation.com is behind
   name: TransUnion TruValidate Device Risk
   slug: truvalidate-device-risk
-artifact_total: 10
+- description: 'This API endpoint uses the following data elements (''required'' elements identified) in the REQUEST to create a SIP Identity header. Based on the HTTP header of ''Content-Type'' (e.g. json, text/plain), '
+  name: TransUnion Authentication Service API
+  slug: transunion-authentication-service-api
+- description: Used to construct a PASSporT "shaken" JSON Web Token, a PASSporT "div" JSON Web Token or a PASSporT "rph" JSON Web Token. Also, referred to as the Secure Telephone Identity Authentication Service (STI
+  name: TransUnion Signing API
+  slug: transunion-signing-api
+- description: Used to verify one or more PASSporT JSON Web Tokens (or Identity headers). Also, referred to as the STI Verification Service (STI-VS).
+  name: TransUnion Verification API
+  slug: transunion-verification-api
+- description: Currently, a RESTful API client is required to provide an 'apiKey' query parameter with a pre-provisioned value to access API calls that are restricted. If the 'apiKey' parameter is not specified, the
+  name: TransUnion Verification Service API
+  slug: transunion-verification-service-api
+- description: The Verification Service with Call Validation Treatment (CVT) API from TransUnion — 1 operation(s) for verification service with call validation treatment (cvt).
+  name: TransUnion Verification Service with Call Validation Treatment (CVT) API
+  slug: transunion-verification-service-with-call-validation-treatment-cvt-api
+artifact_total: 14
 collections:
 - collection_type: open
   name: 3GPP-based Call Authentication APIs
@@ -54,6 +66,14 @@ collections:
   name: STIR/SHAKEN Authentication & Verification Service APIs
   slug: open-transunion-trucontact-tcs-shaken
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/transunion-trucontact-tcs-shaken-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/transunion-trucontact-3gpp-call-authentication-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -158,10 +178,10 @@ modified: '2026-08-13'
 name: TransUnion
 nav: Providers
 network: true
-overview: 'TransUnion publishes 1 API on the [APIs.io](https://apis.io/) network: TruContact Trusted Call Solutions (STI-AS / STI-VS). Tagged areas include Financial, Credit Reporting, Risk, Identity, and Fraud.
+overview: 'TransUnion publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication Service API, Signing API, Verification API, and 2 more. Tagged areas include Financial, Credit Reporting, Risk, Identity, and Fraud.
 
 
-  TransUnion''s developer surface includes authentication, product news, engineering blog, and 21 more developer resources.'
+  TransUnion''s developer surface includes authentication, product news, engineering blog, and 23 more developer resources.'
 plans:
 - name: Transunion Plans Pricing
   plan_count: 0
@@ -173,18 +193,23 @@ rate_limits:
   slug: transunion-rate-limits
 score:
   band: thin
-  composite: 31.3
-  delta: 3.3
+  composite: 28.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
-    contract_quality: 51.0
+    contract_governance: 4.5
+    contract_quality: 48.6
     developer_ergonomics: 39.9
-    discoverability: 64.8
-    governance: 16.7
+    discoverability: 59.3
+    governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 28.0
+  previous_composite: 29.2
   provenance:
     conformance: derived
     contracts:
@@ -200,8 +225,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 31.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/screenshots/transunion-2026-06-20T195631.png
 security:

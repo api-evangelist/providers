@@ -23,16 +23,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 19
 apis:
-- description: REST API for the Anomalo data quality platform. Connect and refresh data warehouses, configure which tables are monitored, author and run data quality checks, read check-run results and table data pro
-  name: Anomalo Public API
-  slug: anomalo-public-api
 - description: Official Anomalo MCP (Model Context Protocol) server, published by Anomalo as a Google Gemini CLI extension under the Apache-2.0 license. Runs locally over stdio against a customer's own Anomalo insta
   name: Anomalo MCP Server
   slug: anomalo-mcp-server
-artifact_total: 8
+- description: The Access Groups API from Anomalo — 10 operation(s) for access groups.
+  name: Anomalo Access Groups API
+  slug: anomalo-access-groups-api
+- description: The API Keys API from Anomalo — 2 operation(s) for api keys.
+  name: Anomalo API Keys API
+  slug: anomalo-api-keys-api
+- description: The Check Runs API from Anomalo — 2 operation(s) for check runs.
+  name: Anomalo Check Runs API
+  slug: anomalo-check-runs-api
+- description: The Checks API from Anomalo — 9 operation(s) for checks.
+  name: Anomalo Checks API
+  slug: anomalo-checks-api
+- description: Sets of unstructured documents Anomalo monitors and analyzes.
+  name: Anomalo Document Collections API
+  slug: anomalo-document-collections-api
+- description: Individual documents within a collection, and the issues found in them.
+  name: Anomalo Documents API
+  slug: anomalo-documents-api
+- description: The Exports API from Anomalo — 1 operation(s) for exports.
+  name: Anomalo Exports API
+  slug: anomalo-exports-api
+- description: Data quality issues detected across an organization's unstructured content.
+  name: Anomalo Issues API
+  slug: anomalo-issues-api
+- description: The Labels API from Anomalo — 5 operation(s) for labels.
+  name: Anomalo Labels API
+  slug: anomalo-labels-api
+- description: The Lineage API from Anomalo — 3 operation(s) for lineage.
+  name: Anomalo Lineage API
+  slug: anomalo-lineage-api
+- description: The Notification Channels API from Anomalo — 3 operation(s) for notification channels.
+  name: Anomalo Notification Channels API
+  slug: anomalo-notification-channels-api
+- description: The Organizations API from Anomalo — 3 operation(s) for organizations.
+  name: Anomalo Organizations API
+  slug: anomalo-organizations-api
+- description: The Sensitive Columns API from Anomalo — 2 operation(s) for sensitive columns.
+  name: Anomalo Sensitive Columns API
+  slug: anomalo-sensitive-columns-api
+- description: The System API from Anomalo — 1 operation(s) for system.
+  name: Anomalo System API
+  slug: anomalo-system-api
+- description: The Tables API from Anomalo — 10 operation(s) for tables.
+  name: Anomalo Tables API
+  slug: anomalo-tables-api
+- description: The Tasks API from Anomalo — 1 operation(s) for tasks.
+  name: Anomalo Tasks API
+  slug: anomalo-tasks-api
+- description: The Users API from Anomalo — 6 operation(s) for users.
+  name: Anomalo Users API
+  slug: anomalo-users-api
+- description: The Warehouses API from Anomalo — 5 operation(s) for warehouses.
+  name: Anomalo Warehouses API
+  slug: anomalo-warehouses-api
+artifact_total: 25
 collections:
 - collection_type: open
   name: Anomalo Public API
@@ -41,6 +92,10 @@ collections:
   name: Anomalo Unstructured Data API
   slug: open-anomalo-unstructured
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/anomalo-public-api-overlay.yaml
 - group: operate
   title: ''
   type: Releases
@@ -166,10 +221,10 @@ modified: '2026-07-31'
 name: Anomalo
 nav: Providers
 network: true
-overview: 'Anomalo publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Data Quality, Data Observability, Data Monitoring, Anomaly Detection, and Data Governance.
+overview: 'Anomalo publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Access Groups API, API Keys API, Check Runs API, and 15 more. Tagged areas include data-quality, data-observability, data-monitoring, anomaly-detection, and data-governance.
 
 
-  Anomalo''s developer surface includes documentation, support, engineering blog, signup flow, CLI, authentication, changelog, and 21 more developer resources.'
+  Anomalo''s developer surface includes documentation, support, engineering blog, signup flow, CLI, authentication, changelog, and 22 more developer resources.'
 random_paper: 8
 scopes:
 - name: Anomalo Scopes
@@ -178,18 +233,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.5
+  composite: 32.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 15.4
     developer_ergonomics: 44.6
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 33.5
+  previous_composite: 32.3
   provenance:
     conformance: derived
     contracts:
@@ -199,8 +259,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anomalo/refs/heads/main/screenshots/anomalo-2026-08-07T161419.png
 security:
@@ -214,20 +274,20 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: anomalo
 tags:
-- Data Quality
-- Data Observability
-- Data Monitoring
-- Anomaly Detection
-- Data Governance
-- Data Lineage
-- Data Profiling
-- Data Validation
-- Data Engineering
-- Machine-Learning
-- Snowflake
-- Databricks
-- BigQuery
-- Enterprise Data
+- data-quality
+- data-observability
+- data-monitoring
+- anomaly-detection
+- data-governance
+- data-lineage
+- data-profiling
+- data-validation
+- data-engineering
+- machine-learning
+- snowflake
+- databricks
+- bigquery
+- enterprise-data
 - MCP
 - agent-native
 website: https://www.anomalo.com/

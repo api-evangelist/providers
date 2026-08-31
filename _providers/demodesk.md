@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: The Externally recorded demos API from Demodesk — 3 operation(s) for externally recorded demos.
   name: Demodesk Externally recorded demos API
@@ -46,7 +46,10 @@ apis:
 - description: Endpoints regarding user management.
   name: Demodesk Users API
   slug: demodesk-users-api
-artifact_total: 15
+- description: The Demodesk Public API API from Demodesk — 0 operation(s) for demodesk public api.
+  name: Demodesk Demodesk Public API
+  slug: demodesk-demodesk-public-api-api
+artifact_total: 16
 asyncapis:
 - description: Event notifications Demodesk POSTs to a subscriber endpoint.
   name: Demodesk Webhooks
@@ -213,7 +216,7 @@ modified: '2026-08-14'
 name: Demodesk
 nav: Providers
 network: true
-overview: 'Demodesk publishes 3 APIs on the [APIs.io](https://apis.io/) network: Externally recorded demos API, Recordings API, and Users API. Tagged areas include Company, Sales, Artificial Intelligence, Conversation Intelligence, and Video Conferencing.
+overview: 'Demodesk publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Externally recorded demos API, Recordings API, Users API, and 1 more. Tagged areas include Company, Sales, Artificial Intelligence, Conversation Intelligence, and Video Conferencing.
 
 
   The Demodesk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -236,18 +239,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 60.3
-  delta: 1.0
+  composite: 57.0
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 16.7
-    contract_quality: 59.7
+    contract_governance: 4.5
+    contract_quality: 59.1
     developer_ergonomics: 47.0
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 59.3
+  previous_composite: 57.6
   provenance:
     conformance: derived
     contracts:
@@ -257,8 +265,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demodesk/refs/heads/main/screenshots/demodesk-2026-07-25T211714.png
 security:

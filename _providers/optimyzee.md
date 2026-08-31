@@ -33,18 +33,139 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.9
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: The REST API behind the Optimyzee web application. Covers Google Ads campaign creation (search creation, AI search creation, keyword planner, RSA builder, sitelink builder), analysis (account audit, a
-  name: Optimyzee Application API
-  slug: optimyzee-application-api
-artifact_total: 6
+- description: App/Analyze/GoogleAds/Audit
+  name: Optimyzee App/Analyze/Google Ads/Audit API
+  slug: optimyzee-app-analyze-googleads-audit-api
+- description: App/Analyze/GoogleAds/Health
+  name: Optimyzee App/Analyze/Google Ads/Health API
+  slug: optimyzee-app-analyze-googleads-health-api
+- description: App/Analyze/GoogleAds/Optimization
+  name: Optimyzee App/Analyze/Google Ads/Optimization API
+  slug: optimyzee-app-analyze-googleads-optimization-api
+- description: App/Analyze/GoogleAds/Reporting
+  name: Optimyzee App/Analyze/Google Ads/Reporting API
+  slug: optimyzee-app-analyze-googleads-reporting-api
+- description: App/Auth/Email
+  name: Optimyzee App/Auth/Email API
+  slug: optimyzee-app-auth-email-api
+- description: App/Auth/Gateway
+  name: Optimyzee App/Auth/Gateway API
+  slug: optimyzee-app-auth-gateway-api
+- description: App/Auth/Password
+  name: Optimyzee App/Auth/Password API
+  slug: optimyzee-app-auth-password-api
+- description: App/Auth/Profile
+  name: Optimyzee App/Auth/Profile API
+  slug: optimyzee-app-auth-profile-api
+- description: App/Auth/Tfa
+  name: Optimyzee App/Auth/Tfa API
+  slug: optimyzee-app-auth-tfa-api
+- description: App/Auth/TrustedDevice
+  name: Optimyzee App/Auth/Trusted Device API
+  slug: optimyzee-app-auth-trusteddevice-api
+- description: App Automation
+  name: Optimyzee App Automation API
+  slug: optimyzee-app-automation-api
+- description: App Automations
+  name: Optimyzee App Automations API
+  slug: optimyzee-app-automations-api
+- description: App/Billing/Subscription
+  name: Optimyzee App/Billing/Subscription API
+  slug: optimyzee-app-billing-subscription-api
+- description: App/Campaign/Activity
+  name: Optimyzee App/Campaign/Activity API
+  slug: optimyzee-app-campaign-activity-api
+- description: App/Campaign
+  name: Optimyzee App/Campaign API
+  slug: optimyzee-app-campaign-api
+- description: App/Campaign/GoogleAds
+  name: Optimyzee App/Campaign/Google Ads API
+  slug: optimyzee-app-campaign-googleads-api
+- description: App/Create/GoogleAds/KeywordPlanner
+  name: Optimyzee App/Create/Google Ads/Keyword Planner API
+  slug: optimyzee-app-create-googleads-keywordplanner-api
+- description: App/Create/GoogleAds/RsaBuilder
+  name: Optimyzee App/Create/Google Ads/Rsa Builder API
+  slug: optimyzee-app-create-googleads-rsabuilder-api
+- description: App/Create/GoogleAds/SearchCreation
+  name: Optimyzee App/Create/Google Ads/Search Creation API
+  slug: optimyzee-app-create-googleads-searchcreation-api
+- description: App/Create/GoogleAds/SearchCreationAi
+  name: Optimyzee App/Create/Google Ads/Search Creation AI API
+  slug: optimyzee-app-create-googleads-searchcreationai-api
+- description: App/Create/GoogleAds/SitelinkBuilder
+  name: Optimyzee App/Create/Google Ads/Sitelink Builder API
+  slug: optimyzee-app-create-googleads-sitelinkbuilder-api
+- description: App/FreeLimit
+  name: Optimyzee App/Free Limit API
+  slug: optimyzee-app-freelimit-api
+- description: App/Linking/GoogleAds
+  name: Optimyzee App/Linking/Google Ads API
+  slug: optimyzee-app-linking-googleads-api
+- description: App/Linking/Meta
+  name: Optimyzee App/Linking/Meta API
+  slug: optimyzee-app-linking-meta-api
+- description: App/Lookup/GoogleAds/Campaign
+  name: Optimyzee App/Lookup/Google Ads/Campaign API
+  slug: optimyzee-app-lookup-googleads-campaign-api
+- description: App/Lookup/GoogleAds/GeoTargetConstant
+  name: Optimyzee App/Lookup/Google Ads/Geo Target Constant API
+  slug: optimyzee-app-lookup-googleads-geotargetconstant-api
+- description: App/Lookup/GoogleAds/LanguageConstant
+  name: Optimyzee App/Lookup/Google Ads/Language Constant API
+  slug: optimyzee-app-lookup-googleads-languageconstant-api
+- description: App/Lookup/GoogleAds/MerchantCenter
+  name: Optimyzee App/Lookup/Google Ads/Merchant Center API
+  slug: optimyzee-app-lookup-googleads-merchantcenter-api
+- description: App Recommendation
+  name: Optimyzee App Recommendation API
+  slug: optimyzee-app-recommendation-api
+- description: App Signal
+  name: Optimyzee App Signal API
+  slug: optimyzee-app-signal-api
+- description: App/Support
+  name: Optimyzee App/Support API
+  slug: optimyzee-app-support-api
+- description: App Yelp
+  name: Optimyzee App Yelp API
+  slug: optimyzee-app-yelp-api
+- description: Operations/Admin
+  name: Optimyzee Operations/Admin API
+  slug: optimyzee-operations-admin-api
+- description: Operations/Auth/Gateway
+  name: Optimyzee Operations/Auth/Gateway API
+  slug: optimyzee-operations-auth-gateway-api
+- description: Operations/Auth/Profile
+  name: Optimyzee Operations/Auth/Profile API
+  slug: optimyzee-operations-auth-profile-api
+- description: Operations/Billing/Subscription
+  name: Optimyzee Operations/Billing/Subscription API
+  slug: optimyzee-operations-billing-subscription-api
+- description: Operations/Campaign
+  name: Optimyzee Operations/Campaign API
+  slug: optimyzee-operations-campaign-api
+- description: Operations/Campaign/Log
+  name: Optimyzee Operations/Campaign/Log API
+  slug: optimyzee-operations-campaign-log-api
+- description: Operations/Campaign/Task
+  name: Optimyzee Operations/Campaign/Task API
+  slug: optimyzee-operations-campaign-task-api
+- description: Operations/User
+  name: Optimyzee Operations/User API
+  slug: optimyzee-operations-user-api
+artifact_total: 45
 collections:
 - collection_type: open
   name: Optimyzee Application API
   slug: open-optimyzee
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/optimyzee-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -138,10 +259,10 @@ modified: '2026-08-12'
 name: Optimyzee
 nav: Providers
 network: true
-overview: 'Optimyzee publishes 1 API on the [APIs.io](https://apis.io/) network: Application API. Tagged areas include Company, Advertising, Google Ads, PPC, and Marketing.
+overview: 'Optimyzee publishes 40 APIs on the [APIs.io](https://apis.io/) network, including App/Analyze/Google Ads/Audit API, App/Analyze/Google Ads/Health API, App/Analyze/Google Ads/Optimization API, and 37 more. Tagged areas include Company, Advertising, Google Ads, PPC, and Marketing.
 
 
-  Optimyzee''s developer surface includes pricing, engineering blog, signup flow, support, authentication, and 16 more developer resources.'
+  Optimyzee''s developer surface includes pricing, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
 plans:
 - name: Optimyzee Plans Pricing
   plan_count: 3
@@ -152,19 +273,24 @@ rate_limits:
   name: Optimyzee Rate Limits
   slug: optimyzee-rate-limits
 score:
-  band: developing
-  composite: 40.3
-  delta: 0.0
+  band: thin
+  composite: 37.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
-    contract_governance: 16.7
-    contract_quality: 47.7
+    contract_governance: 4.5
+    contract_quality: 45.5
     developer_ergonomics: 20.8
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 40.3
+  previous_composite: 38.5
   provenance:
     conformance: derived
     contracts:
@@ -174,8 +300,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optimyzee/refs/heads/main/screenshots/optimyzee-2026-08-07T190810.png
 security:

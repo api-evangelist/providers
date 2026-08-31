@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/cisco/
 created: '2026-07-17'
 description: Metacloud was an OpenStack-based private-cloud company founded in 2011 in Pasadena, California by former infrastructure engineers from Yahoo! and Ticketmaster. It let enterprises run production OpenStack private clouds on their own hardware, fully operated as a managed service. Metacloud raised a $10M Series A led by Canaan Partners (with Storm Ventures and AME Cloud Ventures) and was acquired by Cisco in 2014, where it became Cisco Metapod and later Cisco Metacloud before the product line was retired. There is no independent Metacloud company or first-party developer API surface today; the platform exposed standard OpenStack APIs rather than a proprietary API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/metacloud.png
@@ -48,6 +53,11 @@ random_paper: 13
 score:
   band: minimal
   composite: 5.0
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -67,8 +77,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: metacloud
 tags:

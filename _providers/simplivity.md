@@ -25,15 +25,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.8
-  scored_at: '2026-08-26'
+  score: 25.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 3
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 87
   slug: simplivity-agentic-access
   summary_line: 87 operations · 51 acting · 3 human-in-the-loop
-api_count: 10
+api_count: 1
 apis:
 - description: A backup is a complete, standalone image of a specific virtual machine, taken at a specific point in time.
   name: SimpliVity backups API
@@ -109,6 +109,22 @@ collections:
   name: HPE OmniStack REST backups virtual_machines API
   slug: open-simplivity-virtual-machines-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/hewlett-packard-enterprise/
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/HewlettPackard/simplivity-python/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/HewlettPackard/simplivity-python/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/HewlettPackard/simplivity-python/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -204,7 +220,7 @@ network: true
 overview: 'SimpliVity publishes 10 APIs on the [APIs.io](https://apis.io/) network, including backups API, cluster_groups API, datastores API, and 7 more. Tagged areas include Company, Big Data, Hyperconverged Infrastructure, Virtualization, and Backup.
 
 
-  SimpliVity''s developer surface includes documentation, API reference, and 18 more developer resources.'
+  SimpliVity''s developer surface includes documentation, API reference, and 22 more developer resources.'
 random_paper: 1
 scopes:
 - name: Simplivity Scopes
@@ -213,18 +229,26 @@ scopes:
   summary_line: 2 scopes · password
 score:
   band: thin
-  composite: 29.2
-  delta: 2.3
+  composite: 31.4
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
-    contract_quality: 40.9
+    contract_governance: 4.5
+    contract_quality: 41.0
     developer_ergonomics: 37.5
-    discoverability: 81.5
-    governance: 16.7
-    operational_transparency: 10.5
-  previous_composite: 26.9
+    discoverability: 75.9
+    governance: 4.5
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 31.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,8 +259,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

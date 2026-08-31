@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sumup/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -118,7 +122,7 @@ network: true
 overview: 'Fivestars is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Loyalty, Rewards, Payments, and Point-of-Sale.
 
 
-  Fivestars'' developer surface includes support and 13 more developer resources.'
+  Fivestars'' developer surface includes support and 14 more developer resources.'
 plans:
 - name: Fivestars Plans Pricing
   plan_count: 0
@@ -131,6 +135,11 @@ rate_limits:
 score:
   band: emerging
   composite: 13.7
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 27.6
@@ -148,8 +157,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fivestars/refs/heads/main/screenshots/fivestars-2026-07-25T214648.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 19
   slug: people-first-bank-agentic-access
   summary_line: 19 operations · 3 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Banking Account Balance endpoints
   name: People First Bank Banking Account Balances API
@@ -91,6 +91,10 @@ collections:
   name: CDR Banking Banking Account Balances Banking Products API
   slug: open-people-first-bank-banking-products-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/people-first-bank-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -194,22 +198,27 @@ network: true
 overview: 'People First Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Banking.
 
 
-  People First Bank''s developer surface includes authentication, documentation, getting-started guide, API reference, engineering blog, support, and 16 more developer resources.'
+  People First Bank''s developer surface includes authentication, documentation, getting-started guide, API reference, engineering blog, support, and 17 more developer resources.'
 random_paper: 19
 score:
   band: thin
-  composite: 38.7
-  delta: 0.0
+  composite: 36.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 49.7
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 38.7
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -222,12 +231,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: AU
+      standard: cdr-consumer-data-standards
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/people-first-bank/refs/heads/main/screenshots/people-first-bank-2026-07-21T114746.png
 security:

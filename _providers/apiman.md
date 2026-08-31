@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 177
   slug: apiman-agentic-access
   summary_line: 177 operations · 76 acting · 2 human-in-the-loop
-api_count: 16
+api_count: 1
 apis:
 - description: Apiman is an open source API management platform with a developer portal, API gateway, and management UI supporting policies, plans, organizations, multi-tenancy, and extensible Java-based plugin arch
   name: Apiman
@@ -277,17 +277,25 @@ rules:
   slug: apiman-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.5
-  delta: 0.0
+  composite: 33.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 4.1
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 49.9
     developer_ergonomics: 7.1
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 75.0
   previous_composite: 29.5
   provenance:
     agentic_access: derived
@@ -296,8 +304,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/screenshots/apiman-2026-06-20T172245.png
 security:

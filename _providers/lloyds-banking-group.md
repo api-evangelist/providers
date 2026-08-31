@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -31,27 +31,120 @@ agentic_access:
   operation_count: 95
   slug: lloyds-banking-group-agentic-access
   summary_line: 95 operations · 26 acting
-api_count: 6
+api_count: 5
 apis:
-- description: Public, unauthenticated UK Open Banking Open Data API exposing reference data - ATMs, branches, personal current accounts, business current accounts, unsecured SME loans, and commercial credit cards -
-  name: Lloyds Banking Group Open Data API
-  slug: open-data-api
-- description: OBIE Read/Write Account and Transaction Information (AIS) API for accessing account, balance, transaction, beneficiary, standing order, direct debit, and statement data with customer consent. FAPI-sec
-  name: Lloyds Banking Group Account and Transaction Information API
-  slug: account-information-api
-- description: OBIE Read/Write Payment Initiation (PIS) API for initiating domestic, scheduled, standing-order, international, and business bulk/batch payments with customer authorisation. FAPI-secured (OAuth2/OIDC,
-  name: Lloyds Banking Group Payment Initiation API
-  slug: payment-initiation-api
-- description: OBIE Read/Write Confirmation of Funds (CBPII) API allowing an authorised card-based payment instrument issuer to check whether funds are available on a customer account. FAPI-secured (OAuth2/OIDC, mTL
-  name: Lloyds Banking Group Confirmation of Funds API
-  slug: confirmation-of-funds-api
-- description: OBIE Variable Recurring Payments (VRP) profile API enabling consent-based recurring payments under a customer-agreed mandate, including sweeping between a customer's own accounts. FAPI-secured (OAuth2
-  name: Lloyds Banking Group Variable Recurring Payments API
-  slug: variable-recurring-payments-api
 - description: OBIE Event Notifications API delivering aggregated and real-time event signals (e.g. consent revocation, resource-update notifications) to registered TPPs. FAPI-secured; requires developer-portal onbo
   name: Lloyds Banking Group Event Notifications API
   slug: event-notifications-api
-artifact_total: 12
+- description: The Account Access Consents API from Lloyds Banking Group — 2 operation(s) for account access consents.
+  name: Lloyds Banking Group Account Access Consents API
+  slug: lloyds-banking-group-account-access-consents-api
+- description: The Accounts API from Lloyds Banking Group — 2 operation(s) for accounts.
+  name: Lloyds Banking Group Accounts API
+  slug: lloyds-banking-group-accounts-api
+- description: Endpoint for getting ATM data
+  name: Lloyds Banking Group ATM API
+  slug: lloyds-banking-group-atm-api
+- description: The Balances API from Lloyds Banking Group — 2 operation(s) for balances.
+  name: Lloyds Banking Group Balances API
+  slug: lloyds-banking-group-balances-api
+- description: Endpoint for getting Business Current Account data
+  name: Lloyds Banking Group BCA API
+  slug: lloyds-banking-group-bca-api
+- description: The Beneficiaries API from Lloyds Banking Group — 2 operation(s) for beneficiaries.
+  name: Lloyds Banking Group Beneficiaries API
+  slug: lloyds-banking-group-beneficiaries-api
+- description: Endpoint for getting Branch data
+  name: Lloyds Banking Group Branch API
+  slug: lloyds-banking-group-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: Lloyds Banking Group CCC API
+  slug: lloyds-banking-group-ccc-api
+- description: The Direct Debits API from Lloyds Banking Group — 2 operation(s) for direct debits.
+  name: Lloyds Banking Group Direct Debits API
+  slug: lloyds-banking-group-direct-debits-api
+- description: The Domestic Payment Consents API from Lloyds Banking Group — 3 operation(s) for domestic payment consents.
+  name: Lloyds Banking Group Domestic Payment Consents API
+  slug: lloyds-banking-group-domestic-payment-consents-api
+- description: The Domestic Payments API from Lloyds Banking Group — 3 operation(s) for domestic payments.
+  name: Lloyds Banking Group Domestic Payments API
+  slug: lloyds-banking-group-domestic-payments-api
+- description: The Domestic Scheduled Payment Consents API from Lloyds Banking Group — 2 operation(s) for domestic scheduled payment consents.
+  name: Lloyds Banking Group Domestic Scheduled Payment Consents API
+  slug: lloyds-banking-group-domestic-scheduled-payment-consents-api
+- description: The Domestic Scheduled Payments API from Lloyds Banking Group — 3 operation(s) for domestic scheduled payments.
+  name: Lloyds Banking Group Domestic Scheduled Payments API
+  slug: lloyds-banking-group-domestic-scheduled-payments-api
+- description: The Domestic Standing Order Consents API from Lloyds Banking Group — 2 operation(s) for domestic standing order consents.
+  name: Lloyds Banking Group Domestic Standing Order Consents API
+  slug: lloyds-banking-group-domestic-standing-order-consents-api
+- description: The Domestic Standing Orders API from Lloyds Banking Group — 3 operation(s) for domestic standing orders.
+  name: Lloyds Banking Group Domestic Standing Orders API
+  slug: lloyds-banking-group-domestic-standing-orders-api
+- description: The Domestic VRP Consents API from Lloyds Banking Group — 3 operation(s) for domestic vrp consents.
+  name: Lloyds Banking Group Domestic VRP Consents API
+  slug: lloyds-banking-group-domestic-vrp-consents-api
+- description: The Domestic VRPs API from Lloyds Banking Group — 3 operation(s) for domestic vrps.
+  name: Lloyds Banking Group Domestic VRPs API
+  slug: lloyds-banking-group-domestic-vrps-api
+- description: The File Payment Consents API from Lloyds Banking Group — 3 operation(s) for file payment consents.
+  name: Lloyds Banking Group File Payment Consents API
+  slug: lloyds-banking-group-file-payment-consents-api
+- description: The File Payments API from Lloyds Banking Group — 4 operation(s) for file payments.
+  name: Lloyds Banking Group File Payments API
+  slug: lloyds-banking-group-file-payments-api
+- description: The Funds Confirmation Consents API from Lloyds Banking Group — 2 operation(s) for funds confirmation consents.
+  name: Lloyds Banking Group Funds Confirmation Consents API
+  slug: lloyds-banking-group-funds-confirmation-consents-api
+- description: The Funds Confirmations API from Lloyds Banking Group — 1 operation(s) for funds confirmations.
+  name: Lloyds Banking Group Funds Confirmations API
+  slug: lloyds-banking-group-funds-confirmations-api
+- description: The International Payment Consents API from Lloyds Banking Group — 3 operation(s) for international payment consents.
+  name: Lloyds Banking Group International Payment Consents API
+  slug: lloyds-banking-group-international-payment-consents-api
+- description: The International Payments API from Lloyds Banking Group — 3 operation(s) for international payments.
+  name: Lloyds Banking Group International Payments API
+  slug: lloyds-banking-group-international-payments-api
+- description: The International Scheduled Payments API from Lloyds Banking Group — 3 operation(s) for international scheduled payments.
+  name: Lloyds Banking Group International Scheduled Payments API
+  slug: lloyds-banking-group-international-scheduled-payments-api
+- description: The International Scheduled Payments Consents API from Lloyds Banking Group — 3 operation(s) for international scheduled payments consents.
+  name: Lloyds Banking Group International Scheduled Payments Consents API
+  slug: lloyds-banking-group-international-scheduled-payments-consents-api
+- description: The International Standing Orders API from Lloyds Banking Group — 3 operation(s) for international standing orders.
+  name: Lloyds Banking Group International Standing Orders API
+  slug: lloyds-banking-group-international-standing-orders-api
+- description: The International Standing Orders Consents API from Lloyds Banking Group — 2 operation(s) for international standing orders consents.
+  name: Lloyds Banking Group International Standing Orders Consents API
+  slug: lloyds-banking-group-international-standing-orders-consents-api
+- description: The Offers API from Lloyds Banking Group — 2 operation(s) for offers.
+  name: Lloyds Banking Group Offers API
+  slug: lloyds-banking-group-offers-api
+- description: The Parties API from Lloyds Banking Group — 3 operation(s) for parties.
+  name: Lloyds Banking Group Parties API
+  slug: lloyds-banking-group-parties-api
+- description: Endpoint for getting Personal Current Account data
+  name: Lloyds Banking Group PCA API
+  slug: lloyds-banking-group-pca-api
+- description: The Products API from Lloyds Banking Group — 2 operation(s) for products.
+  name: Lloyds Banking Group Products API
+  slug: lloyds-banking-group-products-api
+- description: The Scheduled Payments API from Lloyds Banking Group — 2 operation(s) for scheduled payments.
+  name: Lloyds Banking Group Scheduled Payments API
+  slug: lloyds-banking-group-scheduled-payments-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: Lloyds Banking Group SME API
+  slug: lloyds-banking-group-sme-api
+- description: The Standing Orders API from Lloyds Banking Group — 2 operation(s) for standing orders.
+  name: Lloyds Banking Group Standing Orders API
+  slug: lloyds-banking-group-standing-orders-api
+- description: The Statements API from Lloyds Banking Group — 5 operation(s) for statements.
+  name: Lloyds Banking Group Statements API
+  slug: lloyds-banking-group-statements-api
+- description: The Transactions API from Lloyds Banking Group — 2 operation(s) for transactions.
+  name: Lloyds Banking Group Transactions API
+  slug: lloyds-banking-group-transactions-api
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Lloyds Banking Group Event Notifications Webhooks
@@ -61,6 +154,30 @@ collections:
   name: Open Data API
   slug: open-obie-opendata-swagger
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lloyds-banking-group-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lloyds-banking-group-opendata-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lloyds-banking-group-account-info-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lloyds-banking-group-payment-initiation-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lloyds-banking-group-confirmation-funds-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lloyds-banking-group-vrp-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -158,13 +275,13 @@ modified: '2026-07-23'
 name: Lloyds Banking Group
 nav: Providers
 network: true
-overview: 'Lloyds Banking Group publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account and Transaction Information API, Payment Initiation API, and 2 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Lloyds Banking Group publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 33 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   The Lloyds Banking Group catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lloyds Banking Group''s developer surface includes authentication, getting-started guide, documentation, API reference, engineering blog, support, and 16 more developer resources.'
+  Lloyds Banking Group''s developer surface includes authentication, getting-started guide, documentation, API reference, engineering blog, support, and 22 more developer resources.'
 random_paper: 3
 scopes:
 - name: Lloyds Banking Group Scopes
@@ -173,18 +290,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 41.2
-  delta: -0.7
+  composite: 39.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
-    contract_quality: 58.8
+    contract_governance: 4.5
+    contract_quality: 59.8
     developer_ergonomics: 56.5
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 41.9
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -196,12 +318,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/screenshots/lloyds-banking-group-2026-07-25T225413.png
 security:

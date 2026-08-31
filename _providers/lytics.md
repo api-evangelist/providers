@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -22,7 +23,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: true
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-26'
+  score: 41.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 941
   human_in_the_loop: 3
@@ -44,13 +45,109 @@ agentic_access:
   summary_line: 1467 operations · 941 acting · 3 human-in-the-loop
 api_count: 2
 apis:
-- description: Version 2 of the Lytics API — the current REST surface for the Lytics customer data platform. Covers accounts and users, authorizations and connections, data models and Cloud Connect, schema and ident
-  name: Lytics API v2
-  slug: lytics-api-v2
-- description: 'Version 1 of the Lytics API — the data collection, personalization, segmentation, content and catalog surface. Includes the /collect data upload endpoints, the personalization and entity lookup APIs, '
-  name: V1 Lytics API
-  slug: lytics-api-v1
-artifact_total: 22
+- description: 'Account related resources of the *Lytics API*. The Account resource describes an account. An account can be a *Master* account, which means that it is a billing account. Master accounts have children '
+  name: Lytics Account API
+  slug: lytics-account-api
+- description: Account Settings describe features/settings for a Lytics account.
+  name: Lytics Account Settings API
+  slug: lytics-account-settings-api
+- description: API for creation or storage of auth tokens. Most of these tokens are created from the Integrations/Imports setup for Lytics integrations. Additionally, api tokens can be created/managed from this endp
+  name: Lytics Auth API
+  slug: lytics-auth-api
+- description: Create and manage credentials and access to external systems.
+  name: Lytics Auths API
+  slug: lytics-auths-api
+- description: Catalog exposes info about the schema of the data in Lytics. * **Entities** are Object Types, the primary one being a *User* although most accounts also have *Content* and *Campaign* as well. Custom o
+  name: Lytics Catalog API
+  slug: lytics-catalog-api
+- description: Create and manage connections to external data sources.
+  name: Lytics Connections API
+  slug: lytics-connections-api
+- description: Content APIs for Lytics Content Affinity Engine, allow for adding content into lytics, getting lists of content, and understanding the content and content-topics. **Content Classification** Content cl
+  name: Lytics Content API
+  slug: lytics-content-api
+- description: Create and manage data models and their record stores.
+  name: Lytics Data Models API
+  slug: lytics-datamodels-api
+- description: APIs for collecting or uploading data. There are two main APIs, one for uploading Large files (bulk, millions of records) and another for sending real-time, or slightly batched events (Less than 10MB)
+  name: Lytics Data Upload API
+  slug: lytics-dataupload-api
+- description: API for creating and managing Experiences as well as all related and/or dependent models such as but not limited to Groups, Templates, Candidates, etc.
+  name: Lytics Experience API
+  slug: lytics-experience-api
+- description: Create and manage flows that orchestrate multi-step audience journeys.
+  name: Lytics Flows API
+  slug: lytics-flows-api
+- description: Create and manage data import and export jobs.
+  name: Lytics Jobs API
+  slug: lytics-jobs-api
+- description: 'The Metric API provides access to a variety of metrics that are recorded in the Lytics platform. With this API, you can access segment-size metrics, events received per-hour, as well as many workflow '
+  name: Lytics Metric API
+  slug: lytics-metric-api
+- description: Query time series metrics for segments, streams, experiences, and other Lytics resources.
+  name: Lytics Metrics API
+  slug: lytics-metrics-api
+- description: The ML Models API from Lytics — 3 operation(s) for ml models.
+  name: Lytics ML Models API
+  slug: lytics-ml-models-api
+- description: 'Entity API, ie Personalization or Profile API. Retrieve attributes and segments an entity (most likely a user) is a member of. The *Entity* is a *User* most likely, but since Lytics is organized as a '
+  name: Lytics Personalization API
+  slug: lytics-personalization-api
+- description: Get and delete user profiles.
+  name: Lytics Profiles API
+  slug: lytics-profiles-api
+- description: Provider is a 3rd party Lytics Integrates with (Mailchimp, Optimizely, Mixpanel, Facebook etc)
+  name: Lytics Provider API
+  slug: lytics-provider-api
+- description: Schema management api to add/edit queries and user-fields. Lytics Query Language ============================= The Lytics Query Language is used to define the transformation of uploaded records, and e
+  name: Lytics Query API
+  slug: lytics-query-api
+- description: Create and manage reports.
+  name: Lytics Reports API
+  slug: lytics-reports-api
+- description: Manage how data sources populate profile fields.
+  name: Lytics Schema API
+  slug: lytics-schema-api
+- description: Segments are named, logical expressions of users. These segments may logically be built using other segments as well. The segment api provides a list of segments built by both the admin, pre-defined s
+  name: Lytics Segment API
+  slug: lytics-segment-api
+- description: Segment Collections are grouped/named lists of segments. Segments that participate in a collection such as **Goals** are related. The Lytics App ui has one predefined collection called **Goals** which
+  name: Lytics Segment Collection API
+  slug: lytics-segmentcollection-api
+- description: SegmentML provides a framework for building custom machine learning models directly in Lytics. Lytics SegmentML models are self-training, continuously-updating and real-time. SegmentML models are buil
+  name: Lytics Segment ML API
+  slug: lytics-segmentml-api
+- description: Create and manage audience segments.
+  name: Lytics Segments API
+  slug: lytics-segments-api
+- description: 'API for creating stream models. A stream is the same as a [data stream](https://learn.lytics.com/product-docs/data-management/using-data-streams#what-are-data-streams? ) and is consumed for ingestion '
+  name: Lytics Stream API
+  slug: lytics-stream-api
+- description: Get metrics and events for data streams in your Lytics account.
+  name: Lytics Streams API
+  slug: lytics-streams-api
+- description: '**BETA API** Subscriptions are queries into real-time events in Lytics, most commonly listening to a list of users entering/leaving segments ie _triggers_. **Common Use Cases** * Upon Entering/Leaving'
+  name: Lytics Subscription API
+  slug: lytics-subscription-api
+- description: Manage Lytics system users and their access to data and resources.
+  name: Lytics System API
+  slug: lytics-system-api
+- description: Get internal Lytics system events. These events are generally related to internal changes to state of an account. Common changes are CRUD Operations (Create, Update, Delete) of *Account*, *Admin User*
+  name: Lytics System Events API
+  slug: lytics-system-events-api
+- description: Create, manage, and test templates.
+  name: Lytics Templates API
+  slug: lytics-templates-api
+- description: Info about Administrative Lytics account users * Lytics users are unique across accounts * They get *invited* to have access to your account
+  name: Lytics User API
+  slug: lytics-user-api
+- description: 'Work is an *integration* unit, typically for imports and exports. Most run continually, while some run to completion. You generally would only use it through the Webadmin Integrations. * *Workflow* A '
+  name: Lytics Work API
+  slug: lytics-work-api
+- description: Workflow is a specification for a work unit
+  name: Lytics Workflow API
+  slug: lytics-workflow-api
+artifact_total: 54
 asyncapis:
 - description: ''
   name: Lytics Webhooks
@@ -66,6 +163,18 @@ collections:
   name: Lytics API
   slug: open-lytics-api-v2
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lytics-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lytics-api-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lytics-api-v1-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -318,13 +427,13 @@ modified: '2026-08-13'
 name: Lytics
 nav: Providers
 network: true
-overview: 'Lytics publishes 2 APIs on the [APIs.io](https://apis.io/) network: API v2 and V1 Lytics API. Tagged areas include Customer Data Platform, CDP, Personalization, Segmentation, and User Profiles.
+overview: 'Lytics publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account Settings API, Auth API, and 31 more. Tagged areas include Customer Data Platform, CDP, Personalization, Segmentation, and User Profiles.
 
 
   The Lytics catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Lytics'' developer surface includes authentication, documentation, engineering blog, pricing, changelog, support, CLI, and 46 more developer resources.'
+  Lytics'' developer surface includes authentication, documentation, engineering blog, pricing, changelog, support, CLI, and 49 more developer resources.'
 plans:
 - name: Lytics Plans Pricing
   plan_count: 3
@@ -347,25 +456,30 @@ rules:
   slug: lytics-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.6
-  delta: 0.0
+  composite: 61.0
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 56.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
-    contract_governance: 41.7
-    contract_quality: 70.1
+    contract_governance: 29.5
+    contract_quality: 67.1
     developer_ergonomics: 65.5
-    discoverability: 75.9
-    governance: 41.7
+    discoverability: 51.9
+    governance: 29.5
     operational_transparency: 34.2
-  previous_composite: 65.6
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lytics/refs/heads/main/screenshots/lytics-2026-06-20T184816.png
 security:

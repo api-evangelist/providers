@@ -23,18 +23,46 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: The anonymously readable WordPress REST content API behind www.flaretx.com — the 42-item corporate news archive, 14 corporate pages, a 419-item media library, the category taxonomy, cross-content sear
-  name: Flare Therapeutics Content API
-  slug: flare-therapeutics-content-api
-artifact_total: 6
+- description: Comment collection. Registered and reachable, but empty — no post on this deployment carries comments.
+  name: Flare Therapeutics Comments API
+  slug: flare-therapeutics-comments-api
+- description: Route, type, taxonomy and status discovery documents.
+  name: Flare Therapeutics Discovery API
+  slug: flare-therapeutics-discovery-api
+- description: Media library (419 attachments at harvest time — 400 images, 19 application/* documents, 0 video).
+  name: Flare Therapeutics Media API
+  slug: flare-therapeutics-media-api
+- description: oEmbed 1.0 provider endpoint for www.flaretx.com URLs.
+  name: Flare Therapeutics Oembed API
+  slug: flare-therapeutics-oembed-api
+- description: Corporate pages (14 published at harvest time) — home, about, science, pipeline, fx-909, fx-111, publications, news, press-releases, join-us, contact, privacy-policy, terms-of-use, flaretx.
+  name: Flare Therapeutics Pages API
+  slug: flare-therapeutics-pages-api
+- description: Reusable block patterns and their categories. Registered and anonymously reachable, but both report zero published items.
+  name: Flare Therapeutics Patterns API
+  slug: flare-therapeutics-patterns-api
+- description: News archive — press releases, news coverage and scientific presentations, 2021-05-13 (Series A launch) to 2026-06-30 (Series C and CEO appointment). 42 published at harvest time.
+  name: Flare Therapeutics Posts API
+  slug: flare-therapeutics-posts-api
+- description: Cross-content search across published objects.
+  name: Flare Therapeutics Search API
+  slug: flare-therapeutics-search-api
+- description: Categories and tags. Four categories are registered (News 36, Press Release 8, FlareTx 3, Uncategorized 3); the post_tag taxonomy is registered but empty.
+  name: Flare Therapeutics Taxonomy API
+  slug: flare-therapeutics-taxonomy-api
+artifact_total: 14
 collections:
 - collection_type: open
   name: Flare Therapeutics Content API
   slug: open-flare-therapeutics-content
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/flare-therapeutics-content-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -136,10 +164,10 @@ modified: '2026-08-12'
 name: Flare Therapeutics
 nav: Providers
 network: true
-overview: 'Flare Therapeutics publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Precision Medicine.
+overview: 'Flare Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Discovery API, Media API, and 6 more. Tagged areas include Company, biotechnology, pharmaceuticals, oncology, and precision-medicine.
 
 
-  Flare Therapeutics'' developer surface includes product news, authentication, and 21 more developer resources.'
+  Flare Therapeutics'' developer surface includes product news, authentication, and 22 more developer resources.'
 plans:
 - name: Flare Therapeutics Plans Pricing
   plan_count: 0
@@ -151,18 +179,23 @@ rate_limits:
   slug: flare-therapeutics-rate-limits
 score:
   band: thin
-  composite: 30.6
-  delta: 0.0
+  composite: 29.6
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 50.3
+    contract_governance: 4.5
+    contract_quality: 49.1
     developer_ergonomics: 13.7
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 30.6
+  previous_composite: 30.2
   provenance:
     conformance: derived
     contracts:
@@ -177,8 +210,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -192,14 +225,14 @@ security:
 slug: flare-therapeutics
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Oncology
-- Precision Medicine
+- biotechnology
+- pharmaceuticals
+- oncology
+- precision-medicine
 - transcription-factors
-- Drug Discovery
-- Clinical Trials
-- Life Sciences
+- drug-discovery
+- clinical-trials
+- life-sciences
 - content-api
 website: https://www.flaretx.com/
 ---

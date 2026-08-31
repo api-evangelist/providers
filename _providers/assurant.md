@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: assurant-agentic-access
   summary_line: 5 operations · 2 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The Assurant Global Housing API provides property management companies and housing partners with programmatic access to insurance products including renter's insurance, lender-placed insurance, and pr
   name: Assurant Global Housing API
@@ -80,6 +80,10 @@ collections:
   name: Assurant APEX Embedded Insurance Claims Products API
   slug: open-assurant-products-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/assurant-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -145,7 +149,7 @@ network: true
 overview: 'Assurant publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Enrollments API, Policies API, and 1 more. Tagged areas include Insurance, Device Protection, Embedded Insurance, Housing, and Claims.
 
 
-  Assurant''s developer surface includes authentication, developer portal, signup flow, and 5 more developer resources.'
+  Assurant''s developer surface includes authentication, developer portal, signup flow, and 6 more developer resources.'
 plans:
 - name: Assurant Plans Pricing
   plan_count: 3
@@ -173,18 +177,23 @@ rate_limits:
   slug: assurant-rate-limits
 score:
   band: thin
-  composite: 32.7
-  delta: 1.1
+  composite: 32.1
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 53.1
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 31.6
+  previous_composite: 32.7
   provenance:
     agentic_access: derived
     contracts:
@@ -198,8 +207,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/assurant/refs/heads/main/screenshots/assurant-2026-06-20T172509.png
 security:

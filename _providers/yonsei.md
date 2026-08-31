@@ -1,28 +1,17 @@
 ---
-access_model:
-  confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
-  pricing: free
-  public: false
-  source:
-  - plans
-  - authentication
-  trial: false
-  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: false
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -30,272 +19,71 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.5
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 278
-  human_in_the_loop: 1
-  name: Yonsei Agentic Access
-  operation_count: 969
-  slug: yonsei-agentic-access
-  summary_line: 969 operations · 278 acting · 1 human-in-the-loop
-api_count: 38
+  score: 2.5
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: YUHSpace is the Yonsei University Health System / Medical Library institutional repository, running DSpace 5.5 and built through the National Library of Korea OAK distribution project. A public RSS 2.
+- description: Yonsei University operates its own SAML 2.0 Identity Provider for KAFE, the Korean Access FEderation, on its own registrable domain. The entity is registered by kafe.kreonet.net and exported to eduGAI
+  name: Yonsei University KAFE Identity Provider (SAML 2.0)
+  slug: kafe-idp
+- description: YUHSpace is the Yonsei University Health System / Medical Library institutional repository, running DSpace 5.5 on Yonsei's own host and built through the National Library of Korea OAK distribution pro
   name: YUHSpace Institutional Repository (DSpace)
   slug: yuhspace
-- description: The activity API from Yonsei University — 39 operation(s) for activity.
-  name: Yonsei University activity API
-  slug: yonsei-activity-api
-- description: The application API from Yonsei University — 36 operation(s) for application.
-  name: Yonsei University application API
-  slug: yonsei-application-api
-- description: The authorCollaboration API from Yonsei University — 9 operation(s) for authorcollaboration.
-  name: Yonsei University authorCollaboration API
-  slug: yonsei-authorcollaboration-api
-- description: The award API from Yonsei University — 37 operation(s) for award.
-  name: Yonsei University award API
-  slug: yonsei-award-api
-- description: The classificationScheme API from Yonsei University — 7 operation(s) for classificationscheme.
-  name: Yonsei University classificationScheme API
-  slug: yonsei-classificationscheme-api
-- description: The concept API from Yonsei University — 4 operation(s) for concept.
-  name: Yonsei University concept API
-  slug: yonsei-concept-api
-- description: The conferenceSeries API from Yonsei University — 14 operation(s) for conferenceseries.
-  name: Yonsei University conferenceSeries API
-  slug: yonsei-conferenceseries-api
-- description: The contract API from Yonsei University — 26 operation(s) for contract.
-  name: Yonsei University contract API
-  slug: yonsei-contract-api
-- description: The course API from Yonsei University — 27 operation(s) for course.
-  name: Yonsei University course API
-  slug: yonsei-course-api
-- description: The dataSet API from Yonsei University — 30 operation(s) for dataset.
-  name: Yonsei University dataSet API
-  slug: yonsei-dataset-api
-- description: The education API from Yonsei University — 14 operation(s) for education.
-  name: Yonsei University education API
-  slug: yonsei-education-api
-- description: The equipment API from Yonsei University — 28 operation(s) for equipment.
-  name: Yonsei University equipment API
-  slug: yonsei-equipment-api
-- description: The ethicalReview API from Yonsei University — 22 operation(s) for ethicalreview.
-  name: Yonsei University ethicalReview API
-  slug: yonsei-ethicalreview-api
-- description: The event API from Yonsei University — 22 operation(s) for event.
-  name: Yonsei University event API
-  slug: yonsei-event-api
-- description: The externalOrganization API from Yonsei University — 29 operation(s) for externalorganization.
-  name: Yonsei University externalOrganization API
-  slug: yonsei-externalorganization-api
-- description: The externalPerson API from Yonsei University — 22 operation(s) for externalperson.
-  name: Yonsei University externalPerson API
-  slug: yonsei-externalperson-api
-- description: The fingerprint API from Yonsei University — 3 operation(s) for fingerprint.
-  name: Yonsei University fingerprint API
-  slug: yonsei-fingerprint-api
-- description: The fundingOpportunity API from Yonsei University — 21 operation(s) for fundingopportunity.
-  name: Yonsei University fundingOpportunity API
-  slug: yonsei-fundingopportunity-api
-- description: The impact API from Yonsei University — 31 operation(s) for impact.
-  name: Yonsei University impact API
-  slug: yonsei-impact-api
-- description: The journal API from Yonsei University — 22 operation(s) for journal.
-  name: Yonsei University journal API
-  slug: yonsei-journal-api
-- description: The keywordGroupConfiguration API from Yonsei University — 7 operation(s) for keywordgroupconfiguration.
-  name: Yonsei University keywordGroupConfiguration API
-  slug: yonsei-keywordgroupconfiguration-api
-- description: The milestone API from Yonsei University — 24 operation(s) for milestone.
-  name: Yonsei University milestone API
-  slug: yonsei-milestone-api
-- description: The organization API from Yonsei University — 34 operation(s) for organization.
-  name: Yonsei University organization API
-  slug: yonsei-organization-api
-- description: The person API from Yonsei University — 58 operation(s) for person.
-  name: Yonsei University person API
-  slug: yonsei-person-api
-- description: The personExpertise API from Yonsei University — 7 operation(s) for personexpertise.
-  name: Yonsei University personExpertise API
-  slug: yonsei-personexpertise-api
-- description: The pressMedia API from Yonsei University — 24 operation(s) for pressmedia.
-  name: Yonsei University pressMedia API
-  slug: yonsei-pressmedia-api
-- description: The prize API from Yonsei University — 29 operation(s) for prize.
-  name: Yonsei University prize API
-  slug: yonsei-prize-api
-- description: The project API from Yonsei University — 33 operation(s) for project.
-  name: Yonsei University project API
-  slug: yonsei-project-api
-- description: The publisher API from Yonsei University — 18 operation(s) for publisher.
-  name: Yonsei University publisher API
-  slug: yonsei-publisher-api
-- description: The researchOutput API from Yonsei University — 67 operation(s) for researchoutput.
-  name: Yonsei University researchOutput API
-  slug: yonsei-researchoutput-api
-- description: The role API from Yonsei University — 2 operation(s) for role.
-  name: Yonsei University role API
-  slug: yonsei-role-api
-- description: The semester API from Yonsei University — 8 operation(s) for semester.
-  name: Yonsei University semester API
-  slug: yonsei-semester-api
-- description: The specialization API from Yonsei University — 8 operation(s) for specialization.
-  name: Yonsei University specialization API
-  slug: yonsei-specialization-api
-- description: The studentProject API from Yonsei University — 26 operation(s) for studentproject.
-  name: Yonsei University studentProject API
-  slug: yonsei-studentproject-api
-- description: The studentThesis API from Yonsei University — 26 operation(s) for studentthesis.
-  name: Yonsei University studentThesis API
-  slug: yonsei-studentthesis-api
-- description: The thesaurus API from Yonsei University — 5 operation(s) for thesaurus.
-  name: Yonsei University thesaurus API
-  slug: yonsei-thesaurus-api
-- description: The user API from Yonsei University — 7 operation(s) for user.
-  name: Yonsei University user API
-  slug: yonsei-user-api
-artifact_total: 92
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Pure activity API
-  slug: open-yonsei-activity-api
-- collection_type: open
-  name: Pure activity application API
-  slug: open-yonsei-application-api
-- collection_type: open
-  name: Pure activity authorCollaboration API
-  slug: open-yonsei-authorcollaboration-api
-- collection_type: open
-  name: Pure activity award API
-  slug: open-yonsei-award-api
-- collection_type: open
-  name: Pure activity classificationScheme API
-  slug: open-yonsei-classificationscheme-api
-- collection_type: open
-  name: Pure activity concept API
-  slug: open-yonsei-concept-api
-- collection_type: open
-  name: Pure activity conferenceSeries API
-  slug: open-yonsei-conferenceseries-api
-- collection_type: open
-  name: Pure activity contract API
-  slug: open-yonsei-contract-api
-- collection_type: open
-  name: Pure activity course API
-  slug: open-yonsei-course-api
-- collection_type: open
-  name: Pure activity dataSet API
-  slug: open-yonsei-dataset-api
-- collection_type: open
-  name: Pure activity education API
-  slug: open-yonsei-education-api
-- collection_type: open
-  name: Pure activity equipment API
-  slug: open-yonsei-equipment-api
-- collection_type: open
-  name: Pure activity event API
-  slug: open-yonsei-event-api
-- collection_type: open
-  name: Pure activity externalOrganization API
-  slug: open-yonsei-externalorganization-api
-- collection_type: open
-  name: Pure activity externalPerson API
-  slug: open-yonsei-externalperson-api
-- collection_type: open
-  name: Pure activity fingerprint API
-  slug: open-yonsei-fingerprint-api
-- collection_type: open
-  name: Pure activity fundingOpportunity API
-  slug: open-yonsei-fundingopportunity-api
-- collection_type: open
-  name: Pure activity impact API
-  slug: open-yonsei-impact-api
-- collection_type: open
-  name: Pure activity journal API
-  slug: open-yonsei-journal-api
-- collection_type: open
-  name: Pure activity keywordGroupConfiguration API
-  slug: open-yonsei-keywordgroupconfiguration-api
-- collection_type: open
-  name: Pure activity milestone API
-  slug: open-yonsei-milestone-api
-- collection_type: open
-  name: Pure activity organization API
-  slug: open-yonsei-organization-api
-- collection_type: open
-  name: Pure activity person API
-  slug: open-yonsei-person-api
-- collection_type: open
-  name: Pure activity personExpertise API
-  slug: open-yonsei-personexpertise-api
-- collection_type: open
-  name: Pure activity pressMedia API
-  slug: open-yonsei-pressmedia-api
-- collection_type: open
-  name: Pure activity prize API
-  slug: open-yonsei-prize-api
-- collection_type: open
-  name: Pure activity project API
-  slug: open-yonsei-project-api
-- collection_type: open
-  name: Pure activity publisher API
-  slug: open-yonsei-publisher-api
-- collection_type: open
-  name: Pure activity researchOutput API
-  slug: open-yonsei-researchoutput-api
-- collection_type: open
-  name: Pure activity role API
-  slug: open-yonsei-role-api
-- collection_type: open
-  name: Pure activity semester API
-  slug: open-yonsei-semester-api
-- collection_type: open
-  name: Pure activity specialization API
-  slug: open-yonsei-specialization-api
-- collection_type: open
-  name: Pure activity studentProject API
-  slug: open-yonsei-studentproject-api
-- collection_type: open
-  name: Pure activity studentThesis API
-  slug: open-yonsei-studentthesis-api
-- collection_type: open
-  name: Pure activity thesaurus API
-  slug: open-yonsei-thesaurus-api
-- collection_type: open
-  name: Pure activity user API
-  slug: open-yonsei-user-api
+- description: data.yonsei.ac.kr is an institution-operated data portal — "a collection of data resources for Yonsei University members" — on Yonsei's own registrable domain. It is a client-rendered Next.js applicat
+  name: Yonsei Data Portal
+  slug: data-portal
+- description: Yonsei's research information system is an Elsevier Pure (CRIS) tenancy at yonsei.elsevierpure.com. The data is Yonsei's — its researchers, outputs, projects and organizational units — but the contrac
+  name: Yonsei Research Information Portal (Elsevier Pure tenancy)
+  slug: elsevier-pure
+artifact_total: 8
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/yonsei-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/yonsei-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/yonsei-authentication.yml
 - group: company
   title: ''
   type: Website
   url: https://www.yonsei.ac.kr/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.yonsei.ac.kr/en_sc/index.do
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://kafe.yonsei.ac.kr/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://ir.ymlib.yonsei.ac.kr/
 - group: build
   title: ''
-  type: GitHub
+  type: LibraryCatalog
+  url: https://library.yonsei.ac.kr/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://data.yonsei.ac.kr/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://yure.yonsei.ac.kr/admin/info/adminBookDetail.do?book_seq=65
+- group: build
+  title: ''
+  type: GitHubOrganization
   url: https://github.com/gdg-yonsei
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/yonsei/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/yonsei-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/yonsei-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -312,57 +100,58 @@ common:
   title: ''
   type: Review
   url: review.yml
+coverage:
+  detail: 'Yonsei publishes no institution-operated REST API and no developer portal. The only complete API contract discoverable under its name is Elsevier''s Pure API, served from the tenant host yonsei.elsevierpure.com: the specification at /ws/api/openapi.json is publicly readable (HTTP 200, ~1.7MB) but every data endpoint returns 401 and the Pure OAI-PMH feed at /ws/oai returns 401 as well. The 37 per-tag OpenAPIs previously stored in this repo were splits of that one Elsevier document and have been removed. The institution''s own machine-readable surfaces are a SAML 2.0 IdP registered in KAFE and eduGAIN, and DSpace RSS/Atom feeds reachable only after satisfying a JS bot challenge. The medical-library repository has no OAI-PMH webapp deployed (404 on /oai/request, /dspace-oai/request and /oai/driver). Yonsei''s generative-AI guideline exists only in Korean, on yure.yonsei.ac.kr, and was found by searching in the local language.'
+  evidence:
+  - note: Elsevier's Pure API spec, publicly readable — vendor-authored, tenant-served.
+    status: 200
+    url: https://yonsei.elsevierpure.com/ws/api/openapi.json
+  - note: application/problem+json — "Full authentication is required to access this resource"
+    status: 401
+    url: https://yonsei.elsevierpure.com/ws/api/research-outputs?size=1
+  - note: Pure OAI-PMH, credential-gated.
+    status: 401
+    url: https://yonsei.elsevierpure.com/ws/oai?verb=Identify
+  - note: Yonsei-operated KAFE federated-authentication server; page states in Korean that Yonsei University operates it.
+    status: 200
+    url: https://kafe.yonsei.ac.kr/
+  - note: eduGAIN entity https://kafe.yonsei.ac.kr/idp/simplesamlphp — IDPSSODescriptor, federation KAFE, scope yonsei.ac.kr, Sirtfi declared.
+    status: 200
+    url: https://technical.edugain.org/api.php?action=list_entities&format=json
+  - note: JS bot challenge on first request (sets a js-challenge cookie); YUHSpace DSpace 5.5 home page served once the cookie is replayed. Live, not dead.
+    status: 200
+    url: https://ir.ymlib.yonsei.ac.kr/
+  - note: Real RSS 2.0 XML behind the challenge cookie.
+    status: 200
+    url: https://ir.ymlib.yonsei.ac.kr/feed/rss_2.0/site
+  - note: No OAI-PMH webapp deployed on the institution's own repository host.
+    status: 404
+    url: https://ir.ymlib.yonsei.ac.kr/oai/request?verb=Identify
+  - note: Yonsei Data Portal, institution-operated Next.js app for Yonsei members only; /api, /openapi.json, /llms.txt all 404.
+    status: 200
+    url: https://data.yonsei.ac.kr/
+  - note: GeoIP redirect shell that lands on /sc/index.do (KR) or /en_sc/index.do.
+    status: 200
+    url: https://www.yonsei.ac.kr/
+  - note: Library website; robots.txt disallows all but a handful of notice-board paths. No API found.
+    status: 200
+    url: https://library.yonsei.ac.kr/
+  reason: tenant_only
+  state: gated
 created: '2026-06-03'
-description: 'Yonsei University is a private research university in Seoul, South Korea, founded in 1885 and ranked #73 in the QS World University Rankings 2025. Its public, machine-readable footprint is limited and primarily research- and library-oriented: the Yonsei Research Information portal runs on Elsevier Pure (which exposes Pure OAI-PMH and REST endpoints, but they require credentials/IP allow-listing and return HTTP 401 publicly), and the medical library operates a DSpace 5.5 institutional repository (YUHSpace) whose RSS feed is publicly reachable while its OAI-PMH/REST paths are not currently resolvable. No official, documented public developer portal or open API was confirmed; the only related GitHub presence is a student-run Google Developer Group (gdg-yonsei), not an official institutional API organization.'
-examples:
-- key_count: 2
-  name: Yonsei Get Person Example
-  slug: yonsei-get-person-example
-- key_count: 2
-  name: Yonsei List Research Outputs Example
-  slug: yonsei-list-research-outputs-example
+description: 'Yonsei University (연세대학교) is a private research university in Seoul, South Korea, founded in 1885 and one of the "SKY" institutions. Its programmable footprint is small, and most of what previously appeared under its name was not its own engineering: the Yonsei Research Information portal at yonsei.elsevierpure.com is an Elsevier Pure (CRIS) tenancy whose OpenAPI is authored by Elsevier — info.title "Pure API", contact pure-support@elsevier.com — and whose data endpoints and OAI-PMH feed both return HTTP 401 to the public. That relationship is recorded here as a tenant surface; the contract itself belongs to Elsevier and has been removed from this repo. What Yonsei genuinely operates is narrower and more interesting: a SAML 2.0 Identity Provider on its own domain (kafe.yonsei.ac.kr) registered in the Korean Access FEderation and exported to eduGAIN with the scope yonsei.ac.kr and a Sirtfi declaration; a DSpace 5.5 medical-library repository (YUHSpace) at ir.ymlib.yonsei.ac.kr
+  serving public RSS 2.0 and Atom 1.0 feeds from behind a JavaScript bot challenge, with no OAI-PMH deployed; and a members-only Yonsei Data Portal at data.yonsei.ac.kr that ships no public API. There is no central developer portal, no institution-operated REST API, and no official institutional GitHub organization — the only GitHub presence is GDGoC Yonsei, a student Google Developer Group. The institutional AI posture is a governance document, not an API, and it exists only on the Korean surface.'
 finops:
 - name: Yonsei Finops
   service_category: Education
   slug: yonsei-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yonsei.png
-json_schemas:
-- name: Yonsei Pure Person
-  property_count: 51
-  slug: yonsei-person
-- name: Yonsei Pure Project
-  property_count: 47
-  slug: yonsei-project
-- name: Yonsei Pure ResearchOutput
-  property_count: 53
-  slug: yonsei-researchoutput
-json_structures:
-- name: Yonsei Person Structure
-  property_count: 51
-  slug: yonsei-person-structure
-- name: Yonsei Project Structure
-  property_count: 47
-  slug: yonsei-project-structure
-- name: Yonsei Researchoutput Structure
-  property_count: 53
-  slug: yonsei-researchoutput-structure
-jsonld:
-- class_count: 18
-  name: Yonsei Context
-  property_count: 4
-  slug: yonsei-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Yonsei University
 nav: Providers
 network: true
-overview: 'Yonsei University publishes 37 APIs on the [APIs.io](https://apis.io/) network, including activity API, application API, authorCollaboration API, and 34 more. Tagged areas include Education, Higher Education, University, Research, and Library.
-
-
-  The Yonsei University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  Yonsei University''s developer surface includes authentication, GitHub presence, and 8 more developer resources.'
+overview: Yonsei University publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Private Research University, and South Korea.
 plans:
 - name: Yonsei Plans Pricing
   plan_count: 2
@@ -372,41 +161,25 @@ rate_limits:
 - limit_count: 1
   name: Yonsei Rate Limits
   slug: yonsei-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: Yonsei University API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 3
-  slug: yonsei-jsonschema-spectral-rules
-- effective_rule_count: 6
-  extends: []
-  name: Yonsei University API Rules
-  rule_count: 6
-  severity_counts:
-    error: 1
-    hint: 0
-    info: 1
-    warn: 4
-  slug: yonsei-rules
 score:
-  band: thin
-  composite: 36.6
-  delta: 1.9
+  band: emerging
+  composite: 18.2
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -18.4
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 59.4
-    developer_ergonomics: 21.4
+    contract_governance: 0.0
+    contract_quality: 6.7
+    developer_ergonomics: 9.5
     discoverability: 64.8
-    governance: 9.8
+    governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 34.7
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     contracts:
@@ -419,29 +192,28 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 20.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/yonsei/refs/heads/main/screenshots/yonsei-2026-06-20T201758.png
 security:
-- kind: authentication
-  name: Yonsei Authentication
-  slug: yonsei-authentication
-  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Yonsei Domain Security
   slug: yonsei-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: yonsei
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Library
-- Repository
+- Higher Education
+- Education
+- Private Research University
 - South Korea
 - Seoul
+- Research
+- Research Repository
+- Identity Federation
+- Library
+- Open Data
 website: https://www.yonsei.ac.kr/
 ---

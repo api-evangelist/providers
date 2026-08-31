@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 149
   human_in_the_loop: 0
@@ -42,18 +42,21 @@ agentic_access:
   operation_count: 247
   slug: google-analytics-4-agentic-access
   summary_line: 247 operations · 149 acting
-api_count: 3
+api_count: 8
 apis:
 - description: 'The Measurement Protocol for Google Analytics 4 allows developers to send events directly to Google Analytics servers for web and app streams. Fire-and-forget: the production endpoint returns HTTP 204'
   name: Google Analytics Measurement Protocol
   slug: google-analytics-measurement-protocol
-- description: Reporting API for GA4 properties — core reports, pivot reports, batched reports, realtime reports, funnel reports, dimension/metric metadata, compatibility checks, audience exports and asynchronous re
-  name: Google Analytics Data API
-  slug: google-analytics-data-api
-- description: Configuration API for GA4 — accounts, properties, data streams, Measurement Protocol secrets, custom dimensions and metrics, key events, data retention and redaction settings, audiences, access bindin
-  name: Google Analytics Admin API
-  slug: google-analytics-admin-api
-artifact_total: 21
+- description: The accounts API from Google Analytics 4 — 18 operation(s) for accounts.
+  name: Google Analytics 4 Accounts API
+  slug: google-analytics-4-accounts-api
+- description: The accountSummaries API from Google Analytics 4 — 2 operation(s) for accountsummaries.
+  name: Google Analytics 4 Account Summaries API
+  slug: google-analytics-4-accountsummaries-api
+- description: The properties API from Google Analytics 4 — 120 operation(s) for properties.
+  name: Google Analytics 4 Properties API
+  slug: google-analytics-4-properties-api
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Google Analytics 4 Webhooks
@@ -81,6 +84,22 @@ collections:
   name: Google Analytics Data API
   slug: open-google-analytics-4
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-analytics-4-data-v1beta-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-analytics-4-data-v1alpha-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-analytics-4-admin-v1beta-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-analytics-4-admin-v1alpha-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -273,13 +292,13 @@ modified: '2026-08-13'
 name: Google Analytics 4
 nav: Providers
 network: true
-overview: 'Google Analytics 4 publishes 2 APIs on the [APIs.io](https://apis.io/) network: Google Analytics Data API and Google Analytics Admin API. Tagged areas include Analytics, Data Collection, Marketing, Measurements, and Mobile Analytics.
+overview: 'Google Analytics 4 publishes 3 APIs on the [APIs.io](https://apis.io/) network: Accounts API, Account Summaries API, and Properties API. Tagged areas include Analytics, Data Collection, Marketing, Measurements, and Mobile Analytics.
 
 
   The Google Analytics 4 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Google Analytics 4''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, developer console, and 37 more developer resources.'
+  Google Analytics 4''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, developer console, and 41 more developer resources.'
 plans:
 - name: Google Analytics 4 Plans Pricing
   plan_count: 2
@@ -295,19 +314,24 @@ scopes:
   slug: google-analytics-4-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 69.0
+  band: strong
+  composite: 66.2
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 52.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_governance: 16.7
-    contract_quality: 68.0
+    contract_governance: 4.5
+    contract_quality: 64.4
     developer_ergonomics: 70.8
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 84.2
-  previous_composite: 69.0
+  previous_composite: 66.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -318,8 +342,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-analytics-4/refs/heads/main/screenshots/google-analytics-4-2026-06-20T182011.png
 security:

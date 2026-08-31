@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 209
   human_in_the_loop: 5
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 389
   slug: sendgrid-agentic-access
   summary_line: 389 operations · 209 acting · 5 human-in-the-loop
-api_count: 63
+api_count: 44
 apis:
 - description: Twilio SendGrid Account Provisioning API account operations.
   name: SendGrid Account API
@@ -628,6 +628,14 @@ collections:
 common:
 - group: other
   title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/twilio/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sendgrid-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/sendgrid-tsg_account_provisioning_v3-overlay.yaml
 - group: build
@@ -1033,7 +1041,7 @@ overview: 'SendGrid publishes 63 APIs on the [APIs.io](https://apis.io/) network
   The SendGrid catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 2 Spectral governance rulesets.
 
 
-  SendGrid''s developer surface includes changelog, sandbox, authentication, developer portal, documentation, API reference, getting-started guide, and 84 more developer resources.'
+  SendGrid''s developer surface includes changelog, sandbox, authentication, developer portal, documentation, API reference, getting-started guide, and 86 more developer resources.'
 plans:
 - name: Sendgrid Plans Pricing
   plan_count: 4
@@ -1073,18 +1081,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 77.0
+  composite: 75.5
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 59.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 41.7
+    contract_governance: 29.5
     contract_quality: 71.7
     developer_ergonomics: 92.9
     discoverability: 75.9
-    governance: 41.7
+    governance: 29.5
     operational_transparency: 60.5
-  previous_composite: 77.0
+  previous_composite: 75.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1095,8 +1108,8 @@ score:
       total: 63
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/screenshots/sendgrid-2026-06-20T193652.png
 security:

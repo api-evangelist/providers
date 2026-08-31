@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,17 +31,17 @@ agentic_access:
   operation_count: 32
   slug: hydro-quebec-agentic-access
   summary_line: 32 operations
-api_count: 3
+api_count: 2
 apis:
-- description: Read-only REST API over Hydro-Québec's 26 public open datasets — catalog search, dataset metadata, record query with the Opendatasoft Query Language (ODSQL), facets, attachments, and bulk exports to C
-  name: Hydro-Québec Open Data Explore API v2.1
-  slug: hydro-quebec-open-data-explore-api-v2-1
-- description: The prior major version of the Hydro-Québec open data Explore API, still served alongside v2.1 at its own base path and described by its own OpenAPI 3.0.3 document (also mirrored at /api/v2/swagger.js
-  name: Hydro-Québec Open Data Explore API v2.0
-  slug: hydro-quebec-open-data-explore-api-v2-0
 - description: The legacy Opendatasoft Search API v1 still served on the Hydro-Québec open data portal. Verified live and anonymous on 2026-07-27 — GET /api/datasets/1.0/search/ returned HTTP 200 with all 26 dataset
   name: Hydro-Québec Open Data Search API v1
   slug: hydro-quebec-open-data-search-api-v1
+- description: API to enumerate datasets
+  name: Hydro-Québec Catalog API
+  slug: hydro-quebec-catalog-api
+- description: API to work on records
+  name: Hydro-Québec Dataset API
+  slug: hydro-quebec-dataset-api
 artifact_total: 12
 collections:
 - collection_type: open
@@ -51,6 +51,14 @@ collections:
   name: Explore API
   slug: open-hydro-quebec-open-data-explore-api-v2-1
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hydro-quebec-open-data-explore-api-v2-1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hydro-quebec-open-data-explore-api-v2-0-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -212,10 +220,10 @@ modified: '2026-07-27'
 name: Hydro-Québec
 nav: Providers
 network: true
-overview: 'Hydro-Québec publishes 2 APIs on the [APIs.io](https://apis.io/) network: Open Data Explore API v2.1 and Open Data Explore API v2.0. Tagged areas include Energy, Canada, Utilities, Electricity, and Grid.
+overview: 'Hydro-Québec publishes 2 APIs on the [APIs.io](https://apis.io/) network: Catalog API and Dataset API. Tagged areas include Energy, Canada, Utilities, Electricity, and Grid.
 
 
-  Hydro-Québec''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 30 more developer resources.'
+  Hydro-Québec''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 32 more developer resources.'
 random_paper: 6
 rate_limits:
 - limit_count: 1
@@ -228,18 +236,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 56.8
-  delta: 0.0
+  composite: 54.4
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 53.7
+    contract_governance: 4.5
+    contract_quality: 53.8
     developer_ergonomics: 66.1
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 56.8
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,8 +264,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydro-quebec/refs/heads/main/screenshots/hydro-quebec-2026-08-07T170514.png
 security:

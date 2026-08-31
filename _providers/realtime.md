@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 26
 apis:
 - description: A full-duplex communication protocol over a single TCP connection, standardized by the IETF as RFC 6455 and defined in the WHATWG WebSocket API on the client side. WebSocket is the most widely deploye
@@ -235,7 +235,12 @@ rules:
 score:
   band: emerging
   composite: 25.0
-  delta: 8.0
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -245,10 +250,10 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 18.4
-  previous_composite: 17.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  previous_composite: 25.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/realtime/refs/heads/main/screenshots/realtime-2026-06-20T192649.png
 security:
 - kind: domain-security
@@ -263,7 +268,7 @@ tags:
 - Server-Sent Events
 - MQTT
 - Push Notifications
-- Pub-Sub
+- Pub Sub
 - Presence
 - Signaling
 - Topic

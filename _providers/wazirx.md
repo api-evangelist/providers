@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 27
   slug: wazirx-agentic-access
   summary_line: 27 operations · 6 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The WazirX WebSocket API provides real-time streaming for market data including trades, 24hr tickers, candlestick (kline) data, and order book depth updates. Private streams for account balance change
   name: WazirX WebSocket API
@@ -234,18 +234,23 @@ rules:
   slug: wazirx-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.2
-  delta: 2.8
+  composite: 36.7
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 58.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
     contract_governance: 9.8
     contract_quality: 54.9
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 34.4
+  previous_composite: 37.2
   provenance:
     agentic_access: derived
     contracts:
@@ -259,8 +264,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/screenshots/wazirx-2026-06-20T201306.png
 security:

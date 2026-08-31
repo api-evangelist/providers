@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 4
 apis:
 - description: 'Schema.org is a collaborative, community-driven vocabulary for structured data on the internet. It provides a collection of shared vocabularies that webmasters and developers can use to mark up pages '
@@ -50,6 +50,10 @@ apis:
   slug: schemaorg-webapi-type
 artifact_total: 93
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/schemaorg/schemaorg/releases
 - group: commercial
   title: ''
   type: License
@@ -414,7 +418,7 @@ overview: 'Schema.org publishes 4 APIs on the [APIs.io](https://apis.io/) networ
   The Schema.org catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Schema.org''s developer surface includes documentation, engineering blog, support, getting-started guide, changelog, and 18 more developer resources.'
+  Schema.org''s developer surface includes documentation, engineering blog, support, getting-started guide, changelog, and 19 more developer resources.'
 plans:
 - name: Schema Org Plans Pricing
   plan_count: 0
@@ -447,8 +451,13 @@ rules:
   slug: schema-org-rules
 score:
   band: thin
-  composite: 32.4
-  delta: 1.4
+  composite: 31.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -458,11 +467,14 @@ score:
     discoverability: 74.1
     governance: 43.2
     operational_transparency: 26.3
-  previous_composite: 31.0
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 31.7
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/schema-org/refs/heads/main/screenshots/schema-org-2026-06-20T193515.png
 security:

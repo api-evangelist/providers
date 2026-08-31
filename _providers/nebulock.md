@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 55
   slug: nebulock-agentic-access
   summary_line: 55 operations · 33 acting · 1 human-in-the-loop
-api_count: 4
+api_count: 1
 apis:
 - description: Actors, users, and hosts — the identity/asset correlation graph.
   name: Nebulock Entities API
@@ -195,18 +195,23 @@ overview: 'Nebulock publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 11
 score:
   band: thin
-  composite: 32.2
-  delta: 0.0
+  composite: 30.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 54.3
     developer_ergonomics: 32.7
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 32.2
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,8 +222,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nebulock/refs/heads/main/screenshots/nebulock-2026-08-07T184813.png
 security:

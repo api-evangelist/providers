@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 14
   slug: dflow-agentic-access
   summary_line: 14 operations · 3 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The admin API from DFlow — 1 operation(s) for admin.
   name: DFlow admin API
@@ -213,18 +213,23 @@ overview: 'DFlow publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 15
 score:
   band: developing
-  composite: 41.7
-  delta: 0.0
+  composite: 39.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 57.4
     developer_ergonomics: 76.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 41.7
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -241,8 +246,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/screenshots/dflow-2026-07-25T211845.png
 security:

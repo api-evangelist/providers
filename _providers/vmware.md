@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 49
   slug: vmware-agentic-access
   summary_line: 49 operations · 22 acting · 3 human-in-the-loop
-api_count: 59
+api_count: 1
 apis:
 - description: Comprehensive SOAP-based API providing access to all vSphere management functionality including virtual machines, hosts, clusters, networking, and storage.
   name: vSphere Web Services API
@@ -320,6 +320,10 @@ collections:
   name: VMware vSphere Automation REST API
   slug: open-vmware-vsphere-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vmware-capability-edges.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -1089,7 +1093,7 @@ overview: 'VMware publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
   The VMware catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  VMware''s developer surface includes authentication, developer portal, documentation, code examples, CLI, engineering blog, support, and 28 more developer resources.'
+  VMware''s developer surface includes authentication, developer portal, documentation, code examples, CLI, engineering blog, support, and 29 more developer resources.'
 plans:
 - name: Vmware Plans Pricing
   plan_count: 1
@@ -1122,19 +1126,24 @@ rules:
     warn: 6
   slug: vmware-spectral-rules
 score:
-  band: developing
-  composite: 53.4
-  delta: 5.7
+  band: strong
+  composite: 55.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 28.8
-    contract_quality: 64.6
+    contract_quality: 68.6
     developer_ergonomics: 85.7
-    discoverability: 40.7
+    discoverability: 53.7
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 47.7
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1142,9 +1151,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/screenshots/vmware-2026-06-20T201116.png
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: nomic-ai-agentic-access
   summary_line: 4 operations · 3 acting
-api_count: 12
+api_count: 1
 apis:
 - description: REST API for the Nomic Atlas platform. Exposes endpoints for creating and managing datasets, building 2D semantic maps over text and image data, querying and updating points, and orchestrating long-ru
   name: Nomic Atlas API
@@ -185,17 +185,25 @@ rate_limits:
   slug: nomic-ai-rate-limits
 score:
   band: thin
-  composite: 39.0
-  delta: 0.0
+  composite: 37.1
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.9
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 58.0
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 25.0
   previous_composite: 39.0
   provenance:
     agentic_access: derived
@@ -204,8 +212,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/heads/main/screenshots/nomic-ai-2026-06-20T190456.png
 security:

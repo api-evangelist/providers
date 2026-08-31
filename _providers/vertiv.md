@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: vertiv-agentic-access
   summary_line: 10 operations · 1 acting
-api_count: 12
+api_count: 1
 apis:
 - description: The Vertiv Avocent ADX Ecosystem API provides REST API access for managing IT infrastructure through the Avocent ADX Management Platform. The API supports device management, KVM session management, us
   name: Vertiv Avocent ADX Ecosystem API
@@ -268,16 +268,21 @@ rules:
     warn: 3
   slug: vertiv-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 39.6
-  delta: 0.0
+  band: thin
+  composite: 39.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 41.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 54.5
     contract_quality: 65.1
     developer_ergonomics: 28.6
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 54.5
     operational_transparency: 10.5
   previous_composite: 39.6
@@ -294,8 +299,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/screenshots/vertiv-2026-06-20T200959.png
 security:

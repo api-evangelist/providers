@@ -10,21 +10,21 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,19 +32,55 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
+  score: 15.3
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: ABM Connect is a data intelligence platform that unifies facility, financial, equipment, IoT, and service-delivery data into a real-time, action-focused view. It aggregates data from front-line team m
   name: ABM Connect
   slug: abm-connect
-artifact_total: 22
+artifact_total: 24
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/abm-industries-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/abm-industries-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/abm-industries-well-known.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/abm-industries-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/abm-industries-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/abm-industries-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/abm-industries-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/abm-industries-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/abm-industries-vocabulary.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/abm-industries-context.jsonld
 - group: company
   title: ''
   type: Website
@@ -110,7 +146,7 @@ jsonld:
   property_count: 17
   slug: abm-industries-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-29'
 name: ABM Industries
 nav: Providers
 network: true
@@ -120,10 +156,10 @@ overview: 'ABM Industries publishes 1 API on the [APIs.io](https://apis.io/) net
   The ABM Industries catalog on APIs.io includes 1 JSON-LD context.
 
 
-  ABM Industries'' developer surface includes developer portal, engineering blog, YouTube channel, and 6 more developer resources.'
+  ABM Industries'' developer surface includes developer portal, engineering blog, YouTube channel, and 15 more developer resources.'
 plans:
 - name: Abm Industries Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: abm-industries-plans-pricing
 press:
 - date: '2026-05-25'
@@ -143,28 +179,42 @@ press:
   url: https://investor.abm.com/news-releases/news-release-details/abm-expands-position-and-capabilities-fast-growing-data-center
 random_paper: 19
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Abm Industries Rate Limits
   slug: abm-industries-rate-limits
+scopes:
+- name: Abm Industries Scopes
+  scope_count: 0
+  slug: abm-industries-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 21.4
-  delta: 1.9
+  band: thin
+  composite: 27.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 34.2
-    commercial_clarity: 34.2
-    contract_governance: 0.0
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 33.3
     contract_quality: 14.7
-    developer_ergonomics: 21.4
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 19.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    developer_ergonomics: 33.3
+    discoverability: 75.9
+    governance: 33.3
+    operational_transparency: 0.0
+  previous_composite: 27.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abm-industries/refs/heads/main/screenshots/abm-industries-2026-06-20T163238.png
 security:
+- kind: authentication
+  name: Abm Industries Authentication
+  slug: abm-industries-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: Abm Industries Domain Security
   slug: abm-industries-domain-security

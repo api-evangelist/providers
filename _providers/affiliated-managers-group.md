@@ -10,30 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: documented
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
+  score: 30.4
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Digital platform providing financial advisors and their clients access to independent investment managers with differentiated investment solutions. Offers access to mutual funds, separately managed ac
@@ -42,12 +42,74 @@ apis:
 - description: Investor relations platform providing shareholders, analysts, and institutional investors access to AMG's financial performance data, earnings releases, SEC filings, governance documents, and corporat
   name: AMG Investor Relations
   slug: affiliated-managers-group-investor-relations
-artifact_total: 23
+- description: 'Undocumented, anonymously callable JSON API on wealth.amg.com that backs the AMG Wealth Platform product pages. Exposed as the AMG-authored WordPress REST namespace amgfundsdata/v1, whose route table '
+  name: AMG Funds Data API
+  slug: affiliated-managers-group-funds-data
+- description: Undocumented, anonymously callable JSON API on www.amg.com that backs the AMG Affiliate directory. Exposed as the AMG-authored WordPress REST namespace amginc/v1. A single POST-only route, /amginc/v1/
+  name: AMG Corporate Content API
+  slug: affiliated-managers-group-corporate-content
+artifact_total: 26
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/affiliated-managers-group-domain-security.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/affiliated-managers-group-conformance.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/affiliated-managers-group-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/affiliated-managers-group-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/affiliated-managers-group-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/affiliated-managers-group-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/affiliated-managers-group-lifecycle.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/affiliated-managers-group-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/affiliated-managers-group-packages.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/affiliated-managers-group-vocabulary.yaml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/affiliated-managers-group-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/affiliated-managers-group-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/affiliated-managers-group-finops.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.amg.com/contact-us/
 - group: company
   title: ''
   type: LinkedIn
@@ -67,11 +129,12 @@ common:
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.amg.com/privacy-policy
+  url: https://www.amg.com/privacy-notices/
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.amg.com/terms-of-use
+  url: https://www.amg.com/terms-and-conditions/
+created: '2026-04-19'
 description: Affiliated Managers Group (AMG) is a global asset management company that partners with outstanding independent investment management firms. With approximately $813 billion in assets under management across roughly 40 affiliate firms and 500+ investment strategies, AMG provides capital, distribution, and operational support while preserving each affiliate's investment autonomy. AMG operates a Wealth Platform for financial advisors and an Institutional Platform for global institutional investors, offering mutual funds, separately managed accounts, and alternative investment strategies.
 features:
 - description: Partners with independent investment managers while preserving their autonomy and investment culture.
@@ -103,14 +166,14 @@ integrations:
 - description: Relationships with institutional investment consultants facilitating mandate sourcing for affiliate managers.
   name: Institutional Consultant Networks
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-30'
 name: Affiliated Managers Group
 nav: Providers
 network: true
-overview: 'Affiliated Managers Group publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Asset Management, Investment Management, Financial-Services, Wealth Management, and Institutional Investing.
+overview: 'Affiliated Managers Group publishes 2 APIs on the [APIs.io](https://apis.io/) network: AMG Funds Data API and AMG Corporate Content API. Tagged areas include Asset Management, Investment Management, Financial-Services, Wealth Management, and Institutional Investing.
 
 
-  Affiliated Managers Group''s developer surface includes developer portal and 6 more developer resources.'
+  Affiliated Managers Group''s developer surface includes authentication, support, developer portal, and 18 more developer resources.'
 plans:
 - name: Affiliated Managers Group Plans Pricing
   plan_count: 1
@@ -133,28 +196,37 @@ press:
   url: https://ir.amg.com/static-files/8a2c2594-42c3-4f8f-95dd-222c6272344c
 random_paper: 6
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Affiliated Managers Group Rate Limits
   slug: affiliated-managers-group-rate-limits
 score:
-  band: emerging
-  composite: 14.2
-  delta: 1.9
+  band: thin
+  composite: 38.1
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 23.9
   facets:
-    access_clarity: 26.3
-    commercial_clarity: 26.3
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 19.0
-    discoverability: 44.4
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 12.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 15.2
+    contract_quality: 49.8
+    developer_ergonomics: 42.9
+    discoverability: 57.4
+    governance: 15.2
+    operational_transparency: 0.0
+  previous_composite: 14.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/affiliated-managers-group/refs/heads/main/screenshots/affiliated-managers-group-2026-06-20T165600.png
 security:
+- kind: authentication
+  name: Affiliated Managers Group Authentication
+  slug: affiliated-managers-group-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Affiliated Managers Group Domain Security
   slug: affiliated-managers-group-domain-security

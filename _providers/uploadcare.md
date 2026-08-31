@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 44
   slug: uploadcare-agentic-access
   summary_line: 44 operations · 24 acting
-api_count: 11
+api_count: 2
 apis:
-- description: Upload API for direct binary file uploads, multipart uploads for large files (up to 5 TB), URL-based uploads, UUID-based uploads, and file group creation. Supports direct uploads from browser or serve
-  name: Uploadcare Upload API
-  slug: upload-api
 - description: An `Add-On` is an application implemented by Uploadcare that accepts uploaded files as an input and can produce other files and/or [appdata](#operation/fileInfo) as an output.
   name: Uploadcare Add-Ons API
   slug: uploadcare-add-ons-api
@@ -68,16 +65,13 @@ apis:
 - description: The Group API from Uploadcare — 2 operation(s) for group.
   name: Uploadcare Group API
   slug: uploadcare-group-api
-- description: The Groups API from Uploadcare — 2 operation(s) for groups.
-  name: Uploadcare Groups API
-  slug: uploadcare-groups-api
 - description: The Project API from Uploadcare — 1 operation(s) for project.
   name: Uploadcare Project API
   slug: uploadcare-project-api
 - description: The Webhook API from Uploadcare — 3 operation(s) for webhook.
   name: Uploadcare Webhook API
   slug: uploadcare-webhook-api
-artifact_total: 42
+artifact_total: 40
 collections:
 - collection_type: open
   name: API Collection
@@ -204,10 +198,6 @@ common:
   title: ''
   type: BlogRSS
   url: https://uploadcare.com/blog/rss.xml
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: 2026-06-12
 description: Uploadcare is a file uploading and processing platform that provides REST APIs for file management, CDN delivery, image transformations, document conversion, video encoding, and malware scanning. Developers can integrate file upload widgets, manage files and metadata, apply on-the-fly image transformations via URL-based CDN API, handle multipart uploads for large files, configure webhooks, and leverage add-ons for extended processing capabilities.
 finops:
@@ -257,13 +247,13 @@ modified: 2026-06-12
 name: Uploadcare
 nav: Providers
 network: true
-overview: 'Uploadcare publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Upload API, Add-Ons API, Conversion API, and 8 more. Tagged areas include File Upload, File Management, CDN, Image Transformation, and Document Conversion.
+overview: 'Uploadcare publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Add-Ons API, Conversion API, File API, and 6 more. Tagged areas include File Upload, File Management, CDN, Image Transformation, and Document Conversion.
 
 
   The Uploadcare catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Uploadcare''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, and 18 more developer resources.'
+  Uploadcare''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, and 17 more developer resources.'
 plans:
 - name: Uploadcare Plans Pricing
   plan_count: 4
@@ -286,18 +276,23 @@ rules:
   slug: uploadcare-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.3
-  delta: 0.0
+  composite: 44.5
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
-    contract_quality: 65.5
+    contract_quality: 68.7
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 21.1
-  previous_composite: 44.3
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     contracts:
@@ -305,8 +300,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uploadcare/refs/heads/main/screenshots/uploadcare-2026-06-20T200444.png
 security:

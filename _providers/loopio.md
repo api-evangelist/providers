@@ -24,13 +24,55 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: The Loopio Public API v2 is a REST API over the Loopio response management platform. It exposes the Library (entries, attachments, history, stacks, tags), Projects (entries, sections, subSections, par
-  name: Loopio Public API v2
-  slug: loopio-public-api-v2
-artifact_total: 7
+- description: An asynchronous endpoint
+  name: Loopio Asynchronous API
+  slug: loopio-asynchronous-api
+- description: The CRM API from Loopio — 2 operation(s) for crm.
+  name: Loopio CRM API
+  slug: loopio-crm-api
+- description: Create and manage Custom Project Fields
+  name: Loopio Custom Project Fields API
+  slug: loopio-custom-project-fields-api
+- description: Get information about Customer instances
+  name: Loopio Customers API
+  slug: loopio-customers-api
+- description: Manage Loopio files
+  name: Loopio Files API
+  slug: loopio-files-api
+- description: Create and manage Library Entries
+  name: Loopio Library Entries API
+  slug: loopio-library-entries-api
+- description: Reusable Library/Project-wide variables
+  name: Loopio Merge Variables API
+  slug: loopio-merge-variables-api
+- description: Get Information about Project Templates
+  name: Loopio Project Templates API
+  slug: loopio-project-templates-api
+- description: Create and manage Projects
+  name: Loopio Projects API
+  slug: loopio-projects-api
+- description: The Roles API from Loopio — 2 operation(s) for roles.
+  name: Loopio Roles API
+  slug: loopio-roles-api
+- description: View accessible stacks or Library structure
+  name: Loopio Stacks API
+  slug: loopio-stacks-api
+- description: Create and manage Tags
+  name: Loopio Tags API
+  slug: loopio-tags-api
+- description: Get Information about Teams
+  name: Loopio Teams API
+  slug: loopio-teams-api
+- description: Create and manage Users
+  name: Loopio Users API
+  slug: loopio-users-api
+- description: Create & Manage webhook subscriptions
+  name: Loopio Webhooks API
+  slug: loopio-webhooks-api
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Loopio Events Webhooks
@@ -156,7 +198,7 @@ modified: '2026-08-25'
 name: Loopio
 nav: Providers
 network: true
-overview: 'Loopio publishes 1 API on the [APIs.io](https://apis.io/) network: Public API v2. Tagged areas include Company, RFP, Proposals, Response Management, and Content Library.
+overview: 'Loopio publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Asynchronous API, CRM API, Custom Project Fields API, and 12 more. Tagged areas include Company, RFP, Proposals, Response Management, and Content Library.
 
 
   The Loopio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -179,16 +221,23 @@ scopes:
   summary_line: 52 scopes
 score:
   band: thin
-  composite: 37.1
+  composite: 33.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 30.3
-    contract_quality: 61.6
+    contract_governance: 18.2
+    contract_quality: 59.0
     developer_ergonomics: 18.5
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 23.7
+  previous_composite: 34.5
   provenance:
     conformance: first-party
     contracts:
@@ -204,8 +253,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Loopio Authentication
@@ -227,7 +277,7 @@ tags:
 - Compliance
 - Collaboration
 - Documents
-- Webhooks
-- SaaS
+- Webhook
+- Software-as-a-Service
 website: https://loopio.com/
 ---

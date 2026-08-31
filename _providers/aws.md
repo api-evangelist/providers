@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
 - description: Scalable virtual servers in the cloud.
@@ -179,7 +179,7 @@ modified: '2026-05-19'
 name: Amazon Web Services (AWS)
 nav: Providers
 network: true
-overview: 'Amazon Web Services (AWS) publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Amazon EC2, Amazon S3, Amazon Lambda, and 2 more. Tagged areas include Cloud Computing, Infrastructure-as-a-Service, Infrastructure, Platform-as-a-Service, and Serverless.
+overview: 'Amazon Web Services (AWS) publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Amazon EC2, Amazon S3, Amazon Lambda, and 2 more. Tagged areas include Cloud Computing, IaaS, Infrastructure, PaaS, and Platform-as-a-Service.
 
 
   Amazon Web Services (AWS)''s developer surface includes developer portal, documentation, authentication, engineering blog, support, pricing, developer console, and 11 more developer resources.'
@@ -195,6 +195,11 @@ rate_limits:
 score:
   band: developing
   composite: 40.8
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 55.3
@@ -206,8 +211,8 @@ score:
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 40.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws/refs/heads/main/screenshots/aws-2026-06-20T172738.png
 security:
@@ -226,8 +231,9 @@ security:
 slug: aws
 tags:
 - Cloud Computing
-- Infrastructure-as-a-Service
+- IaaS
 - Infrastructure
+- PaaS
 - Platform-as-a-Service
 - Serverless
 use_cases:

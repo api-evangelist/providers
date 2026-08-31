@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,10 +44,19 @@ agentic_access:
   summary_line: 8 operations · 3 acting
 api_count: 1
 apis:
-- description: 'REST API for integrating Databook''s account intelligence into other applications. Eight operations across four groups: an insight catalog (66 catalogued analytical questions about a target company, ea'
-  name: DatabookAI REST API
-  slug: databookai-rest-api
-artifact_total: 8
+- description: The batch - create API from Databook — 3 operation(s) for batch - create.
+  name: Databook batch - create API
+  slug: databook-batch-create-api
+- description: The batch - query API from Databook — 3 operation(s) for batch - query.
+  name: Databook batch - query API
+  slug: databook-batch-query-api
+- description: The chat API from Databook — 1 operation(s) for chat.
+  name: Databook Chat API
+  slug: databook-chat-api
+- description: The reasoning API from Databook — 1 operation(s) for reasoning.
+  name: Databook Reasoning API
+  slug: databook-reasoning-api
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -166,7 +175,7 @@ modified: '2026-08-13'
 name: Databook
 nav: Providers
 network: true
-overview: 'Databook publishes 1 API on the [APIs.io](https://apis.io/) network: DatabookAI REST API. Tagged areas include Company, Vertical Software, Sales Intelligence, Account Intelligence, and Sales Enablement.
+overview: 'Databook publishes 4 APIs on the [APIs.io](https://apis.io/) network, including batch - create API, batch - query API, Chat API, and 1 more. Tagged areas include Company, Vertical Software, Sales Intelligence, Account Intelligence, and Sales Enablement.
 
 
   Databook''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 21 more developer resources.'
@@ -181,25 +190,30 @@ rate_limits:
   slug: databook-rate-limits
 score:
   band: thin
-  composite: 36.0
-  delta: 0.0
+  composite: 35.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
-    contract_governance: 30.3
-    contract_quality: 49.0
+    contract_governance: 18.2
+    contract_quality: 51.0
     developer_ergonomics: 51.8
-    discoverability: 68.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 36.0
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/databook/refs/heads/main/screenshots/databook-2026-07-25T211258.png
 security:

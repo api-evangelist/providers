@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: ocelot-agentic-access
   summary_line: 4 operations · 3 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Ocelot is an open-source .NET API Gateway that provides routing, authentication, authorization, rate limiting, load balancing, caching, and service discovery for microservices architectures. It is con
   name: Ocelot API Gateway
@@ -74,6 +74,18 @@ collections:
   name: Ocelot Administration Authentication Configuration API
   slug: open-ocelot-configuration-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/ThreeMammals/Ocelot/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/ThreeMammals/Ocelot/blob/develop/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/ThreeMammals/Ocelot/blob/develop/.github/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -141,7 +153,7 @@ network: true
 overview: 'Ocelot publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Cache API, and Configuration API. Tagged areas include .NET, API Gateway, Microservices, and Open-Source.
 
 
-  Ocelot''s developer surface includes authentication, documentation, getting-started guide, changelog, and 9 more developer resources.'
+  Ocelot''s developer surface includes authentication, documentation, getting-started guide, changelog, and 12 more developer resources.'
 plans:
 - name: Ocelot Plans Pricing
   plan_count: 3
@@ -153,18 +165,26 @@ rate_limits:
   slug: ocelot-rate-limits
 score:
   band: thin
-  composite: 35.9
-  delta: 1.5
+  composite: 38.3
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 51.2
     developer_ergonomics: 50.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 34.4
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     contracts:
@@ -172,8 +192,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocelot/refs/heads/main/screenshots/ocelot-2026-06-20T190607.png
 security:

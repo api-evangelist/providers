@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 6
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 72
   slug: ant-media-agentic-access
   summary_line: 72 operations · 40 acting · 6 human-in-the-loop
-api_count: 6
+api_count: 1
 apis:
 - description: The Ant Media Server REST API provides programmatic access to all streaming server management functions including stream management, broadcast configuration, recording control, token authentication, c
   name: Ant Media Server REST API
@@ -85,6 +85,10 @@ collections:
   name: Ant Media Server REST API Reference
   slug: open-ant-media
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ant-media-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -205,7 +209,7 @@ overview: 'Ant Media publishes 5 APIs on the [APIs.io](https://apis.io/) network
   The Ant Media catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ant Media''s developer surface includes developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 12 more developer resources.'
+  Ant Media''s developer surface includes developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 13 more developer resources.'
 plans:
 - name: Ant Media Plans Pricing
   plan_count: 3
@@ -228,18 +232,26 @@ rules:
   slug: ant-media-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.6
-  delta: 3.8
+  composite: 43.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 25.0
     contract_quality: 43.4
     developer_ergonomics: 57.1
-    discoverability: 74.1
+    discoverability: 75.9
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 41.8
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
@@ -247,8 +259,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/screenshots/ant-media-2026-06-20T172022.png
 security:

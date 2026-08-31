@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: applitools-agentic-access
   summary_line: 7 operations · 3 acting
-api_count: 8
+api_count: 1
 apis:
 - description: REST API for the Applitools Eyes cloud server. Endpoint groups include Batch Management (results, statistics, properties, deletion), Discussions (list and manage comments), and SCM Integrations (statu
   name: Applitools Eyes Server REST API
@@ -161,15 +161,20 @@ rate_limits:
   slug: applitools-rate-limits
 score:
   band: thin
-  composite: 34.3
-  delta: 0.0
+  composite: 33.8
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 45.6
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 34.3
@@ -180,8 +185,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applitools/refs/heads/main/screenshots/applitools-2026-06-20T172326.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 19
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 225
   slug: tesslio-agentic-access
   summary_line: 225 operations · 111 acting · 19 human-in-the-loop
-api_count: 35
+api_count: 1
 apis:
 - description: Admin-scoped API keys for support tooling.
   name: tessl.io Admin Keys API
@@ -250,6 +250,10 @@ collections:
   name: Tessl Admin Keys Workspaces API
   slug: open-tesslio-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tesslio-capability-edges.yml
 - group: docs
   title: ''
   type: OpenAPI
@@ -405,22 +409,27 @@ network: true
 overview: 'tessl.io publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Admin Keys API, Agent Logs API, API Keys API, and 32 more. Tagged areas include Company, Ai Ml, Agent Enablement, Agentic Development, and Developer Tools.
 
 
-  tessl.io''s developer surface includes authentication, changelog, CLI, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
+  tessl.io''s developer surface includes authentication, changelog, CLI, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
 random_paper: 15
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 44.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 46.3
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 47.3
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -431,8 +440,8 @@ score:
       total: 35
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tesslio/refs/heads/main/screenshots/tesslio-2026-08-17T082329.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 49
   slug: trainingpeaks-agentic-access
   summary_line: 49 operations · 15 acting
-api_count: 10
+api_count: 1
 apis:
 - description: Authenticated athlete profile and (deprecated) training zones.
   name: TrainingPeaks Athlete API
@@ -193,18 +193,23 @@ scopes:
   summary_line: 17 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.5
-  delta: 2.4
+  composite: 33.0
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 15.9
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 31.1
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -218,8 +223,8 @@ score:
     regime: Health
     regime_id: health
     score: 36.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

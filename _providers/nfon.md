@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 226
   human_in_the_loop: 20
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 496
   slug: nfon-agentic-access
   summary_line: 496 operations · 226 acting · 20 human-in-the-loop
-api_count: 52
+api_count: 3
 apis:
 - description: Legacy PBX configuration API (Basic Auth / API key) for viewing and modifying PBX-related configuration. Being deprecated in favour of the PBX Configuration API; maintained only for critical fixes. Pu
   name: NFON Service Portal API (legacy)
@@ -361,6 +361,10 @@ collections:
   name: NFON Call History Accounts trunks API
   slug: open-nfon-trunks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nfon-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -504,22 +508,27 @@ network: true
 overview: 'Nfon publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Service Portal API (legacy), Accounts API, address API, and 49 more. Tagged areas include Company, Telecom, Cloud Telephony, UCaaS, and CPaaS.
 
 
-  Nfon''s developer surface includes authentication, documentation, API reference, support, changelog, and 27 more developer resources.'
+  Nfon''s developer surface includes authentication, documentation, API reference, support, changelog, and 28 more developer resources.'
 random_paper: 13
 score:
   band: developing
-  composite: 52.2
+  composite: 50.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
-    contract_quality: 58.2
+    contract_governance: 18.2
+    contract_quality: 55.7
     developer_ergonomics: 49.4
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 52.2
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -532,12 +541,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nfon/refs/heads/main/screenshots/nfon-2026-08-07T185227.png
 security:

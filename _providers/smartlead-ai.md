@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 1
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 112
   slug: smartlead-ai-agentic-access
   summary_line: 112 operations · 54 acting · 1 human-in-the-loop
-api_count: 11
+api_count: 1
 apis:
-- description: The complete SmartLead REST API as published by SmartLead — OpenAPI 3.1.1, 85 paths and 98 operations across campaigns, sequences, leads and lead lists, email accounts and warmup, the master inbox, we
-  name: SmartLead API
-  slug: smartlead-api
 - description: REST endpoints to create, list, fetch, update, schedule, pause, resume, and delete email campaigns, plus manage sequences, A/B variants, and sender account assignments inside a campaign.
   name: Smartlead Campaigns API
   slug: campaigns-api
@@ -77,7 +74,34 @@ apis:
 - description: 'SmartLead''s remote Model Context Protocol server. tools/list answers anonymously with three documentation tools (search, a read-only docs filesystem, feedback). It exposes the SmartLead documentation '
   name: SmartLead Documentation MCP Server
   slug: mcp-server
-artifact_total: 23
+- description: Global analytics and reporting across all campaigns
+  name: Smartlead Analytics API
+  slug: smartlead-ai-analytics-api
+- description: User authentication and account management
+  name: Smartlead Authentication API
+  slug: smartlead-ai-authentication-api
+- description: Configure and manage email sending accounts
+  name: Smartlead Email Accounts API
+  slug: smartlead-ai-email-accounts-api
+- description: Manage leads and prospects across campaigns
+  name: Smartlead Leads API
+  slug: smartlead-ai-leads-api
+- description: Unified inbox for all campaign communications
+  name: Smartlead Master Inbox API
+  slug: smartlead-ai-master-inbox-api
+- description: Email deliverability testing and monitoring
+  name: Smartlead Smart Delivery API
+  slug: smartlead-ai-smart-delivery-api
+- description: Automated email account provisioning marketplace
+  name: Smartlead Smart Senders API
+  slug: smartlead-ai-smart-senders-api
+- description: Utility endpoints for various operations
+  name: Smartlead Utilities API
+  slug: smartlead-ai-utilities-api
+- description: Configure webhooks for real-time event notifications
+  name: Smartlead Webhooks API
+  slug: smartlead-ai-webhooks-api
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Smartlead Ai Webhooks
@@ -276,7 +300,7 @@ modified: '2026-08-13'
 name: Smartlead
 nav: Providers
 network: true
-overview: 'Smartlead publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Campaign Statistics API, Campaigns API, and 1 more. Tagged areas include Cold Email, Outbound, Sales, Deliverability, and Email Warm-up.
+overview: 'Smartlead publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Campaign Statistics API, Campaigns API, Analytics API, and 8 more. Tagged areas include Cold Email, Outbound, Sales, Deliverability, and Email Warmup.
 
 
   The Smartlead catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -294,18 +318,23 @@ rate_limits:
   slug: smartlead-ai-rate-limits
 score:
   band: strong
-  composite: 63.6
-  delta: 0.0
+  composite: 61.3
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 16.7
-    contract_quality: 66.2
+    contract_governance: 4.5
+    contract_quality: 65.3
     developer_ergonomics: 71.4
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 63.6
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -316,8 +345,8 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartlead-ai/refs/heads/main/screenshots/smartlead-ai-2026-06-20T194043.png
 security:
@@ -335,7 +364,7 @@ tags:
 - Outbound
 - Sales
 - Deliverability
-- Email Warm-up
+- Email Warmup
 - Automation
 - Sequences
 website: https://www.smartlead.ai

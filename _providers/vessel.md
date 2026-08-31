@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 304
   human_in_the_loop: 0
@@ -44,72 +44,131 @@ agentic_access:
   summary_line: 376 operations · 304 acting
 api_count: 20
 apis:
-- description: The Vessel Platform API is the control plane of the Vessel embedded integrations platform. It covers the Link authentication handshake (session tokens and access tokens), the catalog of supported inte
-  name: Vessel Platform API
-  slug: platform-api
-- description: The Vessel CRM Unified API (v2) normalizes CRM objects across Salesforce, HubSpot, Zoho, Pipedrive, Close, Freshsales, Microsoft Dynamics, Affinity and monday.com behind a single schema under /api/uni
-  name: Vessel CRM Unified API
-  slug: crm-unified-api
-- description: The Vessel Sales Engagement Unified API normalizes sales engagement objects across Outreach, Salesloft, Apollo and similar tools under /api/unifications/engagement, covering users, contacts, accounts,
-  name: Vessel Sales Engagement Unified API
-  slug: engagement-unified-api
-- description: 'The Vessel Chat Unified API normalizes chat platform objects across Slack and Microsoft Teams under /api/unifications/chat, providing a single interface for channels, messages and users. Published by '
-  name: Vessel Chat Unified API
-  slug: chat-unified-api
-- description: The Vessel Dialer Unified API normalizes telephony/dialer objects across Aircall, Dialpad and RingCentral under /api/unifications/dialer, covering calls, call recordings, users and contacts. Published
-  name: Vessel Dialer Unified API
-  slug: dialer-unified-api
-- description: The Vessel Marketing Automation Unified API normalizes marketing automation objects across Mailchimp, ActiveCampaign and Customer.io under /api/unifications/marketing, covering lists, contacts, campai
-  name: Vessel Marketing Automation Unified API
-  slug: marketing-automation-unified-api
-- description: The first-generation Vessel CRM API, published under /crm/* with the vessel-api-token header and an accessToken query/body parameter. Superseded by the v2 unified CRM API under /api/unifications/crm a
-  name: Vessel CRM API (v1, legacy)
-  slug: crm-api-v1
-- description: The first-generation Vessel Sales Engagement API, published under /engagement/* on api.vessel.land. Covers users, accounts, contacts, tasks, actions, calls, emails, call dispositions, sequences, seque
-  name: Vessel Engagement API (v1, legacy)
-  slug: engagement-api-v1
-- description: The Vessel Actions API for Salesforce — typed, validated wrappers over Salesforce's native API served under /api/actions/salesforce. Actions add request/response schema validation, standardized data t
-  name: Vessel Salesforce Actions API
-  slug: salesforce-actions-api
-- description: The Vessel Actions API for Slack — typed, validated wrappers over Slack's native API served under /api/actions/slack. Actions add request/response schema validation, standardized data types and normal
-  name: Vessel Slack Actions API
-  slug: slack-actions-api
-- description: The Vessel Actions API for Microsoft Teams — typed, validated wrappers over Microsoft Teams's native API served under /api/actions/teams. Actions add request/response schema validation, standardized d
-  name: Vessel Microsoft Teams Actions API
-  slug: teams-actions-api
-- description: The Vessel Actions API for Outreach — typed, validated wrappers over Outreach's native API served under /api/actions/outreach. Actions add request/response schema validation, standardized data types a
-  name: Vessel Outreach Actions API
-  slug: outreach-actions-api
-- description: The Vessel Actions API for Salesloft — typed, validated wrappers over Salesloft's native API served under /api/actions/salesloft. Actions add request/response schema validation, standardized data type
-  name: Vessel Salesloft Actions API
-  slug: salesloft-actions-api
-- description: The Vessel Actions API for Apollo — typed, validated wrappers over Apollo's native API served under /api/actions/apollo. Actions add request/response schema validation, standardized data types and nor
-  name: Vessel Apollo Actions API
-  slug: apollo-actions-api
-- description: 'The Vessel Actions API for Aircall — typed, validated wrappers over Aircall''s native API served under /api/actions/aircall. Actions add request/response schema validation, standardized data types and '
-  name: Vessel Aircall Actions API
-  slug: aircall-actions-api
-- description: 'The Vessel Actions API for Dialpad — typed, validated wrappers over Dialpad''s native API served under /api/actions/dialpad. Actions add request/response schema validation, standardized data types and '
-  name: Vessel Dialpad Actions API
-  slug: dialpad-actions-api
-- description: The Vessel Actions API for RingCentral — typed, validated wrappers over RingCentral's native API served under /api/actions/ringcentral. Actions add request/response schema validation, standardized dat
-  name: Vessel RingCentral Actions API
-  slug: ringcentral-actions-api
-- description: The Vessel Actions API for Mailchimp — typed, validated wrappers over Mailchimp's native API served under /api/actions/mailchimp. Actions add request/response schema validation, standardized data type
-  name: Vessel Mailchimp Actions API
-  slug: mailchimp-actions-api
-- description: The Vessel Actions API for ActiveCampaign — typed, validated wrappers over ActiveCampaign's native API served under /api/actions/activecampaign. Actions add request/response schema validation, standar
-  name: Vessel ActiveCampaign Actions API
-  slug: activecampaign-actions-api
-- description: The Vessel Actions API for monday.com — typed, validated wrappers over monday.com's native API served under /api/actions/monday. Actions add request/response schema validation, standardized data types
-  name: Vessel monday.com Actions API
-  slug: monday-actions-api
-artifact_total: 38
+- description: The accounts API from Vessel — 7 operation(s) for accounts.
+  name: Vessel Accounts API
+  slug: vessel-accounts-api
+- description: The Actions API from Vessel — 115 operation(s) for actions.
+  name: Vessel Actions API
+  slug: vessel-actions-api
+- description: The attendees API from Vessel — 5 operation(s) for attendees.
+  name: Vessel Attendees API
+  slug: vessel-attendees-api
+- description: The Auth API from Vessel — 6 operation(s) for auth.
+  name: Vessel Auth API
+  slug: vessel-auth-api
+- description: The Connection API from Vessel — 1 operation(s) for connection.
+  name: Vessel Connection API
+  slug: vessel-connection-api
+- description: The connections API from Vessel — 5 operation(s) for connections.
+  name: Vessel Connections API
+  slug: vessel-connections-api
+- description: The contactCustomFields API from Vessel — 1 operation(s) for contactcustomfields.
+  name: Vessel Contact Custom Fields API
+  slug: vessel-contactcustomfields-api
+- description: The contacts API from Vessel — 5 operation(s) for contacts.
+  name: Vessel Contacts API
+  slug: vessel-contacts-api
+- description: The Crm API from Vessel — 9 operation(s) for crm.
+  name: Vessel CRM API
+  slug: vessel-crm-api
+- description: The deals API from Vessel — 5 operation(s) for deals.
+  name: Vessel Deals API
+  slug: vessel-deals-api
+- description: The emails API from Vessel — 5 operation(s) for emails.
+  name: Vessel Emails API
+  slug: vessel-emails-api
+- description: The engAccounts API from Vessel — 2 operation(s) for engaccounts.
+  name: Vessel Eng Accounts API
+  slug: vessel-engaccounts-api
+- description: The engAccountss API from Vessel — 1 operation(s) for engaccountss.
+  name: Vessel Eng Accountss API
+  slug: vessel-engaccountss-api
+- description: The engActions API from Vessel — 3 operation(s) for engactions.
+  name: Vessel Eng Actions API
+  slug: vessel-engactions-api
+- description: The engCalls API from Vessel — 2 operation(s) for engcalls.
+  name: Vessel Eng Calls API
+  slug: vessel-engcalls-api
+- description: The engContacts API from Vessel — 3 operation(s) for engcontacts.
+  name: Vessel Eng Contacts API
+  slug: vessel-engcontacts-api
+- description: The engCustomFields API from Vessel — 2 operation(s) for engcustomfields.
+  name: Vessel Eng Custom Fields API
+  slug: vessel-engcustomfields-api
+- description: The engDispositions API from Vessel — 1 operation(s) for engdispositions.
+  name: Vessel Eng Dispositions API
+  slug: vessel-engdispositions-api
+- description: The engEmails API from Vessel — 3 operation(s) for engemails.
+  name: Vessel Eng Emails API
+  slug: vessel-engemails-api
+- description: The engMailboxes API from Vessel — 1 operation(s) for engmailboxes.
+  name: Vessel Eng Mailboxes API
+  slug: vessel-engmailboxes-api
+- description: The engPassthrough API from Vessel — 1 operation(s) for engpassthrough.
+  name: Vessel Eng Passthrough API
+  slug: vessel-engpassthrough-api
+- description: The engSequences API from Vessel — 4 operation(s) for engsequences.
+  name: Vessel Eng Sequences API
+  slug: vessel-engsequences-api
+- description: The engTasks API from Vessel — 3 operation(s) for engtasks.
+  name: Vessel Eng Tasks API
+  slug: vessel-engtasks-api
+- description: The engUsers API from Vessel — 2 operation(s) for engusers.
+  name: Vessel Eng Users API
+  slug: vessel-engusers-api
+- description: The events API from Vessel — 5 operation(s) for events.
+  name: Vessel Events API
+  slug: vessel-events-api
+- description: The integrations API from Vessel — 2 operation(s) for integrations.
+  name: Vessel Integrations API
+  slug: vessel-integrations-api
+- description: The leadCustomFields API from Vessel — 1 operation(s) for leadcustomfields.
+  name: Vessel Lead Custom Fields API
+  slug: vessel-leadcustomfields-api
+- description: The leads API from Vessel — 5 operation(s) for leads.
+  name: Vessel Leads API
+  slug: vessel-leads-api
+- description: The links API from Vessel — 1 operation(s) for links.
+  name: Vessel Links API
+  slug: vessel-links-api
+- description: The lists API from Vessel — 2 operation(s) for lists.
+  name: Vessel Lists API
+  slug: vessel-lists-api
+- description: The notes API from Vessel — 5 operation(s) for notes.
+  name: Vessel Notes API
+  slug: vessel-notes-api
+- description: The passthrough API from Vessel — 2 operation(s) for passthrough.
+  name: Vessel Passthrough API
+  slug: vessel-passthrough-api
+- description: The tasks API from Vessel — 5 operation(s) for tasks.
+  name: Vessel Tasks API
+  slug: vessel-tasks-api
+- description: The tokens API from Vessel — 1 operation(s) for tokens.
+  name: Vessel Tokens API
+  slug: vessel-tokens-api
+- description: The Unifications API from Vessel — 107 operation(s) for unifications.
+  name: Vessel Unifications API
+  slug: vessel-unifications-api
+- description: The users API from Vessel — 5 operation(s) for users.
+  name: Vessel Users API
+  slug: vessel-users-api
+- description: The webhooks API from Vessel — 5 operation(s) for webhooks.
+  name: Vessel Webhooks API
+  slug: vessel-webhooks-api
+artifact_total: 55
 asyncapis:
 - description: ''
   name: Vessel Webhooks
   slug: vessel-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vessel-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/vesselapi/all-api-docs/issues
 - group: commercial
   title: ''
   type: License
@@ -339,13 +398,13 @@ modified: '2026-08-13'
 name: Vessel
 nav: Providers
 network: true
-overview: 'Vessel publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Platform API, CRM Unified API, Sales Engagement Unified API, and 17 more. Tagged areas include CRM, Chat, Dialer, Embedded Integrations, and Go-To-Market.
+overview: 'Vessel publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Actions API, Attendees API, and 34 more. Tagged areas include CRM, Chat, Dialer, Embedded Integrations, and GTM.
 
 
   The Vessel catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Vessel''s developer surface includes authentication, engineering blog, documentation, API reference, getting-started guide, pricing, support, and 39 more developer resources.'
+  Vessel''s developer surface includes authentication, engineering blog, documentation, API reference, getting-started guide, pricing, support, and 41 more developer resources.'
 plans:
 - name: Vessel Plans Pricing
   plan_count: 3
@@ -378,19 +437,27 @@ rules:
     warn: 3
   slug: vessel-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 72.1
-  delta: 0.0
+  band: strong
+  composite: 65.2
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 17.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.2
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 100.0
-    contract_quality: 62.9
+    contract_governance: 87.9
+    contract_quality: 72.3
     developer_ergonomics: 73.2
-    discoverability: 74.1
-    governance: 100.0
+    discoverability: 68.5
+    governance: 87.9
     operational_transparency: 50.0
-  previous_composite: 72.1
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 64.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -401,8 +468,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vessel/refs/heads/main/screenshots/vessel-2026-06-20T200959.png
 security:
@@ -420,7 +487,7 @@ tags:
 - Chat
 - Dialer
 - Embedded Integrations
-- Go-To-Market
+- GTM
 - Integration
 - iPaaS
 - Marketing Automation

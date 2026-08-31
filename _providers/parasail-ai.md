@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 20
   slug: parasail-ai-agentic-access
   summary_line: 20 operations · 12 acting
-api_count: 7
+api_count: 3
 apis:
 - description: Create, list, retrieve, and cancel batch inference jobs.
   name: Parasail Batch API
@@ -101,6 +101,10 @@ collections:
   name: Parasail Inference API
   slug: open-parasail-inference-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/parasail-ai-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -267,7 +271,7 @@ overview: 'Parasail publishes 7 APIs on the [APIs.io](https://apis.io/) network,
   The Parasail catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Parasail''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, code examples, and 19 more developer resources.'
+  Parasail''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, code examples, and 20 more developer resources.'
 plans:
 - name: Parasail Plans Pricing
   plan_count: 7
@@ -302,6 +306,11 @@ rules:
 score:
   band: developing
   composite: 51.6
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 34.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 73.7
@@ -320,8 +329,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/screenshots/parasail-ai-2026-06-20T191400.png
 security:

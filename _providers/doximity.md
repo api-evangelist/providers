@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 10
   slug: doximity-agentic-access
   summary_line: 10 operations · 3 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: OAuth 2.0 authorization and token endpoints
   name: Doximity OAuth API
@@ -202,7 +202,7 @@ modified: '2026-07-18'
 name: Doximity
 nav: Providers
 network: true
-overview: 'Doximity publishes 2 APIs on the [APIs.io](https://apis.io/) network: OAuth API and OpenID Connect API. Tagged areas include Company, Health Tech, Identity, Authentication, and OpenID Connect.
+overview: 'Doximity publishes 2 APIs on the [APIs.io](https://apis.io/) network: OAuth API and OpenID Connect API. Tagged areas include Company, Healthtech, Identity, Authentication, and OpenID Connect.
 
 
   Doximity''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, and 27 more developer resources.'
@@ -218,18 +218,23 @@ scopes:
   summary_line: 21 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.9
+  composite: 55.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 46.9
     developer_ergonomics: 56.5
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 57.9
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -246,8 +251,8 @@ score:
     regime: Health
     regime_id: health
     score: 72.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/screenshots/doximity-2026-07-25T212328.png
 security:
@@ -270,7 +275,7 @@ security:
 slug: doximity
 tags:
 - Company
-- Health Tech
+- Healthtech
 - Identity
 - Authentication
 - OpenID Connect

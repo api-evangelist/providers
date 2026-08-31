@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 3
   slug: qwen-agentic-access
   summary_line: 3 operations · 2 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Native Alibaba Cloud Model Studio API serving the Qwen model family. Provides chat completions, multimodal vision, embeddings, audio (TTS/ASR), image generation, video generation, function calling, an
   name: DashScope (Alibaba Cloud Model Studio) API
@@ -145,18 +145,23 @@ rate_limits:
   slug: qwen-rate-limits
 score:
   band: thin
-  composite: 34.0
-  delta: 4.7
+  composite: 33.5
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 29.3
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -164,8 +169,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qwen/refs/heads/main/screenshots/qwen-2026-06-20T192458.png
 security:
@@ -184,6 +189,6 @@ tags:
 - Inference
 - Open-Source
 - Alibaba
-- Multi-Modal
+- Multimodal
 website: https://qwen.ai/
 ---

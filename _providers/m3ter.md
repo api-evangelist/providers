@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 323
   slug: m3ter-agentic-access
   summary_line: 323 operations · 177 acting
-api_count: 58
+api_count: 1
 apis:
 - description: Endpoints for Account related operations such as creation, update, list and delete. An Account represents one of your end-customer accounts. Accounts do not belong to a Product to allow for cases wher
   name: M3ter Account API
@@ -401,6 +401,10 @@ collections:
   name: m3ter API
   slug: open-m3ter
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/m3ter-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -464,7 +468,7 @@ network: true
 overview: 'M3ter publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Account API, AccountPlan API, Aggregation API, and 55 more. Tagged areas include FinOps, Usage-Based Billing, Metering, Billing, and Pricing.
 
 
-  M3ter''s developer surface includes authentication, documentation, API reference, engineering blog, and 8 more developer resources.'
+  M3ter''s developer surface includes authentication, documentation, API reference, engineering blog, and 9 more developer resources.'
 plans:
 - name: M3Ter Plans Pricing
   plan_count: 3
@@ -481,18 +485,23 @@ scopes:
   summary_line: 6 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 37.1
-  delta: 5.7
+  composite: 36.6
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 82.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 54.9
     developer_ergonomics: 59.5
-    discoverability: 57.4
+    discoverability: 51.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 31.4
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -500,9 +509,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 58
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/m3ter/refs/heads/main/screenshots/m3ter-2026-06-20T184823.png
 security:
 - kind: authentication

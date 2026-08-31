@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 30
   slug: amazon-b2b-data-interchange-agentic-access
   summary_line: 30 operations · 20 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Manage EDI transformation capabilities
   name: Amazon B2B Data Interchange Capabilities API
@@ -139,7 +139,7 @@ common:
   url: https://docs.rs/aws-sdk-b2bi
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/aws-samples/aws-b2b-data-interchange-toolkit
 - group: other
   title: ''
@@ -210,7 +210,7 @@ overview: 'Amazon B2B Data Interchange publishes 6 APIs on the [APIs.io](https:/
   The Amazon B2B Data Interchange catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Amazon B2B Data Interchange''s developer surface includes authentication, CLI, SDKs, pricing, and 14 more developer resources.'
+  Amazon B2B Data Interchange''s developer surface includes authentication, CLI, SDKs, code examples, pricing, and 13 more developer resources.'
 random_paper: 14
 rules:
 - effective_rule_count: 5
@@ -225,18 +225,23 @@ rules:
   slug: amazon-b2b-data-interchange-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.0
-  delta: 3.7
+  composite: 49.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 41.7
+    contract_governance: 29.5
     contract_quality: 77.9
     developer_ergonomics: 45.2
-    discoverability: 81.5
-    governance: 41.7
+    discoverability: 75.9
+    governance: 29.5
     operational_transparency: 0.0
-  previous_composite: 47.3
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,12 +253,16 @@ score:
     mcp: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/screenshots/amazon-b2b-data-interchange-2026-07-25T195932.png
 security:

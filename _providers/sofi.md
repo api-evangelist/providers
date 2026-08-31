@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,20 +41,20 @@ agentic_access:
   operation_count: 2
   slug: sofi-agentic-access
   summary_line: 2 operations · 2 acting
-api_count: 4
+api_count: 2
 apis:
-- description: SoFi's partner-offer-api (documented as Partner Offer Pre Qual V2) is a real, first-party external REST API that exposes SoFi's underwriting model to approved partners, returning real-time Personal Lo
-  name: SoFi Partner Offer Pre-Qualification API
-  slug: sofi-partner-offer-api
-- description: SoFi's Home Loan Affiliate Lead API is a real, first-party REST endpoint that lets approved affiliate partners submit home-loan leads to SoFi via POST /afpq/api/v1/affiliate/lead/home-loan. The docume
-  name: SoFi Home Loan Affiliate Lead API
-  slug: sofi-home-loan-affiliate-lead-api
 - description: SoFi Business Banking (marketed as Big Business Banking) is SoFi Bank, N.A.'s API-driven commercial platform combining a nationally chartered bank with direct Federal Reserve access to move money in r
   name: SoFi Business Banking API
   slug: sofi-business-banking-api
 - description: SoFi Tech Solutions (formerly Galileo Financial Technologies, a SoFi company) is SoFi's B2B fintech platform arm, exposing cloud-native RESTful APIs - Program API (accounts, cards), Config API, Disput
   name: SoFi Tech Solutions Platform API
   slug: sofi-tech-solutions-platform-api
+- description: The Affiliate Leads API from SoFi — 1 operation(s) for affiliate leads.
+  name: SoFi Affiliate Leads API
+  slug: sofi-affiliate-leads-api
+- description: The Partner Offers API from SoFi — 1 operation(s) for partner offers.
+  name: SoFi Partner Offers API
+  slug: sofi-partner-offers-api
 artifact_total: 28
 collections:
 - collection_type: open
@@ -64,6 +64,10 @@ collections:
   name: SoFi Partner Offer Pre-Qualification API
   slug: open-sofi-partner-offer-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sofi-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -209,10 +213,10 @@ modified: '2026-07-23'
 name: SoFi
 nav: Providers
 network: true
-overview: 'SoFi publishes 2 APIs on the [APIs.io](https://apis.io/) network: Partner Offer Pre-Qualification API and Home Loan Affiliate Lead API. Tagged areas include Personal Finance, Banking, Lending, Student Loans, and Mortgages.
+overview: 'SoFi publishes 2 APIs on the [APIs.io](https://apis.io/) network: Affiliate Leads API and Partner Offers API. Tagged areas include Personal Finance, Banking, Lending, Student Loans, and Mortgages.
 
 
-  SoFi''s developer surface includes authentication, documentation, engineering blog, pricing, support, sandbox, and 22 more developer resources.'
+  SoFi''s developer surface includes authentication, documentation, engineering blog, pricing, support, sandbox, and 23 more developer resources.'
 plans:
 - name: Sofi Plans Pricing
   plan_count: 2
@@ -224,18 +228,23 @@ rate_limits:
   slug: sofi-rate-limits
 score:
   band: developing
-  composite: 48.6
-  delta: 0.0
+  composite: 46.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 55.8
     developer_ergonomics: 42.3
-    discoverability: 72.2
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 48.6
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -252,8 +261,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sofi/refs/heads/main/screenshots/sofi-2026-06-20T194126.png
 security:
@@ -277,7 +286,7 @@ tags:
 - Fintech
 - Open Banking
 - Digital Banking
-- Banking as a Service
+- Banking-as-a-Service
 - Partner API
 - Business Banking
 - United States

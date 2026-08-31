@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 9
   slug: regal-ai-agentic-access
   summary_line: 9 operations · 5 acting
-api_count: 10
+api_count: 6
 apis:
 - description: Regal publishes 40+ reporting webhook event types covering agent activity, call lifecycle (placed, completed, IVR triggered, wrapup), call recording and transcript availability, AI call analysis, task
   name: Regal Reporting Webhooks
@@ -139,6 +139,10 @@ collections:
   name: Regal Messages API
   slug: open-regal-messages-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/regal-ai-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -552,7 +556,7 @@ overview: 'Regal publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
   The Regal catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Regal''s developer surface includes authentication, developer portal, documentation, getting-started guide, FAQ, signup flow, pricing, and 76 more developer resources.'
+  Regal''s developer surface includes authentication, developer portal, documentation, getting-started guide, FAQ, signup flow, pricing, and 77 more developer resources.'
 plans:
 - name: Regal Ai Plans Pricing
   plan_count: 1
@@ -602,18 +606,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/refreshToken
 score:
   band: exemplar
-  composite: 80.6
-  delta: 1.0
+  composite: 78.0
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 29.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 72.4
     commercial_clarity: 72.4
-    contract_governance: 59.1
+    contract_governance: 47.0
     contract_quality: 80.7
     developer_ergonomics: 63.7
-    discoverability: 83.3
-    governance: 59.1
+    discoverability: 72.2
+    governance: 47.0
     operational_transparency: 84.2
-  previous_composite: 79.6
+  previous_composite: 78.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -630,8 +639,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 75.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/screenshots/regal-ai-2026-06-20T192753.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 5
   slug: pelias-agentic-access
   summary_line: 5 operations
-api_count: 4
+api_count: 1
 apis:
 - description: Real-time type-ahead geocoding for user input
   name: Pelias Autocomplete API
@@ -73,6 +73,14 @@ collections:
   name: Pelias Geocoding Autocomplete Reverse Geocoding API
   slug: open-pelias-reverse-geocoding-api
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/pelias/pelias/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/pelias/pelias/blob/master/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -138,13 +146,13 @@ modified: '2026-06-13'
 name: Pelias
 nav: Providers
 network: true
-overview: 'Pelias publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Forward Geocoding API, Place Lookup API, and 1 more. Tagged areas include Geocoding, Reverse Geocoding, Geospatial, Open-Source, and Elasticsearch.
+overview: 'Pelias publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Forward Geocoding API, Place Lookup API, and 1 more. Tagged areas include geocoding, reverse geocoding, geospatial, open source, and elasticsearch.
 
 
   The Pelias catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Pelias'' developer surface includes documentation, status page, support, and 6 more developer resources.'
+  Pelias'' developer surface includes documentation, status page, support, and 8 more developer resources.'
 plans:
 - name: Plans
   plan_count: 5
@@ -167,18 +175,26 @@ rules:
   slug: pelias-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.0
-  delta: 0.0
+  composite: 32.3
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 59.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 53.1
     developer_ergonomics: 9.5
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 2.6
-  previous_composite: 32.0
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -186,8 +202,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pelias/refs/heads/main/screenshots/pelias-2026-06-20T191527.png
 security:
@@ -197,14 +213,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: pelias
 tags:
-- Geocoding
-- Reverse Geocoding
-- Geospatial
-- Open-Source
-- Elasticsearch
-- OpenStreetMap
+- geocoding
+- reverse geocoding
+- geospatial
+- open source
+- elasticsearch
+- openstreetmap
 - Addresses
 - Places
-- Autocomplete
+- autocomplete
 website: https://pelias.io
 ---

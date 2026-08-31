@@ -24,21 +24,63 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: Version 2 of the Paperless Parts REST API — 101 operations across 58 paths covering Quotes (headers, items, operations, add-ons, discounts, pricing items, files), Orders, Jobs and job operations, Part
-  name: Paperless Parts API v2
-  slug: paperless-parts-api-v2
-- description: Version 1 of the Paperless Parts REST API — 54 operations across 33 paths covering Quotes, Quote Items, Orders, Customers (contacts, accounts, facilities, billing addresses, payment terms), Custom Tab
-  name: Paperless Parts API v1
-  slug: paperless-parts-api-v1
-artifact_total: 8
+- description: Paperless Parts includes Customer Relationship Management (CRM) functionality to make it easy to send quotes to new and existing customers, while keeping data consistent with third-party CRM and ERP s
+  name: Paperless Parts Contacts API
+  slug: paperless-parts-contacts-api
+- description: Endpoints for managing custom tables used by Operations to compute pricing.
+  name: Paperless Parts Custom Tables API
+  slug: paperless-parts-custom-tables-api
+- description: Paperless Parts includes Customer Relationship Management (CRM) functionality to make it easy to send quotes to new and existing customers, while keeping data consistent with third-party CRM and ERP s
+  name: Paperless Parts Customers API
+  slug: paperless-parts-customers-api
+- description: Endpoints for viewing communications between Paperless Parts and ERP integrations
+  name: Paperless Parts Events API
+  slug: paperless-parts-events-api
+- description: Endpoints for interacting with ERP integrations
+  name: Paperless Parts Integration Actions API
+  slug: paperless-parts-integration-actions-api
+- description: Endpoints for managing Jobs
+  name: Paperless Parts Jobs API
+  slug: paperless-parts-jobs-api
+- description: Endpoints for identifying newly placed orders and pulling all information related to a particular order. Also, a new order can be created via open API to turn an existing quote into order.
+  name: Paperless Parts Orders API
+  slug: paperless-parts-orders-api
+- description: Endpoints for managing Parts
+  name: Paperless Parts Parts API
+  slug: paperless-parts-parts-api
+- description: Endpoints for managing Processes, Operation Definitions, and Add on Definitions
+  name: Paperless Parts Processes API
+  slug: paperless-parts-processes-api
+- description: Endpoints for managing purchased components and purchased components columns.
+  name: Paperless Parts Purchased Components API
+  slug: paperless-parts-purchased-components-api
+- description: Endpoints for creating and managing line items on a quote.
+  name: Paperless Parts Quote Items API
+  slug: paperless-parts-quote-items-api
+- description: Endpoints for identifying newly sent quotes, pulling all information related to a particular quote, and updating a quote's status.
+  name: Paperless Parts Quotes API
+  slug: paperless-parts-quotes-api
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Paperless Parts Events
   slug: paperless-parts-events
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/paperless-parts-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/paperless-parts-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/paperless-parts-v1-overlay.yaml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -183,13 +225,13 @@ modified: '2026-08-26'
 name: Paperless Parts
 nav: Providers
 network: true
-overview: 'Paperless Parts publishes 2 APIs on the [APIs.io](https://apis.io/) network: API v2 and API v1. Tagged areas include Company, Manufacturing, Quoting, CNC Machining, and Sheet Metal.
+overview: 'Paperless Parts publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Custom Tables API, Customers API, and 9 more. Tagged areas include Company, Manufacturing, Quoting, CNC Machining, and Sheet Metal.
 
 
   The Paperless Parts catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Paperless Parts'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Paperless Parts'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Paperless Parts Plans Pricing
   plan_count: 0
@@ -201,16 +243,23 @@ rate_limits:
   slug: paperless-parts-rate-limits
 score:
   band: developing
-  composite: 52.0
+  composite: 49.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 30.3
-    contract_quality: 62.0
+    contract_governance: 18.2
+    contract_quality: 61.5
     developer_ergonomics: 49.4
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 28.9
+  previous_composite: 49.9
   provenance:
     conformance: first-party
     contracts:
@@ -220,8 +269,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Paperless Parts Authentication

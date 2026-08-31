@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,21 +42,24 @@ agentic_access:
   operation_count: 6
   slug: disconetwork-agentic-access
   summary_line: 6 operations · 3 acting
-api_count: 4
+api_count: 3
 apis:
-- description: The API used by Disco partners that provide their own UI experience. Returns Disco advertiser recommendations for post-purchase placements and accepts the widget, brand, product and element events (si
-  name: Disco Partner Integration API
-  slug: disconetwork-partner-api
-- description: Read-only channel analytics for DiscoBeat channel partners. V1 exposes a channel summary and a per-publisher breakdown with daily or hourly time series; V2 returns a flat, paginated report table drive
-  name: Disco Reporting API
-  slug: disconetwork-reporting-api
 - description: The channel-partner management API behind DiscoBeat. Lists ad categories and subcategories, reads channel details, manages channel-wide and publisher-specific subcategory exclusions, and lists, inspec
   name: DiscoBeat Channel API
   slug: disconetwork-discobeat-channel-api
 - description: 'The server-to-server conversion intake used by advertisers who cannot run the Web SDK. A POST carries an event name, the publisher account id and one of three customer identifiers (raw email, SHA-256 '
   name: Disco Event API
   slug: disconetwork-event-api
-artifact_total: 15
+- description: The Discobeat API from Disconetwork — 3 operation(s) for discobeat.
+  name: Disconetwork Discobeat API
+  slug: disconetwork-discobeat-api
+- description: The Events API from Disconetwork — 2 operation(s) for events.
+  name: Disconetwork Events API
+  slug: disconetwork-events-api
+- description: The Recommendations API from Disconetwork — 1 operation(s) for recommendations.
+  name: Disconetwork Recommendations API
+  slug: disconetwork-recommendations-api
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Disconetwork Event Surface
@@ -78,6 +81,18 @@ collections:
   name: Disco Reporting API V2
   slug: open-disconetwork-reporting-api-v2
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/disconetwork-partner-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/disconetwork-reporting-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/disconetwork-reporting-api-v2-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -210,13 +225,13 @@ modified: '2026-08-12'
 name: Disconetwork
 nav: Providers
 network: true
-overview: 'Disconetwork publishes 2 APIs on the [APIs.io](https://apis.io/) network: Disco Partner Integration API and Disco Reporting API. Tagged areas include Company, Commerce Media, Retail Media, Post-Purchase, and Advertising.
+overview: 'Disconetwork publishes 3 APIs on the [APIs.io](https://apis.io/) network: Discobeat API, Events API, and Recommendations API. Tagged areas include Company, Commerce Media, Retail Media, Post-Purchase, and Advertising.
 
 
   The Disconetwork catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Disconetwork''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, changelog, authentication, and 24 more developer resources.'
+  Disconetwork''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, changelog, authentication, and 27 more developer resources.'
 plans:
 - name: Disconetwork Plans Pricing
   plan_count: 0
@@ -228,18 +243,23 @@ rate_limits:
   slug: disconetwork-rate-limits
 score:
   band: developing
-  composite: 47.6
+  composite: 46.6
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 61.2
+    contract_governance: 4.5
+    contract_quality: 63.0
     developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 47.6
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,8 +270,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disconetwork/refs/heads/main/screenshots/disconetwork-2026-07-25T212103.png
 security:

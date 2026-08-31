@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 57.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 400
   human_in_the_loop: 151
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 743
   slug: extole-agentic-access
   summary_line: 743 operations · 400 acting · 151 human-in-the-loop
-api_count: 44
+api_count: 4
 apis:
 - description: The Audiences API from Extole — 17 operation(s) for audiences.
   name: Extole Audiences API
@@ -319,6 +319,10 @@ collections:
   name: Integration API - Consumer to Extole Audiences Zone Rendering API
   slug: open-extole-zone-rendering-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/extole-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -510,7 +514,7 @@ overview: 'Extole publishes 44 APIs on the [APIs.io](https://apis.io/) network, 
   The Extole catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Extole''s developer surface includes documentation, API reference, engineering blog, authentication, CLI, changelog, getting-started guide, and 36 more developer resources.'
+  Extole''s developer surface includes documentation, API reference, engineering blog, authentication, CLI, changelog, getting-started guide, and 37 more developer resources.'
 plans:
 - name: Extole Plans Pricing
   plan_count: 0
@@ -539,18 +543,23 @@ scopes:
   summary_line: 8 scopes
 score:
   band: strong
-  composite: 63.1
+  composite: 60.9
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 52.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 75.8
-    contract_quality: 66.3
+    contract_governance: 63.6
+    contract_quality: 67.7
     developer_ergonomics: 56.5
-    discoverability: 92.6
-    governance: 75.8
+    discoverability: 81.5
+    governance: 63.6
     operational_transparency: 63.2
-  previous_composite: 63.1
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -561,8 +570,8 @@ score:
       total: 44
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/screenshots/extole-2026-07-25T213956.png
 security:

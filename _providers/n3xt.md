@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.8
-  scored_at: '2026-08-26'
-api_count: 11
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Approvals API from N3XT — 2 operation(s) for approvals.
   name: N3XT Approvals API
@@ -142,6 +142,10 @@ collections:
   name: N3XT API Documentation Approvals Wallets API
   slug: open-n3xt-wallets-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/n3xt-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -282,10 +286,10 @@ modified: '2026-07-20'
 name: N3XT
 nav: Providers
 network: true
-overview: 'N3XT publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Approvals API, AuditTrail API, Businesses API, and 8 more. Tagged areas include Company, Crypto, Banking, Payments, and Stablecoins.
+overview: 'N3XT publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Approvals API, AuditTrail API, Businesses API, and 8 more. Tagged areas include Company, Crypto, Banking, Payments, and Stablecoin.
 
 
-  N3XT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
+  N3XT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 26 more developer resources.'
 random_paper: 19
 scopes:
 - name: N3Xt Scopes
@@ -294,18 +298,23 @@ scopes:
   summary_line: 8 scopes
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 49.1
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 56.0
     developer_ergonomics: 70.8
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 52.3
+  previous_composite: 49.7
   provenance:
     conformance: first-party
     contracts:
@@ -321,8 +330,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 62.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n3xt/refs/heads/main/screenshots/n3xt-2026-08-07T184554.png
 security:
@@ -348,7 +357,7 @@ tags:
 - Crypto
 - Banking
 - Payments
-- Stablecoins
+- Stablecoin
 - Fintech
 - Blockchain
 - MCP

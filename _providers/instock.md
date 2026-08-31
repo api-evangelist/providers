@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-08-26'
-api_count: 6
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: 'Instock is using the term `article` to describe unique product or SKU managed by Instock ASRS. Articles resource is mostly managed by you as a client of Instock API. Article data is shared across all '
   name: Instock Articles API
@@ -78,6 +78,10 @@ collections:
   name: Instock API reference Articles Sites API
   slug: open-instock-sites-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/instock-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -185,22 +189,27 @@ network: true
 overview: 'Instock publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Inventory API, Moves API, and 3 more. Tagged areas include Company, Robotics, Warehouse Automation, Fulfillment, and Logistics.
 
 
-  Instock''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 16 more developer resources.'
+  Instock''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 17 more developer resources.'
 random_paper: 7
 score:
-  band: developing
-  composite: 40.1
-  delta: 0.0
+  band: thin
+  composite: 38.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 61.6
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 40.1
+  previous_composite: 38.6
   provenance:
     conformance: derived
     contracts:
@@ -210,8 +219,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instock/refs/heads/main/screenshots/instock-2026-07-25T222617.png
 security:

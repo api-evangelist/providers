@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Gated integration API for embedding Ambience''s ambient AI clinical documentation into EHR and partner workflows — medical encounter transcription, clinical note generation, integrated CDI with ICD-10 '
@@ -131,7 +131,12 @@ overview: 'Ambience publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 1
 score:
   band: emerging
-  composite: 19.3
+  composite: 20.0
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -139,18 +144,18 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.3
+  previous_composite: 20.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambience/refs/heads/main/screenshots/ambience-2026-07-25T200021.png
 security:

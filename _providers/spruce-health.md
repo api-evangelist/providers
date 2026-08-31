@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -42,53 +42,53 @@ agentic_access:
   operation_count: 47
   slug: spruce-health-agentic-access
   summary_line: 47 operations · 22 acting
-api_count: 15
+api_count: 16
 apis:
-- description: Organization contact fields — the custom fields that appear on every contact in the organization.
+- description: The Contact Fields API from Spruce Health — 1 operation(s) for contact fields.
   name: Spruce Health Contact Fields API
-  slug: spruce-health-contact-fields
-- description: Contact tags — the tags available to an organization that can be applied to contacts.
+  slug: spruce-health-contact-fields-api
+- description: The Contact Tags API from Spruce Health — 1 operation(s) for contact tags.
   name: Spruce Health Contact Tags API
-  slug: spruce-health-contact-tags
-- description: 'Contacts — the patients and other parties in a Spruce organization: list, search, create, retrieve, update and delete contacts, list a contact''s conversations, manage integration links to external EHR'
+  slug: spruce-health-contact-tags-api
+- description: The Contacts API from Spruce Health — 6 operation(s) for contacts.
   name: Spruce Health Contacts API
-  slug: spruce-health-contacts
-- description: 'Conversation items — the individual messages, calls, faxes and events inside a conversation: retrieve one by id, or soft-delete it asynchronously.'
+  slug: spruce-health-contacts-api
+- description: The Conversation Item API from Spruce Health — 1 operation(s) for conversation item.
   name: Spruce Health Conversation Item API
-  slug: spruce-health-conversation-item
-- description: Conversation tags — the tags available to an organization that can be applied to conversations.
+  slug: spruce-health-conversation-item-api
+- description: The Conversation Tags API from Spruce Health — 1 operation(s) for conversation tags.
   name: Spruce Health Conversation Tags API
-  slug: spruce-health-conversation-tags
-- description: 'Conversations — the message threads in an organization: list and filter conversations with cursor pagination and ordering by created or last_message, create secure and note conversations, retrieve and'
+  slug: spruce-health-conversation-tags-api
+- description: The Conversations API from Spruce Health — 4 operation(s) for conversations.
   name: Spruce Health Conversations API
-  slug: spruce-health-conversations
-- description: 'Internal endpoints — the Spruce phone numbers, fax numbers, email addresses and Spruce Links an organization communicates from: list them, send a secure/SMS/email/fax message from one, and create an o'
+  slug: spruce-health-conversations-api
+- description: The Internal Endpoints API from Spruce Health — 3 operation(s) for internal endpoints.
   name: Spruce Health Internal Endpoints API
-  slug: spruce-health-internal-endpoints
-- description: Media — upload images, video and files to Spruce and receive a media ID that can be attached to messages.
+  slug: spruce-health-internal-endpoints-api
+- description: The Media API from Spruce Health — 1 operation(s) for media.
   name: Spruce Health Media API
-  slug: spruce-health-media
-- description: Organization — read the organization record and its members (teammates, teams and the organization entity itself).
+  slug: spruce-health-media-api
+- description: The Organization API from Spruce Health — 3 operation(s) for organization.
   name: Spruce Health Organization API
-  slug: spruce-health-organization
-- description: Phone lines — list the organization's phone lines and retrieve one by id.
+  slug: spruce-health-organization-api
+- description: The Phone Lines API from Spruce Health — 2 operation(s) for phone lines.
   name: Spruce Health Phone Lines API
-  slug: spruce-health-phone-lines
-- description: Saved messages — the reusable private and organization-wide message templates available to the organization.
+  slug: spruce-health-phone-lines-api
+- description: The Saved Messages API from Spruce Health — 1 operation(s) for saved messages.
   name: Spruce Health Saved Messages API
-  slug: spruce-health-saved-messages
-- description: 'Scheduled messages — messages queued to send at a future time, organization-wide or within a single conversation: list, schedule and delete.'
+  slug: spruce-health-saved-messages-api
+- description: The Scheduled Messages API from Spruce Health — 3 operation(s) for scheduled messages.
   name: Spruce Health Scheduled Messages API
-  slug: spruce-health-scheduled-messages
-- description: Teams — list the members of a team by team id.
+  slug: spruce-health-scheduled-messages-api
+- description: The Teams API from Spruce Health — 1 operation(s) for teams.
   name: Spruce Health Teams API
-  slug: spruce-health-teams
-- description: Transcriptions — retrieve the full transcription text and AI summarization for a transcription id found on voicemails, call recordings and audio messages.
+  slug: spruce-health-teams-api
+- description: The Transcription API from Spruce Health — 1 operation(s) for transcription.
   name: Spruce Health Transcription API
-  slug: spruce-health-transcription
-- description: Webhooks — register and manage the HTTPS destination endpoints that receive real-time contact, conversation, conversationItem and scheduledMessage events; create (returns the signing secret), list, re
+  slug: spruce-health-transcription-api
+- description: The Webhooks API from Spruce Health — 4 operation(s) for webhooks.
   name: Spruce Health Webhooks API
-  slug: spruce-health-webhooks
+  slug: spruce-health-webhooks-api
 artifact_total: 39
 asyncapis:
 - description: ''
@@ -144,6 +144,70 @@ collections:
   name: Spruce Health API
   slug: open-spruce-health
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/spruce-health-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spruce-health-contact-fields-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spruce-health-contact-tags-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spruce-health-contacts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spruce-health-conversation-item-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spruce-health-conversation-tags-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spruce-health-conversations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spruce-health-internal-endpoints-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spruce-health-media-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spruce-health-organization-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spruce-health-phone-lines-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spruce-health-saved-messages-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spruce-health-scheduled-messages-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spruce-health-teams-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spruce-health-transcription-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/spruce-health-webhooks-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -311,7 +375,7 @@ overview: 'Spruce Health publishes 15 APIs on the [APIs.io](https://apis.io/) ne
   The Spruce Health catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Spruce Health''s developer surface includes authentication, documentation, signup flow, changelog, API reference, getting-started guide, support, and 29 more developer resources.'
+  Spruce Health''s developer surface includes authentication, documentation, signup flow, changelog, API reference, getting-started guide, support, and 45 more developer resources.'
 plans:
 - name: Spruce Health Plans Pricing
   plan_count: 3
@@ -323,18 +387,23 @@ rate_limits:
   slug: spruce-health-rate-limits
 score:
   band: strong
-  composite: 65.8
-  delta: 1.0
+  composite: 63.8
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 66.7
     developer_ergonomics: 48.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 64.8
+  previous_composite: 63.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -351,8 +420,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spruce-health/refs/heads/main/screenshots/spruce-health-2026-08-17T082049.png
 security:

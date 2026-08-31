@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 81
   slug: sap-commerce-cloud-agentic-access
   summary_line: 81 operations · 31 acting
-api_count: 24
+api_count: 5
 apis:
 - description: User address management
   name: SAP Commerce Cloud Addresses API
@@ -209,6 +209,10 @@ collections:
   name: SAP Commerce Cloud Admin Addresses Users API
   slug: open-sap-commerce-cloud-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sap-commerce-cloud-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -627,7 +631,7 @@ overview: 'SAP Commerce Cloud publishes 24 APIs on the [APIs.io](https://apis.io
   The SAP Commerce Cloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SAP Commerce Cloud''s developer surface includes authentication, developer portal, getting-started guide, support, and 25 more developer resources.'
+  SAP Commerce Cloud''s developer surface includes authentication, developer portal, getting-started guide, support, and 26 more developer resources.'
 plans:
 - name: Sap Commerce Cloud Plans Pricing
   plan_count: 1
@@ -666,18 +670,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/password
 score:
   band: developing
-  composite: 41.9
-  delta: 1.4
+  composite: 40.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.8
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 28.8
     contract_quality: 66.8
     developer_ergonomics: 21.4
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 40.5
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -685,8 +694,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/screenshots/sap-commerce-cloud-2026-06-20T193424.png
 security:

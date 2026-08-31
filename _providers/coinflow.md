@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 129
   human_in_the_loop: 3
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 180
   slug: coinflow-agentic-access
   summary_line: 180 operations · 129 acting · 3 human-in-the-loop
-api_count: 14
+api_count: 1
 apis:
 - description: The authentication API from Coinflow — 3 operation(s) for authentication.
   name: Coinflow authentication API
@@ -293,7 +293,7 @@ modified: '2026-07-18'
 name: Coinflow
 nav: Providers
 network: true
-overview: 'Coinflow publishes 14 APIs on the [APIs.io](https://apis.io/) network, including authentication API, cardTokenization API, checkout API, and 11 more. Tagged areas include Company, Crypto, Payments, Stablecoins, and USDC.
+overview: 'Coinflow publishes 14 APIs on the [APIs.io](https://apis.io/) network, including authentication API, cardTokenization API, checkout API, and 11 more. Tagged areas include Company, Crypto, Payments, Stablecoin, and USDC.
 
 
   The Coinflow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -303,18 +303,23 @@ overview: 'Coinflow publishes 14 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 4
 score:
   band: strong
-  composite: 58.8
-  delta: 0.0
+  composite: 55.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 59.6
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 58.8
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -331,8 +336,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 84.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinflow/refs/heads/main/screenshots/coinflow-2026-07-25T210028.png
 security:
@@ -353,7 +358,7 @@ tags:
 - Company
 - Crypto
 - Payments
-- Stablecoins
+- Stablecoin
 - USDC
 - Checkout
 - Payouts

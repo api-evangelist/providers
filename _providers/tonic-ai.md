@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: tonic-ai-agentic-access
   summary_line: 4 operations · 1 acting
-api_count: 7
+api_count: 1
 apis:
 - description: REST API for Tonic Structural - de-identify, subset, and synthesize structured and semi-structured data. Authentication via API token in the Authorization header (Authorization Apikey <token>). API to
   name: Tonic Structural REST API
@@ -83,6 +83,14 @@ collections:
   name: Tonic Structural REST API
   slug: open-tonic-ai
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/TonicAI/tonic_validate/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/TonicAI/tonic_validate/releases
 - group: commercial
   title: ''
   type: License
@@ -146,7 +154,7 @@ network: true
 overview: 'Tonic.ai publishes 3 APIs on the [APIs.io](https://apis.io/) network: Generate Data API, Table Relationships API, and Workspaces API. Tagged areas include Synthetic Data, De-Identification, Privacy, Unstructured Data, and RAG Evaluation.
 
 
-  Tonic.ai''s developer surface includes authentication, documentation, GitHub presence, and 9 more developer resources.'
+  Tonic.ai''s developer surface includes authentication, documentation, GitHub presence, and 11 more developer resources.'
 plans:
 - name: Tonic Ai Plans Pricing
   plan_count: 1
@@ -158,18 +166,26 @@ rate_limits:
   slug: tonic-ai-rate-limits
 score:
   band: thin
-  composite: 37.1
-  delta: 3.7
+  composite: 37.2
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 35.7
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 33.4
+    operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +193,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tonic-ai/refs/heads/main/screenshots/tonic-ai-2026-06-20T195451.png
 security:

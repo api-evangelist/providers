@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: contractbook-agentic-access
   summary_line: 16 operations · 9 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Contractbook's document life-cycle notification (webhook) mechanism. When a document is created, updated, or signed, Contractbook sends an HTTP request to a client-configured callback URL, letting int
   name: Contractbook Document Webhooks
@@ -144,7 +144,7 @@ modified: '2026-07-11'
 name: Contractbook
 nav: Providers
 network: true
-overview: 'Contractbook publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Automations API, Document sharing API, and 3 more. Tagged areas include Contract Management, CLM, Contract Lifecycle, Legal, and E-Signature.
+overview: 'Contractbook publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Automations API, Document sharing API, and 3 more. Tagged areas include Contract Management, CLM, Contract Lifecycle, Legal, and eSignature.
 
 
   Contractbook''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
@@ -159,18 +159,23 @@ rate_limits:
   slug: contractbook-rate-limits
 score:
   band: developing
-  composite: 40.5
-  delta: 3.4
+  composite: 40.3
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 51.8
+    contract_quality: 53.1
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 37.1
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -178,8 +183,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/screenshots/contractbook-2026-07-25T210337.png
 security:
@@ -193,7 +198,7 @@ tags:
 - CLM
 - Contract Lifecycle
 - Legal
-- E-Signature
+- eSignature
 - Contracts
 - Document Automation
 - Legal Tech

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Unique IDs that retain all the essential information about the data without compromising its security.
@@ -234,19 +234,24 @@ scopes:
   slug: very-good-security-scopes
   summary_line: 3 scopes · clientCredentials
 score:
-  band: exemplar
-  composite: 67.3
+  band: strong
+  composite: 64.7
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 67.8
     developer_ergonomics: 85.1
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 67.3
+  previous_composite: 64.7
   provenance:
     conformance: derived
     contracts:
@@ -258,12 +263,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/very-good-security/refs/heads/main/screenshots/very-good-security-2026-08-17T082738.png
 security:

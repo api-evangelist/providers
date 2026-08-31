@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -34,16 +34,34 @@ agentic_access:
   summary_line: 24 operations · 8 acting · 1 human-in-the-loop
 api_count: 3
 apis:
-- description: The Green Button Connect My Data resource server API as specified by the Green Button Alliance against NAESB REQ.21 ESPI 4.0 — read access to ApplicationInformation, Authorization, UsagePoint and bulk
-  name: Green Button Connect My Data (CMD) ESPI Resource Server API
-  slug: green-button-connect-my-data-api
 - description: The Third Party side of the OpenESPI reference implementation — ApplicationInformation, Authorization and RetailCustomer operations documented as legacy Swagger 1.2 resource listings served from GBA's
   name: Green Button Third Party (OpenESPI) API
   slug: green-button-third-party-api
-- description: Green Button Alliance OpenESPI Authorization Server API from Green Button Alliance — 12 path(s) described in OpenAPI.
-  name: Green Button Alliance OpenESPI Authorization Server API
-  slug: green-button-alliance-authorization-server-openapi
-artifact_total: 18
+- description: The ApplicationInformation API from Green Button Alliance — 2 operation(s) for applicationinformation.
+  name: Green Button Alliance Application Information API
+  slug: green-button-alliance-applicationinformation-api
+- description: Authorization endpoints
+  name: Green Button Alliance Authorization API
+  slug: green-button-alliance-authorization-api
+- description: Batch data transfer endpoints
+  name: Green Button Alliance Batch API
+  slug: green-button-alliance-batch-api
+- description: Integration with OpenESPI DataCustodian
+  name: Green Button Alliance DataCustodian Integration API
+  slug: green-button-alliance-datacustodian-integration-api
+- description: Manage OAuth2 client registrations
+  name: Green Button Alliance OAuth2 Client Management API
+  slug: green-button-alliance-oauth2-client-management-api
+- description: Standard OAuth2 endpoints
+  name: Green Button Alliance OAuth2 Standard API
+  slug: green-button-alliance-oauth2-standard-api
+- description: OpenID Connect endpoints
+  name: Green Button Alliance OIDC API
+  slug: green-button-alliance-oidc-api
+- description: Usage Point endpoints
+  name: Green Button Alliance Usage Point API
+  slug: green-button-alliance-usagepoint-api
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Green Button Alliance Webhooks
@@ -59,6 +77,18 @@ collections:
   name: Green Button API Documentation
   slug: open-green-button-alliance-green-button-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/green-button-alliance-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/green-button-alliance-green-button-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/green-button-alliance-application-information-overlay.yaml
 - group: operate
   title: ''
   type: IssueTracker
@@ -289,13 +319,13 @@ modified: '2026-07-27'
 name: Green Button Alliance
 nav: Providers
 network: true
-overview: 'Green Button Alliance publishes 2 APIs on the [APIs.io](https://apis.io/) network: Green Button Connect My Data (CMD) ESPI Resource Server API and OpenESPI Authorization Server API. Tagged areas include Energy, United States, Utilities, Electricity, and Gas.
+overview: 'Green Button Alliance publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Application Information API, Authorization API, Batch API, and 5 more. Tagged areas include Energy, United States, Utilities, Electricity, and Gas.
 
 
   The Green Button Alliance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Green Button Alliance''s developer surface includes authentication, code examples, sandbox, support, pricing, signup flow, documentation, and 44 more developer resources.'
+  Green Button Alliance''s developer surface includes authentication, code examples, sandbox, support, pricing, signup flow, documentation, and 47 more developer resources.'
 random_paper: 12
 rate_limits:
 - limit_count: 0
@@ -308,18 +338,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.2
-  delta: -0.3
+  composite: 58.7
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 45.5
-    contract_quality: 61.0
+    contract_governance: 33.3
+    contract_quality: 61.4
     developer_ergonomics: 54.2
-    discoverability: 85.2
-    governance: 45.5
+    discoverability: 74.1
+    governance: 33.3
     operational_transparency: 21.1
-  previous_composite: 61.5
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -336,8 +371,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 82.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/screenshots/green-button-alliance-2026-08-07T165838.png
 security:

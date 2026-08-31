@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-26'
-api_count: 50
+  scored_at: '2026-08-30'
+api_count: 12
 apis:
 - description: Actor operations
   name: Cisco XDR Actor API
@@ -176,12 +176,115 @@ apis:
 - description: Model Context Protocol server published by CiscoDevNet exposing 27 Cisco XDR tools across Inspect, Investigate, Incidents, Response Actions, Casebooks, Threat Intel, Workflows and Admin, plus 5 resour
   name: Cisco XDR MCP Server
   slug: cisco-xdr-mcp-server
-artifact_total: 60
+- description: The Calendars API from Cisco XDR — 3 operation(s) for calendars.
+  name: Cisco XDR Calendars API
+  slug: cisco-xdr-calendars-api
+- description: The Categories API from Cisco XDR — 2 operation(s) for categories.
+  name: Cisco XDR Categories API
+  slug: cisco-xdr-categories-api
+- description: The ChangeOwner API from Cisco XDR — 1 operation(s) for changeowner.
+  name: Cisco XDR Change Owner API
+  slug: cisco-xdr-changeowner-api
+- description: The Comments API from Cisco XDR — 2 operation(s) for comments.
+  name: Cisco XDR Comments API
+  slug: cisco-xdr-comments-api
+- description: The Events API from Cisco XDR — 2 operation(s) for events.
+  name: Cisco XDR Events API
+  slug: cisco-xdr-events-api
+- description: The EventsRateLimit API from Cisco XDR — 1 operation(s) for eventsratelimit.
+  name: Cisco XDR Events Rate Limit API
+  slug: cisco-xdr-eventsratelimit-api
+- description: The Metadata API from Cisco XDR — 1 operation(s) for metadata.
+  name: Cisco XDR Metadata API
+  slug: cisco-xdr-metadata-api
+- description: The Ratings API from Cisco XDR — 3 operation(s) for ratings.
+  name: Cisco XDR Ratings API
+  slug: cisco-xdr-ratings-api
+- description: The References API from Cisco XDR — 1 operation(s) for references.
+  name: Cisco XDR References API
+  slug: cisco-xdr-references-api
+- description: The RemoteMeta API from Cisco XDR — 3 operation(s) for remotemeta.
+  name: Cisco XDR Remote Meta API
+  slug: cisco-xdr-remotemeta-api
+- description: The Rules API from Cisco XDR — 4 operation(s) for rules.
+  name: Cisco XDR Rules API
+  slug: cisco-xdr-rules-api
+- description: The RuntimeUsers API from Cisco XDR — 2 operation(s) for runtimeusers.
+  name: Cisco XDR Runtime Users API
+  slug: cisco-xdr-runtimeusers-api
+- description: The Schedules API from Cisco XDR — 2 operation(s) for schedules.
+  name: Cisco XDR Schedules API
+  slug: cisco-xdr-schedules-api
+- description: The Schemas API from Cisco XDR — 2 operation(s) for schemas.
+  name: Cisco XDR Schemas API
+  slug: cisco-xdr-schemas-api
+- description: The ShareObjectPermissions API from Cisco XDR — 1 operation(s) for shareobjectpermissions.
+  name: Cisco XDR Share Object Permissions API
+  slug: cisco-xdr-shareobjectpermissions-api
+- description: The SXIROHIncident API from Cisco XDR — 1 operation(s) for sxirohincident.
+  name: Cisco XDR SXIROH Incident API
+  slug: cisco-xdr-sxirohincident-api
+- description: The Tables API from Cisco XDR — 2 operation(s) for tables.
+  name: Cisco XDR Tables API
+  slug: cisco-xdr-tables-api
+- description: The TableTypes API from Cisco XDR — 2 operation(s) for tabletypes.
+  name: Cisco XDR Table Types API
+  slug: cisco-xdr-tabletypes-api
+- description: The TargetGroups API from Cisco XDR — 2 operation(s) for targetgroups.
+  name: Cisco XDR Target Groups API
+  slug: cisco-xdr-targetgroups-api
+- description: The Targets API from Cisco XDR — 3 operation(s) for targets.
+  name: Cisco XDR Targets API
+  slug: cisco-xdr-targets-api
+- description: The Tasks API from Cisco XDR — 5 operation(s) for tasks.
+  name: Cisco XDR Tasks API
+  slug: cisco-xdr-tasks-api
+- description: The Tenants API from Cisco XDR — 3 operation(s) for tenants.
+  name: Cisco XDR Tenants API
+  slug: cisco-xdr-tenants-api
+- description: The Triggers API from Cisco XDR — 2 operation(s) for triggers.
+  name: Cisco XDR Triggers API
+  slug: cisco-xdr-triggers-api
+- description: The v1 API from Cisco XDR — 4 operation(s) for v1.
+  name: Cisco XDR V1 API
+  slug: cisco-xdr-v1-api
+- description: The v2 API from Cisco XDR — 75 operation(s) for v2.
+  name: Cisco XDR V2 API
+  slug: cisco-xdr-v2-api
+- description: The v3 API from Cisco XDR — 10 operation(s) for v3.
+  name: Cisco XDR V3 API
+  slug: cisco-xdr-v3-api
+- description: The Variables API from Cisco XDR — 3 operation(s) for variables.
+  name: Cisco XDR Variables API
+  slug: cisco-xdr-variables-api
+- description: The VariableTypes API from Cisco XDR — 3 operation(s) for variabletypes.
+  name: Cisco XDR Variable Types API
+  slug: cisco-xdr-variabletypes-api
+- description: The Webhooks API from Cisco XDR — 3 operation(s) for webhooks.
+  name: Cisco XDR Webhooks API
+  slug: cisco-xdr-webhooks-api
+- description: The WorkflowInstances API from Cisco XDR — 7 operation(s) for workflowinstances.
+  name: Cisco XDR Workflow Instances API
+  slug: cisco-xdr-workflowinstances-api
+- description: The Workflows API from Cisco XDR — 20 operation(s) for workflows.
+  name: Cisco XDR Workflows API
+  slug: cisco-xdr-workflows-api
+- description: The WorkflowVariableReferences API from Cisco XDR — 1 operation(s) for workflowvariablereferences.
+  name: Cisco XDR Workflow Variable References API
+  slug: cisco-xdr-workflowvariablereferences-api
+- description: The Xchange API from Cisco XDR — 4 operation(s) for xchange.
+  name: Cisco XDR Xchange API
+  slug: cisco-xdr-xchange-api
+artifact_total: 93
 asyncapis:
 - description: ''
   name: Cisco Xdr Webhooks
   slug: cisco-xdr-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cisco-xdr-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -390,13 +493,13 @@ modified: '2026-08-19'
 name: Cisco XDR
 nav: Providers
 network: true
-overview: 'Cisco XDR publishes 49 APIs on the [APIs.io](https://apis.io/) network, including Actor API, Asset API, Asset Mapping API, and 46 more. Tagged areas include Security, XDR, Threat Detection, Incident Response, and SOC.
+overview: 'Cisco XDR publishes 82 APIs on the [APIs.io](https://apis.io/) network, including Actor API, Asset API, Asset Mapping API, and 79 more. Tagged areas include Security, XDR, Threat Detection, Incident Response, and SOC.
 
 
   The Cisco XDR catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cisco XDR''s developer surface includes authentication, developer portal, documentation, API reference, changelog, getting-started guide, support, and 41 more developer resources.'
+  Cisco XDR''s developer surface includes authentication, developer portal, documentation, API reference, changelog, getting-started guide, support, and 42 more developer resources.'
 plans:
 - name: Cisco Xdr Plans Pricing
   plan_count: 3
@@ -413,18 +516,23 @@ scopes:
   summary_line: 41 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 60.7
-  delta: 0.0
+  composite: 57.2
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.8
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
-    contract_governance: 16.7
-    contract_quality: 56.8
+    contract_governance: 4.5
+    contract_quality: 58.0
     developer_ergonomics: 66.1
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 50.0
+    governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 60.7
+  previous_composite: 59.0
   provenance:
     conformance: derived
     contracts:
@@ -434,8 +542,8 @@ score:
       total: 51
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

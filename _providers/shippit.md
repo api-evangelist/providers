@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: shippit-agentic-access
   summary_line: 10 operations · 5 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Initiate carrier bookings for orders.
   name: Shippit Book API
@@ -89,6 +89,10 @@ collections:
   name: Shippit API
   slug: open-shippit
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shippit-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -140,7 +144,7 @@ network: true
 overview: 'Shippit publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Book API, Label API, Merchant API, and 3 more. Tagged areas include Shipping, Logistics, Fulfillment, Australia, and APAC.
 
 
-  Shippit''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  Shippit''s developer surface includes authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Shippit Plans Pricing
   plan_count: 3
@@ -152,18 +156,23 @@ rate_limits:
   slug: shippit-rate-limits
 score:
   band: thin
-  composite: 35.8
-  delta: 1.4
+  composite: 35.2
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 55.8
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 34.4
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +186,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

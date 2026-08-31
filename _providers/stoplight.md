@@ -10,31 +10,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: documented
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
-api_count: 6
+  score: 35.8
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: 'Stoplight Platform is a SaaS collaborative API design and documentation management tool providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, '
   name: Stoplight Platform
@@ -54,8 +54,27 @@ apis:
 - description: The Stoplight CLI enables programmatic linting of API descriptions and pushing analysis results to the Stoplight Platform from CI/CD pipelines. Supports analyzing local projects, running Spectral rule
   name: Stoplight CLI
   slug: cli
-artifact_total: 14
+- description: The Versions API from Stoplight — 5 operation(s) for versions.
+  name: Stoplight Versions API
+  slug: stoplight-versions-api
+artifact_total: 18
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/stoplightio/prism/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/stoplightio/prism/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/stoplightio/prism/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/stoplightio/prism/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -64,10 +83,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/stoplight-domain-security.yml
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/stoplight
 - group: start
   title: ''
   type: Portal
@@ -114,7 +129,7 @@ common:
   url: https://stoplight.io/security-practices
 - group: start
   title: ''
-  type: Signup
+  type: SignUp
   url: https://stoplight.io/welcome
 - group: start
   title: ''
@@ -122,7 +137,7 @@ common:
   url: https://stoplight.io/login
 - group: build
   title: ''
-  type: GitHubOrg
+  type: GitHubOrganization
   url: https://github.com/stoplightio
 - group: other
   title: ''
@@ -163,11 +178,123 @@ common:
 - group: other
   title: ''
   type: ParentCompany
-  url: https://smartbear.com/product/stoplight/
+  url: https://smartbear.com/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/stoplight-platform-v1-openapi.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/stoplight-platform-v1-overlay.yaml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/stoplight-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/stoplight-problem-types.yml
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: errors/stoplight-error-codes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/stoplight-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/stoplight-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/stoplight-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/stoplight-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/stoplight-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/stoplight-components.yml
 - group: start
   title: ''
-  type: Portal
-  url: https://smartbear.com/api-hub/
+  type: Sandbox
+  url: sandbox/stoplight-sandbox.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/stoplight-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/stoplight-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/stoplight-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://smartbear.com/security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/stoplight-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/stoplight-vulnerability-disclosure.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/stoplight-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/stoplight-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/stoplight-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/stoplight-vocabulary.yml
+- group: design
+  title: ''
+  type: Rules
+  url: rules/stoplight-jsonschema-spectral-rules.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/stoplight-spectral-ruleset-schema.json
+- group: design
+  title: ''
+  type: JSONStructure
+  url: json-structure/stoplight-spectral-ruleset-structure.json
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/stoplight-context.jsonld
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/stoplight-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.smartbear.com/category/stoplight/discussions/stoplight
 created: '2026-03-03'
 description: Stoplight is a collaborative, design-first API platform providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, API style guides and governance, and open-source tools including Prism (mock server), Spectral (JSON/YAML linter), and Elements (documentation components). Acquired by SmartBear in 2023, Stoplight is now positioned within SmartBear's API Hub solution group alongside SwaggerHub, with Spectral, Prism, and Elements progressively integrated into the unified API Hub experience. The platform supports OpenAPI v3.1, v3.0, v2.0, Arazzo v1.0, and AsyncAPI v2.x, with integrations for GitHub, GitLab, Bitbucket, and Azure DevOps. The Stoplight status page now redirects to stoplight.status.smartbear.com, confirming the operational consolidation under SmartBear.
 finops:
@@ -189,24 +316,24 @@ jsonld:
   property_count: 7
   slug: stoplight-context
 layout: provider
-modified: '2026-05-22'
+modified: '2026-08-27'
 name: Stoplight
 nav: Providers
 network: true
-overview: 'Stoplight publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, API Documentation, API Governance, AsyncAPI, and Design-First.
+overview: 'Stoplight publishes 1 API on the [APIs.io](https://apis.io/) network: Versions API. Tagged areas include API Design, API Documentation, API Governance, AsyncAPI, and Design-First.
 
 
   The Stoplight catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Stoplight''s developer surface includes developer portal, documentation, pricing, engineering blog, support, signup flow, getting-started guide, and 21 more developer resources.'
+  Stoplight''s developer surface includes developer portal, documentation, pricing, engineering blog, support, signup flow, getting-started guide, and 52 more developer resources.'
 plans:
 - name: Stoplight Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: stoplight-plans-pricing
 random_paper: 3
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Stoplight Rate Limits
   slug: stoplight-rate-limits
 rules:
@@ -221,28 +348,48 @@ rules:
     warn: 3
   slug: stoplight-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 35.3
-  delta: 0.0
+  band: strong
+  composite: 65.2
+  coverage:
+    artifact_dirs: 28
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
-    access_clarity: 53.9
-    commercial_clarity: 53.9
-    contract_governance: 9.8
-    contract_quality: 10.7
-    developer_ergonomics: 45.2
-    discoverability: 64.8
-    governance: 9.8
-    operational_transparency: 39.5
-  previous_composite: 35.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 43.2
+    contract_quality: 60.5
+    developer_ergonomics: 85.7
+    discoverability: 66.7
+    governance: 43.2
+    operational_transparency: 44.7
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 65.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/screenshots/stoplight-2026-06-20T194601.png
 security:
+- kind: authentication
+  name: Stoplight Authentication
+  slug: stoplight-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Stoplight Domain Security
   slug: stoplight-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Stoplight Vulnerability Disclosure
+  slug: stoplight-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Stoplight Trust Center
+  slug: stoplight-trust-center
+  summary_line: SOC 2, ISO/IEC 27001, NIST CSF
 slug: stoplight
 tags:
 - API Design

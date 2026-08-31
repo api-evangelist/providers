@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,14 +42,8 @@ agentic_access:
   operation_count: 4
   slug: university-of-manchester-agentic-access
   summary_line: 4 operations
-api_count: 5
+api_count: 2
 apis:
-- description: 'IIIF Presentation API 2.1 over the University of Manchester Library''s digitised manuscripts, archives and rare books. Serves sc:Manifest documents at /iiif/{documentId} and sc:Collection documents at '
-  name: Manchester Digital Collections — IIIF Presentation API
-  slug: iiif-presentation-api
-- description: 'IIIF Image API 2.0 at compliance level 1, serving regions, scaled derivatives, rotations and quality variants of the Library''s digitised page images. Self-describes through info.json: formats [jpg]; q'
-  name: Manchester Digital Collections — IIIF Image API
-  slug: iiif-image-api
 - description: The University's own Shibboleth Identity Provider, entityID https://shib.manchester.ac.uk/shibboleth, asserting the scope manchester.ac.uk. Its entity descriptor is published as signed, machine-readab
   name: Shibboleth SAML Identity Provider (UK Access Management Federation)
   slug: shibboleth-saml-idp
@@ -59,8 +53,18 @@ apis:
 - description: The University's institutional research data repository, presented at figshare.manchester.ac.uk, which CNAMEs to figshare.com. Manchester's researchers deposit here and the deposits carry Manchester's
   name: Figshare research data repository tenancy
   slug: figshare-tenancy
+- description: IIIF Image API 2.0 level 1 endpoints.
+  name: University of Manchester Image API
+  slug: university-of-manchester-image-api
+- description: IIIF Presentation API 2.1 manifests and collections.
+  name: University of Manchester Presentation API
+  slug: university-of-manchester-presentation-api
 artifact_total: 18
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/university-of-manchester-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -216,13 +220,13 @@ modified: '2026-08-19'
 name: University of Manchester
 nav: Providers
 network: true
-overview: 'University of Manchester publishes 2 APIs on the [APIs.io](https://apis.io/) network: Manchester Digital Collections — IIIF Presentation API and Manchester Digital Collections — IIIF Image API. Tagged areas include University, Higher Education, Education, Research, and United Kingdom.
+overview: 'University of Manchester publishes 2 APIs on the [APIs.io](https://apis.io/) network: Image API and Presentation API. Tagged areas include University, Higher Education, Education, Research, and United Kingdom.
 
 
   The University of Manchester catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  University of Manchester''s developer surface includes engineering blog, support, GitHub presence, authentication, and 26 more developer resources.'
+  University of Manchester''s developer surface includes engineering blog, support, GitHub presence, authentication, and 27 more developer resources.'
 plans:
 - name: University Of Manchester Plans Pricing
   plan_count: 2
@@ -245,18 +249,23 @@ rules:
   slug: university-of-manchester-rules
 score:
   band: developing
-  composite: 50.4
-  delta: 2.6
+  composite: 50.5
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 26.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 34.1
-    contract_quality: 69.0
+    contract_quality: 71.8
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 34.1
     operational_transparency: 23.7
-  previous_composite: 47.8
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -271,8 +280,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-manchester/refs/heads/main/screenshots/university-of-manchester-2026-06-20T200205.png
 security:

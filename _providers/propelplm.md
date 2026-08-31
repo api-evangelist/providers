@@ -16,24 +16,24 @@ agent_readiness:
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.8
-  scored_at: '2026-08-26'
+  score: 38.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -41,11 +41,8 @@ agentic_access:
   operation_count: 33
   slug: propelplm-agentic-access
   summary_line: 33 operations · 9 acting
-api_count: 15
+api_count: 10
 apis:
-- description: The Assembly API from Propel Software (Propel PLM) — 1 operation(s) for assembly.
-  name: Propel Software (Propel PLM) Assembly API
-  slug: propelplm-assembly-api
 - description: The assets API from Propel Software (Propel PLM) — 1 operation(s) for assets.
   name: Propel Software (Propel PLM) assets API
   slug: propelplm-assets-api
@@ -88,7 +85,7 @@ apis:
 - description: The variants API from Propel Software (Propel PLM) — 4 operation(s) for variants.
   name: Propel Software (Propel PLM) variants API
   slug: propelplm-variants-api
-artifact_total: 38
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Propelplm Events
@@ -287,7 +284,7 @@ modified: '2026-07-20'
 name: Propel Software (Propel PLM)
 nav: Providers
 network: true
-overview: 'Propel Software (Propel PLM) publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Assembly API, assets API, Attachment API, and 12 more. Tagged areas include Company, Product Lifecycle Management, PLM, Quality Management, and QMS.
+overview: 'Propel Software (Propel PLM) publishes 14 APIs on the [APIs.io](https://apis.io/) network, including assets API, Attachment API, Bill of Material API, and 11 more. Tagged areas include Company, Product Lifecycle Management, PLM, Quality Management, and QMS.
 
 
   The Propel Software (Propel PLM) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -302,18 +299,23 @@ scopes:
   summary_line: 4 scopes · implicit/authorizationCode
 score:
   band: developing
-  composite: 54.0
+  composite: 53.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 30.3
-    contract_quality: 52.4
+    contract_governance: 18.2
+    contract_quality: 55.9
     developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 54.0
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -324,8 +326,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/screenshots/propelplm-2026-08-17T081348.png
 security:

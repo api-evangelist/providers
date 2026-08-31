@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 105
   human_in_the_loop: 3
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 223
   slug: sageox-agentic-access
   summary_line: 223 operations · 105 acting · 3 human-in-the-loop
-api_count: 23
+api_count: 1
 apis:
 - description: Administrative analytics, session management, and system operations. Includes active session counts, user analytics, and management endpoints restricted to admin roles.
   name: Sageox Admin API
@@ -214,16 +214,21 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 21.8
-  delta: 0.0
+  composite: 18.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 100.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 57.1
     developer_ergonomics: 1.8
-    discoverability: 51.9
-    governance: 16.7
+    discoverability: 35.2
+    governance: 4.5
     operational_transparency: 0.0
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -231,7 +236,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 21.8
+  previous_composite: 19.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,8 +247,8 @@ score:
       total: 23
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

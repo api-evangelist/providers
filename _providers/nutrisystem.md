@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 14
 common:
@@ -137,7 +137,7 @@ modified: '2026-05-23'
 name: Nutrisystem (Wellina by Nutrisystem)
 nav: Providers
 network: true
-overview: 'Nutrisystem (Wellina by Nutrisystem) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Subscription, Diet, Direct to Consumer, E-Commerce, and Health and Wellness.
+overview: 'Nutrisystem (Wellina by Nutrisystem) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Consumer Subscription, Diet, Direct to Consumer, E Commerce, and Health And Wellness.
 
 
   The Nutrisystem (Wellina by Nutrisystem) catalog on APIs.io includes 1 JSON-LD context.
@@ -148,6 +148,11 @@ random_paper: 0
 score:
   band: minimal
   composite: 8.6
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 6.6
@@ -165,8 +170,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutrisystem/refs/heads/main/screenshots/nutrisystem-2026-06-20T190532.png
 security:
@@ -179,8 +184,8 @@ tags:
 - Consumer Subscription
 - Diet
 - Direct to Consumer
-- E-Commerce
-- Health and Wellness
+- E Commerce
+- Health And Wellness
 - Meal Delivery
 - Mobile App
 - Nutrition

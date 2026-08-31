@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-26'
-api_count: 15
+  scored_at: '2026-08-30'
+api_count: 5
 apis:
 - description: API key management endpoints
   name: Solo.io API Keys API
@@ -126,6 +126,14 @@ collections:
   name: GuardRail Webhook Webhooks API
   slug: open-solo-io-webhooks-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/solo-io/gloo-portal-idp-connect/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/solo-io/gloo-portal-idp-connect/releases
 - group: other
   title: ''
   type: Overlay
@@ -478,7 +486,7 @@ overview: 'Solo.io publishes 15 APIs on the [APIs.io](https://apis.io/) network,
   The Solo.io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Solo.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 47 more developer resources.'
+  Solo.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 49 more developer resources.'
 plans:
 - name: Solo Io Plans Pricing
   plan_count: 3
@@ -500,19 +508,27 @@ rules:
     warn: 3
   slug: solo-io-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 68.2
-  delta: -0.2
+  band: strong
+  composite: 60.7
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.9
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
-    contract_governance: 41.7
+    access_clarity: 65.8
+    commercial_clarity: 65.8
+    contract_governance: 29.5
     contract_quality: 69.1
     developer_ergonomics: 78.6
     discoverability: 81.5
-    governance: 41.7
+    governance: 29.5
     operational_transparency: 52.6
-  previous_composite: 68.4
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 62.6
   provenance:
     conformance: derived
     contracts:
@@ -522,8 +538,8 @@ score:
       total: 15
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/screenshots/solo-io-2026-06-20T194151.png
 security:

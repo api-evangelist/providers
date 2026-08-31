@@ -33,18 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
-api_count: 7
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: Public, unauthenticated OBIE Open Data API listing the location, accessibility, supported currencies, and services of Nationwide ATMs across the UK. Confirmed live (HTTP 200, application/json) at v2.2
-  name: Nationwide ATM Locator API
-  slug: nationwide-atm-locator-api
-- description: Public, unauthenticated OBIE Open Data API listing Nationwide branch locations, opening hours, accessibility, and services. Documented Open Data type on the developer portal (the v2.2 branches path re
-  name: Nationwide Branch Locator API
-  slug: nationwide-branch-locator-api
-- description: Public, unauthenticated OBIE Open Data API publishing reference data for Nationwide personal current account products, features, fees, and eligibility. Confirmed live (HTTP 200, application/json) at v
-  name: Nationwide Personal Current Accounts API
-  slug: nationwide-personal-current-accounts-api
 - description: OBIE Read/Write Account and Transaction Information (AIS) API providing consented access to Nationwide account, balance, and transaction data for authorised third-party providers. FAPI-secured (OAuth2
   name: Nationwide Account and Transaction Information API (AIS)
   slug: nationwide-account-information-api
@@ -57,6 +48,15 @@ apis:
 - description: OBIE Read/Write Variable Recurring Payments (VRP) API enabling consented sweeping and recurring payment mandates from Nationwide accounts. FAPI-secured (OAuth2/OIDC, mutual-TLS, PSD2 SCA); endpoints u
   name: Nationwide Variable Recurring Payments API (VRP)
   slug: nationwide-variable-recurring-payments-api
+- description: Endpoint for getting ATM data
+  name: Nationwide Building Society ATM API
+  slug: nationwide-building-society-atm-api
+- description: Endpoint for getting Branch data
+  name: Nationwide Building Society Branch API
+  slug: nationwide-building-society-branch-api
+- description: Endpoint for getting Personal Current Account data
+  name: Nationwide Building Society PCA API
+  slug: nationwide-building-society-pca-api
 artifact_total: 15
 collections:
 - collection_type: open
@@ -69,6 +69,10 @@ collections:
   name: Open Data API
   slug: open-obie-open-data-personal-current-accounts
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nationwide-building-society-capability-edges.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -206,10 +210,10 @@ modified: '2026-07-23'
 name: Nationwide Building Society
 nav: Providers
 network: true
-overview: 'Nationwide Building Society publishes 3 APIs on the [APIs.io](https://apis.io/) network: Nationwide ATM Locator API, Nationwide Branch Locator API, and Nationwide Personal Current Accounts API. Tagged areas include Financial-Services, Banking, Building Society, Open Banking, and PSD2.
+overview: 'Nationwide Building Society publishes 3 APIs on the [APIs.io](https://apis.io/) network: ATM API, Branch API, and PCA API. Tagged areas include Financial-Services, Banking, Building Society, Open Banking, and PSD2.
 
 
-  Nationwide Building Society''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, and 26 more developer resources.'
+  Nationwide Building Society''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, and 27 more developer resources.'
 random_paper: 6
 scopes:
 - name: Nationwide Building Society Scopes
@@ -218,18 +222,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 44.4
-  delta: -1.0
+  composite: 41.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 33.6
     developer_ergonomics: 56.5
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 45.4
+  previous_composite: 41.9
   provenance:
     conformance: first-party
     contracts:
@@ -245,8 +254,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nationwide-building-society/refs/heads/main/screenshots/nationwide-building-society-2026-08-07T184659.png
 security:

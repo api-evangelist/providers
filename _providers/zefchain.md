@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: GraphQL API exposed by the Linera node service (run via the linera CLI) that lets web frontends read and mutate the state of the microchains held by a wallet, including GraphQL subscriptions for chain
@@ -40,6 +40,18 @@ apis:
   slug: linera-node-service-graphql
 artifact_total: 2
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/linera-io/linera-protocol/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/linera-io/linera-protocol/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/linera-io/linera-protocol/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -115,11 +127,16 @@ network: true
 overview: 'Zefchain publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Web3, Developer Tools, and GraphQL.
 
 
-  Zefchain''s developer surface includes documentation, getting-started guide, API reference, CLI, changelog, and 11 more developer resources.'
+  Zefchain''s developer surface includes documentation, getting-started guide, API reference, CLI, changelog, and 14 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 20.3
+  composite: 23.9
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -127,14 +144,17 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 52.4
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 20.3
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 23.9
   provenance:
     conformance: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

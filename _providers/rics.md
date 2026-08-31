@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -33,10 +33,28 @@ agentic_access:
   summary_line: 16 operations · 7 acting
 api_count: 1
 apis:
-- description: The RICS DigitalCommunity API is a live, RICS-operated REST API served from api.rics.org whose OpenAPI 3.0.1 contract is published anonymously and without credentials at https://api.rics.org/swagger/v
-  name: RICS DigitalCommunity API
-  slug: rics-digitalcommunity-api
-artifact_total: 13
+- description: The AzureStorage API from RICS (Royal Institution of Chartered Surveyors) — 6 operation(s) for azurestorage.
+  name: RICS (Royal Institution of Chartered Surveyors) Azure Storage API
+  slug: rics-azurestorage-api
+- description: The OlaMerchantPost API from RICS (Royal Institution of Chartered Surveyors) — 1 operation(s) for olamerchantpost.
+  name: RICS (Royal Institution of Chartered Surveyors) Ola Merchant Post API
+  slug: rics-olamerchantpost-api
+- description: The Payment API from RICS (Royal Institution of Chartered Surveyors) — 3 operation(s) for payment.
+  name: RICS (Royal Institution of Chartered Surveyors) Payment API
+  slug: rics-payment-api
+- description: The Profile API from RICS (Royal Institution of Chartered Surveyors) — 1 operation(s) for profile.
+  name: RICS (Royal Institution of Chartered Surveyors) Profile API
+  slug: rics-profile-api
+- description: The Regulation API from RICS (Royal Institution of Chartered Surveyors) — 3 operation(s) for regulation.
+  name: RICS (Royal Institution of Chartered Surveyors) Regulation API
+  slug: rics-regulation-api
+- description: The SurveyWriter API from RICS (Royal Institution of Chartered Surveyors) — 1 operation(s) for surveywriter.
+  name: RICS (Royal Institution of Chartered Surveyors) Survey Writer API
+  slug: rics-surveywriter-api
+- description: The Token API from RICS (Royal Institution of Chartered Surveyors) — 1 operation(s) for token.
+  name: RICS (Royal Institution of Chartered Surveyors) Token API
+  slug: rics-token-api
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -60,6 +78,18 @@ collections:
   name: DigitalCommunity API
   slug: open-rics-digitalcommunity-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/RICS-Data-Standard/RDS/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/RICS-Data-Standard/RDS/releases
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/rics-digitalcommunity-api-overlay.yaml
 - group: commercial
   title: ''
   type: License
@@ -260,10 +290,10 @@ modified: '2026-07-26'
 name: RICS (Royal Institution of Chartered Surveyors)
 nav: Providers
 network: true
-overview: 'RICS (Royal Institution of Chartered Surveyors) publishes 1 API on the [APIs.io](https://apis.io/) network: RICS DigitalCommunity API. Tagged areas include Real-Estate, United Kingdom, Industry Body, Valuation, and Standards.
+overview: 'RICS (Royal Institution of Chartered Surveyors) publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Azure Storage API, Ola Merchant Post API, Payment API, and 4 more. Tagged areas include Real-Estate, United Kingdom, Industry Body, Valuation, and Standards.
 
 
-  RICS (Royal Institution of Chartered Surveyors)''s developer surface includes authentication, changelog, code examples, engineering blog, support, signup flow, pricing, and 40 more developer resources.'
+  RICS (Royal Institution of Chartered Surveyors)''s developer surface includes authentication, changelog, code examples, engineering blog, support, signup flow, pricing, and 43 more developer resources.'
 random_paper: 13
 scopes:
 - name: Rics Scopes
@@ -272,18 +302,26 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 37.1
-  delta: 1.1
+  composite: 33.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
-    contract_quality: 42.2
+    contract_governance: 4.5
+    contract_quality: 40.3
     developer_ergonomics: 28.0
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 64.8
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 36.0
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -294,8 +332,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

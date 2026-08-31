@@ -12,7 +12,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: verified
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: verified
@@ -23,8 +23,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.4
-  scored_at: '2026-08-26'
+  score: 43.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -34,12 +34,39 @@ agentic_access:
   summary_line: 13 operations · 10 acting
 api_count: 2
 apis:
-- description: The Aquant MCP Server exposes Aquant's service-intelligence capabilities as eleven agent-callable tools — part catalog lookup, part info and sourcing, agent (technician) data, technician proximity, ob
-  name: Aquant MCP Server
-  slug: mcp-server
-- description: 'The Aquant Conversation Platform (ACP) API powers Voice AI and web chat with Aquant''s service agents. Clients exchange an API key and secret for a one-hour access token at POST /acp/token, then start '
-  name: Aquant Conversation Platform (VoiceAI) API
-  slug: acp-voiceai
+- description: The Agent Data API from Aquant — 1 operation(s) for agent data.
+  name: Aquant Agent Data API
+  slug: aquant-agent-data-api
+- description: The Asset Location API from Aquant — 1 operation(s) for asset location.
+  name: Aquant Asset Location API
+  slug: aquant-asset-location-api
+- description: The Health API from Aquant — 3 operation(s) for health.
+  name: Aquant Health API
+  slug: aquant-health-api
+- description: The Next Symptom API from Aquant — 1 operation(s) for next symptom.
+  name: Aquant Next Symptom API
+  slug: aquant-next-symptom-api
+- description: The Observation Existence API from Aquant — 1 operation(s) for observation existence.
+  name: Aquant Observation Existence API
+  slug: aquant-observation-existence-api
+- description: The Part Catalog Lookup API from Aquant — 1 operation(s) for part catalog lookup.
+  name: Aquant Part Catalog Lookup API
+  slug: aquant-part-catalog-lookup-api
+- description: The Part Info API from Aquant — 1 operation(s) for part info.
+  name: Aquant Part Info API
+  slug: aquant-part-info-api
+- description: The Part Sources API from Aquant — 1 operation(s) for part sources.
+  name: Aquant Part Sources API
+  slug: aquant-part-sources-api
+- description: The Preventive Maintenance Check List API from Aquant — 1 operation(s) for preventive maintenance check list.
+  name: Aquant Preventive Maintenance Check List API
+  slug: aquant-preventive-maintenance-check-list-api
+- description: The Summary Report API from Aquant — 1 operation(s) for summary report.
+  name: Aquant Summary Report API
+  slug: aquant-summary-report-api
+- description: The Technician Proximity API from Aquant — 1 operation(s) for technician proximity.
+  name: Aquant Technician Proximity API
+  slug: aquant-technician-proximity-api
 arazzos:
 - description: Confirm a symptom, predict the next symptom, then look up, detail and source the part.
   name: Diagnose an asset and source the right replacement part
@@ -50,7 +77,7 @@ arazzos:
 - description: Health-check the service, generate the PM checklist for an asset, then produce the summary report.
   name: Run a preventive-maintenance visit and file the summary
   slug: aquant-preventive-maintenance-visit
-artifact_total: 14
+artifact_total: 23
 collections:
 - collection_type: open
   name: Aquant MCP Server
@@ -59,6 +86,10 @@ collections:
   name: FastAPI
   slug: open-aquant-voiceai-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aquant-voiceai-api-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -227,10 +258,10 @@ modified: '2026-07-31'
 name: Aquant
 nav: Providers
 network: true
-overview: 'Aquant publishes 2 APIs on the [APIs.io](https://apis.io/) network: MCP Server and Conversation Platform (VoiceAI) API. Tagged areas include Company, Artificial Intelligence, Agents, Field Service, and Service Management.
+overview: 'Aquant publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Agent Data API, Asset Location API, Health API, and 8 more. Tagged areas include Company, Artificial Intelligence, Agents, Field Service, and Service Management.
 
 
-  Aquant''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 31 more developer resources.'
+  Aquant''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 32 more developer resources.'
 random_paper: 20
 scopes:
 - name: Aquant Scopes
@@ -239,18 +270,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit/deviceCode/password/refreshToken
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 49.7
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 16.7
-    contract_quality: 48.6
+    contract_governance: 4.5
+    contract_quality: 52.8
     developer_ergonomics: 56.5
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 51.2
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,12 +294,22 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    - jurisdiction: US
+      standard: fedramp
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aquant/refs/heads/main/screenshots/aquant-2026-08-07T161534.png
 security:

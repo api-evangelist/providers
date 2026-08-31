@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -269,7 +269,7 @@ modified: '2026-04-19'
 name: AmTrust Financial Services
 nav: Providers
 network: true
-overview: 'AmTrust Financial Services publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Appetite API, Authentication API, Policies API, and 1 more. Tagged areas include Commercial Insurance, Insurance, Property and Casualty, Small Business, and Workers Compensation.
+overview: 'AmTrust Financial Services publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Appetite API, Authentication API, Policies API, and 1 more. Tagged areas include Commercial Insurance, Insurance, Property And Casualty, Small Business, and Workers Compensation.
 
 
   The AmTrust Financial Services catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -325,18 +325,23 @@ rules:
   slug: amtrust-financial-services-spectral-rules
 score:
   band: thin
-  composite: 32.1
-  delta: -0.3
+  composite: 32.2
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 28.8
-    contract_quality: 21.5
+    contract_quality: 21.9
     developer_ergonomics: 38.1
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 32.4
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -350,8 +355,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 34.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/screenshots/amtrust-financial-services-2026-06-20T171943.png
 security:
@@ -371,7 +376,7 @@ slug: amtrust-financial-services
 tags:
 - Commercial Insurance
 - Insurance
-- Property and Casualty
+- Property And Casualty
 - Small Business
 - Workers Compensation
 - Fortune 1000

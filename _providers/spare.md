@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 99
   slug: spare-agentic-access
   summary_line: 99 operations · 34 acting · 2 human-in-the-loop
-api_count: 17
+api_count: 7
 apis:
 - description: The Account API from Spare — 4 operation(s) for account.
   name: Spare Account API
@@ -155,6 +155,10 @@ collections:
   name: Information Account Transaction API
   slug: open-spare-transaction-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/spare-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -301,7 +305,7 @@ overview: 'Spare publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
   The Spare catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Spare''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 25 more developer resources.'
+  Spare''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 26 more developer resources.'
 random_paper: 14
 scopes:
 - name: Spare Scopes
@@ -309,19 +313,24 @@ scopes:
   slug: spare-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 54.8
-  delta: 1.3
+  band: developing
+  composite: 53.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 59.1
     developer_ergonomics: 78.0
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 53.5
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -338,8 +347,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 59.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spare/refs/heads/main/screenshots/spare-2026-08-17T082018.png
 security:

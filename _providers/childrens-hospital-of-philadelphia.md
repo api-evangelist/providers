@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 22
   slug: childrens-hospital-of-philadelphia-agentic-access
   summary_line: 22 operations
-api_count: 8
+api_count: 1
 apis:
 - description: MyChart-based patient portal that gives patients, parents and guardians access to virtual medical records, lab results, secure messaging, telehealth visits, medication refills, and appointment schedul
   name: MyCHOP Patient Portal
@@ -88,6 +88,10 @@ collections:
   name: Children's Hospital of Philadelphia FHIR R4 API
   slug: open-chop-fhir-r4
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/childrens-hospital-of-philadelphia-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -223,13 +227,13 @@ modified: '2026-05-23'
 name: Children's Hospital of Philadelphia
 nav: Providers
 network: true
-overview: 'Children''s Hospital of Philadelphia publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bulk Data API, Patient Access API, Provider Directory API, and 1 more. Tagged areas include Healthcare, Pediatrics, FHIR, SMART on FHIR, and Patient Access.
+overview: 'Children''s Hospital of Philadelphia publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bulk Data API, Patient Access API, Provider Directory API, and 1 more. Tagged areas include Healthcare, Pediatrics, FHIR, SMART On FHIR, and Patient Access.
 
 
   The Children''s Hospital of Philadelphia catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Children''s Hospital of Philadelphia''s developer surface includes authentication, developer portal, engineering blog, support, and 12 more developer resources.'
+  Children''s Hospital of Philadelphia''s developer surface includes authentication, developer portal, engineering blog, support, and 13 more developer resources.'
 random_paper: 2
 rules:
 - effective_rule_count: 5
@@ -260,18 +264,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 43.2
-  delta: 5.6
+  composite: 42.7
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 28.8
     contract_quality: 68.0
     developer_ergonomics: 47.6
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 2.6
-  previous_composite: 37.6
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     contracts:
@@ -285,9 +294,9 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/childrens-hospital-of-philadelphia/refs/heads/main/screenshots/childrens-hospital-of-philadelphia-2026-06-20T174310.png
 security:
 - kind: authentication
@@ -312,7 +321,7 @@ tags:
 - Healthcare
 - Pediatrics
 - FHIR
-- SMART on FHIR
+- SMART On FHIR
 - Patient Access
 - Provider Directory
 - CMS Interoperability

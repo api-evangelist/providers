@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 546
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1106
   slug: twilio-agentic-access
   summary_line: 1106 operations · 546 acting · 2 human-in-the-loop
-api_count: 115
+api_count: 40
 apis:
 - description: The A2p API from Twilio — 5 operation(s) for a2p.
   name: Twilio A2p API
@@ -973,6 +973,10 @@ collections:
   name: Twilio - Accounts A2p Workspaces API
   slug: open-twilio-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/twilio-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1482,7 +1486,7 @@ overview: 'Twilio publishes 115 APIs on the [APIs.io](https://apis.io/) network,
   The Twilio catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Twilio''s developer surface includes sandbox, changelog, CLI, authentication, signup flow, support, engineering blog, and 97 more developer resources.'
+  Twilio''s developer surface includes sandbox, changelog, CLI, authentication, signup flow, support, engineering blog, and 98 more developer resources.'
 plans:
 - name: Twilio Plans Pricing
   plan_count: 2
@@ -1527,18 +1531,23 @@ rules:
   slug: twilio-rules
 score:
   band: exemplar
-  composite: 73.4
+  composite: 72.3
+  coverage:
+    artifact_dirs: 39
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 45.5
-    contract_quality: 70.1
+    contract_governance: 33.3
+    contract_quality: 71.7
     developer_ergonomics: 83.3
     discoverability: 66.7
-    governance: 45.5
+    governance: 33.3
     operational_transparency: 71.1
-  previous_composite: 73.4
+  previous_composite: 72.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1555,8 +1564,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 32
   slug: threads-api-agentic-access
   summary_line: 32 operations · 10 acting · 2 human-in-the-loop
-api_count: 9
+api_count: 2
 apis:
 - description: Authorization is a required step to get the necessary user permissions to act on behalf of the user. Please take a look at the [walkthrough of the authentication process](https://developers.facebook.c
   name: Threads Authorization API
@@ -107,6 +107,10 @@ collections:
   name: Threads API
   slug: open-threads-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/threads-api-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -201,7 +205,7 @@ overview: 'Threads publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
   The Threads catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Threads'' developer surface includes authentication, getting-started guide, changelog, and 11 more developer resources.'
+  Threads'' developer surface includes authentication, getting-started guide, changelog, and 12 more developer resources.'
 plans:
 - name: Threads Api Plans Pricing
   plan_count: 3
@@ -235,18 +239,23 @@ rules:
   slug: threads-api-rules
 score:
   band: developing
-  composite: 41.2
-  delta: 1.9
+  composite: 40.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 13.6
     contract_quality: 53.1
     developer_ergonomics: 47.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 13.6
     operational_transparency: 31.6
-  previous_composite: 39.3
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -254,8 +263,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/screenshots/threads-api-2026-08-17T083445.png
 security:

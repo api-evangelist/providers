@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Region-scoped HTTP API for reading, writing, and deleting cache items in a Momento cache without a gRPC client. Supports GET, PUT (set with TTL), and DELETE against a named cache, authenticated with a
@@ -165,7 +165,7 @@ modified: '2026-07-20'
 name: Momento
 nav: Providers
 network: true
-overview: 'Momento publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Caching, Serverless, and Cache.
+overview: 'Momento publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Infrastructure, Caching, Serverless, and Cache.
 
 
   The Momento catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -175,7 +175,12 @@ overview: 'Momento publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 11
 score:
   band: developing
-  composite: 39.5
+  composite: 40.2
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 31.6
@@ -183,16 +188,16 @@ score:
     contract_governance: 4.5
     contract_quality: 42.7
     developer_ergonomics: 68.5
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 39.5
+  previous_composite: 40.2
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/momento/refs/heads/main/screenshots/momento-2026-08-07T184119.png
 security:
@@ -207,11 +212,11 @@ security:
 slug: momento
 tags:
 - Company
-- AI Infrastructure
+- Ai Infrastructure
 - Caching
 - Serverless
 - Cache
-- Pub-Sub
+- Pub/Sub
 - Messaging
 - Event Bus
 - Leaderboards

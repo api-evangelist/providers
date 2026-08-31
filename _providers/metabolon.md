@@ -23,23 +23,85 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 8
 apis:
-- description: The backend REST API for the MyMetabolon customer portal (portal.metabolon.com). 248 operations across 18 tags — Users, Auth, Projects, Files, SampleSetsInfo, SpectralData, StudyBuilder, Reports, Sear
-  name: Metabolon Portal API
-  slug: metabolon-portal-api
-- description: ASP.NET service backing the Discovery Panel views of the Metabolon Integrated Bioinformatics Platform. Its public NSwag OpenAPI document (DiscoveryPanelsApi v1) exposes only the ten health, ping, deep
-  name: Metabolon Discovery Panels API
-  slug: metabolon-discovery-panels-api
-- description: ASP.NET service backing the Pathway Explorer visualization in the Metabolon Integrated Bioinformatics Platform. Its public NSwag OpenAPI document (PathwayExplorerApi v1) exposes only the ten health, p
-  name: Metabolon Pathway Explorer API
-  slug: metabolon-pathway-explorer-api
-- description: 'ASP.NET service backing the heatmap visualization in the Metabolon Integrated Bioinformatics Platform. Its public NSwag OpenAPI document carries the NSwag default title "ServiceName" and exposes only '
-  name: Metabolon Heatmap API
-  slug: metabolon-heatmap-api
-artifact_total: 9
+- description: The Assistant API from Metabolon — 2 operation(s) for assistant.
+  name: Metabolon Assistant API
+  slug: metabolon-assistant-api
+- description: The Auth API from Metabolon — 10 operation(s) for auth.
+  name: Metabolon Auth API
+  slug: metabolon-auth-api
+- description: The Decentralization API from Metabolon — 4 operation(s) for decentralization.
+  name: Metabolon Decentralization API
+  slug: metabolon-decentralization-api
+- description: The Eula API from Metabolon — 12 operation(s) for eula.
+  name: Metabolon Eula API
+  slug: metabolon-eula-api
+- description: The Files API from Metabolon — 34 operation(s) for files.
+  name: Metabolon Files API
+  slug: metabolon-files-api
+- description: The Health API from Metabolon — 10 operation(s) for health.
+  name: Metabolon Health API
+  slug: metabolon-health-api
+- description: The LabVantageFiles API from Metabolon — 6 operation(s) for labvantagefiles.
+  name: Metabolon Lab Vantage Files API
+  slug: metabolon-labvantagefiles-api
+- description: The PipelineStatus API from Metabolon — 8 operation(s) for pipelinestatus.
+  name: Metabolon Pipeline Status API
+  slug: metabolon-pipelinestatus-api
+- description: The Projects API from Metabolon — 18 operation(s) for projects.
+  name: Metabolon Projects API
+  slug: metabolon-projects-api
+- description: The Reports API from Metabolon — 1 operation(s) for reports.
+  name: Metabolon Reports API
+  slug: metabolon-reports-api
+- description: The SampleSets API from Metabolon — 2 operation(s) for samplesets.
+  name: Metabolon Sample Sets API
+  slug: metabolon-samplesets-api
+- description: The SampleSetsInfo API from Metabolon — 6 operation(s) for samplesetsinfo.
+  name: Metabolon Sample Sets Info API
+  slug: metabolon-samplesetsinfo-api
+- description: The Search API from Metabolon — 1 operation(s) for search.
+  name: Metabolon Search API
+  slug: metabolon-search-api
+- description: The SharedFile API from Metabolon — 12 operation(s) for sharedfile.
+  name: Metabolon Shared File API
+  slug: metabolon-sharedfile-api
+- description: The SpectralData API from Metabolon — 4 operation(s) for spectraldata.
+  name: Metabolon Spectral Data API
+  slug: metabolon-spectraldata-api
+- description: The Status API from Metabolon — 16 operation(s) for status.
+  name: Metabolon Status API
+  slug: metabolon-status-api
+- description: The StudyBuilder API from Metabolon — 6 operation(s) for studybuilder.
+  name: Metabolon Study Builder API
+  slug: metabolon-studybuilder-api
+- description: The Users API from Metabolon — 90 operation(s) for users.
+  name: Metabolon Users API
+  slug: metabolon-users-api
+artifact_total: 23
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/metabolon-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/metabolon-portal-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/metabolon-discovery-panels-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/metabolon-pathway-explorer-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/metabolon-heatmap-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -136,10 +198,10 @@ modified: '2026-08-25'
 name: Metabolon
 nav: Providers
 network: true
-overview: 'Metabolon publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Portal API, Discovery Panels API, Pathway Explorer API, and 1 more. Tagged areas include Company, Metabolomics, Life Sciences, Bioinformatics, and Multiomics.
+overview: 'Metabolon publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Assistant API, Auth API, Decentralization API, and 15 more. Tagged areas include Company, Metabolomics, Life Sciences, Bioinformatics, and Multiomics.
 
 
-  Metabolon''s developer surface includes documentation, getting-started guide, support, engineering blog, authentication, and 17 more developer resources.'
+  Metabolon''s developer surface includes documentation, getting-started guide, support, engineering blog, authentication, and 22 more developer resources.'
 plans:
 - name: Metabolon Plans Pricing
   plan_count: 0
@@ -156,16 +218,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.8
+  composite: 42.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
-    contract_governance: 30.3
-    contract_quality: 41.5
+    contract_governance: 18.2
+    contract_quality: 43.0
     developer_ergonomics: 42.3
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 0.0
+  previous_composite: 42.7
   provenance:
     conformance: first-party
     contracts:
@@ -181,8 +250,9 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Metabolon Authentication

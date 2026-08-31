@@ -32,8 +32,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.5
-  scored_at: '2026-08-26'
-api_count: 13
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: AI-powered web analysis with your own LLM key (BYOK)
   name: SnapAPI Analyze API
@@ -170,15 +170,20 @@ overview: 'SnapAPI publishes 13 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 6
 score:
   band: thin
-  composite: 34.4
-  delta: 0.0
+  composite: 33.8
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 57.4
     developer_ergonomics: 19.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 34.4
@@ -188,8 +193,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: snapapi-pics
 tags:

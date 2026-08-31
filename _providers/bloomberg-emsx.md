@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 19
   slug: bloomberg-emsx-agentic-access
   summary_line: 19 operations · 8 acting
-api_count: 7
+api_count: 1
 apis:
 - description: API for order creation, routing, management and execution monitoring through Bloomberg EMSX platform. Supports order lifecycle management, broker selection, route management, fill tracking, and real-t
   name: Bloomberg EMSX Trading API
@@ -92,6 +92,14 @@ collections:
   name: Bloomberg EMSX Trading API
   slug: open-bloomberg-emsx-trading
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bloomberg-emsx-capability-edges.yml
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -151,7 +159,7 @@ jsonld:
   property_count: 6
   slug: bloomberg-emsx-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-27'
 name: Bloomberg EMSX
 nav: Providers
 network: true
@@ -161,7 +169,7 @@ overview: 'Bloomberg EMSX publishes 6 APIs on the [APIs.io](https://apis.io/) ne
   The Bloomberg EMSX catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Bloomberg EMSX''s developer surface includes authentication, developer portal, documentation, support, and 5 more developer resources.'
+  Bloomberg EMSX''s developer surface includes authentication, developer portal, documentation, support, and 7 more developer resources.'
 plans:
 - name: Bloomberg Emsx Plans Pricing
   plan_count: 3
@@ -184,18 +192,23 @@ rules:
   slug: bloomberg-emsx-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.6
-  delta: 1.4
+  composite: 43.1
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 70.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 9.8
     contract_quality: 63.8
     developer_ergonomics: 42.9
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 42.2
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -209,8 +222,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 61.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/screenshots/bloomberg-emsx-2026-07-25T203400.png
 security:

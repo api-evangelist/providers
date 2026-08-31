@@ -23,21 +23,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: Toronto Hydro's Green Button Connect My Data (CMD) implementation, required of rate-regulated Ontario electricity utilities by O. Reg. 633/21 and built to the NAESB REQ.21 Energy Services Provider Int
-  name: Toronto Hydro Green Button Connect My Data
-  slug: toronto-hydro-green-button-connect-my-data
 - description: Toronto Hydro's Green Button Download My Data (DMD) implementation, also required by O. Reg. 633/21 and built to NAESB REQ.21 ESPI v3.3. A Toronto Hydro customer signs in to their own account and down
   name: Toronto Hydro Green Button Download My Data
   slug: toronto-hydro-green-button-download-my-data
-artifact_total: 6
+- description: Application Information endpoints
+  name: Toronto Hydro Application Information API
+  slug: toronto-hydro-applicationinformation-api
+- description: Authorization endpoints
+  name: Toronto Hydro Authorization API
+  slug: toronto-hydro-authorization-api
+- description: Batch data transfer endpoints
+  name: Toronto Hydro Batch API
+  slug: toronto-hydro-batch-api
+- description: Usage Point endpoints
+  name: Toronto Hydro Usage Point API
+  slug: toronto-hydro-usagepoint-api
+artifact_total: 9
 collections:
 - collection_type: open
   name: Green Button API Documentation
   slug: open-toronto-hydro-green-button-espi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/toronto-hydro-green-button-espi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -175,10 +188,10 @@ modified: '2026-07-27'
 name: Toronto Hydro
 nav: Providers
 network: true
-overview: 'Toronto Hydro publishes 1 API on the [APIs.io](https://apis.io/) network: Green Button Connect My Data. Tagged areas include Energy, Canada, Utilities, Electricity, and Smart Metering.
+overview: 'Toronto Hydro publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Application Information API, Authorization API, Batch API, and 1 more. Tagged areas include Energy, Canada, Utilities, Electricity, and Smart Metering.
 
 
-  Toronto Hydro''s developer surface includes authentication, documentation, signup flow, getting-started guide, legal docs, support, FAQ, and 25 more developer resources.'
+  Toronto Hydro''s developer surface includes authentication, documentation, signup flow, getting-started guide, legal docs, support, FAQ, and 26 more developer resources.'
 random_paper: 19
 scopes:
 - name: Toronto Hydro Scopes
@@ -187,18 +200,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 32.4
-  delta: 0.0
+  composite: 30.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
-    contract_quality: 11.2
+    contract_governance: 4.5
+    contract_quality: 11.1
     developer_ergonomics: 42.3
     discoverability: 59.3
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 32.4
+  previous_composite: 31.4
   provenance:
     conformance: derived
     contracts:
@@ -213,8 +231,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

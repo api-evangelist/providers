@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 30
   slug: circle-agentic-access
   summary_line: 30 operations · 18 acting · 3 human-in-the-loop
-api_count: 7
+api_count: 1
 apis:
 - description: Sponsor gas fees on behalf of users or let users pay gas in USDC via Circle Paymaster, removing native-token friction from onboarding.
   name: Gas Station and Paymaster
@@ -275,18 +275,23 @@ rules:
   slug: circle-rules
 score:
   band: developing
-  composite: 43.5
-  delta: 1.9
+  composite: 42.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 13.6
     contract_quality: 61.9
     developer_ergonomics: 47.6
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 41.6
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -300,8 +305,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/screenshots/circle-2026-06-20T174349.png
 security:
@@ -321,7 +326,7 @@ tags:
 - Currency
 - Money
 - Payments
-- Stablecoins
+- Stablecoin
 - Transfers
 - USDC
 - Wallets

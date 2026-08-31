@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 106
   slug: mastercard-agentic-access
   summary_line: 106 operations · 76 acting · 1 human-in-the-loop
-api_count: 249
+api_count: 37
 apis:
 - description: 'The Universal Specification Submission API is currently being used by Mastercard Issuers to submit PAN related events for the Account Level Management suite of services: Enhanced Value, Product Gradua'
   name: Mastercard Universal Specification Submission API
@@ -290,9 +290,6 @@ apis:
 - description: Mastercard Send is a suite of API services enabling real-time money transfers including person-to-person payments, disbursements, and funding transactions across the Mastercard network and other suppo
   name: Mastercard Send
   slug: mastercard-send
-- description: The Access A User Identity API from Mastercard — 2 operation(s) for access a user identity.
-  name: Mastercard Access A  User  Identity API
-  slug: mastercard-access-a-user-identity-api
 - description: The Access API from Mastercard — 4 operation(s) for access.
   name: Mastercard Access API
   slug: mastercard-access-api
@@ -320,9 +317,6 @@ apis:
 - description: The Aggregate API from Mastercard — 1 operation(s) for aggregate.
   name: Mastercard Aggregate API
   slug: mastercard-aggregate-api
-- description: The Aggregates API from Mastercard — 1 operation(s) for aggregates.
-  name: Mastercard Aggregates API
-  slug: mastercard-aggregates-api
 - description: The Agreement API from Mastercard — 4 operation(s) for agreement.
   name: Mastercard Agreement API
   slug: mastercard-agreement-api
@@ -341,18 +335,12 @@ apis:
 - description: The API provides ability for the lender to approve a BNPL loan during purchase.
   name: Mastercard Approvals API
   slug: mastercard-approvals-api
-- description: The Arid API from Mastercard — 1 operation(s) for arid.
-  name: Mastercard Arid API
-  slug: mastercard-arid-api
 - description: The Audit API from Mastercard — 1 operation(s) for audit.
   name: Mastercard Audit API
   slug: mastercard-audit-api
 - description: The Authentication API from Mastercard — 1 operation(s) for authentication.
   name: Mastercard Authentication API
   slug: mastercard-authentication-api
-- description: The B I N Lookup API from Mastercard — 1 operation(s) for b i n lookup.
-  name: Mastercard B I N  Lookup API
-  slug: mastercard-b-i-n-lookup-api
 - description: The Batch API from Mastercard — 3 operation(s) for batch.
   name: Mastercard Batch API
   slug: mastercard-batch-api
@@ -368,27 +356,18 @@ apis:
 - description: Handles Benefits
   name: Mastercard Benefits API
   slug: mastercard-benefits-api
-- description: The Bill Pay API from Mastercard — 0 operation(s) for bill pay.
-  name: Mastercard Bill Pay API
-  slug: mastercard-bill-pay-api
 - description: The Bin API from Mastercard — 2 operation(s) for bin.
   name: Mastercard Bin API
   slug: mastercard-bin-api
 - description: This API is to be used by the payment provider to notify payment status to relevant Mastercard Applications in case the payment was initiated by the Mastercard Application.
   name: Mastercard Callbacks API
   slug: mastercard-callbacks-api
-- description: The Carbon API from Mastercard — 1 operation(s) for carbon.
-  name: Mastercard Carbon API
-  slug: mastercard-carbon-api
 - description: The Card API from Mastercard — 14 operation(s) for card.
   name: Mastercard Card API
   slug: mastercard-card-api
 - description: The Cards API from Mastercard — 7 operation(s) for cards.
   name: Mastercard Cards API
   slug: mastercard-cards-api
-- description: The Catalog API from Mastercard — 1 operation(s) for catalog.
-  name: Mastercard Catalog API
-  slug: mastercard-catalog-api
 - description: The Catalogs API from Mastercard — 2 operation(s) for catalogs.
   name: Mastercard Catalogs API
   slug: mastercard-catalogs-api
@@ -404,9 +383,6 @@ apis:
 - description: The Claims API from Mastercard — 1 operation(s) for claims.
   name: Mastercard Claims API
   slug: mastercard-claims-api
-- description: The Client API from Mastercard — 2 operation(s) for client.
-  name: Mastercard Client API
-  slug: mastercard-client-api
 - description: Operations related to CLS activations.
   name: Mastercard CLS Activations API
   slug: mastercard-cls-activations-api
@@ -440,21 +416,12 @@ apis:
 - description: The Data API from Mastercard — 8 operation(s) for data.
   name: Mastercard Data API
   slug: mastercard-data-api
-- description: The Debit API from Mastercard — 1 operation(s) for debit.
-  name: Mastercard Debit API
-  slug: mastercard-debit-api
 - description: The Debtor API from Mastercard — 1 operation(s) for debtor.
   name: Mastercard Debtor API
   slug: mastercard-debtor-api
-- description: The Decisions API from Mastercard — 1 operation(s) for decisions.
-  name: Mastercard Decisions API
-  slug: mastercard-decisions-api
 - description: The Deletions API from Mastercard — 3 operation(s) for deletions.
   name: Mastercard Deletions API
   slug: mastercard-deletions-api
-- description: The Deregistrations API from Mastercard — 1 operation(s) for deregistrations.
-  name: Mastercard Deregistrations API
-  slug: mastercard-deregistrations-api
 - description: The Documents API from Mastercard — 4 operation(s) for documents.
   name: Mastercard Documents API
   slug: mastercard-documents-api
@@ -467,24 +434,9 @@ apis:
 - description: Donors
   name: Mastercard Donors API
   slug: mastercard-donors-api
-- description: The Driving API from Mastercard — 1 operation(s) for driving.
-  name: Mastercard Driving API
-  slug: mastercard-driving-api
 - description: The Email API from Mastercard — 2 operation(s) for email.
   name: Mastercard Email API
   slug: mastercard-email-api
-- description: The Email O T P API from Mastercard — 1 operation(s) for email o t p.
-  name: Mastercard Email  O T P API
-  slug: mastercard-email-o-t-p-api
-- description: The Environmental Impact API from Mastercard — 1 operation(s) for environmental impact.
-  name: Mastercard Environmental  Impact API
-  slug: mastercard-environmental-impact-api
-- description: The Events API from Mastercard — 1 operation(s) for events.
-  name: Mastercard Events API
-  slug: mastercard-events-api
-- description: The Extractions API from Mastercard — 4 operation(s) for extractions.
-  name: Mastercard Extractions API
-  slug: mastercard-extractions-api
 - description: The Field Mapping API from Mastercard — 1 operation(s) for field mapping.
   name: Mastercard Field Mapping API
   slug: mastercard-field-mapping-api
@@ -494,39 +446,9 @@ apis:
 - description: The Fraud API from Mastercard — 2 operation(s) for fraud.
   name: Mastercard Fraud API
   slug: mastercard-fraud-api
-- description: The Guest Donation API from Mastercard — 1 operation(s) for guest donation.
-  name: Mastercard Guest  Donation API
-  slug: mastercard-guest-donation-api
 - description: The Guid API from Mastercard — 15 operation(s) for guid.
   name: Mastercard Guid API
   slug: mastercard-guid-api
-- description: The Health Checks API from Mastercard — 1 operation(s) for health checks.
-  name: Mastercard Health Checks API
-  slug: mastercard-health-checks-api
-- description: The I D Document Data Extraction API from Mastercard — 1 operation(s) for i d document data extraction.
-  name: Mastercard I D  Document  Data  Extraction API
-  slug: mastercard-i-d-document-data-extraction-api
-- description: The I D Document Data Source Verification API from Mastercard — 1 operation(s) for i d document data source verification.
-  name: Mastercard I D  Document  Data  Source  Verification API
-  slug: mastercard-i-d-document-data-source-verification-api
-- description: The I D P Claim Share Insights API from Mastercard — 1 operation(s) for i d p claim share insights.
-  name: Mastercard I D P  Claim  Share  Insights API
-  slug: mastercard-i-d-p-claim-share-insights-api
-- description: The I D P Scopes Request API from Mastercard — 1 operation(s) for i d p scopes request.
-  name: Mastercard I D P  Scopes  Request API
-  slug: mastercard-i-d-p-scopes-request-api
-- description: The Ica API from Mastercard — 1 operation(s) for ica.
-  name: Mastercard Ica API
-  slug: mastercard-ica-api
-- description: The Id API from Mastercard — 1 operation(s) for id.
-  name: Mastercard Id API
-  slug: mastercard-id-api
-- description: The Identity API from Mastercard — 3 operation(s) for identity.
-  name: Mastercard Identity API
-  slug: mastercard-identity-api
-- description: The Ids API from Mastercard — 1 operation(s) for ids.
-  name: Mastercard Ids API
-  slug: mastercard-ids-api
 - description: The Initiate API from Mastercard — 2 operation(s) for initiate.
   name: Mastercard Initiate API
   slug: mastercard-initiate-api
@@ -536,54 +458,24 @@ apis:
 - description: The Insights API from Mastercard — 3 operation(s) for insights.
   name: Mastercard Insights API
   slug: mastercard-insights-api
-- description: The Issued API from Mastercard — 1 operation(s) for issued.
-  name: Mastercard Issued API
-  slug: mastercard-issued-api
 - description: Contains APIs which will be consumed by the Issuer's backend system.
   name: Mastercard Issuer API
   slug: mastercard-issuer-api
-- description: The Issuing API from Mastercard — 3 operation(s) for issuing.
-  name: Mastercard Issuing API
-  slug: mastercard-issuing-api
-- description: The Items API from Mastercard — 1 operation(s) for items.
-  name: Mastercard Items API
-  slug: mastercard-items-api
-- description: The Languages API from Mastercard — 1 operation(s) for languages.
-  name: Mastercard Languages API
-  slug: mastercard-languages-api
-- description: The Licenses API from Mastercard — 1 operation(s) for licenses.
-  name: Mastercard Licenses API
-  slug: mastercard-licenses-api
 - description: The Lifecycle API from Mastercard — 6 operation(s) for lifecycle.
   name: Mastercard Lifecycle API
   slug: mastercard-lifecycle-api
-- description: Self serve APIs for Consumer Clarity sub-merchants to onboard their locations
-  name: Mastercard Locations API
-  slug: mastercard-locations-api
 - description: Operations related to Lookup Identifiers.
   name: Mastercard Lookup Identifiers API
   slug: mastercard-lookup-identifiers-api
 - description: Operations related to Lost Stolen.
   name: Mastercard Lost Stolen API
   slug: mastercard-lost-stolen-api
-- description: The Manage A User Identity API from Mastercard — 4 operation(s) for manage a user identity.
-  name: Mastercard Manage A  User  Identity API
-  slug: mastercard-manage-a-user-identity-api
 - description: The Mastercard API from Mastercard — 1 operation(s) for mastercard.
   name: Mastercard Mastercard API
   slug: mastercard-mastercard-api
 - description: The Member API from Mastercard — 6 operation(s) for member.
   name: Mastercard Member API
   slug: mastercard-member-api
-- description: The Merchant API from Mastercard — 4 operation(s) for merchant.
-  name: Mastercard Merchant API
-  slug: mastercard-merchant-api
-- description: The Merchant Logos API from Mastercard — 1 operation(s) for merchant logos.
-  name: Mastercard Merchant  Logos API
-  slug: mastercard-merchant-logos-api
-- description: The Merchant Participation API from Mastercard — 1 operation(s) for merchant participation.
-  name: Mastercard Merchant  Participation API
-  slug: mastercard-merchant-participation-api
 - description: The Merchant Registration API from Mastercard — 2 operation(s) for merchant registration.
   name: Mastercard Merchant  Registration API
   slug: mastercard-merchant-registration-api
@@ -593,93 +485,39 @@ apis:
 - description: The Multi API from Mastercard — 1 operation(s) for multi.
   name: Mastercard Multi API
   slug: mastercard-multi-api
-- description: The Names API from Mastercard — 3 operation(s) for names.
-  name: Mastercard Names API
-  slug: mastercard-names-api
 - description: Notification Operations - Retrieving collection of generated notifications
   name: Mastercard Notifications API
   slug: mastercard-notifications-api
 - description: The Offers API from Mastercard — 1 operation(s) for offers.
   name: Mastercard Offers API
   slug: mastercard-offers-api
-- description: The Orders API from Mastercard — 3 operation(s) for orders.
-  name: Mastercard Orders API
-  slug: mastercard-orders-api
-- description: The Organization API from Mastercard — 2 operation(s) for organization.
-  name: Mastercard Organization API
-  slug: mastercard-organization-api
-- description: The Organizations API from Mastercard — 3 operation(s) for organizations.
-  name: Mastercard Organizations API
-  slug: mastercard-organizations-api
 - description: The Otps API from Mastercard — 1 operation(s) for otps.
   name: Mastercard Otps API
   slug: mastercard-otps-api
 - description: Operations related to PAN Blocks.
   name: Mastercard PAN Blocks API
   slug: mastercard-pan-blocks-api
-- description: The Payment API from Mastercard — 6 operation(s) for payment.
-  name: Mastercard Payment API
-  slug: mastercard-payment-api
-- description: The Payment Card API from Mastercard — 4 operation(s) for payment card.
-  name: Mastercard Payment  Card API
-  slug: mastercard-payment-card-api
 - description: The Payment Requests API from Mastercard — 4 operation(s) for payment requests.
   name: Mastercard Payment  Requests API
   slug: mastercard-payment-requests-api
 - description: The Payments API from Mastercard — 17 operation(s) for payments.
   name: Mastercard Payments API
   slug: mastercard-payments-api
-- description: The Plan API from Mastercard — 2 operation(s) for plan.
-  name: Mastercard Plan API
-  slug: mastercard-plan-api
 - description: The Plans API from Mastercard — 2 operation(s) for plans.
   name: Mastercard Plans API
   slug: mastercard-plans-api
-- description: The Premium API from Mastercard — 1 operation(s) for premium.
-  name: Mastercard Premium API
-  slug: mastercard-premium-api
 - description: Handles Products
   name: Mastercard Products API
   slug: mastercard-products-api
 - description: The Profiles API from Mastercard — 5 operation(s) for profiles.
   name: Mastercard Profiles API
   slug: mastercard-profiles-api
-- description: The Program API from Mastercard — 1 operation(s) for program.
-  name: Mastercard Program API
-  slug: mastercard-program-api
-- description: The Providers API from Mastercard — 4 operation(s) for providers.
-  name: Mastercard Providers API
-  slug: mastercard-providers-api
 - description: The Rates API from Mastercard — 4 operation(s) for rates.
   name: Mastercard Rates API
   slug: mastercard-rates-api
-- description: The Real Card API from Mastercard — 1 operation(s) for real card.
-  name: Mastercard Real  Card API
-  slug: mastercard-real-card-api
-- description: The Record API from Mastercard — 1 operation(s) for record.
-  name: Mastercard Record API
-  slug: mastercard-record-api
-- description: The References API from Mastercard — 1 operation(s) for references.
-  name: Mastercard References API
-  slug: mastercard-references-api
-- description: API endpoints used by CSP to facilitate refund request and confirmation.
-  name: Mastercard Refunds API
-  slug: mastercard-refunds-api
-- description: The Registrations API from Mastercard — 1 operation(s) for registrations.
-  name: Mastercard Registrations API
-  slug: mastercard-registrations-api
-- description: The Request API from Mastercard — 7 operation(s) for request.
-  name: Mastercard Request API
-  slug: mastercard-request-api
-- description: The Retrievals API from Mastercard — 4 operation(s) for retrievals.
-  name: Mastercard Retrievals API
-  slug: mastercard-retrievals-api
 - description: The Routing API from Mastercard — 1 operation(s) for routing.
   name: Mastercard Routing API
   slug: mastercard-routing-api
-- description: The Scans API from Mastercard — 2 operation(s) for scans.
-  name: Mastercard Scans API
-  slug: mastercard-scans-api
 - description: The Scopes API from Mastercard — 3 operation(s) for scopes.
   name: Mastercard Scopes API
   slug: mastercard-scopes-api
@@ -692,42 +530,9 @@ apis:
 - description: The Service API from Mastercard — 3 operation(s) for service.
   name: Mastercard Service API
   slug: mastercard-service-api
-- description: The Settlements API from Mastercard — 1 operation(s) for settlements.
-  name: Mastercard Settlements API
-  slug: mastercard-settlements-api
-- description: The Setup API from Mastercard — 2 operation(s) for setup.
-  name: Mastercard Setup API
-  slug: mastercard-setup-api
-- description: The Setup Donation API from Mastercard — 1 operation(s) for setup donation.
-  name: Mastercard Setup  Donation API
-  slug: mastercard-setup-donation-api
-- description: The Share A User Identity API from Mastercard — 2 operation(s) for share a user identity.
-  name: Mastercard Share A  User  Identity API
-  slug: mastercard-share-a-user-identity-api
-- description: The Share API from Mastercard — 1 operation(s) for share.
-  name: Mastercard Share API
-  slug: mastercard-share-api
-- description: The Shares API from Mastercard — 1 operation(s) for shares.
-  name: Mastercard Shares API
-  slug: mastercard-shares-api
 - description: The Sources API from Mastercard — 3 operation(s) for sources.
   name: Mastercard Sources API
   slug: mastercard-sources-api
-- description: The Srci API from Mastercard — 1 operation(s) for srci.
-  name: Mastercard Srci API
-  slug: mastercard-srci-api
-- description: The States API from Mastercard — 2 operation(s) for states.
-  name: Mastercard States API
-  slug: mastercard-states-api
-- description: The Status API from Mastercard — 6 operation(s) for status.
-  name: Mastercard Status API
-  slug: mastercard-status-api
-- description: The Statuses API from Mastercard — 2 operation(s) for statuses.
-  name: Mastercard Statuses API
-  slug: mastercard-statuses-api
-- description: The Step API from Mastercard — 1 operation(s) for step.
-  name: Mastercard Step API
-  slug: mastercard-step-api
 - description: Subscription Operations - Creating, retrieving, updating and deleting subscriptions
   name: Mastercard Subscription API
   slug: mastercard-subscription-api
@@ -737,45 +542,18 @@ apis:
 - description: The Summaries API from Mastercard — 1 operation(s) for summaries.
   name: Mastercard Summaries API
   slug: mastercard-summaries-api
-- description: The Supported API from Mastercard — 2 operation(s) for supported.
-  name: Mastercard Supported API
-  slug: mastercard-supported-api
-- description: The Supported Parameters API from Mastercard — 2 operation(s) for supported parameters.
-  name: Mastercard Supported  Parameters API
-  slug: mastercard-supported-parameters-api
 - description: The Surveys API from Mastercard — 1 operation(s) for surveys.
   name: Mastercard Surveys API
   slug: mastercard-surveys-api
-- description: The Suspected Fraud Management API from Mastercard — 1 operation(s) for suspected fraud management.
-  name: Mastercard Suspected  Fraud  Management API
-  slug: mastercard-suspected-fraud-management-api
-- description: The Suspected Fraud Submission API from Mastercard — 1 operation(s) for suspected fraud submission.
-  name: Mastercard Suspected  Fraud  Submission API
-  slug: mastercard-suspected-fraud-submission-api
-- description: Operations to manage tokens for virtual cards
-  name: Mastercard Token API
-  slug: mastercard-token-api
-- description: The Tokens API from Mastercard — 7 operation(s) for tokens.
-  name: Mastercard Tokens API
-  slug: mastercard-tokens-api
 - description: The Transaction API from Mastercard — 3 operation(s) for transaction.
   name: Mastercard Transaction API
   slug: mastercard-transaction-api
 - description: The Transactions API from Mastercard — 6 operation(s) for transactions.
   name: Mastercard Transactions API
   slug: mastercard-transactions-api
-- description: The Universal Specification Submission API from Mastercard — 0 operation(s) for universal specification submission.
-  name: Mastercard Universal Specification Submission API
-  slug: mastercard-universal-specification-submission-api
-- description: The Up API from Mastercard — 1 operation(s) for up.
-  name: Mastercard Up API
-  slug: mastercard-up-api
 - description: The Users API from Mastercard — 21 operation(s) for users.
   name: Mastercard Users API
   slug: mastercard-users-api
-- description: The Valid API from Mastercard — 1 operation(s) for valid.
-  name: Mastercard Valid API
-  slug: mastercard-valid-api
 - description: This API is to be used to validate customer information present within relevant Mastercard Applications.
   name: Mastercard Validations API
   slug: mastercard-validations-api
@@ -785,13 +563,10 @@ apis:
 - description: The Verifications API from Mastercard — 9 operation(s) for verifications.
   name: Mastercard Verifications API
   slug: mastercard-verifications-api
-- description: The Virtual API from Mastercard — 4 operation(s) for virtual.
-  name: Mastercard Virtual API
-  slug: mastercard-virtual-api
 - description: The Widgets API from Mastercard — 1 operation(s) for widgets.
   name: Mastercard Widgets API
   slug: mastercard-widgets-api
-artifact_total: 2027
+artifact_total: 1952
 collections:
 - collection_type: open
   name: API Collection
@@ -1388,6 +1163,10 @@ collections:
   name: Mastercard Bill Payment Validator Account Opening Widgets API
   slug: open-mastercard-widgets-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mastercard-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -6260,13 +6039,13 @@ modified: '2026-05-19'
 name: Mastercard
 nav: Providers
 network: true
-overview: 'Mastercard publishes 178 APIs on the [APIs.io](https://apis.io/) network, including Universal Specification Submission API, Bill Pay API, Business Payment Controls, and 175 more. Tagged areas include Credit Cards, Digital Identity, Financial-Services, Fraud Detection, and Open Banking.
+overview: 'Mastercard publishes 101 APIs on the [APIs.io](https://apis.io/) network, including Business Payment Controls, Community Pass Digital Identity (CPDI) and Acceptance (CPA), Commerce Pass (CxP), and 98 more. Tagged areas include Credit Cards, Digital Identity, Financial-Services, Fraud Detection, and Open Banking.
 
 
   The Mastercard catalog on APIs.io includes 20 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Mastercard''s developer surface includes authentication, developer portal, engineering blog, signup flow, support, code examples, and 40 more developer resources.'
+  Mastercard''s developer surface includes authentication, developer portal, engineering blog, signup flow, support, code examples, and 41 more developer resources.'
 plans:
 - name: Mastercard Plans Pricing
   plan_count: 1
@@ -6317,17 +6096,22 @@ rules:
 score:
   band: strong
   composite: 56.7
-  delta: 10.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 68.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 13.6
-    contract_quality: 64.0
+    contract_quality: 63.9
     developer_ergonomics: 81.0
     discoverability: 57.4
     governance: 13.6
     operational_transparency: 52.6
-  previous_composite: 46.2
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     contracts:
@@ -6341,9 +6125,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 36.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/screenshots/mastercard-2026-06-20T185023.png
 security:
 - kind: authentication

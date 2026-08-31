@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: gitcoin-agentic-access
   summary_line: 13 operations
-api_count: 7
+api_count: 3
 apis:
 - description: GraphQL API for querying indexed on-chain data from the Gitcoin Grants Stack and Allo Protocol. Provides access to funding rounds, projects, applications, contributions, and quadratic funding match ca
   name: Gitcoin Grants Stack Indexer API
@@ -247,7 +247,12 @@ rules:
 score:
   band: developing
   composite: 54.1
-  delta: 5.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 23.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -257,7 +262,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 34.2
-  previous_composite: 49.1
+  previous_composite: 54.1
   provenance:
     agentic_access: derived
     contracts:
@@ -265,9 +270,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitcoin/refs/heads/main/screenshots/gitcoin-2026-08-17T123547.png
 security:
 - kind: authentication

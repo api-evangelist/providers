@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 30
   slug: intakeq-agentic-access
   summary_line: 30 operations · 11 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Appointments, booking settings, and cancellation.
   name: IntakeQ Appointments API
@@ -89,6 +89,10 @@ collections:
   name: IntakeQ API
   slug: open-intakeq
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/intakeq-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -140,7 +144,7 @@ network: true
 overview: 'IntakeQ publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Clients API, Files API, and 3 more. Tagged areas include Practice Management, Intake Forms, Scheduling, Health and Wellness, and EHR.
 
 
-  IntakeQ''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  IntakeQ''s developer surface includes authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Intakeq Plans Pricing
   plan_count: 4
@@ -152,18 +156,23 @@ rate_limits:
   slug: intakeq-rate-limits
 score:
   band: thin
-  composite: 38.4
-  delta: 2.3
+  composite: 37.9
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 51.7
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 36.1
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +186,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/screenshots/intakeq-2026-07-25T222634.png
 security:

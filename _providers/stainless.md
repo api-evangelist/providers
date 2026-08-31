@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 22
   slug: stainless-agentic-access
   summary_line: 22 operations · 10 acting · 1 human-in-the-loop
-api_count: 10
+api_count: 1
 apis:
 - description: Generate production-ready SDKs in TypeScript, Python, Go, Java, Kotlin, Ruby, C#, PHP, and Terraform from an OpenAPI specification. Stainless handles HTTP requests, retries with exponential backoff, s
   name: Stainless SDK Generator
@@ -197,15 +197,20 @@ rate_limits:
   slug: stainless-rate-limits
 score:
   band: thin
-  composite: 33.6
-  delta: 2.4
+  composite: 33.1
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 17.3
     developer_ergonomics: 45.2
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 28.9
   needs_work:
@@ -214,7 +219,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 31.2
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     contracts:
@@ -222,8 +227,8 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stainless/refs/heads/main/screenshots/stainless-2026-06-20T194453.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 207
   slug: audius-agentic-access
   summary_line: 207 operations · 52 acting · 1 human-in-the-loop
-api_count: 21
+api_count: 1
 apis:
 - description: Public REST API for the Audius network. Endpoints cover tracks (metadata, stream, trending), users (profile, followers), playlists, search, and resolve (lookup by URL). API hosts are discovered dynami
   name: Audius REST API
@@ -176,6 +176,10 @@ collections:
   name: Audius API
   slug: open-audius
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/audius-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -239,7 +243,7 @@ network: true
 overview: 'Audius publishes 20 APIs on the [APIs.io](https://apis.io/) network, including challenges API, cid_data API, coins API, and 17 more. Tagged areas include Music, Streaming, Decentralized, Web3, and Open-Source.
 
 
-  Audius'' developer surface includes authentication and 10 more developer resources.'
+  Audius'' developer surface includes authentication and 11 more developer resources.'
 plans:
 - name: Audius Plans Pricing
   plan_count: 1
@@ -256,18 +260,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.7
-  delta: 1.4
+  composite: 29.1
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 57.7
     developer_ergonomics: 19.0
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 28.3
+  previous_composite: 29.7
   provenance:
     agentic_access: derived
     contracts:
@@ -275,8 +284,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audius/refs/heads/main/screenshots/audius-2026-06-20T172554.png
 security:

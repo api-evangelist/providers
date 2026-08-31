@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: goodhire-agentic-access
   summary_line: 8 operations · 3 acting
-api_count: 4
+api_count: 1
 apis:
 - description: List available screening packages (product bundles) and prices.
   name: GoodHire Packages API
@@ -56,7 +56,10 @@ apis:
 - description: Manage the users who order and are associated with reports.
   name: GoodHire Requestors API
   slug: goodhire-requestors-api
-artifact_total: 15
+- description: The GoodHire API API from GoodHire — 0 operation(s) for goodhire api.
+  name: GoodHire GoodHire API
+  slug: goodhire-goodhire-api-api
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -126,7 +129,7 @@ modified: '2026-07-03'
 name: GoodHire
 nav: Providers
 network: true
-overview: 'GoodHire publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Packages API, Partner API, Reports API, and 1 more. Tagged areas include Background Checks, Employment Screening, Identity Verification, HR, and Compliance.
+overview: 'GoodHire publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Packages API, Partner API, Reports API, and 2 more. Tagged areas include Background Checks, Employment Screening, Identity Verification, HR, and Compliance.
 
 
   GoodHire''s developer surface includes authentication, documentation, pricing, and 7 more developer resources.'
@@ -140,19 +143,24 @@ rate_limits:
   name: Goodhire Rate Limits
   slug: goodhire-rate-limits
 score:
-  band: developing
-  composite: 40.3
-  delta: 0.7
+  band: thin
+  composite: 38.9
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 55.1
+    contract_quality: 51.6
     developer_ergonomics: 25.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 39.6
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -160,8 +168,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodhire/refs/heads/main/screenshots/goodhire-2026-07-25T220045.png
 security:

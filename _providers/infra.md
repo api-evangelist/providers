@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-26'
-api_count: 8
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Authentication API from Infra — 9 operation(s) for authentication.
   name: Infra Authentication API
@@ -224,18 +224,26 @@ overview: 'Infra publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 3
 score:
   band: thin
-  composite: 35.6
-  delta: -0.8
+  composite: 35.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.1
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 46.9
     developer_ergonomics: 56.5
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 36.4
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 34.1
   provenance:
     conformance: derived
     contracts:
@@ -245,8 +253,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/screenshots/infra-2026-07-25T222422.png
 security:

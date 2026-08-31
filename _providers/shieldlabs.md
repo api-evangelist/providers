@@ -2,7 +2,7 @@
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_card: flavored
+    agent_card: false
     agent_skills: true
     agentic_access: false
     agentic_commerce: false
@@ -22,19 +22,29 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.2
-  scored_at: '2026-08-26'
-api_count: 1
+  score: 36.7
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Server-side REST API described by a public OpenAPI 3.1 specification (three operations plus one OpenAPI-3.1 webhook). Two hosts, implemented by two different internal services and diverging in casing,
-  name: ShieldLabs Server API
-  slug: shieldlabs-server-api
-artifact_total: 10
+- description: 'Recommended snapshot reads on account.shieldlabs.ai (service: Shield.Portal.Admin). Authenticated with Private API Key. Response envelope `{ data, total }`.'
+  name: ShieldLabs History API
+  slug: shieldlabs-history-api-api
+- description: 'Profile, balance, and alternate History on api.shieldlabs.ai (service: Shield.Core). Authenticated with Secret Key headers. History returns a PascalCase JSON array.'
+  name: ShieldLabs Management API
+  slug: shieldlabs-management-api-api
+- description: The ShieldLabs API API from ShieldLabs — 0 operation(s) for shieldlabs api.
+  name: ShieldLabs ShieldLabs API
+  slug: shieldlabs-shieldlabs-api-api
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Shieldlabs Webhooks
   slug: shieldlabs-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/shieldlabs-server-api-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -216,13 +226,13 @@ modified: '2026-08-19'
 name: ShieldLabs
 nav: Providers
 network: true
-overview: 'ShieldLabs publishes 1 API on the [APIs.io](https://apis.io/) network: Server API. Tagged areas include Fraud Detection, Abuse Prevention, Visitor Identification, Device Fingerprinting, and Bot Detection.
+overview: 'ShieldLabs publishes 3 APIs on the [APIs.io](https://apis.io/) network: History API, Management API, and ShieldLabs API. Tagged areas include fraud-detection, abuse-prevention, visitor-identification, device-fingerprinting, and bot-detection.
 
 
   The ShieldLabs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ShieldLabs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
+  ShieldLabs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
 plans:
 - name: Shieldlabs Plans Pricing
   plan_count: 4
@@ -233,19 +243,24 @@ rate_limits:
   name: Shieldlabs Rate Limits
   slug: shieldlabs-rate-limits
 score:
-  band: exemplar
-  composite: 67.2
-  delta: 0.9
+  band: strong
+  composite: 63.4
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
-    contract_governance: 16.7
-    contract_quality: 76.2
+    contract_governance: 4.5
+    contract_quality: 66.7
     developer_ergonomics: 78.6
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 66.3
+  previous_composite: 63.9
   provenance:
     conformance: derived
     contracts:
@@ -255,8 +270,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -273,17 +288,17 @@ security:
   summary_line: Hackerone · contact published
 slug: shieldlabs
 tags:
-- Fraud Detection
-- Abuse Prevention
-- Visitor Identification
-- Device Fingerprinting
-- Bot Detection
+- fraud-detection
+- abuse-prevention
+- visitor-identification
+- device-fingerprinting
+- bot-detection
 - vpn-proxy-detection
-- Risk Scoring
+- risk-scoring
 - Identity
 - Security
 - Webhook
-- Anti-Fraud
+- anti-fraud
 - traffic-quality
 website: https://docs.shieldlabs.ai/
 ---

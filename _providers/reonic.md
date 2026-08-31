@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 111
   slug: reonic-agentic-access
   summary_line: 111 operations · 55 acting
-api_count: 29
+api_count: 1
 apis:
 - description: Timeline of events on a project — automatic activity records and manually logged calls and meetings.
   name: Reonic Activities API
@@ -130,7 +130,10 @@ apis:
 - description: Your company's shared knowledge base — pages and folders. > [!warning] > **Beta:** These endpoints are in beta and may change as the service evolves. Please report issues or unexpected behavior to our
   name: Reonic Wiki API
   slug: reonic-wiki-api
-artifact_total: 65
+- description: Webhooks notify your systems the moment something happens in Reonic. For example when a project is created or an offer is signed. Instead of repeatedly polling the API for changes, you give Reonic a U
+  name: Reonic Webhooks API
+  slug: reonic-webhooks-api
+artifact_total: 66
 asyncapis:
 - description: Event surface for the Reonic REST API v3. Reonic POSTs a signed JSON body (HMAC SHA-256, X-Reonic-Signature) to your configured HTTPS endpoint when a selected event occurs. Payloads are thin (ids only
   name: Reonic Webhooks
@@ -350,7 +353,7 @@ modified: '2026-07-20'
 name: Reonic
 nav: Providers
 network: true
-overview: 'Reonic publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Appointments API, Calendar Categories API, and 26 more. Tagged areas include Company, Climate Energy, Solar, Renewable Energy, and Photovoltaic.
+overview: 'Reonic publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Appointments API, Calendar Categories API, and 27 more. Tagged areas include Company, Climate Energy, Solar, Renewable Energy, and Photovoltaic.
 
 
   The Reonic catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -360,18 +363,23 @@ overview: 'Reonic publishes 29 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 10
 score:
   band: developing
-  composite: 44.0
-  delta: 0.0
+  composite: 41.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 16.7
-    contract_quality: 57.7
+    contract_governance: 4.5
+    contract_quality: 57.3
     developer_ergonomics: 44.6
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 44.0
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -388,8 +396,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reonic/refs/heads/main/screenshots/reonic-2026-08-17T081520.png
 security:

@@ -23,18 +23,130 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Partner-facing REST API for the PartsTech parts and tire ordering platform. Covers authentication (JWT bearer via /oauth/access), parts search and part detail, brands, ACES/PCdb/VCdb taxonomy (categor
-  name: PartsTech External API
-  slug: partstech-external-api
-artifact_total: 7
+- description: 'A valid JSON Web Token (JWT) is required to access API methods. A JWT access token must be included in the authorization header of each request in the following Bearer schema: ``` Authorization: Beare'
+  name: PartsTech Auth API
+  slug: partstech-auth-api
+- description: Easy Registration & Auto-Connect API
+  name: PartsTech Auto Connect API
+  slug: partstech-auto-connect-api
+- description: Brands
+  name: PartsTech Brands API
+  slug: partstech-brands-api
+- description: Callback
+  name: PartsTech Callback Cart API
+  slug: partstech-callback-cart-api
+- description: Custom Cart
+  name: PartsTech Custom Cart API
+  slug: partstech-custom-cart-api
+- description: EX Permissions
+  name: PartsTech Ex Permissions API
+  slug: partstech-ex-permissions-api
+- description: Jobs
+  name: PartsTech Jobs API
+  slug: partstech-jobs-api
+- description: Local inventory
+  name: PartsTech Local Inventory API
+  slug: partstech-local-inventory-api
+- description: Vehicles
+  name: PartsTech Mitchell1 API
+  slug: partstech-mitchell1-api
+- description: Labor
+  name: PartsTech Mitchell1 Labor API
+  slug: partstech-mitchell1-labor-api
+- description: Fluids
+  name: PartsTech Motor Fluids API
+  slug: partstech-motor-fluids-api
+- description: Labor
+  name: PartsTech Motor Labor API
+  slug: partstech-motor-labor-api
+- description: Maintenance Schedules
+  name: PartsTech Motor Maintenance Schedules API
+  slug: partstech-motor-maintenance-schedules-api
+- description: Specifications
+  name: PartsTech Motor Specifications API
+  slug: partstech-motor-specifications-api
+- description: Orders
+  name: PartsTech Orders API
+  slug: partstech-orders-api
+- description: Orders methods
+  name: PartsTech Partner Orders API
+  slug: partstech-partner-orders-api
+- description: Parts
+  name: PartsTech Parts API
+  slug: partstech-parts-api
+- description: Product Characteristics Database
+  name: PartsTech Pcdb API
+  slug: partstech-pcdb-api
+- description: Cart with Punchout
+  name: PartsTech Punchout Cart API
+  slug: partstech-punchout-cart-api
+- description: Punchout Orders
+  name: PartsTech Punchout Orders API
+  slug: partstech-punchout-orders-api
+- description: Quote Methods
+  name: PartsTech Punchout Quote API
+  slug: partstech-punchout-quote-api
+- description: Quoting
+  name: PartsTech Quoting API
+  slug: partstech-quoting-api
+- description: Search
+  name: PartsTech Search API
+  slug: partstech-search-api
+- description: Cart by Session
+  name: PartsTech Session Cart API
+  slug: partstech-session-cart-api
+- description: Shop
+  name: PartsTech Shop API
+  slug: partstech-shop-api
+- description: Shop methods
+  name: PartsTech Shops API
+  slug: partstech-shops-api
+- description: Supplier Preferences
+  name: PartsTech Supplier Preferences API
+  slug: partstech-supplier-preferences-api
+- description: Supplier methods
+  name: PartsTech Suppliers API
+  slug: partstech-suppliers-api
+- description: Tires
+  name: PartsTech Tires API
+  slug: partstech-tires-api
+- description: User Methods
+  name: PartsTech User API
+  slug: partstech-user-api
+- description: Users methods
+  name: PartsTech Users API
+  slug: partstech-users-api
+- description: Vehicle Configuration Database
+  name: PartsTech Vcdb API
+  slug: partstech-vcdb-api
+- description: VIN Methods
+  name: PartsTech Vin API
+  slug: partstech-vin-api
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Partstech Webhooks
   slug: partstech-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/partstech-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/partstech-api-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/partstech-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -123,13 +235,13 @@ modified: '2026-08-26'
 name: PartsTech
 nav: Providers
 network: true
-overview: 'PartsTech publishes 1 API on the [APIs.io](https://apis.io/) network: External API. Tagged areas include Company, Automotive, Auto Parts, Parts Procurement, and Tires.
+overview: 'PartsTech publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Auto Connect API, Brands API, and 30 more. Tagged areas include Company, Automotive, Auto Parts, Parts Procurement, and Tires.
 
 
   The PartsTech catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  PartsTech''s developer surface includes documentation, API reference, support, getting-started guide, engineering blog, pricing, signup flow, and 12 more developer resources.'
+  PartsTech''s developer surface includes documentation, API reference, support, getting-started guide, engineering blog, pricing, signup flow, and 16 more developer resources.'
 plans:
 - name: Partstech Plans Pricing
   plan_count: 3
@@ -140,17 +252,24 @@ rate_limits:
   name: Partstech Rate Limits
   slug: partstech-rate-limits
 score:
-  band: strong
-  composite: 54.4
+  band: developing
+  composite: 53.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
-    contract_governance: 16.7
-    contract_quality: 59.5
+    contract_governance: 4.5
+    contract_quality: 61.9
     developer_ergonomics: 56.5
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 42.1
+  previous_composite: 54.1
   provenance:
     conformance: derived
     contracts:
@@ -160,8 +279,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Partstech Authentication

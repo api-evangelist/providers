@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: 'RESTful API for managing all Bagisto e-commerce operations including products, categories, customers, orders, inventory, cart, checkout, and administrative functions. Provides separate Shop and Admin '
@@ -155,8 +155,13 @@ rate_limits:
   slug: bagisto-rate-limits
 score:
   band: developing
-  composite: 40.1
-  delta: 2.4
+  composite: 46.1
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 6.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -166,10 +171,13 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 63.2
-  previous_composite: 37.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 40.1
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bagisto/refs/heads/main/screenshots/bagisto-2026-06-20T172936.png
 security:
 - kind: domain-security

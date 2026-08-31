@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: truphone-agentic-access
   summary_line: 17 operations · 6 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Data sessions, call detail records, status, and location updates.
   name: Truphone (1GLOBAL) Connectivity API
@@ -83,6 +83,10 @@ collections:
   name: Truphone (1GLOBAL) IoT Portal API
   slug: open-truphone
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/truphone-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -138,7 +142,7 @@ network: true
 overview: 'Truphone (1GLOBAL) publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Connectivity API, Devices API, Organization API, and 2 more. Tagged areas include eSIM, IoT, Connectivity, SIM Management, and Telecom.
 
 
-  Truphone (1GLOBAL)''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Truphone (1GLOBAL)''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Truphone Plans Pricing
   plan_count: 4
@@ -150,18 +154,23 @@ rate_limits:
   slug: truphone-rate-limits
 score:
   band: thin
-  composite: 35.5
-  delta: 1.5
+  composite: 34.9
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 53.1
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 34.0
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -175,8 +184,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

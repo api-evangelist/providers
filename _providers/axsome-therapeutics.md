@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 19
 common:
@@ -195,7 +195,7 @@ modified: '2026-05-23'
 name: Axsome Therapeutics
 nav: Providers
 network: true
-overview: 'Axsome Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include biopharmaceuticals, Biotechnology, Pharmaceuticals, Healthcare, and Life Sciences.
+overview: 'Axsome Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Biopharmaceuticals, Biotechnology, Pharmaceuticals, Healthcare, and Life Sciences.
 
 
   The Axsome Therapeutics catalog on APIs.io includes 1 JSON-LD context.'
@@ -203,6 +203,11 @@ random_paper: 0
 score:
   band: emerging
   composite: 15.5
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -220,8 +225,8 @@ score:
     regime: Health
     regime_id: health
     score: 23.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axsome-therapeutics/refs/heads/main/screenshots/axsome-therapeutics-2026-06-20T172821.png
 security:
@@ -231,7 +236,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: axsome-therapeutics
 tags:
-- biopharmaceuticals
+- Biopharmaceuticals
 - Biotechnology
 - Pharmaceuticals
 - Healthcare

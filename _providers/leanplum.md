@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -41,11 +41,8 @@ agentic_access:
   operation_count: 27
   slug: leanplum-agentic-access
   summary_line: 27 operations · 15 acting · 1 human-in-the-loop
-api_count: 8
+api_count: 2
 apis:
-- description: 'The complete Leanplum REST API as Leanplum itself publishes it — one OpenAPI 3.0.0 document (x-api-id "leanplum-api") covering all 42 methods across eight tags: User Behavior, User Information, Messag'
-  name: Leanplum API
-  slug: leanplum-api
 - description: The A/B Tests API from Leanplum — 3 operation(s) for a/b tests.
   name: Leanplum A/B Tests API
   slug: leanplum-a-b-tests-api
@@ -67,7 +64,28 @@ apis:
 - description: The User & Device Attributes API from Leanplum — 4 operation(s) for user & device attributes.
   name: Leanplum User & Device Attributes API
   slug: leanplum-user-device-attributes-api
-artifact_total: 26
+- description: The Campaigns API from Leanplum — 1 operation(s) for campaigns.
+  name: Leanplum Campaigns API
+  slug: leanplum-campaigns-api
+- description: The Export Data API from Leanplum — 8 operation(s) for export data.
+  name: Leanplum Export Data API
+  slug: leanplum-export-data-api
+- description: The Files and Variables API from Leanplum — 5 operation(s) for files and variables.
+  name: Leanplum Files and Variables API
+  slug: leanplum-files-and-variables-api
+- description: The Import Data API from Leanplum — 2 operation(s) for import data.
+  name: Leanplum Import Data API
+  slug: leanplum-import-data-api
+- description: The Messages API from Leanplum — 7 operation(s) for messages.
+  name: Leanplum Messages API
+  slug: leanplum-messages-api
+- description: The User Behavior API from Leanplum — 9 operation(s) for user behavior.
+  name: Leanplum User Behavior API
+  slug: leanplum-user-behavior-api
+- description: The User Information API from Leanplum — 7 operation(s) for user information.
+  name: Leanplum User Information API
+  slug: leanplum-user-information-api
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Leanplum Postbacks Webhooks
@@ -104,6 +122,10 @@ collections:
   name: Leanplum API
   slug: open-leanplum
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/clevertap/
 - group: auth
   title: ''
   type: Authentication
@@ -256,13 +278,13 @@ modified: '2026-08-13'
 name: Leanplum
 nav: Providers
 network: true
-overview: 'Leanplum publishes 8 APIs on the [APIs.io](https://apis.io/) network, including A/B Tests API, Content & Variables API, and 6 more. Tagged areas include Mobile Marketing, Customer Engagement, Push Notifications, Messaging, and A/B Testing.
+overview: 'Leanplum publishes 14 APIs on the [APIs.io](https://apis.io/) network, including A/B Tests API, Content & Variables API, Data Export API, and 11 more. Tagged areas include Mobile Marketing, Customer Engagement, Push Notifications, Messaging, and A/B Testing.
 
 
   The Leanplum catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Leanplum''s developer surface includes authentication, documentation, changelog, sandbox, API reference, getting-started guide, support, and 28 more developer resources.'
+  Leanplum''s developer surface includes authentication, documentation, changelog, sandbox, API reference, getting-started guide, support, and 29 more developer resources.'
 plans:
 - name: Leanplum Plans Pricing
   plan_count: 2
@@ -274,18 +296,23 @@ rate_limits:
   slug: leanplum-rate-limits
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 51.0
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
-    contract_governance: 30.3
-    contract_quality: 20.0
+    contract_governance: 18.2
+    contract_quality: 19.5
     developer_ergonomics: 61.3
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 53.2
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -296,8 +323,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leanplum/refs/heads/main/screenshots/leanplum-2026-07-25T224746.png
 security:

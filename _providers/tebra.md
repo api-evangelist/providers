@@ -17,7 +17,7 @@ agent_readiness:
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
     dry_run_mode: na
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.8
-  scored_at: '2026-08-26'
+  score: 33.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: tebra-agentic-access
   summary_line: 14 operations
-api_count: 9
+api_count: 2
 apis:
 - description: SOAP operations for patient records - GetPatient, GetPatients, GetAllPatients, CreatePatient, UpdatePatient, UpdatePatientsExternalID, and UpdatePrimaryPatientCase. Part of the former Kareo Integratio
   name: Tebra Patients API
@@ -68,10 +68,64 @@ apis:
 - description: Core patient demographic record. Base host (api.tebra.com) matches the Oct 2023 "General API Documentation" PDF and this spec's servers[], but as of 2026-08-14 it returns NXDOMAIN on public DNS resolv
   name: Tebra Patient API
   slug: tebra-patient-api
-- description: SMART on FHIR (HL7 FHIR R4) patient-access API built on US Core Implementation Guide STU3 Release 3.1.1, satisfying USCDI v1 / ONC 21st Century Cures Act information-blocking requirements. Hosted on t
-  name: Tebra FHIR API
-  slug: tebra-fhir-api
-artifact_total: 22
+- description: The AllergyIntolerance API from Tebra — 1 operation(s) for allergyintolerance.
+  name: Tebra Allergy Intolerance API
+  slug: tebra-allergyintolerance-api
+- description: The CarePlan API from Tebra — 1 operation(s) for careplan.
+  name: Tebra Care Plan API
+  slug: tebra-careplan-api
+- description: The CareTeam API from Tebra — 1 operation(s) for careteam.
+  name: Tebra Care Team API
+  slug: tebra-careteam-api
+- description: The Condition API from Tebra — 1 operation(s) for condition.
+  name: Tebra Condition API
+  slug: tebra-condition-api
+- description: The Device API from Tebra — 1 operation(s) for device.
+  name: Tebra Device API
+  slug: tebra-device-api
+- description: The DiagnosticReport API from Tebra — 1 operation(s) for diagnosticreport.
+  name: Tebra Diagnostic Report API
+  slug: tebra-diagnosticreport-api
+- description: The DocumentReference API from Tebra — 1 operation(s) for documentreference.
+  name: Tebra Document Reference API
+  slug: tebra-documentreference-api
+- description: The Encounter API from Tebra — 1 operation(s) for encounter.
+  name: Tebra Encounter API
+  slug: tebra-encounter-api
+- description: The Goal API from Tebra — 1 operation(s) for goal.
+  name: Tebra Goal API
+  slug: tebra-goal-api
+- description: The Immunization API from Tebra — 1 operation(s) for immunization.
+  name: Tebra Immunization API
+  slug: tebra-immunization-api
+- description: The Location API from Tebra — 1 operation(s) for location.
+  name: Tebra Location API
+  slug: tebra-location-api
+- description: The Medication API from Tebra — 1 operation(s) for medication.
+  name: Tebra Medication API
+  slug: tebra-medication-api
+- description: The MedicationRequest API from Tebra — 1 operation(s) for medicationrequest.
+  name: Tebra Medication Request API
+  slug: tebra-medicationrequest-api
+- description: The Observation API from Tebra — 1 operation(s) for observation.
+  name: Tebra Observation API
+  slug: tebra-observation-api
+- description: The Organization API from Tebra — 1 operation(s) for organization.
+  name: Tebra Organization API
+  slug: tebra-organization-api
+- description: The Practitioner API from Tebra — 1 operation(s) for practitioner.
+  name: Tebra Practitioner API
+  slug: tebra-practitioner-api
+- description: The PractitionerRole API from Tebra — 1 operation(s) for practitionerrole.
+  name: Tebra Practitioner Role API
+  slug: tebra-practitionerrole-api
+- description: The Procedure API from Tebra — 1 operation(s) for procedure.
+  name: Tebra Procedure API
+  slug: tebra-procedure-api
+- description: The Provenance API from Tebra — 1 operation(s) for provenance.
+  name: Tebra Provenance API
+  slug: tebra-provenance-api
+artifact_total: 40
 collections:
 - collection_type: open
   name: API Collection
@@ -86,6 +140,22 @@ collections:
   name: Tebra Data Clinical Patient API
   slug: open-tebra-patient-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tebra-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tebra-fhir-api-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/tebra-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/tebra-read-patient-clinical-data.md
 - group: auth
   title: ''
   type: OAuthScopes
@@ -203,10 +273,10 @@ modified: '2026-08-14'
 name: Tebra
 nav: Providers
 network: true
-overview: 'Tebra publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Clinical API, and 3 more. Tagged areas include Healthcare, Practice Management, EHR, Medical Billing, and Patient Engagement.
+overview: 'Tebra publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Clinical API, and 21 more. Tagged areas include Healthcare, Practice Management, EHR, Medical Billing, and Patient Engagement.
 
 
-  Tebra''s developer surface includes authentication, documentation, support, engineering blog, pricing, and 20 more developer resources.'
+  Tebra''s developer surface includes authentication, documentation, support, engineering blog, pricing, and 24 more developer resources.'
 plans:
 - name: Tebra Plans Pricing
   plan_count: 3
@@ -222,19 +292,24 @@ scopes:
   slug: tebra-scopes
   summary_line: 27 scopes · authorizationCode/clientCredentials
 score:
-  band: exemplar
-  composite: 67.6
-  delta: 5.4
+  band: strong
+  composite: 65.6
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
-    contract_governance: 12.1
+    contract_governance: 0.0
     contract_quality: 53.2
     developer_ergonomics: 58.9
-    discoverability: 74.1
-    governance: 12.1
+    discoverability: 68.5
+    governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 62.2
+  previous_composite: 66.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -249,6 +324,8 @@ score:
     applies: true
     jurisdictions:
     - jurisdiction: US
+      standard: hipaa
+    - jurisdiction: US
       standard: us-core
     - jurisdiction: US
       standard: uscdi
@@ -257,9 +334,9 @@ score:
     regime: Health
     regime_id: health
     score: 86.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tebra/refs/heads/main/screenshots/tebra-2026-08-17T082258.png
 security:
 - kind: authentication

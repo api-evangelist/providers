@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: midjourney-agentic-access
   summary_line: 8 operations · 6 acting
-api_count: 6
+api_count: 1
 apis:
 - description: The Midjourney Web Application provides a browser-based interface for generating AI images using text prompts. Users can create images, explore a gallery of community creations, manage their generated
   name: Midjourney Web Application
@@ -175,18 +175,23 @@ rules:
   slug: midjourney-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.6
-  delta: 1.9
+  composite: 34.1
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 66.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 76.8
     developer_ergonomics: 21.4
-    discoverability: 50.0
+    discoverability: 44.4
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 32.7
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -198,8 +203,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/screenshots/midjourney-2026-06-20T185557.png
 security:

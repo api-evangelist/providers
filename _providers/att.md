@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 42
   slug: att-agentic-access
   summary_line: 42 operations · 26 acting
-api_count: 28
+api_count: 3
 apis:
 - description: 'AT&T OAuth 2.0 authentication API providing access tokens for all AT&T REST APIs. Supports Authorization Code, Client Credentials, and Refresh Token grant types. Scopes include ADS, MMS, SMS, SPEECH, '
   name: AT&T OAuth 2.0 API
@@ -128,7 +128,22 @@ apis:
 - description: The Threat Subscriptions API from AT&T — 1 operation(s) for threat subscriptions.
   name: AT&T Threat Subscriptions API
   slug: att-threat-subscriptions-api
-artifact_total: 341
+- description: Device connectivity and roaming status
+  name: AT&T Device Status API
+  slug: att-device-status-api
+- description: Network performance metrics
+  name: AT&T Network Insights API
+  slug: att-network-insights-api
+- description: AT&T OAuth 2.0 authentication
+  name: AT&T O Auth API
+  slug: att-oauth-api
+- description: 5G QoS session management
+  name: AT&T Quality on Demand API
+  slug: att-quality-on-demand-api
+- description: Short Message Service operations
+  name: AT&T SMS API
+  slug: att-sms-api
+artifact_total: 346
 collections:
 - collection_type: postman
   name: AT&T Authentication API
@@ -1123,7 +1138,7 @@ modified: '2026-07-25'
 name: AT&T
 nav: Providers
 network: true
-overview: 'AT&T publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Balance Management API, Device Management API, and 20 more. Tagged areas include 5G, Broadband, CAMARA, Connectivity, and Device Status.
+overview: 'AT&T publishes 29 APIs on the [APIs.io](https://apis.io/) network, including OAuth 2.0 API, Authentication API, Balance Management API, and 26 more. Tagged areas include 5G, Broadband, CAMARA, Connectivity, and Device Status.
 
 
   The AT&T catalog on APIs.io includes 10 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1185,7 +1200,12 @@ scopes:
 score:
   band: developing
   composite: 52.3
-  delta: 1.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 37.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -1195,7 +1215,7 @@ score:
     discoverability: 68.5
     governance: 69.7
     operational_transparency: 23.7
-  previous_composite: 50.9
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1209,8 +1229,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

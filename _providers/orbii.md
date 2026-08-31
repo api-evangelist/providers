@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 161
   slug: orbii-agentic-access
   summary_line: 161 operations · 29 acting
-api_count: 15
+api_count: 3
 apis:
 - description: The Business Category Assignment API from Orbii — 1 operation(s) for business category assignment.
   name: Orbii Business Category Assignment API
@@ -139,6 +139,10 @@ collections:
   name: Orbii KSA Business Category Assignment Transactions API
   slug: open-orbii-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/orbii-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -238,22 +242,27 @@ network: true
 overview: 'Orbii publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Business Category Assignment API, Categories API, Clients API, and 12 more. Tagged areas include Company, Artificial Intelligence, Lending, Credit, and Fintech.
 
 
-  Orbii''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 16 more developer resources.'
+  Orbii''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 17 more developer resources.'
 random_paper: 8
 score:
   band: thin
-  composite: 30.5
+  composite: 29.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 44.7
     developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 30.5
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -270,8 +279,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbii/refs/heads/main/screenshots/orbii-2026-08-07T190850.png
 security:

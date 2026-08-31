@@ -24,22 +24,19 @@ agent_readiness:
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: documented
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: verified
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 57.1
-  scored_at: '2026-08-26'
-api_count: 6
+  score: 65.3
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: The complete OneSignal REST API as OneSignal publishes it — OpenAPI 3.1.0, info.version 11.6, 39 paths and 59 operations covering messaging, users, subscriptions, segments, templates, custom events, i
-  name: OneSignal REST API
-  slug: onesignal-rest-api
 - description: The Apps API from OneSignal — 21 operation(s) for apps.
   name: OneSignal Apps API
   slug: onesignal-apps-api
@@ -55,7 +52,25 @@ apis:
 - description: OneSignal's hosted Model Context Protocol server at https://api.onesignal.com/mcp/oauth, connected over browser-based OAuth 2.1 with PKCE. Listed in the Cursor marketplace and Claude's connector direc
   name: OneSignal MCP Server
   slug: onesignal-mcp
-artifact_total: 22
+- description: The Notifications?app Id={app Id}&limit={limit}&offset={offset}&kind={kind}&template Id={template Id}&time Offset={time Offset} API from OneSignal — 1 operation(s) for notifications?app id={app id}&li
+  name: OneSignal Notifications?app Id={app Id}&limit={limit}&offset={offset}&kind={kind}&template Id={template Id}&time Offset={time Offset} API
+  slug: onesignal-notifications-app-id-app-id-limit-limit-offset-offset-kind-kind-template-id-template-id-time-offset-time-offset-api
+- description: The Notifications?c=email API from OneSignal — 1 operation(s) for notifications?c=email.
+  name: OneSignal Notifications?c=email API
+  slug: onesignal-notifications-c-email-api
+- description: The Notifications?c=push API from OneSignal — 1 operation(s) for notifications?c=push.
+  name: OneSignal Notifications?c=push API
+  slug: onesignal-notifications-c-push-api
+- description: The Notifications?c=sms API from OneSignal — 1 operation(s) for notifications?c=sms.
+  name: OneSignal Notifications?c=sms API
+  slug: onesignal-notifications-c-sms-api
+- description: The Organizations API from OneSignal — 1 operation(s) for organizations.
+  name: OneSignal Organizations API
+  slug: onesignal-organizations-api
+- description: The Templates?app Id={app Id}&limit={limit}&offset={offset} API from OneSignal — 1 operation(s) for templates?app id={app id}&limit={limit}&offset={offset}.
+  name: OneSignal Templates?app Id={app Id}&limit={limit}&offset={offset} API
+  slug: onesignal-templates-app-id-app-id-limit-limit-offset-offset-api
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Onesignal Webhooks
@@ -80,6 +95,10 @@ collections:
   name: OneSignal
   slug: open-onesignal
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/onesignal-capability-edges.yml
 - group: auth
   title: ''
   type: Authentication
@@ -284,13 +303,13 @@ modified: '2026-08-13'
 name: OneSignal
 nav: Providers
 network: true
-overview: 'OneSignal publishes 5 APIs on the [APIs.io](https://apis.io/) network, including REST API, Apps API, Notifications API, and 2 more. Tagged areas include Notification, Push, Email, SMS, and Mobile.
+overview: 'OneSignal publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Notifications API, Players API, and 7 more. Tagged areas include Notification, Push, Email, SMS, and Mobile.
 
 
   The OneSignal catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  OneSignal''s developer surface includes authentication, engineering blog, changelog, CLI, documentation, API reference, getting-started guide, and 39 more developer resources.'
+  OneSignal''s developer surface includes authentication, engineering blog, changelog, CLI, documentation, API reference, getting-started guide, and 40 more developer resources.'
 plans:
 - name: Onesignal Plans Pricing
   plan_count: 4
@@ -302,18 +321,23 @@ rate_limits:
   slug: onesignal-rate-limits
 score:
   band: exemplar
-  composite: 78.3
-  delta: 0.0
+  composite: 74.8
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
-    contract_governance: 16.7
-    contract_quality: 74.6
+    contract_governance: 4.5
+    contract_quality: 73.0
     developer_ergonomics: 78.6
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 84.2
-  previous_composite: 78.3
+  previous_composite: 75.4
   provenance:
     conformance: derived
     contracts:
@@ -329,8 +353,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/screenshots/onesignal-2026-06-20T190717.png
 security:

@@ -23,13 +23,46 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: The read-only WordPress REST content surface behind www.jnanatx.com — news posts (62), corporate pages (9), media (376), post categories (7), the `team` custom post type (9 profiles) and its `team-dep
-  name: Jnana Therapeutics Content API
-  slug: jnana-therapeutics-content-api
-artifact_total: 5
+- description: Comment collection. Registered and reachable, but empty — no post carries comments.
+  name: Jnana Therapeutics Comments API
+  slug: jnana-therapeutics-comments-api
+- description: Route, type, taxonomy and status discovery documents.
+  name: Jnana Therapeutics Discovery API
+  slug: jnana-therapeutics-discovery-api
+- description: Media library (376 attachments at harvest time).
+  name: Jnana Therapeutics Media API
+  slug: jnana-therapeutics-media-api
+- description: oEmbed 1.0 provider endpoint for www.jnanatx.com URLs.
+  name: Jnana Therapeutics Oembed API
+  slug: jnana-therapeutics-oembed-api
+- description: Corporate pages — home, RAPID platform, programs, team, join us, news, contact, privacy policy, terms of use (9 published at harvest time).
+  name: Jnana Therapeutics Pages API
+  slug: jnana-therapeutics-pages-api
+- description: News archive — press releases, in-the-news coverage, presentations and insights (62 published at harvest time).
+  name: Jnana Therapeutics Posts API
+  slug: jnana-therapeutics-posts-api
+- description: Cross-content search across published objects (73 indexed at harvest time).
+  name: Jnana Therapeutics Search API
+  slug: jnana-therapeutics-search-api
+- description: Yoast SEO head-metadata document for a given site URL.
+  name: Jnana Therapeutics Seo API
+  slug: jnana-therapeutics-seo-api
+- description: 'Post categories (7 registered — press-releases 43, in-the-news 16, presentations 3, insights 2, publications 0, blogs 0, videos 0) and team departments (4 registered). The core `post_tag` taxonomy is '
+  name: Jnana Therapeutics Taxonomy API
+  slug: jnana-therapeutics-taxonomy-api
+- description: '`team` custom post type — leadership, board and scientific advisory profiles (9 published at harvest time).'
+  name: Jnana Therapeutics Team API
+  slug: jnana-therapeutics-team-api
+- description: Genesis theme reading-settings and breadcrumb documents.
+  name: Jnana Therapeutics Theme API
+  slug: jnana-therapeutics-theme-api
+- description: Author collection (4 records). Anonymously readable, exposing WordPress author display names and slugs. Flagged in conventions/ as an exposure worth reviewing, not a documented product.
+  name: Jnana Therapeutics Users API
+  slug: jnana-therapeutics-users-api
+artifact_total: 16
 common:
 - group: auth
   title: ''
@@ -148,7 +181,7 @@ modified: '2026-08-23'
 name: Jnana Therapeutics
 nav: Providers
 network: true
-overview: 'Jnana Therapeutics publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, Biotechnology, Pharmaceuticals, Drug Discovery, and Chemoproteomics.
+overview: 'Jnana Therapeutics publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Discovery API, Media API, and 9 more. Tagged areas include Company, biotechnology, pharmaceuticals, drug-discovery, and chemoproteomics.
 
 
   Jnana Therapeutics'' developer surface includes product news, authentication, and 25 more developer resources.'
@@ -163,18 +196,23 @@ rate_limits:
   slug: jnana-therapeutics-rate-limits
 score:
   band: thin
-  composite: 30.3
-  delta: 0.0
+  composite: 29.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 50.3
+    contract_governance: 4.5
+    contract_quality: 49.5
     developer_ergonomics: 13.7
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 30.3
+  previous_composite: 29.9
   provenance:
     conformance: derived
     contracts:
@@ -190,8 +228,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -205,14 +243,14 @@ security:
 slug: jnana-therapeutics
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Drug Discovery
-- Chemoproteomics
-- Rare Disease
-- Immunology
-- Life Sciences
-- Clinical Trials
+- biotechnology
+- pharmaceuticals
+- drug-discovery
+- chemoproteomics
+- rare-disease
+- immunology
+- life-sciences
+- clinical-trials
 - content-api
 website: https://www.jnanatx.com/
 ---

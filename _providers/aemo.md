@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,7 +12,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
@@ -22,8 +23,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.9
-  scored_at: '2026-08-26'
+  score: 40.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 560
   human_in_the_loop: 21
@@ -31,7 +32,7 @@ agentic_access:
   operation_count: 798
   slug: aemo-agentic-access
   summary_line: 798 operations · 560 acting · 21 human-in-the-loop
-api_count: 77
+api_count: 76
 apis:
 - description: 'The JSON API behind AEMO''s public National Electricity Market data dashboard, and the closest thing AEMO operates to an open real-time market API. Confirmed live and fully anonymous on 2026-07-27: GET'
   name: AEMO NEM Data Dashboard API
@@ -42,229 +43,256 @@ apis:
 - description: 'The Western Australian equivalent of NEMWeb, covering the Wholesale Electricity Market that AEMO operates separately from the NEM. Confirmed anonymous and live on 2026-07-27: GET https://data.wa.aemo.'
   name: AEMO WA Market Data Public Feed
   slug: aemo-wa-market-data-public-feed
-- description: The Consumer Data Right (CDR) APIs allow Registered Financially Responsible Market Participants (FRMPs) to service API requests for AEMO data from Accredited Data Recipients. AEMO's public API catalog
-  name: AEMO CDR
-  slug: aemo-cdr
-- description: AEMO's public API catalogue lists 2 operation(s) for this API, gateway-routed under the path prefix /NEMRetail/cds-au/v1/discovery. AEMO's own openapi-link export for this API is a shell — it declares
-  name: AEMO CDR Common
-  slug: aemo-cdr-common
-- description: AEMO WEM Attributes Report from AEMO — 2 path(s) described in OpenAPI.
-  name: AEMO WEM Attributes Report
-  slug: aemo-attributes-report-external-v1-openapi
-- description: AEMO B2BMessagingAsync from AEMO — 3 path(s) described in OpenAPI.
-  name: AEMO B2BMessagingAsync
-  slug: aemo-b2bmessaging-async-v1-openapi
-- description: AEMO B2BMessagingPull from AEMO — 3 path(s) described in OpenAPI.
-  name: AEMO B2BMessagingPull
-  slug: aemo-b2bmessaging-pull-v1-openapi
-- description: AEMO B2BMessagingSync from AEMO — 1 path(s) described in OpenAPI.
-  name: AEMO B2BMessagingSync
-  slug: aemo-b2bmessaging-sync-v1-openapi
-- description: AEMO B2MMessagingAsync from AEMO — 3 path(s) described in OpenAPI.
-  name: AEMO B2MMessagingAsync
-  slug: aemo-b2mmessaging-async-v1-openapi
-- description: AEMO B2MMessagingPull from AEMO — 4 path(s) described in OpenAPI.
-  name: AEMO B2MMessagingPull
-  slug: aemo-b2mmessaging-pull-v1-openapi
-- description: AEMO B2MMessagingSync from AEMO — 7 path(s) described in OpenAPI.
-  name: AEMO B2MMessagingSync
-  slug: aemo-b2mmessaging-sync-v1-openapi
-- description: AEMO Balancing Reports v2.1 from AEMO — 5 path(s) described in OpenAPI.
-  name: AEMO Balancing Reports v2.1
-  slug: aemo-balancing-reports-v2-1-openapi
-- description: AEMO Balancing Reports v2.2 from AEMO — 6 path(s) described in OpenAPI.
-  name: AEMO Balancing Reports v2.2
-  slug: aemo-balancing-reports-v2-2-openapi
-- description: AEMO Balancing Reports v2.3 from AEMO — 6 path(s) described in OpenAPI.
-  name: AEMO Balancing Reports v2.3
-  slug: aemo-balancing-reports-v2-3-openapi
-- description: AEMO Balancing Reports v2.4 from AEMO — 6 path(s) described in OpenAPI.
-  name: AEMO Balancing Reports v2.4
-  slug: aemo-balancing-reports-v2-4-openapi
-- description: AEMO Balancing Reports v2.5 from AEMO — 7 path(s) described in OpenAPI.
-  name: AEMO Balancing Reports v2.5
-  slug: aemo-balancing-reports-v2-5-openapi
-- description: AEMO Balancing Reports v2 from AEMO — 5 path(s) described in OpenAPI.
-  name: AEMO Balancing Reports v2
-  slug: aemo-balancing-reports-v2-openapi
-- description: AEMO Balancing Submission v2 from AEMO — 8 path(s) described in OpenAPI.
-  name: AEMO Balancing Submission v2
-  slug: aemo-balancing-submission-v2-openapi
-- description: AEMO NEMDispatchBidding from AEMO — 5 path(s) described in OpenAPI.
-  name: AEMO NEMDispatchBidding
-  slug: aemo-bidding-v1-openapi
-- description: AEMO Bilateral/Stem Submission v1 from AEMO — 2 path(s) described in OpenAPI.
-  name: AEMO Bilateral/Stem Submission v1
-  slug: aemo-bilateral-stem-submission-v1-openapi
-- description: AEMO BlindUpdate from AEMO — 3 path(s) described in OpenAPI.
-  name: AEMO BlindUpdate
-  slug: aemo-blindupdate-v1-openapi
-- description: AEMO Capacity from AEMO — 13 path(s) described in OpenAPI.
-  name: AEMO Capacity
-  slug: aemo-capacity-v1-openapi
-- description: AEMO CapacityAuction from AEMO — 5 path(s) described in OpenAPI.
-  name: AEMO CapacityAuction
-  slug: aemo-capacityauction-v1-openapi
-- description: AEMO DER Registration for NSPs from AEMO — 8 path(s) described in OpenAPI.
-  name: AEMO DER Registration for NSPs
-  slug: aemo-der-business-registration-v1-openapi
-- description: AEMO DER Registration For Account Holders from AEMO — 31 path(s) described in OpenAPI.
-  name: AEMO DER Registration For Account Holders
-  slug: aemo-der-consumer-registration-v1-openapi
-- description: AEMO WEM DER Installation V2 from AEMO — 3 path(s) described in OpenAPI.
-  name: AEMO WEM DER Installation V2
-  slug: aemo-der-register-installation-v2-openapi
-- description: AEMO WEM DER NMI from AEMO — 2 path(s) described in OpenAPI.
-  name: AEMO WEM DER NMI
-  slug: aemo-der-register-nmi-v1-openapi
-- description: AEMO EE Simulation Status Update from AEMO — 2 path(s) described in OpenAPI.
-  name: AEMO EE Simulation Status Update
-  slug: aemo-ee-simulation-status-update-v1-openapi
-- description: AEMO EnablementInstruction from AEMO — 1 path(s) described in OpenAPI.
-  name: AEMO EnablementInstruction
-  slug: aemo-enablementinstruction-v1-openapi
-- description: AEMO GasBB Reporting Public Data from AEMO — 28 path(s) described in OpenAPI.
-  name: AEMO GasBB Reporting Public Data
-  slug: aemo-gasbb-reporting-public-data-openapi
-- description: AEMO GeneratorRecall from AEMO — 3 path(s) described in OpenAPI.
-  name: AEMO GeneratorRecall
-  slug: aemo-generatorrecall-v1-openapi
-- description: AEMO HubMessageManagement from AEMO — 2 path(s) described in OpenAPI.
-  name: AEMO HubMessageManagement
-  slug: aemo-hubmsgmgt-v1-openapi
-- description: AEMO HubMessageManagementV2 from AEMO — 1 path(s) described in OpenAPI.
-  name: AEMO HubMessageManagementV2
-  slug: aemo-hubmsgmgt-v2-openapi
-- description: AEMO IdentityService(v2) from AEMO — 1 path(s) described in OpenAPI.
-  name: AEMO IdentityService(v2)
-  slug: aemo-identityservice-v2-openapi
-- description: AEMO LFAS Reports v2 from AEMO — 4 path(s) described in OpenAPI.
-  name: AEMO LFAS Reports v2
-  slug: aemo-lfas-reports-v2-openapi
-- description: AEMO LFAS Submission v2 from AEMO — 8 path(s) described in OpenAPI.
-  name: AEMO LFAS Submission v2
-  slug: aemo-lfas-submission-v2-openapi
-- description: AEMO Market Reports v2 from AEMO — 1 path(s) described in OpenAPI.
-  name: AEMO Market Reports v2
-  slug: aemo-market-reports-v2-openapi
-- description: AEMO MeterExemption from AEMO — 3 path(s) described in OpenAPI.
-  name: AEMO MeterExemption
-  slug: aemo-meterexemption-external-v1-openapi
-- description: AEMO MT PASA Offers from AEMO — 1 path(s) described in OpenAPI.
-  name: AEMO MT PASA Offers
-  slug: aemo-mtpasaoffers-v1-openapi
-- description: AEMO Oauth-v1 from AEMO — 1 path(s) described in OpenAPI.
-  name: AEMO Oauth-v1
-  slug: aemo-oauth-v1-openapi
-- description: AEMO OIP from AEMO — 1 path(s) described in OpenAPI.
-  name: AEMO OIP
-  slug: aemo-oip-external-v1-openapi
-- description: AEMO Intermittent Generation Availability Submissions from AEMO — 2 path(s) described in OpenAPI.
-  name: AEMO Intermittent Generation Availability Submissions
-  slug: aemo-opsforecasting-intermittentgen-v1-openapi
-- description: AEMO Outage Management from AEMO — 8 path(s) described in OpenAPI.
-  name: AEMO Outage Management
-  slug: aemo-outage-management-external-v1-openapi
-- description: AEMO P2PMessagingSync from AEMO — 1 path(s) described in OpenAPI.
-  name: AEMO P2PMessagingSync
-  slug: aemo-p2pmessaging-sync-v1-openapi
-- description: AEMO Pre-Balancing Reports v6 from AEMO — 70 path(s) described in OpenAPI.
-  name: AEMO Pre-Balancing Reports v6
-  slug: aemo-pre-balancing-reports-v6-openapi
-- description: AEMO Pre-Balancing Reports v7.1 from AEMO — 71 path(s) described in OpenAPI.
-  name: AEMO Pre-Balancing Reports v7.1
-  slug: aemo-pre-balancing-reports-v7-1-openapi
-- description: AEMO Pre-Balancing Reports v7 from AEMO — 71 path(s) described in OpenAPI.
-  name: AEMO Pre-Balancing Reports v7
-  slug: aemo-pre-balancing-reports-v7-openapi
-- description: AEMO Pre-Balancing Reports v8 from AEMO — 73 path(s) described in OpenAPI.
-  name: AEMO Pre-Balancing Reports v8
-  slug: aemo-pre-balancing-reports-v8-openapi
-- description: AEMO Prudentials from AEMO — 10 path(s) described in OpenAPI.
-  name: AEMO Prudentials
-  slug: aemo-prudentials-v1-openapi
-- description: AEMO RCM Operations from AEMO — 47 path(s) described in OpenAPI.
-  name: AEMO RCM Operations
-  slug: aemo-rcm-ops-external-v1-openapi
-- description: AEMO Reallocations from AEMO — 13 path(s) described in OpenAPI.
-  name: AEMO Reallocations
-  slug: aemo-reallocations-v1-openapi
-- description: AEMO Report from AEMO — 22 path(s) described in OpenAPI.
-  name: AEMO Report
-  slug: aemo-report-v1-openapi
-- description: AEMO RTMS from AEMO — 14 path(s) described in OpenAPI.
-  name: AEMO RTMS
-  slug: aemo-rtms-external-v1-openapi
-- description: AEMO SelfForecast from AEMO — 2 path(s) described in OpenAPI.
-  name: AEMO SelfForecast
-  slug: aemo-selfforecast-v1-openapi
-- description: AEMO Settlement Direct from AEMO — 13 path(s) described in OpenAPI.
-  name: AEMO Settlement Direct
-  slug: aemo-settlementdirect-v1-openapi
-- description: AEMO Submission from AEMO — 36 path(s) described in OpenAPI.
-  name: AEMO Submission
-  slug: aemo-submission-v1-openapi
-- description: AEMO System Management Reports v2.1 from AEMO — 9 path(s) described in OpenAPI.
-  name: AEMO System Management Reports v2.1
-  slug: aemo-system-management-reports-v2-1-openapi
-- description: AEMO System Management Reports v2.2 from AEMO — 10 path(s) described in OpenAPI.
-  name: AEMO System Management Reports v2.2
-  slug: aemo-system-management-reports-v2-2-openapi
-- description: AEMO System Management Reports v2.3 from AEMO — 10 path(s) described in OpenAPI.
-  name: AEMO System Management Reports v2.3
-  slug: aemo-system-management-reports-v2-3-openapi
-- description: AEMO System Management Reports v2.4 from AEMO — 10 path(s) described in OpenAPI.
-  name: AEMO System Management Reports v2.4
-  slug: aemo-system-management-reports-v2-4-openapi
-- description: AEMO System Management Reports v2.5 from AEMO — 10 path(s) described in OpenAPI.
-  name: AEMO System Management Reports v2.5
-  slug: aemo-system-management-reports-v2-5-openapi
-- description: AEMO System Management Reports v2.6 from AEMO — 10 path(s) described in OpenAPI.
-  name: AEMO System Management Reports v2.6
-  slug: aemo-system-management-reports-v2-6-openapi
-- description: AEMO System Management Reports v2 from AEMO — 7 path(s) described in OpenAPI.
-  name: AEMO System Management Reports v2
-  slug: aemo-system-management-reports-v2-openapi
-- description: AEMO TLS Certificate Mgmt v1 from AEMO — 8 path(s) described in OpenAPI.
-  name: AEMO TLS Certificate Mgmt v1
-  slug: aemo-tls-certificate-mgmt-v1-openapi
-- description: AEMO VariableParameter from AEMO — 1 path(s) described in OpenAPI.
-  name: AEMO VariableParameter
-  slug: aemo-variableparameter-v1-openapi
-- description: AEMO WEMDE DispatchCase from AEMO — 4 path(s) described in OpenAPI.
-  name: AEMO WEMDE DispatchCase
-  slug: aemo-wemde-dispatchcase-external-v1-openapi
-- description: AEMO WEMDE DispatchCase V2 from AEMO — 3 path(s) described in OpenAPI.
-  name: AEMO WEMDE DispatchCase V2
-  slug: aemo-wemde-dispatchcase-external-v2-openapi
-- description: AEMO WEMDE DispatchInstruction from AEMO — 1 path(s) described in OpenAPI.
-  name: AEMO WEMDE DispatchInstruction
-  slug: aemo-wemde-dispatchinstruction-external-v1-openapi
-- description: AEMO WEMDE DispatchSolution from AEMO — 4 path(s) described in OpenAPI.
-  name: AEMO WEMDE DispatchSolution
-  slug: aemo-wemde-dispatchsolution-external-v1-openapi
-- description: AEMO WEMDE DispatchSolution V2 from AEMO — 3 path(s) described in OpenAPI.
-  name: AEMO WEMDE DispatchSolution V2
-  slug: aemo-wemde-dispatchsolution-external-v2-openapi
-- description: AEMO WEMDE DispatchSummary from AEMO — 4 path(s) described in OpenAPI.
-  name: AEMO WEMDE DispatchSummary
-  slug: aemo-wemde-dispatchsummary-external-v1-openapi
-- description: AEMO WEMDE DSPDispatchInstruction from AEMO — 5 path(s) described in OpenAPI.
-  name: AEMO WEMDE DSPDispatchInstruction
-  slug: aemo-wemde-dspdispatchinstruction-external-v1-openapi
-- description: AEMO WEMDE NCESS from AEMO — 2 path(s) described in OpenAPI.
-  name: AEMO WEMDE NCESS
-  slug: aemo-wemde-ncess-external-v1-openapi
-- description: AEMO WEMDE NotInServiceCapacity from AEMO — 1 path(s) described in OpenAPI.
-  name: AEMO WEMDE NotInServiceCapacity
-  slug: aemo-wemde-notinservicecapacity-external-v1-openapi
-- description: AEMO WEMDE ReferenceTradingPrice from AEMO — 1 path(s) described in OpenAPI.
-  name: AEMO WEMDE ReferenceTradingPrice
-  slug: aemo-wemde-referencetradingprice-external-v1-openapi
-- description: AEMO WEMDE TradingDayReport from AEMO — 1 path(s) described in OpenAPI.
-  name: AEMO WEMDE TradingDayReport
-  slug: aemo-wemde-tradingdayreport-external-v1-openapi
-artifact_total: 160
+- description: Introduction
+  name: AEMO B2 B Messaging Async API
+  slug: aemo-b2bmessagingasync-api
+- description: The B2BMessagingPull API is a B2B SMP API used to send and receive B2B messages between the participants in a Pull messaging pattern. The messages will be queued in the e-Hub and the receiving partici
+  name: AEMO B2 B Messaging Pull API
+  slug: aemo-b2bmessagingpull-api
+- description: Introduction
+  name: AEMO B2 B Messaging Sync API
+  slug: aemo-b2bmessagingsync-api
+- description: Introduction
+  name: AEMO B2 M Messaging Async API
+  slug: aemo-b2mmessagingasync-api
+- description: Introduction
+  name: AEMO B2 M Messaging Pull API
+  slug: aemo-b2mmessagingpull-api
+- description: Introduction
+  name: AEMO B2 M Messaging Sync API
+  slug: aemo-b2mmessagingsync-api
+- description: Balancing Reports v2.1
+  name: AEMO Balancing Reports v2.1 API
+  slug: aemo-balancing-reports-v2-1-api
+- description: Balancing Reports v2.2
+  name: AEMO Balancing Reports v2.2 API
+  slug: aemo-balancing-reports-v2-2-api
+- description: Balancing Reports v2.3
+  name: AEMO Balancing Reports v2.3 API
+  slug: aemo-balancing-reports-v2-3-api
+- description: Balancing Reports v2.4
+  name: AEMO Balancing Reports v2.4 API
+  slug: aemo-balancing-reports-v2-4-api
+- description: Balancing Reports v2.5
+  name: AEMO Balancing Reports v2.5 API
+  slug: aemo-balancing-reports-v2-5-api
+- description: Balancing Reports v2
+  name: AEMO Balancing Reports v2 API
+  slug: aemo-balancing-reports-v2-api
+- description: Balancing Submission v2
+  name: AEMO Balancing Submission v2 API
+  slug: aemo-balancing-submission-v2-api
+- description: Bilateral/Stem Submission v1
+  name: AEMO Bilateral/Stem Submission v1 API
+  slug: aemo-bilateral-stem-submission-v1-api
+- description: Introduction
+  name: AEMO Blind Update API
+  slug: aemo-blindupdate-api
+- description: Capacity
+  name: AEMO Capacity API
+  slug: aemo-capacity-api
+- description: CapacityAuction
+  name: AEMO Capacity Auction API
+  slug: aemo-capacityauction-api
+- description: Introduction
+  name: AEMO CDR API
+  slug: aemo-cdr-api
+- description: CDR Common
+  name: AEMO CDR Common API
+  slug: aemo-cdr-common-api
+- description: Data Holder Customer endpoints
+  name: AEMO Data Holder Customers API
+  slug: aemo-data-holder-customers-api
+- description: Data Holder Operations endpoints
+  name: AEMO Data Holder Operations API
+  slug: aemo-data-holder-operations-api
+- description: Introduction
+  name: AEMO DER Registration For Account Holders API
+  slug: aemo-der-registration-for-account-holders-api
+- description: Introduction
+  name: AEMO DER Registration for NSPs API
+  slug: aemo-der-registration-for-nsps-api
+- description: Distributed Energy Resource endpoints
+  name: AEMO Distributed Energy Resources API
+  slug: aemo-distributed-energy-resources-api
+- description: Introduction
+  name: AEMO EE Simulation Status Update API
+  slug: aemo-ee-simulation-status-update-api
+- description: Electricity Service Point endpoints
+  name: AEMO Electricity Service Points API
+  slug: aemo-electricity-service-points-api
+- description: Electricity Usage endpoints
+  name: AEMO Electricity Usage API
+  slug: aemo-electricity-usage-api
+- description: EnablementInstruction
+  name: AEMO Enablement Instruction API
+  slug: aemo-enablementinstruction-api
+- description: Energy Account Balance endpoints
+  name: AEMO Energy Account Balances API
+  slug: aemo-energy-account-balances-api
+- description: Energy Account Billing endpoints
+  name: AEMO Energy Account Billing API
+  slug: aemo-energy-account-billing-api
+- description: Energy Account endpoints
+  name: AEMO Energy Accounts API
+  slug: aemo-energy-accounts-api
+- description: Energy Plan endpoints
+  name: AEMO Energy Plans API
+  slug: aemo-energy-plans-api
+- description: This API is intended for AEMO's use only, used by AEMO web pages and is not supported for any other use. It can change at any time. See https://dev.aemo.com.au/ for information on using AEMO APIs.
+  name: AEMO GasBB Reporting Public Data API
+  slug: aemo-gasbb-reporting-public-data-api
+- description: The Generator Recall API is used by generators to send information about recall times into the Generator Recall web-based interface in the EMMS Markets Portal. The system will then transfer the inform
+  name: AEMO Generator Recall API
+  slug: aemo-generatorrecall-api
+- description: Introduction
+  name: AEMO Hub Message Management API
+  slug: aemo-hubmessagemanagement-api
+- description: Introduction
+  name: AEMO Hub Message Management V2 API
+  slug: aemo-hubmessagemanagementv2-api
+- description: Introduction
+  name: AEMO Identity Service(v2) API
+  slug: aemo-identityservice-v2-api
+- description: Introduction
+  name: AEMO Intermittent Generation Availability Submissions API
+  slug: aemo-intermittent-generation-availability-submissions-api
+- description: LFAS Reports v2
+  name: AEMO LFAS Reports v2 API
+  slug: aemo-lfas-reports-v2-api
+- description: LFAS Submission v2
+  name: AEMO LFAS Submission v2 API
+  slug: aemo-lfas-submission-v2-api
+- description: Market Reports v2
+  name: AEMO Market Reports v2 API
+  slug: aemo-market-reports-v2-api
+- description: The Meter Exemptions API enables registered Metering Coordinators (MCs) to create and manage metering exemptions within MSATS.
+  name: AEMO Meter Exemption API
+  slug: aemo-meterexemption-api
+- description: Introduction
+  name: AEMO MT PASA Offers API
+  slug: aemo-mt-pasa-offers-api
+- description: Bidding Service Open API specification
+  name: AEMO NEM Dispatch Bidding API
+  slug: aemo-nemdispatchbidding-api
+- description: oauth-v1
+  name: AEMO OAUTH V1 API
+  slug: aemo-oauth-v1-api
+- description: OIP
+  name: AEMO OIP API
+  slug: aemo-oip-api
+- description: Outage Management
+  name: AEMO Outage Management API
+  slug: aemo-outage-management-api
+- description: Introduction
+  name: AEMO P2 P Messaging Sync API
+  slug: aemo-p2pmessagingsync-api
+- description: Pre-Balancing Reports v6
+  name: AEMO Pre-Balancing Reports v6 API
+  slug: aemo-pre-balancing-reports-v6-api
+- description: Pre-Balancing Reports v7.1
+  name: AEMO Pre-Balancing Reports v7.1 API
+  slug: aemo-pre-balancing-reports-v7-1-api
+- description: Pre-Balancing Reports v7
+  name: AEMO Pre-Balancing Reports v7 API
+  slug: aemo-pre-balancing-reports-v7-api
+- description: Pre-Balancing Reports v8
+  name: AEMO Pre-Balancing Reports v8 API
+  slug: aemo-pre-balancing-reports-v8-api
+- description: This API supports the various operations performed on Prudentials dashboard
+  name: AEMO Prudentials API
+  slug: aemo-prudentials-api
+- description: RCM Operations
+  name: AEMO RCM Operations API
+  slug: aemo-rcm-operations-api
+- description: Introduction
+  name: AEMO Reallocations API
+  slug: aemo-reallocations-api
+- description: Report
+  name: AEMO Report API
+  slug: aemo-report-api
+- description: The WEM-Reform API for Real-Time Market submissions available to all Market Participants.
+  name: AEMO RTMS API
+  slug: aemo-rtms-api
+- description: Introduction
+  name: AEMO Self Forecast API
+  slug: aemo-selfforecast-api
+- description: This API supports the various operations performed in Settlement Direct API
+  name: AEMO Settlement Direct API
+  slug: aemo-settlement-direct-api
+- description: Submission
+  name: AEMO Submission API
+  slug: aemo-submission-api
+- description: System Management Reports v2.1
+  name: AEMO System Management Reports v2.1 API
+  slug: aemo-system-management-reports-v2-1-api
+- description: System Management Reports v2.2
+  name: AEMO System Management Reports v2.2 API
+  slug: aemo-system-management-reports-v2-2-api
+- description: System Management Reports v2.3
+  name: AEMO System Management Reports v2.3 API
+  slug: aemo-system-management-reports-v2-3-api
+- description: System Management Reports v2.4
+  name: AEMO System Management Reports v2.4 API
+  slug: aemo-system-management-reports-v2-4-api
+- description: System Management Reports v2.5
+  name: AEMO System Management Reports v2.5 API
+  slug: aemo-system-management-reports-v2-5-api
+- description: System Management Reports v2.6
+  name: AEMO System Management Reports v2.6 API
+  slug: aemo-system-management-reports-v2-6-api
+- description: System Management Reports v2
+  name: AEMO System Management Reports v2 API
+  slug: aemo-system-management-reports-v2-api
+- description: 'The TLS Certificate Management API allows authorised participants to self-manage their AEMO-signed TLS certificates. This API provides the following features:'
+  name: AEMO TLS Certificate Mgmt v1 API
+  slug: aemo-tls-certificate-mgmt-v1-api
+- description: VariableParameter
+  name: AEMO Variable Parameter API
+  slug: aemo-variableparameter-api
+- description: WEM Attributes Report
+  name: AEMO WEM Attributes Report API
+  slug: aemo-wem-attributes-report-api
+- description: Introduction
+  name: AEMO WEM DER Installation V2 API
+  slug: aemo-wem-der-installation-v2-api
+- description: Introduction
+  name: AEMO WEM DER NMI API
+  slug: aemo-wem-der-nmi-api
+- description: WEMDE DispatchCase
+  name: AEMO WEMDE DispatchCase API
+  slug: aemo-wemde-dispatchcase-api
+- description: WEMDE DispatchCase V2
+  name: AEMO WEMDE DispatchCase V2 API
+  slug: aemo-wemde-dispatchcase-v2-api
+- description: WEMDE DispatchInstruction
+  name: AEMO WEMDE DispatchInstruction API
+  slug: aemo-wemde-dispatchinstruction-api
+- description: WEMDE DispatchSolution
+  name: AEMO WEMDE DispatchSolution API
+  slug: aemo-wemde-dispatchsolution-api
+- description: WEMDE DispatchSolution V2
+  name: AEMO WEMDE DispatchSolution V2 API
+  slug: aemo-wemde-dispatchsolution-v2-api
+- description: WEMDE DispatchSummary
+  name: AEMO WEMDE DispatchSummary API
+  slug: aemo-wemde-dispatchsummary-api
+- description: WEMDE DSPDispatchInstruction
+  name: AEMO WEMDE DSPDispatchInstruction API
+  slug: aemo-wemde-dspdispatchinstruction-api
+- description: WEMDE NCESS
+  name: AEMO WEMDE NCESS API
+  slug: aemo-wemde-ncess-api
+- description: WEMDE NotInServiceCapacity
+  name: AEMO WEMDE NotInServiceCapacity API
+  slug: aemo-wemde-notinservicecapacity-api
+- description: WEMDE ReferenceTradingPrice
+  name: AEMO WEMDE ReferenceTradingPrice API
+  slug: aemo-wemde-referencetradingprice-api
+- description: WEMDE TradingDayReport
+  name: AEMO WEMDE TradingDayReport API
+  slug: aemo-wemde-tradingdayreport-api
+artifact_total: 169
 asyncapis:
 - description: ''
   name: Aemo Ehub Events
@@ -499,6 +527,18 @@ collections:
   name: WEMDE TradingDayReport
   slug: open-aemo-wemde-tradingdayreport-external-v1
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/aemo-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aemo-cds-energy-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aemo-cds-common-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -716,13 +756,13 @@ modified: '2026-07-27'
 name: AEMO
 nav: Providers
 network: true
-overview: 'AEMO publishes 74 APIs on the [APIs.io](https://apis.io/) network, including CDR, CDR Common, WEM Attributes Report, and 71 more. Tagged areas include Energy, Australia, Electricity, Gas, and Energy Markets.
+overview: 'AEMO publishes 83 APIs on the [APIs.io](https://apis.io/) network, including B2 B Messaging Async API, B2 B Messaging Pull API, B2 B Messaging Sync API, and 80 more. Tagged areas include Energy, Australia, Electricity, Gas, and Energy Markets.
 
 
   The AEMO catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AEMO''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 45 more developer resources.'
+  AEMO''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 48 more developer resources.'
 random_paper: 19
 rate_limits:
 - limit_count: 0
@@ -735,18 +775,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 60.5
-  delta: -2.4
+  composite: 57.1
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 31.8
-    contract_quality: 56.2
+    contract_governance: 19.7
+    contract_quality: 56.4
     developer_ergonomics: 70.8
-    discoverability: 79.6
-    governance: 31.8
+    discoverability: 59.3
+    governance: 19.7
     operational_transparency: 52.6
-  previous_composite: 62.9
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -763,8 +808,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/screenshots/aemo-2026-08-07T160947.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: oracle-retail-agentic-access
   summary_line: 16 operations · 8 acting
-api_count: 10
+api_count: 2
 apis:
 - description: Oracle Retail Pricing Cloud Service provides REST APIs for regular price management, promotional pricing, competitive pricing, and clearance pricing across retail operations.
   name: Oracle Retail Pricing Cloud Service API
@@ -128,6 +128,10 @@ collections:
   name: Oracle Retail Merchandising Foundation Cloud Service Fulfillment Suppliers API
   slug: open-oracle-retail-suppliers-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/oracle-retail-capability-edges.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -304,7 +308,7 @@ overview: 'Oracle Retail publishes 7 APIs on the [APIs.io](https://apis.io/) net
   The Oracle Retail catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle Retail''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 17 more developer resources.'
+  Oracle Retail''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 18 more developer resources.'
 plans:
 - name: Oracle Retail Plans Pricing
   plan_count: 3
@@ -332,18 +336,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 42.9
-  delta: 1.4
+  composite: 42.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 62.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 9.8
     contract_quality: 59.8
     developer_ergonomics: 47.6
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 41.5
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -351,8 +360,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/screenshots/oracle-retail-2026-06-20T191144.png
 security:

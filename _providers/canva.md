@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 22
   slug: canva-agentic-access
   summary_line: 22 operations · 9 acting
-api_count: 15
+api_count: 1
 apis:
 - description: Build apps that extend Canva's editor with custom functionality, content, and integrations.
   name: Canva Apps SDK
@@ -90,7 +90,52 @@ apis:
 - description: Partner-gated REST API for print order fulfilment. Uniquely bidirectional — Canva acts as the API CLIENT when sending orders to a print partner, and as the API SERVER when the partner sends order stat
   name: Canva Print API
   slug: canva-print-api
-artifact_total: 244
+- description: The analytics API from Canva — 5 operation(s) for analytics.
+  name: Canva Analytics API
+  slug: canva-analytics-api
+- description: The app API from Canva — 1 operation(s) for app.
+  name: Canva App API
+  slug: canva-app-api
+- description: The asset API from Canva — 5 operation(s) for asset.
+  name: Canva Asset API
+  slug: canva-asset-api
+- description: The autofill API from Canva — 2 operation(s) for autofill.
+  name: Canva Autofill API
+  slug: canva-autofill-api
+- description: The brand_template API from Canva — 3 operation(s) for brand_template.
+  name: Canva Brand Template API
+  slug: canva-brand-template-api
+- description: The comment API from Canva — 5 operation(s) for comment.
+  name: Canva Comment API
+  slug: canva-comment-api
+- description: The design API from Canva — 7 operation(s) for design.
+  name: Canva Design API
+  slug: canva-design-api
+- description: The design_import API from Canva — 4 operation(s) for design_import.
+  name: Canva Design Import API
+  slug: canva-design-import-api
+- description: The export API from Canva — 3 operation(s) for export.
+  name: Canva Export API
+  slug: canva-export-api
+- description: The folder API from Canva — 4 operation(s) for folder.
+  name: Canva Folder API
+  slug: canva-folder-api
+- description: The merge API from Canva — 2 operation(s) for merge.
+  name: Canva Merge API
+  slug: canva-merge-api
+- description: The oauth API from Canva — 3 operation(s) for oauth.
+  name: Canva OAUTH API
+  slug: canva-oauth-api
+- description: The oidc API from Canva — 2 operation(s) for oidc.
+  name: Canva Oidc API
+  slug: canva-oidc-api
+- description: The resize API from Canva — 2 operation(s) for resize.
+  name: Canva Resize API
+  slug: canva-resize-api
+- description: The user API from Canva — 3 operation(s) for user.
+  name: Canva User API
+  slug: canva-user-api
+artifact_total: 259
 asyncapis:
 - description: ''
   name: Canva Webhooks
@@ -985,7 +1030,7 @@ modified: '2026-08-13'
 name: Canva
 nav: Providers
 network: true
-overview: 'Canva publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Autofills API, Brand Templates API, and 7 more. Tagged areas include Application, Automation, Brand Management, Collaboration, and Design.
+overview: 'Canva publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Autofills API, Brand Templates API, and 22 more. Tagged areas include Application, Automation, Brand Management, Collaboration, and Design.
 
 
   The Canva catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 2 Spectral governance rulesets.
@@ -1030,18 +1075,23 @@ scopes:
   summary_line: 18 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 69.7
-  delta: 0.7
+  composite: 67.0
+  coverage:
+    artifact_dirs: 33
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 43.9
-    contract_quality: 82.0
+    contract_governance: 31.8
+    contract_quality: 79.2
     developer_ergonomics: 83.3
-    discoverability: 83.3
-    governance: 43.9
+    discoverability: 77.8
+    governance: 31.8
     operational_transparency: 60.5
-  previous_composite: 69.0
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1052,8 +1102,8 @@ score:
       total: 10
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/screenshots/canva-2026-06-20T173931.png
 security:

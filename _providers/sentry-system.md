@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 200
   slug: sentry-system-agentic-access
   summary_line: 200 operations · 90 acting
-api_count: 44
+api_count: 21
 apis:
 - description: Manage alerts (beta)
   name: Sentry Alerts API
@@ -480,6 +480,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/sentry-system-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/sentry-system-alerts-overlay.yaml
 - group: agent
@@ -900,7 +904,7 @@ overview: 'Sentry publishes 44 APIs on the [APIs.io](https://apis.io/) network, 
   The Sentry catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Sentry''s developer surface includes authentication, CLI, changelog, developer portal, documentation, getting-started guide, pricing, and 50 more developer resources.'
+  Sentry''s developer surface includes authentication, CLI, changelog, developer portal, documentation, getting-started guide, pricing, and 51 more developer resources.'
 plans:
 - name: Sentry System Plans Pricing
   plan_count: 4
@@ -928,18 +932,23 @@ scopes:
   summary_line: 26 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.7
-  delta: 2.4
+  composite: 59.3
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 63.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
-    contract_governance: 26.5
+    contract_governance: 14.4
     contract_quality: 69.4
     developer_ergonomics: 73.8
-    discoverability: 85.2
-    governance: 26.5
+    discoverability: 55.6
+    governance: 14.4
     operational_transparency: 57.9
-  previous_composite: 61.3
+  previous_composite: 59.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -949,8 +958,8 @@ score:
       marker_coverage: 0.0
       total: 44
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentry-system/refs/heads/main/screenshots/sentry-system-2026-06-20T193714.png
 security:

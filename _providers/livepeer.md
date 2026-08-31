@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.3
-  scored_at: '2026-08-26'
+  score: 28.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 5
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 64
   slug: livepeer-agentic-access
   summary_line: 64 operations · 37 acting · 5 human-in-the-loop
-api_count: 28
+api_count: 5
 apis:
 - description: Primary REST API for the Livepeer Studio gateway. Resource-oriented JSON endpoints for live streams, on-demand assets, multistream targets, transcoding jobs, sessions, playback, signing keys, webhooks
   name: Livepeer Studio REST API
@@ -128,6 +128,27 @@ apis:
 - description: Operations related to webhook api
   name: Livepeer webhook API
   slug: livepeer-webhook-api
+- description: Ethereum operations and token transfers
+  name: Livepeer Ethereum API
+  slug: livepeer-ethereum-api
+- description: Gateway/broadcaster configuration
+  name: Livepeer Gateway API
+  slug: livepeer-gateway-api
+- description: The Hardware API from Livepeer — 2 operation(s) for hardware.
+  name: Livepeer Hardware API
+  slug: livepeer-hardware-api
+- description: The Health API from Livepeer — 1 operation(s) for health.
+  name: Livepeer Health API
+  slug: livepeer-health-api
+- description: Orchestrator configuration and management
+  name: Livepeer Orchestrator API
+  slug: livepeer-orchestrator-api
+- description: Token bonding and delegation operations
+  name: Livepeer Staking API
+  slug: livepeer-staking-api
+- description: Node status and information
+  name: Livepeer Status API
+  slug: livepeer-status-api
 arazzos:
 - description: Create a clip from a live playback ID, poll the clip task, fetch the asset.
   name: Livepeer Clip a Livestream
@@ -162,7 +183,7 @@ arazzos:
 - description: Request a direct upload URL, then poll the asset and task until ready.
   name: Livepeer Upload and Process an Asset
   slug: livepeer-upload-and-process-asset-workflow
-artifact_total: 126
+artifact_total: 133
 collections:
 - collection_type: postman
   name: Livepeer AI Runner
@@ -544,7 +565,7 @@ modified: '2026-08-08'
 name: Livepeer
 nav: Providers
 network: true
-overview: 'Livepeer publishes 12 APIs on the [APIs.io](https://apis.io/) network, including accessControl API, asset API, generate API, and 9 more. Tagged areas include Video, Streaming, Transcoding, Decentralized, and Web3.
+overview: 'Livepeer publishes 19 APIs on the [APIs.io](https://apis.io/) network, including accessControl API, asset API, generate API, and 16 more. Tagged areas include Video, Streaming, Transcoding, Decentralized, and Web3.
 
 
   The Livepeer catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -594,19 +615,27 @@ rules:
     warn: 6
   slug: livepeer-studio-rules
 score:
-  band: strong
-  composite: 54.6
-  delta: 0.0
+  band: developing
+  composite: 53.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 25.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.4
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 69.7
-    contract_quality: 59.7
+    contract_quality: 58.7
     developer_ergonomics: 40.5
     discoverability: 81.5
     governance: 69.7
     operational_transparency: 44.7
-  previous_composite: 54.6
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     contracts:
@@ -614,8 +643,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/screenshots/livepeer-2026-06-20T184614.png
 security:

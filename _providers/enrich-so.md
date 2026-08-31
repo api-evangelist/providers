@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -43,26 +43,14 @@ agentic_access:
   operation_count: 53
   slug: enrich-so-agentic-access
   summary_line: 53 operations · 23 acting
-api_count: 10
+api_count: 7
 apis:
-- description: Credit balance and transaction history for the organization behind the API key.
-  name: Enrich Account API
-  slug: enrich-so-account-api
-- description: IP-to-company resolution (single and batch) and LinkedIn company-follower scraping with audience count estimation. The company-follower endpoints are restricted to approved accounts.
-  name: Enrich Company Intelligence API
-  slug: enrich-so-company-intelligence-api
 - description: Find a professional email from a first name, last name and company domain, single or in batches of up to 500,000 leads.
   name: Enrich Email Finder API
   slug: enrich-so-email-finder-api
-- description: Validate email addresses for deliverability, single or in batches of up to 500,000 emails.
-  name: Enrich Email Verification API
-  slug: enrich-so-email-verification-api
 - description: Search, count, reveal, enrich, unlock and export leads across people and organizations, with saved searches and asynchronous reveal and export jobs.
   name: Enrich Lead Finder API
   slug: enrich-so-lead-finder-api
-- description: Reverse email lookup returning a person's professional profile, single or in bulk.
-  name: Enrich Person Enrichment API
-  slug: enrich-so-person-enrichment-api
 - description: Find phone and mobile numbers for a person from an email address or profile URL, single or in bulk.
   name: Enrich Phone Finder API
   slug: enrich-so-phone-finder-api
@@ -72,10 +60,46 @@ apis:
 - description: Find employees at a company and run cascading ICP (ideal customer profile) people searches.
   name: Enrich People Search API
   slug: enrich-so-people-search-api
-- description: 'The prior major version of the Enrich API, still live at api.enrich.so and still serving its own Swagger UI at https://api.enrich.so/docs. Two operations: GET /v1/api/auth returns the account/credit c'
-  name: Enrich Labs Legacy API (v1/v2)
-  slug: enrich-so-legacy-api
-artifact_total: 30
+- description: The Authentication API from Enrich — 1 operation(s) for authentication.
+  name: Enrich Authentication API
+  slug: enrich-so-authentication-api
+- description: The Company Followers API from Enrich — 7 operation(s) for company followers.
+  name: Enrich Company Followers API
+  slug: enrich-so-company-followers-api
+- description: The Company Followers/Count Estimation API from Enrich — 2 operation(s) for company followers/count estimation.
+  name: Enrich Company Followers/Count Estimation API
+  slug: enrich-so-company-followers-count-estimation-api
+- description: The Email Validation API from Enrich — 4 operation(s) for email validation.
+  name: Enrich Email Validation API
+  slug: enrich-so-email-validation-api
+- description: The Enrich API from Enrich — 1 operation(s) for enrich.
+  name: Enrich Enrich API
+  slug: enrich-so-enrich-api
+- description: The IP to Company API from Enrich — 4 operation(s) for ip to company.
+  name: Enrich IP to Company API
+  slug: enrich-so-ip-to-company-api
+- description: The Reverse Email Lookup API from Enrich — 4 operation(s) for reverse email lookup.
+  name: Enrich Reverse Email Lookup API
+  slug: enrich-so-reverse-email-lookup-api
+- description: The Wallets API from Enrich — 2 operation(s) for wallets.
+  name: Enrich Wallets API
+  slug: enrich-so-wallets-api
+- description: Credit balance and transaction history.
+  name: Enrich Account API
+  slug: enrich-so-account-api
+- description: IP-to-company resolution and LinkedIn company-follower scraping.
+  name: Enrich Company Intelligence API
+  slug: enrich-so-company-intelligence-api
+- description: Validate email addresses for deliverability.
+  name: Enrich Email Verification API
+  slug: enrich-so-email-verification-api
+- description: Reverse email lookup returning a person's professional profile.
+  name: Enrich Person Enrichment API
+  slug: enrich-so-person-enrichment-api
+- description: The Webhooks API from Enrich — 0 operation(s) for webhooks.
+  name: Enrich Webhooks API
+  slug: enrich-so-webhooks-api
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Enrich So Webhooks
@@ -115,6 +139,22 @@ collections:
   name: Enrich API
   slug: open-enrich-so
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/enrich-so-account-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/enrich-so-company-intelligence-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/enrich-so-email-verification-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/enrich-so-person-enrichment-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -280,13 +320,13 @@ modified: '2026-08-14'
 name: Enrich
 nav: Providers
 network: true
-overview: 'Enrich publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account API, Company Intelligence API, Email Finder API, and 7 more. Tagged areas include Data Enrichment, Contact Discovery, Web Intelligence, B2B Data, and Lead Enrichment.
+overview: 'Enrich publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Email Finder API, Lead Finder API, Phone Finder API, and 15 more. Tagged areas include Data Enrichment, Contact Discovery, Web Intelligence, B2B Data, and Lead Enrichment.
 
 
   The Enrich catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Enrich''s developer surface includes authentication, documentation, engineering blog, changelog, API reference, getting-started guide, pricing, and 30 more developer resources.'
+  Enrich''s developer surface includes authentication, documentation, engineering blog, changelog, API reference, getting-started guide, pricing, and 34 more developer resources.'
 plans:
 - name: Enrich So Plans Pricing
   plan_count: 5
@@ -302,19 +342,24 @@ scopes:
   slug: enrich-so-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 66.9
+  band: strong
+  composite: 64.8
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 30.3
-    contract_quality: 70.2
+    contract_governance: 18.2
+    contract_quality: 67.5
     developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 66.9
+  previous_composite: 64.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -325,8 +370,8 @@ score:
       total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enrich-so/refs/heads/main/screenshots/enrich-so-2026-07-25T213424.png
 security:

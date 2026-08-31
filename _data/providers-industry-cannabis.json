@@ -1,6 +1,6 @@
 {
- "total": 24,
- "shown": 24,
+ "total": 25,
+ "shown": 25,
  "limit": 1000,
  "bands": [
   {
@@ -16,21 +16,21 @@
      "slug": "leaflink",
      "description": "LeafLink is the wholesale cannabis marketplace and B2B commerce platform connecting licensed cannabis brands, distributors and retailers across roughly 30 US markets. The platform bundles a wholesale marketplace, order management, payments and net terms (LeafLink Financial), logistics and transportation, inventory management, seed-to-sale traceability integration, compliance and licensing, advertising and market insights into one system of record for regulated cannabis wholesale. LeafLink publishes a public REST API at api.leaflink.com — the current dated version 2022-10-31, authenticated with JWT bearer tokens, spanning 182 paths and 269 operations across products, orders, customers, inventory, payments, logistics, traceability, compliance, taxes and messaging — alongside a legacy Marketplace V2 API at app.leaflink.com/api/v2 with 66 paths and 111 operations. Both are documented with OpenAPI on the LeafLink Developer Hub, and the platform supports HMAC-signed webhooks for order and product events.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/leaflink/refs/heads/main/screenshots/leaflink-2026-08-07T171512.png",
-     "score": 58.5,
+     "score": 55.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 62.0,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "discoverability": 51.9,
+      "contract_quality": 65.0,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 57.9,
       "developer_ergonomics": 66.1,
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -71,28 +71,28 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "Nabis",
      "slug": "nabis",
      "description": "Nabis is a licensed cannabis wholesale distributor and B2B marketplace founded in 2018 by Vince C. Ning and Jun S. Lee, operating in California, New York and Nevada. It runs distribution and fulfillment warehouses, an ordering marketplace connecting 400+ cannabis brands to licensed retailers, an analytics layer, and Nabis Capital, an invoice-based financing product, plus Nabis BillPay and Nabis Tracker for retailers. The company reports that 99% of retailers in the three states it serves receive product through Nabis and that it fulfills 3,500+ wholesale orders a week. For developers it publishes the Nabis Platform API — a read-only, API-key-authenticated JSON REST API for brands and retailers covering inventory, inventory history, orders, invoices, retailers, warehouses and the Nabis delivery calendar, with separate California and New York route trees, and an implementation of the Universal Cannabis API labeling standard for order manifests and QR-code regulator events.",
-     "score": 50.5,
+     "score": 49.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 45.8,
-      "governance": 30.3,
-      "contract_governance": 30.3,
+      "discoverability": 74.1,
+      "contract_quality": 49.4,
+      "governance": 18.2,
+      "contract_governance": 18.2,
       "operational_transparency": 63.2,
       "developer_ergonomics": 63.7,
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 28.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -119,24 +119,75 @@
      "rank": 2
     },
     {
-     "name": "Green Check Verified",
-     "slug": "green-check-verified",
-     "description": "Green Check Verified (Green Check) is a New Haven, Connecticut specialty-banking compliance platform founded in 2017 that sits between financial institutions and the cannabis and other cash-intensive businesses they serve. Banks and credit unions use it to onboard cannabis-related businesses (CRBs), collect and review due-diligence documentation, validate that deposits trace to legally licensed sales, monitor licenses and negative news, and produce the BSA/AML oversight reporting examiners require. Its public developer product, Green Check Access, is a REST API suite that normalizes compliance, company and transactional data across more than twenty point-of-sale and seed-to-sale systems — Dutchie, Treez, Flowhub, Biotrack, Metrc, Cova, Canix, Greenbits and others — so service providers such as payroll companies, CRMs, lenders and fintechs can programmatically create and onboard CRBs and read their sales, products, inventory, customer and document data through one contract instead of one integration per POS.",
-     "score": 47.5,
+     "name": "Treez",
+     "slug": "treez",
+     "description": "Treez is an enterprise cloud commerce platform for US cannabis retail, providing dispensary point-of-sale, retail analytics, cashless payments, ecommerce and loyalty to high-volume operators across the largest legal state markets. Its public API surface is a partner-gated REST programme documented at code.treez.io and split into two families: per-dispensary Dispensary APIs at api-prod.treez.io/dispensary/v3 covering customers, tickets/orders, inventory packages, lab results, invoices, distributors and METRC state track-and-trace package sync; and organization-level Service APIs at api-prod.treez.io/service covering the central product catalog, collections, discounts, tags and JWT validation. A legacy SellTreez v2.0 Product API remains published at api.treez.io. Treez serves an RFC 9727 API Catalog naming all seven of its OpenAPI definitions, an llms.txt documentation index, and a live anonymous MCP endpoint over those definitions. Authentication is a self-signed RSA JWT with a 30-second TTL; access requires a partner application, an MNDA and API Usage Agreement, sandbox development and certification before a mutual customer can request a production key.",
+     "score": 46.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 52.5,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "discoverability": 92.6,
+      "contract_quality": 44.8,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 57.1,
+      "commercial_clarity": 52.6,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 46.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 35.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 3
+    },
+    {
+     "name": "Green Check Verified",
+     "slug": "green-check-verified",
+     "description": "Green Check Verified (Green Check) is a New Haven, Connecticut specialty-banking compliance platform founded in 2017 that sits between financial institutions and the cannabis and other cash-intensive businesses they serve. Banks and credit unions use it to onboard cannabis-related businesses (CRBs), collect and review due-diligence documentation, validate that deposits trace to legally licensed sales, monitor licenses and negative news, and produce the BSA/AML oversight reporting examiners require. Its public developer product, Green Check Access, is a REST API suite that normalizes compliance, company and transactional data across more than twenty point-of-sale and seed-to-sale systems — Dutchie, Treez, Flowhub, Biotrack, Metrc, Cova, Canix, Greenbits and others — so service providers such as payroll companies, CRMs, lenders and fintechs can programmatically create and onboard CRBs and read their sales, products, inventory, customer and document data through one contract instead of one integration per POS.",
+     "score": 45.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 52.9,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 2.6,
       "developer_ergonomics": 66.1,
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -167,28 +218,28 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "Confident Cannabis",
      "slug": "confident-cannabis",
      "description": "Confident Cannabis (CC Software LLC, operating as Confident LIMS) is a cloud-based Laboratory Information Management System for analytical testing labs and their clients across cannabis and hemp, food and beverage, environmental, agriculture, nutraceuticals, cosmetics, oil and gas, and industrial chemical testing. Its public v0 REST API lets labs manage samples, orders, and the order-status lifecycle, submit per-compound test results, and upload Certificates of Analysis, while testing clients read their labs, orders, samples, and results. Authentication is API-key based with optional HMAC-SHA256 request signing. Founded 2015 and backed by Bullpen Capital, the platform serves 100+ labs and 15,000+ active testing clients.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/screenshots/confident-cannabis-2026-07-25T210247.png",
-     "score": 45.8,
+     "score": 44.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 59.3,
-      "governance": 30.3,
-      "contract_governance": 30.3,
+      "governance": 18.2,
+      "contract_governance": 18.2,
       "operational_transparency": 2.6,
       "developer_ergonomics": 33.9,
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -219,28 +270,28 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Canix",
      "slug": "canix",
      "description": "Canix is a cannabis enterprise resource planning (ERP) and seed-to-sale platform used by licensed cultivators, manufacturers and distributors to run cultivation, processing, inventory, sales and compliance operations. The product covers plant and plant-batch tracking, harvests, packages, bills of materials, manufacturing batches and runs, purchase orders, sales orders, customers, vendors, standard costing and business intelligence reporting, with deep Metrc and BioTrack track-and-trace synchronization plus RFID and scale hardware support. Canix publishes a public OpenAPI 3.0.3 contract for its REST API at api.canix.com, and in July 2026 launched a hosted Model Context Protocol (MCP) server that lets AI assistants query Canix sales and inventory data in natural language.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/screenshots/canix-2026-08-17T080801.png",
-     "score": 43.8,
+     "score": 40.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 85.2,
+      "discoverability": 68.5,
       "contract_quality": 60.0,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 15.8,
       "developer_ergonomics": 47.0,
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 48.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -264,7 +315,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     }
    ],
    "open": true
@@ -282,11 +333,11 @@
      "slug": "leafly",
      "description": "Leafly is a cannabis discovery marketplace where consumers research strains, read reviews, and browse and order from licensed dispensaries and brands. For retailers and point-of-sale (POS) providers, Leafly exposes a documented Menu Integration API that keeps a dispensary's Leafly menu in near-real-time sync with its system of record - pushing product/item data, variants, inventory, pricing, strain, and cannabinoid information - and a partner-gated Order (Reservations) API that lets a POS system receive and manage online orders placed on Leafly. The Menu Integration API is publicly documented (OpenAPI via ReDoc) across V1, V1.1, and V2; the Order API's full specification sits behind Cloudflare Access and is available to onboarded partners. Actual use requires a paid Leafly for Retailers subscription and a Leafly-issued menu integration key - there is no self-serve public signup or consumer-facing data API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/screenshots/leafly-2026-07-25T224732.png",
-     "score": 39.2,
+     "score": 38.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
+      "discoverability": 68.5,
       "contract_quality": 50.3,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -295,8 +346,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -320,29 +371,29 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Happy Cabbage Analytics",
      "slug": "happy-cabbage-analytics",
      "description": "Happy Cabbage Analytics is a cannabis retail software company founded in 2019 and headquartered in San Francisco, California, whose Happy Buyers platform gives dispensary buyers AI-assisted inventory management, demand forecasting, replenishment and purchase-order workflows on top of data pulled from their point-of-sale system. The platform reads live sell-through from POS integrations (Dutchie, Flowhub, Blaze, Treez, Meadow) and wholesale menus (Distru, Apex Trading), then scores inventory health by store, category and brand, predicts days-on-hand, groups SKUs into product lines, and drafts vendor orders with invoices attached. Happy Cabbage sold its Happy Marketers text-marketing suite to Alpine IQ in June 2025 and now focuses on Happy Buyers. A public Happy Buyers External API entered beta in June 2026 and is documented with a Swagger UI, exposing organization metadata, inventory health, product/product-line inventory, packages, daily sales metadata and full order management to API-key holders — the same API the company's own published AI-agent workflows are built on.",
-     "score": 38.7,
+     "score": 35.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 79.6,
-      "contract_quality": 56.3,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "discoverability": 68.5,
+      "contract_quality": 55.2,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 18.4,
       "developer_ergonomics": 37.5,
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 27.2,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 29.7,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
@@ -351,7 +402,7 @@
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
-      "openapi_examples": "partial",
+      "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": "derived",
@@ -364,28 +415,28 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Distru",
      "slug": "distru",
      "description": "Distru is a cannabis-industry ERP and seed-to-sale platform that serves as the central operating hub for cultivators, processors and manufacturers, distributors, retailers and multi-state operators. It unifies inventory management with live Metrc and BioTrack compliance synchronization, order fulfillment, wholesale sales (DistruCommerce), invoicing, procurement and purchasing, warehouse management, production and assemblies with bills of materials and cost accounting, cultivation management, label printing, and certificate-of-analysis and test-result tracking. Distru also exposes a public REST API so operators can build custom integrations against products, inventory, orders, invoices, purchases, companies, contacts, batches, packages, strains, test results and more. The API uses Bearer API-key authentication generated inside the Distru app and returns JSON with cursor- style page[number]/page[size] pagination.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/screenshots/distru-2026-07-25T212123.png",
-     "score": 34.1,
+     "score": 32.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 81.5,
+      "discoverability": 75.9,
       "contract_quality": 12.9,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 15.8,
       "developer_ergonomics": 58.9,
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -409,17 +460,17 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Otreeba",
      "slug": "otreeba",
      "description": "Open Cannabis Data for Your Technology. Otreeba comes from the word \"abierto\" which means \"open.\" Otreeba offers standardized cannabis data and normalization for cannabis seed companies, strains, brands, products, batches, retailers, and studies through a REST API.",
-     "score": 29.4,
+     "score": 28.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 64.8,
+      "discoverability": 59.3,
       "contract_quality": 55.9,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -428,8 +479,8 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 20.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -453,7 +504,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
     }
    ]
   },
@@ -482,8 +533,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -514,7 +565,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Weedmaps",
@@ -533,8 +584,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -558,51 +609,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
-    },
-    {
-     "name": "Binske",
-     "slug": "binske",
-     "description": "binske is a Colorado-born premium cannabis brand founded in 2015, producing flower and pre-rolls, live resin and live hash rosin concentrates, vape carts and all-in-ones, and edibles including chocolate bars and fruit gummies, sold through licensed dispensaries as a multi-state brand across Colorado, Florida, Michigan, New Jersey, New York and Washington. The company develops proprietary genetics with ONI Seed Co. and built its chocolate line around rare white cacao sourced in Peru, with packaging art by UK artist Martin O'Neill. binske operates no developer program and publishes no API of its own; its only machine-callable surface is the Shopify-native Universal Commerce Protocol MCP endpoint served from its direct-to-consumer storefront at shopbinske.com, which exposes catalog search, cart and checkout to agents and requires explicit human approval before payment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/screenshots/binske-2026-08-07T162438.png",
-     "score": 21.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 22.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": "documented",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": "platform"
-     },
      "rank": 12
     },
     {
@@ -622,8 +628,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -650,6 +656,51 @@
      "rank": 13
     },
     {
+     "name": "Binske",
+     "slug": "binske",
+     "description": "binske is a Colorado-born premium cannabis brand founded in 2015, producing flower and pre-rolls, live resin and live hash rosin concentrates, vape carts and all-in-ones, and edibles including chocolate bars and fruit gummies, sold through licensed dispensaries as a multi-state brand across Colorado, Florida, Michigan, New Jersey, New York and Washington. The company develops proprietary genetics with ONI Seed Co. and built its chocolate line around rare white cacao sourced in Peru, with packaging art by UK artist Martin O'Neill. binske operates no developer program and publishes no API of its own; its only machine-callable surface is the Shopify-native Universal Commerce Protocol MCP endpoint served from its direct-to-consumer storefront at shopbinske.com, which exposes catalog search, cart and checkout to agents and requires explicit human approval before payment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/screenshots/binske-2026-08-07T162438.png",
+     "score": 20.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 22.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": "platform"
+     },
+     "rank": 14
+    },
+    {
      "name": "Herb",
      "slug": "herb",
      "description": "Herb (herb.co) is a leading digital media and e-commerce platform dedicated to cannabis culture, education, and lifestyle. It publishes cannabis news, strain databases, product reviews, dispensary and brand guides, deals, recipes, and city-level legalization guides, and operates the \"Herb Agency\" offering branding and marketing services to cannabis companies. The consumer site is built on Gatsby (React) with a GraphQL data layer, Algolia search, and a Firebase/serverless backend hosted on Netlify. Herb is backed by Bullpen Capital and was added to the API Evangelist network from that portfolio; the company exposes no public developer API program at this time, so this profile captures its published web, content, and discovery surface (llms.txt, domain security posture, and identity/link properties) rather than API artifacts.",
@@ -667,8 +718,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -699,7 +750,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     }
    ]
   },
@@ -728,8 +779,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -760,7 +811,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Jane (iHeartJane)",
@@ -780,53 +831,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 16
-    },
-    {
-     "name": "Green Thumb Industries",
-     "slug": "green-thumb-industries",
-     "description": "A leading U.S. cannabis consumer packaged goods company operating a nationwide portfolio of retail dispensaries under the RISE brand and a collection of cannabis brands. Operates manufacturing facilities and retail locations across multiple states.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/green-thumb-industries/refs/heads/main/screenshots/green-thumb-industries-2026-06-20T182354.png",
-     "score": 7.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 35.2,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -853,24 +859,25 @@
      "rank": 17
     },
     {
-     "name": "Central Coast Agriculture",
-     "slug": "central-coast-agriculture",
-     "description": "Central Coast Agriculture, Inc. (CCA) is a vertically integrated California cannabis cultivator and manufacturer headquartered in the Santa Ynez Valley north of Santa Barbara, best known for its Raw Garden brand of fresh-frozen concentrates, vapes and infused pre-rolls. The company describes itself as a progressive farm focused on utilizing science and sustainability to grow quality, modern crops, and operates its own farming, genetics/breeding and extraction programs. It is a physical agricultural and consumer-packaged-goods business: it publishes a corporate site, a consumer brand site and a wholesale ordering page, but no public API, developer portal, SDK or machine-readable specification of any kind.",
-     "score": 7.1,
+     "name": "Green Thumb Industries",
+     "slug": "green-thumb-industries",
+     "description": "A leading U.S. cannabis consumer packaged goods company operating a nationwide portfolio of retail dispensaries under the RISE brand and a collection of cannabis brands. Operates manufacturing facilities and retail locations across multiple states.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/green-thumb-industries/refs/heads/main/screenshots/green-thumb-industries-2026-06-20T182354.png",
+     "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 35.2,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -897,6 +904,50 @@
      "rank": 18
     },
     {
+     "name": "Central Coast Agriculture",
+     "slug": "central-coast-agriculture",
+     "description": "Central Coast Agriculture, Inc. (CCA) is a vertically integrated California cannabis cultivator and manufacturer headquartered in the Santa Ynez Valley north of Santa Barbara, best known for its Raw Garden brand of fresh-frozen concentrates, vapes and infused pre-rolls. The company describes itself as a progressive farm focused on utilizing science and sustainability to grow quality, modern crops, and operates its own farming, genetics/breeding and extraction programs. It is a physical agricultural and consumer-packaged-goods business: it publishes a corporate site, a consumer brand site and a wholesale ordering page, but no public API, developer portal, SDK or machine-readable specification of any kind.",
+     "score": 7.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 19
+    },
+    {
      "name": "Curaleaf Holdings",
      "slug": "curaleaf",
      "description": "The largest cannabis company in the world by revenue operating cultivation, processing, and retail dispensary operations. Operates in multiple U.S. states and international markets producing cannabis flower, pre-rolls, edibles, and vape products under leading brands.",
@@ -914,8 +965,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -946,7 +997,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Baker Technologies",
@@ -966,53 +1017,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 20
-    },
-    {
-     "name": "Eaze",
-     "slug": "eaze",
-     "description": "Eaze is a California-based cannabis marketplace and delivery platform that connects licensed dispensaries and cannabis brands with adult consumers, offering online ordering and same-day delivery of flower, edibles, vapes, and related products across the state. Founded in 2014 and headquartered in San Francisco, Eaze operates a consumer marketplace plus a technology and logistics stack for compliant retail. Backed by 500 Global and DCM Ventures, it was added to the API Evangelist network as a venture-portfolio lead. Eaze does not publish a public developer API, SDKs, or a developer portal; its api.eaze.com host is an internal, bot-protected surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eaze/refs/heads/main/screenshots/eaze-2026-07-25T212725.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1039,11 +1045,11 @@
      "rank": 21
     },
     {
-     "name": "Duane Morris",
-     "slug": "duane-morris",
-     "description": "Duane Morris LLP is a Philadelphia-headquartered, full-service U.S. and international law firm founded in 1904 by Russell Duane, Steven Heckscher, and Roland S. Morris. Chaired by Matthew A. Taylor, the firm describes itself as \"a law firm with more than 900 attorneys in offices across the United States and internationally\" — with a U.S. footprint spanning the East Coast, Texas, the Mountain West, and California, plus international offices in London, Singapore, Vietnam (Hanoi, Ho Chi Minh City), Shanghai, Myanmar, and joint ventures/alliances reaching Mexico and Latin America. An Am Law 100 firm since 2001, Duane Morris is known for depth in intellectual property (including patent prosecution and PTAB practice), trial and appellate litigation, real estate, corporate transactions, employment, healthcare, cannabis, and life sciences. The firm publishes an extensive LexBlog-powered thought-leadership network of more than 50 practice-area blogs, all of which expose RSS 2.0 feeds via the standard WordPress /feed/ convention. Duane Morris does not expose any public developer API, SDK, OpenAPI/AsyncAPI spec, GraphQL endpoint, webhooks, status page, or developer portal; the GitHub organization github.com/duanemorris exists but has no public repositories. The firm's only machine-readable surfaces are the RSS feeds of its blog network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/duane-morris/refs/heads/main/screenshots/duane-morris-2026-06-20T180307.png",
-     "score": 4.5,
+     "name": "Eaze",
+     "slug": "eaze",
+     "description": "Eaze is a California-based cannabis marketplace and delivery platform that connects licensed dispensaries and cannabis brands with adult consumers, offering online ordering and same-day delivery of flower, edibles, vapes, and related products across the state. Founded in 2014 and headquartered in San Francisco, Eaze operates a consumer marketplace plus a technology and logistics stack for compliant retail. Backed by 500 Global and DCM Ventures, it was added to the API Evangelist network as a venture-portfolio lead. Eaze does not publish a public developer API, SDKs, or a developer portal; its api.eaze.com host is an internal, bot-protected surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eaze/refs/heads/main/screenshots/eaze-2026-07-25T212725.png",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1051,20 +1057,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.4,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.5,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1091,55 +1090,11 @@
      "rank": 22
     },
     {
-     "name": "Tilray Brands",
-     "slug": "tilray-brands",
-     "description": "A global lifestyle and consumer packaged goods company operating across cannabis, beverage alcohol, and wellness segments. One of the largest cannabis companies worldwide with cultivation, processing, and distribution operations spanning North America, Europe, and beyond.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tilray-brands/refs/heads/main/screenshots/tilray-brands-2026-06-20T195356.png",
-     "score": 4.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 23
-    },
-    {
-     "name": "Hound Labs",
-     "slug": "hound-labs",
-     "description": "Hound Labs was a breath-measurement company founded in 2014 in the San Francisco Bay Area that built the HOUND CANNABIS BREATHALYZER, an ultra-sensitive analytical test that identifies THC molecules in breath down to picogram levels and so narrows cannabis detection to a two-to-three hour recent-use window rather than the days-to-weeks window of urine testing. The company shipped its first commercial product, the HOUND CANNABIS BREATHALYZER Collect + Send, in 2023 into construction, energy, gaming, manufacturing and transportation employers, pairing the handheld device with the Hound Labs Retriever results portal for paperless chain-of-custody and result delivery. The business now trades as Hound Diagnostics, whose about page states it is \"formerly known as Hound Labs\" and which sells Hound Breathalyzer, Hound Screens (a customizable panel covering cannabis plus up to nineteen substances), Hound Chart (a HIPAA-compliant cloud results platform) and Hound Check background screening. The original houndlabs.com host has been decommissioned and now answers a Flywheel \"Unknown Domain\" 404 behind a TLS certificate that does not cover the name; neither the retired domain nor the live successor site publishes a developer program, API reference, SDK, or machine-readable contract of any kind, so the products are sold and delivered as devices plus a customer-facing web dashboard rather than as a programmable surface.",
-     "score": 4.3,
+     "name": "Duane Morris",
+     "slug": "duane-morris",
+     "description": "Duane Morris LLP is a Philadelphia-headquartered, full-service U.S. and international law firm founded in 1904 by Russell Duane, Steven Heckscher, and Roland S. Morris. Chaired by Matthew A. Taylor, the firm describes itself as \"a law firm with more than 900 attorneys in offices across the United States and internationally\" — with a U.S. footprint spanning the East Coast, Texas, the Mountain West, and California, plus international offices in London, Singapore, Vietnam (Hanoi, Ho Chi Minh City), Shanghai, Myanmar, and joint ventures/alliances reaching Mexico and Latin America. An Am Law 100 firm since 2001, Duane Morris is known for depth in intellectual property (including patent prosecution and PTAB practice), trial and appellate litigation, real estate, corporate transactions, employment, healthcare, cannabis, and life sciences. The firm publishes an extensive LexBlog-powered thought-leadership network of more than 50 practice-area blogs, all of which expose RSS 2.0 feeds via the standard WordPress /feed/ convention. Duane Morris does not expose any public developer API, SDK, OpenAPI/AsyncAPI spec, GraphQL endpoint, webhooks, status page, or developer portal; the GitHub organization github.com/duanemorris exists but has no public repositories. The firm's only machine-readable surfaces are the RSS feeds of its blog network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/duane-morris/refs/heads/main/screenshots/duane-morris-2026-06-20T180307.png",
+     "score": 4.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1147,13 +1102,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1184,7 +1139,103 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 23
+    },
+    {
+     "name": "Tilray Brands",
+     "slug": "tilray-brands",
+     "description": "A global lifestyle and consumer packaged goods company operating across cannabis, beverage alcohol, and wellness segments. One of the largest cannabis companies worldwide with cultivation, processing, and distribution operations spanning North America, Europe, and beyond.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tilray-brands/refs/heads/main/screenshots/tilray-brands-2026-06-20T195356.png",
+     "score": 4.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 24
+    },
+    {
+     "name": "Hound Labs",
+     "slug": "hound-labs",
+     "description": "Hound Labs was a breath-measurement company founded in 2014 in the San Francisco Bay Area that built the HOUND CANNABIS BREATHALYZER, an ultra-sensitive analytical test that identifies THC molecules in breath down to picogram levels and so narrows cannabis detection to a two-to-three hour recent-use window rather than the days-to-weeks window of urine testing. The company shipped its first commercial product, the HOUND CANNABIS BREATHALYZER Collect + Send, in 2023 into construction, energy, gaming, manufacturing and transportation employers, pairing the handheld device with the Hound Labs Retriever results portal for paperless chain-of-custody and result delivery. The business now trades as Hound Diagnostics, whose about page states it is \"formerly known as Hound Labs\" and which sells Hound Breathalyzer, Hound Screens (a customizable panel covering cannabis plus up to nineteen substances), Hound Chart (a HIPAA-compliant cloud results platform) and Hound Check background screening. The original houndlabs.com host has been decommissioned and now answers a Flywheel \"Unknown Domain\" 404 behind a TLS certificate that does not cover the name; neither the retired domain nor the live successor site publishes a developer program, API reference, SDK, or machine-readable contract of any kind, so the products are sold and delivered as devices plus a customer-facing web dashboard rather than as a programmable surface.",
+     "score": 4.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 25
     }
    ]
   }

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -45,10 +45,52 @@ agentic_access:
   summary_line: 58 operations · 35 acting
 api_count: 1
 apis:
-- description: 'The EventX Public API is a REST interface over the EventX event management platform, published as an OpenAPI 3.2.0 document with 46 paths and 58 operations across Auth, Event, Attendee, Custom Field, '
+- description: The Attendee API from EventX — 9 operation(s) for attendee.
+  name: EventX Attendee API
+  slug: eventxtra-attendee-api
+- description: The Auth API from EventX — 1 operation(s) for auth.
+  name: EventX Auth API
+  slug: eventxtra-auth-api
+- description: The Custom Field API from EventX — 2 operation(s) for custom field.
+  name: EventX Custom Field API
+  slug: eventxtra-custom-field-api
+- description: The Event API from EventX — 4 operation(s) for event.
+  name: EventX Event API
+  slug: eventxtra-event-api
+- description: The Event Webhook API from EventX — 3 operation(s) for event webhook.
+  name: EventX Event Webhook API
+  slug: eventxtra-event-webhook-api
+- description: The Invoice API from EventX — 2 operation(s) for invoice.
+  name: EventX Invoice API
+  slug: eventxtra-invoice-api
+- description: The Media API from EventX — 3 operation(s) for media.
+  name: EventX Media API
+  slug: eventxtra-media-api
+- description: The Order API from EventX — 2 operation(s) for order.
+  name: EventX Order API
+  slug: eventxtra-order-api
+- description: The Outreach API from EventX — 6 operation(s) for outreach.
+  name: EventX Outreach API
+  slug: eventxtra-outreach-api
+- description: The Public Api API from EventX — 5 operation(s) for public api.
   name: EventX Public API
-  slug: eventx-public-api
-artifact_total: 9
+  slug: eventxtra-public-api-api
+- description: The Registration Form API from EventX — 1 operation(s) for registration form.
+  name: EventX Registration Form API
+  slug: eventxtra-registration-form-api
+- description: The Registration Order API from EventX — 3 operation(s) for registration order.
+  name: EventX Registration Order API
+  slug: eventxtra-registration-order-api
+- description: The Registration Service API from EventX — 2 operation(s) for registration service.
+  name: EventX Registration Service API
+  slug: eventxtra-registration-service-api
+- description: The Salesforce API from EventX — 1 operation(s) for salesforce.
+  name: EventX Salesforce API
+  slug: eventxtra-salesforce-api
+- description: The Ticket Class API from EventX — 3 operation(s) for ticket class.
+  name: EventX Ticket Class API
+  slug: eventxtra-ticket-class-api
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Eventxtra Webhooks
@@ -207,7 +249,7 @@ modified: '2026-08-13'
 name: EventX
 nav: Providers
 network: true
-overview: 'EventX publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Event Management, Event Registration, Ticketing, and Check-in.
+overview: 'EventX publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Attendee API, Auth API, Custom Field API, and 12 more. Tagged areas include Company, Event Management, Event Registration, Ticketing, and Check-in.
 
 
   The EventX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -224,26 +266,31 @@ rate_limits:
   name: Eventxtra Rate Limits
   slug: eventxtra-rate-limits
 score:
-  band: strong
-  composite: 54.5
-  delta: 0.0
+  band: developing
+  composite: 53.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 30.3
-    contract_quality: 53.8
+    contract_governance: 18.2
+    contract_quality: 56.2
     developer_ergonomics: 32.7
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 54.5
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventxtra/refs/heads/main/screenshots/eventxtra-2026-07-25T213718.png
 security:

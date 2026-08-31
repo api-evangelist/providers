@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
-api_count: 69
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: An action is a specific follow-up measure that is associated with an identified issue. You can add actions and assign action owners. You can also set up reminders for yourself to retest issues or trac
   name: Wegalvanize Actions API
@@ -458,6 +458,14 @@ collections:
 common:
 - group: other
   title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/diligent-boards/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/wegalvanize-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/wegalvanize-highbond-overlay.yaml
 - group: auth
@@ -571,7 +579,7 @@ network: true
 overview: 'Wegalvanize publishes 69 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Activities API, Analyses API, and 66 more. Tagged areas include Company, Governance, Risk, Compliance, and Audit.
 
 
-  Wegalvanize''s developer surface includes documentation, API reference, getting-started guide, authentication, support, and 20 more developer resources.'
+  Wegalvanize''s developer surface includes documentation, API reference, getting-started guide, authentication, support, and 22 more developer resources.'
 random_paper: 5
 scopes:
 - name: Wegalvanize Scopes
@@ -580,18 +588,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials/implicit/refreshToken/tokenExchange
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 42.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 52.5
     developer_ergonomics: 56.5
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 63.0
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 45.5
+  previous_composite: 42.9
   provenance:
     conformance: derived
     contracts:
@@ -601,8 +614,8 @@ score:
       total: 69
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wegalvanize/refs/heads/main/screenshots/wegalvanize-2026-08-17T082923.png
 security:

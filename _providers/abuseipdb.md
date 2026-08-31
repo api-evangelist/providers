@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: abuseipdb-agentic-access
   summary_line: 7 operations · 3 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Endpoints for downloading the community blacklist.
   name: AbuseIPDB Blacklist API
@@ -342,7 +342,7 @@ modified: '2026-05-30'
 name: AbuseIPDB
 nav: Providers
 network: true
-overview: 'AbuseIPDB publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Blacklist API, Management API, Reports API, and 1 more. Tagged areas include Anti Malware, Blacklist, Cybersecurity, IP Reputation, and Network Security.
+overview: 'AbuseIPDB publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Blacklist API, Management API, Reports API, and 1 more. Tagged areas include Anti Malware, Blacklist, Cyber Security, IP Reputation, and Network Security.
 
 
   The AbuseIPDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -382,18 +382,23 @@ rules:
   slug: abuseipdb-rules
 score:
   band: strong
-  composite: 58.3
-  delta: 2.3
+  composite: 55.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 23.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.4
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
     contract_governance: 28.8
     contract_quality: 72.4
-    developer_ergonomics: 64.3
-    discoverability: 81.5
+    developer_ergonomics: 54.8
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 56.0
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     contracts:
@@ -401,8 +406,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abuseipdb/refs/heads/main/screenshots/abuseipdb-2026-06-20T163451.png
 security:
@@ -427,7 +432,7 @@ solutions:
 tags:
 - Anti Malware
 - Blacklist
-- Cybersecurity
+- Cyber Security
 - IP Reputation
 - Network Security
 - Public APIs

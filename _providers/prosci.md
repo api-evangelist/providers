@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 23
   slug: prosci-agentic-access
   summary_line: 23 operations · 11 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Assess individual and group change readiness using Prosci's ADKAR Model
   name: Prosci ADKAR Assessments API
@@ -101,6 +101,10 @@ collections:
   name: Prosci Change Management ADKAR Assessments Training API
   slug: open-prosci-training-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/prosci-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -163,7 +167,7 @@ overview: 'Prosci publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
   The Prosci catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Prosci''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
+  Prosci''s developer surface includes authentication, engineering blog, and 7 more developer resources.'
 plans:
 - name: Prosci Plans Pricing
   plan_count: 3
@@ -186,18 +190,23 @@ rules:
   slug: prosci-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.2
-  delta: 1.1
+  composite: 34.6
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 59.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 65.9
     developer_ergonomics: 23.8
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 34.1
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -205,8 +214,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prosci/refs/heads/main/screenshots/prosci-2026-08-17T124907.png
 security:

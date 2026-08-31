@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 39
   slug: roboflow-agentic-access
   summary_line: 39 operations · 30 acting
-api_count: 26
+api_count: 1
 apis:
 - description: The authoritative management interface to the Roboflow platform — workspaces, projects, dataset versions, image upload and annotation, training jobs, model evaluations, Workflows, folders, vision even
   name: Roboflow REST API
@@ -361,18 +361,23 @@ scopes:
   summary_line: 67 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.1
-  delta: 1.3
+  composite: 56.7
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 30.3
-    contract_quality: 49.9
+    contract_governance: 18.2
+    contract_quality: 52.6
     developer_ergonomics: 78.6
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 57.8
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -383,8 +388,8 @@ score:
       total: 24
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roboflow/refs/heads/main/screenshots/roboflow-2026-08-17T081621.png
 security:

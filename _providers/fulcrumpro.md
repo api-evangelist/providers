@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 340
   human_in_the_loop: 5
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 454
   slug: fulcrumpro-agentic-access
   summary_line: 454 operations · 340 acting · 5 human-in-the-loop
-api_count: 109
+api_count: 1
 apis:
 - description: The Accounting Code API from Fulcrumpro — 3 operation(s) for accounting code.
   name: Fulcrumpro Accounting Code API
@@ -705,6 +705,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/fulcrumpro-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/fulcrumpro-openapi-overlay.yaml
 - group: start
@@ -822,22 +826,27 @@ network: true
 overview: 'Fulcrumpro publishes 109 APIs on the [APIs.io](https://apis.io/) network, including Accounting Code API, Attachment API, Attachment Certification API, and 106 more. Tagged areas include Company, Manufacturing, ERP, MES, and Manufacturing Execution.
 
 
-  Fulcrumpro''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 19 more developer resources.'
+  Fulcrumpro''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 20 more developer resources.'
 random_paper: 11
 score:
   band: developing
-  composite: 45.2
-  delta: 0.0
+  composite: 41.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 91.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 48.1
     developer_ergonomics: 58.9
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 51.9
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 45.2
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -848,8 +857,8 @@ score:
       total: 109
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/screenshots/fulcrumpro-2026-07-25T215252.png
 security:

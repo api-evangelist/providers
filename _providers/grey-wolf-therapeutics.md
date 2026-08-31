@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,7 +64,7 @@ modified: '2026-07-19'
 name: Grey Wolf Therapeutics
 nav: Providers
 network: true
-overview: 'Grey Wolf Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Immuno-Oncology, and Immunotherapy.
+overview: 'Grey Wolf Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Immuno-oncology, and Immunotherapy.
 
 
   Grey Wolf Therapeutics'' developer surface includes engineering blog, support, and 3 more developer resources.'
@@ -72,6 +72,11 @@ random_paper: 19
 score:
   band: minimal
   composite: 7.6
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
@@ -89,8 +94,8 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grey-wolf-therapeutics/refs/heads/main/screenshots/grey-wolf-therapeutics-2026-07-25T220320.png
 security:
@@ -103,7 +108,7 @@ tags:
 - Company
 - Biotechnology
 - Pharmaceuticals
-- Immuno-Oncology
+- Immuno-oncology
 - Immunotherapy
 - Antigen Modulation
 - ERAP1

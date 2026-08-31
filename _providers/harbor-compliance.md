@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: harbor-compliance-agentic-access
   summary_line: 18 operations · 5 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Annual reports, compliance filings, and deadline tracking.
   name: Harbor Compliance Compliance Filings API
@@ -225,15 +225,20 @@ rules:
   slug: harbor-compliance-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.2
-  delta: 0.0
+  composite: 44.6
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 64.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 9.8
     contract_quality: 65.6
     developer_ergonomics: 54.8
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 18.4
   previous_composite: 45.2
@@ -244,8 +249,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harbor-compliance/refs/heads/main/screenshots/harbor-compliance-2026-06-20T182514.png
 security:

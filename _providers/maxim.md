@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The Maxim REST API provides programmatic access to prompts, workflows, agents, datasets, evaluators, test runs, logging, tracing, models, alerts, and log repositories. It supports OpenTelemetry-compat
@@ -113,7 +113,12 @@ rate_limits:
 score:
   band: emerging
   composite: 25.8
-  delta: 4.0
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -123,9 +128,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 21.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 25.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maxim/refs/heads/main/screenshots/maxim-2026-06-20T185048.png
 security:

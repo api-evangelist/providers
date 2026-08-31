@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 1
@@ -41,23 +41,8 @@ agentic_access:
   operation_count: 14
   slug: university-of-edinburgh-agentic-access
   summary_line: 14 operations · 1 human-in-the-loop
-api_count: 10
+api_count: 11
 apis:
-- description: 'DSpace 8.3 REST API for Edinburgh DataShare, the University''s open-access research-data repository. Anonymous callers may read communities (110), collections, browse indexes and the discovery search; '
-  name: Edinburgh DataShare REST API
-  slug: datashare-repository-api
-- description: OAI-PMH 2.0 metadata harvesting endpoint for Edinburgh DataShare. Fully anonymous, no key, twelve metadata prefixes including the UK research formats rioxx and uketd_dc. Records carry DataCite DOIs un
-  name: Edinburgh DataShare OAI-PMH
-  slug: datashare-oai
-- description: 'DSpace 8.3 REST API for the Edinburgh Research Archive, the University''s institutional repository of theses, dissertations and research publications. 54 communities readable anonymously; items return '
-  name: Edinburgh Research Archive (ERA) REST API
-  slug: era-repository-api
-- description: OAI-PMH 2.0 endpoint for the Edinburgh Research Archive. Thirteen metadata prefixes including etdms for electronic theses alongside rioxx and uketd_dc. DOIs under 10.7488/era. Earliest datestamp 2003-
-  name: Edinburgh Research Archive (ERA) OAI-PMH
-  slug: era-oai
-- description: 'CKAN 2.11.3 Action API for the Edinburgh International Data Facility Data Catalogue, operated by EPCC at the University of Edinburgh. 14 public datasets across 13 EIDF project organisations, readable '
-  name: EIDF Data Catalogue API
-  slug: eidf-data-catalogue-api
 - description: OpenAI-compatible generative-AI gateway built and run by EDINA at the University of Edinburgh, described by its own metadata as delivering generative AI to UK tertiary education. /api/v1/models and /a
   name: ELM — Edinburgh Language Models API
   slug: elm-api
@@ -73,8 +58,21 @@ apis:
 - description: DiscoverEd is the University Library's discovery layer, an Ex Libris Primo tenancy on an Edinburgh subdomain. The holdings are Edinburgh's; the search API is Ex Libris's product and is not saved under
   name: DiscoverEd Library Discovery (Ex Libris Primo) — tenant
   slug: discovered-primo
-artifact_total: 28
+- description: Read actions on the EIDF Data Catalogue
+  name: University of Edinburgh Catalogue API
+  slug: university-of-edinburgh-catalogue-api
+- description: OAI-PMH 2.0 metadata harvesting for Edinburgh DataShare
+  name: University of Edinburgh OAI PMH API
+  slug: university-of-edinburgh-oai-pmh-api
+- description: Service root, communities, collections and discovery for Edinburgh DataShare
+  name: University of Edinburgh Repository API
+  slug: university-of-edinburgh-repository-api
+artifact_total: 26
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/university-of-edinburgh-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -235,13 +233,13 @@ modified: '2026-08-19'
 name: University of Edinburgh
 nav: Providers
 network: true
-overview: 'University of Edinburgh publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Edinburgh DataShare REST API, Edinburgh DataShare OAI-PMH, Edinburgh Research Archive (ERA) REST API, and 3 more. Tagged areas include University, Higher Education, Education, United Kingdom, and Scotland.
+overview: 'University of Edinburgh publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ELM — Edinburgh Language Models API, Catalogue API, OAI PMH API, and 1 more. Tagged areas include University, Higher Education, Education, United Kingdom, and Scotland.
 
 
   The University of Edinburgh catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  University of Edinburgh''s developer surface includes documentation, GitHub presence, support, engineering blog, authentication, and 24 more developer resources.'
+  University of Edinburgh''s developer surface includes documentation, GitHub presence, support, engineering blog, authentication, and 25 more developer resources.'
 plans:
 - name: University Of Edinburgh Plans Pricing
   plan_count: 2
@@ -280,18 +278,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.9
+  composite: 47.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 56.3
+    contract_quality: 58.1
     developer_ergonomics: 28.6
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 46.9
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -306,8 +309,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/screenshots/university-of-edinburgh-2026-06-20T200145.png
 security:

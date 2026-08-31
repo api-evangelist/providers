@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 244
   slug: affinda-agentic-access
   summary_line: 244 operations · 146 acting
-api_count: 16
+api_count: 4
 apis:
 - description: Upload documents (PDF, images, DOCX, XLSX, TXT, HTML) and Affinda returns structured JSON extraction with confidence scores, bounding boxes, and OCR text. Supports invoices, resumes, receipts, contrac
   name: Affinda Documents API
@@ -282,6 +282,10 @@ collections:
   name: Affinda Annotations Add x-hidden to endpoints Workspaces API
   slug: open-affinda-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/affinda-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -627,7 +631,7 @@ overview: 'Affinda publishes 16 APIs on the [APIs.io](https://apis.io/) network,
   The Affinda catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Affinda''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, pricing, signup flow, and 58 more developer resources.'
+  Affinda''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, pricing, signup flow, and 59 more developer resources.'
 plans:
 - name: Affinda Plans Pricing
   plan_count: 3
@@ -662,6 +666,11 @@ rules:
 score:
   band: strong
   composite: 64.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 72.4
@@ -686,8 +695,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 33.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/screenshots/affinda-2026-06-20T165616.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -33,24 +33,134 @@ agentic_access:
   summary_line: 86 operations · 20 acting
 api_count: 4
 apis:
-- description: Free, public, unauthenticated Open Data reference API publishing Santander UK ATMs, branches, and product information (personal & business current accounts, unsecured SME loans, commercial credit card
-  name: Santander UK Open Data API
-  slug: santander-uk-open-data-api
-- description: 'OBIE Read/Write Account and Transaction Information (AIS) API for accessing account, balance, transaction, and party data with customer consent. FAPI-secured (OAuth2/OIDC, mTLS, PSD2 SCA); onboarding '
-  name: Santander UK Account & Transaction Information API
-  slug: santander-uk-account-information-api
-- description: OBIE Read/Write Payment Initiation (PIS) API for initiating domestic, scheduled, standing-order, international, and file payments on behalf of customers. FAPI-secured (OAuth2/OIDC, mTLS, PSD2 SCA); on
-  name: Santander UK Payment Initiation API
-  slug: santander-uk-payment-initiation-api
-- description: OBIE Read/Write Confirmation of Funds (CBPII) API allowing an authorised card-based payment instrument issuer to confirm the availability of funds on a customer account. FAPI-secured (OAuth2/OIDC, mTL
-  name: Santander UK Confirmation of Funds API
-  slug: santander-uk-confirmation-of-funds-api
-artifact_total: 10
+- description: The Account Access Consents API from Santander UK — 2 operation(s) for account access consents.
+  name: Santander UK Account Access Consents API
+  slug: santander-uk-account-access-consents-api
+- description: The Accounts API from Santander UK — 2 operation(s) for accounts.
+  name: Santander UK Accounts API
+  slug: santander-uk-accounts-api
+- description: Endpoint for getting ATM data
+  name: Santander UK ATM API
+  slug: santander-uk-atm-api
+- description: The Balances API from Santander UK — 2 operation(s) for balances.
+  name: Santander UK Balances API
+  slug: santander-uk-balances-api
+- description: Endpoint for getting Business Current Account data
+  name: Santander UK BCA API
+  slug: santander-uk-bca-api
+- description: The Beneficiaries API from Santander UK — 2 operation(s) for beneficiaries.
+  name: Santander UK Beneficiaries API
+  slug: santander-uk-beneficiaries-api
+- description: Endpoint for getting Branch data
+  name: Santander UK Branch API
+  slug: santander-uk-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: Santander UK CCC API
+  slug: santander-uk-ccc-api
+- description: The Direct Debits API from Santander UK — 2 operation(s) for direct debits.
+  name: Santander UK Direct Debits API
+  slug: santander-uk-direct-debits-api
+- description: The Domestic Payment Consents API from Santander UK — 3 operation(s) for domestic payment consents.
+  name: Santander UK Domestic Payment Consents API
+  slug: santander-uk-domestic-payment-consents-api
+- description: The Domestic Payments API from Santander UK — 3 operation(s) for domestic payments.
+  name: Santander UK Domestic Payments API
+  slug: santander-uk-domestic-payments-api
+- description: The Domestic Scheduled Payment Consents API from Santander UK — 2 operation(s) for domestic scheduled payment consents.
+  name: Santander UK Domestic Scheduled Payment Consents API
+  slug: santander-uk-domestic-scheduled-payment-consents-api
+- description: The Domestic Scheduled Payments API from Santander UK — 3 operation(s) for domestic scheduled payments.
+  name: Santander UK Domestic Scheduled Payments API
+  slug: santander-uk-domestic-scheduled-payments-api
+- description: The Domestic Standing Order Consents API from Santander UK — 2 operation(s) for domestic standing order consents.
+  name: Santander UK Domestic Standing Order Consents API
+  slug: santander-uk-domestic-standing-order-consents-api
+- description: The Domestic Standing Orders API from Santander UK — 3 operation(s) for domestic standing orders.
+  name: Santander UK Domestic Standing Orders API
+  slug: santander-uk-domestic-standing-orders-api
+- description: The File Payment Consents API from Santander UK — 3 operation(s) for file payment consents.
+  name: Santander UK File Payment Consents API
+  slug: santander-uk-file-payment-consents-api
+- description: The File Payments API from Santander UK — 4 operation(s) for file payments.
+  name: Santander UK File Payments API
+  slug: santander-uk-file-payments-api
+- description: The Funds Confirmation Consents API from Santander UK — 2 operation(s) for funds confirmation consents.
+  name: Santander UK Funds Confirmation Consents API
+  slug: santander-uk-funds-confirmation-consents-api
+- description: The Funds Confirmations API from Santander UK — 1 operation(s) for funds confirmations.
+  name: Santander UK Funds Confirmations API
+  slug: santander-uk-funds-confirmations-api
+- description: The International Payment Consents API from Santander UK — 3 operation(s) for international payment consents.
+  name: Santander UK International Payment Consents API
+  slug: santander-uk-international-payment-consents-api
+- description: The International Payments API from Santander UK — 3 operation(s) for international payments.
+  name: Santander UK International Payments API
+  slug: santander-uk-international-payments-api
+- description: The International Scheduled Payments API from Santander UK — 3 operation(s) for international scheduled payments.
+  name: Santander UK International Scheduled Payments API
+  slug: santander-uk-international-scheduled-payments-api
+- description: The International Scheduled Payments Consents API from Santander UK — 3 operation(s) for international scheduled payments consents.
+  name: Santander UK International Scheduled Payments Consents API
+  slug: santander-uk-international-scheduled-payments-consents-api
+- description: The International Standing Orders API from Santander UK — 3 operation(s) for international standing orders.
+  name: Santander UK International Standing Orders API
+  slug: santander-uk-international-standing-orders-api
+- description: The International Standing Orders Consents API from Santander UK — 2 operation(s) for international standing orders consents.
+  name: Santander UK International Standing Orders Consents API
+  slug: santander-uk-international-standing-orders-consents-api
+- description: The Offers API from Santander UK — 2 operation(s) for offers.
+  name: Santander UK Offers API
+  slug: santander-uk-offers-api
+- description: The Parties API from Santander UK — 3 operation(s) for parties.
+  name: Santander UK Parties API
+  slug: santander-uk-parties-api
+- description: Endpoint for getting Personal Current Account data
+  name: Santander UK PCA API
+  slug: santander-uk-pca-api
+- description: The Products API from Santander UK — 2 operation(s) for products.
+  name: Santander UK Products API
+  slug: santander-uk-products-api
+- description: The Scheduled Payments API from Santander UK — 2 operation(s) for scheduled payments.
+  name: Santander UK Scheduled Payments API
+  slug: santander-uk-scheduled-payments-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: Santander UK SME API
+  slug: santander-uk-sme-api
+- description: The Standing Orders API from Santander UK — 2 operation(s) for standing orders.
+  name: Santander UK Standing Orders API
+  slug: santander-uk-standing-orders-api
+- description: The Statements API from Santander UK — 5 operation(s) for statements.
+  name: Santander UK Statements API
+  slug: santander-uk-statements-api
+- description: The Transactions API from Santander UK — 2 operation(s) for transactions.
+  name: Santander UK Transactions API
+  slug: santander-uk-transactions-api
+artifact_total: 40
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-obie-opendata-swagger
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/santander-uk-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/santander-uk-opendata-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/santander-uk-account-info-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/santander-uk-payment-initiation-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/santander-uk-confirmation-funds-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -148,10 +258,10 @@ modified: '2026-07-23'
 name: Santander UK
 nav: Providers
 network: true
-overview: 'Santander UK publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account & Transaction Information API, Payment Initiation API, and 1 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Santander UK publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 31 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  Santander UK''s developer surface includes authentication, documentation, sandbox, and 18 more developer resources.'
+  Santander UK''s developer surface includes authentication, documentation, sandbox, and 23 more developer resources.'
 random_paper: 11
 scopes:
 - name: Santander Uk Scopes
@@ -159,19 +269,24 @@ scopes:
   slug: santander-uk-scopes
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 40.5
-  delta: -0.2
+  band: thin
+  composite: 38.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 49.0
+    contract_governance: 4.5
+    contract_quality: 50.9
     developer_ergonomics: 43.5
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 40.7
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -184,12 +299,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -65,6 +65,10 @@ collections:
   name: Azure Front Door REST API
   slug: open-microsoft-azure-front-door
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-azure-front-door-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -124,7 +128,7 @@ network: true
 overview: 'Azure Front Door publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Profiles API. Tagged areas include CDN, Edge, Global Routing, Load Balancing, and WAF.
 
 
-  Azure Front Door''s developer surface includes authentication, developer portal, pricing, support, and 7 more developer resources.'
+  Azure Front Door''s developer surface includes authentication, developer portal, pricing, support, and 8 more developer resources.'
 plans:
 - name: Microsoft Azure Front Door Plans Pricing
   plan_count: 3
@@ -141,18 +145,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: thin
-  composite: 37.1
-  delta: 1.9
+  composite: 37.8
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 35.7
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 35.2
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -160,8 +169,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/screenshots/microsoft-azure-front-door-2026-06-20T185415.png
 security:

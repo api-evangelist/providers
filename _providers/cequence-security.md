@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Enterprise AI Gateway that makes applications agent-ready through governed Model Context Protocol integration. Register a REST API from its OpenAPI spec (or proxy a third-party remote MCP server) and '
@@ -151,7 +151,7 @@ modified: '2026-08-02'
 name: Cequence Security
 nav: Providers
 network: true
-overview: 'Cequence Security publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Security, AI Gateway, MCP, Agentic AI, and Bot Management.
+overview: 'Cequence Security publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include api-security, ai-gateway, MCP, agentic-ai, and bot-management.
 
 
   Cequence Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, CLI, and 20 more developer resources.'
@@ -163,6 +163,11 @@ rate_limits:
 score:
   band: thin
   composite: 36.3
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -178,8 +183,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cequence-security/refs/heads/main/screenshots/cequence-security-2026-08-07T163243.png
 security:
@@ -201,17 +206,17 @@ security:
   summary_line: SOC 2 Type 2, PCI DSS v4.0.1, ISO/IEC 27001:2022
 slug: cequence-security
 tags:
-- API Security
-- AI Gateway
+- api-security
+- ai-gateway
 - MCP
-- Agentic AI
-- Bot Management
-- API Discovery
-- API Governance
-- Fraud Detection
-- WAAP
+- agentic-ai
+- bot-management
+- api-discovery
+- api-governance
+- fraud-detection
+- waap
 - Cybersecurity
-- API Testing
+- api-testing
 - agent-native
 website: https://www.cequence.ai/
 ---

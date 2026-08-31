@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 2
@@ -41,93 +41,24 @@ agentic_access:
   operation_count: 149
   slug: vijil-agentic-access
   summary_line: 149 operations · 68 acting · 2 human-in-the-loop
-api_count: 28
+api_count: 1
 apis:
-- description: The agent-configurations API from Vijil — 6 operation(s) for agent-configurations.
-  name: Vijil agent-configurations API
-  slug: vijil-agent-configurations-api
 - description: Agent, persona, policy, and harness management
   name: Vijil Agent Environment API
   slug: vijil-agent-environment-api
-- description: The agent-import API from Vijil — 2 operation(s) for agent-import.
-  name: Vijil agent-import API
-  slug: vijil-agent-import-api
-- description: The auth API from Vijil — 5 operation(s) for auth.
-  name: Vijil auth API
-  slug: vijil-auth-api
-- description: The custom-harnesses API from Vijil — 4 operation(s) for custom-harnesses.
-  name: Vijil custom-harnesses API
-  slug: vijil-custom-harnesses-api
-- description: The dashboard API from Vijil — 1 operation(s) for dashboard.
-  name: Vijil dashboard API
-  slug: vijil-dashboard-api
-- description: The demographics API from Vijil — 12 operation(s) for demographics.
-  name: Vijil demographics API
-  slug: vijil-demographics-api
-- description: The detections API from Vijil — 2 operation(s) for detections.
-  name: Vijil detections API
-  slug: vijil-detections-api
 - description: Evaluation management and report retrieval
   name: Vijil Diamond API
   slug: vijil-diamond-api
 - description: Protection, guardrails, and telemetry
   name: Vijil Dome API
   slug: vijil-dome-api
-- description: The dome-configs API from Vijil — 4 operation(s) for dome-configs.
-  name: Vijil dome-configs API
-  slug: vijil-dome-configs-api
-- description: The evaluation-results API from Vijil — 4 operation(s) for evaluation-results.
-  name: Vijil evaluation-results API
-  slug: vijil-evaluation-results-api
-- description: The evaluation-summaries API from Vijil — 3 operation(s) for evaluation-summaries.
-  name: Vijil evaluation-summaries API
-  slug: vijil-evaluation-summaries-api
-- description: The evaluations API from Vijil — 7 operation(s) for evaluations.
-  name: Vijil evaluations API
-  slug: vijil-evaluations-api
-- description: The evolution API from Vijil — 6 operation(s) for evolution.
-  name: Vijil evolution API
-  slug: vijil-evolution-api
-- description: The genomes API from Vijil — 11 operation(s) for genomes.
-  name: Vijil genomes API
-  slug: vijil-genomes-api
-- description: The harnesses API from Vijil — 1 operation(s) for harnesses.
-  name: Vijil harnesses API
-  slug: vijil-harnesses-api
-- description: The personas API from Vijil — 4 operation(s) for personas.
-  name: Vijil personas API
-  slug: vijil-personas-api
-- description: The policies API from Vijil — 9 operation(s) for policies.
-  name: Vijil policies API
-  slug: vijil-policies-api
-- description: The policy-rules API from Vijil — 4 operation(s) for policy-rules.
-  name: Vijil policy-rules API
-  slug: vijil-policy-rules-api
-- description: The proposals API from Vijil — 3 operation(s) for proposals.
-  name: Vijil proposals API
-  slug: vijil-proposals-api
 - description: Red team campaigns
   name: Vijil Red Team API
   slug: vijil-red-team-api
-- description: The redteam API from Vijil — 7 operation(s) for redteam.
-  name: Vijil redteam API
-  slug: vijil-redteam-api
 - description: Authentication, users, and team management
   name: Vijil Teams API
   slug: vijil-teams-api
-- description: The Telemetry API from Vijil — 6 operation(s) for telemetry.
-  name: Vijil Telemetry API
-  slug: vijil-telemetry-api
-- description: The Trust Runtime API from Vijil — 1 operation(s) for trust runtime.
-  name: Vijil Trust Runtime API
-  slug: vijil-trust-runtime-api
-- description: The users API from Vijil — 4 operation(s) for users.
-  name: Vijil users API
-  slug: vijil-users-api
-- description: The webhooks API from Vijil — 1 operation(s) for webhooks.
-  name: Vijil webhooks API
-  slug: vijil-webhooks-api
-artifact_total: 62
+artifact_total: 39
 collections:
 - collection_type: open
   name: API Collection
@@ -357,25 +288,30 @@ modified: '2026-07-21'
 name: Vijil
 nav: Providers
 network: true
-overview: 'Vijil publishes 28 APIs on the [APIs.io](https://apis.io/) network, including agent-configurations API, Agent Environment API, agent-import API, and 25 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Agent Security, and AI Safety.
+overview: 'Vijil publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agent Environment API, Diamond API, Dome API, and 2 more. Tagged areas include Company, Artificial Intelligence, AI Agents, Agent Security, and AI Safety.
 
 
   Vijil''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, signup flow, support, and 25 more developer resources.'
 random_paper: 17
 score:
   band: developing
-  composite: 49.0
-  delta: 1.4
+  composite: 46.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
-    contract_quality: 53.8
+    contract_governance: 4.5
+    contract_quality: 52.2
     developer_ergonomics: 68.5
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 47.6
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -386,8 +322,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vijil/refs/heads/main/screenshots/vijil-2026-08-17T082750.png
 security:

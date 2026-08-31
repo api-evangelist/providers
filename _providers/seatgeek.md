@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: seatgeek-agentic-access
   summary_line: 9 operations
-api_count: 5
+api_count: 1
 apis:
 - description: The Events API from SeatGeek — 2 operation(s) for events.
   name: SeatGeek Events API
@@ -247,15 +247,20 @@ rules:
   slug: seatgeek-rules
 score:
   band: developing
-  composite: 42.8
-  delta: 0.0
+  composite: 42.3
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 28.8
     contract_quality: 61.9
     developer_ergonomics: 47.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 13.2
   previous_composite: 42.8
@@ -266,8 +271,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/screenshots/seatgeek-2026-06-20T193620.png
 security:

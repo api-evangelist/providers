@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 19
   slug: anz-agentic-access
   summary_line: 19 operations · 3 acting
-api_count: 16
+api_count: 1
 apis:
 - description: ANZ's first-party Payments API suite on the ANZ Developer Portal, letting business and institutional customers automate and optimise payment workflows across domestic payment rails (NPP / direct entry
   name: Australia and New Zealand Banking Group (ANZ) Payments API
@@ -118,6 +118,10 @@ collections:
   name: CDR Banking Banking Account Balances Banking Products API
   slug: open-anz-banking-products-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/anz-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -237,7 +241,7 @@ network: true
 overview: 'Australia and New Zealand Banking Group (ANZ) publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Banking.
 
 
-  Australia and New Zealand Banking Group (ANZ)''s developer surface includes authentication, API reference, support, documentation, and 22 more developer resources.'
+  Australia and New Zealand Banking Group (ANZ)''s developer surface includes authentication, API reference, support, documentation, and 23 more developer resources.'
 random_paper: 14
 scopes:
 - name: Anz Scopes
@@ -246,18 +250,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 44.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 49.7
     developer_ergonomics: 44.6
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 46.6
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -270,12 +279,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: AU
+      standard: cdr-consumer-data-standards
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anz/refs/heads/main/screenshots/anz-2026-07-21T114652.png
 security:

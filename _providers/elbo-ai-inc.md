@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 7
   slug: elbo-ai-inc-agentic-access
   summary_line: 7 operations · 4 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The Audio Uploads API from ELBO AI, INC — 1 operation(s) for audio uploads.
   name: ELBO AI, INC Audio Uploads API
@@ -215,25 +215,30 @@ modified: '2026-07-19'
 name: ELBO AI, INC
 nav: Providers
 network: true
-overview: 'ELBO AI, INC publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Audio Uploads API, Text to Speech API, Usage API, and 2 more. Tagged areas include Company, Artificial Intelligence, Video, Text-to-Speech, and Voice.
+overview: 'ELBO AI, INC publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Audio Uploads API, Text to Speech API, Usage API, and 2 more. Tagged areas include Company, Artificial Intelligence, Video, Text to Speech, and Voice.
 
 
   ELBO AI, INC''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 24 more developer resources.'
 random_paper: 16
 score:
   band: developing
-  composite: 49.3
-  delta: 0.0
+  composite: 47.2
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 59.6
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 49.3
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -244,8 +249,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elbo-ai-inc/refs/heads/main/screenshots/elbo-ai-inc-2026-07-25T213052.png
 security:
@@ -262,7 +267,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Video
-- Text-to-Speech
+- Text to Speech
 - Voice
 - Generative AI
 - Avatars

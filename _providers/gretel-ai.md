@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: REST API for Gretel's synthetic data platform. Lets you ingest data, manage projects, train models, run record handlers, and pull artifacts. Used as the backend for the gretel-client Python SDK and CL
@@ -104,7 +104,7 @@ modified: '2026-05-23'
 name: Gretel
 nav: Providers
 network: true
-overview: 'Gretel publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Synthetic Data, Privacy Engineering, Tabular, Text, and Time Series.
+overview: 'Gretel publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Synthetic Data, Privacy Engineering, Tabular, Text, and Time-Series.
 
 
   Gretel''s developer surface includes documentation, GitHub presence, and 10 more developer resources.'
@@ -119,8 +119,13 @@ rate_limits:
   slug: gretel-ai-rate-limits
 score:
   band: emerging
-  composite: 20.5
-  delta: 1.4
+  composite: 20.9
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.4
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -130,9 +135,12 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 19.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 20.5
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gretel-ai/refs/heads/main/screenshots/gretel-ai-2026-06-20T182404.png
 security:
@@ -146,9 +154,9 @@ tags:
 - Privacy Engineering
 - Tabular
 - Text
-- Time Series
+- Time-Series
 - REST
 - Python SDK
-- Ai Data
+- AI Data
 website: https://gretel.ai/
 ---

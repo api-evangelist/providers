@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 12
   slug: majesco-agentic-access
   summary_line: 12 operations · 7 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Premium billing and payment operations
   name: majesco Billing API
@@ -180,15 +180,20 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 33.0
-  delta: 0.0
+  composite: 32.4
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 61.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 9.8
     contract_quality: 67.0
     developer_ergonomics: 21.4
-    discoverability: 50.0
+    discoverability: 44.4
     governance: 9.8
     operational_transparency: 7.9
   previous_composite: 33.0
@@ -203,8 +208,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/screenshots/majesco-2026-06-20T184906.png
 security:

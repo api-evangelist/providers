@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 33
   slug: qubrid-ai-agentic-access
   summary_line: 33 operations · 18 acting · 2 human-in-the-loop
-api_count: 13
+api_count: 4
 apis:
 - description: Generate chat-based completions using open-source large language models hosted on NVIDIA GPU infrastructure. Compatible with the OpenAI chat completions request and response format.
   name: Qubrid AI Chat Completions API
@@ -140,6 +140,10 @@ collections:
   name: Qubrid AI Compute Chat Completions Templates API
   slug: open-qubrid-ai-templates-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/qubrid-ai-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -220,7 +224,7 @@ overview: 'Qubrid AI publishes 13 APIs on the [APIs.io](https://apis.io/) networ
   The Qubrid AI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Qubrid AI''s developer surface includes authentication, developer portal, documentation, and 8 more developer resources.'
+  Qubrid AI''s developer surface includes authentication, developer portal, documentation, and 9 more developer resources.'
 plans:
 - name: Qubrid Ai Plans Pricing
   plan_count: 4
@@ -243,7 +247,12 @@ rules:
   slug: qubrid-ai-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.2
+  composite: 38.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 22.4
@@ -251,10 +260,10 @@ score:
     contract_governance: 9.8
     contract_quality: 67.7
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 37.2
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     contracts:
@@ -262,8 +271,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/screenshots/qubrid-ai-2026-06-20T192419.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -33,9 +33,60 @@ agentic_access:
   summary_line: 109 operations · 38 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: The same-origin REST API behind app.ki-insurance.com, the partner-gated broker trading platform where Lloyd's brokers place risks with Ki's follow algorithm. Ki publishes no reference documentation fo
-  name: Ki Broker Trading Platform API
-  slug: broker-platform
+- description: The Administration API from Ki Insurance — 4 operation(s) for administration.
+  name: Ki Insurance Administration API
+  slug: ki-insurance-administration-api
+- description: The Broking Houses API from Ki Insurance — 5 operation(s) for broking houses.
+  name: Ki Insurance Broking Houses API
+  slug: ki-insurance-broking-houses-api
+- description: The Classes of Business API from Ki Insurance — 1 operation(s) for classes of business.
+  name: Ki Insurance Classes of Business API
+  slug: ki-insurance-classes-of-business-api
+- description: The Configuration API from Ki Insurance — 1 operation(s) for configuration.
+  name: Ki Insurance Configuration API
+  slug: ki-insurance-configuration-api
+- description: The Dashboard API from Ki Insurance — 2 operation(s) for dashboard.
+  name: Ki Insurance Dashboard API
+  slug: ki-insurance-dashboard-api
+- description: The Facilities API from Ki Insurance — 4 operation(s) for facilities.
+  name: Ki Insurance Facilities API
+  slug: ki-insurance-facilities-api
+- description: The Indications API from Ki Insurance — 2 operation(s) for indications.
+  name: Ki Insurance Indications API
+  slug: ki-insurance-indications-api
+- description: The Leads API from Ki Insurance — 3 operation(s) for leads.
+  name: Ki Insurance Leads API
+  slug: ki-insurance-leads-api
+- description: The Market Leaders API from Ki Insurance — 4 operation(s) for market leaders.
+  name: Ki Insurance Market Leaders API
+  slug: ki-insurance-market-leaders-api
+- description: The Master Data API from Ki Insurance — 39 operation(s) for master data.
+  name: Ki Insurance Master Data API
+  slug: ki-insurance-master-data-api
+- description: The Pipeline API from Ki Insurance — 2 operation(s) for pipeline.
+  name: Ki Insurance Pipeline API
+  slug: ki-insurance-pipeline-api
+- description: The Quotes API from Ki Insurance — 15 operation(s) for quotes.
+  name: Ki Insurance Quotes API
+  slug: ki-insurance-quotes-api
+- description: The Risk Codes API from Ki Insurance — 1 operation(s) for risk codes.
+  name: Ki Insurance Risk Codes API
+  slug: ki-insurance-risk-codes-api
+- description: The Schedule of Values API from Ki Insurance — 2 operation(s) for schedule of values.
+  name: Ki Insurance Schedule of Values API
+  slug: ki-insurance-schedule-of-values-api
+- description: The Slip Extraction API from Ki Insurance — 5 operation(s) for slip extraction.
+  name: Ki Insurance Slip Extraction API
+  slug: ki-insurance-slip-extraction-api
+- description: The Support API from Ki Insurance — 1 operation(s) for support.
+  name: Ki Insurance Support API
+  slug: ki-insurance-support-api
+- description: The Telemetry API from Ki Insurance — 1 operation(s) for telemetry.
+  name: Ki Insurance Telemetry API
+  slug: ki-insurance-telemetry-api
+- description: The Users API from Ki Insurance — 10 operation(s) for users.
+  name: Ki Insurance Users API
+  slug: ki-insurance-users-api
 arazzos:
 - description: Create a quote on Ki's partner-gated broker platform, attach the schedule of values, geocode it, run Ki's algorithmic pricing and retrieve the priced quote document. Every operationId below exists ver
   name: Ki — quote a risk and run the follow algorithm
@@ -43,12 +94,16 @@ arazzos:
 - description: 'Ki''s slip extraction pipeline: register the slip upload, execute the extraction job, poll it to completion, read the result and promote it into a quote. Every operationId exists verbatim in the refere'
   name: Ki — turn a broker slip into a quote
   slug: ki-insurance-slip-to-quote
-artifact_total: 9
+artifact_total: 26
 collections:
 - collection_type: open
   name: Ki Broker Trading Platform API (observed)
   slug: open-ki-insurance-broker-platform
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ki-insurance-broker-platform-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -174,10 +229,10 @@ modified: '2026-07-25'
 name: Ki Insurance
 nav: Providers
 network: true
-overview: 'Ki Insurance publishes 1 API on the [APIs.io](https://apis.io/) network: Ki Broker Trading Platform API. Tagged areas include Insurance, United Kingdom, Lloyd''s of London, Specialty Insurance, and Property and Casualty.
+overview: 'Ki Insurance publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Broking Houses API, Classes of Business API, and 15 more. Tagged areas include Insurance, United Kingdom, Lloyd''s of London, Specialty Insurance, and Property and Casualty.
 
 
-  Ki Insurance''s developer surface includes engineering blog, signup flow, authentication, and 25 more developer resources.'
+  Ki Insurance''s developer surface includes engineering blog, signup flow, authentication, and 26 more developer resources.'
 random_paper: 7
 scopes:
 - name: Ki Insurance Scopes
@@ -185,19 +240,24 @@ scopes:
   slug: ki-insurance-scopes
   summary_line: 14 scopes · authorizationCode
 score:
-  band: thin
-  composite: 26.8
-  delta: 0.0
+  band: emerging
+  composite: 24.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 14.3
     developer_ergonomics: 16.1
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 26.8
+  previous_composite: 25.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -214,8 +274,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/screenshots/ki-insurance-2026-07-25T223715.png
 security:

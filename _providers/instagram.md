@@ -12,20 +12,21 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: served
     consent_identity: false
     delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.9
-  scored_at: '2026-08-26'
+  score: 45.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 25
   slug: instagram-agentic-access
   summary_line: 25 operations · 8 acting
-api_count: 9
+api_count: 1
 apis:
 - description: 'The Messenger API support for Instagram consolidates Instagram and Facebook Page messaging into a unified platform. Enables businesses and creators to manage conversations, send and receive messages, '
   name: Instagram Messaging API
@@ -71,7 +72,11 @@ apis:
 - description: Instagram Business and Creator account profiles
   name: Instagram Users API
   slug: instagram-users-api
-artifact_total: 95
+artifact_total: 97
+asyncapis:
+- description: ''
+  name: Instagram Webhooks
+  slug: instagram-webhooks
 collections:
 - collection_type: postman
   name: Instagram Graph Comments API
@@ -119,6 +124,14 @@ collections:
   name: Instagram Graph Comments Users API
   slug: open-instagram-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.instagram.com/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/instagram-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -147,10 +160,6 @@ common:
   title: ''
   type: Portal
   url: https://developers.facebook.com/docs/instagram-platform
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://developers.facebook.com/docs/instagram-api/getting-started
 - group: auth
   title: ''
   type: Authentication
@@ -166,7 +175,7 @@ common:
 - group: operate
   title: ''
   type: StatusPage
-  url: https://developers.facebook.com/status/
+  url: https://metastatus.com/
 - group: operate
   title: ''
   type: ChangeLog
@@ -183,6 +192,150 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/fbsamples
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.facebook.com/docs/instagram-platform/instagram-api-with-instagram-login/get-started
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.facebook.com/docs/instagram-platform
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.facebook.com/docs/instagram-api/reference
+- group: start
+  title: ''
+  type: Login
+  url: https://developers.facebook.com/apps/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/instagram-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/instagram-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/instagram-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/instagram-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/instagram-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/instagram-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/instagram-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/instagram-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/instagram-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/instagram-data-model.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/instagram-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/instagram-sandbox.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/instagram-changelog.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/instagram-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/instagram-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/instagram-vulnerability-disclosure.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/instagram-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/instagram-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/instagram-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/instagram-vocabulary.yaml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/instagram-spectral-rules.yml
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/instagram-graph-api-context.jsonld
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/instagram-graph-api-media-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/instagram-graph-api-comment-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/instagram-graph-api-user-schema.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/instagram-graph-api-error-response-schema.json
+- group: design
+  title: ''
+  type: JSONStructure
+  url: json-structure/instagram-graph-api-media-structure.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/instagram-graph-api-media-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/instagram-graph-api-comment-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/instagram-graph-api-error-response-example.json
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: collections/instagram-media-api.postman_collection.json
 created: '2024-01-01'
 description: Instagram is a photo and video sharing social networking platform owned by Meta. The Instagram APIs allow developers to build integrations with Instagram Business and Creator accounts for content publishing, media management, comment moderation, hashtag discovery, insights and analytics, messaging, and embedding. Available through the Meta Developer Platform with Facebook Login or Instagram Login authentication.
 examples:
@@ -332,24 +485,24 @@ jsonld:
   property_count: 37
   slug: instagram-graph-api-context
 layout: provider
-modified: '2026-04-17'
+modified: '2026-08-29'
 name: Instagram
 nav: Providers
 network: true
 overview: 'Instagram publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Hashtags API, Insights API, and 4 more. Tagged areas include Instagram, Meta, Photos, Social-Media, and Videos.
 
 
-  The Instagram catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Instagram catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Instagram''s developer surface includes authentication, developer portal, getting-started guide, changelog, support, engineering blog, and 10 more developer resources.'
+  Instagram''s developer surface includes authentication, developer portal, changelog, support, engineering blog, getting-started guide, documentation, and 46 more developer resources.'
 plans:
 - name: Instagram Plans Pricing
   plan_count: 2
   slug: instagram-plans-pricing
 random_paper: 0
 rate_limits:
-- limit_count: 6
+- limit_count: 8
   name: Instagram Rate Limits
   slug: instagram-rate-limits
 rules:
@@ -376,23 +529,28 @@ rules:
   slug: instagram-spectral-rules
 scopes:
 - name: Instagram Scopes
-  scope_count: 7
+  scope_count: 19
   slug: instagram-scopes
-  summary_line: 7 scopes · authorizationCode
+  summary_line: 19 scopes · authorizationCode
 score:
-  band: developing
-  composite: 42.3
-  delta: 3.3
+  band: strong
+  composite: 61.9
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 49.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
-    access_clarity: 23.7
-    commercial_clarity: 23.7
-    contract_governance: 13.6
-    contract_quality: 60.4
-    developer_ergonomics: 50.0
-    discoverability: 74.1
-    governance: 13.6
-    operational_transparency: 26.3
-  previous_composite: 39.0
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 47.0
+    contract_quality: 71.3
+    developer_ergonomics: 83.3
+    discoverability: 75.9
+    governance: 47.0
+    operational_transparency: 52.6
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     contracts:
@@ -400,19 +558,23 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/screenshots/instagram-2026-06-20T183411.png
 security:
 - kind: authentication
   name: Instagram Authentication
   slug: instagram-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: oauth2 · 2 schemes
 - kind: domain-security
   name: Instagram Domain Security
   slug: instagram-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Instagram Vulnerability Disclosure
+  slug: instagram-vulnerability-disclosure
+  summary_line: Hackerone
 slug: instagram
 solutions:
 - description: Native Instagram authentication for Business and Creator accounts with full API access.
@@ -447,5 +609,5 @@ use_cases:
   name: Influencer Marketing
 - description: Embed Instagram posts, reels, and galleries on websites and blogs using oEmbed.
   name: Website Embedding
-website: https://developers.facebook.com/docs/instagram-platform
+website: https://www.instagram.com/
 ---

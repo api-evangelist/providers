@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: olo-agentic-access
   summary_line: 12 operations · 8 acting
-api_count: 15
+api_count: 2
 apis:
 - description: The Olo Dispatch API orchestrates direct delivery for restaurants by routing orders to a network of delivery service providers (DSPs) such as DoorDash Drive, Uber Direct, Postmates, and Relay. Dispatc
   name: Olo Dispatch API
@@ -141,6 +141,18 @@ collections:
   name: Olo Ordering Accounts Users API
   slug: open-olo-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/olo-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/ololabs/promotions-sdk/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/ololabs/promotions-sdk/releases
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -421,7 +433,7 @@ overview: 'Olo publishes 7 APIs on the [APIs.io](https://apis.io/) network, incl
   The Olo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Olo''s developer surface includes authentication, developer portal, signup flow, documentation, support, engineering blog, YouTube channel, and 32 more developer resources.'
+  Olo''s developer surface includes authentication, developer portal, signup flow, documentation, support, engineering blog, YouTube channel, and 35 more developer resources.'
 plans:
 - name: Olo Plans Pricing
   plan_count: 4
@@ -466,18 +478,26 @@ rules:
   slug: olo-spectral-rules
 score:
   band: strong
-  composite: 64.9
-  delta: 0.0
+  composite: 62.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 28.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
     contract_governance: 28.8
     contract_quality: 77.6
     developer_ergonomics: 59.5
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
-    operational_transparency: 50.0
-  previous_composite: 64.9
+    operational_transparency: 65.8
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     contracts:
@@ -491,8 +511,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/olo/refs/heads/main/screenshots/olo-2026-06-20T190700.png
 security:

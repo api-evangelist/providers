@@ -1,19 +1,20 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Open
   onboarding: unknown
-  pricing: unknown
-  public: false
-  source: []
+  pricing: free
+  public: true
+  source:
+  - https://www.group1auto.com/llms.txt
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: false
+    agentic_access: true
     agentic_commerce: false
     auth_clarity: false
     consent_identity: false
@@ -23,35 +24,90 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-26'
-api_count: 0
-artifact_total: 0
+  score: 13.2
+  scored_at: '2026-08-30'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Group 1 Automotive Agentic Access
+  operation_count: 1
+  slug: group-1-automotive-agentic-access
+  summary_line: 1 operation
+api_count: 1
+apis:
+- description: A server-rendered, anonymous HTTP read surface that Group 1 Automotive publishes specifically for AI assistants, advertised in its own /llms.txt. GET /llm/inventory/ returns paginated live vehicle inv
+  name: Group 1 Automotive LLM Inventory Browse
+  slug: group-1-automotive-llm-inventory
+artifact_total: 5
 common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/group-1-automotive-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.group1auto.com
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/group1automotive
-- group: company
+- group: commercial
   title: ''
-  type: Website
-  url: https://www.group-1-automotive.com
-description: Group 1 Automotive is an international Fortune 500 automotive retailer with automotive dealerships and collision centers in the United States, the United Kingdom, and Brazil.
+  type: TermsOfService
+  url: https://www.group1auto.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.group1auto.com/privacy-policy/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.group1auto.com/contact-us/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/group-1-automotive-llms.txt
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/group-1-automotive-agentic-access.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/group-1-automotive-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/group-1-automotive-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/group-1-automotive-plans-pricing.yml
+created: '2026-03-24'
+description: 'Group 1 Automotive (NYSE: GPI) is an international Fortune 500 automotive retailer operating automotive dealerships, collision centers and service departments across the United States, the United Kingdom and Brazil, representing more than 35 vehicle brands. Group 1 does not operate a public developer program, but it does publish an AI-agent-facing surface: an llms.txt on www.group1auto.com and on its AcceleRide digital-retail site www.shopgroup1.com, each advertising a documented, parameterized, server-rendered vehicle-inventory browse endpoint at /llm/inventory/ that returns live new and used inventory (VIN, year, model, trim, mileage, price) without JavaScript, authentication, or an API key. There is no OpenAPI, AsyncAPI, GraphQL SDL, MCP server, agent card, SDK or partner API reference published anywhere on the company''s own hosts.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/group-1-automotive.png
 layout: provider
-modified: '2026-03-24'
-name: group-1-automotive
+modified: '2026-08-28'
+name: Group 1 Automotive
 nav: Providers
 network: true
-overview: group-1-automotive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
+overview: 'Group 1 Automotive publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Automotive, Automotive Retail, Vehicle Inventory, and Dealerships.
+
+
+  Group 1 Automotive''s developer surface includes support and 10 more developer resources.'
+plans:
+- name: Group 1 Automotive Plans Pricing
+  plan_count: 0
+  slug: group-1-automotive-plans-pricing
 press:
 - date: '2026-05-25'
   title: Group 1 Automotive Acquires High Volume Luxury Brand ...
@@ -69,31 +125,52 @@ press:
   title: Recent Press | Group 1
   url: https://www.piedpiperpsi.com/press/?tag=group+1
 random_paper: 12
+rate_limits:
+- limit_count: 1
+  name: Group 1 Automotive Rate Limits
+  slug: group-1-automotive-rate-limits
 score:
-  band: minimal
-  composite: 2.6
+  band: emerging
+  composite: 15.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 25.9
+    developer_ergonomics: 4.8
+    discoverability: 75.9
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 21.1
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 2.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 15.5
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
+security:
+- kind: domain-security
+  name: Group 1 Automotive Domain Security
+  slug: group-1-automotive-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: group-1-automotive
 tags:
 - Fortune 500
-website: https://www.group-1-automotive.com
+- Automotive
+- Automotive Retail
+- Vehicle Inventory
+- Dealerships
+- Retail
+- Agentic Access
+- llms-txt
+website: https://www.group1auto.com
 ---

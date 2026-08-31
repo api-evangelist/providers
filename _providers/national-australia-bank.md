@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-26'
-api_count: 8
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: NAB's first-party merchant payments REST API platform (the NAB Gateway / NAB Transact developer portal at nabgateway-developer.nab.com.au), distinct from the CDR Open Banking surface. Documents a full
   name: National Australia Bank (NAB) Gateway Payments API
@@ -87,6 +87,10 @@ collections:
   name: CDR Banking Banking Account Balances Banking Products API
   slug: open-national-australia-bank-banking-products-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/national-australia-bank-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -214,7 +218,7 @@ network: true
 overview: 'National Australia Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Banking.
 
 
-  National Australia Bank''s developer surface includes developer portal, documentation, API reference, engineering blog, getting-started guide, support, authentication, and 21 more developer resources.'
+  National Australia Bank''s developer surface includes developer portal, documentation, API reference, engineering blog, getting-started guide, support, authentication, and 22 more developer resources.'
 random_paper: 12
 scopes:
 - name: National Australia Bank Scopes
@@ -222,19 +226,24 @@ scopes:
   slug: national-australia-bank-scopes
   summary_line: 11 scopes · authorizationCode/clientCredentials/refreshToken
 score:
-  band: developing
-  composite: 40.0
-  delta: 0.0
+  band: thin
+  composite: 36.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 49.7
     developer_ergonomics: 30.4
-    discoverability: 83.3
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 40.0
+  previous_composite: 37.4
   provenance:
     conformance: derived
     contracts:
@@ -250,8 +259,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 68.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-australia-bank/refs/heads/main/screenshots/national-australia-bank-2026-07-21T114739.png
 security:

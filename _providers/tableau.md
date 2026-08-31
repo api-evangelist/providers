@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 70
   slug: tableau-agentic-access
   summary_line: 70 operations · 32 acting
-api_count: 25
+api_count: 1
 apis:
 - description: GraphQL-based API for querying metadata about Tableau content, data sources, and lineage information.
   name: Tableau Metadata API
@@ -206,6 +206,26 @@ collections:
   name: Tableau REST Authentication Workbooks API
   slug: open-tableau-workbooks-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tableau-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/tableau/document-api-python/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/tableau/document-api-python/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/tableau/document-api-python/blob/master/contributing.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1226,7 +1246,7 @@ mcp_servers:
 - description: ''
   name: MCP Server
   slug: mcp-server
-modified: '2026-05-19'
+modified: '2026-08-30'
 name: Tableau
 nav: Providers
 network: true
@@ -1236,7 +1256,7 @@ overview: 'Tableau publishes 13 APIs on the [APIs.io](https://apis.io/) network,
   The Tableau catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Tableau''s developer surface includes authentication, engineering blog, support, release notes, signup flow, documentation, Stack Overflow tag, and 14 more developer resources.'
+  Tableau''s developer surface includes authentication, engineering blog, support, release notes, signup flow, documentation, Stack Overflow tag, and 19 more developer resources.'
 plans:
 - name: Tableau Plans Pricing
   plan_count: 4
@@ -1270,18 +1290,26 @@ rules:
   slug: tableau-spectral-rules
 score:
   band: developing
-  composite: 52.4
-  delta: 5.8
+  composite: 51.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 60.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 13.6
     contract_quality: 74.3
     developer_ergonomics: 69.0
-    discoverability: 63.0
+    discoverability: 57.4
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 46.6
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1289,9 +1317,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tableau/refs/heads/main/screenshots/tableau-2026-06-20T194845.png
 security:
 - kind: authentication

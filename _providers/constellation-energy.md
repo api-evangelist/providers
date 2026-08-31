@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
-api_count: 0
+  scored_at: '2026-08-30'
+api_count: 1
 artifact_total: 6
 collections:
 - collection_type: open
@@ -104,7 +104,7 @@ modified: '2026-04-29'
 name: Constellation Energy
 nav: Providers
 network: true
-overview: 'Constellation Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Clean Energy, Electricity, Energy, Fortune 500, and Hydro.
+overview: 'Constellation Energy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Clean Energy, Electricity, Energy, Fortune 500, and Hydro.
 
 
   Constellation Energy''s developer surface includes support and 11 more developer resources.'
@@ -120,6 +120,11 @@ rate_limits:
 score:
   band: emerging
   composite: 12.8
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -137,8 +142,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constellation-energy/refs/heads/main/screenshots/constellation-energy-2026-06-20T174911.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 12
   slug: rest-countries-agentic-access
   summary_line: 12 operations
-api_count: 11
+api_count: 1
 apis:
 - description: Bulk retrieval of every country in the dataset.
   name: REST Countries All API
@@ -76,7 +76,10 @@ apis:
 - description: Lookup countries by translated name.
   name: REST Countries Translation API
   slug: rest-countries-translation-api
-artifact_total: 45
+- description: Country lookup and search endpoints
+  name: REST Countries Countries API
+  slug: rest-countries-countries-api
+artifact_total: 46
 collections:
 - collection_type: open
   name: API Collection
@@ -121,6 +124,14 @@ collections:
   name: REST Countries
   slug: open-rest-countries
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apilayer/restcountries/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/apilayer/restcountries/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -243,13 +254,13 @@ modified: '2026-08-08'
 name: REST Countries
 nav: Providers
 network: true
-overview: 'REST Countries publishes 11 APIs on the [APIs.io](https://apis.io/) network, including All API, Alpha API, Capital API, and 8 more. Tagged areas include Countries, Geocoding, Geography, ISO 3166, and Open-Source.
+overview: 'REST Countries publishes 12 APIs on the [APIs.io](https://apis.io/) network, including All API, Alpha API, Capital API, and 9 more. Tagged areas include Countries, Geocoding, Geography, ISO 3166, and Open-Source.
 
 
   The REST Countries catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  REST Countries'' developer surface includes documentation, authentication, pricing, and 14 more developer resources.'
+  REST Countries'' developer surface includes documentation, authentication, pricing, and 16 more developer resources.'
 plans:
 - name: Rest Countries Plans Pricing
   plan_count: 2
@@ -283,18 +294,26 @@ rules:
   slug: rest-countries-rules
 score:
   band: developing
-  composite: 47.1
-  delta: 0.7
+  composite: 46.2
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 31.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 28.8
     contract_quality: 68.9
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
-    operational_transparency: 52.6
-  previous_composite: 46.4
+    operational_transparency: 68.4
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -302,8 +321,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rest-countries/refs/heads/main/screenshots/rest-countries-2026-06-20T193018.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -31,49 +31,192 @@ agentic_access:
   operation_count: 276
   slug: luma-health-agentic-access
   summary_line: 276 operations · 160 acting
-api_count: 13
+api_count: 1
 apis:
-- description: Self-service scheduling, appointment lifecycle, appointment types, provider availabilities, schedulers, offers, recalls, and waitlist management.
-  name: Luma Health Scheduling & Appointments API
-  slug: luma-health-scheduling-api
-- description: Patient demographics and records, patient forms and form templates, and patient stored credit cards.
+- description: Patient's appointments to see a doctor
+  name: Luma Health Appointments API
+  slug: luma-health-appointments-api
+- description: EHR appointment types
+  name: Luma Health Appointment Types API
+  slug: luma-health-appointmenttypes-api
+- description: Audit log of individual tool calls made by the Navigator AI assistant during a conversation
+  name: Luma Health Assistant Actions API
+  slug: luma-health-assistantactions-api
+- description: Conversations between the Navigator AI assistant and a patient or staff member
+  name: Luma Health Assistant Instances API
+  slug: luma-health-assistantinstances-api
+- description: Transfer rules for AI assistants (Navigator) to handle call routing
+  name: Luma Health Assistant Transfer Rules API
+  slug: luma-health-assistanttransferrules-api
+- description: Luma Client Access
+  name: Luma Health Auth API
+  slug: luma-health-auth-api
+- description: EHR provider scheduler availability
+  name: Luma Health Availabilities API
+  slug: luma-health-availabilities-api
+- description: Financial charges tracked against a patient, such as copays and patient balances
+  name: Luma Health Billing Charges API
+  slug: luma-health-billingcharges-api
+- description: Copay amounts configured per source (system, EHR, or manual) and referenced by patient form templates
+  name: Luma Health Billing Copays API
+  slug: luma-health-billingcopays-api
+- description: The Broadcast Templates API from Luma Health — 2 operation(s) for broadcast templates.
+  name: Luma Health Broadcast Templates API
+  slug: luma-health-broadcast-templates-api
+- description: Broadcast event logs and history
+  name: Luma Health Broadcast Events API
+  slug: luma-health-broadcastevents-api
+- description: Broadcast flows for mass messaging campaigns
+  name: Luma Health Broadcast Flows API
+  slug: luma-health-broadcastflows-api
+- description: Contact preference campaigns that determine how and in what order a patient, facility, or user is contacted
+  name: Luma Health Campaigns API
+  slug: luma-health-campaigns-api
+- description: conversations with a patient
+  name: Luma Health Chat Activities API
+  slug: luma-health-chatactivities-api
+- description: reason why a chatActivity was closed
+  name: Luma Health Chat Activities Reasons API
+  slug: luma-health-chatactivitiesreasons-api
+- description: Audits for message chat
+  name: Luma Health Chat Audits API
+  slug: luma-health-chataudits-api
+- description: Per-appointment, per-patient instances of required pre-visit tasks generated from a checklist template
+  name: Luma Health Checklists API
+  slug: luma-health-checklists-api
+- description: Reusable definitions of required pre-visit tasks used to build checklists
+  name: Luma Health Checklist Templates API
+  slug: luma-health-checklisttemplates-api
+- description: custom styles, CSS, logo images for customers
+  name: Luma Health Custom Web Styles API
+  slug: luma-health-customwebstyles-api
+- description: Append-only history of events that occurred during an engagement
+  name: Luma Health Engagement Events API
+  slug: luma-health-engagementevents-api
+- description: Conversation sessions between the system and a recipient, driven by one or more AI agents
+  name: Luma Health Engagements API
+  slug: luma-health-engagements-api
+- description: Reusable voice and language presets that can be attached to an engagement
+  name: Luma Health Engagement Settings API
+  slug: luma-health-engagementsettings-api
+- description: Estimates
+  name: Luma Health Estimates API
+  slug: luma-health-estimates-api
+- description: Customer facilities
+  name: Luma Health Facilities API
+  slug: luma-health-facilities-api
+- description: Patient responses to NPS feedback surveys and clicks on feedback links
+  name: Luma Health Feedback Responses API
+  slug: luma-health-feedbackresponses-api
+- description: AI-generated reply drafts for external reviews, with approve/reject workflow
+  name: Luma Health Feedback Responses External Review Replies API
+  slug: luma-health-feedbackresponsesexternalreviewreplies-api
+- description: Scraped external reviews from Google Business Profile and Yelp
+  name: Luma Health Feedback Responses External Reviews API
+  slug: luma-health-feedbackresponsesexternalreviews-api
+- description: Per-patient platform rotation history for NPS promoter review requests
+  name: Luma Health Feedback Responses Promoter Histories API
+  slug: luma-health-feedbackresponsespromoterhistories-api
+- description: File Uploads
+  name: Luma Health File Uploads API
+  slug: luma-health-fileuploads-api
+- description: Group of staff users
+  name: Luma Health Groups API
+  slug: luma-health-groups-api
+- description: Insurance payors/carriers maintained in Luma's payor directory
+  name: Luma Health Insurance Payors API
+  slug: luma-health-insurancepayors-api
+- description: Patient insurance coverage records
+  name: Luma Health Insurances API
+  slug: luma-health-insurances-api
+- description: Question and answer entries for knowledge bases
+  name: Luma Health Knowledge Base Question Answers API
+  slug: luma-health-knowledgebasequestionanswers-api
+- description: LumaBot Flows answered by patients
+  name: Luma Health Lumabot Flows API
+  slug: luma-health-lumabotflows-api
+- description: Templates for LumaBot flows
+  name: Luma Health Lumabot Flow Templates API
+  slug: luma-health-lumabotflowtemplates-api
+- description: Messages (chat, sms, voice, email, whatsapp, fax, in-app)
+  name: Luma Health Messages API
+  slug: luma-health-messages-api
+- description: Reusable partials that can be composed into message templates
+  name: Luma Health Message Template Partials API
+  slug: luma-health-messagetemplatepartials-api
+- description: Offers
+  name: Luma Health Offers API
+  slug: luma-health-offers-api
+- description: Outbound Referral
+  name: Luma Health Outbound Referrals API
+  slug: luma-health-outboundreferrals-api
+- description: Luma Health patient credit cards
+  name: Luma Health Patient Credit Cards API
+  slug: luma-health-patientcreditcards-api
+- description: Patient forms answered by patients
+  name: Luma Health Patient Forms API
+  slug: luma-health-patientforms-api
+- description: Templates from patient forms
+  name: Luma Health Patient Form Templates API
+  slug: luma-health-patientformtemplates-api
+- description: Message templates used to compose patient communications
+  name: Luma Health Patient Message Templates API
+  slug: luma-health-patientmessagetemplates-api
+- description: Customer patients
   name: Luma Health Patients API
   slug: luma-health-patients-api
-- description: Providers, provider scheduling groups, facilities, specialties, groups, and platform users.
-  name: Luma Health Providers & Facilities API
-  slug: luma-health-providers-facilities-api
-- description: Two-way patient messaging, engagements and engagement events/settings, appointment reminders, and patient message templates.
-  name: Luma Health Messaging & Engagement API
-  slug: luma-health-messaging-api
-- description: Broadcast events, broadcast flows and templates, and outreach campaigns for population-level patient messaging.
-  name: Luma Health Broadcast & Campaigns API
-  slug: luma-health-broadcast-api
-- description: Digital intake via checklists and checklist templates, patient forms and form templates, and file uploads.
-  name: Luma Health Intake & Forms API
-  slug: luma-health-intake-forms-api
-- description: Billing charges and copays, cost estimates, and patient credit-card payment instruments.
-  name: Luma Health Billing & Payments API
-  slug: luma-health-billing-payments-api
-- description: Insurance records with real-time eligibility verification and the insurance payors directory.
-  name: Luma Health Eligibility & Insurance API
-  slug: luma-health-eligibility-insurance-api
-- description: Inbound and outbound referral management across the care network.
+- description: Luma Health providers
+  name: Luma Health Providers API
+  slug: luma-health-providers-api
+- description: Groups of providers configured for shared scheduling behavior, such as round-robin or waterfall assignment
+  name: Luma Health Provider Scheduling Groups API
+  slug: luma-health-providerschedulinggroups-api
+- description: Instances of queue manager templates representing items in a queue
+  name: Luma Health Queue Manager Instances API
+  slug: luma-health-queuemanagerinstances-api
+- description: Recalls
+  name: Luma Health Recalls API
+  slug: luma-health-recalls-api
+- description: Luma Patient referrals
   name: Luma Health Referrals API
   slug: luma-health-referrals-api
-- description: NPS survey responses and feedback-link clicks, external reviews scraped from Google Business Profile and Yelp with AI-extracted sentiment and themes, AI-drafted public review replies with an approve/r
-  name: Luma Health Feedback & Reputation API
-  slug: luma-health-feedback-reputation-api
-- description: Conversational AI assistant surfaces - assistant instances and actions, lumabot flows and templates, knowledge-base question/answers, chat activities, and queue-manager routing.
-  name: Luma Health Conversational AI Assistant API
-  slug: luma-health-assistant-api
-- description: Operational reports plus system and chat audit trails.
-  name: Luma Health Reporting & Audits API
-  slug: luma-health-reporting-api
-- description: OAuth2 client-credentials authentication - generate and rotate client id/secret and exchange them for JWT access tokens (including subaccount tokens).
-  name: Luma Health Authentication API
-  slug: luma-health-authentication-api
-artifact_total: 21
+- description: Luma Reminders
+  name: Luma Health Reminders API
+  slug: luma-health-reminders-api
+- description: Luma Analytical Reports
+  name: Luma Health Reports API
+  slug: luma-health-reports-api
+- description: Scheduler
+  name: Luma Health Schedulers API
+  slug: luma-health-schedulers-api
+- description: Luma resource settings
+  name: Luma Health Settings API
+  slug: luma-health-settings-api
+- description: A Doctor's specialty
+  name: Luma Health Specialties API
+  slug: luma-health-specialties-api
+- description: Messages Squigglies
+  name: Luma Health Squigglies API
+  slug: luma-health-squigglies-api
+- description: Audit logs for certain system events in a given account
+  name: Luma Health System Audits API
+  slug: luma-health-systemaudits-api
+- description: Staff users
+  name: Luma Health Users API
+  slug: luma-health-users-api
+- description: Patients waiting for an appointment
+  name: Luma Health Waitlists API
+  slug: luma-health-waitlists-api
+artifact_total: 66
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/luma-health-capability-edges.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/luma-health-manage-patient-feedback.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -231,10 +374,10 @@ modified: '2026-08-15'
 name: Luma Health
 nav: Providers
 network: true
-overview: 'Luma Health publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Scheduling & Appointments API, Patients API, Providers & Facilities API, and 10 more. Tagged areas include Healthcare, United States, Patient Engagement, Scheduling, and Referrals.
+overview: 'Luma Health publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Appointment Types API, Assistant Actions API, and 55 more. Tagged areas include Healthcare, United States, Patient Engagement, Scheduling, and Referrals.
 
 
-  Luma Health''s developer surface includes authentication, documentation, API reference, engineering blog, and 32 more developer resources.'
+  Luma Health''s developer surface includes authentication, documentation, API reference, engineering blog, and 34 more developer resources.'
 plans:
 - name: Luma Health Plans Pricing
   plan_count: 0
@@ -246,18 +389,23 @@ rate_limits:
   slug: luma-health-rate-limits
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 45.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.8
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 16.7
-    contract_quality: 51.7
-    developer_ergonomics: 42.3
-    discoverability: 81.5
-    governance: 16.7
+    contract_governance: 4.5
+    contract_quality: 54.6
+    developer_ergonomics: 36.3
+    discoverability: 70.4
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 48.9
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -270,12 +418,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 51.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/screenshots/luma-health-2026-07-25T225704.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 8.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'REST/HTTP API for chat and messaging (User and Admin APIs) with JSON payloads. Production base URL is tenant-specific; a public preprod sandbox is available for testing. Auth via username/password to '
@@ -149,8 +149,13 @@ overview: 'MirrorFly Messages API publishes 1 API on the [APIs.io](https://apis.
   MirrorFly Messages API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
 random_paper: 11
 score:
-  band: developing
-  composite: 40.3
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 52.6
@@ -158,10 +163,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 40.3
+  previous_composite: 39.1
   provenance:
     conformance: first-party
   regulatory:
@@ -170,8 +175,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -190,7 +195,7 @@ tags:
 - Voice API
 - Video API
 - SIP/VoIP
-- Real-Time Communication
+- Real-time Communication
 - SDK
 - Self-hosted / On-premise
 - AI Agents / Chatbots

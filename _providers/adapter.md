@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 110
   slug: adapter-agentic-access
   summary_line: 110 operations · 61 acting · 3 human-in-the-loop
-api_count: 26
+api_count: 1
 apis:
 - description: The Adapter API API from Adapter — 1 operation(s) for adapter api.
   name: Adapter Adapter API API
@@ -313,18 +313,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.8
-  delta: 0.0
+  composite: 33.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 51.6
     developer_ergonomics: 20.8
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 36.8
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -335,8 +340,8 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adapter/refs/heads/main/screenshots/adapter-2026-08-07T161042.png
 security:

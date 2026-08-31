@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 30
   slug: intralinks-agentic-access
   summary_line: 30 operations · 17 acting · 1 human-in-the-loop
-api_count: 8
+api_count: 1
 apis:
 - description: The Authentication API from Intralinks — 2 operation(s) for authentication.
   name: Intralinks Authentication API
@@ -101,6 +101,10 @@ collections:
   name: Intralinks Authentication Workspaces API
   slug: open-intralinks-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/intralinks-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -181,7 +185,7 @@ overview: 'Intralinks publishes 8 APIs on the [APIs.io](https://apis.io/) networ
   The Intralinks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Intralinks'' developer surface includes authentication, developer portal, documentation, support, getting-started guide, and 3 more developer resources.'
+  Intralinks'' developer surface includes authentication, developer portal, documentation, support, getting-started guide, and 4 more developer resources.'
 plans:
 - name: Intralinks Plans Pricing
   plan_count: 3
@@ -204,15 +208,20 @@ rules:
   slug: intralinks-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.2
-  delta: 0.0
+  composite: 35.6
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 66.8
     developer_ergonomics: 42.9
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 7.9
   previous_composite: 36.2
@@ -223,8 +232,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intralinks/refs/heads/main/screenshots/intralinks-2026-06-20T183611.png
 security:

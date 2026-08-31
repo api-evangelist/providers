@@ -36,13 +36,43 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 11
 apis:
 - description: 'JSON-based REST API for the Act! CRM database exposing contacts, companies, groups, opportunities, tasks, activity series, calendar, notes, history, documents, attachments, users, teams, preferences, '
   name: Act! Web API
   slug: web-api
-artifact_total: 40
+- description: The ActivitySeries API from Act! CRM — 2 operation(s) for activityseries.
+  name: Act! CRM Activity Series API
+  slug: act-activityseries-api
+- description: The CustomEntities API from Act! CRM — 2 operation(s) for customentities.
+  name: Act! CRM Custom Entities API
+  slug: act-customentities-api
+- description: The DocumentTypes API from Act! CRM — 4 operation(s) for documenttypes.
+  name: Act! CRM Document Types API
+  slug: act-documenttypes-api
+- description: The HistoryTypes API from Act! CRM — 5 operation(s) for historytypes.
+  name: Act! CRM History Types API
+  slug: act-historytypes-api
+- description: The MarketingAutomations API from Act! CRM — 3 operation(s) for marketingautomations.
+  name: Act! CRM Marketing Automations API
+  slug: act-marketingautomations-api
+- description: The MetadataInfo API from Act! CRM — 14 operation(s) for metadatainfo.
+  name: Act! CRM Metadata Info API
+  slug: act-metadatainfo-api
+- description: The SecondaryContacts API from Act! CRM — 3 operation(s) for secondarycontacts.
+  name: Act! CRM Secondary Contacts API
+  slug: act-secondarycontacts-api
+- description: The SupplementalFiles API from Act! CRM — 8 operation(s) for supplementalfiles.
+  name: Act! CRM Supplemental Files API
+  slug: act-supplementalfiles-api
+- description: The SyncData API from Act! CRM — 4 operation(s) for syncdata.
+  name: Act! CRM Sync Data API
+  slug: act-syncdata-api
+- description: The TaskTypes API from Act! CRM — 4 operation(s) for tasktypes.
+  name: Act! CRM Task Types API
+  slug: act-tasktypes-api
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Act Webhooks
@@ -274,7 +304,7 @@ modified: '2026-08-13'
 name: Act! CRM
 nav: Providers
 network: true
-overview: 'Act! CRM publishes 1 API on the [APIs.io](https://apis.io/) network: Act! Web API. Tagged areas include CRM, Marketing Automation, Contact Management, Sales, and Opportunity Management.
+overview: 'Act! CRM publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Act! Web API, Activity Series API, Custom Entities API, and 8 more. Tagged areas include CRM, Customer Relationship Management, Marketing Automation, Contact Management, and Sales.
 
 
   The Act! CRM catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -292,18 +322,23 @@ rate_limits:
   slug: act-rate-limits
 score:
   band: strong
-  composite: 64.0
-  delta: 2.5
+  composite: 65.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 30.3
-    contract_quality: 56.0
+    contract_governance: 18.2
+    contract_quality: 65.4
     developer_ergonomics: 66.1
-    discoverability: 68.5
-    governance: 30.3
+    discoverability: 74.1
+    governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 61.5
+  previous_composite: 65.4
   provenance:
     conformance: first-party
     contracts:
@@ -313,8 +348,8 @@ score:
       total: 31
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/act/refs/heads/main/screenshots/act-2026-08-17T121405.png
 security:
@@ -337,6 +372,7 @@ security:
 slug: act
 tags:
 - CRM
+- Customer Relationship Management
 - Marketing Automation
 - Contact Management
 - Sales

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 708
   human_in_the_loop: 4
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 980
   slug: cognite-agentic-access
   summary_line: 980 operations · 708 acting · 4 human-in-the-loop
-api_count: 90
+api_count: 2
 apis:
 - description: The Cognite Data Fusion (CDF) REST API provides programmatic access to industrial data including assets, time series, events, files, sequences, 3D models, data modeling spaces and instances, entity ma
   name: Cognite Data Fusion API
@@ -580,6 +580,10 @@ collections:
   name: Cognite 3D Asset Mapping Writeback Requests API
   slug: open-cognite-writeback-requests-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cognite-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -690,7 +694,7 @@ overview: 'Cognite publishes 89 APIs on the [APIs.io](https://apis.io/) network,
   The Cognite catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cognite''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, and 10 more developer resources.'
+  Cognite''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, and 11 more developer resources.'
 random_paper: 10
 rules:
 - effective_rule_count: 5
@@ -721,18 +725,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 33.2
-  delta: 0.0
+  composite: 34.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 65.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
     contract_governance: 13.6
     contract_quality: 66.3
     developer_ergonomics: 40.5
-    discoverability: 50.0
+    discoverability: 63.0
     governance: 13.6
     operational_transparency: 2.6
-  previous_composite: 33.2
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -740,8 +749,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 89
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognite/refs/heads/main/screenshots/cognite-2026-06-20T174714.png
 security:

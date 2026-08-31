@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 19
   slug: greater-bank-agentic-access
   summary_line: 19 operations · 3 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Banking Account Balance endpoints
   name: Greater Bank Banking Account Balances API
@@ -95,6 +95,10 @@ collections:
   name: CDR Banking Banking Account Balances Banking Products API
   slug: open-greater-bank-banking-products-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/greater-bank-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -206,22 +210,27 @@ network: true
 overview: 'Greater Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Banking.
 
 
-  Greater Bank''s developer surface includes authentication, documentation, getting-started guide, API reference, support, and 19 more developer resources.'
+  Greater Bank''s developer surface includes authentication, documentation, getting-started guide, API reference, support, and 20 more developer resources.'
 random_paper: 6
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 36.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 49.7
     developer_ergonomics: 47.0
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 38.3
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,8 +247,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/screenshots/greater-bank-2026-07-21T130910.png
 security:

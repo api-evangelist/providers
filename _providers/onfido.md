@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.7
-  scored_at: '2026-08-26'
-api_count: 45
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Addresses API from Onfido — 1 operation(s) for addresses.
   name: Onfido Addresses API
@@ -315,6 +315,10 @@ collections:
   name: Onfido Workflows API
   slug: open-onfido-workflows-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/onfido-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -402,7 +406,7 @@ network: true
 overview: 'Onfido publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Applicants API, Attempts API, and 42 more. Tagged areas include Authentication, Identity, and Verification.
 
 
-  Onfido''s developer surface includes getting-started guide, changelog, authentication, support, engineering blog, signup flow, and 12 more developer resources.'
+  Onfido''s developer surface includes getting-started guide, changelog, authentication, support, engineering blog, signup flow, and 13 more developer resources.'
 plans:
 - name: Onfido Plans Pricing
   plan_count: 3
@@ -414,26 +418,31 @@ rate_limits:
   slug: onfido-rate-limits
 score:
   band: developing
-  composite: 43.8
-  delta: 1.9
+  composite: 43.2
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 55.7
     developer_ergonomics: 47.6
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 41.9
+  previous_composite: 43.8
   provenance:
     contracts:
       callable: 97.8
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onfido/refs/heads/main/screenshots/onfido-2026-06-20T190718.png
 security:

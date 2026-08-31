@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The Adaptive Integration Fabric (formerly Ivory Suite) enables enterprises to rapidly expose IBM z/OS and z/VSE mainframe applications as REST or SOAP web services without programming. Using the Fabri
@@ -73,6 +73,34 @@ common:
   title: ''
   type: Contact
   url: https://www.adaptigent.com/contact/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.adaptigent.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.adaptigent.com/privacy-policy/
+- group: operate
+  title: ''
+  type: Support
+  url: https://gtsoftware2.zendesk.com/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/adaptigent-llms.txt
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/adaptigent-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/adaptigent-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/adaptigent-conformance.yml
 created: '2025-03-01'
 description: Adaptigent (formerly GT Software) is a technology company founded in 1982 that specializes in mainframe integration and API enablement solutions. Their flagship product, Adaptive Integration Fabric (formerly Ivory Suite), empowers enterprises to expose legacy mainframe systems as modern REST and SOAP APIs without writing any code. Using a patented no-code, drag-and-drop environment, the platform enables integration of IBM z/OS and z/VSE mainframe applications with modern distributed systems, supporting both inbound and outbound integration flows in real time. Adaptigent serves industries including finance, government, manufacturing, and healthcare, offering a usage-based subscription pricing model.
 features:
@@ -96,40 +124,45 @@ finops:
   slug: adaptigent-finops
 image: /assets/icons/adaptigent.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-30'
 name: Adaptigent
 nav: Providers
 network: true
 overview: 'Adaptigent publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Mainframe, Integration, API Gateway, Legacy Systems, and Enterprise.
 
 
-  Adaptigent''s developer surface includes developer portal, pricing, engineering blog, and 5 more developer resources.'
+  Adaptigent''s developer surface includes developer portal, pricing, engineering blog, support, changelog, and 10 more developer resources.'
 plans:
 - name: Adaptigent Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: adaptigent-plans-pricing
 random_paper: 7
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Adaptigent Rate Limits
   slug: adaptigent-rate-limits
 score:
   band: emerging
-  composite: 18.9
-  delta: 4.3
+  composite: 25.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 6.6
   facets:
-    access_clarity: 26.3
-    commercial_clarity: 26.3
-    contract_governance: 0.0
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 33.3
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 7.9
-  previous_composite: 14.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    discoverability: 66.7
+    governance: 18.2
+    operational_transparency: 15.8
+  previous_composite: 18.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaptigent/refs/heads/main/screenshots/adaptigent-2026-06-20T164608.png
 security:
 - kind: domain-security
@@ -143,7 +176,7 @@ tags:
 - API Gateway
 - Legacy Systems
 - Enterprise
-- No-Code
+- No Code
 - Middleware
 use_cases:
 - description: Enterprises with legacy IBM mainframe systems can expose core business logic and data as modern REST APIs, enabling mobile apps, web applications, and microservices to consume mainframe capabilities.

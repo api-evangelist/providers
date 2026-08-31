@@ -34,15 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-26'
-api_count: 5
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
 - description: 'OAuth 2.0 REST API for managing Snapchat advertising: organizations, ad accounts, campaigns, ad squads, ads, creatives, media, audience segments, measurement/reporting, the Conversions API (server-to-'
   name: Snapchat Marketing API
   slug: snapchat-marketing-api
-- description: Server-to-server conversion event ingestion for web, app, and offline events, keyed by asset (Pixel ID for web/offline, Snap App ID for mobile app). Served from tr.snapchat.com; v3 (/v3/{asset_id}/eve
-  name: Snap Conversions API
-  slug: snap-conversions-api
 - description: Snap's first-party hosted Model Context Protocol server, letting supported agents read the caller's authorized Snapchat Ads data over streamable HTTP. Read-only in this release; write access is docume
   name: Snapchat Ads MCP
   slug: snapchat-ads-mcp
@@ -52,12 +49,22 @@ apis:
 - description: SDK and API for embedding Snap's augmented-reality Lenses (Lens Studio content) into third-party mobile and web apps, including a push-to-device API for managing Lens groups and experiences.
   name: Camera Kit
   slug: camera-kit
-artifact_total: 14
+- description: The Conversion API from Snap — 4 operation(s) for conversion.
+  name: Snap Conversion API
+  slug: snap-conversion-api
+- description: The Events API from Snap — 4 operation(s) for events.
+  name: Snap Events API
+  slug: snap-events-api
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Snap Lead Gen Webhooks
   slug: snap-lead-gen-webhooks
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/snap-send-conversion-events.md
 - group: start
   title: ''
   type: DeveloperPortal
@@ -227,13 +234,13 @@ modified: '2026-08-13'
 name: Snap
 nav: Providers
 network: true
-overview: 'Snap publishes 1 API on the [APIs.io](https://apis.io/) network: Conversions API. Tagged areas include Company, Advertising, Marketing, Social-Media, and Augmented Reality.
+overview: 'Snap publishes 2 APIs on the [APIs.io](https://apis.io/) network: Conversion API and Events API. Tagged areas include Company, Advertising, Marketing, Social-Media, and Augmented Reality.
 
 
   The Snap catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Snap''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 32 more developer resources.'
+  Snap''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 33 more developer resources.'
 plans:
 - name: Snap Plans Pricing
   plan_count: 0
@@ -249,19 +256,24 @@ scopes:
   slug: snap-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 54.5
+  band: developing
+  composite: 53.2
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 30.3
-    contract_quality: 44.9
+    contract_governance: 18.2
+    contract_quality: 50.0
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 54.5
+  previous_composite: 53.2
   provenance:
     conformance: first-party
     contracts:
@@ -271,8 +283,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snap/refs/heads/main/screenshots/snap-2026-08-17T081939.png
 security:

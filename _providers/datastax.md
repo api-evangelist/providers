@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 4
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 123
   slug: datastax-agentic-access
   summary_line: 123 operations · 79 acting · 4 human-in-the-loop
-api_count: 17
+api_count: 1
 apis:
 - description: View, create, modify, or delete the IP access list for an Astra database.
   name: DataStax Access List API
@@ -155,6 +155,10 @@ collections:
   name: Astra DevOps Access List VPC Peering API
   slug: open-datastax-vpc-peering-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ibm/
 - group: company
   title: ''
   type: Website
@@ -298,7 +302,7 @@ network: true
 overview: 'DataStax publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Access List API, Authentication API, Clone API, and 14 more. Tagged areas include Company, Enterprise, Database, Vector Database, and Cassandra.
 
 
-  DataStax''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, engineering blog, and 25 more developer resources.'
+  DataStax''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, engineering blog, and 26 more developer resources.'
 random_paper: 18
 scopes:
 - name: Datastax Scopes
@@ -307,18 +311,23 @@ scopes:
   summary_line: 15 scopes
 score:
   band: developing
-  composite: 44.0
-  delta: 0.0
+  composite: 42.0
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 60.5
     developer_ergonomics: 68.5
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 44.0
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -329,8 +338,8 @@ score:
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datastax/refs/heads/main/screenshots/datastax-2026-07-25T211402.png
 security:

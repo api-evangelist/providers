@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Budbee's public REST API for e-commerce merchants and integration partners to create delivery orders, book home and locker delivery intervals, validate serviceable postal codes, discover parcel locker
@@ -137,7 +137,7 @@ modified: '2026-07-19'
 name: Instabee
 nav: Providers
 network: true
-overview: 'Instabee publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Logistics, Last Mile Delivery, and Shipping.
+overview: 'Instabee publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Logistics, Last-Mile Delivery, and Shipping.
 
 
   The Instabee catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -152,6 +152,11 @@ rate_limits:
 score:
   band: developing
   composite: 39.5
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 27.6
@@ -165,8 +170,8 @@ score:
   previous_composite: 39.5
   provenance:
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instabee/refs/heads/main/screenshots/instabee-2026-07-25T222557.png
 security:
@@ -183,7 +188,7 @@ tags:
 - Company
 - Retail
 - Logistics
-- Last Mile Delivery
+- Last-Mile Delivery
 - Shipping
 - E-Commerce
 - Parcel Lockers

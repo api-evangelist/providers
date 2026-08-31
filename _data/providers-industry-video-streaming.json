@@ -1,6 +1,6 @@
 {
- "total": 35,
- "shown": 35,
+ "total": 36,
+ "shown": 36,
  "limit": 1000,
  "bands": [
   {
@@ -16,12 +16,12 @@
      "slug": "mux-com",
      "description": "Mux is a video infrastructure platform that gives developers an end-to-end API for ingesting, encoding, storing, delivering, and analyzing video. The platform spans Mux Video (on-demand and live streaming), Mux Data (quality-of-experience analytics), Mux Robots (AI workflows for captions, chapters, summarization, and moderation), and Mux Player (drop-in playback components). Mux exposes a unified REST API at api.mux.com plus delivery hosts at stream.mux.com, image.mux.com, and stats.mux.com, backed by official SDKs in Node, Python, Ruby, PHP, Go, and Elixir, a CLI, and player integrations across web, iOS, Android, Roku, and major HTML5 players.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/screenshots/mux-com-2026-08-07T184502.png",
-     "score": 75.4,
+     "score": 76.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 68.3,
+      "discoverability": 70.4,
+      "contract_quality": 67.1,
       "governance": 60.6,
       "contract_governance": 60.6,
       "operational_transparency": 78.9,
@@ -29,8 +29,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 36.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -85,8 +85,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -130,8 +130,8 @@
       "commercial_clarity": 61.8,
       "access_clarity": 61.8
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -165,28 +165,28 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 7,
-   "shown": 7,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "LVT",
      "slug": "lvt",
      "description": "LVT (LiveView Technologies) is an American physical-security company that builds solar-powered, cellular-connected mobile surveillance units (MSUs) and the SaaS/PaaS platform that runs them — live video, AI analytics, alerting, lights, loudspeakers and AI talk-down — for retail, commercial, industrial, critical-infrastructure and public-sector sites. Founded in 2005 and headquartered in American Fork, Utah, LVT publishes a public Partner API: a REST service over JSON, described by a first-party OpenAPI 3.0.3 document on GitHub, that lets SOC operators and integrators list live units and locations, control cameras (pan/tilt/zoom), start RTSP and WebRTC streams through the LVT camera relay, play sounds, toggle lights, initiate speaker talk-down, review and resolve security alert events, fetch signed media URLs, and register HMAC-signed webhooks. The same API backs LVT's pre-built integrations with Immix, Axon Fusus and Genetec Security Center, and LVT units also present themselves to third-party VMS platforms as ONVIF cameras.",
-     "score": 54.1,
+     "score": 51.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 87.0,
-      "contract_quality": 61.4,
-      "governance": 30.3,
-      "contract_governance": 30.3,
+      "discoverability": 75.9,
+      "contract_quality": 62.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
       "operational_transparency": 36.8,
       "developer_ergonomics": 39.9,
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 32.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -217,12 +217,12 @@
      "slug": "spotify",
      "description": "Spotify is the world's leading music streaming platform with 600M+ users and 100M+ tracks. The Spotify Web API enables developers to discover music and podcasts, manage Spotify libraries, control audio playback, access audio analysis, and build personalized music experiences. Authentication uses OAuth 2.0 with scopes for user-authorized access. The API underwent significant changes in February 2026 with new generic library endpoints and streamlined playlist management.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/spotify/refs/heads/main/screenshots/spotify-2026-06-20T194353.png",
-     "score": 50.4,
+     "score": 49.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 73.7,
+      "discoverability": 75.9,
+      "contract_quality": 73.4,
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 26.3,
@@ -230,8 +230,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -262,21 +262,21 @@
      "slug": "angelcam",
      "description": "Angelcam is a cloud video-surveillance platform that connects any IP camera to the cloud — via ONVIF and the open-source Arrow connector — for live viewing, cloud recording, clip creation and sharing, two-way audio, sensors, and Remote Technical Surveillance (RTS) event notifications. The Angelcam RESTful API (HTTPS-only JSON, organised around Spaces, secured with OAuth2 or a Personal Access Token) exposes 90+ endpoints across cameras, recordings, clips, events, Arrow clients, notifications, speakers, and services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/screenshots/angelcam-2026-07-25T200231.png",
-     "score": 48.1,
+     "score": 47.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 70.4,
       "contract_quality": 63.4,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 55.3,
       "developer_ergonomics": 58.9,
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 38.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -312,7 +312,7 @@
      "band_label": "Developing",
      "facets": {
       "discoverability": 74.1,
-      "contract_quality": 59.7,
+      "contract_quality": 59.4,
       "governance": 60.6,
       "contract_governance": 60.6,
       "operational_transparency": 34.2,
@@ -320,8 +320,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -348,69 +348,24 @@
      "rank": 7
     },
     {
-     "name": "Roku",
-     "slug": "roku",
-     "description": "Roku is the leading TV streaming platform in the U.S., Canada, and Mexico, offering a comprehensive operating system that powers smart TVs, streaming players, and audio devices. Roku provides a robust developer program for building channel apps, monetizing through Roku Pay, integrating analytics, and controlling devices via the External Control Protocol. The platform supports both BrightScript and SceneGraph frameworks for app development, and the Nabu Cloud developer cloud for managing remote test devices and channel builds.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/screenshots/roku-2026-06-20T193206.png",
-     "score": 41.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 37.7,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 59.5,
-      "commercial_clarity": 39.5,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 28.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 8
-    },
-    {
      "name": "Qwilt",
      "slug": "qwilt",
      "description": "Qwilt operates a global content delivery network built on the Open Edge Cloud — a true edge cloud with thousands of deeply embedded caching nodes inside service-provider networks — for OTT video streaming, low-latency live, gaming, and software delivery. Qwilt exposes programmatic control of its CDN through the Sites API (media-delivery site objects, versioned configurations, and publish/un-publish operations), the Certificate Manager API (TLS certificates and Qwilt-managed CSR workflows), the Origin Allow List API, plus Delivery Reports and Keys Manager APIs. Automation is available via the official Qwilt Terraform provider and the qctl command-line interface. Authentication uses QC Services API keys (Viewer/Editor) sent as an X-API-KEY Authorization header, or a username/password bearer token.",
-     "score": 41.3,
+     "score": 39.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 16.5,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 18.4,
       "developer_ergonomics": 73.2,
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 22.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -434,18 +389,28 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
-    },
+     "rank": 8
+    }
+   ]
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "26.2 – 39.2",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 7,
+   "shown": 7,
+   "providers": [
     {
      "name": "Riot Games",
      "slug": "riot-games",
      "description": "Riot Games provides a comprehensive developer platform for accessing game data across League of Legends, VALORANT, Teamfight Tactics, Legends of Runeterra, and other titles. The Riot Developer Portal offers REST APIs for match history, ranked standings, champion mastery, live spectator data, tournament management, and player account data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/screenshots/riot-games-2026-06-20T193125.png",
-     "score": 39.7,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 39.1,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
+      "discoverability": 68.5,
       "contract_quality": 61.4,
       "governance": 25.0,
       "contract_governance": 25.0,
@@ -454,8 +419,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -479,28 +444,18 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
-    }
-   ]
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "26.2 – 39.2",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 5,
-   "shown": 5,
-   "providers": [
+     "rank": 9
+    },
     {
      "name": "Restream",
      "slug": "restream",
      "description": "Restream is a multistreaming platform that enables content creators and businesses to simultaneously broadcast live video to 30+ platforms including YouTube, Twitch, Facebook, LinkedIn, and more. The platform offers REST APIs and WebSocket connections for managing streams, channels, events, and chat.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/screenshots/restream-2026-06-20T193034.png",
-     "score": 38.3,
+     "score": 37.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 81.5,
+      "discoverability": 75.9,
       "contract_quality": 60.7,
       "governance": 13.6,
       "contract_governance": 13.6,
@@ -509,8 +464,8 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -534,6 +489,51 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 10
+    },
+    {
+     "name": "Roku",
+     "slug": "roku",
+     "description": "Roku is the leading TV streaming platform in the U.S., Canada, and Mexico, offering a comprehensive operating system that powers smart TVs, streaming players, and audio devices. Roku provides a robust developer program for building channel apps, monetizing through Roku Pay, integrating analytics, and controlling devices via the External Control Protocol. The platform supports both BrightScript and SceneGraph frameworks for app development, and the Nabu Cloud developer cloud for managing remote test devices and channel builds.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/screenshots/roku-2026-06-20T193206.png",
+     "score": 36.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 53.7,
+      "contract_quality": 37.3,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 59.5,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 28.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 11
     },
     {
@@ -541,11 +541,11 @@
      "slug": "warner-bros-discovery",
      "description": "Warner Bros. Discovery is a leading global media and entertainment company that creates and distributes the world's most differentiated and complete portfolio of branded content across television, film, and streaming. WBD operates the Max streaming platform, Warner Bros. film studio, HBO, CNN, Discovery, TNT, TBS, and many other brands. The company provides content partner APIs for media supply chain integration and maintains open source projects through its engineering teams.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/screenshots/warner-bros-discovery-2026-06-20T201227.png",
-     "score": 35.3,
+     "score": 34.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
+      "discoverability": 68.5,
       "contract_quality": 64.5,
       "governance": 28.8,
       "contract_governance": 28.8,
@@ -554,8 +554,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -586,11 +586,11 @@
      "slug": "picogrid",
      "description": "Picogrid is an El Segundo, California defense and public-safety technology company whose Legion platform is an API-first systems-integration layer that unifies fragmented sensors, unmanned systems, and mission assets across land, sea, air, and space into a single decision-ready picture. The Legion Platform API (v3, OpenAPI 3.1, OAuth 2.0 via Keycloak) lets operators and AI agents not only observe but command physical systems: registering entities, streaming and searching feed data, dispatching tasking commands over MQTT, managing tracks, video streams and WebRTC, fine-grained authorization, event subscriptions and notifications, and cross-Legion federation. Applications include base security, satellite operations, air defense, SIGINT interoperability, wildfire detection, and human-machine teaming. Backed by Bessemer Venture Partners and Initialized Capital.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/picogrid/refs/heads/main/screenshots/picogrid-2026-08-17T081219.png",
-     "score": 34.0,
+     "score": 32.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 87.0,
+      "discoverability": 75.9,
       "contract_quality": 42.7,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -599,8 +599,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 36.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -643,8 +643,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -675,12 +675,12 @@
      "slug": "disney",
      "description": "Community-maintained RESTful and GraphQL API exposing a database of 9,820+ Disney characters and the films, short films, TV shows, video games, and park attractions they appear in. The project (BSD-3-Clause) is developed in the open by Manu Castrillon at https://github.com/ManuCastrillonM/disney-api and documented at https://disneyapi.dev. The REST surface is unauthenticated and read-only. Disney and Disney characters are trademarks of The Walt Disney Company; this project is community fan-content and is not affiliated with or endorsed by Disney.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/screenshots/disney-2026-06-20T180046.png",
-     "score": 30.6,
+     "score": 31.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 81.5,
-      "contract_quality": 23.2,
+      "contract_quality": 23.6,
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 36.8,
@@ -688,8 +688,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 35.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -726,50 +726,6 @@
    "shown": 11,
    "providers": [
     {
-     "name": "Major League Baseball",
-     "slug": "major-league-baseball",
-     "description": "Major League Baseball (MLB) is the professional baseball organization of the United States and Canada, operating the National League and American League with 30 teams. MLB Advanced Media (now part of MLB) provides public stats and game data through the MLB Stats API and the legacy MLB Data (lookup service) API, used by teams, broadcasters, analysts, and a wide community of developers building stats sites, fantasy applications, and analytical tools. MLB also exposes Statcast data through Baseball Savant. There is no general-purpose self-service developer portal with terms or signup; the APIs are widely consumed but are formally intended for partner use.",
-     "score": 21.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 42.9,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 19.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 14.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 16
-    },
-    {
      "name": "Netflix",
      "slug": "netflix",
      "description": "Netflix is a streaming entertainment service operating one of the world's largest content delivery networks. While Netflix does not publish a general public consumer API, it operates partner programs including Open Connect for ISP CDN integration and device certification programs for manufacturers embedding the Netflix application.",
@@ -787,8 +743,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -801,6 +757,50 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 16
+    },
+    {
+     "name": "Major League Baseball",
+     "slug": "major-league-baseball",
+     "description": "Major League Baseball (MLB) is the professional baseball organization of the United States and Canada, operating the National League and American League with 30 teams. MLB Advanced Media (now part of MLB) provides public stats and game data through the MLB Stats API and the legacy MLB Data (lookup service) API, used by teams, broadcasters, analysts, and a wide community of developers building stats sites, fantasy applications, and analytical tools. MLB also exposes Statcast data through Baseball Savant. There is no general-purpose self-service developer portal with terms or signup; the APIs are widely consumed but are formally intended for partner use.",
+     "score": 20.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 42.9,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 19.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 14.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -832,8 +832,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -884,8 +884,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -912,51 +912,6 @@
      "rank": 19
     },
     {
-     "name": "National Hockey League",
-     "slug": "national-hockey-league",
-     "description": "The National Hockey League (NHL) is the premier professional ice hockey league in North America, comprised of 32 franchises across the United States and Canada. The NHL produces the Stanley Cup playoffs and is one of the major North American professional sports leagues. The NHL does not publish an officially documented developer portal; the league operates undocumented JSON endpoints used by its first-party web and mobile apps (api-web.nhle.com) and provides advanced statistics through NHL EDGE. Commercial data feeds are licensed through SMT, Sportradar, and other approved partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/screenshots/national-hockey-league-2026-06-20T190023.png",
-     "score": 18.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 46.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 17.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 20
-    },
-    {
      "name": "CoachClub",
      "slug": "coachclub",
      "description": "CoachClub — branded \"CoachClub by Move Your Fit\" — is a French direct-to-consumer online sport and wellness coaching service founded in 2010 in France by Leslie Vartabedian and backed by Serena. Subscribers answer a questionnaire covering goals, physical ability, health and availability, and receive a tailored training and nutrition programme drawn from a library of more than 1,100 on-demand coaching videos spanning over 30 disciplines — fitness, musculation, yoga, danse, cardio boxe, pilates, stretching, bien-être and prénatal/postnatal — graded across three difficulty levels and paired with twelve weeks of healthy recipes, accessible 24/7 from computer, tablet, smartphone or television. The public marketing site runs on WordPress and the member application is a hosted Kajabi tenant at mon.coachclub.com. CoachClub sells an end-user subscription only: it publishes no public API, SDK, webhook catalog, developer portal or machine-readable specification.",
@@ -973,8 +928,8 @@
       "commercial_clarity": 59.2,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1005,7 +960,97 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 20
+    },
+    {
+     "name": "Comcast",
+     "slug": "comcast",
+     "description": "Comcast Corporation is a global media and technology company with two primary businesses, Comcast Cable (Xfinity) and NBCUniversal, providing video, internet, voice, wireless, and entertainment services to residential and business customers. Comcast publishes a public developer program centered on the Firebolt application platform for connected TV experiences, along with authentication and content ingest endpoints used by NBCUniversal media partners. The Firebolt SDK family is used by app developers to write apps once and deploy across Xfinity X1, Xfinity Flex, Sky Q, and other Comcast set-top boxes and connected devices.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/screenshots/comcast-2026-06-20T174802.png",
+     "score": 17.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 21.4,
+      "commercial_clarity": 23.7,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 21
+    },
+    {
+     "name": "National Hockey League",
+     "slug": "national-hockey-league",
+     "description": "The National Hockey League (NHL) is the premier professional ice hockey league in North America, comprised of 32 franchises across the United States and Canada. The NHL produces the Stanley Cup playoffs and is one of the major North American professional sports leagues. The NHL does not publish an officially documented developer portal; the league operates undocumented JSON endpoints used by its first-party web and mobile apps (api-web.nhle.com) and provides advanced statistics through NHL EDGE. Commercial data feeds are licensed through SMT, Sportradar, and other approved partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/screenshots/national-hockey-league-2026-06-20T190023.png",
+     "score": 17.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 46.7,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 17.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 22
     },
     {
      "name": "Condé Nast",
@@ -1024,8 +1069,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1038,51 +1083,6 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 22
-    },
-    {
-     "name": "Comcast",
-     "slug": "comcast",
-     "description": "Comcast Corporation is a global media and technology company with two primary businesses, Comcast Cable (Xfinity) and NBCUniversal, providing video, internet, voice, wireless, and entertainment services to residential and business customers. Comcast publishes a public developer program centered on the Firebolt application platform for connected TV experiences, along with authentication and content ingest endpoints used by NBCUniversal media partners. The Firebolt SDK family is used by app developers to write apps once and deploy across Xfinity X1, Xfinity Flex, Sky Q, and other Comcast set-top boxes and connected devices.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/screenshots/comcast-2026-06-20T174802.png",
-     "score": 16.9,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 23.7,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -1114,8 +1114,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1159,8 +1159,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1204,8 +1204,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1245,29 +1245,28 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 9,
-   "shown": 9,
+   "count": 10,
+   "shown": 10,
    "providers": [
     {
-     "name": "BallerTV",
-     "slug": "ballertv",
-     "description": "BallerTV (Baller, Inc.) is a Pasadena, California sports media company that live streams and provides on-demand replays and highlights of youth and amateur sports, including basketball, volleyball, soccer, lacrosse, softball, and football, from thousands of tournaments and showcases nationwide. Subscribers range from families following athletes to NCAA and professional scouts using the footage for recruiting and scouting. The platform includes a Game Finder for locating events, purchasable athlete highlight reels, and BTVision, an AI-powered ball-tracking streaming technology that improves the basketball viewing experience. BallerTV is a consumer streaming product delivered through its website and iOS/Android apps; it does not publish a public developer API or SDK program. This profile was surfaced as an index-ventures portfolio company and enriched from public web sources.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ballertv/refs/heads/main/screenshots/ballertv-2026-07-25T202310.png",
-     "score": 8.1,
+     "name": "Red5 Live Streaming Solutions and Infrastructure",
+     "slug": "red5-live-streaming-solutions-and-infrastructure",
+     "description": "Red5 provides real-time video/audio streaming infrastructure via open-source Red5, self-hosted Red5 Pro (with Stream Manager 2.0), the managed Red5 Cloud PaaS, and client SDKs. It exposes fully documented REST APIs (Red5 Pro Server API and Stream Manager 2.0 API) that run on customer-deployed instances or Red5 Cloud, plus an agent-native llms.txt.",
+     "score": 9.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 72.2,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 6.6,
-      "access_clarity": 6.6
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1294,11 +1293,11 @@
      "rank": 27
     },
     {
-     "name": "Fox Corporation",
-     "slug": "fox",
-     "description": "Fox Corporation is a U.S. media company whose portfolio includes Fox News Media, Fox Sports, Fox Entertainment, Fox Television Stations, and the ad-supported streaming service Tubi. Fox is a Fortune 500 consumer of cloud, AI, and media technology APIs (notably AWS as preferred AI cloud provider) but does not publish a public developer portal at the corporate level.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fox/refs/heads/main/screenshots/fox-2026-06-20T181458.png",
-     "score": 5.8,
+     "name": "BallerTV",
+     "slug": "ballertv",
+     "description": "BallerTV (Baller, Inc.) is a Pasadena, California sports media company that live streams and provides on-demand replays and highlights of youth and amateur sports, including basketball, volleyball, soccer, lacrosse, softball, and football, from thousands of tournaments and showcases nationwide. Subscribers range from families following athletes to NCAA and professional scouts using the footage for recruiting and scouting. The platform includes a Game Finder for locating events, purchasable athlete highlight reels, and BTVision, an AI-powered ball-tracking streaming technology that improves the basketball viewing experience. BallerTV is a consumer streaming product delivered through its website and iOS/Android apps; it does not publish a public developer API or SDK program. This profile was surfaced as an index-ventures portfolio company and enriched from public web sources.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ballertv/refs/heads/main/screenshots/ballertv-2026-07-25T202310.png",
+     "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1307,12 +1306,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 6.6,
+      "access_clarity": 6.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1339,11 +1338,11 @@
      "rank": 28
     },
     {
-     "name": "NBC",
-     "slug": "nbc",
-     "description": "NBC (National Broadcasting Company) is a major American commercial broadcast television network and a subsidiary of Comcast through NBCUniversal. NBC produces news (NBC News, Today), entertainment, late-night, and sports programming (Sunday Night Football, Olympic Games). NBC and parent company NBCUniversal do not publish a public developer portal. Programmatic advertising APIs (NBCUniversal One Platform) and streaming partner integrations (Peacock) are offered only through direct sales relationships rather than self-serve developer signup.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nbc/refs/heads/main/screenshots/nbc-2026-06-20T190110.png",
-     "score": 5.3,
+     "name": "Fox Corporation",
+     "slug": "fox",
+     "description": "Fox Corporation is a U.S. media company whose portfolio includes Fox News Media, Fox Sports, Fox Entertainment, Fox Television Stations, and the ad-supported streaming service Tubi. Fox is a Fortune 500 consumer of cloud, AI, and media technology APIs (notably AWS as preferred AI cloud provider) but does not publish a public developer portal at the corporate level.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fox/refs/heads/main/screenshots/fox-2026-06-20T181458.png",
+     "score": 5.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1352,12 +1351,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1384,10 +1383,10 @@
      "rank": 29
     },
     {
-     "name": "Paramount",
-     "slug": "paramount",
-     "description": "Paramount is a global media and entertainment company producing premium content and experiences for audiences worldwide, encompassing film, television, and streaming through brands such as Paramount Pictures, CBS, Nickelodeon, MTV, Comedy Central, BET, Paramount+, and Pluto TV.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/paramount/refs/heads/main/screenshots/paramount-2026-06-20T191356.png",
+     "name": "NBC",
+     "slug": "nbc",
+     "description": "NBC (National Broadcasting Company) is a major American commercial broadcast television network and a subsidiary of Comcast through NBCUniversal. NBC produces news (NBC News, Today), entertainment, late-night, and sports programming (Sunday Night Football, Olympic Games). NBC and parent company NBCUniversal do not publish a public developer portal. Programmatic advertising APIs (NBCUniversal One Platform) and streaming partner integrations (Peacock) are offered only through direct sales relationships rather than self-serve developer signup.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nbc/refs/heads/main/screenshots/nbc-2026-06-20T190110.png",
      "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1401,8 +1400,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1429,10 +1428,11 @@
      "rank": 30
     },
     {
-     "name": "PPS (pps.tv)",
-     "slug": "pps",
-     "description": "PPS (pps.tv), originally the PPStream peer-to-peer online-video client, is a Chinese internet-video brand backed by Qiming Venture Partners. The pps.tv domain now issues a permanent HTTP 301 redirect to suike.cn, the home of iQIYI Suike (爱奇艺随刻) — a video-sharing and short-video community operated by iQIYI. It is a consumer video product; as of this enrichment pass it publishes no public developer API, developer portal, SDKs, or /.well-known discovery surface, so there is no API artifact set to harvest for this profile.",
-     "score": 5.0,
+     "name": "Paramount",
+     "slug": "paramount",
+     "description": "Paramount is a global media and entertainment company producing premium content and experiences for audiences worldwide, encompassing film, television, and streaming through brands such as Paramount Pictures, CBS, Nickelodeon, MTV, Comedy Central, BET, Paramount+, and Pluto TV.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/paramount/refs/heads/main/screenshots/paramount-2026-06-20T191356.png",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1440,13 +1440,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1473,25 +1473,24 @@
      "rank": 31
     },
     {
-     "name": "National Football League",
-     "slug": "national-football-league",
-     "description": "The National Football League (NFL) is the premier professional American football league, comprised of 32 franchises divided between the AFC and NFC conferences. The NFL produces the Super Bowl and is the most-watched sports league in the United States. The league does not operate a public developer portal; statistical and play-by-play data feeds are licensed to partners (notably AWS, Amazon Web Services Next Gen Stats, Sportradar, and Genius Sports) and are not offered as a self-serve developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-football-league/refs/heads/main/screenshots/national-football-league-2026-06-20T190016.png",
-     "score": 4.9,
+     "name": "PPS (pps.tv)",
+     "slug": "pps",
+     "description": "PPS (pps.tv), originally the PPStream peer-to-peer online-video client, is a Chinese internet-video brand backed by Qiming Venture Partners. The pps.tv domain now issues a permanent HTTP 301 redirect to suike.cn, the home of iQIYI Suike (爱奇艺随刻) — a video-sharing and short-video community operated by iQIYI. It is a consumer video product; as of this enrichment pass it publishes no public developer API, developer portal, SDKs, or /.well-known discovery surface, so there is no API artifact set to harvest for this profile.",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1518,25 +1517,25 @@
      "rank": 32
     },
     {
-     "name": "Warner Brothers",
-     "slug": "warner-brothers",
-     "description": "A major American film and entertainment studio producing movies, television shows, and interactive entertainment. Part of Warner Bros. Discovery operating across theatrical, streaming, and gaming platforms.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/warner-brothers/refs/heads/main/screenshots/warner-brothers-2026-06-20T201229.png",
-     "score": 4.8,
+     "name": "National Football League",
+     "slug": "national-football-league",
+     "description": "The National Football League (NFL) is the premier professional American football league, comprised of 32 franchises divided between the AFC and NFC conferences. The NFL produces the Super Bowl and is the most-watched sports league in the United States. The league does not operate a public developer portal; statistical and play-by-play data feeds are licensed to partners (notably AWS, Amazon Web Services Next Gen Stats, Sportradar, and Genius Sports) and are not offered as a self-serve developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-football-league/refs/heads/main/screenshots/national-football-league-2026-06-20T190016.png",
+     "score": 4.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1563,14 +1562,15 @@
      "rank": 33
     },
     {
-     "name": "National Basketball Association",
-     "slug": "national-basketball-association",
-     "description": "The National Basketball Association (NBA) is the premier men's professional basketball league in North America, comprised of 30 franchises (29 in the United States and 1 in Canada). The NBA does not operate a public developer portal; statistical, scoring, and play-by-play data feeds are licensed through official partners (notably Sportradar and Genius Sports). The stats.nba.com endpoints are not officially documented as a public API.",
-     "score": 4.4,
+     "name": "Warner Brothers",
+     "slug": "warner-brothers",
+     "description": "A major American film and entertainment studio producing movies, television shows, and interactive entertainment. Part of Warner Bros. Discovery operating across theatrical, streaming, and gaming platforms.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/warner-brothers/refs/heads/main/screenshots/warner-brothers-2026-06-20T201229.png",
+     "score": 4.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -1579,8 +1579,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1607,15 +1607,14 @@
      "rank": 34
     },
     {
-     "name": "USA TODAY",
-     "slug": "usa-today",
-     "description": "A major American daily national newspaper and digital news platform owned by Gannett. One of the most widely circulated newspapers in the United States covering news, sports, entertainment, and lifestyle topics.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/usa-today/refs/heads/main/screenshots/usa-today-2026-06-20T200638.png",
-     "score": 3.9,
+     "name": "National Basketball Association",
+     "slug": "national-basketball-association",
+     "description": "The National Basketball Association (NBA) is the premier men's professional basketball league in North America, comprised of 30 franchises (29 in the United States and 1 in Canada). The NBA does not operate a public developer portal; statistical, scoring, and play-by-play data feeds are licensed through official partners (notably Sportradar and Genius Sports). The stats.nba.com endpoints are not officially documented as a public API.",
+     "score": 4.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 35.2,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -1624,8 +1623,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1650,6 +1649,51 @@
       "agentic_commerce": false
      },
      "rank": 35
+    },
+    {
+     "name": "USA TODAY",
+     "slug": "usa-today",
+     "description": "A major American daily national newspaper and digital news platform owned by Gannett. One of the most widely circulated newspapers in the United States covering news, sports, entertainment, and lifestyle topics.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/usa-today/refs/heads/main/screenshots/usa-today-2026-06-20T200638.png",
+     "score": 3.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 35.2,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 36
     }
    ]
   }

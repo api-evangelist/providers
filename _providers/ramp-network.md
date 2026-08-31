@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Public REST API used alongside the Ramp Instant widget. Exposes available on-ramp assets and prices, off-ramp assets and prices, supported fiat currencies, payment methods, payout methods, on-ramp pur
@@ -171,7 +171,7 @@ modified: '2026-08-26'
 name: Ramp Network
 nav: Providers
 network: true
-overview: 'Ramp Network publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency, Payments, FinTech, On-Ramp, and Off-Ramp.
+overview: 'Ramp Network publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency, Payments, Fintech, On-Ramp, and Off-Ramp.
 
 
   The Ramp Network catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -190,6 +190,12 @@ rate_limits:
 score:
   band: developing
   composite: 52.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -199,17 +205,23 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
+  previous_composite: 52.4
   provenance:
     conformance: first-party
     mcp: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 65.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Ramp Network Authentication
@@ -231,7 +243,7 @@ slug: ramp-network
 tags:
 - Cryptocurrency
 - Payments
-- FinTech
+- Fintech
 - On-Ramp
 - Off-Ramp
 - Blockchain

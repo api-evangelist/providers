@@ -12,9 +12,10 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: negotiable
@@ -23,9 +24,9 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-26'
+  score: 41.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 10
   slug: adobe-premiere-agentic-access
   summary_line: 10 operations · 5 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Adobe Premiere Pro extension APIs using UXP (Unified Extensibility Platform) and CEP (Common Extensibility Platform) for building plugins and panels that automate video editing workflows, add custom e
   name: Adobe Premiere Pro API
@@ -56,6 +57,9 @@ apis:
 - description: Manage element representations and renditions
   name: Adobe Premiere Pro Representations API
   slug: adobe-premiere-representations-api
+- description: Adobe's published REST API for Creative Cloud Libraries — the shared asset store (colors, character styles, brushes, graphics, patterns and video) that Premiere Pro panels read and write. 25 operation
+  name: Adobe Creative Cloud Libraries API
+  slug: adobe-creative-cloud-libraries-api
 arazzos:
 - description: Create a library, add an element to it, then read the element back.
   name: Adobe Premiere Add Element to Creative Cloud Library
@@ -78,7 +82,11 @@ arazzos:
 - description: Read a library, update its name, then read it back to confirm the change.
   name: Adobe Premiere Rename and Verify Creative Cloud Library
   slug: adobe-premiere-rename-and-verify-library-workflow
-artifact_total: 71
+artifact_total: 74
+asyncapis:
+- description: ''
+  name: Adobe Premiere Libraries Webhooks
+  slug: adobe-premiere-libraries-webhooks
 collections:
 - collection_type: postman
   name: Adobe Creative Cloud Libraries API
@@ -99,6 +107,10 @@ collections:
   name: Adobe Creative Cloud Libraries Elements Representations API
   slug: open-adobe-premiere-representations-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.adobe.com/products/premiere.html
 - group: agent
   title: ''
   type: AgenticAccess
@@ -162,7 +174,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://developer.adobe.com/premiere-pro/docs/
+  url: https://developer.adobe.com/premiere-pro/uxp/
 - group: company
   title: ''
   type: Blog
@@ -194,11 +206,11 @@ common:
 - group: learn
   title: ''
   type: YouTube
-  url: https://www.youtube.com/user/AdobeDeveloperTV
+  url: https://www.youtube.com/c/AdobeDevelopers
 - group: start
   title: ''
   type: GettingStarted
-  url: https://developer.adobe.com/premiere-pro/docs/getting-started/
+  url: https://developer.adobe.com/premiere-pro/uxp/introduction/
 - group: design
   title: ''
   type: SpectralRules
@@ -207,12 +219,112 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/adobe-premiere-vocabulary.yaml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/adobe-premiere-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/adobe-premiere-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/adobe-premiere-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/adobe-premiere-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/adobe-premiere-vulnerability-disclosure.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/adobe-premiere-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/adobe-premiere-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/adobe-premiere-cc-libraries-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/adobe-premiere-elements-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/adobe-premiere-libraries-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/adobe-premiere-representations-api-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/adobe-premiere-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/adobe-premiere-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/adobe-premiere-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/adobe-premiere-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/adobe-premiere-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/adobe-premiere-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/adobe-premiere-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/adobe-premiere-libraries-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/adobe-premiere-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/adobe-premiere-rate-limits.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.adobe.com/premiere-pro/uxp/ppro-reference/
+- group: start
+  title: ''
+  type: Quickstart
+  url: https://developer.adobe.com/premiere-pro/uxp/plugins/tutorials/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://forums.creativeclouddeveloper.com/
 - group: design
   title: ''
   type: JSONLD
   url: json-ld/adobe-premiere-creative-cloud-libraries-context.jsonld
 created: '2024-01-01'
-description: APIs for Adobe Premiere Pro, a professional video editing software that enables programmatic access to video editing, project management, and content creation workflows.
+description: 'Adobe Premiere Pro is a professional non-linear video editor. Its programmable surface has two halves: the Premiere UXP API, an in-process JavaScript DOM for plugins and panels that automate editing, extend the timeline and integrate hardware or media asset management systems inside the desktop application; and the Adobe Creative Cloud Libraries REST API on cc-libraries.adobe.io, which is what a Premiere panel calls over HTTP to read and write shared assets — colors, character styles, graphics, patterns and video — along with an Adobe I/O Events webhook surface for library changes.'
 examples:
 - key_count: 6
   name: Creative Cloud Libraries Element Example
@@ -327,24 +439,28 @@ jsonld:
   property_count: 12
   slug: adobe-premiere-creative-cloud-libraries-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: Adobe Premiere Pro MCP Server
+  slug: adobe-premiere-pro-mcp-server
 modified: '2026-04-19'
 name: Adobe Premiere Pro
 nav: Providers
 network: true
-overview: 'Adobe Premiere Pro publishes 3 APIs on the [APIs.io](https://apis.io/) network: Elements API, Libraries API, and Representations API. Tagged areas include Adobe, Automation, Creative Cloud, Media, and Premiere Pro.
+overview: 'Adobe Premiere Pro publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Elements API, Libraries API, Representations API, and 1 more. Tagged areas include Adobe, Automation, Creative Cloud, Media, and Premiere Pro.
 
 
-  The Adobe Premiere Pro catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Adobe Premiere Pro catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Adobe Premiere Pro''s developer surface includes authentication, developer portal, documentation, engineering blog, support, developer console, YouTube channel, and 21 more developer resources.'
+  Adobe Premiere Pro''s developer surface includes authentication, developer portal, documentation, engineering blog, support, developer console, YouTube channel, and 47 more developer resources.'
 plans:
 - name: Adobe Premiere Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: adobe-premiere-plans-pricing
 random_paper: 2
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Adobe Premiere Rate Limits
   slug: adobe-premiere-rate-limits
 rules:
@@ -371,23 +487,28 @@ rules:
   slug: adobe-premiere-spectral-rules
 scopes:
 - name: Adobe Premiere Scopes
-  scope_count: 3
+  scope_count: 4
   slug: adobe-premiere-scopes
-  summary_line: 3 scopes · authorizationCode
+  summary_line: 4 scopes · authorizationCode
 score:
-  band: developing
-  composite: 48.8
-  delta: 1.4
+  band: strong
+  composite: 60.8
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 12.0
   facets:
-    access_clarity: 36.8
-    commercial_clarity: 36.8
-    contract_governance: 28.8
-    contract_quality: 74.8
-    developer_ergonomics: 57.1
-    discoverability: 64.8
-    governance: 28.8
-    operational_transparency: 10.5
-  previous_composite: 47.4
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 47.0
+    contract_quality: 80.3
+    developer_ergonomics: 83.3
+    discoverability: 68.5
+    governance: 47.0
+    operational_transparency: 44.7
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     contracts:
@@ -395,9 +516,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/screenshots/adobe-premiere-2026-06-20T165010.png
 security:
 - kind: authentication
@@ -434,5 +555,5 @@ use_cases:
   name: AI-Powered Editing
 - description: Connect editing consoles, color grading hardware, and custom input devices to Premiere Pro workflows.
   name: Hardware Controller Integration
-website: https://developer.adobe.com/premiere-pro/
+website: https://www.adobe.com/products/premiere.html
 ---

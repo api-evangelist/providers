@@ -23,7 +23,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -31,11 +31,23 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-08-26'
+  score: 3.5
+  scored_at: '2026-08-30'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
 common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/northrop-grumman-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/northrop-grumman-llms.txt
+- group: company
+  title: ''
+  type: Website
+  url: https://www.northropgrumman.com/
 - group: build
   title: ''
   type: GitHubOrganization
@@ -46,16 +58,70 @@ common:
   url: https://www.linkedin.com/company/northrop-grumman-corporation
 - group: company
   title: ''
-  type: Website
-  url: https://www.northrop-grumman.com
-description: Northrop Grumman is a global aerospace, defense, and security company that delivers innovative systems, products, and solutions in autonomous systems, cyber, command and control, space, and strike weapons.
+  type: Blog
+  url: https://news.northropgrumman.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.northropgrumman.com/who-we-are/contact-us-northrop-grumman
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.northropgrumman.com/who-we-are/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.northropgrumman.com/who-we-are/privacy-policy
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.northropgrumman.com/careers
+- group: other
+  title: ''
+  type: Suppliers
+  url: https://www.northropgrumman.com/suppliers
+- group: company
+  title: ''
+  type: Investors
+  url: https://investor.northropgrumman.com/
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/channel/UCiTTe3mBodoZVGVhQDpEFjg
+- group: company
+  title: ''
+  type: X (Twitter)
+  url: https://twitter.com/northropgrumman
+coverage:
+  checked: '2026-08-28'
+  detail: 'Northrop Grumman ships mission software but runs no developer program of any kind: developer.northropgrumman.com and api.northropgrumman.com do not resolve, every /.well-known/, /openapi.json and /llms.txt path on www.northropgrumman.com returns a clean 404, and the only external integration surfaces — the OASIS supplier tools on myngc.com — are ADFS-authenticated web portals with no documented API behind them.'
+  evidence:
+  - status: 404
+    url: https://www.northropgrumman.com/openapi.json
+  - status: 404
+    url: https://www.northropgrumman.com/.well-known/api-catalog
+  - status: 404
+    url: https://www.northropgrumman.com/.well-known/agent-card.json
+  - status: 404
+    url: https://www.northropgrumman.com/llms.txt
+  - status: 0
+    url: https://developer.northropgrumman.com/
+  - status: 307
+    url: https://oasis-dashboard.amer.myngc.com/
+  reason: no-developer-program
+  state: none
+created: '2026-03-21'
+description: 'Northrop Grumman Corporation is a US global aerospace, defense and security company headquartered in Falls Church, Virginia, organized into four segments: Aeronautics Systems, Defense Systems, Mission Systems and Space Systems. It builds autonomous aircraft, strategic bombers and long-range strike weapons, missile defense and integrated battle command systems, radar and electronic warfare sensors, cyber and command-and-control mission software, solid rocket motors, and space vehicles and launch systems for US Department of Defense, intelligence-community, NASA and allied customers. It publishes no public developer program, API portal or machine-readable API contract; its external integration surfaces are the ADFS-authenticated OASIS supplier tools on myngc.com, available only to registered suppliers under contract.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/northrop-grumman.png
 layout: provider
-modified: '2026-03-21'
-name: northrop-grumman
+modified: '2026-08-28'
+name: Northrop Grumman
 nav: Providers
 network: true
-overview: northrop-grumman is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
+overview: 'Northrop Grumman is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Autonomous Systems, Command and Control, Cybersecurity, and Defense.
+
+
+  Northrop Grumman''s developer surface includes engineering blog, support, YouTube channel, and 11 more developer resources.'
 press:
 - date: '2026-05-25'
   title: Northrop Grumman Expanding Its Use of NVIDIA AI ...
@@ -74,16 +140,21 @@ press:
   url: https://news.northropgrumman.com/artificial-intelligence
 random_paper: 16
 score:
-  band: minimal
-  composite: 3.9
+  band: emerging
+  composite: 12.3
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 35.2
+    developer_ergonomics: 7.1
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
   needs_work:
@@ -92,12 +163,33 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 3.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 12.3
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 25.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
+security:
+- kind: domain-security
+  name: Northrop Grumman Domain Security
+  slug: northrop-grumman-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: northrop-grumman
 tags:
+- Aerospace
+- Autonomous Systems
+- Command and Control
+- Cybersecurity
+- Defense
+- Fortune 100
 - Fortune 500
-website: https://www.northrop-grumman.com
+- Government
+- Manufacturing
+- Mission Systems
+- Space
+website: https://www.northropgrumman.com/
 ---

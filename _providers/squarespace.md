@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 30
   slug: squarespace-agentic-access
   summary_line: 30 operations · 17 acting
-api_count: 9
+api_count: 2
 apis:
 - description: The Squarespace Orders API provides access to order history for a Squarespace merchant site, supporting both one-time purchases and subscription orders. Developers can retrieve, create, and manage ord
   name: Squarespace Orders API
@@ -65,13 +65,25 @@ apis:
 - description: Basic site information and metadata
   name: Squarespace Site API
   slug: squarespace-site-api
-- description: 'The complete Squarespace Commerce API as Squarespace itself publishes it — a single OpenAPI 3.1.1 document covering 55 operations across ten resource families: Orders, Products, Inventory, Contacts, D'
-  name: Squarespace Commerce API
-  slug: squarespace-commerce-api
 - description: Squarespace operates a first-party remote MCP server at https://mcp.squarespace.com/mcp. It answers an unauthenticated JSON-RPC tools/list with HTTP 200 and exposes two tools with full JSON Schema inp
   name: Squarespace MCP Server
   slug: squarespace-mcp
-artifact_total: 40
+- description: Query analytics for a website
+  name: Squarespace Analytics API
+  slug: squarespace-analytics-api
+- description: 'Manage customer contacts and address book entries for a website: create, read, update, delete, and query contacts; maintain addresses for shipping and fulfillment.'
+  name: Squarespace Contacts API
+  slug: squarespace-contacts-api
+- description: Manage discounts for a website.
+  name: Squarespace Discounts API
+  slug: squarespace-discounts-api
+- description: The WebhookSubscriptions API from Squarespace — 4 operation(s) for webhooksubscriptions.
+  name: Squarespace Webhook Subscriptions API
+  slug: squarespace-webhooksubscriptions-api
+- description: The Websites API from Squarespace — 3 operation(s) for websites.
+  name: Squarespace Websites API
+  slug: squarespace-websites-api
+artifact_total: 44
 asyncapis:
 - description: The Squarespace webhook system delivers real-time event notifications to registered endpoint URLs when commerce activity occurs on a merchant site. Supported events include order creation, order updat
   name: Squarespace Webhook Events
@@ -105,6 +117,14 @@ collections:
   name: Squarespace Commerce Inventory Webhook Subscriptions API
   slug: open-squarespace-webhook-subscriptions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/squarespace-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/squarespace-commerce-api-v2-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -334,13 +354,13 @@ modified: '2026-08-13'
 name: Squarespace
 nav: Providers
 network: true
-overview: 'Squarespace publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Products API, Inventory API, and 5 more. Tagged areas include Commerce, E-Commerce, Marketing, Payments, and Retail.
+overview: 'Squarespace publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Products API, Inventory API, and 9 more. Tagged areas include Commerce, E-Commerce, Marketing, Payments, and Retail.
 
 
   The Squarespace catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Squarespace''s developer surface includes authentication, documentation, engineering blog, changelog, API reference, getting-started guide, support, and 39 more developer resources.'
+  Squarespace''s developer surface includes authentication, documentation, engineering blog, changelog, API reference, getting-started guide, support, and 41 more developer resources.'
 plans:
 - name: Squarespace Plans Pricing
   plan_count: 5
@@ -390,18 +410,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 77.6
-  delta: 1.8
+  composite: 74.9
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 45.5
-    contract_quality: 75.8
+    contract_governance: 33.3
+    contract_quality: 73.1
     developer_ergonomics: 58.9
-    discoverability: 64.8
-    governance: 45.5
+    discoverability: 59.3
+    governance: 33.3
     operational_transparency: 81.6
-  previous_composite: 75.8
+  previous_composite: 75.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -418,8 +443,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/screenshots/squarespace-2026-06-20T194430.png
 security:

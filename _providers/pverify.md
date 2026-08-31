@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 10
   slug: pverify-agentic-access
   summary_line: 10 operations · 7 acting
-api_count: 13
+api_count: 1
 apis:
 - description: OAuth2 client-credentials token endpoint. POST /Token exchanges Client_Id + Client_Secret for a bearer access_token used on every other pVerify call, alongside the case-sensitive Client-API-Id header.
   name: pVerify Authentication API
@@ -115,6 +115,10 @@ collections:
   name: pVerify API
   slug: open-pverify
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pverify-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -281,7 +285,7 @@ overview: 'pVerify publishes 13 APIs on the [APIs.io](https://apis.io/) network,
   The pVerify catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  pVerify''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 30 more developer resources.'
+  pVerify''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 31 more developer resources.'
 plans:
 - name: Pverify Plans Pricing
   plan_count: 8
@@ -293,18 +297,23 @@ rate_limits:
   slug: pverify-rate-limits
 score:
   band: strong
-  composite: 56.5
-  delta: 0.0
+  composite: 55.2
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 46.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 62.6
     developer_ergonomics: 49.4
-    discoverability: 74.1
-    governance: 45.5
+    discoverability: 75.9
+    governance: 33.3
     operational_transparency: 34.2
-  previous_composite: 56.5
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -321,8 +330,8 @@ score:
     regime: Health
     regime_id: health
     score: 27.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/screenshots/pverify-2026-08-17T080414.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 27
   slug: confluence-agentic-access
   summary_line: 27 operations · 11 acting
-api_count: 66
+api_count: 1
 apis:
 - description: Store and retrieve custom data against Confluence content.
   name: Confluence Content Properties API
@@ -1165,18 +1165,23 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.1
-  delta: 1.4
+  composite: 63.8
+  coverage:
+    artifact_dirs: 35
+    catalog_gap: 68.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 79.0
     developer_ergonomics: 92.9
-    discoverability: 66.7
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 63.7
+  previous_composite: 64.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1186,8 +1191,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/screenshots/confluence-2026-06-20T174854.png
 security:

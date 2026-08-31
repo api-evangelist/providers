@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 38
   slug: aws-app-mesh-agentic-access
   summary_line: 38 operations · 23 acting
-api_count: 4
+api_count: 1
 apis:
 - description: The Meshes API from AWS App Mesh — 14 operation(s) for meshes.
   name: AWS App Mesh Meshes API
@@ -86,6 +86,10 @@ collections:
   name: AWS App Mesh Meshes Untag#resourceArn API
   slug: open-aws-app-mesh-untag-resourcearn-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/aws-app-mesh-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -3278,7 +3282,7 @@ overview: 'AWS App Mesh publishes 4 APIs on the [APIs.io](https://apis.io/) netw
   The AWS App Mesh catalog on APIs.io includes 20 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  AWS App Mesh''s developer surface includes authentication, documentation, getting-started guide, pricing, FAQ, developer console, support, and 12 more developer resources.'
+  AWS App Mesh''s developer surface includes authentication, documentation, getting-started guide, pricing, FAQ, developer console, support, and 13 more developer resources.'
 plans:
 - name: Aws App Mesh Plans Pricing
   plan_count: 3
@@ -3312,18 +3316,23 @@ rules:
   slug: aws-app-mesh-spectral-rules
 score:
   band: developing
-  composite: 53.4
-  delta: 1.4
+  composite: 52.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 28.8
     contract_quality: 68.0
     developer_ergonomics: 57.1
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 52.0
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     contracts:
@@ -3331,8 +3340,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/screenshots/aws-app-mesh-2026-06-20T172740.png
 security:

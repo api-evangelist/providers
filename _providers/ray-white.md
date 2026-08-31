@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 2
 common:
@@ -110,26 +110,31 @@ overview: 'Ray White is profiled on the [APIs.io](https://apis.io/) network. Tag
 random_paper: 19
 score:
   band: emerging
-  composite: 12.8
-  delta: -0.4
+  composite: 11.7
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 90.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 57.4
+    discoverability: 46.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 13.2
+  previous_composite: 11.7
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

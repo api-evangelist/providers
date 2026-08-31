@@ -23,13 +23,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: IP and domain intelligence — geolocation, ASN and network, hosting and proxy signals. 18 operations, 24 schemas, bearer authentication.
-  name: Lookip API
-  slug: lookip-api
-artifact_total: 1
+- description: Public ASN directory. No key, no credit.
+  name: Lookip ASN API
+  slug: lookip-asn-api
+- description: Up to 100 addresses per call.
+  name: Lookip Batch API
+  slug: lookip-batch-api
+- description: Single-address lookups.
+  name: Lookip Lookup API
+  slug: lookip-lookup-api
+- description: Service index, liveness and this document.
+  name: Lookip Service API
+  slug: lookip-service-api
+artifact_total: 4
 common:
 - group: other
   title: ''
@@ -66,37 +75,44 @@ modified: '2026-08-26'
 name: Lookip
 nav: Providers
 network: true
-overview: 'Lookip publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include IP Intelligence, Geolocation, Networking, Security, and Data.
+overview: 'Lookip publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ASN API, Batch API, Lookup API, and 1 more. Tagged areas include ip lookup, geolocation, asn, and proxy detection.
 
 
   Lookip''s developer surface includes signup flow and 6 more developer resources.'
 random_paper: 3
 score:
   band: thin
-  composite: 37.6
+  composite: 36.3
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 85.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
-    contract_quality: 61.9
+    contract_quality: 60.2
     developer_ergonomics: 40.5
-    discoverability: 72.2
+    discoverability: 63.0
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 37.8
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 slug: lookip
 tags:
-- IP Intelligence
-- Geolocation
-- Networking
-- Security
-- Data
+- ip lookup
+- geolocation
+- asn
+- proxy detection
 website: https://lookip.io
 ---

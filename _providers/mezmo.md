@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -42,17 +42,8 @@ agentic_access:
   operation_count: 62
   slug: mezmo-agentic-access
   summary_line: 62 operations · 37 acting · 3 human-in-the-loop
-api_count: 21
+api_count: 7
 apis:
-- description: Manage Mezmo log Views via /v1/config/view. Views are saved query definitions over hosts, apps, levels, tags, and free-text filters and are the unit alerts attach to.
-  name: Mezmo Views API
-  slug: mezmo-views-api
-- description: Configure cold-storage archiving via /v1/config/archiving. Supports S3, GCS, Azure Blob, IBM COS, and DigitalOcean Spaces destinations for long-term retention beyond plan limits.
-  name: Mezmo Archiving API
-  slug: mezmo-archiving-api
-- description: Query log usage by app, host, or tag via /v1/usage/{type} and detailed byte-based consumption via /v2/usage. Used for chargeback, anomaly detection, and capacity planning against ingestion contract vo
-  name: Mezmo Usage API
-  slug: mezmo-usage-api
 - description: Open-source Rust log collection agent (logdna-agent-v2). Tails files, journald, and Kubernetes pod logs and ships to Mezmo's ingestion endpoint. MIT-licensed.
   name: Mezmo Agent (logdna-agent-v2)
   slug: mezmo-agent
@@ -107,7 +98,7 @@ apis:
 - description: The Tasks API from Mezmo — 2 operation(s) for tasks.
   name: Mezmo Tasks API
   slug: mezmo-tasks-api
-artifact_total: 80
+artifact_total: 77
 collections:
 - collection_type: postman
   name: Mezmo Alerts Archiving API
@@ -403,7 +394,7 @@ modified: '2026-05-25'
 name: Mezmo
 nav: Providers
 network: true
-overview: 'Mezmo publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Views API, Archiving API, Usage API, and 16 more. Tagged areas include Observability, Logs, Telemetry, Telemetry Pipeline, and Log Management.
+overview: 'Mezmo publishes 16 APIs on the [APIs.io](https://apis.io/) network, including AuditEvents API, Classification API, Deployments API, and 13 more. Tagged areas include Observability, Logs, Telemetry, Telemetry Pipeline, and Log Management.
 
 
   The Mezmo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -443,18 +434,23 @@ rules:
   slug: mezmo-rules
 score:
   band: developing
-  composite: 53.7
+  composite: 54.2
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 28.8
-    contract_quality: 55.9
+    contract_quality: 57.6
     developer_ergonomics: 61.9
     discoverability: 55.6
     governance: 28.8
     operational_transparency: 68.4
-  previous_composite: 53.7
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     contracts:
@@ -462,8 +458,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/screenshots/mezmo-2026-06-20T185318.png
 security:

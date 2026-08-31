@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 21
   slug: accuweather-agentic-access
   summary_line: 21 operations
-api_count: 21
+api_count: 1
 apis:
 - description: The Active Storms API from AccuWeather — 1 operation(s) for active storms.
   name: AccuWeather Active Storms API
@@ -830,18 +830,23 @@ rules:
   slug: accuweather-spectral-rules
 score:
   band: developing
-  composite: 46.6
-  delta: 4.3
+  composite: 46.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 28.8
     contract_quality: 58.2
     developer_ergonomics: 42.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 42.3
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     contracts:
@@ -849,8 +854,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/screenshots/accuweather-2026-06-20T163703.png
 security:

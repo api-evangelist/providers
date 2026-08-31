@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 5
   slug: textcortex-agentic-access
   summary_line: 5 operations · 2 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Read API credit balance for the current API key.
   name: Textcortex Balance API
@@ -184,18 +184,23 @@ overview: 'Textcortex publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 1
 score:
   band: thin
-  composite: 36.4
-  delta: 2.3
+  composite: 34.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 55.4
+    contract_governance: 4.5
+    contract_quality: 56.8
     developer_ergonomics: 37.5
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 34.1
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -206,8 +211,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/screenshots/textcortex-2026-08-17T082329.png
 security:

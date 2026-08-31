@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 151
   slug: kayhan-space-agentic-access
   summary_line: 151 operations · 74 acting
-api_count: 20
+api_count: 1
 apis:
 - description: The Authentication API from Kayhan Space — 8 operation(s) for authentication.
   name: Kayhan Space Authentication API
@@ -316,18 +316,23 @@ scopes:
   summary_line: 1 scope · password/clientCredentials
 score:
   band: developing
-  composite: 43.4
-  delta: 0.0
+  composite: 42.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 53.3
     developer_ergonomics: 66.1
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 43.4
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -338,8 +343,8 @@ score:
       total: 20
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/screenshots/kayhan-space-2026-07-25T223529.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Tenant-scoped REST API over the Red Canary portal. Documented resources include detections, threats, events, endpoints, endpoint_users, identities, investigations and audit_logs. Requests carry a per-
@@ -31,6 +31,10 @@ apis:
   slug: red-canary-rest-api-v3
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/zscaler/
 - group: company
   title: ''
   type: Website
@@ -170,11 +174,16 @@ network: true
 overview: 'Red Canary publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Managed Detection and Response, and Threat Detection.
 
 
-  Red Canary''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 25 more developer resources.'
+  Red Canary''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 26 more developer resources.'
 random_paper: 11
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 38.2
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 43.4
@@ -182,14 +191,14 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 39.3
+  previous_composite: 38.2
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

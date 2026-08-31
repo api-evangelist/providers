@@ -23,14 +23,57 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: The Pay-i REST API. A metering proxy in front of the major GenAI providers plus management endpoints for spend limits, use cases, KPIs, categories/resources, requests and reports. 63 operations across
-  name: Pay-i API
-  slug: pay-i-api
-artifact_total: 6
+- description: Anthropic Requests
+  name: Pay-i Anthropic Requests API
+  slug: pay-i-anthropic-requests-api
+- description: AWS Bedrock Requests
+  name: Pay-i AWS Bedrock Requests API
+  slug: pay-i-aws-bedrock-requests-api
+- description: Azure Anthropic Requests
+  name: Pay-i Azure Anthropic Requests API
+  slug: pay-i-azure-anthropic-requests-api
+- description: Azure OpenAI Requests
+  name: Pay-i Azure OpenAI Requests API
+  slug: pay-i-azure-openai-requests-api
+- description: System and Custom Categories
+  name: Pay-i Categories API
+  slug: pay-i-categories-api
+- description: Google Vertex Requests
+  name: Pay-i Google Vertex Requests API
+  slug: pay-i-google-vertex-requests-api
+- description: Ingest Requests
+  name: Pay-i Ingest Events API
+  slug: pay-i-ingest-events-api
+- description: KPIs
+  name: Pay-i KP Is API
+  slug: pay-i-kpis-api
+- description: Limits
+  name: Pay-i Limits API
+  slug: pay-i-limits-api
+- description: OpenAI Requests
+  name: Pay-i OpenAI Requests API
+  slug: pay-i-openai-requests-api
+- description: Public API for retrieving reports.
+  name: Pay-i Reports API
+  slug: pay-i-reports-api
+- description: Requests
+  name: Pay-i Requests API
+  slug: pay-i-requests-api
+- description: Resources
+  name: Pay-i Resources API
+  slug: pay-i-resources-api
+- description: Use Cases
+  name: Pay-i Use Cases API
+  slug: pay-i-use-cases-api
+artifact_total: 19
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pay-i-openapi-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -131,10 +174,10 @@ modified: '2026-08-26'
 name: Pay-i
 nav: Providers
 network: true
-overview: 'Pay-i publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, FinOps, Observability, and Cost Management.
+overview: 'Pay-i publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Anthropic Requests API, AWS Bedrock Requests API, Azure Anthropic Requests API, and 11 more. Tagged areas include Company, Artificial Intelligence, FinOps, Observability, and Cost Management.
 
 
-  Pay-i''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, and 17 more developer resources.'
+  Pay-i''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, and 18 more developer resources.'
 plans:
 - name: Pay I Plans Pricing
   plan_count: 0
@@ -146,16 +189,23 @@ rate_limits:
   slug: pay-i-rate-limits
 score:
   band: thin
-  composite: 39.1
+  composite: 37.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 51.8
     developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
+  previous_composite: 38.2
   provenance:
     conformance: derived
     contracts:
@@ -165,8 +215,9 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Pay I Authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 118
   slug: sap-sales-and-distribution-sd-agentic-access
   summary_line: 118 operations · 52 acting
-api_count: 46
+api_count: 17
 apis:
 - description: Operations on billing document header (A_BillingDocument)
   name: SAP Sales and Distribution (SD) Billing Document API
@@ -480,6 +480,10 @@ collections:
   name: SAP Sales and Distribution (SD) SAP Sales Scheduling Agreement API
   slug: open-sap-sd-sales-scheduling-agreement
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sap-sales-and-distribution-sd-capability-edges.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -983,7 +987,7 @@ overview: 'SAP Sales and Distribution (SD) publishes 46 APIs on the [APIs.io](ht
   The SAP Sales and Distribution (SD) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SAP Sales and Distribution (SD)''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 35 more developer resources.'
+  SAP Sales and Distribution (SD)''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 36 more developer resources.'
 plans:
 - name: Sap Sales And Distribution Sd Plans Pricing
   plan_count: 1
@@ -1022,18 +1026,23 @@ scopes:
   summary_line: 17 scopes · clientCredentials
 score:
   band: developing
-  composite: 44.4
-  delta: 0.8
+  composite: 48.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 28.8
-    contract_quality: 66.5
+    contract_quality: 73.3
     developer_ergonomics: 40.5
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 43.6
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1041,8 +1050,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-sales-and-distribution-sd/refs/heads/main/screenshots/sap-sales-and-distribution-sd-2026-06-20T193430.png
 security:

@@ -32,18 +32,58 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: vaynermedia.com is a self-hosted WordPress site on WP Engine, and it leaves the WordPress REST API open for anonymous reads at https://vaynermedia.com/wp-json/. The site's own route index registers 36
-  name: VaynerMedia WordPress Content API
-  slug: wordpress-content-api
-artifact_total: 6
+- description: Salient theme global sections (custom post type).
+  name: VaynerMedia Blocks API
+  slug: vaynermedia-blocks-api
+- description: VaynerMedia client case studies (custom post type).
+  name: VaynerMedia Case Studies API
+  slug: vaynermedia-casestudies-api
+- description: Post categories taxonomy.
+  name: VaynerMedia Categories API
+  slug: vaynermedia-categories-api
+- description: Approved comments.
+  name: VaynerMedia Comments API
+  slug: vaynermedia-comments-api
+- description: Media library attachments (images, video, documents).
+  name: VaynerMedia Media API
+  slug: vaynermedia-media-api
+- description: Static pages on vaynermedia.com.
+  name: VaynerMedia Pages API
+  slug: vaynermedia-pages-api
+- description: Popup Maker themes.
+  name: VaynerMedia Popups API
+  slug: vaynermedia-popups-api
+- description: Blog posts and articles published on vaynermedia.com.
+  name: VaynerMedia Posts API
+  slug: vaynermedia-posts-api
+- description: Cross-content-type search index.
+  name: VaynerMedia Search API
+  slug: vaynermedia-search-api
+- description: Registered post statuses.
+  name: VaynerMedia Statuses API
+  slug: vaynermedia-statuses-api
+- description: Post tags taxonomy.
+  name: VaynerMedia Tags API
+  slug: vaynermedia-tags-api
+- description: Registered taxonomies.
+  name: VaynerMedia Taxonomies API
+  slug: vaynermedia-taxonomies-api
+- description: Registered post types.
+  name: VaynerMedia Types API
+  slug: vaynermedia-types-api
+artifact_total: 18
 collections:
 - collection_type: open
   name: VaynerMedia WordPress Content API
   slug: open-vaynermedia-wordpress-content
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vaynermedia-wordpress-content-overlay.yaml
 - group: auth
   title: ''
   type: Authentication
@@ -205,10 +245,10 @@ modified: '2026-08-12'
 name: VaynerMedia
 nav: Providers
 network: true
-overview: 'VaynerMedia publishes 1 API on the [APIs.io](https://apis.io/) network: WordPress Content API. Tagged areas include Advertising, Agency, Brand Strategy, Content Production, and Creative.
+overview: 'VaynerMedia publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Blocks API, Case Studies API, Categories API, and 10 more. Tagged areas include Advertising, Agency, Brand Strategy, Content Production, and Creative.
 
 
-  VaynerMedia''s developer surface includes authentication, engineering blog, YouTube channel, and 35 more developer resources.'
+  VaynerMedia''s developer surface includes authentication, engineering blog, YouTube channel, and 36 more developer resources.'
 plans:
 - name: Vaynermedia Plans Pricing
   plan_count: 0
@@ -220,16 +260,21 @@ rate_limits:
   slug: vaynermedia-rate-limits
 score:
   band: thin
-  composite: 32.0
-  delta: 0.0
+  composite: 30.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 57.1
+    contract_governance: 4.5
+    contract_quality: 56.5
     developer_ergonomics: 16.1
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 5.3
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -237,7 +282,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 32.0
+  previous_composite: 30.9
   provenance:
     conformance: derived
     contracts:
@@ -247,8 +292,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vaynermedia/refs/heads/main/screenshots/vaynermedia-2026-06-20T200840.png
 security:

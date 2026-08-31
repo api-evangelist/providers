@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 38
   slug: tiendanube-agentic-access
   summary_line: 38 operations · 20 acting
-api_count: 12
+api_count: 1
 apis:
 - description: The Categories API from Tiendanube — 2 operation(s) for categories.
   name: Tiendanube Categories API
@@ -125,6 +125,10 @@ collections:
   name: Tiendanube / Nuvemshop API
   slug: open-tiendanube
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tiendanube-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -188,7 +192,7 @@ network: true
 overview: 'Tiendanube publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Coupons API, Customers API, and 9 more. Tagged areas include E-Commerce, Retail, Latin America, Storefront, and Product.
 
 
-  Tiendanube''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Tiendanube''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Tiendanube Plans Pricing
   plan_count: 5
@@ -200,18 +204,23 @@ rate_limits:
   slug: tiendanube-rate-limits
 score:
   band: thin
-  composite: 38.9
-  delta: 1.4
+  composite: 38.4
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 51.9
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.5
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
@@ -219,8 +228,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

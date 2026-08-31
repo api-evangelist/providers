@@ -10,21 +10,21 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,9 +32,9 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
-api_count: 3
+  score: 11.4
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
 - description: OData-based REST API for querying SAP BW data, executing BEx queries, and accessing InfoProviders. Supports analytical queries with filtering, aggregation, and hierarchical navigation.
   name: SAP BW OData API
@@ -45,8 +45,95 @@ apis:
 - description: API for SAP Analysis for Microsoft Office providing programmatic control of analytical workbooks, data source connections, and report automation within Excel and PowerPoint.
   name: SAP Analysis for Office API
   slug: analysis-office-api
-artifact_total: 21
+- description: SAP Information Access (InA) is the REST/HTTP JSON protocol SAP Analytics Cloud and SAP Analysis for Microsoft Office use to query SAP BW data sources in real time over a live connection. SAP document
+  name: SAP BW InA API
+  slug: ina-api
+artifact_total: 24
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.sap.com/products/data-cloud/business-warehouse.html
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://help.sap.com/docs/SAP_BW4HANA/107a6e8a38b74ede94c833ca3b7b6f51/4c22135610cc5791e10000000a15822b.html
+- group: build
+  title: ''
+  type: Packages
+  url: packages/sap-bw-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/sap-bw-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/sap-bw-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/sap-bw-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.sap.com/about/trust-center/security/incident-management.html
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/sap-bw-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.sap.com/about/trust-center/certification-compliance.html
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/sap-bw-conformance.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/sap-bw-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/sap-bw-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/sap-bw-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/sap-bw-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://www.sap.com/about/trust-center/cloud-service-status.html
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://help.sap.com/doc/16e3352bd6c342ec9fb1cd90adb9fbf4/2.0/en-US/SAP_BW4HANA_20_Simplification_List.pdf
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/sap-bw-changelog.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/sap-bw-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/sap-bw-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/sap-bw-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/sap-bw-finops.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -78,7 +165,7 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://community.sap.com/topics/bw
+  url: https://pages.community.sap.com/topics/bw4-hana
 - group: commercial
   title: ''
   type: TermsOfService
@@ -123,42 +210,51 @@ integrations:
 - description: Data pipeline integration for connecting BW with data lakes and machine learning workloads.
   name: SAP Data Intelligence
 layout: provider
-modified: '2026-04-18'
+modified: '2026-08-29'
 name: SAP BW
 nav: Providers
 network: true
-overview: 'SAP BW publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Business Intelligence, Data Warehousing, Enterprise, ETL, and SAP.
+overview: 'SAP BW publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Business Intelligence, Data Warehousing, Enterprise, ETL, and SAP.
 
 
-  SAP BW''s developer surface includes developer portal, documentation, getting-started guide, support, engineering blog, training material, Stack Overflow tag, and 5 more developer resources.'
+  SAP BW''s developer surface includes API reference, authentication, changelog, developer portal, documentation, getting-started guide, support, and 26 more developer resources.'
 plans:
 - name: Sap Bw Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: sap-bw-plans-pricing
 random_paper: 19
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Sap Bw Rate Limits
   slug: sap-bw-rate-limits
 score:
-  band: emerging
-  composite: 21.9
+  band: thin
+  composite: 34.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
-    access_clarity: 36.8
-    commercial_clarity: 36.8
-    contract_governance: 0.0
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 28.6
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 21.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    developer_ergonomics: 47.6
+    discoverability: 64.8
+    governance: 18.2
+    operational_transparency: 52.6
+  previous_composite: 34.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-bw/refs/heads/main/screenshots/sap-bw-2026-06-20T193419.png
 security:
+- kind: authentication
+  name: Sap Bw Authentication
+  slug: sap-bw-authentication
+  summary_line: http/apiKey/oauth2/mutualTLS · 6 schemes
 - kind: domain-security
   name: Sap Bw Domain Security
   slug: sap-bw-domain-security
@@ -166,7 +262,11 @@ security:
 - kind: vulnerability-disclosure
   name: Sap Bw Vulnerability Disclosure
   slug: sap-bw-vulnerability-disclosure
-  summary_line: security.txt · contact published
+  summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Sap Bw Trust Center
+  slug: sap-bw-trust-center
+  summary_line: SOC 1, SOC 2, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO 22301, ISO 9001, PCI DSS, FedRAMP, CSA STAR, TISAX, BSI C5, IRAP, ENS, GDPR
 slug: sap-bw
 tags:
 - Business Intelligence
@@ -183,5 +283,5 @@ use_cases:
   name: Automated ETL Workflows
 - description: Enable business users to access BW data through Analysis for Office API integrations.
   name: Self-Service Analytics
-website: https://help.sap.com/docs/SAP_BW4HANA
+website: https://www.sap.com/products/data-cloud/business-warehouse.html
 ---

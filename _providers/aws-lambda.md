@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 38
   slug: aws-lambda-agentic-access
   summary_line: 38 operations · 23 acting
-api_count: 12
+api_count: 1
 apis:
 - description: The Lambda Extensions API enables you to create extensions that integrate with the Lambda execution environment lifecycle. Extensions can run as companion processes alongside your function, enabling u
   name: AWS Lambda Extensions API
@@ -181,6 +181,10 @@ collections:
   name: AWS Lambda Aliases Versions API
   slug: open-aws-lambda-versions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/aws-lambda-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -746,7 +750,7 @@ overview: 'AWS Lambda publishes 8 APIs on the [APIs.io](https://apis.io/) networ
   The AWS Lambda catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  AWS Lambda''s developer surface includes changelog, CLI, authentication, engineering blog, FAQ, and 42 more developer resources.'
+  AWS Lambda''s developer surface includes changelog, CLI, authentication, engineering blog, FAQ, and 43 more developer resources.'
 plans:
 - name: Aws Lambda Plans Pricing
   plan_count: 7
@@ -790,19 +794,27 @@ rules:
     warn: 9
   slug: aws-lambda-spectral-rules
 score:
-  band: exemplar
-  composite: 67.5
-  delta: 14.8
+  band: strong
+  composite: 61.9
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -3.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 83.2
     developer_ergonomics: 69.0
-    discoverability: 75.9
-    governance: 45.5
+    discoverability: 59.3
+    governance: 33.3
     operational_transparency: 55.3
-  previous_composite: 52.7
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 64.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -816,9 +828,9 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/screenshots/aws-lambda-2026-06-20T172758.png
 security:
 - kind: authentication

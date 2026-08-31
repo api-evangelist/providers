@@ -24,43 +24,226 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.7
-  scored_at: '2026-08-26'
-api_count: 11
+  scored_at: '2026-08-30'
+api_count: 78
 apis:
-- description: 'Report-pull endpoints that export AppsFlyer attribution and analytics data as CSV/JSON: raw-data installs, in-app events, re-engagements, retargeting, uninstalls, ad-revenue and protect360 reports (V1'
-  name: Pull API (Reporting Data)
-  slug: pull-api-reporting-data
-- description: Event-ingestion endpoints for sending installs, sessions and in-app events to AppsFlyer from a server or a non-mobile client. Covers the mobile S2S events API (api3), the legacy mobile S2S API (api2),
-  name: Events APIs (Server-to-Server & Client-to-Server)
-  slug: events-apis-server-to-server-client-to-server
-- description: 'Account and configuration management endpoints: app management V2.0 (add, update and delete apps), the app list API for app owners and ad networks, bulk user management, the audit public API for accou'
-  name: Management APIs
-  slug: management-apis
-- description: 'Audience segmentation and activation endpoints: the Audience External API for listing, connecting, splitting, pausing and inspecting audiences and their partner connections, the Audience Import API fo'
-  name: Audience APIs
-  slug: audience-apis
-- description: The OneLink API creates, reads, updates and deletes AppsFlyer OneLink attribution links and custom deep-link URLs programmatically, including the link parameters, TTL, branded domain and deep-link val
-  name: OneLink API
-  slug: onelink-api
-- description: 'Apple SKAdNetwork endpoints: the SKAN aggregated performance report API, the SKAN aggregated postbacks-by-arrival-date API, the conversion-value (CV) schema APIs for advertisers and for ad networks, a'
-  name: SKAdNetwork (SKAN) APIs
-  slug: skadnetwork-skan-apis
-- description: The OpenDSR (Data Subject Request) API implements the IAB OpenDSR specification so advertisers can submit, track, and cancel GDPR/CCPA subject access and erasure requests against AppsFlyer on behalf o
-  name: OpenDSR API
-  slug: opendsr-api
-- description: The Protect360 click-signing API manages the secret keys, configuration, excluded apps, circuit breaker and reporting used to cryptographically sign attribution clicks so AppsFlyer can reject unsigned
-  name: Click Signing API (Protect360)
-  slug: click-signing-api-protect360
-- description: The ROI360 net-revenue API returns store-tax and net-revenue figures per app and store so marketers can measure return on ad spend against revenue net of app-store commission and taxes, plus the suppo
-  name: ROI360 Net Revenue API
-  slug: roi360-net-revenue-api
 - description: The Creative External API uploads creative assets and publishes ads to ad networks programmatically, bypassing the AppsFlyer Creative Dashboard UI. It is asynchronous — a batch is submitted for upload
   name: Creative External API
   slug: creative-external-api
 - description: AppsFlyer's hosted Model Context Protocol server exposes AppsFlyer's unified marketing data to LLM clients and agents over an OAuth 2.1 authorization-code + PKCE flow with dynamic client registration,
   name: AppsFlyer MCP Server
   slug: appsflyer-mcp-server
-artifact_total: 58
+- description: The Account connections API from AppsFlyer — 1 operation(s) for account connections.
+  name: AppsFlyer Account connections API
+  slug: appsflyer-account-connections-api
+- description: The Account Integration API from AppsFlyer — 1 operation(s) for account integration.
+  name: AppsFlyer Account Integration API
+  slug: appsflyer-account-integration-api
+- description: The Account splits API from AppsFlyer — 1 operation(s) for account splits.
+  name: AppsFlyer Account splits API
+  slug: appsflyer-account-splits-api
+- description: The Active audiences API from AppsFlyer — 1 operation(s) for active audiences.
+  name: AppsFlyer Active audiences API
+  slug: appsflyer-active-audiences-api
+- description: The Active integrations API from AppsFlyer — 2 operation(s) for active integrations.
+  name: AppsFlyer Active integrations API
+  slug: appsflyer-active-integrations-api
+- description: The Ad Revenue raw data API from AppsFlyer — 3 operation(s) for ad revenue raw data.
+  name: AppsFlyer Ad Revenue raw data API
+  slug: appsflyer-ad-revenue-raw-data-api
+- description: The Add excluded app API from AppsFlyer — 1 operation(s) for add excluded app.
+  name: AppsFlyer Add excluded app API
+  slug: appsflyer-add-excluded-app-api
+- description: The Additional Identifiers Handling API from AppsFlyer — 1 operation(s) for additional identifiers handling.
+  name: AppsFlyer Additional Identifiers Handling API
+  slug: appsflyer-additional-identifiers-handling-api
+- description: The Aggregate (user acquisition and retargeting) API from AppsFlyer — 5 operation(s) for aggregate (user acquisition and retargeting).
+  name: AppsFlyer Aggregate (user acquisition and retargeting) API
+  slug: appsflyer-aggregate-user-acquisition-and-retargeting-api
+- description: The Allowed devices API from AppsFlyer — 2 operation(s) for allowed devices.
+  name: AppsFlyer Allowed devices API
+  slug: appsflyer-allowed-devices-api
+- description: The Android deep linking request API from AppsFlyer — 1 operation(s) for android deep linking request.
+  name: AppsFlyer Android deep linking request API
+  slug: appsflyer-android-deep-linking-request-api
+- description: The App management API from AppsFlyer — 2 operation(s) for app management.
+  name: AppsFlyer App management API
+  slug: appsflyer-app-management-api
+- description: The Audience connections API from AppsFlyer — 1 operation(s) for audience connections.
+  name: AppsFlyer Audience connections API
+  slug: appsflyer-audience-connections-api
+- description: The Audience split API from AppsFlyer — 1 operation(s) for audience split.
+  name: AppsFlyer Audience split API
+  slug: appsflyer-audience-split-api
+- description: The Audience upload API from AppsFlyer — 1 operation(s) for audience upload.
+  name: AppsFlyer Audience upload API
+  slug: appsflyer-audience-upload-api
+- description: The Audiences User Attribution Import API API from AppsFlyer — 1 operation(s) for audiences user attribution import api.
+  name: AppsFlyer Audiences User Attribution Import API
+  slug: appsflyer-audiences-user-attribution-import-api-api
+- description: The Audit logs API from AppsFlyer — 1 operation(s) for audit logs.
+  name: AppsFlyer Audit logs API
+  slug: appsflyer-audit-logs-api
+- description: The Authentication Token API from AppsFlyer — 1 operation(s) for authentication token.
+  name: AppsFlyer Authentication Token API
+  slug: appsflyer-authentication-token-api
+- description: The Circuit breaker API from AppsFlyer — 1 operation(s) for circuit breaker.
+  name: AppsFlyer Circuit breaker API
+  slug: appsflyer-circuit-breaker-api
+- description: The Click Engagement API from AppsFlyer — 1 operation(s) for click engagement.
+  name: AppsFlyer Click Engagement API
+  slug: appsflyer-click-engagement-api
+- description: The Cohort Report API from AppsFlyer — 1 operation(s) for cohort report.
+  name: AppsFlyer Cohort Report API
+  slug: appsflyer-cohort-report-api
+- description: The Conversion Data for SDK attribution testing API from AppsFlyer — 1 operation(s) for conversion data for sdk attribution testing.
+  name: AppsFlyer Conversion Data for SDK attribution testing API
+  slug: appsflyer-conversion-data-for-sdk-attribution-testing-api
+- description: The Conversion value (CV) schema API from AppsFlyer — 1 operation(s) for conversion value (cv) schema.
+  name: AppsFlyer Conversion value (CV) schema API
+  slug: appsflyer-conversion-value-cv-schema-api
+- description: The Create audience API from AppsFlyer — 1 operation(s) for create audience.
+  name: AppsFlyer Create audience API
+  slug: appsflyer-create-audience-api
+- description: The Download Events API from AppsFlyer — 1 operation(s) for download events.
+  name: AppsFlyer Download Events API
+  slug: appsflyer-download-events-api
+- description: The Event Types API from AppsFlyer — 1 operation(s) for event types.
+  name: AppsFlyer Event Types API
+  slug: appsflyer-event-types-api
+- description: The Events API from AppsFlyer — 1 operation(s) for events.
+  name: AppsFlyer Events API
+  slug: appsflyer-events-api
+- description: The Events management API from AppsFlyer — 2 operation(s) for events management.
+  name: AppsFlyer Events management API
+  slug: appsflyer-events-management-api
+- description: The Freshness Report API from AppsFlyer — 1 operation(s) for freshness report.
+  name: AppsFlyer Freshness Report API
+  slug: appsflyer-freshness-report-api
+- description: The Generate secret key API from AppsFlyer — 1 operation(s) for generate secret key.
+  name: AppsFlyer Generate secret key API
+  slug: appsflyer-generate-secret-key-api
+- description: The Get app list API from AppsFlyer — 1 operation(s) for get app list.
+  name: AppsFlyer Get app list API
+  slug: appsflyer-get-app-list-api
+- description: The Get config API from AppsFlyer — 1 operation(s) for get config.
+  name: AppsFlyer Get config API
+  slug: appsflyer-get-config-api
+- description: The Google Play install referrer API from AppsFlyer — 1 operation(s) for google play install referrer.
+  name: AppsFlyer Google Play install referrer API
+  slug: appsflyer-google-play-install-referrer-api
+- description: The Import audience API from AppsFlyer — 1 operation(s) for import audience.
+  name: AppsFlyer Import audience API
+  slug: appsflyer-import-audience-api
+- description: The Impression Engagement API from AppsFlyer — 1 operation(s) for impression engagement.
+  name: AppsFlyer Impression Engagement API
+  slug: appsflyer-impression-engagement-api
+- description: The Inapp Events API from AppsFlyer — 1 operation(s) for inapp events.
+  name: AppsFlyer Inapp Events API
+  slug: appsflyer-inapp-events-api
+- description: The InCost job status API from AppsFlyer — 1 operation(s) for incost job status.
+  name: AppsFlyer InCost job status API
+  slug: appsflyer-incost-job-status-api
+- description: The InCost uploader API from AppsFlyer — 1 operation(s) for incost uploader.
+  name: AppsFlyer InCost uploader API
+  slug: appsflyer-incost-uploader-api
+- description: The Integration settings API from AppsFlyer — 2 operation(s) for integration settings.
+  name: AppsFlyer Integration settings API
+  slug: appsflyer-integration-settings-api
+- description: The iOS deep linking request API from AppsFlyer — 1 operation(s) for ios deep linking request.
+  name: AppsFlyer iOS deep linking request API
+  slug: appsflyer-ios-deep-linking-request-api
+- description: The Manage Push API configuration API from AppsFlyer — 1 operation(s) for manage push api configuration.
+  name: AppsFlyer Manage Push API configuration API
+  slug: appsflyer-manage-push-api-configuration-api
+- description: The Managing roles API from AppsFlyer — 1 operation(s) for managing roles.
+  name: AppsFlyer Managing roles API
+  slug: appsflyer-managing-roles-api
+- description: The Managing users in bulk API from AppsFlyer — 2 operation(s) for managing users in bulk.
+  name: AppsFlyer Managing users in bulk API
+  slug: appsflyer-managing-users-in-bulk-api
+- description: The Master Report API from AppsFlyer — 1 operation(s) for master report.
+  name: AppsFlyer Master Report API
+  slug: appsflyer-master-report-api
+- description: The Measure first app opens API from AppsFlyer — 1 operation(s) for measure first app opens.
+  name: AppsFlyer Measure first app opens API
+  slug: appsflyer-measure-first-app-opens-api
+- description: The Measure in-app events API from AppsFlyer — 1 operation(s) for measure in-app events.
+  name: AppsFlyer Measure in-app events API
+  slug: appsflyer-measure-in-app-events-api
+- description: The Measure sessions API from AppsFlyer — 1 operation(s) for measure sessions.
+  name: AppsFlyer Measure sessions API
+  slug: appsflyer-measure-sessions-api
+- description: The Message Fields API from AppsFlyer — 1 operation(s) for message fields.
+  name: AppsFlyer Message Fields API
+  slug: appsflyer-message-fields-api
+- description: The OneLink REST API v2.0 API from AppsFlyer — 4 operation(s) for onelink rest api v2.0.
+  name: AppsFlyer OneLink REST API v2.0 API
+  slug: appsflyer-onelink-rest-api-v2-0-api
+- description: The Pauses audience API from AppsFlyer — 1 operation(s) for pauses audience.
+  name: AppsFlyer Pauses audience API
+  slug: appsflyer-pauses-audience-api
+- description: The Postbacks API from AppsFlyer — 4 operation(s) for postbacks.
+  name: AppsFlyer Postbacks API
+  slug: appsflyer-postbacks-api
+- description: The Production API from AppsFlyer — 7 operation(s) for production.
+  name: AppsFlyer Production API
+  slug: appsflyer-production-api
+- description: The Protect360 fraud API from AppsFlyer — 6 operation(s) for protect360 fraud.
+  name: AppsFlyer Protect360 fraud API
+  slug: appsflyer-protect360-fraud-api
+- description: The Raw data reports (non-organic) API from AppsFlyer — 4 operation(s) for raw data reports (non-organic).
+  name: AppsFlyer Raw data reports (non-organic) API
+  slug: appsflyer-raw-data-reports-non-organic-api
+- description: The Raw data reports (organic) API from AppsFlyer — 4 operation(s) for raw data reports (organic).
+  name: AppsFlyer Raw data reports (organic) API
+  slug: appsflyer-raw-data-reports-organic-api
+- description: The Remove excluded app API from AppsFlyer — 1 operation(s) for remove excluded app.
+  name: AppsFlyer Remove excluded app API
+  slug: appsflyer-remove-excluded-app-api
+- description: The Report API from AppsFlyer — 1 operation(s) for report.
+  name: AppsFlyer Report API
+  slug: appsflyer-report-api
+- description: The Retargeting API from AppsFlyer — 2 operation(s) for retargeting.
+  name: AppsFlyer Retargeting API
+  slug: appsflyer-retargeting-api
+- description: The Revoke secret key API from AppsFlyer — 1 operation(s) for revoke secret key.
+  name: AppsFlyer Revoke secret key API
+  slug: appsflyer-revoke-secret-key-api
+- description: The SKAN conversion studio API API from AppsFlyer — 1 operation(s) for skan conversion studio api.
+  name: AppsFlyer SKAN conversion studio API
+  slug: appsflyer-skan-conversion-studio-api-api
+- description: The SKAN CV schema API for ad networks API from AppsFlyer — 2 operation(s) for skan cv schema api for ad networks.
+  name: AppsFlyer SKAN CV schema API for ad networks API
+  slug: appsflyer-skan-cv-schema-api-for-ad-networks-api
+- description: The SKAN performance report API from AppsFlyer — 1 operation(s) for skan performance report.
+  name: AppsFlyer SKAN performance report API
+  slug: appsflyer-skan-performance-report-api
+- description: The SKAN postbacks API from AppsFlyer — 1 operation(s) for skan postbacks.
+  name: AppsFlyer SKAN postbacks API
+  slug: appsflyer-skan-postbacks-api
+- description: The Store commission rates API from AppsFlyer — 2 operation(s) for store commission rates.
+  name: AppsFlyer Store commission rates API
+  slug: appsflyer-store-commission-rates-api
+- description: The Stub & Testing API from AppsFlyer — 7 operation(s) for stub & testing.
+  name: AppsFlyer Stub & Testing API
+  slug: appsflyer-stub-testing-api
+- description: The Tax rate rules API from AppsFlyer — 1 operation(s) for tax rate rules.
+  name: AppsFlyer Tax rate rules API
+  slug: appsflyer-tax-rate-rules-api
+- description: The Test API from AppsFlyer — 1 operation(s) for test.
+  name: AppsFlyer Test API
+  slug: appsflyer-test-api
+- description: The Unique partner integration parameters API from AppsFlyer — 1 operation(s) for unique partner integration parameters.
+  name: AppsFlyer Unique partner integration parameters API
+  slug: appsflyer-unique-partner-integration-parameters-api
+- description: The Update config API from AppsFlyer — 1 operation(s) for update config.
+  name: AppsFlyer Update config API
+  slug: appsflyer-update-config-api
+- description: The URL Validation API from AppsFlyer — 1 operation(s) for url validation.
+  name: AppsFlyer URL Validation API
+  slug: appsflyer-url-validation-api
+artifact_total: 119
 asyncapis:
 - description: ''
   name: Appsflyer Push Api Webhooks
@@ -184,6 +367,166 @@ collections:
   name: WEB Server-TO-Server API
   slug: open-appsflyer-web-server-to-server-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/appsflyer-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-raw-data-pull-api-v2-token-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-raw-data-pull-api-v1-token-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-aggregate-pull-api-v2-token-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-aggregate-pull-api-v1-token-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-master-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-master-freshness-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-cohort-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-server-to-server-events-api-for-mobile-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-legacy-server-to-server-events-api-for-mobile-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-web-server-to-server-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-pcconsolectv-events-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-pcconsolectv-client-app-events-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-engagements-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-deep-linking-rest-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-preload-measurement-api-1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-preload-c2s-measurement-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-gcd-api-for-sdk-attribution-testing-1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-app-management-api-v20-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-app-list-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-user-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-audit-public-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-partner-integration-settings-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-adrevenue-account-integrations-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-incost-api-1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-test-console-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-push-api-configuration-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-audience-external-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-audience-import-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-audiences-user-attribution-import-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-additional-identifiers-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-onelink-api-v20-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-skan-aggregated-performance-report-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-skan-aggregated-postback-by-arrival-date-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-skan-cv-schema-api-for-advertisers-1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-skan-cv-schema-api-for-ad-networks-2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-skan-conversion-studio-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-opendsr-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-click-signing-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsflyer-roi360-net-revenue-api-v20-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -360,13 +703,13 @@ modified: '2026-08-13'
 name: AppsFlyer
 nav: Providers
 network: true
-overview: 'AppsFlyer publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Pull API (Reporting Data), Events APIs (Server-to-Server & Client-to-Server), Management APIs, and 6 more. Tagged areas include Company, Mobile Attribution, Marketing Analytics, Mobile Measurement, and Deep Linking.
+overview: 'AppsFlyer publishes 70 APIs on the [APIs.io](https://apis.io/) network, including Account connections API, Account Integration API, Account splits API, and 67 more. Tagged areas include Company, Mobile Attribution, Marketing Analytics, Mobile Measurement, and Deep Linking.
 
 
   The AppsFlyer catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AppsFlyer''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
+  AppsFlyer''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 74 more developer resources.'
 plans:
 - name: Appsflyer Plans Pricing
   plan_count: 3
@@ -377,19 +720,24 @@ rate_limits:
   name: Appsflyer Rate Limits
   slug: appsflyer-rate-limits
 score:
-  band: exemplar
-  composite: 66.8
-  delta: -0.1
+  band: strong
+  composite: 62.4
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.9
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 16.7
-    contract_quality: 63.2
+    contract_governance: 4.5
+    contract_quality: 60.8
     developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 66.9
+  previous_composite: 63.3
   provenance:
     conformance: derived
     contracts:
@@ -399,8 +747,8 @@ score:
       total: 39
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsflyer/refs/heads/main/screenshots/appsflyer-2026-08-07T161507.png
 security:

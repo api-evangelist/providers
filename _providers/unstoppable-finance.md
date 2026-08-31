@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
-api_count: 9
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Wallet and bank account registration Every wallet address that interacts with Iron must be registered (linked) to a customer **before** it can be used in any flow — onramp, offramp, or swap. This is a
   name: Unstoppable Finance (Iron) Addresses API
@@ -127,6 +127,10 @@ collections:
   name: Iron API - Sandbox Addresses Webhooks API
   slug: open-unstoppable-finance-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/unstoppable-finance-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -267,26 +271,31 @@ modified: '2026-07-21'
 name: Unstoppable Finance (Iron)
 nav: Providers
 network: true
-overview: 'Unstoppable Finance (Iron) publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Autoramp API, Currencies API, and 6 more. Tagged areas include Company, Stablecoins, Payments, On-Ramp, and Off-Ramp.
+overview: 'Unstoppable Finance (Iron) publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Autoramp API, Currencies API, and 6 more. Tagged areas include Company, Stablecoins, Payments, Onramp, and Offramp.
 
 
   The Unstoppable Finance (Iron) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Unstoppable Finance (Iron)''s developer surface includes documentation, getting-started guide, authentication, sandbox, CLI, support, pricing, and 25 more developer resources.'
+  Unstoppable Finance (Iron)''s developer surface includes documentation, getting-started guide, authentication, sandbox, CLI, support, pricing, and 26 more developer resources.'
 random_paper: 13
 score:
   band: strong
-  composite: 58.6
-  delta: 1.4
+  composite: 56.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 30.3
-    contract_quality: 64.8
+    contract_governance: 18.2
+    contract_quality: 65.0
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 34.2
   previous_composite: 57.2
   provenance:
@@ -300,12 +309,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/screenshots/unstoppable-finance-2026-08-17T082634.png
 security:
@@ -330,8 +343,8 @@ tags:
 - Company
 - Stablecoins
 - Payments
-- On-Ramp
-- Off-Ramp
+- Onramp
+- Offramp
 - Cryptocurrency
 - Banking
 - Fintech

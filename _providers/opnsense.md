@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 6
   slug: opnsense-agentic-access
   summary_line: 6 operations · 2 acting
-api_count: 4
+api_count: 1
 apis:
 - description: REST API covering all core OPNsense modules including firewall, NAT, interfaces, VPN (IPsec, OpenVPN, WireGuard), routing, DHCP, DNS, users, and system administration. Authentication uses HTTP basic a
   name: OPNsense Core REST API
@@ -73,6 +73,10 @@ collections:
   name: OPNsense Core REST API
   slug: open-opnsense
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/opnsense-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -124,19 +128,24 @@ network: true
 overview: 'OPNsense publishes 3 APIs on the [APIs.io](https://apis.io/) network: Core API, Diagnostics API, and Firewall API. Tagged areas include Firewall, Networking, Security, VPN, and Routing.
 
 
-  OPNsense''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  OPNsense''s developer surface includes authentication, documentation, and 9 more developer resources.'
 random_paper: 14
 score:
-  band: thin
-  composite: 26.4
-  delta: 0.0
+  band: emerging
+  composite: 25.9
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 53.7
     developer_ergonomics: 26.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 26.4
@@ -147,8 +156,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opnsense/refs/heads/main/screenshots/opnsense-2026-06-20T191103.png
 security:

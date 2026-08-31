@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 70
   slug: polar-agentic-access
   summary_line: 70 operations · 13 acting
-api_count: 19
+api_count: 2
 apis:
 - description: The Polar BLE SDK enables iOS and Android applications to stream live data from Polar sensors over Bluetooth Low Energy. Supports H10, H9, Verity Sense, OH1, Ignite 3, Polar 360/Loop, Vantage V3, Vant
   name: Polar BLE SDK
@@ -169,6 +169,10 @@ collections:
   name: Polar AccessLink Cardio load Webhooks API
   slug: open-polar-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/polar-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -322,7 +326,7 @@ network: true
 overview: 'Polar publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Cardio load API, Continuous Heart Rate API, Daily activity API, and 15 more. Tagged areas include Fitness, Health, Wearables, Heart Rate, and Sports.
 
 
-  Polar''s developer surface includes authentication, developer portal, documentation, signup flow, code examples, support, YouTube channel, and 23 more developer resources.'
+  Polar''s developer surface includes authentication, developer portal, documentation, signup flow, code examples, support, YouTube channel, and 24 more developer resources.'
 random_paper: 17
 scopes:
 - name: Polar Scopes
@@ -331,15 +335,20 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.3
-  delta: 0.0
+  composite: 42.8
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 60.0
     developer_ergonomics: 45.2
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 43.3
@@ -356,8 +365,8 @@ score:
     regime: Health
     regime_id: health
     score: 53.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polar/refs/heads/main/screenshots/polar-2026-06-20T191849.png
 security:

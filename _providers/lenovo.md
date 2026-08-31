@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 8
   slug: lenovo-agentic-access
   summary_line: 8 operations · 2 acting
-api_count: 3
+api_count: 1
 apis:
 - description: The Lenovo XClarity Administrator REST API provides programmatic access to XClarity Administrator data and services from applications running outside of the XClarity Administrator framework. It suppor
   name: Lenovo XClarity Administrator REST API
@@ -138,18 +138,23 @@ overview: 'Lenovo publishes 2 APIs on the [APIs.io](https://apis.io/) network: I
 random_paper: 8
 score:
   band: emerging
-  composite: 26.1
-  delta: 3.3
+  composite: 25.6
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 52.4
     developer_ergonomics: 31.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 22.8
+  previous_composite: 26.1
   provenance:
     agentic_access: derived
     contracts:
@@ -157,8 +162,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lenovo/refs/heads/main/screenshots/lenovo-2026-06-20T184423.png
 security:

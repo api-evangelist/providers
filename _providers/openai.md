@@ -12,20 +12,21 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.7
-  scored_at: '2026-08-26'
+  score: 49.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 183
   human_in_the_loop: 6
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 307
   slug: openai-agentic-access
   summary_line: 307 operations · 183 acting · 6 human-in-the-loop
-api_count: 51
+api_count: 15
 apis:
 - description: The Responses API is OpenAI's most advanced interface for generating model responses. It combines the strengths of the Chat Completions and Assistants APIs into a single streamlined interface, support
   name: OpenAI Responses API
@@ -197,6 +198,9 @@ apis:
 - description: The Videos API from OpenAI — 8 operation(s) for videos.
   name: OpenAI Videos API
   slug: openai-videos-api
+- description: The OpenAI API API from OpenAI — 0 operation(s) for openai api.
+  name: OpenAI OpenAI API
+  slug: openai-openai-api-api
 arazzos:
 - description: Create an assistant, open a thread, add a message, run it, poll the run, and read the reply.
   name: OpenAI Assistant Run
@@ -249,7 +253,7 @@ arazzos:
 - description: Attach a file to a vector store, wait until it is indexed, then run a semantic search.
   name: OpenAI Vector Store Search
   slug: openai-vector-store-search-workflow
-artifact_total: 265
+artifact_total: 268
 asyncapis:
 - description: The OpenAI Realtime API provides low-latency, bidirectional, event-driven communication with multimodal models that natively support speech-to-speech, text, and audio in a single conversation. This As
   name: OpenAI Realtime API
@@ -427,6 +431,10 @@ collections:
   name: OpenAI Assistants Videos API
   slug: open-openai-videos-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/openai-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -610,7 +618,7 @@ common:
 - group: operate
   title: ''
   type: RateLimits
-  url: https://example.com/rate-limits
+  url: https://developers.openai.com/api/docs/guides/rate-limits
 - group: operate
   title: ''
   type: StatusPage
@@ -823,8 +831,152 @@ common:
   title: ''
   type: LlmsText
   url: https://developers.openai.com/llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/openai-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/openai-packages.yml
+- group: build
+  title: ''
+  type: Python SDK
+  url: https://github.com/openai/openai-python
+- group: build
+  title: ''
+  type: JavaScript SDK
+  url: https://github.com/openai/openai-node
+- group: build
+  title: ''
+  type: Go SDK
+  url: https://github.com/openai/openai-go
+- group: build
+  title: ''
+  type: Java SDK
+  url: https://github.com/openai/openai-java
+- group: build
+  title: ''
+  type: Ruby SDK
+  url: https://github.com/openai/openai-ruby
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/openai-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/openai-security.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/openai-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/openai-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/openai-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/openai-responses-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/openai-chat-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/openai-embeddings-overlay.yaml
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/openai-grpc.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/openai-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/openai-trust-center.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/openai-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/openai-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/openai-scopes.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/openai-sandbox.yml
+- group: other
+  title: ''
+  type: Playground
+  url: https://platform.openai.com/playground
+- group: start
+  title: ''
+  type: Console
+  url: https://platform.openai.com/
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/openai-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/openai-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/openai-cli.yml
+- group: build
+  title: ''
+  type: CLI
+  url: https://learn.chatgpt.com/docs/codex/cli
+- group: design
+  title: ''
+  type: Components
+  url: components/openai-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/openai-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/openai-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/openai-rate-limits.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/openai-realtime-asyncapi.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.openai.com/api/reference/
 created: '2024-04-14'
-description: APIs for accessing OpenAI's artificial intelligence models including GPT, DALL-E, Whisper, and Embeddings.
+description: OpenAI publishes a single unversioned REST API at https://api.openai.com/v1 covering text and reasoning (Responses, Chat Completions), embeddings, images, audio and speech, video, moderation, file storage, vector stores and file search, containers, batch inference at half price, fine-tuning, evals, ChatKit, agent skills, and a full organization administration plane for projects, users, groups, roles, API keys, certificates, usage and audit logs. The contract is OpenAPI 3.1.0 with 242 operations, published by OpenAI itself under MIT at github.com/openai/openai-openapi. Realtime is a separate WebSocket surface at wss://api.openai.com/v1/realtime. Authentication is a project-scoped bearer API key; OAuth 2.0 / OIDC at auth.openai.com grants user identity only, not API authority. First-party SDKs ship for Python, JavaScript, Go, Java, .NET and Ruby, alongside the Codex CLI and an anonymous documentation MCP server at developers.openai.com/mcp.
 examples:
 - key_count: 6
   name: Openai Audio Create Speech Request Example
@@ -1093,24 +1245,28 @@ jsonld:
   property_count: 0
   slug: openai-images-context
 layout: provider
-modified: '2026-05-29'
+mcp_servers:
+- description: OpenAI runs one remote MCP server of its own and it is a DOCUMENTATION server, not an API-control server. `openai-docs-mcp` lets an agent search, browse and fetch the markdown behind platform.openai.c
+  name: OpenAI MCP Server
+  slug: openai-mcp-server
+modified: '2026-08-27'
 name: OpenAI
 nav: Providers
 network: true
-overview: 'OpenAI publishes 49 APIs on the [APIs.io](https://apis.io/) network, including Responses API, Moderations API, Batch API, and 46 more. Tagged areas include Artificial Intelligence, Large Language Models, and T1.
+overview: 'OpenAI publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Responses API, Moderations API, Batch API, and 47 more. Tagged areas include Artificial Intelligence, Large Language Models, and T1.
 
 
   The OpenAI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 5 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  OpenAI''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, pricing, signup flow, and 92 more developer resources.'
+  OpenAI''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, pricing, signup flow, and 129 more developer resources.'
 plans:
 - name: Openai Plans Pricing
-  plan_count: 6
+  plan_count: 13
   slug: openai-plans-pricing
 random_paper: 6
 rate_limits:
-- limit_count: 0
+- limit_count: 7
   name: Openai Rate Limits
   slug: openai-rate-limits
 rules:
@@ -1146,20 +1302,30 @@ rules:
     info: 0
     warn: 8
   slug: openai-spectral-rules
+scopes:
+- name: Openai Scopes
+  scope_count: 0
+  slug: openai-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 64.2
-  delta: 0.0
+  band: exemplar
+  composite: 76.8
+  coverage:
+    artifact_dirs: 39
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.9
   facets:
-    access_clarity: 68.4
-    commercial_clarity: 68.4
-    contract_governance: 28.8
-    contract_quality: 77.3
-    developer_ergonomics: 69.0
-    discoverability: 57.4
-    governance: 28.8
-    operational_transparency: 63.2
-  previous_composite: 64.2
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 47.0
+    contract_quality: 79.8
+    developer_ergonomics: 100.0
+    discoverability: 66.7
+    governance: 47.0
+    operational_transparency: 71.1
+  previous_composite: 77.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1167,8 +1333,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openai/refs/heads/main/screenshots/openai-2026-08-17T082822.png
 security:

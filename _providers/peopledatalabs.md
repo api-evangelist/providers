@@ -13,7 +13,7 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_card: flavored
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.0
-  scored_at: '2026-08-26'
+  score: 36.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 21
   slug: peopledatalabs-agentic-access
   summary_line: 21 operations · 8 acting
-api_count: 10
+api_count: 2
 apis:
 - description: The Autocomplete API from People Data Labs — 1 operation(s) for autocomplete.
   name: People Data Labs Autocomplete API
@@ -74,7 +74,19 @@ apis:
 - description: The Subject Request API from People Data Labs — 1 operation returning a CSV of PDL Person IDs belonging to data subjects who have opted out of People Data Labs data, so downstream systems can delete t
   name: People Data Labs Subject Request API
   slug: peopledatalabs-subject-request-api
-artifact_total: 35
+- description: Company enrichment and search operations.
+  name: People Data Labs Company API
+  slug: peopledatalabs-company-api
+- description: IP-based enrichment operations.
+  name: People Data Labs IP API
+  slug: peopledatalabs-ip-api
+- description: Job posting search operations.
+  name: People Data Labs Jobs API
+  slug: peopledatalabs-jobs-api
+- description: Person enrichment, search, and identification operations.
+  name: People Data Labs Person API
+  slug: peopledatalabs-person-api
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Peopledatalabs Webhooks
@@ -321,7 +333,7 @@ modified: '2026-08-14'
 name: People Data Labs
 nav: Providers
 network: true
-overview: 'People Data Labs publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Cleaner Endpoints API, Company Endpoints API, and 7 more. Tagged areas include Data Enrichment, Web Intelligence, Person Data, Company Data, and B2B Data.
+overview: 'People Data Labs publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Cleaner Endpoints API, Company Endpoints API, and 11 more. Tagged areas include Data Enrichment, Web Intelligence, Person Data, Company Data, and B2B Data.
 
 
   The People Data Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -338,19 +350,24 @@ rate_limits:
   name: Peopledatalabs Rate Limits
   slug: peopledatalabs-rate-limits
 score:
-  band: exemplar
-  composite: 67.9
-  delta: 0.0
+  band: strong
+  composite: 66.4
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
-    contract_governance: 30.3
-    contract_quality: 57.1
+    contract_governance: 18.2
+    contract_quality: 59.1
     developer_ergonomics: 78.6
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 67.9
+  previous_composite: 67.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -361,8 +378,8 @@ score:
       total: 14
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peopledatalabs/refs/heads/main/screenshots/peopledatalabs-2026-06-20T191552.png
 security:

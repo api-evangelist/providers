@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sumo-logic/
 created: '2026-07-17'
 description: 'Jask Labs (JASK) was a cybersecurity company that built an Autonomous Security Operations Center (ASOC) platform — applying machine learning and analytics on top of network and security telemetry to triage and prioritize security alerts and reduce SOC analyst workload. Backed by Battery Ventures among other investors, JASK was acquired by Sumo Logic in 2019 and folded into Sumo Logic''s cloud SIEM / Cloud SOC offering. Jask Labs no longer operates as an independent company: its domains (jask.ai and jask.com) now permanently redirect (HTTP 301) to sumologic.com, and there is no standalone Jask Labs developer portal, API documentation, SDK, or live product surface to enrich. This profile is retained as a portfolio-lead stub with the acquisition recorded.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jask-labs.png
@@ -48,6 +53,11 @@ random_paper: 6
 score:
   band: minimal
   composite: 5.0
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -67,8 +77,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: jask-labs
 tags:

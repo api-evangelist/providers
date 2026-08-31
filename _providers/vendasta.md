@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 203
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 347
   slug: vendasta-agentic-access
   summary_line: 347 operations · 203 acting · 2 human-in-the-loop
-api_count: 38
+api_count: 31
 apis:
 - description: The Account APIs allow you to perform actions against a single account that your application has been added to.
   name: Vendasta account API
@@ -67,97 +67,244 @@ apis:
 - description: The User APIs allow you to perform operations against Vendasta Users. Each user has a unique identifier in the format UID-{}. This ID is guaranteed to stay the same, while the email associated to a us
   name: Vendasta user API
   slug: vendasta-user-api
-- description: 'The Platform REST APIs are the core of the Vendasta API Gateway: business locations, sales accounts, users and their location permissions, orders and order custom fields, order fulfillment forms, subs'
-  name: Vendasta Platform REST API
-  slug: vendasta-platform-api
-- description: A SCIM 2.0 implementation for provisioning and de-provisioning Vendasta users and groups from an external identity provider. Covers Users, Groups and System Operations (ServiceProviderConfig, Resource
-  name: Vendasta SCIM 2.0 User Management API
-  slug: vendasta-scim-api
-- description: The CRM REST API for contacts, companies, opportunities, associations and custom objects, exposed as generic JSON:API resource operations under /org. Vendasta names the CRM API as the one Platform sur
-  name: Vendasta CRM REST API
-  slug: vendasta-crm-rest-api
-- description: 'The CRM surface exposed through the gRPC reverse-proxy gateway: CRMService, CRMAssociationService, CRMCompanyService, CRMOpportunityService, CRMFieldSchemaService and CRMFieldSchemaCustomizationServic'
-  name: Vendasta CRM API (gRPC gateway)
-  slug: vendasta-crm-grpc-api
-- description: 'Local SEO (formerly Listing Builder) product API: listing sync listings, listing scores, listing profiles and citations for a business location. Scope-gated with the `listing` OAuth2 scope.'
-  name: Vendasta Local SEO REST API
-  slug: vendasta-local-seo-api
-- description: 'Advertising Intelligence product API: connected advertising accounts, account-level stats, campaign info and campaign stats across the ad channels a business runs. Scope-gated with the `advertising` O'
-  name: Vendasta Advertising Intelligence REST API
-  slug: vendasta-advertising-api
-- description: Reputation AI product API for reading business location reviews collected across review sources. Scope-gated with the `reputation` OAuth2 scope.
-  name: Vendasta Reputation REST API
-  slug: vendasta-reputation-api
-- description: 'The fuller Reputation surface through the gRPC gateway: ListingService, ReviewService and NetPromoterScoreService — 17 operations covering listings, reviews and NPS data for the business locations an '
-  name: Vendasta Reputation API (gRPC gateway)
-  slug: vendasta-reputation-grpc-api
-- description: Customer Voice product API for sending review requests to a business location customers and managing the email/SMS templates those requests use. Scope-gated with the `reviews` OAuth2 scope.
-  name: Vendasta Customer Voice REST API
-  slug: vendasta-customer-voice-api
-- description: Social AI product API for connected social profiles and messages on a business location. Published as OpenAPI 3.1.0. Scope-gated with the `social` OAuth2 scope.
-  name: Vendasta Social REST API
-  slug: vendasta-social-api
-- description: The Business context API covering the Customer List for a business location — list, get, update and delete customers. Vendasta has deprecated the Customer List in favour of the CRM; this surface is ma
-  name: Vendasta Business REST API
-  slug: vendasta-business-api
-- description: 'The Data Glossary context: glossary contexts and glossary terms, the vocabulary layer that explains what similarly named fields mean in each part of the Vendasta platform (a sales view of a business i'
-  name: Vendasta Data Glossary API
-  slug: vendasta-glossary-api
-- description: API for the AI Employees (AI assistants) that Vendasta runs on a partner platform — receptionist, reputation specialist, sales assistant, social media manager and custom AI employees. Scope-gated with
-  name: Vendasta AI Employees API
-  slug: vendasta-ai-employees-api
-- description: 'The knowledge (embeddings) API that grounds Vendasta AI Employees: upsert a knowledge source into an account or partner knowledge base, request a signed URL for direct file upload, remove a source, an'
-  name: Vendasta AI Knowledge API
-  slug: vendasta-ai-knowledge-api
-- description: Conversations AI service API for the unified inbox that centralises SMS, web chat, voice and other channels. Scope-gated with `conversation`, `conversation:read` and `conversation.widget`.
-  name: Vendasta Conversation API
-  slug: vendasta-conversation-api
-- description: The Composer service on the Vendasta gRPC gateway, used for composing content within the platform.
+- description: The Account Stats API from Vendasta — 2 operation(s) for account stats.
+  name: Vendasta Account Stats API
+  slug: vendasta-account-stats-api
+- description: The AnalyticsService API from Vendasta — 2 operation(s) for analyticsservice.
+  name: Vendasta Analytics Service API
+  slug: vendasta-analyticsservice-api
+- description: The Assistants API from Vendasta — 1 operation(s) for assistants.
+  name: Vendasta Assistants API
+  slug: vendasta-assistants-api
+- description: The Automation Runs API from Vendasta — 1 operation(s) for automation runs.
+  name: Vendasta Automation Runs API
+  slug: vendasta-automation-runs-api
+- description: The Automations API from Vendasta — 2 operation(s) for automations.
+  name: Vendasta Automations API
+  slug: vendasta-automations-api
+- description: The BlogPostsService API from Vendasta — 2 operation(s) for blogpostsservice.
+  name: Vendasta Blog Posts Service API
+  slug: vendasta-blogpostsservice-api
+- description: The Business Categories API from Vendasta — 1 operation(s) for business categories.
+  name: Vendasta Business Categories API
+  slug: vendasta-business-categories-api
+- description: The Business Location Reviews API from Vendasta — 2 operation(s) for business location reviews.
+  name: Vendasta Business Location Reviews API
+  slug: vendasta-business-location-reviews-api
+- description: The Business Locations API from Vendasta — 2 operation(s) for business locations.
+  name: Vendasta Business Locations API
+  slug: vendasta-business-locations-api
+- description: The Cache API from Vendasta — 1 operation(s) for cache.
+  name: Vendasta Cache API
+  slug: vendasta-cache-api
+- description: The Campaign Info API from Vendasta — 2 operation(s) for campaign info.
+  name: Vendasta Campaign Info API
+  slug: vendasta-campaign-info-api
+- description: The Campaign Stats API from Vendasta — 2 operation(s) for campaign stats.
+  name: Vendasta Campaign Stats API
+  slug: vendasta-campaign-stats-api
+- description: The Citations API from Vendasta — 2 operation(s) for citations.
+  name: Vendasta Citations API
+  slug: vendasta-citations-api
+- description: The Composer API from Vendasta — 1 operation(s) for composer.
   name: Vendasta Composer API
   slug: vendasta-composer-api
-- description: Forms service API for creating and managing the forms a business publishes and the submissions they collect.
+- description: The Connected Accounts API from Vendasta — 2 operation(s) for connected accounts.
+  name: Vendasta Connected Accounts API
+  slug: vendasta-connected-accounts-api
+- description: The ConversationService API from Vendasta — 2 operation(s) for conversationservice.
+  name: Vendasta Conversation Service API
+  slug: vendasta-conversationservice-api
+- description: The Countries API from Vendasta — 4 operation(s) for countries.
+  name: Vendasta Countries API
+  slug: vendasta-countries-api
+- description: The CRMAssociationService API from Vendasta — 6 operation(s) for crmassociationservice.
+  name: Vendasta CRM Association Service API
+  slug: vendasta-crmassociationservice-api
+- description: The CRMCompanyService API from Vendasta — 6 operation(s) for crmcompanyservice.
+  name: Vendasta CRM Company Service API
+  slug: vendasta-crmcompanyservice-api
+- description: The CRMCustomObjectService API from Vendasta — 9 operation(s) for crmcustomobjectservice.
+  name: Vendasta CRM Custom Object Service API
+  slug: vendasta-crmcustomobjectservice-api
+- description: The CRMCustomObjectTypeService API from Vendasta — 5 operation(s) for crmcustomobjecttypeservice.
+  name: Vendasta CRM Custom Object Type Service API
+  slug: vendasta-crmcustomobjecttypeservice-api
+- description: The CRMFieldSchemaCustomizationService API from Vendasta — 5 operation(s) for crmfieldschemacustomizationservice.
+  name: Vendasta CRM Field Schema Customization Service API
+  slug: vendasta-crmfieldschemacustomizationservice-api
+- description: The CRMFieldSchemaService API from Vendasta — 5 operation(s) for crmfieldschemaservice.
+  name: Vendasta CRM Field Schema Service API
+  slug: vendasta-crmfieldschemaservice-api
+- description: The CRMOpportunityService API from Vendasta — 6 operation(s) for crmopportunityservice.
+  name: Vendasta CRM Opportunity Service API
+  slug: vendasta-crmopportunityservice-api
+- description: The CRMService API from Vendasta — 6 operation(s) for crmservice.
+  name: Vendasta CRM Service API
+  slug: vendasta-crmservice-api
+- description: The Customers API from Vendasta — 2 operation(s) for customers.
+  name: Vendasta Customers API
+  slug: vendasta-customers-api
+- description: The Drafts API from Vendasta — 8 operation(s) for drafts.
+  name: Vendasta Drafts API
+  slug: vendasta-drafts-api
+- description: The Forms API from Vendasta — 9 operation(s) for forms.
   name: Vendasta Forms API
   slug: vendasta-forms-api
-- description: Meetings (CalendarHero) API for creating meetings, adding contacts, messaging and searching. Scope-gated with the `meeting` OAuth2 scope.
-  name: Vendasta Meetings API
-  slug: vendasta-meetings-api
-- description: Sales Orders service and its auxiliary field schema, exposed through the gRPC gateway — the order surface behind the platform marketplace.
+- description: The Glossary-Contexts API from Vendasta — 3 operation(s) for glossary-contexts.
+  name: Vendasta Glossary Contexts API
+  slug: vendasta-glossary-contexts-api
+- description: The Glossary-Terms API from Vendasta — 3 operation(s) for glossary-terms.
+  name: Vendasta Glossary Terms API
+  slug: vendasta-glossary-terms-api
+- description: Group resource
+  name: Vendasta Group API
+  slug: vendasta-group-api
+- description: The Knowledge API from Vendasta — 5 operation(s) for knowledge.
+  name: Vendasta Knowledge API
+  slug: vendasta-knowledge-api
+- description: The Listing Profiles API from Vendasta — 1 operation(s) for listing profiles.
+  name: Vendasta Listing Profiles API
+  slug: vendasta-listing-profiles-api
+- description: The Listing Scores API from Vendasta — 1 operation(s) for listing scores.
+  name: Vendasta Listing Scores API
+  slug: vendasta-listing-scores-api
+- description: The Listing Sync Listings API from Vendasta — 1 operation(s) for listing sync listings.
+  name: Vendasta Listing Sync Listings API
+  slug: vendasta-listing-sync-listings-api
+- description: The ListingProductsService API from Vendasta — 1 operation(s) for listingproductsservice.
+  name: Vendasta Listing Products Service API
+  slug: vendasta-listingproductsservice-api
+- description: The ListingProfileService API from Vendasta — 1 operation(s) for listingprofileservice.
+  name: Vendasta Listing Profile Service API
+  slug: vendasta-listingprofileservice-api
+- description: The ListingService API from Vendasta — 3 operation(s) for listingservice.
+  name: Vendasta Listing Service API
+  slug: vendasta-listingservice-api
+- description: The ListingSourceService API from Vendasta — 2 operation(s) for listingsourceservice.
+  name: Vendasta Listing Source Service API
+  slug: vendasta-listingsourceservice-api
+- description: The MeetingExternal API from Vendasta — 9 operation(s) for meetingexternal.
+  name: Vendasta Meeting External API
+  slug: vendasta-meetingexternal-api
+- description: The Messages API from Vendasta — 1 operation(s) for messages.
+  name: Vendasta Messages API
+  slug: vendasta-messages-api
+- description: The Monitor API from Vendasta — 2 operation(s) for monitor.
+  name: Vendasta Monitor API
+  slug: vendasta-monitor-api
+- description: The NetPromoterScoreService API from Vendasta — 4 operation(s) for netpromoterscoreservice.
+  name: Vendasta Net Promoter Score Service API
+  slug: vendasta-netpromoterscoreservice-api
+- description: The Options API from Vendasta — 55 operation(s) for options.
+  name: Vendasta Options API
+  slug: vendasta-options-api
+- description: The Order Custom Fields API from Vendasta — 1 operation(s) for order custom fields.
+  name: Vendasta Order Custom Fields API
+  slug: vendasta-order-custom-fields-api
+- description: The Order Fulfillment Forms API from Vendasta — 3 operation(s) for order fulfillment forms.
+  name: Vendasta Order Fulfillment Forms API
+  slug: vendasta-order-fulfillment-forms-api
+- description: The Orders API from Vendasta — 4 operation(s) for orders.
+  name: Vendasta Orders API
+  slug: vendasta-orders-api
+- description: The PageSpeedService API from Vendasta — 1 operation(s) for pagespeedservice.
+  name: Vendasta Page Speed Service API
+  slug: vendasta-pagespeedservice-api
+- description: The Partner Activatable Products API from Vendasta — 2 operation(s) for partner activatable products.
+  name: Vendasta Partner Activatable Products API
+  slug: vendasta-partner-activatable-products-api
+- description: The Pipelines API from Vendasta — 5 operation(s) for pipelines.
+  name: Vendasta Pipelines API
+  slug: vendasta-pipelines-api
+- description: The Product Custom Fields API from Vendasta — 1 operation(s) for product custom fields.
+  name: Vendasta Product Custom Fields API
+  slug: vendasta-product-custom-fields-api
+- description: The Purchases API from Vendasta — 1 operation(s) for purchases.
+  name: Vendasta Purchases API
+  slug: vendasta-purchases-api
+- description: Endpoints related to Resource Operations
+  name: Vendasta Resource Operations API
+  slug: vendasta-resource-operations-api
+- description: The Review Requests API from Vendasta — 1 operation(s) for review requests.
+  name: Vendasta Review Requests API
+  slug: vendasta-review-requests-api
+- description: The ReviewService API from Vendasta — 10 operation(s) for reviewservice.
+  name: Vendasta Review Service API
+  slug: vendasta-reviewservice-api
+- description: The Sales Account Custom Fields API from Vendasta — 1 operation(s) for sales account custom fields.
+  name: Vendasta Sales Account Custom Fields API
+  slug: vendasta-sales-account-custom-fields-api
+- description: The Sales Accounts API from Vendasta — 4 operation(s) for sales accounts.
+  name: Vendasta Sales Accounts API
+  slug: vendasta-sales-accounts-api
+- description: The SalesOrders API from Vendasta — 3 operation(s) for salesorders.
   name: Vendasta Sales Orders API
-  slug: vendasta-sales-orders-api
-- description: 'Social Posts services: SocialPosts, SocialPostsV2, the WordPress plugin service and the blog posts service — publishing and scheduling social and blog content for a business.'
+  slug: vendasta-salesorders-api
+- description: The SalesOrdersAuxiliaryFieldSchema API from Vendasta — 2 operation(s) for salesordersauxiliaryfieldschema.
+  name: Vendasta Sales Orders Auxiliary Field Schema API
+  slug: vendasta-salesordersauxiliaryfieldschema-api
+- description: The SearchService API from Vendasta — 2 operation(s) for searchservice.
+  name: Vendasta Search Service API
+  slug: vendasta-searchservice-api
+- description: The Send Welcome Email API from Vendasta — 1 operation(s) for send welcome email.
+  name: Vendasta Send Welcome Email API
+  slug: vendasta-send-welcome-email-api
+- description: The SEOService API from Vendasta — 2 operation(s) for seoservice.
+  name: Vendasta SEO Service API
+  slug: vendasta-seoservice-api
+- description: Partner-facing endpoints for WordPress site information.
+  name: Vendasta SiteDetail Service API
+  slug: vendasta-sitedetail-service-api
+- description: The SiteInfo API from Vendasta — 1 operation(s) for siteinfo.
+  name: Vendasta Site Info API
+  slug: vendasta-siteinfo-api
+- description: The SiteManager API from Vendasta — 5 operation(s) for sitemanager.
+  name: Vendasta Site Manager API
+  slug: vendasta-sitemanager-api
+- description: The SiteOptionsService API from Vendasta — 1 operation(s) for siteoptionsservice.
+  name: Vendasta Site Options Service API
+  slug: vendasta-siteoptionsservice-api
+- description: The Social Profiles API from Vendasta — 1 operation(s) for social profiles.
+  name: Vendasta Social Profiles API
+  slug: vendasta-social-profiles-api
+- description: The SocialPosts API from Vendasta — 3 operation(s) for socialposts.
   name: Vendasta Social Posts API
-  slug: vendasta-social-posts-api
-- description: Social Drafts service for creating, listing and managing draft social content before it is scheduled or published.
-  name: Vendasta Social Drafts API
-  slug: vendasta-social-drafts-api
-- description: 'Listing Products services through the gRPC gateway: ListingProductsService, ListingSourceService, ListingProfileService, SEOService and Citations — the fuller local-listings surface behind Local SEO.'
-  name: Vendasta Listing Products API
-  slug: vendasta-listing-products-api
-- description: Analytics service for multi-location brands and franchises, rolling product performance up across the locations under one partner.
-  name: Vendasta Multi-Location Analytics API
-  slug: vendasta-multi-location-analytics-api
-- description: The VAnalytics service on the gRPC gateway, exposing Vendasta platform analytics data.
-  name: Vendasta Vanalytics API
+  slug: vendasta-socialposts-api
+- description: The SocialPostsV2 API from Vendasta — 2 operation(s) for socialpostsv2.
+  name: Vendasta Social Posts V2 API
+  slug: vendasta-socialpostsv2-api
+- description: The Subscription Assignments API from Vendasta — 4 operation(s) for subscription assignments.
+  name: Vendasta Subscription Assignments API
+  slug: vendasta-subscription-assignments-api
+- description: The Subscriptions API from Vendasta — 1 operation(s) for subscriptions.
+  name: Vendasta Subscriptions API
+  slug: vendasta-subscriptions-api
+- description: System Operations
+  name: Vendasta System Operations API
+  slug: vendasta-system-operations-api
+- description: The Templates API from Vendasta — 2 operation(s) for templates.
+  name: Vendasta Templates API
+  slug: vendasta-templates-api
+- description: The Terms API from Vendasta — 2 operation(s) for terms.
+  name: Vendasta Terms API
+  slug: vendasta-terms-api
+- description: The User Custom Fields API from Vendasta — 2 operation(s) for user custom fields.
+  name: Vendasta User Custom Fields API
+  slug: vendasta-user-custom-fields-api
+- description: The Users API from Vendasta — 5 operation(s) for users.
+  name: Vendasta Users API
+  slug: vendasta-users-api
+- description: The VAnalytics API from Vendasta — 5 operation(s) for vanalytics.
+  name: Vendasta V Analytics API
   slug: vendasta-vanalytics-api
-- description: Site detail service for Vendasta managed WordPress hosting (Website Pro), which runs client WordPress sites on Google Cloud.
-  name: Vendasta WordPress Hosting API
-  slug: vendasta-wordpress-hosting-api
-- description: Website Pro admin center services — search and WordPress administration across the sites a partner manages.
-  name: Vendasta Website Pro Admin Center API
-  slug: vendasta-wsp-admin-center-api
-- description: Website Pro monitoring service for uptime and health signals on managed WordPress sites.
-  name: Vendasta Website Pro Monitor API
-  slug: vendasta-wsp-monitor-api
-- description: Website Pro site information and cache services for managed WordPress sites.
-  name: Vendasta Website Pro Site Info API
-  slug: vendasta-wsp-site-info-api
-- description: Website Pro SiteManager support tooling used to diagnose and operate managed WordPress sites.
-  name: Vendasta Website Pro Support Tools API
-  slug: vendasta-wsp-support-tools-api
-- description: Website Pro site options and PageSpeed services for managed WordPress sites.
-  name: Vendasta Website Pro WP Manager API
-  slug: vendasta-wsp-wp-manager-api
-artifact_total: 57
+- description: The WordpressPluginService API from Vendasta — 1 operation(s) for wordpresspluginservice.
+  name: Vendasta Wordpress Plugin Service API
+  slug: vendasta-wordpresspluginservice-api
+- description: The WordpressService API from Vendasta — 3 operation(s) for wordpressservice.
+  name: Vendasta Wordpress Service API
+  slug: vendasta-wordpressservice-api
+artifact_total: 106
 asyncapis:
 - description: ''
   name: Vendasta Webhooks
@@ -191,6 +338,10 @@ collections:
   name: Vendasta Marketplace API V1 Endpoints account user API
   slug: open-vendasta-user-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vendasta-capability-edges.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -376,13 +527,13 @@ modified: '2026-08-13'
 name: Vendasta
 nav: Providers
 network: true
-overview: 'Vendasta publishes 38 APIs on the [APIs.io](https://apis.io/) network, including account API, activity API, change_spend API, and 35 more. Tagged areas include Company, Software-as-a-Service, Marketplace, SMB, and White Label.
+overview: 'Vendasta publishes 87 APIs on the [APIs.io](https://apis.io/) network, including account API, activity API, change_spend API, and 84 more. Tagged areas include Company, Software-as-a-Service, Marketplace, SMB, and White Label.
 
 
   The Vendasta catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Vendasta''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 36 more developer resources.'
+  Vendasta''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 37 more developer resources.'
 plans:
 - name: Vendasta Plans Pricing
   plan_count: 4
@@ -399,18 +550,23 @@ scopes:
   summary_line: 73 scopes
 score:
   band: strong
-  composite: 63.3
-  delta: 0.0
+  composite: 60.9
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 65.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.8
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 30.3
-    contract_quality: 59.7
+    contract_governance: 18.2
+    contract_quality: 63.0
     developer_ergonomics: 44.6
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 63.0
+    governance: 18.2
     operational_transparency: 81.6
-  previous_composite: 63.3
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -421,8 +577,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vendasta/refs/heads/main/screenshots/vendasta-2026-08-17T080435.png
 security:

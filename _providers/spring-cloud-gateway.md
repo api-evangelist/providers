@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: spring-cloud-gateway-agentic-access
   summary_line: 9 operations · 4 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Core routing and filtering capabilities including predicate factories (Path, Host, Method, Header, Query, Cookie, Weight, RemoteAddr), gateway filter factories (AddRequestHeader, RewritePath, RequestR
   name: Spring Cloud Gateway Core
@@ -209,15 +209,20 @@ rules:
   slug: spring-cloud-gateway-rules
 score:
   band: thin
-  composite: 38.2
-  delta: 0.0
+  composite: 37.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 55.3
     developer_ergonomics: 28.6
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 36.8
   previous_composite: 38.2
@@ -228,8 +233,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-cloud-gateway/refs/heads/main/screenshots/spring-cloud-gateway-2026-06-20T194410.png
 security:

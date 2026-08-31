@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -41,17 +41,11 @@ agentic_access:
   operation_count: 26
   slug: keap-agentic-access
   summary_line: 26 operations · 10 acting
-api_count: 32
+api_count: 7
 apis:
-- description: Keap REST Hooks webhook surface. Subscribers register a `hookUrl` and `eventKey` via the v1 REST API (`POST /rest/v1/hooks`), complete an `X-Hook-Secret` verification handshake, then receive HTTP POST
-  name: Keap REST Hooks
-  slug: rest-hooks
 - description: Keap Affiliate API — 48 operations across 28 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Affiliate API
   slug: keap-affiliate-api
-- description: Keap Appointment API — 8 operations across 4 paths on the Keap REST v1 contract, read from Keap's own published OpenAPI 3.1 document.
-  name: Keap Appointment API (v1)
-  slug: keap-appointment-v1-api
 - description: Keap Automation API — 10 operations across 9 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Automation API
   slug: keap-automation-api
@@ -67,15 +61,9 @@ apis:
 - description: Keap Contact API — 27 operations across 16 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Contacts API
   slug: keap-contacts-api
-- description: Keap E-Commerce API — 16 operations across 12 paths on the Keap REST v1 contract, read from Keap's own published OpenAPI 3.1 document.
-  name: Keap E-Commerce API (v1)
-  slug: keap-e-commerce-v1-api
 - description: Keap Email API — 10 operations across 8 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Email API
   slug: keap-email-api
-- description: Keap File API — 5 operations across 2 paths on the Keap REST v1 contract, read from Keap's own published OpenAPI 3.1 document.
-  name: Keap File API (v1)
-  slug: keap-file-v1-api
 - description: Keap Files API — 6 operations across 3 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Files API
   slug: keap-files-api
@@ -115,9 +103,6 @@ apis:
 - description: Keap Product Interest Bundles API — 8 operations across 4 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Product Interest Bundles API
   slug: keap-product-interest-bundles-api
-- description: Keap Product API — 11 operations across 6 paths on the Keap REST v1 contract, read from Keap's own published OpenAPI 3.1 document.
-  name: Keap Product API (v1)
-  slug: keap-product-v1-api
 - description: Keap Products API — 17 operations across 9 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Products API
   slug: keap-products-api
@@ -139,7 +124,79 @@ apis:
 - description: Keap Users API — 5 operations across 4 paths on the Keap REST v2 contract, read from Keap's own published OpenAPI 3.1 document.
   name: Keap Users API
   slug: keap-users-api
-artifact_total: 51
+- description: The Appointment API from Keap — 4 operation(s) for appointment.
+  name: Keap Appointment API
+  slug: keap-appointment-api
+- description: The E-Commerce API from Keap — 12 operation(s) for e-commerce.
+  name: Keap E Commerce API
+  slug: keap-e-commerce-api
+- description: The File API from Keap — 2 operation(s) for file.
+  name: Keap File API
+  slug: keap-file-api
+- description: The Product API from Keap — 6 operation(s) for product.
+  name: Keap Product API
+  slug: keap-product-api
+- description: The REST Hooks API from Keap — 5 operation(s) for rest hooks.
+  name: Keap REST Hooks API
+  slug: keap-rest-hooks-api
+- description: Account Info-Endpoint
+  name: Keap Account Info API
+  slug: keap-account-info-api
+- description: The AutomationCategory API from Keap — 2 operation(s) for automationcategory.
+  name: Keap Automation Category API
+  slug: keap-automationcategory-api
+- description: The Business Profile API from Keap — 1 operation(s) for business profile.
+  name: Keap Business Profile API
+  slug: keap-business-profile-api
+- description: Email-Addresses-Endpoint
+  name: Keap Email Address API
+  slug: keap-email-address-api
+- description: The Integrations API from Keap — 3 operation(s) for integrations.
+  name: Keap Integrations API
+  slug: keap-integrations-api
+- description: The LeadScore API from Keap — 1 operation(s) for leadscore.
+  name: Keap Lead Score API
+  slug: keap-leadscore-api
+- description: Locale-Endpoint
+  name: Keap Locale API
+  slug: keap-locale-api
+- description: Merchant-Endpoint
+  name: Keap Merchant API
+  slug: keap-merchant-api
+- description: The Merchants API from Keap — 1 operation(s) for merchants.
+  name: Keap Merchants API
+  slug: keap-merchants-api
+- description: The Payment Method Configs API from Keap — 1 operation(s) for payment method configs.
+  name: Keap Payment Method Configs API
+  slug: keap-payment-method-configs-api
+- description: The Payment Methods API from Keap — 4 operation(s) for payment methods.
+  name: Keap Payment Methods API
+  slug: keap-payment-methods-api
+- description: The Referral API from Keap — 1 operation(s) for referral.
+  name: Keap Referral API
+  slug: keap-referral-api
+- description: The Reporting API from Keap — 4 operation(s) for reporting.
+  name: Keap Reporting API
+  slug: keap-reporting-api
+- description: The Sales API from Keap — 3 operation(s) for sales.
+  name: Keap Sales API
+  slug: keap-sales-api
+- description: Setting-Endpoint
+  name: Keap Setting API
+  slug: keap-setting-api
+- description: The Settings API from Keap — 3 operation(s) for settings.
+  name: Keap Settings API
+  slug: keap-settings-api
+- description: The Shipping API from Keap — 1 operation(s) for shipping.
+  name: Keap Shipping API
+  slug: keap-shipping-api
+- description: The User Groups API from Keap — 2 operation(s) for user groups.
+  name: Keap User Groups API
+  slug: keap-user-groups-api
+- description: The Webforms API from Keap — 2 operation(s) for webforms.
+  name: Keap Webforms API
+  slug: keap-webforms-api
+artifact_total: 70
 asyncapis:
 - description: AsyncAPI 2.6 description of the Keap (formerly Infusionsoft) REST Hooks webhook surface. Keap REST Hooks are subscriptions that are created and managed via the v1 REST API (`POST /rest/v1/hooks`). Onc
   name: Keap REST Hooks
@@ -176,6 +233,26 @@ collections:
   name: Keap REST API
   slug: open-keap
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/keap-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/keap-appointment-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/keap-e-commerce-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/keap-file-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/keap-product-v1-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -392,13 +469,13 @@ modified: '2026-08-13'
 name: Keap
 nav: Providers
 network: true
-overview: 'Keap publishes 32 APIs on the [APIs.io](https://apis.io/) network, including REST Hooks, Affiliate API, Appointment API (v1), and 29 more. Tagged areas include CRM, Sales, Marketing Automation, Small Business, and E-Commerce.
+overview: 'Keap publishes 51 APIs on the [APIs.io](https://apis.io/) network, including Affiliate API, Automation API, Campaigns API, and 48 more. Tagged areas include CRM, Sales, Marketing Automation, Small Business, and E-Commerce.
 
 
   The Keap catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Keap''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, sandbox, API reference, and 44 more developer resources.'
+  Keap''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, sandbox, API reference, and 49 more developer resources.'
 plans:
 - name: Keap Plans Pricing
   plan_count: 1
@@ -427,18 +504,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 66.4
-  delta: 0.0
+  composite: 62.6
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 76.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.9
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 28.0
-    contract_quality: 65.5
+    contract_governance: 15.9
+    contract_quality: 65.7
     developer_ergonomics: 78.0
-    discoverability: 74.1
-    governance: 28.0
+    discoverability: 50.0
+    governance: 15.9
     operational_transparency: 34.2
-  previous_composite: 66.4
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -455,8 +537,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/screenshots/keap-2026-06-20T183931.png
 security:

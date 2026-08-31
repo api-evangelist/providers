@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 284
   human_in_the_loop: 22
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 469
   slug: onerail-agentic-access
   summary_line: 469 operations · 284 acting · 22 human-in-the-loop
-api_count: 75
+api_count: 3
 apis:
 - description: The OmniPoint Delivery API lets authorized shippers request, price, update, and track deliveries through the OneRail carrier network. It covers rate shopping across qualified carriers, order and deliv
   name: OneRail Delivery API
@@ -507,6 +507,10 @@ collections:
   name: Onerail Visibility API
   slug: open-onerail-visibility-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/onerail-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -632,13 +636,13 @@ modified: '2026-08-02'
 name: OneRail
 nav: Providers
 network: true
-overview: 'OneRail publishes 75 APIs on the [APIs.io](https://apis.io/) network, including Delivery API, Api Auth API, Assets API, and 72 more. Tagged areas include Last Mile Delivery, Delivery Orchestration, Logistics, Supply Chain, and Route Optimization.
+overview: 'OneRail publishes 75 APIs on the [APIs.io](https://apis.io/) network, including Delivery API, Api Auth API, Assets API, and 72 more. Tagged areas include last-mile-delivery, delivery-orchestration, Logistics, Supply Chain, and route-optimization.
 
 
   The OneRail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  OneRail''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 21 more developer resources.'
+  OneRail''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 22 more developer resources.'
 random_paper: 11
 scopes:
 - name: Onerail Scopes
@@ -647,18 +651,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.3
-  delta: 0.1
+  composite: 44.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 50.9
     developer_ergonomics: 61.3
-    discoverability: 59.3
-    governance: 30.3
+    discoverability: 57.4
+    governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 46.2
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -669,8 +678,8 @@ score:
       total: 76
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/screenshots/onerail-2026-08-07T190340.png
 security:
@@ -688,17 +697,17 @@ security:
   summary_line: SOC 2 Type II, ISO/IEC 27001:2022, GDPR
 slug: onerail
 tags:
-- Last Mile Delivery
-- Delivery Orchestration
+- last-mile-delivery
+- delivery-orchestration
 - Logistics
 - Supply Chain
-- Route Optimization
+- route-optimization
 - courier-network
 - Shipping
-- Fleet Management
+- fleet-management
 - Transportation
-- Order Management
+- order-management
 - Webhook
-- Final Mile
+- final-mile
 website: https://www.onerail.com/
 ---

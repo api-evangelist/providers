@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1123
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1226
   slug: chainstack-agentic-access
   summary_line: 1226 operations · 1123 acting
-api_count: 32
+api_count: 25
 apis:
 - description: Public Chainstack-operated testnet faucet for Hoodi, Sepolia, BNB Testnet, zkSync Testnet, Scroll Sepolia, and Polygon Amoy. JWT-authenticated POST /v1/faucet/{chain} request endpoint plus a transacti
   name: Chainstack Faucet API
@@ -89,9 +89,6 @@ apis:
 - description: The General API from Chainstack — 520 operation(s) for general.
   name: Chainstack General API
   slug: chainstack-general-api
-- description: The History API from Chainstack — 1 operation(s) for history.
-  name: Chainstack History API
-  slug: chainstack-history-api
 - description: The Logs And Events API from Chainstack — 3 operation(s) for logs and events.
   name: Chainstack Logs And Events API
   slug: chainstack-logs-and-events-api
@@ -140,7 +137,7 @@ apis:
 - description: The Zkevm Methods API from Chainstack — 8 operation(s) for zkevm methods.
   name: Chainstack Zkevm Methods API
   slug: chainstack-zkevm-methods-api
-artifact_total: 136
+artifact_total: 135
 asyncapis:
 - description: AsyncAPI 2.6 specification for Chainstack's JSON-RPC WebSocket (WSS) subscription APIs. Chainstack-managed nodes expose a persistent WebSocket endpoint per node that accepts JSON-RPC 2.0 messages. Cli
   name: Chainstack RPC WebSocket APIs
@@ -624,7 +621,7 @@ modified: 2026-05-29 00:00:00+00:00
 name: Chainstack
 nav: Providers
 network: true
-overview: 'Chainstack publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Faucet API, Account Info API, Accounts Info API, and 29 more. Tagged areas include Blockchain, Multi-Chain, RPC, Node Infrastructure, and Web3.
+overview: 'Chainstack publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Faucet API, Account Info API, Accounts Info API, and 28 more. Tagged areas include Blockchain, Multi-Chain, RPC, Node Infrastructure, and Web3.
 
 
   The Chainstack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -675,18 +672,23 @@ rules:
   slug: chainstack-rules
 score:
   band: strong
-  composite: 61.8
+  composite: 61.1
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 36.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 28.8
-    contract_quality: 67.0
+    contract_quality: 67.8
     developer_ergonomics: 59.5
-    discoverability: 59.3
+    discoverability: 50.0
     governance: 28.8
     operational_transparency: 73.7
-  previous_composite: 61.8
+  previous_composite: 61.1
   provenance:
     agentic_access: derived
     contracts:
@@ -694,8 +696,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/screenshots/chainstack-2026-06-20T174203.png
 security:

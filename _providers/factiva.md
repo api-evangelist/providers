@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 22
   slug: factiva-agentic-access
   summary_line: 22 operations · 4 acting
-api_count: 11
+api_count: 3
 apis:
 - description: Provides programmatic access to create, retrieve, and manage news snapshots based on search queries and filters. Supports analytics explain jobs and time series operations for volume estimation and tr
   name: Factiva Snapshots API
@@ -68,21 +68,51 @@ apis:
 - description: Retrieves real-time quotes, delayed quotes, and time series market data for US, Canadian, and global companies. Supports lookups by Dow Jones Ticker, Factiva Code, CUSIP, DUNS, or ISIN to retrieve mar
   name: Factiva Market Data API
   slug: factiva-market-data-api
-- description: Search the Factiva archive and retrieve licensed articles by accession number, including binary renditions (PDF, image) and publisher redirects. Also covers alert result retrieval, NewsPlus collection
+- description: The Content API from Factiva — 15 operation(s) for content.
   name: Factiva Content API
   slug: factiva-content-api
-- description: Retrieve the Factiva newsletters available to an account, walk each newsletter's editions and deliveries, and read the content items inside an edition. Responses are JSON:API documents served as appli
-  name: DJ Factiva Newsletters API
-  slug: dj-factiva-newsletters-api
-- description: Perform a full search of the Factiva realtime search system and return the company screening list and company news radar for an entitled user. This is the REST replacement for the PerformContentSearch
-  name: Factiva Company News Radar API
-  slug: factiva-company-news-radar-api
-artifact_total: 21
+- description: The Content Search API from Factiva — 1 operation(s) for content search.
+  name: Factiva Content Search API
+  slug: factiva-content-search-api
+- description: Default section
+  name: Factiva Default API
+  slug: factiva-default-api
+- description: The Editions API from Factiva — 2 operation(s) for editions.
+  name: Factiva Editions API
+  slug: factiva-editions-api
+- description: The Newsletters API from Factiva — 2 operation(s) for newsletters.
+  name: Factiva Newsletters API
+  slug: factiva-newsletters-api
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Factiva Streams Events
   slug: factiva-streams-events
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/factiva-content-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/factiva-search-and-fetch-article.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/factiva-newsletters-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/factiva-read-newsletter-editions.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/factiva-company-news-radar-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/factiva-company-news-radar.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -275,13 +305,13 @@ modified: '2026-08-13'
 name: Factiva
 nav: Providers
 network: true
-overview: 'Factiva publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Snapshots API, Streams API, Extractions API, and 6 more. Tagged areas include Artificial Intelligence, Business Intelligence, Content Aggregation, Enterprise Data, and GenAI.
+overview: 'Factiva publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Snapshots API, Streams API, Extractions API, and 8 more. Tagged areas include Artificial Intelligence, Business Intelligence, Content Aggregation, Enterprise Data, and GenAI.
 
 
   The Factiva catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Factiva''s developer surface includes authentication, getting-started guide, documentation, support, engineering blog, signup flow, API reference, and 38 more developer resources.'
+  Factiva''s developer surface includes authentication, getting-started guide, documentation, support, engineering blog, signup flow, API reference, and 44 more developer resources.'
 plans:
 - name: Factiva Plans Pricing
   plan_count: 0
@@ -298,18 +328,23 @@ scopes:
   summary_line: 8 scopes · password/authorizationCode/implicit
 score:
   band: strong
-  composite: 61.9
+  composite: 58.8
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
-    contract_quality: 55.4
+    contract_governance: 4.5
+    contract_quality: 53.6
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 61.9
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -321,8 +356,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 86.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/screenshots/factiva-2026-06-20T181007.png
 security:

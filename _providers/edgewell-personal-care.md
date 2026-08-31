@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
 common:
@@ -52,13 +52,13 @@ description: Edgewell Personal Care is a global consumer products company offeri
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/edgewell-personal-care.png
 layout: provider
 modified: '2026-04-28'
-name: edgewell-personal-care
+name: Edgewell Personal Care
 nav: Providers
 network: true
-overview: 'edgewell-personal-care is profiled on the [APIs.io](https://apis.io/) network.
+overview: 'Edgewell Personal Care is profiled on the [APIs.io](https://apis.io/) network.
 
 
-  edgewell-personal-care''s developer surface includes engineering blog and 2 more developer resources.'
+  Edgewell Personal Care''s developer surface includes engineering blog and 2 more developer resources.'
 press:
 - date: '2026-05-25'
   title: Edgewell Personal Care Announces First Quarter Fiscal ...
@@ -79,6 +79,11 @@ random_paper: 5
 score:
   band: minimal
   composite: 3.1
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 101.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -100,8 +105,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: edgewell-personal-care
 website: https://www.edgewell-personal-care.com

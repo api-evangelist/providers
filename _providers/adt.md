@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.5
-  scored_at: '2026-08-26'
+  score: 36.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -168,6 +168,44 @@ common:
   title: ''
   type: Signup
   url: https://www.adt.com/get-a-quote
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/adt-well-known.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/adt-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/adt-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/adt-conventions.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/adt-packages.yml
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.adt.com/
+coverage:
+  checked: '2026-08-30'
+  detail: 'ADT runs a live, actively maintained API host — api.adt.com presents a Sectigo OV certificate whose subject is CN=api.adt.com, O=ADT LLC, reissued 2026-06-25 — but the origin completes the TLS handshake and then returns zero bytes to any anonymous HTTP request, and ADT publishes no developer reference anywhere: developer.adt.com and developers.adt.com do not resolve, while partners.adt.com does. ADT''s integration APIs (Pulse, Canopy) have only ever been offered to named integration partners, so the contract is reachable only through a partnership, never as a published document.'
+  evidence:
+  - status: 0
+    url: https://api.adt.com/
+  - status: 0
+    url: https://developer.adt.com/
+  - status: 403
+    url: https://partners.adt.com/
+  - status: 200
+    url: https://auth.adt.com/.well-known/openid-configuration
+  reason: partner-login
+  state: gated
 created: '2024-01-01'
 description: ADT is a provider of monitored security, interactive home and business automation, and related monitoring services for residential and small business customers across the United States and Canada. ADT offers smart home security systems, professional monitoring, video surveillance, access control, and automation integrations with Google Nest, Amazon Alexa, and Z-Wave smart home devices through the ADT+ platform.
 examples:
@@ -421,7 +459,7 @@ jsonld:
   property_count: 31
   slug: adt-platform-api-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-30'
 name: ADT
 nav: Providers
 network: true
@@ -431,10 +469,10 @@ overview: 'ADT publishes 10 APIs on the [APIs.io](https://apis.io/) network, inc
   The ADT catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  ADT''s developer surface includes authentication, developer portal, support, engineering blog, signup flow, and 8 more developer resources.'
+  ADT''s developer surface includes authentication, developer portal, support, engineering blog, signup flow, and 14 more developer resources.'
 plans:
 - name: Adt Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: adt-plans-pricing
 press:
 - date: '2026-05-25'
@@ -454,7 +492,7 @@ press:
   url: https://sierra.ai/customers/adt
 random_paper: 19
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Adt Rate Limits
   slug: adt-rate-limits
 rules:
@@ -481,23 +519,28 @@ rules:
   slug: adt-spectral-rules
 scopes:
 - name: Adt Scopes
-  scope_count: 10
+  scope_count: 36
   slug: adt-scopes
-  summary_line: 10 scopes · clientCredentials/authorizationCode
+  summary_line: 36 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.8
-  delta: 3.7
+  composite: 34.3
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.4
   facets:
-    access_clarity: 40.8
-    commercial_clarity: 40.8
-    contract_governance: 28.8
-    contract_quality: 25.8
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 47.0
+    contract_quality: 26.1
     developer_ergonomics: 38.1
     discoverability: 74.1
-    governance: 28.8
-    operational_transparency: 5.3
-  previous_composite: 30.1
+    governance: 47.0
+    operational_transparency: 0.0
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
@@ -505,15 +548,15 @@ score:
       derived: 10
       marker_coverage: 100.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/screenshots/adt-2026-06-20T165203.png
 security:
 - kind: authentication
   name: Adt Authentication
   slug: adt-authentication
-  summary_line: oauth2 · 2 schemes
+  summary_line: oauth2/openIdConnect · 1 scheme
 - kind: domain-security
   name: Adt Domain Security
   slug: adt-domain-security

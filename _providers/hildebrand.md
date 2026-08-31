@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-26'
+  score: 30.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 4
@@ -44,22 +44,73 @@ agentic_access:
   summary_line: 106 operations · 45 acting · 4 human-in-the-loop
 api_count: 5
 apis:
-- description: 'User, account, authentication and consent management for the Glow Platform. Covers user registration, account profiles and sessions, JWT issuance via POST /auth, an OAuth 2.0 authorization-code grant '
-  name: Glowmarkt User System API
-  slug: glowmarkt-user-system-api
-- description: Time-series energy data retrieval. A resource is a single data stream — electricity consumption, electricity cost, gas consumption, gas cost, electricity export, reactive import/export — each carrying
-  name: Glowmarkt Resource System API
-  slug: glowmarkt-resource-system-api
-- description: CRUD over Virtual Entities — the Glow Platform's model of a physical "thing" such as a home or a site, made up of metadata and a collection of resources. Lists the virtual entities a caller has access
-  name: Glowmarkt Virtual Entity System API
-  slug: glowmarkt-virtual-entity-system-api
-- description: Registration and status of the physical hardware feeding the platform — gateways such as the Glow CAD and GlowStick, sensors such as smart electricity meters, and actuators such as auxiliary load cont
-  name: Glowmarkt Device Management System API
-  slug: glowmarkt-device-management-system-api
-- description: Alerting and messaging for Glow-based applications. Defines alert types, manages per-channel and per-culture message templates, sends alerts to users, and reports notification delivery and logs. Serve
-  name: Glowmarkt Notification System API
-  slug: glowmarkt-notification-system-api
-artifact_total: 16
+- description: The Account API from Hildebrand — 8 operation(s) for account.
+  name: Hildebrand Account API
+  slug: hildebrand-account-api
+- description: The Account Profile API from Hildebrand — 2 operation(s) for account profile.
+  name: Hildebrand Account Profile API
+  slug: hildebrand-account-profile-api
+- description: The Account Session API from Hildebrand — 1 operation(s) for account session.
+  name: Hildebrand Account Session API
+  slug: hildebrand-account-session-api
+- description: The accountsession API from Hildebrand — 1 operation(s) for accountsession.
+  name: Hildebrand Accountsession API
+  slug: hildebrand-accountsession-api
+- description: An application can send an alert to a customer across multiple channels (email, push, inbox) which will convey some type of specific message (defined by the alert type).
+  name: Hildebrand Alert API
+  slug: hildebrand-alert-api
+- description: The definition of an alert, what functionality the alert represents. It is an identifier which amongst other elements will point us to the correct template. An alert type belongs to an application.
+  name: Hildebrand Alerttype API
+  slug: hildebrand-alerttype-api
+- description: The Auth API from Hildebrand — 5 operation(s) for auth.
+  name: Hildebrand Auth API
+  slug: hildebrand-auth-api
+- description: The Device API from Hildebrand — 5 operation(s) for device.
+  name: Hildebrand Device API
+  slug: hildebrand-device-api
+- description: The Device Meter Point DCC inventory API from Hildebrand — 3 operation(s) for device meter point dcc inventory.
+  name: Hildebrand Device Meter Point DCC inventory API
+  slug: hildebrand-device-meter-point-dcc-inventory-api
+- description: The DeviceType API from Hildebrand — 2 operation(s) for devicetype.
+  name: Hildebrand Device Type API
+  slug: hildebrand-devicetype-api
+- description: The discover API from Hildebrand — 1 operation(s) for discover.
+  name: Hildebrand Discover API
+  slug: hildebrand-discover-api
+- description: The Meter Point Consent & Verification API from Hildebrand — 5 operation(s) for meter point consent & verification.
+  name: Hildebrand Meter Point Consent & Verification API
+  slug: hildebrand-meter-point-consent-verification-api
+- description: When an application triggeers an alert, for each channel of communication a notification is created. This enables the system to monitor seperately whant happens in each channel.
+  name: Hildebrand Notification API
+  slug: hildebrand-notification-api
+- description: The OAuth API from Hildebrand — 2 operation(s) for oauth.
+  name: Hildebrand O Auth API
+  slug: hildebrand-oauth-api
+- description: A Resource is a representation of data collected from a physical device, like sensor readings, or changes in an actuating device state etc.
+  name: Hildebrand Resource API
+  slug: hildebrand-resource-api
+- description: A Resource Type defines the storage structure of the resources supported by the Glow Platform.
+  name: Hildebrand Resource Type API
+  slug: hildebrand-resource-type-api
+- description: The template of the message that is being sent; it can be passed through as HTML or JSON. Each template has an alert type, is specific to a single channel of communication and a culrture code.
+  name: Hildebrand Template API
+  slug: hildebrand-template-api
+- description: The User API from Hildebrand — 6 operation(s) for user.
+  name: Hildebrand User API
+  slug: hildebrand-user-api
+- description: A Virtual Entity is an instance of the Virtual Entity Type and is tied to an owner as well as an applicationId. In order to create a Virtual Entity a user must have all the required resources.
+  name: Hildebrand Virtual Entity API
+  slug: hildebrand-virtual-entity-api
+- description: A Virtual Entity's metadata can be used to save information that will facilitate the virtual representation of the entity. This is typically attribute data that does not change in time.
+  name: Hildebrand Virtual Entity's Metadata API
+  slug: hildebrand-virtual-entity-s-metadata-api
+- description: APIs that return an overview of the Virtual Entities an application has (administrative API).
+  name: Hildebrand Virtual Entity Statistics API
+  slug: hildebrand-virtual-entity-statistics-api
+- description: Entity that belongs and is managed by an application and contains the definition and combination of the Resource Types that are required to create a Virtual Entity.
+  name: Hildebrand Virtual Entity Type API
+  slug: hildebrand-virtual-entity-type-api
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Hildebrand Event Surface
@@ -81,6 +132,30 @@ collections:
   name: Virtual Entity System
   slug: open-hildebrand-glowmarkt-virtual-entity-system-swagger
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hildebrand-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hildebrand-glowmarkt-user-system-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hildebrand-glowmarkt-resource-system-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hildebrand-glowmarkt-virtual-entity-system-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hildebrand-glowmarkt-device-management-system-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hildebrand-glowmarkt-notification-system-overlay.yaml
 - group: start
   title: ''
   type: GettingStarted
@@ -206,13 +281,13 @@ modified: '2026-07-27'
 name: Hildebrand
 nav: Providers
 network: true
-overview: 'Hildebrand publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Glowmarkt User System API, Glowmarkt Resource System API, Glowmarkt Virtual Entity System API, and 2 more. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
+overview: 'Hildebrand publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account Profile API, Account Session API, and 19 more. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
 
 
   The Hildebrand catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hildebrand''s developer surface includes getting-started guide, engineering blog, authentication, documentation, API reference, signup flow, pricing, and 21 more developer resources.'
+  Hildebrand''s developer surface includes getting-started guide, engineering blog, authentication, documentation, API reference, signup flow, pricing, and 27 more developer resources.'
 plans:
 - name: Hildebrand Plans
   plan_count: 3
@@ -220,18 +295,23 @@ plans:
 random_paper: 8
 score:
   band: strong
-  composite: 57.6
-  delta: 0.0
+  composite: 55.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.0
   facets:
-    access_clarity: 73.7
-    commercial_clarity: 73.7
-    contract_governance: 30.3
-    contract_quality: 62.3
+    access_clarity: 68.4
+    commercial_clarity: 68.4
+    contract_governance: 18.2
+    contract_quality: 61.8
     developer_ergonomics: 49.4
     discoverability: 74.1
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 57.6
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -248,8 +328,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hildebrand/refs/heads/main/screenshots/hildebrand-2026-08-07T170207.png
 security:

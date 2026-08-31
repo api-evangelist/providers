@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-26'
-api_count: 68
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: The Agent Discovery API from ArthurAI — 2 operation(s) for agent discovery.
   name: ArthurAI Agent Discovery API
@@ -455,6 +455,10 @@ collections:
   name: Arthur GenAI Engine Agent Discovery Workspaces V1 API
   slug: open-arthurai-workspaces-v1-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/arthurai-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -589,7 +593,7 @@ overview: 'ArthurAI publishes 68 APIs on the [APIs.io](https://apis.io/) network
   The ArthurAI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ArthurAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 22 more developer resources.'
+  ArthurAI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
 random_paper: 3
 scopes:
 - name: Arthurai Scopes
@@ -598,18 +602,23 @@ scopes:
   summary_line: 191 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.8
-  delta: 1.4
+  composite: 46.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.8
     developer_ergonomics: 56.5
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 48.4
+  previous_composite: 47.2
   provenance:
     conformance: derived
     contracts:
@@ -619,8 +628,8 @@ score:
       total: 68
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthurai/refs/heads/main/screenshots/arthurai-2026-07-25T201328.png
 security:

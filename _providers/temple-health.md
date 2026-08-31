@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: temple-health-agentic-access
   summary_line: 11 operations
-api_count: 10
+api_count: 1
 apis:
 - description: 'The legacy Temple Health DSTU2 FHIR endpoint listed in Epic''s public DSTU2 endpoint registry under the organization "TempleHealth". It remains available for backward compatibility with older SMART on '
   name: Temple Health FHIR DSTU2 API
@@ -110,6 +110,10 @@ collections:
   name: Temple Health FHIR R4 API
   slug: open-temple-health-temple-health-fhir-r4-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/temple-health-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -353,7 +357,7 @@ overview: 'Temple Health publishes 9 APIs on the [APIs.io](https://apis.io/) net
   The Temple Health catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Temple Health''s developer surface includes authentication, GitHub presence, engineering blog, code examples, support, pricing, and 42 more developer resources.'
+  Temple Health''s developer surface includes authentication, GitHub presence, engineering blog, code examples, support, pricing, and 43 more developer resources.'
 plans:
 - name: Temple Health Plans Pricing
   plan_count: 4
@@ -392,18 +396,23 @@ scopes:
   summary_line: 15 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.1
-  delta: 3.8
+  composite: 61.1
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 59.1
+    contract_governance: 47.0
     contract_quality: 62.2
     developer_ergonomics: 39.9
-    discoverability: 74.1
-    governance: 59.1
+    discoverability: 68.5
+    governance: 47.0
     operational_transparency: 5.3
-  previous_composite: 59.3
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -420,8 +429,8 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temple-health/refs/heads/main/screenshots/temple-health-2026-06-20T195058.png
 security:

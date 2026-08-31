@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 91
   slug: orion-health-agentic-access
   summary_line: 91 operations · 22 acting · 3 human-in-the-loop
-api_count: 33
+api_count: 4
 apis:
 - description: Medical platform which allows the development of applications for different healthcare scenarios
   name: Orion Health
@@ -352,6 +352,10 @@ collections:
   name: Orion Health FHIR Alerts Routes API
   slug: open-orion-health-routes-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/orion-health-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -489,7 +493,7 @@ overview: 'Orion Health publishes 32 APIs on the [APIs.io](https://apis.io/) net
   The Orion Health catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Orion Health''s developer surface includes engineering blog, authentication, developer portal, getting-started guide, support, and 21 more developer resources.'
+  Orion Health''s developer surface includes engineering blog, authentication, developer portal, getting-started guide, support, and 22 more developer resources.'
 plans:
 - name: Orion Health Plans Pricing
   plan_count: 1
@@ -528,18 +532,23 @@ scopes:
   summary_line: 24 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 43.6
-  delta: 1.8
+  composite: 45.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 13.6
     contract_quality: 78.9
     developer_ergonomics: 34.5
-    discoverability: 38.9
+    discoverability: 57.4
     governance: 13.6
     operational_transparency: 18.4
-  previous_composite: 41.8
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -553,8 +562,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orion-health/refs/heads/main/screenshots/orion-health-2026-06-20T191207.png
 security:

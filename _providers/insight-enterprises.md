@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,10 +56,10 @@ description: Insight Enterprises is a global Fortune 500 solutions integrator he
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/insight-enterprises.png
 layout: provider
 modified: '2026-04-28'
-name: insight-enterprises
+name: Insight Enterprises
 nav: Providers
 network: true
-overview: insight-enterprises is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
+overview: Insight Enterprises is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
 press:
 - date: '2026-05-25'
   title: Insight Enterprises buys Inspire11 tech firm | NSIT 8-K Filing
@@ -80,6 +80,11 @@ random_paper: 12
 score:
   band: minimal
   composite: 2.9
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 101.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -91,8 +96,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 2.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insight-enterprises/refs/heads/main/screenshots/insight-enterprises-2026-06-20T183359.png
 security:

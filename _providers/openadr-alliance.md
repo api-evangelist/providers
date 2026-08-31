@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -31,11 +31,35 @@ agentic_access:
   operation_count: 152
   slug: openadr-alliance-agentic-access
   summary_line: 152 operations · 75 acting
-api_count: 1
+api_count: 4
 apis:
-- description: OpenADR 3 is the RESTful third generation of the OpenADR protocol, defined in full by a single OpenAPI 3.0 document published by the OpenADR Alliance. It supports energy-retailer-to-energy-customer de
-  name: OpenADR 3 API
-  slug: openadr-3-api
+- description: The Auth API from OpenADR Alliance — 2 operation(s) for auth.
+  name: OpenADR Alliance Auth API
+  slug: openadr-alliance-auth-api
+- description: The events API from OpenADR Alliance — 2 operation(s) for events.
+  name: OpenADR Alliance Events API
+  slug: openadr-alliance-events-api
+- description: The MQTT_notifier API from OpenADR Alliance — 12 operation(s) for mqtt_notifier.
+  name: OpenADR Alliance MQTT Notifier API
+  slug: openadr-alliance-mqtt-notifier-api
+- description: The notifiers API from OpenADR Alliance — 1 operation(s) for notifiers.
+  name: OpenADR Alliance Notifiers API
+  slug: openadr-alliance-notifiers-api
+- description: The programs API from OpenADR Alliance — 2 operation(s) for programs.
+  name: OpenADR Alliance Programs API
+  slug: openadr-alliance-programs-api
+- description: The reports API from OpenADR Alliance — 2 operation(s) for reports.
+  name: OpenADR Alliance Reports API
+  slug: openadr-alliance-reports-api
+- description: The resources API from OpenADR Alliance — 2 operation(s) for resources.
+  name: OpenADR Alliance Resources API
+  slug: openadr-alliance-resources-api
+- description: The subscriptions API from OpenADR Alliance — 2 operation(s) for subscriptions.
+  name: OpenADR Alliance Subscriptions API
+  slug: openadr-alliance-subscriptions-api
+- description: The vens API from OpenADR Alliance — 4 operation(s) for vens.
+  name: OpenADR Alliance Vens API
+  slug: openadr-alliance-vens-api
 arazzos:
 - description: 'BL/VTN-side flow against an OpenADR 3.1.1 VTN: authenticate with the client-credentials grant, create (or reuse) a program, publish an event carrying priced intervals against it, then read the event b'
   name: Publish a program and dispatch a demand response event
@@ -43,7 +67,7 @@ arazzos:
 - description: 'VEN-side onboarding against an OpenADR 3.1.1 VTN: authenticate, register the VEN, attach a controllable resource, ask the VTN which notifier bindings it supports, and register a webhook subscription f'
   name: Onboard a VEN, attach a resource, and subscribe to event notifications
   slug: openadr-alliance-ven-onboard-and-subscribe
-artifact_total: 10
+artifact_total: 18
 asyncapis:
 - description: Event surface of the OpenADR 3 protocol, derived from the OpenADR 3.1.1 OpenAPI contract and the Alliance-published notifications design document. The OpenADR Alliance publishes no AsyncAPI document o
   name: OpenADR 3 Object Operation Notifications
@@ -52,6 +76,30 @@ asyncapis:
   name: Openadr Alliance Webhooks
   slug: openadr-alliance-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/openadr-alliance-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/grid-coordination/openadr3-specification/issues
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/openadr-alliance-openadr-3-1-1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/openadr-alliance-openadr-3-1-0-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/openadr-alliance-openadr-3-0-1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/openadr-alliance-openadr-3-0-0-overlay.yaml
 - group: commercial
   title: ''
   type: License
@@ -241,13 +289,13 @@ modified: '2026-07-27'
 name: OpenADR Alliance
 nav: Providers
 network: true
-overview: 'OpenADR Alliance publishes 1 API on the [APIs.io](https://apis.io/) network: OpenADR 3 API. Tagged areas include Energy, United States, Utilities, Electricity, and Demand Response.
+overview: 'OpenADR Alliance publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Events API, MQTT Notifier API, and 6 more. Tagged areas include Energy, United States, Utilities, Electricity, and Demand Response.
 
 
   The OpenADR Alliance catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  OpenADR Alliance''s developer surface includes authentication, documentation, developer portal, tooling, support, engineering blog, changelog, and 38 more developer resources.'
+  OpenADR Alliance''s developer surface includes authentication, documentation, developer portal, tooling, support, engineering blog, changelog, and 44 more developer resources.'
 plans:
 - name: Openadr Alliance Plans
   plan_count: 10
@@ -259,19 +307,27 @@ scopes:
   slug: openadr-alliance-scopes
   summary_line: 9 scopes · clientCredentials
 score:
-  band: exemplar
-  composite: 67.2
-  delta: 1.9
+  band: strong
+  composite: 59.0
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 34.1
-    contract_quality: 76.5
+    contract_governance: 22.0
+    contract_quality: 71.1
     developer_ergonomics: 66.1
-    discoverability: 59.3
-    governance: 34.1
+    discoverability: 64.8
+    governance: 22.0
     operational_transparency: 26.3
-  previous_composite: 65.3
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -288,8 +344,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 60.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/screenshots/openadr-alliance-2026-08-07T190522.png
 security:

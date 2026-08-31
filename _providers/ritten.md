@@ -35,18 +35,64 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: 'The Ritten External API is the public REST contract for Ritten integrating partners. It covers patients (create, read, patch, vitals, forms, relationships, attachments, external-id lookup), contacts, '
-  name: Ritten External API
-  slug: ritten-external-api
-artifact_total: 6
+- description: The calendar API from Ritten — 2 operation(s) for calendar.
+  name: Ritten Calendar API
+  slug: ritten-calendar-api
+- description: Endpoints for accessing CRM cases (admissions pipeline).
+  name: Ritten Cases API
+  slug: ritten-cases-api
+- description: The contacts API from Ritten — 3 operation(s) for contacts.
+  name: Ritten Contacts API
+  slug: ritten-contacts-api
+- description: Endpoints for creating clinical encounters (visits) and discovering the encounter types they are created from.
+  name: Ritten Encounters API
+  slug: ritten-encounters-api
+- description: Endpoints for accessing clinic facilities (service locations).
+  name: Ritten Facilities API
+  slug: ritten-facilities-api
+- description: Endpoints for accessing form definitions and form-related data.
+  name: Ritten Forms API
+  slug: ritten-forms-api
+- description: Ritten provides insights and reporting endpoints for analytics and data export. These endpoints return various reports about admissions, discharges, census, billing, and CRM data. Most endpoints suppo
+  name: Ritten Insights API
+  slug: ritten-insights-api
+- description: The insurance API from Ritten — 2 operation(s) for insurance.
+  name: Ritten Insurance API
+  slug: ritten-insurance-api
+- description: OAuth 2.0 token endpoint for obtaining access tokens. This is the recommended way to authenticate with the Ritten External API.
+  name: Ritten OAUTH API
+  slug: ritten-oauth-api
+- description: Endpoints for accessing CRM organizations and organization members. Requires CRM to be available for the target clinic (`X-Ritten-Tenant`). Integrations must be explicitly provisioned by Ritten for or
+  name: Ritten Organizations API
+  slug: ritten-organizations-api
+- description: The patients API from Ritten — 8 operation(s) for patients.
+  name: Ritten Patients API
+  slug: ritten-patients-api
+- description: Endpoints for creating, accessing, and managing clinic programs.
+  name: Ritten Programs API
+  slug: ritten-programs-api
+- description: Endpoints for accessing clinic tasks. Tasks linked to a client are only returned when the integration is authorized to read that client.
+  name: Ritten Tasks API
+  slug: ritten-tasks-api
+- description: The users API from Ritten — 6 operation(s) for users.
+  name: Ritten Users API
+  slug: ritten-users-api
+- description: 'Ritten provides webhooks for various events that occur in the system. Integrating partners can subscribe to these events to receive real-time updates. Webhooks sent from Ritten are POST requests with '
+  name: Ritten Webhooks API
+  slug: ritten-webhooks-api
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Ritten Webhooks
   slug: ritten-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ritten-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -156,13 +202,13 @@ modified: '2026-08-15'
 name: Ritten
 nav: Providers
 network: true
-overview: 'Ritten publishes 1 API on the [APIs.io](https://apis.io/) network: External API. Tagged areas include Company, Behavioral Health, EMR, EHR, and Healthcare.
+overview: 'Ritten publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Calendar API, Cases API, Contacts API, and 12 more. Tagged areas include Company, Behavioral Health, EMR, EHR, and Healthcare.
 
 
   The Ritten catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ritten''s developer surface includes engineering blog, support, documentation, API reference, authentication, sandbox, and 19 more developer resources.'
+  Ritten''s developer surface includes engineering blog, support, documentation, API reference, authentication, sandbox, and 20 more developer resources.'
 plans:
 - name: Ritten Plans Pricing
   plan_count: 0
@@ -174,18 +220,23 @@ rate_limits:
   slug: ritten-rate-limits
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 50.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
-    contract_governance: 30.3
-    contract_quality: 59.0
+    contract_governance: 18.2
+    contract_quality: 57.5
     developer_ergonomics: 54.2
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 52.2
+  previous_composite: 50.9
   provenance:
     conformance: first-party
     contracts:
@@ -197,12 +248,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ritten/refs/heads/main/screenshots/ritten-2026-08-17T081615.png
 security:

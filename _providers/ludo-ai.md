@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 20
   slug: ludo-ai-agentic-access
   summary_line: 20 operations · 14 acting · 1 human-in-the-loop
-api_count: 8
+api_count: 1
 apis:
 - description: The Ludo.ai MCP Server exposes the platform's asset generation tools via the Model Context Protocol, allowing AI assistants like Claude and Cursor to generate game assets through natural language conv
   name: Ludo.ai MCP Server
@@ -201,15 +201,20 @@ rules:
   slug: ludo-ai-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.6
-  delta: 0.0
+  composite: 35.1
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 65.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
     contract_governance: 9.8
     contract_quality: 61.9
     developer_ergonomics: 33.3
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 10.5
   previous_composite: 35.6
@@ -220,8 +225,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/screenshots/ludo-ai-2026-06-20T184746.png
 security:

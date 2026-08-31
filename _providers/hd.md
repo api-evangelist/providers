@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-19'
 name: HD
 nav: Providers
 network: true
-overview: 'HD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Tech, Marketplace, and Patient Navigation.
+overview: 'HD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Healthtech, Marketplace, and Patient Navigation.
 
 
   HD''s developer surface includes engineering blog, support, and 5 more developer resources.'
@@ -80,6 +80,11 @@ random_paper: 15
 score:
   band: emerging
   composite: 11.2
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -97,8 +102,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hd/refs/heads/main/screenshots/hd-2026-07-25T220815.png
 security:
@@ -110,7 +115,7 @@ slug: hd
 tags:
 - Company
 - Healthcare
-- Health Tech
+- Healthtech
 - Marketplace
 - Patient Navigation
 - Telehealth

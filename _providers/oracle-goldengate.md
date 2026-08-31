@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 7
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 281
   slug: oracle-goldengate-agentic-access
   summary_line: 281 operations · 137 acting · 7 human-in-the-loop
-api_count: 37
+api_count: 6
 apis:
 - description: Import and export GGSA artifacts
   name: Oracle GoldenGate Artifacts API
@@ -351,6 +351,26 @@ collections:
   name: Oracle GoldenGate for Big Data REST Artifacts Work Requests API
   slug: open-oracle-goldengate-work-requests-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/oracle-goldengate-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/oracle/docker-images/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/oracle/docker-images/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/oracle/docker-images/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/oracle/docker-images/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -4130,7 +4150,7 @@ overview: 'Oracle GoldenGate publishes 37 APIs on the [APIs.io](https://apis.io/
   The Oracle GoldenGate catalog on APIs.io includes 7 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Oracle GoldenGate''s developer surface includes authentication, developer portal, engineering blog, pricing, getting-started guide, documentation, signup flow, and 31 more developer resources.'
+  Oracle GoldenGate''s developer surface includes authentication, developer portal, engineering blog, pricing, getting-started guide, documentation, signup flow, and 36 more developer resources.'
 plans:
 - name: Oracle Goldengate Plans Pricing
   plan_count: 3
@@ -4164,8 +4184,13 @@ rules:
   slug: oracle-goldengate-spectral-rules
 score:
   band: strong
-  composite: 55.2
-  delta: 4.3
+  composite: 58.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -4174,8 +4199,11 @@ score:
     developer_ergonomics: 76.2
     discoverability: 68.5
     governance: 13.6
-    operational_transparency: 42.1
-  previous_composite: 50.9
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     contracts:
@@ -4183,8 +4211,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/screenshots/oracle-goldengate-2026-06-20T191134.png
 security:

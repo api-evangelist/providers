@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 50
   slug: volteras-agentic-access
   summary_line: 50 operations · 24 acting · 1 human-in-the-loop
-api_count: 19
+api_count: 1
 apis:
 - description: The Accounts API from Volteras — 4 operation(s) for accounts.
   name: Volteras Accounts API
@@ -167,6 +167,10 @@ collections:
   name: VOLTERAS CONNECT Accounts Vehicles API
   slug: open-volteras-vehicles-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/volteras-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -301,7 +305,7 @@ overview: 'Volteras publishes 19 APIs on the [APIs.io](https://apis.io/) network
   The Volteras catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Volteras'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 22 more developer resources.'
+  Volteras'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 23 more developer resources.'
 random_paper: 19
 rate_limits:
 - limit_count: 0
@@ -313,19 +317,24 @@ scopes:
   slug: volteras-scopes
   summary_line: 12 scopes · clientCredentials
 score:
-  band: strong
-  composite: 55.8
-  delta: 0.0
+  band: developing
+  composite: 52.7
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 58.2
     developer_ergonomics: 49.4
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 55.8
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -342,8 +351,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 63.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volteras/refs/heads/main/screenshots/volteras-2026-08-17T082816.png
 security:

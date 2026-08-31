@@ -12,7 +12,7 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: false
     agentic_commerce: false
@@ -32,9 +32,9 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 44.6
-  scored_at: '2026-08-26'
-api_count: 6
+  score: 38.8
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The org audit shortcut.
   name: Salesgraph Audit API
@@ -219,18 +219,23 @@ rate_limits:
   slug: salesgraph-rate-limits
 score:
   band: thin
-  composite: 35.5
-  delta: 0.0
+  composite: 34.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 14.3
     developer_ergonomics: 64.3
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 35.5
+  previous_composite: 34.8
   provenance:
     conformance: derived
     contracts:
@@ -240,8 +245,8 @@ score:
       total: 5
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
@@ -22,18 +22,76 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.9
-  scored_at: '2026-08-26'
+  score: 29.8
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
-- description: The REST API for Relay by Flume Health. Manages Accounts, Account Contracts, Connections, Endpoints and their per-protocol secrets and tests (API, cloud storage, database, SFTP, Snowflake, Flume Lakeh
-  name: Flume Console API
-  slug: flume-console-api
 - description: A remote Model Context Protocol endpoint served by the Flume Console at /api/v1/context/mcp. It is protected by OAuth 2.0 and advertises RFC 9728 protected-resource metadata, returning a 401 with a WW
   name: Flume Context MCP Server
   slug: flume-context-mcp-server
-artifact_total: 10
+- description: The Account Contracts API from Flume Health — 2 operation(s) for account contracts.
+  name: Flume Health Account Contracts API
+  slug: flume-health-account-contracts-api
+- description: The Accounts API from Flume Health — 4 operation(s) for accounts.
+  name: Flume Health Accounts API
+  slug: flume-health-accounts-api
+- description: The AutomapJobs API from Flume Health — 3 operation(s) for automapjobs.
+  name: Flume Health Automap Jobs API
+  slug: flume-health-automapjobs-api
+- description: The Connections API from Flume Health — 2 operation(s) for connections.
+  name: Flume Health Connections API
+  slug: flume-health-connections-api
+- description: The Context Discovery API from Flume Health — 17 operation(s) for context discovery.
+  name: Flume Health Context Discovery API
+  slug: flume-health-context-discovery-api
+- description: The Context Graph API from Flume Health — 3 operation(s) for context graph.
+  name: Flume Health Context Graph API
+  slug: flume-health-context-graph-api
+- description: The Context Knowledge API from Flume Health — 25 operation(s) for context knowledge.
+  name: Flume Health Context Knowledge API
+  slug: flume-health-context-knowledge-api
+- description: The Endpoint Maps API from Flume Health — 2 operation(s) for endpoint maps.
+  name: Flume Health Endpoint Maps API
+  slug: flume-health-endpoint-maps-api
+- description: The Endpoints API from Flume Health — 23 operation(s) for endpoints.
+  name: Flume Health Endpoints API
+  slug: flume-health-endpoints-api
+- description: The Flags API from Flume Health — 2 operation(s) for flags.
+  name: Flume Health Flags API
+  slug: flume-health-flags-api
+- description: The Jobs v2 API from Flume Health — 3 operation(s) for jobs v2.
+  name: Flume Health Jobs v2 API
+  slug: flume-health-jobs-v2-api
+- description: The Objects API from Flume Health — 5 operation(s) for objects.
+  name: Flume Health Objects API
+  slug: flume-health-objects-api
+- description: The Reports API from Flume Health — 1 operation(s) for reports.
+  name: Flume Health Reports API
+  slug: flume-health-reports-api
+- description: The Shards API from Flume Health — 2 operation(s) for shards.
+  name: Flume Health Shards API
+  slug: flume-health-shards-api
+- description: The SourceFile API from Flume Health — 4 operation(s) for sourcefile.
+  name: Flume Health Source File API
+  slug: flume-health-sourcefile-api
+- description: The Telemetry API from Flume Health — 1 operation(s) for telemetry.
+  name: Flume Health Telemetry API
+  slug: flume-health-telemetry-api
+- description: The Transactions API from Flume Health — 2 operation(s) for transactions.
+  name: Flume Health Transactions API
+  slug: flume-health-transactions-api
+- description: The Users API from Flume Health — 5 operation(s) for users.
+  name: Flume Health Users API
+  slug: flume-health-users-api
+- description: The WorkerSizes API from Flume Health — 2 operation(s) for workersizes.
+  name: Flume Health Worker Sizes API
+  slug: flume-health-workersizes-api
+artifact_total: 28
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/flume-health-capability-edges.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -169,10 +227,10 @@ modified: '2026-08-16'
 name: Flume Health
 nav: Providers
 network: true
-overview: 'Flume Health publishes 1 API on the [APIs.io](https://apis.io/) network: Flume Console API. Tagged areas include Healthcare, Health Plans, Payers, Healthcare Data, and Data Integration.
+overview: 'Flume Health publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account Contracts API, Accounts API, Automap Jobs API, and 16 more. Tagged areas include healthcare, health-plans, payers, healthcare-data, and data-integration.
 
 
-  Flume Health''s developer surface includes documentation, API reference, support, authentication, and 26 more developer resources.'
+  Flume Health''s developer surface includes documentation, API reference, support, authentication, and 27 more developer resources.'
 plans:
 - name: Flume Health Plans Pricing
   plan_count: 0
@@ -189,18 +247,23 @@ scopes:
   summary_line: 14 scopes · implicit
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 49.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
-    contract_quality: 49.2
+    contract_governance: 18.2
+    contract_quality: 52.0
     developer_ergonomics: 44.6
     discoverability: 68.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 49.7
+  previous_composite: 49.5
   provenance:
     conformance: first-party
     contracts:
@@ -216,8 +279,8 @@ score:
     regime: Health
     regime_id: health
     score: 65.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flume-health/refs/heads/main/screenshots/flume-health-2026-08-17T080932.png
 security:
@@ -235,19 +298,19 @@ security:
   summary_line: SOC 2 Type II, HITRUST CSF, HIPAA
 slug: flume-health
 tags:
-- Healthcare
-- Health Plans
-- Payers
-- Healthcare Data
-- Data Integration
-- iPaaS
+- healthcare
+- health-plans
+- payers
+- healthcare-data
+- data-integration
+- ipaas
 - Eligibility
-- Claims
-- Knowledge Graph
+- claims
+- knowledge-graph
 - MCP
 - agent-native
 - Authentication
-- Data Engineering
-- Interoperability
+- data-engineering
+- interoperability
 website: https://www.flumehealth.com/
 ---

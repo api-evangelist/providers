@@ -23,19 +23,19 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 48.7
-  scored_at: '2026-08-26'
+  score: 56.7
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 26
   slug: twelvedata-agentic-access
   summary_line: 26 operations
-api_count: 6
+api_count: 2
 apis:
 - description: 'Real-time price streaming over a persistent, bidirectional WebSocket at wss://ws.twelvedata.com/v1/quotes/price. Clients authenticate with an apikey query parameter, send JSON subscribe / unsubscribe '
   name: Twelve Data WebSocket Streaming API
@@ -63,7 +63,34 @@ apis:
 - description: Historical and real-time OHLCV time series.
   name: Twelve Data Time Series API
   slug: twelvedata-time-series-api
-artifact_total: 30
+- description: The advanced API from Twelve Data — 2 operation(s) for advanced.
+  name: Twelve Data Advanced API
+  slug: twelvedata-advanced-api
+- description: The analysis API from Twelve Data — 9 operation(s) for analysis.
+  name: Twelve Data Analysis API
+  slug: twelvedata-analysis-api
+- description: The currencies API from Twelve Data — 2 operation(s) for currencies.
+  name: Twelve Data Currencies API
+  slug: twelvedata-currencies-api
+- description: The etfs API from Twelve Data — 8 operation(s) for etfs.
+  name: Twelve Data Etfs API
+  slug: twelvedata-etfs-api
+- description: The market_data API from Twelve Data — 6 operation(s) for market_data.
+  name: Twelve Data Market Data API
+  slug: twelvedata-market-data-api
+- description: The money_market_funds API from Twelve Data — 2 operation(s) for money_market_funds.
+  name: Twelve Data Money Market Funds API
+  slug: twelvedata-money-market-funds-api
+- description: The mutual_funds API from Twelve Data — 11 operation(s) for mutual_funds.
+  name: Twelve Data Mutual Funds API
+  slug: twelvedata-mutual-funds-api
+- description: The regulatory API from Twelve Data — 7 operation(s) for regulatory.
+  name: Twelve Data Regulatory API
+  slug: twelvedata-regulatory-api
+- description: The technical_indicator API from Twelve Data — 102 operation(s) for technical_indicator.
+  name: Twelve Data Technical Indicator API
+  slug: twelvedata-technical-indicator-api
+artifact_total: 39
 asyncapis:
 - description: AsyncAPI 2.6 description of Twelve Data's **real-time price WebSocket**. Unlike a one-way HTTP Server-Sent Events stream, this is a genuine, bidirectional WebSocket (`wss://`) surface. The client open
   name: Twelve Data Real-Time Price WebSocket
@@ -288,7 +315,7 @@ modified: '2026-07-22'
 name: Twelve Data
 nav: Providers
 network: true
-overview: 'Twelve Data publishes 6 APIs on the [APIs.io](https://apis.io/) network, including WebSocket Streaming API, Core Data API, Fundamentals API, and 3 more. Tagged areas include Market Data, Financial Data, Stocks, Forex, and Crypto.
+overview: 'Twelve Data publishes 15 APIs on the [APIs.io](https://apis.io/) network, including WebSocket Streaming API, Core Data API, Fundamentals API, and 12 more. Tagged areas include Market Data, Financial Data, Stocks, Forex, and Crypto.
 
 
   The Twelve Data catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -318,18 +345,23 @@ rules:
   slug: twelvedata-asyncapi-spectral-rules
 score:
   band: exemplar
-  composite: 76.7
-  delta: 0.0
+  composite: 74.9
+  coverage:
+    artifact_dirs: 28
+    catalog_gap: 47.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 28.0
-    contract_quality: 57.6
+    contract_governance: 15.9
+    contract_quality: 63.1
     developer_ergonomics: 85.1
-    discoverability: 92.6
-    governance: 28.0
+    discoverability: 75.9
+    governance: 15.9
     operational_transparency: 68.4
-  previous_composite: 76.7
+  previous_composite: 75.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -342,12 +374,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/screenshots/twelvedata-2026-08-17T130124.png
 security:

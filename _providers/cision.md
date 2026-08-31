@@ -33,19 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: REST API for CisionOne that allows connection of media monitoring data with internal tools and BI platforms. Provides access to mention streams, aggregated analytics, and media coverage data. Response
-  name: CisionOne API
-  slug: cisionone-api
 - description: REST API for the Next Generation Cision Communications Cloud, Cision's earned media monitoring and analytics platform. Runs off searches already created in the platform and returns either a list of ar
   name: Next Generation Cision Communications Cloud API
   slug: cision-communications-cloud-api
 - description: Public data API behind Cision Web Solutions, Cision's embeddable investor relations and online newsroom module library. Serves press release feeds and media feeds (JSON, XML and RSS), share price hist
   name: Cision Web Solutions Public API
   slug: cision-web-solutions-api
-artifact_total: 10
+- description: The mentions API from Cision — 1 operation(s) for mentions.
+  name: Cision Mentions API
+  slug: cision-mentions-api
+- description: The stream API from Cision — 2 operation(s) for stream.
+  name: Cision Stream API
+  slug: cision-stream-api
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Cision Webhooks
@@ -208,7 +211,7 @@ modified: '2026-08-13'
 name: Cision
 nav: Providers
 network: true
-overview: 'Cision publishes 1 API on the [APIs.io](https://apis.io/) network: CisionOne API. Tagged areas include PR Software, Public Relations, Earned Media, Media Monitoring, and Press Release Distribution.
+overview: 'Cision publishes 2 APIs on the [APIs.io](https://apis.io/) network: Mentions API and Stream API. Tagged areas include PR Software, Public Relations, Earned Media, Media Monitoring, and Press Release Distribution.
 
 
   The Cision catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -226,18 +229,23 @@ rate_limits:
   slug: cision-rate-limits
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 48.4
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 50.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 30.3
-    contract_quality: 24.5
+    contract_governance: 18.2
+    contract_quality: 25.0
     developer_ergonomics: 49.4
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 50.3
+  previous_composite: 49.0
   provenance:
     conformance: first-party
     contracts:
@@ -247,8 +255,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cision/refs/heads/main/screenshots/cision-2026-06-20T174406.png
 security:

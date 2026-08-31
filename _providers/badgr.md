@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 48
   slug: badgr-agentic-access
   summary_line: 48 operations · 26 acting · 3 human-in-the-loop
-api_count: 7
+api_count: 1
 apis:
 - description: The Assertions API from Badgr — 6 operation(s) for assertions.
   name: Badgr Assertions API
@@ -95,6 +95,10 @@ collections:
   name: Badgr API
   slug: open-badgr
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/badgr-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -154,7 +158,7 @@ network: true
 overview: 'Badgr publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Assertions API, Authentication API, Backpack API, and 4 more. Tagged areas include Digital Badges, Open Badges, Micro-Credentials, Credentialing, and Verifiable Credentials.
 
 
-  Badgr''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  Badgr''s developer surface includes authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Badgr Plans Pricing
   plan_count: 4
@@ -171,15 +175,20 @@ scopes:
   summary_line: 3 scopes · password/authorizationCode
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 37.1
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 46.5
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
   previous_composite: 37.6
@@ -196,8 +205,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/screenshots/badgr-2026-07-25T202239.png
 security:

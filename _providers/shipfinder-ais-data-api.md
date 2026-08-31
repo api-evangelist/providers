@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 40
   slug: shipfinder-ais-data-api-agentic-access
   summary_line: 40 operations · 11 acting
-api_count: 7
+api_count: 2
 apis:
 - description: The AIS Dataset API from ShipFinder AIS Data API — 7 operation(s) for ais dataset.
   name: ShipFinder AIS Data API AIS Dataset API
@@ -98,6 +98,10 @@ collections:
   name: ShipFinder Global Maritime Data Voyage Dataset API
   slug: open-shipfinder-ais-data-api-voyage-dataset-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shipfinder-ais-data-api-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -253,7 +257,7 @@ overview: 'ShipFinder AIS Data API publishes 7 APIs on the [APIs.io](https://api
   The ShipFinder AIS Data API catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  ShipFinder AIS Data API''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, developer console, and 27 more developer resources.'
+  ShipFinder AIS Data API''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, developer console, and 28 more developer resources.'
 plans:
 - name: Shipfinder Ais Data Api Plans
   plan_count: 4
@@ -265,18 +269,23 @@ rate_limits:
   slug: shipfinder-ais-data-api-rate-limits
 score:
   band: developing
-  composite: 53.9
-  delta: 0.0
+  composite: 52.6
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 31.8
+    contract_governance: 19.7
     contract_quality: 62.9
     developer_ergonomics: 63.7
-    discoverability: 74.1
-    governance: 31.8
+    discoverability: 75.9
+    governance: 19.7
     operational_transparency: 7.9
-  previous_composite: 53.9
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -287,8 +296,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipfinder-ais-data-api/refs/heads/main/screenshots/shipfinder-ais-data-api-2026-08-17T081834.png
 security:

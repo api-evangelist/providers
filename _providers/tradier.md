@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: tradier-agentic-access
   summary_line: 28 operations · 9 acting
-api_count: 4
+api_count: 1
 apis:
 - description: The Tradier Brokerage API provides REST endpoints for placing equity, option, and multileg orders, retrieving account balances, positions, orders, and history, and accessing market data including quot
   name: Tradier Brokerage API
@@ -53,10 +53,28 @@ apis:
 - description: Tradier's official hosted MCP server (launched July 2026) connects AI assistants like ChatGPT, Claude, Gemini CLI, and Cursor directly to a Tradier brokerage account over Streamable HTTP. It exposes 2
   name: Tradier MCP Server
   slug: mcp-server
-- description: Tradier Brokerage API from Tradier — 21 path(s) described in OpenAPI.
-  name: Tradier Brokerage API
-  slug: tradier-openapi
-artifact_total: 16
+- description: The Accounts API from Tradier — 4 operation(s) for accounts.
+  name: Tradier Accounts API
+  slug: tradier-accounts-api
+- description: The Market Data API from Tradier — 7 operation(s) for market data.
+  name: Tradier Market Data API
+  slug: tradier-market-data-api
+- description: The Options API from Tradier — 3 operation(s) for options.
+  name: Tradier Options API
+  slug: tradier-options-api
+- description: The Streaming API from Tradier — 2 operation(s) for streaming.
+  name: Tradier Streaming API
+  slug: tradier-streaming-api
+- description: The Trading API from Tradier — 2 operation(s) for trading.
+  name: Tradier Trading API
+  slug: tradier-trading-api
+- description: The User API from Tradier — 1 operation(s) for user.
+  name: Tradier User API
+  slug: tradier-user-api
+- description: The Watchlists API from Tradier — 2 operation(s) for watchlists.
+  name: Tradier Watchlists API
+  slug: tradier-watchlists-api
+artifact_total: 22
 asyncapis:
 - description: AsyncAPI 2.6 description of Tradier's WebSocket streaming for market events and account events. A streaming session must first be created via the brokerage REST endpoints (POST /v1/markets/events/sess
   name: Tradier Streaming WebSocket API
@@ -246,7 +264,7 @@ modified: '2026-07-22'
 name: Tradier
 nav: Providers
 network: true
-overview: 'Tradier publishes 2 APIs on the [APIs.io](https://apis.io/) network: Streaming API and Brokerage API. Tagged areas include Fintech, Trading, Stocks, Options, and Brokerage.
+overview: 'Tradier publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Streaming API, Accounts API, Market Data API, and 5 more. Tagged areas include Fintech, Trading, Stocks, Options, and Brokerage.
 
 
   The Tradier catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -281,18 +299,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.4
-  delta: 0.0
+  composite: 58.2
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 65.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 28.0
+    contract_governance: 15.9
     contract_quality: 59.5
     developer_ergonomics: 55.4
-    discoverability: 92.6
-    governance: 28.0
+    discoverability: 75.9
+    governance: 15.9
     operational_transparency: 52.6
-  previous_composite: 61.4
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -309,8 +332,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/screenshots/tradier-2026-06-20T195526.png
 security:

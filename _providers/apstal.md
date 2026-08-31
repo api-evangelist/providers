@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Hosted MCP server exposing Apstal analytics via JSON-RPC 2.0 over Streamable HTTP. Public tools (login, register, server_info) and authenticated tools (execute_sql, get_analytics, list_projects, regis
@@ -182,7 +182,7 @@ modified: '2026-08-13'
 name: Apstal
 nav: Providers
 network: true
-overview: 'Apstal publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Web Analytics, Privacy, Session Replay, and Heatmaps.
+overview: 'Apstal publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, web-analytics, privacy, session-replay, and heatmaps.
 
 
   The Apstal catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -206,6 +206,11 @@ scopes:
 score:
   band: developing
   composite: 52.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 57.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 71.1
@@ -221,8 +226,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/screenshots/apstal-2026-07-25T200912.png
 security:
@@ -237,19 +242,19 @@ security:
 slug: apstal
 tags:
 - Analytics
-- Web Analytics
-- Privacy
-- Session Replay
-- Heatmaps
+- web-analytics
+- privacy
+- session-replay
+- heatmaps
 - MCP
 - agent-native
-- Cookieless
+- cookieless
 - llms-txt
-- BigQuery
-- GDPR
+- bigquery
+- gdpr
 - A2A
-- Agent Skills
-- Bot Detection
-- Core Web Vitals
+- agent-skills
+- bot-detection
+- core-web-vitals
 website: https://apstal.com/docs
 ---

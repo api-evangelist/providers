@@ -12,7 +12,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: true
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
@@ -23,17 +23,47 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 46.8
-  scored_at: '2026-08-26'
-api_count: 2
+  score: 49.7
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: 'The Optilogic REST API exposes the Optilogic cloud platform to code: authenticate and refresh an API key, enumerate and inspect workspaces, queue and monitor Andromeda jobs (single, batch, back-to-bac'
-  name: Optilogic REST API
-  slug: optilogic-rest-api
 - description: Optilogic operates a hosted, remote Model Context Protocol server that backs the Ada connector for Claude. An MCP client points at https://mcp.optilogic.app/mcp and authenticates over OAuth 2.1 agains
   name: Optilogic MCP Server (Ada Connector)
   slug: optilogic-mcp-server-ada-connector
-artifact_total: 8
+- description: Get authentication keys and client credentials
+  name: Optilogic Authentication API
+  slug: optilogic-authentication-api
+- description: Get information about Andromeda jobs
+  name: Optilogic Job API
+  slug: optilogic-job-api
+- description: Get storage information
+  name: Optilogic Storage API
+  slug: optilogic-storage-api
+- description: Manage database custom columns
+  name: 'Optilogic storage : custom columns API'
+  slug: optilogic-storage-custom-columns-api
+- description: Manage database custom tables
+  name: 'Optilogic storage : custom tables API'
+  slug: optilogic-storage-custom-tables-api
+- description: Manage custom key/value attributes on a storage record
+  name: 'Optilogic storage : labels API'
+  slug: optilogic-storage-labels-api
+- description: Share, send, and clone databases
+  name: 'Optilogic storage : sharing API'
+  slug: optilogic-storage-sharing-api
+- description: Manage custom tags on a storage record
+  name: 'Optilogic storage : tags API'
+  slug: optilogic-storage-tags-api
+- description: Get database template information
+  name: 'Optilogic storage : templates API'
+  slug: optilogic-storage-templates-api
+- description: A library of tools that solve specific problems
+  name: Optilogic Utility API
+  slug: optilogic-utility-api
+- description: Get information about a workspace, including job and file information
+  name: Optilogic Workspace API
+  slug: optilogic-workspace-api
+artifact_total: 18
 common:
 - group: auth
   title: ''
@@ -183,7 +213,7 @@ modified: '2026-08-26'
 name: Optilogic
 nav: Providers
 network: true
-overview: 'Optilogic publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Supply Chain, Supply Chain Design, Network Optimization, Simulation, and Optimization.
+overview: 'Optilogic publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Job API, Storage API, and 8 more. Tagged areas include Supply Chain, Supply Chain Design, Network Optimization, Simulation, and Optimization.
 
 
   Optilogic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 27 more developer resources.'
@@ -198,16 +228,23 @@ rate_limits:
   slug: optilogic-rate-limits
 score:
   band: developing
-  composite: 50.1
+  composite: 47.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
-    contract_quality: 49.3
+    contract_governance: 4.5
+    contract_quality: 49.2
     developer_ergonomics: 73.2
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
+  previous_composite: 48.0
   provenance:
     conformance: derived
     contracts:
@@ -217,8 +254,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Optilogic Authentication
@@ -242,7 +280,7 @@ tags:
 - Logistics
 - Analytics
 - Artificial Intelligence
-- Jobs
+- Job
 - Cloud
 website: https://optilogic.com/
 ---

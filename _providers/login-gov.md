@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: login-gov-agentic-access
   summary_line: 9 operations · 2 acting
-api_count: 7
+api_count: 2
 apis:
 - description: SAML SSO request endpoint.
   name: Login.gov Authentication API
@@ -98,6 +98,10 @@ collections:
   name: Login.gov OpenID Connect Authentication UserInfo API
   slug: open-login-gov-userinfo-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/login-gov-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -261,7 +265,7 @@ overview: 'Login.gov publishes 7 APIs on the [APIs.io](https://apis.io/) network
   The Login.gov catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Login.gov''s developer surface includes authentication, developer portal, documentation, signup flow, getting-started guide, sandbox, engineering blog, and 21 more developer resources.'
+  Login.gov''s developer surface includes authentication, developer portal, documentation, signup flow, getting-started guide, sandbox, engineering blog, and 22 more developer resources.'
 plans:
 - name: Login Gov Plans Pricing
   plan_count: 2
@@ -295,17 +299,25 @@ rules:
   slug: login-gov-rules
 score:
   band: strong
-  composite: 56.0
-  delta: 0.0
+  composite: 56.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 42.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.9
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 28.8
     contract_quality: 64.7
     developer_ergonomics: 50.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 44.7
+  open_source:
+    applies: true
+    score: 65.0
   previous_composite: 56.0
   provenance:
     agentic_access: derived
@@ -320,8 +332,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/login-gov/refs/heads/main/screenshots/login-gov-2026-06-20T184653.png
 security:

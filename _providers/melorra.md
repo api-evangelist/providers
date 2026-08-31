@@ -23,14 +23,31 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: 'Public, unauthenticated read API for Melorra''s jewellery catalog, described by Melorra''s own published /.well-known/api-catalog document as the "Public API for Melorra''s product catalog and jewellery '
-  name: Melorra Catalog API
-  slug: melorra-catalog-api
-artifact_total: 5
+- description: The API root index the catalog backend serves
+  name: Melorra Discovery API
+  slug: melorra-discovery-api
+- description: Gold, diamond and gemstone product listing and detail
+  name: Melorra Products API
+  slug: melorra-products-api
+- description: Similar and recommended products
+  name: Melorra Recommendations API
+  slug: melorra-recommendations-api
+- description: The silver product line, served by parallel endpoints
+  name: Melorra Silver API
+  slug: melorra-silver-api
+artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/melorra-catalog-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -91,10 +108,10 @@ modified: '2026-08-25'
 name: Melorra
 nav: Providers
 network: true
-overview: 'Melorra publishes 1 API on the [APIs.io](https://apis.io/) network: Catalog API. Tagged areas include Company, Jewellery, Retail, E-Commerce, and Product Catalog.
+overview: 'Melorra publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Products API, Recommendations API, and 1 more. Tagged areas include Company, Jewellery, Retail, E-Commerce, and Product Catalog.
 
 
-  Melorra''s developer surface includes documentation, support, signup flow, engineering blog, and 9 more developer resources.'
+  Melorra''s developer surface includes documentation, support, signup flow, engineering blog, and 11 more developer resources.'
 plans:
 - name: Melorra Plans Pricing
   plan_count: 0
@@ -106,16 +123,23 @@ rate_limits:
   slug: melorra-rate-limits
 score:
   band: emerging
-  composite: 24.6
+  composite: 23.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 12.1
-    contract_quality: 13.0
+    contract_governance: 0.0
+    contract_quality: 12.9
     developer_ergonomics: 30.4
     discoverability: 87.0
-    governance: 12.1
+    governance: 0.0
     operational_transparency: 2.6
+  previous_composite: 23.6
   provenance:
     conformance: derived
     contracts:
@@ -125,8 +149,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Melorra Authentication

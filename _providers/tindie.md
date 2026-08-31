@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: A seller's orders (authenticated).
   name: Tindie order API
@@ -154,18 +154,23 @@ overview: 'Tindie publishes 3 APIs on the [APIs.io](https://apis.io/) network: o
 random_paper: 7
 score:
   band: thin
-  composite: 31.1
-  delta: 0.0
+  composite: 28.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 53.1
     developer_ergonomics: 24.4
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 31.1
+  previous_composite: 29.3
   provenance:
     conformance: derived
     contracts:
@@ -175,8 +180,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

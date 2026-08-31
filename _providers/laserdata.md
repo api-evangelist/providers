@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-26'
-api_count: 18
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
 - description: User account, sign-in, sessions, settings
   name: LaserData Account API
@@ -308,18 +308,23 @@ overview: 'LaserData publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 0
 score:
   band: strong
-  composite: 56.2
+  composite: 54.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 69.0
     developer_ergonomics: 85.7
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 56.2
+  previous_composite: 54.7
   provenance:
     conformance: derived
     contracts:
@@ -329,8 +334,8 @@ score:
       total: 18
     mcp: derived
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/screenshots/laserdata-2026-07-25T224540.png
 security:

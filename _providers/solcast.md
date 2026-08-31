@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 25
   slug: solcast-agentic-access
   summary_line: 25 operations · 4 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Live and forecast aggregated generation data for grid collections and sub-aggregations.
   name: Solcast Aggregations API
@@ -107,6 +107,10 @@ collections:
   name: Solcast API
   slug: open-solcast
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/dnv/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -261,7 +265,7 @@ overview: 'Solcast publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Solcast catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Solcast''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, signup flow, changelog, and 16 more developer resources.'
+  Solcast''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, signup flow, changelog, and 17 more developer resources.'
 plans:
 - name: Solcast Plans Pricing
   plan_count: 5
@@ -295,18 +299,23 @@ rules:
   slug: solcast-rules
 score:
   band: strong
-  composite: 56.6
-  delta: 4.2
+  composite: 56.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 28.8
     contract_quality: 76.9
     developer_ergonomics: 57.1
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 28.9
-  previous_composite: 52.4
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     contracts:
@@ -320,8 +329,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/screenshots/solcast-2026-06-20T194150.png
 security:

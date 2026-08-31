@@ -23,24 +23,226 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
-- description: The current, preferred ObservePoint REST API. 283 operations covering web audits and their runs, page/tag/cookie/ variable/browser-log/privacy reports, exports and scheduled exports, alerts, consent c
-  name: ObservePoint V3 API
-  slug: observepoint-v3-api
-- description: The fastest and most flexible way to read ObservePoint results data. A single POST endpoint per grid entity type returns report data in row/column form with filters, operators, multi-column sorting, g
-  name: ObservePoint Grid Reporting API
-  slug: observepoint-grid-reporting-api
-- description: The legacy but fully supported v2 REST API, served from https://api.observepoint.com/v2. 88 operations covering account, users, folders and sub-folders (domains), labels, tag and variable rules, tag d
-  name: ObservePoint V2 API
-  slug: observepoint-v2-api
-artifact_total: 9
+- description: Endpoints for managing account settings, configurations, and account-level information
+  name: ObservePoint Account API
+  slug: observepoint-account-api
+- description: Account-level triggered alerts
+  name: ObservePoint Account Triggered Alerts API
+  slug: observepoint-account-triggered-alerts-api
+- description: Alerts related to account usage
+  name: ObservePoint Account Usage Alerts API
+  slug: observepoint-account-usage-alerts-api
+- description: Export account usage data
+  name: ObservePoint Account Usage Export API
+  slug: observepoint-account-usage-export-api
+- description: Account usage data
+  name: ObservePoint Account Usage V2 API
+  slug: observepoint-account-usage-v2-api
+- description: APIs for managing Action Set Action Rules
+  name: ObservePoint Action Set Action Rules API
+  slug: observepoint-action-set-action-rules-api
+- description: APIs for managing Action Set Actions
+  name: ObservePoint Action Set Actions API
+  slug: observepoint-action-set-actions-api
+- description: APIs for managing Action Sets
+  name: ObservePoint Action Sets API
+  slug: observepoint-action-sets-api
+- description: Export alert data
+  name: ObservePoint Alert Export API
+  slug: observepoint-alert-export-api
+- description: Alert Summary report endpoints
+  name: ObservePoint Alert Summary Report API
+  slug: observepoint-alert-summary-report-api
+- description: Alert management and configuration
+  name: ObservePoint Alerts API
+  slug: observepoint-alerts-api
+- description: APIs for managing audit actions
+  name: ObservePoint Audit Actions API
+  slug: observepoint-audit-actions-api
+- description: APIs for managing audit request blocking configuration
+  name: ObservePoint Audit Blocking Config API
+  slug: observepoint-audit-blocking-config-api
+- description: APIs for managing audit login actions
+  name: ObservePoint Audit Login Actions API
+  slug: observepoint-audit-login-actions-api
+- description: Export audit run data
+  name: ObservePoint Audit Run Export API
+  slug: observepoint-audit-run-export-api
+- description: Audit Summary report endpoints
+  name: ObservePoint Audit Summary Report API
+  slug: observepoint-audit-summary-report-api
+- description: Endpoints for managing audits including creation, configuration, execution, and retrieving audit results and runs
+  name: ObservePoint Audits API
+  slug: observepoint-audits-api
+- description: APIs for managing audit consent categories
+  name: ObservePoint Audits Consent Category API
+  slug: observepoint-audits-consent-category-api
+- description: APIs for managing audits
+  name: ObservePoint Audits Management API
+  slug: observepoint-audits-management-api
+- description: Browser Logs report endpoints
+  name: ObservePoint Browser Logs Report API
+  slug: observepoint-browser-logs-report-api
+- description: APIs for managing Consent Categories
+  name: ObservePoint Consent Categories API
+  slug: observepoint-consent-categories-api
+- description: Export consent category data
+  name: ObservePoint Consent Category Export API
+  slug: observepoint-consent-category-export-api
+- description: Cookie Inventory report endpoints
+  name: ObservePoint Cookie Inventory Report API
+  slug: observepoint-cookie-inventory-report-api
+- description: Cookie privacy report
+  name: ObservePoint Cookie Privacy Report API
+  slug: observepoint-cookie-privacy-report-api
+- description: APIs for managing custom HTTP header groups
+  name: ObservePoint Custom Headers API
+  slug: observepoint-custom-headers-api
+- description: APIs for managing Data Sources
+  name: ObservePoint Data Sources API
+  slug: observepoint-data-sources-api
+- description: OpAdmin-only APIs for finding email inboxes and messages by search string
+  name: ObservePoint Email Finder API
+  slug: observepoint-email-finder-api
+- description: APIs for managing email inbox configurations and setting
+  name: ObservePoint Email Inbox Configuration API
+  slug: observepoint-email-inbox-configuration-api
+- description: Email inbox message alerts
+  name: ObservePoint Email Inbox Message Alerts API
+  slug: observepoint-email-inbox-message-alerts-api
+- description: Get Email Inbox message details
+  name: ObservePoint Email Inbox Messages API
+  slug: observepoint-email-inbox-messages-api
+- description: APIs for getting email messages and results from email inboxes
+  name: ObservePoint Email Inboxes API
+  slug: observepoint-email-inboxes-api
+- description: Access requested exports status/information
+  name: ObservePoint Exports API
+  slug: observepoint-exports-api
+- description: File changes report endpoints
+  name: ObservePoint File Changes Report API
+  slug: observepoint-file-changes-report-api
+- description: Endpoints for managing folders including creation, organization, access control, and folder-based resource management
+  name: ObservePoint Folders API
+  slug: observepoint-folders-api
+- description: APIs for geo locations
+  name: ObservePoint Geo Locations API
+  slug: observepoint-geo-locations-api
+- description: Endpoints for managing labels including creation, assignment, and retrieval for organizing audits, journeys, and other resources
+  name: ObservePoint Labels API
+  slug: observepoint-labels-api
+- description: Export manual journey run data
+  name: ObservePoint Manual Journey Run Export API
+  slug: observepoint-manual-journey-run-export-api
+- description: Endpoints for managing manual journeys including real device testing, HAR file ingestion, and journey execution control. These endpoints power Live Connect and HAR Analyzer features in the ObservePoin
+  name: ObservePoint Manual Journeys API
+  slug: observepoint-manual-journeys-api
+- description: Find and manage email subscriptions
+  name: ObservePoint Notification Center API
+  slug: observepoint-notification-center-api
+- description: Detailed information about specific pages including tags, cookies, request logs, and console logs
+  name: ObservePoint Page Details Report API
+  slug: observepoint-page-details-report-api
+- description: Page Summary report endpoints
+  name: ObservePoint Page Summary Report API
+  slug: observepoint-page-summary-report-api
+- description: APIs for managing Remote File Mappings
+  name: ObservePoint Remote File Mappings API
+  slug: observepoint-remote-file-mappings-api
+- description: The Reports API from ObservePoint — 6 operation(s) for reports.
+  name: ObservePoint Reports API
+  slug: observepoint-reports-api
+- description: Request Privacy report endpoints
+  name: ObservePoint Request Privacy Report API
+  slug: observepoint-request-privacy-report-api
+- description: Rule Summary report endpoints
+  name: ObservePoint Rule Summary Report API
+  slug: observepoint-rule-summary-report-api
+- description: Endpoints for managing rules including creation, configuration, assignment, and rule-based validation logic
+  name: ObservePoint Rules API
+  slug: observepoint-rules-api
+- description: Manage scheduled grid report data exports
+  name: ObservePoint Scheduled Exports API
+  slug: observepoint-scheduled-exports-api
+- description: APIs for item schedules and calendars
+  name: ObservePoint Schedules API
+  slug: observepoint-schedules-api
+- description: APIs for managing Site Census
+  name: ObservePoint Site Censuses API
+  slug: observepoint-site-censuses-api
+- description: Endpoints for managing sub-folders including creation, configuration, and sub-folder-based audit and journey management
+  name: ObservePoint Sub Folders API
+  slug: observepoint-sub-folders-api
+- description: Tag Duplicates and Multiples report endpoints
+  name: ObservePoint Tag Duplicates And Multiples Report API
+  slug: observepoint-tag-duplicates-and-multiples-report-api
+- description: Tag Health report endpoints
+  name: ObservePoint Tag Health Report API
+  slug: observepoint-tag-health-report-api
+- description: Tag Inventory report endpoints
+  name: ObservePoint Tag Inventory Report API
+  slug: observepoint-tag-inventory-report-api
+- description: Tag privacy report endpoints
+  name: ObservePoint Tag Privacy Report API
+  slug: observepoint-tag-privacy-report-api
+- description: Endpoints for managing tags and tag-related operations including tag metadata and configuration
+  name: ObservePoint Tags API
+  slug: observepoint-tags-api
+- description: APIs for managing User Events
+  name: ObservePoint User Events API
+  slug: observepoint-user-events-api
+- description: Endpoints for managing users including creation, authentication, permissions, and user account management
+  name: ObservePoint Users API
+  slug: observepoint-users-api
+- description: Variable Inventory report endpoints
+  name: ObservePoint Variable Inventory Report API
+  slug: observepoint-variable-inventory-report-api
+- description: Retrieve audit run data including pages, cookies, geo-locations, network requests, JS variables and failures for web audit runs
+  name: ObservePoint Web Audits API
+  slug: observepoint-web-audits-api
+- description: APIs for managing web journey request blocking configuration
+  name: ObservePoint Web Journey Blocking Config API
+  slug: observepoint-web-journey-blocking-config-api
+- description: Cookie analysis and reporting for web journeys
+  name: ObservePoint Web Journey Cookie Report API
+  slug: observepoint-web-journey-cookie-report-api
+- description: APIs for managing web journey custom headers
+  name: ObservePoint Web Journey Custom Headers API
+  slug: observepoint-web-journey-custom-headers-api
+- description: Export web journey run data
+  name: ObservePoint Web Journey Run Export API
+  slug: observepoint-web-journey-run-export-api
+- description: The web-journeys-internal API from ObservePoint — 2 operation(s) for web-journeys-internal.
+  name: ObservePoint Web Journeys Internal API
+  slug: observepoint-web-journeys-internal-api
+- description: APIs for managing Web Journeys
+  name: ObservePoint Web Journeys Management API
+  slug: observepoint-web-journeys-management-api
+artifact_total: 71
 asyncapis:
 - description: ''
   name: Observepoint Webhooks
   slug: observepoint-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/observepoint-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/observepoint-v3-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/observepoint-grid-reports-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/observepoint-v2-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -178,13 +380,13 @@ modified: '2026-08-26'
 name: ObservePoint
 nav: Providers
 network: true
-overview: 'ObservePoint publishes 3 APIs on the [APIs.io](https://apis.io/) network: V3 API, Grid Reporting API, and V2 API. Tagged areas include Company, Web Governance, Tag Management, Analytics Validation, and Privacy Compliance.
+overview: 'ObservePoint publishes 65 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account Triggered Alerts API, Account Usage Alerts API, and 62 more. Tagged areas include company, web-governance, tag-management, analytics-validation, and privacy-compliance.
 
 
   The ObservePoint catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ObservePoint''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
+  ObservePoint''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
 plans:
 - name: Observepoint Plans Pricing
   plan_count: 0
@@ -196,16 +398,23 @@ rate_limits:
   slug: observepoint-rate-limits
 score:
   band: developing
-  composite: 53.3
+  composite: 49.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.8
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
-    contract_quality: 64.6
+    contract_governance: 4.5
+    contract_quality: 66.1
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 57.4
+    governance: 4.5
     operational_transparency: 57.9
+  previous_composite: 51.6
   provenance:
     conformance: derived
     contracts:
@@ -215,8 +424,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Observepoint Authentication
@@ -228,17 +438,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: observepoint
 tags:
-- Company
-- Web Governance
-- Tag Management
-- Analytics Validation
-- Privacy Compliance
-- Consent Management
-- Web Accessibility
-- Data Quality
-- Marketing Technology
-- Website Auditing
-- Digital Analytics
-- Webhooks
+- company
+- web-governance
+- tag-management
+- analytics-validation
+- privacy-compliance
+- consent-management
+- web-accessibility
+- data-quality
+- marketing-technology
+- website-auditing
+- digital-analytics
+- Webhook
 website: https://www.observepoint.com/
 ---

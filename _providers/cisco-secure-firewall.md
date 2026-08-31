@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 0
   slug: cisco-secure-firewall-agentic-access
   summary_line: 0 operations
-api_count: 108
+api_count: 14
 apis:
 - description: The Access Groups API from Cisco Secure Firewall — 2 operation(s) for access groups.
   name: Cisco Secure Firewall Access Groups API
@@ -359,6 +359,10 @@ apis:
   slug: cisco-secure-firewall-zone-tag-api
 artifact_total: 116
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cisco-secure-firewall-capability-edges.yml
 - group: auth
   title: ''
   type: Authentication
@@ -551,7 +555,7 @@ network: true
 overview: 'Cisco Secure Firewall publishes 108 APIs on the [APIs.io](https://apis.io/) network, including Access Groups API, Access Token API, Action API, and 105 more. Tagged areas include Security, Firewall, Network Security, Threat Defense, and Policy.
 
 
-  Cisco Secure Firewall''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, engineering blog, support, and 37 more developer resources.'
+  Cisco Secure Firewall''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, engineering blog, support, and 38 more developer resources.'
 plans:
 - name: Cisco Secure Firewall Plans Pricing
   plan_count: 0
@@ -563,18 +567,23 @@ rate_limits:
   slug: cisco-secure-firewall-rate-limits
 score:
   band: strong
-  composite: 57.8
+  composite: 56.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 53.6
     developer_ergonomics: 78.0
     discoverability: 68.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 57.8
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -587,12 +596,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: fedramp
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

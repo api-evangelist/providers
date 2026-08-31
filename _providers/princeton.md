@@ -33,12 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-26'
-api_count: 14
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: The backend API for allsearch.princeton.edu, Princeton University Library's federated search. Fourteen operations fan one uniform envelope — number, records, more — across the catalog, articles, the A
-  name: Princeton University Library Allsearch API
-  slug: allsearch-api
 - description: 'Open, REST-style API providing developer access to data about the Princeton University Art Museum and its collections. Four surfaces: objects (with a label-level /tombstone sub-resource and filtering '
   name: Princeton University Art Museum API
   slug: art-museum-api
@@ -78,7 +75,58 @@ apis:
 - description: Princeton's learning management system is Instructure Canvas at princeton.instructure.com. The host is live behind a Cloudflare interstitial (403 to non-browser clients). Any Canvas REST API, LTI conf
   name: Canvas LMS — Princeton tenancy
   slug: canvas-tenancy
-artifact_total: 30
+- description: The Article API from Princeton University — 1 operation(s) for article.
+  name: Princeton University Article API
+  slug: princeton-article-api
+- description: The Banner API from Princeton University — 1 operation(s) for banner.
+  name: Princeton University Banner API
+  slug: princeton-banner-api
+- description: The Best Bets API from Princeton University — 1 operation(s) for best bets.
+  name: Princeton University Best Bets API
+  slug: princeton-best-bets-api
+- description: The Catalog API from Princeton University — 1 operation(s) for catalog.
+  name: Princeton University Catalog API
+  slug: princeton-catalog-api
+- description: The Dpul API from Princeton University — 1 operation(s) for dpul.
+  name: Princeton University Dpul API
+  slug: princeton-dpul-api
+- description: The Findingaids API from Princeton University — 1 operation(s) for findingaids.
+  name: Princeton University Findingaids API
+  slug: princeton-findingaids-api
+- description: The Journals API from Princeton University — 1 operation(s) for journals.
+  name: Princeton University Journals API
+  slug: princeton-journals-api
+- description: The Libanswers API from Princeton University — 1 operation(s) for libanswers.
+  name: Princeton University Libanswers API
+  slug: princeton-libanswers-api
+- description: The Libguides API from Princeton University — 1 operation(s) for libguides.
+  name: Princeton University Libguides API
+  slug: princeton-libguides-api
+- description: The Library Databases API from Princeton University — 1 operation(s) for library databases.
+  name: Princeton University Library Databases API
+  slug: princeton-library-databases-api
+- description: The Library Staff API from Princeton University — 1 operation(s) for library staff.
+  name: Princeton University Library Staff API
+  slug: princeton-library-staff-api
+- description: The Library Website API from Princeton University — 1 operation(s) for library website.
+  name: Princeton University Library Website API
+  slug: princeton-library-website-api
+- description: Artists, cultural groups and other makers.
+  name: Princeton University Makers API
+  slug: princeton-makers-api
+- description: Art objects in the Museum's collection.
+  name: Princeton University Objects API
+  slug: princeton-objects-api
+- description: Curated groupings of collection material.
+  name: Princeton University Packages API
+  slug: princeton-packages-api
+- description: The Pulmap API from Princeton University — 1 operation(s) for pulmap.
+  name: Princeton University Pulmap API
+  slug: princeton-pulmap-api
+- description: Full-text search across all collection data types.
+  name: Princeton University Search API
+  slug: princeton-search-api
+artifact_total: 46
 common:
 - group: company
   title: ''
@@ -220,7 +268,7 @@ modified: '2026-08-19'
 name: Princeton University
 nav: Providers
 network: true
-overview: 'Princeton University publishes 2 APIs on the [APIs.io](https://apis.io/) network: Library Allsearch API and Art Museum API. Tagged areas include University, Higher Education, Education, Ivy League, and United States.
+overview: 'Princeton University publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Art Museum API, Article API, Banner API, and 15 more. Tagged areas include University, Higher Education, Education, Ivy League, and United States.
 
 
   The Princeton University catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -254,18 +302,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.0
-  delta: 2.5
+  composite: 41.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 50.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 29.5
-    contract_quality: 47.1
+    contract_quality: 47.5
     developer_ergonomics: 28.6
-    discoverability: 55.6
+    discoverability: 44.4
     governance: 29.5
     operational_transparency: 23.7
-  previous_composite: 39.5
+  previous_composite: 41.6
   provenance:
     conformance: first-party
     contracts:
@@ -279,8 +332,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/princeton/refs/heads/main/screenshots/princeton-2026-06-20T192107.png
 security:

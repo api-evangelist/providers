@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
-api_count: 41
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Aggregates API from Uniform — 1 operation(s) for aggregates.
   name: Uniform Aggregates API
@@ -291,6 +291,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/uniform-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/uniform-platform-api-overlay.yaml
 - group: company
@@ -430,28 +434,33 @@ modified: '2026-07-21'
 name: Uniform
 nav: Providers
 network: true
-overview: 'Uniform publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Aggregates API, AI Agents API, Assets API, and 38 more. Tagged areas include Company, Digital Experience Platform, Content Management, Personalization, and A/B Testing.
+overview: 'Uniform publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Aggregates API, AI Agents API, Assets API, and 38 more. Tagged areas include Company, Digital Experience Platform, Content Management, Personalization, and AB Testing.
 
 
   The Uniform catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Uniform''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 25 more developer resources.'
+  Uniform''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 26 more developer resources.'
 random_paper: 12
 score:
   band: developing
-  composite: 52.4
-  delta: 1.4
+  composite: 50.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 56.5
     developer_ergonomics: 73.2
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 51.0
+  previous_composite: 50.9
   provenance:
     conformance: derived
     contracts:
@@ -461,8 +470,8 @@ score:
       total: 41
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniform/refs/heads/main/screenshots/uniform-2026-08-17T082601.png
 security:
@@ -484,7 +493,7 @@ tags:
 - Digital Experience Platform
 - Content Management
 - Personalization
-- A/B Testing
+- AB Testing
 - Composable
 - Headless CMS
 - AI Agents

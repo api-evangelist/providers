@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 21
   slug: trellix-agentic-access
   summary_line: 21 operations · 6 acting
-api_count: 27
+api_count: 2
 apis:
 - description: McAfee ePolicy Orchestrator (ePO) REST API for centralized security management, policy enforcement, and reporting across the enterprise.
   name: Trellix ePO API
@@ -215,6 +215,10 @@ collections:
   name: Trellix EDR Action History Threats API
   slug: open-trellix-threats-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/trellix-enterprise/EDR-Integration-Scripts/issues
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -440,7 +444,7 @@ overview: 'Trellix publishes 14 APIs on the [APIs.io](https://apis.io/) network,
   The Trellix catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Trellix''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, signup flow, engineering blog, and 27 more developer resources.'
+  Trellix''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, signup flow, engineering blog, and 28 more developer resources.'
 plans:
 - name: Trellix Plans Pricing
   plan_count: 1
@@ -474,18 +478,26 @@ rules:
   slug: trellix-spectral-rules
 score:
   band: developing
-  composite: 44.9
-  delta: 1.4
+  composite: 39.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 57.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 17.4
     contract_quality: 62.6
     developer_ergonomics: 28.6
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 17.4
     operational_transparency: 39.5
-  previous_composite: 43.5
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -493,8 +505,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/screenshots/trellix-2026-06-20T195650.png
 security:

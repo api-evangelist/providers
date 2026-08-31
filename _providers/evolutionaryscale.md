@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: evolutionaryscale-agentic-access
   summary_line: 11 operations · 11 acting
-api_count: 7
+api_count: 3
 apis:
 - description: Official Python SDK packaging ESM3 and ESM Cambrian model loaders, the `ESMProtein` multi-track data model, generation/sampling configurations, structure tokenization utilities, and a `forge.client()`
   name: EvolutionaryScale ESM Python SDK
@@ -195,8 +195,13 @@ rules:
   slug: evolutionaryscale-rules
 score:
   band: thin
-  composite: 34.0
-  delta: 2.8
+  composite: 33.1
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.9
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -206,7 +211,10 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 52.6
-  previous_composite: 31.2
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -220,8 +228,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/screenshots/evolutionaryscale-2026-06-20T180917.png
 security:

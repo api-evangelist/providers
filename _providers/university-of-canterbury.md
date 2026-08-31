@@ -1,147 +1,75 @@
 ---
 access_model:
-  confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: No public developer programme · open protocol endpoints, otherwise affiliation-gated
+  onboarding: unknown
   pricing: free
   public: false
   source:
+  - probed
   - plans
-  - authentication
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
-  band: agent-ready
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 81
-  human_in_the_loop: 2
-  name: University Of Canterbury Agentic Access
-  operation_count: 157
-  slug: university-of-canterbury-agentic-access
-  summary_line: 157 operations · 81 acting · 2 human-in-the-loop
-api_count: 13
+  score: 5.0
+  scored_at: '2026-08-30'
+api_count: 8
 apis:
-- description: 'OAI-PMH 2.0 metadata harvesting interface for the UC Research Repository, a DSpace 7 institutional repository of theses, dissertations and research outputs. Verified live (HTTP 200) returning a valid '
+- description: 'OAI-PMH 2.0 metadata harvesting interface for the UC Research Repository, a self-hosted DSpace 7 institutional repository of theses, dissertations and research outputs. Verified live 2026-08-30: verb='
   name: UC Research Repository OAI-PMH
   slug: research-repository-oai
-- description: DSpace 7 REST API backing the UC Research Repository, providing programmatic access to communities, collections and items. The API root (https://ir.canterbury.ac.nz/server/api) is part of the standard
+- description: 'DSpace 7 REST API backing the UC Research Repository, providing programmatic access to communities, collections and items. Re-probed 2026-08-30 with a browser User-Agent: the API root and /server/api/'
   name: UC Research Repository DSpace REST API
   slug: research-repository-rest
-- description: Self-hosted GitLab instance operated by the University of Canterbury College of Engineering. The web application is reachable (HTTP 200) and the GitLab REST API v4 is present (HTTP 401 to unauthentica
+- description: An institution-operated enterprise API gateway on the University of Canterbury's own registrable domain. Discovered 2026-08-30. Every probed path (/, /ping, /v1, /swagger) returns HTTP 500 with a SOAP
+  name: UC API Gateway
+  slug: api-gateway
+- description: Three Shibboleth Service Providers run on University of Canterbury hosts and publish machine-readable SAML 2.0 metadata at the standard Shibboleth.sso/Metadata location — LEARN (learn.canterbury.ac.nz
+  name: UC Shibboleth SAML 2.0 Service Provider Metadata
+  slug: saml-service-providers
+- description: 'LEARN, the University of Canterbury''s self-hosted Moodle learning management system, acts as an LTI 1.3 platform and serves a live JSON Web Key Set from the institution''s own host — verified HTTP 200 '
+  name: LEARN LTI 1.3 Platform (Moodle)
+  slug: lti-platform
+- description: 'Self-hosted GitLab instance operated by the University of Canterbury College of Engineering on the institution''s own domain. Re-verified 2026-08-30: the web application redirects to /users/sign_in wit'
   name: UC Engineering GitLab API
   slug: eng-git-gitlab
-- description: The altmetric API from University of Canterbury — 1 operation(s) for altmetric.
-  name: University of Canterbury altmetric API
-  slug: university-of-canterbury-altmetric-api
-- description: The articles API from University of Canterbury — 34 operation(s) for articles.
-  name: University of Canterbury articles API
-  slug: university-of-canterbury-articles-api
-- description: The authors API from University of Canterbury — 2 operation(s) for authors.
-  name: University of Canterbury authors API
-  slug: university-of-canterbury-authors-api
-- description: The collections API from University of Canterbury — 21 operation(s) for collections.
-  name: University of Canterbury collections API
-  slug: university-of-canterbury-collections-api
-- description: The institutions API from University of Canterbury — 20 operation(s) for institutions.
-  name: University of Canterbury institutions API
-  slug: university-of-canterbury-institutions-api
-- description: The oauth API from University of Canterbury — 1 operation(s) for oauth.
-  name: University of Canterbury oauth API
-  slug: university-of-canterbury-oauth-api
-- description: The other API from University of Canterbury — 7 operation(s) for other.
-  name: University of Canterbury other API
-  slug: university-of-canterbury-other-api
-- description: The profiles API from University of Canterbury — 2 operation(s) for profiles.
-  name: University of Canterbury profiles API
-  slug: university-of-canterbury-profiles-api
-- description: The projects API from University of Canterbury — 17 operation(s) for projects.
-  name: University of Canterbury projects API
-  slug: university-of-canterbury-projects-api
-- description: The symplectic API from University of Canterbury — 5 operation(s) for symplectic.
-  name: University of Canterbury symplectic API
-  slug: university-of-canterbury-symplectic-api
-artifact_total: 40
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Figshare altmetric API
-  slug: open-university-of-canterbury-altmetric-api
-- collection_type: open
-  name: Figshare altmetric articles API
-  slug: open-university-of-canterbury-articles-api
-- collection_type: open
-  name: Figshare altmetric authors API
-  slug: open-university-of-canterbury-authors-api
-- collection_type: open
-  name: Figshare altmetric collections API
-  slug: open-university-of-canterbury-collections-api
-- collection_type: open
-  name: Figshare altmetric institutions API
-  slug: open-university-of-canterbury-institutions-api
-- collection_type: open
-  name: Figshare altmetric oauth API
-  slug: open-university-of-canterbury-oauth-api
-- collection_type: open
-  name: Figshare altmetric other API
-  slug: open-university-of-canterbury-other-api
-- collection_type: open
-  name: Figshare altmetric profiles API
-  slug: open-university-of-canterbury-profiles-api
-- collection_type: open
-  name: Figshare altmetric projects API
-  slug: open-university-of-canterbury-projects-api
-- collection_type: open
-  name: Figshare altmetric symplectic API
-  slug: open-university-of-canterbury-symplectic-api
+- description: The University of Canterbury's SAML 2.0 Identity Provider is registered in the signed Tuakiri federation metadata aggregate with entityID https://idp.canterbury.ac.nz/idp/shibboleth and OrganizationDi
+  name: Tuakiri Hosted Identity Provider for canterbury.ac.nz
+  slug: tuakiri-hosted-idp
+- description: canterbury.figshare.com is the University of Canterbury's institutional research data repository, a tenancy on Figshare's platform. The data, the DOIs and the curation are the institution's; the API c
+  name: Canterbury Figshare Research Data Repository (tenant)
+  slug: figshare-tenant
+artifact_total: 12
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/university-of-canterbury-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/university-of-canterbury-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/university-of-canterbury-authentication.yml
-- group: auth
-  title: ''
-  type: OAuthScopes
-  url: scopes/university-of-canterbury-scopes.yml
 - group: company
   title: ''
   type: Website
   url: https://www.canterbury.ac.nz/
 - group: build
   title: ''
-  type: GitHub
+  type: GitHubOrganization
   url: https://github.com/uccser
 - group: company
   title: ''
@@ -151,6 +79,34 @@ common:
   title: ''
   type: SourceCode
   url: https://eng-git.canterbury.ac.nz/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.canterbury.ac.nz/about-uc/corporate-information/policies/privacy-policy
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://www.canterbury.ac.nz/study/academic-study/courses
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://www.canterbury.ac.nz/library
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://ir.canterbury.ac.nz/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://directory.tuakiri.ac.nz/metadata/tuakiri-metadata-signed.xml
+- group: design
+  title: ''
+  type: x-conformance
+  url: conformance/university-of-canterbury-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/university-of-canterbury-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -168,50 +124,19 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'University of Canterbury (Te Whare Wananga o Waitaha) is a public research university in Christchurch, New Zealand, ranked #261 in the QS World University Rankings 2025. Its public, machine-accessible developer footprint is centered on scholarly and research infrastructure rather than a unified developer portal: the UC Research Repository (a DSpace 7 platform) exposes a live OAI-PMH 2.0 metadata harvesting interface and a DSpace REST API, the institutional Canterbury Figshare instance is reachable through figshare''s public REST and OAI-PMH endpoints, and the College of Engineering runs a self-hosted GitLab. No consolidated, publicly documented university-wide API program was confirmed; entries below reflect only endpoints verified live.'
-examples:
-- key_count: 4
-  name: University Of Canterbury List Articles Example
-  slug: university-of-canterbury-list-articles-example
-- key_count: 4
-  name: University Of Canterbury Search Articles Example
-  slug: university-of-canterbury-search-articles-example
+description: 'University of Canterbury (Te Whare Wananga o Waitaha) is a public research university in Christchurch, Aotearoa New Zealand. It operates no public developer programme, no developer portal and no published, self-serve API: everything machine-readable it runs is infrastructure for a purpose other than being an API product. What is genuinely institution-operated and genuinely readable is narrow — the UC Research Repository (a self-hosted DSpace 7 on ir.canterbury.ac.nz) serves a live OAI-PMH 2.0 interface with thirteen metadata formats, and three Shibboleth Service Providers on canterbury.ac.nz hosts publish valid SAML 2.0 metadata as members of Tuakiri, the New Zealand Access Federation. The rest is gated rather than absent: a CA API Gateway 9.0 answers on api.canterbury.ac.nz with no routed public service, a self-hosted GitLab serves an authenticated v4 API to the College of Engineering, and the DSpace REST API sits behind a Cloudflare bot challenge. The institution''s research
+  data repository and its identity provider are both tenancies on other people''s platforms — Figshare and REANNZ''s Tuakiri Hosted IdP respectively — and are recorded here as relationships, not as University of Canterbury contracts. This profile was corrected on 2026-08-30: eleven entries previously listed under this institution were a single Figshare API v2 contract, split by tag, and have been removed.'
 finops:
 - name: University Of Canterbury Finops
   service_category: Education
   slug: university-of-canterbury-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-canterbury.png
-json_schemas:
-- name: Figshare Article
-  property_count: 16
-  slug: university-of-canterbury-article
-- name: Figshare Collection
-  property_count: 6
-  slug: university-of-canterbury-collection
-json_structures:
-- name: University Of Canterbury Article Structure
-  property_count: 16
-  slug: university-of-canterbury-article-structure
-- name: University Of Canterbury Collection Structure
-  property_count: 6
-  slug: university-of-canterbury-collection-structure
-jsonld:
-- class_count: 7
-  name: University Of Canterbury Context
-  property_count: 15
-  slug: university-of-canterbury-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: University of Canterbury
 nav: Providers
 network: true
-overview: 'University of Canterbury publishes 10 APIs on the [APIs.io](https://apis.io/) network, including altmetric API, articles API, authors API, and 7 more. Tagged areas include Education, Higher Education, University, Research, and Open Data.
-
-
-  The University of Canterbury catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  University of Canterbury''s developer surface includes authentication, GitHub presence, and 10 more developer resources.'
+overview: University of Canterbury publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, New Zealand, and Research.
 plans:
 - name: University Of Canterbury Plans Pricing
   plan_count: 2
@@ -221,46 +146,25 @@ rate_limits:
 - limit_count: 1
   name: University Of Canterbury Rate Limits
   slug: university-of-canterbury-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: University of Canterbury API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 3
-  slug: university-of-canterbury-jsonschema-spectral-rules
-- effective_rule_count: 8
-  extends: []
-  name: University of Canterbury API Rules
-  rule_count: 8
-  severity_counts:
-    error: 4
-    hint: 0
-    info: 0
-    warn: 4
-  slug: university-of-canterbury-rules
-scopes:
-- name: University Of Canterbury Scopes
-  scope_count: 1
-  slug: university-of-canterbury-scopes
-  summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 43.7
-  delta: 1.9
+  band: emerging
+  composite: 25.6
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -18.1
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 73.0
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 0.0
+    contract_quality: 10.5
     developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 41.8
+    governance: 0.0
+    operational_transparency: 23.7
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     contracts:
@@ -273,16 +177,12 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 29.6
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-canterbury/refs/heads/main/screenshots/university-of-canterbury-2026-06-20T200141.png
 security:
-- kind: authentication
-  name: University Of Canterbury Authentication
-  slug: university-of-canterbury-authentication
-  summary_line: oauth2 · 1 scheme
 - kind: domain-security
   name: University Of Canterbury Domain Security
   slug: university-of-canterbury-domain-security
@@ -292,10 +192,13 @@ tags:
 - Education
 - Higher Education
 - University
-- Research
-- Open Data
-- Repository
-- OAI-PMH
 - New Zealand
+- Research
+- Research Repository
+- Open Access
+- OAI-PMH
+- Identity Federation
+- SAML
+- Learning Management
 website: https://www.canterbury.ac.nz/
 ---

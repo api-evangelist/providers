@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 4
 apis:
 - description: The in-toto specification defines the metadata format for recording software supply chain steps. It includes layout metadata that defines the expected steps and their authorized functionaries, and lin
@@ -176,8 +176,13 @@ rules:
   slug: in-toto-rules
 score:
   band: thin
-  composite: 28.6
-  delta: 1.4
+  composite: 28.3
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 46.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.3
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -187,9 +192,12 @@ score:
     discoverability: 72.2
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 27.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 28.6
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/in-toto/refs/heads/main/screenshots/in-toto-2026-06-20T183303.png
 security:

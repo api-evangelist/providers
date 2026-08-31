@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: '**Powerful generic endpoints** for reading and writing any collection type. Works with all collections using field UUIDs. Query `/fields` first to discover the schema, then use these endpoints for fle'
   name: Teambridge Collections (Unified API) API
@@ -48,7 +48,10 @@ apis:
 - description: Utility endpoints for timezone information and other general-purpose data.
   name: Teambridge Utilities API
   slug: teambridge-utilities-api
-artifact_total: 15
+- description: The Teambridge External API API from Teambridge — 0 operation(s) for teambridge external api.
+  name: Teambridge Teambridge External API
+  slug: teambridge-teambridge-external-api-api
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Teambridge Webhooks
@@ -182,7 +185,7 @@ modified: '2026-07-21'
 name: Teambridge
 nav: Providers
 network: true
-overview: 'Teambridge publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Collections (Unified API) API, Documents API, Mappings API, and 1 more. Tagged areas include Company, Workforce Management, Scheduling, Time Tracking, and Payroll.
+overview: 'Teambridge publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Collections (Unified API) API, Documents API, Mappings API, and 2 more. Tagged areas include Company, Workforce Management, Scheduling, Time Tracking, and Payroll.
 
 
   The Teambridge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -197,18 +200,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 47.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
-    contract_quality: 66.7
+    contract_governance: 18.2
+    contract_quality: 62.9
     developer_ergonomics: 42.3
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 50.0
+  previous_composite: 47.6
   provenance:
     conformance: first-party
     contracts:
@@ -218,8 +226,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/screenshots/teambridge-2026-08-17T082257.png
 security:

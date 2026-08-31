@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 27
   slug: airstack-agentic-access
   summary_line: 27 operations · 5 acting
-api_count: 14
+api_count: 2
 apis:
 - description: The primary Airstack API offering composable GraphQL queries across on-chain and off-chain Web3 data. Query NFT balances, token transfers, wallet identities, ENS names, POAP badges, and social graph d
   name: Airstack GraphQL API
@@ -231,18 +231,23 @@ rules:
   slug: airstack-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.4
-  delta: 4.3
+  composite: 29.8
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 69.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 25.0
     contract_quality: 52.1
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 5.3
-  previous_composite: 26.1
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     contracts:
@@ -256,8 +261,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/screenshots/airstack-2026-06-20T171431.png
 security:

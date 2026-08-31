@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 5
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 38
   slug: powernaut-agentic-access
   summary_line: 38 operations · 22 acting · 5 human-in-the-loop
-api_count: 13
+api_count: 1
 apis:
 - description: Authenticating with the Powernaut platform.
   name: Powernaut authentication API
@@ -82,7 +82,10 @@ apis:
 - description: Sharing your forecasts helps us better understand your resources' expected behaviour, leading to improved flexibility opportunities and optimised market participation. See the [guide](/guides/connect/
   name: Powernaut uploading_forecasts API
   slug: powernaut-uploading-forecasts-api
-artifact_total: 32
+- description: The accepting_bids API from Powernaut — 0 operation(s) for accepting_bids.
+  name: Powernaut Accepting Bids API
+  slug: powernaut-accepting-bids-api
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Powernaut Webhooks
@@ -231,7 +234,7 @@ modified: '2026-07-20'
 name: Powernaut
 nav: Providers
 network: true
-overview: 'Powernaut publishes 13 APIs on the [APIs.io](https://apis.io/) network, including authentication API, baselining API, creating_bids API, and 10 more. Tagged areas include Company, Energy, Virtual Power Plant, Distributed Energy Resources, and Energy Trading.
+overview: 'Powernaut publishes 14 APIs on the [APIs.io](https://apis.io/) network, including authentication API, baselining API, creating_bids API, and 11 more. Tagged areas include Company, Energy, Virtual Power Plant, Distributed Energy Resources, and Energy Trading.
 
 
   The Powernaut catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -240,19 +243,24 @@ overview: 'Powernaut publishes 13 APIs on the [APIs.io](https://apis.io/) networ
   Powernaut''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 16 more developer resources.'
 random_paper: 10
 score:
-  band: developing
-  composite: 41.1
-  delta: 0.0
+  band: thin
+  composite: 38.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
-    contract_governance: 16.7
-    contract_quality: 68.9
+    contract_governance: 4.5
+    contract_quality: 67.3
     developer_ergonomics: 54.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 41.1
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -269,8 +277,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

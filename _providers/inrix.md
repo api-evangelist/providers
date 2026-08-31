@@ -23,18 +23,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-08-26'
-api_count: 18
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: Authentication and account service for the entire INRIX platform. Exchanges an appId plus a SHA-1 hashToken (or OAuth2 client credentials) for a bearer access token, and manages applications, applicat
-  name: INRIX User Accounts System (UAS) API
-  slug: inrix-user-accounts-system-uas-api
-- description: 'On-street and off-street parking data: parking lots and city blocks, rates and hours, real-time and historical occupancy and probability, open spots from the Utilization Sensing Service, destinations,'
-  name: INRIX Parking API (INRIX Parking Services 3.0 / ParkMe)
-  slug: inrix-parking-api-inrix-parking-services-30-parkme
-- description: 'Traffic-signal and intersection analytics served from the INRIX IQ backend: intersection metrics, intersection metadata, metrics availability, and namespace management for customer-scoped signal datas'
-  name: INRIX Signals Analytics API
-  slug: inrix-signals-analytics-api
 - description: Real-time, historical and predicted speed, travel time and reference speed for INRIX XD and TMC road segments, queried by bounding box, radius, point, segment set or corridor.
   name: INRIX Segment Speed API
   slug: inrix-segment-speed-api
@@ -80,7 +71,46 @@ apis:
 - description: Anonymized visit counts and dwell analytics for points of interest and custom polygons, derived from INRIX device and vehicle movement data.
   name: INRIX Visits Analytics API
   slug: inrix-visits-analytics-api
-artifact_total: 24
+- description: The accounts API from INRIX — 1 operation(s) for accounts.
+  name: INRIX Accounts API
+  slug: inrix-accounts-api
+- description: The api API from INRIX — 3 operation(s) for api.
+  name: INRIX API
+  slug: inrix-api-api
+- description: The Application API from INRIX — 9 operation(s) for application.
+  name: INRIX Application API
+  slug: inrix-application-api
+- description: The ApplicationManagement API from INRIX — 9 operation(s) for applicationmanagement.
+  name: INRIX Application Management API
+  slug: inrix-applicationmanagement-api
+- description: The Auth API from INRIX — 6 operation(s) for auth.
+  name: INRIX Auth API
+  slug: inrix-auth-api
+- description: The Developer API from INRIX — 2 operation(s) for developer.
+  name: INRIX Developer API
+  slug: inrix-developer-api
+- description: The Device API from INRIX — 3 operation(s) for device.
+  name: INRIX Device API
+  slug: inrix-device-api
+- description: The EmailTemplate API from INRIX — 2 operation(s) for emailtemplate.
+  name: INRIX Email Template API
+  slug: inrix-emailtemplate-api
+- description: The Metadata API from INRIX — 1 operation(s) for metadata.
+  name: INRIX Metadata API
+  slug: inrix-metadata-api
+- description: The Metrics API from INRIX — 2 operation(s) for metrics.
+  name: INRIX Metrics API
+  slug: inrix-metrics-api
+- description: APIs for managing intersection namespace subscriptions
+  name: INRIX Namespace Management API
+  slug: inrix-namespace-management-api
+- description: The User API from INRIX — 18 operation(s) for user.
+  name: INRIX User API
+  slug: inrix-user-api
+- description: The UserGroup API from INRIX — 8 operation(s) for usergroup.
+  name: INRIX User Group API
+  slug: inrix-usergroup-api
+artifact_total: 34
 collections:
 - collection_type: open
   name: INRIX Parkme API
@@ -92,6 +122,34 @@ collections:
   name: Inrix.UserAccounts.Web
   slug: open-inrix-user-accounts-openapi-original
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/inrix-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/inrix-user-accounts-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/inrix-authenticate-and-call.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/inrix-manage-applications-and-users.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/inrix-parkme-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/inrix-signals-analytics-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/inrix-query-signals-intersection-metrics.md
 - group: agent
   title: ''
   type: MCPServer
@@ -249,25 +307,30 @@ modified: '2026-08-01'
 name: INRIX
 nav: Providers
 network: true
-overview: 'INRIX publishes 3 APIs on the [APIs.io](https://apis.io/) network: User Accounts System (UAS) API, Parking API (INRIX Parking Services 3.0 / ParkMe), and Signals Analytics API. Tagged areas include Transportation, Traffic, Mobility, Parking, and Geospatial.
+overview: 'INRIX publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Application API, and 11 more. Tagged areas include Transportation, Traffic, Mobility, Parking, and Geospatial.
 
 
-  INRIX''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, signup flow, support, and 29 more developer resources.'
+  INRIX''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, signup flow, support, and 36 more developer resources.'
 random_paper: 8
 score:
   band: developing
-  composite: 49.2
+  composite: 48.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
-    contract_governance: 30.3
-    contract_quality: 39.5
+    contract_governance: 18.2
+    contract_quality: 40.5
     developer_ergonomics: 73.2
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 49.2
+  previous_composite: 48.8
   provenance:
     conformance: first-party
     contracts:
@@ -277,8 +340,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inrix/refs/heads/main/screenshots/inrix-2026-08-07T170714.png
 security:

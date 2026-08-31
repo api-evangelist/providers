@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: activision-blizzard-agentic-access
   summary_line: 17 operations
-api_count: 5
+api_count: 1
 apis:
 - description: Battle.net account and user profile APIs
   name: activision-blizzard Account API
@@ -316,16 +316,16 @@ jsonld:
   slug: activision-blizzard-context
 layout: provider
 modified: '2026-05-19'
-name: activision-blizzard
+name: Activision Blizzard
 nav: Providers
 network: true
-overview: 'activision-blizzard publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Diablo III API, Hearthstone API, and 2 more. Tagged areas include Fortune 1000.
+overview: 'Activision Blizzard publishes 5 APIs on the [APIs.io](https://apis.io/) network, including activision-blizzard Account API, activision-blizzard Diablo III API, activision-blizzard Hearthstone API, and 2 more. Tagged areas include Fortune 1000.
 
 
-  The activision-blizzard catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Activision Blizzard catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  activision-blizzard''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, and 10 more developer resources.'
+  Activision Blizzard''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, and 10 more developer resources.'
 plans:
 - name: Activision Blizzard Plans Pricing
   plan_count: 2
@@ -354,7 +354,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: activision-blizzard API Rules
+  name: Activision Blizzard API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -365,7 +365,7 @@ rules:
 - effective_rule_count: 69
   extends:
   - spectral:oas
-  name: activision-blizzard API Rules
+  name: Activision Blizzard API Rules
   rule_count: 28
   severity_counts:
     error: 9
@@ -380,18 +380,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: emerging
-  composite: 21.6
-  delta: 0.6
+  composite: 21.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 62.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 34.1
     developer_ergonomics: 9.5
-    discoverability: 40.7
+    discoverability: 35.2
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 21.0
+  previous_composite: 21.6
   provenance:
     agentic_access: derived
     contracts:
@@ -399,8 +404,8 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/screenshots/activision-blizzard-2026-06-20T164248.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17655
   human_in_the_loop: 93
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 37105
   slug: microsoft-graph-agentic-access
   summary_line: 37105 operations · 17655 acting · 93 human-in-the-loop
-api_count: 564
+api_count: 71
 apis:
 - description: The Admin.admin API from Microsoft Graph — 1 operation(s) for admin.admin.
   name: Microsoft Graph Admin.admin API
@@ -4253,6 +4253,10 @@ collections:
   name: Microsoft Graph Admin Admin.admin users.userTeamwork API
   slug: open-microsoft-graph-users-userteamwork-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-graph-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -4319,7 +4323,7 @@ common:
   url: https://developer.microsoft.com/en-us/graph/status
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://docs.microsoft.com/en-us/graph/samples
 - group: operate
   title: ''
@@ -17196,7 +17200,7 @@ overview: 'Microsoft Graph publishes 564 APIs on the [APIs.io](https://apis.io/)
   The Microsoft Graph catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Microsoft Graph''s developer surface includes developer portal, changelog, getting-started guide, engineering blog, Stack Overflow tag, documentation, authentication, and 33 more developer resources.'
+  Microsoft Graph''s developer surface includes developer portal, changelog, getting-started guide, engineering blog, Stack Overflow tag, code examples, documentation, and 34 more developer resources.'
 plans:
 - name: Microsoft Graph Plans Pricing
   plan_count: 3
@@ -17231,6 +17235,11 @@ rules:
 score:
   band: strong
   composite: 58.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 64.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
@@ -17249,8 +17258,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 564
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-graph/refs/heads/main/screenshots/microsoft-graph-2026-06-20T185504.png
 security:

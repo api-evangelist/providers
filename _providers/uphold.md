@@ -24,8 +24,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-26'
-api_count: 25
+  scored_at: '2026-08-30'
+api_count: 5
 apis:
 - description: The long-standing public Uphold API at api.uphold.com/v0 — tickers and exchange rates, supported currencies and assets, plus OAuth 2.0 authenticated access to a member's cards, transactions and accoun
   name: Uphold Public API (v0)
@@ -181,6 +181,18 @@ collections:
   name: Core Webhooks API
   slug: open-uphold-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/uphold-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/uphold/docs/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/uphold/docs/releases
 - group: other
   title: ''
   type: Overlay
@@ -369,13 +381,13 @@ modified: '2026-08-05'
 name: Uphold
 nav: Providers
 network: true
-overview: 'Uphold publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Assets API, Authentication API, and 20 more. Tagged areas include Company, Cryptocurrency, Digital Assets, Payments, and Banking.
+overview: 'Uphold publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Assets API, Authentication API, and 20 more. Tagged areas include Company, cryptocurrency, digital-assets, Payments, and banking.
 
 
   The Uphold catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Uphold''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 37 more developer resources.'
+  Uphold''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, pricing, and 40 more developer resources.'
 random_paper: 1
 scopes:
 - name: Uphold Scopes
@@ -383,19 +395,27 @@ scopes:
   slug: uphold-scopes
   summary_line: 64 scopes · clientCredentials
 score:
-  band: exemplar
-  composite: 69.1
+  band: strong
+  composite: 64.7
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 66.9
     developer_ergonomics: 78.6
-    discoverability: 68.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 69.1
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 64.7
   provenance:
     conformance: first-party
     contracts:
@@ -411,8 +431,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/screenshots/uphold-2026-08-17T081941.png
 security:
@@ -435,17 +455,17 @@ security:
 slug: uphold
 tags:
 - Company
-- Cryptocurrency
-- Digital Assets
+- cryptocurrency
+- digital-assets
 - Payments
-- Banking
+- banking
 - Fintech
-- KYC
+- kyc
 - Compliance
-- Crypto Exchange
+- crypto-exchange
 - Market Data
-- Embedded Finance
-- Travel Rule
+- embedded-finance
+- travel-rule
 - Webhook
 - agent-native
 website: https://uphold.com/

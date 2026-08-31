@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: university-of-warsaw-agentic-access
   summary_line: 8 operations
-api_count: 7
+api_count: 1
 apis:
 - description: 'The University of Warsaw Research Data Repository (Dane Badawcze UW) is a Dataverse-based institutional repository for long-term storage and open sharing of research data across all disciplines, with '
   name: Dane Badawcze UW Research Data Repository REST API
@@ -86,6 +86,10 @@ collections:
   name: USOS API (University of Warsaw) apiref fac API
   slug: open-university-of-warsaw-fac-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/university-of-warsaw-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -188,7 +192,7 @@ overview: 'University of Warsaw publishes 5 APIs on the [APIs.io](https://apis.i
   The University of Warsaw catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  University of Warsaw''s developer surface includes authentication, GitHub presence, engineering blog, and 10 more developer resources.'
+  University of Warsaw''s developer surface includes authentication, GitHub presence, engineering blog, and 11 more developer resources.'
 plans:
 - name: University Of Warsaw Plans Pricing
   plan_count: 2
@@ -221,18 +225,23 @@ rules:
   slug: university-of-warsaw-rules
 score:
   band: developing
-  composite: 43.8
-  delta: 4.5
+  composite: 43.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 37.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 9.8
     contract_quality: 64.6
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 39.3
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     contracts:
@@ -246,8 +255,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/screenshots/university-of-warsaw-2026-06-20T200305.png
 security:

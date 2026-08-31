@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 48
   slug: uniswap-agentic-access
   summary_line: 48 operations · 40 acting
-api_count: 14
+api_count: 2
 apis:
 - description: The Uniswap Subgraph API provides GraphQL endpoints for querying on-chain data across Uniswap protocol versions v1, v2, v3, and v4. Powered by The Graph Protocol decentralized network, it supports que
   name: Uniswap Subgraph API
@@ -456,18 +456,23 @@ rules:
   slug: uniswap-spectral-rules
 score:
   band: developing
-  composite: 48.0
-  delta: 0.7
+  composite: 47.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 47.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 28.8
     contract_quality: 71.1
     developer_ergonomics: 59.5
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 47.3
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     contracts:
@@ -481,8 +486,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uniswap/refs/heads/main/screenshots/uniswap-2026-06-20T200036.png
 security:

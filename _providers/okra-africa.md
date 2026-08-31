@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 30
   slug: okra-africa-agentic-access
   summary_line: 30 operations · 30 acting
-api_count: 12
+api_count: 1
 apis:
 - description: Bank accounts a customer has linked.
   name: Okra Accounts API
@@ -191,19 +191,24 @@ rate_limits:
   name: Okra Africa Rate Limits
   slug: okra-africa-rate-limits
 score:
-  band: thin
-  composite: 26.4
-  delta: 1.5
+  band: emerging
+  composite: 25.8
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 12.1
     developer_ergonomics: 29.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 24.9
+  previous_composite: 26.4
   provenance:
     agentic_access: derived
     contracts:
@@ -217,8 +222,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/okra-africa/refs/heads/main/screenshots/okra-africa-2026-08-07T190057.png
 security:

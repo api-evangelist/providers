@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.3
-  scored_at: '2026-08-26'
+  score: 24.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,57 +42,21 @@ agentic_access:
   operation_count: 12
   slug: quenza-agentic-access
   summary_line: 12 operations · 8 acting
-api_count: 16
+api_count: 1
 apis:
-- description: The ArchiveClient API from Quenza — 1 operation(s) for archiveclient.
-  name: Quenza ArchiveClient API
-  slug: quenza-archiveclient-api
-- description: The AttachGroupMembers API from Quenza — 1 operation(s) for attachgroupmembers.
-  name: Quenza AttachGroupMembers API
-  slug: quenza-attachgroupmembers-api
 - description: The Clients API from Quenza — 4 operation(s) for clients.
   name: Quenza Clients API
   slug: quenza-clients-api
-- description: The CreateClient API from Quenza — 1 operation(s) for createclient.
-  name: Quenza CreateClient API
-  slug: quenza-createclient-api
-- description: The CreateGroup API from Quenza — 1 operation(s) for creategroup.
-  name: Quenza CreateGroup API
-  slug: quenza-creategroup-api
-- description: The CreateMember API from Quenza — 1 operation(s) for createmember.
-  name: Quenza CreateMember API
-  slug: quenza-createmember-api
 - description: The Groups API from Quenza — 2 operation(s) for groups.
   name: Quenza Groups API
   slug: quenza-groups-api
-- description: The ListClient API from Quenza — 1 operation(s) for listclient.
-  name: Quenza ListClient API
-  slug: quenza-listclient-api
-- description: The ListMember API from Quenza — 1 operation(s) for listmember.
-  name: Quenza ListMember API
-  slug: quenza-listmember-api
-- description: The ListTask API from Quenza — 1 operation(s) for listtask.
-  name: Quenza ListTask API
-  slug: quenza-listtask-api
 - description: The Members API from Quenza — 2 operation(s) for members.
   name: Quenza Members API
   slug: quenza-members-api
-- description: The ShowClient API from Quenza — 1 operation(s) for showclient.
-  name: Quenza ShowClient API
-  slug: quenza-showclient-api
 - description: The Tasks API from Quenza — 1 operation(s) for tasks.
   name: Quenza Tasks API
   slug: quenza-tasks-api
-- description: The UnarchiveClient API from Quenza — 1 operation(s) for unarchiveclient.
-  name: Quenza UnarchiveClient API
-  slug: quenza-unarchiveclient-api
-- description: The UpdateClient API from Quenza — 1 operation(s) for updateclient.
-  name: Quenza UpdateClient API
-  slug: quenza-updateclient-api
-- description: The UpdateMember API from Quenza — 1 operation(s) for updatemember.
-  name: Quenza UpdateMember API
-  slug: quenza-updatemember-api
-artifact_total: 39
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -146,6 +110,10 @@ collections:
   name: Quenza ArchiveClient UpdateMember API
   slug: open-quenza-updatemember-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/quenza-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -198,10 +166,10 @@ modified: '2026-07-10'
 name: Quenza
 nav: Providers
 network: true
-overview: 'Quenza publishes 16 APIs on the [APIs.io](https://apis.io/) network, including ArchiveClient API, AttachGroupMembers API, Clients API, and 13 more. Tagged areas include Coaching, Therapy, Client Engagement, Digital Health, and Mental Health.
+overview: 'Quenza publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Groups API, Members API, and 1 more. Tagged areas include Coaching, Therapy, Client Engagement, Digital Health, and Mental Health.
 
 
-  Quenza''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Quenza''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Quenza Plans Pricing
   plan_count: 5
@@ -213,18 +181,23 @@ rate_limits:
   slug: quenza-rate-limits
 score:
   band: thin
-  composite: 38.3
-  delta: 1.5
+  composite: 37.8
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 54.8
+    contract_quality: 55.3
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 36.8
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -238,8 +211,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

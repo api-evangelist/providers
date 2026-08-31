@@ -10,21 +10,21 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
+  score: 11.4
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: 'REST API for managing Ivanti Connect Secure (formerly Pulse Connect Secure) VPN appliances. Provides endpoints for system configuration, user and role management, authentication server configuration, '
@@ -45,8 +45,96 @@ apis:
 - description: REST API for managing Ivanti Neurons for Zero Trust Access (nZTA), providing endpoints for managing zero trust access policies, gateways, and user access.
   name: Ivanti Neurons for Zero Trust Access REST API
   slug: ivanti-neurons-zero-trust-rest-api
-artifact_total: 18
+artifact_total: 20
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ivanti/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/pulse-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/pulse-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/pulse-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/pulse-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/pulse-conformance.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/pulse-conformance.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/pulse-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/pulse-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/pulse-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/pulse-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/pulse-changelog.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/pulse-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/pulse-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/pulse-plans-pricing.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/pulse-llms.txt
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.ivanti.com/support/api
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://help.ivanti.com/ps/help/en_US/ICS/22.x/apig/rest_api_soln_guide/landingpage.htm
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.ivanti.com/ps/help/en_US/ICS/22.x/apig/rest_api_soln_guide/ovw.htm
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.ivanti.com/support
+- group: build
+  title: ''
+  type: Postman
+  url: https://help.ivanti.com/ps/help/en_US/ICS/22.x/apig/rest_api_soln_guide/ics_postman_apis.htm
+- group: start
+  title: ''
+  type: Login
+  url: https://hub.ivanti.com/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -84,7 +172,7 @@ common:
   type: Community
   url: https://forums.ivanti.com/s/welcome-pulse-secure?language=en_US
 created: '2024-01-15'
-description: APIs for Ivanti Pulse Secure (formerly Pulse Secure), providing secure remote access VPN, network access control, and zero trust access solutions.
+description: 'Ivanti''s secure-access product family, formerly Pulse Secure, acquired by Ivanti in 2020. Three administrator-facing REST APIs configure and observe it: Ivanti Connect Secure for SSL VPN remote access, Ivanti Policy Secure for 802.1X and RADIUS/TACACS+ network access control, and Ivanti Neurons for Zero Trust Access for per-application ZTNA. Connect Secure and Policy Secure are customer-run appliances whose management API is reached at the customer''s own host; nZTA is a hosted tenant. All three are configuration and management interfaces rather than data-plane APIs — they change who can reach what on a corporate network. Ivanti publishes no OpenAPI and no SDK for any of them; the published contract is prose documentation with worked curl examples plus a customer-portal Postman collection.'
 features:
 - description: Secure remote access to corporate resources through SSL VPN tunnels with granular access policies.
   name: SSL VPN Remote Access
@@ -104,42 +192,51 @@ finops:
   slug: pulse-finops
 image: /assets/icons/pulse.png
 layout: provider
-modified: '2026-04-18'
+modified: '2026-08-29'
 name: Pulse
 nav: Providers
 network: true
-overview: 'Pulse publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Ivanti, Network Security, Secure Access, SSL VPN, and VPN.
+overview: 'Pulse publishes 1 API on the [APIs.io](https://apis.io/) network: Ivanti Connect Secure REST API. Tagged areas include Ivanti, Network Security, Secure Access, SSL VPN, and VPN.
 
 
-  Pulse''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
+  Pulse''s developer surface includes authentication, changelog, API reference, getting-started guide, support, documentation, engineering blog, and 24 more developer resources.'
 plans:
 - name: Pulse Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: pulse-plans-pricing
 random_paper: 7
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Pulse Rate Limits
   slug: pulse-rate-limits
 score:
-  band: emerging
-  composite: 18.9
+  band: thin
+  composite: 37.3
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
-    access_clarity: 36.8
-    commercial_clarity: 36.8
+    access_clarity: 51.3
+    commercial_clarity: 51.3
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 14.3
-    discoverability: 55.6
+    developer_ergonomics: 61.9
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 23.7
-  previous_composite: 18.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 50.0
+  previous_composite: 37.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulse/refs/heads/main/screenshots/pulse-2026-06-20T192251.png
 security:
+- kind: authentication
+  name: Pulse Authentication
+  slug: pulse-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Pulse Domain Security
   slug: pulse-domain-security
@@ -148,6 +245,10 @@ security:
   name: Pulse Vulnerability Disclosure
   slug: pulse-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Pulse Trust Center
+  slug: pulse-trust-center
+  summary_line: SOC 2 Type 2, ISO/IEC 27001, FedRAMP, U.S. Federal Government Authorization to Operate (ATO), Common Criteria, IRAP, Cyber Essentials, SIG Lite, VPAT 2.4 / Section 508
 slug: pulse
 tags:
 - Ivanti
@@ -156,6 +257,12 @@ tags:
 - SSL VPN
 - VPN
 - Zero Trust
+- ZTNA
+- Network Access Control
+- Remote Access
+- Identity and Access Management
+- Security
+- Pulse Secure
 use_cases:
 - description: Provide secure remote access to corporate applications and resources for distributed teams.
   name: Remote Workforce Access

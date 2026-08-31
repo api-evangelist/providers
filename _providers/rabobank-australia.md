@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-08-26'
-api_count: 7
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Banking Account Balance endpoints
   name: Rabobank Australia Banking Account Balances API
@@ -84,6 +84,10 @@ collections:
   name: CDR Banking Banking Account Balances Banking Products API
   slug: open-rabobank-australia-banking-products-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/rabobank-australia-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -183,7 +187,7 @@ network: true
 overview: 'Rabobank Australia publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Banking.
 
 
-  Rabobank Australia''s developer surface includes authentication, API reference, documentation, support, and 17 more developer resources.'
+  Rabobank Australia''s developer surface includes authentication, API reference, documentation, support, and 18 more developer resources.'
 random_paper: 16
 scopes:
 - name: Rabobank Australia Scopes
@@ -191,19 +195,24 @@ scopes:
   slug: rabobank-australia-scopes
   summary_line: 10 scopes
 score:
-  band: developing
-  composite: 40.4
-  delta: 0.0
+  band: thin
+  composite: 38.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 49.7
     developer_ergonomics: 39.9
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 40.4
+  previous_composite: 38.9
   provenance:
     conformance: first-party
     contracts:
@@ -219,8 +228,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/screenshots/rabobank-australia-2026-07-21T114745.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -42,29 +42,11 @@ agentic_access:
   operation_count: 49
   slug: d-local-agentic-access
   summary_line: 49 operations · 27 acting · 1 human-in-the-loop
-api_count: 16
+api_count: 4
 apis:
-- description: Create, retrieve, cancel, and authorize payments using 1,000+ local payment methods including cards, Pix, UPI, M-Pesa, Boleto, OXXO, SPEI, mobile money, cash vouchers, BNPL, wallets, and QR codes acro
-  name: dLocal Payments API
-  slug: d-local-payments-api
-- description: Create, retrieve, and inspect refunds against previously successful payments. Refunds may be full or partial and are settled in the original payment currency.
-  name: dLocal Refunds API
-  slug: d-local-refunds-api
-- description: Securely tokenize cards (server-side) for repeat usage. Returns a card_id token consumable by subsequent Payments and Authorizations.
-  name: dLocal Cards API
-  slug: d-local-cards-api
-- description: Retrieve chargeback details and status, simulate chargebacks in the sandbox, and receive asynchronous chargeback notifications via webhook.
-  name: dLocal Chargebacks API
-  slug: d-local-chargebacks-api
-- description: Enroll payers for recurring Pix Automático, Pix Biometrics, and SmartPix transactions. Once enrolled, payers can be charged repeatedly without re-authorization.
-  name: dLocal Enrollments API
-  slug: d-local-enrollments-api
 - description: Create and manage sub-merchant accounts.
   name: dLocal Accounts API
   slug: d-local-accounts-api
-- description: Authorize a card transaction and capture or cancel later.
-  name: dLocal Authorizations API
-  slug: d-local-authorizations-api
 - description: Inspect available merchant balance for payouts.
   name: dLocal Balance API
   slug: d-local-balance-api
@@ -138,7 +120,7 @@ arazzos:
 - description: Tokenize a card, verify the stored token, then charge it in a card payment.
   name: dLocal Tokenize Card and Charge
   slug: d-local-tokenize-card-and-charge-workflow
-artifact_total: 136
+artifact_total: 130
 collections:
 - collection_type: postman
   name: dLocal Cards API
@@ -645,7 +627,7 @@ modified: '2026-05-24'
 name: dLocal
 nav: Providers
 network: true
-overview: 'dLocal publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Payments API, Refunds API, Cards API, and 13 more. Tagged areas include Payments, Payouts, Emerging Markets, LatAm, and Africa.
+overview: 'dLocal publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Balance API, BankAccounts API, and 7 more. Tagged areas include Payments, Payouts, EmergingMarkets, LatAm, and Africa.
 
 
   The dLocal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -684,8 +666,13 @@ rules:
     warn: 4
   slug: d-local-rules
 score:
-  band: strong
-  composite: 66.4
+  band: exemplar
+  composite: 66.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 20.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 81.6
@@ -693,10 +680,10 @@ score:
     contract_governance: 28.8
     contract_quality: 63.9
     developer_ergonomics: 73.8
-    discoverability: 68.5
+    discoverability: 74.1
     governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 66.4
+  previous_composite: 66.9
   provenance:
     agentic_access: derived
     contracts:
@@ -710,8 +697,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-local/refs/heads/main/screenshots/d-local-2026-06-20T175421.png
 security:
@@ -748,7 +735,7 @@ solutions:
 tags:
 - Payments
 - Payouts
-- Emerging Markets
+- EmergingMarkets
 - LatAm
 - Africa
 - Asia

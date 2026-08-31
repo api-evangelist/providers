@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -580,19 +580,24 @@ scopes:
   slug: microsoft-teams-scopes
   summary_line: 10 scopes · authorizationCode
 score:
-  band: strong
-  composite: 56.8
-  delta: 3.9
+  band: developing
+  composite: 54.2
+  coverage:
+    artifact_dirs: 35
+    catalog_gap: 36.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 45.5
-    contract_quality: 49.3
+    contract_governance: 33.3
+    contract_quality: 49.5
     developer_ergonomics: 83.3
-    discoverability: 92.6
-    governance: 45.5
+    discoverability: 81.5
+    governance: 33.3
     operational_transparency: 31.6
-  previous_composite: 52.9
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -602,8 +607,8 @@ score:
       marker_coverage: 100.0
       total: 8
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-teams/refs/heads/main/screenshots/microsoft-teams-2026-08-07T172844.png
 security:

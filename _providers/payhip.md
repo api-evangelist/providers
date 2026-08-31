@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: payhip-agentic-access
   summary_line: 8 operations · 5 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: Create, list, and retrieve discount coupons.
   name: Payhip Coupons API
@@ -50,7 +50,10 @@ apis:
 - description: Verify and manage software license keys issued for Payhip products.
   name: Payhip License Keys API
   slug: payhip-license-keys-api
-artifact_total: 12
+- description: The Payhip API API from Payhip — 0 operation(s) for payhip api.
+  name: Payhip Payhip API
+  slug: payhip-payhip-api-api
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -65,6 +68,10 @@ collections:
   name: Payhip API
   slug: open-payhip
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/payhip-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -117,10 +124,10 @@ modified: '2026-07-05'
 name: Payhip
 nav: Providers
 network: true
-overview: 'Payhip publishes 2 APIs on the [APIs.io](https://apis.io/) network: Coupons API and License Keys API. Tagged areas include E-Commerce, Digital Products, Memberships, Creators, and Coupons.
+overview: 'Payhip publishes 3 APIs on the [APIs.io](https://apis.io/) network: Coupons API, License Keys API, and Payhip API. Tagged areas include E-Commerce, Digital Products, Memberships, Creators, and Coupons.
 
 
-  Payhip''s developer surface includes authentication, documentation, API reference, and 7 more developer resources.'
+  Payhip''s developer surface includes authentication, documentation, API reference, and 8 more developer resources.'
 plans:
 - name: Payhip Plans Pricing
   plan_count: 3
@@ -132,18 +139,23 @@ rate_limits:
   slug: payhip-rate-limits
 score:
   band: thin
-  composite: 36.4
-  delta: 1.0
+  composite: 34.7
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 57.1
+    contract_quality: 50.3
     developer_ergonomics: 33.3
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 35.4
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -157,8 +169,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payhip/refs/heads/main/screenshots/payhip-2026-08-07T191637.png
 security:

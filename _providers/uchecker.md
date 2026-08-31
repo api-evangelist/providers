@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Вход, регистрация, управление JWT-токенами и API ключами, привязка Telegram
   name: uChecker Аутентификация API
@@ -41,6 +41,10 @@ asyncapis:
   name: Uchecker Webhooks
   slug: uchecker-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/uchecker-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -160,13 +164,13 @@ modified: '2026-08-16'
 name: uChecker
 nav: Providers
 network: true
-overview: 'uChecker publishes 3 APIs on the [APIs.io](https://apis.io/) network: Аутентификация API, Валидация Email API, and ESP Провайдеры API. Tagged areas include Email Verification, Email, SMTP, DNS, and Deliverability.
+overview: 'uChecker publishes 3 APIs on the [APIs.io](https://apis.io/) network: Аутентификация API, Валидация Email API, and ESP Провайдеры API. Tagged areas include email-verification, Email, SMTP, dns, and deliverability.
 
 
   The uChecker catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  uChecker''s developer surface includes authentication, developer console, API reference, documentation, pricing, signup flow, support, and 19 more developer resources.'
+  uChecker''s developer surface includes authentication, developer console, API reference, documentation, pricing, signup flow, support, and 20 more developer resources.'
 plans:
 - name: Uchecker Plans Pricing
   plan_count: 11
@@ -178,18 +182,23 @@ rate_limits:
   slug: uchecker-rate-limits
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 45.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 60.9
     developer_ergonomics: 44.6
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 48.0
+  previous_composite: 46.5
   provenance:
     conformance: derived
     contracts:
@@ -199,8 +208,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uchecker/refs/heads/main/screenshots/uchecker-2026-08-17T082530.png
 security:
@@ -214,16 +223,16 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: uchecker
 tags:
-- Email Verification
+- email-verification
 - Email
 - SMTP
-- DNS
-- Deliverability
+- dns
+- deliverability
 - mx
-- SPF
-- DKIM
+- spf
+- dkim
 - DMARC
 - MCP
 - agent-native
-- Data Quality
+- data-quality
 ---

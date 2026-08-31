@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 29
   slug: weights-and-biases-agentic-access
   summary_line: 29 operations · 27 acting
-api_count: 11
+api_count: 1
 apis:
 - description: The W&B Public API is a GraphQL endpoint at `https://api.wandb.ai/graphql`. It backs the Python `wandb.Api()` SDK and exposes runs, projects, sweeps, artifacts, reports, registries, and automations. A
   name: W&B GraphQL API
@@ -113,6 +113,26 @@ collections:
   name: FastAPI
   slug: open-weights-and-biases
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/wandb/wandb/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/wandb/wandb/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/wandb/wandb/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/wandb/wandb/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/wandb/wandb/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -180,7 +200,7 @@ network: true
 overview: 'Weights & Biases publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Costs API, Feedback API, and 6 more. Tagged areas include ML, MLOps, Experiment Tracking, Model Registry, and GenAI.
 
 
-  Weights & Biases'' developer surface includes authentication, developer portal, pricing, and 9 more developer resources.'
+  Weights & Biases'' developer surface includes authentication, developer portal, pricing, and 14 more developer resources.'
 plans:
 - name: Weights And Biases Plans Pricing
   plan_count: 1
@@ -191,19 +211,27 @@ rate_limits:
   name: Weights And Biases Rate Limits
   slug: weights-and-biases-rate-limits
 score:
-  band: thin
-  composite: 34.1
-  delta: 3.3
+  band: developing
+  composite: 43.3
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 51.9
     developer_ergonomics: 38.1
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 30.8
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 43.8
   provenance:
     agentic_access: derived
     contracts:
@@ -211,8 +239,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weights-and-biases/refs/heads/main/screenshots/weights-and-biases-2026-06-20T201349.png
 security:

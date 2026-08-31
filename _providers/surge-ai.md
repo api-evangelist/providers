@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: surge-ai-agentic-access
   summary_line: 18 operations · 10 acting
-api_count: 14
+api_count: 1
 apis:
 - description: Surge's REST API for managing labeling projects, tasks, and results. Endpoints cover projects (list, retrieve, create, download results, save reports in multiple formats), tasks (create, list, retriev
   name: Surge API
@@ -104,6 +104,10 @@ collections:
   name: Surge AI API
   slug: open-surge-ai
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/surge-ai/surge-python/issues
 - group: commercial
   title: ''
   type: License
@@ -217,7 +221,7 @@ network: true
 overview: 'Surge AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Projects API, Tasks API, and Teams API. Tagged areas include Human Data, RLHF, SFT, Rubrics, and Verifiers.
 
 
-  Surge AI''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, developer console, engineering blog, and 10 more developer resources.'
+  Surge AI''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, developer console, engineering blog, and 11 more developer resources.'
 plans:
 - name: Surge Ai Plans Pricing
   plan_count: 1
@@ -228,19 +232,27 @@ rate_limits:
   name: Surge Ai Rate Limits
   slug: surge-ai-rate-limits
 score:
-  band: developing
-  composite: 42.5
-  delta: 0.0
+  band: thin
+  composite: 37.7
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 59.5
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 42.5
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -248,8 +260,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/screenshots/surge-ai-2026-06-20T194733.png
 security:
@@ -269,7 +281,7 @@ tags:
 - Rubrics
 - Verifiers
 - RL Environments
-- Multi-Modal
+- Multimodal
 - Internationalization
 - Labeling
 use_cases:

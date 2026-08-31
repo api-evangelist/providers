@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -31,30 +31,87 @@ agentic_access:
   operation_count: 84
   slug: spreedly-agentic-access
   summary_line: 84 operations · 48 acting
-api_count: 7
+api_count: 1
 apis:
-- description: The Spreedly Core Transactional API — the primary REST surface for the Payments Orchestration platform. Covers payment method tokenization/vaulting, gateway creation and management, and the full trans
-  name: Spreedly Core Transactional API
-  slug: spreedly-core-api
-- description: Create, retain, redact, recache, update, and inspect tokenized payment methods held in Spreedly's PCI-compliant universal vault, including field-level encryption and payment method event history. Part
-  name: Spreedly Payment Methods & Vault API
-  slug: spreedly-payment-methods-api
-- description: Workflow-driven orchestration endpoints (Composer) that execute an authorization, purchase, or verification against a configured routing workflow rather than a single named gateway, enabling failover,
-  name: Spreedly Composer (Workflows) API
+- description: The access_secrets API from Spreedly — 2 operation(s) for access_secrets.
+  name: Spreedly Access Secrets API
+  slug: spreedly-access-secrets-api
+- description: The authorize API from Spreedly — 1 operation(s) for authorize.
+  name: Spreedly Authorize API
+  slug: spreedly-authorize-api
+- description: The capture API from Spreedly — 1 operation(s) for capture.
+  name: Spreedly Capture API
+  slug: spreedly-capture-api
+- description: The card_refresher API from Spreedly — 3 operation(s) for card_refresher.
+  name: Spreedly Card Refresher API
+  slug: spreedly-card-refresher-api
+- description: The certificates API from Spreedly — 3 operation(s) for certificates.
+  name: Spreedly Certificates API
+  slug: spreedly-certificates-api
+- description: The claim API from Spreedly — 1 operation(s) for claim.
+  name: Spreedly Claim API
+  slug: spreedly-claim-api
+- description: The composer API from Spreedly — 3 operation(s) for composer.
+  name: Spreedly Composer API
   slug: spreedly-composer-api
-- description: 'Retrieve card metadata and lifecycle status for network tokens (Visa, Mastercard, Amex network-provisioned tokens) managed through Spreedly, supporting network tokenization for improved authorization '
+- description: The credit API from Spreedly — 1 operation(s) for credit.
+  name: Spreedly Credit API
+  slug: spreedly-credit-api
+- description: The environments API from Spreedly — 3 operation(s) for environments.
+  name: Spreedly Environments API
+  slug: spreedly-environments-api
+- description: The events API from Spreedly — 2 operation(s) for events.
+  name: Spreedly Events API
+  slug: spreedly-events-api
+- description: The gateways API from Spreedly — 6 operation(s) for gateways.
+  name: Spreedly Gateways API
+  slug: spreedly-gateways-api
+- description: The general_credit API from Spreedly — 1 operation(s) for general_credit.
+  name: Spreedly General Credit API
+  slug: spreedly-general-credit-api
+- description: The merchant_profiles API from Spreedly — 2 operation(s) for merchant_profiles.
+  name: Spreedly Merchant Profiles API
+  slug: spreedly-merchant-profiles-api
+- description: The network_tokenization API from Spreedly — 2 operation(s) for network_tokenization.
   name: Spreedly Network Tokenization API
   slug: spreedly-network-tokenization-api
-- description: Card Refresher / account updater inquiries that refresh stored card credentials (expiration dates and PANs) against the card networks' account updater services to reduce declines on stored payment met
-  name: Spreedly Account Updater (Card Refresher) API
-  slug: spreedly-account-updater-api
-- description: Receivers let merchants forward securely vaulted payment data from the Spreedly vault to arbitrary third-party HTTP endpoints, extending tokenization beyond payment gateways to any API that needs card
+- description: The payment_methods API from Spreedly — 12 operation(s) for payment_methods.
+  name: Spreedly Payment Methods API
+  slug: spreedly-payment-methods-api
+- description: The payments API from Spreedly — 1 operation(s) for payments.
+  name: Spreedly Payments API
+  slug: spreedly-payments-api
+- description: The protection_events API from Spreedly — 2 operation(s) for protection_events.
+  name: Spreedly Protection Events API
+  slug: spreedly-protection-events-api
+- description: The protection_provider API from Spreedly — 2 operation(s) for protection_provider.
+  name: Spreedly Protection Provider API
+  slug: spreedly-protection-provider-api
+- description: The purchase API from Spreedly — 2 operation(s) for purchase.
+  name: Spreedly Purchase API
+  slug: spreedly-purchase-api
+- description: The receivers API from Spreedly — 6 operation(s) for receivers.
   name: Spreedly Receivers API
   slug: spreedly-receivers-api
-- description: Strong Customer Authentication endpoints to authenticate a given payment method and manage SCA providers on a merchant profile, supporting 3-D Secure 2.x authentication flows for cardholder verificati
-  name: Spreedly 3-D Secure / SCA Authentication API
-  slug: spreedly-sca-api
-artifact_total: 15
+- description: The sca_authentication API from Spreedly — 1 operation(s) for sca_authentication.
+  name: Spreedly Sca Authentication API
+  slug: spreedly-sca-authentication-api
+- description: The sca_provider API from Spreedly — 2 operation(s) for sca_provider.
+  name: Spreedly Sca Provider API
+  slug: spreedly-sca-provider-api
+- description: The sub_merchants API from Spreedly — 2 operation(s) for sub_merchants.
+  name: Spreedly Sub Merchants API
+  slug: spreedly-sub-merchants-api
+- description: The transactions API from Spreedly — 5 operation(s) for transactions.
+  name: Spreedly Transactions API
+  slug: spreedly-transactions-api
+- description: The verify API from Spreedly — 1 operation(s) for verify.
+  name: Spreedly Verify API
+  slug: spreedly-verify-api
+- description: The void API from Spreedly — 1 operation(s) for void.
+  name: Spreedly Void API
+  slug: spreedly-void-api
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Spreedly Webhooks
@@ -252,7 +309,7 @@ modified: '2026-07-24'
 name: Spreedly
 nav: Providers
 network: true
-overview: 'Spreedly publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Core Transactional API, Payment Methods & Vault API, Composer (Workflows) API, and 4 more. Tagged areas include Payments, United States, Payment Gateway, Payment Orchestration, and Payment Processing.
+overview: 'Spreedly publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Access Secrets API, Authorize API, Capture API, and 23 more. Tagged areas include Payments, United States, Payment Gateway, Payment Orchestration, and Payment Processing.
 
 
   The Spreedly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -262,18 +319,23 @@ overview: 'Spreedly publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 11
 score:
   band: strong
-  composite: 60.4
-  delta: 0.0
+  composite: 54.3
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 91.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -4.0
   facets:
-    access_clarity: 47.4
-    commercial_clarity: 47.4
-    contract_governance: 30.3
-    contract_quality: 62.4
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 61.9
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 51.9
+    governance: 18.2
     operational_transparency: 48.7
-  previous_composite: 60.4
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -284,9 +346,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 68.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 65.6
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/screenshots/spreedly-2026-08-17T082042.png
 security:

@@ -1,129 +1,140 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free · anonymous read on the repository and metadata surfaces
+  onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
-  - authentication
+  - probed
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: derived
+    agent_skills: true
+    agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 88
-  human_in_the_loop: 1
-  name: University Of Basel Agentic Access
-  operation_count: 169
-  slug: university-of-basel-agentic-access
-  summary_line: 169 operations · 88 acting · 1 human-in-the-loop
-api_count: 9
+  score: 8.6
+  scored_at: '2026-08-30'
+api_count: 7
 apis:
-- description: Public DSpace REST API for "edoc", the open-access institutional repository of the University of Basel, running DSpace-CRIS 7.6.2. The API root reports the repository name and server endpoints and exp
+- description: Public DSpace REST API for "edoc", the open-access institutional repository of the University of Basel, running DSpace-CRIS 7.6.2 (cris-2023.02.06) on the university's own host. The API root reports d
   name: edoc DSpace REST API
   slug: edoc-rest
-- description: 'OAI-PMH 2.0 metadata harvesting interface for the University of Basel edoc repository. The Identify verb reports repositoryName "edoc: Open Access Repository University of Basel" and adminEmail openac'
+- description: 'OAI-PMH 2.0 metadata harvesting interface for edoc. Identify reports repositoryName "edoc: Open Access Repository University of Basel", repositoryIdentifier edoc.unibas.ch and adminEmail openaccess@un'
   name: edoc OAI-PMH
   slug: edoc-oai
-- description: The DaSCH Service Platform API (DSP-API, formerly Knora), an open-source HTTP API for long-term preservation, querying, annotation and linking of humanities research data as RDF graphs, with the Gravs
-  name: DaSCH DSP-API
-  slug: dsp-api
-- description: Standards-based SRU (Search/Retrieve via URL) interface to the SLSP swisscovery / Alma discovery system for the University of Basel institution zone (41SLSP_UBS). Allows programmatic search and retrie
-  name: swisscovery (SLSP Alma) SRU
+- description: Basel's SAML 2.0 identity provider, entityID https://aai-logon.unibas.ch/idp/shibboleth, registered in the SWITCHaai federation and exported to eduGAIN. Its metadata declares shibmd:Scope unibas.ch, s
+  name: University of Basel SWITCHaai / eduGAIN Identity Provider
+  slug: switchaai-idp
+- description: OpenID Connect issuer operated by sciCORE, the University of Basel's centre for scientific computing, at https://iam.scicore.unibas.ch/realms/switch-eduid — a Keycloak realm that brokers SWITCH edu-ID
+  name: sciCORE OpenID Connect Issuer
+  slug: scicore-oidc
+- description: LTI launch endpoint on ADAM, the University of Basel's ILIAS learning management system, at https://adam.unibas.ch/lti.php. It answers an unauthenticated GET with the ILIAS LTI error string rather tha
+  name: ADAM (ILIAS) LTI launch endpoint
+  slug: adam-lti
+- description: The REST backend of UNIverse (universe.unibas.ch), the University of Basel's research information system, at https://universe-intern.unibas.ch/api. It is the only OpenAPI contract the university itsel
+  name: UNIverse Research Information System API
+  slug: universe-research-information
+- description: SRU (Search/Retrieve via URL) interface to swisscovery, the Swiss national library discovery platform, scoped to the University of Basel institution zone 41SLSP_UBS. The catalogue records and the inst
+  name: swisscovery (SLSP / Ex Libris Alma) SRU — Basel institution zone
   slug: swisscovery-sru
-- description: The Admin API API from University of Basel — 66 operation(s) for admin api.
-  name: University of Basel Admin API API
-  slug: university-of-basel-admin-api-api
-- description: The API v2 API from University of Basel — 56 operation(s) for api v2.
-  name: University of Basel API v2 API
-  slug: university-of-basel-api-v2-api
-- description: The API v3 API from University of Basel — 10 operation(s) for api v3.
-  name: University of Basel API v3 API
-  slug: university-of-basel-api-v3-api
-- description: The Management API API from University of Basel — 3 operation(s) for management api.
-  name: University of Basel Management API API
-  slug: university-of-basel-management-api-api
-- description: The Ontology Mappings API from University of Basel — 2 operation(s) for ontology mappings.
-  name: University of Basel Ontology Mappings API
-  slug: university-of-basel-ontology-mappings-api
-artifact_total: 33
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: DSP Admin API API
-  slug: open-university-of-basel-admin-api-api
-- collection_type: open
-  name: DSP Admin API API v2 API
-  slug: open-university-of-basel-api-v2-api
-- collection_type: open
-  name: DSP Admin API API v3 API
-  slug: open-university-of-basel-api-v3-api
-- collection_type: open
-  name: DSP Admin API Management API API
-  slug: open-university-of-basel-management-api-api
-- collection_type: open
-  name: DSP Admin API Ontology Mappings API
-  slug: open-university-of-basel-ontology-mappings-api
+artifact_total: 13
 common:
-- group: agent
+- group: company
   title: ''
-  type: AgenticAccess
-  url: agentic-access/university-of-basel-agentic-access.yml
+  type: Website
+  url: https://www.unibas.ch/en
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.unibas.ch/en/News-Events/News.html
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.unibas.ch/en/Legal-notice.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.unibas.ch/en/Legal-notice/Data-Protection.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://its.unibas.ch/en/contact/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ITS-Unibas
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/RISE-UNIBAS
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/university-of-basel/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://edoc.unibas.ch/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://swisscovery.slsp.ch/discovery/search?vid=41SLSP_UBS:UBS
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://vorlesungsverzeichnis.unibas.ch/en/course-directory
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://metadata.aai.switch.ch/metadata.switchaai.xml
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://scicore.unibas.ch/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.unibas.ch/en/Studies/Learning-and-Teaching/AI-in-learning-and-teaching.html
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/university-of-basel-authentication.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/university-of-basel-conformance.yml
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/university-of-basel-domain-security.yml
 - group: auth
   title: ''
-  type: Authentication
-  url: authentication/university-of-basel-authentication.yml
-- group: company
+  type: Security
+  url: security/university-of-basel-vulnerability-disclosure.yml
+- group: auth
   title: ''
-  type: Website
-  url: https://www.unibas.ch/en
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://docs.dasch.swiss/latest/DSP-API/
-- group: build
-  title: ''
-  type: GitHub
-  url: https://github.com/ITS-Unibas
-- group: build
-  title: ''
-  type: SourceCode
-  url: https://github.com/dasch-swiss
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/university-of-basel/
+  type: VulnerabilityDisclosure
+  url: security/university-of-basel-vulnerability-disclosure.yml
 - group: commercial
   title: ''
   type: Plans
@@ -136,106 +147,63 @@ common:
   title: ''
   type: FinOps
   url: finops/university-of-basel-finops.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/university-of-basel-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: other
   title: ''
   type: Review
   url: review.yml
-description: 'The University of Basel (Universität Basel) is the oldest university in Switzerland, founded in 1460, and is ranked #85 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is concentrated in scholarly and research infrastructure rather than a single central developer portal. The university operates "edoc", its open-access institutional repository running DSpace-CRIS 7.6.2, which exposes a public DSpace REST API and an OAI-PMH 2.0 metadata interface. The Swiss National Data and Service Center for the Humanities (DaSCH), hosted at the University of Basel, develops and operates the DSP-API, an open-source RDF-based humanities research data API. Library discovery is delivered through the SLSP swisscovery (Alma/Primo) platform, which offers a standards-based SRU search interface for the Basel institution zone. Source code is published across multiple verified GitHub organizations including IT Services (ITS-Unibas) and DaSCH (dasch-swiss).'
-examples:
-- key_count: 2
-  name: University Of Basel Gethealth Example
-  slug: university-of-basel-getHealth-example
-- key_count: 2
-  name: University Of Basel Getprojectbyshortcode Example
-  slug: university-of-basel-getProjectByShortcode-example
-- key_count: 2
-  name: University Of Basel Getprojects Example
-  slug: university-of-basel-getProjects-example
-- key_count: 2
-  name: University Of Basel Getversion Example
-  slug: university-of-basel-getVersion-example
+created: '2026-06-03'
+description: 'The University of Basel (Universität Basel) is the oldest university in Switzerland, founded in 1460, and a canton-funded public research university. It operates no developer portal, no self-serve API program and no public product API; every machine-readable surface it runs is scholarly infrastructure, federated identity, or the back end of one of its own administrative systems. Exactly one OpenAPI contract is served under unibas.ch — the REST back end of UNIverse, the research information system, which publishes an OpenAPI 3.1.0 description and a Swagger UI anonymously while enforcing a bearer token on every data path. Beyond it, verified live on the university''s own hosts: "edoc", the open-access institutional repository running DSpace-CRIS 7.6.2, which answers on both a DSpace REST API and an OAI-PMH 2.0 interface carrying eleven metadata formats and an OpenAIRE-CRIS profile; a SWITCHaai / eduGAIN SAML 2.0 identity provider scoped to unibas.ch, alongside thirty-two registered
+  service providers under the same domain; an OpenID Connect issuer at the sciCORE scientific computing centre; and an LTI launch endpoint on ADAM, the university''s ILIAS learning platform. Library discovery is a tenancy, not a Basel system — swisscovery is operated by SLSP on Ex Libris Alma, with Basel holding the 41SLSP_UBS institution zone. The DaSCH Service Platform API (api.dasch.swiss), previously catalogued here as Basel''s, is not: DaSCH is a legally independent association hosted at the university, and that contract and its derived artifacts were removed in the 2026-08-30 pass.'
 finops:
 - name: University Of Basel Finops
   service_category: Education
   slug: university-of-basel-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-basel.png
-json_schemas:
-- name: Group
-  property_count: 6
-  slug: university-of-basel-group
-- name: Project
-  property_count: 12
-  slug: university-of-basel-project
-- name: UserDto
-  property_count: 10
-  slug: university-of-basel-user
-json_structures:
-- name: University Of Basel Group Structure
-  property_count: 6
-  slug: university-of-basel-group-structure
-- name: University Of Basel Project Structure
-  property_count: 12
-  slug: university-of-basel-project-structure
-jsonld:
-- class_count: 20
-  name: University Of Basel Context
-  property_count: 8
-  slug: university-of-basel-context
 layout: provider
+modified: '2026-08-30'
 name: University of Basel
 nav: Providers
 network: true
-overview: 'University of Basel publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Admin API API, API v2 API, API v3 API, and 2 more. Tagged areas include Education, Higher Education, University, Switzerland, and Research Data.
+overview: 'University of Basel publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Switzerland, and Basel.
 
 
-  The University of Basel catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  University of Basel''s developer surface includes authentication, GitHub presence, and 10 more developer resources.'
+  University of Basel''s developer surface includes engineering blog, support, authentication, and 22 more developer resources.'
 plans:
 - name: University Of Basel Plans Pricing
-  plan_count: 2
+  plan_count: 1
   slug: university-of-basel-plans-pricing
 random_paper: 12
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: University Of Basel Rate Limits
   slug: university-of-basel-rate-limits
-rules:
-- effective_rule_count: 6
-  extends: []
-  name: University of Basel API Rules
-  rule_count: 6
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 4
-  slug: university-of-basel-jsonschema-spectral-rules
-- effective_rule_count: 7
-  extends: []
-  name: University of Basel API Rules
-  rule_count: 7
-  severity_counts:
-    error: 2
-    hint: 0
-    info: 2
-    warn: 3
-  slug: university-of-basel-rules
 score:
   band: thin
-  composite: 39.0
-  delta: 1.9
+  composite: 35.2
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -34.8
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 57.8
-    developer_ergonomics: 31.0
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 3.2
+    developer_ergonomics: 42.9
     discoverability: 74.1
-    governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 37.1
+    governance: 18.2
+    operational_transparency: 13.2
+  previous_composite: 70.0
   provenance:
     agentic_access: derived
     contracts:
@@ -248,30 +216,38 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 57.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/screenshots/university-of-basel-2026-06-20T200131.png
 security:
 - kind: authentication
   name: University Of Basel Authentication
   slug: university-of-basel-authentication
-  summary_line: http · 2 schemes
+  summary_line: none/http_bearer/openid_connect/saml · 6 schemes
 - kind: domain-security
   name: University Of Basel Domain Security
   slug: university-of-basel-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: University Of Basel Vulnerability Disclosure
+  slug: university-of-basel-vulnerability-disclosure
+  summary_line: Intigriti
 slug: university-of-basel
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Switzerland
+- Basel
 - Research Data
-- Open Access
+- Research Information
 - Institutional Repository
+- Open Access
+- OAI-PMH
+- Identity Federation
 - Library
-- Digital Humanities
+- Research Computing
 website: https://www.unibas.ch/en
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 180
   human_in_the_loop: 12
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 330
   slug: daytona-io-agentic-access
   summary_line: 330 operations · 180 acting · 12 human-in-the-loop
-api_count: 28
+api_count: 12
 apis:
 - description: The admin API from Daytona — 15 operation(s) for admin.
   name: Daytona admin API
@@ -128,6 +128,39 @@ apis:
 - description: The workspace API from Daytona — 12 operation(s) for workspace.
   name: Daytona workspace API
   slug: daytona-io-workspace-api
+- description: The Daytona Admin API API from Daytona — 0 operation(s) for daytona admin api.
+  name: Daytona Daytona Admin API
+  slug: daytona-io-daytona-admin-api-api
+- description: The Daytona Api Keys API API from Daytona — 0 operation(s) for daytona api keys api.
+  name: Daytona Daytona Api Keys API
+  slug: daytona-io-daytona-api-keys-api-api
+- description: The Daytona Health API API from Daytona — 0 operation(s) for daytona health api.
+  name: Daytona Daytona Health API
+  slug: daytona-io-daytona-health-api-api
+- description: The Daytona Organizations API API from Daytona — 0 operation(s) for daytona organizations api.
+  name: Daytona Daytona Organizations API
+  slug: daytona-io-daytona-organizations-api-api
+- description: The Daytona Preview API API from Daytona — 0 operation(s) for daytona preview api.
+  name: Daytona Daytona Preview API
+  slug: daytona-io-daytona-preview-api-api
+- description: The Daytona Sandbox API API from Daytona — 0 operation(s) for daytona sandbox api.
+  name: Daytona Daytona Sandbox API
+  slug: daytona-io-daytona-sandbox-api-api
+- description: The Daytona Snapshots API API from Daytona — 0 operation(s) for daytona snapshots api.
+  name: Daytona Daytona Snapshots API
+  slug: daytona-io-daytona-snapshots-api-api
+- description: The Daytona Toolbox API API from Daytona — 0 operation(s) for daytona toolbox api.
+  name: Daytona Daytona Toolbox API
+  slug: daytona-io-daytona-toolbox-api-api
+- description: The Daytona Users API API from Daytona — 0 operation(s) for daytona users api.
+  name: Daytona Daytona Users API
+  slug: daytona-io-daytona-users-api-api
+- description: The Daytona Volumes API API from Daytona — 0 operation(s) for daytona volumes api.
+  name: Daytona Daytona Volumes API
+  slug: daytona-io-daytona-volumes-api-api
+- description: The Daytona Webhooks API API from Daytona — 0 operation(s) for daytona webhooks api.
+  name: Daytona Daytona Webhooks API
+  slug: daytona-io-daytona-webhooks-api-api
 arazzos:
 - description: Register a snapshot from a container image, poll until it builds, and activate it if it lands inactive.
   name: Daytona Build and Activate a Snapshot
@@ -153,7 +186,7 @@ arazzos:
 - description: Stop a running sandbox, wait until it is fully stopped, then archive it to cold storage.
   name: Daytona Stop and Archive a Sandbox
   slug: daytona-io-stop-and-archive-sandbox-workflow
-artifact_total: 152
+artifact_total: 163
 collections:
 - collection_type: postman
   name: Daytona Admin API
@@ -652,7 +685,7 @@ modified: '2026-05-25'
 name: Daytona
 nav: Providers
 network: true
-overview: 'Daytona publishes 28 APIs on the [APIs.io](https://apis.io/) network, including admin API, api-keys API, audit API, and 25 more. Tagged areas include Artificial Intelligence, Agents, Cloud, Code Execution, and Computer Use.
+overview: 'Daytona publishes 39 APIs on the [APIs.io](https://apis.io/) network, including admin API, api-keys API, audit API, and 36 more. Tagged areas include Artificial Intelligence, Agents, Cloud, Code Execution, and Computer Use.
 
 
   The Daytona catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -692,18 +725,23 @@ rules:
   slug: daytona-rules
 score:
   band: strong
-  composite: 66.0
-  delta: 0.8
+  composite: 64.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 36.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
     contract_governance: 28.8
-    contract_quality: 66.8
+    contract_quality: 62.2
     developer_ergonomics: 92.9
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 65.2
+  previous_composite: 64.9
   provenance:
     agentic_access: derived
     contracts:
@@ -711,8 +749,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daytona-io/refs/heads/main/screenshots/daytona-io-2026-06-20T175734.png
 security:

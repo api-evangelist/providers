@@ -10,31 +10,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: documented
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 5.0
-  scored_at: '2026-08-26'
-api_count: 4
+  score: 36.9
+  scored_at: '2026-08-30'
+api_count: 7
 apis:
 - description: 'Enterprise REST API for the Red Hat Ansible Automation Controller providing centralized management of automation jobs, workflows, inventories, credentials, and RBAC with enterprise authentication and '
   name: Red Hat Ansible Automation Controller API
@@ -48,8 +48,129 @@ apis:
 - description: REST API for the Automation Services Catalog providing a self-service portal where users can order and manage pre-approved automation services with governance controls and approval workflows.
   name: Red Hat Automation Services Catalog API
   slug: services-catalog-api
-artifact_total: 26
+- description: REST API for the Ansible Automation Platform Gateway, the single front door introduced in AAP 2.5 that fronts every platform component. Manages users, teams, organizations, role definitions and assign
+  name: Red Hat Ansible Automation Platform Gateway API
+  slug: platform-gateway-api
+- description: REST API for Ansible Lightspeed, the generative AI service that produces and explains Ansible content. Provides playbook and role generation, content explanations, chat and streaming chat, content-mat
+  name: Red Hat Ansible Lightspeed with IBM watsonx Code Assistant API
+  slug: ansible-lightspeed-api
+- description: The Red Hat-hosted Automation Hub on console.redhat.com, where subscribers consume Red Hat certified and validated Ansible Content Collections. Same galaxy_ng/Pulp contract as a private hub, served fr
+  name: Red Hat Automation Hub API (Hybrid Cloud Console)
+  slug: hosted-automation-hub-api
+artifact_total: 34
+asyncapis:
+- description: ''
+  name: Red Hat Ansible Automation Platform Webhooks
+  slug: red-hat-ansible-automation-platform-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.redhat.com/en/technologies/management/ansible
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/red-hat-ansible-automation-platform-packages.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/red-hat-ansible-automation-platform-lifecycle.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/red-hat-ansible-automation-platform-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://access.redhat.com/compliance
+- group: start
+  title: ''
+  type: Console
+  url: https://www.redhat.com/en/interactive-labs/ansible
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/red-hat-ansible-automation-platform-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/red-hat-ansible-automation-platform-rate-limits.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/red-hat-ansible-automation-platform-sandbox.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/red-hat-ansible-automation-platform-webhooks.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/red-hat-ansible-automation-platform-data-model.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/red-hat-ansible-automation-platform-cli.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/red-hat-ansible-automation-platform-changelog.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/red-hat-ansible-automation-platform-conventions.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/red-hat-ansible-automation-platform-trust-center.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/red-hat-ansible-automation-platform-lifecycle.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/red-hat-ansible-automation-platform-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/red-hat-ansible-automation-platform-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/red-hat-ansible-automation-platform-llms.txt
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/red-hat-ansible-automation-platform-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/red-hat-ansible-automation-platform-mcp.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/red-hat-ansible-automation-platform-security.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/red-hat-ansible-automation-platform-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/red-hat-ansible-automation-platform-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/red-hat-ansible-automation-platform-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/red-hat-ansible-automation-platform-scopes.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -77,7 +198,7 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://www.ansible.com/blog
+  url: https://www.redhat.com/en/blog/channel/red-hat-ansible-automation
 - group: build
   title: ''
   type: GitHubOrganization
@@ -140,42 +261,63 @@ integrations:
 - description: Cloud automation for GCP services with certified content collections.
   name: Google Cloud
 layout: provider
-modified: '2026-04-18'
+mcp_servers:
+- description: 'Red Hat ships a first-party Model Context Protocol server for Ansible Automation Platform. It is a Node.js service (Apache-2.0, github.com/ansible/aap-mcp-server) that reads the AAP component OpenAPI '
+  name: AAP MCP Service
+  slug: aap-mcp-service
+modified: '2026-08-29'
 name: Red Hat Ansible Automation Platform
 nav: Providers
 network: true
-overview: 'Red Hat Ansible Automation Platform publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automation, Configuration Management, DevOps, Enterprise, and Red Hat.
+overview: 'Red Hat Ansible Automation Platform publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Red Hat Ansible Automation Controller API, Red Hat Ansible Private Automation Hub API, Red Hat Event-Driven Ansible Controller API, and 3 more. Tagged areas include Automation, Configuration Management, DevOps, Enterprise, and Red Hat.
 
 
-  Red Hat Ansible Automation Platform''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, training material, pricing, and 7 more developer resources.'
+  The Red Hat Ansible Automation Platform catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Red Hat Ansible Automation Platform''s developer surface includes developer console, sandbox, CLI, changelog, authentication, developer portal, documentation, and 34 more developer resources.'
 plans:
 - name: Red Hat Ansible Automation Platform Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: red-hat-ansible-automation-platform-plans-pricing
 random_paper: 18
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Red Hat Ansible Automation Platform Rate Limits
   slug: red-hat-ansible-automation-platform-rate-limits
+scopes:
+- name: Red Hat Ansible Automation Platform Scopes
+  scope_count: 3
+  slug: red-hat-ansible-automation-platform-scopes
+  summary_line: 3 scopes · authorizationCode/password
 score:
-  band: thin
-  composite: 31.3
-  delta: 3.9
+  band: strong
+  composite: 60.0
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.5
   facets:
-    access_clarity: 47.4
-    commercial_clarity: 47.4
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 54.8
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 27.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    access_clarity: 60.5
+    commercial_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 50.2
+    developer_ergonomics: 85.7
+    discoverability: 81.5
+    governance: 18.2
+    operational_transparency: 60.5
+  previous_composite: 59.5
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-ansible-automation-platform/refs/heads/main/screenshots/red-hat-ansible-automation-platform-2026-06-20T192716.png
 security:
+- kind: authentication
+  name: Red Hat Ansible Automation Platform Authentication
+  slug: red-hat-ansible-automation-platform-authentication
+  summary_line: apiKey/http/oauth2 · 6 schemes
 - kind: domain-security
   name: Red Hat Ansible Automation Platform Domain Security
   slug: red-hat-ansible-automation-platform-domain-security
@@ -184,6 +326,10 @@ security:
   name: Red Hat Ansible Automation Platform Vulnerability Disclosure
   slug: red-hat-ansible-automation-platform-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Red Hat Ansible Automation Platform Trust Center
+  slug: red-hat-ansible-automation-platform-trust-center
+  summary_line: Common Criteria, FIPS 140, ISO/IEC 27001, ISO/IEC 27018, ISO 42001, ISO/SAE 21434, DISA STIG, HIPAA, HDS, CIS Benchmarks, BSI, CCN-STIC / ENS, EU Cyber Resilience Act, EU AI Act, Accessibility Conformance Reports (VPAT)
 slug: red-hat-ansible-automation-platform
 tags:
 - Automation
@@ -191,6 +337,11 @@ tags:
 - DevOps
 - Enterprise
 - Red Hat
+- Ansible
+- IT Operations
+- Event-Driven Architecture
+- Infrastructure as Code
+- MCP
 use_cases:
 - description: Standardize and scale IT automation across the enterprise with governance and compliance controls.
   name: Enterprise IT Automation

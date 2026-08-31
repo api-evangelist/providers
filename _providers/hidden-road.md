@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: The Hidden Road prime brokerage and clearing API suite, announced generally available on 2023-05-04. Four service surfaces are confirmed live under https://api.hiddenroad.com/v0/ — accountactivity, me
@@ -103,7 +103,7 @@ modified: '2026-08-22'
 name: Hidden Road
 nav: Providers
 network: true
-overview: 'Hidden Road publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Prime Brokerage, Clearing, and Digital Assets.
+overview: 'Hidden Road publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Prime Brokerage, Clearing, and Digital Assets.
 
 
   Hidden Road''s developer surface includes support and 14 more developer resources.'
@@ -123,18 +123,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 28.4
-  delta: 2.4
+  composite: 27.3
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 79.6
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 26.0
+  previous_composite: 27.3
   provenance:
     conformance: first-party
     mcp: derived
@@ -144,8 +149,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -167,7 +172,7 @@ security:
 slug: hidden-road
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Prime Brokerage
 - Clearing
 - Digital Assets

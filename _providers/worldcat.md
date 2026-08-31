@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 58
   slug: worldcat-agentic-access
   summary_line: 58 operations · 15 acting · 4 human-in-the-loop
-api_count: 20
+api_count: 4
 apis:
 - description: Provides developer-level access to a library's information in the WorldCat Knowledge Base, combining data about a library's e-content with access through linking features. Supports OpenURL requests fo
   name: WorldCat Knowledge Base API
@@ -167,6 +167,10 @@ collections:
   name: WorldCat Entity Data Bibliographic Resources Search Member Shared Print Holdings API
   slug: open-worldcat-search-member-shared-print-holdings-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/worldcat-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -263,7 +267,7 @@ overview: 'WorldCat publishes 19 APIs on the [APIs.io](https://apis.io/) network
   The WorldCat catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  WorldCat''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  WorldCat''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Worldcat Plans Pricing
   plan_count: 4
@@ -291,18 +295,23 @@ scopes:
   summary_line: 26 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 44.1
+  composite: 44.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 64.1
+    contract_quality: 63.6
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 44.1
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -310,8 +319,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldcat/refs/heads/main/screenshots/worldcat-2026-06-20T201621.png
 security:

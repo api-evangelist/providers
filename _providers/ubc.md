@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 5
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 378
   slug: ubc-agentic-access
   summary_line: 378 operations · 177 acting · 5 human-in-the-loop
-api_count: 7
+api_count: 3
 apis:
-- description: Public REST/JSON API over UBC Library's Open Collections — the university's digitized historical, archival and research holdings. Operated by UBC Library on UBC's own infrastructure; the search resour
-  name: UBC Library Open Collections API
-  slug: open-collections
 - description: 'IIIF Presentation manifests for Open Collections items, served from UBC Library''s own host. Verified live 2026-08-19: a 10,560-byte JSON manifest returned for an item in the UBC Archives Photograph Co'
   name: UBC Library Open Collections IIIF Presentation API
   slug: open-collections-iiif
@@ -65,6 +62,9 @@ apis:
 - description: Machine-readable service status for UBC IT at status.it.ubc.ca, on UBC's own hostname but CNAMEd to stspg-customer.com — UBC's tenant of Atlassian Statuspage. The status data is UBC's; the API, its pa
   name: UBC IT Service Status API
   slug: it-status
+- description: Collection-level metadata and item traversal.
+  name: University of British Columbia Collections API
+  slug: ubc-collections-api
 artifact_total: 51
 collections:
 - collection_type: open
@@ -312,7 +312,7 @@ modified: '2026-08-19'
 name: University of British Columbia
 nav: Providers
 network: true
-overview: 'University of British Columbia publishes 2 APIs on the [APIs.io](https://apis.io/) network: UBC Library Open Collections API and UBC Library Abacus Dataverse API. Tagged areas include Education, Higher Education, University, Public Research University, and Canada.
+overview: 'University of British Columbia publishes 2 APIs on the [APIs.io](https://apis.io/) network: UBC Library Abacus Dataverse API and Collections API. Tagged areas include Education, Higher Education, University, Public Research University, and Canada.
 
 
   The University of British Columbia catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -358,7 +358,12 @@ scopes:
 score:
   band: developing
   composite: 53.1
-  delta: 3.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 34.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -368,7 +373,7 @@ score:
     discoverability: 74.1
     governance: 17.4
     operational_transparency: 34.2
-  previous_composite: 49.2
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -383,8 +388,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 75.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/screenshots/ubc-2026-06-20T195923.png
 security:

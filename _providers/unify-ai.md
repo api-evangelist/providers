@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 48
   slug: unify-ai-agentic-access
   summary_line: 48 operations · 33 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Send messages to and retrieve messages from assistants
   name: Unify Agent API
@@ -258,18 +258,23 @@ rules:
   slug: unify-ai-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.9
-  delta: 0.8
+  composite: 52.4
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 21.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
     contract_quality: 73.5
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 52.6
-  previous_composite: 52.1
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     contracts:
@@ -277,8 +282,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unify-ai/refs/heads/main/screenshots/unify-ai-2026-06-20T200030.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 6
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 255
   slug: corestory-agentic-access
   summary_line: 255 operations · 127 acting · 6 human-in-the-loop
-api_count: 47
+api_count: 1
 apis:
 - description: The admin API from CoreStory — 6 operation(s) for admin.
   name: CoreStory admin API
@@ -332,6 +332,10 @@ collections:
   name: Crowdbotics API Documentation admin workflows API
   slug: open-corestory-workflows-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/corestory-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -451,7 +455,7 @@ network: true
 overview: 'CoreStory publishes 47 APIs on the [APIs.io](https://apis.io/) network, including admin API, api_debugging API, api_key_management API, and 44 more. Tagged areas include Company, Artificial Intelligence, Code Intelligence, Legacy Modernization, and Developer Tools.
 
 
-  CoreStory''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 19 more developer resources.'
+  CoreStory''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 20 more developer resources.'
 random_paper: 15
 scopes:
 - name: Corestory Scopes
@@ -459,19 +463,24 @@ scopes:
   slug: corestory-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: developing
-  composite: 40.9
-  delta: 0.0
+  band: thin
+  composite: 37.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 12.1
+    contract_governance: 0.0
     contract_quality: 51.1
     developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 12.1
+    discoverability: 75.9
+    governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 40.9
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -481,8 +490,8 @@ score:
       total: 47
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corestory/refs/heads/main/screenshots/corestory-2026-07-25T210432.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 2
   slug: flint-agentic-access
   summary_line: 2 operations · 1 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Start and monitor background AI agent tasks on a Flint site.
   name: Flint Agent Tasks API
@@ -276,18 +276,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.7
+  composite: 62.9
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 65.3
     developer_ergonomics: 64.3
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 64.7
+  previous_composite: 62.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -298,8 +303,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/screenshots/flint-2026-07-25T214758.png
 security:

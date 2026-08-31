@@ -16,7 +16,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
+  score: 5.0
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: The Ace Hardware Affiliate Program allows digital publishers, bloggers, and content creators to earn commissions by referring customers to acehardware.com. The program is managed through Impact's affi
@@ -45,12 +45,48 @@ apis:
 - description: Ace Hardware's online retail platform at acehardware.com offers customers the ability to shop for hardware, tools, paint, lawn and garden, and home improvement products with options for online orderin
   name: Ace Hardware Retail Commerce
   slug: retail-commerce
-artifact_total: 29
+artifact_total: 30
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/ace-hardware-domain-security.yml
+- group: agent
+  title: Ace Hardware llms.txt — published by the provider at the site root, harvested verbatim to llms/ace-hardware-llms.txt on 2026-08-30 (HTTP 200, text/plain, last-modified 2026-05-15). All 45 links it advertises were probed and all 45 returned 200.
+  type: LLMsTxt
+  url: https://www.acehardware.com/llms.txt
+- group: auth
+  title: Ace Hardware Authentication Profile (AS2 certificate, vendor portal, Impact affiliate account)
+  type: Authentication
+  url: authentication/ace-hardware-authentication.yml
+- group: design
+  title: Ace Hardware Conformance — X12 EDI 4010 over AS2, and the web-API standards it does not implement
+  type: Conformance
+  url: conformance/ace-hardware-conformance.yml
+- group: design
+  title: Ace Hardware Integration Conventions — acknowledgement, document matching, reversibility
+  type: Conventions
+  url: conventions/ace-hardware-conventions.yml
+- group: design
+  title: Ace Hardware Lifecycle — X12 4010 versioning, no deprecation policy, no status page
+  type: Lifecycle
+  url: lifecycle/ace-hardware-lifecycle.yml
+- group: build
+  title: Ace Hardware Packages — measured zero, no first-party SDK on any registry
+  type: Packages
+  url: packages/ace-hardware-packages.yml
+- group: operate
+  title: Ace Hardware Customer Service Hub
+  type: Support
+  url: https://www.acehardware.com/customer-service
+- group: company
+  title: Ace Hardware Tips & Advice — editorial how-to and project articles
+  type: Blog
+  url: https://www.acehardware.com/tips/
+- group: company
+  title: Ace Hardware Newsroom — corporate press releases (not an integration changelog)
+  type: News
+  url: https://newsroom.acehardware.com/
 - group: company
   title: ''
   type: LinkedIn
@@ -59,18 +95,14 @@ common:
   title: ''
   type: Website
   url: https://www.acehardware.com
-- group: start
-  title: ''
-  type: Portal
-  url: https://www.acehardware.com/
 - group: commercial
   title: ''
   type: PrivacyPolicy
   url: https://www.acehardware.com/privacy-policy
 - group: commercial
-  title: ''
+  title: Ace Hardware Terms of Use
   type: TermsOfService
-  url: https://www.acehardware.com/legal-notices
+  url: https://www.acehardware.com/customer-service?page=terms-of-use
 - group: design
   title: Ace Hardware JSON-LD Context
   type: JSONLD
@@ -135,7 +167,7 @@ jsonld:
   property_count: 28
   slug: ace-hardware-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-30'
 name: Ace Hardware
 nav: Providers
 network: true
@@ -145,14 +177,14 @@ overview: 'Ace Hardware publishes 3 APIs on the [APIs.io](https://apis.io/) netw
   The Ace Hardware catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ace Hardware''s developer surface includes developer portal and 7 more developer resources.'
+  Ace Hardware''s developer surface includes authentication, support, engineering blog, product news, and 12 more developer resources.'
 plans:
 - name: Ace Hardware Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: ace-hardware-plans-pricing
 random_paper: 12
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Ace Hardware Rate Limits
   slug: ace-hardware-rate-limits
 rules:
@@ -167,24 +199,33 @@ rules:
     warn: 3
   slug: ace-hardware-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 23.2
-  delta: 1.9
+  band: thin
+  composite: 30.2
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 55.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 7.0
   facets:
-    access_clarity: 26.3
-    commercial_clarity: 26.3
-    contract_governance: 25.0
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 43.2
     contract_quality: 10.7
-    developer_ergonomics: 19.0
-    discoverability: 74.1
-    governance: 25.0
-    operational_transparency: 7.9
-  previous_composite: 21.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    developer_ergonomics: 35.7
+    discoverability: 81.5
+    governance: 43.2
+    operational_transparency: 0.0
+  previous_composite: 23.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/screenshots/ace-hardware-2026-06-20T163718.png
 security:
+- kind: authentication
+  name: Ace Hardware Authentication
+  slug: ace-hardware-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: Ace Hardware Domain Security
   slug: ace-hardware-domain-security

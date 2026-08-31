@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: car-api-agentic-access
   summary_line: 17 operations · 1 acting
-api_count: 18
+api_count: 1
 apis:
 - description: The CarAPI VIN Decoder API decodes Vehicle Identification Numbers into structured vehicle attributes including year, make, model, trim, body type, engine, transmission, and other specifications. It re
   name: CarAPI VIN Decoder API
@@ -98,7 +98,13 @@ apis:
 - description: The Years API from Car API (carapi.app) — 1 operation(s) for years.
   name: Car API (carapi.app) Years API
   slug: car-api-years-api
-artifact_total: 55
+- description: Endpoints for obtaining a JWT token for API access.
+  name: Car API (carapi.app) Authentication API
+  slug: car-api-authentication-api
+- description: Operations for retrieving vehicle models, trims, and attributes.
+  name: Car API (carapi.app) Vehicles API
+  slug: car-api-vehicles-api
+artifact_total: 57
 collections:
 - collection_type: open
   name: API Collection
@@ -155,6 +161,10 @@ collections:
   name: CarAPI
   slug: open-carapi
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/car-api-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -265,13 +275,13 @@ modified: '2026-05-19'
 name: Car API (carapi.app)
 nav: Providers
 network: true
-overview: 'Car API (carapi.app) publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Bodies API, and 11 more. Tagged areas include Automobiles, Automotive Data, Cars, License Plate Decoder, and OBD-II.
+overview: 'Car API (carapi.app) publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account API, Auth API, Bodies API, and 13 more. Tagged areas include Automobiles, Automotive Data, Cars, License Plate Decoder, and OBD-II.
 
 
   The Car API (carapi.app) catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Car API (carapi.app)''s developer surface includes authentication, documentation, pricing, FAQ, signup flow, and 10 more developer resources.'
+  Car API (carapi.app)''s developer surface includes authentication, documentation, pricing, FAQ, signup flow, and 11 more developer resources.'
 plans:
 - name: Car Api Plans Pricing
   plan_count: 4
@@ -294,15 +304,20 @@ rules:
   slug: car-api-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.9
-  delta: 0.0
+  composite: 39.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 65.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.4
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 9.8
-    contract_quality: 58.9
+    contract_quality: 55.6
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 10.5
   previous_composite: 40.9
@@ -319,8 +334,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 27.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/car-api/refs/heads/main/screenshots/car-api-2026-06-20T173946.png
 security:
@@ -339,7 +354,7 @@ tags:
 - Cars
 - License Plate Decoder
 - OBD-II
-- Power-Sports
+- Power Sports
 - Vehicle API
 - Vehicle Specifications
 - Vehicles

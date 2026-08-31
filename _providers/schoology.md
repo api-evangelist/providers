@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: schoology-agentic-access
   summary_line: 28 operations · 8 acting
-api_count: 12
+api_count: 2
 apis:
 - description: REST API for the Schoology K-12 LMS. Authenticated via OAuth. Supports realm resources (districts, schools, buildings, users, groups, courses, sections), realm objects (enrollments, events, blog posts
   name: Schoology REST API v1
@@ -80,7 +80,10 @@ apis:
 - description: The Users API from Schoology — 6 operation(s) for users.
   name: Schoology Users API
   slug: schoology-users-api
-artifact_total: 33
+- description: The Events API from Schoology — 0 operation(s) for events.
+  name: Schoology Events API
+  slug: schoology-events-api
+artifact_total: 34
 collections:
 - collection_type: open
   name: API Collection
@@ -125,6 +128,10 @@ collections:
   name: Schoology REST API v1
   slug: open-schoology
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/schoology-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -181,10 +188,10 @@ modified: '2026-05-30'
 name: Schoology
 nav: Providers
 network: true
-overview: 'Schoology publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Courses API, Enrollments API, and 8 more. Tagged areas include EdTech, LMS, and K-12.
+overview: 'Schoology publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Courses API, Enrollments API, and 9 more. Tagged areas include EdTech, LMS, and K-12.
 
 
-  Schoology''s developer surface includes authentication and 10 more developer resources.'
+  Schoology''s developer surface includes authentication and 11 more developer resources.'
 plans:
 - name: Schoology Plans Pricing
   plan_count: 1
@@ -201,18 +208,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 28.6
-  delta: 1.9
+  composite: 27.8
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 49.0
+    contract_quality: 48.0
     developer_ergonomics: 21.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 26.7
+  previous_composite: 28.4
   provenance:
     agentic_access: derived
     contracts:
@@ -226,8 +238,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

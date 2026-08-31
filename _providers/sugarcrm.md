@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The Sugar REST API is hosted on each Sugar deployment at https://<site_url>/rest/v{version}/ (v10 through v11.27). SugarCloud instances are hosted on Sugar's own sugarondemand.com domain, so a cloud t
@@ -195,7 +195,7 @@ modified: '2026-08-13'
 name: SugarCRM
 nav: Providers
 network: true
-overview: 'SugarCRM publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, CRM, Sales, and Marketing.
+overview: 'SugarCRM publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, CRM, Sales, and Marketing.
 
 
   The SugarCRM catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -213,7 +213,12 @@ rate_limits:
   slug: sugarcrm-rate-limits
 score:
   band: strong
-  composite: 63.3
+  composite: 62.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
@@ -221,15 +226,15 @@ score:
     contract_governance: 18.2
     contract_quality: 42.7
     developer_ergonomics: 73.8
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 63.3
+  previous_composite: 62.2
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sugarcrm/refs/heads/main/screenshots/sugarcrm-2026-08-17T080426.png
 security:
@@ -252,7 +257,7 @@ security:
 slug: sugarcrm
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - CRM
 - Sales
 - Marketing

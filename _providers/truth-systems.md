@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The Get Context Output API from Truth Systems — 1 operation(s) for get context output.
@@ -135,18 +135,23 @@ overview: 'Truth Systems publishes 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 18
 score:
   band: thin
-  composite: 34.6
-  delta: 5.9
+  composite: 33.1
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 47.6
     developer_ergonomics: 63.7
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 28.7
+  previous_composite: 33.1
   provenance:
     conformance: derived
     contracts:
@@ -156,9 +161,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Truth Systems Authentication

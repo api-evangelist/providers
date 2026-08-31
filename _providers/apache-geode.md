@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 14
   slug: apache-geode-agentic-access
   summary_line: 14 operations · 5 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Java API for cache operations, continuous queries, function execution, and data serialization in Apache Geode clusters.
   name: Apache Geode Java Client API
@@ -311,18 +311,26 @@ rules:
   slug: apache-geode-spectral-rules
 score:
   band: thin
-  composite: 36.4
-  delta: 1.4
+  composite: 36.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 47.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.1
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 54.5
     developer_ergonomics: 28.6
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 35.0
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -336,8 +344,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/screenshots/apache-geode-2026-06-20T172059.png
 security:

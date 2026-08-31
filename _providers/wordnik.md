@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: wordnik-agentic-access
   summary_line: 28 operations · 6 acting
-api_count: 5
+api_count: 1
 apis:
 - description: API-key status and user authentication operations.
   name: Wordnik Account API
@@ -586,18 +586,23 @@ rules:
   slug: wordnik-rules
 score:
   band: strong
-  composite: 60.1
-  delta: 3.4
+  composite: 59.5
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 30.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 28.8
     contract_quality: 59.4
     developer_ergonomics: 61.9
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 56.7
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     contracts:
@@ -605,8 +610,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/screenshots/wordnik-2026-06-20T201543.png
 security:

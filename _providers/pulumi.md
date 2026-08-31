@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 316
   human_in_the_loop: 4
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 586
   slug: pulumi-agentic-access
   summary_line: 586 operations · 316 acting · 4 human-in-the-loop
-api_count: 35
+api_count: 1
 apis:
 - description: The Automation API enables you to build custom cloud interfaces for your technical end users. Build self-service developer portals, CLIs, frameworks, and more, programmatically driving Pulumi from Go,
   name: Pulumi Automation API
@@ -256,6 +256,10 @@ collections:
   name: Pulumi APIs
   slug: open-pulumi
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pulumi-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -335,7 +339,7 @@ network: true
 overview: 'Pulumi publishes 34 APIs on the [APIs.io](https://apis.io/) network, including AccessTokens API, AI Agents API, AI API, and 31 more. Tagged areas include Automation, Cloud, DevOps, Infrastructure as Code, and Multi-Cloud.
 
 
-  Pulumi''s developer surface includes documentation, engineering blog, signup flow, pricing, authentication, and 11 more developer resources.'
+  Pulumi''s developer surface includes documentation, engineering blog, signup flow, pricing, authentication, and 12 more developer resources.'
 plans:
 - name: Pulumi Plans Pricing
   plan_count: 3
@@ -347,18 +351,23 @@ rate_limits:
   slug: pulumi-rate-limits
 score:
   band: developing
-  composite: 42.6
-  delta: 1.3
+  composite: 42.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 0.0
-    contract_quality: 49.1
+    contract_quality: 50.5
     developer_ergonomics: 31.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 41.3
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     contracts:
@@ -372,8 +381,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 39.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/screenshots/pulumi-2026-06-20T192304.png
 security:

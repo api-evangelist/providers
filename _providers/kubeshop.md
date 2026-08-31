@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 371
   slug: kubeshop-agentic-access
   summary_line: 371 operations · 187 acting · 1 human-in-the-loop
-api_count: 30
+api_count: 3
 apis:
 - description: Testkube API operations
   name: Kubeshop api API
@@ -71,9 +71,6 @@ apis:
 - description: The Organizations API from Kubeshop — 104 operation(s) for organizations.
   name: Kubeshop Organizations API
   slug: kubeshop-organizations-api
-- description: The pro API from Kubeshop — 18 operation(s) for pro.
-  name: Kubeshop pro API
-  slug: kubeshop-pro-api
 - description: The repository API from Kubeshop — 1 operation(s) for repository.
   name: Kubeshop repository API
   slug: kubeshop-repository-api
@@ -101,24 +98,12 @@ apis:
 - description: Test Triggers CRUD operations
   name: Kubeshop test-triggers API
   slug: kubeshop-test-triggers-api
-- description: The Test Workflow Executions API from Kubeshop — 7 operation(s) for test workflow executions.
-  name: Kubeshop Test Workflow Executions API
-  slug: kubeshop-test-workflow-executions-api
-- description: The Test Workflow Templates API from Kubeshop — 2 operation(s) for test workflow templates.
-  name: Kubeshop Test Workflow Templates API
-  slug: kubeshop-test-workflow-templates-api
-- description: The Test Workflow With Executions API from Kubeshop — 3 operation(s) for test workflow with executions.
-  name: Kubeshop Test Workflow With Executions API
-  slug: kubeshop-test-workflow-with-executions-api
 - description: The Test Workflows API from Kubeshop — 22 operation(s) for test workflows.
   name: Kubeshop Test Workflows API
   slug: kubeshop-test-workflows-api
 - description: Tests operations
   name: Kubeshop tests API
   slug: kubeshop-tests-api
-- description: The Triggers API from Kubeshop — 2 operation(s) for triggers.
-  name: Kubeshop Triggers API
-  slug: kubeshop-triggers-api
 - description: The Users API from Kubeshop — 2 operation(s) for users.
   name: Kubeshop Users API
   slug: kubeshop-users-api
@@ -128,13 +113,7 @@ apis:
 - description: The webhook-template API from Kubeshop — 2 operation(s) for webhook-template.
   name: Kubeshop webhook-template API
   slug: kubeshop-webhook-template-api
-- description: The Webhook Templates API from Kubeshop — 2 operation(s) for webhook templates.
-  name: Kubeshop Webhook Templates API
-  slug: kubeshop-webhook-templates-api
-- description: The Webhooks API from Kubeshop — 2 operation(s) for webhooks.
-  name: Kubeshop Webhooks API
-  slug: kubeshop-webhooks-api
-artifact_total: 68
+artifact_total: 61
 asyncapis:
 - description: ''
   name: Kubeshop Testkube Webhooks
@@ -406,7 +385,7 @@ modified: '2026-07-19'
 name: Kubeshop
 nav: Providers
 network: true
-overview: 'Kubeshop publishes 30 APIs on the [APIs.io](https://apis.io/) network, including api API, artifacts API, cluster-resources API, and 27 more. Tagged areas include Company, Testing, Kubernetes, Continuous Integration, and Developer Tools.
+overview: 'Kubeshop publishes 23 APIs on the [APIs.io](https://apis.io/) network, including api API, artifacts API, cluster-resources API, and 20 more. Tagged areas include Company, Testing, Kubernetes, Continuous Integration, and Developer Tools.
 
 
   The Kubeshop catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -424,19 +403,27 @@ scopes:
   slug: kubeshop-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: strong
-  composite: 54.4
-  delta: 0.0
+  band: developing
+  composite: 53.9
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.2
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 16.7
-    contract_quality: 61.1
+    contract_governance: 4.5
+    contract_quality: 61.8
     developer_ergonomics: 73.2
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 54.4
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -447,8 +434,8 @@ score:
       total: 30
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubeshop/refs/heads/main/screenshots/kubeshop-2026-07-25T224316.png
 security:

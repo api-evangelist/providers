@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: erpnext-agentic-access
   summary_line: 9 operations · 4 acting
-api_count: 3
+api_count: 1
 apis:
 - description: The Method API from ERPNext — 1 operation(s) for method.
   name: ERPNext Method API
@@ -202,16 +202,21 @@ scopes:
   slug: erpnext-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 39.5
-  delta: 0.0
+  band: thin
+  composite: 38.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 53.6
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 21.1
   previous_composite: 39.5
@@ -222,8 +227,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/erpnext/refs/heads/main/screenshots/erpnext-2026-06-20T180820.png
 security:

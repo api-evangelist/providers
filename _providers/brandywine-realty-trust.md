@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 4
 common:
@@ -109,7 +109,7 @@ modified: '2026-05-23'
 name: Brandywine Realty Trust
 nav: Providers
 network: true
-overview: 'Brandywine Realty Trust is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Commercial Real Estate, Life Science Real Estate, Mixed-Use Development, Office, and Philadelphia.
+overview: 'Brandywine Realty Trust is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Commercial Real Estate, Life Science Real Estate, Mixed Use Development, Office, and Philadelphia.
 
 
   The Brandywine Realty Trust catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -131,6 +131,11 @@ rules:
 score:
   band: minimal
   composite: 8.3
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 79.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -148,8 +153,8 @@ score:
     - owner: catalog
       reason: no_resolvable_host
   previous_composite: 8.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandywine-realty-trust/refs/heads/main/screenshots/brandywine-realty-trust-2026-06-20T173638.png
 security:
@@ -161,7 +166,7 @@ slug: brandywine-realty-trust
 tags:
 - Commercial Real Estate
 - Life Science Real Estate
-- Mixed-Use Development
+- Mixed Use Development
 - Office
 - Philadelphia
 - REIT

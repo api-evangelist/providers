@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 389
   slug: salesforce-agentic-access
   summary_line: 389 operations · 172 acting · 5 human-in-the-loop
-api_count: 294
+api_count: 4
 apis:
 - description: The Salesforce REST API provides a simple and powerful web service interface to interact with Salesforce org data. It supports creating, reading, updating, deleting, and querying records using SOQL an
   name: Salesforce REST API
@@ -192,9 +192,6 @@ apis:
 - description: The Applications API from Salesforce — 6 operation(s) for applications.
   name: Salesforce Applications API
   slug: salesforce-applications-api
-- description: Retrieve Salesforce application menu items.
-  name: Salesforce AppMenu API
-  slug: salesforce-appmenu-api
 - description: The Appointment API from Salesforce — 2 operation(s) for appointment.
   name: Salesforce Appointment API
   slug: salesforce-appointment-api
@@ -243,27 +240,15 @@ apis:
 - description: The Cancel API from Salesforce — 1 operation(s) for cancel.
   name: Salesforce Cancel API
   slug: salesforce-cancel-api
-- description: The Candidates API from Salesforce — 1 operation(s) for candidates.
-  name: Salesforce Candidates API
-  slug: salesforce-candidates-api
 - description: The Capability API from Salesforce — 1 operation(s) for capability.
   name: Salesforce Capability API
   slug: salesforce-capability-api
-- description: The Cart API from Salesforce — 1 operation(s) for cart.
-  name: Salesforce Cart API
-  slug: salesforce-cart-api
 - description: The Change API from Salesforce — 1 operation(s) for change.
   name: Salesforce Change API
   slug: salesforce-change-api
 - description: The Channel API from Salesforce — 5 operation(s) for channel.
   name: Salesforce Channel API
   slug: salesforce-channel-api
-- description: The Chart API from Salesforce — 1 operation(s) for chart.
-  name: Salesforce Chart API
-  slug: salesforce-chart-api
-- description: The Checks API from Salesforce — 1 operation(s) for checks.
-  name: Salesforce Checks API
-  slug: salesforce-checks-api
 - description: The Child API from Salesforce — 1 operation(s) for child.
   name: Salesforce Child API
   slug: salesforce-child-api
@@ -273,9 +258,6 @@ apis:
 - description: The Clone API from Salesforce — 1 operation(s) for clone.
   name: Salesforce Clone API
   slug: salesforce-clone-api
-- description: The Close API from Salesforce — 2 operation(s) for close.
-  name: Salesforce Close API
-  slug: salesforce-close-api
 - description: The Collections API from Salesforce — 4 operation(s) for collections.
   name: Salesforce Collections API
   slug: salesforce-collections-api
@@ -330,9 +312,6 @@ apis:
 - description: '> Use these Connect API endpoints to get credentials for OAuth consumers of an external client app. Collections returns credentials for all consumers associated with an external client app. Resources '
   name: Salesforce Credentials API
   slug: salesforce-credentials-api
-- description: The Custom API from Salesforce — 1 operation(s) for custom.
-  name: Salesforce Custom API
-  slug: salesforce-custom-api
 - description: The Data API from Salesforce — 16 operation(s) for data.
   name: Salesforce Data API
   slug: salesforce-data-api
@@ -357,42 +336,18 @@ apis:
 - description: The Describe API from Salesforce — 13 operation(s) for describe.
   name: Salesforce Describe API
   slug: salesforce-describe-api
-- description: The Detail API from Salesforce — 2 operation(s) for detail.
-  name: Salesforce Detail API
-  slug: salesforce-detail-api
-- description: The Developer API from Salesforce — 2 operation(s) for developer.
-  name: Salesforce Developer API
-  slug: salesforce-developer-api
 - description: The Directories API from Salesforce — 1 operation(s) for directories.
   name: Salesforce Directories API
   slug: salesforce-directories-api
-- description: The Discovery API from Salesforce — 1 operation(s) for discovery.
-  name: Salesforce Discovery API
-  slug: salesforce-discovery-api
 - description: The Download API from Salesforce — 1 operation(s) for download.
   name: Salesforce Download API
   slug: salesforce-download-api
-- description: The Dynamic API from Salesforce — 1 operation(s) for dynamic.
-  name: Salesforce Dynamic API
-  slug: salesforce-dynamic-api
-- description: The Edit API from Salesforce — 2 operation(s) for edit.
-  name: Salesforce Edit API
-  slug: salesforce-edit-api
-- description: The Element API from Salesforce — 1 operation(s) for element.
-  name: Salesforce Element API
-  slug: salesforce-element-api
 - description: The Elements API from Salesforce — 6 operation(s) for elements.
   name: Salesforce Elements API
   slug: salesforce-elements-api
 - description: The Eligible API from Salesforce — 1 operation(s) for eligible.
   name: Salesforce Eligible API
   slug: salesforce-eligible-api
-- description: The Endpoint API from Salesforce — 4 operation(s) for endpoint.
-  name: Salesforce Endpoint API
-  slug: salesforce-endpoint-api
-- description: The Entries API from Salesforce — 1 operation(s) for entries.
-  name: Salesforce Entries API
-  slug: salesforce-entries-api
 - description: The Events API from Salesforce — 16 operation(s) for events.
   name: Salesforce Events API
   slug: salesforce-events-api
@@ -405,9 +360,6 @@ apis:
 - description: The Exit API from Salesforce — 1 operation(s) for exit.
   name: Salesforce Exit API
   slug: salesforce-exit-api
-- description: The Exports API from Salesforce — 1 operation(s) for exports.
-  name: Salesforce Exports API
-  slug: salesforce-exports-api
 - description: The Expression API from Salesforce — 4 operation(s) for expression.
   name: Salesforce Expression API
   slug: salesforce-expression-api
@@ -420,12 +372,6 @@ apis:
 - description: The Favorite API from Salesforce — 3 operation(s) for favorite.
   name: Salesforce Favorite API
   slug: salesforce-favorite-api
-- description: The Feed API from Salesforce — 7 operation(s) for feed.
-  name: Salesforce Feed API
-  slug: salesforce-feed-api
-- description: The Feedback API from Salesforce — 3 operation(s) for feedback.
-  name: Salesforce Feedback API
-  slug: salesforce-feedback-api
 - description: The Field API from Salesforce — 4 operation(s) for field.
   name: Salesforce Field API
   slug: salesforce-field-api
@@ -447,24 +393,12 @@ apis:
 - description: The General API from Salesforce — 2 operation(s) for general.
   name: Salesforce General API
   slug: salesforce-general-api
-- description: The Generate API from Salesforce — 1 operation(s) for generate.
-  name: Salesforce Generate API
-  slug: salesforce-generate-api
 - description: The Get API from Salesforce — 71 operation(s) for get.
   name: Salesforce Get API
   slug: salesforce-get-api
 - description: The Gift API from Salesforce — 1 operation(s) for gift.
   name: Salesforce Gift API
   slug: salesforce-gift-api
-- description: The Gifts API from Salesforce — 1 operation(s) for gifts.
-  name: Salesforce Gifts API
-  slug: salesforce-gifts-api
-- description: The Global API from Salesforce — 3 operation(s) for global.
-  name: Salesforce Global API
-  slug: salesforce-global-api
-- description: The Graph API from Salesforce — 1 operation(s) for graph.
-  name: Salesforce Graph API
-  slug: salesforce-graph-api
 - description: Get groups and group members. Create groups, invites, and members.
   name: Salesforce Groups API
   slug: salesforce-groups-api
@@ -483,9 +417,6 @@ apis:
 - description: The Info API from Salesforce — 4 operation(s) for info.
   name: Salesforce Info API
   slug: salesforce-info-api
-- description: The Information API from Salesforce — 3 operation(s) for information.
-  name: Salesforce Information API
-  slug: salesforce-information-api
 - description: Operations for uploading CSV data to ingest jobs and retrieving job results (successful, failed, and unprocessed records).
   name: Salesforce Ingest Job Data API
   slug: salesforce-ingest-job-data-api
@@ -504,24 +435,12 @@ apis:
 - description: The Integration API from Salesforce — 1 operation(s) for integration.
   name: Salesforce Integration API
   slug: salesforce-integration-api
-- description: The Invites API from Salesforce — 1 operation(s) for invites.
-  name: Salesforce Invites API
-  slug: salesforce-invites-api
 - description: The Invoke API from Salesforce — 1 operation(s) for invoke.
   name: Salesforce Invoke API
   slug: salesforce-invoke-api
-- description: The Item API from Salesforce — 1 operation(s) for item.
-  name: Salesforce Item API
-  slug: salesforce-item-api
 - description: The Items API from Salesforce — 6 operation(s) for items.
   name: Salesforce Items API
   slug: salesforce-items-api
-- description: The Jobs API from Salesforce — 12 operation(s) for jobs.
-  name: Salesforce Jobs API
-  slug: salesforce-jobs-api
-- description: The Journals API from Salesforce — 1 operation(s) for journals.
-  name: Salesforce Journals API
-  slug: salesforce-journals-api
 - description: Operations for listing and retrieving Marketing Cloud Journey Builder journeys (interactions) and firing journey entry events.
   name: Salesforce Journeys API
   slug: salesforce-journeys-api
@@ -531,192 +450,75 @@ apis:
 - description: The Knowledge API from Salesforce — 1 operation(s) for knowledge.
   name: Salesforce Knowledge API
   slug: salesforce-knowledge-api
-- description: The Language API from Salesforce — 1 operation(s) for language.
-  name: Salesforce Language API
-  slug: salesforce-language-api
-- description: The Last API from Salesforce — 2 operation(s) for last.
-  name: Salesforce Last API
-  slug: salesforce-last-api
-- description: The Launch API from Salesforce — 1 operation(s) for launch.
-  name: Salesforce Launch API
-  slug: salesforce-launch-api
-- description: The Layout API from Salesforce — 1 operation(s) for layout.
-  name: Salesforce Layout API
-  slug: salesforce-layout-api
 - description: The Layouts API from Salesforce — 6 operation(s) for layouts.
   name: Salesforce Layouts API
   slug: salesforce-layouts-api
 - description: The Lightning API from Salesforce — 6 operation(s) for lightning.
   name: Salesforce Lightning API
   slug: salesforce-lightning-api
-- description: Retrieve current API limit usage and quotas for the org.
-  name: Salesforce Limits API
-  slug: salesforce-limits-api
-- description: The Link API from Salesforce — 1 operation(s) for link.
-  name: Salesforce Link API
-  slug: salesforce-link-api
 - description: Retrieve list view data and metadata for use in UI components
   name: Salesforce List Views API
   slug: salesforce-list-views-api
 - description: The Lists API from Salesforce — 20 operation(s) for lists.
   name: Salesforce Lists API
   slug: salesforce-lists-api
-- description: The Loader API from Salesforce — 1 operation(s) for loader.
-  name: Salesforce Loader API
-  slug: salesforce-loader-api
-- description: The Login API from Salesforce — 1 operation(s) for login.
-  name: Salesforce Login API
-  slug: salesforce-login-api
-- description: The Logs API from Salesforce — 1 operation(s) for logs.
-  name: Salesforce Logs API
-  slug: salesforce-logs-api
 - description: Lookup field search endpoints
   name: Salesforce Lookups API
   slug: salesforce-lookups-api
-- description: The Managed API from Salesforce — 3 operation(s) for managed.
-  name: Salesforce Managed API
-  slug: salesforce-managed-api
 - description: The Member API from Salesforce — 7 operation(s) for member.
   name: Salesforce Member API
   slug: salesforce-member-api
-- description: The Members API from Salesforce — 1 operation(s) for members.
-  name: Salesforce Members API
-  slug: salesforce-members-api
-- description: The Memberships API from Salesforce — 1 operation(s) for memberships.
-  name: Salesforce Memberships API
-  slug: salesforce-memberships-api
-- description: The Messages API from Salesforce — 1 operation(s) for messages.
-  name: Salesforce Messages API
-  slug: salesforce-messages-api
 - description: Operations for creating and tracking email and SMS message sends, including triggered sends and transactional messages.
   name: Salesforce Messaging API
   slug: salesforce-messaging-api
-- description: The Method API from Salesforce — 1 operation(s) for method.
-  name: Salesforce Method API
-  slug: salesforce-method-api
-- description: The Metrics API from Salesforce — 2 operation(s) for metrics.
-  name: Salesforce Metrics API
-  slug: salesforce-metrics-api
 - description: The Models API from Salesforce — 2 operation(s) for models.
   name: Salesforce Models API
   slug: salesforce-models-api
-- description: The Multiple API from Salesforce — 1 operation(s) for multiple.
-  name: Salesforce Multiple API
-  slug: salesforce-multiple-api
-- description: The Named API from Salesforce — 6 operation(s) for named.
-  name: Salesforce Named API
-  slug: salesforce-named-api
-- description: The Names API from Salesforce — 5 operation(s) for names.
-  name: Salesforce Names API
-  slug: salesforce-names-api
-- description: The Navigation API from Salesforce — 2 operation(s) for navigation.
-  name: Salesforce Navigation API
-  slug: salesforce-navigation-api
-- description: The News API from Salesforce — 1 operation(s) for news.
-  name: Salesforce News API
-  slug: salesforce-news-api
-- description: The Notation API from Salesforce — 1 operation(s) for notation.
-  name: Salesforce Notation API
-  slug: salesforce-notation-api
 - description: The Oauth API from Salesforce — 5 operation(s) for oauth.
   name: Salesforce Oauth API
   slug: salesforce-oauth-api
 - description: Retrieve object metadata including fields, layouts, and picklists
   name: Salesforce Object Info API
   slug: salesforce-object-info-api
-- description: The Objects API from Salesforce — 5 operation(s) for objects.
-  name: Salesforce Objects API
-  slug: salesforce-objects-api
 - description: The Order API from Salesforce — 2 operation(s) for order.
   name: Salesforce Order API
   slug: salesforce-order-api
-- description: The Pages API from Salesforce — 5 operation(s) for pages.
-  name: Salesforce Pages API
-  slug: salesforce-pages-api
-- description: The Parallel API from Salesforce — 1 operation(s) for parallel.
-  name: Salesforce Parallel API
-  slug: salesforce-parallel-api
 - description: The Password API from Salesforce — 3 operation(s) for password.
   name: Salesforce Password API
   slug: salesforce-password-api
-- description: The Payments API from Salesforce — 3 operation(s) for payments.
-  name: Salesforce Payments API
-  slug: salesforce-payments-api
-- description: The Personalized API from Salesforce — 1 operation(s) for personalized.
-  name: Salesforce Personalized API
-  slug: salesforce-personalized-api
 - description: The Photo API from Salesforce — 2 operation(s) for photo.
   name: Salesforce Photo API
   slug: salesforce-photo-api
 - description: Dependent and independent picklist value endpoints
   name: Salesforce Picklists API
   slug: salesforce-picklists-api
-- description: The Platform API from Salesforce — 2 operation(s) for platform.
-  name: Salesforce Platform API
-  slug: salesforce-platform-api
 - description: The Post API from Salesforce — 7 operation(s) for post.
   name: Salesforce Post API
   slug: salesforce-post-api
 - description: The Predict API from Salesforce — 1 operation(s) for predict.
   name: Salesforce Predict API
   slug: salesforce-predict-api
-- description: The Prices API from Salesforce — 1 operation(s) for prices.
-  name: Salesforce Prices API
-  slug: salesforce-prices-api
-- description: The Procedure API from Salesforce — 1 operation(s) for procedure.
-  name: Salesforce Procedure API
-  slug: salesforce-procedure-api
 - description: The Process API from Salesforce — 2 operation(s) for process.
   name: Salesforce Process API
   slug: salesforce-process-api
 - description: The Product API from Salesforce — 2 operation(s) for product.
   name: Salesforce Product API
   slug: salesforce-product-api
-- description: The Profile API from Salesforce — 2 operation(s) for profile.
-  name: Salesforce Profile API
-  slug: salesforce-profile-api
 - description: 'The [promotion APIs](https://developer.salesforce.com/docs/atlas.en-us.loyalty.meta/loyalty/loyalty_promotion_apis_reference.htm) allow you to set eligibility rules and limits for a promotion, choose '
   name: Salesforce Promotion API
   slug: salesforce-promotion-api
-- description: The Promotions API from Salesforce — 2 operation(s) for promotions.
-  name: Salesforce Promotions API
-  slug: salesforce-promotions-api
-- description: The Prompts API from Salesforce — 1 operation(s) for prompts.
-  name: Salesforce Prompts API
-  slug: salesforce-prompts-api
-- description: The Publish API from Salesforce — 2 operation(s) for publish.
-  name: Salesforce Publish API
-  slug: salesforce-publish-api
-- description: The Quantity API from Salesforce — 1 operation(s) for quantity.
-  name: Salesforce Quantity API
-  slug: salesforce-quantity-api
 - description: The Queries API from Salesforce — 5 operation(s) for queries.
   name: Salesforce Queries API
   slug: salesforce-queries-api
-- description: Execute SOQL queries against Salesforce data.
-  name: Salesforce Query API
-  slug: salesforce-query-api
 - description: Operations for retrieving the results of completed query jobs as CSV data.
   name: Salesforce Query Job Results API
   slug: salesforce-query-job-results-api
 - description: Operations for creating and managing query jobs that extract large volumes of data from Salesforce using SOQL.
   name: Salesforce Query Jobs API
   slug: salesforce-query-jobs-api
-- description: Execute SOQL queryAll to include soft-deleted and archived records in results.
-  name: Salesforce QueryAll API
-  slug: salesforce-queryall-api
 - description: The Quote API from Salesforce — 3 operation(s) for quote.
   name: Salesforce Quote API
   slug: salesforce-quote-api
-- description: The Read API from Salesforce — 1 operation(s) for read.
-  name: Salesforce Read API
-  slug: salesforce-read-api
-- description: Retrieve recently viewed records for the current user.
-  name: Salesforce Recent API
-  slug: salesforce-recent-api
-- description: The Recently API from Salesforce — 1 operation(s) for recently.
-  name: Salesforce Recently API
-  slug: salesforce-recently-api
 - description: The Record API from Salesforce — 17 operation(s) for record.
   name: Salesforce Record API
   slug: salesforce-record-api
@@ -729,204 +531,63 @@ apis:
 - description: The Refresh API from Salesforce — 1 operation(s) for refresh.
   name: Salesforce Refresh API
   slug: salesforce-refresh-api
-- description: The Registration API from Salesforce — 4 operation(s) for registration.
-  name: Salesforce Registration API
-  slug: salesforce-registration-api
-- description: The Related API from Salesforce — 2 operation(s) for related.
-  name: Salesforce Related API
-  slug: salesforce-related-api
 - description: The Relationships API from Salesforce — 1 operation(s) for relationships.
   name: Salesforce Relationships API
   slug: salesforce-relationships-api
-- description: The Relay API from Salesforce — 5 operation(s) for relay.
-  name: Salesforce Relay API
-  slug: salesforce-relay-api
-- description: The Relevant API from Salesforce — 1 operation(s) for relevant.
-  name: Salesforce Relevant API
-  slug: salesforce-relevant-api
 - description: The Requests API from Salesforce — 2 operation(s) for requests.
   name: Salesforce Requests API
   slug: salesforce-requests-api
 - description: The Resources API from Salesforce — 2 operation(s) for resources.
   name: Salesforce Resources API
   slug: salesforce-resources-api
-- description: The Response API from Salesforce — 1 operation(s) for response.
-  name: Salesforce Response API
-  slug: salesforce-response-api
-- description: The Result API from Salesforce — 4 operation(s) for result.
-  name: Salesforce Result API
-  slug: salesforce-result-api
-- description: The Results API from Salesforce — 7 operation(s) for results.
-  name: Salesforce Results API
-  slug: salesforce-results-api
 - description: The Retrieves API from Salesforce — 10 operation(s) for retrieves.
   name: Salesforce Retrieves API
   slug: salesforce-retrieves-api
 - description: The Revoke API from Salesforce — 4 operation(s) for revoke.
   name: Salesforce Revoke API
   slug: salesforce-revoke-api
-- description: The Reward API from Salesforce — 1 operation(s) for reward.
-  name: Salesforce Reward API
-  slug: salesforce-reward-api
 - description: The Rows API from Salesforce — 2 operation(s) for rows.
   name: Salesforce Rows API
   slug: salesforce-rows-api
-- description: The Rules API from Salesforce — 1 operation(s) for rules.
-  name: Salesforce Rules API
-  slug: salesforce-rules-api
 - description: The Runs API from Salesforce — 3 operation(s) for runs.
   name: Salesforce Runs API
   slug: salesforce-runs-api
-- description: The Sale API from Salesforce — 1 operation(s) for sale.
-  name: Salesforce Sale API
-  slug: salesforce-sale-api
 - description: Manage sandboxes
   name: Salesforce Sandbox API
   slug: salesforce-sandbox-api
-- description: The Save API from Salesforce — 1 operation(s) for save.
-  name: Salesforce Save API
-  slug: salesforce-save-api
-- description: The Schedules API from Salesforce — 1 operation(s) for schedules.
-  name: Salesforce Schedules API
-  slug: salesforce-schedules-api
 - description: The Scheduling API from Salesforce — 1 operation(s) for scheduling.
   name: Salesforce Scheduling API
   slug: salesforce-scheduling-api
-- description: The Schema API from Salesforce — 4 operation(s) for schema.
-  name: Salesforce Schema API
-  slug: salesforce-schema-api
-- description: The Scope API from Salesforce — 1 operation(s) for scope.
-  name: Salesforce Scope API
-  slug: salesforce-scope-api
 - description: The Search API from Salesforce — 9 operation(s) for search.
   name: Salesforce Search API
   slug: salesforce-search-api
-- description: The Selected API from Salesforce — 2 operation(s) for selected.
-  name: Salesforce Selected API
-  slug: salesforce-selected-api
-- description: The Self API from Salesforce — 1 operation(s) for self.
-  name: Salesforce Self API
-  slug: salesforce-self-api
-- description: The Sets API from Salesforce — 4 operation(s) for sets.
-  name: Salesforce Sets API
-  slug: salesforce-sets-api
-- description: The Settings API from Salesforce — 1 operation(s) for settings.
-  name: Salesforce Settings API
-  slug: salesforce-settings-api
-- description: The Shares API from Salesforce — 2 operation(s) for shares.
-  name: Salesforce Shares API
-  slug: salesforce-shares-api
-- description: The Single API from Salesforce — 1 operation(s) for single.
-  name: Salesforce Single API
-  slug: salesforce-single-api
-- description: The Slots API from Salesforce — 1 operation(s) for slots.
-  name: Salesforce Slots API
-  slug: salesforce-slots-api
 - description: The Soap API from Salesforce — 3 operation(s) for soap.
   name: Salesforce Soap API
   slug: salesforce-soap-api
-- description: Operations for listing, describing, creating, reading, updating, and deleting Salesforce SObject records and metadata.
-  name: Salesforce SObjects API
-  slug: salesforce-sobjects-api
-- description: The Spec API from Salesforce — 1 operation(s) for spec.
-  name: Salesforce Spec API
-  slug: salesforce-spec-api
-- description: The Standard API from Salesforce — 1 operation(s) for standard.
-  name: Salesforce Standard API
-  slug: salesforce-standard-api
-- description: The State API from Salesforce — 1 operation(s) for state.
-  name: Salesforce State API
-  slug: salesforce-state-api
-- description: The Status API from Salesforce — 2 operation(s) for status.
-  name: Salesforce Status API
-  slug: salesforce-status-api
-- description: The Submit API from Salesforce — 1 operation(s) for submit.
-  name: Salesforce Submit API
-  slug: salesforce-submit-api
-- description: The Subscriptions API from Salesforce — 4 operation(s) for subscriptions.
-  name: Salesforce Subscriptions API
-  slug: salesforce-subscriptions-api
 - description: The Suggested API from Salesforce — 3 operation(s) for suggested.
   name: Salesforce Suggested API
   slug: salesforce-suggested-api
-- description: The Suggestions API from Salesforce — 2 operation(s) for suggestions.
-  name: Salesforce Suggestions API
-  slug: salesforce-suggestions-api
 - description: The Summaries API from Salesforce — 1 operation(s) for summaries.
   name: Salesforce Summaries API
   slug: salesforce-summaries-api
-- description: The Supported API from Salesforce — 1 operation(s) for supported.
-  name: Salesforce Supported API
-  slug: salesforce-supported-api
-- description: The Sync API from Salesforce — 1 operation(s) for sync.
-  name: Salesforce Sync API
-  slug: salesforce-sync-api
 - description: The Table API from Salesforce — 4 operation(s) for table.
   name: Salesforce Table API
   slug: salesforce-table-api
-- description: The Tables API from Salesforce — 1 operation(s) for tables.
-  name: Salesforce Tables API
-  slug: salesforce-tables-api
 - description: The Tabs API from Salesforce — 1 operation(s) for tabs.
   name: Salesforce Tabs API
   slug: salesforce-tabs-api
-- description: The Templates API from Salesforce — 1 operation(s) for templates.
-  name: Salesforce Templates API
-  slug: salesforce-templates-api
-- description: The Tests API from Salesforce — 5 operation(s) for tests.
-  name: Salesforce Tests API
-  slug: salesforce-tests-api
-- description: The Text API from Salesforce — 1 operation(s) for text.
-  name: Salesforce Text API
-  slug: salesforce-text-api
-- description: The Theme API from Salesforce — 1 operation(s) for theme.
-  name: Salesforce Theme API
-  slug: salesforce-theme-api
 - description: The Themes API from Salesforce — 1 operation(s) for themes.
   name: Salesforce Themes API
   slug: salesforce-themes-api
-- description: The Toggle API from Salesforce — 1 operation(s) for toggle.
-  name: Salesforce Toggle API
-  slug: salesforce-toggle-api
-- description: The Tokens API from Salesforce — 7 operation(s) for tokens.
-  name: Salesforce Tokens API
-  slug: salesforce-tokens-api
-- description: The Transaction API from Salesforce — 4 operation(s) for transaction.
-  name: Salesforce Transaction API
-  slug: salesforce-transaction-api
 - description: The Trees API from Salesforce — 1 operation(s) for trees.
   name: Salesforce Trees API
   slug: salesforce-trees-api
-- description: The Type API from Salesforce — 3 operation(s) for type.
-  name: Salesforce Type API
-  slug: salesforce-type-api
-- description: The Undelete API from Salesforce — 1 operation(s) for undelete.
-  name: Salesforce Undelete API
-  slug: salesforce-undelete-api
 - description: The Update API from Salesforce — 20 operation(s) for update.
   name: Salesforce Update API
   slug: salesforce-update-api
-- description: The Upload API from Salesforce — 1 operation(s) for upload.
-  name: Salesforce Upload API
-  slug: salesforce-upload-api
-- description: The Usage API from Salesforce — 5 operation(s) for usage.
-  name: Salesforce Usage API
-  slug: salesforce-usage-api
-- description: The Users API from Salesforce — 11 operation(s) for users.
-  name: Salesforce Users API
-  slug: salesforce-users-api
-- description: The Values API from Salesforce — 4 operation(s) for values.
-  name: Salesforce Values API
-  slug: salesforce-values-api
 - description: The Versions API from Salesforce — 4 operation(s) for versions.
   name: Salesforce Versions API
   slug: salesforce-versions-api
-- description: The View API from Salesforce — 10 operation(s) for view.
-  name: Salesforce View API
-  slug: salesforce-view-api
-- description: The Views API from Salesforce — 2 operation(s) for views.
-  name: Salesforce Views API
-  slug: salesforce-views-api
 arazzos:
 - description: Run the full Bulk API 2.0 delete lifecycle — create a delete ingest job, upload a CSV of Ids, close, poll, and read successful results.
   name: Salesforce Bulk Delete Records
@@ -997,7 +658,7 @@ arazzos:
 - description: Create or update an SObject record keyed on an external id field value.
   name: Salesforce Upsert by External Id
   slug: salesforce-upsert-by-external-id-workflow
-artifact_total: 5850
+artifact_total: 5737
 asyncapis:
 - description: Salesforce Change Data Capture (CDC) delivers change events that represent changes to Salesforce records including creates, updates, deletes, and undeletes. Subscribers receive rich change events with
   name: Salesforce Change Data Capture API
@@ -1808,6 +1469,10 @@ collections:
   name: Salesforce
   slug: open-salesforce
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/salesforce-capability-edges.yml
 - group: build
   title: ''
   type: SDKs
@@ -2247,6 +1912,18 @@ common:
 - group: other
   title: ''
   type: Subsidiary
+  url: https://apis.io/providers/heroku/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/informatica/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/mulesoft/
+- group: other
+  title: ''
+  type: Subsidiary
   url: https://apis.io/providers/own-ownbackup/
 - group: other
   title: ''
@@ -2275,6 +1952,10 @@ common:
 - group: other
   title: ''
   type: Subsidiary
+  url: https://apis.io/providers/slack/
+- group: other
+  title: ''
+  type: Subsidiary
   url: https://apis.io/providers/spiff/
 - group: other
   title: ''
@@ -2284,6 +1965,10 @@ common:
   title: ''
   type: Subsidiary
   url: https://apis.io/providers/steelbrick/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/tableau/
 - group: other
   title: ''
   type: Subsidiary
@@ -18004,17 +17689,17 @@ mcp_servers:
 - description: ''
   name: Salesforce MCP Server
   slug: salesforce-mcp-server
-modified: '2026-08-21'
+modified: '2026-08-30'
 name: Salesforce
 nav: Providers
 network: true
-overview: 'Salesforce publishes 265 APIs on the [APIs.io](https://apis.io/) network, including REST API, SOAP API, Bulk API, and 262 more. Tagged areas include Fortune 500, Artificial Intelligence, Analytics, Cloud, and Commerce.
+overview: 'Salesforce publishes 152 APIs on the [APIs.io](https://apis.io/) network, including REST API, SOAP API, Bulk API, and 149 more. Tagged areas include Fortune 500, Artificial Intelligence, Analytics, Cloud, and Commerce.
 
 
   The Salesforce catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 4 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Salesforce''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, documentation, getting-started guide, and 114 more developer resources.'
+  Salesforce''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, documentation, getting-started guide, and 120 more developer resources.'
 plans:
 - name: Salesforce Plans Pricing
   plan_count: 6
@@ -18089,18 +17774,23 @@ scopes:
   summary_line: 36 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 85.4
-  delta: 2.1
+  composite: 82.5
+  coverage:
+    artifact_dirs: 43
+    catalog_gap: 23.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 59.1
-    contract_quality: 80.5
+    contract_governance: 47.0
+    contract_quality: 76.2
     developer_ergonomics: 94.6
-    discoverability: 79.6
-    governance: 59.1
+    discoverability: 75.9
+    governance: 47.0
     operational_transparency: 86.8
-  previous_composite: 83.3
+  previous_composite: 82.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -18111,8 +17801,8 @@ score:
       total: 256
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png
 security:

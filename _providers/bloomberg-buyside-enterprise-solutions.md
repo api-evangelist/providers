@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 40
   slug: bloomberg-buyside-enterprise-solutions-agentic-access
   summary_line: 40 operations · 19 acting
-api_count: 24
+api_count: 4
 apis:
 - description: Programmatic access to Bloomberg's financial data including reference data, historical pricing, corporate actions, and market data for portfolio management and analytics.
   name: Bloomberg Data API
@@ -200,6 +200,14 @@ collections:
   name: Bloomberg Buyside Enterprise Solutions Bloomberg Portfolio API
   slug: open-bloomberg-buyside-portfolio
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bloomberg-buyside-enterprise-solutions-capability-edges.yml
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -255,7 +263,7 @@ jsonld:
   property_count: 9
   slug: bloomberg-buyside-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-27'
 name: Bloomberg Buyside Enterprise Solutions
 nav: Providers
 network: true
@@ -265,7 +273,7 @@ overview: 'Bloomberg Buyside Enterprise Solutions publishes 22 APIs on the [APIs
   The Bloomberg Buyside Enterprise Solutions catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Bloomberg Buyside Enterprise Solutions'' developer surface includes authentication, getting-started guide, support, and 5 more developer resources.'
+  Bloomberg Buyside Enterprise Solutions'' developer surface includes authentication, getting-started guide, support, and 7 more developer resources.'
 plans:
 - name: Bloomberg Buyside Enterprise Solutions Plans Pricing
   plan_count: 3
@@ -289,7 +297,12 @@ rules:
 score:
   band: developing
   composite: 43.1
-  delta: 1.9
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 62.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -299,7 +312,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 41.2
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -313,8 +326,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 61.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-buyside-enterprise-solutions/refs/heads/main/screenshots/bloomberg-buyside-enterprise-solutions-2026-07-25T203359.png
 security:

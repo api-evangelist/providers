@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -96,15 +96,20 @@ modified: '2026-07-18'
 name: DNN Software
 nav: Providers
 network: true
-overview: 'DNN Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, CMS, Content Management, and Open-Source.
+overview: 'DNN Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, CMS, Content Management, and Open-Source.
 
 
   DNN Software''s developer surface includes documentation and 12 more developer resources.'
 random_paper: 1
 score:
   band: emerging
-  composite: 11.1
-  delta: 0.0
+  composite: 20.0
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 8.9
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -114,10 +119,13 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 100.0
   previous_composite: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/dnn-software/refs/heads/main/screenshots/dnn-software-2026-07-25T212155.png
 security:
 - kind: domain-security
@@ -127,7 +135,7 @@ security:
 slug: dnn-software
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - CMS
 - Content Management
 - Open-Source

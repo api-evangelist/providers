@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: polymarket-agentic-access
   summary_line: 5 operations · 1 acting
-api_count: 11
+api_count: 1
 apis:
 - description: Central-limit order book REST API for Polymarket - place, cancel, and query orders, list markets and tokens, fetch order books and trades, and look up user positions. Used by traders and bots interact
   name: Polymarket CLOB API
@@ -102,6 +102,26 @@ collections:
   name: Polymarket APIs (CLOB and Gamma)
   slug: open-polymarket
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Polymarket/py-clob-client/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Polymarket/py-clob-client/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Polymarket/py-clob-client/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Polymarket/py-clob-client/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Polymarket/py-clob-client/blob/main/.github/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -172,7 +192,7 @@ overview: 'Polymarket publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   The Polymarket catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Polymarket''s developer surface includes authentication, documentation, GitHub presence, support, status page, and 8 more developer resources.'
+  Polymarket''s developer surface includes authentication, documentation, GitHub presence, support, status page, and 13 more developer resources.'
 plans:
 - name: Polymarket Plans Pricing
   plan_count: 1
@@ -195,19 +215,27 @@ rules:
     warn: 5
   slug: polymarket-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 38.2
-  delta: 0.0
+  band: developing
+  composite: 46.9
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 55.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 11.4
     contract_quality: 60.1
     developer_ergonomics: 26.2
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 11.4
-    operational_transparency: 26.3
-  previous_composite: 38.2
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     contracts:
@@ -221,8 +249,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/screenshots/polymarket-2026-06-20T191927.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: truework-agentic-access
   summary_line: 16 operations · 8 acting
-api_count: 5
+api_count: 3
 apis:
 - description: Truework.js is the client-side JavaScript library that powers Truework Direct, the borrower-driven (consumer-permissioned) verification flow. The host page loads `https://js.truework.com/v1` and initi
   name: Truework.js (Truework Direct)
@@ -59,7 +59,10 @@ apis:
 - description: The subpackage_tenantProperties API from Truework — 2 operation(s) for subpackage_tenantproperties.
   name: Truework subpackage_tenantProperties API
   slug: truework-subpackage-tenantproperties-api
-artifact_total: 45
+- description: The Truework Webhooks API from Truework — 0 operation(s) for truework webhooks.
+  name: Truework Truework Webhooks API
+  slug: truework-truework-webhooks-api
+artifact_total: 46
 collections:
 - collection_type: postman
   name: Truework Qualifications & Tenant Properties API (Beta) subpackage_orders API
@@ -321,7 +324,7 @@ modified: '2026-05-24'
 name: Truework
 nav: Providers
 network: true
-overview: 'Truework publishes 4 APIs on the [APIs.io](https://apis.io/) network, including subpackage_orders API, subpackage_qualificationChecks API, subpackage_reports API, and 1 more. Tagged areas include Verification, Income Verification, Employment Verification, VOIE, and Mortgage.
+overview: 'Truework publishes 5 APIs on the [APIs.io](https://apis.io/) network, including subpackage_orders API, subpackage_qualificationChecks API, subpackage_reports API, and 2 more. Tagged areas include Verifications, Income Verification, Employment Verification, VOIE, and Mortgage.
 
 
   The Truework catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -350,18 +353,23 @@ rules:
   slug: truework-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 57.4
-  delta: 0.8
+  composite: 56.4
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 29.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 9.8
-    contract_quality: 70.7
+    contract_quality: 66.5
     developer_ergonomics: 69.0
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 73.7
-  previous_composite: 56.6
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     contracts:
@@ -375,8 +383,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/screenshots/truework-2026-06-20T195901.png
 security:
@@ -390,7 +398,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: truework
 tags:
-- Verification
+- Verifications
 - Income Verification
 - Employment Verification
 - VOIE

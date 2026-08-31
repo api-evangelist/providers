@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -110,6 +110,18 @@ collections:
   name: Tableau REST API
   slug: open-tableau-desktop
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tableau-desktop-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/tableau/extensions-api/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/tableau/extensions-api/releases
 - group: commercial
   title: ''
   type: License
@@ -207,7 +219,7 @@ network: true
 overview: 'Tableau Desktop publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Data Sources API, Projects API, and 4 more. Tagged areas include Analytics, Business Intelligence, Data Visualization, and Desktop Application.
 
 
-  Tableau Desktop''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, training material, and 6 more developer resources.'
+  Tableau Desktop''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, training material, and 9 more developer resources.'
 plans:
 - name: Tableau Desktop Plans Pricing
   plan_count: 3
@@ -219,8 +231,13 @@ rate_limits:
   slug: tableau-desktop-rate-limits
 score:
   band: developing
-  composite: 42.3
-  delta: 3.5
+  composite: 40.6
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -230,7 +247,10 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 38.8
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     contracts:
@@ -238,8 +258,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/screenshots/tableau-desktop-2026-06-20T194845.png
 security:

@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Calls API from Veritus — 2 operation(s) for calls.
   name: Veritus Calls API
@@ -48,7 +48,10 @@ apis:
 - description: The Interactions API from Veritus — 1 operation(s) for interactions.
   name: Veritus Interactions API
   slug: veritus-interactions-api
-artifact_total: 14
+- description: The Veritus API API from Veritus — 0 operation(s) for veritus api.
+  name: Veritus Veritus API
+  slug: veritus-veritus-api-api
+artifact_total: 15
 asyncapis:
 - description: Outbound webhooks Veritus Agent POSTs to a subscriber-supplied URL when calls complete or drip-campaign events occur. Payloads are signed with HMAC SHA-256. Register a webhook by supplying `webhook.ur
   name: Veritus Agent Webhooks
@@ -158,7 +161,7 @@ modified: '2026-07-21'
 name: Veritus
 nav: Providers
 network: true
-overview: 'Veritus publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Clients API, Customers API, and 1 more. Tagged areas include Company, Fintech, Consumer Lending, Collection, and AI Agents.
+overview: 'Veritus publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Clients API, Customers API, and 2 more. Tagged areas include Company, Fintech, Consumer Lending, Collection, and AI Agents.
 
 
   The Veritus catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -168,18 +171,23 @@ overview: 'Veritus publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 9
 score:
   band: developing
-  composite: 47.4
-  delta: 5.3
+  composite: 44.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
-    contract_quality: 57.7
+    contract_governance: 4.5
+    contract_quality: 55.4
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 42.1
+  previous_composite: 45.3
   provenance:
     conformance: derived
     contracts:
@@ -189,9 +197,9 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritus/refs/heads/main/screenshots/veritus-2026-08-17T082732.png
 security:
 - kind: authentication

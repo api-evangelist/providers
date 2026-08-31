@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -122,7 +122,7 @@ modified: '2026-05-24'
 name: Atropos Health
 nav: Providers
 network: true
-overview: 'Atropos Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-World Evidence, Real-World Data, Clinical Evidence, Observational Studies, and Healthcare Analytics.
+overview: 'Atropos Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real World Evidence, Real-World Data, Clinical Evidence, Observational Studies, and Healthcare Analytics.
 
 
   Atropos Health''s developer surface includes engineering blog, product news, GitHub presence, and 16 more developer resources.'
@@ -130,6 +130,11 @@ random_paper: 2
 score:
   band: minimal
   composite: 4.5
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -147,8 +152,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atropos-health/refs/heads/main/screenshots/atropos-health-2026-06-20T172538.png
 security:
@@ -158,7 +163,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: atropos-health
 tags:
-- Real-World Evidence
+- Real World Evidence
 - Real-World Data
 - Clinical Evidence
 - Observational Studies

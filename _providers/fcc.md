@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.9
-  scored_at: '2026-08-26'
-api_count: 19
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: Provides information about FCC-issued licenses for use of the nation's airwaves, including snapshots of license counts across different radio services such as 700 MHz, 800 MHz Cellular, AWS, PCS, BRS,
   name: FCC License View API
@@ -135,6 +135,10 @@ collections:
   name: FCC Contours Projection API
   slug: open-fcc-projection-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fcc-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -206,7 +210,7 @@ network: true
 overview: 'FCC (Federal Communications Commission) publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Am Pattern API, Antenna API, Area API, and 9 more. Tagged areas include Federal-Government, Telecommunications, Radio, Broadband, and Spectrum.
 
 
-  FCC (Federal Communications Commission)''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
+  FCC (Federal Communications Commission)''s developer surface includes documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Fcc Plans Pricing
   plan_count: 1
@@ -218,15 +222,20 @@ rate_limits:
   slug: fcc-rate-limits
 score:
   band: thin
-  composite: 32.3
-  delta: 0.0
+  composite: 31.7
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 48.3
     developer_ergonomics: 11.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 32.3
@@ -242,8 +251,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 13.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fcc/refs/heads/main/screenshots/fcc-2026-06-20T181103.png
 security:

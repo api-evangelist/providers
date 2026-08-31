@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: Programmatic access to the TypeScript compiler. The Compiler API allows developers to parse TypeScript files into ASTs, perform type checking, emit JavaScript, and transform code programmatically.
@@ -47,6 +47,22 @@ apis:
   slug: typescript-transform-api
 artifact_total: 13
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/microsoft/TypeScript/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/microsoft/TypeScript/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/microsoft/TypeScript/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/microsoft/TypeScript/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -157,7 +173,7 @@ overview: 'TypeScript publishes 3 APIs on the [APIs.io](https://apis.io/) networ
   The TypeScript catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  TypeScript''s developer surface includes documentation, engineering blog, release notes, and 16 more developer resources.'
+  TypeScript''s developer surface includes documentation, engineering blog, release notes, and 20 more developer resources.'
 plans:
 - name: Typescript Plans Pricing
   plan_count: 3
@@ -180,8 +196,13 @@ rules:
   slug: typescript-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 27.1
-  delta: 1.4
+  composite: 35.6
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 46.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -190,10 +211,13 @@ score:
     developer_ergonomics: 32.1
     discoverability: 74.1
     governance: 25.0
-    operational_transparency: 26.3
-  previous_composite: 25.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 35.6
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typescript/refs/heads/main/screenshots/typescript-2026-06-20T195902.png
 security:

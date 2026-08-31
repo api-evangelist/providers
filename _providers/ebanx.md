@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 29
   slug: ebanx-agentic-access
   summary_line: 29 operations · 29 acting
-api_count: 6
+api_count: 3
 apis:
 - description: Tokenize cards on EBANX so PAN never touches merchant servers, and refresh CVVs on stored tokens before high-risk reuse. Reusable tokens power one-click checkout, subscriptions, and stored-card flows.
   name: EBANX Tokenization API
@@ -162,7 +162,7 @@ modified: '2026-05-24'
 name: EBANX
 nav: Providers
 network: true
-overview: 'EBANX publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Tokenization API, FX API, Payment Notifications, and 3 more. Tagged areas include Payments, Pay-In, Payouts, Foreign Exchange, and Tokenization.
+overview: 'EBANX publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Tokenization API, FX API, Payment Notifications, and 3 more. Tagged areas include Payments, Pay-in, Payouts, Foreign Exchange, and Tokenization.
 
 
   The EBANX catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -214,7 +214,12 @@ rules:
 score:
   band: developing
   composite: 45.0
-  delta: 4.1
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 34.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -224,7 +229,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 31.6
-  previous_composite: 40.9
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -238,8 +243,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebanx/refs/heads/main/screenshots/ebanx-2026-06-20T180446.png
 security:
@@ -258,11 +263,11 @@ security:
 slug: ebanx
 tags:
 - Payments
-- Pay-In
+- Pay-in
 - Payouts
 - Foreign Exchange
 - Tokenization
-- LatAm
+- LATAM
 - Emerging Markets
 - Pix
 - Boleto

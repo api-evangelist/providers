@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 40
   slug: athenahealth-agentic-access
   summary_line: 40 operations · 9 acting
-api_count: 25
+api_count: 5
 apis:
 - description: The athenaOne proprietary REST API suite provides over 800 endpoints covering patient management, scheduling, clinical data, revenue cycle, and care coordination. Requires OAuth 2.0 authentication and
   name: athenaOne APIs
@@ -203,6 +203,10 @@ collections:
   name: athenahealth athenaOne REST AllergyIntolerance Subscription API
   slug: open-athenahealth-subscription-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/athenahealth-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -361,15 +365,15 @@ common:
   url: rules/athenahealth-rules.yml
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/athenahealth/mdp
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/athenahealth/apiserver-athenaFlex
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/athenahealth/aone-fhir-subscriptions
 - group: build
   title: ''
@@ -566,7 +570,7 @@ overview: 'athenahealth publishes 22 APIs on the [APIs.io](https://apis.io/) net
   The athenahealth catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  athenahealth''s developer surface includes documentation, engineering blog, pricing, authentication, developer portal, sandbox, support, and 71 more developer resources.'
+  athenahealth''s developer surface includes documentation, engineering blog, pricing, authentication, developer portal, sandbox, support, and 72 more developer resources.'
 plans:
 - name: Athenahealth Plans Pricing
   plan_count: 3
@@ -616,18 +620,23 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 79.2
+  composite: 77.6
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 59.1
-    contract_quality: 78.3
+    contract_governance: 47.0
+    contract_quality: 77.8
     developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 59.1
+    governance: 47.0
     operational_transparency: 42.1
-  previous_composite: 79.2
+  previous_composite: 77.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -644,8 +653,8 @@ score:
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athenahealth/refs/heads/main/screenshots/athenahealth-2026-06-20T172519.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 8
   slug: mycase-agentic-access
   summary_line: 8 operations · 3 acting
-api_count: 8
+api_count: 1
 apis:
 - description: MyCase Webhooks deliver event notifications when records change in the MyCase platform (for example case, event, task, and document lifecycle events). Webhook subscriptions are documented alongside th
   name: MyCase Webhooks
@@ -97,6 +97,10 @@ collections:
   name: MyCase Open API
   slug: open-mycase-open-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mycase-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -248,7 +252,7 @@ overview: 'MyCase publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
   The MyCase catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  MyCase''s developer surface includes authentication, pricing, signup flow, developer portal, documentation, support, engineering blog, and 25 more developer resources.'
+  MyCase''s developer surface includes authentication, pricing, signup flow, developer portal, documentation, support, engineering blog, and 26 more developer resources.'
 random_paper: 12
 rules:
 - effective_rule_count: 46
@@ -264,15 +268,20 @@ rules:
   slug: mycase-rules
 score:
   band: developing
-  composite: 42.6
-  delta: 0.0
+  composite: 42.0
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 45.5
     contract_quality: 61.4
     developer_ergonomics: 45.2
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 45.5
     operational_transparency: 5.3
   previous_composite: 42.6
@@ -289,8 +298,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/screenshots/mycase-2026-08-17T083502.png
 security:

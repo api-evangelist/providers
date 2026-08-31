@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: tibber-agentic-access
   summary_line: 5 operations · 1 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Tibber's long-standing GraphQL API. A single HTTPS endpoint serves the `viewer` query (with nested `homes`, `currentSubscription`, `priceInfo`, `consumption`, `production`, and `features`), the `liveM
   name: Tibber GraphQL API
@@ -108,6 +108,10 @@ collections:
   name: Tibber Data Devices Homes API
   slug: open-tibber-homes-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/tibber/Tibber.SDK.NET/issues
 - group: commercial
   title: ''
   type: License
@@ -403,13 +407,13 @@ modified: '2026-05-25'
 name: Tibber
 nav: Providers
 network: true
-overview: 'Tibber publishes 4 APIs on the [APIs.io](https://apis.io/) network, including GraphQL API, Devices API, History API, and 1 more. Tagged areas include Energy, Smart Home, Smart Meter, ElectricityPricing, and Electric Vehicle Charging.
+overview: 'Tibber publishes 4 APIs on the [APIs.io](https://apis.io/) network, including GraphQL API, Devices API, History API, and 1 more. Tagged areas include Energy, SmartHome, SmartMeter, ElectricityPricing, and ElectricVehicleCharging.
 
 
   The Tibber catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tibber''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, changelog, and 39 more developer resources.'
+  Tibber''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, changelog, and 40 more developer resources.'
 plans:
 - name: Tibber Plans Pricing
   plan_count: 4
@@ -447,19 +451,27 @@ scopes:
   slug: tibber-scopes
   summary_line: 11 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 69.1
-  delta: 2.1
+  band: strong
+  composite: 62.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 27.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 28.8
     contract_quality: 71.4
     developer_ergonomics: 64.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 55.3
-  previous_composite: 67.0
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 62.8
   provenance:
     agentic_access: derived
     contracts:
@@ -473,8 +485,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/screenshots/tibber-2026-06-20T195331.png
 security:
@@ -496,13 +508,13 @@ solutions:
   name: Tibber Grid Services (Sweden)
 tags:
 - Energy
-- Smart Home
-- Smart Meter
+- SmartHome
+- SmartMeter
 - ElectricityPricing
-- Electric Vehicle Charging
+- ElectricVehicleCharging
 - HeatPump
 - SolarInverter
-- Home Battery
+- HomeBattery
 - GraphQL
 - Authentication
 - Nordic

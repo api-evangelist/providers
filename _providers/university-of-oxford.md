@@ -34,21 +34,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-26'
-api_count: 10
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: The only API surface Oxford actually documents. An OAI-PMH 2.0 data provider over the institutional open-access repository, serving ten metadata formats including DataCite kernel 4.6, OpenAIRE 4.0, th
-  name: ORA — Oxford University Research Archive OAI-PMH
-  slug: ora-oai-pmh
-- description: 'An undocumented but live JSON search and record API over ORA. GET /objects.json returns a paged, faceted, JSON:API-shaped result set; GET /objects/{uuid}.json returns a single record. The endpoint is '
-  name: ORA — Research Archive Search & Record API
-  slug: ora-search
-- description: 'The strongest institution-operated API surface Oxford runs, and the one entirely absent from this profile before 2026-08-19. Three conformant IIIF specifications on Oxford''s own infrastructure: Image '
-  name: Digital Bodleian IIIF API
-  slug: bodleian-iiif
-- description: A second, independent OAI-PMH data provider, separate from ORA — the Bodleian Libraries' language-resources repository, running on a self-hosted DSpace installation with an OLAC archive description. S
-  name: Oxford Text Archive OAI-PMH
-  slug: oxford-text-archive-oai-pmh
 - description: A SAML 2.0 identity provider serving live machine-readable metadata, with Redirect/SSO, POST/SSO, POST-SimpleSign/SSO, POST/SLO and SOAP/Redirect/SLO bindings and a signing certificate rotated 2026-05
   name: University of Oxford Shibboleth Identity Provider
   slug: shibboleth-idp
@@ -67,6 +55,18 @@ apis:
 - description: Vacancies were once part of Oxford's own open-data programme; they are now a CoreHR application reached through an Oxford vanity hostname. The redirect target leaves the ox.ac.uk domain entirely, whic
   name: Oxford recruitment (CoreHR tenancy)
   slug: recruit-corehr-tenancy
+- description: IIIF Image, Presentation and Change Discovery endpoints.
+  name: University of Oxford IIIF API
+  slug: university-of-oxford-iiif-api
+- description: Open Archives Initiative Protocol for Metadata Harvesting verbs.
+  name: University of Oxford OAI PMH API
+  slug: university-of-oxford-oai-pmh-api
+- description: Search and retrieval of ORA repository records.
+  name: University of Oxford Repository API
+  slug: university-of-oxford-repository-api
+- description: OAI-PMH harvesting of Oxford Text Archive records.
+  name: University of Oxford Text Archive API
+  slug: university-of-oxford-textarchive-api
 artifact_total: 28
 common:
 - group: company
@@ -287,7 +287,7 @@ modified: '2026-08-19'
 name: University of Oxford
 nav: Providers
 network: true
-overview: 'University of Oxford publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ORA — Oxford University Research Archive OAI-PMH, ORA — Research Archive Search & Record API, Digital Bodleian IIIF API, and 1 more. Tagged areas include University, Higher Education, Education, Research, and United Kingdom.
+overview: 'University of Oxford publishes 4 APIs on the [APIs.io](https://apis.io/) network, including IIIF API, OAI PMH API, Repository API, and 1 more. Tagged areas include University, Higher Education, Education, Research, and United Kingdom.
 
 
   The University of Oxford catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -322,6 +322,11 @@ scopes:
 score:
   band: developing
   composite: 41.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 32.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -346,8 +351,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-oxford/refs/heads/main/screenshots/university-of-oxford-2026-06-20T200220.png
 security:

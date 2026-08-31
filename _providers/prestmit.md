@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 31
   slug: prestmit-agentic-access
   summary_line: 31 operations · 9 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Prestmit Partner API allows developers to automate the buying and selling of gift cards, manage wallet balances and payouts, and integrate Prestmit transactions into their own applications. The AP
   name: Prestmit Partner API
@@ -179,15 +179,20 @@ rate_limits:
   slug: prestmit-rate-limits
 score:
   band: thin
-  composite: 31.1
-  delta: 0.0
+  composite: 30.6
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 39.3
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 31.1
@@ -204,8 +209,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prestmit/refs/heads/main/screenshots/prestmit-2026-06-20T192051.png
 security:

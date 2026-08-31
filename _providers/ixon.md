@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 460
   human_in_the_loop: 16
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 674
   slug: ixon-agentic-access
   summary_line: 674 operations · 460 acting · 16 human-in-the-loop
-api_count: 359
+api_count: 1
 apis:
 - description: The AccessRecoverList API from IXON — 1 operation(s) for accessrecoverlist.
   name: IXON AccessRecoverList API
@@ -2207,6 +2207,10 @@ collections:
   name: IXON API
   slug: open-ixon
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ixon-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2274,7 +2278,7 @@ network: true
 overview: 'IXON publishes 359 APIs on the [APIs.io](https://apis.io/) network, including AccessRecoverList API, AccessToken API, AccessTokenList API, and 356 more. Tagged areas include IIoT, Industrial IoT, Machine Connectivity, and Remote Access.
 
 
-  IXON''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 8 more developer resources.'
+  IXON''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Ixon Plans Pricing
   plan_count: 3
@@ -2286,18 +2290,23 @@ rate_limits:
   slug: ixon-rate-limits
 score:
   band: thin
-  composite: 33.0
-  delta: 0.7
+  composite: 30.6
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 87.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 47.7
     developer_ergonomics: 41.7
-    discoverability: 66.7
+    discoverability: 42.6
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 32.3
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     contracts:
@@ -2305,8 +2314,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 359
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ixon/refs/heads/main/screenshots/ixon-2026-06-20T183642.png
 security:

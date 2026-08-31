@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 21
   slug: bridge-mls-agentic-access
   summary_line: 21 operations · 4 acting
-api_count: 13
+api_count: 3
 apis:
 - description: Manage webhook endpoints that receive real-time POST events from Bridge for listing create/update/delete and other dataset changes, eliminating the need to poll the Web API. Endpoints require an HTTPS
   name: Bridge Webhooks API
@@ -164,6 +164,10 @@ collections:
   name: Bridge Webhooks API
   slug: open-bridge-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bridge-mls-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -340,7 +344,7 @@ overview: 'Bridge publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
   The Bridge catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Bridge''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, signup flow, changelog, and 24 more developer resources.'
+  Bridge''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, signup flow, changelog, and 25 more developer resources.'
 plans:
 - name: Bridge Mls Plans Pricing
   plan_count: 3
@@ -364,6 +368,11 @@ rules:
 score:
   band: strong
   composite: 58.3
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 26.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 73.7
@@ -388,8 +397,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/screenshots/bridge-mls-2026-06-20T173655.png
 security:

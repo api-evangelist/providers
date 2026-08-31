@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 83
   slug: boxc-agentic-access
   summary_line: 83 operations · 49 acting
-api_count: 22
+api_count: 1
 apis:
 - description: Calculate the landed cost of a shipment. This is a quick way to calculate the duties and taxes owed for a shipment without having to create one.
   name: Boxc CalculateDuty API
@@ -186,6 +186,10 @@ collections:
   name: BoxC CalculateDuty Webhooks API
   slug: open-boxc-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/boxc-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -320,7 +324,7 @@ overview: 'Boxc publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
   The Boxc catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Boxc''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, sandbox, and 22 more developer resources.'
+  Boxc''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, sandbox, and 23 more developer resources.'
 random_paper: 8
 scopes:
 - name: Boxc Scopes
@@ -329,18 +333,23 @@ scopes:
   summary_line: 19 scopes · authorizationCode
 score:
   band: thin
-  composite: 35.5
-  delta: 1.3
+  composite: 32.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 91.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 67.2
     developer_ergonomics: 25.6
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 51.9
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 34.2
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -351,8 +360,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boxc/refs/heads/main/screenshots/boxc-2026-07-25T203656.png
 security:

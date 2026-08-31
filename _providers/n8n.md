@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 73
   slug: n8n-agentic-access
   summary_line: 73 operations · 50 acting · 3 human-in-the-loop
-api_count: 16
+api_count: 1
 apis:
 - description: Build with the precision of code or the speed of drag-n-drop. Host with on-prem control or in-the-cloud convenience. n8n gives you more freedom to implement multi-step AI agents and integrate apps tha
   name: N8n
@@ -89,10 +89,7 @@ apis:
 - description: Operations about workflows
   name: N8n Workflow API
   slug: n8n-workflow-api
-- description: Instance-scoped REST API (path /api/v1) for managing workflows, executions, credentials, users, tags, variables, source control, security audit, and data tables. API-key auth via X-N8N-API-KEY header.
-  name: n8n Public API
-  slug: n8n-public-api
-artifact_total: 59
+artifact_total: 58
 collections:
 - collection_type: open
   name: API Collection
@@ -264,7 +261,7 @@ modified: '2026-08-21'
 name: n8n
 nav: Providers
 network: true
-overview: 'n8n publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Audit API, CommunityPackage API, Credential API, and 12 more. Tagged areas include Agents, Artificial Intelligence, Integration, Workflow Automation, and iPaaS.
+overview: 'n8n publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Audit API, CommunityPackage API, Credential API, and 11 more. Tagged areas include Agents, Artificial Intelligence, and Integration.
 
 
   n8n''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 13 more developer resources.'
@@ -279,18 +276,23 @@ rate_limits:
   slug: n8n-rate-limits
 score:
   band: developing
-  composite: 52.0
-  delta: 2.1
+  composite: 49.8
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.5
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 0.0
     contract_quality: 58.3
     developer_ergonomics: 57.1
-    discoverability: 72.2
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 49.9
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     contracts:
@@ -298,8 +300,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/screenshots/n8n-2026-06-20T185922.png
 security:
@@ -324,13 +326,5 @@ tags:
 - Agents
 - Artificial Intelligence
 - Integration
-- Workflow Automation
-- iPaaS
-- No-Code
-- Low-Code
-- AI Agents
-- Orchestration
-- DevOps
-- MCP
 website: https://n8n.io/
 ---

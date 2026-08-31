@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: The core open-source Tuva dbt package that transforms healthcare data from the Tuva Input Layer into the Tuva Core Data Model and Data Marts, including data-quality tests, normalization, claims prepro
   name: The Tuva Project (dbt package)
@@ -35,11 +35,44 @@ apis:
 - description: 'A family of open-source dbt connector projects (Medicare CCLF, BCDA, CMS synthetic, Aetna, BCBS, and a connector template, plus a FHIR preprocessing connector) that map raw claims, EHR, ADT, and FHIR '
   name: Tuva Connectors
   slug: tuva-connectors
-- description: The HTTP API of Tuva EMPI, Tuva Health's open-source (Apache-2.0) enterprise master patient index. A containerized Django backend that ingests person records, runs Splink-based probabilistic matching,
-  name: Tuva EMPI API
-  slug: tuva-empi
-artifact_total: 8
+- description: The config API from Tuva Health — 1 operation(s) for config.
+  name: Tuva Health Config API
+  slug: tuva-health-config-api
+- description: The data-sources API from Tuva Health — 1 operation(s) for data-sources.
+  name: Tuva Health Data Sources API
+  slug: tuva-health-data-sources-api
+- description: The health-check API from Tuva Health — 1 operation(s) for health-check.
+  name: Tuva Health Health Check API
+  slug: tuva-health-health-check-api
+- description: The matches API from Tuva Health — 1 operation(s) for matches.
+  name: Tuva Health Matches API
+  slug: tuva-health-matches-api
+- description: The person-records API from Tuva Health — 2 operation(s) for person-records.
+  name: Tuva Health Person Records API
+  slug: tuva-health-person-records-api
+- description: The persons API from Tuva Health — 2 operation(s) for persons.
+  name: Tuva Health Persons API
+  slug: tuva-health-persons-api
+- description: The potential-matches API from Tuva Health — 2 operation(s) for potential-matches.
+  name: Tuva Health Potential Matches API
+  slug: tuva-health-potential-matches-api
+- description: The users API from Tuva Health — 2 operation(s) for users.
+  name: Tuva Health Users API
+  slug: tuva-health-users-api
+artifact_total: 15
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tuva-health-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/tuva-health/tuva/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/tuva-health/tuva/releases
 - group: auth
   title: ''
   type: DomainSecurity
@@ -165,10 +198,10 @@ modified: '2026-08-15'
 name: Tuva Health
 nav: Providers
 network: true
-overview: 'Tuva Health publishes 1 API on the [APIs.io](https://apis.io/) network: Tuva EMPI API. Tagged areas include Healthcare, United States, Health Data, FHIR, and Interoperability.
+overview: 'Tuva Health publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Config API, Data Sources API, Health Check API, and 5 more. Tagged areas include Healthcare, United States, Health Data, FHIR, and Interoperability.
 
 
-  Tuva Health''s developer surface includes documentation, getting-started guide, changelog, engineering blog, support, API reference, authentication, and 22 more developer resources.'
+  Tuva Health''s developer surface includes documentation, getting-started guide, changelog, engineering blog, support, API reference, authentication, and 25 more developer resources.'
 plans:
 - name: Tuva Health Plans Pricing
   plan_count: 0
@@ -180,18 +213,26 @@ rate_limits:
   slug: tuva-health-rate-limits
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 43.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
-    contract_quality: 42.2
+    contract_governance: 18.2
+    contract_quality: 41.2
     developer_ergonomics: 80.4
-    discoverability: 72.2
-    governance: 30.3
+    discoverability: 66.7
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 47.0
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 43.5
   provenance:
     conformance: first-party
     contracts:
@@ -207,8 +248,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/screenshots/tuva-health-2026-08-17T082502.png
 security:

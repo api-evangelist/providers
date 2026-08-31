@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 71
   slug: basescan-agentic-access
   summary_line: 71 operations · 1 acting
-api_count: 10
+api_count: 1
 apis:
 - description: The Accounts API from Basescan — 12 operation(s) for accounts.
   name: Basescan Accounts API
@@ -163,7 +163,7 @@ modified: '2026-06-13'
 name: Basescan
 nav: Providers
 network: true
-overview: 'Basescan publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API PRO Endpoints API, Blocks API, and 7 more. Tagged areas include Blockchain, Base, L2, Explorer, and Ethereum.
+overview: 'Basescan publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API PRO Endpoints API, Blocks API, and 7 more. Tagged areas include Blockchain, Base, L2, explorer, and Ethereum.
 
 
   The Basescan catalog on APIs.io includes 1 JSON-LD context.
@@ -181,18 +181,23 @@ rate_limits:
   slug: rate-limits
 score:
   band: developing
-  composite: 45.2
-  delta: 3.3
+  composite: 44.7
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 46.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
     contract_governance: 0.0
     contract_quality: 57.8
     developer_ergonomics: 19.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 41.9
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     contracts:
@@ -200,8 +205,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basescan/refs/heads/main/screenshots/basescan-2026-08-17T122729.png
 security:
@@ -218,10 +223,10 @@ tags:
 - Blockchain
 - Base
 - L2
-- Explorer
+- explorer
 - Ethereum
 - EVM
 - Transaction
 - Tokens
-- Smart Contracts
+- smart contracts
 ---

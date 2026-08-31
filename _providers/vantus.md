@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/oracle/
 created: '2026-07-17'
 description: Vantus is a stub surfaced from the Mayfield portfolio page whose permalink slug is "vantus" but whose actual company is Vantive Corporation, a historic Mayfield "Milestone" enterprise investment described by Mayfield as call center software leaders. Vantive provided customer relationship management (CRM) software and existed as an independent corporation until its merger with PeopleSoft in 1999; PeopleSoft was later acquired by Oracle and the Vantive brand no longer exists. There is no current company website or API surface to enrich. Unrelated live domains (vantus.com, Vantus Medical Systems; vantus.io, a Spanish AI automation consultancy) are different companies and are intentionally not linked here.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vantus.png
@@ -48,6 +53,11 @@ random_paper: 1
 score:
   band: minimal
   composite: 5.0
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -67,8 +77,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: vantus
 tags:

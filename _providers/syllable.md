@@ -2,7 +2,7 @@
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_card: flavored
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.3
-  scored_at: '2026-08-26'
+  score: 32.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 176
   slug: syllable-agentic-access
   summary_line: 176 operations · 98 acting
-api_count: 41
+api_count: 1
 apis:
 - description: 'Operations related to agent configuration. When a user interacts with the Syllable system, they do so by communicating with an agent. An agent is linked to a prompt, a custom message, and one or more '
   name: Syllable Agents API
@@ -467,18 +467,23 @@ overview: 'Syllable publishes 41 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 16
 score:
   band: strong
-  composite: 64.8
-  delta: 0.0
+  composite: 62.8
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 66.0
     developer_ergonomics: 85.7
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 64.8
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -495,8 +500,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/syllable/refs/heads/main/screenshots/syllable-2026-08-17T082225.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Anonymous, publicly callable MCP server on binske's direct-to-consumer storefront host implementing the Universal Commerce Protocol shopping service. A live JSON-RPC 2.0 tools/list returned 13 tools w
@@ -130,7 +130,7 @@ modified: '2026-08-07'
 name: Binske
 nav: Providers
 network: true
-overview: 'Binske publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cannabis, Consumer Packaged Goods, Direct to Consumer, E-Commerce, and Retail.
+overview: 'Binske publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include cannabis, consumer-packaged-goods, direct-to-consumer, E-Commerce, and Retail.
 
 
   Binske''s developer surface includes documentation, authentication, engineering blog, support, and 17 more developer resources.'
@@ -142,7 +142,12 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 21.2
+  composite: 20.1
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -150,16 +155,16 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 30.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 21.2
+  previous_composite: 20.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binske/refs/heads/main/screenshots/binske-2026-08-07T162438.png
 security:
@@ -173,15 +178,15 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: binske
 tags:
-- Cannabis
-- Consumer Packaged Goods
-- Direct to Consumer
+- cannabis
+- consumer-packaged-goods
+- direct-to-consumer
 - E-Commerce
 - Retail
-- Shopify
-- Agent Commerce
+- shopify
+- agent-commerce
 - UCP
 - MCP
-- Storefront
+- storefront
 website: https://binske.com/
 ---

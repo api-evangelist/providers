@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 1
   slug: aws-elastic-beanstalk-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Query API for creating and managing Elastic Beanstalk applications, versions, environments, configuration templates, and deployments. Requests are authenticated with AWS Signature Version 4 (SigV4) us
   name: AWS Elastic Beanstalk API
@@ -109,7 +109,7 @@ modified: '2026-05-11'
 name: AWS Elastic Beanstalk
 nav: Providers
 network: true
-overview: 'AWS Elastic Beanstalk publishes 1 API on the [APIs.io](https://apis.io/) network: AWS Elastic Beanstalk API API. Tagged areas include Platform-as-a-Service, Application Deployment, Auto-Scaling, Cloud, and DevOps.
+overview: 'AWS Elastic Beanstalk publishes 1 API on the [APIs.io](https://apis.io/) network: AWS Elastic Beanstalk API API. Tagged areas include Platform-as-a-Service, Application Deployment, Auto Scaling, Cloud, and DevOps.
 
 
   AWS Elastic Beanstalk''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
@@ -117,6 +117,11 @@ random_paper: 11
 score:
   band: thin
   composite: 31.5
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 31.6
@@ -135,8 +140,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-elastic-beanstalk/refs/heads/main/screenshots/aws-elastic-beanstalk-2026-06-20T172748.png
 security:
@@ -160,7 +165,7 @@ slug: aws-elastic-beanstalk
 tags:
 - Platform-as-a-Service
 - Application Deployment
-- Auto-Scaling
+- Auto Scaling
 - Cloud
 - DevOps
 website: https://aws.amazon.com/elasticbeanstalk/

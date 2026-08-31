@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
 - description: Core CDP API v2 for onchain wallets, payments, trading, faucets, policies, and JSON-RPC access, authenticated with short-lived JWTs.
@@ -194,7 +194,12 @@ overview: 'Coinbase Global publishes 6 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 15
 score:
   band: developing
-  composite: 47.2
+  composite: 46.1
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 31.6
@@ -202,10 +207,10 @@ score:
     contract_governance: 0.0
     contract_quality: 42.7
     developer_ergonomics: 64.3
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 47.2
+  previous_composite: 46.1
   provenance:
     mcp: first-party
     skills: first-party
@@ -215,8 +220,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinbase-global/refs/heads/main/screenshots/coinbase-global-2026-07-25T210033.png
 security:

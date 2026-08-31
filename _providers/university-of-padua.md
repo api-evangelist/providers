@@ -1,182 +1,114 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free · Open harvesting endpoints, no signup
+  onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
-  - authentication
+  - probed
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.1
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 77
-  human_in_the_loop: 0
-  name: University Of Padua Agentic Access
-  operation_count: 146
-  slug: university-of-padua-agentic-access
-  summary_line: 146 operations · 77 acting
-api_count: 19
+  score: 5.0
+  scored_at: '2026-08-30'
+api_count: 5
 apis:
-- description: PHAIDRA serves digital images through an IIIF (International Image Interoperability Framework) image server, enabling standards-based deep zoom and image delivery for the university's digital collecti
-  name: PHAIDRA IIIF Image API
-  slug: phaidra-iiif
-- description: OAI-PMH metadata harvesting endpoint for the PHAIDRA digital collections, allowing programmatic harvesting of Dublin Core and related metadata. Verified live (verb=Identify returns HTTP 200) at time o
-  name: PHAIDRA OAI-PMH
-  slug: phaidra-oai
-- description: Padua@Research (Padua Research Archive) is an EPrints-based institutional repository of the University of Padua's scientific production. It exposes an OAI-PMH 2.0 metadata harvesting interface; full t
-  name: Padua@Research OAI-PMH
-  slug: padua-research-oai
-- description: Research Data Unipd is the EPrints-based research-data archive of the University of Padua, supporting data discovery, sharing, and reuse using DataCite and Dublin Core metadata. It is an OpenAIRE cont
+- description: PHAIDRA is the University of Padua Library System's digital-collections repository, holding the institution's digitised images, documents, books and video. The data, the objects and the persistent ide
+  name: PHAIDRA at Padua (deployment)
+  slug: phaidra-unipd
+- description: 'OAI-PMH 2.0 harvesting endpoint for IRIS UNIPD, the University of Padua''s institutional research catalogue of scientific production. Live and anonymous: verb=Identify returns HTTP 200 with repositoryN'
+  name: IRIS UNIPD OAI-PMH
+  slug: iris-unipd-oai
+- description: 'OAI-PMH 2.0 harvesting endpoint for Research Data Unipd, the EPrints-based research-data archive of the University of Padua. Live and anonymous: verb=Identify returns HTTP 200 with repositoryName "Res'
   name: Research Data Unipd OAI-PMH
-  slug: researchdata-oai
-- description: 'The University of Padua provides centralized authentication via a Shibboleth-based Single Sign-On, integrated with the IDEM GARR federation and eduGAIN. Service Provider integration and SAML metadata '
-  name: Single Sign-On (Shibboleth/SAML)
-  slug: sso
-- description: Requests for transforming and validating datastreams
-  name: University of Padua datastream API
-  slug: university-of-padua-datastream-api
-- description: Requests related to users, user groups and organisation structure
-  name: University of Padua directory API
-  slug: university-of-padua-directory-api
-- description: Requests to the imageserver
-  name: University of Padua imageserver API
-  slug: university-of-padua-imageserver-api
-- description: Requests for manipulating object lists
-  name: University of Padua lists API
-  slug: university-of-padua-lists-api
-- description: The misc API from University of Padua — 7 operation(s) for misc.
-  name: University of Padua misc API
-  slug: university-of-padua-misc-api
-- description: Look at the [OAI-PMH protocol](https://www.openarchives.org/pmh) used in this endpoint
-  name: University of Padua oai-pmh API
-  slug: university-of-padua-oai-pmh-api
-- description: Additional requests for the manipulation of digital objects
-  name: University of Padua object-advanced API
-  slug: university-of-padua-object-advanced-api
-- description: Most important requests you'll need to manage digital objects in PHAIDRA
-  name: University of Padua object-basics API
-  slug: university-of-padua-object-basics-api
-- description: Requests for adding and removing object relationships
-  name: University of Padua relationships API
-  slug: university-of-padua-relationships-api
-- description: The search API from University of Padua — 1 operation(s) for search.
-  name: University of Padua search API
-  slug: university-of-padua-search-api
-- description: Session management
-  name: University of Padua session API
-  slug: university-of-padua-session-api
-- description: The stats API from University of Padua — 4 operation(s) for stats.
-  name: University of Padua stats API
-  slug: university-of-padua-stats-api
-- description: Requests for managing metadata templates
-  name: University of Padua templates API
-  slug: university-of-padua-templates-api
-- description: Requests for controlled vocabularies
-  name: University of Padua vocabularies API
-  slug: university-of-padua-vocabularies-api
-artifact_total: 49
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: PHAIDRA datastream API
-  slug: open-university-of-padua-datastream-api
-- collection_type: open
-  name: PHAIDRA datastream directory API
-  slug: open-university-of-padua-directory-api
-- collection_type: open
-  name: PHAIDRA datastream imageserver API
-  slug: open-university-of-padua-imageserver-api
-- collection_type: open
-  name: PHAIDRA datastream lists API
-  slug: open-university-of-padua-lists-api
-- collection_type: open
-  name: PHAIDRA datastream misc API
-  slug: open-university-of-padua-misc-api
-- collection_type: open
-  name: PHAIDRA datastream oai-pmh API
-  slug: open-university-of-padua-oai-pmh-api
-- collection_type: open
-  name: PHAIDRA datastream object-advanced API
-  slug: open-university-of-padua-object-advanced-api
-- collection_type: open
-  name: PHAIDRA datastream object-basics API
-  slug: open-university-of-padua-object-basics-api
-- collection_type: open
-  name: PHAIDRA datastream relationships API
-  slug: open-university-of-padua-relationships-api
-- collection_type: open
-  name: PHAIDRA datastream search API
-  slug: open-university-of-padua-search-api
-- collection_type: open
-  name: PHAIDRA datastream session API
-  slug: open-university-of-padua-session-api
-- collection_type: open
-  name: PHAIDRA datastream stats API
-  slug: open-university-of-padua-stats-api
-- collection_type: open
-  name: PHAIDRA datastream templates API
-  slug: open-university-of-padua-templates-api
-- collection_type: open
-  name: PHAIDRA datastream vocabularies API
-  slug: open-university-of-padua-vocabularies-api
+  slug: researchdata-unipd-oai
+- description: OAI-PMH 2.0 harvesting endpoint for the University of Padua theses and dissertations archive. Live and anonymous at /oai/request (verb=Identify returns HTTP 200); the EPrints-style /cgi/oai2 path on t
+  name: Padua Theses and Dissertations OAI-PMH
+  slug: thesis-unipd-oai
+- description: The University of Padua operates its own Shibboleth Identity Provider and publishes its SAML 2.0 metadata anonymously at https://shibidp.cca.unipd.it/idp/shibboleth — HTTP 200, application/xml, 17,853
+  name: University of Padova Shibboleth Identity Provider (SAML metadata)
+  slug: shibboleth-idp
+artifact_total: 9
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/university-of-padua-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/university-of-padua-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/university-of-padua-authentication.yml
 - group: company
   title: ''
   type: Website
   url: https://www.unipd.it/en
 - group: build
   title: ''
-  type: Library
+  type: LibraryCatalog
   url: https://biblio.unipd.it/en
-- group: company
+- group: other
   title: ''
-  type: LinkedIn
-  url: https://it.linkedin.com/school/university-of-padova/
+  type: ResearchRepository
+  url: https://www.research.unipd.it/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://researchdata.cab.unipd.it/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://thesis.unipd.it/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://phaidra.unipd.it/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://www.unipd.it/en/idem
 - group: auth
   title: ''
   type: Authentication
   url: https://asit.unipd.it/single-sign-informazioni-tecniche-service-provider
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.unipd.it/en/policy-ateneo
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://wwwassets.unipd.it/sites/default/files/2026-04/LineeGuidaImpiegoAI_nella_ricerca_Unipd_ITA_rev20260414.pdf
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.unipd.it/en/privacy
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://it.linkedin.com/school/university-of-padova/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/university-of-padua-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/university-of-padua-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -194,50 +126,22 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'The University of Padua (Università degli Studi di Padova) is a public research university in Padua, Italy, founded in 1222 and ranked #236 in the QS World University Rankings 2025. Its public developer/API footprint is centered on the University Library System (SBA) rather than a single official developer portal: PHAIDRA, the digital-collections platform, exposes a documented REST API (OpenAPI), a IIIF image service, and an OAI-PMH endpoint, while the EPrints-based Padua@Research and Research Data Unipd repositories provide OAI-PMH metadata harvesting. Authentication across university services is delivered through a Shibboleth/SAML Single Sign-On integrated with the IDEM GARR federation and eduGAIN. There is no central institutional GitHub organization for the university as a whole; public code lives in individual lab and department orgs.'
-examples:
-- key_count: 3
-  name: University Of Padua Object Info Example
-  slug: university-of-padua-object-info-example
-- key_count: 2
-  name: University Of Padua Search Select Example
-  slug: university-of-padua-search-select-example
-- key_count: 2
-  name: University Of Padua Signin Example
-  slug: university-of-padua-signin-example
+description: 'The University of Padua (Università degli Studi di Padova) is a public research university in Padua, Italy, founded in 1222. It operates no central developer portal and publishes no institution-authored API contract: an "API first" programme exists internally, routed through the IUNGO integration infrastructure and a GovWay API gateway, but the catalogue of REST web services it promises is not public and access runs through a helpdesk ticket. What Padua does operate, and what this profile records, is protocol infrastructure rather than product APIs — four live OAI-PMH 2.0 endpoints on its own hosts (the IRIS research catalogue, the Research Data Unipd data archive, the theses archive, and PHAIDRA), and a Shibboleth Identity Provider publishing SAML 2.0 metadata into the IDEM GARR federation and eduGAIN. The one documented REST API on a Padua host, PHAIDRA''s, is the contract of the PHAIDRA open-source repository platform developed at the University of Vienna, not Padua engineering;
+  it is recorded here as a deployment and its specification is deliberately not held under this slug. An institutional Open Data portal was announced in December 2024 but has not launched — no open-data host resolves. There is no institutional GitHub organisation; github.com/unipd exists but holds zero public repositories.'
 finops:
 - name: University Of Padua Finops
   service_category: Education
   slug: university-of-padua-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-padua.png
-json_schemas:
-- name: PHAIDRA Collection
-  property_count: 27
-  slug: university-of-padua-collection
-- name: PHAIDRA Object Info
-  property_count: 30
-  slug: university-of-padua-object_info
-json_structures:
-- name: University Of Padua Object_Info Structure
-  property_count: 18
-  slug: university-of-padua-object_info-structure
-jsonld:
-- class_count: 3
-  name: University Of Padua Context
-  property_count: 17
-  slug: university-of-padua-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: University of Padua
 nav: Providers
 network: true
-overview: 'University of Padua publishes 14 APIs on the [APIs.io](https://apis.io/) network, including datastream API, directory API, imageserver API, and 11 more. Tagged areas include Education, Higher Education, University, Open Data, and Research Data.
+overview: 'University of Padua publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Italy, and Europe.
 
 
-  The University of Padua catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  University of Padua''s developer surface includes authentication and 10 more developer resources.'
+  University of Padua''s developer surface includes authentication and 17 more developer resources.'
 plans:
 - name: University Of Padua Plans Pricing
   plan_count: 2
@@ -247,42 +151,25 @@ rate_limits:
 - limit_count: 1
   name: University Of Padua Rate Limits
   slug: university-of-padua-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: University of Padua API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 3
-  slug: university-of-padua-jsonschema-spectral-rules
-- effective_rule_count: 46
-  extends:
-  - spectral:oas
-  name: University of Padua API Rules
-  rule_count: 5
-  severity_counts:
-    error: 2
-    hint: 0
-    info: 1
-    warn: 2
-  slug: university-of-padua-rules
 score:
   band: thin
-  composite: 37.3
-  delta: 3.7
+  composite: 30.2
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -7.4
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 28.8
-    contract_quality: 55.8
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 6.7
     developer_ergonomics: 21.4
-    discoverability: 64.8
-    governance: 28.8
-    operational_transparency: 21.1
-  previous_composite: 33.6
+    discoverability: 74.1
+    governance: 18.2
+    operational_transparency: 26.3
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -295,29 +182,29 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 46.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-padua/refs/heads/main/screenshots/university-of-padua-2026-06-20T200320.png
 security:
-- kind: authentication
-  name: University Of Padua Authentication
-  slug: university-of-padua-authentication
-  summary_line: apiKey/http · 2 schemes
 - kind: domain-security
   name: University Of Padua Domain Security
   slug: university-of-padua-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: university-of-padua
 tags:
-- Education
-- Higher Education
 - University
-- Open Data
-- Research Data
-- Library
-- Repository
+- Higher Education
+- Education
 - Italy
+- Europe
+- Public Research University
+- Research Repository
+- Research Data
+- Open Access
+- OAI-PMH
+- Identity Federation
+- Digital Library
 website: https://www.unipd.it/en
 ---

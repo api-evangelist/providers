@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
 - description: The canonical RISC-V Instruction Set Architecture specifications including the Unprivileged ISA (RV32I/RV64I base integer instructions) and Privileged Architecture specification. Freely available as r
@@ -53,6 +53,18 @@ apis:
   slug: opensbi
 artifact_total: 13
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/riscv/riscv-isa-manual/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/riscv/riscv-isa-manual/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/riscv/riscv-isa-manual/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -140,7 +152,7 @@ overview: 'RISC-V International publishes 5 APIs on the [APIs.io](https://apis.i
   The RISC-V International catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  RISC-V International''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
+  RISC-V International''s developer surface includes documentation, engineering blog, and 15 more developer resources.'
 plans:
 - name: Risc V Plans Pricing
   plan_count: 3
@@ -162,8 +174,13 @@ rules:
     warn: 3
   slug: risc-v-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 21.5
+  band: thin
+  composite: 26.2
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 54.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 26.3
@@ -173,10 +190,13 @@ score:
     developer_ergonomics: 11.9
     discoverability: 64.8
     governance: 25.0
-    operational_transparency: 13.2
-  previous_composite: 21.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 26.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/risc-v/refs/heads/main/screenshots/risc-v-2026-06-20T193125.png
 security:

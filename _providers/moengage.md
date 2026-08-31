@@ -13,7 +13,7 @@ agent_readiness:
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: verified
@@ -22,44 +22,149 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.4
-  scored_at: '2026-08-26'
-api_count: 11
+  score: 62.6
+  scored_at: '2026-08-30'
+api_count: 30
 apis:
-- description: 'Create and update user profiles, track events, manage devices, merge and delete users, run bulk imports and file imports, and submit GDPR/CCPA data subject requests. The primary ingestion surface for '
-  name: MoEngage Data API
-  slug: moengage-data-api
-- description: 'Create, update, search, test, and publish Push and Email campaigns. The V5 draft lifecycle builds a campaign incrementally — create a draft, patch components, validate, test-send, then publish — with '
-  name: MoEngage Campaigns API
-  slug: moengage-campaigns-api
-- description: Send transactional and targeted push notifications to Android, iOS, and Web devices, and create push campaigns targeting all users or a group of users. Served from a dedicated push host.
-  name: MoEngage Push API
-  slug: moengage-push-api
-- description: Create and manage file-based segments (upload, add, remove, replace users) and filter-based segments built from event and attribute conditions, plus archive/unarchive operations and cohort audience sy
-  name: MoEngage Segments API
-  slug: moengage-segments-api
-- description: Create, update, and search reusable content across channels — email templates (V1 and V2), push templates, SMS templates, in-app templates, on-site messaging (OSM) templates, and content blocks such a
-  name: MoEngage Content and Templates API
-  slug: moengage-content-and-templates-api
-- description: Manage product and item catalogs (create, add attributes, ingest, search, update, bulk delete), fetch recommendation metadata and items, and administer coupon lists and coupon files including activati
-  name: MoEngage Catalog, Recommendations and Coupons API
-  slug: moengage-catalog-recommendations-and-coupons-api
-- description: Manage email resubscription in bulk, update opt-in management preferences, and read, create, and update per-category subscription preferences for users across channels.
-  name: MoEngage Subscriptions API
-  slug: moengage-subscriptions-api
-- description: Read-only access to MoEngage Custom Dashboards and the analytics data behind each chart, plus Flows endpoints to list flows, read a flow and a specific flow version, and update flow status.
-  name: MoEngage Analytics and Flows API
-  slug: moengage-analytics-and-flows-api
-- description: 'Unified transactional messaging infrastructure for building and managing transactional alerts across SMS, Email, and Push from a single send endpoint. Publishes a dedicated sandbox host alongside the '
-  name: MoEngage Inform API
-  slug: moengage-inform-api
-- description: 'App Inbox Cards fetch and delete, iOS broadcast Live Activities (start, update, end), Personalize experiences fetch/metadata/event tracking from client SDK hosts, and Offer Decisioning offerings with '
-  name: MoEngage Engagement Surfaces API
-  slug: moengage-engagement-surfaces-api
 - description: Hosted, OAuth-secured Model Context Protocol server that lets AI assistants build campaign drafts, author content, create and count segments, read and analyze flows, browse dashboards, search campaign
   name: MoEngage MCP Server
   slug: moengage-mcp-server
-artifact_total: 49
+- description: Operations for importing users and events in bulk.
+  name: MoEngage Bulk API
+  slug: moengage-bulk-api
+- description: Manage and trigger business events.
+  name: MoEngage Business Events API
+  slug: moengage-business-events-api
+- description: Download campaign report files.
+  name: MoEngage Campaign Reports API
+  slug: moengage-campaign-reports-api
+- description: Operations related to fetching and deleting user cards.
+  name: MoEngage Cards API
+  slug: moengage-cards-api
+- description: Operations related to creating and managing catalog schemas (attributes).
+  name: MoEngage Catalog API
+  slug: moengage-catalog-api
+- description: Operations to synchronize cohorts (custom segments) with MoEngage.
+  name: MoEngage Cohort Sync API
+  slug: moengage-cohort-sync-api
+- description: Use these operations to programmatically fetch, create, and update reusable content blocks.
+  name: MoEngage Content Blocks API
+  slug: moengage-content-blocks-api
+- description: Operations related to uploading coupon codes via files and checking/managing file processing status.
+  name: MoEngage Coupon Files API
+  slug: moengage-coupon-files-api
+- description: Operations related to defining, managing status (active/archive), and modifying coupon list metadata.
+  name: MoEngage Coupon Lists API
+  slug: moengage-coupon-lists-api
+- description: The Create Campaigns API from MoEngage — 3 operation(s) for create campaigns.
+  name: MoEngage Create Campaigns API
+  slug: moengage-create-campaigns-api
+- description: Read custom dashboards and their chart data.
+  name: MoEngage Dashboards API
+  slug: moengage-dashboards-api
+- description: Operations for managing user devices.
+  name: MoEngage Device API
+  slug: moengage-device-api
+- description: Manage email templates in MoEngage.
+  name: MoEngage Email Templates API
+  slug: moengage-email-templates-api
+- description: Operations for tracking user events.
+  name: MoEngage Event API
+  slug: moengage-event-api
+- description: API endpoints for reporting impressions and clicks.
+  name: MoEngage Events API
+  slug: moengage-events-api
+- description: API endpoints for fetching experiences and metadata.
+  name: MoEngage Experiences API
+  slug: moengage-experiences-api
+- description: The File Import API from MoEngage — 3 operation(s) for file import.
+  name: MoEngage File Import API
+  slug: moengage-file-import-api
+- description: If you need to create segments by importing a large number of users, we recommend utilising the File segment API. This API allows you to easily generate a file segment by initiating a call to the file
+  name: MoEngage File Segments API
+  slug: moengage-file-segments-api
+- description: If you need to create a segment based on the events or actions performed by your users on your application or website, the recommended approach is to use the filter segment API. With this API, you can
+  name: MoEngage Filter Segments API
+  slug: moengage-filter-segments-api
+- description: The Flows API from MoEngage — 4 operation(s) for flows.
+  name: MoEngage Flows API
+  slug: moengage-flows-api
+- description: Manage user data requests for GDPR and CCPA compliance.
+  name: MoEngage GDPR API
+  slug: moengage-gdpr-api
+- description: The Get Campaign Details API from MoEngage — 6 operation(s) for get campaign details.
+  name: MoEngage Get Campaign Details API
+  slug: moengage-get-campaign-details-api
+- description: Operations to manage In-app templates.
+  name: MoEngage In-app Templates API
+  slug: moengage-in-app-templates-api
+- description: Operations related to ingesting, updating, and deleting items within a catalog.
+  name: MoEngage Items API
+  slug: moengage-items-api
+- description: Operations to manage broadcast Live Activities for iOS.
+  name: MoEngage Live Activities API
+  slug: moengage-live-activities-api
+- description: Archiving and unarchiving through APIs makes it easy to retrieve and reuse segments whenever required for purposes such as A/B testing, maintaining regulatory compliance, and improving system performa
+  name: MoEngage Manage Segments API
+  slug: moengage-manage-segments-api
+- description: Retrieve archived message content.
+  name: MoEngage Message Archival API
+  slug: moengage-message-archival-api
+- description: Update user email opt-in status and category preferences in MoEngage.
+  name: MoEngage Opt-in Management API
+  slug: moengage-opt-in-management-api
+- description: Operations to manage On-Site Messaging (OSM) templates.
+  name: MoEngage OSM Templates API
+  slug: moengage-osm-templates-api
+- description: The Personalized Preview API from MoEngage — 1 operation(s) for personalized preview.
+  name: MoEngage Personalized Preview API
+  slug: moengage-personalized-preview-api
+- description: The Public Offerings API from MoEngage — 3 operation(s) for public offerings.
+  name: MoEngage Public Offerings API
+  slug: moengage-public-offerings-api
+- description: Operations related to fetching recommendation configurations and results.
+  name: MoEngage Recommendations API
+  slug: moengage-recommendations-api
+- description: Operations related to generating usage reports for coupon lists.
+  name: MoEngage Reports API
+  slug: moengage-reports-api
+- description: Resubscribe users who previously unsubscribed, and optionally update the ESP suppression list.
+  name: MoEngage Resubscribe API
+  slug: moengage-resubscribe-api
+- description: Operations to manage SMS templates.
+  name: MoEngage SMS Templates API
+  slug: moengage-sms-templates-api
+- description: Fetch detailed, real-time campaign statistics.
+  name: MoEngage Stats API
+  slug: moengage-stats-api
+- description: Manage user email subscription preferences.
+  name: MoEngage Subscription Preferences API
+  slug: moengage-subscription-preferences-api
+- description: The Templates API from MoEngage — 2 operation(s) for templates.
+  name: MoEngage Templates API
+  slug: moengage-templates-api
+- description: The Test Campaigns API from MoEngage — 3 operation(s) for test campaigns.
+  name: MoEngage Test Campaigns API
+  slug: moengage-test-campaigns-api
+- description: Endpoints for tracking attribution and installs.
+  name: MoEngage Tracking API
+  slug: moengage-tracking-api
+- description: Send transactional alerts using pre-configured templates.
+  name: MoEngage Transactional Alerts API
+  slug: moengage-transactional-alerts-api
+- description: Operations to create and send push notification campaigns.
+  name: MoEngage Transactional API
+  slug: moengage-transactional-api
+- description: The Update Campaigns API from MoEngage — 5 operation(s) for update campaigns.
+  name: MoEngage Update Campaigns API
+  slug: moengage-update-campaigns-api
+- description: Operations for creating, updating, retrieving, and managing user profiles.
+  name: MoEngage User API
+  slug: moengage-user-api
+- description: Utility endpoints for testing connections.
+  name: MoEngage Utilities API
+  slug: moengage-utilities-api
+artifact_total: 84
 asyncapis:
 - description: ''
   name: Moengage Webhooks
@@ -153,6 +258,130 @@ collections:
   name: MoEngage Subscription Categories API
   slug: open-moengage-subscription-categories
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/moengage-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-data-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-gdpr-ccpa-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-business-events-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-cohort-audience-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-campaign-draft-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-campaigns-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-stats-report-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-message-archival-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-push-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-push-v2-1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-custom-segments-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-email-templates-1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-email-templates-2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-push-templates-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-sms-templates-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-in-app-templates-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-osm-templates-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-content-blocks-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-catalog-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-recommendations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-coupons-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-email-subscription-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-subscription-categories-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-analytics-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-flows-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-inform-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-cards-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-live-activities-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-personalize-experience-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/moengage-offerings-overlay.yaml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -326,13 +555,13 @@ modified: '2026-08-14'
 name: MoEngage
 nav: Providers
 network: true
-overview: 'MoEngage publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Data API, Campaigns API, Push API, and 7 more. Tagged areas include Customer Engagement, Marketing Automation, Customer Data Platform, Push Notifications, and Email.
+overview: 'MoEngage publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Bulk API, Business Events API, Campaign Reports API, and 42 more. Tagged areas include Customer Engagement, marketing-automation, customer-data-platform, Push Notifications, and Email.
 
 
   The MoEngage catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MoEngage''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
+  MoEngage''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 64 more developer resources.'
 plans:
 - name: Moengage Plans Pricing
   plan_count: 4
@@ -349,18 +578,23 @@ scopes:
   summary_line: 5 scopes
 score:
   band: exemplar
-  composite: 75.8
+  composite: 72.0
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 30.3
-    contract_quality: 65.7
+    contract_governance: 18.2
+    contract_quality: 67.9
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 63.0
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 75.8
+  previous_composite: 72.0
   provenance:
     conformance: first-party
     contracts:
@@ -372,12 +606,18 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moengage/refs/heads/main/screenshots/moengage-2026-08-07T184040.png
 security:
@@ -400,19 +640,19 @@ security:
 slug: moengage
 tags:
 - Customer Engagement
-- Marketing Automation
-- Customer Data Platform
+- marketing-automation
+- customer-data-platform
 - Push Notifications
 - Email
 - SMS
 - WhatsApp
-- In-App Messaging
-- Segmentation
-- Personalization
-- Campaign Management
+- in-app-messaging
+- segmentation
+- personalization
+- campaign-management
 - Analytics
-- Mobile SDK
+- mobile-sdk
 - MCP
-- MarTech
+- martech
 website: https://www.moengage.com/
 ---

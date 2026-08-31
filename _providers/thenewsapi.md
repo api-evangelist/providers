@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: thenewsapi-agentic-access
   summary_line: 6 operations
-api_count: 2
+api_count: 1
 apis:
 - description: News article retrieval and search
   name: TheNewsAPI news API
@@ -126,7 +126,7 @@ modified: '2026-06-13'
 name: TheNewsAPI
 nav: Providers
 network: true
-overview: 'TheNewsAPI publishes 2 APIs on the [APIs.io](https://apis.io/) network: news API and sources API. Tagged areas include News, Articles, Headlines, Media, and Aggregation.
+overview: 'TheNewsAPI publishes 2 APIs on the [APIs.io](https://apis.io/) network: news API and sources API. Tagged areas include News, Articles, headlines, Media, and Aggregation.
 
 
   The TheNewsAPI catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -156,7 +156,12 @@ rules:
 score:
   band: developing
   composite: 40.0
-  delta: 5.3
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 62.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
@@ -166,7 +171,7 @@ score:
     discoverability: 70.4
     governance: 9.8
     operational_transparency: 15.8
-  previous_composite: 34.7
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     contracts:
@@ -174,9 +179,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thenewsapi/refs/heads/main/screenshots/thenewsapi-2026-06-20T195250.png
 security:
 - kind: authentication
@@ -191,7 +196,7 @@ slug: thenewsapi
 tags:
 - News
 - Articles
-- Headlines
+- headlines
 - Media
 - Aggregation
 - Real-Time

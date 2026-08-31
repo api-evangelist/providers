@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: holvi-agentic-access
   summary_line: 9 operations · 4 acting
-api_count: 4
+api_count: 1
 apis:
 - description: AISP endpoints - read Holvi customer payment accounts and payments.
   name: Holvi Account Information API
@@ -73,6 +73,10 @@ collections:
   name: Holvi PSD2 Account Information Third Party Provider API
   slug: open-holvi-third-party-provider-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/holvi-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -196,19 +200,24 @@ network: true
 overview: 'Holvi publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Consent API, Payment Initiation API, and 1 more. Tagged areas include Company, Banking, Fintech, Payments, and Business Banking.
 
 
-  Holvi''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 20 more developer resources.'
+  Holvi''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 21 more developer resources.'
 random_paper: 0
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 46.5
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 18.2
     contract_quality: 56.3
     developer_ergonomics: 58.9
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
   previous_composite: 47.1
@@ -224,12 +233,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 36.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/screenshots/holvi-2026-07-25T221323.png
 security:

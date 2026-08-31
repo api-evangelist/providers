@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: codehooks-agentic-access
   summary_line: 15 operations · 11 acting
-api_count: 4
+api_count: 1
 apis:
 - description: 'Asynchronous CRUD lifecycle hooks (onBeforeCreate, onAfterCreate, onBeforeRead, onAfterRead, onBeforeUpdate, onAfterUpdate, onBeforeDelete, onAfterDelete) and queue worker processing (onQueueJob) for '
   name: Codehooks Events (AsyncAPI)
@@ -232,15 +232,20 @@ rules:
   slug: codehooks-rules
 score:
   band: developing
-  composite: 44.2
-  delta: 0.0
+  composite: 42.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.6
   facets:
-    access_clarity: 47.4
-    commercial_clarity: 47.4
+    access_clarity: 42.1
+    commercial_clarity: 42.1
     contract_governance: 13.6
     contract_quality: 68.1
     developer_ergonomics: 35.7
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 13.2
   previous_composite: 44.2
@@ -251,8 +256,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/screenshots/codehooks-2026-06-20T174700.png
 security:

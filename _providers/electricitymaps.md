@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: electricitymaps-agentic-access
   summary_line: 10 operations
-api_count: 7
+api_count: 1
 apis:
 - description: The Carbon Intensity API from Electricity Maps — 3 operation(s) for carbon intensity.
   name: Electricity Maps Carbon Intensity API
@@ -65,7 +65,22 @@ apis:
 - description: The Zones API from Electricity Maps — 1 operation(s) for zones.
   name: Electricity Maps Zones API
   slug: electricitymaps-zones-api
-artifact_total: 28
+- description: Carbon intensity (gCO2eq/kWh) signals.
+  name: Electricity Maps Carbon Intensity API
+  slug: electricitymaps-carbonintensity-api
+- description: Power production and consumption breakdown by source.
+  name: Electricity Maps Electricity Mix API
+  slug: electricitymaps-electricitymix-api
+- description: Total load, net load, and electricity flows between zones.
+  name: Electricity Maps Grid Metrics API
+  slug: electricitymaps-gridmetrics-api
+- description: Day-ahead electricity pricing.
+  name: Electricity Maps Pricing API
+  slug: electricitymaps-pricing-api
+- description: Renewable and carbon-free percentage signals.
+  name: Electricity Maps Renewables API
+  slug: electricitymaps-renewables-api
+artifact_total: 33
 collections:
 - collection_type: open
   name: API Collection
@@ -181,7 +196,7 @@ modified: '2026-08-08'
 name: Electricity Maps
 nav: Providers
 network: true
-overview: 'Electricity Maps publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Carbon Intensity API, Forecast API, Health API, and 4 more. Tagged areas include Energy, Carbon Intensity, Electricity, Grid, and Sustainability.
+overview: 'Electricity Maps publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Carbon Intensity API, Forecast API, Health API, and 9 more. Tagged areas include Energy, Carbon Intensity, Electricity, Grid, and Sustainability.
 
 
   Electricity Maps'' developer surface includes authentication, documentation, pricing, engineering blog, GitHub presence, and 9 more developer resources.'
@@ -196,18 +211,23 @@ rate_limits:
   slug: electricitymaps-rate-limits
 score:
   band: developing
-  composite: 41.5
-  delta: 1.5
+  composite: 40.3
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 55.6
+    contract_quality: 53.2
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 40.0
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -221,8 +241,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electricitymaps/refs/heads/main/screenshots/electricitymaps-2026-07-25T213108.png
 security:

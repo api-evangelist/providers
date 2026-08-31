@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: walgreens-agentic-access
   summary_line: 11 operations · 11 acting
-api_count: 7
+api_count: 3
 apis:
 - description: Enables developers to offer photo printing services at 8,000+ Walgreens and Duane Reade stores for same-day pickup. Supports native JSON API integration with potential revenue share commissions for qu
   name: Walgreens Photo Prints API
@@ -98,6 +98,10 @@ collections:
   name: Walgreens Vaccine Scheduling API
   slug: open-walgreens-vaccine-scheduling
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/walgreens-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -193,7 +197,7 @@ overview: 'Walgreens publishes 6 APIs on the [APIs.io](https://apis.io/) network
   The Walgreens catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Walgreens'' developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, and 6 more developer resources.'
+  Walgreens'' developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, and 7 more developer resources.'
 plans:
 - name: Walgreens Plans Pricing
   plan_count: 1
@@ -244,6 +248,11 @@ rules:
 score:
   band: developing
   composite: 41.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 26.3
@@ -268,8 +277,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/screenshots/walgreens-2026-06-20T201206.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 1
@@ -31,12 +31,39 @@ agentic_access:
   operation_count: 99
   slug: galatea-bio-agentic-access
   summary_line: 99 operations · 55 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
-- description: REST API (Swagger 2.0, 99 operations across 79 paths) for the Galatea Bio Octopod platform. Covers JWT authentication, source-file upload/validation, execution orders against named analysis models, ta
-  name: Octopod Ancestry API
-  slug: octopod-ancestry-api
-artifact_total: 7
+- description: The auth API from Galatea Bio — 5 operation(s) for auth.
+  name: Galatea Bio Auth API
+  slug: galatea-bio-auth-api
+- description: The credit API from Galatea Bio — 14 operation(s) for credit.
+  name: Galatea Bio Credit API
+  slug: galatea-bio-credit-api
+- description: The dashboard API from Galatea Bio — 7 operation(s) for dashboard.
+  name: Galatea Bio Dashboard API
+  slug: galatea-bio-dashboard-api
+- description: The data API from Galatea Bio — 12 operation(s) for data.
+  name: Galatea Bio Data API
+  slug: galatea-bio-data-api
+- description: The exec API from Galatea Bio — 11 operation(s) for exec.
+  name: Galatea Bio Exec API
+  slug: galatea-bio-exec-api
+- description: The internal API from Galatea Bio — 4 operation(s) for internal.
+  name: Galatea Bio Internal API
+  slug: galatea-bio-internal-api
+- description: The notification API from Galatea Bio — 3 operation(s) for notification.
+  name: Galatea Bio Notification API
+  slug: galatea-bio-notification-api
+- description: The organizations API from Galatea Bio — 13 operation(s) for organizations.
+  name: Galatea Bio Organizations API
+  slug: galatea-bio-organizations-api
+- description: The statistics API from Galatea Bio — 2 operation(s) for statistics.
+  name: Galatea Bio Statistics API
+  slug: galatea-bio-statistics-api
+- description: The users API from Galatea Bio — 8 operation(s) for users.
+  name: Galatea Bio Users API
+  slug: galatea-bio-users-api
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Galatea Bio Octopod Webhooks
@@ -154,7 +181,7 @@ modified: '2026-08-16'
 name: Galatea Bio
 nav: Providers
 network: true
-overview: 'Galatea Bio publishes 1 API on the [APIs.io](https://apis.io/) network: Octopod Ancestry API. Tagged areas include Genomics, Bioinformatics, Ancestry, Precision Medicine, and polygenic-risk-score.
+overview: 'Galatea Bio publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Credit API, Dashboard API, and 7 more. Tagged areas include genomics, bioinformatics, ancestry, precision-medicine, and polygenic-risk-score.
 
 
   The Galatea Bio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -172,18 +199,23 @@ rate_limits:
   slug: galatea-bio-rate-limits
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 34.1
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
-    contract_governance: 30.3
-    contract_quality: 57.0
+    contract_governance: 18.2
+    contract_quality: 56.2
     developer_ergonomics: 35.1
     discoverability: 68.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 35.8
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -200,8 +232,8 @@ score:
     regime: Health
     regime_id: health
     score: 27.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/screenshots/galatea-bio-2026-08-17T080949.png
 security:
@@ -215,16 +247,16 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: galatea-bio
 tags:
-- Genomics
-- Bioinformatics
-- Ancestry
-- Precision Medicine
+- genomics
+- bioinformatics
+- ancestry
+- precision-medicine
 - polygenic-risk-score
-- Clinical Laboratory
-- Genetic Testing
-- Biobank
-- Life Sciences
+- clinical-laboratory
+- genetic-testing
+- biobank
+- life-sciences
 - Health
-- Sequencing
+- sequencing
 website: https://galatea.bio/
 ---

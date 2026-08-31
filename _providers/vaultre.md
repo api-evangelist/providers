@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 390
   human_in_the_loop: 0
@@ -42,18 +42,159 @@ agentic_access:
   operation_count: 974
   slug: vaultre-agentic-access
   summary_line: 974 operations · 390 acting
-api_count: 3
+api_count: 4
 apis:
-- description: The core VaultRE REST API - the open API a third-party developer integrates an agency website or application against. Version 1.3 documents 324 paths and 453 operations covering contacts, properties a
-  name: VaultRE API
-  slug: vaultre-api
-- description: A distinct set of endpoints that operate at the integrator level rather than at an individual agency-account level, letting an approved integrator enumerate the accounts that have granted it an access
+- description: Operations related to property and agent advertising
+  name: VaultRE Advertising API
+  slug: vaultre-advertising-api
+- description: Operations related to AML checks
+  name: VaultRE Aml API
+  slug: vaultre-aml-api
+- description: Operations related to buildings
+  name: VaultRE Buildings API
+  slug: vaultre-buildings-api
+- description: Bulk operations
+  name: VaultRE Bulk API
+  slug: vaultre-bulk-api
+- description: Operations related to business properties
+  name: VaultRE Business Properties API
+  slug: vaultre-businessproperties-api
+- description: Operations related to calendar events
+  name: VaultRE Calendar API
+  slug: vaultre-calendar-api
+- description: Operations related to marketing campaigns
+  name: VaultRE Campaigns API
+  slug: vaultre-campaigns-api
+- description: Operations related to categories
+  name: VaultRE Categories API
+  slug: vaultre-categories-api
+- description: Operations related to clearing sales properties
+  name: VaultRE Clearing Sales Properties API
+  slug: vaultre-clearingsalesproperties-api
+- description: Operations related to commercial properties
+  name: VaultRE Commercial Properties API
+  slug: vaultre-commercialproperties-api
+- description: Operations related to conjunctional property deals
+  name: VaultRE Conjunctionals API
+  slug: vaultre-conjunctionals-api
+- description: Operations related to contacts
+  name: VaultRE Contacts API
+  slug: vaultre-contacts-api
+- description: Operations related to CoreLogic
+  name: VaultRE Corelogic API
+  slug: vaultre-corelogic-api
+- description: Operations related to commercial deals
+  name: VaultRE Deals API
+  slug: vaultre-deals-api
+- description: Operations related to email
+  name: VaultRE Email API
+  slug: vaultre-email-api
+- description: Operations related to listing enquiries
+  name: VaultRE Enquiries API
+  slug: vaultre-enquiries-api
+- description: Operations related to the event stream
+  name: VaultRE Event Stream API
+  slug: vaultre-eventstream-api
+- description: Operations related to property feedback
+  name: VaultRE Feedback API
+  slug: vaultre-feedback-api
+- description: Operations related to FMS leads
+  name: VaultRE Fmsleads API
+  slug: vaultre-fmsleads-api
+- description: Operations related to holiday rental properties
+  name: VaultRE Holiday Rental Properties API
+  slug: vaultre-holidayrentalproperties-api
+- description: Operations related to inspections
+  name: VaultRE Inspections API
+  slug: vaultre-inspections-api
+- description: Special endpoints for access by integrating partners
   name: VaultRE Integrator API
   slug: vaultre-integrator-api
-- description: A deliberately separate write-only ingestion API that lets other CRM systems feed property data into VaultRE on behalf of a franchise-group agency. Six documented operations accept staff records and p
-  name: VaultRE Aggregator API
-  slug: vaultre-aggregator-api
-artifact_total: 13
+- description: Operations related to invoices
+  name: VaultRE Invoices API
+  slug: vaultre-invoices-api
+- description: Operations related to property keys
+  name: VaultRE Keys API
+  slug: vaultre-keys-api
+- description: Operations related to land properties
+  name: VaultRE Land Properties API
+  slug: vaultre-landproperties-api
+- description: Operations related to distribution lists
+  name: VaultRE Lists API
+  slug: vaultre-lists-api
+- description: Operations related to livestock properties
+  name: VaultRE Livestock Properties API
+  slug: vaultre-livestockproperties-api
+- description: Operations related to maintenance jobs
+  name: VaultRE Maintenance API
+  slug: vaultre-maintenance-api
+- description: Operations related to merge fields for SMS and email templates
+  name: VaultRE Merge Fields API
+  slug: vaultre-mergefields-api
+- description: Operations related to franchise and user messages
+  name: VaultRE Messages API
+  slug: vaultre-messages-api
+- description: Operations related to open homes
+  name: VaultRE Openhomes API
+  slug: vaultre-openhomes-api
+- description: Operations related to precincts
+  name: VaultRE Precincts API
+  slug: vaultre-precincts-api
+- description: Operations related to properties
+  name: VaultRE Properties API
+  slug: vaultre-properties-api
+- description: Operations related to property offers
+  name: VaultRE Property Offer API
+  slug: vaultre-propertyoffer-api
+- description: Operations related to property offer conditions
+  name: VaultRE Property Offer Conditions API
+  slug: vaultre-propertyofferconditions-api
+- description: Operations related to property portal stats
+  name: VaultRE Property Stats API
+  slug: vaultre-propertystats-api
+- description: Operations related to REINZ
+  name: VaultRE Reinz API
+  slug: vaultre-reinz-api
+- description: Operations related to residential properties
+  name: VaultRE Residential Properties API
+  slug: vaultre-residentialproperties-api
+- description: Operations related to rural properties
+  name: VaultRE Rural Properties API
+  slug: vaultre-ruralproperties-api
+- description: Operations related to performing searches
+  name: VaultRE Search API
+  slug: vaultre-search-api
+- description: Operations related to SMS
+  name: VaultRE Sms API
+  slug: vaultre-sms-api
+- description: Operations related to staff
+  name: VaultRE Staff API
+  slug: vaultre-staff-api
+- description: Operations related to suburbs
+  name: VaultRE Suburbs API
+  slug: vaultre-suburbs-api
+- description: Operations related to suggest services
+  name: VaultRE Suggest API
+  slug: vaultre-suggest-api
+- description: Operations related to creditors / suppliers
+  name: VaultRE Suppliers API
+  slug: vaultre-suppliers-api
+- description: Operations related to tasks
+  name: VaultRE Tasks API
+  slug: vaultre-tasks-api
+- description: Operations related to SMS and email templates
+  name: VaultRE Templates API
+  slug: vaultre-templates-api
+- description: The tenancies API from VaultRE — 1 operation(s) for tenancies.
+  name: VaultRE Tenancies API
+  slug: vaultre-tenancies-api
+- description: Operations related to various VaultRE object types
+  name: VaultRE Types API
+  slug: vaultre-types-api
+- description: Operations related to users
+  name: VaultRE User API
+  slug: vaultre-user-api
+artifact_total: 60
 asyncapis:
 - description: ''
   name: Vaultre Webhooks
@@ -72,6 +213,26 @@ collections:
   name: VaultRE
   slug: open-vaultre-api-v1-3
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vaultre-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vaultre-api-v1-3-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vaultre-api-v1-2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vaultre-api-v1-1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vaultre-aggregator-api-v1-0-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -226,13 +387,13 @@ modified: '2026-07-26'
 name: VaultRE
 nav: Providers
 network: true
-overview: 'VaultRE publishes 3 APIs on the [APIs.io](https://apis.io/) network, including Integrator API, Aggregator API, and 1 more. Tagged areas include Real-Estate, Australia, New Zealand, PropTech, and CRM.
+overview: 'VaultRE publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Advertising API, Aml API, Buildings API, and 47 more. Tagged areas include Real-Estate, Australia, New Zealand, PropTech, and CRM.
 
 
   The VaultRE catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  VaultRE''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, code examples, signup flow, and 28 more developer resources.'
+  VaultRE''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, code examples, signup flow, and 33 more developer resources.'
 random_paper: 15
 scopes:
 - name: Vaultre Scopes
@@ -241,18 +402,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.8
+  composite: 50.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
-    contract_quality: 68.6
+    contract_governance: 4.5
+    contract_quality: 69.1
     developer_ergonomics: 58.9
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 52.8
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,8 +429,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vaultre/refs/heads/main/screenshots/vaultre-2026-07-27T125402.png
 security:

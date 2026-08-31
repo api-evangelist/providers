@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: trimble-agentic-access
   summary_line: 16 operations · 5 acting
-api_count: 15
+api_count: 2
 apis:
 - description: PC*MILER provides commercial vehicle routing and distance calculation APIs for logistics, freight, and transportation management. Delivers mileage, routing, tolls, and fuel optimization for trucking o
   name: Trimble PC*MILER API
@@ -119,6 +119,10 @@ collections:
   name: Trimble Connect BCF Topics Users API
   slug: open-trimble-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/trimble-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -288,7 +292,7 @@ overview: 'Trimble publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Trimble catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Trimble''s developer surface includes authentication, getting-started guide, engineering blog, and 11 more developer resources.'
+  Trimble''s developer surface includes authentication, getting-started guide, engineering blog, and 12 more developer resources.'
 plans:
 - name: Trimble Plans Pricing
   plan_count: 1
@@ -322,18 +326,23 @@ rules:
   slug: trimble-rules
 score:
   band: developing
-  composite: 40.7
-  delta: 1.9
+  composite: 40.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 28.8
     contract_quality: 69.0
     developer_ergonomics: 42.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 38.8
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     contracts:
@@ -341,8 +350,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/screenshots/trimble-2026-06-20T195713.png
 security:

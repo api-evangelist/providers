@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: amazon-lambda-agentic-access
   summary_line: 11 operations · 7 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Lambda event source mapping management
   name: Amazon Lambda Event Source Mappings API
@@ -299,7 +299,7 @@ modified: '2026-05-19'
 name: Amazon Lambda
 nav: Providers
 network: true
-overview: 'Amazon Lambda publishes 2 APIs on the [APIs.io](https://apis.io/) network: Event Source Mappings API and Functions API. Tagged areas include Compute, Event-Driven, Function-as-a-Service, Functions, and Serverless.
+overview: 'Amazon Lambda publishes 2 APIs on the [APIs.io](https://apis.io/) network: Event Source Mappings API and Functions API. Tagged areas include Compute, Event-Driven, FaaS, Functions, and Serverless.
 
 
   The Amazon Lambda catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -340,7 +340,12 @@ rules:
 score:
   band: strong
   composite: 63.3
-  delta: 8.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -350,7 +355,7 @@ score:
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 54.5
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     contracts:
@@ -358,9 +363,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lambda/refs/heads/main/screenshots/amazon-lambda-2026-06-20T171722.png
 security:
 - kind: authentication
@@ -383,7 +388,7 @@ slug: amazon-lambda
 tags:
 - Compute
 - Event-Driven
-- Function-as-a-Service
+- FaaS
 - Functions
 - Serverless
 use_cases:

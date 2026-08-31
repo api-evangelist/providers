@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: kushki-agentic-access
   summary_line: 28 operations · 20 acting
-api_count: 12
+api_count: 5
 apis:
 - description: 'Create, update, retrieve, charge, and cancel scheduled card subscriptions and one-click recurring payments. Plans support monthly, weekly, daily, biweekly, quarterly, and yearly periodicity, fixed or '
   name: Kushki Subscriptions API
@@ -212,11 +212,11 @@ common:
   url: https://github.com/Kushki/kushki-vtex
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/Kushki/kushki-backend-examples
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/Kushki/kushki-demo-php
 - group: other
   title: ''
@@ -370,7 +370,7 @@ overview: 'Kushki publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
   The Kushki catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Kushki''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, developer console, and 26 more developer resources.'
+  Kushki''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, code examples, and 26 more developer resources.'
 plans:
 - name: Kushki Plans Pricing
   plan_count: 6
@@ -405,6 +405,11 @@ rules:
 score:
   band: developing
   composite: 51.8
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
@@ -429,8 +434,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/screenshots/kushki-2026-06-20T184217.png
 security:
@@ -455,7 +460,7 @@ tags:
 - PSE
 - Webpay
 - SPEI
-- Pix
+- PIX
 - OXXO
 - PagoEfectivo
 - Fintech

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 51
   slug: lean-tech-agentic-access
   summary_line: 51 operations · 14 acting
-api_count: 19
+api_count: 11
 apis:
 - description: The Account on File API from Lean Technologies — 1 operation(s) for account on file.
   name: Lean Technologies Account on File API
@@ -254,6 +254,10 @@ collections:
   name: Lean Verifications API
   slug: open-lean-verifications-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lean-tech-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -404,7 +408,7 @@ overview: 'Lean Technologies publishes 19 APIs on the [APIs.io](https://apis.io/
   The Lean Technologies catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Lean Technologies'' developer surface includes authentication, developer portal, documentation, developer console, support, engineering blog, and 20 more developer resources.'
+  Lean Technologies'' developer surface includes authentication, developer portal, documentation, developer console, support, engineering blog, and 21 more developer resources.'
 plans:
 - name: Lean Tech Plans Pricing
   plan_count: 5
@@ -438,18 +442,23 @@ rules:
   slug: lean-tech-rules
 score:
   band: developing
-  composite: 52.9
+  composite: 54.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 31.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 28.8
-    contract_quality: 56.6
+    contract_quality: 61.1
     developer_ergonomics: 61.9
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 52.9
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     contracts:
@@ -463,8 +472,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 35.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/screenshots/lean-tech-2026-06-20T184402.png
 security:
@@ -496,7 +505,7 @@ tags:
 - A2A
 - Account Information
 - Payment Initiation
-- Verification
+- Verifications
 - Identity
 - Fintech
 website: https://www.leantech.me

@@ -1,16 +1,17 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Contact sales
   onboarding: unknown
-  pricing: freemium
+  pricing: unknown
   public: false
   source:
-  - plans
+  - plans/adaptive-shield-plans-pricing.yml
+  - https://www.crowdstrike.com/en-us/pricing/
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +25,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,14 +33,14 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 5.0
-  scored_at: '2026-08-26'
+  score: 8.5
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'The Adaptive Shield REST API v1 provides programmatic access to SaaS security posture data including alerts, user and device inventory, integration configurations, security check results, violations, '
   name: Adaptive Shield REST API
   slug: adaptive-shield-api
-artifact_total: 27
+artifact_total: 28
 common:
 - group: auth
   title: ''
@@ -64,23 +65,63 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.crowdstrike.com/platform/falcon-shield/
+  url: https://www.crowdstrike.com/en-us/platform/falcon-shield/
 - group: start
   title: ''
   type: Portal
-  url: https://www.crowdstrike.com/platform/falcon-shield/
+  url: https://www.crowdstrike.com/en-us/platform/falcon-shield/
 - group: company
   title: ''
   type: Blog
-  url: https://www.adaptive-shield.com/blog/
+  url: https://www.crowdstrike.com/en-us/blog/
 - group: other
   title: ''
   type: Resources
-  url: https://www.adaptive-shield.com/resources
+  url: https://www.crowdstrike.com/en-us/resources/
 - group: operate
   title: ''
   type: Support
-  url: https://www.adaptive-shield.com/support
+  url: https://supportportal.crowdstrike.com/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/adaptive-shield-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/adaptive-shield-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/adaptive-shield-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/adaptive-shield-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/adaptive-shield-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/adaptive-shield-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/adaptive-shield-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/adaptive-shield-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.crowdstrike.com/en-us/legal/privacy-notice/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.crowdstrike.com/en-us/legal/terms-conditions/
 created: '2026-03-27'
 description: Adaptive Shield (now CrowdStrike Falcon Shield) is a SaaS Security Posture Management (SSPM) platform that continuously monitors, remediates, and governs SaaS application security configurations and identity risks. Acquired by CrowdStrike, the platform covers 200+ SaaS integrations with over 3,500 built-in security checks, helping organizations detect misconfigurations, manage human and non-human identities, discover shadow applications, and maintain compliance across their entire SaaS stack. The REST API (v1) enables programmatic access to alerts, user inventory, device inventory, integrations, security checks, and compliance data.
 features:
@@ -121,42 +162,51 @@ integrations:
 - description: Native integration with CrowdStrike Falcon platform following acquisition.
   name: CrowdStrike Falcon
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-30'
 name: Adaptive Shield
 nav: Providers
 network: true
 overview: 'Adaptive Shield publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include SaaS Security, SSPM, Security Posture Management, Cybersecurity, and Cloud Security.
 
 
-  Adaptive Shield''s developer surface includes developer portal, engineering blog, support, and 7 more developer resources.'
+  Adaptive Shield''s developer surface includes developer portal, engineering blog, support, and 17 more developer resources.'
 plans:
 - name: Adaptive Shield Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: adaptive-shield-plans-pricing
 random_paper: 12
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Adaptive Shield Rate Limits
   slug: adaptive-shield-rate-limits
 score:
-  band: emerging
-  composite: 18.0
-  delta: 3.1
+  band: thin
+  composite: 27.2
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 9.2
   facets:
-    access_clarity: 23.7
-    commercial_clarity: 23.7
-    contract_governance: 0.0
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 29.8
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 14.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    developer_ergonomics: 28.6
+    discoverability: 75.9
+    governance: 18.2
+    operational_transparency: 21.1
+  previous_composite: 18.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-shield/refs/heads/main/screenshots/adaptive-shield-2026-06-20T164619.png
 security:
+- kind: authentication
+  name: Adaptive Shield Authentication
+  slug: adaptive-shield-authentication
+  summary_line: 1 scheme
 - kind: domain-security
   name: Adaptive Shield Domain Security
   slug: adaptive-shield-domain-security
@@ -189,5 +239,5 @@ use_cases:
   name: Third-Party App Risk Management
 - description: Pull SaaS security alerts and posture data into SIEM and SOAR platforms via the REST API for unified security operations workflows.
   name: Security Operations Integration
-website: https://www.crowdstrike.com/platform/falcon-shield/
+website: https://www.crowdstrike.com/en-us/platform/falcon-shield/
 ---

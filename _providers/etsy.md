@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 103
   slug: etsy-agentic-access
   summary_line: 103 operations · 42 acting
-api_count: 28
+api_count: 1
 apis:
 - description: AsyncAPI 2.6 description of Etsy's outbound webhook surface for the Open API v3. Covers the four documented event types (order.paid, order.canceled, order.shipped, order.delivered), the common webhook
   name: Etsy Open API v3 Webhooks
@@ -274,6 +274,10 @@ collections:
   name: Etsy Open API v3 BuyerTaxonomy UserAddress API
   slug: open-etsy-useraddress-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/etsy-capability-edges.yml
 - group: operate
   title: ''
   type: Releases
@@ -1278,7 +1282,7 @@ overview: 'Etsy publishes 28 APIs on the [APIs.io](https://apis.io/) network, in
   The Etsy catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Etsy''s developer surface includes authentication, documentation, pricing, support, changelog, tooling, and 44 more developer resources.'
+  Etsy''s developer surface includes authentication, documentation, pricing, support, changelog, tooling, and 45 more developer resources.'
 plans:
 - name: Etsy Plans Pricing
   plan_count: 3
@@ -1328,17 +1332,25 @@ scopes:
   summary_line: 20 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.1
-  delta: 0.0
+  composite: 61.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.4
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 28.8
     contract_quality: 73.6
     developer_ergonomics: 47.6
-    discoverability: 59.3
+    discoverability: 53.7
     governance: 28.8
     operational_transparency: 60.5
+  open_source:
+    applies: true
+    score: 40.0
   previous_composite: 64.1
   provenance:
     agentic_access: derived
@@ -1353,8 +1365,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/screenshots/etsy-2026-06-20T180847.png
 security:

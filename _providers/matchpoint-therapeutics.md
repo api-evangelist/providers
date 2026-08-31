@@ -23,36 +23,36 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 9
 apis:
-- description: The `team` custom post type — 19 published biographies at harvest time covering the executive team, board of directors, board observers and the scientific founders. The only company-specific content t
-  name: Matchpoint Therapeutics Team API
-  slug: matchpoint-therapeutics-team-api
-- description: News archive — company press releases and third-party coverage (5 published at harvest time), spanning the October 2022 launch through the July 2025 Novartis agreement.
-  name: Matchpoint Therapeutics Posts API
-  slug: matchpoint-therapeutics-posts-api
-- description: Corporate pages (3 published at harvest time) — the single-page homepage, the privacy policy and the terms of use. Science, Approach, Leadership and Careers are anchors within the homepage, not separa
-  name: Matchpoint Therapeutics Pages API
-  slug: matchpoint-therapeutics-pages-api
-- description: Media library — 43 image attachments at harvest time (22 PNG, 21 JPEG).
-  name: Matchpoint Therapeutics Media API
-  slug: matchpoint-therapeutics-media-api
-- description: Cross-content search across published posts, pages and team members. An unfiltered query returned 27 matches at harvest time.
-  name: Matchpoint Therapeutics Search API
-  slug: matchpoint-therapeutics-search-api
-- description: Route, type, taxonomy and status discovery documents. The 222-route index at /wp-json/ is the only machine-readable contract this provider publishes and the source every artifact here was derived from
-  name: Matchpoint Therapeutics Discovery API
-  slug: matchpoint-therapeutics-discovery-api
-- description: Categories, post tags and the team_types taxonomy. One category term exists (uncategorized); post_tag and team_types are registered but carry zero terms.
-  name: Matchpoint Therapeutics Taxonomy API
-  slug: matchpoint-therapeutics-taxonomy-api
-- description: oEmbed 1.0 provider endpoint for matchpointtx.com URLs. The sibling /oembed/1.0/proxy route returned 401 and is excluded.
-  name: Matchpoint Therapeutics oEmbed API
-  slug: matchpoint-therapeutics-oembed-api
-- description: Comment collection. Registered and anonymously reachable, but empty — no object on this deployment carries comments.
+- description: Comment collection. Registered and reachable, but empty — no object on this deployment carries comments.
   name: Matchpoint Therapeutics Comments API
   slug: matchpoint-therapeutics-comments-api
+- description: Route, type, taxonomy and status discovery documents.
+  name: Matchpoint Therapeutics Discovery API
+  slug: matchpoint-therapeutics-discovery-api
+- description: Media library — 43 image attachments at harvest time.
+  name: Matchpoint Therapeutics Media API
+  slug: matchpoint-therapeutics-media-api
+- description: oEmbed 1.0 provider endpoint for matchpointtx.com URLs.
+  name: Matchpoint Therapeutics Oembed API
+  slug: matchpoint-therapeutics-oembed-api
+- description: Corporate pages — homepage, privacy policy, terms of use (3 published at harvest time).
+  name: Matchpoint Therapeutics Pages API
+  slug: matchpoint-therapeutics-pages-api
+- description: News archive — company press releases and third-party coverage (5 published at harvest time).
+  name: Matchpoint Therapeutics Posts API
+  slug: matchpoint-therapeutics-posts-api
+- description: Cross-content search across published objects.
+  name: Matchpoint Therapeutics Search API
+  slug: matchpoint-therapeutics-search-api
+- description: Categories, post tags and the team_types taxonomy. Only one category term exists; post_tag and team_types are registered but empty.
+  name: Matchpoint Therapeutics Taxonomy API
+  slug: matchpoint-therapeutics-taxonomy-api
+- description: Leadership, board, observers and scientific founders as a custom post type (19 published at harvest time).
+  name: Matchpoint Therapeutics Team API
+  slug: matchpoint-therapeutics-team-api
 artifact_total: 13
 common:
 - group: company
@@ -152,7 +152,7 @@ modified: '2026-08-25'
 name: Matchpoint Therapeutics
 nav: Providers
 network: true
-overview: 'Matchpoint Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Team API, Posts API, Pages API, and 6 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Drug Discovery, and Immunology.
+overview: 'Matchpoint Therapeutics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Discovery API, Media API, and 6 more. Tagged areas include Company, biotechnology, pharmaceuticals, drug-discovery, and immunology.
 
 
   Matchpoint Therapeutics'' developer surface includes authentication and 21 more developer resources.'
@@ -167,16 +167,23 @@ rate_limits:
   slug: matchpoint-therapeutics-rate-limits
 score:
   band: thin
-  composite: 28.8
+  composite: 28.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 53.5
     developer_ergonomics: 13.7
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 0.0
+  previous_composite: 28.0
   provenance:
     conformance: derived
     contracts:
@@ -192,8 +199,9 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Matchpoint Therapeutics Authentication
@@ -206,14 +214,14 @@ security:
 slug: matchpoint-therapeutics
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Drug Discovery
-- Immunology
-- Covalent Chemistry
-- Chemoproteomics
-- Machine Learning
-- Life Sciences
+- biotechnology
+- pharmaceuticals
+- drug-discovery
+- immunology
+- covalent-chemistry
+- chemoproteomics
+- machine-learning
+- life-sciences
 - content-api
 website: https://matchpointtx.com/
 ---

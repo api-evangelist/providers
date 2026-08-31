@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Agentio's hosted, remote Model Context Protocol server. A brand adds https://mcp.agentio.com/mcp to any MCP client (Claude, ChatGPT, or any other custom-connector host), authorizes over OAuth 2.1, and
@@ -153,7 +153,7 @@ modified: '2026-08-12'
 name: Agentio
 nav: Providers
 network: true
-overview: 'Agentio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AdTech, Advertising, Creator Economy, and Influencer Marketing.
+overview: 'Agentio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Adtech, Advertising, Creator Economy, and Influencer Marketing.
 
 
   Agentio''s developer surface includes engineering blog, support, documentation, getting-started guide, signup flow, authentication, and 19 more developer resources.'
@@ -173,7 +173,12 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 28.2
+  composite: 27.1
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -181,15 +186,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 40.5
-    discoverability: 79.6
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 28.2
+  previous_composite: 27.1
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentio/refs/heads/main/screenshots/agentio-2026-07-25T181800.png
 security:
@@ -208,7 +213,7 @@ security:
 slug: agentio
 tags:
 - Company
-- AdTech
+- Adtech
 - Advertising
 - Creator Economy
 - Influencer Marketing

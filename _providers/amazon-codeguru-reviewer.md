@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 14
   slug: amazon-codeguru-reviewer-agentic-access
   summary_line: 14 operations · 6 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The Associations API from Amazon CodeGuru Reviewer — 2 operation(s) for associations.
   name: Amazon CodeGuru Reviewer Associations API
@@ -1160,18 +1160,23 @@ rules:
   slug: amazon-codeguru-reviewer-spectral-rules
 score:
   band: developing
-  composite: 49.7
-  delta: 1.4
+  composite: 46.5
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 68.0
     developer_ergonomics: 35.7
-    discoverability: 92.6
-    governance: 45.5
+    discoverability: 75.9
+    governance: 33.3
     operational_transparency: 18.4
-  previous_composite: 48.3
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1181,8 +1186,8 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-reviewer/refs/heads/main/screenshots/amazon-codeguru-reviewer-2026-07-25T200004.png
 security:

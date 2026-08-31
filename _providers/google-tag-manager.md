@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 44
   slug: google-tag-manager-agentic-access
   summary_line: 44 operations · 26 acting
-api_count: 9
+api_count: 2
 apis:
 - description: The Server-side Tagging API provides APIs for building custom tags, clients, and variables that run in a server-side container, enabling server-to-server data collection and processing.
   name: Google Tag Manager Server-side Tagging API
@@ -144,6 +144,10 @@ collections:
   name: Google Tag Manager Accounts Workspaces API
   slug: open-google-tag-manager-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/google-tag-manager-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -815,7 +819,7 @@ overview: 'Google Tag Manager publishes 8 APIs on the [APIs.io](https://apis.io/
   The Google Tag Manager catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Google Tag Manager''s developer surface includes sandbox, pricing, API reference, changelog, authentication, developer portal, getting-started guide, and 58 more developer resources.'
+  Google Tag Manager''s developer surface includes sandbox, pricing, API reference, changelog, authentication, developer portal, getting-started guide, and 59 more developer resources.'
 plans:
 - name: Google Tag Manager Plans Pricing
   plan_count: 2
@@ -853,19 +857,24 @@ scopes:
   slug: google-tag-manager-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 67.1
-  delta: 0.0
+  band: strong
+  composite: 64.7
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_governance: 43.9
+    contract_governance: 31.8
     contract_quality: 68.6
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 43.9
+    discoverability: 83.3
+    governance: 31.8
     operational_transparency: 34.2
-  previous_composite: 67.1
+  previous_composite: 65.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -876,8 +885,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/screenshots/google-tag-manager-2026-06-20T182239.png
 security:

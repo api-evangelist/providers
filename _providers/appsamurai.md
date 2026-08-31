@@ -33,16 +33,31 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
 - description: The Campaign Spend API from Appsamurai — 1 operation(s) for campaign spend.
   name: Appsamurai Campaign Spend API
   slug: appsamurai-campaign-spend-api
-- description: The Storyly External API manages apps, instances, story groups, stories, audiences and segments for Storyly, App Samurai's in-app content experience product — 18 operations across 8 paths, authenticat
-  name: Appsamurai Storyly External API
-  slug: appsamurai-storyly-external-api
-artifact_total: 11
+- description: App management endpoints
+  name: Appsamurai App API
+  slug: appsamurai-app-api
+- description: Audience management endpoints
+  name: Appsamurai Audience API
+  slug: appsamurai-audience-api
+- description: Instance management endpoints
+  name: Appsamurai Instance API
+  slug: appsamurai-instance-api
+- description: Segment management endpoints
+  name: Appsamurai Segment API
+  slug: appsamurai-segment-api
+- description: Story management endpoints
+  name: Appsamurai Story API
+  slug: appsamurai-story-api
+- description: Story group management endpoints
+  name: Appsamurai Story Group API
+  slug: appsamurai-story-group-api
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -54,6 +69,10 @@ collections:
   name: Storyly External API
   slug: open-appsamurai-storyly-external-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/appsamurai-storyly-external-api-overlay.yaml
 - group: other
   title: ''
   type: Overlay
@@ -211,10 +230,10 @@ modified: '2026-08-13'
 name: Appsamurai
 nav: Providers
 network: true
-overview: 'Appsamurai publishes 2 APIs on the [APIs.io](https://apis.io/) network: Campaign Spend API and Storyly External API. Tagged areas include Company, Mobile, Advertising, User Acquisition, and Marketing.
+overview: 'Appsamurai publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Campaign Spend API, App API, Audience API, and 4 more. Tagged areas include Company, Mobile, Advertising, User Acquisition, and Marketing.
 
 
-  Appsamurai''s developer surface includes documentation, support, engineering blog, signup flow, authentication, API reference, changelog, and 29 more developer resources.'
+  Appsamurai''s developer surface includes documentation, support, engineering blog, signup flow, authentication, API reference, changelog, and 30 more developer resources.'
 plans:
 - name: Appsamurai Plans Pricing
   plan_count: 3
@@ -226,18 +245,23 @@ rate_limits:
   slug: appsamurai-rate-limits
 score:
   band: developing
-  composite: 51.5
+  composite: 49.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_governance: 30.3
-    contract_quality: 37.8
+    contract_governance: 18.2
+    contract_quality: 38.8
     developer_ergonomics: 55.4
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 51.5
+  previous_composite: 49.8
   provenance:
     conformance: first-party
     contracts:
@@ -247,8 +271,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/screenshots/appsamurai-2026-07-25T200844.png
 security:

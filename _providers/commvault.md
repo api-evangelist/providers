@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 60
   slug: commvault-agentic-access
   summary_line: 60 operations · 25 acting · 2 human-in-the-loop
-api_count: 24
+api_count: 3
 apis:
 - description: Manage backup agents installed on clients
   name: Commvault Agents API
@@ -412,7 +412,12 @@ rules:
 score:
   band: developing
   composite: 40.7
-  delta: 1.4
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -422,7 +427,7 @@ score:
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 15.8
-  previous_composite: 39.3
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     contracts:
@@ -430,8 +435,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commvault/refs/heads/main/screenshots/commvault-2026-06-20T174828.png
 security:

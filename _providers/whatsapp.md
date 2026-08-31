@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 43
   slug: whatsapp-agentic-access
   summary_line: 43 operations · 27 acting
-api_count: 17
+api_count: 2
 apis:
 - description: 'API for creating structured, interactive forms and multi-step flows within WhatsApp conversations, enabling appointment booking, surveys, lead capture, and other guided experiences using a JSON-based '
   name: WhatsApp Flows API
@@ -211,6 +211,18 @@ collections:
   name: WhatsApp Business Management Analytics Two-Step Verification API
   slug: open-whatsapp-two-step-verification-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/WhatsApp/WhatsApp-Flows-Tools/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/WhatsApp/WhatsApp-Flows-Tools/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/WhatsApp/WhatsApp-Flows-Tools/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -776,7 +788,7 @@ overview: 'WhatsApp publishes 17 APIs on the [APIs.io](https://apis.io/) network
   The WhatsApp catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  WhatsApp''s developer surface includes authentication, getting-started guide, changelog, engineering blog, support, developer console, Stack Overflow tag, and 41 more developer resources.'
+  WhatsApp''s developer surface includes authentication, getting-started guide, changelog, engineering blog, support, developer console, Stack Overflow tag, and 44 more developer resources.'
 plans:
 - name: Whatsapp Plans Pricing
   plan_count: 2
@@ -821,18 +833,26 @@ rules:
   slug: whatsapp-spectral-rules
 score:
   band: developing
-  composite: 54.2
-  delta: 4.3
+  composite: 52.3
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 62.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 13.6
     contract_quality: 78.3
     developer_ergonomics: 76.2
-    discoverability: 40.7
+    discoverability: 35.2
     governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 49.9
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     contracts:
@@ -844,8 +864,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/screenshots/whatsapp-2026-06-20T201434.png
 security:

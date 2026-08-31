@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Partner GraphQL API for onboarding 401(k)/403(b) retirement plans, OpenID Connect single sign-on, and webhook event subscriptions.
@@ -137,7 +137,7 @@ modified: '2026-07-19'
 name: Human Interest
 nav: Providers
 network: true
-overview: 'Human Interest publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Retirement, 401k, and Employee Benefits.
+overview: 'Human Interest publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Retirement, 401(k), and Employee Benefits.
 
 
   The Human Interest catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -148,6 +148,11 @@ random_paper: 11
 score:
   band: thin
   composite: 38.7
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
@@ -161,8 +166,8 @@ score:
   previous_composite: 38.7
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/human-interest/refs/heads/main/screenshots/human-interest-2026-07-25T221647.png
 security:
@@ -187,7 +192,7 @@ tags:
 - Company
 - Fintech
 - Retirement
-- 401k
+- 401(k)
 - Employee Benefits
 - Payroll
 - GraphQL

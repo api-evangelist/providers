@@ -12,20 +12,21 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.4
-  scored_at: '2026-08-26'
+  score: 44.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 37
   slug: dynatrace-agentic-access
   summary_line: 37 operations · 15 acting
-api_count: 34
+api_count: 6
 apis:
 - description: The Dynatrace Environment API provides access to monitoring data and configuration settings for a specific Dynatrace environment. It includes endpoints for metrics, problems, events, logs, entities, s
   name: Dynatrace Environment API
@@ -192,7 +193,7 @@ arazzos:
 - description: Resolve a service by name, read its details, and list problems impacting it.
   name: Dynatrace Find Problems Affecting a Named Service
   slug: dynatrace-service-problem-lookup-workflow
-artifact_total: 529
+artifact_total: 530
 asyncapis:
 - description: Dynatrace delivers problem lifecycle notifications to client-provided webhook endpoints via HTTP POST. When a problem is opened, updated, merged, or resolved, Dynatrace sends a notification payload to
   name: Dynatrace Problem Notifications API
@@ -265,6 +266,14 @@ collections:
   name: Dynatrace Account Management Entities Users API
   slug: open-dynatrace-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.dynatrace.com/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dynatrace-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -388,7 +397,7 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.dynatrace.com/company/trust-center/terms/
+  url: https://www.dynatrace.com/company/trust-center/terms-of-use/
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -581,6 +590,166 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/dynatrace-problems-webhook-notification-config-context.jsonld
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/dynatrace-account-management-api-openapi.json
+- group: build
+  title: ''
+  type: Packages
+  url: packages/dynatrace-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/dynatrace-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/dynatrace-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/dynatrace-security.txt
+- group: other
+  title: ''
+  type: OpenIDConnect
+  url: well-known/dynatrace-openid-configuration.json
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/dynatrace-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/dynatrace-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/dynatrace-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/dynatrace-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/dynatrace-trust-center.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/dynatrace-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/dynatrace-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.dynatrace.com/docs/discover-dynatrace/references/dynatrace-api/basics/deprecation-migration-guides
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/dynatrace-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/dynatrace-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/dynatrace-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/dynatrace-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/dynatrace-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/dynatrace-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/dynatrace-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/dynatrace-finops.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/dynatrace-problems-asyncapi.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/dynatrace-triage-problem.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/dynatrace-ingest-telemetry.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/dynatrace-manage-account-access.md
+- group: other
+  title: ''
+  type: Marketplace
+  url: https://www.dynatrace.com/hub/detail/dynatrace-mcp-server/
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dynatrace-entities-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dynatrace-environments-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dynatrace-events-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dynatrace-groups-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dynatrace-logs-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dynatrace-metrics-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dynatrace-permissions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dynatrace-problems-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dynatrace-users-overlay.yaml
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.dynatrace.com/signup/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/kinlaneapi/dynatrace/overview
+- group: start
+  title: ''
+  type: Trial
+  url: https://www.dynatrace.com/trial/
 created: '2025-01-08'
 description: Dynatrace is a software intelligence platform that provides application performance monitoring, artificial intelligence for operations, cloud infrastructure monitoring, and digital experience management.
 examples:
@@ -1857,7 +2026,11 @@ jsonld:
   property_count: 8
   slug: dynatrace-problems-webhook-notification-config-context
 layout: provider
-modified: '2026-04-18'
+mcp_servers:
+- description: Dynatrace ships an officially supported REMOTE Model Context Protocol server named `dynatrace-mcp`, hosted inside each customer's own Dynatrace SaaS environment and reached over Streamable HTTP at a p
+  name: Dynatrace MCP Server
+  slug: dynatrace-mcp-server
+modified: '2026-08-29'
 name: Dynatrace
 nav: Providers
 network: true
@@ -1867,14 +2040,14 @@ overview: 'Dynatrace publishes 9 APIs on the [APIs.io](https://apis.io/) network
   The Dynatrace catalog on APIs.io includes 1 event-driven AsyncAPI specification, 21 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Dynatrace''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, changelog, support, and 72 more developer resources.'
+  Dynatrace''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, changelog, support, and 114 more developer resources.'
 plans:
 - name: Dynatrace Plans Pricing
   plan_count: 12
   slug: dynatrace-plans-pricing
 random_paper: 10
 rate_limits:
-- limit_count: 6
+- limit_count: 8
   name: Dynatrace Rate Limits
   slug: dynatrace-rate-limits
 rules:
@@ -1917,18 +2090,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 71.8
+  composite: 77.4
+  coverage:
+    artifact_dirs: 37
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
-    access_clarity: 68.4
-    commercial_clarity: 68.4
-    contract_governance: 28.8
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 47.0
     contract_quality: 88.2
-    developer_ergonomics: 92.9
-    discoverability: 68.5
-    governance: 28.8
-    operational_transparency: 55.3
-  previous_composite: 71.8
+    developer_ergonomics: 88.1
+    discoverability: 75.9
+    governance: 47.0
+    operational_transparency: 71.1
+  previous_composite: 77.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1936,8 +2114,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/screenshots/dynatrace-2026-06-20T180345.png
 security:
@@ -2022,5 +2200,5 @@ use_cases:
   name: Security Posture Management
 - description: Proactively monitor application availability and performance with browser-based and HTTP synthetic tests from global locations.
   name: Synthetic Testing
-website: https://developer.dynatrace.com/
+website: https://www.dynatrace.com/
 ---

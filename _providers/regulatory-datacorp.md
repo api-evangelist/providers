@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/moodys-corporation/
 created: '2026-07-17'
 description: Regulatory DataCorp (RDC) was a risk and compliance intelligence company whose flagship GRID (Global Regulatory Information Database) powered KYC, AML, and third-party/financial-crime screening. RDC was acquired by Moody's Corporation in 2020 and fully absorbed into Moody's risk and KYC product line; it no longer operates as a standalone entity. The former rdc.com and regulatorydatacorp.com domains are parked on Moody's nameservers with no live site, developer portal, or public API. Surfaced as a portfolio-company lead of bain-capital-ventures; no independent API surface exists to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/regulatory-datacorp.png
@@ -48,6 +53,11 @@ random_paper: 19
 score:
   band: minimal
   composite: 5.0
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -67,8 +77,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: regulatory-datacorp
 tags:

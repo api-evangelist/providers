@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 3
   slug: magic-link-agentic-access
   summary_line: 3 operations · 1 acting
-api_count: 4
+api_count: 1
 apis:
 - description: 'REST API for backend integrations: validate Magic-issued DID tokens, fetch user metadata, log out users, and manage white-label policies.'
   name: Magic Admin API
@@ -134,18 +134,23 @@ rate_limits:
   slug: magic-link-rate-limits
 score:
   band: emerging
-  composite: 17.4
-  delta: 1.9
+  composite: 16.8
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 13.6
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 15.5
+  previous_composite: 17.4
   provenance:
     agentic_access: derived
     contracts:
@@ -159,8 +164,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

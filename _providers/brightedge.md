@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 248
   slug: brightedge-agentic-access
   summary_line: 248 operations · 144 acting · 2 human-in-the-loop
-api_count: 45
+api_count: 1
 apis:
 - description: Operation related to accounts
   name: BrightEdge accounts API
@@ -68,24 +68,12 @@ apis:
 - description: The chrome_extension API from BrightEdge — 12 operation(s) for chrome_extension.
   name: BrightEdge chrome_extension API
   slug: brightedge-chrome-extension-api
-- description: The Chrome Extension Keywords API from BrightEdge — 6 operation(s) for chrome extension keywords.
-  name: BrightEdge Chrome Extension Keywords API
-  slug: brightedge-chrome-extension-keywords-api
-- description: The Chrome Extension Overview API from BrightEdge — 6 operation(s) for chrome extension overview.
-  name: BrightEdge Chrome Extension Overview API
-  slug: brightedge-chrome-extension-overview-api
 - description: Supports ChromeExtension functionality.
   name: BrightEdge chromeextension API
   slug: brightedge-chromeextension-api
-- description: The competitors API from BrightEdge — 4 operation(s) for competitors.
-  name: BrightEdge competitors API
-  slug: brightedge-competitors-api
 - description: The core API from BrightEdge — 6 operation(s) for core.
   name: BrightEdge core API
   slug: brightedge-core-api
-- description: The datacube_searchengines API from BrightEdge — 2 operation(s) for datacube_searchengines.
-  name: BrightEdge datacube_searchengines API
-  slug: brightedge-datacube-searchengines-api
 - description: APIs for brightedge dataset
   name: BrightEdge dataset API
   slug: brightedge-dataset-api
@@ -116,33 +104,12 @@ apis:
 - description: Operation related to organizations
   name: BrightEdge organizations API
   slug: brightedge-organizations-api
-- description: The paa per keyword API from BrightEdge — 4 operation(s) for paa per keyword.
-  name: BrightEdge paa per keyword API
-  slug: brightedge-paa-per-keyword-api
-- description: The page cache API from BrightEdge — 4 operation(s) for page cache.
-  name: BrightEdge page cache API
-  slug: brightedge-page-cache-api
-- description: The page crawl API from BrightEdge — 4 operation(s) for page crawl.
-  name: BrightEdge page crawl API
-  slug: brightedge-page-crawl-api
 - description: The Pages API from BrightEdge — 2 operation(s) for pages.
   name: BrightEdge Pages API
   slug: brightedge-pages-api
-- description: The people_also_ask API from BrightEdge — 8 operation(s) for people_also_ask.
-  name: BrightEdge people_also_ask API
-  slug: brightedge-people-also-ask-api
-- description: The ping API from BrightEdge — 4 operation(s) for ping.
-  name: BrightEdge ping API
-  slug: brightedge-ping-api
 - description: APIs for product grid
   name: BrightEdge product_grid API
   slug: brightedge-product-grid-api
-- description: The qa API from BrightEdge — 2 operation(s) for qa.
-  name: BrightEdge qa API
-  slug: brightedge-qa-api
-- description: Retrieving data with BQL queries
-  name: BrightEdge query API
-  slug: brightedge-query-api
 - description: The recommendations API from BrightEdge — 6 operation(s) for recommendations.
   name: BrightEdge recommendations API
   slug: brightedge-recommendations-api
@@ -155,15 +122,6 @@ apis:
 - description: Operation related to time
   name: BrightEdge time API
   slug: brightedge-time-api
-- description: The top keywords for a domain API from BrightEdge — 4 operation(s) for top keywords for a domain.
-  name: BrightEdge top keywords for a domain API
-  slug: brightedge-top-keywords-for-a-domain-api
-- description: The top keywords per page API from BrightEdge — 4 operation(s) for top keywords per page.
-  name: BrightEdge top keywords per page API
-  slug: brightedge-top-keywords-per-page-api
-- description: The top pages API from BrightEdge — 4 operation(s) for top pages.
-  name: BrightEdge top pages API
-  slug: brightedge-top-pages-api
 - description: The user_settings API from BrightEdge — 4 operation(s) for user_settings.
   name: BrightEdge user_settings API
   slug: brightedge-user-settings-api
@@ -173,13 +131,10 @@ apis:
 - description: The web_vitals API from BrightEdge — 4 operation(s) for web_vitals.
   name: BrightEdge web_vitals API
   slug: brightedge-web-vitals-api
-- description: The webhook API from BrightEdge — 2 operation(s) for webhook.
-  name: BrightEdge webhook API
-  slug: brightedge-webhook-api
 - description: BrightEdge's hosted, remote Model Context Protocol server. An MCP client POSTs to https://mcp2.brightedge.com/mcp (or the SSE endpoint https://mcp2-sse.brightedge.com/sse) and, after an OAuth 2.0 auth
   name: BrightEdge MCP Server
   slug: brightedge-mcp-server
-artifact_total: 99
+artifact_total: 84
 collections:
 - collection_type: open
   name: API Collection
@@ -500,7 +455,7 @@ modified: '2026-08-13'
 name: BrightEdge
 nav: Providers
 network: true
-overview: 'BrightEdge publishes 44 APIs on the [APIs.io](https://apis.io/) network, including accounts API, ai_catalyst API, autopilot API, and 41 more. Tagged areas include Company, SEO, Search, Content, and Marketing.
+overview: 'BrightEdge publishes 29 APIs on the [APIs.io](https://apis.io/) network, including accounts API, ai_catalyst API, autopilot API, and 26 more. Tagged areas include Company, SEO, Search, Content, and Marketing.
 
 
   BrightEdge''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 35 more developer resources.'
@@ -520,18 +475,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.6
-  delta: 1.3
+  composite: 48.6
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
-    contract_quality: 52.1
+    contract_governance: 18.2
+    contract_quality: 50.3
     developer_ergonomics: 58.9
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 50.3
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -542,8 +502,8 @@ score:
       total: 44
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/screenshots/brightedge-2026-07-25T203837.png
 security:

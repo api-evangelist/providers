@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: SpecFlow is a BDD framework for .NET that bridges the communication gap between domain experts and developers by enabling natural language specifications (Gherkin) to be executed as automated tests. I
@@ -44,6 +44,10 @@ apis:
   slug: reqnroll
 artifact_total: 26
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/tricentis/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -125,7 +129,7 @@ overview: 'SpecFlow publishes 2 APIs on the [APIs.io](https://apis.io/) network.
   The SpecFlow catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SpecFlow''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
+  SpecFlow''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
 plans:
 - name: Specflow Plans Pricing
   plan_count: 3
@@ -149,6 +153,11 @@ rules:
 score:
   band: emerging
   composite: 17.0
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 62.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -166,8 +175,8 @@ score:
     - owner: catalog
       reason: no_resolvable_host
   previous_composite: 17.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/specflow/refs/heads/main/screenshots/specflow-2026-06-20T194251.png
 security:

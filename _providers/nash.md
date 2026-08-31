@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 16
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 173
   slug: nash-agentic-access
   summary_line: 173 operations · 118 acting · 16 human-in-the-loop
-api_count: 30
+api_count: 1
 apis:
 - description: LLM-backed domain tools
   name: Nash AI Functions API
@@ -238,6 +238,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/nash-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/nash-openapi-overlay.yaml
 - group: company
@@ -372,32 +376,37 @@ modified: '2026-07-20'
 name: Nash
 nav: Providers
 network: true
-overview: 'Nash publishes 30 APIs on the [APIs.io](https://apis.io/) network, including AI Functions API, Annotate API, Batch Job API, and 27 more. Tagged areas include Company, Delivery, Last Mile Delivery, Logistics, and Dispatch.
+overview: 'Nash publishes 30 APIs on the [APIs.io](https://apis.io/) network, including AI Functions API, Annotate API, Batch Job API, and 27 more. Tagged areas include Company, Delivery, Last-Mile Delivery, Logistics, and Dispatch.
 
 
   The Nash catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Nash''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, changelog, and 24 more developer resources.'
+  Nash''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, changelog, and 25 more developer resources.'
 random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Nash Rate Limits
   slug: nash-rate-limits
 score:
-  band: strong
-  composite: 56.0
-  delta: 4.8
+  band: developing
+  composite: 54.0
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.0
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 51.2
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -408,8 +417,8 @@ score:
       total: 30
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nash/refs/heads/main/screenshots/nash-2026-08-07T184639.png
 security:
@@ -433,12 +442,12 @@ slug: nash
 tags:
 - Company
 - Delivery
-- Last Mile Delivery
+- Last-Mile Delivery
 - Logistics
 - Dispatch
 - Route Optimization
 - Fleet Management
-- Couriers
+- Courier
 - Shipping
 - Order
 - Webhook

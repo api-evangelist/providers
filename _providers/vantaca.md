@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 75
   slug: vantaca-agentic-access
   summary_line: 75 operations · 31 acting
-api_count: 3
+api_count: 1
 apis:
 - description: 'These methods are specific to AP or Invoice related functions and can only be accessed by designated AP credentials. Note: Entering invalid dates may result in them appearing as null or blank in Vanta'
   name: Vantaca /AP/ API
@@ -67,6 +67,10 @@ collections:
   name: Vantaca's Standard APIs /AP/ /AP/ /write/ API
   slug: open-vantaca-write-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vantaca-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -118,7 +122,7 @@ network: true
 overview: 'Vantaca publishes 3 APIs on the [APIs.io](https://apis.io/) network: /AP/ API, /read/ API, and /write/ API. Tagged areas include HOA, Community Association Management, CAM, Property Management, and Real-Estate.
 
 
-  Vantaca''s developer surface includes documentation and 8 more developer resources.'
+  Vantaca''s developer surface includes documentation and 9 more developer resources.'
 plans:
 - name: Vantaca Plans Pricing
   plan_count: 2
@@ -130,18 +134,23 @@ rate_limits:
   slug: vantaca-rate-limits
 score:
   band: thin
-  composite: 32.5
-  delta: 0.7
+  composite: 31.9
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 47.8
     developer_ergonomics: 8.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 31.8
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -149,8 +158,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

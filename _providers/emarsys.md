@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 1
@@ -45,82 +45,97 @@ agentic_access:
   summary_line: 136 operations · 80 acting · 1 human-in-the-loop
 api_count: 25
 apis:
-- description: In this batch you may find endpoints related to accounts. Published by SAP Emarsys as a Swagger 2.0 document with 10 operation(s). Part of the SAP Emarsys Core API. Authentication is the legacy X-WSSE
-  name: SAP Emarsys Accounts API
-  slug: emarsys-accounts-api
-- description: In this batch you may find endpoints related to auto-import profiles. Published by SAP Emarsys as a Swagger 2.0 document with 4 operation(s). Part of the SAP Emarsys Core API. Authentication is the le
-  name: SAP Emarsys Auto-import Profiles API
-  slug: emarsys-auto-import-profiles-api
-- description: In this chapter you may find the bulk response summary endpoint. Published by SAP Emarsys as OpenAPI 3.0.3 with 1 operation(s). Part of the SAP Emarsys Core API. Authentication is the legacy X-WSSE Us
-  name: SAP Emarsys Bulk Response Summary API
-  slug: emarsys-bulk-response-summary-api
-- description: 'In this batch you may find endpoints related to conditional text rules. Published by SAP Emarsys as a Swagger 2.0 document with 1 operation(s). Part of the SAP Emarsys Core API. Authentication is the '
-  name: SAP Emarsys Conditional Text Rules API
-  slug: emarsys-conditional-text-rules-api
-- description: 'In this batch you may find endpoints related to contact and email data. Published by SAP Emarsys as a Swagger 2.0 document with 7 operation(s). Part of the SAP Emarsys Core API. Authentication is the '
-  name: SAP Emarsys Contact and Email Data API
-  slug: emarsys-contact-and-email-data-api
-- description: In this batch you may find endpoints related to contact lists. Published by SAP Emarsys as a Swagger 2.0 document with 11 operation(s), 2 of them marked deprecated. Part of the SAP Emarsys Core API. A
-  name: SAP Emarsys Contact Lists API
-  slug: emarsys-contact-lists-api
-- description: 'In this batch you may find endpoints related to contact sources. Published by SAP Emarsys as a Swagger 2.0 document with 2 operation(s). Part of the SAP Emarsys Core API. Authentication is the legacy '
-  name: SAP Emarsys Contact Sources API
-  slug: emarsys-contact-sources-api
-- description: 'In this batch you may find endpoints related to contacts. Published by SAP Emarsys as a Swagger 2.0 document with 7 operation(s). Part of the SAP Emarsys Core API. Authentication is the legacy X-WSSE '
-  name: SAP Emarsys Contacts API
-  slug: emarsys-contacts-api
-- description: 'In this batch you may find endpoints related to email campaign lifecycle. Published by SAP Emarsys as a Swagger 2.0 document with 13 operation(s), 1 of them marked deprecated. Part of the SAP Emarsys '
-  name: SAP Emarsys Email Campaign Lifecycle API
-  slug: emarsys-email-campaign-lifecycle-api
-- description: In this batch you may find endpoints related to email campaigns. Published by SAP Emarsys as a Swagger 2.0 document with 13 operation(s). Part of the SAP Emarsys Core API. Authentication is the legacy
-  name: SAP Emarsys Email Campaigns API
-  slug: emarsys-email-campaigns-api
-- description: This document contains all of the email reporting related API endpoints. Published by SAP Emarsys as OpenAPI 3.0.1 with 1 operation(s). Part of the SAP Emarsys Core API. Authentication is the legacy X
-  name: SAP Emarsys Email Reporting API
-  slug: emarsys-email-reporting-api-api
-- description: 'In this batch you may find endpoints related to email templates. Published by SAP Emarsys as a Swagger 2.0 document with 2 operation(s). Part of the SAP Emarsys Core API. Authentication is the legacy '
-  name: SAP Emarsys Email Templates API
-  slug: emarsys-email-templates-api
-- description: In this batch you may find endpoints related to events. Published by SAP Emarsys as a Swagger 2.0 document with 8 operation(s). Part of the SAP Emarsys Core API. Authentication is the legacy X-WSSE Us
-  name: SAP Emarsys Events API
-  slug: emarsys-events-api
-- description: In this batch you may find endpoints related to External Content. Published by SAP Emarsys as a Swagger 2.0 document with 1 operation(s). Part of the SAP Emarsys Core API. Authentication is the legacy
-  name: SAP Emarsys External Content API
-  slug: emarsys-external-content-api
-- description: In this batch you may find endpoints related to fields. Published by SAP Emarsys as a Swagger 2.0 document with 6 operation(s). Part of the SAP Emarsys Core API. Authentication is the legacy X-WSSE Us
-  name: SAP Emarsys Fields API
-  slug: emarsys-fields-api
-- description: In this batch you may find endpoints related to forms. Published by SAP Emarsys as a Swagger 2.0 document with 2 operation(s). Part of the SAP Emarsys Core API. Authentication is the legacy X-WSSE Use
-  name: SAP Emarsys Forms API
-  slug: emarsys-forms-api
-- description: In this batch you may find endpoints related to keys. Published by SAP Emarsys as a Swagger 2.0 document with 4 operation(s). Part of the SAP Emarsys Core API. Authentication is the legacy X-WSSE User
-  name: SAP Emarsys Keys API
-  slug: emarsys-keys-api
-- description: In this batch you may find endpoints related to the Media Database. Published by SAP Emarsys as a Swagger 2.0 document with 6 operation(s). Part of the SAP Emarsys Core API. Authentication is the lega
-  name: SAP Emarsys Media Database API
-  slug: emarsys-media-database-api
-- description: 'In this batch you may find endpoints related to programs. Published by SAP Emarsys as a Swagger 2.0 document with 3 operation(s). Part of the SAP Emarsys Core API. Authentication is the legacy X-WSSE '
-  name: SAP Emarsys Programs API
-  slug: emarsys-programs-api
-- description: 'In this batch you may find endpoints related to Relational Data. Published by SAP Emarsys as a Swagger 2.0 document with 6 operation(s). Part of the SAP Emarsys Core API. Authentication is the legacy '
-  name: SAP Emarsys Relational Data (RDS) API
-  slug: emarsys-relational-data-api
-- description: 'In this batch you may find endpoints related to sections. Published by SAP Emarsys as a Swagger 2.0 document with 5 operation(s). Part of the SAP Emarsys Core API. Authentication is the legacy X-WSSE '
-  name: SAP Emarsys Sections API
-  slug: emarsys-sections-api
-- description: In this batch you may find endpoints related to segments. Published by SAP Emarsys as a Swagger 2.0 document with 11 operation(s). Part of the SAP Emarsys Core API. Authentication is the legacy X-WSSE
-  name: SAP Emarsys Segments API
-  slug: emarsys-segments-api
-- description: Published by SAP Emarsys as OpenAPI 3.0.3 with 2 operation(s). Part of the SMS Partner API, which SAP Emarsys publishes openly at github.com/emartech/sms-partner-api-spec so SMS aggregation partners c
-  name: SAP Emarsys SMS Partner Callbacks API
-  slug: emarsys-sms-partner-callbacks-api
-- description: Published by SAP Emarsys as OpenAPI 3.0.3 with 5 operation(s). Part of the SMS Partner API, which SAP Emarsys publishes openly at github.com/emartech/sms-partner-api-spec so SMS aggregation partners c
-  name: SAP Emarsys SMS Partner Service API
-  slug: emarsys-sms-partner-service-api
-- description: In this batch you may find endpoints related to tracked links. Published by SAP Emarsys as a Swagger 2.0 document with 5 operation(s), 1 of them marked deprecated. Part of the SAP Emarsys Core API. Au
-  name: SAP Emarsys Tracked Links API
-  slug: emarsys-tracked-links-api
-artifact_total: 59
+- description: The Ac API from SAP Emarsys — 2 operation(s) for ac.
+  name: SAP Emarsys Ac API
+  slug: emarsys-ac-api
+- description: The Administrator API from SAP Emarsys — 7 operation(s) for administrator.
+  name: SAP Emarsys Administrator API
+  slug: emarsys-administrator-api
+- description: The Blocklist API from SAP Emarsys — 1 operation(s) for blocklist.
+  name: SAP Emarsys Blocklist API
+  slug: emarsys-blocklist-api
+- description: The Campaigns API from SAP Emarsys — 1 operation(s) for campaigns.
+  name: SAP Emarsys Campaigns API
+  slug: emarsys-campaigns-api
+- description: The Client Configuration API from SAP Emarsys — 1 operation(s) for client configuration.
+  name: SAP Emarsys Client Configuration API
+  slug: emarsys-client-configuration-api
+- description: The Client Configuration Test API from SAP Emarsys — 1 operation(s) for client configuration test.
+  name: SAP Emarsys Client Configuration Test API
+  slug: emarsys-client-configuration-test-api
+- description: The Condition API from SAP Emarsys — 1 operation(s) for condition.
+  name: SAP Emarsys Condition API
+  slug: emarsys-condition-api
+- description: The Contact API from SAP Emarsys — 10 operation(s) for contact.
+  name: SAP Emarsys Contact API
+  slug: emarsys-contact-api
+- description: The Contactlist API from SAP Emarsys — 10 operation(s) for contactlist.
+  name: SAP Emarsys Contactlist API
+  slug: emarsys-contactlist-api
+- description: The Delivery Reports API from SAP Emarsys — 1 operation(s) for delivery reports.
+  name: SAP Emarsys Delivery Reports API
+  slug: emarsys-delivery-reports-api
+- description: The Email API from SAP Emarsys — 34 operation(s) for email.
+  name: SAP Emarsys Email API
+  slug: emarsys-email-api
+- description: The Emailcategory API from SAP Emarsys — 1 operation(s) for emailcategory.
+  name: SAP Emarsys Emailcategory API
+  slug: emarsys-emailcategory-api
+- description: The Event API from SAP Emarsys — 6 operation(s) for event.
+  name: SAP Emarsys Event API
+  slug: emarsys-event-api
+- description: The Export API from SAP Emarsys — 3 operation(s) for export.
+  name: SAP Emarsys Export API
+  slug: emarsys-export-api
+- description: The Field API from SAP Emarsys — 5 operation(s) for field.
+  name: SAP Emarsys Field API
+  slug: emarsys-field-api
+- description: The File API from SAP Emarsys — 4 operation(s) for file.
+  name: SAP Emarsys File API
+  slug: emarsys-file-api
+- description: The Filter API from SAP Emarsys — 10 operation(s) for filter.
+  name: SAP Emarsys Filter API
+  slug: emarsys-filter-api
+- description: The Folder API from SAP Emarsys — 1 operation(s) for folder.
+  name: SAP Emarsys Folder API
+  slug: emarsys-folder-api
+- description: The Form API from SAP Emarsys — 2 operation(s) for form.
+  name: SAP Emarsys Form API
+  slug: emarsys-form-api
+- description: 'The Https: API from SAP Emarsys — 1 operation(s) for https:.'
+  name: 'SAP Emarsys Https: API'
+  slug: emarsys-https-api
+- description: The inbound-messages API from SAP Emarsys — 1 operation(s) for inbound-messages.
+  name: SAP Emarsys Inbound Messages API
+  slug: emarsys-inbound-messages-api
+- description: The Keyring API from SAP Emarsys — 2 operation(s) for keyring.
+  name: SAP Emarsys Keyring API
+  slug: emarsys-keyring-api
+- description: The Language API from SAP Emarsys — 1 operation(s) for language.
+  name: SAP Emarsys Language API
+  slug: emarsys-language-api
+- description: The Outbound Message Sending API from SAP Emarsys — 1 operation(s) for outbound message sending.
+  name: SAP Emarsys Outbound Message Sending API
+  slug: emarsys-outbound-message-sending-api
+- description: The Programresource API from SAP Emarsys — 1 operation(s) for programresource.
+  name: SAP Emarsys Programresource API
+  slug: emarsys-programresource-api
+- description: The Rds API from SAP Emarsys — 3 operation(s) for rds.
+  name: SAP Emarsys Rds API
+  slug: emarsys-rds-api
+- description: The Settings API from SAP Emarsys — 9 operation(s) for settings.
+  name: SAP Emarsys Settings API
+  slug: emarsys-settings-api
+- description: The Source API from SAP Emarsys — 2 operation(s) for source.
+  name: SAP Emarsys Source API
+  slug: emarsys-source-api
+- description: The Trendreporting API from SAP Emarsys — 1 operation(s) for trendreporting.
+  name: SAP Emarsys Trendreporting API
+  slug: emarsys-trendreporting-api
+- description: The Wishlist API from SAP Emarsys — 1 operation(s) for wishlist.
+  name: SAP Emarsys Wishlist API
+  slug: emarsys-wishlist-api
+artifact_total: 64
 asyncapis:
 - description: ''
   name: Emarsys Webhooks
@@ -202,6 +217,114 @@ collections:
   name: Emarsys Core API - Tracked links endpoint batch
   slug: open-emarsys-tracked-links
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sap/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/emarsys-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-accounts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-auto-import-profiles-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-bulk-response-summary-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-conditional-text-rules-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-contact-and-email-data-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-contact-lists-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-contact-sources-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-contacts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-email-campaign-lifecycle-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-email-campaigns-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-email-reporting-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-email-templates-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-events-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-external-content-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-fields-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-forms-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-keys-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-media-database-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-programs-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-relational-data-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-sections-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-segments-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-sms-partner-callbacks-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-sms-partner-service-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emarsys-tracked-links-overlay.yaml
 - group: build
   title: ''
   type: Packages
@@ -391,13 +514,13 @@ modified: '2026-08-13'
 name: SAP Emarsys
 nav: Providers
 network: true
-overview: 'SAP Emarsys publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Auto-import Profiles API, Bulk Response Summary API, and 22 more. Tagged areas include Marketing Automation, Customer Engagement, Email Marketing, Omnichannel, and Customer Data Platform.
+overview: 'SAP Emarsys publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Ac API, Administrator API, Blocklist API, and 27 more. Tagged areas include Marketing Automation, Customer Engagement, Email Marketing, Omnichannel, and Customer Data Platform.
 
 
   The SAP Emarsys catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  SAP Emarsys'' developer surface includes changelog, authentication, documentation, API reference, getting-started guide, pricing, support, and 38 more developer resources.'
+  SAP Emarsys'' developer surface includes changelog, authentication, documentation, API reference, getting-started guide, pricing, support, and 65 more developer resources.'
 plans:
 - name: Emarsys Plans Pricing
   plan_count: 0
@@ -414,18 +537,23 @@ scopes:
   summary_line: 156 scopes · clientCredentials
 score:
   band: strong
-  composite: 66.3
-  delta: -0.1
+  composite: 64.8
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
-    contract_quality: 57.9
+    contract_governance: 4.5
+    contract_quality: 62.1
     developer_ergonomics: 70.8
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 66.4
+  previous_composite: 64.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -438,12 +566,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 80.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emarsys/refs/heads/main/screenshots/emarsys-2026-06-20T180628.png
 security:

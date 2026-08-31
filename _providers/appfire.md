@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 41
   slug: appfire-agentic-access
   summary_line: 41 operations · 27 acting · 2 human-in-the-loop
-api_count: 5
+api_count: 3
 apis:
 - description: Public REST API for BigPicture, BigGantt and BigTemplate on Atlassian Cloud (Appfire's portfolio and project-management suite). Exposes boxes, box types, tasks, teams, team memberships, resources, ski
   name: BigPicture Cloud Public API
@@ -194,25 +194,30 @@ modified: '2026-08-06'
 name: Appfire
 nav: Providers
 network: true
-overview: 'Appfire publishes 4 APIs on the [APIs.io](https://apis.io/) network, including API query methods API, API update methods API, Settings API, and 1 more. Tagged areas include Atlassian, Jira, Confluence, Project Portfolio Management, and Work Management.
+overview: 'Appfire publishes 4 APIs on the [APIs.io](https://apis.io/) network, including API query methods API, API update methods API, Settings API, and 1 more. Tagged areas include atlassian, jira, confluence, project-portfolio-management, and work-management.
 
 
   Appfire''s developer surface includes authentication, documentation, API reference, support, engineering blog, CLI, changelog, and 22 more developer resources.'
 random_paper: 8
 score:
   band: developing
-  composite: 43.8
+  composite: 42.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 59.1
     developer_ergonomics: 49.4
     discoverability: 77.8
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 43.8
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -223,8 +228,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appfire/refs/heads/main/screenshots/appfire-2026-08-07T161502.png
 security:
@@ -242,17 +247,17 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, HIPAA, GDPR
 slug: appfire
 tags:
-- Atlassian
-- Jira
-- Confluence
-- Project Portfolio Management
-- Work Management
-- Time Tracking
-- OKR
-- Workflow-Automation
-- Azure DevOps
+- atlassian
+- jira
+- confluence
+- project-portfolio-management
+- work-management
+- time-tracking
+- okr
+- workflow-automation
+- azure-devops
 - marketplace-apps
-- Document Workflow
-- Enterprise Software
+- document-workflow
+- enterprise-software
 website: https://appfire.com
 ---

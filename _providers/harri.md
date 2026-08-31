@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 256
   human_in_the_loop: 6
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 385
   slug: harri-agentic-access
   summary_line: 385 operations · 256 acting · 6 human-in-the-loop
-api_count: 78
+api_count: 2
 apis:
 - description: The Absences API from Harri — 7 operation(s) for absences.
   name: Harri Absences API
@@ -513,6 +513,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/harri-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/harri-employee-overlay.yaml
 - group: agent
@@ -654,7 +658,7 @@ overview: 'Harri publishes 78 APIs on the [APIs.io](https://apis.io/) network, i
   The Harri catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Harri''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, engineering blog, and 24 more developer resources.'
+  Harri''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, engineering blog, and 25 more developer resources.'
 random_paper: 9
 rate_limits:
 - limit_count: 1
@@ -667,18 +671,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.1
-  delta: 0.0
+  composite: 44.2
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 57.8
     developer_ergonomics: 58.9
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 44.4
+    governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 48.1
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -689,8 +698,8 @@ score:
       total: 78
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harri/refs/heads/main/screenshots/harri-2026-08-07T165958.png
 security:

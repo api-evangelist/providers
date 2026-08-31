@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 63.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 98
   slug: clear-street-agentic-access
   summary_line: 98 operations · 35 acting
-api_count: 23
+api_count: 3
 apis:
 - description: Clear Street's official remote Model Context Protocol server, exposing the Clear Street Trading API to AI assistants such as Claude and Gemini. OAuth-protected per RFC 9728 — an anonymous request retu
   name: Clear Street MCP Server
@@ -175,6 +175,10 @@ collections:
   name: Clear Street Trading Watchlist API
   slug: open-clear-street-watchlist-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/clear-street-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -345,7 +349,7 @@ overview: 'Clear Street publishes 22 APIs on the [APIs.io](https://apis.io/) net
   The Clear Street catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Clear Street''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, CLI, and 31 more developer resources.'
+  Clear Street''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, CLI, and 32 more developer resources.'
 random_paper: 9
 scopes:
 - name: Clear Street Scopes
@@ -353,19 +357,24 @@ scopes:
   slug: clear-street-scopes
   summary_line: 5 scopes · clientCredentials/authorizationCode
 score:
-  band: exemplar
-  composite: 67.4
+  band: strong
+  composite: 64.9
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 66.7
     developer_ergonomics: 85.7
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 67.4
+  previous_composite: 64.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -382,8 +391,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clear-street/refs/heads/main/screenshots/clear-street-2026-08-07T163444.png
 security:

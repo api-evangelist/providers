@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 10
 apis:
 - description: The Authorization API issues OAuth2 access tokens for the SVB commercial banking platform (now part of First Citizens). Partners exchange client credentials at /v1/security/oauth/token for a bearer to
@@ -183,7 +183,12 @@ overview: 'First Citizens BancShares publishes 10 APIs on the [APIs.io](https://
 random_paper: 3
 score:
   band: thin
-  composite: 36.6
+  composite: 35.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -191,10 +196,10 @@ score:
     contract_governance: 4.5
     contract_quality: 42.7
     developer_ergonomics: 21.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 36.6
+  previous_composite: 35.5
   provenance:
     conformance: derived
   regulatory:
@@ -203,8 +208,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-citizens-bancshares/refs/heads/main/screenshots/first-citizens-bancshares-2026-06-20T181238.png
 security:

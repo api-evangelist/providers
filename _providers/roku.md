@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 95
   slug: roku-agentic-access
   summary_line: 95 operations · 39 acting · 2 human-in-the-loop
-api_count: 27
+api_count: 1
 apis:
 - description: BrightScript is Roku's scripting language used to build apps for the Roku platform. The SDK provides a comprehensive component library with over 100 built-in objects covering UI, networking, media pla
   name: Roku BrightScript SDK
@@ -194,6 +194,10 @@ collections:
   name: Roku External Control Protocol (ECP) Apps Validation API
   slug: open-roku-validation-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/rokudev/dev-doc/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -774,7 +778,7 @@ overview: 'Roku publishes 21 APIs on the [APIs.io](https://apis.io/) network, in
   The Roku catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Roku''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, tooling, code examples, and 26 more developer resources.'
+  Roku''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, tooling, code examples, and 27 more developer resources.'
 plans:
 - name: Roku Plans Pricing
   plan_count: 1
@@ -807,19 +811,27 @@ rules:
     warn: 17
   slug: roku-spectral-rules
 score:
-  band: developing
-  composite: 41.7
-  delta: 1.4
+  band: thin
+  composite: 36.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 36.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 28.8
-    contract_quality: 37.7
+    contract_quality: 37.3
     developer_ergonomics: 59.5
-    discoverability: 59.3
+    discoverability: 53.7
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 40.3
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
@@ -827,8 +839,8 @@ score:
       derived: 21
       marker_coverage: 100.0
       total: 21
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roku/refs/heads/main/screenshots/roku-2026-06-20T193206.png
 security:

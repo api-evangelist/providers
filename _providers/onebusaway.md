@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 30
   slug: onebusaway-agentic-access
   summary_line: 30 operations
-api_count: 2
+api_count: 1
 apis:
 - description: The default API from OneBusAway — 13 operation(s) for default.
   name: OneBusAway default API
@@ -62,6 +62,10 @@ collections:
   name: OneBusAway default Where API
   slug: open-onebusaway-where-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/OneBusAway/sdk-config/issues
 - group: commercial
   title: ''
   type: License
@@ -464,7 +468,7 @@ overview: 'OneBusAway publishes 2 APIs on the [APIs.io](https://apis.io/) networ
   The OneBusAway catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OneBusAway''s developer surface includes authentication, developer portal, documentation, getting-started guide, and 23 more developer resources.'
+  OneBusAway''s developer surface includes authentication, developer portal, documentation, getting-started guide, and 24 more developer resources.'
 plans:
 - name: Onebusaway Plans Pricing
   plan_count: 2
@@ -483,7 +487,12 @@ rules:
   slug: onebusaway-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.5
+  composite: 33.0
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 58.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -494,7 +503,10 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 2.6
-  previous_composite: 36.5
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -508,8 +520,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onebusaway/refs/heads/main/screenshots/onebusaway-2026-06-20T190710.png
 security:

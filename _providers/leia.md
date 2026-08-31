@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -31,15 +31,21 @@ agentic_access:
   operation_count: 12
   slug: leia-agentic-access
   summary_line: 12 operations · 10 acting
-api_count: 2
+api_count: 4
 apis:
-- description: Credit-metered REST API for Spatial AI media transformation — estimate a disparity (depth) map from a single 2D image, generate 3D animations from an image plus its disparity map, render stereo side-b
-  name: Immersity Cloud API
-  slug: immersity-cloud-api
-- description: OAuth 2.0 / OpenID Connect token endpoint for the Immersity AI Keycloak realm. Exchange a client ID and secret issued from the Immersity account page for a bearer access token using the client_credent
-  name: Immersity AI Authentication API
-  slug: immersity-ai-authentication-api
-artifact_total: 11
+- description: The Media Transformation API from Leia — 9 operation(s) for media transformation.
+  name: Leia Media Transformation API
+  slug: leia-media-transformation-api
+- description: The Product Pricing API from Leia — 1 operation(s) for product pricing.
+  name: Leia Product Pricing API
+  slug: leia-product-pricing-api
+- description: The Protocol API from Leia — 1 operation(s) for protocol.
+  name: Leia Protocol API
+  slug: leia-protocol-api
+- description: The Storage API from Leia — 1 operation(s) for storage.
+  name: Leia Storage API
+  slug: leia-storage-api
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Leia Callbacks
@@ -52,6 +58,14 @@ collections:
   name: Immersity Cloud API
   slug: open-leia-immersity-cloud-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/leia-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/leia-immersity-cloud-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -193,13 +207,13 @@ modified: '2026-08-01'
 name: Leia
 nav: Providers
 network: true
-overview: 'Leia publishes 2 APIs on the [APIs.io](https://apis.io/) network: Immersity Cloud API and Immersity AI Authentication API. Tagged areas include 3D, Spatial Computing, Computer-Vision, depth-estimation, and Image Processing.
+overview: 'Leia publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Media Transformation API, Product Pricing API, Protocol API, and 1 more. Tagged areas include 3D, spatial-computing, computer-vision, depth-estimation, and image-processing.
 
 
   The Leia catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Leia''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  Leia''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 plans:
 - name: Leia Plans
   plan_count: 6
@@ -212,18 +226,23 @@ scopes:
   summary_line: 20 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 53.9
+  composite: 53.7
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 16.7
-    contract_quality: 66.8
+    contract_governance: 4.5
+    contract_quality: 69.7
     developer_ergonomics: 57.7
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 53.9
+  previous_composite: 53.7
   provenance:
     agentic_access: first-party
     conformance: derived
@@ -234,8 +253,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leia/refs/heads/main/screenshots/leia-2026-08-07T171526.png
 security:
@@ -250,14 +269,14 @@ security:
 slug: leia
 tags:
 - 3D
-- Spatial Computing
-- Computer-Vision
+- spatial-computing
+- computer-vision
 - depth-estimation
-- Image Processing
-- Video Processing
-- Generative AI
-- Displays
-- media-transformation
-- Immersive Experiences
+- image-processing
+- video-processing
+- generative-ai
+- displays
+- Media Transformation
+- immersive-experiences
 website: https://immersity.ai/
 ---

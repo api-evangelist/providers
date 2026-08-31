@@ -2,7 +2,7 @@
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: false
     agentic_commerce: false
@@ -15,32 +15,82 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.7
-  scored_at: '2026-08-26'
-api_count: 3
+  score: 58.5
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: The Immutable Multi Rollup API — the public REST surface for Immutable Chain. Covers activities, chains, collections, NFTs and NFT owners, ERC-20 tokens, metadata and metadata search, the Seaport-back
-  name: Immutable zkEVM API
-  slug: immutable-zkevm-api
-- description: The Audience event tracking and identity resolution service. Ingests batched identify/track/page/screen messages from game servers and backends, reads and updates per-identity tracking consent, and ac
-  name: Immutable Audience API
-  slug: immutable-audience-api
 - description: Passport is Immutable's authentication and embedded-wallet product. Its OpenID Connect provider publishes anonymous discovery documents at auth.immutable.com, exposing the authorization, token, device
   name: Immutable Passport Authentication
   slug: immutable-passport-auth
-artifact_total: 12
+- description: Activities Endpoints
+  name: Immutable Activities API
+  slug: immutable-activities-api
+- description: Chains Endpoints
+  name: Immutable Chains API
+  slug: immutable-chains-api
+- description: Collections Endpoints
+  name: Immutable Collections API
+  slug: immutable-collections-api
+- description: The crafting API from Immutable — 1 operation(s) for crafting.
+  name: Immutable Crafting API
+  slug: immutable-crafting-api
+- description: Data erasure endpoints
+  name: Immutable Data API
+  slug: immutable-data-api
+- description: Audience event ingestion endpoints
+  name: Immutable Ingest API
+  slug: immutable-ingest-api
+- description: NFT Metadata Endpoints
+  name: Immutable Metadata API
+  slug: immutable-metadata-api
+- description: The metadata-search API from Immutable — 3 operation(s) for metadata-search.
+  name: Immutable Metadata Search API
+  slug: immutable-metadata-search-api
+- description: NFT Owner Endpoints
+  name: Immutable nft owners API
+  slug: immutable-nft-owners-api
+- description: NFTs Endpoints
+  name: Immutable Nfts API
+  slug: immutable-nfts-api
+- description: The orders API from Immutable — 14 operation(s) for orders.
+  name: Immutable Orders API
+  slug: immutable-orders-api
+- description: Passport operations
+  name: Immutable Passport API
+  slug: immutable-passport-api
+- description: Passport Profile endpoints
+  name: Immutable passport profile API
+  slug: immutable-passport-profile-api
+- description: Pricing Endpoints
+  name: Immutable Pricing API
+  slug: immutable-pricing-api
+- description: ERC20 Token Endpoints
+  name: Immutable Tokens API
+  slug: immutable-tokens-api
+- description: Tracking consent management endpoints
+  name: Immutable Tracking Consent API
+  slug: immutable-tracking-consent-api
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Immutable Webhooks
   slug: immutable-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/immutable-zkevm-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/immutable-audience-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -213,13 +263,13 @@ modified: '2026-08-23'
 name: Immutable
 nav: Providers
 network: true
-overview: 'Immutable publishes 2 APIs on the [APIs.io](https://apis.io/) network: zkEVM API and Audience API. Tagged areas include Company, Gaming, Blockchain, NFT, and Web3.
+overview: 'Immutable publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Chains API, Collections API, and 13 more. Tagged areas include Company, Gaming, Blockchain, NFT, and Web3.
 
 
   The Immutable catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Immutable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 33 more developer resources.'
+  Immutable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 35 more developer resources.'
 plans:
 - name: Immutable Plans Pricing
   plan_count: 3
@@ -236,18 +286,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 73.2
-  delta: 0.0
+  composite: 70.1
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 30.3
-    contract_quality: 63.4
+    contract_governance: 18.2
+    contract_quality: 63.5
     developer_ergonomics: 64.3
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 92.1
-  previous_composite: 73.2
+  previous_composite: 70.6
   provenance:
     conformance: first-party
     contracts:
@@ -263,8 +318,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 238
   slug: candid-health-agentic-access
   summary_line: 238 operations · 136 acting
-api_count: 60
+api_count: 1
 apis:
 - description: Manage patient invoicing, payments, refunds, and accounts receivable. Automates patient billing workflows and tracks outstanding balances.
   name: Candid Health Patient Collections API
@@ -63,169 +63,25 @@ apis:
 - description: OAuth 2.0 client credentials token generation for authenticating API access to all Candid Health REST endpoints.
   name: Candid Health Auth API
   slug: candid-health-auth-api
-- description: The subpackage_auth.subpackage_auth/default API from Candid Health — 1 operation(s) for subpackage_auth.subpackage_auth/default.
-  name: Candid Health subpackage_auth.subpackage_auth/default API
-  slug: candid-health-subpackage-auth-subpackage-auth-default-api
-- description: The subpackage_billing-notes.subpackage_billing-notes/v2 API from Candid Health — 2 operation(s) for subpackage_billing-notes.subpackage_billing-notes/v2.
-  name: Candid Health subpackage_billing-notes.subpackage_billing-notes/v2 API
-  slug: candid-health-subpackage-billing-notes-subpackage-billing-notes-v2-api
-- description: The subpackage_charge-capture-bundles.subpackage_charge-capture-bundles/v1 API from Candid Health — 4 operation(s) for subpackage_charge-capture-bundles.subpackage_charge-capture-bundles/v1.
-  name: Candid Health subpackage_charge-capture-bundles.subpackage_charge-capture-bundles/v1 API
-  slug: candid-health-subpackage-charge-capture-bundles-subpackage-charge-capture-bundles-v1-api
-- description: The subpackage_charge-capture.subpackage_charge-capture/v1 API from Candid Health — 5 operation(s) for subpackage_charge-capture.subpackage_charge-capture/v1.
-  name: Candid Health subpackage_charge-capture.subpackage_charge-capture/v1 API
-  slug: candid-health-subpackage-charge-capture-subpackage-charge-capture-v1-api
-- description: The subpackage_contracts.subpackage_contracts/v2 API from Candid Health — 2 operation(s) for subpackage_contracts.subpackage_contracts/v2.
-  name: Candid Health subpackage_contracts.subpackage_contracts/v2 API
-  slug: candid-health-subpackage-contracts-subpackage-contracts-v2-api
-- description: The subpackage_contracts.subpackage_contracts/v3 API from Candid Health — 6 operation(s) for subpackage_contracts.subpackage_contracts/v3.
-  name: Candid Health subpackage_contracts.subpackage_contracts/v3 API
-  slug: candid-health-subpackage-contracts-subpackage-contracts-v3-api
-- description: The subpackage_credentialing.subpackage_credentialing/v2 API from Candid Health — 4 operation(s) for subpackage_credentialing.subpackage_credentialing/v2.
-  name: Candid Health subpackage_credentialing.subpackage_credentialing/v2 API
-  slug: candid-health-subpackage-credentialing-subpackage-credentialing-v2-api
-- description: The subpackage_custom-schemas.subpackage_custom-schemas/v1 API from Candid Health — 2 operation(s) for subpackage_custom-schemas.subpackage_custom-schemas/v1.
-  name: Candid Health subpackage_custom-schemas.subpackage_custom-schemas/v1 API
-  slug: candid-health-subpackage-custom-schemas-subpackage-custom-schemas-v1-api
-- description: The subpackage_diagnoses API from Candid Health — 2 operation(s) for subpackage_diagnoses.
-  name: Candid Health subpackage_diagnoses API
-  slug: candid-health-subpackage-diagnoses-api
-- description: The subpackage_eligibility.subpackage_eligibility/v2 API from Candid Health — 1 operation(s) for subpackage_eligibility.subpackage_eligibility/v2.
-  name: Candid Health subpackage_eligibility.subpackage_eligibility/v2 API
-  slug: candid-health-subpackage-eligibility-subpackage-eligibility-v2-api
-- description: The subpackage_encounter-attachments.subpackage_encounter-attachments/v1 API from Candid Health — 4 operation(s) for subpackage_encounter-attachments.subpackage_encounter-attachments/v1.
-  name: Candid Health subpackage_encounter-attachments.subpackage_encounter-attachments/v1 API
-  slug: candid-health-subpackage-encounter-attachments-subpackage-encounter-attachments-v1-api
-- description: The subpackage_encounter-providers.subpackage_encounter-providers/v2 API from Candid Health — 9 operation(s) for subpackage_encounter-providers.subpackage_encounter-providers/v2.
-  name: Candid Health subpackage_encounter-providers.subpackage_encounter-providers/v2 API
-  slug: candid-health-subpackage-encounter-providers-subpackage-encounter-providers-v2-api
-- description: The subpackage_encounter-supplemental-information.subpackage_encounter-supplemental-information/v1 API from Candid Health — 2 operation(s) for subpackage_encounter-supplemental-information.subpackage_
-  name: Candid Health subpackage_encounter-supplemental-information.subpackage_encounter-supplemental-information/v1 API
-  slug: candid-health-subpackage-encounter-supplemental-information-subpackage-encounter-supplemental-information-v1-api
-- description: The subpackage_encounters.subpackage_encounters/v4 API from Candid Health — 6 operation(s) for subpackage_encounters.subpackage_encounters/v4.
-  name: Candid Health subpackage_encounters.subpackage_encounters/v4 API
-  slug: candid-health-subpackage-encounters-subpackage-encounters-v4-api
-- description: The subpackage_events.subpackage_events/v1 API from Candid Health — 2 operation(s) for subpackage_events.subpackage_events/v1.
-  name: Candid Health subpackage_events.subpackage_events/v1 API
-  slug: candid-health-subpackage-events-subpackage-events-v1-api
-- description: The subpackage_exports.subpackage_exports/v3 API from Candid Health — 1 operation(s) for subpackage_exports.subpackage_exports/v3.
-  name: Candid Health subpackage_exports.subpackage_exports/v3 API
-  slug: candid-health-subpackage-exports-subpackage-exports-v3-api
-- description: The subpackage_external-payment-account-config.subpackage_external-payment-account-config/v1 API from Candid Health — 1 operation(s) for subpackage_external-payment-account-config.subpackage_external-
-  name: Candid Health subpackage_external-payment-account-config.subpackage_external-payment-account-config/v1 API
-  slug: candid-health-subpackage-external-payment-account-config-subpackage-external-payment-account-config-v1-api
-- description: The subpackage_fee-schedules.subpackage_fee-schedules/v3 API from Candid Health — 11 operation(s) for subpackage_fee-schedules.subpackage_fee-schedules/v3.
-  name: Candid Health subpackage_fee-schedules.subpackage_fee-schedules/v3 API
-  slug: candid-health-subpackage-fee-schedules-subpackage-fee-schedules-v3-api
-- description: The subpackage_guarantor.subpackage_guarantor/v1 API from Candid Health — 2 operation(s) for subpackage_guarantor.subpackage_guarantor/v1.
-  name: Candid Health subpackage_guarantor.subpackage_guarantor/v1 API
-  slug: candid-health-subpackage-guarantor-subpackage-guarantor-v1-api
-- description: The subpackage_health-care-code-information.subpackage_health-care-code-information/v1 API from Candid Health — 1 operation(s) for subpackage_health-care-code-information.subpackage_health-care-code-i
-  name: Candid Health subpackage_health-care-code-information.subpackage_health-care-code-information/v1 API
-  slug: candid-health-subpackage-health-care-code-information-subpackage-health-care-code-information-v1-api
-- description: The subpackage_import-invoice.subpackage_import-invoice/v1 API from Candid Health — 2 operation(s) for subpackage_import-invoice.subpackage_import-invoice/v1.
-  name: Candid Health subpackage_import-invoice.subpackage_import-invoice/v1 API
-  slug: candid-health-subpackage-import-invoice-subpackage-import-invoice-v1-api
-- description: The subpackage_insurance-adjudications.subpackage_insurance-adjudications/v1 API from Candid Health — 1 operation(s) for subpackage_insurance-adjudications.subpackage_insurance-adjudications/v1.
-  name: Candid Health subpackage_insurance-adjudications.subpackage_insurance-adjudications/v1 API
-  slug: candid-health-subpackage-insurance-adjudications-subpackage-insurance-adjudications-v1-api
-- description: The subpackage_insurance-refunds.subpackage_insurance-refunds/v1 API from Candid Health — 2 operation(s) for subpackage_insurance-refunds.subpackage_insurance-refunds/v1.
-  name: Candid Health subpackage_insurance-refunds.subpackage_insurance-refunds/v1 API
-  slug: candid-health-subpackage-insurance-refunds-subpackage-insurance-refunds-v1-api
-- description: The subpackage_medication-dispense.subpackage_medication-dispense/v1 API from Candid Health — 1 operation(s) for subpackage_medication-dispense.subpackage_medication-dispense/v1.
-  name: Candid Health subpackage_medication-dispense.subpackage_medication-dispense/v1 API
-  slug: candid-health-subpackage-medication-dispense-subpackage-medication-dispense-v1-api
-- description: The subpackage_non-insurance-payer-payments.subpackage_non-insurance-payer-payments/v1 API from Candid Health — 2 operation(s) for subpackage_non-insurance-payer-payments.subpackage_non-insurance-paye
-  name: Candid Health subpackage_non-insurance-payer-payments.subpackage_non-insurance-payer-payments/v1 API
-  slug: candid-health-subpackage-non-insurance-payer-payments-subpackage-non-insurance-payer-payments-v1-api
-- description: The subpackage_non-insurance-payer-refunds.subpackage_non-insurance-payer-refunds/v1 API from Candid Health — 2 operation(s) for subpackage_non-insurance-payer-refunds.subpackage_non-insurance-payer-r
-  name: Candid Health subpackage_non-insurance-payer-refunds.subpackage_non-insurance-payer-refunds/v1 API
-  slug: candid-health-subpackage-non-insurance-payer-refunds-subpackage-non-insurance-payer-refunds-v1-api
-- description: The subpackage_non-insurance-payers.subpackage_non-insurance-payers/v1 API from Candid Health — 4 operation(s) for subpackage_non-insurance-payers.subpackage_non-insurance-payers/v1.
-  name: Candid Health subpackage_non-insurance-payers.subpackage_non-insurance-payers/v1 API
-  slug: candid-health-subpackage-non-insurance-payers-subpackage-non-insurance-payers-v1-api
-- description: The subpackage_organization-providers.subpackage_organization-providers/v3 API from Candid Health — 2 operation(s) for subpackage_organization-providers.subpackage_organization-providers/v3.
-  name: Candid Health subpackage_organization-providers.subpackage_organization-providers/v3 API
-  slug: candid-health-subpackage-organization-providers-subpackage-organization-providers-v3-api
-- description: The subpackage_organization-service-facilities.subpackage_organization-service-facilities/v2 API from Candid Health — 3 operation(s) for subpackage_organization-service-facilities.subpackage_organizat
-  name: Candid Health subpackage_organization-service-facilities.subpackage_organization-service-facilities/v2 API
-  slug: candid-health-subpackage-organization-service-facilities-subpackage-organization-service-facilities-v2-api
-- description: The subpackage_patient-ar.subpackage_patient-ar/v1 API from Candid Health — 2 operation(s) for subpackage_patient-ar.subpackage_patient-ar/v1.
-  name: Candid Health subpackage_patient-ar.subpackage_patient-ar/v1 API
-  slug: candid-health-subpackage-patient-ar-subpackage-patient-ar-v1-api
-- description: The subpackage_patient-payments.subpackage_patient-payments/v4 API from Candid Health — 2 operation(s) for subpackage_patient-payments.subpackage_patient-payments/v4.
-  name: Candid Health subpackage_patient-payments.subpackage_patient-payments/v4 API
-  slug: candid-health-subpackage-patient-payments-subpackage-patient-payments-v4-api
-- description: The subpackage_patient-refunds.subpackage_patient-refunds/v1 API from Candid Health — 2 operation(s) for subpackage_patient-refunds.subpackage_patient-refunds/v1.
-  name: Candid Health subpackage_patient-refunds.subpackage_patient-refunds/v1 API
-  slug: candid-health-subpackage-patient-refunds-subpackage-patient-refunds-v1-api
-- description: The subpackage_payer-plan-groups.subpackage_payer-plan-groups/v1 API from Candid Health — 2 operation(s) for subpackage_payer-plan-groups.subpackage_payer-plan-groups/v1.
-  name: Candid Health subpackage_payer-plan-groups.subpackage_payer-plan-groups/v1 API
-  slug: candid-health-subpackage-payer-plan-groups-subpackage-payer-plan-groups-v1-api
-- description: The subpackage_payers.subpackage_payers/v3 API from Candid Health — 2 operation(s) for subpackage_payers.subpackage_payers/v3.
-  name: Candid Health subpackage_payers.subpackage_payers/v3 API
-  slug: candid-health-subpackage-payers-subpackage-payers-v3-api
-- description: The subpackage_payers.subpackage_payers/v4 API from Candid Health — 2 operation(s) for subpackage_payers.subpackage_payers/v4.
-  name: Candid Health subpackage_payers.subpackage_payers/v4 API
-  slug: candid-health-subpackage-payers-subpackage-payers-v4-api
-- description: The subpackage_pre-encounter.subpackage_pre-encounter/appointments.subpackage_pre-encounter/appointments/v1 API from Candid Health — 6 operation(s) for subpackage_pre-encounter.subpackage_pre-encounte
-  name: Candid Health subpackage_pre-encounter.subpackage_pre-encounter/appointments.subpackage_pre-encounter/appointments/v1 API
-  slug: candid-health-subpackage-pre-encounter-subpackage-pre-encounter-appointments-subpackage-pre-encounter-appointments-v1-api
-- description: The subpackage_pre-encounter.subpackage_pre-encounter/coverages.subpackage_pre-encounter/coverages/v1 API from Candid Health — 9 operation(s) for subpackage_pre-encounter.subpackage_pre-encounter/cove
-  name: Candid Health subpackage_pre-encounter.subpackage_pre-encounter/coverages.subpackage_pre-encounter/coverages/v1 API
-  slug: candid-health-subpackage-pre-encounter-subpackage-pre-encounter-coverages-subpackage-pre-encounter-coverages-v1-api
-- description: The subpackage_pre-encounter.subpackage_pre-encounter/eligibilityChecks.subpackage_pre-encounter/eligibilityChecks/v1 API from Candid Health — 7 operation(s) for subpackage_pre-encounter.subpackage_pr
-  name: Candid Health subpackage_pre-encounter.subpackage_pre-encounter/eligibilityChecks.subpackage_pre-encounter/eligibilityChecks/v1 API
-  slug: candid-health-subpackage-pre-encounter-subpackage-pre-encounter-eligibilitychecks-subpackage-pre-encounter-eligibilitychecks-v1-api
-- description: The subpackage_pre-encounter.subpackage_pre-encounter/images.subpackage_pre-encounter/images/v1 API from Candid Health — 3 operation(s) for subpackage_pre-encounter.subpackage_pre-encounter/images.sub
-  name: Candid Health subpackage_pre-encounter.subpackage_pre-encounter/images.subpackage_pre-encounter/images/v1 API
-  slug: candid-health-subpackage-pre-encounter-subpackage-pre-encounter-images-subpackage-pre-encounter-images-v1-api
-- description: The subpackage_pre-encounter.subpackage_pre-encounter/lists.subpackage_pre-encounter/lists/v1 API from Candid Health — 2 operation(s) for subpackage_pre-encounter.subpackage_pre-encounter/lists.subpac
-  name: Candid Health subpackage_pre-encounter.subpackage_pre-encounter/lists.subpackage_pre-encounter/lists/v1 API
-  slug: candid-health-subpackage-pre-encounter-subpackage-pre-encounter-lists-subpackage-pre-encounter-lists-v1-api
-- description: The subpackage_pre-encounter.subpackage_pre-encounter/notes.subpackage_pre-encounter/notes/v1 API from Candid Health — 3 operation(s) for subpackage_pre-encounter.subpackage_pre-encounter/notes.subpac
-  name: Candid Health subpackage_pre-encounter.subpackage_pre-encounter/notes.subpackage_pre-encounter/notes/v1 API
-  slug: candid-health-subpackage-pre-encounter-subpackage-pre-encounter-notes-subpackage-pre-encounter-notes-v1-api
-- description: The subpackage_pre-encounter.subpackage_pre-encounter/organizationExternalProviders.subpackage_pre-encounter/organizationExternalProviders/v1 API from Candid Health — 4 operation(s) for subpackage_pre
-  name: Candid Health subpackage_pre-encounter.subpackage_pre-encounter/organizationExternalProviders.subpackage_pre-encounter/organizationExternalProviders/v1 API
-  slug: candid-health-subpackage-pre-encounter-subpackage-pre-encounter-organizationexternalproviders-subpackage-pre-encounter-organizationexternalproviders-v1-api
-- description: The subpackage_pre-encounter.subpackage_pre-encounter/patients.subpackage_pre-encounter/patients/v1 API from Candid Health — 10 operation(s) for subpackage_pre-encounter.subpackage_pre-encounter/patie
-  name: Candid Health subpackage_pre-encounter.subpackage_pre-encounter/patients.subpackage_pre-encounter/patients/v1 API
-  slug: candid-health-subpackage-pre-encounter-subpackage-pre-encounter-patients-subpackage-pre-encounter-patients-v1-api
-- description: The subpackage_pre-encounter.subpackage_pre-encounter/tags.subpackage_pre-encounter/tags/v1 API from Candid Health — 3 operation(s) for subpackage_pre-encounter.subpackage_pre-encounter/tags.subpackag
-  name: Candid Health subpackage_pre-encounter.subpackage_pre-encounter/tags.subpackage_pre-encounter/tags/v1 API
-  slug: candid-health-subpackage-pre-encounter-subpackage-pre-encounter-tags-subpackage-pre-encounter-tags-v1-api
-- description: The subpackage_service-lines.subpackage_service-lines/v2 API from Candid Health — 4 operation(s) for subpackage_service-lines.subpackage_service-lines/v2.
-  name: Candid Health subpackage_service-lines.subpackage_service-lines/v2 API
-  slug: candid-health-subpackage-service-lines-subpackage-service-lines-v2-api
-- description: The subpackage_superbills.subpackage_superbills/v1 API from Candid Health — 1 operation(s) for subpackage_superbills.subpackage_superbills/v1.
-  name: Candid Health subpackage_superbills.subpackage_superbills/v1 API
-  slug: candid-health-subpackage-superbills-subpackage-superbills-v1-api
-- description: The subpackage_tasks.subpackage_tasks/v3 API from Candid Health — 3 operation(s) for subpackage_tasks.subpackage_tasks/v3.
-  name: Candid Health subpackage_tasks.subpackage_tasks/v3 API
-  slug: candid-health-subpackage-tasks-subpackage-tasks-v3-api
-- description: The subpackage_write-offs.subpackage_write-offs/v1 API from Candid Health — 5 operation(s) for subpackage_write-offs.subpackage_write-offs/v1.
-  name: Candid Health subpackage_write-offs.subpackage_write-offs/v1 API
-  slug: candid-health-subpackage-write-offs-subpackage-write-offs-v1-api
-- description: Real-time and batch insurance eligibility checks.
-  name: Candid Health Eligibility API
-  slug: candidhealth-eligibility-api
-- description: Submit and manage encounters that drive claim generation.
-  name: Candid Health Encounters API
-  slug: candidhealth-encounters-api
-- description: Scan and retrieve billing lifecycle events.
-  name: Candid Health Events API
-  slug: candidhealth-events-api
-- description: Resolve contracted rates for service lines.
-  name: Candid Health Fee Schedules API
-  slug: candidhealth-fee-schedules-api
-- description: Retrieve ERA / 835 remittance adjudication detail.
-  name: Candid Health Insurance Adjudications API
-  slug: candidhealth-insurance-adjudications-api
-- description: Look up insurance payers.
-  name: Candid Health Payers API
-  slug: candidhealth-payers-api
-artifact_total: 139
+- description: The default API from Candid Health — 1 operation(s) for default.
+  name: Candid Health Default API
+  slug: candid-health-default-api
+- description: The diagnoses API from Candid Health — 2 operation(s) for diagnoses.
+  name: Candid Health Diagnoses API
+  slug: candid-health-diagnoses-api
+- description: The v1 API from Candid Health — 105 operation(s) for v1.
+  name: Candid Health V1 API
+  slug: candid-health-v1-api
+- description: The v2 API from Candid Health — 25 operation(s) for v2.
+  name: Candid Health V2 API
+  slug: candid-health-v2-api
+- description: The v3 API from Candid Health — 28 operation(s) for v3.
+  name: Candid Health V3 API
+  slug: candid-health-v3-api
+- description: The v4 API from Candid Health — 10 operation(s) for v4.
+  name: Candid Health V4 API
+  slug: candid-health-v4-api
+artifact_total: 91
 collections:
 - collection_type: open
   name: API Collection
@@ -402,6 +258,10 @@ collections:
   name: Candid Health API
   slug: open-candidhealth
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/candid-health-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -662,13 +522,13 @@ modified: 2026-08-15
 name: Candid Health
 nav: Providers
 network: true
-overview: 'Candid Health publishes 56 APIs on the [APIs.io](https://apis.io/) network, including Charge Capture API, Auth API, subpackage_auth.subpackage_auth/default API, and 53 more. Tagged areas include Medical Billing, Revenue Cycle Management, Healthcare, Claims, and Eligibility.
+overview: 'Candid Health publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Default API, Diagnoses API, V1 API, and 3 more. Tagged areas include Medical Billing, Revenue Cycle Management, Healthcare, Claims, and Eligibility.
 
 
   The Candid Health catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Candid Health''s developer surface includes authentication, documentation, GitHub presence, engineering blog, sandbox, code examples, developer portal, and 44 more developer resources.'
+  Candid Health''s developer surface includes authentication, documentation, GitHub presence, engineering blog, sandbox, code examples, developer portal, and 45 more developer resources.'
 plans:
 - name: Candid Health Plans Pricing
   plan_count: 1
@@ -691,18 +551,23 @@ rules:
   slug: candid-health-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.7
-  delta: 1.0
+  composite: 65.6
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 42.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 72.4
     commercial_clarity: 72.4
-    contract_governance: 37.1
-    contract_quality: 61.6
+    contract_governance: 25.0
+    contract_quality: 59.7
     developer_ergonomics: 78.0
-    discoverability: 68.5
-    governance: 37.1
+    discoverability: 87.0
+    governance: 25.0
     operational_transparency: 47.4
-  previous_composite: 64.7
+  previous_composite: 66.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -719,8 +584,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/candid-health/refs/heads/main/screenshots/candid-health-2026-07-25T204340.png
 security:

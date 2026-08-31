@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-08-26'
-api_count: 9
+  scored_at: '2026-08-30'
+api_count: 8
 apis:
 - description: Single API onto the SIX financial data universe - real-time, intraday, end-of-day, and historical pricing across asset classes, reference data, corporate actions, tax, and ESG datasets from 900+ price
   name: SIX Web API
@@ -134,6 +134,10 @@ collections:
   name: 'debiX Auth Provider API: Provider-to-SIX 3DS Token Provisioning API'
   slug: open-six-group-token-provisioning-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/six-group-capability-edges.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -288,22 +292,27 @@ overview: 'SIX publishes 7 APIs on the [APIs.io](https://apis.io/) network, incl
   The SIX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  SIX''s developer surface includes developer portal, documentation, engineering blog, support, authentication, sandbox, changelog, and 27 more developer resources.'
+  SIX''s developer surface includes developer portal, documentation, engineering blog, support, authentication, sandbox, changelog, and 28 more developer resources.'
 random_paper: 18
 score:
   band: strong
-  composite: 57.4
-  delta: 1.4
+  composite: 55.1
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 30.3
-    contract_quality: 59.8
+    contract_governance: 18.2
+    contract_quality: 60.8
     developer_ergonomics: 70.8
-    discoverability: 83.3
-    governance: 30.3
+    discoverability: 72.2
+    governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 56.0
+  previous_composite: 55.1
   provenance:
     conformance: first-party
     contracts:
@@ -319,8 +328,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/six-group/refs/heads/main/screenshots/six-group-2026-07-22T202623.png
 security:

@@ -21,19 +21,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.3
-  scored_at: '2026-08-26'
+  score: 25.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 24
   slug: openfga-agentic-access
   summary_line: 24 operations · 17 acting
-api_count: 6
+api_count: 1
 apis:
 - description: The Assertions API from OpenFGA — 1 operation(s) for assertions.
   name: OpenFGA Assertions API
@@ -139,18 +139,23 @@ rate_limits:
   slug: openfga-rate-limits
 score:
   band: thin
-  composite: 26.6
-  delta: 0.0
+  composite: 26.2
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 45.6
+    contract_quality: 46.3
     developer_ergonomics: 11.9
-    discoverability: 79.6
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 26.6
+  previous_composite: 26.8
   provenance:
     agentic_access: derived
     contracts:
@@ -158,8 +163,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openfga/refs/heads/main/screenshots/openfga-2026-06-20T191007.png
 security:

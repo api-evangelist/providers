@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: new-york-public-library-whats-on-the-menu-agentic-access
   summary_line: 9 operations
-api_count: 2
+api_count: 1
 apis:
 - description: Dish records appearing across menus.
   name: New York Public Library What's On The Menu Dishes API
@@ -167,7 +167,12 @@ rules:
 score:
   band: thin
   composite: 34.9
-  delta: 0.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -177,7 +182,7 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 34.0
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -191,8 +196,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/screenshots/new-york-public-library-whats-on-the-menu-2026-06-20T190231.png
 security:

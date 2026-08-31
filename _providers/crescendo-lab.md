@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Bulk (1-to-many) SMS. Small batches dispatch inline; >30 recipients queue asynchronously.
   name: Crescendo Lab Broadcast API
@@ -48,7 +48,10 @@ apis:
 - description: Cost-attribution teams. Tag sends with a team to see which team sent/spent how much (shared wallet — reporting only, not a wallet split).
   name: Crescendo Lab Teams API
   slug: crescendo-lab-teams-api
-artifact_total: 15
+- description: The MAAC Go API API from Crescendo Lab — 0 operation(s) for maac go api.
+  name: Crescendo Lab MAAC Go API
+  slug: crescendo-lab-maac-go-api-api
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Crescendo Lab Maacgo Webhooks
@@ -194,7 +197,7 @@ modified: '2026-08-13'
 name: Crescendo Lab
 nav: Providers
 network: true
-overview: 'Crescendo Lab publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Broadcast API, Contacts API, SMS API, and 1 more. Tagged areas include Company, SMS, Messaging, Marketing Automation, and Customer Engagement.
+overview: 'Crescendo Lab publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Broadcast API, Contacts API, SMS API, and 2 more. Tagged areas include Company, SMS, Messaging, Marketing Automation, and Customer Engagement.
 
 
   The Crescendo Lab catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -212,18 +215,23 @@ rate_limits:
   slug: crescendo-lab-rate-limits
 score:
   band: strong
-  composite: 61.2
-  delta: 2.1
+  composite: 58.5
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
-    contract_quality: 59.1
+    contract_governance: 4.5
+    contract_quality: 56.4
     developer_ergonomics: 80.4
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 59.1
+  previous_composite: 59.0
   provenance:
     conformance: derived
     contracts:
@@ -239,8 +247,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crescendo-lab/refs/heads/main/screenshots/crescendo-lab-2026-07-25T210727.png
 security:

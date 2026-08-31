@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: bunq-agentic-access
   summary_line: 28 operations · 11 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Upload and retrieve attachment content.
   name: bunq Attachment API
@@ -107,6 +107,10 @@ collections:
   name: bunq Public API
   slug: open-bunq
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bunq-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -194,7 +198,7 @@ network: true
 overview: 'bunq publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Attachment API, Card API, Customer Statement API, and 6 more. Tagged areas include Banking, Neobank, Payments, Account, and SEPA.
 
 
-  bunq''s developer surface includes authentication, documentation, sandbox, pricing, engineering blog, and 13 more developer resources.'
+  bunq''s developer surface includes authentication, documentation, sandbox, pricing, engineering blog, and 14 more developer resources.'
 plans:
 - name: Bunq Plans Pricing
   plan_count: 7
@@ -205,19 +209,24 @@ rate_limits:
   name: Bunq Rate Limits
   slug: bunq-rate-limits
 score:
-  band: developing
-  composite: 39.7
-  delta: 2.4
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 56.5
     developer_ergonomics: 39.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 37.3
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -231,8 +240,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 27.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/screenshots/bunq-2026-06-20T173803.png
 security:

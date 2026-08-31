@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 124
   slug: lightspeed-pos-agentic-access
   summary_line: 124 operations · 53 acting
-api_count: 27
+api_count: 1
 apis:
 - description: REST API for the Lightspeed eCom C-Series storefront platform.
   name: Lightspeed eCom C-Series API
@@ -126,7 +126,10 @@ apis:
 - description: The Tax Breakdown API from Lightspeed — 1 operation(s) for tax breakdown.
   name: Lightspeed Tax Breakdown API
   slug: lightspeed-pos-tax-breakdown-api
-artifact_total: 337
+- description: The PMS Integration API from Lightspeed — 0 operation(s) for pms integration.
+  name: Lightspeed PMS Integration API
+  slug: lightspeed-pos-pms-integration-api
+artifact_total: 338
 collections:
 - collection_type: open
   name: API Collection
@@ -1071,7 +1074,7 @@ modified: '2026-06-02'
 name: Lightspeed
 nav: Providers
 network: true
-overview: 'Lightspeed publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Account API, Brands API, Catalog API, and 18 more. Tagged areas include Point-of-Sale, Retail, Restaurant, and E-Commerce.
+overview: 'Lightspeed publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Account API, Brands API, Catalog API, and 19 more. Tagged areas include POS, Retail, Restaurant, and E-Commerce.
 
 
   The Lightspeed catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1116,18 +1119,23 @@ scopes:
   summary_line: 24 scopes · authorizationCode
 score:
   band: emerging
-  composite: 22.4
-  delta: 2.6
+  composite: 21.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 64.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
-    contract_quality: 27.0
+    contract_quality: 26.8
     developer_ergonomics: 23.8
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 19.8
+  previous_composite: 22.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1135,8 +1143,8 @@ score:
       derived: 21
       marker_coverage: 100.0
       total: 21
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspeed-pos/refs/heads/main/screenshots/lightspeed-pos-2026-06-20T184525.png
 security:
@@ -1150,7 +1158,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: lightspeed-pos
 tags:
-- Point-of-Sale
+- POS
 - Retail
 - Restaurant
 - E-Commerce

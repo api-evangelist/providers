@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 53
   slug: ansa-agentic-access
   summary_line: 53 operations · 34 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Add Incentive API from Ansa — 1 operation(s) for add incentive.
   name: Ansa Add Incentive API
@@ -245,18 +245,23 @@ overview: 'Ansa publishes 7 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 20
 score:
   band: developing
-  composite: 53.9
-  delta: 0.0
+  composite: 51.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 60.7
     developer_ergonomics: 54.2
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 53.9
+  previous_composite: 52.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -273,8 +278,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansa/refs/heads/main/screenshots/ansa-2026-07-25T200309.png
 security:

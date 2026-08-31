@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: tensordock-agentic-access
   summary_line: 11 operations · 7 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: The current TensorDock Instances API (v2) at https://dashboard.tensordock.com/api/v2/instances for creating, listing, inspecting, starting, stopping, modifying, and deleting GPU and CPU virtual machin
   name: TensorDock Instances API
@@ -110,6 +110,10 @@ collections:
   name: TensorDock Marketplace Virtual Machines API
   slug: open-tensordock-virtual-machines-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tensordock-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -368,7 +372,7 @@ overview: 'TensorDock publishes 9 APIs on the [APIs.io](https://apis.io/) networ
   The TensorDock catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TensorDock''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, sandbox, signup flow, and 41 more developer resources.'
+  TensorDock''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, sandbox, signup flow, and 42 more developer resources.'
 plans:
 - name: Tensordock Plans Pricing
   plan_count: 6
@@ -402,15 +406,20 @@ rules:
   slug: tensordock-rules
 score:
   band: strong
-  composite: 58.6
-  delta: 0.0
+  composite: 58.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 13.6
     contract_quality: 60.8
     developer_ergonomics: 69.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 23.7
   previous_composite: 58.6
@@ -421,8 +430,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensordock/refs/heads/main/screenshots/tensordock-2026-06-20T195118.png
 security:

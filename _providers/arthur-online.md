@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 0
@@ -31,56 +31,104 @@ agentic_access:
   operation_count: 317
   slug: arthur-online-agentic-access
   summary_line: 317 operations · 137 acting
-api_count: 16
+api_count: 32
 apis:
-- description: Property records and everything hung off a property in Arthur - assets, certificates, conversations, general information, notes, units, tenancies, tasks, work orders, utilities, transactions and tags.
-  name: Arthur Properties API
-  slug: arthur-properties-api
-- description: Individual lettable units beneath a property, plus the unit-level assets, certificates, conversations, notes, viewings, tenancies, tasks, work orders, utilities, transactions and tags. 22 documented p
-  name: Arthur Units API
-  slug: arthur-units-api
-- description: 'Tenancy agreements over a unit, including tenants on the tenancy, deposit registration, recurring charges, certificates, tasks, work orders, conversations, transactions, notes and tags. 21 documented '
-  name: Arthur Tenancies API
-  slug: arthur-tenancies-api
-- description: Tenant people records - list, view, create and update tenants, and invite a tenant into the Arthur tenant portal. 3 documented paths.
-  name: Arthur Tenants API
-  slug: arthur-tenants-api
-- description: Prospective renters moving through the lettings funnel, including applicant status, credit checks, managers, assets, conversations, notes, tasks and tags. 15 documented paths.
-  name: Arthur Applicants API
-  slug: arthur-applicants-api
-- description: Property and unit viewing appointments, the applicants attached to each viewing, assigned managers, conversations, notes and tags. 15 documented paths.
-  name: Arthur Viewings API
-  slug: arthur-viewings-api
-- description: The largest surface in the API - tasks, subtasks, work orders, quotes and the contractor workflow around them. 45 documented paths.
-  name: Arthur Maintenance API
-  slug: arthur-maintenance-api
-- description: Rental financials - invoices, transactions, transaction payoff and recurring charges. Read and update only; no create operations are documented. 6 documented paths.
-  name: Arthur Financials API
-  slug: arthur-financials-api
-- description: Files and documents stored in Arthur and shared with owners, tenants and contractors. 2 documented paths.
-  name: Arthur Assets API
-  slug: arthur-assets-api
-- description: Utility accounts attached to properties and units, and the meter readings recorded against them. 4 documented paths.
-  name: Arthur Utilities API
-  slug: arthur-utilities-api
-- description: Compliance certificates - gas safety, electrical, EPC and similar - with expiry tracking that also drives webhook events at 30 days, 7 days and on the day. 2 documented paths.
-  name: Arthur Certificates API
-  slug: arthur-certificates-api
-- description: Arthur entities - the account boundary that every API call must name in the mandatory X-EntityID request header. 2 documented paths.
-  name: Arthur Entities API
-  slug: arthur-entities-api
-- description: Threaded conversations and messages between managers, tenants, owners and contractors, with attached assets. 4 documented paths.
-  name: Arthur Conversations API
-  slug: arthur-conversations-api
-- description: Cross-cutting tags applied to properties, units, tenancies, applicants, viewings and notes, with tag and untag operations on each resource. 2 documented paths.
-  name: Arthur Tags API
-  slug: arthur-tags-api
-- description: Free-text notes recorded against any Arthur resource, with their own tagging operations. 5 documented paths.
-  name: Arthur Notes API
-  slug: arthur-notes-api
-- description: Read-only reference vocabularies backing every enumerated field in Arthur - access detail types, applicant statuses and types, area types, asset types, certificate types, citizen types, contract types
-  name: Arthur Types API
-  slug: arthur-types-api
+- description: The Applicant API from Arthur Online — 5 operation(s) for applicant.
+  name: Arthur Online Applicant API
+  slug: arthur-online-applicant-api
+- description: The Applicants API from Arthur Online — 4 operation(s) for applicants.
+  name: Arthur Online Applicants API
+  slug: arthur-online-applicants-api
+- description: The Assets API from Arthur Online — 7 operation(s) for assets.
+  name: Arthur Online Assets API
+  slug: arthur-online-assets-api
+- description: The Assigned Managers API from Arthur Online — 4 operation(s) for assigned managers.
+  name: Arthur Online Assigned Managers API
+  slug: arthur-online-assigned-managers-api
+- description: The Certificates API from Arthur Online — 5 operation(s) for certificates.
+  name: Arthur Online Certificates API
+  slug: arthur-online-certificates-api
+- description: The Contractor Invoices API from Arthur Online — 2 operation(s) for contractor invoices.
+  name: Arthur Online Contractor Invoices API
+  slug: arthur-online-contractor-invoices-api
+- description: The Conversations API from Arthur Online — 11 operation(s) for conversations.
+  name: Arthur Online Conversations API
+  slug: arthur-online-conversations-api
+- description: The Credit Checks API from Arthur Online — 1 operation(s) for credit checks.
+  name: Arthur Online Credit Checks API
+  slug: arthur-online-credit-checks-api
+- description: The Entities API from Arthur Online — 2 operation(s) for entities.
+  name: Arthur Online Entities API
+  slug: arthur-online-entities-api
+- description: The General Information API from Arthur Online — 2 operation(s) for general information.
+  name: Arthur Online General Information API
+  slug: arthur-online-general-information-api
+- description: The Invite API from Arthur Online — 1 operation(s) for invite.
+  name: Arthur Online Invite API
+  slug: arthur-online-invite-api
+- description: The Messages API from Arthur Online — 2 operation(s) for messages.
+  name: Arthur Online Messages API
+  slug: arthur-online-messages-api
+- description: The Notes API from Arthur Online — 12 operation(s) for notes.
+  name: Arthur Online Notes API
+  slug: arthur-online-notes-api
+- description: The Offers API from Arthur Online — 1 operation(s) for offers.
+  name: Arthur Online Offers API
+  slug: arthur-online-offers-api
+- description: The Properties API from Arthur Online — 2 operation(s) for properties.
+  name: Arthur Online Properties API
+  slug: arthur-online-properties-api
+- description: The Property API from Arthur Online — 1 operation(s) for property.
+  name: Arthur Online Property API
+  slug: arthur-online-property-api
+- description: The Quotes API from Arthur Online — 2 operation(s) for quotes.
+  name: Arthur Online Quotes API
+  slug: arthur-online-quotes-api
+- description: The Readings API from Arthur Online — 2 operation(s) for readings.
+  name: Arthur Online Readings API
+  slug: arthur-online-readings-api
+- description: The Recurrings API from Arthur Online — 2 operation(s) for recurrings.
+  name: Arthur Online Recurrings API
+  slug: arthur-online-recurrings-api
+- description: The Register Deposit API from Arthur Online — 1 operation(s) for register deposit.
+  name: Arthur Online Register Deposit API
+  slug: arthur-online-register-deposit-api
+- description: The Subtasks API from Arthur Online — 2 operation(s) for subtasks.
+  name: Arthur Online Subtasks API
+  slug: arthur-online-subtasks-api
+- description: The Tags API from Arthur Online — 21 operation(s) for tags.
+  name: Arthur Online Tags API
+  slug: arthur-online-tags-api
+- description: The Task API from Arthur Online — 3 operation(s) for task.
+  name: Arthur Online Task API
+  slug: arthur-online-task-api
+- description: The Tasks API from Arthur Online — 26 operation(s) for tasks.
+  name: Arthur Online Tasks API
+  slug: arthur-online-tasks-api
+- description: The Tenancies API from Arthur Online — 5 operation(s) for tenancies.
+  name: Arthur Online Tenancies API
+  slug: arthur-online-tenancies-api
+- description: The Tenants API from Arthur Online — 3 operation(s) for tenants.
+  name: Arthur Online Tenants API
+  slug: arthur-online-tenants-api
+- description: The Transactions API from Arthur Online — 6 operation(s) for transactions.
+  name: Arthur Online Transactions API
+  slug: arthur-online-transactions-api
+- description: The Types API from Arthur Online — 31 operation(s) for types.
+  name: Arthur Online Types API
+  slug: arthur-online-types-api
+- description: The Units API from Arthur Online — 3 operation(s) for units.
+  name: Arthur Online Units API
+  slug: arthur-online-units-api
+- description: The Utilities API from Arthur Online — 4 operation(s) for utilities.
+  name: Arthur Online Utilities API
+  slug: arthur-online-utilities-api
+- description: The Viewings API from Arthur Online — 5 operation(s) for viewings.
+  name: Arthur Online Viewings API
+  slug: arthur-online-viewings-api
+- description: The Workorders API from Arthur Online — 29 operation(s) for workorders.
+  name: Arthur Online Workorders API
+  slug: arthur-online-workorders-api
 arazzos:
 - description: 'The UK lettings funnel in Arthur Online: confirm the entity, create an applicant, book a viewing on a unit, record the offer, convert the viewing into a tenancy, add the tenant and register the deposi'
   name: Arthur Online - applicant to tenancy
@@ -91,7 +139,7 @@ arazzos:
 - description: 'Bring a new building into Arthur Online: create the property, add a lettable unit, file the compliance certificate, publish the information shared with occupants and attach the document. Every operati'
   name: Arthur Online - onboard a property
   slug: arthur-online-onboard-property
-artifact_total: 59
+artifact_total: 75
 asyncapis:
 - description: The Arthur Online webhook event surface. A property manager subscribes a webhook URL to one or more of the 125 published triggers on the Arthur webhook page; Arthur then POSTs a form-encoded payload t
   name: Arthur Online Webhooks
@@ -197,6 +245,70 @@ collections:
   name: Arthur Viewings API
   slug: open-arthur-online-viewings
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arthur-online-properties-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arthur-online-units-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arthur-online-tenancies-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arthur-online-tenants-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arthur-online-applicants-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arthur-online-viewings-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arthur-online-maintenance-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arthur-online-financials-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arthur-online-assets-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arthur-online-utilities-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arthur-online-certificates-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arthur-online-entities-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arthur-online-conversations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arthur-online-tags-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arthur-online-notes-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/arthur-online-types-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -366,13 +478,13 @@ modified: '2026-07-26'
 name: Arthur Online
 nav: Providers
 network: true
-overview: 'Arthur Online publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Arthur Properties API, Arthur Units API, Arthur Tenancies API, and 13 more. Tagged areas include Real-Estate, United Kingdom, Property Management, PropTech, and Rentals.
+overview: 'Arthur Online publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Applicant API, Applicants API, Assets API, and 29 more. Tagged areas include Real-Estate, United Kingdom, Property Management, PropTech, and Rentals.
 
 
   The Arthur Online catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Arthur Online''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, support, engineering blog, and 32 more developer resources.'
+  Arthur Online''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, support, engineering blog, and 48 more developer resources.'
 plans:
 - name: Arthur Online Plans
   plan_count: 3
@@ -384,18 +496,23 @@ rate_limits:
   slug: arthur-online-rate-limits
 score:
   band: developing
-  composite: 51.8
-  delta: 0.0
+  composite: 50.5
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 56.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 20.5
-    contract_quality: 28.2
+    contract_governance: 8.3
+    contract_quality: 28.1
     developer_ergonomics: 63.7
-    discoverability: 74.1
-    governance: 20.5
+    discoverability: 75.9
+    governance: 8.3
     operational_transparency: 31.6
-  previous_composite: 51.8
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -408,12 +525,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arthur-online/refs/heads/main/screenshots/arthur-online-2026-08-07T161741.png
 security:

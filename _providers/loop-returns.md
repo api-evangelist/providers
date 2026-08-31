@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 32
   slug: loop-returns-agentic-access
   summary_line: 32 operations · 22 acting
-api_count: 7
+api_count: 6
 apis:
 - description: The Cart API from Loop Returns — 2 operation(s) for cart.
   name: Loop Returns Cart API
@@ -113,6 +113,10 @@ collections:
   name: Loop Returns Cart Return Data API
   slug: open-loop-returns-return-data-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/loop-returns-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -240,7 +244,7 @@ overview: 'Loop Returns publishes 7 APIs on the [APIs.io](https://apis.io/) netw
   The Loop Returns catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Loop Returns'' developer surface includes authentication, documentation, pricing, engineering blog, changelog, and 16 more developer resources.'
+  Loop Returns'' developer surface includes authentication, documentation, pricing, engineering blog, changelog, and 17 more developer resources.'
 plans:
 - name: Loop Returns Plans Pricing
   plan_count: 3
@@ -269,6 +273,11 @@ scopes:
 score:
   band: strong
   composite: 57.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 32.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 57.9
@@ -293,8 +302,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 63.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/screenshots/loop-returns-2026-06-20T184717.png
 security:

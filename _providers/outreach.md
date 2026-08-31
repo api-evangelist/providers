@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 253
   slug: outreach-agentic-access
   summary_line: 253 operations · 160 acting
-api_count: 5
+api_count: 2
 apis:
-- description: JSON API 1.0 REST API covering accounts, prospects, opportunities, sequences, sequence states, mailings, calls, tasks, teams, users, notes, imports, batch actions and webhooks — 147 paths and 253 oper
-  name: Outreach REST API
-  slug: outreach-rest-api
 - description: Remote Model Context Protocol server exposing Outreach as 41 agent tools (27 read, 11 write, 3 schema introspection) over streamable HTTP, authorized by OAuth 2.1 with PKCE and RFC 7591 Dynamic Client
   name: Outreach MCP Server
   slug: outreach-mcp-server
@@ -59,8 +56,169 @@ apis:
 - description: Event-driven webhook deliveries for accounts, calls, contacts, email addresses, imports, Kaia recordings, mailings, opportunities, opportunity prospect roles, prospects, sequences, sequence states, ta
   name: Outreach Webhooks
   slug: outreach-webhooks
-artifact_total: 16
+- description: '<SchemaDefinition schemaRef="#/components/schemas/account" /> ## Account Relationships <SchemaDefinition schemaRef="#/components/schemas/accountRelationships" /> ## Account Resource Metadata | **METAD'
+  name: Outreach Account API
+  slug: outreach-account-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/accountNote" /> ## Account Note Relationships <SchemaDefinition schemaRef="#/components/schemas/accountNoteRelationships" /> ## ⌵ Account Note Actions'
+  name: Outreach Account Note API
+  slug: outreach-account-note-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/auditLog" /> ## Audit Log Custom Filters | **NAME**| **VALUE TYPE** | **VALUE KIND** | **VALUE LENGTH** | | --- | --- | --- | --- | | agentEmail | str'
+  name: Outreach Audit Log API
+  slug: outreach-audit-log-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/batch" /> ## Batch Relationships <SchemaDefinition schemaRef="#/components/schemas/batchRelationships" /> ## Batch Resource Metadata | **METADATA NAME'
+  name: Outreach Batch API
+  slug: outreach-batch-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/batchItem" /> ## Batch Item Relationships <SchemaDefinition schemaRef="#/components/schemas/batchItemRelationships" /> ## ⌵ Batch Item Actions'
+  name: Outreach Batch Item API
+  slug: outreach-batch-item-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/call" /> ## Call Relationships <SchemaDefinition schemaRef="#/components/schemas/callRelationships" /> ## Call Resource Metadata | **METADATA NAME**| '
+  name: Outreach Call API
+  slug: outreach-call-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/callDisposition" /> ## Call Disposition Relationships <SchemaDefinition schemaRef="#/components/schemas/callDispositionRelationships" /> ## Call Dispo'
+  name: Outreach Call Disposition API
+  slug: outreach-call-disposition-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/callPurpose" /> ## Call Purpose Relationships <SchemaDefinition schemaRef="#/components/schemas/callPurposeRelationships" /> ## Call Purpose Resource '
+  name: Outreach Call Purpose API
+  slug: outreach-call-purpose-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/complianceRequest" /> ## Compliance Request Relationships <SchemaDefinition schemaRef="#/components/schemas/complianceRequestRelationships" /> ## ⌵ Co'
+  name: Outreach Compliance Request API
+  slug: outreach-compliance-request-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/contentCategory" /> ## Content Category Relationships <SchemaDefinition schemaRef="#/components/schemas/contentCategoryRelationships" /> ## Content Ca'
+  name: Outreach Content Category API
+  slug: outreach-content-category-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/contentCategoryMembership" /> ## Content Category Membership Relationships <SchemaDefinition schemaRef="#/components/schemas/contentCategoryMembership'
+  name: Outreach Content Category Membership API
+  slug: outreach-content-category-membership-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/contentCategoryOwnership" /> ## Content Category Ownership Relationships <SchemaDefinition schemaRef="#/components/schemas/contentCategoryOwnershipRel'
+  name: Outreach Content Category Ownership API
+  slug: outreach-content-category-ownership-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/customDuty" /> ## ⌵ Custom Duty Actions'
+  name: Outreach Custom Duty API
+  slug: outreach-custom-duty-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/duty" /> ## ⌵ Duty Actions'
+  name: Outreach Duty API
+  slug: outreach-duty-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/emailAddress" /> ## Email Address Relationships <SchemaDefinition schemaRef="#/components/schemas/emailAddressRelationships" /> ## Email Address Resou'
+  name: Outreach Email Address API
+  slug: outreach-email-address-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/event" /> ## Event Relationships <SchemaDefinition schemaRef="#/components/schemas/eventRelationships" /> ## Event Resource Metadata | **METADATA NAME'
+  name: Outreach Event API
+  slug: outreach-event-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/favorite" /> ## Favorite Relationships <SchemaDefinition schemaRef="#/components/schemas/favoriteRelationships" /> ## Favorite Resource Metadata | **M'
+  name: Outreach Favorite API
+  slug: outreach-favorite-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/import" /> ## Import Relationships <SchemaDefinition schemaRef="#/components/schemas/importRelationships" /> ## Import Resource Metadata | **METADATA '
+  name: Outreach Import API
+  slug: outreach-import-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/kaiaRecording" /> ## Kaia Recording Relationships <SchemaDefinition schemaRef="#/components/schemas/kaiaRecordingRelationships" /> ## ⌵ Kaia Recording'
+  name: Outreach Kaia Recording API
+  slug: outreach-kaia-recording-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/kaiaVoiceImport" /> ## ⌵ Kaia Voice Import Actions'
+  name: Outreach Kaia Voice Import API
+  slug: outreach-kaia-voice-import-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/mailAlias" /> ## Mail Alias Relationships <SchemaDefinition schemaRef="#/components/schemas/mailAliasRelationships" /> ## ⌵ Mail Alias Actions'
+  name: Outreach Mail Alias API
+  slug: outreach-mail-alias-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/mailbox" /> ## Mailbox Relationships <SchemaDefinition schemaRef="#/components/schemas/mailboxRelationships" /> ## Mailbox Resource Metadata | **METAD'
+  name: Outreach Mailbox API
+  slug: outreach-mailbox-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/mailing" /> ## Mailing Relationships <SchemaDefinition schemaRef="#/components/schemas/mailingRelationships" /> ## Mailing Resource Metadata | **METAD'
+  name: Outreach Mailing API
+  slug: outreach-mailing-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/opportunity" /> ## Opportunity Relationships <SchemaDefinition schemaRef="#/components/schemas/opportunityRelationships" /> ## Opportunity Resource Me'
+  name: Outreach Opportunity API
+  slug: outreach-opportunity-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/opportunityProspectRole" /> ## Opportunity Prospect Role Relationships <SchemaDefinition schemaRef="#/components/schemas/opportunityProspectRoleRelati'
+  name: Outreach Opportunity Prospect Role API
+  slug: outreach-opportunity-prospect-role-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/opportunityStage" /> ## Opportunity Stage Relationships <SchemaDefinition schemaRef="#/components/schemas/opportunityStageRelationships" /> ## Opportu'
+  name: Outreach Opportunity Stage API
+  slug: outreach-opportunity-stage-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/orgSetting" /> ## ⌵ Org Setting Actions'
+  name: Outreach Org Setting API
+  slug: outreach-org-setting-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/persona" /> ## Persona Relationships <SchemaDefinition schemaRef="#/components/schemas/personaRelationships" /> ## Persona Resource Metadata | **METAD'
+  name: Outreach Persona API
+  slug: outreach-persona-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/phoneNumber" /> ## Phone Number Relationships <SchemaDefinition schemaRef="#/components/schemas/phoneNumberRelationships" /> ## Phone Number Resource '
+  name: Outreach Phone Number API
+  slug: outreach-phone-number-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/product" /> ## Product Relationships <SchemaDefinition schemaRef="#/components/schemas/productRelationships" /> ## Product Resource Metadata | **METAD'
+  name: Outreach Product API
+  slug: outreach-product-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/profile" /> ## Profile Resource Metadata | **METADATA NAME**| **DESCRIPTION** | **QUERY PARAM** | | --- | --- | --- | | canWrite | A boolean value ind'
+  name: Outreach Profile API
+  slug: outreach-profile-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/prospect" /> ## Prospect Relationships <SchemaDefinition schemaRef="#/components/schemas/prospectRelationships" /> ## Prospect Resource Metadata | **M'
+  name: Outreach Prospect API
+  slug: outreach-prospect-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/prospectNote" /> ## Prospect Note Relationships <SchemaDefinition schemaRef="#/components/schemas/prospectNoteRelationships" /> ## ⌵ Prospect Note Act'
+  name: Outreach Prospect Note API
+  slug: outreach-prospect-note-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/purchase" /> ## Purchase Relationships <SchemaDefinition schemaRef="#/components/schemas/purchaseRelationships" /> ## Purchase Resource Metadata | **M'
+  name: Outreach Purchase API
+  slug: outreach-purchase-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/recipient" /> ## Recipient Relationships <SchemaDefinition schemaRef="#/components/schemas/recipientRelationships" /> ## Recipient Resource Metadata |'
+  name: Outreach Recipient API
+  slug: outreach-recipient-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/role" /> ## Role Relationships <SchemaDefinition schemaRef="#/components/schemas/roleRelationships" /> ## Role Resource Metadata | **METADATA NAME**| '
+  name: Outreach Role API
+  slug: outreach-role-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/ruleset" /> ## Ruleset Relationships <SchemaDefinition schemaRef="#/components/schemas/rulesetRelationships" /> ## Ruleset Resource Metadata | **METAD'
+  name: Outreach Ruleset API
+  slug: outreach-ruleset-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/sequence" /> ## Sequence Relationships <SchemaDefinition schemaRef="#/components/schemas/sequenceRelationships" /> ## Sequence Resource Metadata | **M'
+  name: Outreach Sequence API
+  slug: outreach-sequence-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/sequenceState" /> ## Sequence State Relationships <SchemaDefinition schemaRef="#/components/schemas/sequenceStateRelationships" /> ## Sequence State R'
+  name: Outreach Sequence State API
+  slug: outreach-sequence-state-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/sequenceStep" /> ## Sequence Step Relationships <SchemaDefinition schemaRef="#/components/schemas/sequenceStepRelationships" /> ## Sequence Step Resou'
+  name: Outreach Sequence Step API
+  slug: outreach-sequence-step-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/sequenceTemplate" /> ## Sequence Template Relationships <SchemaDefinition schemaRef="#/components/schemas/sequenceTemplateRelationships" /> ## Sequenc'
+  name: Outreach Sequence Template API
+  slug: outreach-sequence-template-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/snippet" /> ## Snippet Relationships <SchemaDefinition schemaRef="#/components/schemas/snippetRelationships" /> ## Snippet Resource Metadata | **METAD'
+  name: Outreach Snippet API
+  slug: outreach-snippet-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/stage" /> ## Stage Relationships <SchemaDefinition schemaRef="#/components/schemas/stageRelationships" /> ## Stage Resource Metadata | **METADATA NAME'
+  name: Outreach Stage API
+  slug: outreach-stage-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/task" /> ## Task Relationships <SchemaDefinition schemaRef="#/components/schemas/taskRelationships" /> ## Task Resource Metadata | **METADATA NAME**| '
+  name: Outreach Task API
+  slug: outreach-task-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/taskDisposition" /> ## Task Disposition Relationships <SchemaDefinition schemaRef="#/components/schemas/taskDispositionRelationships" /> ## Task Dispo'
+  name: Outreach Task Disposition API
+  slug: outreach-task-disposition-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/taskPriority" /> ## Task Priority Relationships <SchemaDefinition schemaRef="#/components/schemas/taskPriorityRelationships" /> ## ⌵ Task Priority Act'
+  name: Outreach Task Priority API
+  slug: outreach-task-priority-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/taskPurpose" /> ## Task Purpose Relationships <SchemaDefinition schemaRef="#/components/schemas/taskPurposeRelationships" /> ## Task Purpose Resource '
+  name: Outreach Task Purpose API
+  slug: outreach-task-purpose-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/team" /> ## Team Relationships <SchemaDefinition schemaRef="#/components/schemas/teamRelationships" /> ## Team Resource Metadata | **METADATA NAME**| '
+  name: Outreach Team API
+  slug: outreach-team-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/template" /> ## Template Relationships <SchemaDefinition schemaRef="#/components/schemas/templateRelationships" /> ## Template Resource Metadata | **M'
+  name: Outreach Template API
+  slug: outreach-template-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/user" /> ## User Relationships <SchemaDefinition schemaRef="#/components/schemas/userRelationships" /> ## User Resource Metadata | **METADATA NAME**| '
+  name: Outreach User API
+  slug: outreach-user-api
+- description: '<SchemaDefinition schemaRef="#/components/schemas/webhook" /> ## Webhook Relationships <SchemaDefinition schemaRef="#/components/schemas/webhookRelationships" /> ## Webhook Resource Metadata | **METAD'
+  name: Outreach Webhook API
+  slug: outreach-webhook-api
+artifact_total: 66
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/outreach-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/outreach-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -225,10 +383,10 @@ modified: '2026-08-13'
 name: Outreach
 nav: Providers
 network: true
-overview: 'Outreach publishes 2 APIs on the [APIs.io](https://apis.io/) network: REST API and Webhooks. Tagged areas include Sales, Sales Engagement, Sequences, CRM, and Email.
+overview: 'Outreach publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Account API, Account Note API, and 49 more. Tagged areas include Sales, Sales Engagement, Sequences, CRM, and Email.
 
 
-  Outreach''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, pricing, and 29 more developer resources.'
+  Outreach''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, pricing, and 31 more developer resources.'
 plans:
 - name: Outreach Plans Pricing
   plan_count: 4
@@ -245,18 +403,23 @@ scopes:
   summary_line: 46 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 71.5
-  delta: 1.0
+  composite: 67.5
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 30.3
-    contract_quality: 62.0
+    contract_governance: 18.2
+    contract_quality: 60.4
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 70.4
+    governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 70.5
+  previous_composite: 68.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -267,8 +430,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outreach/refs/heads/main/screenshots/outreach-2026-06-20T191233.png
 security:

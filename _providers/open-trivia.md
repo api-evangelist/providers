@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -288,18 +288,23 @@ rules:
   slug: open-trivia-rules
 score:
   band: thin
-  composite: 29.5
-  delta: 4.5
+  composite: 29.6
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 36.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
-    contract_quality: 29.9
+    contract_quality: 30.3
     developer_ergonomics: 26.2
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 21.1
-  previous_composite: 25.0
+  previous_composite: 29.6
   provenance:
     agentic_access: derived
     contracts:
@@ -313,8 +318,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-trivia/refs/heads/main/screenshots/open-trivia-2026-06-20T190855.png
 security:

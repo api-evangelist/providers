@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'HTTP+JSON REST API for the Parse Platform: object CRUD and queries, users and sessions, roles, files, analytics and push. Parse Server is self-hosted, so the base URL is the operator''s own Parse Serve'
@@ -45,6 +45,10 @@ asyncapis:
   name: Parse Webhooks
   slug: parse-webhooks
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/facebook/
 - group: company
   title: ''
   type: Website
@@ -161,17 +165,22 @@ modified: '2026-07-20'
 name: Parse
 nav: Providers
 network: true
-overview: 'Parse publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backend-as-a-Service, Mobile, Open-Source, and REST API.
+overview: 'Parse publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backend as a Service, BaaS, Mobile, and Open-Source.
 
 
   The Parse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Parse''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 19 more developer resources.'
+  Parse''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 20 more developer resources.'
 random_paper: 14
 score:
   band: thin
-  composite: 36.7
+  composite: 37.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -179,15 +188,15 @@ score:
     contract_governance: 4.5
     contract_quality: 42.7
     developer_ergonomics: 64.3
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 36.7
+  previous_composite: 37.5
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parse/refs/heads/main/screenshots/parse-2026-08-07T191458.png
 security:
@@ -206,7 +215,8 @@ security:
 slug: parse
 tags:
 - Company
-- Backend-as-a-Service
+- Backend as a Service
+- BaaS
 - Mobile
 - Open-Source
 - REST API

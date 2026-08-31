@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 3
@@ -31,27 +31,111 @@ agentic_access:
   operation_count: 108
   slug: route-mobile-agentic-access
   summary_line: 108 operations · 69 acting · 3 human-in-the-loop
-api_count: 6
+api_count: 5
 apis:
-- description: Route Mobile's core A2P SMS platform — single, bulk, scheduled and personalised SMS submission over HTTPS, credit checks, account details, OTP generation and verification, DND/whitelist management, co
-  name: Route Mobile SMS API
-  slug: route-mobile-sms-api
-- description: Route Mobile is a Meta Business Solution Provider for the WhatsApp Business Platform. The API covers JWT login, account management, template and session messaging, bulk campaign upload and management,
-  name: Route Mobile WhatsApp Business API
-  slug: route-mobile-whatsapp-business-api
-- description: Rich Communication Services business messaging — verified sender messaging with rich cards, carousels and suggested replies, single and bulk message submission, an RCS payment/bill-send endpoint, typi
-  name: Route Mobile RCS Business Messaging API
-  slug: route-mobile-rcs-api
-- description: 'Viber Business Messages — login, single and bulk message submission (text, image, video, file and template messages), campaign management, media upload, summary and graph reporting, report generation '
-  name: Route Mobile Viber Business Messages API
-  slug: route-mobile-viber-api
-- description: SendClean is Route Mobile's transactional and bulk email product, exposed as a JSON-over-HTTP-POST REST API. 24 documented operations covering SMTP user creation and password reset, sending-domain and
-  name: SendClean Email API
-  slug: sendclean-email-api
 - description: 'Route Mobile''s enterprise voice and cloud telephony surface, documented as narrative guides on the developer portal (send message and template management calls) and published as a first-party Postman '
   name: Route Mobile Enterprise Voice 2.0 API
   slug: route-mobile-enterprise-voice-api
-artifact_total: 17
+- description: APIs for account management, credit queries, and authentication tokens.
+  name: Route Mobile Account API
+  slug: route-mobile-account-api
+- description: Manage your WhatsApp Business profile settings, account details, and profile photo.
+  name: Route Mobile Account Management API
+  slug: route-mobile-account-management-api
+- description: Retrieve account/user details
+  name: Route Mobile Accounts API
+  slug: route-mobile-accounts-api
+- description: Authenticate with the Route Mobile WhatsApp Business API to obtain a JWT token for subsequent API calls.
+  name: Route Mobile Authentication API
+  slug: route-mobile-authentication-api
+- description: Upload files, create, start, pause, and resume bulk messaging campaigns to reach large audiences.
+  name: Route Mobile Bulk Campaigns API
+  slug: route-mobile-bulk-campaigns-api
+- description: Upload campaign files and manage bulk RCS messaging campaigns at scale.
+  name: Route Mobile Bulk Upload Campaign API
+  slug: route-mobile-bulk-upload-campaign-api-api
+- description: Webhook receiver endpoints for real-time RCS message delivery and event notifications.
+  name: Route Mobile Callback API
+  slug: route-mobile-callback-api-api
+- description: Check and retrieve RCS capability details for phone numbers in bulk.
+  name: Route Mobile Capability Check API
+  slug: route-mobile-capability-check-api-api
+- description: Create, update, delete, and fetch product feeds and catalog details for WhatsApp Commerce.
+  name: Route Mobile Catalog Management API
+  slug: route-mobile-catalog-management-api
+- description: Upload media files (images, videos, PDFs) to the RCS file server for use in messages.
+  name: Route Mobile File Server API
+  slug: route-mobile-file-server-api-api
+- description: APIs for third-party platform integrations.
+  name: Route Mobile Integrations API
+  slug: route-mobile-integrations-api
+- description: Authenticate users and obtain JWT tokens for RCS API access.
+  name: Route Mobile Login API
+  slug: route-mobile-login-api
+- description: APIs for managing RCS bot testers, templates, and account configuration.
+  name: Route Mobile Management API
+  slug: route-mobile-management-api-api
+- description: APIs for submitting SMS messages.
+  name: Route Mobile Message Sending API
+  slug: route-mobile-message-sending-api
+- description: Send transactional emails and retrieve message info
+  name: Route Mobile Messages API
+  slug: route-mobile-messages-api
+- description: Send template messages (marketing, utility, authentication) and session messages (text, media, interactive, payments, flows) to individual recipients.
+  name: Route Mobile Messaging API
+  slug: route-mobile-messaging-api
+- description: Store and verify user opt-in and opt-out consent for WhatsApp messaging compliance.
+  name: Route Mobile Opt-in Management API
+  slug: route-mobile-opt-in-management-api
+- description: APIs for OTP generation and verification.
+  name: Route Mobile OTP API
+  slug: route-mobile-otp-api
+- description: Send RCS payment request messages to customers.
+  name: Route Mobile Payment API
+  slug: route-mobile-payment-api-api
+- description: Send RCS notification, session, and India template messages including text, media, rich cards, carousels, and interactive suggestions.
+  name: Route Mobile RCS Messages API
+  slug: route-mobile-rcs-messages-api-api
+- description: APIs for managing RCS message requests and retrieving request status.
+  name: Route Mobile RCS Messages Request API
+  slug: route-mobile-rcs-messages-request-api-api
+- description: The RCS Optin API API from Route Mobile — 1 operation(s) for rcs optin api.
+  name: Route Mobile RCS Optin API
+  slug: route-mobile-rcs-optin-api-api
+- description: The RCS Template API API from Route Mobile — 3 operation(s) for rcs template api.
+  name: Route Mobile RCS Template API
+  slug: route-mobile-rcs-template-api-api
+- description: Generate, download, and query messaging reports including delivery stats, campaign metrics, opt-in data, and template usage counts.
+  name: Route Mobile Reports API
+  slug: route-mobile-reports-api
+- description: Add, verify, list, and delete sending domains
+  name: Route Mobile Sending Domains API
+  slug: route-mobile-sending-domains-api
+- description: Manage SMTP sub-users (create, edit, reset password, list)
+  name: Route Mobile SMTP Users API
+  slug: route-mobile-smtp-users-api
+- description: Add, check, list, and delete tracking domains
+  name: Route Mobile Tracking Domains API
+  slug: route-mobile-tracking-domains-api
+- description: Send bulk campaign messages to multiple Viber recipients at once using a file_code from the Campaign File Upload API. Supports all message types including fallback delivery to SMS or WhatsApp, and sch
+  name: Route Mobile Viber Bulk Messaging API
+  slug: route-mobile-viber-bulk-messaging-api-api
+- description: Send single messages to individual Viber users including text, images, videos, files, OTP verification, and interactive buttons. Also manage campaign file uploads and legacy campaign send operations.
+  name: Route Mobile Viber Business Messaging API
+  slug: route-mobile-viber-business-messaging-api-api
+- description: Receive real-time webhook notifications for incoming messages and delivery reports from the Viber platform. Configure your callback URL in the webhook settings.
+  name: Route Mobile Viber Client Callback API
+  slug: route-mobile-viber-client-callback-api-api
+- description: Authenticate and obtain a JWT token to access the Viber Business Messaging APIs. Tokens are valid for one hour by default.
+  name: Route Mobile Viber Login API
+  slug: route-mobile-viber-login-api
+- description: Access delivery reports, campaign performance metrics, summary dashboards, and message-level tabular data. Create and download detailed CSV reports. Manage approved Viber message templates.
+  name: Route Mobile Viber Reports API
+  slug: route-mobile-viber-reports-api-api
+- description: Configure event webhooks for email delivery events
+  name: Route Mobile Webhooks API
+  slug: route-mobile-webhooks-api
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Route Mobile Webhooks
@@ -73,6 +157,14 @@ collections:
   name: Route Mobile WhatsApp Business API
   slug: open-route-mobile-whatsapp-business
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/route-mobile-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/routemobile/WhatsApp-Business-API/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -231,32 +323,40 @@ modified: '2026-07-25'
 name: Route Mobile
 nav: Providers
 network: true
-overview: 'Route Mobile publishes 6 APIs on the [APIs.io](https://apis.io/) network, including SMS API, WhatsApp Business API, RCS Business Messaging API, and 3 more. Tagged areas include Telecommunications, India, CPaaS, Messaging, and SMS.
+overview: 'Route Mobile publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Enterprise Voice 2.0 API, Account API, Account Management API, and 31 more. Tagged areas include Telecommunications, India, CPaaS, Messaging, and SMS.
 
 
   The Route Mobile catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Route Mobile''s developer surface includes authentication, sandbox, getting-started guide, support, documentation, engineering blog, signup flow, and 29 more developer resources.'
+  Route Mobile''s developer surface includes authentication, sandbox, getting-started guide, support, documentation, engineering blog, signup flow, and 31 more developer resources.'
 random_paper: 18
 rate_limits:
 - limit_count: 6
   name: Route Mobile Rate Limits
   slug: route-mobile-rate-limits
 score:
-  band: strong
-  composite: 57.9
-  delta: 0.7
+  band: developing
+  composite: 50.5
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.6
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
-    contract_quality: 67.3
+    contract_governance: 18.2
+    contract_quality: 66.4
     developer_ergonomics: 56.5
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 57.2
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -269,12 +369,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/route-mobile/refs/heads/main/screenshots/route-mobile-2026-08-17T081637.png
 security:

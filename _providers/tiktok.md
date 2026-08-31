@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 19
   slug: tiktok-agentic-access
   summary_line: 19 operations · 8 acting
-api_count: 10
+api_count: 3
 apis:
 - description: Ad group (ad set) management
   name: TikTok Ad Groups API
@@ -149,6 +149,10 @@ collections:
   name: TikTok Shop API
   slug: open-tiktok-shop
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tiktok-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -282,7 +286,7 @@ overview: 'TikTok publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   The TikTok catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TikTok''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, signup flow, and 15 more developer resources.'
+  TikTok''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, signup flow, and 16 more developer resources.'
 plans:
 - name: Tiktok Plans Pricing
   plan_count: 4
@@ -317,6 +321,11 @@ rules:
 score:
   band: developing
   composite: 46.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 22.4
@@ -335,8 +344,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiktok/refs/heads/main/screenshots/tiktok-2026-06-20T195349.png
 security:

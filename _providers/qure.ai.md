@@ -23,14 +23,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: The Qure Platform API is a token-authenticated REST interface that lets partners send DICOM medical images to Qure.ai deep-learning models and retrieve AI triage results. Upload chest or musculoskelet
-  name: Qure.ai Platform API
-  slug: platform-api
-artifact_total: 5
+- description: The Fetch Results API from Qure.ai — 3 operation(s) for fetch results.
+  name: Qure.ai Fetch Results API
+  slug: qure.ai-fetch-results-api
+- description: The Initiate Computation API from Qure.ai — 1 operation(s) for initiate computation.
+  name: Qure.ai Initiate Computation API
+  slug: qure.ai-initiate-computation-api
+- description: The Upload DICOMs API from Qure.ai — 1 operation(s) for upload dicoms.
+  name: Qure.ai Upload DICOMs API
+  slug: qure.ai-upload-dicoms-api
+artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/qure.ai-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/qure.ai-platform-api-xray-v2-er-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/qure.ai-platform-api-xray-ct-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -155,10 +173,10 @@ modified: '2026-08-26'
 name: Qure.ai
 nav: Providers
 network: true
-overview: 'Qure.ai publishes 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include Artificial Intelligence, Healthcare, Medical Imaging, Radiology, and Machine Learning.
+overview: 'Qure.ai publishes 3 APIs on the [APIs.io](https://apis.io/) network: Fetch Results API, Initiate Computation API, and Upload DICOMs API. Tagged areas include Artificial Intelligence, Healthcare, Medical Imaging, Radiology, and Machine-Learning.
 
 
-  Qure.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 22 more developer resources.'
+  Qure.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 25 more developer resources.'
 plans:
 - name: Qure.Ai Plans Pricing
   plan_count: 0
@@ -170,16 +188,23 @@ rate_limits:
   slug: qure.ai-rate-limits
 score:
   band: developing
-  composite: 50.2
+  composite: 49.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 48.3
     developer_ergonomics: 58.9
-    discoverability: 75.9
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 18.4
+  previous_composite: 49.3
   provenance:
     conformance: first-party
     contracts:
@@ -191,12 +216,19 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Qure.Ai Authentication
@@ -212,7 +244,7 @@ tags:
 - Healthcare
 - Medical Imaging
 - Radiology
-- Machine Learning
+- Machine-Learning
 - DICOM
 - Diagnostics
 - Clinical Decision Support

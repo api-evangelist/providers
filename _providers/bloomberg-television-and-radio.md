@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Access Bloomberg TV and Radio content including video clips, interview segments, market coverage segments, and audio content for licensed distribution to enterprise clients and media partners.
@@ -44,6 +44,10 @@ apis:
   slug: bloomberg-live-stream
 artifact_total: 16
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -89,14 +93,14 @@ finops:
   slug: bloomberg-television-and-radio-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-television-and-radio.png
 layout: provider
-modified: '2026-04-21'
+modified: '2026-08-27'
 name: Bloomberg Television and Radio
 nav: Providers
 network: true
 overview: 'Bloomberg Television and Radio publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Television, Radio, Financial News, Media, and Streaming.
 
 
-  Bloomberg Television and Radio''s developer surface includes developer portal, documentation, support, and 3 more developer resources.'
+  Bloomberg Television and Radio''s developer surface includes developer portal, documentation, support, and 4 more developer resources.'
 plans:
 - name: Bloomberg Television And Radio Plans Pricing
   plan_count: 3
@@ -109,6 +113,11 @@ rate_limits:
 score:
   band: emerging
   composite: 20.0
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -120,8 +129,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 20.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-television-and-radio/refs/heads/main/screenshots/bloomberg-television-and-radio-2026-07-25T203405.png
 security:

@@ -23,156 +23,156 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-26'
-api_count: 49
+  scored_at: '2026-08-30'
+api_count: 48
 apis:
-- description: 'APIs to retrieve the upstream and downstream dependencies for a given service, as well as to retrieve the complete graph-based topology of all services in a given environment and time window. You can '
-  name: Splunk Observability Cloud APM service topology
-  slug: splunk-observability-apm-service-topology-api
-- description: APIs to manage visibility filters on indexed and unindexed span tags in Splunk APM. These filters identify and hide span tag values that might contain sensitive data from everywhere in Splunk APM. Not
-  name: Splunk Observability Cloud APM visibility filters
-  slug: splunk-observability-apm-visibility-filters-api
-- description: The Audit Events API provides programmatic access to your organization's audit trail,
-  name: Splunk Observability Cloud Splunk Observability Cloud Audit Events
-  slug: splunk-observability-audit-events-api
-- description: The Automated archival API from Splunk Observability Cloud — 6 operation(s) at https://api.{REALM}.observability.splunkcloud.com/v2.
-  name: Splunk Observability Cloud Automated archival
-  slug: splunk-observability-automatedarchival-api
-- description: API for sending historical metric time series (MTS) data points to Splunk Observability Cloud, overwriting any existing data points for the same time period.
-  name: Splunk Observability Cloud Backfill
-  slug: splunk-observability-backfill-api
-- description: API for creating, retrieving, updating, and deleting charts.
-  name: Splunk Observability Cloud Charts
-  slug: splunk-observability-charts-api
-- description: The Client Inventory API from Splunk Observability Cloud — 5 operation(s) at https://api.{REALM}.observability.splunkcloud.com/v2/fm-service/v1.
-  name: Splunk Observability Cloud Client Inventory
-  slug: splunk-observability-client-inventory-api
-- description: API for creating a new dashboard group, retrieving the properties of one or more dashboard groups, updating the properties of a single dashboard group, making a clone of a dashboard to a group, adding
-  name: Splunk Observability Cloud Dashboard groups
-  slug: splunk-observability-dashboard-groups-api
-- description: API for creating, retrieving, updating, and deleting dashboards.
-  name: Splunk Observability Cloud Dashboards
-  slug: splunk-observability-dashboards-api
-- description: API for creating, retrieving, updating, and deleting data links.
-  name: Splunk Observability Cloud Data links
-  slug: splunk-observability-datalinks-api
-- description: API for creating, retrieving, updating, and deleting detectors.
-  name: Splunk Observability Cloud Detectors
-  slug: splunk-observability-detectors-api
-- description: API for retrieving or clearing incidents and muting "critical-notifications".
-  name: Splunk Observability Cloud Incidents and alerts
-  slug: splunk-observability-incidents-api
-- description: The Send traces, metrics and events API from Splunk Observability Cloud — 5 operation(s) at https://ingest.{REALM}.observability.splunkcloud.com/v2.
-  name: Splunk Observability Cloud Send traces, metrics and events
-  slug: splunk-observability-ingest-data-api
-- description: API for creating, retrieving, updating, and deleting integrations, which define the connection between an external system and Splunk Observability Cloud.
-  name: Splunk Observability Cloud Integrations
-  slug: splunk-observability-integrations-api
-- description: The Metric ruleset API from Splunk Observability Cloud — 7 operation(s) at https://api.{REALM}.observability.splunkcloud.com/v2.
-  name: Splunk Observability Cloud Metric ruleset
-  slug: splunk-observability-metric-ruleset-api
-- description: API for creating, retrieving, updating, and deleting metric metadata and MTS metadata.
-  name: Splunk Observability Cloud Metrics metadata
-  slug: splunk-observability-metrics-metadata-api
-- description: API for creating, updating, retrieving, and deleting custom navigators.
-  name: Splunk Observability Cloud Navigators
-  slug: splunk-observability-navigator-api
-- description: API for creating, updating, retrieving, deleting, and rotating org tokens.
-  name: Splunk Observability Cloud Org tokens
-  slug: splunk-observability-org-tokens-api
-- description: API for creating, updating, retrieving, and deleting organizations.
-  name: Splunk Observability Cloud Organizations
-  slug: splunk-observability-organizations-api
-- description: The Passwords API from Splunk Observability Cloud — 1 operation(s) at https://api.{REALM}.observability.splunkcloud.com/v2.
-  name: Splunk Observability Cloud Passwords
-  slug: splunk-observability-passwords-api
-- description: The Retrieve events V1 API from Splunk Observability Cloud — 1 operation(s) at https://api.{REALM}.observability.splunkcloud.com/v1.
-  name: Splunk Observability Cloud Retrieve events V1
-  slug: splunk-observability-retrieve-events-v1-api
-- description: The Retrieve events V2 API from Splunk Observability Cloud — 1 operation(s) at https://api.{REALM}.observability.splunkcloud.com/v2.
-  name: Splunk Observability Cloud Retrieve events V2
-  slug: splunk-observability-retrieve-events-v2-api
-- description: API for retrieving data points from a metric times series (MTS) for a given time window
-  name: Splunk Observability Cloud Retrieve metric time series (MTS)
-  slug: splunk-observability-retrieve-timeserieswindow-api
-- description: API for assigning, retrieving, and removing roles associated with an organization, user, or token.
-  name: Splunk Observability Cloud Role
-  slug: splunk-observability-roles-api
-- description: The Session tokens API from Splunk Observability Cloud — 2 operation(s) at https://api.{REALM}.observability.splunkcloud.com/v2.
-  name: Splunk Observability Cloud Session tokens
-  slug: splunk-observability-sessiontokens-api
-- description: API for streaming data to SignalFlow and managing SignalFlow background
-  name: Splunk Observability Cloud SignalFlow
-  slug: splunk-observability-signalflow-api
-- description: API for creating, retrieiving, and managing service level objectives (SLOs).
-  name: Splunk Observability Cloud SLOs
-  slug: splunk-observability-slo-api
-- description: API for creating, updating, retrieving, and deleting Splunk Synthetic Monitoring API tests using the legacy service routes (/tests/api).
-  name: Splunk Observability Cloud Synthetics API tests (V1)
-  slug: splunk-observability-synthetics-api-tests-api
-- description: V2 API for creating, updating, retrieving, and deleting Splunk Synthetic Monitoring API tests.
-  name: Splunk Observability Cloud Synthetics API tests V2
-  slug: splunk-observability-synthetics-api-tests-v2-api
-- description: API for retrieving artifacts used in Splunk Synthetic Monitoring tests.
-  name: Splunk Observability Cloud Synthetics artifacts
-  slug: splunk-observability-synthetics-artifacts-api
-- description: API for retrieving audit log in Splunk Synthetic Monitoring.
-  name: Splunk Observability Cloud Synthetics audit
-  slug: splunk-observability-synthetics-audits-api
-- description: API for creating, updating, retrieving, and deleting Splunk Synthetic Monitoring Browser tests using the legacy service routes (/tests/browser). Requests use the legacy step shape (selectorType and se
-  name: Splunk Observability Cloud Synthetics Browser tests (V1)
-  slug: splunk-observability-synthetics-browser-api
-- description: V2 API for creating, updating, retrieving, and deleting Splunk Synthetic Monitoring Browser tests.
-  name: Splunk Observability Cloud Synthetics Browser tests V2
-  slug: splunk-observability-synthetics-browser-v2-api
-- description: API for creating, updating, and deleting Certificate Authority (CA) certificates.
-  name: Splunk Observability Cloud Synthetics CA certificates
-  slug: splunk-observability-synthetics-ca-certs-api
-- description: API for creating, updating, and deleting client certificates.
-  name: Splunk Observability Cloud Synthetics certificates
-  slug: splunk-observability-synthetics-certificates-api
-- description: API for retrieving a list of Chrome flags supported in Splunk Synthetic Monitoring browser tests.
-  name: Splunk Observability Cloud Synthetics Chrome flags
-  slug: splunk-observability-synthetics-chrome-flags-api
-- description: API for retrieving devices used in Splunk Synthetic Monitoring tests.
-  name: Splunk Observability Cloud Synthetics devices
-  slug: splunk-observability-synthetics-devices-api
-- description: API for creating, updating, ending, and deleting downtime configurations.
-  name: Splunk Observability Cloud Synthetics downtime configurations
-  slug: splunk-observability-synthetics-downtime-configurations-api
-- description: The Synthetics excluded files API from Splunk Observability Cloud — 1 operation(s) at https://api.{REALM}.observability.splunkcloud.com/v2/synthetics.
-  name: Splunk Observability Cloud Synthetics excluded files
-  slug: splunk-observability-synthetics-excluded-files-api
-- description: The Synthetics global variables API from Splunk Observability Cloud — 5 operation(s) at https://api.{REALM}.observability.splunkcloud.com/v2/synthetics.
-  name: Splunk Observability Cloud Synthetics global variables
-  slug: splunk-observability-synthetics-global-variables-api
-- description: API for creating, updating, retrieving, and deleting Synthetics HTTP tests.
-  name: Splunk Observability Cloud Synthetics HTTP tests
-  slug: splunk-observability-synthetics-http-tests-api
-- description: API for managing locations used in Splunk Synthetic Monitoring tests.
-  name: Splunk Observability Cloud Synthetics locations
-  slug: splunk-observability-synthetics-locations-api
-- description: API for creating, updating, retrieving, and deleting Port tests in Splunk Synthetic Monitoring.
-  name: Splunk Observability Cloud Synthetics Port tests
-  slug: splunk-observability-synthetics-ports-tests-api
-- description: The Synthetics runs API from Splunk Observability Cloud — 1 operation(s) at https://api.{REALM}.observability.splunkcloud.com/v2/synthetics.
-  name: Splunk Observability Cloud Synthetics runs
-  slug: splunk-observability-synthetics-runs-api
-- description: API for creating, updating, and deleting SSL Certificate Tests.
-  name: Splunk Observability Cloud Synthetics SSL Certificate Tests
-  slug: splunk-observability-synthetics-ssl-tests-api
-- description: API for retrieving and deleting tests in Splunk Synthetic Monitoring.
-  name: Splunk Observability Cloud Synthetics tests
-  slug: splunk-observability-synthetics-tests-api
-- description: API for creating, updating, deleting, adding members, and removing members from teams.
-  name: Splunk Observability Cloud Teams
-  slug: splunk-observability-teams-api
-- description: The Download APM traces API from Splunk Observability Cloud — 3 operation(s) at https://api.{REALM}.observability.splunkcloud.com/v2.
-  name: Splunk Observability Cloud Download APM traces
-  slug: splunk-observability-trace-id-api
 - description: Hosted Model Context Protocol server for Splunk Observability Cloud, using the streamable HTTP transport. Twelve tools across metrics/SignalFlow, APM and alerting. Authenticated with X-SF-REALM and X-
   name: Splunk Observability Cloud MCP Server
   slug: splunk-observability-mcp
+- description: The APM service topology API from Splunk Observability Cloud — 2 operation(s) for apm service topology.
+  name: Splunk Observability Cloud APM service topology API
+  slug: splunk-observability-apm-service-topology-api
+- description: The APM visibility filters API from Splunk Observability Cloud — 3 operation(s) for apm visibility filters.
+  name: Splunk Observability Cloud APM visibility filters API
+  slug: splunk-observability-apm-visibility-filters-api
+- description: The Automated archival API from Splunk Observability Cloud — 3 operation(s) for automated archival.
+  name: Splunk Observability Cloud Automated archival API
+  slug: splunk-observability-automated-archival-api
+- description: The Backfill API from Splunk Observability Cloud — 1 operation(s) for backfill.
+  name: Splunk Observability Cloud Backfill API
+  slug: splunk-observability-backfill-api
+- description: The Charts API from Splunk Observability Cloud — 2 operation(s) for charts.
+  name: Splunk Observability Cloud Charts API
+  slug: splunk-observability-charts-api
+- description: The Client Inventory API from Splunk Observability Cloud — 5 operation(s) for client inventory.
+  name: Splunk Observability Cloud Client Inventory API
+  slug: splunk-observability-client-inventory-api
+- description: The Dashboard groups API from Splunk Observability Cloud — 3 operation(s) for dashboard groups.
+  name: Splunk Observability Cloud Dashboard groups API
+  slug: splunk-observability-dashboard-groups-api
+- description: The Dashboards API from Splunk Observability Cloud — 3 operation(s) for dashboards.
+  name: Splunk Observability Cloud Dashboards API
+  slug: splunk-observability-dashboards-api
+- description: The Data links API from Splunk Observability Cloud — 2 operation(s) for data links.
+  name: Splunk Observability Cloud Data links API
+  slug: splunk-observability-data-links-api
+- description: The Detectors API from Splunk Observability Cloud — 7 operation(s) for detectors.
+  name: Splunk Observability Cloud Detectors API
+  slug: splunk-observability-detectors-api
+- description: The Download APM traces API from Splunk Observability Cloud — 3 operation(s) for download apm traces.
+  name: Splunk Observability Cloud Download APM traces API
+  slug: splunk-observability-download-apm-traces-api
+- description: The Incidents and alerts API from Splunk Observability Cloud — 7 operation(s) for incidents and alerts.
+  name: Splunk Observability Cloud Incidents and alerts API
+  slug: splunk-observability-incidents-and-alerts-api
+- description: The Integrations API from Splunk Observability Cloud — 3 operation(s) for integrations.
+  name: Splunk Observability Cloud Integrations API
+  slug: splunk-observability-integrations-api
+- description: The Metric ruleset API from Splunk Observability Cloud — 4 operation(s) for metric ruleset.
+  name: Splunk Observability Cloud Metric ruleset API
+  slug: splunk-observability-metric-ruleset-api
+- description: The Metrics metadata API from Splunk Observability Cloud — 8 operation(s) for metrics metadata.
+  name: Splunk Observability Cloud Metrics metadata API
+  slug: splunk-observability-metrics-metadata-api
+- description: The Navigators API from Splunk Observability Cloud — 5 operation(s) for navigators.
+  name: Splunk Observability Cloud Navigators API
+  slug: splunk-observability-navigators-api
+- description: The Org tokens API from Splunk Observability Cloud — 3 operation(s) for org tokens.
+  name: Splunk Observability Cloud Org tokens API
+  slug: splunk-observability-org-tokens-api
+- description: The Organizations API from Splunk Observability Cloud — 6 operation(s) for organizations.
+  name: Splunk Observability Cloud Organizations API
+  slug: splunk-observability-organizations-api
+- description: The Passwords API from Splunk Observability Cloud — 1 operation(s) for passwords.
+  name: Splunk Observability Cloud Passwords API
+  slug: splunk-observability-passwords-api
+- description: The Retrieve events V1 API from Splunk Observability Cloud — 1 operation(s) for retrieve events v1.
+  name: Splunk Observability Cloud Retrieve events V1 API
+  slug: splunk-observability-retrieve-events-v1-api
+- description: The Retrieve events V2 API from Splunk Observability Cloud — 1 operation(s) for retrieve events v2.
+  name: Splunk Observability Cloud Retrieve events V2 API
+  slug: splunk-observability-retrieve-events-v2-api
+- description: The Retrieve metric time series (MTS) API from Splunk Observability Cloud — 1 operation(s) for retrieve metric time series (mts).
+  name: Splunk Observability Cloud Retrieve metric time series (MTS) API
+  slug: splunk-observability-retrieve-metric-time-series-mts-api
+- description: The Role API from Splunk Observability Cloud — 4 operation(s) for role.
+  name: Splunk Observability Cloud Role API
+  slug: splunk-observability-role-api
+- description: The Send traces, metrics and events API from Splunk Observability Cloud — 5 operation(s) for send traces, metrics and events.
+  name: Splunk Observability Cloud Send traces, metrics and events API
+  slug: splunk-observability-send-traces-metrics-and-events-api
+- description: The Session tokens API from Splunk Observability Cloud — 1 operation(s) for session tokens.
+  name: Splunk Observability Cloud Session tokens API
+  slug: splunk-observability-session-tokens-api
+- description: The SignalFlow API from Splunk Observability Cloud — 6 operation(s) for signalflow.
+  name: Splunk Observability Cloud Signal Flow API
+  slug: splunk-observability-signalflow-api
+- description: The SLOs API from Splunk Observability Cloud — 4 operation(s) for slos.
+  name: Splunk Observability Cloud SL Os API
+  slug: splunk-observability-slos-api
+- description: The Splunk Observability Cloud Audit Events API from Splunk Observability Cloud — 1 operation(s) for splunk observability cloud audit events.
+  name: Splunk Observability Cloud Splunk Observability Cloud Audit Events API
+  slug: splunk-observability-splunk-observability-cloud-audit-events-api
+- description: The Synthetics API tests (V1) API from Splunk Observability Cloud — 5 operation(s) for synthetics api tests (v1).
+  name: Splunk Observability Cloud Synthetics API tests (V1) API
+  slug: splunk-observability-synthetics-api-tests-v1-api
+- description: The Synthetics API tests V2 API from Splunk Observability Cloud — 5 operation(s) for synthetics api tests v2.
+  name: Splunk Observability Cloud Synthetics API tests V2 API
+  slug: splunk-observability-synthetics-api-tests-v2-api
+- description: The Synthetics artifacts API from Splunk Observability Cloud — 3 operation(s) for synthetics artifacts.
+  name: Splunk Observability Cloud Synthetics artifacts API
+  slug: splunk-observability-synthetics-artifacts-api
+- description: The Synthetics audit API from Splunk Observability Cloud — 1 operation(s) for synthetics audit.
+  name: Splunk Observability Cloud Synthetics audit API
+  slug: splunk-observability-synthetics-audit-api
+- description: The Synthetics Browser tests (V1) API from Splunk Observability Cloud — 5 operation(s) for synthetics browser tests (v1).
+  name: Splunk Observability Cloud Synthetics Browser tests (V1) API
+  slug: splunk-observability-synthetics-browser-tests-v1-api
+- description: The Synthetics Browser tests V2 API from Splunk Observability Cloud — 5 operation(s) for synthetics browser tests v2.
+  name: Splunk Observability Cloud Synthetics Browser tests V2 API
+  slug: splunk-observability-synthetics-browser-tests-v2-api
+- description: The Synthetics CA certificates API from Splunk Observability Cloud — 2 operation(s) for synthetics ca certificates.
+  name: Splunk Observability Cloud Synthetics CA certificates API
+  slug: splunk-observability-synthetics-ca-certificates-api
+- description: The Synthetics certificates API from Splunk Observability Cloud — 2 operation(s) for synthetics certificates.
+  name: Splunk Observability Cloud Synthetics certificates API
+  slug: splunk-observability-synthetics-certificates-api
+- description: The Synthetics Chrome flags API from Splunk Observability Cloud — 1 operation(s) for synthetics chrome flags.
+  name: Splunk Observability Cloud Synthetics Chrome flags API
+  slug: splunk-observability-synthetics-chrome-flags-api
+- description: The Synthetics devices API from Splunk Observability Cloud — 1 operation(s) for synthetics devices.
+  name: Splunk Observability Cloud Synthetics devices API
+  slug: splunk-observability-synthetics-devices-api
+- description: The Synthetics downtime configurations API from Splunk Observability Cloud — 3 operation(s) for synthetics downtime configurations.
+  name: Splunk Observability Cloud Synthetics downtime configurations API
+  slug: splunk-observability-synthetics-downtime-configurations-api
+- description: The Synthetics excluded files API from Splunk Observability Cloud — 1 operation(s) for synthetics excluded files.
+  name: Splunk Observability Cloud Synthetics excluded files API
+  slug: splunk-observability-synthetics-excluded-files-api
+- description: The Synthetics global variables API from Splunk Observability Cloud — 2 operation(s) for synthetics global variables.
+  name: Splunk Observability Cloud Synthetics global variables API
+  slug: splunk-observability-synthetics-global-variables-api
+- description: The Synthetics HTTP tests API from Splunk Observability Cloud — 5 operation(s) for synthetics http tests.
+  name: Splunk Observability Cloud Synthetics HTTP tests API
+  slug: splunk-observability-synthetics-http-tests-api
+- description: The Synthetics locations API from Splunk Observability Cloud — 4 operation(s) for synthetics locations.
+  name: Splunk Observability Cloud Synthetics locations API
+  slug: splunk-observability-synthetics-locations-api
+- description: The Synthetics Port tests API from Splunk Observability Cloud — 5 operation(s) for synthetics port tests.
+  name: Splunk Observability Cloud Synthetics Port tests API
+  slug: splunk-observability-synthetics-port-tests-api
+- description: The Synthetics runs API from Splunk Observability Cloud — 1 operation(s) for synthetics runs.
+  name: Splunk Observability Cloud Synthetics runs API
+  slug: splunk-observability-synthetics-runs-api
+- description: The Synthetics SSL Certificate Tests API from Splunk Observability Cloud — 2 operation(s) for synthetics ssl certificate tests.
+  name: Splunk Observability Cloud Synthetics SSL Certificate Tests API
+  slug: splunk-observability-synthetics-ssl-certificate-tests-api
+- description: The Synthetics tests API from Splunk Observability Cloud — 7 operation(s) for synthetics tests.
+  name: Splunk Observability Cloud Synthetics tests API
+  slug: splunk-observability-synthetics-tests-api
+- description: The Teams API from Splunk Observability Cloud — 4 operation(s) for teams.
+  name: Splunk Observability Cloud Teams API
+  slug: splunk-observability-teams-api
 artifact_total: 58
 asyncapis:
 - description: The SignalFlow streaming analytics service. A client opens a WebSocket connection, authenticates with a session token within 5 seconds, then starts computations on named channels and receives control,
@@ -182,6 +182,198 @@ asyncapis:
   name: Splunk Observability Webhooks
   slug: splunk-observability-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-apm-service-topology-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-apm-visibility-filters-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-audit-events-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-automatedarchival-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-backfill-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-charts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-client-inventory-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-dashboard-groups-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-dashboards-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-datalinks-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-detectors-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-incidents-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-ingest-data-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-integrations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-metric-ruleset-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-metrics-metadata-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-navigator-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-org-tokens-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-organizations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-passwords-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-retrieve-events-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-retrieve-events-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-retrieve-timeserieswindow-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-roles-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-sessiontokens-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-signalflow-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-slo-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-api-tests-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-api-tests-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-artifacts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-audits-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-browser-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-browser-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-ca-certs-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-certificates-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-chrome-flags-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-devices-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-downtime-configurations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-excluded-files-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-global-variables-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-http-tests-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-locations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-ports-tests-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-runs-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-ssl-tests-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-synthetics-tests-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-teams-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/splunk-observability-trace-id-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -374,13 +566,13 @@ modified: '2026-08-19'
 name: Splunk Observability Cloud
 nav: Providers
 network: true
-overview: 'Splunk Observability Cloud publishes 48 APIs on the [APIs.io](https://apis.io/) network, including APM service topology, APM visibility filters, Splunk Observability Cloud Audit Events, and 45 more. Tagged areas include Observability, APM, Monitoring, Telemetry, and OpenTelemetry.
+overview: 'Splunk Observability Cloud publishes 48 APIs on the [APIs.io](https://apis.io/) network, including APM service topology API, APM visibility filters API, Automated archival API, and 45 more. Tagged areas include Observability, APM, Monitoring, Telemetry, and OpenTelemetry.
 
 
   The Splunk Observability Cloud catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Splunk Observability Cloud''s developer surface includes developer portal, documentation, API reference, getting-started guide, pricing, signup flow, support, and 38 more developer resources.'
+  Splunk Observability Cloud''s developer surface includes developer portal, documentation, API reference, getting-started guide, pricing, signup flow, support, and 86 more developer resources.'
 plans:
 - name: Splunk Observability Plans Pricing
   plan_count: 10
@@ -392,18 +584,23 @@ rate_limits:
   slug: splunk-observability-rate-limits
 score:
   band: strong
-  composite: 60.6
+  composite: 58.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 21.2
     developer_ergonomics: 73.2
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 81.6
-  previous_composite: 60.6
+  previous_composite: 58.7
   provenance:
     conformance: first-party
     contracts:
@@ -413,8 +610,8 @@ score:
       total: 48
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -23,13 +23,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: AI generation of video, image and audio — headshots, clothes changer, face editor, GIF generator, image editor and upscaler among 36 operations. Bearer auth, credit-priced.
-  name: Magic Hour API
-  slug: magichour-api
-artifact_total: 1
+- description: API related to audio projects
+  name: Magic Hour Audio Projects API
+  slug: magichour-audio-projects-api
+- description: API related to uploading assets used for video generation
+  name: Magic Hour Files API
+  slug: magichour-files-api
+- description: API related to image projects
+  name: Magic Hour Image Projects API
+  slug: magichour-image-projects-api
+- description: API related to video projects
+  name: Magic Hour Video Projects API
+  slug: magichour-video-projects-api
+artifact_total: 4
 common:
 - group: agent
   title: ''
@@ -50,39 +59,41 @@ modified: '2026-08-22'
 name: Magic Hour
 nav: Providers
 network: true
-overview: Magic Hour publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI, Media Generation, Video, Image, and Audio.
+overview: Magic Hour publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Audio Projects API, Files API, Image Projects API, and 1 more. Tagged areas include ai video, image generation, Audio, and generative ai.
 random_paper: 14
 score:
   band: thin
-  composite: 32.2
-  delta: 9.1
+  composite: 31.3
+  coverage:
+    artifact_dirs: 2
+    catalog_gap: 85.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 55.8
     developer_ergonomics: 50.0
-    discoverability: 72.2
+    discoverability: 63.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 23.1
+  previous_composite: 32.8
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 slug: magichour
 tags:
-- AI
-- Media Generation
-- Video
-- Image
+- ai video
+- image generation
 - Audio
-- Generative AI
-- Webhooks
+- generative ai
 website: https://magichour.ai
 ---

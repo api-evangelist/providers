@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/lucent/
 created: '2026-07-17'
 description: International Network Services (INS) was one of the world's largest independent network consulting and security services providers, delivering enterprise network design, infrastructure, and network security solutions to financial services, pharmaceutical, aerospace, energy, and transportation customers. Backed by Canaan Partners (Series C) alongside investors including Sequoia Capital, Cisco Investments, and Lucent Technologies, the company was acquired by Lucent. It is tracked in the API Evangelist network as a venture-backed portfolio company; it does not currently operate a public API developer surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/international-network-services.png
@@ -48,6 +53,11 @@ random_paper: 7
 score:
   band: minimal
   composite: 5.0
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -67,8 +77,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: international-network-services
 tags:

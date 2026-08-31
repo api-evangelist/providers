@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.1
-  scored_at: '2026-08-26'
+  score: 22.6
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -42,26 +42,14 @@ agentic_access:
   operation_count: 69
   slug: fieldwire-agentic-access
   summary_line: 69 operations · 34 acting
-api_count: 29
+api_count: 6
 apis:
-- description: 'Create, retrieve, update, archive, transfer, and synchronise construction projects across the Fieldwire account. Includes project statistics, notifications, project teams, project users, permissions, '
-  name: Fieldwire Projects API
-  slug: fieldwire-projects-api
-- description: Create and manage construction tasks — punch list items, RFIs-as-tasks, inspections, and work assignments — including check items, task relations, task types, custom task attributes, bubbles (comments
-  name: Fieldwire Tasks API
-  slug: fieldwire-tasks-api
-- description: Upload, manage, and markup attachments — photos, videos, PDFs, spec sheets — using a two-step flow that returns short-lived signed AWS S3 POST tokens for direct browser-to-S3 upload. Markups support G
-  name: Fieldwire Attachments and Media API
-  slug: fieldwire-attachments-api
 - description: Actual cost entries logged against budget lines.
   name: Fieldwire Actual Costs API
   slug: fieldwire-actual-costs-api
 - description: Refresh-token / JWT exchange and session management.
   name: Fieldwire Authentication API
   slug: fieldwire-authentication-api
-- description: Task-attached comments, photos, video, links, and file attachments.
-  name: Fieldwire Bubbles API
-  slug: fieldwire-bubbles-api
 - description: Project budget line items tied to tier cost codes.
   name: Fieldwire Budget Line Items API
   slug: fieldwire-budget-line-items-api
@@ -92,24 +80,9 @@ apis:
 - description: Single and multi-hyperlink jumps between sheets.
   name: Fieldwire Hyperlinks API
   slug: fieldwire-hyperlinks-api
-- description: GeoJSON-shaped markup overlays drawn on attachments and sheets.
-  name: Fieldwire Markups API
-  slug: fieldwire-markups-api
-- description: Aggregate project counts and status statistics.
-  name: Fieldwire Project Stats API
-  slug: fieldwire-project-stats-api
-- description: Team-level grouping of users on a project.
-  name: Fieldwire Project Teams API
-  slug: fieldwire-project-teams-api
-- description: User membership, roles, and removal across projects.
-  name: Fieldwire Project Users API
-  slug: fieldwire-project-users-api
 - description: Requests for Information lifecycle.
   name: Fieldwire RFIs API
   slug: fieldwire-rfis-api
-- description: Short-lived signed AWS POST tokens for direct-to-S3 uploads.
-  name: Fieldwire S3 Tokens API
-  slug: fieldwire-s3-tokens-api
 - description: Sheet upload and version management.
   name: Fieldwire Sheets API
   slug: fieldwire-sheets-api
@@ -122,16 +95,10 @@ apis:
 - description: Webhook subscription lifecycle.
   name: Fieldwire Subscriptions API
   slug: fieldwire-subscriptions-api
-- description: Sub-checklist items within a task.
-  name: Fieldwire Task Check Items API
-  slug: fieldwire-task-check-items-api
-- description: Parent/child and dependency relations between tasks.
-  name: Fieldwire Task Relations API
-  slug: fieldwire-task-relations-api
 - description: Account-level user, role, and permission management.
   name: Fieldwire Users API
   slug: fieldwire-users-api
-artifact_total: 108
+artifact_total: 97
 asyncapis:
 - description: Outbound webhook events delivered by Fieldwire to subscriber `post_url` endpoints. Subscribers register through the Webhooks REST API; Fieldwire POSTs JSON payloads describing entity changes (created,
   name: Fieldwire Webhooks
@@ -333,6 +300,10 @@ collections:
   name: Fieldwire Webhooks API
   slug: open-fieldwire-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fieldwire-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -497,13 +468,13 @@ modified: '2026-05-25'
 name: Fieldwire
 nav: Providers
 network: true
-overview: 'Fieldwire publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Projects API, Tasks API, Attachments and Media API, and 26 more. Tagged areas include Construction, Construction Technology, ConTech, Field Management, and Punch List.
+overview: 'Fieldwire publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Actual Costs API, Authentication API, Budget Line Items API, and 15 more. Tagged areas include Construction, Construction Technology, ConTech, Field Management, and Punch List.
 
 
   The Fieldwire catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Fieldwire''s developer surface includes authentication, developer portal, documentation, getting-started guide, FAQ, changelog, support, and 27 more developer resources.'
+  Fieldwire''s developer surface includes authentication, developer portal, documentation, getting-started guide, FAQ, changelog, support, and 28 more developer resources.'
 plans:
 - name: Fieldwire Plans Pricing
   plan_count: 5
@@ -549,14 +520,19 @@ rules:
 score:
   band: strong
   composite: 59.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 13.6
-    contract_quality: 73.6
+    contract_quality: 69.8
     developer_ergonomics: 59.5
-    discoverability: 40.7
+    discoverability: 50.0
     governance: 13.6
     operational_transparency: 68.4
   previous_composite: 59.1
@@ -567,8 +543,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldwire/refs/heads/main/screenshots/fieldwire-2026-06-20T181155.png
 security:

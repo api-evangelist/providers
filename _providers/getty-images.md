@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-08-26'
-api_count: 52
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Affiliates API from Getty Images — 2 operation(s) for affiliates.
   name: Getty Images Affiliates API
@@ -354,6 +354,10 @@ collections:
   name: Getty Images Videos API
   slug: open-getty-images-videos-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/getty-images-capability-edges.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -393,7 +397,7 @@ network: true
 overview: 'Getty Images publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Affiliates API, Ai API, Ai Generator API, and 49 more. Tagged areas include Image, Media, Photos, and Videos.
 
 
-  Getty Images'' developer surface includes documentation and 5 more developer resources.'
+  Getty Images'' developer surface includes documentation and 6 more developer resources.'
 plans:
 - name: Getty Images Plans Pricing
   plan_count: 3
@@ -405,26 +409,31 @@ rate_limits:
   slug: getty-images-rate-limits
 score:
   band: emerging
-  composite: 24.3
-  delta: 1.4
+  composite: 23.8
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 45.6
     developer_ergonomics: 9.5
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 22.9
+  previous_composite: 24.3
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 52
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/screenshots/getty-images-2026-06-20T181816.png
 security:

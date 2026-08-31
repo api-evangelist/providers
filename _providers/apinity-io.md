@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The Apinity API enables organizations to manage their compliant API marketplace programmatically, including API registration, discovery, subscription management, and governance policy enforcement acro
@@ -124,7 +124,12 @@ rules:
 score:
   band: emerging
   composite: 19.1
-  delta: 1.9
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -134,9 +139,9 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 17.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 19.1
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apinity-io/refs/heads/main/screenshots/apinity-io-2026-06-20T172250.png
 security:

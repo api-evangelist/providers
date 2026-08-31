@@ -34,18 +34,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 6
 apis:
-- description: Advertiser-side campaign management and reporting for the Jeeng / OpenWeb Email Monetization platform. Update campaign lines (daily spend goal and CPC/CPM/CPA pricing), transition campaign line and cr
-  name: Jeeng Email Monetization — Advertisers API
-  slug: jeeng-email-monetization-advertisers-api
-- description: Publisher-side inventory reporting for the Jeeng / OpenWeb Email Monetization platform. Retrieve container and placement reports at a daily grain using OData V4 $filter queries, and a flexible publish
-  name: Jeeng Email Monetization — Publishers API
-  slug: jeeng-email-monetization-publishers-api
-- description: OAuth 2.0 client-credentials token endpoint for the Jeeng / OpenWeb Email Monetization partner APIs, published by Jeeng as its own OpenAPI definition. Tokens are issued by the Microsoft Entra ID (Azur
-  name: Jeeng Email Monetization — Authentication
-  slug: jeeng-email-monetization-authentication
+- description: The Management API from Jeeng — 3 operation(s) for management.
+  name: Jeeng Management API
+  slug: jeeng-management-api
+- description: The Reporting API from Jeeng — 6 operation(s) for reporting.
+  name: Jeeng Reporting API
+  slug: jeeng-reporting-api
+- description: The Revenuestripe.onmicrosoft.com API from Jeeng — 1 operation(s) for revenuestripe.onmicrosoft.com.
+  name: Jeeng Revenuestripe.onmicrosoft.com API
+  slug: jeeng-revenuestripe-onmicrosoft-com-api
 artifact_total: 12
 collections:
 - collection_type: open
@@ -58,6 +58,26 @@ collections:
   name: Jeeng Email Monetization — Publishers API
   slug: open-jeeng-publishers
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/openweb/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/jeeng-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/jeeng-advertisers-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/jeeng-publishers-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/jeeng-authentication-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -171,10 +191,10 @@ modified: '2026-08-12'
 name: Jeeng
 nav: Providers
 network: true
-overview: 'Jeeng publishes 3 APIs on the [APIs.io](https://apis.io/) network: Email Monetization — Advertisers API, Email Monetization — Publishers API, and Email Monetization — Authentication. Tagged areas include Company, Advertising, Publishing, Email, and Push Notifications.
+overview: 'Jeeng publishes 3 APIs on the [APIs.io](https://apis.io/) network: Management API, Reporting API, and Revenuestripe.onmicrosoft.com API. Tagged areas include Company, Advertising, Publishing, Email, and Push Notifications.
 
 
-  Jeeng''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 19 more developer resources.'
+  Jeeng''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 24 more developer resources.'
 plans:
 - name: Jeeng Plans Pricing
   plan_count: 0
@@ -191,18 +211,23 @@ scopes:
   summary_line: 1 scope
 score:
   band: thin
-  composite: 37.6
+  composite: 36.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
-    contract_quality: 55.8
+    contract_governance: 4.5
+    contract_quality: 58.5
     developer_ergonomics: 39.9
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 37.6
+  previous_composite: 36.8
   provenance:
     conformance: derived
     contracts:
@@ -212,8 +237,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jeeng/refs/heads/main/screenshots/jeeng-2026-07-25T223120.png
 security:

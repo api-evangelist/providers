@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 21
   slug: gladia-agentic-access
   summary_line: 21 operations · 10 acting · 10 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: WebSocket API for real-time live audio transcription with sub-second latency, supporting multi-language detection, live speaker diarization, and streaming audio intelligence. Individual sessions are c
   name: Gladia Live (Real-time) API
@@ -304,15 +304,20 @@ rules:
   slug: gladia-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 51.5
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 34.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
     contract_quality: 63.3
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 65.8
   previous_composite: 52.1
@@ -323,8 +328,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/screenshots/gladia-2026-06-20T181856.png
 security:

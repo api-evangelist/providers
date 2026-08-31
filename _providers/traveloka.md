@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-26'
-api_count: 15
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
 - description: OpenTravel (OTA) 2017B XML connectivity API for channel managers, property-management systems and hotel technology partners. Traveloka hosts the ARI (availability, rates, inventory) and content push e
   name: Traveloka Connect - Connectivity API
@@ -134,6 +134,10 @@ collections:
   name: LOKA Rate API
   slug: open-traveloka-rate-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/traveloka-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -266,13 +270,13 @@ modified: '2026-08-05'
 name: Traveloka
 nav: Providers
 network: true
-overview: 'Traveloka publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 1.1 Content - Hotel & Room API, 2.1 Search - HotelList API, 2.2 Search - RoomList API, and 11 more. Tagged areas include Travel, Online Travel Agency, Accommodation, Hotel Booking, and Flights.
+overview: 'Traveloka publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 1.1 Content - Hotel & Room API, 2.1 Search - HotelList API, 2.2 Search - RoomList API, and 11 more. Tagged areas include travel, online-travel-agency, accommodation, hotel-booking, and Flights.
 
 
   The Traveloka catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Traveloka''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
+  Traveloka''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
 random_paper: 3
 rate_limits:
 - limit_count: 1
@@ -280,18 +284,23 @@ rate_limits:
   slug: traveloka-rate-limits
 score:
   band: developing
-  composite: 50.4
+  composite: 48.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 58.7
     developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 50.4
+  previous_composite: 48.9
   provenance:
     conformance: derived
     contracts:
@@ -301,8 +310,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traveloka/refs/heads/main/screenshots/traveloka-2026-08-17T125942.png
 security:
@@ -320,17 +329,17 @@ security:
   summary_line: Bugcrowd
 slug: traveloka
 tags:
-- Travel
-- Online Travel Agency
-- Accommodation
-- Hotel Booking
+- travel
+- online-travel-agency
+- accommodation
+- hotel-booking
 - Flights
 - Activities
-- Hospitality
+- hospitality
 - Distribution
-- Channel Manager
-- OpenTravel
-- Southeast Asia
-- Indonesia
+- channel-manager
+- opentravel
+- southeast-asia
+- indonesia
 website: https://www.traveloka.com/
 ---

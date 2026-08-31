@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 6
   slug: podio-agentic-access
   summary_line: 6 operations · 4 acting
-api_count: 6
+api_count: 1
 apis:
 - description: REST API providing complete programmatic access to Podio apps, items, workspaces, organizations, users, tasks, files, comments, and webhooks. Authentication uses OAuth2 with several supported flows (s
   name: Podio REST API
@@ -85,6 +85,10 @@ collections:
   name: Podio API
   slug: open-podio
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/citrix/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -152,7 +156,7 @@ network: true
 overview: 'Podio publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Hooks API, Items API, and 2 more. Tagged areas include Work Management, Collaboration, Project Management, CRM, and Workflows.
 
 
-  Podio''s developer surface includes authentication, documentation, pricing, signup flow, and 10 more developer resources.'
+  Podio''s developer surface includes authentication, documentation, pricing, signup flow, and 11 more developer resources.'
 random_paper: 14
 scopes:
 - name: Podio Scopes
@@ -161,15 +165,20 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 32.7
-  delta: 0.0
+  composite: 32.1
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 51.7
     developer_ergonomics: 26.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 32.7
@@ -180,8 +189,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/screenshots/podio-2026-06-20T191835.png
 security:

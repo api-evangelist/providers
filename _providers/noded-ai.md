@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'The Noded (Apollo) GraphQL API behind the Customer Context Graph. One POST endpoint serving people and accounts (both modelled as tags), the unified activity timeline (blocks: notes, emails, tasks, me'
@@ -212,6 +212,11 @@ scopes:
 score:
   band: developing
   composite: 40.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 78.9
@@ -227,8 +232,8 @@ score:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/screenshots/noded-ai-2026-08-07T185418.png
 security:
@@ -257,7 +262,7 @@ tags:
 - AI Agents
 - GraphQL
 - MCP
-- agent-native
+- Agent Native
 - Customer Context Graph
 website: https://www.getnoded.ai/
 ---

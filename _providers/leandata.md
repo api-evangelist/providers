@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: leandata-agentic-access
   summary_line: 16 operations · 12 acting
-api_count: 9
+api_count: 3
 apis:
 - description: <p>The availability endpoints return meeting configuration and open time slots used to render booking pages or refresh availability. Depending on the request context (routing, direct link, or reschedu
   name: LeanData 🗓️ Availability API
@@ -407,18 +407,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.7
+  composite: 58.1
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 52.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 44.7
     developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 60.7
+  previous_composite: 58.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -429,8 +434,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/screenshots/leandata-2026-06-20T184358.png
 security:
@@ -464,7 +469,8 @@ tags:
 - Account Based Marketing
 - Buying Groups
 - Signal Orchestration
-- Go-To-Market
+- Go to Market
+- GTM
 - CRM
 - AppExchange
 website: https://www.leandata.com

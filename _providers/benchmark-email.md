@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 296
   slug: benchmark-email-agentic-access
   summary_line: 296 operations · 130 acting · 3 human-in-the-loop
-api_count: 30
+api_count: 2
 apis:
 - description: Create and manage A/B split tests
   name: Benchmark Email ABTest Creation API
@@ -131,10 +131,25 @@ apis:
 - description: Manage webhooks for event notifications
   name: Benchmark Email Webhooks API
   slug: benchmark-email-webhooks-api
-- description: The current Benchmark Email REST API on the benchmarkemail.io platform. Manages contacts, contact structures and custom fields, lists, email campaigns, email templates, sending domains and performance
-  name: Benchmark Email API
-  slug: benchmark-email-api
-artifact_total: 82
+- description: Contact related endpoints
+  name: Benchmark Email Contact API
+  slug: benchmark-email-contact-api
+- description: Contact structure related endpoints
+  name: Benchmark Email Contact Structure API
+  slug: benchmark-email-contact-structure-api
+- description: Email campaign related endpoints
+  name: Benchmark Email Email Campaign API
+  slug: benchmark-email-email-campaign-api
+- description: Email domain related endpoints
+  name: Benchmark Email Email Domain API
+  slug: benchmark-email-email-domain-api
+- description: Email template related endpoints
+  name: Benchmark Email Email Template API
+  slug: benchmark-email-email-template-api
+- description: List related endpoints
+  name: Benchmark Email Lists API
+  slug: benchmark-email-lists-api
+artifact_total: 87
 asyncapis:
 - description: ''
   name: Benchmark Email Events
@@ -234,6 +249,22 @@ collections:
   name: Benchmark Email RESTful API v3.0 ABTest Creation Webhooks API
   slug: open-benchmark-email-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/benchmark-email-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/benchmark-email-api-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/benchmark-email-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -411,13 +442,13 @@ modified: '2026-08-13'
 name: Benchmark Email
 nav: Providers
 network: true
-overview: 'Benchmark Email publishes 30 APIs on the [APIs.io](https://apis.io/) network, including ABTest Creation API, Account Settings API, Add Contacts API, and 27 more. Tagged areas include Email Marketing, Campaigns, Contacts, Automation, and Transactional Email.
+overview: 'Benchmark Email publishes 35 APIs on the [APIs.io](https://apis.io/) network, including ABTest Creation API, Account Settings API, Add Contacts API, and 32 more. Tagged areas include Email Marketing, Campaigns, Contacts, Automation, and Transactional Email.
 
 
   The Benchmark Email catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Benchmark Email''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, signup flow, and 24 more developer resources.'
+  Benchmark Email''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, signup flow, and 28 more developer resources.'
 plans:
 - name: Benchmark Email Plans Pricing
   plan_count: 3
@@ -445,18 +476,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 66.1
-  delta: 1.5
+  composite: 63.8
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 26.5
-    contract_quality: 74.5
+    contract_governance: 14.4
+    contract_quality: 73.6
     developer_ergonomics: 76.2
-    discoverability: 81.5
-    governance: 26.5
+    discoverability: 75.9
+    governance: 14.4
     operational_transparency: 28.9
-  previous_composite: 64.6
+  previous_composite: 64.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -467,8 +503,8 @@ score:
       total: 30
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchmark-email/refs/heads/main/screenshots/benchmark-email-2026-06-20T173133.png
 security:

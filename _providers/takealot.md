@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 16
   slug: takealot-agentic-access
   summary_line: 16 operations · 5 acting
-api_count: 12
+api_count: 1
 apis:
 - description: The Create a batch API from Takealot — 1 operation(s) for create a batch.
   name: Takealot Create a batch API
@@ -123,6 +123,10 @@ collections:
   name: Takealot Seller Create a batch view sales orders API
   slug: open-takealot-view-sales-orders-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/takealot-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -236,22 +240,27 @@ network: true
 overview: 'Takealot publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Create a batch API, Create an offer API, Get a batch API, and 9 more. Tagged areas include Commerce, E-Commerce, Marketplace, Retail, and Marketplace Sellers.
 
 
-  Takealot''s developer surface includes GitHub presence, YouTube channel, and 23 more developer resources.'
+  Takealot''s developer surface includes GitHub presence, YouTube channel, and 24 more developer resources.'
 random_paper: 13
 score:
   band: emerging
-  composite: 26.1
-  delta: 4.3
+  composite: 25.5
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 46.4
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 21.8
+  previous_composite: 26.1
   provenance:
     agentic_access: derived
     contracts:
@@ -259,8 +268,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

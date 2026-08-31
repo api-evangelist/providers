@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 190
   human_in_the_loop: 10
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 375
   slug: altr-agentic-access
   summary_line: 375 operations · 190 acting · 10 human-in-the-loop
-api_count: 69
+api_count: 42
 apis:
 - description: Tokenizes and detokenizes sensitive data through ALTR's token vault for analytics and transactional workloads, including bring-your-own-key. The public reference endpoint returns HTTP 403 to anonymous
   name: Vaulted Tokenization API
@@ -451,6 +451,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/altr-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/altr-access-tokens-overlay.yaml
 - group: operate
@@ -617,28 +621,33 @@ modified: '2026-08-06'
 name: ALTR
 nav: Providers
 network: true
-overview: 'ALTR publishes 66 APIs on the [APIs.io](https://apis.io/) network, including Access Request API, Administrators API, Agent API, and 63 more. Tagged areas include Data Security, Data Governance, Data Masking, Tokenization, and Data Classification.
+overview: 'ALTR publishes 66 APIs on the [APIs.io](https://apis.io/) network, including Access Request API, Administrators API, Agent API, and 63 more. Tagged areas include data-security, data-governance, data-masking, tokenization, and data-classification.
 
 
   The ALTR catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ALTR''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
+  ALTR''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
 random_paper: 15
 score:
   band: strong
-  composite: 56.3
+  composite: 54.5
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 64.6
     developer_ergonomics: 73.2
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 56.3
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -649,8 +658,8 @@ score:
       total: 66
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altr/refs/heads/main/screenshots/altr-2026-08-07T161253.png
 security:
@@ -672,20 +681,20 @@ security:
   summary_line: SOC 2, PCI DSS, HIPAA
 slug: altr
 tags:
-- Data Security
-- Data Governance
-- Data Masking
-- Tokenization
-- Data Classification
-- Access Control
-- Snowflake
-- Databricks
+- data-security
+- data-governance
+- data-masking
+- tokenization
+- data-classification
+- access-control
+- snowflake
+- databricks
 - format-preserving-encryption
-- Database Activity Monitoring
-- RBAC
+- database-activity-monitoring
+- rbac
 - PII
 - Compliance
-- Data Privacy
+- data-privacy
 - MCP
 - agent-native
 website: https://altr.com/

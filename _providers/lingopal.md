@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 13
   slug: lingopal-agentic-access
   summary_line: 13 operations · 8 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Work with reusable registered jobs, their workflows, status, and outputs.
   name: Lingopal Jobs API
@@ -73,6 +73,10 @@ collections:
   name: Lingopal API v2 Jobs Upload API
   slug: open-lingopal-upload-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lingopal-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -188,22 +192,27 @@ network: true
 overview: 'Lingopal publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Jobs API, Languages API, Translate API, and 1 more. Tagged areas include Company, Frontier Tech, Artificial Intelligence, Translation, and Localization.
 
 
-  Lingopal''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 18 more developer resources.'
+  Lingopal''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 19 more developer resources.'
 random_paper: 14
 score:
   band: developing
-  composite: 42.9
-  delta: 0.0
+  composite: 40.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 57.3
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 42.9
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -214,8 +223,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lingopal/refs/heads/main/screenshots/lingopal-2026-07-25T225250.png
 security:

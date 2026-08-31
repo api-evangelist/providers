@@ -29,8 +29,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -68,21 +68,21 @@
      "slug": "kolayik",
      "description": "Kolay İK (Kolay Yazılım A.Ş.) is an Istanbul-based cloud human-resources and human-capital-management SaaS platform serving more than 4,500 companies and 300,000+ employees, predominantly in Türkiye. The product covers employee/personnel records (özlük), payroll (bordro), performance evaluation, shift management (vardiya), compensation review, applicant tracking, HR analytics, time and attendance (PDKS), leave management, expense and asset tracking, and training. Kolay publishes an official public REST API — the \"Kolay Public API\" (v2, https://api.kolayik.com) — documented as a public Postman collection at apidocs.kolayik.com, covering person, unit, leave, timelog, transaction, approval, calendar, training, expense and payroll resources, authenticated with a bearer API token created from the in-product developer settings.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/screenshots/kolayik-2026-07-25T224126.png",
-     "score": 50.4,
+     "score": 48.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 85.2,
+      "discoverability": 75.9,
       "contract_quality": 54.4,
-      "governance": 30.3,
-      "contract_governance": 30.3,
+      "governance": 18.2,
+      "contract_governance": 18.2,
       "operational_transparency": 28.9,
       "developer_ergonomics": 51.8,
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -113,29 +113,29 @@
      "slug": "para-t",
      "description": "Paraşüt is a Turkish cloud pre-accounting (ön muhasebe) and e-invoicing SaaS for small businesses, freelancers and accountants. Its REST API V4 exposes nearly everything the Paraşüt web app can do — contacts, products, inventory and warehouses, sales invoices and offers, purchase bills, bank and cash accounts and transactions, employees, salaries and taxes — plus Turkey's official electronic document flows (e-Fatura, e-Arşiv and e-SMM). The API follows JSON:API conventions, is authenticated with OAuth2, and handles e-document creation asynchronously via trackable jobs. Backed by 500 Global.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/screenshots/para-t-2026-08-07T191400.png",
-     "score": 43.4,
+     "score": 41.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 81.5,
+      "discoverability": 75.9,
       "contract_quality": 45.6,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 18.4,
       "developer_ergonomics": 58.9,
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 25.4,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 30.4,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "verified",
       "mcp_server": false,
-      "auth_clarity": "bearer",
+      "auth_clarity": "negotiable",
       "idempotency": false,
       "error_semantics": "documented",
       "openapi_examples": false,
@@ -146,7 +146,7 @@
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": false,
+      "delegated_identity": "documented",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -161,19 +161,19 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "providers": [
     {
      "name": "Ikas, IKAS Teknoloji AS",
      "slug": "ikas-ikas-teknoloji-as",
      "description": "ikas (IKAS Teknoloji AS) is an all-in-one e-commerce platform, headquartered in Turkey and backed by 500 Global, that lets merchants build online stores, manage products, inventory, orders, customers, and campaigns, and sell across multiple sales channels. For developers and partners, ikas exposes a public GraphQL Admin API at api.myikas.com that covers products, variants, orders, transactions, customers, price lists, campaigns, coupons, stock locations, sales channels, storefronts, and webhooks. Apps authenticate with OAuth 2.0 (client_credentials for private/store apps and authorization_code for public admin apps) using scoped permissions such as read_products/write_products and read_orders/write_orders. ikas also ships a TypeScript SDK, an ikas CLI, an App Bridge for embedded dashboard apps, a theme development kit, and an official MCP server for its code components.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/screenshots/ikas-ikas-teknoloji-as-2026-07-25T222057.png",
-     "score": 37.2,
+     "score": 37.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 75.9,
       "contract_quality": 42.7,
       "governance": 4.5,
       "contract_governance": 4.5,
@@ -182,8 +182,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 27.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -227,8 +227,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -259,21 +259,21 @@
      "slug": "getir",
      "description": "Getir is an Istanbul-based on-demand delivery company, founded in 2015, that pioneered the ultrafast \"groceries in minutes\" model and grew into a super-app spanning rapid grocery (Getir), large-basket grocery (GetirBüyük), water (GetirSu), restaurant food delivery (GetirYemek / GetirFood) and local-merchant commerce (GetirÇarşı / GetirLocals). Its developer-facing surface is a partner-integration platform rather than a public product API: Getir publishes the GetirFood API — a Swagger 2.0 contract at food-external-api-gateway.getirapi.com covering restaurant onboarding, menu and product status, working hours, delivery zones, payment methods and the full food-order lifecycle (verify, prepare, handover, deliver, cancel, transfer) — for POS and integrator companies that connect restaurant point-of-sale systems to GetirFood. Orders are pushed to partners over webhooks, with a documented rate limiter, a 99-entry service error registry, published test cards and a dedicated test environment. In February 2026 Uber agreed to acquire Getir's Türkiye delivery business, cleared by the Turkish Competition Authority in June 2026.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/screenshots/getir-2026-08-07T165703.png",
-     "score": 35.2,
+     "score": 34.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 46.3,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "discoverability": 75.9,
+      "contract_quality": 47.8,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 57.9,
       "developer_ergonomics": 25.6,
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -298,6 +298,50 @@
       "agentic_commerce": false
      },
      "rank": 6
+    },
+    {
+     "name": "RuhAN",
+     "slug": "ruhan",
+     "description": "RuhAN (ruhan.co) is a Turkish mining and underground-sciences platform covering mining licence workflows, MAPEG and Turkish mining legislation, tender and field reports, geology and mineral exploration, geophysics data processing, GIS and remote sensing, and the YTK, CED (EIA), technical-supervisor, drilling and field-service market, plus a marketplace for sites, ore, equipment, jobs and expert services. It is a Next.js application on Vercel and is pre-launch: its own /api/health endpoint reports that the Supabase and Gemini backends are not configured, the iyzico payment integration is not live, and all seven commerce and privacy documents under /legal are labelled draft text. RuhAN publishes no OpenAPI, AsyncAPI, GraphQL SDL, MCP server or agent card. Its only machine-readable document is an llms.txt, and its only reachable HTTP surface is two undocumented endpoints -- GET /api/health and POST /api/lead.",
+     "score": 27.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 11.9,
+      "commercial_clarity": 76.3,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 5.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 7
     }
    ],
    "open": true
@@ -315,11 +359,11 @@
      "slug": "fazla-gida",
      "description": "Fazla (formerly Fazla Gida / Whole Surplus) is a Turkish technology-driven waste management and circular-economy company founded in 2017 in Istanbul. Its digital, decision-support platform helps B2B clients across the supply chain — manufacturers, retailers, e-commerce, distributors, HoReCa, food banks and municipalities — prevent waste at the source and recover value from surplus inventory through a food-recovery hierarchy of secondary-sales marketplace, donation, animal-feed conversion and recycling modules, backed by logistics support, a smart-scale IoT inventory system and an AI analysis tool that reports financial, CO2 and social impact. The company operates the Fazla Iyi surprise-box consumer app, is the first B Corp-certified waste-management organization in Turkey, and is backed by 500 Global among other investors.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fazla-gida/refs/heads/main/screenshots/fazla-gida-2026-07-25T214323.png",
-     "score": 8.5,
+     "score": 9.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -328,52 +372,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 7
-    },
-    {
-     "name": "Peoplise",
-     "slug": "peoplise",
-     "description": "Peoplise (now Logo Peoplise) is a Turkish human-resources technology SaaS that digitalizes recruitment and hiring workflows for enterprises. The platform covers the full talent-acquisition funnel: candidate sourcing and application tracking, automated pre-screening and assessments, one-way and live video interviews, reference checking, and digital onboarding. Originally a 500 Global (500 Startups) portfolio company, Peoplise was acquired by Logo (Logo Yazilim), one of Turkey's largest enterprise-software vendors, and is marketed as \"Logo Peoplise\" at logo.com.tr. Public probing found a marketing/product site only; no developer portal, OpenAPI/Swagger specification, /.well-known/ discovery surface, or documented public API was found at this time.",
-     "score": 8.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -400,11 +400,10 @@
      "rank": 8
     },
     {
-     "name": "KAMI",
-     "slug": "kami",
-     "description": "KAMI (Çizgi Studio) is a next-generation transmedia entertainment platform out of Turkey that lets a community read, write, and live inside stories. The mobile app and web platform offer thousands of original webtoons, comics (çizgi roman), novels, and AI-character chat across genres like romance, thriller, fantasy, and horror, plus vertical drama viewing. Community-validated narratives are measured through read rates, micro-transactions, and engagement, then graduate into vertical-drama production and licensable intellectual property — a \"story IP engine.\" KAMI is a consumer product (2.5M+ users) with no public developer API; it is part of the wearekami.com ecosystem and a 500 Global Creators Ventures portfolio company, added to the API Evangelist network for enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kami/refs/heads/main/screenshots/kami-2026-07-25T223440.png",
-     "score": 6.3,
+     "name": "Peoplise",
+     "slug": "peoplise",
+     "description": "Peoplise (now Logo Peoplise) is a Turkish human-resources technology SaaS that digitalizes recruitment and hiring workflows for enterprises. The platform covers the full talent-acquisition funnel: candidate sourcing and application tracking, automated pre-screening and assessments, one-way and live video interviews, reference checking, and digital onboarding. Originally a 500 Global (500 Startups) portfolio company, Peoplise was acquired by Logo (Logo Yazilim), one of Turkey's largest enterprise-software vendors, and is marketed as \"Logo Peoplise\" at logo.com.tr. Public probing found a marketing/product site only; no developer portal, OpenAPI/Swagger specification, /.well-known/ discovery surface, or documented public API was found at this time.",
+     "score": 8.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -413,12 +412,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 6.6,
-      "access_clarity": 6.6
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -445,11 +444,11 @@
      "rank": 9
     },
     {
-     "name": "Rasyonet",
-     "slug": "rasyonet",
-     "description": "Rasyonet is a Turkish fintech company providing integrated financial software solutions and capital markets data platforms for institutional clients, asset managers, and financial analysts. Founded in 2000 and headquartered at ITU ARI Teknopark in Istanbul, Rasyonet offers tools for analyzing global equity markets, economic indicators, mutual and pension funds, fixed-income securities, portfolio analytics, and automated financial reporting. Their flagship EquityRT platform delivers equity research, company valuation, and peer benchmarking capabilities via desktop and Excel integration. No public developer API or machine-readable specification has been documented at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rasyonet/refs/heads/main/screenshots/rasyonet-2026-06-20T192606.png",
-     "score": 5.0,
+     "name": "KAMI",
+     "slug": "kami",
+     "description": "KAMI (Çizgi Studio) is a next-generation transmedia entertainment platform out of Turkey that lets a community read, write, and live inside stories. The mobile app and web platform offer thousands of original webtoons, comics (çizgi roman), novels, and AI-character chat across genres like romance, thriller, fantasy, and horror, plus vertical drama viewing. Community-validated narratives are measured through read rates, micro-transactions, and engagement, then graduate into vertical-drama production and licensable intellectual property — a \"story IP engine.\" KAMI is a consumer product (2.5M+ users) with no public developer API; it is part of the wearekami.com ecosystem and a 500 Global Creators Ventures portfolio company, added to the API Evangelist network for enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kami/refs/heads/main/screenshots/kami-2026-07-25T223440.png",
+     "score": 6.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -459,11 +458,11 @@
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "commercial_clarity": 6.6,
+      "access_clarity": 6.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -490,6 +489,51 @@
      "rank": 10
     },
     {
+     "name": "Rasyonet",
+     "slug": "rasyonet",
+     "description": "Rasyonet is a Turkish fintech company providing integrated financial software solutions and capital markets data platforms for institutional clients, asset managers, and financial analysts. Founded in 2000 and headquartered at ITU ARI Teknopark in Istanbul, Rasyonet offers tools for analyzing global equity markets, economic indicators, mutual and pension funds, fixed-income securities, portfolio analytics, and automated financial reporting. Their flagship EquityRT platform delivers equity research, company valuation, and peer benchmarking capabilities via desktop and Excel integration. No public developer API or machine-readable specification has been documented at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rasyonet/refs/heads/main/screenshots/rasyonet-2026-06-20T192606.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 11
+    },
+    {
      "name": "MNT-Halan",
      "slug": "mnt-halan",
      "description": "MNT-Halan is a Cairo, Egypt-headquartered fintech holding company and Egypt's first private fintech unicorn, founded in 2017 by Mounir Nakhla (CEO) and Ahmed Mohsen (CTO). MNT-Halan operates a financial super app (\"Halan\") and a vertically integrated digital ecosystem covering micro-finance and SME lending, consumer credit, e-payments and money transfers, an e-wallet, prepaid and installment cards, payroll advances, investment and gold-installment products, and e-commerce (electronics, appliances, FMCG, e-grocer). Lending products span nano loans up to EGP 2,000, microloans, consumer loans up to EGP 500,000 over 36 installments, SME loans from EGP 200,000 up to EGP 15 million, education and home financing up to EGP 4 million, light-vehicle financing, and buy-now-pay-later. The Halan app and its supporting agent network reportedly serve 5–7 million customers, have disbursed in excess of USD 4 billion in loans across 3 million borrowers, and process 100+ million USD in monthly payments and 50+ million USD in monthly e-commerce sales. After raising USD 400 million in 2023 to cross unicorn status and an additional USD 157.5 million in 2024 (including an IFC investment), MNT-Halan expanded beyond Egypt into Turkey (via the August 2024 acquisition of Tam Finans), the UAE (December 2024 launch), and Pakistan. MNT-Halan's revenue model is interest and fees on lending, merchant and payment fees, e-commerce gross margin, and card interchange; the company markets directly to consumers and SMEs through its Halan app and physical outlets, and does not publish a public developer API, SDK, partner sandbox, or open-source code repository.",
@@ -507,8 +551,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -539,22 +583,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
-   "providers": [
-    {
-     "name": "RuhAN",
-     "slug": "ruhan",
-     "description": "RuhAN (ruhan.co) is a Turkish mining and underground-sciences platform covering mining licence workflows, MAPEG and Turkish mining legislation, tender and field reports, geology and mineral exploration, geophysics data processing, GIS and remote sensing, and the YTK, CED (EIA), technical-supervisor, drilling and field-service market, plus a marketplace for sites, ore, equipment, jobs and expert services. It is a Next.js application on Vercel and is pre-launch: its own /api/health endpoint reports that the Supabase and Gemini backends are not configured, the iyzico payment integration is not live, and all seven commerce and privacy documents under /legal are labelled draft text. RuhAN publishes no OpenAPI, AsyncAPI, GraphQL SDL, MCP server or agent card. Its only machine-readable document is an llms.txt, and its only reachable HTTP surface is two undocumented endpoints -- GET /api/health and POST /api/lead.",
      "rank": 12
     }
    ]

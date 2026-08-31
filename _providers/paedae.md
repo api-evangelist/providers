@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-26'
-api_count: 5
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Applications API from Paedae — 5 operation(s) for applications.
   name: Paedae Applications API
@@ -212,18 +212,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.3
-  delta: 3.4
+  composite: 47.0
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 61.4
     developer_ergonomics: 54.2
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 45.9
+  previous_composite: 47.5
   provenance:
     conformance: first-party
     contracts:
@@ -233,8 +238,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/screenshots/paedae-2026-08-07T191301.png
 security:

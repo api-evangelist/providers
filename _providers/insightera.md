@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -43,12 +43,15 @@ agentic_access:
   operation_count: 23
   slug: insightera-agentic-access
   summary_line: 23 operations · 22 acting
-api_count: 1
+api_count: 2
 apis:
-- description: RESTful Thai natural-language-processing service, branded "ELI" in InsightEra's own showcase, published with a live Swagger 2.0 contract at nlp.insightera.co.th/docs/v1.0/. Twenty-three operations acr
-  name: InsightEra NLP Platform API
-  slug: insightera-nlp-platform-api
-artifact_total: 7
+- description: The classification API from InsightEra — 8 operation(s) for classification.
+  name: InsightEra Classification API
+  slug: insightera-classification-api
+- description: The nlp API from InsightEra — 15 operation(s) for nlp.
+  name: InsightEra Nlp API
+  slug: insightera-nlp-api
+artifact_total: 8
 collections:
 - collection_type: open
   name: NLP Platform API
@@ -171,7 +174,7 @@ modified: '2026-08-13'
 name: InsightEra
 nav: Providers
 network: true
-overview: 'InsightEra publishes 1 API on the [APIs.io](https://apis.io/) network: NLP Platform API. Tagged areas include Company, Marketing Technology, Social Listening, Data Analytics, and Customer Data Platform.
+overview: 'InsightEra publishes 2 APIs on the [APIs.io](https://apis.io/) network: Classification API and Nlp API. Tagged areas include Company, Marketing Technology, Social Listening, Data Analytics, and Customer Data Platform.
 
 
   InsightEra''s developer surface includes authentication, documentation, API reference, developer console, support, engineering blog, and 21 more developer resources.'
@@ -186,18 +189,23 @@ rate_limits:
   slug: insightera-rate-limits
 score:
   band: thin
-  composite: 28.4
+  composite: 27.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 45.6
     developer_ergonomics: 30.4
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 28.4
+  previous_composite: 27.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,8 +216,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insightera/refs/heads/main/screenshots/insightera-2026-08-07T170722.png
 security:
@@ -229,7 +237,7 @@ tags:
 - Data Analytics
 - Customer Data Platform
 - CRM
-- Chatbots
+- Chatbot
 - Social Media Management
 - Natural Language Processing
 - Artificial Intelligence

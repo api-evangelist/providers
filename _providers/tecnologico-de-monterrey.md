@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 5
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 378
   slug: tecnologico-de-monterrey-agentic-access
   summary_line: 378 operations · 177 acting · 5 human-in-the-loop
-api_count: 25
+api_count: 1
 apis:
 - description: Public OAI-PMH 2.0 metadata harvesting endpoint for the Tecnológico de Monterrey Dataverse OAI Archive. Verified live via the Identify verb (repositoryName "Tecnológico de Monterrey Dataverse OAI Arch
   name: Tec de Monterrey Dataverse OAI-PMH Endpoint
@@ -190,6 +190,10 @@ collections:
   name: Tec de Monterrey Dataverse Native REST Access Workflows API
   slug: open-tecnologico-de-monterrey-workflows-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tecnologico-de-monterrey-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -278,7 +282,7 @@ overview: 'Tecnológico de Monterrey publishes 22 APIs on the [APIs.io](https://
   The Tecnológico de Monterrey catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tecnológico de Monterrey''s developer surface includes GitHub presence and 10 more developer resources.'
+  Tecnológico de Monterrey''s developer surface includes GitHub presence and 11 more developer resources.'
 plans:
 - name: Tecnologico De Monterrey Plans Pricing
   plan_count: 2
@@ -312,18 +316,23 @@ rules:
   slug: tecnologico-de-monterrey-rules
 score:
   band: thin
-  composite: 32.8
-  delta: 4.5
+  composite: 32.3
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 13.6
     contract_quality: 44.3
     developer_ergonomics: 14.3
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 28.3
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -337,8 +346,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tecnologico-de-monterrey/refs/heads/main/screenshots/tecnologico-de-monterrey-2026-06-20T195020.png
 security:

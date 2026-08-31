@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: A data-feed API that returns every field in the FEVO Sales Report — orders and order adjustments — so a customer can pull FEVO transaction data directly into their own data warehouse. Queries run by O
@@ -165,7 +165,12 @@ rate_limits:
   slug: fevo-rate-limits
 score:
   band: thin
-  composite: 34.0
+  composite: 34.7
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -173,10 +178,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 34.0
+  previous_composite: 34.7
   provenance:
     conformance: first-party
   regulatory:
@@ -185,8 +190,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 65.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

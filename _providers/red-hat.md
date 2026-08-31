@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 77
   slug: red-hat-agentic-access
   summary_line: 77 operations · 27 acting
-api_count: 75
+api_count: 6
 apis:
 - description: API for managing Red Hat subscriptions, entitlements, and system registrations.
   name: Red Hat Subscription Management API
@@ -464,6 +464,18 @@ collections:
   name: Red Hat Ansible Automation Platform Add-Ons Workflow Job Templates API
   slug: open-red-hat-workflow-job-templates-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/red-hat-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/stolostron/rhacm-docs/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/stolostron/rhacm-docs/blob/2.17_stage/SECURITY.adoc
 - group: other
   title: ''
   type: ParentCompany
@@ -1323,7 +1335,7 @@ overview: 'Red Hat publishes 36 APIs on the [APIs.io](https://apis.io/) network,
   The Red Hat catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 7 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Red Hat''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, getting-started guide, documentation, and 75 more developer resources.'
+  Red Hat''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, getting-started guide, documentation, and 78 more developer resources.'
 plans:
 - name: Red Hat Plans Pricing
   plan_count: 1
@@ -1368,18 +1380,26 @@ rules:
   slug: red-hat-spectral-rules
 score:
   band: strong
-  composite: 59.1
+  composite: 54.4
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 73.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 72.0
     developer_ergonomics: 76.2
-    discoverability: 59.3
-    governance: 30.3
+    discoverability: 48.1
+    governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 59.1
+  open_source:
+    applies: true
+    score: 35.0
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1389,8 +1409,8 @@ score:
       marker_coverage: 0.0
       total: 34
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/screenshots/red-hat-2026-06-20T192726.png
 security:

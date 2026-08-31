@@ -32,8 +32,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.2
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Contacts API from Zoho Books — 4 operation(s) for contacts.
   name: Zoho Books Contacts API
@@ -65,6 +65,10 @@ collections:
   name: Zoho Books Organizations API
   slug: open-zoho-books-organizations-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zoho-books-capability-edges.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -136,22 +140,27 @@ network: true
 overview: 'Zoho Books publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Invoices API, Items API, and 1 more. Tagged areas include Accounting, Bookkeeping, Invoicing, Expenses, and Banking.
 
 
-  Zoho Books'' developer surface includes documentation, pricing, signup flow, support, engineering blog, developer console, and 9 more developer resources.'
+  Zoho Books'' developer surface includes documentation, pricing, signup flow, support, engineering blog, developer console, and 10 more developer resources.'
 random_paper: 6
 score:
   band: thin
-  composite: 37.6
-  delta: 3.5
+  composite: 37.0
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 0.0
     contract_quality: 51.0
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 34.1
+  previous_composite: 37.6
   provenance:
     contracts:
       callable: 100.0
@@ -164,8 +173,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 32.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-books/refs/heads/main/screenshots/zoho-books-2026-06-20T201932.png
 security:

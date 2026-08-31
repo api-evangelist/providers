@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 48
   slug: university-of-waterloo-agentic-access
   summary_line: 48 operations · 2 acting
-api_count: 12
+api_count: 1
 apis:
 - description: The AcademicOrganizations API from University of Waterloo — 2 operation(s) for academicorganizations.
   name: University of Waterloo AcademicOrganizations API
@@ -122,6 +122,14 @@ collections:
   name: Waterloo OpenData AcademicOrganizations Wcms API
   slug: open-university-of-waterloo-wcms-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/university-of-waterloo-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/uWaterloo/Datasets/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -243,7 +251,7 @@ overview: 'University of Waterloo publishes 12 APIs on the [APIs.io](https://api
   The University of Waterloo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  University of Waterloo''s developer surface includes authentication, GitHub presence, engineering blog, and 11 more developer resources.'
+  University of Waterloo''s developer surface includes authentication, GitHub presence, engineering blog, and 13 more developer resources.'
 plans:
 - name: University Of Waterloo Plans Pricing
   plan_count: 2
@@ -276,18 +284,26 @@ rules:
   slug: university-of-waterloo-rules
 score:
   band: developing
-  composite: 45.3
-  delta: 7.2
+  composite: 40.5
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 25.0
     contract_quality: 56.6
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 38.1
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -301,9 +317,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 42.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/screenshots/university-of-waterloo-2026-06-20T200326.png
 security:
 - kind: authentication

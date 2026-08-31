@@ -16,27 +16,34 @@
      "slug": "stotles",
      "description": "Stotles is a B2G (business-to-government) public sector procurement and sales intelligence platform for the UK and Ireland. It aggregates procurement notices, contract awards, framework agreements, buyer spend history, and verified decision-maker contacts from public sources such as Find a Tender, Contracts Finder, Digital Marketplace, TED, and Public Contracts Scotland, then layers tender discovery, market intelligence, AI-assisted bid qualification (Bid Studio), account targeting (Sales Studio), and pipeline management on top so suppliers can find, qualify, and win government contracts. Delivered as a SaaS web application at app.stotles.com, and — since 2026 — as a programmable surface: the Stotles Public API is a documented OpenAPI 3.1.0 REST service at api.stotles.com/v1 covering notices, buyers, suppliers and framework agreements, alongside a hosted Model Context Protocol server at api.stotles.com/mcp that brings the same market data into AI chat tools and agents. Both authenticate with a static x-api-key header; keys are issued by a Customer Success Manager rather than self-serve, and MCP access is in beta behind a waitlist.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/stotles/refs/heads/main/screenshots/stotles-2026-08-17T082131.png",
-     "score": 59.6,
+     "score": 57.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 61.9,
-      "governance": 30.3,
-      "contract_governance": 30.3,
+      "contract_quality": 59.9,
+      "governance": 18.2,
+      "contract_governance": 18.2,
       "operational_transparency": 31.6,
       "developer_ergonomics": 49.4,
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 46.3,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
      },
      "agent_score": 38.0,
      "agent_band": "agent-ready",
@@ -71,29 +78,29 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Centrica",
      "slug": "centrica",
      "description": "Centrica plc is the FTSE-listed British energy and services group behind British Gas, the United Kingdom's largest household energy supplier, along with Bord Gais Energy in Ireland, Centrica Business Solutions, Centrica Energy (its wholesale power, gas and LNG trading arm) and the Hive connected-home brand. It sits across the whole value chain — upstream gas and storage at Rough, generation and battery flexibility, wholesale trading and route-to-market, retail supply to roughly ten million UK homes, and a field-service engineering business — after exiting North America with the sale of Direct Energy to NRG in January 2021 to refocus on the UK and Ireland. Its API posture is honestly closed: Britain mandated the smart-metering INFRASTRUCTURE (the licensed Smart DCC monopoly and the SMETS2 rollout) rather than a consumer data right, so Centrica has no Consumer Data Right, no Green Button and no standards-conformant consumer usage endpoint. The DESNZ non-domestic smart meter data access requirement that does bind it is discharged by a written request answered within ten working days, not by an API. Household consumers reach their own data only through the British Gas app and account login; business customers through the Energy360 DataView portal. The single publicly reachable developer surface found is the Centrica FieldOps Azure API Management developer portal — a partner field-operations platform in its development environment — and Centrica publishes no open grid or market data of its own, leaving that to NESO, Elexon and the DNOs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/screenshots/centrica-2026-08-07T163224.png",
-     "score": 53.8,
+     "score": 52.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 79.6,
-      "contract_quality": 48.3,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "discoverability": 75.9,
+      "contract_quality": 51.0,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 44.7,
       "developer_ergonomics": 49.4,
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -131,21 +138,21 @@
      "slug": "amcs-group",
      "description": "AMCS Group is an enterprise cloud software provider for the waste, recycling, resource and transport industries, headquartered in Ireland and backed by Insight Partners. Its flagship AMCS Platform exposes a REST API spanning Core, ERP Platform, Pay, Scale, TLV and Vision AI services, covering directory, accounting, transport, fleet, municipal and weighbridge operations. The API authenticates with a Personal Access Token exchanged for a session cookie, ships Swagger documentation, a hosted sandbox, a Node.js reference client, a Terraform provider, and an API Accelerator Program with pre-coded, MIT-licensed integration templates covering most of a typical integration project.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/screenshots/amcs-group-2026-07-25T200033.png",
-     "score": 44.0,
+     "score": 42.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 42.6,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 18.4,
       "developer_ergonomics": 78.0,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -177,56 +184,45 @@
       "agentic_commerce": false
      },
      "rank": 3
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "26.2 – 39.2",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 2,
-   "shown": 2,
-   "providers": [
+    },
     {
      "name": "University College Dublin",
      "slug": "ucd",
-     "description": "University College Dublin (UCD) is Ireland's largest university and ranks #126 in the QS World University Rankings 2025. Its public, machine-readable footprint is concentrated in library and cultural-heritage systems rather than a central developer portal: the UCD Digital Library exposes IIIF Image and Presentation APIs plus a Geospatial Data API and unAPI endpoint, the DSpace-based Research Repository UCD offers OAI-PMH harvesting and a REST API, and the National Folklore Collection held at UCD is served via the Dúchas API. There is no unified, self-service institutional API program; most administrative and identity systems are gated behind institutional affiliation.",
+     "description": "University College Dublin is Ireland's largest university, a public research institution in Belfield, Dublin. It operates no API programme: there is no developer portal, no API key issuance, no OAuth authorization server and no first-party OpenAPI anywhere on a ucd.ie host. What it does operate, verified live on 2026-08-30, is three real machine-readable surfaces — an OAI-PMH 2.0 harvesting endpoint for Research Repository UCD (17,167 records, fourteen metadata formats, plus an OpenAIRE CRIS base URL), a SAML 2.0 Shibboleth Identity Provider registered in Edugate/eduGAIN as https://sso.ucd.ie/idp/shibboleth with scope ucd.ie, and static Dublin Core collection data exports from the UCD Digital Library. Everything else is somebody else's engineering under UCD's name: the repository platform is DSpace-CRIS hosted by 4Science, library discovery is Serials Solutions, and the Dúchas API for the National Folklore Collection — the collection is UCD's, the platform is DCU's — was withdrawn by its operator and now returns HTTP 500 on every path. This profile was re-run under the university pipeline on 2026-08-30 and the previously catalogued Dúchas contracts were removed.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ucd/refs/heads/main/screenshots/ucd-2026-08-17T130228.png",
-     "score": 37.6,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 42.5,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 60.1,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 14.3,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
+      "discoverability": 59.3,
+      "contract_quality": 52.4,
+      "governance": 15.2,
+      "contract_governance": 15.2,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
       "regime_id": "education",
-      "score": 31.5,
+      "score": 46.3,
       "matched_via": "tags"
      },
-     "agent_score": 22.9,
+     "agent_score": 26.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": "derived",
+      "agentic_access": false,
       "reversibility_documented": "na",
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": "na",
       "error_semantics": false,
-      "openapi_examples": false,
+      "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -240,72 +236,28 @@
       "agentic_commerce": false
      },
      "rank": 4
-    },
-    {
-     "name": "Ceartas",
-     "slug": "ceartas",
-     "description": "Ceartas (legal entity Ceartas DMCA Limited) is a Dublin, Ireland AI-powered brand protection and content-removal platform founded in 2021 by Dan Purcell (CEO) and Jonny Smyth (CTO). Backed by the Sony Innovation Fund with a $4.5M seed round announced in April 2024, Ceartas is a Google Trusted Copyright Removal Partner and runs a dual-brand stack: Ceartas for individual creators and talent, and Midnight Labs for enterprise IP holders including movie studios, gaming studios, broadcasters, and publishers. The platform scans 75M+ sites daily across 2,000+ platforms and has processed billions of takedowns, protecting creators, A-list talent, and global brands from AI-generated deepfakes, non-consensual intimate imagery (NCII), piracy, impersonation, and counterfeit content. Enforcement operates under DMCA §512, the US TAKE IT DOWN Act, the UK Online Safety Act, the EU Digital Services Act, and Ireland's Coco's Law. Ceartas is a subscription SaaS with a customer dashboard and no public developer API; this profile captures its published identity, pricing, status, and security/AI-consent surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ceartas/refs/heads/main/screenshots/ceartas-2026-07-25T204851.png",
-     "score": 26.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 76.3,
-      "access_clarity": 76.3
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 5
     }
-   ]
+   ],
+   "open": true
   },
   {
    "band": "emerging",
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "LegitFit",
      "slug": "legitfit",
      "description": "LegitFit is an Irish gym, studio and fitness-business management platform based in Cork, serving gyms, yoga and pilates studios, CrossFit boxes, leisure centres, personal trainers and multi-location operators. The product covers class and appointment scheduling with drag-and-drop timetables and waiting lists, membership and package management with auto-renewals, integrated online and offline payments built on Stripe, client and staff management, payroll and performance tracking, exercise programming, automated communications and lead nurture, a branded member app, and an AI assistant (\"Lia\") for revenue forecasting and programming. LegitFit publishes no public developer portal or OpenAPI description, but it does operate an OAuth 2.1-protected Model Context Protocol (MCP) server at https://legitfit.com/api/mcp, discoverable through RFC 8414 authorization-server and RFC 9728 protected-resource metadata, with mcp:read and mcp:write scopes.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/legitfit/refs/heads/main/screenshots/legitfit-2026-07-25T224838.png",
-     "score": 25.9,
+     "score": 25.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 79.6,
+      "discoverability": 75.9,
       "contract_quality": 0.0,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -314,8 +266,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -346,47 +298,40 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 5
     },
     {
-     "name": "Trinity College Dublin",
-     "slug": "trinity-college-dublin",
-     "description": "Trinity College Dublin (the University of Dublin) is Ireland's oldest university, founded in 1592, and ranked #98 in the QS World University Rankings 2025. Its public developer/API footprint is not organized around a dedicated developer portal or a documented open-API program; instead it is expressed through standards-based scholarly infrastructure. The Library of Trinity College Dublin runs TARA (Trinity's Access to Research Archive), a DSpace institutional repository that exposes an OAI-PMH metadata interface, and Digital Collections, a Hyrax/Samvera platform that serves IIIF Presentation manifests for digitised manuscripts including the Book of Kells. Both are publicly reachable in a browser but currently sit behind bot-mitigation (Cloudflare / reCAPTCHA), so they are not openly machine-callable without interactive access. Federated identity is provided through HEAnet's Edugate (eduGAIN) SAML federation rather than a public OAuth/OpenID developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/screenshots/trinity-college-dublin-2026-06-20T195720.png",
-     "score": 23.1,
+     "name": "Ceartas",
+     "slug": "ceartas",
+     "description": "Ceartas (legal entity Ceartas DMCA Limited) is a Dublin, Ireland AI-powered brand protection and content-removal platform founded in 2021 by Dan Purcell (CEO) and Jonny Smyth (CTO). Backed by the Sony Innovation Fund with a $4.5M seed round announced in April 2024, Ceartas is a Google Trusted Copyright Removal Partner and runs a dual-brand stack: Ceartas for individual creators and talent, and Midnight Labs for enterprise IP holders including movie studios, gaming studios, broadcasters, and publishers. The platform scans 75M+ sites daily across 2,000+ platforms and has processed billions of takedowns, protecting creators, A-list talent, and global brands from AI-generated deepfakes, non-consensual intimate imagery (NCII), piracy, impersonation, and counterfeit content. Enforcement operates under DMCA §512, the US TAKE IT DOWN Act, the UK Online Safety Act, the EU Digital Services Act, and Ireland's Coco's Law. Ceartas is a subscription SaaS with a customer dashboard and no public developer API; this profile captures its published identity, pricing, status, and security/AI-consent surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ceartas/refs/heads/main/screenshots/ceartas-2026-07-25T204851.png",
+     "score": 25.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 10.7,
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 23.8,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 76.3,
+      "access_clarity": 76.3
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 31.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 5.0,
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": "bearer",
+      "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": "documented",
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -398,7 +343,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "Open GI",
@@ -418,8 +363,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -439,6 +384,58 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 7
+    },
+    {
+     "name": "Trinity College Dublin",
+     "slug": "trinity-college-dublin",
+     "description": "Trinity College Dublin (the University of Dublin) is Ireland's oldest university, founded in 1592, and ranked #98 in the QS World University Rankings 2025. Its public developer/API footprint is not organized around a dedicated developer portal or a documented open-API program; instead it is expressed through standards-based scholarly infrastructure. The Library of Trinity College Dublin runs TARA (Trinity's Access to Research Archive), a DSpace institutional repository that exposes an OAI-PMH metadata interface, and Digital Collections, a Hyrax/Samvera platform that serves IIIF Presentation manifests for digitised manuscripts including the Book of Kells. Both are publicly reachable in a browser but currently sit behind bot-mitigation (Cloudflare / reCAPTCHA), so they are not openly machine-callable without interactive access. Federated identity is provided through HEAnet's Edugate (eduGAIN) SAML federation rather than a public OAuth/OpenID developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/screenshots/trinity-college-dublin-2026-06-20T195720.png",
+     "score": 20.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 10.7,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.4,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 31.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 5.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -470,8 +467,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -515,8 +512,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -577,8 +574,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -629,8 +626,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -681,8 +678,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -733,8 +730,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -785,8 +782,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -837,8 +834,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -889,8 +886,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -941,8 +938,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -993,8 +990,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1045,8 +1042,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1097,8 +1094,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1149,8 +1146,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1200,8 +1197,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",

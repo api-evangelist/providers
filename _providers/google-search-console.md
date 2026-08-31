@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,14 +42,8 @@ agentic_access:
   operation_count: 10
   slug: google-search-console-agentic-access
   summary_line: 10 operations · 6 acting
-api_count: 6
+api_count: 5
 apis:
-- description: Provides tools for running validation tests against single URLs, including mobile-friendly testing and rich results validation for structured data.
-  name: Google Search Console URL Testing Tools API
-  slug: google-search-console-url-testing-tools-api
-- description: The Indexing API allows any site owner to directly notify Google when pages are added or removed, enabling faster crawling and indexing of content such as job postings and livestream videos.
-  name: Google Indexing API
-  slug: google-indexing-api
 - description: Query search traffic data for your site. Retrieve impressions, clicks, click-through rate, and average position grouped by dimensions such as query, page, country, device, search type, and date.
   name: Google Search Console Search Analytics API
   slug: google-search-console-search-analytics-api
@@ -62,6 +56,12 @@ apis:
 - description: Inspect individual URLs to retrieve detailed indexing, crawling, and serving information. Check whether a URL is indexed, view crawl details, mobile usability status, and rich results eligibility.
   name: Google Search Console URL Inspection API
   slug: google-search-console-url-inspection-api
+- description: The urlNotifications API from Google Search Console — 2 operation(s) for urlnotifications.
+  name: Google Search Console URL Notifications API
+  slug: google-search-console-urlnotifications-api
+- description: The urlTestingTools API from Google Search Console — 1 operation(s) for urltestingtools.
+  name: Google Search Console URL Testing Tools API
+  slug: google-search-console-urltestingtools-api
 artifact_total: 111
 collections:
 - collection_type: postman
@@ -101,6 +101,18 @@ collections:
   name: Google Search Console URL Testing Tools API
   slug: open-google-search-console-url-testing-tools-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/google-search-console-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-search-console-url-testing-tools-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/google-search-console-indexing-api-overlay.yaml
 - group: build
   title: ''
   type: Packages
@@ -515,13 +527,13 @@ modified: '2026-08-13'
 name: Google Search Console
 nav: Providers
 network: true
-overview: 'Google Search Console publishes 6 APIs on the [APIs.io](https://apis.io/) network, including URL Testing Tools API, Google Indexing API, Search Analytics API, and 3 more. Tagged areas include Analytics, Google, Indexing, Search, and Search Analytics.
+overview: 'Google Search Console publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Search Analytics API, Sitemaps API, Sites API, and 3 more. Tagged areas include Analytics, Google, Indexing, Search, and Search Analytics.
 
 
   The Google Search Console catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Search Console''s developer surface includes changelog, documentation, API reference, getting-started guide, pricing, signup flow, authentication, and 36 more developer resources.'
+  Google Search Console''s developer surface includes changelog, documentation, API reference, getting-started guide, pricing, signup flow, authentication, and 39 more developer resources.'
 plans:
 - name: Google Search Console Plans Pricing
   plan_count: 1
@@ -560,18 +572,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 69.7
-  delta: 2.6
+  composite: 68.3
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 36.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 69.7
     developer_ergonomics: 79.2
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 67.1
+  previous_composite: 68.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -582,8 +599,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-search-console/refs/heads/main/screenshots/google-search-console-2026-06-20T182231.png
 security:
@@ -607,7 +624,7 @@ tags:
 - Search
 - Search Analytics
 - SEO
-- Sitemap
+- Sitemaps
 - URL Inspection
 - Webmaster Tools
 use_cases:

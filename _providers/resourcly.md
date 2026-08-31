@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.8
-  scored_at: '2026-08-26'
+  score: 25.6
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 121
   slug: resourcly-agentic-access
   summary_line: 121 operations · 55 acting · 2 human-in-the-loop
-api_count: 22
+api_count: 1
 apis:
 - description: The analytics API from Resourcly — 7 operation(s) for analytics.
   name: Resourcly analytics API
@@ -288,18 +288,23 @@ overview: 'Resourcly publishes 22 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 13
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 35.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 51.2
     developer_ergonomics: 35.1
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 37.8
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -310,8 +315,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

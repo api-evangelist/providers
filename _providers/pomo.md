@@ -34,18 +34,323 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: The FastAPI backend behind the Pomo application, published as an OpenAPI 3.1.0 contract at https://api.usepomo.ai/openapi.json with interactive Swagger UI and ReDoc renderings. 924 paths / 994 operati
-  name: Pomo Platform API
-  slug: pomo-platform-api
-artifact_total: 6
+- description: The ab-groups API from Pomo — 6 operation(s) for ab-groups.
+  name: Pomo Ab Groups API
+  slug: pomo-ab-groups-api
+- description: The agent-jobs API from Pomo — 5 operation(s) for agent-jobs.
+  name: Pomo Agent Jobs API
+  slug: pomo-agent-jobs-api
+- description: The agentic-chat API from Pomo — 3 operation(s) for agentic-chat.
+  name: Pomo Agentic Chat API
+  slug: pomo-agentic-chat-api
+- description: The agentic-conversations API from Pomo — 7 operation(s) for agentic-conversations.
+  name: Pomo Agentic Conversations API
+  slug: pomo-agentic-conversations-api
+- description: The agentic-tasks API from Pomo — 5 operation(s) for agentic-tasks.
+  name: Pomo Agentic Tasks API
+  slug: pomo-agentic-tasks-api
+- description: The agentic-teams API from Pomo — 49 operation(s) for agentic-teams.
+  name: Pomo Agentic Teams API
+  slug: pomo-agentic-teams-api
+- description: The agentic-user API from Pomo — 1 operation(s) for agentic-user.
+  name: Pomo Agentic User API
+  slug: pomo-agentic-user-api
+- description: The ai-campaign API from Pomo — 2 operation(s) for ai-campaign.
+  name: Pomo AI Campaign API
+  slug: pomo-ai-campaign-api
+- description: The ai-personas API from Pomo — 5 operation(s) for ai-personas.
+  name: Pomo AI Personas API
+  slug: pomo-ai-personas-api
+- description: The ai-policy API from Pomo — 9 operation(s) for ai-policy.
+  name: Pomo AI Policy API
+  slug: pomo-ai-policy-api
+- description: The ai-product-lab API from Pomo — 9 operation(s) for ai-product-lab.
+  name: Pomo AI Product Lab API
+  slug: pomo-ai-product-lab-api
+- description: The ai-testing API from Pomo — 15 operation(s) for ai-testing.
+  name: Pomo AI Testing API
+  slug: pomo-ai-testing-api
+- description: The analytics API from Pomo — 2 operation(s) for analytics.
+  name: Pomo Analytics API
+  slug: pomo-analytics-api
+- description: The auth API from Pomo — 12 operation(s) for auth.
+  name: Pomo Auth API
+  slug: pomo-auth-api
+- description: The brand-workflow API from Pomo — 29 operation(s) for brand-workflow.
+  name: Pomo Brand Workflow API
+  slug: pomo-brand-workflow-api
+- description: The brand-workflow-sse API from Pomo — 5 operation(s) for brand-workflow-sse.
+  name: Pomo Brand Workflow Sse API
+  slug: pomo-brand-workflow-sse-api
+- description: The Budget Estimate API from Pomo — 1 operation(s) for budget estimate.
+  name: Pomo Budget Estimate API
+  slug: pomo-budget-estimate-api
+- description: The campaign-analytics API from Pomo — 4 operation(s) for campaign-analytics.
+  name: Pomo Campaign Analytics API
+  slug: pomo-campaign-analytics-api
+- description: The Campaign Geo API from Pomo — 2 operation(s) for campaign geo.
+  name: Pomo Campaign Geo API
+  slug: pomo-campaign-geo-api
+- description: The campaign-ideas API from Pomo — 2 operation(s) for campaign-ideas.
+  name: Pomo Campaign Ideas API
+  slug: pomo-campaign-ideas-api
+- description: The Campaign Images API from Pomo — 5 operation(s) for campaign images.
+  name: Pomo Campaign Images API
+  slug: pomo-campaign-images-api
+- description: The campaigns API from Pomo — 116 operation(s) for campaigns.
+  name: Pomo Campaigns API
+  slug: pomo-campaigns-api
+- description: The change-management API from Pomo — 10 operation(s) for change-management.
+  name: Pomo Change Management API
+  slug: pomo-change-management-api
+- description: The chat API from Pomo — 5 operation(s) for chat.
+  name: Pomo Chat API
+  slug: pomo-chat-api
+- description: The company-profile-access API from Pomo — 3 operation(s) for company-profile-access.
+  name: Pomo Company Profile Access API
+  slug: pomo-company-profile-access-api
+- description: The company-profile API from Pomo — 17 operation(s) for company-profile.
+  name: Pomo Company Profile API
+  slug: pomo-company-profile-api
+- description: The competitive-gap-analysis API from Pomo — 8 operation(s) for competitive-gap-analysis.
+  name: Pomo Competitive Gap Analysis API
+  slug: pomo-competitive-gap-analysis-api
+- description: The competitor-ad-insights API from Pomo — 3 operation(s) for competitor-ad-insights.
+  name: Pomo Competitor Ad Insights API
+  slug: pomo-competitor-ad-insights-api
+- description: The competitor-tracking API from Pomo — 23 operation(s) for competitor-tracking.
+  name: Pomo Competitor Tracking API
+  slug: pomo-competitor-tracking-api
+- description: The consumer-group API from Pomo — 6 operation(s) for consumer-group.
+  name: Pomo Consumer Group API
+  slug: pomo-consumer-group-api
+- description: The contact-submissions API from Pomo — 2 operation(s) for contact-submissions.
+  name: Pomo Contact Submissions API
+  slug: pomo-contact-submissions-api
+- description: The content-editing API from Pomo — 3 operation(s) for content-editing.
+  name: Pomo Content Editing API
+  slug: pomo-content-editing-api
+- description: The credits API from Pomo — 7 operation(s) for credits.
+  name: Pomo Credits API
+  slug: pomo-credits-api
+- description: The crm API from Pomo — 5 operation(s) for crm.
+  name: Pomo CRM API
+  slug: pomo-crm-api
+- description: The crm-b2b-leads API from Pomo — 7 operation(s) for crm-b2b-leads.
+  name: Pomo CRM B2b Leads API
+  slug: pomo-crm-b2b-leads-api
+- description: The crm-people API from Pomo — 6 operation(s) for crm-people.
+  name: Pomo CRM People API
+  slug: pomo-crm-people-api
+- description: The Dayparting API from Pomo — 6 operation(s) for dayparting.
+  name: Pomo Dayparting API
+  slug: pomo-dayparting-api
+- description: The debug API from Pomo — 1 operation(s) for debug.
+  name: Pomo Debug API
+  slug: pomo-debug-api
+- description: The document-jobs API from Pomo — 4 operation(s) for document-jobs.
+  name: Pomo Document Jobs API
+  slug: pomo-document-jobs-api
+- description: The earned-media API from Pomo — 17 operation(s) for earned-media.
+  name: Pomo Earned Media API
+  slug: pomo-earned-media-api
+- description: The Email Campaigns API from Pomo — 14 operation(s) for email campaigns.
+  name: Pomo Email Campaigns API
+  slug: pomo-email-campaigns-api
+- description: The Email Campaigns V2 API from Pomo — 8 operation(s) for email campaigns v2.
+  name: Pomo Email Campaigns V2 API
+  slug: pomo-email-campaigns-v2-api
+- description: The experiment-packages API from Pomo — 5 operation(s) for experiment-packages.
+  name: Pomo Experiment Packages API
+  slug: pomo-experiment-packages-api
+- description: The external-platform API from Pomo — 175 operation(s) for external-platform.
+  name: Pomo External Platform API
+  slug: pomo-external-platform-api
+- description: The feedback API from Pomo — 4 operation(s) for feedback.
+  name: Pomo Feedback API
+  slug: pomo-feedback-api
+- description: The feeling-lucky API from Pomo — 1 operation(s) for feeling-lucky.
+  name: Pomo Feeling Lucky API
+  slug: pomo-feeling-lucky-api
+- description: The first-party-data API from Pomo — 9 operation(s) for first-party-data.
+  name: Pomo First Party Data API
+  slug: pomo-first-party-data-api
+- description: The gallery API from Pomo — 12 operation(s) for gallery.
+  name: Pomo Gallery API
+  slug: pomo-gallery-api
+- description: The gallery-media API from Pomo — 1 operation(s) for gallery-media.
+  name: Pomo Gallery Media API
+  slug: pomo-gallery-media-api
+- description: The google_display_campaigns API from Pomo — 6 operation(s) for google_display_campaigns.
+  name: Pomo Google Display Campaigns API
+  slug: pomo-google-display-campaigns-api
+- description: The google_search_campaigns API from Pomo — 4 operation(s) for google_search_campaigns.
+  name: Pomo Google Search Campaigns API
+  slug: pomo-google-search-campaigns-api
+- description: The Google Video Ads API from Pomo — 6 operation(s) for google video ads.
+  name: Pomo Google Video Ads API
+  slug: pomo-google-video-ads-api
+- description: The GPT Backend API API from Pomo — 1 operation(s) for gpt backend api.
+  name: Pomo GPT Backend API
+  slug: pomo-gpt-backend-api-api
+- description: The guided-workflow API from Pomo — 10 operation(s) for guided-workflow.
+  name: Pomo Guided Workflow API
+  slug: pomo-guided-workflow-api
+- description: The Health API from Pomo — 8 operation(s) for health.
+  name: Pomo Health API
+  slug: pomo-health-api
+- description: The image-operations API from Pomo — 2 operation(s) for image-operations.
+  name: Pomo Image Operations API
+  slug: pomo-image-operations-api
+- description: The images API from Pomo — 2 operation(s) for images.
+  name: Pomo Images API
+  slug: pomo-images-api
+- description: The influencer-campaigns API from Pomo — 14 operation(s) for influencer-campaigns.
+  name: Pomo Influencer Campaigns API
+  slug: pomo-influencer-campaigns-api
+- description: The influencer-discovery API from Pomo — 35 operation(s) for influencer-discovery.
+  name: Pomo Influencer Discovery API
+  slug: pomo-influencer-discovery-api
+- description: The influencer-inventory API from Pomo — 8 operation(s) for influencer-inventory.
+  name: Pomo Influencer Inventory API
+  slug: pomo-influencer-inventory-api
+- description: The legal API from Pomo — 1 operation(s) for legal.
+  name: Pomo Legal API
+  slug: pomo-legal-api
+- description: The limits API from Pomo — 1 operation(s) for limits.
+  name: Pomo Limits API
+  slug: pomo-limits-api
+- description: The linkedin_image_campaigns API from Pomo — 4 operation(s) for linkedin_image_campaigns.
+  name: Pomo Linkedin Image Campaigns API
+  slug: pomo-linkedin-image-campaigns-api
+- description: The linkedin_video_campaigns API from Pomo — 4 operation(s) for linkedin_video_campaigns.
+  name: Pomo Linkedin Video Campaigns API
+  slug: pomo-linkedin-video-campaigns-api
+- description: The Llms.txt API from Pomo — 1 operation(s) for llms.txt.
+  name: Pomo Llms.txt API
+  slug: pomo-llms-txt-api
+- description: The market-intelligence API from Pomo — 27 operation(s) for market-intelligence.
+  name: Pomo Market Intelligence API
+  slug: pomo-market-intelligence-api
+- description: The marketing-docs API from Pomo — 5 operation(s) for marketing-docs.
+  name: Pomo Marketing Docs API
+  slug: pomo-marketing-docs-api
+- description: The marketing-wizard API from Pomo — 5 operation(s) for marketing-wizard.
+  name: Pomo Marketing Wizard API
+  slug: pomo-marketing-wizard-api
+- description: The mcp API from Pomo — 7 operation(s) for mcp.
+  name: Pomo MCP API
+  slug: pomo-mcp-api
+- description: The meta_feed_campaigns API from Pomo — 7 operation(s) for meta_feed_campaigns.
+  name: Pomo Meta Feed Campaigns API
+  slug: pomo-meta-feed-campaigns-api
+- description: The meta_stories_reels_campaigns API from Pomo — 5 operation(s) for meta_stories_reels_campaigns.
+  name: Pomo Meta Stories Reels Campaigns API
+  slug: pomo-meta-stories-reels-campaigns-api
+- description: The metrics API from Pomo — 1 operation(s) for metrics.
+  name: Pomo Metrics API
+  slug: pomo-metrics-api
+- description: The notifications API from Pomo — 7 operation(s) for notifications.
+  name: Pomo Notifications API
+  slug: pomo-notifications-api
+- description: The Online Ad Campaigns API from Pomo — 53 operation(s) for online ad campaigns.
+  name: Pomo Online Ad Campaigns API
+  slug: pomo-online-ad-campaigns-api
+- description: The organization API from Pomo — 19 operation(s) for organization.
+  name: Pomo Organization API
+  slug: pomo-organization-api
+- description: The overview API from Pomo — 1 operation(s) for overview.
+  name: Pomo Overview API
+  slug: pomo-overview-api
+- description: The payment API from Pomo — 21 operation(s) for payment.
+  name: Pomo Payment API
+  slug: pomo-payment-api
+- description: The pricing API from Pomo — 1 operation(s) for pricing.
+  name: Pomo Pricing API
+  slug: pomo-pricing-api
+- description: The Product Brainstorm API from Pomo — 4 operation(s) for product brainstorm.
+  name: Pomo Product Brainstorm API
+  slug: pomo-product-brainstorm-api
+- description: The Product Brainstorm Test API from Pomo — 5 operation(s) for product brainstorm test.
+  name: Pomo Product Brainstorm Test API
+  slug: pomo-product-brainstorm-test-api
+- description: The product-offerings API from Pomo — 21 operation(s) for product-offerings.
+  name: Pomo Product Offerings API
+  slug: pomo-product-offerings-api
+- description: The profile-content-editor API from Pomo — 3 operation(s) for profile-content-editor.
+  name: Pomo Profile Content Editor API
+  slug: pomo-profile-content-editor-api
+- description: The programmatic API from Pomo — 3 operation(s) for programmatic.
+  name: Pomo Programmatic API
+  slug: pomo-programmatic-api
+- description: The programmatic-keys API from Pomo — 3 operation(s) for programmatic-keys.
+  name: Pomo Programmatic Keys API
+  slug: pomo-programmatic-keys-api
+- description: The quickbooks API from Pomo — 7 operation(s) for quickbooks.
+  name: Pomo Quickbooks API
+  slug: pomo-quickbooks-api
+- description: The Robots.txt API from Pomo — 1 operation(s) for robots.txt.
+  name: Pomo Robots.txt API
+  slug: pomo-robots-txt-api
+- description: The SEO Analysis API from Pomo — 14 operation(s) for seo analysis.
+  name: Pomo SEO Analysis API
+  slug: pomo-seo-analysis-api
+- description: The Sitemap.xml API from Pomo — 1 operation(s) for sitemap.xml.
+  name: Pomo Sitemap.xml API
+  slug: pomo-sitemap-xml-api
+- description: The social-platform API from Pomo — 4 operation(s) for social-platform.
+  name: Pomo Social Platform API
+  slug: pomo-social-platform-api
+- description: The Social Post Campaigns API from Pomo — 21 operation(s) for social post campaigns.
+  name: Pomo Social Post Campaigns API
+  slug: pomo-social-post-campaigns-api
+- description: The social-posts API from Pomo — 7 operation(s) for social-posts.
+  name: Pomo Social Posts API
+  slug: pomo-social-posts-api
+- description: The Test Logging API from Pomo — 1 operation(s) for test logging.
+  name: Pomo Test Logging API
+  slug: pomo-test-logging-api
+- description: The TikTok Video Ads API from Pomo — 6 operation(s) for tiktok video ads.
+  name: Pomo TikTok Video Ads API
+  slug: pomo-tiktok-video-ads-api
+- description: The udm API from Pomo — 45 operation(s) for udm.
+  name: Pomo Udm API
+  slug: pomo-udm-api
+- description: The Unified Data Model API from Pomo — 45 operation(s) for unified data model.
+  name: Pomo Unified Data Model API
+  slug: pomo-unified-data-model-api
+- description: The url-shortener API from Pomo — 2 operation(s) for url-shortener.
+  name: Pomo URL Shortener API
+  slug: pomo-url-shortener-api
+- description: The usage API from Pomo — 2 operation(s) for usage.
+  name: Pomo Usage API
+  slug: pomo-usage-api
+- description: The user-activity API from Pomo — 4 operation(s) for user-activity.
+  name: Pomo User Activity API
+  slug: pomo-user-activity-api
+- description: The user-preferences API from Pomo — 3 operation(s) for user-preferences.
+  name: Pomo User Preferences API
+  slug: pomo-user-preferences-api
+- description: The users API from Pomo — 2 operation(s) for users.
+  name: Pomo Users API
+  slug: pomo-users-api
+artifact_total: 105
 asyncapis:
 - description: ''
   name: Pomo Event Surface
   slug: pomo-event-surface
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pomo-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pomo-openapi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -115,13 +420,13 @@ modified: '2026-08-13'
 name: Pomo
 nav: Providers
 network: true
-overview: 'Pomo publishes 1 API on the [APIs.io](https://apis.io/) network: Platform API. Tagged areas include Company, Marketing, Artificial Intelligence, Market Intelligence, and Competitive Intelligence.
+overview: 'Pomo publishes 100 APIs on the [APIs.io](https://apis.io/) network, including Ab Groups API, Agent Jobs API, Agentic Chat API, and 97 more. Tagged areas include Company, Marketing, Artificial Intelligence, Market Intelligence, and Competitive Intelligence.
 
 
   The Pomo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Pomo''s developer surface includes engineering blog, support, pricing, signup flow, and 11 more developer resources.'
+  Pomo''s developer surface includes engineering blog, support, pricing, signup flow, and 13 more developer resources.'
 plans:
 - name: Pomo Plans Pricing
   plan_count: 5
@@ -133,18 +438,23 @@ rate_limits:
   slug: pomo-rate-limits
 score:
   band: developing
-  composite: 49.2
-  delta: 8.1
+  composite: 48.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.3
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
-    contract_governance: 16.7
-    contract_quality: 57.5
+    contract_governance: 4.5
+    contract_quality: 62.3
     developer_ergonomics: 37.5
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 70.4
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 41.1
+  previous_composite: 47.1
   provenance:
     conformance: derived
     contracts:
@@ -154,9 +464,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pomo/refs/heads/main/screenshots/pomo-2026-08-17T081321.png
 security:
 - kind: authentication

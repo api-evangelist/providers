@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 10
 apis:
 - description: Solana wallet provider injected at window.phantom.solana exposing connect, disconnect, signMessage, signIn (Sign-In With Solana), signTransaction, signAllTransactions, and signAndSendTransaction. Impl
@@ -67,6 +67,14 @@ apis:
   slug: phantom-portal
 artifact_total: 12
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/phantom/phantom-connect-sdk/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/phantom/phantom-connect-sdk/releases
 - group: commercial
   title: ''
   type: License
@@ -109,27 +117,27 @@ common:
   url: https://github.com/phantom/phantom-connect-sdk
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/phantom/deep-link-demo-app
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/phantom/multi-chain-sandbox
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/phantom/sandbox
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/phantom/eth_sandbox
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/phantom/shortcuts-sandbox
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/phantom/deep-links-movie-tutorial
 - group: build
   title: ''
@@ -294,11 +302,16 @@ network: true
 overview: 'Phantom publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Base, Bitcoin, Blockchain, Crypto, and Cryptocurrency.
 
 
-  Phantom''s developer surface includes developer portal, documentation, signup flow, GitHub presence, tooling, changelog, engineering blog, and 47 more developer resources.'
+  Phantom''s developer surface includes developer portal, documentation, signup flow, GitHub presence, code examples, tooling, changelog, and 49 more developer resources.'
 random_paper: 3
 score:
   band: emerging
-  composite: 23.5
+  composite: 23.4
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 13.2
@@ -309,15 +322,18 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 23.5
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 23.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phantom/refs/heads/main/screenshots/phantom-2026-06-20T191634.png
 security:
@@ -336,7 +352,7 @@ tags:
 - Blockchain
 - Crypto
 - Cryptocurrency
-- Deep Links
+- Deeplinks
 - Embedded Wallet
 - Ethereum
 - EVM

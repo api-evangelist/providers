@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: semantha's standardized RESTful web service for semantic processing of text documents and structured data extraction. Resources are organized under /api (info, domains/{domain}/referencedocuments, set
@@ -41,6 +41,10 @@ apis:
   slug: semantha-rest-api
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/aleph-alpha/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -128,11 +132,16 @@ network: true
 overview: 'Thingsthinking publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semantic AI, Natural Language Processing, Document Analysis, and Enterprise Search.
 
 
-  Thingsthinking''s developer surface includes documentation, engineering blog, support, signup flow, authentication, changelog, and 13 more developer resources.'
+  Thingsthinking''s developer surface includes documentation, engineering blog, support, signup flow, authentication, changelog, and 14 more developer resources.'
 random_paper: 1
 score:
   band: thin
   composite: 29.3
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 42.1
@@ -146,8 +155,8 @@ score:
   previous_composite: 29.3
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

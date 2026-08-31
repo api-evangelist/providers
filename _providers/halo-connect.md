@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -31,18 +31,24 @@ agentic_access:
   operation_count: 29
   slug: halo-connect-agentic-access
   summary_line: 29 operations · 14 acting
-api_count: 3
+api_count: 2
 apis:
-- description: The Halo Cloud API for third-party software integrators to query on-premise practice management system databases over the cloud, covering site pairing, SQL passthrough (immediate and async queries), F
-  name: Halo Cloud API for Integrators
-  slug: halo-cloud-integrator-api
-- description: The Halo Cloud API for desktop applications, exposing a token endpoint plus SQL passthrough, FHIR R4 resource search, and registered-query operations under the /desktop path. Authenticated with an Azu
-  name: Halo Cloud API for Desktop Applications
-  slug: halo-cloud-desktop-api
-- description: Halo Connect's FHIR API for accessing primary-care data from on-premise practice management systems, based on FHIR Release 4 (R4) version 4.0.1 and built toward the AU Base 4.1.0 implementation guide.
-  name: Halo Cloud FHIR API
-  slug: halo-cloud-fhir-api
-artifact_total: 12
+- description: Query practice data using FHIR resources.
+  name: Halo Connect FHIR API
+  slug: halo-connect-fhir-api
+- description: The Registered Queries API from Halo Connect — 6 operation(s) for registered queries.
+  name: Halo Connect Registered Queries API
+  slug: halo-connect-registered-queries-api
+- description: Endpoints for practice onboarding and site metadata.
+  name: Halo Connect Sites API
+  slug: halo-connect-sites-api
+- description: Send SQL queries to practices as immediate, async or registered queries. **Immediate queries** are small, time-sensitive queries that return a result in seconds. Response size is limited to 8MB. **Asy
+  name: Halo Connect SQL Passthrough API
+  slug: halo-connect-sql-passthrough-api
+- description: Obtain authorization tokens for desktop applications to authenticate API requests.
+  name: Halo Connect Tokens API
+  slug: halo-connect-tokens-api
+artifact_total: 14
 asyncapis:
 - description: Halo Cloud delivers HTTPS POST webhook notifications when an async or a registered query completes. The payload does NOT include the query result; the integrator retrieves results via the REST API usi
   name: Halo Connect Webhooks
@@ -55,6 +61,10 @@ collections:
   name: Halo Cloud API for Integrators
   slug: open-halo-connect-integrator
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/halo-connect-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -199,28 +209,33 @@ modified: '2026-07-24'
 name: Halo Connect
 nav: Providers
 network: true
-overview: 'Halo Connect publishes 3 APIs on the [APIs.io](https://apis.io/) network: Halo Cloud API for Integrators, Halo Cloud API for Desktop Applications, and Halo Cloud FHIR API. Tagged areas include Healthcare, Australia, FHIR, HL7, and Interoperability.
+overview: 'Halo Connect publishes 5 APIs on the [APIs.io](https://apis.io/) network, including FHIR API, Registered Queries API, Sites API, and 2 more. Tagged areas include Healthcare, Australia, FHIR, HL7, and Interoperability.
 
 
   The Halo Connect catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Halo Connect''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, changelog, sandbox, and 26 more developer resources.'
+  Halo Connect''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, changelog, sandbox, and 27 more developer resources.'
 random_paper: 14
 score:
   band: strong
-  composite: 59.7
-  delta: 0.0
+  composite: 56.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 30.3
-    contract_quality: 68.0
+    contract_governance: 18.2
+    contract_quality: 64.8
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 59.7
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -237,8 +252,8 @@ score:
     regime: Health
     regime_id: health
     score: 51.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/screenshots/halo-connect-2026-07-25T220547.png
 security:

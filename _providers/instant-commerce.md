@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Hosted, remote Model Context Protocol server that lets external AI clients — Claude Desktop, Cursor and other MCP clients — work with an Instant project. Documented tools list, create, edit, publish a
@@ -194,7 +194,7 @@ modified: '2026-08-13'
 name: Instant Commerce
 nav: Providers
 network: true
-overview: 'Instant Commerce publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, E-Commerce, Shopify, and No-Code.
+overview: 'Instant Commerce publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, E-Commerce, Shopify, and No Code.
 
 
   Instant Commerce''s developer surface includes documentation, pricing, signup flow, engineering blog, support, changelog, getting-started guide, and 27 more developer resources.'
@@ -209,7 +209,12 @@ rate_limits:
   slug: instant-commerce-rate-limits
 score:
   band: developing
-  composite: 45.9
+  composite: 44.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 76.3
@@ -217,15 +222,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 71.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 45.9
+  previous_composite: 44.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instant-commerce/refs/heads/main/screenshots/instant-commerce-2026-07-25T222609.png
 security:
@@ -243,13 +248,13 @@ tags:
 - Ai Enterprise Software
 - E-Commerce
 - Shopify
-- No-Code
+- No Code
 - Page Builder
 - Artificial Intelligence
 - AI Agents
 - Conversion Rate Optimization
 - Developer Tools
 - MCP
-- agent-native
+- Agent Native
 website: https://instant.so/
 ---

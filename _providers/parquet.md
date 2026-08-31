@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
 - description: The core specification for the Parquet columnar storage format.
@@ -56,6 +56,22 @@ apis:
   slug: fastparquet
 artifact_total: 11
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/parquet-format/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/apache/parquet-format/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/parquet-format/blob/master/CONTRIBUTING.md
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -95,7 +111,7 @@ network: true
 overview: 'Apache Parquet publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Big Data, Columnar Storage, Data Format, and Parquet.
 
 
-  Apache Parquet''s developer surface includes engineering blog and 5 more developer resources.'
+  Apache Parquet''s developer surface includes engineering blog and 9 more developer resources.'
 plans:
 - name: Parquet Plans Pricing
   plan_count: 3
@@ -107,8 +123,13 @@ rate_limits:
   slug: parquet-rate-limits
 score:
   band: emerging
-  composite: 16.1
-  delta: 4.0
+  composite: 22.8
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -117,10 +138,13 @@ score:
     developer_ergonomics: 19.0
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 13.2
-  previous_composite: 12.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 22.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parquet/refs/heads/main/screenshots/parquet-2026-06-20T191417.png
 security:

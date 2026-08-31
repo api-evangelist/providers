@@ -19,7 +19,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.3
-  scored_at: '2026-08-26'
+  score: 24.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 126
   slug: greenhouse-io-agentic-access
   summary_line: 126 operations · 66 acting
-api_count: 27
+api_count: 6
 apis:
 - description: Event-driven webhooks from Greenhouse Recruiting. Greenhouse POSTs JSON to your HTTPS endpoint on each event; payloads carry a Greenhouse-Event-ID header for idempotency and HMAC SHA-256 signature ver
   name: Greenhouse Recruiting Webhooks
@@ -493,7 +493,7 @@ modified: '2026-05-25'
 name: Greenhouse
 nav: Providers
 network: true
-overview: 'Greenhouse publishes 25 APIs on the [APIs.io](https://apis.io/) network, including ActivityFeed API, Applications API, Approvals API, and 22 more. Tagged areas include ATS, Recruiting, Hiring, Talent Acquisition, and Enterprise Saas.
+overview: 'Greenhouse publishes 25 APIs on the [APIs.io](https://apis.io/) network, including ActivityFeed API, Applications API, Approvals API, and 22 more. Tagged areas include ATS, Recruiting, Hiring, Talent Acquisition, and Enterprise SaaS.
 
 
   The Greenhouse catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -528,12 +528,17 @@ scopes:
 score:
   band: developing
   composite: 50.7
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 9.8
-    contract_quality: 65.6
+    contract_quality: 65.7
     developer_ergonomics: 38.1
     discoverability: 50.0
     governance: 9.8
@@ -546,8 +551,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenhouse-io/refs/heads/main/screenshots/greenhouse-io-2026-06-20T182402.png
 security:
@@ -573,7 +578,7 @@ tags:
 - Recruiting
 - Hiring
 - Talent Acquisition
-- Enterprise Saas
+- Enterprise SaaS
 - Human Resources
 - Onboarding
 website: https://www.greenhouse.com

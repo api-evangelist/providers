@@ -23,15 +23,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
-- description: The current Opendatasoft Explore REST API v2.1 scoped to the SP Electricity North West open data domain. Read-only (GET only, JSON), 16 documented paths covering catalogue search over the 146 publishe
-  name: SP Electricity North West Open Data Explore API v2.1
-  slug: explore-api-v2-1
-- description: The previous-generation Opendatasoft Explore REST API v2.0, still served on the SP Electricity North West domain alongside v2.1. Same 16-path read-only shape — catalogue, dataset metadata, records, fa
-  name: SP Electricity North West Open Data Explore API v2.0
-  slug: explore-api-v2-0
+- description: API to enumerate datasets
+  name: Electricity North West Catalog API
+  slug: electricity-north-west-catalog-api
+- description: API to work on records
+  name: Electricity North West Dataset API
+  slug: electricity-north-west-dataset-api
 artifact_total: 16
 collections:
 - collection_type: open
@@ -41,6 +41,14 @@ collections:
   name: Explore API
   slug: open-electricity-north-west-explore-api-v2-1
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/electricity-north-west-explore-api-v2-1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/electricity-north-west-explore-api-v2-0-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -250,10 +258,10 @@ modified: '2026-07-27'
 name: Electricity North West
 nav: Providers
 network: true
-overview: 'Electricity North West publishes 2 APIs on the [APIs.io](https://apis.io/) network: SP Electricity North West Open Data Explore API v2.1 and SP Electricity North West Open Data Explore API v2.0. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Grid.
+overview: 'Electricity North West publishes 2 APIs on the [APIs.io](https://apis.io/) network: Catalog API and Dataset API. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Grid.
 
 
-  Electricity North West''s developer surface includes developer portal, documentation, API reference, getting-started guide, sandbox, developer console, signup flow, and 37 more developer resources.'
+  Electricity North West''s developer surface includes developer portal, documentation, API reference, getting-started guide, sandbox, developer console, signup flow, and 39 more developer resources.'
 random_paper: 13
 rate_limits:
 - limit_count: 3
@@ -266,18 +274,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 63.3
+  composite: 61.5
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 56.5
     developer_ergonomics: 73.2
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 84.2
-  previous_composite: 63.3
+  previous_composite: 61.5
   provenance:
     conformance: derived
     mcp: derived
@@ -288,8 +301,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electricity-north-west/refs/heads/main/screenshots/electricity-north-west-2026-08-07T164817.png
 security:

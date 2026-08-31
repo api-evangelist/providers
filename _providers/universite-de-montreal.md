@@ -1,25 +1,25 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Free · open · no registration
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - probed
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: true
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
@@ -32,265 +32,110 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.7
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 262
-  human_in_the_loop: 7
-  name: Universite De Montreal Agentic Access
-  operation_count: 548
-  slug: universite-de-montreal-agentic-access
-  summary_line: 548 operations · 262 acting · 7 human-in-the-loop
-api_count: 38
+  score: 20.5
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: 'REST API from the Service d''accès aux données de la Vitrine-Recherche, redistributing UdeM research data. Provides five JSON services: resource value exposure (faculties, departments, functions, progr'
+- description: 'Université de Montréal''s own read-only research API, and the one genuinely institution-engineered contract in this profile. Five services: reference-value exposure (faculties, departments, administrat'
   name: SADVR REST API (Vitrine-Recherche)
   slug: sadvr
-- description: OAI-PMH 2.0 metadata harvesting endpoint for Papyrus, the UdeM institutional repository (a DSpace/Scholaris platform). Exposes open-access theses, dissertations, and scholarly output metadata for harv
-  name: Papyrus OAI-PMH Endpoint
+- description: 'Université de Montréal''s campus single sign-on, published as machine-readable SAML 2.0 entity metadata. The document declares an IDPSSODescriptor supporting SAML 2.0, SAML 1.1 and the legacy urn:mace:'
+  name: UdeM Shibboleth Identity Provider (SAML metadata)
+  slug: shibboleth-idp
+- description: OAI-PMH 2.0 harvesting interface for PAPYRUS, Université de Montréal's institutional repository of open-access theses, dissertations and scholarly output. Identify returns repositoryName "PAPYRUS - Dé
+  name: PAPYRUS OAI-PMH Endpoint (institutional repository)
   slug: papyrus-oai
-- description: The Access API from Université de Montréal — 23 operation(s) for access.
-  name: Université de Montréal Access API
-  slug: universite-de-montreal-access-api
-- description: Uploads a set of files to a dataset
-  name: Université de Montréal addFilesToDataset API
-  slug: universite-de-montreal-addfilestodataset-api
-- description: Uploads a file for a dataset
-  name: Université de Montréal addFileToDataset API
-  slug: universite-de-montreal-addfiletodataset-api
-- description: Uploads a Globus file for a dataset
-  name: Université de Montréal addGlobusFilesToDataset API
-  slug: universite-de-montreal-addglobusfilestodataset-api
-- description: The Admin API from Université de Montréal — 131 operation(s) for admin.
-  name: Université de Montréal Admin API
-  slug: universite-de-montreal-admin-api
-- description: The Batch API from Université de Montréal — 3 operation(s) for batch.
-  name: Université de Montréal Batch API
-  slug: universite-de-montreal-batch-api
-- description: The Builtin Users API from Université de Montréal — 4 operation(s) for builtin users.
-  name: Université de Montréal Builtin Users API
-  slug: universite-de-montreal-builtin-users-api
-- description: The Datasetfields API from Université de Montréal — 1 operation(s) for datasetfields.
-  name: Université de Montréal Datasetfields API
-  slug: universite-de-montreal-datasetfields-api
-- description: The Datasets API from Université de Montréal — 94 operation(s) for datasets.
-  name: Université de Montréal Datasets API
-  slug: universite-de-montreal-datasets-api
-- description: The Datatags API from Université de Montréal — 1 operation(s) for datatags.
-  name: Université de Montréal Datatags API
-  slug: universite-de-montreal-datatags-api
-- description: The DataverseFeaturedItems API from Université de Montréal — 1 operation(s) for dataversefeatureditems.
-  name: Université de Montréal DataverseFeaturedItems API
-  slug: universite-de-montreal-dataversefeatureditems-api
-- description: The Dataverses API from Université de Montréal — 40 operation(s) for dataverses.
-  name: Université de Montréal Dataverses API
-  slug: universite-de-montreal-dataverses-api
-- description: The Edit API from Université de Montréal — 1 operation(s) for edit.
-  name: Université de Montréal Edit API
-  slug: universite-de-montreal-edit-api
-- description: The ExternalTools API from Université de Montréal — 2 operation(s) for externaltools.
-  name: Université de Montréal ExternalTools API
-  slug: universite-de-montreal-externaltools-api
-- description: The Files API from Université de Montréal — 21 operation(s) for files.
-  name: Université de Montréal Files API
-  slug: universite-de-montreal-files-api
-- description: The Harvest API from Université de Montréal — 7 operation(s) for harvest.
-  name: Université de Montréal Harvest API
-  slug: universite-de-montreal-harvest-api
-- description: The Inbox API from Université de Montréal — 1 operation(s) for inbox.
-  name: Université de Montréal Inbox API
-  slug: universite-de-montreal-inbox-api
-- description: The Info API from Université de Montréal — 51 operation(s) for info.
-  name: Université de Montréal Info API
-  slug: universite-de-montreal-info-api
-- description: The Ingest API from Université de Montréal — 1 operation(s) for ingest.
-  name: Université de Montréal Ingest API
-  slug: universite-de-montreal-ingest-api
-- description: The Licenses API from Université de Montréal — 6 operation(s) for licenses.
-  name: Université de Montréal Licenses API
-  slug: universite-de-montreal-licenses-api
-- description: The Localcontexts API from Université de Montréal — 2 operation(s) for localcontexts.
-  name: Université de Montréal Localcontexts API
-  slug: universite-de-montreal-localcontexts-api
-- description: The Logout API from Université de Montréal — 1 operation(s) for logout.
-  name: Université de Montréal Logout API
-  slug: universite-de-montreal-logout-api
-- description: The Mail API from Université de Montréal — 1 operation(s) for mail.
-  name: Université de Montréal Mail API
-  slug: universite-de-montreal-mail-api
-- description: The Meta API from Université de Montréal — 2 operation(s) for meta.
-  name: Université de Montréal Meta API
-  slug: universite-de-montreal-meta-api
-- description: The Metadatablocks API from Université de Montréal — 2 operation(s) for metadatablocks.
-  name: Université de Montréal Metadatablocks API
-  slug: universite-de-montreal-metadatablocks-api
-- description: The Mydata API from Université de Montréal — 2 operation(s) for mydata.
-  name: Université de Montréal Mydata API
-  slug: universite-de-montreal-mydata-api
-- description: The Notifications API from Université de Montréal — 8 operation(s) for notifications.
-  name: Université de Montréal Notifications API
-  slug: universite-de-montreal-notifications-api
-- description: The Pids API from Université de Montréal — 6 operation(s) for pids.
-  name: Université de Montréal Pids API
-  slug: universite-de-montreal-pids-api
-- description: Replace a file to a dataset
-  name: Université de Montréal replaceFilesInDataset API
-  slug: universite-de-montreal-replacefilesindataset-api
-- description: The Roles API from Université de Montréal — 3 operation(s) for roles.
-  name: Université de Montréal Roles API
-  slug: universite-de-montreal-roles-api
-- description: Save Auxiliary File With Version
-  name: Université de Montréal saveAuxiliaryFileWithVersion API
-  slug: universite-de-montreal-saveauxiliaryfilewithversion-api
-- description: The Search API from Université de Montréal — 2 operation(s) for search.
-  name: Université de Montréal Search API
-  slug: universite-de-montreal-search-api
-- description: The Sendfeedback API from Université de Montréal — 1 operation(s) for sendfeedback.
-  name: Université de Montréal Sendfeedback API
-  slug: universite-de-montreal-sendfeedback-api
-- description: Uploads a logo for a dataset
-  name: Université de Montréal uploadDatasetLogo API
-  slug: universite-de-montreal-uploaddatasetlogo-api
-- description: The Users API from Université de Montréal — 10 operation(s) for users.
-  name: Université de Montréal Users API
-  slug: universite-de-montreal-users-api
-- description: The Workflows API from Université de Montréal — 1 operation(s) for workflows.
-  name: Université de Montréal Workflows API
-  slug: universite-de-montreal-workflows-api
-artifact_total: 90
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Dataverse Access API
-  slug: open-universite-de-montreal-access-api
-- collection_type: open
-  name: Dataverse Access addFilesToDataset API
-  slug: open-universite-de-montreal-addfilestodataset-api
-- collection_type: open
-  name: Dataverse Access addFileToDataset API
-  slug: open-universite-de-montreal-addfiletodataset-api
-- collection_type: open
-  name: Dataverse Access addGlobusFilesToDataset API
-  slug: open-universite-de-montreal-addglobusfilestodataset-api
-- collection_type: open
-  name: Dataverse Access Admin API
-  slug: open-universite-de-montreal-admin-api
-- collection_type: open
-  name: Dataverse Access Batch API
-  slug: open-universite-de-montreal-batch-api
-- collection_type: open
-  name: Dataverse Access Builtin Users API
-  slug: open-universite-de-montreal-builtin-users-api
-- collection_type: open
-  name: Dataverse Access Datasetfields API
-  slug: open-universite-de-montreal-datasetfields-api
-- collection_type: open
-  name: Dataverse Access Datasets API
-  slug: open-universite-de-montreal-datasets-api
-- collection_type: open
-  name: Dataverse Access Datatags API
-  slug: open-universite-de-montreal-datatags-api
-- collection_type: open
-  name: Dataverse Access DataverseFeaturedItems API
-  slug: open-universite-de-montreal-dataversefeatureditems-api
-- collection_type: open
-  name: Dataverse Access Dataverses API
-  slug: open-universite-de-montreal-dataverses-api
-- collection_type: open
-  name: Dataverse Access Edit API
-  slug: open-universite-de-montreal-edit-api
-- collection_type: open
-  name: Dataverse Access ExternalTools API
-  slug: open-universite-de-montreal-externaltools-api
-- collection_type: open
-  name: Dataverse Access Files API
-  slug: open-universite-de-montreal-files-api
-- collection_type: open
-  name: Dataverse Access Harvest API
-  slug: open-universite-de-montreal-harvest-api
-- collection_type: open
-  name: Dataverse Access Inbox API
-  slug: open-universite-de-montreal-inbox-api
-- collection_type: open
-  name: Dataverse Access Info API
-  slug: open-universite-de-montreal-info-api
-- collection_type: open
-  name: Dataverse Access Ingest API
-  slug: open-universite-de-montreal-ingest-api
-- collection_type: open
-  name: Dataverse Access Licenses API
-  slug: open-universite-de-montreal-licenses-api
-- collection_type: open
-  name: Dataverse Access Localcontexts API
-  slug: open-universite-de-montreal-localcontexts-api
-- collection_type: open
-  name: Dataverse Access Logout API
-  slug: open-universite-de-montreal-logout-api
-- collection_type: open
-  name: Dataverse Access Mail API
-  slug: open-universite-de-montreal-mail-api
-- collection_type: open
-  name: Dataverse Access Meta API
-  slug: open-universite-de-montreal-meta-api
-- collection_type: open
-  name: Dataverse Access Metadatablocks API
-  slug: open-universite-de-montreal-metadatablocks-api
-- collection_type: open
-  name: Dataverse Access Mydata API
-  slug: open-universite-de-montreal-mydata-api
-- collection_type: open
-  name: Dataverse Access Notifications API
-  slug: open-universite-de-montreal-notifications-api
-- collection_type: open
-  name: Dataverse Access Pids API
-  slug: open-universite-de-montreal-pids-api
-- collection_type: open
-  name: Dataverse Access replaceFilesInDataset API
-  slug: open-universite-de-montreal-replacefilesindataset-api
-- collection_type: open
-  name: Dataverse Access Roles API
-  slug: open-universite-de-montreal-roles-api
-- collection_type: open
-  name: Dataverse Access saveAuxiliaryFileWithVersion API
-  slug: open-universite-de-montreal-saveauxiliaryfilewithversion-api
-- collection_type: open
-  name: Dataverse Access Search API
-  slug: open-universite-de-montreal-search-api
-- collection_type: open
-  name: Dataverse Access Sendfeedback API
-  slug: open-universite-de-montreal-sendfeedback-api
-- collection_type: open
-  name: Dataverse Access uploadDatasetLogo API
-  slug: open-universite-de-montreal-uploaddatasetlogo-api
-- collection_type: open
-  name: Dataverse Access Users API
-  slug: open-universite-de-montreal-users-api
-- collection_type: open
-  name: Dataverse Access Workflows API
-  slug: open-universite-de-montreal-workflows-api
+- description: 'The DSpace 8 REST API behind PAPYRUS, answering anonymously at the HAL root and advertising the repository''s entry points as application/hal+json. Reads are open; deposit and restricted items require '
+  name: PAPYRUS DSpace REST API (HAL)
+  slug: papyrus-dspace-rest
+- description: Université de Montréal's research-data collection inside Borealis, the Canadian national Dataverse. 452 UdeM datasets, each carrying a DataCite DOI under the 10.5683 prefix, plus 20-odd sub-collection
+  name: Borealis Dataverse — Université de Montréal collection
+  slug: borealis-dataverse
+- description: Library discovery for the Université de Montréal libraries, delivered on OCLC WorldCat Discovery. Recorded as the institution's library-catalogue surface and explicitly as a tenancy. OCLC's WorldCat S
+  name: WorldCat Discovery — Université de Montréal
+  slug: worldcat-discovery
+artifact_total: 20
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/universite-de-montreal-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/universite-de-montreal-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://www.umontreal.ca/en/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://wiki.umontreal.ca/spaces/DOC/pages/294781211/API+REST+%E2%80%93+Description+technique
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://wiki.umontreal.ca/spaces/DOC/overview
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://shibboleth.umontreal.ca/idp/shibboleth
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://umontreal.scholaris.ca/
+- group: other
+  title: ''
+  type: ResearchData
+  url: https://borealisdata.ca/dataverse/montreal
 - group: build
   title: ''
-  type: GitHub
+  type: LibraryCatalog
+  url: https://umontreal.on.worldcat.org/discovery
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://admission.umontreal.ca/repertoire-des-cours/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.umontreal.ca/intelligenceartificielle/
+- group: build
+  title: ''
+  type: GitHubOrganization
   url: https://github.com/bibudem
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://vie-privee.umontreal.ca/conditions-dutilisation/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://vie-privee.umontreal.ca/confidentialite/
+- group: company
+  title: ''
+  type: Blog
+  url: https://nouvelles.umontreal.ca/
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/universite-de-montreal/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/universite-de-montreal-authentication.yml
+- group: auth
+  title: ''
+  type: Scopes
+  url: scopes/universite-de-montreal-scopes.yml
+- group: design
+  title: ''
+  type: Errors
+  url: errors/universite-de-montreal-errors.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/universite-de-montreal-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/universite-de-montreal-lifecycle.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/universite-de-montreal-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -308,53 +153,50 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'Université de Montréal (UdeM) is a leading French-language public research university in Montréal, Québec, Canada, ranked #95 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is modest and research/library oriented rather than a centralized developer portal: the SADVR REST API (Service d''accès aux données de la Vitrine-Recherche) exposes research expertise and unit data, the Papyrus institutional repository offers a live OAI-PMH metadata endpoint, and UdeM participates in the Borealis Canadian Dataverse for research data. There is no single unified, branded developer portal; integration surfaces are distributed across library and research infrastructure.'
+description: Université de Montréal (UdeM) is Québec's largest French-language public research university and, with its two affiliated schools, the second-largest research complex in Canada. Its programmable footprint is small, real, and almost entirely research-facing — and it is important to say plainly what UdeM does and does not operate, because this profile previously claimed 36 APIs it does not have. UdeM genuinely operates two machine-readable surfaces. The first is the SADVR REST API (Service d'accès aux données de la Vitrine-Recherche), built in-house by the Centre d'expertise numérique pour la recherche and serving UdeM's faculties, departments, job titles, programmes, disciplines, research-expertise keywords and its own persistent identifiers (idsadvr) for 3,516 indexed researchers and 429 research units — read-only, keyless, French-first, documented on the institution's own wiki, and confirmed live on 2026-08-30. The second is UdeM's Shibboleth Identity Provider, which publishes
+  SAML 2.0 entity metadata under the institution's own domain; it is institution-operated by definition and is the kind of surface this cohort systematically fails to catalogue. Everything else in UdeM's footprint is a tenancy. PAPYRUS, the institutional repository, moved to Scholaris, the CRKN-hosted national DSpace service, so its OAI-PMH and DSpace REST contracts are DSpace's. UdeM's research data lives in a collection on Borealis, the shared Canadian Dataverse operated by Scholars Portal, so that contract is Dataverse's. Library discovery runs on OCLC WorldCat, and the LMS is Moodle. The data in all four is UdeM's; the engineering is not. There is no central developer portal, no self-service credential, no OAuth authorization server and no published status page. api.umontreal.ca resolves and answers, but returns HTTP 400 with an empty body on every anonymous path and is documented nowhere — an internal gateway, not a public API.
 examples:
-- key_count: 2
-  name: Universite De Montreal Get Dataverse Example
-  slug: universite-de-montreal-get-dataverse-example
-- key_count: 2
-  name: Universite De Montreal Info Version Example
-  slug: universite-de-montreal-info-version-example
+- key_count: 9
+  name: Universite De Montreal Sadvr Ressource Domaineetude Example
+  slug: universite-de-montreal-sadvr-ressource-domaineetude-example
+- key_count: 9
+  name: Universite De Montreal Sadvr Ressource Faculte Example
+  slug: universite-de-montreal-sadvr-ressource-faculte-example
+- key_count: 9
+  name: Universite De Montreal Sadvr Ressource Langue Example
+  slug: universite-de-montreal-sadvr-ressource-langue-example
+- key_count: 9
+  name: Universite De Montreal Sadvr Ressource Typeuniterech Example
+  slug: universite-de-montreal-sadvr-ressource-typeuniterech-example
 finops:
 - name: Universite De Montreal Finops
   service_category: Education
   slug: universite-de-montreal-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/universite-de-montreal.png
 json_schemas:
-- name: Borealis Dataverse DataFile
-  property_count: 9
-  slug: universite-de-montreal-datafile
-- name: Borealis Dataverse Dataset
-  property_count: 11
-  slug: universite-de-montreal-dataset
-- name: Borealis Dataverse Collection
+- name: SADVR Reference Resource Envelope
+  property_count: 1
+  slug: universite-de-montreal-sadvr-ressource
+- name: SADVR Research Unit (unité de recherche)
   property_count: 10
-  slug: universite-de-montreal-dataverse
-json_structures:
-- name: Universite De Montreal Dataset Structure
-  property_count: 11
-  slug: universite-de-montreal-dataset-structure
-- name: Universite De Montreal Dataverse Structure
-  property_count: 10
-  slug: universite-de-montreal-dataverse-structure
+  slug: universite-de-montreal-sadvr-uniterech
 jsonld:
-- class_count: 12
+- class_count: 15
   name: Universite De Montreal Context
-  property_count: 5
+  property_count: 23
   slug: universite-de-montreal-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Université de Montréal
 nav: Providers
 network: true
-overview: 'Université de Montréal publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Access API, addFilesToDataset API, addFileToDataset API, and 33 more. Tagged areas include Education, Higher Education, University, Research, and Open Data.
+overview: 'Université de Montréal publishes 1 API on the [APIs.io](https://apis.io/) network: SADVR REST API (Vitrine-Recherche). Tagged areas include University, Higher Education, Education, Canada, and Québec.
 
 
-  The Université de Montréal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Université de Montréal catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Université de Montréal''s developer surface includes GitHub presence and 8 more developer resources.'
+  Université de Montréal''s developer surface includes documentation, API reference, engineering blog, authentication, and 20 more developer resources.'
 plans:
 - name: Universite De Montreal Plans Pricing
   plan_count: 2
@@ -365,40 +207,40 @@ rate_limits:
   name: Universite De Montreal Rate Limits
   slug: universite-de-montreal-rate-limits
 rules:
-- effective_rule_count: 5
+- effective_rule_count: 15
   extends: []
   name: Université de Montréal API Rules
-  rule_count: 5
+  rule_count: 15
   severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 3
-  slug: universite-de-montreal-jsonschema-spectral-rules
-- effective_rule_count: 5
-  extends: []
-  name: Université de Montréal API Rules
-  rule_count: 5
-  severity_counts:
-    error: 2
+    error: 9
     hint: 0
     info: 0
-    warn: 3
-  slug: universite-de-montreal-rules
+    warn: 6
+  slug: universite-de-montreal-sadvr-rules
+scopes:
+- name: Universite De Montreal Scopes
+  scope_count: 0
+  slug: universite-de-montreal-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 29.1
-  delta: 3.2
+  band: developing
+  composite: 50.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 35.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 21.5
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 45.8
-    developer_ergonomics: 9.5
-    discoverability: 64.8
-    governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 25.9
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 22.7
+    contract_quality: 68.2
+    developer_ergonomics: 31.0
+    discoverability: 59.3
+    governance: 22.7
+    operational_transparency: 23.7
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -411,25 +253,39 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 64.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/screenshots/universite-de-montreal-2026-06-20T200115.png
 security:
+- kind: authentication
+  name: Universite De Montreal Authentication
+  slug: universite-de-montreal-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Universite De Montreal Domain Security
   slug: universite-de-montreal-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: universite-de-montreal
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
-- Library
+- Higher Education
+- Education
 - Canada
 - Québec
+- French Language
+- U15
+- Public Research University
+- Research
+- Research Data
+- Research Expertise
+- Identity Federation
+- Institutional Repository
+- Library
+- Open Access
+- OAI-PMH
+- Shibboleth
+- SAML
 website: https://www.umontreal.ca/en/
 ---

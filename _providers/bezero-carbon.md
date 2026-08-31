@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Projects API from BeZero Carbon — 1 operation(s) for projects.
   name: BeZero Carbon Projects API
@@ -192,18 +192,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 45.3
-  delta: 0.0
+  composite: 41.5
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.2
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 60.8
-    developer_ergonomics: 58.9
-    discoverability: 79.6
-    governance: 16.7
+    developer_ergonomics: 53.0
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 45.3
+  previous_composite: 42.7
   provenance:
     conformance: derived
     contracts:
@@ -213,8 +218,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bezero-carbon/refs/heads/main/screenshots/bezero-carbon-2026-08-07T162353.png
 security:

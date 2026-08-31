@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 9
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 84
   slug: amazon-comprehend-agentic-access
   summary_line: 84 operations · 84 acting · 9 human-in-the-loop
-api_count: 84
+api_count: 1
 apis:
 - description: 'The #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage API from Amazon Comprehend — 1 operation(s) for #x amz target=comprehend 20171127.batchdetectdominantlanguage.'
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage API'
@@ -553,6 +553,10 @@ collections:
   name: 'Amazon Comprehend #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.BatchDetectDominantLanguage #X Amz Target=Comprehend 20171127.UpdateFlywheel API'
   slug: open-amazon-comprehend-x-amz-target-comprehend-20171127-updateflywheel-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-comprehend-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -3951,7 +3955,7 @@ overview: 'Amazon Comprehend publishes 84 APIs on the [APIs.io](https://apis.io/
   The Amazon Comprehend catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Comprehend''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 22 more developer resources.'
+  Amazon Comprehend''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
 random_paper: 9
 rules:
 - effective_rule_count: 5
@@ -3977,18 +3981,23 @@ rules:
   slug: amazon-comprehend-spectral-rules
 score:
   band: developing
-  composite: 51.8
-  delta: 3.6
+  composite: 48.6
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 68.0
     developer_ergonomics: 52.4
-    discoverability: 59.3
-    governance: 45.5
+    discoverability: 42.6
+    governance: 33.3
     operational_transparency: 18.4
-  previous_composite: 48.2
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -3998,8 +4007,8 @@ score:
       marker_coverage: 0.0
       total: 84
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/screenshots/amazon-comprehend-2026-07-25T200001.png
 security:

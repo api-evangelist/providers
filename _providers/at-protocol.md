@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 20
   slug: at-protocol-agentic-access
   summary_line: 20 operations · 8 acting · 3 human-in-the-loop
-api_count: 12
+api_count: 1
 apis:
 - description: XRPC is the AT Protocol's HTTP-based remote procedure call layer. All protocol interactions — querying records, writing records, subscribing to streams, resolving identity, moderating content — are ex
   name: AT Protocol XRPC API
@@ -195,7 +195,7 @@ modified: '2026-05-29'
 name: AT Protocol
 nav: Providers
 network: true
-overview: 'AT Protocol publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Relay & Firehose, Actor API, Feed API, and 4 more. Tagged areas include At-Protocol, atproto, Bluesky, Federation, and Decentralized Social.
+overview: 'AT Protocol publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Relay & Firehose, Actor API, Feed API, and 4 more. Tagged areas include AT Protocol, atproto, Bluesky, Federation, and Decentralized Social.
 
 
   The AT Protocol catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -225,18 +225,26 @@ rules:
   slug: at-protocol-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 41.4
-  delta: 1.4
+  composite: 45.3
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 55.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 3.9
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 11.4
     contract_quality: 50.9
     developer_ergonomics: 38.1
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 11.4
     operational_transparency: 50.0
-  previous_composite: 40.0
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -244,8 +252,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/at-protocol/refs/heads/main/screenshots/at-protocol-2026-08-17T122411.png
 security:
@@ -259,7 +267,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: at-protocol
 tags:
-- At-Protocol
+- AT Protocol
 - atproto
 - Bluesky
 - Federation

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: The Weis Markets Vendor Integration API enables supplier and vendor partners to exchange purchase orders, invoices, item management data, and vendor contact information electronically. The platform us
@@ -93,13 +93,13 @@ jsonld:
   slug: weis-markets-context
 layout: provider
 modified: '2026-05-03'
-name: weis-markets
+name: Weis Markets
 nav: Providers
 network: true
-overview: 'weis-markets publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
+overview: 'Weis Markets publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
 
 
-  The weis-markets catalog on APIs.io includes 1 JSON-LD context.'
+  The Weis Markets catalog on APIs.io includes 1 JSON-LD context.'
 plans:
 - name: Weis Markets Plans Pricing
   plan_count: 3
@@ -128,7 +128,12 @@ rate_limits:
 score:
   band: emerging
   composite: 21.2
-  delta: 5.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -138,10 +143,10 @@ score:
     discoverability: 53.7
     governance: 15.2
     operational_transparency: 13.2
-  previous_composite: 15.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  previous_composite: 21.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: domain-security
   name: Weis Markets Domain Security

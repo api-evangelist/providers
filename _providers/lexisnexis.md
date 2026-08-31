@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: 'The LexisNexis Developer Portal provides access to legal research and content APIs, allowing partners to integrate LexisNexis legal data and services directly into customer workflows. Access requires '
@@ -118,7 +118,12 @@ rate_limits:
   slug: lexisnexis-rate-limits
 score:
   band: emerging
-  composite: 24.3
+  composite: 25.0
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 23.7
@@ -126,12 +131,12 @@ score:
     contract_governance: 0.0
     contract_quality: 37.2
     developer_ergonomics: 11.9
-    discoverability: 64.8
+    discoverability: 72.2
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 24.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 25.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lexisnexis/refs/heads/main/screenshots/lexisnexis-2026-06-20T184446.png
 security:

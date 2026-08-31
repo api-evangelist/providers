@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 6
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 274
   slug: wso2-agentic-access
   summary_line: 274 operations · 124 acting · 6 human-in-the-loop
-api_count: 90
+api_count: 7
 apis:
 - description: The Advanced Policy (Collection) API from WSO2 — 1 operation(s) for advanced policy (collection).
   name: WSO2 Advanced Policy (Collection) API
@@ -860,6 +860,30 @@ collections:
   name: WSO2 API Manager - Admin Advanced Policy (Collection) Advanced Policy (Collection) Workflows (Individual) API
   slug: open-wso2-workflows-individual-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/wso2-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/wso2/product-apim/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/wso2/product-apim/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/wso2/product-apim/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/wso2/product-apim/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/wso2/product-apim/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -3700,7 +3724,7 @@ overview: 'WSO2 publishes 90 APIs on the [APIs.io](https://apis.io/) network, in
   The WSO2 catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  WSO2''s developer surface includes CLI, signup flow, authentication, documentation, getting-started guide, engineering blog, pricing, and 22 more developer resources.'
+  WSO2''s developer surface includes CLI, signup flow, authentication, documentation, getting-started guide, engineering blog, pricing, and 28 more developer resources.'
 plans:
 - name: Wso2 Plans Pricing
   plan_count: 14
@@ -3727,8 +3751,13 @@ scopes:
   slug: wso2-scopes
   summary_line: 51 scopes · password
 score:
-  band: developing
-  composite: 54.0
+  band: strong
+  composite: 58.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 65.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 68.4
@@ -3739,7 +3768,10 @@ score:
     discoverability: 75.9
     governance: 9.8
     operational_transparency: 55.3
-  previous_composite: 54.0
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 58.6
   provenance:
     agentic_access: derived
     contracts:
@@ -3747,8 +3779,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 91
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wso2/refs/heads/main/screenshots/wso2-2026-06-20T201634.png
 security:

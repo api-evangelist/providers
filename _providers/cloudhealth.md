@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -198,19 +198,24 @@ rules:
     warn: 6
   slug: cloudhealth-rules
 score:
-  band: developing
-  composite: 40.1
-  delta: 1.5
+  band: thin
+  composite: 38.9
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.2
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 45.5
     contract_quality: 61.2
-    developer_ergonomics: 31.0
+    developer_ergonomics: 25.0
     discoverability: 64.8
     governance: 45.5
     operational_transparency: 10.5
-  previous_composite: 38.6
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -218,8 +223,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/screenshots/cloudhealth-2026-06-20T174608.png
 security:

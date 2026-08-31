@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 72
   slug: amazon-healthomics-agentic-access
   summary_line: 72 operations · 49 acting
-api_count: 13
+api_count: 1
 apis:
 - description: The AnnotationStore API from Amazon HealthOmics — 2 operation(s) for annotationstore.
   name: Amazon HealthOmics AnnotationStore API
@@ -3748,18 +3748,23 @@ rules:
   slug: amazon-healthomics-spectral-rules
 score:
   band: strong
-  composite: 63.2
-  delta: 3.5
+  composite: 62.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 28.8
     contract_quality: 70.1
     developer_ergonomics: 69.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 59.7
+  previous_composite: 63.2
   provenance:
     agentic_access: derived
     contracts:
@@ -3773,8 +3778,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-healthomics/refs/heads/main/screenshots/amazon-healthomics-2026-07-25T200010.png
 security:

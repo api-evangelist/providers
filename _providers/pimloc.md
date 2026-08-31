@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 22
   slug: pimloc-agentic-access
   summary_line: 22 operations · 11 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Account information
   name: Pimloc Account API
@@ -55,7 +55,10 @@ apis:
 - description: Enterprise project and user management
   name: Pimloc Projects API
   slug: pimloc-projects-api
-artifact_total: 14
+- description: The Secure Redact API API from Pimloc — 0 operation(s) for secure redact api.
+  name: Pimloc Secure Redact API
+  slug: pimloc-secure-redact-api-api
+artifact_total: 15
 asyncapis:
 - description: Secure Redact processes media asynchronously. When a state_callback and/or export_callback URL is supplied on upload, the platform POSTs event payloads to those URLs as media moves through the redacti
   name: Secure Redact Media Callbacks
@@ -213,7 +216,7 @@ modified: '2026-07-20'
 name: Pimloc
 nav: Providers
 network: true
-overview: 'Pimloc publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Authentication API, Media API, and 1 more. Tagged areas include Company, Privacy, Video Redaction, Anonymization, and PII.
+overview: 'Pimloc publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Authentication API, Media API, and 2 more. Tagged areas include Company, Privacy, Video Redaction, Anonymization, and PII.
 
 
   The Pimloc catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -223,18 +226,23 @@ overview: 'Pimloc publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 14
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 49.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
-    contract_governance: 30.3
-    contract_quality: 62.6
+    contract_governance: 18.2
+    contract_quality: 59.0
     developer_ergonomics: 73.2
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 52.7
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -245,8 +253,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/screenshots/pimloc-2026-08-17T081234.png
 security:

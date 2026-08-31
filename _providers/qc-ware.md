@@ -23,14 +23,21 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: The Promethium REST API submits and manages GPU-accelerated quantum chemistry workflows and the files they consume and produce. Thirteen operations across two resources — Workflows (list, create, get,
-  name: Promethium REST API
-  slug: qc-ware-promethium-rest-api
-artifact_total: 8
+- description: The Files API from QC Ware — 4 operation(s) for files.
+  name: QC Ware Files API
+  slug: qc-ware-files-api
+- description: The Workflows API from QC Ware — 5 operation(s) for workflows.
+  name: QC Ware Workflows API
+  slug: qc-ware-workflows-api
+artifact_total: 9
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/qc-ware-promethium-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -161,10 +168,10 @@ modified: '2026-08-26'
 name: QC Ware
 nav: Providers
 network: true
-overview: 'QC Ware publishes 1 API on the [APIs.io](https://apis.io/) network: Promethium REST API. Tagged areas include Company, Quantum Computing, Computational Chemistry, Quantum Chemistry, and Drug Discovery.
+overview: 'QC Ware publishes 2 APIs on the [APIs.io](https://apis.io/) network: Files API and Workflows API. Tagged areas include Company, Quantum Computing, Computational Chemistry, Quantum Chemistry, and Drug Discovery.
 
 
-  QC Ware''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
+  QC Ware''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
 plans:
 - name: Qc Ware Plans Pricing
   plan_count: 3
@@ -176,16 +183,23 @@ rate_limits:
   slug: qc-ware-rate-limits
 score:
   band: strong
-  composite: 56.2
+  composite: 55.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 50.3
     developer_ergonomics: 73.2
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
+  previous_composite: 55.5
   provenance:
     conformance: derived
     contracts:
@@ -201,8 +215,9 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Qc Ware Authentication

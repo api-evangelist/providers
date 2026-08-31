@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 33
   slug: lifi-agentic-access
   summary_line: 33 operations · 6 acting · 1 human-in-the-loop
-api_count: 18
+api_count: 2
 apis:
 - description: Intent-based execution API for the LI.FI solver marketplace. Integrators request quotes and submit orders; solvers publish standing quote inventory and fill intents. Built on the Open Intents Framewor
   name: LI.FI Intents Order Server API
@@ -318,18 +318,23 @@ rate_limits:
   slug: lifi-rate-limits
 score:
   band: strong
-  composite: 59.2
-  delta: 0.0
+  composite: 56.2
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
-    contract_quality: 52.0
+    contract_governance: 4.5
+    contract_quality: 48.3
     developer_ergonomics: 80.4
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 76.3
-  previous_composite: 59.2
+  previous_composite: 56.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -346,8 +351,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifi/refs/heads/main/screenshots/lifi-2026-07-25T225052.png
 security:

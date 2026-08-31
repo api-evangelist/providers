@@ -23,14 +23,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Partner-facing REST API for MyOme's clinical whole-genome laboratory. Clients list the sequencing and analysis Products available to them (identifiers prefixed PR), submit Requisitions for a sample (p
-  name: MyOme API
-  slug: myome-api
-artifact_total: 5
+- description: Institution onboarding and institution-scoped operations (requisitions, orders, campaigns).
+  name: MyOme Institutional Interface API
+  slug: myome-institutional-interface-api
+- description: Submit, list, and fetch requisitions and orders; get order results; list re-requisitionable products.
+  name: MyOme Requisitions and Orders API
+  slug: myome-requisitions-and-orders-api
+- description: Reference data—orderable products and consent types (general and product-specific).
+  name: MyOme Resources API
+  slug: myome-resources-api
+artifact_total: 7
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/myome-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/myome-openapi-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -108,10 +126,10 @@ modified: '2026-08-26'
 name: MyOme
 nav: Providers
 network: true
-overview: 'MyOme publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Genomics, Healthcare, Clinical Laboratory, and Whole Genome Sequencing.
+overview: 'MyOme publishes 3 APIs on the [APIs.io](https://apis.io/) network: Institutional Interface API, Requisitions and Orders API, and Resources API. Tagged areas include Company, Genomics, Healthcare, Clinical Laboratory, and Whole Genome Sequencing.
 
 
-  MyOme''s developer surface includes documentation, API reference, support, engineering blog, signup flow, and 12 more developer resources.'
+  MyOme''s developer surface includes documentation, API reference, support, engineering blog, signup flow, and 15 more developer resources.'
 plans:
 - name: Myome Plans Pricing
   plan_count: 0
@@ -123,16 +141,23 @@ rate_limits:
   slug: myome-rate-limits
 score:
   band: developing
-  composite: 43.1
+  composite: 41.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
-    contract_governance: 16.7
-    contract_quality: 54.8
+    contract_governance: 4.5
+    contract_quality: 52.8
     developer_ergonomics: 44.6
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
+  previous_composite: 41.6
   provenance:
     conformance: derived
     mcp: derived
@@ -143,8 +168,9 @@ score:
     regime: Health
     regime_id: health
     score: 46.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Myome Authentication

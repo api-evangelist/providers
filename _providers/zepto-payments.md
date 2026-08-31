@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -33,28 +33,73 @@ agentic_access:
   summary_line: 72 operations · 37 acting · 1 human-in-the-loop
 api_count: 7
 apis:
-- description: Zepto's core account-to-account payments API — move money over the New Payments Platform (NPP), BECS Direct Entry and PayID with payments, payouts, payment requests, transfers, refunds, agreements, co
-  name: Zepto API
-  slug: zepto-api
-- description: Programmatic PayTo mandate management and real-time collection — create, amend, suspend, reactivate and cancel PayTo agreements, then collect authorised real-time payments and issue refunds against th
-  name: Zepto PayTo API
-  slug: payto-api
-- description: Confirmation of Payee (CoP) account validation — verify that a payee's account name matches the account details in real time before initiating a payment, reducing misdirected payments and payment frau
-  name: Zepto Validate API (Confirmation of Payee)
-  slug: validate-cop-api
-- description: Disputes and investigations (Beta) — raise and manage payment disputes, respond to action requests (accept, reject, upload evidence) and simulate incoming investigation messages in sandbox.
-  name: Zepto Investigations API
-  slug: investigations-api
-- description: Client management (Alpha) — create and manage sub-clients and their Merchant Category Codes (MCC) for platform and marketplace models operating on top of Zepto's rails.
+- description: Modify existing agreements
+  name: Zepto Agreement modification API
+  slug: zepto-payments-agreement-modification-api
+- description: Create and query agreements
+  name: Zepto Agreements API
+  slug: zepto-payments-agreements-api
+- description: Resolve the display name associated with a PayID alias
+  name: Zepto Alias Resolution API
+  slug: zepto-payments-alias-resolution-api
+- description: Your currently linked up bank accounts.
+  name: Zepto Bank Accounts API
+  slug: zepto-payments-bank-accounts-api
+- description: The Zepto Clients API allows registration of clients who indirectly use the Zepto platform via your Zepto integration.
   name: Zepto Clients API
-  slug: clients-api
-- description: Merchant reporting — download PayTo settlement reports by report date for reconciliation of collected and settled funds.
-  name: Zepto Merchant Reports API
-  slug: merchant-reports-api
-- description: Webhook event notifications — subscribe to asynchronous payment and account events (for example float_accounts.unmatched_credit.received) to drive real-time reconciliation and payment status handling.
-  name: Zepto Notifications API (Webhooks)
-  slug: notifications-api
-artifact_total: 29
+  slug: zepto-payments-clients-api
+- description: 'Your Contacts form an address book of parties with whom you can interact. In order to initiate any type of transaction you must first have the party in your Contact list. <aside class="notice">In the '
+  name: Zepto Contacts API
+  slug: zepto-payments-contacts-api
+- description: The Contacts (Receivable) API from Zepto — 4 operation(s) for contacts (receivable).
+  name: Zepto Contacts (Receivable) API
+  slug: zepto-payments-contacts-receivable-api
+- description: The CoP Account Validations API from Zepto — 1 operation(s) for cop account validations.
+  name: Zepto CoP Account Validations API
+  slug: zepto-payments-cop-account-validations-api
+- description: The Zepto Disputes API is for managing disputes. Access to this API is limited. Please contact Zepto for more information.
+  name: Zepto Disputes (Beta) API
+  slug: zepto-payments-disputes-beta-api
+- description: Webhooks relating to out of band activity on float bank accounts
+  name: Zepto Float Accounts API
+  slug: zepto-payments-float-accounts-api
+- description: A Payment Request (PR) is used to collect funds, via direct debit, from one of your Contacts (as long as there is an accepted Agreement in place). <div class="middle-header">Applicable scenarios</div>
+  name: Zepto Payment Requests API
+  slug: zepto-payments-payment-requests-api
+- description: Make payments using an existing agreement
+  name: Zepto Payments API
+  slug: zepto-payments-payments-api
+- description: 'This endpoint gives you some control over a transaction: * After it has been created; and * Before it has been submitted to the banks. <aside class="notice"> Payments and Payment Requests are made up '
+  name: Zepto Payouts API
+  slug: zepto-payments-payouts-api
+- description: The PayTo Settlement API from Zepto — 1 operation(s) for payto settlement.
+  name: Zepto PayTo Settlement API
+  slug: zepto-payments-payto-settlement-api
+- description: Test your connectivity and authentication.
+  name: Zepto Ping API
+  slug: zepto-payments-ping-api
+- description: 'Refunds can be issued for any successfully completed Payment Request transaction. This includes: 1. Payment Requests for direct debit payments **(Collections)**: 2. Payment Requests for funds received'
+  name: Zepto Refunds API
+  slug: zepto-payments-refunds-api
+- description: 'Refund existing settled PayTo Payments ## Beta Release We''re excited to announce that this feature is now in beta! While we''ll aim to minimize breaking changes, some adjustments may occur as we refine'
+  name: Zepto Refunds (Beta) API
+  slug: zepto-payments-refunds-beta-api
+- description: Special testing endpoints that only exist in the sandbox environment.
+  name: Zepto Sandbox Only API
+  slug: zepto-payments-sandbox-only-api
+- description: By default, the transactions endpoint provides a detailed look at all past, current and future debits & credits related to your account. <aside class="notice">Want to also know about the debits & cred
+  name: Zepto Transactions API
+  slug: zepto-payments-transactions-api
+- description: 'This endpoint lets you Transfer funds between any bank & float accounts registered under your Zepto account: 1. **From**: Bank Account **To**: Float Account: * Topping up a float account via Direct De'
+  name: Zepto Transfers API
+  slug: zepto-payments-transfers-api
+- description: All about the currently authenticated user.
+  name: Zepto Users API
+  slug: zepto-payments-users-api
+- description: The Webhooks API from Zepto — 4 operation(s) for webhooks.
+  name: Zepto Webhooks API
+  slug: zepto-payments-webhooks-api
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Zepto Payments Notifications Webhooks
@@ -103,6 +148,10 @@ collections:
   name: Zepto API
   slug: open-zepto-payments-zepto
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zepto-payments-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -276,13 +325,13 @@ modified: '2026-07-24'
 name: Zepto
 nav: Providers
 network: true
-overview: 'Zepto publishes 7 APIs on the [APIs.io](https://apis.io/) network, including PayTo API, Validate API (Confirmation of Payee), and 5 more. Tagged areas include Payments, Australia, Real-Time Payments, Account-to-Account, and New Payments Platform.
+overview: 'Zepto publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Agreement modification API, Agreements API, Alias Resolution API, and 19 more. Tagged areas include Payments, Australia, Real-Time Payments, Account-to-Account, and New Payments Platform.
 
 
   The Zepto catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Zepto''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, sandbox, and 33 more developer resources.'
+  Zepto''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, sandbox, and 34 more developer resources.'
 random_paper: 18
 scopes:
 - name: Zepto Payments Scopes
@@ -291,18 +340,23 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.7
+  composite: 56.3
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
-    contract_quality: 58.7
+    contract_governance: 18.2
+    contract_quality: 65.0
     developer_ergonomics: 61.3
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 57.4
+    governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 59.7
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -319,8 +373,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zepto-payments/refs/heads/main/screenshots/zepto-payments-2026-08-17T083057.png
 security:

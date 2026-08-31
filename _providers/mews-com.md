@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 238
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 291
   slug: mews-com-agentic-access
   summary_line: 291 operations · 238 acting · 1 human-in-the-loop
-api_count: 78
+api_count: 3
 apis:
 - description: Two-way API for channel managers and distribution channels. Mews-side operations let channel managers receive reservations from Mews; channel-manager-side endpoints let Mews push availability, rate, a
   name: Mews Channel Manager API
@@ -587,6 +587,10 @@ collections:
   name: DistributorApi
   slug: open-mews-distributor-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mews-com-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -878,7 +882,7 @@ overview: 'Mews publishes 75 APIs on the [APIs.io](https://apis.io/) network, in
   The Mews catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Mews'' developer surface includes developer portal, documentation, signup flow, support, engineering blog, pricing, changelog, and 51 more developer resources.'
+  Mews'' developer surface includes developer portal, documentation, signup flow, support, engineering blog, pricing, changelog, and 52 more developer resources.'
 plans:
 - name: Mews Com Plans Pricing
   plan_count: 5
@@ -913,6 +917,11 @@ rules:
 score:
   band: strong
   composite: 60.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 31.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
@@ -931,8 +940,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 75
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/screenshots/mews-com-2026-06-20T185312.png
 security:

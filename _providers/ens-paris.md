@@ -1,21 +1,21 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free · No registration for public reads; federated identity otherwise
+  onboarding: open
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - probed
   - authentication
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -26,60 +26,28 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.7
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 0
-  human_in_the_loop: 0
-  name: Ens Paris Agentic Access
-  operation_count: 16
-  slug: ens-paris-agentic-access
-  summary_line: 16 operations
-api_count: 4
+  score: 5.8
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: HAL-ENS is the open archive hosting the scientific production of ENS Paris researchers, teacher-researchers and doctoral students. It is part of the national HAL platform and is harvestable via the OA
-  name: HAL-ENS Open Archive (OAI-PMH)
-  slug: hal-oai-pmh
-- description: 'The national HAL open-archive REST and Search API provides programmatic query access to publication metadata, including records deposited in the HAL-ENS portal. Results can be filtered by collection, '
-  name: HAL Search / REST API
-  slug: hal-api
-- description: API to enumerate datasets
-  name: École Normale Supérieure de Paris Catalog API
-  slug: ens-paris-catalog-api
-- description: API to work on records
-  name: École Normale Supérieure de Paris Dataset API
-  slug: ens-paris-dataset-api
-artifact_total: 22
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Explore Catalog API
-  slug: open-ens-paris-catalog-api
-- collection_type: open
-  name: Explore Catalog Dataset API
-  slug: open-ens-paris-dataset-api
+- description: ENS-PSL runs its own Shibboleth identity provider under its own registrable domain. The SAML 2.0 entity descriptor is served at https://federation.ens.psl.eu/idp/shibboleth (HTTP 200, application/xml)
+  name: ENS-PSL Identity Provider (SAML 2.0 / Shibboleth)
+  slug: identity-federation
+- description: 'The catalogue of the ten ENS-PSL libraries, hosted at catalogue.bib.ens.psl.eu under the institution''s own domain and integrated by BibLibre. Two machine-readable interfaces answer publicly. The Koha '
+  name: ENS-PSL Library Catalogue (Koha REST + OAI-PMH)
+  slug: library-catalog
+- description: ENS research output is deposited into the ENS-PARIS collection of HAL, the French national open archive operated by CCSD (CNRS). The collection is real and substantial — HAL's ENS-scoped Search API re
+  name: HAL-ENS Open Archive — ENS-PARIS collection
+  slug: hal-ens
+artifact_total: 9
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/ens-paris-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/ens-paris-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/ens-paris-authentication.yml
 - group: company
   title: ''
   type: Website
@@ -88,6 +56,38 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/ecole-normale-superieure/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.ens.psl.eu/mentions-legales
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.ens.psl.eu/en/rss.xml
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://federation.ens.psl.eu/idp/shibboleth
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://catalogue.bib.ens.psl.eu/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://hal-ens.archives-ouvertes.fr/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ens-paris-conformance.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ens-paris-authentication.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/ens-paris-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -117,50 +117,30 @@ common:
   type: x-blogs
   url: blogs/blogs.json
 created: '2026-06-03'
-description: 'École Normale Supérieure de Paris (ENS, rue d''Ulm) is a leading French grande école and constituent member of Université PSL (Paris Sciences & Lettres), ranked #86 in the QS World University Rankings 2025. ENS operates 15 departments, 35 research laboratories and a network of libraries. ENS does not publish a first-party developer portal or documented institutional API; its programmatic surface is reached indirectly via national French research and higher-education open infrastructure. Researcher output is deposited in the HAL-ENS open archive, which is harvestable through the national HAL OAI-PMH endpoint and the HAL REST/Search API, and ENS establishment data is exposed through the Ministry of Higher Education (MESR) open-data platform''s Opendatasoft Explore API.'
-examples:
-- key_count: 4
-  name: Ens Paris Query Dataset Records Example
-  slug: ens-paris-query-dataset-records-example
-- key_count: 4
-  name: Ens Paris Query Datasets Example
-  slug: ens-paris-query-datasets-example
+description: 'École normale supérieure - PSL (ENS, rue d''Ulm) is a French grande école and constituent institution of Université PSL, running 15 departments, 35 research laboratories and a ten-library network in the Quartier latin of Paris. ENS publishes no developer portal, no OpenAPI description and no API key programme, and this profile does not pretend otherwise. What it does operate, verified live on 2026-08-30, is two machine-readable surfaces on its own domain: a SAML 2.0 / Shibboleth identity provider at federation.ens.psl.eu, registered in the RENATER Fédération Éducation-Recherche with scopes ens.fr and ens.psl.eu; and the ENS-PSL library catalogue at catalogue.bib.ens.psl.eu, a Koha deployment exposing an unauthenticated REST API and an OAI-PMH 2.0 provider whose Identify names the repository "bibliothèques de l''ENS-PSL". Alongside those, ENS holds one tenant relationship worth recording — the ENS-PARIS collection inside the national HAL open archive, operated by CCSD/CNRS,
+  harvestable as the OAI-PMH set collection:ENS-PARIS and queryable through HAL''s ENS-scoped Search API. An earlier version of this profile credited ENS with the French Ministry of Higher Education''s Opendatasoft Explore API; that contract is Opendatasoft''s, deployed by the ministry, and it and everything derived from it were removed on 2026-08-30.'
 finops:
 - name: Ens Paris Finops
   service_category: Education
   slug: ens-paris-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ens-paris.png
-json_schemas:
-- name: MESR Explore API Dataset
-  property_count: 9
-  slug: ens-paris-dataset
-- name: MESR Explore API Records Response
-  property_count: 3
-  slug: ens-paris-records
-json_structures:
-- name: Ens Paris Dataset Structure
-  property_count: 7
-  slug: ens-paris-dataset-structure
-- name: Ens Paris Records Structure
-  property_count: 3
-  slug: ens-paris-records-structure
 jsonld:
-- class_count: 20
+- class_count: 7
   name: Ens Paris Context
-  property_count: 2
+  property_count: 4
   slug: ens-paris-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: École Normale Supérieure de Paris
 nav: Providers
 network: true
-overview: 'École Normale Supérieure de Paris publishes 2 APIs on the [APIs.io](https://apis.io/) network: Catalog API and Dataset API. Tagged areas include Education, Higher Education, University, Research, and Open Data.
+overview: 'École Normale Supérieure de Paris publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, France, and Université PSL.
 
 
-  The École Normale Supérieure de Paris catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The École Normale Supérieure de Paris catalog on APIs.io includes 1 JSON-LD context.
 
 
-  École Normale Supérieure de Paris'' developer surface includes authentication and 11 more developer resources.'
+  École Normale Supérieure de Paris'' developer surface includes authentication and 16 more developer resources.'
 plans:
 - name: Ens Paris Plans Pricing
   plan_count: 2
@@ -170,41 +150,25 @@ rate_limits:
 - limit_count: 1
   name: Ens Paris Rate Limits
   slug: ens-paris-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: École Normale Supérieure de Paris API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 3
-  slug: ens-paris-jsonschema-spectral-rules
-- effective_rule_count: 8
-  extends: []
-  name: École Normale Supérieure de Paris API Rules
-  rule_count: 8
-  severity_counts:
-    error: 4
-    hint: 0
-    info: 1
-    warn: 3
-  slug: ens-paris-rules
 score:
-  band: developing
-  composite: 39.3
-  delta: 1.9
+  band: thin
+  composite: 29.8
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -9.5
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 69.4
-    developer_ergonomics: 21.4
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 0.0
+    contract_quality: 17.3
+    developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 9.8
+    governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 37.4
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     contracts:
@@ -217,28 +181,31 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 38.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ens-paris/refs/heads/main/screenshots/ens-paris-2026-06-20T180723.png
 security:
 - kind: authentication
   name: Ens Paris Authentication
   slug: ens-paris-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: saml/basic/none · 4 schemes
 - kind: domain-security
   name: Ens Paris Domain Security
   slug: ens-paris-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: ens-paris
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
-- Open Access
+- Higher Education
+- Education
 - France
+- Université PSL
+- Research
+- Identity Federation
+- Library
+- Open Access
+- OAI-PMH
 website: https://www.ens.psl.eu/en
 ---

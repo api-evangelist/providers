@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 19
   slug: missive-agentic-access
   summary_line: 19 operations · 8 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Create and retrieve analytics reports
   name: Missive Analytics API
@@ -92,6 +92,10 @@ collections:
   name: Missive REST Analytics Messages API
   slug: open-missive-messages-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/missive-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -179,7 +183,7 @@ overview: 'Missive publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The Missive catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Missive''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  Missive''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Missive Plans Pricing
   plan_count: 3
@@ -191,15 +195,20 @@ rate_limits:
   slug: missive-rate-limits
 score:
   band: developing
-  composite: 43.8
-  delta: 0.0
+  composite: 43.3
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 0.0
     contract_quality: 61.2
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 43.8
@@ -210,8 +219,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/screenshots/missive-2026-06-20T185610.png
 security:

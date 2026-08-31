@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -149,6 +149,10 @@ collections:
   name: Veritas InfoScale REST Alerts Volumes API
   slug: open-veritas-infoscale-volumes-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/VeritasOS/infoscale_ansible/issues
 - group: commercial
   title: ''
   type: License
@@ -345,7 +349,7 @@ overview: 'Veritas InfoScale publishes 10 APIs on the [APIs.io](https://apis.io/
   The Veritas InfoScale catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Veritas InfoScale''s developer surface includes authentication, developer portal, support, documentation, getting-started guide, training material, engineering blog, and 15 more developer resources.'
+  Veritas InfoScale''s developer surface includes authentication, developer portal, support, documentation, getting-started guide, training material, engineering blog, and 16 more developer resources.'
 plans:
 - name: Veritas Infoscale Plans Pricing
   plan_count: 1
@@ -379,18 +383,26 @@ rules:
   slug: veritas-infoscale-spectral-rules
 score:
   band: developing
-  composite: 44.0
-  delta: 3.6
+  composite: 39.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 37.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 28.8
-    contract_quality: 30.0
+    contract_quality: 30.4
     developer_ergonomics: 67.9
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 40.4
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -398,8 +410,8 @@ score:
       derived: 10
       marker_coverage: 100.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-infoscale/refs/heads/main/screenshots/veritas-infoscale-2026-06-20T200933.png
 security:

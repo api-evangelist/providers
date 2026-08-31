@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: bny-bank-of-new-york-mellon-agentic-access
   summary_line: 4 operations
-api_count: 5
+api_count: 4
 apis:
 - description: 'BNY Data On-Chain publishes BNY-attested data on-chain so on-chain consumers can read it directly from smart contracts. The product ships a Solidity consumer interface (IBNYDataConsumerV2) with typed '
   name: BNY Data On-Chain
@@ -184,8 +184,13 @@ rate_limits:
   slug: bny-bank-of-new-york-mellon-rate-limits
 score:
   band: thin
-  composite: 37.0
-  delta: 4.6
+  composite: 35.6
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.4
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -195,7 +200,10 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 32.4
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -209,8 +217,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bny-bank-of-new-york-mellon/refs/heads/main/screenshots/bny-bank-of-new-york-mellon-2026-06-20T173546.png
 security:

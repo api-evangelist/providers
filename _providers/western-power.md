@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,21 +31,27 @@ agentic_access:
   operation_count: 9
   slug: western-power-agentic-access
   summary_line: 9 operations
-api_count: 4
+api_count: 3
 apis:
-- description: The undocumented first-party JSON API behind the public Western Power outage tracker. The outage page declares its own endpoints in markup — all-outages-endpoint="/api/corp/outage/all-outages" and sin
-  name: Western Power Outage Web API
-  slug: western-power-outage-web-api
-- description: The anonymous read endpoints behind westernpower.com.au itself — site search, the news article feed and the careers vacancy feed. These are internal endpoints of the Optimizely/EPiServer corporate sit
-  name: Western Power Corporate Web API
-  slug: western-power-corporate-web-api
-- description: Live outage data for the South West Interconnected System, served as an Esri ArcGIS Online hosted feature service (layer 0, "Outage_Areas") that backs the public Western Power outage tracker at wester
-  name: Western Power Outage Areas Feature Service
-  slug: western-power-outage-areas-feature-service
 - description: Western Power's network asset and capacity spatial data — distribution and transmission overhead powerlines, underground cables, poles, pillars, pits, transformers, enclosures, substations, streetligh
   name: Western Power Public Secure Services (SLIP)
   slug: western-power-public-secure-services-slip
-artifact_total: 15
+- description: The Content API from Western Power — 2 operation(s) for content.
+  name: Western Power Content API
+  slug: western-power-content-api
+- description: The Metadata API from Western Power — 2 operation(s) for metadata.
+  name: Western Power Metadata API
+  slug: western-power-metadata-api
+- description: Live planned and unplanned outage data for the South West Interconnected System.
+  name: Western Power Outages API
+  slug: western-power-outages-api
+- description: The Query API from Western Power — 1 operation(s) for query.
+  name: Western Power Query API
+  slug: western-power-query-api
+- description: The Search API from Western Power — 1 operation(s) for search.
+  name: Western Power Search API
+  slug: western-power-search-api
+artifact_total: 17
 collections:
 - collection_type: open
   name: Western Power Outage Areas Feature Service (ArcGIS REST)
@@ -57,6 +63,26 @@ collections:
   name: Western Power Outage Web API
   slug: open-western-power-outage
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/western-power-outage-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/western-power-check-outages.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/western-power-corporate-web-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/western-power-arcgis-outage-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/western-power-query-outage-geography.md
 - group: agent
   title: ''
   type: MCPServer
@@ -192,25 +218,30 @@ modified: '2026-07-27'
 name: Western Power
 nav: Providers
 network: true
-overview: 'Western Power publishes 3 APIs on the [APIs.io](https://apis.io/) network: Outage Web API, Corporate Web API, and Outage Areas Feature Service. Tagged areas include Energy, Australia, Utilities, Electricity, and Grid.
+overview: 'Western Power publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Content API, Metadata API, Outages API, and 2 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Grid.
 
 
-  Western Power''s developer surface includes authentication, support, engineering blog, documentation, developer portal, and 22 more developer resources.'
+  Western Power''s developer surface includes authentication, support, engineering blog, documentation, developer portal, and 27 more developer resources.'
 random_paper: 13
 score:
   band: thin
-  composite: 34.7
-  delta: 0.7
+  composite: 33.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 15.2
+    contract_governance: 4.5
+    contract_quality: 15.0
     developer_ergonomics: 39.9
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 5.3
-  previous_composite: 34.0
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -227,8 +258,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 54.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

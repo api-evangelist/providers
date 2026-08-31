@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 3
   slug: coredns-agentic-access
   summary_line: 3 operations
-api_count: 5
+api_count: 2
 apis:
 - description: CoreDNS implements the standard DNS protocol (RFC 1035) serving both UDP and TCP queries. In Kubernetes, it resolves service names to cluster IPs, headless services to pod IPs, and supports SRV record
   name: CoreDNS DNS Interface
@@ -235,18 +235,26 @@ rules:
   slug: coredns-metrics-rules
 score:
   band: developing
-  composite: 39.6
-  delta: 1.4
+  composite: 45.1
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 37.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 5.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 69.7
     contract_quality: 50.3
     developer_ergonomics: 33.3
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 69.7
     operational_transparency: 36.8
-  previous_composite: 38.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -254,9 +262,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/coredns/refs/heads/main/screenshots/coredns-2026-06-20T175025.png
 security:
 - kind: domain-security

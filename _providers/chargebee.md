@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 13
   slug: chargebee-agentic-access
   summary_line: 13 operations · 2 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The Customers API from Chargebee — 2 operation(s) for customers.
   name: Chargebee Customers API
@@ -250,18 +250,23 @@ rules:
   slug: chargebee-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 51.4
-  delta: 1.1
+  composite: 50.8
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 74.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 11.4
     contract_quality: 58.5
     developer_ergonomics: 71.4
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 11.4
     operational_transparency: 42.1
-  previous_composite: 50.3
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -275,8 +280,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargebee/refs/heads/main/screenshots/chargebee-2026-06-20T174220.png
 security:

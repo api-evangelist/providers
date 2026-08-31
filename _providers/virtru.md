@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 116
   slug: virtru-agentic-access
   summary_line: 116 operations · 116 acting
-api_count: 14
+api_count: 15
 apis:
 - description: The authorization.AuthorizationService API from Virtru — 3 operation(s) for authorization.authorizationservice.
   name: Virtru authorization.AuthorizationService API
@@ -288,18 +288,23 @@ overview: 'Virtru publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 12
 score:
   band: developing
-  composite: 51.0
-  delta: 1.4
+  composite: 49.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 44.9
     developer_ergonomics: 68.5
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 49.6
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -310,8 +315,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/virtru/refs/heads/main/screenshots/virtru-2026-08-17T082758.png
 security:

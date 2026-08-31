@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 5
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 387
   slug: nycu-agentic-access
   summary_line: 387 operations · 181 acting · 5 human-in-the-loop
-api_count: 25
+api_count: 1
 apis:
 - description: OAuth 2.0 (RFC 6749) authorization-code service for third-party applications to authenticate NYCU users and retrieve consented user data (email/username via the profile scope, name via the name scope,
   name: NYCU OAuth / Single Sign-On API
@@ -193,6 +193,10 @@ collections:
   name: NYCU Dataverse Native & Search Access Workflows API
   slug: open-nycu-workflows-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nycu-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -303,18 +307,23 @@ rules:
   slug: nycu-rules
 score:
   band: developing
-  composite: 40.8
-  delta: 11.3
+  composite: 40.2
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 33.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 25.0
     contract_quality: 49.8
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 21.1
-  previous_composite: 29.5
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -328,9 +337,9 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nycu/refs/heads/main/screenshots/nycu-2026-06-20T190547.png
 security:
 - kind: domain-security

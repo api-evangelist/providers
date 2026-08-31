@@ -32,9 +32,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
-artifact_total: 14
+artifact_total: 15
 common:
 - group: auth
   title: ''
@@ -68,6 +68,38 @@ common:
   title: ''
   type: Contact
   url: https://corporate.abercrombie.com/contact-us/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.abercrombie.com/shop/CustomerService?pageName=site-use&textKey=LEGAL_SITE_USE&storeId=10051&catalogId=10901&langId=-1
+- group: auth
+  title: ''
+  type: Security
+  url: security/abercrombie-and-fitch-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/abercrombie-and-fitch-vulnerability-disclosure.yml
+- group: agent
+  title: ''
+  type: WellKnownProbe
+  url: well-known/abercrombie-and-fitch-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/abercrombie-and-fitch-llms.txt
+coverage:
+  checked: '2026-08-29'
+  detail: Abercrombie & Fitch runs a real corporate API gateway at api.anfcorp.com, but it answers a JSON 404 envelope on every anonymous path and the company publishes no developer portal, reference, spec or SDK anywhere — B2B integration is EDI trading-partner onboarding and affiliate networks, not a developer program.
+  evidence:
+  - status: 404
+    url: https://api.anfcorp.com/openapi.json
+  - status: 404
+    url: https://corporate.abercrombie.com/llms.txt
+  - status: 200
+    url: https://api.github.com/orgs/AbercrombieAndFitch/repos
+  reason: no-developer-program
+  state: none
 created: '2024-01-15'
 description: Abercrombie & Fitch is a global specialty retailer of casual apparel, accessories, and personal care products operating multiple lifestyle brands including Abercrombie, Hollister, and Gilly Hicks. The company operates through a direct-to-consumer model with both e-commerce and physical retail stores across global markets.
 features:
@@ -92,14 +124,14 @@ integrations:
 - description: Affiliate marketing program integrations through major affiliate networks
   name: Affiliate Networks
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-29'
 name: Abercrombie and Fitch
 nav: Providers
 network: true
 overview: 'Abercrombie and Fitch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Fashion, E-Commerce, Apparel, and Lifestyle.
 
 
-  Abercrombie and Fitch''s developer surface includes developer portal, engineering blog, release notes, and 5 more developer resources.'
+  Abercrombie and Fitch''s developer surface includes developer portal, engineering blog, release notes, and 10 more developer resources.'
 press:
 - date: '2026-05-25'
   title: 'At #NRF2026, Abercrombie & Fitch CEO Fran Horowitz— ...'
@@ -119,20 +151,25 @@ press:
 random_paper: 12
 score:
   band: emerging
-  composite: 11.9
+  composite: 16.1
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
-    access_clarity: 10.5
-    commercial_clarity: 10.5
+    access_clarity: 21.1
+    commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 18.4
-  previous_composite: 11.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 28.9
+  previous_composite: 16.1
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abercrombie-and-fitch/refs/heads/main/screenshots/abercrombie-and-fitch-2026-06-20T163159.png
 security:
@@ -140,6 +177,10 @@ security:
   name: Abercrombie And Fitch Domain Security
   slug: abercrombie-and-fitch-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Abercrombie And Fitch Vulnerability Disclosure
+  slug: abercrombie-and-fitch-vulnerability-disclosure
+  summary_line: Hackerone
 slug: abercrombie-and-fitch
 tags:
 - Retail

@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,10 +22,10 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,16 +33,16 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-26'
+  score: 36.9
+  scored_at: '2026-08-30'
 agentic_access:
-- acting_count: 21
-  human_in_the_loop: 0
+- acting_count: 225
+  human_in_the_loop: 1
   name: Firehydrant Agentic Access
-  operation_count: 38
+  operation_count: 411
   slug: firehydrant-agentic-access
-  summary_line: 38 operations · 21 acting
-api_count: 16
+  summary_line: 411 operations · 225 acting · 1 human-in-the-loop
+api_count: 1
 apis:
 - description: FireHydrant is an incident management platform providing automated runbooks, status pages, and retrospective workflows.
   name: FireHydrant
@@ -92,7 +92,11 @@ apis:
 - description: The Teams API from FireHydrant — 2 operation(s) for teams.
   name: FireHydrant Teams API
   slug: firehydrant-teams-api
-artifact_total: 41
+artifact_total: 44
+asyncapis:
+- description: ''
+  name: Firehydrant Webhooks
+  slug: firehydrant-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -177,13 +181,141 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.firehydrant.io
+  url: https://docs.firehydrant.com
 - group: company
   title: ''
   type: Blog
   url: https://firehydrant.com/rss.xml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/firehydrant-api-openapi.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firehydrant-api-overlay.yaml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.firehydrant.com/reference/firehydrant-api
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.firehydrant.com/reference/firehydrant-api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.firehydrant.com/docs/admin-quickstart
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.firehydrant.com/docs/contacting-support
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://firehydrant.com/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.firehydrant.io/registrations/new/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://firehydrant.com/legal/ssa/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://firehydrant.com/legal/privacy/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.firehydrant.com/
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/firehydrant-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://firehydrant.com/changelog/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/firehydrant-changelog.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://firehydrant.com/security/
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/firehydrant-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://firehydrant.com/security/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/firehydrant-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/firehydrant-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/firehydrant-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/firehydrant-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/firehydrant-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/firehydrant-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/firehydrant-llms.txt
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/firehydrant-webhooks.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/firehydrant-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/firehydrant-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/firehydrant-data-model.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/firehydrant-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/firehydrant-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/firehydrant-finops.yml
 created: '2026-03-27'
-description: FireHydrant is an incident management platform providing automated runbooks, status pages, and retrospective workflows.
+description: FireHydrant is an incident management platform, now part of Freshworks, that covers the whole incident lifecycle — declaring and driving incidents from Slack or Microsoft Teams, Signals on-call scheduling and alerting, automated runbooks, a service catalog with environments and functionalities, its own hosted status pages, AI-enriched incident summaries, and retrospectives with analytics. Its REST API at api.firehydrant.io/v1 is a 373-operation, 228-path surface covering incidents, alerts, teams, runbooks, changes, integrations, webhooks and SCIM 2.0 provisioning, authenticated with a single organization API key sent as a Bearer token. FireHydrant also ships an official MCP server, first-party TypeScript and Go SDKs, a Terraform provider, and the fhcli change-event CLI.
 finops:
 - name: Firehydrant Finops
   service_category: API
@@ -194,37 +326,49 @@ graphqls:
   slug: firehydrant-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/firehydrant.png
 layout: provider
-modified: '2026-03-27'
+mcp_servers:
+- description: ''
+  name: FireHydrant
+  slug: firehydrant
+modified: '2026-08-29'
 name: FireHydrant
 nav: Providers
 network: true
-overview: 'FireHydrant publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Audits API, Change Events API, Changes API, and 12 more. Tagged areas include AIOps and Incident Management.
+overview: 'FireHydrant publishes 16 APIs on the [APIs.io](https://apis.io/) network, including FireHydrant, Audits API, Change Events API, and 13 more. Tagged areas include AIOps, Incident Management, On-Call, Alerting, and Status Pages.
 
 
-  FireHydrant''s developer surface includes authentication, documentation, engineering blog, and 6 more developer resources.'
+  The FireHydrant catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  FireHydrant''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, support, pricing, and 34 more developer resources.'
 plans:
 - name: Firehydrant Plans Pricing
   plan_count: 3
   slug: firehydrant-plans-pricing
 random_paper: 8
 rate_limits:
-- limit_count: 5
+- limit_count: 1
   name: Firehydrant Rate Limits
   slug: firehydrant-rate-limits
 score:
-  band: thin
-  composite: 28.9
-  delta: 0.0
+  band: strong
+  composite: 58.1
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
-    access_clarity: 23.7
-    commercial_clarity: 23.7
-    contract_governance: 0.0
-    contract_quality: 57.4
-    developer_ergonomics: 19.0
-    discoverability: 46.3
-    governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 28.9
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 64.8
+    developer_ergonomics: 57.1
+    discoverability: 75.9
+    governance: 18.2
+    operational_transparency: 42.1
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     contracts:
@@ -232,19 +376,23 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firehydrant/refs/heads/main/screenshots/firehydrant-2026-06-20T181235.png
 security:
 - kind: authentication
   name: Firehydrant Authentication
   slug: firehydrant-authentication
-  summary_line: http · 1 scheme
+  summary_line: apiKey/http · 2 schemes
 - kind: domain-security
   name: Firehydrant Domain Security
   slug: firehydrant-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Firehydrant Vulnerability Disclosure
+  slug: firehydrant-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
 - kind: trust-center
   name: Firehydrant Trust Center
   slug: firehydrant-trust-center
@@ -253,5 +401,13 @@ slug: firehydrant
 tags:
 - AIOps
 - Incident Management
+- On-Call
+- Alerting
+- Status Pages
+- Runbooks
+- Site Reliability Engineering
+- Observability
+- Retrospectives
+- DevOps
 website: https://firehydrant.com
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
 - description: UCL Discovery is UCL's open-access institutional repository of research outputs, running EPrints on UCL's own registrable domain, and it exposes an OAI-PMH 2.0 metadata-harvesting endpoint at discover
@@ -57,6 +57,18 @@ apis:
   slug: identity-federation
 artifact_total: 10
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/uclapi/uclapi/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/uclapi/uclapi/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/uclapi/uclapi/blob/master/CONTRIBUTING.md
 - group: company
   title: ''
   type: Website
@@ -173,7 +185,7 @@ network: true
 overview: 'UCL publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, United Kingdom, and London.
 
 
-  UCL''s developer surface includes GitHub presence, support, documentation, engineering blog, and 21 more developer resources.'
+  UCL''s developer surface includes GitHub presence, support, documentation, engineering blog, and 24 more developer resources.'
 plans:
 - name: Ucl Plans Pricing
   plan_count: 2
@@ -185,7 +197,12 @@ rate_limits:
   slug: ucl-rate-limits
 score:
   band: emerging
-  composite: 20.8
+  composite: 25.6
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
@@ -195,8 +212,11 @@ score:
     developer_ergonomics: 16.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 23.7
-  previous_composite: 20.8
+    operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 25.6
   provenance:
     conformance: first-party
   regulatory:
@@ -205,8 +225,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 27.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucl/refs/heads/main/screenshots/ucl-2026-06-20T195940.png
 security:

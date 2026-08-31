@@ -1,6 +1,7 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -11,19 +12,19 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.1
-  scored_at: '2026-08-26'
+  score: 42.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -31,15 +32,72 @@ agentic_access:
   operation_count: 77
   slug: moneyhub-agentic-access
   summary_line: 77 operations · 36 acting
-api_count: 2
+api_count: 1
 apis:
-- description: 'The Moneyhub Data API (v2.0) is a RESTful, JSON, bearer-token API for Open Banking account aggregation and financial intelligence: connect accounts, read balances, holdings, standing orders, statement'
-  name: Moneyhub Data & Intelligence API
-  slug: moneyhub-data-api
 - description: Moneyhub's Open Banking Payments API initiates account-to-account payments (Payment Initiation Service) over the UK Faster Payments rails as a cheaper, near-instant alternative to cards, direct debits
   name: Moneyhub Open Banking Payments API
   slug: moneyhub-open-banking-payments-api
-artifact_total: 12
+- description: The accounts API from Moneyhub — 6 operation(s) for accounts.
+  name: Moneyhub Accounts API
+  slug: moneyhub-accounts-api
+- description: The affordability API from Moneyhub — 5 operation(s) for affordability.
+  name: Moneyhub Affordability API
+  slug: moneyhub-affordability-api
+- description: The beneficiaries API from Moneyhub — 2 operation(s) for beneficiaries.
+  name: Moneyhub Beneficiaries API
+  slug: moneyhub-beneficiaries-api
+- description: The categories API from Moneyhub — 3 operation(s) for categories.
+  name: Moneyhub Categories API
+  slug: moneyhub-categories-api
+- description: The categorise transactions API from Moneyhub — 1 operation(s) for categorise transactions.
+  name: Moneyhub categorise transactions API
+  slug: moneyhub-categorise-transactions-api
+- description: The counterparties API from Moneyhub — 2 operation(s) for counterparties.
+  name: Moneyhub Counterparties API
+  slug: moneyhub-counterparties-api
+- description: The holdings API from Moneyhub — 3 operation(s) for holdings.
+  name: Moneyhub Holdings API
+  slug: moneyhub-holdings-api
+- description: The notification thresholds API from Moneyhub — 2 operation(s) for notification thresholds.
+  name: Moneyhub notification thresholds API
+  slug: moneyhub-notification-thresholds-api
+- description: The projects API from Moneyhub — 2 operation(s) for projects.
+  name: Moneyhub Projects API
+  slug: moneyhub-projects-api
+- description: The regular transactions API from Moneyhub — 2 operation(s) for regular transactions.
+  name: Moneyhub regular transactions API
+  slug: moneyhub-regular-transactions-api
+- description: The rental records API from Moneyhub — 2 operation(s) for rental records.
+  name: Moneyhub rental records API
+  slug: moneyhub-rental-records-api
+- description: The savings goals API from Moneyhub — 2 operation(s) for savings goals.
+  name: Moneyhub savings goals API
+  slug: moneyhub-savings-goals-api
+- description: The spending analysis API from Moneyhub — 1 operation(s) for spending analysis.
+  name: Moneyhub spending analysis API
+  slug: moneyhub-spending-analysis-api
+- description: The spending goals API from Moneyhub — 2 operation(s) for spending goals.
+  name: Moneyhub spending goals API
+  slug: moneyhub-spending-goals-api
+- description: The standard-financial-statements API from Moneyhub — 2 operation(s) for standard-financial-statements.
+  name: Moneyhub Standard Financial Statements API
+  slug: moneyhub-standard-financial-statements-api
+- description: The standing orders API from Moneyhub — 1 operation(s) for standing orders.
+  name: Moneyhub standing orders API
+  slug: moneyhub-standing-orders-api
+- description: The statements API from Moneyhub — 1 operation(s) for statements.
+  name: Moneyhub Statements API
+  slug: moneyhub-statements-api
+- description: The sync API from Moneyhub — 1 operation(s) for sync.
+  name: Moneyhub Sync API
+  slug: moneyhub-sync-api
+- description: The tax API from Moneyhub — 1 operation(s) for tax.
+  name: Moneyhub Tax API
+  slug: moneyhub-tax-api
+- description: The transactions API from Moneyhub — 9 operation(s) for transactions.
+  name: Moneyhub Transactions API
+  slug: moneyhub-transactions-api
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Moneyhub Webhooks
@@ -52,6 +110,10 @@ collections:
   name: Moneyhub Data API
   slug: open-moneyhub-data-api-swagger
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/moneyhub-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -217,13 +279,13 @@ modified: '2026-07-24'
 name: Moneyhub
 nav: Providers
 network: true
-overview: 'Moneyhub publishes 1 API on the [APIs.io](https://apis.io/) network: Data & Intelligence API. Tagged areas include Payments, United Kingdom, Open Banking, Open Finance, and Account-to-Account.
+overview: 'Moneyhub publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Affordability API, Beneficiaries API, and 17 more. Tagged areas include Payments, United Kingdom, Open Banking, Open Finance, and Account-to-Account.
 
 
   The Moneyhub catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Moneyhub''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, engineering blog, and 31 more developer resources.'
+  Moneyhub''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, engineering blog, and 32 more developer resources.'
 random_paper: 10
 scopes:
 - name: Moneyhub Scopes
@@ -232,18 +294,23 @@ scopes:
   summary_line: 108 scopes
 score:
   band: strong
-  composite: 61.2
-  delta: 0.0
+  composite: 60.7
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
-    contract_quality: 49.3
+    contract_governance: 18.2
+    contract_quality: 57.7
     developer_ergonomics: 60.7
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 48.7
-  previous_composite: 61.2
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -251,15 +318,17 @@ score:
   regulatory:
     applies: true
     jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
     - jurisdiction: UK
       standard: uk-open-banking
-    jurisdictions_satisfied: 1
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 84.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moneyhub/refs/heads/main/screenshots/moneyhub-2026-08-07T184155.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,10 +33,22 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: The undocumented JSON API behind AEMC's Energy Rules application. It serves the consolidated, versioned text of the National Electricity Rules, National Gas Rules and National Energy Retail Rules — ev
-  name: AEMC Energy Rules API
-  slug: aemc-energy-rules-api
-artifact_total: 14
+- description: Defined terms for a rule version.
+  name: Australian Energy Market Commission Glossary API
+  slug: aemc-glossary-api
+- description: The structural tree of a rule version — chapters, parts, divisions, rules and clauses.
+  name: Australian Energy Market Commission Rule Content API
+  slug: aemc-rule-content-api
+- description: Versions of the National Electricity, Gas and Energy Retail Rules, with their published PDF and DOCX artefacts.
+  name: Australian Energy Market Commission Rule Versions API
+  slug: aemc-rule-versions-api
+- description: Full-text search within a single rule version.
+  name: Australian Energy Market Commission Search API
+  slug: aemc-search-api
+- description: Application settings exposed to the client.
+  name: Australian Energy Market Commission Settings API
+  slug: aemc-settings-api
+artifact_total: 18
 collections:
 - collection_type: open
   name: AEMC Energy Rules API
@@ -190,7 +202,7 @@ modified: '2026-07-27'
 name: Australian Energy Market Commission
 nav: Providers
 network: true
-overview: 'Australian Energy Market Commission publishes 1 API on the [APIs.io](https://apis.io/) network: AEMC Energy Rules API. Tagged areas include Energy, Australia, Energy Markets, Electricity, and Gas.
+overview: 'Australian Energy Market Commission publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Glossary API, Rule Content API, Rule Versions API, and 2 more. Tagged areas include Energy, Australia, Energy Markets, Electricity, and Gas.
 
 
   Australian Energy Market Commission''s developer surface includes support, documentation, engineering blog, authentication, code examples, changelog, and 22 more developer resources.'
@@ -201,18 +213,23 @@ rate_limits:
   slug: aemc-rate-limits
 score:
   band: thin
-  composite: 31.0
-  delta: 1.9
+  composite: 30.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 16.5
+    contract_governance: 4.5
+    contract_quality: 15.7
     developer_ergonomics: 39.9
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 29.1
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -229,8 +246,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -25,7 +25,7 @@ slug: arthur-ventures
 tags:
 - Venture Capital
 - B2B Software
-- Enterprise Saas
+- Enterprise SaaS
 - Early Stage
 - Growth Stage
 - Cybersecurity

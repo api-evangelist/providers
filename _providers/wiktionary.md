@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -148,6 +148,18 @@ collections:
   name: Wiktionary MediaWiki Core REST Definition Transform API
   slug: open-wiktionary-transform-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/wikimedia/mediawiki/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/wikimedia/mediawiki/blob/master/SECURITY
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/wikimedia/mediawiki/blob/master/CODE_OF_CONDUCT.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -653,7 +665,7 @@ overview: 'Wiktionary publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
   The Wiktionary catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Wiktionary''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, changelog, and 32 more developer resources.'
+  Wiktionary''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, changelog, and 35 more developer resources.'
 random_paper: 13
 rules:
 - effective_rule_count: 6
@@ -684,18 +696,26 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.0
-  delta: 4.5
+  composite: 53.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 47.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 28.8
-    contract_quality: 31.1
+    contract_quality: 31.4
     developer_ergonomics: 71.4
     discoverability: 75.9
     governance: 28.8
-    operational_transparency: 34.2
-  previous_composite: 47.5
+    operational_transparency: 44.7
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     contracts:
@@ -709,8 +729,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 75.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wiktionary/refs/heads/main/screenshots/wiktionary-2026-06-20T201458.png
 security:

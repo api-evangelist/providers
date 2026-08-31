@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 14
   slug: uncapped-agentic-access
   summary_line: 14 operations · 9 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Applicant API for external access
   name: Uncapped Applicants API
@@ -193,18 +193,23 @@ overview: 'Uncapped publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 8
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 31.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 67.2
     developer_ergonomics: 20.8
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 33.8
+  previous_composite: 32.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -215,8 +220,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uncapped/refs/heads/main/screenshots/uncapped-2026-08-17T082550.png
 security:

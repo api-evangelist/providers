@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 3
   slug: confrere-agentic-access
   summary_line: 3 operations · 3 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The Room API from Confrere — 2 operation(s) for room.
   name: Confrere Room API
@@ -183,19 +183,24 @@ overview: 'Confrere publishes 2 APIs on the [APIs.io](https://apis.io/) network:
   Confrere''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, authentication, and 18 more developer resources.'
 random_paper: 12
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 37.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 41.5
     developer_ergonomics: 47.0
     discoverability: 66.7
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 39.3
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -212,8 +217,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confrere/refs/heads/main/screenshots/confrere-2026-07-25T210253.png
 security:

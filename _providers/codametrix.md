@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 8
   slug: codametrix-agentic-access
   summary_line: 8 operations
-api_count: 5
+api_count: 1
 apis:
 - description: The component tree for the CodaMetrix platform.
   name: CodaMetrix Components API
@@ -226,25 +226,30 @@ modified: '2026-08-04'
 name: CodaMetrix
 nav: Providers
 network: true
-overview: 'CodaMetrix publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Components API, Incidents API, Scheduled Maintenances API, and 2 more. Tagged areas include Company, Healthcare, Health Systems, Medical Coding, and Autonomous Coding.
+overview: 'CodaMetrix publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Components API, Incidents API, Scheduled Maintenances API, and 2 more. Tagged areas include Company, healthcare, health-systems, medical-coding, and autonomous-coding.
 
 
   CodaMetrix''s developer surface includes engineering blog, support, code examples, authentication, documentation, and 25 more developer resources.'
 random_paper: 1
 score:
-  band: developing
-  composite: 42.2
-  delta: 1.4
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 71.4
     commercial_clarity: 71.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 16.5
     developer_ergonomics: 37.5
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 40.8
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -261,8 +266,8 @@ score:
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codametrix/refs/heads/main/screenshots/codametrix-2026-08-07T163535.png
 security:
@@ -281,16 +286,16 @@ security:
 slug: codametrix
 tags:
 - Company
-- Healthcare
-- Health Systems
-- Medical Coding
-- Autonomous Coding
-- Revenue Cycle Management
-- Clinical Documentation
-- Healthcare AI
-- Machine-Learning
-- Natural Language Processing
-- EHR Integration
+- healthcare
+- health-systems
+- medical-coding
+- autonomous-coding
+- revenue-cycle-management
+- clinical-documentation
+- healthcare-ai
+- machine-learning
+- natural-language-processing
+- ehr-integration
 - Status
 website: https://www.codametrix.com/
 ---

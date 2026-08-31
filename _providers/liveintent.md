@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,19 +42,34 @@ agentic_access:
   summary_line: 20 operations · 12 acting
 api_count: 4
 apis:
-- description: Programmatically create and manage LiveIntent custom audiences. Partners create an audience, mint a signed URL to upload member hashes out of band, poll upload status, read daily total and match count
-  name: LiveIntent Audiences API
-  slug: audiences
-- description: Submit data subject requests to LiveIntent programmatically to satisfy CCPA and GDPR obligations. Supports RESTRICT (opt out of sale), ERASURE (delete) and ACCESS (produce a report) actions against ha
-  name: LiveIntent Privacy Management API
-  slug: privacy
 - description: Query LiveIntent publisher and advertiser reporting data. A single executeQuery endpoint accepts a report type, an absolute or dynamic date interval, a granularity of day, week, month or all, plus spl
   name: LiveIntent Reporting API
   slug: reporting
 - description: LiveIntent's exchange-side real-time bidding integration for demand-side platforms. It implements a subset of the IAB OpenRTB API Specification 2.5 together with OpenRTB Native Ads 1.1 and 1.2, passin
   name: LiveIntent Programmatic Bidding API
   slug: programmatic-bidding
-artifact_total: 12
+- description: This API reference describes how to interact with the Privacy Management API.
+  name: LiveIntent API references API
+  slug: liveintent-api-references-api
+- description: The Audiences API from LiveIntent — 5 operation(s) for audiences.
+  name: LiveIntent Audiences API
+  slug: liveintent-audiences-api
+- description: The Eventtrackers API from LiveIntent — 1 operation(s) for eventtrackers.
+  name: LiveIntent Eventtrackers API
+  slug: liveintent-eventtrackers-api
+- description: Legacy endpoints for backward compatibility. These endpoints are deprecated and should not be used for new integrations.
+  name: LiveIntent Legacy API
+  slug: liveintent-legacy-api
+- description: The Search API from LiveIntent — 2 operation(s) for search.
+  name: LiveIntent Search API
+  slug: liveintent-search-api
+- description: The Trackers API from LiveIntent — 1 operation(s) for trackers.
+  name: LiveIntent Trackers API
+  slug: liveintent-trackers-api
+- description: The Urltrackers API from LiveIntent — 1 operation(s) for urltrackers.
+  name: LiveIntent Urltrackers API
+  slug: liveintent-urltrackers-api
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Liveintent Events
@@ -192,7 +207,7 @@ modified: '2026-08-12'
 name: LiveIntent
 nav: Providers
 network: true
-overview: 'LiveIntent publishes 2 APIs on the [APIs.io](https://apis.io/) network: Audiences API and Privacy Management API. Tagged areas include Company, Advertising, AdTech, Identity, and Email Marketing.
+overview: 'LiveIntent publishes 7 APIs on the [APIs.io](https://apis.io/) network, including API references API, Audiences API, Eventtrackers API, and 4 more. Tagged areas include Company, Advertising, AdTech, Identity, and Email Marketing.
 
 
   The LiveIntent catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -210,18 +225,23 @@ rate_limits:
   slug: liveintent-rate-limits
 score:
   band: developing
-  composite: 42.4
+  composite: 42.2
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 30.3
-    contract_quality: 53.4
+    contract_governance: 18.2
+    contract_quality: 55.4
     developer_ergonomics: 58.9
-    discoverability: 64.8
-    governance: 30.3
+    discoverability: 72.2
+    governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 42.4
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -231,8 +251,8 @@ score:
       marker_coverage: 0.0
       total: 2
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/screenshots/liveintent-2026-07-25T225352.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,15 +42,21 @@ agentic_access:
   operation_count: 9
   slug: karumi-agentic-access
   summary_line: 9 operations
-api_count: 2
+api_count: 1
 apis:
-- description: Read-only REST API over Karumi session data — demo sessions and their full transcripts, per-session insights, session recordings, meeting events, aggregate and time-series analytics, and the targets (
-  name: Karumi Public API
-  slug: karumi-public-api
 - description: Hosted, remote MCP server that exposes a Karumi workspace to any MCP-compatible client. 37 published tools cover organizations, agents, sessions, transcripts (keyword and semantic search), leads, comp
   name: Karumi MCP Server
   slug: karumi-mcp-server
-artifact_total: 11
+- description: The Analytics API from Karumi — 2 operation(s) for analytics.
+  name: Karumi Analytics API
+  slug: karumi-analytics-api
+- description: The Sessions API from Karumi — 5 operation(s) for sessions.
+  name: Karumi Sessions API
+  slug: karumi-sessions-api
+- description: The Targets API from Karumi — 2 operation(s) for targets.
+  name: Karumi Targets API
+  slug: karumi-targets-api
+artifact_total: 13
 common:
 - group: agent
   title: ''
@@ -191,7 +197,7 @@ modified: '2026-08-13'
 name: Karumi
 nav: Providers
 network: true
-overview: 'Karumi publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, AI Agents, Product Demos, Sales Enablement, and Go-To-Market.
+overview: 'Karumi publishes 3 APIs on the [APIs.io](https://apis.io/) network: Analytics API, Sessions API, and Targets API. Tagged areas include Company, AI Agents, Product Demos, Sales Enablement, and Go-To-Market.
 
 
   Karumi''s developer surface includes documentation, API reference, authentication, engineering blog, pricing, signup flow, and 25 more developer resources.'
@@ -211,25 +217,30 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.1
-  delta: 0.0
+  composite: 41.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 48.3
     developer_ergonomics: 32.7
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 44.1
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/screenshots/karumi-2026-07-25T223528.png
 security:

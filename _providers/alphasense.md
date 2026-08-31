@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: alphasense-agentic-access
   summary_line: 5 operations · 4 acting
-api_count: 18
+api_count: 2
 apis:
 - description: Time-series operations for theme, keyword, and topic frequency across the document corpus - the back end behind AlphaSense's Trend visualisations and competitive-intelligence dashboards.
   name: AlphaSense Trends API
@@ -62,21 +62,6 @@ apis:
 - description: OAuth 2.0 token exchange for the AlphaSense platform.
   name: AlphaSense Authentication API
   slug: alphasense-authentication-api
-- description: Broker research firm reference data (1,500+ firms).
-  name: AlphaSense Brokers API
-  slug: alphasense-brokers-api
-- description: Company entity resolution and metadata.
-  name: AlphaSense Companies API
-  slug: alphasense-companies-api
-- description: Long-horizon Deep Research agent invocations and progress polling.
-  name: AlphaSense Deep Research API
-  slug: alphasense-deep-research-api
-- description: GraphQL document search across the AlphaSense corpus.
-  name: AlphaSense Document Search API
-  slug: alphasense-document-search-api
-- description: Bulk document and report export.
-  name: AlphaSense Download API
-  slug: alphasense-download-api
 - description: Generative-search mutations and conversation polling for AlphaSense GenSearch.
   name: AlphaSense GenSearch API
   slug: alphasense-gensearch-api
@@ -86,19 +71,7 @@ apis:
 - description: Document search across the AlphaSense corpus (500M+ documents).
   name: AlphaSense Search API
   slug: alphasense-search-api
-- description: Keyword and theme frequency over time.
-  name: AlphaSense Trends API
-  slug: alphasense-trends-api
-- description: User profile and entitlement operations.
-  name: AlphaSense User API
-  slug: alphasense-user-api
-- description: User watchlist CRUD operations.
-  name: AlphaSense Watchlist API
-  slug: alphasense-watchlist-api
-- description: Pre-built and customer-defined workflow-agent invocations.
-  name: AlphaSense Workflow Agents API
-  slug: alphasense-workflow-agents-api
-artifact_total: 118
+artifact_total: 109
 collections:
 - collection_type: postman
   name: AlphaSense Agent Authentication API
@@ -421,7 +394,7 @@ modified: '2026-05-23'
 name: AlphaSense
 nav: Providers
 network: true
-overview: 'AlphaSense publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Brokers API, Companies API, and 10 more. Tagged areas include Market Intelligence, Financial Research, Search, Generative AI, and AI Agents.
+overview: 'AlphaSense publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, GenSearch API, Ingestion API, and 1 more. Tagged areas include Market Intelligence, Financial Research, Search, Generative AI, and AI Agents.
 
 
   The AlphaSense catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -461,7 +434,12 @@ rules:
 score:
   band: strong
   composite: 54.7
-  delta: 2.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 27.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -471,7 +449,7 @@ score:
     discoverability: 75.9
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 51.8
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     contracts:
@@ -479,8 +457,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphasense/refs/heads/main/screenshots/alphasense-2026-06-20T171557.png
 security:

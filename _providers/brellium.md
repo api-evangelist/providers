@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 17
   slug: brellium-agentic-access
   summary_line: 17 operations · 11 acting
-api_count: 9
+api_count: 1
 apis:
 - description: The Audits API from Brellium — 2 operation(s) for audits.
   name: Brellium Audits API
@@ -107,6 +107,10 @@ collections:
   name: Brellium Audits Users API
   slug: open-brellium-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/brellium-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -221,22 +225,27 @@ overview: 'Brellium publishes 9 APIs on the [APIs.io](https://apis.io/) network,
   The Brellium catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Brellium''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, support, and 17 more developer resources.'
+  Brellium''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, support, and 18 more developer resources.'
 random_paper: 20
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 44.2
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 52.9
     developer_ergonomics: 39.9
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 46.3
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -249,12 +258,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/screenshots/brellium-2026-07-25T203751.png
 security:

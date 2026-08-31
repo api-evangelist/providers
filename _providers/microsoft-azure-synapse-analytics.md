@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 6
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 160
   slug: microsoft-azure-synapse-analytics-agentic-access
   summary_line: 160 operations · 93 acting · 6 human-in-the-loop
-api_count: 35
+api_count: 30
 apis:
 - description: The AzureADOnlyAuthentications API from Azure Synapse Analytics — 2 operation(s) for azureadonlyauthentications.
   name: Azure Synapse Analytics AzureADOnlyAuthentications API
@@ -477,6 +477,10 @@ collections:
   name: Azure Synapse Analytics - Access Control AzureADOnlyAuthentications Workspaces API
   slug: open-microsoft-azure-synapse-analytics-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-azure-synapse-analytics-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1070,7 +1074,7 @@ overview: 'Azure Synapse Analytics publishes 35 APIs on the [APIs.io](https://ap
   The Azure Synapse Analytics catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Azure Synapse Analytics'' developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, pricing, and 33 more developer resources.'
+  Azure Synapse Analytics'' developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, pricing, and 34 more developer resources.'
 plans:
 - name: Microsoft Azure Synapse Analytics Plans Pricing
   plan_count: 5
@@ -1099,6 +1103,11 @@ scopes:
 score:
   band: developing
   composite: 52.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 47.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
@@ -1117,8 +1126,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-synapse-analytics/refs/heads/main/screenshots/microsoft-azure-synapse-analytics-2026-06-20T185441.png
 security:

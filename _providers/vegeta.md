@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Vegeta is an open source HTTP load testing tool and library written in Go for generating constant request rates. Supports targets from files or stdin, rate limiting (req/s), duration control, configur
@@ -41,6 +41,18 @@ apis:
   slug: vegeta
 artifact_total: 24
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/tsenart/vegeta/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/tsenart/vegeta/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/tsenart/vegeta/blob/master/.github/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -126,7 +138,7 @@ overview: 'Vegeta publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   The Vegeta catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Vegeta''s developer surface includes documentation and 5 more developer resources.'
+  Vegeta''s developer surface includes documentation and 8 more developer resources.'
 plans:
 - name: Vegeta Plans Pricing
   plan_count: 3
@@ -149,8 +161,13 @@ rules:
   slug: vegeta-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 20.4
-  delta: 1.7
+  composite: 25.2
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 55.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -159,10 +176,13 @@ score:
     developer_ergonomics: 9.5
     discoverability: 59.3
     governance: 25.0
-    operational_transparency: 10.5
-  previous_composite: 18.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 25.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vegeta/refs/heads/main/screenshots/vegeta-2026-06-20T200856.png
 slug: vegeta

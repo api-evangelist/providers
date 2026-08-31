@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 9
@@ -31,29 +31,89 @@ agentic_access:
   operation_count: 106
   slug: agntcy-agentic-access
   summary_line: 106 operations · 56 acting · 9 human-in-the-loop
-api_count: 5
+api_count: 4
 apis:
-- description: The Open Agentic Schema Framework schema server API. Browse and retrieve the OASF schema, walk the skill / domain / module taxonomies, generate samples, translate taxonomy values, and validate agent r
-  name: OASF Schema API
-  slug: oasf-schema-api
-- description: 'A standard REST interface for invoking and configuring remote agents: agent discovery and descriptors, stateful threads, thread runs, and stateless runs, each with create / wait / stream / resume / ca'
-  name: Agent Connect Protocol (ACP)
-  slug: agent-connect-protocol-acp
-- description: 'Manages identity and access control in the AGNTCY ecosystem: register agents, MCP servers and tools as apps (including directly from an OASF record), issue and verify W3C Verifiable Credential badges,'
-  name: AGNTCY Identity Service API
-  slug: agntcy-identity-service-api
-- description: The identity node that generates and resolves agent IDs, registers issuers and serves their JWKS, and publishes, revokes, searches and verifies Verifiable Credentials. OpenAPI 3.0.3, 9 operations, gen
-  name: AGNTCY Identity Node API
-  slug: agntcy-identity-node-api
 - description: Distributed announce and discovery of multi-agent systems. gRPC-first, with services for storage (content-addressed by CID), routing over a DHT, structured search, signing and verification, domain nam
   name: Agent Directory (DIR)
   slug: agent-directory-dir
-artifact_total: 21
+- description: Agents are AI workflows that can be configured and/or executed on this server. This means that a client of this server can start a Run on any of the Agents supported by this server. Each agent may sup
+  name: AGNTCY Agents API
+  slug: agntcy-agents-api
+- description: AppService manages apps.
+  name: AGNTCY App Service API
+  slug: agntcy-appservice-api
+- description: AuthService manages auth.
+  name: AGNTCY Auth Service API
+  slug: agntcy-authservice-api
+- description: BadgeService manages badges.
+  name: AGNTCY Badge Service API
+  slug: agntcy-badgeservice-api
+- description: The Classes and Objects API from AGNTCY — 4 operation(s) for classes and objects.
+  name: AGNTCY Classes and Objects API
+  slug: agntcy-classes-and-objects-api
+- description: DeviceService manages device.
+  name: AGNTCY Device Service API
+  slug: agntcy-deviceservice-api
+- description: IdService is the service that provides ID operations.
+  name: AGNTCY ID Service API
+  slug: agntcy-idservice-api
+- description: IssuerService is the service that provides ISSUER node operations.
+  name: AGNTCY Issuer Service API
+  slug: agntcy-issuerservice-api
+- description: The JSON Schema API from AGNTCY — 4 operation(s) for json schema.
+  name: AGNTCY JSON Schema API
+  slug: agntcy-json-schema-api
+- description: PolicyService manages policy.
+  name: AGNTCY Policy Service API
+  slug: agntcy-policyservice-api
+- description: The Sample Data API from AGNTCY — 4 operation(s) for sample data.
+  name: AGNTCY Sample Data API
+  slug: agntcy-sample-data-api
+- description: The Schema API from AGNTCY — 8 operation(s) for schema.
+  name: AGNTCY Schema API
+  slug: agntcy-schema-api
+- description: SettingsService manages settings.
+  name: AGNTCY Settings Service API
+  slug: agntcy-settingsservice-api
+- description: A Run represents an execution of an agent. The output of a Run can be a final result or an interrupt. Result from a run can be retrieved by polling or by blocking and waiting for the result. See `Run`
+  name: AGNTCY Stateless Runs API
+  slug: agntcy-stateless-runs-api
+- description: The Taxonomy API from AGNTCY — 3 operation(s) for taxonomy.
+  name: AGNTCY Taxonomy API
+  slug: agntcy-taxonomy-api
+- description: Thread Runs are runs created on a thread. A Thread Run can be created on a thread **only** if there is no run in the `pending` status on the same thread, i.e. if the thread is in the state `idle` Note
+  name: AGNTCY Thread Runs API
+  slug: agntcy-thread-runs-api
+- description: If supported by the involved agents, Run can be grouped in Threads. When a run is executed on a thread is called Thread Run. At the end of a Thread Run, the server keeps a thread state associated to t
+  name: AGNTCY Threads API
+  slug: agntcy-threads-api
+- description: The Translation API from AGNTCY — 4 operation(s) for translation.
+  name: AGNTCY Translation API
+  slug: agntcy-translation-api
+- description: The Validation API from AGNTCY — 4 operation(s) for validation.
+  name: AGNTCY Validation API
+  slug: agntcy-validation-api
+- description: VC is the service that provides VC operations.
+  name: AGNTCY Vc Service API
+  slug: agntcy-vcservice-api
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Agntcy Events
   slug: agntcy-events
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/agntcy-oasf-schema-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/agntcy-identity-service-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/agntcy-identity-node-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -276,13 +336,13 @@ modified: '2026-08-19'
 name: AGNTCY
 nav: Providers
 network: true
-overview: 'AGNTCY publishes 4 APIs on the [APIs.io](https://apis.io/) network, including OASF Schema API, Agent Connect Protocol (ACP), Identity Service API, and 1 more. Tagged areas include AI Agents, Interoperability, Specification, Open-Source, and Agent Discovery.
+overview: 'AGNTCY publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Agents API, App Service API, Auth Service API, and 17 more. Tagged areas include AI Agents, Interoperability, Specification, Open-Source, and Agent Discovery.
 
 
   The AGNTCY catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AGNTCY''s developer surface includes authentication, developer portal, documentation, API reference, sandbox, developer console, changelog, and 39 more developer resources.'
+  AGNTCY''s developer surface includes authentication, developer portal, documentation, API reference, sandbox, developer console, changelog, and 42 more developer resources.'
 plans:
 - name: Agntcy Plans Pricing
   plan_count: 0
@@ -294,18 +354,23 @@ rate_limits:
   slug: agntcy-rate-limits
 score:
   band: developing
-  composite: 47.6
+  composite: 45.9
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 57.4
+    contract_governance: 4.5
+    contract_quality: 62.2
     developer_ergonomics: 80.4
-    discoverability: 72.2
-    governance: 16.7
+    discoverability: 57.4
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 47.6
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -316,8 +381,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

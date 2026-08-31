@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -151,6 +151,10 @@ collections:
   name: OpenFEMA API
   slug: open-department-of-homeland-security
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/department-of-homeland-security-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -262,7 +266,7 @@ overview: 'Department of Homeland Security publishes 14 APIs on the [APIs.io](ht
   The Department of Homeland Security catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Department of Homeland Security''s developer surface includes privacy policy, engineering blog, and 20 more developer resources.'
+  Department of Homeland Security''s developer surface includes privacy policy, engineering blog, and 21 more developer resources.'
 plans:
 - name: Department Of Homeland Security Plans Pricing
   plan_count: 3
@@ -275,7 +279,12 @@ rate_limits:
 score:
   band: thin
   composite: 36.1
-  delta: 5.8
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 47.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
@@ -285,7 +294,7 @@ score:
     discoverability: 74.1
     governance: 15.2
     operational_transparency: 26.3
-  previous_composite: 30.3
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -299,9 +308,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-homeland-security/refs/heads/main/screenshots/department-of-homeland-security-2026-06-20T175917.png
 security:
 - kind: domain-security

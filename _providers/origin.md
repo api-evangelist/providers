@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,6 +55,10 @@ collections:
   name: Trades API
   slug: open-origin-trades-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/origin-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -172,22 +176,27 @@ network: true
 overview: 'Origin publishes 1 API on the [APIs.io](https://apis.io/) network: Trades API. Tagged areas include Company, Financial-Services, Capital Markets, Bond Issuance, and Debt Capital Markets.
 
 
-  Origin''s developer surface includes authentication, changelog, documentation, API reference, engineering blog, support, and 17 more developer resources.'
+  Origin''s developer surface includes authentication, changelog, documentation, API reference, engineering blog, support, and 18 more developer resources.'
 random_paper: 18
 score:
-  band: developing
-  composite: 40.4
-  delta: 2.2
+  band: thin
+  composite: 38.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 44.9
     developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 38.2
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -198,8 +207,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/screenshots/origin-2026-08-07T190930.png
 security:

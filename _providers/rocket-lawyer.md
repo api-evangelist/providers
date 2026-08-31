@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 51
   slug: rocket-lawyer-agentic-access
   summary_line: 51 operations · 34 acting
-api_count: 8
+api_count: 4
 apis:
 - description: The Accesstoken API from Rocket Lawyer — 1 operation(s) for accesstoken.
   name: Rocket Lawyer Accesstoken API
@@ -270,6 +270,11 @@ random_paper: 9
 score:
   band: thin
   composite: 35.4
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 27.6
@@ -288,8 +293,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocket-lawyer/refs/heads/main/screenshots/rocket-lawyer-2026-06-20T193152.png
 security:
@@ -312,7 +317,7 @@ tags:
 - Legal Tech
 - Legal Documents
 - Electronic Signature
-- E-Signature
+- eSignature
 - Document Creation
 - Document-Management
 - Business Formation

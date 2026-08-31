@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 20
   slug: respond-agentic-access
   summary_line: 20 operations · 15 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Internal collaboration comments on a contact.
   name: Respond.io Comments API
@@ -89,6 +89,10 @@ collections:
   name: Respond.io Developer API
   slug: open-respond
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/respond-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -148,7 +152,7 @@ network: true
 overview: 'Respond.io publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Contacts API, Conversations API, and 3 more. Tagged areas include Messaging, Omnichannel, Customer Conversations, WhatsApp, and Artificial Intelligence.
 
 
-  Respond.io''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Respond.io''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Respond Plans Pricing
   plan_count: 4
@@ -160,18 +164,23 @@ rate_limits:
   slug: respond-rate-limits
 score:
   band: developing
-  composite: 43.1
-  delta: 2.4
+  composite: 42.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 59.8
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 40.7
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +188,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/screenshots/respond-2026-06-20T192954.png
 security:

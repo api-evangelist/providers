@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 9
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 80
   slug: amazon-workmail-agentic-access
   summary_line: 80 operations · 80 acting · 9 human-in-the-loop
-api_count: 80
+api_count: 1
 apis:
 - description: 'The #X Amz Target=WorkMailService.AssociateDelegateToResource API from Amazon WorkMail — 1 operation(s) for #x amz target=workmailservice.associatedelegatetoresource.'
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource API'
@@ -770,6 +770,10 @@ collections:
   name: 'Amazon WorkMail #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.AssociateDelegateToResource #X Amz Target=WorkMailService.UpdateResource API'
   slug: open-amazon-workmail-x-amz-target-workmailservice-updateresource-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-workmail-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -3229,7 +3233,7 @@ overview: 'Amazon WorkMail publishes 80 APIs on the [APIs.io](https://apis.io/) 
   The Amazon WorkMail catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon WorkMail''s developer surface includes authentication, developer portal, documentation, developer console, support, signup flow, and 13 more developer resources.'
+  Amazon WorkMail''s developer surface includes authentication, developer portal, documentation, developer console, support, signup flow, and 14 more developer resources.'
 plans:
 - name: Amazon Workmail Plans Pricing
   plan_count: 3
@@ -3263,18 +3267,23 @@ rules:
   slug: amazon-workmail-spectral-rules
 score:
   band: strong
-  composite: 59.1
-  delta: 5.9
+  composite: 60.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 28.8
     contract_quality: 65.3
     developer_ergonomics: 66.7
-    discoverability: 50.0
+    discoverability: 63.0
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 53.2
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     contracts:
@@ -3288,9 +3297,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 70.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-workmail/refs/heads/main/screenshots/amazon-workmail-2026-06-20T171848.png
 security:
 - kind: authentication

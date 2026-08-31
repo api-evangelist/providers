@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 153
   human_in_the_loop: 0
@@ -44,30 +44,27 @@ agentic_access:
   operation_count: 421
   slug: crunchbase-data-agentic-access
   summary_line: 421 operations · 153 acting
-api_count: 7
+api_count: 6
 apis:
-- description: Core and advanced firmographics for private and public companies - name, type, legal status, employee count, key leadership, ownership structure, accelerators, diversity, education and public activity
-  name: Crunchbase Fundamentals - Firmographic Package
-  slug: crunchbase-data-firmographic
-- description: Funding stages, round history, valuations and investor details layered on the firmographic core. 46 operations.
-  name: Crunchbase Fundamentals - Core Financials Package
-  slug: crunchbase-data-core-financials
-- description: Deeper financial history, valuation estimates and ownership detail across the private company lifecycle. 57 operations.
-  name: Crunchbase Fundamentals - Advanced Financials Package
-  slug: crunchbase-data-advanced-financials
-- description: AI-powered analyses of past and present private market activity - growth insights, investor insights, research insights, market insights and micro-industries, combining proprietary historical data wit
-  name: Crunchbase Insights Package
-  slug: crunchbase-data-insights
-- description: AI-powered forecasts on funding, growth, acquisitions, IPOs, layoffs and closures, with time horizons on the exit predictions. 71 operations.
-  name: Crunchbase Predictions Package
-  slug: crunchbase-data-predictions
-- description: The widest published Crunchbase surface - both AI packages together, 109 operations across 43 entity collections, including market insight signals and investor matches.
-  name: Crunchbase Predictions & Insights Package
-  slug: crunchbase-data-predictions-insights
 - description: First-party remote Model Context Protocol server over Streamable HTTP, exposing fourteen tools - five natural-language expert tools, four structured schema/lookup/search tools, four Crunchbase list to
   name: Crunchbase MCP Server
   slug: crunchbase-data-mcp
-artifact_total: 22
+- description: The Autocomplete API from Crunchbase — 1 operation(s) for autocomplete.
+  name: Crunchbase Autocomplete API
+  slug: crunchbase-data-autocomplete-api
+- description: The Deleted Entities API from Crunchbase — 2 operation(s) for deleted entities.
+  name: Crunchbase Deleted Entities API
+  slug: crunchbase-data-deleted-entities-api
+- description: The Entity API from Crunchbase — 60 operation(s) for entity.
+  name: Crunchbase Entity API
+  slug: crunchbase-data-entity-api
+- description: The Metadata API from Crunchbase — 3 operation(s) for metadata.
+  name: Crunchbase Metadata API
+  slug: crunchbase-data-metadata-api
+- description: The Search API from Crunchbase — 43 operation(s) for search.
+  name: Crunchbase Search API
+  slug: crunchbase-data-search-api
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -88,6 +85,30 @@ collections:
   name: Crunchbase Data API v4
   slug: open-crunchbase-data
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/crunchbase-data-firmographic-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/crunchbase-data-core-financials-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/crunchbase-data-advanced-financials-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/crunchbase-data-insights-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/crunchbase-data-predictions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/crunchbase-data-predictions-insights-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -253,10 +274,10 @@ modified: '2026-08-14'
 name: Crunchbase
 nav: Providers
 network: true
-overview: 'Crunchbase publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Fundamentals - Firmographic Package, Fundamentals - Core Financials Package, Fundamentals - Advanced Financials Package, and 3 more. Tagged areas include Company Data, Web Intelligence, funding-data, Firmographics, and B2B Data.
+overview: 'Crunchbase publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Deleted Entities API, Entity API, and 2 more. Tagged areas include Company Data, Web Intelligence, Funding Data, Firmographics, and B2B Data.
 
 
-  Crunchbase''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 30 more developer resources.'
+  Crunchbase''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 36 more developer resources.'
 plans:
 - name: Crunchbase Data Plans Pricing
   plan_count: 8
@@ -273,18 +294,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.1
+  composite: 44.8
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 16.7
-    contract_quality: 12.8
+    contract_governance: 4.5
+    contract_quality: 13.5
     developer_ergonomics: 39.9
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 47.1
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,8 +321,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/screenshots/crunchbase-data-2026-07-25T210816.png
 security:
@@ -316,10 +342,10 @@ slug: crunchbase-data
 tags:
 - Company Data
 - Web Intelligence
-- funding-data
+- Funding Data
 - Firmographics
 - B2B Data
-- investor-data
+- Investor Data
 - Reference Data
 - Private Markets
 - Predictions

@@ -23,12 +23,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: REST API with a single endpoint (POST /v1/image/detect) that detects whether an image is AI-generated. Accepts a multipart file upload (JPG, PNG or WebP, up to 8 MB) or a JSON body with a public image
-  name: AI Image Detector API
-  slug: ai-image-detector-api
+- description: Analyze an image and report whether it is AI-generated.
+  name: AnyImageDetector Detection API
+  slug: anyimagedetector-detection-api
 artifact_total: 7
 collections:
 - collection_type: open
@@ -148,7 +148,7 @@ modified: '2026-08-11'
 name: AnyImageDetector
 nav: Providers
 network: true
-overview: 'AnyImageDetector publishes 1 API on the [APIs.io](https://apis.io/) network: AI Image Detector API. Tagged areas include AI image detection, Image Analysis, Computer-Vision, Content Moderation, and Trust and Safety.
+overview: 'AnyImageDetector publishes 1 API on the [APIs.io](https://apis.io/) network: Detection API. Tagged areas include AI image detection, image analysis, Computer-Vision, Content Moderation, and trust & safety.
 
 
   AnyImageDetector''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
@@ -164,6 +164,11 @@ rate_limits:
 score:
   band: developing
   composite: 39.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 76.3
@@ -184,8 +189,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anyimagedetector/refs/heads/main/screenshots/anyimagedetector-2026-08-17T080553.png
 security:
@@ -200,14 +205,14 @@ security:
 slug: anyimagedetector
 tags:
 - AI image detection
-- Image Analysis
+- image analysis
 - Computer-Vision
 - Content Moderation
-- Trust and Safety
-- Fact Checking
+- trust & safety
+- fact-checking
 - media verification
 - Developer Tools
-- Synthetic Media
-- Fraud Prevention
+- synthetic media
+- fraud prevention
 website: https://imagedetector.online/api
 ---

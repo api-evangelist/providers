@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-08-26'
-api_count: 29
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Two remote Model Context Protocol servers. A public read-only documentation server at https://leadping.ai/docs/mcp answers anonymous tools/list with search, virtual-filesystem and feedback tools. An a
   name: Leadping MCP Servers
@@ -119,6 +119,10 @@ asyncapis:
   name: Leadping Webhooks
   slug: leadping-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/leadping-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -313,13 +317,13 @@ modified: '2026-08-18'
 name: Leadping
 nav: Providers
 network: true
-overview: 'Leadping publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Automations API, Call Events API, and 24 more. Tagged areas include Lead Management, Sales & marketing automation, SMS Messaging, A2P 10DLC, and CPaaS.
+overview: 'Leadping publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Automations API, Call Events API, and 24 more. Tagged areas include Lead Management, Sales & marketing automation, SMS/messaging, A2P 10DLC, and CPaaS.
 
 
   The Leadping catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Leadping''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 37 more developer resources.'
+  Leadping''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 38 more developer resources.'
 plans:
 - name: Leadping Plans Pricing
   plan_count: 2
@@ -331,18 +335,23 @@ rate_limits:
   slug: leadping-rate-limits
 score:
   band: exemplar
-  composite: 72.2
-  delta: 0.0
+  composite: 69.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 66.5
     developer_ergonomics: 63.7
-    discoverability: 75.9
-    governance: 45.5
+    discoverability: 63.0
+    governance: 33.3
     operational_transparency: 68.4
-  previous_composite: 72.2
+  previous_composite: 70.0
   provenance:
     conformance: first-party
     contracts:
@@ -358,8 +367,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 59.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -382,13 +391,13 @@ slug: leadping
 tags:
 - Lead Management
 - Sales & marketing automation
-- SMS Messaging
+- SMS/messaging
 - A2P 10DLC
 - CPaaS
 - Communications
 - Voice/calling
 - Compliance & consent
-- agent-native
+- Agent-native
 - MCP
 - Lead intake
 - Conversations

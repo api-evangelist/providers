@@ -23,13 +23,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: The anonymously readable WordPress REST content API behind nurabio.com. It serves the company news archive (9 posts), the six evergreen site pages, the 11-profile leadership, board and founders direct
-  name: Nura Bio Content API
-  slug: nura-bio-content-api
-artifact_total: 5
+- description: Public author projection for users who have published content.
+  name: Nura Bio Directory API
+  slug: nura-bio-directory-api
+- description: Route, type, taxonomy, status and oEmbed discovery endpoints that describe the deployment itself.
+  name: Nura Bio Discovery API
+  slug: nura-bio-discovery-api
+- description: 'The media library: logo assets, team headshots, scientific figures and press-release documents.'
+  name: Nura Bio Media API
+  slug: nura-bio-media-api
+- description: 'The six evergreen site pages: Home, About Us, Our Science, News & Literature, Join Us, Contact.'
+  name: Nura Bio Pages API
+  slug: nura-bio-pages-api
+- description: The people directory — leadership, board of directors, and founders and advisors — carried on the Avada theme `portfolio` custom post type and its `portfolio_entries` taxonomy.
+  name: Nura Bio Portfolio API
+  slug: nura-bio-portfolio-api
+- description: The company news archive — press releases and financing, clinical and publication announcements.
+  name: Nura Bio Posts API
+  slug: nura-bio-posts-api
+- description: Category and tag terms applied to the news archive.
+  name: Nura Bio Taxonomy API
+  slug: nura-bio-taxonomy-api
+artifact_total: 11
 common:
 - group: company
   title: ''
@@ -124,7 +142,7 @@ modified: '2026-08-26'
 name: Nura Bio
 nav: Providers
 network: true
-overview: 'Nura Bio publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Company, Biotechnology, Pharmaceuticals, Neuroscience, and Neurodegeneration.
+overview: 'Nura Bio publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Directory API, Discovery API, Media API, and 4 more. Tagged areas include Company, biotechnology, pharmaceuticals, neuroscience, and neurodegeneration.
 
 
   Nura Bio''s developer surface includes product news, authentication, and 19 more developer resources.'
@@ -139,16 +157,23 @@ rate_limits:
   slug: nura-bio-rate-limits
 score:
   band: thin
-  composite: 28.4
+  composite: 27.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 52.4
     developer_ergonomics: 13.7
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
+  previous_composite: 27.5
   provenance:
     conformance: derived
     contracts:
@@ -164,8 +189,9 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Nura Bio Authentication
@@ -178,15 +204,15 @@ security:
 slug: nura-bio
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Neuroscience
-- Neurodegeneration
-- Drug Discovery
-- Life Sciences
-- Clinical Trials
-- Rare Disease
-- Small Molecule Therapeutics
-- Content
+- biotechnology
+- pharmaceuticals
+- neuroscience
+- neurodegeneration
+- drug-discovery
+- life-sciences
+- clinical-trials
+- rare-disease
+- small-molecule-therapeutics
+- content-api
 website: https://nurabio.com/
 ---

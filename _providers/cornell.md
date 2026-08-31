@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: cornell-agentic-access
   summary_line: 11 operations
-api_count: 6
+api_count: 2
 apis:
 - description: 'Public, read-only API (version 2.0) for Cornell Class Roster data: scheduled classes with Course of Study detail, plus configuration lookups for rosters, academic careers, academic groups, class level'
   name: Cornell Class Roster API
@@ -50,9 +50,6 @@ apis:
 - description: JSON search over Cornell University Library's catalog. The catalog is the library's own Blacklight deployment; appending .json to any catalog route returns a Solr-backed JSON envelope, and an OpenSear
   name: Cornell University Library Catalog Search API
   slug: library-catalog
-- description: JSON:API search and record retrieval for CUGIR, Cornell University Library's geospatial data and historical map repository, running GeoBlacklight on the library's own infrastructure. Records carry Ope
-  name: CUGIR — Cornell University Geospatial Information Repository API
-  slug: cugir
 - description: 'Global bird-observation API run by the Cornell Lab of Ornithology, a unit of Cornell University. Free but token-gated: requests without a valid X-eBirdApiToken return 403. Reference documentation is p'
   name: eBird API 2.0
   slug: ebird
@@ -62,6 +59,9 @@ apis:
 - description: 'The Cornell events calendar at events.cornell.edu answers a live JSON API at /api/2/events, and the data is Cornell''s. The platform is Localist (Concept3D): the response headers carry x-slzr-platform:'
   name: Cornell Events Calendar API (Localist) — tenant
   slug: events-calendar
+- description: Search and retrieve Cornell geospatial datasets and historical maps.
+  name: Cornell University Cugir API
+  slug: cornell-cugir-api
 artifact_total: 22
 common:
 - group: company
@@ -222,7 +222,7 @@ modified: '2026-08-19'
 name: Cornell University
 nav: Providers
 network: true
-overview: 'Cornell University publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cornell Class Roster API, Library Catalog Search API, and CUGIR — Cornell University Geospatial Information Repository API. Tagged areas include University, Higher Education, Education, Ivy League, and United States.
+overview: 'Cornell University publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cornell Class Roster API, Library Catalog Search API, and Cugir API. Tagged areas include University, Higher Education, Education, Ivy League, and United States.
 
 
   The Cornell University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -262,18 +262,23 @@ rules:
   slug: cornell-rules
 score:
   band: thin
-  composite: 35.9
-  delta: 1.2
+  composite: 35.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 39.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 17.4
     contract_quality: 24.9
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 17.4
     operational_transparency: 23.7
-  previous_composite: 34.7
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -288,8 +293,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/screenshots/cornell-2026-06-20T175031.png
 security:

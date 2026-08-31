@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 249
   human_in_the_loop: 1
@@ -44,332 +44,546 @@ agentic_access:
   operation_count: 405
   slug: zoho-crm-agentic-access
   summary_line: 405 operations · 249 acting · 1 human-in-the-loop
-api_count: 106
+api_count: 105
 apis:
-- description: 'Instant Notifications API for Zoho CRM. Subscribers register a channel via POST /crm/v2/actions/watch with a notify_url and a list of module/operation events (for example Leads.create, Contacts.edit, '
-  name: Zoho CRM Notifications API v2
-  slug: notifications-api-v2
-- description: API to list all available REST APIs in Zoho CRM v8 for the current user and org.
-  name: Zoho CRM Available Apis
-  slug: apis
-- description: API for fetching and updating appointment preferences in Zoho CRM. These preferences define how appointments behave, including job sheet visibility, deal creation, and booking constraints.
-  name: Zoho CRM Appointment Preference
-  slug: appointment-preference
-- description: appointments module api. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 7 operation(s).
-  name: Zoho CRM Appointments API
-  slug: appointments
-- description: Assignment rule apis. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 2 operation(s).
-  name: Zoho CRM Assignment rules
-  slug: assignment-rules
-- description: Associates emails to CRM records and checks availability. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Associate Email API
-  slug: associate-email
-- description: Attachments. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 4 operation(s).
-  name: Zoho CRM Attachments
-  slug: attachments
-- description: Bulk Read. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 3 operation(s).
-  name: Zoho CRM Audit Log Export
-  slug: audit-log-export
-- description: Retrieve the list of currencies supported in CRM. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 0 operation(s).
-  name: Zoho CRM Available Currencies
-  slug: available-currencies
-- description: Bulk Read. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 3 operation(s).
-  name: Zoho CRM Bulk Read
-  slug: bulk-read
-- description: Bulk Write API allows you to insert, update, or upsert a large set of data. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 2 operation(s).
-  name: Zoho CRM Bulk Write
-  slug: bulk-write
-- description: Manage organization-wide business hours configuration for Zoho CRM. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 3 operation(s).
-  name: Zoho CRM Business Hours
-  slug: business-hours
-- description: Unenroll cadence for record. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 2 operation(s).
-  name: Zoho CRM Cadence Execution
-  slug: cadences-execution
-- description: Cadences v8 OAS. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Cadences
-  slug: cadences
-- description: Preference to show From Number / To Number fields in CRM User can enable the respective preference in order to have the field in CRM. i.e. If user needs From Number field, show_fromnumber preference i
-  name: Zoho CRM Call Preferences
-  slug: call-preferences
-- description: To cancel a meeting and to send an email regarding the meeting cancellation to the participants.
-  name: Zoho CRM Cancel Meetings
-  slug: cancel-meetings
-- description: API for changing the owner of records in CRM modules. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 2 operation(s).
-  name: Zoho CRM Change Owner
-  slug: change-owner
-- description: Composite API. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Composite Requests
-  slug: composite-requests
-- description: Contact role API. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 7 operation(s).
-  name: Zoho CRM Contact Roles
-  slug: contact-roles
-- description: API endpoint for retrieving lead conversion options including matching contacts, accounts, field mappings, and layout preferences. Helps determine available conversion paths before performing actual l
-  name: Zoho CRM Lead Conversion Options API
-  slug: conversion-option
-- description: API endpoint for converting Leads into Contacts, Accounts, and Deals within Zoho CRM. Supports configurable conversion options including owner assignment, notification preferences, and tag carryover.
-  name: Zoho CRM Lead Conversion API
-  slug: convert
-- description: COQL APIs to fetch records data based on queries. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Coql
-  slug: coql
-- description: APIs for currencies management in CRM. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 7 operation(s).
-  name: Zoho CRM Currencies
-  slug: currencies
-- description: To apply CRUD operations of customviews, to pin field and to sort fields of customviews
-  name: Zoho CRM Custom Views
-  slug: custom-views
-- description: Data Sharing. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 2 operation(s).
-  name: Zoho CRM Data Sharing
-  slug: data-sharing
-- description: 'API for managing contact roles in Deal records. Track and manage which contacts are associated with deals and their specific roles (e.g., Decision Maker, Influencer). Supports full CRUD operations to '
-  name: Zoho CRM Deal Contact Roles
-  slug: deal-contact-roles
-- description: Record Actions. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 4 operation(s).
-  name: Zoho CRM Deal Link Emails
-  slug: deal-link-emails
-- description: Download attachments associated with emails in Zoho CRM. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Download Email Attachments
-  slug: download-attachments
-- description: Download Inline Images of an Email. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Download Inline Images
-  slug: download-inline-images
-- description: duplicate check preference api. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 4 operation(s).
-  name: Zoho CRM Duplicate Check Preference
-  slug: duplicate-check-preference
-- description: Bad Request. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 5 operation(s).
-  name: Zoho CRM Email Drafts
-  slug: email-drafts
-- description: OpenAPI definition for managing Email Templates APIs. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Email Templates
-  slug: email-templates
-- description: To get the details of the users and the type with whom you can share the record's emails.
-  name: Zoho CRM Get Email Shared Details
-  slug: emails-sharing-details
-- description: Details about the Features. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 2 operation(s).
-  name: Zoho CRM Features
-  slug: features
-- description: Rich Text Fields allow users to input formatted text of up to 50,000 characters, including HTML elements. These fields are ideal for entries that require styling and organization, such as product desc
-  name: Zoho CRM Fetch Full Data
-  slug: fetch-full-data
-- description: FieldUpdate v8 OAS. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 6 operation(s).
-  name: Zoho CRM Field Updates
-  slug: field-updates
-- description: To get the field metadata for the specified module including standard module, custom module, subform module, and linking module in you Zoho CRM account. The fields displayed are from all layouts for t
-  name: Zoho CRM Fields API
-  slug: fields
-- description: Zoho CRM Files API — endpoints to upload and retrieve files. POST /crm/v8/files accepts multipart/form-data with a required 'file' field (binary) and returns upload metadata (id, name, status). GET /c
-  name: Zoho CRM Files
-  slug: files
-- description: API endpoints for finding and merging duplicate records in Zoho CRM modules. Supports querying merge job status and performing record merge operations with field mapping and validation.
-  name: Zoho CRM Find And Merge
-  slug: find-and-merge
-- description: API specification for Fiscal Year. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 2 operation(s).
-  name: Zoho CRM Fiscal Year
-  slug: fiscal-year
-- description: To get the list of email addresses that you can send emails from. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM From Addresses
-  slug: from-addresses
-- description: Get related records count. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Related Records Count
-  slug: get-related-records-count
-- description: Global sets are collections of picklist values that can be associated with multiple picklists across modules. Example use cases include maintaining a consistent set of status values or priority levels
-  name: Zoho CRM Global Picklists
-  slug: global-picklists
-- description: Manage business and shift holidays in Zoho CRM. This API allows you to create, retrieve, update, and delete holidays that affect business hours and shift schedules. Business holidays apply to all user
+- description: The Actions API from Zoho CRM — 36 operation(s) for actions.
+  name: Zoho CRM Actions API
+  slug: zoho-crm-actions-api
+- description: The Apis API from Zoho CRM — 1 operation(s) for apis.
+  name: Zoho CRM APIS API
+  slug: zoho-crm-apis-api
+- description: The Appointments S API from Zoho CRM — 2 operation(s) for appointments s.
+  name: Zoho CRM Appointments S API
+  slug: zoho-crm-appointments-s-api
+- description: The Attachments API from Zoho CRM — 2 operation(s) for attachments.
+  name: Zoho CRM Attachments API
+  slug: zoho-crm-attachments-api
+- description: The Composite Requests API from Zoho CRM — 1 operation(s) for composite requests.
+  name: Zoho CRM Composite Requests API
+  slug: zoho-crm-composite-requests-api
+- description: The Contact Roles API from Zoho CRM — 2 operation(s) for contact roles.
+  name: Zoho CRM Contact Roles API
+  slug: zoho-crm-contact-roles-api
+- description: The Contacts API from Zoho CRM — 4 operation(s) for contacts.
+  name: Zoho CRM Contacts API
+  slug: zoho-crm-contacts-api
+- description: The Coql API from Zoho CRM — 1 operation(s) for coql.
+  name: Zoho CRM Coql API
+  slug: zoho-crm-coql-api
+- description: The Deleted API from Zoho CRM — 2 operation(s) for deleted.
+  name: Zoho CRM Deleted API
+  slug: zoho-crm-deleted-api
+- description: The Email Drafts API from Zoho CRM — 2 operation(s) for email drafts.
+  name: Zoho CRM Email Drafts API
+  slug: zoho-crm-email-drafts-api
+- description: The Emails API from Zoho CRM — 2 operation(s) for emails.
+  name: Zoho CRM Emails API
+  slug: zoho-crm-emails-api
+- description: The Emails Sharing Details API from Zoho CRM — 1 operation(s) for emails sharing details.
+  name: Zoho CRM Emails Sharing Details API
+  slug: zoho-crm-emails-sharing-details-api
+- description: The Events API from Zoho CRM — 1 operation(s) for events.
+  name: Zoho CRM Events API
+  slug: zoho-crm-events-api
+- description: The Features API from Zoho CRM — 2 operation(s) for features.
+  name: Zoho CRM Features API
+  slug: zoho-crm-features-api
+- description: The Files API from Zoho CRM — 1 operation(s) for files.
+  name: Zoho CRM Files API
+  slug: zoho-crm-files-api
+- description: The Global Picklists API from Zoho CRM — 3 operation(s) for global picklists.
+  name: Zoho CRM Global Picklists API
+  slug: zoho-crm-global-picklists-api
+- description: Operations for managing holidays that affect business hours and shift schedules
   name: Zoho CRM Holidays API
-  slug: holidays
-- description: Converts a Quote or Sales Order into Sales Orders or Invoices as applicable. Quotes can be converted into Sales Orders or Invoices.Sales Orders can be converted only into Invoices.
-  name: Zoho CRM Inventory Convert
-  slug: inventory-convert
-- description: OpenAPI definition for managing Inventory Templates APIs. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Inventory Templates
-  slug: inventory-templates
-- description: 'API for layout activation and deactivation in Zoho CRM. Supports activating inactive layouts with profile association management and deactivating active layouts with configuration transfer to another '
-  name: Zoho CRM Layout Activate and Deactivate API
-  slug: layouts-activate-deactivate
-- description: 'CRUD operations on Layout customization for modules in Zoho CRM. Supports getting the details of all layouts or a specific layout of a module, updating a layout, deactivating/activating a layout, and '
+  slug: zoho-crm-holidays-api
+- description: The Layouts API from Zoho CRM — 1 operation(s) for layouts.
   name: Zoho CRM Layouts API
-  slug: layouts
-- description: Record Locking Information APIs allows you to lock records, unlock records, view locking information of locked records and edit locking information of locked records.
-  name: Zoho CRM Locking Information
-  slug: locking-informations
-- description: API specification for MailMerge. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 3 operation(s).
-  name: Zoho CRM Mail Merge
-  slug: mail-merge
-- description: The 'map_dependency' API allows users to manage dependencies between picklist fields in a module layout. It supports operations to retrieve, create, update, and delete field dependencies. These depend
-  name: Zoho CRM Map Dependency
-  slug: map-dependency
-- description: API for mass changing the owner of records in a module based on a custom view. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 2 operation(s).
-  name: Zoho CRM Mass Change Owner
-  slug: mass-change-owner
-- description: Mass convert leads into other CRM modules (Deals/Contacts/Accounts) with options for attachments, tags and related modules.
-  name: Zoho CRM Mass Convert
-  slug: mass-convert
-- description: Mass delete records with record ids and custom view id. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 2 operation(s).
-  name: Zoho CRM Mass Delete Api
-  slug: mass-delete-cvid
-- description: API for mass deletion of tags in Zoho CRM. This endpoint allows administrators to delete multiple tags across modules in bulk.
-  name: Zoho CRM Mass Delete Tags
-  slug: mass-delete-tags
-- description: Enables users to update a specific field value across multiple records within a CRM module.
-  name: Zoho CRM Mass Update API
-  slug: mass-update
-- description: To retrieve records that match your search criteria within a single module. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Search Records
-  slug: module-search
-- description: Modules. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 5 operation(s).
-  name: Zoho CRM Modules
-  slug: modules
-- description: Notes. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 7 operation(s).
-  name: Zoho CRM Notes
-  slug: notes
-- description: Notifications management API for subscribing, listing and creating CRM notification channels.
-  name: Zoho CRM Notifications
-  slug: notifications
-- description: Organization Details. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Org
-  slug: org
-- description: org_photo. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 3 operation(s).
-  name: Zoho CRM Org Photo
-  slug: org-photo
-- description: Retrieves the ownership change history for CRM records, tracking how record ownership transferred from one user to another over time.
-  name: Zoho CRM Ownership History API
-  slug: ownership-history
-- description: Returns the available pick list values for a specified field in a module. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Pick List Values
-  slug: pick-list-values
-- description: API for Managing Pipelines. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 8 operation(s).
-  name: Zoho CRM Pipeline
-  slug: pipeline
-- description: Portal User Type API is used to create, read, update and delete user group for a portal in ZOHO CRM. A portal user type defines a set of permissions and access levels for users associated with that po
-  name: Zoho CRM Portal User Type
-  slug: portal-user-type
-- description: API for managing portal users. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 8 operation(s).
-  name: Zoho CRM Portal Users
-  slug: portal-users
-- description: Portals settings API. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 5 operation(s).
-  name: Zoho CRM Portals
-  slug: portals
-- description: crud operations on CRM profiles. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 5 operation(s).
-  name: Zoho CRM Profiles API
-  slug: profiles
-- description: Records Count. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Module Record Count
-  slug: record-count
-- description: Record locking configuration allows you to set up the configuration needed to lock the records in modules manually or automatically when certain conditions are met.
-  name: Zoho CRM Record Locking Configuration
-  slug: record-locking-configurations
-- description: The Zoho CRM Records API allows you to perform CRUD (Create, Read, Update, Delete) operations on records across all modules in your CRM. Use this API to retrieve, create, update, delete, upsert, and c
-  name: Zoho CRM Records
-  slug: record
-- description: Record. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 3 operation(s).
-  name: Zoho CRM Record Photo
-  slug: record-photo
-- description: API To share emails at record-level for a specific record or multiple records with other users in your Zoho CRM organization through API.
-  name: Zoho CRM Record Level Sharing Of Emails
-  slug: record-share-email
-- description: To get, restore and delete Recycle Bin records. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 8 operation(s).
-  name: Zoho CRM Recycle Bin
-  slug: recycle-bin
-- description: Manage the Related List Meta operations in Zoho CRM including retrieving, updating, and customizing related lists for different modules and layouts.
-  name: Zoho CRM Related Lists
-  slug: related-lists
-- description: Notes API allows you to manage additional information attached to CRM records. Notes provide context and details about contacts, accounts, deals, tasks, and other modules. Use this API to create, retr
-  name: Zoho CRM Related Notes
-  slug: related-notes
-- description: RESTful API for managing relationships between CRM records across different modules. Provides comprehensive operations for retrieving, updating, and delinking related records with support for bulk ope
-  name: Zoho CRM Related Records API
-  slug: related-records
-- description: Retrieve Roles in the CRM - Manage user roles and permissions within the Zoho CRM system
-  name: Zoho CRM Roles
-  slug: roles
-- description: Scoring Rules configuration APIs. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 10 operation(s).
-  name: Zoho CRM Scoring Rules
-  slug: scoring-rules
-- description: API to send emails to a record's email ID through Zoho CRM. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Send Mail
-  slug: send-mail
-- description: Service Preference. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 2 operation(s).
-  name: Zoho CRM Service Preference
-  slug: service-preference
-- description: API specification for Services API. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 7 operation(s).
-  name: Zoho CRM Services API
-  slug: services
-- description: Share Records. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 4 operation(s).
-  name: Zoho CRM Share Records
-  slug: share-records
-- description: Manage shift hours configuration for Zoho CRM business hours, including shift timing, break schedules, user assignments, and holiday definitions.
-  name: Zoho CRM Shift Hours
-  slug: shift-hours
-- description: This file contains tag actions endpoints. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 6 operation(s).
-  name: Zoho CRM Tag Actions API
-  slug: tags-actions
-- description: This file contains tags CRUD apis. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 5 operation(s).
-  name: Zoho CRM Tags CRUD API
-  slug: tags
-- description: Territories. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 15 operation(s).
-  name: Zoho CRM Territories
-  slug: territories
-- description: Manage users assigned to territories. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 6 operation(s).
-  name: Zoho CRM Territory Users
-  slug: territory-users
-- description: timelines. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Timelines
-  slug: timelines
-- description: Unblock Email. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 2 operation(s).
-  name: Zoho CRM Unblock Email
-  slug: unblock-email
-- description: API specification for unsubscribe_links_oas_v8. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 7 operation(s).
-  name: Zoho CRM unsubscribe_links
-  slug: unsubscribe-links
-- description: Upload file. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Upload
-  slug: upload
-- description: In Zoho CRM, you can create user groups (set of users) to manage a set of common records. Every group can consist of members that are grouped based on the users, roles (with/without subordinates), ter
-  name: Zoho CRM User Groups
-  slug: user-groups
-- description: Users CRUD operations. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 6 operation(s).
+  slug: zoho-crm-layouts-api
+- description: The Leads API from Zoho CRM — 3 operation(s) for leads.
+  name: Zoho CRM Leads API
+  slug: zoho-crm-leads-api
+- description: The Locking Information S API from Zoho CRM — 2 operation(s) for locking information s.
+  name: Zoho CRM Locking Information S API
+  slug: zoho-crm-locking-information-s-api
+- description: The Notes API from Zoho CRM — 4 operation(s) for notes.
+  name: Zoho CRM Notes API
+  slug: zoho-crm-notes-api
+- description: The Org API from Zoho CRM — 5 operation(s) for org.
+  name: Zoho CRM Org API
+  slug: zoho-crm-org-api
+- description: The Photo API from Zoho CRM — 1 operation(s) for photo.
+  name: Zoho CRM Photo API
+  slug: zoho-crm-photo-api
+- description: The Read API from Zoho CRM — 3 operation(s) for read.
+  name: Zoho CRM Read API
+  slug: zoho-crm-read-api
+- description: The Records API from Zoho CRM — 3 operation(s) for records.
+  name: Zoho CRM Records API
+  slug: zoho-crm-records-api
+- description: The Search API from Zoho CRM — 1 operation(s) for search.
+  name: Zoho CRM Search API
+  slug: zoho-crm-search-api
+- description: The Services S API from Zoho CRM — 2 operation(s) for services s.
+  name: Zoho CRM Services S API
+  slug: zoho-crm-services-s-api
+- description: The Settings API from Zoho CRM — 107 operation(s) for settings.
+  name: Zoho CRM Settings API
+  slug: zoho-crm-settings-api
+- description: The Timeline API from Zoho CRM — 1 operation(s) for timeline.
+  name: Zoho CRM Timeline API
+  slug: zoho-crm-timeline-api
+- description: The Upload API from Zoho CRM — 1 operation(s) for upload.
+  name: Zoho CRM Upload API
+  slug: zoho-crm-upload-api
+- description: The Upsert API from Zoho CRM — 1 operation(s) for upsert.
+  name: Zoho CRM Upsert API
+  slug: zoho-crm-upsert-api
+- description: The Users API from Zoho CRM — 10 operation(s) for users.
   name: Zoho CRM Users API
-  slug: users
-- description: API for managing user territories in Zoho CRM. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 5 operation(s).
-  name: Zoho CRM Users Territories
-  slug: users-territories
-- description: API for transferring user data and deleting users in Zoho CRM. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 6 operation(s).
-  name: Zoho CRM Users Transfer
-  slug: users-transfer
-- description: API specification for variable_groups. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 4 operation(s).
-  name: Zoho CRM Variable Groups
-  slug: variable-groups
-- description: API specification for Variables_OAS_v8. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 7 operation(s).
-  name: Zoho CRM Variables
-  slug: variables
-- description: OpenAPI specification for Zoho CRM Webhooks (settings/automation) — endpoints to create, list, update, delete webhooks, inspect failures and usage reports. Targets CRM v8 automation workflows and inte
-  name: Zoho CRM Webhooks
-  slug: webhooks
-- description: Wizards API. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Wizards
-  slug: wizards
-- description: Workflow Configuration v8 OAS. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Workflow Configurations
-  slug: workflow-configurations
-- description: WorkflowRule v8 OAS. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 12 operation(s).
-  name: Zoho CRM Workflow Rules
-  slug: workflow-rules
-- description: Manage Workflow task (Create, edit,delete and view). Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 6 operation(s).
-  name: Zoho CRM Automation Task
-  slug: workflow-tasks
-- description: Zia enrichment configurations in CRM modules. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 1 operation(s).
-  name: Zoho CRM Zia Enrichment Configuration API
-  slug: zia-enrichment
-- description: Triggers the ZIA organization enrichment process for a given CRM record. Published by Zoho in its first-party OpenAPI 3.1.0 repository github.com/zoho/crm-oas; 3 operation(s).
-  name: Zoho CRM ZIA Organization Enrichment API
-  slug: zia-org-enrichment
-artifact_total: 118
+  slug: zoho-crm-users-api
+- description: The Workflow Configurations API from Zoho CRM — 1 operation(s) for workflow configurations.
+  name: Zoho CRM Workflow Configurations API
+  slug: zoho-crm-workflow-configurations-api
+- description: The Write API from Zoho CRM — 2 operation(s) for write.
+  name: Zoho CRM Write API
+  slug: zoho-crm-write-api
+- description: The Zia Org Enrichment API from Zoho CRM — 2 operation(s) for zia org enrichment.
+  name: Zoho CRM Zia Org Enrichment API
+  slug: zoho-crm-zia-org-enrichment-api
+- description: The Zoho CRM Related Records API API from Zoho CRM — 2 operation(s) for zoho crm related records api.
+  name: Zoho CRM Zoho CRM Related Records API
+  slug: zoho-crm-zoho-crm-related-records-api-api
+artifact_total: 48
 asyncapis:
 - description: AsyncAPI 2.6 specification for the Zoho CRM Notifications (Instant Notifications) API surface. Subscribers register a notify_url (channel) with Zoho CRM via the REST "actions/watch" endpoint and recei
   name: Zoho CRM Notifications API
   slug: zoho-crm-notifications-asyncapi
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zoho-crm-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-apis-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-appointment-preference-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-appointments-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-assignment-rules-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-associate-email-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-attachments-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-audit-log-export-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-available-currencies-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-bulk-read-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-bulk-write-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-business-hours-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-cadences-execution-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-cadences-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-call-preferences-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-cancel-meetings-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-change-owner-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-composite-requests-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-contact-roles-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-conversion-option-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-convert-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-coql-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-currencies-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-custom-views-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-data-sharing-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-deal-contact-roles-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-deal-link-emails-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-download-attachments-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-download-inline-images-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-duplicate-check-preference-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-email-drafts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-email-templates-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-emails-sharing-details-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-features-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-fetch-full-data-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-field-updates-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-fields-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-files-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-find-and-merge-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-fiscal-year-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-from-addresses-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-get-related-records-count-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-global-picklists-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-holidays-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-inventory-convert-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-inventory-templates-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-layouts-activate-deactivate-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-layouts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-locking-informations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-mail-merge-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-map-dependency-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-mass-change-owner-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-mass-convert-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-mass-delete-cvid-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-mass-delete-tags-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-mass-update-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-module-search-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-modules-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-notes-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-notifications-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-org-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-org-photo-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-ownership-history-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-pick-list-values-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-pipeline-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-portal-user-type-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-portal-users-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-portals-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-profiles-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-record-count-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-record-locking-configurations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-record-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-record-photo-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-record-share-email-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-recycle-bin-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-related-lists-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-related-notes-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-related-records-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-roles-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-scoring-rules-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-send-mail-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-service-preference-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-services-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-share-records-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-shift-hours-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-tags-actions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-tags-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-territories-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-territory-users-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-timelines-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-unblock-email-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-unsubscribe-links-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-upload-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-user-groups-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-users-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-users-territories-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-users-transfer-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-variable-groups-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-variables-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-webhooks-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-wizards-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-workflow-configurations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-workflow-rules-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-workflow-tasks-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-zia-enrichment-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoho-crm-zia-org-enrichment-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -583,13 +797,13 @@ modified: '2026-08-13'
 name: Zoho CRM
 nav: Providers
 network: true
-overview: 'Zoho CRM publishes 106 APIs on the [APIs.io](https://apis.io/) network, including Notifications API v2, Available Apis, Appointment Preference, and 103 more. Tagged areas include CRM, Sales, Marketing Automation, Lead Management, and Customer Engagement.
+overview: 'Zoho CRM publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Actions API, APIS API, Appointments S API, and 33 more. Tagged areas include CRM, Sales, Customer Relationship Management, Marketing Automation, and Lead Management.
 
 
   The Zoho CRM catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Zoho CRM''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 42 more developer resources.'
+  Zoho CRM''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 148 more developer resources.'
 plans:
 - name: Zoho Crm Plans Pricing
   plan_count: 5
@@ -618,18 +832,23 @@ scopes:
   summary_line: 458 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 74.1
+  composite: 72.2
+  coverage:
+    artifact_dirs: 28
+    catalog_gap: 50.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 41.7
-    contract_quality: 62.6
+    contract_governance: 29.5
+    contract_quality: 65.4
     developer_ergonomics: 80.4
-    discoverability: 79.6
-    governance: 41.7
+    discoverability: 68.5
+    governance: 29.5
     operational_transparency: 84.2
-  previous_composite: 74.1
+  previous_composite: 72.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -640,8 +859,8 @@ score:
       total: 105
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-crm/refs/heads/main/screenshots/zoho-crm-2026-06-20T201938.png
 security:
@@ -665,6 +884,7 @@ slug: zoho-crm
 tags:
 - CRM
 - Sales
+- Customer Relationship Management
 - Marketing Automation
 - Lead Management
 - Customer Engagement

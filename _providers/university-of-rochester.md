@@ -1,146 +1,127 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free · Open, no registration
+  onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
-  - authentication
+  - probed
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: false
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 81
-  human_in_the_loop: 2
-  name: University Of Rochester Agentic Access
-  operation_count: 157
-  slug: university-of-rochester-agentic-access
-  summary_line: 157 operations · 81 acting · 2 human-in-the-loop
-api_count: 11
+  score: 15.5
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: 'The legacy UR Research institutional repository exposes a live OAI-PMH interface for harvesting Dublin Core metadata of deposited research outputs (papers, theses, datasets). The endpoint responds to '
-  name: UR Research Institutional Repository OAI-PMH
-  slug: urresearch-oai
-- description: The altmetric API from University of Rochester — 1 operation(s) for altmetric.
-  name: University of Rochester altmetric API
-  slug: university-of-rochester-altmetric-api
-- description: The articles API from University of Rochester — 34 operation(s) for articles.
-  name: University of Rochester articles API
-  slug: university-of-rochester-articles-api
-- description: The authors API from University of Rochester — 2 operation(s) for authors.
-  name: University of Rochester authors API
-  slug: university-of-rochester-authors-api
-- description: The collections API from University of Rochester — 21 operation(s) for collections.
-  name: University of Rochester collections API
-  slug: university-of-rochester-collections-api
-- description: The institutions API from University of Rochester — 20 operation(s) for institutions.
-  name: University of Rochester institutions API
-  slug: university-of-rochester-institutions-api
-- description: The oauth API from University of Rochester — 1 operation(s) for oauth.
-  name: University of Rochester oauth API
-  slug: university-of-rochester-oauth-api
-- description: The other API from University of Rochester — 7 operation(s) for other.
-  name: University of Rochester other API
-  slug: university-of-rochester-other-api
-- description: The profiles API from University of Rochester — 2 operation(s) for profiles.
-  name: University of Rochester profiles API
-  slug: university-of-rochester-profiles-api
-- description: The projects API from University of Rochester — 17 operation(s) for projects.
-  name: University of Rochester projects API
-  slug: university-of-rochester-projects-api
-- description: The symplectic API from University of Rochester — 5 operation(s) for symplectic.
-  name: University of Rochester symplectic API
-  slug: university-of-rochester-symplectic-api
-artifact_total: 39
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Figshare altmetric API
-  slug: open-university-of-rochester-altmetric-api
-- collection_type: open
-  name: Figshare altmetric articles API
-  slug: open-university-of-rochester-articles-api
-- collection_type: open
-  name: Figshare altmetric authors API
-  slug: open-university-of-rochester-authors-api
-- collection_type: open
-  name: Figshare altmetric collections API
-  slug: open-university-of-rochester-collections-api
-- collection_type: open
-  name: Figshare altmetric institutions API
-  slug: open-university-of-rochester-institutions-api
-- collection_type: open
-  name: Figshare altmetric oauth API
-  slug: open-university-of-rochester-oauth-api
-- collection_type: open
-  name: Figshare altmetric other API
-  slug: open-university-of-rochester-other-api
-- collection_type: open
-  name: Figshare altmetric profiles API
-  slug: open-university-of-rochester-profiles-api
-- collection_type: open
-  name: Figshare altmetric projects API
-  slug: open-university-of-rochester-projects-api
-- collection_type: open
-  name: Figshare altmetric symplectic API
-  slug: open-university-of-rochester-symplectic-api
+- description: 'OAI-PMH 2.0 metadata harvesting interface for UR Research, the University of Rochester''s legacy institutional repository, served from the university''s own domain and running IR+ — repository software '
+  name: UR Research OAI-PMH Interface
+  slug: urresearch-oai-pmh
+- description: SAML 2.0 / Shibboleth identity provider metadata for the University of Rochester, published machine-readably at its own entityID. The EntityDescriptor carries an IDPSSODescriptor supporting SAML 1.1 a
+  name: University of Rochester Shibboleth Identity Provider
+  slug: shibboleth-idp
+- description: 'URRR is the University of Rochester''s current research data repository. It is a Figshare tenancy: Rochester''s data, Rochester''s DOIs, and Rochester''s curation, on a platform Figshare operates and whos'
+  name: University of Rochester Research Repository (URRR) — Figshare tenancy
+  slug: urrr-figshare-tenancy
+- description: River Campus Libraries discovery runs on Ex Libris Primo VE under the institution-specific view identifier 01ROCH_INST:UR01, hosted at rochester.primo.exlibrisgroup.com. The catalogue and its holdings
+  name: University of Rochester Library Discovery — Ex Libris Primo VE tenancy
+  slug: primo-discovery-tenancy
+artifact_total: 8
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/university-of-rochester-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/university-of-rochester-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/university-of-rochester-authentication.yml
-- group: auth
-  title: ''
-  type: OAuthScopes
-  url: scopes/university-of-rochester-scopes.yml
 - group: company
   title: ''
   type: Website
   url: https://www.rochester.edu/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://urresearch.rochester.edu/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://rochester.figshare.com/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://idp.rochester.edu/idp/shibboleth
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://rochester.primo.exlibrisgroup.com/discovery/search?vid=01ROCH_INST:UR01
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://www.rochester.edu/registrar/
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://circ.rochester.edu/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.rochester.edu/ai/
+- group: build
+  title: ''
+  type: AITooling
+  url: https://tech.rochester.edu/services/artificial-intelligence/
 - group: build
   title: ''
   type: GitHub
   url: https://github.com/rochester-rcl
+- group: operate
+  title: ''
+  type: Support
+  url: https://tech.rochester.edu/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.rochester.edu/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.rochester.edu/policies/
+- group: other
+  title: ''
+  type: Accessibility
+  url: https://www.rochester.edu/accessibility.html
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.rochester.edu/newscenter/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.rochester.edu/newscenter/feed/
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-rochester/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/university-of-rochester-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -153,62 +134,31 @@ common:
   title: ''
   type: FinOps
   url: finops/university-of-rochester-finops.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/university-of-rochester-conformance.yml
 - group: other
   title: ''
   type: Review
   url: review.yml
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.rochester.edu/newscenter/feed/
 created: '2026-06-03'
-description: 'The University of Rochester is a private research university in Rochester, New York, ranked #236 in the QS World University Rankings 2025. It does not operate a single official, centralized public developer portal; its publicly reachable programmatic surface is found across library and research-data infrastructure. The University of Rochester Research Repository (URRR) runs on the Figshare platform, which exposes a public REST API and an OAI-PMH endpoint, and the legacy UR Research institutional repository still serves a live OAI-PMH interface. The River Campus Libraries also maintain an active public GitHub organization with digital-library tooling. Most enterprise systems (SIS, identity/SSO, course/catalog) are gated and not publicly documented.'
-examples:
-- key_count: 3
-  name: University Of Rochester Article Get Example
-  slug: university-of-rochester-article-get-example
-- key_count: 3
-  name: University Of Rochester Articles Search Example
-  slug: university-of-rochester-articles-search-example
-- key_count: 3
-  name: University Of Rochester Collection Get Example
-  slug: university-of-rochester-collection-get-example
+description: 'The University of Rochester is a private research university in Rochester, New York, and an AAU member, ranked #236 in the QS World University Rankings 2025. It operates no central public developer portal and no public API programme, and its programmable footprint is small, decentralised, and concentrated in the libraries. Two surfaces are genuinely institution-operated and were verified live in August 2026: an OAI-PMH 2.0 metadata harvesting interface at urresearch.rochester.edu/oai2 for UR Research, the legacy institutional repository, which runs on IR+ — repository software the River Campus Libraries themselves wrote and released under Apache 2.0 — and a Shibboleth SAML 2.0 identity provider at idp.rochester.edu publishing scoped federation metadata at its own entityID. Everything else the institution appears to publish is a vendor''s contract running under its name: the University of Rochester Research Repository (URRR) is a Figshare tenancy at rochester.figshare.com and
+  library discovery is an Ex Libris Primo VE tenancy at rochester.primo.exlibrisgroup.com. Those tenancies are real institutional facts and are recorded as such, but the contracts describing them belong to Figshare and Ex Libris, not to Rochester. Administrative systems — the student information system, HR, finance, and course/registrar data — are gated behind institutional identity and are not publicly documented. The River Campus Libraries maintain an active public GitHub organisation (rochester-rcl, 112 repositories) of digital-library and preservation tooling, which is the clearest evidence of the institution''s own engineering output.'
 finops:
 - name: University Of Rochester Finops
   service_category: Education
   slug: university-of-rochester-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-rochester.png
-json_schemas:
-- name: Figshare Article
-  property_count: 16
-  slug: university-of-rochester-article
-- name: Figshare Collection
-  property_count: 6
-  slug: university-of-rochester-collection
-json_structures:
-- name: University Of Rochester Article Structure
-  property_count: 16
-  slug: university-of-rochester-article-structure
-- name: University Of Rochester Collection Structure
-  property_count: 6
-  slug: university-of-rochester-collection-structure
-jsonld:
-- class_count: 15
-  name: University Of Rochester Context
-  property_count: 10
-  slug: university-of-rochester-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: University of Rochester
 nav: Providers
 network: true
-overview: 'University of Rochester publishes 10 APIs on the [APIs.io](https://apis.io/) network, including altmetric API, articles API, authors API, and 7 more. Tagged areas include Education, Higher Education, University, Research, and Library.
+overview: 'University of Rochester publishes 1 API on the [APIs.io](https://apis.io/) network: UR Research OAI-PMH Interface. Tagged areas include University, Higher Education, Education, United States, and New York.
 
 
-  The University of Rochester catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  University of Rochester''s developer surface includes authentication, GitHub presence, engineering blog, and 9 more developer resources.'
+  University of Rochester''s developer surface includes GitHub presence, support, engineering blog, and 20 more developer resources.'
 plans:
 - name: University Of Rochester Plans Pricing
   plan_count: 2
@@ -218,47 +168,25 @@ rate_limits:
 - limit_count: 1
   name: University Of Rochester Rate Limits
   slug: university-of-rochester-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: University of Rochester API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 3
-  slug: university-of-rochester-jsonschema-spectral-rules
-- effective_rule_count: 46
-  extends:
-  - spectral:oas
-  name: University of Rochester API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 1
-    warn: 4
-  slug: university-of-rochester-rules
-scopes:
-- name: University Of Rochester Scopes
-  scope_count: 1
-  slug: university-of-rochester-scopes
-  summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 44.8
-  delta: 3.8
+  composite: 39.5
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -5.3
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 13.6
-    contract_quality: 66.2
-    developer_ergonomics: 33.3
-    discoverability: 74.1
-    governance: 13.6
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 0.0
+    contract_quality: 51.6
+    developer_ergonomics: 26.2
+    discoverability: 68.5
+    governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 41.0
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -271,29 +199,30 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 35.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/screenshots/university-of-rochester-2026-06-20T200223.png
 security:
-- kind: authentication
-  name: University Of Rochester Authentication
-  slug: university-of-rochester-authentication
-  summary_line: oauth2 · 1 scheme
 - kind: domain-security
   name: University Of Rochester Domain Security
   slug: university-of-rochester-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: university-of-rochester
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Library
-- Institutional Repository
-- Open Data
+- Higher Education
+- Education
 - United States
+- New York
+- Private Research University
+- Association of American Universities
+- Research Repository
+- Institutional Repository
+- OAI-PMH
+- Identity Federation
+- Library
+- Research Computing
 website: https://www.rochester.edu/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: gupshup-agentic-access
   summary_line: 6 operations · 4 acting
-api_count: 6
+api_count: 1
 apis:
 - description: 'Broadcast SMS to a single number or many numbers programmatically via POST /msg on the /sm surface. Note - Gupshup has announced end-of-life for the /sm endpoints and recommends migrating SMS traffic '
   name: Gupshup SMS API
@@ -147,18 +147,23 @@ rate_limits:
   slug: gupshup-rate-limits
 score:
   band: emerging
-  composite: 25.6
-  delta: 1.7
+  composite: 25.1
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 14.3
     developer_ergonomics: 27.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 23.9
+  previous_composite: 25.6
   provenance:
     agentic_access: derived
     contracts:
@@ -172,8 +177,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/screenshots/gupshup-2026-07-25T220436.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Graylog provides a REST API for managing log data, streams, dashboards, alerts, users, and system configuration. The API is browseable via the bundled API Browser at /api/api-browser/.
@@ -120,21 +120,29 @@ rate_limits:
   slug: graylog-rate-limits
 score:
   band: emerging
-  composite: 13.3
-  delta: 0.0
+  composite: 20.1
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 6.1
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 13.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 14.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/graylog/refs/heads/main/screenshots/graylog-2026-06-20T182348.png
 security:
 - kind: domain-security

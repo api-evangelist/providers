@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 101
   slug: open-banking-uk-agentic-access
   summary_line: 101 operations · 31 acting
-api_count: 42
+api_count: 7
 apis:
 - description: Public-facing APIs enabling third-party developers to access standardized open data published by Account Servicing Payment Service Providers, including ATM locations, branch locations, personal curren
   name: UK Open Banking Open Data API
@@ -293,6 +293,14 @@ collections:
   name: Account and Transaction API Specification Account Access Consents Transactions API
   slug: open-open-banking-uk-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/open-banking-uk-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/OpenBankingUK/opendata-api-spec-compiled/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -418,7 +426,7 @@ overview: 'UK Open Banking publishes 39 APIs on the [APIs.io](https://apis.io/) 
   The UK Open Banking catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  UK Open Banking''s developer surface includes authentication, engineering blog, product news, and 13 more developer resources.'
+  UK Open Banking''s developer surface includes authentication, engineering blog, product news, and 15 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -446,18 +454,26 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 41.5
-  delta: 3.3
+  composite: 39.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 54.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 56.4
     developer_ergonomics: 38.1
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 2.6
-  previous_composite: 38.2
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -471,8 +487,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-banking-uk/refs/heads/main/screenshots/open-banking-uk-2026-06-20T190729.png
 security:

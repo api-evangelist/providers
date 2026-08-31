@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.6
-  scored_at: '2026-08-26'
+  score: 26.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: goatcounter-agentic-access
   summary_line: 16 operations · 5 acting
-api_count: 6
+api_count: 2
 apis:
 - description: The Exports API from GoatCounter — 3 operation(s) for exports.
   name: GoatCounter Exports API
@@ -62,7 +62,16 @@ apis:
 - description: The Users API from GoatCounter — 1 operation(s) for users.
   name: GoatCounter Users API
   slug: goatcounter-users-api
-artifact_total: 21
+- description: The count API from GoatCounter — 1 operation(s) for count.
+  name: GoatCounter Count API
+  slug: goatcounter-count-api
+- description: The export API from GoatCounter — 3 operation(s) for export.
+  name: GoatCounter Export API
+  slug: goatcounter-export-api
+- description: The stats API from GoatCounter — 5 operation(s) for stats.
+  name: GoatCounter Stats API
+  slug: goatcounter-stats-api
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -237,7 +246,7 @@ modified: '2026-08-13'
 name: GoatCounter
 nav: Providers
 network: true
-overview: 'GoatCounter publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Exports API, Pageviews API, Paths API, and 3 more. Tagged areas include Analytics, Page Views, Privacy, Statistics, and Web Analytics.
+overview: 'GoatCounter publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Exports API, Pageviews API, Paths API, and 6 more. Tagged areas include Analytics, Page Views, Privacy, Statistics, and Web Analytics.
 
 
   GoatCounter''s developer surface includes authentication, documentation, signup flow, API reference, getting-started guide, support, pricing, and 27 more developer resources.'
@@ -251,19 +260,24 @@ rate_limits:
   name: Goatcounter Rate Limits
   slug: goatcounter-rate-limits
 score:
-  band: strong
-  composite: 56.0
-  delta: 0.0
+  band: developing
+  composite: 52.9
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.7
   facets:
-    access_clarity: 73.7
-    commercial_clarity: 73.7
-    contract_governance: 16.7
-    contract_quality: 50.8
+    access_clarity: 68.4
+    commercial_clarity: 68.4
+    contract_governance: 4.5
+    contract_quality: 51.1
     developer_ergonomics: 61.3
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 56.0
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -274,8 +288,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/screenshots/goatcounter-2026-06-20T181940.png
 security:

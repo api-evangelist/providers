@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 4
   slug: administrative-office-of-the-u-s-courts-agentic-access
   summary_line: 4 operations · 4 acting
-api_count: 3
+api_count: 2
 apis:
 - description: The Cases API from Administrative Office of the U.S. Courts — 1 operation(s) for cases.
   name: Administrative Office of the U.S. Courts Cases API
@@ -73,6 +73,10 @@ collections:
   name: Administrative Office of the U.S. Courts PACER Case Locator API
   slug: open-pacer-case-locator-pcl-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/administrative-office-of-the-u-s-courts-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -144,7 +148,7 @@ network: true
 overview: 'Administrative Office of the U.S. Courts publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cases API, Parties API, and Services API. Tagged areas include Courts, Federal-Government, Legal, PACER, and Case Records.
 
 
-  Administrative Office of the U.S. Courts'' developer surface includes engineering blog, developer portal, signup flow, and 6 more developer resources.'
+  Administrative Office of the U.S. Courts'' developer surface includes engineering blog, developer portal, signup flow, and 7 more developer resources.'
 plans:
 - name: Administrative Office Of The U S Courts Plans Pricing
   plan_count: 3
@@ -156,18 +160,23 @@ rate_limits:
   slug: administrative-office-of-the-u-s-courts-rate-limits
 score:
   band: thin
-  composite: 30.8
-  delta: 5.7
+  composite: 30.3
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 44.2
     developer_ergonomics: 40.5
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 25.1
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
@@ -181,9 +190,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/screenshots/administrative-office-of-the-u-s-courts-2026-06-20T164757.png
 security:
 - kind: domain-security

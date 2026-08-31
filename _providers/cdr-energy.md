@@ -23,28 +23,61 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
-- description: The ACCC-operated Consumer Data Right Register, the ecosystem's source of truth for who is allowed to participate. Unauthenticated endpoints return the energy data holder brand summary (84 brands with
-  name: CDR Register API
-  slug: cdr-register-api
-- description: The mandated energy data contract that every designated Australian electricity retailer must implement identically. Eighteen paths covering generic plan reference data, electricity service points, int
-  name: CDR Energy API
-  slug: cdr-energy-api
-- description: The gateway contract AEMO implements as the CDR Secondary Data Holder for energy. Retailers are the primary data holders for the customer relationship, but the physical data — NMI standing data, meter
-  name: CDR Energy Secondary Data Holder API
-  slug: cdr-energy-secondary-data-holder-api
-- description: The cross-sector endpoints every CDR data holder must expose regardless of industry — GET /common/customer and /common/customer/detail for the consented customer's identity, and the unauthenticated /d
-  name: CDR Common API
-  slug: cdr-common-api
-- description: The onboarding contract. Rather than a developer portal issuing keys, an accredited data recipient presents a Software Statement Assertion obtained from the CDR Register and self-registers with each d
-  name: CDR Dynamic Client Registration API
-  slug: cdr-dynamic-client-registration-api
-- description: The mandated reporting surface every data holder must expose to the ACCC — GET /admin/metrics returns availability, performance, invocation, error and rejection statistics, and POST /admin/register/me
-  name: CDR Admin API
-  slug: cdr-admin-api
-artifact_total: 23
+- description: Data Holder Admin endpoints
+  name: Consumer Data Right (Energy) Data Holder Admin API
+  slug: cdr-energy-data-holder-admin-api
+- description: Data Holder Client Registration endpoints
+  name: Consumer Data Right (Energy) Data Holder Client Registration API
+  slug: cdr-energy-data-holder-client-registration-api
+- description: Data Holder Customer endpoints
+  name: Consumer Data Right (Energy) Data Holder Customers API
+  slug: cdr-energy-data-holder-customers-api
+- description: Data Holder Operations endpoints
+  name: Consumer Data Right (Energy) Data Holder Operations API
+  slug: cdr-energy-data-holder-operations-api
+- description: Distributed Energy Resource endpoints
+  name: Consumer Data Right (Energy) Distributed Energy Resources API
+  slug: cdr-energy-distributed-energy-resources-api
+- description: Distributed Energy Resource (SR) endpoints
+  name: Consumer Data Right (Energy) Distributed Energy Resources (SR) API
+  slug: cdr-energy-distributed-energy-resources-sr-api
+- description: Electricity Service Point endpoints
+  name: Consumer Data Right (Energy) Electricity Service Points API
+  slug: cdr-energy-electricity-service-points-api
+- description: Electricity Service Point (SR) endpoints
+  name: Consumer Data Right (Energy) Electricity Service Points (SR) API
+  slug: cdr-energy-electricity-service-points-sr-api
+- description: Electricity Usage endpoints
+  name: Consumer Data Right (Energy) Electricity Usage API
+  slug: cdr-energy-electricity-usage-api
+- description: Electricity Usage (SR) endpoints
+  name: Consumer Data Right (Energy) Electricity Usage (SR) API
+  slug: cdr-energy-electricity-usage-sr-api
+- description: Energy Account Balance endpoints
+  name: Consumer Data Right (Energy) Energy Account Balances API
+  slug: cdr-energy-energy-account-balances-api
+- description: Energy Account Billing endpoints
+  name: Consumer Data Right (Energy) Energy Account Billing API
+  slug: cdr-energy-energy-account-billing-api
+- description: Energy Account endpoints
+  name: Consumer Data Right (Energy) Energy Accounts API
+  slug: cdr-energy-energy-accounts-api
+- description: Energy Plan endpoints
+  name: Consumer Data Right (Energy) Energy Plans API
+  slug: cdr-energy-energy-plans-api
+- description: Register Data Holder discovery endpoints
+  name: Consumer Data Right (Energy) Register Data Holder discovery API
+  slug: cdr-energy-register-data-holder-discovery-api
+- description: Register Data Recipient discovery endpoints
+  name: Consumer Data Right (Energy) Register Data Recipient discovery API
+  slug: cdr-energy-register-data-recipient-discovery-api
+- description: Register Operations endpoints
+  name: Consumer Data Right (Energy) Register Operations API
+  slug: cdr-energy-register-operations-api
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Cdr Energy Webhooks
@@ -69,6 +102,34 @@ collections:
   name: CDR Register API
   slug: open-cdr-register
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cdr-energy-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cdr-energy-register-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cdr-energy-energy-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cdr-energy-energy-sdh-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cdr-energy-common-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cdr-energy-dcr-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cdr-energy-admin-overlay.yaml
 - group: operate
   title: ''
   type: IssueTracker
@@ -270,13 +331,13 @@ modified: '2026-07-27'
 name: Consumer Data Right (Energy)
 nav: Providers
 network: true
-overview: 'Consumer Data Right (Energy) publishes 6 APIs on the [APIs.io](https://apis.io/) network, including CDR Register API, CDR Energy API, CDR Energy Secondary Data Holder API, and 3 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Consumer Data Right.
+overview: 'Consumer Data Right (Energy) publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Data Holder Admin API, Data Holder Client Registration API, Data Holder Customers API, and 14 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Consumer Data Right.
 
 
   The Consumer Data Right (Energy) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Consumer Data Right (Energy)''s developer surface includes documentation, API reference, authentication, sandbox, support, engineering blog, changelog, and 36 more developer resources.'
+  Consumer Data Right (Energy)''s developer surface includes documentation, API reference, authentication, sandbox, support, engineering blog, changelog, and 43 more developer resources.'
 random_paper: 0
 rate_limits:
 - limit_count: 6
@@ -289,18 +350,23 @@ scopes:
   summary_line: 15 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 63.4
+  composite: 61.1
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_governance: 30.3
-    contract_quality: 62.8
+    contract_governance: 18.2
+    contract_quality: 62.5
     developer_ergonomics: 80.4
-    discoverability: 75.9
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 97.4
-  previous_composite: 63.4
+  previous_composite: 61.1
   provenance:
     conformance: first-party
     contracts:
@@ -316,8 +382,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 60.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdr-energy/refs/heads/main/screenshots/cdr-energy-2026-08-07T163251.png
 security:

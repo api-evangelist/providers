@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-26'
-api_count: 46
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: 'Open-source gRPC geocoding and timezone-lookup service Rentberry built and runs for its own property search, with published proto3 definitions and PHP client bindings on Packagist. Two services: Geoco'
   name: Rentberry Geocoder (gRPC)
@@ -305,6 +305,18 @@ collections:
   name: Rentberry Virtual Tours API
   slug: open-rentberry-virtual-tours-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/rentberry-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Rentberry/geocoder/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Rentberry/geocoder/releases
 - group: agent
   title: ''
   type: MCPServer
@@ -445,25 +457,33 @@ modified: '2026-08-02'
 name: Rentberry
 nav: Providers
 network: true
-overview: 'Rentberry publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Auth API, Breadcrumbs API, and 42 more. Tagged areas include Real-Estate, PropTech, Rentals, Rental Marketplace, and Property Management.
+overview: 'Rentberry publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Auth API, Breadcrumbs API, and 42 more. Tagged areas include real-estate, proptech, Rentals, rental-marketplace, and property-management.
 
 
-  Rentberry''s developer surface includes API reference, documentation, support, engineering blog, pricing, signup flow, authentication, and 25 more developer resources.'
+  Rentberry''s developer surface includes API reference, documentation, support, engineering blog, pricing, signup flow, authentication, and 28 more developer resources.'
 random_paper: 2
 score:
   band: developing
-  composite: 40.6
-  delta: 1.3
+  composite: 40.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 50.1
     developer_ergonomics: 54.2
-    discoverability: 50.0
-    governance: 16.7
-    operational_transparency: 2.6
-  previous_composite: 39.3
+    discoverability: 63.0
+    governance: 4.5
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 41.4
   provenance:
     conformance: derived
     contracts:
@@ -479,8 +499,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -493,17 +513,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: rentberry
 tags:
-- Real-Estate
-- PropTech
+- real-estate
+- proptech
 - Rentals
-- Rental Marketplace
-- Property Management
-- Tenant Screening
-- E-Signature
+- rental-marketplace
+- property-management
+- tenant-screening
+- e-signature
 - Payments
 - Listings
 - Search
-- Geocoding
+- geocoding
 - Marketplace
 website: https://rentberry.com/
 ---

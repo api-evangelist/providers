@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 201
   human_in_the_loop: 3
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 384
   slug: activecampaign-agentic-access
   summary_line: 384 operations · 201 acting · 3 human-in-the-loop
-api_count: 43
+api_count: 9
 apis:
 - description: The Accounts API from ActiveCampaign — 13 operation(s) for accounts.
   name: ActiveCampaign Accounts API
@@ -142,27 +142,69 @@ apis:
 - description: The Webhooks API from ActiveCampaign — 3 operation(s) for webhooks.
   name: ActiveCampaign Webhooks API
   slug: activecampaign-webhooks-api
-- description: 'The Segments API from ActiveCampaign — 8 operation(s) for creating, retrieving, updating and deleting segments (segmentsV2), reading a segment as it existed at a point in time, reverting a segment to '
+- description: Manage documents attached to AI customization profiles.
+  name: ActiveCampaign AI Customization Documents API
+  slug: activecampaign-ai-customization-documents-api
+- description: Manage custom instructions for AI customization profiles.
+  name: ActiveCampaign AI Customization Instructions API
+  slug: activecampaign-ai-customization-instructions-api
+- description: Manage AI customization profiles.
+  name: ActiveCampaign AI Customization Profiles API
+  slug: activecampaign-ai-customization-profiles-api
+- description: Create and manage snapshots of reseller child accounts.
+  name: ActiveCampaign Child Account Snapshots API
+  slug: activecampaign-child-account-snapshots-api
+- description: Manage reseller child accounts.
+  name: ActiveCampaign Child Accounts API
+  slug: activecampaign-child-accounts-api
+- description: The Conversations API from ActiveCampaign — 2 operation(s) for conversations.
+  name: ActiveCampaign Conversations API
+  slug: activecampaign-conversations-api
+- description: The Count History API from ActiveCampaign — 2 operation(s) for count history.
+  name: ActiveCampaign Count History API
+  slug: activecampaign-count-history-api
+- description: Read-only CRM pipeline reporting and metrics.
+  name: ActiveCampaign CRM Reporting API
+  slug: activecampaign-crm-reporting-api
+- description: Configure CRM synchronization for HQ pipelines.
+  name: ActiveCampaign CRM Sync API
+  slug: activecampaign-crm-sync-api
+- description: Manage CRM synchronization settings.
+  name: ActiveCampaign CRM Sync Settings API
+  slug: activecampaign-crm-sync-settings-api
+- description: The Event API from ActiveCampaign — 1 operation(s) for event.
+  name: ActiveCampaign Event API
+  slug: activecampaign-event-api
+- description: Storage quota information for the partner.
+  name: ActiveCampaign Files API
+  slug: activecampaign-files-api
+- description: The Flows API from ActiveCampaign — 5 operation(s) for flows.
+  name: ActiveCampaign Flows API
+  slug: activecampaign-flows-api
+- description: Retrieve and update partner insight cards.
+  name: ActiveCampaign Insight Cards API
+  slug: activecampaign-insight-cards-api
+- description: Supported language and timezone catalogs.
+  name: ActiveCampaign Locales API
+  slug: activecampaign-locales-api
+- description: Return all Contact id's that match the given Segment and provided Additional Criteria
+  name: ActiveCampaign Match All API
+  slug: activecampaign-match-all-api
+- description: Evaluate Contact Id against the provided SegmentId. Returns `true` if Contact matches the given Segment
+  name: ActiveCampaign Match One API
+  slug: activecampaign-match-one-api
+- description: The Most Recent Count History API from ActiveCampaign — 1 operation(s) for most recent count history.
+  name: ActiveCampaign Most Recent Count History API
+  slug: activecampaign-most-recent-count-history-api
+- description: Saved Segments have a name and are visible on the app/segments page. Saved Segments have Summaries
+  name: ActiveCampaign Saved Segment Summaries API
+  slug: activecampaign-saved-segment-summaries-api
+- description: Segment JSON structure is extremely flexible. Only segments that are supported by the segment-builder are guaranteed to work as expected. Specific Conditions types only support a subset of FieldDO and
   name: ActiveCampaign Segments API
   slug: activecampaign-segments-api
-- description: The Segment Matching API from ActiveCampaign — 8 operation(s) for asynchronous match-all and match-some segment evaluation. A match request returns a runId; result sets are cached against that runId w
-  name: ActiveCampaign Segment Matching API
-  slug: activecampaign-segment-matching-api
-- description: The Segment Match One API from ActiveCampaign — 2 operation(s) that check whether a single contact matches a given segment, addressed either by ActiveCampaign contact id or by the integration-supplied
-  name: ActiveCampaign Segment Match One API
-  slug: activecampaign-segment-match-one-api
-- description: 'The Partners API from ActiveCampaign — 36 operation(s) for resellers and agency partners: child-account creation and listing, account cloning snapshots, AI customization profiles, documents and custom'
-  name: ActiveCampaign Partners API
-  slug: activecampaign-partners-api
-- description: The WhatsApp API from ActiveCampaign — 13 operation(s) for listing, retrieving, updating and deleting WhatsApp message templates, sending a template message to a recipient phone number with template v
-  name: ActiveCampaign WhatsApp API
-  slug: activecampaign-whatsapp-api
-- description: The trackcmp event API from ActiveCampaign — 1 operation that posts a tracked event. It is the only ActiveCampaign API served from trackcmp.net rather than from the per-account api-us1.com host, and i
-  name: ActiveCampaign trackcmp Event API
-  slug: activecampaign-trackcmp-api
-- description: The surviving v2 surface from ActiveCampaign — 1 operation, GET /api/2/template/share, which creates a shareable campaign template link. ActiveCampaign still advertises v2.json in its own /.well-known
-  name: ActiveCampaign v2 Legacy API
-  slug: activecampaign-v2-api
+- description: The Template API from ActiveCampaign — 1 operation(s) for template.
+  name: ActiveCampaign Template API
+  slug: activecampaign-template-api
 arazzos:
 - description: Create an account record then associate an existing contact with it.
   name: ActiveCampaign Create Account and Associate a Contact
@@ -227,7 +269,7 @@ arazzos:
 - description: Apply a tag to an existing contact then enroll it in an automation.
   name: ActiveCampaign Tag a Contact and Enroll in Automation
   slug: activecampaign-tag-contact-and-enroll-automation-workflow
-artifact_total: 212
+artifact_total: 226
 asyncapis:
 - description: AsyncAPI description of ActiveCampaign's outbound webhook surface. When a webhook is configured (via the dashboard or the REST API at POST /api/3/webhooks), ActiveCampaign delivers events as HTTP POST
   name: ActiveCampaign Webhooks
@@ -360,6 +402,34 @@ collections:
   name: WhatsApp API
   slug: open-activecampaign-whatsapp-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/activecampaign-segments-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/activecampaign-segment-matching-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/activecampaign-segment-match-one-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/activecampaign-partners-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/activecampaign-whatsapp-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/activecampaign-trackcmp-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/activecampaign-v2-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -904,13 +974,13 @@ modified: '2026-08-13'
 name: ActiveCampaign
 nav: Providers
 network: true
-overview: 'ActiveCampaign publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Addresses API, AI API, and 40 more. Tagged areas include Marketing Automation, Email Marketing, CRM, Sales Automation, and Customer Experience.
+overview: 'ActiveCampaign publishes 57 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Addresses API, AI API, and 54 more. Tagged areas include Marketing Automation, Email Marketing, CRM, Sales Automation, and Customer Experience.
 
 
   The ActiveCampaign catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  ActiveCampaign''s developer surface includes documentation, support, signup flow, authentication, developer portal, getting-started guide, pricing, and 71 more developer resources.'
+  ActiveCampaign''s developer surface includes documentation, support, signup flow, authentication, developer portal, getting-started guide, pricing, and 78 more developer resources.'
 plans:
 - name: Activecampaign Plans Pricing
   plan_count: 4
@@ -953,19 +1023,24 @@ rules:
     warn: 12
   slug: activecampaign-spectral-rules
 score:
-  band: exemplar
-  composite: 67.8
-  delta: 0.6
+  band: strong
+  composite: 66.3
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 34.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 45.5
-    contract_quality: 47.0
+    contract_governance: 33.3
+    contract_quality: 47.1
     developer_ergonomics: 69.0
     discoverability: 68.5
-    governance: 45.5
+    governance: 33.3
     operational_transparency: 76.3
-  previous_composite: 67.2
+  previous_composite: 66.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -976,8 +1051,8 @@ score:
       total: 36
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activecampaign/refs/heads/main/screenshots/activecampaign-2026-06-20T164212.png
 security:

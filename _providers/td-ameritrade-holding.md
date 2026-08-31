@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 34
   slug: td-ameritrade-holding-agentic-access
   summary_line: 34 operations · 11 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Account information, balances, and positions
   name: TD Ameritrade Holding Accounts API
@@ -107,6 +107,10 @@ collections:
   name: TD Ameritrade and Trading Accounts Watchlists API
   slug: open-td-ameritrade-holding-watchlists-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/charles-schwab/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -201,7 +205,7 @@ overview: 'TD Ameritrade Holding publishes 9 APIs on the [APIs.io](https://apis.
   The TD Ameritrade Holding catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TD Ameritrade Holding''s developer surface includes authentication, documentation, and 12 more developer resources.'
+  TD Ameritrade Holding''s developer surface includes authentication, documentation, and 13 more developer resources.'
 plans:
 - name: Td Ameritrade Holding Plans Pricing
   plan_count: 3
@@ -256,18 +260,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 35.9
-  delta: -0.9
+  composite: 35.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 58.3
     developer_ergonomics: 16.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 36.8
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -281,8 +290,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/td-ameritrade-holding/refs/heads/main/screenshots/td-ameritrade-holding-2026-06-20T194947.png
 security:

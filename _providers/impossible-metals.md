@@ -33,41 +33,101 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-26'
-api_count: 10
+  scored_at: '2026-08-30'
+api_count: 5
 apis:
-- description: Public, unauthenticated read access to the Impossible Metals news, blog and press archive via the WordPress core REST API — testimony, policy positions, Eureka programme updates and partnership announ
-  name: Impossible Metals Posts API
-  slug: impossible-metals-posts-api
-- description: Public, unauthenticated read access to the static pages of impossiblemetals.com — Technology, Sustainability, About, Markets, Partners, Board & Advisors, Policies & Reports, Careers and Contact. Verif
-  name: Impossible Metals Pages API
-  slug: impossible-metals-pages-api
-- description: Public, unauthenticated read access to the Impossible Metals frequently-asked-questions knowledge base — the company's own structured position on nodule collection, environmental impact, regulation an
-  name: Impossible Metals FAQ API
-  slug: impossible-metals-faq-api
-- description: Public, unauthenticated read access to the media library behind impossiblemetals.com — Eureka vehicle photography, seabed and nodule imagery, technical diagrams, report PDFs and press assets with thei
-  name: Impossible Metals Media API
-  slug: impossible-metals-media-api
-- description: 'Public, unauthenticated read access to the classification vocabularies behind impossiblemetals.com: post categories, post tags, the registered post types and the registered taxonomies. Verified live a'
-  name: Impossible Metals Taxonomy API
-  slug: impossible-metals-taxonomy-api
-- description: Public, unauthenticated cross-content search over impossiblemetals.com — posts, pages, FAQ entries and events — returning lightweight id / title / url / type / subtype records. Verified live at 586 se
-  name: Impossible Metals Search API
-  slug: impossible-metals-search-api
-- description: Public, unauthenticated read access to the Impossible Metals events calendar — conference appearances, webinars, demo days and the venues and organizers behind them — served by The Events Calendar plu
-  name: Impossible Metals Events API
-  slug: impossible-metals-events-api
-- description: The successor events surface at /wp-json/tec/v1/, described by an OpenAPI 3.0.4 document the host publishes at /wp-json/tec/v1/docs and captured verbatim here. The contract is published but the surfac
-  name: Impossible Metals Events API (TEC v1, experimental)
-  slug: impossible-metals-events-tec-api
-- description: 'Public, unauthenticated discovery surface for the impossiblemetals.com WordPress REST API: the API root, which enumerates 269 routes across 23 namespaces along with site identity and the advertised au'
+- description: Published authors of Impossible Metals content (8 at capture).
+  name: Impossible Metals Authors API
+  slug: impossible-metals-authors-api
+- description: The Categories API from Impossible Metals — 2 operation(s) for categories.
+  name: Impossible Metals Categories API
+  slug: impossible-metals-categories-api
+- description: These operations are introduced by the Common library.
+  name: Impossible Metals Common API
+  slug: impossible-metals-common-api
+- description: API root, route index, authentication advertisement and site identity.
   name: Impossible Metals Discovery API
   slug: impossible-metals-discovery-api
-- description: Public, unauthenticated oEmbed 1.0 provider for impossiblemetals.com. Returns oEmbed rich/link responses in JSON or XML for any URL on the site, so third-party surfaces can embed Impossible Metals pos
-  name: Impossible Metals oEmbed API
+- description: The Doc API from Impossible Metals — 1 operation(s) for doc.
+  name: Impossible Metals Doc API
+  slug: impossible-metals-doc-api
+- description: The Events API from Impossible Metals — 7 operation(s) for events.
+  name: Impossible Metals Events API
+  slug: impossible-metals-events-api
+- description: These operations are introduced by Events Pro.
+  name: Impossible Metals Events Pro API
+  slug: impossible-metals-events-pro-api
+- description: Frequently asked questions about deep-sea mineral collection, the Eureka AUV, environmental impact and regulation.
+  name: Impossible Metals FAQ API
+  slug: impossible-metals-faq-api
+- description: The faq_category taxonomy grouping FAQ entries by subject.
+  name: Impossible Metals FAQ Categories API
+  slug: impossible-metals-faq-categories-api
+- description: Images, diagrams, PDFs and other attachments with generated size variants.
+  name: Impossible Metals Media API
+  slug: impossible-metals-media-api
+- description: oEmbed 1.0 provider endpoint.
+  name: Impossible Metals O Embed API
   slug: impossible-metals-oembed-api
-artifact_total: 14
+- description: The Organizers API from Impossible Metals — 3 operation(s) for organizers.
+  name: Impossible Metals Organizers API
+  slug: impossible-metals-organizers-api
+- description: Static marketing, technology, sustainability and policy pages.
+  name: Impossible Metals Pages API
+  slug: impossible-metals-pages-api
+- description: Impossible Metals blog posts, press releases and announcements on deep-sea mineral collection, policy and the Eureka programme.
+  name: Impossible Metals Posts API
+  slug: impossible-metals-posts-api
+- description: Cross-content search returning lightweight discovery records.
+  name: Impossible Metals Search API
+  slug: impossible-metals-search-api
+- description: The Tags API from Impossible Metals — 2 operation(s) for tags.
+  name: Impossible Metals Tags API
+  slug: impossible-metals-tags-api
+- description: Categories, tags and the registered type/taxonomy vocabularies.
+  name: Impossible Metals Taxonomy API
+  slug: impossible-metals-taxonomy-api
+- description: The Venues API from Impossible Metals — 3 operation(s) for venues.
+  name: Impossible Metals Venues API
+  slug: impossible-metals-venues-api
+artifact_total: 22
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/impossible-metals-posts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/impossible-metals-pages-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/impossible-metals-faq-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/impossible-metals-media-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/impossible-metals-taxonomy-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/impossible-metals-search-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/impossible-metals-events-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/impossible-metals-discovery-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/impossible-metals-oembed-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -197,10 +257,10 @@ modified: '2026-08-23'
 name: Impossible Metals
 nav: Providers
 network: true
-overview: 'Impossible Metals publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, FAQ API, and 7 more. Tagged areas include Company, Deep Sea Mining, Critical Minerals, Battery Metals, and Robotics.
+overview: 'Impossible Metals publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Authors API, Categories API, Common API, and 15 more. Tagged areas include Company, Deep Sea Mining, Critical Minerals, Battery Metals, and Robotics.
 
 
-  Impossible Metals'' developer surface includes engineering blog, support, FAQ, YouTube channel, authentication, code examples, and 24 more developer resources.'
+  Impossible Metals'' developer surface includes engineering blog, support, FAQ, YouTube channel, authentication, code examples, and 33 more developer resources.'
 plans:
 - name: Impossible Metals Plans Pricing
   plan_count: 0
@@ -212,18 +272,23 @@ rate_limits:
   slug: impossible-metals-rate-limits
 score:
   band: thin
-  composite: 29.6
+  composite: 27.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 55.6
+    contract_governance: 4.5
+    contract_quality: 51.5
     developer_ergonomics: 20.8
     discoverability: 74.1
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 29.6
+  previous_composite: 27.1
   provenance:
     conformance: derived
     contracts:
@@ -233,8 +298,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -258,6 +323,6 @@ tags:
 - Sustainability
 - Climate Tech
 - Content
-- Events
+- Event
 website: https://impossiblemetals.com/
 ---

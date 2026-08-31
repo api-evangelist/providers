@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 286
   slug: iit-kanpur-agentic-access
   summary_line: 286 operations · 154 acting
-api_count: 64
+api_count: 1
 apis:
 - description: Handle two factor authentication flows
   name: Indian Institute of Technology Kanpur 2fa API
@@ -433,6 +433,10 @@ collections:
   name: Koha REST 2fa vendors API
   slug: open-iit-kanpur-vendors-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/iit-kanpur-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -540,18 +544,23 @@ rules:
   slug: iit-kanpur-rules
 score:
   band: thin
-  composite: 31.1
-  delta: 1.0
+  composite: 28.7
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.4
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 56.7
     developer_ergonomics: 4.8
-    discoverability: 68.5
+    discoverability: 44.4
     governance: 13.6
     operational_transparency: 21.1
-  previous_composite: 30.1
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     contracts:
@@ -565,8 +574,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iit-kanpur/refs/heads/main/screenshots/iit-kanpur-2026-06-20T183236.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 14
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 65
   slug: tesla-motors-agentic-access
   summary_line: 65 operations · 54 acting · 14 human-in-the-loop
-api_count: 4
+api_count: 1
 apis:
 - description: The Authentication API from Tesla Motors — 1 operation(s) for authentication.
   name: Tesla Motors Authentication API
@@ -76,6 +76,18 @@ collections:
   name: Tesla Motors Owner Authentication Vehicles API
   slug: open-tesla-motors-vehicles-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tesla-motors-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/timdorr/tesla-api/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/timdorr/tesla-api/releases
 - group: commercial
   title: ''
   type: License
@@ -163,7 +175,7 @@ overview: 'Tesla Motors publishes 4 APIs on the [APIs.io](https://apis.io/) netw
   The Tesla Motors catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tesla Motors'' developer surface includes developer portal, documentation, and 11 more developer resources.'
+  Tesla Motors'' developer surface includes developer portal, documentation, and 14 more developer resources.'
 plans:
 - name: Tesla Motors Plans Pricing
   plan_count: 3
@@ -213,18 +225,26 @@ rules:
   slug: tesla-motors-rules
 score:
   band: thin
-  composite: 33.6
-  delta: 0.0
+  composite: 34.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 54.8
     developer_ergonomics: 26.2
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 13.6
-    operational_transparency: 13.2
-  previous_composite: 33.6
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -232,8 +252,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

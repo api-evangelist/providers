@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 1
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 62
   slug: global-system-for-mobile-communications-agentic-access
   summary_line: 62 operations · 43 acting · 1 human-in-the-loop
-api_count: 29
+api_count: 24
 apis:
 - description: Scam Signal API allows businesses to protect their customers from impersonation scams, particularly Authorized Pushed Payment (APP) fraud.
   name: GSMA Camara Project Scam Signal API
@@ -297,6 +297,10 @@ collections:
   name: Global System for Mobile Communications Bruno Collection
   slug: bruno
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/global-system-for-mobile-communications-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -360,7 +364,7 @@ network: true
 overview: 'Global System for Mobile Communications publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Application API, Application Profiles API, Call Forwarding Information Retrieval API, and 25 more. Tagged areas include Mobile, Networking, Networks, Standards, and Telco.
 
 
-  Global System for Mobile Communications'' developer surface includes authentication, engineering blog, and 10 more developer resources.'
+  Global System for Mobile Communications'' developer surface includes authentication, engineering blog, and 11 more developer resources.'
 plans:
 - name: Global System For Mobile Communications Plans Pricing
   plan_count: 3
@@ -373,7 +377,12 @@ rate_limits:
 score:
   band: thin
   composite: 33.8
-  delta: 2.6
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 84.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -389,7 +398,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 31.2
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -403,8 +412,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/global-system-for-mobile-communications/refs/heads/main/screenshots/global-system-for-mobile-communications-2026-06-20T181919.png
 security:

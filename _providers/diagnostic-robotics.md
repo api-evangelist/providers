@@ -6,7 +6,7 @@ agent_readiness:
     agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
     dry_run_mode: false
@@ -22,20 +22,47 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.3
-  scored_at: '2026-08-26'
-api_count: 3
+  score: 32.2
+  scored_at: '2026-08-30'
+api_count: 6
 apis:
-- description: 'REST API for the Proactive Patient Risk Feed: upload FHIR R4 US Core / CCLF / custom claims and EHR datasets, then retrieve ranked actionable risk lists, per-patient risk profiles with contributing fa'
-  name: Diagnostic Robotics Precision Population Health API
-  slug: diagnostic-robotics-precision-population-health-api
-- description: REST API for the patient-questionnaire and triage service. Create a patient, open a visit, attach symptoms, walk the adaptive question tree one question at a time, finish the visit, then read the medi
-  name: Diagnostic Robotics Patient Questionnaire API
-  slug: diagnostic-robotics-patient-questionnaire-api
-- description: 'REST API for symptom lookup inside the patient-questionnaire flow: autocomplete a free-text symptom string against the Diagnostic Robotics symptom ontology, and list the symptoms already attached to a'
-  name: Diagnostic Robotics Symptom Search Service
-  slug: diagnostic-robotics-symptom-search-service
-artifact_total: 12
+- description: The API Auth API from Diagnostic Robotics — 1 operation(s) for api auth.
+  name: Diagnostic Robotics API Auth API
+  slug: diagnostic-robotics-api-auth-api
+- description: The Dataset Upload API API from Diagnostic Robotics — 1 operation(s) for dataset upload api.
+  name: Diagnostic Robotics Dataset Upload API
+  slug: diagnostic-robotics-dataset-upload-api-api
+- description: Global
+  name: Diagnostic Robotics Default API
+  slug: diagnostic-robotics-default-api
+- description: The Patient Profile API from Diagnostic Robotics — 1 operation(s) for patient profile.
+  name: Diagnostic Robotics Patient Profile API
+  slug: diagnostic-robotics-patient-profile-api
+- description: Patients resource
+  name: Diagnostic Robotics Patients v2 API
+  slug: diagnostic-robotics-patients-v2-api
+- description: Questions resource
+  name: Diagnostic Robotics Questions v2 API
+  slug: diagnostic-robotics-questions-v2-api
+- description: The Risk Adjustment Profile API from Diagnostic Robotics — 2 operation(s) for risk adjustment profile.
+  name: Diagnostic Robotics Risk Adjustment Profile API
+  slug: diagnostic-robotics-risk-adjustment-profile-api
+- description: The Risk List API API from Diagnostic Robotics — 3 operation(s) for risk list api.
+  name: Diagnostic Robotics Risk List API
+  slug: diagnostic-robotics-risk-list-api-api
+- description: The Risk Profile API from Diagnostic Robotics — 3 operation(s) for risk profile.
+  name: Diagnostic Robotics Risk Profile API
+  slug: diagnostic-robotics-risk-profile-api
+- description: The Visits API from Diagnostic Robotics — 1 operation(s) for visits.
+  name: Diagnostic Robotics Visits API
+  slug: diagnostic-robotics-visits-api
+- description: Patient visits resource
+  name: Diagnostic Robotics Visits v2 API
+  slug: diagnostic-robotics-visits-v2-api
+- description: The Widgets API API from Diagnostic Robotics — 4 operation(s) for widgets api.
+  name: Diagnostic Robotics Widgets API
+  slug: diagnostic-robotics-widgets-api-api
+artifact_total: 21
 collections:
 - collection_type: open
   name: Diagnostic Robotics API
@@ -47,6 +74,22 @@ collections:
   name: Search Service
   slug: open-diagnostic-robotics-symptom-search
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/diagnostic-robotics-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/diagnostic-robotics-precision-population-health-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/diagnostic-robotics-patient-questionnaire-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/diagnostic-robotics-symptom-search-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -171,10 +214,10 @@ modified: '2026-08-12'
 name: Diagnostic Robotics
 nav: Providers
 network: true
-overview: 'Diagnostic Robotics publishes 3 APIs on the [APIs.io](https://apis.io/) network: Precision Population Health API, Patient Questionnaire API, and Symptom Search Service. Tagged areas include Health, Healthcare, Clinical AI, Population Health, and Risk Adjustment.
+overview: 'Diagnostic Robotics publishes 12 APIs on the [APIs.io](https://apis.io/) network, including API Auth API, Dataset Upload API, Default API, and 9 more. Tagged areas include Health, healthcare, clinical-ai, population-health, and risk-adjustment.
 
 
-  Diagnostic Robotics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 22 more developer resources.'
+  Diagnostic Robotics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 26 more developer resources.'
 plans:
 - name: Diagnostic Robotics Plans Pricing
   plan_count: 0
@@ -191,18 +234,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.2
-  delta: -0.6
+  composite: 51.4
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 30.3
-    contract_quality: 46.6
+    contract_governance: 18.2
+    contract_quality: 45.4
     developer_ergonomics: 66.1
     discoverability: 74.1
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 53.8
+  previous_composite: 51.4
   provenance:
     conformance: first-party
     contracts:
@@ -214,12 +262,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 68.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diagnostic-robotics/refs/heads/main/screenshots/diagnostic-robotics-2026-08-17T080902.png
 security:
@@ -238,16 +290,16 @@ security:
 slug: diagnostic-robotics
 tags:
 - Health
-- Healthcare
-- Clinical AI
-- Population Health
-- Risk Adjustment
-- Predictive Analytics
+- healthcare
+- clinical-ai
+- population-health
+- risk-adjustment
+- predictive-analytics
 - triage
-- FHIR
-- Claims Data
-- Care Management
-- Payers
-- Medical Coding
+- fhir
+- claims-data
+- care-management
+- payers
+- medical-coding
 website: https://diagnosticrobotics.com/
 ---

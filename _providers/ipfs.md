@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 154
   slug: ipfs-agentic-access
   summary_line: 154 operations · 152 acting · 1 human-in-the-loop
-api_count: 40
+api_count: 2
 apis:
 - description: The IPFS HTTP Gateway API is an implementation-agnostic interface for retrieving content-addressed data from IPFS over standard HTTP. Path gateways expose /ipfs/{cid} and /ipns/{name} namespaces, supp
   name: IPFS HTTP Gateway API
@@ -403,18 +403,26 @@ rules:
   slug: ipfs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.0
-  delta: 2.6
+  composite: 32.7
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 56.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.4
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 43.9
+    contract_quality: 44.1
     developer_ergonomics: 23.8
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 31.4
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -422,8 +430,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipfs/refs/heads/main/screenshots/ipfs-2026-06-20T183549.png
 security:

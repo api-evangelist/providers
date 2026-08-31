@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 19
   slug: pandascore-agentic-access
   summary_line: 19 operations
-api_count: 14
+api_count: 1
 apis:
 - description: Unified REST API for esports fixtures, matches, tournaments, leagues, series, teams, players, and historical statistics across all supported videogames. Bearer-token authenticated, paginated, and game
   name: PandaScore REST API
@@ -207,18 +207,23 @@ rate_limits:
   slug: pandascore-rate-limits
 score:
   band: developing
-  composite: 41.3
-  delta: 0.7
+  composite: 40.8
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 26.2
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 40.6
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -226,8 +231,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pandascore/refs/heads/main/screenshots/pandascore-2026-08-17T083019.png
 security:

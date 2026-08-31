@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -43,14 +43,11 @@ agentic_access:
   operation_count: 157
   slug: hku-agentic-access
   summary_line: 157 operations · 81 acting · 2 human-in-the-loop
-api_count: 7
+api_count: 1
 apis:
 - description: The University of Hong Kong's own Shibboleth SAML 2.0 identity provider, entityID https://hkafidp.hku.hk/idp/shibboleth, scope hku.hk. It self-publishes signed metadata (HTTP 200, application/xml, 14,
   name: HKU Shibboleth Identity Provider
   slug: identity-federation
-- description: Institution-operated OpenID Connect issuer at https://adfs.hku.hk/adfs, serving a live discovery document, a JWKS with an RS256 signing key, a UserInfo endpoint that returns a correct 401 to invalid t
-  name: HKU AD FS OAuth 2.0 / OpenID Connect Issuer
-  slug: adfs-oidc
 - description: HKU Information Technology Services runs an Azure API Management gateway at api.hku.hk and a developer portal at developer.hku.hk. Since 17 March 2026 the portal has issued subscription keys to studen
   name: HKU ITS API Developer Portal and Gateway
   slug: its-api-portal
@@ -66,7 +63,13 @@ apis:
 - description: HKU's Microsoft Entra ID tenant (42f9b54e-2477-41ba-bf09-7a0d2a83ff09) publishes a live OpenID Connect discovery document for the hku.hk domain. It is institution-specific and machine-readable, but it
   name: HKU Microsoft Entra ID Tenant
   slug: entra-tenant
-artifact_total: 28
+- description: Metadata documents that describe the identity service.
+  name: University of Hong Kong Discovery API
+  slug: hku-discovery-api
+- description: OAuth 2.0 / OpenID Connect protocol endpoints.
+  name: University of Hong Kong O Auth API
+  slug: hku-oauth-api
+artifact_total: 29
 collections:
 - collection_type: open
   name: API Collection
@@ -285,7 +288,7 @@ modified: '2026-08-19'
 name: University of Hong Kong
 nav: Providers
 network: true
-overview: 'University of Hong Kong publishes 1 API on the [APIs.io](https://apis.io/) network: HKU AD FS OAuth 2.0 / OpenID Connect Issuer. Tagged areas include Education, Higher Education, University, Hong Kong, and Identity Federation.
+overview: 'University of Hong Kong publishes 2 APIs on the [APIs.io](https://apis.io/) network: Discovery API and O Auth API. Tagged areas include Education, Higher Education, University, Hong Kong, and Identity Federation.
 
 
   The University of Hong Kong catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -319,18 +322,23 @@ scopes:
   summary_line: 9 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: developing
-  composite: 49.0
-  delta: 4.5
+  composite: 49.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 29.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 63.6
-    contract_quality: 25.1
+    contract_quality: 25.8
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 79.6
     governance: 63.6
     operational_transparency: 36.8
-  previous_composite: 44.5
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -345,8 +353,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 72.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/screenshots/hku-2026-06-20T182806.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 30
   slug: yugabyte-agentic-access
   summary_line: 30 operations · 2 acting
-api_count: 10
+api_count: 1
 apis:
 - description: Programmatic management API for YugabyteDB Aeon, the fully managed cloud DBaaS. Deploy and manage clusters and read replicas, schedule and run on-demand backups and restores, manage IP allow lists, co
   name: YugabyteDB Aeon REST API
@@ -260,19 +260,24 @@ overview: 'Yugabyte publishes 9 APIs on the [APIs.io](https://apis.io/) network,
   Yugabyte''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 random_paper: 13
 score:
-  band: strong
-  composite: 55.1
-  delta: 0.0
+  band: developing
+  composite: 53.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 50.8
     developer_ergonomics: 73.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 55.1
+  previous_composite: 53.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -283,8 +288,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yugabyte/refs/heads/main/screenshots/yugabyte-2026-08-17T083024.png
 security:
@@ -307,7 +312,7 @@ tags:
 - Distributed SQL
 - PostgreSQL
 - Cloud
-- Database-as-a-Service
+- DBaaS
 - Open-Source
 - SQL
 - Data

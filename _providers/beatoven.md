@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 2
   slug: beatoven-agentic-access
   summary_line: 2 operations · 1 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Poll asynchronous composition task status and retrieve generated assets.
   name: Beatoven.ai Tasks API
@@ -208,7 +208,7 @@ modified: '2026-05-24'
 name: Beatoven.ai
 nav: Providers
 network: true
-overview: 'Beatoven.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: Tasks API and Tracks API. Tagged areas include Artificial Intelligence, Music, Music Generation, Generative Audio, and Text-to-Music.
+overview: 'Beatoven.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network: Tasks API and Tracks API. Tagged areas include Artificial Intelligence, Music, Music Generation, Generative Audio, and Text To Music.
 
 
   The Beatoven.ai catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -249,7 +249,12 @@ rules:
 score:
   band: strong
   composite: 55.8
-  delta: -0.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 30.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -259,7 +264,7 @@ score:
     discoverability: 68.5
     governance: 54.5
     operational_transparency: 2.6
-  previous_composite: 56.7
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     contracts:
@@ -267,8 +272,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -285,7 +290,7 @@ tags:
 - Music
 - Music Generation
 - Generative Audio
-- Text-to-Music
+- Text To Music
 - Text To SFX
 - Royalty-Free Music
 - Background Music

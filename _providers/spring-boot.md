@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 21
   slug: spring-boot-agentic-access
   summary_line: 21 operations · 4 acting · 1 human-in-the-loop
-api_count: 13
+api_count: 1
 apis:
 - description: RESTful web services built with Spring Boot using Spring MVC or Spring WebFlux. Supports JSON, XML, and hypermedia responses with full content negotiation, validation, error handling, and CORS configu
   name: Spring Boot REST API
@@ -121,6 +121,18 @@ collections:
   name: Spring Boot Actuator Application Metrics API
   slug: open-spring-boot-metrics-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/codecentric/spring-boot-admin/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/codecentric/spring-boot-admin/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/codecentric/spring-boot-admin/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -230,13 +242,13 @@ modified: '2026-05-19'
 name: Spring Boot
 nav: Providers
 network: true
-overview: 'Spring Boot publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Application API, Caches API, Configuration API, and 7 more. Tagged areas include Auto-Configuration, Embedded Server, Framework, Java, and Microservices.
+overview: 'Spring Boot publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Application API, Caches API, Configuration API, and 7 more. Tagged areas include Auto Configuration, Embedded Server, Framework, Java, and Microservices.
 
 
   The Spring Boot catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spring Boot''s developer surface includes documentation, GitHub presence, release notes, Stack Overflow tag, engineering blog, and 12 more developer resources.'
+  Spring Boot''s developer surface includes documentation, GitHub presence, release notes, Stack Overflow tag, engineering blog, and 15 more developer resources.'
 plans:
 - name: Spring Boot Plans Pricing
   plan_count: 3
@@ -270,18 +282,26 @@ rules:
   slug: spring-boot-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.2
-  delta: 2.4
+  composite: 40.7
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 30.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 69.7
     contract_quality: 55.0
     developer_ergonomics: 21.4
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 69.7
     operational_transparency: 26.3
-  previous_composite: 37.8
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -289,8 +309,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/screenshots/spring-boot-2026-06-20T194406.png
 security:
@@ -304,7 +324,7 @@ security:
   summary_line: security.txt · contact published
 slug: spring-boot
 tags:
-- Auto-Configuration
+- Auto Configuration
 - Embedded Server
 - Framework
 - Java

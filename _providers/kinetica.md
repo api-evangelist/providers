@@ -2,7 +2,7 @@
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_card: near-conformant
+    agent_card: false
     agent_skills: true
     agentic_access: false
     agentic_commerce: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.3
-  scored_at: '2026-08-26'
+  score: 33.8
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: 'POST-only JSON REST API exposed by every Kinetica deployment on port 9191. Endpoints cover SQL execution (/execute/sql), record ingest and egress (/insert/records/json, /get/records/json), schema and '
@@ -189,7 +189,7 @@ modified: '2026-08-04'
 name: Kinetica
 nav: Providers
 network: true
-overview: 'Kinetica publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Analytics, gpu-acceleration, Real-Time Analytics, and Vector Search.
+overview: 'Kinetica publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Database, Analytics, gpu-acceleration, real-time-analytics, and vector-search.
 
 
   Kinetica''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
@@ -201,7 +201,12 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.7
+  composite: 37.6
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 31.6
@@ -209,16 +214,16 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 85.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 38.7
+  previous_composite: 37.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinetica/refs/heads/main/screenshots/kinetica-2026-08-07T171232.png
 security:
@@ -239,14 +244,14 @@ tags:
 - Database
 - Analytics
 - gpu-acceleration
-- Real-Time Analytics
-- Vector Search
-- Graph Analytics
-- Geospatial
-- Time Series
+- real-time-analytics
+- vector-search
+- graph-analytics
+- geospatial
+- time-series
 - SQL
-- Streaming
-- Data Infrastructure
+- streaming
+- data-infrastructure
 - MCP
 - agent-native
 - RAG

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 2
   slug: php-fpm-agentic-access
   summary_line: 2 operations
-api_count: 3
+api_count: 1
 apis:
 - description: PHP-FPM liveness check.
   name: PHP-FPM Ping API
@@ -66,6 +66,22 @@ collections:
   name: PHP-FPM Status and Ping Endpoints
   slug: open-php-fpm
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/php/php-src/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/php/php-src/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/php/php-src/blob/master/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/php/php-src/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -113,22 +129,30 @@ network: true
 overview: 'PHP-FPM publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ping API and Status API. Tagged areas include PHP, FastCGI, Process Manager, Web Server, and Application Server.
 
 
-  PHP-FPM''s developer surface includes documentation and 8 more developer resources.'
+  PHP-FPM''s developer surface includes documentation and 12 more developer resources.'
 random_paper: 3
 score:
-  band: emerging
-  composite: 21.0
-  delta: 0.0
+  band: thin
+  composite: 30.0
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 68.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 47.6
     developer_ergonomics: 9.5
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 21.0
+    operational_transparency: 31.6
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     contracts:
@@ -136,8 +160,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/php-fpm/refs/heads/main/screenshots/php-fpm-2026-06-20T191655.png
 security:

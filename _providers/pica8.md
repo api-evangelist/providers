@@ -15,24 +15,54 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.1
-  scored_at: '2026-08-26'
-api_count: 2
+  score: 27.7
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: JSON REST API on the customer-deployed AmpCon controller. A JWT bearer token is minted from POST /token by a superadmin user and carried in the Authorization header on every call. The API covers Jinja
-  name: Pica8 AmpCon Network Controller API
-  slug: pica8-ampcon-network-controller-api
 - description: Standards-based on-device programmability in the PICOS network operating system. RESTCONF (RFC 8040) exposes OPTIONS/HEAD/GET/POST/PATCH/PUT/DELETE over YANG-modelled configuration and state at /restc
   name: PICOS RESTCONF / NETCONF / gNMI Device API
   slug: picos-restconf-netconf-gnmi-device-api
-artifact_total: 7
+- description: Configuration backup snapshots and rollback.
+  name: Pica8 Backup API
+  slug: pica8-backup-api
+- description: Global and per-switch (site) configuration generation and comparison.
+  name: Pica8 Configuration API
+  slug: pica8-configuration-api
+- description: Configuration files used by the configuration-push function.
+  name: Pica8 Configuration File API
+  slug: pica8-configurationfile-api
+- description: Switch groups and their permitted action sets.
+  name: Pica8 Group API
+  slug: pica8-group-api
+- description: Ansible playbook execution jobs.
+  name: Pica8 Job API
+  slug: pica8-job-api
+- description: Per-switch and per-group license audit and license application.
+  name: Pica8 License API
+  slug: pica8-license-api
+- description: Ansible playbook management.
+  name: Pica8 Playbook API
+  slug: pica8-playbook-api
+- description: Controller system settings, switch model catalog and user administration.
+  name: Pica8 Settings API
+  slug: pica8-settings-api
+- description: 'Switch inventory and lifecycle: stage, import, DECOM, RMA, logs.'
+  name: Pica8 Switch API
+  slug: pica8-switch-api
+- description: Jinja2 configuration templates and their declared variables.
+  name: Pica8 Template API
+  slug: pica8-template-api
+- description: JWT token minting.
+  name: Pica8 Token API
+  slug: pica8-token-api
+artifact_total: 17
 common:
 - group: auth
   title: ''
@@ -171,7 +201,7 @@ modified: '2026-08-26'
 name: Pica8
 nav: Providers
 network: true
-overview: 'Pica8 publishes 1 API on the [APIs.io](https://apis.io/) network: AmpCon Network Controller API. Tagged areas include Networking, Open Networking, Software Defined Networking, Network Automation, and Network Operating System.
+overview: 'Pica8 publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Backup API, Configuration API, Configuration File API, and 8 more. Tagged areas include networking, open-networking, software-defined-networking, network-automation, and network-operating-system.
 
 
   Pica8''s developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, CLI, and 24 more developer resources.'
@@ -186,16 +216,23 @@ rate_limits:
   slug: pica8-rate-limits
 score:
   band: thin
-  composite: 33.6
+  composite: 31.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 30.3
-    contract_quality: 13.1
+    contract_governance: 18.2
+    contract_quality: 13.3
     developer_ergonomics: 54.2
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 18.4
+  previous_composite: 31.7
   provenance:
     conformance: first-party
     contracts:
@@ -205,8 +242,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Pica8 Authentication
@@ -218,17 +256,17 @@ security:
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: pica8
 tags:
-- Networking
-- Open Networking
-- Software Defined Networking
-- Network Automation
-- Network Operating System
-- White Box Switching
-- Network Management
-- Campus Networking
-- Data Center Networking
-- RESTCONF
-- NETCONF
+- networking
+- open-networking
+- software-defined-networking
+- network-automation
+- network-operating-system
+- white-box-switching
+- network-management
+- campus-networking
+- data-center-networking
+- restconf
+- netconf
 - Telemetry
 website: https://www.pica8.com/
 ---

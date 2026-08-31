@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 24
   slug: celsius-network-agentic-access
   summary_line: 24 operations · 7 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Know-Your-Customer application submission and status.
   name: Celsius Network KYC API
@@ -190,18 +190,23 @@ overview: 'Celsius Network publishes 4 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 8
 score:
   band: thin
-  composite: 32.1
-  delta: -0.2
+  composite: 30.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 14.4
     developer_ergonomics: 54.2
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 32.3
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,8 +222,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/screenshots/celsius-network-2026-08-07T163216.png
 security:

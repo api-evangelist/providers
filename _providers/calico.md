@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: calico-agentic-access
   summary_line: 28 operations · 14 acting
-api_count: 10
+api_count: 1
 apis:
 - description: 'The Calico Client Library provides programmatic access to manage Calico resources such as network policies, IP pools, BGP configuration, host and workload endpoints, and IPAM settings. It is the core '
   name: Calico Client API
@@ -210,18 +210,26 @@ rate_limits:
   name: Calico Rate Limits
   slug: calico-rate-limits
 score:
-  band: thin
-  composite: 37.6
-  delta: 0.0
+  band: developing
+  composite: 41.9
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 4.3
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 51.9
     developer_ergonomics: 40.5
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 85.0
   previous_composite: 37.6
   provenance:
     agentic_access: derived
@@ -236,8 +244,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 27.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/screenshots/calico-2026-06-20T173846.png
 security:

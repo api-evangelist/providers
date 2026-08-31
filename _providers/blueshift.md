@@ -23,16 +23,76 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
-- description: 'The Blueshift REST API: 81 operations across 21 resource groups covering customer profiles and privacy operations (create/update, bulk, merge, forget/unforget, delete), event ingestion (single, bulk, '
-  name: Blueshift REST API
-  slug: blueshift-rest-api
 - description: Official hosted remote MCP server, in public beta, exposing a catalogue of 131 tools (97 read, 34 write) across campaigns, segments, customer profiles, catalogs, templates, shared assets, tags, report
   name: Blueshift MCP Server
   slug: blueshift-mcp-server
-artifact_total: 11
+- description: Adapters are entities that provide integration to various services with Blueshift. For example, we provide adapters for various services such as Mailgun, Sendgrid, and Sparkpost for sending emails, an
+  name: Blueshift Adapters API
+  slug: blueshift-adapters-api
+- description: Manage your campaigns in Blueshift.
+  name: Blueshift Campaigns API
+  slug: blueshift-campaigns-api
+- description: A catalog is a list of items which may include content or products.
+  name: Blueshift Catalog API
+  slug: blueshift-catalog-api
+- description: A custom user list contains information about the users of your site such as name, email, phone number, and location. You can use this list as a segment and run campaigns for them.
+  name: Blueshift Custom user lists API
+  slug: blueshift-custom-user-lists-api
+- description: Blueshift hosts 360 degree customer profile for each of your users to represent all of their demographic, behavioral and engagement activity.
+  name: Blueshift Customer API
+  slug: blueshift-customer-api
+- description: Customer groups link multiple customer profiles to a common parent entity with shared attributes. Use these endpoints to delete a group or remove a user from a group.
+  name: Blueshift Customer groups API
+  slug: blueshift-customer-groups-api
+- description: Email template lifecycle management
+  name: Blueshift Email template API
+  slug: blueshift-email-template-api
+- description: Validate single or bulk email addresses to assess deliverability and risk.
+  name: Blueshift Email validation API
+  slug: blueshift-email-validation-api
+- description: Use the event APIs to send events from your servers.
+  name: Blueshift Event API
+  slug: blueshift-event-api
+- description: External fetch is a Blueshift capability that lets you include dynamic content from external servers that is fetched “just in time” before sending a message.
+  name: Blueshift External fetch API
+  slug: blueshift-external-fetch-api
+- description: Interest alerts store information about users' interests. When an event occurs in an area or topic in which multiple users are interested, you can trigger a single API call to send a notification to a
+  name: Blueshift Interest alerts API
+  slug: blueshift-interest-alerts-api
+- description: The Live Activities API from Blueshift — 2 operation(s) for live activities.
+  name: Blueshift Live Activities API
+  slug: blueshift-live-activities-api
+- description: Use the Live content API endpoint to insert content recommendations in your website and mobile apps.
+  name: Blueshift Live content API
+  slug: blueshift-live-content-api
+- description: Promotions allows you to manage promo codes that you may wish to send to your customers through Blueshift Campaigns
+  name: Blueshift Promotions API
+  slug: blueshift-promotions-api
+- description: Push template lifecycle management
+  name: Blueshift Push template API
+  slug: blueshift-push-template-api
+- description: You can use the `customer_search` API to search for events associated with a customer.
+  name: Blueshift Search API
+  slug: blueshift-search-api
+- description: A segment is a list of users that satisfy a criteria. For example, you can create a segment for users who are located in the San Francisco area and run campaigns for them.
+  name: Blueshift Segments API
+  slug: blueshift-segments-api
+- description: Manage reusable assets such as HTML, rich text, subject lines, and visual editor content.
+  name: Blueshift Shared assets API
+  slug: blueshift-shared-assets-api
+- description: SMS template lifecycle management
+  name: Blueshift SMS template API
+  slug: blueshift-sms-template-api
+- description: Retrieve subscription groups and view detailed information for each subscription group.
+  name: Blueshift Subscription groups API
+  slug: blueshift-subscription-groups-api
+- description: Tags are folder-based entities that you can use to organize your resources. Each tag folder contains its own isolated set of tags.
+  name: Blueshift Tags API
+  slug: blueshift-tags-api
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Blueshift Webhooks
@@ -42,6 +102,18 @@ collections:
   name: Blueshift APIs
   slug: open-blueshift
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/blueshift-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/blueshift-openapi-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -162,13 +234,13 @@ modified: '2026-08-12'
 name: Blueshift
 nav: Providers
 network: true
-overview: 'Blueshift publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Customer Data Platform, Customer Engagement, Marketing Automation, Cross-Channel Messaging, and Email.
+overview: 'Blueshift publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Adapters API, Campaigns API, Catalog API, and 18 more. Tagged areas include customer-data-platform, Customer Engagement, marketing-automation, cross-channel-messaging, and Email.
 
 
   The Blueshift catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Blueshift''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
+  Blueshift''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
 plans:
 - name: Blueshift Plans Pricing
   plan_count: 3
@@ -185,18 +257,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 71.1
-  delta: 6.4
+  composite: 68.7
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 12.1
+    contract_governance: 0.0
     contract_quality: 63.9
-    developer_ergonomics: 63.7
+    developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 12.1
+    governance: 0.0
     operational_transparency: 73.7
-  previous_composite: 64.7
+  previous_composite: 69.3
   provenance:
     conformance: first-party
     contracts:
@@ -212,9 +289,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blueshift/refs/heads/main/screenshots/blueshift-2026-08-17T080647.png
 security:
 - kind: authentication
@@ -231,19 +308,19 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: blueshift
 tags:
-- Customer Data Platform
+- customer-data-platform
 - Customer Engagement
-- Marketing Automation
-- Cross-Channel Messaging
+- marketing-automation
+- cross-channel-messaging
 - Email
 - SMS
 - Push Notifications
-- Segmentation
-- Personalization
-- Product Recommendations
-- Event Tracking
-- Product Catalog
-- MarTech
+- segmentation
+- personalization
+- product-recommendations
+- event-tracking
+- product-catalog
+- martech
 - MCP
 - agent-native
 website: https://blueshift.com/

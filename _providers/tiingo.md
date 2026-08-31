@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,27 +41,48 @@ agentic_access:
   operation_count: 37
   slug: tiingo-agentic-access
   summary_line: 37 operations
-api_count: 6
+api_count: 1
 apis:
-- description: Daily OHLCV history for 100,000+ US equities and ETFs back to 1962, with split and dividend adjustments.
-  name: Tiingo End-of-Day API
-  slug: end-of-day-api
-- description: IEX-sourced intraday quotes and trades over REST and WebSocket - real-time during US market hours.
-  name: Tiingo IEX Intraday API
-  slug: iex-intraday-api
-- description: Crypto top-of-book and trade data aggregated from major exchanges over REST and WebSocket.
+- description: The BOATS API from Tiingo — 2 operation(s) for boats.
+  name: Tiingo BOATS API
+  slug: tiingo-boats-api
+- description: The Corporate Actions API from Tiingo — 5 operation(s) for corporate actions.
+  name: Tiingo Corporate Actions API
+  slug: tiingo-corporate-actions-api
+- description: The Crypto API from Tiingo — 3 operation(s) for crypto.
   name: Tiingo Crypto API
-  slug: crypto-api
-- description: Real-time and historical FX rates for major and emerging-market currency pairs.
+  slug: tiingo-crypto-api
+- description: The Crypto Yield API from Tiingo — 4 operation(s) for crypto yield.
+  name: Tiingo Crypto Yield API
+  slug: tiingo-crypto-yield-api
+- description: The End-of-Day API from Tiingo — 2 operation(s) for end-of-day.
+  name: Tiingo End Of Day API
+  slug: tiingo-end-of-day-api
+- description: The Equity Realtime API from Tiingo — 2 operation(s) for equity realtime.
+  name: Tiingo Equity Realtime API
+  slug: tiingo-equity-realtime-api
+- description: The Forex API from Tiingo — 2 operation(s) for forex.
   name: Tiingo Forex API
-  slug: forex-api
-- description: Income statement, balance sheet, cash flow, and corporate event data sourced from SEC filings.
+  slug: tiingo-forex-api
+- description: The Fund Fees API from Tiingo — 2 operation(s) for fund fees.
+  name: Tiingo Fund Fees API
+  slug: tiingo-fund-fees-api
+- description: The Fundamentals API from Tiingo — 4 operation(s) for fundamentals.
   name: Tiingo Fundamentals API
-  slug: fundamentals-api
-- description: Tagged equity news from 1,000+ publishers with ticker, topic, and source filters.
+  slug: tiingo-fundamentals-api
+- description: The IEX API from Tiingo — 2 operation(s) for iex.
+  name: Tiingo IEX API
+  slug: tiingo-iex-api
+- description: The News API from Tiingo — 3 operation(s) for news.
   name: Tiingo News API
-  slug: news-api
-artifact_total: 16
+  slug: tiingo-news-api
+- description: The Small Exchange API from Tiingo — 4 operation(s) for small exchange.
+  name: Tiingo Small Exchange API
+  slug: tiingo-small-exchange-api
+- description: The Utilities API from Tiingo — 2 operation(s) for utilities.
+  name: Tiingo Utilities API
+  slug: tiingo-utilities-api
+artifact_total: 23
 asyncapis:
 - description: Tiingo's WebSocket streaming interface for real-time market data. Clients subscribe and unsubscribe to data feeds by sending a JSON request containing eventName, an authorization API token, and eventD
   name: Tiingo WebSocket API
@@ -222,7 +243,7 @@ modified: '2026-07-22'
 name: Tiingo
 nav: Providers
 network: true
-overview: 'Tiingo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including End-of-Day API, IEX Intraday API, Crypto API, and 3 more. Tagged areas include Fintech, Market Data, Stocks, Crypto, and FX.
+overview: 'Tiingo publishes 13 APIs on the [APIs.io](https://apis.io/) network, including BOATS API, Corporate Actions API, Crypto API, and 10 more. Tagged areas include Fintech, Market Data, Stocks, Crypto, and FX.
 
 
   The Tiingo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -240,18 +261,23 @@ rate_limits:
   slug: tiingo-rate-limits
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 44.7
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
-    contract_quality: 21.1
+    contract_governance: 4.5
+    contract_quality: 20.7
     developer_ergonomics: 70.8
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 46.8
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,8 +294,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/screenshots/tiingo-2026-06-20T195345.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 21
   slug: acrcloud-agentic-access
   summary_line: 21 operations · 13 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Upload and manage audio files and fingerprints within a bucket.
   name: ACRCloud Audio Files API
@@ -160,18 +160,23 @@ rate_limits:
   slug: acrcloud-rate-limits
 score:
   band: thin
-  composite: 38.9
-  delta: 1.5
+  composite: 38.3
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 51.7
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.4
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +184,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/screenshots/acrcloud-2026-07-25T181514.png
 security:

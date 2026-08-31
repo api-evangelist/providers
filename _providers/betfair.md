@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 27
   slug: betfair-agentic-access
   summary_line: 27 operations · 26 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Low-latency, subscription-based push of market and order changes over a persistent raw SSL/TCP socket to stream-api.betfair.com:443. The protocol is CRLF-delimited JSON (one JSON message per line) - N
   name: Betfair Exchange Stream API
@@ -171,18 +171,23 @@ rules:
   slug: betfair-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 42.6
-  delta: 3.0
+  composite: 42.0
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 60.0
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 39.6
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -196,8 +201,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/screenshots/betfair-2026-08-17T122904.png
 security:

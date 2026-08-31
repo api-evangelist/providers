@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: meteomatics-agentic-access
   summary_line: 7 operations
-api_count: 3
+api_count: 1
 apis:
 - description: Obtain OAuth2 bearer tokens
   name: Meteomatics Authentication API
@@ -136,10 +136,6 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/meteomatics-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: '2026-06-12'
 description: Meteomatics is a Swiss weather technology company offering a REST and WebSocket Weather API that provides hyperlocal forecasts, historical weather data back to 1940, climate scenarios to 2100, marine conditions, and environmental parameters at up to 1km native resolution. The API exposes over 1,800 weather parameters across global, regional, oceanic, and AI-based models, supporting point, multi-location, route, and polygon queries with output in JSON, CSV, XML, PNG, GeoTIFF, and NetCDF formats.
 examples:
@@ -171,7 +167,7 @@ overview: 'Meteomatics publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
   The Meteomatics catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Meteomatics'' developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, and 13 more developer resources.'
+  Meteomatics'' developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Meteomatics Plans Pricing
   plan_count: 4
@@ -194,18 +190,23 @@ rules:
   slug: meteomatics-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.2
-  delta: 3.1
+  composite: 44.7
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 37.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 71.4
     developer_ergonomics: 26.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 13.2
-  previous_composite: 42.1
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     contracts:
@@ -213,8 +214,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meteomatics/refs/heads/main/screenshots/meteomatics-2026-06-20T185254.png
 security:

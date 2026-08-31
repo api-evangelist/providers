@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 3
   slug: sparql-agentic-access
   summary_line: 3 operations · 2 acting
-api_count: 6
+api_count: 2
 apis:
 - description: Standard SPARQL 1.1 Protocol HTTP endpoints for executing queries and updates against RDF datasets, plus the Graph Store HTTP Protocol for direct management of named graphs and the default graph, as d
   name: SPARQL Protocol API
@@ -116,16 +116,21 @@ rate_limits:
   name: Sparql Rate Limits
   slug: sparql-rate-limits
 score:
-  band: thin
-  composite: 26.4
-  delta: 0.0
+  band: emerging
+  composite: 25.8
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 58.4
     developer_ergonomics: 0.0
-    discoverability: 75.9
+    discoverability: 70.4
     governance: 0.0
     operational_transparency: 7.9
   needs_work:
@@ -142,8 +147,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/screenshots/sparql-2026-06-20T194246.png
 security:

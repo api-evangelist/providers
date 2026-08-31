@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 41
   slug: azure-networking-services-agentic-access
   summary_line: 41 operations · 14 acting
-api_count: 5
+api_count: 2
 apis:
 - description: The LoadBalancers API from Azure Networking Services — 16 operation(s) for loadbalancers.
   name: Azure Networking Services LoadBalancers API
@@ -95,6 +95,10 @@ collections:
   name: NetworkManagementClient LoadBalancers VirtualNetworks API
   slug: open-azure-networking-services-virtualnetworks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/azure-networking-services-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -685,7 +689,7 @@ overview: 'Azure Networking Services publishes 5 APIs on the [APIs.io](https://a
   The Azure Networking Services catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Azure Networking Services'' developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 12 more developer resources.'
+  Azure Networking Services'' developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Azure Networking Services Plans Pricing
   plan_count: 3
@@ -724,18 +728,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 46.5
-  delta: 0.0
+  composite: 46.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 28.8
     contract_quality: 57.0
     developer_ergonomics: 54.8
-    discoverability: 74.1
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 46.5
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     contracts:
@@ -743,8 +752,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-networking-services/refs/heads/main/screenshots/azure-networking-services-2026-06-20T172903.png
 security:

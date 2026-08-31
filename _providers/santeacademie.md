@@ -23,17 +23,59 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: Read-only JSON catalog API built on API Platform (Symfony) that backs the santeacademie.com websites and the play.santeacademie.com learner app. Ten GET operations cover training-topic and resource se
-  name: Santé Académie Frontstage API
-  slug: santé-académie-frontstage-api
-- description: Read-only JSON "connector" API generated with swagger-php on the same frontstage host, used by the marketing site and funding simulator. Fourteen GET operations cover article and topic search, per-slu
-  name: Santé Académie Connector API
-  slug: santé-académie-connector-api
-artifact_total: 7
+- description: Article
+  name: Santé Académie Article API
+  slug: santeacademie-article-api
+- description: CustomCatalog
+  name: Santé Académie Custom Catalog API
+  slug: santeacademie-customcatalog-api
+- description: Faq
+  name: Santé Académie Faq API
+  slug: santeacademie-faq-api
+- description: Health Facility
+  name: Santé Académie Health Facility API
+  slug: santeacademie-health-facility-api
+- description: Job
+  name: Santé Académie Job API
+  slug: santeacademie-job-api
+- description: JobSpace
+  name: Santé Académie Job Space API
+  slug: santeacademie-jobspace-api
+- description: MediaCategory
+  name: Santé Académie Media Category API
+  slug: santeacademie-mediacategory-api
+- description: Pharmacy
+  name: Santé Académie Pharmacy API
+  slug: santeacademie-pharmacy-api
+- description: Resource
+  name: Santé Académie Resource API
+  slug: santeacademie-resource-api
+- description: Sitemap
+  name: Santé Académie Sitemap API
+  slug: santeacademie-sitemap-api
+- description: Testimonial
+  name: Santé Académie Testimonial API
+  slug: santeacademie-testimonial-api
+- description: Topic
+  name: Santé Académie Topic API
+  slug: santeacademie-topic-api
+artifact_total: 17
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/santeacademie-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/santeacademie-frontstage-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/santeacademie-connector-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -138,10 +180,10 @@ modified: '2026-08-17'
 name: Santé Académie
 nav: Providers
 network: true
-overview: 'Santé Académie publishes 2 APIs on the [APIs.io](https://apis.io/) network: Frontstage API and Connector API. Tagged areas include Company, EdTech, Healthcare Training, Continuing Education, and DPC.
+overview: 'Santé Académie publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Article API, Custom Catalog API, Faq API, and 9 more. Tagged areas include Company, Edtech, healthcare-training, continuing-education, and dpc.
 
 
-  Santé Académie''s developer surface includes support, engineering blog, authentication, and 20 more developer resources.'
+  Santé Académie''s developer surface includes support, engineering blog, authentication, and 23 more developer resources.'
 plans:
 - name: Santeacademie Plans Pricing
   plan_count: 0
@@ -153,18 +195,23 @@ rate_limits:
   slug: santeacademie-rate-limits
 score:
   band: thin
-  composite: 38.7
-  delta: 1.5
+  composite: 37.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
-    contract_governance: 16.7
-    contract_quality: 43.2
+    contract_governance: 4.5
+    contract_quality: 41.7
     developer_ergonomics: 28.0
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 37.2
+  previous_composite: 37.4
   provenance:
     conformance: derived
     contracts:
@@ -180,8 +227,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -195,14 +242,14 @@ security:
 slug: santeacademie
 tags:
 - Company
-- EdTech
-- Healthcare Training
-- Continuing Education
-- DPC
-- E-Learning
-- France
-- Healthcare Professionals
-- Course Catalog
-- LMS
+- Edtech
+- healthcare-training
+- continuing-education
+- dpc
+- e-learning
+- france
+- healthcare-professionals
+- course-catalog
+- lms
 website: https://www.santeacademie.com/
 ---

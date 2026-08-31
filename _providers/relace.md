@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 11
   slug: relace-agentic-access
   summary_line: 11 operations · 10 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The Code API from Relace — 5 operation(s) for code.
   name: Relace Code API
@@ -200,18 +200,23 @@ overview: 'Relace publishes 2 APIs on the [APIs.io](https://apis.io/) network: C
 random_paper: 11
 score:
   band: developing
-  composite: 45.6
+  composite: 44.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 49.7
     developer_ergonomics: 68.5
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 45.6
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -222,8 +227,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relace/refs/heads/main/screenshots/relace-2026-08-17T081505.png
 security:

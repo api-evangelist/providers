@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
 - description: Epic's HL7 FHIR R4 (4.0.1) REST API, aligned to the US Core implementation guides and exposing 59 resource types (Patient, Encounter, Observation, Condition, MedicationRequest, DiagnosticReport, Docum
@@ -233,7 +233,12 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 65.5
+  composite: 64.4
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 55.3
@@ -241,10 +246,10 @@ score:
     contract_governance: 18.2
     contract_quality: 47.3
     developer_ergonomics: 63.7
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 65.5
+  previous_composite: 64.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -255,8 +260,8 @@ score:
     regime: Health
     regime_id: health
     score: 77.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/screenshots/epic-systems-2026-07-25T213516.png
 security:

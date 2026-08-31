@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: fedex-agentic-access
   summary_line: 7 operations · 7 acting · 1 human-in-the-loop
-api_count: 10
+api_count: 1
 apis:
 - description: Track API allows customers and partners to retrieve up-to-the-minute package and shipment status, scan events, delivery details, and proof of delivery using tracking numbers, reference numbers, or TCN
   name: FedEx Track API
@@ -89,6 +89,10 @@ collections:
   name: FedEx Track API
   slug: open-fedex
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fedex-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -148,7 +152,7 @@ network: true
 overview: 'FedEx publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authorization API and Track API. Tagged areas include Address Validation, Freight, Logistics, Pickup, and Rating.
 
 
-  FedEx''s developer surface includes authentication, documentation, getting-started guide, signup flow, and 5 more developer resources.'
+  FedEx''s developer surface includes authentication, documentation, getting-started guide, signup flow, and 6 more developer resources.'
 plans:
 - name: Fedex Plans Pricing
   plan_count: 1
@@ -176,15 +180,20 @@ rate_limits:
   slug: fedex-rate-limits
 score:
   band: thin
-  composite: 34.4
-  delta: 0.0
+  composite: 33.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 57.4
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 34.4
@@ -195,8 +204,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/screenshots/fedex-2026-06-20T181131.png
 security:

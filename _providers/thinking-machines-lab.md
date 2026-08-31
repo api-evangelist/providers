@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 4
 common:
@@ -165,7 +165,7 @@ modified: '2026-07-21'
 name: Thinking Machines Lab
 nav: Providers
 network: true
-overview: 'Thinking Machines Lab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Fine-Tuning.
+overview: 'Thinking Machines Lab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Fine Tuning.
 
 
   Thinking Machines Lab''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
@@ -177,7 +177,12 @@ scopes:
   summary_line: 4 scopes · authorizationCode/deviceCode
 score:
   band: thin
-  composite: 36.0
+  composite: 34.9
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
@@ -185,14 +190,14 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 36.0
+  previous_composite: 34.9
   provenance:
     conformance: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -213,7 +218,7 @@ tags:
 - Artificial Intelligence
 - Machine-Learning
 - LLM
-- Fine-Tuning
+- Fine Tuning
 - Model Training
 - Developer Tools
 - Reinforcement Learning

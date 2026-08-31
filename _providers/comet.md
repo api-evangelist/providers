@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-26'
-api_count: 42
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Agent configuration management
   name: Comet Agent Configs API
@@ -296,6 +296,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/comet-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/comet-opik-overlay.yaml
 - group: auth
@@ -401,22 +405,27 @@ network: true
 overview: 'Comet publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Agent Configs API, Agent Insights API, Agent Insights Jobs API, and 39 more. Tagged areas include Company, Ai Enterprise Software, LLM Observability, LLMOps, and MLOps.
 
 
-  Comet''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
+  Comet''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
 random_paper: 11
 score:
   band: developing
-  composite: 51.4
-  delta: 2.4
+  composite: 49.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 50.6
     developer_ergonomics: 73.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 49.0
+  previous_composite: 49.9
   provenance:
     conformance: derived
     contracts:
@@ -426,8 +435,8 @@ score:
       total: 42
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/comet/refs/heads/main/screenshots/comet-2026-07-25T210115.png
 security:

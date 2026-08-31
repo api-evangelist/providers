@@ -11,30 +11,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.4
-  scored_at: '2026-08-26'
+  score: 33.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 120
   slug: constant-contact-agentic-access
   summary_line: 120 operations · 60 acting · 2 human-in-the-loop
-api_count: 17
+api_count: 2
 apis:
 - description: Use the account endpoints and methods to get account information.
   name: Constant Contact Account Services API
@@ -95,7 +95,13 @@ apis:
 - description: Use partner webhooks to subscribe to billing event notifications from Constant Contact.
   name: Constant Contact Technology Partners Webhooks API
   slug: constant-contact-technology-partners-webhooks-api
-artifact_total: 67
+- description: Use the automation endpoints and methods to manage automation campaigns
+  name: Constant Contact Automations API
+  slug: constant-contact-automations-api
+- description: The Social API from Constant Contact — 4 operation(s) for social.
+  name: Constant Contact Social API
+  slug: constant-contact-social-api
+artifact_total: 69
 asyncapis:
 - description: ''
   name: Constant Contact Webhooks
@@ -159,6 +165,10 @@ collections:
   name: AppConnect V3
   slug: open-constant-contact-v3
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/constant-contact-capability-edges.yml
 - group: auth
   title: ''
   type: OAuthScopes
@@ -360,13 +370,13 @@ modified: '2026-08-13'
 name: Constant Contact
 nav: Providers
 network: true
-overview: 'Constant Contact publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Account Services API, Bulk Activities API, Contact Lists API, and 14 more. Tagged areas include Campaigns, Contacts, Email Marketing, Event, and Reporting.
+overview: 'Constant Contact publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account Services API, Bulk Activities API, Contact Lists API, and 16 more. Tagged areas include Campaigns, Contacts, Email Marketing, Event, and Reporting.
 
 
   The Constant Contact catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Constant Contact''s developer surface includes authentication, developer portal, getting-started guide, API reference, support, engineering blog, changelog, and 31 more developer resources.'
+  Constant Contact''s developer surface includes authentication, developer portal, getting-started guide, API reference, support, engineering blog, changelog, and 32 more developer resources.'
 plans:
 - name: Constant Contact Plans Pricing
   plan_count: 3
@@ -405,18 +415,23 @@ scopes:
   summary_line: 6 scopes · implicit/authorizationCode
 score:
   band: strong
-  composite: 65.5
-  delta: 0.0
+  composite: 63.6
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 30.3
-    contract_quality: 68.6
+    contract_governance: 18.2
+    contract_quality: 68.7
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 65.5
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -433,8 +448,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constant-contact/refs/heads/main/screenshots/constant-contact-2026-06-20T175012.png
 security:

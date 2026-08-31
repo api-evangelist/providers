@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 45
   slug: tailscale-agentic-access
   summary_line: 45 operations · 26 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Devices API from Tailscale — 12 operation(s) for devices.
   name: Tailscale Devices API
@@ -94,6 +94,10 @@ collections:
   name: Tailscale REST API
   slug: open-tailscale
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tailscale-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -153,19 +157,24 @@ network: true
 overview: 'Tailscale publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Devices API, DNS API, Invites API, and 4 more. Tagged areas include VPN, Mesh Networking, WireGuard, Zero Trust, and Networking.
 
 
-  Tailscale''s developer surface includes authentication, documentation, pricing, signup flow, GitHub presence, engineering blog, and 6 more developer resources.'
+  Tailscale''s developer surface includes authentication, documentation, pricing, signup flow, GitHub presence, engineering blog, and 7 more developer resources.'
 random_paper: 1
 score:
   band: thin
-  composite: 31.8
-  delta: 0.0
+  composite: 31.2
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 31.8
@@ -176,8 +185,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tailscale/refs/heads/main/screenshots/tailscale-2026-06-20T194858.png
 security:

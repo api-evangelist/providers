@@ -23,22 +23,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 4
 apis:
-- description: Version 1 of the Schenker AB (Sweden) Partner services API — the Nordic parcel network surface inherited from Privpak. Nine operations covering service point lookup (DeliveryPoint and ExtendedDelivery
-  name: DB Schenker Partner Services API V1
-  slug: db-schenker-partner-services-api-v1
-- description: 'Version 2 of the Schenker AB (Sweden) Partner services API. Four operations: DeliveryPoint/v2 GetServicePoint (by four-digit service point number), GetAllServicePoints and GetNearestServicePoint, plus'
-  name: DB Schenker Partner Services API V2
-  slug: db-schenker-partner-services-api-v2
-- description: 'Version 3 of the Schenker AB (Sweden) Partner services API, adding the parcel-box surface used in e-commerce checkout. Six operations across DeliveryPoint/v3: GetServicePoint, GetAllServicePoints, Get'
-  name: DB Schenker Partner Services API V3
-  slug: db-schenker-partner-services-api-v3
-- description: Version 4 of the Schenker AB (Sweden) Partner services API, the current CollectionPoint surface (published specification version 4.2.0, document dated 2025-04-23). Six operations across DeliveryPoint/
-  name: DB Schenker Partner Services API V4
-  slug: db-schenker-partner-services-api-v4
-artifact_total: 8
+- description: Responsible for all Web API functions related to Service Points
+  name: DB Schenker Delivery Point API
+  slug: db-schenker-deliverypoint-api
+- description: Responsible for all Web API functions related to Service Points
+  name: DB Schenker Delivery Point2 API
+  slug: db-schenker-deliverypoint2-api
+- description: Responsible for all Web API functions related to Service Points
+  name: DB Schenker Delivery Point3 API
+  slug: db-schenker-deliverypoint3-api
+- description: Responsible for all Web API functions related to Service Points
+  name: DB Schenker Delivery Point4 API
+  slug: db-schenker-deliverypoint4-api
+- description: 'Responsible for all Web API functions related to EDI (For example: Register, Register Return)'
+  name: DB Schenker Edi API
+  slug: db-schenker-edi-api
+- description: Responsible for all Web API functions related to HITTA
+  name: DB Schenker Extended Delivery Point API
+  slug: db-schenker-extendeddeliverypoint-api
+- description: Responsible for (QR) print codes.
+  name: DB Schenker Print Code API
+  slug: db-schenker-printcode-api
+- description: Responsible for all Web API functions related to handling sorting codes in MANET.
+  name: DB Schenker Sorting Code API
+  slug: db-schenker-sortingcode-api
+- description: Responsible for all Web API functions related to Advanced Track and Trace.
+  name: DB Schenker Track And Trace Advanced2 API
+  slug: db-schenker-trackandtraceadvanced2-api
+- description: Responsible for all Web API functions related to Boxes Track and Trace.
+  name: DB Schenker Track And Trace Boxes API
+  slug: db-schenker-trackandtraceboxes-api
+artifact_total: 14
 collections:
 - collection_type: open
   name: Partner services API V1.
@@ -53,6 +71,10 @@ collections:
   name: Partner services API V4.
   slug: open-db-schenker-partner-services-v4-swagger
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/db-schenker-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -90,33 +112,38 @@ modified: '2026-07-30'
 name: DB Schenker
 nav: Providers
 network: true
-overview: 'DB Schenker publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Partner Services API V1, Partner Services API V2, Partner Services API V3, and 1 more. Tagged areas include Logistics, Supply Chain, Germany, Freight Forwarding, and Parcel.
+overview: 'DB Schenker publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Delivery Point API, Delivery Point2 API, Delivery Point3 API, and 7 more. Tagged areas include Logistics, Supply Chain, Germany, Freight Forwarding, and Parcel.
 
 
-  DB Schenker''s developer surface includes API reference, documentation, and 5 more developer resources.'
+  DB Schenker''s developer surface includes API reference, documentation, and 6 more developer resources.'
 random_paper: 2
 score:
-  band: thin
-  composite: 26.2
-  delta: 2.9
+  band: emerging
+  composite: 26.0
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 49.0
+    contract_quality: 48.2
     developer_ergonomics: 31.0
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 23.3
+  previous_composite: 26.0
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/db-schenker/refs/heads/main/screenshots/db-schenker-2026-08-07T164220.png
 slug: db-schenker

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,20 +42,14 @@ agentic_access:
   operation_count: 11
   slug: cerner-agentic-access
   summary_line: 11 operations · 3 acting
-api_count: 13
+api_count: 54
 apis:
-- description: The full HL7 FHIR R4 REST surface of Oracle Health Millennium — 44 resource types, 123 operations, derived operation-for-operation from the CapabilityStatement Oracle Health serves at /metadata and th
-  name: Oracle Health Millennium Platform FHIR R4 API
-  slug: oracle-health-millennium-fhir-r4-api
 - description: The Cerner Millennium DSTU2 FHIR API supports legacy SMART on FHIR applications and integrations with Meaningful Use 2015 CEHRT certification criteria, and remains available alongside the newer R4 imp
   name: Oracle Health Millennium FHIR DSTU2 API
   slug: oracle-health-fhir-dstu2-api
 - description: 'The Oracle Health Code Console (formerly Cerner Code) is the developer portal used to register SMART on FHIR and system-level applications, configure redirect URIs and launch parameters, manage OAuth '
   name: Oracle Health Code Console (Developer Portal)
   slug: oracle-health-code-console
-- description: Oracle Health Millennium supports the HL7 Bulk Data Access (Flat FHIR) specification for exporting group-level patient data in NDJSON format for population health, research, and payer-provider data ex
-  name: Oracle Health Millennium Bulk FHIR API
-  slug: oracle-health-bulk-fhir-api
 - description: Cerner CareAware provides device and third-party application integration APIs for medical device data capture, bi-directional HL7 v2 messaging, and workflow embedding into Millennium, supporting medic
   name: Cerner CareAware Integration APIs
   slug: cerner-careaware
@@ -83,6 +77,135 @@ apis:
 - description: Patient procedures.
   name: Cerner (Oracle Health) Procedure API
   slug: cerner-procedure-api
+- description: FHIR R4 Account resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Account API
+  slug: cerner-account-api
+- description: FHIR R4 AllergyIntolerance resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Allergy Intolerance API
+  slug: cerner-allergyintolerance-api
+- description: FHIR R4 Appointment resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Appointment API
+  slug: cerner-appointment-api
+- description: FHIR R4 Basic resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Basic API
+  slug: cerner-basic-api
+- description: FHIR R4 Binary resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Binary API
+  slug: cerner-binary-api
+- description: FHIR R4 CapabilityStatement resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Capability Statement API
+  slug: cerner-capabilitystatement-api
+- description: FHIR R4 CarePlan resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Care Plan API
+  slug: cerner-careplan-api
+- description: FHIR R4 CareTeam resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Care Team API
+  slug: cerner-careteam-api
+- description: FHIR R4 ChargeItem resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Charge Item API
+  slug: cerner-chargeitem-api
+- description: FHIR R4 Communication resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Communication API
+  slug: cerner-communication-api
+- description: FHIR R4 Consent resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Consent API
+  slug: cerner-consent-api
+- description: FHIR R4 Coverage resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Coverage API
+  slug: cerner-coverage-api
+- description: FHIR R4 Device resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Device API
+  slug: cerner-device-api
+- description: FHIR R4 DiagnosticReport resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Diagnostic Report API
+  slug: cerner-diagnosticreport-api
+- description: FHIR R4 DocumentReference resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Document Reference API
+  slug: cerner-documentreference-api
+- description: Kick off a bulk export job.
+  name: Oracle Health (Cerner) Export API
+  slug: cerner-export-api
+- description: FHIR R4 FamilyMemberHistory resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Family Member History API
+  slug: cerner-familymemberhistory-api
+- description: Retrieve the download URLs for completed export files.
+  name: Oracle Health (Cerner) Files API
+  slug: cerner-files-api
+- description: FHIR R4 Goal resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Goal API
+  slug: cerner-goal-api
+- description: FHIR R4 Immunization resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Immunization API
+  slug: cerner-immunization-api
+- description: FHIR R4 InsurancePlan resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Insurance Plan API
+  slug: cerner-insuranceplan-api
+- description: Poll and cancel bulk export jobs.
+  name: Oracle Health (Cerner) Jobs API
+  slug: cerner-jobs-api
+- description: FHIR R4 Location resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Location API
+  slug: cerner-location-api
+- description: FHIR R4 Media resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Media API
+  slug: cerner-media-api
+- description: FHIR R4 MedicationAdministration resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Medication Administration API
+  slug: cerner-medicationadministration-api
+- description: FHIR R4 MedicationDispense resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Medication Dispense API
+  slug: cerner-medicationdispense-api
+- description: FHIR R4 MedicationRequest resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Medication Request API
+  slug: cerner-medicationrequest-api
+- description: FHIR R4 NutritionOrder resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Nutrition Order API
+  slug: cerner-nutritionorder-api
+- description: FHIR R4 Observation resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Observation API
+  slug: cerner-observation-api
+- description: FHIR R4 OperationDefinition resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Operation Definition API
+  slug: cerner-operationdefinition-api
+- description: FHIR R4 Organization resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Organization API
+  slug: cerner-organization-api
+- description: FHIR R4 Person resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Person API
+  slug: cerner-person-api
+- description: FHIR R4 Practitioner resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Practitioner API
+  slug: cerner-practitioner-api
+- description: FHIR R4 Provenance resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Provenance API
+  slug: cerner-provenance-api
+- description: FHIR R4 Questionnaire resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Questionnaire API
+  slug: cerner-questionnaire-api
+- description: FHIR R4 QuestionnaireResponse resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Questionnaire Response API
+  slug: cerner-questionnaireresponse-api
+- description: FHIR R4 RelatedPerson resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Related Person API
+  slug: cerner-relatedperson-api
+- description: FHIR R4 Schedule resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Schedule API
+  slug: cerner-schedule-api
+- description: FHIR R4 ServiceRequest resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Service Request API
+  slug: cerner-servicerequest-api
+- description: FHIR R4 Slot resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Slot API
+  slug: cerner-slot-api
+- description: FHIR R4 Specimen resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Specimen API
+  slug: cerner-specimen-api
+- description: FHIR R4 StructureDefinition resource as implemented by Oracle Health Millennium Platform.
+  name: Oracle Health (Cerner) Structure Definition API
+  slug: cerner-structuredefinition-api
+- description: 'System-level FHIR interactions: conformance metadata and batch.'
+  name: Oracle Health (Cerner) System API
+  slug: cerner-system-api
 arazzos:
 - description: Locate a patient, create a FHIR resource against that patient, then update it by id.
   name: Cerner Oracle Health Clinical Resource Write-Back
@@ -93,7 +216,7 @@ arazzos:
 - description: Discover server capabilities, locate a patient, then pull the patient's conditions, encounters, and procedures.
   name: Cerner Oracle Health SMART on FHIR Patient Retrieval
   slug: cerner-smart-on-fhir-patient-data-retrieval-workflow
-artifact_total: 35
+artifact_total: 76
 collections:
 - collection_type: open
   name: API Collection
@@ -123,6 +246,10 @@ collections:
   name: Oracle Health Millennium Platform FHIR R4 Capability Procedure API
   slug: open-cerner-procedure-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cerner-capability-edges.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -320,10 +447,10 @@ modified: '2026-08-21'
 name: Oracle Health (Cerner)
 nav: Providers
 network: true
-overview: 'Oracle Health (Cerner) publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Oracle Health Millennium Platform FHIR R4 API, Oracle Health Millennium Bulk FHIR API, Cerner (Oracle Health) Capability API, and 6 more. Tagged areas include Bulk FHIR, CapabilityStatement, CareAware, Cerner Millennium, and Clinical Data.
+overview: 'Oracle Health (Cerner) publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Cerner (Oracle Health) Capability API, Cerner (Oracle Health) Condition API, Cerner (Oracle Health) Definitions API, and 47 more. Tagged areas include Bulk FHIR, CapabilityStatement, CareAware, Cerner Millennium, and Clinical Data.
 
 
-  Oracle Health (Cerner)''s developer surface includes authentication, API reference, sandbox, changelog, documentation, getting-started guide, support, and 36 more developer resources.'
+  Oracle Health (Cerner)''s developer surface includes authentication, API reference, sandbox, changelog, documentation, getting-started guide, support, and 37 more developer resources.'
 plans:
 - name: Cerner Plans Pricing
   plan_count: 0
@@ -356,18 +483,23 @@ scopes:
   summary_line: 303 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 60.7
+  composite: 59.6
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 30.3
-    contract_quality: 60.3
+    contract_governance: 18.2
+    contract_quality: 60.8
     developer_ergonomics: 68.5
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 60.7
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -384,8 +516,8 @@ score:
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/screenshots/cerner-2026-06-20T174140.png
 security:
@@ -414,7 +546,7 @@ tags:
 - FHIR
 - Fortune 1000
 - HL7
-- HL7v2
+- HL7 v2
 - Healthcare
 - Interoperability
 - Millennium Platform

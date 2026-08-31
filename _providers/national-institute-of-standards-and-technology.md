@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 3
   slug: national-institute-of-standards-and-technology-agentic-access
   summary_line: 3 operations
-api_count: 3
+api_count: 1
 apis:
 - description: Common Platform Enumeration
   name: National Institute of Standards and Technology CPE API
@@ -70,6 +70,10 @@ collections:
   name: NIST National Vulnerability Database (NVD) API
   slug: open-national-institute-of-standards-and-technology
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/national-institute-of-standards-and-technology-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -121,7 +125,7 @@ network: true
 overview: 'National Institute of Standards and Technology publishes 3 APIs on the [APIs.io](https://apis.io/) network: CPE API, CVE API, and CVE History API. Tagged areas include Cybersecurity, Federal-Government, Standards, Technology, and Vulnerabilities.
 
 
-  National Institute of Standards and Technology''s developer surface includes developer portal, documentation, engineering blog, and 6 more developer resources.'
+  National Institute of Standards and Technology''s developer surface includes developer portal, documentation, engineering blog, and 7 more developer resources.'
 plans:
 - name: National Institute Of Standards And Technology Plans Pricing
   plan_count: 3
@@ -133,15 +137,20 @@ rate_limits:
   slug: national-institute-of-standards-and-technology-rate-limits
 score:
   band: emerging
-  composite: 25.2
-  delta: 0.0
+  composite: 24.6
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 60.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 48.3
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 25.2
@@ -158,8 +167,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-institute-of-standards-and-technology/refs/heads/main/screenshots/national-institute-of-standards-and-technology-2026-06-20T190029.png
 security:

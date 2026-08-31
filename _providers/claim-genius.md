@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'The GeniusAPI Suite is Claim Genius''s REST integration layer over its AI vehicle-inspection products. Documented flow: generate a JWT via /api/auth/token using an API ID and secret, upload JPG/PNG/MP4'
@@ -115,8 +115,13 @@ overview: 'Claim Genius publishes 1 API on the [APIs.io](https://apis.io/) netwo
   Claim Genius'' developer surface includes support, engineering blog, authentication, and 11 more developer resources.'
 random_paper: 17
 score:
-  band: emerging
-  composite: 11.9
+  band: minimal
+  composite: 10.8
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -124,10 +129,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 70.4
+    discoverability: 59.3
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 11.9
+  previous_composite: 10.8
   provenance:
     conformance: first-party
   regulatory:
@@ -136,8 +141,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -159,6 +164,6 @@ tags:
 - Automotive
 - Claims Automation
 - Damage Assessment
-- Insurtech
+- InsurTech
 website: https://claimgenius.com/
 ---

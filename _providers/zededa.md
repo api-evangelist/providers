@@ -21,19 +21,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.0
-  scored_at: '2026-08-26'
+  score: 26.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 5
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 421
   slug: zededa-agentic-access
   summary_line: 421 operations · 179 acting · 5 human-in-the-loop
-api_count: 35
+api_count: 10
 apis:
 - description: The AppProfileService API from Zededa — 5 operation(s) for appprofileservice.
   name: Zededa AppProfileService API
@@ -259,6 +259,10 @@ collections:
   name: ZEDEDA App Profiles Service AppProfileService ZKSClusterInstances API
   slug: open-zededa-zksclusterinstances-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zededa-capability-edges.yml
 - group: docs
   title: ''
   type: APIReference
@@ -382,22 +386,27 @@ network: true
 overview: 'Zededa publishes 35 APIs on the [APIs.io](https://apis.io/) network, including AppProfileService API, ArtifactManager API, AssetGroupService API, and 32 more. Tagged areas include Company, Edge Computing, Edge Intelligence, IoT, and Kubernetes.
 
 
-  Zededa''s developer surface includes API reference, documentation, authentication, support, engineering blog, and 22 more developer resources.'
+  Zededa''s developer surface includes API reference, documentation, authentication, support, engineering blog, and 23 more developer resources.'
 random_paper: 12
 score:
   band: developing
-  composite: 39.7
+  composite: 39.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 16.7
-    contract_quality: 50.3
+    contract_governance: 4.5
+    contract_quality: 52.4
     developer_ergonomics: 43.5
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 39.7
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -408,8 +417,8 @@ score:
       total: 35
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zededa/refs/heads/main/screenshots/zededa-2026-08-17T083041.png
 security:

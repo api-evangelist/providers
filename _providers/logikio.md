@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 36
   slug: logikio-agentic-access
   summary_line: 36 operations · 16 acting
-api_count: 11
+api_count: 4
 apis:
 - description: Export Blueprints
   name: Logik.io Blueprint > Export API
@@ -118,6 +118,10 @@ collections:
   name: Logik.io Admin API - Blueprint Import/Export Blueprint > Export Runtime - Bill of Materials API
   slug: open-logikio-runtime-bill-of-materials-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/servicenow/
 - group: other
   title: ''
   type: Overlay
@@ -222,10 +226,10 @@ modified: '2026-08-13'
 name: Logik.io
 nav: Providers
 network: true
-overview: 'Logik.io publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Blueprint > Export API, Blueprint > Import API, BOM API, and 8 more. Tagged areas include Company, Sales Tech, CPQ, Product Configuration, and Bill of Materials.
+overview: 'Logik.io publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Blueprint > Export API, Blueprint > Import API, BOM API, and 8 more. Tagged areas include Company, Sales Tech, CPQ, Configure Price Quote, and Product Configuration.
 
 
-  Logik.io''s developer surface includes documentation, API reference, authentication, sandbox, support, and 18 more developer resources.'
+  Logik.io''s developer surface includes documentation, API reference, authentication, sandbox, support, and 19 more developer resources.'
 plans:
 - name: Logikio Plans Pricing
   plan_count: 0
@@ -237,18 +241,23 @@ rate_limits:
   slug: logikio-rate-limits
 score:
   band: thin
-  composite: 36.0
+  composite: 35.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 54.4
     developer_ergonomics: 47.0
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 36.0
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -259,8 +268,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/screenshots/logikio-2026-07-25T225503.png
 security:
@@ -277,6 +286,7 @@ tags:
 - Company
 - Sales Tech
 - CPQ
+- Configure Price Quote
 - Product Configuration
 - Bill of Materials
 - E-Commerce

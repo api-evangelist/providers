@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 3
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 77
   slug: speakeasy-agentic-access
   summary_line: 77 operations · 38 acting · 3 human-in-the-loop
-api_count: 20
+api_count: 1
 apis:
 - description: Generate idiomatic, type-safe SDKs in 7+ languages from OpenAPI specs. Supports TypeScript, Python, Go, Java, C#, PHP, Ruby, and more with automated CI/CD integration and publishing to popular package
   name: Speakeasy SDK Generation
@@ -180,6 +180,14 @@ collections:
   name: Speakeasy API
   slug: open-speakeasy
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/speakeasy-api/speakeasy/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/speakeasy-api/speakeasy/releases
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -602,7 +610,7 @@ overview: 'Speakeasy publishes 13 APIs on the [APIs.io](https://apis.io/) networ
   The Speakeasy catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Speakeasy''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, signup flow, CLI, and 27 more developer resources.'
+  Speakeasy''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, signup flow, CLI, and 29 more developer resources.'
 plans:
 - name: Speakeasy Plans Pricing
   plan_count: 5
@@ -635,19 +643,27 @@ rules:
     warn: 5
   slug: speakeasy-rules
 score:
-  band: strong
-  composite: 55.3
-  delta: 4.3
+  band: developing
+  composite: 51.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 28.8
     contract_quality: 55.8
     developer_ergonomics: 57.1
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 28.8
     operational_transparency: 55.3
-  previous_composite: 51.0
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     contracts:
@@ -655,8 +671,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/screenshots/speakeasy-2026-08-17T125418.png
 security:

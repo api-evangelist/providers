@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -33,15 +33,65 @@ agentic_access:
   summary_line: 51 operations · 27 acting
 api_count: 1
 apis:
-- description: The Weel Open API is a single RESTful interface that programmatically reads and writes a business's spend data in Weel — budgets, budget members, budget owners, budget top-ups, users, roles, transacti
-  name: Weel Open API
-  slug: weel-open-api
-artifact_total: 8
+- description: This group of endpoints allows you to manage GL codes (accounting codes) for your business. GL codes are used to classify expenses for bookkeeping export. Businesses with a connected accounting integr
+  name: Weel Accounting Codes API
+  slug: weel-accounting-codes-api
+- description: This group of endpoints allows you to retrieve and manage budget member data, including listing budget members and fetching individual budget member details.
+  name: Weel Budget Members API
+  slug: weel-budget-members-api
+- description: This group of endpoints allows you to retrieve and manage budget owners. A budget owner is a user (or pending invite) who can approve spend, top up, and otherwise manage the budget. A budget must alwa
+  name: Weel Budget Owners API
+  slug: weel-budget-owners-api
+- description: This group of endpoints allows you to retrieve and create budget topups. Topups are used to increase or decrease the available amount of a budget or budget member. Topups will be automatically approve
+  name: Weel Budget Topups API
+  slug: weel-budget-topups-api
+- description: This group of endpoints allows you to retrieve and manage budget data, including listing budgets and fetching individual budget details. Budgets are organised in a hierarchy where a budget can have mu
+  name: Weel Budgets API
+  slug: weel-budgets-api
+- description: 'This group of endpoints allow you to manage expense categories for your business. Categories classify transactions. System-defined categories (`custom: false`) can only have their `enabled` state togg'
+  name: Weel Categories API
+  slug: weel-categories-api
+- description: This group of endpoints allows you to link custom fields to budgets, controlling which budgets have a custom field assigned.
+  name: Weel Custom Field Budgets API
+  slug: weel-custom-field-budgets-api
+- description: This group of endpoints allows you to manage the list options for a `LIST` type custom field. Options created via the Public API can be disabled or deleted.
+  name: Weel Custom Field Options API
+  slug: weel-custom-field-options-api
+- description: 'This group of endpoints allows you to create and manage custom fields (dimensions/cost centres) for your business. Custom fields can be of type `LIST` (with predefined options) or `FREE_TEXT`. Custom '
+  name: Weel Custom Fields API
+  slug: weel-custom-fields-api
+- description: This group of endpoints allows you to create, list, and cancel pending user invitations. An invite exists until the recipient accepts it, at which point they appear as a user in the Users endpoints.
+  name: Weel Invites API
+  slug: weel-invites-api
+- description: This group of endpoints allows you to retrieve the roles available within a business and the permissions assigned to each role.
+  name: Weel Roles API
+  slug: weel-roles-api
+- description: This group of endpoints allows you to retrieve a list of balances for the required period for a given business.
+  name: Weel Statements API
+  slug: weel-statements-api
+- description: This group of endpoints allows you to retrieve the tax rates configured for your business. Tax rates are read-only via the Public API. For businesses with a connected accounting integration (Xero, MYO
+  name: Weel Tax Rates API
+  slug: weel-tax-rates-api
+- description: This group of endpoints allows you to retrieve and manage transaction data, including listing transactions with various filters and fetching individual transaction details.
+  name: Weel Transactions API
+  slug: weel-transactions-api
+- description: This group of endpoints allows you to retrieve and manage user data, including listing users and fetching individual user details.
+  name: Weel Users API
+  slug: weel-users-api
+artifact_total: 22
 collections:
 - collection_type: open
   name: Weel OpenAPI
   slug: open-weel
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/weel-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/weel-openapi-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -151,25 +201,30 @@ modified: '2026-07-24'
 name: Weel
 nav: Providers
 network: true
-overview: 'Weel publishes 1 API on the [APIs.io](https://apis.io/) network: Open API. Tagged areas include Payments, Australia, Spend Management, Expense Management, and Corporate Cards.
+overview: 'Weel publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Accounting Codes API, Budget Members API, Budget Owners API, and 12 more. Tagged areas include Payments, Australia, Spend Management, Expense Management, and Corporate Cards.
 
 
-  Weel''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, changelog, support, and 17 more developer resources.'
+  Weel''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, changelog, support, and 19 more developer resources.'
 random_paper: 9
 score:
   band: strong
-  composite: 56.9
-  delta: 1.2
+  composite: 55.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
-    contract_quality: 59.3
+    contract_governance: 18.2
+    contract_quality: 57.4
     developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 55.7
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -186,8 +241,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weel/refs/heads/main/screenshots/weel-2026-08-17T082857.png
 security:

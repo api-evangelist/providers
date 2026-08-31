@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-26'
-api_count: 15
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: The Articles API from NewsWhip — 1 operation(s) for articles.
   name: NewsWhip Articles API
@@ -255,18 +255,23 @@ rate_limits:
   slug: newswhip-rate-limits
 score:
   band: developing
-  composite: 47.9
-  delta: 2.4
+  composite: 45.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 49.0
     developer_ergonomics: 39.9
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 43.4
-  previous_composite: 45.5
+  previous_composite: 46.4
   provenance:
     conformance: derived
     contracts:
@@ -276,8 +281,8 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newswhip/refs/heads/main/screenshots/newswhip-2026-08-07T185140.png
 security:

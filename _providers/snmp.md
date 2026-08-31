@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
 - description: The original Simple Network Management Protocol defined in RFC 1157 (May 1990). Establishes the five core PDUs (GetRequest, GetNextRequest, GetResponse, SetRequest, Trap), community-string authenticat
@@ -52,6 +52,10 @@ apis:
   slug: smi
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/net-snmp/net-snmp/issues
 - group: auth
   title: ''
   type: DomainSecurity
@@ -95,11 +99,16 @@ overview: 'SNMP publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tag
   The SNMP catalog on APIs.io includes 1 JSON-LD context.
 
 
-  SNMP''s developer surface includes documentation and 5 more developer resources.'
+  SNMP''s developer surface includes documentation and 6 more developer resources.'
 random_paper: 5
 score:
-  band: emerging
-  composite: 11.7
+  band: minimal
+  composite: 10.6
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -110,9 +119,12 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 11.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 10.6
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snmp/refs/heads/main/screenshots/snmp-2026-06-20T194107.png
 security:

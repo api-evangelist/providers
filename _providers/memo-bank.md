@@ -23,24 +23,76 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
-- description: REST/JSON banking API for Memo Bank business customers, authenticated with RS256-signed JWT request tokens. Covers accounts and balances, transactions with typed transaction sources, virtual and stand
-  name: Memo Bank Premium Bank API
-  slug: memo-bank-premium-bank-api
-- description: OAuth 2.0 authorization layer that lets third-party developers build Memo Bank Marketplace integrations and call the Premium Bank API on behalf of consenting customers. Documents the authorization flo
-  name: Memo Bank Marketplace API
-  slug: memo-bank-marketplace-api
-- description: Berlin Group NextGenPSD2 XS2A implementation (Implementation Guidelines 1.3.11) exposing Account Information Service and Payment Initiation Service endpoints to licensed third-party payment service pr
-  name: Memo Bank NextGenPSD2 API
-  slug: memo-bank-nextgenpsd2-api
-artifact_total: 11
+- description: 'Account assessments allow you to assess SEPA counterparty accounts before initiating transactions with them. An assessment provides: * **Risk indicators**: Detection of fraudulent activity, suspicious'
+  name: Memo Bank Account assessments API
+  slug: memo-bank-account-assessments-api
+- description: 'Accounts are any bank account that your company owns: current account, ring-fenced account, settlement account, specially dedicated account, trust account, meal voucher account, booster account, etc. '
+  name: Memo Bank Accounts API
+  slug: memo-bank-accounts-api
+- description: Account Information Service. Consent is given using the **OAuth2 as a pre-step** authentication flow described in NextGenPSD2 specifications. This means you don't have to manage consents using the ded
+  name: Memo Bank AIS API
+  slug: memo-bank-ais-api
+- description: Documents attached to transactions.
+  name: Memo Bank Attachments API
+  slug: memo-bank-attachments-api
+- description: Collections are SEPA direct debit collections, including SEPA CORE direct debits and SEPA B2B direct debits. To initiate a direct debit, a **mandate** signed by the debtor is required. You have the op
+  name: Memo Bank Collections API
+  slug: memo-bank-collections-api
+- description: 'IBANs are identifiers for bank accounts. There are two types of IBANs at Memo Bank: * Main IBANs, which act as primary identifiers for a bank account. There is exactly one main IBAN per bank account. '
+  name: Memo Bank IBA Ns API
+  slug: memo-bank-ibans-api
+- description: Mandate signature requests are a way to prepare and send collection mandates for signature. The mandate debtor receives an email with a link so they can complete and sign the mandate. Once it has been
+  name: Memo Bank Mandate signature requests API
+  slug: memo-bank-mandate-signature-requests-api
+- description: OAuth2 token management endpoints.
+  name: Memo Bank O Auth2 API
+  slug: memo-bank-oauth2-api
+- description: Payment Initiation Service. Payment initiation is done using the **integrated OAuth2** authentication flow described in NextGenPSD2 specifications. This means you first have to initiate a payment usin
+  name: Memo Bank PIS API
+  slug: memo-bank-pis-api
+- description: Sandbox only endpoints.
+  name: Memo Bank Sandbox API
+  slug: memo-bank-sandbox-api
+- description: Transactions are any debit and credit operations on an account. <img src="https://assets.memo.bank/memobankapi/transactions-lifecycle-api-v2.png" alt="Transactions lifecycle" width="750"> Note that th
+  name: Memo Bank Transactions API
+  slug: memo-bank-transactions-api
+- description: Transfers are transfers within the SEPA-zone, including SEPA standard transfers, SEPA instant transfers and Target 2 transfers. They can be initiated asynchronously, one by one or in bulk. They have a
+  name: Memo Bank Transfers API
+  slug: memo-bank-transfers-api
+- description: '# Events When something interesting happens on your Memo Bank workspace, such as a new transaction being created, Memo Bank can reach out to your application so that you can take action (such as sendi'
+  name: Memo Bank Webhook API
+  slug: memo-bank-webhook-api
+- description: Manage webhooks for your application. Webhooks allow you to receive real-time notifications when events occur on your Memo Bank workspace. Please refer to the [Webhook](https://docs.api.memo.bank/grou
+  name: Memo Bank Webhooks API
+  slug: memo-bank-webhooks-api
+- description: Wire transfers are transfers going through Swift. They allow you to send funds outside the SEPA network and to transfer money in foreign currencies. Initiating a wire transfer may require you to uploa
+  name: Memo Bank Wire Transfers API
+  slug: memo-bank-wire-transfers-api
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Memo Bank Webhooks
   slug: memo-bank-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/memo-bank-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/memo-bank-premium-bank-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/memo-bank-marketplace-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/memo-bank-nextgenpsd2-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -209,13 +261,13 @@ modified: '2026-08-17'
 name: Memo Bank
 nav: Providers
 network: true
-overview: 'Memo Bank publishes 3 APIs on the [APIs.io](https://apis.io/) network: Premium Bank API, Marketplace API, and NextGenPSD2 API. Tagged areas include Company, Fintech Insurtech, Banking, Business Banking, and Payments.
+overview: 'Memo Bank publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account assessments API, Accounts API, AIS API, and 12 more. Tagged areas include Company, Fintech Insurtech, banking, business-banking, and Payments.
 
 
   The Memo Bank catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Memo Bank''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
+  Memo Bank''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
 plans:
 - name: Memo Bank Plans Pricing
   plan_count: 2
@@ -231,19 +283,24 @@ scopes:
   slug: memo-bank-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 67.0
+  band: strong
+  composite: 66.2
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 30.3
-    contract_quality: 57.7
+    contract_governance: 18.2
+    contract_quality: 60.3
     developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 67.0
+  previous_composite: 66.2
   provenance:
     conformance: first-party
     contracts:
@@ -258,13 +315,19 @@ score:
     jurisdictions:
     - jurisdiction: EU
       standard: berlin-group-nextgenpsd2
+    - jurisdiction: EU
+      standard: eidas
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: EU
+      standard: psd2
     jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 87.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -283,18 +346,18 @@ slug: memo-bank
 tags:
 - Company
 - Fintech Insurtech
-- Banking
-- Business Banking
+- banking
+- business-banking
 - Payments
-- SEPA
-- SEPA Direct Debit
-- Virtual IBAN
-- Wire Transfers
-- Open Banking
-- PSD2
-- Berlin Group
+- sepa
+- sepa-direct-debit
+- virtual-iban
+- wire-transfers
+- open-banking
+- psd2
+- berlin-group
 - Webhook
 - MCP
-- France
+- france
 website: https://memo.bank/
 ---

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -22,19 +22,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.4
-  scored_at: '2026-08-26'
+  score: 24.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -42,23 +42,8 @@ agentic_access:
   operation_count: 23
   slug: tamara-agentic-access
   summary_line: 23 operations · 17 acting
-api_count: 11
+api_count: 3
 apis:
-- description: Authorize, capture, cancel, retrieve, and update orders created via Tamara checkout sessions. Mirrors the online checkout lifecycle (new → approved → authorised → captured → refunded) and is the merch
-  name: Tamara Orders API
-  slug: tamara-orders-api
-- description: Generate Tamara checkout sessions for brick-and-mortar stores through SMS payment links or QR codes that customers scan with the Tamara consumer app to complete the BNPL purchase in-aisle. Includes th
-  name: Tamara In-Store Checkout API
-  slug: tamara-in-store-checkout-api
-- description: Register and manage HTTPS webhook endpoints that receive order and dispute lifecycle events from Tamara (order_approved, order_authorised, order_captured, order_refunded, order_canceled, order_expired
-  name: Tamara Webhooks API
-  slug: tamara-webhooks-api
-- description: Query, filter, and update merchant disputes raised against Tamara orders. Supports listing disputes by order id, dispute id, order status, or dispute status; and appending comments and proof attachmen
-  name: Tamara Disputes API
-  slug: tamara-disputes-api
-- description: Check whether Tamara considers a customer eligible for a BNPL purchase before exposing Tamara as a payment method on the merchant's checkout page. The endpoint accepts an order amount/currency and a c
-  name: Tamara Pre-Checkout Eligibility API
-  slug: tamara-eligibility-api
 - description: The Captures API from Tamara — 1 operation(s) for captures.
   name: Tamara Captures API
   slug: tamara-captures-api
@@ -105,7 +90,7 @@ arazzos:
 - description: Read an order's status and refund it only when funds have been captured.
   name: Tamara Order Status Refund
   slug: tamara-order-status-refund-workflow
-artifact_total: 64
+artifact_total: 59
 collections:
 - collection_type: postman
   name: Tamara Channel Partners API
@@ -413,7 +398,7 @@ modified: '2026-05-24'
 name: Tamara
 nav: Providers
 network: true
-overview: 'Tamara publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Orders API, In-Store Checkout API, Webhooks API, and 8 more. Tagged areas include BNPL, Buy Now Pay Later, Fintech, Payments, and Checkout.
+overview: 'Tamara publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Captures API, Channel Partner Webhooks API, Checkout Sessions API, and 3 more. Tagged areas include BNPL, Buy Now Pay Later, Fintech, Payments, and Checkout.
 
 
   The Tamara catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -453,18 +438,23 @@ rules:
   slug: tamara-rules
 score:
   band: developing
-  composite: 48.9
+  composite: 48.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 27.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 28.8
-    contract_quality: 65.4
+    contract_quality: 64.9
     developer_ergonomics: 50.0
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 48.9
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     contracts:
@@ -478,8 +468,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/screenshots/tamara-2026-06-20T194914.png
 security:
@@ -512,5 +502,5 @@ tags:
 - Disputes
 - Channel Partners
 - E-Commerce
-- Point-of-Sale
+- POS
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 51.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -42,12 +42,51 @@ agentic_access:
   operation_count: 50
   slug: jasper-agentic-access
   summary_line: 50 operations · 30 acting
-api_count: 1
+api_count: 2
 apis:
-- description: The Jasper API brings generative AI into your platform — generate on-brand content via commands and templates, run marketing Agent Tasks, manage documents, projects, tones, and audiences, augment gene
-  name: Jasper API
-  slug: jasper-api
-artifact_total: 10
+- description: The Attachments API from Jasper — 1 operation(s) for attachments.
+  name: Jasper Attachments API
+  slug: jasper-attachments-api
+- description: The Audiences API from Jasper — 2 operation(s) for audiences.
+  name: Jasper Audiences API
+  slug: jasper-audiences-api
+- description: The Command API from Jasper — 1 operation(s) for command.
+  name: Jasper Command API
+  slug: jasper-command-api
+- description: The Documents API from Jasper — 2 operation(s) for documents.
+  name: Jasper Documents API
+  slug: jasper-documents-api
+- description: The Image Templates API from Jasper — 3 operation(s) for image templates.
+  name: Jasper Image Templates API
+  slug: jasper-image-templates-api
+- description: The Images API from Jasper — 10 operation(s) for images.
+  name: Jasper Images API
+  slug: jasper-images-api
+- description: The Knowledge API from Jasper — 3 operation(s) for knowledge.
+  name: Jasper Knowledge API
+  slug: jasper-knowledge-api
+- description: The Projects API from Jasper — 2 operation(s) for projects.
+  name: Jasper Projects API
+  slug: jasper-projects-api
+- description: The Styles API from Jasper — 2 operation(s) for styles.
+  name: Jasper Styles API
+  slug: jasper-styles-api
+- description: The Tasks API from Jasper — 4 operation(s) for tasks.
+  name: Jasper Tasks API
+  slug: jasper-tasks-api
+- description: The Templates API from Jasper — 3 operation(s) for templates.
+  name: Jasper Templates API
+  slug: jasper-templates-api
+- description: The Usage API from Jasper — 1 operation(s) for usage.
+  name: Jasper Usage API
+  slug: jasper-usage-api
+- description: The Users API from Jasper — 2 operation(s) for users.
+  name: Jasper Users API
+  slug: jasper-users-api
+- description: The Voices API from Jasper — 2 operation(s) for voices.
+  name: Jasper Voices API
+  slug: jasper-voices-api
+artifact_total: 23
 common:
 - group: agent
   title: ''
@@ -225,7 +264,7 @@ modified: '2026-08-13'
 name: Jasper
 nav: Providers
 network: true
-overview: 'Jasper publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, Artificial Intelligence, Content Generation, and Marketing.
+overview: 'Jasper publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Audiences API, Command API, and 11 more. Tagged areas include Company, Ai Ml, Artificial Intelligence, Content Generation, and Marketing.
 
 
   Jasper''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 34 more developer resources.'
@@ -245,18 +284,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.5
-  delta: 0.0
+  composite: 56.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_governance: 30.3
-    contract_quality: 58.6
+    contract_governance: 18.2
+    contract_quality: 61.1
     developer_ergonomics: 47.0
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 58.5
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -267,8 +311,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jasper/refs/heads/main/screenshots/jasper-2026-07-25T223101.png
 security:

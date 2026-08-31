@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 22
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 102
   slug: bamboo-agentic-access
   summary_line: 102 operations · 30 acting · 22 human-in-the-loop
-api_count: 21
+api_count: 2
 apis:
 - description: Account creation enables users to invest on Bamboo. Ensure KYC has been completed and each user’s identity verified before creating a brokerage account. **Best Practice:** To avoid maintenance fees on
   name: Bamboo Invest Account Management API
@@ -462,15 +462,20 @@ rules:
   slug: bamboo-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.1
-  delta: 0.0
+  composite: 30.6
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 59.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 50.5
     developer_ergonomics: 2.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 13.2
   previous_composite: 31.1
@@ -487,8 +492,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bamboo/refs/heads/main/screenshots/bamboo-2026-06-20T172931.png
 security:

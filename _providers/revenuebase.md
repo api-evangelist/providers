@@ -11,9 +11,8 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -33,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.1
-  scored_at: '2026-08-26'
+  score: 34.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +41,7 @@ agentic_access:
   operation_count: 10
   slug: revenuebase-agentic-access
   summary_line: 10 operations · 6 acting
-api_count: 5
+api_count: 2
 apis:
 - description: The Account API from RevenueBase — 2 operation(s) for account.
   name: RevenueBase Account API
@@ -56,10 +55,13 @@ apis:
 - description: The Organization API from RevenueBase — 2 operation(s) for organization.
   name: RevenueBase Organization API
   slug: revenuebase-organization-api
-- description: The contact-refresh service from RevenueBase — resolves an email address to the person's current contact records so a stale CRM row can be reconnected to whoever that person is today. One operation (P
-  name: RevenueBase Contact Refresh API
-  slug: revenuebase-contact-refresh-api
-artifact_total: 16
+- description: The health API from RevenueBase — 2 operation(s) for health.
+  name: RevenueBase Health API
+  slug: revenuebase-health-api
+- description: The v2 API from RevenueBase — 1 operation(s) for v2.
+  name: RevenueBase V2 API
+  slug: revenuebase-v2-api
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -253,7 +255,7 @@ modified: '2026-08-13'
 name: RevenueBase
 nav: Providers
 network: true
-overview: 'RevenueBase publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Email API, Jobs API, and 2 more. Tagged areas include Company, B2B Data, Data Enrichment, Email Verification, and Contact Data.
+overview: 'RevenueBase publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account API, Email API, Jobs API, and 3 more. Tagged areas include Company, B2B Data, Data Enrichment, Email Verification, and Contact Data.
 
 
   RevenueBase''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, changelog, engineering blog, and 34 more developer resources.'
@@ -268,18 +270,23 @@ rate_limits:
   slug: revenuebase-rate-limits
 score:
   band: strong
-  composite: 59.6
-  delta: 0.0
+  composite: 57.3
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
-    contract_governance: 30.3
-    contract_quality: 53.7
+    contract_governance: 18.2
+    contract_quality: 52.5
     developer_ergonomics: 71.4
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 59.6
+  previous_composite: 57.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -290,8 +297,8 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/screenshots/revenuebase-2026-08-17T081544.png
 security:

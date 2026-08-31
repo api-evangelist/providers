@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 77
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 213
   slug: emburse-agentic-access
   summary_line: 213 operations · 118 acting · 77 human-in-the-loop
-api_count: 48
+api_count: 13
 apis:
 - description: REST API for Emburse Professional (formerly Certify) supporting push/pull of users, departments, categories, expense reports, expense lines, receipt data, and invoices. Base URL is https://api.certify
   name: Emburse Professional API
@@ -332,6 +332,10 @@ collections:
   name: Api Documentation Accounts vendor-api-controller API
   slug: open-emburse-vendor-api-controller-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/emburse-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -447,7 +451,7 @@ overview: 'Emburse publishes 46 APIs on the [APIs.io](https://apis.io/) network,
   The Emburse catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Emburse''s developer surface includes authentication, documentation, engineering blog, and 12 more developer resources.'
+  Emburse''s developer surface includes authentication, documentation, engineering blog, and 13 more developer resources.'
 plans:
 - name: Emburse Plans Pricing
   plan_count: 7
@@ -470,18 +474,23 @@ rules:
   slug: emburse-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.0
+  composite: 43.5
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 28.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 25.0
-    contract_quality: 59.9
+    contract_quality: 61.8
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 34.2
-  previous_composite: 43.0
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -495,8 +504,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/screenshots/emburse-2026-06-20T180630.png
 security:

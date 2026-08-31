@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 421
   human_in_the_loop: 21
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 733
   slug: relativity-agentic-access
   summary_line: 733 operations · 421 acting · 21 human-in-the-loop
-api_count: 51
+api_count: 31
 apis:
 - description: The AnnotationService API from Relativity — 2 operation(s) for annotationservice.
   name: Relativity AnnotationService API
@@ -359,6 +359,10 @@ collections:
   name: Analytics.Conceptual.Service.Interfaces.Public.V1 AnnotationService WorkspaceJob API
   slug: open-relativity-workspacejob-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/relativity-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -474,7 +478,7 @@ overview: 'Relativity publishes 51 APIs on the [APIs.io](https://apis.io/) netwo
   The Relativity catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Relativity''s developer surface includes authentication, documentation, getting-started guide, changelog, GitHub presence, pricing, engineering blog, and 15 more developer resources.'
+  Relativity''s developer surface includes authentication, documentation, getting-started guide, changelog, GitHub presence, pricing, engineering blog, and 16 more developer resources.'
 plans:
 - name: Relativity Plans Pricing
   plan_count: 3
@@ -491,7 +495,12 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 45.3
+  composite: 47.1
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 44.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 57.9
@@ -499,10 +508,10 @@ score:
     contract_governance: 0.0
     contract_quality: 56.7
     developer_ergonomics: 45.2
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 45.3
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     contracts:
@@ -510,8 +519,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 53
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/relativity/refs/heads/main/screenshots/relativity-2026-06-20T192818.png
 security:

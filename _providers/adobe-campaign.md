@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 35
   slug: adobe-campaign-agentic-access
   summary_line: 35 operations · 25 acting · 3 human-in-the-loop
-api_count: 20
+api_count: 2
 apis:
 - description: 'An open-source JavaScript SDK that wraps Adobe Campaign Classic SOAP APIs in a simple, expressive, JavaScript-idiomatic interface. The SDK supports asynchronous promise-based operations for querying, '
   name: Adobe Campaign Classic JavaScript SDK
@@ -166,6 +166,10 @@ collections:
   name: Adobe Campaign Classic Custom Resources Workflows API
   slug: open-adobe-campaign-workflows-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/adobe-campaign-capability-edges.yml
 - group: build
   title: ''
   type: Packages
@@ -680,7 +684,7 @@ overview: 'Adobe Campaign publishes 17 APIs on the [APIs.io](https://apis.io/) n
   The Adobe Campaign catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Adobe Campaign''s developer surface includes changelog, sandbox, documentation, API reference, signup flow, pricing, release notes, and 39 more developer resources.'
+  Adobe Campaign''s developer surface includes changelog, sandbox, documentation, API reference, signup flow, pricing, release notes, and 40 more developer resources.'
 plans:
 - name: Adobe Campaign Plans Pricing
   plan_count: 2
@@ -729,18 +733,26 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 77.3
-  delta: 0.0
+  composite: 72.6
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -3.5
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 43.9
-    contract_quality: 73.8
+    contract_governance: 31.8
+    contract_quality: 75.0
     developer_ergonomics: 72.0
-    discoverability: 81.5
-    governance: 43.9
+    discoverability: 75.9
+    governance: 31.8
     operational_transparency: 57.9
-  previous_composite: 77.3
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 76.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -757,8 +769,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/screenshots/adobe-campaign-2026-06-20T164822.png
 security:

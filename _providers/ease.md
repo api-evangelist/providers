@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,13 +33,46 @@ agentic_access:
   summary_line: 37 operations
 api_count: 2
 apis:
-- description: 'The public, anonymous WordPress REST API behind www.ease.com. It is not the Ease benefits administration API, but it is a real machine-readable surface and it carries the Ease Marketplace: 110 publish'
-  name: Ease Content & Marketplace API
-  slug: ease-content-marketplace-api
-- description: The public, anonymous Atlassian Statuspage v2 API for the Ease platform, hosted at status.ease.com (page id 13zw4w6v89nk) and documented by Ease itself at https://status.ease.com/api. Eight GET endpoi
+- description: 'Self-describing metadata: registered content types, taxonomies and post statuses.'
+  name: Ease Discovery API
+  slug: ease-discovery-api
+- description: Ease in-person and virtual events, and their categories.
+  name: Ease Events API
+  slug: ease-events-api
+- description: Unresolved and historical incidents, each composed of dated incident updates.
+  name: Ease Incidents API
+  slug: ease-incidents-api
+- description: Upcoming, active and historical scheduled maintenance windows.
+  name: Ease Maintenance API
+  slug: ease-maintenance-api
+- description: 'The Ease Marketplace partner directory: carriers, general agencies, third-party administrators, payroll providers and agency-management vendors, plus the partner_types and benefit_types taxonomies use'
+  name: Ease Marketplace API
+  slug: ease-marketplace-api
+- description: Images and files in the Ease media library.
+  name: Ease Media API
+  slug: ease-media-api
+- description: oEmbed representation of an ease.com URL.
+  name: Ease O Embed API
+  slug: ease-oembed-api
+- description: Marketing and product pages on www.ease.com.
+  name: Ease Pages API
+  slug: ease-pages-api
+- description: The Ease blog.
+  name: Ease Posts API
+  slug: ease-posts-api
+- description: Cross-content-type search over published site content.
+  name: Ease Search API
+  slug: ease-search-api
+- description: Rollup status indicator and per-component status for the Ease platform.
   name: Ease Status API
   slug: ease-status-api
-artifact_total: 16
+- description: Blog categories and tags.
+  name: Ease Taxonomy API
+  slug: ease-taxonomy-api
+- description: Published customer testimonials.
+  name: Ease Testimonials API
+  slug: ease-testimonials-api
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Ease Status Webhooks
@@ -55,6 +88,14 @@ collections:
   name: Ease Status API
   slug: open-ease-status
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ease-content-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ease-status-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -217,28 +258,33 @@ modified: '2026-07-25'
 name: Ease
 nav: Providers
 network: true
-overview: 'Ease publishes 2 APIs on the [APIs.io](https://apis.io/) network: Content & Marketplace API and Status API. Tagged areas include Insurance, United States, Employee Benefits, Benefits Administration, and Group Benefits.
+overview: 'Ease publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Events API, Incidents API, and 10 more. Tagged areas include Insurance, United States, Employee Benefits, Benefits Administration, and Group Benefits.
 
 
   The Ease catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ease''s developer surface includes authentication, code examples, API reference, documentation, engineering blog, support, pricing, and 26 more developer resources.'
+  Ease''s developer surface includes authentication, code examples, API reference, documentation, engineering blog, support, pricing, and 28 more developer resources.'
 random_paper: 15
 score:
   band: developing
-  composite: 44.3
-  delta: 0.0
+  composite: 41.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 30.3
-    contract_quality: 24.9
+    contract_governance: 18.2
+    contract_quality: 25.1
     developer_ergonomics: 37.5
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 44.3
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -255,8 +301,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ease/refs/heads/main/screenshots/ease-2026-07-25T212704.png
 security:

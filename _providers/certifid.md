@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-08-26'
-api_count: 15
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The AccountVerifications API from CertifID — 4 operation(s) for accountverifications.
   name: CertifID Account Verifications API
@@ -125,6 +125,10 @@ collections:
   name: CertifID V2 Wiring Instructions API
   slug: open-certifid-wiringinstructions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/certifid-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -252,7 +256,7 @@ network: true
 overview: 'CertifID publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account Verifications API, Bank Lookup API, Collect Request API, and 12 more. Tagged areas include Company, Wire Fraud Prevention, Real-Estate, Title Insurance, and Identity Verification.
 
 
-  CertifID''s developer surface includes API reference, authentication, changelog, signup flow, support, engineering blog, and 22 more developer resources.'
+  CertifID''s developer surface includes API reference, authentication, changelog, signup flow, support, engineering blog, and 23 more developer resources.'
 random_paper: 2
 scopes:
 - name: Certifid Scopes
@@ -261,18 +265,23 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.0
-  delta: 1.3
+  composite: 42.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 44.5
     developer_ergonomics: 28.0
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 42.7
+  previous_composite: 43.3
   provenance:
     conformance: first-party
     contracts:
@@ -288,8 +297,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certifid/refs/heads/main/screenshots/certifid-2026-08-17T080816.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 38
   slug: treasury-prime-agentic-access
   summary_line: 38 operations · 17 acting
-api_count: 11
+api_count: 1
 apis:
 - description: REST API covering Persons, Businesses, Accounts, Cards, Payments (ACH, Wire, Book), Transactions, Statements, Counterparties, External Transfers, and Webhooks across a network of sponsor banks.
   name: Treasury Prime Bank API
@@ -113,6 +113,10 @@ collections:
   name: Treasury Prime Bank API
   slug: open-treasury-prime
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/treasury-prime-capability-edges.yml
 - group: operate
   title: ''
   type: Roadmap
@@ -189,10 +193,10 @@ modified: '2026-05-08'
 name: Treasury Prime
 nav: Providers
 network: true
-overview: 'Treasury Prime publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Businesses API, Cards API, and 6 more. Tagged areas include Fintech, Backend-as-a-Service, Banking, Payments, and Card Issuing.
+overview: 'Treasury Prime publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Businesses API, Cards API, and 6 more. Tagged areas include Fintech, BaaS, Banking, Payments, and Card Issuing.
 
 
-  Treasury Prime''s developer surface includes getting-started guide, authentication, engineering blog, and 13 more developer resources.'
+  Treasury Prime''s developer surface includes getting-started guide, authentication, engineering blog, and 14 more developer resources.'
 plans:
 - name: Treasury Prime Plans Pricing
   plan_count: 2
@@ -204,18 +208,23 @@ rate_limits:
   slug: treasury-prime-rate-limits
 score:
   band: thin
-  composite: 38.2
-  delta: 1.0
+  composite: 37.6
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 49.1
     developer_ergonomics: 40.5
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 37.2
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -229,8 +238,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/screenshots/treasury-prime-2026-06-20T195641.png
 security:
@@ -245,7 +254,7 @@ security:
 slug: treasury-prime
 tags:
 - Fintech
-- Backend-as-a-Service
+- BaaS
 - Banking
 - Payments
 - Card Issuing

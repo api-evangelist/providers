@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 196
   human_in_the_loop: 0
@@ -43,368 +43,143 @@ agentic_access:
   operation_count: 338
   slug: mailchimp-agentic-access
   summary_line: 338 operations · 196 acting
-api_count: 120
+api_count: 4
 apis:
 - description: An open source, API-first, modular commerce stack built using Node.js, React, and GraphQL. Formerly known as Reaction Commerce, the project has been discontinued but documentation remains available.
   name: Mailchimp Open Commerce
   slug: mailchimp-open-commerce
-- description: The Abuse API from Mailchimp — 4 operation(s) for abuse.
-  name: Mailchimp Abuse API
-  slug: mailchimp-abuse-api
-- description: The Account Export API from Mailchimp — 1 operation(s) for account export.
-  name: Mailchimp Account Export API
-  slug: mailchimp-account-export-api
-- description: The Accounts API from Mailchimp — 2 operation(s) for accounts.
-  name: Mailchimp Accounts API
-  slug: mailchimp-accounts-api
-- description: The Actions API from Mailchimp — 23 operation(s) for actions.
-  name: Mailchimp Actions API
-  slug: mailchimp-actions-api
-- description: The Activity API from Mailchimp — 8 operation(s) for activity.
-  name: Mailchimp Activity API
-  slug: mailchimp-activity-api
-- description: The Advice API from Mailchimp — 1 operation(s) for advice.
-  name: Mailchimp Advice API
-  slug: mailchimp-advice-api
 - description: Manage the allowlist of email addresses that bypass the rejection blacklist.
   name: Mailchimp Allowlists API
   slug: mailchimp-allowlists-api
-- description: The Answers API from Mailchimp — 1 operation(s) for answers.
-  name: Mailchimp Answers API
-  slug: mailchimp-answers-api
-- description: The Applications API from Mailchimp — 2 operation(s) for applications.
-  name: Mailchimp Applications API
-  slug: mailchimp-applications-api
-- description: The Archive API from Mailchimp — 1 operation(s) for archive.
-  name: Mailchimp Archive API
-  slug: mailchimp-archive-api
-- description: The Authorized API from Mailchimp — 2 operation(s) for authorized.
-  name: Mailchimp Authorized API
-  slug: mailchimp-authorized-api
-- description: The Authorized Apps API from Mailchimp — 1 operation(s) for authorized apps.
-  name: Mailchimp Authorized Apps API
-  slug: mailchimp-authorized-apps-api
 - description: The Automations API from Mailchimp — 13 operation(s) for automations.
   name: Mailchimp Automations API
   slug: mailchimp-automations-api
-- description: The Batch API from Mailchimp — 2 operation(s) for batch.
-  name: Mailchimp Batch API
-  slug: mailchimp-batch-api
-- description: The Batch Webhooks API from Mailchimp — 1 operation(s) for batch webhooks.
-  name: Mailchimp Batch Webhooks API
-  slug: mailchimp-batch-webhooks-api
 - description: The Batches API from Mailchimp — 2 operation(s) for batches.
   name: Mailchimp Batches API
   slug: mailchimp-batches-api
-- description: The Campaign Folders API from Mailchimp — 1 operation(s) for campaign folders.
-  name: Mailchimp Campaign Folders API
-  slug: mailchimp-campaign-folders-api
 - description: The Campaigns API from Mailchimp — 18 operation(s) for campaigns.
   name: Mailchimp Campaigns API
   slug: mailchimp-campaigns-api
-- description: The Cancels API from Mailchimp — 1 operation(s) for cancels.
-  name: Mailchimp Cancels API
-  slug: mailchimp-cancels-api
-- description: The Carts API from Mailchimp — 4 operation(s) for carts.
-  name: Mailchimp Carts API
-  slug: mailchimp-carts-api
-- description: The Categories API from Mailchimp — 4 operation(s) for categories.
-  name: Mailchimp Categories API
-  slug: mailchimp-categories-api
-- description: The Chatter API from Mailchimp — 1 operation(s) for chatter.
-  name: Mailchimp Chatter API
-  slug: mailchimp-chatter-api
-- description: The Checklist API from Mailchimp — 1 operation(s) for checklist.
-  name: Mailchimp Checklist API
-  slug: mailchimp-checklist-api
-- description: The Click API from Mailchimp — 4 operation(s) for click.
-  name: Mailchimp Click API
-  slug: mailchimp-click-api
-- description: The Clients API from Mailchimp — 1 operation(s) for clients.
-  name: Mailchimp Clients API
-  slug: mailchimp-clients-api
-- description: The Connected API from Mailchimp — 3 operation(s) for connected.
-  name: Mailchimp Connected API
-  slug: mailchimp-connected-api
-- description: The Connected_site_id API from Mailchimp — 2 operation(s) for connected_site_id.
-  name: Mailchimp Connected_site_id API
-  slug: mailchimp-connected-site-id-api
-- description: The Connected Sites API from Mailchimp — 1 operation(s) for connected sites.
-  name: Mailchimp Connected Sites API
-  slug: mailchimp-connected-sites-api
-- description: The Content API from Mailchimp — 3 operation(s) for content.
-  name: Mailchimp Content API
-  slug: mailchimp-content-api
 - description: The Conversations API from Mailchimp — 4 operation(s) for conversations.
   name: Mailchimp Conversations API
   slug: mailchimp-conversations-api
-- description: The Customers API from Mailchimp — 3 operation(s) for customers.
-  name: Mailchimp Customers API
-  slug: mailchimp-customers-api
-- description: The Domains API from Mailchimp — 4 operation(s) for domains.
-  name: Mailchimp Domains API
-  slug: mailchimp-domains-api
 - description: The Ecommerce API from Mailchimp — 10 operation(s) for ecommerce.
   name: Mailchimp Ecommerce API
   slug: mailchimp-ecommerce-api
-- description: The Eepurl API from Mailchimp — 1 operation(s) for eepurl.
-  name: Mailchimp Eepurl API
-  slug: mailchimp-eepurl-api
-- description: The Email API from Mailchimp — 3 operation(s) for email.
-  name: Mailchimp Email API
-  slug: mailchimp-email-api
-- description: The Emails API from Mailchimp — 8 operation(s) for emails.
-  name: Mailchimp Emails API
-  slug: mailchimp-emails-api
-- description: The Events API from Mailchimp — 1 operation(s) for events.
-  name: Mailchimp Events API
-  slug: mailchimp-events-api
 - description: The Exports API from Mailchimp — 7 operation(s) for exports.
   name: Mailchimp Exports API
   slug: mailchimp-exports-api
-- description: The Facebook Ads API from Mailchimp — 1 operation(s) for facebook ads.
-  name: Mailchimp Facebook Ads API
-  slug: mailchimp-facebook-ads-api
-- description: The Facebook API from Mailchimp — 5 operation(s) for facebook.
-  name: Mailchimp Facebook API
-  slug: mailchimp-facebook-api
-- description: The Feed API from Mailchimp — 2 operation(s) for feed.
-  name: Mailchimp Feed API
-  slug: mailchimp-feed-api
-- description: The Feedback API from Mailchimp — 2 operation(s) for feedback.
-  name: Mailchimp Feedback API
-  slug: mailchimp-feedback-api
-- description: The Fields API from Mailchimp — 2 operation(s) for fields.
-  name: Mailchimp Fields API
-  slug: mailchimp-fields-api
-- description: The File Manager API from Mailchimp — 2 operation(s) for file manager.
-  name: Mailchimp File Manager API
-  slug: mailchimp-file-manager-api
-- description: The Files API from Mailchimp — 5 operation(s) for files.
-  name: Mailchimp Files API
-  slug: mailchimp-files-api
-- description: The Folders API from Mailchimp — 7 operation(s) for folders.
-  name: Mailchimp Folders API
-  slug: mailchimp-folders-api
-- description: The Forms API from Mailchimp — 1 operation(s) for forms.
-  name: Mailchimp Forms API
-  slug: mailchimp-forms-api
-- description: The Goals API from Mailchimp — 1 operation(s) for goals.
-  name: Mailchimp Goals API
-  slug: mailchimp-goals-api
-- description: The Growth API from Mailchimp — 2 operation(s) for growth.
-  name: Mailchimp Growth API
-  slug: mailchimp-growth-api
-- description: The History API from Mailchimp — 2 operation(s) for history.
-  name: Mailchimp History API
-  slug: mailchimp-history-api
-- description: The Images API from Mailchimp — 2 operation(s) for images.
-  name: Mailchimp Images API
-  slug: mailchimp-images-api
-- description: The Installation API from Mailchimp — 1 operation(s) for installation.
-  name: Mailchimp Installation API
-  slug: mailchimp-installation-api
-- description: The Interest API from Mailchimp — 4 operation(s) for interest.
-  name: Mailchimp Interest API
-  slug: mailchimp-interest-api
-- description: The Interests API from Mailchimp — 2 operation(s) for interests.
-  name: Mailchimp Interests API
-  slug: mailchimp-interests-api
 - description: Manage dedicated IP addresses associated with the account.
   name: Mailchimp IPs API
   slug: mailchimp-ips-api
-- description: The Journeys API from Mailchimp — 1 operation(s) for journeys.
-  name: Mailchimp Journeys API
-  slug: mailchimp-journeys-api
-- description: The Landing API from Mailchimp — 7 operation(s) for landing.
-  name: Mailchimp Landing API
-  slug: mailchimp-landing-api
-- description: The Landing Pages API from Mailchimp — 2 operation(s) for landing pages.
-  name: Mailchimp Landing Pages API
-  slug: mailchimp-landing-pages-api
-- description: The Lines API from Mailchimp — 4 operation(s) for lines.
-  name: Mailchimp Lines API
-  slug: mailchimp-lines-api
-- description: The List_id API from Mailchimp — 37 operation(s) for list_id.
-  name: Mailchimp List_id API
-  slug: mailchimp-list-id-api
 - description: The Lists API from Mailchimp — 11 operation(s) for lists.
   name: Mailchimp Lists API
   slug: mailchimp-lists-api
-- description: The Locations API from Mailchimp — 2 operation(s) for locations.
-  name: Mailchimp Locations API
-  slug: mailchimp-locations-api
-- description: The Managers API from Mailchimp — 5 operation(s) for managers.
-  name: Mailchimp Managers API
-  slug: mailchimp-managers-api
-- description: The Members API from Mailchimp — 15 operation(s) for members.
-  name: Mailchimp Members API
-  slug: mailchimp-members-api
-- description: The Merge API from Mailchimp — 2 operation(s) for merge.
-  name: Mailchimp Merge API
-  slug: mailchimp-merge-api
 - description: The Messages API from Mailchimp — 13 operation(s) for messages.
   name: Mailchimp Messages API
   slug: mailchimp-messages-api
 - description: Manage custom metadata fields that can be attached to messages for tracking and filtering.
   name: Mailchimp Metadata API
   slug: mailchimp-metadata-api
-- description: The Month API from Mailchimp — 1 operation(s) for month.
-  name: Mailchimp Month API
-  slug: mailchimp-month-api
-- description: The Notes API from Mailchimp — 2 operation(s) for notes.
-  name: Mailchimp Notes API
-  slug: mailchimp-notes-api
-- description: The Open API from Mailchimp — 2 operation(s) for open.
-  name: Mailchimp Open API
-  slug: mailchimp-open-api
-- description: The Orders API from Mailchimp — 5 operation(s) for orders.
-  name: Mailchimp Orders API
-  slug: mailchimp-orders-api
-- description: The Outreach_id API from Mailchimp — 3 operation(s) for outreach_id.
-  name: Mailchimp Outreach_id API
-  slug: mailchimp-outreach-id-api
-- description: The Pages API from Mailchimp — 7 operation(s) for pages.
-  name: Mailchimp Pages API
-  slug: mailchimp-pages-api
-- description: The Pause API from Mailchimp — 3 operation(s) for pause.
-  name: Mailchimp Pause API
-  slug: mailchimp-pause-api
-- description: The Performance API from Mailchimp — 1 operation(s) for performance.
-  name: Mailchimp Performance API
-  slug: mailchimp-performance-api
-- description: The Pings API from Mailchimp — 1 operation(s) for pings.
-  name: Mailchimp Pings API
-  slug: mailchimp-pings-api
-- description: The Product API from Mailchimp — 2 operation(s) for product.
-  name: Mailchimp Product API
-  slug: mailchimp-product-api
-- description: The Products API from Mailchimp — 6 operation(s) for products.
-  name: Mailchimp Products API
-  slug: mailchimp-products-api
-- description: The Promo API from Mailchimp — 4 operation(s) for promo.
-  name: Mailchimp Promo API
-  slug: mailchimp-promo-api
-- description: The Promo_code_id API from Mailchimp — 1 operation(s) for promo_code_id.
-  name: Mailchimp Promo_code_id API
-  slug: mailchimp-promo-code-id-api
-- description: The Publish API from Mailchimp — 2 operation(s) for publish.
-  name: Mailchimp Publish API
-  slug: mailchimp-publish-api
-- description: The Questions API from Mailchimp — 3 operation(s) for questions.
-  name: Mailchimp Questions API
-  slug: mailchimp-questions-api
-- description: The Queues API from Mailchimp — 2 operation(s) for queues.
-  name: Mailchimp Queues API
-  slug: mailchimp-queues-api
 - description: Manage the rejection blacklist, which prevents delivery to addresses that have previously bounced or been reported as spam.
   name: Mailchimp Rejects API
   slug: mailchimp-rejects-api
-- description: The Removed API from Mailchimp — 2 operation(s) for removed.
-  name: Mailchimp Removed API
-  slug: mailchimp-removed-api
-- description: The Replicate API from Mailchimp — 1 operation(s) for replicate.
-  name: Mailchimp Replicate API
-  slug: mailchimp-replicate-api
 - description: The Reporting API from Mailchimp — 12 operation(s) for reporting.
   name: Mailchimp Reporting API
   slug: mailchimp-reporting-api
 - description: The Reports API from Mailchimp — 24 operation(s) for reports.
   name: Mailchimp Reports API
   slug: mailchimp-reports-api
-- description: The Resend API from Mailchimp — 1 operation(s) for resend.
-  name: Mailchimp Resend API
-  slug: mailchimp-resend-api
-- description: The Response_id API from Mailchimp — 1 operation(s) for response_id.
-  name: Mailchimp Response_id API
-  slug: mailchimp-response-id-api
-- description: The Resume API from Mailchimp — 1 operation(s) for resume.
-  name: Mailchimp Resume API
-  slug: mailchimp-resume-api
 - description: The Root API from Mailchimp — 1 operation(s) for root.
   name: Mailchimp Root API
   slug: mailchimp-root-api
-- description: The Rules API from Mailchimp — 4 operation(s) for rules.
-  name: Mailchimp Rules API
-  slug: mailchimp-rules-api
-- description: The Schedules API from Mailchimp — 1 operation(s) for schedules.
-  name: Mailchimp Schedules API
-  slug: mailchimp-schedules-api
-- description: The Scripts API from Mailchimp — 1 operation(s) for scripts.
-  name: Mailchimp Scripts API
-  slug: mailchimp-scripts-api
-- description: The Search API from Mailchimp — 3 operation(s) for search.
-  name: Mailchimp Search API
-  slug: mailchimp-search-api
-- description: The Segments API from Mailchimp — 4 operation(s) for segments.
-  name: Mailchimp Segments API
-  slug: mailchimp-segments-api
-- description: The Send API from Mailchimp — 3 operation(s) for send.
-  name: Mailchimp Send API
-  slug: mailchimp-send-api
 - description: Retrieve sender information and statistics for verified sending domains and email addresses.
   name: Mailchimp Senders API
   slug: mailchimp-senders-api
-- description: The Sent API from Mailchimp — 2 operation(s) for sent.
-  name: Mailchimp Sent API
-  slug: mailchimp-sent-api
-- description: The Signup API from Mailchimp — 1 operation(s) for signup.
-  name: Mailchimp Signup API
-  slug: mailchimp-signup-api
-- description: The Steps API from Mailchimp — 1 operation(s) for steps.
-  name: Mailchimp Steps API
-  slug: mailchimp-steps-api
-- description: The Stores API from Mailchimp — 22 operation(s) for stores.
-  name: Mailchimp Stores API
-  slug: mailchimp-stores-api
 - description: Manage subaccounts for organizing sending and reporting within a single Mandrill account.
   name: Mailchimp Subaccounts API
   slug: mailchimp-subaccounts-api
-- description: The Subscribers API from Mailchimp — 2 operation(s) for subscribers.
-  name: Mailchimp Subscribers API
-  slug: mailchimp-subscribers-api
 - description: The Surveys API from Mailchimp — 12 operation(s) for surveys.
   name: Mailchimp Surveys API
   slug: mailchimp-surveys-api
 - description: The Tags API from Mailchimp — 5 operation(s) for tags.
   name: Mailchimp Tags API
   slug: mailchimp-tags-api
-- description: The Template API from Mailchimp — 2 operation(s) for template.
-  name: Mailchimp Template API
-  slug: mailchimp-template-api
-- description: The Template Folders API from Mailchimp — 1 operation(s) for template folders.
-  name: Mailchimp Template Folders API
-  slug: mailchimp-template-folders-api
 - description: The Templates API from Mailchimp — 11 operation(s) for templates.
   name: Mailchimp Templates API
   slug: mailchimp-templates-api
-- description: The Tests API from Mailchimp — 1 operation(s) for tests.
-  name: Mailchimp Tests API
-  slug: mailchimp-tests-api
-- description: The Trigger API from Mailchimp — 1 operation(s) for trigger.
-  name: Mailchimp Trigger API
-  slug: mailchimp-trigger-api
-- description: The Unsubscribed API from Mailchimp — 2 operation(s) for unsubscribed.
-  name: Mailchimp Unsubscribed API
-  slug: mailchimp-unsubscribed-api
 - description: Retrieve information about the authenticated Mandrill account.
   name: Mailchimp Users API
   slug: mailchimp-users-api
-- description: The Variants API from Mailchimp — 2 operation(s) for variants.
-  name: Mailchimp Variants API
-  slug: mailchimp-variants-api
-- description: The Verified API from Mailchimp — 3 operation(s) for verified.
-  name: Mailchimp Verified API
-  slug: mailchimp-verified-api
-- description: The Verified Domains API from Mailchimp — 1 operation(s) for verified domains.
-  name: Mailchimp Verified Domains API
-  slug: mailchimp-verified-domains-api
-- description: The Verify API from Mailchimp — 2 operation(s) for verify.
-  name: Mailchimp Verify API
-  slug: mailchimp-verify-api
 - description: The Webhooks API from Mailchimp — 9 operation(s) for webhooks.
   name: Mailchimp Webhooks API
   slug: mailchimp-webhooks-api
+- description: The accountExport API from Mailchimp — 1 operation(s) for accountexport.
+  name: Mailchimp Account Export API
+  slug: mailchimp-accountexport-api
+- description: The accountExports API from Mailchimp — 1 operation(s) for accountexports.
+  name: Mailchimp Account Exports API
+  slug: mailchimp-accountexports-api
+- description: The activityFeed API from Mailchimp — 1 operation(s) for activityfeed.
+  name: Mailchimp Activity Feed API
+  slug: mailchimp-activityfeed-api
+- description: The audiences API from Mailchimp — 2 operation(s) for audiences.
+  name: Mailchimp Audiences API
+  slug: mailchimp-audiences-api
+- description: The authorizedApps API from Mailchimp — 2 operation(s) for authorizedapps.
+  name: Mailchimp Authorized Apps API
+  slug: mailchimp-authorizedapps-api
+- description: The batchWebhooks API from Mailchimp — 2 operation(s) for batchwebhooks.
+  name: Mailchimp Batch Webhooks API
+  slug: mailchimp-batchwebhooks-api
+- description: The campaignFolders API from Mailchimp — 2 operation(s) for campaignfolders.
+  name: Mailchimp Campaign Folders API
+  slug: mailchimp-campaignfolders-api
+- description: The connectedSites API from Mailchimp — 5 operation(s) for connectedsites.
+  name: Mailchimp Connected Sites API
+  slug: mailchimp-connectedsites-api
+- description: The contacts API from Mailchimp — 6 operation(s) for contacts.
+  name: Mailchimp Contacts API
+  slug: mailchimp-contacts-api
+- description: The customerJourneys API from Mailchimp — 1 operation(s) for customerjourneys.
+  name: Mailchimp Customer Journeys API
+  slug: mailchimp-customerjourneys-api
+- description: The facebookAds API from Mailchimp — 2 operation(s) for facebookads.
+  name: Mailchimp Facebook Ads API
+  slug: mailchimp-facebookads-api
+- description: The fileManager API from Mailchimp — 5 operation(s) for filemanager.
+  name: Mailchimp File Manager API
+  slug: mailchimp-filemanager-api
+- description: The inbound API from Mailchimp — 9 operation(s) for inbound.
+  name: Mailchimp Inbound API
+  slug: mailchimp-inbound-api
+- description: The landingPages API from Mailchimp — 5 operation(s) for landingpages.
+  name: Mailchimp Landing Pages API
+  slug: mailchimp-landingpages-api
+- description: The mctemplates API from Mailchimp — 4 operation(s) for mctemplates.
+  name: Mailchimp Mctemplates API
+  slug: mailchimp-mctemplates-api
+- description: The ping API from Mailchimp — 1 operation(s) for ping.
+  name: Mailchimp Ping API
+  slug: mailchimp-ping-api
+- description: The searchCampaigns API from Mailchimp — 1 operation(s) for searchcampaigns.
+  name: Mailchimp Search Campaigns API
+  slug: mailchimp-searchcampaigns-api
+- description: The searchMembers API from Mailchimp — 1 operation(s) for searchmembers.
+  name: Mailchimp Search Members API
+  slug: mailchimp-searchmembers-api
+- description: The sms-campaigns API from Mailchimp — 6 operation(s) for sms-campaigns.
+  name: Mailchimp Sms Campaigns API
+  slug: mailchimp-sms-campaigns-api
+- description: The templateFolders API from Mailchimp — 2 operation(s) for templatefolders.
+  name: Mailchimp Template Folders API
+  slug: mailchimp-templatefolders-api
+- description: The urls API from Mailchimp — 4 operation(s) for urls.
+  name: Mailchimp URLS API
+  slug: mailchimp-urls-api
+- description: The verifiedDomains API from Mailchimp — 3 operation(s) for verifieddomains.
+  name: Mailchimp Verified Domains API
+  slug: mailchimp-verifieddomains-api
 arazzos:
 - description: Subscribe a member to an audience and attach an internal note to them.
   name: Mailchimp Add Member and Attach a Note
@@ -463,7 +238,7 @@ arazzos:
 - description: Find a member by email and update them, otherwise add them to the audience.
   name: Mailchimp Upsert Audience Member
   slug: mailchimp-upsert-member-workflow
-artifact_total: 460
+artifact_total: 385
 asyncapis:
 - description: AsyncAPI description of Mailchimp Marketing audience webhooks. Mailchimp delivers list/audience events to a customer-configured callback URL via HTTP POST with an `application/x-www-form-urlencoded` b
   name: Mailchimp Marketing Webhooks
@@ -851,6 +626,10 @@ collections:
   name: Mailchimp Marketing Abuse Webhooks API
   slug: open-mailchimp-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mailchimp-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -1674,13 +1453,13 @@ modified: '2026-08-13'
 name: Mailchimp
 nav: Providers
 network: true
-overview: 'Mailchimp publishes 119 APIs on the [APIs.io](https://apis.io/) network, including Abuse API, Account Export API, Accounts API, and 116 more. Tagged areas include Campaigns, Email Marketing, Marketing Automation, Newsletters, and Transactional Email.
+overview: 'Mailchimp publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Allowlists API, Automations API, Batches API, and 41 more. Tagged areas include Campaigns, Email Marketing, Marketing Automation, Newsletters, and Transactional Email.
 
 
   The Mailchimp catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Mailchimp''s developer surface includes changelog, sandbox, authentication, developer portal, engineering blog, pricing, support, and 64 more developer resources.'
+  Mailchimp''s developer surface includes changelog, sandbox, authentication, developer portal, engineering blog, pricing, support, and 65 more developer resources.'
 plans:
 - name: Mailchimp Plans Pricing
   plan_count: 4
@@ -1714,18 +1493,23 @@ rules:
   slug: mailchimp-spectral-rules
 score:
   band: exemplar
-  composite: 80.7
-  delta: -0.8
+  composite: 77.0
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 35.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 45.5
-    contract_quality: 73.4
+    contract_governance: 33.3
+    contract_quality: 68.9
     developer_ergonomics: 87.5
-    discoverability: 87.0
-    governance: 45.5
+    discoverability: 75.9
+    governance: 33.3
     operational_transparency: 94.7
-  previous_composite: 81.5
+  previous_composite: 77.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1742,8 +1526,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/screenshots/mailchimp-2026-06-20T184854.png
 security:

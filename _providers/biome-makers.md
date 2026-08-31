@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ modified: '2026-07-18'
 name: Biome Makers
 nav: Providers
 network: true
-overview: 'Biome Makers is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AgTech, Soil Health, Soil Microbiome, and Agriculture.
+overview: 'Biome Makers is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agtech, Soil Health, Soil Microbiome, and Agriculture.
 
 
   Biome Makers'' developer surface includes developer portal, support, engineering blog, and 7 more developer resources.'
@@ -92,6 +92,11 @@ random_paper: 15
 score:
   band: emerging
   composite: 16.1
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -109,8 +114,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biome-makers/refs/heads/main/screenshots/biome-makers-2026-07-25T203047.png
 security:
@@ -121,7 +126,7 @@ security:
 slug: biome-makers
 tags:
 - Company
-- AgTech
+- Agtech
 - Soil Health
 - Soil Microbiome
 - Agriculture

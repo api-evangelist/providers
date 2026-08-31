@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 49
   slug: cloudformation-agentic-access
   summary_line: 49 operations · 49 acting · 1 human-in-the-loop
-api_count: 13
+api_count: 2
 apis:
 - description: Operations for creating and managing change sets to preview stack changes.
   name: AWS CloudFormation Change Sets API
@@ -168,6 +168,10 @@ collections:
   name: AWS Cloud Control Change Sets Templates API
   slug: open-cloudformation-templates-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cloudformation-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -762,13 +766,13 @@ modified: '2026-05-19'
 name: AWS CloudFormation
 nav: Providers
 network: true
-overview: 'AWS CloudFormation publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Change Sets API, Exports API, Registry API, and 10 more. Tagged areas include Automation, Cloud Resources, IaC, Infrastructure as Code, and Stack Management.
+overview: 'AWS CloudFormation publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Change Sets API, Exports API, Registry API, and 10 more. Tagged areas include Automation, Cloud Resources, IaC, Infrastructure As Code, and Stack Management.
 
 
   The AWS CloudFormation catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  AWS CloudFormation''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, engineering blog, developer console, and 49 more developer resources.'
+  AWS CloudFormation''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, engineering blog, developer console, and 50 more developer resources.'
 plans:
 - name: Cloudformation Plans Pricing
   plan_count: 3
@@ -802,18 +806,23 @@ rules:
   slug: cloudformation-spectral-rules
 score:
   band: strong
-  composite: 63.5
-  delta: 3.5
+  composite: 62.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 28.8
     contract_quality: 64.1
     developer_ergonomics: 88.1
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 60.0
+  previous_composite: 63.5
   provenance:
     agentic_access: derived
     contracts:
@@ -821,8 +830,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/screenshots/cloudformation-2026-06-20T174600.png
 security:
@@ -847,7 +856,7 @@ tags:
 - Automation
 - Cloud Resources
 - IaC
-- Infrastructure as Code
+- Infrastructure As Code
 - Stack Management
 use_cases:
 - description: Deploy consistent infrastructure across multiple AWS accounts with Stack Sets

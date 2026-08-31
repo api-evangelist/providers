@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 46
   slug: authenticx-agentic-access
   summary_line: 46 operations · 18 acting
-api_count: 18
+api_count: 3
 apis:
 - description: The Agent API from Authenticx — 3 operation(s) for agent.
   name: Authenticx Agent API
@@ -152,6 +152,10 @@ collections:
   name: AcxApi Production Workflows API
   slug: open-authenticx-workflows-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/authenticx-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -292,13 +296,13 @@ modified: '2026-08-14'
 name: Authenticx
 nav: Providers
 network: true
-overview: 'Authenticx publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Conversations API, Evaluations API, and 15 more. Tagged areas include Conversation Intelligence, Healthcare, Speech Analytics, Contact Center, and Customer Experience.
+overview: 'Authenticx publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Agent API, Conversations API, Evaluations API, and 15 more. Tagged areas include Conversation Intelligence, healthcare, speech-analytics, contact-center, and customer-experience.
 
 
   The Authenticx catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Authenticx''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 26 more developer resources.'
+  Authenticx''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 27 more developer resources.'
 plans:
 - name: Authenticx Plans Pricing
   plan_count: 0
@@ -314,19 +318,24 @@ scopes:
   slug: authenticx-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: strong
-  composite: 54.8
-  delta: 0.8
+  band: developing
+  composite: 52.2
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 65.6
     developer_ergonomics: 47.0
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 54.0
+  previous_composite: 52.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -343,8 +352,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/screenshots/authenticx-2026-08-07T161942.png
 security:
@@ -363,15 +372,15 @@ security:
 slug: authenticx
 tags:
 - Conversation Intelligence
-- Healthcare
-- Speech Analytics
-- Contact Center
-- Customer Experience
-- Quality Assurance
-- Pharmacovigilance
-- Patient Experience
+- healthcare
+- speech-analytics
+- contact-center
+- customer-experience
+- quality-assurance
+- pharmacovigilance
+- patient-experience
 - Transcription
-- Life Sciences
+- life-sciences
 - SCIM
 - Authentication
 website: https://authenticx.com/

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 74
   slug: investec-agentic-access
   summary_line: 74 operations · 20 acting
-api_count: 9
+api_count: 3
 apis:
 - description: First-party Programmable Banking API to retrieve data and perform actions on your own or your business's Investec Private Banking account, including accounts, balances, transactions, transfers, and pa
   name: Investec Private Bank API
@@ -51,17 +51,96 @@ apis:
 - description: First-party OAuth2 authorisation endpoint that generates and refreshes the access tokens authorising calls to the Investec Programmable Banking APIs.
   name: Investec Authorisation API (OAuth)
   slug: investec-authorisation-api
-- description: UK Open Banking Account Information Service (AISP) interface for accessing account, balance, transaction, and product data. Investec Bank plc conforms to the OBIE Read/Write API Standard (v3.1); the h
-  name: Investec Account and Transaction Information API (AIS)
-  slug: investec-account-transaction-information-api
-- description: 'UK Open Banking Payment Initiation Service (PISP) interface for initiating domestic and other payments. Investec Bank plc conforms to the OBIE Read/Write API Standard (v3.1); the harvested OpenAPI is '
-  name: Investec Payment Initiation API (PIS)
-  slug: investec-payment-initiation-api
-- description: UK Open Banking Confirmation of Funds (CBPII) interface for checking whether funds are available on an account. Investec Bank plc conforms to the OBIE Read/Write API Standard (v3.1); the harvested Ope
-  name: Investec Confirmation of Funds API (CBPII)
-  slug: investec-confirmation-of-funds-api
-artifact_total: 13
+- description: The Account Access Consents API from Investec — 2 operation(s) for account access consents.
+  name: Investec Account Access Consents API
+  slug: investec-account-access-consents-api
+- description: The Accounts API from Investec — 2 operation(s) for accounts.
+  name: Investec Accounts API
+  slug: investec-accounts-api
+- description: The Balances API from Investec — 2 operation(s) for balances.
+  name: Investec Balances API
+  slug: investec-balances-api
+- description: The Beneficiaries API from Investec — 2 operation(s) for beneficiaries.
+  name: Investec Beneficiaries API
+  slug: investec-beneficiaries-api
+- description: The Direct Debits API from Investec — 2 operation(s) for direct debits.
+  name: Investec Direct Debits API
+  slug: investec-direct-debits-api
+- description: The Domestic Payment Consents API from Investec — 3 operation(s) for domestic payment consents.
+  name: Investec Domestic Payment Consents API
+  slug: investec-domestic-payment-consents-api
+- description: The Domestic Payments API from Investec — 3 operation(s) for domestic payments.
+  name: Investec Domestic Payments API
+  slug: investec-domestic-payments-api
+- description: The Domestic Scheduled Payment Consents API from Investec — 2 operation(s) for domestic scheduled payment consents.
+  name: Investec Domestic Scheduled Payment Consents API
+  slug: investec-domestic-scheduled-payment-consents-api
+- description: The Domestic Scheduled Payments API from Investec — 3 operation(s) for domestic scheduled payments.
+  name: Investec Domestic Scheduled Payments API
+  slug: investec-domestic-scheduled-payments-api
+- description: The Domestic Standing Order Consents API from Investec — 2 operation(s) for domestic standing order consents.
+  name: Investec Domestic Standing Order Consents API
+  slug: investec-domestic-standing-order-consents-api
+- description: The Domestic Standing Orders API from Investec — 3 operation(s) for domestic standing orders.
+  name: Investec Domestic Standing Orders API
+  slug: investec-domestic-standing-orders-api
+- description: The File Payment Consents API from Investec — 3 operation(s) for file payment consents.
+  name: Investec File Payment Consents API
+  slug: investec-file-payment-consents-api
+- description: The File Payments API from Investec — 4 operation(s) for file payments.
+  name: Investec File Payments API
+  slug: investec-file-payments-api
+- description: The Funds Confirmation Consents API from Investec — 2 operation(s) for funds confirmation consents.
+  name: Investec Funds Confirmation Consents API
+  slug: investec-funds-confirmation-consents-api
+- description: The Funds Confirmations API from Investec — 1 operation(s) for funds confirmations.
+  name: Investec Funds Confirmations API
+  slug: investec-funds-confirmations-api
+- description: The International Payment Consents API from Investec — 3 operation(s) for international payment consents.
+  name: Investec International Payment Consents API
+  slug: investec-international-payment-consents-api
+- description: The International Payments API from Investec — 3 operation(s) for international payments.
+  name: Investec International Payments API
+  slug: investec-international-payments-api
+- description: The International Scheduled Payments API from Investec — 3 operation(s) for international scheduled payments.
+  name: Investec International Scheduled Payments API
+  slug: investec-international-scheduled-payments-api
+- description: The International Scheduled Payments Consents API from Investec — 3 operation(s) for international scheduled payments consents.
+  name: Investec International Scheduled Payments Consents API
+  slug: investec-international-scheduled-payments-consents-api
+- description: The International Standing Orders API from Investec — 3 operation(s) for international standing orders.
+  name: Investec International Standing Orders API
+  slug: investec-international-standing-orders-api
+- description: The International Standing Orders Consents API from Investec — 2 operation(s) for international standing orders consents.
+  name: Investec International Standing Orders Consents API
+  slug: investec-international-standing-orders-consents-api
+- description: The Offers API from Investec — 2 operation(s) for offers.
+  name: Investec Offers API
+  slug: investec-offers-api
+- description: The Parties API from Investec — 3 operation(s) for parties.
+  name: Investec Parties API
+  slug: investec-parties-api
+- description: The Products API from Investec — 2 operation(s) for products.
+  name: Investec Products API
+  slug: investec-products-api
+- description: The Scheduled Payments API from Investec — 2 operation(s) for scheduled payments.
+  name: Investec Scheduled Payments API
+  slug: investec-scheduled-payments-api
+- description: The Standing Orders API from Investec — 2 operation(s) for standing orders.
+  name: Investec Standing Orders API
+  slug: investec-standing-orders-api
+- description: The Statements API from Investec — 5 operation(s) for statements.
+  name: Investec Statements API
+  slug: investec-statements-api
+- description: The Transactions API from Investec — 2 operation(s) for transactions.
+  name: Investec Transactions API
+  slug: investec-transactions-api
+artifact_total: 38
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/investec-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -191,10 +270,10 @@ modified: '2026-07-23'
 name: Investec
 nav: Providers
 network: true
-overview: 'Investec publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API (AIS), Payment Initiation API (PIS), and Confirmation of Funds API (CBPII). Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Investec publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, Balances API, and 25 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  Investec''s developer surface includes authentication, documentation, API reference, engineering blog, support, sandbox, getting-started guide, and 23 more developer resources.'
+  Investec''s developer surface includes authentication, documentation, API reference, engineering blog, support, sandbox, getting-started guide, and 24 more developer resources.'
 random_paper: 4
 scopes:
 - name: Investec Scopes
@@ -203,18 +282,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 44.4
+  composite: 42.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 54.4
     developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 44.4
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,12 +310,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/screenshots/investec-2026-07-25T222744.png
 security:

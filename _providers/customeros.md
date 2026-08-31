@@ -13,7 +13,7 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_card: flavored
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-26'
+  score: 32.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -42,21 +42,42 @@ agentic_access:
   operation_count: 57
   slug: customeros-agentic-access
   summary_line: 57 operations · 30 acting · 1 human-in-the-loop
-api_count: 4
+api_count: 10
 apis:
-- description: 'Key-authenticated REST surface for the customeros.ai cloud, published as six OpenAPI 3.0.1 documents (one per tag) plus the source Swagger 2.0 in github.com/customeros/customeros. All six declare the '
-  name: CustomerOS REST API
-  slug: customeros-customerbase-rest-api
-- description: '34-operation REST API for outbound sequencing — flows, sequences, steps (email, LinkedIn or manual), senders with warming state and daily send limits, sending schedules, opt-out and analytics config, '
-  name: CustomerOS Flow API
-  slug: customeros-flow-api
 - description: Client-side JavaScript tracker that captures page views and custom events, exposes window.cos.identify() for attaching identity and properties, and matches visitor IPs to companies. Since the 2025-09-
   name: CustomerOS Website Tracker
   slug: customeros-website-tracker
 - description: Single GraphQL endpoint served by the open-source customer-os-api (Go, gqlgen) covering organizations, contacts, opportunities, contracts, invoices, interactions and timeline events. The repository mo
   name: CustomerOS GraphQL API
   slug: customeros-graphql-api
-artifact_total: 23
+- description: The Billing API API from CustomerOS — 1 operation(s) for billing api.
+  name: CustomerOS Billing API
+  slug: customeros-billing-api-api
+- description: The CustomerBASE API API from CustomerOS — 6 operation(s) for customerbase api.
+  name: CustomerOS CustomerBASE API
+  slug: customeros-customerbase-api-api
+- description: The Domains API from CustomerOS — 2 operation(s) for domains.
+  name: CustomerOS Domains API
+  slug: customeros-domains-api
+- description: The Email Verification API from CustomerOS — 4 operation(s) for email verification.
+  name: CustomerOS Email Verification API
+  slug: customeros-email-verification-api
+- description: The Enrichment API API from CustomerOS — 3 operation(s) for enrichment api.
+  name: CustomerOS Enrichment API
+  slug: customeros-enrichment-api-api
+- description: The Flows API from CustomerOS — 18 operation(s) for flows.
+  name: CustomerOS Flows API
+  slug: customeros-flows-api
+- description: The IP Intelligence API from CustomerOS — 1 operation(s) for ip intelligence.
+  name: CustomerOS IP Intelligence API
+  slug: customeros-ip-intelligence-api
+- description: The Mailboxes API from CustomerOS — 1 operation(s) for mailboxes.
+  name: CustomerOS Mailboxes API
+  slug: customeros-mailboxes-api
+- description: The Outreach API from CustomerOS — 1 operation(s) for outreach.
+  name: CustomerOS Outreach API
+  slug: customeros-outreach-api
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -281,7 +302,7 @@ modified: '2026-08-13'
 name: CustomerOS
 nav: Providers
 network: true
-overview: 'CustomerOS publishes 3 APIs on the [APIs.io](https://apis.io/) network: REST API, Flow API, and GraphQL API. Tagged areas include CRM, Revenue, Go-To-Market, Lead Intelligence, and Visitor Identification.
+overview: 'CustomerOS publishes 10 APIs on the [APIs.io](https://apis.io/) network, including GraphQL API, Billing API, CustomerBASE API, and 7 more. Tagged areas include CRM, Revenue, Go-To-Market, Lead Intelligence, and Visitor Identification.
 
 
   CustomerOS''s developer surface includes documentation, getting-started guide, engineering blog, pricing, changelog, authentication, and 37 more developer resources.'
@@ -296,18 +317,23 @@ rate_limits:
   slug: customeros-rate-limits
 score:
   band: developing
-  composite: 49.1
-  delta: -0.8
+  composite: 48.2
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
-    contract_governance: 16.7
-    contract_quality: 49.9
+    contract_governance: 4.5
+    contract_quality: 52.2
     developer_ergonomics: 37.5
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 49.9
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -318,8 +344,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/screenshots/customeros-2026-06-20T175351.png
 security:

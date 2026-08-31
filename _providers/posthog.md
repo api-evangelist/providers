@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 927
   human_in_the_loop: 18
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1567
   slug: posthog-agentic-access
   summary_line: 1567 operations · 927 acting · 18 human-in-the-loop
-api_count: 139
+api_count: 1
 apis:
 - description: The PostHog Capture API allows developers to send events, identify users, and set user or group properties from any server or client. It is the primary ingestion endpoint for sending analytics data to
   name: PostHog Capture API
@@ -1254,6 +1254,10 @@ collections:
   name: PostHog API
   slug: open-posthog
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/posthog-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -6226,7 +6230,7 @@ overview: 'PostHog publishes 131 APIs on the [APIs.io](https://apis.io/) network
   The PostHog catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  PostHog''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, GitHub presence, signup flow, and 18 more developer resources.'
+  PostHog''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, GitHub presence, signup flow, and 19 more developer resources.'
 plans:
 - name: Posthog Plans Pricing
   plan_count: 4
@@ -6260,18 +6264,23 @@ rules:
   slug: posthog-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.5
-  delta: 1.2
+  composite: 50.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 72.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 13.6
     contract_quality: 60.3
     developer_ergonomics: 59.5
-    discoverability: 57.4
+    discoverability: 61.1
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 49.3
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -6279,8 +6288,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 131
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/posthog/refs/heads/main/screenshots/posthog-2026-06-20T192012.png
 security:

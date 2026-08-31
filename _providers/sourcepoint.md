@@ -32,28 +32,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
-api_count: 6
+  scored_at: '2026-08-30'
+api_count: 14
 apis:
-- description: REST API surfacing end-user consent operations under the GDPR using the IAB Transparency & Consent Framework (TCF v2.2). Supports retrieving end-user consent status and history by site, merging an end
-  name: Sourcepoint GDPR TCF API
-  slug: sourcepoint-gdpr-tcf-api
-- description: 'REST API exposing GDPR consent operations outside of the IAB TCF framework for organizations that need GDPR compliance with custom vendor lists. Operations include retrieving end-user consent status, '
-  name: Sourcepoint GDPR Standard API
-  slug: sourcepoint-gdpr-standard-api
-- description: REST API for U.S. Multi-State Privacy (USNAT) end-user consent handling, built on the IAB Global Privacy Platform (GPP) string. Supports retrieving end-user consent history, deleting consent status, o
-  name: Sourcepoint U.S. Multi-State Privacy API
-  slug: sourcepoint-usnat-multi-state-privacy-api
-- description: REST API for the Global Enterprise consent product, providing a single multi-regulation consent surface across global properties. Supports retrieving end-user consent history, deleting consent status,
-  name: Sourcepoint Global Enterprise API
-  slug: sourcepoint-global-enterprise-api
-- description: REST API for Universal Consent & Preferences and Marketing Preferences, letting organizations retrieve and delete an end-user's preferences history and read getUserPreferences on the web surface. Enab
-  name: Sourcepoint Preferences API
-  slug: sourcepoint-preferences-api
-- description: REST API exposing aggregated dashboard data for GDPR and U.S. Multi-State Privacy campaigns, including pageview and message data filtered by period for dashboard and BI integration. Powers the Sourcep
-  name: Sourcepoint Reporting API
-  slug: sourcepoint-reporting-api
-artifact_total: 35
+- description: The GDPR reporting API API from Sourcepoint — 2 operation(s) for gdpr reporting api.
+  name: Sourcepoint GDPR reporting API
+  slug: sourcepoint-gdpr-reporting-api-api
+- description: The GDPR Standard end-user consent status API from Sourcepoint — 2 operation(s) for gdpr standard end-user consent status.
+  name: Sourcepoint GDPR Standard end-user consent status API
+  slug: sourcepoint-gdpr-standard-end-user-consent-status-api
+- description: The GDPR Standard vendor list API from Sourcepoint — 2 operation(s) for gdpr standard vendor list.
+  name: Sourcepoint GDPR Standard vendor list API
+  slug: sourcepoint-gdpr-standard-vendor-list-api
+- description: The GDPR TCF end-user consent status API from Sourcepoint — 3 operation(s) for gdpr tcf end-user consent status.
+  name: Sourcepoint GDPR TCF end-user consent status API
+  slug: sourcepoint-gdpr-tcf-end-user-consent-status-api
+- description: The GDPR TCF vendor list API from Sourcepoint — 3 operation(s) for gdpr tcf vendor list.
+  name: Sourcepoint GDPR TCF vendor list API
+  slug: sourcepoint-gdpr-tcf-vendor-list-api
+- description: The Global Enterprise end-user consent status API from Sourcepoint — 2 operation(s) for global enterprise end-user consent status.
+  name: Sourcepoint Global Enterprise end-user consent status API
+  slug: sourcepoint-global-enterprise-end-user-consent-status-api
+- description: The Preferences end-user history API from Sourcepoint — 2 operation(s) for preferences end-user history.
+  name: Sourcepoint Preferences end-user history API
+  slug: sourcepoint-preferences-end-user-history-api
+- description: The U.S. Multi-State Privacy end-user consent status API from Sourcepoint — 3 operation(s) for u.s. multi-state privacy end-user consent status.
+  name: Sourcepoint U.S. Multi-State Privacy end-user consent status API
+  slug: sourcepoint-u-s-multi-state-privacy-end-user-consent-status-api
+- description: The U.S. Multi-State Privacy reporting API API from Sourcepoint — 2 operation(s) for u.s. multi-state privacy reporting api.
+  name: Sourcepoint U.S. Multi-State Privacy reporting API
+  slug: sourcepoint-u-s-multi-state-privacy-reporting-api-api
+artifact_total: 38
 collections:
 - collection_type: open
   name: Sourcepoint GDPR Standard API
@@ -77,6 +86,34 @@ collections:
   name: Sourcepoint U.S. Multi-State Privacy API
   slug: open-sourcepoint-usnat
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sourcepoint-gdpr-tcf-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sourcepoint-gdpr-standard-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sourcepoint-usnat-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sourcepoint-global-enterprise-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sourcepoint-preferences-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sourcepoint-reporting-gdpr-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sourcepoint-reporting-usnat-overlay.yaml
 - group: auth
   title: ''
   type: Authentication
@@ -386,10 +423,10 @@ modified: '2026-08-12'
 name: Sourcepoint
 nav: Providers
 network: true
-overview: 'Sourcepoint publishes 6 APIs on the [APIs.io](https://apis.io/) network, including GDPR TCF API, GDPR Standard API, U.S. Multi-State Privacy API, and 3 more. Tagged areas include Privacy, Consent Management, Consent Management Platform, CMP, and GDPR.
+overview: 'Sourcepoint publishes 9 APIs on the [APIs.io](https://apis.io/) network, including GDPR reporting API, GDPR Standard end-user consent status API, GDPR Standard vendor list API, and 6 more. Tagged areas include Privacy, Consent Management, Consent Management Platform, CMP, and GDPR.
 
 
-  Sourcepoint''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, engineering blog, product news, and 63 more developer resources.'
+  Sourcepoint''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, engineering blog, product news, and 70 more developer resources.'
 plans:
 - name: Sourcepoint Plans Pricing
   plan_count: 3
@@ -401,18 +438,23 @@ rate_limits:
   slug: sourcepoint-rate-limits
 score:
   band: strong
-  composite: 57.1
+  composite: 55.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 30.3
-    contract_quality: 45.8
+    contract_governance: 18.2
+    contract_quality: 45.7
     developer_ergonomics: 64.9
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 57.1
+  previous_composite: 55.6
   provenance:
     conformance: first-party
     contracts:
@@ -422,8 +464,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcepoint/refs/heads/main/screenshots/sourcepoint-2026-06-20T194225.png
 security:

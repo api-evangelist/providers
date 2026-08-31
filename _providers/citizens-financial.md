@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: citizens-financial-agentic-access
   summary_line: 4 operations
-api_count: 4
+api_count: 2
 apis:
 - description: The Citizens Pay API enables merchants and partners to integrate Citizens Pay point-of-sale financing into their applications and checkout experiences. Citizens Pay provides consumer financing solutio
   name: Citizens Pay API
@@ -77,6 +77,10 @@ collections:
   name: Citizens Bank Accounts Transactions API
   slug: open-citizens-financial-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/citizens-financial-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -148,7 +152,7 @@ overview: 'Citizens Financial publishes 3 APIs on the [APIs.io](https://apis.io/
   The Citizens Financial catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Citizens Financial''s developer surface includes authentication, developer portal, sandbox, support, and 8 more developer resources.'
+  Citizens Financial''s developer surface includes authentication, developer portal, sandbox, support, and 9 more developer resources.'
 plans:
 - name: Citizens Financial Plans Pricing
   plan_count: 2
@@ -177,18 +181,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.2
-  delta: 1.9
+  composite: 41.7
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 45.5
     contract_quality: 62.6
     developer_ergonomics: 42.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 45.5
     operational_transparency: 5.3
-  previous_composite: 40.3
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     contracts:
@@ -202,8 +211,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citizens-financial/refs/heads/main/screenshots/citizens-financial-2026-06-20T174412.png
 security:

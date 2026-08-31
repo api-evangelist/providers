@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -8,12 +8,12 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.5
-  scored_at: '2026-08-26'
+  score: 35.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 3
@@ -31,20 +31,8 @@ agentic_access:
   operation_count: 32
   slug: microsoft-azure-databricks-agentic-access
   summary_line: 32 operations · 20 acting · 3 human-in-the-loop
-api_count: 39
+api_count: 1
 apis:
-- description: Core REST API for managing Azure Databricks workspaces, clusters, jobs, notebooks, and other resources programmatically.
-  name: Azure Databricks REST API
-  slug: azure-databricks-rest-api
-- description: Manage Databricks clusters for running Spark jobs including creating, starting, editing, listing, terminating, and deleting clusters.
-  name: Clusters API
-  slug: clusters-api
-- description: Create, manage, and run jobs on Databricks clusters including scheduling, listing runs, and managing job permissions.
-  name: Jobs API
-  slug: jobs-api
-- description: Manage notebooks, folders, and other workspace objects including listing, importing, exporting, and deleting workspace items.
-  name: Workspace API
-  slug: workspace-api
 - description: Access Databricks File System (DBFS) for file operations including uploading, downloading, listing, and deleting files and directories.
   name: DBFS API
   slug: dbfs-api
@@ -150,6 +138,15 @@ apis:
 - description: Manage users, groups, and service principals across the Databricks account using SCIM 2.0 protocol.
   name: Account SCIM API
   slug: account-scim-api
+- description: Manage Databricks clusters for running Apache Spark workloads. Create, start, restart, resize, terminate, and permanently delete clusters.
+  name: Azure Databricks Clusters API
+  slug: microsoft-azure-databricks-clusters-api
+- description: Create and manage jobs to run notebooks, JARs, Spark submit, Python scripts, and pipeline tasks on Databricks clusters. Schedule recurring jobs, trigger runs, and monitor execution.
+  name: Azure Databricks Jobs API
+  slug: microsoft-azure-databricks-jobs-api
+- description: Manage workspace objects such as notebooks, folders, files, and repos. Import, export, list, and delete workspace objects.
+  name: Azure Databricks Workspace API
+  slug: microsoft-azure-databricks-workspace-api
 arazzos:
 - description: Confirm a notebook, export its content, and re-import it to a backup path.
   name: Azure Databricks Back Up a Notebook by Export and Re-import
@@ -211,7 +208,7 @@ arazzos:
 - description: Partially update a job's settings, then trigger and poll a fresh run.
   name: Azure Databricks Update a Job and Re-run It
   slug: azure-databricks-update-job-and-rerun-workflow
-artifact_total: 231
+artifact_total: 230
 collections:
 - collection_type: postman
   name: Azure Databricks REST API
@@ -863,7 +860,7 @@ modified: '2026-05-19'
 name: Azure Databricks
 nav: Providers
 network: true
-overview: 'Azure Databricks publishes 4 APIs on the [APIs.io](https://apis.io/) network, including REST API, Clusters API, Jobs API, and 1 more. Tagged areas include Analytics, Apache Spark, Big Data, Data Engineering, and Machine-Learning.
+overview: 'Azure Databricks publishes 3 APIs on the [APIs.io](https://apis.io/) network: Clusters API, Jobs API, and Workspace API. Tagged areas include Analytics, Apache Spark, Big Data, Data Engineering, and Machine-Learning.
 
 
   The Azure Databricks catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -928,18 +925,26 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 58.4
-  delta: 1.9
+  composite: 63.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 40.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 3.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 69.7
-    contract_quality: 64.6
+    contract_quality: 68.7
     developer_ergonomics: 76.2
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 69.7
     operational_transparency: 55.3
-  previous_composite: 56.5
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     contracts:
@@ -947,8 +952,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/screenshots/microsoft-azure-databricks-2026-06-20T185410.png
 security:

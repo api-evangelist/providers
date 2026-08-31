@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,39 +42,63 @@ agentic_access:
   operation_count: 4
   slug: keycorp-agentic-access
   summary_line: 4 operations
-api_count: 10
+api_count: 9
 apis:
-- description: The Commercial Accounts Reporting API delivers real-time and historical account-level information for client-authorized commercial KeyBank accounts. It exposes operations to retrieve full account deta
-  name: KeyBank Account Information API
-  slug: account-information-api
-- description: The ACH Origination API initiates secure, automated ACH fund transfers from commercial KeyBank accounts across the full range of Standard Entry Class codes — CCD, CTX, PPD, TEL, and WEB — for both sen
-  name: KeyBank ACH Origination API
-  slug: ach-origination-api
-- description: 'The Wire Transfer API, delivered through KeyBank''s combined RTP and Wire Payments service, facilitates high-value domestic wire payments from commercial accounts. It provides operations to initiate a '
-  name: KeyBank Wire Transfer API
-  slug: wire-transfer-api
-- description: The RTP Send Payment API initiates instant, irrevocable payments over The Clearing House Real-Time Payments (RTP) network from commercial KeyBank accounts. Sharing KeyBank's combined RTP and Wire Paym
-  name: KeyBank RTP Send Payment API
-  slug: rtp-send-payment-api
-- description: The Account Validation v2 API verifies account details and ownership before commercial payments and transfers are initiated, matching the supplied account and owner information against the National Sh
-  name: KeyBank Account Validation API
-  slug: account-validation-api
-- description: The ACH Inquiry API lets commercial clients check the current status and detail of ACH transactions posted to their KeyBank accounts. It provides operations to list ACH transactions, retrieve full det
-  name: KeyBank ACH Inquiry API
-  slug: ach-inquiry-api
-- description: 'The Wire Inquiry API tracks the status and delivery of wire transfers associated with commercial KeyBank accounts. It exposes operations to list wire transactions, retrieve detailed information for a '
-  name: KeyBank Wire Inquiry API
-  slug: wire-inquiry-api
-- description: The RTP Inquiry API confirms the delivery and status of Real-Time Payments sent through KeyBank on The Clearing House RTP network. It provides operations to list RTP transactions, retrieve full detail
-  name: KeyBank RTP Inquiry API
-  slug: rtp-inquiry-api
-- description: The Check Services API manages stop payments and check image retrieval for commercial KeyBank accounts. It exposes operations to place a stop payment, list and retrieve check images, and a health chec
-  name: KeyBank Check Services API
-  slug: check-services-api
-- description: The KeyBank Webhooks service delivers real-time payment event notifications to subscribed commercial client applications for ACH, Wire, and RTP alerts. It defines client-hosted callback endpoints (ale
-  name: KeyBank Webhooks
-  slug: webhooks
-artifact_total: 28
+- description: The Account Information API from KeyCorp — 2 operation(s) for account information.
+  name: KeyCorp Account Information API
+  slug: keycorp-account-information-api
+- description: The Account Transactions API from KeyCorp — 2 operation(s) for account transactions.
+  name: KeyCorp Account Transactions API
+  slug: keycorp-account-transactions-api
+- description: The Accounts API from KeyCorp — 1 operation(s) for accounts.
+  name: KeyCorp Accounts API
+  slug: keycorp-accounts-api
+- description: The ACH API from KeyCorp — 1 operation(s) for ach.
+  name: KeyCorp ACH API
+  slug: keycorp-ach-api
+- description: The ACH Payment Origination API from KeyCorp — 6 operation(s) for ach payment origination.
+  name: KeyCorp ACH Payment Origination API
+  slug: keycorp-ach-payment-origination-api
+- description: The ACH Payment Request Inquiry API from KeyCorp — 2 operation(s) for ach payment request inquiry.
+  name: KeyCorp ACH Payment Request Inquiry API
+  slug: keycorp-ach-payment-request-inquiry-api
+- description: ACH Inquiry functions to list and retrieve ACH transaction details
+  name: KeyCorp ACH Transactions API
+  slug: keycorp-ach-transactions-api
+- description: The HealthCheck API from KeyCorp — 7 operation(s) for healthcheck.
+  name: KeyCorp Health Check API
+  slug: keycorp-healthcheck-api
+- description: List check images
+  name: KeyCorp Image Check API
+  slug: keycorp-imagecheck-api
+- description: Send a payment.
+  name: KeyCorp Initiate API
+  slug: keycorp-initiate-api
+- description: Look up a RTP participating banks.
+  name: KeyCorp Participant API
+  slug: keycorp-participant-api
+- description: RTP functions to list and retrieve real-time payment details
+  name: KeyCorp RTP API
+  slug: keycorp-rtp-api
+- description: Place new stop payments
+  name: KeyCorp Stop Payments API
+  slug: keycorp-stoppayments-api
+- description: The Undo ACH Payment Request API from KeyCorp — 1 operation(s) for undo ach payment request.
+  name: KeyCorp Undo ACH Payment Request API
+  slug: keycorp-undo-ach-payment-request-api
+- description: Perform validation checks for a payment transaction.
+  name: KeyCorp Validate API
+  slug: keycorp-validate-api
+- description: Wire Inquiry functions to list wires and retrieve wire details
+  name: KeyCorp Wire API
+  slug: keycorp-wire-api
+- description: The Wire/RTP v1 API from KeyCorp — 1 operation(s) for wire/rtp v1.
+  name: KeyCorp Wire/RTP v1 API
+  slug: keycorp-wire-rtp-v1-api
+- description: The Wire/RTP v2 API from KeyCorp — 1 operation(s) for wire/rtp v2.
+  name: KeyCorp Wire/RTP v2 API
+  slug: keycorp-wire-rtp-v2-api
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Keycorp Payment Alerts Webhooks
@@ -111,6 +135,10 @@ collections:
   name: KeyBank Commercial Banking APIs
   slug: open-keycorp
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/keycorp-capability-edges.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -231,13 +259,13 @@ modified: '2026-07-23'
 name: KeyCorp
 nav: Providers
 network: true
-overview: 'KeyCorp publishes 10 APIs on the [APIs.io](https://apis.io/) network, including KeyBank Account Information API, KeyBank ACH Origination API, KeyBank Wire Transfer API, and 7 more. Tagged areas include Banking, Commercial Banking, Financial-Services, Fortune 500, and Payments.
+overview: 'KeyCorp publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Account Transactions API, Accounts API, and 15 more. Tagged areas include Banking, Commercial Banking, Financial-Services, Fortune 500, and Payments.
 
 
   The KeyCorp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  KeyCorp''s developer surface includes getting-started guide, signup flow, authentication, sandbox, documentation, support, and 20 more developer resources.'
+  KeyCorp''s developer surface includes getting-started guide, signup flow, authentication, sandbox, documentation, support, and 21 more developer resources.'
 plans:
 - name: Keycorp Plans Pricing
   plan_count: 1
@@ -265,18 +293,23 @@ rate_limits:
   slug: keycorp-rate-limits
 score:
   band: developing
-  composite: 44.8
+  composite: 44.5
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 16.7
-    contract_quality: 66.6
+    contract_governance: 4.5
+    contract_quality: 67.6
     developer_ergonomics: 47.0
-    discoverability: 72.2
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 44.8
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -293,8 +326,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 34.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/screenshots/keycorp-2026-06-20T184017.png
 security:

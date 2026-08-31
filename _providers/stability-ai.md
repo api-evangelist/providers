@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 20
   slug: stability-ai-agentic-access
   summary_line: 20 operations · 18 acting · 3 human-in-the-loop
-api_count: 18
+api_count: 6
 apis:
 - description: Generate textured 3D mesh assets from single input images using the Stable Fast 3D model.
   name: Stability AI 3D Generation API
@@ -474,6 +474,11 @@ rules:
 score:
   band: developing
   composite: 43.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 47.4
@@ -492,8 +497,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stability-ai/refs/heads/main/screenshots/stability-ai-2026-06-20T194438.png
 security:

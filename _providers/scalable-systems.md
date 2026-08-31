@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1
   slug: scalable-systems-agentic-access
   summary_line: 1 operation · 1 acting · 1 human-in-the-loop
-api_count: 7
+api_count: 1
 apis:
 - description: AWS Auto Scaling monitors applications and automatically adjusts capacity across multiple AWS resources including EC2, ECS, Lambda, DynamoDB, and Aurora. The API enables defining scaling policies, tar
   name: AWS Auto Scaling API
@@ -169,7 +169,7 @@ modified: '2026-05-02'
 name: Scalable Systems
 nav: Providers
 network: true
-overview: 'Scalable Systems publishes 1 API on the [APIs.io](https://apis.io/) network: ApplicationAutoScaling API. Tagged areas include Auto-Scaling, Caching, Cloud Infrastructure, Distributed Systems, and High Availability.
+overview: 'Scalable Systems publishes 1 API on the [APIs.io](https://apis.io/) network: ApplicationAutoScaling API. Tagged areas include Auto Scaling, Caching, Cloud Infrastructure, Distributed Systems, and High Availability.
 
 
   The Scalable Systems catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -198,18 +198,23 @@ rules:
   slug: scalable-systems-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.1
-  delta: 2.6
+  composite: 34.6
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 57.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 25.0
     contract_quality: 66.0
     developer_ergonomics: 21.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 25.0
     operational_transparency: 13.2
-  previous_composite: 32.5
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -217,8 +222,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-systems/refs/heads/main/screenshots/scalable-systems-2026-06-20T193500.png
 security:
@@ -236,7 +241,7 @@ security:
   summary_line: Hackerone · security.txt · contact published
 slug: scalable-systems
 tags:
-- Auto-Scaling
+- Auto Scaling
 - Caching
 - Cloud Infrastructure
 - Distributed Systems

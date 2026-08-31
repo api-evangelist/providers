@@ -23,33 +23,118 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
-- description: Project-level operations for Finalcad One construction projects — project details and settings, project libraries, members and roles, locations (folders, plans, IFC/RVT upload), discussion groups, com
-  name: Finalcad One Project API
-  slug: finalcad-one-project-api
-- description: Organization-level administration of a Finalcad One Enterprise tenant — workspaces, members and roles, the observation status, trade, common-observation, priority and form-template libraries, form and
-  name: Finalcad One Organization Management API
-  slug: finalcad-one-organization-api
-- description: Media upload and retrieval for the Finalcad One platform — single-shot upload for files up to 5 MB, a four-step chunked upload (init, append, terminate, abort) above that, media resource lookup and do
-  name: Finalcad One Medias API
-  slug: finalcad-one-medias-api
-- description: 'Webhook subscription management for the Finalcad One platform — list subscribable event codes, then create, read, update and delete hooks that POST to a client URL when meetings, observations, forms, '
-  name: Finalcad One Webhooks API
-  slug: finalcad-one-webhooks-api
-- description: Read-only Finalcad reference libraries — module colors, module icons, module suggestions, application languages and time zones — that must be resolved before creating content in an organization or pro
-  name: Finalcad One Libraries API
-  slug: finalcad-one-libraries-api
-- description: Authentication surface of the Finalcad One API — the legacy user-token exchange and the connected-user lookup. Current integrations authenticate with an organization API key in X-API-Key plus an Autho
-  name: Finalcad One Authentication API
-  slug: finalcad-one-authentication-api
-artifact_total: 11
+- description: The Authentication API from Finalcad — 2 operation(s) for authentication.
+  name: Finalcad Authentication API
+  slug: finalcad-authentication-api
+- description: The Chunk Upload API from Finalcad — 4 operation(s) for chunk upload.
+  name: Finalcad Chunk Upload API
+  slug: finalcad-chunk-upload-api
+- description: The Companies API from Finalcad — 4 operation(s) for companies.
+  name: Finalcad Companies API
+  slug: finalcad-companies-api
+- description: The Datasets API from Finalcad — 3 operation(s) for datasets.
+  name: Finalcad Datasets API
+  slug: finalcad-datasets-api
+- description: The Discussion groups API from Finalcad — 6 operation(s) for discussion groups.
+  name: Finalcad Discussion groups API
+  slug: finalcad-discussion-groups-api
+- description: The Documents API from Finalcad — 3 operation(s) for documents.
+  name: Finalcad Documents API
+  slug: finalcad-documents-api
+- description: The Exports API from Finalcad — 5 operation(s) for exports.
+  name: Finalcad Exports API
+  slug: finalcad-exports-api
+- description: The Forms API from Finalcad — 11 operation(s) for forms.
+  name: Finalcad Forms API
+  slug: finalcad-forms-api
+- description: The Languages API from Finalcad — 1 operation(s) for languages.
+  name: Finalcad Languages API
+  slug: finalcad-languages-api
+- description: The Libraries API from Finalcad — 19 operation(s) for libraries.
+  name: Finalcad Libraries API
+  slug: finalcad-libraries-api
+- description: The Locations API from Finalcad — 7 operation(s) for locations.
+  name: Finalcad Locations API
+  slug: finalcad-locations-api
+- description: The Medias API from Finalcad — 3 operation(s) for medias.
+  name: Finalcad Medias API
+  slug: finalcad-medias-api
+- description: The Medias handeling API from Finalcad — 6 operation(s) for medias handeling.
+  name: Finalcad Medias handeling API
+  slug: finalcad-medias-handeling-api
+- description: The Meetings API from Finalcad — 2 operation(s) for meetings.
+  name: Finalcad Meetings API
+  slug: finalcad-meetings-api
+- description: The Members API from Finalcad — 7 operation(s) for members.
+  name: Finalcad Members API
+  slug: finalcad-members-api
+- description: The Modules API from Finalcad — 20 operation(s) for modules.
+  name: Finalcad Modules API
+  slug: finalcad-modules-api
+- description: The Observations API from Finalcad — 6 operation(s) for observations.
+  name: Finalcad Observations API
+  slug: finalcad-observations-api
+- description: The Phases API from Finalcad — 3 operation(s) for phases.
+  name: Finalcad Phases API
+  slug: finalcad-phases-api
+- description: The Project details API from Finalcad — 5 operation(s) for project details.
+  name: Finalcad Project  details API
+  slug: finalcad-project-details-api
+- description: The Project libraries API from Finalcad — 7 operation(s) for project libraries.
+  name: Finalcad Project libraries API
+  slug: finalcad-project-libraries-api
+- description: The Project members management API from Finalcad — 4 operation(s) for project members management.
+  name: Finalcad Project members management API
+  slug: finalcad-project-members-management-api
+- description: The Referential API from Finalcad — 4 operation(s) for referential.
+  name: Finalcad Referential API
+  slug: finalcad-referential-api
+- description: The User organizations API from Finalcad — 1 operation(s) for user organizations.
+  name: Finalcad User organizations API
+  slug: finalcad-user-organizations-api
+- description: The Webhooks API from Finalcad — 5 operation(s) for webhooks.
+  name: Finalcad Webhooks API
+  slug: finalcad-webhooks-api
+- description: The Workspaces API from Finalcad — 17 operation(s) for workspaces.
+  name: Finalcad Workspaces API
+  slug: finalcad-workspaces-api
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Finalcad Webhooks
   slug: finalcad-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/finalcad-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/finalcad-projects-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/finalcad-organizations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/finalcad-medias-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/finalcad-webhooks-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/finalcad-libraries-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/finalcad-authentication-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -179,13 +264,13 @@ modified: '2026-08-17'
 name: Finalcad
 nav: Providers
 network: true
-overview: 'Finalcad publishes 6 APIs on the [APIs.io](https://apis.io/) network, including One Project API, One Organization Management API, One Medias API, and 3 more. Tagged areas include Company, Construction, Construction Technology, Field Management, and Project Management.
+overview: 'Finalcad publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Chunk Upload API, Companies API, and 22 more. Tagged areas include Company, Construction, Construction Technology, Field Management, and Project Management.
 
 
   The Finalcad catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Finalcad''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 23 more developer resources.'
+  Finalcad''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 30 more developer resources.'
 plans:
 - name: Finalcad Plans Pricing
   plan_count: 0
@@ -197,18 +282,23 @@ rate_limits:
   slug: finalcad-rate-limits
 score:
   band: developing
-  composite: 52.0
+  composite: 50.7
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
-    contract_quality: 69.7
+    contract_governance: 4.5
+    contract_quality: 70.2
     developer_ergonomics: 70.8
     discoverability: 74.1
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 52.0
+  previous_composite: 50.7
   provenance:
     conformance: derived
     contracts:
@@ -218,8 +308,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

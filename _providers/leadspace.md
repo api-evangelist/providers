@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 9
   slug: leadspace-agentic-access
   summary_line: 9 operations · 6 acting
-api_count: 6
+api_count: 3
 apis:
 - description: OAuth 2.0 token issuance and refresh
   name: Leadspace Authorization API
@@ -296,19 +296,24 @@ scopes:
   slug: leadspace-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 67.0
+  band: strong
+  composite: 64.5
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 69.7
     developer_ergonomics: 58.9
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 74.1
+    governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 67.0
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -319,8 +324,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/screenshots/leadspace-2026-07-25T224715.png
 security:
@@ -349,7 +354,7 @@ tags:
 - Data Enrichment
 - Intent Data
 - Sales Intelligence
-- Account Based Marketing
+- Account-Based Marketing
 - Identity Resolution
 - Firmographics
 - Lead Scoring

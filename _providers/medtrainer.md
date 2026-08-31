@@ -23,13 +23,28 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: The MedTrainer Public API allows external integrations to search and manage core directory resources such as locations, divisions, departments, positions, practitioner categories and practitioners. Mo
-  name: MedTrainer Public API
-  slug: medtrainer-public-api
-artifact_total: 8
+- description: Public department lookup endpoints
+  name: MedTrainer Departments API
+  slug: medtrainer-departments-api
+- description: Public division lookup and mutation endpoints
+  name: MedTrainer Divisions API
+  slug: medtrainer-divisions-api
+- description: Public location lookup and mutation endpoints
+  name: MedTrainer Locations API
+  slug: medtrainer-locations-api
+- description: Public position lookup endpoints
+  name: MedTrainer Positions API
+  slug: medtrainer-positions-api
+- description: Public practitioner category lookup endpoints
+  name: MedTrainer Practitioner Categories API
+  slug: medtrainer-practitioner-categories-api
+- description: Public practitioner lookup, search, and mutation endpoints
+  name: MedTrainer Practitioners API
+  slug: medtrainer-practitioners-api
+artifact_total: 13
 common:
 - group: auth
   title: ''
@@ -180,7 +195,7 @@ modified: '2026-08-25'
 name: MedTrainer
 nav: Providers
 network: true
-overview: 'MedTrainer publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Healthcare, Compliance, Credentialing, and Learning Management.
+overview: 'MedTrainer publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Departments API, Divisions API, Locations API, and 3 more. Tagged areas include Company, Healthcare, Compliance, Credentialing, and Learning Management.
 
 
   MedTrainer''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
@@ -200,16 +215,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 63.4
+  composite: 60.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 55.8
     developer_ergonomics: 58.9
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 10.5
+  previous_composite: 61.4
   provenance:
     conformance: first-party
     contracts:
@@ -225,8 +247,9 @@ score:
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Medtrainer Authentication
@@ -252,6 +275,6 @@ tags:
 - HL7
 - Training
 - Risk Management
-- SaaS
+- Software-as-a-Service
 website: https://medtrainer.com/
 ---

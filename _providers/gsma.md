@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: derived
     idempotency: documented
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.0
-  scored_at: '2026-08-26'
+  score: 37.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -33,61 +33,100 @@ agentic_access:
   summary_line: 107 operations · 58 acting
 api_count: 18
 apis:
-- description: 'The GSMA Mobile Money API is a harmonised REST/JSON specification for mobile money platforms, developed by the GSMA with the mobile money industry and published openly at developer.mobilemoneyapi.io. '
-  name: GSMA Mobile Money API
-  slug: gsma-mobile-money-api
-- description: GSMA Call Forwarding Signal from GSMA — 2 path(s) described in OpenAPI.
-  name: GSMA Call Forwarding Signal
-  slug: gsma-open-gateway-call-forwarding-signal-openapi
-- description: GSMA Carrier Billing from GSMA — 6 path(s) described in OpenAPI.
-  name: GSMA Carrier Billing
-  slug: gsma-open-gateway-carrier-billing-openapi
-- description: GSMA Carrier Billing Refund from GSMA — 3 path(s) described in OpenAPI.
-  name: GSMA Carrier Billing Refund
-  slug: gsma-open-gateway-carrier-billing-refund-openapi
-- description: GSMA CAMARA Mobile Device Identifier from GSMA — 2 path(s) described in OpenAPI.
-  name: GSMA CAMARA Mobile Device Identifier
-  slug: gsma-open-gateway-device-identifier-openapi
-- description: GSMA Device Location Retrieval from GSMA — 1 path(s) described in OpenAPI.
-  name: GSMA Device Location Retrieval
-  slug: gsma-open-gateway-device-location-retrieval-openapi
-- description: GSMA Device Location Verification from GSMA — 1 path(s) described in OpenAPI.
-  name: GSMA Device Location Verification
-  slug: gsma-open-gateway-device-location-verification-openapi
-- description: GSMA Device Reachability Status from GSMA — 1 path(s) described in OpenAPI.
-  name: GSMA Device Reachability Status
-  slug: gsma-open-gateway-device-reachability-status-openapi
-- description: GSMA Device Roaming Status from GSMA — 1 path(s) described in OpenAPI.
-  name: GSMA Device Roaming Status
-  slug: gsma-open-gateway-device-roaming-status-openapi
-- description: GSMA Device Swap from GSMA — 2 path(s) described in OpenAPI.
-  name: GSMA Device Swap
-  slug: gsma-open-gateway-device-swap-openapi
-- description: GSMA Home Devices QoD from GSMA — 1 path(s) described in OpenAPI.
-  name: GSMA Home Devices QoD
-  slug: gsma-open-gateway-home-devices-quality-on-demand-openapi
-- description: GSMA Know Your Customer Match from GSMA — 1 path(s) described in OpenAPI.
-  name: GSMA Know Your Customer Match
-  slug: gsma-open-gateway-know-your-customer-openapi
-- description: GSMA Number Verification from GSMA — 2 path(s) described in OpenAPI.
-  name: GSMA Number Verification
-  slug: gsma-open-gateway-number-verification-openapi
-- description: GSMA One Time Password SMS from GSMA — 2 path(s) described in OpenAPI.
-  name: GSMA One Time Password SMS
-  slug: gsma-open-gateway-otp-validation-openapi
-- description: GSMA Population Density Data from GSMA — 1 path(s) described in OpenAPI.
-  name: GSMA Population Density Data
-  slug: gsma-open-gateway-population-density-data-openapi
-- description: GSMA Quality-On-Demand from GSMA — 4 path(s) described in OpenAPI.
-  name: GSMA Quality-On-Demand
-  slug: gsma-open-gateway-quality-on-demand-openapi
-- description: GSMA SIM Swap from GSMA — 2 path(s) described in OpenAPI.
-  name: GSMA SIM Swap
-  slug: gsma-open-gateway-sim-swap-openapi
-- description: GSMA Simple Edge Discovery from GSMA — 1 path(s) described in OpenAPI.
-  name: GSMA Simple Edge Discovery
-  slug: gsma-open-gateway-simple-edge-discovery-openapi
-artifact_total: 43
+- description: The **Accounts** APIs are used to support a range of operations on a financial account resource and associated resources. Types of accounts include mobile wallets, financial institution accounts and u
+  name: GSMA Accounts API
+  slug: gsma-accounts-api
+- description: The **Authorisation** Codes APIs allow a payer to generate a payment code which when presented to the payee, can be redeemed for an amount associated with the code. Authorisation codes can be set to e
+  name: GSMA Authorisation Codes API
+  slug: gsma-authorisation-codes-api
+- description: 'The **Bills** APIs allow a mobile money provider to allow customers to retrieve and pay bills. Specific use cases include: - Retrieving information on service providers (bill companies) that accept bi'
+  name: GSMA Bills API
+  slug: gsma-bills-api
+- description: Provides information on Call Forwarding settings for the provided phone number (PhoneNumber).
+  name: GSMA Call Forwarding information retrieval API
+  slug: gsma-call-forwarding-information-retrieval-api
+- description: Validate if the SIM of the end-user has been installed in a different device during a past period
+  name: GSMA Check Device Swap API
+  slug: gsma-check-device-swap-api
+- description: operation to perform a sim swap check for a past period
+  name: GSMA Check SIM Swap API
+  slug: gsma-check-sim-swap-api
+- description: The **Debit Mandates** APIs allow a mobile money customer to provide prior approval for payments to be taken from their account by a requesting payee. If the amount limit field is not supplied, the pa
+  name: GSMA Debit Mandates API
+  slug: gsma-debit-mandates-api
+- description: Operations to get the current reachability status of a device
+  name: GSMA Device reachability status API
+  slug: gsma-device-reachability-status-api
+- description: Find the closest Edge Cloud Zone to the user device.
+  name: GSMA Discovery API
+  slug: gsma-discovery-api
+- description: Retrieve details about the device being used by a mobile subscriber
+  name: GSMA Get Device Identifiers API
+  slug: gsma-get-device-identifiers-api
+- description: QoD control operations for home devices
+  name: GSMA Home Devices QoD API
+  slug: gsma-home-devices-qod-api
+- description: The **Links** APIs are used to establish a link between two separate accounts on the client and provider systems. The API can be used for example to link a mobile wallet account to a Microfinance Inst
+  name: GSMA Links API
+  slug: gsma-links-api
+- description: Retrieve the location of a device
+  name: GSMA Location Retrieval API
+  slug: gsma-location-retrieval-api
+- description: Verification of the location of a device
+  name: GSMA Location Verification API
+  slug: gsma-location-verification-api
+- description: Operations to match a customer identity against the account data bound to their phone number.
+  name: GSMA Match API
+  slug: gsma-match-api
+- description: Operations to manage One Step Payment procedure
+  name: GSMA One Step Payment API
+  slug: gsma-one-step-payment-api
+- description: API operations to manage OTP codes
+  name: GSMA OTP Management API
+  slug: gsma-otp-management-api
+- description: Operations to obtain information about payments
+  name: GSMA Payment API
+  slug: gsma-payment-api
+- description: API operation to return the phone number associated to the access token.
+  name: GSMA Phone Number Share API
+  slug: gsma-phone-number-share-api
+- description: API operation to verify a phone number received as input. It can be received either in plain text or hashed format.
+  name: GSMA Phone Number Verify API
+  slug: gsma-phone-number-verify-api
+- description: Operations to retrieve population density information.
+  name: GSMA Population Density Data API
+  slug: gsma-population-density-data-api
+- description: Manage QoS sessions
+  name: GSMA QoS Sessions API
+  slug: gsma-qos-sessions-api
+- description: The **Quotations** APIs are used to obtain one or multiple quotes for a mobile money customer who wishes to transfer money. The creation of a quote involves returning any fees that will be levied on t
+  name: GSMA Quotations API
+  slug: gsma-quotations-api
+- description: Operations to manage Refund procedure
+  name: GSMA Refund API
+  slug: gsma-refund-api
+- description: Receive the last date in which the device of the end-user was swapped
+  name: GSMA Retrieve Device Swap Date API
+  slug: gsma-retrieve-device-swap-date-api
+- description: operation to retrieve latest SIM swap change date
+  name: GSMA Retrieve SIM Swap Date API
+  slug: gsma-retrieve-sim-swap-date-api
+- description: Operation to get device roaming status and country information (if roaming) synchronously
+  name: GSMA Roaming status retrieval API
+  slug: gsma-roaming-status-retrieval-api
+- description: 'Supporting APIs consist of the following: - **Heartbeat API:** Used for monitoring purposes and establishes whether the system of an API provider is in a state that enables a client to submit a reques'
+  name: GSMA Supporting API
+  slug: gsma-supporting-api
+- description: The **Transactions** APIs are used to support mobile money financial transaction use cases. Transactions are used for a wide range of use cases including merchant payments, international transfers, do
+  name: GSMA Transactions API
+  slug: gsma-transactions-api
+- description: Operations to manage Two Step Payment procedure
+  name: GSMA Two Step Payment API
+  slug: gsma-two-step-payment-api
+- description: Provides information on Unconditional Call Forwarding settings for the provided phone number (PhoneNumber)
+  name: GSMA Unconditional Call Forwarding information retrieval API
+  slug: gsma-unconditional-call-forwarding-information-retrieval-api
+artifact_total: 56
 asyncapis:
 - description: ''
   name: Gsma Webhooks
@@ -148,6 +187,14 @@ collections:
   name: Simple Edge Discovery
   slug: open-gsma-open-gateway-simple-edge-discovery
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gsma-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/gsma-mobile-money-api-overlay.yaml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -377,13 +424,13 @@ modified: '2026-07-25'
 name: GSMA
 nav: Providers
 network: true
-overview: 'GSMA publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Mobile Money API, Call Forwarding Signal, Carrier Billing, and 15 more. Tagged areas include Telecommunications, United Kingdom, Standards, Trade Association, and Network APIs.
+overview: 'GSMA publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authorisation Codes API, Bills API, and 28 more. Tagged areas include Telecommunications, United Kingdom, Standards, Trade Association, and Network APIs.
 
 
   The GSMA catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  GSMA''s developer surface includes authentication, documentation, sandbox, YouTube channel, changelog, API reference, getting-started guide, and 47 more developer resources.'
+  GSMA''s developer surface includes authentication, documentation, sandbox, YouTube channel, changelog, API reference, getting-started guide, and 49 more developer resources.'
 random_paper: 4
 scopes:
 - name: Gsma Scopes
@@ -391,19 +438,24 @@ scopes:
   slug: gsma-scopes
   summary_line: 30 scopes
 score:
-  band: strong
-  composite: 58.7
-  delta: -1.1
+  band: developing
+  composite: 54.2
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.9
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 16.7
-    contract_quality: 61.4
+    contract_governance: 4.5
+    contract_quality: 59.5
     developer_ergonomics: 73.2
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 59.3
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 59.8
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -420,8 +472,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 80.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gsma/refs/heads/main/screenshots/gsma-2026-08-07T165856.png
 security:

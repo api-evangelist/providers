@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 3
   slug: zettle-agentic-access
   summary_line: 3 operations
-api_count: 8
+api_count: 1
 apis:
 - description: OAuth 2.0 authentication and authorisation for Zettle APIs. Supports authorisation code grant with PKCE for mobile and partner-hosted apps.
   name: Zettle OAuth API
@@ -177,7 +177,7 @@ modified: 2026-06-13
 name: Zettle
 nav: Providers
 network: true
-overview: 'Zettle publishes 2 APIs on the [APIs.io](https://apis.io/) network: accounts API and payout API. Tagged areas include Point-of-Sale, Payments, Inventory, Finance, and PayPal.
+overview: 'Zettle publishes 2 APIs on the [APIs.io](https://apis.io/) network: accounts API and payout API. Tagged areas include Point-of-Sale, POS, Payments, Inventory, and Finance.
 
 
   The Zettle catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -211,18 +211,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 45.8
-  delta: 1.4
+  composite: 45.2
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 61.2
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 44.4
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     contracts:
@@ -236,8 +241,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/screenshots/zettle-2026-06-20T201853.png
 security:
@@ -252,6 +257,7 @@ security:
 slug: zettle
 tags:
 - Point-of-Sale
+- POS
 - Payments
 - Inventory
 - Finance

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -42,17 +42,113 @@ agentic_access:
   operation_count: 137
   slug: workramp-agentic-access
   summary_line: 137 operations · 55 acting
-api_count: 1
+api_count: 2
 apis:
-- description: 'REST API for the Confirm Learn:Up and Academy platform (formerly WorkRamp): manage users, groups and custom attributes, guides/courses, paths, challenges, SCORM courses and assignments, resources, eve'
-  name: WorkRamp API
-  slug: workramp-api
-artifact_total: 10
+- description: The Academies API from WorkRamp — 48 operation(s) for academies.
+  name: WorkRamp Academies API
+  slug: workramp-academies-api
+- description: The Api Settings API from WorkRamp — 1 operation(s) for api settings.
+  name: WorkRamp Api Settings API
+  slug: workramp-api-settings-api
+- description: The Assignments API from WorkRamp — 3 operation(s) for assignments.
+  name: WorkRamp Assignments API
+  slug: workramp-assignments-api
+- description: The Attributes API from WorkRamp — 2 operation(s) for attributes.
+  name: WorkRamp Attributes API
+  slug: workramp-attributes-api
+- description: The Certifications API from WorkRamp — 2 operation(s) for certifications.
+  name: WorkRamp Certifications API
+  slug: workramp-certifications-api
+- description: The Challenge API from WorkRamp — 1 operation(s) for challenge.
+  name: WorkRamp Challenge API
+  slug: workramp-challenge-api
+- description: The Content Catalog API from WorkRamp — 1 operation(s) for content catalog.
+  name: WorkRamp Content Catalog API
+  slug: workramp-content-catalog-api
+- description: The Copy Content API from WorkRamp — 1 operation(s) for copy content.
+  name: WorkRamp Copy Content API
+  slug: workramp-copy-content-api
+- description: The Events API from WorkRamp — 4 operation(s) for events.
+  name: WorkRamp Events API
+  slug: workramp-events-api
+- description: The Groups API from WorkRamp — 4 operation(s) for groups.
+  name: WorkRamp Groups API
+  slug: workramp-groups-api
+- description: The Guide Assignments API from WorkRamp — 2 operation(s) for guide assignments.
+  name: WorkRamp Guide Assignments API
+  slug: workramp-guide-assignments-api
+- description: The Guides API from WorkRamp — 2 operation(s) for guides.
+  name: WorkRamp Guides API
+  slug: workramp-guides-api
+- description: The Instant Auth API from WorkRamp — 1 operation(s) for instant auth.
+  name: WorkRamp Instant Auth API
+  slug: workramp-instant-auth-api
+- description: The Item Folders API from WorkRamp — 3 operation(s) for item folders.
+  name: WorkRamp Item Folders API
+  slug: workramp-item-folders-api
+- description: The Logs API from WorkRamp — 2 operation(s) for logs.
+  name: WorkRamp Logs API
+  slug: workramp-logs-api
+- description: The New Endpoint API from WorkRamp — 1 operation(s) for new endpoint.
+  name: WorkRamp New Endpoint API
+  slug: workramp-new-endpoint-api
+- description: The Path Assignments API from WorkRamp — 1 operation(s) for path assignments.
+  name: WorkRamp Path Assignments API
+  slug: workramp-path-assignments-api
+- description: The Paths API from WorkRamp — 2 operation(s) for paths.
+  name: WorkRamp Paths API
+  slug: workramp-paths-api
+- description: The Reseller Customers API from WorkRamp — 1 operation(s) for reseller customers.
+  name: WorkRamp Reseller Customers API
+  slug: workramp-reseller-customers-api
+- description: The Resources API from WorkRamp — 1 operation(s) for resources.
+  name: WorkRamp Resources API
+  slug: workramp-resources-api
+- description: The Scim API from WorkRamp — 4 operation(s) for scim.
+  name: WorkRamp SCIM API
+  slug: workramp-scim-api
+- description: The Scorm API from WorkRamp — 1 operation(s) for scorm.
+  name: WorkRamp Scorm API
+  slug: workramp-scorm-api
+- description: The Scorm Assigmments API from WorkRamp — 1 operation(s) for scorm assigmments.
+  name: WorkRamp Scorm Assigmments API
+  slug: workramp-scorm-assigmments-api
+- description: The Scorm Assignments API from WorkRamp — 3 operation(s) for scorm assignments.
+  name: WorkRamp Scorm Assignments API
+  slug: workramp-scorm-assignments-api
+- description: The Scorms API from WorkRamp — 1 operation(s) for scorms.
+  name: WorkRamp Scorms API
+  slug: workramp-scorms-api
+- description: The Search API from WorkRamp — 2 operation(s) for search.
+  name: WorkRamp Search API
+  slug: workramp-search-api
+- description: The Universities API from WorkRamp — 3 operation(s) for universities.
+  name: WorkRamp Universities API
+  slug: workramp-universities-api
+- description: The Users API from WorkRamp — 5 operation(s) for users.
+  name: WorkRamp Users API
+  slug: workramp-users-api
+- description: The Webhook Subscriptions API from WorkRamp — 2 operation(s) for webhook subscriptions.
+  name: WorkRamp Webhook Subscriptions API
+  slug: workramp-webhook-subscriptions-api
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Workramp Webhooks
   slug: workramp-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/workramp-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/workramp-api-settings-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/workramp-json-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -210,13 +306,13 @@ modified: '2026-08-13'
 name: WorkRamp
 nav: Providers
 network: true
-overview: 'WorkRamp publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Learning Management, Revenue Enablement, Sales Enablement, Training, and Onboarding.
+overview: 'WorkRamp publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Academies API, Api Settings API, Assignments API, and 26 more. Tagged areas include Learning Management, Revenue Enablement, Sales Enablement, Training, and Onboarding.
 
 
   The WorkRamp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  WorkRamp''s developer surface includes authentication, documentation, support, engineering blog, changelog, status page, pricing, and 29 more developer resources.'
+  WorkRamp''s developer surface includes authentication, documentation, support, engineering blog, changelog, status page, pricing, and 32 more developer resources.'
 plans:
 - name: Workramp Plans Pricing
   plan_count: 7
@@ -228,18 +324,23 @@ rate_limits:
   slug: workramp-rate-limits
 score:
   band: strong
-  composite: 65.1
-  delta: 1.9
+  composite: 65.8
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 16.7
-    contract_quality: 58.4
+    contract_governance: 4.5
+    contract_quality: 67.1
     developer_ergonomics: 33.9
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 63.2
-  previous_composite: 63.2
+  previous_composite: 66.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,8 +357,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 66.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workramp/refs/heads/main/screenshots/workramp-2026-06-20T201617.png
 security:
@@ -288,7 +389,7 @@ tags:
 - Assessments
 - Certifications
 - Coaching
-- Go-To-Market
+- Go-to-Market
 - SCIM
 - SCORM
 - Webhook

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 59
   slug: energyx-agentic-access
   summary_line: 59 operations
-api_count: 15
+api_count: 18
 apis:
 - description: Public, unauthenticated read access to the EnergyX blog and article archive at energyx.com/blog/ via the WordPress core REST API. Verified live at 69 published posts, filterable by category, author, d
   name: EnergyX Posts API
@@ -49,15 +49,9 @@ apis:
 - description: Public, unauthenticated read access to the static marketing, product, investor and policy pages of energyx.com — Technology, Lithium, Battery, Nuclear, Membranes, Projects, Sustainability, Careers, In
   name: EnergyX Pages API
   slug: energyx-pages-api
-- description: 'Public, unauthenticated read access to the three EnergyX news archives, each a site-specific WordPress custom post type: company press releases (39 published), third-party coverage of EnergyX in the n'
-  name: EnergyX Press and News API
-  slug: energyx-press-api
 - description: Public, unauthenticated read access to the EnergyX leadership roster — executives, board members and advisors behind energyx.com/company/ — classified by the site-specific leadership-type taxonomy. Ve
   name: EnergyX Leadership API
   slug: energyx-leadership-api
-- description: Public, unauthenticated read access to open EnergyX job postings behind energyx.com/careers/, classified by the site-specific position-area and position-location taxonomies. Verified live at 12 open p
-  name: EnergyX Careers API
-  slug: energyx-careers-api
 - description: Public, unauthenticated read access to the EnergyX partner roster — the operators, institutions and research bodies EnergyX names as partners — classified by the site-specific partner-type taxonomy. V
   name: EnergyX Partners API
   slug: energyx-partners-api
@@ -88,7 +82,22 @@ apis:
 - description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed JSON-LD schema.org graph for any energyx.com URL — a structured-data view of every page without scraping the HTML.
   name: EnergyX SEO Metadata API
   slug: energyx-seo-api
-artifact_total: 35
+- description: Third-party media coverage of EnergyX.
+  name: EnergyX In The News API
+  slug: energyx-in-the-news-api
+- description: Curated lithium and energy-transition industry news.
+  name: EnergyX Industry News API
+  slug: energyx-industry-news-api
+- description: Open EnergyX roles, by function and location.
+  name: EnergyX Job Positions API
+  slug: energyx-job-positions-api
+- description: First-party EnergyX press releases.
+  name: EnergyX Press Releases API
+  slug: energyx-press-releases-api
+- description: The product catalog as WordPress core content records.
+  name: EnergyX Products API
+  slug: energyx-products-api
+artifact_total: 38
 collections:
 - collection_type: open
   name: EnergyX Careers API
@@ -136,6 +145,18 @@ collections:
   name: EnergyX Videos API
   slug: open-energyx-videos-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/energyx-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/energyx-press-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/energyx-careers-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -293,10 +314,10 @@ modified: '2026-08-12'
 name: EnergyX
 nav: Providers
 network: true
-overview: 'EnergyX publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Press and News API, and 12 more. Tagged areas include Company, Lithium, Direct Lithium Extraction, Critical Minerals, and Battery Technology.
+overview: 'EnergyX publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Leadership API, and 15 more. Tagged areas include Company, Lithium, Direct Lithium Extraction, Critical Minerals, and Battery Technology.
 
 
-  EnergyX''s developer surface includes engineering blog, product news, FAQ, YouTube channel, authentication, code examples, and 31 more developer resources.'
+  EnergyX''s developer surface includes engineering blog, product news, FAQ, YouTube channel, authentication, code examples, and 34 more developer resources.'
 plans:
 - name: Energyx Plans Pricing
   plan_count: 0
@@ -308,18 +329,23 @@ rate_limits:
   slug: energyx-rate-limits
 score:
   band: thin
-  composite: 30.6
+  composite: 29.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 58.1
+    contract_governance: 4.5
+    contract_quality: 58.0
     developer_ergonomics: 16.1
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 30.6
+  previous_composite: 29.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -336,8 +362,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

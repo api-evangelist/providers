@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 61
   slug: nex-agentic-access
   summary_line: 61 operations · 38 acting
-api_count: 16
+api_count: 1
 apis:
 - description: The AI Lists API from Nex — 2 operation(s) for ai lists.
   name: Nex AI Lists API
@@ -277,18 +277,23 @@ scopes:
   summary_line: 18 scopes
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 45.1
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 57.7
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 47.1
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -299,8 +304,8 @@ score:
       total: 16
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nex/refs/heads/main/screenshots/nex-2026-08-07T185140.png
 security:

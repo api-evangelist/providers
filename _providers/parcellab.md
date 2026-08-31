@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: parcellab-agentic-access
   summary_line: 17 operations · 5 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Hosted Model Context Protocol server exposing the parcelLab order tracking and returns registration workflow to MCP-compatible agents, authenticated via OAuth 2.1 bearer tokens with scopes such as `tr
   name: parcelLab MCP Server
@@ -135,6 +135,22 @@ collections:
   name: parcelLab API
   slug: open-parcellab
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/parcellab-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/parcelLab/parcellab-mcp-server/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/parcelLab/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/parcelLab/.github/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -438,7 +454,7 @@ overview: 'parcelLab publishes 7 APIs on the [APIs.io](https://apis.io/) network
   The parcelLab catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  parcelLab''s developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, developer console, pricing, and 40 more developer resources.'
+  parcelLab''s developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, developer console, pricing, and 44 more developer resources.'
 plans:
 - name: Parcellab Plans Pricing
   plan_count: 4
@@ -472,18 +488,26 @@ rules:
   slug: parcellab-rules
 score:
   band: strong
-  composite: 61.8
-  delta: 0.9
+  composite: 59.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 27.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 28.8
     contract_quality: 69.7
     developer_ergonomics: 78.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 60.9
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     contracts:
@@ -491,8 +515,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/screenshots/parcellab-2026-06-20T191411.png
 security:

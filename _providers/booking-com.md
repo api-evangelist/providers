@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 54
   slug: booking-com-agentic-access
   summary_line: 54 operations · 49 acting · 1 human-in-the-loop
-api_count: 24
+api_count: 6
 apis:
 - description: Endpoints to search for stays such as hotels and apartments, check availability, retrieve reviews, and get detailed property information.
   name: booking-com Accommodations API
@@ -320,7 +320,12 @@ rules:
 score:
   band: thin
   composite: 32.2
-  delta: 1.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 69.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -330,7 +335,7 @@ score:
     discoverability: 57.4
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 30.3
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -342,8 +347,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/screenshots/booking-com-2026-06-20T173602.png
 security:

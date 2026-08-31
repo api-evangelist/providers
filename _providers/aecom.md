@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
+  score: 6.0
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: PipeInsights is AECOM's cloud-based SaaS solution for AI-powered sewer inspection analysis. It enables municipalities and utilities to upload sewer inspection footage, perform QA/QC defect coding, aut
@@ -41,18 +41,50 @@ apis:
   slug: aecom-pipeinsights-api
 artifact_total: 26
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://aecom.com/
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/aecom-domain-security.yml
+- group: agent
+  title: AECOM Insights llms.txt (captured verbatim from https://insights.aecom.com/llms.txt)
+  type: LLMsTxt
+  url: llms/aecom-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/aecom-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/aecom-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/aecom-rate-limits.yml
+- group: agent
+  title: llms.txt served by AECOM Insights
+  type: LLMsTxt
+  url: https://insights.aecom.com/llms.txt
+- group: other
+  title: ''
+  type: Products
+  url: https://digital.aecom.com/products/
+- group: commercial
+  title: Ethics & Compliance
+  type: Legal
+  url: https://aecom.com/about-us/ethics/
 - group: start
   title: ''
   type: Portal
-  url: https://www.aecom.com
+  url: https://aecom.com/
 - group: docs
   title: ''
   type: Documentation
-  url: https://www.aecom.com/services/
+  url: https://aecom.com/services/
 - group: start
   title: Digital AECOM
   type: Portal
@@ -60,23 +92,23 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://www.aecom.com/insights/
+  url: https://insights.aecom.com/
 - group: company
   title: ''
   type: Careers
-  url: https://www.aecom.com/careers/
+  url: https://aecom.com/careers/
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.aecom.com/legal/terms-of-use/
+  url: https://aecom.com/terms-use/
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.aecom.com/legal/privacy-policy/
+  url: https://aecom.com/privacy-policy/
 - group: commercial
   title: ''
   type: Legal
-  url: https://www.aecom.com/legal/cookie-policy/
+  url: https://aecom.com/website-cookie-policy/
 - group: start
   title: Investor Relations
   type: Portal
@@ -84,7 +116,7 @@ common:
 - group: operate
   title: ''
   type: Contact
-  url: https://www.aecom.com/contact-us/
+  url: https://aecom.com/contact-us/
 - group: company
   title: ''
   type: LinkedIn
@@ -124,7 +156,7 @@ jsonld:
   property_count: 13
   slug: aecom-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-30'
 name: AECOM
 nav: Providers
 network: true
@@ -134,10 +166,10 @@ overview: 'AECOM publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   The AECOM catalog on APIs.io includes 1 JSON-LD context.
 
 
-  AECOM''s developer surface includes developer portal, documentation, engineering blog, legal docs, and 8 more developer resources.'
+  AECOM''s developer surface includes legal docs, developer portal, documentation, engineering blog, and 16 more developer resources.'
 plans:
 - name: Aecom Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: aecom-plans-pricing
 press:
 - date: '2026-05-25'
@@ -157,22 +189,27 @@ press:
   url: https://blog.adobe.com/en/publish/2025/07/17/how-aecom-nine-and-urbis-are-reshaping-creativity-with-ai
 random_paper: 13
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Aecom Rate Limits
   slug: aecom-rate-limits
 score:
   band: emerging
-  composite: 22.3
-  delta: 0.0
+  composite: 21.3
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.0
   facets:
-    access_clarity: 34.2
-    commercial_clarity: 34.2
+    access_clarity: 28.9
+    commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 14.7
     developer_ergonomics: 21.4
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 0.0
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
@@ -180,8 +217,8 @@ score:
     - owner: catalog
       reason: no_resolvable_host
   previous_composite: 22.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aecom/refs/heads/main/screenshots/aecom-2026-06-20T165431.png
 security:
@@ -219,5 +256,5 @@ use_cases:
   name: Water System Digital Twin
 - description: Tools for measuring, reporting, and improving the sustainability performance of infrastructure projects and assets.
   name: Sustainable Infrastructure Reporting
-website: https://www.aecom.com
+website: https://aecom.com/
 ---

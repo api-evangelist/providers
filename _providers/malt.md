@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -31,13 +31,26 @@ agentic_access:
   operation_count: 13
   slug: malt-agentic-access
   summary_line: 13 operations · 4 acting
-api_count: 1
+api_count: 3
 apis:
-- description: Malt's publicly documented API surface, served from api.malt.com and documented with Stoplight Elements against a single unified OpenAPI 3.0.3 document ("Malt - API Guidelines", 13 operations). Two ca
-  name: Malt Exposed APIs
-  slug: malt-exposed-apis
-artifact_total: 8
+- description: Operations related to freelancer service charge invoices
+  name: Malt Fee Invoices API
+  slug: malt-fee-invoices-api
+- description: Operations related to freelancer invoices
+  name: Malt Invoices API
+  slug: malt-invoices-api
+- description: Operations related to freelancer payments
+  name: Malt Payments API
+  slug: malt-payments-api
+- description: Manage users
+  name: Malt SCIM API
+  slug: malt-scim-api
+artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/malt-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -210,10 +223,10 @@ modified: '2026-08-17'
 name: Malt
 nav: Providers
 network: true
-overview: 'Malt publishes 1 API on the [APIs.io](https://apis.io/) network: Exposed APIs. Tagged areas include Company, Marketplace, Freelance Marketplace, Freelance Management System, and Talent Marketplace.
+overview: 'Malt publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Fee Invoices API, Invoices API, Payments API, and 1 more. Tagged areas include Company, Marketplace, Freelance Marketplace, Freelance Management System, and Talent Marketplace.
 
 
-  Malt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
+  Malt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
 plans:
 - name: Malt Plans Pricing
   plan_count: 3
@@ -225,18 +238,23 @@ rate_limits:
   slug: malt-rate-limits
 score:
   band: strong
-  composite: 59.5
+  composite: 57.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
-    contract_quality: 65.6
+    contract_governance: 4.5
+    contract_quality: 64.1
     developer_ergonomics: 58.9
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 74.1
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 59.5
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,8 +271,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -283,7 +301,7 @@ tags:
 - SCIM
 - Identity Provisioning
 - Procurement
-- Future Of Work
+- Future of Work
 - France
 - Europe
 website: https://www.malt.com/

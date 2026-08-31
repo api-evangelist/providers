@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 10
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 128
   slug: cumulocity-agentic-access
   summary_line: 128 operations · 72 acting · 10 human-in-the-loop
-api_count: 39
+api_count: 17
 apis:
 - description: Constrained-device MQTT broker fronting the Cumulocity REST API with a CSV-based SmartREST 2.0 payload format that saves up to 80% of mobile traffic versus JSON. Supports static templates for common o
   name: Cumulocity MQTT and SmartREST API
@@ -450,6 +450,10 @@ collections:
   name: Cumulocity Alarm Alarms Users API
   slug: open-cumulocity-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cumulocity-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -819,7 +823,7 @@ overview: 'Cumulocity publishes 39 APIs on the [APIs.io](https://apis.io/) netwo
   The Cumulocity catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Cumulocity''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, support, pricing, and 62 more developer resources.'
+  Cumulocity''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, support, pricing, and 63 more developer resources.'
 plans:
 - name: Cumulocity Plans Pricing
   plan_count: 6
@@ -865,12 +869,17 @@ rules:
 score:
   band: strong
   composite: 63.2
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 47.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 13.6
-    contract_quality: 74.4
+    contract_quality: 74.7
     developer_ergonomics: 66.7
     discoverability: 50.0
     governance: 13.6
@@ -883,8 +892,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cumulocity/refs/heads/main/screenshots/cumulocity-2026-06-20T175331.png
 security:

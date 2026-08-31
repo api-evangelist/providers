@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 148
   slug: linkedin-agentic-access
   summary_line: 148 operations · 62 acting · 2 human-in-the-loop
-api_count: 65
+api_count: 17
 apis:
 - description: The LinkedIn Consumer Solutions Platform enables sites and applications the power to enhance their sign-in experience using the world's largest professional network. The Consumer Solutions Platform co
   name: LinkedIn Consumer API
@@ -590,6 +590,10 @@ collections:
   name: LinkedIn Compliance Events Access Control User Streaming API
   slug: open-linkedin-user-streaming-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/linkedin-capability-edges.yml
 - group: start
   title: ''
   type: GettingStarted
@@ -3040,7 +3044,7 @@ overview: 'LinkedIn publishes 65 APIs on the [APIs.io](https://apis.io/) network
   The LinkedIn catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  LinkedIn''s developer surface includes getting-started guide, sandbox, code examples, changelog, authentication, documentation, developer portal, and 102 more developer resources.'
+  LinkedIn''s developer surface includes getting-started guide, sandbox, code examples, changelog, authentication, documentation, developer portal, and 103 more developer resources.'
 plans:
 - name: Linkedin Plans Pricing
   plan_count: 8
@@ -3095,18 +3099,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 75.1
+  composite: 70.5
+  coverage:
+    artifact_dirs: 39
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 59.1
-    contract_quality: 80.6
+    contract_governance: 47.0
+    contract_quality: 79.7
     developer_ergonomics: 87.5
-    discoverability: 79.6
-    governance: 59.1
+    discoverability: 50.0
+    governance: 47.0
     operational_transparency: 71.1
-  previous_composite: 75.1
+  previous_composite: 70.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -3117,8 +3126,8 @@ score:
       total: 64
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/screenshots/linkedin-2026-06-20T184544.png
 security:

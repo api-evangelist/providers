@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 1
   slug: starknet-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 13
+api_count: 1
 apis:
 - description: Versioned JSON-RPC specification implemented by Starknet full nodes (Pathfinder, Juno, Papyrus) and infrastructure providers. Defines read methods (starknet_* for blocks, transactions, classes, state,
   name: Starknet JSON-RPC Specification
@@ -98,6 +98,14 @@ collections:
   name: Starknet JSON-RPC API
   slug: open-starknet
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/starkware-libs/starknet-specs/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/starkware-libs/starknet-specs/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -172,7 +180,7 @@ overview: 'Starknet publishes 2 APIs on the [APIs.io](https://apis.io/) network:
   The Starknet catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Starknet''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
+  Starknet''s developer surface includes documentation, engineering blog, and 14 more developer resources.'
 plans:
 - name: Starknet Plans Pricing
   plan_count: 1
@@ -196,18 +204,26 @@ rules:
   slug: starknet-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 34.2
-  delta: 0.6
+  composite: 34.7
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 55.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 11.4
     contract_quality: 53.6
     developer_ergonomics: 14.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 11.4
-    operational_transparency: 26.3
-  previous_composite: 33.6
+    operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -215,8 +231,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starknet/refs/heads/main/screenshots/starknet-2026-06-20T194515.png
 security:

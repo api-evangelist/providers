@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.0
-  scored_at: '2026-08-26'
+  score: 24.7
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 255
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 335
   slug: tm-forum-agentic-access
   summary_line: 335 operations · 255 acting
-api_count: 38
+api_count: 12
 apis:
 - description: The agreement API from TM Forum — 2 operation(s) for agreement.
   name: TM Forum agreement API
@@ -295,6 +295,10 @@ collections:
   name: Product Catalog Management agreement troubleTicketSpecification API
   slug: open-tm-forum-troubleticketspecification-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tm-forum-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -4875,7 +4879,7 @@ overview: 'TM Forum publishes 38 APIs on the [APIs.io](https://apis.io/) network
   The TM Forum catalog on APIs.io includes 6 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  TM Forum''s developer surface includes documentation, developer portal, engineering blog, and 8 more developer resources.'
+  TM Forum''s developer surface includes documentation, developer portal, engineering blog, and 9 more developer resources.'
 plans:
 - name: Tm Forum Plans Pricing
   plan_count: 1
@@ -4909,18 +4913,23 @@ rules:
   slug: tm-forum-spectral-rules
 score:
   band: thin
-  composite: 29.0
+  composite: 29.2
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
-    contract_quality: 55.1
+    contract_quality: 56.1
     developer_ergonomics: 21.4
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 29.0
+  previous_composite: 29.2
   provenance:
     agentic_access: derived
     contracts:
@@ -4934,8 +4943,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tm-forum/refs/heads/main/screenshots/tm-forum-2026-06-20T195425.png
 security:

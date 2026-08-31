@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 6
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 197
   slug: passivelogic-agentic-access
   summary_line: 197 operations · 92 acting · 6 human-in-the-loop
-api_count: 18
+api_count: 2
 apis:
 - description: The Quantum API — a GraphQL query surface over the Quantum digital twin graph, letting clients query buildings, floors, zones, surfaces, equipment, components, properties and time-series data from the
   name: Quantum GraphQL API
@@ -267,7 +267,7 @@ modified: '2026-08-04'
 name: PassiveLogic
 nav: Providers
 network: true
-overview: 'PassiveLogic publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Account API, App API, and 15 more. Tagged areas include Company, Digital Twin, Building Automation, HVAC, and Smart Buildings.
+overview: 'PassiveLogic publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Account API, App API, and 15 more. Tagged areas include Company, digital-twin, building-automation, hvac, and smart-buildings.
 
 
   The PassiveLogic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -282,18 +282,23 @@ scopes:
   summary_line: 13 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: developing
-  composite: 42.6
-  delta: 1.3
+  composite: 39.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 76.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 20.5
+    contract_governance: 8.3
     contract_quality: 56.8
     developer_ergonomics: 42.3
-    discoverability: 85.2
-    governance: 20.5
+    discoverability: 68.5
+    governance: 8.3
     operational_transparency: 18.4
-  previous_composite: 41.3
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -309,8 +314,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 45.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passivelogic/refs/heads/main/screenshots/passivelogic-2026-08-07T191536.png
 security:
@@ -325,16 +330,16 @@ security:
 slug: passivelogic
 tags:
 - Company
-- Digital Twin
-- Building Automation
-- HVAC
-- Smart Buildings
-- Autonomous Systems
-- GraphQL
+- digital-twin
+- building-automation
+- hvac
+- smart-buildings
+- autonomous-systems
+- graphql
 - Ontology
-- IoT
-- Edge Computing
-- Physical AI
+- iot
+- edge-computing
+- physical-ai
 - Energy
 website: https://passivelogic.com/
 ---

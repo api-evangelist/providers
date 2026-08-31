@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -32,14 +32,8 @@ agentic_access:
   operation_count: 12
   slug: swisscom-agentic-access
   summary_line: 12 operations · 6 acting
-api_count: 13
+api_count: 2
 apis:
-- description: REST API that lets backend systems create, configure, release and monitor digital signature processes end to end — create a process, attach PDF documents, invite signers, release it, poll status and d
-  name: Swisscom Sign Integration API
-  slug: swisscom-sign-integration-api
-- description: The Swisscom Trust Services All-in Signing Service REST interface for creating AdES signatures and seals under eIDAS and ZertES, following the ETSI TS 119 432 remote signature creation profile. Swissc
-  name: Swisscom All-in Signing Service (AIS) API
-  slug: swisscom-all-in-signing-service-api
 - description: Application-to-person SMS sending over the Swisscom messaging infrastructure with onward delivery to 260+ operators globally, including delivery-notification callbacks to a customer-supplied callbackU
   name: Swisscom Text Messaging (SMS) API
   slug: swisscom-text-messaging-api
@@ -73,7 +67,16 @@ apis:
 - description: Legacy Voice API for listing and retrieving recent voicemail messages for a Swisscom MSISDN, secured by OAuth 2.0 client-credentials or authorization-code grants. Documented as RAML-rendered HTML in t
   name: Swisscom Voice Mail API
   slug: swisscom-voice-mail-api
-artifact_total: 23
+- description: Allows you to set up your process according to your needs, including adding documents, configuring invitees, setting signature options, and submitting the process for execution.
+  name: 'Swisscom Process: create API'
+  slug: swisscom-process-create-api
+- description: Access process information and download signed or original documents once the signing is complete.
+  name: 'Swisscom Process: read API'
+  slug: swisscom-process-read-api
+- description: The signatures API from Swisscom — 1 operation(s) for signatures.
+  name: Swisscom Signatures API
+  slug: swisscom-signatures-api
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Swisscom Messaging Webhooks
@@ -86,6 +89,14 @@ collections:
   name: Swisscom Sign Integration API
   slug: open-swisscom-sign-integration-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/swisscom-sign-integration-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/swisscom-all-in-signing-service-overlay.yaml
 - group: build
   title: ''
   type: Packages
@@ -275,13 +286,13 @@ modified: '2026-07-25'
 name: Swisscom
 nav: Providers
 network: true
-overview: 'Swisscom publishes 2 APIs on the [APIs.io](https://apis.io/) network: Sign Integration API and All-in Signing Service (AIS) API. Tagged areas include Telecommunications, Switzerland, Mobile Network Operator, Broadband, and Network APIs.
+overview: 'Swisscom publishes 3 APIs on the [APIs.io](https://apis.io/) network: Process: create API, Process: read API, and Signatures API. Tagged areas include Telecommunications, Switzerland, Mobile Network Operator, Broadband, and Network APIs.
 
 
   The Swisscom catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Swisscom''s developer surface includes CLI, changelog, sandbox, API reference, getting-started guide, support, engineering blog, and 37 more developer resources.'
+  Swisscom''s developer surface includes CLI, changelog, sandbox, API reference, getting-started guide, support, engineering blog, and 39 more developer resources.'
 random_paper: 6
 scopes:
 - name: Swisscom Scopes
@@ -290,18 +301,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: strong
-  composite: 66.0
-  delta: 2.2
+  composite: 65.8
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 30.3
-    contract_quality: 63.5
+    contract_governance: 18.2
+    contract_quality: 68.1
     developer_ergonomics: 75.6
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 87.0
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 63.8
+  previous_composite: 66.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -314,12 +330,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: eidas
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 83.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/screenshots/swisscom-2026-08-17T082213.png
 security:

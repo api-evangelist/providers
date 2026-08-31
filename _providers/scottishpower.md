@@ -23,21 +23,28 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The live, anonymous REST API behind the SP Energy Networks Open Data Portal — ScottishPower's regulated distribution and transmission arm publishing its network data under Ofgem's Data Best Practice "
-  name: SP Energy Networks Open Data Explore API
-  slug: spen-open-data-explore-api
 - description: 'The legacy Opendatasoft Search API v1.0 still served alongside Explore v2.1 on the SP Energy Networks Open Data Portal. Verified anonymously on 2026-07-27: GET /api/datasets/1.0/search/?rows=1 returne'
   name: SP Energy Networks Open Data Search API (v1.0)
   slug: spen-open-data-search-api-v1
-artifact_total: 11
+- description: API to enumerate datasets
+  name: ScottishPower Catalog API
+  slug: scottishpower-catalog-api
+- description: API to work on records
+  name: ScottishPower Dataset API
+  slug: scottishpower-dataset-api
+artifact_total: 12
 collections:
 - collection_type: open
   name: Explore API
   slug: open-scottishpower-spen-open-data-explore-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/scottishpower-spen-open-data-explore-api-overlay.yaml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -214,10 +221,10 @@ modified: '2026-07-27'
 name: ScottishPower
 nav: Providers
 network: true
-overview: 'ScottishPower publishes 1 API on the [APIs.io](https://apis.io/) network: SP Energy Networks Open Data Explore API. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
+overview: 'ScottishPower publishes 2 APIs on the [APIs.io](https://apis.io/) network: Catalog API and Dataset API. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
 
 
-  ScottishPower''s developer surface includes authentication, changelog, code examples, API reference, getting-started guide, signup flow, documentation, and 31 more developer resources.'
+  ScottishPower''s developer surface includes authentication, changelog, code examples, API reference, getting-started guide, signup flow, documentation, and 32 more developer resources.'
 random_paper: 10
 rate_limits:
 - limit_count: 2
@@ -225,18 +232,23 @@ rate_limits:
   slug: scottishpower-rate-limits
 score:
   band: developing
-  composite: 44.5
-  delta: 0.0
+  composite: 42.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 17.0
     developer_ergonomics: 56.5
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 55.3
-  previous_composite: 44.5
+  previous_composite: 43.3
   provenance:
     conformance: derived
     contracts:
@@ -252,8 +264,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 52.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

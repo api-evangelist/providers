@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 24
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 35
   slug: luxury-presence-agentic-access
   summary_line: 35 operations · 24 acting · 24 human-in-the-loop
-api_count: 5
+api_count: 1
 apis:
 - description: The Agents API from Luxury Presence — 5 operation(s) for agents.
   name: Luxury Presence Agents API
@@ -209,18 +209,23 @@ overview: 'Luxury Presence publishes 5 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 20
 score:
   band: developing
-  composite: 42.7
-  delta: 0.0
+  composite: 40.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.2
     developer_ergonomics: 47.0
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 42.7
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,8 +236,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/screenshots/luxury-presence-2026-07-25T225740.png
 security:

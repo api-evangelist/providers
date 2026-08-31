@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 24
   slug: firstrade-agentic-access
   summary_line: 24 operations · 11 acting
-api_count: 6
+api_count: 1
 apis:
 - description: 'Access to Firstrade account data is available through the Plaid financial data aggregation platform. Plaid supports four product categories for Firstrade: Assets (consolidated balance summaries and as'
   name: Firstrade Account Data API (via Plaid)
@@ -83,6 +83,10 @@ collections:
   name: Firstrade Unofficial Account Watchlist API
   slug: open-firstrade-watchlist-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/firstrade-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -150,7 +154,7 @@ network: true
 overview: 'Firstrade publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Authentication API, Market Data API, and 2 more. Tagged areas include Brokerage, Commission-Free Trading, Stocks, ETFs, and Options.
 
 
-  Firstrade''s developer surface includes authentication, pricing, and 11 more developer resources.'
+  Firstrade''s developer surface includes authentication, pricing, and 12 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -162,18 +166,23 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 37.5
-  delta: 3.3
+  composite: 37.0
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 52.7
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 34.2
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +196,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/screenshots/firstrade-2026-06-20T181243.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 3
 common:
@@ -123,7 +123,7 @@ modified: '2026-08-23'
 name: Intus Care
 nav: Providers
 network: true
-overview: 'Intus Care is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Health Care, Electronic Health Records, Population Health, Risk Adjustment, and Senior Care.
+overview: 'Intus Care is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Electronic Health Records, Population Health, Risk Adjustment, and Senior Care.
 
 
   Intus Care''s developer surface includes engineering blog, support, and 16 more developer resources.'
@@ -138,7 +138,12 @@ rate_limits:
   slug: intus-care-rate-limits
 score:
   band: emerging
-  composite: 11.7
+  composite: 11.4
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 14.5
@@ -146,10 +151,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 61.1
+    discoverability: 57.4
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 11.7
+  previous_composite: 11.4
   provenance:
     conformance: first-party
   regulatory:
@@ -158,8 +163,8 @@ score:
     regime: Health
     regime_id: health
     score: 20.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security
@@ -168,7 +173,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: intus-care
 tags:
-- Health Care
+- Healthcare
 - Electronic Health Records
 - Population Health
 - Risk Adjustment

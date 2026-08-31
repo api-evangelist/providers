@@ -23,16 +23,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: 'The discovery interface a conformant Agent Registry exposes. POST /search is the only mandatory endpoint and takes a natural-language `text` query plus optional structured `filter`, returning catalog '
-  name: ARD Registry API
-  slug: ard-registry-api
 - description: 'The publishing half of the standard — the JSON manifest a domain serves at /.well-known/ai-catalog.json declaring who the host is and what agentic resources it offers, each entry typed by media type, '
   name: AI Catalog Manifest
   slug: ai-catalog-manifest
-artifact_total: 3
+- description: The Agents API from Agentic Resource Discovery (ARD) — 1 operation(s) for agents.
+  name: Agentic Resource Discovery (ARD) Agents API
+  slug: agentic-resource-discovery-agents-api
+- description: The Explore API from Agentic Resource Discovery (ARD) — 1 operation(s) for explore.
+  name: Agentic Resource Discovery (ARD) Explore API
+  slug: agentic-resource-discovery-explore-api
+- description: The Search API from Agentic Resource Discovery (ARD) — 1 operation(s) for search.
+  name: Agentic Resource Discovery (ARD) Search API
+  slug: agentic-resource-discovery-search-api
+artifact_total: 5
 common:
 - group: operate
   title: ''
@@ -159,29 +165,37 @@ modified: 2026-07-31
 name: Agentic Resource Discovery (ARD)
 nav: Providers
 network: true
-overview: 'Agentic Resource Discovery (ARD) publishes 1 API on the [APIs.io](https://apis.io/) network: ARD Registry API. Tagged areas include Agentic Resource Discovery, ARD, AI Catalog, Agent Discovery, and Discovery.
+overview: 'Agentic Resource Discovery (ARD) publishes 3 APIs on the [APIs.io](https://apis.io/) network: Agents API, Explore API, and Search API. Tagged areas include Agentic Resource Discovery, ARD, AI Catalog, Agent Discovery, and Discovery.
 
 
   Agentic Resource Discovery (ARD)''s developer surface includes FAQ, getting-started guide, and 26 more developer resources.'
 random_paper: 10
 score:
-  band: emerging
-  composite: 25.9
-  delta: 1.9
+  band: thin
+  composite: 31.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 4.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 47.6
+    contract_quality: 49.7
     developer_ergonomics: 21.4
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 24.0
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 26.9
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentic-resource-discovery/refs/heads/main/screenshots/agentic-resource-discovery-2026-08-07T161030.png
 slug: agentic-resource-discovery

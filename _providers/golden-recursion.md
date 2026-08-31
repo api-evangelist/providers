@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 8
   slug: golden-recursion-agentic-access
   summary_line: 8 operations
-api_count: 3
+api_count: 1
 apis:
 - description: The Entity API API from Golden Recursion — 2 operation(s) for entity api.
   name: Golden Recursion Entity API API
@@ -221,19 +221,24 @@ rate_limits:
   name: Golden Recursion Rate Limits
   slug: golden-recursion-rate-limits
 score:
-  band: developing
-  composite: 40.4
-  delta: 0.0
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 55.1
     developer_ergonomics: 25.6
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 40.4
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -244,8 +249,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/golden-recursion/refs/heads/main/screenshots/golden-recursion-2026-07-25T220029.png
 security:

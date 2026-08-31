@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Undocumented, authentication-required API gateway serving the Propico web application. Observed on 2026-07-19: an unauthenticated GET /health returns 200 and reports a gateway fronting four internal s'
@@ -93,7 +93,7 @@ modified: '2026-07-20'
 name: Leap To Win Technologies Private
 nav: Providers
 network: true
-overview: 'Leap To Win Technologies Private publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Property Management, and Rentals.
+overview: 'Leap To Win Technologies Private publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real-Estate, PropTech, Property Management, and Rental.
 
 
   Leap To Win Technologies Private''s developer surface includes support, engineering blog, signup flow, and 8 more developer resources.'
@@ -101,6 +101,11 @@ random_paper: 14
 score:
   band: minimal
   composite: 4.9
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -118,8 +123,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leap-to-win-technologies-private/refs/heads/main/screenshots/leap-to-win-technologies-private-2026-07-25T224746.png
 security:
@@ -133,7 +138,7 @@ tags:
 - Real-Estate
 - PropTech
 - Property Management
-- Rentals
+- Rental
 - Insurance
 - India
 - Consumer

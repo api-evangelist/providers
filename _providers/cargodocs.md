@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: cargodocs-agentic-access
   summary_line: 12 operations · 5 acting
-api_count: 7
+api_count: 3
 apis:
 - description: Common API endpoints shared across partner operations
   name: CargoDocs Common API
@@ -101,6 +101,10 @@ collections:
   name: CargoDocs Customer Data/Docs Common Transactions API
   slug: open-cargodocs-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cargodocs-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -190,13 +194,13 @@ modified: '2026-05-19'
 name: CargoDocs
 nav: Providers
 network: true
-overview: 'CargoDocs publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Common API, Documents API, Exchange API, and 4 more. Tagged areas include Bills of Lading, Documentation, eBOL, EssDocs, and MLETR.
+overview: 'CargoDocs publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Common API, Documents API, Exchange API, and 4 more. Tagged areas include Bills of Lading, Documentation, eBoL, EssDocs, and MLETR.
 
 
   The CargoDocs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  CargoDocs'' developer surface includes authentication, engineering blog, and 12 more developer resources.'
+  CargoDocs'' developer surface includes authentication, engineering blog, and 13 more developer resources.'
 plans:
 - name: Cargodocs Plans Pricing
   plan_count: 1
@@ -220,7 +224,12 @@ rules:
 score:
   band: thin
   composite: 33.8
-  delta: 2.1
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 49.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -230,7 +239,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 31.7
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -238,8 +247,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/screenshots/cargodocs-2026-08-17T123110.png
 security:
@@ -255,7 +264,7 @@ slug: cargodocs
 tags:
 - Bills of Lading
 - Documentation
-- eBOL
+- eBoL
 - EssDocs
 - MLETR
 - Shipping

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Cordant is Baker Hughes' modular AI-enabled industrial enterprise software platform for asset performance management (APM), process optimization, and emissions management. It provides a digital thread
@@ -146,7 +146,7 @@ modified: '2026-04-21'
 name: Baker Hughes
 nav: Providers
 network: true
-overview: 'Baker Hughes publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy Technology, Industrial IoT, Oil and Gas, Asset Performance Management, and Digital Energy.
+overview: 'Baker Hughes publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Energy Technology, Industrial IoT, Oil And Gas, Asset Performance Management, and Digital Energy.
 
 
   The Baker Hughes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -202,7 +202,12 @@ rules:
 score:
   band: emerging
   composite: 24.2
-  delta: 3.4
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 59.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -212,15 +217,15 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 7.9
-  previous_composite: 20.8
+  previous_composite: 24.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 20.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/screenshots/baker-hughes-2026-06-20T172934.png
 security:
@@ -232,7 +237,7 @@ slug: baker-hughes
 tags:
 - Energy Technology
 - Industrial IoT
-- Oil and Gas
+- Oil And Gas
 - Asset Performance Management
 - Digital Energy
 - Fortune 500

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ptc/
 - group: company
   title: ''
   type: Website
@@ -91,11 +95,16 @@ network: true
 overview: 'ServiceMax is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Field Service Management, Asset Management, and Salesforce.
 
 
-  ServiceMax''s developer surface includes support, documentation, and 9 more developer resources.'
+  ServiceMax''s developer surface includes support, documentation, and 10 more developer resources.'
 random_paper: 8
 score:
   band: emerging
-  composite: 15.6
+  composite: 14.5
+  coverage:
+    artifact_dirs: 2
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -103,12 +112,12 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 15.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 14.5
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

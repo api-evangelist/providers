@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 3
   slug: national-science-foundation-agentic-access
   summary_line: 3 operations
-api_count: 2
+api_count: 1
 apis:
 - description: The Awards API from National Science Foundation — 2 operation(s) for awards.
   name: National Science Foundation Awards API
@@ -64,6 +64,10 @@ collections:
   name: National Science Foundation Awards API
   slug: open-national-science-foundation
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/national-science-foundation-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -107,7 +111,7 @@ network: true
 overview: 'National Science Foundation publishes 2 APIs on the [APIs.io](https://apis.io/) network: Awards API and Awards.{format} API. Tagged areas include Federal-Government, Research, and Science.
 
 
-  National Science Foundation''s developer surface includes developer portal, engineering blog, and 5 more developer resources.'
+  National Science Foundation''s developer surface includes developer portal, engineering blog, and 6 more developer resources.'
 plans:
 - name: National Science Foundation Plans Pricing
   plan_count: 3
@@ -120,7 +124,12 @@ rate_limits:
 score:
   band: emerging
   composite: 22.3
-  delta: 3.3
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 65.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -130,7 +139,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 19.0
+  previous_composite: 22.3
   provenance:
     agentic_access: derived
     contracts:
@@ -144,8 +153,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-science-foundation/refs/heads/main/screenshots/national-science-foundation-2026-06-20T190040.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 91
   slug: finix-agentic-access
   summary_line: 91 operations · 39 acting
-api_count: 19
+api_count: 1
 apis:
 - description: '{''$ref'': ''api-descriptions/tags/authorizations.md''}'
   name: Finix Authorizations API
@@ -447,18 +447,23 @@ rate_limits:
   slug: finix-rate-limits
 score:
   band: exemplar
-  composite: 70.4
-  delta: 0.0
+  composite: 68.4
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 63.3
     developer_ergonomics: 78.0
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 70.4
+  previous_composite: 69.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -475,8 +480,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finix/refs/heads/main/screenshots/finix-2026-07-25T214523.png
 security:

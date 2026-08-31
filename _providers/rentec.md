@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The Rentec Direct Open API v3 provides RESTful access to property management data including properties, tenants, leases, payments, maintenance requests, contacts, and messaging. Available to Pro and P
@@ -109,7 +109,7 @@ modified: '2026-06-13'
 name: Rentec Direct
 nav: Providers
 network: true
-overview: 'Rentec Direct publishes 1 API on the [APIs.io](https://apis.io/) network: Open API. Tagged areas include Property Management, Real-Estate, Rentals, Tenant Screening, and Payments.
+overview: 'Rentec Direct publishes 1 API on the [APIs.io](https://apis.io/) network: Open API. Tagged areas include Property Management, Real-Estate, Rental, Tenant Screening, and Payments.
 
 
   Rentec Direct''s developer surface includes pricing, engineering blog, status page, support, and 10 more developer resources.'
@@ -125,7 +125,12 @@ rate_limits:
 score:
   band: emerging
   composite: 25.8
-  delta: 4.3
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -135,15 +140,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 21.5
+  previous_composite: 25.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentec/refs/heads/main/screenshots/rentec-2026-06-20T192855.png
 security:
@@ -155,7 +160,7 @@ slug: rentec
 tags:
 - Property Management
 - Real-Estate
-- Rentals
+- Rental
 - Tenant Screening
 - Payments
 - Maintenance

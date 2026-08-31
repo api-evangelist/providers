@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 163
   slug: twitter-agentic-access
   summary_line: 163 operations · 67 acting · 3 human-in-the-loop
-api_count: 23
+api_count: 1
 apis:
 - description: 'The X Ads API enables programmatic management of advertising campaigns on the X platform including campaign creation and scheduling, custom audience building, creative management (draft posts, cards, '
   name: X Ads API
@@ -246,6 +246,22 @@ collections:
   name: X API v2
   slug: open-x-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/twitter-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/xdevplatform/xdk-python/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/xdevplatform/xdk-python/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/xdevplatform/.github/blob/main/code-of-conduct.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -731,7 +747,7 @@ overview: 'X (Twitter) publishes 21 APIs on the [APIs.io](https://apis.io/) netw
   The X (Twitter) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  X (Twitter)''s developer surface includes authentication, developer portal, getting-started guide, developer console, signup flow, CLI, pricing, and 44 more developer resources.'
+  X (Twitter)''s developer surface includes authentication, developer portal, getting-started guide, developer console, signup flow, CLI, pricing, and 48 more developer resources.'
 plans:
 - name: Twitter Plans Pricing
   plan_count: 1
@@ -770,18 +786,26 @@ scopes:
   summary_line: 21 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.3
-  delta: 3.4
+  composite: 56.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 13.6
     contract_quality: 67.8
     developer_ergonomics: 76.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 13.6
     operational_transparency: 42.1
-  previous_composite: 54.9
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     contracts:
@@ -789,8 +813,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twitter/refs/heads/main/screenshots/twitter-2026-08-17T130216.png
 security:

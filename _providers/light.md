@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 5
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 183
   slug: light-agentic-access
   summary_line: 183 operations · 120 acting · 5 human-in-the-loop
-api_count: 28
+api_count: 1
 apis:
 - description: The Authorization API from Light — 2 operation(s) for authorization.
   name: Light Authorization API
@@ -349,18 +349,23 @@ rate_limits:
   slug: light-rate-limits
 score:
   band: developing
-  composite: 50.8
-  delta: 1.3
+  composite: 48.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 49.5
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 49.5
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -377,8 +382,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/screenshots/light-2026-07-25T225058.png
 security:

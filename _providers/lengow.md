@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-26'
+  score: 34.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -31,13 +31,26 @@ agentic_access:
   operation_count: 14
   slug: lengow-agentic-access
   summary_line: 14 operations · 6 acting
-api_count: 1
+api_count: 2
 apis:
-- description: REST API for Lengow Channel Execution (NetMarkets marketplace management and NetAmplify ads feed management). Covers session-token authentication, per-route rate-limit introspection, marketplace produ
-  name: Lengow Channel Execution API
-  slug: lengow-channel-execution-api
-artifact_total: 7
+- description: The Authentication API from Lengow — 2 operation(s) for authentication.
+  name: Lengow Authentication API
+  slug: lengow-authentication-api
+- description: The Catalogues API from Lengow — 5 operation(s) for catalogues.
+  name: Lengow Catalogues API
+  slug: lengow-catalogues-api
+- description: The Marketplaces API from Lengow — 1 operation(s) for marketplaces.
+  name: Lengow Marketplaces API
+  slug: lengow-marketplaces-api
+- description: The Rate limits API from Lengow — 1 operation(s) for rate limits.
+  name: Lengow Rate limits API
+  slug: lengow-rate-limits-api
+artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lengow-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -191,10 +204,10 @@ modified: '2026-08-17'
 name: Lengow
 nav: Providers
 network: true
-overview: 'Lengow publishes 1 API on the [APIs.io](https://apis.io/) network: Channel Execution API. Tagged areas include Company, Software-as-a-Service, E-Commerce, Marketplaces, and Product Feeds.
+overview: 'Lengow publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Catalogues API, Marketplaces API, and 1 more. Tagged areas include Company, Software-as-a-Service, E-Commerce, Marketplaces, and Product Feeds.
 
 
-  Lengow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Lengow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Lengow Plans Pricing
   plan_count: 3
@@ -206,18 +219,23 @@ rate_limits:
   slug: lengow-rate-limits
 score:
   band: strong
-  composite: 62.4
-  delta: 0.0
+  composite: 59.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.6
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 30.3
-    contract_quality: 54.2
+    contract_governance: 18.2
+    contract_quality: 56.1
     developer_ergonomics: 66.1
-    discoverability: 87.0
-    governance: 30.3
-    operational_transparency: 50.0
-  previous_composite: 62.4
+    discoverability: 75.9
+    governance: 18.2
+    operational_transparency: 42.1
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -228,8 +246,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

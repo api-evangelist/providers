@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -31,42 +31,72 @@ agentic_access:
   operation_count: 72
   slug: shift4-agentic-access
   summary_line: 72 operations · 63 acting · 1 human-in-the-loop
-api_count: 11
+api_count: 1
 apis:
-- description: 'Core card payment processing for the Shift4 Payment API — authorize, capture, sale, refund, and manage card transactions, including card entry, processing mode, dynamic currency conversion (DCC), and '
-  name: Shift4 Transactions API
-  slug: shift4-transactions-api
-- description: Tokenization endpoints for the Shift4 Payment API — create, retrieve, and manage card tokens (single-use and card-on-file) plus the account updater for keeping stored credentials current.
-  name: Shift4 Tokens API
-  slug: shift4-tokens-api
-- description: Gift card issuance and redemption for the Shift4 Payment API — activate, add value, redeem, balance-inquire, and manage stored-value gift card accounts.
-  name: Shift4 Gift Cards API
-  slug: shift4-gift-cards-api
-- description: In-person and terminal control for the Shift4 Payment API — drive card-present devices, EMV/contactless acceptance, and the Commerce Engine for attended and unattended payment hardware.
-  name: Shift4 Devices API
-  slug: shift4-devices-api
-- description: ACH bank-account payment endpoints for the Shift4 Payment API — create and manage ACH debit/credit transactions, backed by ACH webhook notifications for asynchronous status updates.
+- description: The 3D Secure API from Shift4 — 2 operation(s) for 3d secure.
+  name: Shift4 3D Secure API
+  slug: shift4-3d-secure-api
+- description: The ACH API from Shift4 — 5 operation(s) for ach.
   name: Shift4 ACH API
   slug: shift4-ach-api
-- description: Alternative payment methods for the Shift4 Payment API — QR-code payments (including Citcon, WeChat Pay, and Alipay) and PayPal acceptance.
-  name: Shift4 Alternative & QR Payments API
-  slug: shift4-alternative-payments-api
-- description: Cardholder authentication and fraud controls for the Shift4 Payment API — 3D Secure (3DS) authentication flows plus risk scoring and rule evaluation.
-  name: Shift4 3D Secure & Risk API
-  slug: shift4-3d-secure-api
-- description: Hosted payment link endpoints for the Shift4 Payment API — create, configure, share, and reconcile shareable payment links, with payment-link webhook notifications.
-  name: Shift4 Payment Links API
-  slug: shift4-payment-links-api
-- description: Hosted checkout session endpoints for the Shift4 Payment API — create and retrieve checkout sessions for online payment collection, with checkout-session webhook notifications.
+- description: The Batches API from Shift4 — 1 operation(s) for batches.
+  name: Shift4 Batches API
+  slug: shift4-batches-api
+- description: The Cards API from Shift4 — 2 operation(s) for cards.
+  name: Shift4 Cards API
+  slug: shift4-cards-api
+- description: The Checkout Sessions API from Shift4 — 2 operation(s) for checkout sessions.
   name: Shift4 Checkout Sessions API
   slug: shift4-checkout-sessions-api
-- description: Original Credit Transaction (OCT) endpoints for the Shift4 Payment API — push funds to cardholders for payouts and disbursements.
-  name: Shift4 OCT Payouts API
-  slug: shift4-oct-payouts-api
-- description: Reporting and account endpoints for the Shift4 Payment API — transaction reports plus merchant and credentials lookups.
-  name: Shift4 Reports & Merchants API
+- description: The Credentials API from Shift4 — 1 operation(s) for credentials.
+  name: Shift4 Credentials API
+  slug: shift4-credentials-api
+- description: The DCC API from Shift4 — 1 operation(s) for dcc.
+  name: Shift4 DCC API
+  slug: shift4-dcc-api
+- description: The Devices API from Shift4 — 13 operation(s) for devices.
+  name: Shift4 Devices API
+  slug: shift4-devices-api
+- description: The Gift Cards API from Shift4 — 9 operation(s) for gift cards.
+  name: Shift4 Gift Cards API
+  slug: shift4-gift-cards-api
+- description: The Merchants API from Shift4 — 1 operation(s) for merchants.
+  name: Shift4 Merchants API
+  slug: shift4-merchants-api
+- description: The Mode API from Shift4 — 2 operation(s) for mode.
+  name: Shift4 Mode API
+  slug: shift4-mode-api
+- description: The OCT API from Shift4 — 2 operation(s) for oct.
+  name: Shift4 OCT API
+  slug: shift4-oct-api
+- description: The Payment Links API from Shift4 — 4 operation(s) for payment links.
+  name: Shift4 Payment Links API
+  slug: shift4-payment-links-api
+- description: The PayPal API from Shift4 — 3 operation(s) for paypal.
+  name: Shift4 Pay Pal API
+  slug: shift4-paypal-api
+- description: The QR Payments API from Shift4 — 4 operation(s) for qr payments.
+  name: Shift4 QR Payments API
+  slug: shift4-qr-payments-api
+- description: The Reports API from Shift4 — 1 operation(s) for reports.
+  name: Shift4 Reports API
   slug: shift4-reports-api
-artifact_total: 17
+- description: The Risk API from Shift4 — 1 operation(s) for risk.
+  name: Shift4 Risk API
+  slug: shift4-risk-api
+- description: The Rule API from Shift4 — 1 operation(s) for rule.
+  name: Shift4 Rule API
+  slug: shift4-rule-api
+- description: The Tokens API from Shift4 — 5 operation(s) for tokens.
+  name: Shift4 Tokens API
+  slug: shift4-tokens-api
+- description: The Transactions API from Shift4 — 8 operation(s) for transactions.
+  name: Shift4 Transactions API
+  slug: shift4-transactions-api
+- description: The Updater API from Shift4 — 2 operation(s) for updater.
+  name: Shift4 Updater API
+  slug: shift4-updater-api
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Shift4 Webhooks
@@ -233,7 +263,7 @@ modified: '2026-07-24'
 name: Shift4
 nav: Providers
 network: true
-overview: 'Shift4 publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Transactions API, Tokens API, Gift Cards API, and 8 more. Tagged areas include Payments, United States, Payment Processing, Payment Gateway, and Acquiring.
+overview: 'Shift4 publishes 21 APIs on the [APIs.io](https://apis.io/) network, including 3D Secure API, ACH API, Batches API, and 18 more. Tagged areas include Payments, United States, Payment Processing, Payment Gateway, and Acquiring.
 
 
   The Shift4 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -242,19 +272,24 @@ overview: 'Shift4 publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
   Shift4''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, sandbox, and 29 more developer resources.'
 random_paper: 6
 score:
-  band: strong
-  composite: 55.2
-  delta: 0.0
+  band: developing
+  composite: 51.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 3.9
     commercial_clarity: 3.9
-    contract_governance: 30.3
-    contract_quality: 67.7
+    contract_governance: 18.2
+    contract_quality: 66.8
     developer_ergonomics: 75.6
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 55.2
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -271,8 +306,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 52.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shift4/refs/heads/main/screenshots/shift4-2026-08-17T081829.png
 security:

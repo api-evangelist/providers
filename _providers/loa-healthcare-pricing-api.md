@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.7
-  scored_at: '2026-08-26'
-api_count: 5
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Hosted/remote MCP server 'LOA Healthcare Pricing' v1.0.0 over Streamable HTTP with 12 tools for CPT search, procedure suggestions, provider/hospital search, pricing estimates, market pricing, entity p
   name: Loa Healthcare Pricing MCP Server
@@ -69,22 +69,27 @@ modified: '2026-08-02'
 name: Loa Healthcare Pricing API
 nav: Providers
 network: true
-overview: Loa Healthcare Pricing API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Entities API, Entity Analytics API, Entity Updates API, and 1 more. Tagged areas include Healthcare, Price Transparency, medical pricing, Hospitals, and Providers.
+overview: Loa Healthcare Pricing API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Entities API, Entity Analytics API, Entity Updates API, and 1 more. Tagged areas include healthcare, price transparency, medical pricing, hospitals, and Providers.
 random_paper: 13
 score:
   band: emerging
-  composite: 18.6
-  delta: 1.9
+  composite: 18.1
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 52.2
     developer_ergonomics: 9.5
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.7
+  previous_composite: 18.6
   provenance:
     contracts:
       callable: 0.0
@@ -97,18 +102,18 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loa-healthcare-pricing-api/refs/heads/main/screenshots/loa-healthcare-pricing-api-2026-08-07T171743.png
 slug: loa-healthcare-pricing-api
 tags:
-- Healthcare
-- Price Transparency
+- healthcare
+- price transparency
 - medical pricing
-- Hospitals
+- hospitals
 - Providers
-- Provider Directory
+- provider directory
 - hospital prices
 - CPT
 - HCPCS

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -1231,19 +1231,24 @@ rules:
     warn: 23
   slug: amazon-connect-spectral-rules
 score:
-  band: strong
-  composite: 56.3
-  delta: 9.0
+  band: developing
+  composite: 52.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
     contract_governance: 28.8
-    contract_quality: 36.7
+    contract_quality: 30.7
     developer_ergonomics: 92.9
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 47.3
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1251,9 +1256,9 @@ score:
       derived: 12
       marker_coverage: 100.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/screenshots/amazon-connect-2026-06-20T171608.png
 security:
 - kind: authentication

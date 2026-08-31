@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 18
   slug: microsoft-365-agentic-access
   summary_line: 18 operations · 5 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Unified REST API providing a single endpoint to access data and intelligence across Microsoft 365, Microsoft Entra ID, Windows, and Enterprise Mobility + Security. Supports OAuth 2.0 authentication an
   name: Microsoft Graph API
@@ -100,6 +100,10 @@ collections:
   name: Microsoft 365 (Microsoft Graph API)
   slug: open-microsoft-365
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-365-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -175,7 +179,7 @@ network: true
 overview: 'Microsoft 365 publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Calendar API, Files API, Groups API, and 4 more. Tagged areas include Productivity, Collaboration, Email, Calendar, and File.
 
 
-  Microsoft 365''s developer surface includes authentication, documentation, signup flow, pricing, and 11 more developer resources.'
+  Microsoft 365''s developer surface includes authentication, documentation, signup flow, pricing, and 12 more developer resources.'
 random_paper: 9
 scopes:
 - name: Microsoft 365 Scopes
@@ -184,18 +188,23 @@ scopes:
   summary_line: 8 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 37.7
-  delta: 2.9
+  composite: 37.1
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 54.2
     developer_ergonomics: 45.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 34.8
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -203,8 +212,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-365/refs/heads/main/screenshots/microsoft-365-2026-06-20T185401.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Institutional API management developer portal operated by McMaster University Technology Services. Access requires sign-in with a MacID and password plus a short registration step; APIs and products c
@@ -88,10 +88,6 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/mcmaster-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: '2026-06-03'
 description: 'McMaster University is a public research university in Hamilton, Ontario, Canada, ranked #176 in the QS World University Rankings 2025. Its developer and API presence is centered on a gated API service developer portal operated by University Technology Services, which requires institutional MacID authentication and a registration step before any API can be subscribed to; the underlying API catalog is therefore not publicly browsable. The most openly accessible programmatic interface is the library''s MacSphere institutional repository, a DSpace platform that exposes a public OAI-PMH metadata-harvesting endpoint.'
 finops:
@@ -115,7 +111,7 @@ overview: 'McMaster University publishes 2 APIs on the [APIs.io](https://apis.io
   The McMaster University catalog on APIs.io includes 1 JSON-LD context.
 
 
-  McMaster University''s developer surface includes GitHub presence, status page, engineering blog, and 9 more developer resources.'
+  McMaster University''s developer surface includes GitHub presence, status page, and 9 more developer resources.'
 plans:
 - name: Mcmaster Plans Pricing
   plan_count: 2
@@ -127,26 +123,31 @@ rate_limits:
   slug: mcmaster-rate-limits
 score:
   band: emerging
-  composite: 21.7
-  delta: 4.5
+  composite: 21.3
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.4
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 10.7
-    developer_ergonomics: 11.9
+    developer_ergonomics: 9.5
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 17.2
+  previous_composite: 21.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcmaster/refs/heads/main/screenshots/mcmaster-2026-06-20T185102.png
 security:

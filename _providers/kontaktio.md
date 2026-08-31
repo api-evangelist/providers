@@ -24,27 +24,109 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 8
 apis:
-- description: REST API for managing Kontakt.io devices in Kio Cloud — devices, configs, firmware, firmware upgrade schedules, commands, orders, managers, namespaces, proximity UUIDs, venues, device sharing and thir
-  name: Kontakt.io Device Management API
-  slug: kontaktio-device-management-api
-- description: 'REST and streaming API for Kio Cloud location intelligence — campuses, buildings, floors, rooms, footfall spaces, location images, room/seat/footfall/sensor occupancy, telemetry, device positions and '
-  name: Kontakt.io Location & Occupancy API
-  slug: kontaktio-location-occupancy-api
-- description: Smart Location Spaces API for Kio Cloud Apps, covering the spaces resource used to group rooms and seats for occupancy reporting.
+- description: The Buildings API from Kontakt.io — 2 operation(s) for buildings.
+  name: Kontakt.io Buildings API
+  slug: kontaktio-buildings-api
+- description: The Campuses API from Kontakt.io — 2 operation(s) for campuses.
+  name: Kontakt.io Campuses API
+  slug: kontaktio-campuses-api
+- description: The Colocations API from Kontakt.io — 1 operation(s) for colocations.
+  name: Kontakt.io Colocations API
+  slug: kontaktio-colocations-api
+- description: Commands are a special type of Configs used for initiating some management tasks, e.g. entering bootloader mode
+  name: Kontakt.io Command API
+  slug: kontaktio-command-api
+- description: 'Pending configs represent new values for beacon settings that should be applied to actual devices via e.g. Kontakt.io Administration Apps. Creating a new config does not automatically change anything '
+  name: Kontakt.io Config API
+  slug: kontaktio-config-api
+- description: 'NOTE: this set of endpoints has been superseded by External Devices functionality. These endpoints provide a way to integrate 3rd party Bluetooth-enabled scanning devices into Kontakt.io platform. As '
+  name: Kontakt.io Device (3rd party) API
+  slug: kontaktio-device-3rd-party-api
+- description: The Device resource represents Kontakt.io devices assigned to a particular Kontakt.io Panel account, as well as devices shared with that account from different accounts.
+  name: Kontakt.io Device API
+  slug: kontaktio-device-api
+- description: These endpoints are designed to assist with storing metadata associated with Portal Beams
+  name: Kontakt.io Device (Portal Beam) API
+  slug: kontaktio-device-portal-beam-api
+- description: The device tags
+  name: Kontakt.io Device tags API
+  slug: kontaktio-device-tags-api
+- description: Helper resources for working with Eddystone beacons
+  name: Kontakt.io Eddystone API
+  slug: kontaktio-eddystone-api
+- description: The entity-integration API from Kontakt.io — 2 operation(s) for entity-integration.
+  name: Kontakt.io Entity Integration API
+  slug: kontaktio-entity-integration-api
+- description: External Device feature is a method of adding arbitrary external devices to the system. Such devices have MAC, unique id, and other virtual attributes, but they cannot be managed (configured).
+  name: Kontakt.io External Device API
+  slug: kontaktio-external-device-api
+- description: Firmware resources
+  name: Kontakt.io Firmware API
+  slug: kontaktio-firmware-api
+- description: The Floors API from Kontakt.io — 1 operation(s) for floors.
+  name: Kontakt.io Floors API
+  slug: kontaktio-floors-api
+- description: The Footfall Spaces API from Kontakt.io — 1 operation(s) for footfall spaces.
+  name: Kontakt.io Footfall Spaces API
+  slug: kontaktio-footfall-spaces-api
+- description: The Gateways API from Kontakt.io — 1 operation(s) for gateways.
+  name: Kontakt.io Gateways API
+  slug: kontaktio-gateways-api
+- description: The Location Images API from Kontakt.io — 1 operation(s) for location images.
+  name: Kontakt.io Location Images API
+  slug: kontaktio-location-images-api
+- description: Managers represent user accounts that can manage Kontakt.io Devices. Everyone can freely create an account on [Kontakt.io Web Panel](https://panel.kontakt.io) and then use it to work with this API.
+  name: Kontakt.io Manager API
+  slug: kontaktio-manager-api
+- description: The Occupancy API from Kontakt.io — 1 operation(s) for occupancy.
+  name: Kontakt.io Occupancy API
+  slug: kontaktio-occupancy-api
+- description: 'The Occupancy: Footfall API from Kontakt.io — 2 operation(s) for occupancy: footfall.'
+  name: 'Kontakt.io Occupancy: Footfall API'
+  slug: kontaktio-occupancy-footfall-api
+- description: 'The Occupancy: Room API from Kontakt.io — 2 operation(s) for occupancy: room.'
+  name: 'Kontakt.io Occupancy: Room API'
+  slug: kontaktio-occupancy-room-api
+- description: 'The Occupancy: Seats API from Kontakt.io — 2 operation(s) for occupancy: seats.'
+  name: 'Kontakt.io Occupancy: Seats API'
+  slug: kontaktio-occupancy-seats-api
+- description: An Order represents all devices that have been purchased in Kontakt.io Web Store in a single transaction. Before these devices can be used with Kontakt.io platform, they need to be added to Kontakt.io
+  name: Kontakt.io Order API
+  slug: kontaktio-order-api
+- description: The Positions API from Kontakt.io — 2 operation(s) for positions.
+  name: Kontakt.io Positions API
+  slug: kontaktio-positions-api
+- description: The Presences API from Kontakt.io — 2 operation(s) for presences.
+  name: Kontakt.io Presences API
+  slug: kontaktio-presences-api
+- description: List of iBeacon Proximity UUIDs used on beacons belonging to a Manager
+  name: Kontakt.io Proximities API
+  slug: kontaktio-proximities-api
+- description: The Rooms API from Kontakt.io — 2 operation(s) for rooms.
+  name: Kontakt.io Rooms API
+  slug: kontaktio-rooms-api
+- description: The Spaces API from Kontakt.io — 2 operation(s) for spaces.
   name: Kontakt.io Spaces API
   slug: kontaktio-spaces-api
-- description: Integration API for batch importing and updating Entities such as Staff and Assets into the Kontakt.io Kio Apps platform, and retrieving their current configuration. Secured with OAuth2 client credent
-  name: Kontakt.io Entity Management Integration API
-  slug: kontaktio-entity-management-integration-api
-artifact_total: 12
+- description: The Stream API from Kontakt.io — 9 operation(s) for stream.
+  name: Kontakt.io Stream API
+  slug: kontaktio-stream-api
+- description: The Telemetry API from Kontakt.io — 1 operation(s) for telemetry.
+  name: Kontakt.io Telemetry API
+  slug: kontaktio-telemetry-api
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Kontaktio Streams Events
   slug: kontaktio-streams-events
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kontaktio-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -197,13 +279,13 @@ modified: '2026-08-23'
 name: Kontakt.io
 nav: Providers
 network: true
-overview: 'Kontakt.io publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Device Management API, Location & Occupancy API, Spaces API, and 1 more. Tagged areas include Company, IoT, RTLS, Healthcare, and Asset Tracking.
+overview: 'Kontakt.io publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Buildings API, Campuses API, Colocations API, and 27 more. Tagged areas include Company, IoT, RTLS, Healthcare, and Asset Tracking.
 
 
   The Kontakt.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kontakt.io''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 28 more developer resources.'
+  Kontakt.io''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 29 more developer resources.'
 plans:
 - name: Kontaktio Plans Pricing
   plan_count: 0
@@ -220,18 +302,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: strong
-  composite: 65.7
-  delta: -3.0
+  composite: 62.6
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 16.7
-    contract_quality: 65.9
+    contract_governance: 4.5
+    contract_quality: 65.8
     developer_ergonomics: 73.2
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 68.7
+  previous_composite: 62.6
   provenance:
     conformance: derived
     contracts:
@@ -247,8 +334,8 @@ score:
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

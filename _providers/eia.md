@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,15 +31,60 @@ agentic_access:
   operation_count: 278
   slug: eia-agentic-access
   summary_line: 278 operations
-api_count: 2
+api_count: 1
 apis:
-- description: EIA's public, fully RESTful open data API covering more than two million energy time series. Datasets are arranged in a discoverable tree - request a parent route such as /v2/electricity and the API r
-  name: EIA Open Data API (APIv2)
-  slug: eia-open-data-api-v2
 - description: EIA's bulk data distribution surface, served from the same api.eia.gov host as APIv2 but requiring no API key whatsoever. A single manifest at /bulk/manifest.txt returns a JSON catalog of every bulk d
   name: EIA Bulk Download Facility
   slug: eia-bulk-download-facility
-artifact_total: 9
+- description: Access to Annual Energy Outlook Data
+  name: EIA AEO API
+  slug: eia-aeo-api
+- description: Access to Coal Data
+  name: EIA COAL API
+  slug: eia-coal-api
+- description: Access to Crude Oil Imports Data
+  name: EIA CRUD IMPORTS API
+  slug: eia-crud-imports-api
+- description: Access to Densified Biomass Data
+  name: EIA DBF API
+  slug: eia-dbf-api
+- description: Access to Electricity Data
+  name: EIA ELEC API
+  slug: eia-elec-api
+- description: Access to CO2 Emissions Data
+  name: EIA EMISS API
+  slug: eia-emiss-api
+- description: Access to International Energy Outlook Data
+  name: EIA IEO API
+  slug: eia-ieo-api
+- description: Access to International Data
+  name: EIA INTL API
+  slug: eia-intl-api
+- description: Access to Natural Gas Data
+  name: EIA NG API
+  slug: eia-ng-api
+- description: Access to Nuclear Outages Data
+  name: EIA NUC STATUS API
+  slug: eia-nuc-status-api
+- description: Available EIA API Datasets
+  name: EIA Root API
+  slug: eia-root-api
+- description: Access to Daily Electricity Data
+  name: EIA RTO API
+  slug: eia-rto-api
+- description: Access to State Energy Data Systems (SEDS) Data
+  name: EIA SEDS API
+  slug: eia-seds-api
+- description: Access to State Electricity Profiles
+  name: EIA SEP API
+  slug: eia-sep-api
+- description: Access to Short Term Energy Outlook Data
+  name: EIA STEO API
+  slug: eia-steo-api
+- description: Access to Total Energy Data
+  name: EIA TOTAL API
+  slug: eia-total-api
+artifact_total: 24
 collections:
 - collection_type: open
   name: EIA APIv2
@@ -235,7 +280,7 @@ modified: '2026-07-27'
 name: EIA
 nav: Providers
 network: true
-overview: 'EIA publishes 1 API on the [APIs.io](https://apis.io/) network: Open Data API (APIv2). Tagged areas include Energy, United States, Energy Markets, Electricity, and Natural Gas.
+overview: 'EIA publishes 16 APIs on the [APIs.io](https://apis.io/) network, including AEO API, COAL API, CRUD IMPORTS API, and 13 more. Tagged areas include Energy, United States, Energy Markets, Electricity, and Natural Gas.
 
 
   EIA''s developer surface includes authentication, developer portal, documentation, signup flow, developer console, tooling, API reference, and 37 more developer resources.'
@@ -246,18 +291,23 @@ rate_limits:
   slug: eia-rate-limits
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 50.5
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 45.6
+    contract_governance: 4.5
+    contract_quality: 45.5
     developer_ergonomics: 66.1
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 51.2
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -274,8 +324,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 41.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/screenshots/eia-2026-08-07T164749.png
 security:

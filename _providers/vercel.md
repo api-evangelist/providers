@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: vercel-agentic-access
   summary_line: 6 operations · 4 acting
-api_count: 6
+api_count: 2
 apis:
 - description: Vercel is a developer cloud to build and deploy web applications.
   name: Vercel
@@ -427,18 +427,23 @@ rules:
   slug: vercel-rules
 score:
   band: strong
-  composite: 58.3
-  delta: 2.4
+  composite: 57.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 66.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 13.6
     contract_quality: 69.0
     developer_ergonomics: 66.7
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 13.6
     operational_transparency: 52.6
-  previous_composite: 55.9
+  previous_composite: 58.3
   provenance:
     agentic_access: derived
     contracts:
@@ -446,8 +451,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/screenshots/vercel-2026-06-20T200923.png
 security:

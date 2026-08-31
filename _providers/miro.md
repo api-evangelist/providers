@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 197
   slug: miro-agentic-access
   summary_line: 197 operations · 112 acting · 3 human-in-the-loop
-api_count: 51
+api_count: 1
 apis:
 - description: The AI Interaction Logs API from Miro — 1 operation(s) for ai interaction logs.
   name: Miro AI Interaction Logs API
@@ -359,6 +359,10 @@ collections:
   name: Miro Developer Platform
   slug: open-miro
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/miro-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -430,7 +434,7 @@ network: true
 overview: 'Miro publishes 51 APIs on the [APIs.io](https://apis.io/) network, including AI Interaction Logs API, App card items API, App metrics (experimental) API, and 48 more. Tagged areas include Productivity, Whiteboard, Visual Collaboration, Diagramming, and Software-as-a-Service.
 
 
-  Miro''s developer surface includes authentication, pricing, GitHub presence, engineering blog, and 10 more developer resources.'
+  Miro''s developer surface includes authentication, pricing, GitHub presence, engineering blog, and 11 more developer resources.'
 plans:
 - name: Miro Plans Pricing
   plan_count: 4
@@ -447,18 +451,23 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: thin
-  composite: 34.1
-  delta: 1.7
+  composite: 33.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 82.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 60.1
     developer_ergonomics: 27.4
-    discoverability: 50.0
+    discoverability: 44.4
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 32.4
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -466,8 +475,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 51
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miro/refs/heads/main/screenshots/miro-2026-08-07T183725.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 36
   slug: tech-data-agentic-access
   summary_line: 36 operations · 14 acting
-api_count: 11
+api_count: 1
 apis:
 - description: Digital Bridge is TD SYNNEX's integration platform providing enterprise-grade REST APIs and pre-built connectors. Engineering teams get direct access to APIs for products, pricing, orders, renewals, a
   name: TD SYNNEX Digital Bridge API
@@ -116,6 +116,10 @@ collections:
   name: TD SYNNEX StreamOne Ion Authentication Subscriptions API
   slug: open-tech-data-subscriptions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tech-data-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -207,7 +211,7 @@ overview: 'Tech Data publishes 10 APIs on the [APIs.io](https://apis.io/) networ
   The Tech Data catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tech Data''s developer surface includes authentication and 10 more developer resources.'
+  Tech Data''s developer surface includes authentication and 11 more developer resources.'
 plans:
 - name: Tech Data Plans Pricing
   plan_count: 3
@@ -257,18 +261,23 @@ rules:
   slug: tech-data-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.4
-  delta: 1.9
+  composite: 41.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 32.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
     contract_governance: 69.7
     contract_quality: 67.5
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 69.7
     operational_transparency: 7.9
-  previous_composite: 40.5
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -276,8 +285,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/screenshots/tech-data-2026-06-20T195006.png
 security:

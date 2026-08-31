@@ -19,11 +19,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.8
-  scored_at: '2026-08-26'
+  score: 21.7
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The REST API behind IQM Resonance, IQM's quantum cloud service. It lists the quantum computers available on a server, reports their health and calibration state, accepts circuit and sweep jobs for exe
@@ -169,25 +169,30 @@ rate_limits:
   name: Iqm Quantum Computers Rate Limits
   slug: iqm-quantum-computers-rate-limits
 score:
-  band: thin
-  composite: 37.9
-  delta: -0.3
+  band: developing
+  composite: 44.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 6.7
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
     contract_governance: 4.5
-    contract_quality: 0.0
+    contract_quality: 26.7
     developer_ergonomics: 71.4
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 38.2
+  previous_composite: 37.9
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 security:
 - kind: authentication
   name: Iqm Quantum Computers Authentication

@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/fiserv/
 created: '2026-07-17'
 description: Fincentric Corporation was a Canadian core retail and wealth banking software vendor founded in 1984 and headquartered in Richmond, British Columbia. It provided account processing, core banking, and wealth management technology to credit unions and financial institutions, serving roughly 167 clients worldwide and claiming a large share of Canada's top credit unions. Backed by Battery Ventures alongside BancBoston Ventures, HarbourVest Partners, Shasta Ventures, and Ventures West Capital, the company was acquired by US core-banking vendor Open Solutions in May 2007; Open Solutions was itself acquired by Fiserv in 2013. Fincentric no longer operates as an independent company and publishes no live developer portal, public API, or documentation surface. This profile is retained as a historical/defunct entry — there are no API artifacts to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fincentric.png
@@ -48,6 +53,11 @@ random_paper: 11
 score:
   band: minimal
   composite: 0.3
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -73,8 +83,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: fincentric
 tags:

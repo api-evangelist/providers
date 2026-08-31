@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 24
   slug: verdaccio-agentic-access
   summary_line: 24 operations · 11 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: 'The Verdaccio npm Registry REST API implements the CommonJS Compliant Package Registry specification, providing endpoints to publish, retrieve, search, and delete npm packages. It supports JWT tokens '
   name: Verdaccio npm Registry API
@@ -102,6 +102,26 @@ collections:
   name: Verdaccio npm Registry dist-tags utility API
   slug: open-verdaccio-utility-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/verdaccio/verdaccio/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/verdaccio/verdaccio/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/verdaccio/verdaccio/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/verdaccio/verdaccio/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/verdaccio/verdaccio/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -202,13 +222,13 @@ modified: 2026-06-13
 name: Verdaccio
 nav: Providers
 network: true
-overview: 'Verdaccio publishes 8 APIs on the [APIs.io](https://apis.io/) network, including dist-tags API, packages API, profile API, and 5 more. Tagged areas include npm, Registry, Package Manager, private-registry, and Proxy.
+overview: 'Verdaccio publishes 8 APIs on the [APIs.io](https://apis.io/) network, including dist-tags API, packages API, profile API, and 5 more. Tagged areas include npm, Registry, package-manager, private-registry, and Proxy.
 
 
   The Verdaccio catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Verdaccio''s developer surface includes authentication, documentation, engineering blog, and 12 more developer resources.'
+  Verdaccio''s developer surface includes authentication, documentation, engineering blog, and 17 more developer resources.'
 plans:
 - name: Verdaccio Plans Pricing
   plan_count: 2
@@ -226,19 +246,27 @@ rules:
     warn: 3
   slug: verdaccio-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 32.2
-  delta: 0.0
+  band: developing
+  composite: 41.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 56.9
     developer_ergonomics: 19.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
-    operational_transparency: 5.3
-  previous_composite: 32.2
+    operational_transparency: 31.6
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -246,8 +274,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verdaccio/refs/heads/main/screenshots/verdaccio-2026-06-20T200918.png
 security:
@@ -263,15 +291,15 @@ slug: verdaccio
 tags:
 - npm
 - Registry
-- Package Manager
+- package-manager
 - private-registry
 - Proxy
-- Node.js
+- nodejs
 - Open-Source
-- Self-Hosted
-- YARN
+- self-hosted
+- yarn
 - pnpm
-- Docker
-- Kubernetes
+- docker
+- kubernetes
 website: https://www.verdaccio.org/
 ---

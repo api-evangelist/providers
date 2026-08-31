@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 3
 common:
@@ -215,7 +215,12 @@ overview: 'APRA is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 random_paper: 0
 score:
   band: thin
-  composite: 32.2
+  composite: 33.0
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -223,10 +228,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 53.6
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 32.2
+  previous_composite: 33.0
   provenance:
     conformance: first-party
   regulatory:
@@ -235,8 +240,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/screenshots/apra-2026-07-25T200856.png
 security:

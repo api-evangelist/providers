@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 39
   slug: amazon-kinesis-agentic-access
   summary_line: 39 operations · 36 acting · 2 human-in-the-loop
-api_count: 11
+api_count: 2
 apis:
 - description: Operations for describing and updating account-level settings and limits.
   name: Amazon Kinesis Account API
@@ -154,6 +154,10 @@ collections:
   name: Amazon Kinesis API
   slug: open-amazon-kinesis
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-kinesis-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -350,7 +354,7 @@ overview: 'Amazon Kinesis publishes 11 APIs on the [APIs.io](https://apis.io/) n
   The Amazon Kinesis catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Amazon Kinesis'' developer surface includes authentication, FAQ, engineering blog, documentation, support, developer console, developer portal, and 31 more developer resources.'
+  Amazon Kinesis'' developer surface includes authentication, FAQ, engineering blog, documentation, support, developer console, developer portal, and 32 more developer resources.'
 plans:
 - name: Amazon Kinesis Plans Pricing
   plan_count: 3
@@ -395,18 +399,23 @@ rules:
   slug: amazon-kinesis-spectral-rules
 score:
   band: strong
-  composite: 60.4
-  delta: 3.8
+  composite: 59.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 47.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 28.8
-    contract_quality: 76.7
+    contract_quality: 76.5
     developer_ergonomics: 69.0
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 56.6
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
     contracts:
@@ -414,8 +423,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis/refs/heads/main/screenshots/amazon-kinesis-2026-06-20T171718.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: citrix-netscaler-agentic-access
   summary_line: 28 operations · 16 acting
-api_count: 9
+api_count: 1
 apis:
 - description: The NetScaler Application Delivery Management (ADM) NITRO API provides programmatic access to manage, monitor, and orchestrate multiple NetScaler instances from a centralized platform, covering analyt
   name: NetScaler ADM NITRO API
@@ -116,6 +116,10 @@ collections:
   name: Citrix NetScaler NITRO REST Authentication System API
   slug: open-citrix-netscaler-system-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/citrix-netscaler-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -328,7 +332,7 @@ overview: 'Citrix NetScaler publishes 6 APIs on the [APIs.io](https://apis.io/) 
   The Citrix NetScaler catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Citrix NetScaler''s developer surface includes authentication, developer portal, documentation, CLI, engineering blog, support, signup flow, and 13 more developer resources.'
+  Citrix NetScaler''s developer surface includes authentication, developer portal, documentation, CLI, engineering blog, support, signup flow, and 14 more developer resources.'
 plans:
 - name: Citrix Netscaler Plans Pricing
   plan_count: 4
@@ -362,18 +366,23 @@ rules:
   slug: citrix-netscaler-spectral-rules
 score:
   band: developing
-  composite: 53.8
-  delta: 5.2
+  composite: 53.3
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 13.6
     contract_quality: 66.9
     developer_ergonomics: 76.2
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 48.6
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     contracts:
@@ -381,9 +390,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citrix-netscaler/refs/heads/main/screenshots/citrix-netscaler-2026-06-20T174413.png
 security:
 - kind: authentication

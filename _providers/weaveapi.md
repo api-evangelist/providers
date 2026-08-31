@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: OpenAI-wire-compatible REST API for chat completions, responses-style requests and the model catalog, authenticated with a bearer API key in the Authorization header. Three endpoints are documented (P
@@ -147,7 +147,7 @@ modified: '2026-08-11'
 name: WeaveAPI - OpenAI-compatible AI API Gateway
 nav: Providers
 network: true
-overview: 'WeaveAPI - OpenAI-compatible AI API Gateway publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LLM, AI Inference, API Gateway, and Aggregator.
+overview: 'WeaveAPI - OpenAI-compatible AI API Gateway publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LLM, AI inference, API gateway, and aggregator.
 
 
   WeaveAPI - OpenAI-compatible AI API Gateway''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 16 more developer resources.'
@@ -163,6 +163,11 @@ rate_limits:
 score:
   band: thin
   composite: 33.2
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 65.8
@@ -176,8 +181,8 @@ score:
   previous_composite: 33.2
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -192,15 +197,15 @@ slug: weaveapi
 tags:
 - Artificial Intelligence
 - LLM
-- AI Inference
-- API Gateway
-- Aggregator
-- OpenAI-Compatible
+- AI inference
+- API gateway
+- aggregator
+- OpenAI-compatible
 - Developer Tools
-- Model Routing
-- LLM Gateway
+- model routing
+- LLM gateway
 - prepaid credits
-- Agent Tools
-- Model Marketplace
+- agent tools
+- model marketplace
 website: https://weaveapi.dev/
 ---

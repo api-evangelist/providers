@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,14 +42,8 @@ agentic_access:
   operation_count: 17
   slug: dosespot-agentic-access
   summary_line: 17 operations · 6 acting
-api_count: 8
+api_count: 3
 apis:
-- description: The DoseSpot REST API v2 contract for JumpStart customers - 139 operations, the subset available alongside DoseSpot's pre-built iFrame/SSO prescribing experience. Harvested verbatim from DoseSpot's ow
-  name: DoseSpot REST API - JumpStart + EPCS - V2
-  slug: dosespot-rest-api-jumpstart-epcs-v2
-- description: The complete DoseSpot REST API v2 contract for Full Integration customers - 171 operations across 28 resource groups covering patients, allergies, medications, interactions, pharmacies, prescriptions,
-  name: DoseSpot REST API - Full + EPCS - V2
-  slug: dosespot-rest-api-full-epcs-v2
 - description: Medi-Span drug search and interaction checks.
   name: DoseSpot Medications API
   slug: dosespot-medications-api
@@ -68,7 +62,70 @@ apis:
 - description: Prescription creation, transmission, status, and medication history.
   name: DoseSpot Prescriptions API
   slug: dosespot-prescriptions-api
-artifact_total: 26
+- description: The Allergens API from DoseSpot — 3 operation(s) for allergens.
+  name: DoseSpot Allergens API
+  slug: dosespot-allergens-api
+- description: The Allergies API from DoseSpot — 5 operation(s) for allergies.
+  name: DoseSpot Allergies API
+  slug: dosespot-allergies-api
+- description: The ClinicFavorites API from DoseSpot — 7 operation(s) for clinicfavorites.
+  name: DoseSpot Clinic Favorites API
+  slug: dosespot-clinicfavorites-api
+- description: The ClinicGroups API from DoseSpot — 1 operation(s) for clinicgroups.
+  name: DoseSpot Clinic Groups API
+  slug: dosespot-clinicgroups-api
+- description: The ClinicianFavorites API from DoseSpot — 8 operation(s) for clinicianfavorites.
+  name: DoseSpot Clinician Favorites API
+  slug: dosespot-clinicianfavorites-api
+- description: The ClinicianOrderSets API from DoseSpot — 3 operation(s) for clinicianordersets.
+  name: DoseSpot Clinician Order Sets API
+  slug: dosespot-clinicianordersets-api
+- description: The Clinicians API from DoseSpot — 26 operation(s) for clinicians.
+  name: DoseSpot Clinicians API
+  slug: dosespot-clinicians-api
+- description: The ClinicOrderSets API from DoseSpot — 1 operation(s) for clinicordersets.
+  name: DoseSpot Clinic Order Sets API
+  slug: dosespot-clinicordersets-api
+- description: The Clinics API from DoseSpot — 7 operation(s) for clinics.
+  name: DoseSpot Clinics API
+  slug: dosespot-clinics-api
+- description: The Diagnoses API from DoseSpot — 1 operation(s) for diagnoses.
+  name: DoseSpot Diagnoses API
+  slug: dosespot-diagnoses-api
+- description: The Eligibilities API from DoseSpot — 4 operation(s) for eligibilities.
+  name: DoseSpot Eligibilities API
+  slug: dosespot-eligibilities-api
+- description: The HealthCheck API from DoseSpot — 1 operation(s) for healthcheck.
+  name: DoseSpot Health Check API
+  slug: dosespot-healthcheck-api
+- description: The Interactions API from DoseSpot — 3 operation(s) for interactions.
+  name: DoseSpot Interactions API
+  slug: dosespot-interactions-api
+- description: The MedicationHistory API from DoseSpot — 2 operation(s) for medicationhistory.
+  name: DoseSpot Medication History API
+  slug: dosespot-medicationhistory-api
+- description: The Narx API from DoseSpot — 3 operation(s) for narx.
+  name: DoseSpot Narx API
+  slug: dosespot-narx-api
+- description: The PriorAuthorizations API from DoseSpot — 16 operation(s) for priorauthorizations.
+  name: DoseSpot Prior Authorizations API
+  slug: dosespot-priorauthorizations-api
+- description: The Refills API from DoseSpot — 6 operation(s) for refills.
+  name: DoseSpot Refills API
+  slug: dosespot-refills-api
+- description: The RxChanges API from DoseSpot — 6 operation(s) for rxchanges.
+  name: DoseSpot Rx Changes API
+  slug: dosespot-rxchanges-api
+- description: The SelfReportedMedications API from DoseSpot — 9 operation(s) for selfreportedmedications.
+  name: DoseSpot Self Reported Medications API
+  slug: dosespot-selfreportedmedications-api
+- description: The Supplies API from DoseSpot — 2 operation(s) for supplies.
+  name: DoseSpot Supplies API
+  slug: dosespot-supplies-api
+- description: The Transparency API from DoseSpot — 1 operation(s) for transparency.
+  name: DoseSpot Transparency API
+  slug: dosespot-transparency-api
+artifact_total: 45
 asyncapis:
 - description: ''
   name: Dosespot Webhooks
@@ -99,6 +156,14 @@ collections:
   name: DoseSpot API
   slug: open-dosespot
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dosespot-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dosespot-jumpstart-epcs-v2-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -256,13 +321,13 @@ modified: '2026-08-15'
 name: DoseSpot
 nav: Providers
 network: true
-overview: 'DoseSpot publishes 8 APIs on the [APIs.io](https://apis.io/) network, including REST API - JumpStart + EPCS - V2, REST API - Full + EPCS - V2, Medications API, and 5 more. Tagged areas include e-Prescribing, eRx, Healthcare, EHR, and Pharmacy.
+overview: 'DoseSpot publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Medications API, Notifications API, Patients API, and 24 more. Tagged areas include e-Prescribing, eRx, Healthcare, EHR, and Pharmacy.
 
 
   The DoseSpot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  DoseSpot''s developer surface includes authentication, documentation, engineering blog, sandbox, API reference, getting-started guide, support, and 28 more developer resources.'
+  DoseSpot''s developer surface includes authentication, documentation, engineering blog, sandbox, API reference, getting-started guide, support, and 30 more developer resources.'
 plans:
 - name: Dosespot Plans Pricing
   plan_count: 2
@@ -274,18 +339,23 @@ rate_limits:
   slug: dosespot-rate-limits
 score:
   band: strong
-  composite: 66.4
-  delta: 0.9
+  composite: 63.2
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 45.5
-    contract_quality: 62.9
+    contract_governance: 33.3
+    contract_quality: 56.0
     developer_ergonomics: 70.8
     discoverability: 74.1
-    governance: 45.5
+    governance: 33.3
     operational_transparency: 31.6
-  previous_composite: 65.5
+  previous_composite: 63.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -298,12 +368,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/screenshots/dosespot-2026-07-25T212312.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: captivate-fm-agentic-access
   summary_line: 28 operations · 10 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Podcast and episode listening analytics (insights).
   name: Captivate Analytics API
@@ -89,6 +89,10 @@ collections:
   name: Captivate API
   slug: open-captivate-fm
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/captivate-fm-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -148,7 +152,7 @@ network: true
 overview: 'Captivate publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Authentication API, Episodes API, and 3 more. Tagged areas include Podcasting, Podcast Hosting, Episodes, Media, and Analytics.
 
 
-  Captivate''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  Captivate''s developer surface includes authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Captivate Fm Plans Pricing
   plan_count: 3
@@ -160,18 +164,23 @@ rate_limits:
   slug: captivate-fm-rate-limits
 score:
   band: developing
-  composite: 42.6
-  delta: 2.4
+  composite: 42.0
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 57.8
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 40.2
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +188,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/captivate-fm/refs/heads/main/screenshots/captivate-fm-2026-07-25T204454.png
 security:

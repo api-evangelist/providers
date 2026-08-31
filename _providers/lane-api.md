@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-08-26'
-api_count: 177
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Accord API from Lane API — 1 operation(s) for accord.
   name: Lane API Accord API
@@ -1101,6 +1101,10 @@ collections:
   name: Lane Year API
   slug: open-lane-api-year-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lane-api-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -1129,26 +1133,31 @@ rate_limits:
   slug: lane-api-rate-limits
 score:
   band: emerging
-  composite: 21.2
-  delta: 0.1
+  composite: 20.6
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 87.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 47.9
     developer_ergonomics: 4.8
-    discoverability: 40.7
+    discoverability: 35.2
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 21.1
+  previous_composite: 21.2
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 177
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lane-api/refs/heads/main/screenshots/lane-api-2026-06-20T184300.png
 security:

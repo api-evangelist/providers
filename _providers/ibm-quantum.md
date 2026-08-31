@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 30
   slug: ibm-quantum-agentic-access
   summary_line: 30 operations · 8 acting
-api_count: 11
+api_count: 6
 apis:
 - description: 'Premium / Flex-tier service for discovering and invoking abstracted Qiskit Functions — pre-packaged quantum-classical workflows (e.g. circuit cutting, error-mitigation pipelines) callable through the '
   name: Qiskit Functions Catalog API
@@ -464,16 +464,16 @@ jsonld:
   slug: ibm-quantum-context
 layout: provider
 modified: '2026-05-25'
-name: ibm-quantum
+name: IBM Quantum
 nav: Providers
 network: true
-overview: 'ibm-quantum publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, Backends API, and 6 more.
+overview: 'IBM Quantum publishes 9 APIs on the [APIs.io](https://apis.io/) network, including ibm-quantum Accounts API, ibm-quantum Analytics API, ibm-quantum Backends API, and 6 more.
 
 
-  The ibm-quantum catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The IBM Quantum catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  ibm-quantum''s developer surface includes authentication, developer portal, documentation, pricing, getting-started guide, sandbox, training material, and 49 more developer resources.'
+  IBM Quantum''s developer surface includes authentication, developer portal, documentation, pricing, getting-started guide, sandbox, training material, and 49 more developer resources.'
 plans:
 - name: Ibm Quantum Plans Pricing
   plan_count: 5
@@ -486,7 +486,7 @@ rate_limits:
 rules:
 - effective_rule_count: 6
   extends: []
-  name: ibm-quantum API Rules
+  name: IBM Quantum API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -497,7 +497,7 @@ rules:
 - effective_rule_count: 45
   extends:
   - spectral:oas
-  name: ibm-quantum API Rules
+  name: IBM Quantum API Rules
   rule_count: 4
   severity_counts:
     error: 2
@@ -508,6 +508,11 @@ rules:
 score:
   band: strong
   composite: 65.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
@@ -530,8 +535,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/screenshots/ibm-quantum-2026-06-20T183130.png
 security:

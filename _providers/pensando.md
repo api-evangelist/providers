@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST API for the AMD Pensando Policy and Services Manager control plane — manage clusters, networks, security policy, and services on Pensando DPUs. The API is served per-appliance; live interactive d
@@ -41,6 +41,18 @@ apis:
   slug: amd-pensando-policy-and-services-manager-psm-rest-api
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/amd/
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/pensando/pypi/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/pensando/pypi/releases
 - group: company
   title: ''
   type: Website
@@ -96,12 +108,17 @@ network: true
 overview: 'Pensando * publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Networking, DPU, and Infrastructure.
 
 
-  Pensando *''s developer surface includes authentication and 10 more developer resources.'
+  Pensando *''s developer surface includes authentication and 13 more developer resources.'
 random_paper: 16
 score:
   band: emerging
-  composite: 12.7
-  delta: 1.9
+  composite: 15.8
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -110,10 +127,13 @@ score:
     developer_ergonomics: 28.6
     discoverability: 66.7
     governance: 0.0
-    operational_transparency: 2.6
-  previous_composite: 10.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 15.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

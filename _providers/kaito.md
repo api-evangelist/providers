@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: kaito-agentic-access
   summary_line: 9 operations · 8 acting
-api_count: 5
+api_count: 1
 apis:
 - description: RAGEngine exposes endpoints for managing retrieval-augmented generation services with embedded vector databases, including document indexing, retrieval, and chat completion endpoints.
   name: KAITO RAGEngine API
@@ -79,6 +79,10 @@ collections:
   name: KAITO RAGEngine REST API
   slug: open-kaito
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kaito-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -122,7 +126,7 @@ network: true
 overview: 'KAITO publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Index Management API, Persistence API, and 1 more. Tagged areas include Artificial Intelligence, GPU, Inference, Kubernetes, and LLM.
 
 
-  KAITO''s developer surface includes documentation, getting-started guide, and 5 more developer resources.'
+  KAITO''s developer surface includes documentation, getting-started guide, and 6 more developer resources.'
 plans:
 - name: Kaito Plans Pricing
   plan_count: 3
@@ -133,16 +137,21 @@ rate_limits:
   name: Kaito Rate Limits
   slug: kaito-rate-limits
 score:
-  band: thin
-  composite: 26.3
-  delta: 0.0
+  band: emerging
+  composite: 25.8
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 44.2
     developer_ergonomics: 21.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 26.3
@@ -153,8 +162,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaito/refs/heads/main/screenshots/kaito-2026-06-20T183901.png
 slug: kaito

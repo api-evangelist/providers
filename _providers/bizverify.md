@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
-api_count: 10
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Hosted MCP server over Streamable HTTP exposing nine tools — get_config, list_jurisdictions, verify_business, search_entities, check_job_status, get_entity, get_entity_history, get_account and purchas
   name: BizVerify MCP Server
@@ -158,26 +158,31 @@ overview: 'BizVerify publishes 9 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 20
 score:
   band: thin
-  composite: 30.0
-  delta: 4.6
+  composite: 30.6
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 47.8
     developer_ergonomics: 16.7
-    discoverability: 72.2
+    discoverability: 77.8
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 25.4
+  previous_composite: 31.1
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bizverify/refs/heads/main/screenshots/bizverify-2026-08-07T162603.png
 slug: bizverify
@@ -188,7 +193,7 @@ tags:
 - Entity Verification
 - Compliance
 - MCP
-- agent-native
+- Agent-native
 - Developer Tools
 website: https://bizverify.co
 ---

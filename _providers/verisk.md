@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: verisk-agentic-access
   summary_line: 6 operations · 3 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Verisk UnderWriting API provides personal and commercial lines insurance underwriting data including homeowner data, motor vehicle reports, A-PLUS auto and property reports, LightSpeed prefill, geocod
   name: Verisk UnderWriting API
@@ -92,6 +92,10 @@ collections:
   name: Verisk Insurance Analytics Catastrophe Risk Scoring API
   slug: open-verisk-risk-scoring-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/verisk-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -333,7 +337,7 @@ overview: 'Verisk publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
   The Verisk catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Verisk''s developer surface includes authentication, developer portal, API reference, documentation, getting-started guide, and 12 more developer resources.'
+  Verisk''s developer surface includes authentication, developer portal, API reference, documentation, getting-started guide, and 13 more developer resources.'
 plans:
 - name: Verisk Plans Pricing
   plan_count: 1
@@ -367,15 +371,20 @@ rules:
   slug: verisk-spectral-rules
 score:
   band: developing
-  composite: 42.6
-  delta: 0.0
+  composite: 42.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 73.1
     developer_ergonomics: 54.8
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 7.9
   previous_composite: 42.6
@@ -392,8 +401,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/screenshots/verisk-2026-08-17T082751.png
 security:

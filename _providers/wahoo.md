@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: wahoo-agentic-access
   summary_line: 28 operations · 16 acting · 1 human-in-the-loop
-api_count: 10
+api_count: 1
 apis:
 - description: Native iOS SDK for interacting with Wahoo devices directly over BLE/ANT+ and integrating with the Wahoo Cloud. Documented at the Wahoo developer portal under the iOS product. Access is gated by the Wa
   name: Wahoo iOS API
@@ -252,18 +252,23 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.1
-  delta: 11.2
+  composite: 54.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.3
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 28.8
     contract_quality: 74.1
-    developer_ergonomics: 45.2
-    discoverability: 64.8
+    developer_ergonomics: 39.3
+    discoverability: 59.3
     governance: 28.8
-    operational_transparency: 44.7
-  previous_composite: 45.9
+    operational_transparency: 40.8
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     contracts:
@@ -277,9 +282,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/screenshots/wahoo-2026-06-20T201201.png
 security:
 - kind: authentication

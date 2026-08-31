@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 10
   slug: puma-agentic-access
   summary_line: 10 operations
-api_count: 11
+api_count: 1
 apis:
 - description: Puma ships with an optional control/status HTTP application that can be bound to a local port or Unix socket and queried for runtime statistics (busy threads, worker status, backlog) and lifecycle con
   name: Puma Control/Status Application
@@ -115,6 +115,22 @@ collections:
   name: Puma Control/Status Application API
   slug: open-puma
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/puma/puma/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/puma/puma/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/puma/puma/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/puma/puma/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -174,22 +190,30 @@ network: true
 overview: 'Puma publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Gc API, Gc Stats API, Halt API, and 7 more. Tagged areas include Web Server, Ruby, Rack, Application Server, and HTTP.
 
 
-  Puma''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Puma''s developer surface includes authentication, documentation, and 14 more developer resources.'
 random_paper: 15
 score:
-  band: emerging
-  composite: 25.9
-  delta: 0.0
+  band: thin
+  composite: 35.9
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 51.7
     developer_ergonomics: 26.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 2.6
-  previous_composite: 25.9
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -197,8 +221,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/screenshots/puma-2026-06-20T192302.png
 security:

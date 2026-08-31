@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 30
   slug: temenos-transact-agentic-access
   summary_line: 30 operations · 8 acting
-api_count: 13
+api_count: 1
 apis:
 - description: APIs for Temenos Transact microservices including callback registry, configuration management, user entitlements, and service orchestration for building event-driven and composable banking application
   name: Temenos Transact Microservices APIs
@@ -122,6 +122,10 @@ collections:
   name: Temenos Transact Core Banking Accounts Transactions API
   slug: open-temenos-transact-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/temenos-transact-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -662,7 +666,7 @@ overview: 'Temenos Transact publishes 10 APIs on the [APIs.io](https://apis.io/)
   The Temenos Transact catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Temenos Transact''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, signup flow, support, and 9 more developer resources.'
+  Temenos Transact''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, signup flow, support, and 10 more developer resources.'
 plans:
 - name: Temenos Transact Plans Pricing
   plan_count: 1
@@ -696,18 +700,23 @@ rules:
   slug: temenos-transact-spectral-rules
 score:
   band: developing
-  composite: 45.5
-  delta: 3.2
+  composite: 45.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 13.6
     contract_quality: 70.7
     developer_ergonomics: 51.2
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 15.8
-  previous_composite: 42.3
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -721,8 +730,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/screenshots/temenos-transact-2026-06-20T195053.png
 security:

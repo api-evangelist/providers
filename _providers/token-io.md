@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 71
   slug: token-io-agentic-access
   summary_line: 71 operations · 24 acting · 1 human-in-the-loop
-api_count: 29
+api_count: 1
 apis:
 - description: Official Token.io JavaScript SDK for Node.js and browser environments interacting with the Token System and Open Banking API.
   name: Token.io JavaScript SDK
@@ -373,16 +373,16 @@ jsonld:
   slug: token-io-context
 layout: provider
 modified: '2026-05-25'
-name: token-io
+name: Token.io
 nav: Providers
 network: true
-overview: 'token-io publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Account on File API, Accounts API, Authentication keys API, and 15 more.
+overview: 'Token.io publishes 18 APIs on the [APIs.io](https://apis.io/) network, including token-io Account on File API, token-io Accounts API, token-io Authentication keys API, and 15 more.
 
 
-  The token-io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Token.io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  token-io''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, sandbox, pricing, and 12 more developer resources.'
+  Token.io''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, sandbox, pricing, and 12 more developer resources.'
 plans:
 - name: Token Io Plans Pricing
   plan_count: 4
@@ -395,7 +395,7 @@ rate_limits:
 rules:
 - effective_rule_count: 6
   extends: []
-  name: token-io API Rules
+  name: Token.io API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -405,18 +405,23 @@ rules:
   slug: token-io-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 55.3
-  delta: 3.3
+  composite: 54.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 42.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 66.6
     developer_ergonomics: 85.7
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 52.0
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     contracts:
@@ -428,8 +433,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/screenshots/token-io-2026-06-20T195438.png
 security:

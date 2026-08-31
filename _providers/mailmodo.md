@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,17 +24,17 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
-    idempotency: false
+    idempotency: verified
     mcp_server: documented
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.8
-  scored_at: '2026-08-26'
+  score: 42.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: mailmodo-agentic-access
   summary_line: 14 operations · 10 acting
-api_count: 8
+api_count: 9
 apis:
 - description: List campaigns, fetch reports, and trigger sends to individuals or lists
   name: Mailmodo Campaigns API
@@ -59,16 +59,37 @@ apis:
 - description: List interactive AMP email templates available on the workspace
   name: Mailmodo Templates API
   slug: mailmodo-templates-api
-- description: Add a contact to an automated email journey, or abort that journey for a contact
-  name: Mailmodo User Journeys API
-  slug: mailmodo-user-journeys-api
-- description: Trigger a campaign whose AMP email carries a form generated at runtime from the request payload
-  name: Mailmodo Dynamic Form API
-  slug: mailmodo-dynamic-form-api
-- description: Trigger a campaign whose AMP email repeats a content block once per item in the payload
-  name: Mailmodo Repeatable Block API
-  slug: mailmodo-repeatable-block-api
-artifact_total: 75
+- description: The AddEvent API from Mailmodo — 1 operation(s) for addevent.
+  name: Mailmodo Add Event API
+  slug: mailmodo-addevent-api
+- description: The AddToList API from Mailmodo — 2 operation(s) for addtolist.
+  name: Mailmodo Add To List API
+  slug: mailmodo-addtolist-api
+- description: The BulktriggerCampaign API from Mailmodo — 1 operation(s) for bulktriggercampaign.
+  name: Mailmodo Bulktrigger Campaign API
+  slug: mailmodo-bulktriggercampaign-api
+- description: The CampaignReports API from Mailmodo — 1 operation(s) for campaignreports.
+  name: Mailmodo Campaign Reports API
+  slug: mailmodo-campaignreports-api
+- description: The GetAllContactLists API from Mailmodo — 1 operation(s) for getallcontactlists.
+  name: Mailmodo Get All Contact Lists API
+  slug: mailmodo-getallcontactlists-api
+- description: The GetAllTemplates API from Mailmodo — 1 operation(s) for getalltemplates.
+  name: Mailmodo Get All Templates API
+  slug: mailmodo-getalltemplates-api
+- description: The GetContactDetails API from Mailmodo — 1 operation(s) for getcontactdetails.
+  name: Mailmodo Get Contact Details API
+  slug: mailmodo-getcontactdetails-api
+- description: The Hooks API from Mailmodo — 2 operation(s) for hooks.
+  name: Mailmodo Hooks API
+  slug: mailmodo-hooks-api
+- description: The RemoveFromList API from Mailmodo — 1 operation(s) for removefromlist.
+  name: Mailmodo Remove From List API
+  slug: mailmodo-removefromlist-api
+- description: The TriggerCampaign API from Mailmodo — 1 operation(s) for triggercampaign.
+  name: Mailmodo Trigger Campaign API
+  slug: mailmodo-triggercampaign-api
+artifact_total: 82
 asyncapis:
 - description: ''
   name: Mailmodo Webhooks
@@ -120,6 +141,18 @@ collections:
   name: Mailmodo API
   slug: open-mailmodo
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mailmodo-user-journeys-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mailmodo-dynamic-form-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mailmodo-repeatable-block-api-overlay.yaml
 - group: operate
   title: ''
   type: IssueTracker
@@ -401,13 +434,13 @@ modified: '2026-08-13'
 name: Mailmodo
 nav: Providers
 network: true
-overview: 'Mailmodo publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Contact Lists API, Contacts API, and 5 more. Tagged areas include Email, Interactive Email, AMP for Email, Marketing Automation, and Transactional Email.
+overview: 'Mailmodo publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Contact Lists API, Contacts API, and 12 more. Tagged areas include Email, Interactive Email, AMP for Email, Marketing Automation, and Transactional Email.
 
 
   The Mailmodo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Mailmodo''s developer surface includes authentication, documentation, API reference, support, signup flow, developer portal, developer console, and 39 more developer resources.'
+  Mailmodo''s developer surface includes authentication, documentation, API reference, support, signup flow, developer portal, developer console, and 42 more developer resources.'
 plans:
 - name: Mailmodo Plans Pricing
   plan_count: 3
@@ -440,19 +473,27 @@ rules:
     warn: 3
   slug: mailmodo-rules
 score:
-  band: exemplar
-  composite: 68.3
-  delta: 0.6
+  band: strong
+  composite: 62.5
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 32.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -4.2
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 45.5
-    contract_quality: 80.0
+    contract_governance: 33.3
+    contract_quality: 79.3
     developer_ergonomics: 56.5
     discoverability: 81.5
-    governance: 45.5
+    governance: 33.3
     operational_transparency: 26.3
-  previous_composite: 67.7
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 66.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -463,8 +504,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/screenshots/mailmodo-2026-06-20T184904.png
 security:

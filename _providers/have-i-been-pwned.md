@@ -25,15 +25,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-08-26'
+  score: 30.6
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 17
   slug: have-i-been-pwned-agentic-access
   summary_line: 17 operations · 3 acting
-api_count: 16
+api_count: 3
 apis:
 - description: REST API for searching breached accounts, pastes, breach metadata, domain breach data, and stealer log entries. Authentication requires an hibp-api-key header (32-character key) along with a descripti
   name: Have I Been Pwned API v3
@@ -91,7 +91,25 @@ apis:
 - description: The Subscription API from Have I Been Pwned — 1 operation(s) for subscription.
   name: Have I Been Pwned Subscription API
   slug: have-i-been-pwned-subscription-api
-artifact_total: 106
+- description: Lookup breaches affecting an email address.
+  name: Have I Been Pwned Breached Accounts API
+  slug: have-i-been-pwned-breached-accounts-api
+- description: Enumerate classes of data exposed across breaches.
+  name: Have I Been Pwned Data Classes API
+  slug: have-i-been-pwned-data-classes-api
+- description: Verify and search domains you control.
+  name: Have I Been Pwned Domain Search API
+  slug: have-i-been-pwned-domain-search-api
+- description: Lookup pastes referencing an email address.
+  name: Have I Been Pwned Pastes API
+  slug: have-i-been-pwned-pastes-api
+- description: K-anonymity range search for password hashes.
+  name: Have I Been Pwned Range Search API
+  slug: have-i-been-pwned-range-search-api
+- description: Search infostealer malware corpora by email or domain.
+  name: Have I Been Pwned Stealer Logs API
+  slug: have-i-been-pwned-stealer-logs-api
+artifact_total: 112
 collections:
 - collection_type: postman
   name: Have I Been Pwned API v3 Breached Accounts API
@@ -418,7 +436,7 @@ modified: '2026-08-08'
 name: Have I Been Pwned
 nav: Providers
 network: true
-overview: 'Have I Been Pwned publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Breach API, Breachedaccount API, Breacheddomain API, and 11 more. Tagged areas include Security, Data Breaches, Pwned Passwords, Identity, and Threat Intelligence.
+overview: 'Have I Been Pwned publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Breach API, Breachedaccount API, Breacheddomain API, and 17 more. Tagged areas include Security, Data Breaches, Pwned Passwords, Identity, and Threat Intelligence.
 
 
   The Have I Been Pwned catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -458,18 +476,23 @@ rules:
   slug: hibp-rules
 score:
   band: developing
-  composite: 52.4
+  composite: 52.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 39.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 28.8
-    contract_quality: 58.8
+    contract_quality: 59.9
     developer_ergonomics: 38.1
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 52.4
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     contracts:
@@ -477,8 +500,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/have-i-been-pwned/refs/heads/main/screenshots/have-i-been-pwned-2026-06-20T182538.png
 security:

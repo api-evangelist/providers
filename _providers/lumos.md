@@ -11,30 +11,31 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
+    mcp_server: documented
+    openapi_examples: partial
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-26'
+  score: 55.6
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 67
   slug: lumos-agentic-access
   summary_line: 67 operations · 33 acting
-api_count: 16
+api_count: 1
 apis:
 - description: The Lumos REST API enables programmatic access to the Lumos identity platform for automating tasks such as managing users, apps, access requests, and governance workflows. All requests require a beare
   name: Lumos REST API
@@ -92,7 +93,11 @@ apis:
 - description: The Webhooks API from Lumos — 1 operation(s) for webhooks.
   name: Lumos Webhooks API
   slug: lumos-webhooks-api
-artifact_total: 37
+artifact_total: 41
+asyncapis:
+- description: ''
+  name: Lumos Webhooks
+  slug: lumos-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -182,8 +187,8 @@ common:
   url: https://www.lumos.com/demo
 - group: build
   title: ''
-  type: GitHub
-  url: https://github.com/Lumos-Labs
+  type: GitHubOrganization
+  url: https://github.com/teamlumos
 - group: company
   title: ''
   type: LinkedIn
@@ -192,14 +197,118 @@ common:
   title: ''
   type: CLI
   url: https://developers.lumos.com/docs/cli
-- group: docs
-  title: ''
-  type: ProductDocumentation
-  url: https://docs.lumos.com/
 - group: agent
   title: ''
   type: LlmsText
   url: https://developers.lumos.com/llms.txt
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.lumos.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.lumos.com/reference/lumos-api
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://developers.lumos.com/page/public-roadmap
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.lumos.com/pricing
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.lumos.com/privacy
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.lumos.com/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.lumos.com/
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/lumos-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/lumos-tool-crosswalk.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/lumos-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/lumos-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/lumos-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/lumos-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/lumos-cli.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/lumos-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/lumos-error-codes.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/lumos-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/lumos-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/lumos-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/lumos-conformance.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/lumos-webhooks.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lumos-openapi-overlay.yaml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/lumos-llms.txt
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/lumos-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/lumos-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/lumos-finops.yml
 created: '2026-03-16'
 description: Lumos is the first Autonomous Identity Platform that helps organizations discover and manage access to all apps with enhanced security, increased productivity, and reduced cost. Lumos automates access requests, enforces least privilege, speeds up user access reviews, and eliminates extra SaaS app spending through 80+ connectors and an API.
 finops:
@@ -208,37 +317,54 @@ finops:
   slug: lumos-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lumos.png
 layout: provider
-modified: '2026-03-27'
+mcp_servers:
+- description: 'Lumos ships TWO first-party remote MCP servers on its own API host: an end-user server for self-service access requests, and an admin server whose tools are selected per-connection through a `toolsets'
+  name: Lumos MCP
+  slug: lumos-mcp
+modified: '2026-08-29'
 name: Lumos
 nav: Providers
 network: true
-overview: 'Lumos publishes 14 APIs on the [APIs.io](https://apis.io/) network, including AccessPolicies API, AccessRequests API, AccessReviews API, and 11 more. Tagged areas include Access Management, Access Reviews, Deprovisioning, Identity Governance, and Identity Platform.
+overview: 'Lumos publishes 15 APIs on the [APIs.io](https://apis.io/) network, including REST API, AccessPolicies API, AccessRequests API, and 12 more. Tagged areas include Access Management, Access Reviews, Deprovisioning, Identity Governance, and Identity Platform.
 
 
-  Lumos'' developer surface includes authentication, documentation, support, getting-started guide, engineering blog, signup flow, GitHub presence, and 8 more developer resources.'
+  The Lumos catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Lumos'' developer surface includes authentication, documentation, support, getting-started guide, engineering blog, signup flow, CLI, and 34 more developer resources.'
 plans:
 - name: Lumos Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: lumos-plans-pricing
 random_paper: 14
 rate_limits:
-- limit_count: 5
+- limit_count: 1
   name: Lumos Rate Limits
   slug: lumos-rate-limits
+scopes:
+- name: Lumos Scopes
+  scope_count: 0
+  slug: lumos-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 33.5
-  delta: 0.0
+  band: developing
+  composite: 51.7
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
-    access_clarity: 22.4
-    commercial_clarity: 22.4
-    contract_governance: 0.0
-    contract_quality: 53.7
-    developer_ergonomics: 33.3
-    discoverability: 72.2
-    governance: 0.0
-    operational_transparency: 13.2
-  previous_composite: 33.5
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 62.3
+    developer_ergonomics: 56.0
+    discoverability: 75.9
+    governance: 18.2
+    operational_transparency: 50.0
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     contracts:
@@ -246,19 +372,23 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/screenshots/lumos-2026-06-20T184756.png
 security:
 - kind: authentication
   name: Lumos Authentication
   slug: lumos-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 2 schemes
 - kind: domain-security
   name: Lumos Domain Security
   slug: lumos-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Lumos Trust Center
+  slug: lumos-trust-center
+  summary_line: trust center published
 slug: lumos
 tags:
 - Access Management

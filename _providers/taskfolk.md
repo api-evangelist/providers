@@ -23,21 +23,119 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.3
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: First-party REST API (~180 operations) covering issues, projects, sprints, comments, agents, docs, goals, forms, automations, chat, and webhooks. Bearer API key auth, cursor pagination, signed webhook
-  name: Taskfolk API
-  slug: taskfolk-api
-- description: Machine-payable credit purchase for a Taskfolk workspace, published as a separate OpenAPI 3.1 document at https://taskfolk.ai/openapi.json. Four operations (/api/mpp/v1/credits/{small|medium|large|cus
-  name: Taskfolk Agent Commerce API
-  slug: taskfolk-agent-commerce-api
-artifact_total: 10
+- description: The Activity API from Taskfolk — 1 operation(s) for activity.
+  name: Taskfolk Activity API
+  slug: taskfolk-activity-api
+- description: The Agents API from Taskfolk — 5 operation(s) for agents.
+  name: Taskfolk Agents API
+  slug: taskfolk-agents-api
+- description: The Attachments API from Taskfolk — 3 operation(s) for attachments.
+  name: Taskfolk Attachments API
+  slug: taskfolk-attachments-api
+- description: The Automations API from Taskfolk — 3 operation(s) for automations.
+  name: Taskfolk Automations API
+  slug: taskfolk-automations-api
+- description: The Chat API from Taskfolk — 9 operation(s) for chat.
+  name: Taskfolk Chat API
+  slug: taskfolk-chat-api
+- description: The Comments API from Taskfolk — 3 operation(s) for comments.
+  name: Taskfolk Comments API
+  slug: taskfolk-comments-api
+- description: The Custom fields API from Taskfolk — 4 operation(s) for custom fields.
+  name: Taskfolk Custom fields API
+  slug: taskfolk-custom-fields-api
+- description: The Developer API from Taskfolk — 10 operation(s) for developer.
+  name: Taskfolk Developer API
+  slug: taskfolk-developer-api
+- description: The Docs API from Taskfolk — 9 operation(s) for docs.
+  name: Taskfolk Docs API
+  slug: taskfolk-docs-api
+- description: The Forms API from Taskfolk — 5 operation(s) for forms.
+  name: Taskfolk Forms API
+  slug: taskfolk-forms-api
+- description: The Goals API from Taskfolk — 2 operation(s) for goals.
+  name: Taskfolk Goals API
+  slug: taskfolk-goals-api
+- description: The Issues API from Taskfolk — 8 operation(s) for issues.
+  name: Taskfolk Issues API
+  slug: taskfolk-issues-api
+- description: The Key results API from Taskfolk — 2 operation(s) for key results.
+  name: Taskfolk Key results API
+  slug: taskfolk-key-results-api
+- description: The Labels API from Taskfolk — 2 operation(s) for labels.
+  name: Taskfolk Labels API
+  slug: taskfolk-labels-api
+- description: The Members API from Taskfolk — 4 operation(s) for members.
+  name: Taskfolk Members API
+  slug: taskfolk-members-api
+- description: The Meta API from Taskfolk — 1 operation(s) for meta.
+  name: Taskfolk Meta API
+  slug: taskfolk-meta-api
+- description: The Milestones API from Taskfolk — 2 operation(s) for milestones.
+  name: Taskfolk Milestones API
+  slug: taskfolk-milestones-api
+- description: The Mpp API from Taskfolk — 4 operation(s) for mpp.
+  name: Taskfolk Mpp API
+  slug: taskfolk-mpp-api
+- description: The Notifications API from Taskfolk — 3 operation(s) for notifications.
+  name: Taskfolk Notifications API
+  slug: taskfolk-notifications-api
+- description: The Portfolios API from Taskfolk — 4 operation(s) for portfolios.
+  name: Taskfolk Portfolios API
+  slug: taskfolk-portfolios-api
+- description: The Projects API from Taskfolk — 5 operation(s) for projects.
+  name: Taskfolk Projects API
+  slug: taskfolk-projects-api
+- description: The Releases API from Taskfolk — 2 operation(s) for releases.
+  name: Taskfolk Releases API
+  slug: taskfolk-releases-api
+- description: The Reports API from Taskfolk — 1 operation(s) for reports.
+  name: Taskfolk Reports API
+  slug: taskfolk-reports-api
+- description: The Saved views API from Taskfolk — 2 operation(s) for saved views.
+  name: Taskfolk Saved views API
+  slug: taskfolk-saved-views-api
+- description: The Search API from Taskfolk — 1 operation(s) for search.
+  name: Taskfolk Search API
+  slug: taskfolk-search-api
+- description: The Sprints API from Taskfolk — 2 operation(s) for sprints.
+  name: Taskfolk Sprints API
+  slug: taskfolk-sprints-api
+- description: The Statuses API from Taskfolk — 2 operation(s) for statuses.
+  name: Taskfolk Statuses API
+  slug: taskfolk-statuses-api
+- description: The Time API from Taskfolk — 1 operation(s) for time.
+  name: Taskfolk Time API
+  slug: taskfolk-time-api
+- description: The Watchers API from Taskfolk — 2 operation(s) for watchers.
+  name: Taskfolk Watchers API
+  slug: taskfolk-watchers-api
+- description: The Workflows API from Taskfolk — 8 operation(s) for workflows.
+  name: Taskfolk Workflows API
+  slug: taskfolk-workflows-api
+- description: The Workspace views API from Taskfolk — 2 operation(s) for workspace views.
+  name: Taskfolk Workspace views API
+  slug: taskfolk-workspace-views-api
+- description: The Workspaces API from Taskfolk — 3 operation(s) for workspaces.
+  name: Taskfolk Workspaces API
+  slug: taskfolk-workspaces-api
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Taskfolk Webhooks
   slug: taskfolk-webhooks
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://taskfolk.ai/api/mcp/v1
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/taskfolk-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -198,13 +296,13 @@ modified: '2026-08-20'
 name: Taskfolk
 nav: Providers
 network: true
-overview: 'Taskfolk publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Agent Commerce API, and 1 more. Tagged areas include Project Management, Issue Tracking, Task Management, Productivity, and Collaboration.
+overview: 'Taskfolk publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Activity API, Agents API, Attachments API, and 29 more. Tagged areas include project-management, issue-tracking, task-management, productivity, and Collaboration.
 
 
   The Taskfolk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Taskfolk''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
+  Taskfolk''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 31 more developer resources.'
 plans:
 - name: Taskfolk Plans Pricing
   plan_count: 3
@@ -221,18 +319,23 @@ scopes:
   summary_line: 47 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.9
+  composite: 60.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 30.3
-    contract_quality: 56.5
+    contract_governance: 18.2
+    contract_quality: 57.3
     developer_ergonomics: 58.9
     discoverability: 87.0
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 61.9
+  previous_composite: 60.7
   provenance:
     conformance: first-party
     contracts:
@@ -242,8 +345,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -256,23 +359,23 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: taskfolk
 tags:
-- Project Management
-- Issue Tracking
-- Task Management
-- Productivity
+- project-management
+- issue-tracking
+- task-management
+- productivity
 - Collaboration
 - MCP
 - AI Agents
 - agent-native
-- Agentic Commerce
+- agentic-commerce
 - A2A
 - REST API
 - OpenAPI
 - Webhook
 - Authentication
-- Agile
-- Sprints
-- OKR
+- agile
+- sprints
+- okr
 - Developer Tools
 website: https://taskfolk.ai
 ---

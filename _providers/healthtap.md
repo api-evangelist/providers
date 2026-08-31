@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 2
 common:
@@ -103,14 +103,19 @@ modified: '2026-08-04'
 name: HealthTap
 nav: Providers
 network: true
-overview: 'HealthTap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Telehealth, Telemedicine, and Virtual Care.
+overview: 'HealthTap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Telehealth, Telemedicine, and Virtual Care.
 
 
   HealthTap''s developer surface includes engineering blog, support, pricing, signup flow, and 13 more developer resources.'
 random_paper: 10
 score:
   band: emerging
-  composite: 22.4
+  composite: 23.1
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 90.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
@@ -118,20 +123,24 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 46.3
+    discoverability: 53.7
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 22.4
+  previous_composite: 23.1
   provenance:
     conformance: first-party
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/healthtap/refs/heads/main/screenshots/healthtap-2026-08-07T170028.png
 security:
@@ -146,7 +155,7 @@ security:
 slug: healthtap
 tags:
 - Company
-- Health Tech
+- Healthtech
 - Telehealth
 - Telemedicine
 - Virtual Care

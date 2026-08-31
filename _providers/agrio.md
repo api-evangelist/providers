@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,24 +42,18 @@ agentic_access:
   operation_count: 3
   slug: agrio-agentic-access
   summary_line: 3 operations · 1 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Account credit balance and usage monitoring.
   name: agrio Balance API
   slug: agrio-balance-api
-- description: Credit management for API usage.
-  name: agrio Credit API
-  slug: agrio-credit-api
 - description: Supported agricultural crop types.
   name: agrio Crops API
   slug: agrio-crops-api
 - description: Plant disease and pest diagnosis from images.
   name: agrio Diagnose API
   slug: agrio-diagnose-api
-- description: Diagnosis results and disease identification data.
-  name: agrio Diagnosis API
-  slug: agrio-diagnosis-api
-artifact_total: 54
+artifact_total: 52
 collections:
 - collection_type: open
   name: API Collection
@@ -80,6 +74,10 @@ collections:
   name: Agrio Agriculture Balance Diagnosis API
   slug: open-agrio-diagnosis-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/agrio-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -220,13 +218,13 @@ modified: '2026-05-19'
 name: agrio
 nav: Providers
 network: true
-overview: 'agrio publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Balance API, Credit API, Crops API, and 2 more. Tagged areas include Agriculture, Plant Disease, Pest Detection, Artificial Intelligence, and Crop Advisory.
+overview: 'agrio publishes 3 APIs on the [APIs.io](https://apis.io/) network: Balance API, Crops API, and Diagnose API. Tagged areas include Agriculture, Plant Disease, Pest Detection, Artificial Intelligence, and Crop Advisory.
 
 
   The agrio catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  agrio''s developer surface includes authentication, engineering blog, developer portal, support, and 6 more developer resources.'
+  agrio''s developer surface includes authentication, engineering blog, developer portal, support, and 7 more developer resources.'
 plans:
 - name: Agrio Plans Pricing
   plan_count: 3
@@ -260,18 +258,23 @@ rules:
   slug: agrio-spectral-rules
 score:
   band: developing
-  composite: 41.2
-  delta: 1.9
+  composite: 40.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 74.1
     developer_ergonomics: 38.1
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 39.3
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -279,8 +282,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agrio/refs/heads/main/screenshots/agrio-2026-06-20T170436.png
 security:

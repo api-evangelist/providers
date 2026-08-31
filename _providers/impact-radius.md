@@ -34,22 +34,193 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 134
 apis:
-- description: REST API for brands/advertisers to manage programs, partner recruitment and contracts, product catalogs, conversions and action reconciliation, promo codes, deals, reporting and payouts across affilia
-  name: impact.com Brand API
-  slug: impactcom-brand-api
-- description: REST API for media partners/publishers to access programs and contracts, ads and tracking links, product catalogs and stores, promo codes and promotions, actions and commissions, invoices, tax documen
-  name: impact.com Partner API
-  slug: impactcom-partner-api
-- description: REST API for agencies managing multiple client brand accounts — advertiser roster, company information, compliance content submission and results, consolidated reporting, and job management. Current v
-  name: impact.com Agency API
-  slug: impactcom-agency-api
-- description: REST and GraphQL APIs for Advocate customer-referral programs — participants and accounts, referral codes and share links, referrals, rewards and reward balances, data exports and webhook subscription
-  name: impact.com Advocate API
-  slug: impactcom-advocate-api
-artifact_total: 79
+- description: The Account API from Impact Radius — 2 operation(s) for account.
+  name: Impact Radius Account API
+  slug: impact-radius-account-api
+- description: Endpoints for managing partner company account information.
+  name: Impact Radius Accounts API
+  slug: impact-radius-accounts-api
+- description: The Action Inquiries API from Impact Radius — 4 operation(s) for action inquiries.
+  name: Impact Radius Action Inquiries API
+  slug: impact-radius-action-inquiries-api
+- description: The Action Updates API from Impact Radius — 2 operation(s) for action updates.
+  name: Impact Radius Action Updates API
+  slug: impact-radius-action-updates-api
+- description: The Actions API from Impact Radius — 10 operation(s) for actions.
+  name: Impact Radius Actions API
+  slug: impact-radius-actions-api
+- description: The Ads API from Impact Radius — 7 operation(s) for ads.
+  name: Impact Radius Ads API
+  slug: impact-radius-ads-api
+- description: Advertiser accounts managed by this agency.
+  name: Impact Radius Advertisers API
+  slug: impact-radius-advertisers-api
+- description: The API Submissions API from Impact Radius — 2 operation(s) for api submissions.
+  name: Impact Radius API Submissions API
+  slug: impact-radius-api-submissions-api
+- description: The Call Data API from Impact Radius — 1 operation(s) for call data.
+  name: Impact Radius Call Data API
+  slug: impact-radius-call-data-api
+- description: The Catalog Items API from Impact Radius — 3 operation(s) for catalog items.
+  name: Impact Radius Catalog Items API
+  slug: impact-radius-catalog-items-api
+- description: The Catalogs API from Impact Radius — 8 operation(s) for catalogs.
+  name: Impact Radius Catalogs API
+  slug: impact-radius-catalogs-api
+- description: The ClickExport API from Impact Radius — 2 operation(s) for clickexport.
+  name: Impact Radius Click Export API
+  slug: impact-radius-clickexport-api
+- description: The Clicks API from Impact Radius — 2 operation(s) for clicks.
+  name: Impact Radius Clicks API
+  slug: impact-radius-clicks-api
+- description: Your agency's company profile, addresses, and key contacts.
+  name: Impact Radius Company Information API
+  slug: impact-radius-company-information-api
+- description: Submit content for impact.com compliance monitoring and retrieve job status and results.
+  name: Impact Radius Compliance Content API
+  slug: impact-radius-compliance-content-api
+- description: The Contacts API from Impact Radius — 2 operation(s) for contacts.
+  name: Impact Radius Contacts API
+  slug: impact-radius-contacts-api
+- description: The Contracts API from Impact Radius — 5 operation(s) for contracts.
+  name: Impact Radius Contracts API
+  slug: impact-radius-contracts-api
+- description: The Conversions API from Impact Radius — 1 operation(s) for conversions.
+  name: Impact Radius Conversions API
+  slug: impact-radius-conversions-api
+- description: The Deals API from Impact Radius — 4 operation(s) for deals.
+  name: Impact Radius Deals API
+  slug: impact-radius-deals-api
+- description: The Deferred Deep Linking API from Impact Radius — 1 operation(s) for deferred deep linking.
+  name: Impact Radius Deferred Deep Linking API
+  slug: impact-radius-deferred-deep-linking-api
+- description: Inbound webhook payloads that impact.com sends to a partner-configured URL when events occur.
+  name: Impact Radius Event Notifications API
+  slug: impact-radius-event-notifications-api
+- description: The Exception List Items API from Impact Radius — 2 operation(s) for exception list items.
+  name: Impact Radius Exception List Items API
+  slug: impact-radius-exception-list-items-api
+- description: The Exception Lists API from Impact Radius — 4 operation(s) for exception lists.
+  name: Impact Radius Exception Lists API
+  slug: impact-radius-exception-lists-api
+- description: 'Endpoints for working with bulk data exports: create a new export, look up the status of an existing export, download a completed export, and list recent exports.'
+  name: Impact Radius Export API
+  slug: impact-radius-export-api
+- description: The FTP Submissions API from Impact Radius — 3 operation(s) for ftp submissions.
+  name: Impact Radius FTP Submissions API
+  slug: impact-radius-ftp-submissions-api
+- description: Endpoint for creating and resuming identity verification sessions.
+  name: Impact Radius Identity Verification API
+  slug: impact-radius-identity-verification-api
+- description: The Invoices API from Impact Radius — 6 operation(s) for invoices.
+  name: Impact Radius Invoices API
+  slug: impact-radius-invoices-api
+- description: Schedule, monitor, replay, and download large-scale asynchronous jobs.
+  name: Impact Radius Jobs API
+  slug: impact-radius-jobs-api
+- description: The Legal Entities API from Impact Radius — 2 operation(s) for legal entities.
+  name: Impact Radius Legal Entities API
+  slug: impact-radius-legal-entities-api
+- description: Endpoints for listing, creating, retrieving, updating, and deleting partner media properties.
+  name: Impact Radius Media Properties API
+  slug: impact-radius-media-properties-api
+- description: The Notes API from Impact Radius — 2 operation(s) for notes.
+  name: Impact Radius Notes API
+  slug: impact-radius-notes-api
+- description: Special methods designed for Client-facing applications like the Mobile and Javascript SDKs.
+  name: Impact Radius Open Endpoint API
+  slug: impact-radius-open-endpoint-api
+- description: The Page Load API from Impact Radius — 1 operation(s) for page load.
+  name: Impact Radius Page Load API
+  slug: impact-radius-page-load-api
+- description: The Partner Groups API from Impact Radius — 2 operation(s) for partner groups.
+  name: Impact Radius Partner Groups API
+  slug: impact-radius-partner-groups-api
+- description: The Partners API from Impact Radius — 2 operation(s) for partners.
+  name: Impact Radius Partners API
+  slug: impact-radius-partners-api
+- description: The Phone Numbers API from Impact Radius — 2 operation(s) for phone numbers.
+  name: Impact Radius Phone Numbers API
+  slug: impact-radius-phone-numbers-api
+- description: The Programs API from Impact Radius — 5 operation(s) for programs.
+  name: Impact Radius Programs API
+  slug: impact-radius-programs-api
+- description: The Promo Code Exception List Items API from Impact Radius — 2 operation(s) for promo code exception list items.
+  name: Impact Radius Promo Code Exception List Items API
+  slug: impact-radius-promo-code-exception-list-items-api
+- description: The Promo Code Exception Lists API from Impact Radius — 4 operation(s) for promo code exception lists.
+  name: Impact Radius Promo Code Exception Lists API
+  slug: impact-radius-promo-code-exception-lists-api
+- description: The Promo Codes API from Impact Radius — 4 operation(s) for promo codes.
+  name: Impact Radius Promo Codes API
+  slug: impact-radius-promo-codes-api
+- description: Endpoints for listing and retrieving brand promotions available to your partner account.
+  name: Impact Radius Promotions API
+  slug: impact-radius-promotions-api
+- description: A Referral tracks who has referred whom.
+  name: Impact Radius Referral API
+  slug: impact-radius-referral-api
+- description: 'Endpoints for working with referral codes: look up a code and its associated reward, or apply a code to a referred account. For background on what referral codes are, see the Referral Code Overview.'
+  name: Impact Radius Referral Code API
+  slug: impact-radius-referral-code-api
+- description: The Report Export API from Impact Radius — 2 operation(s) for report export.
+  name: Impact Radius Report Export API
+  slug: impact-radius-report-export-api
+- description: Asynchronously export reports through impact.com's Jobs system. Recommended for all report downloads.
+  name: Impact Radius Report Export API
+  slug: impact-radius-reportexport-api
+- description: List available reports, fetch their metadata, and run them synchronously.
+  name: Impact Radius Reports API
+  slug: impact-radius-reports-api
+- description: Legacy synchronous reports endpoint. Subject to pagination limits — prefer `ReportExport` for large datasets.
+  name: Impact Radius Reports (Legacy) API
+  slug: impact-radius-reports-legacy-api
+- description: A Reward keeps track of a prize, discount or credit that someone has received. All reward types other than gift card integrated rewards can be cancelled using the impact.com API, or through the impact
+  name: Impact Radius Reward API
+  slug: impact-radius-reward-api
+- description: Reward Balances summarizes the Rewards in someone's account.
+  name: Impact Radius Reward Balance API
+  slug: impact-radius-reward-balance-api
+- description: The Routing Rules API from Impact Radius — 2 operation(s) for routing rules.
+  name: Impact Radius Routing Rules API
+  slug: impact-radius-routing-rules-api
+- description: Endpoints for retrieving the share links of a given user. Share links are organised by engagement medium and share medium. For background on how they work, see the Share Links Overview.
+  name: Impact Radius Share Links API
+  slug: impact-radius-share-links-api
+- description: Endpoints for browsing partner storefronts, their groups, and the catalog items inside them.
+  name: Impact Radius Stores API
+  slug: impact-radius-stores-api
+- description: The Tasks API from Impact Radius — 2 operation(s) for tasks.
+  name: Impact Radius Tasks API
+  slug: impact-radius-tasks-api
+- description: Endpoints for creating, completing, and retrieving partner tax documents.
+  name: Impact Radius Tax Documents API
+  slug: impact-radius-tax-documents-api
+- description: The Tracking Links API from Impact Radius — 2 operation(s) for tracking links.
+  name: Impact Radius Tracking Links API
+  slug: impact-radius-tracking-links-api
+- description: The Tracking Value Requests API from Impact Radius — 2 operation(s) for tracking value requests.
+  name: Impact Radius Tracking Value Requests API
+  slug: impact-radius-tracking-value-requests-api
+- description: The Unsubscribed Contacts API from Impact Radius — 1 operation(s) for unsubscribed contacts.
+  name: Impact Radius Unsubscribed Contacts API
+  slug: impact-radius-unsubscribed-contacts-api
+- description: API for managing users, including creation, lookup, and blocking.
+  name: Impact Radius User API
+  slug: impact-radius-user-api
+- description: Endpoints for listing and retrieving partner-account users.
+  name: Impact Radius Users API
+  slug: impact-radius-users-api
+- description: 'Endpoints for managing webhook subscriptions: list current subscriptions, register new endpoint URLs, remove existing ones, and send a test event to verify a subscription.'
+  name: Impact Radius Webhook API
+  slug: impact-radius-webhook-api
+- description: Endpoints for retrieving and updating your bank account, PayPal, and payment scheduling settings.
+  name: Impact Radius Withdrawal Settings API
+  slug: impact-radius-withdrawal-settings-api
+artifact_total: 136
 asyncapis:
 - description: ''
   name: Impact Radius Advocate Webhooks
@@ -257,6 +428,26 @@ collections:
   name: Partner Withdrawal Settings API
   slug: open-impact-radius-partner-withdrawalsettings-v15
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/impact-radius-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/impact-radius-brand-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/impact-radius-partner-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/impact-radius-agency-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/impact-radius-advocate-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -437,13 +628,13 @@ modified: '2026-08-13'
 name: Impact Radius
 nav: Providers
 network: true
-overview: 'Impact Radius publishes 4 APIs on the [APIs.io](https://apis.io/) network, including impact.com Brand API, impact.com Partner API, impact.com Agency API, and 1 more. Tagged areas include Company, Partnership Management, Affiliate Marketing, Influencer Marketing, and Referral Marketing.
+overview: 'Impact Radius publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Action Inquiries API, and 58 more. Tagged areas include Company, Partnership Management, Affiliate Marketing, Influencer Marketing, and Referral Marketing.
 
 
   The Impact Radius catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Impact Radius'' developer surface includes documentation, getting-started guide, authentication, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
+  Impact Radius'' developer surface includes documentation, getting-started guide, authentication, support, engineering blog, pricing, signup flow, and 40 more developer resources.'
 plans:
 - name: Impact Radius Plans Pricing
   plan_count: 2
@@ -454,19 +645,24 @@ rate_limits:
   name: Impact Radius Rate Limits
   slug: impact-radius-rate-limits
 score:
-  band: exemplar
-  composite: 69.1
-  delta: 1.4
+  band: strong
+  composite: 66.0
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
-    contract_governance: 16.7
-    contract_quality: 65.0
+    contract_governance: 4.5
+    contract_quality: 64.9
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 92.1
-  previous_composite: 67.7
+  previous_composite: 66.0
   provenance:
     conformance: derived
     contracts:
@@ -476,8 +672,8 @@ score:
       total: 67
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/screenshots/impact-radius-2026-07-25T222140.png
 security:
@@ -505,7 +701,7 @@ tags:
 - Influencer Marketing
 - Referral Marketing
 - Attribution
-- MarTech
+- Martech
 - Advocate
 - Creator Economy
 - E-Commerce

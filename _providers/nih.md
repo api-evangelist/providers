@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 116
   slug: nih-agentic-access
   summary_line: 116 operations · 41 acting
-api_count: 15
+api_count: 2
 apis:
 - description: The public API to the NCBI Entrez system providing programmatic access to all Entrez databases including PubMed, PMC, Gene, Nuccore, and Protein. Supports searching, fetching, linking, and summarizing
   name: NCBI E-utilities (Entrez Programming Utilities)
@@ -125,6 +125,10 @@ collections:
   name: ClinicalTrials.gov REST BioSample Virus API
   slug: open-nih-virus-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nih-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -264,13 +268,13 @@ modified: '2026-06-13'
 name: National Institutes of Health (NIH)
 nav: Providers
 network: true
-overview: 'National Institutes of Health (NIH) publishes 10 APIs on the [APIs.io](https://apis.io/) network, including BioSample API, Gene API, Genome API, and 7 more. Tagged areas include Biomedical, Research, PubMed, Clinical Trials, and PubChem.
+overview: 'National Institutes of Health (NIH) publishes 10 APIs on the [APIs.io](https://apis.io/) network, including BioSample API, Gene API, Genome API, and 7 more. Tagged areas include Biomedical, Research, PubMed, ClinicalTrials, and PubChem.
 
 
   The National Institutes of Health (NIH) catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  National Institutes of Health (NIH)''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  National Institutes of Health (NIH)''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Nih Plans Pricing
   plan_count: 5
@@ -293,18 +297,23 @@ rules:
   slug: nih-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.0
-  delta: 0.0
+  composite: 40.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 57.9
+    contract_quality: 59.9
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 41.0
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     contracts:
@@ -318,8 +327,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/screenshots/nih-2026-06-20T190323.png
 security:
@@ -336,7 +345,7 @@ tags:
 - Biomedical
 - Research
 - PubMed
-- Clinical Trials
+- ClinicalTrials
 - PubChem
 - Genomics
 - Health

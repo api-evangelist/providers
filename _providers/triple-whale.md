@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: triple-whale-agentic-access
   summary_line: 16 operations · 15 acting
-api_count: 5
+api_count: 3
 apis:
 - description: The API Keys API from Triple Whale — 1 operation(s) for api keys.
   name: Triple Whale API Keys API
@@ -56,9 +56,9 @@ apis:
 - description: The Data Out API from Triple Whale — 4 operation(s) for data out.
   name: Triple Whale Data Out API
   slug: triple-whale-data-out-api
-- description: An unauthenticated e-commerce advertising benchmarks API from Triple Whale — aggregate CTR, CPM, CPC, ROAS and MER for Facebook, Google, TikTok, Snapchat and Pinterest, segmentable by shop industry, m
-  name: Triple Whale Benchmarks API
-  slug: triple-whale-benchmarks-api
+- description: The bi API from Triple Whale — 1 operation(s) for bi.
+  name: Triple Whale Bi API
+  slug: triple-whale-bi-api
 artifact_total: 27
 collections:
 - collection_type: postman
@@ -89,6 +89,14 @@ collections:
   name: Triple Whale API Keys Data Out API
   slug: open-triple-whale-data-out-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Triple-Whale/triple-whale-public-apis/issues
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/triple-whale-bi-benchmarks-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -311,7 +319,7 @@ overview: 'Triple Whale publishes 5 APIs on the [APIs.io](https://apis.io/) netw
   The Triple Whale catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Triple Whale''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, signup flow, and 40 more developer resources.'
+  Triple Whale''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, signup flow, and 42 more developer resources.'
 plans:
 - name: Triple Whale Plans Pricing
   plan_count: 4
@@ -338,19 +346,27 @@ scopes:
   slug: triple-whale-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 67.9
-  delta: 0.7
+  band: strong
+  composite: 58.8
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 26.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
-    contract_governance: 26.5
+    contract_governance: 14.4
     contract_quality: 67.1
     developer_ergonomics: 63.7
-    discoverability: 92.6
-    governance: 26.5
+    discoverability: 81.5
+    governance: 14.4
     operational_transparency: 65.8
-  previous_composite: 67.2
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 58.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -361,8 +377,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/screenshots/triple-whale-2026-06-20T195726.png
 security:
@@ -386,7 +402,7 @@ tags:
 - Shopify
 - Pixel Tracking
 - ROAS
-- Direct to Consumer
+- DTC
 - Marketing
 website: https://www.triplewhale.com
 ---

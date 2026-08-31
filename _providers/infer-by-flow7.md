@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
@@ -13,28 +13,46 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.7
-  scored_at: '2026-08-26'
-api_count: 1
+  score: 33.5
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: 'Responses-compatible inference REST API fronting many model families through opaque routing, with unauthenticated public catalog/status endpoints and authenticated model-list and Responses endpoints. '
-  name: Infer Responses API
-  slug: infer-responses-api
-artifact_total: 10
+- description: Model selectors, published prices, and route capability metadata.
+  name: Infer by Flow7 Catalog API
+  slug: infer-by-flow7-catalog-api
+- description: Authenticated customer inference operations.
+  name: Infer by Flow7 Inference API
+  slug: infer-by-flow7-inference-api
+- description: Customer-facing service state without private routing topology.
+  name: Infer by Flow7 Status API
+  slug: infer-by-flow7-status-api
+artifact_total: 12
 collections:
 - collection_type: open
   name: Infer by Flow7 Public API
   slug: open-infer-by-flow7-public-api
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: https://infer.flow7.org/.well-known/agent-skills/index.json
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infer-by-flow7-public-api-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -135,10 +153,10 @@ modified: '2026-08-11'
 name: Infer by Flow7
 nav: Providers
 network: true
-overview: 'Infer by Flow7 publishes 1 API on the [APIs.io](https://apis.io/) network: Infer Responses API. Tagged areas include AI/ML inference, LLM API gateway, Responses-compatible API, Coding-agent tooling, and Developer Tools.
+overview: 'Infer by Flow7 publishes 3 APIs on the [APIs.io](https://apis.io/) network: Catalog API, Inference API, and Status API. Tagged areas include AI/ML inference, LLM API gateway, Responses-compatible API, Coding-agent tooling, and Developer Tools.
 
 
-  Infer by Flow7''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 15 more developer resources.'
+  Infer by Flow7''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 18 more developer resources.'
 plans:
 - name: Infer By Flow7 Plans Pricing
   plan_count: 4
@@ -155,18 +173,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 55.1
-  delta: 5.2
+  composite: 60.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 30.3
-    contract_quality: 33.3
+    contract_governance: 18.2
+    contract_quality: 57.8
     developer_ergonomics: 69.0
-    discoverability: 70.4
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 49.9
+  previous_composite: 61.4
   provenance:
     conformance: first-party
     contracts:
@@ -176,9 +199,9 @@ score:
       total: 1
     mcp: derived
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/screenshots/infer-by-flow7-2026-08-17T080956.png
 security:
 - kind: authentication
@@ -204,10 +227,10 @@ tags:
 - Responses-compatible API
 - Coding-agent tooling
 - Developer Tools
-- Usage-Based Billing
+- Usage-based billing
 - Prepaid billing
-- agent-native
+- Agent-native
 - Agent Skills
-- Model Routing
+- Model routing
 website: https://infer.flow7.org/
 ---

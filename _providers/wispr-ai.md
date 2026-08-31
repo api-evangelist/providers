@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
-api_count: 50
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Analytics API from Wispr AI — 3 operation(s) for analytics.
   name: Wispr AI Analytics API
@@ -342,6 +342,10 @@ collections:
   name: Analytics Wispr Backend API
   slug: open-wispr-ai-wispr-backend-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/wispr-ai-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -473,22 +477,27 @@ network: true
 overview: 'Wispr AI publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Analytics Registry API, Attribution Tracking API, and 47 more. Tagged areas include Company, Voice, Speech-to-Text, Dictation, and Artificial Intelligence.
 
 
-  Wispr AI''s developer surface includes engineering blog, pricing, support, signup flow, changelog, authentication, and 23 more developer resources.'
+  Wispr AI''s developer surface includes engineering blog, pricing, support, signup flow, changelog, authentication, and 24 more developer resources.'
 random_paper: 14
 score:
   band: developing
-  composite: 45.0
-  delta: 1.3
+  composite: 43.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 52.8
     developer_ergonomics: 20.8
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 43.7
+  previous_composite: 43.6
   provenance:
     conformance: first-party
     contracts:
@@ -498,8 +507,8 @@ score:
       total: 50
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wispr-ai/refs/heads/main/screenshots/wispr-ai-2026-08-17T130429.png
 security:

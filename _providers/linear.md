@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 2
   slug: linear-agentic-access
   summary_line: 2 operations · 2 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Linear webhooks deliver HTTP push notifications whenever data is created, updated, or removed. Webhooks are organization-scoped and can be configured for all public teams or a single team, enabling in
   name: Linear Webhooks API
@@ -192,18 +192,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.4
-  delta: 6.8
+  composite: 41.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 13.6
     contract_quality: 74.7
     developer_ergonomics: 42.9
-    discoverability: 66.7
+    discoverability: 61.1
     governance: 13.6
     operational_transparency: 15.8
-  previous_composite: 35.6
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -215,9 +220,9 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linear/refs/heads/main/screenshots/linear-2026-06-20T184541.png
 security:
 - kind: authentication

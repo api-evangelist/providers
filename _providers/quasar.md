@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.6
-  scored_at: '2026-08-26'
+  score: 26.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 12
   slug: quasar-agentic-access
   summary_line: 12 operations · 4 acting
-api_count: 10
+api_count: 1
 apis:
 - description: Operational statistics about the QuasarDB cluster
   name: Quasar cluster API
@@ -231,19 +231,24 @@ overview: 'Quasar publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   Quasar''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, CLI, and 19 more developer resources.'
 random_paper: 2
 score:
-  band: developing
-  composite: 40.2
-  delta: 0.0
+  band: thin
+  composite: 38.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_governance: 30.3
-    contract_quality: 39.1
+    contract_governance: 18.2
+    contract_quality: 41.2
     developer_ergonomics: 73.2
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 40.2
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -254,8 +259,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 56
   slug: modal-com-agentic-access
   summary_line: 56 operations · 28 acting · 3 human-in-the-loop
-api_count: 17
+api_count: 9
 apis:
 - description: Modal App lifecycle.
   name: Modal Apps API
@@ -179,6 +179,10 @@ collections:
   name: Modal Web Endpoints API
   slug: open-modal-web-endpoints
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/modal-com-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -471,7 +475,7 @@ overview: 'Modal publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
   The Modal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Modal''s developer surface includes authentication, developer portal, documentation, getting-started guide, code examples, engineering blog, changelog, and 51 more developer resources.'
+  Modal''s developer surface includes authentication, developer portal, documentation, getting-started guide, code examples, engineering blog, changelog, and 52 more developer resources.'
 plans:
 - name: Modal Plans Pricing
   plan_count: 3
@@ -506,6 +510,11 @@ rules:
 score:
   band: strong
   composite: 65.1
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 28.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
@@ -524,8 +533,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/screenshots/modal-com-2026-06-20T185747.png
 security:

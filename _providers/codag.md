@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 3
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 70
   slug: codag-agentic-access
   summary_line: 70 operations · 39 acting · 3 human-in-the-loop
-api_count: 19
+api_count: 1
 apis:
 - description: The Activate API from Codag — 2 operation(s) for activate.
   name: Codag Activate API
@@ -314,18 +314,23 @@ overview: 'Codag publishes 19 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 6
 score:
   band: developing
-  composite: 51.3
-  delta: 1.4
+  composite: 48.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 47.8
     developer_ergonomics: 80.4
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 49.9
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -336,8 +341,8 @@ score:
       total: 19
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/screenshots/codag-2026-07-25T205856.png
 security:

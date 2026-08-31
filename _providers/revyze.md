@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-26'
-api_count: 10
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Admin API from Revyze — 2 operation(s) for admin.
   name: Revyze Admin API
@@ -172,18 +172,23 @@ overview: 'Revyze publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 5
 score:
   band: thin
-  composite: 31.1
-  delta: 1.4
+  composite: 29.8
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 12.1
+    contract_governance: 0.0
     contract_quality: 52.7
     developer_ergonomics: 11.9
-    discoverability: 74.1
-    governance: 12.1
+    discoverability: 75.9
+    governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 29.7
+  previous_composite: 30.4
   provenance:
     contracts:
       callable: 100.0
@@ -196,8 +201,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 37.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

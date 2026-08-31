@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: microsoft-suite-agentic-access
   summary_line: 18 operations · 4 acting
-api_count: 13
+api_count: 1
 apis:
 - description: API for integrating with Microsoft Teams to create bots, tabs, messaging extensions, and connectors.
   name: Microsoft Teams API
@@ -184,19 +184,24 @@ scopes:
   slug: microsoft-suite-scopes
   summary_line: 8 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 39.7
-  delta: 8.9
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 89.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 53.1
     developer_ergonomics: 45.2
-    discoverability: 44.4
+    discoverability: 38.9
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 30.8
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -204,9 +209,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-suite/refs/heads/main/screenshots/microsoft-suite-2026-06-20T185537.png
 security:
 - kind: authentication

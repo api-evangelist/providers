@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -31,18 +31,36 @@ agentic_access:
   operation_count: 27
   slug: simply-energy-agentic-access
   summary_line: 27 operations · 5 acting
-api_count: 3
+api_count: 2
 apis:
-- description: Public, unauthenticated Consumer Data Right Generic Tariff Data for the Simply Energy / ENGIE retail brand, conforming to the Data Standards Body Consumer Data Standards energy schemas. Confirmed live
-  name: Simply Energy (ENGIE) CDR Energy Generic Plans API
-  slug: simply-energy-cdr-energy-generic-plans-api
-- description: The Consumer Data Standards Common Discovery API served from the brand's own registered CDR Public Base URI. Confirmed live on 2026-07-27. GET /discovery/status returns HTTP 200 at x-v 1 with status O
-  name: Simply Energy (ENGIE) CDR Discovery API
-  slug: simply-energy-cdr-discovery-api
-- description: The mandated Consumer Data Right consumer data sharing surface, covering energy accounts, balances, billing, invoices, concessions, payment schedules, electricity service points, usage and distributed
-  name: Simply Energy (ENGIE) CDR Energy Consumer Data API
-  slug: simply-energy-cdr-energy-consumer-data-api
-artifact_total: 12
+- description: Data Holder Customer endpoints
+  name: Simply Energy Data Holder Customers API
+  slug: simply-energy-data-holder-customers-api
+- description: Data Holder Operations endpoints
+  name: Simply Energy Data Holder Operations API
+  slug: simply-energy-data-holder-operations-api
+- description: Distributed Energy Resource endpoints
+  name: Simply Energy Distributed Energy Resources API
+  slug: simply-energy-distributed-energy-resources-api
+- description: Electricity Service Point endpoints
+  name: Simply Energy Electricity Service Points API
+  slug: simply-energy-electricity-service-points-api
+- description: Electricity Usage endpoints
+  name: Simply Energy Electricity Usage API
+  slug: simply-energy-electricity-usage-api
+- description: Energy Account Balance endpoints
+  name: Simply Energy Energy Account Balances API
+  slug: simply-energy-energy-account-balances-api
+- description: Energy Account Billing endpoints
+  name: Simply Energy Energy Account Billing API
+  slug: simply-energy-energy-account-billing-api
+- description: Energy Account endpoints
+  name: Simply Energy Energy Accounts API
+  slug: simply-energy-energy-accounts-api
+- description: Energy Plan endpoints
+  name: Simply Energy Energy Plans API
+  slug: simply-energy-energy-plans-api
+artifact_total: 18
 collections:
 - collection_type: open
   name: CDR Common API
@@ -51,6 +69,26 @@ collections:
   name: CDR Energy API
   slug: open-simply-energy-cds-energy
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/simply-energy-cds-energy-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/simply-energy-compare-energy-plans.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/simply-energy-cds-common-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/simply-energy-check-data-holder-health.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/simply-energy-retrieve-consumer-energy-data.md
 - group: agent
   title: ''
   type: MCPServer
@@ -187,10 +225,10 @@ modified: '2026-07-27'
 name: Simply Energy
 nav: Providers
 network: true
-overview: 'Simply Energy publishes 3 APIs on the [APIs.io](https://apis.io/) network: (ENGIE) CDR Energy Generic Plans API, (ENGIE) CDR Discovery API, and (ENGIE) CDR Energy Consumer Data API. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
+overview: 'Simply Energy publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Data Holder Customers API, Data Holder Operations API, Distributed Energy Resources API, and 6 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
 
 
-  Simply Energy''s developer surface includes documentation, API reference, engineering blog, authentication, changelog, and 26 more developer resources.'
+  Simply Energy''s developer surface includes documentation, API reference, engineering blog, authentication, changelog, and 31 more developer resources.'
 random_paper: 0
 rate_limits:
 - limit_count: 14
@@ -203,18 +241,23 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.4
-  delta: -0.4
+  composite: 49.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 49.7
     developer_ergonomics: 37.5
-    discoverability: 72.2
-    governance: 30.3
+    discoverability: 64.8
+    governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 51.8
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -231,8 +274,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simply-energy/refs/heads/main/screenshots/simply-energy-2026-08-17T125320.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Bit is API-first: every aspect exposes a programmatic API that also composes into a GraphQL API used by the CLI, web UI, and Bit Cloud. The hosted GraphQL endpoint is served from api.v2.bit.cloud/grap'
@@ -153,7 +153,7 @@ modified: '2026-07-18'
 name: Bit
 nav: Providers
 network: true
-overview: 'Bit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DevOps, Component Development, Frontend, and Monorepo.
+overview: 'Bit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Devops, Component Development, Frontend, and Monorepo.
 
 
   Bit''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, pricing, changelog, and 18 more developer resources.'
@@ -161,6 +161,11 @@ random_paper: 4
 score:
   band: thin
   composite: 28.9
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 6.6
@@ -176,8 +181,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bit/refs/heads/main/screenshots/bit-2026-07-25T203125.png
 security:
@@ -192,7 +197,7 @@ security:
 slug: bit
 tags:
 - Company
-- DevOps
+- Devops
 - Component Development
 - Frontend
 - Monorepo

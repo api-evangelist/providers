@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 4
@@ -31,36 +31,87 @@ agentic_access:
   operation_count: 207
   slug: modulr-agentic-access
   summary_line: 207 operations · 136 acting · 4 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
-- description: Create, retrieve, edit, block/unblock and close programmable eMoney accounts, manage access groups and account rules, and read balances — the core account fabric of the Modulr platform.
+- description: Operations on Access Group
+  name: Modulr Access Group API
+  slug: modulr-access-group-api
+- description: Operations on Accounts
   name: Modulr Accounts API
   slug: modulr-accounts-api
-- description: Initiate outbound, inbound, bulk, batch and future-dated payments over UK Faster Payments and Bacs, plus international SWIFT payments, with transaction retrieval and reconciliation.
-  name: Modulr Payments API
-  slug: modulr-payments-api
-- description: Issue and manage virtual and physical cards, including tokenization, PIN management, card controls, transactions, secure card-detail retrieval and bulk card operations.
+- description: Asynchronous card task operations
+  name: Modulr Async API
+  slug: modulr-async-api
+- description: Operations on Beneficiaries
+  name: Modulr Beneficiaries API
+  slug: modulr-beneficiaries-api
+- description: Cards Simulator API
+  name: Modulr Card Simulator API
+  slug: modulr-card-simulator-api
+- description: Cards API
   name: Modulr Cards API
   slug: modulr-cards-api
-- description: Set up and manage UK Bacs Direct Debit mandates and collections, outbound mandate operations and indemnity claims for recurring collection use cases.
-  name: Modulr Direct Debits API
-  slug: modulr-direct-debits-api
-- description: Create and verify customers, run KYC/KYB onboarding, manage associates and tax identifiers, and upload supporting documents for compliance.
+- description: The Cards Bulk Operations API from Modulr — 3 operation(s) for cards bulk operations.
+  name: Modulr Cards Bulk Operations API
+  slug: modulr-cards-bulk-operations-api
+- description: The Channel Manager Card API from Modulr — 9 operation(s) for channel manager card.
+  name: Modulr Channel Manager Card API
+  slug: modulr-channel-manager-card-api
+- description: The Channel Manager Webhook Notifications API from Modulr — 3 operation(s) for channel manager webhook notifications.
+  name: Modulr Channel Manager Webhook Notifications API
+  slug: modulr-channel-manager-webhook-notifications-api
+- description: Account Name Checks
+  name: Modulr Confirmation of Payee API
+  slug: modulr-confirmation-of-payee-api
+- description: Operations on Customers
   name: Modulr Customers API
   slug: modulr-customers-api
-- description: Confirmation of Payee (CoP) and Verification of Payee (VoP) account name checking to reduce misdirected-payment and APP fraud risk before payments are sent.
-  name: Modulr Payee Verification API
-  slug: modulr-verification-api
-- description: Open Banking Payment Initiation Services (PIS) — initiate immediate account-to-account payments and standing orders from a payer's bank account through connected ASPSPs.
-  name: Modulr Payment Initiation API
-  slug: modulr-payment-initiation-api
-- description: Consumer and commercial Variable Recurring Payments (VRP) — manage consents and execute recurring account-to-account payments under Open Banking.
+- description: The Direct Debit Outbound Mandate Operations API from Modulr — 3 operation(s) for direct debit outbound mandate operations.
+  name: Modulr Direct Debit Outbound Mandate Operations API
+  slug: modulr-direct-debit-outbound-mandate-operations-api
+- description: Direct Debit operations
+  name: Modulr Direct Debits API
+  slug: modulr-direct-debits-api
+- description: Operations on Documents
+  name: Modulr Document API
+  slug: modulr-document-api
+- description: Upload payment files
+  name: Modulr File Upload API
+  slug: modulr-file-upload-api
+- description: Inbound payments
+  name: Modulr Inbound Payments API
+  slug: modulr-inbound-payments-api
+- description: The Integration Notification API from Modulr — 3 operation(s) for integration notification.
+  name: Modulr Integration Notification API
+  slug: modulr-integration-notification-api
+- description: Operations on Notifications
+  name: Modulr Notification API
+  slug: modulr-notification-api
+- description: The Payment Initiations API from Modulr — 5 operation(s) for payment initiations.
+  name: Modulr Payment Initiations API
+  slug: modulr-payment-initiations-api
+- description: Operations on Payments
+  name: Modulr Payments API
+  slug: modulr-payments-api
+- description: Restricted access API calls
+  name: Modulr Restricted API
+  slug: modulr-restricted-api
+- description: Rules
+  name: Modulr Rules API
+  slug: modulr-rules-api
+- description: Share secure card details operations
+  name: Modulr Share secure card details API
+  slug: modulr-share-secure-card-details-api
+- description: Operations on Transactions
+  name: Modulr Transactions API
+  slug: modulr-transactions-api
+- description: The Variable Recurring Payments API from Modulr — 5 operation(s) for variable recurring payments.
   name: Modulr Variable Recurring Payments API
   slug: modulr-variable-recurring-payments-api
-- description: Configure partner- and customer-level webhook subscriptions for account, payment, customer, compliance and Direct Debit events, and retrieve failed webhook deliveries.
-  name: Modulr Notifications API
-  slug: modulr-notifications-api
-artifact_total: 16
+- description: The Verification of Payee API from Modulr — 1 operation(s) for verification of payee.
+  name: Modulr Verification of Payee API
+  slug: modulr-verification-of-payee-api
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Modulr Webhooks
@@ -70,6 +121,10 @@ collections:
   name: Modulr API
   slug: open-modulr-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/modulr-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -227,13 +282,13 @@ modified: '2026-07-24'
 name: Modulr
 nav: Providers
 network: true
-overview: 'Modulr publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Payments API, Cards API, and 6 more. Tagged areas include Payments, United Kingdom, Banking as a Service, Embedded Finance, and Payment Processing.
+overview: 'Modulr publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Access Group API, Accounts API, Async API, and 23 more. Tagged areas include Payments, United Kingdom, Banking-as-a-Service, Embedded Finance, and Payment Processing.
 
 
   The Modulr catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Modulr''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 29 more developer resources.'
+  Modulr''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 30 more developer resources.'
 random_paper: 8
 rate_limits:
 - limit_count: 2
@@ -241,18 +296,23 @@ rate_limits:
   slug: modulr-rate-limits
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 47.2
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 58.4
+    contract_governance: 4.5
+    contract_quality: 60.6
     developer_ergonomics: 48.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 55.3
-  previous_composite: 48.7
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -264,8 +324,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modulr/refs/heads/main/screenshots/modulr-2026-08-07T184038.png
 security:
@@ -281,7 +341,7 @@ slug: modulr
 tags:
 - Payments
 - United Kingdom
-- Banking as a Service
+- Banking-as-a-Service
 - Embedded Finance
 - Payment Processing
 - Account-to-Account

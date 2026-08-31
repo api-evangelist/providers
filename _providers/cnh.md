@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: cnh-agentic-access
   summary_line: 13 operations · 3 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The CNH Developer Portal at develop.cnh.com hosts onboarding, authentication guidance, API guides, Postman collections, and curated SwaggerHub documentation for FieldOps and related CNH APIs. Develope
   name: CNH Developer Portal
@@ -98,6 +98,10 @@ collections:
   name: CNH FieldOps Equipment Webhooks API
   slug: open-cnh-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cnh-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -188,7 +192,7 @@ overview: 'CNH publishes 7 APIs on the [APIs.io](https://apis.io/) network, incl
   The CNH catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  CNH''s developer surface includes authentication, developer portal, getting-started guide, documentation, and 11 more developer resources.'
+  CNH''s developer surface includes authentication, developer portal, getting-started guide, documentation, and 12 more developer resources.'
 plans:
 - name: Cnh Plans Pricing
   plan_count: 3
@@ -226,19 +230,24 @@ scopes:
   slug: cnh-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: developing
-  composite: 39.5
-  delta: 0.5
+  band: thin
+  composite: 39.0
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 13.6
     contract_quality: 60.5
     developer_ergonomics: 50.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 39.0
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -246,8 +255,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cnh/refs/heads/main/screenshots/cnh-2026-06-20T174635.png
 security:

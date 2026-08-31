@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: 'Open-source Python ecosystem for Ansys products. The pyansys metapackage bundles 45+ libraries including PyMAPDL (Mechanical APDL), PyFluent (Fluent CFD), PyAEDT (Electronics Desktop / HFSS / Maxwell '
@@ -170,9 +170,14 @@ rate_limits:
   name: Ansys Rate Limits
   slug: ansys-rate-limits
 score:
-  band: emerging
-  composite: 25.5
-  delta: 0.0
+  band: thin
+  composite: 29.4
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 3.9
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -182,9 +187,12 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 65.0
   previous_composite: 25.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansys/refs/heads/main/screenshots/ansys-2026-06-20T172024.png
 security:

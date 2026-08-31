@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: tillo-agentic-access
   summary_line: 12 operations · 7 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Balance checking operations
   name: Tillo Balance API
@@ -83,6 +83,10 @@ collections:
   name: Tillo Gift Card Balance Orders API
   slug: open-tillo-orders-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/tilloops/tillo/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -192,7 +196,7 @@ overview: 'Tillo publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
   The Tillo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tillo''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, pricing, signup flow, and 10 more developer resources.'
+  Tillo''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, pricing, signup flow, and 11 more developer resources.'
 plans:
 - name: Tillo Plans Pricing
   plan_count: 3
@@ -225,19 +229,27 @@ rules:
     warn: 3
   slug: tillo-rules
 score:
-  band: developing
-  composite: 40.5
-  delta: 0.0
+  band: thin
+  composite: 35.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 60.8
     developer_ergonomics: 50.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 40.5
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -251,8 +263,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/screenshots/tillo-2026-06-20T195353.png
 security:

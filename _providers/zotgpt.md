@@ -33,15 +33,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
-- description: The first-generation ZotGPT developer API, an OpenAI-compatible chat completions endpoint fronted by Azure API Management and available to UCI faculty and staff with "$200 in initial API credits to ge
-  name: ZotGPT API (Deprecated)
-  slug: api
-- description: ZotGPT (UC Irvine) ZotGPT Gateway from ZotGPT (UC Irvine) — 2 path(s) described in OpenAPI.
-  name: ZotGPT (UC Irvine) ZotGPT Gateway
-  slug: zotgpt-gateway-openapi
+- description: OpenAI-compatible chat completions.
+  name: ZotGPT (UC Irvine) Chat API
+  slug: zotgpt-chat-api
+- description: Vector embeddings across the campus model catalog.
+  name: ZotGPT (UC Irvine) Embeddings API
+  slug: zotgpt-embeddings-api
 artifact_total: 9
 collections:
 - collection_type: open
@@ -200,7 +200,7 @@ modified: '2026-07-28'
 name: ZotGPT (UC Irvine)
 nav: Providers
 network: true
-overview: 'ZotGPT (UC Irvine) publishes 2 APIs on the [APIs.io](https://apis.io/) network: ZotGPT API (Deprecated) and ZotGPT Gateway. Tagged areas include Artificial Intelligence, Generative AI, LLM, AI Gateway, and Higher Education.
+overview: 'ZotGPT (UC Irvine) publishes 2 APIs on the [APIs.io](https://apis.io/) network: Chat API and Embeddings API. Tagged areas include Artificial Intelligence, Generative AI, LLM, AI Gateway, and Higher Education.
 
 
   ZotGPT (UC Irvine)''s developer surface includes documentation, API reference, getting-started guide, support, training material, engineering blog, authentication, and 27 more developer resources.'
@@ -215,18 +215,23 @@ rate_limits:
   slug: zotgpt-rate-limits
 score:
   band: developing
-  composite: 48.3
-  delta: -0.2
+  composite: 49.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 0.0
-    contract_quality: 17.3
+    contract_quality: 17.2
     developer_ergonomics: 66.1
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 55.3
-  previous_composite: 48.5
+  previous_composite: 49.1
   provenance:
     conformance: first-party
     contracts:
@@ -241,8 +246,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 48.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zotgpt/refs/heads/main/screenshots/zotgpt-2026-08-17T083120.png
 security:

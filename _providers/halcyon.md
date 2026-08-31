@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Halcyon's REST API for device/asset data plus a universal API for streaming ransomware alerts into SIEM, SOAR, and XDR platforms. The API and its documentation are customer-authenticated (access-gated
@@ -96,7 +96,7 @@ modified: '2026-07-19'
 name: Halcyon
 nav: Providers
 network: true
-overview: 'Halcyon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Infrastructure, Cybersecurity, Ransomware, and Endpoint Security.
+overview: 'Halcyon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Infrastructure, Cybersecurity, Ransomware, and Endpoint Security.
 
 
   Halcyon''s developer surface includes documentation, engineering blog, support, signup flow, and 8 more developer resources.'
@@ -104,6 +104,11 @@ random_paper: 15
 score:
   band: emerging
   composite: 18.4
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -115,8 +120,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 18.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halcyon/refs/heads/main/screenshots/halcyon-2026-07-25T220535.png
 security:
@@ -131,7 +136,7 @@ security:
 slug: halcyon
 tags:
 - Company
-- AI Infrastructure
+- Ai Infrastructure
 - Cybersecurity
 - Ransomware
 - Endpoint Security

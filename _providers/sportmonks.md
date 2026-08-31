@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: sportmonks-agentic-access
   summary_line: 17 operations
-api_count: 13
+api_count: 1
 apis:
 - description: REST API for cricket data covering 130+ leagues including IPL, international fixtures, and T20 competitions. Provides ball-by-ball commentary, live scoreboards, fixtures, teams, players, venues, offic
   name: Sportmonks Cricket API
@@ -380,18 +380,23 @@ rules:
   slug: sportmonks-rules
 score:
   band: strong
-  composite: 60.4
-  delta: 4.3
+  composite: 59.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 28.8
     contract_quality: 60.3
     developer_ergonomics: 50.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 65.8
-  previous_composite: 56.1
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     contracts:
@@ -399,8 +404,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sportmonks/refs/heads/main/screenshots/sportmonks-2026-08-17T125430.png
 security:
@@ -428,7 +433,7 @@ tags:
 - Developer-Friendly
 - Football
 - Formula 1
-- Live Scores
+- Livescores
 - Motorsport
 - Real-Time
 - Soccer

@@ -11,30 +11,31 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
+    dynamic_client_registration: true
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-26'
+  score: 50.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 21
   slug: aimlapi-agentic-access
   summary_line: 21 operations · 14 acting · 1 human-in-the-loop
-api_count: 10
+api_count: 1
 apis:
 - description: '## **Creating an API Key** To create a new API key Sign-ip to [app.aimlapi.com](https://app.aimlapi.com), navigate to Key Management page and create an API Key Note that your Keys only work with an Ac'
   name: AIMLAPI API Key Management API
@@ -74,7 +75,13 @@ apis:
 - description: The [WIP] Completions API from AIMLAPI — 1 operation(s) for [wip] completions.
   name: AIMLAPI [WIP] Completions API
   slug: aimlapi-wip-completions-api
-artifact_total: 75
+- description: 'AI/ML API''s own published OpenAPI, served from the API host at https://api.aimlapi.com/docs-yaml and rendered at https://api.aimlapi.com/docs. 19 operations across 16 paths covering chat completions, '
+  name: AIMLAPI Inference API
+  slug: aimlapi-inference-api
+- description: AI/ML API's first-party remote Model Context Protocol server at https://mcp.aimlapi.com/mcp — Streamable HTTP with OAuth 2.1, PKCE and dynamic client registration, so no API key is pasted into the cli
+  name: AIMLAPI MCP Server
+  slug: aimlapi-mcp-server
+artifact_total: 79
 collections:
 - collection_type: open
   name: API Collection
@@ -113,6 +120,10 @@ collections:
   name: AIMLAPI AI/ML API Documentation
   slug: open-aimlapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://aimlapi.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -181,6 +192,106 @@ common:
   title: ''
   type: LlmsText
   url: https://aimlapi.com/llms.txt
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/aimlapi-inference-openapi.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aimlapi-inference-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/aimlapi-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/aimlapi-tool-crosswalk.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/aimlapi-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/aimlapi-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/aimlapi-well-known.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/aimlapi-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/aimlapi-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/aimlapi-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.aimlapi.com/
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/aimlapi-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/aimlapi-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/aimlapi-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/aimlapi-data-model.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/aimlapi-changelog.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/aimlapi-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/aimlapi-rate-limits.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/aimlapi-llms.txt
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.aimlapi.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.aimlapi.com/quickstart/simple-model
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.aimlapi.com/docs
+- group: other
+  title: ''
+  type: Playground
+  url: https://aimlapi.com/app
+- group: operate
+  title: ''
+  type: Discord
+  url: https://discord.gg/vayNtU9ThM
 created: '2025-01-07'
 description: AIMLAPI is a unified AI model API gateway providing access to 400+ state-of-the-art AI models from OpenAI, Anthropic, Google, Meta, DeepSeek, Mistral, Stability AI, and 40+ other providers through a single OpenAI-compatible API. Supported modalities include text/chat LLMs, image generation, video generation, music generation, speech-to-text, text-to-speech, vision/OCR, embeddings, and 3D generation.
 examples:
@@ -298,24 +409,28 @@ jsonld:
   property_count: 10
   slug: aimlapi-context
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: AI/ML API publishes a first-party REMOTE Model Context Protocol server at https://mcp.aimlapi.com/mcp, documented on its own quickstart page and advertised from the site llms.txt. It is Streamable HTT
+  name: AIMLAPI MCP Server
+  slug: aimlapi-mcp-server
+modified: '2026-08-30'
 name: AIMLAPI
 nav: Providers
 network: true
-overview: 'AIMLAPI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including API Key Management API, Assistants API, Chat API, and 7 more. Tagged areas include Artificial Intelligence, Machine-Learning, AI Models, LLM, and Image-Generation.
+overview: 'AIMLAPI publishes 11 APIs on the [APIs.io](https://apis.io/) network, including API Key Management API, Assistants API, Chat API, and 8 more. Tagged areas include Artificial Intelligence, Machine-Learning, AI Models, LLM, and Image-Generation.
 
 
   The AIMLAPI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AIMLAPI''s developer surface includes authentication, engineering blog, pricing, documentation, FAQ, changelog, signup flow, and 10 more developer resources.'
+  AIMLAPI''s developer surface includes authentication, engineering blog, pricing, documentation, FAQ, changelog, signup flow, and 36 more developer resources.'
 plans:
 - name: Aimlapi Plans Pricing
-  plan_count: 3
+  plan_count: 6
   slug: aimlapi-plans-pricing
 random_paper: 19
 rate_limits:
-- limit_count: 5
+- limit_count: 1
   name: Aimlapi Rate Limits
   slug: aimlapi-rate-limits
 rules:
@@ -340,20 +455,30 @@ rules:
     info: 1
     warn: 10
   slug: aimlapi-spectral-rules
+scopes:
+- name: Aimlapi Scopes
+  scope_count: 0
+  slug: aimlapi-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 49.5
-  delta: 3.8
+  band: strong
+  composite: 59.7
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 49.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 10.2
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 28.8
-    contract_quality: 57.5
-    developer_ergonomics: 42.9
-    discoverability: 72.2
-    governance: 28.8
-    operational_transparency: 28.9
-  previous_composite: 45.7
+    contract_governance: 47.0
+    contract_quality: 56.3
+    developer_ergonomics: 69.0
+    discoverability: 75.9
+    governance: 47.0
+    operational_transparency: 50.0
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     contracts:
@@ -361,15 +486,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/aimlapi/refs/heads/main/screenshots/aimlapi-2026-06-20T171417.png
 security:
 - kind: authentication
   name: Aimlapi Authentication
   slug: aimlapi-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2 · 2 schemes
 - kind: domain-security
   name: Aimlapi Domain Security
   slug: aimlapi-domain-security
@@ -399,4 +524,5 @@ use_cases:
   name: Document Processing
 - description: Add speech-to-text transcription and text-to-speech synthesis to applications.
   name: Voice Applications
+website: https://aimlapi.com/
 ---

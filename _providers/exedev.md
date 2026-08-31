@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Programmatic access to the exe.dev command surface. POST the command exactly as typed in the ssh exe.dev REPL to https://exe.dev/exec with an exe1. bearer token; supported commands return JSON via --j
@@ -172,7 +172,12 @@ overview: 'exe.dev publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 11
 score:
   band: thin
-  composite: 33.1
+  composite: 32.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 31.6
@@ -180,16 +185,16 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 69.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 33.1
+  previous_composite: 32.0
   provenance:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exedev/refs/heads/main/screenshots/exedev-2026-07-25T213854.png
 security:

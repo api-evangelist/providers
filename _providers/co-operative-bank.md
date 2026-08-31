@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: co-operative-bank-agentic-access
   summary_line: 12 operations
-api_count: 4
+api_count: 1
 apis:
 - description: 'OBIE Read/Write Account & Transaction Information (AISP) API for The Co-operative Bank and smile brands — account-access consents, accounts, balances, transactions, direct debits, standing orders and '
   name: The Co-operative Bank Account Information API (AIS)
@@ -53,15 +53,34 @@ apis:
 - description: OBIE Read/Write Confirmation of Funds (CBPII / Card-Based Payment Instrument) API — funds-confirmation consent and funds-confirmation checks for The Co-operative Bank and smile brands. FAPI-secured (O
   name: The Co-operative Bank Confirmation of Funds API (CBPII)
   slug: confirmation-of-funds-api
-- description: Public, unauthenticated OBIE Open Data reference data (ATMs, Branches, Personal & Business Current Accounts, Unsecured SME Loans, Commercial Credit Cards). Represented here against the shared OBIE Ope
-  name: The Co-operative Bank Open Data API (OBIE standard)
-  slug: open-data-api
-artifact_total: 10
+- description: Endpoint for getting ATM data
+  name: The Co-operative Bank ATM API
+  slug: co-operative-bank-atm-api
+- description: Endpoint for getting Business Current Account data
+  name: The Co-operative Bank BCA API
+  slug: co-operative-bank-bca-api
+- description: Endpoint for getting Branch data
+  name: The Co-operative Bank Branch API
+  slug: co-operative-bank-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: The Co-operative Bank CCC API
+  slug: co-operative-bank-ccc-api
+- description: Endpoint for getting Personal Current Account data
+  name: The Co-operative Bank PCA API
+  slug: co-operative-bank-pca-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: The Co-operative Bank SME API
+  slug: co-operative-bank-sme-api
+artifact_total: 15
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-obie-open-data-api-standard-swagger
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/co-operative-bank-capability-edges.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -179,10 +198,10 @@ modified: '2026-07-23'
 name: The Co-operative Bank
 nav: Providers
 network: true
-overview: 'The Co-operative Bank publishes 1 API on the [APIs.io](https://apis.io/) network: Open Data API (OBIE standard). Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'The Co-operative Bank publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 3 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  The Co-operative Bank''s developer surface includes documentation, getting-started guide, authentication, sandbox, support, signup flow, and 21 more developer resources.'
+  The Co-operative Bank''s developer surface includes documentation, getting-started guide, authentication, sandbox, support, signup flow, and 22 more developer resources.'
 random_paper: 7
 scopes:
 - name: Co Operative Bank Scopes
@@ -191,18 +210,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.8
-  delta: -1.0
+  composite: 44.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 32.7
     developer_ergonomics: 61.9
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 47.8
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -213,12 +237,16 @@ score:
       total: 1
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 73.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/co-operative-bank/refs/heads/main/screenshots/co-operative-bank-2026-07-25T205806.png
 security:

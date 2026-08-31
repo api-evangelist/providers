@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 47
   slug: pagseguro-agentic-access
   summary_line: 47 operations · 27 acting · 1 human-in-the-loop
-api_count: 33
+api_count: 1
 apis:
 - description: Core REST surface for creating and managing orders and their associated charges across credit card, debit card with 3DS, boleto, and Pix. Covers capture, cancel, refund, fees retrieval, and stored-car
   name: PagBank Orders API
@@ -188,6 +188,18 @@ collections:
   name: PagBank / PagSeguro REST API
   slug: open-pagseguro
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/pagseguro/pagseguro-sdk-php/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/pagseguro/pagseguro-sdk-php/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/pagseguro/pagseguro-sdk-php/blob/master/SECURITY.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -267,7 +279,7 @@ network: true
 overview: 'PagSeguro / PagBank publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Charges API, Checkout API, and 9 more. Tagged areas include Payments, Checkout, Pix, Boleto, and Cards.
 
 
-  PagSeguro / PagBank''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, GitHub presence, and 10 more developer resources.'
+  PagSeguro / PagBank''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, GitHub presence, and 13 more developer resources.'
 plans:
 - name: Pagseguro Plans Pricing
   plan_count: 2
@@ -279,18 +291,26 @@ rate_limits:
   slug: pagseguro-rate-limits
 score:
   band: thin
-  composite: 34.8
-  delta: 0.0
+  composite: 37.8
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 47.6
     developer_ergonomics: 29.8
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 0.0
-    operational_transparency: 48.7
-  previous_composite: 34.8
+    operational_transparency: 59.2
+  open_source:
+    applies: true
+    score: 60.0
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -304,8 +324,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/screenshots/pagseguro-2026-06-20T191324.png
 security:
@@ -326,7 +346,7 @@ tags:
 - Cards
 - Subscription
 - Recurring
-- Point-of-Sale
+- POS
 - Card Reader
 - Marketplace
 - Split

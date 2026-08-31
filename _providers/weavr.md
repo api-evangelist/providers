@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 5
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 257
   slug: weavr-agentic-access
   summary_line: 257 operations · 187 acting · 5 human-in-the-loop
-api_count: 43
+api_count: 5
 apis:
 - description: Acquire a token granting you access to perform sensitive operations on behalf of an identity.
   name: Weavr Access Token API
@@ -172,6 +172,42 @@ apis:
 - description: The Wiretransfers API from Weavr — 2 operation(s) for wiretransfers.
   name: Weavr Wiretransfers API
   slug: weavr-wiretransfers-api
+- description: Notification of the Authentication Factors that are used for the `Identity`.
+  name: Weavr Authentication Factors Webhooks API
+  slug: weavr-authentication-factors-webhooks-api
+- description: The Bulk Operations API from Weavr — 0 operation(s) for bulk operations.
+  name: Weavr Bulk Operations API
+  slug: weavr-bulk-operations-api
+- description: Buyers are identities representing companies. Once on-boarded, Buyers can create and manage their own instruments via your application.
+  name: Weavr Buyers Webhooks API
+  slug: weavr-buyers-webhooks-api
+- description: The Ibans API from Weavr — 0 operation(s) for ibans.
+  name: Weavr Ibans API
+  slug: weavr-ibans-api
+- description: Notification that the status of a Linked Account has been updated.
+  name: Weavr Linked Accounts Webhooks API
+  slug: weavr-linked-accounts-webhooks-api
+- description: The Login API from Weavr — 0 operation(s) for login.
+  name: Weavr Login API
+  slug: weavr-login-api
+- description: The Manual Transactions API from Weavr — 0 operation(s) for manual transactions.
+  name: Weavr Manual Transactions API
+  slug: weavr-manual-transactions-api
+- description: Notification that the Payment Run and payment statuses have been updated.
+  name: Weavr Payment runs Webhooks API
+  slug: weavr-payment-runs-webhooks-api
+- description: The Stepup API from Weavr — 0 operation(s) for stepup.
+  name: Weavr Stepup API
+  slug: weavr-stepup-api
+- description: Notification that a step-up has been completed or declined.
+  name: Weavr Stepup Webhooks API
+  slug: weavr-stepup-webhooks-api
+- description: Tokens webhooks
+  name: Weavr Tokens Webhooks API
+  slug: weavr-tokens-webhooks-api
+- description: Notification that the status of a transaction has been updated.
+  name: Weavr Transactions Webhooks API
+  slug: weavr-transactions-webhooks-api
 arazzos:
 - description: Simulate a deposit into a managed account, then move funds with an internal transfer and an external send. Uses the Simulator API for the deposit so a fork runs end-to-end in the Weavr sandbox.
   name: Fund a managed account and move money
@@ -179,7 +215,7 @@ arazzos:
 - description: Create a corporate identity, authenticate, open a managed account and issue a virtual card on the Weavr Multi API. Fork and run against the sandbox (https://sandbox.weavr.io).
   name: Onboard a corporate and issue a virtual card
   slug: weavr-onboard-corporate-and-issue-card
-artifact_total: 94
+artifact_total: 106
 collections:
 - collection_type: open
   name: API Collection
@@ -314,6 +350,10 @@ collections:
   name: Weavr Multi Product BackOffice Access Token Wiretransfers API
   slug: open-weavr-wiretransfers-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/weavr-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -474,25 +514,30 @@ modified: '2026-07-21'
 name: Weavr
 nav: Providers
 network: true
-overview: 'Weavr publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Access Tokens API, Accounts API, and 40 more. Tagged areas include Embedded Finance, Banking as a Service, Payments, Cards, and Fintech.
+overview: 'Weavr publishes 55 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Access Tokens API, Accounts API, and 52 more. Tagged areas include Embedded Finance, Banking as a Service, Payments, Cards, and Fintech.
 
 
-  Weavr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 30 more developer resources.'
+  Weavr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 31 more developer resources.'
 random_paper: 3
 score:
   band: strong
-  composite: 62.6
+  composite: 59.9
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 30.3
-    contract_quality: 60.9
+    contract_governance: 18.2
+    contract_quality: 55.6
     developer_ergonomics: 76.2
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 62.6
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -505,12 +550,18 @@ score:
     skills: first-party
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: EU
+      standard: psd2-sca
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weavr/refs/heads/main/screenshots/weavr-2026-08-17T082854.png
 security:

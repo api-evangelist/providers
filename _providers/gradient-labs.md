@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: gradient-labs-agentic-access
   summary_line: 11 operations · 10 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Define and execute business tools the AI agent can call.
   name: Gradient Labs Actions & Tools API
@@ -59,7 +59,10 @@ apis:
 - description: Add inbound messages to a conversation.
   name: Gradient Labs Messages API
   slug: gradient-labs-messages-api
-artifact_total: 18
+- description: The Gradient Labs API API from Gradient Labs — 0 operation(s) for gradient labs api.
+  name: Gradient Labs Gradient Labs API
+  slug: gradient-labs-gradient-labs-api-api
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -139,7 +142,7 @@ modified: '2026-07-01'
 name: Gradient Labs
 nav: Providers
 network: true
-overview: 'Gradient Labs publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Actions & Tools API, Conversations API, Hand-off API, and 2 more. Tagged areas include Artificial Intelligence, Customer-Support, AI Agent, Conversations, and Financial-Services.
+overview: 'Gradient Labs publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Actions & Tools API, Conversations API, Hand-off API, and 3 more. Tagged areas include Artificial Intelligence, Customer-Support, AI Agent, Conversations, and Financial-Services.
 
 
   Gradient Labs'' developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -154,18 +157,23 @@ rate_limits:
   slug: gradient-labs-rate-limits
 score:
   band: emerging
-  composite: 23.7
-  delta: 0.9
+  composite: 23.0
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 14.7
+    contract_quality: 13.9
     developer_ergonomics: 19.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 22.8
+  previous_composite: 23.5
   provenance:
     agentic_access: derived
     contracts:
@@ -173,8 +181,8 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/screenshots/gradient-labs-2026-07-25T220209.png
 security:

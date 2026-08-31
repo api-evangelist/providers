@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 36
   slug: openmercantil-agentic-access
   summary_line: 36 operations · 2 acting
-api_count: 18
+api_count: 3
 apis:
 - description: 'Account API credential management: list, create, rotate and revoke opaque omk_* API keys. Secrets are returned once and recoverable only via an identical Idempotency-Key replay inside 24 hours.'
   name: OpenMercantil API Credentials API
@@ -74,9 +74,6 @@ apis:
 - description: Public procurement awards (PLACSP) and grants (BDNS)
   name: OpenMercantil Public Procurement API
   slug: openmercantil-public-procurement-api
-- description: Documentary risk signals from public sources (AEPD, CNMC, concursos, AEAT moroso, CENDOJ)
-  name: OpenMercantil Risk Signals API
-  slug: openmercantil-risk-signals-api
 - description: Company and person search endpoints
   name: OpenMercantil Search API
   slug: openmercantil-search-api
@@ -98,7 +95,31 @@ apis:
 - description: 'Account outbound webhooks: register, update, rotate the HMAC signing secret and delete event subscriptions. Three subscribable event types; deliveries are signed and fail closed on unknown events.'
   name: OpenMercantil Webhooks API
   slug: openmercantil-webhooks-api
-artifact_total: 54
+- description: Public procurement (PLACSP) rankings
+  name: OpenMercantil Contracts API
+  slug: openmercantil-contracts-api
+- description: Daily BORME summary feeds
+  name: OpenMercantil Daily API
+  slug: openmercantil-daily-api
+- description: Bulk and per-resource export endpoints
+  name: OpenMercantil Export API
+  slug: openmercantil-export-api
+- description: Geolocation enrichment
+  name: OpenMercantil Geocode API
+  slug: openmercantil-geocode-api
+- description: Company relationship network and embargoes
+  name: OpenMercantil Network API
+  slug: openmercantil-network-api
+- description: Documentary risk signals from public sources (AEPD, CNMC, concursos, AEAT moroso, CENDOJ)
+  name: OpenMercantil Risk Signals API
+  slug: openmercantil-risk-signals-api
+- description: Company score, trust score and activity timeseries
+  name: OpenMercantil Score API
+  slug: openmercantil-score-api
+- description: Aggregate statistics by region and sector
+  name: OpenMercantil Stats API
+  slug: openmercantil-stats-api
+artifact_total: 61
 asyncapis:
 - description: ''
   name: Openmercantil Webhooks
@@ -153,6 +174,10 @@ collections:
   name: OpenMercantil Public API
   slug: open-openmercantil
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/openmercantil-risk-signals-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -395,13 +420,13 @@ modified: '2026-08-14'
 name: OpenMercantil
 nav: Providers
 network: true
-overview: 'OpenMercantil publishes 18 APIs on the [APIs.io](https://apis.io/) network, including API Credentials API, Billing API, BORME API, and 15 more. Tagged areas include BDNS, BORME, Business Registry, CIF, and CNAE.
+overview: 'OpenMercantil publishes 25 APIs on the [APIs.io](https://apis.io/) network, including API Credentials API, Billing API, BORME API, and 22 more. Tagged areas include BDNS, BORME, Business Registry, CIF, and CNAE.
 
 
   The OpenMercantil catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  OpenMercantil''s developer surface includes authentication, documentation, pricing, support, code examples, changelog, API reference, and 43 more developer resources.'
+  OpenMercantil''s developer surface includes authentication, documentation, pricing, support, code examples, changelog, API reference, and 44 more developer resources.'
 plans:
 - name: Openmercantil Plans Pricing
   plan_count: 4
@@ -440,18 +465,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 87.9
+  composite: 86.4
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 30.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 59.1
-    contract_quality: 78.0
+    contract_governance: 47.0
+    contract_quality: 77.7
     developer_ergonomics: 56.5
     discoverability: 81.5
-    governance: 59.1
+    governance: 47.0
     operational_transparency: 94.7
-  previous_composite: 87.9
+  previous_composite: 86.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -464,12 +494,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 85.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/screenshots/openmercantil-2026-06-20T191016.png
 security:

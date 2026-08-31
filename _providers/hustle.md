@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 23
   slug: hustle-agentic-access
   summary_line: 23 operations · 14 acting
-api_count: 10
+api_count: 1
 apis:
 - description: The Access Token API from Hustle — 1 operation(s) for access token.
   name: Hustle Access Token API
@@ -277,18 +277,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 65.5
-  delta: 5.7
+  composite: 63.5
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 53.3
     developer_ergonomics: 66.1
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 59.8
+  previous_composite: 64.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -305,9 +310,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/screenshots/hustle-2026-07-25T221742.png
 security:
 - kind: authentication

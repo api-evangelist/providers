@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 52
   slug: codat-io-agentic-access
   summary_line: 52 operations · 16 acting
-api_count: 13
+api_count: 1
 apis:
 - description: Standardized accounting data types.
   name: Codat Accounting API
@@ -131,6 +131,10 @@ collections:
   name: Codat API
   slug: open-codat-io
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/codat-io-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -186,7 +190,7 @@ network: true
 overview: 'Codat publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Accounting API, Bank Feeds API, Banking API, and 10 more. Tagged areas include Business Data, Accounting, Banking, Commerce, and Fintech.
 
 
-  Codat''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Codat''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Codat Io Plans Pricing
   plan_count: 3
@@ -198,18 +202,23 @@ rate_limits:
   slug: codat-io-rate-limits
 score:
   band: thin
-  composite: 37.1
-  delta: 2.3
+  composite: 36.6
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 52.4
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 34.8
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -223,8 +232,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codat-io/refs/heads/main/screenshots/codat-io-2026-07-25T205918.png
 security:

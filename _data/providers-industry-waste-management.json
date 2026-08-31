@@ -16,21 +16,21 @@
      "slug": "amcs-group",
      "description": "AMCS Group is an enterprise cloud software provider for the waste, recycling, resource and transport industries, headquartered in Ireland and backed by Insight Partners. Its flagship AMCS Platform exposes a REST API spanning Core, ERP Platform, Pay, Scale, TLV and Vision AI services, covering directory, accounting, transport, fleet, municipal and weighbridge operations. The API authenticates with a Personal Access Token exchanged for a session cookie, ships Swagger documentation, a hosted sandbox, a Node.js reference client, a Terraform provider, and an API Accelerator Program with pre-coded, MIT-licensed integration templates covering most of a typical integration project.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/screenshots/amcs-group-2026-07-25T200033.png",
-     "score": 44.0,
+     "score": 42.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 42.6,
-      "governance": 16.7,
-      "contract_governance": 16.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
       "operational_transparency": 18.4,
       "developer_ergonomics": 78.0,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -79,11 +79,11 @@
      "slug": "waste-management",
      "description": "Waste Management (WM) is the largest environmental services company in North America, providing waste collection, transfer, disposal, and recycling services to over 20 million residential, commercial, industrial, and municipal customers across the United States. WM provides RESTful APIs for customers and third-party integrators to access account data including balance, services, invoices, pickup schedules, and ETAs via JWT authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/screenshots/waste-management-2026-06-20T201242.png",
-     "score": 36.5,
+     "score": 36.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 72.2,
+      "discoverability": 66.7,
       "contract_quality": 65.2,
       "governance": 28.8,
       "contract_governance": 28.8,
@@ -92,8 +92,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -123,11 +123,11 @@
      "name": "WM",
      "slug": "wm",
      "description": "WM (formerly Waste Management, Inc.) is North America's largest integrated environmental solutions company, serving nearly 20 million municipal, commercial, industrial, and residential customers through collection, transfer, recycling, landfill, and waste-to-energy operations. WM does not run a self-serve, publicly-signup developer platform. It publishes a documented partner/customer REST API at api.wm.com covering account-level service and billing data - service details and pickup schedules, live service status and truck ETA, routing and hauling material information, pricing, invoices and aging balance, communication preferences, contacts, cases, tickets, and account activity notes. Access requires a WM-issued ClientId plus a JSON Web Token (JWT) and is granted on request to existing commercial/enterprise customers and integration partners by emailing apiaccess@wm.com; there is no open, self-serve API key signup.",
-     "score": 35.6,
+     "score": 35.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
+      "discoverability": 68.5,
       "contract_quality": 55.8,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -136,8 +136,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -192,8 +192,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -237,8 +237,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -289,8 +289,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -333,8 +333,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -378,8 +378,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -423,8 +423,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -468,8 +468,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -513,8 +513,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -567,8 +567,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -598,11 +598,11 @@
      "name": "Resynergi",
      "slug": "resynergi",
      "description": "Resynergi is an advanced plastic recycling technology company that builds modular Continuous Microwave Assisted Pyrolysis (CMAP) systems, marketed as AMP Modules, which convert hard-to-recycle waste plastics (HDPE, LDPE, polypropylene and polystyrene) into circular pyrolysis oil (PyOil) and other petrochemical feedstocks. Each 440 sq ft module is designed to process roughly 5 tons of plastic waste per day and produce about 1,000 gallons of PyOil per day, and the company claims a conversion roughly twenty times faster than conventional pyrolysis with a large reduction in CO2-equivalent emissions. Founded in 2015 by Jason Tanne and Brian Bauer around microwave pyrolysis research from the University of Minnesota, Resynergi commercializes its modules in partnership with Lummus Technology, which sells the AMP Modules, and also operates plants near the source of waste under a partner model. This is an industrial process-equipment business; it is not a software vendor and publishes no developer program, API, SDK or machine-readable API contract.",
-     "score": 10.3,
+     "score": 9.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 61.1,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -611,8 +611,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -663,8 +663,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -707,8 +707,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -742,15 +742,15 @@
      "rank": 15
     },
     {
-     "name": "Evreka",
-     "slug": "evreka",
-     "description": "Evreka is a smart waste and recycling management technology company offering an end-to-end \"Sustainability as a Service\" platform that digitizes the entire waste management lifecycle. Its software suite spans operations, fleet, asset, MRF, and workforce management, route optimization, citizen engagement, and EPR/PRO management, complemented by IoT hardware such as fill-level sensors, vehicle and container trackers, and RFID readers. Evreka serves dumpster rental, recycling centers, medical, hazardous and liquid waste, construction and demolition, local authorities, and cross-border waste operators. Backed by 500 Global, it is tracked in the API Evangelist network; no public API or developer portal is currently published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/evreka/refs/heads/main/screenshots/evreka-2026-07-25T213818.png",
-     "score": 8.5,
+     "name": "Fazla Gida",
+     "slug": "fazla-gida",
+     "description": "Fazla (formerly Fazla Gida / Whole Surplus) is a Turkish technology-driven waste management and circular-economy company founded in 2017 in Istanbul. Its digital, decision-support platform helps B2B clients across the supply chain — manufacturers, retailers, e-commerce, distributors, HoReCa, food banks and municipalities — prevent waste at the source and recover value from surplus inventory through a food-recovery hierarchy of secondary-sales marketplace, donation, animal-feed conversion and recycling modules, backed by logistics support, a smart-scale IoT inventory system and an AI analysis tool that reports financial, CO2 and social impact. The company operates the Fazla Iyi surprise-box consumer app, is the first B Corp-certified waste-management organization in Turkey, and is backed by 500 Global among other investors.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fazla-gida/refs/heads/main/screenshots/fazla-gida-2026-07-25T214323.png",
+     "score": 9.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -759,8 +759,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -787,10 +787,10 @@
      "rank": 16
     },
     {
-     "name": "Fazla Gida",
-     "slug": "fazla-gida",
-     "description": "Fazla (formerly Fazla Gida / Whole Surplus) is a Turkish technology-driven waste management and circular-economy company founded in 2017 in Istanbul. Its digital, decision-support platform helps B2B clients across the supply chain — manufacturers, retailers, e-commerce, distributors, HoReCa, food banks and municipalities — prevent waste at the source and recover value from surplus inventory through a food-recovery hierarchy of secondary-sales marketplace, donation, animal-feed conversion and recycling modules, backed by logistics support, a smart-scale IoT inventory system and an AI analysis tool that reports financial, CO2 and social impact. The company operates the Fazla Iyi surprise-box consumer app, is the first B Corp-certified waste-management organization in Turkey, and is backed by 500 Global among other investors.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fazla-gida/refs/heads/main/screenshots/fazla-gida-2026-07-25T214323.png",
+     "name": "Evreka",
+     "slug": "evreka",
+     "description": "Evreka is a smart waste and recycling management technology company offering an end-to-end \"Sustainability as a Service\" platform that digitizes the entire waste management lifecycle. Its software suite spans operations, fleet, asset, MRF, and workforce management, route optimization, citizen engagement, and EPR/PRO management, complemented by IoT hardware such as fill-level sensors, vehicle and container trackers, and RFID readers. Evreka serves dumpster rental, recycling centers, medical, hazardous and liquid waste, construction and demolition, local authorities, and cross-border waste operators. Backed by 500 Global, it is tracked in the API Evangelist network; no public API or developer portal is currently published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/evreka/refs/heads/main/screenshots/evreka-2026-07-25T213818.png",
      "score": 8.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -804,8 +804,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -849,8 +849,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -894,8 +894,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -939,8 +939,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -984,8 +984,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1029,8 +1029,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1073,8 +1073,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1117,8 +1117,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1161,8 +1161,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1205,8 +1205,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1249,8 +1249,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1294,8 +1294,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1338,8 +1338,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",

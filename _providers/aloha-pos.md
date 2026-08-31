@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: aloha-pos-agentic-access
   summary_line: 14 operations · 8 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Aloha Cloud-specific endpoints including the In-Store API server (gRPC, default port 50051, 127.0.0.1) for local POS connectivity and the Business Services Layer (BSL) Order Service for routing online
   name: Aloha Cloud APIs
@@ -204,7 +204,7 @@ modified: '2026-06-02'
 name: Aloha POS
 nav: Providers
 network: true
-overview: 'Aloha POS publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Menu API, Order API, and 1 more. Tagged areas include Point-of-Sale, Restaurant, Hospitality, and NCR.
+overview: 'Aloha POS publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Menu API, Order API, and 1 more. Tagged areas include POS, Restaurant, Hospitality, and NCR.
 
 
   The Aloha POS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -244,18 +244,23 @@ rules:
   slug: ncr-voyix-platform-rules
 score:
   band: emerging
-  composite: 23.4
-  delta: 3.1
+  composite: 22.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 22.0
     developer_ergonomics: 26.2
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 20.3
+  previous_composite: 23.4
   provenance:
     agentic_access: derived
     contracts:
@@ -263,8 +268,8 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/screenshots/aloha-pos-2026-06-20T171543.png
 security:
@@ -278,7 +283,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: aloha-pos
 tags:
-- Point-of-Sale
+- POS
 - Restaurant
 - Hospitality
 - NCR

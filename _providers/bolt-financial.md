@@ -23,25 +23,49 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-26'
-api_count: 5
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: The core Bolt merchant API. Covers Bolt shopper accounts (profile, addresses, payment methods), merchant configuration and callbacks, order token creation, shipment tracking, transaction authorize/cap
-  name: Bolt API
-  slug: bolt-api
-- description: The Embeddable Checkout v1 API used by merchants building their own checkout UI on top of Bolt. Exposes shopper account lookup and management, address and payment-method operations, OAuth token exchan
-  name: Bolt Embeddable Checkout v1 API
-  slug: embeddable-checkout-v1
-- description: The v3 generation of the Bolt Embeddable Checkout API, served under a /v3 path with a templated environment server variable. Reorganises the surface around Accounts, Payments (including guest payments
-  name: Bolt Embeddable Checkout v3 API
-  slug: embeddable-checkout-v3
-- description: The Bolt Tokenizer endpoint, hosted on the separate bolttk.com domain so raw card data never touches the merchant server. Publishes an RSA public key for client-side encryption and exchanges an encryp
-  name: Bolt Tokenizer API
-  slug: tokenizer
 - description: 'Bolt exposes two Model Context Protocol surfaces: a hosted documentation MCP server advertised at help.boltapp.com/mcp with search_docs, get_doc_page and list_doc_sections tools, and a Speakeasy-gener'
   name: Bolt MCP Servers
   slug: mcp
-artifact_total: 14
+- description: Use the Account endpoint to view and manage customer accounts. Perform actions such as creating an account, updating an address, or adding a payment method. This endpoint is for merchants using the Ac
+  name: Bolt Financial Account API
+  slug: bolt-financial-account-api
+- description: Implement Callback endpoints on your servers to power Bolt experiences. Different Bolt packages require different callbacks to be implemented. Consult your relevant product documentation for a list of
+  name: Bolt Financial Callbacks API
+  slug: bolt-financial-callbacks-api
+- description: Use this resource to retrieve and set Merchant Callback URLs. Bolt uses these URLs to exchange information with your commerce server. See our related guide [About the Merchant Callback API](https://he
+  name: Bolt Financial Configuration API
+  slug: bolt-financial-configuration-api
+- description: Use this endpoint to retrieve an OAuth token. Use the token to allow your ecommerce server to make calls to the Account endpoint and create a one-click checkout experience for shoppers. See related gu
+  name: Bolt Financial O Auth API
+  slug: bolt-financial-oauth-api
+- description: Use the Orders API to interact with the customer's cart throughout the checkout process. Pre-checkout, perform actions such as validating inventory, verifying discounts, and calculating taxes. Post-ch
+  name: Bolt Financial Orders API
+  slug: bolt-financial-orders-api
+- description: Use the Payments API to process credit card and alternative payment methods with Bolt.
+  name: Bolt Financial Payments API
+  slug: bolt-financial-payments-api
+- description: '[Statements](/merchants/references/financials/statements/) are available in the Merchant Dashboard for merchants who use Bolt Payments as their processor. Merchants using other processors do not recei'
+  name: Bolt Financial Statements API
+  slug: bolt-financial-statements-api
+- description: 'Use the Subscriptions endpoint to manage merchant-side recurring subscriptions created through Bolt Charge: list and retrieve subscriptions, cancel or pause/unpause them, view generated orders, and co'
+  name: Bolt Financial Subscriptions API
+  slug: bolt-financial-subscriptions-api
+- description: The testing endpoint allows you to test various functionality within Bolt. Create a test credit card to process a test payment in your store. You can also simulate tracking an order’s shipment and pro
+  name: Bolt Financial Testing API
+  slug: bolt-financial-testing-api
+- description: The Tokenizer API from Bolt Financial — 2 operation(s) for tokenizer.
+  name: Bolt Financial Tokenizer API
+  slug: bolt-financial-tokenizer-api
+- description: Use the Transactions endpoint to authorize payments when the shopper checks out and handle post authorization actions such as captures and refunds. You can use a shopper's existing saved payment infor
+  name: Bolt Financial Transactions API
+  slug: bolt-financial-transactions-api
+- description: Set up webhooks to notify your backend of events within Bolt. These webhooks can communicate with your OMS or other systems to keep them up to date with Bolt. See our related guide on [Webhooks](https
+  name: Bolt Financial Webhooks API
+  slug: bolt-financial-webhooks-api
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Bolt Financial Webhooks
@@ -60,6 +84,22 @@ collections:
   name: Tokenizer Endpoint
   slug: open-bolt-financial-tokenizer
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bolt-financial-bolt-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bolt-financial-embeddable-checkout-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bolt-financial-embeddable-checkout-v3-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bolt-financial-tokenizer-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -208,13 +248,13 @@ modified: '2026-07-31'
 name: Bolt Financial
 nav: Providers
 network: true
-overview: 'Bolt Financial publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bolt API, Bolt Embeddable Checkout v1 API, Bolt Embeddable Checkout v3 API, and 1 more. Tagged areas include Company, Payments, Checkout, E-Commerce, and Fintech.
+overview: 'Bolt Financial publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account API, Callbacks API, Configuration API, and 9 more. Tagged areas include Company, Payments, Checkout, E-Commerce, and Fintech.
 
 
   The Bolt Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bolt Financial''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Bolt Financial''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
 random_paper: 4
 scopes:
 - name: Bolt Financial Scopes
@@ -223,18 +263,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.2
+  composite: 59.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 30.3
-    contract_quality: 62.9
+    contract_governance: 18.2
+    contract_quality: 63.9
     developer_ergonomics: 77.4
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 62.2
+  previous_composite: 59.9
   provenance:
     conformance: first-party
     contracts:
@@ -250,8 +295,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/screenshots/bolt-financial-2026-08-07T162709.png
 security:

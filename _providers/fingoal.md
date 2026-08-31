@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
 - description: The Insights API's transaction enrichment endpoints enable developers to clean and enhance their transaction data. This process includes standardizing merchant names, categorizing transactions, and ad
   name: FinGoal Enrichment API
@@ -45,10 +45,19 @@ apis:
 - description: Manage webhook callback URLs for your client. Supports default and tenant-specific configurations per webhook type.
   name: FinGoal Webhook Configurations API
   slug: fingoal-webhook-configurations-api
-- description: Link Money is an authentication portal in front of a shared account-aggregation instance. A bank or credit union buys one aggregation environment (a "tenant"), and Link Money authenticates its several
-  name: FinGoal Link Money API
-  slug: fingoal-link-money-api
-artifact_total: 17
+- description: 'There are three kinds of people who interact with Link Money: - **Users** are the people who use the Link Money application. They are the people who log in, view their accounts, and make transactions.'
+  name: FinGoal Client Management API
+  slug: fingoal-client-management-api
+- description: The Link Money API permits end users to link and get data from their bank accounts. But of course, that requires a front-end interface. That's where the Fastlink comes in. The Fastlink is an example o
+  name: FinGoal Fastlink API
+  slug: fingoal-fastlink-api
+- description: The Oauth API from FinGoal — 1 operation(s) for oauth.
+  name: FinGoal OAUTH API
+  slug: fingoal-oauth-api
+- description: 'Webhook payload schemas for all webhook types. Configure which webhooks you receive using the Webhook Configurations endpoints. **Available Webhook Types:** - `ENRICHMENT_DATA`: Data-rich Transaction '
+  name: FinGoal Webhooks API
+  slug: fingoal-webhooks-api
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Fingoal Link Money Webhooks
@@ -70,6 +79,10 @@ collections:
   name: Insights Enrichment Webhook Configurations API
   slug: open-fingoal-webhook-configurations-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/fingoal-link-money-overlay.yaml
 - group: other
   title: ''
   type: Overlay
@@ -202,13 +215,13 @@ modified: '2026-08-14'
 name: FinGoal
 nav: Providers
 network: true
-overview: 'FinGoal publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Enrichment API, User Tagging API, Webhook Configurations API, and 1 more. Tagged areas include Financial-Services, Fintech, Transaction Enrichment, Data Enrichment, and Personal Financial Management.
+overview: 'FinGoal publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Enrichment API, User Tagging API, Webhook Configurations API, and 4 more. Tagged areas include Financial-Services, Fintech, Transaction Enrichment, Data Enrichment, and Personal Financial Management.
 
 
   The FinGoal catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  FinGoal''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, sandbox, and 23 more developer resources.'
+  FinGoal''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, sandbox, and 24 more developer resources.'
 plans:
 - name: Fingoal Plans Pricing
   plan_count: 0
@@ -225,18 +238,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: strong
-  composite: 57.8
+  composite: 55.6
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
-    contract_quality: 65.2
+    contract_governance: 18.2
+    contract_quality: 62.4
     developer_ergonomics: 42.3
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 57.8
+  previous_composite: 55.6
   provenance:
     conformance: first-party
     contracts:
@@ -248,12 +266,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 69.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/screenshots/fingoal-2026-07-25T214520.png
 security:

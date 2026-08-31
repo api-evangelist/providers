@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 1
@@ -31,12 +31,33 @@ agentic_access:
   operation_count: 62
   slug: getir-agentic-access
   summary_line: 62 operations · 39 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
-- description: The GetirFood (GetirYemek) partner integration API — a Swagger 2.0 contract with 62 operations across seven tags (auth, restaurants, products, chain-menus, food-orders, payment-methods, changelog, hea
-  name: GetirFood API
-  slug: getirfood-api
-artifact_total: 8
+- description: 'Secret keys provided to your company will be used for login. After successful login, you must use the token returned to your company in other endpoints. The validity period of the token is 1 hour, at '
+  name: Getir Auth API
+  slug: getir-auth-api
+- description: The chain-menus API from Getir — 4 operation(s) for chain-menus.
+  name: Getir Chain Menus API
+  slug: getir-chain-menus-api
+- description: The changelog API from Getir — 1 operation(s) for changelog.
+  name: Getir Changelog API
+  slug: getir-changelog-api
+- description: Endpoints about food orders
+  name: Getir Food Orders API
+  slug: getir-food-orders-api
+- description: This endpoint can be used to check the health of the application
+  name: Getir Health API
+  slug: getir-health-api
+- description: The payment-methods API from Getir — 1 operation(s) for payment-methods.
+  name: Getir Payment Methods API
+  slug: getir-payment-methods-api
+- description: Endpoints in the products section can be used with product information obtained from restaurant endpoints.
+  name: Getir Products API
+  slug: getir-products-api
+- description: Endpoints about restaurant and courier opening and closing features can be seen in the restaurants section.
+  name: Getir Restaurants API
+  slug: getir-restaurants-api
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Getir Food Webhooks
@@ -163,7 +184,7 @@ modified: '2026-07-31'
 name: Getir
 nav: Providers
 network: true
-overview: 'Getir publishes 1 API on the [APIs.io](https://apis.io/) network: GetirFood API. Tagged areas include Company, Food Delivery, Grocery Delivery, On-Demand Delivery, and Logistics.
+overview: 'Getir publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Chain Menus API, Changelog API, and 5 more. Tagged areas include Company, Food Delivery, Grocery Delivery, On-Demand Delivery, and Logistics.
 
 
   The Getir catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -177,18 +198,23 @@ rate_limits:
   slug: getir-rate-limits
 score:
   band: thin
-  composite: 35.2
-  delta: 0.0
+  composite: 34.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 46.3
+    contract_governance: 4.5
+    contract_quality: 47.8
     developer_ergonomics: 25.6
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 35.2
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -199,8 +225,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getir/refs/heads/main/screenshots/getir-2026-08-07T165703.png
 security:

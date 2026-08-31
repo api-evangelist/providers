@@ -1,125 +1,108 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free
+  onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
   - plans
-  - authentication
+  - rate-limits
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: false
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 81
-  human_in_the_loop: 2
-  name: Stockholm Agentic Access
-  operation_count: 157
-  slug: stockholm-agentic-access
-  summary_line: 157 operations · 81 acting · 2 human-in-the-loop
-api_count: 12
+  score: 2.5
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: Stockholm University participates in DiVA (Academic Archive On-line), the shared Swedish publishing system and digital archive for research and student publications. DiVA exposes bibliographic metadat
+- description: Stockholm University operates its own Shibboleth Identity Provider and publishes its SAML 2.0 entity metadata anonymously on its registrable domain. The document declares entityID https://idp.it.su.se
+  name: Stockholm University Shibboleth Identity Provider (SAML2 Metadata)
+  slug: identity-federation
+- description: Stockholm University's publication records are harvestable over OAI-PMH 2.0 from its DiVA instance at su.diva-portal.org, with an institution-scoped set (all-su) and eight metadata formats (oai_dc, oa
   name: DiVA Institutional Repository (OAI-PMH)
   slug: diva-oai
-- description: Open-source utility from the Stockholm University GitHub organization that generates Shibboleth SP/SAML2 metadata X.509 certificates and keys and stores them (e.g. in HashiCorp Vault). Reflects the un
-  name: shib-keygen-api (Shibboleth SP Metadata Tooling)
-  slug: shib-keygen-api
-- description: The altmetric API from Stockholm University — 1 operation(s) for altmetric.
-  name: Stockholm University altmetric API
-  slug: stockholm-altmetric-api
-- description: The articles API from Stockholm University — 34 operation(s) for articles.
-  name: Stockholm University articles API
-  slug: stockholm-articles-api
-- description: The authors API from Stockholm University — 2 operation(s) for authors.
-  name: Stockholm University authors API
-  slug: stockholm-authors-api
-- description: The collections API from Stockholm University — 21 operation(s) for collections.
-  name: Stockholm University collections API
-  slug: stockholm-collections-api
-- description: The institutions API from Stockholm University — 20 operation(s) for institutions.
-  name: Stockholm University institutions API
-  slug: stockholm-institutions-api
-- description: The oauth API from Stockholm University — 1 operation(s) for oauth.
-  name: Stockholm University oauth API
-  slug: stockholm-oauth-api
-- description: The other API from Stockholm University — 7 operation(s) for other.
-  name: Stockholm University other API
-  slug: stockholm-other-api
-- description: The profiles API from Stockholm University — 2 operation(s) for profiles.
-  name: Stockholm University profiles API
-  slug: stockholm-profiles-api
-- description: The projects API from Stockholm University — 17 operation(s) for projects.
-  name: Stockholm University projects API
-  slug: stockholm-projects-api
-- description: The symplectic API from Stockholm University — 5 operation(s) for symplectic.
-  name: Stockholm University symplectic API
-  slug: stockholm-symplectic-api
-artifact_total: 41
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Figshare altmetric API
-  slug: open-stockholm-altmetric-api
-- collection_type: open
-  name: Figshare altmetric articles API
-  slug: open-stockholm-articles-api
-- collection_type: open
-  name: Figshare altmetric authors API
-  slug: open-stockholm-authors-api
-- collection_type: open
-  name: Figshare altmetric collections API
-  slug: open-stockholm-collections-api
-- collection_type: open
-  name: Figshare altmetric institutions API
-  slug: open-stockholm-institutions-api
-- collection_type: open
-  name: Figshare altmetric oauth API
-  slug: open-stockholm-oauth-api
-- collection_type: open
-  name: Figshare altmetric other API
-  slug: open-stockholm-other-api
-- collection_type: open
-  name: Figshare altmetric profiles API
-  slug: open-stockholm-profiles-api
-- collection_type: open
-  name: Figshare altmetric projects API
-  slug: open-stockholm-projects-api
-- collection_type: open
-  name: Figshare altmetric symplectic API
-  slug: open-stockholm-symplectic-api
+- description: su.figshare.com is Stockholm University's research data repository, running on Figshare. The data, the DOIs and the institutional group are SU's; the contract behind it is Figshare's generic api.figsh
+  name: Stockholm University Research Data Repository (Figshare tenancy)
+  slug: figshare-repository
+- description: www.su.se runs SiteVision, whose REST framework is reachable at /rest-api/ and answers with structured JSON. No public RestApp is exposed there (a request to /rest-api/search returns {"success":false,
+  name: Stockholm University Education Archive Sitemap (SiteVision REST)
+  slug: education-archive-sitemap
+artifact_total: 9
 common:
-- group: agent
+- group: company
   title: ''
-  type: AgenticAccess
-  url: agentic-access/stockholm-agentic-access.yml
+  type: Website
+  url: https://www.su.se/english/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.su.se/english/about-the-university/university-facts/about-this-website-and-processing-of-personal-data
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.su.se/english/about-the-university/contact
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/stockholmuniversity
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/stockholmuniversity/shib-keygen-api
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/stockholm-university/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://idp.it.su.se/idp/shibboleth
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://bolin.su.se/data/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://su.diva-portal.org/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://su.figshare.com/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://www.su.se/utbildning/utbildningskatalog
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://www.su.se/english/library/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/stockholm-conformance.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -128,34 +111,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/stockholm-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/stockholm-authentication.yml
-- group: auth
-  title: ''
-  type: OAuthScopes
-  url: scopes/stockholm-scopes.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://www.su.se/english/
-- group: build
-  title: ''
-  type: GitHub
-  url: https://github.com/stockholmuniversity
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/stockholm-university/
-- group: build
-  title: ''
-  type: SourceCode
-  url: https://github.com/stockholmuniversity
-- group: auth
-  title: ''
-  type: Authentication
-  url: https://www.swamid.se/
 - group: commercial
   title: ''
   type: Plans
@@ -172,54 +127,79 @@ common:
   title: ''
   type: Review
   url: review.yml
+coverage:
+  checked: '2026-08-30'
+  detail: 'Stockholm University publishes no public, documented API of its own, and this profile now says so. The operator axis is the entire finding. Everything the June 2026 pass credited to SU — eleven per-tag OpenAPIs titled "Figshare altmetric ... API", all with servers[0] https://api.figshare.com/v2 and info.contact "Figshare Support" — was one vendor contract that twelve other institutions in this cohort also ship. Those 48 files (10 refined specs, the pristine Figshare source in openapi/_original, the refine report, 3 JSON Schemas, 2 JSON Structures, 2 examples, a JSON-LD context, 2 rulesets, a vocabulary, scopes, an authentication summary, an agentic-access card, a capability map and 21 collection files) have been removed file by file with git rm. Two tenant relationships were kept rather than deleted, because they are real institutional facts: the DiVA OAI-PMH endpoint (operated by the DiVA consortium at Uppsala University Library) and su.figshare.com. Two institution-operated
+    surfaces were found by live probe and are new to this profile: the Shibboleth SAML2 IdP metadata at idp.it.su.se, registered in SWAMID and therefore eduGAIN, and the SiteVision /rest-api/sitemap education archive index on www.su.se. A third institution-operated asset, the Bolin Centre Database on bolin.su.se, mints DataCite DOIs under prefix 10.17043 (DataCite repository snd.bolin, active since 2014) but publishes no REST API, so it is recorded as a ResearchRepository pointer and as DataCite conformance rather than as an API. Four education-regime domain standards are evidenced in conformance/: shibboleth, saml, oai-pmh and datacite. Eight more (scim, lti, oneroster, ed-fi, caliper, qti, orcid, crossref) were probed and not found. Absences confirmed by negative probe rather than assumed: no developer portal, no API gateway, no open data portal, no llms.txt, no sitemap at the conventional path, no first-party security contact (su.se/.well-known/security.txt exists but names soc@sitevision.se,
+    the CMS vendor''s SOC, not the university''s).'
+  evidence:
+  - note: INSTITUTION. application/xml, 5,263 bytes. SAML2 IdP metadata, entityID https://idp.it.su.se/idp/shibboleth, shibmd:Scope su.se.
+    status: 200
+    url: https://idp.it.su.se/idp/shibboleth
+  - note: SWAMID IdP aggregate contains exactly one su.se entity — SU's IdP. Aggregate is SUNET's.
+    status: 200
+    url: https://mds.swamid.se/md/swamid-idp.xml
+  - note: INSTITUTION. Serves a valid <sitemapindex> body (315 bytes, text/xml) despite the 404 status code, naming sitemap1, sitemap2 and educationArchiveSitemap. Advertised in robots.txt.
+    status: 404
+    url: https://www.su.se/rest-api/sitemap
+  - note: 3,921,519 bytes of text/xml — every course syllabus in the planarkiv, with course codes.
+    status: 200
+    url: https://www.su.se/rest-api/sitemap/educationArchiveSitemap
+  - note: 'SiteVision REST framework is live and answers JSON, but exposes no public RestApp: {"success":false,"type":"invalidParameter","message":"No RestApp found for /rest-api/search"}.'
+    status: 400
+    url: https://www.su.se/rest-api/search
+  - note: INSTITUTION. Bolin Centre Database, SU-operated research data repository. No REST API.
+    status: 200
+    url: https://bolin.su.se/data/
+  - note: DataCite repository "Bolin Centre Database", year 2014, url https://bolin.su.se/data/.
+    status: 200
+    url: https://api.datacite.org/clients/snd.bolin
+  - note: TENANT. OAI-PMH 2.0, repositoryName "DiVA - Academic Archive On-line", adminEmail diva-support@ub.uu.se, repositoryIdentifier DiVA.org.
+    status: 200
+    url: https://su.diva-portal.org/dice/oai?verb=Identify
+  - note: TENANT. Empty body, bot challenge. Figshare deployment; contract is api.figshare.com/v2.
+    status: 202
+    url: https://su.figshare.com/
+  - note: Negative probe. No API gateway; host does not resolve.
+    status: 0
+    url: https://api.su.se/
+  - note: Negative probe. No developer portal; host does not resolve.
+    status: 0
+    url: https://developer.su.se/
+  - note: Negative probe. No open data portal; host does not resolve.
+    status: 0
+    url: https://data.su.se/
+  - note: Negative probe. No API path on the institutional website.
+    status: 404
+    url: https://www.su.se/api/
+  - note: Negative probe. No agent-directed content policy.
+    status: 404
+    url: https://www.su.se/llms.txt
+  - note: Negative probe. Sitemap lives at /rest-api/sitemap instead, per robots.txt.
+    status: 404
+    url: https://www.su.se/sitemap.xml
+  - note: 'Present but not the institution''s own contact — Contact: mailto:soc@sitevision.se, the SiteVision CMS vendor''s security operations centre. Expires 2026-09-30.'
+    status: 200
+    url: https://www.su.se/.well-known/security.txt
+  reason: no_public_api
+  state: none
 created: '2026-06-03'
-description: 'Stockholm University (Stockholms universitet) is a public research university in Sweden, ranked #128 in the QS World University Rankings 2025. Like most Nordic public universities, it does not operate a single consolidated developer portal; its public, machine-readable footprint is distributed across standards-based and third-party services. Confirmed interfaces include the DiVA institutional repository OAI-PMH metadata endpoint, the Figshare-hosted research data repository (su.figshare.com) backed by the Figshare public REST API, and the public GitHub organization (stockholmuniversity) where IT operations and infrastructure tooling is maintained. Identity is federated through SWAMID/Shibboleth (SAML2), reflected in the org''s shib-keygen-api project. No general-purpose open course or student-information API was found publicly documented.'
-examples:
-- key_count: 2
-  name: Stockholm Article Detail Example
-  slug: stockholm-article-detail-example
-- key_count: 2
-  name: Stockholm List Articles Example
-  slug: stockholm-list-articles-example
+description: 'Stockholm University (Stockholms universitet) is a public research university in Sweden and one of the country''s largest, with roughly 33,000 students across four faculties. It operates no public developer portal, no API gateway and no first-party documented API: api.su.se, data.su.se and developer.su.se do not resolve, and www.su.se/api returns 404. What the institution genuinely runs and serves anonymously is narrow — a Shibboleth SAML2 identity provider at idp.it.su.se whose entity metadata is published by the university and registered in the SWAMID federation (and so in eduGAIN), the Bolin Centre Database research data repository on bolin.su.se minting its own DataCite DOIs under prefix 10.17043 since 2014, and a SiteVision REST sitemap on www.su.se that indexes every course syllabus in the education archive. Its two harvestable research surfaces are both tenancies rather than SU engineering: the DiVA OAI-PMH endpoint at su.diva-portal.org is operated by the DiVA consortium
+  at Uppsala University Library, and su.figshare.com is a Figshare deployment. This profile previously credited Stockholm University with eleven APIs that were all one Figshare contract at api.figshare.com/v2; those contracts and everything derived from them have been removed and the two repository relationships recorded as tenant surfaces instead.'
 finops:
 - name: Stockholm Finops
   service_category: Education
   slug: stockholm-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stockholm.png
-json_schemas:
-- name: Figshare Article
-  property_count: 19
-  slug: stockholm-article
-- name: Figshare Author
-  property_count: 7
-  slug: stockholm-author
-- name: Figshare Collection
-  property_count: 6
-  slug: stockholm-collection
-json_structures:
-- name: Stockholm Article Structure
-  property_count: 15
-  slug: stockholm-article-structure
-- name: Stockholm Author Structure
-  property_count: 7
-  slug: stockholm-author-structure
-jsonld:
-- class_count: 16
-  name: Stockholm Context
-  property_count: 11
-  slug: stockholm-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Stockholm University
 nav: Providers
 network: true
-overview: 'Stockholm University publishes 10 APIs on the [APIs.io](https://apis.io/) network, including altmetric API, articles API, authors API, and 7 more. Tagged areas include Education, Higher Education, University, Research, and Open Access.
+overview: 'Stockholm University publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Research Data.
 
 
-  The Stockholm University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  Stockholm University''s developer surface includes authentication, GitHub presence, and 12 more developer resources.'
+  Stockholm University''s developer surface includes support and 18 more developer resources.'
 plans:
 - name: Stockholm Plans Pricing
   plan_count: 2
@@ -229,46 +209,25 @@ rate_limits:
 - limit_count: 1
   name: Stockholm Rate Limits
   slug: stockholm-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: Stockholm University API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 1
-    warn: 4
-  slug: stockholm-jsonschema-spectral-rules
-- effective_rule_count: 6
-  extends: []
-  name: Stockholm University API Rules
-  rule_count: 6
-  severity_counts:
-    error: 1
-    hint: 0
-    info: 2
-    warn: 3
-  slug: stockholm-rules
-scopes:
-- name: Stockholm Scopes
-  scope_count: 1
-  slug: stockholm-scopes
-  summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 41.4
-  delta: 1.9
+  band: emerging
+  composite: 25.6
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -15.8
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 70.3
-    developer_ergonomics: 9.5
-    discoverability: 64.8
-    governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 39.5
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 0.0
+    contract_quality: 10.5
+    developer_ergonomics: 14.3
+    discoverability: 74.1
+    governance: 0.0
+    operational_transparency: 23.7
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -281,16 +240,12 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 61.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 38.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/stockholm/refs/heads/main/screenshots/stockholm-2026-06-20T194559.png
 security:
-- kind: authentication
-  name: Stockholm Authentication
-  slug: stockholm-authentication
-  summary_line: oauth2 · 1 scheme
 - kind: domain-security
   name: Stockholm Domain Security
   slug: stockholm-domain-security
@@ -305,8 +260,11 @@ tags:
 - Higher Education
 - University
 - Research
+- Research Data
 - Open Access
 - Repository
+- Identity Federation
+- Course Catalog
 - Sweden
 - Europe
 website: https://www.su.se/english/

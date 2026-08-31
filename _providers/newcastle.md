@@ -1,14 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Free and open — no registration, no key, no scopes
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
+  - probe
   - plans
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-ready
   dimensions:
@@ -16,7 +17,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: na
@@ -32,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.6
-  scored_at: '2026-08-26'
+  score: 32.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,33 +42,33 @@ agentic_access:
   operation_count: 6
   slug: newcastle-agentic-access
   summary_line: 6 operations
-api_count: 8
+api_count: 2
 apis:
-- description: Search and Data API for Newcastle University's Digitised Objects Repository, providing programmatic access to metadata and digitised materials from the university's collections.
+- description: A single point-of-truth interface for searching, browsing and displaying the digitised objects held in Newcastle University Library's Special Collections. Eighteen operations across collections, digit
   name: Digitised Objects Repository Search and Data API
   slug: digitised-objects
-- description: API for the Eighteenth-Century Political Participation and Electoral Culture (ECPPEC) research project, providing access to historical British electoral datasets including pollbook records and electio
-  name: ECPPEC Electoral Data API
+- description: A GraphQL API over the Eighteenth-Century Political Participation and Electoral Culture research dataset — historical British elections, constituencies, candidates, poll books, voters, votes, occupati
+  name: ECPPEC Electoral Data GraphQL API
   slug: ecppec
-- description: Newcastle University's institutional research data repository, powered by Figshare, for documenting, archiving and publishing datasets and code. Programmatic access is available through the underlying
-  name: data.ncl Research Data Repository (Figshare)
+- description: An OAI-PMH 2.0 metadata harvesting interface over Newcastle University's electronic theses repository, running on DSpace 6.3. Supports oai_dc, dim and the uketd_dc profile used by the UK Electronic Th
+  name: Newcastle University eTheses OAI-PMH Endpoint
+  slug: etheses-oai
+- description: 'Newcastle University''s institutional research data repository, operated for the university by Figshare on a Newcastle-branded custom domain. Programmatic access exists but runs entirely on Figshare''s '
+  name: data.ncl Research Data Repository (Figshare tenancy)
   slug: data-ncl
-- description: Newcastle University's EPrints-based repositories (institutional outputs at eprints.ncl.ac.uk and electronic theses at theses.ncl.ac.uk) expose metadata harvesting via the standard EPrints OAI-PMH int
-  name: EPrints Institutional Repository (OAI-PMH)
-  slug: eprints
-- description: An entity ordinarily describes a spatial location, such as a room in a building, or a pole in the street. In some circumstances, an entity may be a mobile piece of equipment, such as those used for va
-  name: Newcastle University Entity API
-  slug: newcastle-entity-api
+- description: 'An entity ordinarily describes a spatial location, such as a room in a building or a pole in the street. In some circumstances an entity may be a mobile piece of equipment, in which case the location '
+  name: Urban Observatory API (Urban Sciences Building) — Entity
+  slug: urban-observatory-entity
 - description: A feed is a representation of a measurement or parametrisation, usually a metric, for example the observed temperature.
-  name: Newcastle University Feed API
-  slug: newcastle-feed-api
-- description: The Summary API from Newcastle University — 1 operation(s) for summary.
-  name: Newcastle University Summary API
-  slug: newcastle-summary-api
-- description: There may be more than one timeseries associated with a feed, provided for convenience. Ordinarily there will be a plain timeseries, representing raw data from the device. In some cases, there may the
-  name: Newcastle University Timeseries API
-  slug: newcastle-timeseries-api
-artifact_total: 32
+  name: Urban Observatory API (Urban Sciences Building) — Feed
+  slug: urban-observatory-feed
+- description: A compact summary view over Urban Sciences Building entities and the feeds attached to them.
+  name: Urban Observatory API (Urban Sciences Building) — Summary
+  slug: urban-observatory-summary
+- description: There may be more than one timeseries associated with a feed. Ordinarily there will be a plain timeseries representing raw data from the device; in some cases there may be additional timeseries repres
+  name: Urban Observatory API (Urban Sciences Building) — Timeseries
+  slug: urban-observatory-timeseries
+artifact_total: 42
 collections:
 - collection_type: open
   name: API Collection
@@ -85,21 +86,13 @@ collections:
   name: 'Urban Observatory API: Urban Sciences Building Entity Timeseries API'
   slug: open-newcastle-timeseries-api
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/newcastle-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/newcastle-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://www.ncl.ac.uk/
 - group: build
   title: ''
-  type: GitHub
+  type: GitHubOrganization
   url: https://github.com/newcastleuniversity
 - group: company
   title: ''
@@ -109,6 +102,54 @@ common:
   title: ''
   type: Twitter
   url: https://x.com/UniofNewcastle
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://gateway.ncl.ac.uk/idp/shibboleth
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://eprints.ncl.ac.uk/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://theses.ncl.ac.uk/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://www.ncl.ac.uk/undergraduate/degrees/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://www.ncl.ac.uk/library/special-collections/
+- group: design
+  title: ''
+  type: x-conformance
+  url: conformance/newcastle-conformance.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/newcastle-authentication.yml
+- group: auth
+  title: ''
+  type: x-scopes
+  url: scopes/newcastle-scopes.yml
+- group: design
+  title: ''
+  type: x-errors
+  url: errors/newcastle-errors.yml
+- group: design
+  title: ''
+  type: x-lifecycle
+  url: lifecycle/newcastle-lifecycle.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/newcastle-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/newcastle-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -126,12 +167,22 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'Newcastle University is a public research university in Newcastle upon Tyne, United Kingdom, ranked #129 in the QS World University Rankings 2025. Its public developer and API footprint centers on research and open-data initiatives rather than a single central developer portal. Confirmed public APIs include the Newcastle Urban Observatory REST API (one of the UK''s largest open urban-sensing platforms, with an OpenAPI specification), the Digitised Objects Repository Search and Data API, and the ECPPEC electoral history research API. The university also operates a verified GitHub organization and a Figshare-powered research data repository (data.ncl), and runs EPrints-based institutional and thesis repositories that expose OAI-PMH.'
+description: 'Newcastle University is a public research university in Newcastle upon Tyne, United Kingdom, and a member of the Russell Group. Its programmable footprint is genuinely its own but it is small, decentralised and unadvertised: there is no central developer portal, no API changelog, no status page and no developer support channel anywhere on ncl.ac.uk. What the institution actually operates and runs itself, verified live on 2026-08-30, is four things — the Urban Observatory API for the Urban Sciences Building (the largest open urban-sensing platform in the UK, on a domain Newcastle registered and serves from its own nameservers), the Library''s Digitised Objects Repository Search and Data API, which publishes its own OpenAPI at /info/open-api and serves 15,482 digitised objects from Special Collections, the ECPPEC eighteenth-century electoral GraphQL API with open introspection, and an OAI-PMH 2.0 endpoint over the eTheses repository. Alongside these it operates a Shibboleth SAML
+  2.0 identity provider registered in the UK Access Management Federation with 168 service providers under ncl.ac.uk, which is by volume the institution''s largest machine-readable surface and is a login federation rather than a data API. Its research data repository, data.ncl, is a Figshare tenant: the data and the DOIs are Newcastle''s, the API contract is Figshare''s, and it is recorded here as a tenant relationship rather than credited to the university.'
 examples:
+- key_count: 4
+  name: Newcastle Digitised Objects Collections Example
+  slug: newcastle-digitised-objects-collections-example
+- key_count: 4
+  name: Newcastle Digitised Objects List Example
+  slug: newcastle-digitised-objects-list-example
 - key_count: 2
+  name: Newcastle Ecppec Graphql Example
+  slug: newcastle-ecppec-graphql-example
+- key_count: 3
   name: Newcastle Entity List Example
   slug: newcastle-entity-list-example
-- key_count: 3
+- key_count: 4
   name: Newcastle Timeseries Entry Example
   slug: newcastle-timeseries-entry-example
 finops:
@@ -140,6 +191,18 @@ finops:
   slug: newcastle-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/newcastle.png
 json_schemas:
+- name: DigitisedObject
+  property_count: 5
+  slug: newcastle-digitised-object
+- name: Collection
+  property_count: 3
+  slug: newcastle-dor-collection
+- name: DorError
+  property_count: 1
+  slug: newcastle-dor-error
+- name: DorPagination
+  property_count: 5
+  slug: newcastle-dor-pagination
 - name: Entity
   property_count: 5
   slug: newcastle-entity
@@ -149,6 +212,9 @@ json_schemas:
 - name: Feed
   property_count: 8
   slug: newcastle-feed
+- name: HateoasLinks
+  property_count: 0
+  slug: newcastle-hateoas-links
 - name: Timeseries
   property_count: 8
   slug: newcastle-timeseries
@@ -174,17 +240,17 @@ jsonld:
   property_count: 8
   slug: newcastle-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Newcastle University
 nav: Providers
 network: true
-overview: 'Newcastle University publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Entity API, Feed API, Summary API, and 1 more. Tagged areas include Education, Higher Education, University, United Kingdom, and Open Data.
+overview: 'Newcastle University publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Digitised Objects Repository Search and Data API, Urban Observatory API (Urban Sciences Building) — Entity, Urban Observatory API (Urban Sciences Building) — Feed, and 2 more. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
 
 
   The Newcastle University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Newcastle University''s developer surface includes GitHub presence and 9 more developer resources.'
+  Newcastle University''s developer surface includes authentication and 19 more developer resources.'
 plans:
 - name: Newcastle Plans Pricing
   plan_count: 2
@@ -215,20 +281,30 @@ rules:
     info: 2
     warn: 4
   slug: newcastle-rules
+scopes:
+- name: Newcastle Scopes
+  scope_count: 0
+  slug: newcastle-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 32.6
-  delta: 1.9
+  band: developing
+  composite: 41.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 45.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 8.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
-    contract_quality: 59.7
-    developer_ergonomics: 9.5
-    discoverability: 64.8
+    contract_quality: 64.3
+    developer_ergonomics: 28.6
+    discoverability: 59.3
     governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 30.7
+    operational_transparency: 23.7
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -241,25 +317,32 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 50.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/newcastle/refs/heads/main/screenshots/newcastle-2026-06-20T190237.png
 security:
+- kind: authentication
+  name: Newcastle Authentication
+  slug: newcastle-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Newcastle Domain Security
   slug: newcastle-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
 slug: newcastle
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - United Kingdom
-- Open Data
+- Russell Group
 - Research Data
-- Smart Cities
+- Open Data
 - Digital Library
+- Identity Federation
+- Smart Cities
+- Cultural Heritage
 website: https://www.ncl.ac.uk/
 ---

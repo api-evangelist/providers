@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 17
   slug: openkruise-agentic-access
   summary_line: 17 operations · 8 acting
-api_count: 2
+api_count: 1
 apis:
 - description: OpenKruise provides Kubernetes Custom Resource Definitions (CRDs) for advanced workload management. CloneSet offers efficient rolling updates with partition control, Advanced StatefulSet supports in-p
   name: OpenKruise Workload API
@@ -63,6 +63,26 @@ collections:
   name: OpenKruise Workload API
   slug: open-openkruise
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/openkruise/kruise/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/openkruise/kruise/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/openkruise/kruise/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/openkruise/kruise/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/openkruise/kruise/blob/master/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -106,7 +126,7 @@ network: true
 overview: 'OpenKruise publishes 1 API on the [APIs.io](https://apis.io/) network: Apis API. Tagged areas include Cloud-Native, Controllers, Deployment, Incubating, and Kubernetes.
 
 
-  OpenKruise''s developer surface includes authentication, documentation, engineering blog, and 4 more developer resources.'
+  OpenKruise''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Openkruise Plans Pricing
   plan_count: 3
@@ -118,7 +138,12 @@ rate_limits:
   slug: openkruise-rate-limits
 score:
   band: thin
-  composite: 26.3
+  composite: 36.8
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -128,8 +153,11 @@ score:
     developer_ergonomics: 14.3
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 13.2
-  previous_composite: 26.3
+    operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     contracts:
@@ -137,8 +165,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openkruise/refs/heads/main/screenshots/openkruise-2026-06-20T191009.png
 security:

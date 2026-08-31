@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 36
   slug: power-bi-agentic-access
   summary_line: 36 operations · 14 acting
-api_count: 11
+api_count: 1
 apis:
 - description: Azure service that enables ISVs and developers to embed Power BI visuals, reports, and dashboards into their applications.
   name: Power BI Embedded
@@ -159,6 +159,30 @@ collections:
   name: Power BI REST API
   slug: open-power-bi-rest-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/power-bi-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Microsoft/PowerBI-JavaScript/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Microsoft/PowerBI-JavaScript/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/microsoft/PowerBI-JavaScript/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/microsoft/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/microsoft/PowerBI-JavaScript/blob/master/CONTRIBUTING.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1022,7 +1046,7 @@ overview: 'Power BI publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   The Power BI catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Power BI''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, engineering blog, support, and 50 more developer resources.'
+  Power BI''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, engineering blog, support, and 56 more developer resources.'
 plans:
 - name: Power Bi Plans Pricing
   plan_count: 5
@@ -1061,18 +1085,26 @@ scopes:
   summary_line: 17 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 69.3
-  delta: 6.4
+  composite: 70.8
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 72.8
     developer_ergonomics: 100.0
-    discoverability: 92.6
-    governance: 30.3
-    operational_transparency: 44.7
-  previous_composite: 62.9
+    discoverability: 75.9
+    governance: 18.2
+    operational_transparency: 55.3
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 71.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1082,9 +1114,9 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/screenshots/power-bi-2026-06-20T192022.png
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: thought-industries-agentic-access
   summary_line: 15 operations · 6 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Thought Industries GraphQL API provides flexible querying of platform data including courses, users, content, and enrollments. Available at /incoming/api/graphql with schema introspection supporte
   name: Thought Industries GraphQL API
@@ -110,6 +110,10 @@ collections:
   name: Thought Industries REST API
   slug: open-thought-industries
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/thought-industries-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -215,7 +219,7 @@ overview: 'Thought Industries publishes 6 APIs on the [APIs.io](https://apis.io/
   The Thought Industries catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Thought Industries'' developer surface includes authentication, engineering blog, documentation, getting-started guide, support, and 10 more developer resources.'
+  Thought Industries'' developer surface includes authentication, engineering blog, documentation, getting-started guide, support, and 11 more developer resources.'
 plans:
 - name: Thought Industries Plans Pricing
   plan_count: 3
@@ -249,15 +253,20 @@ rules:
   slug: thought-industries-rules
 score:
   band: developing
-  composite: 44.2
-  delta: 0.0
+  composite: 43.6
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 13.6
     contract_quality: 69.8
     developer_ergonomics: 42.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 13.6
     operational_transparency: 18.4
   previous_composite: 44.2
@@ -274,8 +283,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/screenshots/thought-industries-2026-06-20T195312.png
 security:

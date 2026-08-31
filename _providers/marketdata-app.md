@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.3
-  scored_at: '2026-08-26'
+  score: 30.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: marketdata-app-agentic-access
   summary_line: 14 operations
-api_count: 4
+api_count: 2
 apis:
 - description: Real-time and historical index candles and quotes.
   name: Market Data Indices API
@@ -56,7 +56,10 @@ apis:
 - description: Real-time and historical stock candles, quotes, bulk data, prices, earnings, and news.
   name: Market Data Stocks API
   slug: marketdata-app-stocks-api
-artifact_total: 21
+- description: The v1 API from Market Data — 15 operation(s) for v1.
+  name: Market Data V1 API
+  slug: marketdata-app-v1-api
+artifact_total: 22
 collections:
 - collection_type: postman
   name: Market Data Indices API
@@ -253,7 +256,7 @@ modified: '2026-07-22'
 name: Market Data
 nav: Providers
 network: true
-overview: 'Market Data publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Indices API, Markets API, Options API, and 1 more. Tagged areas include Market Data, Financial Data, Stocks, Options, and Indices.
+overview: 'Market Data publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Indices API, Markets API, Options API, and 2 more. Tagged areas include Market Data, Financial Data, Stocks, Options, and Indices.
 
 
   Market Data''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 30 more developer resources.'
@@ -267,19 +270,24 @@ rate_limits:
   name: Marketdata App Rate Limits
   slug: marketdata-app-rate-limits
 score:
-  band: exemplar
-  composite: 67.6
-  delta: 0.0
+  band: strong
+  composite: 65.0
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 16.7
-    contract_quality: 55.1
+    contract_governance: 4.5
+    contract_quality: 52.9
     developer_ergonomics: 75.6
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 71.1
-  previous_composite: 67.6
+  previous_composite: 65.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -296,8 +304,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/screenshots/marketdata-app-2026-07-22T202452.png
 security:

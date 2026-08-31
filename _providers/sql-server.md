@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 21
 apis:
 - description: Native database engine APIs for connecting and executing queries against SQL Server.
@@ -102,6 +102,26 @@ apis:
   slug: sql-server-powershell-module
 artifact_total: 43
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Azure/azure-rest-api-specs/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Azure/azure-rest-api-specs/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Azure/azure-rest-api-specs/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Azure/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Azure/azure-rest-api-specs/blob/main/.github/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -270,7 +290,7 @@ network: true
 overview: 'Microsoft SQL Server APIs publishes 2 APIs on the [APIs.io](https://apis.io/) network: SQL Server REST API and Azure SQL Database REST API. Tagged areas include Azure SQL, Cloud Database, Data Management, Database, and Microsoft.
 
 
-  Microsoft SQL Server APIs'' developer surface includes changelog, CLI, authentication, getting-started guide, pricing, support, engineering blog, and 25 more developer resources.'
+  Microsoft SQL Server APIs'' developer surface includes changelog, CLI, authentication, getting-started guide, pricing, support, engineering blog, and 30 more developer resources.'
 plans:
 - name: Sql Server Plans Pricing
   plan_count: 3
@@ -282,23 +302,31 @@ rate_limits:
   slug: sql-server-rate-limits
 score:
   band: developing
-  composite: 43.9
-  delta: 3.4
+  composite: 49.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 4.5
     contract_quality: 26.7
     developer_ergonomics: 61.9
-    discoverability: 74.1
+    discoverability: 63.0
     governance: 4.5
-    operational_transparency: 44.7
-  previous_composite: 40.5
+    operational_transparency: 55.3
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 49.7
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sql-server/refs/heads/main/screenshots/sql-server-2026-06-20T194427.png
 security:

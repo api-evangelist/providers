@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 17
   slug: fundrise-agentic-access
   summary_line: 17 operations · 7 acting
-api_count: 9
+api_count: 2
 apis:
 - description: The Acknowledgments API provides acknowledgments needed to place Investments and Liquidations.
   name: Fundrise Acknowledgments API
@@ -97,6 +97,10 @@ collections:
   name: Fundrise Connect (External API) Transactions API
   slug: open-fundrise-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fundrise-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -205,7 +209,7 @@ network: true
 overview: 'Fundrise publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Acknowledgments API, Authentication API, Clients API, and 6 more. Tagged areas include Company, Financial-Services, Investing, Real-Estate, and Private Credit.
 
 
-  Fundrise''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 17 more developer resources.'
+  Fundrise''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 18 more developer resources.'
 random_paper: 3
 rate_limits:
 - limit_count: 0
@@ -217,19 +221,24 @@ scopes:
   slug: fundrise-scopes
   summary_line: 2 scopes
 score:
-  band: developing
-  composite: 42.1
-  delta: 4.0
+  band: thin
+  composite: 37.8
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.7
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 58.3
-    developer_ergonomics: 57.7
-    discoverability: 85.2
-    governance: 16.7
+    developer_ergonomics: 51.8
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 38.1
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,8 +249,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundrise/refs/heads/main/screenshots/fundrise-2026-08-17T123444.png
 security:

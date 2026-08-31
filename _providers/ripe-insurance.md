@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,12 +33,12 @@ agentic_access:
   summary_line: 8 operations
 api_count: 2
 apis:
-- description: The read-only Umbraco CMS Content Delivery API served anonymously from the Ripe Insurance marketing and quote site. This is platform infrastructure that ships with Umbraco, not an insurance product AP
-  name: Ripe Insurance Umbraco Content Delivery API
-  slug: ripe-insurance-umbraco-content-delivery-api
-- description: The read-only Umbraco CMS Content Delivery API served anonymously from cycleplan.co.uk, the Ripe Insurance bike-insurance brand. Same platform infrastructure as the flagship site but running one CMS v
-  name: Cycleplan Umbraco Content Delivery API
-  slug: ripe-insurance-cycleplan-content-delivery-api
+- description: The Content API from Ripe Insurance — 8 operation(s) for content.
+  name: Ripe Insurance Content API
+  slug: ripe-insurance-content-api
+- description: The Media API from Ripe Insurance — 8 operation(s) for media.
+  name: Ripe Insurance Media API
+  slug: ripe-insurance-media-api
 artifact_total: 9
 collections:
 - collection_type: open
@@ -48,6 +48,14 @@ collections:
   name: Umbraco Delivery API
   slug: open-ripe-insurance-umbraco-content-delivery
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ripe-insurance-umbraco-content-delivery-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ripe-insurance-cycleplan-content-delivery-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -185,10 +193,10 @@ modified: '2026-07-25'
 name: Ripe Insurance
 nav: Providers
 network: true
-overview: 'Ripe Insurance publishes 2 APIs on the [APIs.io](https://apis.io/) network: Umbraco Content Delivery API and Cycleplan Umbraco Content Delivery API. Tagged areas include Insurance, United Kingdom, Insurtech, Managing General Agent, and Specialist Insurance.
+overview: 'Ripe Insurance publishes 2 APIs on the [APIs.io](https://apis.io/) network: Content API and Media API. Tagged areas include Insurance, United Kingdom, Insurtech, Managing General Agent, and Specialist Insurance.
 
 
-  Ripe Insurance''s developer surface includes authentication, support, product news, engineering blog, and 27 more developer resources.'
+  Ripe Insurance''s developer surface includes authentication, support, product news, engineering blog, and 29 more developer resources.'
 random_paper: 17
 scopes:
 - name: Ripe Insurance Scopes
@@ -197,18 +205,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: developing
-  composite: 45.3
-  delta: 3.3
+  composite: 42.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 39.5
     developer_ergonomics: 37.5
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 42.0
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -225,8 +238,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

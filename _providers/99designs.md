@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 8
   slug: 99designs-agentic-access
   summary_line: 8 operations · 4 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Collect design briefs.
   name: 99designs Briefs API
@@ -79,6 +79,10 @@ collections:
   name: 99designs Products API
   slug: open-99designs-products-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/99designs-capability-edges.yml
 - group: docs
   title: ''
   type: OpenAPI
@@ -222,7 +226,7 @@ network: true
 overview: '99designs publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Briefs API, Coupons API, Designers API, and 2 more. Tagged areas include Company, Media, Design, Marketplace, and Creative.
 
 
-  99designs'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 25 more developer resources.'
+  99designs'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 26 more developer resources.'
 plans:
 - name: 99Designs Plans Pricing
   plan_count: 0
@@ -234,18 +238,23 @@ rate_limits:
   slug: 99designs-rate-limits
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 46.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 56.2
     developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 49.8
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,8 +265,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/screenshots/99designs-2026-07-25T181252.png
 security:

@@ -1,11 +1,12 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Free · Institutional affiliation or federation membership required
   onboarding: unknown
   pricing: free
   public: false
   source:
+  - identity-federation
   - plans
   trial: false
   try_now: false
@@ -33,28 +34,78 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 5
 apis:
-- description: HAL Sorbonne Université is the institution's open archive of scholarly publications. Its metadata is harvestable through the standards-based OAI-PMH protocol served by the central HAL infrastructure (
-  name: HAL Sorbonne Université Open Archive (OAI-PMH)
+- description: Sorbonne University's federated login, published as a signed SAML 2.0 EntityDescriptor at https://auth.id.sorbonne-universite.fr/saml/metadata (HTTP 200, application/xml, 11,704 bytes). Declares HTTP-
+  name: Sorbonne University Identity Provider (SAML 2.0)
+  slug: identity-provider
+- description: Sorbonne University's open archive of scholarly publications, harvestable over OAI-PMH 2.0 at the Sorbonne-scoped base URL https://api.archives-ouvertes.fr/oai/sorbonne-universite/, which returns a va
+  name: HAL Sorbonne Universite Open Archive — OAI-PMH (Sorbonne scope)
   slug: hal-oai
-- description: The HAL Solr-based search API exposes structured queries over the HAL corpus, including publications affiliated with Sorbonne Université. It returns JSON/XML and supports faceting and filtering on col
-  name: HAL Search API
+- description: The HAL Solr search API scoped to Sorbonne University's collection at https://api.archives-ouvertes.fr/search/SORBONNE-UNIVERSITE/, which returns 326,851 records (HTTP 200, application/json) with face
+  name: HAL Search API — SORBONNE-UNIVERSITE collection
   slug: hal-search
-- description: Sorbonne Université maintains a research-data collection on the French national Recherche Data Gouv repository, built on Dataverse 6.0. The Dataverse Native REST API is live (the version endpoint retu
-  name: Recherche Data Gouv Dataverse - Sorbonne Université Collection
+- description: Sorbonne University's research-data collection on the French national Recherche Data Gouv repository, addressable through the Dataverse Native REST API at https://entrepot.recherche.data.gouv.fr/api/d
+  name: Recherche Data Gouv Dataverse — sorbonne-univ collection
   slug: dataverse
-artifact_total: 8
+- description: Library discovery for Sorbonne University's letters, sciences and medicine libraries, running on Ex Libris Primo over the Alma library services platform, at the institution-specific view https://sorbo
+  name: Sorbonne University Libraries — Ex Libris Primo discovery
+  slug: library-discovery
+artifact_total: 10
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/sorbonne-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://www.sorbonne-universite.fr/en
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: identity-federation/sorbonne-identity-federation.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/sorbonne-conformance.yml
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://hal.sorbonne-universite.fr/
+- group: other
+  title: ''
+  type: ResearchData
+  url: https://entrepot.recherche.data.gouv.fr/dataverse/sorbonne-univ
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://sorbonne-universite.primo.exlibrisgroup.com/discovery/search?vid=33BSU_INST:33BSU
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://sacado.sorbonne-universite.fr/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://sante.sorbonne-universite.fr/actualites/recommandations-dutilisation-de-lintelligence-artificielle-generative-dans-le-cadre-de
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.sorbonne-universite.fr/en/legal-notice
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.sorbonne-universite.fr/en/data-protection-policy
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.sorbonne-universite.fr/en/contact-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.sorbonne-universite.fr/en/news
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.sorbonne-universite.fr/rss.xml
 - group: build
   title: ''
   type: GitHub
@@ -63,6 +114,10 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/sorbonne-universite/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/sorbonne-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -80,7 +135,9 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'Sorbonne University (Sorbonne Université) is a public research university in Paris, France, formed in 2018 from the merger of Paris-Sorbonne and Pierre et Marie Curie universities. It serves roughly 53,000 students across faculties of Arts & Humanities, Health Sciences, and Science & Engineering, and is ranked #81 in the QS World University Rankings 2025. Sorbonne University does not operate a centralized public developer portal; its programmatic surface is delivered through open-science infrastructure: the HAL Sorbonne Université open archive (harvestable via the standards-based OAI-PMH and HAL search APIs) and a Sorbonne University collection on the national Recherche Data Gouv Dataverse, which exposes a live Dataverse Native REST API. An official GitHub organization exists but currently hosts no public repositories.'
+description: 'Sorbonne University (Sorbonne Universite) is a public research university in Paris, France, formed in 2018 from the merger of Paris-Sorbonne and Pierre et Marie Curie universities, serving roughly 53,000 students across faculties of Arts & Humanities, Health Sciences, and Science & Engineering. It operates no central developer portal, no open-data portal, and no institution-operated REST API, and this profile says so rather than padding the gap. What it does operate, and self-publish, is a complete machine-readable SAML 2.0 identity federation contract. The identity provider at auth.id.sorbonne-universite.fr serves a signed EntityDescriptor at a dereferenceable entityID, is registered in the RENATER federation with the REFEDS Research & Scholarship entity category and a SIRTFI assurance certification, and reaches the world through eduGAIN. Operator was settled by IP ownership rather than hostname: it CNAMEs to llng.sorbonne-universite.fr and resolves into FR-UPMC-NET, the university''s
+  own RIPE allocation at 4 Place Jussieu, behind an organization-validated GEANT TCS certificate issued to O=SORBONNE UNIVERSITE, running self-hosted LemonLDAP::NG. Three further RENATER service providers — including the 4EU+ virtual campus platform and a federated-wifi portal — sit on the university''s own production estate. SAML is therefore Sorbonne''s only institution-operated education-regime conformance, and Shibboleth is deliberately not claimed: the stack is LemonLDAP::NG and SimpleSAMLphp, not Shibboleth. Everything else that looks like a Sorbonne API is a national or commercial platform on which the university holds an account, and is recorded here as a tenant relationship rather than as a Sorbonne contract: the HAL open archive and its OAI-PMH and Solr search endpoints are CCSD''s (CNRS), the sorbonne-univ research-data collection runs on Recherche Data Gouv''s Dataverse with DOIs minted under Recherche Data Gouv''s DataCite account, and library discovery is Ex Libris Primo/Alma.
+  The GitHub organization exists and holds no public repositories. The university''s own HAL portal host serves an Anubis proof-of-work bot challenge, so the one institutional research surface on a Sorbonne domain is closed to agents.'
 finops:
 - name: Sorbonne Finops
   service_category: Education
@@ -92,17 +149,17 @@ jsonld:
   property_count: 12
   slug: sorbonne-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Sorbonne University
 nav: Providers
 network: true
-overview: 'Sorbonne University publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Open Science, and Research Data.
+overview: 'Sorbonne University publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, France, and Identity Federation.
 
 
   The Sorbonne University catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Sorbonne University''s developer surface includes GitHub presence and 7 more developer resources.'
+  Sorbonne University''s developer surface includes support, engineering blog, GitHub presence, and 17 more developer resources.'
 plans:
 - name: Sorbonne Plans Pricing
   plan_count: 2
@@ -113,28 +170,33 @@ rate_limits:
   name: Sorbonne Rate Limits
   slug: sorbonne-rate-limits
 score:
-  band: emerging
-  composite: 21.1
-  delta: 1.9
+  band: thin
+  composite: 29.0
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 45.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 7.9
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 50.0
+    commercial_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 14.7
-    developer_ergonomics: 9.5
+    developer_ergonomics: 16.7
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 19.2
+  previous_composite: 21.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 35.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/sorbonne/refs/heads/main/screenshots/sorbonne-2026-06-20T194214.png
 security:
 - kind: domain-security
@@ -146,11 +208,12 @@ tags:
 - Education
 - Higher Education
 - University
-- Open Science
-- Research Data
-- Open Access
-- OAI-PMH
-- Dataverse
 - France
+- Identity Federation
+- Research Repository
+- Research Data
+- Library
+- Open Access
+- Open Science
 website: https://www.sorbonne-universite.fr/en
 ---

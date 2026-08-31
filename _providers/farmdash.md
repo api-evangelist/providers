@@ -23,14 +23,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: 'Unified zero-custody DeFi agent API: Trail Heat protocol intelligence, swap quotes with a mandatory simulation gate and user-signed execution, wallet/Sybil intelligence, and guarded Hyperliquid future'
-  name: FarmDash Agent Hub API
-  slug: farmdash-agent-hub-api
-artifact_total: 6
+- description: Hyperliquid account state and risk management
+  name: FarmDash Agent Hub Account API
+  slug: farmdash-account-api
+- description: Policy-bounded loop configuration and execution
+  name: FarmDash Agent Hub Autopilot API
+  slug: farmdash-autopilot-api
+- description: Hyperliquid wallet delegation
+  name: FarmDash Agent Hub Delegation API
+  slug: farmdash-delegation-api
+- description: Futures order execution and cancellation
+  name: FarmDash Agent Hub Execution API
+  slug: farmdash-execution-api
+- description: Fee event history and revenue metrics
+  name: FarmDash Agent Hub History API
+  slug: farmdash-history-api
+- description: Trail Heat protocol data and chain analytics
+  name: FarmDash Agent Hub Intelligence API
+  slug: farmdash-intelligence-api
+- description: Futures market research — funding rates, technical indicators
+  name: FarmDash Agent Hub Research API
+  slug: farmdash-research-api
+- description: Pre-trade risk analysis, alerts, and execution guardrails
+  name: FarmDash Agent Hub Risk API
+  slug: farmdash-risk-api
+- description: Bounded session management
+  name: FarmDash Agent Hub Session API
+  slug: farmdash-session-api
+- description: Strategy analysis and position sizing
+  name: FarmDash Agent Hub Strategy API
+  slug: farmdash-strategy-api
+- description: Token swap quotes, execution, and confirmation
+  name: FarmDash Agent Hub Swap API
+  slug: farmdash-swap-api
+artifact_total: 16
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/farmdash-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/farmdash-agent-api-overlay.yaml
 - group: docs
   title: ''
   type: Documentation
@@ -124,17 +162,17 @@ description: 'FarmDash is a zero-custody intelligence and control layer for DeFi
 image: https://www.farmdash.one/og-wagon-preview.png?v=20260425
 layout: provider
 mcp_servers:
-- description: 84 tools with full inputSchema. Transport is stdio ONLY — no remote endpoint (/api/mcp and /mcp both 404). The npm package is unpublished and the source repo the provider names for a build (Parmasanan
+- description: 'FarmDash MCP server for zero-custody DeFi agent intelligence and control: Trail Heat discovery, wallet intelligence, typed adapter validation, policy checks, simulations, EIP-712 approval queues and x'
   name: FarmDash Agent Hub MCP Server
   slug: farmdash-agent-hub-mcp-server
 modified: '2026-08-26'
 name: FarmDash Agent Hub
 nav: Providers
 network: true
-overview: 'FarmDash Agent Hub publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, DeFAI, AI agents, MCP, and OpenAPI.
+overview: 'FarmDash Agent Hub publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account API, Autopilot API, Delegation API, and 8 more. Tagged areas include DeFi, DeFAI, AI Agents, MCP, and OpenAPI.
 
 
-  FarmDash Agent Hub''s developer surface includes documentation, API reference, getting-started guide, pricing, support, changelog, sandbox, and 15 more developer resources.'
+  FarmDash Agent Hub''s developer surface includes documentation, API reference, getting-started guide, pricing, support, changelog, sandbox, and 17 more developer resources.'
 plans:
 - name: Farmdash Plans Pricing
   plan_count: 3
@@ -145,17 +183,24 @@ rate_limits:
   name: Farmdash Rate Limits
   slug: farmdash-rate-limits
 score:
-  band: strong
-  composite: 56.0
+  band: developing
+  composite: 54.2
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 16.7
-    contract_quality: 59.2
+    contract_governance: 4.5
+    contract_quality: 57.9
     developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 47.4
+  previous_composite: 54.7
   provenance:
     conformance: derived
     contracts:
@@ -171,8 +216,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Farmdash Authentication
@@ -186,18 +232,18 @@ slug: farmdash
 tags:
 - DeFi
 - DeFAI
-- AI agents
+- AI Agents
 - MCP
 - OpenAPI
 - x402
-- blockchain
-- crypto
+- Blockchain
+- Crypto
 - airdrop tracking
-- developer tools
-- agent readiness
-- machine payments
+- Developer Tools
+- Agent Readiness
+- Machine Payments
 - Hyperliquid
-- wallet intelligence
+- Wallet Intelligence
 - zero custody
 website: https://www.farmdash.one/agents
 ---

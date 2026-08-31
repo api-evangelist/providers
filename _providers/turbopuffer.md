@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: turbopuffer-agentic-access
   summary_line: 14 operations · 10 acting
-api_count: 11
+api_count: 1
 apis:
 - description: Endpoints for upserting, patching, and deleting documents within a namespace. Writes are batched into a per-namespace write-ahead log and become queryable once committed to object storage. Supports bo
   name: turbopuffer Write API
@@ -89,6 +89,22 @@ collections:
   name: turbopuffer API
   slug: open-turbopuffer
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/turbopuffer/turbopuffer-python/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/turbopuffer/turbopuffer-python/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/turbopuffer/turbopuffer-python/blob/main/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/turbopuffer/turbopuffer-python/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -168,7 +184,7 @@ network: true
 overview: 'turbopuffer publishes 1 API on the [APIs.io](https://apis.io/) network: Namespaces API. Tagged areas include Vector Search, Full-Text Search, Hybrid Search, BM25, and Serverless.
 
 
-  turbopuffer''s developer surface includes authentication, documentation, GitHub presence, pricing, engineering blog, and 11 more developer resources.'
+  turbopuffer''s developer surface includes authentication, documentation, GitHub presence, pricing, engineering blog, and 15 more developer resources.'
 plans:
 - name: Turbopuffer Plans Pricing
   plan_count: 3
@@ -180,18 +196,26 @@ rate_limits:
   slug: turbopuffer-rate-limits
 score:
   band: developing
-  composite: 43.9
-  delta: 2.4
+  composite: 50.6
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 46.9
     developer_ergonomics: 35.7
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
-    operational_transparency: 36.8
-  previous_composite: 41.5
+    operational_transparency: 63.2
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +223,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turbopuffer/refs/heads/main/screenshots/turbopuffer-2026-06-20T195831.png
 security:

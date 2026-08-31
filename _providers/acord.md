@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.7
-  scored_at: '2026-08-26'
+  score: 31.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -83,6 +83,10 @@ collections:
   name: ACORD Next-Generation Digital Standards (NGDS) Claims Underwriting API
   slug: open-acord-underwriting-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/acord-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -129,10 +133,6 @@ common:
   url: https://www.acord.org/standards-architecture/get-involved/standards-project-advisory-groups
 - group: docs
   title: ''
-  type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/openapi/acord-ngds-openapi.yml
-- group: docs
-  title: ''
   type: JSONSchema
   url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/json-schema/acord-policy-schema.json
 - group: docs
@@ -143,10 +143,6 @@ common:
   title: ''
   type: JSONLDContext
   url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/json-ld/acord-context.jsonld
-- group: build
-  title: ''
-  type: GitHubOrganization
-  url: https://github.com/api-evangelist/acord
 - group: design
   title: ''
   type: SpectralRules
@@ -155,11 +151,92 @@ common:
   title: ''
   type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/vocabulary/acord-vocabulary.yaml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/acord-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/acord-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/acord-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/acord-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/acord-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.acordsolutions.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/acord-changelog.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/acord-conventions.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/acord-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/acord-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/acord-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.acord.org/membership-participation/programs-offerings
+- group: start
+  title: ''
+  type: Login
+  url: https://www.acord.org/account/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.acord.org/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.acord.org/privacy-policy
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://acord.atlassian.net/servicedesk/customer/portal/35
 - group: company
   title: ''
   type: Blog
   url: https://www.acord.org/ACORD-about/acord-news
-description: ACORD is a global standards-setting body for the insurance industry, providing data standards, reference architecture, and digital tools that enable insurers, brokers, and software providers to exchange information.
+coverage:
+  checked: '2026-08-30'
+  detail: Every ACORD standards artifact — the NGDS schemas, Master Object List, Master Resource Definitions and Master Deprecation List — is published only as a /file-download/<uuid> link that 302s an anonymous request into Microsoft Entra member sign-in, and ACORD's own downloads page states you must first join a membership or participation program before an acord.org account will grant access; the one real REST API in the estate, ACORD Solutions Group's ADEPT, releases its specifications to GRLC members and licensed integrators at ASG's discretion.
+  evidence:
+  - status: 302
+    url: https://www.acord.org/file-download/04dcef0d-6222-46a2-911f-5c905db8e086
+  - status: 200
+    url: https://www.acord.org/standards-architecture/acord-data-standards/standards-downloads
+  - status: 404
+    url: https://www.acord.org/openapi.json
+  - status: 403
+    url: https://standards.acord.org/openapi.json
+  - status: 404
+    url: https://www.acordsolutions.com/openapi.json
+  reason: customer-only-docs
+  state: gated
+created: '2026-04-19'
+description: 'ACORD is the global standards-setting body for the insurance industry, publishing the data standards that insurers, reinsurers, brokers, MGAs and software vendors use to exchange policy, claims, party, underwriting, accounting and settlement data: ACORD XML and AL3 for property & casualty, Life & Annuity XML and DTCC EDI, the Global Reinsurance & Large Commercial (GRLC) standards behind EBOT, ECOT, GPM and CRP, and the JSON/YAML Next-Generation Digital Standards (NGDS) aimed at REST APIs and microservices. ACORD operates no public API of its own; standards and schemas are delivered to members under licence, and its commercial subsidiary ACORD Solutions Group runs the ADEPT data exchange platform under separate agreement.'
 examples:
 - key_count: 18
   name: Acord Claim Example
@@ -342,17 +419,17 @@ jsonld:
   property_count: 55
   slug: acord-ngds-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-30'
 name: ACORD
 nav: Providers
 network: true
-overview: 'ACORD publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Party API, Policy API, and 1 more. Tagged areas include Claims, Insurance, Policy, Standards, and Underwriting.
+overview: 'ACORD publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Party API, Policy API, and 1 more. Tagged areas include Claims, Data Standards, Insurance, Policy, and Property Casualty.
 
 
   The ACORD catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  ACORD''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 13 more developer resources.'
+  ACORD''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, changelog, pricing, and 27 more developer resources.'
 plans:
 - name: Acord Plans Pricing
   plan_count: 1
@@ -390,25 +467,30 @@ scopes:
   slug: acord-scopes
   summary_line: 4 scopes · clientCredentials
 score:
-  band: developing
-  composite: 46.8
-  delta: 1.5
+  band: strong
+  composite: 63.5
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 16.7
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
+    access_clarity: 59.2
+    commercial_clarity: 59.2
     contract_governance: 28.8
     contract_quality: 71.4
     developer_ergonomics: 57.1
-    discoverability: 74.1
+    discoverability: 72.2
     governance: 28.8
-    operational_transparency: 2.6
+    operational_transparency: 39.5
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 45.3
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     contracts:
@@ -421,10 +503,10 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 51.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 71.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/acord/refs/heads/main/screenshots/acord-2026-08-17T121359.png
 security:
 - kind: authentication
@@ -438,10 +520,14 @@ security:
 slug: acord
 tags:
 - Claims
+- Data Standards
 - Insurance
 - Policy
+- Property Casualty
+- Reinsurance
 - Standards
 - Underwriting
+- XML
 use_cases:
 - description: Standardized ACORD XML or NGDS JSON claims transaction exchange between carriers, adjusters, and reinsurers.
   name: Claims Data Exchange

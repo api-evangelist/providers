@@ -23,14 +23,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: 'The OpenEnvoy public REST API. Jobs are the core object: a job is an invoice under audit, created by uploading a provider invoice, optionally supplemented with baseline documents (purchase orders, con'
-  name: OpenEnvoy API
-  slug: openenvoy-api
+- description: Jobs in the system
+  name: OpenEnvoy Job API
+  slug: openenvoy-job-api
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/openenvoy-openapi-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -107,10 +115,10 @@ modified: '2026-08-26'
 name: OpenEnvoy
 nav: Providers
 network: true
-overview: 'OpenEnvoy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Accounts Payable, Accounts Receivable, Invoice Processing, Finance Automation, and Accounting.
+overview: 'OpenEnvoy publishes 1 API on the [APIs.io](https://apis.io/) network: Job API. Tagged areas include Accounts Payable, Accounts Receivable, Invoice Processing, Finance Automation, and Accounting.
 
 
-  OpenEnvoy''s developer surface includes documentation, API reference, support, engineering blog, pricing, getting-started guide, changelog, and 10 more developer resources.'
+  OpenEnvoy''s developer surface includes documentation, API reference, support, engineering blog, pricing, getting-started guide, changelog, and 12 more developer resources.'
 plans:
 - name: Openenvoy Plans Pricing
   plan_count: 3
@@ -122,16 +130,23 @@ rate_limits:
   slug: openenvoy-rate-limits
 score:
   band: developing
-  composite: 49.2
+  composite: 47.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 12.1
+    contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 54.2
     discoverability: 75.9
-    governance: 12.1
+    governance: 0.0
     operational_transparency: 34.2
+  previous_composite: 47.8
   provenance:
     conformance: derived
     contracts:
@@ -141,8 +156,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Openenvoy Authentication
@@ -159,7 +175,7 @@ tags:
 - Invoice Processing
 - Finance Automation
 - Accounting
-- Procure to Pay
+- Procure-to-Pay
 - Document Processing
 - Artificial Intelligence
 - ERP Integration

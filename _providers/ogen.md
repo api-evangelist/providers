@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The ogen code generator. Invoked as a build-time CLI against a local OpenAPI v3 document — `ogen [options] <spec>` — it writes a Go package containing a typed client, server, router, validators and JS
@@ -42,6 +42,18 @@ apis:
   slug: ogen
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/ogen-go/ogen/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/ogen-go/ogen/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/ogen-go/ogen/blob/main/CONTRIBUTING.md
 - group: company
   title: ''
   type: Website
@@ -157,7 +169,7 @@ network: true
 overview: 'Ogen publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, Go, OpenAPI, SDK, and Developer Tools.
 
 
-  Ogen''s developer surface includes documentation, API reference, getting-started guide, support, CLI, sandbox, changelog, and 17 more developer resources.'
+  Ogen''s developer surface includes documentation, API reference, getting-started guide, support, CLI, sandbox, changelog, and 20 more developer resources.'
 plans:
 - name: Ogen Plans Pricing
   plan_count: 3
@@ -169,7 +181,12 @@ rate_limits:
   slug: ogen-rate-limits
 score:
   band: thin
-  composite: 33.1
+  composite: 38.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -180,12 +197,15 @@ score:
     discoverability: 59.3
     governance: 33.3
     operational_transparency: 36.8
-  previous_composite: 33.1
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 38.3
   provenance:
     conformance: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/screenshots/ogen-2026-06-20T190640.png
 security:

@@ -1,13 +1,13 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free · No signup, no key
+  onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
   - authentication
+  - probes
   trial: false
   try_now: true
 agent_readiness:
@@ -15,7 +15,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -26,86 +26,118 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: documented
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.4
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 0
-  human_in_the_loop: 0
-  name: University Of Bristol Agentic Access
-  operation_count: 8
-  slug: university-of-bristol-agentic-access
-  summary_line: 8 operations
-api_count: 4
+  score: 26.7
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The data-set API from University of Bristol — 2 operation(s) for data-set.
-  name: University of Bristol data-set API
-  slug: university-of-bristol-data-set-api
-- description: The person API from University of Bristol — 2 operation(s) for person.
-  name: University of Bristol person API
-  slug: university-of-bristol-person-api
-- description: The project API from University of Bristol — 2 operation(s) for project.
-  name: University of Bristol project API
-  slug: university-of-bristol-project-api
-- description: The research-output API from University of Bristol — 2 operation(s) for research-output.
-  name: University of Bristol research-output API
-  slug: university-of-bristol-research-output-api
-artifact_total: 27
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Pure data-set API
-  slug: open-university-of-bristol-data-set-api
-- collection_type: open
-  name: Pure data-set person API
-  slug: open-university-of-bristol-person-api
-- collection_type: open
-  name: Pure data-set project API
-  slug: open-university-of-bristol-project-api
-- collection_type: open
-  name: Pure data-set research-output API
-  slug: open-university-of-bristol-research-output-api
+- description: 'The one institution-operated, keyless, machine-readable API surface the University of Bristol publishes. OAI-PMH 2.0 metadata harvesting for the University of Bristol Research Portal, served from the '
+  name: University of Bristol Research Portal OAI-PMH
+  slug: research-portal-oai-pmh
+- description: Bristol operates its own Shibboleth identity provider at idp.bris.ac.uk, publishing SAML 2.0 metadata anonymously at /idp/shibboleth (200, application/xml, 5,990 bytes) and registered in the UK Access
+  name: University of Bristol Identity Provider (Shibboleth / SAML 2.0)
+  slug: idp-shibboleth
+- description: data.bris is the University of Bristol's own research data repository — institution-built and institution-hosted, not a Figshare, Dataverse or DSpace tenancy. DataCite lists it as client BL.BRISTOL, "
+  name: data.bris Research Data Repository
+  slug: data-bris-research-data-repository
+- description: TENANT RELATIONSHIP, NOT A BRISTOL CONTRACT. Bristol runs Elsevier Pure as its research information system, and Pure's product API answers on Bristol's own host at research-information.bris.ac.uk/ws/a
+  name: Elsevier Pure Web Services (University of Bristol tenancy)
+  slug: pure-web-services
+- description: TENANT RELATIONSHIP, NOT A BRISTOL CONTRACT. Bristol's library discovery layer is an OCLC WorldCat Discovery tenancy at bris.on.worldcat.org — an institution-specific subdomain on the vendor's platfor
+  name: University of Bristol Library Discovery (OCLC WorldCat Discovery)
+  slug: library-discovery-worldcat
+artifact_total: 12
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/university-of-bristol-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/university-of-bristol-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/university-of-bristol-authentication.yml
 - group: company
   title: ''
   type: Website
   url: https://www.bristol.ac.uk/
 - group: start
   title: ''
-  type: DeveloperPortal
+  type: Portal
   url: https://research-information.bris.ac.uk/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://research-information.bris.ac.uk/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://data.bris.ac.uk/datasets/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://data.bris.ac.uk/datasets/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://idp.bris.ac.uk/idp/shibboleth
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://www.ukfederation.org.uk/
 - group: build
   title: ''
-  type: GitHub
+  type: LibraryCatalog
+  url: https://bris.on.worldcat.org/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.bristol.ac.uk/bilt/sharing-practice/guides/guidance-on-ai/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.bristol.ac.uk/academic-quality/pg/ai-tools-and-thesis-writing/
+- group: build
+  title: ''
+  type: GitHubOrganization
   url: https://github.com/uob-hpc
 - group: build
   title: ''
   type: SourceCode
   url: https://github.com/cs-uob
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.bristol.ac.uk/staff/researchers/data/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.bristol.ac.uk/web/policies/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.bristol.ac.uk/privacy/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.bristol.ac.uk/it-services/advice/
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-bristol/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/university-of-bristol-domain-standards.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/university-of-bristol-authentication.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/university-of-bristol-lifecycle.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/university-of-bristol-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -122,64 +154,30 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: company
-  title: ''
-  type: About
-  url: https://data.bris.ac.uk/data/
 created: '2026-06-03'
-description: 'The University of Bristol is a public research university in Bristol, United Kingdom, ranked #58 in the QS World University Rankings 2025. Its public developer/API footprint is research-oriented rather than a centralized developer portal: the Bristol Research Portal (Pure, by Elsevier) exposes a documented REST API and an OAI-PMH 2.0 interface over its open-access research outputs, and data.bris is the institution''s open research data repository with DataCite DOIs. Department-level engineering groups (notably HPC and Computer Science) publish open-source code on GitHub, but the university does not operate a single unified institutional API/developer program.'
+description: 'The University of Bristol is a public research university in Bristol, United Kingdom, and a member of the Russell Group. Its programmable footprint is small, real, and mostly indirect: it operates no developer portal, no open-data platform and no central API programme, and api.bris.ac.uk, developer.bristol.ac.uk, timetable.bristol.ac.uk and status.bristol.ac.uk do not resolve. The one institution-operated, keyless, machine-readable API surface found is the University of Bristol Research Portal OAI-PMH 2.0 endpoint at research-information.bris.ac.uk, which advertises 590,974 records across 3,878 sets in seven metadata formats including the OpenAIRE CERIF 1.2 profile, with no authentication — although its mandatory Identify verb returns HTTP 500. Beyond it, Bristol operates a Shibboleth SAML 2.0 identity provider registered in the UK Access Management Federation since 2010 and asserting REFEDS Research & Scholarship, and data.bris, its own research data repository, which has
+  minted 1,552 DataCite DOIs under the institution''s own prefix 10.5523/bris since 2012. Everything else that looks like a Bristol API is a vendor''s contract running under Bristol''s name — Elsevier Pure for the research portal''s /ws/api web services, OCLC WorldCat Discovery for library search. Those relationships are recorded here as tenant surfaces; the vendors'' contracts are not.'
 examples:
-- key_count: 3
-  name: University Of Bristol Dataset List Example
-  slug: university-of-bristol-dataset-list-example
-- key_count: 3
-  name: University Of Bristol Person List Example
-  slug: university-of-bristol-person-list-example
-- key_count: 3
-  name: University Of Bristol Research Output List Example
-  slug: university-of-bristol-research-output-list-example
+- key_count: 7
+  name: University Of Bristol Oai Pmh Examples
+  slug: university-of-bristol-oai-pmh-examples
 finops:
 - name: University Of Bristol Finops
   service_category: Education
   slug: university-of-bristol-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-bristol.png
-json_schemas:
-- name: DataSet
-  property_count: 14
-  slug: university-of-bristol-dataset
-- name: Person
-  property_count: 16
-  slug: university-of-bristol-person
-- name: ResearchOutput
-  property_count: 20
-  slug: university-of-bristol-research-output
-json_structures:
-- name: University Of Bristol Dataset Structure
-  property_count: 11
-  slug: university-of-bristol-dataset-structure
-- name: University Of Bristol Person Structure
-  property_count: 11
-  slug: university-of-bristol-person-structure
-- name: University Of Bristol Research Output Structure
-  property_count: 14
-  slug: university-of-bristol-research-output-structure
-jsonld:
-- class_count: 20
-  name: University Of Bristol Context
-  property_count: 5
-  slug: university-of-bristol-context
 layout: provider
-modified: '2026-07-25'
+modified: '2026-08-30'
 name: University of Bristol
 nav: Providers
 network: true
-overview: 'University of Bristol publishes 4 APIs on the [APIs.io](https://apis.io/) network, including data-set API, person API, project API, and 1 more. Tagged areas include Education, Higher Education, University, Research, and Open Data.
+overview: 'University of Bristol publishes 1 API on the [APIs.io](https://apis.io/) network: Research Portal OAI-PMH. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
 
 
-  The University of Bristol catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The University of Bristol catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  University of Bristol''s developer surface includes authentication, GitHub presence, and 11 more developer resources.'
+  University of Bristol''s developer surface includes developer portal, documentation, support, authentication, and 21 more developer resources.'
 plans:
 - name: University Of Bristol Plans Pricing
   plan_count: 2
@@ -190,40 +188,35 @@ rate_limits:
   name: University Of Bristol Rate Limits
   slug: university-of-bristol-rate-limits
 rules:
-- effective_rule_count: 5
+- effective_rule_count: 8
   extends: []
   name: University of Bristol API Rules
-  rule_count: 5
+  rule_count: 8
   severity_counts:
-    error: 0
+    error: 6
     hint: 0
-    info: 2
-    warn: 3
-  slug: university-of-bristol-jsonschema-spectral-rules
-- effective_rule_count: 6
-  extends: []
-  name: University of Bristol API Rules
-  rule_count: 6
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 4
-  slug: university-of-bristol-rules
+    info: 0
+    warn: 2
+  slug: university-of-bristol-oai-pmh-spectral-rules
 score:
   band: developing
-  composite: 43.3
-  delta: 4.6
+  composite: 46.4
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 3.1
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 25.0
-    contract_quality: 67.7
-    developer_ergonomics: 31.0
-    discoverability: 74.1
-    governance: 25.0
-    operational_transparency: 26.3
-  previous_composite: 38.7
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 22.7
+    contract_quality: 55.1
+    developer_ergonomics: 35.7
+    discoverability: 68.5
+    governance: 22.7
+    operational_transparency: 23.7
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -236,27 +229,32 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 46.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-bristol/refs/heads/main/screenshots/university-of-bristol-2026-06-20T200140.png
 security:
 - kind: authentication
   name: University Of Bristol Authentication
   slug: university-of-bristol-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: none/apiKey/saml · 0 schemes
 - kind: domain-security
   name: University Of Bristol Domain Security
   slug: university-of-bristol-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: university-of-bristol
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
+- Higher Education
+- Education
 - United Kingdom
+- Russell Group
+- Research Data
+- Research Repository
+- Metadata Harvesting
+- OAI-PMH
+- Identity Federation
+- Open Data
 website: https://www.bristol.ac.uk/
 ---

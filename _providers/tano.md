@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 17
   slug: tano-agentic-access
   summary_line: 17 operations · 9 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Brand signups for product offerings (Creator Partnership Ads, Content Analysis Framework, Creator Discovery Guide, USA waitlist).
   name: Tano Brand Signups API
@@ -104,18 +104,23 @@ overview: Tano publishes 5 APIs on the [APIs.io](https://apis.io/) network, incl
 random_paper: 14
 score:
   band: emerging
-  composite: 19.4
-  delta: 0.0
+  composite: 17.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 100.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 51.8
     developer_ergonomics: 1.8
-    discoverability: 40.7
-    governance: 16.7
+    discoverability: 35.2
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 19.4
+  previous_composite: 17.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -126,8 +131,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

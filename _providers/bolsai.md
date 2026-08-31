@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST/JSON API for Brazilian financial-market data — equities, FIIs, fundamentals, dividends, financial statements, and macro series. Authenticated via X-API-Key header.
@@ -47,12 +47,17 @@ modified: '2026-07-06'
 name: Bolsai
 nav: Providers
 network: true
-overview: 'Bolsai publishes 1 API on the [APIs.io](https://apis.io/) network: Financial Data API. Tagged areas include Finance, Financial Data, Market Data, Stocks/equities, and Real Estate Funds.'
+overview: 'Bolsai publishes 1 API on the [APIs.io](https://apis.io/) network: Financial Data API. Tagged areas include Finance, Financial Data, Market Data, stocks-equities, and real-estate-funds.'
 random_paper: 4
 score:
   band: minimal
   composite: 9.6
-  delta: 1.9
+  coverage:
+    artifact_dirs: 1
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -68,15 +73,15 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 7.7
+  previous_composite: 9.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolsai/refs/heads/main/screenshots/bolsai-2026-07-25T203539.png
 slug: bolsai
@@ -84,12 +89,12 @@ tags:
 - Finance
 - Financial Data
 - Market Data
-- Stocks/equities
-- Real Estate Funds
-- Dividends
+- stocks-equities
+- real-estate-funds
+- dividends
 - Fundamentals
-- Macroeconomic Data
-- Brazil
+- macroeconomic-data
+- brazil
 - Developer Tools
 - MCP
 - AI Agents

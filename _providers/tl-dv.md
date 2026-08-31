@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: tl-dv-agentic-access
   summary_line: 8 operations · 1 acting
-api_count: 4
+api_count: 1
 apis:
 - description: List, retrieve, import and download meetings
   name: tl;dv Meetings API
@@ -210,7 +210,7 @@ modified: '2026-08-14'
 name: tl;dv
 nav: Providers
 network: true
-overview: 'tl;dv publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Meetings API, Notes API, System API, and 1 more. Tagged areas include Company, Artificial Intelligence, Meetings, Transcription, and Note Taking.
+overview: 'tl;dv publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Meetings API, Notes API, System API, and 1 more. Tagged areas include Company, Artificial Intelligence, Meetings, Transcription, and Notetaking.
 
 
   The tl;dv catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -233,18 +233,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 49.7
-  delta: 3.4
+  composite: 46.5
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 21.9
     developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 46.3
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,8 +260,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tl-dv/refs/heads/main/screenshots/tl-dv-2026-08-17T082359.png
 security:
@@ -278,7 +283,7 @@ tags:
 - Artificial Intelligence
 - Meetings
 - Transcription
-- Note Taking
+- Notetaking
 - Conversation Intelligence
 - Productivity
 - Video

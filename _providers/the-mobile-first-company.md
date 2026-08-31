@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 52.9
-  scored_at: '2026-08-26'
-api_count: 13
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Pre-computed call metrics, team performance, and outbound dial funnel
   name: The Mobile First Company Analytics API
@@ -124,6 +124,10 @@ collections:
   name: Allo Analytics Webhooks API
   slug: open-the-mobile-first-company-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/the-mobile-first-company-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -265,7 +269,7 @@ overview: 'The Mobile First Company publishes 13 APIs on the [APIs.io](https://a
   The The Mobile First Company catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  The Mobile First Company''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, engineering blog, and 23 more developer resources.'
+  The Mobile First Company''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, engineering blog, and 24 more developer resources.'
 random_paper: 5
 scopes:
 - name: The Mobile First Company Scopes
@@ -274,18 +278,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 59.1
-  delta: 0.0
+  composite: 56.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 69.4
     developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 59.1
+  previous_composite: 56.6
   provenance:
     conformance: first-party
     contracts:
@@ -301,8 +310,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-mobile-first-company/refs/heads/main/screenshots/the-mobile-first-company-2026-08-17T082339.png
 security:

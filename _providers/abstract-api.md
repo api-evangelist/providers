@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -25,16 +25,16 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: na
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-08-26'
+  score: 46.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 19
   slug: abstract-api-agentic-access
   summary_line: 19 operations
-api_count: 14
+api_count: 13
 apis:
 - description: User avatar generation operations
   name: Abstract API Avatars API
@@ -117,7 +117,7 @@ arazzos:
 - description: Validate a VAT number, fetch its country rates, then calculate VAT on an amount.
   name: Abstract API VAT Validation to Rates and Calculation
   slug: abstract-api-vat-validation-to-rates-and-calculation-workflow
-artifact_total: 243
+artifact_total: 231
 collections:
 - collection_type: postman
   name: Abstract API - Avatars API
@@ -277,20 +277,12 @@ common:
   url: https://app.abstractapi.com/
 - group: start
   title: ''
-  type: Signup
+  type: SignUp
   url: https://app.abstractapi.com/users/signup
 - group: start
   title: ''
   type: Login
   url: https://app.abstractapi.com/users/login
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://www.abstractapi.com/pricing
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.abstractapi.com/blog
 - group: docs
   title: ''
   type: Documentation
@@ -303,14 +295,6 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/abstractapi
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://www.abstractapi.com/legal/terms
-- group: commercial
-  title: ''
-  type: PrivacyPolicy
-  url: https://www.abstractapi.com/legal/privacy
 - group: auth
   title: ''
   type: Authentication
@@ -323,6 +307,106 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/abstract-api-vocabulary.yaml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/abstract-api-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/abstract-api-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/abstract-api-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/abstract-api-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/abstract-api-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/abstract-api-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/abstract-api-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/abstract-api-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/abstract-api-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/abstract-api-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.abstractapi.com/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/abstract-api-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/abstract-api-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/abstract-api-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/abstract-api-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/abstract-api-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/abstract-api-finops.yml
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/abstractapi/openapi-specs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.abstractapi.com/api
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.abstractapi.com/contact-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.abstractapi.com/guides
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.abstractapi.com/legal/legal
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.abstractapi.com/legal/legal
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.abstractapi.com/api/email-verification-validation-api
 created: '2025-02-24'
 description: Abstract API is a platform that offers a wide range of API services for developers to easily integrate various functionalities into their applications. Services include IP geolocation, IP intelligence, email validation, phone validation, currency exchange, website screenshots, image processing, web scraping, company enrichment, public holidays, timezone lookup, VAT validation, IBAN validation, and user avatar generation. Abstract API provides a seamless way for developers to access powerful features without having to build them from scratch.
 examples:
@@ -482,19 +566,6 @@ examples:
 - key_count: 3
   name: Web Scraping Web Scraping Response Example
   slug: web-scraping-web-scraping-response-example
-features:
-- description: Each API uses a unique API key passed as a query parameter or Bearer token header
-  name: API Key Authentication
-- description: Each API offers a free tier with limited monthly requests and 1 request/second rate limit
-  name: Free Tier
-- description: All APIs follow a simple REST pattern with a single base URL and query parameters
-  name: Simple REST API
-- description: Data covers global locations with 80+ currencies, 250,000+ cities, and worldwide phone/IP coverage
-  name: Global Coverage
-- description: All API responses return structured JSON data with consistent error codes
-  name: JSON Responses
-- description: Each API is independently keyed and priced, allowing granular subscription management
-  name: Modular Services
 finops:
 - name: Abstract Api Finops
   service_category: Data Validation / Enrichment
@@ -868,7 +939,11 @@ jsonld:
   property_count: 3
   slug: abstract-api-web-scraping-context
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: ''
+  name: Abstract API Documentation MCP Server
+  slug: abstract-api-documentation-mcp-server
+modified: '2026-08-29'
 name: Abstract API
 nav: Providers
 network: true
@@ -878,14 +953,14 @@ overview: 'Abstract API publishes 14 APIs on the [APIs.io](https://apis.io/) net
   The Abstract API catalog on APIs.io includes 13 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Abstract API''s developer surface includes authentication, developer portal, signup flow, pricing, engineering blog, documentation, getting-started guide, and 22 more developer resources.'
+  Abstract API''s developer surface includes authentication, developer portal, signup flow, documentation, getting-started guide, API reference, support, and 43 more developer resources.'
 plans:
 - name: Abstract Api Plans Pricing
   plan_count: 5
   slug: abstract-api-plans-pricing
 random_paper: 14
 rate_limits:
-- limit_count: 6
+- limit_count: 5
   name: Abstract Api Rate Limits
   slug: abstract-api-rate-limits
 rules:
@@ -911,19 +986,24 @@ rules:
     warn: 17
   slug: abstract-api-spectral-rules
 score:
-  band: thin
-  composite: 33.5
-  delta: 0.7
+  band: developing
+  composite: 50.0
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 22.4
-    commercial_clarity: 22.4
-    contract_governance: 28.8
+    access_clarity: 61.8
+    commercial_clarity: 61.8
+    contract_governance: 47.0
     contract_quality: 31.2
-    developer_ergonomics: 47.6
-    discoverability: 68.5
-    governance: 28.8
+    developer_ergonomics: 76.2
+    discoverability: 75.9
+    governance: 47.0
     operational_transparency: 10.5
-  previous_composite: 32.8
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     contracts:
@@ -931,15 +1011,15 @@ score:
       derived: 14
       marker_coverage: 100.0
       total: 14
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abstract-api/refs/heads/main/screenshots/abstract-api-2026-06-20T163436.png
 security:
 - kind: authentication
   name: Abstract Api Authentication
   slug: abstract-api-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/http · 1 scheme
 - kind: domain-security
   name: Abstract Api Domain Security
   slug: abstract-api-domain-security
@@ -962,20 +1042,5 @@ tags:
 - Timezones
 - VAT Validation
 - Web Scraping
-use_cases:
-- description: Validate and filter email lists to improve deliverability and reduce bounce rates
-  name: Email List Cleaning
-- description: Use IP intelligence, email reputation, and phone intelligence to detect and block fraudulent users
-  name: Fraud Detection
-- description: Automatically enrich user profiles with geolocation, company, and contact data at signup
-  name: User Onboarding Enrichment
-- description: Display localized pricing or perform currency conversions in e-commerce and fintech apps
-  name: Currency Conversion
-- description: Validate VAT numbers and IBAN codes to automate financial compliance workflows
-  name: Compliance Automation
-- description: Use web scraping API to extract structured data from any website for data pipelines
-  name: Content Extraction
-- description: Generate placeholder avatars for users without profile photos using the Avatars API
-  name: Dynamic User Avatars
 website: https://www.abstractapi.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 178
   slug: alasco-agentic-access
   summary_line: 178 operations · 70 acting
-api_count: 40
+api_count: 3
 apis:
 - description: '**Annual Consumption** is the system-computed consumption per meter and calendar year, including emission factors and tenant allocations. The figures are derived from readings rather than written dire'
   name: Alasco Annual Consumption API
@@ -292,6 +292,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/alasco-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/alasco-capex-overlay.yaml
 - group: company
@@ -433,22 +437,27 @@ network: true
 overview: 'Alasco publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Annual Consumption API, Asset API, Audit Log API, and 37 more. Tagged areas include Company, Ai Enterprise Software, Real-Estate, Construction, and PropTech.
 
 
-  Alasco''s developer surface includes documentation, getting-started guide, API reference, changelog, authentication, engineering blog, pricing, and 25 more developer resources.'
+  Alasco''s developer surface includes documentation, getting-started guide, API reference, changelog, authentication, engineering blog, pricing, and 26 more developer resources.'
 random_paper: 18
 score:
   band: developing
-  composite: 51.7
+  composite: 49.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 52.6
     developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 51.7
+  previous_composite: 49.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -459,8 +468,8 @@ score:
       total: 40
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alasco/refs/heads/main/screenshots/alasco-2026-07-25T195534.png
 security:

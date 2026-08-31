@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 3
 common:
@@ -121,7 +121,7 @@ modified: '2026-06-02'
 name: Jack in the Box
 nav: Providers
 network: true
-overview: 'Jack in the Box is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Quick Service Restaurant, Fast Food, Restaurant, Digital Ordering, and Loyalty.
+overview: 'Jack in the Box is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Quick-Service Restaurant, Fast Food, Restaurant, Digital Ordering, and Loyalty.
 
 
   The Jack in the Box catalog on APIs.io includes 1 JSON-LD context.
@@ -132,6 +132,11 @@ random_paper: 2
 score:
   band: emerging
   composite: 12.5
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -143,8 +148,8 @@ score:
     governance: 15.2
     operational_transparency: 2.6
   previous_composite: 12.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jack-in-the-box/refs/heads/main/screenshots/jack-in-the-box-2026-06-20T183649.png
 security:
@@ -154,7 +159,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: jack-in-the-box
 tags:
-- Quick Service Restaurant
+- Quick-Service Restaurant
 - Fast Food
 - Restaurant
 - Digital Ordering

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: RESTful JSON API for accepting crypto, stock, and card donations on behalf of nonprofits in The Giving Block network. Provides organization management, currency and exchange-rate lookups, crypto depos
@@ -136,7 +136,12 @@ overview: 'The Giving Block publishes 1 API on the [APIs.io](https://apis.io/) n
 random_paper: 3
 score:
   band: emerging
-  composite: 17.4
+  composite: 18.2
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -144,10 +149,10 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 49.4
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 17.4
+  previous_composite: 18.2
   provenance:
     conformance: derived
     mcp: derived
@@ -158,8 +163,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

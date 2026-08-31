@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: maven-central-agentic-access
   summary_line: 8 operations · 4 acting
-api_count: 3
+api_count: 2
 apis:
 - description: The Deployment API from Maven Central — 5 operation(s) for deployment.
   name: Maven Central Deployment API
@@ -141,18 +141,23 @@ rate_limits:
   slug: maven-central-rate-limits
 score:
   band: thin
-  composite: 36.6
-  delta: 1.9
+  composite: 35.3
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 54.4
+    contract_quality: 51.2
     developer_ergonomics: 45.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 34.7
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -160,8 +165,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maven-central/refs/heads/main/screenshots/maven-central-2026-06-20T185044.png
 security:

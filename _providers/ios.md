@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 445
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1208
   slug: ios-agentic-access
   summary_line: 1208 operations · 445 acting
-api_count: 199
+api_count: 1
 apis:
 - description: The App Store Server API is the server-to-server REST API for managing App Store transactions — looking up transaction history, fetching all subscription statuses for a customer, requesting test notif
   name: App Store Server API
@@ -1804,6 +1804,10 @@ collections:
   name: App Store Connect AccessibilityDeclarations WinBackOffers API
   slug: open-ios-winbackoffers-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ios-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -2036,7 +2040,7 @@ overview: 'iOS publishes 193 APIs on the [APIs.io](https://apis.io/) network, in
   The iOS catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  iOS''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, pricing, engineering blog, and 37 more developer resources.'
+  iOS''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, pricing, engineering blog, and 38 more developer resources.'
 plans:
 - name: Ios Plans Pricing
   plan_count: 5
@@ -2081,18 +2085,23 @@ rules:
   slug: ios-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 74.3
-  delta: 6.4
+  composite: 74.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 28.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 69.7
     contract_quality: 65.7
     developer_ergonomics: 82.1
-    discoverability: 50.0
+    discoverability: 53.7
     governance: 69.7
     operational_transparency: 68.4
-  previous_composite: 67.9
+  previous_composite: 75.3
   provenance:
     agentic_access: derived
     contracts:
@@ -2106,9 +2115,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/screenshots/ios-2026-06-20T183533.png
 security:
 - kind: authentication

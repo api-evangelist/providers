@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 38
   slug: bugsnag-agentic-access
   summary_line: 38 operations · 16 acting
-api_count: 16
+api_count: 5
 apis:
 - description: Notify Bugsnag about application builds and deployments. Build notifications are used to track releases, identify regressions, and associate source control information with error data.
   name: bugsnag Builds API
@@ -418,18 +418,23 @@ rules:
   slug: bugsnag-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.6
-  delta: 1.9
+  composite: 32.4
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 69.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 64.5
+    contract_quality: 68.0
     developer_ergonomics: 21.4
     discoverability: 50.0
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 29.7
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -441,8 +446,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bugsnag/refs/heads/main/screenshots/bugsnag-2026-06-20T173757.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: mulesoft-agentic-access
   summary_line: 15 operations · 8 acting
-api_count: 8
+api_count: 1
 apis:
 - description: MuleSoft Anypoint Platform unifies API management with integration, providing a complete solution to connect any application, data source, or device with reusable APIs and integrations.
   name: MuleSoft Anypoint Platform
@@ -120,6 +120,10 @@ collections:
   name: MuleSoft Anypoint Platform Applications Organizations API
   slug: open-mulesoft-organizations-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -549,7 +553,7 @@ jsonld:
   property_count: 7
   slug: mulesoft-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-30'
 name: MuleSoft
 nav: Providers
 network: true
@@ -559,7 +563,7 @@ overview: 'MuleSoft publishes 3 APIs on the [APIs.io](https://apis.io/) network:
   The MuleSoft catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  MuleSoft''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, engineering blog, changelog, and 33 more developer resources.'
+  MuleSoft''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, engineering blog, changelog, and 34 more developer resources.'
 plans:
 - name: Mulesoft Plans Pricing
   plan_count: 4
@@ -593,18 +597,23 @@ rules:
   slug: mulesoft-spectral-rules
 score:
   band: developing
-  composite: 53.3
-  delta: 1.4
+  composite: 52.7
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 28.8
     contract_quality: 74.9
     developer_ergonomics: 69.0
-    discoverability: 63.0
+    discoverability: 57.4
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 51.9
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     contracts:
@@ -612,8 +621,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mulesoft/refs/heads/main/screenshots/mulesoft-2026-06-20T185854.png
 security:

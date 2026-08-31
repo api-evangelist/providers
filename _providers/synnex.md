@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: synnex-agentic-access
   summary_line: 15 operations · 6 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Digital Bridge Developer Portal gives engineering teams direct access to REST APIs for products, pricing, orders, renewals, and cloud services. Partners can get sandbox API keys, test endpoints, a
   name: TD SYNNEX Digital Bridge API
@@ -92,6 +92,10 @@ collections:
   name: TD SYNNEX StreamOne ION Cart Subscriptions API
   slug: open-synnex-subscriptions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/synnex-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -173,7 +177,7 @@ overview: 'Synnex publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Synnex catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Synnex''s developer surface includes authentication and 9 more developer resources.'
+  Synnex''s developer surface includes authentication and 10 more developer resources.'
 plans:
 - name: Synnex Plans Pricing
   plan_count: 1
@@ -223,18 +227,23 @@ rules:
   slug: synnex-rules
 score:
   band: thin
-  composite: 37.3
-  delta: 1.9
+  composite: 36.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 59.9
     developer_ergonomics: 38.1
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 28.8
     operational_transparency: 13.2
-  previous_composite: 35.4
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -242,8 +251,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/screenshots/synnex-2026-06-20T194829.png
 security:

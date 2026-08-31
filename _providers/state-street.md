@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: state-street-agentic-access
   summary_line: 13 operations · 2 acting
-api_count: 11
+api_count: 2
 apis:
 - description: 'The State Street Investment Accounting API provides institutional clients with access to portfolio accounting data including net asset value (NAV) calculations, position valuations, corporate actions '
   name: Investment Accounting API
@@ -113,6 +113,10 @@ collections:
   name: State Street Alpha Data Platform Baskets Transactions API
   slug: open-state-street-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/state-street-capability-edges.yml
 - group: company
   title: ''
   type: Blog
@@ -301,7 +305,7 @@ overview: 'State Street publishes 8 APIs on the [APIs.io](https://apis.io/) netw
   The State Street catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  State Street''s developer surface includes engineering blog, authentication, documentation, getting-started guide, support, and 22 more developer resources.'
+  State Street''s developer surface includes engineering blog, authentication, documentation, getting-started guide, support, and 23 more developer resources.'
 plans:
 - name: State Street Plans Pricing
   plan_count: 1
@@ -356,15 +360,20 @@ scopes:
   summary_line: 8 scopes · clientCredentials
 score:
   band: thin
-  composite: 38.9
-  delta: 0.0
+  composite: 38.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 63.3
     developer_ergonomics: 50.0
-    discoverability: 59.3
+    discoverability: 53.7
     governance: 28.8
     operational_transparency: 7.9
   previous_composite: 38.9
@@ -375,8 +384,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/screenshots/state-street-2026-06-20T194521.png
 security:

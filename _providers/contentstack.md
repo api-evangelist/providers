@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 132
   slug: contentstack-agentic-access
   summary_line: 132 operations · 68 acting
-api_count: 45
+api_count: 8
 apis:
 - description: The Contentstack GraphQL Content Delivery API enables developers to query content from their Contentstack stack using GraphQL syntax, allowing precise retrieval of only the fields and relationships ne
   name: Contentstack GraphQL Content Delivery API
@@ -53,12 +53,6 @@ apis:
 - description: The Contentstack Analytics API provides access to usage and performance metrics for CMS, Launch, and Automate products within a Contentstack organization. Developers can retrieve analytics data progra
   name: Contentstack Analytics API
   slug: analytics-api
-- description: The Contentstack Knowledge Vault API provides endpoints for ingesting, updating, and deleting content items stored in a Brand Kit's Knowledge Vault. The Knowledge Vault is a vector database that store
-  name: Contentstack Knowledge Vault API
-  slug: knowledge-vault-api
-- description: 'The Contentstack Generative AI API provides an endpoint for generating AI-powered content using a Brand Kit''s knowledge vault and voice profiles. It acts as a communication channel between the vector '
-  name: Contentstack Generative AI API
-  slug: generative-ai-api
 - description: Accounts represent authenticated connections to external services and third-party platforms used by automations as action targets.
   name: contentstack Accounts API
   slug: contentstack-accounts-api
@@ -80,18 +74,12 @@ apis:
 - description: Brand Kits are centralized repositories for an organization's brand identity assets, guidelines, and AI configuration. They are used to ensure consistent brand voice and style across AI-generated cont
   name: contentstack Brand Kits API
   slug: contentstack-brand-kits-api
-- description: Cache analytics track CDN cache hit and miss rates to measure delivery efficiency and identify cache optimization opportunities.
-  name: contentstack Cache Analytics API
-  slug: contentstack-cache-analytics-api
 - description: Content types define the structure of content entries in a Contentstack stack. They specify the fields and their data types that entries must conform to.
   name: contentstack Content Types API
   slug: contentstack-content-types-api
 - description: Deployments represent individual build and publish operations to a Launch environment. Each deployment has associated build logs, server logs, and status tracking.
   name: contentstack Deployments API
   slug: contentstack-deployments-api
-- description: Device usage analytics track API and content delivery requests broken down by device type (desktop, mobile, tablet, server).
-  name: contentstack Device Usage API
-  slug: contentstack-device-usage-api
 - description: Entries are instances of content types that hold the actual content data. They can be filtered, sorted, paginated, and localized.
   name: contentstack Entries API
   slug: contentstack-entries-api
@@ -119,9 +107,6 @@ apis:
 - description: Global fields are reusable field groups that can be referenced across multiple content types within a Contentstack stack.
   name: contentstack Global Fields API
   slug: contentstack-global-fields-api
-- description: Analytics jobs represent asynchronous data retrieval operations. Use the job ID returned from POST endpoints to fetch results via the job data endpoint.
-  name: contentstack Jobs API
-  slug: contentstack-jobs-api
 - description: LLM Configuration endpoints allow organizations to register custom API credentials for large language model providers, enabling content generation through their own LLM subscriptions.
   name: contentstack LLM Configuration API
   slug: contentstack-llm-configuration-api
@@ -143,27 +128,12 @@ apis:
 - description: SCIM user endpoints enable Identity Providers to provision, update, and deprovision user accounts within a Contentstack organization following the SCIM 2.0 User schema.
   name: contentstack SCIM Users API
   slug: contentstack-scim-users-api
-- description: SDK usage analytics report request volumes from Contentstack SDKs broken down by SDK type and version.
-  name: contentstack SDK Usage API
-  slug: contentstack-sdk-usage-api
 - description: Endpoints for creating and managing Contentstack stacks, including settings, users, sharing, and ownership transfer.
   name: contentstack Stacks API
   slug: contentstack-stacks-api
-- description: Status code analytics show the distribution of HTTP response codes returned by Contentstack services for health and error monitoring.
-  name: contentstack Status Code Analytics API
-  slug: contentstack-status-code-analytics-api
-- description: Subscription usage analytics provide metrics on Launch project, environment, and domain counts relative to the organization's plan limits.
-  name: contentstack Subscription Usage API
-  slug: contentstack-subscription-usage-api
 - description: The synchronization endpoints allow developers to sync published content incrementally, enabling efficient local caching and offline-first patterns.
   name: contentstack Synchronization API
   slug: contentstack-synchronization-api
-- description: URL analytics show request volume broken down by specific URLs to identify high-traffic content and optimize delivery.
-  name: contentstack URL Analytics API
-  slug: contentstack-url-analytics-api
-- description: Usage analytics provide bandwidth and API call utilization overviews across Contentstack services including CDN, CMA, Automate, and Launch.
-  name: contentstack Usage Analytics API
-  slug: contentstack-usage-analytics-api
 - description: Endpoints for setting, updating, and merging user attribute data used to determine audience membership and personalized content targeting.
   name: contentstack User Attributes API
   slug: contentstack-user-attributes-api
@@ -179,7 +149,7 @@ apis:
 - description: Voice Profiles define the writing style, tone, and persona characteristics for AI content generation within a Brand Kit. Multiple voice profiles can be created to support different content contexts or
   name: contentstack Voice Profiles API
   slug: contentstack-voice-profiles-api
-artifact_total: 210
+artifact_total: 200
 asyncapis:
 - description: Contentstack Webhooks provide event-driven notifications for content lifecycle events within a stack. When configured, Contentstack sends HTTP POST requests to your specified endpoint URL whenever mat
   name: Contentstack Webhooks
@@ -342,6 +312,10 @@ collections:
   name: Contentstack Analytics Accounts Voice Profiles API
   slug: open-contentstack-voice-profiles-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/contentstack-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -716,13 +690,13 @@ modified: '2026-05-19'
 name: contentstack
 nav: Providers
 network: true
-overview: 'contentstack publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Knowledge Vault API, Generative AI API, and 40 more.
+overview: 'contentstack publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Accounts API, Assets API, and 30 more.
 
 
   The contentstack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  contentstack''s developer surface includes authentication and 12 more developer resources.'
+  contentstack''s developer surface includes authentication and 13 more developer resources.'
 plans:
 - name: Contentstack Plans Pricing
   plan_count: 3
@@ -767,18 +741,23 @@ rules:
   slug: contentstack-rules
 score:
   band: thin
-  composite: 38.2
-  delta: 1.9
+  composite: 38.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 28.8
-    contract_quality: 77.3
+    contract_quality: 77.0
     developer_ergonomics: 21.4
     discoverability: 50.0
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 36.3
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -790,8 +769,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contentstack/refs/heads/main/screenshots/contentstack-2026-06-20T174935.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 39
   slug: newforma-agentic-access
   summary_line: 39 operations · 19 acting
-api_count: 4
+api_count: 1
 apis:
 - description: buildingSMART BIM Collaboration Format (BCF) REST API for exchanging coordination issues and topics between Newforma Konekt and third-party BIM authoring/coordination tools, plus a BCF Server.
   name: Newforma Konekt BCF REST API
@@ -70,6 +70,10 @@ collections:
   name: Newforma Konekt Hub Project API
   slug: open-newforma-project-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/newforma-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -189,7 +193,7 @@ network: true
 overview: 'Newforma publishes 3 APIs on the [APIs.io](https://apis.io/) network: Hub API, Issue API, and Project API. Tagged areas include Company, AEC, Construction, Architecture, and Engineering.
 
 
-  Newforma''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 19 more developer resources.'
+  Newforma''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 20 more developer resources.'
 random_paper: 2
 scopes:
 - name: Newforma Scopes
@@ -198,18 +202,23 @@ scopes:
   summary_line: 14 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 39.2
-  delta: 0.0
+  composite: 36.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 48.3
     developer_ergonomics: 48.2
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 39.2
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -220,8 +229,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newforma/refs/heads/main/screenshots/newforma-2026-08-07T185104.png
 security:

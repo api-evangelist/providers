@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 89
   slug: border0-agentic-access
   summary_line: 89 operations · 53 acting · 4 human-in-the-loop
-api_count: 15
+api_count: 1
 apis:
 - description: The Audit Actions API from Border0 — 2 operation(s) for audit actions.
   name: Border0 Audit Actions API
@@ -282,18 +282,23 @@ overview: 'Border0 publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 14
 score:
   band: developing
-  composite: 45.2
-  delta: 0.0
+  composite: 43.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 54.7
     developer_ergonomics: 47.0
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 45.2
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -304,8 +309,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/screenshots/border0-2026-07-25T203633.png
 security:

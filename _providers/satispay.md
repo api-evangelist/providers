@@ -23,19 +23,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
-- description: The Satispay GBusiness API is the merchant-facing payments API. It creates and updates payments across the MATCH_CODE, MATCH_USER, REFUND, PRE_AUTHORIZED, FUND_LOCK, PRE_AUTHORIZED_FUND_LOCK and HOTP_
-  name: Satispay GBusiness API
-  slug: satispay-gbusiness-api
-- description: The production-environment definition Satispay publishes alongside the payments API, covering consumer lookup, daily closure retrieval, shop profile, pre-authorized payment tokens, MQTT certificates f
-  name: Satispay GBusiness API (production surface)
-  slug: satispay-gbusiness-production
-- description: 'The staging/sandbox definition Satispay publishes for verifying an RSA-signed request before going live. It exposes the authentication test endpoint used to confirm the Digest, Message, Signature and '
-  name: Satispay GBusiness API (sandbox)
-  slug: satispay-gbusiness-sandbox
-artifact_total: 10
+- description: The Authentication Keys API from Satispay — 1 operation(s) for authentication keys.
+  name: Satispay Authentication Keys API
+  slug: satispay-authentication-keys-api
+- description: The G Business API from Satispay — 13 operation(s) for g business.
+  name: Satispay G Business API
+  slug: satispay-g-business-api
+- description: The Payments API from Satispay — 6 operation(s) for payments.
+  name: Satispay Payments API
+  slug: satispay-payments-api
+- description: The Reports API from Satispay — 1 operation(s) for reports.
+  name: Satispay Reports API
+  slug: satispay-reports-api
+- description: The Wally Services API from Satispay — 1 operation(s) for wally services.
+  name: Satispay Wally Services API
+  slug: satispay-wally-services-api
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Satispay Webhooks
@@ -214,7 +220,7 @@ modified: '2026-08-26'
 name: Satispay
 nav: Providers
 network: true
-overview: 'Satispay publishes 3 APIs on the [APIs.io](https://apis.io/) network: GBusiness API, GBusiness API (production surface), and GBusiness API (sandbox). Tagged areas include Payments, Mobile Payments, Fintech, E-Money, and E-Commerce.
+overview: 'Satispay publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication Keys API, G Business API, Payments API, and 2 more. Tagged areas include Payments, Mobile Payments, Fintech, E-Money, and E-Commerce.
 
 
   The Satispay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -231,17 +237,24 @@ rate_limits:
   name: Satispay Rate Limits
   slug: satispay-rate-limits
 score:
-  band: strong
-  composite: 54.6
+  band: developing
+  composite: 52.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 16.7
-    contract_quality: 57.8
+    contract_governance: 4.5
+    contract_quality: 58.9
     developer_ergonomics: 54.2
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 28.9
+  previous_composite: 52.3
   provenance:
     conformance: derived
     contracts:
@@ -257,8 +270,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 57.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Satispay Authentication

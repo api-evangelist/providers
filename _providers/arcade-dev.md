@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 56
   slug: arcade-dev-agentic-access
   summary_line: 56 operations · 30 acting
-api_count: 8
+api_count: 9
 apis:
 - description: The Admin API from arcade-dev — 14 operation(s) for admin.
   name: arcade-dev Admin API
@@ -414,16 +414,16 @@ jsonld:
   slug: arcade-dev-context
 layout: provider
 modified: '2026-05-25'
-name: arcade-dev
+name: Arcade.dev
 nav: Providers
 network: true
-overview: 'arcade-dev publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Authorization API, Gateways API, and 5 more.
+overview: 'Arcade.dev publishes 8 APIs on the [APIs.io](https://apis.io/) network, including arcade-dev Admin API, arcade-dev Authorization API, arcade-dev Gateways API, and 5 more.
 
 
-  The arcade-dev catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Arcade.dev catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  arcade-dev''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 36 more developer resources.'
+  Arcade.dev''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 36 more developer resources.'
 plans:
 - name: Arcade Dev Plans Pricing
   plan_count: 3
@@ -436,7 +436,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: arcade-dev API Rules
+  name: Arcade.dev API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -447,7 +447,7 @@ rules:
 - effective_rule_count: 48
   extends:
   - spectral:oas
-  name: arcade-dev API Rules
+  name: Arcade.dev API Rules
   rule_count: 7
   severity_counts:
     error: 3
@@ -458,6 +458,11 @@ rules:
 score:
   band: strong
   composite: 56.2
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 39.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 63.2
@@ -480,8 +485,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcade-dev/refs/heads/main/screenshots/arcade-dev-2026-06-20T172356.png
 security:

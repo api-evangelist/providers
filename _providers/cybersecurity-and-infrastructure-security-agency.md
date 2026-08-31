@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 3
   slug: cybersecurity-and-infrastructure-security-agency-agentic-access
   summary_line: 3 operations
-api_count: 4
+api_count: 1
 apis:
 - description: CISA's Automated Indicator Sharing (AIS) program uses a TAXII 2.1 server to deliver STIX-formatted cyber threat indicators (CTI) and defensive measures (DM) to vetted partners. AIS includes AIS PUBLIC
   name: CISA Automated Indicator Sharing (AIS) TAXII Server
@@ -70,6 +70,10 @@ collections:
   name: CISA Known Exploited Vulnerabilities () Catalog KEV Schema API
   slug: open-cybersecurity-and-infrastructure-security-agency-schema-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cybersecurity-and-infrastructure-security-agency-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -173,7 +177,7 @@ overview: 'Cybersecurity and Infrastructure Security Agency publishes 2 APIs on 
   The Cybersecurity and Infrastructure Security Agency catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cybersecurity and Infrastructure Security Agency''s developer surface includes engineering blog and 18 more developer resources.'
+  Cybersecurity and Infrastructure Security Agency''s developer surface includes engineering blog and 19 more developer resources.'
 plans:
 - name: Cybersecurity And Infrastructure Security Agency Plans Pricing
   plan_count: 3
@@ -207,18 +211,23 @@ rules:
   slug: cybersecurity-and-infrastructure-security-agency-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.3
-  delta: 1.9
+  composite: 40.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 28.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
     contract_governance: 69.7
     contract_quality: 57.8
     developer_ergonomics: 11.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 69.7
     operational_transparency: 10.5
-  previous_composite: 39.4
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -232,8 +241,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybersecurity-and-infrastructure-security-agency/refs/heads/main/screenshots/cybersecurity-and-infrastructure-security-agency-2026-06-20T175408.png
 security:

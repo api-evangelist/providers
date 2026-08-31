@@ -23,39 +23,119 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 8
 apis:
-- description: 'The GalaChain asset-channel token contract, exposed over REST by the GalaChain Gateway. Covers fungible and non-fungible token classes, balances, allowances, minting, burning, locking, transfers, NFT '
-  name: GalaChain Token Contract API
-  slug: galachain-token-contract
-- description: The GalaChain asset-channel concentrated-liquidity DEX contract (dexv3), exposed over REST by the GalaChain Gateway. Covers pool data, positions, liquidity estimation, tick and bitmap data, swap allow
-  name: GalaChain DEX v3 Contract API
-  slug: galachain-dexv3-contract
-- description: 'The GalaChain asset-channel launchpad contract, exposed over REST by the GalaChain Gateway. Covers bonding-curve token sales: buying and selling meme tokens against the native token, sale details and '
-  name: GalaChain Launchpad Contract API
-  slug: galachain-launchpad-contract
-- description: The GalaChain asset-channel fee contract, exposed over REST by the GalaChain Gateway. Used to fetch fee authorizations that pay for cross-channel operations, and to dry-run fee transactions before sub
-  name: GalaChain Fee Contract API
-  slug: galachain-fee-contract
-- description: 'The GalaChain asset-channel public key contract, exposed over REST by the GalaChain Gateway. Resolves on-chain identity: fetching registered public keys and chain objects by key, plus dry-run support '
-  name: GalaChain Public Key Contract API
-  slug: galachain-public-key-contract
-- description: 'GalaConnect is Gala''s public programmatic surface for GalaSwap: fetching and filling token swaps, creating and terminating swaps, creating headless wallets, creating project tokens, authorizing cross-'
-  name: GalaConnect API
-  slug: galaconnect
-- description: 'Near real-time GalaChain chain data: blocks and recent blocks by channel, transactions, block height, registered channels, token media, balances, allowances, bridge operations and a cross-entity searc'
-  name: Gala Block Explorer API
-  slug: block-explorer
-- description: 'The backend behind GalaSwap: trade quotes, pools and composite pools, positions, add and remove liquidity, swaps, bundles, slot0 and transaction status, plus explore analytics, price oracle, CoinGecko'
-  name: Gala DeFi Backend API
-  slug: defi-backend
-artifact_total: 14
+- description: These operations are direct interactions with the GalaChain blockchain, with the GalaConnect API doing little more than proxying your request.
+  name: 'Gala Games API: GalaChain Operations API'
+  slug: gala-games-api-galachain-operations-api
+- description: 'The API: GalaConnect Operations API from Gala Games — 11 operation(s) for api: galaconnect operations.'
+  name: 'Gala Games API: GalaConnect Operations API'
+  slug: gala-games-api-galaconnect-operations-api
+- description: The coin-gecko API from Gala Games — 6 operation(s) for coin-gecko.
+  name: Gala Games Coin Gecko API
+  slug: gala-games-coin-gecko-api
+- description: The competition API from Gala Games — 8 operation(s) for competition.
+  name: Gala Games Competition API
+  slug: gala-games-competition-api
+- description: The explore API from Gala Games — 6 operation(s) for explore.
+  name: Gala Games Explore API
+  slug: gala-games-explore-api
+- description: The Explorer API from Gala Games — 16 operation(s) for explorer.
+  name: Gala Games Explorer API
+  slug: gala-games-explorer-api
+- description: The ExtensionVersion API from Gala Games — 1 operation(s) for extensionversion.
+  name: Gala Games Extension Version API
+  slug: gala-games-extensionversion-api
+- description: These are operations that you should generally do via the GalaConnect website client. Nonetheless, they are documented here for completeness. These APIs are **not** likely to remain stable and you sho
+  name: Gala Games GalaConnect Client Operations API
+  slug: gala-games-galaconnect-client-operations-api
+- description: The Health API from Gala Games — 1 operation(s) for health.
+  name: Gala Games Health API
+  slug: gala-games-health-api
+- description: The incentive API from Gala Games — 8 operation(s) for incentive.
+  name: Gala Games Incentive API
+  slug: gala-games-incentive-api
+- description: The leaderboard API from Gala Games — 4 operation(s) for leaderboard.
+  name: Gala Games Leaderboard API
+  slug: gala-games-leaderboard-api
+- description: The market API from Gala Games — 6 operation(s) for market.
+  name: Gala Games Market API
+  slug: gala-games-market-api
+- description: The marketplace API from Gala Games — 2 operation(s) for marketplace.
+  name: Gala Games Marketplace API
+  slug: gala-games-marketplace-api
+- description: The Methods API from Gala Games — 71 operation(s) for methods.
+  name: Gala Games Methods API
+  slug: gala-games-methods-api
+- description: The onboarding API from Gala Games — 1 operation(s) for onboarding.
+  name: Gala Games Onboarding API
+  slug: gala-games-onboarding-api
+- description: The pairs API from Gala Games — 2 operation(s) for pairs.
+  name: Gala Games Pairs API
+  slug: gala-games-pairs-api
+- description: The price-oracle API from Gala Games — 1 operation(s) for price-oracle.
+  name: Gala Games Price Oracle API
+  slug: gala-games-price-oracle-api
+- description: The protocol-fee-sweep API from Gala Games — 2 operation(s) for protocol-fee-sweep.
+  name: Gala Games Protocol Fee Sweep API
+  slug: gala-games-protocol-fee-sweep-api
+- description: The token-class API from Gala Games — 1 operation(s) for token-class.
+  name: Gala Games Token Class API
+  slug: gala-games-token-class-api
+- description: The token-registry API from Gala Games — 3 operation(s) for token-registry.
+  name: Gala Games Token Registry API
+  slug: gala-games-token-registry-api
+- description: The trade API from Gala Games — 20 operation(s) for trade.
+  name: Gala Games Trade API
+  slug: gala-games-trade-api
+- description: The user API from Gala Games — 3 operation(s) for user.
+  name: Gala Games User API
+  slug: gala-games-user-api
+- description: The WalletExtensionCompat API from Gala Games — 52 operation(s) for walletextensioncompat.
+  name: Gala Games Wallet Extension Compat API
+  slug: gala-games-walletextensioncompat-api
+- description: The WhatsNew API from Gala Games — 1 operation(s) for whatsnew.
+  name: Gala Games Whats New API
+  slug: gala-games-whatsnew-api
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Gala Games Event Surface
   slug: gala-games-event-surface
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/gala-games-galachain-asset-token-contract-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/gala-games-galachain-asset-dexv3-contract-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/gala-games-galachain-asset-launchpad-contract-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/gala-games-galachain-asset-fee-contract-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/gala-games-galachain-asset-public-key-contract-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/gala-games-galaconnect-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/gala-games-block-explorer-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/gala-games-defi-backend-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -176,13 +256,13 @@ modified: '2026-08-16'
 name: Gala Games
 nav: Providers
 network: true
-overview: 'Gala Games publishes 8 APIs on the [APIs.io](https://apis.io/) network, including GalaChain Token Contract API, GalaChain DEX v3 Contract API, GalaChain Launchpad Contract API, and 5 more. Tagged areas include Company, Blockchain, Web3, Gaming, and NFT.
+overview: 'Gala Games publishes 24 APIs on the [APIs.io](https://apis.io/) network, including API: GalaChain Operations API, API: GalaConnect Operations API, Coin Gecko API, and 21 more. Tagged areas include Company, Blockchain, Web3, Gaming, and NFT.
 
 
   The Gala Games catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Gala Games'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, CLI, and 20 more developer resources.'
+  Gala Games'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, CLI, and 28 more developer resources.'
 plans:
 - name: Gala Games Plans Pricing
   plan_count: 0
@@ -194,18 +274,23 @@ rate_limits:
   slug: gala-games-rate-limits
 score:
   band: developing
-  composite: 42.0
+  composite: 41.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
-    contract_quality: 51.3
+    contract_governance: 4.5
+    contract_quality: 53.8
     developer_ergonomics: 70.8
     discoverability: 74.1
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 42.0
+  previous_composite: 41.2
   provenance:
     conformance: derived
     contracts:
@@ -221,8 +306,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gala-games/refs/heads/main/screenshots/gala-games-2026-08-17T080947.png
 security:

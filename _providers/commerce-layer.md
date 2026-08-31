@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 371
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1334
   slug: commerce-layer-agentic-access
   summary_line: 1334 operations · 371 acting · 3 human-in-the-loop
-api_count: 148
+api_count: 3
 apis:
 - description: resource type
   name: Commerce Layer addresses API
@@ -1008,6 +1008,10 @@ collections:
   name: Commerce Layer addresses wire_transfers API
   slug: open-commerce-layer-wire-transfers-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/commerce-layer-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1448,7 +1452,7 @@ overview: 'Commerce Layer publishes 148 APIs on the [APIs.io](https://apis.io/) 
   The Commerce Layer catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Commerce Layer''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, pricing, and 87 more developer resources.'
+  Commerce Layer''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, pricing, and 88 more developer resources.'
 plans:
 - name: Commerce Layer Plans Pricing
   plan_count: 3
@@ -1471,18 +1475,23 @@ rules:
   slug: commerce-layer-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 72.4
+  composite: 72.5
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 32.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 9.8
-    contract_quality: 75.5
+    contract_quality: 75.6
     developer_ergonomics: 78.6
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 71.1
-  previous_composite: 72.4
+  previous_composite: 72.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1496,8 +1505,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-layer/refs/heads/main/screenshots/commerce-layer-2026-06-20T174813.png
 security:

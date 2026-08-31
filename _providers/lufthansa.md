@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: lufthansa-agentic-access
   summary_line: 15 operations
-api_count: 8
+api_count: 1
 apis:
 - description: 'The Lufthansa Partner API exposes deeplinks, fares, pricing offers, and seat details for integration partners. NDC capabilities including Smart Offer, NDC Bonus, Servicing, and Technology are part of '
   name: Lufthansa Partner API
@@ -89,6 +89,10 @@ collections:
   name: Lufthansa LH Public API
   slug: open-lufthansa
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lufthansa-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -178,7 +182,7 @@ overview: 'Lufthansa publishes 4 APIs on the [APIs.io](https://apis.io/) network
   The Lufthansa catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Lufthansa''s developer surface includes authentication, developer portal, documentation, signup flow, and 8 more developer resources.'
+  Lufthansa''s developer surface includes authentication, developer portal, documentation, signup flow, and 9 more developer resources.'
 plans:
 - name: Lufthansa Plans Pricing
   plan_count: 2
@@ -206,15 +210,20 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 29.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 72.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 50.9
     developer_ergonomics: 19.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 7.9
   previous_composite: 30.5
@@ -225,8 +234,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/screenshots/lufthansa-2026-06-20T184749.png
 security:

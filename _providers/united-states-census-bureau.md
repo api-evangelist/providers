@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 10
   slug: united-states-census-bureau-agentic-access
   summary_line: 10 operations
-api_count: 9
+api_count: 1
 apis:
 - description: The TIGERweb GeoServices REST API provides access to Census Bureau geographic data including boundaries for states, counties, census tracts, block groups, and other geographic entities. Supports stand
   name: TIGERweb GeoServices REST API
@@ -222,18 +222,23 @@ rules:
   slug: united-states-census-bureau-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.7
-  delta: 1.9
+  composite: 34.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 34.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 54.5
     contract_quality: 57.8
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 75.9
     governance: 54.5
     operational_transparency: 13.2
-  previous_composite: 32.8
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -247,8 +252,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-census-bureau/refs/heads/main/screenshots/united-states-census-bureau-2026-06-20T200100.png
 security:

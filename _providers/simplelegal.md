@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: simplelegal-agentic-access
   summary_line: 17 operations · 8 acting
-api_count: 6
+api_count: 1
 apis:
 - description: The Cost Codes API from SimpleLegal — 1 operation(s) for cost codes.
   name: SimpleLegal Cost Codes API
@@ -201,7 +201,7 @@ modified: '2026-08-08'
 name: SimpleLegal
 nav: Providers
 network: true
-overview: 'SimpleLegal publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cost Codes API, Invoices API, Matters API, and 3 more. Tagged areas include E-Billing, Enterprise Legal Management, Legal Operations, Legal Spend Management, and Matter Management.
+overview: 'SimpleLegal publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Cost Codes API, Invoices API, Matters API, and 3 more. Tagged areas include eBilling, Enterprise Legal Management, Legal Operations, Legal Spend Management, and Matter Management.
 
 
   The SimpleLegal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -241,18 +241,23 @@ rules:
   slug: simplelegal-rules
 score:
   band: developing
-  composite: 41.6
-  delta: 3.9
+  composite: 40.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 28.8
     contract_quality: 59.0
     developer_ergonomics: 26.2
-    discoverability: 85.2
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 37.7
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -260,8 +265,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplelegal/refs/heads/main/screenshots/simplelegal-2026-06-20T193933.png
 security:
@@ -279,7 +284,7 @@ security:
   summary_line: security.txt · contact published
 slug: simplelegal
 tags:
-- E-Billing
+- eBilling
 - Enterprise Legal Management
 - Legal Operations
 - Legal Spend Management

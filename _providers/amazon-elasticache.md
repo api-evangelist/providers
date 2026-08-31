@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: amazon-elasticache-agentic-access
   summary_line: 5 operations · 3 acting
-api_count: 4
+api_count: 1
 apis:
 - description: The Amazon ElastiCache API API from Amazon ElastiCache — 1 operation(s) for amazon elasticache api.
   name: Amazon ElastiCache Amazon ElastiCache API API
@@ -345,18 +345,23 @@ rules:
   slug: amazon-elasticache-spectral-rules
 score:
   band: strong
-  composite: 60.1
-  delta: 5.0
+  composite: 59.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
     contract_governance: 28.8
     contract_quality: 63.9
     developer_ergonomics: 69.0
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 55.1
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     contracts:
@@ -364,9 +369,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-elasticache/refs/heads/main/screenshots/amazon-elasticache-2026-06-20T171652.png
 security:
 - kind: authentication

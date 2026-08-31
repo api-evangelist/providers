@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 124
   slug: mux-com-agentic-access
   summary_line: 124 operations · 52 acting · 2 human-in-the-loop
-api_count: 36
+api_count: 2
 apis:
 - description: Mux Webhooks deliver signed HTTP callbacks for asset, upload, live stream, and robots job lifecycle events (video.asset.created, video.asset.ready, video.live_stream.active, video.upload.asset_created
   name: Mux Webhooks
@@ -152,6 +152,12 @@ apis:
 - description: API for retrieving the real-time count of views and viewers based on ID as collected by Mux Data.
   name: Mux View and Viewer Counts API
   slug: mux-com-view-and-viewer-counts-api
+- description: Manage playback IDs for assets.
+  name: Mux Playback IDs API
+  slug: mux-com-playback-ids-api
+- description: The Mux API API from Mux — 0 operation(s) for mux api.
+  name: Mux Mux API
+  slug: mux-com-mux-api-api
 arazzos:
 - description: Confirm the active environment with whoami, then list per-asset delivery usage for a timeframe to audit billed delivery.
   name: Mux Account Delivery Usage Audit
@@ -231,7 +237,7 @@ arazzos:
 - description: List recent video views in a timeframe, then fetch the full detail of the first matching view.
   name: Mux Video View Drilldown
   slug: mux-com-video-view-drilldown-workflow
-artifact_total: 153
+artifact_total: 155
 collections:
 - collection_type: postman
   name: Mux API
@@ -351,6 +357,10 @@ collections:
   name: Mux API
   slug: open-mux
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mux-com-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -728,13 +738,13 @@ modified: '2026-08-08'
 name: Mux
 nav: Providers
 network: true
-overview: 'Mux publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Animated Images API, Annotations API, Ask Questions API, and 32 more. Tagged areas include Video Infrastructure, Video Streaming, Live Streaming, Video Analytics, and Video AI.
+overview: 'Mux publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Animated Images API, Annotations API, Ask Questions API, and 34 more. Tagged areas include Video Infrastructure, Video Streaming, Live Streaming, Video Analytics, and Video AI.
 
 
   The Mux catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Mux''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, signup flow, pricing, and 67 more developer resources.'
+  Mux''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, signup flow, pricing, and 68 more developer resources.'
 plans:
 - name: Mux Com Plans Pricing
   plan_count: 11
@@ -758,18 +768,23 @@ rules:
   slug: mux-com-rules
 score:
   band: exemplar
-  composite: 75.4
-  delta: 0.0
+  composite: 76.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 26.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 60.6
-    contract_quality: 68.3
+    contract_quality: 67.1
     developer_ergonomics: 83.3
-    discoverability: 57.4
+    discoverability: 70.4
     governance: 60.6
     operational_transparency: 78.9
-  previous_composite: 75.4
+  previous_composite: 77.0
   provenance:
     agentic_access: derived
     contracts:
@@ -777,8 +792,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 36
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/screenshots/mux-com-2026-08-07T184502.png
 security:

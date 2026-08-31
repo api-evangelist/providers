@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: us-space-comman-agentic-access
   summary_line: 8 operations · 1 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Session-based authentication
   name: US Space Command Authentication API
@@ -177,18 +177,23 @@ rules:
   slug: us-space-comman-rules
 score:
   band: thin
-  composite: 35.3
-  delta: 3.9
+  composite: 34.7
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 61.2
     developer_ergonomics: 31.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 31.4
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -202,8 +207,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-space-comman/refs/heads/main/screenshots/us-space-comman-2026-06-20T200629.png
 security:

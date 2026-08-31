@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 3
 common:
@@ -106,7 +106,7 @@ modified: '2026-08-25'
 name: MenuSifu
 nav: Providers
 network: true
-overview: 'MenuSifu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Point of Sale, Restaurants, Restaurant Technology, and Hospitality.
+overview: 'MenuSifu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Point-of-Sale, Restaurant, Restaurant Technology, and Hospitality.
 
 
   MenuSifu''s developer surface includes pricing, engineering blog, signup flow, and 10 more developer resources.'
@@ -122,6 +122,12 @@ rate_limits:
 score:
   band: emerging
   composite: 19.2
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -131,14 +137,16 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 19.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: domain-security
   name: Menusifu Domain Security
@@ -147,8 +155,8 @@ security:
 slug: menusifu
 tags:
 - Company
-- Point of Sale
-- Restaurants
+- Point-of-Sale
+- Restaurant
 - Restaurant Technology
 - Hospitality
 - Payments

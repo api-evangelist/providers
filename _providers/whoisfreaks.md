@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-26'
-api_count: 23
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Official open-source Model Context Protocol server (Java) exposing 14 WhoisFreaks domain-intelligence tools to MCP-compatible AI clients. Distributed as source and as the whoisfreaks/mcp-server Docker
   name: WhoisFreaks MCP Server
@@ -171,6 +171,18 @@ collections:
   name: WhoisFreaks WHOIS API
   slug: open-whoisfreaks-whois-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/whoisfreaks-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/WhoisFreaks/whoisfreaks-mcp-server/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/WhoisFreaks/whoisfreaks-mcp-server/releases
 - group: other
   title: ''
   type: Overlay
@@ -329,7 +341,7 @@ overview: 'WhoisFreaks publishes 22 APIs on the [APIs.io](https://apis.io/) netw
   The WhoisFreaks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  WhoisFreaks'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  WhoisFreaks'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
 plans:
 - name: Whoisfreaks Plans
   plan_count: 5
@@ -340,19 +352,27 @@ rate_limits:
   name: Whoisfreaks Rate Limits
   slug: whoisfreaks-rate-limits
 score:
-  band: exemplar
-  composite: 69.1
-  delta: 0.0
+  band: strong
+  composite: 62.9
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 65.7
     developer_ergonomics: 80.4
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 69.1
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 63.4
   provenance:
     conformance: derived
     contracts:
@@ -362,8 +382,8 @@ score:
       total: 22
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whoisfreaks/refs/heads/main/screenshots/whoisfreaks-2026-08-17T080443.png
 security:

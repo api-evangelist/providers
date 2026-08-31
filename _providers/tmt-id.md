@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -33,28 +33,31 @@ agentic_access:
   summary_line: 17 operations · 12 acting
 api_count: 7
 apis:
-- description: Real-time verification of a mobile number against mobile network operator data. A single POST returns the requested datapoints for a number — subscriber name and address match, account type and tenure
-  name: TMT Verify API
-  slug: tmt-id-verify
-- description: Global mobile number lookup that returns the network operator currently serving a number, including ported numbers, using live HLR/ENUM sourced data. Delivered as a single GET with the API key and sec
-  name: TMT Velocity API
-  slug: tmt-id-velocity
-- description: Checks whether a mobile number is currently assigned and in active use on a network, for data cleansing, deliverability and pre-send validation. Offered over HTTPS and over ENUM/NAPTR against live.tmt
-  name: TMT Live API
-  slug: tmt-id-live
-- description: Telephony fraud and routing intelligence. Five documented POST operations cover TeleShield Routing, TeleShield Fraud and Enhanced Fraud in both the v1.3 and v2.0 data dictionaries, returning number-ra
-  name: TMT TeleShield API
-  slug: tmt-id-teleshield
-- description: Returns a credibility score for a phone number, derived from the age, stability and behaviour of the number across TMT ID's operator data, for risk decisioning at onboarding, login and transaction tim
-  name: TMT Score API
-  slug: tmt-id-score
-- description: Silent Network Authentication and OTP fallback. The client exchanges HTTP Basic credentials at /oauth/token for a PASETO bearer token, calls /get_config to learn how the relevant mobile network operat
-  name: TMT Authenticate API
-  slug: tmt-id-authenticate
-- description: The Phronesis-derived flagship, a single POST that assembles a configurable set of mobile network signals about a number and device — SIM swap and device change look-back windows, GSMA device blacklis
-  name: Network Biometrics API
-  slug: tmt-id-network-biometrics
-artifact_total: 20
+- description: Authenticate user with MNO or OTP. These endpoints can be directly called by the users.
+  name: TMT ID Authenticate API
+  slug: tmt-id-authenticate-api
+- description: The HTTP API API from TMT ID — 3 operation(s) for http api.
+  name: TMT ID HTTP API
+  slug: tmt-id-http-api-api
+- description: The HTTP API v1.3 API from TMT ID — 2 operation(s) for http api v1.3.
+  name: TMT ID HTTP API v1.3 API
+  slug: tmt-id-http-api-v1-3-api
+- description: The HTTP API v2.0 API from TMT ID — 3 operation(s) for http api v2.0.
+  name: TMT ID HTTP API v2.0 API
+  slug: tmt-id-http-api-v2-0-api
+- description: The Network Biometrics API from TMT ID — 1 operation(s) for network biometrics.
+  name: TMT ID Network Biometrics API
+  slug: tmt-id-network-biometrics-api
+- description: Service endpoints
+  name: TMT ID Service API
+  slug: tmt-id-service-api
+- description: The Standard API Call API from TMT ID — 1 operation(s) for standard api call.
+  name: TMT ID Standard API Call API
+  slug: tmt-id-standard-api-call-api
+- description: The v2 (deprecated) API from TMT ID — 2 operation(s) for v2 (deprecated).
+  name: TMT ID v2 (deprecated) API
+  slug: tmt-id-v2-deprecated-api
+artifact_total: 21
 collections:
 - collection_type: open
   name: TMT Authenticate API specs
@@ -78,6 +81,34 @@ collections:
   name: TMT Verify API specs
   slug: open-tmt-id-verify
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tmt-id-verify-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tmt-id-velocity-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tmt-id-live-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tmt-id-teleshield-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tmt-id-score-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tmt-id-authenticate-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tmt-id-network-biometrics-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -243,25 +274,30 @@ modified: '2026-07-25'
 name: TMT ID
 nav: Providers
 network: true
-overview: 'TMT ID publishes 7 APIs on the [APIs.io](https://apis.io/) network, including TMT Verify API, TMT Velocity API, TMT Live API, and 4 more. Tagged areas include Telecommunications, United Kingdom, Identity Verification, Mobile Identity, and SIM Swap.
+overview: 'TMT ID publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authenticate API, HTTP API, HTTP API v1.3 API, and 5 more. Tagged areas include Telecommunications, United Kingdom, Identity Verification, Mobile Identity, and SIM Swap.
 
 
-  TMT ID''s developer surface includes sandbox, authentication, documentation, developer portal, signup flow, engineering blog, support, and 31 more developer resources.'
+  TMT ID''s developer surface includes sandbox, authentication, documentation, developer portal, signup flow, engineering blog, support, and 38 more developer resources.'
 random_paper: 3
 score:
   band: developing
-  composite: 48.1
-  delta: 1.4
+  composite: 46.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 16.7
-    contract_quality: 47.7
+    contract_governance: 4.5
+    contract_quality: 50.6
     developer_ergonomics: 54.2
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 46.7
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -278,8 +314,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tmt-id/refs/heads/main/screenshots/tmt-id-2026-08-17T082402.png
 security:

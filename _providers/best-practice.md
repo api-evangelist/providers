@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -42,18 +42,24 @@ agentic_access:
   operation_count: 29
   slug: best-practice-agentic-access
   summary_line: 29 operations · 14 acting
-api_count: 3
+api_count: 2
 apis:
-- description: The integrator-facing Halo Cloud API from Best Practice's Halo Connect platform. Lets approved partners query Bp Premier practice data by four means - Sites (retrieve site metadata and onboarding info
-  name: Halo Cloud API for Integrators
-  slug: halo-cloud-integrator-api
-- description: The desktop-application-facing Halo Cloud API from Halo Connect. Provides a token endpoint plus SQL Passthrough and FHIR query access for locally installed applications integrating with Bp Premier. Op
-  name: Halo Cloud API for Desktop Applications
-  slug: halo-cloud-desktop-api
-- description: The HL7 FHIR API for Best Practice Bp Premier, delivered through Halo Connect. Built to the AU Base 4.1.0 implementation guide, falling back to FHIR R4 (4.0.1) where needed. Resources are served under
-  name: FHIR API for Bp Premier
-  slug: fhir-api-bp-premier
-artifact_total: 10
+- description: Query practice data using FHIR resources.
+  name: Best Practice Software FHIR API
+  slug: best-practice-fhir-api
+- description: The Registered Queries API from Best Practice Software — 6 operation(s) for registered queries.
+  name: Best Practice Software Registered Queries API
+  slug: best-practice-registered-queries-api
+- description: Endpoints for practice onboarding and site metadata.
+  name: Best Practice Software Sites API
+  slug: best-practice-sites-api
+- description: Send SQL queries to practices as immediate, async or registered queries. **Immediate queries** are small, time-sensitive queries that return a result in seconds. Response size is limited to 8MB. **Asy
+  name: Best Practice Software SQL Passthrough API
+  slug: best-practice-sql-passthrough-api
+- description: Obtain authorization tokens for desktop applications to authenticate API requests.
+  name: Best Practice Software Tokens API
+  slug: best-practice-tokens-api
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Best Practice Webhooks
@@ -66,6 +72,10 @@ collections:
   name: Halo Cloud API for Integrators
   slug: open-haloconnect-integrator
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/best-practice-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -191,28 +201,33 @@ modified: '2026-07-24'
 name: Best Practice Software
 nav: Providers
 network: true
-overview: 'Best Practice Software publishes 3 APIs on the [APIs.io](https://apis.io/) network: Halo Cloud API for Integrators, Halo Cloud API for Desktop Applications, and FHIR API for Bp Premier. Tagged areas include Healthcare, Australia, EHR, EMR, and FHIR.
+overview: 'Best Practice Software publishes 5 APIs on the [APIs.io](https://apis.io/) network, including FHIR API, Registered Queries API, Sites API, and 2 more. Tagged areas include Healthcare, Australia, EHR, EMR, and FHIR.
 
 
   The Best Practice Software catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Best Practice Software''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 21 more developer resources.'
+  Best Practice Software''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 22 more developer resources.'
 random_paper: 16
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 50.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
-    contract_quality: 67.6
+    contract_governance: 18.2
+    contract_quality: 64.1
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 53.2
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -229,8 +244,8 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/best-practice/refs/heads/main/screenshots/best-practice-2026-07-25T202754.png
 security:

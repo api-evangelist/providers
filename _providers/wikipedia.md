@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -42,14 +42,11 @@ agentic_access:
   operation_count: 125
   slug: wikipedia-agentic-access
   summary_line: 125 operations · 49 acting · 1 human-in-the-loop
-api_count: 33
+api_count: 2
 apis:
 - description: On-demand API
   name: Wikipedia / MediaWiki articles API
   slug: wikipedia-articles-api
-- description: Login, logout, token retrieval (action=login, clientlogin, logout, query&meta=tokens)
-  name: Wikipedia / MediaWiki Authentication API
-  slug: wikipedia-authentication-api
 - description: Realtime Batch API
   name: Wikipedia / MediaWiki batches API
   slug: wikipedia-batches-api
@@ -59,27 +56,12 @@ apis:
 - description: Metadata
   name: Wikipedia / MediaWiki codes API
   slug: wikipedia-codes-api
-- description: Create/modify page content (action=edit)
-  name: Wikipedia / MediaWiki Edit API
-  slug: wikipedia-edit-api
-- description: Media file metadata
-  name: Wikipedia / MediaWiki Files API
-  slug: wikipedia-files-api
-- description: Page revision history and edit statistics
-  name: Wikipedia / MediaWiki History API
-  slug: wikipedia-history-api
 - description: Metadata
   name: Wikipedia / MediaWiki languages API
   slug: wikipedia-languages-api
-- description: Page relationships - language and media links
-  name: Wikipedia / MediaWiki Links API
-  slug: wikipedia-links-api
 - description: formula rendering
   name: Wikipedia / MediaWiki Math API
   slug: wikipedia-math-api
-- description: Metadata operations (action=opensearch, action=feedrecentchanges)
-  name: Wikipedia / MediaWiki Meta API
-  slug: wikipedia-meta-api
 - description: The Mobile API from Wikipedia / MediaWiki — 3 operation(s) for mobile.
   name: Wikipedia / MediaWiki Mobile API
   slug: wikipedia-mobile-api
@@ -92,39 +74,18 @@ apis:
 - description: page content in different formats
   name: Wikipedia / MediaWiki Page content API
   slug: wikipedia-page-content-api
-- description: Page metadata, HTML, source, create, update
-  name: Wikipedia / MediaWiki Pages API
-  slug: wikipedia-pages-api
-- description: Wikitext parsing (action=parse)
-  name: Wikipedia / MediaWiki Parse API
-  slug: wikipedia-parse-api
-- description: Mark edits as patrolled (action=patrol)
-  name: Wikipedia / MediaWiki Patrol API
-  slug: wikipedia-patrol-api
 - description: Metadata
   name: Wikipedia / MediaWiki projects API
   slug: wikipedia-projects-api
-- description: Read-only data retrieval (action=query) — pages, revisions, links, search
-  name: Wikipedia / MediaWiki Query API
-  slug: wikipedia-query-api
 - description: Private lists of selected pages
   name: Wikipedia / MediaWiki Reading lists API
   slug: wikipedia-reading-lists-api
 - description: contribution recommendations
   name: Wikipedia / MediaWiki Recommendation API
   slug: wikipedia-recommendation-api
-- description: Individual revision retrieval and comparison
-  name: Wikipedia / MediaWiki Revisions API
-  slug: wikipedia-revisions-api
-- description: Title and full-text search
-  name: Wikipedia / MediaWiki Search API
-  slug: wikipedia-search-api
 - description: Snapshot API
   name: Wikipedia / MediaWiki snapshots API
   slug: wikipedia-snapshots-api
-- description: SPARQL 1.1 query endpoint
-  name: Wikipedia / MediaWiki SPARQL API
-  slug: wikipedia-sparql-api
 - description: (Beta) Structured Contents On-demand API
   name: Wikipedia / MediaWiki structured-contents API
   slug: wikipedia-structured-contents-api
@@ -137,13 +98,10 @@ apis:
 - description: Wikitext <-> HTML transformation
   name: Wikipedia / MediaWiki Transforms API
   slug: wikipedia-transforms-api
-- description: File upload (action=upload)
-  name: Wikipedia / MediaWiki Upload API
-  slug: wikipedia-upload-api
 - description: The wikidata API from Wikipedia / MediaWiki — 3 operation(s) for wikidata.
   name: Wikipedia / MediaWiki wikidata API
   slug: wikipedia-wikidata-api
-artifact_total: 323
+artifact_total: 309
 collections:
 - collection_type: open
   name: API Collection
@@ -1163,7 +1121,7 @@ modified: '2026-05-29'
 name: Wikipedia / MediaWiki
 nav: Providers
 network: true
-overview: 'Wikipedia / MediaWiki publishes 33 APIs on the [APIs.io](https://apis.io/) network, including articles API, Authentication API, batches API, and 30 more. Tagged areas include Open Data, Public APIs, Open Knowledge, Encyclopedia, and Knowledge Graph.
+overview: 'Wikipedia / MediaWiki publishes 19 APIs on the [APIs.io](https://apis.io/) network, including articles API, batches API, Citation API, and 16 more. Tagged areas include Open Data, Public APIs, Open Knowledge, Encyclopedia, and Knowledge Graph.
 
 
   The Wikipedia / MediaWiki catalog on APIs.io includes 6 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1203,18 +1161,23 @@ rules:
   slug: wikipedia-spectral-rules
 score:
   band: developing
-  composite: 43.8
-  delta: 5.9
+  composite: 42.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 28.8
-    contract_quality: 21.9
+    contract_quality: 20.7
     developer_ergonomics: 42.9
-    discoverability: 87.0
+    discoverability: 81.5
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 37.9
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1228,9 +1191,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikipedia/refs/heads/main/screenshots/wikipedia-2026-06-20T201453.png
 security:
 - kind: authentication

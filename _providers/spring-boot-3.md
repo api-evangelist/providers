@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 12
   slug: spring-boot-3-agentic-access
   summary_line: 12 operations · 1 acting
-api_count: 11
+api_count: 1
 apis:
 - description: Core Spring Boot 3 framework providing auto-configuration, embedded server support (Tomcat, Jetty, Undertow), externalized configuration, profiles, and conditional bean registration.
   name: Spring Boot Core Framework
@@ -106,6 +106,18 @@ collections:
   name: Spring Boot 3 Actuator Environment Threads API
   slug: open-spring-boot-3-threads-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/spring-projects/spring-boot/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/spring-projects/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/spring-projects/spring-boot/blob/main/CONTRIBUTING.adoc
 - group: commercial
   title: ''
   type: License
@@ -190,7 +202,7 @@ overview: 'Spring Boot 3 publishes 7 APIs on the [APIs.io](https://apis.io/) net
   The Spring Boot 3 catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spring Boot 3''s developer surface includes getting-started guide, release notes, engineering blog, and 7 more developer resources.'
+  Spring Boot 3''s developer surface includes getting-started guide, release notes, engineering blog, and 10 more developer resources.'
 plans:
 - name: Spring Boot 3 Plans Pricing
   plan_count: 2
@@ -224,18 +236,26 @@ rules:
   slug: spring-boot-3-rules
 score:
   band: thin
-  composite: 34.9
-  delta: 3.3
+  composite: 37.4
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 60.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
     contract_quality: 53.3
     developer_ergonomics: 33.3
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 31.6
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -243,8 +263,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-boot-3/refs/heads/main/screenshots/spring-boot-3-2026-06-20T194407.png
 security:

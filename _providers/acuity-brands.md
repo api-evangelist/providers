@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: acuity-brands-agentic-access
   summary_line: 9 operations
-api_count: 4
+api_count: 1
 apis:
 - description: Product catalog and item details
   name: acuity-brands Catalog API
@@ -77,6 +77,10 @@ collections:
   name: Acuity Brands API
   slug: open-acuity-brands
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/acuity-brands-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -227,16 +231,16 @@ jsonld:
   slug: acuity-brands-context
 layout: provider
 modified: '2026-05-19'
-name: acuity-brands
+name: Acuity Brands
 nav: Providers
 network: true
-overview: 'acuity-brands publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Inventory API, Orders API, and 1 more. Tagged areas include Fortune 1000.
+overview: 'Acuity Brands publishes 4 APIs on the [APIs.io](https://apis.io/) network, including acuity-brands Catalog API, acuity-brands Inventory API, acuity-brands Orders API, and 1 more. Tagged areas include Fortune 1000.
 
 
-  The acuity-brands catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Acuity Brands catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  acuity-brands'' developer surface includes authentication, developer portal, documentation, and 8 more developer resources.'
+  Acuity Brands'' developer surface includes authentication, developer portal, documentation, and 9 more developer resources.'
 plans:
 - name: Acuity Brands Plans Pricing
   plan_count: 1
@@ -265,7 +269,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: acuity-brands API Rules
+  name: Acuity Brands API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -276,7 +280,7 @@ rules:
 - effective_rule_count: 70
   extends:
   - spectral:oas
-  name: acuity-brands API Rules
+  name: Acuity Brands API Rules
   rule_count: 29
   severity_counts:
     error: 9
@@ -286,15 +290,20 @@ rules:
   slug: acuity-brands-spectral-rules
 score:
   band: thin
-  composite: 32.5
-  delta: 0.0
+  composite: 31.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 72.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 66.7
     developer_ergonomics: 31.0
-    discoverability: 31.5
+    discoverability: 25.9
     governance: 28.8
     operational_transparency: 2.6
   previous_composite: 32.5
@@ -305,8 +314,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/screenshots/acuity-brands-2026-06-20T164408.png
 security:

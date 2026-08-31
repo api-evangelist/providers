@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 10
   slug: google-chat-integrations-for-workspace-agentic-access
   summary_line: 10 operations · 5 acting
-api_count: 8
+api_count: 1
 apis:
 - description: REST API for sending and managing messages, spaces, members, reactions, attachments, custom emoji, user notification settings, and read states in Google Chat. Authentication uses OAuth 2.0 user creden
   name: Google Chat API
@@ -173,18 +173,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 32.8
-  delta: 1.4
+  composite: 32.3
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 40.5
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 31.4
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -192,8 +197,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/screenshots/google-chat-integrations-for-workspace-2026-06-20T182041.png
 security:

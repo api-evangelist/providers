@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: one-inch-agentic-access
   summary_line: 15 operations · 1 acting
-api_count: 14
+api_count: 1
 apis:
 - description: Quote and swap endpoints supporting classic aggregation, Fusion intent-based swaps, and cross-chain (Fusion+).
   name: 1inch Swap API
@@ -191,15 +191,20 @@ rate_limits:
   slug: one-inch-rate-limits
 score:
   band: thin
-  composite: 31.1
-  delta: 0.0
+  composite: 30.6
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 47.6
     developer_ergonomics: 31.0
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 31.1
@@ -210,8 +215,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-inch/refs/heads/main/screenshots/one-inch-2026-06-20T190708.png
 security:
@@ -230,9 +235,9 @@ tags:
 - DEX
 - Aggregator
 - Swap
-- Multi-Chain
+- Multi-chain
 - Limit Orders
 - Fusion
-- Cross-Chain
+- Cross-chain
 website: https://business.1inch.com/
 ---

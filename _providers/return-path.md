@@ -34,18 +34,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 11
 apis:
-- description: 'The Everest API by Validity — the Return Path platform''s surviving programmable surface. Two live major versions behind one host: /api/2.0 is current and covers inbox placement testing and seed lists,'
-  name: Everest API
-  slug: everest-api
-artifact_total: 8
+- description: The Account Services API from Return Path — 13 operation(s) for account services.
+  name: Return Path Account Services API
+  slug: return-path-account-services-api
+- description: The Apps & Integrations API from Return Path — 12 operation(s) for apps & integrations.
+  name: Return Path Apps & Integrations API
+  slug: return-path-apps-integrations-api
+- description: The Certification API from Return Path — 2 operation(s) for certification.
+  name: Return Path Certification API
+  slug: return-path-certification-api
+- description: The Competitive Intel API from Return Path — 7 operation(s) for competitive intel.
+  name: Return Path Competitive Intel API
+  slug: return-path-competitive-intel-api
+- description: The Engagement API from Return Path — 35 operation(s) for engagement.
+  name: Return Path Engagement API
+  slug: return-path-engagement-api
+- description: The Inbox Placement API from Return Path — 17 operation(s) for inbox placement.
+  name: Return Path Inbox Placement API
+  slug: return-path-inbox-placement-api
+- description: The Infrastructure (DMARC) API from Return Path — 10 operation(s) for infrastructure (dmarc).
+  name: Return Path Infrastructure (DMARC) API
+  slug: return-path-infrastructure-dmarc-api
+- description: The Legacy API (1.0) API from Return Path — 6 operation(s) for legacy api (1.0).
+  name: Return Path Legacy API (1.0) API
+  slug: return-path-legacy-api-1-0-api
+- description: The List Validation API from Return Path — 6 operation(s) for list validation.
+  name: Return Path List Validation API
+  slug: return-path-list-validation-api
+- description: The Reputation API from Return Path — 18 operation(s) for reputation.
+  name: Return Path Reputation API
+  slug: return-path-reputation-api
+- description: The View Time Optimization API from Return Path — 4 operation(s) for view time optimization.
+  name: Return Path View Time Optimization API
+  slug: return-path-view-time-optimization-api
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Return Path Webhooks
   slug: return-path-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/return-path-everest-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -187,13 +221,13 @@ modified: '2026-08-13'
 name: Return Path
 nav: Providers
 network: true
-overview: 'Return Path publishes 1 API on the [APIs.io](https://apis.io/) network: Everest API. Tagged areas include Company, MarTech, Email, Email Deliverability, and Email Marketing.
+overview: 'Return Path publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account Services API, Apps & Integrations API, Certification API, and 8 more. Tagged areas include Company, Martech, Email, Email Deliverability, and Email Marketing.
 
 
   The Return Path catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Return Path''s developer surface includes engineering blog, support, documentation, API reference, authentication, and 28 more developer resources.'
+  Return Path''s developer surface includes engineering blog, support, documentation, API reference, authentication, and 29 more developer resources.'
 plans:
 - name: Return Path Plans Pricing
   plan_count: 0
@@ -205,18 +239,23 @@ rate_limits:
   slug: return-path-rate-limits
 score:
   band: developing
-  composite: 41.4
+  composite: 40.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
-    contract_quality: 25.4
+    contract_governance: 4.5
+    contract_quality: 25.9
     developer_ergonomics: 51.8
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 41.4
+  previous_composite: 40.7
   provenance:
     conformance: derived
     contracts:
@@ -226,8 +265,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/return-path/refs/heads/main/screenshots/return-path-2026-08-17T081538.png
 security:
@@ -250,7 +289,7 @@ security:
 slug: return-path
 tags:
 - Company
-- MarTech
+- Martech
 - Email
 - Email Deliverability
 - Email Marketing

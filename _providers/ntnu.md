@@ -4,22 +4,22 @@ access_model:
   label: Free
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
   - plans
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: true
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
@@ -29,252 +29,96 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.7
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 249
-  human_in_the_loop: 7
-  name: Ntnu Agentic Access
-  operation_count: 525
-  slug: ntnu-agentic-access
-  summary_line: 525 operations · 249 acting · 7 human-in-the-loop
-api_count: 39
+  score: 5.0
+  scored_at: '2026-08-30'
+api_count: 7
 apis:
-- description: Cristin is the Norwegian national Current Research Information System. NTNU's research output, persons, projects and institution records are exposed through the public Cristin v2 REST API; NTNU is Cri
-  name: Cristin Research Information API
+- description: 'NTNU runs its own Open Journal Systems installation, "NTNU Open Access Journals", on its own registrable domain at www.ntnu.no/ojs, publishing sixteen journals including Nordic Journal of Science and '
+  name: NTNU Open Access Journals OAI-PMH
+  slug: ojs-oai
+- description: api.ntnu.no is an NTNU-operated API gateway serving internal and partner integrations. It is live and institution-run — responses carry NTNU's own X-TIA-Processed-by frontend-auth header — but every r
+  name: NTNU API Gateway (api.ntnu.no)
+  slug: api-ntnu
+- description: Cristin is Norway's national Current Research Information System, operated by Sikt (the Norwegian Agency for Shared Services in Education and Research) on behalf of every participating institution. NT
+  name: Cristin Research Information API (NTNU institution 194)
   slug: cristin
-- description: The National Research Archive (Nasjonalt vitenarkiv, NVA) is the Sikt operated open research archive that now hosts NTNU's institutional repository content (the former NTNU Open / ntnuopen.ntnu.no, wh
-  name: NVA Nasjonalt Vitenarkiv API
+- description: 'Nasjonalt vitenarkiv (NVA) is the Sikt-operated national open research archive that absorbed NTNU''s institutional repository — ntnuopen.ntnu.no now redirects to nva.sikt.no. NTNU deposits into it and '
+  name: NVA National Research Archive (NTNU Open successor)
   slug: nva
-- description: TP (Timeplan) is the timetable, room-booking and course-activity system used by NTNU and hosted at tp.educloud.no/ntnu. It provides a versioned web-service interface under the /ntnu/ws/ path for cours
-  name: TP Timetable Web Service
+- description: NTNU's research data is deposited into the "NTNU – Norwegian University of Science and Technology" collection (alias "ntnu") of DataverseNO, the Norwegian national research-data repository operated by
+  name: DataverseNO — NTNU Research Data Collection
+  slug: dataverseno
+- description: 'TP (Timeplan) is the timetable, room-booking and course-activity system NTNU uses, hosted on the shared educloud.no platform at tp.educloud.no/ntnu. The /ntnu/ws/ web-service path is live and returns '
+  name: TP Timetable Web Service (NTNU instance)
   slug: tp
-- description: NTNU authenticates users through Feide, the national identity federation operated by Sikt, with Dataporten providing OAuth2 / OpenID Connect and SAML based single sign-on and identity APIs. Service pr
-  name: Feide / Dataporten Identity (OpenID Connect / SAML)
+- description: 'NTNU authenticates through Feide, the Norwegian national identity federation operated by Sikt, with Dataporten providing OAuth2 / OpenID Connect and SAML single sign-on. NTNU does not publish its own '
+  name: Feide / Dataporten Identity Federation (NTNU membership)
   slug: feide
-- description: The Access API from Norwegian University of Science and Technology — 23 operation(s) for access.
-  name: Norwegian University of Science and Technology Access API
-  slug: ntnu-access-api
-- description: Uploads a set of files to a dataset
-  name: Norwegian University of Science and Technology addFilesToDataset API
-  slug: ntnu-addfilestodataset-api
-- description: Uploads a file for a dataset
-  name: Norwegian University of Science and Technology addFileToDataset API
-  slug: ntnu-addfiletodataset-api
-- description: Uploads a Globus file for a dataset
-  name: Norwegian University of Science and Technology addGlobusFilesToDataset API
-  slug: ntnu-addglobusfilestodataset-api
-- description: The Admin API from Norwegian University of Science and Technology — 130 operation(s) for admin.
-  name: Norwegian University of Science and Technology Admin API
-  slug: ntnu-admin-api
-- description: The Batch API from Norwegian University of Science and Technology — 3 operation(s) for batch.
-  name: Norwegian University of Science and Technology Batch API
-  slug: ntnu-batch-api
-- description: The Builtin Users API from Norwegian University of Science and Technology — 4 operation(s) for builtin users.
-  name: Norwegian University of Science and Technology Builtin Users API
-  slug: ntnu-builtin-users-api
-- description: The Datasetfields API from Norwegian University of Science and Technology — 1 operation(s) for datasetfields.
-  name: Norwegian University of Science and Technology Datasetfields API
-  slug: ntnu-datasetfields-api
-- description: The Datasets API from Norwegian University of Science and Technology — 87 operation(s) for datasets.
-  name: Norwegian University of Science and Technology Datasets API
-  slug: ntnu-datasets-api
-- description: The Datatags API from Norwegian University of Science and Technology — 1 operation(s) for datatags.
-  name: Norwegian University of Science and Technology Datatags API
-  slug: ntnu-datatags-api
-- description: The DataverseFeaturedItems API from Norwegian University of Science and Technology — 1 operation(s) for dataversefeatureditems.
-  name: Norwegian University of Science and Technology DataverseFeaturedItems API
-  slug: ntnu-dataversefeatureditems-api
-- description: The Dataverses API from Norwegian University of Science and Technology — 39 operation(s) for dataverses.
-  name: Norwegian University of Science and Technology Dataverses API
-  slug: ntnu-dataverses-api
-- description: The Edit API from Norwegian University of Science and Technology — 1 operation(s) for edit.
-  name: Norwegian University of Science and Technology Edit API
-  slug: ntnu-edit-api
-- description: The ExternalTools API from Norwegian University of Science and Technology — 2 operation(s) for externaltools.
-  name: Norwegian University of Science and Technology ExternalTools API
-  slug: ntnu-externaltools-api
-- description: The Files API from Norwegian University of Science and Technology — 20 operation(s) for files.
-  name: Norwegian University of Science and Technology Files API
-  slug: ntnu-files-api
-- description: The Harvest API from Norwegian University of Science and Technology — 7 operation(s) for harvest.
-  name: Norwegian University of Science and Technology Harvest API
-  slug: ntnu-harvest-api
-- description: The Inbox API from Norwegian University of Science and Technology — 1 operation(s) for inbox.
-  name: Norwegian University of Science and Technology Inbox API
-  slug: ntnu-inbox-api
-- description: The Info API from Norwegian University of Science and Technology — 48 operation(s) for info.
-  name: Norwegian University of Science and Technology Info API
-  slug: ntnu-info-api
-- description: The Ingest API from Norwegian University of Science and Technology — 1 operation(s) for ingest.
-  name: Norwegian University of Science and Technology Ingest API
-  slug: ntnu-ingest-api
-- description: The Licenses API from Norwegian University of Science and Technology — 6 operation(s) for licenses.
-  name: Norwegian University of Science and Technology Licenses API
-  slug: ntnu-licenses-api
-- description: The Logout API from Norwegian University of Science and Technology — 1 operation(s) for logout.
-  name: Norwegian University of Science and Technology Logout API
-  slug: ntnu-logout-api
-- description: The Mail API from Norwegian University of Science and Technology — 1 operation(s) for mail.
-  name: Norwegian University of Science and Technology Mail API
-  slug: ntnu-mail-api
-- description: The Meta API from Norwegian University of Science and Technology — 2 operation(s) for meta.
-  name: Norwegian University of Science and Technology Meta API
-  slug: ntnu-meta-api
-- description: The Metadatablocks API from Norwegian University of Science and Technology — 2 operation(s) for metadatablocks.
-  name: Norwegian University of Science and Technology Metadatablocks API
-  slug: ntnu-metadatablocks-api
-- description: The Mydata API from Norwegian University of Science and Technology — 1 operation(s) for mydata.
-  name: Norwegian University of Science and Technology Mydata API
-  slug: ntnu-mydata-api
-- description: The Notifications API from Norwegian University of Science and Technology — 6 operation(s) for notifications.
-  name: Norwegian University of Science and Technology Notifications API
-  slug: ntnu-notifications-api
-- description: The Pids API from Norwegian University of Science and Technology — 6 operation(s) for pids.
-  name: Norwegian University of Science and Technology Pids API
-  slug: ntnu-pids-api
-- description: Replace a file to a dataset
-  name: Norwegian University of Science and Technology replaceFilesInDataset API
-  slug: ntnu-replacefilesindataset-api
-- description: The Roles API from Norwegian University of Science and Technology — 2 operation(s) for roles.
-  name: Norwegian University of Science and Technology Roles API
-  slug: ntnu-roles-api
-- description: Save Auxiliary File With Version
-  name: Norwegian University of Science and Technology saveAuxiliaryFileWithVersion API
-  slug: ntnu-saveauxiliaryfilewithversion-api
-- description: The Search API from Norwegian University of Science and Technology — 1 operation(s) for search.
-  name: Norwegian University of Science and Technology Search API
-  slug: ntnu-search-api
-- description: The Sendfeedback API from Norwegian University of Science and Technology — 1 operation(s) for sendfeedback.
-  name: Norwegian University of Science and Technology Sendfeedback API
-  slug: ntnu-sendfeedback-api
-- description: Uploads a logo for a dataset
-  name: Norwegian University of Science and Technology uploadDatasetLogo API
-  slug: ntnu-uploaddatasetlogo-api
-- description: The Users API from Norwegian University of Science and Technology — 10 operation(s) for users.
-  name: Norwegian University of Science and Technology Users API
-  slug: ntnu-users-api
-- description: The Workflows API from Norwegian University of Science and Technology — 1 operation(s) for workflows.
-  name: Norwegian University of Science and Technology Workflows API
-  slug: ntnu-workflows-api
-artifact_total: 93
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Dataverse Access API
-  slug: open-ntnu-access-api
-- collection_type: open
-  name: Dataverse Access addFilesToDataset API
-  slug: open-ntnu-addfilestodataset-api
-- collection_type: open
-  name: Dataverse Access addFileToDataset API
-  slug: open-ntnu-addfiletodataset-api
-- collection_type: open
-  name: Dataverse Access addGlobusFilesToDataset API
-  slug: open-ntnu-addglobusfilestodataset-api
-- collection_type: open
-  name: Dataverse Access Admin API
-  slug: open-ntnu-admin-api
-- collection_type: open
-  name: Dataverse Access Batch API
-  slug: open-ntnu-batch-api
-- collection_type: open
-  name: Dataverse Access Builtin Users API
-  slug: open-ntnu-builtin-users-api
-- collection_type: open
-  name: Dataverse Access Datasetfields API
-  slug: open-ntnu-datasetfields-api
-- collection_type: open
-  name: Dataverse Access Datasets API
-  slug: open-ntnu-datasets-api
-- collection_type: open
-  name: Dataverse Access Datatags API
-  slug: open-ntnu-datatags-api
-- collection_type: open
-  name: Dataverse Access DataverseFeaturedItems API
-  slug: open-ntnu-dataversefeatureditems-api
-- collection_type: open
-  name: Dataverse Access Dataverses API
-  slug: open-ntnu-dataverses-api
-- collection_type: open
-  name: Dataverse Access Edit API
-  slug: open-ntnu-edit-api
-- collection_type: open
-  name: Dataverse Access ExternalTools API
-  slug: open-ntnu-externaltools-api
-- collection_type: open
-  name: Dataverse Access Files API
-  slug: open-ntnu-files-api
-- collection_type: open
-  name: Dataverse Access Harvest API
-  slug: open-ntnu-harvest-api
-- collection_type: open
-  name: Dataverse Access Inbox API
-  slug: open-ntnu-inbox-api
-- collection_type: open
-  name: Dataverse Access Info API
-  slug: open-ntnu-info-api
-- collection_type: open
-  name: Dataverse Access Ingest API
-  slug: open-ntnu-ingest-api
-- collection_type: open
-  name: Dataverse Access Licenses API
-  slug: open-ntnu-licenses-api
-- collection_type: open
-  name: Dataverse Access Logout API
-  slug: open-ntnu-logout-api
-- collection_type: open
-  name: Dataverse Access Mail API
-  slug: open-ntnu-mail-api
-- collection_type: open
-  name: Dataverse Access Meta API
-  slug: open-ntnu-meta-api
-- collection_type: open
-  name: Dataverse Access Metadatablocks API
-  slug: open-ntnu-metadatablocks-api
-- collection_type: open
-  name: Dataverse Access Mydata API
-  slug: open-ntnu-mydata-api
-- collection_type: open
-  name: Dataverse Access Notifications API
-  slug: open-ntnu-notifications-api
-- collection_type: open
-  name: Dataverse Access Pids API
-  slug: open-ntnu-pids-api
-- collection_type: open
-  name: Dataverse Access replaceFilesInDataset API
-  slug: open-ntnu-replacefilesindataset-api
-- collection_type: open
-  name: Dataverse Access Roles API
-  slug: open-ntnu-roles-api
-- collection_type: open
-  name: Dataverse Access saveAuxiliaryFileWithVersion API
-  slug: open-ntnu-saveauxiliaryfilewithversion-api
-- collection_type: open
-  name: Dataverse Access Search API
-  slug: open-ntnu-search-api
-- collection_type: open
-  name: Dataverse Access Sendfeedback API
-  slug: open-ntnu-sendfeedback-api
-- collection_type: open
-  name: Dataverse Access uploadDatasetLogo API
-  slug: open-ntnu-uploaddatasetlogo-api
-- collection_type: open
-  name: Dataverse Access Users API
-  slug: open-ntnu-users-api
-- collection_type: open
-  name: Dataverse Access Workflows API
-  slug: open-ntnu-workflows-api
+artifact_total: 12
 common:
-- group: agent
+- group: company
   title: ''
-  type: AgenticAccess
-  url: agentic-access/ntnu-agentic-access.yml
+  type: Website
+  url: https://www.ntnu.edu/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/EECS-NTNU
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/ntnu/
+- group: company
+  title: ''
+  type: Blog
+  url: https://nyheter.ntnu.no/en/feed/
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://docs.feide.no/
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: https://www.ntnu.no/.well-known/security.txt
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://metadata.feide.no/feide-edugain-metadata.xml
+- group: other
+  title: ''
+  type: OpenData
+  url: https://data.ntnu.no/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://dataverse.no/dataverse/ntnu
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://nva.sikt.no/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://www.ntnu.no/studier/emner
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://www.hpc.ntnu.no/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://i.ntnu.no/wiki/-/wiki/English/Use+of+ICT+tools+with+generative+artificial+intelligence+at+NTNU+-+policy
+- group: build
+  title: ''
+  type: AITooling
+  url: https://i.ntnu.no/en/ki-for-ansatte
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ntnu-conformance.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -283,26 +127,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/ntnu-domain-security.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://www.ntnu.edu/
-- group: build
-  title: ''
-  type: GitHub
-  url: https://github.com/EECS-NTNU
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/ntnu/
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://docs.feide.no/
-- group: auth
-  title: ''
-  type: Authentication
-  url: https://docs.feide.no/
 - group: commercial
   title: ''
   type: Plans
@@ -319,64 +143,53 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: company
-  title: ''
-  type: Blog
-  url: https://nyheter.ntnu.no/en/feed/
+coverage:
+  checked: '2026-08-30'
+  detail: 'NTNU publishes no API contract of its own — no OpenAPI, AsyncAPI, GraphQL schema, llms.txt or developer portal exists on any NTNU host (www.ntnu.no/llms.txt 404, developer.ntnu.no does not resolve). It does operate a real API gateway at api.ntnu.no, but every path on it, including /docs, /openapi.json and /status, redirects to Feide OAuth and serves the same account-chooser page, so no contract, scope list or reference could be read without an institutional account. The one institution-operated surface that is openly callable is the OAI-PMH interface of NTNU Open Access Journals at www.ntnu.no/ojs, which was fully probed and is recorded as an API. All remaining programmable footprint is tenant: DataverseNO (UiT), Cristin and NVA (Sikt), TP (educloud.no) and Feide (Sikt). This profile is thin because NTNU''s own API surface is behind a national identity federation, not because it was unreachable.'
+  evidence:
+  - status: 200
+    url: https://www.ntnu.no/ojs/index.php/index/oai?verb=Identify
+  - status: 200
+    url: https://www.ntnu.no/ojs/index.php/index/oai?verb=ListMetadataFormats
+  - status: 200
+    url: https://www.ntnu.no/ojs/index.php/index/oai?verb=ListSets
+  - status: 200
+    url: https://api.ntnu.no/
+  - status: 200
+    url: https://api.ntnu.no/openapi.json
+  - status: 200
+    url: https://www.ntnu.no/.well-known/security.txt
+  - status: 404
+    url: https://www.ntnu.no/llms.txt
+  - status: 0
+    url: https://developer.ntnu.no/
+  - status: 200
+    url: https://dataverse.no/api/dataverses/ntnu
+  - status: 200
+    url: https://api.cristin.no/v2/institutions/194
+  - status: 403
+    url: https://api.nva.unit.no/
+  - status: 403
+    url: https://tp.educloud.no/ntnu/ws/
+  reason: auth_required
+  state: gated
 created: '2026-06-03'
-description: 'The Norwegian University of Science and Technology (NTNU) is Norway''s largest university, headquartered in Trondheim with campuses in Gjoverik and Alesund, and ranked #264 in the QS World University Rankings 2025. NTNU does not operate a single consolidated institutional developer portal; instead its public, machine-readable footprint is delivered largely through national shared research and education infrastructure operated by Sikt (the Norwegian Agency for Shared Services in Education and Research). Confirmed public, programmatic access exists via the Cristin research information REST API (NTNU is Cristin institution 194), the NVA (Nasjonalt vitenarkiv) API that now hosts the migrated NTNU Open institutional repository, the DataverseNO research-data repository API, the TP timetable web service, and Feide/Dataporten identity (OpenID Connect / OAuth2 / SAML). Several NTNU lab and student GitHub organizations exist, but there is no single official institutional GitHub org.'
-examples:
-- key_count: 2
-  name: Ntnu Get Dataset Example
-  slug: ntnu-get-dataset-example
-- key_count: 2
-  name: Ntnu Get Dataverse Example
-  slug: ntnu-get-dataverse-example
-- key_count: 2
-  name: Ntnu Search Example
-  slug: ntnu-search-example
+description: 'The Norwegian University of Science and Technology (NTNU) is Norway''s largest university, headquartered in Trondheim with campuses in Gjovik and Alesund. NTNU operates no consolidated institutional developer portal and publishes no OpenAPI, AsyncAPI or other machine-readable API contract of its own. Its one openly callable, institution-operated surface is the OAI-PMH interface of NTNU Open Access Journals at www.ntnu.no/ojs, which answers Identify, ListMetadataFormats and ListSets over sixteen NTNU-published journals. NTNU also runs an institutional API gateway at api.ntnu.no, but every path on it is behind Feide OAuth and no public documentation, contract or scope list is served without an institutional account. Everything else that looks programmable under NTNU''s name is operated by somebody else and entered here as a tenant relationship, not as NTNU engineering: research data in the NTNU collection of DataverseNO (run by UiT The Arctic University of Norway on Dataverse
+  software), research information in Cristin and the national research archive NVA (both run by Sikt), timetables in TP on educloud.no, identity in the Feide federation where NTNU exists as the scope ntnu.no on Sikt''s national IdP rather than as its own eduGAIN entity, and teaching in a hosted Canvas tenant. This repo previously carried 35 OpenAPI files and 87 derived artifacts that were splits of the generic Dataverse 6.6 product contract; they were the vendor''s, not NTNU''s, and have been removed.'
 finops:
 - name: Ntnu Finops
   service_category: Education
   slug: ntnu-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ntnu.png
-json_schemas:
-- name: DataFile
-  property_count: 14
-  slug: ntnu-datafile
-- name: Dataset
-  property_count: 16
-  slug: ntnu-dataset
-- name: Dataverse
-  property_count: 12
-  slug: ntnu-dataverse
-json_structures:
-- name: Ntnu Datafile Structure
-  property_count: 14
-  slug: ntnu-datafile-structure
-- name: Ntnu Dataset Structure
-  property_count: 15
-  slug: ntnu-dataset-structure
-- name: Ntnu Dataverse Structure
-  property_count: 12
-  slug: ntnu-dataverse-structure
-jsonld:
-- class_count: 22
-  name: Ntnu Context
-  property_count: 4
-  slug: ntnu-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Norwegian University of Science and Technology
 nav: Providers
 network: true
-overview: 'Norwegian University of Science and Technology publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Access API, addFilesToDataset API, addFileToDataset API, and 32 more. Tagged areas include Education, Higher Education, University, Research, and Open Data.
+overview: 'Norwegian University of Science and Technology publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Research Data.
 
 
-  The Norwegian University of Science and Technology catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  Norwegian University of Science and Technology''s developer surface includes GitHub presence, authentication, engineering blog, and 10 more developer resources.'
+  Norwegian University of Science and Technology''s developer surface includes engineering blog, authentication, and 19 more developer resources.'
 plans:
 - name: Ntnu Plans Pricing
   plan_count: 2
@@ -386,41 +199,25 @@ rate_limits:
 - limit_count: 1
   name: Ntnu Rate Limits
   slug: ntnu-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: Norwegian University of Science and Technology API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 3
-  slug: ntnu-jsonschema-spectral-rules
-- effective_rule_count: 6
-  extends: []
-  name: Norwegian University of Science and Technology API Rules
-  rule_count: 6
-  severity_counts:
-    error: 1
-    hint: 0
-    info: 1
-    warn: 4
-  slug: ntnu-rules
 score:
   band: thin
-  composite: 38.3
-  delta: 1.9
+  composite: 31.1
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -7.2
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 52.5
-    developer_ergonomics: 33.3
-    discoverability: 59.3
-    governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 36.4
+    contract_governance: 18.2
+    contract_quality: 9.3
+    developer_ergonomics: 23.8
+    discoverability: 85.2
+    governance: 18.2
+    operational_transparency: 23.7
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -433,10 +230,10 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 42.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 57.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntnu/refs/heads/main/screenshots/ntnu-2026-06-20T190500.png
 security:
 - kind: domain-security
@@ -453,7 +250,11 @@ tags:
 - Higher Education
 - University
 - Research
+- Research Data
+- Open Access
 - Open Data
+- Identity
+- Course Catalog
 - Norway
 - Scandinavia
 website: https://www.ntnu.edu/

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: quartzy-agentic-access
   summary_line: 17 operations · 6 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Lab inventory items and their physical instances.
   name: Quartzy Inventory Items API
@@ -89,6 +89,10 @@ collections:
   name: Quartzy Public API
   slug: open-quartzy
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/quartzy-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -156,7 +160,7 @@ network: true
 overview: 'Quartzy publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Inventory Items API, Labs API, Order Requests API, and 3 more. Tagged areas include Lab Management, Inventory Management, Life Sciences, Procurement, and Ordering.
 
 
-  Quartzy''s developer surface includes authentication, documentation, support, and 10 more developer resources.'
+  Quartzy''s developer surface includes authentication, documentation, support, and 11 more developer resources.'
 plans:
 - name: Quartzy Plans Pricing
   plan_count: 3
@@ -173,18 +177,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.6
-  delta: 2.3
+  composite: 44.1
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 54.0
     developer_ergonomics: 38.1
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 42.3
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -198,8 +207,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

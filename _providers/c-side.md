@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -175,7 +175,12 @@ overview: 'c/side is profiled on the [APIs.io](https://apis.io/) network. Tagged
 random_paper: 19
 score:
   band: developing
-  composite: 45.6
+  composite: 44.5
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -183,21 +188,29 @@ score:
     contract_governance: 18.2
     contract_quality: 42.7
     developer_ergonomics: 52.4
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 45.6
+  previous_composite: 44.5
   provenance:
     conformance: first-party
     mcp: first-party
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa-cpra
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/screenshots/c-side-2026-07-25T204147.png
 security:

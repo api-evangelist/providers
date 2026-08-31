@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -237,6 +237,26 @@ collections:
   name: Oracle Integration Developer Adapters Trading Partners API
   slug: open-oracle-integration-trading-partners-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/oracle/oci-cli/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/oracle/oci-cli/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/oracle/oci-cli/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/oracle/oci-cli/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/oracle/oci-cli/blob/master/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -535,7 +555,7 @@ overview: 'Oracle Integration publishes 23 APIs on the [APIs.io](https://apis.io
   The Oracle Integration catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Oracle Integration''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, changelog, support, and 32 more developer resources.'
+  Oracle Integration''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, changelog, support, and 37 more developer resources.'
 plans:
 - name: Oracle Integration Plans Pricing
   plan_count: 4
@@ -574,18 +594,26 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 48.4
-  delta: 1.4
+  composite: 53.2
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 28.8
-    contract_quality: 31.6
+    contract_quality: 31.9
     developer_ergonomics: 76.2
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 28.8
-    operational_transparency: 42.1
-  previous_composite: 47.0
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     contracts:
@@ -593,8 +621,8 @@ score:
       derived: 23
       marker_coverage: 100.0
       total: 23
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-integration/refs/heads/main/screenshots/oracle-integration-2026-08-07T190823.png
 security:

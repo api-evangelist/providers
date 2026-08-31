@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 3
@@ -34,10 +34,37 @@ agentic_access:
   summary_line: 33 operations · 9 acting · 3 human-in-the-loop
 api_count: 1
 apis:
-- description: The Monid HTTP API lets developers and AI agents discover data endpoints with natural language, inspect their details, run them, and manage runs, wallet balance, spend controls (budgets and run-caps),
-  name: Monid API
-  slug: monid-api
-artifact_total: 7
+- description: The API Keys API from Monid — 2 operation(s) for api keys.
+  name: Monid API Keys API
+  slug: monid-api-keys-api
+- description: The Auth API from Monid — 2 operation(s) for auth.
+  name: Monid Auth API
+  slug: monid-auth-api
+- description: The Controls API from Monid — 6 operation(s) for controls.
+  name: Monid Controls API
+  slug: monid-controls-api
+- description: The Discover API from Monid — 1 operation(s) for discover.
+  name: Monid Discover API
+  slug: monid-discover-api
+- description: The Endpoints API from Monid — 1 operation(s) for endpoints.
+  name: Monid Endpoints API
+  slug: monid-endpoints-api
+- description: The Inspect API from Monid — 1 operation(s) for inspect.
+  name: Monid Inspect API
+  slug: monid-inspect-api
+- description: The Public Registry API from Monid — 5 operation(s) for public registry.
+  name: Monid Public Registry API
+  slug: monid-public-registry-api
+- description: The Resources API from Monid — 5 operation(s) for resources.
+  name: Monid Resources API
+  slug: monid-resources-api
+- description: The Runs API from Monid — 5 operation(s) for runs.
+  name: Monid Runs API
+  slug: monid-runs-api
+- description: The Wallet API from Monid — 2 operation(s) for wallet.
+  name: Monid Wallet API
+  slug: monid-wallet-api
+artifact_total: 16
 collections:
 - collection_type: open
   name: Monid API
@@ -154,7 +181,7 @@ modified: 2026-07-23
 name: Monid
 nav: Providers
 network: true
-overview: 'Monid publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agents, MCP, Tools, and Data.
+overview: 'Monid publishes 10 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Auth API, Controls API, and 7 more. Tagged areas include Company, Agents, MCP, Tools, and Data.
 
 
   Monid''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, engineering blog, signup flow, and 18 more developer resources.'
@@ -166,18 +193,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 36.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 30.3
-    contract_quality: 53.7
+    contract_governance: 18.2
+    contract_quality: 52.7
     developer_ergonomics: 66.7
-    discoverability: 83.3
-    governance: 30.3
+    discoverability: 72.2
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 39.1
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -188,8 +220,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monid/refs/heads/main/screenshots/monid-2026-08-07T184201.png
 security:

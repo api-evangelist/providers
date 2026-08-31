@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 88
   slug: avalanche-agentic-access
   summary_line: 88 operations · 11 acting
-api_count: 24
+api_count: 1
 apis:
 - description: Access chain throughput metrics, gas consumption, TPS, gas prices, cumulative address growth, contract deployment counts, staking metrics, validator and delegator information, and rolling-window analy
   name: Avalanche Metrics API
@@ -116,7 +116,10 @@ apis:
 - description: Manage webhooks and get notified for various onchain activities.
   name: Avalanche Webhooks API
   slug: avalanche-webhooks-api
-artifact_total: 328
+- description: The Data API API from Avalanche — 0 operation(s) for data api.
+  name: Avalanche Data API
+  slug: avalanche-data-api-api
+artifact_total: 329
 collections:
 - collection_type: open
   name: API Collection
@@ -1092,7 +1095,7 @@ modified: '2026-06-13'
 name: Avalanche
 nav: Providers
 network: true
-overview: 'Avalanche publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, AVAX Supply API, Data API Usage Metrics API, and 19 more. Tagged areas include Blockchain, Web3, Avalanche, NFT, and DeFi.
+overview: 'Avalanche publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, AVAX Supply API, Data API Usage Metrics API, and 20 more. Tagged areas include Blockchain, Web3, Avalanche, NFT, and DeFi.
 
 
   The Avalanche catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -1121,18 +1124,23 @@ rules:
   slug: avalanche-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 47.5
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 9.8
-    contract_quality: 71.0
+    contract_quality: 70.2
     developer_ergonomics: 42.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 48.2
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1140,8 +1148,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avalanche/refs/heads/main/screenshots/avalanche-2026-06-20T172715.png
 security:

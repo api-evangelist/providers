@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: bjs-wholesale-club-agentic-access
   summary_line: 7 operations · 2 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The Clubs API from BJ's Wholesale Club — 1 operation(s) for clubs.
   name: BJ's Wholesale Club Clubs API
@@ -80,6 +80,10 @@ collections:
   name: BJ's Wholesale Club Partner Clubs Products API
   slug: open-bjs-wholesale-club-products-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bjs-wholesale-club-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -193,7 +197,7 @@ overview: 'BJ''s Wholesale Club publishes 5 APIs on the [APIs.io](https://apis.i
   The BJ''s Wholesale Club catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  BJ''s Wholesale Club''s developer surface includes authentication, signup flow, support, and 7 more developer resources.'
+  BJ''s Wholesale Club''s developer surface includes authentication, signup flow, support, and 8 more developer resources.'
 plans:
 - name: Bjs Wholesale Club Plans Pricing
   plan_count: 3
@@ -237,18 +241,23 @@ rules:
   slug: bjs-wholesale-club-spectral-rules
 score:
   band: developing
-  composite: 47.8
-  delta: 2.8
+  composite: 47.2
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 38.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 69.7
     contract_quality: 70.3
     developer_ergonomics: 26.2
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 69.7
     operational_transparency: 7.9
-  previous_composite: 45.0
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     contracts:
@@ -256,8 +265,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

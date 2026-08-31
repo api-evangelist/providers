@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 6
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 105
   slug: opsgenie-agentic-access
   summary_line: 105 operations · 61 acting · 6 human-in-the-loop
-api_count: 15
+api_count: 12
 apis:
 - description: Operations for retrieving account information and configuration.
   name: OpsGenie Account API
@@ -678,6 +678,11 @@ rules:
 score:
   band: developing
   composite: 50.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -696,8 +701,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/screenshots/opsgenie-2026-06-20T191103.png
 security:

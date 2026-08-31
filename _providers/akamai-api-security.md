@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 103
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 213
   slug: akamai-api-security-agentic-access
   summary_line: 213 operations · 103 acting
-api_count: 65
+api_count: 1
 apis:
 - description: Akamai provides a comprehensive set of REST APIs for managing and configuring their platform services, including API security, CDN, edge computing, and security products. The APIs use the Akamai EdgeG
   name: Akamai APIs
@@ -439,6 +439,10 @@ collections:
   name: 'Akamai: Application Security API'
   slug: open-akamai-api-security
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/akamai-api-security-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1188,7 +1192,7 @@ overview: 'Akamai API Security publishes 64 APIs on the [APIs.io](https://apis.i
   The Akamai API Security catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Akamai API Security''s developer surface includes documentation, engineering blog, pricing, support, signup flow, and 10 more developer resources.'
+  Akamai API Security''s developer surface includes documentation, engineering blog, pricing, support, signup flow, and 11 more developer resources.'
 plans:
 - name: Akamai Api Security Plans Pricing
   plan_count: 3
@@ -1221,19 +1225,24 @@ rules:
     warn: 15
   slug: akamai-api-security-spectral-rules
 score:
-  band: developing
-  composite: 39.4
-  delta: 2.4
+  band: thin
+  composite: 39.2
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 28.8
-    contract_quality: 57.1
+    contract_quality: 58.5
     developer_ergonomics: 28.6
-    discoverability: 59.3
+    discoverability: 53.7
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 37.0
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1241,8 +1250,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 64
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akamai-api-security/refs/heads/main/screenshots/akamai-api-security-2026-06-20T171447.png
 security:

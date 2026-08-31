@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 3
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 90
   slug: connexpay-agentic-access
   summary_line: 90 operations · 73 acting · 3 human-in-the-loop
-api_count: 39
+api_count: 10
 apis:
 - description: The 3ds API from ConnexPay — 2 operation(s) for 3ds.
   name: ConnexPay 3ds API
@@ -278,6 +278,10 @@ collections:
   name: sales-api Void API
   slug: open-connexpay-void-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/connexpay-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -428,22 +432,27 @@ overview: 'ConnexPay publishes 39 APIs on the [APIs.io](https://apis.io/) networ
   The ConnexPay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ConnexPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 26 more developer resources.'
+  ConnexPay''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 27 more developer resources.'
 random_paper: 15
 score:
-  band: strong
-  composite: 54.5
+  band: developing
+  composite: 51.9
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 64.9
     developer_ergonomics: 58.9
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 54.5
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -460,8 +469,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connexpay/refs/heads/main/screenshots/connexpay-2026-08-17T080827.png
 security:

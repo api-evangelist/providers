@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: REST/JSON API embedded in the Red5 Pro media server providing server info/ping/statistics, applications, streams, recorded content (VOD), shared objects, client control, and log access. Base URL is in
@@ -43,11 +43,17 @@ modified: '2026-08-22'
 name: Red5 Live Streaming Solutions and Infrastructure
 nav: Providers
 network: true
-overview: Red5 Live Streaming Solutions and Infrastructure publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include video-streaming, live-streaming, real-time, webrtc, and low-latency.
+overview: Red5 Live Streaming Solutions and Infrastructure publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Video Streaming, Live Streaming, Real-Time, WebRTC, and Low Latency.
 random_paper: 17
 score:
   band: minimal
   composite: 9.1
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -57,23 +63,25 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 9.1
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 slug: red5-live-streaming-solutions-and-infrastructure
 tags:
-- video-streaming
-- live-streaming
-- real-time
-- webrtc
-- low-latency
-- media-server
+- Video Streaming
+- Live Streaming
+- Real-Time
+- WebRTC
+- Low Latency
+- Media Server
 - streaming-paas
-- video-infrastructure
-- cdn
-- broadcasting
+- Video Infrastructure
+- CDN
+- Broadcasting
 - surveillance-public-safety
 - gaming-esports
-- rest-api
+- REST API
 - llms-txt
-- open-source
+- Open-Source
 ---

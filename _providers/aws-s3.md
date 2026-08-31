@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 97
   slug: aws-s3-agentic-access
   summary_line: 97 operations · 54 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: The Amazon Simple Storage Service API from Amazon S3 API — 48 operation(s) for amazon simple storage service.
   name: Amazon S3 API Amazon Simple Storage Service API
@@ -5388,7 +5388,12 @@ rules:
 score:
   band: developing
   composite: 48.7
-  delta: 3.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -5398,7 +5403,7 @@ score:
     discoverability: 50.0
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 44.9
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     contracts:
@@ -5406,8 +5411,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/screenshots/aws-s3-2026-06-20T172817.png
 security:

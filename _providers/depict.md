@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 146
   slug: depict-agentic-access
   summary_line: 146 operations · 79 acting
-api_count: 35
+api_count: 3
 apis:
 - description: The Ab Test API from Depict — 2 operation(s) for ab test.
   name: Depict Ab Test API
@@ -259,6 +259,10 @@ collections:
   name: Depict Lite Ab Test Vitals API
   slug: open-depict-vitals-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/depict-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -398,7 +402,7 @@ network: true
 overview: 'Depict publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Ab Test API, Analytics API, Boost Bury API, and 32 more. Tagged areas include Company, E-Commerce, Merchandising, Product Recommendations, and Search.
 
 
-  Depict''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 24 more developer resources.'
+  Depict''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 25 more developer resources.'
 random_paper: 3
 scopes:
 - name: Depict Scopes
@@ -407,18 +411,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.4
+  composite: 41.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 49.1
     developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 43.4
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -429,8 +438,8 @@ score:
       total: 35
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depict/refs/heads/main/screenshots/depict-2026-07-25T211731.png
 security:

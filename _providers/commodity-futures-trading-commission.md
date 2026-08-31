@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 7
   slug: commodity-futures-trading-commission-agentic-access
   summary_line: 7 operations
-api_count: 7
+api_count: 1
 apis:
 - description: 'The CFTC oversees Swap Data Repositories (SDRs) that collect and maintain swap transaction records as required by the Dodd-Frank Act. SDRs publish certain real-time public data and the CFTC publishes '
   name: CFTC Swap Data Repositories
@@ -52,19 +52,7 @@ apis:
 - description: Commitments of Traders datasets
   name: Commodity Futures Trading Commission COT API
   slug: commodity-futures-trading-commission-cot-api
-- description: Disaggregated COT report format
-  name: Commodity Futures Trading Commission Disaggregated API
-  slug: commodity-futures-trading-commission-disaggregated-api
-- description: Legacy COT report format
-  name: Commodity Futures Trading Commission Legacy API
-  slug: commodity-futures-trading-commission-legacy-api
-- description: Supplemental Commodity Index Trader format
-  name: Commodity Futures Trading Commission Supplemental API
-  slug: commodity-futures-trading-commission-supplemental-api
-- description: Traders in Financial Futures format
-  name: Commodity Futures Trading Commission TFF API
-  slug: commodity-futures-trading-commission-tff-api
-artifact_total: 23
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -153,7 +141,7 @@ modified: '2026-05-19'
 name: Commodity Futures Trading Commission
 nav: Providers
 network: true
-overview: 'Commodity Futures Trading Commission publishes 5 APIs on the [APIs.io](https://apis.io/) network, including COT API, Disaggregated API, Legacy API, and 2 more. Tagged areas include CFTC, Commitments of Traders, Federal-Government, Financial, and Futures.
+overview: 'Commodity Futures Trading Commission publishes 1 API on the [APIs.io](https://apis.io/) network: COT API. Tagged areas include CFTC, Commitments of Traders, Federal-Government, Financial, and Futures.
 
 
   The Commodity Futures Trading Commission catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -193,15 +181,20 @@ rules:
   slug: commodity-futures-trading-commission-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.9
-  delta: 0.0
+  composite: 33.3
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 26.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 69.7
     contract_quality: 55.8
     developer_ergonomics: 16.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 69.7
     operational_transparency: 7.9
   previous_composite: 33.9
@@ -218,8 +211,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/screenshots/commodity-futures-trading-commission-2026-06-20T174817.png
 security:

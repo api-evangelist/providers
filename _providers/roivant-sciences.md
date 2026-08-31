@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: roivant-sciences-agentic-access
   summary_line: 15 operations
-api_count: 16
+api_count: 1
 apis:
 - description: 'Datavant''s privacy-preserving tokenization technology lets organizations link patient records across datasets without exchanging personally identifiable information. It is delivered as a downloadable '
   name: Datavant Tokenization (Datavant Connect)
@@ -294,18 +294,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.4
-  delta: 5.4
+  composite: 48.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 22.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 69.7
     contract_quality: 24.9
     developer_ergonomics: 39.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 69.7
     operational_transparency: 18.4
-  previous_composite: 44.0
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     contracts:
@@ -319,9 +324,9 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/screenshots/roivant-sciences-2026-06-20T193202.png
 security:
 - kind: authentication
@@ -341,7 +346,7 @@ tags:
 - Health Data
 - Tokenization
 - Electronic Health Records
-- Real-World Evidence
+- Real World Evidence
 - Holding Company
 - Healthcare
 website: https://roivant.com

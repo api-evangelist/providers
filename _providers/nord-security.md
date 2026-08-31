@@ -24,24 +24,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-26'
-api_count: 10
+  scored_at: '2026-08-30'
+api_count: 7
 apis:
-- description: Also marketed as the NordStellar Dark Web API. Breach-intelligence data API over malware/infostealer logs, breached databases, credential lists, cookie and password intelligence, and dark web sources,
-  name: NordStellar Enterprise Data API
-  slug: nordstellar-enterprise-data-api
-- description: Evaluates the cybersecurity risk of an external company identified primarily by domain name, returning scored risk assessments for third-party/vendor risk workflows. 14 operations, OpenAPI 3.1, API ke
-  name: NordStellar Company Risk Scoring API
-  slug: nordstellar-company-risk-scoring-api
-- description: 'URL and file scanning API with allow/deny list management and account usage control (AUC). 23 operations, OpenAPI 3.0, bearer-token authentication, with documented X-RateLimit headers and Retry-After '
-  name: NordStellar Cybersec API
-  slug: nordstellar-cybersec-api
-- description: Partner-facing API for managing partner accounts and customer relationships, including creating and managing customer organizations. 5 operations, OpenAPI 3.0.4, API key header auth, RFC 9457 applicat
-  name: NordStellar Partners API
-  slug: nordstellar-partners-api
-- description: Connects NordStellar's monitoring features to external security tools, dashboards and automated workflows — events, alerts and platform data for SIEM/SOAR forwarding. Three published versions (v1/v2/v
-  name: NordStellar Platform Integrations API
-  slug: nordstellar-platform-integrations-api
 - description: Remote MCP server that lets any MCP-compatible assistant query the NordStellar platform in natural language. Clients connect through the open-source nordstellar-mcp auth proxy (PyPI, run via uvx, or a
   name: NordStellar MCP Server
   slug: nordstellar-mcp-server
@@ -57,7 +42,97 @@ apis:
 - description: 'Unauthenticated JSON API that NordVPN''s own clients and the open-source Linux client use to enumerate the server estate — servers, countries, cities, groups and technologies. It is publicly reachable '
   name: NordVPN Public Server API
   slug: nordvpn-public-server-api
-artifact_total: 24
+- description: Endpoints for administering API keys, and web hook settings. These operations enable administrators to list and manage API keys, update webhook configuration.
+  name: Nord Security API User Management API
+  slug: nord-security-api-user-management-api
+- description: The Applications API from Nord Security — 1 operation(s) for applications.
+  name: Nord Security Applications API
+  slug: nord-security-applications-api
+- description: The AUC API from Nord Security — 2 operation(s) for auc.
+  name: Nord Security AUC API
+  slug: nord-security-auc-api
+- description: Endpoints for retrieving detailed metadata about breach origins, including databases. These operations provide comprehensive context about database breach incidents, affected platforms, and exposure s
+  name: Nord Security Breached Databases API
+  slug: nord-security-breached-databases-api
+- description: The Company Details API from Nord Security — 4 operation(s) for company details.
+  name: Nord Security Company Details API
+  slug: nord-security-company-details-api
+- description: Endpoints for comprehensive cookie data monitoring in data breaches, including zero-knowledge search capabilities. These operations enable robust cookie security protection and exposure assessment.
+  name: Nord Security Cookie Intelligence API
+  slug: nord-security-cookie-intelligence-api
+- description: The Cookies API from Nord Security — 1 operation(s) for cookies.
+  name: Nord Security Cookies API
+  slug: nord-security-cookies-api
+- description: 'Endpoints for retrieving detailed metadata about breach origins, including credential lists. These operations provide comprehensive context about credential list breach incidents, affected platforms, '
+  name: Nord Security Credential Lists API
+  slug: nord-security-credential-lists-api
+- description: Endpoints for comprehensive credit card data monitoring in data breaches, including zero-knowledge search capabilities. These operations enable robust credit card security protection and exposure asse
+  name: Nord Security Credit Card Intelligence API
+  slug: nord-security-credit-card-intelligence-api
+- description: The Crypto Addresses API from Nord Security — 1 operation(s) for crypto addresses.
+  name: Nord Security Crypto Addresses API
+  slug: nord-security-crypto-addresses-api
+- description: Endpoints for searching scraped content from the dark web
+  name: Nord Security Dark Web Intelligence API
+  slug: nord-security-dark-web-intelligence-api
+- description: Endpoints for investigating domain exposure in data breaches, including detailed breach information and compromise analysis. These operations support protection against domain hijacking, phishing atta
+  name: Nord Security Domain Intelligence API
+  slug: nord-security-domain-intelligence-api
+- description: Endpoints for comprehensive email address monitoring in data breaches, including detailed breach information, password exposure, and statistical analysis. These operations enable robust email security
+  name: Nord Security Email Intelligence API
+  slug: nord-security-email-intelligence-api
+- description: The Events API from Nord Security — 36 operation(s) for events.
+  name: Nord Security Events API
+  slug: nord-security-events-api
+- description: The Files API from Nord Security — 8 operation(s) for files.
+  name: Nord Security Files API
+  slug: nord-security-files-api
+- description: The Lists API from Nord Security — 3 operation(s) for lists.
+  name: Nord Security Lists API
+  slug: nord-security-lists-api
+- description: Endpoints for retrieving detailed metadata about breach origins, including malware logs. These operations provide comprehensive context about malware logs breach incidents, affected platforms, and exp
+  name: Nord Security Malware Logs Intelligence API
+  slug: nord-security-malware-logs-intelligence-api
+- description: The ML Models API from Nord Security — 2 operation(s) for ml models.
+  name: Nord Security ML Models API
+  slug: nord-security-ml-models-api
+- description: Endpoints for comprehensive national identification number data monitoring in data breaches, including zero-knowledge search capabilities. These operations enable robust national identification number
+  name: Nord Security National Identification Number Intelligence API
+  slug: nord-security-national-identification-number-intelligence-api
+- description: The Partners API from Nord Security — 4 operation(s) for partners.
+  name: Nord Security Partners API
+  slug: nord-security-partners-api
+- description: Endpoints for comprehensive password data monitoring in data breaches, including zero-knowledge search capabilities. These operations enable robust password security protection and exposure assessment
+  name: Nord Security Password Intelligence API
+  slug: nord-security-password-intelligence-api
+- description: Endpoints for investigating phone number exposure in data breaches, including detailed breach information and compromise analysis. These operations support protection against SIM swapping, phone-based
+  name: Nord Security Phone Intelligence API
+  slug: nord-security-phone-intelligence-api
+- description: Endpoints for generating OSINT-based profiling reports on email addresses and phone numbers. Reports aggregate data from external intelligence sources, enrich it with internal breach data, and produce
+  name: Nord Security Profiling API
+  slug: nord-security-profiling-api
+- description: The Projects API from Nord Security — 6 operation(s) for projects.
+  name: Nord Security Projects API
+  slug: nord-security-projects-api
+- description: The Results API from Nord Security — 8 operation(s) for results.
+  name: Nord Security Results API
+  slug: nord-security-results-api
+- description: The Scanning API from Nord Security — 2 operation(s) for scanning.
+  name: Nord Security Scanning API
+  slug: nord-security-scanning-api
+- description: Endpoints for managing user subscriptions to data breach monitoring services. These operations enable administrators to create, update, and delete subscriptions for email addresses, phone numbers, dom
+  name: Nord Security Subscription Management API
+  slug: nord-security-subscription-management-api
+- description: The URL scanner API from Nord Security — 1 operation(s) for url scanner.
+  name: Nord Security URL scanner API
+  slug: nord-security-url-scanner-api
+- description: The Urls API from Nord Security — 4 operation(s) for urls.
+  name: Nord Security URLS API
+  slug: nord-security-urls-api
+- description: Utility endpoints for supporting zero-knowledge functionalities, such as retrieving salts. These operations are essential for the proper functioning of zero-knowledge security features.
+  name: Nord Security Utility Endpoints API
+  slug: nord-security-utility-endpoints-api
+artifact_total: 49
 collections:
 - collection_type: open
   name: Company Risk Scoring API
@@ -81,6 +156,14 @@ collections:
   name: Platform Integration API
   slug: open-nord-security-nordstellar-platform-integration-api-v3
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nord-security-nordstellar-enterprise-data-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nord-security-nordstellar-platform-integration-api-v3-overlay.yaml
 - group: operate
   title: ''
   type: IssueTracker
@@ -292,36 +375,44 @@ modified: '2026-08-01'
 name: Nord Security
 nav: Providers
 network: true
-overview: 'Nord Security publishes 5 APIs on the [APIs.io](https://apis.io/) network, including NordStellar Enterprise Data API, NordStellar Company Risk Scoring API, NordStellar Cybersec API, and 2 more. Tagged areas include Cybersecurity, Threat Intelligence, Dark Web Monitoring, Attack Surface Management, and Breach Intelligence.
+overview: 'Nord Security publishes 30 APIs on the [APIs.io](https://apis.io/) network, including API User Management API, Applications API, AUC API, and 27 more. Tagged areas include Cybersecurity, Threat Intelligence, Dark Web Monitoring, Attack Surface Management, and Breach Intelligence.
 
 
-  Nord Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 42 more developer resources.'
+  Nord Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 44 more developer resources.'
 random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Nord Security Rate Limits
   slug: nord-security-rate-limits
 score:
-  band: developing
-  composite: 51.3
-  delta: 0.6
+  band: strong
+  composite: 54.4
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 5.1
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 16.7
-    contract_quality: 52.9
+    contract_governance: 4.5
+    contract_quality: 57.4
     developer_ergonomics: 71.4
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 50.7
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 49.3
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/nord-security/refs/heads/main/screenshots/nord-security-2026-08-07T185512.png
 security:
 - kind: authentication

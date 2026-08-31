@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -83,6 +83,10 @@ collections:
   name: Vendr Catalog Pricing Webhooks API
   slug: open-blissfully-webhooks-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/vendr/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -214,7 +218,7 @@ overview: 'Blissfully publishes 4 APIs on the [APIs.io](https://apis.io/) networ
   The Blissfully catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Blissfully''s developer surface includes authentication, documentation, signup flow, engineering blog, and 9 more developer resources.'
+  Blissfully''s developer surface includes authentication, documentation, signup flow, engineering blog, and 10 more developer resources.'
 plans:
 - name: Blissfully Plans Pricing
   plan_count: 2
@@ -249,12 +253,17 @@ rules:
 score:
   band: thin
   composite: 28.4
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 13.6
-    contract_quality: 22.1
+    contract_quality: 22.4
     developer_ergonomics: 23.8
     discoverability: 64.8
     governance: 13.6
@@ -267,8 +276,8 @@ score:
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blissfully/refs/heads/main/screenshots/blissfully-2026-06-20T173353.png
 security:

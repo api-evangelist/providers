@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 158
   slug: truepill-agentic-access
   summary_line: 158 operations · 69 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Insurance objects, copay requests, and claim adjudication.
   name: Truepill Insurance API
@@ -99,6 +99,10 @@ collections:
   name: Truepill (FuzeRx) API
   slug: open-truepill
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/truepill-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -237,7 +241,7 @@ overview: 'Truepill publishes 9 APIs on the [APIs.io](https://apis.io/) network,
   The Truepill catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Truepill''s developer surface includes authentication, documentation, API reference, getting-started guide, support, sandbox, and 24 more developer resources.'
+  Truepill''s developer surface includes authentication, documentation, API reference, getting-started guide, support, sandbox, and 25 more developer resources.'
 plans:
 - name: Truepill Plans Pricing
   plan_count: 1
@@ -249,18 +253,23 @@ rate_limits:
   slug: truepill-rate-limits
 score:
   band: strong
-  composite: 62.8
-  delta: 0.9
+  composite: 60.3
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.8
   facets:
-    access_clarity: 57.9
-    commercial_clarity: 57.9
-    contract_governance: 30.3
+    access_clarity: 53.9
+    commercial_clarity: 53.9
+    contract_governance: 18.2
     contract_quality: 60.1
     developer_ergonomics: 68.5
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 61.9
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -276,9 +285,9 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 45.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 41.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truepill/refs/heads/main/screenshots/truepill-2026-08-17T082448.png
 security:

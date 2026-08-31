@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: nabla-agentic-access
   summary_line: 5 operations · 5 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The Nabla Core API transcribes medical encounters, generates structured clinical notes (for example SOAP), extracts FHIR-normalized data with ICD-10 and LOINC coding, produces multilingual patient-fac
   name: Nabla Core API
@@ -74,6 +74,10 @@ collections:
   name: Nabla Core API
   slug: open-nabla
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nabla-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -221,7 +225,7 @@ network: true
 overview: 'Nabla publishes 2 APIs on the [APIs.io](https://apis.io/) network: Authentication API and Transcription API. Tagged areas include Healthcare, Ambient AI, Clinical Documentation, Medical Transcription, and Speech Recognition.
 
 
-  Nabla''s developer surface includes authentication, documentation, getting-started guide, engineering blog, and 16 more developer resources.'
+  Nabla''s developer surface includes authentication, documentation, getting-started guide, engineering blog, and 17 more developer resources.'
 plans:
 - name: Nabla Plans Pricing
   plan_count: 1
@@ -233,15 +237,20 @@ rate_limits:
   slug: nabla-rate-limits
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 43.0
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 49.7
     developer_ergonomics: 40.5
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 43.5
@@ -258,8 +267,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nabla/refs/heads/main/screenshots/nabla-2026-06-20T185922.png
 security:

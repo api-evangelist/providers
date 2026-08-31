@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 109
   slug: cosmos-agentic-access
   summary_line: 109 operations · 6 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The Query API from Cosmos — 89 operation(s) for query.
   name: Cosmos Query API
@@ -413,9 +413,14 @@ rules:
     warn: 3
   slug: cosmos-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 37.0
-  delta: 1.3
+  band: developing
+  composite: 39.3
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 2.3
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -425,7 +430,10 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 28.9
-  previous_composite: 35.7
+  open_source:
+    applies: true
+    score: 60.0
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -433,8 +441,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosmos/refs/heads/main/screenshots/cosmos-2026-06-20T175049.png
 security:

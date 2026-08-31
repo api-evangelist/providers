@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 134
   slug: anchorage-digital-agentic-access
   summary_line: 134 operations · 55 acting
-api_count: 20
+api_count: 1
 apis:
 - description: 'These endpoints allow the user to create and retrieve deposit addresses for specific assets. # Verifying Deposit Addresses The addresses REST API endpoints return signatures of the address strings and'
   name: Anchorage Digital Addresses API
@@ -173,6 +173,10 @@ collections:
   name: Anchorage Digital API Reference Addresses Webhook Notifications API
   slug: open-anchorage-digital-webhook-notifications-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/anchorage-digital-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -319,7 +323,7 @@ overview: 'Anchorage Digital publishes 20 APIs on the [APIs.io](https://apis.io/
   The Anchorage Digital catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Anchorage Digital''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 25 more developer resources.'
+  Anchorage Digital''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 26 more developer resources.'
 random_paper: 14
 rate_limits:
 - limit_count: 1
@@ -327,18 +331,23 @@ rate_limits:
   slug: anchorage-digital-rate-limits
 score:
   band: developing
-  composite: 41.6
-  delta: 0.0
+  composite: 40.3
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 66.3
     developer_ergonomics: 16.1
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 70.4
+    governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 41.6
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -355,8 +364,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anchorage-digital/refs/heads/main/screenshots/anchorage-digital-2026-07-25T200222.png
 security:

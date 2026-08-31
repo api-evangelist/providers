@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 56
   slug: crowddev-agentic-access
   summary_line: 56 operations · 28 acting · 1 human-in-the-loop
-api_count: 16
+api_count: 7
 apis:
 - description: 'Security advisories for a package, split out of package detail. The draft contract gates these behind a dedicated read:advisories scope; until Auth0 issues it, the implementation reuses read:packages '
   name: Crowd.dev Advisories API
@@ -321,19 +321,27 @@ scopes:
   slug: crowddev-scopes
   summary_line: 17 scopes · clientCredentials
 score:
-  band: strong
-  composite: 55.3
-  delta: 0.0
+  band: developing
+  composite: 53.4
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.4
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 57.6
     developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 55.3
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -344,8 +352,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/screenshots/crowddev-2026-07-25T210805.png
 security:

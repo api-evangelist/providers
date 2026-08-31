@@ -23,64 +23,127 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
-api_count: 18
+  scored_at: '2026-08-30'
+api_count: 34
 apis:
-- description: AI-optimized keyword and natural-language search results for products and other index sections, returned by search query with filtering, faceting, sorting, pagination and variations mapping.
-  name: Constructor Search API
-  slug: constructor-search-api
-- description: AI-optimized autocomplete and autosuggest results for products and search suggestions retrieved by query prefix, with multi-section responses.
-  name: Constructor Autocomplete API
-  slug: constructor-autocomplete-api
-- description: AI-optimized category browse results by facet name/value, item ID, collection ID or group ID, plus endpoints for browse groups, countable facets, facet options and collections.
-  name: Constructor Browse API
-  slug: constructor-browse-api
-- description: AI-optimized recommendation results retrieved by pod identifier for onsite recommendation placements.
-  name: Constructor Recommendations API
-  slug: constructor-recommendations-api
-- description: AI-optimized search results retrieved by uploaded image, with optional multi-item detection (segmentation) support.
-  name: Constructor Image Search API
-  slug: constructor-image-search-api
-- description: Conversational product-discovery API returning intent-based suggestions over a Server-Sent Events stream, plus AI-generated item questions and answers.
-  name: Constructor AI Shopping Agent API
-  slug: constructor-ai-shopping-agent-api
-- description: Authenticated catalog surface for creating, replacing, updating and deleting items, variations, item groups and full catalog files, plus item field statistics and asynchronous task tracking.
-  name: Constructor Catalog Management API
-  slug: constructor-catalog-management-api
-- description: Batched catalog ingestion service for high-volume item and variation update and delete operations.
-  name: Constructor Catalog Batching API
-  slug: constructor-catalog-batching-api
-- description: Authenticated configuration surface for facets, facet options, searchabilities, one-way synonyms, synonym groups, sort options, redirect rules, collections, quizzes and metadata overrides.
-  name: Constructor Configuration API
-  slug: constructor-configuration-api
-- description: Merchandising-rule surface for refined queries, refined filters, refined collections, refined tags, campaigns and facet-rule campaigns across search, browse and collections.
-  name: Constructor Searchandising API
-  slug: constructor-searchandising-api
-- description: Guided-selling quiz surface returning the next question given prior answers, quiz results and results-page configuration.
-  name: Constructor Quizzes API
-  slug: constructor-quizzes-api
-- description: Recommendation and collection results for offsite channels (email, SMS, push, social, paid media), including redirecting item image and item URL endpoints addressable by pod/collection and position.
-  name: Constructor Offsite Discovery Recommendations API
-  slug: constructor-offsite-discovery-recommendations-api
-- description: Retail media surface for updating advertiser engagement suspension status and retrieving per-advertiser ad spend accrued within an index.
-  name: Constructor Retail Media API
-  slug: constructor-retail-media-api
-- description: Display-ads surface returning ads for each requested placement, with banner and multi-banner placement responses ordered by auction rank.
-  name: Constructor Retail Media Display Ads API
-  slug: constructor-retail-media-display-ads-api
-- description: Retrieval of item and variation product-detail records for a given index.
-  name: Constructor Product Details API
-  slug: constructor-product-details-api
-- description: Offline behavioral-action ingestion for submitting user events (such as purchases and conversions) that feed Constructor's KPI-optimized ranking.
-  name: Constructor Behavioral Actions API
-  slug: constructor-behavioral-actions-api
-- description: Creation of user preference records that personalize discovery results for an identified shopper.
-  name: Constructor User Profile API
-  slug: constructor-user-profile-api
 - description: Remote, anonymously reachable Model Context Protocol server published by Constructor that exposes documentation search/fetch and OpenAPI endpoint discovery tools to AI coding tools such as Claude, Cur
   name: Constructor Documentation MCP Server
   slug: constructor-documentation-mcp-server
-artifact_total: 40
+- description: The Autocomplete results API from Constructor.io — 1 operation(s) for autocomplete results.
+  name: Constructor.io Autocomplete results API
+  slug: constructorio-autocomplete-results-api
+- description: The Behavioral actions API from Constructor.io — 1 operation(s) for behavioral actions.
+  name: Constructor.io Behavioral actions API
+  slug: constructorio-behavioral-actions-api
+- description: The Browse collections API from Constructor.io — 1 operation(s) for browse collections.
+  name: Constructor.io Browse collections API
+  slug: constructorio-browse-collections-api
+- description: The Browse facets API from Constructor.io — 3 operation(s) for browse facets.
+  name: Constructor.io Browse facets API
+  slug: constructorio-browse-facets-api
+- description: The Browse groups API from Constructor.io — 1 operation(s) for browse groups.
+  name: Constructor.io Browse groups API
+  slug: constructorio-browse-groups-api
+- description: The Browse results API from Constructor.io — 4 operation(s) for browse results.
+  name: Constructor.io Browse results API
+  slug: constructorio-browse-results-api
+- description: The Catalog API from Constructor.io — 1 operation(s) for catalog.
+  name: Constructor.io Catalog API
+  slug: constructorio-catalog-api
+- description: The Collections API from Constructor.io — 4 operation(s) for collections.
+  name: Constructor.io Collections API
+  slug: constructorio-collections-api
+- description: The Display Ads API from Constructor.io — 2 operation(s) for display ads.
+  name: Constructor.io Display Ads API
+  slug: constructorio-display-ads-api
+- description: The Engagements API from Constructor.io — 2 operation(s) for engagements.
+  name: Constructor.io Engagements API
+  slug: constructorio-engagements-api
+- description: The Facet campaigns API from Constructor.io — 2 operation(s) for facet campaigns.
+  name: Constructor.io Facet campaigns API
+  slug: constructorio-facet-campaigns-api
+- description: The Facets API from Constructor.io — 6 operation(s) for facets.
+  name: Constructor.io Facets API
+  slug: constructorio-facets-api
+- description: The Image Search results API from Constructor.io — 2 operation(s) for image search results.
+  name: Constructor.io Image Search results API
+  slug: constructorio-image-search-results-api
+- description: The Item groups API from Constructor.io — 4 operation(s) for item groups.
+  name: Constructor.io Item groups API
+  slug: constructorio-item-groups-api
+- description: The Item statistics API from Constructor.io — 2 operation(s) for item statistics.
+  name: Constructor.io Item statistics API
+  slug: constructorio-item-statistics-api
+- description: The Items API from Constructor.io — 2 operation(s) for items.
+  name: Constructor.io Items API
+  slug: constructorio-items-api
+- description: The Metadata overrides API from Constructor.io — 2 operation(s) for metadata overrides.
+  name: Constructor.io Metadata overrides API
+  slug: constructorio-metadata-overrides-api
+- description: The Natural language search results API from Constructor.io — 1 operation(s) for natural language search results.
+  name: Constructor.io Natural language search results API
+  slug: constructorio-natural-language-search-results-api
+- description: Endpoints for retrieving AI-optimized recommendation results for products to use in Offsite Discovery.
+  name: Constructor.io Offsite Discovery results API
+  slug: constructorio-offsite-discovery-results-api
+- description: The Product details API from Constructor.io — 2 operation(s) for product details.
+  name: Constructor.io Product details API
+  slug: constructorio-product-details-api
+- description: Endpoints for retrieving individual product resources (e.g., images, URLs) by position.
+  name: Constructor.io Product resources API
+  slug: constructorio-product-resources-api
+- description: The Quizzes API from Constructor.io — 1 operation(s) for quizzes.
+  name: Constructor.io Quizzes API
+  slug: constructorio-quizzes-api
+- description: The Recommendation results API from Constructor.io — 1 operation(s) for recommendation results.
+  name: Constructor.io Recommendation results API
+  slug: constructorio-recommendation-results-api
+- description: The Redirect rules API from Constructor.io — 2 operation(s) for redirect rules.
+  name: Constructor.io Redirect rules API
+  slug: constructorio-redirect-rules-api
+- description: The Results API from Constructor.io — 6 operation(s) for results.
+  name: Constructor.io Results API
+  slug: constructorio-results-api
+- description: The Search results API from Constructor.io — 1 operation(s) for search results.
+  name: Constructor.io Search results API
+  slug: constructorio-search-results-api
+- description: The Searchabilities API from Constructor.io — 4 operation(s) for searchabilities.
+  name: Constructor.io Searchabilities API
+  slug: constructorio-searchabilities-api
+- description: The Searchandising by User Request Data API from Constructor.io — 2 operation(s) for searchandising by user request data.
+  name: Constructor.io Searchandising by User Request Data API
+  slug: constructorio-searchandising-by-user-request-data-api
+- description: The Searchandising campaigns API from Constructor.io — 2 operation(s) for searchandising campaigns.
+  name: Constructor.io Searchandising campaigns API
+  slug: constructorio-searchandising-campaigns-api
+- description: The Searchandising for Browse API from Constructor.io — 3 operation(s) for searchandising for browse.
+  name: Constructor.io Searchandising for Browse API
+  slug: constructorio-searchandising-for-browse-api
+- description: The Searchandising for Collections API from Constructor.io — 2 operation(s) for searchandising for collections.
+  name: Constructor.io Searchandising for Collections API
+  slug: constructorio-searchandising-for-collections-api
+- description: The Searchandising for Search API from Constructor.io — 2 operation(s) for searchandising for search.
+  name: Constructor.io Searchandising for Search API
+  slug: constructorio-searchandising-for-search-api
+- description: The Sort options API from Constructor.io — 3 operation(s) for sort options.
+  name: Constructor.io Sort options API
+  slug: constructorio-sort-options-api
+- description: The Synonym groups API from Constructor.io — 2 operation(s) for synonym groups.
+  name: Constructor.io Synonym groups API
+  slug: constructorio-synonym-groups-api
+- description: The Synonyms API from Constructor.io — 2 operation(s) for synonyms.
+  name: Constructor.io Synonyms API
+  slug: constructorio-synonyms-api
+- description: The Tasks API from Constructor.io — 2 operation(s) for tasks.
+  name: Constructor.io Tasks API
+  slug: constructorio-tasks-api
+- description: The User preferences API from Constructor.io — 1 operation(s) for user preferences.
+  name: Constructor.io User preferences API
+  slug: constructorio-user-preferences-api
+- description: The Variations API from Constructor.io — 2 operation(s) for variations.
+  name: Constructor.io Variations API
+  slug: constructorio-variations-api
+artifact_total: 61
 collections:
 - collection_type: open
   name: AI Shopping Agent
@@ -134,6 +197,78 @@ collections:
   name: User profile
   slug: open-constructorio-user-profile
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/constructorio-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/constructorio-search-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/constructorio-autocomplete-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/constructorio-browse-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/constructorio-recommendations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/constructorio-image-search-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/constructorio-ai-shopping-agent-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/constructorio-catalog-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/constructorio-catalog-batching-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/constructorio-configuration-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/constructorio-searchandising-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/constructorio-quizzes-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/constructorio-offsite-discovery-recommendations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/constructorio-retail-media-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/constructorio-retail-media-display-ads-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/constructorio-product-details-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/constructorio-behavioral-actions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/constructorio-user-profile-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -278,10 +413,10 @@ modified: '2026-08-01'
 name: Constructor.io
 nav: Providers
 network: true
-overview: 'Constructor.io publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Constructor Search API, Constructor Autocomplete API, Constructor Browse API, and 14 more. Tagged areas include Company, Search, E-Commerce, Product Discovery, and Recommendations.
+overview: 'Constructor.io publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete results API, Behavioral actions API, Browse collections API, and 35 more. Tagged areas include Company, Search, E-Commerce, Product Discovery, and Recommendations.
 
 
-  Constructor.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 26 more developer resources.'
+  Constructor.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 44 more developer resources.'
 random_paper: 10
 scopes:
 - name: Constructorio Scopes
@@ -290,18 +425,23 @@ scopes:
   summary_line: 37 scopes
 score:
   band: developing
-  composite: 51.4
+  composite: 49.6
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
-    contract_quality: 60.6
+    contract_governance: 18.2
+    contract_quality: 61.4
     developer_ergonomics: 57.7
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 22.4
-  previous_composite: 51.4
+  previous_composite: 49.6
   provenance:
     conformance: first-party
     contracts:
@@ -311,8 +451,8 @@ score:
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/screenshots/constructorio-2026-08-07T163752.png
 security:

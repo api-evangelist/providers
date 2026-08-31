@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-26'
-api_count: 58
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Addons API from Vanilla Forums — 2 operation(s) for addons.
   name: Vanilla Forums Addons API
@@ -396,6 +396,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/vanilla-forums-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/vanilla-forums-vanilla-api-overlay.yaml
 - group: company
@@ -532,7 +536,7 @@ overview: 'Vanilla Forums publishes 58 APIs on the [APIs.io](https://apis.io/) n
   The Vanilla Forums catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Vanilla Forums'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 23 more developer resources.'
+  Vanilla Forums'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 24 more developer resources.'
 random_paper: 7
 rate_limits:
 - limit_count: 3
@@ -540,18 +544,23 @@ rate_limits:
   slug: vanilla-forums-rate-limits
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 49.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 52.1
     developer_ergonomics: 56.5
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 51.0
+  previous_composite: 50.2
   provenance:
     conformance: derived
     contracts:
@@ -561,8 +570,8 @@ score:
       total: 58
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vanilla-forums/refs/heads/main/screenshots/vanilla-forums-2026-08-17T082714.png
 security:

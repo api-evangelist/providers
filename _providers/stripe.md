@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 483
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 910
   slug: stripe-agentic-access
   summary_line: 910 operations · 483 acting · 2 human-in-the-loop
-api_count: 159
+api_count: 48
 apis:
 - description: This is an object representing a Stripe account. You can retrieve it to see properties on the account like its current requirements or if the account is enabled to make live charges or receive payouts
   name: Stripe Accounts API
@@ -1282,6 +1282,10 @@ collections:
   name: Stripe Accounts Account Webhook Endpoints API
   slug: open-stripe-webhook-endpoints-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/stripe-capability-edges.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -1892,7 +1896,7 @@ overview: 'Stripe publishes 159 APIs on the [APIs.io](https://apis.io/) network,
   The Stripe catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Stripe''s developer surface includes authentication, sandbox, changelog, CLI, signup flow, developer portal, documentation, and 121 more developer resources.'
+  Stripe''s developer surface includes authentication, sandbox, changelog, CLI, signup flow, developer portal, documentation, and 122 more developer resources.'
 plans:
 - name: Stripe Plans Pricing
   plan_count: 9
@@ -1942,18 +1946,23 @@ scopes:
   summary_line: 2 scopes
 score:
   band: exemplar
-  composite: 83.2
+  composite: 80.6
+  coverage:
+    artifact_dirs: 41
+    catalog_gap: 69.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 74.1
     developer_ergonomics: 94.6
-    discoverability: 59.3
-    governance: 45.5
+    discoverability: 48.1
+    governance: 33.3
     operational_transparency: 76.3
-  previous_composite: 83.2
+  previous_composite: 80.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1966,12 +1975,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2-sca
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 93.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-08-17T125440.png
 security:

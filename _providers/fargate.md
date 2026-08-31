@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: fargate-agentic-access
   summary_line: 16 operations · 16 acting · 1 human-in-the-loop
-api_count: 8
+api_count: 1
 apis:
 - description: Operations for managing ECS clusters that host Fargate tasks and services, including cluster creation, configuration, and capacity provider association.
   name: AWS Fargate Clusters API
@@ -125,6 +125,10 @@ collections:
   name: 'AWS Fargate Amazon ECS API (Fargate) Clusters #X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService API'
   slug: open-fargate-x-amz-target-amazonec2containerservicev20141113-updateservice-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fargate-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -272,7 +276,7 @@ network: true
 overview: 'AWS Fargate publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Clusters API, Task Definitions API, Tasks API, and 5 more. Tagged areas include Compute, Containers, Docker, Kubernetes, and Serverless.
 
 
-  AWS Fargate''s developer surface includes authentication, developer portal, documentation, pricing, getting-started guide, FAQ, developer console, and 26 more developer resources.'
+  AWS Fargate''s developer surface includes authentication, developer portal, documentation, pricing, getting-started guide, FAQ, developer console, and 27 more developer resources.'
 plans:
 - name: Fargate Plans Pricing
   plan_count: 3
@@ -284,18 +288,26 @@ rate_limits:
   slug: fargate-rate-limits
 score:
   band: strong
-  composite: 57.4
-  delta: 1.4
+  composite: 55.2
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.2
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 0.0
     contract_quality: 58.9
     developer_ergonomics: 83.3
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 56.0
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     contracts:
@@ -303,8 +315,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fargate/refs/heads/main/screenshots/fargate-2026-06-20T181042.png
 security:

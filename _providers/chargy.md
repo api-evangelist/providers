@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,20 +31,31 @@ agentic_access:
   operation_count: 2
   slug: chargy-agentic-access
   summary_line: 2 operations
-api_count: 2
+api_count: 1
 apis:
-- description: char.gy's statutory open data feed, published to satisfy Part 4 regulation 10 of the UK Public Charge Point Regulations 2023, which requires reference data and availability data to be made available t
-  name: char.gy Open Charge Point Data API
-  slug: chargy-open-charge-point-data-api
 - description: char.gy's commercial Open Charge Point Interface implementation in the Charge Point Operator role, used so that another network's drivers can authorise, charge and be settled on char.gy infrastructure
   name: char.gy OCPI CPO Roaming API
   slug: chargy-ocpi-cpo-api
-artifact_total: 9
+- description: Reference and availability data for char.gy charge points.
+  name: char.gy Locations API
+  slug: chargy-locations-api
+- description: Published price components for char.gy charging sessions.
+  name: char.gy Tariffs API
+  slug: chargy-tariffs-api
+artifact_total: 10
 collections:
 - collection_type: open
   name: char.gy Open Charge Point Data API
   slug: open-chargy-open-charge-point-data
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/chargy-open-charge-point-data-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/chargy-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -178,25 +189,30 @@ modified: '2026-07-27'
 name: char.gy
 nav: Providers
 network: true
-overview: 'char.gy publishes 1 API on the [APIs.io](https://apis.io/) network: Open Charge Point Data API. Tagged areas include Energy, United Kingdom, EV Charging, Electricity, and Utilities.
+overview: 'char.gy publishes 2 APIs on the [APIs.io](https://apis.io/) network: Locations API and Tariffs API. Tagged areas include Energy, United Kingdom, EV Charging, Electricity, and Utilities.
 
 
-  char.gy''s developer surface includes authentication, documentation, pricing, engineering blog, support, signup flow, and 22 more developer resources.'
+  char.gy''s developer surface includes authentication, documentation, pricing, engineering blog, support, signup flow, and 24 more developer resources.'
 random_paper: 8
 score:
   band: thin
-  composite: 37.3
-  delta: 0.7
+  composite: 35.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 16.3
     developer_ergonomics: 30.4
     discoverability: 68.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 36.6
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -213,8 +229,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 58.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargy/refs/heads/main/screenshots/chargy-2026-08-07T163259.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 79
   slug: bazaarvoice-agentic-access
   summary_line: 79 operations · 30 acting
-api_count: 17
+api_count: 23
 apis:
 - description: The Answers API from Bazaarvoice — 1 operation(s) for answers.
   name: Bazaarvoice Answers API
@@ -61,40 +61,76 @@ apis:
 - description: Search for reviews
   name: Bazaarvoice Reviews API
   slug: bazaarvoice-reviews-api
-- description: The Conversations Display API returns published user-generated content for a product or catalog - reviews, review comments, questions, answers, author profiles, products, categories and aggregate stat
-  name: Bazaarvoice Conversations Display API
-  slug: bazaarvoice-conversations-display-api
-- description: 'The Conversations Submission API accepts shopper-generated content: reviews, review comments, questions, answers and feedback, plus photo and video upload, author authentication and progressive submis'
-  name: Bazaarvoice Conversations Submission API
-  slug: bazaarvoice-conversations-submission-api
-- description: 'The Response API lets a brand publish, edit and remove its official response to a review, and read the review and author behind a response. It authenticates with an HTTP bearer token obtained through '
-  name: Bazaarvoice Response API
-  slug: bazaarvoice-response-api
-- description: A separately published single-operation contract that takes a list of review identifiers and returns how many brand responses each review already has - the bulk triage counterpart to the Response API.
-  name: Bazaarvoice Response Count API
-  slug: bazaarvoice-response-count-api
-- description: The Notifications Subscriptions API manages shopper email subscription state for Bazaarvoice notification emails - paging the opt-in and opt-out lists per email type and subscribing or unsubscribing a
-  name: Bazaarvoice Notifications Subscriptions API
-  slug: bazaarvoice-notifications-subscriptions-api
-- description: The Transactions API ingests purchase transaction records - single or bulk - so Bazaarvoice can schedule post-interaction review-request notifications, and invalidates a transaction when an order is c
+- description: The Authenticateuser API from Bazaarvoice — 1 operation(s) for authenticateuser.
+  name: Bazaarvoice Authenticateuser API
+  slug: bazaarvoice-authenticateuser-api
+- description: The Author API from Bazaarvoice — 2 operation(s) for author.
+  name: Bazaarvoice Author API
+  slug: bazaarvoice-author-api
+- description: The Client Response API from Bazaarvoice — 3 operation(s) for client response.
+  name: Bazaarvoice Client Response API
+  slug: bazaarvoice-client-response-api
+- description: The Comments API from Bazaarvoice — 1 operation(s) for comments.
+  name: Bazaarvoice Comments API
+  slug: bazaarvoice-comments-api
+- description: The default API from Bazaarvoice — 8 operation(s) for default.
+  name: Bazaarvoice Default API
+  slug: bazaarvoice-default-api
+- description: The expressions API from Bazaarvoice — 1 operation(s) for expressions.
+  name: Bazaarvoice Expressions API
+  slug: bazaarvoice-expressions-api
+- description: The Facebook API from Bazaarvoice — 4 operation(s) for facebook.
+  name: Bazaarvoice Facebook API
+  slug: bazaarvoice-facebook-api
+- description: The features API from Bazaarvoice — 3 operation(s) for features.
+  name: Bazaarvoice Features API
+  slug: bazaarvoice-features-api
+- description: The Feedback API from Bazaarvoice — 2 operation(s) for feedback.
+  name: Bazaarvoice Feedback API
+  slug: bazaarvoice-feedback-api
+- description: The Instagram API from Bazaarvoice — 3 operation(s) for instagram.
+  name: Bazaarvoice Instagram API
+  slug: bazaarvoice-instagram-api
+- description: The Media API from Bazaarvoice — 4 operation(s) for media.
+  name: Bazaarvoice Media API
+  slug: bazaarvoice-media-api
+- description: The Meta API from Bazaarvoice — 1 operation(s) for meta.
+  name: Bazaarvoice Meta API
+  slug: bazaarvoice-meta-api
+- description: Enables clients to manage end-user subscriptions to email notifications.
+  name: Bazaarvoice Notifications/{client}/subscriptions API
+  slug: bazaarvoice-notifications-client-subscriptions-api
+- description: The ProgressiveSubmit API from Bazaarvoice — 2 operation(s) for progressivesubmit.
+  name: Bazaarvoice Progressive Submit API
+  slug: bazaarvoice-progressivesubmit-api
+- description: The quotes API from Bazaarvoice — 1 operation(s) for quotes.
+  name: Bazaarvoice Quotes API
+  slug: bazaarvoice-quotes-api
+- description: The Report API from Bazaarvoice — 1 operation(s) for report.
+  name: Bazaarvoice Report API
+  slug: bazaarvoice-report-api
+- description: The Review API from Bazaarvoice — 2 operation(s) for review.
+  name: Bazaarvoice Review API
+  slug: bazaarvoice-review-api
+- description: The Step 1 API from Bazaarvoice — 2 operation(s) for step 1.
+  name: Bazaarvoice Step 1 API
+  slug: bazaarvoice-step-1-api
+- description: The Structured Data API from Bazaarvoice — 1 operation(s) for structured data.
+  name: Bazaarvoice Structured Data API
+  slug: bazaarvoice-structured-data-api
+- description: The Submitreview API from Bazaarvoice — 1 operation(s) for submitreview.
+  name: Bazaarvoice Submitreview API
+  slug: bazaarvoice-submitreview-api
+- description: The Transactions API from Bazaarvoice — 3 operation(s) for transactions.
   name: Bazaarvoice Transactions API
   slug: bazaarvoice-transactions-api
-- description: 'The Product Sentiment API returns NLP-derived consumer insight from review text: summarised product features with best/worst weighting, the shopper quotes behind each feature, all detected features fo'
-  name: Bazaarvoice Product Sentiment API
-  slug: bazaarvoice-product-sentiment-api
-- description: The Social Commerce Display API serves visual user-generated content - gallery media, top images, recommendations, Instagram and Facebook sourcing, media upload and reporting, and Schema.org structure
-  name: Bazaarvoice Social Commerce Display (Media) API
-  slug: bazaarvoice-social-commerce-media-api
-- description: 'The Authentic Discovery API is Bazaarvoice''s generative-engine-optimization surface: a server-side call that returns a product''s ratings, reviews, review summaries and Q&A as Schema.org JSON-LD or Mic'
-  name: Bazaarvoice Authentic Discovery API
-  slug: bazaarvoice-authentic-discovery-api
-- description: 'Displayable Content Export is a bulk HTTPS data interface: a client requests a manifest file list, follows redirects to the manifest and then to the data files, and downloads the full set of displayab'
-  name: Bazaarvoice Displayable Content Export
-  slug: bazaarvoice-displayable-content-export
-- description: 'Product Sentiment Export is the bulk counterpart to the Product Sentiment API: the same manifest-then-download HTTPS flow used by Displayable Content Export, delivering sentiment insight data as files'
-  name: Bazaarvoice Product Sentiment Export
-  slug: bazaarvoice-product-sentiment-export
-artifact_total: 45
+- description: The Upload API from Bazaarvoice — 3 operation(s) for upload.
+  name: Bazaarvoice Upload API
+  slug: bazaarvoice-upload-api
+- description: The Uploadphoto API from Bazaarvoice — 1 operation(s) for uploadphoto.
+  name: Bazaarvoice Uploadphoto API
+  slug: bazaarvoice-uploadphoto-api
+artifact_total: 57
 collections:
 - collection_type: postman
   name: Bazaarvoice Notifications Subscriptions API
@@ -157,6 +193,54 @@ collections:
   name: Transactions API
   slug: open-bazaarvoice-transactions
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bazaarvoice-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bazaarvoice-conversations-display-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bazaarvoice-conversations-submission-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bazaarvoice-response-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bazaarvoice-response-count-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bazaarvoice-notifications-subscriptions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bazaarvoice-transactions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bazaarvoice-product-sentiment-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bazaarvoice-social-commerce-media-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bazaarvoice-authentic-discovery-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bazaarvoice-displayable-content-export-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bazaarvoice-product-sentiment-export-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -326,10 +410,10 @@ modified: '2026-08-13'
 name: Bazaarvoice
 nav: Providers
 network: true
-overview: 'Bazaarvoice publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Answers API, Clients API, Contributor API, and 14 more. Tagged areas include Company, Reviews, Ratings, User Generated Content, and Retail.
+overview: 'Bazaarvoice publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Answers API, Clients API, Contributor API, and 26 more. Tagged areas include Company, Reviews, Ratings, User Generated Content, and Retail.
 
 
-  Bazaarvoice''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 32 more developer resources.'
+  Bazaarvoice''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 44 more developer resources.'
 plans:
 - name: Bazaarvoice Plans Pricing
   plan_count: 9
@@ -341,18 +425,23 @@ rate_limits:
   slug: bazaarvoice-rate-limits
 score:
   band: strong
-  composite: 62.4
+  composite: 60.5
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 30.3
-    contract_quality: 54.9
+    contract_governance: 18.2
+    contract_quality: 52.9
     developer_ergonomics: 67.3
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 48.7
-  previous_composite: 62.4
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -363,8 +452,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bazaarvoice/refs/heads/main/screenshots/bazaarvoice-2026-07-25T202455.png
 security:

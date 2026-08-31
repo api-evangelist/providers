@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 6
   slug: wegtultrarich-agentic-access
   summary_line: 6 operations
-api_count: 4
+api_count: 1
 apis:
 - description: Hosted, no-auth Model Context Protocol server (Streamable HTTP) exposing the same five wealth computations as agent tools with published JSON Schema inputs. Answers protocol revisions 2025-03-26 throu
   name: We > Ultrarich MCP Server
@@ -269,7 +269,7 @@ modified: '2026-08-09'
 name: We > Ultrarich
 nav: Providers
 network: true
-overview: 'We > Ultrarich publishes 4 APIs on the [APIs.io](https://apis.io/) network, including MCP Server, Comparison API, Discovery API, and 1 more. Tagged areas include wealth inequality, economic inequality, Finance, Economics, and Education.
+overview: 'We > Ultrarich publishes 4 APIs on the [APIs.io](https://apis.io/) network, including MCP Server, Comparison API, Discovery API, and 1 more. Tagged areas include wealth inequality, economic inequality, Finance, economics, and education.
 
 
   The We > Ultrarich catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -295,18 +295,23 @@ rules:
   slug: wegtultrarich-spectral
 score:
   band: strong
-  composite: 61.9
-  delta: 0.7
+  composite: 59.9
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 49.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 65.9
+    contract_governance: 53.8
     contract_quality: 56.5
     developer_ergonomics: 61.3
-    discoverability: 100.0
-    governance: 65.9
+    discoverability: 94.4
+    governance: 53.8
     operational_transparency: 52.6
-  previous_composite: 61.2
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -323,8 +328,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wegtultrarich/refs/heads/main/screenshots/wegtultrarich-2026-08-17T082904.png
 security:
@@ -345,12 +350,13 @@ tags:
 - wealth inequality
 - economic inequality
 - Finance
-- Economics
-- Education
-- Journalism
-- Open Data
-- Comparison
+- economics
+- education
+- journalism
+- open data
+- comparison
 - MCP
+- model context protocol
 - Agents
 website: https://wegtultrarich.org/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -618,18 +618,26 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: strong
-  composite: 55.0
+  composite: 57.2
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 7.4
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 45.5
-    contract_quality: 34.0
+    contract_governance: 33.3
+    contract_quality: 33.9
     developer_ergonomics: 92.9
-    discoverability: 61.1
-    governance: 45.5
+    discoverability: 50.0
+    governance: 33.3
     operational_transparency: 36.8
-  previous_composite: 47.6
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -639,8 +647,8 @@ score:
       marker_coverage: 100.0
       total: 18
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/screenshots/microsoft-word-2026-08-07T172841.png
 security:

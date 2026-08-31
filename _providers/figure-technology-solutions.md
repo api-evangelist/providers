@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 36
   slug: figure-technology-solutions-agentic-access
   summary_line: 36 operations · 15 acting
-api_count: 8
+api_count: 3
 apis:
 - description: The Encryption API from Figure Technology Solutions — 1 operation(s) for encryption.
   name: Figure Technology Solutions Encryption API
@@ -101,6 +101,10 @@ collections:
   name: HELOC Inquiries Encryption Payment History V2 API
   slug: open-figure-technology-solutions-payment-history-v2-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/figure-technology-solutions-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -239,22 +243,27 @@ overview: 'Figure Technology Solutions publishes 8 APIs on the [APIs.io](https:/
   The Figure Technology Solutions catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Figure Technology Solutions'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 23 more developer resources.'
+  Figure Technology Solutions'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 24 more developer resources.'
 random_paper: 10
 score:
   band: developing
-  composite: 42.3
+  composite: 40.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 56.8
+    contract_governance: 4.5
+    contract_quality: 53.8
     developer_ergonomics: 56.5
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 42.3
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -265,8 +274,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/screenshots/figure-technology-solutions-2026-07-25T214442.png
 security:

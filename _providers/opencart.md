@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: opencart-agentic-access
   summary_line: 16 operations · 12 acting
-api_count: 10
+api_count: 1
 apis:
 - description: Affiliate session management
   name: OpenCart Affiliates API
@@ -110,6 +110,18 @@ collections:
   name: OpenCart REST Affiliates Subscriptions API
   slug: open-opencart-subscriptions-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/opencart/opencart/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/opencart/opencart/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/opencart/opencart/blob/master/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -222,7 +234,7 @@ overview: 'OpenCart publishes 10 APIs on the [APIs.io](https://apis.io/) network
   The OpenCart catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenCart''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  OpenCart''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
 plans:
 - name: Opencart Plans Pricing
   plan_count: 2
@@ -245,18 +257,26 @@ rules:
   slug: opencart-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.4
-  delta: 0.0
+  composite: 43.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 57.8
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
-    operational_transparency: 36.8
-  previous_composite: 41.4
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 44.1
   provenance:
     agentic_access: derived
     contracts:
@@ -264,8 +284,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/screenshots/opencart-2026-06-20T190918.png
 security:

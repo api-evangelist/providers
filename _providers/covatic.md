@@ -35,18 +35,73 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: 'REST API behind the Covatic client platform (platform.covatic.io) for building and operating privacy-preserving audiences and campaigns: audience profiles, traits (behavioural, event and retargeting),'
+- description: The Audience Builder Agent API from Covatic — 1 operation(s) for audience builder agent.
+  name: Covatic Audience Builder Agent API
+  slug: covatic-audience-builder-agent-api
+- description: The Audience Builder API from Covatic — 1 operation(s) for audience builder.
   name: Covatic Audience Builder API
   slug: covatic-audience-builder-api
-artifact_total: 7
+- description: The Auth API from Covatic — 2 operation(s) for auth.
+  name: Covatic Auth API
+  slug: covatic-auth-api
+- description: The Campaigns API from Covatic — 16 operation(s) for campaigns.
+  name: Covatic Campaigns API
+  slug: covatic-campaigns-api
+- description: The ChatGPT API from Covatic — 1 operation(s) for chatgpt.
+  name: Covatic Chat GPT API
+  slug: covatic-chatgpt-api
+- description: The Commons API from Covatic — 4 operation(s) for commons.
+  name: Covatic Commons API
+  slug: covatic-commons-api
+- description: The Company API from Covatic — 2 operation(s) for company.
+  name: Covatic Company API
+  slug: covatic-company-api
+- description: The Event Traits API from Covatic — 5 operation(s) for event traits.
+  name: Covatic Event Traits API
+  slug: covatic-event-traits-api
+- description: The Insights API from Covatic — 2 operation(s) for insights.
+  name: Covatic Insights API
+  slug: covatic-insights-api
+- description: The Notes API from Covatic — 2 operation(s) for notes.
+  name: Covatic Notes API
+  slug: covatic-notes-api
+- description: The Profiles API from Covatic — 6 operation(s) for profiles.
+  name: Covatic Profiles API
+  slug: covatic-profiles-api
+- description: The QA and Debug API from Covatic — 1 operation(s) for qa and debug.
+  name: Covatic QA and Debug API
+  slug: covatic-qa-and-debug-api
+- description: The Retargeting Traits API from Covatic — 3 operation(s) for retargeting traits.
+  name: Covatic Retargeting Traits API
+  slug: covatic-retargeting-traits-api
+- description: The Root API from Covatic — 1 operation(s) for root.
+  name: Covatic Root API
+  slug: covatic-root-api
+- description: The Seeders API from Covatic — 6 operation(s) for seeders.
+  name: Covatic Seeders API
+  slug: covatic-seeders-api
+- description: The Tags API from Covatic — 2 operation(s) for tags.
+  name: Covatic Tags API
+  slug: covatic-tags-api
+- description: The Traits API from Covatic — 7 operation(s) for traits.
+  name: Covatic Traits API
+  slug: covatic-traits-api
+- description: The Users API from Covatic — 9 operation(s) for users.
+  name: Covatic Users API
+  slug: covatic-users-api
+artifact_total: 24
 collections:
 - collection_type: open
   name: Audience builder
   slug: open-covatic-audience-builder
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/covatic-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -167,10 +222,10 @@ modified: '2026-08-12'
 name: Covatic
 nav: Providers
 network: true
-overview: 'Covatic publishes 1 API on the [APIs.io](https://apis.io/) network: Audience Builder API. Tagged areas include Company, Advertising Technology, AdTech, Audience Intelligence, and Data Management Platform.
+overview: 'Covatic publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Audience Builder Agent API, Audience Builder API, Auth API, and 15 more. Tagged areas include Company, Advertising Technology, AdTech, Audience Intelligence, and Data Management Platform.
 
 
-  Covatic''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 23 more developer resources.'
+  Covatic''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 24 more developer resources.'
 plans:
 - name: Covatic Plans Pricing
   plan_count: 0
@@ -186,19 +241,24 @@ scopes:
   slug: covatic-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 39.7
-  delta: 0.0
+  band: thin
+  composite: 38.1
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
-    contract_governance: 30.3
-    contract_quality: 57.1
+    contract_governance: 18.2
+    contract_quality: 56.7
     developer_ergonomics: 37.5
     discoverability: 68.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 39.7
+  previous_composite: 38.7
   provenance:
     conformance: first-party
     contracts:
@@ -208,8 +268,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/covatic/refs/heads/main/screenshots/covatic-2026-07-25T210538.png
 security:

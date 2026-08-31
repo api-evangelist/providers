@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1576
   human_in_the_loop: 52
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 3118
   slug: cloudflare-agentic-access
   summary_line: 3118 operations · 1576 acting · 52 human-in-the-loop
-api_count: 87
+api_count: 24
 apis:
 - description: The Cloudflare Load Balancing API enables developers to distribute traffic across endpoints to reduce strain and latency. It provides endpoints for managing load balancers, pools, monitors, and health
   name: Cloudflare Load Balancing API
@@ -669,6 +669,10 @@ collections:
   name: Cloudflare / Accounts Zones API
   slug: open-cloudflare-zones-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cloudflare-capability-edges.yml
 - group: other
   title: ''
   type: AgentCard
@@ -1864,7 +1868,7 @@ overview: 'Cloudflare publishes 57 APIs on the [APIs.io](https://apis.io/) netwo
   The Cloudflare catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 17 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Cloudflare''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, signup flow, pricing, changelog, and 88 more developer resources.'
+  Cloudflare''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, signup flow, pricing, changelog, and 89 more developer resources.'
 plans:
 - name: Cloudflare Plans Pricing
   plan_count: 6
@@ -1910,7 +1914,12 @@ rules:
 score:
   band: strong
   composite: 63.4
-  delta: 1.4
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 66.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -1920,7 +1929,7 @@ score:
     discoverability: 57.4
     governance: 13.6
     operational_transparency: 44.7
-  previous_composite: 62.0
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1928,8 +1937,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 57
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/screenshots/cloudflare-2026-06-20T174548.png
 security:

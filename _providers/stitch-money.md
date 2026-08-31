@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ modified: '2026-06-21'
 name: Stitch
 nav: Providers
 network: true
-overview: 'Stitch publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Payments, Open Banking, Pay by Bank, GraphQL, and Africa.
+overview: 'Stitch publishes 1 API on the [APIs.io](https://apis.io/) network: GraphQL API. Tagged areas include Payments, Open Banking, Pay By Bank, GraphQL, and Africa.
 
 
   Stitch''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -139,7 +139,12 @@ rate_limits:
 score:
   band: thin
   composite: 38.2
-  delta: 2.4
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -149,7 +154,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 35.8
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -163,8 +168,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 22.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -183,7 +188,7 @@ slug: stitch-money
 tags:
 - Payments
 - Open Banking
-- Pay by Bank
+- Pay By Bank
 - GraphQL
 - Africa
 - South Africa

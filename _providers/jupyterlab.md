@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 12
   slug: jupyterlab-agentic-access
   summary_line: 12 operations · 3 acting
-api_count: 7
+api_count: 1
 apis:
 - description: JavaScript and TypeScript API used to build JupyterLab extensions and plugins. JupyterLab is composed of plugins that consume and provide services on the front-end application object.
   name: JupyterLab Extension API
@@ -225,19 +225,27 @@ rules:
     warn: 4
   slug: jupyterlab-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 38.6
-  delta: 1.4
+  band: developing
+  composite: 40.7
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 2.1
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 61.2
     developer_ergonomics: 45.2
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 37.2
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -245,8 +253,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyterlab/refs/heads/main/screenshots/jupyterlab-2026-06-20T183842.png
 security:

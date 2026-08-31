@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 153
   slug: golioth-agentic-access
   summary_line: 153 operations · 83 acting
-api_count: 45
+api_count: 1
 apis:
 - description: Per-device key/value state store. Devices and cloud services read and write structured state (JSON/CBOR) that is synchronized between device and cloud over CoAP.
   name: Golioth LightDB State
@@ -287,6 +287,10 @@ collections:
   name: Golioth Management API
   slug: open-golioth
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/golioth-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -419,7 +423,7 @@ overview: 'Golioth publishes 33 APIs on the [APIs.io](https://apis.io/) network,
   The Golioth catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Golioth''s developer surface includes authentication, documentation, GitHub presence, developer console, engineering blog, training material, pricing, and 12 more developer resources.'
+  Golioth''s developer surface includes authentication, documentation, GitHub presence, developer console, engineering blog, training material, pricing, and 13 more developer resources.'
 plans:
 - name: Golioth Plans Pricing
   plan_count: 1
@@ -453,18 +457,26 @@ rules:
   slug: golioth-rules
 score:
   band: developing
-  composite: 45.5
-  delta: 2.6
+  composite: 47.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 34.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.4
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 28.8
     contract_quality: 64.6
     developer_ergonomics: 28.6
-    discoverability: 68.5
+    discoverability: 70.4
     governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 42.9
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
@@ -472,8 +484,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 33
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/golioth/refs/heads/main/screenshots/golioth-2026-06-20T181951.png
 security:

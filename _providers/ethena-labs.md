@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Public request-for-quote (RFQ) minting and redemption API for USDe. Whitelisted participants check asset availability, request a firm 15-minute quote, fetch the fee schedule, sign the order with EIP-7
@@ -153,7 +153,7 @@ modified: '2026-07-19'
 name: Ethena Labs
 nav: Providers
 network: true
-overview: 'Ethena Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Stablecoins, DeFi, and Synthetic Dollar.
+overview: 'Ethena Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Stablecoin, DeFi, and Synthetic Dollar.
 
 
   Ethena Labs'' developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 19 more developer resources.'
@@ -161,6 +161,11 @@ random_paper: 0
 score:
   band: thin
   composite: 31.6
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 18.4
@@ -175,8 +180,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethena-labs/refs/heads/main/screenshots/ethena-labs-2026-07-25T213648.png
 security:
@@ -196,7 +201,7 @@ slug: ethena-labs
 tags:
 - Company
 - Crypto
-- Stablecoins
+- Stablecoin
 - DeFi
 - Synthetic Dollar
 - Minting

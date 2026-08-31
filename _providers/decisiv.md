@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -31,30 +31,219 @@ agentic_access:
   operation_count: 272
   slug: decisiv-agentic-access
   summary_line: 272 operations · 108 acting
-api_count: 7
+api_count: 13
 apis:
-- description: 'Accounts, ecosystem users, account users and roles, and the webhook subscription surface for the Decisiv SRM Gateway. This is the module that manages webhook endpoints (URL, subscribed events, custom '
-  name: Decisiv SRM Gateway - Account Management
-  slug: decisiv-srm-gateway-account-management
-- description: The fleet / asset-owner view of the SRM Gateway. Registered assets and components, depots, extended asset attributes, contacts, service requests to service providers, cases and case summaries, case no
-  name: Decisiv SRM Gateway - Asset Management
-  slug: decisiv-srm-gateway-asset-management
-- description: The service-provider view of the SRM Gateway and the largest module. Cases and case actions, customers and customer assets, customer requests, line items with parts, additional charges, technician sto
-  name: Decisiv SRM Gateway - Service Management
-  slug: decisiv-srm-gateway-service-management
-- description: 'Ingest and read connected-asset telematics inside SRM: diagnostic readings and fault codes for registered assets, so a fault on a vehicle can open or enrich a service case at the point of service.'
-  name: Decisiv SRM Gateway - Telematics
-  slug: decisiv-srm-gateway-telematics
-- description: Global store of reference for all assets within the Decisiv ecosystem — asset lookup by id or VIN, plus campaigns, recalls, warranties, service history and OEM build information where authorized and a
-  name: Decisiv Global Assets API
-  slug: decisiv-global-assets-api
-- description: Base API allowing dealers and service providers to interact with their customers and those customers' assets, including group customers and group assets. Swagger 2.0, secured with OAuth 2.0 plus the t
-  name: Decisiv Service Provider API
-  slug: decisiv-service-provider-api
 - description: The original XML Platform API for service providers and dealer systems, covering the lifecycle of a service case — assets, cases, estimates and line items, parts, VMRS, notes, attachments and estimate
   name: Decisiv Platform API
   slug: decisiv-platform-api
-artifact_total: 21
+- description: The Account Roles API from Decisiv — 2 operation(s) for account roles.
+  name: Decisiv Account Roles API
+  slug: decisiv-account-roles-api
+- description: The Account User Roles API from Decisiv — 2 operation(s) for account user roles.
+  name: Decisiv Account User Roles API
+  slug: decisiv-account-user-roles-api
+- description: The Account Users API from Decisiv — 2 operation(s) for account users.
+  name: Decisiv Account Users API
+  slug: decisiv-account-users-api
+- description: The Accounts API from Decisiv — 2 operation(s) for accounts.
+  name: Decisiv Accounts API
+  slug: decisiv-accounts-api
+- description: The assets API from Decisiv — 7 operation(s) for assets.
+  name: Decisiv Assets API
+  slug: decisiv-assets-api
+- description: The Case Actions API from Decisiv — 2 operation(s) for case actions.
+  name: Decisiv Case Actions API
+  slug: decisiv-case-actions-api
+- description: The Case Attachments API from Decisiv — 4 operation(s) for case attachments.
+  name: Decisiv Case Attachments API
+  slug: decisiv-case-attachments-api
+- description: The Case Line Item Internal Labels API from Decisiv — 1 operation(s) for case line item internal labels.
+  name: Decisiv Case Line Item Internal Labels API
+  slug: decisiv-case-line-item-internal-labels-api
+- description: The Case Line Item Parts API from Decisiv — 2 operation(s) for case line item parts.
+  name: Decisiv Case Line Item Parts API
+  slug: decisiv-case-line-item-parts-api
+- description: The Case Line Item Parts Relationships SalesPerson API from Decisiv — 1 operation(s) for case line item parts relationships salesperson.
+  name: Decisiv Case Line Item Parts Relationships SalesPerson API
+  slug: decisiv-case-line-item-parts-relationships-salesperson-api
+- description: The Case Line Items - Additional Charges API from Decisiv — 2 operation(s) for case line items - additional charges.
+  name: Decisiv Case Line Items - Additional Charges API
+  slug: decisiv-case-line-items-additional-charges-api
+- description: The Case Line Items - Additional Charges Categories API from Decisiv — 2 operation(s) for case line items - additional charges categories.
+  name: Decisiv Case Line Items - Additional Charges Categories API
+  slug: decisiv-case-line-items-additional-charges-categories-api
+- description: The Case Line Items - Additional Charges - Relationships API from Decisiv — 1 operation(s) for case line items - additional charges - relationships.
+  name: Decisiv Case Line Items - Additional Charges - Relationships API
+  slug: decisiv-case-line-items-additional-charges-relationships-api
+- description: The Case Line Items API from Decisiv — 2 operation(s) for case line items.
+  name: Decisiv Case Line Items API
+  slug: decisiv-case-line-items-api
+- description: The Case Line Items Relationships Assignee API from Decisiv — 1 operation(s) for case line items relationships assignee.
+  name: Decisiv Case Line Items Relationships Assignee API
+  slug: decisiv-case-line-items-relationships-assignee-api
+- description: The Case Line Items Technician Stories API from Decisiv — 2 operation(s) for case line items technician stories.
+  name: Decisiv Case Line Items Technician Stories API
+  slug: decisiv-case-line-items-technician-stories-api
+- description: The Case Metadata API from Decisiv — 2 operation(s) for case metadata.
+  name: Decisiv Case Metadata API
+  slug: decisiv-case-metadata-api
+- description: The Case Notes API from Decisiv — 5 operation(s) for case notes.
+  name: Decisiv Case Notes API
+  slug: decisiv-case-notes-api
+- description: The Case Participant Recipients API from Decisiv — 4 operation(s) for case participant recipients.
+  name: Decisiv Case Participant Recipients API
+  slug: decisiv-case-participant-recipients-api
+- description: The Case Participants API from Decisiv — 4 operation(s) for case participants.
+  name: Decisiv Case Participants API
+  slug: decisiv-case-participants-api
+- description: The Case Recipients API from Decisiv — 2 operation(s) for case recipients.
+  name: Decisiv Case Recipients API
+  slug: decisiv-case-recipients-api
+- description: The Case Relationships API from Decisiv — 8 operation(s) for case relationships.
+  name: Decisiv Case Relationships API
+  slug: decisiv-case-relationships-api
+- description: The Case Summaries API from Decisiv — 1 operation(s) for case summaries.
+  name: Decisiv Case Summaries API
+  slug: decisiv-case-summaries-api
+- description: The Cases API from Decisiv — 5 operation(s) for cases.
+  name: Decisiv Cases API
+  slug: decisiv-cases-api
+- description: The Contacts API from Decisiv — 4 operation(s) for contacts.
+  name: Decisiv Contacts API
+  slug: decisiv-contacts-api
+- description: The Customer Assets API from Decisiv — 4 operation(s) for customer assets.
+  name: Decisiv Customer Assets API
+  slug: decisiv-customer-assets-api
+- description: The Customer Requests API from Decisiv — 4 operation(s) for customer requests.
+  name: Decisiv Customer Requests API
+  slug: decisiv-customer-requests-api
+- description: The Customers API from Decisiv — 4 operation(s) for customers.
+  name: Decisiv Customers API
+  slug: decisiv-customers-api
+- description: The Deactivated Assets API from Decisiv — 3 operation(s) for deactivated assets.
+  name: Decisiv Deactivated Assets API
+  slug: decisiv-deactivated-assets-api
+- description: The Deactivated Depots API from Decisiv — 3 operation(s) for deactivated depots.
+  name: Decisiv Deactivated Depots API
+  slug: decisiv-deactivated-depots-api
+- description: The Departments API from Decisiv — 1 operation(s) for departments.
+  name: Decisiv Departments API
+  slug: decisiv-departments-api
+- description: The Depots API from Decisiv — 3 operation(s) for depots.
+  name: Decisiv Depots API
+  slug: decisiv-depots-api
+- description: The Diagnostic Readings API from Decisiv — 3 operation(s) for diagnostic readings.
+  name: Decisiv Diagnostic Readings API
+  slug: decisiv-diagnostic-readings-api
+- description: The Ecosystem Users API from Decisiv — 2 operation(s) for ecosystem users.
+  name: Decisiv Ecosystem Users API
+  slug: decisiv-ecosystem-users-api
+- description: The Estimates API from Decisiv — 3 operation(s) for estimates.
+  name: Decisiv Estimates API
+  slug: decisiv-estimates-api
+- description: The Extended Asset Attributes API from Decisiv — 4 operation(s) for extended asset attributes.
+  name: Decisiv Extended Asset Attributes API
+  slug: decisiv-extended-asset-attributes-api
+- description: The Extended Attributes API from Decisiv — 4 operation(s) for extended attributes.
+  name: Decisiv Extended Attributes API
+  slug: decisiv-extended-attributes-api
+- description: The Faults API from Decisiv — 3 operation(s) for faults.
+  name: Decisiv Faults API
+  slug: decisiv-faults-api
+- description: The group_assets API from Decisiv — 2 operation(s) for group_assets.
+  name: Decisiv Group Assets API
+  slug: decisiv-group-assets-api
+- description: The group_customers API from Decisiv — 1 operation(s) for group_customers.
+  name: Decisiv Group Customers API
+  slug: decisiv-group-customers-api
+- description: The Internal Users API from Decisiv — 4 operation(s) for internal users.
+  name: Decisiv Internal Users API
+  slug: decisiv-internal-users-api
+- description: The Line Items API from Decisiv — 2 operation(s) for line items.
+  name: Decisiv Line Items API
+  slug: decisiv-line-items-api
+- description: The OEM info API from Decisiv — 1 operation(s) for oem info.
+  name: Decisiv OEM info API
+  slug: decisiv-oem-info-api
+- description: The Operations API from Decisiv — 1 operation(s) for operations.
+  name: Decisiv Operations API
+  slug: decisiv-operations-api
+- description: The Program Types API from Decisiv — 2 operation(s) for program types.
+  name: Decisiv Program Types API
+  slug: decisiv-program-types-api
+- description: The Registered Asset Attachments API from Decisiv — 2 operation(s) for registered asset attachments.
+  name: Decisiv Registered Asset Attachments API
+  slug: decisiv-registered-asset-attachments-api
+- description: The Registered Assets API from Decisiv — 10 operation(s) for registered assets.
+  name: Decisiv Registered Assets API
+  slug: decisiv-registered-assets-api
+- description: The Registered Components API from Decisiv — 2 operation(s) for registered components.
+  name: Decisiv Registered Components API
+  slug: decisiv-registered-components-api
+- description: The Registered Components Relationships API from Decisiv — 1 operation(s) for registered components relationships.
+  name: Decisiv Registered Components Relationships API
+  slug: decisiv-registered-components-relationships-api
+- description: The Repair Statuses API from Decisiv — 1 operation(s) for repair statuses.
+  name: Decisiv Repair Statuses API
+  slug: decisiv-repair-statuses-api
+- description: The Service Group - Customer Assets API from Decisiv — 4 operation(s) for service group - customer assets.
+  name: Decisiv Service Group - Customer Assets API
+  slug: decisiv-service-group-customer-assets-api
+- description: The Service Group - Customer Contacts API from Decisiv — 2 operation(s) for service group - customer contacts.
+  name: Decisiv Service Group - Customer Contacts API
+  slug: decisiv-service-group-customer-contacts-api
+- description: The Service Group - Customers API from Decisiv — 2 operation(s) for service group - customers.
+  name: Decisiv Service Group - Customers API
+  slug: decisiv-service-group-customers-api
+- description: The Service Networks API from Decisiv — 2 operation(s) for service networks.
+  name: Decisiv Service Networks API
+  slug: decisiv-service-networks-api
+- description: The Service Providers API from Decisiv — 4 operation(s) for service providers.
+  name: Decisiv Service Providers API
+  slug: decisiv-service-providers-api
+- description: The Service Requests API from Decisiv — 3 operation(s) for service requests.
+  name: Decisiv Service Requests API
+  slug: decisiv-service-requests-api
+- description: The Skill Levels API from Decisiv — 2 operation(s) for skill levels.
+  name: Decisiv Skill Levels API
+  slug: decisiv-skill-levels-api
+- description: The Sublet Associations API from Decisiv — 2 operation(s) for sublet associations.
+  name: Decisiv Sublet Associations API
+  slug: decisiv-sublet-associations-api
+- description: The Sublet Case Participants API from Decisiv — 2 operation(s) for sublet case participants.
+  name: Decisiv Sublet Case Participants API
+  slug: decisiv-sublet-case-participants-api
+- description: The Sublet Case Recipients API from Decisiv — 2 operation(s) for sublet case recipients.
+  name: Decisiv Sublet Case Recipients API
+  slug: decisiv-sublet-case-recipients-api
+- description: The Sublet Cases API from Decisiv — 2 operation(s) for sublet cases.
+  name: Decisiv Sublet Cases API
+  slug: decisiv-sublet-cases-api
+- description: The Sublet Cases Attachments API from Decisiv — 2 operation(s) for sublet cases attachments.
+  name: Decisiv Sublet Cases Attachments API
+  slug: decisiv-sublet-cases-attachments-api
+- description: The Sublet Cases Line Items API from Decisiv — 1 operation(s) for sublet cases line items.
+  name: Decisiv Sublet Cases Line Items API
+  slug: decisiv-sublet-cases-line-items-api
+- description: The Sublet Cases Notes API from Decisiv — 2 operation(s) for sublet cases notes.
+  name: Decisiv Sublet Cases Notes API
+  slug: decisiv-sublet-cases-notes-api
+- description: The Sublet Requests API from Decisiv — 3 operation(s) for sublet requests.
+  name: Decisiv Sublet Requests API
+  slug: decisiv-sublet-requests-api
+- description: The Time Tasks API from Decisiv — 2 operation(s) for time tasks.
+  name: Decisiv Time Tasks API
+  slug: decisiv-time-tasks-api
+- description: The VMRS API from Decisiv — 18 operation(s) for vmrs.
+  name: Decisiv VMRS API
+  slug: decisiv-vmrs-api
+- description: The Webhooks API from Decisiv — 3 operation(s) for webhooks.
+  name: Decisiv Webhooks API
+  slug: decisiv-webhooks-api
+- description: The Webhooks Events API from Decisiv — 1 operation(s) for webhooks events.
+  name: Decisiv Webhooks Events API
+  slug: decisiv-webhooks-events-api
+artifact_total: 84
 asyncapis:
 - description: ''
   name: Decisiv Srm Gateway Webhooks
@@ -79,6 +268,34 @@ collections:
   name: Telematics
   slug: open-decisiv-telematics
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/decisiv-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/decisiv-account-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/decisiv-asset-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/decisiv-service-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/decisiv-telematics-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/decisiv-global-assets-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/decisiv-service-provider-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -236,13 +453,13 @@ modified: '2026-08-12'
 name: Decisiv
 nav: Providers
 network: true
-overview: 'Decisiv publishes 6 APIs on the [APIs.io](https://apis.io/) network, including SRM Gateway - Account Management, SRM Gateway - Asset Management, SRM Gateway - Service Management, and 3 more. Tagged areas include Company, commercial-vehicle, Fleet Management, service-relationship-management, and Telematics.
+overview: 'Decisiv publishes 69 APIs on the [APIs.io](https://apis.io/) network, including Account Roles API, Account User Roles API, Account Users API, and 66 more. Tagged areas include Company, commercial-vehicle, fleet-management, service-relationship-management, and telematics.
 
 
   The Decisiv catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Decisiv''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 30 more developer resources.'
+  Decisiv''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 37 more developer resources.'
 plans:
 - name: Decisiv Plans Pricing
   plan_count: 0
@@ -259,18 +476,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode/password
 score:
   band: developing
-  composite: 50.7
+  composite: 45.7
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
-    contract_quality: 62.0
+    contract_governance: 4.5
+    contract_quality: 61.7
     developer_ergonomics: 56.5
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 50.0
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 50.7
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -280,8 +502,8 @@ score:
       marker_coverage: 0.0
       total: 6
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decisiv/refs/heads/main/screenshots/decisiv-2026-08-17T080849.png
 security:
@@ -301,15 +523,15 @@ slug: decisiv
 tags:
 - Company
 - commercial-vehicle
-- Fleet Management
+- fleet-management
 - service-relationship-management
-- Telematics
-- Asset Management
+- telematics
+- asset-management
 - maintenance-and-repair
-- Heavy Duty Trucking
+- heavy-duty-trucking
 - Transportation
-- Dealer Management
-- JSON:API
+- dealer-management
+- json-api
 - Webhook
 website: https://www.decisiv.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 153
   slug: crusoe-energy-agentic-access
   summary_line: 153 operations · 66 acting
-api_count: 48
+api_count: 1
 apis:
 - description: The Crusoe Cloud API is the primary control plane for provisioning and managing GPU compute, storage, networking, Kubernetes clusters, identity, and billing on Crusoe's vertically integrated AI cloud.
   name: Crusoe Cloud API
@@ -337,6 +337,10 @@ collections:
   name: Crusoe Cloud API Gateway
   slug: open-crusoe-energy
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/crusoe-energy-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -420,7 +424,7 @@ network: true
 overview: 'Crusoe publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Audit Logs API, AutoCluster Operations API, AutoClusters API, and 44 more. Tagged areas include AI Cloud, GPU, Compute, Inference, and Energy.
 
 
-  Crusoe''s developer surface includes documentation, API reference, developer console, support, GitHub presence, engineering blog, and 11 more developer resources.'
+  Crusoe''s developer surface includes documentation, API reference, developer console, support, GitHub presence, engineering blog, and 12 more developer resources.'
 plans:
 - name: Crusoe Energy Plans Pricing
   plan_count: 1
@@ -432,15 +436,20 @@ rate_limits:
   slug: crusoe-energy-rate-limits
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 33.1
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 49.5
     developer_ergonomics: 23.8
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 33.7
@@ -457,8 +466,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crusoe-energy/refs/heads/main/screenshots/crusoe-energy-2026-06-20T175307.png
 security:

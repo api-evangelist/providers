@@ -33,12 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-26'
-api_count: 14
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: The Accounts API from Newcastle Permanent Building Society — 6 operation(s) for accounts.
-  name: Newcastle Permanent Building Society Accounts API
-  slug: newcastle-permanent-accounts-api
 - description: Banking Account Balance endpoints
   name: Newcastle Permanent Building Society Banking Account Balances API
   slug: newcastle-permanent-banking-account-balances-api
@@ -66,19 +63,7 @@ apis:
 - description: The Common API from Newcastle Permanent Building Society — 2 operation(s) for common.
   name: Newcastle Permanent Building Society Common API
   slug: newcastle-permanent-common-api
-- description: The Customer API from Newcastle Permanent Building Society — 2 operation(s) for customer.
-  name: Newcastle Permanent Building Society Customer API
-  slug: newcastle-permanent-customer-api
-- description: The Direct Debits API from Newcastle Permanent Building Society — 2 operation(s) for direct debits.
-  name: Newcastle Permanent Building Society Direct Debits API
-  slug: newcastle-permanent-direct-debits-api
-- description: The Payees API from Newcastle Permanent Building Society — 2 operation(s) for payees.
-  name: Newcastle Permanent Building Society Payees API
-  slug: newcastle-permanent-payees-api
-- description: The Scheduled Payments API from Newcastle Permanent Building Society — 2 operation(s) for scheduled payments.
-  name: Newcastle Permanent Building Society Scheduled Payments API
-  slug: newcastle-permanent-scheduled-payments-api
-artifact_total: 33
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -126,6 +111,10 @@ collections:
   name: CDR Banking Accounts Scheduled Payments API
   slug: open-newcastle-permanent-scheduled-payments-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/newcastle-permanent-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -250,10 +239,10 @@ modified: '2026-07-21'
 name: Newcastle Permanent Building Society
 nav: Providers
 network: true
-overview: 'Newcastle Permanent Building Society publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Banking Account Balances API, Banking Account Direct Debits API, and 11 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Banking.
+overview: 'Newcastle Permanent Building Society publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 6 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Banking.
 
 
-  Newcastle Permanent Building Society''s developer surface includes getting-started guide, documentation, API reference, sandbox, authentication, support, and 22 more developer resources.'
+  Newcastle Permanent Building Society''s developer surface includes getting-started guide, documentation, API reference, sandbox, authentication, support, and 23 more developer resources.'
 random_paper: 7
 scopes:
 - name: Newcastle Permanent Scopes
@@ -262,18 +251,23 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.7
+  composite: 43.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 50.7
     developer_ergonomics: 35.1
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 45.7
+  previous_composite: 43.1
   provenance:
     conformance: derived
     contracts:
@@ -293,8 +287,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/screenshots/newcastle-permanent-2026-07-21T115738.png
 security:

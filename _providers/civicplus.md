@@ -25,16 +25,16 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-08-26'
-api_count: 5
+  score: 18.3
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Request API from CivicPlus — 1 operation(s) for request.
   name: CivicPlus Request API
@@ -72,6 +72,10 @@ collections:
   name: Open311 GeoReport Request Tokens API
   slug: open-civicplus-tokens-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/civicplus-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -179,22 +183,27 @@ network: true
 overview: 'CivicPlus publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Request API, Requests.{response Format} API, Services API, and 2 more. Tagged areas include Company, Government, GovTech, Local Government, and 311.
 
 
-  CivicPlus'' developer surface includes support, authentication, sandbox, and 20 more developer resources.'
+  CivicPlus'' developer surface includes support, authentication, sandbox, and 21 more developer resources.'
 random_paper: 12
 score:
   band: thin
-  composite: 39.1
-  delta: 7.1
+  composite: 36.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
-    contract_quality: 49.0
+    contract_governance: 4.5
+    contract_quality: 46.3
     developer_ergonomics: 64.3
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 32.0
+  previous_composite: 37.0
   provenance:
     conformance: derived
     contracts:
@@ -209,9 +218,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/screenshots/civicplus-2026-07-25T205443.png
 security:
 - kind: authentication

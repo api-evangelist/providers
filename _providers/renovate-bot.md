@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
 - description: The open source Renovate CLI is a Node.js application distributed via npm and as Docker images on Docker Hub and GitHub Container Registry. It can be run locally, in CI, or as a long-lived self-hosted
@@ -55,6 +55,18 @@ apis:
   slug: renovate-merge-confidence
 artifact_total: 32
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/renovatebot/renovate/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/renovatebot/renovate/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/renovatebot/renovate/blob/main/.github/contributing.md
 - group: auth
   title: ''
   type: TrustCenter
@@ -272,14 +284,19 @@ modified: '2026-05-25'
 name: Renovate
 nav: Providers
 network: true
-overview: 'Renovate publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DependencyUpdates, Developer Tools, Bots, Automation, and Software Supply Chain.
+overview: 'Renovate publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DependencyUpdates, DeveloperTools, Bots, Automation, and SoftwareSupplyChain.
 
 
-  Renovate''s developer surface includes developer portal, documentation, getting-started guide, signup flow, changelog, support, tooling, and 39 more developer resources.'
+  Renovate''s developer surface includes developer portal, documentation, getting-started guide, signup flow, changelog, support, tooling, and 42 more developer resources.'
 random_paper: 20
 score:
   band: thin
-  composite: 27.5
+  composite: 36.0
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -289,10 +306,13 @@ score:
     developer_ergonomics: 40.5
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 18.4
-  previous_composite: 27.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 36.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/renovate-bot/refs/heads/main/screenshots/renovate-bot-2026-06-20T192849.png
 security:
@@ -307,11 +327,11 @@ security:
 slug: renovate-bot
 tags:
 - DependencyUpdates
-- Developer Tools
+- DeveloperTools
 - Bots
 - Automation
-- Software Supply Chain
-- Open-Source
+- SoftwareSupplyChain
+- OpenSource
 - Mend
 - AGPLv3
 - Node.js

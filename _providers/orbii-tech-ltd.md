@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 191
   slug: orbii-tech-ltd-agentic-access
   summary_line: 191 operations · 36 acting
-api_count: 31
+api_count: 5
 apis:
 - description: The Business Category Assignment API from Orbii Tech Ltd — 1 operation(s) for business category assignment.
   name: Orbii Tech Ltd Business Category Assignment API
@@ -334,18 +334,23 @@ overview: 'Orbii Tech Ltd publishes 31 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 2
 score:
   band: thin
-  composite: 32.4
+  composite: 30.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 44.4
     developer_ergonomics: 43.5
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 32.4
+  previous_composite: 30.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -362,8 +367,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbii-tech-ltd/refs/heads/main/screenshots/orbii-tech-ltd-2026-08-07T190907.png
 security:

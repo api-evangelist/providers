@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 83
   slug: lead-bank-agentic-access
   summary_line: 83 operations · 58 acting
-api_count: 22
+api_count: 1
 apis:
 - description: Embedded-credit API supporting term loans, revolving lines of credit, in-app financing, and buy-now-pay-later products. Covers origination, underwriting, servicing, and disbursement.
   name: Lead Bank Lend API
@@ -167,6 +167,10 @@ collections:
   name: Lead Bank
   slug: open-lead-bank
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lead-bank-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -222,7 +226,7 @@ network: true
 overview: 'Lead Bank publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account Number API, ACH API, Blockchain Payment API, and 13 more. Tagged areas include Banking, Sponsor Bank, Embedded Finance, Banking as a Service, and Payments.
 
 
-  Lead Bank''s developer surface includes authentication, documentation, changelog, and 7 more developer resources.'
+  Lead Bank''s developer surface includes authentication, documentation, changelog, and 8 more developer resources.'
 plans:
 - name: Lead Bank Plans Pricing
   plan_count: 1
@@ -234,15 +238,20 @@ rate_limits:
   slug: lead-bank-rate-limits
 score:
   band: thin
-  composite: 35.1
-  delta: 0.0
+  composite: 34.6
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 56.8
     developer_ergonomics: 21.4
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 35.1
@@ -259,8 +268,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/screenshots/lead-bank-2026-06-20T184345.png
 security:

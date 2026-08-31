@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -31,48 +31,183 @@ agentic_access:
   operation_count: 205
   slug: purplebricks-agentic-access
   summary_line: 205 operations · 76 acting · 2 human-in-the-loop
-api_count: 13
+api_count: 32
 apis:
-- description: 'The largest of the publicly-reachable Purplebricks microservice APIs (86 v1 paths plus an 11-path v2), covering the property record end to end: active, preactive, inactive and withdrawn properties, pr'
+- description: The AccessDetails API from Purplebricks — 3 operation(s) for accessdetails.
+  name: Purplebricks Access Details API
+  slug: purplebricks-accessdetails-api
+- description: The ActiveProperty API from Purplebricks — 2 operation(s) for activeproperty.
+  name: Purplebricks Active Property API
+  slug: purplebricks-activeproperty-api
+- description: The ActivityDashboard API from Purplebricks — 6 operation(s) for activitydashboard.
+  name: Purplebricks Activity Dashboard API
+  slug: purplebricks-activitydashboard-api
+- description: The Address API from Purplebricks — 2 operation(s) for address.
+  name: Purplebricks Address API
+  slug: purplebricks-address-api
+- description: The AgentOutlookSync API from Purplebricks — 1 operation(s) for agentoutlooksync.
+  name: Purplebricks Agent Outlook Sync API
+  slug: purplebricks-agentoutlooksync-api
+- description: The Appointments API from Purplebricks — 2 operation(s) for appointments.
+  name: Purplebricks Appointments API
+  slug: purplebricks-appointments-api
+- description: The Auth API from Purplebricks — 1 operation(s) for auth.
+  name: Purplebricks Auth API
+  slug: purplebricks-auth-api
+- description: The Bland API from Purplebricks — 5 operation(s) for bland.
+  name: Purplebricks Bland API
+  slug: purplebricks-bland-api
+- description: The ContactUs API from Purplebricks — 1 operation(s) for contactus.
+  name: Purplebricks Contact Us API
+  slug: purplebricks-contactus-api
+- description: The ConveyancingQuote API from Purplebricks — 3 operation(s) for conveyancingquote.
+  name: Purplebricks Conveyancing Quote API
+  slug: purplebricks-conveyancingquote-api
+- description: The Countrywide API from Purplebricks — 1 operation(s) for countrywide.
+  name: Purplebricks Countrywide API
+  slug: purplebricks-countrywide-api
+- description: The CustomerEmails API from Purplebricks — 2 operation(s) for customeremails.
+  name: Purplebricks Customer Emails API
+  slug: purplebricks-customeremails-api
+- description: The Dashboard API from Purplebricks — 4 operation(s) for dashboard.
+  name: Purplebricks Dashboard API
+  slug: purplebricks-dashboard-api
+- description: The EmailConfirmation API from Purplebricks — 1 operation(s) for emailconfirmation.
+  name: Purplebricks Email Confirmation API
+  slug: purplebricks-emailconfirmation-api
+- description: The Enquiries API from Purplebricks — 3 operation(s) for enquiries.
+  name: Purplebricks Enquiries API
+  slug: purplebricks-enquiries-api
+- description: The ExpertCreated API from Purplebricks — 1 operation(s) for expertcreated.
+  name: Purplebricks Expert Created API
+  slug: purplebricks-expertcreated-api
+- description: The ExposureReport API from Purplebricks — 6 operation(s) for exposurereport.
+  name: Purplebricks Exposure Report API
+  slug: purplebricks-exposurereport-api
+- description: The FollowUp API from Purplebricks — 6 operation(s) for followup.
+  name: Purplebricks Follow Up API
+  slug: purplebricks-followup-api
+- description: The GoToMarket API from Purplebricks — 17 operation(s) for gotomarket.
+  name: Purplebricks Go To Market API
+  slug: purplebricks-gotomarket-api
+- description: The InactiveProperty API from Purplebricks — 1 operation(s) for inactiveproperty.
+  name: Purplebricks Inactive Property API
+  slug: purplebricks-inactiveproperty-api
+- description: The InstantInstruct API from Purplebricks — 1 operation(s) for instantinstruct.
+  name: Purplebricks Instant Instruct API
+  slug: purplebricks-instantinstruct-api
+- description: The InternalPerformanceReport API from Purplebricks — 5 operation(s) for internalperformancereport.
+  name: Purplebricks Internal Performance Report API
+  slug: purplebricks-internalperformancereport-api
+- description: The IsInstructAvailable API from Purplebricks — 1 operation(s) for isinstructavailable.
+  name: Purplebricks Is Instruct Available API
+  slug: purplebricks-isinstructavailable-api
+- description: The LandRegistry API from Purplebricks — 1 operation(s) for landregistry.
+  name: Purplebricks Land Registry API
+  slug: purplebricks-landregistry-api
+- description: The LeadCapture API from Purplebricks — 1 operation(s) for leadcapture.
+  name: Purplebricks Lead Capture API
+  slug: purplebricks-leadcapture-api
+- description: The ManageFeedback API from Purplebricks — 1 operation(s) for managefeedback.
+  name: Purplebricks Manage Feedback API
+  slug: purplebricks-managefeedback-api
+- description: The MarketingPreferences API from Purplebricks — 2 operation(s) for marketingpreferences.
+  name: Purplebricks Marketing Preferences API
+  slug: purplebricks-marketingpreferences-api
+- description: The Messages API from Purplebricks — 4 operation(s) for messages.
+  name: Purplebricks Messages API
+  slug: purplebricks-messages-api
+- description: The OnTheMarketBranch API from Purplebricks — 3 operation(s) for onthemarketbranch.
+  name: Purplebricks On The Market Branch API
+  slug: purplebricks-onthemarketbranch-api
+- description: The OpenDays API from Purplebricks — 2 operation(s) for opendays.
+  name: Purplebricks Open Days API
+  slug: purplebricks-opendays-api
+- description: The Owners API from Purplebricks — 2 operation(s) for owners.
+  name: Purplebricks Owners API
+  slug: purplebricks-owners-api
+- description: The PerformanceReport API from Purplebricks — 4 operation(s) for performancereport.
+  name: Purplebricks Performance Report API
+  slug: purplebricks-performancereport-api
+- description: The PhoneVerification API from Purplebricks — 4 operation(s) for phoneverification.
+  name: Purplebricks Phone Verification API
+  slug: purplebricks-phoneverification-api
+- description: The PostCode API from Purplebricks — 2 operation(s) for postcode.
+  name: Purplebricks Post Code API
+  slug: purplebricks-postcode-api
+- description: The Preactive API from Purplebricks — 2 operation(s) for preactive.
+  name: Purplebricks Preactive API
+  slug: purplebricks-preactive-api
+- description: The PreInstruct API from Purplebricks — 2 operation(s) for preinstruct.
+  name: Purplebricks Pre Instruct API
+  slug: purplebricks-preinstruct-api
+- description: The Properties API from Purplebricks — 2 operation(s) for properties.
+  name: Purplebricks Properties API
+  slug: purplebricks-properties-api
+- description: The Property API from Purplebricks — 30 operation(s) for property.
   name: Purplebricks Property API
   slug: purplebricks-property-api
-- description: 'Identity and account service for Purplebricks customers: authentication, user records, email confirmation, phone verification, marketing preferences and the expert-created account path. Bearer-token p'
-  name: Purplebricks Account API
-  slug: purplebricks-account-api
-- description: 'Free-valuation funnel service: valuation intent capture, lead capture, postcode resolution, valuation reports, follow-up scheduling and a Salesforce diary pilot, plus a v2 valuation surface. This is t'
-  name: Purplebricks Valuations API
-  slug: purplebricks-valuations-api
-- description: 'Viewing and appointment service: appointments, open days, property access details, per-property and per-user viewing surfaces, and a Bland voice-agent integration surface. Documents 409 conflict and 4'
-  name: Purplebricks Viewings API
-  slug: purplebricks-viewings-api
-- description: 'Threaded messaging between customers, sellers and local property experts: message threads, individual messages, read state, system messages and cursor-paginated thread listings, with a v2 thread surfa'
-  name: Purplebricks Messaging API
-  slug: purplebricks-messaging-api
-- description: Lettings integration service run by the Team Integrations squad. Creates valuation, viewing and offer enquiries in street.co.uk, handles inbound street.co.uk listing webhooks, exposes the pre-instruct
-  name: Purplebricks Lettings API
-  slug: purplebricks-lettings-api
-- description: 'Portal syndication service exposing Rightmove, Zoopla and OnTheMarket branch records alongside property operations. This is the machine-readable trace of the UK no-MLS seam: an agency pushing branch a'
-  name: Purplebricks Branch API
-  slug: purplebricks-branch-api
-- description: Outbound and inbound communication service covering the contact-us surface, customer emails and TPS (Telephone Preference Service) screening — the UK direct-marketing suppression check that any regula
-  name: Purplebricks Communications API
-  slug: purplebricks-communications-api
-- description: Conveyancing quote service run by PB Digital, generating and retrieving conveyancing quotes for the legal leg of a Purplebricks sale.
-  name: Purplebricks Conveyancing API
-  slug: purplebricks-conveyancing-api
-- description: Small agent-experience service exposing team lookups for the local property experts who staff the Purplebricks model in place of high-street branches.
-  name: Purplebricks Agent API
-  slug: purplebricks-agent-api
-- description: Single-surface feedback management service used to manage viewing and vendor feedback across the platform.
-  name: Purplebricks Feedback API
-  slug: purplebricks-feedback-api
-- description: Platform workflow service exposing workflow steps and an instruct-availability check that gates whether a seller can be instructed at a given point in the journey.
-  name: Purplebricks Workflow API
-  slug: purplebricks-workflow-api
-- description: Agent-facing microservice that reads and toggles Outlook calendar synchronisation for a local property expert. The only Purplebricks API path disclosed in robots.txt, and the thread that led to the re
-  name: Purplebricks Outlook Sync API
-  slug: purplebricks-outlook-sync-api
-artifact_total: 33
+- description: The PropertyBox API from Purplebricks — 2 operation(s) for propertybox.
+  name: Purplebricks Property Box API
+  slug: purplebricks-propertybox-api
+- description: The PropertyQuestionnaireForm API from Purplebricks — 1 operation(s) for propertyquestionnaireform.
+  name: Purplebricks Property Questionnaire Form API
+  slug: purplebricks-propertyquestionnaireform-api
+- description: The PropertySearchHits API from Purplebricks — 1 operation(s) for propertysearchhits.
+  name: Purplebricks Property Search Hits API
+  slug: purplebricks-propertysearchhits-api
+- description: The RailwayStations API from Purplebricks — 1 operation(s) for railwaystations.
+  name: Purplebricks Railway Stations API
+  slug: purplebricks-railwaystations-api
+- description: The RightmoveBranch API from Purplebricks — 3 operation(s) for rightmovebranch.
+  name: Purplebricks Rightmove Branch API
+  slug: purplebricks-rightmovebranch-api
+- description: The SalesforceDiaryPilot API from Purplebricks — 1 operation(s) for salesforcediarypilot.
+  name: Purplebricks Salesforce Diary Pilot API
+  slug: purplebricks-salesforcediarypilot-api
+- description: The Step API from Purplebricks — 2 operation(s) for step.
+  name: Purplebricks Step API
+  slug: purplebricks-step-api
+- description: The StreetWebhooks API from Purplebricks — 2 operation(s) for streetwebhooks.
+  name: Purplebricks Street Webhooks API
+  slug: purplebricks-streetwebhooks-api
+- description: The Team API from Purplebricks — 2 operation(s) for team.
+  name: Purplebricks Team API
+  slug: purplebricks-team-api
+- description: The TecletPostcode API from Purplebricks — 2 operation(s) for tecletpostcode.
+  name: Purplebricks Teclet Postcode API
+  slug: purplebricks-tecletpostcode-api
+- description: The Threads API from Purplebricks — 7 operation(s) for threads.
+  name: Purplebricks Threads API
+  slug: purplebricks-threads-api
+- description: The Tps API from Purplebricks — 1 operation(s) for tps.
+  name: Purplebricks Tps API
+  slug: purplebricks-tps-api
+- description: The TrackedProperties API from Purplebricks — 4 operation(s) for trackedproperties.
+  name: Purplebricks Tracked Properties API
+  slug: purplebricks-trackedproperties-api
+- description: The User API from Purplebricks — 6 operation(s) for user.
+  name: Purplebricks User API
+  slug: purplebricks-user-api
+- description: The Users API from Purplebricks — 4 operation(s) for users.
+  name: Purplebricks Users API
+  slug: purplebricks-users-api
+- description: The Valuation API from Purplebricks — 4 operation(s) for valuation.
+  name: Purplebricks Valuation API
+  slug: purplebricks-valuation-api
+- description: The ValuationIntent API from Purplebricks — 6 operation(s) for valuationintent.
+  name: Purplebricks Valuation Intent API
+  slug: purplebricks-valuationintent-api
+- description: The ValuationReport API from Purplebricks — 1 operation(s) for valuationreport.
+  name: Purplebricks Valuation Report API
+  slug: purplebricks-valuationreport-api
+- description: The Withdraw API from Purplebricks — 4 operation(s) for withdraw.
+  name: Purplebricks Withdraw API
+  slug: purplebricks-withdraw-api
+- description: The ZooplaBranch API from Purplebricks — 3 operation(s) for zooplabranch.
+  name: Purplebricks Zoopla Branch API
+  slug: purplebricks-zooplabranch-api
+artifact_total: 78
 asyncapis:
 - description: ''
   name: Purplebricks Webhooks
@@ -127,6 +262,62 @@ collections:
   name: Purplebricks Workflow API 1.0 - Platform
   slug: open-purplebricks-workflow-v1
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/purplebricks-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/purplebricks-property-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/purplebricks-account-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/purplebricks-valuations-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/purplebricks-viewings-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/purplebricks-messaging-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/purplebricks-lettings-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/purplebricks-branch-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/purplebricks-communications-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/purplebricks-conveyancing-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/purplebricks-agent-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/purplebricks-feedback-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/purplebricks-workflow-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/purplebricks-outlook-v1-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -332,28 +523,33 @@ modified: '2026-07-26'
 name: Purplebricks
 nav: Providers
 network: true
-overview: 'Purplebricks publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Property API, Account API, Valuations API, and 10 more. Tagged areas include Real-Estate, United Kingdom, Property Listings, Online Estate Agency, and Rentals.
+overview: 'Purplebricks publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Access Details API, Active Property API, Activity Dashboard API, and 55 more. Tagged areas include Real-Estate, United Kingdom, Property Listings, Online Estate Agency, and Rentals.
 
 
   The Purplebricks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Purplebricks'' developer surface includes pricing, engineering blog, YouTube channel, authentication, API reference, signup flow, support, and 42 more developer resources.'
+  Purplebricks'' developer surface includes pricing, engineering blog, YouTube channel, authentication, API reference, signup flow, support, and 56 more developer resources.'
 random_paper: 0
 score:
   band: thin
-  composite: 37.1
-  delta: 0.2
+  composite: 35.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
-    contract_quality: 51.3
+    contract_governance: 4.5
+    contract_quality: 51.1
     developer_ergonomics: 28.0
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 36.9
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -364,8 +560,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 106
   slug: suger-agentic-access
   summary_line: 106 operations · 64 acting
-api_count: 11
+api_count: 1
 apis:
 - description: Access to API client resources
   name: Suger API API
@@ -239,7 +239,7 @@ modified: '2026-05-19'
 name: Suger
 nav: Providers
 network: true
-overview: 'Suger publishes 11 APIs on the [APIs.io](https://apis.io/) network, including API API, Billing API, Buyer API, and 8 more. Tagged areas include Cloud Marketplace, Go-To-Market, Software-as-a-Service, Billing, and Entitlement.
+overview: 'Suger publishes 11 APIs on the [APIs.io](https://apis.io/) network, including API API, Billing API, Buyer API, and 8 more. Tagged areas include Cloud Marketplace, GTM, Software-as-a-Service, Billing, and Entitlement.
 
 
   The Suger catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -279,15 +279,20 @@ rules:
   slug: suger-rules
 score:
   band: developing
-  composite: 41.3
-  delta: 0.0
+  composite: 40.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 13.6
     contract_quality: 63.1
     developer_ergonomics: 42.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 13.6
     operational_transparency: 7.9
   previous_composite: 41.3
@@ -298,8 +303,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suger/refs/heads/main/screenshots/suger-2026-06-20T194638.png
 security:
@@ -322,7 +327,7 @@ security:
 slug: suger
 tags:
 - Cloud Marketplace
-- Go-To-Market
+- GTM
 - Software-as-a-Service
 - Billing
 - Entitlement

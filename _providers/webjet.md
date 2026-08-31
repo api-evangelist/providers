@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -31,38 +31,65 @@ agentic_access:
   operation_count: 47
   slug: webjet-agentic-access
   summary_line: 47 operations · 43 acting
-api_count: 10
+api_count: 17
 apis:
-- description: SmartFlights is Trip Ninja's current (v3) flight-construction API. A travel platform posts a traveller search to /v3/get-searches/, Trip Ninja returns the set of optimised content queries to run again
-  name: Trip Ninja SmartFlights API
-  slug: tripninja-smartflights-api
-- description: The single documented Admin Panel operation, POST /adminpanel/refresh-token/, exchanges a refresh token for a new access token. Access tokens expire 90 days after issue; refresh tokens have an indefin
-  name: Trip Ninja Admin Panel API
-  slug: tripninja-admin-panel-api
-- description: FareStructure is the deprecated v2 predecessor to SmartFlights, still published under devhub.tripninja.io/deprecated/farestructure/. It automates split ticketing across multiple content sources to bui
-  name: Trip Ninja FareStructure API (deprecated)
-  slug: tripninja-farestructure-api
-- description: Virtual Interlining is the deprecated v2 product that combines segments from carriers with no interline agreement into a single sellable itinerary, published under devhub.tripninja.io/deprecated/virtu
-  name: Trip Ninja Virtual Interlining API (deprecated)
-  slug: tripninja-virtual-interlining-api
 - description: DataStream is a separately-credentialled Trip Ninja product with its own documentation section (setup, authentication, integration lifecycle) and its own public Postman collection. It uses the same To
   name: Trip Ninja DataStream API
   slug: tripninja-datastream-api
-- description: A flight search and reporting surface published by Trip Ninja in its own public GitHub documentation repository (github.com/trip-ninja-inc/trip_ninja_api_docs) rather than on the developer hub. Five o
-  name: Trip Ninja Flights Core API
-  slug: tripninja-flights-core-api
-- description: The fullest Trip Ninja transaction surface, published in Trip Ninja's public GitHub documentation repository. Seven operations with real operationIds — PriceConfirm (POST /price/{endpoint}/), CreateBo
-  name: Trip Ninja Pricing & Booking API
-  slug: tripninja-pricing-booking-api
-- description: A hotel shopping surface — Search (POST /search/hotels/{endpoint}), Details (POST /details/hotels/{endpoint}/), Rules (POST /rules/hotels/{endpoint}/) and PriceConfirm plus a price-confirmation remova
-  name: Trip Ninja Hotels API
-  slug: tripninja-hotels-api
-- description: 'MSDP is Trip Ninja''s multi-source dynamic packaging product — flights and hotels combined into one sellable package. Nine operations with real operationIds: MSDPSearch, MSDPGetFlightResults, MSDPGetHo'
-  name: Trip Ninja MSDP (Dynamic Packaging) API
-  slug: tripninja-msdp-api
-- description: Two further GitHub-published OpenAPI 3.0.0 documents describing the 2.0.0-era surface — a core document (/get-searches/, /generate-solutions/) and a booking document (Search, PriceConfirm, CreateBooki
-  name: Trip Ninja v2 Legacy API
-  slug: tripninja-v2-legacy-api
+- description: The Adminpanel API from Webjet — 1 operation(s) for adminpanel.
+  name: Webjet Adminpanel API
+  slug: webjet-adminpanel-api
+- description: The Book API from Webjet — 5 operation(s) for book.
+  name: Webjet Book API
+  slug: webjet-book-api
+- description: The Booking API from Webjet — 1 operation(s) for booking.
+  name: Webjet Booking API
+  slug: webjet-booking-api
+- description: The Cancel API from Webjet — 1 operation(s) for cancel.
+  name: Webjet Cancel API
+  slug: webjet-cancel-api
+- description: The Details API from Webjet — 1 operation(s) for details.
+  name: Webjet Details API
+  slug: webjet-details-api
+- description: The Generate Solutions API from Webjet — 3 operation(s) for generate solutions.
+  name: Webjet Generate Solutions API
+  slug: webjet-generate-solutions-api
+- description: The Get Searches API from Webjet — 3 operation(s) for get searches.
+  name: Webjet Get Searches API
+  slug: webjet-get-searches-api
+- description: The Msdp API from Webjet — 8 operation(s) for msdp.
+  name: Webjet Msdp API
+  slug: webjet-msdp-api
+- description: The Pre Booking API from Webjet — 1 operation(s) for pre booking.
+  name: Webjet Pre Booking API
+  slug: webjet-pre-booking-api
+- description: The Price API from Webjet — 3 operation(s) for price.
+  name: Webjet Price API
+  slug: webjet-price-api
+- description: The Queue API from Webjet — 1 operation(s) for queue.
+  name: Webjet Queue API
+  slug: webjet-queue-api
+- description: The Report API from Webjet — 4 operation(s) for report.
+  name: Webjet Report API
+  slug: webjet-report-api
+- description: The Results API from Webjet — 1 operation(s) for results.
+  name: Webjet Results API
+  slug: webjet-results-api
+- description: The Rules API from Webjet — 1 operation(s) for rules.
+  name: Webjet Rules API
+  slug: webjet-rules-api
+- description: The Search API from Webjet — 3 operation(s) for search.
+  name: Webjet Search API
+  slug: webjet-search-api
+- description: The Super Trip API from Webjet — 2 operation(s) for super trip.
+  name: Webjet Super Trip API
+  slug: webjet-super-trip-api
+- description: The Ticket API from Webjet — 1 operation(s) for ticket.
+  name: Webjet Ticket API
+  slug: webjet-ticket-api
+- description: The Ticketing API from Webjet — 1 operation(s) for ticketing.
+  name: Webjet Ticketing API
+  slug: webjet-ticketing-api
 arazzos:
 - description: The Trip Ninja reporting loop. These operations do not book or cancel anything with an airline — they report to Trip Ninja what your platform already did, which is what drives billing and the machine-
   name: Trip Ninja — report price confirmation, booking, ticketing and cancellation
@@ -70,7 +97,7 @@ arazzos:
 - description: End-to-end flight retailing against the Trip Ninja surface published in Trip Ninja's own GitHub documentation repository (https://github.com/trip-ninja-inc/trip_ninja_api_docs, last updated 2023-12-14
   name: Trip Ninja — search, confirm price, book and ticket
   slug: webjet-tripninja-search-price-book-ticket
-artifact_total: 31
+artifact_total: 40
 collections:
 - collection_type: open
   name: Trip Ninja API Documentation
@@ -115,6 +142,98 @@ collections:
   name: Trip Ninja API Documentation
   slug: open-webjet-tripninja-virtual-interlining-get-searches
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/webjet-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/trip-ninja-inc/trip_ninja_api_docs/issues
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/webjet-smartflights-get-searches-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/webjet-smartflights-generate-solutions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/webjet-smartflights-report-book-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/webjet-smartflights-report-cancel-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/webjet-tripninja-search-and-construct.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/webjet-tripninja-report-booking-and-cancellation.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/webjet-adminpanel-refresh-token-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/webjet-tripninja-rotate-access-token.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/webjet-farestructure-get-searches-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/webjet-farestructure-generate-solutions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/webjet-farestructure-report-book-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/webjet-farestructure-report-cancel-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/webjet-virtual-interlining-get-searches-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/webjet-virtual-interlining-generate-solutions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/webjet-flights-core-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/webjet-pricing-booking-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/webjet-tripninja-price-book-and-ticket.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/webjet-hotels-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/webjet-msdp-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/webjet-v2-core-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/webjet-v2-booking-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -283,10 +402,10 @@ modified: '2026-07-28'
 name: Webjet
 nav: Providers
 network: true
-overview: 'Webjet publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Trip Ninja SmartFlights API, Trip Ninja Admin Panel API, Trip Ninja FareStructure API (deprecated), and 7 more. Tagged areas include Travel, Australia, OTA, Aviation, and Booking.
+overview: 'Webjet publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Trip Ninja DataStream API, Adminpanel API, Book API, and 16 more. Tagged areas include Travel, Australia, OTA, Aviation, and Booking.
 
 
-  Webjet''s developer surface includes authentication, sandbox, API reference, getting-started guide, pricing, engineering blog, documentation, and 32 more developer resources.'
+  Webjet''s developer surface includes authentication, sandbox, API reference, getting-started guide, pricing, engineering blog, documentation, and 55 more developer resources.'
 random_paper: 11
 rate_limits:
 - limit_count: 1
@@ -294,18 +413,26 @@ rate_limits:
   slug: webjet-rate-limits
 score:
   band: thin
-  composite: 37.5
-  delta: 1.6
+  composite: 31.6
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 82.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 16.7
-    contract_quality: 47.3
+    contract_governance: 4.5
+    contract_quality: 49.7
     developer_ergonomics: 32.7
-    discoverability: 61.1
-    governance: 16.7
+    discoverability: 46.3
+    governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 35.9
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -316,8 +443,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webjet/refs/heads/main/screenshots/webjet-2026-08-17T082854.png
 security:

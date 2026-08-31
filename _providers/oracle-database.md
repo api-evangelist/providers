@@ -17,9 +17,9 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-08-26'
+  score: 25.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 156
   slug: oracle-database-agentic-access
   summary_line: 156 operations · 70 acting · 3 human-in-the-loop
-api_count: 29
+api_count: 3
 apis:
 - description: MongoDB-compatible API for Oracle Database.
   name: Oracle Database API for MongoDB
@@ -294,6 +294,10 @@ collections:
   name: Oracle Database Oracle SODA (Simple Oracle Document Access) REST API
   slug: open-oracle-database-soda
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/oracle-database-capability-edges.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -813,7 +817,7 @@ overview: 'Oracle Database publishes 25 APIs on the [APIs.io](https://apis.io/) 
   The Oracle Database catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Oracle Database''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, developer console, and 16 more developer resources.'
+  Oracle Database''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, developer console, and 17 more developer resources.'
 plans:
 - name: Oracle Database Plans Pricing
   plan_count: 6
@@ -852,18 +856,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.6
-  delta: 2.8
+  composite: 50.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 80.2
+    contract_quality: 78.1
     developer_ergonomics: 57.1
     discoverability: 40.7
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 47.8
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     contracts:
@@ -871,8 +880,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/screenshots/oracle-database-2026-06-20T191126.png
 security:

@@ -29,11 +29,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 6.8
-  scored_at: '2026-08-26'
+  score: 19.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 3
   slug: shufti-pro-agentic-access
   summary_line: 3 operations · 3 acting
-api_count: 4
+api_count: 1
 apis:
 - description: 'REST API for end-to-end identity verification including document verification, facial biometrics with liveness detection, address verification, AML screening against 1700+ watchlists, phone and email '
   name: Shufti Pro Verification API
@@ -55,7 +55,13 @@ apis:
 - description: Biometric authentication and re-verification API enabling face-based login and identity re-confirmation for returning users. Uses liveness detection to prevent spoofing and supports fast ID reusabilit
   name: Shufti Pro Biometric Authentication API
   slug: biometric-auth-api
-artifact_total: 15
+- description: The Status API from Shufti Pro — 2 operation(s) for status.
+  name: Shufti Pro Status API
+  slug: shufti-pro-status-api
+- description: The Verification API from Shufti Pro — 1 operation(s) for verification.
+  name: Shufti Pro Verification API
+  slug: shufti-pro-verification-api
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -147,7 +153,7 @@ modified: '2026-08-08'
 name: Shufti Pro
 nav: Providers
 network: true
-overview: 'Shufti Pro publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Identity Verification, KYC, AML, KYB, and Face Biometrics.
+overview: 'Shufti Pro publishes 2 APIs on the [APIs.io](https://apis.io/) network: Status API and Verification API. Tagged areas include Identity Verification, KYC, AML, KYB, and Face Biometrics.
 
 
   The Shufti Pro catalog on APIs.io includes 1 JSON-LD context.
@@ -164,19 +170,24 @@ rate_limits:
   name: Shufti Pro Rate Limits
   slug: shufti-pro-rate-limits
 score:
-  band: thin
-  composite: 34.0
-  delta: 0.0
+  band: developing
+  composite: 43.8
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 40.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 21.3
+    contract_quality: 62.9
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 34.0
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     contracts:
@@ -184,8 +195,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/screenshots/shufti-pro-2026-06-20T193953.png
 security:

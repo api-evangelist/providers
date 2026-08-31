@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-26'
-api_count: 6
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Bridges API from Starbridge — 4 operation(s) for bridges.
   name: Starbridge Bridges API
@@ -46,16 +46,13 @@ apis:
 - description: The Columns API from Starbridge — 1 operation(s) for columns.
   name: Starbridge Columns API
   slug: starbridge-columns-api
-- description: The External API API from Starbridge — 11 operation(s) for external api.
-  name: Starbridge External API API
-  slug: starbridge-external-api-api
 - description: The External MCP API from Starbridge — 11 operation(s) for external mcp.
   name: Starbridge External MCP API
   slug: starbridge-external-mcp-api
 - description: The Signal API from Starbridge — 2 operation(s) for signal.
   name: Starbridge Signal API
   slug: starbridge-signal-api
-artifact_total: 21
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Starbridge Webhooks
@@ -243,7 +240,7 @@ modified: '2026-08-14'
 name: Starbridge
 nav: Providers
 network: true
-overview: 'Starbridge publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Bridges API, Buyer API, Columns API, and 3 more. Tagged areas include Company, Artificial Intelligence, Sales Intelligence, Go-To-Market, and Public Sector.
+overview: 'Starbridge publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Bridges API, Buyer API, Columns API, and 2 more. Tagged areas include Company, Artificial Intelligence, Sales Intelligence, Go-To-Market, and Public Sector.
 
 
   The Starbridge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -266,18 +263,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.3
-  delta: 0.0
+  composite: 60.2
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
-    contract_quality: 64.8
+    contract_governance: 18.2
+    contract_quality: 64.4
     developer_ergonomics: 54.8
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 62.3
+  previous_composite: 60.7
   provenance:
     conformance: first-party
     contracts:
@@ -293,8 +295,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 74.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starbridge/refs/heads/main/screenshots/starbridge-2026-08-17T082105.png
 security:

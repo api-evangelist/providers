@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,53 +31,50 @@ agentic_access:
   operation_count: 16
   slug: aeso-agentic-access
   summary_line: 16 operations
-api_count: 15
+api_count: 14
 apis:
-- description: The hourly Alberta Pool Price — the settlement price of the province's energy-only wholesale electricity market — served as JSON for any date range back to 2000-01-01, up to one year per request. Each
-  name: AESO Pool Price Report API
-  slug: aeso-pool-price-report-api
-- description: The System Marginal Price — the real-time price signal that sets the pool price over each settlement hour — served as JSON both as a historical date-range report and as a current-value endpoint. Two d
-  name: AESO System Marginal Price Report API
-  slug: aeso-system-marginal-price-report-api
-- description: The current summary of Alberta's supply and demand balance — the JSON equivalent of the long-running ETS Current Supply Demand report that carries Alberta Total Net Generation, Net Actual Interchange,
-  name: AESO Current Supply Demand API (v2)
-  slug: aeso-current-supply-demand-api-v2
-- description: The per-asset view of current generation, exposing /csd/generation/assets/current — the generating assets currently online in Alberta with their current output. Retained alongside v2, which reports th
-  name: AESO Current Supply Demand API (v1)
-  slug: aeso-current-supply-demand-api-v1
-- description: Actual and forecast Alberta Internal Load for a requested date range, served from /load/albertaInternalLoad — the demand series that underpins every load forecast, price forecast and adequacy study in
-  name: AESO Actual Forecast Report API
-  slug: aeso-actual-forecast-report-api
-- description: Generation capacity and generator outages on the Alberta Interconnected Electric System as submitted to the AESO, served from /AIESGenCapacity.
-  name: AESO AIES Gen Capacity API
-  slug: aeso-aies-gen-capacity-api
-- description: Load outages submitted to the AESO, served from /loadOutageReport — the demand-side counterpart to the generation outage feed, used to model expected load reductions.
-  name: AESO Load Outage Forecast API
-  slug: aeso-load-outage-forecast-api
-- description: 'Alberta''s interties with British Columbia, Saskatchewan and Montana — two documented operations, /interchange for interchange capability and flow, and /outage for intertie outages. The API equivalent '
-  name: AESO Intertie Public Reports API
-  slug: aeso-intertie-public-reports-api
-- description: 'A snapshot of the energy merit order — the stacked offers that determine which generation is dispatched and where the price clears — served from /meritOrder/energy. This is bid-and-offer transparency '
-  name: AESO Energy Merit Order Report API
-  slug: aeso-energy-merit-order-report-api
-- description: 'Metered volume detail for the Alberta Interconnected Electric System, served from /meteredvolume/details. This is settlement-grade metering at market-asset granularity — not retail customer metering; '
-  name: AESO Metered Volume Report API
-  slug: aeso-metered-volume-report-api
-- description: Operating reserve offer control data, served from /operatingReserveOfferControl — who controls the offers for Alberta's ancillary-services reserve products.
-  name: AESO Operating Reserve Offer Control Report API
-  slug: aeso-operating-reserve-offer-control-api
-- description: The registry of market assets on the Alberta Interconnected Electric System, served from /assetlist — the reference data that gives every asset ID in every other AESO feed a name, type and pool partic
-  name: AESO Asset List API
-  slug: aeso-asset-list-api
-- description: The latest list of pool participants operating in the Alberta Interconnected Electric System, served from /poolparticipantlist — the market-participant registry behind the asset list.
-  name: AESO Pool Participant API
-  slug: aeso-pool-participant-api
-- description: Unit commitment directives issued by the AESO, served from /unitCommitment — the instructions that bring generating units online ahead of dispatch.
-  name: AESO Unit Commitment Data API
-  slug: aeso-unit-commitment-data-api
 - description: AESO's long-running Energy Trading System report servlets — the fully anonymous half of its data posture, and the reason market_data_open is true for AESO regardless of the API key on the newer gatewa
   name: AESO Energy Trading System (ETS) Public Reports
   slug: aeso-ets-public-reports
+- description: The AIESGenCapacity API from AESO — 1 operation(s) for aiesgencapacity.
+  name: AESO AIES Gen Capacity API
+  slug: aeso-aiesgencapacity-api
+- description: The Assetlist API from AESO — 1 operation(s) for assetlist.
+  name: AESO Assetlist API
+  slug: aeso-assetlist-api
+- description: The Csd API from AESO — 2 operation(s) for csd.
+  name: AESO Csd API
+  slug: aeso-csd-api
+- description: The Interchange API from AESO — 1 operation(s) for interchange.
+  name: AESO Interchange API
+  slug: aeso-interchange-api
+- description: The Load API from AESO — 1 operation(s) for load.
+  name: AESO Load API
+  slug: aeso-load-api
+- description: The LoadOutageReport API from AESO — 1 operation(s) for loadoutagereport.
+  name: AESO Load Outage Report API
+  slug: aeso-loadoutagereport-api
+- description: The MeritOrder API from AESO — 1 operation(s) for meritorder.
+  name: AESO Merit Order API
+  slug: aeso-meritorder-api
+- description: The Meteredvolume API from AESO — 1 operation(s) for meteredvolume.
+  name: AESO Meteredvolume API
+  slug: aeso-meteredvolume-api
+- description: The OperatingReserveOfferControl API from AESO — 1 operation(s) for operatingreserveoffercontrol.
+  name: AESO Operating Reserve Offer Control API
+  slug: aeso-operatingreserveoffercontrol-api
+- description: The Outage API from AESO — 1 operation(s) for outage.
+  name: AESO Outage API
+  slug: aeso-outage-api
+- description: The Poolparticipantlist API from AESO — 1 operation(s) for poolparticipantlist.
+  name: AESO Poolparticipantlist API
+  slug: aeso-poolparticipantlist-api
+- description: The Price API from AESO — 3 operation(s) for price.
+  name: AESO Price API
+  slug: aeso-price-api
+- description: The UnitCommitment API from AESO — 1 operation(s) for unitcommitment.
+  name: AESO Unit Commitment API
+  slug: aeso-unitcommitment-api
 arazzos:
 - description: Resolve a pool participant into its fleet, read what those assets are generating right now, and pull their settlement-grade metered volumes.
   name: AESO asset drilldown
@@ -88,7 +85,7 @@ arazzos:
 - description: Reconstruct why Alberta's price cleared where it did — the offer stack, the units directed online, the outages that removed supply, and the resulting system marginal and pool prices.
   name: AESO price formation trace
   slug: aeso-price-formation
-artifact_total: 37
+artifact_total: 36
 collections:
 - collection_type: open
   name: Actual Forecast Report
@@ -133,6 +130,62 @@ collections:
   name: Unit Commitment Data API
   slug: open-aeso-unitcommitmentdata-api-v2
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aeso-poolprice-api-v1-1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aeso-systemmarginalprice-api-v1-1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aeso-currentsupplydemand-api-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aeso-currentsupplydemand-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aeso-actualforecast-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aeso-aiesgencapacity-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aeso-loadoutageforecast-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aeso-itc-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aeso-energymeritorder-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aeso-meteredvolume-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aeso-operatingreserveoffercontrol-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aeso-assetlist-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aeso-poolparticipant-api-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aeso-unitcommitmentdata-api-v2-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -287,10 +340,10 @@ modified: '2026-07-27'
 name: AESO
 nav: Providers
 network: true
-overview: 'AESO publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Pool Price Report API, System Marginal Price Report API, Current Supply Demand API (v2), and 11 more. Tagged areas include Energy, Canada, Alberta, Electricity, and Energy Markets.
+overview: 'AESO publishes 13 APIs on the [APIs.io](https://apis.io/) network, including AIES Gen Capacity API, Assetlist API, Csd API, and 10 more. Tagged areas include Energy, Canada, Alberta, Electricity, and Energy Markets.
 
 
-  AESO''s developer surface includes authentication, documentation, signup flow, support, engineering blog, API reference, getting-started guide, and 28 more developer resources.'
+  AESO''s developer surface includes authentication, documentation, signup flow, support, engineering blog, API reference, getting-started guide, and 42 more developer resources.'
 plans:
 - name: Aeso Plans
   plan_count: 1
@@ -298,18 +351,23 @@ plans:
 random_paper: 4
 score:
   band: developing
-  composite: 43.5
+  composite: 42.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 16.7
-    contract_quality: 15.7
+    contract_governance: 4.5
+    contract_quality: 16.4
     developer_ergonomics: 66.1
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 43.5
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -326,8 +384,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aeso/refs/heads/main/screenshots/aeso-2026-08-07T161010.png
 security:

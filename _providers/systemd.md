@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 10
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 90
   slug: systemd-agentic-access
   summary_line: 90 operations · 69 acting · 10 human-in-the-loop
-api_count: 34
+api_count: 7
 apis:
 - description: D-Bus API of systemd-localed for getting and setting the system locale, X11 keymap, and console keymap.
   name: systemd-localed (org.freedesktop.locale1)
@@ -246,6 +246,14 @@ collections:
   name: systemd Varlink Interfaces (io.systemd.*)
   slug: open-varlink
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/systemd/systemd/blob/main/docs/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/systemd/systemd/blob/main/docs/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -475,7 +483,7 @@ overview: 'systemd publishes 25 APIs on the [APIs.io](https://apis.io/) network,
   The systemd catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  systemd''s developer surface includes documentation, release notes, changelog, tooling, and 35 more developer resources.'
+  systemd''s developer surface includes documentation, release notes, changelog, tooling, and 37 more developer resources.'
 random_paper: 0
 rules:
 - effective_rule_count: 5
@@ -501,7 +509,12 @@ rules:
   slug: systemd-rules
 score:
   band: thin
-  composite: 29.2
+  composite: 32.0
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 65.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -509,10 +522,13 @@ score:
     contract_governance: 28.8
     contract_quality: 49.0
     developer_ergonomics: 21.4
-    discoverability: 68.5
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 29.2
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -520,8 +536,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/systemd/refs/heads/main/screenshots/systemd-2026-06-20T194839.png
 security:
@@ -545,7 +561,7 @@ tags:
 - PID 1
 - Service Manager
 - System
-- systemd
+- Systemd
 - Varlink
 website: https://systemd.io
 ---

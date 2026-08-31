@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 108
   slug: bigml-agentic-access
   summary_line: 108 operations · 63 acting
-api_count: 15
+api_count: 1
 apis:
 - description: Detect anomalies in datasets using Isolation Forest
   name: BigML Anomaly Detection API
@@ -265,18 +265,23 @@ rules:
   slug: bigml-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.7
-  delta: 1.8
+  composite: 46.1
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 25.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 62.9
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 44.7
-  previous_composite: 44.9
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -284,8 +289,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigml/refs/heads/main/screenshots/bigml-2026-06-20T173236.png
 security:

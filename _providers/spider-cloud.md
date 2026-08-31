@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: spider-cloud-agentic-access
   summary_line: 11 operations · 8 acting
-api_count: 10
+api_count: 1
 apis:
 - description: 'Spider''s hosted Model Context Protocol server exposes 22 tools — eight core operations (crawl, scrape, search, links, screenshot, unblocker, transform, get_credits), five AI-routed variants, and nine '
   name: Spider Cloud MCP Server
@@ -110,6 +110,10 @@ collections:
   name: Spider Cloud API
   slug: open-spider-cloud
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/spider-rs/spider-cloud-mcp-v2/issues
 - group: commercial
   title: ''
   type: License
@@ -217,7 +221,7 @@ network: true
 overview: 'Spider publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Crawling API, Data API, Fetch API, and 6 more. Tagged areas include Crawling, Scraping, Data Extraction, URLs, and Artificial Intelligence.
 
 
-  Spider''s developer surface includes authentication, documentation, API reference, pricing, support, engineering blog, and 16 more developer resources.'
+  Spider''s developer surface includes authentication, documentation, API reference, pricing, support, engineering blog, and 17 more developer resources.'
 plans:
 - name: Spider Cloud Plans Pricing
   plan_count: 4
@@ -229,18 +233,26 @@ rate_limits:
   slug: spider-cloud-rate-limits
 score:
   band: developing
-  composite: 48.3
-  delta: 0.0
+  composite: 43.0
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 55.8
     developer_ergonomics: 52.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 48.3
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -248,8 +260,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/screenshots/spider-cloud-2026-06-20T194311.png
 security:

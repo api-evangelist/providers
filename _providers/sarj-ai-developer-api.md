@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 2
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 118
   slug: sarj-ai-developer-api-agentic-access
   summary_line: 118 operations · 70 acting · 2 human-in-the-loop
-api_count: 27
+api_count: 4
 apis:
 - description: The admin API from Sarj AI Developer API — 4 operation(s) for admin.
   name: Sarj AI Developer API Admin API
@@ -334,7 +334,7 @@ modified: '2026-08-09'
 name: Sarj AI Developer API
 nav: Providers
 network: true
-overview: 'Sarj AI Developer API publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Agent Profiles API, Analytics API, and 24 more. Tagged areas include Voice AI, Voice Agents, Conversational AI, Arabic AI, and Outbound Calls.
+overview: 'Sarj AI Developer API publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Agent Profiles API, Analytics API, and 24 more. Tagged areas include voice AI, voice agents, conversational AI, Arabic AI, and outbound calls.
 
 
   The Sarj AI Developer API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -349,18 +349,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 34.1
-  delta: 1.2
+  composite: 31.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 58.8
     developer_ergonomics: 31.0
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 32.9
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -371,8 +376,8 @@ score:
       total: 28
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sarj-ai-developer-api/refs/heads/main/screenshots/sarj-ai-developer-api-2026-08-17T081723.png
 security:
@@ -386,15 +391,15 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: sarj-ai-developer-api
 tags:
-- Voice AI
-- Voice Agents
-- Conversational AI
+- voice AI
+- voice agents
+- conversational AI
 - Arabic AI
-- Outbound Calls
-- Telephony
-- Speech-to-Text
-- Text-to-Speech
-- Voice Cloning
+- outbound calls
+- telephony
+- speech to text
+- text to speech
+- voice cloning
 - MCP
 - agent-native
 - Saudi Arabia

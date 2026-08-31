@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 98
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 172
   slug: workos-agentic-access
   summary_line: 172 operations · 98 acting · 98 human-in-the-loop
-api_count: 41
+api_count: 1
 apis:
 - description: Endpoints for the Admin Portal API.
   name: WorkOS admin-portal API
@@ -422,6 +422,18 @@ collections:
   name: WorkOS
   slug: open-workos
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/workos-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/workos/openapi-spec/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/workos/openapi-spec/releases
 - group: commercial
   title: ''
   type: License
@@ -1335,7 +1347,7 @@ overview: 'WorkOS publishes 41 APIs on the [APIs.io](https://apis.io/) network, 
   The WorkOS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  WorkOS''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, pricing, CLI, and 67 more developer resources.'
+  WorkOS''s developer surface includes authentication, documentation, API reference, engineering blog, changelog, pricing, CLI, and 70 more developer resources.'
 plans:
 - name: Workos Plans Pricing
   plan_count: 7
@@ -1369,18 +1381,26 @@ rules:
   slug: workos-rules
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 50.1
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 28.8
     contract_quality: 69.8
     developer_ergonomics: 66.7
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 53.4
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1388,8 +1408,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 41
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/screenshots/workos-2026-06-20T201614.png
 security:

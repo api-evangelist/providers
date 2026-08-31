@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-26'
-api_count: 5
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Relay-compliant GraphQL API for the Asset Register — a metadata ledger that defines what an asset is, what it can do, and which environments it works in, across chains and for off-chain assets. 29 que
   name: Futureverse Asset Register API
@@ -32,16 +32,19 @@ apis:
 - description: FuturePass is Futureverse's smart-wallet identity system, exposed to developers as a standards compliant OpenID Connect provider. The discovery document at login.futureverse.app advertises authorizati
   name: FuturePass Identity (OpenID Connect)
   slug: futurepass-identity-openid-connect
-- description: 'REST API that lets an approved partner application read quest and campaign detail and allocate RootRewards points to a FuturePass address. Four operations, an x-api-key header whose keys are prefixed '
-  name: RootRewards Quest API
-  slug: rootrewards-quest-api
 - description: Public archive-node RPC for The Root Network mainnet, exposing both the Substrate JSON-RPC surface (author, babe, chain, state, system and custom nft/dex/fee-proxy methods over HTTP and WebSocket) and
   name: The Root Network Node RPC
   slug: the-root-network-node-rpc
 - description: Remote, unauthenticated Model Context Protocol server on the documentation host exposing three tools — documentation search, a read-only virtual filesystem over the docs corpus, and a feedback submitt
   name: The Root Network Documentation MCP Server
   slug: the-root-network-documentation-mcp-server
-artifact_total: 13
+- description: Public campaign detail. Campaigns group quests but hold no balances.
+  name: Futureverse Campaigns API
+  slug: futureverse-campaigns-api
+- description: Quest detail, public quest discovery, and point allocation.
+  name: Futureverse Quests API
+  slug: futureverse-quests-api
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Futureverse Asset Register Events
@@ -174,7 +177,7 @@ modified: '2026-08-16'
 name: Futureverse
 nav: Providers
 network: true
-overview: 'Futureverse publishes 1 API on the [APIs.io](https://apis.io/) network: RootRewards Quest API. Tagged areas include Blockchain, Web3, Metaverse, Digital Assets, and NFT.
+overview: 'Futureverse publishes 2 APIs on the [APIs.io](https://apis.io/) network: Campaigns API and Quests API. Tagged areas include Blockchain, Web3, metaverse, digital-assets, and nft.
 
 
   The Futureverse catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -197,18 +200,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 31.8
-  delta: 0.0
+  composite: 32.1
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
-    contract_quality: 31.0
+    contract_quality: 30.8
     developer_ergonomics: 66.1
-    discoverability: 72.2
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 31.8
+  previous_composite: 32.7
   provenance:
     conformance: derived
     contracts:
@@ -218,8 +226,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/futureverse/refs/heads/main/screenshots/futureverse-2026-08-17T080945.png
 security:
@@ -235,14 +243,14 @@ slug: futureverse
 tags:
 - Blockchain
 - Web3
-- Metaverse
-- Digital Assets
-- NFT
-- GraphQL
+- metaverse
+- digital-assets
+- nft
+- graphql
 - Identity
-- OpenID Connect
+- openid-connect
 - asset-registry
-- Layer 1
+- layer-1
 - EVM
 - Gaming
 - agent-native

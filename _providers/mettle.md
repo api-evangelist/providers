@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,11 +41,8 @@ agentic_access:
   operation_count: 12
   slug: mettle-agentic-access
   summary_line: 12 operations
-api_count: 4
+api_count: 1
 apis:
-- description: 'Mettle''s public, unsecured UK Open Banking Open Data (Product) API, exposing reference information about the business current accounts Mettle offers to sole traders and limited companies. Conforms to '
-  name: Mettle Open Data Product API
-  slug: mettle-open-data-product-api
 - description: OBIE Read/Write Account & Transaction Information (AIS) API for Mettle business current accounts, exposing accounts, balances, transactions, and related resources to FCA-authorised third parties. FAPI
   name: Mettle Account and Transaction API
   slug: mettle-account-transaction-api
@@ -55,12 +52,34 @@ apis:
 - description: OBIE Read/Write Confirmation of Funds (CBPII) API for Mettle, letting card-based payment instrument issuers confirm whether funds are available on a customer's Mettle account. FAPI-secured with OAuth2
   name: Mettle Confirmation of Funds API
   slug: mettle-confirmation-of-funds-api
-artifact_total: 10
+- description: Endpoint for getting ATM data
+  name: Mettle ATM API
+  slug: mettle-atm-api
+- description: Endpoint for getting Business Current Account data
+  name: Mettle BCA API
+  slug: mettle-bca-api
+- description: Endpoint for getting Branch data
+  name: Mettle Branch API
+  slug: mettle-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: Mettle CCC API
+  slug: mettle-ccc-api
+- description: Endpoint for getting Personal Current Account data
+  name: Mettle PCA API
+  slug: mettle-pca-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: Mettle SME API
+  slug: mettle-sme-api
+artifact_total: 15
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-mettle-open-data-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mettle-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -182,10 +201,10 @@ modified: '2026-07-23'
 name: Mettle
 nav: Providers
 network: true
-overview: 'Mettle publishes 1 API on the [APIs.io](https://apis.io/) network: Open Data Product API. Tagged areas include Financial-Services, Banking, Business Banking, Open Banking, and PSD2.
+overview: 'Mettle publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 3 more. Tagged areas include Financial-Services, Banking, Business Banking, Open Banking, and PSD2.
 
 
-  Mettle''s developer surface includes authentication, sandbox, documentation, engineering blog, support, and 22 more developer resources.'
+  Mettle''s developer surface includes authentication, sandbox, documentation, engineering blog, support, and 23 more developer resources.'
 random_paper: 0
 scopes:
 - name: Mettle Scopes
@@ -194,18 +213,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 42.6
-  delta: -2.4
+  composite: 39.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 32.7
     developer_ergonomics: 20.8
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 45.0
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -218,12 +242,18 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: eidas
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/screenshots/mettle-2026-08-07T172804.png
 security:

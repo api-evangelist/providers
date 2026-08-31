@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 11
   slug: creditbenchmark-agentic-access
   summary_line: 11 operations · 11 acting
-api_count: 6
+api_count: 2
 apis:
 - description: Portfolio analytics and risk calculations
   name: Credit Benchmark Analytics API
@@ -61,7 +61,16 @@ apis:
 - description: Portfolio-level analytics and summaries
   name: Credit Benchmark Portfolio Analytics API
   slug: creditbenchmark-portfolio-analytics-api
-artifact_total: 22
+- description: Raw data extraction endpoints.
+  name: Credit Benchmark Data API
+  slug: creditbenchmark-data-api
+- description: Entity name resolution endpoints.
+  name: Credit Benchmark Entity Resolution API
+  slug: creditbenchmark-entity-resolution-api
+- description: Metadata discovery endpoints.
+  name: Credit Benchmark Metadata API
+  slug: creditbenchmark-metadata-api
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -210,25 +219,30 @@ modified: '2026-08-08'
 name: Credit Benchmark
 nav: Providers
 network: true
-overview: 'Credit Benchmark publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Authentication API, Contributor Data API, and 3 more. Tagged areas include Company, Credit Risk, Financial Data, Credit Ratings, and Analytics.
+overview: 'Credit Benchmark publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Authentication API, Contributor Data API, and 6 more. Tagged areas include Company, Credit Risk, Financial Data, Credit Ratings, and Analytics.
 
 
   Credit Benchmark''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
 random_paper: 20
 score:
   band: developing
-  composite: 43.3
-  delta: 0.0
+  composite: 41.6
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
-    contract_governance: 16.7
-    contract_quality: 58.8
+    contract_governance: 4.5
+    contract_quality: 60.1
     developer_ergonomics: 56.5
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 43.3
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,8 +253,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creditbenchmark/refs/heads/main/screenshots/creditbenchmark-2026-07-25T210720.png
 security:

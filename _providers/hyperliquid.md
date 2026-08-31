@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 1
   slug: hyperliquid-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Public REST API for the Hyperliquid exchange. Read endpoints expose market metadata, order books, candles, trades, funding rates, user state, open orders, fills, and historical data. Write endpoints (
   name: Hyperliquid REST API
@@ -178,17 +178,25 @@ rules:
   slug: hyperliquid-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 37.2
-  delta: 0.0
+  composite: 38.7
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 55.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 11.4
     contract_quality: 60.8
     developer_ergonomics: 14.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 11.4
     operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 60.0
   previous_composite: 37.2
   provenance:
     agentic_access: derived
@@ -203,8 +211,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/screenshots/hyperliquid-2026-06-20T183045.png
 security:

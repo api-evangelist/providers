@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -42,22 +42,80 @@ agentic_access:
   operation_count: 74
   slug: vanquis-banking-group-agentic-access
   summary_line: 74 operations · 20 acting
-api_count: 4
+api_count: 3
 apis:
-- description: Vanquis Bank's OBIE Read/Write Account and Transaction Information API (AISP), conformant to the Open Banking Implementation Entity Read/Write Data API Standard v3.1.10. Enables authorised Account Inf
-  name: Vanquis Bank Account and Transaction API (AIS)
-  slug: vanquis-account-transaction-api
-- description: Vanquis Bank's OBIE Read/Write Payment Initiation API (PISP), conformant to the Open Banking Implementation Entity Read/Write API Standard v3.1.10. Enables authorised Payment Initiation Service Provid
-  name: Vanquis Bank Payment Initiation API (PIS)
-  slug: vanquis-payment-initiation-api
-- description: 'Vanquis Bank''s OBIE Read/Write Confirmation of Funds API (CBPII), conformant to the Open Banking Implementation Entity Read/Write API Standard v3.1.10. Allows authorised Card Based Payment Instrument '
-  name: Vanquis Bank Confirmation of Funds API (CBPII)
-  slug: vanquis-confirmation-of-funds-api
 - description: Vanquis Bank's OpenID / OBIE Dynamic Client Registration (DCR) endpoint, documented on the Vanquis developer portal, allowing onboarded Third Party Providers to register OAuth clients programmatically
   name: Vanquis Bank Dynamic Client Registration API
   slug: vanquis-dynamic-client-registration-api
-artifact_total: 9
+- description: The Account Access API from Vanquis Banking Group — 2 operation(s) for account access.
+  name: Vanquis Banking Group Account Access API
+  slug: vanquis-banking-group-account-access-api
+- description: The Accounts API from Vanquis Banking Group — 2 operation(s) for accounts.
+  name: Vanquis Banking Group Accounts API
+  slug: vanquis-banking-group-accounts-api
+- description: The Balances API from Vanquis Banking Group — 2 operation(s) for balances.
+  name: Vanquis Banking Group Balances API
+  slug: vanquis-banking-group-balances-api
+- description: The Beneficiaries API from Vanquis Banking Group — 2 operation(s) for beneficiaries.
+  name: Vanquis Banking Group Beneficiaries API
+  slug: vanquis-banking-group-beneficiaries-api
+- description: The Direct Debits API from Vanquis Banking Group — 2 operation(s) for direct debits.
+  name: Vanquis Banking Group Direct Debits API
+  slug: vanquis-banking-group-direct-debits-api
+- description: The Domestic Payments API from Vanquis Banking Group — 5 operation(s) for domestic payments.
+  name: Vanquis Banking Group Domestic Payments API
+  slug: vanquis-banking-group-domestic-payments-api
+- description: The Domestic Scheduled Payments API from Vanquis Banking Group — 4 operation(s) for domestic scheduled payments.
+  name: Vanquis Banking Group Domestic Scheduled Payments API
+  slug: vanquis-banking-group-domestic-scheduled-payments-api
+- description: The Domestic Standing Orders API from Vanquis Banking Group — 4 operation(s) for domestic standing orders.
+  name: Vanquis Banking Group Domestic Standing Orders API
+  slug: vanquis-banking-group-domestic-standing-orders-api
+- description: The File Payments API from Vanquis Banking Group — 6 operation(s) for file payments.
+  name: Vanquis Banking Group File Payments API
+  slug: vanquis-banking-group-file-payments-api
+- description: The Funds Confirmations API from Vanquis Banking Group — 3 operation(s) for funds confirmations.
+  name: Vanquis Banking Group Funds Confirmations API
+  slug: vanquis-banking-group-funds-confirmations-api
+- description: The International Payments API from Vanquis Banking Group — 5 operation(s) for international payments.
+  name: Vanquis Banking Group International Payments API
+  slug: vanquis-banking-group-international-payments-api
+- description: The International Scheduled Payments API from Vanquis Banking Group — 5 operation(s) for international scheduled payments.
+  name: Vanquis Banking Group International Scheduled Payments API
+  slug: vanquis-banking-group-international-scheduled-payments-api
+- description: The International Standing Orders API from Vanquis Banking Group — 4 operation(s) for international standing orders.
+  name: Vanquis Banking Group International Standing Orders API
+  slug: vanquis-banking-group-international-standing-orders-api
+- description: The Offers API from Vanquis Banking Group — 2 operation(s) for offers.
+  name: Vanquis Banking Group Offers API
+  slug: vanquis-banking-group-offers-api
+- description: The Parties API from Vanquis Banking Group — 3 operation(s) for parties.
+  name: Vanquis Banking Group Parties API
+  slug: vanquis-banking-group-parties-api
+- description: The Payment Details API from Vanquis Banking Group — 7 operation(s) for payment details.
+  name: Vanquis Banking Group Payment Details API
+  slug: vanquis-banking-group-payment-details-api
+- description: The Products API from Vanquis Banking Group — 2 operation(s) for products.
+  name: Vanquis Banking Group Products API
+  slug: vanquis-banking-group-products-api
+- description: The Scheduled Payments API from Vanquis Banking Group — 2 operation(s) for scheduled payments.
+  name: Vanquis Banking Group Scheduled Payments API
+  slug: vanquis-banking-group-scheduled-payments-api
+- description: The Standing Orders API from Vanquis Banking Group — 2 operation(s) for standing orders.
+  name: Vanquis Banking Group Standing Orders API
+  slug: vanquis-banking-group-standing-orders-api
+- description: The Statements API from Vanquis Banking Group — 4 operation(s) for statements.
+  name: Vanquis Banking Group Statements API
+  slug: vanquis-banking-group-statements-api
+- description: The Transactions API from Vanquis Banking Group — 3 operation(s) for transactions.
+  name: Vanquis Banking Group Transactions API
+  slug: vanquis-banking-group-transactions-api
+artifact_total: 27
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vanquis-banking-group-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -183,10 +241,10 @@ modified: '2026-07-23'
 name: Vanquis Banking Group
 nav: Providers
 network: true
-overview: 'Vanquis Banking Group publishes 3 APIs on the [APIs.io](https://apis.io/) network: Vanquis Bank Account and Transaction API (AIS), Vanquis Bank Payment Initiation API (PIS), and Vanquis Bank Confirmation of Funds API (CBPII). Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Vanquis Banking Group publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Accounts API, Balances API, and 18 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  Vanquis Banking Group''s developer surface includes authentication, documentation, signup flow, support, and 24 more developer resources.'
+  Vanquis Banking Group''s developer surface includes authentication, documentation, signup flow, support, and 25 more developer resources.'
 random_paper: 10
 scopes:
 - name: Vanquis Banking Group Scopes
@@ -195,18 +253,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 45.3
-  delta: 1.5
+  composite: 42.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 49.4
+    contract_governance: 4.5
+    contract_quality: 49.3
     developer_ergonomics: 44.6
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 72.2
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 43.8
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -219,12 +282,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

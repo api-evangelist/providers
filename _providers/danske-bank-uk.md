@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: derived
     idempotency: verified
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.5
-  scored_at: '2026-08-26'
+  score: 39.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -44,40 +44,109 @@ agentic_access:
   summary_line: 81 operations · 26 acting
 api_count: 11
 apis:
-- description: Public, unauthenticated UK Open Banking Open Data API (OBIE Open Data v2.2) publishing reference data for Danske Bank (UK) - ATM and branch locations, personal and business current accounts, unsecured
-  name: Danske Bank (UK) Open Data API
-  slug: danske-bank-uk-open-data-api
-- description: OBIE Read/Write Account and Transaction Information API (AIS, v4.0) for accessing account details, balances, transactions, beneficiaries, standing orders, direct debits, and statements. FAPI-secured w
-  name: Danske Bank (UK) Account and Transaction API
-  slug: danske-bank-uk-account-transaction-api
-- description: OBIE Read/Write Payment Initiation API (PIS, v4.0) for initiating domestic, scheduled, standing-order, file, and international payments. FAPI-secured with OAuth2/OIDC, mutual-TLS, and PSD2 strong cust
-  name: Danske Bank (UK) Payment Initiation API
-  slug: danske-bank-uk-payment-initiation-api
-- description: OBIE Read/Write Confirmation of Funds API (CBPII, v4.0) for card-based payment instrument issuers to confirm the availability of funds on an account. FAPI-secured with OAuth2/OIDC, mutual-TLS, and PSD
-  name: Danske Bank (UK) Confirmation of Funds API
-  slug: danske-bank-uk-confirmation-of-funds-api
-- description: OBIE Read/Write Variable Recurring Payments API (VRP, v4.0) for setting up domestic VRP consents and executing recurring payments within agreed parameters. FAPI-secured with OAuth2/OIDC, mutual-TLS, a
-  name: Danske Bank (UK) Variable Recurring Payments API
-  slug: danske-bank-uk-variable-recurring-payments-api
-- description: OBIE Read/Write Event Notification API (v4.0) delivering real-time notifications on account and payment activities to registered TPPs. FAPI-secured with OAuth2/OIDC and mutual-TLS; requires TPP onboar
+- description: The Account Access API from Danske Bank (UK) — 2 operation(s) for account access.
+  name: Danske Bank (UK) Account Access API
+  slug: danske-bank-uk-account-access-api
+- description: 'Provides access to account-related data services including: * Transaction history for a specified account with booking status ''booked'', including balances when available. * A list of addressable accou'
+  name: Danske Bank (UK) Account Information Service (AIS) API
+  slug: danske-bank-uk-account-information-service-ais-api
+- description: The Accounts API from Danske Bank (UK) — 2 operation(s) for accounts.
+  name: Danske Bank (UK) Accounts API
+  slug: danske-bank-uk-accounts-api
+- description: The ATM API from Danske Bank (UK) — 1 operation(s) for atm.
+  name: Danske Bank (UK) ATM API
+  slug: danske-bank-uk-atm-api
+- description: The Balances API from Danske Bank (UK) — 1 operation(s) for balances.
+  name: Danske Bank (UK) Balances API
+  slug: danske-bank-uk-balances-api
+- description: The BCA API from Danske Bank (UK) — 1 operation(s) for bca.
+  name: Danske Bank (UK) BCA API
+  slug: danske-bank-uk-bca-api
+- description: The Beneficiaries API from Danske Bank (UK) — 1 operation(s) for beneficiaries.
+  name: Danske Bank (UK) Beneficiaries API
+  slug: danske-bank-uk-beneficiaries-api
+- description: The Branch API from Danske Bank (UK) — 1 operation(s) for branch.
+  name: Danske Bank (UK) Branch API
+  slug: danske-bank-uk-branch-api
+- description: The CCC API from Danske Bank (UK) — 1 operation(s) for ccc.
+  name: Danske Bank (UK) CCC API
+  slug: danske-bank-uk-ccc-api
+- description: The Direct Debits API from Danske Bank (UK) — 1 operation(s) for direct debits.
+  name: Danske Bank (UK) Direct Debits API
+  slug: danske-bank-uk-direct-debits-api
+- description: The Documents API from Danske Bank (UK) — 5 operation(s) for documents.
+  name: Danske Bank (UK) Documents API
+  slug: danske-bank-uk-documents-api
+- description: The Domestic Payments API from Danske Bank (UK) — 5 operation(s) for domestic payments.
+  name: Danske Bank (UK) Domestic Payments API
+  slug: danske-bank-uk-domestic-payments-api
+- description: The Domestic Scheduled Payments API from Danske Bank (UK) — 4 operation(s) for domestic scheduled payments.
+  name: Danske Bank (UK) Domestic Scheduled Payments API
+  slug: danske-bank-uk-domestic-scheduled-payments-api
+- description: Danske Bank only supports GBP standing orders for one fixed amount on a specified frequency for a defined period or open-ended. Standing Orders can only be requested on GBP current accounts and are on
+  name: Danske Bank (UK) Domestic Standing Orders API
+  slug: danske-bank-uk-domestic-standing-orders-api
+- description: The Domestic VRP Consents API from Danske Bank (UK) — 3 operation(s) for domestic vrp consents.
+  name: Danske Bank (UK) Domestic VRP Consents API
+  slug: danske-bank-uk-domestic-vrp-consents-api
+- description: The Domestic VRPs API from Danske Bank (UK) — 2 operation(s) for domestic vrps.
+  name: Danske Bank (UK) Domestic VRPs API
+  slug: danske-bank-uk-domestic-vrps-api
+- description: The Events API from Danske Bank (UK) — 1 operation(s) for events.
   name: Danske Bank (UK) Events API
   slug: danske-bank-uk-events-api
-- description: Premium first-party corporate API providing real-time access to account transactions and balances, published on the Danske Bank developer portal and served from the corporate API host with a public mo
-  name: Danske Bank (UK) Account Transaction & Balance API
-  slug: danske-bank-uk-account-transaction-balance-api
-- description: Premium first-party corporate API for initiating and managing collection (direct debit style) payment services, published on the Danske Bank developer portal with a public mock sandbox.
-  name: Danske Bank (UK) Payment Collection API
-  slug: danske-bank-uk-payment-collection-api
-- description: Premium first-party corporate payment initiation API for submitting and managing corporate payment orders, published on the Danske Bank developer portal with a public mock sandbox.
-  name: Danske Bank (UK) Premium Payment Initiation API
-  slug: danske-bank-uk-premium-payment-initiation-api
-- description: 'Premium first-party API providing access to open and historical FX trade reports with date-range filtering, counterpart filtering, and pagination, published on the Danske Bank developer portal with a '
+- description: The File Payments API from Danske Bank (UK) — 6 operation(s) for file payments.
+  name: Danske Bank (UK) File Payments API
+  slug: danske-bank-uk-file-payments-api
+- description: The Funds Confirmations API from Danske Bank (UK) — 3 operation(s) for funds confirmations.
+  name: Danske Bank (UK) Funds Confirmations API
+  slug: danske-bank-uk-funds-confirmations-api
+- description: Trade Report for Premium API users
   name: Danske Bank (UK) FX Trade Report API
   slug: danske-bank-uk-fx-trade-report-api
-- description: Premium first-party API for executing FX trades against existing quotes, published on the Danske Bank developer portal with a public mock sandbox.
-  name: Danske Bank (UK) FX Trade Execution API
-  slug: danske-bank-uk-fx-trade-execution-api
-artifact_total: 28
+- description: The International Payments API from Danske Bank (UK) — 5 operation(s) for international payments.
+  name: Danske Bank (UK) International Payments API
+  slug: danske-bank-uk-international-payments-api
+- description: The International Scheduled Payments API from Danske Bank (UK) — 5 operation(s) for international scheduled payments.
+  name: Danske Bank (UK) International Scheduled Payments API
+  slug: danske-bank-uk-international-scheduled-payments-api
+- description: The Parties API from Danske Bank (UK) — 1 operation(s) for parties.
+  name: Danske Bank (UK) Parties API
+  slug: danske-bank-uk-parties-api
+- description: The PCA API from Danske Bank (UK) — 1 operation(s) for pca.
+  name: Danske Bank (UK) PCA API
+  slug: danske-bank-uk-pca-api
+- description: The Ping API from Danske Bank (UK) — 1 operation(s) for ping.
+  name: Danske Bank (UK) Ping API
+  slug: danske-bank-uk-ping-api
+- description: The Premium Payment Initiation API API from Danske Bank (UK) — 1 operation(s) for premium payment initiation api.
+  name: Danske Bank (UK) Premium Payment Initiation API
+  slug: danske-bank-uk-premium-payment-initiation-api-api
+- description: The Products API from Danske Bank (UK) — 1 operation(s) for products.
+  name: Danske Bank (UK) Products API
+  slug: danske-bank-uk-products-api
+- description: The Scheduled Payments API from Danske Bank (UK) — 1 operation(s) for scheduled payments.
+  name: Danske Bank (UK) Scheduled Payments API
+  slug: danske-bank-uk-scheduled-payments-api
+- description: The SME API from Danske Bank (UK) — 1 operation(s) for sme.
+  name: Danske Bank (UK) SME API
+  slug: danske-bank-uk-sme-api
+- description: The Standing Orders API from Danske Bank (UK) — 1 operation(s) for standing orders.
+  name: Danske Bank (UK) Standing Orders API
+  slug: danske-bank-uk-standing-orders-api
+- description: The State API from Danske Bank (UK) — 1 operation(s) for state.
+  name: Danske Bank (UK) State API
+  slug: danske-bank-uk-state-api
+- description: The Test API from Danske Bank (UK) — 1 operation(s) for test.
+  name: Danske Bank (UK) Test API
+  slug: danske-bank-uk-test-api
+- description: The Trade execution API from Danske Bank (UK) — 1 operation(s) for trade execution.
+  name: Danske Bank (UK) Trade execution API
+  slug: danske-bank-uk-trade-execution-api
+- description: The Transactions API from Danske Bank (UK) — 1 operation(s) for transactions.
+  name: Danske Bank (UK) Transactions API
+  slug: danske-bank-uk-transactions-api
+artifact_total: 51
 asyncapis:
 - description: ''
   name: Danske Bank Uk Events Webhooks
@@ -117,6 +186,10 @@ collections:
   name: Variable Recurring Payments - UK OB
   slug: open-danske-bank-uk-variable-recurring-payments
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/danske-bank-uk-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -242,13 +315,13 @@ modified: '2026-07-23'
 name: Danske Bank (UK)
 nav: Providers
 network: true
-overview: 'Danske Bank (UK) publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account and Transaction API, Payment Initiation API, and 8 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Danske Bank (UK) publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Account Information Service (AIS) API, Accounts API, and 31 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
   The Danske Bank (UK) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Danske Bank (UK)''s developer surface includes authentication, sandbox, documentation, getting-started guide, engineering blog, support, and 22 more developer resources.'
+  Danske Bank (UK)''s developer surface includes authentication, sandbox, documentation, getting-started guide, engineering blog, support, and 23 more developer resources.'
 random_paper: 12
 scopes:
 - name: Danske Bank Uk Scopes
@@ -257,18 +330,23 @@ scopes:
   summary_line: 4 scopes
 score:
   band: developing
-  composite: 47.4
-  delta: 0.0
+  composite: 44.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.8
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 16.7
-    contract_quality: 57.6
+    contract_governance: 4.5
+    contract_quality: 55.8
     developer_ergonomics: 49.4
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 47.4
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -276,12 +354,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 72.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/danske-bank-uk/refs/heads/main/screenshots/danske-bank-uk-2026-07-25T211205.png
 security:

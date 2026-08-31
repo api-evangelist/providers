@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 10
   slug: bird-rides-agentic-access
   summary_line: 10 operations
-api_count: 10
+api_count: 1
 apis:
 - description: Credentialed city / municipal data portal at https://city-data.bird.co providing partner cities with access to fleet, trip, and operational data feeds beyond the public GBFS surface. Access is granted
   name: Bird City Data Portal
@@ -103,6 +103,10 @@ collections:
   name: Bird GBFS Feed Discovery Vehicles API
   slug: open-bird-rides-vehicles-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bird-rides-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -304,7 +308,7 @@ overview: 'Bird publishes 7 APIs on the [APIs.io](https://apis.io/) network, inc
   The Bird catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Bird''s developer surface includes documentation, support, engineering blog, terms of service, privacy policy, and 31 more developer resources.'
+  Bird''s developer surface includes documentation, support, engineering blog, terms of service, privacy policy, and 32 more developer resources.'
 plans:
 - name: Bird Rides Plans Pricing
   plan_count: 4
@@ -327,18 +331,23 @@ rules:
   slug: bird-rides-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.2
-  delta: 4.6
+  composite: 40.7
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 41.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 65.6
     developer_ergonomics: 25.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 25.0
     operational_transparency: 2.6
-  previous_composite: 36.6
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     contracts:
@@ -346,8 +355,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bird-rides/refs/heads/main/screenshots/bird-rides-2026-06-20T173255.png
 security:
@@ -362,7 +371,7 @@ tags:
 - Electric Scooters
 - E-Scooters
 - E-Bikes
-- Bike Share
+- Bikeshare
 - Transportation
 - Urban Mobility
 - GBFS

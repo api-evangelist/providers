@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 53
   slug: nhs-api-agentic-access
   summary_line: 53 operations · 23 acting
-api_count: 13
+api_count: 3
 apis:
 - description: Retrieve documents held at a patient's registered GP practice, such as letters, discharge summaries, and other clinical documents stored in GP systems. Used alongside the Access Record Structured API.
   name: GP Connect Access Document - FHIR API
@@ -112,6 +112,10 @@ collections:
   name: e-Referrals Service CodeSystem ValueSet API
   slug: open-nhs-api-valueset-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nhs-api-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -220,7 +224,7 @@ overview: 'NHS API publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
   The NHS API catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  NHS API''s developer surface includes authentication, developer portal, documentation, getting-started guide, status page, and 13 more developer resources.'
+  NHS API''s developer surface includes authentication, developer portal, documentation, getting-started guide, status page, and 14 more developer resources.'
 random_paper: 16
 rules:
 - effective_rule_count: 5
@@ -235,18 +239,23 @@ rules:
   slug: nhs-api-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.0
-  delta: 0.7
+  composite: 36.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 66.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 9.8
-    contract_quality: 54.3
+    contract_quality: 52.2
     developer_ergonomics: 48.8
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 36.3
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -260,8 +269,8 @@ score:
     regime: Health
     regime_id: health
     score: 33.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhs-api/refs/heads/main/screenshots/nhs-api-2026-08-07T185236.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 226
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 491
   slug: thingsboard-agentic-access
   summary_line: 491 operations · 228 acting · 226 human-in-the-loop
-api_count: 58
+api_count: 15
 apis:
 - description: Admin
   name: ThingsBoard admin-controller API
@@ -617,6 +617,10 @@ collections:
   name: ThingsBoard Admin admin-controller widgets-bundle-controller API
   slug: open-thingsboard-widgets-bundle-controller-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/thingsboard-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -878,7 +882,7 @@ overview: 'ThingsBoard publishes 58 APIs on the [APIs.io](https://apis.io/) netw
   The ThingsBoard catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  ThingsBoard''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 37 more developer resources.'
+  ThingsBoard''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 38 more developer resources.'
 plans:
 - name: Thingsboard Plans Pricing
   plan_count: 15
@@ -913,6 +917,11 @@ rules:
 score:
   band: strong
   composite: 57.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 37.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 63.2
@@ -931,8 +940,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 58
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thingsboard/refs/heads/main/screenshots/thingsboard-2026-06-20T195300.png
 security:
@@ -958,7 +967,7 @@ tags:
 - Rule Engine
 - Dashboards
 - Edge
-- Multi-Tenant
+- Multi-tenant
 - Java
 - Spring
 website: https://thingsboard.io

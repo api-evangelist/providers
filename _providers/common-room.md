@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 54
   slug: common-room-agentic-access
   summary_line: 54 operations · 11 acting
-api_count: 23
+api_count: 3
 apis:
 - description: SCIM REST API for accessing community-scoped resources and managing user provisioning and deprovisioning.
   name: Common Room SCIM API
@@ -622,7 +622,7 @@ modified: '2026-08-13'
 name: Common Room
 nav: Providers
 network: true
-overview: 'Common Room publishes 23 APIs on the [APIs.io](https://apis.io/) network, including SCIM API, Activities API, Contacts API, and 20 more. Tagged areas include Community Intelligence, Go-To-Market, Member Signals, GitHub, and Slack.
+overview: 'Common Room publishes 23 APIs on the [APIs.io](https://apis.io/) network, including SCIM API, Activities API, Contacts API, and 20 more. Tagged areas include Community Intelligence, Go-to-Market, Member Signals, GitHub, and Slack.
 
 
   The Common Room catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -655,19 +655,24 @@ scopes:
   slug: common-room-scopes
   summary_line: 4 scopes · authorizationCode/deviceCode/refreshToken
 score:
-  band: exemplar
-  composite: 67.7
+  band: strong
+  composite: 65.1
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 45.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
-    contract_governance: 40.2
+    contract_governance: 28.0
     contract_quality: 74.4
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 40.2
+    discoverability: 81.5
+    governance: 28.0
     operational_transparency: 23.7
-  previous_composite: 67.7
+  previous_composite: 65.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -678,8 +683,8 @@ score:
       total: 22
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/common-room/refs/heads/main/screenshots/common-room-2026-06-20T174819.png
 security:
@@ -702,7 +707,7 @@ security:
 slug: common-room
 tags:
 - Community Intelligence
-- Go-To-Market
+- Go-to-Market
 - Member Signals
 - GitHub
 - Slack

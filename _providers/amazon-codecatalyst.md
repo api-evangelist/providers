@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 33
   slug: amazon-codecatalyst-agentic-access
   summary_line: 33 operations · 25 acting · 2 human-in-the-loop
-api_count: 4
+api_count: 1
 apis:
 - description: The AccessTokens API from Amazon CodeCatalyst — 2 operation(s) for accesstokens.
   name: Amazon CodeCatalyst AccessTokens API
@@ -1565,18 +1565,23 @@ rules:
   slug: amazon-codecatalyst-spectral-rules
 score:
   band: developing
-  composite: 52.2
-  delta: 1.5
+  composite: 49.0
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 71.4
     developer_ergonomics: 57.1
-    discoverability: 92.6
-    governance: 45.5
+    discoverability: 75.9
+    governance: 33.3
     operational_transparency: 18.4
-  previous_composite: 50.7
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1586,8 +1591,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/screenshots/amazon-codecatalyst-2026-07-25T195952.png
 security:

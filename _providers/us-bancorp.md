@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: us-bancorp-agentic-access
   summary_line: 15 operations · 6 acting
-api_count: 15
+api_count: 4
 apis:
 - description: The Wire Transfers API enables domestic and international wire transfer origination from U.S. Bank corporate accounts for large-value, time-sensitive payments.
   name: US Bank Wire Transfers API
@@ -134,6 +134,10 @@ collections:
   name: US Bank RTP Real-Time Payments API
   slug: open-us-bank-rtp
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/us-bancorp-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -203,7 +207,7 @@ overview: 'US Bancorp publishes 9 APIs on the [APIs.io](https://apis.io/) networ
   The US Bancorp catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  US Bancorp''s developer surface includes authentication and 5 more developer resources.'
+  US Bancorp''s developer surface includes authentication and 6 more developer resources.'
 plans:
 - name: Us Bancorp Plans Pricing
   plan_count: 1
@@ -259,6 +263,11 @@ scopes:
 score:
   band: thin
   composite: 32.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 13.2
@@ -283,8 +292,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/screenshots/us-bancorp-2026-06-20T200603.png
 security:

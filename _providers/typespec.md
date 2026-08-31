@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
 - description: The TypeSpec compiler processes `.tsp` TypeSpec files and emits output for configured emitters (OpenAPI, JSON Schema, Protobuf, etc.). It provides a programmatic Node.js/TypeScript API for building Ty
@@ -56,6 +56,22 @@ apis:
   slug: typespec-rest-library
 artifact_total: 15
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/microsoft/typespec/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/microsoft/typespec/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/microsoft/typespec/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/microsoft/typespec/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -147,7 +163,7 @@ overview: 'TypeSpec publishes 6 APIs on the [APIs.io](https://apis.io/) network.
   The TypeSpec catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  TypeSpec''s developer surface includes documentation, engineering blog, release notes, and 11 more developer resources.'
+  TypeSpec''s developer surface includes documentation, engineering blog, release notes, and 15 more developer resources.'
 plans:
 - name: Typespec Plans Pricing
   plan_count: 3
@@ -169,8 +185,13 @@ rules:
     warn: 3
   slug: typespec-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 23.3
+  band: thin
+  composite: 32.2
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -180,10 +201,13 @@ score:
     developer_ergonomics: 17.9
     discoverability: 64.8
     governance: 25.0
-    operational_transparency: 26.3
-  previous_composite: 23.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 32.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typespec/refs/heads/main/screenshots/typespec-2026-06-20T195906.png
 security:

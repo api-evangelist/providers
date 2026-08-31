@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sap/
 created: '2026-07-17'
 description: Virsa Systems was a governance, risk, and compliance (GRC) software company founded in 1996 that specialized in helping enterprises meet regulatory requirements such as Sarbanes-Oxley by embedding automated control design, testing, and enforcement directly into their business processes, notably around SAP access controls and segregation-of-duties. Lightspeed Venture Partners invested in the company at an early stage in 2004, and Virsa Systems was acquired by SAP in 2006, becoming the foundation of what is now SAP GRC / SAP Access Control. It no longer operates as an independent company and maintains no separate website, developer portal, or public API. This profile is retained in the API Evangelist network as a historical/portfolio record; there is no active API surface to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/virsa-systems.png
@@ -48,6 +53,11 @@ random_paper: 0
 score:
   band: minimal
   composite: 5.0
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -67,8 +77,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: virsa-systems
 tags:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 20
   slug: hyperscience-agentic-access
   summary_line: 20 operations · 4 acting
-api_count: 10
+api_count: 1
 apis:
 - description: REST API for the Hypercell platform — submit documents, retrieve extraction results, manage flows and human-review queues. Each tenant receives its own base URL.
   name: Hyperscience REST API
@@ -206,15 +206,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 29.9
-  delta: 0.0
+  composite: 29.4
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 44.2
     developer_ergonomics: 14.3
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 29.9
@@ -225,8 +230,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/screenshots/hyperscience-2026-06-20T183049.png
 security:

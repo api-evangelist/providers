@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 705
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 1810
   slug: factset-agentic-access
   summary_line: 1810 operations · 705 acting
-api_count: 460
+api_count: 142
 apis:
 - description: Manage lists of financial products via a CMS or upload job, including revision control.
   name: FactSet Recommendation List API for Digital Portals
@@ -108,9 +108,6 @@ apis:
 - description: Agency Details
   name: Factset Agents API
   slug: factset-agents-api
-- description: The Aggregate API from Factset — 2 operation(s) for aggregate.
-  name: Factset Aggregate API
-  slug: factset-aggregate-api
 - description: The Aggregated API from Factset — 1 operation(s) for aggregated.
   name: Factset Aggregated API
   slug: factset-aggregated-api
@@ -195,9 +192,6 @@ apis:
 - description: The Batch API from Factset — 6 operation(s) for batch.
   name: Factset Batch API
   slug: factset-batch-api
-- description: Manage asynchronous batch requests for processing large data sets with up to 30,000 identifiers per request.
-  name: Factset Batch Processing API
-  slug: factset-batch-processing-api
 - description: The Batch Result API from Factset — 2 operation(s) for batch result.
   name: Factset Batch Result API
   slug: factset-batch-result-api
@@ -207,15 +201,6 @@ apis:
 - description: The Benchmark API from Factset — 10 operation(s) for benchmark.
   name: Factset Benchmark API
   slug: factset-benchmark-api
-- description: The Benchmarks API from Factset — 7 operation(s) for benchmarks.
-  name: Factset Benchmarks API
-  slug: factset-benchmarks-api
-- description: The Bid API from Factset — 2 operation(s) for bid.
-  name: Factset Bid API
-  slug: factset-bid-api
-- description: The Board API from Factset — 3 operation(s) for board.
-  name: Factset Board API
-  slug: factset-board-api
 - description: The Book API from Factset — 1 operation(s) for book.
   name: Factset Book API
   slug: factset-book-api
@@ -240,18 +225,6 @@ apis:
 - description: The Calculations API from Factset — 27 operation(s) for calculations.
   name: Factset Calculations API
   slug: factset-calculations-api
-- description: The Calls API from Factset — 1 operation(s) for calls.
-  name: Factset Calls API
-  slug: factset-calls-api
-- description: The Card API from Factset — 1 operation(s) for card.
-  name: Factset Card API
-  slug: factset-card-api
-- description: The Cargo API from Factset — 1 operation(s) for cargo.
-  name: Factset Cargo API
-  slug: factset-cargo-api
-- description: The Cash API from Factset — 2 operation(s) for cash.
-  name: Factset Cash API
-  slug: factset-cash-api
 - description: The Cash Flow API from Factset — 1 operation(s) for cash flow.
   name: Factset Cash Flow API
   slug: factset-cash-flow-api
@@ -264,9 +237,6 @@ apis:
 - description: The Category API from Factset — 11 operation(s) for category.
   name: Factset Category API
   slug: factset-category-api
-- description: The Chain API from Factset — 1 operation(s) for chain.
-  name: Factset Chain API
-  slug: factset-chain-api
 - description: The Chart API from Factset — 5 operation(s) for chart.
   name: Factset Chart API
   slug: factset-chart-api
@@ -276,9 +246,6 @@ apis:
 - description: The Child Orders API from Factset — 3 operation(s) for child orders.
   name: Factset Child Orders API
   slug: factset-child-orders-api
-- description: The Class API from Factset — 1 operation(s) for class.
-  name: Factset Class API
-  slug: factset-class-api
 - description: The Classifications API from Factset — 2 operation(s) for classifications.
   name: Factset Classifications API
   slug: factset-classifications-api
@@ -288,27 +255,15 @@ apis:
 - description: The Code API from Factset — 7 operation(s) for code.
   name: Factset Code API
   slug: factset-code-api
-- description: The Column Statistics API from Factset — 1 operation(s) for column statistics.
-  name: Factset Column Statistics API
-  slug: factset-column-statistics-api
-- description: The Columns API from Factset — 2 operation(s) for columns.
-  name: Factset Columns API
-  slug: factset-columns-api
 - description: The Comments API from Factset — 8 operation(s) for comments.
   name: Factset Comments API
   slug: factset-comments-api
 - description: The Company API from Factset — 14 operation(s) for company.
   name: Factset Company API
   slug: factset-company-api
-- description: The Compensation API from Factset — 1 operation(s) for compensation.
-  name: Factset Compensation API
-  slug: factset-compensation-api
 - description: The Compliance API from Factset — 3 operation(s) for compliance.
   name: Factset Compliance API
   slug: factset-compliance-api
-- description: The Components API from Factset — 6 operation(s) for components.
-  name: Factset Components API
-  slug: factset-components-api
 - description: The Composite API from Factset — 6 operation(s) for composite.
   name: Factset Composite API
   slug: factset-composite-api
@@ -318,12 +273,6 @@ apis:
 - description: The Configurations API from Factset — 3 operation(s) for configurations.
   name: Factset Configurations API
   slug: factset-configurations-api
-- description: The consensus or nest of all Estimates items aggregated by a statistic such as mean or median.
-  name: Factset Consensus API
-  slug: factset-consensus-api
-- description: The Constituents API from Factset — 2 operation(s) for constituents.
-  name: Factset Constituents API
-  slug: factset-constituents-api
 - description: The Contact API from Factset — 8 operation(s) for contact.
   name: Factset Contact API
   slug: factset-contact-api
@@ -342,36 +291,18 @@ apis:
 - description: The Contacts API from Factset — 8 operation(s) for contacts.
   name: Factset Contacts API
   slug: factset-contacts-api
-- description: The Continent API from Factset — 2 operation(s) for continent.
-  name: Factset Continent API
-  slug: factset-continent-api
 - description: The Conversations API from Factset — 1 operation(s) for conversations.
   name: Factset Conversations API
   slug: factset-conversations-api
-- description: The Convertible API from Factset — 3 operation(s) for convertible.
-  name: Factset Convertible API
-  slug: factset-convertible-api
-- description: The Corporate API from Factset — 1 operation(s) for corporate.
-  name: Factset Corporate API
-  slug: factset-corporate-api
 - description: The Costs API from Factset — 1 operation(s) for costs.
   name: Factset Costs API
   slug: factset-costs-api
 - description: The Count API from Factset — 2 operation(s) for count.
   name: Factset Count API
   slug: factset-count-api
-- description: The Country API from Factset — 3 operation(s) for country.
-  name: Factset Country API
-  slug: factset-country-api
-- description: The Coupon API from Factset — 2 operation(s) for coupon.
-  name: Factset Coupon API
-  slug: factset-coupon-api
 - description: The Coupons API from Factset — 4 operation(s) for coupons.
   name: Factset Coupons API
   slug: factset-coupons-api
-- description: The Covenant API from Factset — 1 operation(s) for covenant.
-  name: Factset Covenant API
-  slug: factset-covenant-api
 - description: The Coverage API from Factset — 1 operation(s) for coverage.
   name: Factset Coverage API
   slug: factset-coverage-api
@@ -393,15 +324,6 @@ apis:
 - description: The Cross Sectional API from Factset — 1 operation(s) for cross sectional.
   name: Factset Cross Sectional API
   slug: factset-cross-sectional-api
-- description: The Currencies API from Factset — 1 operation(s) for currencies.
-  name: Factset Currencies API
-  slug: factset-currencies-api
-- description: The Currency API from Factset — 4 operation(s) for currency.
-  name: Factset Currency API
-  slug: factset-currency-api
-- description: The Current API from Factset — 1 operation(s) for current.
-  name: Factset Current API
-  slug: factset-current-api
 - description: The Current Cap API from Factset — 1 operation(s) for current cap.
   name: Factset Current Cap API
   slug: factset-current-cap-api
@@ -444,12 +366,6 @@ apis:
 - description: The Date API from Factset — 7 operation(s) for date.
   name: Factset Date API
   slug: factset-date-api
-- description: The Dates API from Factset — 4 operation(s) for dates.
-  name: Factset Dates API
-  slug: factset-dates-api
-- description: The Day API from Factset — 2 operation(s) for day.
-  name: Factset Day API
-  slug: factset-day-api
 - description: The Dcs Detail API from Factset — 1 operation(s) for dcs detail.
   name: Factset Dcs Detail API
   slug: factset-dcs-detail-api
@@ -462,69 +378,33 @@ apis:
 - description: The Defined API from Factset — 4 operation(s) for defined.
   name: Factset Defined API
   slug: factset-defined-api
-- description: The Definitions API from Factset — 1 operation(s) for definitions.
-  name: Factset Definitions API
-  slug: factset-definitions-api
-- description: The Deliveries API from Factset — 2 operation(s) for deliveries.
-  name: Factset Deliveries API
-  slug: factset-deliveries-api
 - description: The Derivative API from Factset — 8 operation(s) for derivative.
   name: Factset Derivative API
   slug: factset-derivative-api
-- description: The Detail API from Factset — 3 operation(s) for detail.
-  name: Factset Detail API
-  slug: factset-detail-api
 - description: The DFSnapshot API from Factset — 1 operation(s) for dfsnapshot.
   name: Factset DFSnapshot API
   slug: factset-dfsnapshot-api
-- description: The Dictionaries API from Factset — 2 operation(s) for dictionaries.
-  name: Factset Dictionaries API
-  slug: factset-dictionaries-api
 - description: The Distributor API from Factset — 5 operation(s) for distributor.
   name: Factset Distributor API
   slug: factset-distributor-api
-- description: The Dividends API from Factset — 4 operation(s) for dividends.
-  name: Factset Dividends API
-  slug: factset-dividends-api
 - description: The Docs Distributor API from Factset — 2 operation(s) for docs distributor.
   name: Factset Docs Distributor API
   slug: factset-docs-distributor-api
-- description: The Document API from Factset — 4 operation(s) for document.
-  name: Factset Document API
-  slug: factset-document-api
-- description: The Documentation API from Factset — 2 operation(s) for documentation.
-  name: Factset Documentation API
-  slug: factset-documentation-api
-- description: The Documents API from Factset — 9 operation(s) for documents.
-  name: Factset Documents API
-  slug: factset-documents-api
 - description: The Download Api Book Aws API from Factset — 1 operation(s) for download api book aws.
   name: Factset Download Api Book Aws API
   slug: factset-download-api-book-aws-api
-- description: The Download API from Factset — 5 operation(s) for download.
-  name: Factset Download API
-  slug: factset-download-api
 - description: The Downloads API from Factset — 1 operation(s) for downloads.
   name: Factset Downloads API
   slug: factset-downloads-api
 - description: The Elements API from Factset — 1 operation(s) for elements.
   name: Factset Elements API
   slug: factset-elements-api
-- description: The Engines API from Factset — 66 operation(s) for engines.
-  name: Factset Engines API
-  slug: factset-engines-api
 - description: The Entities API from Factset — 4 operation(s) for entities.
   name: Factset Entities API
   slug: factset-entities-api
 - description: The Entity API from Factset — 1 operation(s) for entity.
   name: Factset Entity API
   slug: factset-entity-api
-- description: The Estimates API from Factset — 11 operation(s) for estimates.
-  name: Factset Estimates API
-  slug: factset-estimates-api
-- description: The Evaluations API from Factset — 1 operation(s) for evaluations.
-  name: Factset Evaluations API
-  slug: factset-evaluations-api
 - description: The Event API from Factset — 1 operation(s) for event.
   name: Factset Event API
   slug: factset-event-api
@@ -612,42 +492,18 @@ apis:
 - description: The Financial Highlights API from Factset — 1 operation(s) for financial highlights.
   name: Factset Financial Highlights API
   slug: factset-financial-highlights-api
-- description: Retrieve standardized financial statement data including income statements, balance sheets, and cash flow statements. Access annual, quarterly, and interim data for companies worldwide.
-  name: Factset Financial Statements API
-  slug: factset-financial-statements-api
 - description: Retrieve Private Company Financials
   name: Factset Financials API
   slug: factset-financials-api
 - description: The Firsttrade API from Factset — 1 operation(s) for firsttrade.
   name: Factset Firsttrade API
   slug: factset-firsttrade-api
-- description: The Fiscal API from Factset — 1 operation(s) for fiscal.
-  name: Factset Fiscal API
-  slug: factset-fiscal-api
-- description: The Fixed API from Factset — 3 operation(s) for fixed.
-  name: Factset Fixed API
-  slug: factset-fixed-api
 - description: The Flows API from Factset — 1 operation(s) for flows.
   name: Factset Flows API
   slug: factset-flows-api
-- description: The Focus API from Factset — 1 operation(s) for focus.
-  name: Factset Focus API
-  slug: factset-focus-api
 - description: The Foreign Exchange API from Factset — 2 operation(s) for foreign exchange.
   name: Factset Foreign Exchange API
   slug: factset-foreign-exchange-api
-- description: The Fractional API from Factset — 2 operation(s) for fractional.
-  name: Factset Fractional API
-  slug: factset-fractional-api
-- description: The Frequencies API from Factset — 4 operation(s) for frequencies.
-  name: Factset Frequencies API
-  slug: factset-frequencies-api
-- description: The Frequency API from Factset — 1 operation(s) for frequency.
-  name: Factset Frequency API
-  slug: factset-frequency-api
-- description: The Functions API from Factset — 1 operation(s) for functions.
-  name: Factset Functions API
-  slug: factset-functions-api
 - description: fund endpoints
   name: Factset fund API
   slug: factset-fund-api
@@ -660,9 +516,6 @@ apis:
 - description: The Geographic Segments API from Factset — 1 operation(s) for geographic segments.
   name: Factset Geographic Segments API
   slug: factset-geographic-segments-api
-- description: The Get API from Factset — 3 operation(s) for get.
-  name: Factset Get API
-  slug: factset-get-api
 - description: The Global API from Factset — 7 operation(s) for global.
   name: Factset Global API
   slug: factset-global-api
@@ -675,9 +528,6 @@ apis:
 - description: The Group API from Factset — 3 operation(s) for group.
   name: Factset Group API
   slug: factset-group-api
-- description: The Grouping API from Factset — 1 operation(s) for grouping.
-  name: Factset Grouping API
-  slug: factset-grouping-api
 - description: The Groups API from Factset — 13 operation(s) for groups.
   name: Factset Groups API
   slug: factset-groups-api
@@ -687,12 +537,6 @@ apis:
 - description: The Helper API from Factset — 1 operation(s) for helper.
   name: Factset Helper API
   slug: factset-helper-api
-- description: The High API from Factset — 1 operation(s) for high.
-  name: Factset High API
-  slug: factset-high-api
-- description: The Historical API from Factset — 4 operation(s) for historical.
-  name: Factset Historical API
-  slug: factset-historical-api
 - description: The History API from Factset — 12 operation(s) for history.
   name: Factset History API
   slug: factset-history-api
@@ -708,9 +552,6 @@ apis:
 - description: The I API from Factset — 5 operation(s) for i.
   name: Factset I API
   slug: factset-i-api
-- description: The Id API from Factset — 1 operation(s) for id.
-  name: Factset Id API
-  slug: factset-id-api
 - description: The Identifiers API from Factset — 2 operation(s) for identifiers.
   name: Factset Identifiers API
   slug: factset-identifiers-api
@@ -720,24 +561,12 @@ apis:
 - description: The Image API from Factset — 1 operation(s) for image.
   name: Factset Image API
   slug: factset-image-api
-- description: The Income API from Factset — 2 operation(s) for income.
-  name: Factset Income API
-  slug: factset-income-api
 - description: The Income Statement API from Factset — 1 operation(s) for income statement.
   name: Factset Income Statement API
   slug: factset-income-statement-api
-- description: The Index API from Factset — 3 operation(s) for index.
-  name: Factset Index API
-  slug: factset-index-api
-- description: The Indexed API from Factset — 1 operation(s) for indexed.
-  name: Factset Indexed API
-  slug: factset-indexed-api
 - description: The Industry Metrics API from Factset — 1 operation(s) for industry metrics.
   name: Factset Industry Metrics API
   slug: factset-industry-metrics-api
-- description: The Info API from Factset — 1 operation(s) for info.
-  name: Factset Info API
-  slug: factset-info-api
 - description: The Instance API from Factset — 3 operation(s) for instance.
   name: Factset Instance API
   slug: factset-instance-api
@@ -747,57 +576,21 @@ apis:
 - description: The Instrument API from Factset — 39 operation(s) for instrument.
   name: Factset Instrument API
   slug: factset-instrument-api
-- description: The Instruments API from Factset — 4 operation(s) for instruments.
-  name: Factset Instruments API
-  slug: factset-instruments-api
-- description: The Interest API from Factset — 1 operation(s) for interest.
-  name: Factset Interest API
-  slug: factset-interest-api
 - description: The Intraday API from Factset — 7 operation(s) for intraday.
   name: Factset Intraday API
   slug: factset-intraday-api
-- description: The Issue API from Factset — 1 operation(s) for issue.
-  name: Factset Issue API
-  slug: factset-issue-api
-- description: The Issuer API from Factset — 2 operation(s) for issuer.
-  name: Factset Issuer API
-  slug: factset-issuer-api
 - description: Updating and retrieving issue data within the Issue Tracker
   name: Factset Issues API
   slug: factset-issues-api
-- description: The Items API from Factset — 2 operation(s) for items.
-  name: Factset Items API
-  slug: factset-items-api
 - description: The Job API from Factset — 4 operation(s) for job.
   name: Factset Job API
   slug: factset-job-api
 - description: The Jobs API from Factset — 3 operation(s) for jobs.
   name: Factset Jobs API
   slug: factset-jobs-api
-- description: The Key API from Factset — 23 operation(s) for key.
-  name: Factset Key API
-  slug: factset-key-api
 - description: The Key Stats API from Factset — 1 operation(s) for key stats.
   name: Factset Key Stats API
   slug: factset-key-stats-api
-- description: The Keys API from Factset — 10 operation(s) for keys.
-  name: Factset Keys API
-  slug: factset-keys-api
-- description: The Kind API from Factset — 2 operation(s) for kind.
-  name: Factset Kind API
-  slug: factset-kind-api
-- description: The Language API from Factset — 3 operation(s) for language.
-  name: Factset Language API
-  slug: factset-language-api
-- description: The Last Trade API from Factset — 1 operation(s) for last trade.
-  name: Factset Last Trade API
-  slug: factset-last-trade-api
-- description: The Lead API from Factset — 1 operation(s) for lead.
-  name: Factset Lead API
-  slug: factset-lead-api
-- description: The Legal API from Factset — 2 operation(s) for legal.
-  name: Factset Legal API
-  slug: factset-legal-api
 - description: The Level API from Factset — 2 operation(s) for level.
   name: Factset Level API
   slug: factset-level-api
@@ -807,18 +600,9 @@ apis:
 - description: The Level2 API from Factset — 3 operation(s) for level2.
   name: Factset Level2 API
   slug: factset-level2-api
-- description: The Levels API from Factset — 10 operation(s) for levels.
-  name: Factset Levels API
-  slug: factset-levels-api
 - description: The Linear API from Factset — 7 operation(s) for linear.
   name: Factset Linear API
   slug: factset-linear-api
-- description: The Link API from Factset — 1 operation(s) for link.
-  name: Factset Link API
-  slug: factset-link-api
-- description: The Linked API from Factset — 2 operation(s) for linked.
-  name: Factset Linked API
-  slug: factset-linked-api
 - description: <a href=https://go.factset.com/marketplace/catalog/product/linkup-raw>LinkUp</a> API provides access to job listings data.
   name: Factset Linkup API
   slug: factset-linkup-api
@@ -834,18 +618,6 @@ apis:
 - description: The Locations API from Factset — 2 operation(s) for locations.
   name: Factset Locations API
   slug: factset-locations-api
-- description: The Log API from Factset — 1 operation(s) for log.
-  name: Factset Log API
-  slug: factset-log-api
-- description: The Logs API from Factset — 1 operation(s) for logs.
-  name: Factset Logs API
-  slug: factset-logs-api
-- description: The Lookups API from Factset — 2 operation(s) for lookups.
-  name: Factset Lookups API
-  slug: factset-lookups-api
-- description: The Low API from Factset — 1 operation(s) for low.
-  name: Factset Low API
-  slug: factset-low-api
 - description: <a href=https://go.factset.com/marketplace/catalog/product/lgx-datahub>Luxembourg</a> API provides access to Green Bonds data.
   name: Factset Luxembourg API
   slug: factset-luxembourg-api
@@ -858,9 +630,6 @@ apis:
 - description: The Markit Bond Prices and Analytics API from Factset — 8 operation(s) for markit bond prices and analytics.
   name: Factset Markit Bond Prices and Analytics API
   slug: factset-markit-bond-prices-and-analytics-api
-- description: The Media API from Factset — 4 operation(s) for media.
-  name: Factset Media API
-  slug: factset-media-api
 - description: The Meetings API from Factset — 11 operation(s) for meetings.
   name: Factset Meetings API
   slug: factset-meetings-api
@@ -870,33 +639,15 @@ apis:
 - description: Discover available FactSet Fundamental metrics and ratios that can be used across the API endpoints.
   name: Factset Metrics API
   slug: factset-metrics-api
-- description: The Minute API from Factset — 3 operation(s) for minute.
-  name: Factset Minute API
-  slug: factset-minute-api
-- description: The Modeling API from Factset — 3 operation(s) for modeling.
-  name: Factset Modeling API
-  slug: factset-modeling-api
-- description: The Models API from Factset — 5 operation(s) for models.
-  name: Factset Models API
-  slug: factset-models-api
 - description: The Modify API from Factset — 5 operation(s) for modify.
   name: Factset Modify API
   slug: factset-modify-api
-- description: The Month API from Factset — 9 operation(s) for month.
-  name: Factset Month API
-  slug: factset-month-api
 - description: The Mpo API from Factset — 1 operation(s) for mpo.
   name: Factset Mpo API
   slug: factset-mpo-api
-- description: The N API from Factset — 3 operation(s) for n.
-  name: Factset N API
-  slug: factset-n-api
 - description: The Name API from Factset — 16 operation(s) for name.
   name: Factset Name API
   slug: factset-name-api
-- description: The Namespaces API from Factset — 1 operation(s) for namespaces.
-  name: Factset Namespaces API
-  slug: factset-namespaces-api
 - description: The Navigator API from Factset — 6 operation(s) for navigator.
   name: Factset Navigator API
   slug: factset-navigator-api
@@ -918,36 +669,15 @@ apis:
 - description: The Numbers API from Factset — 2 operation(s) for numbers.
   name: Factset Numbers API
   slug: factset-numbers-api
-- description: Retrieves Objects and their underlying data
-  name: Factset Objects API
-  slug: factset-objects-api
-- description: The Officer API from Factset — 1 operation(s) for officer.
-  name: Factset Officer API
-  slug: factset-officer-api
 - description: The Ofs API from Factset — 21 operation(s) for ofs.
   name: Factset Ofs API
   slug: factset-ofs-api
-- description: The Operating API from Factset — 1 operation(s) for operating.
-  name: Factset Operating API
-  slug: factset-operating-api
-- description: The Optimizations API from Factset — 12 operation(s) for optimizations.
-  name: Factset Optimizations API
-  slug: factset-optimizations-api
 - description: '<a href=https://go.factset.com/marketplace/catalog/product/china-a-shares-transcripts>Orbit</a> API covers full universe of almost 4,800 companies since the early 2000''s. Content covers 3 types, both '
   name: Factset Orbit API
   slug: factset-orbit-api
 - description: These endpoints relate to Order Entry.
   name: Factset Orders API
   slug: factset-orders-api
-- description: The Output API from Factset — 1 operation(s) for output.
-  name: Factset Output API
-  slug: factset-output-api
-- description: The Owner API from Factset — 1 operation(s) for owner.
-  name: Factset Owner API
-  slug: factset-owner-api
-- description: The Ownership API from Factset — 2 operation(s) for ownership.
-  name: Factset Ownership API
-  slug: factset-ownership-api
 - description: The Ozmosi API from Factset — 10 operation(s) for ozmosi.
   name: Factset Ozmosi API
   slug: factset-ozmosi-api
@@ -957,24 +687,12 @@ apis:
 - description: The Path API from Factset — 10 operation(s) for path.
   name: Factset Path API
   slug: factset-path-api
-- description: The Payouts API from Factset — 4 operation(s) for payouts.
-  name: Factset Payouts API
-  slug: factset-payouts-api
 - description: The Peer List API from Factset — 1 operation(s) for peer list.
   name: Factset Peer List API
   slug: factset-peer-list-api
-- description: The People API from Factset — 6 operation(s) for people.
-  name: Factset People API
-  slug: factset-people-api
 - description: The Per Share API from Factset — 1 operation(s) for per share.
   name: Factset Per Share API
   slug: factset-per-share-api
-- description: The Periodic API from Factset — 1 operation(s) for periodic.
-  name: Factset Periodic API
-  slug: factset-periodic-api
-- description: The Phone API from Factset — 2 operation(s) for phone.
-  name: Factset Phone API
-  slug: factset-phone-api
 - description: The Phone Number Types API from Factset — 2 operation(s) for phone number types.
   name: Factset Phone Number Types API
   slug: factset-phone-number-types-api
@@ -987,18 +705,9 @@ apis:
 - description: The Prices API from Factset — 32 operation(s) for prices.
   name: Factset Prices API
   slug: factset-prices-api
-- description: The Pricing API from Factset — 1 operation(s) for pricing.
-  name: Factset Pricing API
-  slug: factset-pricing-api
 - description: The Private API from Factset — 4 operation(s) for private.
   name: Factset Private API
   slug: factset-private-api
-- description: The Proceeds API from Factset — 1 operation(s) for proceeds.
-  name: Factset Proceeds API
-  slug: factset-proceeds-api
-- description: The Product API from Factset — 1 operation(s) for product.
-  name: Factset Product API
-  slug: factset-product-api
 - description: The Product Segments API from Factset — 1 operation(s) for product segments.
   name: Factset Product Segments API
   slug: factset-product-segments-api
@@ -1008,72 +717,24 @@ apis:
 - description: The Profile API from Factset — 1 operation(s) for profile.
   name: Factset Profile API
   slug: factset-profile-api
-- description: Return information about the person with the specified entity ID.
-  name: Factset Profiles API
-  slug: factset-profiles-api
-- description: The Properties API from Factset — 3 operation(s) for properties.
-  name: Factset Properties API
-  slug: factset-properties-api
 - description: The Providers API from Factset — 1 operation(s) for providers.
   name: Factset Providers API
   slug: factset-providers-api
-- description: The Publisher API from Factset — 4 operation(s) for publisher.
-  name: Factset Publisher API
-  slug: factset-publisher-api
-- description: The Q API from Factset — 5 operation(s) for q.
-  name: Factset Q API
-  slug: factset-q-api
 - description: The Qna API from Factset — 3 operation(s) for qna.
   name: Factset Qna API
   slug: factset-qna-api
-- description: The Quant API from Factset — 6 operation(s) for quant.
-  name: Factset Quant API
-  slug: factset-quant-api
 - description: The Range API from Factset — 1 operation(s) for range.
   name: Factset Range API
   slug: factset-range-api
-- description: The Ranges API from Factset — 3 operation(s) for ranges.
-  name: Factset Ranges API
-  slug: factset-ranges-api
-- description: The Rankings API from Factset — 1 operation(s) for rankings.
-  name: Factset Rankings API
-  slug: factset-rankings-api
-- description: The Ranks API from Factset — 1 operation(s) for ranks.
-  name: Factset Ranks API
-  slug: factset-ranks-api
-- description: The Rates API from Factset — 3 operation(s) for rates.
-  name: Factset Rates API
-  slug: factset-rates-api
-- description: The Consensus and Broker-Level Ratings detail for Buy, Hold, Sell, Overweight, Underweight.
-  name: Factset Ratings API
-  slug: factset-ratings-api
-- description: Access pre-calculated financial ratios including profitability, liquidity, growth rates, size, and valuation metrics.
-  name: Factset Ratios API
-  slug: factset-ratios-api
 - description: The Recommendation List API from Factset — 2 operation(s) for recommendation list.
   name: Factset Recommendation List API
   slug: factset-recommendation-list-api
 - description: The Recommendations API from Factset — 9 operation(s) for recommendations.
   name: Factset Recommendations API
   slug: factset-recommendations-api
-- description: The Record API from Factset — 2 operation(s) for record.
-  name: Factset Record API
-  slug: factset-record-api
-- description: The Records API from Factset — 2 operation(s) for records.
-  name: Factset Records API
-  slug: factset-records-api
-- description: The Reference API from Factset — 13 operation(s) for reference.
-  name: Factset Reference API
-  slug: factset-reference-api
-- description: The References API from Factset — 1 operation(s) for references.
-  name: Factset References API
-  slug: factset-references-api
 - description: The Refresh API from Factset — 3 operation(s) for refresh.
   name: Factset Refresh API
   slug: factset-refresh-api
-- description: The Region API from Factset — 7 operation(s) for region.
-  name: Factset Region API
-  slug: factset-region-api
 - description: The Related API from Factset — 1 operation(s) for related.
   name: Factset Related API
   slug: factset-related-api
@@ -1086,156 +747,66 @@ apis:
 - description: The Relationships API from Factset — 12 operation(s) for relationships.
   name: Factset Relationships API
   slug: factset-relationships-api
-- description: The Reorder API from Factset — 2 operation(s) for reorder.
-  name: Factset Reorder API
-  slug: factset-reorder-api
-- description: The Report API from Factset — 1 operation(s) for report.
-  name: Factset Report API
-  slug: factset-report-api
 - description: The Report Instances API from Factset — 5 operation(s) for report instances.
   name: Factset Report Instances API
   slug: factset-report-instances-api
 - description: The Reports API from Factset — 6 operation(s) for reports.
   name: Factset Reports API
   slug: factset-reports-api
-- description: The Representative API from Factset — 1 operation(s) for representative.
-  name: Factset Representative API
-  slug: factset-representative-api
-- description: The Request API from Factset — 1 operation(s) for request.
-  name: Factset Request API
-  slug: factset-request-api
-- description: The Resolutions API from Factset — 2 operation(s) for resolutions.
-  name: Factset Resolutions API
-  slug: factset-resolutions-api
 - description: The Resources API from Factset — 6 operation(s) for resources.
   name: Factset Resources API
   slug: factset-resources-api
 - description: The Result API from Factset — 10 operation(s) for result.
   name: Factset Result API
   slug: factset-result-api
-- description: The Results API from Factset — 3 operation(s) for results.
-  name: Factset Results API
-  slug: factset-results-api
 - description: The Returns API from Factset — 9 operation(s) for returns.
   name: Factset Returns API
   slug: factset-returns-api
 - description: CRUD operations on Returns Composite
   name: Factset Returns Composite API
   slug: factset-returns-composite-api
-- description: The Roles API from Factset — 2 operation(s) for roles.
-  name: Factset Roles API
-  slug: factset-roles-api
-- description: The Rolling API from Factset — 2 operation(s) for rolling.
-  name: Factset Rolling API
-  slug: factset-rolling-api
-- description: The Rollover API from Factset — 1 operation(s) for rollover.
-  name: Factset Rollover API
-  slug: factset-rollover-api
 - description: These endpoints refer to specific runs for a PRB job
   name: Factset Runs API
   slug: factset-runs-api
-- description: The Sales API from Factset — 1 operation(s) for sales.
-  name: Factset Sales API
-  slug: factset-sales-api
-- description: The Schedules API from Factset — 3 operation(s) for schedules.
-  name: Factset Schedules API
-  slug: factset-schedules-api
-- description: The Schema API from Factset — 1 operation(s) for schema.
-  name: Factset Schema API
-  slug: factset-schema-api
 - description: The Schemas API from Factset — 2 operation(s) for schemas.
   name: Factset Schemas API
   slug: factset-schemas-api
 - description: The Scim API from Factset — 4 operation(s) for scim.
   name: Factset Scim API
   slug: factset-scim-api
-- description: The Scopes API from Factset — 1 operation(s) for scopes.
-  name: Factset Scopes API
-  slug: factset-scopes-api
-- description: The Scores API from Factset — 3 operation(s) for scores.
-  name: Factset Scores API
-  slug: factset-scores-api
-- description: The Screener API from Factset — 6 operation(s) for screener.
-  name: Factset Screener API
-  slug: factset-screener-api
 - description: Scripts Asia API provides access to Asia Pacific regional collected transcripts.
   name: Factset Scripts Asia API
   slug: factset-scripts-asia-api
 - description: The Search API from Factset — 26 operation(s) for search.
   name: Factset Search API
   slug: factset-search-api
-- description: The Sectional API from Factset — 1 operation(s) for sectional.
-  name: Factset Sectional API
-  slug: factset-sectional-api
-- description: The Securities API from Factset — 3 operation(s) for securities.
-  name: Factset Securities API
-  slug: factset-securities-api
-- description: The Security API from Factset — 4 operation(s) for security.
-  name: Factset Security API
-  slug: factset-security-api
 - description: Access business and geographic segment data including revenue, operating income, assets, depreciation, and capital expenditures by segment.
   name: Factset Segments API
   slug: factset-segments-api
-- description: The Selections API from Factset — 6 operation(s) for selections.
-  name: Factset Selections API
-  slug: factset-selections-api
 - description: The Sentiments API from Factset — 1 operation(s) for sentiments.
   name: Factset Sentiments API
   slug: factset-sentiments-api
 - description: The Series API from Factset — 12 operation(s) for series.
   name: Factset Series API
   slug: factset-series-api
-- description: The Servers API from Factset — 1 operation(s) for servers.
-  name: Factset Servers API
-  slug: factset-servers-api
 - description: The ServiceProviderConfig API from Factset — 1 operation(s) for serviceproviderconfig.
   name: Factset ServiceProviderConfig API
   slug: factset-serviceproviderconfig-api
-- description: The Set API from Factset — 4 operation(s) for set.
-  name: Factset Set API
-  slug: factset-set-api
-- description: The Shares API from Factset — 2 operation(s) for shares.
-  name: Factset Shares API
-  slug: factset-shares-api
-- description: The Signal API from Factset — 1 operation(s) for signal.
-  name: Factset Signal API
-  slug: factset-signal-api
-- description: The Size API from Factset — 1 operation(s) for size.
-  name: Factset Size API
-  slug: factset-size-api
 - description: The Snapshots API from Factset — 4 operation(s) for snapshots.
   name: Factset Snapshots API
   slug: factset-snapshots-api
-- description: The Snippets API from Factset — 1 operation(s) for snippets.
-  name: Factset Snippets API
-  slug: factset-snippets-api
 - description: The Source of Capital API from Factset — 1 operation(s) for source of capital.
   name: Factset Source of Capital API
   slug: factset-source-of-capital-api
 - description: The Sources API from Factset — 6 operation(s) for sources.
   name: Factset Sources API
   slug: factset-sources-api
-- description: The Splits API from Factset — 1 operation(s) for splits.
-  name: Factset Splits API
-  slug: factset-splits-api
-- description: Get Spotlight data for the most important positive and negative ESG events
-  name: Factset Spotlights API
-  slug: factset-spotlights-api
-- description: The Standard API from Factset — 4 operation(s) for standard.
-  name: Factset Standard API
-  slug: factset-standard-api
-- description: The Statistics API from Factset — 1 operation(s) for statistics.
-  name: Factset Statistics API
-  slug: factset-statistics-api
 - description: The Status API from Factset — 20 operation(s) for status.
   name: Factset Status API
   slug: factset-status-api
 - description: The Stock API from Factset — 16 operation(s) for stock.
   name: Factset Stock API
   slug: factset-stock-api
-- description: The Strategies API from Factset — 3 operation(s) for strategies.
-  name: Factset Strategies API
-  slug: factset-strategies-api
 - description: The Street Account API from Factset — 8 operation(s) for street account.
   name: Factset Street Account API
   slug: factset-street-account-api
@@ -1254,24 +825,12 @@ apis:
 - description: The Summary API from Factset — 1 operation(s) for summary.
   name: Factset Summary API
   slug: factset-summary-api
-- description: The Surprise Events reflecting the company's reported financials against the broker's estimates.
-  name: Factset Surprise API
-  slug: factset-surprise-api
-- description: The Swivel API from Factset — 4 operation(s) for swivel.
-  name: Factset Swivel API
-  slug: factset-swivel-api
-- description: The Symbol API from Factset — 4 operation(s) for symbol.
-  name: Factset Symbol API
-  slug: factset-symbol-api
 - description: The Symbol Relationships API from Factset — 4 operation(s) for symbol relationships.
   name: Factset Symbol Relationships API
   slug: factset-symbol-relationships-api
 - description: The Symbology API from Factset — 2 operation(s) for symbology.
   name: Factset Symbology API
   slug: factset-symbology-api
-- description: The Symbols API from Factset — 22 operation(s) for symbols.
-  name: Factset Symbols API
-  slug: factset-symbols-api
 - description: The Symbols Relationships API from Factset — 2 operation(s) for symbols relationships.
   name: Factset Symbols Relationships API
   slug: factset-symbols-relationships-api
@@ -1293,96 +852,24 @@ apis:
 - description: The Template List API from Factset — 1 operation(s) for template list.
   name: Factset Template List API
   slug: factset-template-list-api
-- description: The Templated API from Factset — 2 operation(s) for templated.
-  name: Factset Templated API
-  slug: factset-templated-api
-- description: The Templates API from Factset — 6 operation(s) for templates.
-  name: Factset Templates API
-  slug: factset-templates-api
-- description: The Tenant API from Factset — 10 operation(s) for tenant.
-  name: Factset Tenant API
-  slug: factset-tenant-api
-- description: The Terms API from Factset — 13 operation(s) for terms.
-  name: Factset Terms API
-  slug: factset-terms-api
-- description: The Text API from Factset — 6 operation(s) for text.
-  name: Factset Text API
-  slug: factset-text-api
 - description: The Themes API from Factset — 3 operation(s) for themes.
   name: Factset Themes API
   slug: factset-themes-api
 - description: The TickHistory API from Factset — 5 operation(s) for tickhistory.
   name: Factset TickHistory API
   slug: factset-tickhistory-api
-- description: The Tile API from Factset — 3 operation(s) for tile.
-  name: Factset Tile API
-  slug: factset-tile-api
-- description: The Time API from Factset — 12 operation(s) for time.
-  name: Factset Time API
-  slug: factset-time-api
 - description: The Time Series API from Factset — 1 operation(s) for time series.
   name: Factset Time Series API
   slug: factset-time-series-api
-- description: The Trade API from Factset — 1 operation(s) for trade.
-  name: Factset Trade API
-  slug: factset-trade-api
 - description: CRUD operations on Trade Data
   name: Factset Trade Data API
   slug: factset-trade-data-api
-- description: The Trades at Time API from Factset — 1 operation(s) for trades at time.
-  name: Factset Trades at Time API
-  slug: factset-trades-at-time-api
-- description: The Trading API from Factset — 3 operation(s) for trading.
-  name: Factset Trading API
-  slug: factset-trading-api
-- description: The Transaction API from Factset — 6 operation(s) for transaction.
-  name: Factset Transaction API
-  slug: factset-transaction-api
 - description: The Transactions API from Factset — 1 operation(s) for transactions.
   name: Factset Transactions API
   slug: factset-transactions-api
-- description: The Trigger API from Factset — 2 operation(s) for trigger.
-  name: Factset Trigger API
-  slug: factset-trigger-api
-- description: The Type API from Factset — 21 operation(s) for type.
-  name: Factset Type API
-  slug: factset-type-api
-- description: The Types API from Factset — 11 operation(s) for types.
-  name: Factset Types API
-  slug: factset-types-api
-- description: The Underlying API from Factset — 1 operation(s) for underlying.
-  name: Factset Underlying API
-  slug: factset-underlying-api
-- description: Lead Underwriter Details
-  name: Factset Underwriters API
-  slug: factset-underwriters-api
-- description: The Unit API from Factset — 11 operation(s) for unit.
-  name: Factset Unit API
-  slug: factset-unit-api
-- description: The Units API from Factset — 5 operation(s) for units.
-  name: Factset Units API
-  slug: factset-units-api
-- description: The Universe API from Factset — 1 operation(s) for universe.
-  name: Factset Universe API
-  slug: factset-universe-api
-- description: The Unlinked API from Factset — 4 operation(s) for unlinked.
-  name: Factset Unlinked API
-  slug: factset-unlinked-api
-- description: The Upload API from Factset — 1 operation(s) for upload.
-  name: Factset Upload API
-  slug: factset-upload-api
 - description: The Upload Custom Document API from Factset — 1 operation(s) for upload custom document.
   name: Factset Upload Custom Document API
   slug: factset-upload-custom-document-api
-- description: The Uploads API from Factset — 2 operation(s) for uploads.
-  name: Factset Uploads API
-  slug: factset-uploads-api
-- description: The Use API from Factset — 1 operation(s) for use.
-  name: Factset Use API
-  slug: factset-use-api
-- description: The Used API from Factset — 1 operation(s) for used.
-  name: Factset Used API
-  slug: factset-used-api
 - description: The User API from Factset — 5 operation(s) for user.
   name: Factset User API
   slug: factset-user-api
@@ -1398,34 +885,13 @@ apis:
 - description: The Valuation API from Factset — 1 operation(s) for valuation.
   name: Factset Valuation API
   slug: factset-valuation-api
-- description: The Value API from Factset — 11 operation(s) for value.
-  name: Factset Value API
-  slug: factset-value-api
-- description: The Values API from Factset — 1 operation(s) for values.
-  name: Factset Values API
-  slug: factset-values-api
-- description: The Vault API from Factset — 11 operation(s) for vault.
-  name: Factset Vault API
-  slug: factset-vault-api
 - description: The Vendor API from Factset — 5 operation(s) for vendor.
   name: Factset Vendor API
   slug: factset-vendor-api
-- description: vendor endpoints
-  name: Factset Vendors API
-  slug: factset-vendors-api
-- description: Create, edit and delete views
-  name: Factset Views API
-  slug: factset-views-api
 - description: The Watchlist API from Factset — 10 operation(s) for watchlist.
   name: Factset Watchlist API
   slug: factset-watchlist-api
-- description: The Week API from Factset — 3 operation(s) for week.
-  name: Factset Week API
-  slug: factset-week-api
-- description: The Year API from Factset — 16 operation(s) for year.
-  name: Factset Year API
-  slug: factset-year-api
-artifact_total: 5912
+artifact_total: 5734
 collections:
 - collection_type: postman
   name: Factset Analytics Datastore About API
@@ -4266,6 +3732,10 @@ collections:
   name: Factset Analytics Datastore About Year API
   slug: open-factset-year-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/factset-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -17994,13 +17464,13 @@ modified: '2026-07-22'
 name: Factset
 nav: Providers
 network: true
-overview: 'Factset publishes 447 APIs on the [APIs.io](https://apis.io/) network, including News API, About API, Account API, and 444 more. Tagged areas include Financial, Financial Data, Investment Analytics, Market Data, and Portfolio Analytics.
+overview: 'Factset publishes 269 APIs on the [APIs.io](https://apis.io/) network, including News API, About API, Account API, and 266 more. Tagged areas include Financial, Financial Data, Investment Analytics, Market Data, and Portfolio Analytics.
 
 
   The Factset catalog on APIs.io includes 60 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Factset''s developer surface includes authentication, developer portal, getting-started guide, legal docs, API reference, support, sandbox, and 46 more developer resources.'
+  Factset''s developer surface includes authentication, developer portal, getting-started guide, legal docs, API reference, support, sandbox, and 47 more developer resources.'
 plans:
 - name: Factset Plans Pricing
   plan_count: 4
@@ -18038,19 +17508,24 @@ scopes:
   slug: factset-scopes
   summary_line: 9 scopes · clientCredentials
 score:
-  band: exemplar
-  composite: 67.4
-  delta: 2.6
+  band: strong
+  composite: 64.2
+  coverage:
+    artifact_dirs: 33
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 45.5
-    contract_quality: 71.1
+    contract_governance: 33.3
+    contract_quality: 68.5
     developer_ergonomics: 87.5
-    discoverability: 79.6
-    governance: 45.5
+    discoverability: 68.5
+    governance: 33.3
     operational_transparency: 28.9
-  previous_composite: 64.8
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -18067,8 +17542,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/screenshots/factset-2026-06-20T181011.png
 security:

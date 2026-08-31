@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 13
   slug: aleo-agentic-access
   summary_line: 13 operations · 1 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Block and transaction queries
   name: Aleo Blocks API
@@ -207,25 +207,30 @@ modified: '2026-07-17'
 name: Aleo
 nav: Providers
 network: true
-overview: 'Aleo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Blocks API, Chain API, Network API, and 2 more. Tagged areas include Company, Blockchain, Zero Knowledge, Cryptography, and Privacy.
+overview: 'Aleo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Blocks API, Chain API, Network API, and 2 more. Tagged areas include Company, Blockchain, Zero-Knowledge, Cryptography, and Privacy.
 
 
   Aleo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, sandbox, CLI, and 22 more developer resources.'
 random_paper: 18
 score:
   band: developing
-  composite: 44.6
-  delta: 0.0
+  composite: 42.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 50.3
     developer_ergonomics: 76.8
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 44.6
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,8 +241,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aleo/refs/heads/main/screenshots/aleo-2026-07-25T195557.png
 security:
@@ -253,7 +258,7 @@ slug: aleo
 tags:
 - Company
 - Blockchain
-- Zero Knowledge
+- Zero-Knowledge
 - Cryptography
 - Privacy
 - Web3

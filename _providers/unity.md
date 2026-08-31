@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 98
   slug: unity-agentic-access
   summary_line: 98 operations · 62 acting · 3 human-in-the-loop
-api_count: 33
+api_count: 12
 apis:
 - description: Vivox provides voice and text-based communication services for games, with APIs for managing channels, participants, and communication sessions across platforms. Supports 2D and 3D positional audio.
   name: Unity Vivox Voice and Text Chat API
@@ -429,6 +429,10 @@ collections:
   name: Unity Analytics Allocations Tickets API
   slug: open-unity-tickets-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/unity-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1013,7 +1017,7 @@ overview: 'Unity publishes 31 APIs on the [APIs.io](https://apis.io/) network, i
   The Unity catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Unity''s developer surface includes authentication, developer portal, signup flow, support, engineering blog, API reference, documentation, and 46 more developer resources.'
+  Unity''s developer surface includes authentication, developer portal, signup flow, support, engineering blog, API reference, documentation, and 47 more developer resources.'
 plans:
 - name: Unity Plans Pricing
   plan_count: 1
@@ -1047,18 +1051,23 @@ rules:
   slug: unity-spectral-rules
 score:
   band: strong
-  composite: 57.4
-  delta: -0.8
+  composite: 56.5
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 60.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
     contract_governance: 28.8
     contract_quality: 65.1
     developer_ergonomics: 61.9
-    discoverability: 66.7
+    discoverability: 57.4
     governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 58.2
+  previous_composite: 56.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1066,8 +1075,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 31
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unity/refs/heads/main/screenshots/unity-2026-08-17T130408.png
 security:

@@ -33,19 +33,91 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: The Responsys REST API (v1.3) manages profile lists and recipients, profile extension tables, supplemental data tables, campaigns and campaign schedules, programs, folders, the content library, trigge
-  name: Oracle Responsys REST API
-  slug: oracle-responsys-rest-api
 - description: The Event Notification API pushes real-time campaign event data to a customer-owned callback URL. Register a callback, verify it, then subscribe it to any of the 26 supported event types across email,
   name: Oracle Responsys Event Notification API
   slug: oracle-responsys-event-notification-api
 - description: The AFTM (Automatic Failover for Transactional Messaging) REST API provides asynchronous, high-availability alternatives to the synchronous merge and trigger operations — HA Merge List Members, HA Mer
   name: Oracle Responsys AFTM / Asynchronous API
   slug: oracle-responsys-aftm-asynchronous-api
-artifact_total: 11
+- description: API endpoints to enable managing your Responsys account.
+  name: Responsys Account API
+  slug: responsys-account-api
+- description: Send Responsys Email Campaigns with Attachments
+  name: Responsys Attachments API
+  slug: responsys-attachments-api
+- description: Campaign Attributes API endpoints.
+  name: Responsys Campaign Attributes API
+  slug: responsys-campaign-attributes-api
+- description: Responsys Campaign API Endpoints
+  name: Responsys Campaigns API
+  slug: responsys-campaigns-api
+- description: Content Library Document Images
+  name: Responsys Content Library Document Images API
+  slug: responsys-content-library-document-images-api
+- description: Documents in the Responsys Interact Suite Content Library.
+  name: Responsys Content Library Documents API
+  slug: responsys-content-library-documents-api
+- description: Content Library Folders in the Responsys Interact Suite Content Library.
+  name: Responsys Content Library Folders API
+  slug: responsys-content-library-folders-api
+- description: Media Files in the Responsys Interact Suite Content Library.
+  name: Responsys Content Library Media Items API
+  slug: responsys-content-library-media-items-api
+- description: Schedule an Email or a Push Campaign
+  name: Responsys Email or Push Campaign Schedule API
+  slug: responsys-email-or-push-campaign-schedule-api
+- description: Raise Events for Cross-channel Marketing Programs.
+  name: Responsys Events API
+  slug: responsys-events-api
+- description: Filters in the Responsys Interact Suite
+  name: Responsys Filters API
+  slug: responsys-filters-api
+- description: Responsys Account Folder API Endpoints
+  name: Responsys Folders API
+  slug: responsys-folders-api
+- description: Profile Extensions for a Profile List in the Responsys Interact Suite
+  name: Responsys List Extensions API
+  slug: responsys-list-extensions-api
+- description: Merge Members to a Profile List and Send Responsys Email Campaigns to them.
+  name: Responsys Merge Trigger Email API
+  slug: responsys-merge-trigger-email-api
+- description: Merge Members to a Profile List and Send Responsys SMS Campaigns to them
+  name: Responsys Merge Trigger SMS API
+  slug: responsys-merge-trigger-sms-api
+- description: Responsys Organizations
+  name: Responsys Organizations API
+  slug: responsys-organizations-api
+- description: One or more Recipients within a Profile Extension Table in the Responsys Interact Suite.
+  name: Responsys Profile Extension Recipients API
+  slug: responsys-profile-extension-recipients-api
+- description: One or more Recipients within a Profile List in the Responsys Interact Suite.
+  name: Responsys Profile List Recipients API
+  slug: responsys-profile-list-recipients-api
+- description: Profile Lists in the Responsys Interact Suite
+  name: Responsys Profile Lists API
+  slug: responsys-profile-lists-api
+- description: Responsys Program API Endpoints
+  name: Responsys Programs API
+  slug: responsys-programs-api
+- description: Members of a Supplemental Data Table in the Responsys Interact Suite.
+  name: Responsys Supplemental Table Members API
+  slug: responsys-supplemental-table-members-api
+- description: Supplemental table objects.
+  name: Responsys Supplemental Tables API
+  slug: responsys-supplemental-tables-api
+- description: Send Responsys Email Campaigns to existing members of a Profile List.
+  name: Responsys Trigger Email Message API
+  slug: responsys-trigger-email-message-api
+- description: Send Responsys Push Campaigns to existing members of a Profile List
+  name: Responsys Trigger Push Message API
+  slug: responsys-trigger-push-message-api
+- description: Trigger SMS messages to existing members of a profile list.
+  name: Responsys Trigger SMS Message API
+  slug: responsys-trigger-sms-message-api
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Responsys Event Notification Webhooks
@@ -55,6 +127,10 @@ collections:
   name: REST API for Oracle Responsys Marketing Cloud Service
   slug: open-responsys
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/responsys-capability-edges.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -191,13 +267,13 @@ modified: '2026-08-21'
 name: Responsys
 nav: Providers
 network: true
-overview: 'Responsys publishes 1 API on the [APIs.io](https://apis.io/) network: Oracle Responsys REST API. Tagged areas include Company, Marketing, Email Marketing, Marketing Automation, and Campaign Management.
+overview: 'Responsys publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Account API, Attachments API, Campaign Attributes API, and 22 more. Tagged areas include Company, Marketing, Email Marketing, Marketing Automation, and Campaign Management.
 
 
   The Responsys catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Responsys'' developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 26 more developer resources.'
+  Responsys'' developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 27 more developer resources.'
 plans:
 - name: Responsys Plans Pricing
   plan_count: 0
@@ -209,18 +285,23 @@ rate_limits:
   slug: responsys-rate-limits
 score:
   band: developing
-  composite: 53.8
-  delta: 1.4
+  composite: 51.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.3
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 16.7
-    contract_quality: 49.2
+    contract_governance: 4.5
+    contract_quality: 49.4
     developer_ergonomics: 63.7
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 52.4
+  previous_composite: 50.5
   provenance:
     conformance: derived
     contracts:
@@ -236,8 +317,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/responsys/refs/heads/main/screenshots/responsys-2026-08-17T081535.png
 security:
@@ -270,6 +351,6 @@ tags:
 - SMS
 - Webhook
 - Oracle
-- MarTech
+- Martech
 website: https://www.oracle.com/cx/marketing/campaign-management/
 ---

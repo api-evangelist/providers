@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 44
   slug: column-agentic-access
   summary_line: 44 operations · 21 acting
-api_count: 21
+api_count: 1
 apis:
 - description: Originate and receive ACH transfers with returns and reversal handling.
   name: Column ACH Transfers API
@@ -155,6 +155,10 @@ collections:
   name: Column API
   slug: open-column
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/column-capability-edges.yml
 - group: design
   title: ''
   type: Webhooks
@@ -235,10 +239,10 @@ modified: '2026-05-30'
 name: Column
 nav: Providers
 network: true
-overview: 'Column publishes 18 APIs on the [APIs.io](https://apis.io/) network, including ACH Transfers API, Wire Transfers API, International Wires API, and 15 more. Tagged areas include Fintech, Banking, Backend-as-a-Service, ACH, and Wires.
+overview: 'Column publishes 18 APIs on the [APIs.io](https://apis.io/) network, including ACH Transfers API, Wire Transfers API, International Wires API, and 15 more. Tagged areas include Fintech, Banking, BaaS, ACH, and Wires.
 
 
-  Column''s developer surface includes sandbox, API reference, changelog, getting-started guide, authentication, engineering blog, and 11 more developer resources.'
+  Column''s developer surface includes sandbox, API reference, changelog, getting-started guide, authentication, engineering blog, and 12 more developer resources.'
 plans:
 - name: Column Plans Pricing
   plan_count: 1
@@ -250,18 +254,23 @@ rate_limits:
   slug: column-rate-limits
 score:
   band: thin
-  composite: 39.0
-  delta: 1.9
+  composite: 38.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 19.7
     commercial_clarity: 19.7
     contract_governance: 0.0
     contract_quality: 57.7
     developer_ergonomics: 50.0
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 37.1
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -275,8 +284,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -291,7 +300,7 @@ slug: column
 tags:
 - Fintech
 - Banking
-- Backend-as-a-Service
+- BaaS
 - ACH
 - Wires
 website: https://column.com/

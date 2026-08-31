@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 89
   slug: vast-ai-agentic-access
   summary_line: 89 operations · 64 acting · 2 human-in-the-loop
-api_count: 11
+api_count: 1
 apis:
 - description: The Vast.ai REST API is the control plane for the GPU marketplace. It supports searching offers across hosts, renting and managing instances, configuring machines and templates, attaching persistent v
   name: Vast.ai REST API
@@ -116,6 +116,10 @@ collections:
   name: Vast.ai API
   slug: open-vast-ai
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vast-ai-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -194,7 +198,7 @@ common:
   url: https://github.com/vast-ai/vast-sdk
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/vast-ai/base-image
 - group: other
   title: ''
@@ -241,7 +245,7 @@ network: true
 overview: 'Vast.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Billing API, Instances API, and 7 more. Tagged areas include Artificial Intelligence, Cloud, Compute, GPU, and Machine-Learning.
 
 
-  Vast.ai''s developer surface includes authentication, documentation, developer portal, signup flow, pricing, engineering blog, support, and 14 more developer resources.'
+  Vast.ai''s developer surface includes authentication, documentation, developer portal, signup flow, pricing, engineering blog, support, and 15 more developer resources.'
 plans:
 - name: Vast Ai Plans Pricing
   plan_count: 1
@@ -253,15 +257,20 @@ rate_limits:
   slug: vast-ai-rate-limits
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 51.6
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
     contract_governance: 0.0
     contract_quality: 61.8
     developer_ergonomics: 52.4
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 52.2
@@ -272,8 +281,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/screenshots/vast-ai-2026-06-20T200827.png
 security:

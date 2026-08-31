@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 33
   slug: drupal-agentic-access
   summary_line: 33 operations · 17 acting
-api_count: 9
+api_count: 2
 apis:
 - description: The Drupal GraphQL module is a contributed module that enables developers to craft and expose a GraphQL schema for Drupal 10 and 11, allowing client applications to query Drupal content and entities u
   name: Drupal GraphQL API
@@ -209,15 +209,20 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 31.8
-  delta: 1.9
+  composite: 31.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 67.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 65.4
     developer_ergonomics: 23.8
-    discoverability: 50.0
+    discoverability: 44.4
     governance: 9.8
     operational_transparency: 10.5
   needs_work:
@@ -226,7 +231,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 29.9
+  previous_composite: 31.8
   provenance:
     agentic_access: derived
     contracts:
@@ -238,8 +243,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/screenshots/drupal-2026-06-20T180306.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 62
   slug: luma-agentic-access
   summary_line: 62 operations · 40 acting
-api_count: 6
+api_count: 1
 apis:
 - description: The Calendars API from Luma — 25 operation(s) for calendars.
   name: Luma Calendars API
@@ -62,7 +62,10 @@ apis:
 - description: The Webhooks API from Luma — 5 operation(s) for webhooks.
   name: Luma Webhooks API
   slug: luma-webhooks-api
-artifact_total: 222
+- description: The Webhook Types API from Luma — 0 operation(s) for webhook types.
+  name: Luma Webhook Types API
+  slug: luma-webhook-types-api
+artifact_total: 223
 collections:
 - collection_type: open
   name: API Collection
@@ -758,7 +761,7 @@ modified: '2026-06-13'
 name: Luma
 nav: Providers
 network: true
-overview: 'Luma publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Calendars API, Events API, Memberships API, and 3 more. Tagged areas include Event, Event Management, Ticketing, Community, and Calendars.
+overview: 'Luma publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Calendars API, Events API, Memberships API, and 4 more. Tagged areas include Event, Event Management, Ticketing, Community, and Calendars.
 
 
   The Luma catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -786,19 +789,24 @@ rules:
     warn: 4
   slug: luma-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 39.4
-  delta: 0.0
+  band: thin
+  composite: 38.4
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 56.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 56.8
+    contract_quality: 55.0
     developer_ergonomics: 31.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 39.4
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -806,8 +814,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/screenshots/luma-2026-06-20T184751.png
 security:

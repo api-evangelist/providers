@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 107
   slug: practicepanther-agentic-access
   summary_line: 107 operations · 53 acting
-api_count: 40
+api_count: 1
 apis:
 - description: The Account API from PracticePanther — 2 operation(s) for account.
   name: PracticePanther Account API
@@ -290,6 +290,10 @@ collections:
   name: Legacy API (v1) Account V1TrustbooksOnboardingNotifications API
   slug: open-practicepanther-v1trustbooksonboardingnotifications-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/practicepanther-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -439,7 +443,7 @@ overview: 'PracticePanther publishes 40 APIs on the [APIs.io](https://apis.io/) 
   The PracticePanther catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  PracticePanther''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  PracticePanther''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Practicepanther Plans Pricing
   plan_count: 4
@@ -466,16 +470,21 @@ scopes:
   slug: practicepanther-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 39.5
-  delta: 0.0
+  band: thin
+  composite: 39.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 53.0
     developer_ergonomics: 23.8
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 25.0
     operational_transparency: 15.8
   previous_composite: 39.5
@@ -486,8 +495,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/practicepanther/refs/heads/main/screenshots/practicepanther-2026-06-20T192035.png
 security:

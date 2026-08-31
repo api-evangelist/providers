@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 1
   slug: dns-check-agentic-access
   summary_line: 1 operation
-api_count: 2
+api_count: 1
 apis:
 - description: 'RESTful JSON API for managing DNS record monitors and DNS record group monitors at DNSCheck.co. All requests use GET and authenticate via a 32-character API key passed as the api_key query parameter; '
   name: DNS Check REST API
@@ -61,6 +61,10 @@ collections:
   name: DNS Check API
   slug: open-dns-check
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dns-check-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -108,11 +112,16 @@ network: true
 overview: 'DNS Check publishes 1 API on the [APIs.io](https://apis.io/) network: DNS Record Monitoring API. Tagged areas include DNS, DNS Monitoring, Domain Monitoring, DNS Records, and Infrastructure Monitoring.
 
 
-  DNS Check''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
+  DNS Check''s developer surface includes authentication, documentation, pricing, signup flow, and 6 more developer resources.'
 random_paper: 19
 score:
   band: thin
   composite: 29.7
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 23.7
@@ -131,8 +140,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dns-check/refs/heads/main/screenshots/dns-check-2026-06-20T180058.png
 security:

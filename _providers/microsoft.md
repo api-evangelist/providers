@@ -11,13 +11,13 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
     dry_run_mode: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-26'
+  score: 30.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 178
   slug: microsoft-agentic-access
   summary_line: 178 operations · 88 acting
-api_count: 59
+api_count: 17
 apis:
 - description: Manage business accounts
   name: Microsoft Accounts API
@@ -617,6 +617,10 @@ collections:
   name: Microsoft Azure Cognitive Services Accounts Work Items API
   slug: open-microsoft-work-items-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -820,7 +824,7 @@ overview: 'Microsoft publishes 59 APIs on the [APIs.io](https://apis.io/) networ
   The Microsoft catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Microsoft''s developer surface includes authentication, support, engineering blog, signup flow, pricing, GitHub presence, and 21 more developer resources.'
+  Microsoft''s developer surface includes authentication, support, engineering blog, signup flow, pricing, GitHub presence, and 22 more developer resources.'
 plans:
 - name: Microsoft Plans Pricing
   plan_count: 3
@@ -864,18 +868,23 @@ scopes:
   summary_line: 42 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 59.7
-  delta: 11.9
+  composite: 59.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 58.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 9.8
-    contract_quality: 77.8
+    contract_quality: 77.5
     developer_ergonomics: 78.6
     discoverability: 57.4
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 47.8
+  previous_composite: 59.6
   provenance:
     agentic_access: derived
     contracts:
@@ -883,9 +892,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 59
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png
 security:
 - kind: authentication

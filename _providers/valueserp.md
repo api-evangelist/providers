@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: valueserp-agentic-access
   summary_line: 6 operations
-api_count: 6
+api_count: 1
 apis:
 - description: Google Image search results.
   name: ValueSERP Images API
@@ -311,19 +311,24 @@ rules:
     warn: 4
   slug: valueserp-jsonschema-spectral-rules
 score:
-  band: exemplar
-  composite: 68.3
-  delta: 0.0
+  band: strong
+  composite: 66.2
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 24.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
-    contract_governance: 41.7
+    contract_governance: 29.5
     contract_quality: 70.7
     developer_ergonomics: 56.5
-    discoverability: 81.5
-    governance: 41.7
+    discoverability: 75.9
+    governance: 29.5
     operational_transparency: 81.6
-  previous_composite: 68.3
+  previous_composite: 66.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -334,8 +339,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/screenshots/valueserp-2026-06-20T200802.png
 security:

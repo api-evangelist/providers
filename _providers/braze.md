@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.8
-  scored_at: '2026-08-26'
-api_count: 24
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Catalogs > Catalog Items > Asynchronous API from Braze — 1 operation(s) for catalogs > catalog items > asynchronous.
   name: Braze Catalogs > Catalog Items > Asynchronous API
@@ -191,6 +191,10 @@ collections:
   name: Braze User Data > External ID Migration API
   slug: open-braze-user-data-external-id-migration-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/braze-capability-edges.yml
 - group: auth
   title: ''
   type: Authentication
@@ -434,7 +438,7 @@ overview: 'Braze publishes 24 APIs on the [APIs.io](https://apis.io/) network, i
   The Braze catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Braze''s developer surface includes authentication, documentation, support, changelog, FAQ, engineering blog, API reference, and 43 more developer resources.'
+  Braze''s developer surface includes authentication, documentation, support, changelog, FAQ, engineering blog, API reference, and 44 more developer resources.'
 plans:
 - name: Braze Plans Pricing
   plan_count: 4
@@ -451,18 +455,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 81.2
-  delta: 0.0
+  composite: 78.1
+  coverage:
+    artifact_dirs: 28
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 68.3
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 92.1
-  previous_composite: 81.2
+  previous_composite: 78.6
   provenance:
     conformance: derived
     contracts:
@@ -478,8 +487,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 80.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braze/refs/heads/main/screenshots/braze-2026-06-20T173643.png
 security:

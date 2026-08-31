@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: rubrik-agentic-access
   summary_line: 4 operations · 4 acting · 1 human-in-the-loop
-api_count: 8
+api_count: 1
 apis:
 - description: The Rubrik Security Cloud (RSC) API is a single-endpoint GraphQL API at /api/graphql that exposes the full RSC platform, including SLA domain management and assignment, on-demand backups, recovery ope
   name: Rubrik Security Cloud API
@@ -89,6 +89,14 @@ collections:
   name: Rubrik Security Cloud API
   slug: open-rubrik
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/rubrikinc/rubrik-powershell-sdk/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/rubrikinc/rubrik-powershell-sdk/releases
 - group: commercial
   title: ''
   type: License
@@ -188,7 +196,7 @@ network: true
 overview: 'Rubrik publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Client Token API, Graphql API, Oauth API, and 1 more. Tagged areas include Backup, Cyber Recovery, Data Security, Data Security Posture Management, and GraphQL.
 
 
-  Rubrik''s developer surface includes authentication, documentation, support, engineering blog, and 16 more developer resources.'
+  Rubrik''s developer surface includes authentication, documentation, support, engineering blog, and 18 more developer resources.'
 plans:
 - name: Rubrik Plans Pricing
   plan_count: 1
@@ -200,18 +208,26 @@ rate_limits:
   slug: rubrik-rate-limits
 score:
   band: thin
-  composite: 39.2
-  delta: 1.5
+  composite: 39.1
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 53.7
     developer_ergonomics: 40.5
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 0.0
-    operational_transparency: 23.7
-  previous_composite: 37.7
+    operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -219,8 +235,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/screenshots/rubrik-2026-06-20T193244.png
 security:

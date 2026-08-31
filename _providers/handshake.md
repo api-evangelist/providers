@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Read-only, institution-scoped EDU API for career-services data: applications, appointments, career fairs, jobs, postings, qualifications, and meetings. Authenticates via x-api-key header; supports pag'
@@ -133,14 +133,19 @@ modified: '2026-07-19'
 name: Handshake
 nav: Providers
 network: true
-overview: 'Handshake publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR Tech, Careers, Recruiting, and Higher Education.
+overview: 'Handshake publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hr Tech, Careers, Recruiting, and Higher Education.
 
 
   Handshake''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 14 more developer resources.'
 random_paper: 11
 score:
   band: thin
-  composite: 38.2
+  composite: 39.0
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -148,18 +153,18 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 57.1
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 38.2
+  previous_composite: 39.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/handshake/refs/heads/main/screenshots/handshake-2026-07-25T220619.png
 security:
@@ -182,7 +187,7 @@ security:
 slug: handshake
 tags:
 - Company
-- HR Tech
+- Hr Tech
 - Careers
 - Recruiting
 - Higher Education

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 4
   slug: falco-agentic-access
   summary_line: 4 operations · 1 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The Falco Plugin API provides a C ABI interface for developing plugins that extend Falco with new event sources and field extractors. Plugins are shared libraries that implement the plugin API and can
   name: Falco Plugin API
@@ -196,19 +196,27 @@ rules:
     warn: 4
   slug: falco-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 37.3
-  delta: 2.5
+  band: developing
+  composite: 39.6
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 49.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 2.3
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 58.5
     developer_ergonomics: 33.3
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 9.8
     operational_transparency: 34.2
-  previous_composite: 34.8
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -216,8 +224,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/falco/refs/heads/main/screenshots/falco-2026-06-20T181029.png
 security:

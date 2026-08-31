@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-08-26'
-api_count: 13
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Plerion Risk Score (PRS) Engine has calculated Alerts that are the highest priority items based on the available information across Identity, Configuration, and Vulnerability Management. Alerts of
   name: Plerion Alerts API
@@ -259,18 +259,23 @@ overview: 'Plerion publishes 13 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 5
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 47.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.2
     developer_ergonomics: 61.3
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 49.1
+  previous_composite: 47.6
   provenance:
     conformance: derived
     contracts:
@@ -280,8 +285,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plerion/refs/heads/main/screenshots/plerion-2026-08-17T081306.png
 security:

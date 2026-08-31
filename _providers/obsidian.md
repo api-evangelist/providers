@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 31
   slug: obsidian-agentic-access
   summary_line: 31 operations · 20 acting
-api_count: 10
+api_count: 1
 apis:
 - description: In-app TypeScript/JavaScript Plugin API for building Obsidian plugins. Plugins access the Vault, Workspace, MetadataCache, file system, command palette, settings, editor, and Markdown post-processing.
   name: Obsidian Plugin API
@@ -198,18 +198,23 @@ rate_limits:
   slug: obsidian-rate-limits
 score:
   band: thin
-  composite: 34.3
-  delta: 2.8
+  composite: 34.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 49.3
     developer_ergonomics: 38.1
-    discoverability: 74.1
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 31.5
+  previous_composite: 35.1
   provenance:
     agentic_access: derived
     contracts:
@@ -217,8 +222,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/heads/main/screenshots/obsidian-2026-06-20T190555.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: sketchfab-agentic-access
   summary_line: 4 operations · 1 acting
-api_count: 14
+api_count: 1
 apis:
 - description: Client-side JavaScript library for controlling an embedded Sketchfab 3D viewer. Exposes camera control, screenshot capture, annotation, material and texture manipulation, post-processing filters, anim
   name: Sketchfab Viewer API
@@ -140,6 +140,10 @@ collections:
   name: Sketchfab Data Users API
   slug: open-sketchfab-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sketchfab-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -402,7 +406,7 @@ overview: 'Sketchfab publishes 13 APIs on the [APIs.io](https://apis.io/) networ
   The Sketchfab catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Sketchfab''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 48 more developer resources.'
+  Sketchfab''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 49 more developer resources.'
 plans:
 - name: Sketchfab Plans Pricing
   plan_count: 5
@@ -430,15 +434,20 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 58.9
-  delta: 0.0
+  composite: 58.3
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 41.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 9.8
     contract_quality: 69.9
     developer_ergonomics: 69.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 34.2
   previous_composite: 58.9
@@ -449,8 +458,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/screenshots/sketchfab-2026-06-20T194108.png
 security:

@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -22,7 +23,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: true
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-26'
+  score: 39.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 1
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 168
   slug: koyeb-agentic-access
   summary_line: 168 operations · 95 acting · 1 human-in-the-loop
-api_count: 42
+api_count: 1
 apis:
 - description: The activity API from Koyeb — 3 operation(s) for activity.
   name: Koyeb activity API
@@ -170,7 +171,13 @@ apis:
 - description: The Users API from Koyeb — 2 operation(s) for users.
   name: Koyeb Users API
   slug: koyeb-users-api
-artifact_total: 94
+- description: The InstanceSnapshots API from Koyeb — 3 operation(s) for instancesnapshots.
+  name: Koyeb Instance Snapshots API
+  slug: koyeb-instancesnapshots-api
+- description: The Test API from Koyeb — 2 operation(s) for test.
+  name: Koyeb Test API
+  slug: koyeb-test-api
+artifact_total: 96
 collections:
 - collection_type: open
   name: API Collection
@@ -305,6 +312,10 @@ collections:
   name: Koyeb Rest API
   slug: open-koyeb
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/koyeb-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -505,10 +516,10 @@ modified: '2026-08-17'
 name: Koyeb
 nav: Providers
 network: true
-overview: 'Koyeb publishes 42 APIs on the [APIs.io](https://apis.io/) network, including activity API, Apps API, Archives API, and 39 more. Tagged areas include Cloud Platform, Deployment, Platform-as-a-Service, Serverless, and Serverless GPU.
+overview: 'Koyeb publishes 44 APIs on the [APIs.io](https://apis.io/) network, including activity API, Apps API, Archives API, and 41 more. Tagged areas include Cloud Platform, Deployment, PaaS, Serverless, and Serverless GPU.
 
 
-  Koyeb''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, CLI, sandbox, and 39 more developer resources.'
+  Koyeb''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, CLI, sandbox, and 40 more developer resources.'
 plans:
 - name: Koyeb Plans Pricing
   plan_count: 4
@@ -520,18 +531,23 @@ rate_limits:
   slug: koyeb-rate-limits
 score:
   band: strong
-  composite: 60.5
-  delta: 0.0
+  composite: 58.4
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 51.5
     developer_ergonomics: 78.6
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 60.5
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -542,8 +558,8 @@ score:
       total: 42
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koyeb/refs/heads/main/screenshots/koyeb-2026-06-20T184145.png
 security:
@@ -563,7 +579,7 @@ slug: koyeb
 tags:
 - Cloud Platform
 - Deployment
-- Platform-as-a-Service
+- PaaS
 - Serverless
 - Serverless GPU
 - AI Infrastructure

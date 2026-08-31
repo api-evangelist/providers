@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 20
   slug: matrix-agentic-access
   summary_line: 20 operations · 11 acting
-api_count: 20
+api_count: 1
 apis:
 - description: REST API used by Matrix clients to communicate with a homeserver, covering login, room creation and management, message sending, sync, device management, end-to-end encryption, and push notifications.
   name: Matrix Client-Server API
@@ -239,15 +239,20 @@ rules:
   slug: matrix-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 31.3
-  delta: 0.0
+  composite: 30.7
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 74.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 11.4
     contract_quality: 55.1
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 11.4
     operational_transparency: 2.6
   previous_composite: 31.3
@@ -258,8 +263,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matrix/refs/heads/main/screenshots/matrix-2026-06-20T185038.png
 security:

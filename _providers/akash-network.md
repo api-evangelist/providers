@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 3
   slug: akash-network-agentic-access
   summary_line: 3 operations · 2 acting
-api_count: 11
+api_count: 1
 apis:
 - description: REST API for the managed Akash Console - deploy workloads with a managed wallet and credit-card billing, list and manage deployments, leases, and providers without needing to run a node or hold AKT di
   name: Akash Console API
@@ -95,6 +95,10 @@ collections:
   name: Akash Console API
   slug: open-akash-network
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/akash-network-capability-edges.yml
 - group: operate
   title: ''
   type: Releases
@@ -162,7 +166,7 @@ network: true
 overview: 'Akash Network publishes 3 APIs on the [APIs.io](https://apis.io/) network: Bids API, Deployments API, and Leases API. Tagged areas include Decentralized Cloud, GPU, Compute, DePIN, and Cosmos.
 
 
-  Akash Network''s developer surface includes authentication, documentation, GitHub presence, developer console, engineering blog, and 8 more developer resources.'
+  Akash Network''s developer surface includes authentication, documentation, GitHub presence, developer console, engineering blog, and 9 more developer resources.'
 plans:
 - name: Akash Network Plans Pricing
   plan_count: 1
@@ -174,17 +178,25 @@ rate_limits:
   slug: akash-network-rate-limits
 score:
   band: developing
-  composite: 39.9
-  delta: 0.0
+  composite: 40.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 54.4
     developer_ergonomics: 38.1
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 50.0
   previous_composite: 39.9
   provenance:
     agentic_access: derived
@@ -193,8 +205,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akash-network/refs/heads/main/screenshots/akash-network-2026-06-20T171449.png
 security:

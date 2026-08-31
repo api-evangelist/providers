@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: High-performance plastic compounds, composites, masterbatches, and specialty powders for automotive, packaging, electronics, agriculture, and consumer goods applications. Products include engineered c
@@ -44,6 +44,14 @@ apis:
   slug: a-schulman-technical-services
 artifact_total: 19
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/lyondellbasell/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/a-schulman-llms.txt
 - group: auth
   title: ''
   type: DomainSecurity
@@ -51,11 +59,21 @@ common:
 - group: company
   title: ''
   type: LinkedIn
-  url: https://www.linkedin.com/company/a--schulman-inc-
-- group: company
-  title: ''
-  type: Website
-  url: https://www.lyondellbasell.com
+  url: https://www.linkedin.com/company/lyondellbasell-aschulman
+coverage:
+  checked: '2026-08-29'
+  detail: A. Schulman was acquired by LyondellBasell in 2018 and fully absorbed into its Advanced Polymer Solutions division; the legacy aschulman.com domain still resolves but refuses TLS entirely and serves a bare IIS "Not Found" page over HTTP, so there is no A. Schulman surface of any kind left to read.
+  evidence:
+  - status: 404
+    url: http://www.aschulman.com/
+  - status: 0
+    url: https://www.aschulman.com/
+  - status: 404
+    url: https://www.lyondellbasell.com/.well-known/api-catalog
+  - status: 200
+    url: https://lyb.customerxpress.com/
+  reason: defunct
+  state: none
 created: '2026-04-19'
 description: A. Schulman was a global supplier of high-performance plastic compounds, composites, and powders used by manufacturers across packaging, automotive, electronics, and consumer goods industries. The company was acquired by LyondellBasell in 2018 and now operates as the Advanced Polymer Solutions division, continuing to supply engineered plastics, masterbatches, compounds, and specialty powders to global manufacturers.
 features:
@@ -82,7 +100,7 @@ integrations:
 - description: Extensive distribution partnerships for delivery of plastic compounds and masterbatches to manufacturers globally.
   name: Global Distribution Network
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-29'
 name: A. Schulman
 nav: Providers
 network: true
@@ -113,21 +131,26 @@ rate_limits:
   name: A Schulman Rate Limits
   slug: a-schulman-rate-limits
 score:
-  band: emerging
-  composite: 11.2
-  delta: 1.9
+  band: minimal
+  composite: 10.0
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 59.3
+    developer_ergonomics: 0.0
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 9.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 10.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security
@@ -154,5 +177,4 @@ use_cases:
   name: Agricultural Films
 - description: Color masterbatches enabling consistent, cost-effective coloring of plastic consumer products during injection molding and extrusion.
   name: Consumer Products Coloring
-website: https://www.lyondellbasell.com
 ---

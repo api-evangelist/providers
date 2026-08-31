@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: documented
     mcp_server: false
@@ -34,14 +34,32 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.0
-  scored_at: '2026-08-26'
-api_count: 1
+  score: 27.9
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: 'The Whisperr runtime surface. Six public operations authenticated with a publishable per-app ingestion key (wrk_ prefix): track a single event, track a batch of up to 500, identify a user with traits '
-  name: Whisperr Runtime API
-  slug: whisperr-runtime-api
-artifact_total: 8
+- description: The Dashboard API from Whisperr, Inc. — 23 operation(s) for dashboard.
+  name: Whisperr, Inc. Dashboard API
+  slug: whisperr-inc-dashboard-api
+- description: The Decisioning API from Whisperr, Inc. — 1 operation(s) for decisioning.
+  name: Whisperr, Inc. Decisioning API
+  slug: whisperr-inc-decisioning-api
+- description: The Delivery API from Whisperr, Inc. — 14 operation(s) for delivery.
+  name: Whisperr, Inc. Delivery API
+  slug: whisperr-inc-delivery-api
+- description: The Ingestion API from Whisperr, Inc. — 2 operation(s) for ingestion.
+  name: Whisperr, Inc. Ingestion API
+  slug: whisperr-inc-ingestion-api
+- description: The Internal API from Whisperr, Inc. — 1 operation(s) for internal.
+  name: Whisperr, Inc. Internal API
+  slug: whisperr-inc-internal-api
+- description: The System API from Whisperr, Inc. — 2 operation(s) for system.
+  name: Whisperr, Inc. System API
+  slug: whisperr-inc-system-api
+- description: The Users API from Whisperr, Inc. — 3 operation(s) for users.
+  name: Whisperr, Inc. Users API
+  slug: whisperr-inc-users-api
+artifact_total: 14
 common:
 - group: docs
   title: ''
@@ -173,7 +191,7 @@ modified: '2026-08-13'
 name: Whisperr, Inc.
 nav: Providers
 network: true
-overview: 'Whisperr, Inc. publishes 1 API on the [APIs.io](https://apis.io/) network: Whisperr Runtime API. Tagged areas include Company, Customer Retention, Churn, Marketing Automation, and Artificial Intelligence.
+overview: 'Whisperr, Inc. publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Dashboard API, Decisioning API, Delivery API, and 4 more. Tagged areas include Company, Customer Retention, Churn, Marketing Automation, and Artificial Intelligence.
 
 
   Whisperr, Inc.''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, engineering blog, signup flow, and 21 more developer resources.'
@@ -188,24 +206,29 @@ rate_limits:
   slug: whisperr-inc-rate-limits
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 36.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 30.3
-    contract_quality: 40.0
+    contract_governance: 18.2
+    contract_quality: 54.8
     developer_ergonomics: 68.5
     discoverability: 68.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 34.5
+  previous_composite: 37.3
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

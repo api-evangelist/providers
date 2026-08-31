@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 37
   slug: microsoft-azure-event-hubs-agentic-access
   summary_line: 37 operations · 22 acting
-api_count: 10
+api_count: 2
 apis:
 - description: Event-driven messaging API for publishing and consuming events via AMQP 1.0, Kafka, and HTTPS protocols. Supports partitioned event streams, consumer groups, and publisher policies.
   name: Azure Event Hubs Messaging API
@@ -223,7 +223,7 @@ common:
   url: https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-best-practices
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/Azure/azure-event-hubs/tree/master/samples
 - group: operate
   title: ''
@@ -344,7 +344,7 @@ overview: 'Azure Event Hubs publishes 9 APIs on the [APIs.io](https://apis.io/) 
   The Azure Event Hubs catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Azure Event Hubs'' developer surface includes authentication, developer portal, getting-started guide, pricing, support, engineering blog, documentation, and 33 more developer resources.'
+  Azure Event Hubs'' developer surface includes authentication, developer portal, getting-started guide, pricing, code examples, support, engineering blog, and 33 more developer resources.'
 plans:
 - name: Microsoft Azure Event Hubs Plans Pricing
   plan_count: 4
@@ -383,18 +383,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 59.0
-  delta: 1.9
+  composite: 58.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 13.6
-    contract_quality: 72.4
+    contract_quality: 70.3
     developer_ergonomics: 71.4
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 57.1
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     contracts:
@@ -402,8 +407,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-event-hubs/refs/heads/main/screenshots/microsoft-azure-event-hubs-2026-06-20T185412.png
 security:

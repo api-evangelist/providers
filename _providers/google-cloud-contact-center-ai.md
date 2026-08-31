@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: google-cloud-contact-center-ai-agentic-access
   summary_line: 8 operations · 5 acting
-api_count: 3
+api_count: 1
 apis:
 - description: The Analyses API from Google Cloud Contact Center AI — 1 operation(s) for analyses.
   name: Google Cloud Contact Center AI Analyses API
@@ -80,6 +80,10 @@ collections:
   name: Google Cloud Contact Center AI API
   slug: open-openapi
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/google-cloud-contact-center-ai-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -175,7 +179,7 @@ overview: 'Google Cloud Contact Center AI publishes 3 APIs on the [APIs.io](http
   The Google Cloud Contact Center AI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Contact Center AI''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 11 more developer resources.'
+  Google Cloud Contact Center AI''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 12 more developer resources.'
 plans:
 - name: Google Cloud Contact Center Ai Plans Pricing
   plan_count: 3
@@ -202,16 +206,21 @@ scopes:
   slug: google-cloud-contact-center-ai-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 39.6
-  delta: 0.0
+  band: thin
+  composite: 39.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 54.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 9.8
     contract_quality: 59.9
     developer_ergonomics: 26.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 26.3
   previous_composite: 39.6
@@ -222,8 +231,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-contact-center-ai/refs/heads/main/screenshots/google-cloud-contact-center-ai-2026-06-20T182101.png
 security:

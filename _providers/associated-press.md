@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 21
   slug: associated-press-agentic-access
   summary_line: 21 operations · 3 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Integrate your election systems with AP Elections API. Your election results delivery application retrieves election race information from AP Elections API to power election websites, reporting system
   name: AP Elections API
@@ -71,6 +71,10 @@ collections:
   name: Associated Press AP Media Account Monitors and Alerts API
   slug: open-associated-press-monitors-and-alerts-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/associated-press-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -136,7 +140,7 @@ network: true
 overview: 'Associated Press publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Content API, and Monitors and Alerts API. Tagged areas include Elections, Journalism, Media, News, and Content.
 
 
-  Associated Press'' developer surface includes authentication, developer portal, documentation, and 5 more developer resources.'
+  Associated Press'' developer surface includes authentication, developer portal, documentation, and 6 more developer resources.'
 plans:
 - name: Associated Press Plans Pricing
   plan_count: 3
@@ -148,18 +152,23 @@ rate_limits:
   slug: associated-press-rate-limits
 score:
   band: thin
-  composite: 34.5
-  delta: 2.4
+  composite: 34.0
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 56.0
     developer_ergonomics: 42.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 32.1
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +176,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/associated-press/refs/heads/main/screenshots/associated-press-2026-06-20T172505.png
 security:

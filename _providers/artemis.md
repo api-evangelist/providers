@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: artemis-agentic-access
   summary_line: 8 operations
-api_count: 7
+api_count: 1
 apis:
 - description: NASA's Open API platform at api.nasa.gov provides programmatic access to NASA data including the Astronomy Picture of the Day (APOD), Near Earth Object Web Service (NeoWs), NASA Image and Video Librar
   name: NASA Open APIs
@@ -167,18 +167,23 @@ rate_limits:
   slug: artemis-rate-limits
 score:
   band: thin
-  composite: 39.0
-  delta: 2.4
+  composite: 37.2
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.8
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 48.3
-    developer_ergonomics: 45.2
-    discoverability: 74.1
+    developer_ergonomics: 39.3
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 36.6
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -192,8 +197,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/screenshots/artemis-2026-06-20T172440.png
 security:

@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: na
     mcp_server: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.6
-  scored_at: '2026-08-26'
+  score: 22.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 6
   slug: yale-agentic-access
   summary_line: 6 operations
-api_count: 13
+api_count: 4
 apis:
 - description: 'Search and discovery across LUX scopes, returning Linked Art OrderedCollectionPage documents in JSON-LD. LUX is Yale''s own platform: the frontend, middle tier, Varnish cache, MarkLogic backend and dat'
   name: LUX Collections Discovery — Search API
@@ -58,15 +58,6 @@ apis:
 - description: Advanced-search configuration metadata for LUX, describing searchable terms by scope, search options and stop words. Verified 200 returning 43,502 bytes of JSON on 2026-08-19.
   name: LUX Collections Discovery — Configuration API
   slug: yale-configuration-api
-- description: Yale University's institutional research-data repository, self-hosted on Yale's own AWS infrastructure under Yale's registrable domain, running open-source Dataverse 6.10.1 with 279 published datasets
-  name: Yale Dataverse Repository API
-  slug: dataverse
-- description: IIIF Presentation 3.0 manifests for Yale University Library's digitized collections. The service is institution-operated — the host resolves to an AWS load balancer in Yale's own account (alb-yul-dc-p
-  name: Yale University Library Digital Collections IIIF
-  slug: iiif
-- description: Yale operates a Shibboleth Identity Provider at auth.yale.edu and publishes a signed SAML 2.0 EntityDescriptor for entityID https://auth.yale.edu/idp/shibboleth, unauthenticated, declaring Organizatio
-  name: Yale University Identity Federation Metadata
-  slug: identity-federation
 - description: Yale's institution-operated developer portal documents four Portal APIs — Buildings (name and location of Yale campus buildings), Courses, Course Subjects and GatewayServiceMetrics. Yale's own page ca
   name: Yale API Portal — Portal APIs
   slug: portal
@@ -82,6 +73,15 @@ apis:
 - description: Yale Course Search (courses.yale.edu) and the Yale University Publications bulletin (catalog.yale.edu) are the institution's public course-catalog surfaces. Both are Leepfrog CourseLeaf tenancies — co
   name: Yale Course Search and University Publications (CourseLeaf tenancy)
   slug: course-catalog
+- description: SAML 2.0 entity metadata
+  name: Yale University Federation API
+  slug: yale-federation-api
+- description: IIIF Presentation 3.0 manifests for digitized objects
+  name: Yale University IIIF API
+  slug: yale-iiif-api
+- description: Deployment identity, version and metrics
+  name: Yale University Info API
+  slug: yale-info-api
 artifact_total: 41
 collections:
 - collection_type: open
@@ -103,6 +103,10 @@ collections:
   name: LUX Yale Collections Discovery Configuration Search API
   slug: open-yale-search-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/yale-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -287,7 +291,7 @@ overview: 'Yale University publishes 8 APIs on the [APIs.io](https://apis.io/) n
   The Yale University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Yale University''s developer surface includes documentation, API reference, support, GitHub presence, engineering blog, and 25 more developer resources.'
+  Yale University''s developer surface includes documentation, API reference, support, GitHub presence, engineering blog, and 26 more developer resources.'
 plans:
 - name: Yale Plans Pricing
   plan_count: 2
@@ -325,18 +329,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.5
-  delta: 2.7
+  composite: 48.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 46.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 9.8
-    contract_quality: 58.1
+    contract_quality: 57.5
     developer_ergonomics: 33.3
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 45.8
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -351,8 +360,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 53.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yale/refs/heads/main/screenshots/yale-2026-06-20T201720.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 30
   slug: adsbexchange-agentic-access
   summary_line: 30 operations · 9 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Allows filtering live data based on geopolitical boundaries, such as states/provinces, countries, regions, or even continents. All endpoints support ISO 3166-1 alpha-2 country codes and ISO 3166-2 sub
   name: ADS-B Exchange Geopolitical Filtering API
@@ -80,6 +80,10 @@ collections:
   name: ADSB Exchange Geopolitical Filtering Traces API
   slug: open-adsbexchange-traces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/adsbexchange-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -333,7 +337,7 @@ overview: 'ADS-B Exchange publishes 5 APIs on the [APIs.io](https://apis.io/) ne
   The ADS-B Exchange catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ADS-B Exchange''s developer surface includes authentication, documentation, pricing, and 9 more developer resources.'
+  ADS-B Exchange''s developer surface includes authentication, documentation, pricing, and 10 more developer resources.'
 plans:
 - name: Plans
   plan_count: 5
@@ -356,15 +360,20 @@ rules:
   slug: adsbexchange-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 39.9
-  delta: 0.0
+  composite: 39.3
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 68.0
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 0.0
   previous_composite: 39.9
@@ -375,8 +384,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/screenshots/adsbexchange-2026-06-20T165151.png
 security:

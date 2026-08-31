@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.9
-  scored_at: '2026-08-26'
-api_count: 38
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
 - description: The Admin API from Tradeshift — 11 operation(s) for admin.
   name: Tradeshift Admin API
@@ -270,6 +270,10 @@ collections:
   name: MCP HTTP Bridge & Management Tools API
   slug: open-tradeshift-tools-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tradeshift-capability-edges.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -491,13 +495,13 @@ modified: '2026-08-02'
 name: Tradeshift
 nav: Providers
 network: true
-overview: 'Tradeshift publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Document Validation API, Dx Category Accounts Branches API, and 35 more. Tagged areas include E-Invoicing, Accounts Payable, AP Automation, Procure-to-Pay, and Supply Chain.
+overview: 'Tradeshift publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Document Validation API, Dx Category Accounts Branches API, and 35 more. Tagged areas include e-invoicing, accounts-payable, ap-automation, procure-to-pay, and Supply Chain.
 
 
   The Tradeshift catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tradeshift''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 38 more developer resources.'
+  Tradeshift''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
 random_paper: 20
 scopes:
 - name: Tradeshift Scopes
@@ -505,19 +509,24 @@ scopes:
   slug: tradeshift-scopes
   summary_line: 7 scopes · clientCredentials/implicit
 score:
-  band: strong
-  composite: 55.0
-  delta: 0.1
+  band: developing
+  composite: 52.5
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 66.9
     developer_ergonomics: 35.1
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 54.9
+  previous_composite: 52.5
   provenance:
     conformance: first-party
     contracts:
@@ -527,8 +536,8 @@ score:
       total: 40
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradeshift/refs/heads/main/screenshots/tradeshift-2026-08-17T082420.png
 security:
@@ -550,17 +559,17 @@ security:
   summary_line: SOC 1 Type II, SOC 2 Type II, ISAE 3402 Type II, PCI DSS Level 1, ISO 27001
 slug: tradeshift
 tags:
-- E-Invoicing
-- Accounts Payable
-- AP Automation
-- Procure-to-Pay
+- e-invoicing
+- accounts-payable
+- ap-automation
+- procure-to-pay
 - Supply Chain
-- B2B Commerce
+- b2b-commerce
 - Invoicing
-- ubl
-- PEPPOL
+- UBL
+- peppol
 - e-invoicing-compliance
-- Supplier Network
+- supplier-network
 - business-documents
 - Fintech
 - MCP

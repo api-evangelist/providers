@@ -11,57 +11,238 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
+    delegated_identity: documented
+    dry_run_mode: true
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: documented
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-26'
+  score: 44.5
+  scored_at: '2026-08-30'
 agentic_access:
-- acting_count: 5
+- acting_count: 60
   human_in_the_loop: 0
   name: Karrio Agentic Access
-  operation_count: 7
+  operation_count: 95
   slug: karrio-agentic-access
-  summary_line: 7 operations · 5 acting
-api_count: 2
+  summary_line: 95 operations · 60 acting
+api_count: 1
 apis:
-- description: Karrio's headless shipping API for live rating, label generation, package tracking, and carrier integrations.
-  name: Karrio Shipping API
-  slug: shipping-api
-- description: Create, manage, rate, purchase, and void shipments.
+- description: This is an object representing your Karrio shipping address. You can retrieve all addresses related to your Karrio account. Address objects are linked to your shipment history, and can be used for rec
+  name: Karrio Addresses API
+  slug: karrio-addresses-api
+- description: API instance metadata resources.
+  name: Karrio API
+  slug: karrio-api-api
+- description: API authentication resources.
+  name: Karrio Auth API
+  slug: karrio-auth-api
+- description: This is an object representing your Karrio batch operation. You can retrieve all batch operations historically for your Karrio account.
+  name: Karrio Batches API
+  slug: karrio-batches-api
+- description: This is an object representing your Karrio carrier extension. You can retrieve all supported carrier extensions available.
+  name: Karrio Carriers API
+  slug: karrio-carriers-api
+- description: This is an object representing your Karrio carrier connections. You can retrieve all carrier connections available to your account. The `carrier_id` is a friendly name you assign to your connection.
+  name: Karrio Connections API
+  slug: karrio-connections-api
+- description: This is an object representing your Karrio document upload record. A Document upload record keep traces of shipping trade documents uploaded to carriers to fast track customs and border processing.
+  name: Karrio Documents API
+  slug: karrio-documents-api
+- description: 'This is an object representing your Karrio manifest details. Some carriers require manifests to be created after labels are generated. A manifest is a summary of all the shipments that are being sent '
+  name: Karrio Manifests API
+  slug: karrio-manifests-api
+- description: This is an object representing your Karrio order. You can create Karrio orders to organize your shipments and ship line items separately.
+  name: Karrio Orders API
+  slug: karrio-orders-api
+- description: This is an object representing your Karrio shipping parcel. Parcel objects are linked to your shipment history, and can be used for recurring shipping using the same packaging.
+  name: Karrio Parcels API
+  slug: karrio-parcels-api
+- description: This is an object representing your Karrio pickup booking. You can retrieve all pickup booked historically for your Karrio account shipments.
+  name: Karrio Pickups API
+  slug: karrio-pickups-api
+- description: This is an object representing your Karrio product template. Product templates are reusable commodity definitions that can be used in customs declarations and shipment items for recurring shipments of
+  name: Karrio Products API
+  slug: karrio-products-api
+- description: In some scenarios, all we need is to send request to a carrier using the Karrio unified API. The Proxy API comes handy for that as it turn Karrio into a simple middleware that converts and validate yo
+  name: Karrio Proxy API
+  slug: karrio-proxy-api
+- description: This is an object representing your Karrio shipment. A Shipment guides you through process of preparing and purchasing a label for an order. A Shipment transitions through multiple statuses throughout
   name: Karrio Shipments API
   slug: karrio-shipments-api
-artifact_total: 11
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Karrio Shipments API
-  slug: open-karrio-shipments-api
-- collection_type: open
-  name: Karrio Shipments API
-  slug: open-karrio
+- description: This is an object representing your Karrio shipment tracker. A shipment tracker is an object attached to a shipment by it's tracking number. The tracker provide the latest tracking status and events a
+  name: Karrio Trackers API
+  slug: karrio-trackers-api
+- description: This is an object representing your Karrio webhook. You can configure webhook endpoints via the API to be notified about events happen in your Karrio account.
+  name: Karrio Webhooks API
+  slug: karrio-webhooks-api
+artifact_total: 26
+asyncapis:
+- description: ''
+  name: Karrio Webhooks
+  slug: karrio-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/karrio-capability-edges.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/karrio-scopes.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://karrio.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://karrio.io/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://karrio.io/docs/api-reference
+- group: company
+  title: ''
+  type: Blog
+  url: https://karrio.io/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/karrioapi
+- group: operate
+  title: ''
+  type: Support
+  url: https://github.com/orgs/karrioapi/discussions
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://karrio.io/platform
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://karrio.io/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://karrio.io/privacy-policy
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/karrioapi
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/karrio-api-openapi.yml
+- group: docs
+  title: ''
+  type: GraphQL
+  url: graphql/karrio-graphql-schema.json
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/karrio-api-overlay.yaml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/karrio-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/karrio-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/karrio-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/karrio-components.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/karrio-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/karrio-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/karrio-llms.txt
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/karrio-webhooks.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/karrio-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/karrio-data-model.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/karrio-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/karrio-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/karrio-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/karrio-sandbox.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/karrio-conformance.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/karrio-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/karrio-vulnerability-disclosure.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/karrio-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/karrio-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/karrio-finops.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -74,65 +255,62 @@ common:
   title: ''
   type: Authentication
   url: authentication/karrio-authentication.yml
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/karrioapi
-- group: company
-  title: ''
-  type: Website
-  url: https://www.karrio.io/
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://docs.karrio.io/
-- group: build
-  title: ''
-  type: GitHubOrganization
-  url: https://github.com/karrioapi/karrio
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.karrio.io/blog
 created: '2024-03-30'
-description: Karrio is the most flexible way to integrate shipping into your platform. The headless shipping platform enables you to build shipping experiences from live rating, label generation, package tracking, and more.
+description: Karrio is an open-source, headless multi-carrier shipping platform for developers and logistics teams. Its unified REST API and GraphQL management API abstract more than thirty carrier integrations behind one resource-oriented interface covering live rating, label generation and purchase, package tracking, pickups, manifests, orders, customs documents and webhooks. Karrio can be self-hosted from the Apache-2.0 source, run as the managed Karrio Platform, or embedded and white-labelled under a commercial license.
 finops:
 - name: Karrio Finops
   service_category: API
   slug: karrio-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/karrio.png
 layout: provider
-modified: '2026-03-16'
+mcp_servers:
+- description: 'Karrio ships a first-party MCP server, @karrio/mcp, that exposes its multi-carrier shipping surface to MCP clients. It is a local server: it runs on the operator''s machine (stdio) or as a self-run Str'
+  name: Karrio MCP Server
+  slug: karrio-mcp-server
+modified: '2026-08-27'
 name: Karrio
 nav: Providers
 network: true
-overview: 'Karrio publishes 1 API on the [APIs.io](https://apis.io/) network: Shipments API. Tagged areas include Label Generation, Logistics, Package Tracking, and Shipping.
+overview: 'Karrio publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Auth API, and 14 more. Tagged areas include Shipping, Logistics, Label Generation, Package Tracking, and Carriers.
 
 
-  Karrio''s developer surface includes authentication, documentation, engineering blog, and 5 more developer resources.'
+  The Karrio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Karrio''s developer surface includes documentation, API reference, engineering blog, support, pricing, CLI, changelog, and 32 more developer resources.'
 plans:
 - name: Karrio Plans Pricing
   plan_count: 3
   slug: karrio-plans-pricing
 random_paper: 18
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Karrio Rate Limits
   slug: karrio-rate-limits
+scopes:
+- name: Karrio Scopes
+  scope_count: 3
+  slug: karrio-scopes
+  summary_line: 3 scopes · authorizationCode
 score:
-  band: thin
-  composite: 27.4
-  delta: -0.8
+  band: strong
+  composite: 56.8
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 52.4
-    developer_ergonomics: 23.8
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 28.2
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 18.2
+    contract_quality: 60.4
+    developer_ergonomics: 64.3
+    discoverability: 68.5
+    governance: 18.2
+    operational_transparency: 36.8
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     contracts:
@@ -140,24 +318,40 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Telecommunications
+    regime_id: telecommunications
+    score: 66.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/karrio/refs/heads/main/screenshots/karrio-2026-06-20T183922.png
 security:
 - kind: authentication
   name: Karrio Authentication
   slug: karrio-authentication
-  summary_line: http · 1 scheme
+  summary_line: apiKey/http/oauth2 · 4 schemes
 - kind: domain-security
   name: Karrio Domain Security
   slug: karrio-domain-security
   summary_line: TLSv1.3 · HSTS
+- kind: vulnerability-disclosure
+  name: Karrio Vulnerability Disclosure
+  slug: karrio-vulnerability-disclosure
+  summary_line: disclosure policy published
 slug: karrio
 tags:
-- Label Generation
-- Logistics
-- Package Tracking
 - Shipping
-website: https://www.karrio.io/
+- Logistics
+- Label Generation
+- Package Tracking
+- Carriers
+- Fulfillment
+- Open-Source
+- Multi-Carrier
+- Rating
+- Webhook
+website: https://karrio.io/
 ---

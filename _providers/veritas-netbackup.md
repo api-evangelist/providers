@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 27
   slug: veritas-netbackup-agentic-access
   summary_line: 27 operations · 13 acting
-api_count: 20
+api_count: 1
 apis:
 - description: API for managing NetBackup jobs including getting job details, listing jobs by filter, restarting, resuming, suspending, canceling, and deleting jobs, and retrieving job file lists and logs.
   name: NetBackup Administration API
@@ -143,6 +143,10 @@ collections:
   name: Veritas NetBackup REST API
   slug: open-veritas-netbackup-rest-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/veritas-netbackup-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -740,7 +744,7 @@ overview: 'Veritas NetBackup publishes 5 APIs on the [APIs.io](https://apis.io/)
   The Veritas NetBackup catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Veritas NetBackup''s developer surface includes authentication, support, documentation, API reference, getting-started guide, pricing, engineering blog, and 25 more developer resources.'
+  Veritas NetBackup''s developer surface includes authentication, support, documentation, API reference, getting-started guide, pricing, engineering blog, and 26 more developer resources.'
 plans:
 - name: Veritas Netbackup Plans Pricing
   plan_count: 1
@@ -774,18 +778,23 @@ rules:
   slug: veritas-netbackup-spectral-rules
 score:
   band: developing
-  composite: 51.4
-  delta: 0.7
+  composite: 50.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 60.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 13.6
     contract_quality: 71.7
     developer_ergonomics: 63.1
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 23.7
-  previous_composite: 50.7
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -793,8 +802,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/screenshots/veritas-netbackup-2026-06-20T200933.png
 security:

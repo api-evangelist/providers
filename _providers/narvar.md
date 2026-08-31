@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 3
   slug: narvar-agentic-access
   summary_line: 3 operations · 2 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Submit and update shipment records with carrier, tracking number, and destination data to enable real-time order tracking and delivery notifications.
   name: Narvar Shipment API
@@ -188,18 +188,23 @@ rules:
   slug: narvar-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.1
-  delta: 0.8
+  composite: 46.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 29.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 25.0
     contract_quality: 70.7
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 23.7
-  previous_composite: 46.3
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     contracts:
@@ -213,8 +218,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 46.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/narvar/refs/heads/main/screenshots/narvar-2026-06-20T185948.png
 security:

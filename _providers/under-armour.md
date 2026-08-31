@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 19
   slug: under-armour-agentic-access
   summary_line: 19 operations · 9 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Fitness device registration and management
   name: Under Armour Devices API
@@ -89,6 +89,10 @@ collections:
   name: MapMyFitness Devices Workouts API
   slug: open-under-armour-workouts-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/under-armour-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -188,7 +192,7 @@ overview: 'Under Armour publishes 6 APIs on the [APIs.io](https://apis.io/) netw
   The Under Armour catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Under Armour''s developer surface includes authentication, documentation, and 14 more developer resources.'
+  Under Armour''s developer surface includes authentication, documentation, and 15 more developer resources.'
 plans:
 - name: Under Armour Plans Pricing
   plan_count: 1
@@ -243,18 +247,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 43.3
-  delta: -0.9
+  composite: 42.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 28.8
     contract_quality: 63.3
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 44.2
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -268,8 +277,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/screenshots/under-armour-2026-06-20T200017.png
 security:

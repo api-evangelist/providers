@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 5
 common:
@@ -145,7 +145,7 @@ modified: '2026-07-18'
 name: Articulate
 nav: Providers
 network: true
-overview: 'Articulate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, E-Learning, Learning Management, and Training.
+overview: 'Articulate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, E-Learning, Learning Management, and Training.
 
 
   Articulate''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
@@ -157,7 +157,12 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 40.8
+  composite: 39.7
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
@@ -165,20 +170,26 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 40.8
+  previous_composite: 39.7
   provenance:
     conformance: first-party
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: fedramp
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 85.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/articulate/refs/heads/main/screenshots/articulate-2026-07-25T201329.png
 security:
@@ -201,7 +212,7 @@ security:
 slug: articulate
 tags:
 - Company
-- EdTech
+- Edtech
 - E-Learning
 - Learning Management
 - Training

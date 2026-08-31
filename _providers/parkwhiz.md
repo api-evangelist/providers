@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 36
   slug: parkwhiz-agentic-access
   summary_line: 36 operations · 17 acting
-api_count: 7
+api_count: 1
 apis:
 - description: User accounts, vehicles, and payment methods.
   name: ParkWhiz Accounts & Vehicles API
@@ -95,6 +95,10 @@ collections:
   name: ParkWhiz / Arrive API v4
   slug: open-parkwhiz
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/parkwhiz-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -166,7 +170,7 @@ network: true
 overview: 'ParkWhiz publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts & Vehicles API, Bookings API, Monthly Parking API, and 4 more. Tagged areas include Parking, Mobility, Reservations, Bookings, and Transportation.
 
 
-  ParkWhiz''s developer surface includes authentication, documentation, getting-started guide, changelog, SDKs, and 9 more developer resources.'
+  ParkWhiz''s developer surface includes authentication, documentation, getting-started guide, changelog, SDKs, and 10 more developer resources.'
 plans:
 - name: Parkwhiz Plans Pricing
   plan_count: 3
@@ -183,18 +187,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 44.9
-  delta: 2.3
+  composite: 44.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 52.6
     developer_ergonomics: 61.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 42.6
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     contracts:
@@ -202,8 +211,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/screenshots/parkwhiz-2026-08-07T191441.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: SuperTest is a Node.js library for testing HTTP servers by providing a high-level abstraction for HTTP assertions with a fluent API built on SuperAgent. Supports GET, POST, PUT, DELETE, PATCH HTTP met
@@ -41,6 +41,14 @@ apis:
   slug: supertest
 artifact_total: 10
 common:
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/forwardemail/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/forwardemail/.github/blob/main/CONTRIBUTING.md
 - group: company
   title: ''
   type: Website
@@ -107,7 +115,7 @@ overview: 'SuperTest publishes 1 API on the [APIs.io](https://apis.io/) network.
   The SuperTest catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SuperTest''s developer surface includes documentation, release notes, and 5 more developer resources.'
+  SuperTest''s developer surface includes documentation, release notes, and 7 more developer resources.'
 plans:
 - name: Supertest Plans Pricing
   plan_count: 3
@@ -129,9 +137,14 @@ rules:
     warn: 4
   slug: supertest-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 22.1
-  delta: 1.8
+  band: thin
+  composite: 26.4
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -141,9 +154,12 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 20.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 26.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supertest/refs/heads/main/screenshots/supertest-2026-06-20T194726.png
 slug: supertest

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 47
   slug: got-its-agentic-access
   summary_line: 47 operations · 23 acting
-api_count: 24
+api_count: 2
 apis:
 - description: The Asset Facilities API from Reelables — 1 operation(s) for asset facilities.
   name: Reelables Asset Facilities API
@@ -195,6 +195,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/got-its-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/got-its-gateway-openapi-overlay.yaml
 - group: auth
@@ -300,7 +304,7 @@ network: true
 overview: 'Reelables publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Asset Facilities API, Asset Labels API, Asset Locations API, and 21 more. Tagged areas include Company, Supply Chain, Logistics, Asset Tracking, and IoT.
 
 
-  Reelables'' developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, changelog, and 16 more developer resources.'
+  Reelables'' developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, changelog, and 17 more developer resources.'
 random_paper: 18
 scopes:
 - name: Got Its Scopes
@@ -309,18 +313,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 36.0
-  delta: 0.0
+  composite: 33.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 49.8
     developer_ergonomics: 56.5
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 36.0
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -331,8 +340,8 @@ score:
       total: 24
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/screenshots/got-its-2026-07-25T220118.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 17
   slug: mindlogic-agentic-access
   summary_line: 17 operations · 9 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Audio API from Mindlogic — 1 operation(s) for audio.
   name: Mindlogic Audio API
@@ -187,25 +187,30 @@ modified: '2026-07-20'
 name: Mindlogic
 nav: Providers
 network: true
-overview: 'Mindlogic publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Credits API, and 4 more. Tagged areas include Company, Ai Ml, Generative AI, Conversational AI, and LLM Gateway.
+overview: 'Mindlogic publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat API, Credits API, and 4 more. Tagged areas include Company, AI/ML, Generative AI, Conversational AI, and LLM Gateway.
 
 
   Mindlogic''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 15 more developer resources.'
 random_paper: 5
 score:
   band: thin
-  composite: 38.7
-  delta: 0.0
+  composite: 36.7
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 43.8
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 38.7
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -216,8 +221,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mindlogic/refs/heads/main/screenshots/mindlogic-2026-08-07T172941.png
 security:
@@ -232,7 +237,7 @@ security:
 slug: mindlogic
 tags:
 - Company
-- Ai Ml
+- AI/ML
 - Generative AI
 - Conversational AI
 - LLM Gateway

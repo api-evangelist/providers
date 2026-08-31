@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 13
   slug: power-platform-agentic-access
   summary_line: 13 operations · 5 acting
-api_count: 9
+api_count: 1
 apis:
 - description: OData v4.0 compliant Web API for Microsoft Dataverse, providing RESTful data storage, business logic, and entity management capabilities across the Power Platform.
   name: Dataverse API (Common Data Service)
@@ -105,6 +105,18 @@ collections:
   name: Microsoft Power Platform REST Applications Licensing API
   slug: open-power-platform-licensing-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/microsoft/PowerPlatformConnectors/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/microsoft/PowerPlatformConnectors/blob/dev/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/microsoft/.github/blob/main/CODE_OF_CONDUCT.md
 - group: commercial
   title: ''
   type: License
@@ -470,7 +482,7 @@ overview: 'Microsoft Power Platform APIs publishes 4 APIs on the [APIs.io](https
   The Microsoft Power Platform APIs catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Power Platform APIs'' developer surface includes authentication, documentation, engineering blog, training material, API reference, support, and 14 more developer resources.'
+  Microsoft Power Platform APIs'' developer surface includes authentication, documentation, engineering blog, training material, API reference, support, and 17 more developer resources.'
 plans:
 - name: Power Platform Plans Pricing
   plan_count: 9
@@ -510,17 +522,25 @@ scopes:
 score:
   band: strong
   composite: 64.1
-  delta: 11.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 64.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 13.6
     contract_quality: 67.7
     developer_ergonomics: 92.9
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
-    operational_transparency: 26.3
-  previous_composite: 52.7
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 64.6
   provenance:
     agentic_access: derived
     contracts:
@@ -534,9 +554,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/screenshots/power-platform-2026-06-20T192023.png
 security:
 - kind: authentication

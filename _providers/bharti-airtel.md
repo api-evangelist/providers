@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -31,24 +31,69 @@ agentic_access:
   operation_count: 68
   slug: bharti-airtel-agentic-access
   summary_line: 68 operations · 35 acting
-api_count: 5
+api_count: 8
 apis:
-- description: The messaging half of Airtel IQ, Airtel's network-embedded CPaaS suite. Sends single, bulk, CSV-batch and content-moderated A2P SMS over Airtel's pan-India network, with TRAI DLT (Hyperledger-based di
-  name: Airtel IQ SMS API
-  slug: airtel-iq-sms-api
-- description: 'The Call Detail Record (CDR) reporting surface of Airtel IQ. Returns detailed per-call records — time, date, duration, caller ID, destination number, status and call-recording URL — for voice traffic '
-  name: Airtel IQ Reporting API
-  slug: airtel-iq-reporting-api
-- description: 'Airtel''s IoT/M2M connectivity-management API, published as a complete OpenAPI 3.0.1 catalogue of 43 operations across ten areas: account authorization, account details, inventory management, SIM lifec'
-  name: Airtel IoT API
-  slug: airtel-iot-api
-- description: Airtel Locate is the operator's network-based device-location platform, letting enterprises track a device by MSISDN without relying on the device's GPS. Published as an OpenAPI 3.0.0 catalogue (versi
-  name: Airtel Locate API
-  slug: airtel-locate-api
 - description: Airtel's original partner developer programme, launched in 2017 and now an unmaintained legacy portal (the site still carries a 2017 copyright). Its public documentation still describes real OAuth 2.0
   name: Airtel Smart API (legacy)
   slug: airtel-smart-api
-artifact_total: 16
+- description: This set of APIs shall allow user to generate Access Token and refresh Access Token to perform any action on CMP via the API gateway.
+  name: Bharti Airtel Account Authorization API
+  slug: bharti-airtel-account-authorization-api
+- description: This set of APIs fetch various details about a Billable Customer Account including Customer Profile, Plan details, User details and so on.
+  name: Bharti Airtel Account Details API
+  slug: bharti-airtel-account-details-api
+- description: <strong>Call Detail Record (CDR)</strong> is the detailed record of the call, which contains various call details such as Time, Date, Duration, Caller_ID, Destination_Number, Status, recording URL, et
+  name: Bharti Airtel Airtel IQ Sample CDR(Call Data Record) API
+  slug: bharti-airtel-airtel-iq-sample-cdr-call-data-record-api-api
+- description: This API will help you to generate token from the client credentials shared upon subscription to location services. In case you have not yet subscribed to location service, email us to locate.support@
+  name: Bharti Airtel Authorization API
+  slug: bharti-airtel-authorization-api-api
+- description: These APIs can be used to send Bulk SMS in different ways as documented below
+  name: Bharti Airtel Bulk SMS APIs API
+  slug: bharti-airtel-bulk-sms-apis-api
+- description: To data usage on a specific SIM, this API will allow user to get total data allocation, available data, used data, device information & session information for the SIM.
+  name: Bharti Airtel Device & Session Information API
+  slug: bharti-airtel-device-session-information-api
+- description: These APIs can be used to send a single SMS in a single request as documented below
+  name: Bharti Airtel Individual SMS APIs API
+  slug: bharti-airtel-individual-sms-apis-api
+- description: This set of APIs fetch various details about Sim details, Basket details and so on in the account.
+  name: Bharti Airtel Inventory Management API
+  slug: bharti-airtel-inventory-management-api
+- description: This API will allow user to fetch Job details for any operations being performed in that Billable account.
+  name: Bharti Airtel Job Status API
+  slug: bharti-airtel-job-status-api
+- description: This set of APIs to manage SIM KYC details.
+  name: Bharti Airtel KYC Manager API
+  slug: bharti-airtel-kyc-manager-api
+- description: This API will return location of MSISDN including Latitude and Longitude.
+  name: Bharti Airtel Location API
+  slug: bharti-airtel-location-api-api
+- description: These set of APIs allow lifecycle management of the Messaging Centre functionality
+  name: Bharti Airtel Messaging Centre API
+  slug: bharti-airtel-messaging-centre-api
+- description: This set of APIs allow customer initiate consent, fetch consent details, delete resource, fetch list of msisdn for consent was initiated and various other API to handle consumer msisdn's and their con
+  name: Bharti Airtel Resource Consent API
+  slug: bharti-airtel-resource-consent-api-api
+- description: This API shall allow user to change the state of SIMs.
+  name: Bharti Airtel SIM LifeCycle API
+  slug: bharti-airtel-sim-lifecycle-api
+- description: This API shall allow user to change the state of SIMs.
+  name: Bharti Airtel SIM LifeCycle Bulk API
+  slug: bharti-airtel-sim-lifecycle-bulk-api
+- description: These set of Tenant APIs allow customer to initiate consent, fetch consent details, delete consent, fetch list of msisdn for consent was initiated and various other API to handle tenant msisdn's and t
+  name: Bharti Airtel Tenant API
+  slug: bharti-airtel-tenant-api-api
+- description: These set of APIs allow customer to validate a physical address against network fetched live location. To get access to these API's please email to locate.support@airtel.com
+  name: Bharti Airtel Validation API
+  slug: bharti-airtel-validation-api-api
+- description: This set of APIs to manage whitelisting numbers on Airtel IoT portal in Batch
+  name: Bharti Airtel Whitelisting API
+  slug: bharti-airtel-whitelisting-api
+- description: The Whitelisting APIs API from Bharti Airtel — 1 operation(s) for whitelisting apis.
+  name: Bharti Airtel Whitelisting APIs API
+  slug: bharti-airtel-whitelisting-apis-api
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Bharti Airtel Webhooks
@@ -67,6 +112,26 @@ collections:
   name: Locate API Catalog
   slug: open-bharti-airtel-locate
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bharti-airtel-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bharti-airtel-iq-sms-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bharti-airtel-iq-reporting-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bharti-airtel-iot-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bharti-airtel-locate-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -228,13 +293,13 @@ modified: '2026-07-25'
 name: Bharti Airtel
 nav: Providers
 network: true
-overview: 'Bharti Airtel publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Airtel IQ SMS API, Airtel IQ Reporting API, Airtel IoT API, and 1 more. Tagged areas include Telecommunications, India, Mobile Network Operator, Network APIs, and CAMARA.
+overview: 'Bharti Airtel publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account Authorization API, Account Details API, Airtel IQ Sample CDR(Call Data Record) API, and 16 more. Tagged areas include Telecommunications, India, Mobile Network Operator, Network APIs, and CAMARA.
 
 
   The Bharti Airtel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bharti Airtel''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, signup flow, developer console, and 30 more developer resources.'
+  Bharti Airtel''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, signup flow, developer console, and 35 more developer resources.'
 random_paper: 18
 scopes:
 - name: Bharti Airtel Scopes
@@ -243,18 +308,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode/implicit
 score:
   band: developing
-  composite: 53.9
+  composite: 51.2
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
-    contract_quality: 57.6
+    contract_governance: 4.5
+    contract_quality: 59.3
     developer_ergonomics: 56.5
-    discoverability: 83.3
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 53.9
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,8 +341,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 81.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/screenshots/bharti-airtel-2026-08-07T162406.png
 security:

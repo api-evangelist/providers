@@ -34,18 +34,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Single-operation product search API behind the Ibotta browser extension. POST /openai/search accepts an array of keyword queries plus limit / minPrice / maxPrice / storeId filters and returns products
-  name: Ibotta Product API
-  slug: ibotta-product-api
+- description: Product search across Ibotta browser-extension retailer coverage.
+  name: Ibotta Products API
+  slug: ibotta-products-api
 artifact_total: 9
 collections:
 - collection_type: open
   name: Ibotta Product API
   slug: open-ibotta-product-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ibotta-product-api-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/ibotta-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -143,10 +155,10 @@ modified: '2026-08-12'
 name: Ibotta
 nav: Providers
 network: true
-overview: 'Ibotta publishes 1 API on the [APIs.io](https://apis.io/) network: Product API. Tagged areas include Company, Consumer, Cashback, Rewards, and Retail Media.
+overview: 'Ibotta publishes 1 API on the [APIs.io](https://apis.io/) network: Products API. Tagged areas include Company, Consumer, Cash Back, Rewards, and Retail Media.
 
 
-  Ibotta''s developer surface includes engineering blog, support, documentation, getting-started guide, and 17 more developer resources.'
+  Ibotta''s developer surface includes engineering blog, support, documentation, getting-started guide, and 20 more developer resources.'
 plans:
 - name: Ibotta Plans Pricing
   plan_count: 0
@@ -163,18 +175,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 35.5
-  delta: 2.8
+  composite: 32.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 53.1
     developer_ergonomics: 42.3
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 32.7
+  previous_composite: 32.2
   provenance:
     conformance: derived
     contracts:
@@ -184,8 +201,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibotta/refs/heads/main/screenshots/ibotta-2026-07-25T221955.png
 security:
@@ -205,7 +222,7 @@ slug: ibotta
 tags:
 - Company
 - Consumer
-- Cashback
+- Cash Back
 - Rewards
 - Retail Media
 - Coupons

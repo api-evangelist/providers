@@ -29,5 +29,5 @@ tags:
 - Standards
 - ACORD
 - Data Exchange
-- Insurtech
+- InsurTech
 ---

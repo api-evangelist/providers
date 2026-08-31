@@ -23,18 +23,50 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: Forge is Lucra's unified server-to-server API gateway. It exposes tenant-scoped tournament management (create, update, cancel, complete, leaderboard, rewards, tags), recreational game (Games You Play)
-  name: Lucra Forge API
-  slug: lucra-sports-forge-api
-artifact_total: 7
+- description: The Health API from Lucra Sports — 1 operation(s) for health.
+  name: Lucra Sports Health API
+  slug: lucra-sports-health-api
+- description: The Locations API from Lucra Sports — 1 operation(s) for locations.
+  name: Lucra Sports Locations API
+  slug: lucra-sports-locations-api
+- description: The Recreational Games API from Lucra Sports — 5 operation(s) for recreational games.
+  name: Lucra Sports Recreational Games API
+  slug: lucra-sports-recreational-games-api
+- description: The States API from Lucra Sports — 1 operation(s) for states.
+  name: Lucra Sports States API
+  slug: lucra-sports-states-api
+- description: The TenantTagGroups API from Lucra Sports — 4 operation(s) for tenanttaggroups.
+  name: Lucra Sports Tenant Tag Groups API
+  slug: lucra-sports-tenanttaggroups-api
+- description: 'Modular tournament management endpoints. Unlike the legacy API which returns everything in a single call, the v2 API separates concerns into dedicated resources: | Resource | Path | Purpose | |-------'
+  name: Lucra Sports Tournaments API
+  slug: lucra-sports-tournaments-api
+- description: 'Drop-in replacement endpoints for the original tournament API operations. Request/response shapes are identical. --- ## Tournament Types ### CASH_FIXED The total prize pool is defined upfront and has '
+  name: Lucra Sports Tournaments (Legacy) API
+  slug: lucra-sports-tournaments-legacy-api
+- description: The User Score API from Lucra Sports — 1 operation(s) for user score.
+  name: Lucra Sports User Score API
+  slug: lucra-sports-user-score-api
+- description: 'Manage webhook configurations to receive real-time event notifications via HTTP POST requests. --- ## Available Event Types | Event | Description | |-------|-------------| | `UserSignedUp` | New user '
+  name: Lucra Sports Webhooks API
+  slug: lucra-sports-webhooks-api
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Lucra Sports Webhooks
   slug: lucra-sports-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lucra-sports-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lucra-sports-forge-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -183,13 +215,13 @@ modified: '2026-08-25'
 name: Lucra Sports
 nav: Providers
 network: true
-overview: 'Lucra Sports publishes 1 API on the [APIs.io](https://apis.io/) network: Lucra Forge API. Tagged areas include Gaming, Sports, Gamification, Loyalty, and Tournaments.
+overview: 'Lucra Sports publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Health API, Locations API, Recreational Games API, and 6 more. Tagged areas include Gaming, Sports, Gamification, Loyalty, and Tournaments.
 
 
   The Lucra Sports catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lucra Sports'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 27 more developer resources.'
+  Lucra Sports'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 29 more developer resources.'
 plans:
 - name: Lucra Sports Plans Pricing
   plan_count: 0
@@ -201,16 +233,23 @@ rate_limits:
   slug: lucra-sports-rate-limits
 score:
   band: strong
-  composite: 57.5
+  composite: 56.2
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 16.7
-    contract_quality: 56.1
+    contract_governance: 4.5
+    contract_quality: 56.7
     developer_ergonomics: 78.6
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 47.4
+  previous_composite: 56.7
   provenance:
     conformance: derived
     mcp: derived
@@ -221,8 +260,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Lucra Sports Authentication
@@ -243,8 +283,8 @@ tags:
 - Payments
 - Wagering
 - Embedded Finance
-- SDKs
-- Webhooks
+- SDK
+- Webhook
 - Compliance
 website: https://www.playlucra.com/
 ---

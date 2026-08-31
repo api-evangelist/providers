@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 92
   slug: rarible-agentic-access
   summary_line: 92 operations · 27 acting · 3 human-in-the-loop
-api_count: 18
+api_count: 1
 apis:
 - description: The Charts API from Rarible — 2 operation(s) for charts.
   name: Rarible Charts API
@@ -1123,7 +1123,7 @@ modified: '2026-06-13'
 name: Rarible
 nav: Providers
 network: true
-overview: 'Rarible publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Charts API, Collection Leader Board API, Collection Statistics API, and 15 more. Tagged areas include NFT, Non-Fungible Tokens, Marketplace, Aggregator, and Multi-Chain.
+overview: 'Rarible publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Charts API, Collection Leader Board API, Collection Statistics API, and 15 more. Tagged areas include NFT, Non-Fungible Tokens, Marketplace, Aggregator, and Multichain.
 
 
   The Rarible catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -1152,15 +1152,20 @@ rules:
   slug: rarible-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 46.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 47.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 9.8
     contract_quality: 61.2
     developer_ergonomics: 39.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 31.6
   previous_composite: 46.8
@@ -1177,8 +1182,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/screenshots/rarible-2026-06-20T192606.png
 security:
@@ -1196,7 +1201,7 @@ tags:
 - Non-Fungible Tokens
 - Marketplace
 - Aggregator
-- Multi-Chain
+- Multichain
 - Ethereum
 - Polygon
 - Arbitrum

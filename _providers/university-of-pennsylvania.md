@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 68
   slug: university-of-pennsylvania-agentic-access
   summary_line: 68 operations · 30 acting · 2 human-in-the-loop
-api_count: 10
+api_count: 3
 apis:
 - description: 'One API, four student-facing products: Penn Course Alert (PCA), Penn Course Plan (PCP), Penn Course Review (PCR) and Penn Degree Plan (PDP), plus a shared Accounts resource. The live OpenAPI 3.0.2 doc'
   name: Penn Courses API (Penn Course Alert / Plan / Review / Degree Plan)
@@ -58,21 +58,21 @@ apis:
 - description: Penn's Shibboleth identity provider publishes a signed SAML 2.0 EntityDescriptor at a well-known location (HTTP 200, application/xml, entityID https://idp.pennkey.upenn.edu/idp/shibboleth), carrying t
   name: PennKey Identity Provider — SAML 2.0 / Shibboleth Metadata
   slug: pennkey-identity-provider
-- description: Conformant OAI-PMH 2.0 harvesting endpoint for ScholarlyCommons at Penn, the university's institutional research repository, on Penn's own host under Handle prefix 20.500.14332. verb=Identify, ListSet
-  name: ScholarlyCommons at Penn — OAI-PMH
-  slug: scholarlycommons-oai-pmh
 - description: DSpace 7.6 HAL+JSON REST API on Penn's own host. The API root returned HTTP 200 advertising dspaceName "ScholarlyCommons at Penn" and the full DSpace link relation set; content endpoints require authe
   name: ScholarlyCommons at Penn — DSpace REST API
   slug: scholarlycommons-rest
-- description: JSON:API surface of Franklin, the Penn Libraries discovery catalog, operated by Penn Libraries on find.library.upenn.edu. /catalog.json returned HTTP 200 with links, meta.pages and data[] over 388,604
-  name: Penn Libraries Franklin Catalog — JSON API
-  slug: franklin-catalog
 - description: 'Penn Libraries'' digital repository at colenda.library.upenn.edu exposes a Blacklight/Solr JSON search response (/catalog.json returned HTTP 200, ~59 KB, anonymous). Institution-operated on Penn''s own '
   name: Colenda Digital Repository — Search JSON
   slug: colenda
 - description: Penn Libraries' bulk open-data site publishing high-resolution manuscript images and TEI/XML descriptions in the public domain, laid out as a plainly-navigable directory tree (openn.library.upenn.edu/
   name: OPenn — Open Manuscript Data
   slug: openn
+- description: Bibliographic search and record retrieval.
+  name: University of Pennsylvania Catalog API
+  slug: university-of-pennsylvania-catalog-api
+- description: The Request API from University of Pennsylvania — 1 operation(s) for request.
+  name: University of Pennsylvania Request API
+  slug: university-of-pennsylvania-request-api
 artifact_total: 52
 collections:
 - collection_type: open
@@ -300,7 +300,7 @@ modified: '2026-08-19'
 name: University of Pennsylvania
 nav: Providers
 network: true
-overview: 'University of Pennsylvania publishes 3 APIs on the [APIs.io](https://apis.io/) network: Penn Courses API (Penn Course Alert / Plan / Review / Degree Plan), ScholarlyCommons at Penn — OAI-PMH, and Penn Libraries Franklin Catalog — JSON API. Tagged areas include Education, Higher Education, University, Research University, and Ivy League.
+overview: 'University of Pennsylvania publishes 3 APIs on the [APIs.io](https://apis.io/) network: Penn Courses API (Penn Course Alert / Plan / Review / Degree Plan), Catalog API, and Request API. Tagged areas include Education, Higher Education, University, Research University, and Ivy League.
 
 
   The University of Pennsylvania catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -340,18 +340,23 @@ rules:
   slug: university-of-pennsylvania-rules
 score:
   band: developing
-  composite: 39.4
-  delta: 4.6
+  composite: 39.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 53.1
+    contract_quality: 53.9
     developer_ergonomics: 19.0
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 23.7
-  previous_composite: 34.8
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -366,8 +371,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 35.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-pennsylvania/refs/heads/main/screenshots/university-of-pennsylvania-2026-06-20T200220.png
 security:

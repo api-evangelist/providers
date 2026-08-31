@@ -1,14 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Free · public and keyless on the tenant data API, application-gated on the institution's own OAuth service
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - probe
+  - https://oauth.ccxp.nthu.edu.tw/v1.1/doc/
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -16,24 +17,24 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.5
-  scored_at: '2026-08-26'
+  score: 24.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,36 +42,21 @@ agentic_access:
   operation_count: 23
   slug: nthu-agentic-access
   summary_line: 23 operations · 1 acting
-api_count: 9
+api_count: 1
 apis:
-- description: The Announcements API from National Tsing Hua University — 3 operation(s) for announcements.
-  name: National Tsing Hua University Announcements API
-  slug: nthu-announcements-api
-- description: The Buses API from National Tsing Hua University — 4 operation(s) for buses.
-  name: National Tsing Hua University Buses API
-  slug: nthu-buses-api
-- description: The Courses API from National Tsing Hua University — 3 operation(s) for courses.
-  name: National Tsing Hua University Courses API
-  slug: nthu-courses-api
-- description: The Departments API from National Tsing Hua University — 2 operation(s) for departments.
-  name: National Tsing Hua University Departments API
-  slug: nthu-departments-api
-- description: The Dining API from National Tsing Hua University — 2 operation(s) for dining.
-  name: National Tsing Hua University Dining API
-  slug: nthu-dining-api
-- description: The Energy API from National Tsing Hua University — 1 operation(s) for energy.
-  name: National Tsing Hua University Energy API
-  slug: nthu-energy-api
-- description: The Libraries API from National Tsing Hua University — 3 operation(s) for libraries.
-  name: National Tsing Hua University Libraries API
-  slug: nthu-libraries-api
-- description: The Locations API from National Tsing Hua University — 2 operation(s) for locations.
-  name: National Tsing Hua University Locations API
-  slug: nthu-locations-api
-- description: The Newsletters API from National Tsing Hua University — 2 operation(s) for newsletters.
-  name: National Tsing Hua University Newsletters API
-  slug: nthu-newsletters-api
-artifact_total: 42
+- description: The one API National Tsing Hua University operates itself. An OAuth 2.0 authorization-code service run by the Computer and Communication Center on NTHU's own host, letting a reviewed external applicat
+  name: NTHU Academic Information System OAuth 2.0 Service
+  slug: nthu-oauth-api
+- description: A live, keyless, MIT-licensed FastAPI service publishing 22 paths over NTHU campus data — announcements by unit, campus bus routes and schedules, the course catalog and course search, department direc
+  name: NTHU Data API
+  slug: nthu-data-api
+- description: NTHU's institutional research repository and researcher-profile portal, running on Ex Libris Esploro. The former institutional repository host nthur.lib.nthu.edu.tw now redirects here. An OAI-PMH serv
+  name: NTHU Research Portal (Esploro tenant)
+  slug: nthu-research-portal
+- description: 'NTHU Library''s discovery service on Ex Libris Primo VE. Notable for what it reveals rather than what it offers: its sign-in link declares authenticationProfile=NTHU_SAML and auth=SAML, which is the on'
+  name: NTHU Library Discovery (Primo VE tenant)
+  slug: nthu-library-discovery
+artifact_total: 39
 collections:
 - collection_type: open
   name: API Collection
@@ -103,10 +89,98 @@ collections:
   name: NTHU Data Announcements Newsletters API
   slug: open-nthu-newsletters-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.nthu.edu.tw/
+- group: company
+  title: ''
+  type: Website
+  url: https://nthu-en.site.nthu.edu.tw/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://oauth.ccxp.nthu.edu.tw/v1.1/doc/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.nthusa.tw/docs
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://law.site.nthu.edu.tw/p/406-1326-197509,r6923.php
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://oauth.ccxp.nthu.edu.tw/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://scholars.nthu.edu.tw/esploro/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://nthu.primo.exlibrisgroup.com/discovery/search?vid=886UST_NTHU
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://curricul.site.nthu.edu.tw/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://curricul.site.nthu.edu.tw/p/404-1208-248357.php?Lang=zh-tw
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://ctld.site.nthu.edu.tw/p/450-1217-253458,c0.php?Lang=zh-tw
+- group: operate
+  title: ''
+  type: Support
+  url: https://ccc.site.nthu.edu.tw/
+- group: operate
+  title: ''
+  type: Support
+  url: https://net.nthu.edu.tw/netsys/service:portal:login_from_ccxp
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/NTHU-SA
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/nthumodifications
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/national-tsing-hua-university/
 - group: commercial
   title: ''
   type: License
   url: https://github.com/NTHU-SA/NTHU-Data-API/blob/main/LICENSE
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/nthu-authentication.yml
+- group: auth
+  title: ''
+  type: Scopes
+  url: scopes/nthu-scopes.yml
+- group: design
+  title: ''
+  type: Errors
+  url: errors/nthu-errors.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/nthu-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/nthu-conformance.yml
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nthu-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -115,18 +189,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/nthu-domain-security.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://www.nthu.edu.tw/
-- group: build
-  title: ''
-  type: GitHub
-  url: https://github.com/NTHU-SA
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/national-tsing-hua-university/
 - group: commercial
   title: ''
   type: Plans
@@ -144,7 +206,8 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'National Tsing Hua University (NTHU) is a national public research university in Hsinchu, Taiwan, originally founded in 1911 and re-established in Taiwan in 1956. It is ranked #210 in the QS World University Rankings 2025 and is one of Taiwan''s premier research institutions across science, engineering, humanities, and management. NTHU does not operate an official institution-wide developer portal, but its public developer footprint centers on the community-maintained NTHU Data API (NTHU-SA), a live FastAPI/OpenAPI service that aggregates public campus data such as courses, buses, dining, library spaces, announcements, and energy usage. Related open-source work lives across student and lab GitHub organizations.'
+description: 'National Tsing Hua University (NTHU) is a national public research university in Hsinchu, Taiwan, founded in Beijing in 1911 and re-established in Taiwan in 1956. It has no central developer portal, no API catalog and no institution-wide API program, and this profile is deliberately small because the honest footprint is small. It does, however, hold something most of this cohort does not: one genuinely institution-operated, institution-governed API. NTHU''s Computer and Communication Center runs an OAuth 2.0 authorization and identity service at oauth.ccxp.nthu.edu.tw, fronting the Academic Information System (CCXP), documented by the university in its own interface manual, governed by a regulation passed by the Computer and Communication Committee in December 2020, and carrying a published scheduled repeal date of 2027-07-31. It is not self-service — a request needs a unit head''s signature, Computer and Communication Center review, and sign-off from every unit that owns a
+  requested data field — but it is NTHU''s own engineering on NTHU''s own host. Everything else programmable that carries NTHU''s name is operated by someone else. The widely cited NTHU Data API, a live FastAPI service with an OpenAPI 3.1.0 description and 22 keyless public paths over campus announcements, buses, courses, departments, dining, energy, library spaces, locations and newsletters, is built and hosted by the NTHU Student Association on nthusa.tw, not by the university on nthu.edu.tw. The research portal at scholars.nthu.edu.tw is an Ex Libris Esploro tenant, and the library discovery service is an Ex Libris Primo VE tenant shared through the University System of Taiwan consortium. Those are real institutional facts and they are recorded as tenant relationships, but they are not NTHU''s contracts and are not scored as such.'
 examples:
 - key_count: 4
   name: Nthu Getbusroutedata Example
@@ -204,17 +267,17 @@ jsonld:
   property_count: 12
   slug: nthu-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: National Tsing Hua University
 nav: Providers
 network: true
-overview: 'National Tsing Hua University publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Announcements API, Buses API, Courses API, and 6 more. Tagged areas include Education, Higher Education, University, Taiwan, and Open Data.
+overview: 'National Tsing Hua University publishes 2 APIs on the [APIs.io](https://apis.io/) network: NTHU Academic Information System OAuth 2.0 Service and NTHU Data API. Tagged areas include Education, Higher Education, University, Taiwan, and Public Research University.
 
 
   The National Tsing Hua University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  National Tsing Hua University''s developer surface includes GitHub presence and 9 more developer resources.'
+  National Tsing Hua University''s developer surface includes documentation, API reference, support, GitHub presence, authentication, and 24 more developer resources.'
 plans:
 - name: Nthu Plans Pricing
   plan_count: 2
@@ -245,20 +308,30 @@ rules:
     info: 0
     warn: 2
   slug: nthu-rules
+scopes:
+- name: Nthu Scopes
+  scope_count: 6
+  slug: nthu-scopes
+  summary_line: 6 scopes · authorizationCode
 score:
-  band: thin
-  composite: 34.6
-  delta: 3.7
+  band: developing
+  composite: 48.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 13.7
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 25.0
-    contract_quality: 56.8
-    developer_ergonomics: 9.5
-    discoverability: 74.1
-    governance: 25.0
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 43.2
+    contract_quality: 59.2
+    developer_ergonomics: 28.6
+    discoverability: 68.5
+    governance: 43.2
     operational_transparency: 26.3
-  previous_composite: 30.9
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -271,12 +344,16 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 57.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/nthu/refs/heads/main/screenshots/nthu-2026-06-20T190502.png
 security:
+- kind: authentication
+  name: Nthu Authentication
+  slug: nthu-authentication
+  summary_line: oauth2 · 2 schemes
 - kind: domain-security
   name: Nthu Domain Security
   slug: nthu-domain-security
@@ -287,7 +364,13 @@ tags:
 - Higher Education
 - University
 - Taiwan
+- Public Research University
+- Identity
+- OAuth
 - Open Data
 - Campus
+- Course Catalog
+- Research Repository
+- Library
 website: https://www.nthu.edu.tw/
 ---

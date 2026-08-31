@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 32
   slug: f5-networks-agentic-access
   summary_line: 32 operations · 16 acting
-api_count: 14
+api_count: 1
 apis:
 - description: REST API for managing NGINX instances, monitoring performance, and configuring application delivery through NGINX Management Suite.
   name: F5 NGINX Management Suite API
@@ -125,6 +125,10 @@ collections:
   name: F5 BIG-IP iControl REST Nodes Virtual Servers API
   slug: open-f5-networks-virtual-servers-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/f5-networks-capability-edges.yml
 - group: operate
   title: ''
   type: Releases
@@ -567,7 +571,7 @@ overview: 'F5 Networks publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
   The F5 Networks catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  F5 Networks'' developer surface includes authentication, documentation, engineering blog, support, signup flow, YouTube channel, and 15 more developer resources.'
+  F5 Networks'' developer surface includes authentication, documentation, engineering blog, support, signup flow, YouTube channel, and 16 more developer resources.'
 plans:
 - name: F5 Networks Plans Pricing
   plan_count: 5
@@ -601,18 +605,23 @@ rules:
   slug: f5-networks-spectral-rules
 score:
   band: developing
-  composite: 53.8
-  delta: 6.6
+  composite: 53.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
     contract_governance: 13.6
     contract_quality: 67.4
     developer_ergonomics: 58.3
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 47.4
-  previous_composite: 47.2
+  previous_composite: 53.8
   provenance:
     agentic_access: derived
     contracts:
@@ -620,9 +629,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/screenshots/f5-networks-2026-06-20T180959.png
 security:
 - kind: authentication

@@ -23,18 +23,58 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Registration, onboarding, invitation and account-lifecycle service behind Cosmose AI's KaiKai / Deal Hunter consumer app, plus the merchant, school, newsletter and contact lead-capture forms on kaikai
-  name: Cosmose AI Deal Hunter Registration API
-  slug: cosmose-ai-deal-hunter-registration-api
-artifact_total: 6
+- description: The contact-form-controller API from Cosmose AI — 1 operation(s) for contact-form-controller.
+  name: Cosmose AI Contact Form Controller API
+  slug: cosmose-ai-contact-form-controller-api
+- description: The crucible-token-controller API from Cosmose AI — 1 operation(s) for crucible-token-controller.
+  name: Cosmose AI Crucible Token Controller API
+  slug: cosmose-ai-crucible-token-controller-api
+- description: The forget-me-controller API from Cosmose AI — 2 operation(s) for forget-me-controller.
+  name: Cosmose AI Forget Me Controller API
+  slug: cosmose-ai-forget-me-controller-api
+- description: The invitation-controller API from Cosmose AI — 1 operation(s) for invitation-controller.
+  name: Cosmose AI Invitation Controller API
+  slug: cosmose-ai-invitation-controller-api
+- description: The kkn-onboarding-controller API from Cosmose AI — 2 operation(s) for kkn-onboarding-controller.
+  name: Cosmose AI Kkn Onboarding Controller API
+  slug: cosmose-ai-kkn-onboarding-controller-api
+- description: The learn-to-code-controller API from Cosmose AI — 1 operation(s) for learn-to-code-controller.
+  name: Cosmose AI Learn To Code Controller API
+  slug: cosmose-ai-learn-to-code-controller-api
+- description: The merchant-controller API from Cosmose AI — 1 operation(s) for merchant-controller.
+  name: Cosmose AI Merchant Controller API
+  slug: cosmose-ai-merchant-controller-api
+- description: The newsletter-controller API from Cosmose AI — 1 operation(s) for newsletter-controller.
+  name: Cosmose AI Newsletter Controller API
+  slug: cosmose-ai-newsletter-controller-api
+- description: The onboarding-controller API from Cosmose AI — 3 operation(s) for onboarding-controller.
+  name: Cosmose AI Onboarding Controller API
+  slug: cosmose-ai-onboarding-controller-api
+- description: The registration-admin-controller API from Cosmose AI — 2 operation(s) for registration-admin-controller.
+  name: Cosmose AI Registration Admin Controller API
+  slug: cosmose-ai-registration-admin-controller-api
+- description: The registration-controller API from Cosmose AI — 4 operation(s) for registration-controller.
+  name: Cosmose AI Registration Controller API
+  slug: cosmose-ai-registration-controller-api
+- description: The school-controller API from Cosmose AI — 2 operation(s) for school-controller.
+  name: Cosmose AI School Controller API
+  slug: cosmose-ai-school-controller-api
+- description: The token-controller API from Cosmose AI — 1 operation(s) for token-controller.
+  name: Cosmose AI Token Controller API
+  slug: cosmose-ai-token-controller-api
+artifact_total: 18
 collections:
 - collection_type: open
   name: Cosmose AI Deal Hunter Registration API
   slug: open-cosmose-ai-deal-hunter-registration-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cosmose-ai-deal-hunter-registration-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -108,10 +148,10 @@ modified: '2026-08-11'
 name: Cosmose AI
 nav: Providers
 network: true
-overview: 'Cosmose AI publishes 1 API on the [APIs.io](https://apis.io/) network: Deal Hunter Registration API. Tagged areas include Retail Intelligence, offline-analytics, Location Intelligence, AdTech, and consumer-behavior.
+overview: 'Cosmose AI publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Contact Form Controller API, Crucible Token Controller API, Forget Me Controller API, and 10 more. Tagged areas include retail-intelligence, offline-analytics, location-intelligence, adtech, and consumer-behavior.
 
 
-  Cosmose AI''s developer surface includes engineering blog, support, and 14 more developer resources.'
+  Cosmose AI''s developer surface includes engineering blog, support, and 15 more developer resources.'
 plans:
 - name: Cosmose Ai Plans Pricing
   plan_count: 0
@@ -122,19 +162,24 @@ rate_limits:
   name: Cosmose Ai Rate Limits
   slug: cosmose-ai-rate-limits
 score:
-  band: thin
-  composite: 27.5
-  delta: 3.8
+  band: emerging
+  composite: 25.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
-    contract_quality: 46.9
+    contract_governance: 4.5
+    contract_quality: 45.7
     developer_ergonomics: 32.7
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 23.7
+  previous_composite: 26.3
   provenance:
     conformance: derived
     contracts:
@@ -144,8 +189,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -158,15 +203,15 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: cosmose-ai
 tags:
-- Retail Intelligence
+- retail-intelligence
 - offline-analytics
-- Location Intelligence
-- AdTech
+- location-intelligence
+- adtech
 - consumer-behavior
-- Shopper Analytics
-- Mobile SDK
+- shopper-analytics
+- mobile-sdk
 - Advertising
-- Artificial Intelligence
-- Singapore
+- artificial-intelligence
+- singapore
 website: https://cosmose.ai/
 ---

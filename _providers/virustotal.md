@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 11
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 206
   slug: virustotal-agentic-access
   summary_line: 206 operations · 56 acting · 11 human-in-the-loop
-api_count: 35
+api_count: 7
 apis:
 - description: Enterprise add-on (formerly Mandiant Advantage ASM). Discovers and monitors an organisation's external attack surface, scoring exposures and prioritising remediation.
   name: Google Threat Intelligence - Attack Surface Management (ASM)
@@ -275,6 +275,10 @@ collections:
   name: VirusTotal API v3 - YARA Hunting (Livehunt, Retrohunt, IoC Stream)
   slug: open-virustotal-yara-hunting
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/virustotal-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -610,13 +614,13 @@ modified: '2026-05-29'
 name: VirusTotal
 nav: Providers
 network: true
-overview: 'VirusTotal publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Access Control - Group Management API, Access Control - Quota Management API, Access Control - Service Account Management API, and 30 more. Tagged areas include Anti Malware, Threat Intelligence, Security, File Analysis, and URL Analysis.
+overview: 'VirusTotal publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Access Control - Group Management API, Access Control - Quota Management API, Access Control - Service Account Management API, and 30 more. Tagged areas include Anti-Malware, Threat Intelligence, Security, File Analysis, and URL Analysis.
 
 
   The VirusTotal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  VirusTotal''s developer surface includes authentication, documentation, API reference, engineering blog, CLI, tooling, and 30 more developer resources.'
+  VirusTotal''s developer surface includes authentication, documentation, API reference, engineering blog, CLI, tooling, and 31 more developer resources.'
 plans:
 - name: Virustotal Plans Pricing
   plan_count: 3
@@ -650,7 +654,12 @@ rules:
   slug: virustotal-rules
 score:
   band: developing
-  composite: 49.7
+  composite: 51.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 30.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
@@ -658,10 +667,10 @@ score:
     contract_governance: 28.8
     contract_quality: 68.9
     developer_ergonomics: 54.8
-    discoverability: 57.4
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 49.7
+  previous_composite: 51.6
   provenance:
     agentic_access: derived
     contracts:
@@ -669,8 +678,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 33
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/virustotal/refs/heads/main/screenshots/virustotal-2026-06-20T201042.png
 security:
@@ -684,13 +693,13 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: virustotal
 tags:
-- Anti Malware
+- Anti-Malware
 - Threat Intelligence
 - Security
 - File Analysis
 - URL Analysis
 - YARA
-- IOC
+- IoC
 - Sandbox
 - MITRE ATT&CK
 - Google Cloud

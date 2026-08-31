@@ -1,28 +1,28 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free · Institutional affiliation required for everything but OAI-PMH
+  onboarding: unknown
   pricing: free
   public: false
   source:
-  - plans
   - authentication
+  - conformance
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -30,258 +30,74 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.5
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 259
-  human_in_the_loop: 1
-  name: Cityu Agentic Access
-  operation_count: 901
-  slug: cityu-agentic-access
-  summary_line: 901 operations · 259 acting · 1 human-in-the-loop
-api_count: 35
+  score: 5.0
+  scored_at: '2026-08-30'
+api_count: 5
 apis:
-- description: Public OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting, version 2.0) endpoint for CityUHK Scholars, the university's Elsevier Pure-powered research information system and institutio
+- description: Public OAI-PMH 2.0 endpoint for CityUHK Scholars, the university's research information system and institutional repository. The Identify verb returns repositoryName "CityUHK Scholars" with records fr
   name: CityUHK Scholars OAI-PMH
   slug: scholars-oai
-- description: The activity API from City University of Hong Kong — 38 operation(s) for activity.
-  name: City University of Hong Kong activity API
-  slug: cityu-activity-api
-- description: The application API from City University of Hong Kong — 36 operation(s) for application.
-  name: City University of Hong Kong application API
-  slug: cityu-application-api
-- description: The authorCollaboration API from City University of Hong Kong — 9 operation(s) for authorcollaboration.
-  name: City University of Hong Kong authorCollaboration API
-  slug: cityu-authorcollaboration-api
-- description: The award API from City University of Hong Kong — 36 operation(s) for award.
-  name: City University of Hong Kong award API
-  slug: cityu-award-api
-- description: The classificationScheme API from City University of Hong Kong — 7 operation(s) for classificationscheme.
-  name: City University of Hong Kong classificationScheme API
-  slug: cityu-classificationscheme-api
-- description: The concept API from City University of Hong Kong — 4 operation(s) for concept.
-  name: City University of Hong Kong concept API
-  slug: cityu-concept-api
-- description: The course API from City University of Hong Kong — 27 operation(s) for course.
-  name: City University of Hong Kong course API
-  slug: cityu-course-api
-- description: The dataSet API from City University of Hong Kong — 29 operation(s) for dataset.
-  name: City University of Hong Kong dataSet API
-  slug: cityu-dataset-api
-- description: The education API from City University of Hong Kong — 14 operation(s) for education.
-  name: City University of Hong Kong education API
-  slug: cityu-education-api
-- description: The equipment API from City University of Hong Kong — 26 operation(s) for equipment.
-  name: City University of Hong Kong equipment API
-  slug: cityu-equipment-api
-- description: The ethicalReview API from City University of Hong Kong — 22 operation(s) for ethicalreview.
-  name: City University of Hong Kong ethicalReview API
-  slug: cityu-ethicalreview-api
-- description: The event API from City University of Hong Kong — 21 operation(s) for event.
-  name: City University of Hong Kong event API
-  slug: cityu-event-api
-- description: The externalOrganization API from City University of Hong Kong — 29 operation(s) for externalorganization.
-  name: City University of Hong Kong externalOrganization API
-  slug: cityu-externalorganization-api
-- description: The externalPerson API from City University of Hong Kong — 22 operation(s) for externalperson.
-  name: City University of Hong Kong externalPerson API
-  slug: cityu-externalperson-api
-- description: The fingerprint API from City University of Hong Kong — 3 operation(s) for fingerprint.
-  name: City University of Hong Kong fingerprint API
-  slug: cityu-fingerprint-api
-- description: The fundingOpportunity API from City University of Hong Kong — 21 operation(s) for fundingopportunity.
-  name: City University of Hong Kong fundingOpportunity API
-  slug: cityu-fundingopportunity-api
-- description: The impact API from City University of Hong Kong — 31 operation(s) for impact.
-  name: City University of Hong Kong impact API
-  slug: cityu-impact-api
-- description: The journal API from City University of Hong Kong — 22 operation(s) for journal.
-  name: City University of Hong Kong journal API
-  slug: cityu-journal-api
-- description: The keywordGroupConfiguration API from City University of Hong Kong — 7 operation(s) for keywordgroupconfiguration.
-  name: City University of Hong Kong keywordGroupConfiguration API
-  slug: cityu-keywordgroupconfiguration-api
-- description: The milestone API from City University of Hong Kong — 24 operation(s) for milestone.
-  name: City University of Hong Kong milestone API
-  slug: cityu-milestone-api
-- description: The organization API from City University of Hong Kong — 33 operation(s) for organization.
-  name: City University of Hong Kong organization API
-  slug: cityu-organization-api
-- description: The person API from City University of Hong Kong — 57 operation(s) for person.
-  name: City University of Hong Kong person API
-  slug: cityu-person-api
-- description: The pressMedia API from City University of Hong Kong — 24 operation(s) for pressmedia.
-  name: City University of Hong Kong pressMedia API
-  slug: cityu-pressmedia-api
-- description: The prize API from City University of Hong Kong — 28 operation(s) for prize.
-  name: City University of Hong Kong prize API
-  slug: cityu-prize-api
-- description: The project API from City University of Hong Kong — 33 operation(s) for project.
-  name: City University of Hong Kong project API
-  slug: cityu-project-api
-- description: The publisher API from City University of Hong Kong — 18 operation(s) for publisher.
-  name: City University of Hong Kong publisher API
-  slug: cityu-publisher-api
-- description: The researchOutput API from City University of Hong Kong — 66 operation(s) for researchoutput.
-  name: City University of Hong Kong researchOutput API
-  slug: cityu-researchoutput-api
-- description: The role API from City University of Hong Kong — 2 operation(s) for role.
-  name: City University of Hong Kong role API
-  slug: cityu-role-api
-- description: The semester API from City University of Hong Kong — 8 operation(s) for semester.
-  name: City University of Hong Kong semester API
-  slug: cityu-semester-api
-- description: The specialization API from City University of Hong Kong — 8 operation(s) for specialization.
-  name: City University of Hong Kong specialization API
-  slug: cityu-specialization-api
-- description: The studentProject API from City University of Hong Kong — 26 operation(s) for studentproject.
-  name: City University of Hong Kong studentProject API
-  slug: cityu-studentproject-api
-- description: The studentThesis API from City University of Hong Kong — 26 operation(s) for studentthesis.
-  name: City University of Hong Kong studentThesis API
-  slug: cityu-studentthesis-api
-- description: The thesaurus API from City University of Hong Kong — 5 operation(s) for thesaurus.
-  name: City University of Hong Kong thesaurus API
-  slug: cityu-thesaurus-api
-- description: The user API from City University of Hong Kong — 7 operation(s) for user.
-  name: City University of Hong Kong user API
-  slug: cityu-user-api
-artifact_total: 86
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Pure activity API
-  slug: open-cityu-activity-api
-- collection_type: open
-  name: Pure activity application API
-  slug: open-cityu-application-api
-- collection_type: open
-  name: Pure activity authorCollaboration API
-  slug: open-cityu-authorcollaboration-api
-- collection_type: open
-  name: Pure activity award API
-  slug: open-cityu-award-api
-- collection_type: open
-  name: Pure activity classificationScheme API
-  slug: open-cityu-classificationscheme-api
-- collection_type: open
-  name: Pure activity concept API
-  slug: open-cityu-concept-api
-- collection_type: open
-  name: Pure activity course API
-  slug: open-cityu-course-api
-- collection_type: open
-  name: Pure activity dataSet API
-  slug: open-cityu-dataset-api
-- collection_type: open
-  name: Pure activity education API
-  slug: open-cityu-education-api
-- collection_type: open
-  name: Pure activity equipment API
-  slug: open-cityu-equipment-api
-- collection_type: open
-  name: Pure activity event API
-  slug: open-cityu-event-api
-- collection_type: open
-  name: Pure activity externalOrganization API
-  slug: open-cityu-externalorganization-api
-- collection_type: open
-  name: Pure activity externalPerson API
-  slug: open-cityu-externalperson-api
-- collection_type: open
-  name: Pure activity fingerprint API
-  slug: open-cityu-fingerprint-api
-- collection_type: open
-  name: Pure activity fundingOpportunity API
-  slug: open-cityu-fundingopportunity-api
-- collection_type: open
-  name: Pure activity impact API
-  slug: open-cityu-impact-api
-- collection_type: open
-  name: Pure activity journal API
-  slug: open-cityu-journal-api
-- collection_type: open
-  name: Pure activity keywordGroupConfiguration API
-  slug: open-cityu-keywordgroupconfiguration-api
-- collection_type: open
-  name: Pure activity milestone API
-  slug: open-cityu-milestone-api
-- collection_type: open
-  name: Pure activity organization API
-  slug: open-cityu-organization-api
-- collection_type: open
-  name: Pure activity person API
-  slug: open-cityu-person-api
-- collection_type: open
-  name: Pure activity pressMedia API
-  slug: open-cityu-pressmedia-api
-- collection_type: open
-  name: Pure activity prize API
-  slug: open-cityu-prize-api
-- collection_type: open
-  name: Pure activity project API
-  slug: open-cityu-project-api
-- collection_type: open
-  name: Pure activity publisher API
-  slug: open-cityu-publisher-api
-- collection_type: open
-  name: Pure activity researchOutput API
-  slug: open-cityu-researchoutput-api
-- collection_type: open
-  name: Pure activity role API
-  slug: open-cityu-role-api
-- collection_type: open
-  name: Pure activity semester API
-  slug: open-cityu-semester-api
-- collection_type: open
-  name: Pure activity specialization API
-  slug: open-cityu-specialization-api
-- collection_type: open
-  name: Pure activity studentProject API
-  slug: open-cityu-studentproject-api
-- collection_type: open
-  name: Pure activity studentThesis API
-  slug: open-cityu-studentthesis-api
-- collection_type: open
-  name: Pure activity thesaurus API
-  slug: open-cityu-thesaurus-api
-- collection_type: open
-  name: Pure activity user API
-  slug: open-cityu-user-api
+- description: CityUHK's deployment of the Elsevier Pure REST web service, reachable at https://scholars.cityu.edu.hk/ws/api and gated by an api-key header. The deployment is CityUHK's; the contract is Elsevier's Pu
+  name: CityUHK Scholars Pure Web Service (tenant deployment)
+  slug: scholars-pure-ws
+- description: CityUHK's own SAML 2.0 Identity Provider, running Shibboleth on the university's own host and publishing live IdP metadata with both an IDPSSODescriptor and an AttributeAuthorityDescriptor. Registered
+  name: CityUHK Shibboleth Identity Provider
+  slug: shibboleth-idp
+- description: CityUHK's OpenID Connect and OAuth 2.0 authorization server on the university's own hostname auth.cityu.edu.hk, which CNAMEs to cityu.customdomains.okta.com. Serves an OpenID Connect Discovery 1.0 doc
+  name: CityUHK Single Sign-On (OpenID Connect / OAuth 2.0)
+  slug: auth-oidc
+- description: CityUHK's Canvas tenant. canvas.cityu.edu.hk CNAMEs to cityuhk-vanity.instructure.com and redirects unauthenticated traffic to the university's Okta SSO with a SAMLRequest. The Canvas REST API and LTI
+  name: CityUHK Canvas Learning Management System (tenant deployment)
+  slug: canvas
+artifact_total: 10
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/cityu-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/cityu-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/cityu-authentication.yml
 - group: company
   title: ''
   type: Website
   url: https://www.cityu.edu.hk/
 - group: build
   title: ''
-  type: GitHub
+  type: GitHubOrganization
   url: https://github.com/cityu
 - group: company
   title: ''
   type: LinkedIn
   url: https://hk.linkedin.com/school/cityu/
-- group: start
+- group: other
   title: ''
-  type: DeveloperPortal
+  type: ResearchRepository
   url: https://scholars.cityu.edu.hk/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://idp2.cityu.edu.hk/idp/shibboleth
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.cityu.edu.hk/GenAI/guidelines.htm
+- group: build
+  title: ''
+  type: AITooling
+  url: https://www.cityu.edu.hk/GenAI/gpt-services.htm
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.cityu.edu.hk/its/services-facilities/api-gateway-and-api-management
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/cityu-authentication.yml
+- group: design
+  title: ''
+  type: x-conformance
+  url: conformance/cityu-education-standards-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cityu-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -299,56 +115,21 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'City University of Hong Kong (CityUHK) is a publicly funded research university located at Tat Chee Avenue, Kowloon, Hong Kong SAR, ranked #55 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is modest and centered on its research information system: CityUHK Scholars, an Elsevier Pure-powered current research information system and institutional repository that exposes a publicly harvestable OAI-PMH endpoint. An official GitHub organization (github.com/cityu) exists but currently publishes no public repositories, and the university operates internal identity, portal, and learning systems (AIMS, CAP, Canvas, CityUHK Portal) that are gated and not publicly documented as APIs.'
-examples:
-- key_count: 13
-  name: Cityu Person Get Example
-  slug: cityu-person-get-example
-- key_count: 3
-  name: Cityu Research Outputs List Example
-  slug: cityu-research-outputs-list-example
-- key_count: 6
-  name: Cityu Research Outputs Query Request Example
-  slug: cityu-research-outputs-query-request-example
+description: 'City University of Hong Kong (CityUHK) is a publicly funded (UGC) research university in Kowloon, Hong Kong SAR. IT Services runs a real API programme — a gateway and API management practice on MuleSoft Anypoint connecting campus systems — but none of it is published or callable outside the university, and there is no public developer portal. The publicly reachable machine-readable footprint is small and, with one exception, TENANTED rather than built: CityUHK Scholars is an Elsevier Pure deployment (scholars.cityu.edu.hk CNAMEs to cityu.elsevierpure.com) with an open OAI-PMH endpoint and a gated REST service on Elsevier''s contract; Canvas is an Instructure tenant; single sign-on is an Okta tenant at auth.cityu.edu.hk. The exception is the one contract CityUHK operates itself: its Shibboleth Identity Provider at idp2.cityu.edu.hk, registered in eduGAIN via the Hong Kong Access Federation. The official GitHub organisation publishes zero public repositories.'
 finops:
 - name: Cityu Finops
   service_category: Education
   slug: cityu-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cityu.png
-json_schemas:
-- name: Organization
-  property_count: 18
-  slug: cityu-organization
-- name: Person
-  property_count: 21
-  slug: cityu-person
-- name: ResearchOutput
-  property_count: 20
-  slug: cityu-research-output
-json_structures:
-- name: Cityu Person Structure
-  property_count: 12
-  slug: cityu-person-structure
-- name: Cityu Research Output Structure
-  property_count: 13
-  slug: cityu-research-output-structure
-jsonld:
-- class_count: 18
-  name: Cityu Context
-  property_count: 7
-  slug: cityu-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: City University of Hong Kong
 nav: Providers
 network: true
-overview: 'City University of Hong Kong publishes 34 APIs on the [APIs.io](https://apis.io/) network, including activity API, application API, authorCollaboration API, and 31 more. Tagged areas include Education, Higher Education, University, Research, and Institutional Repository.
+overview: 'City University of Hong Kong publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Hong Kong, and China.
 
 
-  The City University of Hong Kong catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  City University of Hong Kong''s developer surface includes authentication, GitHub presence, and 9 more developer resources.'
+  City University of Hong Kong''s developer surface includes documentation, authentication, and 13 more developer resources.'
 plans:
 - name: Cityu Plans Pricing
   plan_count: 2
@@ -358,41 +139,25 @@ rate_limits:
 - limit_count: 1
   name: Cityu Rate Limits
   slug: cityu-rate-limits
-rules:
-- effective_rule_count: 6
-  extends: []
-  name: City University of Hong Kong API Rules
-  rule_count: 6
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 4
-  slug: cityu-jsonschema-spectral-rules
-- effective_rule_count: 6
-  extends: []
-  name: City University of Hong Kong API Rules
-  rule_count: 6
-  severity_counts:
-    error: 2
-    hint: 0
-    info: 1
-    warn: 3
-  slug: cityu-rules
 score:
-  band: thin
-  composite: 38.5
-  delta: 1.9
+  band: emerging
+  composite: 19.7
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -18.8
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 55.9
-    developer_ergonomics: 31.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 21.4
     discoverability: 74.1
-    governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 36.6
+    governance: 0.0
+    operational_transparency: 23.7
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -405,16 +170,16 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 22.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/screenshots/cityu-2026-06-20T174434.png
 security:
 - kind: authentication
   name: Cityu Authentication
   slug: cityu-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: saml/oidc/oauth2/anonymous · 4 schemes
 - kind: domain-security
   name: Cityu Domain Security
   slug: cityu-domain-security
@@ -424,10 +189,13 @@ tags:
 - Education
 - Higher Education
 - University
+- Hong Kong
+- China
 - Research
 - Institutional Repository
 - OAI-PMH
-- Hong Kong
-- China
+- Identity Federation
+- Research Data
+- Learning Management
 website: https://www.cityu.edu.hk/
 ---

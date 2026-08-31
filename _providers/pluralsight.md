@@ -11,30 +11,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
+    dynamic_client_registration: true
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.3
-  scored_at: '2026-08-26'
+  score: 48.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 36
   slug: pluralsight-agentic-access
   summary_line: 36 operations · 19 acting · 1 human-in-the-loop
-api_count: 14
+api_count: 30
 apis:
 - description: Public course catalog operations
   name: Pluralsight Catalog API
@@ -86,7 +87,7 @@ apis:
 - description: Flow user management operations
   name: Pluralsight Users API
   slug: pluralsight-users-api
-artifact_total: 264
+artifact_total: 266
 collections:
 - collection_type: postman
   name: Pluralsight Channels Catalog API
@@ -266,6 +267,10 @@ collections:
   name: Pluralsight User Management API
   slug: open-user-management
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pluralsight-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -302,14 +307,6 @@ common:
   title: ''
   type: Portal
   url: https://developer.pluralsight.com
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://developer.pluralsight.com/docs/getting-started
-- group: auth
-  title: ''
-  type: Authentication
-  url: https://developer.pluralsight.com/docs/getting-started
 - group: operate
   title: ''
   type: FAQ
@@ -330,10 +327,6 @@ common:
   title: ''
   type: Documentation
   url: https://help.pluralsight.com/hc/en-us/articles/24420566008084-Migrating-from-REST-to-GraphQL-APIs
-- group: operate
-  title: ''
-  type: RateLimits
-  url: https://developer.pluralsight.com/docs/rate-limits
 - group: commercial
   title: ''
   type: TermsOfService
@@ -346,14 +339,174 @@ common:
   title: ''
   type: Support
   url: https://help.pluralsight.com
-- group: operate
-  title: ''
-  type: StatusPage
-  url: https://status.pluralsight.com
 - group: company
   title: ''
   type: Blog
   url: https://www.pluralsight.com/blog
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/pluralsight-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/pluralsight-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: https://pluralsight.com/.well-known/security.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/pluralsight-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/pluralsight-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/pluralsight-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/pluralsight-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.pluralsight.com/
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/pluralsight-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/pluralsight-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developer.pluralsight.com/docs/deprecations/deprecation-policy
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/pluralsight-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/pluralsight-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/pluralsight-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/pluralsight-sandbox.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/pluralsight-packages.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/pluralsight-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/pluralsight-graphql-overlay.yaml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/pluralsight-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/pluralsight-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/pluralsight-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/pluralsight-vocabulary.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/pluralsight-spectral-rules.yml
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/pluralsight-context.jsonld
+- group: build
+  title: ''
+  type: Examples
+  url: examples/pluralsight-course-catalog-graph-ql-request-example.json
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/pluralsight-course-catalog-graph-ql-response-schema.json
+- group: design
+  title: ''
+  type: JSONStructure
+  url: json-structure/pluralsight-course-catalog-graph-ql-response-structure.json
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.pluralsight.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.pluralsight.com/docs/getting-started/using-graphql
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.pluralsight.com/schema/content/courseCatalog
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.pluralsight.com/docs/getting-started/using-graphql
+- group: start
+  title: ''
+  type: Quickstart
+  url: https://developer.pluralsight.com/quick-start
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://developer.pluralsight.com/manage-keys
+- group: auth
+  title: ''
+  type: API Keys
+  url: https://developer.pluralsight.com/manage-keys
+- group: other
+  title: ''
+  type: Playground
+  url: https://developer.pluralsight.com/playground
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.pluralsight.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.pluralsight.com/pricing
+- group: start
+  title: ''
+  type: Login
+  url: https://app.pluralsight.com
+- group: company
+  title: ''
+  type: Website
+  url: https://www.pluralsight.com
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/kinlaneapi/pluralsight/overview
 created: '2024'
 description: APIs for the Pluralsight technology skills and engineering intelligence platform, providing access to courses, learning paths, assessments, user progress, channels, teams, and engineering metrics via GraphQL and REST APIs.
 examples:
@@ -870,7 +1023,11 @@ jsonld:
   property_count: 8
   slug: pluralsight-context
 layout: provider
-modified: '2026-04-17'
+mcp_servers:
+- description: 'Pluralsight runs a live, remote Model Context Protocol server at https://mcp.pluralsight.com/mcp. It is a real MCP endpoint, not a marketing page: an unauthenticated JSON-RPC tools/list call returns a'
+  name: Pluralsight MCP Gateway
+  slug: pluralsight-mcp-gateway
+modified: '2026-08-29'
 name: Pluralsight
 nav: Providers
 network: true
@@ -880,7 +1037,7 @@ overview: 'Pluralsight publishes 14 APIs on the [APIs.io](https://apis.io/) netw
   The Pluralsight catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Pluralsight''s developer surface includes authentication, developer portal, getting-started guide, FAQ, code examples, documentation, support, and 15 more developer resources.'
+  Pluralsight''s developer surface includes authentication, developer portal, FAQ, code examples, documentation, support, engineering blog, and 53 more developer resources.'
 plans:
 - name: Pluralsight Plans Pricing
   plan_count: 8
@@ -912,20 +1069,30 @@ rules:
     info: 2
     warn: 9
   slug: pluralsight-spectral-rules
+scopes:
+- name: Pluralsight Scopes
+  scope_count: 0
+  slug: pluralsight-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 48.5
+  band: exemplar
+  composite: 72.4
+  coverage:
+    artifact_dirs: 33
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
-    access_clarity: 44.7
-    commercial_clarity: 44.7
-    contract_governance: 13.6
-    contract_quality: 64.3
-    developer_ergonomics: 31.0
-    discoverability: 74.1
-    governance: 13.6
-    operational_transparency: 18.4
-  previous_composite: 48.5
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 47.0
+    contract_quality: 64.1
+    developer_ergonomics: 67.9
+    discoverability: 81.5
+    governance: 47.0
+    operational_transparency: 39.5
+  previous_composite: 72.4
   provenance:
     agentic_access: derived
     contracts:
@@ -938,9 +1105,9 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 66.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 85.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/screenshots/pluralsight-2026-08-17T124736.png
 security:
@@ -991,5 +1158,5 @@ use_cases:
   name: Developer Productivity
 - description: Track practice exam scores and assessment results for certification readiness.
   name: Certification Tracking
-website: https://developer.pluralsight.com
+website: https://www.pluralsight.com
 ---

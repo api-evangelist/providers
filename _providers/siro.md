@@ -12,7 +12,7 @@ access_model:
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_card: flavored
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -25,15 +25,15 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.2
-  scored_at: '2026-08-26'
+  score: 33.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -55,10 +55,43 @@ apis:
 - description: The Integrations API from Siro — 21 operation(s) for integrations.
   name: Siro Integrations API
   slug: siro-integrations-api
-- description: The Siro Platform API served from the api.siro.ai gateway — 145 operations covering recordings and audio (list, detail, utterances, redacted-audio signed URLs, upload signed URLs, phone-call recording
-  name: Siro Platform API
-  slug: siro-platform-api
-artifact_total: 17
+- description: The Agents API from Siro — 3 operation(s) for agents.
+  name: Siro Agents API
+  slug: siro-agents-api
+- description: The Billing Graph API from Siro — 10 operation(s) for billing graph.
+  name: Siro Billing Graph API
+  slug: siro-billing-graph-api
+- description: The Docs API from Siro — 1 operation(s) for docs.
+  name: Siro Docs API
+  slug: siro-docs-api
+- description: The Halftime API from Siro — 1 operation(s) for halftime.
+  name: Siro Halftime API
+  slug: siro-halftime-api
+- description: The Intercom API from Siro — 1 operation(s) for intercom.
+  name: Siro Intercom API
+  slug: siro-intercom-api
+- description: The Invoices API from Siro — 1 operation(s) for invoices.
+  name: Siro Invoices API
+  slug: siro-invoices-api
+- description: The Jobs API from Siro — 3 operation(s) for jobs.
+  name: Siro Jobs API
+  slug: siro-jobs-api
+- description: The Licenses API from Siro — 1 operation(s) for licenses.
+  name: Siro Licenses API
+  slug: siro-licenses-api
+- description: The Portal API from Siro — 1 operation(s) for portal.
+  name: Siro Portal API
+  slug: siro-portal-api
+- description: The Sessions API from Siro — 4 operation(s) for sessions.
+  name: Siro Sessions API
+  slug: siro-sessions-api
+- description: The Subscription API from Siro — 1 operation(s) for subscription.
+  name: Siro Subscription API
+  slug: siro-subscription-api
+- description: The Suggested Questions API from Siro — 1 operation(s) for suggested questions.
+  name: Siro Suggested Questions API
+  slug: siro-suggested-questions-api
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -76,6 +109,10 @@ collections:
   name: Swagger Audit Integrations API
   slug: open-siro-integrations-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/siro-platform-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -224,10 +261,10 @@ modified: '2026-08-13'
 name: Siro
 nav: Providers
 network: true
-overview: 'Siro publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Core API, Folders API, and 2 more. Tagged areas include Company, Sales, Sales Coaching, Conversation Intelligence, and Field Sales.
+overview: 'Siro publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Core API, Folders API, and 13 more. Tagged areas include Company, Sales, Sales Coaching, Conversation Intelligence, and Field Sales.
 
 
-  Siro''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, authentication, and 27 more developer resources.'
+  Siro''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, engineering blog, authentication, and 28 more developer resources.'
 plans:
 - name: Siro Plans Pricing
   plan_count: 0
@@ -239,18 +276,23 @@ rate_limits:
   slug: siro-rate-limits
 score:
   band: developing
-  composite: 51.8
+  composite: 50.8
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
-    contract_quality: 51.7
+    contract_governance: 18.2
+    contract_quality: 53.4
     developer_ergonomics: 71.4
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 51.8
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -261,8 +303,8 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/siro/refs/heads/main/screenshots/siro-2026-08-17T081908.png
 security:

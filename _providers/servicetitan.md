@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 90
   slug: servicetitan-agentic-access
   summary_line: 90 operations · 38 acting
-api_count: 55
+api_count: 8
 apis:
 - description: Manage marketing campaigns, campaign categories, suppression lists, and attribution data that powers cost-per-lead and cost-per-booked-job reporting. Underpins Marketing Pro email and SMS campaigns.
   name: ServiceTitan Marketing API
@@ -479,6 +479,10 @@ collections:
   name: ServiceTitan Accounting Adjustments Zones API
   slug: open-servicetitan-zones-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/servicetitan-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -745,7 +749,7 @@ overview: 'ServiceTitan publishes 40 APIs on the [APIs.io](https://apis.io/) net
   The ServiceTitan catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ServiceTitan''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, pricing, tooling, and 39 more developer resources.'
+  ServiceTitan''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, pricing, tooling, and 40 more developer resources.'
 random_paper: 16
 rate_limits:
 - limit_count: 2
@@ -770,6 +774,11 @@ scopes:
 score:
   band: developing
   composite: 53.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 40.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
@@ -788,8 +797,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/screenshots/servicetitan-2026-06-20T193732.png
 security:

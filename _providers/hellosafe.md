@@ -23,17 +23,24 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
-- description: Multi-insurer travel-insurance pricing, tracked attributed links and a pre-sale coverage assessment. 4 operations, 8 schemas, HMAC-signed requests.
-  name: HelloSafe Travel Insurance API
-  slug: hellosafe-travel-insurance-api
-- description: Second Atlas surface, declared by the provider alongside the travel API and sharing the same OpenAPI document.
-  name: HelloSafe Coach API
-  slug: hellosafe-coach-api
-artifact_total: 2
+- description: Server-to-server conversion postback.
+  name: HelloSafe Conversion API
+  slug: hellosafe-conversion-api
+- description: Turn a chosen offer into a tracked, attributed subscription link.
+  name: HelloSafe Links API
+  slug: hellosafe-links-api
+- description: Price a trip and read the catalogue vocabulary.
+  name: HelloSafe Quotes API
+  slug: hellosafe-quotes-api
+artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hellosafe-capability-edges.yml
 - group: other
   title: ''
   type: APIsJSON
@@ -61,20 +68,27 @@ modified: '2026-08-25'
 name: HelloSafe
 nav: Providers
 network: true
-overview: 'HelloSafe publishes 2 APIs on the [APIs.io](https://apis.io/) network: Travel Insurance API and Coach API. Tagged areas include Insurance, Travel, Insurtech, Pricing, and Affiliate.'
+overview: 'HelloSafe publishes 3 APIs on the [APIs.io](https://apis.io/) network: Conversion API, Links API, and Quotes API. Tagged areas include travel insurance, insurance distribution, Pricing, and travel.'
 random_paper: 2
 score:
   band: thin
-  composite: 32.0
+  composite: 30.7
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 85.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
-    contract_quality: 59.9
+    contract_quality: 58.3
     developer_ergonomics: 26.2
-    discoverability: 72.2
+    discoverability: 63.0
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 32.2
   provenance:
     contracts:
       callable: 100.0
@@ -87,15 +101,14 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 12.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 slug: hellosafe
 tags:
-- Insurance
-- Travel
-- Insurtech
+- travel insurance
+- insurance distribution
 - Pricing
-- Affiliate
-- Distribution
+- travel
 website: https://hellosafe.com
 ---

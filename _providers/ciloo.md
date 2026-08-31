@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
 - description: OAuth 1.0a (HMAC-SHA1) REST API on the ciloo/v1 namespace of a Ciloo brand store. Read, add, update and remove cart items; mint per-customer OAuth credentials from admin credentials; and issue one-hou
   name: Ciloo Cart API
@@ -32,7 +32,13 @@ apis:
 - description: Bidirectional order integration between Ciloo and its production partners. Ciloo POSTs a print order — items, print components with artwork paths and substrate attributes, and shipments with carrier a
   name: Ciloo Printer API Integration
   slug: ciloo-printer-api
-artifact_total: 9
+- description: OAuth key provisioning and auto-login token issuance.
+  name: Ciloo Authentication API
+  slug: ciloo-authentication-api
+- description: Customer lifecycle via the WooCommerce REST API v3 namespace, as documented by Ciloo.
+  name: Ciloo Customers API
+  slug: ciloo-customers-api
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Ciloo Printer Webhooks
@@ -159,7 +165,7 @@ modified: '2026-08-12'
 name: Ciloo
 nav: Providers
 network: true
-overview: 'Ciloo publishes 1 API on the [APIs.io](https://apis.io/) network: Cart API. Tagged areas include Company, Printing, Branded Merchandise, Promotional Products, and Print on Demand.
+overview: 'Ciloo publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cart API, Authentication API, and Customers API. Tagged areas include Company, Printing, Branded Merchandise, Promotional Products, and Print On Demand.
 
 
   The Ciloo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -177,18 +183,23 @@ rate_limits:
   slug: ciloo-rate-limits
 score:
   band: thin
-  composite: 31.5
+  composite: 30.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 22.6
+    contract_governance: 4.5
+    contract_quality: 22.1
     developer_ergonomics: 58.9
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 74.1
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 31.5
+  previous_composite: 30.5
   provenance:
     conformance: derived
     contracts:
@@ -198,8 +209,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ciloo/refs/heads/main/screenshots/ciloo-2026-08-17T080820.png
 security:
@@ -217,7 +228,7 @@ tags:
 - Printing
 - Branded Merchandise
 - Promotional Products
-- Print on Demand
+- Print On Demand
 - E-Commerce
 - Digital Asset Management
 - Procurement

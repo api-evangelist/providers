@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: cerebras-systems-agentic-access
   summary_line: 8 operations · 3 acting
-api_count: 5
+api_count: 2
 apis:
 - description: The Chat API from Cerebras Systems — 1 operation(s) for chat.
   name: Cerebras Systems Chat API
@@ -267,7 +267,7 @@ modified: '2026-07-18'
 name: Cerebras Systems
 nav: Providers
 network: true
-overview: 'Cerebras Systems publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Models API, and 2 more. Tagged areas include Company, AI Infrastructure, Artificial Intelligence, Machine-Learning, and Inference.
+overview: 'Cerebras Systems publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Models API, and 2 more. Tagged areas include Company, Ai Infrastructure, Artificial Intelligence, Machine-Learning, and Inference.
 
 
   Cerebras Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
@@ -282,18 +282,23 @@ rate_limits:
   slug: cerebras-systems-rate-limits
 score:
   band: strong
-  composite: 63.8
-  delta: 0.0
+  composite: 61.8
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 53.1
     developer_ergonomics: 75.6
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 63.8
+  previous_composite: 62.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -304,8 +309,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/screenshots/cerebras-systems-2026-07-25T204949.png
 security:
@@ -324,7 +329,7 @@ security:
 slug: cerebras-systems
 tags:
 - Company
-- AI Infrastructure
+- Ai Infrastructure
 - Artificial Intelligence
 - Machine-Learning
 - Inference

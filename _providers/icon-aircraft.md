@@ -23,20 +23,45 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: Anonymous, read-only access to the editorial and marketing content behind www.iconaircraft.com via the WordPress core REST API (WordPress 6.7.1) — news posts, marketing and policy pages, the media lib
-  name: ICON Aircraft Content API
-  slug: icon-aircraft-content-api
 - description: Anonymous, read-only JSON access to the Shop ICON merchandise storefront at store.iconaircraft.com — products, variants, collections, predictive search, session cart and store metadata. The store's ow
   name: Shop ICON Storefront API
   slug: icon-aircraft-store-api
 - description: 'A live, anonymously callable Model Context Protocol endpoint implementing the Universal Commerce Protocol 2026-04-08 for the Shop ICON storefront. An unauthenticated tools/list returned HTTP 200 with '
   name: Shop ICON UCP/MCP Server
   slug: icon-aircraft-ucp-mcp
-artifact_total: 9
+- description: Products and product variants.
+  name: ICON Aircraft Catalog API
+  slug: icon-aircraft-catalog-api
+- description: Merchandising collections.
+  name: ICON Aircraft Collections API
+  slug: icon-aircraft-collections-api
+- description: Self-describing metadata about the content types this site exposes.
+  name: ICON Aircraft Discovery API
+  slug: icon-aircraft-discovery-api
+- description: The site media library — photography, video posters and documents.
+  name: ICON Aircraft Media API
+  slug: icon-aircraft-media-api
+- description: Marketing, product, policy and landing pages.
+  name: ICON Aircraft Pages API
+  slug: icon-aircraft-pages-api
+- description: ICON Aircraft news and press releases.
+  name: ICON Aircraft Posts API
+  slug: icon-aircraft-posts-api
+- description: Cross-type site search.
+  name: ICON Aircraft Search API
+  slug: icon-aircraft-search-api
+- description: Categories and tags applied to posts.
+  name: ICON Aircraft Taxonomy API
+  slug: icon-aircraft-taxonomy-api
+artifact_total: 16
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/icon-aircraft-content-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -150,10 +175,10 @@ modified: '2026-08-22'
 name: ICON Aircraft
 nav: Providers
 network: true
-overview: 'ICON Aircraft publishes 2 APIs on the [APIs.io](https://apis.io/) network: Content API and Shop ICON Storefront API. Tagged areas include Company, Aerospace, Aviation, Aircraft Manufacturing, and Light Sport Aircraft.
+overview: 'ICON Aircraft publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Shop ICON Storefront API, Catalog API, Collections API, and 6 more. Tagged areas include Company, Aerospace, Aviation, Aircraft Manufacturing, and Light Sport Aircraft.
 
 
-  ICON Aircraft''s developer surface includes documentation, support, engineering blog, pricing, authentication, and 20 more developer resources.'
+  ICON Aircraft''s developer surface includes documentation, support, engineering blog, pricing, authentication, and 21 more developer resources.'
 plans:
 - name: Icon Aircraft Plans Pricing
   plan_count: 0
@@ -170,18 +195,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 38.0
-  delta: 0.0
+  composite: 34.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 30.3
-    contract_quality: 51.0
+    contract_governance: 18.2
+    contract_quality: 49.1
     developer_ergonomics: 30.4
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 38.0
+  previous_composite: 35.0
   provenance:
     conformance: first-party
     contracts:
@@ -191,8 +221,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

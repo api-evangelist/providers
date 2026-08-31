@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: marqo-agentic-access
   summary_line: 16 operations · 8 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Add, update, get, and delete documents in an index.
   name: Marqo Documents API
@@ -261,7 +261,7 @@ modified: '2026-05-25'
 name: Marqo
 nav: Providers
 network: true
-overview: 'Marqo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Embeddings API, Indexes API, and 4 more. Tagged areas include Vector Database, Vector Search, Multi-Modal, Semantic Search, and Embeddings.
+overview: 'Marqo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Documents API, Embeddings API, Indexes API, and 4 more. Tagged areas include Vector Database, Vector Search, Multimodal, Semantic Search, and Embeddings.
 
 
   Marqo''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, tooling, code examples, and 23 more developer resources.'
@@ -275,19 +275,27 @@ rate_limits:
   name: Marqo Rate Limits
   slug: marqo-rate-limits
 score:
-  band: thin
-  composite: 37.7
-  delta: 1.0
+  band: developing
+  composite: 43.4
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 5.7
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 49.7
     developer_ergonomics: 42.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 36.7
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -295,9 +303,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/screenshots/marqo-2026-06-20T185006.png
 security:
 - kind: authentication
@@ -312,7 +320,7 @@ slug: marqo
 tags:
 - Vector Database
 - Vector Search
-- Multi-Modal
+- Multimodal
 - Semantic Search
 - Embeddings
 - Artificial Intelligence

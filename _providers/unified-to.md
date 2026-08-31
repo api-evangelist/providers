@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 830
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1346
   slug: unified-to-agentic-access
   summary_line: 1346 operations · 830 acting
-api_count: 140
+api_count: 11
 apis:
 - description: Unified APIs for HR, ATS, CRM & Authentication. One API to access 360+ integrations across 22 categories with real-time pass-through architecture.
   name: Unified.to
@@ -50,30 +50,12 @@ apis:
 - description: Unified authentication API supporting OAuth 2 OpenID with 140+ identity provider integrations for adding user logins and signups.
   name: Unified.to Authentication API
   slug: auth-api
-- description: The account API from Unified.to — 2 operation(s) for account.
-  name: Unified.to account API
-  slug: unified-to-account-api
 - description: The accounting API from Unified.to — 38 operation(s) for accounting.
   name: Unified.to accounting API
   slug: unified-to-accounting-api
-- description: The activity API from Unified.to — 4 operation(s) for activity.
-  name: Unified.to activity API
-  slug: unified-to-activity-api
-- description: The ad API from Unified.to — 2 operation(s) for ad.
-  name: Unified.to ad API
-  slug: unified-to-ad-api
 - description: The ads API from Unified.to — 17 operation(s) for ads.
   name: Unified.to ads API
   slug: unified-to-ads-api
-- description: The apicall API from Unified.to — 2 operation(s) for apicall.
-  name: Unified.to apicall API
-  slug: unified-to-apicall-api
-- description: The application API from Unified.to — 2 operation(s) for application.
-  name: Unified.to application API
-  slug: unified-to-application-api
-- description: The applicationstatus API from Unified.to — 1 operation(s) for applicationstatus.
-  name: Unified.to applicationstatus API
-  slug: unified-to-applicationstatus-api
 - description: The assessment API from Unified.to — 3 operation(s) for assessment.
   name: Unified.to assessment API
   slug: unified-to-assessment-api
@@ -83,387 +65,78 @@ apis:
 - description: The auth API from Unified.to — 2 operation(s) for auth.
   name: Unified.to auth API
   slug: unified-to-auth-api
-- description: The availability API from Unified.to — 1 operation(s) for availability.
-  name: Unified.to availability API
-  slug: unified-to-availability-api
-- description: The balancesheet API from Unified.to — 2 operation(s) for balancesheet.
-  name: Unified.to balancesheet API
-  slug: unified-to-balancesheet-api
-- description: The bankaccount API from Unified.to — 2 operation(s) for bankaccount.
-  name: Unified.to bankaccount API
-  slug: unified-to-bankaccount-api
-- description: The benefit API from Unified.to — 2 operation(s) for benefit.
-  name: Unified.to benefit API
-  slug: unified-to-benefit-api
-- description: The bill API from Unified.to — 2 operation(s) for bill.
-  name: Unified.to bill API
-  slug: unified-to-bill-api
-- description: The branch API from Unified.to — 2 operation(s) for branch.
-  name: Unified.to branch API
-  slug: unified-to-branch-api
-- description: The busy API from Unified.to — 1 operation(s) for busy.
-  name: Unified.to busy API
-  slug: unified-to-busy-api
 - description: The calendar API from Unified.to — 11 operation(s) for calendar.
   name: Unified.to calendar API
   slug: unified-to-calendar-api
-- description: The call API from Unified.to — 2 operation(s) for call.
-  name: Unified.to call API
-  slug: unified-to-call-api
-- description: The campaign API from Unified.to — 4 operation(s) for campaign.
-  name: Unified.to campaign API
-  slug: unified-to-campaign-api
-- description: The candidate API from Unified.to — 2 operation(s) for candidate.
-  name: Unified.to candidate API
-  slug: unified-to-candidate-api
-- description: The carrier API from Unified.to — 2 operation(s) for carrier.
-  name: Unified.to carrier API
-  slug: unified-to-carrier-api
-- description: The cashflow API from Unified.to — 2 operation(s) for cashflow.
-  name: Unified.to cashflow API
-  slug: unified-to-cashflow-api
-- description: The category API from Unified.to — 4 operation(s) for category.
-  name: Unified.to category API
-  slug: unified-to-category-api
-- description: The change API from Unified.to — 2 operation(s) for change.
-  name: Unified.to change API
-  slug: unified-to-change-api
-- description: The channel API from Unified.to — 2 operation(s) for channel.
-  name: Unified.to channel API
-  slug: unified-to-channel-api
-- description: The class API from Unified.to — 2 operation(s) for class.
-  name: Unified.to class API
-  slug: unified-to-class-api
-- description: The collection API from Unified.to — 4 operation(s) for collection.
-  name: Unified.to collection API
-  slug: unified-to-collection-api
-- description: The comment API from Unified.to — 6 operation(s) for comment.
-  name: Unified.to comment API
-  slug: unified-to-comment-api
 - description: The commerce API from Unified.to — 17 operation(s) for commerce.
   name: Unified.to commerce API
   slug: unified-to-commerce-api
-- description: The commit API from Unified.to — 2 operation(s) for commit.
-  name: Unified.to commit API
-  slug: unified-to-commit-api
-- description: The company API from Unified.to — 7 operation(s) for company.
-  name: Unified.to company API
-  slug: unified-to-company-api
-- description: The connection API from Unified.to — 2 operation(s) for connection.
-  name: Unified.to connection API
-  slug: unified-to-connection-api
-- description: The contact API from Unified.to — 6 operation(s) for contact.
-  name: Unified.to contact API
-  slug: unified-to-contact-api
-- description: The content API from Unified.to — 2 operation(s) for content.
-  name: Unified.to content API
-  slug: unified-to-content-api
-- description: The course API from Unified.to — 2 operation(s) for course.
-  name: Unified.to course API
-  slug: unified-to-course-api
-- description: The creative API from Unified.to — 2 operation(s) for creative.
-  name: Unified.to creative API
-  slug: unified-to-creative-api
-- description: The creditmemo API from Unified.to — 2 operation(s) for creditmemo.
-  name: Unified.to creditmemo API
-  slug: unified-to-creditmemo-api
 - description: The crm API from Unified.to — 12 operation(s) for crm.
   name: Unified.to crm API
   slug: unified-to-crm-api
-- description: The customer API from Unified.to — 2 operation(s) for customer.
-  name: Unified.to customer API
-  slug: unified-to-customer-api
-- description: The deal API from Unified.to — 2 operation(s) for deal.
-  name: Unified.to deal API
-  slug: unified-to-deal-api
-- description: The deduction API from Unified.to — 2 operation(s) for deduction.
-  name: Unified.to deduction API
-  slug: unified-to-deduction-api
-- description: The device API from Unified.to — 2 operation(s) for device.
-  name: Unified.to device API
-  slug: unified-to-device-api
-- description: The document API from Unified.to — 4 operation(s) for document.
-  name: Unified.to document API
-  slug: unified-to-document-api
-- description: The embedding API from Unified.to — 1 operation(s) for embedding.
-  name: Unified.to embedding API
-  slug: unified-to-embedding-api
-- description: The employee API from Unified.to — 2 operation(s) for employee.
-  name: Unified.to employee API
-  slug: unified-to-employee-api
 - description: The enrich API from Unified.to — 2 operation(s) for enrich.
   name: Unified.to enrich API
   slug: unified-to-enrich-api
-- description: The environment API from Unified.to — 2 operation(s) for environment.
-  name: Unified.to environment API
-  slug: unified-to-environment-api
-- description: The event API from Unified.to — 5 operation(s) for event.
-  name: Unified.to event API
-  slug: unified-to-event-api
-- description: The expense API from Unified.to — 2 operation(s) for expense.
-  name: Unified.to expense API
-  slug: unified-to-expense-api
-- description: The file API from Unified.to — 2 operation(s) for file.
-  name: Unified.to file API
-  slug: unified-to-file-api
-- description: The form API from Unified.to — 2 operation(s) for form.
-  name: Unified.to form API
-  slug: unified-to-form-api
 - description: The forms API from Unified.to — 4 operation(s) for forms.
   name: Unified.to forms API
   slug: unified-to-forms-api
 - description: The genai API from Unified.to — 4 operation(s) for genai.
   name: Unified.to genai API
   slug: unified-to-genai-api
-- description: The group API from Unified.to — 6 operation(s) for group.
-  name: Unified.to group API
-  slug: unified-to-group-api
 - description: The hris API from Unified.to — 22 operation(s) for hris.
   name: Unified.to hris API
   slug: unified-to-hris-api
-- description: The insertionorder API from Unified.to — 2 operation(s) for insertionorder.
-  name: Unified.to insertionorder API
-  slug: unified-to-insertionorder-api
-- description: The instructor API from Unified.to — 2 operation(s) for instructor.
-  name: Unified.to instructor API
-  slug: unified-to-instructor-api
-- description: The integration API from Unified.to — 3 operation(s) for integration.
-  name: Unified.to integration API
-  slug: unified-to-integration-api
-- description: The interview API from Unified.to — 2 operation(s) for interview.
-  name: Unified.to interview API
-  slug: unified-to-interview-api
-- description: The inventory API from Unified.to — 2 operation(s) for inventory.
-  name: Unified.to inventory API
-  slug: unified-to-inventory-api
-- description: The invoice API from Unified.to — 2 operation(s) for invoice.
-  name: Unified.to invoice API
-  slug: unified-to-invoice-api
-- description: The issue API from Unified.to — 2 operation(s) for issue.
-  name: Unified.to issue API
-  slug: unified-to-issue-api
-- description: The item API from Unified.to — 2 operation(s) for item.
-  name: Unified.to item API
-  slug: unified-to-item-api
-- description: The itemvariant API from Unified.to — 2 operation(s) for itemvariant.
-  name: Unified.to itemvariant API
-  slug: unified-to-itemvariant-api
-- description: The job API from Unified.to — 2 operation(s) for job.
-  name: Unified.to job API
-  slug: unified-to-job-api
-- description: The journal API from Unified.to — 2 operation(s) for journal.
-  name: Unified.to journal API
-  slug: unified-to-journal-api
 - description: The kms API from Unified.to — 6 operation(s) for kms.
   name: Unified.to kms API
   slug: unified-to-kms-api
-- description: The label API from Unified.to — 2 operation(s) for label.
-  name: Unified.to label API
-  slug: unified-to-label-api
-- description: The lead API from Unified.to — 2 operation(s) for lead.
-  name: Unified.to lead API
-  slug: unified-to-lead-api
-- description: The link API from Unified.to — 4 operation(s) for link.
-  name: Unified.to link API
-  slug: unified-to-link-api
-- description: The list API from Unified.to — 2 operation(s) for list.
-  name: Unified.to list API
-  slug: unified-to-list-api
 - description: The lms API from Unified.to — 14 operation(s) for lms.
   name: Unified.to lms API
   slug: unified-to-lms-api
-- description: The location API from Unified.to — 4 operation(s) for location.
-  name: Unified.to location API
-  slug: unified-to-location-api
-- description: The login API from Unified.to — 1 operation(s) for login.
-  name: Unified.to login API
-  slug: unified-to-login-api
 - description: The martech API from Unified.to — 7 operation(s) for martech.
   name: Unified.to martech API
   slug: unified-to-martech-api
-- description: The member API from Unified.to — 2 operation(s) for member.
-  name: Unified.to member API
-  slug: unified-to-member-api
-- description: The message API from Unified.to — 2 operation(s) for message.
-  name: Unified.to message API
-  slug: unified-to-message-api
 - description: The messaging API from Unified.to — 5 operation(s) for messaging.
   name: Unified.to messaging API
   slug: unified-to-messaging-api
 - description: The metadata API from Unified.to — 2 operation(s) for metadata.
   name: Unified.to metadata API
   slug: unified-to-metadata-api
-- description: The model API from Unified.to — 2 operation(s) for model.
-  name: Unified.to model API
-  slug: unified-to-model-api
-- description: The note API from Unified.to — 2 operation(s) for note.
-  name: Unified.to note API
-  slug: unified-to-note-api
-- description: The order API from Unified.to — 3 operation(s) for order.
-  name: Unified.to order API
-  slug: unified-to-order-api
-- description: The organization API from Unified.to — 6 operation(s) for organization.
-  name: Unified.to organization API
-  slug: unified-to-organization-api
-- description: The package API from Unified.to — 4 operation(s) for package.
-  name: Unified.to package API
-  slug: unified-to-package-api
-- description: The page API from Unified.to — 2 operation(s) for page.
-  name: Unified.to page API
-  slug: unified-to-page-api
 - description: The passthrough API from Unified.to — 1 operation(s) for passthrough.
   name: Unified.to passthrough API
   slug: unified-to-passthrough-api
 - description: The payment API from Unified.to — 10 operation(s) for payment.
   name: Unified.to payment API
   slug: unified-to-payment-api
-- description: The payout API from Unified.to — 2 operation(s) for payout.
-  name: Unified.to payout API
-  slug: unified-to-payout-api
-- description: The payslip API from Unified.to — 2 operation(s) for payslip.
-  name: Unified.to payslip API
-  slug: unified-to-payslip-api
-- description: The person API from Unified.to — 1 operation(s) for person.
-  name: Unified.to person API
-  slug: unified-to-person-api
-- description: The pipeline API from Unified.to — 2 operation(s) for pipeline.
-  name: Unified.to pipeline API
-  slug: unified-to-pipeline-api
-- description: The profitloss API from Unified.to — 2 operation(s) for profitloss.
-  name: Unified.to profitloss API
-  slug: unified-to-profitloss-api
-- description: The project API from Unified.to — 2 operation(s) for project.
-  name: Unified.to project API
-  slug: unified-to-project-api
-- description: The promoted API from Unified.to — 2 operation(s) for promoted.
-  name: Unified.to promoted API
-  slug: unified-to-promoted-api
-- description: The prompt API from Unified.to — 1 operation(s) for prompt.
-  name: Unified.to prompt API
-  slug: unified-to-prompt-api
-- description: The pullrequest API from Unified.to — 2 operation(s) for pullrequest.
-  name: Unified.to pullrequest API
-  slug: unified-to-pullrequest-api
-- description: The purchaseorder API from Unified.to — 2 operation(s) for purchaseorder.
-  name: Unified.to purchaseorder API
-  slug: unified-to-purchaseorder-api
-- description: The rate API from Unified.to — 1 operation(s) for rate.
-  name: Unified.to rate API
-  slug: unified-to-rate-api
-- description: The recording API from Unified.to — 4 operation(s) for recording.
-  name: Unified.to recording API
-  slug: unified-to-recording-api
-- description: The refund API from Unified.to — 2 operation(s) for refund.
-  name: Unified.to refund API
-  slug: unified-to-refund-api
 - description: The repo API from Unified.to — 10 operation(s) for repo.
   name: Unified.to repo API
   slug: unified-to-repo-api
-- description: The report API from Unified.to — 4 operation(s) for report.
-  name: Unified.to report API
-  slug: unified-to-report-api
-- description: The repository API from Unified.to — 2 operation(s) for repository.
-  name: Unified.to repository API
-  slug: unified-to-repository-api
-- description: The request API from Unified.to — 2 operation(s) for request.
-  name: Unified.to request API
-  slug: unified-to-request-api
-- description: The reservation API from Unified.to — 2 operation(s) for reservation.
-  name: Unified.to reservation API
-  slug: unified-to-reservation-api
-- description: The review API from Unified.to — 2 operation(s) for review.
-  name: Unified.to review API
-  slug: unified-to-review-api
-- description: The saleschannel API from Unified.to — 2 operation(s) for saleschannel.
-  name: Unified.to saleschannel API
-  slug: unified-to-saleschannel-api
-- description: The salesorder API from Unified.to — 2 operation(s) for salesorder.
-  name: Unified.to salesorder API
-  slug: unified-to-salesorder-api
 - description: The scim API from Unified.to — 4 operation(s) for scim.
   name: Unified.to scim API
   slug: unified-to-scim-api
-- description: The scorecard API from Unified.to — 2 operation(s) for scorecard.
-  name: Unified.to scorecard API
-  slug: unified-to-scorecard-api
-- description: The shipment API from Unified.to — 2 operation(s) for shipment.
-  name: Unified.to shipment API
-  slug: unified-to-shipment-api
 - description: The shipping API from Unified.to — 8 operation(s) for shipping.
   name: Unified.to shipping API
   slug: unified-to-shipping-api
-- description: The signatory API from Unified.to — 2 operation(s) for signatory.
-  name: Unified.to signatory API
-  slug: unified-to-signatory-api
 - description: The signing API from Unified.to — 6 operation(s) for signing.
   name: Unified.to signing API
   slug: unified-to-signing-api
-- description: The space API from Unified.to — 2 operation(s) for space.
-  name: Unified.to space API
-  slug: unified-to-space-api
 - description: The storage API from Unified.to — 2 operation(s) for storage.
   name: Unified.to storage API
   slug: unified-to-storage-api
-- description: The student API from Unified.to — 2 operation(s) for student.
-  name: Unified.to student API
-  slug: unified-to-student-api
-- description: The submission API from Unified.to — 2 operation(s) for submission.
-  name: Unified.to submission API
-  slug: unified-to-submission-api
-- description: The subscription API from Unified.to — 2 operation(s) for subscription.
-  name: Unified.to subscription API
-  slug: unified-to-subscription-api
-- description: The target API from Unified.to — 2 operation(s) for target.
-  name: Unified.to target API
-  slug: unified-to-target-api
 - description: The task API from Unified.to — 8 operation(s) for task.
   name: Unified.to task API
   slug: unified-to-task-api
-- description: The taxrate API from Unified.to — 2 operation(s) for taxrate.
-  name: Unified.to taxrate API
-  slug: unified-to-taxrate-api
-- description: The template API from Unified.to — 2 operation(s) for template.
-  name: Unified.to template API
-  slug: unified-to-template-api
-- description: The ticket API from Unified.to — 2 operation(s) for ticket.
-  name: Unified.to ticket API
-  slug: unified-to-ticket-api
 - description: The ticketing API from Unified.to — 8 operation(s) for ticketing.
   name: Unified.to ticketing API
   slug: unified-to-ticketing-api
-- description: The timeoff API from Unified.to — 2 operation(s) for timeoff.
-  name: Unified.to timeoff API
-  slug: unified-to-timeoff-api
-- description: The timeshift API from Unified.to — 2 operation(s) for timeshift.
-  name: Unified.to timeshift API
-  slug: unified-to-timeshift-api
-- description: The tracking API from Unified.to — 1 operation(s) for tracking.
-  name: Unified.to tracking API
-  slug: unified-to-tracking-api
-- description: The transaction API from Unified.to — 2 operation(s) for transaction.
-  name: Unified.to transaction API
-  slug: unified-to-transaction-api
-- description: The trialbalance API from Unified.to — 2 operation(s) for trialbalance.
-  name: Unified.to trialbalance API
-  slug: unified-to-trialbalance-api
 - description: The uc API from Unified.to — 8 operation(s) for uc.
   name: Unified.to uc API
   slug: unified-to-uc-api
 - description: The unified API from Unified.to — 14 operation(s) for unified.
   name: Unified.to unified API
   slug: unified-to-unified-api
-- description: The user API from Unified.to — 2 operation(s) for user.
-  name: Unified.to user API
-  slug: unified-to-user-api
 - description: The verification API from Unified.to — 4 operation(s) for verification.
   name: Unified.to verification API
   slug: unified-to-verification-api
-- description: The webhook API from Unified.to — 3 operation(s) for webhook.
-  name: Unified.to webhook API
-  slug: unified-to-webhook-api
-- description: The webinar API from Unified.to — 2 operation(s) for webinar.
-  name: Unified.to webinar API
-  slug: unified-to-webinar-api
 arazzos:
 - description: Create an accounting contact (customer), bill them with an invoice, and read the invoice back.
   name: Unified.to Accounting Invoice From Contact
@@ -492,7 +165,7 @@ arazzos:
 - description: Look up an employee, file a time-off request for them, then list their time-off records.
   name: Unified.to HRIS Time-Off Request
   slug: unified-to-hris-timeoff-request-workflow
-artifact_total: 1577
+artifact_total: 1468
 collections:
 - collection_type: postman
   name: Unified.to account API
@@ -4922,7 +4595,7 @@ modified: '2026-05-19'
 name: Unified.to
 nav: Providers
 network: true
-overview: 'Unified.to publishes 138 APIs on the [APIs.io](https://apis.io/) network, including account API, accounting API, activity API, and 135 more. Tagged areas include Integration and Unified-API.
+overview: 'Unified.to publishes 29 APIs on the [APIs.io](https://apis.io/) network, including accounting API, ads API, assessment API, and 26 more. Tagged areas include Integration and Unified-API.
 
 
   The Unified.to catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -4962,18 +4635,23 @@ rules:
   slug: unified-to-spectral-rules
 score:
   band: strong
-  composite: 61.2
-  delta: 0.8
+  composite: 61.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 28.8
-    contract_quality: 69.4
+    contract_quality: 71.4
     developer_ergonomics: 69.0
     discoverability: 57.4
     governance: 28.8
     operational_transparency: 55.3
-  previous_composite: 60.4
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     contracts:
@@ -4981,8 +4659,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 138
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unified-to/refs/heads/main/screenshots/unified-to-2026-06-20T200106.png
 security:

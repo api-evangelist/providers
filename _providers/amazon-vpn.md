@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1
   slug: amazon-vpn-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The AWS VPN API (part of the Amazon EC2 API) provides programmatic access to create and manage VPN connections, customer gateways, virtual private gateways, and Client VPN endpoints. It enables config
   name: AWS VPN API
@@ -62,6 +62,10 @@ collections:
   name: AWS VPN API (Amazon EC2 Query API subset)
   slug: open-amazon-vpn
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-vpn-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -166,7 +170,7 @@ overview: 'Amazon VPN publishes 1 API on the [APIs.io](https://apis.io/) network
   The Amazon VPN catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Amazon VPN''s developer surface includes authentication, developer portal, documentation, developer console, support, signup flow, and 12 more developer resources.'
+  Amazon VPN''s developer surface includes authentication, developer portal, documentation, developer console, support, signup flow, and 13 more developer resources.'
 plans:
 - name: Amazon Vpn Plans Pricing
   plan_count: 3
@@ -191,7 +195,12 @@ rules:
 score:
   band: developing
   composite: 52.4
-  delta: 5.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 60.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -201,7 +210,7 @@ score:
     discoverability: 59.3
     governance: 26.5
     operational_transparency: 26.3
-  previous_composite: 46.5
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     contracts:
@@ -209,9 +218,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/screenshots/amazon-vpn-2026-06-20T171844.png
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -427,18 +427,23 @@ scopes:
   summary_line: 7 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 29.6
-  delta: 2.1
+  composite: 31.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
-    contract_quality: 24.8
+    contract_quality: 32.0
     developer_ergonomics: 54.8
     discoverability: 50.0
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 27.5
+  previous_composite: 31.4
   provenance:
     agentic_access: derived
     contracts:
@@ -446,8 +451,8 @@ score:
       derived: 10
       marker_coverage: 100.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

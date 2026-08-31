@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -42,17 +42,8 @@ agentic_access:
   operation_count: 42
   slug: paymob-agentic-access
   summary_line: 42 operations · 32 acting
-api_count: 18
+api_count: 2
 apis:
-- description: The v1 Intentions API is Paymob's modern entry point for payment acceptance. The merchant backend creates an intention with the secret key and an array of payment_methods (integration IDs or named met
-  name: Paymob Intentions API
-  slug: paymob-intentions-api
-- description: The Subscriptions Module manages subscription plans (create, list, update, suspend, resume) and per-customer subscriptions billed against tokenised cards. Lifecycle operations cover suspend, resume, c
-  name: Paymob Subscriptions API
-  slug: paymob-subscriptions-api
-- description: 'Tokenisation surface for the Paymob "Pay with saved card" flow. Lists and deletes tokenised cards and runs both customer-initiated (CIT) and merchant-initiated (MIT) transactions against saved tokens '
-  name: Paymob Card Tokens API
-  slug: paymob-card-tokens-api
 - description: The Accounts API from Paymob — 1 operation(s) for accounts.
   name: Paymob Accounts API
   slug: paymob-accounts-api
@@ -62,9 +53,6 @@ apis:
 - description: The Capture API from Paymob — 3 operation(s) for capture.
   name: Paymob Capture API
   slug: paymob-capture-api
-- description: The Checkout API from Paymob — 1 operation(s) for checkout.
-  name: Paymob Checkout API
-  slug: paymob-checkout-api
 - description: The Disbursement API from Paymob — 4 operation(s) for disbursement.
   name: Paymob Disbursement API
   slug: paymob-disbursement-api
@@ -80,25 +68,13 @@ apis:
 - description: The Payments API from Paymob — 1 operation(s) for payments.
   name: Paymob Payments API
   slug: paymob-payments-api
-- description: The Refund API from Paymob — 3 operation(s) for refund.
-  name: Paymob Refund API
-  slug: paymob-refund-api
-- description: The Saved Card Payments API from Paymob — 2 operation(s) for saved card payments.
-  name: Paymob Saved Card Payments API
-  slug: paymob-saved-card-payments-api
-- description: The Subscription Plans API from Paymob — 4 operation(s) for subscription plans.
-  name: Paymob Subscription Plans API
-  slug: paymob-subscription-plans-api
 - description: The Topup API from Paymob — 2 operation(s) for topup.
   name: Paymob Topup API
   slug: paymob-topup-api
 - description: The Transactions API from Paymob — 2 operation(s) for transactions.
   name: Paymob Transactions API
   slug: paymob-transactions-api
-- description: The Void API from Paymob — 3 operation(s) for void.
-  name: Paymob Void API
-  slug: paymob-void-api
-artifact_total: 115
+artifact_total: 107
 collections:
 - collection_type: postman
   name: Paymob Accept Legacy (v2) Accounts API
@@ -497,7 +473,7 @@ modified: '2026-05-24'
 name: Paymob
 nav: Providers
 network: true
-overview: 'Paymob publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Intentions API, Subscriptions API, Card Tokens API, and 15 more. Tagged areas include Payments, Payment Gateway, Fintech, MENA, and MENAP.
+overview: 'Paymob publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Capture API, and 7 more. Tagged areas include Payments, Payment Gateway, Fintech, MENA, and MENAP.
 
 
   The Paymob catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -537,18 +513,23 @@ rules:
   slug: paymob-rules
 score:
   band: strong
-  composite: 62.5
-  delta: 0.9
+  composite: 61.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 36.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 13.6
-    contract_quality: 64.1
+    contract_quality: 63.9
     developer_ergonomics: 78.6
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 61.6
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     contracts:
@@ -562,8 +543,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/screenshots/paymob-2026-06-20T191508.png
 security:

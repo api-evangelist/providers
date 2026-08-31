@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 75
   slug: oura-agentic-access
   summary_line: 75 operations · 4 acting
-api_count: 21
+api_count: 1
 apis:
 - description: The Daily Activity scope includes daily activity summary values and detailed activity levels. Activity levels are expressed in [metabolic equivalent of task minutes](https://en.wikipedia.org/wiki/Meta
   name: Oura Ring Daily Activity Routes API
@@ -396,18 +396,23 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: developing
-  composite: 53.7
-  delta: 2.6
+  composite: 53.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 29.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 25.0
     contract_quality: 70.4
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 52.6
-  previous_composite: 51.1
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     contracts:
@@ -421,8 +426,8 @@ score:
     regime: Health
     regime_id: health
     score: 56.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oura/refs/heads/main/screenshots/oura-2026-06-20T191225.png
 security:

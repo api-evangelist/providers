@@ -23,18 +23,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: 'The Platform Model API is Rose Rocket''s single public REST surface. Rather than a resource-per-endpoint design, it exposes 19 operations over a generic object model: create, read, update, delete, upse'
-  name: Rose Rocket Platform Model API
-  slug: rose-rocket-platform-model-api
-artifact_total: 8
+- description: The Boards API from Rose Rocket — 1 operation(s) for boards.
+  name: Rose Rocket Boards API
+  slug: rose-rocket-boards-api
+- description: The Events API from Rose Rocket — 1 operation(s) for events.
+  name: Rose Rocket Events API
+  slug: rose-rocket-events-api
+- description: The Object Records API from Rose Rocket — 6 operation(s) for object records.
+  name: Rose Rocket Object Records API
+  slug: rose-rocket-object-records-api
+- description: The User Groups API from Rose Rocket — 3 operation(s) for user groups.
+  name: Rose Rocket User Groups API
+  slug: rose-rocket-user-groups-api
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Rose Rocket Webhooks
   slug: rose-rocket-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/rose-rocket-platform-model-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -192,13 +205,13 @@ modified: '2026-08-26'
 name: Rose Rocket
 nav: Providers
 network: true
-overview: 'Rose Rocket publishes 1 API on the [APIs.io](https://apis.io/) network: Platform Model API. Tagged areas include Transportation, Logistics, Freight, Trucking, and Transportation Management System.
+overview: 'Rose Rocket publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Boards API, Events API, Object Records API, and 1 more. Tagged areas include Transportation, Logistics, freight, trucking, and transportation-management-system.
 
 
   The Rose Rocket catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Rose Rocket''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 30 more developer resources.'
+  Rose Rocket''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 31 more developer resources.'
 plans:
 - name: Rose Rocket Plans Pricing
   plan_count: 2
@@ -214,17 +227,24 @@ scopes:
   slug: rose-rocket-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 54.7
+  band: developing
+  composite: 52.2
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
-    contract_governance: 30.3
-    contract_quality: 49.1
+    contract_governance: 18.2
+    contract_quality: 49.3
     developer_ergonomics: 54.2
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 44.7
+  previous_composite: 52.7
   provenance:
     conformance: first-party
     contracts:
@@ -234,8 +254,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Rose Rocket Authentication
@@ -253,13 +274,13 @@ slug: rose-rocket
 tags:
 - Transportation
 - Logistics
-- Freight
-- Trucking
-- Transportation Management System
+- freight
+- trucking
+- transportation-management-system
 - Supply Chain
-- Dispatch
-- Webhooks
-- OAuth
-- Canada
+- dispatch
+- Webhook
+- Authentication
+- canada
 website: https://www.roserocket.com/
 ---

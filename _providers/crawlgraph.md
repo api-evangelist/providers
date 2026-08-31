@@ -35,15 +35,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
-- description: JSON REST API for backlink/referring-domain lookups with authority scoring, indexed Common Crawl release listing, async competitor gap analysis, and cross-release change comparison. Six operations und
-  name: CrawlGraph REST API v1
-  slug: crawlgraph-rest-api-v1
 - description: Hosted remote Model Context Protocol server at https://crawlgraph.com/mcp over Streamable HTTP, plus an open-source local stdio fallback published to npm as crawlgraph-mcp (MIT). Four tools — backlink
   name: CrawlGraph MCP Server
   slug: crawlgraph-mcp-server
+- description: CrawlGraph public REST API v1 — backlink lookups, Common Crawl release discovery, async gap analysis, and cross-release change comparison.
+  name: CrawlGraph V1 API
+  slug: crawlgraph-v1-api
 artifact_total: 9
 collections:
 - collection_type: open
@@ -178,7 +178,7 @@ modified: '2026-08-13'
 name: CrawlGraph
 nav: Providers
 network: true
-overview: 'CrawlGraph publishes 1 API on the [APIs.io](https://apis.io/) network: REST API v1. Tagged areas include SEO, backlink-intelligence, MarTech, Competitive Intelligence, and Web Data.
+overview: 'CrawlGraph publishes 1 API on the [APIs.io](https://apis.io/) network: V1 API. Tagged areas include SEO, backlink-intelligence, martech, Competitive Intelligence, and Web Data.
 
 
   CrawlGraph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 24 more developer resources.'
@@ -192,19 +192,24 @@ rate_limits:
   name: Crawlgraph Rate Limits
   slug: crawlgraph-rate-limits
 score:
-  band: strong
-  composite: 56.0
+  band: developing
+  composite: 53.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 59.2
     developer_ergonomics: 54.2
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 56.0
+  previous_composite: 53.4
   provenance:
     conformance: first-party
     contracts:
@@ -214,8 +219,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/screenshots/crawlgraph-2026-07-25T210652.png
 security:
@@ -235,7 +240,7 @@ slug: crawlgraph
 tags:
 - SEO
 - backlink-intelligence
-- MarTech
+- martech
 - Competitive Intelligence
 - Web Data
 - Common-Crawl

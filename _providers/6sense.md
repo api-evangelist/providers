@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 7
   slug: 6sense-agentic-access
   summary_line: 7 operations · 5 acting
-api_count: 5
+api_count: 7
 apis:
 - description: The Company API from 6sense — 1 operation(s) for company.
   name: 6sense Company API
@@ -54,12 +54,12 @@ apis:
 - description: The People API from 6sense — 4 operation(s) for people.
   name: 6sense People API
   slug: 6sense-people-api
-- description: Scribe — "The Score Keeper". The only OpenAPI 6sense publishes itself, served anonymously at https://scribe.6sense.com/openapi.json. Covers 12 operations across people scoring, people/company enrichme
-  name: 6sense Scribe Scoring and Segments API
-  slug: 6sense-scribe-api
 - description: Hosted remote Model Context Protocol server at https://api.6sense.com/mcp (beta). Read-only retrieval of Revvy AI-powered 6sense insights — account insights, 6QA trends, keyword performance, ad campai
   name: 6sense MCP Server
   slug: 6sense-mcp
+- description: The Scoring API from 6sense — 1 operation(s) for scoring.
+  name: 6sense Scoring API
+  slug: 6sense-scoring-api
 artifact_total: 32
 asyncapis:
 - description: 'Outbound webhook events emitted by the 6sense AI Email product (formerly Conversational Email, formerly Saleswhale) to a customer-configured Target URL. PROVENANCE: 6sense does not publish an AsyncAPI'
@@ -100,6 +100,10 @@ collections:
   name: 6sense People Search API
   slug: open-6sense-people-search-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/6sense-scribe-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -307,13 +311,13 @@ modified: '2026-08-13'
 name: 6sense
 nav: Providers
 network: true
-overview: '6sense publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Company API, Enrichment API, People API, and 1 more. Tagged areas include Account Based Marketing, Intent Data, B2B, Predictive Analytics, and Revenue.
+overview: '6sense publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Company API, Enrichment API, People API, and 1 more. Tagged areas include ABM, Account-Based Marketing, Intent Data, B2B, and Predictive Analytics.
 
 
   The 6sense catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  6sense''s developer surface includes authentication, documentation, developer portal, support, engineering blog, GitHub presence, pricing, and 36 more developer resources.'
+  6sense''s developer surface includes authentication, documentation, developer portal, support, engineering blog, GitHub presence, pricing, and 37 more developer resources.'
 plans:
 - name: 6Sense Plans Pricing
   plan_count: 4
@@ -341,18 +345,23 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 73.1
+  composite: 69.4
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 24.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
-    contract_governance: 55.3
-    contract_quality: 72.9
+    contract_governance: 43.2
+    contract_quality: 68.5
     developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 55.3
+    discoverability: 81.5
+    governance: 43.2
     operational_transparency: 81.6
-  previous_composite: 73.1
+  previous_composite: 69.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -363,8 +372,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/screenshots/6sense-2026-06-20T162740.png
 security:
@@ -382,7 +391,8 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR
 slug: 6sense
 tags:
-- Account Based Marketing
+- ABM
+- Account-Based Marketing
 - Intent Data
 - B2B
 - Predictive Analytics

@@ -34,19 +34,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: REST API behind Gist Answers. Creates chats against a publisher's licensed corpus, streams the answer back over Server-Sent Events, and returns the citations and the per-source attribution credit dist
-  name: Gist Answers API (Prorata API Service)
-  slug: gist-answers-api-prorata-api-service
 - description: Publisher ingest API for the Gist Content Network. Lets publisher partners push articles to ProRata in real time (`POST /ingest/article`) or in bulk for archival backfill (`POST /ingest/multiple_artic
   name: Gist Content API
   slug: gist-content-api
 - description: Advertising delivery surface for Gist Ads. Publishers load the `adtag.js` bundle from tp-at.prorata.ai and call `window.prtag.defineSlot({id, api_key, url, geo}, slotId, sizes, adTypes)` to request co
   name: Gist Ads Ad Tag and Display Ad API
   slug: gist-ads-ad-tag-and-display-ad-api
-artifact_total: 12
+- description: The Chat API from Gist — 5 operation(s) for chat.
+  name: Gist Chat API
+  slug: gist-chat-api
+- description: The Health API from Gist — 1 operation(s) for health.
+  name: Gist Health API
+  slug: gist-health-api
+- description: The Publishers API from Gist — 2 operation(s) for publishers.
+  name: Gist Publishers API
+  slug: gist-publishers-api
+- description: The Questions API from Gist — 2 operation(s) for questions.
+  name: Gist Questions API
+  slug: gist-questions-api
+- description: The Root API from Gist — 1 operation(s) for root.
+  name: Gist Root API
+  slug: gist-root-api
+- description: The Summaries API from Gist — 2 operation(s) for summaries.
+  name: Gist Summaries API
+  slug: gist-summaries-api
+- description: The Threads API from Gist — 2 operation(s) for threads.
+  name: Gist Threads API
+  slug: gist-threads-api
+artifact_total: 18
 collections:
 - collection_type: open
   name: Prorata API Service
@@ -195,7 +213,7 @@ modified: '2026-08-12'
 name: Gist
 nav: Providers
 network: true
-overview: 'Gist publishes 1 API on the [APIs.io](https://apis.io/) network: Answers API (Prorata API Service). Tagged areas include Company, Artificial Intelligence, Generative AI, Advertising, and Marketing.
+overview: 'Gist publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Health API, Publishers API, and 4 more. Tagged areas include Company, Artificial Intelligence, Generative AI, Advertising, and Marketing.
 
 
   Gist''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, sandbox, authentication, and 23 more developer resources.'
@@ -210,18 +228,23 @@ rate_limits:
   slug: gist-rate-limits
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 41.1
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
-    contract_quality: 52.7
+    contract_governance: 4.5
+    contract_quality: 51.3
     developer_ergonomics: 62.5
-    discoverability: 72.2
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 43.5
+  previous_composite: 41.7
   provenance:
     conformance: derived
     contracts:
@@ -231,8 +254,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gist/refs/heads/main/screenshots/gist-2026-07-25T215832.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: upload-post-agentic-access
   summary_line: 15 operations · 7 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Retrieve impressions and per-post performance metrics.
   name: Upload-Post Analytics API
@@ -77,6 +77,10 @@ collections:
   name: Upload-Post API
   slug: open-upload-post
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/upload-post-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -132,7 +136,7 @@ network: true
 overview: 'Upload-Post publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Upload API, Upload Management API, and 1 more. Tagged areas include Social-Media, Publishing, Video, Content, and Cross Posting.
 
 
-  Upload-Post''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Upload-Post''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Upload Post Plans Pricing
   plan_count: 2
@@ -144,18 +148,23 @@ rate_limits:
   slug: upload-post-rate-limits
 score:
   band: thin
-  composite: 38.5
-  delta: 2.4
+  composite: 37.9
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 56.8
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 36.1
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -163,8 +172,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

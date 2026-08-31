@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,14 +41,11 @@ agentic_access:
   operation_count: 57
   slug: lex-machina-agentic-access
   summary_line: 57 operations · 5 acting
-api_count: 21
+api_count: 1
 apis:
 - description: Alerts.
   name: Lex Machina Alerts API
   slug: lex-machina-alerts-api
-- description: Analytics.
-  name: Lex Machina Analytics API
-  slug: lex-machina-analytics-api
 - description: Attorney data.
   name: Lex Machina Attorneys API
   slug: lex-machina-attorneys-api
@@ -73,9 +70,6 @@ apis:
 - description: Federal district court cases.
   name: Lex Machina Federal District Cases API
   slug: lex-machina-federal-district-cases-api
-- description: Find matches based on free text searches
-  name: Lex Machina Find API
-  slug: lex-machina-find-api
 - description: ITC Investigations.
   name: Lex Machina ITC Investigations API
   slug: lex-machina-itc-investigations-api
@@ -97,16 +91,13 @@ apis:
 - description: PTAB Trials.
   name: Lex Machina PTAB Trials API
   slug: lex-machina-ptab-trials-api
-- description: Finds entities.
-  name: Lex Machina Search API
-  slug: lex-machina-search-api
 - description: State court cases.
   name: Lex Machina State Cases API
   slug: lex-machina-state-cases-api
 - description: Provides API status.
   name: Lex Machina Status API
   slug: lex-machina-status-api
-artifact_total: 74
+artifact_total: 71
 collections:
 - collection_type: open
   name: API Collection
@@ -321,22 +312,27 @@ modified: '2026-05-25'
 name: Lex Machina
 nav: Providers
 network: true
-overview: 'Lex Machina publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Analytics API, Attorneys API, and 18 more. Tagged areas include Legal, Legal Analytics, Legal Technology, Litigation, and Litigation Analytics.
+overview: 'Lex Machina publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Attorneys API, Authorization API, and 15 more. Tagged areas include Legal, Legal Analytics, Legal Technology, Litigation, and Litigation Analytics.
 
 
   Lex Machina''s developer surface includes authentication, developer portal, documentation, engineering blog, YouTube channel, support, and 21 more developer resources.'
 random_paper: 3
 score:
   band: thin
-  composite: 34.2
-  delta: 0.0
+  composite: 33.6
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
     contract_governance: 0.0
     contract_quality: 57.7
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 34.2
@@ -353,8 +349,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 40.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/screenshots/lex-machina-2026-06-20T184441.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -157,7 +157,12 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 43.1
+  composite: 43.9
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
@@ -165,10 +170,10 @@ score:
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 35.7
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 43.1
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     contracts:
@@ -182,8 +187,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 56.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-policy/refs/heads/main/screenshots/microsoft-azure-policy-2026-06-20T185431.png
 security:

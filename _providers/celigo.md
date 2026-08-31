@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 37
   slug: celigo-agentic-access
   summary_line: 37 operations · 21 acting
-api_count: 13
+api_count: 1
 apis:
 - description: 'The integrator.io Platform API is a RESTful JSON API secured by Bearer Tokens. It provides programmatic access to integrations, connections, flows, imports, exports, iClients, and other integrator.io '
   name: Celigo integrator.io Platform API
@@ -221,15 +221,20 @@ rules:
   slug: celigo-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 31.4
-  delta: 0.0
+  composite: 30.9
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 70.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 11.4
     contract_quality: 28.6
     developer_ergonomics: 42.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 11.4
     operational_transparency: 7.9
   previous_composite: 31.4
@@ -240,8 +245,8 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/celigo/refs/heads/main/screenshots/celigo-2026-06-20T174113.png
 security:

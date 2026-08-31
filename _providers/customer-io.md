@@ -27,15 +27,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.4
-  scored_at: '2026-08-26'
+  score: 55.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 52
   slug: customer-io-agentic-access
   summary_line: 52 operations · 29 acting
-api_count: 27
+api_count: 4
 apis:
 - description: The Customer.io Track API allows developers to send behavioral data and customer profile information into Customer.io. It provides endpoints for identifying customers, tracking events, managing device
   name: Customer.io Track API
@@ -69,15 +69,6 @@ apis:
 - description: Look up customer profiles, search for customers, and retrieve customer attributes and activity data.
   name: Customer.io Customers API
   slug: customer-io-customers-api
-- description: Manage push notification devices associated with customer profiles.
-  name: Customer.io Devices API
-  slug: customer-io-devices-api
-- description: Track API v2 entity endpoint for creating and managing people and objects using a unified request format.
-  name: Customer.io Entity API
-  slug: customer-io-entity-api
-- description: Track customer events and anonymous events to record behavioral data and trigger messaging workflows.
-  name: Customer.io Events API
-  slug: customer-io-events-api
 - description: Export customer data, deliveries, and other information from your workspace.
   name: Customer.io Exports API
   slug: customer-io-exports-api
@@ -87,9 +78,6 @@ apis:
 - description: Identify people and set their profile attributes. The identify call tells Customer.io who the current user is and assigns traits to them.
   name: Customer.io Identify API
   slug: customer-io-identify-api
-- description: Merge two customer profiles into a single profile.
-  name: Customer.io Merge API
-  slug: customer-io-merge-api
 - description: Retrieve information about individual messages sent to customers.
   name: Customer.io Messages API
   slug: customer-io-messages-api
@@ -114,19 +102,76 @@ apis:
 - description: Send transactional messages such as password resets, purchase receipts, and other important notifications triggered by user actions.
   name: Customer.io Transactional API
   slug: customer-io-transactional-api
-- description: 'The Customer.io App API is the workspace-management and outbound-messaging surface: trigger broadcasts, send transactional email, push, SMS, in-app and inbox messages, manage campaigns, newsletters, s'
-  name: Customer.io App API
-  slug: app-api
-- description: The Customer.io Pipelines (CDP) API is the Segment-spec data ingestion interface Customer.io recommends for new integrations — identify, track, page, screen, group, alias and batch, all POST-only, wit
-  name: Customer.io Pipelines API
-  slug: pipelines-api
-- description: Customer.io's outbound message-lifecycle event stream. Eight event families — customer, email, sms, whatsapp, push, in_app, slack and webhook — each carrying a metric such as drafted, sent, delivered,
-  name: Customer.io Reporting Webhooks
-  slug: reporting-webhooks
 - description: Customer.io's first-party hosted Model Context Protocol server. It exposes the full Journeys App API and CDP Data Pipelines API to any MCP client through eight tools — a context primer, a schema brows
   name: Customer.io MCP
   slug: mcp
-artifact_total: 72
+- description: Manage file assets such as images and PDFs and organize them into folders.
+  name: Customer.io Assets API
+  slug: customer-io-assets-api
+- description: The Customer.io App API API from Customer.io — 0 operation(s) for customer.io app api.
+  name: Customer.io Customer.io App API
+  slug: customer-io-customer-io-app-api-api
+- description: Update descriptions for attributes and events in your workspace. This helps improve AI-generated content and segments.
+  name: Customer.io Data Index API
+  slug: customer-io-data-index-api
+- description: Use these endpoints to manage emails, translations, and components made with Design Studio. You can programmatically manage Design Studio content and migrate templates from an external service. To man
+  name: Customer.io Design Studio API
+  slug: customer-io-design-studio-api
+- description: If you use Customer.io as your email service provider (ESP), these endpoints help you retrieve information about email addresses suppressed directly by the ESP. ESP-based suppressions are different fr
+  name: Customer.io ESP Suppression API
+  slug: customer-io-esp-suppression-api
+- description: Connect forms to your workspace to identify people, apply form responses to people, and trigger campaigns for people who fill out forms on your website or in your app.
+  name: Customer.io Forms API
+  slug: customer-io-forms-api
+- description: APIs to upload CSV files containing lists of people. These endpoints provide a convenient way to add and update people without having to make an `identify` call for each individual person.
+  name: Customer.io Imports API
+  slug: customer-io-imports-api
+- description: Returns the list of addresses used by Customer.io. You must add add these addresses to your allowlist when using a custom SMTP provider and blocking unknown IP addresses.
+  name: Customer.io Info API
+  slug: customer-io-info-api
+- description: 'Start, update, and end live notifications—real-time activities on the iOS Lock Screen and Dynamic Island, and in the Android notification shade. Your server drives the activity''s content; Customer.io '
+  name: Customer.io Live Notifications API
+  slug: customer-io-live-notifications-api
+- description: 'Newsletter metrics include metrics for translations, A/B tests, and links. These endpoints return information about newsletter metrics including metrics for translations and A/B tests. You can update '
+  name: Customer.io Newsletter Metrics API
+  slug: customer-io-newsletter-metrics-api
+- description: A newsletter variant is a translation or an A/B test. You can create, update, or delete variants in newsletters from these endpoints. You can also create a new A/B test group. If your newsletters incl
+  name: Customer.io Newsletter Variants API
+  slug: customer-io-newsletter-variants-api
+- description: Objects are "groups" that you can relate people to in Customer.io—like the companies they work for, the online classes they take, and so on. These APIs help you find objects, their attributes, the peo
+  name: Customer.io Objects API
+  slug: customer-io-objects-api
+- description: The Opt-outs API from Customer.io — 2 operation(s) for opt-outs.
+  name: Customer.io Opt Outs API
+  slug: customer-io-opt-outs-api
+- description: Set up webhooks to inform an external service about Customer.io events. Webhooks can notify you immediately when immediately when customer attributes change or when people open your messages.
+  name: Customer.io Reporting Webhooks API
+  slug: customer-io-reporting-webhooks-api
+- description: Use these endpoints to send broadcasts or transactional messages to your audience. They use the same authentication method, but review the limits for both types of workflows to make sure you'll succes
+  name: Customer.io Send Messages API
+  slug: customer-io-send-messages-api
+- description: 'A subscription center differentiates the types of messages available for your product. Your audience sets subscription preferences by name, but we record subscription preferences by topic ID. You can '
+  name: Customer.io Subscription Center API
+  slug: customer-io-subscription-center-api
+- description: Add, modify, suppress, or unsuppress people (referred to as "customers" in our APIs). You can also use these endpoints to set attributes on people.
+  name: Customer.io Track Customers API
+  slug: customer-io-track-customers-api
+- description: Use customer events to trigger campaigns or add users to segments. You can attribute events directly to customers or send anonymous events and associate them with users later when you identify them.
+  name: Customer.io Track Events API
+  slug: customer-io-track-events-api
+- description: Manual segments are lists of people that you incorporate using the API or by uploading CSVs. You can add people to, or remove people from, manual segments with these endpoints. These endpoints do _not
+  name: Customer.io Track Segments API
+  slug: customer-io-track-segments-api
+- description: 'This version of our edge API has only two endpoints, but supports the majority of our traditional v1 track operations and then some based on the `type` and `action` keys that you set in your request. '
+  name: Customer.io Track V2 API
+  slug: customer-io-track-v2-api
+- description: Determine whether your account and data are hosted in the US or EU data center using your [Track API Key](https://fly.customer.io/settings/api_credentials).
+  name: Customer.io Track Region API
+  slug: customer-io-trackregion-api
+- description: An API to retrieve information about your workspaces in your account. You can use this to look up counts for messages sent, monthly billable emails sent, people, and objects.
+  name: Customer.io Workspaces API
+  slug: customer-io-workspaces-api
+artifact_total: 87
 asyncapis:
 - description: Customer.io Reporting Webhooks send real-time message activity events as JSON payloads via HTTP POST to a configured endpoint. These events include message sends, deliveries, opens, clicks, bounces, u
   name: Customer.io Reporting Webhooks
@@ -211,6 +256,18 @@ collections:
   name: Customer.io App Activities Transactional API
   slug: open-customer-io-transactional-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/customer-io-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/customer-io-pipelines-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/customer-io-reporting-webhooks-overlay.yaml
 - group: commercial
   title: ''
   type: Plans
@@ -462,13 +519,13 @@ modified: '2026-08-13'
 name: Customer.io
 nav: Providers
 network: true
-overview: 'Customer.io publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Track API, Activities API, Alias API, and 23 more. Tagged areas include Behavioral Data, Broadcasts, Campaigns, CDP, and Customer Data.
+overview: 'Customer.io publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Track API, Activities API, Alias API, and 38 more. Tagged areas include Behavioral Data, Broadcasts, Campaigns, CDP, and Customer Data.
 
 
   The Customer.io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Customer.io''s developer surface includes authentication, documentation, CLI, changelog, sandbox, API reference, getting-started guide, and 47 more developer resources.'
+  Customer.io''s developer surface includes authentication, documentation, CLI, changelog, sandbox, API reference, getting-started guide, and 50 more developer resources.'
 plans:
 - name: Customer Io Plans Pricing
   plan_count: 4
@@ -518,18 +575,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 87.3
+  composite: 84.0
+  coverage:
+    artifact_dirs: 33
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
-    contract_governance: 59.1
-    contract_quality: 74.7
+    contract_governance: 47.0
+    contract_quality: 73.7
     developer_ergonomics: 80.4
-    discoverability: 92.6
-    governance: 59.1
+    discoverability: 75.9
+    governance: 47.0
     operational_transparency: 84.2
-  previous_composite: 87.3
+  previous_composite: 84.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -546,8 +608,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/customer-io/refs/heads/main/screenshots/customer-io-2026-06-20T175348.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 22
   slug: caspio-agentic-access
   summary_line: 22 operations · 10 acting
-api_count: 8
+api_count: 1
 apis:
 - description: REST API for Caspio Bridge accounts providing programmatic access to tables, views, records, files, users, applications, and tasks. Uses OAuth 2.0 client credentials flow to obtain Bearer access token
   name: Caspio REST API
@@ -149,25 +149,30 @@ modified: '2026-05-11'
 name: Caspio
 nav: Providers
 network: true
-overview: 'Caspio publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Files API, and 4 more. Tagged areas include Low-Code, No-Code, Database, Application Platform, and Cloud Database.
+overview: 'Caspio publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Authentication API, Files API, and 4 more. Tagged areas include Low Code, No Code, Database, Application Platform, and Cloud Database.
 
 
   Caspio''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, support, and 5 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 25.9
-  delta: 2.4
+  composite: 25.3
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 16.1
     developer_ergonomics: 40.5
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 23.5
+  previous_composite: 25.9
   provenance:
     agentic_access: derived
     contracts:
@@ -175,8 +180,8 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caspio/refs/heads/main/screenshots/caspio-2026-06-20T174035.png
 security:
@@ -194,8 +199,8 @@ security:
   summary_line: SOC 2, PCI DSS, HIPAA, GDPR, FIPS 140
 slug: caspio
 tags:
-- Low-Code
-- No-Code
+- Low Code
+- No Code
 - Database
 - Application Platform
 - Cloud Database

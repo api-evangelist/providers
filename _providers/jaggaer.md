@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 50
   slug: jaggaer-agentic-access
   summary_line: 50 operations · 20 acting
-api_count: 16
+api_count: 3
 apis:
 - description: Asynchronous process status operations
   name: JAGGAER Async API
@@ -146,6 +146,10 @@ collections:
   name: JAGGAER ASO Customer Host Entity Service Async Users API
   slug: open-jaggaer-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/jaggaer-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -248,7 +252,7 @@ overview: 'JAGGAER publishes 16 APIs on the [APIs.io](https://apis.io/) network,
   The JAGGAER catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  JAGGAER''s developer surface includes authentication, documentation, engineering blog, support, and 9 more developer resources.'
+  JAGGAER''s developer surface includes authentication, documentation, engineering blog, support, and 10 more developer resources.'
 plans:
 - name: Jaggaer Plans Pricing
   plan_count: 4
@@ -272,6 +276,11 @@ rules:
 score:
   band: thin
   composite: 38.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
@@ -290,8 +299,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/screenshots/jaggaer-2026-06-20T183653.png
 security:

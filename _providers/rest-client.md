@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST Client is a Visual Studio Code extension for sending HTTP requests and viewing responses directly within the editor. It supports .http and .rest file formats, GraphQL, cURL, multiple auth schemes
@@ -41,6 +41,18 @@ apis:
   slug: rest-client
 artifact_total: 12
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Huachao/vscode-restclient/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Huachao/vscode-restclient/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Huachao/vscode-restclient/blob/master/CODE_OF_CONDUCT.md
 - group: commercial
   title: ''
   type: License
@@ -111,7 +123,7 @@ overview: 'REST Client publishes 1 API on the [APIs.io](https://apis.io/) networ
   The REST Client catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  REST Client''s developer surface includes documentation and 6 more developer resources.'
+  REST Client''s developer surface includes documentation and 9 more developer resources.'
 plans:
 - name: Rest Client Plans Pricing
   plan_count: 3
@@ -134,8 +146,13 @@ rules:
   slug: rest-client-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 27.1
-  delta: 6.1
+  composite: 28.4
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -145,10 +162,13 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 21.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 28.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rest-client/refs/heads/main/screenshots/rest-client-2026-06-20T193111.png
 security:
 - kind: domain-security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Client SDK and hosted spatial audio server for embedding real-time positional voice in web and native apps. Auth is a connection JWT signed with the developer''s App Secret. The hosted server has been '
@@ -128,8 +128,13 @@ overview: 'High Fidelity publishes 1 API on the [APIs.io](https://apis.io/) netw
 random_paper: 17
 score:
   band: emerging
-  composite: 23.2
-  delta: 0.0
+  composite: 23.4
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.2
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -139,9 +144,12 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 25.0
   previous_composite: 23.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/high-fidelity/refs/heads/main/screenshots/high-fidelity-2026-07-25T221150.png
 security:

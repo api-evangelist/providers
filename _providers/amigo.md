@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 273
   human_in_the_loop: 8
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 586
   slug: amigo-agentic-access
   summary_line: 586 operations · 273 acting · 8 human-in-the-loop
-api_count: 72
+api_count: 2
 apis:
 - description: The Account API from Amigo — 1 operation(s) for account.
   name: Amigo Account API
@@ -700,6 +700,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/amigo-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/amigo-classic-overlay.yaml
 - group: build
@@ -860,7 +864,7 @@ overview: 'Amigo publishes 72 APIs on the [APIs.io](https://apis.io/) network, i
   The Amigo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Amigo''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 29 more developer resources.'
+  Amigo''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 30 more developer resources.'
 random_paper: 0
 scopes:
 - name: Amigo Scopes
@@ -869,18 +873,23 @@ scopes:
   summary_line: 53 scopes
 score:
   band: strong
-  composite: 63.8
-  delta: 0.0
+  composite: 58.8
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 63.3
     developer_ergonomics: 85.1
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 57.4
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 63.8
+  previous_composite: 59.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -893,12 +902,20 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    - jurisdiction: US
+      standard: hitrust
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Health
     regime_id: health
     score: 63.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/screenshots/amigo-2026-07-25T200104.png
 security:

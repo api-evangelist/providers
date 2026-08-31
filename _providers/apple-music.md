@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 24
   slug: apple-music-agentic-access
   summary_line: 24 operations · 1 acting
-api_count: 6
+api_count: 1
 apis:
 - description: 'REST API for Apple Music: catalog (songs, albums, artists, music videos, playlists, stations), search, charts, recommendations, and the authenticated user''s library, playlists, and ratings.'
   name: Apple Music API
@@ -86,6 +86,10 @@ collections:
   name: Apple Music API
   slug: open-apple-music
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/apple-music-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -145,7 +149,7 @@ network: true
 overview: 'Apple Music publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Charts API, Library API, and 2 more. Tagged areas include Music, Streaming, Apple, MusicKit, and Catalog.
 
 
-  Apple Music''s developer surface includes authentication and 9 more developer resources.'
+  Apple Music''s developer surface includes authentication and 10 more developer resources.'
 plans:
 - name: Apple Music Plans Pricing
   plan_count: 2
@@ -157,18 +161,23 @@ rate_limits:
   slug: apple-music-rate-limits
 score:
   band: thin
-  composite: 32.0
-  delta: 3.3
+  composite: 31.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 51.2
     developer_ergonomics: 38.1
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 28.7
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -182,8 +191,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 33.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/screenshots/apple-music-2026-06-20T172322.png
 security:

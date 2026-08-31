@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: sigma-aldrich-agentic-access
   summary_line: 6 operations · 1 acting
-api_count: 6
+api_count: 1
 apis:
 - description: The Sigma-Aldrich Chemical Structure Search API enables substructure, exact structure, and similarity searches against the Sigma-Aldrich chemical catalog using SMILES, InChI, or molecular formula nota
   name: Sigma-Aldrich Chemical Structure Search API
@@ -204,18 +204,23 @@ rules:
   slug: sigma-aldrich-rules
 score:
   band: thin
-  composite: 36.5
-  delta: 3.7
+  composite: 36.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 66.7
     developer_ergonomics: 31.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 32.8
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -229,8 +234,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigma-aldrich/refs/heads/main/screenshots/sigma-aldrich-2026-06-20T193909.png
 security:

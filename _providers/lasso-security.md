@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,15 +42,12 @@ agentic_access:
   operation_count: 2
   slug: lasso-security-agentic-access
   summary_line: 2 operations · 2 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The Classify API from Lasso Security — 2 operation(s) for classify.
   name: Lasso Security Classify API
   slug: lasso-security-classify-api
-- description: The Masking API from Lasso Security — 1 operation(s) for masking.
-  name: Lasso Security Masking API
-  slug: lasso-security-masking-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -121,7 +118,7 @@ modified: '2026-06-20'
 name: Lasso Security
 nav: Providers
 network: true
-overview: 'Lasso Security publishes 2 APIs on the [APIs.io](https://apis.io/) network: Classify API and Masking API. Tagged areas include Artificial Intelligence, LLM, GenAI Security, Prompt Injection, and Guardrails.
+overview: 'Lasso Security publishes 1 API on the [APIs.io](https://apis.io/) network: Classify API. Tagged areas include Artificial Intelligence, LLM, GenAI Security, Prompt Injection, and Guardrails.
 
 
   Lasso Security''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -137,7 +134,12 @@ rate_limits:
 score:
   band: developing
   composite: 40.8
-  delta: 2.4
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -147,7 +149,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.4
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -155,8 +157,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/screenshots/lasso-security-2026-06-20T184320.png
 security:

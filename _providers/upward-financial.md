@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.8
-  scored_at: '2026-08-26'
-api_count: 17
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The accounts API from Upward Financial — 2 operation(s) for accounts.
   name: Upward Financial accounts API
@@ -148,6 +148,10 @@ collections:
   name: API Reference accounts webhooks API
   slug: open-upward-financial-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/upward-financial-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -274,7 +278,7 @@ overview: 'Upward Financial publishes 17 APIs on the [APIs.io](https://apis.io/)
   The Upward Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Upward Financial''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 21 more developer resources.'
+  Upward Financial''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 22 more developer resources.'
 random_paper: 20
 scopes:
 - name: Upward Financial Scopes
@@ -283,18 +287,23 @@ scopes:
   summary_line: 9 scopes · clientCredentials/token-exchange (urn:ietf:params:oauth:grant-type:token-exchange)
 score:
   band: developing
-  composite: 50.9
-  delta: 0.0
+  composite: 47.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 57.2
     developer_ergonomics: 63.7
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 50.9
+  previous_composite: 48.3
   provenance:
     conformance: first-party
     contracts:
@@ -310,8 +319,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upward-financial/refs/heads/main/screenshots/upward-financial-2026-08-17T082644.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 135
   slug: adobe-launch-agentic-access
   summary_line: 135 operations · 65 acting
-api_count: 17
+api_count: 7
 apis:
 - description: Manage compiled tag library builds for deployment.
   name: Adobe Launch Builds API
@@ -92,9 +92,66 @@ apis:
 - description: Manage secrets for authenticating event forwarding rules with external systems. Supports token, simple-http, oauth2, and oauth2-google types.
   name: Adobe Launch Secrets API
   slug: adobe-launch-secrets-api
-- description: 'The Reactor API is Adobe''s own published management contract for Adobe Launch / Adobe Experience Platform Tags: 137 operations across companies, properties, data elements, rules, rule components, exte'
-  name: Adobe Launch Reactor API
-  slug: adobe-launch-reactor-api
+- description: The Ad API from Adobe Launch — 3 operation(s) for ad.
+  name: Adobe Launch Ad API
+  slug: adobe-launch-ad-api
+- description: The Ad Break API from Adobe Launch — 2 operation(s) for ad break.
+  name: Adobe Launch Ad Break API
+  slug: adobe-launch-ad-break-api
+- description: App configurations allow credentials to be stored and retrieved for later use.
+  name: Adobe Launch App configurations API
+  slug: adobe-launch-app-configurations-api
+- description: An audit event is a record of a specific change to another tag resource, generated at the time the change is made. These are system events which can be subscribed to through the use of a callback func
+  name: Adobe Launch Audit events API
+  slug: adobe-launch-audit-events-api
+- description: The Bitrate API from Adobe Launch — 1 operation(s) for bitrate.
+  name: Adobe Launch Bitrate API
+  slug: adobe-launch-bitrate-api
+- description: The Buffer API from Adobe Launch — 1 operation(s) for buffer.
+  name: Adobe Launch Buffer API
+  slug: adobe-launch-buffer-api
+- description: The Chapter API from Adobe Launch — 3 operation(s) for chapter.
+  name: Adobe Launch Chapter API
+  slug: adobe-launch-chapter-api
+- description: Real-time events originating client-side, such as browsers or mobile devices
+  name: Adobe Launch Client-to-server collection API
+  slug: adobe-launch-client-to-server-collection-api
+- description: The Download API from Adobe Launch — 1 operation(s) for download.
+  name: Adobe Launch Download API
+  slug: adobe-launch-download-api
+- description: The Error API from Adobe Launch — 1 operation(s) for error.
+  name: Adobe Launch Error API
+  slug: adobe-launch-error-api
+- description: An extension package usage authorization is an authorization granted by the package owner to other companies for the private use of the extension package versions.
+  name: Adobe Launch Extension package usage authorization API
+  slug: adobe-launch-extension-package-usage-authorization-api
+- description: Notes are textual annotations that you can add to certain tag resources, such as data elements, extensions, libraries, properties, rules, and rule components.
+  name: Adobe Launch Notes API
+  slug: adobe-launch-notes-api
+- description: The Pause API from Adobe Launch — 1 operation(s) for pause.
+  name: Adobe Launch Pause API
+  slug: adobe-launch-pause-api
+- description: The Ping API from Adobe Launch — 1 operation(s) for ping.
+  name: Adobe Launch Ping API
+  slug: adobe-launch-ping-api
+- description: The Play API from Adobe Launch — 1 operation(s) for play.
+  name: Adobe Launch Play API
+  slug: adobe-launch-play-api
+- description: Collect specific data for Platform profile(s)
+  name: Adobe Launch Profile updates API
+  slug: adobe-launch-profile-updates-api
+- description: A profile represents a tags user. Platform does not maintain its own database of users and permissions, and instead relies on Adobe IDs managed by Adobe’s company-wide Identity Management System (IMS)
+  name: Adobe Launch Profiles API
+  slug: adobe-launch-profiles-api
+- description: Real-time events forwarded by a private server
+  name: Adobe Launch Server-to-server collection API
+  slug: adobe-launch-server-to-server-collection-api
+- description: The Session API from Adobe Launch — 3 operation(s) for session.
+  name: Adobe Launch Session API
+  slug: adobe-launch-session-api
+- description: The States API from Adobe Launch — 1 operation(s) for states.
+  name: Adobe Launch States API
+  slug: adobe-launch-states-api
 arazzos:
 - description: Verify a rule exists, add a new rule component to it, and list the rule's components to confirm.
   name: Adobe Launch Add a Component to an Existing Rule
@@ -135,7 +192,7 @@ arazzos:
 - description: Search across Tags resources by name for a property, then retrieve the matched property in full.
   name: Adobe Launch Search for a Property and Fetch It
   slug: adobe-launch-search-and-fetch-property-workflow
-artifact_total: 510
+artifact_total: 529
 asyncapis:
 - description: ''
   name: Adobe Launch Webhooks
@@ -226,6 +283,10 @@ collections:
   name: Adobe Launch Reactor API
   slug: open-reactor-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/adobe-launch-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1766,13 +1827,13 @@ modified: '2026-08-13'
 name: Adobe Launch
 nav: Providers
 network: true
-overview: 'Adobe Launch publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Builds API, Callbacks API, Companies API, and 14 more. Tagged areas include Data Collection, Edge Network, Event Forwarding, Marketing Technology, and Tag Management.
+overview: 'Adobe Launch publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Builds API, Callbacks API, Companies API, and 33 more. Tagged areas include Data Collection, Edge Network, Event Forwarding, Marketing Technology, and Tag Management.
 
 
   The Adobe Launch catalog on APIs.io includes 1 event-driven AsyncAPI specification, 5 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Adobe Launch''s developer surface includes authentication, developer console, developer portal, engineering blog, signup flow, changelog, CLI, and 56 more developer resources.'
+  Adobe Launch''s developer surface includes authentication, developer console, developer portal, engineering blog, signup flow, changelog, CLI, and 57 more developer resources.'
 plans:
 - name: Adobe Launch Plans Pricing
   plan_count: 1
@@ -1811,18 +1872,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 74.7
+  composite: 72.4
+  coverage:
+    artifact_dirs: 36
+    catalog_gap: 29.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 30.3
-    contract_quality: 79.7
+    contract_governance: 18.2
+    contract_quality: 76.2
     developer_ergonomics: 94.6
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 74.7
+  previous_composite: 72.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1833,8 +1899,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-launch/refs/heads/main/screenshots/adobe-launch-2026-06-20T164946.png
 security:

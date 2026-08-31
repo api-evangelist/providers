@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 21
   slug: tronity-agentic-access
   summary_line: 21 operations · 7 acting · 4 human-in-the-loop
-api_count: 6
+api_count: 1
 apis:
 - description: The Authentication API from TRONITY — 1 operation(s) for authentication.
   name: TRONITY Authentication API
@@ -89,6 +89,10 @@ collections:
   name: TRONITY Platform API
   slug: open-tronity
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tronity-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -148,7 +152,7 @@ network: true
 overview: 'TRONITY publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Charging & Battery API, Commands API, and 3 more. Tagged areas include Connected Car, EV, Telematics, Fleet, and Vehicle Data.
 
 
-  TRONITY''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  TRONITY''s developer surface includes authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Tronity Plans Pricing
   plan_count: 5
@@ -160,15 +164,20 @@ rate_limits:
   slug: tronity-rate-limits
 score:
   band: thin
-  composite: 34.6
-  delta: 0.0
+  composite: 34.0
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 49.8
     developer_ergonomics: 11.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
   previous_composite: 34.6
@@ -179,8 +188,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

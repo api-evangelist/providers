@@ -23,12 +23,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.3
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The UK Open Banking Implementation Entity (OBIE) Open Data API standard - public, unauthenticated reference data covering Branches, ATMs, Personal Current Accounts, Business Current Accounts, Unsecure
-  name: OBIE Open Data API (Shared Standard - Unverified for Principality)
-  slug: obie-open-data-api
 - description: The OBIE Read/Write Account and Transaction Information (AISP) standard for reading account, balance and transaction data. FAPI-secured with OAuth2/OIDC, mutual-TLS and PSD2 strong customer authentica
   name: OBIE Account & Transaction Information API (AIS - Standard, Out of Scope)
   slug: obie-account-transaction-api
@@ -38,12 +35,38 @@ apis:
 - description: The OBIE Read/Write Confirmation of Funds (CBPII) standard for confirming whether funds are available on a payment account. FAPI-secured with OAuth2/OIDC, mutual-TLS and PSD2 strong customer authentic
   name: OBIE Confirmation of Funds API (CBPII - Standard, Out of Scope)
   slug: obie-confirmation-of-funds-api
-artifact_total: 7
+- description: Endpoint for getting ATM data
+  name: Principality Building Society ATM API
+  slug: principality-building-society-atm-api
+- description: Endpoint for getting Business Current Account data
+  name: Principality Building Society BCA API
+  slug: principality-building-society-bca-api
+- description: Endpoint for getting Branch data
+  name: Principality Building Society Branch API
+  slug: principality-building-society-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: Principality Building Society CCC API
+  slug: principality-building-society-ccc-api
+- description: Endpoint for getting Personal Current Account data
+  name: Principality Building Society PCA API
+  slug: principality-building-society-pca-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: Principality Building Society SME API
+  slug: principality-building-society-sme-api
+artifact_total: 12
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-obie-open-data-swagger
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/principality-building-society-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/OpenBankingUK/opendata-api-spec-compiled/issues
 - group: auth
   title: ''
   type: DomainSecurity
@@ -101,25 +124,33 @@ modified: '2026-07-23'
 name: Principality Building Society
 nav: Providers
 network: true
-overview: 'Principality Building Society publishes 1 API on the [APIs.io](https://apis.io/) network: OBIE Open Data API (Shared Standard - Unverified for Principality). Tagged areas include Financial-Services, Banking, Building Society, Savings, and Mortgages.
+overview: 'Principality Building Society publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 3 more. Tagged areas include Financial-Services, Banking, Building Society, Savings, and Mortgages.
 
 
-  Principality Building Society''s developer surface includes authentication, product news, support, and 9 more developer resources.'
+  Principality Building Society''s developer surface includes authentication, product news, support, and 11 more developer resources.'
 random_paper: 5
 score:
   band: thin
-  composite: 34.8
-  delta: 1.6
+  composite: 30.8
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 68.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 4.5
     contract_quality: 32.7
     developer_ergonomics: 33.3
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 4.5
     operational_transparency: 5.3
-  previous_composite: 33.2
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 31.3
   provenance:
     conformance: derived
     contracts:
@@ -133,8 +164,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

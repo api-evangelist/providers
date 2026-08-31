@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 3
   slug: proctorio-agentic-access
   summary_line: 3 operations · 3 acting
-api_count: 2
+api_count: 1
 apis:
 - description: After an exam attempt is submitted, Proctorio POSTs an HMAC-signed JSON webhook to the integrating platform's endpoint carrying the attempt id, user id, an overall suspicion score, submission metadata
   name: Proctorio Result Webhooks (v2/v3)
@@ -62,6 +62,10 @@ collections:
   name: Proctorio Launch API (v2)
   slug: open-proctorio
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/proctorio/API/issues
 - group: commercial
   title: ''
   type: License
@@ -138,7 +142,7 @@ network: true
 overview: 'Proctorio publishes 1 API on the [APIs.io](https://apis.io/) network: Launch API. Tagged areas include Online Proctoring, Remote Proctoring, Exam Integrity, Assessment, and EdTech.
 
 
-  Proctorio''s developer surface includes authentication, documentation, changelog, and 12 more developer resources.'
+  Proctorio''s developer surface includes authentication, documentation, changelog, and 13 more developer resources.'
 plans:
 - name: Proctorio Plans Pricing
   plan_count: 3
@@ -150,8 +154,13 @@ rate_limits:
   slug: proctorio-rate-limits
 score:
   band: thin
-  composite: 31.7
-  delta: 1.0
+  composite: 28.7
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -161,7 +170,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 30.7
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 28.7
   provenance:
     agentic_access: derived
     contracts:
@@ -175,8 +187,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 42.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

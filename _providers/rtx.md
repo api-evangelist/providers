@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 3
   slug: rtx-agentic-access
   summary_line: 3 operations
-api_count: 3
+api_count: 1
 apis:
 - description: Run analytics jobs and retrieve analysis results.
   name: RTX Analytics API
@@ -172,18 +172,23 @@ rules:
   slug: rtx-spectral-rules
 score:
   band: thin
-  composite: 31.7
-  delta: 1.0
+  composite: 31.1
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
     contract_quality: 49.7
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 30.7
+  previous_composite: 31.7
   provenance:
     agentic_access: derived
     contracts:
@@ -197,8 +202,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/screenshots/rtx-2026-06-20T193244.png
 security:

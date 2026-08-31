@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: dynamodb-agentic-access
   summary_line: 28 operations · 28 acting · 1 human-in-the-loop
-api_count: 14
+api_count: 1
 apis:
 - description: API for capturing and processing change data from DynamoDB tables in near real-time, providing time-ordered sequences of item-level modifications.
   name: Amazon DynamoDB Streams API
@@ -138,6 +138,10 @@ collections:
   name: Amazon DynamoDB API
   slug: open-dynamodb
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dynamodb-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -851,7 +855,7 @@ overview: 'Amazon DynamoDB publishes 14 APIs on the [APIs.io](https://apis.io/) 
   The Amazon DynamoDB catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Amazon DynamoDB''s developer surface includes authentication, engineering blog, support, and 9 more developer resources.'
+  Amazon DynamoDB''s developer surface includes authentication, engineering blog, support, and 10 more developer resources.'
 plans:
 - name: Dynamodb Plans Pricing
   plan_count: 4
@@ -896,18 +900,23 @@ rules:
   slug: dynamodb-spectral-rules
 score:
   band: strong
-  composite: 56.6
-  delta: 14.1
+  composite: 56.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 28.8
     contract_quality: 72.3
     developer_ergonomics: 61.9
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 42.5
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     contracts:
@@ -915,9 +924,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynamodb/refs/heads/main/screenshots/dynamodb-2026-06-20T180405.png
 security:
 - kind: authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 2
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 424
   slug: adyen-agentic-access
   summary_line: 424 operations · 294 acting · 2 human-in-the-loop
-api_count: 202
+api_count: 25
 apis:
 - description: The acceptDispute API from Adyen — 1 operation(s) for acceptdispute.
   name: Adyen acceptDispute API
@@ -54,15 +54,9 @@ apis:
 - description: The accountHolderBalance API from Adyen — 1 operation(s) for accountholderbalance.
   name: Adyen accountHolderBalance API
   slug: adyen-accountholderbalance-api
-- description: The accountHolders API from Adyen — 4 operation(s) for accountholders.
-  name: Adyen accountHolders API
-  slug: adyen-accountholders-api
 - description: The accountHolderTransactionList API from Adyen — 1 operation(s) for accountholdertransactionlist.
   name: Adyen accountHolderTransactionList API
   slug: adyen-accountholdertransactionlist-api
-- description: The Accounting Notifications API from Adyen — 0 operation(s) for accounting notifications.
-  name: Adyen Accounting Notifications API
-  slug: adyen-accounting-notifications-api
 - description: The Accounts API from Adyen — 17 operation(s) for accounts.
   name: Adyen Accounts API
   slug: adyen-accounts-api
@@ -78,18 +72,9 @@ apis:
 - description: The Apple API from Adyen — 1 operation(s) for apple.
   name: Adyen Apple API
   slug: adyen-apple-api
-- description: The applePay API from Adyen — 1 operation(s) for applepay.
-  name: Adyen applePay API
-  slug: adyen-applepay-api
-- description: The Arrangements API from Adyen — 1 operation(s) for arrangements.
-  name: Adyen Arrangements API
-  slug: adyen-arrangements-api
 - description: The assignTerminals API from Adyen — 1 operation(s) for assignterminals.
   name: Adyen assignTerminals API
   slug: adyen-assignterminals-api
-- description: The General API from Adyen — 0 operation(s) for general.
-  name: Adyen General API
-  slug: adyen-authentication-webhooks-api
 - description: The Authorise API from Adyen — 1 operation(s) for authorise.
   name: Adyen Authorise API
   slug: adyen-authorise-api
@@ -105,21 +90,9 @@ apis:
 - description: The Balance API from Adyen — 10 operation(s) for balance.
   name: Adyen Balance API
   slug: adyen-balance-api
-- description: The balanceAccounts API from Adyen — 5 operation(s) for balanceaccounts.
-  name: Adyen balanceAccounts API
-  slug: adyen-balanceaccounts-api
 - description: The Balanceinquiry API from Adyen — 1 operation(s) for balanceinquiry.
   name: Adyen Balanceinquiry API
   slug: adyen-balanceinquiry-api
-- description: The balancePlatforms API from Adyen — 2 operation(s) for balanceplatforms.
-  name: Adyen balancePlatforms API
-  slug: adyen-balanceplatforms-api
-- description: The balanceTransfer API from Adyen — 1 operation(s) for balancetransfer.
-  name: Adyen balanceTransfer API
-  slug: adyen-balancetransfer-api
-- description: The Bank API from Adyen — 2 operation(s) for bank.
-  name: Adyen Bank API
-  slug: adyen-bank-api
 - description: The businessLines API from Adyen — 2 operation(s) for businesslines.
   name: Adyen businessLines API
   slug: adyen-businesslines-api
@@ -150,12 +123,6 @@ apis:
 - description: The Cardacquisition API from Adyen — 1 operation(s) for cardacquisition.
   name: Adyen Cardacquisition API
   slug: adyen-cardacquisition-api
-- description: The cardDetails API from Adyen — 1 operation(s) for carddetails.
-  name: Adyen cardDetails API
-  slug: adyen-carddetails-api
-- description: The Cardorders API from Adyen — 2 operation(s) for cardorders.
-  name: Adyen Cardorders API
-  slug: adyen-cardorders-api
 - description: The Cardreaderapdu API from Adyen — 1 operation(s) for cardreaderapdu.
   name: Adyen Cardreaderapdu API
   slug: adyen-cardreaderapdu-api
@@ -171,12 +138,6 @@ apis:
 - description: The checkBalance API from Adyen — 1 operation(s) for checkbalance.
   name: Adyen checkBalance API
   slug: adyen-checkbalance-api
-- description: The Checks API from Adyen — 1 operation(s) for checks.
-  name: Adyen Checks API
-  slug: adyen-checks-api
-- description: The Close API from Adyen — 3 operation(s) for close.
-  name: Adyen Close API
-  slug: adyen-close-api
 - description: The closeAccount API from Adyen — 1 operation(s) for closeaccount.
   name: Adyen closeAccount API
   slug: adyen-closeaccount-api
@@ -189,9 +150,6 @@ apis:
 - description: The Companies API from Adyen — 29 operation(s) for companies.
   name: Adyen Companies API
   slug: adyen-companies-api
-- description: The Account holder API from Adyen — 0 operation(s) for account holder.
-  name: Adyen Account holder API
-  slug: adyen-configuration-webhooks-api
 - description: The confirmThirdParty API from Adyen — 1 operation(s) for confirmthirdparty.
   name: Adyen confirmThirdParty API
   slug: adyen-confirmthirdparty-api
@@ -270,27 +228,15 @@ apis:
 - description: The Erasure API from Adyen — 1 operation(s) for erasure.
   name: Adyen Erasure API
   slug: adyen-erasure-api
-- description: The Estimates API from Adyen — 1 operation(s) for estimates.
-  name: Adyen Estimates API
-  slug: adyen-estimates-api
 - description: The findTerminal API from Adyen — 1 operation(s) for findterminal.
   name: Adyen findTerminal API
   slug: adyen-findterminal-api
-- description: The Forms API from Adyen — 2 operation(s) for forms.
-  name: Adyen Forms API
-  slug: adyen-forms-api
-- description: The get3dsAvailability API from Adyen — 1 operation(s) for get3dsavailability.
-  name: Adyen get3dsAvailability API
-  slug: adyen-get3dsavailability-api
 - description: The getAccountHolder API from Adyen — 1 operation(s) for getaccountholder.
   name: Adyen getAccountHolder API
   slug: adyen-getaccountholder-api
 - description: The getAuthenticationResult API from Adyen — 1 operation(s) for getauthenticationresult.
   name: Adyen getAuthenticationResult API
   slug: adyen-getauthenticationresult-api
-- description: The getCostEstimate API from Adyen — 1 operation(s) for getcostestimate.
-  name: Adyen getCostEstimate API
-  slug: adyen-getcostestimate-api
 - description: The getNotificationConfiguration API from Adyen — 1 operation(s) for getnotificationconfiguration.
   name: Adyen getNotificationConfiguration API
   slug: adyen-getnotificationconfiguration-api
@@ -321,21 +267,9 @@ apis:
 - description: The getUploadedDocuments API from Adyen — 1 operation(s) for getuploadeddocuments.
   name: Adyen getUploadedDocuments API
   slug: adyen-getuploadeddocuments-api
-- description: The grantAccounts API from Adyen — 1 operation(s) for grantaccounts.
-  name: Adyen grantAccounts API
-  slug: adyen-grantaccounts-api
-- description: The grantOffers API from Adyen — 2 operation(s) for grantoffers.
-  name: Adyen grantOffers API
-  slug: adyen-grantoffers-api
 - description: The Grants API from Adyen — 2 operation(s) for grants.
   name: Adyen Grants API
   slug: adyen-grants-api
-- description: The Holders API from Adyen — 13 operation(s) for holders.
-  name: Adyen Holders API
-  slug: adyen-holders-api
-- description: The Identification API from Adyen — 1 operation(s) for identification.
-  name: Adyen Identification API
-  slug: adyen-identification-api
 - description: The Input API from Adyen — 1 operation(s) for input.
   name: Adyen Input API
   slug: adyen-input-api
@@ -345,15 +279,9 @@ apis:
 - description: The Issue API from Adyen — 1 operation(s) for issue.
   name: Adyen Issue API
   slug: adyen-issue-api
-- description: The Items API from Adyen — 1 operation(s) for items.
-  name: Adyen Items API
-  slug: adyen-items-api
 - description: The Keys API from Adyen — 2 operation(s) for keys.
   name: Adyen Keys API
   slug: adyen-keys-api
-- description: The Legal API from Adyen — 1 operation(s) for legal.
-  name: Adyen Legal API
-  slug: adyen-legal-api
 - description: The legalEntities API from Adyen — 14 operation(s) for legalentities.
   name: Adyen legalEntities API
   slug: adyen-legalentities-api
@@ -390,15 +318,9 @@ apis:
 - description: The Methods API from Adyen — 5 operation(s) for methods.
   name: Adyen Methods API
   slug: adyen-methods-api
-- description: The Network API from Adyen — 1 operation(s) for network.
-  name: Adyen Network API
-  slug: adyen-network-api
 - description: The Networks API from Adyen — 1 operation(s) for networks.
   name: Adyen Networks API
   slug: adyen-networks-api
-- description: The networkTokens API from Adyen — 1 operation(s) for networktokens.
-  name: Adyen networkTokens API
-  slug: adyen-networktokens-api
 - description: The notifyShopper API from Adyen — 1 operation(s) for notifyshopper.
   name: Adyen notifyShopper API
   slug: adyen-notifyshopper-api
@@ -411,36 +333,12 @@ apis:
 - description: The Orders API from Adyen — 2 operation(s) for orders.
   name: Adyen Orders API
   slug: adyen-orders-api
-- description: The Origin API from Adyen — 1 operation(s) for origin.
-  name: Adyen Origin API
-  slug: adyen-origin-api
-- description: The originKeys API from Adyen — 1 operation(s) for originkeys.
-  name: Adyen originKeys API
-  slug: adyen-originkeys-api
-- description: The Pay API from Adyen — 1 operation(s) for pay.
-  name: Adyen Pay API
-  slug: adyen-pay-api
 - description: The Payment API from Adyen — 2 operation(s) for payment.
   name: Adyen Payment API
   slug: adyen-payment-api
-- description: The paymentInstrumentGroups API from Adyen — 3 operation(s) for paymentinstrumentgroups.
-  name: Adyen paymentInstrumentGroups API
-  slug: adyen-paymentinstrumentgroups-api
-- description: The paymentInstruments API from Adyen — 5 operation(s) for paymentinstruments.
-  name: Adyen paymentInstruments API
-  slug: adyen-paymentinstruments-api
-- description: The paymentLinks API from Adyen — 2 operation(s) for paymentlinks.
-  name: Adyen paymentLinks API
-  slug: adyen-paymentlinks-api
-- description: The paymentMethods API from Adyen — 2 operation(s) for paymentmethods.
-  name: Adyen paymentMethods API
-  slug: adyen-paymentmethods-api
 - description: The Payments API from Adyen — 23 operation(s) for payments.
   name: Adyen Payments API
   slug: adyen-payments-api
-- description: The paymentSession API from Adyen — 1 operation(s) for paymentsession.
-  name: Adyen paymentSession API
-  slug: adyen-paymentsession-api
 - description: The Payout API from Adyen — 1 operation(s) for payout.
   name: Adyen Payout API
   slug: adyen-payout-api
@@ -450,24 +348,12 @@ apis:
 - description: The Pins API from Adyen — 3 operation(s) for pins.
   name: Adyen Pins API
   slug: adyen-pins-api
-- description: The Platforms API from Adyen — 2 operation(s) for platforms.
-  name: Adyen Platforms API
-  slug: adyen-platforms-api
 - description: The Print API from Adyen — 1 operation(s) for print.
   name: Adyen Print API
   slug: adyen-print-api
-- description: The Psp API from Adyen — 5 operation(s) for psp.
-  name: Adyen Psp API
-  slug: adyen-psp-api
-- description: The Public API from Adyen — 1 operation(s) for public.
-  name: Adyen Public API
-  slug: adyen-public-api
 - description: The Reconciliation API from Adyen — 1 operation(s) for reconciliation.
   name: Adyen Reconciliation API
   slug: adyen-reconciliation-api
-- description: The References API from Adyen — 5 operation(s) for references.
-  name: Adyen References API
-  slug: adyen-references-api
 - description: The Refund API from Adyen — 1 operation(s) for refund.
   name: Adyen Refund API
   slug: adyen-refund-api
@@ -477,36 +363,15 @@ apis:
 - description: The refundNotPaidOutTransfers API from Adyen — 1 operation(s) for refundnotpaidouttransfers.
   name: Adyen refundNotPaidOutTransfers API
   slug: adyen-refundnotpaidouttransfers-api
-- description: The Refunds API from Adyen — 1 operation(s) for refunds.
-  name: Adyen Refunds API
-  slug: adyen-refunds-api
-- description: The Request API from Adyen — 1 operation(s) for request.
-  name: Adyen Request API
-  slug: adyen-request-api
-- description: The requestSubjectErasure API from Adyen — 1 operation(s) for requestsubjecterasure.
-  name: Adyen requestSubjectErasure API
-  slug: adyen-requestsubjecterasure-api
-- description: The Results API from Adyen — 1 operation(s) for results.
-  name: Adyen Results API
-  slug: adyen-results-api
 - description: The retrieve3ds2Result API from Adyen — 1 operation(s) for retrieve3ds2result.
   name: Adyen retrieve3ds2Result API
   slug: adyen-retrieve3ds2result-api
 - description: The retrieveApplicableDefenseReasons API from Adyen — 1 operation(s) for retrieveapplicabledefensereasons.
   name: Adyen retrieveApplicableDefenseReasons API
   slug: adyen-retrieveapplicabledefensereasons-api
-- description: The Reveal API from Adyen — 2 operation(s) for reveal.
-  name: Adyen Reveal API
-  slug: adyen-reveal-api
 - description: The Reversal API from Adyen — 1 operation(s) for reversal.
   name: Adyen Reversal API
   slug: adyen-reversal-api
-- description: The Reversals API from Adyen — 1 operation(s) for reversals.
-  name: Adyen Reversals API
-  slug: adyen-reversals-api
-- description: The Routes API from Adyen — 1 operation(s) for routes.
-  name: Adyen Routes API
-  slug: adyen-routes-api
 - description: The Rules API from Adyen — 4 operation(s) for rules.
   name: Adyen Rules API
   slug: adyen-rules-api
@@ -522,57 +387,27 @@ apis:
 - description: The setupBeneficiary API from Adyen — 1 operation(s) for setupbeneficiary.
   name: Adyen setupBeneficiary API
   slug: adyen-setupbeneficiary-api
-- description: The Shareholders API from Adyen — 1 operation(s) for shareholders.
-  name: Adyen Shareholders API
-  slug: adyen-shareholders-api
-- description: The Signatories API from Adyen — 1 operation(s) for signatories.
-  name: Adyen Signatories API
-  slug: adyen-signatories-api
-- description: The State API from Adyen — 1 operation(s) for state.
-  name: Adyen State API
-  slug: adyen-state-api
-- description: The Stored API from Adyen — 2 operation(s) for stored.
-  name: Adyen Stored API
-  slug: adyen-stored-api
 - description: The storeDetail API from Adyen — 1 operation(s) for storedetail.
   name: Adyen storeDetail API
   slug: adyen-storedetail-api
 - description: The storeDetailAndSubmitThirdParty API from Adyen — 1 operation(s) for storedetailandsubmitthirdparty.
   name: Adyen storeDetailAndSubmitThirdParty API
   slug: adyen-storedetailandsubmitthirdparty-api
-- description: The storedPaymentMethods API from Adyen — 2 operation(s) for storedpaymentmethods.
-  name: Adyen storedPaymentMethods API
-  slug: adyen-storedpaymentmethods-api
 - description: The Storedvalue API from Adyen — 1 operation(s) for storedvalue.
   name: Adyen Storedvalue API
   slug: adyen-storedvalue-api
 - description: The Stores API from Adyen — 5 operation(s) for stores.
   name: Adyen Stores API
   slug: adyen-stores-api
-- description: The Subjects API from Adyen — 1 operation(s) for subjects.
-  name: Adyen Subjects API
-  slug: adyen-subjects-api
 - description: The submitThirdParty API from Adyen — 1 operation(s) for submitthirdparty.
   name: Adyen submitThirdParty API
   slug: adyen-submitthirdparty-api
 - description: The supplyDefenseDocument API from Adyen — 1 operation(s) for supplydefensedocument.
   name: Adyen supplyDefenseDocument API
   slug: adyen-supplydefensedocument-api
-- description: The Suspend API from Adyen — 2 operation(s) for suspend.
-  name: Adyen Suspend API
-  slug: adyen-suspend-api
 - description: The suspendAccountHolder API from Adyen — 1 operation(s) for suspendaccountholder.
   name: Adyen suspendAccountHolder API
   slug: adyen-suspendaccountholder-api
-- description: The Sweep API from Adyen — 1 operation(s) for sweep.
-  name: Adyen Sweep API
-  slug: adyen-sweep-api
-- description: The Sweeps API from Adyen — 2 operation(s) for sweeps.
-  name: Adyen Sweeps API
-  slug: adyen-sweeps-api
-- description: The Tax API from Adyen — 2 operation(s) for tax.
-  name: Adyen Tax API
-  slug: adyen-tax-api
 - description: The technicalCancel API from Adyen — 1 operation(s) for technicalcancel.
   name: Adyen technicalCancel API
   slug: adyen-technicalcancel-api
@@ -585,18 +420,6 @@ apis:
 - description: The Themes API from Adyen — 2 operation(s) for themes.
   name: Adyen Themes API
   slug: adyen-themes-api
-- description: The Token API from Adyen — 1 operation(s) for token.
-  name: Adyen Token API
-  slug: adyen-token-api
-- description: The Tokens API from Adyen — 2 operation(s) for tokens.
-  name: Adyen Tokens API
-  slug: adyen-tokens-api
-- description: The Transaction API from Adyen — 4 operation(s) for transaction.
-  name: Adyen Transaction API
-  slug: adyen-transaction-api
-- description: The transactionRules API from Adyen — 2 operation(s) for transactionrules.
-  name: Adyen transactionRules API
-  slug: adyen-transactionrules-api
 - description: The Transactions API from Adyen — 2 operation(s) for transactions.
   name: Adyen Transactions API
   slug: adyen-transactions-api
@@ -609,9 +432,6 @@ apis:
 - description: The transferInstruments API from Adyen — 2 operation(s) for transferinstruments.
   name: Adyen transferInstruments API
   slug: adyen-transferinstruments-api
-- description: The transferRoutes API from Adyen — 1 operation(s) for transferroutes.
-  name: Adyen transferRoutes API
-  slug: adyen-transferroutes-api
 - description: The Transfers API from Adyen — 4 operation(s) for transfers.
   name: Adyen Transfers API
   slug: adyen-transfers-api
@@ -633,18 +453,6 @@ apis:
 - description: The uploadDocument API from Adyen — 1 operation(s) for uploaddocument.
   name: Adyen uploadDocument API
   slug: adyen-uploaddocument-api
-- description: The Uploaded API from Adyen — 1 operation(s) for uploaded.
-  name: Adyen Uploaded API
-  slug: adyen-uploaded-api
-- description: The Uploads API from Adyen — 1 operation(s) for uploads.
-  name: Adyen Uploads API
-  slug: adyen-uploads-api
-- description: The Validate API from Adyen — 1 operation(s) for validate.
-  name: Adyen Validate API
-  slug: adyen-validate-api
-- description: The validateBankAccountIdentification API from Adyen — 1 operation(s) for validatebankaccountidentification.
-  name: Adyen validateBankAccountIdentification API
-  slug: adyen-validatebankaccountidentification-api
 - description: The voidPendingRefund API from Adyen — 1 operation(s) for voidpendingrefund.
   name: Adyen voidPendingRefund API
   slug: adyen-voidpendingrefund-api
@@ -703,7 +511,7 @@ arazzos:
 - description: List a shopper's stored payment tokens then disable one of them.
   name: Adyen List Recurring Details and Disable a Token
   slug: adyen-recurring-list-and-disable-workflow
-artifact_total: 7070
+artifact_total: 7006
 asyncapis:
 - description: 'AsyncAPI description of Adyen''s webhook surface. Adyen pushes event-driven messages to a customer-defined HTTPS endpoint using HTTP POST. This document models two webhook surfaces: * Standard Notifica'
   name: Adyen Webhooks (Standard Notifications and Platforms)
@@ -1394,6 +1202,10 @@ collections:
   name: Adyen Account acceptDispute voidTransaction API
   slug: open-adyen-voidtransaction-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/adyen-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -22305,13 +22117,13 @@ modified: '2026-05-30'
 name: Adyen
 nav: Providers
 network: true
-overview: 'Adyen publishes 202 APIs on the [APIs.io](https://apis.io/) network, including acceptDispute API, Account API, accountHolderBalance API, and 199 more. Tagged areas include Payments, Financial-Services, and Fintech.
+overview: 'Adyen publishes 138 APIs on the [APIs.io](https://apis.io/) network, including acceptDispute API, Account API, accountHolderBalance API, and 135 more. Tagged areas include Payments, Financial-Services, and Fintech.
 
 
   The Adyen catalog on APIs.io includes 1 event-driven AsyncAPI specification, 854 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Adyen''s developer surface includes authentication, sandbox, changelog, pricing, documentation, getting-started guide, engineering blog, and 60 more developer resources.'
+  Adyen''s developer surface includes authentication, sandbox, changelog, pricing, documentation, getting-started guide, engineering blog, and 61 more developer resources.'
 plans:
 - name: Adyen Plans Pricing
   plan_count: 2
@@ -22355,18 +22167,23 @@ rules:
   slug: adyen-spectral-rules
 score:
   band: exemplar
-  composite: 67.1
+  composite: 66.9
+  coverage:
+    artifact_dirs: 28
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
     contract_governance: 28.8
-    contract_quality: 76.6
+    contract_quality: 76.0
     developer_ergonomics: 69.0
     discoverability: 72.2
     governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 67.1
+  previous_composite: 66.9
   provenance:
     agentic_access: derived
     contracts:
@@ -22380,8 +22197,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/screenshots/adyen-2026-06-20T165409.png
 security:

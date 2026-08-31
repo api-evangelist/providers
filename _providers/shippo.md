@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 29
   slug: shippo-agentic-access
   summary_line: 29 operations · 11 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Validate and manage shipping addresses
   name: Shippo Addresses API
@@ -111,6 +111,10 @@ collections:
   name: Shippo API
   slug: open-shippo
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shippo-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -302,7 +306,7 @@ overview: 'Shippo publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   The Shippo catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Shippo''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, and 10 more developer resources.'
+  Shippo''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, and 11 more developer resources.'
 plans:
 - name: Shippo Plans Pricing
   plan_count: 2
@@ -347,18 +351,23 @@ rules:
   slug: shippo-rules
 score:
   band: developing
-  composite: 52.8
-  delta: 3.7
+  composite: 52.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 28.8
     contract_quality: 78.7
     developer_ergonomics: 73.8
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 49.1
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     contracts:
@@ -366,8 +375,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shippo/refs/heads/main/screenshots/shippo-2026-06-20T193822.png
 security:

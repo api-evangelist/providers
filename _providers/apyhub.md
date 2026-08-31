@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 506
   human_in_the_loop: 0
@@ -42,407 +42,56 @@ agentic_access:
   operation_count: 552
   slug: apyhub-agentic-access
   summary_line: 552 operations · 506 acting
-api_count: 451
+api_count: 210
 apis:
 - description: Classify a public JPG, PNG, or WebP URL as likely AI-generated, human, or uncertain. Returns ai_score, confidence, and source_breakdown.
   name: AI-Generated Image Detection API
   slug: anyimagedetector-detect-ai-generated-image
-- description: Add text or PNG headers and footers to DOCX files, from upload or URL. Return a modified document or a downloadable URL.
-  name: Apply Headers and Footers on DOCX API
-  slug: apyhub-add-header-footer-to-docx
-- description: Add text or PNG headers and footers to a PDF from a file or URL. Returns a modified PDF or an S3 URL for invoices, reports, and branded documents.
-  name: Apply Footers on PDF API
-  slug: apyhub-add-header-footer-to-pdf
-- description: Detect the spoken language in an audio file or public audio URL. Returns a locale code and confidence score for routing transcription and voice workflows.
-  name: AI Audio Language Detection API
-  slug: apyhub-ai-detect-audio-language
-- description: Detect the language of a text string with ApyHub, Azure, or Google. Route multilingual content into translation, classification, or indexing pipelines.
-  name: AI Text Language Detection API
-  slug: apyhub-ai-detect-language
-- description: Summarize text or a web page URL with summary_length and output_language. Useful for article digests, research notes, and content previews.
-  name: AI Summarize API
-  slug: apyhub-ai-summarize-api
-- description: 'Text Sentiment Analyzer lets you send a text string and get sentiment analysis back from one of three providers: ApyHub, Azure, or Google. Use it when you need to classify customer feedback, scan revi'
-  name: AI Text Sentiment Analysis API
-  slug: apyhub-analyze-text-sentiment
-- description: Anonymize free-form text and return an azure or apyhub response object. Useful for redacting names and phone numbers before storage or sharing.
-  name: AI Text Anonymization API
-  slug: apyhub-anonymize-text
 - description: Image Filter lets you apply a fixed set of transformations to an image and return the result as a file or a signed URL. Send either a binary image upload or an image url, choose a filter, and optional
   name: Image Filters API
   slug: apyhub-apply-filter
-- description: Add a text or image watermark to each page of a PDF from an upload or URL. Get the result as a download or S3 URL.
-  name: Apply Watermark on PDF API
-  slug: apyhub-apply-watermark-on-pdf
-- description: Add text or image watermarks to images from Base64, multipart upload, or URL. Returns binary output or a signed URL for branded assets and previews.
-  name: Apply Watermark on Images API
-  slug: apyhub-apply-watermark
-- description: Ask natural-language questions about an uploaded PDF or a PDF URL. Returns an answer string for document search, review, and support workflows.
-  name: Talk to PDF API
-  slug: apyhub-ask-question-about-pdf
-- description: Extract audio from a video URL or file into mp3, wav, aac, ogg, flac, wma, or ac3. Poll a job_id to get the output URL when it finishes.
-  name: Audio Extractor from Video Job API
-  slug: apyhub-audio-extract-from-video
 - description: Ranks candidate strings against a source string and returns matches with Levenshtein distance. Useful for typo correction, deduplication, and closest-match lookup.
   name: Best Match Text Search API
   slug: apyhub-best-match-text-search
 - description: Scan a webpage URL and get link statuses, redirect chains, response times, and a summary of broken links for audits and QA.
   name: Broken Link Checker API
   slug: apyhub-broken-link-checker-api
-- description: Capture a public URL as a PDF download or signed link. Useful for archiving pages, sharing snapshots, and automating document workflows.
-  name: Convert Webpage to PDF API
-  slug: apyhub-capture-public-url-as-pdf
-- description: Capture a webpage from a URL and get a PNG download or signed link. Useful for QA, visual regression, and archiving page states.
-  name: Generate Webpage Screenshot API
-  slug: apyhub-capture-webpage-screenshot
-- description: Compose a subject image onto a new background using files or URLs. Returns PNG downloads or signed links for product shots and social assets.
-  name: Change Background of Images API
-  slug: apyhub-change-image-background
-- description: Check whether an email belongs to an academic institution. Returns a boolean for education access, sign-up gating, and affiliation checks.
-  name: Validate Academic Email API
-  slug: apyhub-check-whether-an-email-belongs-to-an-aca
 - description: Compare two text or code snippets and get ordered diff segments plus addition, deletion, and unchanged counts for review and change tracking.
   name: Differentiate Text API
   slug: apyhub-compare-text-or-code-snippets
-- description: Compress JPEG, PNG, WebP, GIF, TIFF, and BMP images from a URL or upload. Get a smaller file or a signed download link.
-  name: Compress Images API
-  slug: apyhub-compress-images
-- description: Compress videos from a file upload or URL and poll for a job URL. Returns job status, with a downloadable output when processing succeeds.
-  name: Compress Video Job API
-  slug: apyhub-compress-video-job
-- description: Compress videos from an upload or URL and return a file or signed download link. Set compression percentage to shrink media for storage or delivery.
-  name: Compress Video File API
-  slug: apyhub-compress-video
-- description: Classify text with a Google-backed response. Send text plus requested_service and get structured classification data for moderation and routing.
-  name: AI Text Content Classification API
-  slug: apyhub-content-classification
-- description: Convert uploaded CSV files or CSV URLs into XLSX. Get either a streamed download or a signed link for spreadsheet workflows.
-  name: Convert CSV to Excel API
-  slug: apyhub-convert-csv-to-xlsx
-- description: Convert uploaded CSV files, raw CSV text, or CSV URLs into XML files, inline XML, or signed S3 links. Useful for exports and integrations that expect XML.
-  name: Convert CSV to XML API
-  slug: apyhub-convert-csv-to-xml
-- description: Get the exchange rate for a source and target currency pair on a given date. Useful for pricing, reporting, and historical FX checks.
-  name: Convert Currency API
-  slug: apyhub-convert-currency-pair-for-date
-- description: Convert a source currency into multiple target currencies with optional date-based rates. Returns pair keys with rates or false when unavailable.
-  name: Convert Currency to Multiple Currencies API
-  slug: apyhub-convert-currency-to-multiple-currencies
-- description: Convert HEIC and HEIF images to JPEG or PNG from a file upload or public URL. Get a binary download or a signed URL for the converted image.
-  name: Convert HEIC to JPEG/PNG API
-  slug: apyhub-convert-heic-heif-to-jpeg-or-png
-- description: Convert an HTML content string into a PDF download or signed link. Useful for invoices, reports, and other HTML-based documents.
-  name: Convert HTML Content to PDF API
-  slug: apyhub-convert-html-content-to-pdf
-- description: Convert a public HTML URL or uploaded .html/.htm file into DOCX. Return a downloadable file or an S3 URL for Word document workflows.
-  name: Convert HTML to Word API
-  slug: apyhub-convert-html-to-docx
-- description: Convert HTML from a URL, base64 string, or file upload into PDF bytes or a signed link. Useful for invoices, reports, and printable web pages.
-  name: Convert HTML to PDF API
-  slug: apyhub-convert-html-to-pdf
-- description: Convert uploaded images, base64 bytes, or image URLs into PDF binaries or signed links. Useful for scans, screenshots, and image-based document workflows.
-  name: Convert Images to PDF API
-  slug: apyhub-convert-image-to-pdf
 - description: Convert JPEG images to AVIF from a public URL or multipart upload. Return either binary output or a signed download link.
   name: Convert JPEG to AVIF API
   slug: apyhub-convert-jpeg-to-avif-api
-- description: JPEG to WebP Converter turns a JPEG or JPG image into a WebP file. Send either a public image URL or a binary image upload, and choose whether you want the result returned as a downloadable file or as
-  name: Convert JPEG to WebP API
-  slug: apyhub-convert-jpeg-to-webp
-- description: Convert raw JSON, uploaded files, or JSON URLs into GraphQL SDL. Get inline text, a .graphql download, or a pre-signed S3 URL.
-  name: Convert JSON to GraphQL Schema API
-  slug: apyhub-convert-json-to-graphql-sdl
-- description: Convert JSON objects, JSON URLs, or JSON files into Markdown. Get raw text, a .md download, or a pre-signed file link.
-  name: Convert JSON to Markdown API
-  slug: apyhub-convert-json-to-markdown
-- description: Generate Mongoose schema code from JSON bodies, files, or URLs. Returns JS or TS output plus inference metadata for review.
-  name: Convert JSON to Mongoose Schema API
-  slug: apyhub-convert-json-to-mongoose-schema
-- description: Convert JSON from a body, file, or URL into Prisma schema text or a .prisma file. Supports PostgreSQL, MySQL, SQLite, and MongoDB.
-  name: Convert JSON to Prisma Schema API
-  slug: apyhub-convert-json-to-prisma-schema
-- description: Convert raw JSON, uploaded files, or JSON URLs into XML. Get a raw XML string, downloadable .xml file, or pre-signed S3 link.
-  name: Convert JSON to XML API
-  slug: apyhub-convert-json-to-xml
-- description: Convert JSON files, raw JSON bodies, or JSON URLs into YAML. Get downloadable files, raw text, or pre-signed S3 URLs for downstream use.
-  name: Convert JSON to YAML API
-  slug: apyhub-convert-json-to-yaml
-- description: Generate Zod schemas from JSON bodies, files, or URLs. Returns raw schema text, explain output, or downloadable files for typed validation.
-  name: Convert JSON to Zod Schema API
-  slug: apyhub-convert-json-to-zod-schema
-- description: Convert Markdown files or Markdown URLs into HTML downloads or signed links. Useful for docs, changelogs, and static publishing workflows.
-  name: Convert Markdown to HTML files API
-  slug: apyhub-convert-markdown-to-html-files
-- description: Convert Markdown from a JSON body or raw text/plain input into HTML. Use it for rendered content in docs, CMS, and publishing flows.
-  name: Convert Markdown to HTML content API
-  slug: apyhub-convert-markdown-to-html
-- description: Convert raw Markdown, files, or URLs into JSON. Get inline output, a downloadable JSON file, or a signed S3 URL for document pipelines.
-  name: Convert Markdown to JSON API
-  slug: apyhub-convert-markdown-to-json
-- description: Convert raw Markdown, uploaded files, or Markdown URLs into PDF. Get a downloadable file or a signed S3 URL back.
-  name: Convert Markdown to PDF API
-  slug: apyhub-convert-markdown-to-pdf
 - description: Convert MP3 files or public MP3 URLs to AAC. Returns a binary file or a signed download URI for media workflows.
   name: Convert MP3 to AAC API
   slug: apyhub-convert-mp3-to-aac
-- description: Convert PDF pages into JPG or PNG images from a file, URL, or base64 input. Returns a ZIP download or a download_url for the generated images.
-  name: Convert PDF to Image API
-  slug: apyhub-convert-pdf-pages-to-images
-- description: Convert PDFs to editable DOCX from a file, URL, or base64 content. Returns a DOCX download or S3 download_url for document workflows.
-  name: Convert PDF to Word API
-  slug: apyhub-convert-pdf-to-docx
-- description: Convert PDFs to PPTX from a file upload, public URL, or base64 input. Get a downloadable presentation file or a download_url.
-  name: Convert PDF to PowerPoint API
-  slug: apyhub-convert-pdf-to-powerpoint
-- description: Convert a .pes embroidery file into a downloadable ZIP archive. Useful for packaging embroidery assets for transport or downstream file workflows.
-  name: Convert PES to ZIP API
-  slug: apyhub-convert-pes-to-zip
-- description: Convert PNG images to WebP from an upload or a URL. Get a binary file or a signed result link for web delivery and asset pipelines.
-  name: Convert PNG to WebP API
-  slug: apyhub-convert-png-to-webp
-- description: Convert .ppt, .pptx, or .odp files to PDF from uploads, base64, or URLs. Get a binary PDF or a signed link for review and sharing.
-  name: Convert Presentations to PDF API
-  slug: apyhub-convert-presentation-to-pdf
-- description: Parse RSS or Atom feeds from a file or URL into JSON. Useful for ingesting blog, news, or podcast feeds into apps and pipelines.
-  name: Convert RSS to JSON API
-  slug: apyhub-convert-rss-to-json
-- description: Convert spreadsheet uploads, URLs, or base64 bytes to PDF. Get binary downloads or signed links for Excel, XLSX, and ODS files.
-  name: Convert Spreadsheets to PDF API
-  slug: apyhub-convert-spreadsheet-to-pdf
-- description: Convert SVG files or URLs to WebP. Get binary downloads or signed URLs for image pipelines, CMS imports, and asset standardization.
-  name: Convert SVG to WebP API
-  slug: apyhub-convert-svg-to-webp
-- description: Convert text, file uploads, or document URLs into MP3 audio. Get a binary download or a signed link with male or female voice selection.
-  name: Convert Text to Speech API
-  slug: apyhub-convert-text-to-speech
-- description: Convert uploaded videos or video URLs into mp4, mkv, avi, mov, flv, 3gp, or webm. Track jobs with a job ID and status response.
-  name: Convert Video Formats Job API
-  slug: apyhub-convert-video-formats-job
-- description: Convert video files from a URL or upload into mp4, mkv, avi, mov, flv, 3gp, or webm. Get a download file or a signed cloud link.
-  name: Convert Video Formats API
-  slug: apyhub-convert-video-formats
-- description: Convert WAV files to MP3 from uploads or public URLs. Get a streamed binary download or a signed link for the converted audio.
-  name: Convert WAV to MP3 API
-  slug: apyhub-convert-wav-to-mp3
-- description: Convert Word files, base64 documents, or remote URLs to PDF. Get a binary download or a signed link for `.doc`, `.docx`, `.odt`, and `.rtf` inputs.
-  name: Convert Word to PDF API
-  slug: apyhub-convert-word-to-pdf
-- description: Convert XML from a raw body, file upload, or URL into CSV text, a downloadable file, or a signed URL. Useful for feeds and ETL pipelines.
-  name: Convert XML to CSV API
-  slug: apyhub-convert-xml-to-csv
-- description: Convert raw XML, XML files, or XML URLs into JSON. Get inline data, a downloadable JSON file, or a pre-signed S3 URL for automation and ETL.
-  name: Convert XML to JSON API
-  slug: apyhub-convert-xml-to-json
-- description: Convert raw YAML, uploaded files, or YAML at a URL into inline JSON, a downloadable file, or a signed S3 URL.
-  name: Convert YAML to JSON API
-  slug: apyhub-convert-yaml-to-json
 - description: Count working days between two dates for a country. Returns total days, weekends, holidays, and working_days for scheduling and payroll logic.
   name: Working Day Calculator API
   slug: apyhub-count-working-days
-- description: Create encrypted ZIP archives from uploaded files or remote URLs. Stream the ZIP or return a signed download link for controlled sharing.
-  name: Generate Secure Archives API
-  slug: apyhub-create-password-protected-zip
-- description: Bundle uploaded files or remote URLs into a ZIP. Get a streamed ZIP download or a signed link, with optional output file naming.
-  name: Generate Archives API
-  slug: apyhub-create-zip
-- description: Crop raster images by URL or file upload and get a binary file or signed download link. Use box crops or margin insets for thumbnails and asset prep.
-  name: Crop Images API
-  slug: apyhub-crop-image
-- description: Convert raw CSV, uploaded files, or CSV URLs into JSON arrays, downloadable files, or pre-signed S3 links for import and ETL workflows.
-  name: Convert CSV to JSON API
-  slug: apyhub-csv-to-json
-- description: Lookup a country by ISO 3166-1 alpha-2 code and get its name, alpha-3 code, currency, calling codes, and subdivisions.
-  name: Country Information API
-  slug: apyhub-detailed-info-for-a-single-country
-- description: Detect common objects from an uploaded image or image URL. Returns provider-specific results for Azure, Google, or ApyHub vision detectors.
-  name: AI Image Objects Detection API
-  slug: apyhub-detect-common-visual-objects
-- description: Scan image files or URLs for explicit or sensitive content. Returns provider-specific results from ApyHub, Azure, or Google for moderation workflows.
-  name: AI Image Explicit Content Detection API
-  slug: apyhub-detect-explicit-or-sensitive-content
-- description: Face Detection identifies human faces in an image you send as a file or by URL. Use it when you need to flag portrait photos, pre-check user uploads, or build image workflows that depend on knowing wh
-  name: AI Image Face Detection API
-  slug: apyhub-detect-human-faces
-- description: Identify landmarks from image uploads or image URLs. Returns detector responses from ApyHub, Azure, or Google for vision workflows.
-  name: AI Image Landmark Detection API
-  slug: apyhub-detect-landmarks
-- description: Detect the spoken language in a video file or video URL. Returns Azure language code and confidence for routing transcription and review.
-  name: AI Video Language Detection API
-  slug: apyhub-detect-language-video
-- description: Detect the language of a text sample and get the language name, ISO codes, script, and confidence score for routing or localization.
-  name: Language Detection API
-  slug: apyhub-detect-language
-- description: Detect logos and brand marks from an image file or URL. Returns provider-specific results from Azure, Google, or ApyHub vision models.
-  name: AI Image Brand/Logo Detection API
-  slug: apyhub-detect-logos-and-brands
-- description: Detect people in media from a file or URL using Azure or Google. Returns provider-specific results in a structured data object.
-  name: AI Video Person Detection API
-  slug: apyhub-detect-persons
-- description: Analyze a video file or URL and get shot change results back under Azure or Google. Useful for scene segmentation, indexing, and review workflows.
-  name: AI Video Shot Change Detection API
-  slug: apyhub-detect-shot-changes
-- description: Detect brands from a video URL or uploaded file. Returns provider-scoped output for Azure or Google based on the service you request.
-  name: AI Video Brand/Logo Detection API
-  slug: apyhub-detect-video-brands
-- description: Analyze a video from a file or URL with Azure or Google. Returns provider-specific label results for search, moderation, and media workflows.
-  name: AI Video Label Detection API
-  slug: apyhub-detect-video-labels
-- description: Detect objects from a video file or URL using Azure or Google routes. Returns provider-specific results under data for media review and indexing.
-  name: AI Video Object Detection API
-  slug: apyhub-detect-video-objects
-- description: Extract text from video URLs or uploads using Azure or Google. Returns provider-specific results for OCR workflows, indexing, and review.
-  name: AI Video Text Detection API
-  slug: apyhub-detect-video-text
-- description: Send a file or document URL and get extracted results in a structured response. Route through Azure or ApyHub for document parsing workflows.
-  name: AI Document Data Extraction API
-  slug: apyhub-document-extraction
 - description: Check whether a domain is available, taken, or indeterminate. Validate candidate names for signup flows, registrars, and domain search tools.
   name: Domain Availability API
   slug: apyhub-domain-availability-api
-- description: Analyze sentiment around entities mentioned in text. Send text with requested_service=google and receive a data.google result for NLP workflows.
-  name: AI Text Entity Sentiment Analysis API
-  slug: apyhub-entity-sentiment-analysis
-- description: Detect explicit material in video files or URLs using Azure or Google routes. Returns provider-specific results for content moderation workflows.
-  name: AI Video Explicit Content Detection API
-  slug: apyhub-explicit-content-detection
-- description: Analyze public article URLs and return ranked keyword groups with scores. Useful for content clustering, topic analysis, and SEO workflows.
-  name: Analyse Keywords API
-  slug: apyhub-extract-and-group-keywords-from-article
-- description: Extract audio from a video upload or URL as binary output or a signed download link. Choose segment length, start time, and audio format.
-  name: Audio Extractor from Video API
-  slug: apyhub-extract-audio-from-video
-- description: ID Data Extraction lets you send an ID document as a file or by URL and get extracted identity data back. Choose the requestedservice value to route the request to apyhub or azure, and, for Azure-back
-  name: AI Document ID Extraction API
-  slug: apyhub-extract-id-data
-- description: Extract ExifTool metadata from an uploaded image or image URL. Get format, size, dimensions, MIME type, and other file details in JSON.
-  name: Extract Image Metadata API
-  slug: apyhub-extract-image-metadata
-- description: Extract structured invoice data from a file or URL. Returns ApyHub or Azure invoice parsing output for accounts payable and ingestion workflows.
-  name: AI Document Invoice Data Extraction API
-  slug: apyhub-extract-invoice-data
-- description: Extract keywords from plain text for tagging, search, and content analysis. Supports ApyHub or Azure results with optional language selection.
-  name: AI Text Keyword Extraction API
-  slug: apyhub-extract-keywords-from-text
-- description: Extract absolute URLs from a webpage, with optional headers and URL safety checks. Useful for crawling, audits, and sitemap collection.
-  name: Extract Links from Webpage API
-  slug: apyhub-extract-links-from-webpage
-- description: Decrypt uploaded or remote .zip, .rar, or .7z archives with a password. Returns signed URLs for each extracted file.
-  name: Unarchive Secured Files API
-  slug: apyhub-extract-password-protected-archive
-- description: Extract reading data from a file upload or URL. Returns ApyHub or Azure parsing output for document workflows and indexing.
-  name: OCR Document Data Extraction API
-  slug: apyhub-extract-read-data
-- description: Extract receipt data from uploads or URLs. Returns ApyHub or raw Azure parsing output for expense tracking and receipt processing.
-  name: AI Document Receipt Data Extraction API
-  slug: apyhub-extract-receipt-data
 - description: Extract URLs from a website’s sitemaps, with optional sitemap metadata and async job polling. Useful for SEO audits, crawl seeds, and site inventory.
   name: Extract Sitemap from URL API
   slug: apyhub-extract-sitemap-from-url-api
-- description: Extract table data from a file or URL. Returns Azure or ApyHub parsing output for invoice, report, and document table capture.
-  name: AI Document Table Data Extraction API
-  slug: apyhub-extract-table-data
-- description: Extract text from image files or image URLs. Returns structured OCR output via Azure Vision Read API or ApyHub OCR for parsing and indexing.
-  name: AI Image Optical Character Recognition (OCR) API
-  slug: apyhub-extract-text-from-image
-- description: Extract text from a PDF by URL or file upload. Supports page ranges and region bounds, returning plain text in a single data field.
-  name: Extract Text from PDF API
-  slug: apyhub-extract-text-from-pdf
-- description: Extract plain text from .doc or .docx files by URL or upload. Returns a single text field for indexing, search, and document workflows.
-  name: Extract Text from Word API
-  slug: apyhub-extract-text-from-word
-- description: Read metadata from a video file or URL and get nested audio, video, and file details in JSON for validation, indexing, or processing.
-  name: Extract Video Metadata API
-  slug: apyhub-extract-video-metadata
-- description: Extract visible text from a webpage as a string or line array. Useful for crawling, search indexing, and SEO checks.
-  name: Extract Text from Webpage API
-  slug: apyhub-extract-visible-text-from-awebpage
-- description: Detect faces from uploaded files or remote URLs using Azure or Google. Returns provider-specific results in a data object for media workflows.
-  name: AI Video Face Detection API
-  slug: apyhub-face-detection
-- description: Compare a source string against a space-separated target and get matching words back. Useful for autocomplete, filtering, and text normalization.
-  name: Fuzzy Text Search API
-  slug: apyhub-fuzzy-search
 - description: Bar Chart Generator creates bar chart images and shareable chart links from a title and a list of bar values. Send a title, data array, and optional theme or options; get back either a binary image fr
   name: Generate Bar Graph API
   slug: apyhub-generate-bar-graph
-- description: Generate Code128 barcodes from a text string and download them or get a pre-signed cloud URL. Useful for labels, inventory, and ticketing.
-  name: Generate Barcode API
-  slug: apyhub-generate-barcode
-- description: Convert a video URL or file into a GIF job and poll for a download URL. Adjust size, speed, duration, and start time for the clip you need.
-  name: Generate GIF from Video Job API
-  slug: apyhub-generate-gif-from-video
-- description: Convert uploaded videos or remote video URLs into GIFs. Control size, speed, start time, and duration, with binary download or signed link output.
-  name: Generate GIF from Video API
-  slug: apyhub-generate-gif
-- description: Generate downloadable .ics files or signed links from event details, with reminders, recurrence, all-day events, and time zone support.
-  name: Generate iCal API
-  slug: apyhub-generate-ical-event
-- description: 'Link Preview fetches a URL and returns the metadata you need to build a rich preview card. Send a URL, and Link Preview returns the page title, description, images, videos, favicons, site name, media '
-  name: Generate Link Preview API
-  slug: apyhub-generate-link-preview
 - description: Generate Open Graph PNGs from JSON with title, subtitle, description, and brand colors. Use a file or signed URL in social preview workflows.
   name: Basic OG Image Generator API
   slug: apyhub-generate-og-image
-- description: Generate pie chart images from labeled values, optional colors, and chart styling. Returns a pre-signed URL or binary image for dashboards and reports.
-  name: Generate Pie Chart API
-  slug: apyhub-generate-pie-chart
-- description: Generate PNG previews from uploaded files or remote URLs. Stream the image or return a signed link, with optional width control.
-  name: Generate File Preview API
-  slug: apyhub-generate-png-preview
-- description: Create QR codes from text, vCards, or Wi‑Fi details. Download the image or get a pre-signed cloud URL, with logo, color, and error-correction options.
-  name: Generate QR Code API
-  slug: apyhub-generate-qr-code
 - description: Generate calendar heatmap charts from dated numeric data. Returns a chart image file or a pre-signed image URL for dashboards and reports.
   name: Generate HeatMap Chart API
   slug: apyhub-generate-simple-heatmap-chart
 - description: Generate radar chart images or pre-signed links from titles, labels, and series data. Useful for score comparisons, dashboards, and reports.
   name: Generate Radar Chart API
   slug: apyhub-generate-simple-radar-chart
-- description: Create stacked bar chart images from titled data arrays with optional colors and layout settings. Get a pre-signed URL or binary image for reporting and dashboards.
-  name: Generate Stacked Graph API
-  slug: apyhub-generate-stacked-bar-chart
 - description: Generate SVG badges from a label and message, with optional colors. Download the SVG or get a signed URL for READMEs, docs, and CI status.
   name: Generate SVG Badge API
   slug: apyhub-generate-svg-badge
-- description: Extract a PNG frame from a video file or URL at a chosen timestamp, with binary download or signed link output for previews and galleries.
-  name: Generate Thumbnail from Video API
-  slug: apyhub-generate-thumbnail-from-video
-- description: Create thumbnails from an uploaded image or image URL. Set width and height, and get binary output or a signed URL back.
-  name: Generate Image Thumbnails API
-  slug: apyhub-generate-thumbnail
-- description: Create a thumbnail from a video file or URL, choose the frame time and output size, and poll for a result URL.
-  name: Generate Thumbnail from Video Job API
-  slug: apyhub-generate-video-thumbnail-job-api
-- description: Clip a video file or video URL into a short output. Set start time, duration, and optional size, then poll for a job_id and output URL.
-  name: Generate Video Thumbnail Job API
-  slug: apyhub-generate-video-thumbnail-job
-- description: Trim a short clip from an uploaded video or a remote video URL. Get binary output or a signed link for previews, samples, and media workflows.
-  name: Generate Video Thumbnail API
-  slug: apyhub-generate-video-thumbnail
-- description: Add text or image watermarks to videos from a URL or file. Poll a job ID for the finished video URL when processing completes.
-  name: Generate Watermark For Videos Job API
-  slug: apyhub-generate-video-watermark
-- description: Add text or image watermarks to uploaded videos or remote video URLs. Returns a processed video download or a signed link for the result.
-  name: Generate Watermark For Videos API
-  slug: apyhub-generate-watermark-for-videos
-- description: Convert JSON objects, arrays, files, or URLs into CSV. Get inline text, a downloadable file, or a pre-signed S3 URL for exports.
-  name: Convert JSON to CSV API
-  slug: apyhub-json-to-csv
-- description: Get a structured list of countries with ISO codes, currency details, emojis, and calling codes for forms, routing, and localization.
-  name: Countries Dictionary API
-  slug: apyhub-list-all-countries
-- description: Currency Directory gives you a complete list of currencies with their ISO 4217 code, English name, emoji, and symbol. Send a GET request and receive a data array of currency objects. Each item include
-  name: Currencies Dictionary API
-  slug: apyhub-list-all-currencies
-- description: Get a live list of time zones with country codes, IANA names, current UTC offsets, and abbreviations for scheduling and locale-aware apps.
-  name: Timezones Dictionary API
-  slug: apyhub-list-timezones
 - description: Verify a VAT number and retrieve the matching company name, address, country code, and validity status for onboarding and invoicing checks.
   name: VAT Company Lookup API
   slug: apyhub-lookup-vat-company
-- description: Merge uploaded files or public file URLs into a single PDF. Returns a PDF download or an S3 URL for documents, images, spreadsheets, and more.
-  name: Merge Files to PDF API
-  slug: apyhub-merge-files-to-pdf
 - description: Batch resolve domains or IPs for A, AAAA, MX, NS, TXT, CNAME, and PTR records. Get per-row status plus record data for each query.
   name: DNS Batch Lookup API
   slug: apyhub-mono-go-dns-batch-lookup
@@ -467,12 +116,6 @@ apis:
 - description: Convert WebP images to PNG from file uploads or image URLs. Download the PNG directly or get a signed URL for the converted file.
   name: Convert WebP to PNG API
   slug: apyhub-mono-go-webp-to-png-conversion
-- description: Convert MP3 files or public audio URLs to WAV. Get the result as a binary download or a signed URL for audio workflows and processing.
-  name: Convert MP3 to WAV API
-  slug: apyhub-mp3-to-wav-conversion
-- description: Parse a raw User-Agent string into browser, platform, device, and engine data. Useful for analytics, request logging, and bot detection.
-  name: Extract User Agent API
-  slug: apyhub-parse-user-agent-string
 - description: Compare a source word against candidate strings using Metaphone or Soundex. Returns matching words with shared phonetic codes for deduping and search.
   name: Phonetic Text Search API
   slug: apyhub-phonetic-match
@@ -482,135 +125,21 @@ apis:
 - description: Rank fuzzy matches for a search term against space-separated text. Returns matches with Levenshtein distance for lookup and typo-tolerant search.
   name: Ranked Text Search API
   slug: apyhub-ranked-text-search
-- description: Extract names, organizations, and places from text using Azure, Google, or ApyHub. Useful for enrichment, indexing, and document analysis.
-  name: AI Text Entity Recognition API
-  slug: apyhub-recognize-entities-in-text
 - description: Background Remover removes the background from an image and returns either a PNG download or a signed file URL. Send a raster image directly as multipart form data, or provide an imageurl to fetch the
   name: Remove Background from Images API
   slug: apyhub-remove-background-from-images
-- description: Remove metadata from uploaded images or image URLs. Return a cleaned binary file or a signed URI, with optional EXIF key and GPS cleanup.
-  name: Remove Image Metadata API
-  slug: apyhub-remove-image-metadata
-- description: Resize uploaded images or images from a URL to exact width and height. Get a binary file or a signed download link, with optional format preservation.
-  name: Resize Images API
-  slug: apyhub-resize-image
-- description: Analyze plain text with readability metrics, word and sentence stats, and English or German scoring. Useful for checking copy before publication.
-  name: Readability Scores API
-  slug: apyhub-score-readability-of-plain-text
-- description: Analyze documents or web pages for readability scores, text stats, and grade-level classification. Useful for content review and plain-language checks.
-  name: Readability Scores Documents API
-  slug: apyhub-score-readability
-- description: Get ranked search results for a keyword with language and location options. Returns URLs, titles, domains, and descriptions for SEO analysis.
-  name: SERP Rank Checker API
-  slug: apyhub-serp-rankings-for-keyword
-- description: Convert uploaded files or media URLs to text using Azure or Google transcription. Get a provider-specific response for speech search, review, and analytics.
-  name: AI Video Transcriber API
-  slug: apyhub-speech-transcription
-- description: Add headers and footers to PDFs from a URL or file upload. Return a stamped PDF as a binary file or signed URL, with text or PNG image support.
-  name: Apply Watermark and Footers on PDF API
-  slug: apyhub-stamp-header-footer-on-pdf
-- description: Summarize PDF, DOCX, DOC, or ODT files from an upload or URL. Returns a plain-text summary with short, medium, or long length options.
-  name: AI Summarize Documents API
-  slug: apyhub-summarize-documents
-- description: Analyze text with a Google-backed syntax service. Send text, encoding, and requested_service; get a structured data.google result back.
-  name: AI Text Syntax Analysis API
-  slug: apyhub-syntax-analysis
 - description: Compare two strings with Levenshtein distance. Send source and target, get an integer edit distance for fuzzy matching and typo checks.
   name: Text Distance Search API
   slug: apyhub-text-distance-search
-- description: Check text with Google moderation using a text string and requested_service. Returns a google result inside data for content screening workflows.
-  name: AI Text Moderation API
-  slug: apyhub-text-moderation
 - description: Compare a source string and a target string and get a 0 to 1 similarity score. Useful for fuzzy matching, duplicate checks, and text ranking.
   name: Text Similarity Search API
   slug: apyhub-text-similarity-search
-- description: Transcribe WAV files or WAV URLs with an Azure locale. Returns plain text in `data` for indexing, search, and voice-note workflows.
-  name: Convert Speech to Text API
-  slug: apyhub-transcribe-speech-to-text
-- description: Translate uploaded documents or document URLs into a target language. Returns translated text, translated language, and optional detected language.
-  name: Translate Documents API
-  slug: apyhub-translate-documents
-- description: Send a ZIP, RAR, or 7Z file or URL and get signed URLs for each extracted file. Useful for upload pipelines and document workflows.
-  name: Unarchive Files API
-  slug: apyhub-unarchive-files
-- description: Validate a 12-digit Aadhaar number from a request body string and get a boolean result. Useful for KYC and identity form checks.
-  name: Validate Aadhaar API
-  slug: apyhub-validate-aadhaar-number
-- description: Validate uploaded files or file URLs against their extension and MIME type. Get the detected type, validity flag, and a clear mismatch message.
-  name: Validate File Type API
-  slug: apyhub-validate-file-type
-- description: Validate an IBAN from a request body and get back validity plus parsed fields like country code, BBAN, and printable format.
-  name: Validate IBAN API
-  slug: apyhub-validate-iban
-- description: Validate an IFSC code and get bank details like branch, city, state, and phone. Returns false when the code is not found or deleted.
-  name: Validate IFSC API
-  slug: apyhub-validate-ifsc-bank-code
-- description: Validate India Postcode Validator checks whether a postcode exists in its lookup table. Send a postcode string in the request body; spaces are ignored for matching. The response is intentionally simpl
-  name: Validate Indian Postcodes API
-  slug: apyhub-validate-indian-postcode
-- description: Validate BIC/SWIFT codes and extract bank, branch, country, and location codes. Useful for payment forms and banking data checks.
-  name: Validate SWIFT/BIC API
-  slug: apyhub-validate-swift-bic-code
-- description: Validate a UK postcode from a request body and get a boolean result. Useful for screening address data before storage, routing, or checkout.
-  name: Validate UK Postcodes API
-  slug: apyhub-validate-uk-postcode
 - description: Validate up to 10 VAT numbers per request and get per-item valid results, with lookup errors flagged separately for tax and billing workflows.
   name: Validate EU VAT Batch API
   slug: apyhub-validate-vat-batch
-- description: Validate a VAT number from the request body and get a boolean result in data. Useful for checking customer or supplier tax IDs before billing or storage.
-  name: Validate EU VAT API
-  slug: apyhub-validate-vat-number
-- description: Check whether an email address is valid and deliverable. Screen signups and lead lists with an optional disposable-domain check.
-  name: Validate Email DNS API (Including Disposable Emails)
-  slug: apyhub-verify-email-validity-and-deliverability
 - description: Extract title, links, images, tables, headings, sections, and page metadata from a webpage URL. Useful for crawlers, content pipelines, and search indexing.
   name: AI-ready Clean Data Extractor API
   slug: apyhub-webpage-extractor-api
-- description: Temporary Email gives you disposable email addresses you can create, read from, and delete through a simple API. Use it when you need a short-lived inbox for signups, verification flows, QA, or any wo
-  name: Temporary and Disposable Emails API
-  slug: boomlify-temporary-and-disposable-emails-api
-- description: Audit a webpage URL for rich result eligibility. Returns checked types, eligibility status, and missing or recommended fields for each result type.
-  name: Check Rich Results API
-  slug: chisleroff-check-rich-results
-- description: Convert a webpage URL into Markdown, with title, character count, and readability_success. Useful for content ingestion, archiving, and docs workflows.
-  name: Convert HTML to Markdown API
-  slug: chisleroff-convert-html-to-markdown
-- description: Detect the technologies used by a webpage from its URL. Returns the source URL and a list of detected technologies for audits and enrichment.
-  name: Detect Tech Stack API
-  slug: chisleroff-detect-tech-stack
-- description: Generate Open Graph images from title and styling fields. Returns a binary image for blog posts, product pages, and social sharing cards.
-  name: Dynamic OG Image API
-  slug: chisleroff-dynamic-og-image-generation
-- description: Audit a webpage URL and get a score, grade, structured-data breakdown, and top fixes. Useful for checking metadata and rich-result readiness.
-  name: Evaluate SEO Health API
-  slug: chisleroff-evaluate-seo-health
-- description: Extract article text from a webpage URL and get title, author, date, images, language, word count, source URL, and confidence scores.
-  name: Extract Article From Web API
-  slug: chisleroff-extract-article
-- description: Extract emails, phones, addresses, and social links from a webpage URL. Useful for lead enrichment, site audits, and contact validation.
-  name: Extract Contact Information API
-  slug: chisleroff-extract-contact-information
-- description: Extract sku, name, brand, price, images, rating, and more from a product page URL. Useful for catalog enrichment, feed building, and price tracking.
-  name: Extract Product Information API
-  slug: chisleroff-extract-product-information
-- description: Checks a webpage URL and returns metadata, tech stack, performance, broken links, security headers, and mobile-friendliness for SEO and QA.
-  name: Full Site Audit API
-  slug: chisleroff-full-site-audit
-- description: Convert raw HTML into a PDF file with page size, margins, orientation, and background control. Useful for invoices, reports, and document exports.
-  name: Convert and Format raw HTML to PDF API
-  slug: chisleroff-pdf-from-html
-- description: Convert an http or https page URL into a PDF binary. Use layout options like page size, margins, headers, footers, and background printing.
-  name: Advanced Webpage to PDF API
-  slug: chisleroff-pdf-from-url
-- description: Audit a webpage URL for CSP, HSTS, X-Content-Type-Options, Referrer-Policy, and X-Frame-Options. Get a score and header flags for quick security checks.
-  name: Security Headers Audit API
-  slug: chisleroff-security-headers-audit
-- description: Validate raw HTML for JSON-LD, microdata, meta tags, Open Graph, and Twitter cards. Get a summary of warnings, errors, and rich result eligibility.
-  name: Validate HTML API
-  slug: chisleroff-validate-html
-- description: Validate structured data on a URL and retrieve JSON-LD, microdata, meta tags, Open Graph, Twitter cards, and a validation summary.
-  name: Validate Schema API
-  slug: chisleroff-validate-schema
 - description: Analyze text for counts, readability, top keywords, and reading time. Useful for content review, SEO checks, and simple language statistics.
   name: Basic Text Analysis API
   slug: creightonnick0-analyze-text
@@ -1181,87 +710,6 @@ apis:
 - description: 'Cloud Server Catalog gives you a searchable inventory of cloud locations and server offerings across providers. Use it to look up provider, region, zone, instance type, pricing, CPU and memory specs, '
   name: Compare Features & Costs across Cloud Providers
   slug: multicloud-get-field-values
-- description: Analyze a web article from a URL and get entities, SEO score, content type, reading level, tone, and quality signals for review or automation.
-  name: Extract and Analyze Content from Web Page API
-  slug: namastesumalya-analyze-an-article
-- description: Analyze resume history into trajectory, career gaps, pivots, and a loyalty score. Useful for recruiter screening and candidate review workflows.
-  name: Career Trajectory and Loyalty API
-  slug: namastesumalya-analyze-candidate-career-trajectory
-- description: Analyze a webpage URL for keywords, sentiment, readability, language, and word count. Useful for SEO audits and content review workflows.
-  name: Content and Keyword Analysis API
-  slug: namastesumalya-analyze-content-keywords
-- description: Compare a list of website URLs and get an overall similarity score, per-site SEO scores, AI summaries, and improvement suggestions.
-  name: Advanced Website Similarity Analysis API
-  slug: namastesumalya-analyze-website-similarity
-- description: Audit a URL’s security headers and get a score, header status, and recommendations. Useful for checking CSP, HSTS, and other browser protections.
-  name: Security Header Full Audit API
-  slug: namastesumalya-audit-website-security-headers
-- description: Compare multiple article URLs and get shared themes, topic overlap, style differences, structural contrast, and perspective analysis.
-  name: Extract and Compare Multiple Articles from Web Pages API
-  slug: namastesumalya-compare-multiple-articles
-- description: Compare two resumes against a job title and get a winner, rationale, and skill-by-skill matrix for hiring review and shortlist ranking.
-  name: Candidate Comparison API
-  slug: namastesumalya-compare-two-candidates-head-to-head
-- description: Estimate a candidate’s market salary range from job title, location, and resume content. Returns market context plus min, max, and currency.
-  name: Global Salary Benchmark API
-  slug: namastesumalya-estimate-market-salary-range
-- description: Rank resume summaries against a job title and return topCandidates plus an executiveReport. Useful for fast HR screening and shortlist review.
-  name: Advanced Shortlist API
-  slug: namastesumalya-executive-level-shortlist
-- description: Extract article text and metadata from a URL or a batch of URLs. Returns title, author, word count, reading time, and publication details when available.
-  name: Extract Article Content from Web Page API
-  slug: namastesumalya-extract-article-content
-- description: Extract metadata from a single URL or a batch of URLs. Useful for link previews, crawling, SEO audits, and content indexing.
-  name: Extract Metadata From URL API
-  slug: namastesumalya-extract-metadata-from-url-api
-- description: Extract technical skills, soft skills, certifications, and experience years from resume text for ATS parsing, candidate scoring, and profile enrichment.
-  name: Skill Extraction API
-  slug: namastesumalya-extract-skills
-- description: Check a URL for schema markup and get structuredData, schemaCount, hasBreadcrumbs, and hasOrganization back for SEO audits and automation.
-  name: Extract Structured Data API
-  slug: namastesumalya-extract-structured-data
-- description: Analyze a website URL for key market trends, opportunity score, differentiation, and growth potential. Useful for product research and competitor review.
-  name: Market Trends and Growth Forecasting API
-  slug: namastesumalya-forecast-market-trends
-- description: Generate interview questions and target answers from a job title and resume content. Useful for structured hiring prep tied to a candidate's background.
-  name: Interview Prep Pack API
-  slug: namastesumalya-generate-a-tailored-interview-prep-pack
-- description: Generate country-specific subscription price recommendations from a base price, currency, and home country. Returns local prices and justification.
-  name: Global Pricing Recommendations API
-  slug: namastesumalya-generate-global-pricing-recommendations
-- description: Generate a full job description from a role title and requirements. Returns ATS, LinkedIn, and interview scorecard versions for hiring teams.
-  name: Job Description Generator API
-  slug: namastesumalya-generate-job-description
-- description: Group keywords from an article URL into topic clusters, a primary topic, and related keywords for SEO and content analysis.
-  name: Generate Keyword Clusters API
-  slug: namastesumalya-generate-keyword-clusters
-- description: Summarize multiple URLs into one digest with sources, a summary, and key takeaways. Useful for newsletter workflows, research briefs, and content review.
-  name: Extract and Generate Editorial Digest from Multiple Web Pages API
-  slug: namastesumalya-generate-newsletter-digest
-- description: Identify a website's competitors from a URL. Get industry, market niche, overlap scores, and a differentiation strategy for research and outreach.
-  name: Intelligent Competitor Mapping API
-  slug: namastesumalya-identify-competitors
-- description: Rewrite a resume for a target job title and get before/after ATS scores, an improved version, and added keywords.
-  name: Resume Optimizer (ATS) API
-  slug: namastesumalya-optimize-resume-ats
-- description: Check a webpage URL for canonical, robots.txt, SSL status, and performance scores. Get issues and overall score for technical SEO review.
-  name: Webpage Technical Performance Audit API
-  slug: namastesumalya-perform-technical-performance-audit
-- description: Score a resume against a job title and get strengths, gaps, verdict, and security risk notes. Rank multiple candidates for hiring workflows.
-  name: Resume Screening API
-  slug: namastesumalya-resume-screening-api
-- description: Review job description text for bias and inclusion issues. Returns a winner, rationale, and comparison matrix for hiring copy checks.
-  name: Bias and Inclusion Scan API
-  slug: namastesumalya-scan-bias-and-inclusion
-- description: Summarize one article or batch article URLs from body.urls. Useful for digests, research workflows, and content review.
-  name: Summarize Multiple Article Insights API
-  slug: namastesumalya-summarize-multiple-article-insights-api
-- description: Compare multiple website URLs and get technical SEO data for each page, including metadata, headings, links, accessibility, and load time.
-  name: Technical Comparison of Webpages API
-  slug: namastesumalya-technical-comparison
-- description: Translate a web article from its URL into a target language. Returns translated title, author, publication name, and body.
-  name: Extract and Translate Article Content from Web Page API
-  slug: namastesumalya-translate-article-content
 - description: Validate address input from query params or JSON body. Returns `success`, `code`, and additional module blocks for basic address checks.
   name: Address Validation & Location Lookup API
   slug: quadlem-address-validation
@@ -1319,85 +767,64 @@ apis:
 - description: SE Ranking Data API | Website Audit - provides a comprehensive suite of tools to programmatically manage the full lifecycle of your technical SEO audits
   name: Audit Website SEO API
   slug: se-ranking-website-audit
-- description: Extract email addresses from text with an async job flow. Submit content, then poll for a result array of detected email strings.
-  name: Detect Email Address API
-  slug: sharpapi-detect-email-addresses
-- description: Detect phone numbers in free-form text and poll job status for parsed_number and detected_number results. Useful for cleanup and validation workflows.
-  name: Detect Phones Numbers API
-  slug: sharpapi-detect-phone-numbers
-- description: Submit text content for spam screening and poll job status. Returns a score, pass flag, and reason for moderation workflows.
-  name: Detect Spam API
-  slug: sharpapi-detect-spam
-- description: Extract URLs from a content string and poll for results. Returns each detected link with its full URL and protocol.
-  name: URls Detector API
-  slug: sharpapi-detect-urls
-- description: Generate ranked hospitality category names from travel content. Returns job status plus category names and weights for taxonomy workflows.
-  name: Generate Hospitality Product Categories API
-  slug: sharpapi-generate-hospitality-product-categories
-- description: Generate keyword lists from a content string, with optional context, language, voice tone, and max quantity. Poll for an async result array.
-  name: Generate Keywords/Tags API
-  slug: sharpapi-generate-keywords-tags
-- description: Generate category suggestions from product content and poll for results. Returns ranked category names with weights for catalog and SKU classification.
-  name: Generate Product Categories API
-  slug: sharpapi-generate-product-categories
-- description: Generate a product introduction from content, with language, length, and tone options. Poll a job status URL and receive the finished product_intro.
-  name: Generate Product Introduction API
-  slug: sharpapi-generate-product-introduction
-- description: Analyze product review text asynchronously and get back a score and opinion. Useful for moderation, feedback triage, and sentiment dashboards.
-  name: Generate Product Review Sentiment API
-  slug: sharpapi-generate-product-review-sentiment
-- description: Generate SEO meta tags from page content, with optional language and voice tone. Returns a job ID, status URL, and meta_tags for publishing.
-  name: SEO Tags Generator API
-  slug: sharpapi-generate-seo-tags
-- description: Generate a thank-you email from a brief, with optional language, length, context, and tone controls. Returns a job ID, status URL, and finished email.
-  name: Generate Thank You E-mail API
-  slug: sharpapi-generate-thank-you-email
-- description: Classify travel content into ranked tours and activities categories. Returns job status plus category names and weights for search, merchandising, and taxonomy cleanup.
-  name: Generate Tours & Activities Product Categories API
-  slug: sharpapi-generate-tours-activities-product-catego
-- description: Analyze travel review text asynchronously and get a sentiment score with POSITIVE or similar opinion output. Useful for feedback triage and review analytics.
-  name: Generate Travel Review Sentiment API
-  slug: sharpapi-generate-travel-review-sentiment
-- description: Generate structured job descriptions from a title and hiring context. Returns requirements, responsibilities, and a short summary for HR workflows.
-  name: Job Description Generator API
-  slug: sharpapi-job-description-generator
-- description: List job positions with ids, names, slugs, and pagination metadata. Optionally include related roles with relevancy weights for HR and hiring tools.
-  name: Job Positions API
-  slug: sharpapi-list-job-positions
-- description: Rewrite content with optional context, language, length, and tone controls. Returns a job ID, status URL, and the paraphrased text when complete.
-  name: Paraphrase Text API
-  slug: sharpapi-paraphrase-text
-- description: Submit invoice files and poll for structured results. Extract buyer, seller, invoice, financial totals, and line items from PDFs and images.
-  name: Invoice Parsing API
-  slug: sharpapi-parse-invoice
-- description: Parse PDF, DOC, DOCX, TXT, or RTF resumes into structured candidate, work history, and education data. Useful for ATS intake and profile enrichment.
-  name: Resume Parser API
-  slug: sharpapi-parse-resume
-- description: Submit text in content, get a job_id and status_url, then poll for a proofread result. Useful for cleaning drafts and user-generated copy.
-  name: Proofread Text + Grammar Check API
-  slug: sharpapi-proofread-text-grammar-check
-- description: Generate related job titles from a role name. Submit a position, poll for results, and get weighted suggestions for recruiting or job search.
-  name: Related Job Positions Generator API
-  slug: sharpapi-related-job-positions-generator
-- description: Generate related job positions or skills from a role name. Returns ranked results with weights via an async job status response.
-  name: Related Skills Generator API
-  slug: sharpapi-related-skills-generator
-- description: Compare a resume file against a plain-text job description. Get match scores, explanations, and job status for recruiter screening and ATS workflows.
-  name: Resume/CV Job Match Score API
-  slug: sharpapi-resume-cv-job-match-score
-- description: Scrape a URL and get back page content, metadata, and links in a structured response. Useful for indexing, SEO checks, and content monitoring.
-  name: Web Scraping API
-  slug: sharpapi-scrape-url
-- description: Look up skills by name and page through a skills list. Returns skill IDs, names, slugs, related skills, and pagination metadata.
-  name: Skills Database API
-  slug: sharpapi-skills-database
-- description: Summarize text asynchronously with optional context, language, max length, and voice tone. Returns a job ID, status URL, and final summary.
-  name: Summarize Text API
-  slug: sharpapi-summarize-text
-- description: Submit text with optional context, source language, and voice tone. Track the job and get translated content with from/to language metadata.
-  name: Translate Text API
-  slug: sharpapi-translate-text
-artifact_total: 468
+- description: The Artificial Intelligence API from ApyHub — 98 operation(s) for artificial intelligence.
+  name: ApyHub Artificial Intelligence API
+  slug: apyhub-artificial-intelligence-api
+- description: The Audio Processing API from ApyHub — 23 operation(s) for audio processing.
+  name: ApyHub Audio Processing API
+  slug: apyhub-audio-processing-api
+- description: The Communications API from ApyHub — 3 operation(s) for communications.
+  name: ApyHub Communications API
+  slug: apyhub-communications-api
+- description: The Data Extraction API from ApyHub — 50 operation(s) for data extraction.
+  name: ApyHub Data Extraction API
+  slug: apyhub-data-extraction-api
+- description: The Data Validation API from ApyHub — 10 operation(s) for data validation.
+  name: ApyHub Data Validation API
+  slug: apyhub-data-validation-api
+- description: The Developer Tools API from ApyHub — 120 operation(s) for developer tools.
+  name: ApyHub Developer Tools API
+  slug: apyhub-developer-tools-api
+- description: The E-commerce Quick Tools API from ApyHub — 1 operation(s) for e-commerce quick tools.
+  name: ApyHub E-commerce Quick Tools API
+  slug: apyhub-e-commerce-quick-tools-api
+- description: The File Conversion API from ApyHub — 145 operation(s) for file conversion.
+  name: ApyHub File Conversion API
+  slug: apyhub-file-conversion-api
+- description: The File Manipulation API from ApyHub — 40 operation(s) for file manipulation.
+  name: ApyHub File Manipulation API
+  slug: apyhub-file-manipulation-api
+- description: The File Security API from ApyHub — 4 operation(s) for file security.
+  name: ApyHub File Security API
+  slug: apyhub-file-security-api
+- description: The Finance API from ApyHub — 2 operation(s) for finance.
+  name: ApyHub Finance API
+  slug: apyhub-finance-api
+- description: The Geolocation API from ApyHub — 2 operation(s) for geolocation.
+  name: ApyHub Geolocation API
+  slug: apyhub-geolocation-api
+- description: The HR API from ApyHub — 10 operation(s) for hr.
+  name: ApyHub HR API
+  slug: apyhub-hr-api
+- description: The Marketing API from ApyHub — 10 operation(s) for marketing.
+  name: ApyHub Marketing API
+  slug: apyhub-marketing-api
+- description: The Security & Privacy API from ApyHub — 3 operation(s) for security & privacy.
+  name: ApyHub Security & Privacy API
+  slug: apyhub-security-privacy-api
+- description: The SEO API from ApyHub — 7 operation(s) for seo.
+  name: ApyHub SEO API
+  slug: apyhub-seo-api
+- description: The Smart Generation API from ApyHub — 6 operation(s) for smart generation.
+  name: ApyHub Smart Generation API
+  slug: apyhub-smart-generation-api
+- description: The Standard Data API from ApyHub — 1 operation(s) for standard data.
+  name: ApyHub Standard Data API
+  slug: apyhub-standard-data-api
+- description: The Uncategorized API from ApyHub — 14 operation(s) for uncategorized.
+  name: ApyHub Uncategorized API
+  slug: apyhub-uncategorized-api
+artifact_total: 277
 collections:
 - collection_type: open
   name: API Collection
@@ -1443,7 +870,7 @@ modified: '2026-08-18'
 name: ApyHub
 nav: Providers
 network: true
-overview: 'ApyHub publishes 210 APIs on the [APIs.io](https://apis.io/) network, including Apply Headers and Footers on DOCX API, Apply Footers on PDF API, AI Audio Language Detection API, and 207 more. Tagged areas include API Marketplace, API Platform, Utility APIs, Document Conversion, and Data Processing.
+overview: 'ApyHub publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Artificial Intelligence API, Audio Processing API, Communications API, and 16 more. Tagged areas include API Marketplace, API Platform, Utility APIs, Document Conversion, and Data Processing.
 
 
   The ApyHub catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
@@ -1480,18 +907,23 @@ rules:
   slug: apyhub-spectral-rules
 score:
   band: thin
-  composite: 28.1
-  delta: 1.9
+  composite: 27.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 62.6
+    contract_quality: 60.2
     developer_ergonomics: 9.5
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 26.2
+  previous_composite: 27.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1505,8 +937,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 6.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apyhub/refs/heads/main/screenshots/apyhub-2026-06-20T172345.png
 security:

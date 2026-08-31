@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: bloomberg-agentic-access
   summary_line: 9 operations · 9 acting · 1 human-in-the-loop
-api_count: 5
+api_count: 1
 apis:
 - description: Provides real-time and historical market data, including stock prices, indices, commodities, and currencies.
   name: Bloomberg Market Data API
@@ -268,6 +268,150 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-aim/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-apis/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-applications/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-buyside-enterprise-solutions/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-data/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-data-sets/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-data-workflows/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-emsx/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-enterprise/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-esg-products/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-excel-plug-ins/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-financial-solutions/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-government-bgov/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-index-solutions-limited-bisl/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-indices/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-instant-messaging/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-intelligence/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-media-platforms/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-message/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-news/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-platform/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-product-suite/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-products-and-platforms/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-professional-service/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-proprietary-technologies/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-query-language-bql/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-sustainable-finance-products/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-tax-btax/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-tax-research/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-television-and-radio/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-terminal/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-terminals/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-tradebook/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-tv/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/bloomberg-valuation-service-bval/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://apis.io/providers/second-measure/
 created: '2024-01-20'
 description: Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring stories from Businessweek and Bloomberg News. Bloomberg provides a suite of developer APIs including BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise services.
 examples:
@@ -374,7 +518,7 @@ mcp_servers:
 - description: ''
   name: Bloomberg MCP Server
   slug: bloomberg-mcp-server
-modified: '2026-06-20'
+modified: '2026-08-27'
 name: Bloomberg
 nav: Providers
 network: true
@@ -384,7 +528,7 @@ overview: 'Bloomberg publishes 1 API on the [APIs.io](https://apis.io/) network:
   The Bloomberg catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Bloomberg''s developer surface includes developer portal, documentation, getting-started guide, support, API reference, engineering blog, authentication, and 27 more developer resources.'
+  Bloomberg''s developer surface includes developer portal, documentation, getting-started guide, support, API reference, engineering blog, authentication, and 63 more developer resources.'
 plans:
 - name: Bloomberg Plans Pricing
   plan_count: 2
@@ -423,18 +567,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode/refreshToken
 score:
   band: strong
-  composite: 63.8
-  delta: 0.0
+  composite: 60.6
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 47.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 59.1
+    contract_governance: 47.0
     contract_quality: 67.3
     developer_ergonomics: 70.8
-    discoverability: 75.9
-    governance: 59.1
+    discoverability: 59.3
+    governance: 47.0
     operational_transparency: 36.8
-  previous_composite: 63.8
+  previous_composite: 61.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -451,8 +600,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png
 security:

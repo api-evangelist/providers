@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: ubiquiti-agentic-access
   summary_line: 9 operations · 1 acting
-api_count: 8
+api_count: 1
 apis:
 - description: 'The UniFi Network Controller API is the local HTTP API exposed by every UniFi Network controller (UDM, UDM Pro, UDR, Cloud Key, self-hosted controller, UniFi OS consoles). Endpoints are prefixed with '
   name: UniFi Network Controller API
@@ -245,7 +245,7 @@ modified: '2026-05-25'
 name: Ubiquiti
 nav: Providers
 network: true
-overview: 'Ubiquiti publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Hosts API, ISP Metrics API, and 2 more. Tagged areas include Networking, Wi-Fi, Switching, Routing, and Surveillance.
+overview: 'Ubiquiti publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Hosts API, ISP Metrics API, and 2 more. Tagged areas include Networking, WiFi, Switching, Routing, and Surveillance.
 
 
   Ubiquiti''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, engineering blog, support, and 26 more developer resources.'
@@ -260,15 +260,20 @@ rate_limits:
   slug: ubiquiti-rate-limits
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 52.6
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
     contract_governance: 0.0
     contract_quality: 58.0
     developer_ergonomics: 52.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 65.8
   previous_composite: 53.2
@@ -279,8 +284,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/heads/main/screenshots/ubiquiti-2026-06-20T195930.png
 security:
@@ -299,7 +304,7 @@ security:
 slug: ubiquiti
 tags:
 - Networking
-- Wi-Fi
+- WiFi
 - Switching
 - Routing
 - Surveillance

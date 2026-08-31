@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 5
   slug: imf-agentic-access
   summary_line: 5 operations
-api_count: 2
+api_count: 1
 apis:
 - description: Retrieve actual statistical data observations from IMF datasets
   name: IMF Data Data API
@@ -187,6 +187,11 @@ rules:
 score:
   band: thin
   composite: 36.1
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 44.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
@@ -211,8 +216,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imf/refs/heads/main/screenshots/imf-2026-06-20T183250.png
 security:

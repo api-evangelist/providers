@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 133
   slug: langwatch-agentic-access
   summary_line: 133 operations · 85 acting · 3 human-in-the-loop
-api_count: 28
+api_count: 1
 apis:
 - description: The Agents API from LangWatch — 2 operation(s) for agents.
   name: LangWatch Agents API
@@ -450,17 +450,25 @@ rate_limits:
   slug: langwatch-rate-limits
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 50.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 3.3
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 59.2
     developer_ergonomics: 42.9
-    discoverability: 59.3
+    discoverability: 53.7
     governance: 0.0
     operational_transparency: 44.7
+  open_source:
+    applies: true
+    score: 85.0
   previous_composite: 47.2
   provenance:
     agentic_access: derived
@@ -469,8 +477,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langwatch/refs/heads/main/screenshots/langwatch-2026-06-20T184318.png
 security:

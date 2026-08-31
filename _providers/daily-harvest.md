@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 3
 common:
@@ -85,7 +85,7 @@ modified: '2026-07-18'
 name: Daily Harvest
 nav: Providers
 network: true
-overview: 'Daily Harvest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Direct to Consumer, E-Commerce, and Food Delivery.
+overview: 'Daily Harvest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food & Beverage, Direct to Consumer, E-Commerce, and Food Delivery.
 
 
   Daily Harvest''s developer surface includes support, engineering blog, authentication, and 7 more developer resources.'
@@ -97,7 +97,12 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: emerging
-  composite: 19.6
+  composite: 18.5
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 27.6
@@ -105,18 +110,18 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.6
+  previous_composite: 18.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 46.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daily-harvest/refs/heads/main/screenshots/daily-harvest-2026-08-07T164023.png
 security:
@@ -131,11 +136,11 @@ security:
 slug: daily-harvest
 tags:
 - Company
-- Food and Beverage
+- Food & Beverage
 - Direct to Consumer
 - E-Commerce
 - Food Delivery
-- Health and Wellness
+- Health & Wellness
 - Subscription
 - Shopify
 website: https://daily-harvest.com/

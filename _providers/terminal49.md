@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: terminal49-agentic-access
   summary_line: 28 operations · 11 acting · 1 human-in-the-loop
-api_count: 7
+api_count: 1
 apis:
 - description: The Containers API from Terminal49 — 4 operation(s) for containers.
   name: Terminal49 Containers API
@@ -95,6 +95,10 @@ collections:
   name: Terminal49 API
   slug: open-terminal49
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/terminal49-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -154,7 +158,7 @@ network: true
 overview: 'Terminal49 publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Containers API, Shipments API, Shipping Lines API, and 4 more. Tagged areas include Container Tracking, Ocean Freight, Supply Chain, Logistics, and Shipping.
 
 
-  Terminal49''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Terminal49''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Terminal49 Plans Pricing
   plan_count: 4
@@ -166,18 +170,23 @@ rate_limits:
   slug: terminal49-rate-limits
 score:
   band: developing
-  composite: 40.3
-  delta: 2.3
+  composite: 39.8
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 53.8
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.0
+  previous_composite: 40.3
   provenance:
     agentic_access: derived
     contracts:
@@ -185,8 +194,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 6
@@ -33,11 +33,30 @@ agentic_access:
   summary_line: 12 operations · 6 acting · 6 human-in-the-loop
 api_count: 1
 apis:
-- description: The management surface for the Growthspace Public API. It lists the scope catalogue, creates and revokes Public API applications for a company, issues bearer tokens for an application, updates an appl
-  name: Growthspace Public API Management
-  slug: growthspace-public-api-management
-artifact_total: 7
+- description: The Admin API from GrowthSpace — 6 operation(s) for admin.
+  name: GrowthSpace Admin API
+  slug: growthspace-admin-api
+- description: The Ah API from GrowthSpace — 1 operation(s) for ah.
+  name: GrowthSpace Ah API
+  slug: growthspace-ah-api
+- description: The @growthspace Engineering/public Api Management API from GrowthSpace — 1 operation(s) for @growthspace engineering/public api management.
+  name: GrowthSpace @growthspace Engineering/public Api Management API
+  slug: growthspace-growthspace-engineering-public-api-management-api
+- description: The Healthz API from GrowthSpace — 1 operation(s) for healthz.
+  name: GrowthSpace Healthz API
+  slug: growthspace-healthz-api
+- description: The Public API from GrowthSpace — 1 operation(s) for public.
+  name: GrowthSpace Public API
+  slug: growthspace-public-api
+- description: The Up Time Check API from GrowthSpace — 1 operation(s) for up time check.
+  name: GrowthSpace Up Time Check API
+  slug: growthspace-up-time-check-api
+artifact_total: 12
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/growthspace-public-api-management-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -151,10 +170,10 @@ modified: '2026-08-22'
 name: GrowthSpace
 nav: Providers
 network: true
-overview: 'GrowthSpace publishes 1 API on the [APIs.io](https://apis.io/) network: Public API Management. Tagged areas include Company, Learning and Development, Talent Development, Human Resources, and Coaching.
+overview: 'GrowthSpace publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Ah API, @growthspace Engineering/public Api Management API, and 3 more. Tagged areas include Company, Learning and Development, Talent Development, Human Resources, and Coaching.
 
 
-  GrowthSpace''s developer surface includes engineering blog, support, YouTube channel, authentication, and 22 more developer resources.'
+  GrowthSpace''s developer surface includes engineering blog, support, YouTube channel, authentication, and 23 more developer resources.'
 plans:
 - name: Growthspace Plans Pricing
   plan_count: 0
@@ -171,18 +190,23 @@ scopes:
   summary_line: 11 scopes
 score:
   band: thin
-  composite: 30.8
-  delta: 1.4
+  composite: 30.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
-    contract_governance: 30.3
-    contract_quality: 29.3
+    contract_governance: 18.2
+    contract_quality: 32.0
     developer_ergonomics: 28.0
     discoverability: 68.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 29.4
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -193,8 +217,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-08-26'
-api_count: 28
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Pipeline actions
   name: Seqera Labs actions API
@@ -212,6 +212,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/seqera-labs-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/seqera-labs-platform-overlay.yaml
 - group: auth
@@ -357,22 +361,27 @@ network: true
 overview: 'Seqera Labs publishes 28 APIs on the [APIs.io](https://apis.io/) network, including actions API, admin API, agents API, and 25 more. Tagged areas include Company, Bioinformatics, Workflow Orchestration, Data Pipeline, and Scientific Computing.
 
 
-  Seqera Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 26 more developer resources.'
+  Seqera Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 27 more developer resources.'
 random_paper: 12
 score:
   band: strong
-  composite: 59.0
-  delta: 1.4
+  composite: 56.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 16.7
-    contract_quality: 57.5
+    contract_governance: 4.5
+    contract_quality: 58.8
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 57.6
+  previous_composite: 56.7
   provenance:
     conformance: derived
     contracts:
@@ -388,8 +397,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seqera-labs/refs/heads/main/screenshots/seqera-labs-2026-08-17T081807.png
 security:

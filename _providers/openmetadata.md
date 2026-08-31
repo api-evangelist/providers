@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 848
   human_in_the_loop: 12
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1479
   slug: openmetadata-agentic-access
   summary_line: 1479 operations · 848 acting · 12 human-in-the-loop
-api_count: 89
+api_count: 1
 apis:
 - description: '`Agent Executions` are time-series records of AI agent execution runs, capturing observability metrics, governance checks, and performance data.'
   name: OpenMetadata Agent Executions API
@@ -584,6 +584,10 @@ collections:
   name: OpenMetadata APIs Agent Executions Worksheets API
   slug: open-openmetadata-worksheets-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/openmetadata-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -781,7 +785,7 @@ overview: 'OpenMetadata publishes 89 APIs on the [APIs.io](https://apis.io/) net
   The OpenMetadata catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenMetadata''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, YouTube channel, release notes, and 12 more developer resources.'
+  OpenMetadata''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, YouTube channel, release notes, and 13 more developer resources.'
 plans:
 - name: Openmetadata Plans Pricing
   plan_count: 5
@@ -804,18 +808,23 @@ rules:
   slug: openmetadata-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.9
-  delta: 0.0
+  composite: 42.2
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 59.4
     developer_ergonomics: 35.7
-    discoverability: 50.0
+    discoverability: 63.0
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 40.9
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -823,8 +832,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 89
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmetadata/refs/heads/main/screenshots/openmetadata-2026-06-20T191017.png
 security:

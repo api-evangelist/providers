@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 137
   slug: penpot-agentic-access
   summary_line: 137 operations · 137 acting
-api_count: 139
+api_count: 1
 apis:
 - description: Penpot supports outbound webhooks configured at the team level, delivering JSON or Transit-formatted event payloads when actions occur such as file creation, file updates, and new comments. All backen
   name: Penpot Webhooks
@@ -877,6 +877,10 @@ collections:
   name: Penpot RPC Add Team To Organization Verify Token API
   slug: open-penpot-verify-token-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/penpot-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -964,7 +968,7 @@ overview: 'Penpot publishes 137 APIs on the [APIs.io](https://apis.io/) network,
   The Penpot catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Penpot''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
+  Penpot''s developer surface includes documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Penpot Plans Pricing
   plan_count: 6
@@ -987,18 +991,23 @@ rules:
   slug: penpot-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.1
-  delta: 2.5
+  composite: 35.4
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 40.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 52.3
     developer_ergonomics: 11.9
-    discoverability: 50.0
+    discoverability: 63.0
     governance: 25.0
     operational_transparency: 5.3
-  previous_composite: 31.6
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1006,8 +1015,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 137
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/penpot/refs/heads/main/screenshots/penpot-2026-06-20T191548.png
 security:

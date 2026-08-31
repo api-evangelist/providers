@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -31,18 +31,36 @@ agentic_access:
   operation_count: 27
   slug: agl-energy-agentic-access
   summary_line: 27 operations · 5 acting
-api_count: 3
+api_count: 2
 apis:
-- description: 'AGL''s mandated Consumer Data Right energy data-sharing surface, implementing the DSB Consumer Data Standards CDR Energy API v1.36.0 — service points, electricity usage, DER register detail, accounts, '
-  name: AGL CDR Energy API
-  slug: agl-cdr-energy-api
-- description: The unauthenticated half of AGL's Consumer Data Right implementation, served from its CDR public base URI and conforming to the DSB Consumer Data Standards CDR Common API v1.36.0. GET /cds-au/v1/disco
-  name: AGL CDR Discovery (Common) API
-  slug: agl-cdr-discovery-api
-- description: 'AGL''s retail energy plans published as anonymous, machine-readable Consumer Data Right Product Reference Data. Verified live on 2026-07-27: GET /energy/plans?page-size=10 returned HTTP 200 with x-v:1,'
-  name: AGL Energy Product Reference Data (PRD) API
-  slug: agl-energy-product-reference-data-api
-artifact_total: 11
+- description: Data Holder Customer endpoints
+  name: AGL Energy Data Holder Customers API
+  slug: agl-energy-data-holder-customers-api
+- description: Data Holder Operations endpoints
+  name: AGL Energy Data Holder Operations API
+  slug: agl-energy-data-holder-operations-api
+- description: Distributed Energy Resource endpoints
+  name: AGL Energy Distributed Energy Resources API
+  slug: agl-energy-distributed-energy-resources-api
+- description: Electricity Service Point endpoints
+  name: AGL Energy Electricity Service Points API
+  slug: agl-energy-electricity-service-points-api
+- description: Electricity Usage endpoints
+  name: AGL Energy Electricity Usage API
+  slug: agl-energy-electricity-usage-api
+- description: Energy Account Balance endpoints
+  name: AGL Energy Energy Account Balances API
+  slug: agl-energy-energy-account-balances-api
+- description: Energy Account Billing endpoints
+  name: AGL Energy Energy Account Billing API
+  slug: agl-energy-energy-account-billing-api
+- description: Energy Account endpoints
+  name: AGL Energy Energy Accounts API
+  slug: agl-energy-energy-accounts-api
+- description: Energy Plan endpoints
+  name: AGL Energy Energy Plans API
+  slug: agl-energy-energy-plans-api
+artifact_total: 17
 collections:
 - collection_type: open
   name: CDR Common API
@@ -51,6 +69,14 @@ collections:
   name: CDR Energy API
   slug: open-agl-energy-cds-energy
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/agl-energy-cds-energy-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/agl-energy-cds-common-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -173,10 +199,10 @@ modified: '2026-07-27'
 name: AGL Energy
 nav: Providers
 network: true
-overview: 'AGL Energy publishes 3 APIs on the [APIs.io](https://apis.io/) network: AGL CDR Energy API, AGL CDR Discovery (Common) API, and Product Reference Data (PRD) API. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
+overview: 'AGL Energy publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Data Holder Customers API, Data Holder Operations API, Distributed Energy Resources API, and 6 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
 
 
-  AGL Energy''s developer surface includes authentication, changelog, API reference, documentation, support, and 22 more developer resources.'
+  AGL Energy''s developer surface includes authentication, changelog, API reference, documentation, support, and 24 more developer resources.'
 random_paper: 16
 scopes:
 - name: Agl Energy Scopes
@@ -185,18 +211,23 @@ scopes:
   summary_line: 11 scopes
 score:
   band: developing
-  composite: 39.7
-  delta: 0.0
+  composite: 39.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 12.4
     developer_ergonomics: 35.1
-    discoverability: 64.8
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 39.7
+  previous_composite: 39.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -213,8 +244,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

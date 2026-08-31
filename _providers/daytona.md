@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 130
   human_in_the_loop: 9
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 238
   slug: daytona-agentic-access
   summary_line: 238 operations · 130 acting · 9 human-in-the-loop
-api_count: 19
+api_count: 1
 apis:
 - description: The admin API from Daytona — 15 operation(s) for admin.
   name: Daytona admin API
@@ -101,7 +101,10 @@ apis:
 - description: The workspace API from Daytona — 12 operation(s) for workspace.
   name: Daytona workspace API
   slug: daytona-workspace-api
-artifact_total: 46
+- description: The Daytona API from Daytona — 0 operation(s) for daytona.
+  name: Daytona Daytona API
+  slug: daytona-daytona-api
+artifact_total: 47
 collections:
 - collection_type: open
   name: API Collection
@@ -164,6 +167,10 @@ collections:
   name: Daytona
   slug: open-daytona
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/daytona-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -240,10 +247,10 @@ modified: '2026-05-23'
 name: Daytona
 nav: Providers
 network: true
-overview: 'Daytona publishes 19 APIs on the [APIs.io](https://apis.io/) network, including admin API, api-keys API, audit API, and 16 more. Tagged areas include Sandboxes, Secure Execution, AI Agents, Coding Agents, and Code Interpreter.
+overview: 'Daytona publishes 20 APIs on the [APIs.io](https://apis.io/) network, including admin API, api-keys API, audit API, and 17 more. Tagged areas include Sandboxes, Secure Execution, AI Agents, Coding Agents, and Code Interpreter.
 
 
-  Daytona''s developer surface includes authentication, documentation, engineering blog, pricing, signup flow, and 11 more developer resources.'
+  Daytona''s developer surface includes authentication, documentation, engineering blog, pricing, signup flow, and 12 more developer resources.'
 plans:
 - name: Daytona Plans Pricing
   plan_count: 1
@@ -255,18 +262,26 @@ rate_limits:
   slug: daytona-rate-limits
 score:
   band: developing
-  composite: 44.4
-  delta: 3.8
+  composite: 41.8
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.4
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 0.0
-    contract_quality: 44.6
+    contract_quality: 44.0
     developer_ergonomics: 42.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 40.6
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     contracts:
@@ -274,8 +289,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daytona/refs/heads/main/screenshots/daytona-2026-06-20T175735.png
 security:

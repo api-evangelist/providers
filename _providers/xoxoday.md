@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 4
   slug: xoxoday-agentic-access
   summary_line: 4 operations · 3 acting · 1 human-in-the-loop
-api_count: 10
+api_count: 1
 apis:
 - description: API for creating and sending personalized reward links via email, SMS, or chat. Supports campaign management, link generation, and link delivery without requiring recipients to have a Xoxoday account.
   name: Xoxoday Reward Links API
@@ -55,25 +55,13 @@ apis:
 - description: Token generation, validation, and refresh
   name: Xoxoday Authentication API
   slug: xoxoday-authentication-api
-- description: Account balance retrieval
-  name: Xoxoday Balance API
-  slug: xoxoday-balance-api
 - description: Browse and order gift card vouchers
   name: Xoxoday Gift Cards API
   slug: xoxoday-gift-cards-api
-- description: Order placement, tracking, and history
-  name: Xoxoday Orders API
-  slug: xoxoday-orders-api
-- description: Payment report and transaction history
-  name: Xoxoday Payments API
-  slug: xoxoday-payments-api
 - description: Generate and send personalized reward links
   name: Xoxoday Reward Links API
   slug: xoxoday-reward-links-api
-- description: Send, fetch, and cancel reward points
-  name: Xoxoday Reward Points API
-  slug: xoxoday-reward-points-api
-artifact_total: 28
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -185,7 +173,7 @@ modified: '2026-06-13'
 name: Xoxoday
 nav: Providers
 network: true
-overview: 'Xoxoday publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Balance API, Gift Cards API, and 4 more. Tagged areas include Rewards, Employee Engagement, Gift Cards, Incentives, and Loyalty.
+overview: 'Xoxoday publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Gift Cards API, and Reward Links API. Tagged areas include Rewards, Employee Engagement, Gift Cards, Incentives, and Loyalty.
 
 
   The Xoxoday catalog on APIs.io includes 1 JSON-LD context.
@@ -207,19 +195,24 @@ scopes:
   slug: xoxoday-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: developing
-  composite: 39.6
-  delta: 1.7
+  band: thin
+  composite: 38.7
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 63.7
+    contract_quality: 62.4
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 37.9
+  previous_composite: 39.3
   provenance:
     agentic_access: derived
     contracts:
@@ -233,8 +226,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xoxoday/refs/heads/main/screenshots/xoxoday-2026-06-20T201711.png
 security:
@@ -264,7 +257,7 @@ tags:
 - Recognition
 - Digital Rewards
 - Points Programs
-- Redemptions
+- Redemption
 - Fintech
 website: https://www.xoxoday.com/
 ---

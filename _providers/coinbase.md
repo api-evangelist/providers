@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 95
   slug: coinbase-agentic-access
   summary_line: 95 operations · 32 acting
-api_count: 29
+api_count: 5
 apis:
 - description: The Coinbase Wallet SDK allows developers to integrate Coinbase Wallet connectivity into decentralized applications. It provides a streamlined interface for users to connect their wallets, sign transa
   name: Coinbase Wallet SDK
@@ -318,6 +318,10 @@ collections:
   name: Coinbase Advanced Trade Accounts Withdrawals API
   slug: open-coinbase-withdrawals-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/coinbase-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -557,13 +561,13 @@ modified: '2026-05-19'
 name: Coinbase
 nav: Providers
 network: true
-overview: 'Coinbase publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Activities API, Address Book API, and 23 more. Tagged areas include Blockchain, Cryptocurrency, Custody, Exchange, and On-Ramp.
+overview: 'Coinbase publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Activities API, Address Book API, and 23 more. Tagged areas include Blockchain, Cryptocurrency, Custody, Exchange, and Onramp.
 
 
   The Coinbase catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Coinbase''s developer surface includes authentication, documentation, engineering blog, GitHub presence, support, and 16 more developer resources.'
+  Coinbase''s developer surface includes authentication, documentation, engineering blog, GitHub presence, support, and 17 more developer resources.'
 plans:
 - name: Coinbase Plans Pricing
   plan_count: 11
@@ -608,18 +612,23 @@ rules:
   slug: coinbase-rules
 score:
   band: developing
-  composite: 45.6
+  composite: 44.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 69.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 13.6
-    contract_quality: 72.0
+    contract_quality: 71.8
     developer_ergonomics: 42.9
-    discoverability: 66.7
+    discoverability: 57.4
     governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 45.6
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -633,8 +642,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/screenshots/coinbase-2026-06-20T174726.png
 security:
@@ -656,7 +665,7 @@ tags:
 - Cryptocurrency
 - Custody
 - Exchange
-- On-Ramp
+- Onramp
 - Payments
 - Trading
 - Wallets

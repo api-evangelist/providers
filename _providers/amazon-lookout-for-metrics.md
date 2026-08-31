@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 30
   slug: amazon-lookout-for-metrics-agentic-access
   summary_line: 30 operations · 29 acting
-api_count: 28
+api_count: 1
 apis:
 - description: The ActivateAnomalyDetector API from Amazon Lookout for Metrics — 1 operation(s) for activateanomalydetector.
   name: Amazon Lookout for Metrics ActivateAnomalyDetector API
@@ -2518,18 +2518,23 @@ rules:
   slug: amazon-lookout-for-metrics-spectral-rules
 score:
   band: developing
-  composite: 47.8
-  delta: 2.1
+  composite: 49.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 28.8
     contract_quality: 69.4
     developer_ergonomics: 31.0
-    discoverability: 50.0
+    discoverability: 63.0
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 45.7
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     contracts:
@@ -2537,8 +2542,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-metrics/refs/heads/main/screenshots/amazon-lookout-for-metrics-2026-06-20T171728.png
 security:

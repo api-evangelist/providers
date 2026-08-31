@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 389
   human_in_the_loop: 15
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 612
   slug: kibana-agentic-access
   summary_line: 612 operations · 389 acting · 15 human-in-the-loop
-api_count: 60
+api_count: 1
 apis:
 - description: The Actions API from Kibana — 1 operation(s) for actions.
   name: Kibana Actions API
@@ -411,6 +411,10 @@ collections:
   name: Kibana APIs Actions workflows API
   slug: open-kibana-workflows-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kibana-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -486,7 +490,7 @@ network: true
 overview: 'Kibana publishes 60 APIs on the [APIs.io](https://apis.io/) network, including Actions API, agent builder API, alerting API, and 57 more. Tagged areas include Alerting, Analytics, Dashboards, Elastic Stack, and Logging.
 
 
-  Kibana''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, support, and 9 more developer resources.'
+  Kibana''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, support, and 10 more developer resources.'
 plans:
 - name: Kibana Plans Pricing
   plan_count: 3
@@ -498,15 +502,20 @@ rate_limits:
   slug: kibana-rate-limits
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 34.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 56.3
     developer_ergonomics: 21.4
-    discoverability: 59.3
+    discoverability: 53.7
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 34.9
@@ -517,8 +526,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 60
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kibana/refs/heads/main/screenshots/kibana-2026-06-20T184031.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 19
 common:
@@ -44,42 +44,88 @@ common:
   title: ''
   type: Website
   url: https://www.alcoa.com
-- group: start
+- group: other
   title: ''
-  type: Portal
-  url: https://www.alcoa.com/global/en/what-we-do/products-and-solutions
+  type: Products
+  url: https://www.alcoa.com/global/en/what-we-do
 - group: company
   title: ''
   type: Blog
-  url: https://www.alcoa.com/global/en/news-and-stories
+  url: https://news.alcoa.com/
 - group: operate
   title: ''
   type: PressReleases
-  url: https://www.alcoa.com/global/en/news-and-stories/press-releases
+  url: https://news.alcoa.com/press-releases/default.aspx
 - group: operate
   title: ''
   type: Contact
-  url: https://www.alcoa.com/global/en/contact-us
+  url: https://www.alcoa.com/global/en/contact
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.alcoa.com/global/en/legal/terms-and-conditions
+  url: https://www.alcoa.com/global/en/general/legal-notices
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.alcoa.com/global/en/legal/privacy-policy
+  url: https://www.alcoa.com/global/en/general/privacy
 - group: other
   title: ''
   type: Sustainability
-  url: https://www.alcoa.com/global/en/sustainability
+  url: https://www.alcoa.com/sustainability/en/
 - group: other
   title: ''
   type: AnnualReport
-  url: https://www.alcoa.com/global/en/investors/financials/annual-reports
+  url: https://investors.alcoa.com/financials/annual-reports-and-proxy-statements/default.aspx
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://investors.alcoa.com/home/default.aspx
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.alcoa.com/global/en/who-we-are/ethics-compliance
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/alcoa-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/alcoa-llms.txt
+- group: other
+  title: ''
+  type: Locations
+  url: https://www.alcoa.com/global/en/who-we-are/locations
+- group: other
+  title: ''
+  type: Suppliers
+  url: https://www.alcoa.com/global/en/contact/supplier
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.alcoa.com/careers/en/
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/alcoa
+coverage:
+  checked: '2026-08-30'
+  detail: 'Alcoa is a bauxite, alumina and aluminum producer with no developer program: the corporate site 404s /openapi.json, /llms.txt and every /.well-known/ path, developer.alcoa.com and apis.alcoa.com do not resolve, and the one live API host, api.alcoa.com, is an internal Azure APIM gateway that answers 401 "Access denied due to missing subscription key" on its only routed path and 404s every discovery path.'
+  evidence:
+  - status: 401
+    url: https://api.alcoa.com/echo/resource
+  - status: 404
+    url: https://api.alcoa.com/openapi.json
+  - status: 404
+    url: https://www.alcoa.com/openapi.json
+  - status: 404
+    url: https://www.alcoa.com/llms.txt
+  - status: 404
+    url: https://www.alcoa.com/.well-known/agent-card.json
+  - status: 404
+    url: https://api.github.com/orgs/alcoa
+  reason: not-a-software-company
+  state: none
 created: '2026-03-21'
 description: Alcoa Corporation is a global industry leader in bauxite, alumina, and aluminum production. Founded in 1888, Alcoa operates mines, refineries, and smelters across Australia, Brazil, Canada, Iceland, Norway, Saudi Arabia, and the United States. The company is a Fortune 500 member and one of the world's largest aluminum producers, supplying lightweight, high-strength materials to automotive, aerospace, packaging, construction, and industrial markets. Alcoa is committed to sustainability through low-carbon aluminum production, responsible bauxite mining, and advancing aluminum recycling.
 features:
@@ -110,14 +156,14 @@ integrations:
 - description: Joint venture with Rio Tinto to commercialize carbon-free aluminum smelting technology via the ELYSIS partnership.
   name: Rio Tinto - ELYSIS JV
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-30'
 name: Alcoa
 nav: Providers
 network: true
 overview: 'Alcoa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aluminum, Mining, Manufacturing, Metals, and Sustainability.
 
 
-  Alcoa''s developer surface includes developer portal, engineering blog, and 9 more developer resources.'
+  Alcoa''s developer surface includes engineering blog and 17 more developer resources.'
 press:
 - date: '2026-05-25'
   title: Aluminium maker Alcoa seeks to sell 10 sites to data centres
@@ -136,21 +182,26 @@ press:
   url: https://www.barrons.com/articles/alcoa-stock-price-ai-electricity-ceo-875a9f7a
 random_paper: 8
 score:
-  band: minimal
-  composite: 9.5
-  delta: 0.0
+  band: emerging
+  composite: 11.3
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.8
   facets:
-    access_clarity: 10.5
-    commercial_clarity: 10.5
+    access_clarity: 28.9
+    commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
+    developer_ergonomics: 2.4
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alcoa/refs/heads/main/screenshots/alcoa-2026-06-20T171511.png
 security:

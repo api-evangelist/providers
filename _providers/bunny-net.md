@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 47
   slug: bunny-net-agentic-access
   summary_line: 47 operations · 30 acting · 4 human-in-the-loop
-api_count: 26
+api_count: 1
 apis:
 - description: REST API for managing account-level bunny.net resources - Pull Zones, Storage Zones, DNS Zones, Stream Video Libraries, statistics, billing, purge, API keys, and reference data (countries, regions).
   name: Bunny.net Core Platform API
@@ -165,6 +165,10 @@ collections:
   name: Bunny.net Core Platform API
   slug: open-bunny-net
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bunny-net-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -243,7 +247,7 @@ overview: 'Bunny.net publishes 11 APIs on the [APIs.io](https://apis.io/) networ
   The Bunny.net catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Bunny.net''s developer surface includes authentication, documentation, GitHub presence, status page, pricing, engineering blog, and 8 more developer resources.'
+  Bunny.net''s developer surface includes authentication, documentation, GitHub presence, status page, pricing, engineering blog, and 9 more developer resources.'
 plans:
 - name: Bunny Net Plans Pricing
   plan_count: 1
@@ -267,15 +271,20 @@ rules:
   slug: bunny-net-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 40.9
-  delta: 0.0
+  composite: 40.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 63.8
     developer_ergonomics: 23.8
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 26.3
   previous_composite: 40.9
@@ -286,8 +295,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bunny-net/refs/heads/main/screenshots/bunny-net-2026-06-20T173805.png
 security:

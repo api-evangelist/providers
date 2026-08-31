@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
 - description: JSON REST API (v4) for the OpenX ad server. Sixteen CRUD objects (account, ad, adunit, adunitgroup, comment, creative, deal, floorrule, lineitem, optimization, order, package, paymenthistory, site, si
@@ -334,7 +334,12 @@ scopes:
   summary_line: 5 scopes · authorizationCode/refreshToken
 score:
   band: thin
-  composite: 35.5
+  composite: 34.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
@@ -342,15 +347,15 @@ score:
     contract_governance: 18.2
     contract_quality: 26.7
     developer_ergonomics: 69.0
-    discoverability: 83.3
+    discoverability: 72.2
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 35.5
+  previous_composite: 34.4
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openx/refs/heads/main/screenshots/openx-2026-06-20T191054.png
 security:
@@ -369,7 +374,7 @@ tags:
 - Ad Exchange
 - Supply Side Platform
 - SSP
-- Real-Time Bidding
+- Real Time Bidding
 - OpenRTB
 - Header Bidding
 - Prebid

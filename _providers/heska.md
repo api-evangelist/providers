@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: Partner-gated integration surface for placing point-of-care laboratory orders from a practice information management system to Heska in-clinic analyzers. A completed order in the PIMS triggers a reque
@@ -46,6 +46,10 @@ apis:
   slug: heska-patients-api
 artifact_total: 4
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/antech-diagnostics/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -78,11 +82,16 @@ network: true
 overview: 'Heska publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Veterinary, Diagnostics, Animal Health, Point of Care, and Lab Analyzers.
 
 
-  Heska''s developer surface includes documentation and 4 more developer resources.'
+  Heska''s developer surface includes documentation and 5 more developer resources.'
 random_paper: 20
 score:
   band: minimal
   composite: 9.3
+  coverage:
+    artifact_dirs: 2
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 13.2
@@ -100,8 +109,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heska/refs/heads/main/screenshots/heska-2026-07-25T221053.png
 security:

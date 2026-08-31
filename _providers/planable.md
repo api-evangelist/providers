@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 51
   slug: planable-agentic-access
   summary_line: 51 operations · 25 acting · 3 human-in-the-loop
-api_count: 12
+api_count: 1
 apis:
 - description: The Campaigns API from Planable — 5 operation(s). Create, read, update and delete campaigns — named groupings of posts inside a workspace.
   name: Planable Campaigns API
@@ -110,6 +110,10 @@ collections:
   name: Planable Public Campaigns Workspaces API
   slug: open-planable-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/planable-capability-edges.yml
 - group: docs
   title: ''
   type: OpenAPI
@@ -754,7 +758,7 @@ overview: 'Planable publishes 11 APIs on the [APIs.io](https://apis.io/) network
   The Planable catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Planable''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 35 more developer resources.'
+  Planable''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 36 more developer resources.'
 plans:
 - name: Planable Plans Pricing
   plan_count: 4
@@ -782,18 +786,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.3
-  delta: 0.0
+  composite: 59.9
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 46.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
-    contract_governance: 41.7
+    contract_governance: 29.5
     contract_quality: 54.6
     developer_ergonomics: 61.9
-    discoverability: 85.2
-    governance: 41.7
+    discoverability: 75.9
+    governance: 29.5
     operational_transparency: 55.3
-  previous_composite: 62.3
+  previous_composite: 60.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -804,8 +813,8 @@ score:
       total: 11
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/screenshots/planable-2026-06-20T191751.png
 security:

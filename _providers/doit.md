@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 74.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -31,20 +31,132 @@ agentic_access:
   operation_count: 166
   slug: doit-agentic-access
   summary_line: 166 operations · 81 acting
-api_count: 2
+api_count: 1
 apis:
-- description: 'Programmatic access to the DoiT Cloud Intelligence platform: Cloud Analytics reports and queries, allocations, dimensions, budgets, alerts, annotations, labels, anomalies, invoices, assets, contracts,'
-  name: DoiT API
-  slug: doit-api
 - description: Official DoiT Model Context Protocol server. A remote Streamable HTTP endpoint at https://mcp.doit.com/mcp authenticated with OAuth 2.0 against console.doit.com, plus a local stdio server published to
   name: DoiT MCP Server
   slug: doit-mcp-server
-artifact_total: 12
+- description: Find DoiT account managers assigned to your organization.
+  name: DoiT Account Team API
+  slug: doit-accountteam-api
+- description: Notifications triggered when cloud costs exceed defined thresholds or meet specific conditions.
+  name: DoiT Alerts API
+  slug: doit-alerts-api
+- description: Define how costs are distributed across your organization.
+  name: DoiT Allocations API
+  slug: doit-allocations-api
+- description: Custom notes added to cost data to provide contextual information.
+  name: DoiT Annotations API
+  slug: doit-annotations-api
+- description: Monitor cost spikes in your cloud environment.
+  name: DoiT Anomalies API
+  slug: doit-anomalies-api
+- description: Manage cloud resources or services in your cloud environment.
+  name: DoiT Assets API
+  slug: doit-assets-api
+- description: User authentication.
+  name: DoiT Auth API
+  slug: doit-auth-api
+- description: Interact with Ava, DoiT's AI-powered cloud assistant.
+  name: DoiT Ava API
+  slug: doit-ava-api
+- description: Manage AWS billing-transfer mappings between distributors and resellers and between resellers and end customers, and list program management accounts.
+  name: DoiT Billing Transfer API
+  slug: doit-billing-transfer-api
+- description: AI-generated budget recommendations you can accept (link to a budget you created) or dismiss.
+  name: DoiT Budget Suggestions API
+  slug: doit-budget-suggestions-api
+- description: Track actual cloud spend against planned spend.
+  name: DoiT Budgets API
+  slug: doit-budgets-api
+- description: Manage cloud provider connections and check feature availability for connected accounts.
+  name: DoiT Cloud Connect API
+  slug: doit-cloud-connect-api
+- description: Cloud Diagrams visualize your cloud infrastructure and resource relationships.
+  name: DoiT Cloud Diagrams API
+  slug: doit-cloud-diagrams-api
+- description: Service disruptions and outages from cloud providers.
+  name: DoiT Cloud Incidents API
+  slug: doit-cloud-incidents-api
+- description: Manage CloudFlow.
+  name: DoiT Cloud Flow API
+  slug: doit-cloudflow-api
+- description: View and manage commitment contracts with DoiT.
+  name: DoiT Commitment Manager API
+  slug: doit-commitment-manager-api
+- description: Manage cloud provider connections used in CloudFlow workflows (AWS and GCP).
+  name: DoiT Connections API
+  slug: doit-connections-api
+- description: Manage contract templates for PartnerOps resellers (T1/T2).
+  name: DoiT Contract Templates API
+  slug: doit-contract-templates-api
+- description: List and manage tenant-scoped contracts as a T1/T2 PartnerOps caller.
+  name: DoiT Contracts API
+  slug: doit-contracts-api
+- description: Ingest third-party cost, usage, and metric-based data for analysis.
+  name: DoiT Data Hub API
+  slug: doit-datahub-api
+- description: View available dimensions for analysis.
+  name: DoiT Dimensions API
+  slug: doit-dimensions-api
+- description: Organize Cloud Analytics resources (reports, allocations) into folders.
+  name: DoiT Folders API
+  slug: doit-folders-api
+- description: Manage cloud insights representing recommendations and findings for cloud resources.
+  name: DoiT Insights API
+  slug: doit-insights-api
+- description: Access your current and historical billing documents.
+  name: DoiT Invoices API
+  slug: doit-invoices-api
+- description: Create and manage labels to organize and categorize your cloud resources.
+  name: DoiT Labels API
+  slug: doit-labels-api
+- description: Organizations help you segment data by your company or team structure.
+  name: DoiT Organizations API
+  slug: doit-organizations-api
+- description: PerfectScale for Commitments (AWS) — commitment inventory, recommendations, and planned purchases.
+  name: DoiT PerfectScale for Commitments AWS API
+  slug: doit-perfectscale-for-commitments-aws-api
+- description: Metadata about supported cloud providers.
+  name: DoiT Platforms API
+  slug: doit-platforms-api
+- description: Metadata about cloud services and offerings.
+  name: DoiT Products API
+  slug: doit-products-api
+- description: Manage Cloud Analytics reports and get reports data in JSON format.
+  name: DoiT Reports API
+  slug: doit-reports-api
+- description: Manage user permissions and access levels in your organization.
+  name: DoiT Roles API
+  slug: doit-roles-api
+- description: Monitor cloud service quota usage across connected accounts and projects.
+  name: DoiT Service Quotas API
+  slug: doit-service-quotas-api
+- description: The Settings API from DoiT — 3 operation(s) for settings.
+  name: DoiT Settings API
+  slug: doit-settings-api
+- description: Manage permissions associated with specified Cloud Analytics resources.
+  name: DoiT Sharing API
+  slug: doit-sharing-api
+- description: Create and manage support tickets with DoiT.
+  name: DoiT Support Requests API
+  slug: doit-support-requests-api
+- description: Browse the catalogue of read-only CloudFlow templates (blueprints) used to create flows.
+  name: DoiT Templates API
+  slug: doit-templates-api
+- description: Manage users who have access to the DoiT platform.
+  name: DoiT Users API
+  slug: doit-users-api
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Doit Events
   slug: doit-events
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/doit-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -261,13 +373,13 @@ modified: '2026-08-12'
 name: DoiT
 nav: Providers
 network: true
-overview: 'DoiT publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, FinOps, Cloud Cost Management, Cloud Intelligence, and Cost Optimization.
+overview: 'DoiT publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Account Team API, Alerts API, Allocations API, and 34 more. Tagged areas include Company, FinOps, Cloud Cost Management, Cloud Intelligence, and Cost Optimization.
 
 
   The DoiT catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  DoiT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 44 more developer resources.'
+  DoiT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 45 more developer resources.'
 plans:
 - name: Doit Plans Pricing
   plan_count: 6
@@ -284,18 +396,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.7
-  delta: 0.0
+  composite: 61.3
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
-    contract_quality: 67.2
+    contract_governance: 4.5
+    contract_quality: 66.3
     developer_ergonomics: 64.3
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 70.4
+    governance: 4.5
     operational_transparency: 69.7
-  previous_composite: 64.7
+  previous_composite: 61.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -306,8 +423,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doit/refs/heads/main/screenshots/doit-2026-08-17T080051.png
 security:

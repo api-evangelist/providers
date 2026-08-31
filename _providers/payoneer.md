@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 4
 apis:
 - description: Enables payee registration, account approval, and fund transfers for mass payouts to recipients around the world.
@@ -143,7 +143,7 @@ modified: 2026-06-12
 name: Payoneer
 nav: Providers
 network: true
-overview: 'Payoneer publishes 2 APIs on the [APIs.io](https://apis.io/) network: Mass Payout API and Mass Payout & Services API. Tagged areas include Payments, Payouts, Cross-Border Payments, Currency Conversion, and Marketplace Payments.
+overview: 'Payoneer publishes 2 APIs on the [APIs.io](https://apis.io/) network: Mass Payout API and Mass Payout & Services API. Tagged areas include Payments, Payouts, cross-border payments, currency conversion, and marketplace payments.
 
 
   The Payoneer catalog on APIs.io includes 1 JSON-LD context.
@@ -162,6 +162,11 @@ rate_limits:
 score:
   band: thin
   composite: 37.1
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -179,8 +184,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 23.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payoneer/refs/heads/main/screenshots/payoneer-2026-06-20T191503.png
 security:
@@ -192,13 +197,13 @@ slug: payoneer
 tags:
 - Payments
 - Payouts
-- Cross-Border Payments
-- Currency Conversion
-- Marketplace Payments
+- cross-border payments
+- currency conversion
+- marketplace payments
 - Fintech
-- Financial-Services
-- Mass Payouts
-- Checkout
+- financial services
+- mass payouts
+- checkout
 - REST
 website: https://www.payoneer.com
 ---

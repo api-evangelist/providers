@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: bump-sh-agentic-access
   summary_line: 15 operations · 9 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Manage branches of a given documentation
   name: Bump.sh Branches API
@@ -68,7 +68,10 @@ apis:
 - description: The Versions API from Bump.sh — 2 operation(s) for versions.
   name: Bump.sh Versions API
   slug: bump-sh-versions-api
-artifact_total: 62
+- description: The Documentation change API from Bump.sh — 0 operation(s) for documentation change.
+  name: Bump.sh Documentation change API
+  slug: bump-sh-documentation-change-api
+artifact_total: 63
 collections:
 - collection_type: postman
   name: Bump.sh Api Branches API
@@ -331,7 +334,7 @@ modified: '2026-05-22'
 name: Bump.sh
 nav: Providers
 network: true
-overview: 'Bump.sh publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Branches API, Diffs API, Hubs API, and 5 more. Tagged areas include API Changelog, API Documentation, API Hub, API Governance, and Arazzo.
+overview: 'Bump.sh publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Branches API, Diffs API, Hubs API, and 6 more. Tagged areas include API Changelog, API Documentation, API Hub, API Governance, and Arazzo.
 
 
   The Bump.sh catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -371,18 +374,26 @@ rules:
   slug: bump-sh-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.2
-  delta: 5.9
+  composite: 51.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 32.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.8
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 69.7
-    contract_quality: 64.5
+    contract_quality: 62.8
     developer_ergonomics: 47.6
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 69.7
     operational_transparency: 34.2
-  previous_composite: 47.3
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     contracts:
@@ -390,9 +401,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/screenshots/bump-sh-2026-06-20T173758.png
 security:
 - kind: authentication

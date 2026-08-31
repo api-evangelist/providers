@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 238
   slug: increase-agentic-access
   summary_line: 238 operations · 132 acting · 1 human-in-the-loop
-api_count: 56
+api_count: 1
 apis:
 - description: Each account can have multiple account and routing numbers. We recommend that you use a set per vendor. This is similar to how you use different passwords for different websites. Account numbers can a
   name: Increase Account Numbers API
@@ -212,7 +212,10 @@ apis:
 - description: Wire transfers move funds between your Increase account and any other account accessible by Fedwire.
   name: Increase Wire Transfers API
   slug: increase-wire-transfers-api
-artifact_total: 121
+- description: The Increase API API from Increase — 0 operation(s) for increase api.
+  name: Increase Increase API
+  slug: increase-increase-api-api
+artifact_total: 122
 collections:
 - collection_type: open
   name: API Collection
@@ -389,6 +392,10 @@ collections:
   name: Increase API
   slug: open-increase
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/increase-capability-edges.yml
 - group: start
   title: ''
   type: Sandbox
@@ -477,10 +484,10 @@ modified: '2026-05-08'
 name: Increase
 nav: Providers
 network: true
-overview: 'Increase publishes 56 APIs on the [APIs.io](https://apis.io/) network, including Account Numbers API, Account Statements API, Account Transfers API, and 53 more. Tagged areas include Fintech, Banking, Payments, ACH, and Wires.
+overview: 'Increase publishes 57 APIs on the [APIs.io](https://apis.io/) network, including Account Numbers API, Account Statements API, Account Transfers API, and 54 more. Tagged areas include Fintech, Banking, Payments, ACH, and Wires.
 
 
-  Increase''s developer surface includes sandbox, API reference, authentication, engineering blog, and 15 more developer resources.'
+  Increase''s developer surface includes sandbox, API reference, authentication, engineering blog, and 16 more developer resources.'
 plans:
 - name: Increase Plans Pricing
   plan_count: 1
@@ -492,18 +499,23 @@ rate_limits:
   slug: increase-rate-limits
 score:
   band: developing
-  composite: 41.6
-  delta: 1.9
+  composite: 41.0
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 0.0
-    contract_quality: 53.1
+    contract_quality: 52.8
     developer_ergonomics: 38.1
-    discoverability: 66.7
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 39.7
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -517,8 +529,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/screenshots/increase-2026-06-20T183309.png
 security:

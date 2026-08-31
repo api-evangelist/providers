@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: pika-agentic-access
   summary_line: 8 operations · 4 acting
-api_count: 1
+api_count: 2
 apis:
 - description: The Fal Ai API from Pika — 8 operation(s) for fal ai.
   name: Pika Fal Ai API
@@ -116,10 +116,6 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/pika-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: '2026-06-12'
 description: Pika is an AI-powered video generation platform that allows users and developers to create, edit, and transform video content using natural language prompts, images, and existing video clips. The platform employs advanced diffusion models to produce short-form videos with realistic motion, smooth camera transitions, and detailed scene composition. Pika offers a suite of AI video tools including text-to-video, image-to-video, scene building (Pikascenes), keyframe interpolation (Pikaframes), and specialized transformation features such as Pikaffects, Pikaswaps, and Pikadditions. Developer API access is provided through a partnership with fal.ai, enabling programmatic integration of Pika's Pika 2.2 video models into applications and workflows.
 examples:
@@ -157,7 +153,7 @@ overview: 'Pika publishes 1 API on the [APIs.io](https://apis.io/) network: Fal 
   The Pika catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Pika''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  Pika''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Pika Plans Pricing
   plan_count: 5
@@ -181,7 +177,12 @@ rules:
 score:
   band: developing
   composite: 46.7
-  delta: 2.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 25.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -191,7 +192,7 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 23.7
-  previous_composite: 44.4
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +200,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pika/refs/heads/main/screenshots/pika-2026-06-20T191705.png
 security:

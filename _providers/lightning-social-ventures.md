@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: lightning-social-ventures-agentic-access
   summary_line: 9 operations · 3 acting · 3 human-in-the-loop
-api_count: 3
+api_count: 1
 apis:
 - description: The Applications API from Lightning Social Ventures — 5 operation(s) for applications.
   name: Lightning Social Ventures Applications API
@@ -71,6 +71,10 @@ collections:
   name: Lightning Reach Applications Webhooks API
   slug: open-lightning-social-ventures-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lightning-social-ventures-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -177,22 +181,27 @@ overview: 'Lightning Social Ventures publishes 3 APIs on the [APIs.io](https://a
   The Lightning Social Ventures catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lightning Social Ventures'' developer surface includes API reference, support, signup flow, and 19 more developer resources.'
+  Lightning Social Ventures'' developer surface includes API reference, support, signup flow, and 20 more developer resources.'
 random_paper: 19
 score:
   band: thin
-  composite: 33.0
-  delta: 0.0
+  composite: 31.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 46.3
     developer_ergonomics: 13.7
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 33.0
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -209,8 +218,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/screenshots/lightning-social-ventures-2026-07-25T225125.png
 security:

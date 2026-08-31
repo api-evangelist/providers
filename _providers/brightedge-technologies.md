@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 248
   slug: brightedge-technologies-agentic-access
   summary_line: 248 operations · 144 acting · 2 human-in-the-loop
-api_count: 44
+api_count: 1
 apis:
 - description: Operation related to accounts
   name: BrightEdge Technologies accounts API
@@ -67,24 +67,12 @@ apis:
 - description: The chrome_extension API from BrightEdge Technologies — 12 operation(s) for chrome_extension.
   name: BrightEdge Technologies chrome_extension API
   slug: brightedge-technologies-chrome-extension-api
-- description: The Chrome Extension Keywords API from BrightEdge Technologies — 6 operation(s) for chrome extension keywords.
-  name: BrightEdge Technologies Chrome Extension Keywords API
-  slug: brightedge-technologies-chrome-extension-keywords-api
-- description: The Chrome Extension Overview API from BrightEdge Technologies — 6 operation(s) for chrome extension overview.
-  name: BrightEdge Technologies Chrome Extension Overview API
-  slug: brightedge-technologies-chrome-extension-overview-api
 - description: Supports ChromeExtension functionality.
   name: BrightEdge Technologies chromeextension API
   slug: brightedge-technologies-chromeextension-api
-- description: The competitors API from BrightEdge Technologies — 4 operation(s) for competitors.
-  name: BrightEdge Technologies competitors API
-  slug: brightedge-technologies-competitors-api
 - description: The core API from BrightEdge Technologies — 6 operation(s) for core.
   name: BrightEdge Technologies core API
   slug: brightedge-technologies-core-api
-- description: The datacube_searchengines API from BrightEdge Technologies — 2 operation(s) for datacube_searchengines.
-  name: BrightEdge Technologies datacube_searchengines API
-  slug: brightedge-technologies-datacube-searchengines-api
 - description: APIs for brightedge dataset
   name: BrightEdge Technologies dataset API
   slug: brightedge-technologies-dataset-api
@@ -115,33 +103,12 @@ apis:
 - description: Operation related to organizations
   name: BrightEdge Technologies organizations API
   slug: brightedge-technologies-organizations-api
-- description: The paa per keyword API from BrightEdge Technologies — 4 operation(s) for paa per keyword.
-  name: BrightEdge Technologies paa per keyword API
-  slug: brightedge-technologies-paa-per-keyword-api
-- description: The page cache API from BrightEdge Technologies — 4 operation(s) for page cache.
-  name: BrightEdge Technologies page cache API
-  slug: brightedge-technologies-page-cache-api
-- description: The page crawl API from BrightEdge Technologies — 4 operation(s) for page crawl.
-  name: BrightEdge Technologies page crawl API
-  slug: brightedge-technologies-page-crawl-api
 - description: The Pages API from BrightEdge Technologies — 2 operation(s) for pages.
   name: BrightEdge Technologies Pages API
   slug: brightedge-technologies-pages-api
-- description: The people_also_ask API from BrightEdge Technologies — 8 operation(s) for people_also_ask.
-  name: BrightEdge Technologies people_also_ask API
-  slug: brightedge-technologies-people-also-ask-api
-- description: The ping API from BrightEdge Technologies — 4 operation(s) for ping.
-  name: BrightEdge Technologies ping API
-  slug: brightedge-technologies-ping-api
 - description: APIs for product grid
   name: BrightEdge Technologies product_grid API
   slug: brightedge-technologies-product-grid-api
-- description: The qa API from BrightEdge Technologies — 2 operation(s) for qa.
-  name: BrightEdge Technologies qa API
-  slug: brightedge-technologies-qa-api
-- description: Retrieving data with BQL queries
-  name: BrightEdge Technologies query API
-  slug: brightedge-technologies-query-api
 - description: The recommendations API from BrightEdge Technologies — 6 operation(s) for recommendations.
   name: BrightEdge Technologies recommendations API
   slug: brightedge-technologies-recommendations-api
@@ -154,15 +121,6 @@ apis:
 - description: Operation related to time
   name: BrightEdge Technologies time API
   slug: brightedge-technologies-time-api
-- description: The top keywords for a domain API from BrightEdge Technologies — 4 operation(s) for top keywords for a domain.
-  name: BrightEdge Technologies top keywords for a domain API
-  slug: brightedge-technologies-top-keywords-for-a-domain-api
-- description: The top keywords per page API from BrightEdge Technologies — 4 operation(s) for top keywords per page.
-  name: BrightEdge Technologies top keywords per page API
-  slug: brightedge-technologies-top-keywords-per-page-api
-- description: The top pages API from BrightEdge Technologies — 4 operation(s) for top pages.
-  name: BrightEdge Technologies top pages API
-  slug: brightedge-technologies-top-pages-api
 - description: The user_settings API from BrightEdge Technologies — 4 operation(s) for user_settings.
   name: BrightEdge Technologies user_settings API
   slug: brightedge-technologies-user-settings-api
@@ -172,10 +130,7 @@ apis:
 - description: The web_vitals API from BrightEdge Technologies — 4 operation(s) for web_vitals.
   name: BrightEdge Technologies web_vitals API
   slug: brightedge-technologies-web-vitals-api
-- description: The webhook API from BrightEdge Technologies — 2 operation(s) for webhook.
-  name: BrightEdge Technologies webhook API
-  slug: brightedge-technologies-webhook-api
-artifact_total: 93
+artifact_total: 78
 collections:
 - collection_type: open
   name: API Collection
@@ -409,25 +364,30 @@ modified: '2026-07-18'
 name: BrightEdge Technologies
 nav: Providers
 network: true
-overview: 'BrightEdge Technologies publishes 44 APIs on the [APIs.io](https://apis.io/) network, including accounts API, ai_catalyst API, autopilot API, and 41 more. Tagged areas include SEO, Content Marketing, Search, Marketing, and Analytics.
+overview: 'BrightEdge Technologies publishes 29 APIs on the [APIs.io](https://apis.io/) network, including accounts API, ai_catalyst API, autopilot API, and 26 more. Tagged areas include SEO, Content Marketing, Search, Marketing, and Analytics.
 
 
   BrightEdge Technologies'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 16 more developer resources.'
 random_paper: 1
 score:
   band: thin
-  composite: 37.1
-  delta: 1.3
+  composite: 34.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 52.1
+    contract_governance: 4.5
+    contract_quality: 50.3
     developer_ergonomics: 47.0
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 35.8
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -438,8 +398,8 @@ score:
       total: 44
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/screenshots/brightedge-technologies-2026-07-25T203841.png
 security:

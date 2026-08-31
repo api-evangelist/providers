@@ -23,13 +23,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Transactional and inbound email — send, threads, drafts, attachments, hosted templates, domains and DNS verification, deliverability, suppressions, account and billing. 32 paths, 47 operations, bearer
-  name: SendHQ API
-  slug: sendhq-api
-artifact_total: 1
+- description: Session-authenticated workspace administration.
+  name: SendHQ Account and billing API
+  slug: sendhq-account-and-billing-api
+- description: Inspect events, reputation outcomes, and blocked recipients.
+  name: SendHQ Deliverability API
+  slug: sendhq-deliverability-api
+- description: Provision sender identities and understand DNS verification state.
+  name: SendHQ Domains API
+  slug: sendhq-domains-api
+- description: Build composer flows with private attachment storage.
+  name: SendHQ Drafts and attachments API
+  slug: sendhq-drafts-and-attachments-api
+- description: Send, retrieve, search, reply, and inspect delivery events.
+  name: SendHQ Emails and threads API
+  slug: sendhq-emails-and-threads-api
+- description: Draft, render, test, version, publish, and send reusable content.
+  name: SendHQ Hosted templates API
+  slug: sendhq-hosted-templates-api
+- description: Create addresses and work with received conversations.
+  name: SendHQ Inbound email API
+  slug: sendhq-inbound-email-api
+artifact_total: 7
 common:
 - group: agent
   title: ''
@@ -78,41 +96,44 @@ modified: '2026-08-24'
 name: SendHQ
 nav: Providers
 network: true
-overview: 'SendHQ publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Email, Transactional Email, Messaging, Deliverability, and Agents.
+overview: 'SendHQ publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account and billing API, Deliverability API, Domains API, and 4 more. Tagged areas include email api, Transactional Email, Inbound Email, and deliverability.
 
 
   SendHQ''s developer surface includes developer console, tooling, support, and 7 more developer resources.'
 random_paper: 13
 score:
   band: thin
-  composite: 34.3
-  delta: 4.3
+  composite: 33.4
+  coverage:
+    artifact_dirs: 2
+    catalog_gap: 85.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 57.1
     developer_ergonomics: 42.9
-    discoverability: 72.2
+    discoverability: 63.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 30.0
+  previous_composite: 34.9
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: sendhq
 tags:
-- Email
+- email api
 - Transactional Email
-- Messaging
-- Deliverability
-- Agents
-- Developer Tools
+- Inbound Email
+- deliverability
 website: https://sendhq.cc/
 ---

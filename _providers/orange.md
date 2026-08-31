@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 2
   slug: orange-agentic-access
   summary_line: 2 operations · 1 acting
-api_count: 15
+api_count: 1
 apis:
 - description: Verifies phone numbers in real time against the operator network for identity confirmation, fraud prevention, and frictionless authentication.
   name: Number Verification API
@@ -104,6 +104,10 @@ collections:
   name: Orange Number Verification API
   slug: open-orange
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/orange-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -175,7 +179,7 @@ network: true
 overview: 'Orange publishes 2 APIs on the [APIs.io](https://apis.io/) network: Device Phone Number API and Verify API. Tagged areas include Network, Telecom, Identity, Messaging, and Location.
 
 
-  Orange''s developer surface includes authentication, developer portal, documentation, signup flow, support, and 9 more developer resources.'
+  Orange''s developer surface includes authentication, developer portal, documentation, signup flow, support, and 10 more developer resources.'
 plans:
 - name: Orange Plans Pricing
   plan_count: 3
@@ -187,15 +191,20 @@ rate_limits:
   slug: orange-rate-limits
 score:
   band: thin
-  composite: 32.1
-  delta: 0.0
+  composite: 31.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
     contract_governance: 0.0
     contract_quality: 53.1
     developer_ergonomics: 35.7
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 32.1
@@ -212,8 +221,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 25.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange/refs/heads/main/screenshots/orange-2026-06-20T191151.png
 security:

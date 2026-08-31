@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 39
   slug: ibm-agentic-access
   summary_line: 39 operations · 26 acting · 2 human-in-the-loop
-api_count: 55
+api_count: 1
 apis:
 - description: Store and access unstructured data with built-in high-speed file transfer.
   name: IBM Cloud Object Storage
@@ -300,6 +300,10 @@ collections:
   name: IBM Cloud IAM API Keys Trusted Profiles API
   slug: open-ibm-trusted-profiles-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ibm-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -656,7 +660,7 @@ overview: 'IBM publishes 7 APIs on the [APIs.io](https://apis.io/) network, incl
   The IBM catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  IBM''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, support, signup flow, and 69 more developer resources.'
+  IBM''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, support, signup flow, and 70 more developer resources.'
 plans:
 - name: Ibm Plans Pricing
   plan_count: 3
@@ -700,18 +704,23 @@ scopes:
   summary_line: 7 scopes
 score:
   band: strong
-  composite: 64.5
-  delta: 1.9
+  composite: 61.4
+  coverage:
+    artifact_dirs: 33
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 26.5
+    contract_governance: 14.4
     contract_quality: 72.6
     developer_ergonomics: 76.2
-    discoverability: 77.8
-    governance: 26.5
+    discoverability: 61.1
+    governance: 14.4
     operational_transparency: 50.0
-  previous_composite: 62.6
+  previous_composite: 62.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -721,8 +730,8 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/screenshots/ibm-2026-06-20T183117.png
 security:

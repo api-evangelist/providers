@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 180
   slug: ilert-agentic-access
   summary_line: 180 operations · 102 acting · 4 human-in-the-loop
-api_count: 33
+api_count: 1
 apis:
 - description: The Alert Actions API from ilert — 3 operation(s) for alert actions.
   name: ilert Alert Actions API
@@ -248,6 +248,10 @@ collections:
   name: ilert REST Alert Actions Users API
   slug: open-ilert-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ilert-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1521,7 +1525,7 @@ overview: 'ilert publishes 33 APIs on the [APIs.io](https://apis.io/) network, i
   The ilert catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ilert''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  ilert''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Ilert Plans Pricing
   plan_count: 4
@@ -1544,18 +1548,23 @@ rules:
   slug: ilert-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.6
-  delta: 2.7
+  composite: 47.1
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 31.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
     contract_quality: 58.3
     developer_ergonomics: 23.8
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 25.0
     operational_transparency: 52.6
-  previous_composite: 44.9
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1563,8 +1572,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 33
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ilert/refs/heads/main/screenshots/ilert-2026-06-20T183235.png
 security:

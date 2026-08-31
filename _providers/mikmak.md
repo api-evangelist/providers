@@ -34,25 +34,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
-api_count: 5
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: 'The MikMak Headless Commerce API (v1) lets brands and their authorized agencies power commerce experiences on brand-owned websites and media ad units with MikMak''s retailer network: product lookup by '
-  name: MikMak Headless Commerce API
-  slug: mikmak-commerce
 - description: MikMak Aura provides real-time intelligence, fueled by AI, to connect marketing spend across channels to actual sales performance at retailers.
   name: MikMak Aura
   slug: mikmak-aura
-- description: 'The MikMak Insights API is a reporting API that pushes MikMak commerce intelligence — Purchase Intent, Attributable Sales, historical pricing intelligence and shoppable-recipe performance — into data '
-  name: MikMak Insights API
-  slug: mikmak-insights
 - description: The MikMak Commerce MCP Server is a hosted Model Context Protocol surface in front of the Headless Commerce API (v1). It exposes three strictly-typed, read-only, non-destructive tools — search_product
   name: MikMak Commerce MCP Server
   slug: mikmak-commerce-mcp
 - description: The MikMak where-to-buy tag is the client-side distribution of MikMak Commerce for brand-owned websites. A single async script loaded from wtb-tag.mikmak.ai renders buy-now buttons, in-page containers
   name: MikMak Commerce for Brand.com (WTB Tag)
   slug: mikmak-brand-com-tag
-artifact_total: 16
+- description: The Authentication API from MikMak — 1 operation(s) for authentication.
+  name: MikMak Authentication API
+  slug: mikmak-authentication-api
+- description: The Availabilities API from MikMak — 1 operation(s) for availabilities.
+  name: MikMak Availabilities API
+  slug: mikmak-availabilities-api
+- description: The Cart API from MikMak — 1 operation(s) for cart.
+  name: MikMak Cart API
+  slug: mikmak-cart-api
+- description: The Custom Reports API from MikMak — 6 operation(s) for custom reports.
+  name: MikMak Custom Reports API
+  slug: mikmak-custom-reports-api
+- description: The Experiences API from MikMak — 2 operation(s) for experiences.
+  name: MikMak Experiences API
+  slug: mikmak-experiences-api
+- description: The Facet API from MikMak — 1 operation(s) for facet.
+  name: MikMak Facet API
+  slug: mikmak-facet-api
+- description: The Historical Pricing Reports API from MikMak — 4 operation(s) for historical pricing reports.
+  name: MikMak Historical Pricing Reports API
+  slug: mikmak-historical-pricing-reports-api
+- description: The Offers API from MikMak — 1 operation(s) for offers.
+  name: MikMak Offers API
+  slug: mikmak-offers-api
+- description: The Product API from MikMak — 1 operation(s) for product.
+  name: MikMak Product API
+  slug: mikmak-product-api
+- description: The Product Search API from MikMak — 1 operation(s) for product search.
+  name: MikMak Product Search API
+  slug: mikmak-product-search-api
+- description: The Shoppable Recipe Reports API from MikMak — 4 operation(s) for shoppable recipe reports.
+  name: MikMak Shoppable Recipe Reports API
+  slug: mikmak-shoppable-recipe-reports-api
+artifact_total: 25
 collections:
 - collection_type: open
   name: Commerce API (v1)
@@ -240,7 +267,7 @@ modified: '2026-08-12'
 name: MikMak
 nav: Providers
 network: true
-overview: 'MikMak publishes 2 APIs on the [APIs.io](https://apis.io/) network: Headless Commerce API and Insights API. Tagged areas include Analytics, Commerce, E-Commerce, Multi-Channel, and Retail Media.
+overview: 'MikMak publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Availabilities API, Cart API, and 8 more. Tagged areas include Analytics, Commerce, E-Commerce, Multichannel, and Retail Media.
 
 
   MikMak''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 33 more developer resources.'
@@ -260,18 +287,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.3
-  delta: 0.7
+  composite: 46.4
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 65.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 16.7
-    contract_quality: 56.4
+    contract_governance: 4.5
+    contract_quality: 54.5
     developer_ergonomics: 41.1
     discoverability: 72.2
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 47.6
+  previous_composite: 46.4
   provenance:
     conformance: derived
     contracts:
@@ -281,8 +313,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/screenshots/mikmak-2026-06-20T185553.png
 security:
@@ -303,13 +335,13 @@ tags:
 - Analytics
 - Commerce
 - E-Commerce
-- Multi-Channel
+- Multichannel
 - Retail Media
 - Where to Buy
 - Shoppable Media
 - Product Availability
 - MCP
-- agent-native
+- Agent Native
 - Reporting
 - CPG
 website: https://www.mikmak.com

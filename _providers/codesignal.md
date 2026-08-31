@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Primary GraphQL API for companies, tests, test sessions, live interviews, and interview templates. Authenticated with an API key.
   name: CodeSignal GraphQL API
@@ -58,6 +58,10 @@ collections:
   name: Codesignal Learn Public Organization API
   slug: open-codesignal-organization-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/codesignal-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -196,7 +200,7 @@ overview: 'Codesignal publishes 1 API on the [APIs.io](https://apis.io/) network
   The Codesignal catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Codesignal''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+  Codesignal''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
 random_paper: 20
 scopes:
 - name: Codesignal Scopes
@@ -204,19 +208,24 @@ scopes:
   slug: codesignal-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: strong
-  composite: 57.0
-  delta: 1.4
+  band: developing
+  composite: 53.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 59.9
     developer_ergonomics: 47.0
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 55.6
+  previous_composite: 54.4
   provenance:
     conformance: derived
     contracts:
@@ -232,8 +241,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 85.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesignal/refs/heads/main/screenshots/codesignal-2026-07-25T205933.png
 security:

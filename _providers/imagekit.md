@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 48
   slug: imagekit-agentic-access
   summary_line: 48 operations · 32 acting
-api_count: 12
+api_count: 1
 apis:
 - description: The Account Management API API from ImageKit — 5 operation(s) for account management api.
   name: ImageKit Account Management API API
@@ -50,9 +50,6 @@ apis:
 - description: The Caching API from ImageKit — 2 operation(s) for caching.
   name: ImageKit Caching API
   slug: imagekit-caching-api
-- description: The Custom metadata fields API from ImageKit — 2 operation(s) for custom metadata fields.
-  name: ImageKit Custom metadata fields API
-  slug: imagekit-custom-metadata-fields-api
 - description: The Digital Asset Management (DAM) API from ImageKit — 22 operation(s) for digital asset management (dam).
   name: ImageKit Digital Asset Management (DAM) API
   slug: imagekit-digital-asset-management-dam-api
@@ -62,25 +59,10 @@ apis:
 - description: The File Metadata API from ImageKit — 2 operation(s) for file metadata.
   name: ImageKit File Metadata API
   slug: imagekit-file-metadata-api
-- description: The Managing assets API from ImageKit — 12 operation(s) for managing assets.
-  name: ImageKit Managing assets API
-  slug: imagekit-managing-assets-api
-- description: The Managing folders API from ImageKit — 5 operation(s) for managing folders.
-  name: ImageKit Managing folders API
-  slug: imagekit-managing-folders-api
-- description: The Origins API from ImageKit — 2 operation(s) for origins.
-  name: ImageKit Origins API
-  slug: imagekit-origins-api
-- description: The Saved Extensions API from ImageKit — 2 operation(s) for saved extensions.
-  name: ImageKit Saved Extensions API
-  slug: imagekit-saved-extensions-api
 - description: The Upload File API from ImageKit — 2 operation(s) for upload file.
   name: ImageKit Upload File API
   slug: imagekit-upload-file-api
-- description: The URL endpoints API from ImageKit — 2 operation(s) for url endpoints.
-  name: ImageKit URL endpoints API
-  slug: imagekit-url-endpoints-api
-artifact_total: 50
+artifact_total: 44
 collections:
 - collection_type: open
   name: API Collection
@@ -122,6 +104,10 @@ collections:
   name: ImageKit Account Management API URL endpoints API
   slug: open-imagekit-url-endpoints-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/imagekit-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -261,13 +247,13 @@ modified: '2026-06-12'
 name: ImageKit
 nav: Providers
 network: true
-overview: 'ImageKit publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account Management API API, Caching API, Custom metadata fields API, and 9 more. Tagged areas include Image, Video, CDN, Media, and Optimization.
+overview: 'ImageKit publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account Management API API, Caching API, Digital Asset Management (DAM) API, and 3 more. Tagged areas include Image, Video, CDN, Media, and Optimization.
 
 
   The ImageKit catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ImageKit''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, and 12 more developer resources.'
+  ImageKit''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Imagekit Plans Pricing
   plan_count: 7
@@ -290,18 +276,23 @@ rules:
   slug: imagekit-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 48.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 34.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
-    contract_quality: 68.5
+    contract_quality: 68.8
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 52.6
-  previous_composite: 49.1
+  previous_composite: 49.2
   provenance:
     agentic_access: derived
     contracts:
@@ -309,8 +300,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imagekit/refs/heads/main/screenshots/imagekit-2026-06-20T183243.png
 security:
@@ -329,7 +320,7 @@ tags:
 - CDN
 - Media
 - Optimization
-- Transformation
+- Transformations
 - Digital Asset Management
 - DAM
 - Storage

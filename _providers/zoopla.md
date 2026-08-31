@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -45,16 +45,13 @@ agentic_access:
   summary_line: 9 operations · 3 acting
 api_count: 3
 apis:
-- description: Poll-based REST API used by Zoopla member agents to retrieve consumer leads generated on the portal. Applicant leads (buyers and renters enquiring on a property) and appraisal leads (owners asking for
-  name: Zoopla Leads API
-  slug: zoopla-leads-api
-- description: REST API that lets a member agent's CRM activate the Premium Listing product against a Zoopla listing, read the activation history for an account or a single listing_id, check whether a listing is pre
-  name: Zoopla Premium Listing Activations API
-  slug: zoopla-premium-listing-activations-api
-- description: REST API for activating the Weekly Featured Property product on a Zoopla listing from an agency CRM, reading activation history across an account or for a single listingId, and checking whether a list
-  name: Zoopla Weekly Featured Property (WFP) Activations API
-  slug: zoopla-weekly-featured-property-activations-api
-artifact_total: 32
+- description: The Products API from Zoopla — 4 operation(s) for products.
+  name: Zoopla Products API
+  slug: zoopla-products-api
+- description: The REST Endpoints API from Zoopla — 2 operation(s) for rest endpoints.
+  name: Zoopla REST Endpoints API
+  slug: zoopla-rest-endpoints-api
+artifact_total: 31
 asyncapis:
 - description: API Evangelist derivation of Zoopla's Lead Push Service. Zoopla publishes no AsyncAPI document; this document is derived from the published push-service documentation at https://developers.zoopla.co.u
   name: Zoopla Lead Push Service
@@ -76,6 +73,18 @@ collections:
   name: Weekly Featured Property (WFP) Activations
   slug: open-zoopla-weekly-featured-property-activations
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoopla-leads-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoopla-premium-listing-activations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zoopla-weekly-featured-property-activations-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -304,13 +313,13 @@ modified: '2026-07-26'
 name: Zoopla
 nav: Providers
 network: true
-overview: 'Zoopla publishes 3 APIs on the [APIs.io](https://apis.io/) network: Leads API, Premium Listing Activations API, and Weekly Featured Property (WFP) Activations API. Tagged areas include Real-Estate, United Kingdom, Property Listings, Property Portal, and PropTech.
+overview: 'Zoopla publishes 2 APIs on the [APIs.io](https://apis.io/) network: Products API and REST Endpoints API. Tagged areas include Real-Estate, United Kingdom, Property Listings, Property Portal, and PropTech.
 
 
   The Zoopla catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Zoopla''s developer surface includes authentication, documentation, signup flow, support, getting-started guide, API reference, code examples, and 34 more developer resources.'
+  Zoopla''s developer surface includes authentication, documentation, signup flow, support, getting-started guide, API reference, code examples, and 37 more developer resources.'
 random_paper: 10
 scopes:
 - name: Zoopla Scopes
@@ -319,18 +328,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 37.6
-  delta: -0.3
+  composite: 35.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 16.7
-    contract_quality: 58.4
+    contract_governance: 4.5
+    contract_quality: 59.5
     developer_ergonomics: 42.3
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 70.4
+    governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 37.9
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -341,8 +355,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoopla/refs/heads/main/screenshots/zoopla-2026-08-17T083116.png
 security:

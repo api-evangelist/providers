@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: signeasy-agentic-access
   summary_line: 12 operations · 9 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Embedded signing and sending flows for iframes and pop-ups.
   name: Signeasy Embedded API
@@ -143,7 +143,7 @@ modified: '2026-07-03'
 name: Signeasy
 nav: Providers
 network: true
-overview: 'Signeasy publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Embedded API, Envelopes API, Originals API, and 2 more. Tagged areas include E-Signature, Electronic Signature, Documents, Contract Management, and Embedded Signing.
+overview: 'Signeasy publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Embedded API, Envelopes API, Originals API, and 2 more. Tagged areas include eSignature, Electronic Signature, Documents, Contract Management, and Embedded Signing.
 
 
   Signeasy''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -158,18 +158,23 @@ rate_limits:
   slug: signeasy-rate-limits
 score:
   band: thin
-  composite: 30.1
-  delta: 1.6
+  composite: 29.6
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 13.3
     developer_ergonomics: 27.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 28.5
+  previous_composite: 30.1
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +182,8 @@ score:
       derived: 5
       marker_coverage: 100.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -195,7 +200,7 @@ security:
   summary_line: SOC 2, HIPAA, GDPR
 slug: signeasy
 tags:
-- E-Signature
+- eSignature
 - Electronic Signature
 - Documents
 - Contract Management

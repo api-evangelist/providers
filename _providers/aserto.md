@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 36
   slug: aserto-agentic-access
   summary_line: 36 operations · 21 acting
-api_count: 8
+api_count: 3
 apis:
 - description: 'Collects and surfaces a complete audit trail of authorization decisions made by connected Authorizer instances. Supports compliance, debugging, and analytics use cases by recording who was authorized '
   name: Aserto Decision Logs API
@@ -527,7 +527,12 @@ rules:
 score:
   band: thin
   composite: 38.5
-  delta: 0.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -537,7 +542,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 13.2
-  previous_composite: 38.0
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -551,8 +556,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aserto/refs/heads/main/screenshots/aserto-2026-06-20T172456.png
 security:

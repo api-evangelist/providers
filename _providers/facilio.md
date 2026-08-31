@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 213
   slug: facilio-agentic-access
   summary_line: 213 operations · 96 acting
-api_count: 35
+api_count: 1
 apis:
 - description: Assets represent the equipment, machines, and devices in your facilities — HVAC units, elevators, generators, fire panels, and more. Track their lifecycle, location, warranty, and maintenance history.
   name: Facilio Assets API
@@ -260,6 +260,10 @@ collections:
   name: Facilio REST Assets Work Orders API
   slug: open-facilio-work-orders-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/facilio-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -403,7 +407,7 @@ network: true
 overview: 'Facilio publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Buildings API, Client Contacts API, and 32 more. Tagged areas include Company, Artificial Intelligence, Facility Management, CMMS, and Property Operations.
 
 
-  Facilio''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, signup flow, and 25 more developer resources.'
+  Facilio''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, signup flow, and 26 more developer resources.'
 random_paper: 13
 scopes:
 - name: Facilio Scopes
@@ -412,18 +416,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode/password
 score:
   band: developing
-  composite: 49.3
-  delta: 0.0
+  composite: 46.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 54.7
     developer_ergonomics: 54.2
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 49.3
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -434,8 +443,8 @@ score:
       total: 35
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facilio/refs/heads/main/screenshots/facilio-2026-07-25T214135.png
 security:

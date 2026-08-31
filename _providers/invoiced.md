@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 48
   slug: invoiced-agentic-access
   summary_line: 48 operations · 29 acting
-api_count: 9
+api_count: 1
 apis:
 - description: The Credit Notes API from Invoiced — 2 operation(s) for credit notes.
   name: Invoiced Credit Notes API
@@ -107,6 +107,10 @@ collections:
   name: Invoiced API
   slug: open-invoiced
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/flywire/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -166,7 +170,7 @@ network: true
 overview: 'Invoiced publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Credit Notes API, Customers API, Estimates API, and 6 more. Tagged areas include Accounts Receivable, Billing, Invoicing, Payments, and Subscription.
 
 
-  Invoiced''s developer surface includes authentication, engineering blog, documentation, and 8 more developer resources.'
+  Invoiced''s developer surface includes authentication, engineering blog, documentation, and 9 more developer resources.'
 plans:
 - name: Invoiced Plans Pricing
   plan_count: 2
@@ -178,18 +182,23 @@ rate_limits:
   slug: invoiced-rate-limits
 score:
   band: thin
-  composite: 34.5
-  delta: 2.4
+  composite: 33.9
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 52.4
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 32.1
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -203,8 +212,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invoiced/refs/heads/main/screenshots/invoiced-2026-07-25T222800.png
 security:

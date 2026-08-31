@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,14 +42,8 @@ agentic_access:
   operation_count: 17
   slug: aws-braket-agentic-access
   summary_line: 17 operations · 13 acting
-api_count: 5
+api_count: 3
 apis:
-- description: Discover the QPU and simulator devices available on Amazon Braket. Returns device ARN, provider (AQT, IonQ, IQM, QuEra, Rigetti, Amazon), status (ONLINE/OFFLINE/RETIRED), queue depth, paradigm (gate-b
-  name: AWS Braket Devices API
-  slug: aws-braket-devices-api
-- description: Tag quantum tasks, hybrid jobs, and spending limits for cost allocation, IAM ABAC, and resource organization. Tags propagate to AWS Cost Explorer and AWS Budgets and can be referenced in IAM condition
-  name: AWS Braket Tags API
-  slug: aws-braket-tags-api
 - description: Hybrid quantum-classical job orchestration.
   name: AWS Braket HybridJobs API
   slug: aws-braket-hybridjobs-api
@@ -59,7 +53,7 @@ apis:
 - description: Per-device opt-in cost controls for QPU tasks.
   name: AWS Braket SpendingLimits API
   slug: aws-braket-spendinglimits-api
-artifact_total: 55
+artifact_total: 53
 collections:
 - collection_type: postman
   name: AWS Braket Devices API
@@ -362,7 +356,7 @@ modified: '2026-05-25'
 name: AWS Braket
 nav: Providers
 network: true
-overview: 'AWS Braket publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Tags API, HybridJobs API, and 2 more. Tagged areas include Quantum Computing, QPU, Simulator, Hybrid Jobs, and OpenQASM.
+overview: 'AWS Braket publishes 3 APIs on the [APIs.io](https://apis.io/) network: HybridJobs API, QuantumTasks API, and SpendingLimits API. Tagged areas include Quantum Computing, QPU, Simulator, Hybrid Jobs, and OpenQASM.
 
 
   The AWS Braket catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -403,12 +397,17 @@ rules:
 score:
   band: strong
   composite: 61.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 28.8
-    contract_quality: 69.5
+    contract_quality: 69.6
     developer_ergonomics: 66.7
     discoverability: 64.8
     governance: 28.8
@@ -421,8 +420,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-braket/refs/heads/main/screenshots/aws-braket-2026-06-20T172752.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: The deployed Solana program that implements Pump.fun's token factory and bonding-curve market. Integrators interact directly via Solana RPC and Anchor-style instructions to create tokens, buy and sell
@@ -44,6 +44,10 @@ apis:
   slug: pump-fun-sdk
 artifact_total: 8
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/rckprtr/pumpdotfun-sdk/issues
 - group: commercial
   title: ''
   type: License
@@ -84,7 +88,7 @@ modified: '2026-07-25'
 name: Pump.fun
 nav: Providers
 network: true
-overview: Pump.fun publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Solana, Memecoin, Launchpad, AMM, and Live Streaming.
+overview: Pump.fun publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Solana, Memecoin, Launchpad, AMM, and Livestreaming.
 plans:
 - name: Pump Fun Plans Pricing
   plan_count: 1
@@ -96,8 +100,13 @@ rate_limits:
   slug: pump-fun-rate-limits
 score:
   band: emerging
-  composite: 16.0
-  delta: 0.6
+  composite: 14.4
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -107,9 +116,12 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 15.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 14.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pump-fun/refs/heads/main/screenshots/pump-fun-2026-06-20T192311.png
 security:
@@ -127,7 +139,7 @@ tags:
 - Memecoin
 - Launchpad
 - AMM
-- Live Streaming
+- Livestreaming
 - DeFi
 - Crypto
 website: https://pump.fun/

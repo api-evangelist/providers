@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 3
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 130
   slug: deliverart-agentic-access
   summary_line: 130 operations · 93 acting · 3 human-in-the-loop
-api_count: 16
+api_count: 1
 apis:
 - description: The Addresses API from Deliverart — 3 operation(s) for addresses.
   name: Deliverart Addresses API
@@ -145,6 +145,10 @@ collections:
   name: Deliverart Addresses Workshifts API
   slug: open-deliverart-workshifts-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/deliverart-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -264,7 +268,7 @@ network: true
 overview: 'Deliverart publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Companies API, Customer addresses API, and 13 more. Tagged areas include Company, Food Delivery, Restaurant, Order Management, and Logistics.
 
 
-  Deliverart''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, signup flow, and 19 more developer resources.'
+  Deliverart''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, signup flow, and 20 more developer resources.'
 random_paper: 3
 scopes:
 - name: Deliverart Scopes
@@ -273,18 +277,23 @@ scopes:
   summary_line: 44 scopes · password
 score:
   band: developing
-  composite: 45.9
-  delta: 0.0
+  composite: 43.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 54.4
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 45.9
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,8 +304,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deliverart/refs/heads/main/screenshots/deliverart-2026-07-25T211654.png
 security:

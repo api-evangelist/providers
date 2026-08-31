@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 2
   slug: httpie-agentic-access
   summary_line: 2 operations
-api_count: 2
+api_count: 1
 apis:
 - description: The App API from HTTPie — 1 operation(s) for app.
   name: HTTPie App API
@@ -157,7 +157,12 @@ rules:
 score:
   band: thin
   composite: 33.8
-  delta: 2.4
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 56.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -167,7 +172,7 @@ score:
     discoverability: 59.3
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 31.4
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -175,8 +180,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/httpie/refs/heads/main/screenshots/httpie-2026-06-20T182915.png
 security:

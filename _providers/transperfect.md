@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: 'REST API (formerly Applanga) for mobile app and software string localization, supporting upload/download of source and translated entries, tags, screenshots, projects, branches, orders, and webhooks, '
@@ -43,6 +43,14 @@ apis:
   slug: globallink-drupal
 artifact_total: 8
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/applanga/applanga-cli/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/applanga/applanga-cli/releases
 - group: auth
   title: ''
   type: DomainSecurity
@@ -150,7 +158,7 @@ overview: 'TransPerfect publishes 2 APIs on the [APIs.io](https://apis.io/) netw
   The TransPerfect catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  TransPerfect''s developer surface includes engineering blog, product news, GitHub presence, YouTube channel, and 15 more developer resources.'
+  TransPerfect''s developer surface includes engineering blog, product news, GitHub presence, YouTube channel, and 17 more developer resources.'
 random_paper: 16
 rules:
 - effective_rule_count: 5
@@ -165,8 +173,13 @@ rules:
   slug: transperfect-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.2
-  delta: 9.2
+  composite: 32.4
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 69.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -175,11 +188,14 @@ score:
     developer_ergonomics: 42.9
     discoverability: 53.7
     governance: 25.0
-    operational_transparency: 13.2
-  previous_composite: 22.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 32.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transperfect/refs/heads/main/screenshots/transperfect-2026-06-20T195557.png
 security:
 - kind: domain-security

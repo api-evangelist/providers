@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: sisense-agentic-access
   summary_line: 17 operations · 9 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The Sisense REST API v2 provides access to Datamodels (the v2 replacement for Elasticubes), builds, and advanced data model management capabilities including schema management, field configuration, an
   name: Sisense REST API v2
@@ -255,15 +255,20 @@ rules:
   slug: sisense-rules
 score:
   band: developing
-  composite: 43.2
-  delta: 0.0
+  composite: 42.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 58.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 9.8
     contract_quality: 61.8
     developer_ergonomics: 40.5
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 9.8
     operational_transparency: 10.5
   previous_composite: 43.2
@@ -274,8 +279,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/screenshots/sisense-2026-06-20T193954.png
 security:

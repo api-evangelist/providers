@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 80
   slug: apollo-api-documentation-agentic-access
   summary_line: 80 operations · 54 acting · 1 human-in-the-loop
-api_count: 14
+api_count: 1
 apis:
 - description: Create, update, and search the companies your team tracks in Apollo. Harvested from the Apollo-published OpenAPI 3.1 specification — 8 operation(s).
   name: Apollo API Accounts
@@ -378,18 +378,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.8
-  delta: 0.0
+  composite: 59.8
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 68.0
     developer_ergonomics: 45.8
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 61.8
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -400,8 +405,8 @@ score:
       total: 25
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/screenshots/apollo-api-documentation-2026-06-20T172307.png
 security:

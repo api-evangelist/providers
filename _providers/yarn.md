@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: The @yarnpkg/core programmatic JavaScript/TypeScript API that allows applications to interact with Yarn projects, workspaces, and dependency resolution. Used for building Yarn plugins and tooling inte
@@ -44,6 +44,26 @@ apis:
   slug: yarn-cli
 artifact_total: 33
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/yarnpkg/berry/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/yarnpkg/berry/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/yarnpkg/berry/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/yarnpkg/berry/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/yarnpkg/berry/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -158,7 +178,7 @@ overview: 'YARN publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
   The YARN catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  YARN''s developer surface includes documentation, getting-started guide, API reference, changelog, and 9 more developer resources.'
+  YARN''s developer surface includes documentation, getting-started guide, API reference, changelog, and 14 more developer resources.'
 plans:
 - name: Yarn Plans Pricing
   plan_count: 3
@@ -180,9 +200,14 @@ rules:
     warn: 3
   slug: yarn-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 22.3
-  delta: 1.5
+  band: thin
+  composite: 31.3
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 70.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -191,10 +216,13 @@ score:
     developer_ergonomics: 42.9
     discoverability: 59.3
     governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 20.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 31.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yarn/refs/heads/main/screenshots/yarn-2026-06-20T201731.png
 security:

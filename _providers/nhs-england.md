@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 70
   slug: nhs-england-agentic-access
   summary_line: 70 operations · 32 acting
-api_count: 10
+api_count: 7
 apis:
 - description: National electronic database of NHS patient demographic details - name, address, date of birth, related people, registered GP, nominated pharmacy and NHS number - exposed as an HL7 FHIR R4 API. Produc
   name: Personal Demographics Service (PDS) - FHIR API
@@ -42,33 +42,101 @@ apis:
 - description: 'National service for sending electronic prescriptions from prescribers to dispensers (pharmacies), exposed as an HL7 FHIR R4 API. Sandbox FHIR endpoint confirmed live (returns a FHIR OperationOutcome '
   name: Electronic Prescription Service (EPS) - FHIR API
   slug: nhs-electronic-prescription-service-fhir
-- description: Create paperless referrals from primary to secondary care and receive referrals, Clinical Referral Information (CRI) and attachments from the NHS e-Referral Service, as an HL7 FHIR API. OpenAPI harves
-  name: e-Referral Service (e-RS) - FHIR API
-  slug: nhs-e-referral-service-fhir
-- description: Sends booking and referral information between NHS service providers using the Booking and Referral Standard as an HL7 FHIR R4 API. OpenAPI harvested verbatim (8 paths).
-  name: Booking and Referral Standard (BaRS) - FHIR API
-  slug: nhs-booking-and-referral-fhir
-- description: Access a patient's immunisation record (including coronavirus, influenza and HPV immunisations) as an HL7 FHIR R4 API. OpenAPI harvested verbatim.
-  name: Immunisation History - FHIR API
-  slug: nhs-immunisation-history-fhir
-- description: Reference data on NHS and healthcare organisations, roles and terminology (the Organisation Data Service), exposed as an HL7 FHIR R4 API. OpenAPI harvested verbatim (8 paths).
-  name: Organisation Data Service (ODS) - FHIR API
-  slug: nhs-organisation-data-service-fhir
-- description: Integrate with the NHS App to deliver messages and content to citizens and to link into NHS App journeys. OpenAPI harvested verbatim (4 paths).
-  name: NHS App API
-  slug: nhs-app-api
-- description: National service for sending messages to people about their health and care across channels (NHS App, SMS, email, letter). OpenAPI harvested verbatim (7 paths).
-  name: NHS Notify (Communications Manager) API
-  slug: nhs-notify-communications-manager
-- description: Search the national Directory of Healthcare Services for NHS organisations, services and their attributes. OpenAPI harvested verbatim.
-  name: Service Search (Directory of Healthcare Services) API
-  slug: nhs-service-search
-artifact_total: 16
+- description: The Booking API from NHS England — 2 operation(s) for booking.
+  name: NHS England Booking API
+  slug: nhs-england-booking-api
+- description: The Callbacks API from NHS England — 3 operation(s) for callbacks.
+  name: NHS England Callbacks API
+  slug: nhs-england-callbacks-api
+- description: The Channels API from NHS England — 1 operation(s) for channels.
+  name: NHS England Channels API
+  slug: nhs-england-channels-api
+- description: The CodeSystem API from NHS England — 1 operation(s) for codesystem.
+  name: NHS England Code System API
+  slug: nhs-england-codesystem-api
+- description: The communication API from NHS England — 4 operation(s) for communication.
+  name: NHS England Communication API
+  slug: nhs-england-communication-api
+- description: The Immunization API from NHS England — 1 operation(s) for immunization.
+  name: NHS England Immunization API
+  slug: nhs-england-immunization-api
+- description: The List{id} API from NHS England — 1 operation(s) for list{id}.
+  name: NHS England List{id} API
+  slug: nhs-england-list-id-api
+- description: The Message API from NHS England — 1 operation(s) for message.
+  name: NHS England Message API
+  slug: nhs-england-message-api
+- description: The Message Batches API from NHS England — 1 operation(s) for message batches.
+  name: NHS England Message Batches API
+  slug: nhs-england-message-batches-api
+- description: The Messages API from NHS England — 2 operation(s) for messages.
+  name: NHS England Messages API
+  slug: nhs-england-messages-api
+- description: The Metadata API from NHS England — 2 operation(s) for metadata.
+  name: NHS England Metadata API
+  slug: nhs-england-metadata-api
+- description: The Organisation API from NHS England — 1 operation(s) for organisation.
+  name: NHS England Organisation API
+  slug: nhs-england-organisation-api
+- description: The Organization API from NHS England — 2 operation(s) for organization.
+  name: NHS England Organization API
+  slug: nhs-england-organization-api
+- description: The OrganizationAffiliation API from NHS England — 2 operation(s) for organizationaffiliation.
+  name: NHS England Organization Affiliation API
+  slug: nhs-england-organizationaffiliation-api
+- description: The R4 API from NHS England — 6 operation(s) for r4.
+  name: NHS England R4 API
+  slug: nhs-england-r4-api
+- description: The Referral API from NHS England — 2 operation(s) for referral.
+  name: NHS England Referral API
+  slug: nhs-england-referral-api
+- description: The Slots API from NHS England — 1 operation(s) for slots.
+  name: NHS England Slots API
+  slug: nhs-england-slots-api
+- description: The STU3 API from NHS England — 32 operation(s) for stu3.
+  name: NHS England STU3 API
+  slug: nhs-england-stu3-api
+- description: The ValueSet API from NHS England — 1 operation(s) for valueset.
+  name: NHS England Value Set API
+  slug: nhs-england-valueset-api
+artifact_total: 28
 asyncapis:
 - description: ''
   name: Nhs England Webhooks
   slug: nhs-england-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nhs-england-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nhs-e-referral-service-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nhs-booking-and-referral-fhir-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nhs-immunisation-history-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nhs-organisation-data-service-fhir-r4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nhs-app-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nhs-communications-manager-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nhs-service-search-overlay.yaml
 - group: operate
   title: ''
   type: IssueTracker
@@ -214,28 +282,36 @@ modified: '2026-07-24'
 name: NHS England
 nav: Providers
 network: true
-overview: 'NHS England publishes 7 APIs on the [APIs.io](https://apis.io/) network, including e-Referral Service (e-RS) - FHIR API, Booking and Referral Standard (BaRS) - FHIR API, Immunisation History - FHIR API, and 4 more. Tagged areas include Healthcare, United Kingdom, National Health System, FHIR, and HL7.
+overview: 'NHS England publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Booking API, Callbacks API, Channels API, and 16 more. Tagged areas include Healthcare, United Kingdom, National Health System, FHIR, and HL7.
 
 
   The NHS England catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  NHS England''s developer surface includes authentication, API reference, support, sandbox, documentation, getting-started guide, engineering blog, and 26 more developer resources.'
+  NHS England''s developer surface includes authentication, API reference, support, sandbox, documentation, getting-started guide, engineering blog, and 34 more developer resources.'
 random_paper: 11
 score:
-  band: developing
-  composite: 51.5
-  delta: 0.0
+  band: strong
+  composite: 55.5
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 5.5
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_governance: 30.3
-    contract_quality: 58.5
+    contract_governance: 18.2
+    contract_quality: 59.6
     developer_ergonomics: 66.1
-    discoverability: 75.9
-    governance: 30.3
+    discoverability: 72.2
+    governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 51.5
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 50.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -252,9 +328,9 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/screenshots/nhs-england-2026-08-07T185240.png
 security:
 - kind: authentication

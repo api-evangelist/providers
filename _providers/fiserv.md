@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 42
   slug: fiserv-agentic-access
   summary_line: 42 operations · 27 acting
-api_count: 27
+api_count: 4
 apis:
 - description: Fiserv provides webhook-based event notifications across the payments lifecycle. Merchants can subscribe to webhooks to receive real-time notifications for key events including transaction status chan
   name: Fiserv Payment Events
@@ -225,6 +225,10 @@ collections:
   name: Fiserv BankingHub 3-D Secure Void API
   slug: open-fiserv-void-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fiserv-capability-edges.yml
 - group: operate
   title: ''
   type: Community
@@ -319,7 +323,7 @@ overview: 'Fiserv publishes 27 APIs on the [APIs.io](https://apis.io/) network, 
   The Fiserv catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Fiserv''s developer surface includes authentication, documentation, signup flow, and 12 more developer resources.'
+  Fiserv''s developer surface includes authentication, documentation, signup flow, and 13 more developer resources.'
 plans:
 - name: Fiserv Plans Pricing
   plan_count: 1
@@ -370,12 +374,17 @@ rules:
 score:
   band: thin
   composite: 38.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 68.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 13.6
-    contract_quality: 68.7
+    contract_quality: 68.5
     developer_ergonomics: 14.3
     discoverability: 63.0
     governance: 13.6
@@ -394,8 +403,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiserv/refs/heads/main/screenshots/fiserv-2026-08-17T083418.png
 security:

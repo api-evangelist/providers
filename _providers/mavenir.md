@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: derived
     idempotency: documented
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-26'
+  score: 30.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -31,22 +31,25 @@ agentic_access:
   operation_count: 8
   slug: mavenir-agentic-access
   summary_line: 8 operations · 7 acting · 1 human-in-the-loop
-api_count: 3
+api_count: 2
 apis:
-- description: A Mavenir-authored OpenAPI 3.0.0 definition for a Bring Your Own Number (BYON) one-to-one voice and video calling service over WebRTC, contributed by Mavenir (contact@mavenir.com, Apache 2.0) to the C
-  name: Mavenir BYON Call Handling API (VVoIP Service)
-  slug: mavenir-byon-call-handling-api
-- description: A Mavenir-authored OpenAPI 3.0.0 definition for Bring Your Own Number (BYON) Registration and Connectivity Management, giving a REST client the ability to register into and manage its connectivity tow
-  name: Mavenir BYON Registration and Connectivity Management (RACM) API
-  slug: mavenir-byon-racm-api
 - description: The TM Forum Open APIs implemented in Mavenir's cloud-native Digital Enablement (MDE) BSS, converged charging and digital marketplace platform. Mavenir holds TM Forum Open API Conformance certificatio
   name: Mavenir Digital Enablement (MDE) TM Forum Open APIs
   slug: mavenir-digital-enablement-tm-forum-open-apis
+- description: APIs related to 1-1 voice/video call session
+  name: Mavenir One To One Call API
+  slug: mavenir-onetoonecall-api
+- description: The Push Token API from Mavenir — 1 operation(s) for push token.
+  name: Mavenir Push Token API
+  slug: mavenir-push-token-api
+- description: The RACM API from Mavenir — 2 operation(s) for racm.
+  name: Mavenir RACM API
+  slug: mavenir-racm-api
 arazzos:
 - description: Originate a one-to-one voice/video session on a Mavenir BYON call handling deployment, read it back, drive it to Connected, then terminate it. Every operationId is verified against openapi/mavenir-byo
   name: Place and manage a 1-1 VVoIP call (Mavenir BYON)
   slug: mavenir-byon-place-and-manage-call
-artifact_total: 11
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Mavenir Byon Events
@@ -59,6 +62,14 @@ collections:
   name: Bring Your Own Number (BYON) Registration and Connectivity Management (RACM) Service APIs
   slug: open-mavenir-byon-racm
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mavenir-byon-call-handling-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mavenir-byon-racm-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -204,28 +215,33 @@ modified: '2026-07-25'
 name: Mavenir
 nav: Providers
 network: true
-overview: 'Mavenir publishes 2 APIs on the [APIs.io](https://apis.io/) network: BYON Call Handling API (VVoIP Service) and BYON Registration and Connectivity Management (RACM) API. Tagged areas include Telecommunications, United States, Network Vendor, Network APIs, and CAMARA.
+overview: 'Mavenir publishes 3 APIs on the [APIs.io](https://apis.io/) network: One To One Call API, Push Token API, and RACM API. Tagged areas include Telecommunications, United States, Network Vendor, Network APIs, and CAMARA.
 
 
   The Mavenir catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mavenir''s developer surface includes authentication, support, engineering blog, privacy policy, and 29 more developer resources.'
+  Mavenir''s developer surface includes authentication, support, engineering blog, privacy policy, and 31 more developer resources.'
 random_paper: 19
 score:
   band: developing
-  composite: 42.5
-  delta: 3.3
+  composite: 40.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 30.3
-    contract_quality: 59.5
+    contract_governance: 18.2
+    contract_quality: 58.7
     developer_ergonomics: 32.7
-    discoverability: 72.2
-    governance: 30.3
+    discoverability: 66.7
+    governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 39.2
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -242,8 +258,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mavenir/refs/heads/main/screenshots/mavenir-2026-08-07T172126.png
 security:

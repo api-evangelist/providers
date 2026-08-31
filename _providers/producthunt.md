@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: A GraphQL API providing access to Product Hunt's platform data including daily product launches, votes, comments, maker profiles, topics, and collections. Supports OAuth 2.0 authentication with public
@@ -41,6 +41,10 @@ apis:
   slug: product-hunt-graphql-api
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/producthunt/producthunt-api/issues
 - group: auth
   title: ''
   type: DomainSecurity
@@ -108,7 +112,7 @@ network: true
 overview: 'Product Hunt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Product Discovery, GraphQL, Community, Product, and Startups.
 
 
-  Product Hunt''s developer surface includes support and 11 more developer resources.'
+  Product Hunt''s developer surface includes support and 12 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -120,8 +124,13 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 33.4
-  delta: 4.2
+  composite: 30.1
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -131,9 +140,12 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 29.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 30.1
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/producthunt/refs/heads/main/screenshots/producthunt-2026-06-20T192141.png
 security:

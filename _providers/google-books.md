@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: google-books-agentic-access
   summary_line: 8 operations · 2 acting
-api_count: 3
+api_count: 1
 apis:
 - description: The Mylibrary API from Google Books — 3 operation(s) for mylibrary.
   name: Google Books Mylibrary API
@@ -124,7 +124,7 @@ modified: '2026-05-19'
 name: Google Books
 nav: Providers
 network: true
-overview: 'Google Books publishes 3 APIs on the [APIs.io](https://apis.io/) network: Mylibrary API, Users API, and Volumes API. Tagged areas include Books, Ebooks, Google, Library, and Publishing.
+overview: 'Google Books publishes 3 APIs on the [APIs.io](https://apis.io/) network: Mylibrary API, Users API, and Volumes API. Tagged areas include Books, eBooks, Google, Library, and Publishing.
 
 
   The Google Books catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -158,15 +158,20 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 40.1
-  delta: 0.0
+  composite: 39.6
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 9.8
     contract_quality: 61.9
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 7.9
   needs_work:
@@ -189,8 +194,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 61.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-books/refs/heads/main/screenshots/google-books-2026-06-20T182027.png
 security:
@@ -209,7 +214,7 @@ security:
 slug: google-books
 tags:
 - Books
-- Ebooks
+- eBooks
 - Google
 - Library
 - Publishing

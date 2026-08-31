@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 31
   slug: microsoft-office-365-agentic-access
   summary_line: 31 operations · 17 acting
-api_count: 12
+api_count: 1
 apis:
 - description: Access to Outlook personal contacts for managing contact information, creating contact folders, and organizing people data.
   name: Outlook Contacts API
@@ -162,6 +162,10 @@ collections:
   name: Microsoft Office 365 Microsoft Graph Calendar Users API
   slug: open-microsoft-office-365-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-office-365-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -973,7 +977,7 @@ overview: 'Microsoft Office 365 publishes 4 APIs on the [APIs.io](https://apis.i
   The Microsoft Office 365 catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Microsoft Office 365''s developer surface includes authentication, support, engineering blog, developer console, changelog, release notes, documentation, and 37 more developer resources.'
+  Microsoft Office 365''s developer surface includes authentication, support, engineering blog, developer console, changelog, release notes, documentation, and 38 more developer resources.'
 plans:
 - name: Microsoft Office 365 Plans Pricing
   plan_count: 5
@@ -1012,18 +1016,23 @@ scopes:
   summary_line: 18 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 57.0
-  delta: 2.2
+  composite: 56.4
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 60.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 13.6
     contract_quality: 77.2
     developer_ergonomics: 76.2
-    discoverability: 63.0
+    discoverability: 57.4
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 54.8
+  previous_composite: 57.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1031,8 +1040,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/screenshots/microsoft-office-365-2026-06-20T185511.png
 security:

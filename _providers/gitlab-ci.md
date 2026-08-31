@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 627
   human_in_the_loop: 22
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1125
   slug: gitlab-ci-agentic-access
   summary_line: 1125 operations · 627 acting · 22 human-in-the-loop
-api_count: 98
+api_count: 1
 apis:
 - description: GitLab's GraphQL API at /api/graphql. Many CI/CD entities (Pipeline, CiJob, CiRunner, MergeRequest pipelines) are exposed via GraphQL queries and mutations.
   name: GitLab GraphQL API
@@ -638,6 +638,10 @@ collections:
   name: GitLab API
   slug: open-gitlab-ci
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gitlab-ci-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -721,7 +725,7 @@ network: true
 overview: 'GitLab CI/CD publishes 97 APIs on the [APIs.io](https://apis.io/) network, including access_requests API, access_tokens API, agents API, and 94 more. Tagged areas include DevOps, CI/CD, Pipelines, GitLab, and DevSecOps.
 
 
-  GitLab CI/CD''s developer surface includes authentication, documentation, pricing, GitHub presence, engineering blog, and 10 more developer resources.'
+  GitLab CI/CD''s developer surface includes authentication, documentation, pricing, GitHub presence, engineering blog, and 11 more developer resources.'
 plans:
 - name: Gitlab Ci Plans Pricing
   plan_count: 5
@@ -733,18 +737,23 @@ rate_limits:
   slug: gitlab-ci-rate-limits
 score:
   band: thin
-  composite: 37.0
-  delta: 1.5
+  composite: 36.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 50.4
     developer_ergonomics: 31.0
-    discoverability: 75.9
+    discoverability: 70.4
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 35.5
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -752,8 +761,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 97
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitlab-ci/refs/heads/main/screenshots/gitlab-ci-2026-06-20T181847.png
 security:

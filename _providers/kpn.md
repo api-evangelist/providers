@@ -24,111 +24,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-26'
-api_count: 38
+  scored_at: '2026-08-30'
+api_count: 34
 apis:
-- description: With KPN Number Verify, you can quickly check whether the mobile number someone provides is the same as their SIM card.
-  name: KPN Number Verify API
-  slug: kpn-number-verify
-- description: The SIM swap API provides a programmable interface for developers and other users (capabilities consumers) to request the last date of a SIM swap performed on the mobile line, or, to check whether a S
-  name: KPN SIM Swap API (Account Takeover Protection)
-  slug: kpn-sim-swap
-- description: Seamlessly check and verify an identity.
-  name: KPN Match API
-  slug: kpn-match
-- description: Send SMS through the KPN network.
-  name: KPN SMS API
-  slug: kpn-sms
-- description: This API is designed to inform users about the response schema they will receive on their webhook when an SMS message is sent to their virtual number. The API provides details of the message format th
-  name: KPN SMS Inbound API
-  slug: kpn-sms-inbound
-- description: MobileServicesManagement APIs ---
-  name: KPN Mobile Services Management API
-  slug: kpn-mobile-services-management
-- description: A collection of crates for federated identity and access management
-  name: KPN FIAM API
-  slug: kpn-fiam
-- description: FIAM – Eneco Data Products
-  name: KPN FIAM Eneco Data Products API
-  slug: kpn-fiam-eneco-data-products
-- description: This API allows you to check the disturbance of the internet and the technology at an address. The API takes the postcode, house number and house extension, sends the request to the backend to retriev
-  name: KPN Disturbance Check API
-  slug: kpn-disturbance-check
-- description: This API allows you to check the speed of the internet and the technology at an address. The API takes the postcode, house number and house extension, sends the request to the backend to retrieve real
-  name: KPN Internet Speed Check API
-  slug: kpn-internet-speed-check
-- description: The High-Level Design FTTx API supports Fiber to the Home (FTTH) engineering jobs. It allows you to calculate the required work and cost for Fiber rollout in a provided region. Run the endpoints in th
-  name: KPN High Level Design FttX API
-  slug: kpn-high-level-design-ftth
-- description: KPN’s Low Power Long Range (LoRa) network service compliments existing 2G, 3G, 4G and LTE-M networks. It is based on the LoRaWAN protocol for Internet of Things (IoT).
-  name: KPN LoRa Device Management API
-  slug: kpn-lora-device-management
-- description: 'The SD-LAN SD-WAN Network View API is a modern REST API based on the OpenAPI specification. The Network View API gives users read rights to retrieve information from the `Network View API` resources. '
-  name: KPN SD-LAN / SD-WAN Network View API
-  slug: kpn-sd-lan-sd-wan-network-view
-- description: This is Customer Connect API for KPN ServiceNow-Green Tickets. With this API KPN SN Green will be able to create new, or update existing tickets. This document provides the API specification.
-  name: KPN ServiceNow Connect API
-  slug: kpn-servicenow-connect
-- description: 'Cisco Identity Services Engine (ISE) network access control resources exposed through the KPN API gateway, covering endpoints, endpoint groups, identity groups and internal users. The spec advertises '
-  name: KPN ISE API
-  slug: kpn-ise
-- description: 'This API provides you different TV related content services. Currently there are 3 main calls with some of them have successive calls. The data provided consists of JSON formatted text mainly related '
-  name: KPN TV Guide API
-  slug: kpn-tv-guide
-- description: When KPN delivers a webhook to your endpoint, signing keys are to know the request genuinely came from KPN and wasn't tampered with in transit. KPN signs every outbound webhook payload using HMAC-SHA2
-  name: KPN Webhook Signing Keys API
-  slug: kpn-webhook-signing-keys
-- description: 'KPN delivers outbound webhook notifications — such as SMS delivery reports — to the endpoints you configure. This API lets you control two things about those deliveries: the URL they are sent to, and '
-  name: KPN Webhook Privacy Config Manager API
-  slug: kpn-webhook-privacy-config-manager
-- description: 'KPN Wholesale Broadband Access (WBA) is a KPN Wholesale product offering copper and fiber access to wholesale customers. WBA has the following APIs available: * Functional Product Information: The Fun'
-  name: KPN Wholesale Broadband Access (WBA) API
-  slug: kpn-wholesale-wba
-- description: 'KPN Wholesale Broadband Access (WBA) is a KPN Wholesale product offering copper and fiber access to wholesale customers. WBA has the following APIs available: * Functional Product Information: The Fun'
-  name: KPN Wholesale Broadband Access FPI/CIP API
-  slug: kpn-wholesale-broadband-access-fpi-cip
-- description: The Knowledge Management API allows you to organize your organization's information with knowledge management software.
-  name: Polly.help Knowledge Management API
-  slug: pollyhelp-knowledge-management
-- description: Xdroid Speech To Text API provides a seamless audio transcription service.
-  name: Xdroid Speech to Text API
-  slug: xdroid-speech-to-text
-- description: This API enables a secure communication between your agent/bot desktop and the client website/mobile app.
-  name: Parley Secure Messenger API
-  slug: parley-secure-messenger
-- description: The SocialMediaWebcare API allows you to organise and manage your inbound and outbound social media channels traffic.
-  name: Tracebuzz Social Media Webcare API
-  slug: tracebuzz-social-media-webcare
-- description: WeSeeDo Direct API allows you to set up a video communication channel between people by sending an SMS with a link to the meeting.
-  name: WeSeeDo Direct API
-  slug: weseedo-direct
-- description: The WeSeeDo Personal API allows video calling in the right way and distinguishes itself in human contact, ease of use and safety.
-  name: WeSeeDo Personal API
-  slug: weseedo-personal
-- description: Encapsulates multiple APIs to interact with our various channels such as WhatsApp Business, SMS, MMS, Viber, Facebook Messenger, etc. The API normalises information across all channels to abstracted t
-  name: Vonage Messages API (via KPN)
-  slug: vonage-messages
-- description: 'The Voice API lets you create outboud calls, control in progress calls and get information about current and historical calls. The API is divided in 2 big resources blocks: - Application: Manage appli'
-  name: Vonage Voice API (via KPN)
-  slug: vonage-voice
-- description: 'The Numbers API lets you manage your numbers and buy new virtual numbers for use with Vonage''s APIs. ## Prerequirement: Your project has to be in the production environment in order to use of this API'
-  name: Vonage Phone Numbers API (via KPN)
-  slug: vonage-phone-numbers
-- description: Vonage's Number Insight API provides details about the validity, reachability and roaming status of a phone number, as well as giving you details on how to format the number properly in your applicati
-  name: Vonage Number Insight API (via KPN)
-  slug: vonage-number-insight
-- description: Vonage's SMS API allows you to send and receive text messages to users around the globe through simple RESTful APIs. * Programmatically send and receive high volume of SMS anywhere in the world. * Bui
-  name: Vonage SMS API (via KPN)
-  slug: vonage-sms
-- description: Verify API is to Verify if a phone number is valid, reachable, and accessible by the user. Verification message can be customerized. Verify API provides the following services - **Verify Request** - G
-  name: Vonage Verify API (via KPN)
-  slug: vonage-verify
-- description: This REST API exposes actions that help your apps to interact with APIdaze’s Telco platform in mulitples ways. You can set the URL from where Apidaze fetchs XML instructions to run on Apidaze platform
-  name: Apidaze Voice CPaaS API (via KPN)
-  slug: apidaze-voice
-- description: 'This API offers three functionalities: - User management - Emailing User management can be used to add, get and modify user information. This can be done be a user with customer admin rights, without '
-  name: Registered Email API (via KPN)
-  slug: registered-email
 - description: KPN Grip is a KPN identity and access management solution that acts as a central identity hub, letting developers integrate user registration, authentication and authorization (SAML 2.0, OpenID Connec
   name: KPN GRIP API
   slug: kpn-grip
@@ -141,7 +39,307 @@ apis:
 - description: Converts inbound email into SMS messages delivered over the KPN network. Documented on the KPN Developer portal; no public OpenAPI definition was found for this product on KPN's SwaggerHub organisatio
   name: KPN Email-to-SMS API
   slug: kpn-email-to-sms
-artifact_total: 78
+- description: number management from accounts
+  name: KPN Account API
+  slug: kpn-account-api
+- description: The Activation API from KPN — 1 operation(s) for activation.
+  name: KPN Activation API
+  slug: kpn-activation-api
+- description: Alarm operations provide the ability to retrieve and acknowledge ThingPark device and base station alarms.
+  name: KPN Alarm API
+  slug: kpn-alarm-api
+- description: The appliance.configure API from KPN — 51 operation(s) for appliance.configure.
+  name: KPN Appliance.configure API
+  slug: kpn-appliance-configure-api
+- description: The appliance.monitor API from KPN — 13 operation(s) for appliance.monitor.
+  name: KPN Appliance.monitor API
+  slug: kpn-appliance-monitor-api
+- description: Application-scope webhook configuration — webhook URL and field exclusions. Highest precedence — overrides both team and organization config for this specific application.
+  name: KPN Application API
+  slug: kpn-application-api
+- description: Signing keys at application scope. Highest precedence — overrides both team and org keys for deliveries belonging to this specific application.
+  name: KPN Application Keys API
+  slug: kpn-application-keys-api
+- description: Application related resource management
+  name: KPN Applications API
+  slug: kpn-applications-api
+- description: The Attachment API from KPN — 1 operation(s) for attachment.
+  name: KPN Attachment API
+  slug: kpn-attachment-api
+- description: Authentication endpoints for token management
+  name: KPN Authentication API
+  slug: kpn-authentication-api
+- description: Authorization policy enforcement endpoints
+  name: KPN Authorization API
+  slug: kpn-authorization-api
+- description: The Autologin API from KPN — 1 operation(s) for autologin.
+  name: KPN Autologin API
+  slug: kpn-autologin-api
+- description: The Callback API from KPN — 1 operation(s) for callback.
+  name: KPN Callback API
+  slug: kpn-callback-api
+- description: All about case handling
+  name: KPN Cases API
+  slug: kpn-cases-api
+- description: Logical grouping of content
+  name: KPN Catalog API
+  slug: kpn-catalog-api
+- description: The cellularGateway.configure API from KPN — 15 operation(s) for cellulargateway.configure.
+  name: KPN Cellular Gateway.configure API
+  slug: kpn-cellulargateway-configure-api
+- description: The cellularGateway.monitor API from KPN — 1 operation(s) for cellulargateway.monitor.
+  name: KPN Cellular Gateway.monitor API
+  slug: kpn-cellulargateway-monitor-api
+- description: The Config API from KPN — 1 operation(s) for config.
+  name: KPN Config API
+  slug: kpn-config-api
+- description: All about configuring Tracebuzz
+  name: KPN Configuration API
+  slug: kpn-configuration-api
+- description: Contract access validation endpoints
+  name: KPN Contract Validation API
+  slug: kpn-contract-validation-api
+- description: The DataConsumer API from KPN — 2 operation(s) for dataconsumer.
+  name: KPN Data Consumer API
+  slug: kpn-dataconsumer-api
+- description: The DataConsumerDemo API from KPN — 2 operation(s) for dataconsumerdemo.
+  name: KPN Data Consumer Demo API
+  slug: kpn-dataconsumerdemo-api
+- description: The default API from KPN — 6 operation(s) for default.
+  name: KPN Default API
+  slug: kpn-default-api
+- description: Device operations provide the ability to manage ThingPark devices, device profiles, routing profiles, and connectivity plans.
+  name: KPN Device API
+  slug: kpn-device-api
+- description: The Devices API from KPN — 1 operation(s) for devices.
+  name: KPN Devices API
+  slug: kpn-devices-api
+- description: Device security operations provide the ability to manage AS keys and HSM groups for enhanced message encryption.
+  name: KPN Device Security API
+  slug: kpn-devicesecurity-api
+- description: The Emailing API from KPN — 1 operation(s) for emailing.
+  name: KPN Emailing API
+  slug: kpn-emailing-api
+- description: The endpoint API from KPN — 4 operation(s) for endpoint.
+  name: KPN Endpoint API
+  slug: kpn-endpoint-api
+- description: The endpointgroup API from KPN — 1 operation(s) for endpointgroup.
+  name: KPN Endpointgroup API
+  slug: kpn-endpointgroup-api
+- description: The Events API from KPN — 2 operation(s) for events.
+  name: KPN Events API
+  slug: kpn-events-api
+- description: The Graphql API from KPN — 1 operation(s) for graphql.
+  name: KPN Graphql API
+  slug: kpn-graphql-api
+- description: The identitygroup API from KPN — 1 operation(s) for identitygroup.
+  name: KPN Identitygroup API
+  slug: kpn-identitygroup-api
+- description: The insight.configure API from KPN — 3 operation(s) for insight.configure.
+  name: KPN Insight.configure API
+  slug: kpn-insight-configure-api
+- description: The insight.monitor API from KPN — 1 operation(s) for insight.monitor.
+  name: KPN Insight.monitor API
+  slug: kpn-insight-monitor-api
+- description: The Insights API from KPN — 1 operation(s) for insights.
+  name: KPN Insights API
+  slug: kpn-insights-api
+- description: The internaluser API from KPN — 1 operation(s) for internaluser.
+  name: KPN Internaluser API
+  slug: kpn-internaluser-api
+- description: Detailed descriptions of the content
+  name: KPN Item API
+  slug: kpn-item-api
+- description: Call to generate JWT.
+  name: KPN JWT API
+  slug: kpn-jwt-api
+- description: The Meetings API from KPN — 2 operation(s) for meetings.
+  name: KPN Meetings API
+  slug: kpn-meetings-api
+- description: The Messages API from KPN — 3 operation(s) for messages.
+  name: KPN Messages API
+  slug: kpn-messages-api
+- description: The Networks API from KPN — 1 operation(s) for networks.
+  name: KPN Networks API
+  slug: kpn-networks-api
+- description: numbers operations
+  name: KPN Number API
+  slug: kpn-number-api
+- description: Organization-scope webhook configuration. Applies to all teams and applications in your organization unless a team or application config overrides it.
+  name: KPN Organization API
+  slug: kpn-organization-api
+- description: Signing keys at organization scope. Applied to all webhook deliveries in your organization unless a team or application key overrides them. KPN auto-provisions an organization key on first delivery if
+  name: KPN Organization Keys API
+  slug: kpn-organization-keys-api
+- description: The Organizations API from KPN — 2 operation(s) for organizations.
+  name: KPN Organizations API
+  slug: kpn-organizations-api
+- description: The Packages API from KPN — 2 operation(s) for packages.
+  name: KPN Packages API
+  slug: kpn-packages-api
+- description: Party and participant management endpoints
+  name: KPN Parties API
+  slug: kpn-parties-api
+- description: The Personal API from KPN — 3 operation(s) for personal.
+  name: KPN Personal API
+  slug: kpn-personal-api
+- description: The Polling API from KPN — 1 operation(s) for polling.
+  name: KPN Polling API
+  slug: kpn-polling-api
+- description: The Register webhook - Demo testing ONLY API from KPN — 1 operation(s) for register webhook - demo testing only.
+  name: KPN Register webhook - Demo testing ONLY API
+  slug: kpn-register-webhook-demo-testing-only-api
+- description: The Request API from KPN — 2 operation(s) for request.
+  name: KPN Request API
+  slug: kpn-request-api
+- description: Rest Address Controller
+  name: KPN Rest Address Controller API
+  slug: kpn-rest-address-controller-api
+- description: Rest Block Sim Controller
+  name: KPN Rest Block Sim Controller API
+  slug: kpn-rest-block-sim-controller-api
+- description: Rest Business Voice Mail Controller
+  name: KPN Rest Business Voice Mail Controller API
+  slug: kpn-rest-business-voice-mail-controller-api
+- description: Rest Contract Controller
+  name: KPN Rest Contract Controller API
+  slug: kpn-rest-contract-controller-api
+- description: Rest Contract Terminate Controller
+  name: KPN Rest Contract Terminate Controller API
+  slug: kpn-rest-contract-terminate-controller-api
+- description: Rest Contracting Controller
+  name: KPN Rest Contracting Controller API
+  slug: kpn-rest-contracting-controller-api
+- description: Rest Hardware Enrollment Controller
+  name: KPN Rest Hardware Enrollment Controller API
+  slug: kpn-rest-hardware-enrollment-controller-api
+- description: Rest Hierarchy Controller
+  name: KPN Rest Hierarchy Controller API
+  slug: kpn-rest-hierarchy-controller-api
+- description: Rest Invoice Controller
+  name: KPN Rest Invoice Controller API
+  slug: kpn-rest-invoice-controller-api
+- description: Rest Order Controller
+  name: KPN Rest Order Controller API
+  slug: kpn-rest-order-controller-api
+- description: Rest Separate Fixed Mobile Controller
+  name: KPN Rest Separate Fixed Mobile Controller API
+  slug: kpn-rest-separate-fixed-mobile-controller-api
+- description: Rest Subscriber Controller
+  name: KPN Rest Subscriber Controller API
+  slug: kpn-rest-subscriber-controller-api
+- description: Rest Template Controller
+  name: KPN Rest Template Controller API
+  slug: kpn-rest-template-controller-api
+- description: Rest Threshold Controller
+  name: KPN Rest Threshold Controller API
+  slug: kpn-rest-threshold-controller-api
+- description: Rest Track And Trace Controller
+  name: KPN Rest Track And Trace Controller API
+  slug: kpn-rest-track-and-trace-controller-api
+- description: Rest User Controller
+  name: KPN Rest User Controller API
+  slug: kpn-rest-user-controller-api
+- description: All about managing results
+  name: KPN Results API
+  slug: kpn-results-api
+- description: The Retrieve job result API from KPN — 3 operation(s) for retrieve job result.
+  name: KPN Retrieve job result API
+  slug: kpn-retrieve-job-result-api
+- description: The Retrieve SIM swap date API from KPN — 1 operation(s) for retrieve sim swap date.
+  name: KPN Retrieve SIM swap date API
+  slug: kpn-retrieve-sim-swap-date-api
+- description: To retrieve transcritions, check the processing status with your unique **job_id**. Please do not use intervals that are shorter than 10 seconds to check status to avoid a throttle penalty.
+  name: KPN Retrieve transcription API
+  slug: kpn-retrieve-transcription-api
+- description: The Routing API from KPN — 2 operation(s) for routing.
+  name: KPN Routing API
+  slug: kpn-routing-api
+- description: The Send API from KPN — 1 operation(s) for send.
+  name: KPN Send API
+  slug: kpn-send-api
+- description: The Send SMS API from KPN — 1 operation(s) for send sms.
+  name: KPN Send SMS API
+  slug: kpn-send-sms-api
+- description: Contract access for service consumers (read-only operations)
+  name: KPN Service Consumer Contracts API
+  slug: kpn-service-consumer-contracts-api
+- description: Contract management for service providers (full CRUD operations)
+  name: KPN Service Provider Contracts API
+  slug: kpn-service-provider-contracts-api
+- description: Service provider view of consumer parties and their contracts
+  name: KPN Service Provider Parties API
+  slug: kpn-service-provider-parties-api
+- description: The Session API from KPN — 1 operation(s) for session.
+  name: KPN Session API
+  slug: kpn-session-api
+- description: The Sites API from KPN — 1 operation(s) for sites.
+  name: KPN Sites API
+  slug: kpn-sites-api
+- description: The Start engineering job API from KPN — 2 operation(s) for start engineering job.
+  name: KPN Start engineering job API
+  slug: kpn-start-engineering-job-api
+- description: The Statistics API from KPN — 2 operation(s) for statistics.
+  name: KPN Statistics API
+  slug: kpn-statistics-api
+- description: The Subscription API from KPN — 1 operation(s) for subscription.
+  name: KPN Subscription API
+  slug: kpn-subscription-api
+- description: The switch.configure API from KPN — 47 operation(s) for switch.configure.
+  name: KPN Switch.configure API
+  slug: kpn-switch-configure-api
+- description: The switch.monitor API from KPN — 9 operation(s) for switch.monitor.
+  name: KPN Switch.monitor API
+  slug: kpn-switch-monitor-api
+- description: The Task API from KPN — 1 operation(s) for task.
+  name: KPN Task API
+  slug: kpn-task-api
+- description: Team-scope webhook configuration — webhook URL and field exclusions. Overrides the organization config for all applications in your team unless an application config is set.
+  name: KPN Team API
+  slug: kpn-team-api
+- description: Signing keys at team scope. Override the organization key for all deliveries in your team unless an application key is configured.
+  name: KPN Team Keys API
+  slug: kpn-team-keys-api
+- description: The Ticket API from KPN — 3 operation(s) for ticket.
+  name: KPN Ticket API
+  slug: kpn-ticket-api
+- description: The Token API from KPN — 1 operation(s) for token.
+  name: KPN Token API
+  slug: kpn-token-api
+- description: Uploads an audio file and start a new analytics job.
+  name: KPN Upload audio API
+  slug: kpn-upload-audio-api
+- description: The User Management API from KPN — 1 operation(s) for user management.
+  name: KPN User Management API
+  slug: kpn-user-management-api
+- description: The Users API from KPN — 4 operation(s) for users.
+  name: KPN Users API
+  slug: kpn-users-api
+- description: The Verify API from KPN — 4 operation(s) for verify.
+  name: KPN Verify API
+  slug: kpn-verify-api
+- description: Call related resource management
+  name: KPN Voice API
+  slug: kpn-voice-api
+- description: The VoIP SIP API API from KPN — 3 operation(s) for voip sip api.
+  name: KPN VoIP SIP API
+  slug: kpn-voip-sip-api-api
+- description: The Webhook API from KPN — 1 operation(s) for webhook.
+  name: KPN Webhook API
+  slug: kpn-webhook-api
+- description: The wireless.configure API from KPN — 37 operation(s) for wireless.configure.
+  name: KPN Wireless.configure API
+  slug: kpn-wireless-configure-api
+- description: The wireless.monitor API from KPN — 33 operation(s) for wireless.monitor.
+  name: KPN Wireless.monitor API
+  slug: kpn-wireless-monitor-api
+- description: The XML Scripting API API from KPN — 3 operation(s) for xml scripting api.
+  name: KPN XML Scripting API
+  slug: kpn-xml-scripting-api-api
+- description: The Your Active Webhook API from KPN — 1 operation(s) for your active webhook.
+  name: KPN Your Active Webhook API
+  slug: kpn-your-active-webhook-api
+artifact_total: 144
 asyncapis:
 - description: ''
   name: Kpn Webhooks
@@ -247,6 +445,174 @@ collections:
   name: Speech To Text - Xdroid
   slug: open-xdroid-speech-to-text
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kpn-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-number-verify-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-sim-swap-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/kpn-sim-swap-check.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-match-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-sms-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/kpn-send-sms.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-sms-inbound-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-mobile-services-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-fiam-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-fiam-eneco-data-products-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-disturbance-check-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/kpn-address-service-check.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-internet-speed-check-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-high-level-design-ftth-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-lora-device-management-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/kpn-lora-device-onboarding.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-sd-lan-sd-wan-network-view-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-servicenow-connect-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/kpn-servicenow-ticket.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-ise-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-tv-guide-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-webhook-signing-keys-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/kpn-rotate-webhook-signing-key.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-webhook-privacy-config-manager-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/kpn-configure-webhook-privacy.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-wholesale-wba-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-wholesale-broadband-access-fpi-cip-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-pollyhelp-knowledge-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-xdroid-speech-to-text-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-parley-secure-messenger-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-tracebuzz-social-media-webcare-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-weseedo-direct-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-weseedo-personal-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-vonage-messages-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-vonage-voice-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-vonage-phone-numbers-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-vonage-number-insight-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-vonage-sms-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-vonage-verify-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-apidaze-voice-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kpn-registered-email-overlay.yaml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -440,13 +806,13 @@ modified: '2026-07-25'
 name: KPN
 nav: Providers
 network: true
-overview: 'KPN publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Number Verify API, SIM Swap API (Account Takeover Protection), Match API, and 31 more. Tagged areas include Telecommunications, Netherlands, Mobile Network Operator, Broadband, and Network APIs.
+overview: 'KPN publishes 100 APIs on the [APIs.io](https://apis.io/) network, including Account API, Activation API, Alarm API, and 97 more. Tagged areas include Telecommunications, Netherlands, Mobile Network Operator, Broadband, and Network APIs.
 
 
   The KPN catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  KPN''s developer surface includes authentication, documentation, getting-started guide, signup flow, engineering blog, support, changelog, and 38 more developer resources.'
+  KPN''s developer surface includes authentication, documentation, getting-started guide, signup flow, engineering blog, support, changelog, and 80 more developer resources.'
 random_paper: 14
 rate_limits:
 - limit_count: 3
@@ -459,18 +825,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 64.0
-  delta: 2.1
+  composite: 62.4
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.9
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 30.3
-    contract_quality: 61.0
+    contract_governance: 18.2
+    contract_quality: 64.6
     developer_ergonomics: 60.1
-    discoverability: 68.5
-    governance: 30.3
+    discoverability: 57.4
+    governance: 18.2
     operational_transparency: 86.8
-  previous_composite: 61.9
+  previous_composite: 63.3
   provenance:
     conformance: first-party
     contracts:
@@ -486,8 +857,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 78.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/screenshots/kpn-2026-08-07T171335.png
 security:

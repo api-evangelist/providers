@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 67
   slug: przelewy24-agentic-access
   summary_line: 67 operations · 32 acting · 2 human-in-the-loop
-api_count: 13
+api_count: 4
 apis:
 - description: The Additional API functionality API from Przelewy24 — 9 operation(s) for additional api functionality.
   name: Przelewy24 Additional API functionality API
@@ -1480,6 +1480,11 @@ rules:
 score:
   band: developing
   composite: 43.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 52.6
@@ -1504,8 +1509,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/screenshots/przelewy24-2026-06-20T192230.png
 security:

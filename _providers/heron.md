@@ -26,26 +26,171 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.0
-  scored_at: '2026-08-26'
+  score: 31.5
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: Heron's REST API for document intake, parsing, enrichment, cashflow underwriting, webhooks, and broker/funder submission flows.
-  name: Heron API
-  slug: heron-api
-artifact_total: 9
+- description: The Analytics API from Heron — 1 operation(s) for analytics.
+  name: Heron Analytics API
+  slug: heron-analytics-api
+- description: The AppStore API from Heron — 1 operation(s) for appstore.
+  name: Heron App Store API
+  slug: heron-appstore-api
+- description: The Authentication API from Heron — 1 operation(s) for authentication.
+  name: Heron Authentication API
+  slug: heron-authentication-api
+- description: The Broker Funder Policies API from Heron — 10 operation(s) for broker funder policies.
+  name: Heron Broker Funder Policies API
+  slug: heron-broker-funder-policies-api
+- description: The BrokerSubmissions API from Heron — 6 operation(s) for brokersubmissions.
+  name: Heron Broker Submissions API
+  slug: heron-brokersubmissions-api
+- description: The Categories API from Heron — 1 operation(s) for categories.
+  name: Heron Categories API
+  slug: heron-categories-api
+- description: The Clear API from Heron — 2 operation(s) for clear.
+  name: Heron Clear API
+  slug: heron-clear-api
+- description: The Credentials API from Heron — 4 operation(s) for credentials.
+  name: Heron Credentials API
+  slug: heron-credentials-api
+- description: The CrmIntegrations API from Heron — 2 operation(s) for crmintegrations.
+  name: Heron CRM Integrations API
+  slug: heron-crmintegrations-api
+- description: The EmailTemplates API from Heron — 2 operation(s) for emailtemplates.
+  name: Heron Email Templates API
+  slug: heron-emailtemplates-api
+- description: The End Users API from Heron — 3 operation(s) for end users.
+  name: Heron End Users API
+  slug: heron-end-users-api
+- description: The EndUserAccounts API from Heron — 1 operation(s) for enduseraccounts.
+  name: Heron End User Accounts API
+  slug: heron-enduseraccounts-api
+- description: The EndUserAttributes API from Heron — 1 operation(s) for enduserattributes.
+  name: Heron End User Attributes API
+  slug: heron-enduserattributes-api
+- description: The EndUserCalculations API from Heron — 18 operation(s) for endusercalculations.
+  name: Heron End User Calculations API
+  slug: heron-endusercalculations-api
+- description: The EndUserDataSourceAccounts API from Heron — 3 operation(s) for enduserdatasourceaccounts.
+  name: Heron End User Data Source Accounts API
+  slug: heron-enduserdatasourceaccounts-api
+- description: The EndUserDataSources API from Heron — 3 operation(s) for enduserdatasources.
+  name: Heron End User Data Sources API
+  slug: heron-enduserdatasources-api
+- description: The EndUserEmails API from Heron — 1 operation(s) for enduseremails.
+  name: Heron End User Emails API
+  slug: heron-enduseremails-api
+- description: The EndUserEnrichers API from Heron — 5 operation(s) for enduserenrichers.
+  name: Heron End User Enrichers API
+  slug: heron-enduserenrichers-api
+- description: The EndUserEntity API from Heron — 14 operation(s) for enduserentity.
+  name: Heron End User Entity API
+  slug: heron-enduserentity-api
+- description: The EndUserFiles API from Heron — 18 operation(s) for enduserfiles.
+  name: Heron End User Files API
+  slug: heron-enduserfiles-api
+- description: The EndUserFinancials API from Heron — 1 operation(s) for enduserfinancials.
+  name: Heron End User Financials API
+  slug: heron-enduserfinancials-api
+- description: The EndUserIntegrations API from Heron — 15 operation(s) for enduserintegrations.
+  name: Heron End User Integrations API
+  slug: heron-enduserintegrations-api
+- description: The EndUserQueries API from Heron — 1 operation(s) for enduserqueries.
+  name: Heron End User Queries API
+  slug: heron-enduserqueries-api
+- description: The EndUserRules API from Heron — 1 operation(s) for enduserrules.
+  name: Heron End User Rules API
+  slug: heron-enduserrules-api
+- description: The EndUsers API from Heron — 20 operation(s) for endusers.
+  name: Heron End Users API
+  slug: heron-endusers-api
+- description: The EnrichedTransactions API from Heron — 2 operation(s) for enrichedtransactions.
+  name: Heron Enriched Transactions API
+  slug: heron-enrichedtransactions-api
+- description: The EnrichmentFeedback API from Heron — 4 operation(s) for enrichmentfeedback.
+  name: Heron Enrichment Feedback API
+  slug: heron-enrichmentfeedback-api
+- description: The FileClass API from Heron — 4 operation(s) for fileclass.
+  name: Heron File Class API
+  slug: heron-fileclass-api
+- description: The Funder Integrations API from Heron — 4 operation(s) for funder integrations.
+  name: Heron Funder Integrations API
+  slug: heron-funder-integrations-api
+- description: The Funder Submissions API from Heron — 3 operation(s) for funder submissions.
+  name: Heron Funder Submissions API
+  slug: heron-funder-submissions-api
+- description: The Funders API from Heron — 4 operation(s) for funders.
+  name: Heron Funders API
+  slug: heron-funders-api
+- description: The Ingestion API from Heron — 1 operation(s) for ingestion.
+  name: Heron Ingestion API
+  slug: heron-ingestion-api
+- description: The Integrations API from Heron — 9 operation(s) for integrations.
+  name: Heron Integrations API
+  slug: heron-integrations-api
+- description: The Interaction Logs API from Heron — 1 operation(s) for interaction logs.
+  name: Heron Interaction Logs API
+  slug: heron-interaction-logs-api
+- description: The ISOApplication API from Heron — 6 operation(s) for isoapplication.
+  name: Heron ISO Application API
+  slug: heron-isoapplication-api
+- description: The Merchants API from Heron — 6 operation(s) for merchants.
+  name: Heron Merchants API
+  slug: heron-merchants-api
+- description: The ParsedEndUserSubmission API from Heron — 1 operation(s) for parsedendusersubmission.
+  name: Heron Parsed End User Submission API
+  slug: heron-parsedendusersubmission-api
+- description: The Policy API from Heron — 3 operation(s) for policy.
+  name: Heron Policy API
+  slug: heron-policy-api
+- description: The Positions API from Heron — 2 operation(s) for positions.
+  name: Heron Positions API
+  slug: heron-positions-api
+- description: The Rules API from Heron — 3 operation(s) for rules.
+  name: Heron Rules API
+  slug: heron-rules-api
+- description: The Tags API from Heron — 4 operation(s) for tags.
+  name: Heron Tags API
+  slug: heron-tags-api
+- description: The Testing API from Heron — 2 operation(s) for testing.
+  name: Heron Testing API
+  slug: heron-testing-api
+- description: The Transactions API from Heron — 2 operation(s) for transactions.
+  name: Heron Transactions API
+  slug: heron-transactions-api
+- description: The UserMerchantGroups API from Heron — 1 operation(s) for usermerchantgroups.
+  name: Heron User Merchant Groups API
+  slug: heron-usermerchantgroups-api
+- description: The Users API from Heron — 4 operation(s) for users.
+  name: Heron Users API
+  slug: heron-users-api
+- description: The Watermarks API from Heron — 1 operation(s) for watermarks.
+  name: Heron Watermarks API
+  slug: heron-watermarks-api
+- description: The Webhooks API from Heron — 3 operation(s) for webhooks.
+  name: Heron Webhooks API
+  slug: heron-webhooks-api
+- description: The Workflows API from Heron — 22 operation(s) for workflows.
+  name: Heron Workflows API
+  slug: heron-workflows-api
+artifact_total: 56
 asyncapis:
 - description: 'Heron sends webhook notifications about the progress of asynchronous processes (end-user processing/review and PDF document parsing) to a URL you configure in the Heron dashboard (Settings tab). Each '
   name: Heron Webhooks
   slug: heron-webhooks-asyncapi
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/heron-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -226,13 +371,13 @@ modified: '2026-08-14'
 name: Heron
 nav: Providers
 network: true
-overview: 'Heron publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Document Automation, Underwriting, and Lending.
+overview: 'Heron publishes 48 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, App Store API, Authentication API, and 45 more. Tagged areas include Company, Financial-Services, Document Automation, Underwriting, and Lending.
 
 
   The Heron catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Heron''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 35 more developer resources.'
+  Heron''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 36 more developer resources.'
 plans:
 - name: Heron Plans Pricing
   plan_count: 0
@@ -244,30 +389,41 @@ rate_limits:
   slug: heron-rate-limits
 score:
   band: strong
-  composite: 61.0
-  delta: 0.0
+  composite: 61.5
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.3
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
-    contract_quality: 46.6
+    contract_governance: 18.2
+    contract_quality: 56.8
     developer_ergonomics: 78.6
-    discoverability: 75.9
-    governance: 30.3
+    discoverability: 70.4
+    governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 61.0
+  previous_composite: 60.2
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/screenshots/heron-2026-07-25T221032.png
 security:
@@ -294,7 +450,7 @@ tags:
 - Document Automation
 - Underwriting
 - Lending
-- Cash Flow Analytics
+- Cashflow Analytics
 - Fintech
 - Data Enrichment
 - Bank Statements

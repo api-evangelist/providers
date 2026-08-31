@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 21
 apis:
 - description: Free API management gateway operated by the U.S. General Services Administration's Technology Transformation Services. Fronts the API keys, rate limiting, and analytics for over 450 APIs across roughl
@@ -100,6 +100,22 @@ apis:
   slug: api-evangelist-federal-agencies-roundup
 artifact_total: 34
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/18F/api.data.gov/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/GSA/api.data.gov/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/GSA/api.data.gov/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/GSA/api.data.gov/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -169,9 +185,14 @@ rules:
     warn: 3
   slug: public-sector-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 22.0
-  delta: 10.9
+  band: thin
+  composite: 28.7
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 65.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -180,17 +201,20 @@ score:
     developer_ergonomics: 31.0
     discoverability: 64.8
     governance: 9.8
-    operational_transparency: 2.6
-  previous_composite: 11.1
+    operational_transparency: 13.2
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 28.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/public-sector/refs/heads/main/screenshots/public-sector-2026-06-20T192241.png
 security:
 - kind: domain-security

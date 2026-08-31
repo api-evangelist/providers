@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 49
   slug: prolific-research-agentic-access
   summary_line: 49 operations · 25 acting
-api_count: 10
+api_count: 1
 apis:
 - description: Bulk bonus payments to participants.
   name: Prolific Bonuses API
@@ -113,6 +113,10 @@ collections:
   name: Prolific API
   slug: open-prolific-research
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/prolific-research-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -172,7 +176,7 @@ network: true
 overview: 'Prolific publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Bonuses API, Filters API, Hooks API, and 7 more. Tagged areas include Research, Participant Recruitment, Surveys, Human Data, and Crowdsourcing.
 
 
-  Prolific''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Prolific''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Prolific Research Plans Pricing
   plan_count: 3
@@ -184,18 +188,23 @@ rate_limits:
   slug: prolific-research-rate-limits
 score:
   band: developing
-  composite: 40.8
-  delta: 2.4
+  composite: 40.2
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 55.5
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.4
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -203,8 +212,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

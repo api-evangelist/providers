@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: scalable-inference-serving-agentic-access
   summary_line: 9 operations · 2 acting
-api_count: 9
+api_count: 1
 apis:
 - description: BentoML is an open-source unified inference platform for deploying and scaling AI models. It auto-generates RESTful APIs from Python service definitions, provides built-in OpenAPI/Swagger documentatio
   name: BentoML REST API
@@ -277,18 +277,23 @@ rules:
   slug: scalable-inference-serving-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.0
-  delta: 6.5
+  composite: 43.4
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 47.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 69.7
     contract_quality: 60.7
     developer_ergonomics: 40.5
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 69.7
     operational_transparency: 23.7
-  previous_composite: 37.5
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -296,9 +301,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/refs/heads/main/screenshots/scalable-inference-serving-2026-06-20T193501.png
 slug: scalable-inference-serving
 tags:

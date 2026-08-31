@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-26'
-api_count: 38
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: AI-powered query generation
   name: Omni AI API
@@ -270,6 +270,10 @@ collections:
   name: Omni AI Who Am I API
   slug: open-omni-who-am-i-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/omni-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -417,22 +421,27 @@ network: true
 overview: 'Omni publishes 38 APIs on the [APIs.io](https://apis.io/) network, including AI API, AI Credit Controls API, AI Eval API, and 35 more. Tagged areas include Company, Artificial Intelligence, Analytics, Business Intelligence, and Data.
 
 
-  Omni''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 26 more developer resources.'
+  Omni''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 27 more developer resources.'
 random_paper: 15
 score:
   band: strong
-  composite: 58.3
-  delta: 0.0
+  composite: 56.3
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 65.2
     developer_ergonomics: 80.4
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 58.3
+  previous_composite: 56.9
   provenance:
     conformance: derived
     contracts:
@@ -442,8 +451,8 @@ score:
       total: 38
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omni/refs/heads/main/screenshots/omni-2026-08-07T190144.png
 security:

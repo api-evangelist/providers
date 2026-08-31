@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 37
   slug: aurora-solar-agentic-access
   summary_line: 37 operations · 15 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Customer agreements and signed downloads.
   name: Aurora Solar Agreements API
@@ -157,7 +157,7 @@ modified: '2026-07-04'
 name: Aurora Solar
 nav: Providers
 network: true
-overview: 'Aurora Solar publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Consumption Profiles API, Designs API, and 5 more. Tagged areas include Solar, Solar Design, PV, Proposals, and Cleantech.
+overview: 'Aurora Solar publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Agreements API, Consumption Profiles API, Designs API, and 5 more. Tagged areas include Solar, Solar Design, PV, Proposals, and CleanTech.
 
 
   Aurora Solar''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -172,18 +172,23 @@ rate_limits:
   slug: aurora-solar-rate-limits
 score:
   band: thin
-  composite: 38.8
-  delta: 1.7
+  composite: 38.2
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 56.0
     developer_ergonomics: 27.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.1
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     contracts:
@@ -197,8 +202,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aurora-solar/refs/heads/main/screenshots/aurora-solar-2026-07-25T201754.png
 security:
@@ -216,7 +221,7 @@ tags:
 - Solar Design
 - PV
 - Proposals
-- Cleantech
+- CleanTech
 - Energy
 - Sales Software
 website: https://aurorasolar.com

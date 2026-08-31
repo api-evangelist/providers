@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: trieve-agentic-access
   summary_line: 5 operations · 5 acting
-api_count: 21
+api_count: 1
 apis:
 - description: Production REST API for Trieve Cloud. Organizes resources around organizations, datasets, chunks, chunk groups, files, search, topics, messages, crawls, analytics, events, experiments, and billing. Do
   name: Trieve REST API
@@ -131,6 +131,26 @@ collections:
   name: Trieve REST API
   slug: open-trieve
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/devflowinc/trieve/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/devflowinc/trieve/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/devflowinc/trieve/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/devflowinc/trieve/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/devflowinc/trieve/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -186,7 +206,7 @@ network: true
 overview: 'Trieve publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chunk API, Dataset API, File API, and 2 more. Tagged areas include Search, RAG, Vector Search, Hybrid Search, and Recommendations.
 
 
-  Trieve''s developer surface includes authentication, documentation, GitHub presence, pricing, engineering blog, and 5 more developer resources.'
+  Trieve''s developer surface includes authentication, documentation, GitHub presence, pricing, engineering blog, and 10 more developer resources.'
 plans:
 - name: Trieve Plans Pricing
   plan_count: 1
@@ -197,19 +217,27 @@ rate_limits:
   name: Trieve Rate Limits
   slug: trieve-rate-limits
 score:
-  band: thin
-  composite: 34.6
-  delta: -0.9
+  band: developing
+  composite: 43.7
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 46.8
     developer_ergonomics: 22.6
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 35.5
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 44.2
   provenance:
     agentic_access: derived
     contracts:
@@ -217,8 +245,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trieve/refs/heads/main/screenshots/trieve-2026-06-20T195811.png
 security:

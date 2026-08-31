@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 48
   slug: chalmers-university-of-technology-agentic-access
   summary_line: 48 operations · 31 acting
-api_count: 24
+api_count: 1
 apis:
 - description: OAI-PMH 2.0 metadata harvesting interface for the Chalmers Research portal (research.chalmers.se), covering Chalmers research publications with records dating back to 1942. Returns a valid Identify re
   name: Chalmers Research OAI-PMH
@@ -188,6 +188,10 @@ collections:
   name: ChalmersResearch ContractImport SolrImport API
   slug: open-chalmers-university-of-technology-solrimport-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/chalmers-university-of-technology-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -279,7 +283,7 @@ overview: 'Chalmers University of Technology publishes 22 APIs on the [APIs.io](
   The Chalmers University of Technology catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Chalmers University of Technology''s developer surface includes authentication, GitHub presence, and 9 more developer resources.'
+  Chalmers University of Technology''s developer surface includes authentication, GitHub presence, and 10 more developer resources.'
 plans:
 - name: Chalmers University Of Technology Plans Pricing
   plan_count: 2
@@ -313,18 +317,23 @@ rules:
   slug: chalmers-university-of-technology-rules
 score:
   band: thin
-  composite: 38.1
-  delta: 1.9
+  composite: 37.5
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 36.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 62.1
     developer_ergonomics: 21.4
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 36.2
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -338,8 +347,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/screenshots/chalmers-university-of-technology-2026-06-20T174208.png
 security:

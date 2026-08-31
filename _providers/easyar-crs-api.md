@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'REST/HTTP API for cloud image recognition: target management endpoints (/targets/, /target/<id>, /grade/detection/, /ping) and a recognition endpoint (/search), plus a token exchange service. Uses per'
@@ -37,12 +37,17 @@ modified: '2026-07-18'
 name: EasyAR CRS API
 nav: Providers
 network: true
-overview: EasyAR CRS API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Augmented Reality, ar-sdk, Cloud Recognition, Image Recognition, and Spatial Computing.
+overview: EasyAR CRS API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include augmented-reality, ar-sdk, cloud-recognition, image-recognition, and spatial-computing.
 random_paper: 12
 score:
   band: minimal
   composite: 7.8
-  delta: 1.9
+  coverage:
+    artifact_dirs: 1
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -58,19 +63,19 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 5.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 7.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/easyar-crs-api/refs/heads/main/screenshots/easyar-crs-api-2026-07-25T212712.png
 slug: easyar-crs-api
 tags:
-- Augmented Reality
+- augmented-reality
 - ar-sdk
-- Cloud Recognition
-- Image Recognition
-- Spatial Computing
-- Visual Positioning
-- Computer-Vision
+- cloud-recognition
+- image-recognition
+- spatial-computing
+- visual-positioning
+- computer-vision
 - Developer Tools
 ---

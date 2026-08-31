@@ -23,13 +23,67 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: REST API v1 for a Namely HRIS tenant. Covers employee profiles (including the tenant's own custom fields), the profile field and section schema, groups, group types and teams, job titles and job tiers
-  name: Namely API
-  slug: namely-api
-artifact_total: 6
+- description: The Comments API from Namely — 3 operation(s) for comments.
+  name: Namely Comments API
+  slug: namely-comments-api
+- description: The Company Info API from Namely — 1 operation(s) for company info.
+  name: Namely Company Info API
+  slug: namely-company-info-api
+- description: The Company Resources API from Namely — 5 operation(s) for company resources.
+  name: Namely Company Resources API
+  slug: namely-company-resources-api
+- description: The Countries API from Namely — 2 operation(s) for countries.
+  name: Namely Countries API
+  slug: namely-countries-api
+- description: The Events API from Namely — 2 operation(s) for events.
+  name: Namely Events API
+  slug: namely-events-api
+- description: The Groups API from Namely — 3 operation(s) for groups.
+  name: Namely Groups API
+  slug: namely-groups-api
+- description: The Groups & Teams API from Namely — 7 operation(s) for groups & teams.
+  name: Namely Groups & Teams API
+  slug: namely-groups-teams-api
+- description: The Home Feed API from Namely — 10 operation(s) for home feed.
+  name: Namely Home Feed API
+  slug: namely-home-feed-api
+- description: The Job Tier API from Namely — 2 operation(s) for job tier.
+  name: Namely Job Tier API
+  slug: namely-job-tier-api
+- description: The Job Title API from Namely — 2 operation(s) for job title.
+  name: Namely Job Title API
+  slug: namely-job-title-api
+- description: The Jobs Info API from Namely — 4 operation(s) for jobs info.
+  name: Namely Jobs Info API
+  slug: namely-jobs-info-api
+- description: The Likes API from Namely — 1 operation(s) for likes.
+  name: Namely Likes API
+  slug: namely-likes-api
+- description: The Namely System Info API from Namely — 2 operation(s) for namely system info.
+  name: Namely Namely System Info API
+  slug: namely-namely-system-info-api
+- description: The Notifications API from Namely — 2 operation(s) for notifications.
+  name: Namely Notifications API
+  slug: namely-notifications-api
+- description: The Profile Fields API from Namely — 4 operation(s) for profile fields.
+  name: Namely Profile Fields API
+  slug: namely-profile-fields-api
+- description: The Profile Fields Sections API from Namely — 2 operation(s) for profile fields sections.
+  name: Namely Profile Fields Sections API
+  slug: namely-profile-fields-sections-api
+- description: The Profiles API from Namely — 3 operation(s) for profiles.
+  name: Namely Profiles API
+  slug: namely-profiles-api
+- description: The Reports API from Namely — 1 operation(s) for reports.
+  name: Namely Reports API
+  slug: namely-reports-api
+- description: The Teams API from Namely — 1 operation(s) for teams.
+  name: Namely Teams API
+  slug: namely-teams-api
+artifact_total: 24
 common:
 - group: auth
   title: ''
@@ -168,7 +222,7 @@ modified: '2026-08-26'
 name: Namely
 nav: Providers
 network: true
-overview: 'Namely publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include HR, Human Capital Management, Payroll, Employee Data, and Onboarding.
+overview: 'Namely publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Comments API, Company Info API, Company Resources API, and 16 more. Tagged areas include hr, human-capital-management, payroll, employee-data, and Onboarding.
 
 
   Namely''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 24 more developer resources.'
@@ -183,16 +237,23 @@ rate_limits:
   slug: namely-rate-limits
 score:
   band: strong
-  composite: 57.4
+  composite: 56.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
-    contract_governance: 30.3
-    contract_quality: 41.5
+    contract_governance: 18.2
+    contract_quality: 43.9
     developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 55.3
+  previous_composite: 57.1
   provenance:
     conformance: first-party
     contracts:
@@ -202,8 +263,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Namely Authentication
@@ -215,17 +277,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: namely
 tags:
-- HR
-- Human Capital Management
-- Payroll
-- Employee Data
+- hr
+- human-capital-management
+- payroll
+- employee-data
 - Onboarding
 - Benefits
-- Applicant Tracking
-- Performance Management
+- applicant-tracking
+- performance-management
 - SCIM
-- Single Sign-On
-- Identity Provisioning
-- Workforce Management
+- single-sign-on
+- identity-provisioning
+- workforce-management
 website: https://namely.com/
 ---

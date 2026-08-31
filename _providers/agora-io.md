@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 11
 apis:
 - description: The Agora Video Calling API enables real-time, interactive video communication with sub-200ms global latency. Supports one-to-one calls, group calls, and multi-host scenarios across mobile, web, deskt
@@ -289,8 +289,13 @@ overview: 'Agora publishes 11 APIs on the [APIs.io](https://apis.io/) network. T
 random_paper: 6
 score:
   band: thin
-  composite: 30.6
-  delta: 2.4
+  composite: 30.1
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -300,9 +305,12 @@ score:
     discoverability: 81.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 28.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 30.6
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agora-io/refs/heads/main/screenshots/agora-io-2026-06-20T170349.png
 security:

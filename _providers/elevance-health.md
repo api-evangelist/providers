@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: elevance-health-agentic-access
   summary_line: 10 operations
-api_count: 9
+api_count: 1
 apis:
 - description: The Patient Access API enables Anthem and Elevance Health members to securely access and exchange their medical, pharmacy, dental, and vision claims and clinical data through third-party applications.
   name: Elevance Health Patient Access API
@@ -95,6 +95,10 @@ collections:
   name: Elevance Health Patient Access FHIR API
   slug: open-elevance-health
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/elevance-health-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -146,7 +150,7 @@ network: true
 overview: 'Elevance Health publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Conformance API, Coverage API, and 2 more. Tagged areas include Fortune 500, Healthcare, Health Insurance, FHIR, and Interoperability.
 
 
-  Elevance Health''s developer surface includes authentication, documentation, signup flow, and 6 more developer resources.'
+  Elevance Health''s developer surface includes authentication, documentation, signup flow, and 7 more developer resources.'
 plans:
 - name: Elevance Health Plans Pricing
   plan_count: 4
@@ -163,15 +167,20 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 33.2
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 26.2
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 33.7
@@ -188,8 +197,8 @@ score:
     regime: Health
     regime_id: health
     score: 36.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/screenshots/elevance-health-2026-06-20T180559.png
 security:

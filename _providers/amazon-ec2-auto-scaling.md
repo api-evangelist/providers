@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 130
   slug: amazon-ec2-auto-scaling-agentic-access
   summary_line: 130 operations · 65 acting · 2 human-in-the-loop
-api_count: 65
+api_count: 1
 apis:
 - description: 'The #Action=AttachInstances API from Amazon EC2 Auto Scaling — 1 operation(s) for #action=attachinstances.'
   name: 'Amazon EC2 Auto Scaling #Action=AttachInstances API'
@@ -663,6 +663,10 @@ collections:
   name: 'Auto Scaling #Action=AttachInstances #Action=AttachInstances #Action=UpdateAutoScalingGroup API'
   slug: open-amazon-ec2-auto-scaling-action-updateautoscalinggroup-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-ec2-auto-scaling-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -4197,13 +4201,13 @@ modified: '2026-05-19'
 name: Amazon EC2 Auto Scaling
 nav: Providers
 network: true
-overview: 'Amazon EC2 Auto Scaling publishes 65 APIs on the [APIs.io](https://apis.io/) network, including #Action=AttachInstances API, #Action=AttachLoadBalancers API, #Action=AttachLoadBalancerTargetGroups API, and 62 more. Tagged areas include Amazon Web Services, Auto-Scaling, Compute, EC2, and High Availability.
+overview: 'Amazon EC2 Auto Scaling publishes 65 APIs on the [APIs.io](https://apis.io/) network, including #Action=AttachInstances API, #Action=AttachLoadBalancers API, #Action=AttachLoadBalancerTargetGroups API, and 62 more. Tagged areas include Amazon Web Services, Auto Scaling, Compute, EC2, and High Availability.
 
 
   The Amazon EC2 Auto Scaling catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon EC2 Auto Scaling''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 28 more developer resources.'
+  Amazon EC2 Auto Scaling''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 29 more developer resources.'
 plans:
 - name: Amazon Ec2 Auto Scaling Plans Pricing
   plan_count: 3
@@ -4237,18 +4241,23 @@ rules:
   slug: amazon-ec2-auto-scaling-spectral-rules
 score:
   band: strong
-  composite: 62.9
-  delta: 6.6
+  composite: 62.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
     contract_governance: 28.8
     contract_quality: 77.3
     developer_ergonomics: 69.0
-    discoverability: 75.9
+    discoverability: 70.4
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 56.3
+  previous_composite: 62.9
   provenance:
     agentic_access: derived
     contracts:
@@ -4256,9 +4265,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 65
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-auto-scaling/refs/heads/main/screenshots/amazon-ec2-auto-scaling-2026-07-25T200006.png
 security:
 - kind: authentication
@@ -4280,7 +4289,7 @@ security:
 slug: amazon-ec2-auto-scaling
 tags:
 - Amazon Web Services
-- Auto-Scaling
+- Auto Scaling
 - Compute
 - EC2
 - High Availability

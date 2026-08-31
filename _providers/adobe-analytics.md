@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: derived
     idempotency: verified
     mcp_server: verified
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 66.5
-  scored_at: '2026-08-26'
+  score: 64.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 25
   slug: adobe-analytics-agentic-access
   summary_line: 25 operations · 11 acting
-api_count: 22
+api_count: 11
 apis:
 - description: The Livestream API is a reporting feature in Adobe Analytics that allows clients to receive traffic data processed by Adobe Analytics in real time. Hits are streamed to the client on a hit-by-hit basi
   name: Adobe Analytics Livestream API
@@ -86,30 +86,57 @@ apis:
 - description: Estimate the scope and cost of a repair job
   name: Adobe Analytics Server Call Estimate API
   slug: adobe-analytics-server-call-estimate-api
-- description: Import, update, and remove classification values that group and label dimension items (for example mapping campaign tracking codes to campaign names, owners, and channels) in an Adobe Analytics report
-  name: Adobe Analytics Classification API
-  slug: adobe-analytics-classification-api
-- description: Create, update, retrieve, and manage Adobe Analytics data feeds and column presets — the scheduled raw hit-level exports that deliver every column of collected data to customer-controlled storage (FTP
-  name: Adobe Analytics Data Feed API
-  slug: adobe-analytics-data-feeds-api
-- description: Schedule, manage, and retrieve Adobe Analytics Data Warehouse requests — non-sampled, long-running exports of granular report data delivered to email or cloud storage.
-  name: Adobe Analytics Data Warehouse API
-  slug: adobe-analytics-data-warehouse-api
-- description: Manage Data Sources uploads into an Adobe Analytics report suite — the batch channel for bringing offline, CRM, and third-party data into Analytics reporting.
-  name: Adobe Analytics Data Sources API
-  slug: adobe-analytics-data-sources-api
-- description: Retrieve the Marketing Channel processing rules configured for an Adobe Analytics report suite — the rules that classify inbound traffic into paid search, display, email, social, and other acquisition
+- description: Manage Data Sources accounts associated with a report suite
+  name: Adobe Analytics Account API
+  slug: adobe-analytics-account-api
+- description: The analytics Cloud Locations account API for user token
+  name: Adobe Analytics Analytics Cloud Locations Account API
+  slug: adobe-analytics-analytics-cloud-locations-account-api-api
+- description: The analytics Cloud Locations Location API for user token
+  name: Adobe Analytics Analytics Cloud Locations Location API
+  slug: adobe-analytics-analytics-cloud-locations-location-api-api
+- description: The Classification Dataset API from Adobe Analytics — 3 operation(s) for classification dataset.
+  name: Adobe Analytics Classification Dataset API
+  slug: adobe-analytics-classification-dataset-api
+- description: The Classification Job API from Adobe Analytics — 10 operation(s) for classification job.
+  name: Adobe Analytics Classification Job API
+  slug: adobe-analytics-classification-job-api
+- description: The Collections Suites API from Adobe Analytics — 2 operation(s) for collections suites.
+  name: Adobe Analytics Collections Suites API
+  slug: adobe-analytics-collections-suites-api
+- description: API to create, update and retrieve column presets for datafeeds with a user token
+  name: Adobe Analytics Column Preset API
+  slug: adobe-analytics-column-preset-api-api
+- description: API Methods for migrating projects with components from Adobe Analytics to Customer Journey Analytics
+  name: Adobe Analytics Component migration API
+  slug: adobe-analytics-component-migration-api
+- description: The data warehouse report API
+  name: Adobe Analytics Data Warehouse Report API
+  slug: adobe-analytics-data-warehouse-report-api-api
+- description: The data warehouse scheduled requests API
+  name: Adobe Analytics Data Warehouse Scheduled Requests API
+  slug: adobe-analytics-data-warehouse-scheduled-requests-api-api
+- description: API to create, update and retrieve datafeed with a user token
+  name: Adobe Analytics Datafeed API
+  slug: adobe-analytics-datafeed-api-api
+- description: Methods to map Analytics dimensions to CJA data views within an XDM schema
+  name: Adobe Analytics Dimensions mappings API
+  slug: adobe-analytics-dimensions-mappings-api
+- description: Upload and monitor data of Data Sources accounts
+  name: Adobe Analytics Job API
+  slug: adobe-analytics-job-api
+- description: API for users to resend, reprocess and redo datafeed requests with a user token
+  name: Adobe Analytics Manage API
+  slug: adobe-analytics-manage-api-api
+- description: The Marketing Channels API from Adobe Analytics — 1 operation(s) for marketing channels.
   name: Adobe Analytics Marketing Channels API
   slug: adobe-analytics-marketing-channels-api
-- description: Manage the cloud export accounts and locations Adobe Analytics writes exported data to (Amazon S3, Azure Blob, Google Cloud Platform), including account properties and location definitions.
-  name: Adobe Analytics Cloud Locations API
-  slug: adobe-analytics-cloud-locations-api
-- description: 'Administer Adobe Analytics report suites — create suites, and read and update the settings that govern collection and reporting behavior. Distinct from the read-only report suite discovery operations '
-  name: Adobe Analytics Report Suites Admin API
-  slug: adobe-analytics-report-suites-admin-api
-- description: Map Adobe Analytics dimensions and metrics to their Customer Journey Analytics equivalents, supporting migration of segments and calculated metrics from Adobe Analytics report suites to CJA data views
-  name: Adobe Analytics Component Migration API
-  slug: adobe-analytics-component-migration-api
+- description: Methods to map Analytics metrics to CJA data views within an XDM schema
+  name: Adobe Analytics Metrics mappings API
+  slug: adobe-analytics-metrics-mappings-api
+- description: The Virtual Report Suites API from Adobe Analytics — 4 operation(s) for virtual report suites.
+  name: Adobe Analytics Virtual Report Suites API
+  slug: adobe-analytics-virtual-report-suites-api
 arazzos:
 - description: Review saved date ranges, create an annotation for a period, then run a report over it.
   name: Adobe Analytics Annotate a Date Range and Run a Report
@@ -147,7 +174,7 @@ arazzos:
 - description: Validate a gzip-compressed events file and upload it only when validation passes.
   name: Adobe Analytics Validate then Upload a Batch Events File
   slug: adobe-analytics-validate-then-upload-events-workflow
-artifact_total: 192
+artifact_total: 201
 asyncapis:
 - description: The Adobe Analytics Livestream API delivers real-time analytics hit data to a connected client as each hit is processed by Adobe Analytics servers. Data is streamed in line-delimited JSON format compr
   name: Adobe Analytics Livestream API
@@ -208,6 +235,10 @@ collections:
   name: Adobe Analytics Annotations Server Call Estimate API
   slug: open-adobe-analytics-server-call-estimate-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/adobe-analytics-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -881,13 +912,13 @@ modified: '2026-08-13'
 name: Adobe Analytics
 nav: Providers
 network: true
-overview: 'Adobe Analytics publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Livestream API, Annotations API, Calculated Metrics API, and 17 more. Tagged areas include Adobe, Analytics, Business Intelligence, Customer Intelligence, and Digital Marketing.
+overview: 'Adobe Analytics publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Livestream API, Annotations API, Calculated Metrics API, and 26 more. Tagged areas include Adobe, Analytics, Business Intelligence, Customer Intelligence, and Digital Marketing.
 
 
   The Adobe Analytics catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Adobe Analytics'' developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, developer console, support, and 71 more developer resources.'
+  Adobe Analytics'' developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, developer console, support, and 72 more developer resources.'
 plans:
 - name: Adobe Analytics Plans Pricing
   plan_count: 3
@@ -935,19 +966,27 @@ scopes:
   slug: adobe-analytics-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 67.4
-  delta: 0.0
+  band: strong
+  composite: 61.7
+  coverage:
+    artifact_dirs: 36
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.4
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_governance: 45.5
-    contract_quality: 71.4
+    contract_governance: 33.3
+    contract_quality: 68.5
     developer_ergonomics: 70.2
-    discoverability: 83.3
-    governance: 45.5
+    discoverability: 72.2
+    governance: 33.3
     operational_transparency: 57.9
-  previous_composite: 67.4
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -958,8 +997,8 @@ score:
       total: 11
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/screenshots/adobe-analytics-2026-06-20T164808.png
 security:

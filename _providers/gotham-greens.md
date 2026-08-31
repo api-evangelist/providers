@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -94,6 +94,10 @@ collections:
   name: Gotham Greens Taxonomy API
   slug: open-gotham-greens-taxonomy-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gotham-greens-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -222,22 +226,27 @@ network: true
 overview: 'Gotham Greens publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Journal Posts API, Pages API, Media API, and 5 more. Tagged areas include Company, Agriculture, Controlled Environment Agriculture, Hydroponics, and Food.
 
 
-  Gotham Greens'' developer surface includes engineering blog, support, authentication, code examples, and 24 more developer resources.'
+  Gotham Greens'' developer surface includes engineering blog, support, authentication, code examples, and 25 more developer resources.'
 random_paper: 6
 score:
   band: thin
-  composite: 39.0
+  composite: 37.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 60.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
-    contract_governance: 16.7
-    contract_quality: 56.0
+    contract_governance: 4.5
+    contract_quality: 55.4
     developer_ergonomics: 20.8
     discoverability: 74.1
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 39.0
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,8 +257,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gotham-greens/refs/heads/main/screenshots/gotham-greens-2026-08-07T165809.png
 security:

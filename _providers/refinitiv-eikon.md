@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 29
   slug: refinitiv-eikon-agentic-access
   summary_line: 29 operations · 12 acting
-api_count: 47
+api_count: 3
 apis:
 - description: Python and R library that allows programmatic access to Refinitiv Eikon data. Provides access to instrument pricing, fundamentals, estimates, time series, news, and symbology. Requires the Eikon or LS
   name: Eikon Data API
@@ -307,6 +307,10 @@ collections:
   name: Refinitiv Eikon LSEG Tick History REST API
   slug: open-refinitiv-eikon-tick-history
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/datastreamapi/DatastreamPy/issues
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -582,7 +586,7 @@ overview: 'Refinitiv Eikon publishes 15 APIs on the [APIs.io](https://apis.io/) 
   The Refinitiv Eikon catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Refinitiv Eikon''s developer surface includes authentication, developer portal, getting-started guide, documentation, signup flow, engineering blog, support, and 32 more developer resources.'
+  Refinitiv Eikon''s developer surface includes authentication, developer portal, getting-started guide, documentation, signup flow, engineering blog, support, and 33 more developer resources.'
 plans:
 - name: Refinitiv Eikon Plans Pricing
   plan_count: 1
@@ -627,18 +631,26 @@ rules:
   slug: refinitiv-eikon-rules
 score:
   band: developing
-  composite: 51.6
-  delta: 1.0
+  composite: 48.2
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 30.3
     commercial_clarity: 30.3
     contract_governance: 28.8
-    contract_quality: 72.4
+    contract_quality: 72.2
     developer_ergonomics: 61.9
-    discoverability: 50.0
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 50.6
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     contracts:
@@ -652,8 +664,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 45.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/screenshots/refinitiv-eikon-2026-06-20T192745.png
 security:

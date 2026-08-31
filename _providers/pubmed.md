@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: pubmed-agentic-access
   summary_line: 9 operations · 1 acting
-api_count: 10
+api_count: 1
 apis:
 - description: The PMC Open Access API provides citation data, license information, and download links for Open Access articles in PubMed Central. Supports filtering by date and license type, returning FTP and HTTPS
   name: PubMed Central OA API
@@ -155,7 +155,7 @@ modified: '2026-06-13'
 name: PubMed
 nav: Providers
 network: true
-overview: 'PubMed publishes 6 APIs on the [APIs.io](https://apis.io/) network, including History API, Info API, Links API, and 3 more. Tagged areas include Biomedical, Life Science, Research, Literature, and Citations.
+overview: 'PubMed publishes 6 APIs on the [APIs.io](https://apis.io/) network, including History API, Info API, Links API, and 3 more. Tagged areas include biomedical, life science, research, literature, and Citations.
 
 
   The PubMed catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -184,18 +184,23 @@ rules:
   slug: pubmed-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.6
-  delta: 1.9
+  composite: 33.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 55.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 56.2
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 31.7
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     contracts:
@@ -209,8 +214,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pubmed/refs/heads/main/screenshots/pubmed-2026-06-20T192246.png
 security:
@@ -224,14 +229,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: pubmed
 tags:
-- Biomedical
-- Life Science
-- Research
-- Literature
+- biomedical
+- life science
+- research
+- literature
 - Citations
-- abstracts
-- Mesh
-- Genomics
+- Abstracts
+- MeSH
+- genomics
 - PubMed
 - NCBI
 ---

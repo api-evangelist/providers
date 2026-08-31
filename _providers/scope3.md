@@ -12,18 +12,18 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: near-conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: true
     error_semantics: verified
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: documented
     openapi_examples: partial
     protected_resource_metadata: verified
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 66.6
-  scored_at: '2026-08-26'
+  score: 69.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -41,14 +41,8 @@ agentic_access:
   operation_count: 30
   slug: scope3-agentic-access
   summary_line: 30 operations · 17 acting
-api_count: 16
+api_count: 4
 apis:
-- description: 'The buyer side of Scope3 Interchange, the Interchange for agent-to-agent advertising: 212 published operations covering advertisers, campaigns, product discovery, creatives, media buys, measurement, s'
-  name: Scope3 Interchange Buyer API
-  slug: scope3-interchange-buyer-api
-- description: 'The seller side of Scope3 Interchange: 269 published operations covering storefronts, inventory sources, ad-server catalog and buyer routing, signals, proposals, approvals, storefront agents and payou'
-  name: Scope3 Interchange Storefront API
-  slug: scope3-interchange-storefront-api
 - description: The AI Impact Measurement API from Scope3 — 1 operation(s) for ai impact measurement.
   name: Scope3 AI Impact Measurement API
   slug: scope3-ai-impact-measurement-api
@@ -91,7 +85,118 @@ apis:
 - description: The Status API from Scope3 — 1 operation(s) for status.
   name: Scope3 Status API
   slug: scope3-status-api
-artifact_total: 39
+- description: Account management, service tokens, and preferences
+  name: Scope3 Account API
+  slug: scope3-account-api
+- description: The Activity API from Scope3 — 2 operation(s) for activity.
+  name: Scope3 Activity API
+  slug: scope3-activity-api
+- description: Manage advertisers
+  name: Scope3 Advertisers API
+  slug: scope3-advertisers-api
+- description: Storefront AI token usage visibility by model
+  name: Scope3 AI Usage API
+  slug: scope3-ai-usage-api
+- description: What you are waiting on Scope3 for — support, product, and supply asks in one list
+  name: Scope3 Asks API
+  slug: scope3-asks-api
+- description: The Audit Logs API from Scope3 — 1 operation(s) for audit logs.
+  name: Scope3 Audit Logs API
+  slug: scope3-audit-logs-api
+- description: The Brands API from Scope3 — 1 operation(s) for brands.
+  name: Scope3 Brands API
+  slug: scope3-brands-api
+- description: Consolidated invoicing for buyers — invoices and pending invoice items issued by Scope3 across the buyer customer.
+  name: Scope3 Buyer Billing API
+  slug: scope3-buyer-billing-api
+- description: Manage advertising campaigns
+  name: Scope3 Campaigns API
+  slug: scope3-campaigns-api
+- description: Build, manage, and sync campaign creatives via AdCP Creative Protocol
+  name: Scope3 Creatives API
+  slug: scope3-creatives-api
+- description: Manage event source configurations and log conversion/marketing events for attribution
+  name: Scope3 Event Sources API
+  slug: scope3-event-sources-api
+- description: Model Context Protocol endpoints for AI agents
+  name: Scope3 MCP API
+  slug: scope3-mcp-api
+- description: Measurement sources, records, context, and freshness
+  name: Scope3 Measurement API
+  slug: scope3-measurement-api
+- description: The Media Billing API from Scope3 — 5 operation(s) for media billing.
+  name: Scope3 Media Billing API
+  slug: scope3-media-billing-api
+- description: The Moderation API from Scope3 — 1 operation(s) for moderation.
+  name: Scope3 Moderation API
+  slug: scope3-moderation-api
+- description: The Notifications API from Scope3 — 4 operation(s) for notifications.
+  name: Scope3 Notifications API
+  slug: scope3-notifications-api
+- description: The Optimization Suggestions API from Scope3 — 4 operation(s) for optimization suggestions.
+  name: Scope3 Optimization Suggestions API
+  slug: scope3-optimization-suggestions-api
+- description: Discover and select products
+  name: Scope3 Product Discovery API
+  slug: scope3-product-discovery-api
+- description: The Products API from Scope3 — 1 operation(s) for products.
+  name: Scope3 Products API
+  slug: scope3-products-api
+- description: Validate property lists against AAO registry
+  name: Scope3 Property Lists API
+  slug: scope3-property-lists-api
+- description: The Release Updates API from Scope3 — 2 operation(s) for release updates.
+  name: Scope3 Release Updates API
+  slug: scope3-release-updates-api
+- description: Access performance metrics
+  name: Scope3 Reporting API
+  slug: scope3-reporting-api
+- description: Request reviewed access to Interchange
+  name: Scope3 Signup API
+  slug: scope3-signup-api
+- description: Audit log of configuration and inventory changes on the storefront
+  name: Scope3 Storefront Activity API
+  slug: scope3-storefront-activity-api
+- description: The Storefront Ad Server Buyer Routing API from Scope3 — 12 operation(s) for storefront ad server buyer routing.
+  name: Scope3 Storefront Ad Server Buyer Routing API
+  slug: scope3-storefront-ad-server-buyer-routing-api
+- description: The Storefront Ad Server Catalog API from Scope3 — 11 operation(s) for storefront ad server catalog.
+  name: Scope3 Storefront Ad Server Catalog API
+  slug: scope3-storefront-ad-server-catalog-api
+- description: The Storefront Ad Server Diagnostics API from Scope3 — 2 operation(s) for storefront ad server diagnostics.
+  name: Scope3 Storefront Ad Server Diagnostics API
+  slug: scope3-storefront-ad-server-diagnostics-api
+- description: List and manage registered sales, signals, and outcomes agents
+  name: Scope3 Storefront Agents API
+  slug: scope3-storefront-agents-api
+- description: Manage storefront and inventory sources
+  name: Scope3 Storefront API
+  slug: scope3-storefront-api
+- description: Payout bank details and billing configuration for storefronts
+  name: Scope3 Storefront Billing API
+  slug: scope3-storefront-billing-api
+- description: The Storefront Proposals API from Scope3 — 3 operation(s) for storefront proposals.
+  name: Scope3 Storefront Proposals API
+  slug: scope3-storefront-proposals-api
+- description: The Storefronts API from Scope3 — 18 operation(s) for storefronts.
+  name: Scope3 Storefronts API
+  slug: scope3-storefronts-api
+- description: The Supply Requests API from Scope3 — 3 operation(s) for supply requests.
+  name: Scope3 Supply Requests API
+  slug: scope3-supply-requests-api
+- description: Syndicate resources to ADCP agents
+  name: Scope3 Syndication API
+  slug: scope3-syndication-api
+- description: Track async operation status
+  name: Scope3 Tasks API
+  slug: scope3-tasks-api
+- description: The Update Proposals API from Scope3 — 1 operation(s) for update proposals.
+  name: Scope3 Update Proposals API
+  slug: scope3-update-proposals-api
+- description: The Webhook Subscriptions API from Scope3 — 2 operation(s) for webhook subscriptions.
+  name: Scope3 Webhook Subscriptions API
+  slug: scope3-webhook-subscriptions-api
+artifact_total: 74
 asyncapis:
 - description: ''
   name: Scope3 Webhooks
@@ -143,6 +248,26 @@ collections:
   name: AI Impact Measurement Status API
   slug: open-scope3-status-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/scope3-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/scope3-buyer-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/scope3-agentic-buyer.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/scope3-storefront-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/scope3-agentic-storefront.md
 - group: other
   title: ''
   type: Overlay
@@ -316,13 +441,13 @@ modified: '2026-08-13'
 name: Scope3
 nav: Providers
 network: true
-overview: 'Scope3 publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Interchange Buyer API, Interchange Storefront API, AI Impact Measurement API, and 13 more. Tagged areas include Company, Enterprise, Advertising, Carbon Emissions, and Sustainability.
+overview: 'Scope3 publishes 51 APIs on the [APIs.io](https://apis.io/) network, including AI Impact Measurement API, Benchmarks API, Creative API, and 48 more. Tagged areas include Company, Enterprise, Advertising, Carbon Emissions, and Sustainability.
 
 
   The Scope3 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Scope3''s developer surface includes authentication, CLI, changelog, sandbox, documentation, API reference, getting-started guide, and 33 more developer resources.'
+  Scope3''s developer surface includes authentication, CLI, changelog, sandbox, documentation, API reference, getting-started guide, and 38 more developer resources.'
 plans:
 - name: Scope3 Plans Pricing
   plan_count: 3
@@ -339,18 +464,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.0
+  composite: 62.4
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
-    contract_governance: 30.3
-    contract_quality: 62.4
-    developer_ergonomics: 70.2
-    discoverability: 92.6
-    governance: 30.3
+    contract_governance: 18.2
+    contract_quality: 64.9
+    developer_ergonomics: 66.7
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 65.0
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -361,8 +491,8 @@ score:
       total: 14
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scope3/refs/heads/main/screenshots/scope3-2026-08-17T080422.png
 security:

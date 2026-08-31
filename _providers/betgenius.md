@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -20,7 +20,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
@@ -31,8 +31,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-26'
+  score: 30.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -40,23 +40,50 @@ agentic_access:
   operation_count: 13
   slug: betgenius-agentic-access
   summary_line: 13 operations · 8 acting
-api_count: 3
+api_count: 6
 apis:
-- description: The current Booking API. Three operations that let a contracted sportsbook list the upcoming fixtures it can book, book a fixture to turn on its data feeds, and un-book it again. Served from BetGenius
-  name: BetGenius Booking API V2
-  slug: betgenius-booking-api-v2
-- description: The pre-v2 Booking API, still served alongside V2 from the same Swashbuckle discovery list. The same three operations on the /api/booking path; the only contract difference from V2 is that its Feed ob
-  name: BetGenius Booking API V1
-  slug: betgenius-booking-api-v1
-- description: The server-side half of BetVision and the Genius Live Player. Lists fixtures with live and VOD streams together with their per-stream entitlement (device, region, DMA, maximum player size), lists supp
-  name: BetGenius Video Streaming API v3
-  slug: betgenius-video-streaming-api-v3
-artifact_total: 10
+- description: The BookingV1 API from BetGenius — 3 operation(s) for bookingv1.
+  name: BetGenius Booking V1 API
+  slug: betgenius-bookingv1-api
+- description: The BookingV2 API from BetGenius — 3 operation(s) for bookingv2.
+  name: BetGenius Booking V2 API
+  slug: betgenius-bookingv2-api
+- description: The fixtures API
+  name: BetGenius Fixtures API
+  slug: betgenius-fixtures-api
+- description: The regions API
+  name: BetGenius Regions API
+  slug: betgenius-regions-api
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Betgenius Event Surface
   slug: betgenius-event-surface
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/betgenius-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/betgenius-booking-v2-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/betgenius-book-fixtures.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/betgenius-booking-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/betgenius-video-v3-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/betgenius-stream-live-fixture.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -238,13 +265,13 @@ modified: '2026-08-13'
 name: BetGenius
 nav: Providers
 network: true
-overview: 'BetGenius publishes 3 APIs on the [APIs.io](https://apis.io/) network: Booking API V2, Booking API V1, and Video Streaming API v3. Tagged areas include Sportsbook, Sports Betting, Sports Data, Odds Feeds, and Trading Services.
+overview: 'BetGenius publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Booking V1 API, Booking V2 API, Fixtures API, and 1 more. Tagged areas include Sportsbook, Sports Betting, Sports Data, Odds Feeds, and Trading Services.
 
 
   The BetGenius catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  BetGenius'' developer surface includes authentication, product news, documentation, API reference, getting-started guide, support, engineering blog, and 36 more developer resources.'
+  BetGenius'' developer surface includes authentication, product news, documentation, API reference, getting-started guide, support, engineering blog, and 42 more developer resources.'
 plans:
 - name: Betgenius Plans Pricing
   plan_count: 0
@@ -261,18 +288,23 @@ scopes:
   summary_line: 10 scopes
 score:
   band: developing
-  composite: 45.8
+  composite: 44.6
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 54.2
+    contract_governance: 4.5
+    contract_quality: 55.1
     developer_ergonomics: 66.1
     discoverability: 74.1
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 45.8
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -283,8 +315,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/betgenius/refs/heads/main/screenshots/betgenius-2026-06-20T173202.png
 security:

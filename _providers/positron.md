@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 23
   slug: positron-agentic-access
   summary_line: 23 operations · 13 acting
-api_count: 5
+api_count: 3
 apis:
 - description: The access_tokens API from Positron — 3 operation(s) for access_tokens.
   name: Positron Access Tokens API
@@ -75,6 +75,10 @@ collections:
   name: Olivaw Admin Users API
   slug: open-positron-users-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/positron-ai/admin-api-docs/issues
 - group: agent
   title: ''
   type: MCPServer
@@ -208,25 +212,33 @@ modified: '2026-08-02'
 name: Positron
 nav: Providers
 network: true
-overview: 'Positron publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Completion API, Models API, and 2 more. Tagged areas include Artificial Intelligence, AI Inference, inference-hardware, AI Accelerators, and Large Language Models.
+overview: 'Positron publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Completion API, Models API, and 2 more. Tagged areas include artificial-intelligence, ai-inference, inference-hardware, ai-accelerators, and large-language-models.
 
 
-  Positron''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 24 more developer resources.'
+  Positron''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 25 more developer resources.'
 random_paper: 12
 score:
   band: thin
-  composite: 36.2
-  delta: 0.6
+  composite: 32.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
-    contract_quality: 52.5
+    contract_governance: 4.5
+    contract_quality: 53.0
     developer_ergonomics: 56.5
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 35.6
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -237,8 +249,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -251,17 +263,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: positron
 tags:
-- Artificial Intelligence
-- AI Inference
+- artificial-intelligence
+- ai-inference
 - inference-hardware
-- AI Accelerators
-- Large Language Models
-- Transformers
-- OpenAI-Compatible
-- Machine-Learning
-- Semiconductors
-- Data-Center
+- ai-accelerators
+- large-language-models
+- transformers
+- openai-compatible
+- machine-learning
+- semiconductors
+- data-center
 - llm-serving
-- Model Hosting
+- model-hosting
 website: https://www.positron.ai/
 ---

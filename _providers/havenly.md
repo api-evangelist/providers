@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-26'
-api_count: 11
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Addresses API from Havenly — 1 operation(s) for addresses.
   name: Havenly Addresses API
@@ -111,6 +111,10 @@ collections:
   name: Havenly Addresses Vendor Variants API
   slug: open-havenly-vendor-variants-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/havenly-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -194,7 +198,7 @@ network: true
 overview: 'Havenly publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Attribute Types API, Authentication API, and 8 more. Tagged areas include Company, Interior Design, Home Decor, Furniture, and E-Commerce.
 
 
-  Havenly''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, and 11 more developer resources.'
+  Havenly''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, and 12 more developer resources.'
 random_paper: 3
 scopes:
 - name: Havenly Scopes
@@ -202,19 +206,24 @@ scopes:
   slug: havenly-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 40.1
-  delta: 3.3
+  band: thin
+  composite: 38.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 12.1
+    contract_governance: 0.0
     contract_quality: 52.5
     developer_ergonomics: 42.3
-    discoverability: 81.5
-    governance: 12.1
+    discoverability: 75.9
+    governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 36.8
+  previous_composite: 38.7
   provenance:
     contracts:
       callable: 100.0
@@ -223,8 +232,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/havenly/refs/heads/main/screenshots/havenly-2026-07-25T220807.png
 security:

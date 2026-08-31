@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: trioptima-agentic-access
   summary_line: 8 operations · 3 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Trioptima triResolve is a web-based portfolio reconciliation service for OTC derivatives. It normalizes trade data, reconciles all fields using an algorithmic match engine, and provides break workflow
   name: Trioptima triResolve Portfolio Reconciliation
@@ -80,6 +80,10 @@ collections:
   name: Trioptima triReduce API
   slug: open-trioptima-trireduce-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/trioptima-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -216,7 +220,7 @@ overview: 'Trioptima publishes 4 APIs on the [APIs.io](https://apis.io/) network
   The Trioptima catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Trioptima''s developer surface includes authentication, engineering blog, documentation, GitHub presence, and 13 more developer resources.'
+  Trioptima''s developer surface includes authentication, engineering blog, documentation, GitHub presence, and 14 more developer resources.'
 plans:
 - name: Trioptima Plans Pricing
   plan_count: 3
@@ -254,16 +258,21 @@ scopes:
   slug: trioptima-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: developing
-  composite: 39.4
-  delta: 0.0
+  band: thin
+  composite: 38.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 63.6
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 13.2
   previous_composite: 39.4
@@ -280,8 +289,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/screenshots/trioptima-2026-06-20T195722.png
 security:

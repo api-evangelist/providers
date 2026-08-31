@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -33,17 +33,35 @@ agentic_access:
   summary_line: 18 operations · 2 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: FERC's public open data API, serving the same data assets and datasets published in the data.ferc.gov Data Catalog. A Data-Assets endpoint returns the catalog and the dataset IDs; Details, Data, and D
-  name: FERC Open Data API
-  slug: ferc-open-data-api
-- description: The machine-to-machine API behind FERC's mandated eForms. Credentialed filers exchange their FERC eRegistration and Company Registration username and password for a bearer token at POST /api/token (OA
-  name: FERC eForms XBRL Submission API
-  slug: ferc-eforms-xbrl-submission-api
+- description: The Data API from FERC — 1 operation(s) for data.
+  name: FERC Data API
+  slug: ferc-data-api
+- description: The Data-Assets API from FERC — 1 operation(s) for data-assets.
+  name: FERC Data Assets API
+  slug: ferc-data-assets-api
+- description: The Details API from FERC — 1 operation(s) for details.
+  name: FERC Details API
+  slug: ferc-details-api
+- description: The Dictionary API from FERC — 1 operation(s) for dictionary.
+  name: FERC Dictionary API
+  slug: ferc-dictionary-api
+- description: Credentialed machine-to-machine submission of XBRL filings.
+  name: FERC Filing API
+  slug: ferc-filing-api
+- description: Anonymous read access to the public FERC eForms submission record.
+  name: FERC Public Filings API
+  slug: ferc-public-filings-api
+- description: Form lists and submission constraints.
+  name: FERC Reference API
+  slug: ferc-reference-api
+- description: XBRL taxonomy versions, packages and sample forms for the FERC eForms.
+  name: FERC Taxonomy API
+  slug: ferc-taxonomy-api
 arazzos:
 - description: 'The full happy path against the FERC Open Data API: list the catalog, resolve a dataset ID from the nested data-sets array, read its metadata and record count, fetch the column dictionary so the rows '
   name: FERC open data — discover a dataset and retrieve it
   slug: ferc-dataset-discovery-and-retrieval
-artifact_total: 10
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Endpoints
@@ -229,7 +247,7 @@ modified: '2026-07-27'
 name: FERC
 nav: Providers
 network: true
-overview: 'FERC publishes 2 APIs on the [APIs.io](https://apis.io/) network: Open Data API and eForms XBRL Submission API. Tagged areas include Energy, United States, Energy Markets, Electricity, and Natural Gas.
+overview: 'FERC publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Data API, Data Assets API, Details API, and 5 more. Tagged areas include Energy, United States, Energy Markets, Electricity, and Natural Gas.
 
 
   FERC''s developer surface includes authentication, code examples, changelog, sandbox, developer console, developer portal, documentation, and 35 more developer resources.'
@@ -240,18 +258,23 @@ rate_limits:
   slug: ferc-rate-limits
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 49.1
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 34.2
+    contract_governance: 4.5
+    contract_quality: 35.8
     developer_ergonomics: 68.5
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 50.1
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,8 +291,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 59.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ferc/refs/heads/main/screenshots/ferc-2026-08-07T165243.png
 security:

@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: documented
     event_surface_described: true
     idempotency: na
     mcp_server: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.1
-  scored_at: '2026-08-26'
+  score: 44.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,11 +31,8 @@ agentic_access:
   operation_count: 2
   slug: telia-agentic-access
   summary_line: 2 operations
-api_count: 24
+api_count: 1
 apis:
-- description: MEF 122 / MEF 79 geographic site management API in Telia's LSO Sonata wholesale programme, designed using TM Forum TMF674 as its template. Retrieves a list of geographic sites and full detail for a si
-  name: Telia LSO Sonata Geographic Site Management API
-  slug: telia-lso-sonata-geographic-site-management-api
 - description: 'LSO Sonata Geographic Address API allows a buyer to retrieve a geographic address from the seller database by address id and to validate geographic address data. Designed using TM Forum TMF673 as its '
   name: Telia LSO Sonata Geographic Address Management API
   slug: telia-lso-sonata-geographic-address-management-api
@@ -105,7 +102,13 @@ apis:
 - description: 'Export API against Telia ACE Interaction View that allows content and data from recorded contact-centre interactions to be exported to external systems for analytics, quality management or archiving. '
   name: Telia ACE Interaction View API
   slug: telia-ace-interaction-view-api
-artifact_total: 32
+- description: Retrieves a list of geographic sites based on the provided site id or other fields.
+  name: Telia Company List Geographic Site API
+  slug: telia-listgeographicsite-api
+- description: Retrieves detailed information for a specific geographic site using its ID.
+  name: Telia Company Retrieve Geographic Site API
+  slug: telia-retrievegeographicsite-api
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Telia Webhooks
@@ -115,6 +118,22 @@ collections:
   name: B2X-Global-SiteManagement-API-v1
   slug: open-telia-lso-sonata-site-management
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/telia-oss/ace-audio-stream-forwarding-api/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/telia-oss/ace-audio-stream-forwarding-api/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/telia-oss/ace-audio-stream-forwarding-api/blob/main/CONTRIBUTING.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/telia-lso-site-lookup.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -288,13 +307,13 @@ modified: '2026-07-25'
 name: Telia Company
 nav: Providers
 network: true
-overview: 'Telia Company publishes 1 API on the [APIs.io](https://apis.io/) network: Telia LSO Sonata Geographic Site Management API. Tagged areas include Telecommunications, Sweden, Nordics, Baltics, and Mobile Network Operator.
+overview: 'Telia Company publishes 2 APIs on the [APIs.io](https://apis.io/) network: List Geographic Site API and Retrieve Geographic Site API. Tagged areas include Telecommunications, Sweden, Nordics, Baltics, and Mobile Network Operator.
 
 
   The Telia Company catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Telia Company''s developer surface includes authentication, CLI, changelog, sandbox, documentation, support, getting-started guide, and 33 more developer resources.'
+  Telia Company''s developer surface includes authentication, CLI, changelog, sandbox, documentation, support, getting-started guide, and 37 more developer resources.'
 random_paper: 2
 scopes:
 - name: Telia Scopes
@@ -302,19 +321,27 @@ scopes:
   slug: telia-scopes
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
-  band: strong
-  composite: 55.2
-  delta: 0.0
+  band: developing
+  composite: 52.7
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 63.3
     developer_ergonomics: 67.3
-    discoverability: 75.9
-    governance: 30.3
+    discoverability: 59.3
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 55.2
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -331,8 +358,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 81.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telia/refs/heads/main/screenshots/telia-2026-08-17T082306.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 44
   slug: chroma-agentic-access
   summary_line: 44 operations · 26 acting · 1 human-in-the-loop
-api_count: 8
+api_count: 2
 apis:
 - description: The Chroma Python Client is a first-party SDK for interacting with both self-hosted Chroma servers and Chroma Cloud. It provides a simple, developer-friendly interface with a core API of just four fun
   name: Chroma Python Client
@@ -271,7 +271,7 @@ modified: '2026-05-19'
 name: Chroma
 nav: Providers
 network: true
-overview: 'Chroma publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Databases API, Records API, and 3 more. Tagged areas include Artificial Intelligence, AI-Native, Apache 2.0, Cloud, and Embeddings.
+overview: 'Chroma publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Databases API, Records API, and 3 more. Tagged areas include Artificial Intelligence, AI Native, Apache 2.0, Cloud, and Embeddings.
 
 
   The Chroma catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -300,18 +300,26 @@ rules:
   slug: chroma-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 43.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 66.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.6
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
     contract_governance: 9.8
-    contract_quality: 64.6
+    contract_quality: 63.4
     developer_ergonomics: 42.9
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 46.8
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -319,8 +327,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chroma/refs/heads/main/screenshots/chroma-2026-06-20T174327.png
 security:
@@ -343,7 +351,7 @@ security:
 slug: chroma
 tags:
 - Artificial Intelligence
-- AI-Native
+- AI Native
 - Apache 2.0
 - Cloud
 - Embeddings

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 78
   slug: eth-zurich-agentic-access
   summary_line: 78 operations
-api_count: 42
+api_count: 9
 apis:
 - description: The bitstreams API from ETH Zurich – Swiss Federal Institute of Technology — 4 operation(s) for bitstreams.
   name: ETH Zurich – Swiss Federal Institute of Technology bitstreams API
@@ -149,9 +149,6 @@ apis:
 - description: The Util API from ETH Zurich – Swiss Federal Institute of Technology — 1 operation(s) for util.
   name: ETH Zurich – Swiss Federal Institute of Technology Util API
   slug: eth-zurich-util-api
-- description: FirecREST v2, the REST interface to the Swiss National Supercomputing Centre's HPC systems. CSCS is an autonomous unit of ETH Zurich; the specification is served live from the production host, declare
-  name: ETH Zurich – CSCS FirecREST v2 HPC API
-  slug: eth-zurich-firecrest-v2-api
 - description: OAI-PMH 2.0 harvesting interface for the ETH Zurich Research Collection, served from ETH's own host. Verified live with Identify, ListMetadataFormats and ListSets on 2026-08-19; serves the qdc, oai_dc
   name: ETH Zurich Research Collection OAI-PMH
   slug: eth-zurich-research-collection-oai-pmh
@@ -170,7 +167,16 @@ apis:
 - description: ETH Library's discovery layer runs as the 41SLSP_ETH view on swisscovery, the shared Ex Libris Alma/Primo platform operated by the Swiss Library Service Platform (SLSP). The holdings and the MMS ident
   name: ETH Library @ swisscovery (Ex Libris Alma/Primo via SLSP)
   slug: eth-zurich-swisscovery
-artifact_total: 92
+- description: The compute API from ETH Zurich – Swiss Federal Institute of Technology — 4 operation(s) for compute.
+  name: ETH Zurich – Swiss Federal Institute of Technology Compute API
+  slug: eth-zurich-compute-api
+- description: The filesystem API from ETH Zurich – Swiss Federal Institute of Technology — 23 operation(s) for filesystem.
+  name: ETH Zurich – Swiss Federal Institute of Technology Filesystem API
+  slug: eth-zurich-filesystem-api
+- description: The status API from ETH Zurich – Swiss Federal Institute of Technology — 6 operation(s) for status.
+  name: ETH Zurich – Swiss Federal Institute of Technology Status API
+  slug: eth-zurich-status-api
+artifact_total: 94
 collections:
 - collection_type: open
   name: API Collection
@@ -281,6 +287,10 @@ collections:
   name: Discovery bitstreams Util API
   slug: open-eth-zurich-util-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/eth-zurich-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -482,13 +492,13 @@ modified: '2026-08-19'
 name: ETH Zurich – Swiss Federal Institute of Technology
 nav: Providers
 network: true
-overview: 'ETH Zurich – Swiss Federal Institute of Technology publishes 36 APIs on the [APIs.io](https://apis.io/) network, including bitstreams API, collections API, communities API, and 33 more. Tagged areas include University, Higher Education, Education, Switzerland, and ETH Domain.
+overview: 'ETH Zurich – Swiss Federal Institute of Technology publishes 38 APIs on the [APIs.io](https://apis.io/) network, including bitstreams API, collections API, communities API, and 35 more. Tagged areas include University, Higher Education, Education, Switzerland, and ETH Domain.
 
 
   The ETH Zurich – Swiss Federal Institute of Technology catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  ETH Zurich – Swiss Federal Institute of Technology''s developer surface includes authentication, documentation, GitHub presence, engineering blog, API reference, support, and 36 more developer resources.'
+  ETH Zurich – Swiss Federal Institute of Technology''s developer surface includes authentication, documentation, GitHub presence, engineering blog, API reference, support, and 37 more developer resources.'
 plans:
 - name: Eth Zurich Plans Pricing
   plan_count: 2
@@ -521,18 +531,23 @@ rules:
   slug: eth-zurich-rules
 score:
   band: developing
-  composite: 46.2
-  delta: 2.6
+  composite: 45.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 25.0
-    contract_quality: 56.5
+    contract_quality: 56.7
     developer_ergonomics: 23.8
-    discoverability: 70.4
+    discoverability: 61.1
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 43.6
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -547,8 +562,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/screenshots/eth-zurich-2026-06-20T180834.png
 security:

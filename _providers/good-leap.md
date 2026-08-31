@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -283,18 +283,23 @@ overview: 'Good Leap publishes 18 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 6
 score:
   band: developing
-  composite: 41.5
+  composite: 40.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 50.1
+    contract_governance: 4.5
+    contract_quality: 51.5
     developer_ergonomics: 54.2
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 41.5
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -311,8 +316,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/good-leap/refs/heads/main/screenshots/good-leap-2026-07-25T220101.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 6
 common:
@@ -124,7 +124,7 @@ modified: '2026-08-22'
 name: Globacap
 nav: Providers
 network: true
-overview: 'Globacap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Private Capital Markets, Capital Markets, Securities, and Financial Services.
+overview: 'Globacap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Private Capital Markets, Capital Markets, Securities, and Financial-Services.
 
 
   Globacap''s developer surface includes support, authentication, and 16 more developer resources.'
@@ -144,7 +144,12 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 21.2
+  composite: 20.0
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -152,10 +157,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 21.2
+  previous_composite: 20.0
   provenance:
     conformance: first-party
   regulatory:
@@ -164,8 +169,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -186,7 +191,7 @@ tags:
 - Private Capital Markets
 - Capital Markets
 - Securities
-- Financial Services
+- Financial-Services
 - Fintech
 - Tokenization
 - Share Register

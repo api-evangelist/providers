@@ -23,18 +23,46 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: LVT's Partner API is a REST service using JSON payloads, described by a first-party OpenAPI 3.0.3 document published in the LiveViewTech/lvt-public-api GitHub repository. Version 1.0.1 covers 33 opera
-  name: LVT Partner API
-  slug: lvt-partner-api
-artifact_total: 10
+- description: Operations on cameras
+  name: LVT Cameras API
+  slug: lvt-cameras-api
+- description: The Events API from LVT — 5 operation(s) for events.
+  name: LVT Events API
+  slug: lvt-events-api
+- description: Operations on LiveUnits
+  name: LVT Live Units API
+  slug: lvt-liveunits-api
+- description: Operations on locations
+  name: LVT Locations API
+  slug: lvt-locations-api
+- description: The Media API from LVT — 1 operation(s) for media.
+  name: LVT Media API
+  slug: lvt-media-api
+- description: Operations related to outbound message verification
+  name: LVT Public Keys API
+  slug: lvt-publickeys-api
+- description: The Streams API from LVT — 3 operation(s) for streams.
+  name: LVT Streams API
+  slug: lvt-streams-api
+- description: Operations related to Partner Talkdown
+  name: LVT Talkdown API
+  slug: lvt-talkdown-api
+- description: Operations on webhooks
+  name: LVT Webhooks API
+  slug: lvt-webhooks-api
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Lvt Webhooks
   slug: lvt-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lvt-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -184,13 +212,13 @@ modified: '2026-08-25'
 name: LVT
 nav: Providers
 network: true
-overview: 'LVT publishes 1 API on the [APIs.io](https://apis.io/) network: Partner API. Tagged areas include Company, Physical Security, Video Surveillance, Cameras, and Video Streaming.
+overview: 'LVT publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Cameras API, Events API, Live Units API, and 6 more. Tagged areas include Company, Physical Security, Video Surveillance, Camera, and Video Streaming.
 
 
   The LVT catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  LVT''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 27 more developer resources.'
+  LVT''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
 plans:
 - name: Lvt Plans Pricing
   plan_count: 2
@@ -207,16 +235,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 54.1
+  composite: 51.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 30.3
-    contract_quality: 61.4
+    contract_governance: 18.2
+    contract_quality: 62.0
     developer_ergonomics: 39.9
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 36.8
+  previous_composite: 52.3
   provenance:
     conformance: first-party
     contracts:
@@ -226,8 +261,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Lvt Authentication
@@ -250,14 +286,14 @@ tags:
 - Company
 - Physical Security
 - Video Surveillance
-- Cameras
+- Camera
 - Video Streaming
 - WebRTC
 - RTSP
 - ONVIF
 - IoT
 - Alerts
-- Webhooks
+- Webhook
 - Public Safety
 - Retail
 - Critical Infrastructure

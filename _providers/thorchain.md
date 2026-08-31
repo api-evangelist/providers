@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 132
   slug: thorchain-agentic-access
   summary_line: 132 operations
-api_count: 65
+api_count: 3
 apis:
 - description: The Actions API from THORChain — 1 operation(s) for actions.
   name: THORChain Actions API
@@ -555,25 +555,30 @@ modified: '2026-07-21'
 name: THORChain
 nav: Providers
 network: true
-overview: 'THORChain publishes 65 APIs on the [APIs.io](https://apis.io/) network, including Actions API, AGENTS.md API, Auth API, and 62 more. Tagged areas include Company, Crypto Web3, Blockchain, DeFi, and Cross-Chain.
+overview: 'THORChain publishes 65 APIs on the [APIs.io](https://apis.io/) network, including Actions API, AGENTS.md API, Auth API, and 62 more. Tagged areas include Company, Crypto Web3, Blockchain, DeFi, and Cross-chain.
 
 
   THORChain''s developer surface includes documentation, API reference, support, authentication, and 22 more developer resources.'
 random_paper: 15
 score:
   band: thin
-  composite: 37.2
-  delta: 1.3
+  composite: 34.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 47.1
     developer_ergonomics: 44.6
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 35.9
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -590,8 +595,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 45.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -612,7 +617,7 @@ tags:
 - Crypto Web3
 - Blockchain
 - DeFi
-- Cross-Chain
+- Cross-chain
 - Liquidity
 - Decentralized Exchange
 - Cosmos

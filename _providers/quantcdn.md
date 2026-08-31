@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 125
   human_in_the_loop: 10
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 226
   slug: quantcdn-agentic-access
   summary_line: 226 operations · 125 acting · 10 human-in-the-loop
-api_count: 38
+api_count: 1
 apis:
 - description: Pre-configured AI assistants with specific system prompts, model settings, and tool permissions
   name: QuantCDN AI Agents API
@@ -281,6 +281,10 @@ collections:
   name: QuantCDN API
   slug: open-quantcdn
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/quantcdn-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -329,10 +333,10 @@ modified: '2026-05-19'
 name: QuantCDN
 nav: Providers
 network: true
-overview: 'QuantCDN publishes 38 APIs on the [APIs.io](https://apis.io/) network, including AI Agents API, AI Custom Tools API, AI File Storage API, and 35 more. Tagged areas include CDN, Edge, Static Hosting, JAMstack, and DNS.
+overview: 'QuantCDN publishes 38 APIs on the [APIs.io](https://apis.io/) network, including AI Agents API, AI Custom Tools API, AI File Storage API, and 35 more. Tagged areas include CDN, Edge, Static Hosting, Jamstack, and DNS.
 
 
-  QuantCDN''s developer surface includes authentication, documentation, engineering blog, and 6 more developer resources.'
+  QuantCDN''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
 plans:
 - name: Quantcdn Plans Pricing
   plan_count: 3
@@ -344,18 +348,23 @@ rate_limits:
   slug: quantcdn-rate-limits
 score:
   band: thin
-  composite: 36.4
-  delta: 7.2
+  composite: 35.8
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 52.4
     developer_ergonomics: 59.5
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 29.2
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -363,9 +372,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quantcdn/refs/heads/main/screenshots/quantcdn-2026-06-20T192409.png
 security:
 - kind: authentication
@@ -385,7 +394,7 @@ tags:
 - CDN
 - Edge
 - Static Hosting
-- JAMstack
+- Jamstack
 - DNS
 - WAF
 - Edge Computing

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 32
   slug: triton-agentic-access
   summary_line: 32 operations · 14 acting
-api_count: 12
+api_count: 2
 apis:
 - description: High-performance gRPC API for model inference with support for streaming and binary tensor data.
   name: Triton GRPC API
@@ -124,6 +124,22 @@ collections:
   name: Triton Inference Server NVIDIA Triton Inference Server HTTP/REST CUDA Shared Memory Trace API
   slug: open-triton-trace-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/triton-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/triton-inference-server/server/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/triton-inference-server/server/blob/main/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/triton-inference-server/server/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -260,7 +276,7 @@ overview: 'Triton Inference Server publishes 11 APIs on the [APIs.io](https://ap
   The Triton Inference Server catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Triton Inference Server''s developer surface includes documentation, getting-started guide, release notes, and 20 more developer resources.'
+  Triton Inference Server''s developer surface includes documentation, getting-started guide, release notes, and 24 more developer resources.'
 plans:
 - name: Triton Plans Pricing
   plan_count: 2
@@ -293,19 +309,27 @@ rules:
     warn: 5
   slug: triton-rules
 score:
-  band: thin
-  composite: 34.8
-  delta: 1.7
+  band: developing
+  composite: 40.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 54.3
     developer_ergonomics: 26.2
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
-    operational_transparency: 26.3
-  previous_composite: 33.1
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
@@ -313,8 +337,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/screenshots/triton-2026-06-20T195735.png
 slug: triton

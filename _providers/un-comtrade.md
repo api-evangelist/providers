@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,10 +33,25 @@ agentic_access:
   summary_line: 13 operations
 api_count: 1
 apis:
-- description: REST API for extracting international merchandise and services trade statistics. Provides access to final trade data, tariffline data, data availability, metadata, live updates, and bulk file download
-  name: UN Comtrade Data API
-  slug: un-comtrade-data-api
-artifact_total: 19
+- description: Premium endpoints for bulk file downloads (up to 2.5M records via async processing).
+  name: UN Comtrade Bulk Download API
+  slug: un-comtrade-bulk-download-api
+- description: Endpoints for discovering which countries/periods have submitted data.
+  name: UN Comtrade Data Availability API
+  slug: un-comtrade-data-availability-api
+- description: Authenticated endpoints for full final trade data extraction (up to 250,000 records per call).
+  name: UN Comtrade Final Trade Data API
+  slug: un-comtrade-final-trade-data-api
+- description: Public endpoints requiring no authentication — limited to 500 records.
+  name: UN Comtrade Public Preview API
+  slug: un-comtrade-public-preview-api
+- description: Public reference data including country groups.
+  name: UN Comtrade Reference Data API
+  slug: un-comtrade-reference-data-api
+- description: Tariffline-level trade data with 6-digit or national commodity code detail.
+  name: UN Comtrade Tariffline Data API
+  slug: un-comtrade-tariffline-data-api
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -90,7 +105,7 @@ modified: '2026-06-13'
 name: UN Comtrade
 nav: Providers
 network: true
-overview: 'UN Comtrade publishes 1 API on the [APIs.io](https://apis.io/) network: Data API. Tagged areas include Trade, International Trade, Import, Export, and Statistics.
+overview: 'UN Comtrade publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Bulk Download API, Data Availability API, Final Trade Data API, and 3 more. Tagged areas include Trade, International Trade, Import, Export, and Statistics.
 
 
   The UN Comtrade catalog on APIs.io includes 1 Spectral governance ruleset.'
@@ -115,19 +130,24 @@ rules:
     warn: 3
   slug: un-comtrade-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 34.2
-  delta: 10.5
+  band: developing
+  composite: 39.6
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 62.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 9.8
-    contract_quality: 33.3
+    contract_quality: 54.9
     developer_ergonomics: 28.6
     discoverability: 63.0
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 23.7
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     contracts:
@@ -135,9 +155,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/un-comtrade/refs/heads/main/screenshots/un-comtrade-2026-06-20T200015.png
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 41
   slug: tint-agentic-access
   summary_line: 41 operations · 24 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Claims handling from FNOL through settlement.
   name: Tint Claims API
@@ -89,6 +89,10 @@ collections:
   name: Tint API
   slug: open-tint
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tint-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -141,10 +145,10 @@ modified: '2026-06-25'
 name: Tint
 nav: Providers
 network: true
-overview: 'Tint publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Decisions API, Policies API, and 3 more. Tagged areas include Insurance, Embedded Insurance, Insurtech, Insurance As A Service, and Protection.
+overview: 'Tint publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Decisions API, Policies API, and 3 more. Tagged areas include Insurance, Embedded Insurance, InsurTech, Insurance as a Service, and Protection.
 
 
-  Tint''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Tint''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Tint Plans Pricing
   plan_count: 1
@@ -156,15 +160,20 @@ rate_limits:
   slug: tint-rate-limits
 score:
   band: thin
-  composite: 31.5
-  delta: 0.0
+  composite: 30.9
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 31.5
@@ -181,8 +190,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -197,8 +206,8 @@ slug: tint
 tags:
 - Insurance
 - Embedded Insurance
-- Insurtech
-- Insurance As A Service
+- InsurTech
+- Insurance as a Service
 - Protection
 website: https://www.tint.ai
 ---

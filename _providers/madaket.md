@@ -23,14 +23,194 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: RESTful JSON endpoints published by Madaket Health for clean, high-quality US healthcare provider data. 211 operations across 57 resource families covering provider demographics, professional and DEA/
+- description: The AdverseAction API from Madaket — 4 operation(s) for adverseaction.
+  name: Madaket Adverse Action API
+  slug: madaket-adverseaction-api
+- description: The AreaOfStudy API from Madaket — 3 operation(s) for areaofstudy.
+  name: Madaket Area Of Study API
+  slug: madaket-areaofstudy-api
+- description: The Board API from Madaket — 3 operation(s) for board.
+  name: Madaket Board API
+  slug: madaket-board-api
+- description: The CdsLicense API from Madaket — 4 operation(s) for cdslicense.
+  name: Madaket Cds License API
+  slug: madaket-cdslicense-api
+- description: The CommercialPayer API from Madaket — 4 operation(s) for commercialpayer.
+  name: Madaket Commercial Payer API
+  slug: madaket-commercialpayer-api
+- description: The CriminalAction API from Madaket — 4 operation(s) for criminalaction.
+  name: Madaket Criminal Action API
+  slug: madaket-criminalaction-api
+- description: The DeaLicense API from Madaket — 4 operation(s) for dealicense.
+  name: Madaket Dea License API
+  slug: madaket-dealicense-api
+- description: The Degree API from Madaket — 3 operation(s) for degree.
+  name: Madaket Degree API
+  slug: madaket-degree-api
+- description: The DisclosureStatement API from Madaket — 3 operation(s) for disclosurestatement.
+  name: Madaket Disclosure Statement API
+  slug: madaket-disclosurestatement-api
+- description: The DriversLicense API from Madaket — 4 operation(s) for driverslicense.
+  name: Madaket Drivers License API
+  slug: madaket-driverslicense-api
+- description: The Education API from Madaket — 4 operation(s) for education.
+  name: Madaket Education API
+  slug: madaket-education-api
+- description: The EmploymentGap API from Madaket — 4 operation(s) for employmentgap.
+  name: Madaket Employment Gap API
+  slug: madaket-employmentgap-api
+- description: The Ethnicity API from Madaket — 3 operation(s) for ethnicity.
+  name: Madaket Ethnicity API
+  slug: madaket-ethnicity-api
+- description: The Fellowship API from Madaket — 4 operation(s) for fellowship.
+  name: Madaket Fellowship API
+  slug: madaket-fellowship-api
+- description: The GraduateEducation API from Madaket — 4 operation(s) for graduateeducation.
+  name: Madaket Graduate Education API
+  slug: madaket-graduateeducation-api
+- description: The Hospital API from Madaket — 3 operation(s) for hospital.
+  name: Madaket Hospital API
+  slug: madaket-hospital-api
+- description: The HospitalPrivilege API from Madaket — 4 operation(s) for hospitalprivilege.
+  name: Madaket Hospital Privilege API
+  slug: madaket-hospitalprivilege-api
+- description: The IndividualNpiLetter API from Madaket — 4 operation(s) for individualnpiletter.
+  name: Madaket Individual Npi Letter API
+  slug: madaket-individualnpiletter-api
+- description: The Institution API from Madaket — 3 operation(s) for institution.
+  name: Madaket Institution API
+  slug: madaket-institution-api
+- description: The InsuranceCarrier API from Madaket — 3 operation(s) for insurancecarrier.
+  name: Madaket Insurance Carrier API
+  slug: madaket-insurancecarrier-api
+- description: The Internship API from Madaket — 4 operation(s) for internship.
+  name: Madaket Internship API
+  slug: madaket-internship-api
+- description: The LiabilityAction API from Madaket — 4 operation(s) for liabilityaction.
+  name: Madaket Liability Action API
+  slug: madaket-liabilityaction-api
+- description: The LicenseAuthority API from Madaket — 3 operation(s) for licenseauthority.
+  name: Madaket License Authority API
+  slug: madaket-licenseauthority-api
+- description: The MalpracticeClaim API from Madaket — 4 operation(s) for malpracticeclaim.
+  name: Madaket Malpractice Claim API
+  slug: madaket-malpracticeclaim-api
+- description: The MedicaidRecord API from Madaket — 4 operation(s) for medicaidrecord.
+  name: Madaket Medicaid Record API
+  slug: madaket-medicaidrecord-api
+- description: The MedicalDegree API from Madaket — 4 operation(s) for medicaldegree.
+  name: Madaket Medical Degree API
+  slug: madaket-medicaldegree-api
+- description: The MedicareRecord API from Madaket — 4 operation(s) for medicarerecord.
+  name: Madaket Medicare Record API
+  slug: madaket-medicarerecord-api
+- description: The MilitaryRecord API from Madaket — 4 operation(s) for militaryrecord.
+  name: Madaket Military Record API
+  slug: madaket-militaryrecord-api
+- description: The OigExclusionCode API from Madaket — 2 operation(s) for oigexclusioncode.
+  name: Madaket Oig Exclusion Code API
+  slug: madaket-oigexclusioncode-api
+- description: The OtherProfessionalTraining API from Madaket — 4 operation(s) for otherprofessionaltraining.
+  name: Madaket Other Professional Training API
+  slug: madaket-otherprofessionaltraining-api
+- description: The PersonalIdentification API from Madaket — 4 operation(s) for personalidentification.
+  name: Madaket Personal Identification API
+  slug: madaket-personalidentification-api
+- description: The PracticeDepartment API from Madaket — 3 operation(s) for practicedepartment.
+  name: Madaket Practice Department API
+  slug: madaket-practicedepartment-api
+- description: The ProfessionalLicense API from Madaket — 4 operation(s) for professionallicense.
+  name: Madaket Professional License API
+  slug: madaket-professionallicense-api
+- description: The Provider API from Madaket — 6 operation(s) for provider.
   name: Madaket Provider API
-  slug: provider-api
-artifact_total: 5
+  slug: madaket-provider-api
+- description: The ProviderCertification API from Madaket — 4 operation(s) for providercertification.
+  name: Madaket Provider Certification API
+  slug: madaket-providercertification-api
+- description: The ProviderCredentialingContact API from Madaket — 4 operation(s) for providercredentialingcontact.
+  name: Madaket Provider Credentialing Contact API
+  slug: madaket-providercredentialingcontact-api
+- description: The ProviderEcfmg API from Madaket — 4 operation(s) for providerecfmg.
+  name: Madaket Provider Ecfmg API
+  slug: madaket-providerecfmg-api
+- description: The ProviderFileAttachment API from Madaket — 4 operation(s) for providerfileattachment.
+  name: Madaket Provider File Attachment API
+  slug: madaket-providerfileattachment-api
+- description: The ProviderFileStub API from Madaket — 4 operation(s) for providerfilestub.
+  name: Madaket Provider File Stub API
+  slug: madaket-providerfilestub-api
+- description: The ProviderInsurance API from Madaket — 4 operation(s) for providerinsurance.
+  name: Madaket Provider Insurance API
+  slug: madaket-providerinsurance-api
+- description: The ProviderPerson API from Madaket — 4 operation(s) for providerperson.
+  name: Madaket Provider Person API
+  slug: madaket-providerperson-api
+- description: The ProviderPractice API from Madaket — 4 operation(s) for providerpractice.
+  name: Madaket Provider Practice API
+  slug: madaket-providerpractice-api
+- description: The ProviderReference API from Madaket — 4 operation(s) for providerreference.
+  name: Madaket Provider Reference API
+  slug: madaket-providerreference-api
+- description: The ProviderSpecialty API from Madaket — 4 operation(s) for providerspecialty.
+  name: Madaket Provider Specialty API
+  slug: madaket-providerspecialty-api
+- description: The ProviderUsmle API from Madaket — 4 operation(s) for providerusmle.
+  name: Madaket Provider Usmle API
+  slug: madaket-providerusmle-api
+- description: The ProviderW9 API from Madaket — 4 operation(s) for providerw9.
+  name: Madaket Provider W9 API
+  slug: madaket-providerw9-api
+- description: The Race API from Madaket — 3 operation(s) for race.
+  name: Madaket Race API
+  slug: madaket-race-api
+- description: The Residency API from Madaket — 4 operation(s) for residency.
+  name: Madaket Residency API
+  slug: madaket-residency-api
+- description: The Resume API from Madaket — 4 operation(s) for resume.
+  name: Madaket Resume API
+  slug: madaket-resume-api
+- description: The SocialSecurityCard API from Madaket — 4 operation(s) for socialsecuritycard.
+  name: Madaket Social Security Card API
+  slug: madaket-socialsecuritycard-api
+- description: The Specialty API from Madaket — 3 operation(s) for specialty.
+  name: Madaket Specialty API
+  slug: madaket-specialty-api
+- description: The SpecialtyTaxonomy API from Madaket — 2 operation(s) for specialtytaxonomy.
+  name: Madaket Specialty Taxonomy API
+  slug: madaket-specialtytaxonomy-api
+- description: The SpokenLanguage API from Madaket — 3 operation(s) for spokenlanguage.
+  name: Madaket Spoken Language API
+  slug: madaket-spokenlanguage-api
+- description: The StaffCategory API from Madaket — 3 operation(s) for staffcategory.
+  name: Madaket Staff Category API
+  slug: madaket-staffcategory-api
+- description: The SubstanceAbuseRecord API from Madaket — 4 operation(s) for substanceabuserecord.
+  name: Madaket Substance Abuse Record API
+  slug: madaket-substanceabuserecord-api
+- description: The University API from Madaket — 3 operation(s) for university.
+  name: Madaket University API
+  slug: madaket-university-api
+- description: The WorkEntry API from Madaket — 4 operation(s) for workentry.
+  name: Madaket Work Entry API
+  slug: madaket-workentry-api
+artifact_total: 61
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/madaket-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/madaket-provider-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -115,10 +295,10 @@ modified: '2026-08-25'
 name: Madaket
 nav: Providers
 network: true
-overview: 'Madaket publishes 1 API on the [APIs.io](https://apis.io/) network: Provider API. Tagged areas include Company, Healthcare, Provider Data Management, Payer Enrollment, and Credentialing.
+overview: 'Madaket publishes 57 APIs on the [APIs.io](https://apis.io/) network, including Adverse Action API, Area Of Study API, Board API, and 54 more. Tagged areas include Company, Healthcare, Provider Data Management, Payer Enrollment, and Credentialing.
 
 
-  Madaket''s developer surface includes documentation, support, engineering blog, pricing, and 15 more developer resources.'
+  Madaket''s developer surface includes documentation, support, engineering blog, pricing, and 18 more developer resources.'
 plans:
 - name: Madaket Plans Pricing
   plan_count: 3
@@ -130,16 +310,23 @@ rate_limits:
   slug: madaket-rate-limits
 score:
   band: developing
-  composite: 46.7
+  composite: 44.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
-    contract_governance: 27.3
-    contract_quality: 51.7
+    contract_governance: 15.2
+    contract_quality: 50.2
     developer_ergonomics: 37.5
-    discoverability: 68.5
-    governance: 27.3
+    discoverability: 63.0
+    governance: 15.2
     operational_transparency: 2.6
+  previous_composite: 44.9
   provenance:
     conformance: derived
     contracts:
@@ -155,8 +342,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Madaket Authentication

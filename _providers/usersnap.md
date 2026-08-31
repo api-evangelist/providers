@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: usersnap-agentic-access
   summary_line: 8 operations · 3 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Feedback related endpoints
   name: Usersnap feedback API
@@ -272,19 +272,24 @@ scopes:
   slug: usersnap-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: strong
-  composite: 55.3
-  delta: 0.0
+  band: developing
+  composite: 52.2
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.4
     developer_ergonomics: 56.5
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 55.3
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -295,8 +300,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usersnap/refs/heads/main/screenshots/usersnap-2026-08-17T082655.png
 security:

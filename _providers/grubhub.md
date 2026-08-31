@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 35
   slug: grubhub-agentic-access
   summary_line: 35 operations · 18 acting · 3 human-in-the-loop
-api_count: 17
+api_count: 6
 apis:
 - description: Endpoints for tracking delivery status, driver information, and estimated arrival times.
   name: grubhub Delivery Status API
@@ -177,6 +177,10 @@ collections:
   name: Grubhub Deliveries Delivery Status Schedules API
   slug: open-grubhub-schedules-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/grubhub-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -756,7 +760,7 @@ overview: 'grubhub publishes 17 APIs on the [APIs.io](https://apis.io/) network,
   The grubhub catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  grubhub''s developer surface includes authentication, engineering blog, and 14 more developer resources.'
+  grubhub''s developer surface includes authentication, engineering blog, and 15 more developer resources.'
 plans:
 - name: Grubhub Plans Pricing
   plan_count: 4
@@ -807,6 +811,11 @@ scopes:
 score:
   band: thin
   composite: 35.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -829,8 +838,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/screenshots/grubhub-2026-06-20T182426.png
 security:

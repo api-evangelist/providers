@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The Zep Cloud API delivers agent memory and temporal knowledge graph services over REST. It exposes endpoints for users, sessions, messages, memory retrieval, the per-user graph, facts, summaries, and
@@ -41,6 +41,26 @@ apis:
   slug: cloud-api
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/getzep/zep/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/getzep/zep/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/getzep/zep/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/getzep/zep/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/getzep/zep/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -108,7 +128,7 @@ network: true
 overview: 'Zep publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Memory, AI Agents, Knowledge Graph, Temporal Graph, and Graph RAG.
 
 
-  Zep''s developer surface includes documentation, engineering blog, pricing, and 10 more developer resources.'
+  Zep''s developer surface includes documentation, engineering blog, pricing, and 15 more developer resources.'
 plans:
 - name: Zep Plans Pricing
   plan_count: 1
@@ -119,9 +139,14 @@ rate_limits:
   name: Zep Rate Limits
   slug: zep-rate-limits
 score:
-  band: thin
-  composite: 33.5
-  delta: 10.7
+  band: developing
+  composite: 43.2
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -130,11 +155,14 @@ score:
     developer_ergonomics: 57.1
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 23.7
-  previous_composite: 22.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+    operational_transparency: 50.0
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 43.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zep/refs/heads/main/screenshots/zep-2026-06-20T201828.png
 security:
 - kind: domain-security

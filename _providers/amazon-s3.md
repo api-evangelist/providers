@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 82
   slug: amazon-s3-agentic-access
   summary_line: 82 operations · 48 acting · 1 human-in-the-loop
-api_count: 17
+api_count: 2
 apis:
-- description: Amazon S3 Tables API provides operations for managing table buckets and tables stored in Apache Iceberg format, enabling structured tabular data storage in Apache Parquet format within Amazon S3.
-  name: Amazon S3 Tables API
-  slug: amazon-s3-tables-api
 - description: Operations for managing bucket and object access control lists (ACLs)
   name: Amazon S3 Access Control API
   slug: amazon-s3-access-control-api
@@ -71,9 +68,6 @@ apis:
 - description: Operations for multipart upload of large objects
   name: Amazon S3 Multipart Upload API
   slug: amazon-s3-multipart-upload-api
-- description: Operations for managing namespaces within table buckets
-  name: Amazon S3 Namespaces API
-  slug: amazon-s3-namespaces-api
 - description: Operations for uploading, downloading, copying, and deleting objects
   name: Amazon S3 Objects API
   slug: amazon-s3-objects-api
@@ -83,15 +77,6 @@ apis:
 - description: Operations for S3 Storage Lens configurations
   name: Amazon S3 Storage Lens API
   slug: amazon-s3-storage-lens-api
-- description: Operations for creating and managing S3 table buckets
-  name: Amazon S3 Table Buckets API
-  slug: amazon-s3-table-buckets-api
-- description: Operations for managing table maintenance configurations
-  name: Amazon S3 Table Maintenance API
-  slug: amazon-s3-table-maintenance-api
-- description: Operations for managing table and table bucket policies
-  name: Amazon S3 Table Policy API
-  slug: amazon-s3-table-policy-api
 - description: Operations for managing bucket and object tags
   name: Amazon S3 Tagging API
   slug: amazon-s3-tagging-api
@@ -156,7 +141,7 @@ arazzos:
 - description: Write a bucket tag set then read it back to confirm it was stored.
   name: Amazon S3 Set and Verify Bucket Tags
   slug: amazon-s3-set-bucket-tagging-workflow
-artifact_total: 255
+artifact_total: 250
 collections:
 - collection_type: postman
   name: Amazon S3 Control API
@@ -228,6 +213,14 @@ collections:
   name: Amazon S3 Control Access Control Tagging API
   slug: open-amazon-s3-tagging-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amazon-s3-tables-api-overlay.yaml
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-s3-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -991,13 +984,13 @@ modified: '2026-06-20'
 name: Amazon S3
 nav: Providers
 network: true
-overview: 'Amazon S3 publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Tables API, Access Control API, Access Grants API, and 14 more. Tagged areas include Archive, Backup, Cloud Storage, Data Storage, and Object Storage.
+overview: 'Amazon S3 publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Access Control API, Access Grants API, Access Points API, and 9 more. Tagged areas include Archive, Backup, Cloud Storage, Data Storage, and Object Storage.
 
 
   The Amazon S3 catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon S3''s developer surface includes authentication, changelog, CLI, developer portal, documentation, support, engineering blog, and 49 more developer resources.'
+  Amazon S3''s developer surface includes authentication, changelog, CLI, developer portal, documentation, support, engineering blog, and 51 more developer resources.'
 plans:
 - name: Amazon S3 Plans Pricing
   plan_count: 4
@@ -1030,19 +1023,24 @@ rules:
     warn: 5
   slug: amazon-s3-spectral-rules
 score:
-  band: exemplar
-  composite: 68.7
-  delta: 8.0
+  band: strong
+  composite: 66.0
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
-    contract_governance: 30.3
-    contract_quality: 76.3
+    contract_governance: 18.2
+    contract_quality: 76.0
     developer_ergonomics: 83.3
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 74.1
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 60.7
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1052,9 +1050,9 @@ score:
       marker_coverage: 0.0
       total: 17
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/screenshots/amazon-s3-2026-06-20T171813.png
 security:
 - kind: authentication

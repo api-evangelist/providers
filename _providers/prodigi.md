@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: prodigi-agentic-access
   summary_line: 10 operations · 6 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Create, retrieve, list, and act on print orders.
   name: Prodigi Orders API
@@ -71,6 +71,10 @@ collections:
   name: Prodigi Print API
   slug: open-prodigi
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/prodigi-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -130,7 +134,7 @@ network: true
 overview: 'Prodigi publishes 3 APIs on the [APIs.io](https://apis.io/) network: Orders API, Products API, and Quotes API. Tagged areas include Print on Demand, Printing, Dropshipping, Fulfillment, and E-Commerce.
 
 
-  Prodigi''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Prodigi''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Prodigi Plans Pricing
   plan_count: 2
@@ -142,18 +146,23 @@ rate_limits:
   slug: prodigi-rate-limits
 score:
   band: thin
-  composite: 37.1
-  delta: 2.3
+  composite: 36.6
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 54.9
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 34.8
+  previous_composite: 37.1
   provenance:
     agentic_access: derived
     contracts:
@@ -161,8 +170,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

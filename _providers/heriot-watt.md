@@ -4,11 +4,11 @@ access_model:
   label: Free
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
   - plans
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: human-only
   dimensions:
@@ -33,29 +33,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 6
 apis:
-- description: Public research information portal powered by Elsevier Pure, exposing Heriot-Watt University publications, projects, research data, activities, and researcher profiles. The portal is publicly browsabl
-  name: Heriot-Watt Research Portal (Pure)
+- description: The university's own institutional repository of theses and research outputs, running DSpace 8 on www.ros.hw.ac.uk — a host under Heriot-Watt's registrable domain with a matching PTR record, an open.a
+  name: Heriot-Watt Research Output Service (ROS)
+  slug: research-output-service
+- description: Heriot-Watt operates its own SAML 2.0 / Shibboleth identity provider and is a registered member of the UK Access Management Federation (registrationAuthority http://ukfederation.org.uk), which in turn
+  name: Heriot-Watt University Identity Provider (UK Access Management Federation)
+  slug: identity-federation
+- description: Heriot-Watt's public research information portal — publications, projects, research data, activities and researcher profiles. It carries a hw.ac.uk hostname but is not institution-operated infrastruct
+  name: Heriot-Watt Research Portal (Elsevier Pure)
   slug: research-portal
-- description: Springshare LibCal service for library room bookings, events, and opening hours. LibCal offers a documented REST API behind an admin-configured OAuth client; the API surface is reachable at the instit
+- description: Library discovery and catalog search for Heriot-Watt's Edinburgh, Scottish Borders, Orkney, Dubai and Malaysia libraries, running Ex Libris Primo under the institution's view code 44HWA_V1 at discover
+  name: Heriot-Watt Library Discovery (Ex Libris Primo)
+  slug: library-discovery
+- description: The university's virtual learning environment, an Instructure Canvas tenancy at canvas.hw.ac.uk (CNAME hwu-vanity.instructure.com). Canvas ships a documented REST API and LTI 1.3 platform role as prod
+  name: Heriot-Watt Canvas (Instructure)
+  slug: canvas
+- description: Springshare LibCal tenancy for library room bookings, events and opening hours at hw.ac.libcal.com (CNAME region-eu.libcal.com). LibCal's REST API exists at this host — the OAuth2 token endpoint /1.1/
   name: Heriot-Watt LibCal (Springshare)
   slug: libcal
-artifact_total: 8
+artifact_total: 12
 common:
-- group: auth
-  title: ''
-  type: VulnerabilityDisclosure
-  url: security/heriot-watt-vulnerability-disclosure.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/heriot-watt-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://www.hw.ac.uk/
+- group: company
+  title: ''
+  type: About
+  url: https://www.hw.ac.uk/about/professional-services/information-services/find-resources
 - group: operate
   title: ''
   type: Status
@@ -64,6 +72,58 @@ common:
   title: ''
   type: LinkedIn
   url: https://uk.linkedin.com/school/heriot-watt-university/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.hw.ac.uk/news/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.hw.ac.uk/about/professional-services/information-services/contact-visit-us/contact-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.hw.ac.uk/about/our-policies/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.hw.ac.uk/about/professional-services/governance-and-legal-services/information-governance/protect-information/data-protection-overview/privacy-and-your-data-rights
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://www.ros.hw.ac.uk/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.ros.hw.ac.uk/server/api
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fshib1.hw.ac.uk%2Fshibboleth
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://discovery.hw.ac.uk/primo-explore/search?vid=44HWA_V1
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://www.hw.ac.uk/search/programmes
+- group: other
+  title: ''
+  type: OpenData
+  url: https://www.hw.ac.uk/about/professional-services/governance-and-legal-services/information-governance/access-information/foi/publication-scheme/external-and-government-relations-open-data/8.19-open-data
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/heriot-watt-conformance.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/heriot-watt-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/heriot-watt-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -80,12 +140,9 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: company
-  title: ''
-  type: About
-  url: https://www.hw.ac.uk/about/professional-services/information-services/find-resources
 created: '2026-06-03'
-description: 'Heriot-Watt University is a public research university based in Edinburgh, Scotland, with additional campuses in the Scottish Borders, Orkney, Dubai, and Malaysia. It is ranked #257 in the QS World University Rankings 2025. Heriot-Watt''s public, machine-readable footprint centers on its Research Portal (powered by Elsevier Pure) for research outputs, projects, and expertise, and on Ex Libris Alma/Primo library Discovery and Springshare LibCal services. The university does not operate a public developer portal; programmatic interfaces such as the Pure OAI-PMH/REST API and the LibCal API exist as platform features but are gated and require credentials or institutional arrangement rather than being openly self-service.'
+description: 'Heriot-Watt University is a public research university based in Edinburgh, Scotland, with further campuses in the Scottish Borders, Orkney, Dubai and Malaysia, ROR 04mghma93. Its programmable footprint is small but — unusually for this cohort — not empty and not entirely rented. Two surfaces are genuinely institution-operated and openly callable without credentials: the Research Output Service (ROS) at www.ros.hw.ac.uk, a DSpace 8 deployment on the university''s own domain with a live OAI-PMH 2.0 endpoint and an unauthenticated DSpace REST/HAL API over its theses and research outputs; and the university''s SAML 2.0 identity provider, registered in the UK Access Management Federation as Heriot-Watt University, whose signed metadata is machine-readable through the federation''s MDQ service. Everything else that looks like a Heriot-Watt API is a vendor platform the university rents under its own name and is recorded here as a tenant relationship, not as Heriot-Watt engineering:
+  the research portal at researchportal.hw.ac.uk is Elsevier Pure (the host CNAMEs to hwu.elsevierpure.com), library discovery at discovery.hw.ac.uk is Ex Libris Primo, canvas.hw.ac.uk is Instructure Canvas, and hw.ac.libcal.com is Springshare LibCal. Heriot-Watt operates no central developer portal, no public API documentation, no open-data portal and no course-catalog or timetabling API; the programme search at hw.ac.uk is server-rendered HTML with no JSON backend, and timetable.hw.ac.uk, though on the university''s own network, exposes no reachable public endpoint.'
 finops:
 - name: Heriot Watt Finops
   service_category: Education
@@ -97,17 +154,17 @@ jsonld:
   property_count: 4
   slug: heriot-watt-context
 layout: provider
-modified: '2026-07-25'
+modified: '2026-08-30'
 name: Heriot-Watt University
 nav: Providers
 network: true
-overview: 'Heriot-Watt University publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Scotland, and United Kingdom.
+overview: 'Heriot-Watt University publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Scotland, and United Kingdom.
 
 
   The Heriot-Watt University catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Heriot-Watt University''s developer surface includes status page and 9 more developer resources.'
+  Heriot-Watt University''s developer surface includes status page, engineering blog, support, API reference, and 17 more developer resources.'
 plans:
 - name: Heriot Watt Plans Pricing
   plan_count: 2
@@ -118,28 +175,33 @@ rate_limits:
   name: Heriot Watt Rate Limits
   slug: heriot-watt-rate-limits
 score:
-  band: emerging
-  composite: 19.6
-  delta: 1.9
+  band: thin
+  composite: 31.6
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 53.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 12.0
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 0.0
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 18.2
     contract_quality: 10.7
-    developer_ergonomics: 9.5
-    discoverability: 59.3
-    governance: 0.0
+    developer_ergonomics: 23.8
+    discoverability: 64.8
+    governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 17.7
+  previous_composite: 19.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 46.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/heriot-watt/refs/heads/main/screenshots/heriot-watt-2026-06-20T182645.png
 security:
 - kind: domain-security
@@ -152,13 +214,19 @@ security:
   summary_line: security.txt
 slug: heriot-watt
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Scotland
 - United Kingdom
+- Universities Scotland
 - Research
-- Library
+- Research Data
+- Institutional Repository
 - Open Access
+- OAI-PMH
+- Identity Federation
+- Library
+- Learning Management
 website: https://www.hw.ac.uk/
 ---

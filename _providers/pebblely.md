@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: AI-powered product photo generation API. Create stunning product photos without Photoshop skills. Includes background creation, background removal, and bulk image generation capabilities.
@@ -96,7 +96,12 @@ rate_limits:
   slug: pebblely-rate-limits
 score:
   band: emerging
-  composite: 12.3
+  composite: 13.0
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -104,12 +109,12 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 12.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 13.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pebblely/refs/heads/main/screenshots/pebblely-2026-06-20T191524.png
 security:

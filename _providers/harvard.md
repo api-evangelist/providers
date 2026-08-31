@@ -33,12 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-26'
-api_count: 14
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: Native REST API of Harvard Dataverse, the institution's research data repository, running Dataverse 6.10.1 (build iqss-4) on Harvard's own AWS infrastructure with no vendor CNAME. Public read operatio
-  name: Harvard Dataverse API
-  slug: dataverse
 - description: OAI-PMH 2.0 metadata harvesting endpoint for Harvard Dataverse. Identify returns repositoryName "Harvard Dataverse Dataverse OAI Archive" with adminEmail support@dataverse.harvard.edu, earliest datest
   name: Harvard Dataverse OAI-PMH
   slug: dataverse-oai
@@ -51,9 +48,6 @@ apis:
 - description: Harvard's SAML 2.0 identity provider, entityID https://fed.huit.harvard.edu/idp/shibboleth, registered in the InCommon federation and reachable as signed machine-readable metadata through the InCommon
   name: Harvard University Shibboleth Identity Provider (InCommon)
   slug: identity-federation
-- description: 'A 2026 agent-native surface from the Harvard Law School Library Innovation Lab: a static JSON API for progressively discovering and loading pedagogical AI skills for legal education, organized by pers'
-  name: Legal Ed Skills Hub (Harvard Law School Library Innovation Lab)
-  slug: lil-lawskills
 - description: Harvard Law School Library Innovation Lab's digitization of US case law, served as static bulk data organized by reporter. The live REST API at api.case.law was retired in 2024 and now 301-redirects t
   name: Caselaw Access Project bulk data (Harvard Library Innovation Lab)
   slug: caselaw-access-project
@@ -78,8 +72,126 @@ apis:
 - description: harvard.zoom.us is a Zoom institutional tenancy branded "Zoom for Harvard", and a Zoom API appears in the HUIT API Portal catalog. The account is Harvard's; the API is Zoom's. Recorded so the HUIT cat
   name: Zoom tenancy
   slug: zoom
-artifact_total: 30
+- description: The Access API from Harvard University — 23 operation(s) for access.
+  name: Harvard University Access API
+  slug: harvard-access-api
+- description: The Actions API from Harvard University — 4 operation(s) for actions.
+  name: Harvard University Actions API
+  slug: harvard-actions-api
+- description: Uploads a set of files to a dataset
+  name: Harvard University Add Files To Dataset API
+  slug: harvard-addfilestodataset-api
+- description: Uploads a file for a dataset
+  name: Harvard University Add File To Dataset API
+  slug: harvard-addfiletodataset-api
+- description: Uploads a Globus file for a dataset
+  name: Harvard University Add Globus Files To Dataset API
+  slug: harvard-addglobusfilestodataset-api
+- description: The Admin API from Harvard University — 127 operation(s) for admin.
+  name: Harvard University Admin API
+  slug: harvard-admin-api
+- description: The Batch API from Harvard University — 3 operation(s) for batch.
+  name: Harvard University Batch API
+  slug: harvard-batch-api
+- description: The Builtin Users API from Harvard University — 4 operation(s) for builtin users.
+  name: Harvard University Builtin Users API
+  slug: harvard-builtin-users-api
+- description: The Datasetfields API from Harvard University — 1 operation(s) for datasetfields.
+  name: Harvard University Datasetfields API
+  slug: harvard-datasetfields-api
+- description: The Datasets API from Harvard University — 102 operation(s) for datasets.
+  name: Harvard University Datasets API
+  slug: harvard-datasets-api
+- description: The Datatags API from Harvard University — 1 operation(s) for datatags.
+  name: Harvard University Datatags API
+  slug: harvard-datatags-api
+- description: The DataverseFeaturedItems API from Harvard University — 1 operation(s) for dataversefeatureditems.
+  name: Harvard University Dataverse Featured Items API
+  slug: harvard-dataversefeatureditems-api
+- description: The Dataverses API from Harvard University — 46 operation(s) for dataverses.
+  name: Harvard University Dataverses API
+  slug: harvard-dataverses-api
+- description: The Edit API from Harvard University — 1 operation(s) for edit.
+  name: Harvard University Edit API
+  slug: harvard-edit-api
+- description: The ExternalTools API from Harvard University — 2 operation(s) for externaltools.
+  name: Harvard University External Tools API
+  slug: harvard-externaltools-api
+- description: The Files API from Harvard University — 21 operation(s) for files.
+  name: Harvard University Files API
+  slug: harvard-files-api
+- description: The Guestbooks API from Harvard University — 4 operation(s) for guestbooks.
+  name: Harvard University Guestbooks API
+  slug: harvard-guestbooks-api
+- description: The Harvest API from Harvard University — 7 operation(s) for harvest.
+  name: Harvard University Harvest API
+  slug: harvard-harvest-api
+- description: The Inbox API from Harvard University — 1 operation(s) for inbox.
+  name: Harvard University Inbox API
+  slug: harvard-inbox-api
+- description: The Info API from Harvard University — 53 operation(s) for info.
+  name: Harvard University Info API
+  slug: harvard-info-api
+- description: The Ingest API from Harvard University — 1 operation(s) for ingest.
+  name: Harvard University Ingest API
+  slug: harvard-ingest-api
+- description: The Licenses API from Harvard University — 6 operation(s) for licenses.
+  name: Harvard University Licenses API
+  slug: harvard-licenses-api
+- description: The Localcontexts API from Harvard University — 2 operation(s) for localcontexts.
+  name: Harvard University Localcontexts API
+  slug: harvard-localcontexts-api
+- description: The Logout API from Harvard University — 1 operation(s) for logout.
+  name: Harvard University Logout API
+  slug: harvard-logout-api
+- description: The Mail API from Harvard University — 1 operation(s) for mail.
+  name: Harvard University Mail API
+  slug: harvard-mail-api
+- description: The Meta API from Harvard University — 2 operation(s) for meta.
+  name: Harvard University Meta API
+  slug: harvard-meta-api
+- description: The Metadatablocks API from Harvard University — 2 operation(s) for metadatablocks.
+  name: Harvard University Metadatablocks API
+  slug: harvard-metadatablocks-api
+- description: The Mydata API from Harvard University — 2 operation(s) for mydata.
+  name: Harvard University Mydata API
+  slug: harvard-mydata-api
+- description: The Notifications API from Harvard University — 8 operation(s) for notifications.
+  name: Harvard University Notifications API
+  slug: harvard-notifications-api
+- description: The Pids API from Harvard University — 6 operation(s) for pids.
+  name: Harvard University Pids API
+  slug: harvard-pids-api
+- description: Replace a file to a dataset
+  name: Harvard University Replace Files In Dataset API
+  slug: harvard-replacefilesindataset-api
+- description: The Roles API from Harvard University — 3 operation(s) for roles.
+  name: Harvard University Roles API
+  slug: harvard-roles-api
+- description: Save Auxiliary File With Version
+  name: Harvard University Save Auxiliary File With Version API
+  slug: harvard-saveauxiliaryfilewithversion-api
+- description: The Search API from Harvard University — 2 operation(s) for search.
+  name: Harvard University Search API
+  slug: harvard-search-api
+- description: The Sendfeedback API from Harvard University — 1 operation(s) for sendfeedback.
+  name: Harvard University Sendfeedback API
+  slug: harvard-sendfeedback-api
+- description: Uploads a logo for a dataset
+  name: Harvard University Upload Dataset Logo API
+  slug: harvard-uploaddatasetlogo-api
+- description: The Users API from Harvard University — 10 operation(s) for users.
+  name: Harvard University Users API
+  slug: harvard-users-api
+- description: The Workflows API from Harvard University — 1 operation(s) for workflows.
+  name: Harvard University Workflows API
+  slug: harvard-workflows-api
+artifact_total: 66
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/harvard-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -305,13 +417,13 @@ modified: '2026-08-19'
 name: Harvard University
 nav: Providers
 network: true
-overview: 'Harvard University publishes 2 APIs on the [APIs.io](https://apis.io/) network: Harvard Dataverse API and Legal Ed Skills Hub (Harvard Law School Library Innovation Lab). Tagged areas include University, Higher Education, Education, United States, and Ivy League.
+overview: 'Harvard University publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Access API, Actions API, Add Files To Dataset API, and 35 more. Tagged areas include University, Higher Education, Education, United States, and Ivy League.
 
 
   The Harvard University catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Harvard University''s developer surface includes documentation, API reference, GitHub presence, support, status page, engineering blog, code examples, and 39 more developer resources.'
+  Harvard University''s developer surface includes documentation, API reference, GitHub presence, support, status page, engineering blog, code examples, and 40 more developer resources.'
 plans:
 - name: Harvard Plans Pricing
   plan_count: 2
@@ -339,18 +451,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.0
-  delta: 2.6
+  composite: 47.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 46.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 11.4
-    contract_quality: 54.8
+    contract_quality: 57.9
     developer_ergonomics: 28.6
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 11.4
     operational_transparency: 23.7
-  previous_composite: 44.4
+  previous_composite: 47.2
   provenance:
     conformance: first-party
     contracts:
@@ -364,8 +481,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 68.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harvard/refs/heads/main/screenshots/harvard-2026-06-20T182525.png
 security:

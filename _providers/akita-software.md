@@ -10,30 +10,30 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
+  score: 14.2
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: 'Akita Software provided an API observability platform that used passive traffic monitoring to automatically discover, map, and model APIs without requiring code changes or proxying. It could generate '
@@ -42,7 +42,7 @@ apis:
 - description: Postman Live Insights is the successor to Akita Software, now integrated into the Postman platform. The Postman Insights Agent (open source) makes it easy to see the behavior of production APIs, disco
   name: Postman Live Insights
   slug: postman-live-insights
-artifact_total: 20
+artifact_total: 21
 common:
 - group: operate
   title: ''
@@ -67,25 +67,61 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.akita.software
+  url: https://learning.postman.com/docs/insights/overview/
 - group: build
   title: ''
   type: GitHubOrganization
   url: https://github.com/akitasoftware
-- group: company
-  title: ''
-  type: Blog
-  url: https://blog.akita.software
 - group: other
   title: ''
   type: X
-  url: https://twitter.com/akaboraitasoftware
+  url: https://x.com/akitasoftware
+- group: build
+  title: ''
+  type: Packages
+  url: packages/akita-software-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/akita-software-cli.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/akita-software-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/akita-software-lifecycle.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/akita-software-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/akita-software-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/akita-software-conventions.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/akita-software-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/akita-software-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/akita-software-rate-limits.yml
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/akita-software/
 created: '2025-01-08'
-description: Akita Software was an API observability and analysis platform that used passive traffic monitoring to automatically map APIs, detect changes, and identify issues without requiring code changes or proxies. Akita was acquired by Postman in November 2023 and its technology has been integrated into the Postman platform as Postman Live Insights. The Akita agent is now available as the open-source Postman Insights Agent.
+description: Akita Software was an API observability and analysis platform that used passive traffic monitoring to automatically map APIs, detect changes, and identify issues without requiring code changes or proxies. Akita was acquired by Postman in July 2023 (announced 2023-07-19) and its technology has been integrated into the Postman platform as Postman Live Insights. The Akita agent is now available as the open-source Postman Insights Agent.
 features:
 - description: Monitors API traffic passively without code changes, SDK installation, or proxying, minimizing operational overhead and risk.
   name: Passive Traffic Monitoring
@@ -114,41 +150,53 @@ integrations:
 - description: Acquired by Postman in 2023; technology integrated as Postman Live Insights
   name: Postman
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-30'
 name: Akita Software
 nav: Providers
 network: true
 overview: 'Akita Software publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, API Discovery, API Mapping, API Observability, and Traffic Analysis.
 
 
-  Akita Software''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
+  Akita Software''s developer surface includes documentation, CLI, changelog, authentication, and 15 more developer resources.'
 plans:
 - name: Akita Software Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: akita-software-plans-pricing
 random_paper: 14
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Akita Software Rate Limits
   slug: akita-software-rate-limits
 score:
   band: emerging
-  composite: 17.0
-  delta: 2.4
+  composite: 25.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 8.8
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
+    access_clarity: 28.9
+    commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 22.6
+    developer_ergonomics: 45.2
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 14.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 17.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 security:
+- kind: authentication
+  name: Akita Software Authentication
+  slug: akita-software-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Akita Software Domain Security
   slug: akita-software-domain-security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 26
   slug: loops-so-agentic-access
   summary_line: 26 operations · 12 acting
-api_count: 12
+api_count: 1
 apis:
 - description: The API key API from Loops — 1 operation(s) for api key.
   name: Loops API key API
@@ -353,15 +353,20 @@ overview: 'Loops publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 9
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 46.2
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 55.4
     developer_ergonomics: 61.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 46.8
@@ -372,8 +377,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loops-so/refs/heads/main/screenshots/loops-so-2026-06-20T184721.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 25
   slug: braintree-agentic-access
   summary_line: 25 operations · 16 acting
-api_count: 14
+api_count: 2
 apis:
 - description: The Braintree GraphQL API provides a modern, flexible interface for interacting with the Braintree payment gateway. It exposes a single HTTP endpoint that handles all queries and mutations, allowing d
   name: Braintree GraphQL API
@@ -340,18 +340,23 @@ scopes:
   summary_line: 40 scopes
 score:
   band: thin
-  composite: 38.2
-  delta: 1.9
+  composite: 37.7
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 72.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 13.6
     contract_quality: 70.9
     developer_ergonomics: 28.6
-    discoverability: 50.0
+    discoverability: 44.4
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 36.3
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -363,8 +368,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/screenshots/braintree-2026-06-20T173632.png
 security:

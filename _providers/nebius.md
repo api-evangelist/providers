@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
 - description: 'The Nebius Compute API provisions and manages virtual machines and GPU clusters with NVIDIA GPUs and InfiniBand interconnect for ML and AI workloads. Exposed over gRPC and accessed through the nebius '
@@ -122,11 +122,11 @@ common:
   url: https://github.com/nebius/terraform-provider-nebius
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/nebius/nebius-solution-library
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/nebius/soperator
 - group: other
   title: ''
@@ -177,7 +177,7 @@ network: true
 overview: 'Nebius publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Cloud, Compute, GPU, and HPC.
 
 
-  Nebius'' developer surface includes documentation, developer portal, pricing, engineering blog, support, and 14 more developer resources.'
+  Nebius'' developer surface includes documentation, developer portal, pricing, engineering blog, support, code examples, and 13 more developer resources.'
 plans:
 - name: Nebius Plans Pricing
   plan_count: 1
@@ -190,6 +190,11 @@ rate_limits:
 score:
   band: emerging
   composite: 25.6
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
@@ -201,8 +206,8 @@ score:
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 25.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nebius/refs/heads/main/screenshots/nebius-2026-06-20T190119.png
 security:

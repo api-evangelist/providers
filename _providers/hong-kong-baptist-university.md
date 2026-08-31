@@ -1,28 +1,27 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free · Institutional affiliation required
+  onboarding: unknown
   pricing: free
   public: false
   source:
-  - plans
-  - authentication
+  - probed
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -30,240 +29,70 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.5
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 258
-  human_in_the_loop: 1
-  name: Hong Kong Baptist University Agentic Access
-  operation_count: 898
-  slug: hong-kong-baptist-university-agentic-access
-  summary_line: 898 operations · 258 acting · 1 human-in-the-loop
-api_count: 34
+  score: 5.0
+  scored_at: '2026-08-30'
+api_count: 5
 apis:
-- description: Backend host serving the official HKBU mobile application (mapp-api.hkbu.edu.hk). The host resolves and serves app support content such as the app privacy notice, but there is no public developer docu
+- description: HKBU's own SAML 2.0 identity provider, entityID https://buidp01.hkbu.edu.hk/idp/shibboleth, registered in eduGAIN by the Hong Kong Access Federation (HKAF) since 2018-03-14 with scope hkbu.edu.hk. The
+  name: HKBU Identity Federation (Shibboleth IdP / SAML 2.0 metadata)
+  slug: identity-federation
+- description: HKBU runs its own generative-AI gateway at genai.hkbu.edu.hk, fronting third-party models (Anthropic, Google, Meta AI, OpenAI) for staff and students. Probing on 2026-08-30 found a live REST surface a
+  name: HKBU GenAI Platform API (undocumented, key-gated)
+  slug: genai-platform-api
+- description: 'HKBU self-hosts Moodle at buelearning.hkbu.edu.hk on its own registrable domain. It publishes a live IMS LTI 1.3 Advantage tool-platform key set at /mod/lti/certs.php (HTTP 200, one RSA RS256 signing '
+  name: HKBU Moodle — IMS LTI 1.3 platform + web services
+  slug: moodle-lti-platform
+- description: Backend host serving the official HKBU Mobile application (mapp-api.hkbu.edu.hk). The host resolves over TLS 1.3 with HSTS and serves app support content such as the app privacy notice (HTTP 200), but
   name: HKBU Mobile App Backend (gated)
   slug: mobile-app-backend
-- description: The activity API from Hong Kong Baptist University — 38 operation(s) for activity.
-  name: Hong Kong Baptist University activity API
-  slug: hong-kong-baptist-university-activity-api
-- description: The application API from Hong Kong Baptist University — 36 operation(s) for application.
-  name: Hong Kong Baptist University application API
-  slug: hong-kong-baptist-university-application-api
-- description: The authorCollaboration API from Hong Kong Baptist University — 9 operation(s) for authorcollaboration.
-  name: Hong Kong Baptist University authorCollaboration API
-  slug: hong-kong-baptist-university-authorcollaboration-api
-- description: The award API from Hong Kong Baptist University — 36 operation(s) for award.
-  name: Hong Kong Baptist University award API
-  slug: hong-kong-baptist-university-award-api
-- description: The classificationScheme API from Hong Kong Baptist University — 7 operation(s) for classificationscheme.
-  name: Hong Kong Baptist University classificationScheme API
-  slug: hong-kong-baptist-university-classificationscheme-api
-- description: The concept API from Hong Kong Baptist University — 4 operation(s) for concept.
-  name: Hong Kong Baptist University concept API
-  slug: hong-kong-baptist-university-concept-api
-- description: The course API from Hong Kong Baptist University — 27 operation(s) for course.
-  name: Hong Kong Baptist University course API
-  slug: hong-kong-baptist-university-course-api
-- description: The dataSet API from Hong Kong Baptist University — 29 operation(s) for dataset.
-  name: Hong Kong Baptist University dataSet API
-  slug: hong-kong-baptist-university-dataset-api
-- description: The education API from Hong Kong Baptist University — 14 operation(s) for education.
-  name: Hong Kong Baptist University education API
-  slug: hong-kong-baptist-university-education-api
-- description: The equipment API from Hong Kong Baptist University — 26 operation(s) for equipment.
-  name: Hong Kong Baptist University equipment API
-  slug: hong-kong-baptist-university-equipment-api
-- description: The ethicalReview API from Hong Kong Baptist University — 22 operation(s) for ethicalreview.
-  name: Hong Kong Baptist University ethicalReview API
-  slug: hong-kong-baptist-university-ethicalreview-api
-- description: The event API from Hong Kong Baptist University — 21 operation(s) for event.
-  name: Hong Kong Baptist University event API
-  slug: hong-kong-baptist-university-event-api
-- description: The externalOrganization API from Hong Kong Baptist University — 29 operation(s) for externalorganization.
-  name: Hong Kong Baptist University externalOrganization API
-  slug: hong-kong-baptist-university-externalorganization-api
-- description: The externalPerson API from Hong Kong Baptist University — 22 operation(s) for externalperson.
-  name: Hong Kong Baptist University externalPerson API
-  slug: hong-kong-baptist-university-externalperson-api
-- description: The fundingOpportunity API from Hong Kong Baptist University — 21 operation(s) for fundingopportunity.
-  name: Hong Kong Baptist University fundingOpportunity API
-  slug: hong-kong-baptist-university-fundingopportunity-api
-- description: The impact API from Hong Kong Baptist University — 31 operation(s) for impact.
-  name: Hong Kong Baptist University impact API
-  slug: hong-kong-baptist-university-impact-api
-- description: The journal API from Hong Kong Baptist University — 22 operation(s) for journal.
-  name: Hong Kong Baptist University journal API
-  slug: hong-kong-baptist-university-journal-api
-- description: The keywordGroupConfiguration API from Hong Kong Baptist University — 7 operation(s) for keywordgroupconfiguration.
-  name: Hong Kong Baptist University keywordGroupConfiguration API
-  slug: hong-kong-baptist-university-keywordgroupconfiguration-api
-- description: The milestone API from Hong Kong Baptist University — 24 operation(s) for milestone.
-  name: Hong Kong Baptist University milestone API
-  slug: hong-kong-baptist-university-milestone-api
-- description: The organization API from Hong Kong Baptist University — 33 operation(s) for organization.
-  name: Hong Kong Baptist University organization API
-  slug: hong-kong-baptist-university-organization-api
-- description: The person API from Hong Kong Baptist University — 57 operation(s) for person.
-  name: Hong Kong Baptist University person API
-  slug: hong-kong-baptist-university-person-api
-- description: The pressMedia API from Hong Kong Baptist University — 24 operation(s) for pressmedia.
-  name: Hong Kong Baptist University pressMedia API
-  slug: hong-kong-baptist-university-pressmedia-api
-- description: The prize API from Hong Kong Baptist University — 28 operation(s) for prize.
-  name: Hong Kong Baptist University prize API
-  slug: hong-kong-baptist-university-prize-api
-- description: The project API from Hong Kong Baptist University — 33 operation(s) for project.
-  name: Hong Kong Baptist University project API
-  slug: hong-kong-baptist-university-project-api
-- description: The publisher API from Hong Kong Baptist University — 18 operation(s) for publisher.
-  name: Hong Kong Baptist University publisher API
-  slug: hong-kong-baptist-university-publisher-api
-- description: The researchOutput API from Hong Kong Baptist University — 66 operation(s) for researchoutput.
-  name: Hong Kong Baptist University researchOutput API
-  slug: hong-kong-baptist-university-researchoutput-api
-- description: The role API from Hong Kong Baptist University — 2 operation(s) for role.
-  name: Hong Kong Baptist University role API
-  slug: hong-kong-baptist-university-role-api
-- description: The semester API from Hong Kong Baptist University — 8 operation(s) for semester.
-  name: Hong Kong Baptist University semester API
-  slug: hong-kong-baptist-university-semester-api
-- description: The specialization API from Hong Kong Baptist University — 8 operation(s) for specialization.
-  name: Hong Kong Baptist University specialization API
-  slug: hong-kong-baptist-university-specialization-api
-- description: The studentProject API from Hong Kong Baptist University — 26 operation(s) for studentproject.
-  name: Hong Kong Baptist University studentProject API
-  slug: hong-kong-baptist-university-studentproject-api
-- description: The studentThesis API from Hong Kong Baptist University — 26 operation(s) for studentthesis.
-  name: Hong Kong Baptist University studentThesis API
-  slug: hong-kong-baptist-university-studentthesis-api
-- description: The thesaurus API from Hong Kong Baptist University — 5 operation(s) for thesaurus.
-  name: Hong Kong Baptist University thesaurus API
-  slug: hong-kong-baptist-university-thesaurus-api
-- description: The user API from Hong Kong Baptist University — 7 operation(s) for user.
-  name: Hong Kong Baptist University user API
-  slug: hong-kong-baptist-university-user-api
-artifact_total: 84
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Pure activity API
-  slug: open-hong-kong-baptist-university-activity-api
-- collection_type: open
-  name: Pure activity application API
-  slug: open-hong-kong-baptist-university-application-api
-- collection_type: open
-  name: Pure activity authorCollaboration API
-  slug: open-hong-kong-baptist-university-authorcollaboration-api
-- collection_type: open
-  name: Pure activity award API
-  slug: open-hong-kong-baptist-university-award-api
-- collection_type: open
-  name: Pure activity classificationScheme API
-  slug: open-hong-kong-baptist-university-classificationscheme-api
-- collection_type: open
-  name: Pure activity concept API
-  slug: open-hong-kong-baptist-university-concept-api
-- collection_type: open
-  name: Pure activity course API
-  slug: open-hong-kong-baptist-university-course-api
-- collection_type: open
-  name: Pure activity dataSet API
-  slug: open-hong-kong-baptist-university-dataset-api
-- collection_type: open
-  name: Pure activity education API
-  slug: open-hong-kong-baptist-university-education-api
-- collection_type: open
-  name: Pure activity equipment API
-  slug: open-hong-kong-baptist-university-equipment-api
-- collection_type: open
-  name: Pure activity event API
-  slug: open-hong-kong-baptist-university-event-api
-- collection_type: open
-  name: Pure activity externalOrganization API
-  slug: open-hong-kong-baptist-university-externalorganization-api
-- collection_type: open
-  name: Pure activity externalPerson API
-  slug: open-hong-kong-baptist-university-externalperson-api
-- collection_type: open
-  name: Pure activity fundingOpportunity API
-  slug: open-hong-kong-baptist-university-fundingopportunity-api
-- collection_type: open
-  name: Pure activity impact API
-  slug: open-hong-kong-baptist-university-impact-api
-- collection_type: open
-  name: Pure activity journal API
-  slug: open-hong-kong-baptist-university-journal-api
-- collection_type: open
-  name: Pure activity keywordGroupConfiguration API
-  slug: open-hong-kong-baptist-university-keywordgroupconfiguration-api
-- collection_type: open
-  name: Pure activity milestone API
-  slug: open-hong-kong-baptist-university-milestone-api
-- collection_type: open
-  name: Pure activity organization API
-  slug: open-hong-kong-baptist-university-organization-api
-- collection_type: open
-  name: Pure activity person API
-  slug: open-hong-kong-baptist-university-person-api
-- collection_type: open
-  name: Pure activity pressMedia API
-  slug: open-hong-kong-baptist-university-pressmedia-api
-- collection_type: open
-  name: Pure activity prize API
-  slug: open-hong-kong-baptist-university-prize-api
-- collection_type: open
-  name: Pure activity project API
-  slug: open-hong-kong-baptist-university-project-api
-- collection_type: open
-  name: Pure activity publisher API
-  slug: open-hong-kong-baptist-university-publisher-api
-- collection_type: open
-  name: Pure activity researchOutput API
-  slug: open-hong-kong-baptist-university-researchoutput-api
-- collection_type: open
-  name: Pure activity role API
-  slug: open-hong-kong-baptist-university-role-api
-- collection_type: open
-  name: Pure activity semester API
-  slug: open-hong-kong-baptist-university-semester-api
-- collection_type: open
-  name: Pure activity specialization API
-  slug: open-hong-kong-baptist-university-specialization-api
-- collection_type: open
-  name: Pure activity studentProject API
-  slug: open-hong-kong-baptist-university-studentproject-api
-- collection_type: open
-  name: Pure activity studentThesis API
-  slug: open-hong-kong-baptist-university-studentthesis-api
-- collection_type: open
-  name: Pure activity thesaurus API
-  slug: open-hong-kong-baptist-university-thesaurus-api
-- collection_type: open
-  name: Pure activity user API
-  slug: open-hong-kong-baptist-university-user-api
+- description: 'HKBU Scholars is HKBU''s research information portal and institutional repository, and it is an Elsevier Pure tenancy: scholars.hkbu.edu.hk is a CNAME to hkbu.elsevierpure.com, and repository.hkbu.edu.'
+  name: HKBU Scholars — Elsevier Pure tenancy (tenant relationship, contract not HKBU's)
+  slug: scholars-pure-tenancy
+artifact_total: 10
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/hong-kong-baptist-university-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/hong-kong-baptist-university-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/hong-kong-baptist-university-authentication.yml
 - group: company
   title: ''
   type: Website
   url: https://www.hkbu.edu.hk/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.hkbu.edu.hk/en/whats-new.html
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://buidp01.hkbu.edu.hk/idp/shibboleth
+- group: build
+  title: ''
+  type: AITooling
+  url: https://genai.hkbu.edu.hk/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://ar.hkbu.edu.hk/student-services/learning-and-teaching/learning-and-teaching-strategy-and-policies/principles-for-the-use-of-generative-ai-tools-in-teaching-and-learning-and-assessment
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://scholars.hkbu.edu.hk/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://data-hub.hkbu.edu.hk/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.hkbu.edu.hk/en/disclaimer.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://bupdpo.hkbu.edu.hk/policies-and-procedures/pps-pics/
+- group: operate
+  title: ''
+  type: Support
+  url: https://ito.hkbu.edu.hk/contact-us.html
 - group: build
   title: ''
   type: GitHub
@@ -271,11 +100,23 @@ common:
 - group: company
   title: ''
   type: LinkedIn
-  url: https://hk.linkedin.com/school/hong-kong-baptist-university/
+  url: https://www.linkedin.com/school/hong-kong-baptist-university/
 - group: company
   title: ''
   type: Twitter
-  url: https://x.com/hkbaptistu
+  url: https://twitter.com/hkbaptistu
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/hong-kong-baptist-university-conformance.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/hong-kong-baptist-university-authentication.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/hong-kong-baptist-university-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -292,61 +133,65 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.hkbu.edu.hk/en/whats-new.html
+coverage:
+  detail: 'HKBU operates four surfaces of its own and publishes a machine-readable contract for none of them. The Shibboleth/SAML 2.0 IdP metadata at buidp01.hkbu.edu.hk is fully anonymous and complete, but it is federation metadata, not an HTTP API, so it yields no OpenAPI. The GenAI Platform API and the Moodle LTI 1.3 / web-services endpoints are both live and both answer 401/400 for credentials rather than 404, proving the surfaces exist while withholding their shape; neither publishes an OpenAPI or public developer documentation. The mobile-app backend is first-party only. The one place HKBU did publish an OpenAPI — scholars.hkbu.edu.hk/ws/api — is an Elsevier Pure tenancy (scholars.hkbu.edu.hk CNAMEs to hkbu.elsevierpure.com) whose contract belongs to Elsevier and has been removed from this repository along with everything derived from it — 115 files. Two secondary institution hosts could not be read: digital.lib.hkbu.edu.hk returns a 403 "Access Denied" page to every client tried including
+    a full browser User-Agent, and scholars.hkbu.edu.hk/en/ sits behind a Cloudflare interstitial. State is gated rather than none because real surfaces were confirmed live behind credentials, and rather than vendor_only because the institution-operated set is genuine.'
+  evidence:
+  - note: SAML 2.0 metadata, application/xml, 12,306 bytes, scope hkbu.edu.hk.
+    status: 200
+    url: https://buidp01.hkbu.edu.hk/idp/shibboleth
+  - note: 'POST without credentials: {"message":"API key is missing or invalid."}'
+    status: 401
+    url: https://genai.hkbu.edu.hk/general/rest/deployments/gpt-4o-mini/chat/completions?api-version=2024-05-01-preview
+  - note: POST with an api-key header returns a distinct key-validation 401.
+    status: 401
+    url: https://genai.hkbu.edu.hk/general/rest/deployments/gpt-4o-mini/embeddings?api-version=2024-05-01-preview
+  - note: Live IMS LTI 1.3 JWKS, one RSA RS256 key.
+    status: 200
+    url: https://buelearning.hkbu.edu.hk/mod/lti/certs.php
+  - note: OAuth2 client-credentials token endpoint, invalid_request when called bare.
+    status: 400
+    url: https://buelearning.hkbu.edu.hk/mod/lti/token.php
+  - note: Moodle Web Services enabled; returns invalidtoken, not a 404.
+    status: 200
+    url: https://buelearning.hkbu.edu.hk/webservice/rest/server.php?wsfunction=core_webservice_get_site_info&moodlewsrestformat=json
+  - note: Elsevier Pure contract, key-gated. Tenant surface, not HKBU's contract.
+    status: 401
+    url: https://scholars.hkbu.edu.hk/ws/api/524/openapi.yaml
+  - note: Pure OAI-PMH endpoint present but access-restricted.
+    status: 401
+    url: https://scholars.hkbu.edu.hk/ws/oai?verb=Identify
+  - note: Mobile backend host live; no developer documentation.
+    status: 200
+    url: https://mapp-api.hkbu.edu.hk/html/app_privacy_policy.html
+  - note: Library digital collections return an Access Denied page to every client tried.
+    status: 403
+    url: https://digital.lib.hkbu.edu.hk/
+  - note: OIRP Data Hub; a link surface over Power BI reports, no data API.
+    status: 200
+    url: https://data-hub.hkbu.edu.hk/
+  - note: Empty organisation, zero public repositories; not an institutional code presence.
+    status: 200
+    url: https://github.com/hkbu
+  reason: auth_required
+  state: gated
 created: '2026-06-03'
-description: 'Hong Kong Baptist University (HKBU) is a publicly funded research university in Hong Kong SAR, ranked #253 in the QS World University Rankings 2025. Its public, machine-readable footprint centers on research information: the HKBU Scholars research portal is powered by Elsevier Pure, which exposes a documented Pure Web Service API (OpenAPI 3) for research outputs, persons, organisations, and related metadata. HKBU also operates a mobile-app backend and various library and digital scholarship platforms, though most of these are gated or undocumented for external developers and require institutional affiliation. There is no central institutional developer portal or organization-wide GitHub org; public code is published by individual research groups.'
-examples:
-- key_count: 3
-  name: Hong Kong Baptist University List Persons Example
-  slug: hong-kong-baptist-university-list-persons-example
-- key_count: 3
-  name: Hong Kong Baptist University List Research Outputs Example
-  slug: hong-kong-baptist-university-list-research-outputs-example
+description: 'Hong Kong Baptist University (HKBU) is a publicly funded, UGC-supported research university in Hong Kong SAR. Re-profiled on 2026-08-30 under the API Evangelist university pipeline, which settles WHO OPERATES each surface before crediting any contract. HKBU operates no central developer portal, no public API catalogue and no institution-wide GitHub organisation; github.com/hkbu exists but is empty, and the only active HKBU orgs are research labs (HKBUNLP, HKBU-HPML). What HKBU does operate itself, verified by live probe, is four things: a Shibboleth/SAML 2.0 identity provider at buidp01.hkbu.edu.hk registered in eduGAIN through the Hong Kong Access Federation since 2018 and serving 12KB of signed SAML metadata anonymously; a self-built GenAI Platform whose Azure-OpenAI-shaped chat-completions and embeddings endpoints answer on genai.hkbu.edu.hk behind an api-key header, undocumented publicly; a self-hosted Moodle at buelearning.hkbu.edu.hk publishing a live IMS LTI 1.3 JWKS
+  and OAuth2 token endpoint under HKBU''s own signing keys; and a first-party mobile-app backend at mapp-api.hkbu.edu.hk with no public documentation. Everything that looks like an HKBU research API is not. The HKBU Scholars portal at scholars.hkbu.edu.hk is a CNAME to hkbu.elsevierpure.com — an Elsevier Pure tenancy. The 33 OpenAPI documents previously held in this repository were Elsevier''s Pure Web Service contract 5.35.0 (info.contact pure-support@elsevier.com), the same document other Pure institutions ship, and have been removed along with everything derived from them. The data is HKBU''s; the contract is Elsevier''s, and it scores in Elsevier''s repository, not here.'
 finops:
 - name: Hong Kong Baptist University Finops
   service_category: Education
   slug: hong-kong-baptist-university-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hong-kong-baptist-university.png
-json_schemas:
-- name: Organization
-  property_count: 13
-  slug: hong-kong-baptist-university-organization
-- name: Person
-  property_count: 15
-  slug: hong-kong-baptist-university-person
-- name: ResearchOutput
-  property_count: 18
-  slug: hong-kong-baptist-university-research-output
-json_structures:
-- name: Hong Kong Baptist University Organization Structure
-  property_count: 9
-  slug: hong-kong-baptist-university-organization-structure
-- name: Hong Kong Baptist University Person Structure
-  property_count: 11
-  slug: hong-kong-baptist-university-person-structure
-- name: Hong Kong Baptist University Research Output Structure
-  property_count: 14
-  slug: hong-kong-baptist-university-research-output-structure
-jsonld:
-- class_count: 15
-  name: Hong Kong Baptist University Context
-  property_count: 7
-  slug: hong-kong-baptist-university-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Hong Kong Baptist University
 nav: Providers
 network: true
-overview: 'Hong Kong Baptist University publishes 33 APIs on the [APIs.io](https://apis.io/) network, including activity API, application API, authorCollaboration API, and 30 more. Tagged areas include Education, Higher Education, University, Research, and Hong Kong.
+overview: 'Hong Kong Baptist University publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Hong Kong, and UGC-Funded.
 
 
-  The Hong Kong Baptist University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  Hong Kong Baptist University''s developer surface includes authentication, GitHub presence, engineering blog, and 9 more developer resources.'
+  Hong Kong Baptist University''s developer surface includes engineering blog, support, GitHub presence, authentication, and 16 more developer resources.'
 plans:
 - name: Hong Kong Baptist University Plans Pricing
   plan_count: 2
@@ -356,42 +201,25 @@ rate_limits:
 - limit_count: 1
   name: Hong Kong Baptist University Rate Limits
   slug: hong-kong-baptist-university-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: Hong Kong Baptist University API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 3
-  slug: hong-kong-baptist-university-jsonschema-spectral-rules
-- effective_rule_count: 47
-  extends:
-  - spectral:oas
-  name: Hong Kong Baptist University API Rules
-  rule_count: 6
-  severity_counts:
-    error: 2
-    hint: 0
-    info: 1
-    warn: 3
-  slug: hong-kong-baptist-university-rules
 score:
   band: thin
-  composite: 38.6
-  delta: 1.9
+  composite: 34.5
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -4.1
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 13.6
-    contract_quality: 66.0
-    developer_ergonomics: 23.8
-    discoverability: 59.3
-    governance: 13.6
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 6.7
+    developer_ergonomics: 28.6
+    discoverability: 64.8
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 36.7
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -404,28 +232,35 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 61.1
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hong-kong-baptist-university/refs/heads/main/screenshots/hong-kong-baptist-university-2026-06-20T182824.png
 security:
 - kind: authentication
   name: Hong Kong Baptist University Authentication
   slug: hong-kong-baptist-university-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2/saml/token · 5 schemes
 - kind: domain-security
   name: Hong Kong Baptist University Domain Security
   slug: hong-kong-baptist-university-domain-security
-  summary_line: TLSv1.3 · HSTS
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: hong-kong-baptist-university
 tags:
-- Education
-- Higher Education
 - University
-- Research
+- Higher Education
+- Education
 - Hong Kong
-- Pure
+- UGC-Funded
+- Identity Federation
+- Shibboleth
+- SAML
+- eduGAIN
+- Learning Management
+- LTI
+- Artificial Intelligence
 - Research Information
+- Elsevier Pure
 website: https://www.hkbu.edu.hk/
 ---

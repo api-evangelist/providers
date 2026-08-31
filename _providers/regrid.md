@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 22
   slug: regrid-agentic-access
   summary_line: 22 operations · 4 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Tile Map Service (TMS) providing interactive vector and raster map layers of the full Regrid parcel dataset for embedding in web and mobile mapping applications. Supports both Standard and Premium sch
   name: Regrid Tile API
@@ -164,10 +164,6 @@ common:
   title: ''
   type: Examples
   url: examples/parcel-area-search-request.json
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: 2026-06-12
 description: Regrid is a national land parcel data platform providing REST APIs for querying parcel boundaries, ownership, zoning, assessed values, and deed records across all US counties and Canadian provinces. The platform offers a Parcel API for retrieving structured GeoJSON parcel records by location, address, APN, owner, or polygon area, alongside a Tile API delivering raster and vector map layers. Additional APIs cover matched secondary addresses, building footprints, standardized zoning, and daily ownership updates. Authentication uses API token parameters, billing is metered by parcel records returned, and self-serve monthly subscriptions are available in Standard and Premium schema tiers with enterprise custom packages also offered.
 examples:
@@ -202,7 +198,7 @@ overview: 'Regrid publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Regrid catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Regrid''s developer surface includes authentication, documentation, pricing, engineering blog, code examples, and 14 more developer resources.'
+  Regrid''s developer surface includes authentication, documentation, pricing, engineering blog, code examples, and 13 more developer resources.'
 plans:
 - name: Regrid Plans Pricing
   plan_count: 4
@@ -225,15 +221,20 @@ rules:
   slug: regrid-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 45.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 34.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 62.6
     developer_ergonomics: 19.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 47.4
   previous_composite: 46.0
@@ -244,8 +245,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/screenshots/regrid-2026-06-20T192759.png
 security:

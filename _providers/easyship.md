@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 19
   slug: easyship-agentic-access
   summary_line: 19 operations · 11 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Addresses API from Easyship — 2 operation(s) for addresses.
   name: Easyship Addresses API
@@ -95,6 +95,10 @@ collections:
   name: Easyship API
   slug: open-easyship
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/easyship-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -199,13 +203,13 @@ modified: '2026-05-25'
 name: Easyship
 nav: Providers
 network: true
-overview: 'Easyship publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Labels API, Pickups API, and 4 more. Tagged areas include Shipping, Logistics, E-Commerce, Fulfillment, and Cross-Border.
+overview: 'Easyship publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Labels API, Pickups API, and 4 more. Tagged areas include Shipping, Logistics, E-Commerce, Fulfillment, and CrossBorder.
 
 
   The Easyship catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Easyship''s developer surface includes authentication, pricing, signup flow, support, engineering blog, and 9 more developer resources.'
+  Easyship''s developer surface includes authentication, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Easyship Plans Pricing
   plan_count: 3
@@ -239,18 +243,23 @@ rules:
   slug: easyship-rules
 score:
   band: developing
-  composite: 47.2
-  delta: 7.1
+  composite: 46.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 28.8
     contract_quality: 73.0
     developer_ergonomics: 35.7
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 40.1
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     contracts:
@@ -258,9 +267,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/easyship/refs/heads/main/screenshots/easyship-2026-06-20T180405.png
 security:
 - kind: authentication
@@ -281,6 +290,6 @@ tags:
 - Logistics
 - E-Commerce
 - Fulfillment
-- Cross-Border
+- CrossBorder
 website: https://www.easyship.com/
 ---

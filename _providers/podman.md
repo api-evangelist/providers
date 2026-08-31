@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 8
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 193
   slug: podman-agentic-access
   summary_line: 193 operations · 115 acting · 8 human-in-the-loop
-api_count: 18
+api_count: 1
 apis:
 - description: Actions related to artifacts
   name: Podman artifacts API
@@ -160,6 +160,26 @@ collections:
   name: supports a RESTful API for the Libpod library
   slug: open-podman
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/containers/podman/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/containers/podman/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/podman-container-tools/podman/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/podman-container-tools/podman/blob/main/CODE-OF-CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/podman-container-tools/podman/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -215,7 +235,7 @@ network: true
 overview: 'Podman publishes 18 APIs on the [APIs.io](https://apis.io/) network, including artifacts API, containers API, containers (compat) API, and 15 more. Tagged areas include Cloud-Native, Containers, DevOps, OCI, and Open-Source.
 
 
-  Podman''s developer surface includes documentation, engineering blog, getting-started guide, and 7 more developer resources.'
+  Podman''s developer surface includes documentation, engineering blog, getting-started guide, and 12 more developer resources.'
 plans:
 - name: Podman Plans Pricing
   plan_count: 3
@@ -227,18 +247,26 @@ rate_limits:
   slug: podman-rate-limits
 score:
   band: thin
-  composite: 28.7
-  delta: 0.0
+  composite: 39.2
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 48.1
+    contract_quality: 51.5
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 28.7
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -246,8 +274,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/screenshots/podman-2026-06-20T191837.png
 security:

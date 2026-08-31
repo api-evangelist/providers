@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 151
   slug: coval-agentic-access
   summary_line: 151 operations · 86 acting
-api_count: 25
+api_count: 20
 apis:
 - description: CRUD operations for AI agent configurations
   name: Coval Agents API
@@ -426,19 +426,24 @@ overview: 'Coval publishes 25 APIs on the [APIs.io](https://apis.io/) network, i
   Coval''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
 random_paper: 8
 score:
-  band: strong
-  composite: 55.3
+  band: developing
+  composite: 53.9
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 71.1
     developer_ergonomics: 78.0
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 55.3
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -449,8 +454,8 @@ score:
       total: 25
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/screenshots/coval-2026-07-25T210531.png
 security:

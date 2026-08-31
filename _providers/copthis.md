@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.5
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Order previews, creation, tracking, address updates, and cancellation.
   name: CopThis Orders API
@@ -54,6 +54,10 @@ collections:
   name: Merchbar Partner Orders Stores API
   slug: open-copthis-stores-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/copthis-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -133,22 +137,27 @@ network: true
 overview: 'CopThis publishes 2 APIs on the [APIs.io](https://apis.io/) network: Orders API and Stores API. Tagged areas include Company, Music, Merchandise, E-Commerce, and Retail.
 
 
-  CopThis'' developer surface includes documentation, API reference, authentication, and 13 more developer resources.'
+  CopThis'' developer surface includes documentation, API reference, authentication, and 14 more developer resources.'
 random_paper: 6
 score:
   band: thin
-  composite: 31.2
+  composite: 29.8
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 56.7
     developer_ergonomics: 30.4
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 31.2
+  previous_composite: 29.8
   provenance:
     conformance: derived
     contracts:
@@ -158,8 +167,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copthis/refs/heads/main/screenshots/copthis-2026-07-25T210411.png
 security:

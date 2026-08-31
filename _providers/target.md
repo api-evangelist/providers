@@ -11,21 +11,22 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: na
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: na
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.9
-  scored_at: '2026-08-26'
+  score: 41.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,7 +69,7 @@ apis:
 - description: Store locator and store information
   name: target Stores API
   slug: target-stores-api
-artifact_total: 34
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -95,6 +96,10 @@ collections:
   name: Target API
   slug: open-target-target-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/target-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -135,10 +140,6 @@ common:
   title: ''
   type: Open Source
   url: https://tech.target.com/open-source
-- group: operate
-  title: ''
-  type: StatusPage
-  url: https://status.target.com
 - group: docs
   title: ''
   type: JSONSchema
@@ -161,8 +162,52 @@ common:
   url: vocabulary/target-vocabulary.yml
 - group: agent
   title: ''
-  type: LlmsText
-  url: https://developer.target.com/llms.txt
+  type: LLMsTxt
+  url: https://www.target.com/llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/target-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/target-well-known.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/target-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/target-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/target-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/target-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/target-conventions.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/target-packages.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.target.com/c/terms-conditions/-/N-4sr7l
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.target.com/c/target-privacy-policy/-/N-4sr7p
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.target.com/
 created: '2024-01-01'
 description: Target Corporation is one of the largest retailers in the United States, offering a wide assortment of general merchandise and food through more than 1,900 stores and digital channels. Target's technology platform powers partner integrations, internal services, and open-source tooling across their retail operations.
 examples:
@@ -204,7 +249,7 @@ jsonld:
   property_count: 0
   slug: target-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-27'
 name: target
 nav: Providers
 network: true
@@ -214,7 +259,7 @@ overview: 'target publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The target catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  target''s developer surface includes authentication, engineering blog, and 15 more developer resources.'
+  target''s developer surface includes authentication, engineering blog, and 26 more developer resources.'
 plans:
 - name: Target Plans Pricing
   plan_count: 1
@@ -262,20 +307,30 @@ rules:
     info: 1
     warn: 16
   slug: target-spectral-rules
+scopes:
+- name: Target Scopes
+  scope_count: 0
+  slug: target-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 34.6
+  band: developing
+  composite: 42.0
+  coverage:
+    artifact_dirs: 28
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
-    contract_governance: 28.8
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 47.0
     contract_quality: 63.2
     developer_ergonomics: 14.3
-    discoverability: 74.1
-    governance: 28.8
-    operational_transparency: 18.4
-  previous_composite: 34.6
+    discoverability: 81.5
+    governance: 47.0
+    operational_transparency: 21.1
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -283,15 +338,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/target/refs/heads/main/screenshots/target-2026-08-17T082249.png
 security:
 - kind: authentication
   name: Target Authentication
   slug: target-authentication
-  summary_line: http · 1 scheme
+  summary_line: oauth2/openIdConnect · 3 schemes
 - kind: domain-security
   name: Target Domain Security
   slug: target-domain-security
@@ -299,7 +354,7 @@ security:
 - kind: vulnerability-disclosure
   name: Target Vulnerability Disclosure
   slug: target-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: Hackerone
 slug: target
 tags:
 - Fortune 100

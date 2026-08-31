@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
 - description: Read-only JSON endpoints for the RuneScape (RS3) Grand Exchange item database - item detail (price, trend, 30/90/180-day movement), category listings, and daily price-history graphs. Unauthenticated G
@@ -119,7 +119,12 @@ overview: 'Jagex publishes 5 APIs on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 2
 score:
   band: emerging
-  composite: 19.1
+  composite: 18.0
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -127,12 +132,12 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 21.4
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 19.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 18.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jagex/refs/heads/main/screenshots/jagex-2026-07-25T223038.png
 security:

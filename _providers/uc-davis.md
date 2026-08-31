@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 4
@@ -43,14 +43,8 @@ agentic_access:
   operation_count: 81
   slug: uc-davis-agentic-access
   summary_line: 81 operations · 30 acting · 4 human-in-the-loop
-api_count: 18
+api_count: 5
 apis:
-- description: Aggie Experts is the UC Davis Library's research-profile and expertise-discovery system, and its API is the strongest programmable surface the institution operates. Version 5.0, Apache-2.0 licensed, t
-  name: Aggie Experts API
-  slug: aggie-experts
-- description: The Digital Asset Management System API behind digital.ucdavis.edu, built on 'fin', the UC Davis Library's own open-source repository framework (github.com/ucd-library/fin). OpenAPI 3.0.0, MIT license
-  name: DAMS API — UC Davis Library Digital Collections
-  slug: dams
 - description: UC Davis operates its own SAML 2.0 identity provider and publishes signed federation metadata as entityID urn:mace:incommon:ucdavis.edu. This is machine-readable, institution-operated by definition, a
   name: UC Davis Shibboleth Identity Provider (SAML 2.0 / InCommon)
   slug: shibboleth-idp
@@ -99,7 +93,19 @@ apis:
 - description: 'Library discovery at search.library.ucdavis.edu is an Ex Libris Primo instance. The subdomain is UC Davis''s and the collection is UC Davis''s, but the application is Ex Libris''s: the served document is'
   name: UC Davis Library discovery — Ex Libris Primo (tenant)
   slug: library-primo-tenant
-artifact_total: 51
+- description: The collection API from University of California, Davis — 2 operation(s) for collection.
+  name: University of California, Davis Collection API
+  slug: uc-davis-collection-api
+- description: Expert Information
+  name: University of California, Davis Expert API
+  slug: uc-davis-expert-api
+- description: The item API from University of California, Davis — 1 operation(s) for item.
+  name: University of California, Davis Item API
+  slug: uc-davis-item-api
+- description: The page search API from University of California, Davis — 1 operation(s) for page search.
+  name: University of California, Davis page search API
+  slug: uc-davis-page-search-api
+artifact_total: 53
 collections:
 - collection_type: open
   name: API Collection
@@ -132,6 +138,10 @@ collections:
   name: PEAKS API v1 Access Workstations API
   slug: open-uc-davis-workstations-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/uc-davis-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -386,13 +396,13 @@ modified: '2026-08-19'
 name: University of California, Davis
 nav: Providers
 network: true
-overview: 'University of California, Davis publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Aggie Experts API, DAMS API — UC Davis Library Digital Collections, PEAKS (CAES) — Access API, and 8 more. Tagged areas include University, Higher Education, Education, United States, and California.
+overview: 'University of California, Davis publishes 13 APIs on the [APIs.io](https://apis.io/) network, including PEAKS (CAES) — Access API, PEAKS (CAES) — Documents API, PEAKS (CAES) — Equipment API, and 10 more. Tagged areas include University, Higher Education, Education, United States, and California.
 
 
   The University of California, Davis catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  University of California, Davis'' developer surface includes status page, support, documentation, API reference, authentication, and 24 more developer resources.'
+  University of California, Davis'' developer surface includes status page, support, documentation, API reference, authentication, and 25 more developer resources.'
 plans:
 - name: Uc Davis Plans Pricing
   plan_count: 2
@@ -430,18 +440,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.0
-  delta: 2.7
+  composite: 47.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 57.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 9.8
-    contract_quality: 49.5
+    contract_quality: 49.3
     developer_ergonomics: 40.5
     discoverability: 50.0
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 45.3
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -456,8 +471,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/screenshots/uc-davis-2026-06-20T195938.png
 security:

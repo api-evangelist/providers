@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 19
   slug: availity-agentic-access
   summary_line: 19 operations · 9 acting
-api_count: 12
+api_count: 4
 apis:
 - description: The Availity Healthcare HIPAA Transactions API provides a unified interface for standard HIPAA EDI transactions. REST APIs enable healthcare providers and vendors to submit and receive X12 EDI transac
   name: Availity Healthcare HIPAA Transactions API
@@ -126,6 +126,10 @@ collections:
   name: Availity Claim Attachments Auth Attachments Is Auth Required API
   slug: open-availity-is-auth-required-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/availity-capability-edges.yml
 - group: company
   title: ''
   type: LinkedIn
@@ -855,7 +859,7 @@ overview: 'Availity publishes 7 APIs on the [APIs.io](https://apis.io/) network,
   The Availity catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Availity''s developer surface includes developer portal, documentation, getting-started guide, support, authentication, API reference, engineering blog, and 57 more developer resources.'
+  Availity''s developer surface includes developer portal, documentation, getting-started guide, support, authentication, API reference, engineering blog, and 58 more developer resources.'
 plans:
 - name: Availity Plans Pricing
   plan_count: 7
@@ -894,18 +898,23 @@ scopes:
   summary_line: 10 scopes
 score:
   band: exemplar
-  composite: 75.4
+  composite: 74.0
+  coverage:
+    artifact_dirs: 33
+    catalog_gap: 21.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 59.1
+    contract_governance: 47.0
     contract_quality: 70.9
     developer_ergonomics: 78.0
     discoverability: 74.1
-    governance: 59.1
+    governance: 47.0
     operational_transparency: 52.6
-  previous_composite: 75.4
+  previous_composite: 74.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -922,8 +931,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/screenshots/availity-2026-06-20T172716.png
 security:

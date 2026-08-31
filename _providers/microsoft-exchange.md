@@ -19,7 +19,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.9
-  scored_at: '2026-08-26'
+  score: 33.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 79
   slug: microsoft-exchange-agentic-access
   summary_line: 79 operations · 51 acting
-api_count: 20
+api_count: 6
 apis:
 - description: Legacy SOAP-based API for Exchange Server providing comprehensive access to mailbox data and operations. Planned for deprecation in Exchange Online in October 2026, with Microsoft Graph recommended fo
   name: Exchange Web Services (EWS)
@@ -713,18 +713,23 @@ scopes:
   summary_line: 18 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 58.6
-  delta: 1.4
+  composite: 56.0
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 57.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
-    contract_governance: 26.5
+    contract_governance: 14.4
     contract_quality: 70.5
     developer_ergonomics: 83.3
-    discoverability: 79.6
-    governance: 26.5
+    discoverability: 68.5
+    governance: 14.4
     operational_transparency: 26.3
-  previous_composite: 57.2
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -734,8 +739,8 @@ score:
       marker_coverage: 0.0
       total: 17
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/screenshots/microsoft-exchange-2026-06-20T185501.png
 security:

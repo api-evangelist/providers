@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 85
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 171
   slug: burstiq-agentic-access
   summary_line: 171 operations · 85 acting · 1 human-in-the-loop
-api_count: 21
+api_count: 1
 apis:
 - description: Set of operations for Blast AI
   name: BurstIQ BlastAI APIs API
@@ -274,18 +274,23 @@ overview: 'BurstIQ publishes 21 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 1
 score:
   band: thin
-  composite: 30.2
-  delta: 0.0
+  composite: 28.2
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 49.4
     developer_ergonomics: 20.8
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 30.2
+  previous_composite: 28.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -302,8 +307,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/screenshots/burstiq-2026-07-25T204112.png
 security:

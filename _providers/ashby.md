@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 164
   slug: ashby-agentic-access
   summary_line: 164 operations · 164 acting
-api_count: 53
+api_count: 2
 apis:
 - description: The API Key API from Ashby — 1 operation(s) for api key.
   name: Ashby API Key API
@@ -203,7 +203,10 @@ apis:
 - description: The Workflow.update API from Ashby — 1 operation(s) for workflow.update.
   name: Ashby Workflow.update API
   slug: ashby-workflow-update-api
-artifact_total: 127
+- description: The Webhook Payloads API from Ashby — 0 operation(s) for webhook payloads.
+  name: Ashby Webhook Payloads API
+  slug: ashby-webhook-payloads-api
+artifact_total: 128
 collections:
 - collection_type: open
   name: API Collection
@@ -374,6 +377,10 @@ collections:
   name: Ashby API Key Workflow.update API
   slug: open-ashby-workflow-update-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ashby-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -492,10 +499,10 @@ modified: '2026-05-19'
 name: Ashby
 nav: Providers
 network: true
-overview: 'Ashby publishes 53 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Application API, Application Feedback API, and 50 more. Tagged areas include HR, ATS, Recruiting, Analytics, and Sourcing.
+overview: 'Ashby publishes 54 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Application API, Application Feedback API, and 51 more. Tagged areas include HR, ATS, Recruiting, Analytics, and Sourcing.
 
 
-  Ashby''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 17 more developer resources.'
+  Ashby''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 18 more developer resources.'
 plans:
 - name: Ashby Plans Pricing
   plan_count: 6
@@ -507,18 +514,23 @@ rate_limits:
   slug: ashby-rate-limits
 score:
   band: developing
-  composite: 41.6
-  delta: 0.0
+  composite: 41.0
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 82.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 0.0
-    contract_quality: 61.3
+    contract_quality: 60.9
     developer_ergonomics: 21.4
-    discoverability: 57.4
+    discoverability: 51.9
     governance: 0.0
     operational_transparency: 30.3
-  previous_composite: 41.6
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     contracts:
@@ -526,8 +538,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 53
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ashby/refs/heads/main/screenshots/ashby-2026-06-20T172459.png
 security:

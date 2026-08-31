@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -153,23 +153,28 @@ overview: 'Flight Network is profiled on the [APIs.io](https://apis.io/) network
 random_paper: 12
 score:
   band: emerging
-  composite: 18.8
-  delta: -0.3
+  composite: 17.7
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 90.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 14.3
-    discoverability: 64.8
+    discoverability: 53.7
     governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 19.1
+  previous_composite: 17.7
   provenance:
     agentic_access: first-party
     conformance: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flight-network/refs/heads/main/screenshots/flight-network-2026-08-07T165345.png
 security:

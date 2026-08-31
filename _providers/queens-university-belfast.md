@@ -1,28 +1,17 @@
 ---
-access_model:
-  confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
-  pricing: free
-  public: false
-  source:
-  - plans
-  - authentication
-  trial: false
-  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: false
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -30,272 +19,90 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.5
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 278
-  human_in_the_loop: 1
-  name: Queens University Belfast Agentic Access
-  operation_count: 969
-  slug: queens-university-belfast-agentic-access
-  summary_line: 969 operations · 278 acting · 1 human-in-the-loop
-api_count: 38
+  score: 2.5
+  scored_at: '2026-08-30'
+api_count: 5
 apis:
-- description: OAI-PMH metadata harvesting endpoint for the Queen's University Belfast Research Portal, the institutional repository built on Elsevier Pure. It exposes research outputs, datasets, theses, and researc
-  name: Queen's University Belfast Research Portal (Pure OAI-PMH)
+- description: 'Queen''s University Belfast operates a production Shibboleth SAML 2.0 Identity Provider registered in the UK Access Management Federation and, through it, eduGAIN. The signed SAML entity descriptor is '
+  name: Queen's University Belfast Shibboleth Identity Provider (UK Access Management Federation)
+  slug: identity-federation-idp
+- description: Live OAI-PMH 2.0 metadata harvesting endpoint for the QUB Research Portal. Identify returns repositoryName "QUB Research Portal" with adminEmail puresupport@qub.ac.uk and an earliest datestamp of 2016
+  name: Queen's University Belfast Research Portal — OAI-PMH harvesting endpoint
   slug: research-portal-oai
-- description: The activity API from Queen's University Belfast — 39 operation(s) for activity.
-  name: Queen's University Belfast activity API
-  slug: queens-university-belfast-activity-api
-- description: The application API from Queen's University Belfast — 36 operation(s) for application.
-  name: Queen's University Belfast application API
-  slug: queens-university-belfast-application-api
-- description: The authorCollaboration API from Queen's University Belfast — 9 operation(s) for authorcollaboration.
-  name: Queen's University Belfast authorCollaboration API
-  slug: queens-university-belfast-authorcollaboration-api
-- description: The award API from Queen's University Belfast — 37 operation(s) for award.
-  name: Queen's University Belfast award API
-  slug: queens-university-belfast-award-api
-- description: The classificationScheme API from Queen's University Belfast — 7 operation(s) for classificationscheme.
-  name: Queen's University Belfast classificationScheme API
-  slug: queens-university-belfast-classificationscheme-api
-- description: The concept API from Queen's University Belfast — 4 operation(s) for concept.
-  name: Queen's University Belfast concept API
-  slug: queens-university-belfast-concept-api
-- description: The conferenceSeries API from Queen's University Belfast — 14 operation(s) for conferenceseries.
-  name: Queen's University Belfast conferenceSeries API
-  slug: queens-university-belfast-conferenceseries-api
-- description: The contract API from Queen's University Belfast — 26 operation(s) for contract.
-  name: Queen's University Belfast contract API
-  slug: queens-university-belfast-contract-api
-- description: The course API from Queen's University Belfast — 27 operation(s) for course.
-  name: Queen's University Belfast course API
-  slug: queens-university-belfast-course-api
-- description: The dataSet API from Queen's University Belfast — 30 operation(s) for dataset.
-  name: Queen's University Belfast dataSet API
-  slug: queens-university-belfast-dataset-api
-- description: The education API from Queen's University Belfast — 14 operation(s) for education.
-  name: Queen's University Belfast education API
-  slug: queens-university-belfast-education-api
-- description: The equipment API from Queen's University Belfast — 28 operation(s) for equipment.
-  name: Queen's University Belfast equipment API
-  slug: queens-university-belfast-equipment-api
-- description: The ethicalReview API from Queen's University Belfast — 22 operation(s) for ethicalreview.
-  name: Queen's University Belfast ethicalReview API
-  slug: queens-university-belfast-ethicalreview-api
-- description: The event API from Queen's University Belfast — 22 operation(s) for event.
-  name: Queen's University Belfast event API
-  slug: queens-university-belfast-event-api
-- description: The externalOrganization API from Queen's University Belfast — 29 operation(s) for externalorganization.
-  name: Queen's University Belfast externalOrganization API
-  slug: queens-university-belfast-externalorganization-api
-- description: The externalPerson API from Queen's University Belfast — 22 operation(s) for externalperson.
-  name: Queen's University Belfast externalPerson API
-  slug: queens-university-belfast-externalperson-api
-- description: The fingerprint API from Queen's University Belfast — 3 operation(s) for fingerprint.
-  name: Queen's University Belfast fingerprint API
-  slug: queens-university-belfast-fingerprint-api
-- description: The fundingOpportunity API from Queen's University Belfast — 21 operation(s) for fundingopportunity.
-  name: Queen's University Belfast fundingOpportunity API
-  slug: queens-university-belfast-fundingopportunity-api
-- description: The impact API from Queen's University Belfast — 31 operation(s) for impact.
-  name: Queen's University Belfast impact API
-  slug: queens-university-belfast-impact-api
-- description: The journal API from Queen's University Belfast — 22 operation(s) for journal.
-  name: Queen's University Belfast journal API
-  slug: queens-university-belfast-journal-api
-- description: The keywordGroupConfiguration API from Queen's University Belfast — 7 operation(s) for keywordgroupconfiguration.
-  name: Queen's University Belfast keywordGroupConfiguration API
-  slug: queens-university-belfast-keywordgroupconfiguration-api
-- description: The milestone API from Queen's University Belfast — 24 operation(s) for milestone.
-  name: Queen's University Belfast milestone API
-  slug: queens-university-belfast-milestone-api
-- description: The organization API from Queen's University Belfast — 34 operation(s) for organization.
-  name: Queen's University Belfast organization API
-  slug: queens-university-belfast-organization-api
-- description: The person API from Queen's University Belfast — 58 operation(s) for person.
-  name: Queen's University Belfast person API
-  slug: queens-university-belfast-person-api
-- description: The personExpertise API from Queen's University Belfast — 7 operation(s) for personexpertise.
-  name: Queen's University Belfast personExpertise API
-  slug: queens-university-belfast-personexpertise-api
-- description: The pressMedia API from Queen's University Belfast — 24 operation(s) for pressmedia.
-  name: Queen's University Belfast pressMedia API
-  slug: queens-university-belfast-pressmedia-api
-- description: The prize API from Queen's University Belfast — 29 operation(s) for prize.
-  name: Queen's University Belfast prize API
-  slug: queens-university-belfast-prize-api
-- description: The project API from Queen's University Belfast — 33 operation(s) for project.
-  name: Queen's University Belfast project API
-  slug: queens-university-belfast-project-api
-- description: The publisher API from Queen's University Belfast — 18 operation(s) for publisher.
-  name: Queen's University Belfast publisher API
-  slug: queens-university-belfast-publisher-api
-- description: The researchOutput API from Queen's University Belfast — 67 operation(s) for researchoutput.
-  name: Queen's University Belfast researchOutput API
-  slug: queens-university-belfast-researchoutput-api
-- description: The role API from Queen's University Belfast — 2 operation(s) for role.
-  name: Queen's University Belfast role API
-  slug: queens-university-belfast-role-api
-- description: The semester API from Queen's University Belfast — 8 operation(s) for semester.
-  name: Queen's University Belfast semester API
-  slug: queens-university-belfast-semester-api
-- description: The specialization API from Queen's University Belfast — 8 operation(s) for specialization.
-  name: Queen's University Belfast specialization API
-  slug: queens-university-belfast-specialization-api
-- description: The studentProject API from Queen's University Belfast — 26 operation(s) for studentproject.
-  name: Queen's University Belfast studentProject API
-  slug: queens-university-belfast-studentproject-api
-- description: The studentThesis API from Queen's University Belfast — 26 operation(s) for studentthesis.
-  name: Queen's University Belfast studentThesis API
-  slug: queens-university-belfast-studentthesis-api
-- description: The thesaurus API from Queen's University Belfast — 5 operation(s) for thesaurus.
-  name: Queen's University Belfast thesaurus API
-  slug: queens-university-belfast-thesaurus-api
-- description: The user API from Queen's University Belfast — 7 operation(s) for user.
-  name: Queen's University Belfast user API
-  slug: queens-university-belfast-user-api
-artifact_total: 93
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Pure activity API
-  slug: open-queens-university-belfast-activity-api
-- collection_type: open
-  name: Pure activity application API
-  slug: open-queens-university-belfast-application-api
-- collection_type: open
-  name: Pure activity authorCollaboration API
-  slug: open-queens-university-belfast-authorcollaboration-api
-- collection_type: open
-  name: Pure activity award API
-  slug: open-queens-university-belfast-award-api
-- collection_type: open
-  name: Pure activity classificationScheme API
-  slug: open-queens-university-belfast-classificationscheme-api
-- collection_type: open
-  name: Pure activity concept API
-  slug: open-queens-university-belfast-concept-api
-- collection_type: open
-  name: Pure activity conferenceSeries API
-  slug: open-queens-university-belfast-conferenceseries-api
-- collection_type: open
-  name: Pure activity contract API
-  slug: open-queens-university-belfast-contract-api
-- collection_type: open
-  name: Pure activity course API
-  slug: open-queens-university-belfast-course-api
-- collection_type: open
-  name: Pure activity dataSet API
-  slug: open-queens-university-belfast-dataset-api
-- collection_type: open
-  name: Pure activity education API
-  slug: open-queens-university-belfast-education-api
-- collection_type: open
-  name: Pure activity equipment API
-  slug: open-queens-university-belfast-equipment-api
-- collection_type: open
-  name: Pure activity event API
-  slug: open-queens-university-belfast-event-api
-- collection_type: open
-  name: Pure activity externalOrganization API
-  slug: open-queens-university-belfast-externalorganization-api
-- collection_type: open
-  name: Pure activity externalPerson API
-  slug: open-queens-university-belfast-externalperson-api
-- collection_type: open
-  name: Pure activity fingerprint API
-  slug: open-queens-university-belfast-fingerprint-api
-- collection_type: open
-  name: Pure activity fundingOpportunity API
-  slug: open-queens-university-belfast-fundingopportunity-api
-- collection_type: open
-  name: Pure activity impact API
-  slug: open-queens-university-belfast-impact-api
-- collection_type: open
-  name: Pure activity journal API
-  slug: open-queens-university-belfast-journal-api
-- collection_type: open
-  name: Pure activity keywordGroupConfiguration API
-  slug: open-queens-university-belfast-keywordgroupconfiguration-api
-- collection_type: open
-  name: Pure activity milestone API
-  slug: open-queens-university-belfast-milestone-api
-- collection_type: open
-  name: Pure activity organization API
-  slug: open-queens-university-belfast-organization-api
-- collection_type: open
-  name: Pure activity person API
-  slug: open-queens-university-belfast-person-api
-- collection_type: open
-  name: Pure activity personExpertise API
-  slug: open-queens-university-belfast-personexpertise-api
-- collection_type: open
-  name: Pure activity pressMedia API
-  slug: open-queens-university-belfast-pressmedia-api
-- collection_type: open
-  name: Pure activity prize API
-  slug: open-queens-university-belfast-prize-api
-- collection_type: open
-  name: Pure activity project API
-  slug: open-queens-university-belfast-project-api
-- collection_type: open
-  name: Pure activity publisher API
-  slug: open-queens-university-belfast-publisher-api
-- collection_type: open
-  name: Pure activity researchOutput API
-  slug: open-queens-university-belfast-researchoutput-api
-- collection_type: open
-  name: Pure activity role API
-  slug: open-queens-university-belfast-role-api
-- collection_type: open
-  name: Pure activity semester API
-  slug: open-queens-university-belfast-semester-api
-- collection_type: open
-  name: Pure activity specialization API
-  slug: open-queens-university-belfast-specialization-api
-- collection_type: open
-  name: Pure activity studentProject API
-  slug: open-queens-university-belfast-studentproject-api
-- collection_type: open
-  name: Pure activity studentThesis API
-  slug: open-queens-university-belfast-studentthesis-api
-- collection_type: open
-  name: Pure activity thesaurus API
-  slug: open-queens-university-belfast-thesaurus-api
-- collection_type: open
-  name: Pure activity user API
-  slug: open-queens-university-belfast-user-api
+- description: The QUB tenancy of the Elsevier Pure Web Service API. The deployment is real and callable at https://pureadmin.qub.ac.uk/ws/api — an unauthenticated request returns HTTP 401 "Full authentication is re
+  name: Queen's University Belfast Pure API deployment (Elsevier Pure tenancy)
+  slug: pure-web-service-api
+- description: The Queen's Canvas virtual learning environment, reachable at canvas.qub.ac.uk. The Canvas REST API responds on the QUB hostname (an unauthenticated GET /api/v1/courses returns 401 "user authorisation
+  name: Queen's University Belfast Canvas LMS deployment (Instructure tenancy)
+  slug: canvas-lms
+- description: Queen's University Belfast is a DataCite consortium organization (provider jxtg) and has operated a registered DataCite repository client, BL.QUB, since 2015, through which the Research Portal mints D
+  name: Queen's University Belfast Research Portal — DataCite repository client
+  slug: datacite-repository-client
+artifact_total: 9
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/queens-university-belfast-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/queens-university-belfast-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/queens-university-belfast-authentication.yml
 - group: company
   title: ''
   type: Website
   url: https://www.qub.ac.uk/
-- group: start
+- group: docs
   title: ''
-  type: ResearchPortal
+  type: Documentation
+  url: https://www.qub.ac.uk/directorates/InformationServices/TheLibrary/ResearchSupport/OpenResearch/
+- group: other
+  title: ''
+  type: ResearchRepository
   url: https://pure.qub.ac.uk/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fqub.ac.uk%2Fshibboleth
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://qub.primo.exlibrisgroup.com/discovery/search?vid=44QSUB_INST:QUB
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://www.qub.ac.uk/courses/
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://www.ni-hpc.ac.uk/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://blogs.qub.ac.uk/digitallearning/ai/ai-in-research/qub-guidance-on-responsible-use-of-ai-in-research/
+- group: build
+  title: ''
+  type: AITooling
+  url: https://libguides.qub.ac.uk/AILibrary
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.qub.ac.uk/about/website/privacy-and-cookies/
+- group: other
+  title: ''
+  type: Accessibility
+  url: https://www.qub.ac.uk/about/website/accessibility-statement/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.qub.ac.uk/contact/ask-a-question/
 - group: company
   title: ''
   type: LinkedIn
-  url: https://www.linkedin.com/school/queen's-university-belfast/
+  url: https://www.linkedin.com/school/queens-university-belfast/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/queens-university-belfast-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/queens-university-belfast-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -313,59 +120,22 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'Queen''s University Belfast is a Russell Group research-intensive university in Northern Ireland, United Kingdom, founded in 1845, and ranked #206 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is limited and centered on research dissemination: the Queen''s University Belfast Research Portal runs on Elsevier Pure and exposes an OAI-PMH harvesting endpoint for institutional research outputs, datasets, and theses. Most other digital services (student portal, applications portal, library discovery via Ex Libris Alma/Primo) are gated behind authentication and do not publish open developer documentation.'
-examples:
-- key_count: 3
-  name: Queens University Belfast Data Sets List Example
-  slug: queens-university-belfast-data-sets-list-example
-- key_count: 3
-  name: Queens University Belfast Persons List Example
-  slug: queens-university-belfast-persons-list-example
-- key_count: 3
-  name: Queens University Belfast Research Outputs List Example
-  slug: queens-university-belfast-research-outputs-list-example
+description: 'Queen''s University Belfast is a public research-intensive university in Belfast, Northern Ireland, founded in 1845 and a member of the Russell Group. Its programmable footprint is almost entirely a buyer''s footprint rather than a builder''s: there is no central developer portal, no api.qub.ac.uk, no institutional open-data portal, and no institution-authored OpenAPI. The research surface people mistake for QUB engineering is an Elsevier Pure tenancy — pure.qub.ac.uk and pureadmin.qub.ac.uk both CNAME into eu.prod.elsevierpure.com, and the OpenAPI served there is titled "Pure API" with contact pure-support@elsevier.com, so the data is QUB''s and the contract is Elsevier''s. The same pattern holds for the VLE (Canvas at canvas.qub.ac.uk, CNAME qub-vanity.instructure.com) and library discovery (Ex Libris Primo at qub.primo.exlibrisgroup.com). What QUB genuinely operates and publishes in machine-readable form is its identity federation: a production Shibboleth SAML 2.0 Identity
+  Provider (entityID https://qub.ac.uk/shibboleth) registered in the UK Access Management Federation, which also hosts federated identity for the Healthcare Library of Northern Ireland and AFBI. Alongside that sit a live OAI-PMH 2.0 harvesting endpoint for the Research Portal, a registered DataCite repository client (BL.QUB, 2015), a school-level Crossref membership, and the NI-HPC / Kelvin2 national high-performance computing service, whose site runs on QUB''s own web platform. This profile deliberately records those tenancies as relationships rather than as QUB''s own contracts.'
 finops:
 - name: Queens University Belfast Finops
   service_category: Education
   slug: queens-university-belfast-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/queens-university-belfast.png
-json_schemas:
-- name: Pure API DataSet
-  property_count: 52
-  slug: queens-university-belfast-dataset
-- name: Pure API Person
-  property_count: 51
-  slug: queens-university-belfast-person
-- name: Pure API ResearchOutput
-  property_count: 53
-  slug: queens-university-belfast-research-output
-json_structures:
-- name: Queens University Belfast Dataset Structure
-  property_count: 12
-  slug: queens-university-belfast-dataset-structure
-- name: Queens University Belfast Person Structure
-  property_count: 11
-  slug: queens-university-belfast-person-structure
-- name: Queens University Belfast Research Output Structure
-  property_count: 11
-  slug: queens-university-belfast-research-output-structure
-jsonld:
-- class_count: 16
-  name: Queens University Belfast Context
-  property_count: 1
-  slug: queens-university-belfast-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Queen's University Belfast
 nav: Providers
 network: true
-overview: 'Queen''s University Belfast publishes 37 APIs on the [APIs.io](https://apis.io/) network, including activity API, application API, authorCollaboration API, and 34 more. Tagged areas include Education, Higher Education, University, Research, and Open Access.
+overview: 'Queen''s University Belfast publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Research, and United Kingdom.
 
 
-  The Queen''s University Belfast catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  Queen''s University Belfast''s developer surface includes authentication and 9 more developer resources.'
+  Queen''s University Belfast''s developer surface includes documentation, support, and 17 more developer resources.'
 plans:
 - name: Queens University Belfast Plans Pricing
   plan_count: 2
@@ -375,41 +145,25 @@ rate_limits:
 - limit_count: 1
   name: Queens University Belfast Rate Limits
   slug: queens-university-belfast-rate-limits
-rules:
-- effective_rule_count: 6
-  extends: []
-  name: Queen's University Belfast API Rules
-  rule_count: 6
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 4
-  slug: queens-university-belfast-jsonschema-spectral-rules
-- effective_rule_count: 7
-  extends: []
-  name: Queen's University Belfast API Rules
-  rule_count: 7
-  severity_counts:
-    error: 1
-    hint: 0
-    info: 2
-    warn: 4
-  slug: queens-university-belfast-rules
 score:
-  band: thin
-  composite: 34.4
-  delta: 1.9
+  band: emerging
+  composite: 22.6
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -13.7
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 59.4
-    developer_ergonomics: 21.4
-    discoverability: 50.0
-    governance: 9.8
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 0.0
+    contract_quality: 6.7
+    developer_ergonomics: 14.3
+    discoverability: 74.1
+    governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 32.5
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     contracts:
@@ -422,28 +176,30 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 27.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: falling
 security:
-- kind: authentication
-  name: Queens University Belfast Authentication
-  slug: queens-university-belfast-authentication
-  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Queens University Belfast Domain Security
   slug: queens-university-belfast-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: queens-university-belfast
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
-- Open Access
-- OAI-PMH
 - United Kingdom
 - Northern Ireland
+- Russell Group
+- Identity Federation
+- Research Repository
+- Open Access
+- OAI-PMH
+- Shibboleth
+- SAML
+- Research Computing
 website: https://www.qub.ac.uk/
 ---

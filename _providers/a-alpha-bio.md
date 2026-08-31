@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: The Datasets API from A-Alpha Bio — 9 operation(s) for datasets.
   name: A-Alpha Bio Datasets API
@@ -191,25 +191,30 @@ modified: '2026-08-06'
 name: A-Alpha Bio
 nav: Providers
 network: true
-overview: 'A-Alpha Bio publishes 1 API on the [APIs.io](https://apis.io/) network: Datasets API. Tagged areas include protein-interactions, Biotechnology, Drug Discovery, Antibody Engineering, and Synthetic Biology.
+overview: 'A-Alpha Bio publishes 1 API on the [APIs.io](https://apis.io/) network: Datasets API. Tagged areas include protein-interactions, biotechnology, drug-discovery, antibody-engineering, and synthetic-biology.
 
 
   A-Alpha Bio''s developer surface includes signup flow, engineering blog, product news, support, authentication, CLI, and 24 more developer resources.'
 random_paper: 11
 score:
   band: thin
-  composite: 37.6
-  delta: 0.9
+  composite: 36.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 66.7
     developer_ergonomics: 28.0
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 36.7
+  previous_composite: 36.9
   provenance:
     conformance: derived
     contracts:
@@ -225,8 +230,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a-alpha-bio/refs/heads/main/screenshots/a-alpha-bio-2026-08-07T160731.png
 security:
@@ -241,16 +246,16 @@ security:
 slug: a-alpha-bio
 tags:
 - protein-interactions
-- Biotechnology
-- Drug Discovery
-- Antibody Engineering
-- Synthetic Biology
-- Machine-Learning
-- Training Data
-- Data Licensing
-- Life Sciences
+- biotechnology
+- drug-discovery
+- antibody-engineering
+- synthetic-biology
+- machine-learning
+- training-data
+- data-licensing
+- life-sciences
 - Datasets
-- Protein Design
-- Bioinformatics
+- protein-design
+- bioinformatics
 website: https://www.aalphabio.com/
 ---

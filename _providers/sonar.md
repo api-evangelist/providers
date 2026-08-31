@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: sonar-agentic-access
   summary_line: 8 operations · 1 acting
-api_count: 7
+api_count: 1
 apis:
 - description: REST API for interacting with SonarQube Server, enabling management of projects, quality gates, issues, rules, users, and CI/CD integrations. Uses token-based authentication.
   name: SonarQube Web API
@@ -252,18 +252,23 @@ rules:
   slug: sonar-rules
 score:
   band: developing
-  composite: 46.0
-  delta: 6.5
+  composite: 45.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 50.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 25.0
     contract_quality: 70.7
     developer_ergonomics: 52.4
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 25.0
     operational_transparency: 18.4
-  previous_composite: 39.5
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     contracts:
@@ -271,9 +276,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/screenshots/sonar-2026-06-20T194158.png
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -117,13 +117,13 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-private-link.png
 layout: provider
 modified: '2026-05-19'
-name: microsoft-azure-private-link
+name: Microsoft Azure Private Link
 nav: Providers
 network: true
-overview: 'microsoft-azure-private-link publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Private Endpoints API.
+overview: 'Microsoft Azure Private Link publishes 2 APIs on the [APIs.io](https://apis.io/) network: microsoft-azure-private-link Operations API and microsoft-azure-private-link Private Endpoints API.
 
 
-  microsoft-azure-private-link''s developer surface includes authentication, developer portal, pricing, support, and 7 more developer resources.'
+  Microsoft Azure Private Link''s developer surface includes authentication, developer portal, pricing, support, and 7 more developer resources.'
 plans:
 - name: Microsoft Azure Private Link Plans Pricing
   plan_count: 3
@@ -140,7 +140,12 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: thin
-  composite: 33.3
+  composite: 34.1
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 47.4
@@ -148,10 +153,10 @@ score:
     contract_governance: 0.0
     contract_quality: 49.0
     developer_ergonomics: 26.2
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 33.3
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -163,8 +168,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/screenshots/microsoft-azure-private-link-2026-06-20T185432.png
 security:

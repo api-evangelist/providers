@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 4
 common:
@@ -175,25 +175,33 @@ overview: 'Cask Data is profiled on the [APIs.io](https://apis.io/) network. Tag
   Cask Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, sandbox, and 23 more developer resources.'
 random_paper: 12
 score:
-  band: emerging
-  composite: 22.4
-  delta: 0.0
+  band: thin
+  composite: 30.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 7.7
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 65.5
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 22.4
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 23.1
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cask-data/refs/heads/main/screenshots/cask-data-2026-07-25T204727.png
 security:
 - kind: authentication

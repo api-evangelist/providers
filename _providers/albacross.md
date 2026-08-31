@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,17 +31,17 @@ agentic_access:
   operation_count: 1
   slug: albacross-agentic-access
   summary_line: 1 operation
-api_count: 3
+api_count: 2
 apis:
-- description: Resolves an IPv4 address to a company profile — company name, country, registration number, description, founded year, postal address, LinkedIn URL, employee-count band, revenue band, NACE code and Li
-  name: Albacross Reveal API
-  slug: albacross-reveal-api
 - description: 'Resolves a website domain to the same firmographic company record the Reveal API returns — name, country, registration number, description, founded year, address, LinkedIn URL, employee band, revenue '
   name: Albacross Enrich API
   slug: albacross-enrich-api
 - description: The account-automation surface Albacross's own MIT-licensed n8n community node calls — GET /n8n/me to verify a key, GET /n8n/segments and GET /n8n/buyer_personas to list account objects, and POST/PATC
   name: Albacross n8n Automation API
   slug: albacross-n8n-api
+- description: The Company API from Albacross — 1 operation(s) for company.
+  name: Albacross Company API
+  slug: albacross-company-api
 artifact_total: 10
 asyncapis:
 - description: ''
@@ -52,6 +52,10 @@ collections:
   name: Reveal API docs
   slug: open-albacross-reveal
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/albacross-reveal-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -204,13 +208,13 @@ modified: '2026-08-12'
 name: Albacross
 nav: Providers
 network: true
-overview: 'Albacross publishes 1 API on the [APIs.io](https://apis.io/) network: Reveal API. Tagged areas include Company, B2B Data, Lead Generation, Intent Data, and Company Enrichment.
+overview: 'Albacross publishes 1 API on the [APIs.io](https://apis.io/) network: Company API. Tagged areas include Company, B2B Data, Lead Generation, Intent Data, and Company Enrichment.
 
 
   The Albacross catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Albacross'' developer surface includes documentation, API reference, getting-started guide, authentication, support, pricing, signup flow, and 29 more developer resources.'
+  Albacross'' developer surface includes documentation, API reference, getting-started guide, authentication, support, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Albacross Plans Pricing
   plan_count: 3
@@ -221,19 +225,24 @@ rate_limits:
   name: Albacross Rate Limits
   slug: albacross-rate-limits
 score:
-  band: developing
-  composite: 39.3
-  delta: 0.0
+  band: thin
+  composite: 37.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
-    contract_quality: 20.1
+    contract_governance: 4.5
+    contract_quality: 20.7
     developer_ergonomics: 37.5
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 39.3
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -244,8 +253,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/albacross/refs/heads/main/screenshots/albacross-2026-08-17T080546.png
 security:

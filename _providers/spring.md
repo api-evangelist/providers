@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: spring-agentic-access
   summary_line: 17 operations · 1 acting
-api_count: 14
+api_count: 3
 apis:
 - description: Spring Data REST automatically exports Spring Data repository interfaces as RESTful hypermedia-driven APIs using HAL (Hypertext Application Language). It enables CRUD operations on domain entities thr
   name: Spring Data REST API
@@ -86,7 +86,16 @@ apis:
 - description: Thread dump and virtual thread information
   name: Spring Framework Threads API
   slug: spring-threads-api
-artifact_total: 52
+- description: The Filters API from Spring Framework — 2 operation(s) for filters.
+  name: Spring Framework Filters API
+  slug: spring-filters-api
+- description: The Predicates API from Spring Framework — 1 operation(s) for predicates.
+  name: Spring Framework Predicates API
+  slug: spring-predicates-api
+- description: The Routes API from Spring Framework — 3 operation(s) for routes.
+  name: Spring Framework Routes API
+  slug: spring-routes-api
+artifact_total: 55
 collections:
 - collection_type: open
   name: API Collection
@@ -254,7 +263,7 @@ modified: '2026-08-08'
 name: Spring Framework
 nav: Providers
 network: true
-overview: 'Spring Framework publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Beans API, Environment API, Health API, and 7 more. Tagged areas include Artificial Intelligence, Cloud-Native, Enterprise, Framework, and Java.
+overview: 'Spring Framework publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Beans API, Environment API, Health API, and 10 more. Tagged areas include Artificial Intelligence, Cloud-Native, Enterprise, Framework, and Java.
 
 
   The Spring Framework catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -305,18 +314,23 @@ rules:
   slug: spring-rules
 score:
   band: developing
-  composite: 47.0
-  delta: 4.5
+  composite: 46.4
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 37.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 69.7
-    contract_quality: 70.3
+    contract_quality: 68.0
     developer_ergonomics: 45.2
     discoverability: 63.0
     governance: 69.7
     operational_transparency: 23.7
-  previous_composite: 42.5
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
@@ -324,8 +338,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/screenshots/spring-2026-06-20T194408.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 19
   slug: software-ag-agentic-access
   summary_line: 19 operations · 13 acting · 2 human-in-the-loop
-api_count: 6
+api_count: 1
 apis:
 - description: The webMethods Developer Portal provides a marketplace for publishing and discovering REST, SOAP, and OData APIs for third-party developers and partners. It enables developer onboarding, API subscript
   name: webMethods Developer Portal
@@ -83,6 +83,10 @@ collections:
   name: webMethods API Gateway Service Management API
   slug: open-webmethods-api-gateway
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/SoftwareAG/webmethods-developer-portal/issues
 - group: other
   title: ''
   type: ParentCompany
@@ -193,7 +197,7 @@ overview: 'Software AG publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
   The Software AG catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Software AG''s developer surface includes support, signup flow, authentication, developer portal, documentation, engineering blog, and 12 more developer resources.'
+  Software AG''s developer surface includes support, signup flow, authentication, developer portal, documentation, engineering blog, and 13 more developer resources.'
 plans:
 - name: Software Ag Plans Pricing
   plan_count: 1
@@ -226,18 +230,26 @@ rules:
   slug: webmethods-api-gateway-rules
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 34.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 53.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 25.0
     contract_quality: 63.8
     developer_ergonomics: 33.3
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 25.0
     operational_transparency: 7.9
-  previous_composite: 39.1
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -245,8 +257,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/screenshots/software-ag-2026-06-20T194136.png
 security:

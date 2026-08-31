@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 5
   slug: ricoh-usa-agentic-access
   summary_line: 5 operations · 4 acting
-api_count: 4
+api_count: 1
 apis:
 - description: GATT-based Bluetooth Low Energy API for controlling RICOH THETA cameras (V, Z1, X, A1). Built on Bluetooth 4.2 Core Specifications with Ricoh-specific service and characteristic extensions for shutter
   name: RICOH THETA Bluetooth API
@@ -149,7 +149,7 @@ common:
   url: ''
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: ''
 - group: other
   title: ''
@@ -247,7 +247,7 @@ overview: 'Ricoh USA publishes 1 API on the [APIs.io](https://apis.io/) network:
   The Ricoh USA catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Ricoh USA''s developer surface includes documentation, support, GitHub presence, tooling, and 14 more developer resources.'
+  Ricoh USA''s developer surface includes documentation, support, GitHub presence, tooling, code examples, and 13 more developer resources.'
 plans:
 - name: Ricoh Usa Plans Pricing
   plan_count: 3
@@ -280,15 +280,20 @@ rules:
   slug: theta-web-api-rules
 score:
   band: developing
-  composite: 44.5
-  delta: 0.0
+  composite: 43.9
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 28.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 28.8
     contract_quality: 63.9
     developer_ergonomics: 31.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 34.2
   previous_composite: 44.5
@@ -299,8 +304,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ricoh-usa/refs/heads/main/screenshots/ricoh-usa-2026-06-20T193118.png
 security:

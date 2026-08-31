@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -482,7 +482,7 @@ modified: '2026-08-13'
 name: Amazon Clean Rooms
 nav: Providers
 network: true
-overview: 'Amazon Clean Rooms publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Collaborations API, Configured Tables API, Memberships API, and 1 more. Tagged areas include Clean Rooms, Data Collaboration, Privacy, Analytics, and Marketing.
+overview: 'Amazon Clean Rooms publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Collaborations API, Configured Tables API, Memberships API, and 1 more. Tagged areas include Cleanrooms, Data Collaboration, Privacy, Analytics, and Marketing.
 
 
   The Amazon Clean Rooms catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -521,19 +521,24 @@ rules:
     warn: 17
   slug: amazon-clean-rooms-spectral-rules
 score:
-  band: exemplar
-  composite: 67.0
-  delta: 0.6
+  band: strong
+  composite: 64.5
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 32.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 40.6
     developer_ergonomics: 90.5
-    discoverability: 92.6
-    governance: 45.5
+    discoverability: 81.5
+    governance: 33.3
     operational_transparency: 92.1
-  previous_composite: 66.4
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -544,8 +549,8 @@ score:
       total: 4
     mcp: derived
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-clean-rooms/refs/heads/main/screenshots/amazon-clean-rooms-2026-07-25T195939.png
 security:
@@ -567,7 +572,7 @@ security:
   summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 slug: amazon-clean-rooms
 tags:
-- Clean Rooms
+- Cleanrooms
 - Data Collaboration
 - Privacy
 - Analytics

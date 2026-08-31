@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: npm-agentic-access
   summary_line: 17 operations · 8 acting
-api_count: 10
+api_count: 1
 apis:
 - description: The npm Registry API provides programmatic access to the npm package registry, the largest software registry in the world hosting over two million JavaScript packages. Developers can query package met
   name: npm Registry API
@@ -329,18 +329,26 @@ rules:
     warn: 4
   slug: npm-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 50.8
-  delta: 0.0
+  band: strong
+  composite: 55.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 4.4
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 13.6
     contract_quality: 75.8
     developer_ergonomics: 42.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 100.0
   previous_composite: 50.8
   provenance:
     agentic_access: derived
@@ -349,8 +357,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/screenshots/npm-2026-06-20T190449.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 45
   slug: jotform-agentic-access
   summary_line: 45 operations · 21 acting
-api_count: 10
+api_count: 1
 apis:
 - description: EU-resident variant of the Jotform API for customers on EU plans / EU data residency.
   name: Jotform REST API (EU)
@@ -209,18 +209,23 @@ rules:
   slug: jotform-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 38.9
-  delta: 1.5
+  composite: 38.3
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 64.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 13.6
     contract_quality: 58.5
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 37.4
+  previous_composite: 38.9
   provenance:
     agentic_access: derived
     contracts:
@@ -228,8 +233,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/screenshots/jotform-2026-06-20T183806.png
 security:

@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
-api_count: 7
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The gRPC core framework defines the RPC protocol, service definition format using Protocol Buffers, and the fundamental call lifecycle including unary, server-streaming, client-streaming, and bidirect
   name: gRPC Core Framework
@@ -189,27 +189,35 @@ rules:
   slug: grpc-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.0
-  delta: 3.8
+  composite: 46.4
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 5.4
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 59.8
     developer_ergonomics: 52.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 37.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 41.0
   provenance:
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/grpc/refs/heads/main/screenshots/grpc-2026-06-20T182421.png
 security:
 - kind: domain-security

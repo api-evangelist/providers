@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 57
   slug: uber-agentic-access
   summary_line: 57 operations · 27 acting
-api_count: 20
+api_count: 6
 apis:
 - description: The Uber Guest Rides API enables businesses to allow their users to request rides from Uber without requiring an Uber account. Uses OAuth 2.0 with the guest.rides scope for authentication.
   name: Uber Guest Rides API
@@ -242,6 +242,18 @@ collections:
   name: Uber Vouchers API
   slug: open-uber-vouchers
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/uber-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/uber/uber-direct-sdk/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/uber/.github/blob/master/CODE_OF_CONDUCT.md
 - group: commercial
   title: ''
   type: License
@@ -507,13 +519,13 @@ modified: '2026-06-03'
 name: Uber
 nav: Providers
 network: true
-overview: 'Uber publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Codes API, Deliveries API, Estimates API, and 16 more. Tagged areas include Ridesharing, Rides, Taxis, Transportation, and Food Delivery.
+overview: 'Uber publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Codes API, Deliveries API, Estimates API, and 16 more. Tagged areas include Ride-Sharing, Rides, Taxis, Transportation, and Food Delivery.
 
 
   The Uber catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Uber''s developer surface includes authentication, developer portal, documentation, developer console, signup flow, getting-started guide, pricing, and 15 more developer resources.'
+  Uber''s developer surface includes authentication, developer portal, documentation, developer console, signup flow, getting-started guide, pricing, and 18 more developer resources.'
 plans:
 - name: Uber Plans Pricing
   plan_count: 1
@@ -546,9 +558,14 @@ rules:
     warn: 9
   slug: uber-rules
 score:
-  band: strong
-  composite: 54.8
-  delta: 6.1
+  band: developing
+  composite: 50.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -558,7 +575,10 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 23.7
-  previous_composite: 48.7
+  open_source:
+    applies: true
+    score: 15.0
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     contracts:
@@ -566,9 +586,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/screenshots/uber-2026-06-20T195925.png
 security:
 - kind: authentication
@@ -581,7 +601,7 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: uber
 tags:
-- Ridesharing
+- Ride-Sharing
 - Rides
 - Taxis
 - Transportation

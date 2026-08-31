@@ -6,9 +6,9 @@ agent_readiness:
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
@@ -22,41 +22,125 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-26'
-api_count: 10
+  score: 27.3
+  scored_at: '2026-08-30'
+api_count: 24
 apis:
-- description: The approved standard OpenAPI description OGC itself publishes for OGC API - Common. This is the STANDARD'S contract, not any one deployment of it — the servers block is a template, so it describes wh
-  name: OGC API - Common
-  slug: ogc-api-common
-- description: The approved standard OpenAPI description OGC itself publishes for OGC API - Connected Systems. This is the STANDARD'S contract, not any one deployment of it — the servers block is a template, so it d
-  name: OGC API - Connected Systems
-  slug: ogc-api-connected-systems
-- description: The approved standard OpenAPI description OGC itself publishes for OGC API - DGGS. This is the STANDARD'S contract, not any one deployment of it — the servers block is a template, so it describes what
-  name: OGC API - DGGS
-  slug: ogc-api-dggs
-- description: 'The approved standard OpenAPI description OGC itself publishes for OGC API - EDR. This is the STANDARD''S contract, not any one deployment of it — the servers block is a template, so it describes what '
-  name: OGC API - EDR
-  slug: ogc-api-edr
-- description: 'The approved standard OpenAPI description OGC itself publishes for OGC API - Features. This is the STANDARD''S contract, not any one deployment of it — the servers block is a template, so it describes '
-  name: OGC API - Features
-  slug: ogc-api-features
-- description: The approved standard OpenAPI description OGC itself publishes for OGC API - Maps. This is the STANDARD'S contract, not any one deployment of it — the servers block is a template, so it describes what
-  name: OGC API - Maps
-  slug: ogc-api-maps
-- description: The approved standard OpenAPI description OGC itself publishes for OGC API - Moving Features. This is the STANDARD'S contract, not any one deployment of it — the servers block is a template, so it des
-  name: OGC API - Moving Features
-  slug: ogc-api-moving-features
-- description: The approved standard OpenAPI description OGC itself publishes for OGC API - Processes. This is the STANDARD'S contract, not any one deployment of it — the servers block is a template, so it describes
-  name: OGC API - Processes
-  slug: ogc-api-processes
-- description: The approved standard OpenAPI description OGC itself publishes for OGC API - Records. This is the STANDARD'S contract, not any one deployment of it — the servers block is a template, so it describes w
-  name: OGC API - Records
-  slug: ogc-api-records
-- description: The approved standard OpenAPI description OGC itself publishes for OGC API - Tiles. This is the STANDARD'S contract, not any one deployment of it — the servers block is a template, so it describes wha
-  name: OGC API - Tiles
-  slug: ogc-api-tiles
-artifact_total: 10
+- description: The API API from Open Geospatial Consortium (OGC) — 7 operation(s) for api.
+  name: Open Geospatial Consortium (OGC) API
+  slug: ogc-api-api
+- description: Essential characteristics of the information available from the API.
+  name: Open Geospatial Consortium (OGC) Capabilities API
+  slug: ogc-capabilities-api
+- description: description of a catalog offered by this API
+  name: Open Geospatial Consortium (OGC) Collection API
+  slug: ogc-collection-api
+- description: Data queries available.
+  name: Open Geospatial Consortium (OGC) Collection data queries API
+  slug: ogc-collection-data-queries-api
+- description: Description of the information available from the collections
+  name: Open Geospatial Consortium (OGC) Collection metadata API
+  slug: ogc-collection-metadata-api
+- description: The Collections API from Open Geospatial Consortium (OGC) — 2 operation(s) for collections.
+  name: Open Geospatial Consortium (OGC) Collections API
+  slug: ogc-collections-api
+- description: The Conformance API from Open Geospatial Consortium (OGC) — 1 operation(s) for conformance.
+  name: Open Geospatial Consortium (OGC) Conformance API
+  slug: ogc-conformance-api
+- description: The ConformanceDeclaration API from Open Geospatial Consortium (OGC) — 1 operation(s) for conformancedeclaration.
+  name: Open Geospatial Consortium (OGC) Conformance Declaration API
+  slug: ogc-conformancedeclaration-api
+- description: The Coverage Tiles API from Open Geospatial Consortium (OGC) — 3 operation(s) for coverage tiles.
+  name: Open Geospatial Consortium (OGC) Coverage Tiles API
+  slug: ogc-coverage-tiles-api
+- description: The Custom Projection CRS API from Open Geospatial Consortium (OGC) — 1 operation(s) for custom projection crs.
+  name: Open Geospatial Consortium (OGC) Custom Projection CRS API
+  slug: ogc-custom-projection-crs-api
+- description: The Data Collections API from Open Geospatial Consortium (OGC) — 2 operation(s) for data collections.
+  name: Open Geospatial Consortium (OGC) Data Collections API
+  slug: ogc-data-collections-api
+- description: The DGGRS Description API from Open Geospatial Consortium (OGC) — 6 operation(s) for dggrs description.
+  name: Open Geospatial Consortium (OGC) DGGRS Description API
+  slug: ogc-dggrs-description-api
+- description: The DGGS Data Retrieval API from Open Geospatial Consortium (OGC) — 2 operation(s) for dggs data retrieval.
+  name: Open Geospatial Consortium (OGC) DGGS Data Retrieval API
+  slug: ogc-dggs-data-retrieval-api
+- description: The DGGS Zone Query API from Open Geospatial Consortium (OGC) — 2 operation(s) for dggs zone query.
+  name: Open Geospatial Consortium (OGC) DGGS Zone Query API
+  slug: ogc-dggs-zone-query-api
+- description: The Dismiss API from Open Geospatial Consortium (OGC) — 1 operation(s) for dismiss.
+  name: Open Geospatial Consortium (OGC) Dismiss API
+  slug: ogc-dismiss-api
+- description: The Execute API from Open Geospatial Consortium (OGC) — 1 operation(s) for execute.
+  name: Open Geospatial Consortium (OGC) Execute API
+  slug: ogc-execute-api
+- description: The Functions API from Open Geospatial Consortium (OGC) — 1 operation(s) for functions.
+  name: Open Geospatial Consortium (OGC) Functions API
+  slug: ogc-functions-api
+- description: Data queries available on instances of the collection.
+  name: Open Geospatial Consortium (OGC) Instance data queries API
+  slug: ogc-instance-data-queries-api
+- description: Description of the information available from the instances of a collection
+  name: Open Geospatial Consortium (OGC) Instance metadata API
+  slug: ogc-instance-metadata-api
+- description: The JobList API from Open Geospatial Consortium (OGC) — 1 operation(s) for joblist.
+  name: Open Geospatial Consortium (OGC) Job List API
+  slug: ogc-joblist-api
+- description: The Landing Page API from Open Geospatial Consortium (OGC) — 1 operation(s) for landing page.
+  name: Open Geospatial Consortium (OGC) Landing Page API
+  slug: ogc-landing-page-api
+- description: The Map Tiles API from Open Geospatial Consortium (OGC) — 12 operation(s) for map tiles.
+  name: Open Geospatial Consortium (OGC) Map Tiles API
+  slug: ogc-map-tiles-api
+- description: The Maps API from Open Geospatial Consortium (OGC) — 4 operation(s) for maps.
+  name: Open Geospatial Consortium (OGC) Maps API
+  slug: ogc-maps-api
+- description: Collections of moving features to be logically managed by a user.
+  name: Open Geospatial Consortium (OGC) Moving Feature Collection API
+  slug: ogc-movingfeaturecollection-api
+- description: Moving feature data, including the temporal geometry, temporal properties, etc.
+  name: Open Geospatial Consortium (OGC) Moving Features API
+  slug: ogc-movingfeatures-api
+- description: The ProcessDescription API from Open Geospatial Consortium (OGC) — 1 operation(s) for processdescription.
+  name: Open Geospatial Consortium (OGC) Process Description API
+  slug: ogc-processdescription-api
+- description: The ProcessList API from Open Geospatial Consortium (OGC) — 1 operation(s) for processlist.
+  name: Open Geospatial Consortium (OGC) Process List API
+  slug: ogc-processlist-api
+- description: access to a single record
+  name: Open Geospatial Consortium (OGC) Record API
+  slug: ogc-record-api
+- description: access to records
+  name: Open Geospatial Consortium (OGC) Records API
+  slug: ogc-records-api
+- description: The Result API from Open Geospatial Consortium (OGC) — 1 operation(s) for result.
+  name: Open Geospatial Consortium (OGC) Result API
+  slug: ogc-result-api
+- description: list of record properties by which responses can be sorted
+  name: Open Geospatial Consortium (OGC) Sortables API
+  slug: ogc-sortables-api
+- description: The Status API from Open Geospatial Consortium (OGC) — 1 operation(s) for status.
+  name: Open Geospatial Consortium (OGC) Status API
+  slug: ogc-status-api
+- description: The spatial change over time (temporal geometry), representing the movement of the rigid or nonrigid body of a feature.
+  name: Open Geospatial Consortium (OGC) Temporal Geometry API
+  slug: ogc-temporalgeometry-api
+- description: Queryable resources for the temporal primitive geometry.
+  name: Open Geospatial Consortium (OGC) Temporal Geometry Query API
+  slug: ogc-temporalgeometryquery-api
+- description: The thematic change over time (temporal property), representing the variation of the value of any descriptive characteristic of a feature.
+  name: Open Geospatial Consortium (OGC) Temporal Property API
+  slug: ogc-temporalproperty-api
+- description: The Tiling Schemes API from Open Geospatial Consortium (OGC) — 2 operation(s) for tiling schemes.
+  name: Open Geospatial Consortium (OGC) Tiling Schemes API
+  slug: ogc-tiling-schemes-api
+- description: The Vector Tiles API from Open Geospatial Consortium (OGC) — 12 operation(s) for vector tiles.
+  name: Open Geospatial Consortium (OGC) Vector Tiles API
+  slug: ogc-vector-tiles-api
+- description: The server API from Open Geospatial Consortium (OGC) — 3 operation(s) for server.
+  name: Open Geospatial Consortium (OGC) Server API
+  slug: ogc-server-api
+artifact_total: 38
 common:
 - group: company
   title: ''
@@ -134,24 +218,29 @@ modified: '2026-08-20'
 name: Open Geospatial Consortium (OGC)
 nav: Providers
 network: true
-overview: Open Geospatial Consortium (OGC) publishes 10 APIs on the [APIs.io](https://apis.io/) network, including OGC API - Common, OGC API - Connected Systems, OGC API - DGGS, and 7 more. Tagged areas include OGC, OGC API, Geospatial, GIS, and Standards.
+overview: Open Geospatial Consortium (OGC) publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Capabilities API, Collection API, and 36 more. Tagged areas include OGC, OGC API, Geospatial, GIS, and Standards.
 random_paper: 19
 score:
   band: emerging
-  composite: 18.5
+  composite: 20.5
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 85.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 42.3
+    contract_quality: 50.0
     developer_ergonomics: 0.0
     discoverability: 55.6
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 18.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 20.5
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: ogc
 tags:

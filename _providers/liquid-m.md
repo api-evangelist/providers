@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 7
   slug: liquid-m-agentic-access
   summary_line: 7 operations · 3 acting
-api_count: 5
+api_count: 2
 apis:
 - description: The Ads API from Liquid M — 1 operation(s) for ads.
   name: Liquid M Ads API
@@ -219,18 +219,23 @@ rate_limits:
   slug: liquid-m-rate-limits
 score:
   band: emerging
-  composite: 25.6
-  delta: 1.9
+  composite: 23.6
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 31.8
+    contract_governance: 19.7
     contract_quality: 15.7
     developer_ergonomics: 47.0
-    discoverability: 81.5
-    governance: 31.8
+    discoverability: 75.9
+    governance: 19.7
     operational_transparency: 2.6
-  previous_composite: 23.7
+  previous_composite: 24.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -241,8 +246,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/screenshots/liquid-m-2026-07-25T225318.png
 security:

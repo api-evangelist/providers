@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 653
   human_in_the_loop: 18
@@ -34,70 +34,346 @@ agentic_access:
   summary_line: 1261 operations · 653 acting · 18 human-in-the-loop
 api_count: 21
 apis:
-- description: JSON API onto the Navitaire New Skies passenger service system, used to create and maintain flight bookings and perform operational tasks such as retrieving flight manifests. The set of permitted oper
-  name: TUI New Skies Digital API
-  slug: tui-newskies-digital-api
-- description: Access to Navitaire's full Departure Control System through the TUI Apigee gateway. Documented capability groups are check-in (including reverse check-in and EES validation results), baggage and bag-t
-  name: TUI New Skies GoNow API
-  slug: tui-newskies-gonow-api
-- description: 'PCI-DSS scoped payment proxy in front of Navitaire New Skies, exposing three channels: REST Digital API payments under /rest/api/nsk/{version}/booking/payments (create, retrieve, delete, voucher, DCC/'
-  name: TUI New Skies Payment API
-  slug: tui-newskies-payment-api
-- description: Real-time flight availability and pricing search, documented as the first step in the booking process. A single GET /search operation takes IATA station codes or ISO country codes, an outbound and opt
-  name: TUI Flight Availability Search API (NSKCC)
-  slug: tui-flight-availability-search-api
-- description: Bulk fare-file distribution. Four GET operations — /download/{filename}, /download/{filename}/timestamp, /download/delta and /download/delta/timestamp — return base64-encoded ZIP archives of CSV price
-  name: TUI New Skies PriceFile API
-  slug: tui-newskies-pricefile-api
-- description: REST service in the New Skies flight family described on the portal as the complete API specification for CheckInHandler Service endpoints. The published page documents the playground and production b
-  name: TUI CheckInHandler Service API
-  slug: tui-checkinhandler-service-api
-- description: 'Distribution API for TUI fly Benelux content — the routes and destinations sold on tuifly.be, tui.nl, tuifly.ma and tuifly.fr — offered to third parties who want to resell TUI fly flights. Documented '
-  name: TUI Flight OTA API
-  slug: tui-flight-ota-api
-- description: Accommodation content companion to the TravelMessage G7 booking interface, described on the portal as OTA content V2.0 and delivered as JSON rather than the G7 XML. Returns the content of a particular
-  name: TUI OTA Content API
-  slug: tui-ota-content-api
-- description: Proxy service exposing the WallDy holiday search over Apigee X. A single POST /offers operation takes accommodation IDs and a travel window with optional party composition, board type, departure and a
-  name: TUI WallDy Holiday Offers Search API (search-walldy)
-  slug: tui-search-walldy-api
-- description: REST service in TUI's search family, listed in the portal's Search category. The public page documents the playground and production base URLs and the x-correlation-id and versioned Accept headers; th
-  name: TUI HolidayOffersController API (search-holiday-offers)
-  slug: tui-holiday-offers-controller-api
-- description: Metasearch partner interface onto TUI's accommodation portfolio for the Central region (Germany). Two documented operations — GET /hotel_inventory returns the hotels portfolio and POST /hotel_availabi
-  name: TUI Meta Search Generics API
-  slug: tui-meta-search-generic-api
-- description: Accommodation content for partners in the Nordic region (Sweden, Denmark, Finland, Norway), exposed as REST endpoints secured with OAuth 2.0 client credentials.
-  name: TUI Partner Content API
-  slug: tui-partner-content-api
-- description: GraphQL endpoint for ship reference content — cabin types, boards and deck plans — queried for specific information related to a ship. The only GraphQL surface in TUI's published catalog.
-  name: TUI Ship Content API v1.0
-  slug: tui-ship-content-api
-- description: TUI Group TravelMessage.v31 from TUI Group — 10 path(s) described in OpenAPI.
-  name: TUI Group TravelMessage.v31
-  slug: tui-group-tui-b2bota-g7-travelmessage-openapi
-- description: TUI Group TUI Cruise Booking APIs from TUI Group — 2 path(s) described in OpenAPI.
-  name: TUI Group TUI Cruise Booking APIs
-  slug: tui-group-tui-cruise-booking-apis-openapi
-- description: TUI Group Cruise Cabin Availability from TUI Group — 1 path(s) described in OpenAPI.
-  name: TUI Group Cruise Cabin Availability
-  slug: tui-group-tui-cruise-cabin-availability-openapi
-- description: TUI Group TUI Cruise Price and Availability. from TUI Group — 6 path(s) described in OpenAPI.
-  name: TUI Group TUI Cruise Price and Availability.
-  slug: tui-group-tui-cruise-price-and-availability-openapi
-- description: TUI Group Flight-ndc-gateway-navitaire from TUI Group — 26 path(s) described in OpenAPI.
-  name: TUI Group Flight-ndc-gateway-navitaire
-  slug: tui-group-tui-flight-ndc-gateway-openapi
-- description: TUI Group Meta Partner Package Live Search from TUI Group — 3 path(s) described in OpenAPI.
-  name: TUI Group Meta Partner Package Live Search
-  slug: tui-group-tui-meta-partner-package-live-search-openapi
-- description: TUI Group Meta Partner Packages & Flights from TUI Group — 5 path(s) described in OpenAPI.
-  name: TUI Group Meta Partner Packages & Flights
-  slug: tui-group-tui-meta-partner-packages-flights-openapi
-- description: TUI Group Supply from TUI Group — 1 path(s) described in OpenAPI.
-  name: TUI Group Supply
-  slug: tui-group-tui-supply-openapi
-artifact_total: 48
+- description: The account API from TUI Group — 5 operation(s) for account.
+  name: TUI Group Account API
+  slug: tui-group-account-api
+- description: The AirlineProfile API from TUI Group — 2 operation(s) for airlineprofile.
+  name: TUI Group Airline Profile API
+  slug: tui-group-airlineprofile-api
+- description: The AirShopping API from TUI Group — 2 operation(s) for airshopping.
+  name: TUI Group Air Shopping API
+  slug: tui-group-airshopping-api
+- description: The apisMessage API from TUI Group — 1 operation(s) for apismessage.
+  name: TUI Group APIS Message API
+  slug: tui-group-apismessage-api
+- description: The apo API from TUI Group — 2 operation(s) for apo.
+  name: TUI Group Apo API
+  slug: tui-group-apo-api
+- description: The Auth API from TUI Group — 2 operation(s) for auth.
+  name: TUI Group Auth API
+  slug: tui-group-auth-api
+- description: The availability API from TUI Group — 6 operation(s) for availability.
+  name: TUI Group Availability API
+  slug: tui-group-availability-api
+- description: The baggage API from TUI Group — 6 operation(s) for baggage.
+  name: TUI Group Baggage API
+  slug: tui-group-baggage-api
+- description: The bagTag API from TUI Group — 1 operation(s) for bagtag.
+  name: TUI Group Bag Tag API
+  slug: tui-group-bagtag-api
+- description: The boarding API from TUI Group — 5 operation(s) for boarding.
+  name: TUI Group Boarding API
+  slug: tui-group-boarding-api
+- description: The boardingDevices API from TUI Group — 1 operation(s) for boardingdevices.
+  name: TUI Group Boarding Devices API
+  slug: tui-group-boardingdevices-api
+- description: The booking/addons API from TUI Group — 3 operation(s) for booking/addons.
+  name: TUI Group Booking/addons API
+  slug: tui-group-booking-addons-api
+- description: The booking API from TUI Group — 53 operation(s) for booking.
+  name: TUI Group Booking API
+  slug: tui-group-booking-api
+- description: The booking/boardingpasses API from TUI Group — 4 operation(s) for booking/boardingpasses.
+  name: TUI Group Booking/boardingpasses API
+  slug: tui-group-booking-boardingpasses-api
+- description: The booking/checkin API from TUI Group — 10 operation(s) for booking/checkin.
+  name: TUI Group Booking/checkin API
+  slug: tui-group-booking-checkin-api
+- description: The booking/contacts API from TUI Group — 5 operation(s) for booking/contacts.
+  name: TUI Group Booking/contacts API
+  slug: tui-group-booking-contacts-api
+- description: The booking/history API from TUI Group — 9 operation(s) for booking/history.
+  name: TUI Group Booking/history API
+  slug: tui-group-booking-history-api
+- description: The booking/journeys API from TUI Group — 18 operation(s) for booking/journeys.
+  name: TUI Group Booking/journeys API
+  slug: tui-group-booking-journeys-api
+- description: The booking/passengers API from TUI Group — 50 operation(s) for booking/passengers.
+  name: TUI Group Booking/passengers API
+  slug: tui-group-booking-passengers-api
+- description: The booking/payments API from TUI Group — 62 operation(s) for booking/payments.
+  name: TUI Group Booking/payments API
+  slug: tui-group-booking-payments-api
+- description: The booking/retrieve API from TUI Group — 5 operation(s) for booking/retrieve.
+  name: TUI Group Booking/retrieve API
+  slug: tui-group-booking-retrieve-api
+- description: The booking/seatmaps API from TUI Group — 3 operation(s) for booking/seatmaps.
+  name: TUI Group Booking/seatmaps API
+  slug: tui-group-booking-seatmaps-api
+- description: The booking/seats API from TUI Group — 8 operation(s) for booking/seats.
+  name: TUI Group Booking/seats API
+  slug: tui-group-booking-seats-api
+- description: The booking/segments API from TUI Group — 7 operation(s) for booking/segments.
+  name: TUI Group Booking/segments API
+  slug: tui-group-booking-segments-api
+- description: The booking/ssrs API from TUI Group — 12 operation(s) for booking/ssrs.
+  name: TUI Group Booking/ssrs API
+  slug: tui-group-booking-ssrs-api
+- description: The Bookings API from TUI Group — 71 operation(s) for bookings.
+  name: TUI Group Bookings API
+  slug: tui-group-bookings-api
+- description: The bundles API from TUI Group — 3 operation(s) for bundles.
+  name: TUI Group Bundles API
+  slug: tui-group-bundles-api
+- description: The checkin API from TUI Group — 4 operation(s) for checkin.
+  name: TUI Group Checkin API
+  slug: tui-group-checkin-api
+- description: The CheckInHandler API from TUI Group — 2 operation(s) for checkinhandler.
+  name: TUI Group Check In Handler API
+  slug: tui-group-checkinhandler-api
+- description: The collection API from TUI Group — 3 operation(s) for collection.
+  name: TUI Group Collection API
+  slug: tui-group-collection-api
+- description: The configuration API from TUI Group — 1 operation(s) for configuration.
+  name: TUI Group Configuration API
+  slug: tui-group-configuration-api
+- description: The contacts API from TUI Group — 1 operation(s) for contacts.
+  name: TUI Group Contacts API
+  slug: tui-group-contacts-api
+- description: The contents API from TUI Group — 1 operation(s) for contents.
+  name: TUI Group Contents API
+  slug: tui-group-contents-api
+- description: The Cruise Add a stay API from TUI Group — 1 operation(s) for cruise add a stay.
+  name: TUI Group Cruise Add a stay API
+  slug: tui-group-cruise-add-a-stay-api
+- description: The Cruise Alternate Cabin and Board Search API from TUI Group — 1 operation(s) for cruise alternate cabin and board search.
+  name: TUI Group Cruise Alternate Cabin and Board Search API
+  slug: tui-group-cruise-alternate-cabin-and-board-search-api
+- description: The Cruise Alternate Flight Variant Search API from TUI Group — 1 operation(s) for cruise alternate flight variant search.
+  name: TUI Group Cruise Alternate Flight Variant Search API
+  slug: tui-group-cruise-alternate-flight-variant-search-api
+- description: The Cruise Alternate Stay Variant Search API from TUI Group — 1 operation(s) for cruise alternate stay variant search.
+  name: TUI Group Cruise Alternate Stay Variant Search API
+  slug: tui-group-cruise-alternate-stay-variant-search-api
+- description: The Cruise Cabin availability API from TUI Group — 1 operation(s) for cruise cabin availability.
+  name: TUI Group Cruise Cabin availability API
+  slug: tui-group-cruise-cabin-availability-api
+- description: The Cruise Search API from TUI Group — 1 operation(s) for cruise search.
+  name: TUI Group Cruise Search API
+  slug: tui-group-cruise-search-api
+- description: The Cruise Unique Search API from TUI Group — 1 operation(s) for cruise unique search.
+  name: TUI Group Cruise Unique Search API
+  slug: tui-group-cruise-unique-search-api
+- description: The currency API from TUI Group — 1 operation(s) for currency.
+  name: TUI Group Currency API
+  slug: tui-group-currency-api
+- description: The deviceManagers API from TUI Group — 1 operation(s) for devicemanagers.
+  name: TUI Group Device Managers API
+  slug: tui-group-devicemanagers-api
+- description: The disruption API from TUI Group — 5 operation(s) for disruption.
+  name: TUI Group Disruption API
+  slug: tui-group-disruption-api
+- description: The documents API from TUI Group — 2 operation(s) for documents.
+  name: TUI Group Documents API
+  slug: tui-group-documents-api
+- description: The download API from TUI Group — 2 operation(s) for download.
+  name: TUI Group Download API
+  slug: tui-group-download-api
+- description: The equipment API from TUI Group — 2 operation(s) for equipment.
+  name: TUI Group Equipment API
+  slug: tui-group-equipment-api
+- description: The eTickets API from TUI Group — 4 operation(s) for etickets.
+  name: TUI Group E Tickets API
+  slug: tui-group-etickets-api
+- description: The fareRules API from TUI Group — 2 operation(s) for farerules.
+  name: TUI Group Fare Rules API
+  slug: tui-group-farerules-api
+- description: The Flights API from TUI Group — 1 operation(s) for flights.
+  name: TUI Group Flights API
+  slug: tui-group-flights-api
+- description: The G7 content API from TUI Group — 1 operation(s) for g7 content.
+  name: TUI Group G7 content API
+  slug: tui-group-g7-content-api
+- description: The graph API from TUI Group — 3 operation(s) for graph.
+  name: TUI Group Graph API
+  slug: tui-group-graph-api
+- description: The Graphql API from TUI Group — 1 operation(s) for graphql.
+  name: TUI Group Graphql API
+  slug: tui-group-graphql-api
+- description: The health API from TUI Group — 3 operation(s) for health.
+  name: TUI Group Health API
+  slug: tui-group-health-api
+- description: The HolidayOffersController USL API API from TUI Group — 1 operation(s) for holidayofferscontroller usl api.
+  name: TUI Group HolidayOffersController USL API
+  slug: tui-group-holidayofferscontroller-usl-api-api
+- description: Operations around hotel availability details
+  name: TUI Group Hotel Availability API
+  slug: tui-group-hotel-availability-api
+- description: Operations to manage hotel inventory related information
+  name: TUI Group Hotel Inventory API
+  slug: tui-group-hotel-inventory-api
+- description: The inventory API from TUI Group — 7 operation(s) for inventory.
+  name: TUI Group Inventory API
+  slug: tui-group-inventory-api
+- description: The legs API from TUI Group — 4 operation(s) for legs.
+  name: TUI Group Legs API
+  slug: tui-group-legs-api
+- description: The Live Search Packages (Beta) API from TUI Group — 5 operation(s) for live search packages (beta).
+  name: TUI Group Live Search Packages (Beta) API
+  slug: tui-group-live-search-packages-beta-api
+- description: The logs API from TUI Group — 2 operation(s) for logs.
+  name: TUI Group Logs API
+  slug: tui-group-logs-api
+- description: The manifest API from TUI Group — 11 operation(s) for manifest.
+  name: TUI Group Manifest API
+  slug: tui-group-manifest-api
+- description: The messages API from TUI Group — 5 operation(s) for messages.
+  name: TUI Group Messages API
+  slug: tui-group-messages-api
+- description: The Ndc API from TUI Group — 1 operation(s) for ndc.
+  name: TUI Group Ndc API
+  slug: tui-group-ndc-api
+- description: The OfferPrice API from TUI Group — 2 operation(s) for offerprice.
+  name: TUI Group Offer Price API
+  slug: tui-group-offerprice-api
+- description: Operations for retrieving holiday offers and availability
+  name: TUI Group Offers API
+  slug: tui-group-offers-api
+- description: The oneTimeTravelNotifications API from TUI Group — 4 operation(s) for onetimetravelnotifications.
+  name: TUI Group One Time Travel Notifications API
+  slug: tui-group-onetimetravelnotifications-api
+- description: The OrderChange API from TUI Group — 2 operation(s) for orderchange.
+  name: TUI Group Order Change API
+  slug: tui-group-orderchange-api
+- description: The OrderCreate API from TUI Group — 2 operation(s) for ordercreate.
+  name: TUI Group Order Create API
+  slug: tui-group-ordercreate-api
+- description: The OrderQuote API from TUI Group — 2 operation(s) for orderquote.
+  name: TUI Group Order Quote API
+  slug: tui-group-orderquote-api
+- description: The OrderReshop API from TUI Group — 2 operation(s) for orderreshop.
+  name: TUI Group Order Reshop API
+  slug: tui-group-orderreshop-api
+- description: The OrderRetrieve API from TUI Group — 2 operation(s) for orderretrieve.
+  name: TUI Group Order Retrieve API
+  slug: tui-group-orderretrieve-api
+- description: The organizationGroup API from TUI Group — 1 operation(s) for organizationgroup.
+  name: TUI Group Organization Group API
+  slug: tui-group-organizationgroup-api
+- description: The organizationGroups API from TUI Group — 3 operation(s) for organizationgroups.
+  name: TUI Group Organization Groups API
+  slug: tui-group-organizationgroups-api
+- description: The organizations API from TUI Group — 2 operation(s) for organizations.
+  name: TUI Group Organizations API
+  slug: tui-group-organizations-api
+- description: The organizations2 API from TUI Group — 35 operation(s) for organizations2.
+  name: TUI Group Organizations2 API
+  slug: tui-group-organizations2-api
+- description: The Ota API from TUI Group — 12 operation(s) for ota.
+  name: TUI Group Ota API
+  slug: tui-group-ota-api
+- description: The Packages API from TUI Group — 1 operation(s) for packages.
+  name: TUI Group Packages API
+  slug: tui-group-packages-api
+- description: The Partner Content Api (Beta) API from TUI Group — 2 operation(s) for partner content api (beta).
+  name: TUI Group Partner Content Api (Beta) API
+  slug: tui-group-partner-content-api-beta-api
+- description: The passengers API from TUI Group — 1 operation(s) for passengers.
+  name: TUI Group Passengers API
+  slug: tui-group-passengers-api
+- description: The payments API from TUI Group — 1 operation(s) for payments.
+  name: TUI Group Payments API
+  slug: tui-group-payments-api
+- description: The persons API from TUI Group — 41 operation(s) for persons.
+  name: TUI Group Persons API
+  slug: tui-group-persons-api
+- description: The Price calendar search API from TUI Group — 1 operation(s) for price calendar search.
+  name: TUI Group Price calendar search API
+  slug: tui-group-price-calendar-search-api
+- description: The pricing API from TUI Group — 2 operation(s) for pricing.
+  name: TUI Group Pricing API
+  slug: tui-group-pricing-api
+- description: The printers API from TUI Group — 13 operation(s) for printers.
+  name: TUI Group Printers API
+  slug: tui-group-printers-api
+- description: The printers/reports API from TUI Group — 41 operation(s) for printers/reports.
+  name: TUI Group Printers/reports API
+  slug: tui-group-printers-reports-api
+- description: The promotions API from TUI Group — 3 operation(s) for promotions.
+  name: TUI Group Promotions API
+  slug: tui-group-promotions-api
+- description: The queues API from TUI Group — 9 operation(s) for queues.
+  name: TUI Group Queues API
+  slug: tui-group-queues-api
+- description: The redis API from TUI Group — 2 operation(s) for redis.
+  name: TUI Group Redis API
+  slug: tui-group-redis-api
+- description: The resources API from TUI Group — 159 operation(s) for resources.
+  name: TUI Group Resources API
+  slug: tui-group-resources-api
+- description: The Route Feed API from TUI Group — 1 operation(s) for route feed.
+  name: TUI Group Route Feed API
+  slug: tui-group-route-feed-api
+- description: The scanners API from TUI Group — 1 operation(s) for scanners.
+  name: TUI Group Scanners API
+  slug: tui-group-scanners-api
+- description: The Search API from TUI Group — 1 operation(s) for search.
+  name: TUI Group Search API
+  slug: tui-group-search-api
+- description: The SeatAvailability API from TUI Group — 4 operation(s) for seatavailability.
+  name: TUI Group Seat Availability API
+  slug: tui-group-seatavailability-api
+- description: The seatmaps API from TUI Group — 2 operation(s) for seatmaps.
+  name: TUI Group Seatmaps API
+  slug: tui-group-seatmaps-api
+- description: The seats API from TUI Group — 3 operation(s) for seats.
+  name: TUI Group Seats API
+  slug: tui-group-seats-api
+- description: The segments API from TUI Group — 1 operation(s) for segments.
+  name: TUI Group Segments API
+  slug: tui-group-segments-api
+- description: The ServiceList API from TUI Group — 4 operation(s) for servicelist.
+  name: TUI Group Service List API
+  slug: tui-group-servicelist-api
+- description: The settings API from TUI Group — 37 operation(s) for settings.
+  name: TUI Group Settings API
+  slug: tui-group-settings-api
+- description: The Soap API from TUI Group — 1 operation(s) for soap.
+  name: TUI Group Soap API
+  slug: tui-group-soap-api
+- description: The ssrs API from TUI Group — 1 operation(s) for ssrs.
+  name: TUI Group Ssrs API
+  slug: tui-group-ssrs-api
+- description: The Supply API from TUI Group — 1 operation(s) for supply.
+  name: TUI Group Supply API
+  slug: tui-group-supply-api
+- description: The timestamp API from TUI Group — 2 operation(s) for timestamp.
+  name: TUI Group Timestamp API
+  slug: tui-group-timestamp-api
+- description: The token API from TUI Group — 13 operation(s) for token.
+  name: TUI Group Token API
+  slug: tui-group-token-api
+- description: The TravelMessage API from TUI Group — 10 operation(s) for travelmessage.
+  name: TUI Group Travel Message API
+  slug: tui-group-travelmessage-api
+- description: The trip API from TUI Group — 38 operation(s) for trip.
+  name: TUI Group Trip API
+  slug: tui-group-trip-api
+- description: The Unique offer USL API API from TUI Group — 1 operation(s) for unique offer usl api.
+  name: TUI Group Unique offer USL API
+  slug: tui-group-unique-offer-usl-api-api
+- description: The user API from TUI Group — 11 operation(s) for user.
+  name: TUI Group User API
+  slug: tui-group-user-api
+- description: The users API from TUI Group — 42 operation(s) for users.
+  name: TUI Group Users API
+  slug: tui-group-users-api
+- description: The utilities API from TUI Group — 1 operation(s) for utilities.
+  name: TUI Group Utilities API
+  slug: tui-group-utilities-api
+- description: The verifiedTravelDocuments API from TUI Group — 3 operation(s) for verifiedtraveldocuments.
+  name: TUI Group Verified Travel Documents API
+  slug: tui-group-verifiedtraveldocuments-api
+- description: The voucherIssuance API from TUI Group — 3 operation(s) for voucherissuance.
+  name: TUI Group Voucher Issuance API
+  slug: tui-group-voucherissuance-api
+- description: The vouchers API from TUI Group — 11 operation(s) for vouchers.
+  name: TUI Group Vouchers API
+  slug: tui-group-vouchers-api
+- description: The watchList API from TUI Group — 4 operation(s) for watchlist.
+  name: TUI Group Watch List API
+  slug: tui-group-watchlist-api
+artifact_total: 140
 collections:
 - collection_type: open
   name: TravelMessage.v31
@@ -160,6 +436,62 @@ collections:
   name: Supply
   slug: open-tui-group-tui-supply
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tui-group-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tui-group-tui-newskies-digital-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tui-group-tui-newskies-gonow-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tui-group-tui-newskies-payment-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tui-group-tui-flight-availability-search-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tui-group-tui-newskies-pricefile-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tui-group-tui-checkinhandler-service-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tui-group-tui-flight-ota-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tui-group-tui-ota-content-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tui-group-tui-search-walldy-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tui-group-tui-holiday-offers-controller-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tui-group-tui-meta-search-generic-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tui-group-tui-partner-content-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tui-group-tui-ship-content-api-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -341,10 +673,10 @@ modified: '2026-07-28'
 name: TUI Group
 nav: Providers
 network: true
-overview: 'TUI Group publishes 21 APIs on the [APIs.io](https://apis.io/) network, including TUI New Skies Digital API, TUI New Skies GoNow API, TUI New Skies Payment API, and 18 more. Tagged areas include Travel, United Kingdom, Aviation, Airline, and Tour Operator.
+overview: 'TUI Group publishes 113 APIs on the [APIs.io](https://apis.io/) network, including Account API, Airline Profile API, Air Shopping API, and 110 more. Tagged areas include Travel, United Kingdom, Aviation, Airline, and Tour Operator.
 
 
-  TUI Group''s developer surface includes authentication, changelog, sandbox, documentation, API reference, signup flow, getting-started guide, and 35 more developer resources.'
+  TUI Group''s developer surface includes authentication, changelog, sandbox, documentation, API reference, signup flow, getting-started guide, and 49 more developer resources.'
 random_paper: 16
 rate_limits:
 - limit_count: 6
@@ -357,18 +689,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 51.6
-  delta: -0.3
+  composite: 50.4
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 30.3
-    contract_quality: 51.1
+    contract_governance: 18.2
+    contract_quality: 54.1
     developer_ergonomics: 68.5
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 51.9
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -379,8 +716,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tui-group/refs/heads/main/screenshots/tui-group-2026-08-17T082459.png
 security:

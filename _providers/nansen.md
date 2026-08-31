@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: nansen-agentic-access
   summary_line: 6 operations
-api_count: 2
+api_count: 1
 apis:
 - description: 'REST API surfacing Nansen''s on-chain intelligence: smart-money flows, profiler (wallet labels and balances), token screener, portfolio, points, Hyperliquid analytics, prediction markets, and the Nanse'
   name: Nansen REST API
@@ -126,7 +126,7 @@ modified: '2026-05-08'
 name: Nansen
 nav: Providers
 network: true
-overview: 'Nansen publishes 1 API on the [APIs.io](https://apis.io/) network: Smart Money API. Tagged areas include Web3, Crypto, Onchain, Wallet Labels, and Smart Money.
+overview: 'Nansen publishes 1 API on the [APIs.io](https://apis.io/) network: Smart Money API. Tagged areas include Web3, Crypto, On-Chain, Wallet Labels, and Smart Money.
 
 
   Nansen''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, and 8 more developer resources.'
@@ -142,6 +142,11 @@ rate_limits:
 score:
   band: thin
   composite: 28.1
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 13.2
@@ -166,8 +171,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nansen/refs/heads/main/screenshots/nansen-2026-06-20T185943.png
 security:
@@ -183,10 +188,10 @@ slug: nansen
 tags:
 - Web3
 - Crypto
-- Onchain
+- On-Chain
 - Wallet Labels
 - Smart Money
 - Analytics
-- Multi-Chain
+- Multi-chain
 website: https://www.nansen.ai/
 ---

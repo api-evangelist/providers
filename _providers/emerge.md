@@ -23,16 +23,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: 'REST API giving partner developers and shipper TMS platforms access to the core Emerge shipper workflow: create and manage opportunities, post them to the Emerge Marketplace or to network partners, re'
-  name: Emerge Public API (Shipper API)
-  slug: emerge-public-api-shipper-api
-- description: REST API for Capacity and Integration Providers (carriers, brokers and their TMS vendors) working with shippers on the Emerge platform. Providers receive Rate Request and Tender Request events by webh
-  name: Emerge Carrier API
-  slug: emerge-carrier-api
-artifact_total: 12
+- description: The Authentication API from Emerge — 3 operation(s) for authentication.
+  name: Emerge Authentication API
+  slug: emerge-authentication-api
+- description: The Awards API from Emerge — 2 operation(s) for awards.
+  name: Emerge Awards API
+  slug: emerge-awards-api
+- description: The Network Partners API from Emerge — 2 operation(s) for network partners.
+  name: Emerge Network Partners API
+  slug: emerge-network-partners-api
+- description: The Opportunities API from Emerge — 6 operation(s) for opportunities.
+  name: Emerge Opportunities API
+  slug: emerge-opportunities-api
+- description: The Options API from Emerge — 2 operation(s) for options.
+  name: Emerge Options API
+  slug: emerge-options-api
+- description: The Shipments API from Emerge — 1 operation(s) for shipments.
+  name: Emerge Shipments API
+  slug: emerge-shipments-api
+- description: The Tender API from Emerge — 1 operation(s) for tender.
+  name: Emerge Tender API
+  slug: emerge-tender-api
+- description: The Tenders API from Emerge — 3 operation(s) for tenders.
+  name: Emerge Tenders API
+  slug: emerge-tenders-api
+- description: Webhooks are used to provide updates to the TMS when award or option events are generated within the Emerge system. </br></br>If our webhook message cannot be accepted by the webhook endpoint due to n
+  name: Emerge Webhooks API
+  slug: emerge-webhooks-api
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Emerge Webhooks
@@ -45,6 +66,14 @@ collections:
   name: Emerge Public API
   slug: open-emerge-public-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emerge-public-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/emerge-carrier-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -202,13 +231,13 @@ modified: '2026-08-12'
 name: Emerge
 nav: Providers
 network: true
-overview: 'Emerge publishes 2 APIs on the [APIs.io](https://apis.io/) network: Public API (Shipper API) and Carrier API. Tagged areas include Freight, Logistics, Transportation, Supply Chain, and Procurement.
+overview: 'Emerge publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Awards API, Network Partners API, and 6 more. Tagged areas include freight, Logistics, Transportation, Supply Chain, and Procurement.
 
 
   The Emerge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Emerge''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Emerge''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
 plans:
 - name: Emerge Plans Pricing
   plan_count: 0
@@ -220,18 +249,23 @@ rate_limits:
   slug: emerge-rate-limits
 score:
   band: developing
-  composite: 49.2
+  composite: 47.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 16.7
-    contract_quality: 63.5
+    contract_governance: 4.5
+    contract_quality: 63.7
     developer_ergonomics: 28.0
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 49.2
+  previous_composite: 47.2
   provenance:
     conformance: derived
     contracts:
@@ -241,8 +275,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emerge/refs/heads/main/screenshots/emerge-2026-08-17T080921.png
 security:
@@ -264,17 +298,17 @@ security:
   summary_line: trust center published
 slug: emerge
 tags:
-- Freight
+- freight
 - Logistics
 - Transportation
 - Supply Chain
 - Procurement
-- Trucking
-- Freight Marketplace
-- Transportation Management
+- trucking
+- freight-marketplace
+- transportation-management
 - Shipping
 - rate-benchmarking
 - Webhook
-- B2B Marketplace
+- b2b-marketplace
 website: https://www.emergemarket.com/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 1
@@ -43,17 +43,8 @@ agentic_access:
   operation_count: 237
   slug: losant-agentic-access
   summary_line: 237 operations · 142 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 6
 apis:
-- description: 'Manage Losant Applications - the top-level multi-tenant container for IoT solutions - plus all application-scoped resources: dashboards, events, webhooks, integrations, files, application keys, API to'
-  name: Losant Application API
-  slug: losant-application-api
-- description: Provision and manage IoT devices and device recipes, query device tags and attributes, read connection state and logs, and publish state or send commands to devices. Devices may also publish state and
-  name: Losant Device API
-  slug: losant-device-api
-- description: 'Build white-labeled end-user web Experiences on top of a Losant Application: experience users, groups, HTTP endpoints, server-rendered views, slugs, custom domains, versions, and the Experience publis'
-  name: Losant Experience API
-  slug: losant-experience-api
 - description: Authentication and Account resources on the Losant Platform.
   name: Losant Authentication and Account API
   slug: losant-authentication-and-account-api
@@ -72,7 +63,7 @@ apis:
 - description: Workflow Engine resources on the Losant Platform.
   name: Losant Workflow Engine API
   slug: losant-workflow-engine-api
-artifact_total: 72
+artifact_total: 69
 asyncapis:
 - description: ''
   name: Losant Event Surface
@@ -566,7 +557,7 @@ modified: '2026-08-26'
 name: Losant
 nav: Providers
 network: true
-overview: 'Losant publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Application API, Device API, Experience API, and 6 more. Tagged areas include IoT, Internet of Things, Devices, Edge Compute, and Embedded.
+overview: 'Losant publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication and Account API, Data and Data Tables API, Edge and Embedded Compute API, and 3 more. Tagged areas include IoT, Internet Of Things, Devices, Edge Compute, and Embedded.
 
 
   The Losant catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -611,18 +602,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 85.2
-  delta: 24.6
+  composite: 81.2
+  coverage:
+    artifact_dirs: 33
+    catalog_gap: 24.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 59.1
-    contract_quality: 79.7
+    contract_governance: 47.0
+    contract_quality: 74.0
     developer_ergonomics: 94.6
-    discoverability: 85.2
-    governance: 59.1
+    discoverability: 74.1
+    governance: 47.0
     operational_transparency: 94.7
-  previous_composite: 60.6
+  previous_composite: 81.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -633,9 +629,9 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/losant/refs/heads/main/screenshots/losant-2026-06-20T184729.png
 security:
 - kind: authentication
@@ -653,7 +649,7 @@ security:
 slug: losant
 tags:
 - IoT
-- Internet of Things
+- Internet Of Things
 - Devices
 - Edge Compute
 - Embedded

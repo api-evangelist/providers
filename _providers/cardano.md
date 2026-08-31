@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 127
   slug: cardano-agentic-access
   summary_line: 127 operations · 6 acting
-api_count: 21
+api_count: 1
 apis:
 - description: Blockfrost also operates as an IPFS provider, enabling developers building on Cardano to pin and retrieve content-addressed files via the InterPlanetary File System. The IPFS API base URL is https://i
   name: Blockfrost IPFS API
@@ -842,7 +842,7 @@ modified: '2026-06-13'
 name: Cardano
 nav: Providers
 network: true
-overview: 'Cardano publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Cardano » Accounts API, Cardano » Addresses API, Cardano » Assets API, and 17 more. Tagged areas include Blockchain, Cryptocurrency, Proof of Stake, Smart Contracts, and Web3.
+overview: 'Cardano publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Cardano » Accounts API, Cardano » Addresses API, Cardano » Assets API, and 17 more. Tagged areas include Blockchain, Cryptocurrency, Proof-of-Stake, Smart Contracts, and Web3.
 
 
   The Cardano catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -871,18 +871,23 @@ rules:
   slug: cardano-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.1
-  delta: 3.3
+  composite: 41.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 61.3
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 31.6
-  previous_composite: 38.8
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -890,8 +895,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardano/refs/heads/main/screenshots/cardano-2026-06-20T173952.png
 security:
@@ -907,7 +912,7 @@ slug: cardano
 tags:
 - Blockchain
 - Cryptocurrency
-- Proof of Stake
+- Proof-of-Stake
 - Smart Contracts
 - Web3
 ---

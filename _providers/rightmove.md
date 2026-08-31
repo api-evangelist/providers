@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -31,20 +31,24 @@ agentic_access:
   operation_count: 4
   slug: rightmove-agentic-access
   summary_line: 4 operations · 2 acting
-api_count: 2
+api_count: 1
 apis:
-- description: The Commercial Listings API allows commercial agents and feed providers to upload, update, retrieve and remove commercial property listings for display on the Rightmove website. It models a property a
-  name: Rightmove Commercial Listings API
-  slug: rightmove-commercial-listings-api
 - description: The Real Time Data Feed (RTDF) is Rightmove's incremental HTTPS/JSON interface for UK sales, lettings and overseas sales listings, used by estate agency CRM and feed provider software rather than by e
   name: Rightmove Real Time Data Feed API
   slug: rightmove-real-time-data-feed-api
+- description: Create, Updated, Remove and Retrieve properties
+  name: Rightmove Property API
+  slug: rightmove-property-api
 artifact_total: 9
 collections:
 - collection_type: open
   name: Commercial Listings API
   slug: open-rightmove-commercial-listings
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/rightmove-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -194,10 +198,10 @@ modified: '2026-07-26'
 name: Rightmove
 nav: Providers
 network: true
-overview: 'Rightmove publishes 1 API on the [APIs.io](https://apis.io/) network: Commercial Listings API. Tagged areas include Real-Estate, United Kingdom, Property Listings, Property Portal, and PropTech.
+overview: 'Rightmove publishes 1 API on the [APIs.io](https://apis.io/) network: Property API. Tagged areas include Real-Estate, United Kingdom, Property Listings, Property Portal, and PropTech.
 
 
-  Rightmove''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 27 more developer resources.'
+  Rightmove''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 28 more developer resources.'
 random_paper: 15
 rate_limits:
 - limit_count: 0
@@ -210,18 +214,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: thin
-  composite: 29.4
+  composite: 28.6
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 16.7
-    contract_quality: 51.0
+    contract_governance: 4.5
+    contract_quality: 53.7
     developer_ergonomics: 13.7
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 29.4
+  previous_composite: 28.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -232,8 +241,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rightmove/refs/heads/main/screenshots/rightmove-2026-08-17T081601.png
 security:

@@ -24,17 +24,27 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: REST API (OpenAPI 3.1.1, 19 operations) for reading and writing Levitate contacts, contact key facts, companies and notes. Cursor-paged list endpoints plus a nested boolean (AND/OR/NOT) contact search
-  name: Levitate Public API
-  slug: levitate-public-api
 - description: Hosted remote MCP server (streamable HTTP) that connects Levitate to AI assistants — Claude Desktop, Claude Code, ChatGPT, Cursor, VS Code Copilot, Windsurf and any MCP-compatible HTTP client. Tools c
   name: Levitate MCP Server
   slug: levitate-mcp-server
-artifact_total: 11
+- description: The Companies API from Levitate — 2 operation(s) for companies.
+  name: Levitate Companies API
+  slug: levitate-companies-api
+- description: The Contacts API from Levitate — 5 operation(s) for contacts.
+  name: Levitate Contacts API
+  slug: levitate-contacts-api
+- description: The Notes API from Levitate — 2 operation(s) for notes.
+  name: Levitate Notes API
+  slug: levitate-notes-api
+artifact_total: 13
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/levitate-capability-edges.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -191,10 +201,10 @@ modified: '2026-08-25'
 name: Levitate
 nav: Providers
 network: true
-overview: 'Levitate publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Relationship Marketing, CRM, Email Marketing, Contacts, and Small Business.
+overview: 'Levitate publishes 3 APIs on the [APIs.io](https://apis.io/) network: Companies API, Contacts API, and Notes API. Tagged areas include relationship-marketing, CRM, email-marketing, Contacts, and small-business.
 
 
-  Levitate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 28 more developer resources.'
+  Levitate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 29 more developer resources.'
 plans:
 - name: Levitate Plans Pricing
   plan_count: 6
@@ -211,16 +221,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.6
+  composite: 61.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 54.4
     developer_ergonomics: 49.4
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 26.3
+  previous_composite: 61.6
   provenance:
     conformance: first-party
     contracts:
@@ -236,8 +253,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 80.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Levitate Authentication
@@ -257,17 +275,17 @@ security:
   summary_line: SOC 2 Type I, SOC 2 Type II
 slug: levitate
 tags:
-- Relationship Marketing
+- relationship-marketing
 - CRM
-- Email Marketing
+- email-marketing
 - Contacts
-- Small Business
+- small-business
 - Insurance
-- Financial Services
-- Nonprofit
-- Marketing Automation
+- Financial-Services
+- nonprofit
+- marketing-automation
 - MCP
 - agent-native
-- SaaS
+- saas
 website: https://www.levitate.ai/
 ---

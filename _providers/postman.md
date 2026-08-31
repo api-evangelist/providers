@@ -12,6 +12,7 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -26,15 +27,15 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
-    openapi_examples: documented
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-26'
+  score: 39.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 78
   slug: postman-agentic-access
   summary_line: 78 operations · 43 acting
-api_count: 39
+api_count: 21
 apis:
 - description: Postman is the single platform for collaborative API development used by 35+ million developers. It covers the entire API lifecycle - design, build, test, document, mock, monitor, and govern - and now
   name: Postman
@@ -161,6 +162,42 @@ apis:
 - description: The users API from Postman — 3 operation(s) for users.
   name: Postman users API
   slug: postman-users-api
+- description: Operations for managing comments on APIs.
+  name: Postman API Comments API
+  slug: postman-api-comments-api
+- description: Operations for managing API schemas and specifications.
+  name: Postman API Schemas API
+  slug: postman-api-schemas-api
+- description: Operations for managing API versions.
+  name: Postman API Versions API
+  slug: postman-api-versions-api
+- description: The Apis API from Postman — 2 operation(s) for apis.
+  name: Postman APIS API
+  slug: postman-apis-api
+- description: Operations for accessing team audit logs.
+  name: Postman Audit Logs API
+  slug: postman-audit-logs-api
+- description: Operations for running collections and retrieving results.
+  name: Postman Collection Runs API
+  slug: postman-collection-runs-api
+- description: Operations for managing elements (APIs, collections, workspaces) in the network.
+  name: Postman Network Elements API
+  slug: postman-network-elements-api
+- description: Operations for managing folders in the private API network.
+  name: Postman Network Folders API
+  slug: postman-network-folders-api
+- description: Operations for managing requests to add elements to the network.
+  name: Postman Network Requests API
+  slug: postman-network-requests-api
+- description: Operations for managing the private API network catalog.
+  name: Postman Private API Network API
+  slug: postman-private-api-network-api
+- description: Operations for managing detected secrets and leaked credentials.
+  name: Postman Secret Scanner API
+  slug: postman-secret-scanner-api
+- description: Operations for managing mock server responses and examples.
+  name: Postman Server Responses API
+  slug: postman-server-responses-api
 arazzos:
 - description: Build a workspace, collection, and environment, then monitor and run the collection.
   name: Postman Stand Up an API Testing Pipeline
@@ -225,7 +262,7 @@ arazzos:
 - description: Create a workspace, then set and verify its global variables.
   name: Postman Manage Workspace Global Variables
   slug: postman-workspace-global-variables-workflow
-artifact_total: 252
+artifact_total: 264
 asyncapis:
 - description: Postman Webhooks enable you to receive incoming HTTP POST requests that trigger collection runs. When an external system sends a POST request to a Postman webhook URL, the webhook triggers a collectio
   name: Postman Webhooks
@@ -391,6 +428,10 @@ collections:
   name: Postman Workspaces API
   slug: open-postman-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/postman-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -876,13 +917,13 @@ modified: '2026-05-19'
 name: Postman
 nav: Providers
 network: true
-overview: 'Postman publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Postman, Collections API, Workspaces API, and 32 more. Tagged areas include AI Agent Builder, AI Agents, API Catalog, API Client, and API Design.
+overview: 'Postman publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Postman, Collections API, Workspaces API, and 44 more. Tagged areas include AI Agent Builder, AI Agents, API Catalog, API Client, and API Design.
 
 
   The Postman catalog on APIs.io includes 1 event-driven AsyncAPI specification and 3 Spectral governance rulesets.
 
 
-  Postman''s developer surface includes authentication, pricing, documentation, getting-started guide, engineering blog, support, changelog, and 76 more developer resources.'
+  Postman''s developer surface includes authentication, pricing, documentation, getting-started guide, engineering blog, support, changelog, and 77 more developer resources.'
 plans:
 - name: Postman Plans Pricing
   plan_count: 4
@@ -928,13 +969,18 @@ rules:
   slug: postman-rules
 score:
   band: exemplar
-  composite: 67.1
-  delta: 2.6
+  composite: 67.2
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 28.8
-    contract_quality: 72.3
+    contract_quality: 72.9
     developer_ergonomics: 73.8
     discoverability: 83.3
     governance: 28.8
@@ -945,7 +991,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 64.5
+  previous_composite: 67.2
   provenance:
     agentic_access: derived
     contracts:
@@ -953,8 +999,8 @@ score:
       derived: 0
       marker_coverage: 100.0
       total: 34
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/screenshots/postman-2026-06-20T192015.png
 security:

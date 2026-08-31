@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 22
   slug: microsoft-active-directory-agentic-access
   summary_line: 22 operations · 10 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Lightweight Directory Access Protocol interface for querying and modifying Active Directory.
   name: LDAP Protocol Interface
@@ -168,18 +168,23 @@ scopes:
   summary_line: 9 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 42.9
-  delta: 9.7
+  composite: 42.3
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 57.1
     developer_ergonomics: 47.6
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 33.2
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -187,9 +192,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-active-directory/refs/heads/main/screenshots/microsoft-active-directory-2026-06-20T185347.png
 security:
 - kind: authentication
@@ -211,7 +216,7 @@ tags:
 - Directory Services
 - Enterprise
 - Identity
-- LDAP
+- Ldap
 - Windows
 website: https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/
 ---

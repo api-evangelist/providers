@@ -23,12 +23,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-26'
-api_count: 10
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: News archive — Neomorph press releases and media coverage (14 published at harvest time, spanning the December 2020 $109M Series A through the May 2026 appointment of Robert J. Hugin as Chairman of th
-  name: Neomorph News API
-  slug: neomorph-news-api
 - description: Corporate pages — About, Platform, Pipeline, Publications, Patients, Careers, News, Contact and the policy set (15 published at harvest time, including the NEO-811 programme page).
   name: Neomorph Pages API
   slug: neomorph-pages-api
@@ -41,9 +38,6 @@ apis:
 - description: Media library — team portraits, pipeline and platform figures, and press assets (111 attachments at harvest time).
   name: Neomorph Media API
   slug: neomorph-media-api
-- description: News categories and tags. Two category terms are registered (Press Release, In The Media); the post_tag taxonomy is registered but empty.
-  name: Neomorph Taxonomy API
-  slug: neomorph-taxonomy-api
 - description: Comment collection. Registered and anonymously reachable, but empty — no post on this deployment carries comments.
   name: Neomorph Comments API
   slug: neomorph-comments-api
@@ -56,7 +50,19 @@ apis:
 - description: oEmbed 1.0 provider endpoint for neomorph.com permalinks.
   name: Neomorph oEmbed API
   slug: neomorph-oembed-api
-artifact_total: 14
+- description: 'News taxonomy. Two terms are registered on this deployment: Press Release (13 posts) and In The Media (1 post).'
+  name: Neomorph Categories API
+  slug: neomorph-categories-api
+- description: News archive - Neomorph press releases and media coverage (14 published at harvest time, spanning the December 2020 $109M Series A through the May 2026 appointment of Robert J. Hugin as Chairman of th
+  name: Neomorph Posts API
+  slug: neomorph-posts-api
+- description: The post_tag taxonomy is registered and anonymously reachable but empty - no term has been created on this deployment.
+  name: Neomorph Tags API
+  slug: neomorph-tags-api
+- description: 'team_category taxonomy grouping the Team collection. Four terms are registered: Management (11), Board of Directors (7), Scientific Founders (4) and Scientific Advisory Board (0).'
+  name: Neomorph Team Categories API
+  slug: neomorph-team-categories-api
+artifact_total: 16
 common:
 - group: company
   title: ''
@@ -183,7 +189,7 @@ modified: '2026-08-26'
 name: Neomorph
 nav: Providers
 network: true
-overview: 'Neomorph publishes 10 APIs on the [APIs.io](https://apis.io/) network, including News API, Pages API, Publications API, and 7 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Drug Discovery, and Targeted Protein Degradation.
+overview: 'Neomorph publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Pages API, Publications API, Team API, and 9 more. Tagged areas include Company, biotechnology, pharmaceuticals, drug-discovery, and targeted-protein-degradation.
 
 
   Neomorph''s developer surface includes product news, authentication, and 27 more developer resources.'
@@ -198,16 +204,23 @@ rate_limits:
   slug: neomorph-rate-limits
 score:
   band: thin
-  composite: 35.6
+  composite: 34.3
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 52.4
     developer_ergonomics: 13.7
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 0.0
+  previous_composite: 34.9
   provenance:
     conformance: first-party
     contracts:
@@ -223,8 +236,9 @@ score:
     regime: Health
     regime_id: health
     score: 48.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Neomorph Authentication
@@ -237,16 +251,16 @@ security:
 slug: neomorph
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Drug Discovery
-- Targeted Protein Degradation
-- Molecular Glue
-- Oncology
-- Immunology
-- Rare Disease
-- Clinical Trials
-- Life Sciences
+- biotechnology
+- pharmaceuticals
+- drug-discovery
+- targeted-protein-degradation
+- molecular-glue
+- oncology
+- immunology
+- rare-disease
+- clinical-trials
+- life-sciences
 - content-api
 website: https://neomorph.com/
 ---

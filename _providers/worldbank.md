@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 12
   slug: worldbank-agentic-access
   summary_line: 12 operations
-api_count: 10
+api_count: 1
 apis:
 - description: Provides information about thousands of development-relevant datasets available through the World Bank Data Catalog. Supports searching, listing, viewing dataset metadata, and downloading resource fil
   name: World Bank Data Catalog API
@@ -196,15 +196,20 @@ rules:
   slug: worldbank-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.4
-  delta: 0.0
+  composite: 31.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 56.1
     developer_ergonomics: 11.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 36.8
   previous_composite: 32.4
@@ -221,8 +226,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/screenshots/worldbank-2026-06-20T201620.png
 security:

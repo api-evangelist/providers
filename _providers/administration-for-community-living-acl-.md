@@ -10,21 +10,21 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,15 +32,74 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
-api_count: 1
+  score: 11.4
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: The AGing, Independence, and Disability (AGID) Program Data Portal provides publicly accessible data from programs funded under the Older Americans Act and related disability programs. Datasets includ
   name: AGID Program Data Portal
   slug: agid-data-portal
-artifact_total: 17
+- description: The Strapi 5 headless-CMS REST API behind eldercare.acl.gov, the national Eldercare Locator service ACL operates to connect older adults and caregivers to local aging and disability services. The elde
+  name: Eldercare Locator Content API
+  slug: eldercare-locator-content-api
+artifact_total: 20
 common:
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/administration-for-community-living-acl--authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/administration-for-community-living-acl--conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/administration-for-community-living-acl--problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/administration-for-community-living-acl--lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/administration-for-community-living-acl--changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/administration-for-community-living-acl--conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/administration-for-community-living-acl--packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/administration-for-community-living-acl--llms.txt
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/administration-for-community-living-acl--vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.hhs.gov/vulnerability-disclosure-policy/index.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://acl.gov/contact-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://acl.gov/news-and-events/acl-blog
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://acl.gov/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://acl.gov/disclaimer
 - group: auth
   title: ''
   type: DomainSecurity
@@ -92,52 +151,65 @@ finops:
   slug: administration-for-community-living-acl--finops
 image: /assets/icons/administration-for-community-living-acl-.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-30'
 name: Administration for Community Living (ACL)
 nav: Providers
 network: true
-overview: 'Administration for Community Living (ACL) publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Aging, Federal-Government, Healthcare, Disability, and Independent Living.
+overview: 'Administration for Community Living (ACL) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Aging, Federal-Government, Healthcare, Disability, and Independent Living.
 
 
-  Administration for Community Living (ACL)''s developer surface includes developer portal and 6 more developer resources.'
+  Administration for Community Living (ACL)''s developer surface includes authentication, changelog, support, engineering blog, developer portal, and 16 more developer resources.'
 plans:
 - name: Administration For Community Living Acl  Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: administration-for-community-living-acl--plans-pricing
 random_paper: 1
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Administration For Community Living Acl  Rate Limits
   slug: administration-for-community-living-acl--rate-limits
 score:
-  band: minimal
-  composite: 10.4
-  delta: 0.0
+  band: thin
+  composite: 29.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 18.6
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
+    access_clarity: 28.9
+    commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 59.3
+    developer_ergonomics: 38.1
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 7.9
+    operational_transparency: 26.3
   previous_composite: 10.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 57.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/administration-for-community-living-acl-/refs/heads/main/screenshots/administration-for-community-living-acl--2026-06-20T164721.png
 security:
+- kind: authentication
+  name: Administration For Community Living Acl  Authentication
+  slug: administration-for-community-living-acl--authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Administration For Community Living Acl  Domain Security
   slug: administration-for-community-living-acl--domain-security
   summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Administration For Community Living Acl  Vulnerability Disclosure
+  slug: administration-for-community-living-acl--vulnerability-disclosure
+  summary_line: disclosure policy published
 slug: administration-for-community-living-acl-
 tags:
 - Aging

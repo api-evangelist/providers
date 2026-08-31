@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 337
   slug: university-of-geneva-agentic-access
   summary_line: 337 operations · 148 acting
-api_count: 5
+api_count: 1
 apis:
 - description: OAI-PMH 2.0 metadata-harvesting interface for the Archive ouverte UNIGE institutional repository, exposing the University's scientific publications and records in multiple metadata formats (Dublin Cor
   name: Archive ouverte UNIGE OAI-PMH
@@ -209,18 +209,23 @@ rules:
   slug: university-of-geneva-rules
 score:
   band: thin
-  composite: 37.7
-  delta: 4.6
+  composite: 37.2
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 37.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 25.0
     contract_quality: 63.3
     developer_ergonomics: 21.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 33.1
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -234,8 +239,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/screenshots/university-of-geneva-2026-06-20T200151.png
 security:

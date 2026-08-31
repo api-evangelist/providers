@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 10
 apis:
 - description: Registered types, taxonomies and statuses.
@@ -211,18 +211,23 @@ overview: 'Strata Oncology publishes 10 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 20
 score:
   band: emerging
-  composite: 25.1
+  composite: 24.4
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 13.1
     developer_ergonomics: 4.2
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 25.1
+  previous_composite: 24.4
   provenance:
     conformance: derived
     contracts:
@@ -234,12 +239,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

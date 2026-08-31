@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: manhattan-associates-agentic-access
   summary_line: 17 operations · 10 acting
-api_count: 9
+api_count: 2
 apis:
 - description: Manhattan Active Platform APIs provide core platform capabilities for authentication, tenant configuration, and integration with Manhattan Active solutions. REST APIs follow OAuth client credentials f
   name: Manhattan Active Platform API
@@ -101,6 +101,10 @@ collections:
   name: Manhattan Active Supply Chain (WMS) API
   slug: open-manhattan-associates-wms
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/manhattan-associates-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -290,16 +294,16 @@ jsonld:
   slug: manhattan-associates-context
 layout: provider
 modified: '2026-05-19'
-name: manhattan-associates
+name: Manhattan Associates
 nav: Providers
 network: true
-overview: 'manhattan-associates publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Inbound API, Inventory API, Orders API, and 3 more.
+overview: 'Manhattan Associates publishes 6 APIs on the [APIs.io](https://apis.io/) network, including manhattan-associates Inbound API, manhattan-associates Inventory API, manhattan-associates Orders API, and 3 more.
 
 
-  The manhattan-associates catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Manhattan Associates catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  manhattan-associates'' developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, and 12 more developer resources.'
+  Manhattan Associates'' developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, support, and 13 more developer resources.'
 plans:
 - name: Manhattan Associates Plans Pricing
   plan_count: 2
@@ -312,7 +316,7 @@ rate_limits:
 rules:
 - effective_rule_count: 6
   extends: []
-  name: manhattan-associates API Rules
+  name: Manhattan Associates API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -327,18 +331,23 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: thin
-  composite: 37.9
-  delta: -0.9
+  composite: 37.3
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 63.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 9.8
     contract_quality: 64.4
     developer_ergonomics: 40.5
-    discoverability: 50.0
+    discoverability: 44.4
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 38.8
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -350,8 +359,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/screenshots/manhattan-associates-2026-06-20T184920.png
 security:

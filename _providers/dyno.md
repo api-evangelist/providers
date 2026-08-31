@@ -34,18 +34,74 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Phi is a biomodal computation platform for protein design. The REST API lets a caller create datasets from PDB/CIF structures, submit structure-prediction and sequence-design jobs across twenty biomod
-  name: Dyno Phi — Protein Design API
-  slug: dyno-phi-protein-design-api
-artifact_total: 7
+- description: The admin API from Dyno — 5 operation(s) for admin.
+  name: Dyno Admin API
+  slug: dyno-admin-api
+- description: The agents API from Dyno — 3 operation(s) for agents.
+  name: Dyno Agents API
+  slug: dyno-agents-api
+- description: The Artifacts API from Dyno — 2 operation(s) for artifacts.
+  name: Dyno Artifacts API
+  slug: dyno-artifacts-api
+- description: The assets API from Dyno — 6 operation(s) for assets.
+  name: Dyno Assets API
+  slug: dyno-assets-api
+- description: The auth API from Dyno — 2 operation(s) for auth.
+  name: Dyno Auth API
+  slug: dyno-auth-api
+- description: The datasets API from Dyno — 4 operation(s) for datasets.
+  name: Dyno Datasets API
+  slug: dyno-datasets-api
+- description: The files API from Dyno — 2 operation(s) for files.
+  name: Dyno Files API
+  slug: dyno-files-api
+- description: The Health API from Dyno — 1 operation(s) for health.
+  name: Dyno Health API
+  slug: dyno-health-api
+- description: The ingest API from Dyno — 5 operation(s) for ingest.
+  name: Dyno Ingest API
+  slug: dyno-ingest-api
+- description: The jobs API from Dyno — 7 operation(s) for jobs.
+  name: Dyno Jobs API
+  slug: dyno-jobs-api
+- description: The Phi API from Dyno — 2 operation(s) for phi.
+  name: Dyno Phi API
+  slug: dyno-phi-api
+- description: The protocols API from Dyno — 7 operation(s) for protocols.
+  name: Dyno Protocols API
+  slug: dyno-protocols-api
+- description: The research-notes API from Dyno — 1 operation(s) for research-notes.
+  name: Dyno Research Notes API
+  slug: dyno-research-notes-api
+- description: The Runs API from Dyno — 4 operation(s) for runs.
+  name: Dyno Runs API
+  slug: dyno-runs-api
+- description: The tools API from Dyno — 3 operation(s) for tools.
+  name: Dyno Tools API
+  slug: dyno-tools-api
+- description: The tutorial API from Dyno — 1 operation(s) for tutorial.
+  name: Dyno Tutorial API
+  slug: dyno-tutorial-api
+- description: The workflows API from Dyno — 9 operation(s) for workflows.
+  name: Dyno Workflows API
+  slug: dyno-workflows-api
+artifact_total: 23
 collections:
 - collection_type: open
   name: Phi — Protein Design API
   slug: open-dyno-phi
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dyno-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dyno-phi-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -187,10 +243,10 @@ modified: '2026-08-10'
 name: Dyno
 nav: Providers
 network: true
-overview: 'Dyno publishes 1 API on the [APIs.io](https://apis.io/) network: Phi — Protein Design API. Tagged areas include Company, Biotechnology, Gene Therapy, Genetic Medicine, and Gene Delivery.
+overview: 'Dyno publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Agents API, Artifacts API, and 14 more. Tagged areas include Company, Biotechnology, Gene Therapy, Genetic Medicine, and Gene Delivery.
 
 
-  Dyno''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 25 more developer resources.'
+  Dyno''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 27 more developer resources.'
 plans:
 - name: Dyno Plans Pricing
   plan_count: 0
@@ -202,18 +258,23 @@ rate_limits:
   slug: dyno-rate-limits
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 47.9
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 50.3
+    contract_governance: 4.5
+    contract_quality: 49.1
     developer_ergonomics: 85.7
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 49.7
+  previous_composite: 48.5
   provenance:
     conformance: derived
     contracts:
@@ -229,8 +290,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/screenshots/dyno-2026-08-17T080911.png
 security:

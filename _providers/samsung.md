@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 24
   slug: samsung-agentic-access
   summary_line: 24 operations · 12 acting
-api_count: 12
+api_count: 1
 apis:
 - description: 'Samsung Knox provides enterprise-grade device management and security APIs. Knox Cloud APIs enable programmatic access to Knox Deployment Program, Knox Mobile Enrollment, Knox Configure, Knox Manage, '
   name: Knox Cloud APIs
@@ -107,6 +107,10 @@ collections:
   name: Samsung SmartThings Apps Subscriptions API
   slug: open-samsung-subscriptions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/samsung-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -261,7 +265,7 @@ overview: 'Samsung publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Samsung catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Samsung''s developer surface includes authentication, engineering blog, documentation, code examples, and 13 more developer resources.'
+  Samsung''s developer surface includes authentication, engineering blog, documentation, code examples, and 14 more developer resources.'
 plans:
 - name: Samsung Plans Pricing
   plan_count: 1
@@ -295,15 +299,20 @@ rules:
   slug: samsung-rules
 score:
   band: thin
-  composite: 36.2
-  delta: 0.0
+  composite: 35.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 68.4
     developer_ergonomics: 23.8
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 7.9
   previous_composite: 36.2
@@ -314,8 +323,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/screenshots/samsung-2026-06-20T193400.png
 security:

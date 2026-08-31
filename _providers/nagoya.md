@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: OAI-PMH 2.0 metadata harvesting interface for the NAGOYA Repository, the Nagoya University institutional repository running on the NII WEKO3 / JAIRO Cloud platform. Supports the standard OAI-PMH verbs
@@ -81,10 +81,6 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 - group: design
   title: ''
   type: JSONLD
@@ -112,7 +108,7 @@ overview: 'Nagoya University publishes 1 API on the [APIs.io](https://apis.io/) 
   The Nagoya University catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Nagoya University''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
+  Nagoya University''s developer surface includes authentication and 10 more developer resources.'
 plans:
 - name: Nagoya Plans Pricing
   plan_count: 2
@@ -124,26 +120,31 @@ rate_limits:
   slug: nagoya-rate-limits
 score:
   band: emerging
-  composite: 23.4
-  delta: 1.9
+  composite: 22.9
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 10.7
-    developer_ergonomics: 23.8
+    developer_ergonomics: 21.4
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 21.5
+  previous_composite: 23.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nagoya/refs/heads/main/screenshots/nagoya-2026-06-20T185937.png
 security:

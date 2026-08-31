@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,11 +41,8 @@ agentic_access:
   operation_count: 12
   slug: aib-group-uk-agentic-access
   summary_line: 12 operations
-api_count: 10
+api_count: 1
 apis:
-- description: Public, unauthenticated Open Banking Open Data API (v2.2) publishing Allied Irish Bank (GB) product reference data - personal current accounts, business current accounts, and unsecured SME loans - con
-  name: AIB Group (UK) Open Data API
-  slug: aib-group-uk-open-data-api
 - description: 'OBIE Read/Write Account and Transaction Information API (AIS) v4.0 - account details, balances, transactions, standing orders, direct debits, and statements. FAPI-secured via OAuth2/OIDC consent with '
   name: AIB Group (UK) Accounts Information API
   slug: aib-group-uk-account-information-api
@@ -73,12 +70,34 @@ apis:
 - description: FCA Service Metrics API for Business Current Accounts (BCA), publishing the service availability and performance metrics AIB Group (UK) is required to report under FCA rules.
   name: AIB Group (UK) FCA Service Metrics (BCA) API
   slug: aib-group-uk-fca-service-metrics-bca-api
-artifact_total: 14
+- description: Endpoint for getting ATM data
+  name: AIB Group (UK) ATM API
+  slug: aib-group-uk-atm-api
+- description: Endpoint for getting Business Current Account data
+  name: AIB Group (UK) BCA API
+  slug: aib-group-uk-bca-api
+- description: Endpoint for getting Branch data
+  name: AIB Group (UK) Branch API
+  slug: aib-group-uk-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: AIB Group (UK) CCC API
+  slug: aib-group-uk-ccc-api
+- description: Endpoint for getting Personal Current Account data
+  name: AIB Group (UK) PCA API
+  slug: aib-group-uk-pca-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: AIB Group (UK) SME API
+  slug: aib-group-uk-sme-api
+artifact_total: 19
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-aib-group-uk-open-data
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/aib-group-uk-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -180,25 +199,30 @@ modified: '2026-07-23'
 name: AIB Group (UK)
 nav: Providers
 network: true
-overview: 'AIB Group (UK) publishes 1 API on the [APIs.io](https://apis.io/) network: Open Data API. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'AIB Group (UK) publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 3 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  AIB Group (UK)''s developer surface includes authentication, getting-started guide, signup flow, engineering blog, documentation, support, and 17 more developer resources.'
+  AIB Group (UK)''s developer surface includes authentication, getting-started guide, signup flow, engineering blog, documentation, support, and 18 more developer resources.'
 random_paper: 16
 score:
   band: developing
-  composite: 43.7
-  delta: -0.9
+  composite: 41.6
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 32.7
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 44.6
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -210,12 +234,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2-sca
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aib-group-uk/refs/heads/main/screenshots/aib-group-uk-2026-07-25T195342.png
 security:

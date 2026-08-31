@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: snyk-container-agentic-access
   summary_line: 10 operations · 3 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Manage Snyk Container scanning projects
   name: Snyk Container Container Projects API
@@ -247,15 +247,20 @@ rules:
   slug: snyk-container-rules
 score:
   band: developing
-  composite: 53.8
-  delta: 0.0
+  composite: 53.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 28.8
     contract_quality: 71.2
     developer_ergonomics: 61.9
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 26.3
   previous_composite: 53.8
@@ -266,8 +271,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/screenshots/snyk-container-2026-06-20T194116.png
 security:

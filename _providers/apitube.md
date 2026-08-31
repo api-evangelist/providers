@@ -23,13 +23,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: News search and retrieval — everything, top headlines, trends, companies, journalists, fact-checks and taxonomy suggestion. 26 operations, API key by header or query.
   name: APITube News API
   slug: apitube-news-api
-artifact_total: 2
+- description: API key balance and subscription plan information.
+  name: APITube Account API
+  slug: apitube-account-api
+- description: Verify factual claims against the live news corpus (retrieval-augmented). Returns per-claim verdicts on an 8-level scale with confidence, explanation, and supporting evidence.
+  name: APITube Fact Check API
+  slug: apitube-fact-check-api
+- description: The Reference API from APITube — 7 operation(s) for reference.
+  name: APITube Reference API
+  slug: apitube-reference-api
+- description: Autocomplete and typeahead suggestions for entities.
+  name: APITube Suggest API
+  slug: apitube-suggest-api
+- description: Health checks and service status.
+  name: APITube System API
+  slug: apitube-system-api
+- description: Helper endpoints for building queries
+  name: APITube Utilities API
+  slug: apitube-utilities-api
+artifact_total: 8
 common:
 - group: other
   title: ''
@@ -62,40 +80,42 @@ modified: '2026-08-21'
 name: APITube
 nav: Providers
 network: true
-overview: 'APITube publishes 1 API on the [APIs.io](https://apis.io/) network: News API. Tagged areas include News, Media, Data, Search, and Fact Checking.'
+overview: APITube publishes 7 APIs on the [APIs.io](https://apis.io/) network, including News API, Account API, Fact Check API, and 4 more. Tagged areas include News, media monitoring, news api, fact check, and journalists.
 random_paper: 11
 score:
   band: thin
-  composite: 28.6
-  delta: 5.8
+  composite: 28.5
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
-    contract_quality: 57.1
+    contract_quality: 56.7
     developer_ergonomics: 38.1
     discoverability: 66.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 22.8
+  previous_composite: 29.0
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 slug: apitube
 tags:
 - News
-- Media
-- Data
-- Search
-- Fact Checking
-- Entities
-- MCP
-- Agents
+- media monitoring
+- news api
+- fact check
+- journalists
 website: https://apitube.io
 ---

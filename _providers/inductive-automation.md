@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 349
   human_in_the_loop: 9
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 673
   slug: inductive-automation-agentic-access
   summary_line: 673 operations · 349 acting · 9 human-in-the-loop
-api_count: 88
+api_count: 1
 apis:
 - description: The Ignition Gateway REST API (available in Ignition 8.3+) provides an OpenAPI- compliant HTTP interface to Gateway configuration resources including tags, projects, modules, device connections, and h
   name: Ignition Gateway REST API
@@ -574,6 +574,10 @@ collections:
   name: Ignition Gateway REST access-control vision-sessions API
   slug: open-inductive-automation-vision-sessions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/inductive-automation-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -684,7 +688,7 @@ overview: 'Inductive Automation publishes 87 APIs on the [APIs.io](https://apis.
   The Inductive Automation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Inductive Automation''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, support, and 9 more developer resources.'
+  Inductive Automation''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, support, and 10 more developer resources.'
 random_paper: 5
 rules:
 - effective_rule_count: 5
@@ -709,18 +713,23 @@ rules:
   slug: inductive-automation-rules
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 35.0
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 66.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 9.8
     contract_quality: 63.4
     developer_ergonomics: 38.1
-    discoverability: 50.0
+    discoverability: 63.0
     governance: 9.8
     operational_transparency: 2.6
-  previous_composite: 33.7
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -728,8 +737,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 87
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inductive-automation/refs/heads/main/screenshots/inductive-automation-2026-06-20T183324.png
 security:

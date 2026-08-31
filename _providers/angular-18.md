@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 7
 apis:
 - description: Core Angular 18 framework APIs featuring experimental zoneless change detection, stable deferrable views and built-in control flow, stable Material 3 components, functional route redirects, improved S
@@ -143,6 +143,11 @@ rate_limits:
 score:
   band: emerging
   composite: 17.1
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -160,8 +165,8 @@ score:
     - owner: catalog
       reason: no_resolvable_host
   previous_composite: 17.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angular-18/refs/heads/main/screenshots/angular-18-2026-06-20T171957.png
 security:

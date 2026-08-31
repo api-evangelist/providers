@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 1
@@ -42,14 +42,11 @@ agentic_access:
   operation_count: 312
   slug: mediavalet-agentic-access
   summary_line: 312 operations · 165 acting · 1 human-in-the-loop
-api_count: 29
+api_count: 11
 apis:
 - description: Core digital asset objects, their media files, renditions, versions, comments, history, faces and video clips. The centre of the MediaValet data model. 54 operations.
   name: MediaValet Assets API
   slug: mediavalet-assets-api
-- description: Branded Portals — externally shareable, branded, permissioned views onto a subset of the asset library, with their own sections and theming. 46 operations.
-  name: MediaValet BrandedPortals API
-  slug: mediavalet-branded-portals-api
 - description: Hierarchical categories (folders) that organize assets and carry the permission sets granted to user groups. 18 operations.
   name: MediaValet Categories API
   slug: mediavalet-categories-api
@@ -59,12 +56,6 @@ apis:
 - description: Lightboxes — user-curated collections of assets that can be shared by share code. 15 operations.
   name: MediaValet Lightbox API
   slug: mediavalet-lightbox-api
-- description: Organizational units (libraries) — the MediaValet tenancy root that every asset, category and event is scoped to. 15 operations.
-  name: MediaValet OrgUnit API
-  slug: mediavalet-org-unit-api
-- description: Durable CDN direct links to assets and renditions, for distributing assets outside the DAM without expiring SAS URLs. 12 operations.
-  name: MediaValet DirectLinks API
-  slug: mediavalet-direct-links-api
 - description: Third-party integration registration — apps, allowed origins for iframe embedding, subscriptions, users and entitlements. 12 operations.
   name: MediaValet Integrations API
   slug: mediavalet-integrations-api
@@ -92,18 +83,6 @@ apis:
 - description: Person and face recognition records used to tag the people appearing in assets. 8 operations.
   name: MediaValet Persons API
   slug: mediavalet-persons-api
-- description: Saved search definitions and their re-execution. 8 operations.
-  name: MediaValet SavedSearches API
-  slug: mediavalet-saved-searches-api
-- description: User groups and group membership — the unit that category permissions are granted to. 7 operations.
-  name: MediaValet UserGroups API
-  slug: mediavalet-user-groups-api
-- description: Groupings of custom metadata attributes. Gated by a per-library feature flag. 6 operations.
-  name: MediaValet AttributeGroups API
-  slug: mediavalet-attribute-groups-api
-- description: Hierarchical groupings of controlled-vocabulary keywords. 5 operations.
-  name: MediaValet KeywordGroups API
-  slug: mediavalet-keyword-groups-api
 - description: SkyHOOK webhook and Azure Event Grid subscription management for MediaValet events. 5 operations.
   name: MediaValet Webhooks API
   slug: mediavalet-webhooks-api
@@ -122,15 +101,36 @@ apis:
 - description: The hypermedia entry point and the bulk batching endpoint. 2 operations.
   name: MediaValet Home API
   slug: mediavalet-home-api
-- description: Version 2 of the MediaValet usage and activity reporting surface. 2 operations.
-  name: MediaValet ReportsV2 API
-  slug: mediavalet-reports-v2-api
-- description: Introductory and help resources served by the API. 1 operation.
-  name: MediaValet IntroductionAndHelp API
-  slug: mediavalet-introduction-and-help-api
-- description: Terms and conditions acceptance. 1 operation.
-  name: MediaValet TermsAndConditions API
-  slug: mediavalet-terms-and-conditions-api
+- description: Groupings of custom metadata attributes.
+  name: MediaValet Attribute Groups API
+  slug: mediavalet-attributegroups-api
+- description: Branded Portals — externally shareable, branded views onto a subset of the library.
+  name: MediaValet Branded Portals API
+  slug: mediavalet-brandedportals-api
+- description: Direct/CDN links to assets and renditions for external distribution.
+  name: MediaValet Direct Links API
+  slug: mediavalet-directlinks-api
+- description: Introductory and help resources served by the API.
+  name: MediaValet Introduction And Help API
+  slug: mediavalet-introductionandhelp-api
+- description: Groupings of controlled-vocabulary keywords.
+  name: MediaValet Keyword Groups API
+  slug: mediavalet-keywordgroups-api
+- description: Organizational units (libraries) and their configuration.
+  name: MediaValet Org Unit API
+  slug: mediavalet-orgunit-api
+- description: Version 2 of the usage and activity reporting surface.
+  name: MediaValet Reports V2 API
+  slug: mediavalet-reportsv2-api
+- description: Saved searches and their execution.
+  name: MediaValet Saved Searches API
+  slug: mediavalet-savedsearches-api
+- description: Terms and conditions acceptance.
+  name: MediaValet Terms And Conditions API
+  slug: mediavalet-termsandconditions-api
+- description: User groups and group membership.
+  name: MediaValet User Groups API
+  slug: mediavalet-usergroups-api
 artifact_total: 69
 asyncapis:
 - description: SkyHOOK is MediaValet's event subscription service. It delivers MediaValet asset, category, keyword and attribute events either directly to a subscriber-owned HTTPS endpoint (webhook) or into a privat
@@ -228,6 +228,10 @@ collections:
   name: MediaValet Webhooks API
   slug: open-mediavalet-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mediavalet-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -417,13 +421,13 @@ modified: '2026-08-13'
 name: MediaValet
 nav: Providers
 network: true
-overview: 'MediaValet publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Assets API, BrandedPortals API, Categories API, and 26 more. Tagged areas include Digital Asset Management, DAM, Media, Assets, and Content.
+overview: 'MediaValet publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Categories API, Users API, and 26 more. Tagged areas include Digital Asset Management, DAM, Media, Assets, and Content.
 
 
   The MediaValet catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MediaValet''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 36 more developer resources.'
+  MediaValet''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, signup flow, and 37 more developer resources.'
 plans:
 - name: Mediavalet Plans Pricing
   plan_count: 2
@@ -440,18 +444,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials/password
 score:
   band: strong
-  composite: 62.9
+  composite: 61.5
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 65.1
     developer_ergonomics: 62.5
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 62.9
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -462,8 +471,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/screenshots/mediavalet-2026-08-07T172338.png
 security:

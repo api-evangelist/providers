@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 22
   slug: microsoft-intune-agentic-access
   summary_line: 22 operations · 16 acting · 2 human-in-the-loop
-api_count: 12
+api_count: 1
 apis:
 - description: The Microsoft Graph API for Intune enables programmatic access to Intune information and actions for your tenant. The API performs the same Intune operations as those available through the Azure Porta
   name: Microsoft Intune API
@@ -292,15 +292,20 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.2
-  delta: 0.0
+  composite: 32.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 67.2
     developer_ergonomics: 14.3
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 9.8
     operational_transparency: 7.9
   needs_work:
@@ -317,8 +322,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-intune/refs/heads/main/screenshots/microsoft-intune-2026-06-20T185505.png
 security:

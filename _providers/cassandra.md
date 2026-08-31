@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 26
   slug: cassandra-agentic-access
   summary_line: 26 operations · 15 acting
-api_count: 12
+api_count: 1
 apis:
 - description: Cassandra Query Language (CQL) is the primary interface to Apache Cassandra. Clients speak the binary CQL native protocol over TCP (default port 9042). Official drivers are maintained for Java, Python
   name: Apache Cassandra CQL Native Protocol
@@ -284,18 +284,26 @@ rate_limits:
   slug: cassandra-rate-limits
 score:
   band: thin
-  composite: 33.2
-  delta: 1.4
+  composite: 36.9
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 3.7
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 46.9
     developer_ergonomics: 33.3
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 31.8
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -303,8 +311,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/screenshots/cassandra-2026-06-20T174035.png
 security:

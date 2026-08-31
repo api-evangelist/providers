@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Zenysis/Harmony/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Zenysis/Harmony/blob/main/CODE_OF_CONDUCT.md
 - group: commercial
   title: ''
   type: License
@@ -95,11 +103,16 @@ network: true
 overview: 'Zenysis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Health Intelligence, Data Integration, and Analytics.
 
 
-  Zenysis'' developer surface includes documentation, engineering blog, support, signup flow, and 8 more developer resources.'
+  Zenysis'' developer surface includes documentation, engineering blog, support, signup flow, and 10 more developer resources.'
 random_paper: 12
 score:
   band: minimal
-  composite: 6.3
+  composite: 7.0
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -110,15 +123,18 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 6.3
+  open_source:
+    applies: true
+    score: 15.0
+  previous_composite: 7.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

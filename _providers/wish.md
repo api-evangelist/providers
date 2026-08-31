@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 102
   slug: wish-agentic-access
   summary_line: 102 operations · 42 acting · 1 human-in-the-loop
-api_count: 21
+api_count: 1
 apis:
 - description: The Brands API from Wish — 1 operation(s) for brands.
   name: Wish Brands API
@@ -180,6 +180,10 @@ collections:
   name: Wish Marketplace V3 Brands Webhook API
   slug: open-wish-webhook-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/wish-capability-edges.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -266,7 +270,7 @@ overview: 'Wish publishes 21 APIs on the [APIs.io](https://apis.io/) network, in
   The Wish catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Wish''s developer surface includes documentation, API reference, getting-started guide, signup flow, and 13 more developer resources.'
+  Wish''s developer surface includes documentation, API reference, getting-started guide, signup flow, and 14 more developer resources.'
 random_paper: 2
 rate_limits:
 - limit_count: 0
@@ -279,18 +283,23 @@ scopes:
   summary_line: 39 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.1
-  delta: 6.0
+  composite: 48.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 69.2
+    contract_governance: 4.5
+    contract_quality: 70.6
     developer_ergonomics: 58.9
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 45.1
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -307,9 +316,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wish/refs/heads/main/screenshots/wish-2026-08-17T082925.png
 security:
 - kind: authentication

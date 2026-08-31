@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -31,17 +31,17 @@ agentic_access:
   operation_count: 7
   slug: keller-williams-agentic-access
   summary_line: 7 operations · 3 acting
-api_count: 3
+api_count: 1
 apis:
-- description: The only Keller Williams API whose specification is published anonymously in the DevHub API catalog. The KW Worldwide Listings service returns Keller Williams Listing Service (KWLS) listings scoped to
-  name: KW Worldwide Listings Search API
-  slug: keller-williams-worldwide-listings-search-api
 - description: Keller Williams uses OpenID Connect on top of OAuth 2.0 to grant a partner application access to an individual KW user's Command data. The authorization server at partners.api.kw.com/idp serves a publ
   name: KW Partner Identity API (OpenID Connect)
   slug: keller-williams-partner-identity-api
 - description: 'The partner-facing surface behind the KW Marketplace, where vendors sell products to Keller Williams agents. Keller Williams pushes subscription lifecycle events — subscription creation, subscription '
   name: KW Marketplace Subscription & Metered Billing API
   slug: keller-williams-marketplace-subscription-api
+- description: The Search API from Keller Williams — 5 operation(s) for search.
+  name: Keller Williams Search API
+  slug: keller-williams-search-api
 arazzos:
 - description: Resolve the KW controlled vocabularies, create a KWLS listing, then read it back to confirm it indexed.
   name: Publish a KW Worldwide listing
@@ -56,6 +56,14 @@ collections:
   name: KW Listings Search
   slug: open-keller-williams-listings-search
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/keller-williams-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/keller-williams-listings-search-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -213,13 +221,13 @@ modified: '2026-07-26'
 name: Keller Williams
 nav: Providers
 network: true
-overview: 'Keller Williams publishes 1 API on the [APIs.io](https://apis.io/) network: KW Worldwide Listings Search API. Tagged areas include Real-Estate, United States, Residential Real Estate, Brokerage, and Franchise.
+overview: 'Keller Williams publishes 1 API on the [APIs.io](https://apis.io/) network: Search API. Tagged areas include Real-Estate, United States, Residential Real Estate, Brokerage, and Franchise.
 
 
   The Keller Williams catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Keller Williams'' developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, support, product news, and 28 more developer resources.'
+  Keller Williams'' developer surface includes authentication, documentation, getting-started guide, API reference, signup flow, support, product news, and 30 more developer resources.'
 random_paper: 17
 scopes:
 - name: Keller Williams Scopes
@@ -227,19 +235,24 @@ scopes:
   slug: keller-williams-scopes
   summary_line: 40 scopes · authorizationCode/implicit/clientCredentials/tokenExchange/jwtBearer
 score:
-  band: developing
-  composite: 40.9
-  delta: 1.2
+  band: thin
+  composite: 38.8
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 64.6
     developer_ergonomics: 19.6
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 39.7
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,8 +264,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/screenshots/keller-williams-2026-08-07T171117.png
 security:

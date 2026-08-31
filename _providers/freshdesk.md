@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 82
   slug: freshdesk-agentic-access
   summary_line: 82 operations · 44 acting
-api_count: 17
+api_count: 1
 apis:
 - description: The Freshdesk Webhook API enables real-time communication between Freshdesk and external systems by sending HTTP POST requests when specific events occur within the helpdesk. Webhooks can be triggered
   name: Freshdesk Webhook API
@@ -245,18 +245,23 @@ rules:
   slug: freshdesk-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.5
-  delta: 1.9
+  composite: 32.9
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 72.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 72.1
     developer_ergonomics: 21.4
-    discoverability: 50.0
+    discoverability: 44.4
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 31.6
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -268,8 +273,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/screenshots/freshdesk-2026-06-20T181554.png
 security:

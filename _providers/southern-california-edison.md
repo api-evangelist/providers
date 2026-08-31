@@ -23,21 +23,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.7
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: SCE's Customer Data Access (CDA) platform, through which a customer can authorize a registered third party to receive their electric usage and billing data. SCE states on its public third-party page t
   name: SCE Green Button Connect My Data
   slug: sce-green-button-connect-my-data
-- description: The machine-readable grid data layer behind SCE's Distribution Resources Plan External Portal (DRPEP). An anonymous, unauthenticated Esri ArcGIS REST service catalog (server version 11.1) exposing fif
-  name: SCE DRPEP ArcGIS REST Services
-  slug: sce-drpep-arcgis-rest-services
-artifact_total: 6
+- description: Undocumented JSON endpoints the DRPEP web app calls directly. Observed answering anonymously; SCE publishes no contract for them.
+  name: Southern California Edison DRPEP Portal API
+  slug: southern-california-edison-drpep-portal-api
+- description: The 15 hosted FeatureServers and their layer/table descriptors.
+  name: Southern California Edison Feature Services API
+  slug: southern-california-edison-feature-services-api
+- description: Attribute and spatial queries against a feature layer or table.
+  name: Southern California Edison Query API
+  slug: southern-california-edison-query-api
+- description: ArcGIS Enterprise server metadata and the service catalog.
+  name: Southern California Edison Server API
+  slug: southern-california-edison-server-api
+artifact_total: 9
 collections:
 - collection_type: open
   name: SCE DRPEP ArcGIS REST Services
   slug: open-southern-california-edison-drpep-arcgis
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/southern-california-edison-drpep-arcgis-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -143,25 +156,30 @@ modified: '2026-07-27'
 name: Southern California Edison
 nav: Providers
 network: true
-overview: 'Southern California Edison publishes 1 API on the [APIs.io](https://apis.io/) network: SCE DRPEP ArcGIS REST Services. Tagged areas include Energy, United States, Utilities, Electricity, and Smart Metering.
+overview: 'Southern California Edison publishes 4 APIs on the [APIs.io](https://apis.io/) network, including DRPEP Portal API, Feature Services API, Query API, and 1 more. Tagged areas include Energy, United States, Utilities, Electricity, and Smart Metering.
 
 
-  Southern California Edison''s developer surface includes developer portal, signup flow, documentation, support, authentication, and 18 more developer resources.'
+  Southern California Edison''s developer surface includes developer portal, signup flow, documentation, support, authentication, and 19 more developer resources.'
 random_paper: 1
 score:
   band: thin
-  composite: 33.0
-  delta: 1.4
+  composite: 30.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 13.6
+    contract_governance: 4.5
+    contract_quality: 13.1
     developer_ergonomics: 44.6
-    discoverability: 70.4
-    governance: 16.7
+    discoverability: 59.3
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 31.6
+  previous_composite: 30.9
   provenance:
     conformance: derived
     contracts:
@@ -176,8 +194,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Access BGOV legislative, regulatory, and government contracting data programmatically. Retrieve bill tracking, regulatory actions, federal contract awards, and lobbying disclosures for integration int
@@ -44,6 +44,10 @@ apis:
   slug: bgov-contracting-api
 artifact_total: 15
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -91,14 +95,14 @@ finops:
   slug: bloomberg-government-bgov-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-government-bgov.png
 layout: provider
-modified: '2026-04-21'
+modified: '2026-08-27'
 name: Bloomberg Government (BGOV)
 nav: Providers
 network: true
 overview: 'Bloomberg Government (BGOV) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Government, Legislative, Regulatory, Government Contracting, and Federal Budget.
 
 
-  Bloomberg Government (BGOV)''s developer surface includes developer portal, documentation, support, and 4 more developer resources.'
+  Bloomberg Government (BGOV)''s developer surface includes developer portal, documentation, support, and 5 more developer resources.'
 plans:
 - name: Bloomberg Government Bgov Plans Pricing
   plan_count: 3
@@ -111,6 +115,11 @@ rate_limits:
 score:
   band: emerging
   composite: 20.6
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -128,8 +137,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 25.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-government-bgov/refs/heads/main/screenshots/bloomberg-government-bgov-2026-06-20T173440.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 10
   slug: hacker-news-agentic-access
   summary_line: 10 operations
-api_count: 4
+api_count: 1
 apis:
 - description: Stories, comments, jobs, Ask HNs, polls, and pollopts.
   name: Hacker News Items API
@@ -151,15 +151,20 @@ rate_limits:
   slug: hacker-news-rate-limits
 score:
   band: thin
-  composite: 31.4
-  delta: 0.0
+  composite: 30.9
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 65.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
     contract_governance: 0.0
     contract_quality: 48.3
     developer_ergonomics: 23.8
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 31.4
@@ -170,8 +175,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/screenshots/hacker-news-2026-06-20T182448.png
 security:

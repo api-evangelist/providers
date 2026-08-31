@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1172
   human_in_the_loop: 30
@@ -34,148 +34,25 @@ agentic_access:
   summary_line: 1886 operations · 1172 acting · 30 human-in-the-loop
 api_count: 47
 apis:
-- description: Infobip's Two Factor Authentication API for OTP (One Time Passcode) delivery and verification. OTPs can be delivered over SMS, Voice or Email. Learn more about the workflow and setup. You can use SDKs
-  name: Infobip 2FA API
-  slug: infobip-2fa
-- description: Manage your Infobip account details, such as individual users and api keys. — 13 operation path(s) and 0 webhook(s) in Infobip's published OpenAPI.
-  name: Infobip Account management API
-  slug: infobip-account-management
-- description: Infobip AI assistant is a retrieval-augmented generation (RAG) solution that performs tasks based on documents and instructions you specify. This means the AI draws answers directly from your document
-  name: Infobip AI Assistants API
-  slug: infobip-ai-assistants
-- description: Answers is the Infobip fully-encompassed chatbot building platform that enables you to build, test, and deploy highly customized chatbots of different types. Multiple channels are supported on Answers
-  name: Infobip Answers API
-  slug: infobip-answers
-- description: Use Apple Messages for Business to contact customers in real time. Through the Messages app on iOS, macOS, watchOS, and iPadOS, Apple Messages for Business makes it easy for customers to communicate w
-  name: Infobip Apple Messages for Business API
-  slug: infobip-apple-mfb
-- description: Applications and Entities are designed to be flexible and modular to give you the opportunity to define your business environment, use cases, applications, customers, assets, etc. on the Infobip platf
-  name: Infobip Application and Entity Management API
-  slug: infobip-application-entity
-- description: The Billing Usage API gives you programmatic access to the same billing data behind your monthly invoices. Query costs on demand, integrate results into your own systems, and build automated reporting
-  name: Infobip Billing Usage API
-  slug: infobip-billing-usage-api
-- description: Represents a set of services used for biometric authentication and identity proofing of the end user. — 5 operation path(s) and 4 webhook(s) in Infobip's published OpenAPI.
-  name: Infobip Biometrics API
-  slug: infobip-biometrics
-- description: Phone numbers and email addresses (referred to as destinations) that no longer want to be contacted are stored inside a Blocklist (also known as Do Not Contact List) This platform feature is used to m
-  name: Infobip Blocklist API
-  slug: infobip-blocklist
-- description: Contact us and get started with CAMARA. Please fill out the form, and our experts will contact you shortly. CAMARA represents a set of services that we offer in cooperation with the mobile network ope
-  name: Infobip CAMARA API
-  slug: infobip-camara
-- description: Create and manage your catalogs to use with other Infobip solutions. Catalogs are similar to databases, you can store and retrieve data sets. Concepts explained Catalog - a set of records. Each record
-  name: Infobip Catalogs API
-  slug: infobip-catalogs-api
-- description: Reuse assets created on Infobip SaaS products in order to recreate configuration more easily on a single or across multiple accounts. Export or share Moments flows, Answers chatbots or other SaaS asse
-  name: Infobip Common Assets API
-  slug: infobip-common-assets
-- description: Conversations is a solution that allows Enterprises to engage in conversations with their customers over multiple channels. The solution is available either as a web-based cloud platform web interface
-  name: Infobip Conversations API
-  slug: infobip-conversations
-- description: Infobip Email is a cloud-based, all-in-one communication solution suited for both transactional and marketing email message delivery. It allows users to create rich, personalized, and responsive email
-  name: Infobip Email API
-  slug: infobip-email
-- description: 'Instagram DMs are an in-app messaging feature that enables your business to be reachable by your customers over one of the most popular social media platforms. To utilize Instagram DMs in combination '
-  name: Infobip Instagram Direct Messages API
-  slug: infobip-instagram
-- description: Kakao Talk holds immense value in the Korean market due to its widespread adoption, versatile features, and seamless integration into various aspects of daily life. In South Korea, Kakao Talk has beco
-  name: Infobip Kakao Talk API
-  slug: infobip-kakao
-- description: Knowledge Base is a centralized content management system for creating, organizing, and retrieving articles, attachments, and structured content. Content is organized into categories, folders, and a h
-  name: Infobip Knowledge Base API
-  slug: infobip-knowledge-base
-- description: 'Disrupt the Southeast Asian market with LINE messaging. Send timely notifications and reminders to your customers, through pre-approved templates, so they can take prompt action and never miss out on '
-  name: Infobip LINE API
-  slug: infobip-line
-- description: Infobip Live Chat product offers real-time chat communication with customer on your website or in through your mobile app. More information about the product you can find at Live Chat product document
-  name: Infobip Live Chat API
-  slug: infobip-live-chat
-- description: The Messages API integrates multiple messaging channels into one interface. Instead of using a separate API for each messaging channel, use only one API for multiple channels and message types. — 5 op
-  name: Infobip Messages API API
-  slug: infobip-messages-api
-- description: Grow your business with conversations on Messenger. To utilize Messenger in combination with other channels, check out Messages API. — 11 operation path(s) and 5 webhook(s) in Infobip's published Open
-  name: Infobip Messenger API
-  slug: infobip-messenger
-- description: Metrics API is a way to access aggregated traffic information. By integrating this API, you can retrieve analytics related to your communications and build your own reporting facilities. — 2 operation
-  name: Infobip Metrics API
-  slug: infobip-metrics-api
-- description: Infobip MMS API allows you to send and receive MMS messages and receive delivery reports on your endpoint in real time. You can send messages up to 1600 characters in length together with multimedia c
-  name: Infobip MMS API
-  slug: infobip-mms
-- description: Mobile push and in-app messaging is a set of API requests to send mobile push and in-app messages, receive data about an application with a mobile SDK​, and receive statistics and reports about push m
-  name: Infobip Mobile push and in-app messaging API
-  slug: infobip-mobile-app-messaging
-- description: Contact us and get started with Mobile Identity. Please fill out the form, and our experts will contact you shortly. — 8 operation path(s) and 3 webhook(s) in Infobip's published OpenAPI.
-  name: Infobip Mobile Identity API
-  slug: infobip-mobile-identity
-- description: Use Moments to set up and manage automated messaging campaigns with your customers by building conversation workflows. — 7 operation path(s) and 0 webhook(s) in Infobip's published OpenAPI.
-  name: Infobip Moments API
-  slug: infobip-moments
-- description: Number Activation State are reports with end user numbers that had a change in their activation status. Those would be usually numbers that become deactivated, however sometimes they would also have i
-  name: Infobip Number Activation State API
-  slug: infobip-number-activation-state
-- description: Number Lookup is a product that draws information from Home Location Register which is a database that contains important information about every mobile subscriber of a specific mobile network. — 3 op
-  name: Infobip Number lookup API
-  slug: infobip-number-lookup
-- description: Numbers are essential for two way communication and your branding. Buy and manage your numbers to send and receive messages and voice calls. — 47 operation path(s) and 7 webhook(s) in Infobip's publis
-  name: Infobip Numbers API
-  slug: infobip-numbers
-- description: 'Send messages over WhatsApp, Viber, Voice, VKontakte, Line and other channels with a failover to SMS or any other channel of your choice. — 5 operation path(s) and 3 webhook(s) in Infobip''s published '
-  name: Infobip OMNI Failover API
-  slug: infobip-omni-failover
-- description: 'Open Channel enables your system to exchange messages with Infobip SaaS products through the Infobip public API. Inbound messages are sent through the Infobip API to the Open Channel destination that '
-  name: Infobip Open Channel API
-  slug: infobip-open-channel
-- description: OpenAPI is an industry-standard specification for defining REST APIs. It allows you to generate client libraries, automate API testing, and streamline integration workflows. Infobip OpenAPI specificat
-  name: Infobip OpenAPI Specification API
-  slug: infobip-openapi
-- description: 'Build rich profiles for each person to create audience segments for more precise targeting. Manage duplicates and import your data over API. Events reflect actions that end users take on your website '
-  name: Infobip People API
-  slug: infobip-people
-- description: Rich Communication Services (RCS) is a new, visually appealing messaging channel that offers rich functionalities to enable more engaging customer journeys. RCS is sometimes referred to as the “SMS 2.
-  name: Infobip RCS API
-  slug: infobip-rcs
-- description: The Resources API is a set of endpoints designed to manage and request communication resources, such as alphanumeric senders and numbers. Automate resource registration, validation, and provisioning t
-  name: Infobip Resources API
-  slug: infobip-resources
-- description: Sending Strategy represents one type of configuration for your sending resources. This configuration in its simplest form allows you to set manipulation for your senders on a country level for a speci
-  name: Infobip Sending Strategy Management API
-  slug: infobip-sending-strategy
-- description: Signals is a solution for detecting and blocking artificially generated traffic. Each mobile device has a unique identifier assigned to it. It's called a Mobile Station International Subscriber Direct
-  name: Infobip Signals API
-  slug: infobip-signals
-- description: SMS (Short Message Service) is the most extensive messaging service available in terms of reach and coverage. A SMS can be sent to and from any mobile device in the world and does not necessarily requ
-  name: Infobip SMS API
-  slug: infobip-sms
-- description: Subscriptions are a way to manage notifications sent to your webhooks by Infobip. It is a useful feature if you want to narrow down the list of events to be notified about or specify different webhook
-  name: Infobip Subscriptions Management API
-  slug: infobip-subscriptions-api
-- description: 'TikTok Business Messaging enables one-to-one conversations between TikTok users and your TikTok Business Account. With Infobip, you can receive inbound messages through webhooks, reply to users using '
-  name: Infobip TikTok API
-  slug: infobip-tiktok
-- description: Viber offers businesses a dynamic duo of tools - Viber Business Messages and Viber Bots. These solutions are designed to revolutionize customer engagement and communication strategies, providing busin
-  name: Infobip Viber API
-  slug: infobip-viber
-- description: Infobip Vocalize API allows you to integrate AI Gamification features into your application. — 9 operation path(s) and 0 webhook(s) in Infobip's published OpenAPI.
-  name: Infobip Vocalize API
-  slug: infobip-vocalize
-- description: Infobip Voice API allows you to engage into voice communication with your customer using the Voice API features. With Calls API, you can use our granular APIs to create any inbound or outbound voice a
-  name: Infobip Voice API
-  slug: infobip-voice
-- description: Infobip WebRTC provide a simplified and secure way of real-time audio and video communication over the web and inside mobile applications. It's powered by Web Real-Time Communication (WebRTC) technolo
-  name: Infobip WebRTC API
-  slug: infobip-webrtc-calls
-- description: With 2 billion users, WhatsApp is the most used application worldwide. It enables you to reach more customers, sharing important and timely notifications, as well as provide real-time customer support
-  name: Infobip WhatsApp API
-  slug: infobip-whatsapp
-- description: Zalo offers businesses a dynamic tool - Zalo Notification Service. This solution is designed to revolutionize customer engagement and communication strategies, providing businesses with a direct and e
-  name: Infobip Zalo API
-  slug: infobip-zalo
-- description: Infobip OpenAPI Specification from Infobip — 652 path(s) described in OpenAPI.
-  name: Infobip OpenAPI Specification
-  slug: infobip-platform-full-openapi
-artifact_total: 150
+- description: AI-powered tools and services to help you create smarter and more personalized customer experiences.
+  name: Infobip AI Hub API
+  slug: infobip-ai-hub-api
+- description: Create a perfect customer experience by using the channels your customer already use and love.
+  name: Infobip Channels API
+  slug: infobip-channels-api
+- description: Powerful infrastructure and tools that connect you to the world.
+  name: Infobip Connectivity API
+  slug: infobip-connectivity-api
+- description: Complete solutions that will help you drive better outcomes for your customers and business across the entire customer journey.
+  name: Infobip Customer Engagement API
+  slug: infobip-customer-engagement-api
+- description: Modular tools to scale and automate your business.
+  name: Infobip Platform API
+  slug: infobip-platform-api
+- description: Developer utilities to help you integrate and work with Infobip APIs more efficiently.
+  name: Infobip Tools API
+  slug: infobip-tools-api
+artifact_total: 109
 asyncapis:
 - description: AsyncAPI projection of the 102 webhooks published in the Infobip platform OpenAPI 3.1 document (the "webhooks" object). Each channel is an Infobip-originated HTTP callback delivered to a customer-conf
   name: Infobip platform webhooks
@@ -464,6 +341,194 @@ collections:
   name: Infobip OpenAPI Specification
   slug: open-infobip-zalo
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/infobip-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-2fa-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-account-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-ai-assistants-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-answers-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-apple-mfb-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-application-entity-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-billing-usage-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-biometrics-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-blocklist-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-camara-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-catalogs-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-common-assets-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-conversations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-email-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-instagram-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-kakao-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-knowledge-base-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-line-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-live-chat-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-messages-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-messenger-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-metrics-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-mms-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-mobile-app-messaging-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-mobile-identity-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-moments-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-number-activation-state-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-number-lookup-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-numbers-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-omni-failover-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-open-channel-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-openapi-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-people-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-rcs-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-resources-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-sending-strategy-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-signals-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-sms-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-subscriptions-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-tiktok-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-viber-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-vocalize-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-voice-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-webrtc-calls-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-whatsapp-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/infobip-zalo-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -733,13 +798,13 @@ modified: '2026-07-25'
 name: Infobip
 nav: Providers
 network: true
-overview: 'Infobip publishes 47 APIs on the [APIs.io](https://apis.io/) network, including 2FA API, Account management API, AI Assistants API, and 44 more. Tagged areas include Telecommunications, Croatia, CPaaS, Messaging, and SMS.
+overview: 'Infobip publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AI Hub API, Channels API, Connectivity API, and 3 more. Tagged areas include Telecommunications, Croatia, CPaaS, Messaging, and SMS.
 
 
   The Infobip catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Infobip''s developer surface includes authentication, documentation, API reference, SDKs, signup flow, pricing, changelog, and 57 more developer resources.'
+  Infobip''s developer surface includes authentication, documentation, API reference, SDKs, signup flow, pricing, changelog, and 104 more developer resources.'
 random_paper: 8
 rate_limits:
 - limit_count: 44
@@ -752,18 +817,23 @@ scopes:
   summary_line: 159 scopes · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 71.0
+  composite: 69.5
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
-    contract_quality: 64.2
+    contract_governance: 18.2
+    contract_quality: 63.7
     developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 71.0
+  previous_composite: 69.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -776,12 +846,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 93.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infobip/refs/heads/main/screenshots/infobip-2026-08-07T170702.png
 security:

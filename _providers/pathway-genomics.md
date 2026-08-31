@@ -23,14 +23,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
-common:
-- group: company
-  title: ''
-  type: Website
-  url: https://forgeglobal.com/pathway-genomics_stock/
 coverage:
   checked: '2026-08-26'
   detail: The Pathway Genomics brand was retired after OME Ventures acquired the renamed Pathway OME on 2021-01-25 and rebranded it OME Wellness, and the company's own 2008 domain pathwaygenomics.com now sits on Afternic nameservers serving a GoDaddy for-sale parking lander that answers HTTP 200 with the identical 114-byte redirect stub for every path — including /openapi.json and every /.well-known/ path — while its own parked llms.txt states the domain is listed for sale.
@@ -70,6 +65,12 @@ random_paper: 5
 score:
   band: minimal
   composite: 1.8
+  coverage:
+    artifact_dirs: 1
+    catalog_gap: 90.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -79,14 +80,16 @@ score:
     discoverability: 46.3
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 1.8
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 slug: pathway-genomics
 tags:
 - Company
@@ -102,5 +105,4 @@ tags:
 - Life Sciences
 - Defunct
 - Acquired
-website: https://forgeglobal.com/pathway-genomics_stock/
 ---

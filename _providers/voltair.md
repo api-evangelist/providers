@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-26'
-api_count: 16
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The ApiKeys API from Voltair — 2 operation(s) for apikeys.
   name: Voltair ApiKeys API
@@ -144,6 +144,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/voltair-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/voltair-api-overlay.yaml
 - group: auth
@@ -244,7 +248,7 @@ overview: 'Voltair publishes 16 APIs on the [APIs.io](https://apis.io/) network,
   The Voltair catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Voltair''s developer surface includes documentation, API reference, authentication, and 18 more developer resources.'
+  Voltair''s developer surface includes documentation, API reference, authentication, and 19 more developer resources.'
 random_paper: 13
 rate_limits:
 - limit_count: 0
@@ -252,18 +256,23 @@ rate_limits:
   slug: voltair-rate-limits
 score:
   band: thin
-  composite: 32.5
-  delta: 0.0
+  composite: 30.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 60.3
     developer_ergonomics: 30.4
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 32.5
+  previous_composite: 31.0
   provenance:
     conformance: derived
     contracts:
@@ -279,8 +288,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

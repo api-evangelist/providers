@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 89
   slug: phemex-agentic-access
   summary_line: 89 operations · 32 acting
-api_count: 9
+api_count: 4
 apis:
 - description: The Account API from Phemex — 10 operation(s) for account.
   name: Phemex Account API
@@ -104,6 +104,10 @@ collections:
   name: Phemex Contract Trading Account Wallets API
   slug: open-phemex-wallets-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/phemex/phemex-api-docs/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -209,7 +213,7 @@ overview: 'Phemex publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   The Phemex catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Phemex''s developer surface includes authentication, documentation, and 15 more developer resources.'
+  Phemex''s developer surface includes authentication, documentation, and 16 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -243,8 +247,13 @@ rules:
     warn: 3
   slug: phemex-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 39.5
+  band: thin
+  composite: 35.6
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 50.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -255,7 +264,10 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 13.2
-  previous_composite: 39.5
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -269,8 +281,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/screenshots/phemex-2026-06-20T191642.png
 security:

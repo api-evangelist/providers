@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 20
 apis:
 - description: OpenAI Evals is the open-source framework released by OpenAI for evaluating large language models and LLM-based systems. The README states "Evals provide a framework for evaluating large language mode
@@ -280,8 +280,13 @@ rules:
   slug: evals-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 21.7
-  delta: 5.9
+  composite: 23.0
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 55.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.3
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -291,10 +296,13 @@ score:
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 13.2
-  previous_composite: 15.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  open_source:
+    applies: true
+    score: 35.0
+  previous_composite: 21.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evals/refs/heads/main/screenshots/evals-2026-06-20T180857.png
 security:
 - kind: domain-security

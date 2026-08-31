@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: tsinghua-agentic-access
   summary_line: 4 operations
-api_count: 4
+api_count: 3
 apis:
 - description: 'The TUNA open-source software mirror is the one surface Tsinghua publishes that behaves like a public API. It is operated by TUNA (Tsinghua University TUNA Association), a student association, on the '
   name: Tsinghua University TUNA Open Source Mirror
@@ -65,6 +65,10 @@ collections:
   name: TUNA Mirror Sync Status Mirror Status API
   slug: open-tsinghua-mirror-status-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tsinghua-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -193,7 +197,7 @@ overview: 'Tsinghua University publishes 2 APIs on the [APIs.io](https://apis.io
   The Tsinghua University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tsinghua University''s developer surface includes GitHub presence, documentation, authentication, and 19 more developer resources.'
+  Tsinghua University''s developer surface includes GitHub presence, documentation, authentication, and 20 more developer resources.'
 plans:
 - name: Tsinghua Plans Pricing
   plan_count: 2
@@ -228,7 +232,12 @@ rules:
 score:
   band: developing
   composite: 40.0
-  delta: 2.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -238,7 +247,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 37.3
+  previous_composite: 40.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -253,8 +262,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tsinghua/refs/heads/main/screenshots/tsinghua-2026-06-20T195921.png
 security:

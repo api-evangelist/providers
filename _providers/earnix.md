@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 2
 common:
@@ -72,7 +72,7 @@ modified: '2026-07-18'
 name: Earnix
 nav: Providers
 network: true
-overview: 'Earnix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Pricing, and Rating.
+overview: 'Earnix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Pricing, and Rating.
 
 
   Earnix''s developer surface includes engineering blog, support, and 5 more developer resources.'
@@ -80,6 +80,11 @@ random_paper: 17
 score:
   band: emerging
   composite: 11.0
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 26.3
@@ -97,8 +102,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 22.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/earnix/refs/heads/main/screenshots/earnix-2026-07-25T212659.png
 security:
@@ -114,7 +119,7 @@ slug: earnix
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Pricing
 - Rating
 - Underwriting

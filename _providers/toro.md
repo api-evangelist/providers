@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 34
   slug: toro-agentic-access
   summary_line: 34 operations · 13 acting · 1 human-in-the-loop
-api_count: 12
+api_count: 2
 apis:
 - description: Toro myTurf Pro is a web-based equipment management solution for golf courses and sports fields that provides fleet tracking, maintenance scheduling, work orders, parts management, and equipment healt
   name: Toro myTurf
@@ -125,6 +125,10 @@ collections:
   name: Toro Horizon360 Crews Zones API
   slug: open-toro-zones-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/toro-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -206,7 +210,7 @@ overview: 'Toro publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
   The Toro catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Toro''s developer surface includes authentication, engineering blog, and 8 more developer resources.'
+  Toro''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
 plans:
 - name: Toro Plans Pricing
   plan_count: 4
@@ -256,18 +260,23 @@ rules:
   slug: toro-spectral-rules
 score:
   band: thin
-  composite: 33.0
-  delta: 1.1
+  composite: 32.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 57.7
+    contract_quality: 57.5
     developer_ergonomics: 23.8
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 31.9
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
@@ -275,8 +284,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

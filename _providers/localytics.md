@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 13
   slug: localytics-agentic-access
   summary_line: 13 operations · 8 acting
-api_count: 10
+api_count: 2
 apis:
 - description: Requests relating to audiences
   name: Localytics Audiences API
@@ -52,9 +52,6 @@ apis:
 - description: Requests relating to push-channel campaigns
   name: Localytics Push Campaigns API
   slug: localytics-push-campaigns-api
-- description: Programmatic push messaging delivery. Submit a batch of pushes for an application targeting customer_ids, an audience_id, a profile query, or a broadcast; messages are forwarded to push-segmenter or m
-  name: Localytics Transactional Push API
-  slug: localytics-transactional-push-api
 - description: HAL+JSON reporting and analytics API. Run queries over apps, events, sessions, users, profiles and attribution data with metrics, dimensions and conditions; the service root at https://api.localytics.
   name: Localytics Query API
   slug: localytics-query-api
@@ -73,7 +70,13 @@ apis:
 - description: Point-of-interest sync for location-triggered messaging — upload and manage the geofence/POI set an app monitors. Rate limited to 20 requests per hour and 50 per day per app. No machine-readable speci
   name: Localytics Places API
   slug: localytics-places-api
-artifact_total: 22
+- description: Health and documentation endpoints
+  name: Localytics Meta API
+  slug: localytics-meta-api
+- description: Transactional push send endpoints
+  name: Localytics Push API
+  slug: localytics-push-api
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -88,6 +91,10 @@ collections:
   name: Localytics Campaigns And Audience Audiences Push Campaigns API
   slug: open-localytics-push-campaigns-api
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/localytics-send-transactional-push.md
 - group: start
   title: ''
   type: DeveloperPortal
@@ -261,10 +268,10 @@ modified: '2026-08-13'
 name: Localytics
 nav: Providers
 network: true
-overview: 'Localytics publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Audiences API, Campaigns API, Push Campaigns API, and 1 more. Tagged areas include Company, MarTech, Mobile Analytics, Push Notifications, and Customer Engagement.
+overview: 'Localytics publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Audiences API, Campaigns API, Push Campaigns API, and 2 more. Tagged areas include Company, Martech, Mobile Analytics, Push Notifications, and Customer Engagement.
 
 
-  Localytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 32 more developer resources.'
+  Localytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 33 more developer resources.'
 plans:
 - name: Localytics Plans Pricing
   plan_count: 0
@@ -276,18 +283,23 @@ rate_limits:
   slug: localytics-rate-limits
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 47.9
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
-    contract_quality: 54.5
+    contract_governance: 4.5
+    contract_quality: 55.0
     developer_ergonomics: 73.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 49.8
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -298,8 +310,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/screenshots/localytics-2026-07-25T225426.png
 security:
@@ -318,7 +330,7 @@ security:
 slug: localytics
 tags:
 - Company
-- MarTech
+- Martech
 - Mobile Analytics
 - Push Notifications
 - Customer Engagement

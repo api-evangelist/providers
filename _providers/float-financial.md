@@ -23,13 +23,79 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: REST API (OpenAPI 3.1.0, 71 operations across 47 paths) for automating accounting and reporting against Float. Read card transactions, account transactions, bills, bill attachments, payments, reimburs
-  name: Float Public API
-  slug: float-public-api
-artifact_total: 8
+- description: The Account Transactions API from Float Financial — 2 operation(s) for account transactions.
+  name: Float Financial Account Transactions API
+  slug: float-financial-account-transactions-api
+- description: The Accounting Connections API from Float Financial — 2 operation(s) for accounting connections.
+  name: Float Financial Accounting Connections API
+  slug: float-financial-accounting-connections-api
+- description: The Accounts API from Float Financial — 2 operation(s) for accounts.
+  name: Float Financial Accounts API
+  slug: float-financial-accounts-api
+- description: The Approval Policies API from Float Financial — 2 operation(s) for approval policies.
+  name: Float Financial Approval Policies API
+  slug: float-financial-approval-policies-api
+- description: The Bill Attachments API from Float Financial — 2 operation(s) for bill attachments.
+  name: Float Financial Bill Attachments API
+  slug: float-financial-bill-attachments-api
+- description: The Bills API from Float Financial — 3 operation(s) for bills.
+  name: Float Financial Bills API
+  slug: float-financial-bills-api
+- description: The Card Limits API from Float Financial — 2 operation(s) for card limits.
+  name: Float Financial Card Limits API
+  slug: float-financial-card-limits-api
+- description: The Card Transactions API from Float Financial — 2 operation(s) for card transactions.
+  name: Float Financial Card Transactions API
+  slug: float-financial-card-transactions-api
+- description: The Cards API from Float Financial — 2 operation(s) for cards.
+  name: Float Financial Cards API
+  slug: float-financial-cards-api
+- description: The Custom Fields API from Float Financial — 4 operation(s) for custom fields.
+  name: Float Financial Custom Fields API
+  slug: float-financial-custom-fields-api
+- description: The GL Codes API from Float Financial — 2 operation(s) for gl codes.
+  name: Float Financial GL Codes API
+  slug: float-financial-gl-codes-api
+- description: The Meta API from Float Financial — 1 operation(s) for meta.
+  name: Float Financial Meta API
+  slug: float-financial-meta-api
+- description: The Payments API from Float Financial — 2 operation(s) for payments.
+  name: Float Financial Payments API
+  slug: float-financial-payments-api
+- description: The Receipts API from Float Financial — 2 operation(s) for receipts.
+  name: Float Financial Receipts API
+  slug: float-financial-receipts-api
+- description: The Reimbursements API from Float Financial — 3 operation(s) for reimbursements.
+  name: Float Financial Reimbursements API
+  slug: float-financial-reimbursements-api
+- description: The Submission Policies API from Float Financial — 2 operation(s) for submission policies.
+  name: Float Financial Submission Policies API
+  slug: float-financial-submission-policies-api
+- description: The Subsidiaries API from Float Financial — 2 operation(s) for subsidiaries.
+  name: Float Financial Subsidiaries API
+  slug: float-financial-subsidiaries-api
+- description: The Tax Codes API from Float Financial — 2 operation(s) for tax codes.
+  name: Float Financial Tax Codes API
+  slug: float-financial-tax-codes-api
+- description: The Tax Components API from Float Financial — 1 operation(s) for tax components.
+  name: Float Financial Tax Components API
+  slug: float-financial-tax-components-api
+- description: The Teams API from Float Financial — 2 operation(s) for teams.
+  name: Float Financial Teams API
+  slug: float-financial-teams-api
+- description: The Users API from Float Financial — 2 operation(s) for users.
+  name: Float Financial Users API
+  slug: float-financial-users-api
+- description: The Vendors API from Float Financial — 2 operation(s) for vendors.
+  name: Float Financial Vendors API
+  slug: float-financial-vendors-api
+- description: The Webhooks API from Float Financial — 1 operation(s) for webhooks.
+  name: Float Financial Webhooks API
+  slug: float-financial-webhooks-api
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Float Financial Webhooks
@@ -175,7 +241,7 @@ modified: '2026-08-16'
 name: Float Financial
 nav: Providers
 network: true
-overview: 'Float Financial publishes 1 API on the [APIs.io](https://apis.io/) network: Float Public API. Tagged areas include Spend Management, Corporate Cards, Expense Management, Accounts Payable, and Bill Pay.
+overview: 'Float Financial publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account Transactions API, Accounting Connections API, Accounts API, and 20 more. Tagged areas include spend-management, corporate-cards, expense-management, accounts-payable, and bill-pay.
 
 
   The Float Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -193,18 +259,23 @@ rate_limits:
   slug: float-financial-rate-limits
 score:
   band: strong
-  composite: 61.8
-  delta: 0.0
+  composite: 60.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 30.3
-    contract_quality: 63.9
+    contract_governance: 18.2
+    contract_quality: 63.1
     developer_ergonomics: 45.8
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 61.8
+  previous_composite: 60.7
   provenance:
     conformance: first-party
     contracts:
@@ -220,8 +291,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/float-financial/refs/heads/main/screenshots/float-financial-2026-08-17T080932.png
 security:
@@ -243,17 +314,17 @@ security:
   summary_line: SOC 2 Type 2, PCI DSS
 slug: float-financial
 tags:
-- Spend Management
-- Corporate Cards
-- Expense Management
-- Accounts Payable
-- Bill Pay
-- Reimbursement
-- Business Banking
-- Accounting Integration
+- spend-management
+- corporate-cards
+- expense-management
+- accounts-payable
+- bill-pay
+- reimbursements
+- business-banking
+- accounting-integration
 - Fintech
-- Canada
+- canada
 - Payments
-- ERP Integration
+- erp-integration
 website: https://floatfinancial.com/
 ---

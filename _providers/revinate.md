@@ -23,14 +23,41 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 8
 apis:
-- description: The Porter API is Revinate's structured review-data REST API. It provides read access to hotel reviews aggregated across more than 100 review sites, plus key metrics (review counts, average ratings, T
-  name: Revinate Porter API
-  slug: porter
-artifact_total: 8
+- description: The Hotel Sets API from Revinate — 4 operation(s) for hotel sets.
+  name: Revinate Hotel Sets API
+  slug: revinate-hotel-sets-api
+- description: The Hotels API from Revinate — 11 operation(s) for hotels.
+  name: Revinate Hotels API
+  slug: revinate-hotels-api
+- description: The Languages API from Revinate — 2 operation(s) for languages.
+  name: Revinate Languages API
+  slug: revinate-languages-api
+- description: The Review Sites API from Revinate — 2 operation(s) for review sites.
+  name: Revinate Review Sites API
+  slug: revinate-review-sites-api
+- description: The Reviews API from Revinate — 2 operation(s) for reviews.
+  name: Revinate Reviews API
+  slug: revinate-reviews-api
+- description: The Widget Reviews API from Revinate — 1 operation(s) for widget reviews.
+  name: Revinate Widget Reviews API
+  slug: revinate-widget-reviews-api
+artifact_total: 13
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/revinate-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/revinate-porter-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -131,10 +158,10 @@ modified: '2026-08-26'
 name: Revinate
 nav: Providers
 network: true
-overview: 'Revinate publishes 1 API on the [APIs.io](https://apis.io/) network: Porter API. Tagged areas include Hospitality, Hotels, Reviews, Reputation Management, and Guest Data Platform.
+overview: 'Revinate publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Hotel Sets API, Hotels API, Languages API, and 3 more. Tagged areas include Hospitality, Hotels, Reviews, Reputation Management, and Guest Data Platform.
 
 
-  Revinate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 17 more developer resources.'
+  Revinate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
 plans:
 - name: Revinate Plans Pricing
   plan_count: 0
@@ -151,16 +178,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.3
+  composite: 43.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 16.7
-    contract_quality: 59.2
+    contract_governance: 4.5
+    contract_quality: 57.1
     developer_ergonomics: 58.9
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 2.6
+  previous_composite: 43.8
   provenance:
     conformance: derived
     contracts:
@@ -170,8 +204,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Revinate Authentication

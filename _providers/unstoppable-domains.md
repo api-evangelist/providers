@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 6
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 142
   slug: unstoppable-domains-agentic-access
   summary_line: 142 operations · 89 acting · 6 human-in-the-loop
-api_count: 33
+api_count: 4
 apis:
 - description: Manage your account details
   name: Unstoppable Domains account API
@@ -248,6 +248,10 @@ collections:
   name: Web3 Partner API v3 account webhooks API
   slug: open-unstoppable-domains-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/unstoppable-domains-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -335,7 +339,7 @@ network: true
 overview: 'Unstoppable Domains publishes 33 APIs on the [APIs.io](https://apis.io/) network, including account API, AI Lander API, Backorders API, and 30 more. Tagged areas include Web3, Blockchain, Domain Names, NFT Domains, and Crypto.
 
 
-  Unstoppable Domains'' developer surface includes authentication, documentation, API reference, sandbox, pricing, engineering blog, and 12 more developer resources.'
+  Unstoppable Domains'' developer surface includes authentication, documentation, API reference, sandbox, pricing, engineering blog, and 13 more developer resources.'
 plans:
 - name: Unstoppable Domains Plans Pricing
   plan_count: 4
@@ -347,18 +351,23 @@ rate_limits:
   slug: unstoppable-domains-rate-limits
 score:
   band: developing
-  composite: 39.5
+  composite: 39.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 60.6
+    contract_quality: 60.0
     developer_ergonomics: 31.0
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 39.5
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -366,8 +375,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 33
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unstoppable-domains/refs/heads/main/screenshots/unstoppable-domains-2026-06-20T200411.png
 security:

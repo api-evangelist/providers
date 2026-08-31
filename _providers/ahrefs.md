@@ -16,24 +16,147 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: verified
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.3
-  scored_at: '2026-08-26'
-api_count: 2
+  score: 51.8
+  scored_at: '2026-08-30'
+api_count: 15
 apis:
-- description: REST API over the Ahrefs data set — Site Explorer, Keywords Explorer, Site Audit, Rank Tracker, SERP Overview, Batch Analysis, Brand Radar, Web Analytics, GSC Insights, Social Media Management, Manage
-  name: Ahrefs API v3
-  slug: api-v3
 - description: Ahrefs' hosted, remote Model Context Protocol server, which lets AI agents query the Ahrefs API on behalf of a signed-in Ahrefs account. Streamable HTTP transport, OAuth 2.0 with PKCE (scope apiv3-mcp
   name: Ahrefs MCP Server
   slug: mcp
-artifact_total: 22
+- description: The AI visibility API from Ahrefs — 3 operation(s) for ai visibility.
+  name: Ahrefs AI visibility API
+  slug: ahrefs-ai-visibility-api
+- description: GSC anonymous queries data
+  name: Ahrefs Anonymous queries API
+  slug: ahrefs-anonymous-queries-api
+- description: Backlinks data
+  name: Ahrefs Backlinks profile API
+  slug: ahrefs-backlinks-profile-api
+- description: Batch Analysis table
+  name: Ahrefs Batch Analysis API
+  slug: ahrefs-batch-analysis-api
+- description: The Brand Radar prompts API from Ahrefs — 2 operation(s) for brand radar prompts.
+  name: Ahrefs Brand Radar prompts API
+  slug: ahrefs-brand-radar-prompts-api
+- description: The Brand radar reports API from Ahrefs — 1 operation(s) for brand radar reports.
+  name: Ahrefs Brand radar reports API
+  slug: ahrefs-brand-radar-reports-api
+- description: The Channels API from Ahrefs — 2 operation(s) for channels.
+  name: Ahrefs Channels API
+  slug: ahrefs-channels-api
+- description: The Competitors API from Ahrefs — 2 operation(s) for competitors.
+  name: Ahrefs Competitors API
+  slug: ahrefs-competitors-api
+- description: Data from competitors
+  name: Ahrefs Competitors Overview API
+  slug: ahrefs-competitors-overview-api
+- description: The Crawler API from Ahrefs — 2 operation(s) for crawler.
+  name: Ahrefs Crawler API
+  slug: ahrefs-crawler-api
+- description: The Domain Rating API from Ahrefs — 2 operation(s) for domain rating.
+  name: Ahrefs Domain Rating API
+  slug: ahrefs-domain-rating-api
+- description: The Geography API from Ahrefs — 8 operation(s) for geography.
+  name: Ahrefs Geography API
+  slug: ahrefs-geography-api
+- description: Keyword ideas reports
+  name: Ahrefs Keyword ideas API
+  slug: ahrefs-keyword-ideas-api
+- description: The Keyword lists API from Ahrefs — 2 operation(s) for keyword lists.
+  name: Ahrefs Keyword lists API
+  slug: ahrefs-keyword-lists-api
+- description: GSC keywords data
+  name: Ahrefs Keywords API
+  slug: ahrefs-keywords-api
+- description: The Limits and usage API from Ahrefs — 1 operation(s) for limits and usage.
+  name: Ahrefs Limits and usage API
+  slug: ahrefs-limits-and-usage-api
+- description: The Locations and languages API from Ahrefs — 1 operation(s) for locations and languages.
+  name: Ahrefs Locations and languages API
+  slug: ahrefs-locations-and-languages-api
+- description: The MCP API from Ahrefs — 7 operation(s) for mcp.
+  name: Ahrefs MCP API
+  slug: ahrefs-mcp-api
+- description: Organic search data
+  name: Ahrefs Organic search API
+  slug: ahrefs-organic-search-api
+- description: Outgoing links data
+  name: Ahrefs Outgoing links API
+  slug: ahrefs-outgoing-links-api
+- description: The Overview API from Ahrefs — 29 operation(s) for overview.
+  name: Ahrefs Overview API
+  slug: ahrefs-overview-api
+- description: The Overview history API from Ahrefs — 4 operation(s) for overview history.
+  name: Ahrefs Overview history API
+  slug: ahrefs-overview-history-api
+- description: The Page content API from Ahrefs — 1 operation(s) for page content.
+  name: Ahrefs Page content API
+  slug: ahrefs-page-content-api
+- description: The Page explorer API from Ahrefs — 1 operation(s) for page explorer.
+  name: Ahrefs Page explorer API
+  slug: ahrefs-page-explorer-api
+- description: GSC pages data
+  name: Ahrefs Pages API
+  slug: ahrefs-pages-api
+- description: Paid search data
+  name: Ahrefs Paid search API
+  slug: ahrefs-paid-search-api
+- description: The Posts API from Ahrefs — 5 operation(s) for posts.
+  name: Ahrefs Posts API
+  slug: ahrefs-posts-api
+- description: The Projects API from Ahrefs — 3 operation(s) for projects.
+  name: Ahrefs Projects API
+  slug: ahrefs-projects-api
+- description: SERP Overview data
+  name: Ahrefs SERP Overview API
+  slug: ahrefs-serp-overview-api
+- description: The Traffic Sources API from Ahrefs — 8 operation(s) for traffic sources.
+  name: Ahrefs Traffic Sources API
+  slug: ahrefs-traffic-sources-api
+- description: The User Agents API from Ahrefs — 10 operation(s) for user agents.
+  name: Ahrefs User Agents API
+  slug: ahrefs-user-agents-api
+- description: Brand radar.
+  name: Ahrefs Brand Radar API
+  slug: ahrefs-brand-radar-api
+- description: Fetch data from GSC Insights reports
+  name: Ahrefs GSC Insights API
+  slug: ahrefs-gsc-insights-api
+- description: Fetch data from Keywords Explorer reports
+  name: Ahrefs Keywords Explorer API
+  slug: ahrefs-keywords-explorer-api
+- description: Project management.
+  name: Ahrefs Management API
+  slug: ahrefs-management-api
+- description: Free endpoints that don't require an Ahrefs subscription, or require a free/public APIv3 key
+  name: Ahrefs Public API
+  slug: ahrefs-public-api
+- description: Rank tracker.
+  name: Ahrefs Rank Tracker API
+  slug: ahrefs-rank-tracker-api
+- description: Site audit.
+  name: Ahrefs Site Audit API
+  slug: ahrefs-site-audit-api
+- description: Fetch data from Site Explorer reports
+  name: Ahrefs Site Explorer API
+  slug: ahrefs-site-explorer-api
+- description: Social Media Management.
+  name: Ahrefs Social Media API
+  slug: ahrefs-social-media-api
+- description: Subscription information.
+  name: Ahrefs Subscription Information API
+  slug: ahrefs-subscription-information-api
+- description: Web_analytics.
+  name: Ahrefs Web Analytics API
+  slug: ahrefs-web-analytics-api
+artifact_total: 63
 collections:
 - collection_type: open
   name: Batch Analysis
@@ -75,6 +198,14 @@ collections:
   name: Web Analytics
   slug: open-ahrefs-web-analytics
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ahrefs-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ahrefs-api-v3-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -211,10 +342,10 @@ modified: '2026-08-12'
 name: Ahrefs
 nav: Providers
 network: true
-overview: 'Ahrefs publishes 1 API on the [APIs.io](https://apis.io/) network: API v3. Tagged areas include Company, SEO, Marketing, Search, and Analytics.
+overview: 'Ahrefs publishes 42 APIs on the [APIs.io](https://apis.io/) network, including AI visibility API, Anonymous queries API, Backlinks profile API, and 39 more. Tagged areas include Company, SEO, Marketing, Search, and Analytics.
 
 
-  Ahrefs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+  Ahrefs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 plans:
 - name: Ahrefs Plans Pricing
   plan_count: 6
@@ -231,18 +362,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.3
+  composite: 62.8
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 16.7
-    contract_quality: 33.3
+    contract_governance: 4.5
+    contract_quality: 55.1
     developer_ergonomics: 78.6
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 59.3
+  previous_composite: 62.8
   provenance:
     conformance: derived
     contracts:
@@ -252,8 +388,8 @@ score:
       total: 13
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ahrefs/refs/heads/main/screenshots/ahrefs-2026-08-17T080541.png
 security:

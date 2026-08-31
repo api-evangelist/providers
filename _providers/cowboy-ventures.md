@@ -29,7 +29,7 @@ tags:
 - Enterprise
 - Fintech
 - Security
-- Future Of Work
+- Future of Work
 - Healthcare
 - United States
 ---

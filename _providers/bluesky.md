@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 5
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 168
   slug: bluesky-agentic-access
   summary_line: 168 operations · 75 acting · 5 human-in-the-loop
-api_count: 24
+api_count: 1
 apis:
 - description: Jetstream is a simplified JSON event stream for the AT Protocol that converts CBOR-encoded MST blocks from the firehose into JSON objects over WebSocket connections, making it easier to consume real-t
   name: Bluesky Jetstream
@@ -201,6 +201,10 @@ collections:
   name: Bluesky Bruno Collection
   slug: bruno
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bluesky-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -335,7 +339,7 @@ overview: 'Bluesky publishes 24 APIs on the [APIs.io](https://apis.io/) network,
   The Bluesky catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Bluesky''s developer surface includes authentication, support, engineering blog, getting-started guide, and 24 more developer resources.'
+  Bluesky''s developer surface includes authentication, support, engineering blog, getting-started guide, and 25 more developer resources.'
 plans:
 - name: Bluesky Plans Pricing
   plan_count: 3
@@ -359,18 +363,23 @@ rules:
   slug: bluesky-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.1
-  delta: 3.3
+  composite: 43.5
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 78.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 11.4
     contract_quality: 66.7
     developer_ergonomics: 59.5
-    discoverability: 40.7
+    discoverability: 44.4
     governance: 11.4
     operational_transparency: 13.2
-  previous_composite: 39.8
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -378,8 +387,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/screenshots/bluesky-2026-06-20T173536.png
 security:

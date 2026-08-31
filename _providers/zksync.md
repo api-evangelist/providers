@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 10
 apis:
 - description: JSON-RPC endpoint for zkSync Era mainnet (chain ID 324). Implements standard eth_* methods plus zks_* extensions for L1 batch info, fee estimation, bridge contracts, paymaster params, token addresses,
@@ -72,6 +72,26 @@ asyncapis:
   name: zkSync Era WebSocket JSON-RPC PubSub API
   slug: zksync-asyncapi
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/zksync-sdk/zksync-ethers/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/zksync-sdk/zksync-ethers/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/zksync-sdk/zksync-ethers/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/zksync-sdk/zksync-ethers/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/zksync-sdk/zksync-ethers/blob/main/.github/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -140,13 +160,13 @@ modified: '2026-05-29'
 name: zkSync
 nav: Providers
 network: true
-overview: 'zkSync publishes 1 API on the [APIs.io](https://apis.io/) network: Era WebSocket. Tagged areas include Layer 2, Ethereum, zkEVM, ZK-Rollup, and Account Abstraction.
+overview: 'zkSync publishes 1 API on the [APIs.io](https://apis.io/) network: Era WebSocket. Tagged areas include Layer 2, Ethereum, zkEVM, ZK Rollup, and Account Abstraction.
 
 
   The zkSync catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  zkSync''s developer surface includes documentation, GitHub presence, developer portal, status page, engineering blog, and 9 more developer resources.'
+  zkSync''s developer surface includes documentation, GitHub presence, developer portal, status page, engineering blog, and 14 more developer resources.'
 plans:
 - name: Zksync Plans Pricing
   plan_count: 1
@@ -169,8 +189,13 @@ rules:
     warn: 4
   slug: zksync-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 33.9
+  band: developing
+  composite: 43.6
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -180,10 +205,13 @@ score:
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 13.6
-    operational_transparency: 26.3
-  previous_composite: 33.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 43.6
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zksync/refs/heads/main/screenshots/zksync-2026-06-20T201926.png
 security:
@@ -196,7 +224,7 @@ tags:
 - Layer 2
 - Ethereum
 - zkEVM
-- ZK-Rollup
+- ZK Rollup
 - Account Abstraction
 - Paymaster
 - ZK Stack

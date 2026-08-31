@@ -15,27 +15,42 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-26'
-api_count: 3
+  score: 28.6
+  scored_at: '2026-08-30'
+api_count: 15
 apis:
-- description: The Health Intelligence Platform (HIP) Admin API for creating and managing Human API users, submitting and managing EHR order types, managing subscriptions, and fetching delivered clinical summary rep
-  name: Human API Admin API
-  slug: human-api-admin-api
-- description: The HAPI Auth Public API for facilitating token exchange with external authentication systems. Exposes POST /v1/admin/token (Admin API client-type token via client_id/client_secret) and POST /v1/conne
-  name: Human API Authentication API
-  slug: human-api-authentication-api
 - description: The consumer-mediated Data API (legacy v2.1) for querying a user's normalized health data - wellness data from wearable devices and apps, and medical data (records, labs, medications, encounters) from
   name: Human API Data API
   slug: human-api-data-api
-artifact_total: 14
+- description: API endpoints to authorize a client app for the Admin API
+  name: Human API Admin API
+  slug: human-api-admin-api
+- description: API endpoints to generate tokens for Connect App
+  name: Human API Connect API
+  slug: human-api-connect-api
+- description: API endpoints to get orders
+  name: Human API Orders API
+  slug: human-api-orders-api
+- description: API endpoints to manage user resports
+  name: Human API Reports API
+  slug: human-api-reports-api
+- description: API endpoints to request different resources
+  name: Human API Resources API
+  slug: human-api-resources-api
+- description: API endpoints to manage subscriptions
+  name: Human API Subscriptions API
+  slug: human-api-subscriptions-api
+- description: API endpoints to manage users
+  name: Human API Users API
+  slug: human-api-users-api
+artifact_total: 19
 asyncapis:
 - description: Webhook notifications the Health Intelligence Platform pushes to a configured client endpoint. Notifications are delivered as JSON arrays of event objects. Enablement is per-client and arranged with a
   name: Human API HIP Notifications
@@ -257,7 +272,7 @@ modified: '2026-08-15'
 name: Human API
 nav: Providers
 network: true
-overview: 'Human API publishes 2 APIs on the [APIs.io](https://apis.io/) network: Admin API and Authentication API. Tagged areas include Healthcare, United States, Health Data, EHR, and Interoperability.
+overview: 'Human API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Connect API, Orders API, and 4 more. Tagged areas include Healthcare, United States, Health Data, EHR, and Interoperability.
 
 
   The Human API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -275,18 +290,23 @@ rate_limits:
   slug: human-api-rate-limits
 score:
   band: strong
-  composite: 57.0
+  composite: 55.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 30.3
-    contract_quality: 54.8
+    contract_governance: 18.2
+    contract_quality: 58.4
     developer_ergonomics: 67.3
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 57.0
+  previous_composite: 55.4
   provenance:
     conformance: first-party
     contracts:
@@ -298,12 +318,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 58.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/screenshots/human-api-2026-07-25T221654.png
 security:

@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.8
-  scored_at: '2026-08-26'
-api_count: 40
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Agencies API from TheSpaceDevs LL2 API — 2 operation(s) for agencies.
   name: TheSpaceDevs LL2 API Agencies API
@@ -381,26 +381,31 @@ rules:
   slug: thespacedevs-rules
 score:
   band: thin
-  composite: 32.3
-  delta: 1.8
+  composite: 28.9
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 68.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 25.0
-    contract_quality: 58.9
+    contract_quality: 54.9
     developer_ergonomics: 14.3
-    discoverability: 68.5
+    discoverability: 44.4
     governance: 25.0
     operational_transparency: 13.2
-  previous_composite: 30.5
+  previous_composite: 29.5
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thespacedevs-ll2-api/refs/heads/main/screenshots/thespacedevs-ll2-api-2026-06-20T195255.png
 security:

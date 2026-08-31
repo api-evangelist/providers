@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 21
   slug: hyperice-agentic-access
   summary_line: 21 operations · 13 acting
-api_count: 3
+api_count: 1
 apis:
 - description: The Shopify Storefront GraphQL API served on Hyperice's own domain. Full introspection succeeded unauthenticated on 2026-07-31 — 424 types, 35 QueryRoot fields, 41 Mutation fields — making this the ri
   name: Hyperice Storefront GraphQL API
@@ -39,10 +39,16 @@ apis:
 - description: A live MCP (JSON-RPC 2.0 over HTTP) server implementing the Universal Commerce Protocol shopping service, declared by Hyperice's own /.well-known/ucp merchant profile and advertised to agents in /llms
   name: Hyperice UCP Shopping MCP Server
   slug: hyperice-ucp-shopping-mcp-server
-- description: The unauthenticated read-only product and collection JSON surface Hyperice documents to agents in /agents.md under "Read-Only Browsing (No Authentication Required)" — /products.json, /products/{handle
-  name: Hyperice Storefront JSON API
-  slug: hyperice-storefront-json-api
-artifact_total: 10
+- description: Collection (category) read operations.
+  name: Hyperice Collections API
+  slug: hyperice-collections-api
+- description: Agent- and crawler-facing discovery documents.
+  name: Hyperice Discovery API
+  slug: hyperice-discovery-api
+- description: Product catalog read operations.
+  name: Hyperice Products API
+  slug: hyperice-products-api
+artifact_total: 12
 collections:
 - collection_type: open
   name: Hyperice Storefront API
@@ -216,7 +222,7 @@ modified: '2026-07-31'
 name: Hyperice
 nav: Providers
 network: true
-overview: 'Hyperice publishes 1 API on the [APIs.io](https://apis.io/) network: Storefront JSON API. Tagged areas include Company, Commerce, Retail, Health and Wellness, and Consumer Hardware.
+overview: 'Hyperice publishes 3 APIs on the [APIs.io](https://apis.io/) network: Collections API, Discovery API, and Products API. Tagged areas include Company, Commerce, Retail, Health and Wellness, and Consumer Hardware.
 
 
   Hyperice''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 32 more developer resources.'
@@ -232,18 +238,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.5
-  delta: 0.0
+  composite: 43.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
-    contract_quality: 53.9
+    contract_governance: 18.2
+    contract_quality: 55.6
     developer_ergonomics: 49.4
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 46.5
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -260,8 +271,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperice/refs/heads/main/screenshots/hyperice-2026-08-07T170541.png
 security:
@@ -280,7 +291,7 @@ tags:
 - Retail
 - Health and Wellness
 - Consumer Hardware
-- Sports And Fitness
+- Sports and Fitness
 - Agentic Commerce
 - GraphQL
 - MCP

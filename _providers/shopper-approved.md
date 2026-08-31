@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: shopper-approved-agentic-access
   summary_line: 6 operations · 2 acting
-api_count: 4
+api_count: 1
 apis:
 - description: The Orders API from Shopper Approved — 1 operation(s) for orders.
   name: Shopper Approved Orders API
@@ -166,18 +166,23 @@ rules:
   slug: shopper-approved-rules
 score:
   band: thin
-  composite: 36.4
-  delta: 4.6
+  composite: 35.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 64.6
     developer_ergonomics: 26.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 31.8
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -185,8 +190,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopper-approved/refs/heads/main/screenshots/shopper-approved-2026-06-20T193837.png
 security:

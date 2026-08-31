@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 21
   slug: salesforce-marketing-cloud-agentic-access
   summary_line: 21 operations · 14 acting · 1 human-in-the-loop
-api_count: 17
+api_count: 1
 apis:
 - description: Legacy SOAP-based API for Marketing Cloud operations, including email sends, subscriber management, and data extension operations.
   name: SOAP API
@@ -126,6 +126,18 @@ collections:
   name: Salesforce Marketing Cloud REST API
   slug: open-salesforce-marketing-cloud
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/salesforce-marketing-cloud-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/salesforce-marketingcloud/SFDC-MC-REST-Style-Guide/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/salesforce-marketingcloud/SFDC-MC-REST-Style-Guide/releases
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -713,7 +725,7 @@ overview: 'Salesforce Marketing Cloud publishes 3 APIs on the [APIs.io](https://
   The Salesforce Marketing Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Salesforce Marketing Cloud''s developer surface includes authentication, engineering blog, documentation, API reference, support, pricing, changelog, and 40 more developer resources.'
+  Salesforce Marketing Cloud''s developer surface includes authentication, engineering blog, documentation, API reference, support, pricing, changelog, and 43 more developer resources.'
 plans:
 - name: Salesforce Marketing Cloud Plans Pricing
   plan_count: 10
@@ -752,18 +764,26 @@ scopes:
   summary_line: 42 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 86.0
-  delta: 2.5
+  composite: 78.4
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 43.9
+    contract_governance: 31.8
     contract_quality: 75.4
     developer_ergonomics: 80.4
-    discoverability: 92.6
-    governance: 43.9
+    discoverability: 83.3
+    governance: 31.8
     operational_transparency: 76.3
-  previous_composite: 83.5
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 78.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -780,8 +800,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png
 security:

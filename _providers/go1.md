@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 5
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 20
   slug: go1-agentic-access
   summary_line: 20 operations · 10 acting · 5 human-in-the-loop
-api_count: 4
+api_count: 1
 apis:
 - description: The Enrollments API from Go1 — 3 operation(s) for enrollments.
   name: Go1 Enrollments API
@@ -84,6 +84,10 @@ collections:
   name: Go1 Enrollments Webhooks API
   slug: open-go1-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/go1-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -236,13 +240,13 @@ modified: '2026-07-19'
 name: Go1
 nav: Providers
 network: true
-overview: 'Go1 publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Enrollments API, Learning objects API, Portals API, and 1 more. Tagged areas include Company, EdTech, Learning, E-Learning, and Corporate Training.
+overview: 'Go1 publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Enrollments API, Learning objects API, Portals API, and 1 more. Tagged areas include Company, Edtech, Learning, E-Learning, and Corporate Training.
 
 
   The Go1 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Go1''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 28 more developer resources.'
+  Go1''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, support, engineering blog, and 29 more developer resources.'
 random_paper: 11
 scopes:
 - name: Go1 Scopes
@@ -251,18 +255,23 @@ scopes:
   summary_line: 8 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 62.2
-  delta: 0.0
+  composite: 60.9
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 68.9
     developer_ergonomics: 73.2
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 62.2
+  previous_composite: 61.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,8 +288,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 74.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/screenshots/go1-2026-07-25T220000.png
 security:
@@ -299,7 +308,7 @@ security:
 slug: go1
 tags:
 - Company
-- EdTech
+- Edtech
 - Learning
 - E-Learning
 - Corporate Training

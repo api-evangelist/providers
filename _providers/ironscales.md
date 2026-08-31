@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 10
 apis:
 - description: Remote Model Context Protocol server operated by IRONSCALES at mcp.ironscales.com, served over streamable HTTP at /mcp/. Access is OAuth 2.0 protected — an unauthenticated tools/list returns an RFC 67
@@ -246,7 +246,7 @@ modified: '2026-08-04'
 name: IRONSCALES
 nav: Providers
 network: true
-overview: 'IRONSCALES publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Campaigns API, Deepfake API, and 6 more. Tagged areas include Email Security, Cybersecurity, Phishing, Anti-Phishing, and Business Email Compromise.
+overview: 'IRONSCALES publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Campaigns API, Deepfake API, and 6 more. Tagged areas include email-security, Cybersecurity, phishing, anti-phishing, and business-email-compromise.
 
 
   IRONSCALES''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
@@ -256,19 +256,24 @@ rate_limits:
   name: Ironscales Rate Limits
   slug: ironscales-rate-limits
 score:
-  band: strong
-  composite: 56.0
+  band: developing
+  composite: 53.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 50.6
     developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 63.2
-  previous_composite: 56.0
+  previous_composite: 53.4
   provenance:
     conformance: derived
     contracts:
@@ -278,8 +283,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironscales/refs/heads/main/screenshots/ironscales-2026-08-07T170920.png
 security:
@@ -301,20 +306,20 @@ security:
   summary_line: ISO/IEC 27001:2022, ISO/IEC 42001:2023, SOC 2 Type 2
 slug: ironscales
 tags:
-- Email Security
+- email-security
 - Cybersecurity
-- Phishing
-- Anti-Phishing
-- Business Email Compromise
-- Account Takeover
+- phishing
+- anti-phishing
+- business-email-compromise
+- account-takeover
 - Threat Intelligence
-- Incident Response
-- Security Awareness Training
-- Phishing Simulation
-- Microsoft-365
-- Google Workspace
-- SOC Automation
-- Deepfake Detection
+- incident-response
+- security-awareness-training
+- phishing-simulation
+- microsoft-365
+- google-workspace
+- soc-automation
+- deepfake-detection
 - MCP
 website: https://ironscales.com/
 ---

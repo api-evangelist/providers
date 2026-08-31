@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 27
   slug: microsoft-quantum-agentic-access
   summary_line: 27 operations · 13 acting
-api_count: 8
+api_count: 2
 apis:
 - description: Q# is Microsoft's open-source, hardware-agnostic quantum programming language. The Modern QDK compiler is written in Rust, ships as a VS Code extension and Python package, and powers quantum.microsoft
   name: Q# Quantum Programming Language
@@ -120,6 +120,10 @@ collections:
   name: Azure Quantum Workspace Services Offerings Workspaces API
   slug: open-microsoft-quantum-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-quantum-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -464,7 +468,7 @@ overview: 'Microsoft Azure Quantum publishes 5 APIs on the [APIs.io](https://api
   The Microsoft Azure Quantum catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Microsoft Azure Quantum''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, pricing, signup flow, and 65 more developer resources.'
+  Microsoft Azure Quantum''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, pricing, signup flow, and 66 more developer resources.'
 plans:
 - name: Microsoft Quantum Plans Pricing
   plan_count: 9
@@ -492,15 +496,20 @@ scopes:
   summary_line: 2 scopes · clientCredentials/implicit
 score:
   band: strong
-  composite: 62.6
-  delta: 0.0
+  composite: 62.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 37.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 9.8
     contract_quality: 53.6
     developer_ergonomics: 71.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 68.4
   previous_composite: 62.6
@@ -511,8 +520,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/screenshots/microsoft-quantum-2026-06-20T185529.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: taylors-agentic-access
   summary_line: 11 operations
-api_count: 9
+api_count: 1
 apis:
 - description: OAI-PMH 2.0 data provider exposed by the Koha-powered Taylor's Library catalog for harvesting bibliographic metadata. The Identify response returns repository name "Taylor's Library" with earliest rec
   name: Taylor's Library OAI-PMH
@@ -95,6 +95,10 @@ collections:
   name: Taylor's Library Koha REST checkouts patrons API
   slug: open-taylors-patrons-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/taylors-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -196,7 +200,7 @@ overview: 'Taylor''s University publishes 6 APIs on the [APIs.io](https://apis.i
   The Taylor''s University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Taylor''s University''s developer surface includes authentication, GitHub presence, and 10 more developer resources.'
+  Taylor''s University''s developer surface includes authentication, GitHub presence, and 11 more developer resources.'
 plans:
 - name: Taylors Plans Pricing
   plan_count: 2
@@ -234,18 +238,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.4
-  delta: 4.6
+  composite: 42.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 32.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 25.0
     contract_quality: 64.6
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 38.8
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     contracts:
@@ -259,8 +268,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taylors/refs/heads/main/screenshots/taylors-2026-06-20T194940.png
 security:

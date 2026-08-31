@@ -24,24 +24,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: 'REST API for automated cross-border payments and currency exchange: manage multi-currency accounts (wallets) and their IBANs, read balances and financial movements, create and delete beneficiaries wit'
-  name: iBanFirst API
-  slug: ibanfirst-api
 - description: First-party hosted remote MCP server, launched with API 1.7.0 on 2026-06-05, exposing 16 read tools over wallets, balances, financial movements, payments, live FX rates, spot trades, fixed forwards an
   name: iBanFirst MCP Connector
   slug: ibanfirst-mcp-connector
 - description: PSD2 access-to-account API for registered third-party providers, covering account information services (AIS), payment initiation services (PIS) and strong customer authentication. A sandbox is publish
   name: iBanFirst PSD2 XS2A API
   slug: ibanfirst-psd2-xs2a-api
-artifact_total: 11
+- description: Each of your accounts has its own specific currency and IBAN. The API allows you to get details and balances about each account in real time. **Note :** ***accounts*** are also labelled as ***wallets*
+  name: iBanFirst Accounts API
+  slug: ibanfirst-accounts-api
+- description: A beneficiary can be either your own account in another bank or a third party recipient account. Beneficiaries can be created or deleted through the API. **Note :** ***beneficiaries*** are also labell
+  name: iBanFirst Beneficiaries API
+  slug: ibanfirst-beneficiaries-api
+- description: The API allows you to access your documents stored on the iBanFirst platform through a one-time access link. Documents must be generated on the platform before being available through the API.
+  name: iBanFirst Documents API
+  slug: ibanfirst-documents-api
+- description: The API allows you to retrieve all financial movements from your accounts.
+  name: iBanFirst Financial movements API
+  slug: ibanfirst-financial-movements-api
+- description: 'Book a fixed forward payment contracts instantly on iBanFirst without manual intervention. - Available currency pairs: - **EUR/USD** - **EUR/GBP** - **GBP/USD** - Maturities: **up to 6 months**. - Tra'
+  name: iBanFirst Fixed forward payment contract API
+  slug: ibanfirst-fixed-forward-payment-contract-api
+- description: The Logs API from iBanFirst — 2 operation(s) for logs.
+  name: iBanFirst Logs API
+  slug: ibanfirst-logs-api
+- description: 'Sending funds from one of your iBanFirst accounts to your own external bank account or a third-party recipient involves two steps: 1. Generate the payment object with the ''Create payment'' method. A un'
+  name: iBanFirst Payments API
+  slug: ibanfirst-payments-api
+- description: The API provides a deliverable FX facility and deliverable FX liquidity. You will become counterparty to iBanFirst and can market and sell deliverable FX services to corporate and private clients as w
+  name: iBanFirst Spot trades API
+  slug: ibanfirst-spot-trades-api
+- description: '**1. WHAT IS A WEBHOOK ?** - Webhooks are events based real-time notifications providing updates on transactions and removing the need for periodic polling. - Webhook notifications are sent as HTTPS P'
+  name: iBanFirst Webhook subscriptions API
+  slug: ibanfirst-webhook-subscriptions-api
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Ibanfirst Webhooks
   slug: ibanfirst-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ibanfirst-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -210,13 +238,13 @@ modified: '2026-08-17'
 name: iBanFirst
 nav: Providers
 network: true
-overview: 'iBanFirst publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech Insurtech, Cross-Border Payments, Foreign Exchange, and B2B Payments.
+overview: 'iBanFirst publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Beneficiaries API, Documents API, and 6 more. Tagged areas include Company, Fintech Insurtech, cross-border-payments, foreign-exchange, and b2b-payments.
 
 
   The iBanFirst catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  iBanFirst''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+  iBanFirst''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 plans:
 - name: Ibanfirst Plans Pricing
   plan_count: 1
@@ -228,18 +256,23 @@ rate_limits:
   slug: ibanfirst-rate-limits
 score:
   band: strong
-  composite: 62.6
-  delta: 0.0
+  composite: 59.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 30.3
-    contract_quality: 59.2
+    contract_governance: 18.2
+    contract_quality: 58.2
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 62.6
+  previous_composite: 59.8
   provenance:
     conformance: first-party
     contracts:
@@ -255,8 +288,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -275,19 +308,19 @@ slug: ibanfirst
 tags:
 - Company
 - Fintech Insurtech
-- Cross-Border Payments
-- Foreign Exchange
-- B2B Payments
-- Treasury
+- cross-border-payments
+- foreign-exchange
+- b2b-payments
+- treasury
 - multi-currency-accounts
-- Swift
-- SEPA
-- PSD2
-- Open Banking
+- swift
+- sepa
+- psd2
+- open-banking
 - currency-risk-management
 - Webhook
 - MCP
-- Belgium
-- Europe
+- belgium
+- europe
 website: https://www.ibanfirst.com/
 ---

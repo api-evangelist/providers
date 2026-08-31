@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,21 +41,12 @@ agentic_access:
   operation_count: 1
   slug: polyteia-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 4
+api_count: 1
 apis:
-- description: The Dataset API from Polyteia — 1 operation(s) for dataset.
-  name: Polyteia Dataset API
-  slug: polyteia-dataset-api
 - description: The Organization API from Polyteia — 1 operation(s) for organization.
   name: Polyteia Organization API
   slug: polyteia-organization-api
-- description: The Solution API from Polyteia — 1 operation(s) for solution.
-  name: Polyteia Solution API
-  slug: polyteia-solution-api
-- description: The Workspace API from Polyteia — 1 operation(s) for workspace.
-  name: Polyteia Workspace API
-  slug: polyteia-workspace-api
-artifact_total: 15
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -193,25 +184,30 @@ modified: '2026-07-20'
 name: Polyteia
 nav: Providers
 network: true
-overview: 'Polyteia publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Dataset API, Organization API, Solution API, and 1 more. Tagged areas include Company, Ai Enterprise Software, GovTech, Public Sector, and Data Platform.
+overview: 'Polyteia publishes 1 API on the [APIs.io](https://apis.io/) network: Organization API. Tagged areas include Company, Ai Enterprise Software, GovTech, Public Sector, and Data Platform.
 
 
   Polyteia''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, pricing, support, and 20 more developer resources.'
 random_paper: 10
 score:
-  band: strong
-  composite: 56.3
+  band: developing
+  composite: 53.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 59.9
     developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 56.3
+  previous_composite: 53.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -224,12 +220,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polyteia/refs/heads/main/screenshots/polyteia-2026-08-17T081321.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 14.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST API for the Bakuraku (バクラク) back-office suite. Publicly documented capabilities are retrieval and list-search of applications/requests (申請), download of attached files, creation of applications f
@@ -177,18 +177,23 @@ rate_limits:
   slug: layerx-rate-limits
 score:
   band: thin
-  composite: 38.1
-  delta: -3.7
+  composite: 37.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 41.7
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 41.8
+  previous_composite: 37.0
   provenance:
     conformance: first-party
     mcp: first-party
@@ -198,8 +203,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -226,7 +231,7 @@ tags:
 - Expense Management
 - Invoicing
 - Accounts Payable
-- Workflow
+- Workflows
 - Approvals
 - Accounting
 - Payroll
@@ -235,7 +240,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Document Processing
-- SaaS
+- Software-as-a-Service
 - Enterprise Software
 - Fintech
 website: https://layerx.co.jp/

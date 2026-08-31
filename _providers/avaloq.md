@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: avaloq-agentic-access
   summary_line: 9 operations · 2 acting
-api_count: 6
+api_count: 2
 apis:
 - description: Community APIs for fintech integration providing simplified REST endpoints for connecting third-party applications with the Avaloq banking platform. Pre-vetted by Avaloq for secure, standards-based in
   name: Avaloq Community API
@@ -89,6 +89,10 @@ collections:
   name: Avaloq Banking Accounts Transactions API
   slug: open-avaloq-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/avaloq-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -339,7 +343,7 @@ overview: 'Avaloq publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Avaloq catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Avaloq''s developer surface includes authentication, developer portal, getting-started guide, academy / training, support, and 9 more developer resources.'
+  Avaloq''s developer surface includes authentication, developer portal, getting-started guide, academy / training, support, and 10 more developer resources.'
 plans:
 - name: Avaloq Plans Pricing
   plan_count: 2
@@ -373,18 +377,23 @@ rules:
   slug: avaloq-spectral-rules
 score:
   band: thin
-  composite: 35.6
-  delta: 0.1
+  composite: 35.1
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 60.7
     developer_ergonomics: 36.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 35.5
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -398,8 +407,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/screenshots/avaloq-2026-06-20T172720.png
 security:

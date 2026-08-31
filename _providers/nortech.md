@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 50
   slug: nortech-agentic-access
   summary_line: 50 operations · 19 acting
-api_count: 12
+api_count: 1
 apis:
 - description: This API includes endpoints that allow you to interact with `Assets` metadata.
   name: Nortech Asset API
@@ -79,7 +79,10 @@ apis:
 - description: This API includes endpoints that allow you to interact with `Workspaces` metadata.
   name: Nortech Workspace API
   slug: nortech-workspace-api
-artifact_total: 30
+- description: The historicalData API from Nortech — 0 operation(s) for historicaldata.
+  name: Nortech Historical Data API
+  slug: nortech-historicaldata-api
+artifact_total: 31
 asyncapis:
 - description: Real-time signal data streamed over MQTT-over-TLS. Subscribe to per-signal topics after creating a Data Connection through the HTTP API.
   name: Nortech Live Data (MQTT)
@@ -249,7 +252,7 @@ modified: '2026-07-20'
 name: Nortech
 nav: Providers
 network: true
-overview: 'Nortech publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Asset API, Deriver API, Division API, and 9 more. Tagged areas include Company, Industrial IoT, IIoT, Maritime, and Operational Data.
+overview: 'Nortech publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Asset API, Deriver API, Division API, and 10 more. Tagged areas include Company, Industrial IoT, IIoT, Maritime, and Operational Data.
 
 
   The Nortech catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -259,18 +262,23 @@ overview: 'Nortech publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 20
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 45.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 30.3
-    contract_quality: 67.3
+    contract_governance: 18.2
+    contract_quality: 65.8
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 47.5
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -281,8 +289,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/screenshots/nortech-2026-08-07T185521.png
 security:

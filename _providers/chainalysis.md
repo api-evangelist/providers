@@ -10,21 +10,21 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,11 +32,11 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
+  score: 11.4
+  scored_at: '2026-08-30'
 api_count: 12
 apis:
-- description: Free public REST API that returns whether a given crypto address is identified as sanctioned by OFAC or other major sanctions authorities. No commercial licence required; widely embedded by wallets, d
+- description: Free public REST API that returns whether a given crypto address is identified as sanctioned by OFAC, EU, or UN sanctions authorities. No commercial licence required; widely embedded by wallets, dApps
   name: Chainalysis Sanctions Screening API
   slug: sanctions-screening
 - description: 'Enterprise REST API for real-time anti-money-laundering monitoring of crypto transactions - register deposits, withdrawals, and transfers, and receive risk scoring, alerts, and exposure breakdowns by '
@@ -72,24 +72,24 @@ apis:
 - description: AI-powered fraud prevention product (acquired by Chainalysis) that identifies scams and fraud-victim relationships to help exchanges and payment platforms intervene before funds are sent to bad actors
   name: Alterya (Chainalysis)
   slug: alterya
-artifact_total: 16
+artifact_total: 19
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/chainalysis-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://www.chainalysis.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.chainalysis.com/
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.chainalysis.com/
+  url: https://developers.chainalysis.com/
 - group: operate
   title: ''
   type: Support
-  url: https://support.chainalysis.com/
+  url: https://support.chainalysis.com/hc/en-us
 - group: other
   title: ''
   type: Sanctions
@@ -98,6 +98,38 @@ common:
   title: ''
   type: Blog
   url: https://www.chainalysis.com/blog/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/chainalysis
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.chainalysis.com/request-a-demo/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.chainalysis.com/msa1023/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.chainalysis.com/privacy-policy/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.chainalysis.com/
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.chainalysis.com/vulnerability-disclosure-policy/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.chainalysis.com/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.chainalysis.com/legal/
 - group: company
   title: ''
   type: LinkedIn
@@ -106,6 +138,54 @@ common:
   title: ''
   type: X
   url: https://x.com/chainalysis
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/chainalysis-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/chainalysis-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/chainalysis-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/chainalysis-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/chainalysis-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/chainalysis-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/chainalysis-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/chainalysis-conformance.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/chainalysis-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/chainalysis-domain-security.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/chainalysis-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/chainalysis-plans-pricing.yml
 created: '2026-05-23'
 description: Chainalysis is a blockchain analysis company providing data, software, and research to government agencies, exchanges, banks, and crypto businesses for compliance, investigation, and risk management. Core products include KYT (real-time transaction monitoring), Address Screening, the publicly hosted Sanctions API, Reactor (investigations and fund tracing), Crypto Investigations, Wallet Scan, Rapid (AI-assisted triage), VASP Risking, and Sentinel (stablecoin risk). Security-side products include Hexagate (web3 threat prevention) and Alterya (fraud prevention). Most APIs are REST-based and gated behind enterprise contracts, except the free public Sanctions Screening API.
 finops:
@@ -114,46 +194,63 @@ finops:
   slug: chainalysis-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chainalysis.png
 layout: provider
-modified: '2026-05-23'
+modified: '2026-08-27'
 name: Chainalysis
 nav: Providers
 network: true
 overview: 'Chainalysis publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, AML, KYT, Sanctions, and Investigations.
 
 
-  Chainalysis'' developer surface includes documentation, support, engineering blog, and 5 more developer resources.'
+  Chainalysis'' developer surface includes documentation, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
 plans:
 - name: Chainalysis Plans Pricing
   plan_count: 1
   slug: chainalysis-plans-pricing
 random_paper: 0
 rate_limits:
-- limit_count: 2
+- limit_count: 1
   name: Chainalysis Rate Limits
   slug: chainalysis-rate-limits
 score:
-  band: emerging
-  composite: 18.3
+  band: thin
+  composite: 39.2
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 0.0
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 11.9
-    discoverability: 74.1
-    governance: 0.0
-    operational_transparency: 21.1
-  previous_composite: 18.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    developer_ergonomics: 40.5
+    discoverability: 81.5
+    governance: 18.2
+    operational_transparency: 50.0
+  previous_composite: 39.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/screenshots/chainalysis-2026-06-20T174208.png
 security:
+- kind: authentication
+  name: Chainalysis Authentication
+  slug: chainalysis-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: Chainalysis Domain Security
   slug: chainalysis-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Chainalysis Vulnerability Disclosure
+  slug: chainalysis-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Chainalysis Trust Center
+  slug: chainalysis-trust-center
+  summary_line: verified, verified_note, claimed_indirect
 slug: chainalysis
 tags:
 - Compliance

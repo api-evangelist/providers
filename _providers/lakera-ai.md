@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: lakera-ai-agentic-access
   summary_line: 12 operations · 8 acting
-api_count: 4
+api_count: 2
 apis:
 - description: Screen LLM inputs and outputs for threats.
   name: Lakera Guard API
@@ -340,15 +340,20 @@ rules:
   slug: lakera-rules
 score:
   band: strong
-  composite: 57.2
-  delta: 0.0
+  composite: 56.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
     contract_governance: 28.8
     contract_quality: 73.8
     developer_ergonomics: 61.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 5.3
   previous_composite: 57.2
@@ -359,8 +364,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lakera-ai/refs/heads/main/screenshots/lakera-ai-2026-06-20T184246.png
 security:

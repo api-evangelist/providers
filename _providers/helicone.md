@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 201
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 267
   slug: helicone-agentic-access
   summary_line: 267 operations · 201 acting · 1 human-in-the-loop
-api_count: 33
+api_count: 1
 apis:
 - description: The Agent API from Helicone — 8 operation(s) for agent.
   name: Helicone Agent API
@@ -350,6 +350,10 @@ collections:
   name: helicone-api
   slug: open-helicone
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/helicone-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -2118,7 +2122,7 @@ overview: 'Helicone publishes 33 APIs on the [APIs.io](https://apis.io/) network
   The Helicone catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Helicone''s developer surface includes authentication, documentation, getting-started guide, signup flow, developer portal, pricing, engineering blog, and 18 more developer resources.'
+  Helicone''s developer surface includes authentication, documentation, getting-started guide, signup flow, developer portal, pricing, engineering blog, and 19 more developer resources.'
 plans:
 - name: Helicone Plans Pricing
   plan_count: 6
@@ -2141,18 +2145,23 @@ rules:
   slug: helicone-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.3
-  delta: 1.5
+  composite: 46.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 68.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 9.8
     contract_quality: 42.7
     developer_ergonomics: 59.5
-    discoverability: 75.9
+    discoverability: 70.4
     governance: 9.8
     operational_transparency: 39.5
-  previous_composite: 45.8
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     contracts:
@@ -2160,8 +2169,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 33
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helicone/refs/heads/main/screenshots/helicone-2026-06-20T182620.png
 security:

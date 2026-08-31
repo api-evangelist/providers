@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 32
   slug: kareo-agentic-access
   summary_line: 32 operations · 32 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The Kareo Integration SOAP API provides a web services interface for integrating third-party applications with practice management data. Supports read access to patients, providers, appointments, tran
   name: Kareo Integration SOAP API
@@ -213,18 +213,23 @@ rules:
   slug: kareo-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.2
-  delta: 2.8
+  composite: 35.7
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 40.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 9.8
     contract_quality: 20.7
     developer_ergonomics: 11.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 33.4
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -238,8 +243,8 @@ score:
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/screenshots/kareo-2026-06-20T183920.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -93,6 +93,10 @@ collections:
   name: ChatGPT Chat Completions Responses API
   slug: open-chatgpt-responses-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/chatgpt-capability-edges.yml
 - group: build
   title: ''
   type: Packages
@@ -690,7 +694,7 @@ overview: 'ChatGPT publishes 2 APIs on the [APIs.io](https://apis.io/) network, 
   The ChatGPT catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  ChatGPT''s developer surface includes changelog, CLI, authentication, developer portal, documentation, getting-started guide, pricing, and 42 more developer resources.'
+  ChatGPT''s developer surface includes changelog, CLI, authentication, developer portal, documentation, getting-started guide, pricing, and 43 more developer resources.'
 plans:
 - name: Chatgpt Plans Pricing
   plan_count: 7
@@ -724,18 +728,23 @@ rules:
   slug: chatgpt-spectral-rules
 score:
   band: strong
-  composite: 59.8
+  composite: 57.3
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 58.7
     developer_ergonomics: 69.0
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 74.1
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 59.8
+  previous_composite: 57.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -745,8 +754,8 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/screenshots/chatgpt-2026-08-17T082057.png
 security:

@@ -34,16 +34,46 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 62.4
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: 'The Flora.ai public REST API (v1.6.0) exposes the FLORA creative canvas programmatically: discover and run saved Techniques, start one-off model generations, list the model catalog, manage workspaces '
-  name: Flora.ai API
-  slug: flora-api
 - description: FLORA's hosted remote Model Context Protocol server. Streamable HTTP at https://agents.flora.ai/mcp, authenticated with OAuth 2.1 + PKCE (RFC 8414 authorization-server metadata and RFC 9728 protected-
   name: FLORA MCP Server
   slug: flora-mcp
-artifact_total: 11
+- description: Prebuilt action catalog endpoints.
+  name: FLORA Actions API
+  slug: flora-fauna-actions-api
+- description: Asset upload and retrieval endpoints.
+  name: FLORA Assets API
+  slug: flora-fauna-assets-api
+- description: Project canvas endpoints.
+  name: FLORA Canvas API
+  slug: flora-fauna-canvas-api
+- description: Product feedback endpoints.
+  name: FLORA Feedback API
+  slug: flora-fauna-feedback-api
+- description: Generation endpoints.
+  name: FLORA Generations API
+  slug: flora-fauna-generations-api
+- description: Model catalog endpoints.
+  name: FLORA Models API
+  slug: flora-fauna-models-api
+- description: Project management endpoints.
+  name: FLORA Projects API
+  slug: flora-fauna-projects-api
+- description: Top-level run creation endpoints.
+  name: FLORA Runs API
+  slug: flora-fauna-runs-api
+- description: Nested technique run endpoints.
+  name: FLORA Technique Runs API
+  slug: flora-fauna-technique-runs-api
+- description: Technique catalog endpoints.
+  name: FLORA Techniques API
+  slug: flora-fauna-techniques-api
+- description: Workspace discovery endpoints.
+  name: FLORA Workspaces API
+  slug: flora-fauna-workspaces-api
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Flora Fauna Webhooks
@@ -258,7 +288,7 @@ modified: '2026-08-12'
 name: FLORA
 nav: Providers
 network: true
-overview: 'FLORA publishes 1 API on the [APIs.io](https://apis.io/) network: Flora.ai API. Tagged areas include Creative AI, Generative AI, Infinite Canvas, Node-Based Workflows, and Creative Workspace.
+overview: 'FLORA publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Assets API, Canvas API, and 8 more. Tagged areas include Creative AI, Generative AI, Infinite Canvas, Node-Based Workflows, and Creative Workspace.
 
 
   The FLORA catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -281,18 +311,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 65.9
-  delta: 0.0
+  composite: 63.3
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 61.9
     developer_ergonomics: 70.8
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 65.9
+  previous_composite: 63.9
   provenance:
     conformance: first-party
     contracts:
@@ -302,8 +337,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flora-fauna/refs/heads/main/screenshots/flora-fauna-2026-06-20T181332.png
 security:

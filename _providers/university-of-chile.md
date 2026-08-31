@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 201
   human_in_the_loop: 5
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 419
   slug: university-of-chile-agentic-access
   summary_line: 419 operations · 201 acting · 5 human-in-the-loop
-api_count: 25
+api_count: 1
 apis:
 - description: The University of Chile institutional repository (Repositorio Academico), managed by SISIB and built on DSpace, exposes an OAI-PMH 2.0 interface for harvesting Dublin Core / metadata records of theses
   name: Repositorio Academico OAI-PMH
@@ -196,6 +196,10 @@ collections:
   name: UChile Research Data Repository (Dataverse API) Access Workflows API
   slug: open-university-of-chile-workflows-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/university-of-chile-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -290,7 +294,7 @@ overview: 'University of Chile publishes 24 APIs on the [APIs.io](https://apis.i
   The University of Chile catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  University of Chile''s developer surface includes GitHub presence and 10 more developer resources.'
+  University of Chile''s developer surface includes GitHub presence and 11 more developer resources.'
 plans:
 - name: University Of Chile Plans Pricing
   plan_count: 2
@@ -324,18 +328,23 @@ rules:
   slug: university-of-chile-rules
 score:
   band: thin
-  composite: 28.6
-  delta: 1.9
+  composite: 28.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 49.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 40.2
     developer_ergonomics: 9.5
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 26.7
+  previous_composite: 28.6
   provenance:
     agentic_access: derived
     contracts:
@@ -349,8 +358,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-chile/refs/heads/main/screenshots/university-of-chile-2026-06-20T200146.png
 security:

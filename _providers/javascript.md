@@ -28,5 +28,5 @@ tags:
 - ECMAScript
 - JavaScript
 - Programming Language
-- Web API
+- Web APIs
 ---

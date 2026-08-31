@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: nvidia-nim-agentic-access
   summary_line: 16 operations · 11 acting
-api_count: 11
+api_count: 3
 apis:
 - description: Legacy OpenAI-compatible text completion endpoint (/v1/completions) for non-chat foundation models served by NIM. Accepts a raw prompt and returns generated text with the same streaming, sampling, and
   name: NVIDIA NIM Completions API
@@ -554,18 +554,23 @@ rules:
   slug: nvidia-nim-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 71.2
+  composite: 69.8
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 32.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 26.5
+    contract_governance: 14.4
     contract_quality: 70.0
     developer_ergonomics: 86.9
     discoverability: 72.2
-    governance: 26.5
+    governance: 14.4
     operational_transparency: 57.9
-  previous_composite: 71.2
+  previous_composite: 69.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -575,8 +580,8 @@ score:
       marker_coverage: 0.0
       total: 11
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/screenshots/nvidia-nim-2026-06-20T190540.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 23
   slug: chase-agentic-access
   summary_line: 23 operations · 11 acting · 2 human-in-the-loop
-api_count: 11
+api_count: 5
 apis:
 - description: API that allows merchant and partner systems to retrieve a Chase cardholder's current rewards points balance for use in loyalty experiences and Pay with Points checkouts.
   name: Chase Rewards Balance API
@@ -131,6 +131,10 @@ collections:
   name: Chase Account Aggregation User Consent Accounts Transactions API
   slug: open-chase-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/chase-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -241,7 +245,7 @@ overview: 'Chase publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
   The Chase catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Chase''s developer surface includes authentication, developer portal, FAQ, support, and 15 more developer resources.'
+  Chase''s developer surface includes authentication, developer portal, FAQ, support, and 16 more developer resources.'
 plans:
 - name: Chase Plans Pricing
   plan_count: 2
@@ -270,7 +274,12 @@ scopes:
 score:
   band: thin
   composite: 38.5
-  delta: 1.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 59.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -280,7 +289,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 37.5
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -294,8 +303,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/screenshots/chase-2026-06-20T174235.png
 security:

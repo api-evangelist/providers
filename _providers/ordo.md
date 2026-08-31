@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -33,25 +33,34 @@ agentic_access:
   summary_line: 54 operations · 25 acting
 api_count: 6
 apis:
-- description: Single, one-off open-banking payment initiation — list supported institutions, create a payment, initiate authorisation, and withdraw a payment. Server base is the Ordo Azure API Management gateway. 4
-  name: Ordo Single Payments API
-  slug: ordo-single-payments-api
-- description: Request to Pay / "Smart Request" management for one-off payment requests — create and manage smart requests and their messages, Biller Delivery Request (BDR) links, extensions and withdrawals. 8 docum
-  name: Ordo Smart Request Manager API
-  slug: ordo-smart-request-manager-api
-- description: Variable Recurring Payments — create sweeping and non-sweeping VRP mandates, read mandates, execute mandate payments and read VRP transactions. Enables fixed, variable and ad-hoc recurring collections
-  name: Ordo Recurring Payment Mandates (VRP) API
-  slug: ordo-recurring-payment-mandates-api
-- description: Ordo-hosted Account Information (AIS) and Account Verification — create and manage account information consents, request and read account data, cancel consents, and run account verification against su
-  name: Ordo Account Data (Ordo Hosted) API
-  slug: ordo-account-data-ordo-hosted-api
-- description: Client-hosted Account Information (AIS) and Account Verification — the same consent, data-request and verification lifecycle as the Ordo-hosted variant, but with the integrating client hosting the end
-  name: Ordo Account Data (Client Hosted) API
+- description: The Account Data - Client Hosted API from Ordo — 9 operation(s) for account data - client hosted.
+  name: Ordo Account Data - Client Hosted API
   slug: ordo-account-data-client-hosted-api
-- description: Bank account configuration / registry management — create, read and manage the biller bank accounts into which collected payments settle. 3 documented operations.
-  name: Ordo Registry Manager API
-  slug: ordo-registry-manager-api
-artifact_total: 16
+- description: The Account Data - Ordo Hosted API from Ordo — 7 operation(s) for account data - ordo hosted.
+  name: Ordo Account Data - Ordo Hosted API
+  slug: ordo-account-data-ordo-hosted-api
+- description: The Account Verification - Client Hosted API from Ordo — 6 operation(s) for account verification - client hosted.
+  name: Ordo Account Verification - Client Hosted API
+  slug: ordo-account-verification-client-hosted-api
+- description: The Account Verification - Ordo Hosted API from Ordo — 6 operation(s) for account verification - ordo hosted.
+  name: Ordo Account Verification - Ordo Hosted API
+  slug: ordo-account-verification-ordo-hosted-api
+- description: The Bank accounts API from Ordo — 3 operation(s) for bank accounts.
+  name: Ordo Bank accounts API
+  slug: ordo-bank-accounts-api
+- description: The Client hosted API from Ordo — 4 operation(s) for client hosted.
+  name: Ordo Client hosted API
+  slug: ordo-client-hosted-api
+- description: The Create a mandate API from Ordo — 2 operation(s) for create a mandate.
+  name: Ordo Create a mandate API
+  slug: ordo-create-a-mandate-api
+- description: The Ordo hosted API from Ordo — 8 operation(s) for ordo hosted.
+  name: Ordo Ordo hosted API
+  slug: ordo-ordo-hosted-api
+- description: The Retrieve mandate details API from Ordo — 4 operation(s) for retrieve mandate details.
+  name: Ordo Retrieve mandate details API
+  slug: ordo-retrieve-mandate-details-api
+artifact_total: 19
 collections:
 - collection_type: open
   name: ACCOUNT DATA - Client Hosted
@@ -72,6 +81,30 @@ collections:
   name: Single Payments
   slug: open-ordo-smart-request-manager
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ordo-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ordo-single-payments-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ordo-smart-request-manager-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ordo-recurring-payment-mandates-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ordo-account-data-client-hosted-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ordo-registry-manager-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -165,25 +198,30 @@ modified: '2026-07-24'
 name: Ordo
 nav: Providers
 network: true
-overview: 'Ordo publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Single Payments API, Smart Request Manager API, Recurring Payment Mandates (VRP) API, and 3 more. Tagged areas include Payments, United Kingdom, Open Banking, Account-to-Account, and Payment Initiation.
+overview: 'Ordo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account Data - Client Hosted API, Account Data - Ordo Hosted API, Account Verification - Client Hosted API, and 6 more. Tagged areas include Payments, United Kingdom, Open Banking, Account-to-Account, and Payment Initiation.
 
 
-  Ordo''s developer surface includes authentication, API reference, getting-started guide, support, and 16 more developer resources.'
+  Ordo''s developer surface includes authentication, API reference, getting-started guide, support, and 22 more developer resources.'
 random_paper: 16
 score:
   band: thin
-  composite: 36.6
-  delta: 0.9
+  composite: 35.2
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 56.4
     developer_ergonomics: 35.1
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 35.7
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -197,15 +235,17 @@ score:
   regulatory:
     applies: true
     jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
     - jurisdiction: UK
       standard: uk-open-banking
-    jurisdictions_satisfied: 1
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 50.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/screenshots/ordo-2026-08-07T190918.png
 security:

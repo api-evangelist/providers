@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 30
   slug: xceptor-agentic-access
   summary_line: 30 operations · 14 acting · 1 human-in-the-loop
-api_count: 14
+api_count: 3
 apis:
 - description: API for creating, managing, and executing data processing workflows within the Xceptor platform. Enables programmatic orchestration of automated data processing pipelines including event-driven trigge
   name: Xceptor Workflow API
@@ -387,7 +387,12 @@ rules:
 score:
   band: thin
   composite: 36.9
-  delta: 2.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 69.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -397,7 +402,7 @@ score:
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 13.2
-  previous_composite: 34.0
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     contracts:
@@ -405,8 +410,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/screenshots/xceptor-2026-06-20T201656.png
 security:

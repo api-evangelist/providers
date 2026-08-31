@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 80
   slug: meltwater-agentic-access
   summary_line: 80 operations · 32 acting
-api_count: 14
+api_count: 3
 apis:
 - description: Account Management API and Usage APIs
   name: Meltwater Account Management API
@@ -81,13 +81,19 @@ apis:
 - description: Retrieve owned social metrics and analytics.
   name: Meltwater Owned Analytics API
   slug: meltwater-owned-analytics-api
-- description: The Meltwater Public API v4 provides unified access to content export and analytics across Meltwater Explore+ data sources, plus LLM lens prompts for AI Visibility (GenAI Lens). v4 is the version Melt
-  name: Meltwater API v4
-  slug: meltwater-api-v4
 - description: Meltwater MCP is a single remote Model Context Protocol server that exposes a customer's Meltwater assets (saved searches, tags and other configured objects) and Meltwater data (news and social mentio
   name: Meltwater MCP
   slug: meltwater-mcp
-artifact_total: 42
+- description: Analyze data with metrics and KPIs for LLM prompts
+  name: Meltwater Analyze API
+  slug: meltwater-analyze-api
+- description: Export content and manage export jobs
+  name: Meltwater Export API
+  slug: meltwater-export-api
+- description: Endpoints to list LLM prompts and folders available for analytics
+  name: Meltwater LLM API
+  slug: meltwater-llm-api
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Meltwater Webhooks
@@ -133,6 +139,10 @@ collections:
   name: Meltwater Account Management Owned Analytics API
   slug: open-meltwater-owned-analytics-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/meltwater-api-v4-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -354,13 +364,13 @@ modified: '2026-08-13'
 name: Meltwater
 nav: Providers
 network: true
-overview: 'Meltwater publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Account Management API, Bring Your Own Content (BYOC) API, Explore+ Analytics API, and 10 more. Tagged areas include Media Monitoring, Social Listening, PR Analytics, Brand Intelligence, and News API.
+overview: 'Meltwater publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account Management API, Bring Your Own Content (BYOC) API, Explore+ Analytics API, and 12 more. Tagged areas include Media Monitoring, Social Listening, PR Analytics, Brand Intelligence, and News API.
 
 
   The Meltwater catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Meltwater''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, sandbox, code examples, and 41 more developer resources.'
+  Meltwater''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, sandbox, code examples, and 42 more developer resources.'
 plans:
 - name: Meltwater Plans Pricing
   plan_count: 3
@@ -388,18 +398,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 73.5
+  composite: 71.2
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 31.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 41.7
-    contract_quality: 72.0
+    contract_governance: 29.5
+    contract_quality: 72.8
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 41.7
+    discoverability: 81.5
+    governance: 29.5
     operational_transparency: 84.2
-  previous_composite: 73.5
+  previous_composite: 71.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -410,8 +425,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/screenshots/meltwater-2026-06-20T185137.png
 security:

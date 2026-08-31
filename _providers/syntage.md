@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 176
   slug: syntage-agentic-access
   summary_line: 176 operations · 45 acting · 1 human-in-the-loop
-api_count: 65
+api_count: 1
 apis:
 - description: The Accounts Payable Insight API from Syntage — 1 operation(s) for accounts payable insight.
   name: Syntage Accounts Payable Insight API
@@ -443,6 +443,10 @@ collections:
   name: Syntage Accounts Payable Insight Webhook Requests API
   slug: open-syntage-webhook-requests-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/syntage-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -597,22 +601,27 @@ overview: 'Syntage publishes 65 APIs on the [APIs.io](https://apis.io/) network,
   The Syntage catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Syntage''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 27 more developer resources.'
+  Syntage''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 28 more developer resources.'
 random_paper: 7
 score:
   band: developing
-  composite: 52.6
-  delta: 0.0
+  composite: 51.3
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 69.6
     developer_ergonomics: 66.1
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 52.6
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -623,8 +632,8 @@ score:
       total: 65
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/screenshots/syntage-2026-08-17T082234.png
 security:

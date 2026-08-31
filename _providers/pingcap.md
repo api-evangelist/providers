@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 5
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 192
   slug: pingcap-agentic-access
   summary_line: 192 operations · 93 acting · 5 human-in-the-loop
-api_count: 32
+api_count: 9
 apis:
 - description: Official Model Context Protocol server maintained by PingCAP that exposes a TiDB or TiDB Cloud database to MCP-capable agents and IDEs. Ships in the pytidb package, runs over stdio by default or SSE w
   name: TiDB MCP Server
@@ -229,6 +229,18 @@ collections:
   name: OSSInsight Public Trends API
   slug: open-pingcap-trends-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/pingcap/pytidb/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/pingcap/pytidb/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/pingcap/pytidb/blob/main/CONTRIBUTING.md
 - group: other
   title: ''
   type: Overlay
@@ -425,10 +437,10 @@ modified: '2026-08-02'
 name: PingCAP
 nav: Providers
 network: true
-overview: 'PingCAP publishes 31 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Audit Log API, Backup API, and 28 more. Tagged areas include Distributed SQL, Database, tidb, htap, and mysql-compatible.
+overview: 'PingCAP publishes 31 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Audit Log API, Backup API, and 28 more. Tagged areas include distributed-sql, Database, tidb, htap, and mysql-compatible.
 
 
-  PingCAP''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
+  PingCAP''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 42 more developer resources.'
 random_paper: 3
 rate_limits:
 - limit_count: 1
@@ -436,18 +448,26 @@ rate_limits:
   slug: pingcap-rate-limits
 score:
   band: strong
-  composite: 61.4
+  composite: 57.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 50.2
     developer_ergonomics: 85.7
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 61.4
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -458,8 +478,8 @@ score:
       total: 31
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pingcap/refs/heads/main/screenshots/pingcap-2026-08-17T081238.png
 security:
@@ -481,16 +501,16 @@ security:
   summary_line: ISO 27001, ISO 27701, SOC 2, PCI DSS, GDPR, HIPAA, EU-US Data Privacy Framework
 slug: pingcap
 tags:
-- Distributed SQL
+- distributed-sql
 - Database
 - tidb
 - htap
 - mysql-compatible
-- Cloud Database
-- Database-as-a-Service
-- Vector Search
-- Data Migration
-- Change Data Capture
+- cloud-database
+- dbaas
+- vector-search
+- data-migration
+- change-data-capture
 - Open-Source
 - Infrastructure
 website: https://www.pingcap.com/

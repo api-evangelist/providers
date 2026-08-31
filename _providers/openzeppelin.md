@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 43
   slug: openzeppelin-agentic-access
   summary_line: 43 operations · 22 acting
-api_count: 9
+api_count: 1
 apis:
 - description: OpenZeppelin Monitor is an open-source blockchain monitoring service that watches for specific on-chain activities and triggers notifications based on configurable conditions. It supports real-time mo
   name: OpenZeppelin Monitor API
@@ -98,6 +98,26 @@ collections:
   name: OpenZeppelin Relayer Health Signers API
   slug: open-openzeppelin-signers-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/OpenZeppelin/openzeppelin-monitor/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/OpenZeppelin/openzeppelin-monitor/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/OpenZeppelin/openzeppelin-monitor/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/OpenZeppelin/openzeppelin-monitor/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/OpenZeppelin/openzeppelin-monitor/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -221,7 +241,7 @@ overview: 'OpenZeppelin publishes 7 APIs on the [APIs.io](https://apis.io/) netw
   The OpenZeppelin catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenZeppelin''s developer surface includes authentication, documentation, GitHub presence, engineering blog, product news, status page, signup flow, and 13 more developer resources.'
+  OpenZeppelin''s developer surface includes authentication, documentation, GitHub presence, engineering blog, product news, status page, signup flow, and 18 more developer resources.'
 plans:
 - name: Plans
   plan_count: 4
@@ -244,18 +264,26 @@ rules:
   slug: openzeppelin-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 58.6
-  delta: 8.6
+  composite: 62.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 44.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
     contract_governance: 9.8
     contract_quality: 63.8
     developer_ergonomics: 52.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 63.2
-  previous_composite: 50.0
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 62.8
   provenance:
     agentic_access: derived
     contracts:
@@ -263,9 +291,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openzeppelin/refs/heads/main/screenshots/openzeppelin-2026-06-20T191058.png
 security:
 - kind: authentication

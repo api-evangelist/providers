@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,16 +43,67 @@ agentic_access:
   summary_line: 66 operations · 20 acting
 api_count: 3
 apis:
-- description: OBIE Read/Write Account & Transaction Information (AIS) API — lets onboarded, consented AISP third-party providers retrieve C. Hoare & Co. account, balance, transaction, beneficiary, standing order, d
-  name: C. Hoare & Co. Account and Transaction Information API
-  slug: c-hoare-and-co-account-and-transaction-api
-- description: 'OBIE Read/Write Payment Initiation (PIS) API — lets onboarded, consented PISP third-party providers initiate domestic and scheduled payments and standing orders and retrieve payment/consent status on '
-  name: C. Hoare & Co. Payment Initiation API
-  slug: c-hoare-and-co-payment-initiation-api
-- description: OBIE Dynamic Client Registration (DCR) proxy — lets third-party providers submit a signed Software Statement Assertion to register an OAuth2 client with C. Hoare & Co. as part of TPP onboarding. Publi
-  name: C. Hoare & Co. Dynamic Client Registration API
-  slug: c-hoare-and-co-dynamic-client-registration-api
-artifact_total: 11
+- description: The Account Access API from C. Hoare & Co. — 2 operation(s) for account access.
+  name: C. Hoare & Co. Account Access API
+  slug: c-hoare-and-co-account-access-api
+- description: The Accounts API from C. Hoare & Co. — 2 operation(s) for accounts.
+  name: C. Hoare & Co. Accounts API
+  slug: c-hoare-and-co-accounts-api
+- description: The Balances API from C. Hoare & Co. — 2 operation(s) for balances.
+  name: C. Hoare & Co. Balances API
+  slug: c-hoare-and-co-balances-api
+- description: The Beneficiaries API from C. Hoare & Co. — 2 operation(s) for beneficiaries.
+  name: C. Hoare & Co. Beneficiaries API
+  slug: c-hoare-and-co-beneficiaries-api
+- description: The Client Registration API from C. Hoare & Co. — 2 operation(s) for client registration.
+  name: C. Hoare & Co. Client Registration API
+  slug: c-hoare-and-co-client-registration-api
+- description: The Direct Debits API from C. Hoare & Co. — 2 operation(s) for direct debits.
+  name: C. Hoare & Co. Direct Debits API
+  slug: c-hoare-and-co-direct-debits-api
+- description: The Domestic Payments API from C. Hoare & Co. — 5 operation(s) for domestic payments.
+  name: C. Hoare & Co. Domestic Payments API
+  slug: c-hoare-and-co-domestic-payments-api
+- description: The Domestic Scheduled Payments API from C. Hoare & Co. — 4 operation(s) for domestic scheduled payments.
+  name: C. Hoare & Co. Domestic Scheduled Payments API
+  slug: c-hoare-and-co-domestic-scheduled-payments-api
+- description: The Domestic Standing Orders API from C. Hoare & Co. — 4 operation(s) for domestic standing orders.
+  name: C. Hoare & Co. Domestic Standing Orders API
+  slug: c-hoare-and-co-domestic-standing-orders-api
+- description: The File Payments API from C. Hoare & Co. — 6 operation(s) for file payments.
+  name: C. Hoare & Co. File Payments API
+  slug: c-hoare-and-co-file-payments-api
+- description: The International Payments API from C. Hoare & Co. — 5 operation(s) for international payments.
+  name: C. Hoare & Co. International Payments API
+  slug: c-hoare-and-co-international-payments-api
+- description: The International Scheduled Payments API from C. Hoare & Co. — 5 operation(s) for international scheduled payments.
+  name: C. Hoare & Co. International Scheduled Payments API
+  slug: c-hoare-and-co-international-scheduled-payments-api
+- description: The International Standing Orders API from C. Hoare & Co. — 4 operation(s) for international standing orders.
+  name: C. Hoare & Co. International Standing Orders API
+  slug: c-hoare-and-co-international-standing-orders-api
+- description: The Offers API from C. Hoare & Co. — 2 operation(s) for offers.
+  name: C. Hoare & Co. Offers API
+  slug: c-hoare-and-co-offers-api
+- description: The Partys API from C. Hoare & Co. — 2 operation(s) for partys.
+  name: C. Hoare & Co. Partys API
+  slug: c-hoare-and-co-partys-api
+- description: The Products API from C. Hoare & Co. — 2 operation(s) for products.
+  name: C. Hoare & Co. Products API
+  slug: c-hoare-and-co-products-api
+- description: The Scheduled Payments API from C. Hoare & Co. — 2 operation(s) for scheduled payments.
+  name: C. Hoare & Co. Scheduled Payments API
+  slug: c-hoare-and-co-scheduled-payments-api
+- description: The Standing Orders API from C. Hoare & Co. — 2 operation(s) for standing orders.
+  name: C. Hoare & Co. Standing Orders API
+  slug: c-hoare-and-co-standing-orders-api
+- description: The Statements API from C. Hoare & Co. — 5 operation(s) for statements.
+  name: C. Hoare & Co. Statements API
+  slug: c-hoare-and-co-statements-api
+- description: The Transactions API from C. Hoare & Co. — 3 operation(s) for transactions.
+  name: C. Hoare & Co. Transactions API
+  slug: c-hoare-and-co-transactions-api
+artifact_total: 28
 collections:
 - collection_type: open
   name: Account and Transaction API Specification
@@ -64,6 +115,22 @@ collections:
   name: Payment Initiation API
   slug: open-c-hoare-and-co-payment-initiation-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/c-hoare-and-co-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/c-hoare-and-co-account-and-transaction-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/c-hoare-and-co-payment-initiation-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/c-hoare-and-co-dynamic-client-registration-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -181,10 +248,10 @@ modified: '2026-07-23'
 name: C. Hoare & Co.
 nav: Providers
 network: true
-overview: 'C. Hoare & Co. publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API, Payment Initiation API, and Dynamic Client Registration API. Tagged areas include Financial-Services, Banking, Private Bank, Open Banking, and PSD2.
+overview: 'C. Hoare & Co. publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Accounts API, Balances API, and 17 more. Tagged areas include Financial-Services, Banking, Private Bank, Open Banking, and PSD2.
 
 
-  C. Hoare & Co.''s developer surface includes authentication, documentation, support, legal docs, and 22 more developer resources.'
+  C. Hoare & Co.''s developer surface includes authentication, documentation, support, legal docs, and 26 more developer resources.'
 random_paper: 18
 scopes:
 - name: C Hoare And Co Scopes
@@ -193,18 +260,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 46.9
-  delta: 4.3
+  composite: 46.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 16.7
-    contract_quality: 50.1
+    contract_governance: 4.5
+    contract_quality: 52.9
     developer_ergonomics: 44.6
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 42.6
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -221,8 +293,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/c-hoare-and-co/refs/heads/main/screenshots/c-hoare-and-co-2026-07-25T204150.png
 security:

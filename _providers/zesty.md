@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 86
   slug: zesty-agentic-access
   summary_line: 86 operations · 47 acting · 2 human-in-the-loop
-api_count: 25
+api_count: 3
 apis:
 - description: The Zesty.io Instances API is a REST API that allows CRUD operations on Zesty.io instances. It provides access to content models, content items, fields, views, stylesheets, scripts, settings, head tag
   name: Zesty Instances API
@@ -50,60 +50,27 @@ apis:
 - description: Manage registered applications.
   name: Zesty Apps API
   slug: zesty-apps-api
-- description: View audit trail entries.
-  name: Zesty Audits API
-  slug: zesty-audits-api
 - description: User authentication and session management.
   name: Zesty Authentication API
   slug: zesty-authentication-api
 - description: Manage media bins (top-level containers).
   name: Zesty Bins API
   slug: zesty-bins-api
-- description: Manage content item data.
-  name: Zesty Content Items API
-  slug: zesty-content-items-api
-- description: Manage content model schemas.
-  name: Zesty Content Models API
-  slug: zesty-content-models-api
-- description: Manage fields on content models.
-  name: Zesty Fields API
-  slug: zesty-fields-api
 - description: Manage and upload media files.
   name: Zesty Files API
   slug: zesty-files-api
 - description: Manage media groups (folders within bins).
   name: Zesty Groups API
   slug: zesty-groups-api
-- description: Manage HTML head tag entries.
-  name: Zesty Head Tags API
-  slug: zesty-head-tags-api
-- description: Manage the instance navigation tree.
-  name: Zesty Navigation API
-  slug: zesty-navigation-api
 - description: Password management operations.
   name: Zesty Password API
   slug: zesty-password-api
-- description: Publish content items to the live site.
-  name: Zesty Publishing API
-  slug: zesty-publishing-api
 - description: Resolve file ZUIDs to CDN URLs.
   name: Zesty Resolver API
   slug: zesty-resolver-api
 - description: Manage roles and permissions.
   name: Zesty Roles API
   slug: zesty-roles-api
-- description: Manage JavaScript files.
-  name: Zesty Scripts API
-  slug: zesty-scripts-api
-- description: Search across content items.
-  name: Zesty Search API
-  slug: zesty-search-api
-- description: Manage instance settings.
-  name: Zesty Settings API
-  slug: zesty-settings-api
-- description: Manage CSS stylesheet files.
-  name: Zesty Stylesheets API
-  slug: zesty-stylesheets-api
 - description: Manage teams.
   name: Zesty Teams API
   slug: zesty-teams-api
@@ -113,13 +80,10 @@ apis:
 - description: Manage user accounts.
   name: Zesty Users API
   slug: zesty-users-api
-- description: Manage view template files.
-  name: Zesty Views API
-  slug: zesty-views-api
 - description: Manage webhook subscriptions.
   name: Zesty Webhooks API
   slug: zesty-webhooks-api
-artifact_total: 74
+artifact_total: 62
 collections:
 - collection_type: open
   name: API Collection
@@ -312,7 +276,7 @@ modified: '2026-05-19'
 name: Zesty
 nav: Providers
 network: true
-overview: 'Zesty publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Instances API, Apps API, Audits API, and 22 more. Tagged areas include CMS, Composable, Content Management, GraphQL, and Headless CMS.
+overview: 'Zesty publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Instances API, Apps API, Authentication API, and 10 more. Tagged areas include CMS, Composable, Content Management, GraphQL, and Headless CMS.
 
 
   The Zesty catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -342,12 +306,17 @@ rules:
 score:
   band: thin
   composite: 37.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 49.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 72.6
+    contract_quality: 72.5
     developer_ergonomics: 31.0
     discoverability: 72.2
     governance: 9.8
@@ -360,8 +329,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/screenshots/zesty-2026-06-20T201845.png
 security:

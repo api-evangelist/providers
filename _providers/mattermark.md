@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,15 +25,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.1
-  scored_at: '2026-08-26'
+  score: 28.6
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,13 +43,28 @@ agentic_access:
   summary_line: 11 operations · 1 acting
 api_count: 2
 apis:
-- description: RESTful access to Mattermark company, investor, funding-event, news and personnel data, with page-based pagination and MSFL query endpoints.
-  name: Mattermark REST API
-  slug: mattermark-rest-api
 - description: 'GraphQL access to the Mattermark dataset using the Mattermark Search Filter Language (MSFL) for complex company and investor queries. Read-only: the published schema declares 57 types under a single R'
   name: Mattermark GraphQL API
   slug: mattermark-graphql-api
-artifact_total: 8
+- description: The Companies API from Mattermark — 5 operation(s) for companies.
+  name: Mattermark Companies API
+  slug: mattermark-companies-api
+- description: The Complex Queries API from Mattermark — 1 operation(s) for complex queries.
+  name: Mattermark Complex Queries API
+  slug: mattermark-complex-queries-api
+- description: The Funding Events API from Mattermark — 1 operation(s) for funding events.
+  name: Mattermark Funding Events API
+  slug: mattermark-funding-events-api
+- description: The Investors API from Mattermark — 2 operation(s) for investors.
+  name: Mattermark Investors API
+  slug: mattermark-investors-api
+- description: The Search API from Mattermark — 1 operation(s) for search.
+  name: Mattermark Search API
+  slug: mattermark-search-api
+- description: The Utilities API from Mattermark — 1 operation(s) for utilities.
+  name: Mattermark Utilities API
+  slug: mattermark-utilities-api
+artifact_total: 13
 common:
 - group: agent
   title: ''
@@ -183,7 +198,7 @@ modified: '2026-08-14'
 name: Mattermark
 nav: Providers
 network: true
-overview: 'Mattermark publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Company, Business Intelligence, Company Data, Investors, and Funding.
+overview: 'Mattermark publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Companies API, Complex Queries API, Funding Events API, and 3 more. Tagged areas include Company, Business Intelligence, Company Data, Investors, and Funding.
 
 
   Mattermark''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, authentication, changelog, and 23 more developer resources.'
@@ -198,18 +213,23 @@ rate_limits:
   slug: mattermark-rate-limits
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 47.7
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 16.7
-    contract_quality: 56.7
-    developer_ergonomics: 47.0
+    contract_governance: 4.5
+    contract_quality: 56.9
+    developer_ergonomics: 51.8
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 48.2
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -220,8 +240,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/screenshots/mattermark-2026-07-25T230426.png
 security:

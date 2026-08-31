@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 53
   slug: f5-load-balancer-agentic-access
   summary_line: 53 operations · 19 acting
-api_count: 17
+api_count: 3
 apis:
 - description: Retrieve the original device configuration before Declarative Onboarding modifications were applied.
   name: F5 Load Balancer Config API
@@ -161,6 +161,10 @@ collections:
   name: F5 Load Balancer F5 BIG-IP Application Services 3 Extension (AS3) Config Virtual Servers API
   slug: open-f5-load-balancer-virtual-servers-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/f5-load-balancer-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -224,7 +228,7 @@ network: true
 overview: 'F5 Load Balancer publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Config API, Data Groups API, Declarations API, and 14 more. Tagged areas include Application Delivery, BIG-IP, Load Balancer, Networking, and Traffic Management.
 
 
-  F5 Load Balancer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 7 more developer resources.'
+  F5 Load Balancer''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 8 more developer resources.'
 plans:
 - name: F5 Load Balancer Plans Pricing
   plan_count: 4
@@ -237,6 +241,11 @@ rate_limits:
 score:
   band: thin
   composite: 38.0
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
@@ -255,8 +264,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/screenshots/f5-load-balancer-2026-06-20T180957.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 106
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 222
   slug: bentoml-agentic-access
   summary_line: 222 operations · 106 acting · 4 human-in-the-loop
-api_count: 62
+api_count: 1
 apis:
 - description: Auto-generated REST API endpoints produced when BentoML services are deployed. Each decorated service method becomes an HTTP POST endpoint. Supports custom routes, path prefixes, adaptive batching, as
   name: BentoML Service REST API
@@ -413,6 +413,10 @@ collections:
   name: yatai api server admin api v1 yatai components API
   slug: open-bentoml-yatai-components-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bentoml-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -510,13 +514,13 @@ modified: 2026-06-12
 name: BentoML
 nav: Providers
 network: true
-overview: 'BentoML publishes 59 APIs on the [APIs.io](https://apis.io/) network, including admin api v1 API, admin deployment resource API, api token resource API, and 56 more. Tagged areas include Machine-Learning, Model Serving, Inference, Artificial Intelligence, and REST API.
+overview: 'BentoML publishes 59 APIs on the [APIs.io](https://apis.io/) network, including admin api v1 API, admin deployment resource API, api token resource API, and 56 more. Tagged areas include machine learning, model serving, Inference, Artificial Intelligence, and REST API.
 
 
   The BentoML catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  BentoML''s developer surface includes authentication, documentation, engineering blog, pricing, CLI, code examples, and 13 more developer resources.'
+  BentoML''s developer surface includes authentication, documentation, engineering blog, pricing, CLI, code examples, and 14 more developer resources.'
 plans:
 - name: Bentoml Plans Pricing
   plan_count: 3
@@ -539,18 +543,23 @@ rules:
   slug: bentoml-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.5
-  delta: 1.4
+  composite: 44.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 25.0
     contract_quality: 59.6
     developer_ergonomics: 31.0
-    discoverability: 59.3
+    discoverability: 53.7
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 44.1
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -558,8 +567,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 59
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bentoml/refs/heads/main/screenshots/bentoml-2026-06-20T173142.png
 security:
@@ -573,8 +582,8 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: bentoml
 tags:
-- Machine-Learning
-- Model Serving
+- machine learning
+- model serving
 - Inference
 - Artificial Intelligence
 - REST API

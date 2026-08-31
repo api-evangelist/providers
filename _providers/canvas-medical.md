@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 85
   slug: canvas-medical-agentic-access
   summary_line: 85 operations · 30 acting
-api_count: 30
+api_count: 1
 apis:
 - description: A FHIR R4-compliant REST API providing secure access to electronic health record data including 41 FHIR resources (21 with write capabilities) covering clinical, administrative, financial, and care co
   name: Canvas Medical FHIR API
@@ -250,6 +250,10 @@ collections:
   name: Canvas Medical FHIR AllergyIntolerance Task API
   slug: open-canvas-medical-task-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/canvas-medical-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -475,7 +479,7 @@ overview: 'Canvas Medical publishes 28 APIs on the [APIs.io](https://apis.io/) n
   The Canvas Medical catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Canvas Medical''s developer surface includes authentication, documentation, engineering blog, pricing, sandbox, getting-started guide, release notes, and 38 more developer resources.'
+  Canvas Medical''s developer surface includes authentication, documentation, engineering blog, pricing, sandbox, getting-started guide, release notes, and 39 more developer resources.'
 plans:
 - name: Canvas Medical Plans Pricing
   plan_count: 2
@@ -503,18 +507,23 @@ scopes:
   summary_line: 20 scopes · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 70.8
-  delta: 0.7
+  composite: 67.6
+  coverage:
+    artifact_dirs: 36
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 40.2
+    contract_governance: 28.0
     contract_quality: 76.2
     developer_ergonomics: 76.2
-    discoverability: 92.6
-    governance: 40.2
+    discoverability: 75.9
+    governance: 28.0
     operational_transparency: 42.1
-  previous_composite: 70.1
+  previous_composite: 68.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -529,14 +538,16 @@ score:
     applies: true
     jurisdictions:
     - jurisdiction: US
+      standard: hipaa
+    - jurisdiction: US
       standard: us-core
     jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/screenshots/canvas-medical-2026-06-20T173934.png
 security:

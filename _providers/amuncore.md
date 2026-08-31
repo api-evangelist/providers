@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -32,11 +32,11 @@ agentic_access:
   operation_count: 5
   slug: amuncore-agentic-access
   summary_line: 5 operations · 3 acting
-api_count: 1
+api_count: 2
 apis:
-- description: Generated REST API over a connected database — full CRUD across chosen tables, with auth, pagination and docs handled by the platform.
-  name: AmunCore API
-  slug: amuncore-api
+- description: Generated CRUD over a table or view exposed as an endpoint on a registered AmunCore application.
+  name: AmunCore Dynamic API
+  slug: amuncore-dynamic-api-api
 artifact_total: 11
 asyncapis:
 - description: ''
@@ -47,6 +47,14 @@ collections:
   name: 'AmunCore API Engine: Dynamic API'
   slug: open-amuncore-dynamic-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/amuncore-dynamic-api-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/amuncore-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -191,13 +199,13 @@ modified: '2026-08-10'
 name: AmunCore
 nav: Providers
 network: true
-overview: 'AmunCore publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Database, API Management, Backend, No-Code, and SQL.
+overview: 'AmunCore publishes 1 API on the [APIs.io](https://apis.io/) network: Dynamic API. Tagged areas include Database, API Management, Backend, No Code, and SQL.
 
 
   The AmunCore catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AmunCore''s developer surface includes documentation, code examples, authentication, sandbox, pricing, signup flow, support, and 26 more developer resources.'
+  AmunCore''s developer surface includes documentation, code examples, authentication, sandbox, pricing, signup flow, support, and 28 more developer resources.'
 plans:
 - name: Amuncore Plans Pricing
   plan_count: 4
@@ -214,16 +222,21 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 56.5
+  composite: 55.1
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 65.3
     developer_ergonomics: 35.1
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 39.5
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -231,7 +244,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 56.5
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -242,8 +255,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/screenshots/amuncore-2026-08-07T161347.png
 security:
@@ -264,7 +277,7 @@ tags:
 - Database
 - API Management
 - Backend
-- No-Code
+- No Code
 - SQL
 - PostgreSQL
 - MySQL
@@ -275,7 +288,7 @@ tags:
 - SQL Server
 - Webhook
 - OpenAPI
-- Low-Code
+- Low Code
 - Egypt
 website: https://amuncore.com
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: reown-agentic-access
   summary_line: 6 operations
-api_count: 7
+api_count: 1
 apis:
 - description: REST API to retrieve listings of WalletGuide-approved wallets, dApps, hybrid entries, and chains, plus logo assets. Filter by chain, platform, SDK, standard, or search term.
   name: Reown Cloud Explorer API
@@ -177,18 +177,23 @@ rules:
   slug: reown-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 33.0
-  delta: 1.9
+  composite: 32.4
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 66.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 11.4
     contract_quality: 60.8
     developer_ergonomics: 23.8
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 11.4
     operational_transparency: 7.9
-  previous_composite: 31.1
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -202,8 +207,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 28.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/screenshots/reown-2026-06-20T192900.png
 security:

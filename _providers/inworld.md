@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 19
   slug: inworld-agentic-access
   summary_line: 19 operations · 13 acting
-api_count: 10
+api_count: 1
 apis:
 - description: TTS-2 and TTS-1.5 (Max/Mini) models for character voice synthesis. Priced per 1M characters with plan-tier discounts.
   name: Inworld Text-to-Speech API
@@ -169,18 +169,23 @@ rate_limits:
   slug: inworld-rate-limits
 score:
   band: thin
-  composite: 34.0
-  delta: 2.1
+  composite: 33.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 53.6
     developer_ergonomics: 21.4
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 31.9
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -188,8 +193,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inworld/refs/heads/main/screenshots/inworld-2026-06-20T183534.png
 security:

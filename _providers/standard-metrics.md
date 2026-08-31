@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 34
   slug: standard-metrics-agentic-access
   summary_line: 34 operations · 19 acting · 1 human-in-the-loop
-api_count: 14
+api_count: 3
 apis:
 - description: The budgets API from Standard Metrics — 1 operation(s) for budgets.
   name: Standard Metrics budgets API
@@ -281,18 +281,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: developing
-  composite: 52.4
+  composite: 51.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 52.2
     developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 52.4
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -303,8 +308,8 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/standard-metrics/refs/heads/main/screenshots/standard-metrics-2026-08-17T082103.png
 security:

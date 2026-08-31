@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: documented
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.7
-  scored_at: '2026-08-26'
+  score: 36.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -31,18 +31,36 @@ agentic_access:
   operation_count: 43
   slug: edf-energy-agentic-access
   summary_line: 43 operations · 18 acting
-api_count: 3
+api_count: 2
 apis:
 - description: EDF Energy's primary developer API, and the surface EDF markets as its "open tariff APIs". It is the Kraken GraphQL API, licensed from Octopus Energy Group and hosted for EDF GB. Introspection is enab
   name: EDF Kraken GraphQL API
   slug: edf-kraken-graphql-api
-- description: The REST half of EDF's Kraken platform API, described by a first-party OpenAPI 3.0.3 document that EDF serves itself at https://api.edfgb-kraken.energy/v1/schema?namespaces=default and renders through
-  name: EDF Kraken REST API
-  slug: edf-kraken-rest-api
-- description: 'A second, separately published first-party OpenAPI 3.0.3 document describing the Kraken customer-migration API, harvested verbatim from https://api.edfgb-kraken.energy/data-import/schema/ at HTTP 200 '
-  name: EDF Kraken Customer Migration (Data Import) API
-  slug: edf-kraken-customer-migration-api
-artifact_total: 12
+- description: APIs for importing accounts.
+  name: EDF Energy Account Import API
+  slug: edf-energy-account-import-api
+- description: The data-import API from EDF Energy — 1 operation(s) for data-import.
+  name: EDF Energy Data Import API
+  slug: edf-energy-data-import-api
+- description: The external-client-healthcheck API from EDF Energy — 1 operation(s) for external-client-healthcheck.
+  name: EDF Energy External Client Healthcheck API
+  slug: edf-energy-external-client-healthcheck-api
+- description: The external-events API from EDF Energy — 1 operation(s) for external-events.
+  name: EDF Energy External Events API
+  slug: edf-energy-external-events-api
+- description: APIs for importing additional data after an account has been imported.
+  name: EDF Energy Post Account Import API
+  slug: edf-energy-post-account-import-api
+- description: APIs for querying import status and retrieving data
+  name: EDF Energy Query API
+  slug: edf-energy-query-api
+- description: The v1 API from EDF Energy — 23 operation(s) for v1.
+  name: EDF Energy V1 API
+  slug: edf-energy-v1-api
+- description: The v2 API from EDF Energy — 1 operation(s) for v2.
+  name: EDF Energy V2 API
+  slug: edf-energy-v2-api
+artifact_total: 18
 collections:
 - collection_type: open
   name: Kraken
@@ -51,6 +69,26 @@ collections:
   name: Kraken
   slug: open-edf-energy-kraken
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/edf-energy-capability-edges.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/edf-energy-compare-tariffs.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/edf-energy-read-consumption.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/edf-energy-quote-and-enrol.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/edf-energy-migrate-customer-book.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -258,10 +296,10 @@ modified: '2026-07-27'
 name: EDF Energy
 nav: Providers
 network: true
-overview: 'EDF Energy publishes 2 APIs on the [APIs.io](https://apis.io/) network: EDF Kraken REST API and EDF Kraken Customer Migration (Data Import) API. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
+overview: 'EDF Energy publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account Import API, Data Import API, External Client Healthcheck API, and 5 more. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Gas.
 
 
-  EDF Energy''s developer surface includes authentication, changelog, sandbox, developer console, documentation, API reference, getting-started guide, and 40 more developer resources.'
+  EDF Energy''s developer surface includes authentication, changelog, sandbox, developer console, documentation, API reference, getting-started guide, and 45 more developer resources.'
 random_paper: 11
 rate_limits:
 - limit_count: 5
@@ -274,18 +312,23 @@ scopes:
   summary_line: 111 scopes · authorizationCode/clientCredentials/deviceCode/tokenExchange
 score:
   band: strong
-  composite: 65.7
-  delta: 2.8
+  composite: 62.2
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 30.3
-    contract_quality: 57.2
+    contract_governance: 18.2
+    contract_quality: 55.7
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 62.9
+  previous_composite: 62.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -306,8 +349,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 78.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edf-energy/refs/heads/main/screenshots/edf-energy-2026-08-07T164723.png
 security:

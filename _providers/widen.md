@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 90
   slug: widen-agentic-access
   summary_line: 90 operations · 48 acting · 3 human-in-the-loop
-api_count: 17
+api_count: 1
 apis:
 - description: Create, list, retrieve, edit, ping, and delete DAM asset webhooks.
   name: Widen Acquia-DAM-Webhooks API
@@ -152,6 +152,10 @@ collections:
   name: Acquia DAM (Widen) Acquia-DAM-Webhooks Workflow-Webhooks API
   slug: open-widen-workflow-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/widen-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -231,7 +235,7 @@ network: true
 overview: 'Widen publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Acquia-DAM-Webhooks API, Analytics API, Assets API, and 14 more. Tagged areas include Digital Asset Management, DAM, Media, Assets, and Metadata.
 
 
-  Widen''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  Widen''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Widen Plans Pricing
   plan_count: 3
@@ -243,15 +247,20 @@ rate_limits:
   slug: widen-rate-limits
 score:
   band: developing
-  composite: 43.2
-  delta: 0.0
+  composite: 42.7
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 0.0
     contract_quality: 50.5
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 43.2
@@ -262,8 +271,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/widen/refs/heads/main/screenshots/widen-2026-06-20T201453.png
 security:

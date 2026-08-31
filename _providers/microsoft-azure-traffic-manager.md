@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: microsoft-azure-traffic-manager-agentic-access
   summary_line: 15 operations · 8 acting
-api_count: 9
+api_count: 1
 apis:
 - description: 'REST API for managing endpoints within a Traffic Manager profile. Supports adding, updating, and removing Azure, external, and nested endpoints that receive traffic according to the profile''s routing '
   name: Azure Traffic Manager Endpoints REST API
@@ -110,6 +110,10 @@ collections:
   name: Azure Traffic Manager REST API
   slug: open-microsoft-azure-traffic-manager
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-azure-traffic-manager-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -261,7 +265,7 @@ network: true
 overview: 'Azure Traffic Manager publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Endpoints API, GeographicHierarchies API, HeatMap API, and 2 more. Tagged areas include DNS Load Balancing, Failover, Global Routing, Networking, and Traffic Distribution.
 
 
-  Azure Traffic Manager''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 26 more developer resources.'
+  Azure Traffic Manager''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 27 more developer resources.'
 plans:
 - name: Microsoft Azure Traffic Manager Plans Pricing
   plan_count: 3
@@ -278,18 +282,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 51.1
-  delta: 1.5
+  composite: 50.5
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 0.0
     contract_quality: 48.0
     developer_ergonomics: 66.7
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 49.6
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     contracts:
@@ -297,8 +306,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/screenshots/microsoft-azure-traffic-manager-2026-06-20T185440.png
 security:

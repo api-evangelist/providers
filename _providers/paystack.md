@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 6
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 240
   slug: paystack-agentic-access
   summary_line: 240 operations · 120 acting · 6 human-in-the-loop
-api_count: 21
+api_count: 14
 apis:
 - description: Outbound webhook surface that notifies a single merchant-configured POST endpoint of transaction, dispute, refund, transfer, subscription, invoice, payment request, customer identification, and dedica
   name: Paystack Webhooks
@@ -331,6 +331,10 @@ collections:
   name: Paystack Verification API
   slug: open-paystack-verification
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/stripe/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -789,7 +793,7 @@ overview: 'Paystack publishes 21 APIs on the [APIs.io](https://apis.io/) network
   The Paystack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Paystack''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, signup flow, changelog, and 70 more developer resources.'
+  Paystack''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, signup flow, changelog, and 71 more developer resources.'
 plans:
 - name: Paystack Plans Pricing
   plan_count: 8
@@ -834,18 +838,23 @@ rules:
   slug: paystack-rules
 score:
   band: exemplar
-  composite: 71.0
+  composite: 69.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 28.8
-    contract_quality: 75.2
+    contract_quality: 69.8
     developer_ergonomics: 78.6
     discoverability: 50.0
     governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 71.0
+  previous_composite: 69.6
   provenance:
     agentic_access: derived
     contracts:
@@ -859,8 +868,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 53.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paystack/refs/heads/main/screenshots/paystack-2026-06-20T191508.png
 security:

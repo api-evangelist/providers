@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,6 +58,18 @@ collections:
   name: RapiDoc API
   slug: open-rapidoc-rapidoc
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/rapi-doc/RapiDoc/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/rapi-doc/RapiDoc/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/rapi-doc/RapiDoc/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -151,7 +163,7 @@ overview: 'RapiDoc publishes 1 API on the [APIs.io](https://apis.io/) network: C
   The RapiDoc catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  RapiDoc''s developer surface includes documentation, code examples, getting-started guide, and 7 more developer resources.'
+  RapiDoc''s developer surface includes documentation, code examples, getting-started guide, and 10 more developer resources.'
 plans:
 - name: Rapidoc Plans Pricing
   plan_count: 3
@@ -185,7 +197,12 @@ rules:
   slug: rapidoc-rules
 score:
   band: thin
-  composite: 30.3
+  composite: 34.1
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 45.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -195,8 +212,11 @@ score:
     developer_ergonomics: 21.4
     discoverability: 50.0
     governance: 28.8
-    operational_transparency: 13.2
-  previous_composite: 30.3
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -204,8 +224,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapidoc/refs/heads/main/screenshots/rapidoc-2026-06-20T192601.png
 security:

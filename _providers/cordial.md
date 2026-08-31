@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 62.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 0
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 189
   slug: cordial-agentic-access
   summary_line: 189 operations · 124 acting
-api_count: 25
+api_count: 2
 apis:
 - description: 'Cordial''s hosted Model Context Protocol server, which gives any MCP client secure read access to a Cordial account: audiences, messages, analytics, content, orchestrations, sculpt blocks and templates'
   name: Cordial MCP Server
@@ -191,6 +191,10 @@ collections:
   name: Cordial Supplements API
   slug: open-cordial-supplements-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cordial-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -370,7 +374,7 @@ overview: 'Cordial publishes 24 APIs on the [APIs.io](https://apis.io/) network,
   The Cordial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cordial''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 33 more developer resources.'
+  Cordial''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 34 more developer resources.'
 plans:
 - name: Cordial Plans Pricing
   plan_count: 0
@@ -387,18 +391,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.8
-  delta: 0.0
+  composite: 61.6
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 58.7
     developer_ergonomics: 76.2
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 63.2
-  previous_composite: 64.8
+  previous_composite: 62.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -411,12 +420,18 @@ score:
     skills: first-party
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/screenshots/cordial-2026-08-07T163810.png
 security:

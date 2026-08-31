@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 54
   slug: nutanix-agentic-access
   summary_line: 54 operations · 31 acting
-api_count: 21
+api_count: 2
 apis:
 - description: The next-generation v4 API for managing the Nutanix Cloud Platform through Prism Central with GA SDKs for Python, Java, Go, and JavaScript. The v4 API is now the recommended version for production env
   name: Nutanix Prism Central API V4
@@ -209,6 +209,10 @@ collections:
   name: Nutanix Prism Central API v3 Alerts Webhooks API
   slug: open-nutanix-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nutanix-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -384,13 +388,13 @@ modified: '2026-08-15'
 name: Nutanix
 nav: Providers
 network: true
-overview: 'Nutanix publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Categories API, Clusters API, and 12 more. Tagged areas include Cloud Management, Hyper-Converged, Infrastructure, Virtualization, and Kubernetes.
+overview: 'Nutanix publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Categories API, Clusters API, and 12 more. Tagged areas include Cloud Management, Hyperconverged, Infrastructure, Virtualization, and Kubernetes.
 
 
   The Nutanix catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Nutanix''s developer surface includes authentication, documentation, getting-started guide, code examples, changelog, engineering blog, support, and 18 more developer resources.'
+  Nutanix''s developer surface includes authentication, documentation, getting-started guide, code examples, changelog, engineering blog, support, and 19 more developer resources.'
 plans:
 - name: Nutanix Plans Pricing
   plan_count: 5
@@ -413,18 +417,23 @@ rules:
   slug: nutanix-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 46.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 70.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 9.8
     contract_quality: 60.5
     developer_ergonomics: 59.5
-    discoverability: 64.8
+    discoverability: 66.7
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 46.7
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     contracts:
@@ -432,8 +441,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/screenshots/nutanix-2026-06-20T190530.png
 security:
@@ -448,7 +457,7 @@ security:
 slug: nutanix
 tags:
 - Cloud Management
-- Hyper-Converged
+- Hyperconverged
 - Infrastructure
 - Virtualization
 - Kubernetes

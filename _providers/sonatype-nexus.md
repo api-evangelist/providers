@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 10
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 362
   slug: sonatype-nexus-agentic-access
   summary_line: 362 operations · 228 acting · 10 human-in-the-loop
-api_count: 46
+api_count: 1
 apis:
 - description: The assets API from Sonatype Nexus — 2 operation(s) for assets.
   name: Sonatype Nexus assets API
@@ -329,6 +329,10 @@ collections:
   name: Sonatype Nexus Repository Manager assets Tasks API
   slug: open-sonatype-nexus-tasks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sonatype-nexus-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -418,7 +422,7 @@ overview: 'Sonatype Nexus publishes 46 APIs on the [APIs.io](https://apis.io/) n
   The Sonatype Nexus catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sonatype Nexus'' developer surface includes authentication, developer portal, documentation, GitHub presence, engineering blog, changelog, support, and 5 more developer resources.'
+  Sonatype Nexus'' developer surface includes authentication, developer portal, documentation, GitHub presence, engineering blog, changelog, support, and 6 more developer resources.'
 plans:
 - name: Sonatype Nexus Plans Pricing
   plan_count: 3
@@ -452,18 +456,23 @@ rules:
   slug: sonatype-nexus-rules
 score:
   band: thin
-  composite: 35.6
-  delta: 1.4
+  composite: 31.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 69.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
-    contract_quality: 60.5
+    contract_quality: 55.0
     developer_ergonomics: 35.7
-    discoverability: 68.5
+    discoverability: 44.4
     governance: 13.6
     operational_transparency: 13.2
-  previous_composite: 34.2
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -471,8 +480,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonatype-nexus/refs/heads/main/screenshots/sonatype-nexus-2026-06-20T194201.png
 security:

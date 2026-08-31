@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST API for Nav partner integrations. Partners authenticate with a Bearer token API key issued during onboarding and use it to create Nav accounts for their users, fetch account state, change an acco
@@ -168,7 +168,7 @@ modified: '2026-08-26'
 name: Nav
 nav: Providers
 network: true
-overview: 'Nav publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Business Credit, Small Business, Financial Services, Embedded Finance, and Lending.
+overview: 'Nav publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Business Credit, Small Business, Financial-Services, Embedded Finance, and Lending.
 
 
   Nav''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
@@ -184,6 +184,12 @@ rate_limits:
 score:
   band: developing
   composite: 41.7
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -193,11 +199,13 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 23.7
+  previous_composite: 41.7
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Nav Authentication
@@ -211,7 +219,7 @@ slug: nav
 tags:
 - Business Credit
 - Small Business
-- Financial Services
+- Financial-Services
 - Embedded Finance
 - Lending
 - Credit Scores

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 4
 apis:
 - description: REST API of TUdatalib, the institutional research-data repository of TU Darmstadt, running on DSpace 8.1. The API root reports dspaceName "TUdatalib System" and exposes HAL-style endpoints for communi
@@ -90,10 +90,6 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/technical-university-of-darmstadt-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: '2026-06-03'
 description: 'The Technical University of Darmstadt (Technische Universitat Darmstadt, TU Darmstadt) is a public research university in Darmstadt, Germany, ranked #241 in the QS World University Rankings 2025. Its public, machine-readable developer footprint is centered on the university and state library (ULB) scholarly infrastructure rather than a central developer portal. TUdatalib, the institutional research-data repository, runs DSpace 8.1 and exposes a live REST API and an OAI-PMH 2.0 metadata interface; the TUbiblio publication bibliography and the tuprints open-access repository run on EPrints with OAI-PMH harvesting. Authentication across university services is handled through a central SSO system operated by the Hochschulrechenzentrum (HRZ).'
 finops:
@@ -117,7 +113,7 @@ overview: 'Technical University of Darmstadt publishes 4 APIs on the [APIs.io](h
   The Technical University of Darmstadt catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Technical University of Darmstadt''s developer surface includes GitHub presence, authentication, engineering blog, and 8 more developer resources.'
+  Technical University of Darmstadt''s developer surface includes GitHub presence, authentication, and 8 more developer resources.'
 plans:
 - name: Technical University Of Darmstadt Plans Pricing
   plan_count: 2
@@ -129,26 +125,31 @@ rate_limits:
   slug: technical-university-of-darmstadt-rate-limits
 score:
   band: emerging
-  composite: 24.6
-  delta: 1.9
+  composite: 24.1
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 10.7
-    developer_ergonomics: 23.8
+    developer_ergonomics: 21.4
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 22.7
+  previous_composite: 24.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/technical-university-of-darmstadt/refs/heads/main/screenshots/technical-university-of-darmstadt-2026-06-20T195009.png
 security:

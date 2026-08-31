@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 177
   slug: modern-treasury-agentic-access
   summary_line: 177 operations · 88 acting
-api_count: 44
+api_count: 1
 apis:
 - description: The AccountCapability API from Modern Treasury — 1 operation(s) for accountcapability.
   name: Modern Treasury AccountCapability API
@@ -317,6 +317,10 @@ collections:
   name: Modern Treasury
   slug: open-modern-treasury
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/modern-treasury-capability-edges.yml
 - group: auth
   title: ''
   type: Security
@@ -874,7 +878,7 @@ overview: 'Modern Treasury publishes 44 APIs on the [APIs.io](https://apis.io/) 
   The Modern Treasury catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Modern Treasury''s developer surface includes changelog, pricing, getting-started guide, authentication, and 14 more developer resources.'
+  Modern Treasury''s developer surface includes changelog, pricing, getting-started guide, authentication, and 15 more developer resources.'
 plans:
 - name: Modern Treasury Plans Pricing
   plan_count: 1
@@ -897,18 +901,23 @@ rules:
   slug: modern-treasury-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.5
-  delta: 1.9
+  composite: 43.7
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 72.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 9.8
     contract_quality: 56.3
     developer_ergonomics: 27.4
-    discoverability: 64.8
+    discoverability: 66.7
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 41.6
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     contracts:
@@ -922,8 +931,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modern-treasury/refs/heads/main/screenshots/modern-treasury-2026-06-20T185652.png
 security:

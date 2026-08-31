@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: flavored
+    agent_card: false
     agent_skills: true
     agentic_access: false
     agentic_commerce: false
@@ -26,20 +26,17 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 52.4
-  scored_at: '2026-08-26'
-api_count: 6
+  score: 53.5
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: The consolidated Brandfetch REST API — nine operations spanning brand lookup by domain, stock/ETF ticker, ISIN and crypto symbol, brand search, LLM-ready brand context, transaction-to-merchant resolut
-  name: Brandfetch API
-  slug: brandfetch-api
 - description: Hosted, remote, streamable-HTTP MCP server exposing seven Brandfetch tools — brand_search, get_brand, get_brand_context, enrich_transaction, build_logo_urls, get_asset_base64 and send_feedback — to an
   name: Brandfetch MCP Server
   slug: brandfetch-mcp
@@ -55,7 +52,16 @@ apis:
 - description: The Brands API from Brand API (Brandfetch) — the tag-split refinement of the earlier single-operation harvest, superseded by the full nine-operation spec on the Brandfetch API entry above.
   name: Brand API (Brandfetch) Brands API
   slug: brand-api-brands-api
-artifact_total: 17
+- description: The context API from Brand API (Brandfetch) — 1 operation(s) for context.
+  name: Brand API (Brandfetch) Context API
+  slug: brand-api-context-api
+- description: The Search API from Brand API (Brandfetch) — 1 operation(s) for search.
+  name: Brand API (Brandfetch) Search API
+  slug: brand-api-search-api
+- description: The viewer API from Brand API (Brandfetch) — 1 operation(s) for viewer.
+  name: Brand API (Brandfetch) Viewer API
+  slug: brand-api-viewer-api
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Brand Api Webhooks
@@ -68,6 +74,10 @@ collections:
   name: Brandfetch Brand Brands API
   slug: open-brand-api-brands-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/brand-api-brandfetch-overlay.yaml
 - group: auth
   title: ''
   type: Authentication
@@ -244,13 +254,13 @@ modified: '2026-08-14'
 name: Brand API (Brandfetch)
 nav: Providers
 network: true
-overview: 'Brand API (Brandfetch) publishes 2 APIs on the [APIs.io](https://apis.io/) network: Brandfetch API and Brands API. Tagged areas include Brands, Logos, Brand Assets, Company Data, and Firmographics.
+overview: 'Brand API (Brandfetch) publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Brands API, Context API, Search API, and 1 more. Tagged areas include Brands, Logos, Brand Assets, Company Data, and Firmographics.
 
 
   The Brand API (Brandfetch) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Brand API (Brandfetch)''s developer surface includes authentication, sandbox, API reference, getting-started guide, engineering blog, pricing, support, and 33 more developer resources.'
+  Brand API (Brandfetch)''s developer surface includes authentication, sandbox, API reference, getting-started guide, engineering blog, pricing, support, and 34 more developer resources.'
 plans:
 - name: Brand Api Plans Pricing
   plan_count: 4
@@ -266,19 +276,24 @@ scopes:
   slug: brand-api-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: exemplar
-  composite: 68.3
-  delta: 1.9
+  band: strong
+  composite: 66.3
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 57.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 30.3
-    contract_quality: 67.3
+    contract_governance: 18.2
+    contract_quality: 69.6
     developer_ergonomics: 71.4
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 66.4
+  previous_composite: 66.3
   provenance:
     conformance: first-party
     contracts:
@@ -294,8 +309,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brand-api/refs/heads/main/screenshots/brand-api-2026-06-20T173632.png
 security:

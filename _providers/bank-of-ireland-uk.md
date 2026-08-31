@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -31,29 +31,123 @@ agentic_access:
   operation_count: 86
   slug: bank-of-ireland-uk-agentic-access
   summary_line: 86 operations · 20 acting
-api_count: 5
+api_count: 4
 apis:
-- description: Public, unauthenticated OBIE Open Data API for Bank of Ireland (UK) plc, serving reference data for ATMs, branches, personal current accounts, business current accounts, unsecured SME loans and commer
-  name: Bank of Ireland (UK) Open Data API
-  slug: bank-of-ireland-uk-open-data-api
-- description: OBIE Read/Write Account & Transaction Information (AIS) API for Bank of Ireland (UK) plc, allowing authorised AISPs to access account, balance, transaction, beneficiary, standing order, direct debit a
-  name: Bank of Ireland (UK) Account & Transaction Information API
-  slug: bank-of-ireland-uk-account-information-api
-- description: OBIE Read/Write Payment Initiation (PIS) API for Bank of Ireland (UK) plc, enabling authorised PISPs to initiate domestic and international single, scheduled, standing-order and file payments with the
-  name: Bank of Ireland (UK) Payment Initiation API
-  slug: bank-of-ireland-uk-payment-initiation-api
-- description: OBIE Read/Write Confirmation of Funds (CBPII) API for Bank of Ireland (UK) plc, allowing authorised card-based payment instrument issuers to confirm the availability of funds on a customer account wit
-  name: Bank of Ireland (UK) Confirmation of Funds API
-  slug: bank-of-ireland-uk-confirmation-of-funds-api
 - description: OBIE Dynamic Client Registration (DCR) API documented on the Bank of Ireland Developer Hub for onboarding third-party provider applications using OBIE/eIDAS certificates, ahead of consuming the Read/W
   name: Bank of Ireland (UK) Dynamic Client Registration API
   slug: bank-of-ireland-uk-dynamic-client-registration-api
-artifact_total: 11
+- description: The Account Access Consents API from Bank of Ireland (UK) — 2 operation(s) for account access consents.
+  name: Bank of Ireland (UK) Account Access Consents API
+  slug: bank-of-ireland-uk-account-access-consents-api
+- description: The Accounts API from Bank of Ireland (UK) — 2 operation(s) for accounts.
+  name: Bank of Ireland (UK) Accounts API
+  slug: bank-of-ireland-uk-accounts-api
+- description: Endpoint for getting ATM data
+  name: Bank of Ireland (UK) ATM API
+  slug: bank-of-ireland-uk-atm-api
+- description: The Balances API from Bank of Ireland (UK) — 2 operation(s) for balances.
+  name: Bank of Ireland (UK) Balances API
+  slug: bank-of-ireland-uk-balances-api
+- description: Endpoint for getting Business Current Account data
+  name: Bank of Ireland (UK) BCA API
+  slug: bank-of-ireland-uk-bca-api
+- description: The Beneficiaries API from Bank of Ireland (UK) — 2 operation(s) for beneficiaries.
+  name: Bank of Ireland (UK) Beneficiaries API
+  slug: bank-of-ireland-uk-beneficiaries-api
+- description: Endpoint for getting Branch data
+  name: Bank of Ireland (UK) Branch API
+  slug: bank-of-ireland-uk-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: Bank of Ireland (UK) CCC API
+  slug: bank-of-ireland-uk-ccc-api
+- description: The Direct Debits API from Bank of Ireland (UK) — 2 operation(s) for direct debits.
+  name: Bank of Ireland (UK) Direct Debits API
+  slug: bank-of-ireland-uk-direct-debits-api
+- description: The Domestic Payment Consents API from Bank of Ireland (UK) — 3 operation(s) for domestic payment consents.
+  name: Bank of Ireland (UK) Domestic Payment Consents API
+  slug: bank-of-ireland-uk-domestic-payment-consents-api
+- description: The Domestic Payments API from Bank of Ireland (UK) — 3 operation(s) for domestic payments.
+  name: Bank of Ireland (UK) Domestic Payments API
+  slug: bank-of-ireland-uk-domestic-payments-api
+- description: The Domestic Scheduled Payment Consents API from Bank of Ireland (UK) — 2 operation(s) for domestic scheduled payment consents.
+  name: Bank of Ireland (UK) Domestic Scheduled Payment Consents API
+  slug: bank-of-ireland-uk-domestic-scheduled-payment-consents-api
+- description: The Domestic Scheduled Payments API from Bank of Ireland (UK) — 3 operation(s) for domestic scheduled payments.
+  name: Bank of Ireland (UK) Domestic Scheduled Payments API
+  slug: bank-of-ireland-uk-domestic-scheduled-payments-api
+- description: The Domestic Standing Order Consents API from Bank of Ireland (UK) — 2 operation(s) for domestic standing order consents.
+  name: Bank of Ireland (UK) Domestic Standing Order Consents API
+  slug: bank-of-ireland-uk-domestic-standing-order-consents-api
+- description: The Domestic Standing Orders API from Bank of Ireland (UK) — 3 operation(s) for domestic standing orders.
+  name: Bank of Ireland (UK) Domestic Standing Orders API
+  slug: bank-of-ireland-uk-domestic-standing-orders-api
+- description: The File Payment Consents API from Bank of Ireland (UK) — 3 operation(s) for file payment consents.
+  name: Bank of Ireland (UK) File Payment Consents API
+  slug: bank-of-ireland-uk-file-payment-consents-api
+- description: The File Payments API from Bank of Ireland (UK) — 4 operation(s) for file payments.
+  name: Bank of Ireland (UK) File Payments API
+  slug: bank-of-ireland-uk-file-payments-api
+- description: The Funds Confirmation Consents API from Bank of Ireland (UK) — 2 operation(s) for funds confirmation consents.
+  name: Bank of Ireland (UK) Funds Confirmation Consents API
+  slug: bank-of-ireland-uk-funds-confirmation-consents-api
+- description: The Funds Confirmations API from Bank of Ireland (UK) — 1 operation(s) for funds confirmations.
+  name: Bank of Ireland (UK) Funds Confirmations API
+  slug: bank-of-ireland-uk-funds-confirmations-api
+- description: The International Payment Consents API from Bank of Ireland (UK) — 3 operation(s) for international payment consents.
+  name: Bank of Ireland (UK) International Payment Consents API
+  slug: bank-of-ireland-uk-international-payment-consents-api
+- description: The International Payments API from Bank of Ireland (UK) — 3 operation(s) for international payments.
+  name: Bank of Ireland (UK) International Payments API
+  slug: bank-of-ireland-uk-international-payments-api
+- description: The International Scheduled Payments API from Bank of Ireland (UK) — 3 operation(s) for international scheduled payments.
+  name: Bank of Ireland (UK) International Scheduled Payments API
+  slug: bank-of-ireland-uk-international-scheduled-payments-api
+- description: The International Scheduled Payments Consents API from Bank of Ireland (UK) — 3 operation(s) for international scheduled payments consents.
+  name: Bank of Ireland (UK) International Scheduled Payments Consents API
+  slug: bank-of-ireland-uk-international-scheduled-payments-consents-api
+- description: The International Standing Orders API from Bank of Ireland (UK) — 3 operation(s) for international standing orders.
+  name: Bank of Ireland (UK) International Standing Orders API
+  slug: bank-of-ireland-uk-international-standing-orders-api
+- description: The International Standing Orders Consents API from Bank of Ireland (UK) — 2 operation(s) for international standing orders consents.
+  name: Bank of Ireland (UK) International Standing Orders Consents API
+  slug: bank-of-ireland-uk-international-standing-orders-consents-api
+- description: The Offers API from Bank of Ireland (UK) — 2 operation(s) for offers.
+  name: Bank of Ireland (UK) Offers API
+  slug: bank-of-ireland-uk-offers-api
+- description: The Parties API from Bank of Ireland (UK) — 3 operation(s) for parties.
+  name: Bank of Ireland (UK) Parties API
+  slug: bank-of-ireland-uk-parties-api
+- description: Endpoint for getting Personal Current Account data
+  name: Bank of Ireland (UK) PCA API
+  slug: bank-of-ireland-uk-pca-api
+- description: The Products API from Bank of Ireland (UK) — 2 operation(s) for products.
+  name: Bank of Ireland (UK) Products API
+  slug: bank-of-ireland-uk-products-api
+- description: The Scheduled Payments API from Bank of Ireland (UK) — 2 operation(s) for scheduled payments.
+  name: Bank of Ireland (UK) Scheduled Payments API
+  slug: bank-of-ireland-uk-scheduled-payments-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: Bank of Ireland (UK) SME API
+  slug: bank-of-ireland-uk-sme-api
+- description: The Standing Orders API from Bank of Ireland (UK) — 2 operation(s) for standing orders.
+  name: Bank of Ireland (UK) Standing Orders API
+  slug: bank-of-ireland-uk-standing-orders-api
+- description: The Statements API from Bank of Ireland (UK) — 5 operation(s) for statements.
+  name: Bank of Ireland (UK) Statements API
+  slug: bank-of-ireland-uk-statements-api
+- description: The Transactions API from Bank of Ireland (UK) — 2 operation(s) for transactions.
+  name: Bank of Ireland (UK) Transactions API
+  slug: bank-of-ireland-uk-transactions-api
+artifact_total: 41
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-bank-of-ireland-uk-open-data
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bank-of-ireland-uk-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -187,10 +281,10 @@ modified: '2026-07-23'
 name: Bank of Ireland (UK)
 nav: Providers
 network: true
-overview: 'Bank of Ireland (UK) publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account & Transaction Information API, Payment Initiation API, and 1 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Bank of Ireland (UK) publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 31 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  Bank of Ireland (UK)''s developer surface includes authentication, getting-started guide, developer portal, documentation, support, and 25 more developer resources.'
+  Bank of Ireland (UK)''s developer surface includes authentication, getting-started guide, developer portal, documentation, support, and 26 more developer resources.'
 random_paper: 18
 scopes:
 - name: Bank Of Ireland Uk Scopes
@@ -199,18 +293,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 45.1
-  delta: -0.3
+  composite: 40.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_governance: 30.3
-    contract_quality: 49.0
-    developer_ergonomics: 35.1
-    discoverability: 92.6
-    governance: 30.3
+    contract_governance: 18.2
+    contract_quality: 50.9
+    developer_ergonomics: 25.6
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 45.4
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -223,12 +322,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 72.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/screenshots/bank-of-ireland-uk-2026-07-25T202335.png
 security:

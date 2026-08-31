@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1382
   human_in_the_loop: 36
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 2757
   slug: engineering-platform-agentic-access
   summary_line: 2757 operations · 1382 acting · 36 human-in-the-loop
-api_count: 470
+api_count: 9
 apis:
 - description: Visual Studio Code, also commonly referred to as VS Code, is an integrated development environment developed by Microsoft for Windows, Linux, macOS and web browsers.
   name: VSCode
@@ -1454,7 +1454,10 @@ apis:
 - description: The Zones API from APIs.io Engineering Platform — 1 operation(s) for zones.
   name: APIs.io Engineering Platform Zones API
   slug: engineering-platform-zones-api
-artifact_total: 6979
+- description: The APIs.io Engineering Platform GitHub V3 REST API API from APIs.io Engineering Platform — 0 operation(s) for apis.io engineering platform github v3 rest api.
+  name: APIs.io Engineering Platform APIs.io Engineering Platform GitHub V3 REST API
+  slug: engineering-platform-apis-io-engineering-platform-github-v3-rest-api-api
+artifact_total: 6980
 collections:
 - collection_type: open
   name: API Collection
@@ -2864,6 +2867,10 @@ collections:
   name: APIs.io Engineering Platform Amazon API Gateway 2014 11 13 Zones API
   slug: open-engineering-platform-zones-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/engineering-platform-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -21002,13 +21009,13 @@ modified: '2026-05-19'
 name: APIs.io Engineering Platform
 nav: Providers
 network: true
-overview: 'APIs.io Engineering Platform publishes 468 APIs on the [APIs.io](https://apis.io/) network, including 2014 11 13 API, 2015 03 31 API, 2016 08 19 API, and 465 more. Tagged areas include APIs.io, Engineering, and Platform.
+overview: 'APIs.io Engineering Platform publishes 469 APIs on the [APIs.io](https://apis.io/) network, including 2014 11 13 API, 2015 03 31 API, 2016 08 19 API, and 466 more. Tagged areas include APIs.io, Engineering, and Platform.
 
 
   The APIs.io Engineering Platform catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  APIs.io Engineering Platform''s developer surface includes authentication, developer portal, and 4 more developer resources.'
+  APIs.io Engineering Platform''s developer surface includes authentication, developer portal, and 5 more developer resources.'
 plans:
 - name: Engineering Platform Plans Pricing
   plan_count: 1
@@ -21031,18 +21038,23 @@ rules:
   slug: engineering-platform-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.9
-  delta: 2.8
+  composite: 30.3
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 82.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 9.8
-    contract_quality: 59.8
+    contract_quality: 57.0
     developer_ergonomics: 35.7
-    discoverability: 50.0
+    discoverability: 40.7
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 29.1
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -21050,8 +21062,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 470
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engineering-platform/refs/heads/main/screenshots/engineering-platform-2026-06-20T180718.png
 security:

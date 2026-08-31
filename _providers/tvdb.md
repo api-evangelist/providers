@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 67
   slug: tvdb-agentic-access
   summary_line: 67 operations · 2 acting
-api_count: 29
+api_count: 1
 apis:
 - description: The Artwork API from TheTVDB — 2 operation(s) for artwork.
   name: TheTVDB Artwork API
@@ -227,6 +227,14 @@ collections:
   name: TVDB API V4
   slug: open-tvdb
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tvdb-capability-edges.yml
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/thetvdb/v4-api/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -893,7 +901,7 @@ overview: 'TheTVDB publishes 29 APIs on the [APIs.io](https://apis.io/) network,
   The TheTVDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TheTVDB''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, tooling, and 11 more developer resources.'
+  TheTVDB''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, tooling, and 13 more developer resources.'
 plans:
 - name: Tvdb Plans Pricing
   plan_count: 5
@@ -927,18 +935,26 @@ rules:
   slug: tvdb-rules
 score:
   band: developing
-  composite: 52.3
-  delta: 4.2
+  composite: 50.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 28.8
     contract_quality: 63.5
     developer_ergonomics: 45.2
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 28.8
-    operational_transparency: 34.2
-  previous_composite: 48.1
+    operational_transparency: 50.0
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -946,8 +962,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvdb/refs/heads/main/screenshots/tvdb-2026-06-20T195840.png
 security:

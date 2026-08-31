@@ -11,15 +11,15 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-26'
+  score: 29.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 103
   slug: application-research-agentic-access
   summary_line: 103 operations · 32 acting
-api_count: 36
+api_count: 5
 apis:
 - description: API Resource operations
   name: Application Research API Resources API
@@ -281,6 +281,10 @@ collections:
   name: Application Research Score Workload Specification API
   slug: open-score
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/application-research-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1298,7 +1302,7 @@ overview: 'Application Research publishes 36 APIs on the [APIs.io](https://apis.
   The Application Research catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Application Research''s developer surface includes authentication and 7 more developer resources.'
+  Application Research''s developer surface includes authentication and 8 more developer resources.'
 plans:
 - name: Application Research Plans Pricing
   plan_count: 1
@@ -1337,18 +1341,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 37.0
-  delta: 2.5
+  composite: 34.6
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
-    contract_quality: 75.1
+    contract_quality: 72.7
     developer_ergonomics: 21.4
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 34.5
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -1356,8 +1365,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 36
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/screenshots/application-research-2026-06-20T172330.png
 security:

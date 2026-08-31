@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -33,13 +33,106 @@ agentic_access:
   summary_line: 129 operations · 70 acting
 api_count: 2
 apis:
-- description: 'The Apex27 CRM API is the vendor''s REST interface over the estate agency CRM, covering contacts, leads, listings and their media, rooms, keys, notes, offers, viewings, valuations, inspections, issues '
-  name: Apex27 CRM API
-  slug: apex27-crm-api
-- description: The Apex27 Portal API is the per-tenant, website-facing API that drives search and enquiry on Apex27-built agency websites. Its documented operations are get-listings, get-listing, get-search-options,
-  name: Apex27 Portal API
-  slug: apex27-portal-api
-artifact_total: 9
+- description: Appointment availability for valuations and viewings.
+  name: Apex27 Availability API
+  slug: apex27-availability-api
+- description: Agency branches within the tenant.
+  name: Apex27 Branches API
+  slug: apex27-branches-api
+- description: Telephone activity recorded against a contact.
+  name: Apex27 Call Logs API
+  slug: apex27-call-logs-api
+- description: Client-portal authentication and sign-in links.
+  name: Apex27 Client Portal API
+  slug: apex27-client-portal-api
+- description: Sales completions and progression.
+  name: Apex27 Completions API
+  slug: apex27-completions-api
+- description: Orders placed against a contact.
+  name: Apex27 Contact Orders API
+  slug: apex27-contact-orders-api
+- description: Referrals raised against a contact (conveyancing, mortgage, survey).
+  name: Apex27 Contact Referrals API
+  slug: apex27-contact-referrals-api
+- description: Applicants, vendors, landlords, tenants and buyers held in the CRM.
+  name: Apex27 Contacts API
+  slug: apex27-contacts-api
+- description: Documents attached to listings or contacts.
+  name: Apex27 Documents API
+  slug: apex27-documents-api
+- description: Website enquiries and valuation requests.
+  name: Apex27 Enquiries API
+  slug: apex27-enquiries-api
+- description: Saved listings for a portal contact.
+  name: Apex27 Favourites API
+  slug: apex27-favourites-api
+- description: Cross-entity search.
+  name: Apex27 Global Search API
+  slug: apex27-global-search-api
+- description: Property inspections (lettings management).
+  name: Apex27 Inspections API
+  slug: apex27-inspections-api
+- description: Inbound leads and their pipeline status.
+  name: Apex27 Leads API
+  slug: apex27-leads-api
+- description: Maintenance issues raised against a listing.
+  name: Apex27 Listing Issues API
+  slug: apex27-listing-issues-api
+- description: Key sets held for a listing, including check-out and check-in.
+  name: Apex27 Listing Keys API
+  slug: apex27-listing-keys-api
+- description: Virtual tours, videos, EPC reports and brochure links on a listing.
+  name: Apex27 Listing Links API
+  slug: apex27-listing-links-api
+- description: Images, EPCs, floorplans, brochures and videos on a listing.
+  name: Apex27 Listing Media API
+  slug: apex27-listing-media-api
+- description: Room-by-room detail on a listing.
+  name: Apex27 Listing Rooms API
+  slug: apex27-listing-rooms-api
+- description: Saved applicant listing searches used for matching and alerts.
+  name: Apex27 Listing Searches API
+  slug: apex27-listing-searches-api
+- description: Sales, lettings, land and commercial property records.
+  name: Apex27 Listings API
+  slug: apex27-listings-api
+- description: Free-text notes attached to a contact or a listing.
+  name: Apex27 Notes API
+  slug: apex27-notes-api
+- description: In-app notifications to users, branches, listings or contacts.
+  name: Apex27 Notifications API
+  slug: apex27-notifications-api
+- description: Offers made against listings.
+  name: Apex27 Offers API
+  slug: apex27-offers-api
+- description: Compliance and onboarding checklists on a listing.
+  name: Apex27 Onboarding Checks API
+  slug: apex27-onboarding-checks-api
+- description: Named geographic search regions.
+  name: Apex27 Search Regions API
+  slug: apex27-search-regions-api
+- description: Portal inventory statistics.
+  name: Apex27 Statistics API
+  slug: apex27-statistics-api
+- description: Work items assigned to users.
+  name: Apex27 Tasks API
+  slug: apex27-tasks-api
+- description: Tenancy agreements and their lifecycle.
+  name: Apex27 Tenancies API
+  slug: apex27-tenancies-api
+- description: CRM users within the tenant.
+  name: Apex27 Users API
+  slug: apex27-users-api
+- description: Market appraisals and valuation appointments.
+  name: Apex27 Valuations API
+  slug: apex27-valuations-api
+- description: Viewing appointments.
+  name: Apex27 Viewings API
+  slug: apex27-viewings-api
+- description: Webhook subscription management.
+  name: Apex27 Webhooks API
+  slug: apex27-webhooks-api
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Apex27 Webhooks
@@ -52,6 +145,14 @@ collections:
   name: Apex27 Portal API
   slug: open-apex27-portal-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/apex27-crm-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/apex27-portal-api-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -165,28 +266,33 @@ modified: '2026-07-26'
 name: Apex27
 nav: Providers
 network: true
-overview: 'Apex27 publishes 2 APIs on the [APIs.io](https://apis.io/) network: CRM API and Portal API. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Listings, and CRM.
+overview: 'Apex27 publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Availability API, Branches API, Call Logs API, and 30 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Listings, and CRM.
 
 
   The Apex27 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Apex27''s developer surface includes authentication, signup flow, pricing, changelog, engineering blog, support, and 19 more developer resources.'
+  Apex27''s developer surface includes authentication, signup flow, pricing, changelog, engineering blog, support, and 21 more developer resources.'
 random_paper: 10
 score:
   band: thin
-  composite: 33.8
-  delta: 1.9
+  composite: 33.1
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 76.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 20.5
-    contract_quality: 25.6
+    contract_governance: 8.3
+    contract_quality: 25.8
     developer_ergonomics: 30.4
-    discoverability: 68.5
-    governance: 20.5
+    discoverability: 75.9
+    governance: 8.3
     operational_transparency: 23.7
-  previous_composite: 31.9
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -197,8 +303,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/screenshots/apex27-2026-08-07T161440.png
 security:

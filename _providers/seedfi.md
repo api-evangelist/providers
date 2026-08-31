@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/cross-river-bank/
 created: '2026-07-17'
 description: SeedFi was a U.S. consumer fintech that offered credit-building loans and savings products (its "Credit Builder Prime" and "Borrow & Grow" plans) aimed at helping financially underserved borrowers build credit history and cash savings simultaneously. Backed by a16z and other investors, SeedFi was acquired by Cross River Bank in 2022, and its consumer offerings were subsequently folded into Credit Karma (Intuit). The seedfi.com domain now 302-redirects to a Credit Karma support article; SeedFi operates no independent developer portal, public API, documentation, or OpenAPI surface. This profile is retained as a network company record with no API to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seedfi.png
@@ -48,6 +53,11 @@ random_paper: 15
 score:
   band: minimal
   composite: 5.0
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -67,8 +77,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: seedfi
 tags:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 525
   human_in_the_loop: 15
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 1050
   slug: mist-agentic-access
   summary_line: 1050 operations · 525 acting · 15 human-in-the-loop
-api_count: 211
+api_count: 1
 apis:
 - description: 'Admin API calls can be used to create, manage or authenticate Mist administrators. To register administrators into an existing MSP account or Organization, please check: * [Invite Msp Admin](/#operati'
   name: Mist Admins API
@@ -676,7 +676,10 @@ apis:
 - description: API Calls to use Devices Troubleshooting tools specific to Wireless Assurance
   name: Mist Utilities Wi-Fi API
   slug: mist-utilities-wi-fi-api
-artifact_total: 429
+- description: The Mist API API from Mist — 0 operation(s) for mist api.
+  name: Mist Mist API
+  slug: mist-mist-api-api
+artifact_total: 430
 asyncapis:
 - description: ''
   name: Mist Webhooks
@@ -1319,6 +1322,14 @@ collections:
   name: Mist Admins Utilities Wi-Fi API
   slug: open-mist-utilities-wi-fi-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/juniper-networks/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mist-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -1447,13 +1458,13 @@ modified: '2026-07-20'
 name: Mist
 nav: Providers
 network: true
-overview: 'Mist publishes 211 APIs on the [APIs.io](https://apis.io/) network, including Admins API, Admins Login API, Admins Login - OAuth2 API, and 208 more. Tagged areas include Company, Networking, Wireless, Wi-Fi, and Cloud Management.
+overview: 'Mist publishes 212 APIs on the [APIs.io](https://apis.io/) network, including Admins API, Admins Login API, Admins Login - OAuth2 API, and 209 more. Tagged areas include Company, Networking, Wireless, Wi-Fi, and Cloud Management.
 
 
   The Mist catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mist''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 23 more developer resources.'
+  Mist''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 25 more developer resources.'
 random_paper: 4
 rate_limits:
 - limit_count: 2
@@ -1461,18 +1472,23 @@ rate_limits:
   slug: mist-rate-limits
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 47.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
-    contract_governance: 16.7
-    contract_quality: 70.2
+    contract_governance: 4.5
+    contract_quality: 70.1
     developer_ergonomics: 58.9
-    discoverability: 57.4
-    governance: 16.7
+    discoverability: 51.9
+    governance: 4.5
     operational_transparency: 71.1
-  previous_composite: 49.7
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1483,8 +1499,8 @@ score:
       total: 211
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mist/refs/heads/main/screenshots/mist-2026-08-07T183800.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -31,12 +31,18 @@ agentic_access:
   operation_count: 8
   slug: findigs-agentic-access
   summary_line: 8 operations · 2 acting
-api_count: 1
+api_count: 2
 apis:
-- description: REST API for programmatic interaction with Findigs and integration of Findigs data into existing property management systems and workflows. Covers listings (the window during which a unit accepts rent
-  name: Findigs Client API
-  slug: findigs-client-api
-artifact_total: 10
+- description: The Applications API from Findigs — 2 operation(s) for applications.
+  name: Findigs Applications API
+  slug: findigs-applications-api
+- description: The Groups API from Findigs — 2 operation(s) for groups.
+  name: Findigs Groups API
+  slug: findigs-groups-api
+- description: The Listings API from Findigs — 2 operation(s) for listings.
+  name: Findigs Listings API
+  slug: findigs-listings-api
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Findigs Webhooks
@@ -49,6 +55,10 @@ collections:
   name: Findigs Client API
   slug: open-findigs-client-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/findigs-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -186,13 +196,13 @@ modified: '2026-08-12'
 name: Findigs
 nav: Providers
 network: true
-overview: 'Findigs publishes 1 API on the [APIs.io](https://apis.io/) network: Client API. Tagged areas include rental-screening, Tenant Screening, resident-screening, rental-application, and Underwriting.
+overview: 'Findigs publishes 3 APIs on the [APIs.io](https://apis.io/) network: Applications API, Groups API, and Listings API. Tagged areas include rental-screening, tenant-screening, resident-screening, rental-application, and underwriting.
 
 
   The Findigs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Findigs'' developer surface includes documentation, API reference, engineering blog, support, pricing, authentication, sandbox, and 25 more developer resources.'
+  Findigs'' developer surface includes documentation, API reference, engineering blog, support, pricing, authentication, sandbox, and 26 more developer resources.'
 plans:
 - name: Findigs Plans Pricing
   plan_count: 3
@@ -204,18 +214,23 @@ rate_limits:
   slug: findigs-rate-limits
 score:
   band: strong
-  composite: 58.1
-  delta: 0.0
+  composite: 57.4
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
-    contract_governance: 16.7
-    contract_quality: 63.9
+    contract_governance: 4.5
+    contract_quality: 66.7
     developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 58.1
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -232,8 +247,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/screenshots/findigs-2026-08-17T080925.png
 security:
@@ -252,21 +267,21 @@ security:
 slug: findigs
 tags:
 - rental-screening
-- Tenant Screening
+- tenant-screening
 - resident-screening
 - rental-application
-- Underwriting
-- Decisioning
+- underwriting
+- decisioning
 - Identity Verification
-- Income Verification
-- Credit Check
-- Background Check
-- Fraud Detection
-- Property Management
-- Real-Estate
-- PropTech
-- FCRA
-- Fair Housing
+- income-verification
+- credit-check
+- background-check
+- fraud-detection
+- property-management
+- real-estate
+- proptech
+- fcra
+- fair-housing
 - Webhook
 website: https://www.findigs.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 116
   slug: va-gov-agentic-access
   summary_line: 116 operations · 53 acting
-api_count: 35
+api_count: 22
 apis:
 - description: Composite of the three AMA decision-review filing endpoints — Higher-Level Review (HLR), Supplemental Claim (SC), and Notice of Disagreement (Board Appeal / NOD) — for submitting and tracking decision
   name: Decision Reviews API
@@ -310,6 +310,10 @@ collections:
   name: Veteran Service History and Eligibility API
   slug: open-va-gov-veteran-verification-v2
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/va-gov-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -512,7 +516,7 @@ overview: 'VA Lighthouse publishes 30 APIs on the [APIs.io](https://apis.io/) ne
   The VA Lighthouse catalog on APIs.io includes 1 JSON-LD context.
 
 
-  VA Lighthouse''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, support, engineering blog, and 33 more developer resources.'
+  VA Lighthouse''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, support, engineering blog, and 34 more developer resources.'
 random_paper: 4
 scopes:
 - name: Va Gov Scopes
@@ -522,6 +526,11 @@ scopes:
 score:
   band: developing
   composite: 41.6
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 23.7
@@ -546,8 +555,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 68.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/va-gov/refs/heads/main/screenshots/va-gov-2026-06-20T200737.png
 security:

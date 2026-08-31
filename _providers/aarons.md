@@ -10,31 +10,32 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
-api_count: 3
+  score: 44.8
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Aaron's online lease application and approval system enabling customers to apply for lease-to-own financing before shopping. Provides instant approval decisions and leasing power discovery for furnitu
   name: Aaron's Lease Application
@@ -45,8 +46,95 @@ apis:
 - description: Aaron's lease-to-own product catalog covering furniture (bedroom, living room, dining), electronics (TVs, laptops, gaming), and appliances (washers, dryers, refrigerators) from top brands including As
   name: Aaron's Product Catalog
   slug: aarons-product-catalog
-artifact_total: 22
+- description: Aaron's Hosted Payment Page service — the only surface on the Aaron's estate that publishes a machine-readable API contract. A Swagger 2.0 document is served anonymously at https://hpp.aarons.com/open
+  name: Aaron's Hosted Payment Page (HPP)
+  slug: aarons-hpp
+artifact_total: 30
+asyncapis:
+- description: ''
+  name: Aarons Hpp Webhooks
+  slug: aarons-hpp-webhooks
 common:
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/aarons-hpp-openapi.json
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/aarons-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/aarons-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/aarons-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/aarons-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/aarons-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/aarons-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/aarons-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/aarons-data-model.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/aarons-hpp-overlay.yaml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/aarons-hpp-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/aarons-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/aarons-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/aarons-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/aarons-rate-limits.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.aarons.com/terms-of-service.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.aarons.com/privacy-policy.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.aarons.com/contact
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.aarons.com/FAQ
 - group: auth
   title: ''
   type: DomainSecurity
@@ -58,7 +146,7 @@ common:
 - group: start
   title: ''
   type: Login
-  url: https://www.aarons.com/account/login
+  url: https://login.aarons.com
 - group: start
   title: ''
   type: Signup
@@ -86,24 +174,35 @@ finops:
   slug: aarons-finops
 image: /assets/icons/aarons.png
 integrations:
-- description: Aaron's Holdings subsidiary Progressive Leasing provides embedded lease-to-own solutions at third-party retail partner locations.
-  name: Progressive Leasing
-- description: Aaron's Holdings subsidiary BrandsMart USA providing consumer electronics and appliance retail with lease-to-own financing.
+- description: The Aaron's Company subsidiary BrandsMart USA, providing consumer electronics and appliance retail with lease-to-own financing.
   name: BrandsMart USA
+- description: The aarons.com storefront runs on Salesforce B2C Commerce. Its Open Commerce API (OCAPI) 21.3 Shop surface is live at /s/Aarons/dw/shop/v21_3/ and returns a standard OCAPI fault when called without a client ID. Probed 2026-08-29.
+  name: Salesforce B2C Commerce (Demandware)
+- description: Customer identity runs on Okta at login.aarons.com (custom domain), serving anonymous OpenID Connect and RFC 8414 discovery documents. Probed 2026-08-29.
+  name: Okta
+- description: api.aarons.com is an Azure API Management gateway fronting the account, home, ezpay, onboarding, support and Acadia service bases named in Aaron's own customer application bundle. Live and undocumented. Probed 2026-08-29.
+  name: Azure API Management
+- description: Payment gateway. Aaron's Hosted Payment Page publishes an inbound /FiservPostback receiver with a typed authorisation-result payload in its own Swagger contract.
+  name: Fiserv
+- description: Payment gateway and card vault. Aaron's HPP publishes inbound /RepayAuthPostback and /RepayCardVaultPostback receivers with versioned event envelopes.
+  name: Repay
 - description: Analytics and tracking integration via Google Tag Manager for website behavior analysis and marketing optimization.
   name: Google Tag Manager
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-29'
 name: Aaron's
 nav: Providers
 network: true
-overview: 'Aaron''s publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Lease-to-Own, Retail, Furniture, Electronics, and Appliances.
+overview: 'Aaron''s publishes 1 API on the [APIs.io](https://apis.io/) network: Hosted Payment Page (HPP). Tagged areas include Lease-to-Own, Retail, Furniture, Electronics, and Appliances.
 
 
-  Aaron''s'' developer surface includes signup flow and 3 more developer resources.'
+  The Aaron''s catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Aaron''s'' developer surface includes authentication, support, signup flow, and 21 more developer resources.'
 plans:
 - name: Aarons Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: aarons-plans-pricing
 press:
 - date: '2026-05-25'
@@ -123,28 +222,42 @@ press:
   url: https://www.prnewswire.com/news-releases/iqventures-completes-acquisition-of-the-aarons-company-302267226.html
 random_paper: 14
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Aarons Rate Limits
   slug: aarons-rate-limits
+scopes:
+- name: Aarons Scopes
+  scope_count: 0
+  slug: aarons-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 13.0
-  delta: 1.9
+  band: thin
+  composite: 32.6
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
-    access_clarity: 19.7
-    commercial_clarity: 19.7
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 64.8
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 42.7
+    developer_ergonomics: 23.8
+    discoverability: 68.5
+    governance: 18.2
+    operational_transparency: 7.9
+  previous_composite: 33.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aarons/refs/heads/main/screenshots/aarons-2026-06-20T163019.png
 security:
+- kind: authentication
+  name: Aarons Authentication
+  slug: aarons-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: Aarons Domain Security
   slug: aarons-domain-security

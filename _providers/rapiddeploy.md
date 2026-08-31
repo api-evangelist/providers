@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The RapidDeploy platform API host that backs Nimbus CAD, Radius Mapping, Lightning and Eclipse Analytics. The host is live and answers with a JSON envelope, but every anonymous path returns 404 "Resou
@@ -31,6 +31,10 @@ apis:
   slug: rapiddeploy-platform
 artifact_total: 6
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/motorola-solutions/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -118,7 +122,7 @@ network: true
 overview: 'RapidDeploy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Public Safety, Emergency Services, NG911, and Computer-Aided Dispatch.
 
 
-  RapidDeploy''s developer surface includes authentication and 14 more developer resources.'
+  RapidDeploy''s developer surface includes authentication and 15 more developer resources.'
 plans:
 - name: Rapiddeploy Plans Pricing
   plan_count: 0
@@ -135,16 +139,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 25.6
+  composite: 25.2
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 79.6
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
+  previous_composite: 25.2
   provenance:
     conformance: first-party
     mcp: derived
@@ -154,8 +165,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 64.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Rapiddeploy Authentication

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 2
 common:
@@ -65,13 +65,13 @@ jsonld:
   slug: regal-beloit-context
 layout: provider
 modified: '2026-05-02'
-name: regal-beloit
+name: Regal Beloit
 nav: Providers
 network: true
-overview: 'regal-beloit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Electric Motors, Power Transmission, Industrial Manufacturing, HVAC, and Motion Control.
+overview: 'Regal Beloit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Electric Motors, Power Transmission, Industrial Manufacturing, HVAC, and Motion Control.
 
 
-  The regal-beloit catalog on APIs.io includes 1 JSON-LD context.'
+  The Regal Beloit catalog on APIs.io includes 1 JSON-LD context.'
 press:
 - date: '2026-05-25'
   title: Regal Completes Merger With Rexnord PMC, Creating ...
@@ -92,6 +92,11 @@ random_paper: 10
 score:
   band: minimal
   composite: 8.3
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -109,8 +114,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regal-beloit/refs/heads/main/screenshots/regal-beloit-2026-06-20T192751.png
 security:

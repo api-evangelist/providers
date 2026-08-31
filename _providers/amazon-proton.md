@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 84
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 84
   slug: amazon-proton-agentic-access
   summary_line: 84 operations · 84 acting
-api_count: 84
+api_count: 1
 apis:
 - description: 'The #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection API from Amazon Proton — 1 operation(s) for #x amz target=awsproton20200720.acceptenvironmentaccountconnection.'
   name: 'Amazon Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection API'
@@ -806,6 +806,10 @@ collections:
   name: 'AWS Proton #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.AcceptEnvironmentAccountConnection #X Amz Target=AwsProton20200720.UpdateTemplateSyncConfig API'
   slug: open-amazon-proton-x-amz-target-awsproton20200720-updatetemplatesyncconfig-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-proton-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -4656,7 +4660,7 @@ overview: 'Amazon Proton publishes 84 APIs on the [APIs.io](https://apis.io/) ne
   The Amazon Proton catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Proton''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 545 more developer resources.'
+  Amazon Proton''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 546 more developer resources.'
 plans:
 - name: Amazon Proton Plans Pricing
   plan_count: 3
@@ -4690,18 +4694,23 @@ rules:
   slug: amazon-proton-spectral-rules
 score:
   band: strong
-  composite: 55.1
-  delta: 4.5
+  composite: 54.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 28.8
     contract_quality: 68.7
     developer_ergonomics: 61.9
-    discoverability: 50.0
+    discoverability: 44.4
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 50.6
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     contracts:
@@ -4709,8 +4718,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 84
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-proton/refs/heads/main/screenshots/amazon-proton-2026-06-20T171801.png
 security:

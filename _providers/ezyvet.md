@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 47
   slug: ezyvet-agentic-access
   summary_line: 47 operations · 20 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Animal (patient) records and reference data. (Modeled.)
   name: ezyVet Animals API
@@ -107,6 +107,10 @@ collections:
   name: ezyVet API
   slug: open-ezyvet
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ezyvet-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -162,7 +166,7 @@ network: true
 overview: 'ezyVet publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Animals API, Appointments API, Authentication API, and 6 more. Tagged areas include Veterinary, Practice Management, PIMS, Healthcare, and Animal Health.
 
 
-  ezyVet''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  ezyVet''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Ezyvet Plans Pricing
   plan_count: 3
@@ -174,18 +178,23 @@ rate_limits:
   slug: ezyvet-rate-limits
 score:
   band: thin
-  composite: 38.5
-  delta: 0.7
+  composite: 38.0
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 54.2
     developer_ergonomics: 25.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.8
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +208,8 @@ score:
     regime: Health
     regime_id: health
     score: 22.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ezyvet/refs/heads/main/screenshots/ezyvet-2026-07-25T214103.png
 security:

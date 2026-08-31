@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 255
   slug: front-agentic-access
   summary_line: 255 operations · 132 acting
-api_count: 39
+api_count: 2
 apis:
 - description: Build embedded UI applications that render inside the Front sidebar to surface third-party context alongside the conversation.
   name: Front Plugin SDK
@@ -281,6 +281,10 @@ collections:
   name: Channel Accounts Views API
   slug: open-front-views-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/front-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -404,7 +408,7 @@ network: true
 overview: 'Front publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Analytics API, Application Message Templates API, and 33 more. Tagged areas include Customer-Support, Email, Inbox, Customer Operations, and Collaboration.
 
 
-  Front''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 18 more developer resources.'
+  Front''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 19 more developer resources.'
 plans:
 - name: Front Plans Pricing
   plan_count: 10
@@ -415,16 +419,21 @@ rate_limits:
   name: Front Rate Limits
   slug: front-rate-limits
 score:
-  band: developing
-  composite: 39.6
-  delta: 0.0
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 82.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
     contract_governance: 0.0
     contract_quality: 55.0
     developer_ergonomics: 29.8
-    discoverability: 57.4
+    discoverability: 51.9
     governance: 0.0
     operational_transparency: 30.3
   previous_composite: 39.6
@@ -435,8 +444,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/front/refs/heads/main/screenshots/front-2026-06-20T181553.png
 security:

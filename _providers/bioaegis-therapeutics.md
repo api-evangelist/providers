@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
-api_count: 10
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Reusable block patterns and navigation menus. Both registered and reachable, but empty (X-WP-Total 0) — the site is built with Elementor, not the block editor.
   name: BioAegis Therapeutics Blocks API
@@ -238,7 +238,7 @@ modified: '2026-08-07'
 name: BioAegis Therapeutics
 nav: Providers
 network: true
-overview: 'BioAegis Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Blocks API, Comments API, Discovery API, and 7 more. Tagged areas include Company, biopharmaceuticals, Biotechnology, Clinical Trials, and Immunology.
+overview: 'BioAegis Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Blocks API, Comments API, Discovery API, and 7 more. Tagged areas include Company, biopharmaceuticals, biotechnology, clinical-trials, and immunology.
 
 
   The BioAegis Therapeutics catalog on APIs.io includes 1 JSON-LD context.
@@ -247,19 +247,24 @@ overview: 'BioAegis Therapeutics publishes 10 APIs on the [APIs.io](https://apis
   BioAegis Therapeutics'' developer surface includes FAQ, product news, support, YouTube channel, authentication, and 28 more developer resources.'
 random_paper: 14
 score:
-  band: developing
-  composite: 40.1
-  delta: 0.0
+  band: thin
+  composite: 38.1
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 58.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 54.9
     developer_ergonomics: 18.5
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 40.1
+  previous_composite: 38.7
   provenance:
     conformance: derived
     contracts:
@@ -274,8 +279,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bioaegis-therapeutics/refs/heads/main/screenshots/bioaegis-therapeutics-2026-08-07T162447.png
 security:
@@ -291,18 +296,18 @@ slug: bioaegis-therapeutics
 tags:
 - Company
 - biopharmaceuticals
-- Biotechnology
-- Clinical Trials
-- Immunology
+- biotechnology
+- clinical-trials
+- immunology
 - inflammation
-- Innate Immunity
+- innate-immunity
 - gelsolin
-- Protein Therapeutics
+- protein-therapeutics
 - ards
-- Critical Care
-- Rare Disease
-- Drug Development
-- Life Sciences
+- critical-care
+- rare-disease
+- drug-development
+- life-sciences
 - content-api
 website: https://www.bioaegistherapeutics.com/
 ---

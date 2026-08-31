@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 18
   slug: athelas-agentic-access
   summary_line: 18 operations · 11 acting
-api_count: 6
+api_count: 1
 apis:
 - description: ONC (g)(10)-certified, US Core 6.1.0-compliant FHIR R4B server exposing patient health data from Air to authorized third-party apps. Secured with SMART on FHIR v2 / OAuth2 (AWS Cognito), supporting st
   name: Commure EHR FHIR API
@@ -86,6 +86,10 @@ collections:
   name: Athelas Enterprise Auth Test Types API
   slug: open-athelas-test-types-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/athelas-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -216,7 +220,7 @@ overview: 'Athelas publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
   The Athelas catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Athelas'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 21 more developer resources.'
+  Athelas'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 22 more developer resources.'
 random_paper: 3
 scopes:
 - name: Athelas Scopes
@@ -225,18 +229,23 @@ scopes:
   summary_line: 31 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 56.5
-  delta: 0.0
+  composite: 54.5
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 64.6
     developer_ergonomics: 47.0
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 56.5
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -257,8 +266,8 @@ score:
     regime: Health
     regime_id: health
     score: 87.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/screenshots/athelas-2026-07-25T201527.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Step CI is an open source API Quality Assurance framework that is language-agnostic and configured using YAML, JSON, or JavaScript. It supports REST, GraphQL, gRPC, tRPC, and SOAP, enabling tests acro
@@ -41,6 +41,14 @@ apis:
   slug: step-ci
 artifact_total: 11
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/stepci/stepci/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/stepci/stepci/releases
 - group: commercial
   title: ''
   type: License
@@ -112,7 +120,7 @@ overview: 'Step CI publishes 1 API on the [APIs.io](https://apis.io/) network. T
   The Step CI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Step CI''s developer surface includes documentation and 7 more developer resources.'
+  Step CI''s developer surface includes documentation and 9 more developer resources.'
 plans:
 - name: Step Ci Plans Pricing
   plan_count: 3
@@ -135,7 +143,12 @@ rules:
   slug: step-ci-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 17.2
+  composite: 19.8
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 62.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -145,10 +158,13 @@ score:
     developer_ergonomics: 14.3
     discoverability: 59.3
     governance: 9.8
-    operational_transparency: 10.5
-  previous_composite: 17.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 19.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/step-ci/refs/heads/main/screenshots/step-ci-2026-06-20T194539.png
 security:

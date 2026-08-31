@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 28
   slug: rentle-agentic-access
   summary_line: 28 operations · 7 acting
-api_count: 11
+api_count: 1
 apis:
 - description: API Key-related queries
   name: Rentle API Keys API
@@ -76,7 +76,13 @@ apis:
 - description: 'This section describes API endpoints you can use to configure webhooks. Check the [webhook events section](#tag/WebhooksOverview) for more inforation regarding the webhooks events that Twice delivers '
   name: Rentle Webhooks API
   slug: rentle-webhooks-api
-artifact_total: 28
+- description: The Order API from Rentle — 0 operation(s) for order.
+  name: Rentle Order API
+  slug: rentle-order-api
+- description: The Product API from Rentle — 0 operation(s) for product.
+  name: Rentle Product API
+  slug: rentle-product-api
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Rentle Webhooks
@@ -219,7 +225,7 @@ modified: '2026-07-20'
 name: Rentle
 nav: Providers
 network: true
-overview: 'Rentle publishes 11 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Categories API, Customers API, and 8 more. Tagged areas include Company, Rentals, Commerce, E-Commerce, and Circular Economy.
+overview: 'Rentle publishes 13 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Categories API, Customers API, and 10 more. Tagged areas include Company, Rental, Commerce, E-Commerce, and Circular Economy.
 
 
   The Rentle catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -229,18 +235,23 @@ overview: 'Rentle publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 20
 score:
   band: developing
-  composite: 42.6
-  delta: 3.4
+  composite: 40.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
-    contract_quality: 57.8
+    contract_governance: 4.5
+    contract_quality: 54.7
     developer_ergonomics: 28.0
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 39.2
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,8 +262,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rentle/refs/heads/main/screenshots/rentle-2026-08-17T081515.png
 security:
@@ -267,7 +278,7 @@ security:
 slug: rentle
 tags:
 - Company
-- Rentals
+- Rental
 - Commerce
 - E-Commerce
 - Circular Economy

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 33
   slug: sap-agentic-access
   summary_line: 33 operations · 14 acting · 1 human-in-the-loop
-api_count: 31
+api_count: 3
 apis:
 - description: Human Capital Management APIs for employee central, recruiting, and talent management.
   name: SAP SuccessFactors API
@@ -246,6 +246,10 @@ collections:
   name: SAP AI Core Addresses Tax Numbers API
   slug: open-sap-tax-numbers-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sap-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -715,7 +719,7 @@ overview: 'SAP publishes 16 APIs on the [APIs.io](https://apis.io/) network, inc
   The SAP catalog on APIs.io includes 1 event-driven AsyncAPI specification, 4 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  SAP''s developer surface includes authentication, engineering blog, support, getting-started guide, training material, developer portal, signup flow, and 38 more developer resources.'
+  SAP''s developer surface includes authentication, engineering blog, support, getting-started guide, training material, developer portal, signup flow, and 39 more developer resources.'
 plans:
 - name: Sap Plans Pricing
   plan_count: 1
@@ -765,18 +769,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 50.9
-  delta: 1.9
+  composite: 51.3
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 73.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 13.6
-    contract_quality: 67.4
+    contract_quality: 68.8
     developer_ergonomics: 69.0
     discoverability: 53.7
     governance: 13.6
     operational_transparency: 39.5
-  previous_composite: 49.0
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     contracts:
@@ -784,8 +793,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/screenshots/sap-2026-06-20T193411.png
 security:

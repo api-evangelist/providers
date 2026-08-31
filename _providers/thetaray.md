@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: ThetaRay publishes an API developer portal at api.thetaray.com, hosted on Redocly Cloud. The portal root redirects to /openapi and then to an OIDC login at auth.cloud.redocly.com, so the API reference
@@ -114,7 +114,7 @@ modified: '2026-08-05'
 name: ThetaRay
 nav: Providers
 network: true
-overview: 'ThetaRay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anti-Money Laundering, Financial Crime, Transaction Monitoring, Sanctions Screening, and KYC.
+overview: 'ThetaRay publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include anti-money-laundering, financial-crime, transaction-monitoring, sanctions-screening, and kyc.
 
 
   ThetaRay''s developer surface includes engineering blog, support, and 11 more developer resources.'
@@ -126,18 +126,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 25.2
-  delta: 4.3
+  composite: 24.1
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 33.3
     contract_quality: 0.0
     developer_ergonomics: 28.6
-    discoverability: 79.6
+    discoverability: 68.5
     governance: 33.3
     operational_transparency: 0.0
-  previous_composite: 20.9
+  previous_composite: 24.1
   provenance:
     conformance: first-party
     mcp: first-party
@@ -147,8 +152,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -161,15 +166,15 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: thetaray
 tags:
-- Anti-Money Laundering
-- Financial Crime
-- Transaction Monitoring
-- Sanctions Screening
-- KYC
-- RegTech
-- Risk Assessment
-- Artificial Intelligence
-- Banking
+- anti-money-laundering
+- financial-crime
+- transaction-monitoring
+- sanctions-screening
+- kyc
+- regtech
+- risk-assessment
+- artificial-intelligence
+- banking
 - Fintech
 - Payments
 - Compliance

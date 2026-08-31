@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 29
   slug: snowtrace-agentic-access
   summary_line: 29 operations · 1 acting
-api_count: 17
+api_count: 1
 apis:
 - description: Retrieve address balances, normal and internal transaction histories, ERC-20 token transfers, ERC-721 NFT transfers, ERC-1155 token transfers, and historical balance data by block number for any EVM a
   name: Routescan Etherscan-Compatible Account API
@@ -224,7 +224,7 @@ modified: '2026-06-13'
 name: Routescan (Snowtrace)
 nav: Providers
 network: true
-overview: 'Routescan (Snowtrace) publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Contracts API, and 5 more. Tagged areas include Blockchain, Explorer, Avalanche, EVM, and Multi-Chain.
+overview: 'Routescan (Snowtrace) publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Contracts API, and 5 more. Tagged areas include Blockchain, Explorer, Avalanche, EVM, and Multichain.
 
 
   The Routescan (Snowtrace) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -253,15 +253,20 @@ rules:
   slug: snowtrace-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.9
-  delta: 0.0
+  composite: 41.3
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 9.8
     contract_quality: 60.0
     developer_ergonomics: 31.0
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 9.8
     operational_transparency: 0.0
   previous_composite: 41.9
@@ -272,8 +277,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snowtrace/refs/heads/main/screenshots/snowtrace-2026-08-17T125325.png
 security:
@@ -291,11 +296,11 @@ tags:
 - Explorer
 - Avalanche
 - EVM
-- Multi-Chain
+- Multichain
 - Web3
 - Transaction
 - Smart Contracts
-- NFT
+- NFTs
 - DeFi
 website: https://snowtrace.io/
 ---

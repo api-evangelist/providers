@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 70
   slug: assembled-agentic-access
   summary_line: 70 operations · 41 acting · 3 human-in-the-loop
-api_count: 27
+api_count: 4
 apis:
 - description: Manage agents (people) in the Assembled workforce. List, retrieve, create, and update agents along with their roles, channels, skills, and team assignments. The People API is the entry point for synci
   name: Assembled People API
@@ -306,6 +306,10 @@ collections:
   name: Assembled Activities Working Hours API
   slug: open-assembled-working-hours-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/assembled-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -604,7 +608,7 @@ overview: 'Assembled publishes 27 APIs on the [APIs.io](https://apis.io/) networ
   The Assembled catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Assembled''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 49 more developer resources.'
+  Assembled''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 50 more developer resources.'
 plans:
 - name: Assembled Plans Pricing
   plan_count: 6
@@ -639,6 +643,11 @@ rules:
 score:
   band: strong
   composite: 55.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 36.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 56.6
@@ -657,8 +666,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/assembled/refs/heads/main/screenshots/assembled-2026-06-20T172502.png
 security:

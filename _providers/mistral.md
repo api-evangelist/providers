@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.6
-  scored_at: '2026-08-26'
+  score: 28.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 29
   slug: mistral-agentic-access
   summary_line: 29 operations · 19 acting
-api_count: 11
+api_count: 13
 apis:
 - description: Agent completion operations
   name: Mistral AI Agents API
@@ -77,7 +77,13 @@ apis:
 - description: Document OCR and text extraction operations
   name: Mistral AI OCR API
   slug: mistral-ocr-api
-artifact_total: 140
+- description: Endpoints for generating chat completions using Mistral language models in a conversational format.
+  name: Mistral AI Chat Completions API
+  slug: mistral-chat-completions-api
+- description: Endpoints for creating and managing training jobs including pre-training, supervised fine-tuning, and reinforcement learning pipelines.
+  name: Mistral AI Training Jobs API
+  slug: mistral-training-jobs-api
+artifact_total: 142
 asyncapis:
 - description: 'AsyncAPI definition for Mistral AI streaming completion endpoints. Mistral is OpenAI-compatible and delivers streamed completions as Server-Sent Events (SSE) over HTTP when `stream: true` is set on th'
   name: Mistral AI Streaming Completions API
@@ -189,6 +195,10 @@ collections:
   name: Mistral AI Agents Training Jobs API
   slug: open-mistral-training-jobs-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mistral-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -558,13 +568,13 @@ modified: '2026-08-08'
 name: Mistral AI
 nav: Providers
 network: true
-overview: 'Mistral AI publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Audio API, Batch Jobs API, and 8 more.
+overview: 'Mistral AI publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Audio API, Batch Jobs API, and 10 more.
 
 
   The Mistral AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Mistral AI''s developer surface includes authentication, documentation, getting-started guide, pricing, GitHub presence, developer portal, engineering blog, and 25 more developer resources.'
+  Mistral AI''s developer surface includes authentication, documentation, getting-started guide, pricing, GitHub presence, developer portal, engineering blog, and 26 more developer resources.'
 plans:
 - name: Mistral Plans Pricing
   plan_count: 6
@@ -599,12 +609,17 @@ rules:
 score:
   band: developing
   composite: 53.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 13.6
-    contract_quality: 74.8
+    contract_quality: 74.9
     developer_ergonomics: 61.9
     discoverability: 70.4
     governance: 13.6
@@ -621,8 +636,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/screenshots/mistral-2026-06-20T185616.png
 security:

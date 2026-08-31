@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 6
   slug: nhtsa-crash-api-agentic-access
   summary_line: 6 operations
-api_count: 3
+api_count: 1
 apis:
 - description: Case list and case detail lookups
   name: NHTSA Crash API Cases API
@@ -117,15 +117,20 @@ rate_limits:
   slug: nhtsa-crash-api-rate-limits
 score:
   band: emerging
-  composite: 21.2
-  delta: 0.0
+  composite: 20.7
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 65.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 49.7
     developer_ergonomics: 14.3
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 21.2
@@ -142,8 +147,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhtsa-crash-api/refs/heads/main/screenshots/nhtsa-crash-api-2026-06-20T190316.png
 security:

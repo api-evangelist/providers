@@ -1,39 +1,39 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Enterprise · Sales-gated onboarding
   onboarding: unknown
-  pricing: freemium
+  pricing: enterprise
   public: false
   source:
   - plans
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.9
-  scored_at: '2026-08-26'
+  score: 54.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -41,9 +41,9 @@ agentic_access:
   operation_count: 149
   slug: chronosphere-agentic-access
   summary_line: 149 operations · 92 acting
-api_count: 33
+api_count: 3
 apis:
-- description: Chronosphere is a cloud-native observability platform for managing and controlling observability data at scale.
+- description: The Chronosphere HTTP/JSON API surface for Observability Platform, served from a per-customer subdomain. The Config V1 API alone carries 183 operations across 39 resource types, every write of which a
   name: Chronosphere
   slug: chronosphere
 - description: The Bucket API from Chronosphere — 2 operation(s) for bucket.
@@ -142,7 +142,17 @@ apis:
 - description: The TraceTailSamplingRules API from Chronosphere — 1 operation(s) for tracetailsamplingrules.
   name: Chronosphere TraceTailSamplingRules API
   slug: chronosphere-tracetailsamplingrules-api
-artifact_total: 73
+- description: 'The Data API from Chronosphere - 9 operations for querying and writing telemetry: change events, log range queries, trace listing, metric metadata and dashboard panel annotations.'
+  name: Chronosphere Data V1 API
+  slug: chronosphere-data-v1-api
+- description: 'The State API from Chronosphere - 3 read-only operations exposing derived state: metric usage by metric name, metric usage by label name, and rule evaluation health. The cost and cardinality analysis '
+  name: Chronosphere State V1 API
+  slug: chronosphere-state-v1-api
+artifact_total: 80
+asyncapis:
+- description: ''
+  name: Chronosphere Webhooks
+  slug: chronosphere-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -247,6 +257,14 @@ collections:
   name: Config V1 API
   slug: open-chronosphere
 common:
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/chronosphere-authentication.yml
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/chronosphere-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -283,45 +301,194 @@ common:
   title: ''
   type: Blog
   url: https://chronosphere.io/blog/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/chronosphere-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/chronosphere-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/chronosphere-cli.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/chronosphere-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/chronosphere-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/chronosphere-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/chronosphere-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/chronosphere-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/chronosphere-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/chronosphere-trust-center.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/chronosphere-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/chronosphere-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: lifecycle/chronosphere-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/chronosphere-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/chronosphere-conventions.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/chronosphere-webhooks.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/chronosphere-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/chronosphere-data-model.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/chronosphere-dashboard-schema.json
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/chronosphere-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/chronosphere-rate-limits.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.chronosphere.io/tooling/api-info/definition
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.chronosphere.io/tooling/api-info
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.chronosphere.io/support
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://chronosphere.io/privacy/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://chronosphere.io/newsroom/
+- group: company
+  title: ''
+  type: Careers
+  url: https://chronosphere.io/careers/
+- group: company
+  title: ''
+  type: Partners
+  url: https://chronosphere.io/partners/
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/chronosphereio
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@chronosphere-observability
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/chronosphere-scopes.yml
 created: '2026-03-27'
-description: Chronosphere is a cloud-native observability platform for managing and controlling observability data at scale.
+description: 'Chronosphere is a cloud-native observability platform for controlling the cost and volume of telemetry data at scale, spanning metrics, logs, traces and change events. It ships an Observability Platform (dashboards, monitors, SLOs, differential diagnosis, PromQL querying and metrics shaping) and a Telemetry Pipeline built on Fluent Bit, acquired with Calyptia. Its APIs are per-tenant HTTP/JSON: a Config API for resources as code, a Data API for events, logs and traces, and a State API for usage and rule health, with Prometheus-compatible query endpoints, an open-source MCP server, a Terraform provider and the Chronoctl CLI. Palo Alto Networks completed its acquisition of Chronosphere in 2026.'
 finops:
 - name: Chronosphere Finops
   service_category: API
   slug: chronosphere-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chronosphere.png
+json_schemas:
+- name: Chronosphere Dashboard
+  property_count: 0
+  slug: chronosphere-dashboard
 layout: provider
-modified: '2026-03-27'
+mcp_servers:
+- description: Chronosphere ships two Model Context Protocol surfaces. The product MCP server exposes the Observability Platform itself — metrics, logs, traces, events, monitor status and the Config API — and is rea
+  name: Chronosphere MCP server
+  slug: chronosphere-mcp-server
+modified: '2026-08-29'
 name: Chronosphere
 nav: Providers
 network: true
-overview: 'Chronosphere publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Bucket API, ClassicDashboard API, Collection API, and 29 more. Tagged areas include AIOps and Observability.
+overview: 'Chronosphere publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Chronosphere, Bucket API, ClassicDashboard API, and 32 more. Tagged areas include Observability, AIOps, Monitoring, Metrics, and Logging.
 
 
-  Chronosphere''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
+  The Chronosphere catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Chronosphere''s developer surface includes authentication, documentation, engineering blog, CLI, changelog, API reference, getting-started guide, and 36 more developer resources.'
 plans:
 - name: Chronosphere Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: chronosphere-plans-pricing
 random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Chronosphere Rate Limits
   slug: chronosphere-rate-limits
+scopes:
+- name: Chronosphere Scopes
+  scope_count: 0
+  slug: chronosphere-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 24.4
+  band: developing
+  composite: 47.9
+  coverage:
+    artifact_dirs: 28
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
-    access_clarity: 23.7
-    commercial_clarity: 23.7
+    access_clarity: 34.2
+    commercial_clarity: 34.2
     contract_governance: 0.0
-    contract_quality: 42.1
-    developer_ergonomics: 11.9
-    discoverability: 53.7
+    contract_quality: 50.3
+    developer_ergonomics: 69.0
+    discoverability: 81.5
     governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 24.4
+    operational_transparency: 50.0
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -329,11 +496,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/screenshots/chronosphere-2026-06-20T174330.png
 security:
+- kind: authentication
+  name: Chronosphere Authentication
+  slug: chronosphere-authentication
+  summary_line: apiKey · 3 schemes
 - kind: domain-security
   name: Chronosphere Domain Security
   slug: chronosphere-domain-security
@@ -344,7 +515,19 @@ security:
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR
 slug: chronosphere
 tags:
-- AIOps
 - Observability
+- AIOps
+- Monitoring
+- Metrics
+- Logging
+- Distributed Tracing
+- Telemetry
+- OpenTelemetry
+- Prometheus
+- Alerting
+- SLO
+- Infrastructure as Code
+- MCP
+- Agent Ready
 website: https://chronosphere.io
 ---

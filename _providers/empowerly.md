@@ -23,13 +23,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
 - description: Read-only, unauthenticated JSON status API served from Empowerly's own status subdomain by Atlassian Statuspage. Exposes the overall page status indicator, the component roster (currently a single "Em
   name: Empowerly Status API
   slug: empowerly-status-api
-artifact_total: 8
+- description: The individual platform components Empowerly reports on.
+  name: Empowerly Components API
+  slug: empowerly-components-api
+- description: Incident history and currently unresolved incidents.
+  name: Empowerly Incidents API
+  slug: empowerly-incidents-api
+- description: Scheduled maintenance windows.
+  name: Empowerly Maintenance API
+  slug: empowerly-maintenance-api
+artifact_total: 11
 collections:
 - collection_type: open
   name: Empowerly Status API
@@ -167,7 +176,7 @@ modified: '2026-08-12'
 name: Empowerly
 nav: Providers
 network: true
-overview: 'Empowerly publishes 1 API on the [APIs.io](https://apis.io/) network: Status API. Tagged areas include Company, Education, EdTech, College Admissions, and Counseling.
+overview: 'Empowerly publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Status API, Components API, Incidents API, and 1 more. Tagged areas include Company, education, edtech, college-admissions, and counseling.
 
 
   Empowerly''s developer surface includes engineering blog, pricing, authentication, and 23 more developer resources.'
@@ -182,18 +191,23 @@ rate_limits:
   slug: empowerly-rate-limits
 score:
   band: thin
-  composite: 37.2
-  delta: 1.9
+  composite: 37.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
-    contract_quality: 12.6
+    contract_governance: 4.5
+    contract_quality: 12.7
     developer_ergonomics: 25.6
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 35.3
+  previous_composite: 37.0
   provenance:
     conformance: derived
     contracts:
@@ -209,8 +223,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 66.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -232,13 +246,13 @@ security:
 slug: empowerly
 tags:
 - Company
-- Education
-- EdTech
-- College Admissions
-- Counseling
-- Students
-- Career Services
-- Consumer Services
-- Status Page
+- education
+- edtech
+- college-admissions
+- counseling
+- students
+- career-services
+- consumer-services
+- status-page
 website: https://empowerly.com/
 ---

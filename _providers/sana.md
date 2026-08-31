@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-26'
-api_count: 10
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Assignments API from Sana — 1 operation(s) for assignments.
   name: Sana Assignments API
@@ -106,6 +106,10 @@ collections:
   name: Sana Assignments xAPI API
   slug: open-sana-xapi-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sana-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -212,7 +216,7 @@ overview: 'Sana publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
   The Sana catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sana''s developer surface includes documentation, API reference, support, pricing, authentication, and 17 more developer resources.'
+  Sana''s developer surface includes documentation, API reference, support, pricing, authentication, and 18 more developer resources.'
 random_paper: 20
 scopes:
 - name: Sana Scopes
@@ -221,18 +225,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 44.0
-  delta: 0.0
+  composite: 42.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 62.0
     developer_ergonomics: 44.6
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 44.0
+  previous_composite: 42.5
   provenance:
     conformance: first-party
     contracts:
@@ -244,12 +253,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sana/refs/heads/main/screenshots/sana-2026-08-17T081718.png
 security:

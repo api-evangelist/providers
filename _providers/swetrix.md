@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 49
   slug: swetrix-agentic-access
   summary_line: 49 operations · 25 acting
-api_count: 13
+api_count: 2
 apis:
 - description: The Swetrix Events API provides endpoints for recording pageview events, custom events, heartbeat events, error events, and revenue transactions. Used for sending analytics data from client or server-
   name: Swetrix Events API
@@ -488,18 +488,23 @@ rules:
   slug: swetrix-rules
 score:
   band: exemplar
-  composite: 78.6
-  delta: 0.0
+  composite: 76.6
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 59.1
+    contract_governance: 47.0
     contract_quality: 76.6
     developer_ergonomics: 87.5
-    discoverability: 81.5
-    governance: 59.1
+    discoverability: 75.9
+    governance: 47.0
     operational_transparency: 73.7
-  previous_composite: 78.6
+  previous_composite: 77.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -510,8 +515,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/screenshots/swetrix-2026-06-20T194812.png
 security:

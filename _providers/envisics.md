@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 21
   slug: envisics-agentic-access
   summary_line: 21 operations
-api_count: 8
+api_count: 10
 apis:
 - description: Public, unauthenticated read access to the Envisics newsroom archive — press releases, news items, tech-shorts and did-you-know posts — via the WordPress core REST API. Verified live at 34 published p
   name: Envisics Posts API
@@ -42,9 +42,6 @@ apis:
 - description: Public, unauthenticated read access to the media library behind envisics.com — AR HUD product imagery, holographic waveguide renders, press photography and brand assets with their generated size varia
   name: Envisics Media API
   slug: envisics-media-api
-- description: 'Public, unauthenticated read access to the classification vocabularies behind envisics.com: the newsroom categories that separate news, press, tech-shorts, white-papers and did-you-know items, and the'
-  name: Envisics Taxonomy API
-  slug: envisics-taxonomy-api
 - description: Public, unauthenticated cross-content search over envisics.com — posts and pages — returning lightweight id / title / url / type / subtype records. Verified live at 62 searchable objects on 2026-08-12
   name: Envisics Search API
   slug: envisics-search-api
@@ -57,7 +54,16 @@ apis:
 - description: Public Yoast SEO head endpoint returning the rendered head metadata and its parsed JSON-LD schema.org graph for any envisics.com URL — a structured-data view of every page without scraping the HTML.
   name: Envisics SEO Metadata API
   slug: envisics-seo-api
-artifact_total: 21
+- description: Newsroom categories.
+  name: Envisics Categories API
+  slug: envisics-categories-api
+- description: Newsroom tags.
+  name: Envisics Tags API
+  slug: envisics-tags-api
+- description: Public author records.
+  name: Envisics Users API
+  slug: envisics-users-api
+artifact_total: 23
 collections:
 - collection_type: open
   name: Envisics Discovery API
@@ -84,6 +90,10 @@ collections:
   name: Envisics Taxonomy API
   slug: open-envisics-taxonomy-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/envisics-taxonomy-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -213,10 +223,10 @@ modified: '2026-08-12'
 name: Envisics
 nav: Providers
 network: true
-overview: 'Envisics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 5 more. Tagged areas include Company, Automotive, Augmented Reality, Holography, and Head-Up Display.
+overview: 'Envisics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Pages API, Media API, and 7 more. Tagged areas include Company, Automotive, Augmented Reality, Holography, and Head-Up Display.
 
 
-  Envisics'' developer surface includes engineering blog, YouTube channel, authentication, code examples, and 26 more developer resources.'
+  Envisics'' developer surface includes engineering blog, YouTube channel, authentication, code examples, and 27 more developer resources.'
 plans:
 - name: Envisics Plans Pricing
   plan_count: 0
@@ -228,18 +238,23 @@ rate_limits:
   slug: envisics-rate-limits
 score:
   band: thin
-  composite: 30.9
+  composite: 30.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 56.0
+    contract_governance: 4.5
+    contract_quality: 55.8
     developer_ergonomics: 16.1
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 30.9
+  previous_composite: 30.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,8 +265,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

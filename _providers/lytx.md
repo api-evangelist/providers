@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 123
   slug: lytx-agentic-access
   summary_line: 123 operations · 26 acting · 1 human-in-the-loop
-api_count: 37
+api_count: 42
 apis:
 - description: The Consent API from Lytx — 2 operation(s) for consent.
   name: Lytx Consent API
@@ -278,6 +278,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/lytx-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/lytx-consent--overlay.yaml
 - group: agent
@@ -390,22 +394,27 @@ overview: 'Lytx publishes 37 APIs on the [APIs.io](https://apis.io/) network, in
   The Lytx catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lytx''s developer surface includes documentation, getting-started guide, authentication, API reference, support, and 19 more developer resources.'
+  Lytx''s developer surface includes documentation, getting-started guide, authentication, API reference, support, and 20 more developer resources.'
 random_paper: 3
 score:
   band: developing
-  composite: 43.4
+  composite: 40.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.0
     developer_ergonomics: 58.9
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 43.4
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -416,8 +425,8 @@ score:
       total: 37
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/screenshots/lytx-2026-07-25T225802.png
 security:

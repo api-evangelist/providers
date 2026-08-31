@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 9
   slug: docling-agentic-access
   summary_line: 9 operations · 5 acting
-api_count: 18
+api_count: 2
 apis:
 - description: Model Context Protocol server that exposes Docling document parsing as MCP tools so Claude, Cursor, Gemini, and other MCP-aware agents can convert PDFs, Office files, and images into structured `Docli
   name: Docling MCP Server
@@ -326,18 +326,26 @@ rules:
   slug: docling-rules
 score:
   band: developing
-  composite: 39.8
-  delta: 0.0
+  composite: 41.3
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 60.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 2.1
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 13.6
-    contract_quality: 62.4
+    contract_quality: 59.7
     developer_ergonomics: 61.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 39.8
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -345,8 +353,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docling/refs/heads/main/screenshots/docling-2026-06-20T180109.png
 slug: docling

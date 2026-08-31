@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 201
   slug: ripple-labs-agentic-access
   summary_line: 201 operations · 109 acting
-api_count: 36
+api_count: 5
 apis:
 - description: Used to manage addresses
   name: Ripple Labs Addresses API
@@ -269,6 +269,10 @@ collections:
   name: Palisade Addresses Webhooks API
   slug: open-ripple-labs-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ripple-labs-capability-edges.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -435,7 +439,7 @@ overview: 'Ripple Labs publishes 36 APIs on the [APIs.io](https://apis.io/) netw
   The Ripple Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ripple Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 30 more developer resources.'
+  Ripple Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 31 more developer resources.'
 random_paper: 2
 scopes:
 - name: Ripple Labs Scopes
@@ -444,18 +448,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: strong
-  composite: 60.4
+  composite: 56.0
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 85.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 66.1
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 63.0
+    governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 60.4
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -472,8 +481,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ripple-labs/refs/heads/main/screenshots/ripple-labs-2026-08-17T081609.png
 security:
@@ -497,7 +506,7 @@ tags:
 - Cross-Border Payments
 - Blockchain
 - Cryptocurrency
-- Stablecoins
+- Stablecoin
 - Digital Assets
 - Custody
 - Wallets

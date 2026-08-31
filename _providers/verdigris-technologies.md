@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-26'
-api_count: 10
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Endpoints that return control data from building management systems (BMS)
   name: Verdigris Technologies Control API
@@ -102,6 +102,10 @@ collections:
   name: Data Control Weather API
   slug: open-verdigris-technologies-weather-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/verdigris-technologies-capability-edges.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -213,7 +217,7 @@ network: true
 overview: 'Verdigris Technologies publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Control API, Current API, Energy API, and 7 more. Tagged areas include Company, Energy, Energy Management, Building Automation, and Smart Buildings.
 
 
-  Verdigris Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 18 more developer resources.'
+  Verdigris Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 19 more developer resources.'
 random_paper: 15
 scopes:
 - name: Verdigris Technologies Scopes
@@ -222,18 +226,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 40.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 56.5
     developer_ergonomics: 39.9
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 43.5
+  previous_composite: 40.9
   provenance:
     conformance: derived
     contracts:
@@ -249,8 +258,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/screenshots/verdigris-technologies-2026-08-17T082727.png
 security:

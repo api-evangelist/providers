@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: adp-agentic-access
   summary_line: 11 operations · 3 acting · 1 human-in-the-loop
-api_count: 6
+api_count: 2
 apis:
 - description: The ADP Embedded Payroll API enables ISVs and platforms to embed ADP payroll capabilities directly into their applications. REST APIs support payroll processing, tax compliance, and workforce manageme
   name: ADP Embedded Payroll API
@@ -86,6 +86,10 @@ collections:
   name: ADP Workers API
   slug: open-adp-workers
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/adp-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -242,7 +246,6 @@ graphqls:
 - description: 'ADP (Automatic Data Processing) provides cloud-based human capital management (HCM) solutions covering payroll, benefits, talent, time, tax, and HR services. This conceptual GraphQL schema represents '
   name: ADP GraphQL Schema
   slug: adp-graphql
-image: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/image.png
 integrations:
 - description: Full integration with ADP Workforce Now for mid-market HR, payroll, talent, and benefits management.
   name: ADP Workforce Now
@@ -423,7 +426,7 @@ overview: 'ADP publishes 4 APIs on the [APIs.io](https://apis.io/) network, incl
   The ADP catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  ADP''s developer surface includes authentication, engineering blog, developer portal, documentation, getting-started guide, and 10 more developer resources.'
+  ADP''s developer surface includes authentication, engineering blog, developer portal, documentation, getting-started guide, and 11 more developer resources.'
 plans:
 - name: Adp Plans Pricing
   plan_count: 2
@@ -462,15 +465,20 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 31.3
-  delta: 0.0
+  composite: 30.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 62.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
     contract_quality: 68.4
     developer_ergonomics: 11.9
-    discoverability: 64.8
+    discoverability: 55.6
     governance: 13.6
     operational_transparency: 7.9
   previous_composite: 31.3
@@ -481,8 +489,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adp/refs/heads/main/screenshots/adp-2026-06-20T165046.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,13 +40,27 @@ agentic_access:
   operation_count: 6
   slug: owler-agentic-access
   summary_line: 6 operations
-api_count: 1
+api_count: 2
 apis:
-- description: 'Read-only REST API over Owler''s company graph. Three products in one OpenAPI 3.0.1 definition: Company Premium (complete firmographics, funding, acquisitions, stock and CEO data for a company looked u'
-  name: Owler Enterprise API
-  slug: owler-enterprise-api
-artifact_total: 7
+- description: Provides company premium information
+  name: Owler Company Premium API
+  slug: owler-company-premium-api-api
+- description: Provides Competitor Premium information
+  name: Owler Competitor Premium API
+  slug: owler-competitor-premium-api-api
+- description: Provides Feed information
+  name: Owler Feed API
+  slug: owler-feed-api-api
+artifact_total: 9
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/meltwater/
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/owler-enterprise-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -164,10 +178,10 @@ modified: '2026-08-14'
 name: Owler
 nav: Providers
 network: true
-overview: 'Owler publishes 1 API on the [APIs.io](https://apis.io/) network: Enterprise API. Tagged areas include Company, Company Intelligence, Sales Intelligence, Competitive Intelligence, and Business Data.
+overview: 'Owler publishes 3 APIs on the [APIs.io](https://apis.io/) network: Company Premium API, Competitor Premium API, and Feed API. Tagged areas include Company, Company Intelligence, Sales Intelligence, Competitive Intelligence, and Business Data.
 
 
-  Owler''s developer surface includes engineering blog, support, pricing, documentation, API reference, and 21 more developer resources.'
+  Owler''s developer surface includes engineering blog, support, pricing, documentation, API reference, and 23 more developer resources.'
 plans:
 - name: Owler Plans Pricing
   plan_count: 0
@@ -179,18 +193,23 @@ rate_limits:
   slug: owler-rate-limits
 score:
   band: developing
-  composite: 42.8
-  delta: 3.8
+  composite: 41.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
-    contract_governance: 16.7
-    contract_quality: 57.8
+    contract_governance: 4.5
+    contract_quality: 56.5
     developer_ergonomics: 54.2
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 39.0
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -201,8 +220,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/screenshots/owler-2026-08-07T191152.png
 security:
@@ -226,6 +245,6 @@ tags:
 - Market Research
 - Firmographics
 - Company Search
-- funding-data
+- Funding Data
 website: https://corp.owler.com
 ---

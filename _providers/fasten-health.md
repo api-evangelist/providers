@@ -9,9 +9,9 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
-    agent_card: near-conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -24,15 +24,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
-    openapi_examples: documented
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.5
-  scored_at: '2026-08-26'
+  score: 38.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -40,14 +40,11 @@ agentic_access:
   operation_count: 12
   slug: fasten-health-agentic-access
   summary_line: 12 operations · 4 acting · 1 human-in-the-loop
-api_count: 11
+api_count: 1
 apis:
 - description: Fasten OnPrem is an open-source, self-hosted, personal and family electronic medical record manager written in Go (47%) and TypeScript (35%). It runs as a Docker container behind HTTPS/TLS, supports m
   name: Fasten OnPrem
   slug: fasten-onprem
-- description: Fasten Connect is the commercial REST + FHIR API for retrieving patient clinical records from 50,000+ U.S. healthcare systems. The API surface is documented in OpenAPI 1.0.11 at api.connect.fastenheal
-  name: Fasten Connect API
-  slug: fasten-connect
 - description: Fasten Connect emits HMAC-verified webhook events to notify integrators of asynchronous operations such as EHI export completion, connection lifecycle changes, and TEFCA workflow updates. Documentatio
   name: Fasten Connect Webhooks
   slug: fasten-connect-webhooks
@@ -75,12 +72,19 @@ apis:
 - description: GPL-3.0 licensed Python proof-of-concept for AI-powered health insights — exploratory work on conversational querying of a patient's longitudinal medical record using LLMs.
   name: Fasten Answers AI
   slug: fasten-answers-ai
+- description: Customer (organization) facing APIs
+  name: Fasten Health Bridge API
+  slug: fasten-health-bridge-api
 artifact_total: 19
 asyncapis:
 - description: ''
   name: Fasten Health Webhooks
   slug: fasten-health-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fasten-health-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -293,13 +297,13 @@ modified: '2026-08-14'
 name: Fasten Health
 nav: Providers
 network: true
-overview: 'Fasten Health publishes 1 API on the [APIs.io](https://apis.io/) network: Fasten Connect API. Tagged areas include Healthcare, FHIR, Personal Health Record, Electronic Medical Record, and Health Data Interoperability.
+overview: 'Fasten Health publishes 1 API on the [APIs.io](https://apis.io/) network: Bridge API. Tagged areas include Healthcare, FHIR, Personal Health Record, Electronic Medical Record, and Health Data Interoperability.
 
 
   The Fasten Health catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fasten Health''s developer surface includes authentication, documentation, GitHub presence, engineering blog, changelog, signup flow, pricing, and 44 more developer resources.'
+  Fasten Health''s developer surface includes authentication, documentation, GitHub presence, engineering blog, changelog, signup flow, pricing, and 45 more developer resources.'
 plans:
 - name: Fasten Health Plans Pricing
   plan_count: 0
@@ -316,18 +320,23 @@ scopes:
   summary_line: 5 scopes
 score:
   band: strong
-  composite: 61.1
-  delta: 1.9
+  composite: 59.7
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 30.3
-    contract_quality: 56.0
+    contract_governance: 18.2
+    contract_quality: 58.3
     developer_ergonomics: 78.6
-    discoverability: 72.2
-    governance: 30.3
+    discoverability: 66.7
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 59.2
+  previous_composite: 60.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -344,8 +353,8 @@ score:
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fasten-health/refs/heads/main/screenshots/fasten-health-2026-06-20T181048.png
 security:

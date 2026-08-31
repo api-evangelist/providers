@@ -34,13 +34,73 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: MonetizeNow's REST API for the full quote-to-cash lifecycle — accounts, contacts, addresses, bill groups, quotes, opportunities, contracts, subscriptions, invoices, payments, payment methods, credits,
-  name: MonetizeNow API
-  slug: monetizenow-api
-artifact_total: 10
+- description: Accounts track all billing and selling details for a customer.
+  name: MonetizeNow Account API
+  slug: monetizenow-account-api
+- description: The Account Overview API from MonetizeNow — 2 operation(s) for account overview.
+  name: MonetizeNow Account Overview API
+  slug: monetizenow-account-overview-api
+- description: The AccountDocument API from MonetizeNow — 7 operation(s) for accountdocument.
+  name: MonetizeNow Account Document API
+  slug: monetizenow-accountdocument-api
+- description: 'Billgroup is an object that allows you to group subscriptions. An account can have multiple bill groups representing different departments, people or groups under the account. The bill group is where '
+  name: MonetizeNow Bill Group API
+  slug: monetizenow-billgroup-api
+- description: Contacts represent individual, address, and company deatils for your customers.
+  name: MonetizeNow Contact API
+  slug: monetizenow-contact-api
+- description: The Contract API from MonetizeNow — 6 operation(s) for contract.
+  name: MonetizeNow Contract API
+  slug: monetizenow-contract-api
+- description: Credits can be used to adjust account balances.
+  name: MonetizeNow Credit API
+  slug: monetizenow-credit-api
+- description: The CreditNote API from MonetizeNow — 6 operation(s) for creditnote.
+  name: MonetizeNow Credit Note API
+  slug: monetizenow-creditnote-api
+- description: An invoice is an itemized commercial document that records the products or services delivered to the customer, the total amount due, and the preferred payment method.
+  name: MonetizeNow Invoice API
+  slug: monetizenow-invoice-api
+- description: Offerings are collections of products that you can sell to customers, they can be subscriptions, one-time, or minimum commit types.
+  name: MonetizeNow Offering API
+  slug: monetizenow-offering-api
+- description: The Opportunity API from MonetizeNow — 5 operation(s) for opportunity.
+  name: MonetizeNow Opportunity API
+  slug: monetizenow-opportunity-api
+- description: Payment is an object that represents an amount paid to an invoice.
+  name: MonetizeNow Payment API
+  slug: monetizenow-payment-api
+- description: Payment gateway is a service that helps customer transfer money to pay for invoices.
+  name: MonetizeNow Payment Gateway API
+  slug: monetizenow-payment-gateway-api
+- description: Payment methods are entities representing the instrument used to collect payments for invoices on a bill group. This can be Credit Cards, Direct Debit, ACH Credit etc.
+  name: MonetizeNow Payment Method API
+  slug: monetizenow-paymentmethod-api
+- description: The Price Uplift Configuration API from MonetizeNow — 1 operation(s) for price uplift configuration.
+  name: MonetizeNow Price Uplift Configuration API
+  slug: monetizenow-price-uplift-configuration-api
+- description: A product is an item that a business sells to its customers.
+  name: MonetizeNow Products API
+  slug: monetizenow-products-api
+- description: The Quote API from MonetizeNow — 18 operation(s) for quote.
+  name: MonetizeNow Quote API
+  slug: monetizenow-quote-api
+- description: Rates allow you to add prices, pricing logic, currency details, and billing frequency to an offering
+  name: MonetizeNow Rate API
+  slug: monetizenow-rate-api
+- description: Subscriptions are things your customers have been sold or signed up for that can be billed on a recurring basis.
+  name: MonetizeNow Subscription API
+  slug: monetizenow-subscription-api
+- description: The Trial API from MonetizeNow — 4 operation(s) for trial.
+  name: MonetizeNow Trial API
+  slug: monetizenow-trial-api
+- description: APIs to record, update and query usage events
+  name: MonetizeNow Usage API
+  slug: monetizenow-usage-api
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Monetizenow Webhooks
@@ -211,7 +271,7 @@ modified: '2026-08-13'
 name: MonetizeNow
 nav: Providers
 network: true
-overview: 'MonetizeNow publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Monetization, Billing, Subscription, and Usage-Based Pricing.
+overview: 'MonetizeNow publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account Overview API, Account Document API, and 18 more. Tagged areas include Company, Monetization, Billing, Subscription, and Usage-Based Pricing.
 
 
   The MonetizeNow catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -234,18 +294,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.0
-  delta: 0.0
+  composite: 56.7
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
-    contract_quality: 53.4
+    contract_governance: 18.2
+    contract_quality: 58.3
     developer_ergonomics: 39.9
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 75.0
-  previous_composite: 58.0
+  previous_composite: 57.2
   provenance:
     conformance: first-party
     contracts:
@@ -261,8 +326,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/screenshots/monetizenow-2026-08-07T184153.png
 security:

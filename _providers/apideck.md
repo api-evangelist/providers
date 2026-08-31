@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 251
   slug: apideck-agentic-access
   summary_line: 251 operations · 143 acting
-api_count: 54
+api_count: 4
 apis:
 - description: Apideck is the leading Unified API that doesn't store sensitive customer data. Build and maintain native integrations into your product with an exceptional Developer Experience.
   name: Apideck
@@ -531,6 +531,10 @@ collections:
   name: Apideck Accounting Activities Users API
   slug: open-apideck-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/apideck-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -2654,7 +2658,7 @@ overview: 'Apideck publishes 53 APIs on the [APIs.io](https://apis.io/) network,
   The Apideck catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Apideck''s developer surface includes authentication, documentation, getting-started guide, signup flow, support, changelog, code examples, and 31 more developer resources.'
+  Apideck''s developer surface includes authentication, documentation, getting-started guide, signup flow, support, changelog, code examples, and 32 more developer resources.'
 plans:
 - name: Apideck Plans Pricing
   plan_count: 3
@@ -2678,6 +2682,11 @@ rules:
 score:
   band: strong
   composite: 55.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 76.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 68.4
@@ -2696,8 +2705,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 53
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apideck/refs/heads/main/screenshots/apideck-2026-06-20T172302.png
 security:

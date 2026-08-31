@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 14
   slug: exentis-group-agentic-access
   summary_line: 14 operations
-api_count: 9
+api_count: 1
 apis:
 - description: The Posts API from Exentis Group — news, press releases and article records served as JSON by the WordPress REST API on www.exentis-group.com, filterable by date, slug, category and full text, and ava
   name: Exentis Group Posts API
@@ -48,9 +48,6 @@ apis:
 - description: The Categories API from Exentis Group — the `category` taxonomy that posts are filed under, with parent/child nesting and post counts. 27 categories were readable anonymously at probe time.
   name: Exentis Group Categories API
   slug: exentis-group-categories-api
-- description: The Blog Categories API from Exentis Group — the `blogkategorie` taxonomy that groups blog entries into topic areas. 12 terms were readable anonymously at probe time.
-  name: Exentis Group Blog Categories API
-  slug: exentis-group-blog-categories-api
 - description: 'The Search API from Exentis Group — full-text search across every publicly readable object on www.exentis-group.com, returning id, title, url, type and subtype, filterable by object type and subtype. '
   name: Exentis Group Search API
   slug: exentis-group-search-api
@@ -60,6 +57,9 @@ apis:
 - description: An MCP (Model Context Protocol) server endpoint mounted on www.exentis-group.com by the WordPress MCP adapter, alongside the WordPress Abilities API. The endpoint is really served — GET /wp-json/mcp e
   name: Exentis Group MCP Server
   slug: exentis-group-mcp-server
+- description: The Taxonomy API from Exentis Group — 2 operation(s) for taxonomy.
+  name: Exentis Group Taxonomy API
+  slug: exentis-group-taxonomy-api
 artifact_total: 23
 collections:
 - collection_type: open
@@ -87,6 +87,10 @@ collections:
   name: Exentis Group Search API
   slug: open-exentis-group-search-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/exentis-group-blog-categories-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -239,7 +243,7 @@ network: true
 overview: 'Exentis Group publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Posts API, Blog API, Pages API, and 5 more. Tagged areas include Company, Additive Manufacturing, 3D Printing, Industrial Manufacturing, and Advanced Materials.
 
 
-  Exentis Group''s developer surface includes engineering blog, product news, support, YouTube channel, authentication, code examples, and 28 more developer resources.'
+  Exentis Group''s developer surface includes engineering blog, product news, support, YouTube channel, authentication, code examples, and 29 more developer resources.'
 plans:
 - name: Exentis Group Plans Pricing
   plan_count: 0
@@ -250,19 +254,24 @@ rate_limits:
   name: Exentis Group Rate Limits
   slug: exentis-group-rate-limits
 score:
-  band: thin
-  composite: 27.4
-  delta: 0.0
+  band: emerging
+  composite: 25.4
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 16.5
     developer_ergonomics: 20.8
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 27.4
+  previous_composite: 25.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -279,8 +288,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

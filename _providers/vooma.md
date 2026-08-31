@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 35
   slug: vooma-agentic-access
   summary_line: 35 operations · 29 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: The Carriers API from Vooma — 2 operation(s) for carriers.
   name: Vooma Carriers API
@@ -70,7 +70,10 @@ apis:
 - description: The Webhooks API from Vooma — 10 operation(s) for webhooks.
   name: Vooma Webhooks API
   slug: vooma-webhooks-api
-artifact_total: 25
+- description: The Api API from Vooma — 0 operation(s) for api.
+  name: Vooma API
+  slug: vooma-api-api
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Vooma Webhooks
@@ -107,6 +110,10 @@ collections:
   name: api Carriers Webhooks API
   slug: open-vooma-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vooma-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -227,28 +234,33 @@ modified: '2026-07-21'
 name: Vooma
 nav: Providers
 network: true
-overview: 'Vooma publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Contacts API, Customers API, and 6 more. Tagged areas include Company, Artificial Intelligence, Freight, Logistics, and Transportation.
+overview: 'Vooma publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Carriers API, Contacts API, Customers API, and 7 more. Tagged areas include Company, Artificial Intelligence, Freight, Logistics, and Transportation.
 
 
   The Vooma catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Vooma''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 21 more developer resources.'
+  Vooma''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, and 22 more developer resources.'
 random_paper: 0
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 45.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 16.7
-    contract_quality: 54.0
+    contract_governance: 4.5
+    contract_quality: 53.0
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 47.7
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -265,8 +277,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vooma/refs/heads/main/screenshots/vooma-2026-08-17T082822.png
 security:

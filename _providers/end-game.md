@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.8
-  scored_at: '2026-08-26'
+  score: 51.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,12 +42,18 @@ agentic_access:
   operation_count: 5
   slug: end-game-agentic-access
   summary_line: 5 operations · 3 acting
-api_count: 1
+api_count: 2
 apis:
 - description: The public Threads API from Endgame — 5 operations (create, get, list, rename, delete) rooted at /api/v1 on https://app.endgame.io, authenticated with a Bearer eak_ API key or a WorkOS M2M access toke
   name: Endgame Threads API
   slug: end-game-threads-api
-artifact_total: 12
+- description: The Internal API from Endgame — 3 operation(s) for internal.
+  name: Endgame Internal API
+  slug: end-game-internal-api
+- description: The Protected Static API from Endgame — 2 operation(s) for protected static.
+  name: Endgame Protected Static API
+  slug: end-game-protected-static-api
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -244,7 +250,7 @@ modified: '2026-08-13'
 name: Endgame
 nav: Providers
 network: true
-overview: 'Endgame publishes 1 API on the [APIs.io](https://apis.io/) network: Threads API. Tagged areas include Company, Sales, Revenue Intelligence, Go-To-Market, and Artificial Intelligence.
+overview: 'Endgame publishes 3 APIs on the [APIs.io](https://apis.io/) network: Threads API, Internal API, and Protected Static API. Tagged areas include Company, Sales, Revenue Intelligence, Go-To-Market, and Artificial Intelligence.
 
 
   Endgame''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 37 more developer resources.'
@@ -264,18 +270,23 @@ scopes:
   summary_line: 4 scopes
 score:
   band: strong
-  composite: 60.1
-  delta: 0.0
+  composite: 55.5
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
-    contract_quality: 59.9
+    contract_governance: 18.2
+    contract_quality: 51.7
     developer_ergonomics: 71.4
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 60.1
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -286,8 +297,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/screenshots/end-game-2026-07-25T213310.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 86
   slug: prime-intellect-agentic-access
   summary_line: 86 operations · 42 acting
-api_count: 20
+api_count: 3
 apis:
 - description: 'Secure remote code-execution sandboxes for AI agents. Create and manage Python-3.11-slim-based sandboxes, expose ports for HTTP services running inside the sandbox, open SSH sessions, pull rich error '
   name: Prime Intellect Sandbox API
@@ -239,6 +239,10 @@ collections:
   name: Prime Intellect Compute admin-clusters user API
   slug: open-prime-intellect-user-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/prime-intellect-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -408,7 +412,7 @@ overview: 'Prime Intellect publishes 20 APIs on the [APIs.io](https://apis.io/) 
   The Prime Intellect catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Prime Intellect''s developer surface includes authentication, documentation, developer portal, API reference, CLI, GitHub presence, engineering blog, and 26 more developer resources.'
+  Prime Intellect''s developer surface includes authentication, documentation, developer portal, API reference, CLI, GitHub presence, engineering blog, and 27 more developer resources.'
 plans:
 - name: Prime Intellect Plans Pricing
   plan_count: 6
@@ -432,6 +436,11 @@ rules:
 score:
   band: strong
   composite: 55.1
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 32.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -450,8 +459,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prime-intellect/refs/heads/main/screenshots/prime-intellect-2026-06-20T192203.png
 security:

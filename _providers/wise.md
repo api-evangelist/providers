@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 6
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 238
   slug: wise-agentic-access
   summary_line: 238 operations · 147 acting · 6 human-in-the-loop
-api_count: 47
+api_count: 1
 apis:
 - description: To manage certain aspects of the 3D Secure (3DS) authentication, you will need to integrate with the following APIs.
   name: Wise 3ds API
@@ -186,7 +186,10 @@ apis:
 - description: Manage webhook subscriptions at both the application and profile level. Create, list, retrieve, and delete subscriptions, as well as test your webhook endpoints. For more information on creating and m
   name: Wise webhook API
   slug: wise-webhook-api
-artifact_total: 106
+- description: Webhook events are notifications sent by Wise to your server when specific actions occur. Subscribe to events using the [Webhook](/api-reference/webhook) endpoints at the application or profile level.
+  name: Wise Webhook Event API
+  slug: wise-webhook-event-api
+artifact_total: 107
 asyncapis:
 - description: AsyncAPI 2.6 description of the Wise Platform webhook surface. Wise pushes HTTP `POST` notifications to subscriber-defined HTTPS endpoints when events occur against profiles, transfers, balances, card
   name: Wise Platform Webhooks
@@ -337,6 +340,10 @@ collections:
   name: Wise Platform 3ds webhook API
   slug: open-wise-webhook-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/wise-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -425,13 +432,13 @@ modified: '2026-05-30'
 name: Wise
 nav: Providers
 network: true
-overview: 'Wise publishes 47 APIs on the [APIs.io](https://apis.io/) network, including 3ds API, activity API, address API, and 44 more. Tagged areas include Payments, FX, Cross-Border, Banking, and Multi-Currency.
+overview: 'Wise publishes 48 APIs on the [APIs.io](https://apis.io/) network, including 3ds API, activity API, address API, and 45 more. Tagged areas include Payments, FX, Cross-Border, Banking, and Multi-Currency.
 
 
   The Wise catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Wise''s developer surface includes authentication, sandbox, changelog, documentation, and 14 more developer resources.'
+  Wise''s developer surface includes authentication, sandbox, changelog, documentation, and 15 more developer resources.'
 plans:
 - name: Wise Plans Pricing
   plan_count: 3
@@ -455,18 +462,23 @@ rules:
   slug: wise-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 35.3
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 11.4
-    contract_quality: 66.6
+    contract_quality: 66.3
     developer_ergonomics: 21.4
-    discoverability: 57.4
+    discoverability: 51.9
     governance: 11.4
     operational_transparency: 26.3
-  previous_composite: 35.9
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -480,8 +492,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/screenshots/wise-2026-06-20T201536.png
 security:

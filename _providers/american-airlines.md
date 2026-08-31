@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 4
   slug: american-airlines-agentic-access
   summary_line: 4 operations · 1 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Booking management operations
   name: American Airlines Bookings API
@@ -64,6 +64,10 @@ collections:
   name: American Airlines Runway Developer API
   slug: open-american-airlines-runway-developer-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/american-airlines-capability-edges.yml
 - group: commercial
   title: ''
   type: License
@@ -205,7 +209,7 @@ overview: 'American Airlines publishes 2 APIs on the [APIs.io](https://apis.io/)
   The American Airlines catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  American Airlines'' developer surface includes engineering blog, tooling, and 9 more developer resources.'
+  American Airlines'' developer surface includes engineering blog, tooling, and 10 more developer resources.'
 plans:
 - name: American Airlines Plans Pricing
   plan_count: 1
@@ -256,7 +260,12 @@ rules:
 score:
   band: thin
   composite: 31.1
-  delta: 1.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -266,7 +275,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 29.2
+  previous_composite: 31.1
   provenance:
     agentic_access: derived
     contracts:
@@ -274,8 +283,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

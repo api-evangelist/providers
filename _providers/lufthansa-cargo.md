@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-26'
-api_count: 10
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: Retrieves the current status of an air freight shipment by IATA Air Waybill, keyed on a 3-digit AWB prefix (020 = Lufthansa Cargo) plus an 8-digit AWB number. Returns the milestone plan, booking, flig
   name: Lufthansa Cargo Shipment Tracking API
@@ -43,12 +43,6 @@ apis:
 - description: Subscription API that pushes shipment milestone updates to a caller-supplied HTTPS callback URL. Create, read, update, delete and list subscriptions for a given Air Waybill and status filter; the Open
   name: Lufthansa Cargo Shipment Tracking Subscribe API
   slug: lufthansa-cargo-shipment-tracking-subscribe-api
-- description: Returns possible direct and connecting route offers between an origin and a destination 3-letter IATA airport code for a given departure date and Lufthansa Cargo product code, based on Latest Acceptan
-  name: Lufthansa Cargo Routing Offer API
-  slug: lufthansa-cargo-routing-offer-api
-- description: Reference data for Lufthansa Cargo stations worldwide, keyed on 3-letter IATA station codes. Lists all station codes, returns detail for a single station, and accepts a POST batch of codes. Detail cov
-  name: Lufthansa Cargo Station Information API
-  slug: lufthansa-cargo-station-information-api
 - description: 'Prior-agreement API. Lufthansa Cargo''s digital booking connect for forwarders wiring an in-house system to the carrier and for ePlatforms integrating LH Cargo offers and bookings. Documented services '
   name: Lufthansa Cargo smartBooking API
   slug: lufthansa-cargo-smartbooking-api
@@ -67,6 +61,12 @@ apis:
 - description: Prior-agreement API product covering airmail carriage for postal operators. The portal publishes an OpenAPI 3.0.3 info block titled "AirMail APIs" whose entire description is the prior-approval notice
   name: Lufthansa Cargo AirMail API
   slug: lufthansa-cargo-airmail-api
+- description: The routes API from Lufthansa Cargo — 1 operation(s) for routes.
+  name: Lufthansa Cargo Routes API
+  slug: lufthansa-cargo-routes-api
+- description: The stations API from Lufthansa Cargo — 3 operation(s) for stations.
+  name: Lufthansa Cargo Stations API
+  slug: lufthansa-cargo-stations-api
 artifact_total: 14
 collections:
 - collection_type: open
@@ -82,6 +82,10 @@ collections:
   name: Station Information API
   slug: open-lufthansa-cargo-station-information-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lufthansa-cargo-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -135,22 +139,27 @@ modified: '2026-07-30'
 name: Lufthansa Cargo
 nav: Providers
 network: true
-overview: 'Lufthansa Cargo publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Shipment Tracking API, Shipment Tracking Subscribe API, Routing Offer API, and 1 more. Tagged areas include Logistics, Supply Chain, Germany, Air Cargo, and Freight.
+overview: 'Lufthansa Cargo publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Shipment Tracking API, Shipment Tracking Subscribe API, Routes API, and 1 more. Tagged areas include Logistics, Supply Chain, Germany, Air Cargo, and Freight.
 
 
-  Lufthansa Cargo''s developer surface includes documentation, support, changelog, signup flow, sandbox, and 6 more developer resources.'
+  Lufthansa Cargo''s developer surface includes documentation, support, changelog, signup flow, sandbox, and 7 more developer resources.'
 random_paper: 2
 score:
   band: emerging
-  composite: 20.3
-  delta: 0.0
+  composite: 19.7
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 53.9
     developer_ergonomics: 0.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 20.3
@@ -160,8 +169,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lufthansa-cargo/refs/heads/main/screenshots/lufthansa-cargo-2026-08-07T171824.png
 slug: lufthansa-cargo

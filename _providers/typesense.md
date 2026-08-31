@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 5
@@ -43,17 +43,8 @@ agentic_access:
   operation_count: 95
   slug: typesense-agentic-access
   summary_line: 95 operations · 52 acting · 5 human-in-the-loop
-api_count: 25
+api_count: 2
 apis:
-- description: The core Typesense REST API for managing collections, indexing documents, and performing full-text, faceted, filtered, sorted, geo-based, and multi-search queries. Supports synonym sets, curation sets
-  name: Typesense Search API
-  slug: typesense-search-api
-- description: The Typesense Vector Search API extends the core search capabilities with vector and hybrid search. It supports indexing embedding fields, querying by vector proximity, and combining semantic vector s
-  name: Typesense Vector Search API
-  slug: typesense-vector-search-api
-- description: The Typesense Conversational Search API enables AI-powered question answering over your search index. It supports conversation models (OpenAI, Cloudflare Workers AI), NL search models, and stateful mu
-  name: Typesense Conversational Search API
-  slug: typesense-conversational-search-api
 - description: Log and retrieve user interaction events such as clicks, conversions, and visits for tracking search behavior and personalization.
   name: Typesense Analytics Events API
   slug: typesense-analytics-events-api
@@ -63,64 +54,16 @@ apis:
 - description: Create and manage analytics rules that control how search queries and user events are aggregated for query suggestions and relevance tuning.
   name: Typesense Analytics Rules API
   slug: typesense-analytics-rules-api
-- description: Create and manage API keys with fine-grained access control on a per-collection, per-action, or per-record level.
-  name: Typesense API Keys API
-  slug: typesense-api-keys-api
 - description: Create, retrieve, update, and terminate Typesense Cloud clusters. Manage cluster lifecycle and generate Typesense Server API keys.
   name: Typesense Cluster Management API
   slug: typesense-cluster-management-api
-- description: Create and manage aliases that point to collections, enabling zero-downtime reindexing.
-  name: Typesense Collection Aliases API
-  slug: typesense-collection-aliases-api
-- description: Create, retrieve, update, and delete collections. A collection is a group of related documents with a defined schema.
-  name: Typesense Collections API
-  slug: typesense-collections-api
-- description: Server configuration management including slow request logging.
-  name: Typesense Configuration API
-  slug: typesense-configuration-api
 - description: Schedule, retrieve, list, and cancel configuration changes to running clusters such as memory upgrades, version changes, and HA toggles.
   name: Typesense Configuration Changes API
   slug: typesense-configuration-changes-api
-- description: Create and manage conversation models that define which LLM provider and configuration to use for generating conversational answers from search results.
-  name: Typesense Conversation Models API
-  slug: typesense-conversation-models-api
-- description: Manage top-level curation sets for pinning, hiding, and boosting search results across collections.
-  name: Typesense Curation Sets API
-  slug: typesense-curation-sets-api
-- description: Index, retrieve, update, delete, import, and export documents within a collection.
-  name: Typesense Documents API
-  slug: typesense-documents-api
-- description: Health checks, debug information, metrics, and API statistics.
-  name: Typesense Monitoring API
-  slug: typesense-monitoring-api
-- description: Send multiple search requests across one or more collections in a single HTTP request.
-  name: Typesense Multi-Search API
-  slug: typesense-multi-search-api
-- description: Manage natural language search models used for query understanding and semantic matching.
-  name: Typesense NL Search Models API
-  slug: typesense-nl-search-models-api
-- description: Cluster operations including snapshots, cache management, compaction, and voting.
-  name: Typesense Operations API
-  slug: typesense-operations-api
-- description: Store and reference named sets of search parameters for reuse across queries.
-  name: Typesense Presets API
-  slug: typesense-presets-api
 - description: Manage Typesense Server configuration parameters for cloud clusters.
   name: Typesense Server Configuration Parameters API
   slug: typesense-server-configuration-parameters-api
-- description: Manage stemming dictionaries for custom word stemming rules.
-  name: Typesense Stemming API
-  slug: typesense-stemming-api
-- description: Manage stopword sets that define keywords to be removed from search queries.
-  name: Typesense Stopwords API
-  slug: typesense-stopwords-api
-- description: Manage top-level synonym sets that can be shared across multiple collections.
-  name: Typesense Synonym Sets API
-  slug: typesense-synonym-sets-api
-- description: Create and manage collections with vector fields for semantic search and nearest-neighbor queries.
-  name: Typesense Vector Collections API
-  slug: typesense-vector-collections-api
-artifact_total: 151
+artifact_total: 132
 collections:
 - collection_type: open
   name: API Collection
@@ -555,7 +498,7 @@ modified: '2026-05-19'
 name: Typesense
 nav: Providers
 network: true
-overview: 'Typesense publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Search API, Vector Search API, Conversational Search API, and 22 more. Tagged areas include Full-Text Search, Open-Source, Search Engines, Typo Tolerance, and Vector Search.
+overview: 'Typesense publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Analytics Events API, Analytics Operations API, Analytics Rules API, and 3 more. Tagged areas include Full-Text Search, Open-Source, Search Engines, Typo Tolerance, and Vector Search.
 
 
   The Typesense catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -584,18 +527,23 @@ rules:
   slug: typesense-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.3
-  delta: 3.8
+  composite: 39.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 57.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 25.0
-    contract_quality: 67.2
-    developer_ergonomics: 42.9
-    discoverability: 72.2
+    contract_quality: 66.9
+    developer_ergonomics: 23.8
+    discoverability: 66.7
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 40.5
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -603,8 +551,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/screenshots/typesense-2026-06-20T195907.png
 security:

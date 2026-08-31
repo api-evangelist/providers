@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 27
   slug: blubrry-api-restful-api-for-podcast-publishing-statistics-agentic-access
   summary_line: 27 operations · 8 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Blubrry Podcast Media Hosting API enables uploading and managing podcast media files through third-party applications. Supports listing shows, retrieving unpublished media files, deleting media, a
   name: Blubrry Podcast Media Hosting API
@@ -83,6 +83,10 @@ collections:
   name: Blubrry Podcast Hosting & Statistics API
   slug: open-blubrry-api-restful-api-for-podcast-publishing-statistics
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/blubrry-api-restful-api-for-podcast-publishing-statistics-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -142,7 +146,7 @@ network: true
 overview: 'Blubrry API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Episode API, Media API, and Statistics API. Tagged areas include Podcasting, Audio, Media, Publishing, and Statistics.
 
 
-  Blubrry API''s developer surface includes authentication, developer portal, documentation, engineering blog, and 7 more developer resources.'
+  Blubrry API''s developer surface includes authentication, developer portal, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Blubrry Api Restful Api For Podcast Publishing Statistics Plans Pricing
   plan_count: 3
@@ -159,15 +163,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 30.2
-  delta: 0.0
+  composite: 29.7
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 33.3
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 30.2
@@ -178,8 +187,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blubrry-api-restful-api-for-podcast-publishing-statistics/refs/heads/main/screenshots/blubrry-api-restful-api-for-podcast-publishing-statistics-2026-06-20T173526.png
 security:

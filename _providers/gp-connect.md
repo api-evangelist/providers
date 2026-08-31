@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 14
   slug: gp-connect-agentic-access
   summary_line: 14 operations · 5 acting
-api_count: 9
+api_count: 5
 apis:
 - description: Retrieve unstructured documents (e.g. scanned letters, attachments) from a patient's GP practice record. Complements the structured access API for cases where clinical information is held as binary do
   name: GP Connect Access Document FHIR API
@@ -97,6 +97,10 @@ collections:
   name: gp-connect-access-record-structured-fhir Appointment Task API
   slug: open-gp-connect-task-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gp-connect-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -193,7 +197,7 @@ overview: 'GP Connect publishes 7 APIs on the [APIs.io](https://apis.io/) networ
   The GP Connect catalog on APIs.io includes 1 JSON-LD context.
 
 
-  GP Connect''s developer surface includes developer portal, documentation, signup flow, authentication, getting-started guide, GitHub presence, sandbox, and 11 more developer resources.'
+  GP Connect''s developer surface includes developer portal, documentation, signup flow, authentication, getting-started guide, GitHub presence, sandbox, and 12 more developer resources.'
 plans:
 - name: Gp Connect Plans
   plan_count: 3
@@ -205,18 +209,23 @@ rate_limits:
   slug: gp-connect-rate-limits
 score:
   band: developing
-  composite: 48.9
-  delta: 2.3
+  composite: 48.4
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 0.0
-    contract_quality: 54.8
+    contract_quality: 53.1
     developer_ergonomics: 54.8
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 46.6
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     contracts:
@@ -230,8 +239,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gp-connect/refs/heads/main/screenshots/gp-connect-2026-07-25T220156.png
 security:

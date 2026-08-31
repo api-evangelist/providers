@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 0
@@ -42,63 +42,153 @@ agentic_access:
   operation_count: 238
   slug: dow-jones-agentic-access
   summary_line: 238 operations · 108 acting
-api_count: 18
+api_count: 17
 apis:
-- description: Case-based batch screening of people and entities against Dow Jones Risk & Compliance data, with associations, matches, and adjudication workflows.
-  name: Dow Jones Screening and Monitoring API
-  slug: screening-and-monitoring-api
-- description: Manage private watchlists used in screening alongside Dow Jones Risk & Compliance content sets.
-  name: Dow Jones Screening and Monitoring Private Lists API
-  slug: screening-and-monitoring-private-lists-api
-- description: Alerting and assessment workflows for continuous screening, with alert states, assessments, and workflow status codes (ASAM).
-  name: Dow Jones Advanced Screening and Monitoring API
-  slug: advanced-screening-and-monitoring-api
-- description: Ad-hoc search across Dow Jones Risk & Compliance profiles (Watchlist, State-Owned Companies, Adverse Media).
-  name: Dow Jones Risk Search API
-  slug: risk-search-api
-- description: Retrieve full Risk & Compliance profiles, analyst notes, images, and connection graphs by profile ID.
-  name: Dow Jones Risk Profiles API
-  slug: risk-profiles-api
-- description: Retrieve the Risk & Compliance taxonomy used to code profiles and build screening queries.
-  name: Dow Jones Risk Taxonomy API
-  slug: risk-taxonomy-api
-- description: Retrieve the version history of Risk & Compliance profiles for audit and change tracking.
-  name: Dow Jones Profile Version History API
-  slug: profile-version-history-api
-- description: Order and retrieve Risk & Compliance due-diligence reports (Risk Reports order tool).
-  name: Dow Jones Due Diligence Reports API
-  slug: due-diligence-reports-api
-- description: Create, update, and monitor third parties against Risk & Compliance data, with properties, monitored entities, and webhook notifications on risk-status changes. Versions 0.1 and 0.2 (beta).
-  name: Dow Jones RiskCenter Third Party Platform API
-  slug: riskcenter-third-party-api
-- description: Real-time search over Dow Jones Newswires content.
-  name: Dow Jones Newswires Real-Time API
-  slug: newswires-real-time-api
-- description: Retrieve curated top-stories content collections and articles from Dow Jones Newswires.
-  name: Dow Jones Top Stories API
-  slug: top-stories-api
-- description: Financial calendars (earnings, economic events) from Dow Jones Newswires.
-  name: Dow Jones Calendar Live API
-  slug: calendar-live-api
-- description: Retrieve a Newswires article by reference.
-  name: Dow Jones Newswires Content API
-  slug: newswires-content-api
-- description: Factiva Workflow Toolkit Content API for retrieving articles, references, binaries, and running search across Factiva content.
-  name: Dow Jones Content API
-  slug: content-api
-- description: Retrieve Factiva newsletter editions and collections.
-  name: Dow Jones Factiva Newsletters API
-  slug: newsletters-api
-- description: Real-time company news search (News Radar) over Factiva content.
-  name: Dow Jones Company News Radar API
-  slug: company-news-radar-api
 - description: Snapshots, Streams, Time Series, and Explain endpoints for bulk and streaming access to the Factiva news archive (33,000+ sources). Streams delivers events over Google Cloud Pub/Sub subscriptions. Aut
   name: Factiva Analytics APIs
   slug: factiva-analytics
 - description: Retrieval endpoint for grounding generative-AI applications (RAG) in licensed Factiva content. No public OpenAPI is published; access requires a Factiva Retrieval agreement.
   name: Factiva Retrieval API
   slug: factiva-retrieval-api
-artifact_total: 45
+- description: The Alert API allows clients to interact with alerts that have been raised through continuous monitoring.
+  name: Dow Jones Alert API
+  slug: dow-jones-alert-api
+- description: The Alert Export API allows clients to export details of alerts, alert evidence and alert activities.
+  name: Dow Jones Alert Export API
+  slug: dow-jones-alert-export-api
+- description: Fetch a news article by id, or stream news articles linked to an entity as JSON-L.
+  name: Dow Jones Articles API
+  slug: dow-jones-articles-api
+- description: The Assessment API allows clients to create and interact with assessments.
+  name: Dow Jones Assessment API
+  slug: dow-jones-assessment-api
+- description: The Assessment Export API allows clients to export details of assessments, assessment evidence and assessment activities.
+  name: Dow Jones Assessment Export API
+  slug: dow-jones-assessment-export-api
+- description: The Attachment API allows clients to upload attachment files to alerts
+  name: Dow Jones Attachment API
+  slug: dow-jones-attachment-api
+- description: The BusinessUnit API from Dow Jones — 1 operation(s) for businessunit.
+  name: Dow Jones Business Unit API
+  slug: dow-jones-businessunit-api
+- description: The Calendar Events API from Dow Jones — 4 operation(s) for calendar events.
+  name: Dow Jones Calendar Events API
+  slug: dow-jones-calendar-events-api
+- description: The Calendar Taxonomy API from Dow Jones — 15 operation(s) for calendar taxonomy.
+  name: Dow Jones Calendar Taxonomy API
+  slug: dow-jones-calendar-taxonomy-api
+- description: The Client Delete endpoint allows clients to hard delete client records in the system.
+  name: Dow Jones Client Delete API
+  slug: dow-jones-client-delete-api
+- description: The Client Import API allows clients to bulk load client records representing entities to be screened as part of continuous monitoring.
+  name: Dow Jones Client Import API
+  slug: dow-jones-client-import-api
+- description: Operations to retrieve the Connection Details of a R&C Profile
+  name: Dow Jones Connection Details API
+  slug: dow-jones-connection-details-api
+- description: The Content API from Dow Jones — 17 operation(s) for content.
+  name: Dow Jones Content API
+  slug: dow-jones-content-api
+- description: The Content Search API from Dow Jones — 1 operation(s) for content search.
+  name: Dow Jones Content Search API
+  slug: dow-jones-content-search-api
+- description: The ContentCollections API from Dow Jones — 2 operation(s) for contentcollections.
+  name: Dow Jones Content Collections API
+  slug: dow-jones-contentcollections-api
+- description: Operations related to the custom sources
+  name: Dow Jones Custom Sources API
+  slug: dow-jones-custom-sources-api
+- description: Default section
+  name: Dow Jones Default API
+  slug: dow-jones-default-api
+- description: The Disposition API allows clients to create, retrieve, update and delete historical dispositions representing prior adjudication decisions.
+  name: Dow Jones Disposition API
+  slug: dow-jones-disposition-api
+- description: The Editions API from Dow Jones — 2 operation(s) for editions.
+  name: Dow Jones Editions API
+  slug: dow-jones-editions-api
+- description: The Entity API allows clients to retrieve details of and reconcile entities (i.e. clients, risk profiles and internal list entities) stored in the system.
+  name: Dow Jones Entity API
+  slug: dow-jones-entity-api
+- description: The Excel Export API allows clients to create Excel spreadsheets containing client screening results and evidence.
+  name: Dow Jones Excel Export API
+  slug: dow-jones-excel-export-api
+- description: The Field API from Dow Jones — 2 operation(s) for field.
+  name: Dow Jones Field API
+  slug: dow-jones-field-api
+- description: The File API from Dow Jones — 2 operation(s) for file.
+  name: Dow Jones File API
+  slug: dow-jones-file-api
+- description: The Group API from Dow Jones — 1 operation(s) for group.
+  name: Dow Jones Group API
+  slug: dow-jones-group-api
+- description: Operations to retrieve R&C Images
+  name: Dow Jones Images API
+  slug: dow-jones-images-api
+- description: The IPO Calendar Events API from Dow Jones — 2 operation(s) for ipo calendar events.
+  name: Dow Jones IPO Calendar Events API
+  slug: dow-jones-ipo-calendar-events-api
+- description: The IPO Calendar Taxonomy API from Dow Jones — 4 operation(s) for ipo calendar taxonomy.
+  name: Dow Jones IPO Calendar Taxonomy API
+  slug: dow-jones-ipo-calendar-taxonomy-api
+- description: The List API from Dow Jones — 2 operation(s) for list.
+  name: Dow Jones List API
+  slug: dow-jones-list-api
+- description: The List API allows clients to bulk load internal list entities into the Screening system.
+  name: Dow Jones List Import API
+  slug: dow-jones-list-import-api
+- description: The Newsletters API from Dow Jones — 2 operation(s) for newsletters.
+  name: Dow Jones Newsletters API
+  slug: dow-jones-newsletters-api
+- description: The PDF Export API allows clients to create PDF documents of Alerts, Assessments and Searches.
+  name: Dow Jones PDF Export API
+  slug: dow-jones-pdf-export-api
+- description: The Process API from Dow Jones — 1 operation(s) for process.
+  name: Dow Jones Process API
+  slug: dow-jones-process-api
+- description: Operations to retrieve R&C Profiles
+  name: Dow Jones Profiles API
+  slug: dow-jones-profiles-api
+- description: The Revisions API from Dow Jones — 1 operation(s) for revisions.
+  name: Dow Jones Revisions API
+  slug: dow-jones-revisions-api
+- description: APIs for screening and monitoring third parties against Dow Jones Risk & Compliance data.
+  name: Dow Jones Risk and Compliance Screening and Monitoring API
+  slug: dow-jones-risk-and-compliance-screening-and-monitoring-api
+- description: The Risk and Compliance search API from Dow Jones — 1 operation(s) for risk and compliance search.
+  name: Dow Jones Risk and Compliance search API
+  slug: dow-jones-risk-and-compliance-search-api
+- description: The Risk and Compliance - Taxonomy API from Dow Jones — 1 operation(s) for risk and compliance - taxonomy.
+  name: Dow Jones Risk and Compliance - Taxonomy API
+  slug: dow-jones-risk-and-compliance-taxonomy-api
+- description: API
+  name: Dow Jones Risk Reports API
+  slug: dow-jones-risk-reports-api
+- description: The Search API allows clients to run ad-hoc, low-latency searches. Results from searches are not persisted in the system.
+  name: Dow Jones Search API
+  slug: dow-jones-search-api
+- description: The ThirdParty API from Dow Jones — 2 operation(s) for thirdparty.
+  name: Dow Jones Third Party API
+  slug: dow-jones-thirdparty-api
+- description: The ThirdPartyProperties API from Dow Jones — 3 operation(s) for thirdpartyproperties.
+  name: Dow Jones Third Party Properties API
+  slug: dow-jones-thirdpartyproperties-api
+- description: The ThirdPartyScreening API from Dow Jones — 2 operation(s) for thirdpartyscreening.
+  name: Dow Jones Third Party Screening API
+  slug: dow-jones-thirdpartyscreening-api
+- description: The ThirdPartyScreeningTypes API from Dow Jones — 2 operation(s) for thirdpartyscreeningtypes.
+  name: Dow Jones Third Party Screening Types API
+  slug: dow-jones-thirdpartyscreeningtypes-api
+- description: Operations related to the transactions
+  name: Dow Jones Transaction API
+  slug: dow-jones-transaction-api
+- description: The User API allows clients to import and manage user accounts in the system.
+  name: Dow Jones User API
+  slug: dow-jones-user-api
+- description: The Versions API from Dow Jones — 1 operation(s) for versions.
+  name: Dow Jones Versions API
+  slug: dow-jones-versions-api
+artifact_total: 75
 asyncapis:
 - description: ''
   name: Dow Jones Riskcenter Third Party Webhooks
@@ -156,6 +246,74 @@ collections:
   name: Top Stories API
   slug: open-dow-jones-top-stories-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dow-jones-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-screening-and-monitoring-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-screening-and-monitoring-private-lists-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-advanced-screening-and-monitoring-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-risk-search-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-risk-profiles-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-risk-taxonomy-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-profile-version-history-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-due-diligence-reports-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-riskcenter-third-party-api-0-2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-newswires-real-time-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-top-stories-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-calendar-live-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-newswires-content-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-content-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-newsletters-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dow-jones-company-news-radar-api-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -328,13 +486,13 @@ modified: '2026-08-13'
 name: Dow Jones
 nav: Providers
 network: true
-overview: 'Dow Jones publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Screening and Monitoring API, Screening and Monitoring Private Lists API, Advanced Screening and Monitoring API, and 13 more. Tagged areas include Financial, Market Data, News, Publishing, and Risk and Compliance.
+overview: 'Dow Jones publishes 46 APIs on the [APIs.io](https://apis.io/) network, including Alert API, Alert Export API, Articles API, and 43 more. Tagged areas include Financial, Market Data, News, Publishing, and Risk and Compliance.
 
 
   The Dow Jones catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dow Jones'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 33 more developer resources.'
+  Dow Jones'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 50 more developer resources.'
 plans:
 - name: Dow Jones Plans Pricing
   plan_count: 0
@@ -350,19 +508,24 @@ scopes:
   slug: dow-jones-scopes
   summary_line: 7 scopes · authorizationCode/implicit/password/jwt-bearer/refresh_token
 score:
-  band: exemplar
-  composite: 66.8
+  band: strong
+  composite: 65.1
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 30.3
-    contract_quality: 64.4
+    contract_governance: 18.2
+    contract_quality: 68.0
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 66.8
+  previous_composite: 65.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -379,8 +542,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 80.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png
 security:

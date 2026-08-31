@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: whylogs is an open-source data logging library that creates approximate statistical profiles of datasets, enabling drift detection, data quality monitoring, and bias analysis for ML pipelines. Support
@@ -47,6 +47,22 @@ apis:
   slug: whylabs-observability
 artifact_total: 23
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/whylabs/whylogs/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/whylabs/whylogs/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/whylabs/whylogs/blob/mainline/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/whylabs/whylogs/blob/mainline/.github/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -133,8 +149,13 @@ rate_limits:
   slug: whylabs-rate-limits
 score:
   band: emerging
-  composite: 18.7
-  delta: 3.4
+  composite: 25.2
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -143,10 +164,13 @@ score:
     developer_ergonomics: 16.7
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 23.7
-  previous_composite: 15.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 25.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whylabs/refs/heads/main/screenshots/whylabs-2026-06-20T201448.png
 security:

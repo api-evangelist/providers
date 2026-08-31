@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-26'
-api_count: 5
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Order capture and management across Tabit's mobile POS (PAD), online ordering (Order), kiosk, and delivery (Wheels) products. Order data flows to third-party channels (e.g., DoorDash Marketplace) thro
   name: Tabit Orders API
@@ -108,7 +108,7 @@ modified: '2026-06-21'
 name: Tabit
 nav: Providers
 network: true
-overview: 'Tabit publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Menu API, Reservations API, and 2 more. Tagged areas include Restaurant, Point-of-Sale, Hospitality, Ordering, and Payments.
+overview: 'Tabit publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Menu API, Reservations API, and 2 more. Tagged areas include Restaurant, Point-of-Sale, POS, Hospitality, and Ordering.
 
 
   Tabit''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -123,15 +123,20 @@ rate_limits:
   slug: tabit-rate-limits
 score:
   band: emerging
-  composite: 20.7
-  delta: 0.0
+  composite: 20.2
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 25.9
     developer_ergonomics: 11.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 20.7
@@ -141,8 +146,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security
@@ -153,6 +158,7 @@ slug: tabit
 tags:
 - Restaurant
 - Point-of-Sale
+- POS
 - Hospitality
 - Ordering
 - Payments

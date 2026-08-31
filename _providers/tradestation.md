@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 23
   slug: tradestation-agentic-access
   summary_line: 23 operations · 7 acting
-api_count: 6
+api_count: 1
 apis:
 - description: 'The TradeStation Streaming API provides real-time HTTP streaming endpoints using chunked transfer encoding with newline-delimited JSON for market data and brokerage events. Streams deliver live quote '
   name: TradeStation Streaming API
@@ -234,18 +234,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.6
-  delta: 1.8
+  composite: 45.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 28.8
     contract_quality: 73.1
     developer_ergonomics: 23.8
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 13.2
-  previous_composite: 43.8
+  previous_composite: 45.6
   provenance:
     agentic_access: derived
     contracts:
@@ -259,8 +264,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 61.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/screenshots/tradestation-2026-08-17T125935.png
 security:

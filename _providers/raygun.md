@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 104
   slug: raygun-agentic-access
   summary_line: 104 operations · 44 acting · 2 human-in-the-loop
-api_count: 15
+api_count: 1
 apis:
 - description: List, retrieve, and regenerate API keys for applications under your Raygun organization. Applications are the root resource — each owns its own error groups, deployments, source maps, sessions, pages,
   name: Raygun Applications API
@@ -493,18 +493,23 @@ rules:
   slug: raygun-rules
 score:
   band: strong
-  composite: 63.7
-  delta: 0.6
+  composite: 63.2
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 28.8
     contract_quality: 70.4
     developer_ergonomics: 66.7
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 63.1
+  previous_composite: 63.7
   provenance:
     agentic_access: derived
     contracts:
@@ -512,8 +517,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raygun/refs/heads/main/screenshots/raygun-2026-06-20T192616.png
 security:

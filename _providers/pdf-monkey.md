@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-08-26'
+  score: 22.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: pdf-monkey-agentic-access
   summary_line: 13 operations · 7 acting
-api_count: 3
+api_count: 2
 apis:
 - description: Endpoints for verifying API credentials and retrieving account information
   name: PDF Monkey Authentication API
@@ -53,7 +53,10 @@ apis:
 - description: Manage document templates for PDF generation
   name: PDF Monkey Templates API
   slug: pdf-monkey-templates-api
-artifact_total: 22
+- description: Lightweight document representations for status polling and listing.
+  name: PDF Monkey Document Cards API
+  slug: pdf-monkey-document-cards-api
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -168,7 +171,7 @@ modified: '2026-08-08'
 name: PDF Monkey
 nav: Providers
 network: true
-overview: 'PDF Monkey publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authentication API, Documents API, and Templates API. Tagged areas include PDF, Document Generation, Templates, Handlebars, and REST API.
+overview: 'PDF Monkey publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Documents API, Templates API, and 1 more. Tagged areas include PDF, Document Generation, Templates, Handlebars, and REST API.
 
 
   The PDF Monkey catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -197,18 +200,23 @@ rules:
   slug: pdf-monkey-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.9
-  delta: 0.0
+  composite: 40.1
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 54.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 68.8
+    contract_quality: 68.1
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 2.6
-  previous_composite: 40.9
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     contracts:
@@ -216,8 +224,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/screenshots/pdf-monkey-2026-08-07T191719.png
 security:

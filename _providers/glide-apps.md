@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: glide-apps-agentic-access
   summary_line: 12 operations · 8 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Query a Big Table with SQL.
   name: Glide Queries API
@@ -137,7 +137,7 @@ modified: '2026-06-20'
 name: Glide
 nav: Providers
 network: true
-overview: 'Glide publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Queries API, Rows API, Stashes API, and 1 more. Tagged areas include No-Code, App Builder, Tables, Big Tables, and Data.
+overview: 'Glide publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Queries API, Rows API, Stashes API, and 1 more. Tagged areas include No Code, App Builder, Tables, Big Tables, and Data.
 
 
   Glide''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -152,18 +152,23 @@ rate_limits:
   slug: glide-apps-rate-limits
 score:
   band: developing
-  composite: 42.7
-  delta: 2.4
+  composite: 42.1
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 56.8
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 40.3
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -171,8 +176,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glide-apps/refs/heads/main/screenshots/glide-apps-2026-06-20T181910.png
 security:
@@ -190,7 +195,7 @@ security:
   summary_line: SOC 2, ISO 27001, FedRAMP, GDPR
 slug: glide-apps
 tags:
-- No-Code
+- No Code
 - App Builder
 - Tables
 - Big Tables

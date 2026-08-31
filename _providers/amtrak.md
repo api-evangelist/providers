@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Amtrak''s complete national timetable published as a static General Transit Feed Specification archive, served from content.amtrak.com with no registration, no API key, no click-through licence and no '
@@ -116,7 +116,12 @@ overview: 'Amtrak publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 random_paper: 10
 score:
   band: emerging
-  composite: 20.4
+  composite: 21.1
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -124,10 +129,10 @@ score:
     contract_governance: 4.5
     contract_quality: 8.0
     developer_ergonomics: 13.7
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 20.4
+  previous_composite: 21.1
   provenance:
     conformance: derived
     skills: derived
@@ -137,8 +142,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amtrak/refs/heads/main/screenshots/amtrak-2026-08-07T161348.png
 security:

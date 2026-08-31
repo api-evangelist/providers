@@ -18,7 +18,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: bound
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.7
-  scored_at: '2026-08-26'
+  score: 46.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 11
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 106
   slug: visa-agentic-access
   summary_line: 106 operations · 92 acting · 11 human-in-the-loop
-api_count: 84
+api_count: 22
 apis:
 - description: The Visa Government Insights Hub is a platform that provides government agencies with valuable information and resources to help them make informed decisions and improve their operations. Through data
   name: Visa Government Insights Hub
@@ -510,6 +510,10 @@ collections:
   name: Foreign Exchange Rates Workflows API
   slug: open-visa-workflows-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/visa-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -645,7 +649,7 @@ overview: 'Visa publishes 54 APIs on the [APIs.io](https://apis.io/) network, in
   The Visa catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Visa''s developer surface includes authentication, getting-started guide, support, and 14 more developer resources.'
+  Visa''s developer surface includes authentication, getting-started guide, support, and 15 more developer resources.'
 plans:
 - name: Visa Plans Pricing
   plan_count: 1
@@ -695,18 +699,23 @@ rules:
   slug: visa-rules
 score:
   band: developing
-  composite: 41.0
-  delta: 4.9
+  composite: 41.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 28.8
-    contract_quality: 61.5
+    contract_quality: 63.6
     developer_ergonomics: 47.6
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 36.1
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -720,8 +729,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/screenshots/visa-2026-06-20T201042.png
 security:

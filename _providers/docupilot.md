@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 171
   human_in_the_loop: 6
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 308
   slug: docupilot-agentic-access
   summary_line: 308 operations · 171 acting · 6 human-in-the-loop
-api_count: 40
+api_count: 2
 apis:
 - description: The ai API from Docupilot — 5 operation(s) for ai.
   name: Docupilot ai API
@@ -290,6 +290,10 @@ collections:
   name: Docupilot accounts APIs ai workspaces API
   slug: open-docupilot-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/docupilot-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1177,13 +1181,13 @@ modified: '2026-06-13'
 name: Docupilot
 nav: Providers
 network: true
-overview: 'Docupilot publishes 40 APIs on the [APIs.io](https://apis.io/) network, including ai API, append API, application API, and 37 more. Tagged areas include Document Generation, PDF Generation, Document Automation, Template Engine, and E-Signature.
+overview: 'Docupilot publishes 40 APIs on the [APIs.io](https://apis.io/) network, including ai API, append API, application API, and 37 more. Tagged areas include Document Generation, PDF Generation, Document Automation, Template Engine, and eSignature.
 
 
   The Docupilot catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Docupilot''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  Docupilot''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Docupilot Plans Pricing
   plan_count: 6
@@ -1206,18 +1210,23 @@ rules:
   slug: docupilot-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.5
-  delta: 4.2
+  composite: 46.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 38.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
     contract_quality: 58.7
     developer_ergonomics: 23.8
-    discoverability: 50.0
+    discoverability: 63.0
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 41.3
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1225,8 +1234,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/screenshots/docupilot-2026-06-20T180118.png
 security:
@@ -1252,7 +1261,7 @@ tags:
 - PDF Generation
 - Document Automation
 - Template Engine
-- E-Signature
+- eSignature
 - Workflow-Automation
 website: https://www.docupilot.com/
 ---

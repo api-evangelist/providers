@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 23
   slug: tooljet-agentic-access
   summary_line: 23 operations · 15 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Application export, import, and Git sync endpoints
   name: ToolJet Applications API
@@ -138,10 +138,6 @@ common:
   title: ''
   type: BlogRSS
   url: https://blog.tooljet.com/rss/
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: 2026-06-12
 description: ToolJet is an open-source low-code platform for building internal tools, dashboards, business applications, workflows, and AI agents. It provides a REST API (the ToolJet External API) that enables programmatic management of users, workspaces, applications, and user roles across self-hosted and cloud deployments. Authentication is handled via a static access token configured in environment variables and passed as a Basic Authorization header. ToolJet supports connecting to external data sources including REST APIs, GraphQL, databases, and cloud storage, and offers OpenAPI-spec-driven data source integration within the platform. Pricing spans a free tier up to enterprise plans with SSO, Git sync, audit logs, and SCIM provisioning.
 examples:
@@ -180,13 +176,13 @@ modified: 2026-06-12
 name: ToolJet
 nav: Providers
 network: true
-overview: 'ToolJet publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Groups API, Users API, and 1 more. Tagged areas include Low-Code, Internal Tools, Open-Source, Application Builder, and Workflow-Automation.
+overview: 'ToolJet publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Groups API, Users API, and 1 more. Tagged areas include low-code, internal tools, Open-Source, application builder, and workflow automation.
 
 
   The ToolJet catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ToolJet''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
+  ToolJet''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Tooljet Plans Pricing
   plan_count: 4
@@ -209,18 +205,23 @@ rules:
   slug: tooljet-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.2
-  delta: 1.8
+  composite: 46.6
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 24.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
     contract_quality: 64.0
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 34.2
-  previous_composite: 45.4
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     contracts:
@@ -228,8 +229,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/screenshots/tooljet-2026-06-20T195448.png
 security:
@@ -247,12 +248,12 @@ security:
   summary_line: SOC 2, ISO 27001, GDPR
 slug: tooljet
 tags:
-- Low-Code
-- Internal Tools
+- low-code
+- internal tools
 - Open-Source
-- Application Builder
-- Workflow-Automation
-- No-Code
+- application builder
+- workflow automation
+- no-code
 - Dashboards
 - AI Agents
 website: https://tooljet.com/

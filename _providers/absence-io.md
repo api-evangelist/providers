@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -325,18 +325,23 @@ rules:
   slug: absence-io-spectral-rules
 score:
   band: thin
-  composite: 34.7
-  delta: 3.4
+  composite: 33.5
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.2
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 28.8
     contract_quality: 30.6
-    developer_ergonomics: 35.7
+    developer_ergonomics: 29.8
     discoverability: 55.6
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 31.3
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     contracts:
@@ -344,8 +349,8 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/absence-io/refs/heads/main/screenshots/absence-io-2026-06-20T163343.png
 security:

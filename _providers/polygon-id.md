@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 69
   slug: polygon-id-agentic-access
   summary_line: 69 operations · 37 acting · 2 human-in-the-loop
-api_count: 17
+api_count: 2
 apis:
 - description: The Verifier SDK enables web2 and web3 applications to authenticate users based on verifiable credentials without accessing the underlying personal data. Verifiers compose ZK queries using the Query B
   name: Polygon ID Verifier SDK
@@ -143,6 +143,14 @@ collections:
   name: Privado ID - Issuer Agent Schemas API
   slug: open-polygon-id-schemas-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/0xPolygonID/verifier-backend/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/0xPolygonID/verifier-backend/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -531,7 +539,7 @@ overview: 'Polygon ID publishes 14 APIs on the [APIs.io](https://apis.io/) netwo
   The Polygon ID catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Polygon ID''s developer surface includes authentication, documentation, engineering blog, YouTube channel, support, and 8 more developer resources.'
+  Polygon ID''s developer surface includes authentication, documentation, engineering blog, YouTube channel, support, and 10 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -554,18 +562,26 @@ rules:
   slug: polygon-id-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.3
-  delta: 1.4
+  composite: 37.4
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 54.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 62.0
     developer_ergonomics: 23.8
-    discoverability: 75.9
+    discoverability: 70.4
     governance: 9.8
-    operational_transparency: 2.6
-  previous_composite: 35.9
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     contracts:
@@ -573,8 +589,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygon-id/refs/heads/main/screenshots/polygon-id-2026-06-20T191901.png
 security:

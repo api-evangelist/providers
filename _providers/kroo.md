@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,17 +43,108 @@ agentic_access:
   summary_line: 74 operations · 20 acting
 api_count: 3
 apis:
-- description: Kroo's PSD2 Account Information Service (AIS) dedicated interface, conformant to the OBIE Read/Write Account and Transaction API Standard. Lets FCA-authorised AISP third parties retrieve, with custome
-  name: Kroo Account and Transaction Information API
-  slug: kroo-account-information-api
-- description: 'Kroo''s PSD2 Payment Initiation Service (PIS) dedicated interface, conformant to the OBIE Read/Write Payment Initiation API Standard. Lets FCA-authorised PISP third parties initiate domestic payments, '
-  name: Kroo Payment Initiation API
-  slug: kroo-payment-initiation-api
-- description: Kroo's PSD2 Confirmation of Funds Service (CBPII) dedicated interface, conformant to the OBIE Read/Write Confirmation of Funds API Standard. Lets FCA-authorised CBPII third parties confirm, with custo
-  name: Kroo Confirmation of Funds API
-  slug: kroo-confirmation-of-funds-api
-artifact_total: 9
+- description: The Account Access Consents API from Kroo — 2 operation(s) for account access consents.
+  name: Kroo Account Access Consents API
+  slug: kroo-account-access-consents-api
+- description: The Accounts API from Kroo — 2 operation(s) for accounts.
+  name: Kroo Accounts API
+  slug: kroo-accounts-api
+- description: The Balances API from Kroo — 2 operation(s) for balances.
+  name: Kroo Balances API
+  slug: kroo-balances-api
+- description: The Beneficiaries API from Kroo — 2 operation(s) for beneficiaries.
+  name: Kroo Beneficiaries API
+  slug: kroo-beneficiaries-api
+- description: The Direct Debits API from Kroo — 2 operation(s) for direct debits.
+  name: Kroo Direct Debits API
+  slug: kroo-direct-debits-api
+- description: The Domestic Payment Consents API from Kroo — 3 operation(s) for domestic payment consents.
+  name: Kroo Domestic Payment Consents API
+  slug: kroo-domestic-payment-consents-api
+- description: The Domestic Payments API from Kroo — 3 operation(s) for domestic payments.
+  name: Kroo Domestic Payments API
+  slug: kroo-domestic-payments-api
+- description: The Domestic Scheduled Payment Consents API from Kroo — 2 operation(s) for domestic scheduled payment consents.
+  name: Kroo Domestic Scheduled Payment Consents API
+  slug: kroo-domestic-scheduled-payment-consents-api
+- description: The Domestic Scheduled Payments API from Kroo — 3 operation(s) for domestic scheduled payments.
+  name: Kroo Domestic Scheduled Payments API
+  slug: kroo-domestic-scheduled-payments-api
+- description: The Domestic Standing Order Consents API from Kroo — 2 operation(s) for domestic standing order consents.
+  name: Kroo Domestic Standing Order Consents API
+  slug: kroo-domestic-standing-order-consents-api
+- description: The Domestic Standing Orders API from Kroo — 3 operation(s) for domestic standing orders.
+  name: Kroo Domestic Standing Orders API
+  slug: kroo-domestic-standing-orders-api
+- description: The File Payment Consents API from Kroo — 3 operation(s) for file payment consents.
+  name: Kroo File Payment Consents API
+  slug: kroo-file-payment-consents-api
+- description: The File Payments API from Kroo — 4 operation(s) for file payments.
+  name: Kroo File Payments API
+  slug: kroo-file-payments-api
+- description: The Funds Confirmation Consents API from Kroo — 2 operation(s) for funds confirmation consents.
+  name: Kroo Funds Confirmation Consents API
+  slug: kroo-funds-confirmation-consents-api
+- description: The Funds Confirmations API from Kroo — 1 operation(s) for funds confirmations.
+  name: Kroo Funds Confirmations API
+  slug: kroo-funds-confirmations-api
+- description: The International Payment Consents API from Kroo — 3 operation(s) for international payment consents.
+  name: Kroo International Payment Consents API
+  slug: kroo-international-payment-consents-api
+- description: The International Payments API from Kroo — 3 operation(s) for international payments.
+  name: Kroo International Payments API
+  slug: kroo-international-payments-api
+- description: The International Scheduled Payments API from Kroo — 3 operation(s) for international scheduled payments.
+  name: Kroo International Scheduled Payments API
+  slug: kroo-international-scheduled-payments-api
+- description: The International Scheduled Payments Consents API from Kroo — 3 operation(s) for international scheduled payments consents.
+  name: Kroo International Scheduled Payments Consents API
+  slug: kroo-international-scheduled-payments-consents-api
+- description: The International Standing Orders API from Kroo — 3 operation(s) for international standing orders.
+  name: Kroo International Standing Orders API
+  slug: kroo-international-standing-orders-api
+- description: The International Standing Orders Consents API from Kroo — 2 operation(s) for international standing orders consents.
+  name: Kroo International Standing Orders Consents API
+  slug: kroo-international-standing-orders-consents-api
+- description: The Offers API from Kroo — 2 operation(s) for offers.
+  name: Kroo Offers API
+  slug: kroo-offers-api
+- description: The Parties API from Kroo — 3 operation(s) for parties.
+  name: Kroo Parties API
+  slug: kroo-parties-api
+- description: The Products API from Kroo — 2 operation(s) for products.
+  name: Kroo Products API
+  slug: kroo-products-api
+- description: The Scheduled Payments API from Kroo — 2 operation(s) for scheduled payments.
+  name: Kroo Scheduled Payments API
+  slug: kroo-scheduled-payments-api
+- description: The Standing Orders API from Kroo — 2 operation(s) for standing orders.
+  name: Kroo Standing Orders API
+  slug: kroo-standing-orders-api
+- description: The Statements API from Kroo — 5 operation(s) for statements.
+  name: Kroo Statements API
+  slug: kroo-statements-api
+- description: The Transactions API from Kroo — 2 operation(s) for transactions.
+  name: Kroo Transactions API
+  slug: kroo-transactions-api
+artifact_total: 34
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kroo-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kroo-account-info-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kroo-payment-initiation-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kroo-confirmation-funds-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -171,10 +262,10 @@ modified: '2026-07-23'
 name: Kroo
 nav: Providers
 network: true
-overview: 'Kroo publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API, Payment Initiation API, and Confirmation of Funds API. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Kroo publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, Balances API, and 25 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  Kroo''s developer surface includes authentication, documentation, engineering blog, support, and 22 more developer resources.'
+  Kroo''s developer surface includes authentication, documentation, engineering blog, support, and 26 more developer resources.'
 random_paper: 2
 scopes:
 - name: Kroo Scopes
@@ -183,18 +274,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 45.6
-  delta: 1.4
+  composite: 42.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 54.4
     developer_ergonomics: 37.5
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 72.2
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 44.2
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -207,12 +303,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 68.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kroo/refs/heads/main/screenshots/kroo-2026-07-25T224303.png
 security:

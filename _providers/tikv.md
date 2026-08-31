@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 10
   slug: tikv-agentic-access
   summary_line: 10 operations · 3 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The official Java client for TiKV. Supports raw key-value operations and transactional operations via gRPC. Available on Maven Central.
   name: TiKV Java Client
@@ -91,6 +91,26 @@ collections:
   name: TiKV HTTP Management Configuration Status API
   slug: open-tikv-status-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/tikv/tikv/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/tikv/tikv/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/tikv/tikv/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/tikv/tikv/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/tikv/tikv/blob/master/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -209,7 +229,7 @@ overview: 'TiKV publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   The TiKV catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TiKV''s developer surface includes documentation, getting-started guide, engineering blog, and 17 more developer resources.'
+  TiKV''s developer surface includes documentation, getting-started guide, engineering blog, and 22 more developer resources.'
 plans:
 - name: Tikv Plans Pricing
   plan_count: 1
@@ -242,19 +262,27 @@ rules:
     warn: 2
   slug: tikv-rules
 score:
-  band: thin
-  composite: 32.9
-  delta: 0.0
+  band: developing
+  composite: 42.2
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
     contract_quality: 50.2
     developer_ergonomics: 42.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
-    operational_transparency: 7.9
-  previous_composite: 32.9
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -262,8 +290,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tikv/refs/heads/main/screenshots/tikv-2026-06-20T195351.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 5
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 219
   slug: brightcove-agentic-access
   summary_line: 219 operations · 117 acting · 5 human-in-the-loop
-api_count: 53
+api_count: 11
 apis:
 - description: Handles ingestion of videos and media assets into Video Cloud, supporting remote URL ingestion and upload from local files.
   name: Brightcove Dynamic Ingest API
@@ -329,6 +329,10 @@ collections:
   name: Brightcove Analytics API Reference Access Tokens View Events API
   slug: open-brightcove-view-events-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/brightcove-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -412,7 +416,7 @@ network: true
 overview: 'Brightcove publishes 42 APIs on the [APIs.io](https://apis.io/) network, including SSAI API, Delivery Rules API, Access Tokens API, and 39 more. Tagged areas include Video, Media, Streaming, Live Streaming, and Analytics.
 
 
-  Brightcove''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  Brightcove''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Brightcove Plans Pricing
   plan_count: 2
@@ -429,18 +433,23 @@ scopes:
   summary_line: 33 scopes · clientCredentials
 score:
   band: thin
-  composite: 37.2
+  composite: 37.0
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 59.6
+    contract_quality: 59.0
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 37.2
+  previous_composite: 37.0
   provenance:
     agentic_access: derived
     contracts:
@@ -448,8 +457,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightcove/refs/heads/main/screenshots/brightcove-2026-06-20T173711.png
 security:

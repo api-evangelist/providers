@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,10 +21,10 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,28 +32,10 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.6
-  scored_at: '2026-08-26'
-api_count: 80
+  score: 29.9
+  scored_at: '2026-08-30'
+api_count: 74
 apis:
-- description: Enables suppliers and buyers to exchange business documents and collaborate on the Ariba Network.
-  name: Ariba Network API
-  slug: ariba-network-api
-- description: Access procurement data including requisitions, purchase orders, receipts, and payment information.
-  name: Ariba Procurement API
-  slug: ariba-procurement-api
-- description: Manage sourcing projects, events, bids, and supplier responses for strategic sourcing activities.
-  name: Ariba Sourcing API
-  slug: ariba-sourcing-api
-- description: Create, manage, and track contracts and contract workspaces throughout the contract lifecycle.
-  name: Ariba Contracts API
-  slug: ariba-contracts-api
-- description: Access and manage supplier information, qualifications, performance data, and risk assessments.
-  name: Ariba Supplier API
-  slug: ariba-supplier-api
-- description: Extract and analyze spend data, procurement metrics, and business intelligence from Ariba solutions.
-  name: Ariba Analytics API
-  slug: ariba-analytics-api
 - description: Provides synchronous and asynchronous access to operational procurement data including requisitions, purchase orders, receipts, and invoices for reporting and analytics purposes.
   name: Operational Reporting API for Procurement
   slug: operational-reporting-api-for-procurement
@@ -276,8 +258,16 @@ apis:
 - description: Provides content delivery and management for SAP Build Work Zone integration with SAP Ariba procurement capabilities.
   name: SAP Build Work Zone CDM Content API for Procurement
   slug: sap-build-work-zone-cdm-content-api-for-procurement
-artifact_total: 107
+artifact_total: 81
+asyncapis:
+- description: ''
+  name: Ariba Event Surface
+  slug: ariba-event-surface
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ariba.com/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -290,50 +280,6 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/ariba
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://developer.ariba.com/getting-started
-- group: auth
-  title: ''
-  type: Authentication
-  url: https://developer.ariba.com/authentication
-- group: start
-  title: ''
-  type: Console
-  url: https://developer.ariba.com/console
-- group: build
-  title: ''
-  type: SDKs
-  url: https://developer.ariba.com/sdks
-- group: operate
-  title: ''
-  type: Support
-  url: https://developer.ariba.com/support
-- group: operate
-  title: ''
-  type: StatusPage
-  url: https://status.ariba.com
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://www.ariba.com/terms
-- group: commercial
-  title: ''
-  type: PrivacyPolicy
-  url: https://www.ariba.com/privacy
-- group: operate
-  title: ''
-  type: RateLimits
-  url: https://developer.ariba.com/rate-limits
-- group: design
-  title: ''
-  type: Webhooks
-  url: https://developer.ariba.com/webhooks
-- group: operate
-  title: ''
-  type: ChangeLog
-  url: https://developer.ariba.com/changelog
 - group: other
   title: ''
   type: SAP Business Accelerator Hub
@@ -390,72 +336,174 @@ common:
   title: ''
   type: Procurement Planning
   url: https://api.sap.com/package/ProcurementPlanning/overview
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.ariba.com/api/home
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.sap.com/docs/ariba-apis
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.sap.com/package/SAPAribaOpenAPIs/overview
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.ariba.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://developer.ariba.com/api/registration
+- group: start
+  title: ''
+  type: Login
+  url: https://developer.ariba.com/api/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://developer.ariba.com/api/termsofuse
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://developer.ariba.com/api/privacystatement
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/SAP-samples
 - group: agent
   title: ''
-  type: LlmsText
-  url: https://developer.ariba.com/llms.txt
-created: '2024'
-description: SAP Ariba provides cloud-based procurement and supply chain collaboration solutions. These APIs enable integration with Ariba's procurement, sourcing, contract management, and supplier management capabilities.
-features:
-- Cloud-based procurement and sourcing
-- Supplier lifecycle and performance management
-- Contract workspace and compliance management
-- Ariba Network B2B document exchange
-- Spend analytics and business intelligence
-- Catalog management and punchout
-- Risk assessment and monitoring
-- Planning collaboration for supply chain
+  type: WellKnown
+  url: well-known/ariba-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/ariba-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/ariba-vulnerability-disclosure.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ariba-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ariba-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ariba-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/ariba-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ariba-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/ariba-lifecycle.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ariba-authentication.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/ariba-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ariba-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/ariba-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/ariba-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/ariba-event-surface.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ariba-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/ariba-rate-limits.yml
+- group: other
+  title: ''
+  type: WebServiceCatalog
+  url: wsdl/ariba-soap-services.yml
+- group: other
+  title: ''
+  type: ProviderAPIInventory
+  url: catalog/ariba-api-catalog.yml
+created: '2024-01-01'
+description: 'SAP Ariba is the procurement and supply-chain collaboration business of SAP: strategic sourcing, contract management, procure-to-pay, supplier lifecycle and performance, supplier risk, catalog management, and the SAP Business Network that connects buyers and suppliers. Its API surface is one of the largest enterprise contract estates in the catalog - 114 REST APIs published in the SAP Business Accelerator Hub package SAPAribaOpenAPIs, plus 144 SOAP web services - all routed through the openapi.ariba.com gateway behind OAuth 2.0 client credentials, an application key, and a per-realm authorization grant. Ariba also authored cXML, the Commerce XML interchange standard the wider procurement market still runs on. The catalog metadata is anonymously readable; the specifications themselves are not - every OpenAPI download redirects to an SAP ID login.'
 finops:
 - name: Ariba Finops
   service_category: API
   slug: ariba-finops
 image: https://www.ariba.com/ariba-logo.png
-integrations:
-- SAP S/4HANA
-- SAP ERP Central Component
-- SAP Business Technology Platform
-- SAP Build Work Zone
-- SAP Integration Suite
-- Oracle ERP
-- Microsoft Dynamics
-- Coupa
 layout: provider
-modified: '2026-04-18'
+modified: '2026-08-29'
 name: Ariba
 nav: Providers
 network: true
-overview: 'Ariba publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Network API, Procurement API, Sourcing API, and 3 more. Tagged areas include B2B, Catalog Management, Compliance, Contracts, and Enterprise.
+overview: 'Ariba publishes 74 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include B2B, Catalog Management, Compliance, Contracts, and Enterprise.
 
 
-  Ariba''s developer surface includes getting-started guide, authentication, developer console, support, changelog, code examples, engineering blog, and 22 more developer resources.'
+  The Ariba catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Ariba''s developer surface includes getting-started guide, code examples, engineering blog, documentation, API reference, support, signup flow, and 39 more developer resources.'
 plans:
 - name: Ariba Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: ariba-plans-pricing
 random_paper: 7
 rate_limits:
-- limit_count: 5
+- limit_count: 11
   name: Ariba Rate Limits
   slug: ariba-rate-limits
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 36.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
-    access_clarity: 36.8
-    commercial_clarity: 36.8
-    contract_governance: 0.0
-    contract_quality: 33.3
-    developer_ergonomics: 13.1
-    discoverability: 57.4
-    governance: 0.0
-    operational_transparency: 15.8
-  previous_composite: 26.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    access_clarity: 14.5
+    commercial_clarity: 14.5
+    contract_governance: 18.2
+    contract_quality: 49.3
+    developer_ergonomics: 26.2
+    discoverability: 74.1
+    governance: 18.2
+    operational_transparency: 52.6
+  previous_composite: 36.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ariba/refs/heads/main/screenshots/ariba-2026-06-20T172425.png
 security:
+- kind: authentication
+  name: Ariba Authentication
+  slug: ariba-authentication
+  summary_line: 4 schemes
 - kind: domain-security
   name: Ariba Domain Security
   slug: ariba-domain-security
@@ -481,12 +529,5 @@ tags:
 - Supplier Lifecycle
 - Suppliers
 - Supply Chain
-use_cases:
-- Procurement workflow automation
-- Supplier onboarding and qualification
-- Contract lifecycle management
-- Spend analysis and visibility
-- Purchase order and invoice processing
-- Strategic sourcing and e-tendering
-website: https://developer.ariba.com
+website: https://www.ariba.com/
 ---

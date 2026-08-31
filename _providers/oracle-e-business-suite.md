@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 53
   slug: oracle-e-business-suite-agentic-access
   summary_line: 53 operations · 15 acting
-api_count: 24
+api_count: 6
 apis:
 - description: SOAP-based web services for Oracle E-Business Suite exposed through the Integrated SOA Gateway. Supports synchronous and asynchronous interaction patterns for PL/SQL APIs, Concurrent Programs, and Bus
   name: Oracle EBS Integrated SOA Gateway SOAP Web Services
@@ -276,6 +276,10 @@ collections:
   name: Oracle EBS Supply Chain Management API
   slug: open-supply-chain-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/oracle-e-business-suite-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1484,7 +1488,7 @@ overview: 'Oracle E-Business Suite publishes 22 APIs on the [APIs.io](https://ap
   The Oracle E-Business Suite catalog on APIs.io includes 7 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Oracle E-Business Suite''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, support, engineering blog, and 34 more developer resources.'
+  Oracle E-Business Suite''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, support, engineering blog, and 35 more developer resources.'
 plans:
 - name: Oracle E Business Suite Plans Pricing
   plan_count: 4
@@ -1519,6 +1523,11 @@ rules:
 score:
   band: strong
   composite: 61.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
@@ -1537,8 +1546,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/screenshots/oracle-e-business-suite-2026-06-20T191127.png
 security:

@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-26'
-api_count: 24
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Attempted Delivery API API from Just Eat — 2 operation(s) for attempted delivery api.
   name: Just Eat Attempted Delivery API API
@@ -90,9 +90,6 @@ apis:
 - description: The Restaurant Events Webhooks API from Just Eat — 2 operation(s) for restaurant events webhooks.
   name: Just Eat Restaurant Events Webhooks API
   slug: just-eat-restaurant-events-webhooks-api
-- description: The Restaurant OrderTimes API from Just Eat — 2 operation(s) for restaurant ordertimes.
-  name: Just Eat Restaurant OrderTimes API
-  slug: just-eat-restaurant-ordertimes-api
 - description: The Restaurant Webhooks API from Just Eat — 2 operation(s) for restaurant webhooks.
   name: Just Eat Restaurant Webhooks API
   slug: just-eat-restaurant-webhooks-api
@@ -108,7 +105,7 @@ apis:
 - description: The Search API from Just Eat — 2 operation(s) for search.
   name: Just Eat Search API
   slug: just-eat-search-api
-artifact_total: 53
+artifact_total: 52
 asyncapis:
 - description: ''
   name: Just Eat Webhooks
@@ -190,6 +187,10 @@ collections:
   name: Just Eat UK Attempted Delivery API Search API
   slug: open-just-eat-search-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/just-eat-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -278,28 +279,33 @@ modified: '2026-07-19'
 name: Just Eat
 nav: Providers
 network: true
-overview: 'Just Eat publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Attempted Delivery API API, Attempted Delivery Webhooks API, Checkout API, and 21 more. Tagged areas include Food Delivery, Restaurant, Marketplace, Logistics, and Order.
+overview: 'Just Eat publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Attempted Delivery API API, Attempted Delivery Webhooks API, Checkout API, and 20 more. Tagged areas include Food Delivery, Restaurant, Marketplace, Logistics, and Order.
 
 
   The Just Eat catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Just Eat''s developer surface includes authentication, documentation, API reference, engineering blog, and 15 more developer resources.'
+  Just Eat''s developer surface includes authentication, documentation, API reference, engineering blog, and 16 more developer resources.'
 random_paper: 15
 score:
   band: thin
-  composite: 35.5
-  delta: 0.0
+  composite: 33.5
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 61.5
+    contract_governance: 4.5
+    contract_quality: 61.4
     developer_ergonomics: 32.7
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 35.5
+  previous_composite: 34.0
   provenance:
     conformance: derived
     contracts:
@@ -309,8 +315,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

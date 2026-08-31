@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-08-26'
-api_count: 7
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The authorizations API from OpenLattice — 1 operation(s) for authorizations.
   name: OpenLattice authorizations API
@@ -84,6 +84,10 @@ collections:
   name: OpenLattice authorizations search API
   slug: open-openlattice-search-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/openlattice-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -151,22 +155,27 @@ network: true
 overview: 'OpenLattice publishes 7 APIs on the [APIs.io](https://apis.io/) network, including authorizations API, data API, edm API, and 4 more. Tagged areas include Company, Data Integration, Entity Data Model, Public Sector, and Analytics.
 
 
-  OpenLattice''s developer surface includes authentication and 12 more developer resources.'
+  OpenLattice''s developer surface includes authentication and 13 more developer resources.'
 random_paper: 0
 score:
-  band: thin
-  composite: 26.6
-  delta: 0.6
+  band: emerging
+  composite: 24.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 12.1
+    contract_governance: 0.0
     contract_quality: 43.9
     developer_ergonomics: 28.0
-    discoverability: 81.5
-    governance: 12.1
+    discoverability: 75.9
+    governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 26.0
+  previous_composite: 25.1
   provenance:
     contracts:
       callable: 0.0
@@ -181,8 +190,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openlattice/refs/heads/main/screenshots/openlattice-2026-08-07T190610.png
 security:

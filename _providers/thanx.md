@@ -13,7 +13,7 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.1
-  scored_at: '2026-08-26'
+  score: 42.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 30
   slug: thanx-agentic-access
   summary_line: 30 operations · 13 acting · 1 human-in-the-loop
-api_count: 14
+api_count: 3
 apis:
 - description: Retrieve a user's loyalty account, rewards, and points balances.
   name: Thanx Account API
@@ -739,18 +739,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 78.1
-  delta: 1.9
+  composite: 76.6
+  coverage:
+    artifact_dirs: 33
+    catalog_gap: 24.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 59.1
+    contract_governance: 47.0
     contract_quality: 83.3
     developer_ergonomics: 88.1
     discoverability: 75.9
-    governance: 59.1
+    governance: 47.0
     operational_transparency: 86.8
-  previous_composite: 76.2
+  previous_composite: 76.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -761,8 +766,8 @@ score:
       total: 14
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/screenshots/thanx-2026-06-20T195212.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: ups-agentic-access
   summary_line: 11 operations · 10 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Address validation and standardization
   name: UPS Address Validation API
@@ -101,6 +101,10 @@ collections:
   name: UPS Shipping Address Validation Tracking API
   slug: open-ups-tracking-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ups-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -249,7 +253,7 @@ overview: 'UPS publishes 8 APIs on the [APIs.io](https://apis.io/) network, incl
   The UPS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  UPS''s developer surface includes authentication, getting-started guide, and 7 more developer resources.'
+  UPS''s developer surface includes authentication, getting-started guide, and 8 more developer resources.'
 plans:
 - name: Ups Plans Pricing
   plan_count: 1
@@ -304,18 +308,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 32.8
-  delta: 0.9
+  composite: 32.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
     contract_quality: 63.7
     developer_ergonomics: 27.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 5.3
-  previous_composite: 31.9
+  previous_composite: 32.8
   provenance:
     agentic_access: derived
     contracts:
@@ -323,8 +332,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/screenshots/ups-2026-06-20T200507.png
 security:

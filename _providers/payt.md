@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 54
   slug: payt-agentic-access
   summary_line: 54 operations · 23 acting
-api_count: 20
+api_count: 1
 apis:
 - description: Operations about administrations
   name: Payt administrations API
@@ -301,7 +301,7 @@ modified: '2026-07-20'
 name: Payt
 nav: Providers
 network: true
-overview: 'Payt publishes 20 APIs on the [APIs.io](https://apis.io/) network, including administrations API, companies API, contacts API, and 17 more. Tagged areas include Company, Applicative Saas, Accounts Receivable, Order-to-Cash, and Invoicing.
+overview: 'Payt publishes 20 APIs on the [APIs.io](https://apis.io/) network, including administrations API, companies API, contacts API, and 17 more. Tagged areas include Company, Applicative SaaS, Accounts Receivable, Order to Cash, and Invoicing.
 
 
   Payt''s developer surface includes authentication, changelog, sandbox, documentation, API reference, support, engineering blog, and 23 more developer resources.'
@@ -313,18 +313,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 50.1
-  delta: 2.4
+  composite: 48.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 54.5
     developer_ergonomics: 64.9
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 47.7
+  previous_composite: 48.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -341,8 +346,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/screenshots/payt-2026-08-07T191658.png
 security:
@@ -357,9 +362,9 @@ security:
 slug: payt
 tags:
 - Company
-- Applicative Saas
+- Applicative SaaS
 - Accounts Receivable
-- Order-to-Cash
+- Order to Cash
 - Invoicing
 - Debt Collection
 - Payments

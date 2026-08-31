@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 24
   slug: deepgram-agentic-access
   summary_line: 24 operations · 11 acting
-api_count: 12
+api_count: 3
 apis:
 - description: 'The Deepgram Voice Agent API is an end-to-end solution that combines speech-to-text, LLM orchestration, and text-to-speech into a single real-time API. It simplifies the development of conversational '
   name: Deepgram Voice Agent API
@@ -478,7 +478,7 @@ modified: '2026-05-19'
 name: Deepgram
 nav: Providers
 network: true
-overview: 'Deepgram publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Voice Agent API, Balances API, Invitations API, and 9 more. Tagged areas include Artificial Intelligence, Speech-to-Text, Text-to-Speech, Transcription, and Voice AI.
+overview: 'Deepgram publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Voice Agent API, Balances API, Invitations API, and 9 more. Tagged areas include Artificial Intelligence, Speech-To-Text, Text-To-Speech, Transcription, and Voice AI.
 
 
   The Deepgram catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 1 JSON-LD context, and 5 Spectral governance rulesets.
@@ -552,6 +552,11 @@ rules:
 score:
   band: developing
   composite: 49.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 47.4
@@ -570,8 +575,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepgram/refs/heads/main/screenshots/deepgram-2026-06-20T175821.png
 security:
@@ -586,8 +591,8 @@ security:
 slug: deepgram
 tags:
 - Artificial Intelligence
-- Speech-to-Text
-- Text-to-Speech
+- Speech-To-Text
+- Text-To-Speech
 - Transcription
 - Voice AI
 website: https://deepgram.com/

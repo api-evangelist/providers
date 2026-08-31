@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 44
   slug: heroku-agentic-access
   summary_line: 44 operations · 23 acting · 1 human-in-the-loop
-api_count: 14
+api_count: 1
 apis:
 - description: Account management
   name: Heroku Account API
@@ -182,6 +182,10 @@ collections:
   name: Heroku Platform Account Stacks API
   slug: open-heroku-stacks-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -325,17 +329,17 @@ json_structures:
   property_count: 0
   slug: heroku-structure
 layout: provider
-modified: '2026-05-30'
+modified: '2026-08-30'
 name: Heroku
 nav: Providers
 network: true
-overview: 'Heroku publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Add-ons API, Apps API, and 11 more. Tagged areas include Application Deployment, Cloud Platform, DevOps, and Platform-as-a-Service.
+overview: 'Heroku publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Add-ons API, Apps API, and 11 more. Tagged areas include Application Deployment, Cloud Platform, DevOps, and PaaS.
 
 
   The Heroku catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Heroku''s developer surface includes authentication, developer portal, getting-started guide, documentation, signup flow, engineering blog, support, and 12 more developer resources.'
+  Heroku''s developer surface includes authentication, developer portal, getting-started guide, documentation, signup flow, engineering blog, support, and 13 more developer resources.'
 plans:
 - name: Heroku Plans Pricing
   plan_count: 8
@@ -358,15 +362,20 @@ rules:
   slug: heroku-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 45.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 70.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 9.8
     contract_quality: 59.4
     developer_ergonomics: 54.8
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 9.8
     operational_transparency: 10.5
   previous_composite: 46.4
@@ -377,8 +386,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heroku/refs/heads/main/screenshots/heroku-2026-06-20T182649.png
 security:
@@ -395,6 +404,6 @@ tags:
 - Application Deployment
 - Cloud Platform
 - DevOps
-- Platform-as-a-Service
+- PaaS
 website: https://www.heroku.com/
 ---

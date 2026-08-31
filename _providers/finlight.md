@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 3
   slug: finlight-agentic-access
   summary_line: 3 operations · 1 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Financial news articles with sentiment analysis and entity extraction
   name: Finlight Articles API
@@ -188,7 +188,12 @@ rules:
 score:
   band: developing
   composite: 41.0
-  delta: 1.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 59.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -198,7 +203,7 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 39.5
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +217,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finlight/refs/heads/main/screenshots/finlight-2026-06-20T181218.png
 security:

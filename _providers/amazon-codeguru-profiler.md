@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 23
   slug: amazon-codeguru-profiler-agentic-access
   summary_line: 23 operations · 13 acting
-api_count: 4
+api_count: 1
 apis:
 - description: The Internal API from Amazon CodeGuru Profiler — 4 operation(s) for internal.
   name: Amazon CodeGuru Profiler Internal API
@@ -1092,16 +1092,21 @@ rules:
   slug: amazon-codeguru-profiler-spectral-rules
 score:
   band: thin
-  composite: 33.1
-  delta: 1.5
+  composite: 31.1
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 62.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 68.0
     developer_ergonomics: 21.4
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 31.6
   provenance:
@@ -1113,8 +1118,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/screenshots/amazon-codeguru-profiler-2026-07-25T195956.png
 security:

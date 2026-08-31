@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 38
   slug: weave-agentic-access
   summary_line: 38 operations · 11 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Weave's developer platform API for building apps and integrations against Weave communication, scheduling, and payments data. Authorized via OpenID Connect / OAuth 2.0 (authorization_code + client_cre
   name: Weave Platform API
@@ -97,6 +97,10 @@ collections:
   name: Weave Contacts Scheduling API
   slug: open-weave-scheduling-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/weave-capability-edges.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -296,7 +300,7 @@ network: true
 overview: 'Weave publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Events API, Forms API, and 5 more. Tagged areas include Company, Communications, Messaging, Payments, and Healthcare.
 
 
-  Weave''s developer surface includes documentation, signup flow, pricing, support, engineering blog, authentication, and 40 more developer resources.'
+  Weave''s developer surface includes documentation, signup flow, pricing, support, engineering blog, authentication, and 41 more developer resources.'
 plans:
 - name: Weave Plans Pricing
   plan_count: 4
@@ -312,19 +316,24 @@ scopes:
   slug: weave-scopes
   summary_line: 3 scopes
 score:
-  band: exemplar
-  composite: 67.2
-  delta: 1.7
+  band: strong
+  composite: 65.5
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 53.3
     developer_ergonomics: 36.9
-    discoverability: 92.6
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 60.5
-  previous_composite: 65.5
+  previous_composite: 66.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -335,12 +344,16 @@ score:
       total: 8
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weave/refs/heads/main/screenshots/weave-2026-08-17T082900.png
 security:

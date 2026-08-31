@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: verified
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 51.2
-  scored_at: '2026-08-26'
+  score: 54.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,23 +31,30 @@ agentic_access:
   operation_count: 7
   slug: liquid-death-agentic-access
   summary_line: 7 operations
-api_count: 3
+api_count: 1
 apis:
-- description: The anonymous, read-only product and collection JSON surface Liquid Death documents for AI agents in its agents.md, covering product records, collection listings, storefront search and the store-level
-  name: Liquid Death Storefront Read-Only JSON API
-  slug: liquid-death-storefront-read-only-json-api
 - description: 'Liquid Death''s hosted Model Context Protocol server implementing the Universal Commerce Protocol dev.ucp.shopping service — catalog search and lookup, cart, checkout, fulfillment, discount and order. '
   name: Liquid Death UCP Shopping MCP
   slug: liquid-death-ucp-shopping-mcp
 - description: The OpenID Connect and OAuth 2.0 authorization server for the Liquid Death customer account, hosted at account.liquiddeath.com and discoverable from both /.well-known/openid-configuration and /.well-k
   name: Liquid Death Customer Account OAuth
   slug: liquid-death-customer-account-oauth
-artifact_total: 9
+- description: Product and collection data
+  name: Liquid Death Catalog API
+  slug: liquid-death-catalog-api
+- description: Store-level discovery documents for crawlers and agents
+  name: Liquid Death Discovery API
+  slug: liquid-death-discovery-api
+artifact_total: 10
 collections:
 - collection_type: open
   name: Liquid Death Storefront Read-Only JSON API
   slug: open-liquid-death-storefront
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/liquid-death-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -193,10 +200,10 @@ modified: '2026-08-01'
 name: Liquid Death
 nav: Providers
 network: true
-overview: 'Liquid Death publishes 1 API on the [APIs.io](https://apis.io/) network: Storefront Read-Only JSON API. Tagged areas include Company, Beverages, Consumer Packaged Goods, Direct to Consumer, and E-Commerce.
+overview: 'Liquid Death publishes 2 APIs on the [APIs.io](https://apis.io/) network: Catalog API and Discovery API. Tagged areas include Company, Beverages, Consumer Packaged Goods, Direct to Consumer, and E-Commerce.
 
 
-  Liquid Death''s developer surface includes documentation, getting-started guide, authentication, FAQ, support, engineering blog, and 27 more developer resources.'
+  Liquid Death''s developer surface includes documentation, getting-started guide, authentication, FAQ, support, engineering blog, and 28 more developer resources.'
 random_paper: 14
 scopes:
 - name: Liquid Death Scopes
@@ -205,18 +212,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.4
-  delta: 0.0
+  composite: 41.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
-    contract_governance: 16.7
-    contract_quality: 52.9
+    contract_governance: 4.5
+    contract_quality: 53.4
     developer_ergonomics: 42.3
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 44.4
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -227,8 +239,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquid-death/refs/heads/main/screenshots/liquid-death-2026-08-07T171733.png
 security:

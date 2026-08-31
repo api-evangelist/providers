@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 37
   slug: lightroom-agentic-access
   summary_line: 37 operations · 17 acting · 1 human-in-the-loop
-api_count: 12
+api_count: 5
 apis:
 - description: Manage assets within albums
   name: Adobe Lightroom Album Assets API
@@ -173,6 +173,10 @@ collections:
   name: Adobe Lightroom Lightroom Albums Album Assets XMP API
   slug: open-lightroom-xmp-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lightroom-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -654,7 +658,7 @@ overview: 'Adobe Lightroom publishes 12 APIs on the [APIs.io](https://apis.io/) 
   The Adobe Lightroom catalog on APIs.io includes 6 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Adobe Lightroom''s developer surface includes authentication, documentation, developer console, signup flow, engineering blog, changelog, and 12 more developer resources.'
+  Adobe Lightroom''s developer surface includes authentication, documentation, developer console, signup flow, engineering blog, changelog, and 13 more developer resources.'
 plans:
 - name: Lightroom Plans Pricing
   plan_count: 3
@@ -694,17 +698,22 @@ scopes:
 score:
   band: developing
   composite: 50.9
-  delta: 2.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 64.0
+    contract_quality: 64.2
     developer_ergonomics: 54.8
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 44.7
-  previous_composite: 48.5
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     contracts:
@@ -712,8 +721,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/screenshots/lightroom-2026-06-20T184522.png
 security:

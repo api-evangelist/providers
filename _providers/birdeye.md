@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.0
-  scored_at: '2026-08-26'
+  score: 58.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 162
   slug: birdeye-agentic-access
   summary_line: 162 operations · 127 acting
-api_count: 27
+api_count: 2
 apis:
 - description: Access your public data from 150+ review sites.
   name: Birdeye Aggregation API
@@ -214,6 +214,10 @@ collections:
   name: Birdeye Aggregation Webhook API
   slug: open-birdeye-webhook-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/birdeye-capability-edges.yml
 - group: docs
   title: ''
   type: OpenAPI
@@ -938,7 +942,7 @@ overview: 'Birdeye publishes 27 APIs on the [APIs.io](https://apis.io/) network,
   The Birdeye catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Birdeye''s developer surface includes changelog, API reference, getting-started guide, support, authentication, documentation, engineering blog, and 34 more developer resources.'
+  Birdeye''s developer surface includes changelog, API reference, getting-started guide, support, authentication, documentation, engineering blog, and 35 more developer resources.'
 plans:
 - name: Birdeye Plans Pricing
   plan_count: 4
@@ -966,18 +970,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 74.6
-  delta: 1.8
+  composite: 70.9
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 35.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
-    contract_governance: 55.3
-    contract_quality: 70.5
+    contract_governance: 43.2
+    contract_quality: 68.0
     developer_ergonomics: 64.3
-    discoverability: 92.6
-    governance: 55.3
+    discoverability: 75.9
+    governance: 43.2
     operational_transparency: 73.7
-  previous_composite: 72.8
+  previous_composite: 71.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -988,8 +997,8 @@ score:
       total: 27
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/birdeye/refs/heads/main/screenshots/birdeye-2026-06-20T173257.png
 security:

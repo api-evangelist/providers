@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: AI-powered Google Ads management platform providing automated campaign analysis, optimization recommendations, and direct implementation via 50+ specialized AI agents. Supports agencies managing multi
@@ -205,7 +205,12 @@ rules:
 score:
   band: emerging
   composite: 19.8
-  delta: 1.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 53.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
@@ -215,9 +220,9 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 2.6
-  previous_composite: 18.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 19.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

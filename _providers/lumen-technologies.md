@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: lumen-technologies-agentic-access
   summary_line: 4 operations · 2 acting
-api_count: 3
+api_count: 1
 apis:
 - description: The Lumen Network API provides programmatic access to Lumen's network and data services. The Developer Center enables access to simple, global, secure, and reliable network APIs that allow customers t
   name: Lumen Network API
@@ -68,6 +68,10 @@ collections:
   name: Lumen Internet On-Demand Bandwidth Connections API
   slug: open-lumen-technologies-connections-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lumen-technologies-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -135,7 +139,7 @@ network: true
 overview: 'Lumen Technologies publishes 2 APIs on the [APIs.io](https://apis.io/) network: Bandwidth API and Connections API. Tagged areas include Bandwidth, Edge Cloud, Fiber, Infrastructure, and Internet.
 
 
-  Lumen Technologies'' developer surface includes authentication, developer portal, documentation, FAQ, support, and 8 more developer resources.'
+  Lumen Technologies'' developer surface includes authentication, developer portal, documentation, FAQ, support, and 9 more developer resources.'
 plans:
 - name: Lumen Technologies Plans Pricing
   plan_count: 2
@@ -152,18 +156,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 35.1
-  delta: 0.0
+  composite: 35.3
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 57.1
     developer_ergonomics: 26.2
-    discoverability: 74.1
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 35.1
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +186,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 45.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lumen-technologies/refs/heads/main/screenshots/lumen-technologies-2026-06-20T184754.png
 security:

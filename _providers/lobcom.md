@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 105
   slug: lobcom-agentic-access
   summary_line: 105 operations · 61 acting
-api_count: 32
+api_count: 1
 apis:
 - description: The Accounts API from Lob.com — 1 operation(s) for accounts.
   name: Lob.com Accounts API
@@ -247,6 +247,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/lobcom-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/lobcom-openapi-overlay.yaml
 - group: start
@@ -431,7 +435,7 @@ overview: 'Lob.com publishes 32 APIs on the [APIs.io](https://apis.io/) network,
   The Lob.com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lob.com''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
+  Lob.com''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
 plans:
 - name: Lobcom Plans Pricing
   plan_count: 4
@@ -442,19 +446,24 @@ rate_limits:
   name: Lobcom Rate Limits
   slug: lobcom-rate-limits
 score:
-  band: exemplar
-  composite: 67.5
-  delta: 0.0
+  band: strong
+  composite: 63.8
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.2
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 65.8
-    developer_ergonomics: 78.0
-    discoverability: 57.4
-    governance: 16.7
-    operational_transparency: 81.6
-  previous_composite: 67.5
+    developer_ergonomics: 72.0
+    discoverability: 51.9
+    governance: 4.5
+    operational_transparency: 77.6
+  previous_composite: 66.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -465,8 +474,8 @@ score:
       total: 32
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lobcom/refs/heads/main/screenshots/lobcom-2026-07-25T225441.png
 security:

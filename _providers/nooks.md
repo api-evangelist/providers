@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -43,20 +43,66 @@ agentic_access:
   operation_count: 37
   slug: nooks-agentic-access
   summary_line: 37 operations · 13 acting
-api_count: 2
+api_count: 1
 apis:
-- description: The Nooks Sequencing API (also published as the "Nooks External API") provides programmatic access to sequences, sequence steps, sequence states (enrollments), prospects, accounts, notes, tasks, calls
-  name: Nooks Sequencing API
-  slug: nooks-sequencing-api
 - description: Nooks operates a hosted, remote Model Context Protocol server at https://mcp.nooks.in/. It is OAuth-protected — an anonymous `tools/list` returns HTTP 401 `invalid_token` — and publishes RFC 9728 prot
   name: Nooks MCP Server
   slug: nooks-mcp-server
-artifact_total: 12
+- description: Access account (company) records
+  name: Nooks Accounts API
+  slug: nooks-accounts-api
+- description: Access call disposition definitions
+  name: Nooks Call Dispositions API
+  slug: nooks-calldispositions-api
+- description: Access call records
+  name: Nooks Calls API
+  slug: nooks-calls-api
+- description: Access email records
+  name: Nooks Emails API
+  slug: nooks-emails-api
+- description: Access email template content
+  name: Nooks Email Templates API
+  slug: nooks-emailtemplates-api
+- description: Inspect the authenticated principal
+  name: Nooks Introspection API
+  slug: nooks-introspection-api
+- description: Manage mailboxes (email aliases)
+  name: Nooks Mailboxes API
+  slug: nooks-mailboxes-api
+- description: The Nooks Sequencing API API from Nooks — 0 operation(s) for nooks sequencing api.
+  name: Nooks Nooks Sequencing API
+  slug: nooks-nooks-sequencing-api-api
+- description: Create CRM notes on prospects and accounts
+  name: Nooks Notes API
+  slug: nooks-notes-api
+- description: Manage prospects
+  name: Nooks Prospects API
+  slug: nooks-prospects-api
+- description: Manage sales sequences
+  name: Nooks Sequences API
+  slug: nooks-sequences-api
+- description: Track prospect enrollments in sequences
+  name: Nooks Sequence States API
+  slug: nooks-sequencestates-api
+- description: Access sequence step definitions
+  name: Nooks Sequence Steps API
+  slug: nooks-sequencesteps-api
+- description: Manage tasks (one-off calls and email activities)
+  name: Nooks Tasks API
+  slug: nooks-tasks-api
+- description: Manage workspace users
+  name: Nooks Users API
+  slug: nooks-users-api
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Nooks Webhooks
   slug: nooks-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nooks-sequencing-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -166,13 +212,13 @@ modified: '2026-08-14'
 name: Nooks
 nav: Providers
 network: true
-overview: 'Nooks publishes 1 API on the [APIs.io](https://apis.io/) network: Sequencing API. Tagged areas include Company, Artificial Intelligence, Sales Engagement, Sales Dialer, and AI SDR.
+overview: 'Nooks publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Call Dispositions API, Calls API, and 12 more. Tagged areas include Company, Artificial Intelligence, Sales Engagement, Sales Dialer, and AI SDR.
 
 
   The Nooks catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Nooks'' developer surface includes documentation, API reference, support, pricing, engineering blog, and 19 more developer resources.'
+  Nooks'' developer surface includes documentation, API reference, support, pricing, engineering blog, and 20 more developer resources.'
 plans:
 - name: Nooks Plans Pricing
   plan_count: 0
@@ -189,18 +235,23 @@ scopes:
   summary_line: 24 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.3
-  delta: 3.4
+  composite: 54.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
-    contract_quality: 74.0
+    contract_governance: 4.5
+    contract_quality: 69.7
     developer_ergonomics: 47.0
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 54.9
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,8 +262,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nooks/refs/heads/main/screenshots/nooks-2026-08-07T185457.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 11
   slug: federal-emergency-management-agency-agentic-access
   summary_line: 11 operations
-api_count: 4
+api_count: 1
 apis:
 - description: Public, individual, and hazard mitigation assistance
   name: Federal Emergency Management Agency Assistance API
@@ -76,6 +76,10 @@ collections:
   name: OpenFEMA API
   slug: open-openfema
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/federal-emergency-management-agency-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -122,7 +126,7 @@ overview: 'Federal Emergency Management Agency publishes 4 APIs on the [APIs.io]
   The Federal Emergency Management Agency catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Federal Emergency Management Agency''s developer surface includes documentation and 5 more developer resources.'
+  Federal Emergency Management Agency''s developer surface includes documentation and 6 more developer resources.'
 plans:
 - name: Federal Emergency Management Agency Plans Pricing
   plan_count: 3
@@ -145,15 +149,20 @@ rules:
   slug: openfema-rules
 score:
   band: emerging
-  composite: 21.2
-  delta: 0.0
+  composite: 20.6
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 60.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 48.3
     developer_ergonomics: 9.5
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 21.2
@@ -170,8 +179,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

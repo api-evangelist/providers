@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: 'Azure API Management developer portal operated by Vanderbilt IT (VUIT) where authorized users can discover APIs, learn how to use them, try them interactively, and sign up to acquire keys. The portal '
@@ -88,10 +88,6 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/vanderbilt-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: '2026-06-03'
 description: 'Vanderbilt University is a private research university in Nashville, Tennessee, ranked #248 in the QS World University Rankings 2025. Its public developer/API footprint is limited and largely gated: Vanderbilt IT (VUIT) offers API integration and management services to faculty and staff, fronted by an Azure API Management developer portal that does not resolve for the general public (internal/network-gated). The Jean and Alexander Heard Libraries maintain an open GitHub presence (linked data, semantic web, institutional repository tooling) and run an Ex Libris Alma/Primo library platform that supports standard OAI-PMH and discovery APIs. No official, publicly documented, self-service Vanderbilt API was confirmed during review.'
 finops:
@@ -115,7 +111,7 @@ overview: 'Vanderbilt University publishes 2 APIs on the [APIs.io](https://apis.
   The Vanderbilt University catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Vanderbilt University''s developer surface includes GitHub presence, engineering blog, and 10 more developer resources.'
+  Vanderbilt University''s developer surface includes GitHub presence and 10 more developer resources.'
 plans:
 - name: Vanderbilt Plans Pricing
   plan_count: 2
@@ -127,26 +123,31 @@ rate_limits:
   slug: vanderbilt-rate-limits
 score:
   band: emerging
-  composite: 19.1
-  delta: 1.0
+  composite: 18.6
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 10.7
-    developer_ergonomics: 11.9
+    developer_ergonomics: 9.5
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 18.1
+  previous_composite: 19.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vanderbilt/refs/heads/main/screenshots/vanderbilt-2026-06-20T200807.png
 security:

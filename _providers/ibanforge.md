@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-26'
-api_count: 8
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: API key management — generate free keys and check usage
   name: IBANforge API Keys API
@@ -92,6 +92,10 @@ collections:
   name: Ibanforge Swiss Clearing API
   slug: open-ibanforge-swiss-clearing-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ibanforge-capability-edges.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -171,19 +175,24 @@ network: true
 overview: 'IBANforge publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, BIC API, Compliance API, and 5 more. Tagged areas include Finance, Banking, Compliance, and MCP.
 
 
-  IBANforge''s developer surface includes documentation, pricing, engineering blog, and 13 more developer resources.'
+  IBANforge''s developer surface includes documentation, pricing, engineering blog, and 14 more developer resources.'
 random_paper: 17
 score:
   band: thin
-  composite: 33.0
-  delta: 0.0
+  composite: 32.4
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 56.1
     developer_ergonomics: 11.9
-    discoverability: 90.7
+    discoverability: 85.2
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 33.0
@@ -200,8 +209,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibanforge/refs/heads/main/screenshots/ibanforge-2026-06-20T183111.png
 security:

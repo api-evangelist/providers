@@ -20,7 +20,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
@@ -31,29 +31,38 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.1
-  scored_at: '2026-08-26'
-api_count: 6
+  score: 34.0
+  scored_at: '2026-08-30'
+api_count: 12
 apis:
-- description: Asynchronous customer profile API — create, update and delete single users, batch up to 1,000 users per call, look a user up by id or by email plus business unit, and poll a tracking id for terminal s
-  name: CrossEngage User Management API v2
-  slug: user-management-v2
-- description: 'Synchronous predecessor to v2, still fully documented and still monitored as its own status-page component. Broader in surface than v2: user attribute definitions (create/list/fetch/delete), lead capt'
-  name: CrossEngage User Management API v1
-  slug: user-management-v1
-- description: Real-time product catalogue API backing message personalization — page through products, fetch, upsert and delete by SKU. The only CrossEngage API published as a native Swagger 2.0 document rather tha
+- description: The Event management API from CrossEngage — 1 operation(s) for event management.
+  name: CrossEngage Event management API
+  slug: crossenagage-event-management-api
+- description: The File Attachment API API from CrossEngage — 1 operation(s) for file attachment api.
+  name: CrossEngage File Attachment API
+  slug: crossenagage-file-attachment-api-api
+- description: The Lead management API from CrossEngage — 1 operation(s) for lead management.
+  name: CrossEngage Lead management API
+  slug: crossenagage-lead-management-api
+- description: The Opt-out management API from CrossEngage — 3 operation(s) for opt-out management.
+  name: CrossEngage Opt-out management API
+  slug: crossenagage-opt-out-management-api
+- description: The product-feed API from CrossEngage — 2 operation(s) for product-feed.
   name: CrossEngage Product Feed API
-  slug: product-feed
-- description: Asynchronous bulk data-out API for user and event data. List and inspect the (S)FTP export destinations and CALLBACK webhook destinations configured on the account, list event classes, request an expo
+  slug: crossenagage-product-feed-api
+- description: The Raw Export API API from CrossEngage — 5 operation(s) for raw export api.
   name: CrossEngage Raw Export API
-  slug: raw-export
-- description: Synchronous reporting API for story, campaign and message performance. Discover the KPI catalogue configured on the account, then request detailed per-entity or overall roll-up statistics for up to 30
+  slug: crossenagage-raw-export-api-api
+- description: The Statistics API API from CrossEngage — 4 operation(s) for statistics api.
   name: CrossEngage Statistics API
-  slug: statistics
-- description: 'Single-operation API for uploading files to be attached to messages sent through stories or campaigns. A paid add-on enabled per account through a customer success representative. Published as an API '
-  name: CrossEngage File Attachments API
-  slug: file-attachments
-artifact_total: 20
+  slug: crossenagage-statistics-api-api
+- description: The User Attribute Management API from CrossEngage — 2 operation(s) for user attribute management.
+  name: CrossEngage User Attribute Management API
+  slug: crossenagage-user-attribute-management-api
+- description: The User profile management API from CrossEngage — 5 operation(s) for user profile management.
+  name: CrossEngage User profile management API
+  slug: crossenagage-user-profile-management-api
+artifact_total: 23
 asyncapis:
 - description: ''
   name: Crossenagage Webhooks
@@ -78,6 +87,30 @@ collections:
   name: User Management API v2
   slug: open-crossenagage-user-management-v2
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/crossenagage-user-management-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/crossenagage-user-management-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/crossenagage-product-feed-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/crossenagage-raw-export-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/crossenagage-statistics-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/crossenagage-file-attachments-v1-overlay.yaml
 - group: auth
   title: ''
   type: Authentication
@@ -227,13 +260,13 @@ modified: '2026-08-13'
 name: CrossEngage
 nav: Providers
 network: true
-overview: 'CrossEngage publishes 6 APIs on the [APIs.io](https://apis.io/) network, including User Management API v2, User Management API v1, Product Feed API, and 3 more. Tagged areas include Company, Customer Data Platform, Marketing, Customer Engagement, and Marketing Automation.
+overview: 'CrossEngage publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Event management API, File Attachment API, Lead management API, and 6 more. Tagged areas include Company, Customer Data Platform, Marketing, Customer Engagement, and Marketing Automation.
 
 
   The CrossEngage catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  CrossEngage''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, getting-started guide, and 27 more developer resources.'
+  CrossEngage''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, getting-started guide, and 33 more developer resources.'
 plans:
 - name: Crossenagage Plans Pricing
   plan_count: 0
@@ -245,18 +278,23 @@ rate_limits:
   slug: crossenagage-rate-limits
 score:
   band: developing
-  composite: 46.7
+  composite: 45.2
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 30.3
-    contract_quality: 20.6
+    contract_governance: 18.2
+    contract_quality: 20.7
     developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 46.7
+  previous_composite: 45.2
   provenance:
     conformance: first-party
     contracts:
@@ -266,8 +304,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/screenshots/crossenagage-2026-07-25T210755.png
 security:

@@ -14,10 +14,10 @@ agent_readiness:
   band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
+    agentic_commerce: self
+    auth_clarity: served
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -25,16 +25,16 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 40.6
-  scored_at: '2026-08-26'
+  score: 58.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 739
   human_in_the_loop: 6
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1547
   slug: shopify-agentic-access
   summary_line: 1547 operations · 739 acting · 6 human-in-the-loop
-api_count: 213
+api_count: 3
 apis:
 - description: The GraphQL Admin API lets you build apps and integrations that extend and enhance the Shopify admin. It provides access to products, customers, orders, inventory, fulfillment, and more. GraphQL is th
   name: Shopify GraphQL Admin API
@@ -750,7 +750,11 @@ arazzos:
 - description: Find a webhook subscription for a topic and update its address if it exists, otherwise create it.
   name: Shopify Upsert a Webhook by Topic
   slug: shopify-upsert-webhook-by-topic-workflow
-artifact_total: 477
+artifact_total: 482
+asyncapis:
+- description: ''
+  name: Shopify Webhooks
+  slug: shopify-webhooks
 collections:
 - collection_type: postman
   name: Shopify Admin REST API
@@ -1371,6 +1375,14 @@ collections:
   name: Shopify Admin REST About Zones API
   slug: open-shopify-zones-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shopify-capability-edges.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/shopify-vulnerability-disclosure.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1506,7 +1518,7 @@ common:
 - group: build
   title: ''
   type: SDKs
-  url: https://shopify.dev/docs/api/admin-rest/resources/sdk
+  url: https://shopify.dev/docs/api/libraries-and-templates
 - group: operate
   title: ''
   type: RateLimits
@@ -1526,7 +1538,7 @@ common:
 - group: operate
   title: ''
   type: Support
-  url: https://shopify.dev/docs/api/usage/support
+  url: https://community.shopify.dev/c/dev-platform/32
 - group: commercial
   title: ''
   type: TermsOfService
@@ -1546,6 +1558,10 @@ common:
 - group: auth
   title: ''
   type: Security
+  url: security/shopify-vulnerability-disclosure.yml
+- group: docs
+  title: ''
+  type: AuthenticationDocs
   url: https://shopify.dev/docs/apps/build/authentication-authorization
 - group: auth
   title: ''
@@ -1630,9 +1646,125 @@ common:
 - group: agent
   title: ''
   type: LlmsText
-  url: https://shopify.dev/llms.txt
+  url: llms/shopify-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/shopify-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/shopify-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/shopify-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/shopify-security.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/shopify-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/shopify-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/shopify-admin-rest-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/shopify-ajax-api-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/shopify-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/shopify-trust-center.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/shopify-trust-center.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/shopify-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/shopify-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://shopify.dev/docs/api/usage/versioning#deprecation-practices
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/shopify-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/shopify-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/shopify-conventions.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/shopify-sandbox.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/shopify-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/shopify-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/shopify-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/shopify-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/shopify-webhooks.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/shopify-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/shopify-rate-limits.yml
+- group: docs
+  title: ''
+  type: GraphQL
+  url: graphql/shopify-storefront-api.graphql
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.shopify.com/pricing
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://shopify.dev/docs/api
 created: '2024-04-14'
-description: Shopify is a complete commerce platform that lets you start, grow, and manage a business. The Shopify API lets you build apps and integrations that extend Shopify functionality for merchants.
+description: Shopify is a complete commerce platform that lets you start, grow, and manage a business, selling online, in person, on marketplaces, through social channels, and now inside AI chats. Its developer platform exposes GraphQL Admin, Storefront and Customer Account APIs, a legacy Admin REST surface, 206 webhook topics, Shopify Functions, Hydrogen and the Shopify CLI, so apps and integrations can extend Shopify for merchants and buyers alike. Shopify also runs four MCP servers bound to the Universal Commerce Protocol, letting AI agents search a cross-merchant catalog, build carts, complete checkouts and track orders.
 examples:
 - key_count: 4
   name: Shopify Create Product Example
@@ -1697,24 +1829,28 @@ jsonld:
   property_count: 29
   slug: shopify-context
 layout: provider
-modified: '2026-05-19'
+mcp_servers:
+- description: Shopify ships more MCP surface than any other commerce platform in this catalog, across four distinct servers. One is a hosted, anonymous, cross-merchant server on Shopify's own domain (Global Catalog
+  name: Shopify Global Catalog MCP (remote) + Storefront/Cart/Checkout MCP + Dev MCP (stdio)
+  slug: shopify-global-catalog-mcp-remote-storefrontcartcheckout-mcp-dev-mcp-stdio
+modified: '2026-08-27'
 name: Shopify
 nav: Providers
 network: true
 overview: 'Shopify publishes 197 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Multipass API, About API, and 194 more. Tagged areas include Commerce, E-Commerce, Payments, Retail, and Shopping Cart.
 
 
-  The Shopify catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
+  The Shopify catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Shopify''s developer surface includes authentication, documentation, CLI, developer portal, changelog, support, signup flow, and 58 more developer resources.'
+  Shopify''s developer surface includes authentication, documentation, CLI, developer portal, changelog, support, signup flow, and 90 more developer resources.'
 plans:
 - name: Shopify Plans Pricing
   plan_count: 4
   slug: shopify-plans-pricing
 random_paper: 14
 rate_limits:
-- limit_count: 5
+- limit_count: 7
   name: Shopify Rate Limits
   slug: shopify-rate-limits
 rules:
@@ -1750,20 +1886,30 @@ rules:
     info: 0
     warn: 9
   slug: shopify-spectral-rules
+scopes:
+- name: Shopify Scopes
+  scope_count: 0
+  slug: shopify-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 64.3
-  delta: 3.9
+  band: exemplar
+  composite: 84.0
+  coverage:
+    artifact_dirs: 39
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
-    contract_governance: 28.8
-    contract_quality: 77.9
-    developer_ergonomics: 85.7
-    discoverability: 50.0
-    governance: 28.8
-    operational_transparency: 63.2
-  previous_composite: 60.4
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 47.0
+    contract_quality: 85.3
+    developer_ergonomics: 100.0
+    discoverability: 66.7
+    governance: 47.0
+    operational_transparency: 71.1
+  previous_composite: 84.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1776,20 +1922,28 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 71.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/screenshots/shopify-2026-06-20T165931.png
 security:
 - kind: authentication
   name: Shopify Authentication
   slug: shopify-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2/openIdConnect · 5 schemes
 - kind: domain-security
   name: Shopify Domain Security
   slug: shopify-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Shopify Vulnerability Disclosure
+  slug: shopify-vulnerability-disclosure
+  summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Shopify Trust Center
+  slug: shopify-trust-center
+  summary_line: PCI DSS, SOC 2 Type II, SOC 3
 slug: shopify
 tags:
 - Commerce

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 12
   slug: rhino-agentic-access
   summary_line: 12 operations · 8 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The Authentication API from Rhino — 1 operation(s) for authentication.
   name: Rhino Authentication API
@@ -76,6 +76,10 @@ collections:
   name: SayRhino Partner Webhooks API
   slug: open-rhino-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/rhino-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -218,22 +222,27 @@ overview: 'Rhino publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
   The Rhino catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Rhino''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, code examples, and 24 more developer resources.'
+  Rhino''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, code examples, and 25 more developer resources.'
 random_paper: 19
 score:
   band: developing
-  composite: 45.9
-  delta: 1.3
+  composite: 44.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 60.1
     developer_ergonomics: 44.6
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 44.6
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,8 +259,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 47.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rhino/refs/heads/main/screenshots/rhino-2026-08-17T081558.png
 security:

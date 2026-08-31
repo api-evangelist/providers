@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 26
   slug: orderdesk-agentic-access
   summary_line: 26 operations · 16 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Maintain the store's inventory catalog.
   name: Order Desk Inventory Items API
@@ -83,6 +83,10 @@ collections:
   name: Order Desk API
   slug: open-orderdesk
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/orderdesk-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -134,7 +138,7 @@ network: true
 overview: 'Order Desk publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Inventory Items API, Order Items API, Orders API, and 2 more. Tagged areas include E-Commerce, Order Management, Fulfillment, Dropshipping, and Inventory.
 
 
-  Order Desk''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  Order Desk''s developer surface includes authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Orderdesk Plans Pricing
   plan_count: 4
@@ -146,18 +150,23 @@ rate_limits:
   slug: orderdesk-rate-limits
 score:
   band: developing
-  composite: 41.0
-  delta: 2.4
+  composite: 40.4
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 59.6
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 38.6
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -165,8 +174,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orderdesk/refs/heads/main/screenshots/orderdesk-2026-08-07T190910.png
 security:

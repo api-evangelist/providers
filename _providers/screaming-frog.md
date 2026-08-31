@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: The Screaming Frog SEO Spider is a desktop website crawler for Windows, macOS, and Ubuntu that performs comprehensive technical SEO audits. It crawls websites to find broken links, analyze page titles
@@ -154,7 +154,7 @@ modified: '2026-08-13'
 name: Screaming Frog
 nav: Providers
 network: true
-overview: 'Screaming Frog publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include SEO, Website Crawler, Technical Audit, Marketing, and Analytics.
+overview: 'Screaming Frog publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include SEO, Search Engine Optimization, Website Crawler, Technical Audit, and Marketing.
 
 
   The Screaming Frog catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -184,7 +184,12 @@ rules:
 score:
   band: developing
   composite: 42.1
-  delta: 11.0
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 45.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
@@ -194,13 +199,13 @@ score:
     discoverability: 59.3
     governance: 25.0
     operational_transparency: 18.4
-  previous_composite: 31.1
+  previous_composite: 42.1
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/screaming-frog/refs/heads/main/screenshots/screaming-frog-2026-06-20T193601.png
 security:
 - kind: domain-security
@@ -210,6 +215,7 @@ security:
 slug: screaming-frog
 tags:
 - SEO
+- Search Engine Optimization
 - Website Crawler
 - Technical Audit
 - Marketing

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,7 +68,7 @@ modified: '2026-07-20'
 name: MasterClass
 nav: Providers
 network: true
-overview: 'MasterClass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Education, Online Learning, and Streaming.
+overview: 'MasterClass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, Online Learning, and Streaming.
 
 
   MasterClass'' developer surface includes support, pricing, engineering blog, and 3 more developer resources.'
@@ -76,6 +76,11 @@ random_paper: 10
 score:
   band: minimal
   composite: 6.8
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
@@ -93,8 +98,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/masterclass/refs/heads/main/screenshots/masterclass-2026-07-25T230343.png
 security:
@@ -105,7 +110,7 @@ security:
 slug: masterclass
 tags:
 - Company
-- EdTech
+- Edtech
 - Education
 - Online Learning
 - Streaming

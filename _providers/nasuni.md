@@ -23,31 +23,100 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-26'
-api_count: 7
+  scored_at: '2026-08-30'
+api_count: 14
 apis:
-- description: REST API to monitor and configure the Nasuni resources managed by a Nasuni Management Console, emulating the NMC web interface. Covers account, authentication, Edge Appliance (filer) inventory and con
-  name: Nasuni Management Console (NMC) API
-  slug: nasuni-management-console-nmc-api
-- description: 'Multi-region REST API for the Nasuni Portal control plane — account management, IAM, roles and permissions, serials and software, Edge and File IQ appliance inventory, volumes and volume connections, '
-  name: Nasuni Portal API
-  slug: nasuni-portal-api
-- description: Telemetry API that returns Global File Acceleration performance metrics from the Nasuni NOC service, for use in dashboards and time-series monitoring of accelerated file movement across a Nasuni estat
-  name: Global File Acceleration (GFA) Telemetry API
-  slug: global-file-acceleration-gfa-telemetry-api
-- description: Azure Blob Storage-compatible endpoint that exposes data stored in a Nasuni volume to Azure-native tooling and analytics/AI services without copying the data. Supports container and blob listing, blob
-  name: Nasuni Data Service (NDS) for Azure API
-  slug: nasuni-data-service-nds-for-azure-api
-- description: S3-compatible, read-only endpoints exposed through AWS S3 Object Lambda for accessing data stored in a Nasuni volume from AWS-native analytics and AI services. Supports ListObjectsV2, GetObject and He
-  name: Nasuni Data Service (NDS) for AWS API
-  slug: nasuni-data-service-nds-for-aws-api
 - description: HTTP API providing programmatic access to the filesystem of a Nasuni Edge Appliance — create, read, update and delete files and folders, list shares, and read previous versions. Requires Mobile Access
   name: Nasuni Data API
   slug: nasuni-data-api
 - description: Hosted, OAuth 2.0-authenticated Model Context Protocol server that exposes the Nasuni Portal to AI clients (Claude, ChatGPT, Microsoft Copilot Studio) as roughly 40 tools spanning appliance and volume
   name: Nasuni Portal MCP Server
   slug: nasuni-portal-mcp-server
-artifact_total: 17
+- description: The Account API from Nasuni — 4 operation(s) for account.
+  name: Nasuni Account API
+  slug: nasuni-account-api
+- description: The Account Management API from Nasuni — 3 operation(s) for account management.
+  name: Nasuni Account Management API
+  slug: nasuni-account-management-api
+- description: The Activity Logs API from Nasuni — 2 operation(s) for activity logs.
+  name: Nasuni Activity Logs API
+  slug: nasuni-activity-logs-api
+- description: The AI Activate API from Nasuni — 5 operation(s) for ai activate.
+  name: Nasuni AI Activate API
+  slug: nasuni-ai-activate-api
+- description: The Auth API from Nasuni — 5 operation(s) for auth.
+  name: Nasuni Auth API
+  slug: nasuni-auth-api
+- description: The Cloud Credentials API from Nasuni — 5 operation(s) for cloud credentials.
+  name: Nasuni Cloud Credentials API
+  slug: nasuni-cloud-credentials-api
+- description: The Configuration API from Nasuni — 5 operation(s) for configuration.
+  name: Nasuni Configuration API
+  slug: nasuni-configuration-api
+- description: The Data API from Nasuni — 1 operation(s) for data.
+  name: Nasuni Data API
+  slug: nasuni-data-api
+- description: The Edge Appliances (Edge) API from Nasuni — 4 operation(s) for edge appliances (edge).
+  name: Nasuni Edge Appliances (Edge) API
+  slug: nasuni-edge-appliances-edge-api
+- description: The File IQ Appliances (File IQ) API from Nasuni — 2 operation(s) for file iq appliances (file iq).
+  name: Nasuni File IQ Appliances (File IQ) API
+  slug: nasuni-file-iq-appliances-file-iq-api
+- description: The Filers API from Nasuni — 30 operation(s) for filers.
+  name: Nasuni Filers API
+  slug: nasuni-filers-api
+- description: The Global File Accelerator (GFA) API from Nasuni — 2 operation(s) for global file accelerator (gfa).
+  name: Nasuni Global File Accelerator (GFA) API
+  slug: nasuni-global-file-accelerator-gfa-api
+- description: The Health API from Nasuni — 1 operation(s) for health.
+  name: Nasuni Health API
+  slug: nasuni-health-api
+- description: The IAM API from Nasuni — 13 operation(s) for iam.
+  name: Nasuni IAM API
+  slug: nasuni-iam-api
+- description: The Index API from Nasuni — 1 operation(s) for index.
+  name: Nasuni Index API
+  slug: nasuni-index-api
+- description: The Jobs API from Nasuni — 3 operation(s) for jobs.
+  name: Nasuni Jobs API
+  slug: nasuni-jobs-api
+- description: The ?list Type=2 API from Nasuni — 1 operation(s) for ?list type=2.
+  name: Nasuni ?list Type=2 API
+  slug: nasuni-list-type-2-api
+- description: The Messages API from Nasuni — 2 operation(s) for messages.
+  name: Nasuni Messages API
+  slug: nasuni-messages-api
+- description: The Nasuni Data Service (NDS) API API from Nasuni — 3 operation(s) for nasuni data service (nds) api.
+  name: Nasuni Nasuni Data Service (NDS) API
+  slug: nasuni-nasuni-data-service-nds-api-api
+- description: The Nasuni Data Service (NDS) AWS API API from Nasuni — 2 operation(s) for nasuni data service (nds) aws api.
+  name: Nasuni Nasuni Data Service (NDS) AWS API
+  slug: nasuni-nasuni-data-service-nds-aws-api-api
+- description: The Notifications API from Nasuni — 3 operation(s) for notifications.
+  name: Nasuni Notifications API
+  slug: nasuni-notifications-api
+- description: '**Requires Premium Ops IQ license** (`ops-iq-premium`). The Ops IQ Telemetry API is available only to accounts with the Premium Ops IQ license bit enabled. Reach out to your Nasuni account team or Sup'
+  name: Nasuni Ops IQ API
+  slug: nasuni-ops-iq-api
+- description: The Portal API API from Nasuni — 1 operation(s) for portal api.
+  name: Nasuni Portal API
+  slug: nasuni-portal-api-api
+- description: The Serials API from Nasuni — 3 operation(s) for serials.
+  name: Nasuni Serials API
+  slug: nasuni-serials-api
+- description: The Software API from Nasuni — 2 operation(s) for software.
+  name: Nasuni Software API
+  slug: nasuni-software-api
+- description: The UniFS As A Service (UaaS) API from Nasuni — 10 operation(s) for unifs as a service (uaas).
+  name: Nasuni UniFS As A Service (UaaS) API
+  slug: nasuni-unifs-as-a-service-uaas-api
+- description: The Volume Connections API from Nasuni — 1 operation(s) for volume connections.
+  name: Nasuni Volume Connections API
+  slug: nasuni-volume-connections-api
+- description: The Volumes API from Nasuni — 52 operation(s) for volumes.
+  name: Nasuni Volumes API
+  slug: nasuni-volumes-api
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Nasuni File Iq Alerts Webhooks
@@ -214,7 +283,7 @@ modified: '2026-08-26'
 name: Nasuni
 nav: Providers
 network: true
-overview: 'Nasuni publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Management Console (NMC) API, Portal API, Global File Acceleration (GFA) Telemetry API, and 2 more. Tagged areas include Company, File Storage, Hybrid Cloud, Object Storage, and Enterprise Storage.
+overview: 'Nasuni publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Data API, Account API, Account Management API, and 26 more. Tagged areas include company, file-storage, hybrid-cloud, object-storage, and enterprise-storage.
 
 
   The Nasuni catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -237,16 +306,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 63.3
+  composite: 60.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.8
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 30.3
-    contract_quality: 59.6
+    contract_governance: 18.2
+    contract_quality: 58.4
     developer_ergonomics: 66.1
-    discoverability: 72.2
-    governance: 30.3
+    discoverability: 63.0
+    governance: 18.2
     operational_transparency: 57.9
+  previous_composite: 62.5
   provenance:
     conformance: first-party
     contracts:
@@ -256,8 +332,9 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Nasuni Authentication
@@ -277,16 +354,16 @@ security:
   summary_line: SOC 2 Type II, SOC 2 Type I, ISO 27001, HIPAA, CSA STAR
 slug: nasuni
 tags:
-- Company
-- File Storage
-- Hybrid Cloud
-- Object Storage
-- Enterprise Storage
-- Data Management
-- Backup and Recovery
-- Ransomware Protection
+- company
+- file-storage
+- hybrid-cloud
+- object-storage
+- enterprise-storage
+- data-management
+- backup-and-recovery
+- ransomware-protection
 - Infrastructure
-- Observability
+- observability
 - MCP
 - agent-native
 website: https://www.nasuni.com/

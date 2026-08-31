@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -46,25 +46,61 @@ agentic_access:
   summary_line: 59 operations · 18 acting
 api_count: 6
 apis:
-- description: 'Hometrack''s own catalogue description is "This API provides access to the Broker AVM service." Twelve operations across two revisions (v1 and v2 paths served side by side): POST /broker/order creates '
-  name: Hometrack Broker AVM API
-  slug: hometrack-broker-avm-api
-- description: A GraphQL API registered in Hometrack's API Management catalogue with type "graphql" and path /climate/graphql, fronting the same climate data backend (web-uks-prod-data-api.azurewebsites.net/graphql)
-  name: Hometrack Climate GraphQL API
-  slug: hometrack-climate-graphql-api
-- description: Hometrack API Public from Hometrack — 19 path(s) described in OpenAPI.
-  name: Hometrack API Public
-  slug: hometrack-api-public-openapi
-- description: Hometrack Climate API (v2) from Hometrack — 5 path(s) described in OpenAPI.
-  name: Hometrack Climate API (v2)
-  slug: hometrack-climate-api-v2-openapi
-- description: Hometrack (PRH) - Core External Client API v2.0 from Hometrack — 16 path(s) described in OpenAPI.
-  name: Hometrack (PRH) - Core External Client API v2.0
-  slug: hometrack-prh-core-external-client-api-v2-openapi
-- description: Hometrack Valuation API from Hometrack — 3 path(s) described in OpenAPI.
+- description: The Authentication API from Hometrack — 2 operation(s) for authentication.
+  name: Hometrack Authentication API
+  slug: hometrack-authentication-api
+- description: The Brands API from Hometrack — 1 operation(s) for brands.
+  name: Hometrack Brands API
+  slug: hometrack-brands-api
+- description: The Broker API from Hometrack — 10 operation(s) for broker.
+  name: Hometrack Broker API
+  slug: hometrack-broker-api
+- description: The Epc Hometrack API from Hometrack — 1 operation(s) for epc hometrack.
+  name: Hometrack Epc Hometrack API
+  slug: hometrack-epc-hometrack-api
+- description: The Flood Twinn API from Hometrack — 1 operation(s) for flood twinn.
+  name: Hometrack Flood Twinn API
+  slug: hometrack-flood-twinn-api
+- description: The Ground Coastalerosion Twinn API from Hometrack — 1 operation(s) for ground coastalerosion twinn.
+  name: Hometrack Ground Coastalerosion Twinn API
+  slug: hometrack-ground-coastalerosion-twinn-api
+- description: The Ground Subsidence Twinn API from Hometrack — 1 operation(s) for ground subsidence twinn.
+  name: Hometrack Ground Subsidence Twinn API
+  slug: hometrack-ground-subsidence-twinn-api
+- description: The Ground Terrafirma API from Hometrack — 1 operation(s) for ground terrafirma.
+  name: Hometrack Ground Terrafirma API
+  slug: hometrack-ground-terrafirma-api
+- description: The Internal API from Hometrack — 2 operation(s) for internal.
+  name: Hometrack Internal API
+  slug: hometrack-internal-api
+- description: The Licences API from Hometrack — 1 operation(s) for licences.
+  name: Hometrack Licences API
+  slug: hometrack-licences-api
+- description: The Organisation API from Hometrack — 16 operation(s) for organisation.
+  name: Hometrack Organisation API
+  slug: hometrack-organisation-api
+- description: The Partners API from Hometrack — 2 operation(s) for partners.
+  name: Hometrack Partners API
+  slug: hometrack-partners-api
+- description: The Pvrplugin API from Hometrack — 4 operation(s) for pvrplugin.
+  name: Hometrack Pvrplugin API
+  slug: hometrack-pvrplugin-api
+- description: The Reporting API from Hometrack — 7 operation(s) for reporting.
+  name: Hometrack Reporting API
+  slug: hometrack-reporting-api
+- description: The Status API from Hometrack — 1 operation(s) for status.
+  name: Hometrack Status API
+  slug: hometrack-status-api
+- description: The Trial API from Hometrack — 2 operation(s) for trial.
+  name: Hometrack Trial API
+  slug: hometrack-trial-api
+- description: The Valuation API from Hometrack — 1 operation(s) for valuation.
   name: Hometrack Valuation API
-  slug: hometrack-valuation-api-v1-openapi
-artifact_total: 17
+  slug: hometrack-valuation-api
+- description: The Zoopla API from Hometrack — 1 operation(s) for zoopla.
+  name: Hometrack Zoopla API
+  slug: hometrack-zoopla-api
+artifact_total: 29
 collections:
 - collection_type: open
   name: Hometrack API Public
@@ -85,6 +121,18 @@ collections:
   name: Valuation API
   slug: open-hometrack-valuation-api-v1
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hometrack-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hometrack-broker-avm-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hometrack-climate-graphql-api-overlay.yaml
 - group: docs
   title: ''
   type: APIReference
@@ -258,10 +306,10 @@ modified: '2026-07-26'
 name: Hometrack
 nav: Providers
 network: true
-overview: 'Hometrack publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Broker AVM API, Climate GraphQL API, API Public, and 3 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Valuation, and AVM.
+overview: 'Hometrack publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Brands API, Broker API, and 15 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Valuation, and AVM.
 
 
-  Hometrack''s developer surface includes API reference, changelog, developer console, sandbox, authentication, documentation, signup flow, and 33 more developer resources.'
+  Hometrack''s developer surface includes API reference, changelog, developer console, sandbox, authentication, documentation, signup flow, and 36 more developer resources.'
 random_paper: 13
 scopes:
 - name: Hometrack Scopes
@@ -270,18 +318,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 45.6
-  delta: -0.4
+  composite: 44.5
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
-    contract_quality: 48.5
+    contract_governance: 18.2
+    contract_quality: 54.1
     developer_ergonomics: 49.4
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 70.4
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 46.0
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -292,8 +345,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/screenshots/hometrack-2026-08-07T170250.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -31,17 +31,17 @@ agentic_access:
   operation_count: 7
   slug: demio-agentic-access
   summary_line: 7 operations · 1 acting
-api_count: 3
+api_count: 1
 apis:
-- description: Events, Event Sessions (Dates) and attendee registration. List and read Events, read a specific Session, and register a person for an Event to receive their unique join link.
+- description: Events, Event Sessions (Dates) and registration.
   name: Demio Events API
   slug: demio-events-api
-- description: Per-Session participation and attendance reporting — the participant list for an Event Session with attendance status and registration custom-field values.
-  name: Demio Reports API
-  slug: demio-reports-api
-- description: Authorization verification. Confirms an account API key/secret pair is valid and reports whether it is a sandbox credential.
+- description: Authorization checks.
   name: Demio Intro API
   slug: demio-intro-api
+- description: Participation and attendance reporting.
+  name: Demio Reports API
+  slug: demio-reports-api
 artifact_total: 10
 asyncapis:
 - description: ''
@@ -209,7 +209,7 @@ modified: '2026-08-12'
 name: Demio
 nav: Providers
 network: true
-overview: 'Demio publishes 3 APIs on the [APIs.io](https://apis.io/) network: Events API, Reports API, and Intro API. Tagged areas include Company, Webinars, Virtual Events, Event Management, and Marketing.
+overview: 'Demio publishes 3 APIs on the [APIs.io](https://apis.io/) network: Events API, Intro API, and Reports API. Tagged areas include Company, Webinars, Virtual Events, Event Management, and Marketing.
 
 
   The Demio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -227,18 +227,23 @@ rate_limits:
   slug: demio-rate-limits
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 48.1
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
-    contract_quality: 25.5
+    contract_governance: 4.5
+    contract_quality: 24.9
     developer_ergonomics: 60.1
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 50.3
+  previous_composite: 48.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,8 +254,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/screenshots/demio-2026-08-17T080854.png
 security:

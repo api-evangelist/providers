@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,45 +42,18 @@ agentic_access:
   operation_count: 22
   slug: edlink-agentic-access
   summary_line: 22 operations · 1 acting
-api_count: 12
+api_count: 1
 apis:
-- description: Source connection agents.
-  name: Edlink Agents API
-  slug: edlink-agents-api
-- description: Classes and their enrollments.
-  name: Edlink Classes API
-  slug: edlink-classes-api
-- description: Course catalog.
-  name: Edlink Courses API
-  slug: edlink-courses-api
-- description: Districts shared with the integration.
-  name: Edlink Districts API
-  slug: edlink-districts-api
-- description: Relationships between people and classes.
-  name: Edlink Enrollments API
-  slug: edlink-enrollments-api
-- description: Change events for incremental sync.
-  name: Edlink Events API
-  slug: edlink-events-api
 - description: Institution-level roster and school data.
   name: Edlink Graph API
   slug: edlink-graph-api
 - description: Source and integration metadata.
   name: Edlink Integrations API
   slug: edlink-integrations-api
-- description: Students, teachers, and other people.
-  name: Edlink People API
-  slug: edlink-people-api
-- description: Schools within a district.
-  name: Edlink Schools API
-  slug: edlink-schools-api
-- description: Sections that subdivide classes.
-  name: Edlink Sections API
-  slug: edlink-sections-api
 - description: OAuth 2.0 and OpenID Connect single sign-on.
   name: Edlink SSO API
   slug: edlink-sso-api
-artifact_total: 32
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -125,6 +98,10 @@ collections:
   name: Edlink API
   slug: open-edlink
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/edlink-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -181,10 +158,10 @@ modified: '2026-06-21'
 name: Edlink
 nav: Providers
 network: true
-overview: 'Edlink publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Classes API, Courses API, and 9 more. Tagged areas include Education, EdTech, Rostering, SIS, and LMS.
+overview: 'Edlink publishes 3 APIs on the [APIs.io](https://apis.io/) network: Graph API, Integrations API, and SSO API. Tagged areas include Education, EdTech, Rostering, SIS, and LMS.
 
 
-  Edlink''s developer surface includes authentication, engineering blog, documentation, and 8 more developer resources.'
+  Edlink''s developer surface includes authentication, engineering blog, documentation, and 9 more developer resources.'
 plans:
 - name: Edlink Plans Pricing
   plan_count: 3
@@ -196,18 +173,23 @@ rate_limits:
   slug: edlink-rate-limits
 score:
   band: thin
-  composite: 38.3
-  delta: 1.4
+  composite: 38.1
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 52.8
+    contract_quality: 54.2
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 36.9
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -221,8 +203,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 22.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edlink/refs/heads/main/screenshots/edlink-2026-07-25T212853.png
 security:

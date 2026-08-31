@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 60
   slug: istio-agentic-access
   summary_line: 60 operations · 36 acting
-api_count: 14
+api_count: 3
 apis:
 - description: The Istio Telemetry API (telemetry.istio.io) provides configuration resources for managing observability within an Istio service mesh. The Telemetry resource enables flexible configuration of metrics,
   name: Istio Telemetry API
@@ -137,6 +137,10 @@ collections:
   name: Istio Extensions AuthorizationPolicy WorkloadGroup API
   slug: open-istio-workloadgroup-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/istio-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -286,7 +290,7 @@ overview: 'Istio publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
   The Istio catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Istio''s developer surface includes authentication, engineering blog, product news, documentation, GitHub presence, getting-started guide, changelog, and 16 more developer resources.'
+  Istio''s developer surface includes authentication, engineering blog, product news, documentation, GitHub presence, getting-started guide, changelog, and 17 more developer resources.'
 plans:
 - name: Istio Plans Pricing
   plan_count: 1
@@ -310,6 +314,11 @@ rules:
 score:
   band: thin
   composite: 38.4
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 13.2
@@ -328,8 +337,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/istio/refs/heads/main/screenshots/istio-2026-06-20T183628.png
 security:

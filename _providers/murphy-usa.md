@@ -32,34 +32,66 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
-- group: auth
+- group: company
   title: ''
-  type: DomainSecurity
-  url: security/murphy-usa-domain-security.yml
+  type: Website
+  url: https://www.murphyusa.com
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/murphyusa
-- group: company
+- group: commercial
   title: ''
-  type: Website
-  url: https://www.murphy-usa.com
-- group: agent
+  type: TermsOfService
+  url: https://www.murphyusa.com/murphyusa/legal
+- group: commercial
   title: ''
-  type: LlmsText
-  url: https://murphy-usa.com/llms.txt
-description: Murphy USA is a leading retailer of gasoline and convenience merchandise, operating retail stores primarily in proximity to Walmart Supercenters across the southern and midwestern United States.
+  type: PrivacyPolicy
+  url: https://www.murphyusa.com/murphyusa/legal#privacy-a
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.murphyusa.com/murphyusa/Contact-Us
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.murphyusa.com/murphyusa/faqs
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/murphy-usa-domain-security.yml
+coverage:
+  checked: '2026-08-28'
+  detail: Murphy USA runs its consumer surface on a Kentico CMS that 404s every spec path and 403s the entire /.well-known/ prefix on all three hosts, has no api. or developer. subdomain in DNS, and no GitHub organization — the only programmatic surface is the private backend of the Murphy Drive Rewards mobile app.
+  evidence:
+  - status: 404
+    url: https://www.murphyusa.com/openapi.json
+  - status: 403
+    url: https://www.murphyusa.com/.well-known/api-catalog
+  - status: 404
+    url: https://www.murphyusa.com/llms.txt
+  - status: 404
+    url: https://api.github.com/orgs/murphyusa
+  - status: 200
+    url: https://www.murphy-usa.com/
+  reason: no-developer-program
+  state: none
+created: '2026-03-21'
+description: 'Murphy USA (NYSE: MUSA) is a Fortune 500 retailer of gasoline and convenience merchandise, headquartered in El Dorado, Arkansas. The company operates roughly 1,700 Murphy USA and Murphy Express stores across a 27-state footprint in the southern and midwestern United States, most of them sited in or adjacent to Walmart Supercenter parking lots, and it also owns the QuickChek chain of fresh convenience stores in New Jersey and New York. Its fuel slate spans E-10, E-15, FlexFuel (E85), ethanol-free E0, ULSD diesel, biodiesel and winterized diesel, marketed alongside a FuelAssure fuel-quality monitoring program. Consumer digital engagement runs through the Murphy Drive Rewards loyalty app and a Business Fuel Card program. Murphy USA publishes no public developer program, API reference or machine-readable contract.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/murphy-usa.png
 layout: provider
-modified: '2026-03-21'
-name: murphy-usa
+modified: '2026-08-28'
+name: Murphy USA
 nav: Providers
 network: true
-overview: murphy-usa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
+overview: 'Murphy USA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Fuel Retail, Convenience Stores, Gas Stations, and Retail.
+
+
+  Murphy USA''s developer surface includes support and 6 more developer resources.'
 press:
 - date: '2026-05-25'
   title: Murphy USA signals 45 to 55 new sites in 2026 while ...
@@ -79,29 +111,46 @@ press:
 random_paper: 1
 score:
   band: minimal
-  composite: 2.6
+  composite: 10.8
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 25.9
+    developer_ergonomics: 4.8
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 2.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 10.8
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 18.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/murphy-usa/refs/heads/main/screenshots/murphy-usa-2026-06-20T185903.png
 security:
 - kind: domain-security
   name: Murphy Usa Domain Security
   slug: murphy-usa-domain-security
-  summary_line: DMARC
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: murphy-usa
 tags:
 - Fortune 500
-website: https://www.murphy-usa.com
+- Fuel Retail
+- Convenience Stores
+- Gas Stations
+- Retail
+- Loyalty Programs
+- Energy
+website: https://www.murphyusa.com
 ---

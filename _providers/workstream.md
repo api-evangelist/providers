@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-26'
-api_count: 12
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Applicants represent people who have applied for positions within your company.
   name: Workstream Applicants API
@@ -186,7 +186,7 @@ modified: '2026-07-21'
 name: Workstream
 nav: Providers
 network: true
-overview: 'Workstream publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Applicants API, Authorization API, Company Roles API, and 9 more. Tagged areas include Company, HR Tech, Hiring, Payroll, and Onboarding.
+overview: 'Workstream publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Applicants API, Authorization API, Company Roles API, and 9 more. Tagged areas include Company, Hr Tech, Hiring, Payroll, and Onboarding.
 
 
   Workstream''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 9 more developer resources.'
@@ -198,15 +198,20 @@ scopes:
   summary_line: 10 scopes · implicit
 score:
   band: developing
-  composite: 41.9
-  delta: 0.0
+  composite: 41.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 0.0
     contract_quality: 50.5
     developer_ergonomics: 57.1
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 41.9
@@ -216,8 +221,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workstream/refs/heads/main/screenshots/workstream-2026-08-17T082948.png
 security:
@@ -232,7 +237,7 @@ security:
 slug: workstream
 tags:
 - Company
-- HR Tech
+- Hr Tech
 - Hiring
 - Payroll
 - Onboarding

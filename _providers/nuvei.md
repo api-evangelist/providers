@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 23
   slug: nuvei-agentic-access
   summary_line: 23 operations · 23 acting · 1 human-in-the-loop
-api_count: 11
+api_count: 3
 apis:
 - description: Server-to-server REST API for processing card and APM transactions through Nuvei. Includes openOrder for session setup, payment for end-to-end transactions, settleTransaction for capturing pre-authori
   name: Nuvei Payments API
@@ -319,7 +319,12 @@ rules:
 score:
   band: thin
   composite: 33.6
-  delta: 1.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -329,7 +334,7 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 0.0
-  previous_composite: 31.7
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     contracts:
@@ -343,8 +348,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/screenshots/nuvei-2026-06-20T190542.png
 security:

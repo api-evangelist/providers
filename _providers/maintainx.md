@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 169
   slug: maintainx-agentic-access
   summary_line: 169 operations · 113 acting
-api_count: 29
+api_count: 1
 apis:
 - description: Operations on Asset Criticalities
   name: MaintainX Asset Criticalities API
@@ -367,7 +367,7 @@ modified: '2026-07-20'
 name: MaintainX
 nav: Providers
 network: true
-overview: 'MaintainX publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Asset Criticalities API, Asset Custom Statuses API, Asset Statuses API, and 26 more. Tagged areas include Company, Physical AI, Maintenance, CMMS, and Asset Management.
+overview: 'MaintainX publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Asset Criticalities API, Asset Custom Statuses API, Asset Statuses API, and 26 more. Tagged areas include Company, Physical Ai, Maintenance, CMMS, and Asset Management.
 
 
   The MaintainX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -381,18 +381,23 @@ rate_limits:
   slug: maintainx-rate-limits
 score:
   band: strong
-  composite: 56.5
-  delta: 0.0
+  composite: 54.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.5
     developer_ergonomics: 54.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 56.5
+  previous_composite: 55.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -403,8 +408,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maintainx/refs/heads/main/screenshots/maintainx-2026-07-25T225951.png
 security:
@@ -423,7 +428,7 @@ security:
 slug: maintainx
 tags:
 - Company
-- Physical AI
+- Physical Ai
 - Maintenance
 - CMMS
 - Asset Management

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 616
   human_in_the_loop: 72
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 960
   slug: soracom-agentic-access
   summary_line: 960 operations · 616 acting · 72 human-in-the-loop
-api_count: 45
+api_count: 10
 apis:
 - description: Manage Soracom Air for Cellular SIMs (and Subscribers) — list, get, create Arc virtual SIMs, activate/deactivate/suspend/terminate, set group binding, set IMEI lock, view session events, manage SIM pr
   name: Soracom SIM Management API
@@ -438,6 +438,10 @@ collections:
   name: Soracom Virtual Private Gateway API
   slug: open-soracom-vpg-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/soracom-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -848,7 +852,7 @@ overview: 'Soracom publishes 45 APIs on the [APIs.io](https://apis.io/) network,
   The Soracom catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Soracom''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 72 more developer resources.'
+  Soracom''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 73 more developer resources.'
 plans:
 - name: Soracom Plans Pricing
   plan_count: 17
@@ -881,16 +885,21 @@ rules:
     warn: 5
   slug: soracom-rules
 score:
-  band: strong
-  composite: 55.8
-  delta: 0.0
+  band: developing
+  composite: 52.2
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -3.6
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
     contract_governance: 28.8
-    contract_quality: 67.9
+    contract_quality: 60.8
     developer_ergonomics: 78.6
-    discoverability: 68.5
+    discoverability: 50.0
     governance: 28.8
     operational_transparency: 18.4
   previous_composite: 55.8
@@ -907,8 +916,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/screenshots/soracom-2026-06-20T194218.png
 security:

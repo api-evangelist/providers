@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 4
@@ -42,9 +42,9 @@ agentic_access:
   operation_count: 121
   slug: utrecht-agentic-access
   summary_line: 121 operations · 121 acting · 4 human-in-the-loop
-api_count: 21
+api_count: 2
 apis:
-- description: 'OAI-PMH metadata harvesting interface for the Utrecht University Library DSpace institutional repository, exposing publication and resource metadata of Utrecht University and UMC Utrecht researchers. '
+- description: 'OAI-PMH 2.0 metadata harvesting interface for the Utrecht University Library institutional repository. Verified live 2026-08-30 on DSpace 9.0: Identify, ListMetadataFormats and ListRecords all answer,'
   name: Utrecht University Repository OAI-PMH
   slug: repository-oai
 - description: The admin API from Utrecht University — 1 operation(s) for admin.
@@ -107,7 +107,16 @@ apis:
 - description: The vault_deaccession API from Utrecht University — 4 operation(s) for vault_deaccession.
   name: Utrecht University vault_deaccession API
   slug: utrecht-vault-deaccession-api
-artifact_total: 58
+- description: 'The DSpace 9.0 HAL/JSON REST API behind the Utrecht University Repository. Openly readable without a key: the root at /server/api enumerates ~60 link relations, and /server/api/discover/search/objects'
+  name: Utrecht University Repository REST API
+  slug: repository-rest
+- description: Signed SAML 2.0 EntityDescriptor for Utrecht University's identity provider, served as XML at a stable URL and carried in SURFconext's national federation metadata. Machine-readable, institution-opera
+  name: Utrecht University SAML 2.0 Identity Provider Metadata
+  slug: identity-federation
+- description: 'Utrecht University''s current research information system and public research portal, running on Elsevier Pure. Two machine doors were probed on 2026-08-30: the Pure Web Service REST API at /ws/api, wh'
+  name: Utrecht University Research Portal (Elsevier Pure tenancy)
+  slug: pure-research-portal
+artifact_total: 61
 collections:
 - collection_type: open
   name: API Collection
@@ -173,6 +182,22 @@ collections:
   name: Yoda core admin vault_deaccession API
   slug: open-utrecht-vault-deaccession-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/utrecht-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/UtrechtUniversity/yoda-ruleset/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/UtrechtUniversity/yoda-ruleset/blob/development/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/UtrechtUniversity/.github/blob/main/CODE_OF_CONDUCT.md
 - group: commercial
   title: ''
   type: License
@@ -225,13 +250,58 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://utrechtuniversity.github.io/yoda/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://dspace.library.uu.nl/server/api
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://dspace.library.uu.nl/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://research-portal.uu.nl/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://login.uu.nl/nidp/saml2/metadata
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://portal.yoda.uu.nl/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.uu.nl/en/disclaimer
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.uu.nl/en/privacy
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.uu.nl/en/contact
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/utrecht-domain-standards.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: https://www.uu.nl/sites/default/files/security.txt
 created: '2026-06-03'
-description: 'Utrecht University (Universiteit Utrecht) is a public research university in Utrecht, Netherlands, ranked #105 in the QS World University Rankings 2025. Its public developer and API footprint is centered on open research infrastructure rather than a formal developer portal: the Utrecht University Library runs a DSpace institutional repository exposing publication metadata via OAI-PMH, the university maintains a large public GitHub organization (UtrechtUniversity) that publishes open-source research software, and it develops Yoda, an iRODS-based research data management platform. There is no single consolidated, self-service API developer portal; most administrative and identity systems are gated behind institutional SolisID/SSO.'
+description: 'Utrecht University (Universiteit Utrecht) is a public research university in Utrecht, Netherlands, founded in 1636 and a member of the League of European Research Universities. It is one of the few universities in this catalog whose largest machine-readable surface is its OWN engineering rather than a vendor''s: Utrecht authors and operates Yoda, a GPL-3.0 iRODS-based research data management platform (github.com/UtrechtUniversity/yoda-ruleset), and runs it in production at portal.yoda.uu.nl. The Yoda HTTP API is real but not open — every call redirects to SolisID login unless it carries a session cookie or a Yoda data access token — so the OpenAPIs in this repo describe a live institution-operated API that no anonymous client can call. Alongside it the University Library runs a DSpace 9.0 institutional repository whose REST API and OAI-PMH interface are both openly readable at dspace.library.uu.nl, and IT Services operates a SAML 2.0 identity provider registered in the SURFconext
+  federation. The research information system is NOT Utrecht''s: research-portal.uu.nl is an Elsevier Pure tenancy (uu.elsevierpure.com), recorded here as a tenant relationship and not as Utrecht''s contract. There is no central developer portal, no api.uu.nl, no public course-catalog or campus API, and no published API terms or rate limits; OSIRIS, the student administration system, returns 403 to unauthenticated clients.'
 examples:
-- key_count: 4
+- key_count: 9
   name: Utrecht Yoda Datarequest Submit Example
   slug: utrecht-yoda-datarequest-submit-example
-- key_count: 5
+- key_count: 10
   name: Utrecht Yoda Folder Submit Example
   slug: utrecht-yoda-folder-submit-example
 finops:
@@ -259,17 +329,17 @@ jsonld:
   property_count: 3
   slug: utrecht-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Utrecht University
 nav: Providers
 network: true
-overview: 'Utrecht University publishes 20 APIs on the [APIs.io](https://apis.io/) network, including admin API, browse API, data_access_token API, and 17 more. Tagged areas include Education, Higher Education, University, Netherlands, and Research Data.
+overview: 'Utrecht University publishes 20 APIs on the [APIs.io](https://apis.io/) network, including admin API, browse API, data_access_token API, and 17 more. Tagged areas include Education, Higher Education, University, Netherlands, and Europe.
 
 
   The Utrecht University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Utrecht University''s developer surface includes authentication, GitHub presence, and 11 more developer resources.'
+  Utrecht University''s developer surface includes authentication, GitHub presence, documentation, API reference, support, and 23 more developer resources.'
 plans:
 - name: Utrecht Plans Pricing
   plan_count: 2
@@ -301,19 +371,27 @@ rules:
     warn: 6
   slug: utrecht-rules
 score:
-  band: thin
-  composite: 38.1
-  delta: 1.1
+  band: developing
+  composite: 46.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 54.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 5.5
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 50.0
+    commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 55.1
-    developer_ergonomics: 21.4
-    discoverability: 74.1
+    developer_ergonomics: 33.3
+    discoverability: 44.4
     governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 37.0
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     contracts:
@@ -326,10 +404,10 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 42.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 57.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/screenshots/utrecht-2026-06-20T200730.png
 security:
 - kind: authentication
@@ -350,8 +428,14 @@ tags:
 - Higher Education
 - University
 - Netherlands
+- Europe
 - Research Data
+- Research Data Management
+- Institutional Repository
+- Identity Federation
+- OAI-PMH
 - Open Access
+- Open Science
 - Library
 - Open-Source
 website: https://www.uu.nl/en

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -33,12 +33,12 @@ agentic_access:
   summary_line: 17 operations · 15 acting
 api_count: 2
 apis:
-- description: QBE Australia's broker-facing policy lifecycle API, published in the QBE Australia API Hub as the "ANZO Digital Brokers" product. QBE describes it as providing "access to the insurance policy lifecycl
-  name: QBE Australia ANZO Digital Brokers Experience API
-  slug: qbe-anzo-digital-brokers-api
-- description: A small QBE Australia service published in the same API Hub as the "ANZO CTP Service" product, supporting the compulsory third party (CTP) motor insurance switching flow. Two documented operations app
-  name: QBE Australia CTP Switch Service
-  slug: qbe-ctp-switch-service-api
+- description: The CTP Switch API from QBE Insurance — 2 operation(s) for ctp switch.
+  name: QBE Insurance CTP Switch API
+  slug: qbe-ctp-switch-api
+- description: The Digital Brokers API from QBE Insurance — 15 operation(s) for digital brokers.
+  name: QBE Insurance Digital Brokers API
+  slug: qbe-digital-brokers-api
 arazzos:
 - description: Cancel an in-force QBE policy with a published cancellation reason code, confirm it, and attach the cancellation schedule.
   name: QBE policy cancellation
@@ -58,6 +58,14 @@ collections:
   name: CTP Switch Service
   slug: open-qbe-ctp-switch-service
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/qbe-anzo-digital-brokers-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/qbe-ctp-switch-service-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -195,25 +203,30 @@ modified: '2026-07-25'
 name: QBE Insurance
 nav: Providers
 network: true
-overview: 'QBE Insurance publishes 2 APIs on the [APIs.io](https://apis.io/) network: QBE Australia ANZO Digital Brokers Experience API and QBE Australia CTP Switch Service. Tagged areas include Insurance, Australia, Property and Casualty, Commercial Insurance, and Underwriting.
+overview: 'QBE Insurance publishes 2 APIs on the [APIs.io](https://apis.io/) network: CTP Switch API and Digital Brokers API. Tagged areas include Insurance, Australia, Property and Casualty, Commercial Insurance, and Underwriting.
 
 
-  QBE Insurance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, sandbox, and 25 more developer resources.'
+  QBE Insurance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, sandbox, and 27 more developer resources.'
 random_paper: 18
 score:
   band: thin
-  composite: 36.2
-  delta: 0.7
+  composite: 34.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 76.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 20.5
+    contract_governance: 8.3
     contract_quality: 15.7
     developer_ergonomics: 63.7
     discoverability: 68.5
-    governance: 20.5
+    governance: 8.3
     operational_transparency: 13.2
-  previous_composite: 35.5
+  previous_composite: 34.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -230,8 +243,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 47.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

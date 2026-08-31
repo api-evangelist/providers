@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.5
-  scored_at: '2026-08-26'
+  score: 29.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -33,12 +33,33 @@ agentic_access:
   summary_line: 28 operations · 20 acting
 api_count: 2
 apis:
-- description: 'The NewsBreak Advertising API, also published as the NewsBreak API for Business, lets technology companies, direct advertisers and agencies programmatically manage the NewsBreak Ads Manager at scale. '
-  name: NewsBreak Advertising API
-  slug: advertising
-- description: The NewsBreak MSP API for Business is the monetization-side interface NewsBreak provides to publishers and supply partners running the NewsBreak MSP monetization service platform. The Reporting API re
-  name: NewsBreak MSP Monetization Reporting API
-  slug: monetization-reporting
+- description: Account-level spending caps and remaining budget.
+  name: News Break Account Billing API
+  slug: news-break-account-billing-api
+- description: Ad accounts under an organization and the users who can access them.
+  name: News Break Ad Account API
+  slug: news-break-ad-account-api
+- description: Ads and their creatives, plus creative asset upload.
+  name: News Break Ad API
+  slug: news-break-ad-api
+- description: 'Ad sets: budget, bidding, schedule, platforms and audience targeting.'
+  name: News Break Ad Set API
+  slug: news-break-ad-set-api
+- description: 'Campaigns: the objective-level container for ad sets.'
+  name: News Break Campaign API
+  slug: news-break-campaign-api
+- description: Conversion tracking events (pixel and postback).
+  name: News Break Event Management API
+  slug: news-break-event-management-api
+- description: Organizations the calling user administers.
+  name: News Break Organization API
+  slug: news-break-organization-api
+- description: Synchronous and saved custom performance reports.
+  name: News Break Report API
+  slug: news-break-report-api
+- description: Aggregated monetization performance reporting for MSP organizations and apps.
+  name: News Break Reporting API
+  slug: news-break-reporting-api
 arazzos:
 - description: Resolve the caller's organization and ad account, create a campaign, attach a tracking event, create an ad set with budget, bidding and targeting, upload the creative asset to the NewsBreak CDN, and c
   name: Launch a NewsBreak advertising campaign
@@ -46,7 +67,7 @@ arazzos:
 - description: Pull a last-7-days performance report for an ad account, list its campaigns, and pause a chosen campaign by toggling its status to OFF. Read-only steps are safe to retry; the status toggle is not idem
   name: Report on a NewsBreak ad account and pause underperforming campaigns
   slug: news-break-pause-and-report
-artifact_total: 10
+artifact_total: 17
 collections:
 - collection_type: open
   name: NewsBreak Advertising API
@@ -55,6 +76,18 @@ collections:
   name: NewsBreak MSP Monetization Reporting API
   slug: open-news-break-monetization-reporting
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/news-break-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/news-break-advertising-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/news-break-monetization-reporting-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -176,10 +209,10 @@ modified: '2026-08-01'
 name: News Break
 nav: Providers
 network: true
-overview: 'News Break publishes 2 APIs on the [APIs.io](https://apis.io/) network: NewsBreak Advertising API and NewsBreak MSP Monetization Reporting API. Tagged areas include Company, Advertising, AdTech, News, and Media.
+overview: 'News Break publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account Billing API, Ad Account API, Ad API, and 6 more. Tagged areas include Company, Advertising, AdTech, News, and Media.
 
 
-  News Break''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
+  News Break''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
 random_paper: 20
 rate_limits:
 - limit_count: 9
@@ -187,18 +220,23 @@ rate_limits:
   slug: news-break-rate-limits
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 47.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 58.5
+    contract_governance: 4.5
+    contract_quality: 58.4
     developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 49.0
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -209,8 +247,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/news-break/refs/heads/main/screenshots/news-break-2026-08-07T185122.png
 security:

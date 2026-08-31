@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 132
   slug: azure-test-labs-agentic-access
   summary_line: 132 operations · 87 acting · 2 human-in-the-loop
-api_count: 25
+api_count: 1
 apis:
 - description: The ArmTemplates API from Azure DevTest Labs — 2 operation(s) for armtemplates.
   name: Azure DevTest Labs ArmTemplates API
@@ -674,15 +674,20 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 46.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 28.8
     contract_quality: 57.6
     developer_ergonomics: 54.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 23.7
   previous_composite: 46.7
@@ -693,8 +698,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-test-labs/refs/heads/main/screenshots/azure-test-labs-2026-06-20T172912.png
 security:

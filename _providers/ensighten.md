@@ -32,14 +32,54 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: 'The REST Manage API used by Ensighten Manage customers to administer tag management programmatically. Sixty-six operations covering Spaces, Publish Paths, Deployments (create, update, enable/disable, '
-  name: Ensighten Manage API
-  slug: manage-api
-artifact_total: 6
+- description: Requests using a username and password for authentication follow the Resource Owner Password Flow of the OAuth 2.0 specification. API Request Once a token has been retrieved using the /auth/token proc
+  name: Ensighten Authentication API
+  slug: ensighten-authentication-api
+- description: CRUD operations with Conditions. Important Condition specific fields Field Description Valid Values id The condition id name The name of the condition A name up to 255 characters conditionValues Crite
+  name: Ensighten Conditions API
+  slug: ensighten-conditions-api
+- description: 'CRUD operations with Data Definitions. Data Definitions specific fields Field Required Description Valid Values name Y The name of the definition A name up to 255 characters collection Y The name for '
+  name: Ensighten Data Definitions API
+  slug: ensighten-data-definitions-api
+- description: CRUD operations with Deployments. Important Deployment specific fields Field Description Valid Values id The deployment id name The name of the deployment A name up to 255 characters spaceId The id of
+  name: Ensighten Deployments API
+  slug: ensighten-deployments-api
+- description: CRUD operations with Event Definitions. Event Definition specific fields Field Description Valid Values name The name of the definition A name up to 255 characters type Indicates the type of the event
+  name: Ensighten Event Definitions API
+  slug: ensighten-event-definitions-api
+- description: Operations specific to Git enabled spaces. Git specific fields Field Description Valid Values commitId Commit ID A SHA-1 hash, 40 characters long
+  name: Ensighten GIT API
+  slug: ensighten-git-api
+- description: CRUD operations with Labels. Label specific fields Field Description Valid Values key The key of the label A string up to 128 characters. Should only contain alphanumerics (a-z, A-Z, 0-9), periods, +,
+  name: Ensighten Labels API
+  slug: ensighten-labels-api
+- description: CRUD operations with Publish Paths. For further details or guidance on configuring Publish Path settings, please consult our Help Center article available here. Publish Path specific fields Field Requ
+  name: Ensighten Publish Paths API
+  slug: ensighten-publish-paths-api
+- description: CRUD operations with Roles. Role specific fields Field Description Valid Values name Unique identifier for the role Up to 255 characters; Role name should only contain alphanumerics (a-z, A-Z, 0-9), p
+  name: Ensighten Roles API
+  slug: ensighten-roles-api
+- description: SCIM2 (System for Cross-domain Identity Management) is a specification that automates user and group identity provisioning across cloud-based applications and services using SSO and Identity Providers
+  name: Ensighten SCIM 2.0 API
+  slug: ensighten-scim-2-0-api
+- description: CRUD operations with Spaces. Space specific fields Field Required Description Valid Values name Y The name of the space A name up to 255 characters publishPaths Y A list of either existing paths (prov
+  name: Ensighten Spaces API
+  slug: ensighten-spaces-api
+- description: 'Retrieve TDN job information JSON Schema Conforms to JSON schema draft v4 specifications { "$schema": "http://json-schema.org/draft-04/schema#", "description": "Get job response", "type": "object", "p'
+  name: Ensighten TDN API
+  slug: ensighten-tdn-api
+- description: CRUD operations with Users. User specific fields Field Description Valid Values username Unique identifier for the user Up to 255 characters; cannot include <, >, :, ~, +, or spaces firstName User's f
+  name: Ensighten Users API
+  slug: ensighten-users-api
+artifact_total: 18
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ensighten-manage-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -149,10 +189,10 @@ modified: '2026-08-13'
 name: Ensighten
 nav: Providers
 network: true
-overview: 'Ensighten publishes 1 API on the [APIs.io](https://apis.io/) network: Manage API. Tagged areas include Company, Cybersecurity, Tag Management, Data Governance, and Client-Side Security.
+overview: 'Ensighten publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Conditions API, Data Definitions API, and 10 more. Tagged areas include Company, Cybersecurity, Tag Management, Data Governance, and Client-Side Security.
 
 
-  Ensighten''s developer surface includes support, engineering blog, documentation, API reference, getting-started guide, changelog, and 19 more developer resources.'
+  Ensighten''s developer surface includes support, engineering blog, documentation, API reference, getting-started guide, changelog, and 20 more developer resources.'
 plans:
 - name: Ensighten Plans Pricing
   plan_count: 0
@@ -164,18 +204,23 @@ rate_limits:
   slug: ensighten-rate-limits
 score:
   band: developing
-  composite: 50.5
-  delta: 3.8
+  composite: 49.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
-    contract_quality: 56.5
+    contract_governance: 18.2
+    contract_quality: 56.0
     developer_ergonomics: 55.4
-    discoverability: 68.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 46.7
+  previous_composite: 50.3
   provenance:
     conformance: first-party
     contracts:
@@ -185,8 +230,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ensighten/refs/heads/main/screenshots/ensighten-2026-07-25T213419.png
 security:

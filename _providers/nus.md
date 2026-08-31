@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 3
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 8
   slug: nus-agentic-access
   summary_line: 8 operations · 3 human-in-the-loop
-api_count: 8
+api_count: 10
 apis:
-- description: The National University of Singapore's own identity provider, and the only substantial machine-readable API surface the institution operates itself. Publishes an OpenID Connect discovery document, a J
-  name: NUS Federated Identity Service (VAFS)
-  slug: identity
 - description: The API behind the NUS internal shuttle bus service — bus stops, services and arrival times across the Kent Ridge and Bukit Timah campuses. Institution-operated and live, but gated behind HTTP Basic c
   name: NUS NextBus (Internal Shuttle Bus) API
   slug: nextbus
@@ -68,8 +65,21 @@ apis:
 - description: NUS is one of fourteen identity providers registered in the Singapore Access Federation, which SingAREN operates and which interfederates with eduGAIN. The entityID NUS is registered under is a Simple
   name: NUS entry in the Singapore Access Federation
   slug: sgaf
-artifact_total: 22
+- description: OAuth 2.0 / OpenID Connect authorization and token issuance.
+  name: National University of Singapore Authorization API
+  slug: nus-authorization-api
+- description: Machine-readable metadata describing the identity service and its signing keys.
+  name: National University of Singapore Discovery API
+  slug: nus-discovery-api
+- description: End-user claims and session termination.
+  name: National University of Singapore Session API
+  slug: nus-session-api
+artifact_total: 24
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nus-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -266,13 +276,13 @@ modified: '2026-08-19'
 name: National University of Singapore
 nav: Providers
 network: true
-overview: 'National University of Singapore publishes 1 API on the [APIs.io](https://apis.io/) network: NUS Federated Identity Service (VAFS). Tagged areas include University, Higher Education, Education, Singapore, and Research.
+overview: 'National University of Singapore publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authorization API, Discovery API, and Session API. Tagged areas include University, Higher Education, Education, Singapore, and Research.
 
 
   The National University of Singapore catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  National University of Singapore''s developer surface includes engineering blog, code examples, authentication, and 26 more developer resources.'
+  National University of Singapore''s developer surface includes engineering blog, code examples, authentication, and 27 more developer resources.'
 plans:
 - name: Nus Plans Pricing
   plan_count: 2
@@ -300,18 +310,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.1
-  delta: 2.3
+  composite: 41.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 41.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 11.4
-    contract_quality: 65.3
+    contract_quality: 64.2
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 23.7
-  previous_composite: 39.8
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -326,8 +341,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/screenshots/nus-2026-06-20T190528.png
 security:

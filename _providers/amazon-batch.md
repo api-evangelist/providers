@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 2
   slug: amazon-batch-agentic-access
   summary_line: 2 operations · 2 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Operations for managing compute environments
   name: Amazon Batch Compute Environments API
@@ -220,19 +220,24 @@ rules:
     warn: 4
   slug: amazon-batch-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 54.6
-  delta: 7.7
+  band: developing
+  composite: 52.1
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 58.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 41.7
+    contract_governance: 29.5
     contract_quality: 63.3
     developer_ergonomics: 64.3
-    discoverability: 87.0
-    governance: 41.7
+    discoverability: 75.9
+    governance: 29.5
     operational_transparency: 13.2
-  previous_composite: 46.9
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,9 +247,9 @@ score:
       marker_coverage: 0.0
       total: 2
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-batch/refs/heads/main/screenshots/amazon-batch-2026-07-25T195933.png
 security:
 - kind: authentication

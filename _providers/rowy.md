@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Rowy's primary inbound API surface. Each table can generate an HTTPS webhook endpoint running on Google Cloud Run (the rowy-hooks service) that receives POST requests from external systems. Built-in t
   name: Rowy Webhooks
@@ -113,20 +113,25 @@ rate_limits:
   slug: rowy-rate-limits
 score:
   band: thin
-  composite: 29.1
-  delta: 1.4
+  composite: 28.6
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 27.9
     developer_ergonomics: 16.7
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 27.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 29.1
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rowy/refs/heads/main/screenshots/rowy-2026-06-20T193228.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: restream-agentic-access
   summary_line: 14 operations · 3 acting
-api_count: 7
+api_count: 1
 apis:
 - description: 'WebSocket API for real-time streaming status updates. Connect to wss://streaming.api.restream.io/ws with an OAuth access token to receive incoming and outgoing stream events, platform status updates, '
   name: Restream Streaming Updates API
@@ -264,18 +264,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.3
-  delta: 1.9
+  composite: 37.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 13.6
     contract_quality: 60.7
     developer_ergonomics: 28.6
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 36.4
+  previous_composite: 38.3
   provenance:
     agentic_access: derived
     contracts:
@@ -283,8 +288,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restream/refs/heads/main/screenshots/restream-2026-06-20T193034.png
 security:

@@ -25,15 +25,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.9
-  scored_at: '2026-08-26'
+  score: 35.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 46
   slug: ripio-agentic-access
   summary_line: 46 operations · 10 acting
-api_count: 11
+api_count: 1
 apis:
 - description: The Book API from Ripio — 2 operation(s) for book.
   name: Ripio Book API
@@ -76,7 +76,13 @@ apis:
 - description: API to check addresses of wallets.
   name: Ripio Wallets API
   slug: ripio-wallets-api
-artifact_total: 42
+- description: The WebSocket API API from Ripio — 0 operation(s) for websocket api.
+  name: Ripio WebSocket API
+  slug: ripio-websocket-api-api
+- description: The WebSocket Stream API from Ripio — 0 operation(s) for websocket stream.
+  name: Ripio WebSocket Stream API
+  slug: ripio-websocket-stream-api
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Ripio Trade Webhooks
@@ -300,7 +306,7 @@ modified: '2026-07-21'
 name: Ripio
 nav: Providers
 network: true
-overview: 'Ripio publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Book API, Cryptocurrency Deposits API, Cryptocurrency Withdrawals API, and 8 more. Tagged areas include Company, Crypto, Cryptocurrency, Exchange, and Trading.
+overview: 'Ripio publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Book API, Cryptocurrency Deposits API, Cryptocurrency Withdrawals API, and 10 more. Tagged areas include Company, Crypto, Cryptocurrency, Exchange, and Trading.
 
 
   The Ripio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -314,18 +320,23 @@ rate_limits:
   slug: ripio-rate-limits
 score:
   band: strong
-  composite: 65.5
-  delta: 0.0
+  composite: 60.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.4
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
-    contract_governance: 30.3
-    contract_quality: 65.6
+    access_clarity: 43.4
+    commercial_clarity: 43.4
+    contract_governance: 18.2
+    contract_quality: 62.4
     developer_ergonomics: 68.5
-    discoverability: 81.5
-    governance: 30.3
-    operational_transparency: 76.3
-  previous_composite: 65.5
+    discoverability: 75.9
+    governance: 18.2
+    operational_transparency: 72.4
+  previous_composite: 63.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -342,8 +353,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/screenshots/ripio-2026-08-17T081611.png
 security:

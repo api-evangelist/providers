@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,47 +42,101 @@ agentic_access:
   operation_count: 55
   slug: wageningen-university-research-agentic-access
   summary_line: 55 operations
-api_count: 6
+api_count: 3
 apis:
-- description: API for scientific data about food products, published by Wageningen Food & Biobased Research (WFBR) through an Azure API Management developer portal. Provides software services and algorithms returni
+- description: API for scientific data about food products, published by Wageningen Food & Biobased Research (WFBR) through WUR's own Azure API Management instance. Provides software services and algorithms returnin
   name: WFBR Food API
   slug: wfbr-food-api
-- description: The Altitude API from Wageningen University & Research — 1 operation(s) for altitude.
+- description: 'Open, keyless OAI-PMH 2.0 harvesting interface over the WUR Publications repository — all six verbs verified live, four metadata formats (oai_dc, mods, nl_didl, oai_openaire) and eight sets including '
+  name: WUR Library OAI-PMH API
+  slug: wageningen-university-research-library-oai-pmh
+- description: The Altitude API from AgroDataCube v2, operated by Wageningen Environmental Research — 1 operation for altitude zonal statistics.
   name: Wageningen University & Research Altitude API
   slug: wageningen-university-research-altitude-api
-- description: The KPI API from Wageningen University & Research — 2 operation(s) for kpi.
+- description: The KPI API from AgroDataCube v2, operated by Wageningen Environmental Research — 2 operations for crop-rotation and greenness indicators.
   name: Wageningen University & Research KPI API
   slug: wageningen-university-research-kpi-api
-- description: The Raster API from Wageningen University & Research — 4 operation(s) for raster.
+- description: The Raster API from AgroDataCube v2, operated by Wageningen Environmental Research — 4 operations returning GeoTIFF altitude and NDVI imagery.
   name: Wageningen University & Research Raster API
   slug: wageningen-university-research-raster-api
-- description: The Retrieve API from Wageningen University & Research — 19 operation(s) for retrieve.
+- description: The Retrieve API from AgroDataCube v2, operated by Wageningen Environmental Research — 18 operations over fields, crops, soils, meteo data and code lists.
   name: Wageningen University & Research Retrieve API
   slug: wageningen-university-research-retrieve-api
-- description: The Return API from Wageningen University & Research — 10 operation(s) for return.
+- description: The Return API from AgroDataCube v2, operated by Wageningen Environmental Research — 9 operations returning meteo stations, regions, soil types and source information.
   name: Wageningen University & Research Return API
   slug: wageningen-university-research-return-api
-artifact_total: 26
+- description: 'Institutional research portal and CRIS for WUR publications, projects, datasets and researcher profiles, running on Elsevier Pure. Listed as a tenant surface because it is a genuine WUR institutional '
+  name: WUR Research Portal (Elsevier Pure tenancy)
+  slug: wageningen-research-portal-pure
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
   slug: open-.refine-report
 - collection_type: open
-  name: AgroDataCube API v1 (legacy) Altitude API
+  name: AgroDataCube API v2 Altitude API
   slug: open-wageningen-university-research-altitude-api
 - collection_type: open
-  name: AgroDataCube API v1 (legacy) Altitude KPI API
+  name: AgroDataCube API v2 KPI API
   slug: open-wageningen-university-research-kpi-api
 - collection_type: open
-  name: AgroDataCube API v1 (legacy) Altitude Raster API
+  name: AgroDataCube API v2 Raster API
   slug: open-wageningen-university-research-raster-api
 - collection_type: open
-  name: AgroDataCube API v1 (legacy) Altitude Retrieve API
+  name: AgroDataCube API v2 Retrieve API
   slug: open-wageningen-university-research-retrieve-api
 - collection_type: open
-  name: AgroDataCube API v1 (legacy) Altitude Return API
+  name: AgroDataCube API v2 Return API
   slug: open-wageningen-university-research-return-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.wur.nl/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://euw-apim-fism-001-p.developer.azure-api.net/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://documenter.getpostman.com/view/3284162/TVeqd7aa
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://euw-apim-fism-001-p.developer.azure-api.net/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.wur.nl/en/about-wur/organisation-profile/privacy-cookie-statement-wur
+- group: other
+  title: ''
+  type: OpenData
+  url: https://opengeodata.wmr.wur.nl/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://research.wur.nl/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://www.wur.nl/en/library
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://metadata.surfconext.nl/idps-metadata.xml
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/WUR-AI
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/wageningen-university/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/wageningen-university-research-conformance.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -99,22 +153,6 @@ common:
   title: ''
   type: Authentication
   url: authentication/wageningen-university-research-authentication.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://www.wur.nl/
-- group: build
-  title: ''
-  type: GitHub
-  url: https://github.com/WUR-AI
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/wageningen-university/
-- group: start
-  title: ''
-  type: DeveloperPortal
-  url: https://euw-apim-fism-001-p.developer.azure-api.net/
 - group: commercial
   title: ''
   type: Plans
@@ -132,7 +170,8 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'Wageningen University & Research (WUR) is a Dutch university and research institution based in Wageningen, Netherlands, specializing in the domain of healthy food and living environment, and ranked #100 in the QS World University Rankings 2025. Its public developer footprint centers on the agri-food research domain rather than a single central API platform: the AgroDataCube provides a token-based REST API over a large open data collection for agri-food applications, and Wageningen Food & Biobased Research (WFBR) operates an Azure API Management developer portal publishing a Food API for scientific data about food products. WUR also runs a Pure-powered Research Portal (research.wur.nl) and a public Data Portal, though documented public web-service/OAI endpoints there were not openly reachable at review time.'
+description: 'Wageningen University & Research (WUR) is the Dutch public research university and research foundation for healthy food and the living environment, in Wageningen, Netherlands, and ranked #100 in the QS World University Rankings 2025. Its programmable footprint is real but small, and it sits in the research institutes rather than in a central developer platform: AgroDataCube, run by Wageningen Environmental Research at agrodatacube.wur.nl, is a token-gated REST API over an open agri-food data collection for the Netherlands; the WFBR API Portal, run by Wageningen Food & Biobased Research on its own Azure API Management instance, publishes a Food API behind registration and WUR''s own terms of use; the university library operates a complete, keyless OAI-PMH 2.0 endpoint at library.wur.nl/oai over "Wageningen University & Research Publications", serving Dublin Core, MODS, DIDL and OpenAIRE/DataCite metadata; and Wageningen Marine Research runs an OGC WMS/WFS GeoServer at opengeodata.wmr.wur.nl.
+  WUR also operates two SAML identity providers registered in SURFconext and therefore eduGAIN. What WUR does not have is a central API programme: there is no institution-wide developer portal, no course-catalog or registrar API (api.wur.nl and ssc.wur.nl resolve but time out from the public internet), and no published OpenAPI of its own — every OpenAPI in this repository is ours, derived from WUR''s Postman collections and from live probes. The Research Portal at research.wur.nl is an Elsevier Pure tenancy: WUR''s data and DOIs, Elsevier''s contract, and it is recorded here as a tenant relationship rather than credited to WUR as engineering.'
 examples:
 - key_count: 2
   name: Wageningen University Research Cropcodes Example
@@ -159,17 +198,17 @@ jsonld:
   property_count: 2
   slug: wageningen-university-research-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Wageningen University & Research
 nav: Providers
 network: true
-overview: 'Wageningen University & Research publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Altitude API, KPI API, Raster API, and 2 more. Tagged areas include Education, Higher Education, University, Research, and Agriculture.
+overview: 'Wageningen University & Research publishes 6 APIs on the [APIs.io](https://apis.io/) network, including WUR Library OAI-PMH API, Altitude API, KPI API, and 3 more. Tagged areas include Education, Higher Education, University, Research, and Research Data.
 
 
   The Wageningen University & Research catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Wageningen University & Research''s developer surface includes authentication, GitHub presence, and 10 more developer resources.'
+  Wageningen University & Research''s developer surface includes API reference, GitHub presence, authentication, and 17 more developer resources.'
 plans:
 - name: Wageningen University Research Plans Pricing
   plan_count: 2
@@ -201,19 +240,24 @@ rules:
     warn: 2
   slug: wageningen-university-research-rules
 score:
-  band: developing
-  composite: 44.8
-  delta: 4.6
+  band: strong
+  composite: 57.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 12.8
   facets:
-    access_clarity: 42.1
-    commercial_clarity: 42.1
-    contract_governance: 9.8
-    contract_quality: 67.4
-    developer_ergonomics: 31.0
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 28.0
+    contract_quality: 69.7
+    developer_ergonomics: 38.1
     discoverability: 64.8
-    governance: 9.8
+    governance: 28.0
     operational_transparency: 26.3
-  previous_composite: 40.2
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     contracts:
@@ -226,10 +270,10 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 42.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 72.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/screenshots/wageningen-university-research-2026-06-20T201159.png
 security:
 - kind: authentication
@@ -250,9 +294,13 @@ tags:
 - Higher Education
 - University
 - Research
+- Research Data
 - Agriculture
-- Agrifood
+- Agri-Food
+- Geospatial
+- Library
 - Open Data
+- Identity Federation
 - Netherlands
 website: https://www.wur.nl/
 ---

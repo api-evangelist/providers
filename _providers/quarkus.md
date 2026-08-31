@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: quarkus-agentic-access
   summary_line: 9 operations
-api_count: 5
+api_count: 1
 apis:
 - description: The Dev UI API from Quarkus — 1 operation(s) for dev ui.
   name: Quarkus Dev UI API
@@ -175,15 +175,20 @@ rules:
   slug: quarkus-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 26.9
-  delta: 0.0
+  composite: 26.4
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 55.8
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 9.8
     contract_quality: 46.9
     developer_ergonomics: 31.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 10.5
   previous_composite: 26.9
@@ -194,8 +199,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/screenshots/quarkus-2026-06-20T192414.png
 security:

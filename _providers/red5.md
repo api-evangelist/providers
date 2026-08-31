@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -43,11 +43,8 @@ agentic_access:
   operation_count: 35
   slug: red5-agentic-access
   summary_line: 35 operations · 18 acting · 1 human-in-the-loop
-api_count: 17
+api_count: 3
 apis:
-- description: The Red5 Pro Server API is an HTTP-based REST API for gathering server, application, client, and stream statistics from a running Red5 Pro instance. It exposes endpoints for server health checks, appl
-  name: Red5 Pro Server API
-  slug: server-api
 - description: The Red5 Pro WebRTC SDK is a JavaScript library for integrating low-latency live streaming publish and subscribe capabilities into web applications. It supports WHIP for WebRTC publishing and WHEP for
   name: Red5 Pro WebRTC SDK
   slug: webrtc-sdk
@@ -63,9 +60,6 @@ apis:
 - description: Node metrics, system info, and autoscaling management
   name: Red5 Admin API
   slug: red5-admin-api
-- description: Application scope statistics and management
-  name: Red5 Applications API
-  slug: red5-applications-api
 - description: Restream recorded FLV or MP4 files as pseudo-live streams
   name: Red5 File Restreamer API
   slug: red5-file-restreamer-api
@@ -75,9 +69,6 @@ apis:
 - description: Input stream management for mixer sessions
   name: Red5 Inputs API
   slug: red5-inputs-api
-- description: Server log access endpoints
-  name: Red5 Logs API
-  slug: red5-logs-api
 - description: Mixer session lifecycle management
   name: Red5 Mixers API
   slug: red5-mixers-api
@@ -96,7 +87,7 @@ apis:
 - description: Live stream enumeration, statistics, and control
   name: Red5 Streams API
   slug: red5-streams-api
-artifact_total: 50
+artifact_total: 47
 asyncapis:
 - description: AsyncAPI specification for the Red5 Pro WebRTC streaming event system, covering WebSocket signaling messages exchanged during publish and subscribe sessions. Red5 Pro WebRTC uses WebSocket connections
   name: Red5 Pro WebRTC Streaming Events
@@ -154,6 +145,10 @@ collections:
   name: Red5 Pro Brew Mixer Admin Streams API
   slug: open-red5-streams-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/red5-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -281,13 +276,13 @@ modified: '2026-05-19'
 name: Red5
 nav: Providers
 network: true
-overview: 'Red5 publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Pro Server API, Pro WebRTC SDK, Admin API, and 11 more. Tagged areas include Live Streaming, Media, Real-Time, RTMP, and Streaming.
+overview: 'Red5 publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Pro WebRTC SDK, Admin API, File Restreamer API, and 8 more. Tagged areas include Live Streaming, Media, Real-Time, RTMP, and Streaming.
 
 
   The Red5 catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Red5''s developer surface includes authentication, documentation, pricing, engineering blog, and 19 more developer resources.'
+  Red5''s developer surface includes authentication, documentation, pricing, engineering blog, and 20 more developer resources.'
 plans:
 - name: Red5 Plans Pricing
   plan_count: 2
@@ -332,18 +327,23 @@ rules:
   slug: red5-rules
 score:
   band: thin
-  composite: 38.4
-  delta: 1.4
+  composite: 38.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 28.8
-    contract_quality: 60.4
+    contract_quality: 61.1
     developer_ergonomics: 38.1
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 37.0
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -351,8 +351,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/screenshots/red5-2026-06-20T192724.png
 security:

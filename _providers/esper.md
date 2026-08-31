@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
@@ -32,9 +32,9 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.3
-  scored_at: '2026-08-26'
-api_count: 13
+  score: 23.2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: APIs for application management
   name: Esper Application API
@@ -124,6 +124,10 @@ collections:
   name: ESPER API REFERENCE Application Token API
   slug: open-esper-token-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/esper-capability-edges.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -230,22 +234,27 @@ overview: 'Esper publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
   The Esper catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Esper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
+  Esper''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
 random_paper: 18
 score:
   band: developing
-  composite: 49.9
-  delta: 2.5
+  composite: 47.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 57.2
     developer_ergonomics: 63.7
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 47.4
+  previous_composite: 48.5
   provenance:
     conformance: derived
     contracts:
@@ -255,8 +264,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/esper/refs/heads/main/screenshots/esper-2026-07-25T213623.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: zora-agentic-access
   summary_line: 28 operations · 3 acting
-api_count: 31
+api_count: 1
 apis:
 - description: GraphQL API for querying NFT metadata, on-chain sales, mint events, collection attributes, and market statistics across Ethereum mainnet and supported L2 networks. Provides aggregateAttributes, aggreg
   name: Zora NFT GraphQL API
@@ -344,15 +344,20 @@ rules:
   slug: zora-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 34.7
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 58.2
     developer_ergonomics: 17.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 5.3
   previous_composite: 35.3
@@ -363,8 +368,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zora/refs/heads/main/screenshots/zora-2026-06-20T201958.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 2
@@ -31,15 +31,45 @@ agentic_access:
   operation_count: 83
   slug: immuta-agentic-access
   summary_line: 83 operations · 32 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
-- description: The Immuta Data Marketplace API — the REST surface behind the Immuta Request (Provision) app. It supports discovery and management of data products, the data sources and assets attached to them, reque
-  name: Immuta Data Marketplace API
-  slug: marketplace-api
 - description: The Immuta Govern app API — the tenant-hosted REST surface for registering data sources and connections, authoring data, subscription and write policies, managing domains, projects, purposes, tags, fr
   name: Immuta Govern API
   slug: govern-api
-artifact_total: 10
+- description: APIs for managing data access
+  name: Immuta Access Request API
+  slug: immuta-access-request-api
+- description: APIs for managing assets
+  name: Immuta Asset API
+  slug: immuta-asset-api
+- description: The Auth API from Immuta — 3 operation(s) for auth.
+  name: Immuta Auth API
+  slug: immuta-auth-api
+- description: APIs for managing data products
+  name: Immuta Data Product API
+  slug: immuta-data-product-api
+- description: APIs for managing data sources
+  name: Immuta Data Source API
+  slug: immuta-data-source-api
+- description: APIs for managing data use agreements
+  name: Immuta Data Use Agreement API
+  slug: immuta-data-use-agreement-api
+- description: APIs for checking the health of the service
+  name: Immuta Health API
+  slug: immuta-health-api
+- description: APIs used to retrieve metadata from Immuta to enrich the marketplace
+  name: Immuta Metadata API
+  slug: immuta-metadata-api
+- description: APIs for managing notifications
+  name: Immuta Notification API
+  slug: immuta-notification-api
+- description: APIs for managing request forms
+  name: Immuta Request Form API
+  slug: immuta-request-form-api
+- description: APIs used to retrieve metadata settings
+  name: Immuta Settings API
+  slug: immuta-settings-api
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Immuta Webhooks
@@ -49,6 +79,10 @@ collections:
   name: Immuta Data Marketplace
   slug: open-immuta-marketplace-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/immuta-marketplace-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -214,28 +248,33 @@ modified: '2026-08-01'
 name: Immuta
 nav: Providers
 network: true
-overview: 'Immuta publishes 1 API on the [APIs.io](https://apis.io/) network: Data Marketplace API. Tagged areas include Company, Data Governance, Data Access Control, Data Security, and Data Privacy.
+overview: 'Immuta publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Access Request API, Asset API, Auth API, and 8 more. Tagged areas include Company, Data Governance, Data Access Control, Data Security, and Data Privacy.
 
 
   The Immuta catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Immuta''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 31 more developer resources.'
+  Immuta''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 32 more developer resources.'
 random_paper: 2
 score:
   band: strong
-  composite: 59.7
-  delta: 0.0
+  composite: 57.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
-    contract_quality: 66.8
+    contract_governance: 18.2
+    contract_quality: 64.1
     developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 59.7
+  previous_composite: 58.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -252,8 +291,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/screenshots/immuta-2026-08-07T170630.png
 security:

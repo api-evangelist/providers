@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 17
 apis:
 - description: Access FDA Adverse Event Reporting System (FAERS) data covering adverse event reports for drugs and therapeutic biologic products from 2004 onward, updated quarterly.
@@ -89,6 +89,18 @@ apis:
   slug: other-substance-data
 artifact_total: 41
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/FDA/openfda/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/FDA/openfda/blob/master/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/FDA/openfda/blob/master/CONTRIBUTING.txt
 - group: commercial
   title: ''
   type: License
@@ -220,7 +232,7 @@ overview: 'openFDA publishes 17 APIs on the [APIs.io](https://apis.io/) network.
   The openFDA catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  openFDA''s developer surface includes documentation, engineering blog, authentication, and 10 more developer resources.'
+  openFDA''s developer surface includes documentation, engineering blog, authentication, and 13 more developer resources.'
 plans:
 - name: Open Fda Plans Pricing
   plan_count: 2
@@ -243,7 +255,12 @@ rules:
   slug: open-fda-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 26.8
+  composite: 31.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -253,16 +270,19 @@ score:
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 7.6
-    operational_transparency: 21.1
-  previous_composite: 26.8
+    operational_transparency: 31.6
+  open_source:
+    applies: true
+    score: 60.0
+  previous_composite: 31.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/screenshots/open-fda-2026-06-20T190739.png
 security:

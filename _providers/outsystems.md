@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 3
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 150
   slug: outsystems-agentic-access
   summary_line: 150 operations · 56 acting · 3 human-in-the-loop
-api_count: 37
+api_count: 13
 apis:
 - description: Official OutSystems remote Model Context Protocol server (early alpha), exposed per tenant over streamable HTTP with OAuth Dynamic Client Registration. Tool domains cover Apps, the read-only Context S
   name: OutSystems Remote MCP Server
@@ -260,6 +260,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/outsystems-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/outsystems-asset-configurations-api-v1-overlay.yaml
 - group: auth
@@ -430,7 +434,7 @@ network: true
 overview: 'OutSystems publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Analysis Status API, Application Roles API, Assets API, and 33 more. Tagged areas include Company, Low-Code, Application Development, Platform-as-a-Service, and DevOps.
 
 
-  OutSystems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
+  OutSystems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
 random_paper: 2
 rate_limits:
 - limit_count: 12
@@ -443,18 +447,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.2
+  composite: 59.8
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 53.5
     developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 84.2
-  previous_composite: 61.2
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -465,8 +474,8 @@ score:
       total: 36
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outsystems/refs/heads/main/screenshots/outsystems-2026-08-17T124448.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 335
   slug: mx-technologies-agentic-access
   summary_line: 335 operations · 143 acting
-api_count: 31
+api_count: 2
 apis:
 - description: The legacy MX financial data connectivity API supporting over 48,000 data connections to thousands of financial institutions. Provides secure access to user accounts and transactions with industry-lea
   name: MX Atrium API
@@ -355,18 +355,23 @@ rules:
   slug: mx-technologies-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.7
-  delta: 0.8
+  composite: 49.1
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 29.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 25.0
     contract_quality: 71.6
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 48.9
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     contracts:
@@ -380,8 +385,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 35.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/screenshots/mx-technologies-2026-06-20T185910.png
 security:

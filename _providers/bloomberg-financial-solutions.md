@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: Core Bloomberg API providing real-time and reference data access for financial applications across trading, risk, analytics, and compliance workflows.
@@ -47,6 +47,10 @@ apis:
   slug: aim-api
 artifact_total: 16
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -94,14 +98,14 @@ finops:
   slug: bloomberg-financial-solutions-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-financial-solutions.png
 layout: provider
-modified: '2026-04-21'
+modified: '2026-08-27'
 name: Bloomberg Financial Solutions
 nav: Providers
 network: true
 overview: 'Bloomberg Financial Solutions publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Solutions, Market Data, Analytics, Trading, and Risk Management.
 
 
-  Bloomberg Financial Solutions'' developer surface includes developer portal, documentation, support, and 4 more developer resources.'
+  Bloomberg Financial Solutions'' developer surface includes developer portal, documentation, support, and 5 more developer resources.'
 plans:
 - name: Bloomberg Financial Solutions Plans Pricing
   plan_count: 3
@@ -114,6 +118,11 @@ rate_limits:
 score:
   band: emerging
   composite: 19.7
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -131,8 +140,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-financial-solutions/refs/heads/main/screenshots/bloomberg-financial-solutions-2026-06-20T173430.png
 security:

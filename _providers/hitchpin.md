@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -67,6 +67,10 @@ collections:
   name: Django instant-invoice-share rendering API
   slug: open-hitchpin-rendering-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hitchpin-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -185,22 +189,27 @@ network: true
 overview: 'HitchPin publishes 3 APIs on the [APIs.io](https://apis.io/) network: instant-invoice-share API, instant-invoices API, and rendering API. Tagged areas include Company, Marketplace, Agriculture, Livestock, and Hay and Forage.
 
 
-  HitchPin''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, authentication, sandbox, and 17 more developer resources.'
+  HitchPin''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, authentication, sandbox, and 18 more developer resources.'
 random_paper: 15
 score:
   band: thin
-  composite: 29.6
+  composite: 28.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 50.2
     developer_ergonomics: 30.4
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 29.6
+  previous_composite: 28.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,8 +226,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/screenshots/hitchpin-2026-07-25T221300.png
 security:

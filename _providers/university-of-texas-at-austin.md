@@ -10,63 +10,121 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
-api_count: 3
+  score: 25.0
+  scored_at: '2026-08-30'
+api_count: 5
 apis:
-- description: Public DSpace 8 REST API for Texas ScholarWorks, the UT Austin institutional repository of theses, dissertations, faculty research, and open-access scholarship. The API root reports "DSpace at UT Aust
+- description: 'Tapis is the API platform TACC builds and operates for programmatic access to research computing: registering storage and compute systems, moving files, defining applications, submitting and tracking '
+  name: Tapis v3 Research Computing Platform (TACC production tenant)
+  slug: tapis
+- description: UT Austin's Shibboleth identity provider, and the most under-catalogued class of institutional API surface. It publishes SAML 2.0 metadata at /idp/shibboleth (entityID https://enterprise.login.utexas.
+  name: UT Austin Enterprise Identity Provider (SAML 2.0 + OpenID Connect)
+  slug: enterprise-idp
+- description: Public DSpace REST API for Texas ScholarWorks, the UT Libraries institutional repository of theses, dissertations, faculty research and open-access scholarship. The root document reports dspaceName "D
   name: Texas ScholarWorks DSpace REST API
   slug: scholarworks-rest
-- description: OAI-PMH 2.0 metadata-harvesting endpoint for Texas ScholarWorks. An Identify request returns repositoryName "DSpace at UT Austin" with a baseURL of https://repositories.lib.utexas.edu/server/oai/reque
+- description: OAI-PMH 2.0 metadata-harvesting endpoint for Texas ScholarWorks. An Identify request returns repositoryName "DSpace at UT Austin", baseURL https://repositories.lib.utexas.edu/server/oai/request, granu
   name: Texas ScholarWorks OAI-PMH Endpoint
   slug: scholarworks-oai
-- description: UT Austin publishes and archives research datasets in the Texas Data Repository, a Dataverse instance hosted by the Texas Digital Library (shared across Texas institutions). The Dataverse REST API was
-  name: Texas Data Repository (Dataverse) API
+- description: 'UT Austin publishes and archives research datasets in the Texas Data Repository, a Dataverse instance operated by the Texas Digital Library and shared across Texas institutions. The instance reported '
+  name: Texas Data Repository (Dataverse) — UT Austin collection
   slug: texas-data-repository
-artifact_total: 8
+artifact_total: 16
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/university-of-texas-at-austin-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://www.utexas.edu/
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://tacc.utexas.edu/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://identity.utexas.edu/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://repositories.lib.utexas.edu/
 - group: build
   title: ''
-  type: GitHub
-  url: https://github.com/utexas
+  type: LibraryCatalog
+  url: https://search.lib.utexas.edu/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://catalog.utexas.edu/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://dataverse.tdl.org/dataverse/utexas
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://ai.utexas.edu/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.tacc.utexas.edu/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://tapis.readthedocs.io/en/latest/technical/index.html
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/TACC
+- group: other
+  title: ''
+  type: OpenSourceProgramOffice
+  url: https://opensource.utexas.edu/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.utexas.edu/site-policies
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://security.utexas.edu/policies
+- group: operate
+  title: ''
+  type: Support
+  url: https://tacc.utexas.edu/about/help/
+- group: company
+  title: ''
+  type: Blog
+  url: https://news.utexas.edu/
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-texas-at-austin/
-- group: start
+- group: auth
   title: ''
-  type: DeveloperPortal
-  url: https://it.utexas.edu/services/web-publishing-software-development
+  type: DomainSecurity
+  url: security/university-of-texas-at-austin-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -84,7 +142,21 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'The University of Texas at Austin is a flagship public research university in Austin, Texas, United States, ranked #65 in the QS World University Rankings 2025. Its public, machine-readable API footprint is concentrated in its library and research-data infrastructure rather than a single centralized developer portal. The UT Libraries operate Texas ScholarWorks, a DSpace 8 institutional repository exposing a public DSpace REST API and an OAI-PMH metadata-harvesting endpoint, and the university participates in the Texas Data Repository, a Dataverse instance hosted by the Texas Digital Library that offers a documented REST API. Enterprise integration APIs (the UT Austin API Registry / Identity and Access Management services) exist but are gated behind UT EID authentication and internal ServiceNow access.'
+description: 'The University of Texas at Austin is a flagship public research university in Austin, Texas, United States, and the largest institution in the University of Texas System. It operates no central developer portal, publishes no institution-wide API catalog, and its enterprise integration APIs (Identity and Access Management, student and financial systems) are gated behind UT EID authentication and an internal ServiceNow request process, so they are not publicly readable. What UT Austin does genuinely operate and expose publicly is narrower and more specific than a portal: the Tapis v3 research-computing platform, designed, built and run by the Texas Advanced Computing Center — an organized research unit of UT Austin — which serves five OpenAPI-described services (Systems, Files, Apps, Jobs, Notifications) on its production TACC tenant; an InCommon-registered Shibboleth identity provider publishing both SAML 2.0 metadata and an OpenID Connect discovery document; and Texas ScholarWorks,
+  the UT Libraries DSpace repository, with a public REST API and an OAI-PMH 2.0 harvesting endpoint on the university''s own host. Its research-data archive is a tenancy rather than an operation: UT Austin publishes into a Dataverse collection on the Texas Digital Library''s shared instance, and the library discovery layer is Ex Libris Primo. Both are recorded here as relationships, not as UT Austin engineering.'
+examples:
+- key_count: 26
+  name: University Of Texas At Austin Idp Openid Configuration
+  slug: university-of-texas-at-austin-idp-openid-configuration
+- key_count: 6
+  name: University Of Texas At Austin Scholarworks Dspace Root
+  slug: university-of-texas-at-austin-scholarworks-dspace-root
+- key_count: 7
+  name: University Of Texas At Austin Tapis Systems Healthcheck
+  slug: university-of-texas-at-austin-tapis-systems-healthcheck
+- key_count: 2
+  name: University Of Texas At Austin Tdr Dataverse Collection
+  slug: university-of-texas-at-austin-tdr-dataverse-collection
 finops:
 - name: University Of Texas At Austin Finops
   service_category: Education
@@ -96,17 +168,17 @@ jsonld:
   property_count: 3
   slug: university-of-texas-at-austin-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: University of Texas at Austin
 nav: Providers
 network: true
-overview: 'University of Texas at Austin publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Library.
+overview: 'University of Texas at Austin publishes 1 API on the [APIs.io](https://apis.io/) network: Tapis v3 Research Computing Platform (TACC production tenant). Tagged areas include University, Higher Education, Education, Public Research University, and United States.
 
 
   The University of Texas at Austin catalog on APIs.io includes 1 JSON-LD context.
 
 
-  University of Texas at Austin''s developer surface includes GitHub presence and 8 more developer resources.'
+  University of Texas at Austin''s developer surface includes documentation, API reference, support, engineering blog, and 18 more developer resources.'
 plans:
 - name: University Of Texas At Austin Plans Pricing
   plan_count: 2
@@ -116,44 +188,61 @@ rate_limits:
 - limit_count: 1
   name: University Of Texas At Austin Rate Limits
   slug: university-of-texas-at-austin-rate-limits
+scopes:
+- name: University Of Texas At Austin Scopes
+  scope_count: 0
+  slug: university-of-texas-at-austin-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 24.6
-  delta: 4.5
+  band: developing
+  composite: 50.7
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 26.1
   facets:
-    access_clarity: 42.1
-    commercial_clarity: 42.1
+    access_clarity: 63.2
+    commercial_clarity: 63.2
     contract_governance: 0.0
-    contract_quality: 10.7
-    developer_ergonomics: 19.0
+    contract_quality: 59.2
+    developer_ergonomics: 35.7
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 20.1
+    operational_transparency: 23.7
+  previous_composite: 24.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 64.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 security:
+- kind: authentication
+  name: University Of Texas At Austin Authentication
+  slug: university-of-texas-at-austin-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: University Of Texas At Austin Domain Security
   slug: university-of-texas-at-austin-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: university-of-texas-at-austin
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Library
-- Open Data
-- Institutional Repository
+- Higher Education
+- Education
+- Public Research University
 - United States
 - Texas
+- Research Computing
+- Identity Federation
+- Institutional Repository
+- Research Data
+- Library
+- Open Data
 website: https://www.utexas.edu/
 ---

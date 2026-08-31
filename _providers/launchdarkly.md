@@ -11,30 +11,31 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
+    dynamic_client_registration: true
+    error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-08-26'
+  score: 46.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 58
   slug: launchdarkly-agentic-access
   summary_line: 58 operations · 25 acting
-api_count: 27
+api_count: 3
 apis:
 - description: The LaunchDarkly Webhooks API allows developers to build custom integrations that subscribe to activity events within LaunchDarkly. When actions occur such as flag changes, project creation, or enviro
   name: LaunchDarkly Webhooks API
@@ -125,7 +126,16 @@ apis:
 - description: Create and manage automated workflows for scheduling and orchestrating flag changes.
   name: launchdarkly Workflows API
   slug: launchdarkly-workflows-api
-artifact_total: 154
+- description: LaunchDarkly operates a first-party hosted Model Context Protocol server at https://mcp.launchdarkly.com/mcp/launchdarkly, reachable by any MCP client over streamable HTTP and authorized with OAuth 2.
+  name: LaunchDarkly MCP Server
+  slug: launchdarkly-mcp-server
+- description: The Backup API from LaunchDarkly — 1 operation(s) for backup.
+  name: LaunchDarkly Backup API
+  slug: launchdarkly-backup-api
+- description: The Debug Sessions API from LaunchDarkly — 3 operation(s) for debug sessions.
+  name: LaunchDarkly Debug Sessions API
+  slug: launchdarkly-debug-sessions-api
+artifact_total: 161
 asyncapis:
 - description: LaunchDarkly sends webhook notifications as HTTP POST requests when changes occur within the platform. The webhook payload format is identical to audit log entries and includes details about what chan
   name: LaunchDarkly Webhooks Events
@@ -219,6 +229,10 @@ collections:
   name: LaunchDarkly Relay Proxy Access Tokens Workflows API
   slug: open-launchdarkly-workflows-api
 common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/launchdarkly-trust-center.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -255,11 +269,160 @@ common:
   title: ''
   type: Blog
   url: https://launchdarkly.com/blog/feed/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/launchdarkly-rest-api-openapi.json
 - group: agent
   title: ''
-  type: LlmsText
-  url: https://apidocs.launchdarkly.com/llms.txt
-description: LaunchDarkly is a feature management platform that enables development teams to deliver and control software through feature flags, allowing them to test in production and roll out features safely.
+  type: LLMsTxt
+  url: llms/launchdarkly-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/launchdarkly-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/launchdarkly-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/launchdarkly-cli.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/launchdarkly-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/launchdarkly-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/launchdarkly-tool-crosswalk.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/launchdarkly-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/launchdarkly-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/launchdarkly-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/launchdarkly-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/launchdarkly-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.launchdarkly.com/
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://launchdarkly.com/policies/end-of-life-policy/
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/launchdarkly-scopes.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/launchdarkly-data-model.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/launchdarkly-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/launchdarkly-sandbox.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/launchdarkly-rest-api-overlay.yaml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/launchdarkly-webhooks-asyncapi.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/launchdarkly-webhooks-asyncapi.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/launchdarkly-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/launchdarkly-rate-limits.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://launchdarkly.com/docs/home
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://launchdarkly.com/docs/home
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://launchdarkly.com/docs/api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://launchdarkly.com/docs/home/getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.launchdarkly.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://launchdarkly.com/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.launchdarkly.com/signup
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://launchdarkly.com/policies/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://launchdarkly.com/privacy/
+- group: company
+  title: ''
+  type: Blog
+  url: https://launchdarkly.com/blog/
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/launchdarkly/ldcli
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/launchdarkly-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/launchdarkly-vulnerability-disclosure.yml
+created: 2024/04/14
+description: LaunchDarkly is a feature management and runtime control platform. Development teams use it to wrap releases in feature flags, target variations at specific users, contexts, segments and environments, run experiments and guarded rollouts, and turn a change back off without shipping new code. The platform now extends the same targeting, approval and audit machinery to AI through AgentControl, where prompts, models, tools and agent graphs are versioned and rolled out as configs, and to observability through session replay, errors, logs and traces. LaunchDarkly publishes a 401-operation REST API, more than thirty SDKs across thirteen client-side, thirteen server-side and four edge runtimes, a self-hosted Relay Proxy, a CLI, and a hosted MCP server exposing 125 tools to AI clients. LaunchDarkly is operated by Catamorphic Co.
 features:
 - 'Developer free: unlimited flags, seats, 30 SDKs, 5K replays, 10M logs'
 - 'Foundation: $12/mo per Service Connection + $10 per 1k client MAU'
@@ -507,31 +670,35 @@ jsonld:
   property_count: 15
   slug: launchdarkly-context
 layout: provider
-modified: '2026-05-19'
-name: launchdarkly
+mcp_servers:
+- description: LaunchDarkly operates a first-party hosted MCP server covering feature management, AgentControl and observability, and also publishes a local stdio server for the federal and EU instances where the ho
+  name: LaunchDarkly MCP Server
+  slug: launchdarkly-mcp-server
+modified: '2026-08-27'
+name: LaunchDarkly
 nav: Providers
 network: true
-overview: 'launchdarkly publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Access Tokens API, Account Members API, and 24 more.
+overview: 'LaunchDarkly publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Webhooks API, Access Tokens API, Account Members API, and 26 more. Tagged areas include Feature Flags, Feature Management, Experimentation, Observability, and Continuous Delivery.
 
 
-  The launchdarkly catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The LaunchDarkly catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  launchdarkly''s developer surface includes authentication, engineering blog, and 8 more developer resources.'
+  LaunchDarkly''s developer surface includes authentication, engineering blog, CLI, changelog, sandbox, documentation, API reference, and 41 more developer resources.'
 plans:
 - name: Launchdarkly Plans Pricing
   plan_count: 4
   slug: launchdarkly-plans-pricing
 random_paper: 1
 rate_limits:
-- limit_count: 3
+- limit_count: 4
   name: Launchdarkly Rate Limits
   slug: launchdarkly-rate-limits
 rules:
 - effective_rule_count: 35
   extends:
   - spectral:asyncapi
-  name: launchdarkly API Rules
+  name: LaunchDarkly API Rules
   rule_count: 8
   severity_counts:
     error: 1
@@ -541,7 +708,7 @@ rules:
   slug: launchdarkly-asyncapi-spectral-rules
 - effective_rule_count: 6
   extends: []
-  name: launchdarkly API Rules
+  name: LaunchDarkly API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -549,20 +716,30 @@ rules:
     info: 2
     warn: 4
   slug: launchdarkly-jsonschema-spectral-rules
+scopes:
+- name: Launchdarkly Scopes
+  scope_count: 0
+  slug: launchdarkly-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 32.8
-  delta: 1.9
+  band: exemplar
+  composite: 71.0
+  coverage:
+    artifact_dirs: 33
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 13.6
-    contract_quality: 67.7
-    developer_ergonomics: 23.8
-    discoverability: 50.0
-    governance: 13.6
-    operational_transparency: 10.5
-  previous_composite: 30.9
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 31.8
+    contract_quality: 70.8
+    developer_ergonomics: 85.7
+    discoverability: 81.5
+    governance: 31.8
+    operational_transparency: 68.4
+  previous_composite: 71.0
   provenance:
     agentic_access: derived
     contracts:
@@ -570,22 +747,38 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 26
-  regulatory:
-    applies: false
-    note: provider carries no tags; regime could not be determined
-    undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/screenshots/launchdarkly-2026-06-20T184335.png
 security:
 - kind: authentication
   name: Launchdarkly Authentication
   slug: launchdarkly-authentication
-  summary_line: apiKey/http · 2 schemes
+  summary_line: apiKey/oauth2 · 3 schemes
 - kind: domain-security
   name: Launchdarkly Domain Security
   slug: launchdarkly-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Launchdarkly Vulnerability Disclosure
+  slug: launchdarkly-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Launchdarkly Trust Center
+  slug: launchdarkly-trust-center
+  summary_line: SOC 2, ISO 27001, HIPAA, FedRAMP, GDPR
 slug: launchdarkly
+tags:
+- Feature Flags
+- Feature Management
+- Experimentation
+- Observability
+- Continuous Delivery
+- DevOps
+- AI Agents
+- Release Management
+- Developer Tools
+- T1
+website: https://launchdarkly.com/docs/home
 ---

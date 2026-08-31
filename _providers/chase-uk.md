@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -33,17 +33,96 @@ agentic_access:
   summary_line: 74 operations · 20 acting
 api_count: 3
 apis:
-- description: Chase UK's Account Information Service (AIS) dedicated interface, conformant to the OBIE Read/Write API Standard, letting FCA-authorised AISPs retrieve a consenting customer's account, balance, transa
-  name: Chase UK Account and Transaction Information API (AIS)
-  slug: chase-uk-account-information-api
-- description: Chase UK's Payment Initiation Service (PIS) dedicated interface, conformant to the OBIE Read/Write API Standard, enabling FCA-authorised PISPs to create single immediate payments, future-dated payment
-  name: Chase UK Payment Initiation API (PIS)
-  slug: chase-uk-payment-initiation-api
-- description: Chase UK's Confirmation of Funds (CBPII) dedicated interface, conformant to the OBIE Read/Write API Standard, allowing an FCA-authorised card-based payment instrument issuer to check whether a specifi
-  name: Chase UK Confirmation of Funds API (CBPII)
-  slug: chase-uk-confirmation-of-funds-api
-artifact_total: 8
+- description: The Account Access Consents API from Chase UK — 2 operation(s) for account access consents.
+  name: Chase UK Account Access Consents API
+  slug: chase-uk-account-access-consents-api
+- description: The Accounts API from Chase UK — 2 operation(s) for accounts.
+  name: Chase UK Accounts API
+  slug: chase-uk-accounts-api
+- description: The Balances API from Chase UK — 2 operation(s) for balances.
+  name: Chase UK Balances API
+  slug: chase-uk-balances-api
+- description: The Beneficiaries API from Chase UK — 2 operation(s) for beneficiaries.
+  name: Chase UK Beneficiaries API
+  slug: chase-uk-beneficiaries-api
+- description: The Direct Debits API from Chase UK — 2 operation(s) for direct debits.
+  name: Chase UK Direct Debits API
+  slug: chase-uk-direct-debits-api
+- description: The Domestic Payment Consents API from Chase UK — 3 operation(s) for domestic payment consents.
+  name: Chase UK Domestic Payment Consents API
+  slug: chase-uk-domestic-payment-consents-api
+- description: The Domestic Payments API from Chase UK — 3 operation(s) for domestic payments.
+  name: Chase UK Domestic Payments API
+  slug: chase-uk-domestic-payments-api
+- description: The Domestic Scheduled Payment Consents API from Chase UK — 2 operation(s) for domestic scheduled payment consents.
+  name: Chase UK Domestic Scheduled Payment Consents API
+  slug: chase-uk-domestic-scheduled-payment-consents-api
+- description: The Domestic Scheduled Payments API from Chase UK — 3 operation(s) for domestic scheduled payments.
+  name: Chase UK Domestic Scheduled Payments API
+  slug: chase-uk-domestic-scheduled-payments-api
+- description: The Domestic Standing Order Consents API from Chase UK — 2 operation(s) for domestic standing order consents.
+  name: Chase UK Domestic Standing Order Consents API
+  slug: chase-uk-domestic-standing-order-consents-api
+- description: The Domestic Standing Orders API from Chase UK — 3 operation(s) for domestic standing orders.
+  name: Chase UK Domestic Standing Orders API
+  slug: chase-uk-domestic-standing-orders-api
+- description: The File Payment Consents API from Chase UK — 3 operation(s) for file payment consents.
+  name: Chase UK File Payment Consents API
+  slug: chase-uk-file-payment-consents-api
+- description: The File Payments API from Chase UK — 4 operation(s) for file payments.
+  name: Chase UK File Payments API
+  slug: chase-uk-file-payments-api
+- description: The Funds Confirmation Consents API from Chase UK — 2 operation(s) for funds confirmation consents.
+  name: Chase UK Funds Confirmation Consents API
+  slug: chase-uk-funds-confirmation-consents-api
+- description: The Funds Confirmations API from Chase UK — 1 operation(s) for funds confirmations.
+  name: Chase UK Funds Confirmations API
+  slug: chase-uk-funds-confirmations-api
+- description: The International Payment Consents API from Chase UK — 3 operation(s) for international payment consents.
+  name: Chase UK International Payment Consents API
+  slug: chase-uk-international-payment-consents-api
+- description: The International Payments API from Chase UK — 3 operation(s) for international payments.
+  name: Chase UK International Payments API
+  slug: chase-uk-international-payments-api
+- description: The International Scheduled Payments API from Chase UK — 3 operation(s) for international scheduled payments.
+  name: Chase UK International Scheduled Payments API
+  slug: chase-uk-international-scheduled-payments-api
+- description: The International Scheduled Payments Consents API from Chase UK — 3 operation(s) for international scheduled payments consents.
+  name: Chase UK International Scheduled Payments Consents API
+  slug: chase-uk-international-scheduled-payments-consents-api
+- description: The International Standing Orders API from Chase UK — 3 operation(s) for international standing orders.
+  name: Chase UK International Standing Orders API
+  slug: chase-uk-international-standing-orders-api
+- description: The International Standing Orders Consents API from Chase UK — 2 operation(s) for international standing orders consents.
+  name: Chase UK International Standing Orders Consents API
+  slug: chase-uk-international-standing-orders-consents-api
+- description: The Offers API from Chase UK — 2 operation(s) for offers.
+  name: Chase UK Offers API
+  slug: chase-uk-offers-api
+- description: The Parties API from Chase UK — 3 operation(s) for parties.
+  name: Chase UK Parties API
+  slug: chase-uk-parties-api
+- description: The Products API from Chase UK — 2 operation(s) for products.
+  name: Chase UK Products API
+  slug: chase-uk-products-api
+- description: The Scheduled Payments API from Chase UK — 2 operation(s) for scheduled payments.
+  name: Chase UK Scheduled Payments API
+  slug: chase-uk-scheduled-payments-api
+- description: The Standing Orders API from Chase UK — 2 operation(s) for standing orders.
+  name: Chase UK Standing Orders API
+  slug: chase-uk-standing-orders-api
+- description: The Statements API from Chase UK — 5 operation(s) for statements.
+  name: Chase UK Statements API
+  slug: chase-uk-statements-api
+- description: The Transactions API from Chase UK — 2 operation(s) for transactions.
+  name: Chase UK Transactions API
+  slug: chase-uk-transactions-api
+artifact_total: 33
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/chase-uk-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -165,10 +244,10 @@ modified: '2026-07-23'
 name: Chase UK
 nav: Providers
 network: true
-overview: 'Chase UK publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API (AIS), Payment Initiation API (PIS), and Confirmation of Funds API (CBPII). Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Chase UK publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, Balances API, and 25 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  Chase UK''s developer surface includes authentication, documentation, getting-started guide, support, sandbox, and 22 more developer resources.'
+  Chase UK''s developer surface includes authentication, documentation, getting-started guide, support, sandbox, and 23 more developer resources.'
 random_paper: 8
 scopes:
 - name: Chase Uk Scopes
@@ -177,18 +256,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 43.4
+  composite: 41.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 54.4
     developer_ergonomics: 47.0
     discoverability: 72.2
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 43.4
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -201,12 +285,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2-sca
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chase-uk/refs/heads/main/screenshots/chase-uk-2026-07-25T205111.png
 security:

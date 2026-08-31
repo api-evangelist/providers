@@ -6,7 +6,7 @@ agent_readiness:
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: true
     delegated_identity: false
     dry_run_mode: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.0
-  scored_at: '2026-08-26'
+  score: 31.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -31,45 +31,84 @@ agentic_access:
   operation_count: 62
   slug: ordnance-survey-agentic-access
   summary_line: 62 operations · 1 acting
-api_count: 12
+api_count: 10
 apis:
-- description: OGC API - Features conformant access to the OS National Geographic Database, serving building, land, address, and transport feature collections as GeoJSON. The OpenAPI 3.0.1 description is served live
-  name: OS NGD API - Features
-  slug: os-ngd-api-features
-- description: OGC API - Tiles conformant vector tile service over the OS National Geographic Database, including tile matrix sets and styles. The OpenAPI 3.0.1 description is served live and anonymously at /api.
-  name: OS NGD API - Tiles
-  slug: os-ngd-api-tiles
-- description: 'Automated bulk download of OS OpenData and OS Premium datasets. The OpenData half of this API answers anonymously with no key - 26 open products including OS Open UPRN, OS Open TOID, Code-Point Open, '
-  name: OS Downloads API
-  slug: os-downloads-api
-- description: High-precision GNSS data from the OS Net network of continuously operating reference stations across Great Britain, including station metadata, health, and RINEX observation files.
-  name: OS Net API
-  slug: os-net-api
-- description: Address search and geocoding over AddressBase Premium - every UPRN in the United Kingdom, Jersey, Guernsey, and the Isle of Man, with current, provisional, and historic address records and TOID cross-
-  name: OS Places API
-  slug: os-places-api
-- description: A geographic directory of identifiable places, roads, and settlements in Great Britain, with find and nearest operations.
-  name: OS Names API
-  slug: os-names-api
-- description: Resolves the relationships between properties, streets, and OS MasterMap identifiers - UPRN to TOID to USRN - which is the join key between OS data, HM Land Registry records, and local authority prope
-  name: OS Linked Identifiers API
-  slug: os-linked-identifiers-api
 - description: 'Matched and cleansed supplied address strings against OS authoritative addressing data, returning a matched AddressBase record and confidence score. WITHDRAWN: end of life 31 March 2026, announced 24 '
   name: OS Match & Cleanse API (withdrawn)
   slug: os-match-and-cleanse-api
-- description: OGC Web Feature Service (WFS 2.0.0) over OS MasterMap and premium feature data, with getCapabilities, describeFeatureType, and getFeature operations plus a product archive. XML/WFS rather than OpenAPI
-  name: OS Features API
-  slug: os-features-api
-- description: Pre-rendered raster map tiles in multiple OS styles, served as OGC WMTS and as ZXY tiles.
-  name: OS Maps API
-  slug: os-maps-api
-- description: Vector tile service delivering detailed OS MasterMap data as styleable vector tiles.
-  name: OS Vector Tile API
-  slug: os-vector-tile-api
 - description: OAuth 2.0 client credentials token service issuing time-limited access tokens for OS Data Hub APIs, so project API keys need not be embedded in browser code. The token URL is https://api.os.uk/oauth2/
   name: OS OAuth 2 API
   slug: os-oauth2-api
-artifact_total: 38
+- description: Find all addresses inside a bounding box.
+  name: Ordnance Survey Bounding box API
+  slug: ordnance-survey-bounding-box-api
+- description: Retrieve information about collections
+  name: Ordnance Survey Collections API
+  slug: ordnance-survey-collections-api
+- description: The Data Collections API from Ordnance Survey — 2 operation(s) for data collections.
+  name: Ordnance Survey Data Collections API
+  slug: ordnance-survey-data-collections-api
+- description: Operations providing access to data packages. To access data packages you must supply a valid API key or OAuth 2 access token.
+  name: Ordnance Survey Data Packages API
+  slug: ordnance-survey-data-packages-api
+- description: Retrieve features
+  name: Ordnance Survey Features API
+  slug: ordnance-survey-features-api
+- description: A free string text search of OS Names, intended to be an ambiguous/fuzzy search.
+  name: Ordnance Survey Find API
+  slug: ordnance-survey-find-api
+- description: Returns a metadata document describing the WFS service provided by the server as well as valid WFS operations and parameters.
+  name: Ordnance Survey Get Capabilities API
+  slug: ordnance-survey-getcapabilities-api
+- description: Ordnance Survey NGD API – Features
+  name: Ordnance Survey Landing Page API
+  slug: ordnance-survey-landing-page-api
+- description: Find the features closest to a given point.
+  name: Ordnance Survey Nearest API
+  slug: ordnance-survey-nearest-api
+- description: Operations providing access to OpenData products.
+  name: Ordnance Survey Open Data API
+  slug: ordnance-survey-opendata-api
+- description: Operations available to customers using the OpenData plan
+  name: Ordnance Survey OS OpenData Users API
+  slug: ordnance-survey-os-opendata-users-api
+- description: Find all addresses in a polygon or multi-polygon object.
+  name: Ordnance Survey Polygon API
+  slug: ordnance-survey-polygon-api
+- description: A search based on a property’s postcode
+  name: Ordnance Survey Postcode API
+  slug: ordnance-survey-postcode-api
+- description: Find all addresses that intersect a given circle.
+  name: Ordnance Survey Radius API
+  slug: ordnance-survey-radius-api
+- description: The Rinex API from Ordnance Survey — 5 operation(s) for rinex.
+  name: Ordnance Survey Rinex API
+  slug: ordnance-survey-rinex-api
+- description: Service Metadata for OS Vector Tiles API
+  name: Ordnance Survey Service Metadata API
+  slug: ordnance-survey-service-metadata-api
+- description: The Stations API from Ordnance Survey — 5 operation(s) for stations.
+  name: Ordnance Survey Stations API
+  slug: ordnance-survey-stations-api
+- description: The Styles API from Ordnance Survey — 5 operation(s) for styles.
+  name: Ordnance Survey Styles API
+  slug: ordnance-survey-styles-api
+- description: Access and download data for a specific tile
+  name: Ordnance Survey Tile Request API
+  slug: ordnance-survey-tile-request-api
+- description: The Tile Sets API from Ordnance Survey — 2 operation(s) for tile sets.
+  name: Ordnance Survey Tile Sets API
+  slug: ordnance-survey-tile-sets-api
+- description: The Tiling Schemes API from Ordnance Survey — 2 operation(s) for tiling schemes.
+  name: Ordnance Survey Tiling Schemes API
+  slug: ordnance-survey-tiling-schemes-api
+- description: A search that takes a UPRN as the search parameter.
+  name: Ordnance Survey UPRN API
+  slug: ordnance-survey-uprn-api
+- description: The Vector Tiles API from Ordnance Survey — 2 operation(s) for vector tiles.
+  name: Ordnance Survey Vector Tiles API
+  slug: ordnance-survey-vector-tiles-api
+artifact_total: 51
 collections:
 - collection_type: postman
   name: Ordnance Survey Download API
@@ -126,6 +165,46 @@ collections:
   name: OS Vector Tiles API
   slug: open-ordnance-survey-vector-tile
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ordnance-survey-ngd-features-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ordnance-survey-ngd-tiles-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ordnance-survey-downloads-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ordnance-survey-osnet-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ordnance-survey-places-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ordnance-survey-names-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ordnance-survey-linked-identifiers-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ordnance-survey-features-wfs-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ordnance-survey-maps-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ordnance-survey-vector-tile-overlay.yaml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -362,10 +441,10 @@ modified: '2026-07-26'
 name: Ordnance Survey
 nav: Providers
 network: true
-overview: 'Ordnance Survey publishes 10 APIs on the [APIs.io](https://apis.io/) network, including OS NGD API - Features, OS NGD API - Tiles, OS Downloads API, and 7 more. Tagged areas include Real-Estate, United Kingdom, Land Registry, Geospatial, and Addressing.
+overview: 'Ordnance Survey publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Bounding box API, Collections API, Data Collections API, and 20 more. Tagged areas include Real-Estate, United Kingdom, Land Registry, Geospatial, and Addressing.
 
 
-  Ordnance Survey''s developer surface includes authentication, documentation, getting-started guide, SDKs, sandbox, changelog, API reference, and 49 more developer resources.'
+  Ordnance Survey''s developer surface includes authentication, documentation, getting-started guide, SDKs, sandbox, changelog, API reference, and 59 more developer resources.'
 plans:
 - name: Ordnance Survey Plans
   plan_count: 3
@@ -382,18 +461,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 62.2
-  delta: -0.4
+  composite: 60.1
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
-    contract_governance: 30.3
-    contract_quality: 45.8
+    contract_governance: 18.2
+    contract_quality: 45.5
     developer_ergonomics: 68.5
-    discoverability: 77.8
-    governance: 30.3
+    discoverability: 72.2
+    governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 62.6
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -410,8 +494,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 68.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ordnance-survey/refs/heads/main/screenshots/ordnance-survey-2026-08-07T190917.png
 security:

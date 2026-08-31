@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 10
 apis:
 - description: Versioned external REST API introduced in Sourcegraph 7.0 and intended as the stable integration surface going forward. Each Sourcegraph instance exposes its own /api-reference path where the live Ope
@@ -68,6 +68,14 @@ apis:
   slug: src-cli
 artifact_total: 37
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/sourcegraph/cody-public-snapshot/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/sourcegraph/cody-public-snapshot/releases
 - group: commercial
   title: ''
   type: License
@@ -190,10 +198,10 @@ modified: '2026-05-30'
 name: Sourcegraph
 nav: Providers
 network: true
-overview: 'Sourcegraph publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Intelligence, Code Search, Cody, AMP, and AI Coding Agent.
+overview: 'Sourcegraph publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Intelligence, Code Search, Cody, Amp, and AI Coding Agent.
 
 
-  Sourcegraph''s developer surface includes developer portal, documentation, API reference, engineering blog, CLI, pricing, support, and 11 more developer resources.'
+  Sourcegraph''s developer surface includes developer portal, documentation, API reference, engineering blog, CLI, pricing, support, and 13 more developer resources.'
 plans:
 - name: Sourcegraph Plans Pricing
   plan_count: 1
@@ -205,8 +213,13 @@ rate_limits:
   slug: sourcegraph-rate-limits
 score:
   band: thin
-  composite: 29.5
-  delta: 2.4
+  composite: 30.9
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -215,10 +228,13 @@ score:
     developer_ergonomics: 52.4
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 23.7
-  previous_composite: 27.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 30.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcegraph/refs/heads/main/screenshots/sourcegraph-2026-06-20T194223.png
 security:
@@ -239,7 +255,7 @@ tags:
 - Code Intelligence
 - Code Search
 - Cody
-- AMP
+- Amp
 - AI Coding Agent
 - GraphQL
 - REST API

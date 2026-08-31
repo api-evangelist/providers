@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: smithsonian-institution-agentic-access
   summary_line: 5 operations
-api_count: 3
+api_count: 1
 apis:
 - description: The Content API from Smithsonian Institution — 1 operation(s) for content.
   name: Smithsonian Institution Content API
@@ -71,6 +71,10 @@ collections:
   name: Smithsonian Open Access API
   slug: open-smithsonian-open-access
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Smithsonian/smithsonian-openaccess/issues
 - group: commercial
   title: ''
   type: License
@@ -158,7 +162,7 @@ overview: 'Smithsonian Institution publishes 3 APIs on the [APIs.io](https://api
   The Smithsonian Institution catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Smithsonian Institution''s developer surface includes authentication and 12 more developer resources.'
+  Smithsonian Institution''s developer surface includes authentication and 13 more developer resources.'
 plans:
 - name: Smithsonian Institution Plans Pricing
   plan_count: 3
@@ -192,18 +196,26 @@ rules:
   slug: smithsonian-rules
 score:
   band: thin
-  composite: 36.7
-  delta: 4.5
+  composite: 32.7
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 13.6
     contract_quality: 59.2
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 32.2
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -217,8 +229,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smithsonian-institution/refs/heads/main/screenshots/smithsonian-institution-2026-06-20T194059.png
 security:

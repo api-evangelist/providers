@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The fastest continuous integration and continuous delivery platform
@@ -70,7 +70,12 @@ random_paper: 11
 score:
   band: minimal
   composite: 9.3
-  delta: 1.9
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 90.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -80,9 +85,9 @@ score:
     discoverability: 53.7
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 7.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 9.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buddy/refs/heads/main/screenshots/buddy-2026-06-20T173742.png
 security:

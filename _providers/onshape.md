@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 302
   slug: onshape-agentic-access
   summary_line: 302 operations · 142 acting · 2 human-in-the-loop
-api_count: 42
+api_count: 1
 apis:
 - description: Manage user purchases, subscriptions, and consumables.
   name: Onshape Account API
@@ -305,6 +305,10 @@ collections:
   name: Onshape REST Account Workflow API
   slug: open-onshape-workflow-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/onshape-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -459,7 +463,7 @@ overview: 'Onshape publishes 42 APIs on the [APIs.io](https://apis.io/) network,
   The Onshape catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Onshape''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 27 more developer resources.'
+  Onshape''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 28 more developer resources.'
 random_paper: 15
 rate_limits:
 - limit_count: 0
@@ -472,18 +476,23 @@ scopes:
   summary_line: 24 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 50.8
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 61.2
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 52.9
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -494,8 +503,8 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onshape/refs/heads/main/screenshots/onshape-2026-08-07T190412.png
 security:

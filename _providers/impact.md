@@ -34,30 +34,217 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-26'
-api_count: 5
+  scored_at: '2026-08-30'
+api_count: 138
 apis:
-- description: 'REST API for brands and advertisers: partners, programs, contracts, actions and conversions, deals, promo codes, catalogs, ads, tracking links, invoices, exception lists, reports and bulk export jobs.'
-  name: Impact Brand API
-  slug: brand-api
-- description: 'REST API for media partners, publishers and creators: programs, contracts, actions and action inquiries, clicks, ads, tracking links, promo codes, catalogs, stores, media properties, invoices, tax doc'
-  name: Impact Partner API
-  slug: partner-api
-- description: 'REST API for agencies managing multiple advertiser accounts: advertiser roster, company information, compliance content submission, report export and job management. Version 3.'
-  name: Impact Agency API
-  slug: agency-api
-- description: 'REST and GraphQL API for impact.com Advocate, the customer-referral product acquired as SaaSquatch: participants, referrals, referral codes, rewards and reward balances, share links, data exports and '
-  name: Impact Advocate API
-  slug: advocate-api
 - description: Remote Model Context Protocol server for impact.com. Fifteen documented tools give an AI assistant account-scoped access to performance analytics, invoices, partner and program discovery, promo codes,
   name: Impact MCP Server
   slug: mcp-server
-artifact_total: 16
+- description: The Account API from Impact — 2 operation(s) for account.
+  name: Impact Account API
+  slug: impact-account-api
+- description: Endpoints for managing partner company account information.
+  name: Impact Accounts API
+  slug: impact-accounts-api
+- description: The Action Inquiries API from Impact — 4 operation(s) for action inquiries.
+  name: Impact Action Inquiries API
+  slug: impact-action-inquiries-api
+- description: The Action Updates API from Impact — 2 operation(s) for action updates.
+  name: Impact Action Updates API
+  slug: impact-action-updates-api
+- description: The Actions API from Impact — 10 operation(s) for actions.
+  name: Impact Actions API
+  slug: impact-actions-api
+- description: The Ads API from Impact — 7 operation(s) for ads.
+  name: Impact Ads API
+  slug: impact-ads-api
+- description: Advertiser accounts managed by this agency.
+  name: Impact Advertisers API
+  slug: impact-advertisers-api
+- description: The API Submissions API from Impact — 2 operation(s) for api submissions.
+  name: Impact API Submissions API
+  slug: impact-api-submissions-api
+- description: The Call Data API from Impact — 1 operation(s) for call data.
+  name: Impact Call Data API
+  slug: impact-call-data-api
+- description: The Catalog Items API from Impact — 3 operation(s) for catalog items.
+  name: Impact Catalog Items API
+  slug: impact-catalog-items-api
+- description: The Catalogs API from Impact — 8 operation(s) for catalogs.
+  name: Impact Catalogs API
+  slug: impact-catalogs-api
+- description: The ClickExport API from Impact — 2 operation(s) for clickexport.
+  name: Impact Click Export API
+  slug: impact-clickexport-api
+- description: The Clicks API from Impact — 2 operation(s) for clicks.
+  name: Impact Clicks API
+  slug: impact-clicks-api
+- description: Your agency's company profile, addresses, and key contacts.
+  name: Impact Company Information API
+  slug: impact-company-information-api
+- description: Submit content for impact.com compliance monitoring and retrieve job status and results.
+  name: Impact Compliance Content API
+  slug: impact-compliance-content-api
+- description: The Contacts API from Impact — 2 operation(s) for contacts.
+  name: Impact Contacts API
+  slug: impact-contacts-api
+- description: The Contracts API from Impact — 5 operation(s) for contracts.
+  name: Impact Contracts API
+  slug: impact-contracts-api
+- description: The Conversions API from Impact — 2 operation(s) for conversions.
+  name: Impact Conversions API
+  slug: impact-conversions-api
+- description: The Deals API from Impact — 4 operation(s) for deals.
+  name: Impact Deals API
+  slug: impact-deals-api
+- description: The Deferred Deep Linking API from Impact — 1 operation(s) for deferred deep linking.
+  name: Impact Deferred Deep Linking API
+  slug: impact-deferred-deep-linking-api
+- description: Inbound webhook payloads that impact.com sends to a partner-configured URL when events occur.
+  name: Impact Event Notifications API
+  slug: impact-event-notifications-api
+- description: The Exception List Items API from Impact — 2 operation(s) for exception list items.
+  name: Impact Exception List Items API
+  slug: impact-exception-list-items-api
+- description: The Exception Lists API from Impact — 4 operation(s) for exception lists.
+  name: Impact Exception Lists API
+  slug: impact-exception-lists-api
+- description: 'Endpoints for working with bulk data exports: create a new export, look up the status of an existing export, download a completed export, and list recent exports.'
+  name: Impact Export API
+  slug: impact-export-api
+- description: The FTP Submissions API from Impact — 3 operation(s) for ftp submissions.
+  name: Impact FTP Submissions API
+  slug: impact-ftp-submissions-api
+- description: Endpoint for creating and resuming identity verification sessions.
+  name: Impact Identity Verification API
+  slug: impact-identity-verification-api
+- description: The Invoices API from Impact — 6 operation(s) for invoices.
+  name: Impact Invoices API
+  slug: impact-invoices-api
+- description: Schedule, monitor, replay, and download large-scale asynchronous jobs.
+  name: Impact Jobs API
+  slug: impact-jobs-api
+- description: The Legal Entities API from Impact — 2 operation(s) for legal entities.
+  name: Impact Legal Entities API
+  slug: impact-legal-entities-api
+- description: Endpoints for listing, creating, retrieving, updating, and deleting partner media properties.
+  name: Impact Media Properties API
+  slug: impact-media-properties-api
+- description: The Notes API from Impact — 2 operation(s) for notes.
+  name: Impact Notes API
+  slug: impact-notes-api
+- description: Special methods designed for Client-facing applications like the Mobile and Javascript SDKs.
+  name: Impact Open Endpoint API
+  slug: impact-open-endpoint-api
+- description: The Page Load API from Impact — 1 operation(s) for page load.
+  name: Impact Page Load API
+  slug: impact-page-load-api
+- description: The Partner Groups API from Impact — 2 operation(s) for partner groups.
+  name: Impact Partner Groups API
+  slug: impact-partner-groups-api
+- description: The Partners API from Impact — 2 operation(s) for partners.
+  name: Impact Partners API
+  slug: impact-partners-api
+- description: The Phone Numbers API from Impact — 2 operation(s) for phone numbers.
+  name: Impact Phone Numbers API
+  slug: impact-phone-numbers-api
+- description: The Programs API from Impact — 5 operation(s) for programs.
+  name: Impact Programs API
+  slug: impact-programs-api
+- description: The Promo Code Exception List Items API from Impact — 2 operation(s) for promo code exception list items.
+  name: Impact Promo Code Exception List Items API
+  slug: impact-promo-code-exception-list-items-api
+- description: The Promo Code Exception Lists API from Impact — 4 operation(s) for promo code exception lists.
+  name: Impact Promo Code Exception Lists API
+  slug: impact-promo-code-exception-lists-api
+- description: The Promo Codes API from Impact — 4 operation(s) for promo codes.
+  name: Impact Promo Codes API
+  slug: impact-promo-codes-api
+- description: Endpoints for listing and retrieving brand promotions available to your partner account.
+  name: Impact Promotions API
+  slug: impact-promotions-api
+- description: A Referral tracks who has referred whom.
+  name: Impact Referral API
+  slug: impact-referral-api
+- description: 'Endpoints for working with referral codes: look up a code and its associated reward, or apply a code to a referred account. For background on what referral codes are, see the Referral Code Overview.'
+  name: Impact Referral Code API
+  slug: impact-referral-code-api
+- description: The Report Export API from Impact — 2 operation(s) for report export.
+  name: Impact Report Export API
+  slug: impact-report-export-api
+- description: Asynchronously export reports through impact.com's Jobs system. Recommended for all report downloads.
+  name: Impact Report Export API
+  slug: impact-reportexport-api
+- description: List available reports, fetch their metadata, and run them synchronously.
+  name: Impact Reports API
+  slug: impact-reports-api
+- description: Legacy synchronous reports endpoint. Subject to pagination limits — prefer `ReportExport` for large datasets.
+  name: Impact Reports (Legacy) API
+  slug: impact-reports-legacy-api
+- description: A Reward keeps track of a prize, discount or credit that someone has received. All reward types other than gift card integrated rewards can be cancelled using the impact.com API, or through the impact
+  name: Impact Reward API
+  slug: impact-reward-api
+- description: Reward Balances summarizes the Rewards in someone's account.
+  name: Impact Reward Balance API
+  slug: impact-reward-balance-api
+- description: The Routing Rules API from Impact — 2 operation(s) for routing rules.
+  name: Impact Routing Rules API
+  slug: impact-routing-rules-api
+- description: Endpoints for retrieving the share links of a given user. Share links are organised by engagement medium and share medium. For background on how they work, see the Share Links Overview.
+  name: Impact Share Links API
+  slug: impact-share-links-api
+- description: Endpoints for browsing partner storefronts, their groups, and the catalog items inside them.
+  name: Impact Stores API
+  slug: impact-stores-api
+- description: The Tasks API from Impact — 4 operation(s) for tasks.
+  name: Impact Tasks API
+  slug: impact-tasks-api
+- description: Endpoints for creating, completing, and retrieving partner tax documents.
+  name: Impact Tax Documents API
+  slug: impact-tax-documents-api
+- description: The Tracking Links API from Impact — 2 operation(s) for tracking links.
+  name: Impact Tracking Links API
+  slug: impact-tracking-links-api
+- description: The Tracking Value Requests API from Impact — 2 operation(s) for tracking value requests.
+  name: Impact Tracking Value Requests API
+  slug: impact-tracking-value-requests-api
+- description: The Unsubscribed Contacts API from Impact — 1 operation(s) for unsubscribed contacts.
+  name: Impact Unsubscribed Contacts API
+  slug: impact-unsubscribed-contacts-api
+- description: API for managing users, including creation, lookup, and blocking.
+  name: Impact User API
+  slug: impact-user-api
+- description: Endpoints for listing and retrieving partner-account users.
+  name: Impact Users API
+  slug: impact-users-api
+- description: 'Endpoints for managing webhook subscriptions: list current subscriptions, register new endpoint URLs, remove existing ones, and send a test event to verify a subscription.'
+  name: Impact Webhook API
+  slug: impact-webhook-api
+- description: Endpoints for retrieving and updating your bank account, PayPal, and payment scheduling settings.
+  name: Impact Withdrawal Settings API
+  slug: impact-withdrawal-settings-api
+artifact_total: 73
 asyncapis:
 - description: ''
   name: Impact Webhooks
   slug: impact-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/impact-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/impact-brand-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/impact-partner-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/impact-agency-overlay.yaml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -263,13 +450,13 @@ modified: '2026-08-13'
 name: Impact
 nav: Providers
 network: true
-overview: 'Impact publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Brand API, Partner API, Agency API, and 1 more. Tagged areas include Affiliates, Partnerships, Performance Marketing, Commission, and Tracking.
+overview: 'Impact publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounts API, Action Inquiries API, and 58 more. Tagged areas include Affiliates, Partnerships, Performance Marketing, Commission, and Tracking.
 
 
   The Impact catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Impact''s developer surface includes documentation, engineering blog, pricing, API reference, getting-started guide, support, signup flow, and 39 more developer resources.'
+  Impact''s developer surface includes documentation, engineering blog, pricing, API reference, getting-started guide, support, signup flow, and 43 more developer resources.'
 plans:
 - name: Impact Plans Pricing
   plan_count: 0
@@ -285,19 +472,24 @@ scopes:
   slug: impact-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 67.8
+  band: strong
+  composite: 65.8
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 16.7
-    contract_quality: 63.9
+    contract_governance: 4.5
+    contract_quality: 63.8
     developer_ergonomics: 78.6
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 94.7
-  previous_composite: 67.8
+  previous_composite: 65.8
   provenance:
     conformance: derived
     contracts:
@@ -307,8 +499,8 @@ score:
       total: 69
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/impact/refs/heads/main/screenshots/impact-2026-06-20T183254.png
 security:

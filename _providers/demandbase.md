@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -43,39 +43,63 @@ agentic_access:
   operation_count: 54
   slug: demandbase-agentic-access
   summary_line: 54 operations · 24 acting
-api_count: 10
+api_count: 16
 apis:
-- description: 'Company and contact intelligence: search and fetch companies and contacts, company news, logos, installed technologies and corporate hierarchy; synchronous and bulk matching; asynchronous bulk data re'
-  name: Demandbase B2B API
-  slug: demandbase-b2b-api
-- description: Asynchronous export of Demandbase platform data — Account, Opportunity, Person, Activity, Campaign, Creative, Account List and Person List entities — to CSV or JSON behind a signed download URL. Field
-  name: Demandbase Data Export API
-  slug: demandbase-data-export-api
-- description: Asynchronous import of customer data and intent activity into the Demandbase platform. Create an import job, submit a data file of up to 5 GB, poll the job, and manage custom activity types and CSV re
-  name: Demandbase Data Import API
-  slug: demandbase-data-import-api
-- description: 'Beta. Company-level intent signals and research activity: query by company IDs, keyword set IDs or keywords over a date range, filtered by intent strength or number of people researching, with cursor-'
-  name: Demandbase Intent API
-  slug: demandbase-intent-api
-- description: 'User administration for a Demandbase tenant: create, update, retrieve, list and delete users, with filters for departments, views, permission sets and workspaces. 5 operations.'
-  name: Demandbase Admin API
-  slug: demandbase-admin-api
-- description: 'Credit usage reporting: returns a summary of credit consumption and entitlements for a given API category, the only runtime signal a consumer has for remaining quota. 1 operation.'
-  name: Demandbase Usage API
-  slug: demandbase-usage-api
-- description: Manage custom data sources and their per-object field mappings so third-party systems can feed the Demandbase platform. 7 operations.
-  name: Demandbase Custom Sources API
-  slug: demandbase-custom-sources-api
-- description: 'Token exchange for every other Demandbase API: POST an API Key Set client ID and client secret with grantType client_credentials and receive a bearer access token valid for 8 hours. 1 operation.'
-  name: Demandbase Auth API
-  slug: demandbase-auth-api
 - description: Hosted remote Model Context Protocol server exposing Demandbase account, person, intent, buying-group, account-brief, global company/contact and reference capabilities to AI assistants. OAuth 2.1 auth
   name: Demandbase MCP Server
   slug: demandbase-mcp-server
 - description: 'Real-time visitor identification: resolves a visitor IP address to a Demandbase company ID, firmographics and corporate hierarchy for web personalization, forms enrichment and analytics integrations. '
   name: Demandbase IP-API v3
   slug: demandbase-ip-api-v3
-artifact_total: 28
+- description: The Activities Management API from Demandbase — 3 operation(s) for activities management.
+  name: Demandbase Activities Management API
+  slug: demandbase-activities-management-api
+- description: Asynchronous bulk jobs for high-volume data retrieval and matching.
+  name: Demandbase Asynchronous (Batch) API
+  slug: demandbase-asynchronous-batch-api-api
+- description: The Auth API from Demandbase — 1 operation(s) for auth.
+  name: Demandbase Auth API
+  slug: demandbase-auth-api
+- description: Retrieve company-level intent signals and research activity.
+  name: Demandbase Company Intent API
+  slug: demandbase-company-intent-api
+- description: The Create Export Job API from Demandbase — 3 operation(s) for create export job.
+  name: Demandbase Create Export Job API
+  slug: demandbase-create-export-job-api
+- description: The Credit Usage API from Demandbase — 1 operation(s) for credit usage.
+  name: Demandbase Credit Usage API
+  slug: demandbase-credit-usage-api
+- description: Create and manage custom sources.
+  name: Demandbase Custom Sources API
+  slug: demandbase-custom-sources-api
+- description: Configure field mappings for a source and object type.
+  name: Demandbase Field Mappings API
+  slug: demandbase-field-mappings-api
+- description: The Get Fields API from Demandbase — 1 operation(s) for get fields.
+  name: Demandbase Get Fields API
+  slug: demandbase-get-fields-api
+- description: The Get Job Details API from Demandbase — 2 operation(s) for get job details.
+  name: Demandbase Get Job Details API
+  slug: demandbase-get-job-details-api
+- description: The Get Reference Data API from Demandbase — 2 operation(s) for get reference data.
+  name: Demandbase Get Reference Data API
+  slug: demandbase-get-reference-data-api
+- description: The Import Job API from Demandbase — 5 operation(s) for import job.
+  name: Demandbase Import Job API
+  slug: demandbase-import-job-api
+- description: Reference schemas and allowed values used by the B2B API.
+  name: Demandbase Reference Tables API
+  slug: demandbase-reference-tables-api
+- description: Subscription creation, updates, status, alerts, and lifecycle operations.
+  name: Demandbase Subscription API
+  slug: demandbase-subscription-api-api
+- description: Synchronous company, contact, matching, news, and logo operations.
+  name: Demandbase Sync API
+  slug: demandbase-sync-api-api
+- description: The User Management API from Demandbase — 3 operation(s) for user management.
+  name: Demandbase User Management API
+  slug: demandbase-user-management-api
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Demandbase Webhooks
@@ -106,6 +130,38 @@ collections:
   name: Usage API
   slug: open-demandbase-usage
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/demandbase-b2b-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/demandbase-data-export-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/demandbase-data-import-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/demandbase-intent-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/demandbase-admin-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/demandbase-usage-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/demandbase-custom-sources-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/demandbase-auth-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -314,13 +370,13 @@ modified: '2026-08-13'
 name: Demandbase
 nav: Providers
 network: true
-overview: 'Demandbase publishes 8 APIs on the [APIs.io](https://apis.io/) network, including B2B API, Data Export API, Data Import API, and 5 more. Tagged areas include Account Based Marketing, Advertising, AI Agents, B2B Marketing, and Company Data.
+overview: 'Demandbase publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Activities Management API, Asynchronous (Batch) API, Auth API, and 13 more. Tagged areas include Account-Based Marketing, Advertising, AI Agents, B2B Marketing, and Company Data.
 
 
   The Demandbase catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Demandbase''s developer surface includes authentication, support, engineering blog, developer portal, signup flow, changelog, documentation, and 41 more developer resources.'
+  Demandbase''s developer surface includes authentication, support, engineering blog, developer portal, signup flow, changelog, documentation, and 49 more developer resources.'
 plans:
 - name: Demandbase Plans Pricing
   plan_count: 0
@@ -337,18 +393,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.2
-  delta: -0.1
+  composite: 59.1
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 61.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 34.1
-    contract_quality: 64.2
-    developer_ergonomics: 55.4
-    discoverability: 92.6
-    governance: 34.1
+    contract_governance: 22.0
+    contract_quality: 64.1
+    developer_ergonomics: 50.6
+    discoverability: 75.9
+    governance: 22.0
     operational_transparency: 69.7
-  previous_composite: 63.3
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -359,8 +420,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/screenshots/demandbase-2026-06-20T175908.png
 security:
@@ -378,7 +439,7 @@ security:
   summary_line: SOC 2, ISO 27001
 slug: demandbase
 tags:
-- Account Based Marketing
+- Account-Based Marketing
 - Advertising
 - AI Agents
 - B2B Marketing

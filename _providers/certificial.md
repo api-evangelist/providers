@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Bi-directional API for technology platforms to request insurance coverage for their customers' suppliers and receive real-time, source-verified policy data, PDF certificates of insurance and endorseme
@@ -100,14 +100,19 @@ modified: '2026-08-09'
 name: Certificial
 nav: Providers
 network: true
-overview: 'Certificial publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Certificate of Insurance, Risk Management, and Compliance.
+overview: 'Certificial publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, InsurTech, Certificate of Insurance, Risk Management, and Compliance.
 
 
   Certificial''s developer surface includes pricing, signup flow, support, engineering blog, authentication, and 6 more developer resources.'
 random_paper: 17
 score:
   band: emerging
-  composite: 20.8
+  composite: 21.5
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 31.6
@@ -115,10 +120,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 20.8
+  previous_composite: 21.5
   provenance:
     conformance: first-party
   regulatory:
@@ -127,8 +132,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -142,7 +147,7 @@ security:
 slug: certificial
 tags:
 - Insurance
-- Insurtech
+- InsurTech
 - Certificate of Insurance
 - Risk Management
 - Compliance

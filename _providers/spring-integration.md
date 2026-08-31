@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 14
   slug: spring-integration-agentic-access
   summary_line: 14 operations · 5 acting · 2 human-in-the-loop
-api_count: 10
+api_count: 2
 apis:
 - description: AMQP channel adapters and gateways for Spring Integration. Provides RabbitMQ message-driven and polling inbound adapters, outbound channel adapters, and request/reply gateways.
   name: Spring Integration AMQP Adapter
@@ -109,6 +109,18 @@ collections:
   name: Spring Integration Management API
   slug: open-spring-integration-management
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/spring-projects/spring-integration/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/spring-projects/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/spring-projects/spring-integration/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -196,7 +208,7 @@ overview: 'Spring Integration publishes 8 APIs on the [APIs.io](https://apis.io/
   The Spring Integration catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spring Integration''s developer surface includes documentation, getting-started guide, Stack Overflow tag, release notes, engineering blog, and 8 more developer resources.'
+  Spring Integration''s developer surface includes documentation, getting-started guide, Stack Overflow tag, release notes, engineering blog, and 11 more developer resources.'
 plans:
 - name: Spring Integration Plans Pricing
   plan_count: 3
@@ -230,18 +242,26 @@ rules:
   slug: spring-integration-rules
 score:
   band: thin
-  composite: 32.4
-  delta: 0.0
+  composite: 35.2
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.4
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 50.7
     developer_ergonomics: 21.4
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 32.4
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -249,8 +269,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-integration/refs/heads/main/screenshots/spring-integration-2026-06-20T194414.png
 security:

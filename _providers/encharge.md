@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 69
   slug: encharge-agentic-access
   summary_line: 69 operations · 43 acting
-api_count: 16
+api_count: 1
 apis:
-- description: REST API (v1) for managing people, person fields, segments, tags, broadcasts, email templates, sending domains, custom objects and event subscriptions in Encharge. Encharge publishes an OpenAPI 3.0 de
-  name: Encharge REST API
-  slug: rest-api
 - description: REST API for sending transactional emails through Encharge. Accepts JSON at POST /v1/emails/send with exactly one of template, html or text, returns 202 Accepted, and authenticates via the same accoun
   name: Encharge Transactional Email API
   slug: transactional-email-api
@@ -92,7 +89,7 @@ apis:
 - description: The Webhooks API from Encharge — 2 operation(s) for creating and deleting event subscriptions against Encharge's event catalog.
   name: Encharge Webhooks API
   slug: encharge-webhooks-api
-artifact_total: 35
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Encharge Webhooks
@@ -305,7 +302,7 @@ modified: '2026-08-13'
 name: Encharge
 nav: Providers
 network: true
-overview: 'Encharge publishes 16 APIs on the [APIs.io](https://apis.io/) network, including REST API, Transactional Email API, Ingest API, and 13 more. Tagged areas include Email Marketing, Marketing Automation, Transactional Email, Software-as-a-Service, and Behavioral Email.
+overview: 'Encharge publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Transactional Email API, Ingest API, Account API, and 12 more. Tagged areas include Email Marketing, Marketing Automation, Transactional Email, Software-as-a-Service, and Behavioral Email.
 
 
   The Encharge catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -327,19 +324,24 @@ scopes:
   slug: encharge-scopes
   summary_line: 8 scopes · authorizationCode
 score:
-  band: strong
-  composite: 57.3
-  delta: 0.0
+  band: developing
+  composite: 54.1
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 54.0
     developer_ergonomics: 61.3
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 57.3
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -350,8 +352,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/screenshots/encharge-2026-06-20T180652.png
 security:

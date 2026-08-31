@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 128
   slug: svix-agentic-access
   summary_line: 128 operations · 79 acting
-api_count: 21
+api_count: 1
 apis:
 - description: 'The self-hostable open source Svix server (svix-webhooks repo). Smaller surface area than the hosted product (no Stream, no Ingest, no Connectors, no Background Tasks, no multi-region) — 29 paths, 46 '
   name: Svix Open Source Server API
@@ -107,6 +107,30 @@ apis:
 - description: Configure where operational webhooks are sent to.
   name: Svix Webhook Endpoint API
   slug: svix-webhook-endpoint-api
+- description: The Webhook API from Svix — 0 operation(s) for webhook.
+  name: Svix Webhook API
+  slug: svix-webhook-api
+- description: The Broadcast API from Svix — 1 operation(s) for broadcast.
+  name: Svix Broadcast API
+  slug: svix-broadcast-api
+- description: The Environment-Settings API from Svix — 3 operation(s) for environment-settings.
+  name: Svix Environment Settings API
+  slug: svix-environment-settings-api
+- description: The Events API from Svix — 1 operation(s) for events.
+  name: Svix Events API
+  slug: svix-events-api
+- description: The Inbound API from Svix — 1 operation(s) for inbound.
+  name: Svix Inbound API
+  slug: svix-inbound-api
+- description: The Ingest Logs API from Svix — 1 operation(s) for ingest logs.
+  name: Svix Ingest Logs API
+  slug: svix-ingest-logs-api
+- description: The Webhook Sink API from Svix — 10 operation(s) for webhook sink.
+  name: Svix Webhook Sink API
+  slug: svix-webhook-sink-api
+- description: The Webhooks AutoConfig API from Svix — 3 operation(s) for webhooks autoconfig.
+  name: Svix Webhooks AutoConfig API
+  slug: svix-webhooks-autoconfig-api
 arazzos:
 - description: Create an application and mint a magic-link URL into its embedded App Portal.
   name: Svix Provision Application and Open App Portal
@@ -153,7 +177,7 @@ arazzos:
 - description: Create a stream, attach a poller sink, publish events, and poll the sink for them.
   name: Svix Create Stream with Poller Sink and Send Events
   slug: svix-stream-sink-and-poll-events-workflow
-artifact_total: 91
+artifact_total: 99
 asyncapis:
 - description: ''
   name: Svix Operational Webhooks
@@ -229,6 +253,26 @@ collections:
   name: Svix API
   slug: open-svix
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/svix-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/svix/svix-webhooks/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/svix/svix-webhooks/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/svix/svix-webhooks/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/svix/svix-webhooks/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -652,13 +696,13 @@ modified: '2026-08-13'
 name: Svix
 nav: Providers
 network: true
-overview: 'Svix publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Application API, Authentication API, Background Task API, and 17 more. Tagged areas include Webhook, Webhooks As A Service, Webhook Delivery, Webhook Sending, and Event-Driven.
+overview: 'Svix publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Application API, Authentication API, Background Task API, and 25 more. Tagged areas include Webhook, Webhooks As A Service, Webhook Delivery, Webhook Sending, and Event Driven.
 
 
   The Svix catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Svix''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, signup flow, pricing, and 80 more developer resources.'
+  Svix''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, signup flow, pricing, and 85 more developer resources.'
 plans:
 - name: Svix Plans Pricing
   plan_count: 3
@@ -692,18 +736,26 @@ rules:
   slug: svix-rules
 score:
   band: exemplar
-  composite: 79.2
-  delta: 0.0
+  composite: 78.6
+  coverage:
+    artifact_dirs: 35
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 59.1
-    contract_quality: 73.3
+    contract_governance: 47.0
+    contract_quality: 72.5
     developer_ergonomics: 83.3
-    discoverability: 83.3
-    governance: 59.1
+    discoverability: 66.7
+    governance: 47.0
     operational_transparency: 84.2
-  previous_composite: 79.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 79.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -720,8 +772,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/screenshots/svix-2026-06-20T194748.png
 security:
@@ -753,10 +805,10 @@ tags:
 - Webhooks As A Service
 - Webhook Delivery
 - Webhook Sending
-- Event-Driven
+- Event Driven
 - Eventing
 - Messaging
-- Pub-Sub
+- Pub Sub
 - Streaming
 - Ingest
 - Integration
@@ -767,8 +819,8 @@ tags:
 - Verification
 - HMAC
 - Standard Webhooks
-- Multi-Tenant
-- Multi-Region
+- Multi Tenant
+- Multi Region
 - Enterprise
 - Software-as-a-Service
 - Developer Platform

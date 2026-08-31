@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 5
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 124
   slug: aws-cognito-agentic-access
   summary_line: 124 operations · 124 acting · 5 human-in-the-loop
-api_count: 124
+api_count: 2
 apis:
 - description: 'The #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes API from Amazon Cognito — 1 operation(s) for #x amz target=awscognitoidentityproviderservice.addcustomattributes.'
   name: 'Amazon Cognito #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes API'
@@ -794,6 +794,10 @@ collections:
   name: 'Amazon Cognito Identity #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityProviderService.AddCustomAttributes #X Amz Target=AWSCognitoIdentityService.UpdateIdentityPool API'
   slug: open-aws-cognito-x-amz-target-awscognitoidentityservice-updateidentitypool-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/aws-cognito-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -6104,7 +6108,7 @@ overview: 'Amazon Cognito publishes 124 APIs on the [APIs.io](https://apis.io/) 
   The Amazon Cognito catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amazon Cognito''s developer surface includes authentication, documentation, getting-started guide, pricing, FAQ, developer console, support, and 13 more developer resources.'
+  Amazon Cognito''s developer surface includes authentication, documentation, getting-started guide, pricing, FAQ, developer console, support, and 14 more developer resources.'
 plans:
 - name: Aws Cognito Plans Pricing
   plan_count: 3
@@ -6138,18 +6142,23 @@ rules:
   slug: aws-cognito-spectral-rules
 score:
   band: developing
-  composite: 51.8
-  delta: 1.4
+  composite: 53.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 28.8
     contract_quality: 68.0
     developer_ergonomics: 59.5
-    discoverability: 50.0
+    discoverability: 63.0
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 50.4
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     contracts:
@@ -6157,8 +6166,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 124
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-cognito/refs/heads/main/screenshots/aws-cognito-2026-06-20T172748.png
 security:

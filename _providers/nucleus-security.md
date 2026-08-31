@@ -24,18 +24,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Public, unauthenticated JSON API serving the Nucleus Security vulnerability intelligence dataset - CVE records enriched with EPSS, CVSS v3/v4, CISA notes, GreyNoise tags, Shadowserver observations, Vu
-  name: Nucleus Security Vulnerability Intelligence API
-  slug: nucleus-security-vulnerability-intelligence-api
 - description: The Nucleus platform API. Every platform capability is exposed over REST, documented with Swagger inside the authenticated customer console, and authenticated with a static API key in an x-apikey head
   name: Nucleus Security Platform REST API
   slug: nucleus-security-platform-rest-api
 - description: Hosted remote Model Context Protocol server included with the Nucleus platform, reachable at a per-tenant URL. Exposes project, asset, finding/vulnerability and Nucleus Query Language tools to AI clie
   name: Nucleus MCP Server
   slug: nucleus-mcp-server
+- description: Enriched CVE records from the Nucleus Security public vulnerability intelligence dataset.
+  name: Nucleus Security Vulnerabilities API
+  slug: nucleus-security-vulnerabilities-api
 artifact_total: 11
 common:
 - group: company
@@ -183,7 +183,7 @@ modified: '2026-08-26'
 name: Nucleus Security
 nav: Providers
 network: true
-overview: 'Nucleus Security publishes 1 API on the [APIs.io](https://apis.io/) network: Vulnerability Intelligence API. Tagged areas include Company, Security, Cybersecurity, Vulnerability Management, and Exposure Management.
+overview: 'Nucleus Security publishes 1 API on the [APIs.io](https://apis.io/) network: Vulnerabilities API. Tagged areas include Company, Security, Cybersecurity, Vulnerability Management, and Exposure Management.
 
 
   Nucleus Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 26 more developer resources.'
@@ -202,17 +202,24 @@ scopes:
   slug: nucleus-security-scopes
   summary_line: 1 scope
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 36.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 13.1
     developer_ergonomics: 49.4
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 28.9
+  previous_composite: 36.7
   provenance:
     conformance: first-party
     contracts:
@@ -222,8 +229,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Nucleus Security Authentication

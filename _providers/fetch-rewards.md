@@ -23,18 +23,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: 'A two-operation OpenAPI 3.0.3 document Fetch publishes in its public GitHub organization as the specification for its engineering take-home exercise: submit a receipt for processing and retrieve the p'
-  name: Fetch Receipt Processor (Reference Specification)
-  slug: receipt-processor
+- description: The Receipts API from Fetch Rewards — 2 operation(s) for receipts.
+  name: Fetch Rewards Receipts API
+  slug: fetch-rewards-receipts-api
 artifact_total: 4
 collections:
 - collection_type: open
   name: Receipt Processor
   slug: open-fetch-rewards-receipt-processor
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/fetch-rewards-receipt-processor-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -128,25 +132,30 @@ modified: '2026-08-01'
 name: Fetch Rewards
 nav: Providers
 network: true
-overview: 'Fetch Rewards publishes 1 API on the [APIs.io](https://apis.io/) network: Fetch Receipt Processor (Reference Specification). Tagged areas include Company, Rewards, Loyalty, Consumer, and Retail.
+overview: 'Fetch Rewards publishes 1 API on the [APIs.io](https://apis.io/) network: Receipts API. Tagged areas include Company, Rewards, Loyalty, Consumer, and Retail.
 
 
-  Fetch Rewards'' developer surface includes engineering blog, support, FAQ, and 18 more developer resources.'
+  Fetch Rewards'' developer surface includes engineering blog, support, FAQ, and 19 more developer resources.'
 random_paper: 4
 score:
-  band: thin
-  composite: 26.4
+  band: emerging
+  composite: 25.3
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 40.1
+    contract_governance: 4.5
+    contract_quality: 42.9
     developer_ergonomics: 7.1
-    discoverability: 70.4
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 26.4
+  previous_composite: 25.3
   provenance:
     conformance: derived
     contracts:
@@ -154,8 +163,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fetch-rewards/refs/heads/main/screenshots/fetch-rewards-2026-08-07T165248.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 66
   slug: noaa-gov-agentic-access
   summary_line: 66 operations
-api_count: 24
+api_count: 1
 apis:
 - description: SWPC publishes solar wind, geomagnetic, X-ray flux, aurora forecast, radiation storm, and coronal mass ejection products through a static-file data service organised by format. JSON, text, and image f
   name: Space Weather Prediction Center (SWPC) Data Service
@@ -385,18 +385,23 @@ rules:
   slug: noaa-gov-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.6
-  delta: 3.5
+  composite: 43.0
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 61.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 25.0
     contract_quality: 53.8
     developer_ergonomics: 45.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 21.1
-  previous_composite: 40.1
+  previous_composite: 43.6
   provenance:
     agentic_access: derived
     contracts:
@@ -410,8 +415,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/noaa-gov/refs/heads/main/screenshots/noaa-gov-2026-08-17T124233.png
 security:

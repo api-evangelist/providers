@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 23
   slug: netapp-agentic-access
   summary_line: 23 operations · 11 acting
-api_count: 18
+api_count: 1
 apis:
 - description: API for managing NetApp Cloud Volumes Service in major cloud providers.
   name: NetApp Cloud Volumes Service API
@@ -125,6 +125,10 @@ collections:
   name: NetApp ONTAP REST Aggregates Volumes API
   slug: open-netapp-volumes-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/netapp-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -410,7 +414,7 @@ overview: 'NetApp publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The NetApp catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  NetApp''s developer surface includes authentication, support, engineering blog, and 11 more developer resources.'
+  NetApp''s developer surface includes authentication, support, engineering blog, and 12 more developer resources.'
 plans:
 - name: Netapp Plans Pricing
   plan_count: 7
@@ -460,18 +464,26 @@ rules:
   slug: netapp-spectral-rules
 score:
   band: developing
-  composite: 43.5
-  delta: 7.8
+  composite: 41.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.4
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 13.6
     contract_quality: 63.9
     developer_ergonomics: 52.4
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 35.7
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -479,9 +491,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netapp/refs/heads/main/screenshots/netapp-2026-06-20T190143.png
 security:
 - kind: authentication

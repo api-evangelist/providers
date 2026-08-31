@@ -33,16 +33,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
-- description: The Reachdesk REST API enables programmatic triggering of gift campaigns and sending of physical gifts, branded merchandise, and digital rewards. Authenticated via API tokens generated in the Reachdes
-  name: Reachdesk API
-  slug: reachdesk-api
 - description: Reachdesk operates a first-party remote Model Context Protocol server at https://app.reachdesk.com/mcp, on the same host as its REST API. It is a hosted HTTP endpoint an MCP client POSTs to directly —
   name: Reachdesk MCP Server
   slug: reachdesk-mcp
-artifact_total: 13
+- description: The Bulk Sends API from Reachdesk — 1 operation(s) for bulk sends.
+  name: Reachdesk Bulk Sends API
+  slug: reachdesk-bulk-sends-api
+- description: The Campaigns API from Reachdesk — 1 operation(s) for campaigns.
+  name: Reachdesk Campaigns API
+  slug: reachdesk-campaigns-api
+- description: The Contacts API from Reachdesk — 1 operation(s) for contacts.
+  name: Reachdesk Contacts API
+  slug: reachdesk-contacts-api
+- description: The Gdpr API from Reachdesk — 2 operation(s) for gdpr.
+  name: Reachdesk Gdpr API
+  slug: reachdesk-gdpr-api
+- description: The Organization API from Reachdesk — 1 operation(s) for organization.
+  name: Reachdesk Organization API
+  slug: reachdesk-organization-api
+- description: The Sends API from Reachdesk — 1 operation(s) for sends.
+  name: Reachdesk Sends API
+  slug: reachdesk-sends-api
+- description: The Sends?start Date={start Date}&end Date={end Date} API from Reachdesk — 1 operation(s) for sends?start date={start date}&end date={end date}.
+  name: Reachdesk Sends?start Date={start Date}&end Date={end Date} API
+  slug: reachdesk-sends-start-date-start-date-end-date-end-date-api
+- description: The Transactions API from Reachdesk — 1 operation(s) for transactions.
+  name: Reachdesk Transactions API
+  slug: reachdesk-transactions-api
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Reachdesk Webhooks
@@ -213,7 +234,7 @@ modified: '2026-08-13'
 name: Reachdesk
 nav: Providers
 network: true
-overview: 'Reachdesk publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Corporate Gifting, Direct Mail, Swag, B2B, and Sales Enablement.
+overview: 'Reachdesk publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Bulk Sends API, Campaigns API, Contacts API, and 5 more. Tagged areas include Corporate Gifting, Direct Mail, Swag, B2B, and Sales Enablement.
 
 
   The Reachdesk catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
@@ -236,18 +257,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.1
-  delta: 0.0
+  composite: 57.1
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 52.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 16.7
-    contract_quality: 70.1
+    contract_governance: 4.5
+    contract_quality: 72.1
     developer_ergonomics: 50.6
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 58.1
+  previous_composite: 57.7
   provenance:
     conformance: derived
     contracts:
@@ -257,8 +283,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reachdesk/refs/heads/main/screenshots/reachdesk-2026-06-20T192631.png
 security:

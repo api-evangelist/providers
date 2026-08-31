@@ -23,16 +23,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The public, unauthenticated JSON browsing surface of the Cometeer online store — products, collections, search and sitemap. Cometeer documents these endpoints for agents itself, under "Read-Only Brows
-  name: Cometeer Storefront (read-only)
-  slug: storefront
 - description: Cometeer's Universal Commerce Protocol shopping service, exposed over MCP (JSON-RPC 2.0 via HTTP POST) at /api/ucp/mcp and advertised from /.well-known/ucp. Thirteen tools cover catalog search and loo
   name: Cometeer UCP Commerce (MCP)
   slug: ucp-commerce
-artifact_total: 7
+- description: Collection (category) browsing
+  name: Cometeer Collections API
+  slug: cometeer-collections-api
+- description: Product catalog browsing
+  name: Cometeer Products API
+  slug: cometeer-products-api
+- description: Storefront search
+  name: Cometeer Search API
+  slug: cometeer-search-api
+artifact_total: 9
 collections:
 - collection_type: open
   name: Cometeer Storefront (read-only agent surface)
@@ -126,7 +132,7 @@ modified: '2026-08-01'
 name: Cometeer
 nav: Providers
 network: true
-overview: 'Cometeer publishes 1 API on the [APIs.io](https://apis.io/) network: Storefront (read-only). Tagged areas include Company, Coffee, Food and Beverage, E-Commerce, and Direct to Consumer.
+overview: 'Cometeer publishes 3 APIs on the [APIs.io](https://apis.io/) network: Collections API, Products API, and Search API. Tagged areas include Company, Coffee, Food and Beverage, E-Commerce, and Direct to Consumer.
 
 
   Cometeer''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 13 more developer resources.'
@@ -138,18 +144,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.2
-  delta: 0.0
+  composite: 28.1
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 13.1
     developer_ergonomics: 30.4
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 29.2
+  previous_composite: 28.6
   provenance:
     conformance: first-party
     contracts:
@@ -159,8 +170,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cometeer/refs/heads/main/screenshots/cometeer-2026-08-07T163704.png
 security:

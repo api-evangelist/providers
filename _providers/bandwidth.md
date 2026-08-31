@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -42,29 +42,14 @@ agentic_access:
   operation_count: 62
   slug: bandwidth-agentic-access
   summary_line: 62 operations · 31 acting · 1 human-in-the-loop
-api_count: 18
+api_count: 3
 apis:
-- description: The Bandwidth Phone Numbers API provides programmatic access to search, order, and manage phone numbers across the United States and Canada. Developers can search for available local, toll-free, and s
-  name: Bandwidth Phone Numbers API
-  slug: phone-numbers-api
-- description: The Bandwidth Multi-Factor Authentication API allows developers to generate and verify secure MFA codes delivered via voice calls or SMS messages. It leverages Bandwidth's Voice and Messaging APIs und
-  name: Bandwidth Multi-Factor Authentication API
-  slug: multi-factor-authentication-api
-- description: The Bandwidth Toll-Free Verification API enables developers to programmatically submit and manage toll-free number verification requests for A2P messaging compliance. It automates the verification sub
-  name: Bandwidth Toll-Free Verification API
-  slug: toll-free-verification-api
-- description: Search for available phone numbers by area code, NPA-NXX, rate center, city, state, or ZIP code. Returns numbers available for ordering.
-  name: Bandwidth Available Numbers API
-  slug: bandwidth-available-numbers-api
 - description: Create, retrieve, and manage phone calls. Supports outbound call creation, call state queries, and in-progress call modifications using BXML or redirect URLs.
   name: Bandwidth Calls API
   slug: bandwidth-calls-api
 - description: Create and manage multi-party conference calls. Supports adding and removing members, muting, holding, and playing audio to conferences.
   name: Bandwidth Conferences API
   slug: bandwidth-conferences-api
-- description: Disconnect and release phone numbers that are no longer needed.
-  name: Bandwidth Disconnects API
-  slug: bandwidth-disconnects-api
 - description: Configure notification recipients who receive alerts when 911 calls are made from your endpoints.
   name: Bandwidth Emergency Notification Recipients API
   slug: bandwidth-emergency-notification-recipients-api
@@ -80,25 +65,10 @@ apis:
 - description: Send and retrieve SMS and MMS messages. Supports single and group messaging, delivery receipts, and message history queries.
   name: Bandwidth Messages API
   slug: bandwidth-messages-api
-- description: Configure phone number features including CNAM (Caller Name), directory listings, and line features for numbers in your inventory.
-  name: Bandwidth Number Features API
-  slug: bandwidth-number-features-api
-- description: Create and manage phone number orders. Supports ordering new numbers from available inventory and tracking order status.
-  name: Bandwidth Orders API
-  slug: bandwidth-orders-api
-- description: Initiate and manage phone number porting requests to bring existing numbers from other carriers to Bandwidth.
-  name: Bandwidth Port-Ins API
-  slug: bandwidth-port-ins-api
 - description: Manage call recordings including retrieval of recording metadata, audio files, and transcription of recorded audio content.
   name: Bandwidth Recordings API
   slug: bandwidth-recordings-api
-- description: Manage SIP peers (locations) within sites. SIP peers define the network endpoints for call routing and number assignment.
-  name: Bandwidth SIP Peers API
-  slug: bandwidth-sip-peers-api
-- description: Manage sites (sub-accounts) within a Bandwidth account. Sites represent logical groupings for organizing telephony resources.
-  name: Bandwidth Sites API
-  slug: bandwidth-sites-api
-artifact_total: 259
+artifact_total: 249
 asyncapis:
 - description: Bandwidth Messaging API sends webhooks to your application for real-time message delivery notifications and inbound message alerts. Callbacks are sent via HTTP POST to the callback URL configured on t
   name: Bandwidth Messaging Events
@@ -228,6 +198,10 @@ collections:
   name: Bandwidth Voice API
   slug: open-bandwidth-voice-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bandwidth-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -851,13 +825,13 @@ modified: '2026-05-19'
 name: Bandwidth
 nav: Providers
 network: true
-overview: 'Bandwidth publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Phone Numbers API, Multi-Factor Authentication API, Toll-Free Verification API, and 15 more. Tagged areas include Communications, CPaaS, Voice, Messaging, and Telephony.
+overview: 'Bandwidth publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Calls API, Conferences API, Emergency Notification Recipients API, and 5 more. Tagged areas include Communications, CPaaS, Voice, Messaging, and Telephony.
 
 
   The Bandwidth catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Bandwidth''s developer surface includes authentication, documentation, signup flow, engineering blog, support, and 19 more developer resources.'
+  Bandwidth''s developer surface includes authentication, documentation, signup flow, engineering blog, support, and 20 more developer resources.'
 plans:
 - name: Bandwidth Plans Pricing
   plan_count: 2
@@ -903,6 +877,11 @@ rules:
 score:
   band: strong
   composite: 55.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 55.3
@@ -927,8 +906,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bandwidth/refs/heads/main/screenshots/bandwidth-2026-06-20T172942.png
 security:

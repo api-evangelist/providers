@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 2
 common:
@@ -129,7 +129,7 @@ modified: '2026-05-25'
 name: Bestow
 nav: Providers
 network: true
-overview: 'Bestow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Life Insurance, Insurtech, Embedded Insurance, and Insurance As A Service.
+overview: 'Bestow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Life Insurance, InsurTech, Embedded Insurance, and Insurance As A Service.
 
 
   Bestow''s developer surface includes FAQ, terms of service, privacy policy, YouTube channel, and 16 more developer resources.'
@@ -137,6 +137,11 @@ random_paper: 9
 score:
   band: emerging
   composite: 14.6
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
@@ -154,8 +159,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 15.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bestow/refs/heads/main/screenshots/bestow-2026-06-20T173210.png
 security:
@@ -167,7 +172,7 @@ slug: bestow
 tags:
 - Insurance
 - Life Insurance
-- Insurtech
+- InsurTech
 - Embedded Insurance
 - Insurance As A Service
 - Underwriting

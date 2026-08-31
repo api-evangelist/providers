@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: openwallet-foundation-agentic-access
   summary_line: 6 operations
-api_count: 11
+api_count: 1
 apis:
 - description: Aries Cloud Agent Python (ACA-Py) exposes an OpenAPI-documented REST Admin API used by controller applications to manage agent behavior, issue and verify credentials, exchange messages, and orchestrat
   name: ACA-Py Admin API
@@ -104,6 +104,26 @@ collections:
   name: ACA-Py Admin API
   slug: open-openwallet-foundation
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/openwallet-foundation/acapy/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/openwallet-foundation/acapy/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/openwallet-foundation/acapy/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/openwallet-foundation/acapy/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/openwallet-foundation/acapy/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -179,7 +199,7 @@ network: true
 overview: 'OpenWallet Foundation publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Basicmessages API, Connections API, Forward API, and 3 more. Tagged areas include Credentials, Digital Wallet, Identity, and Linux Foundation.
 
 
-  OpenWallet Foundation''s developer surface includes authentication, documentation, engineering blog, privacy policy, and 11 more developer resources.'
+  OpenWallet Foundation''s developer surface includes authentication, documentation, engineering blog, privacy policy, and 16 more developer resources.'
 plans:
 - name: Openwallet Foundation Plans Pricing
   plan_count: 3
@@ -190,19 +210,27 @@ rate_limits:
   name: Openwallet Foundation Rate Limits
   slug: openwallet-foundation-rate-limits
 score:
-  band: thin
-  composite: 34.2
-  delta: 1.4
+  band: developing
+  composite: 43.4
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 50.5
     developer_ergonomics: 35.7
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 0.0
-    operational_transparency: 13.2
-  previous_composite: 32.8
+    operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     contracts:
@@ -216,8 +244,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/screenshots/openwallet-foundation-2026-06-20T191051.png
 security:

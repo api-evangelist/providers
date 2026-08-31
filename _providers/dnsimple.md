@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -95,6 +95,10 @@ collections:
   name: DNSimple API
   slug: open-dnsimple
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dnsimple-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -138,7 +142,7 @@ network: true
 overview: 'DNSimple publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Certificates API, Contacts API, and 4 more. Tagged areas include DNS and Domains.
 
 
-  DNSimple''s developer surface includes authentication, engineering blog, and 5 more developer resources.'
+  DNSimple''s developer surface includes authentication, engineering blog, and 6 more developer resources.'
 plans:
 - name: Dnsimple Plans Pricing
   plan_count: 3
@@ -151,6 +155,11 @@ rate_limits:
 score:
   band: emerging
   composite: 25.6
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -175,8 +184,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dnsimple/refs/heads/main/screenshots/dnsimple-2026-06-20T180100.png
 security:

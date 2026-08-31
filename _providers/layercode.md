@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: layercode-agentic-access
   summary_line: 8 operations · 4 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Bidirectional realtime WebSocket transport that streams base64 PCM microphone audio from the browser to Layercode and streams synthesized speech, transcripts, and structured data back, authorized with
   name: Layercode Realtime Voice API
@@ -162,19 +162,24 @@ rules:
     warn: 4
   slug: layercode-asyncapi-spectral-rules
 score:
-  band: developing
-  composite: 39.5
-  delta: 1.6
+  band: thin
+  composite: 39.0
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 51.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 11.4
     contract_quality: 55.4
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 37.9
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -182,8 +187,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/layercode/refs/heads/main/screenshots/layercode-2026-07-25T224657.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 48
   slug: iterable-agentic-access
   summary_line: 48 operations · 25 acting
-api_count: 23
+api_count: 2
 apis:
 - description: The Iterable Export API enables developers to extract data from Iterable projects for analytics, reporting, and data warehousing purposes. It provides asynchronous export endpoints that allow bulk ret
   name: Iterable Export API
@@ -77,9 +77,6 @@ apis:
 - description: Track custom events, retrieve event data for users, and manage event metadata used for segmentation and campaign triggering.
   name: Iterable Events API
   slug: iterable-events-api
-- description: Export experiment and A/B test metrics as CSV for analysis.
-  name: Iterable ExperimentMetrics API
-  slug: iterable-experimentmetrics-api
 - description: Retrieve experiment configurations and metrics for A/B tests running across campaigns.
   name: Iterable Experiments API
   slug: iterable-experiments-api
@@ -113,7 +110,31 @@ apis:
 - description: Trigger workflow enrollments and manage journey-based automation workflows.
   name: Iterable Workflows API
   slug: iterable-workflows-api
-artifact_total: 110
+- description: The Embedded Messaging API from Iterable — 1 operation(s) for embedded messaging.
+  name: Iterable Embedded Messaging API
+  slug: iterable-embedded-messaging-api
+- description: The In-app API from Iterable — 4 operation(s) for in-app.
+  name: Iterable In App API
+  slug: iterable-in-app-api
+- description: The In-app-web API from Iterable — 1 operation(s) for in-app-web.
+  name: Iterable In App Web API
+  slug: iterable-in-app-web-api
+- description: The snippets API from Iterable — 2 operation(s) for snippets.
+  name: Iterable Snippets API
+  slug: iterable-snippets-api
+- description: The subscriptions API from Iterable — 4 operation(s) for subscriptions.
+  name: Iterable Subscriptions API
+  slug: iterable-subscriptions-api
+- description: The Verify API from Iterable — 2 operation(s) for verify.
+  name: Iterable Verify API
+  slug: iterable-verify-api
+- description: The webhooks API from Iterable — 1 operation(s) for webhooks.
+  name: Iterable Webhooks API
+  slug: iterable-webhooks-api
+- description: The WhatsApp API from Iterable — 2 operation(s) for whatsapp.
+  name: Iterable Whats App API
+  slug: iterable-whatsapp-api
+artifact_total: 117
 asyncapis:
 - description: Iterable system webhooks send real-time event data from an Iterable project to external systems via HTTP POST requests whenever specified events occur. System webhooks can be configured to fire on ema
   name: Iterable System Webhooks
@@ -240,6 +261,14 @@ collections:
   name: Iterable Export Campaigns Workflows API
   slug: open-iterable-workflows-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/iterable-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/iterable-experimentmetrics-api-overlay.yaml
 - group: docs
   title: ''
   type: OpenAPI
@@ -522,13 +551,13 @@ modified: '2026-08-13'
 name: Iterable
 nav: Providers
 network: true
-overview: 'Iterable publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Export API, Campaigns API, Catalogs API, and 16 more. Tagged areas include Cross-Channel Messaging, Customer Engagement, Email, Marketing Automation, and Push Notifications.
+overview: 'Iterable publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Export API, Campaigns API, Catalogs API, and 23 more. Tagged areas include Cross-Channel Messaging, Customer Engagement, Email, Marketing Automation, and Push Notifications.
 
 
   The Iterable catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Iterable''s developer surface includes CLI, changelog, API reference, getting-started guide, authentication, documentation, support, and 39 more developer resources.'
+  Iterable''s developer surface includes CLI, changelog, API reference, getting-started guide, authentication, documentation, support, and 41 more developer resources.'
 plans:
 - name: Iterable Plans Pricing
   plan_count: 3
@@ -562,18 +591,23 @@ rules:
   slug: iterable-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 73.9
-  delta: 0.0
+  composite: 71.3
+  coverage:
+    artifact_dirs: 33
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 45.5
-    contract_quality: 72.3
+    contract_governance: 33.3
+    contract_quality: 69.7
     developer_ergonomics: 83.3
-    discoverability: 81.5
-    governance: 45.5
+    discoverability: 75.9
+    governance: 33.3
     operational_transparency: 81.6
-  previous_composite: 73.9
+  previous_composite: 71.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -590,8 +624,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/screenshots/iterable-2026-06-20T183630.png
 security:

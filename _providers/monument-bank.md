@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -43,24 +43,118 @@ agentic_access:
   summary_line: 86 operations · 20 acting
 api_count: 4
 apis:
-- description: UK Open Banking Open Data API - the PUBLIC, unauthenticated reference-data surface defined by the OBIE Open Data Standard (product, ATM, branch, PCA, BCA, SME loan, and commercial credit card referenc
-  name: Monument Bank Open Data API
-  slug: monument-open-data-api
-- description: UK Open Banking Read/Write Account & Transaction Information (AIS) API per the OBIE Read/Write API Standard - accounts, balances, transactions, beneficiaries, standing orders, direct debits, statement
-  name: Monument Bank Account and Transaction Information API
-  slug: monument-account-info-api
-- description: UK Open Banking Read/Write Payment Initiation (PIS) API per the OBIE Read/Write API Standard - domestic, scheduled, standing-order, international, and file payment initiation for authorised PISP third
-  name: Monument Bank Payment Initiation API
-  slug: monument-payment-initiation-api
-- description: UK Open Banking Read/Write Confirmation of Funds (CBPII) API per the OBIE Read/Write API Standard - confirms availability of funds on an account for authorised card-based payment instrument issuers. F
-  name: Monument Bank Confirmation of Funds API
-  slug: monument-confirmation-of-funds-api
-artifact_total: 9
+- description: The Account Access Consents API from Monument Bank — 2 operation(s) for account access consents.
+  name: Monument Bank Account Access Consents API
+  slug: monument-bank-account-access-consents-api
+- description: The Accounts API from Monument Bank — 2 operation(s) for accounts.
+  name: Monument Bank Accounts API
+  slug: monument-bank-accounts-api
+- description: Endpoint for getting ATM data
+  name: Monument Bank ATM API
+  slug: monument-bank-atm-api
+- description: The Balances API from Monument Bank — 2 operation(s) for balances.
+  name: Monument Bank Balances API
+  slug: monument-bank-balances-api
+- description: Endpoint for getting Business Current Account data
+  name: Monument Bank BCA API
+  slug: monument-bank-bca-api
+- description: The Beneficiaries API from Monument Bank — 2 operation(s) for beneficiaries.
+  name: Monument Bank Beneficiaries API
+  slug: monument-bank-beneficiaries-api
+- description: Endpoint for getting Branch data
+  name: Monument Bank Branch API
+  slug: monument-bank-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: Monument Bank CCC API
+  slug: monument-bank-ccc-api
+- description: The Direct Debits API from Monument Bank — 2 operation(s) for direct debits.
+  name: Monument Bank Direct Debits API
+  slug: monument-bank-direct-debits-api
+- description: The Domestic Payment Consents API from Monument Bank — 3 operation(s) for domestic payment consents.
+  name: Monument Bank Domestic Payment Consents API
+  slug: monument-bank-domestic-payment-consents-api
+- description: The Domestic Payments API from Monument Bank — 3 operation(s) for domestic payments.
+  name: Monument Bank Domestic Payments API
+  slug: monument-bank-domestic-payments-api
+- description: The Domestic Scheduled Payment Consents API from Monument Bank — 2 operation(s) for domestic scheduled payment consents.
+  name: Monument Bank Domestic Scheduled Payment Consents API
+  slug: monument-bank-domestic-scheduled-payment-consents-api
+- description: The Domestic Scheduled Payments API from Monument Bank — 3 operation(s) for domestic scheduled payments.
+  name: Monument Bank Domestic Scheduled Payments API
+  slug: monument-bank-domestic-scheduled-payments-api
+- description: The Domestic Standing Order Consents API from Monument Bank — 2 operation(s) for domestic standing order consents.
+  name: Monument Bank Domestic Standing Order Consents API
+  slug: monument-bank-domestic-standing-order-consents-api
+- description: The Domestic Standing Orders API from Monument Bank — 3 operation(s) for domestic standing orders.
+  name: Monument Bank Domestic Standing Orders API
+  slug: monument-bank-domestic-standing-orders-api
+- description: The File Payment Consents API from Monument Bank — 3 operation(s) for file payment consents.
+  name: Monument Bank File Payment Consents API
+  slug: monument-bank-file-payment-consents-api
+- description: The File Payments API from Monument Bank — 4 operation(s) for file payments.
+  name: Monument Bank File Payments API
+  slug: monument-bank-file-payments-api
+- description: The Funds Confirmation Consents API from Monument Bank — 2 operation(s) for funds confirmation consents.
+  name: Monument Bank Funds Confirmation Consents API
+  slug: monument-bank-funds-confirmation-consents-api
+- description: The Funds Confirmations API from Monument Bank — 1 operation(s) for funds confirmations.
+  name: Monument Bank Funds Confirmations API
+  slug: monument-bank-funds-confirmations-api
+- description: The International Payment Consents API from Monument Bank — 3 operation(s) for international payment consents.
+  name: Monument Bank International Payment Consents API
+  slug: monument-bank-international-payment-consents-api
+- description: The International Payments API from Monument Bank — 3 operation(s) for international payments.
+  name: Monument Bank International Payments API
+  slug: monument-bank-international-payments-api
+- description: The International Scheduled Payments API from Monument Bank — 3 operation(s) for international scheduled payments.
+  name: Monument Bank International Scheduled Payments API
+  slug: monument-bank-international-scheduled-payments-api
+- description: The International Scheduled Payments Consents API from Monument Bank — 3 operation(s) for international scheduled payments consents.
+  name: Monument Bank International Scheduled Payments Consents API
+  slug: monument-bank-international-scheduled-payments-consents-api
+- description: The International Standing Orders API from Monument Bank — 3 operation(s) for international standing orders.
+  name: Monument Bank International Standing Orders API
+  slug: monument-bank-international-standing-orders-api
+- description: The International Standing Orders Consents API from Monument Bank — 2 operation(s) for international standing orders consents.
+  name: Monument Bank International Standing Orders Consents API
+  slug: monument-bank-international-standing-orders-consents-api
+- description: The Offers API from Monument Bank — 2 operation(s) for offers.
+  name: Monument Bank Offers API
+  slug: monument-bank-offers-api
+- description: The Parties API from Monument Bank — 3 operation(s) for parties.
+  name: Monument Bank Parties API
+  slug: monument-bank-parties-api
+- description: Endpoint for getting Personal Current Account data
+  name: Monument Bank PCA API
+  slug: monument-bank-pca-api
+- description: The Products API from Monument Bank — 2 operation(s) for products.
+  name: Monument Bank Products API
+  slug: monument-bank-products-api
+- description: The Scheduled Payments API from Monument Bank — 2 operation(s) for scheduled payments.
+  name: Monument Bank Scheduled Payments API
+  slug: monument-bank-scheduled-payments-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: Monument Bank SME API
+  slug: monument-bank-sme-api
+- description: The Standing Orders API from Monument Bank — 2 operation(s) for standing orders.
+  name: Monument Bank Standing Orders API
+  slug: monument-bank-standing-orders-api
+- description: The Statements API from Monument Bank — 5 operation(s) for statements.
+  name: Monument Bank Statements API
+  slug: monument-bank-statements-api
+- description: The Transactions API from Monument Bank — 2 operation(s) for transactions.
+  name: Monument Bank Transactions API
+  slug: monument-bank-transactions-api
+artifact_total: 39
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-obie-opendata-swagger
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/monument-bank-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -154,10 +248,10 @@ modified: '2026-07-23T10:00:00Z'
 name: Monument Bank
 nav: Providers
 network: true
-overview: 'Monument Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data API, Account and Transaction Information API, Payment Initiation API, and 1 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Monument Bank publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 31 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  Monument Bank''s developer surface includes authentication, engineering blog, product news, support, FAQ, and 16 more developer resources.'
+  Monument Bank''s developer surface includes authentication, engineering blog, product news, support, FAQ, and 17 more developer resources.'
 random_paper: 17
 scopes:
 - name: Monument Bank Scopes
@@ -166,18 +260,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 40.8
-  delta: 1.6
+  composite: 41.3
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 4.5
-    contract_quality: 49.0
+    contract_quality: 50.9
     developer_ergonomics: 35.7
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 39.2
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -188,12 +287,16 @@ score:
       total: 4
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monument-bank/refs/heads/main/screenshots/monument-bank-2026-08-07T184223.png
 security:

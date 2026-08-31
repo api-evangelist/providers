@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The private HTTP API behind the Micro Connect Open Platform (滴灌通开放平台), the enterprise console brands and merchants use to register, submit daily revenue and order detail reports, review data, manage a
@@ -128,7 +128,7 @@ modified: '2026-08-25'
 name: Micro Connect
 nav: Providers
 network: true
-overview: 'Micro Connect publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Capital Markets, Exchanges, and Revenue Based Financing.
+overview: 'Micro Connect publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial-Services, Capital Markets, Exchanges, and Revenue-Based Financing.
 
 
   Micro Connect''s developer surface includes engineering blog, support, pricing, authentication, and 14 more developer resources.'
@@ -148,16 +148,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: emerging
-  composite: 22.6
+  composite: 21.5
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
+  previous_composite: 21.5
   provenance:
     conformance: first-party
     mcp: derived
@@ -167,8 +174,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 63.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Micro Connect Authentication
@@ -181,10 +189,10 @@ security:
 slug: micro-connect
 tags:
 - Company
-- Financial Services
+- Financial-Services
 - Capital Markets
 - Exchanges
-- Revenue Based Financing
+- Revenue-Based Financing
 - Fintech
 - Investing
 - Small Business

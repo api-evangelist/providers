@@ -16,7 +16,7 @@ agent_readiness:
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.5
-  scored_at: '2026-08-26'
+  score: 34.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 41
   slug: zalando-agentic-access
   summary_line: 41 operations · 10 acting
-api_count: 20
+api_count: 12
 apis:
 - description: The AnnouncedReturns API from Zalando — 1 operation(s) for announcedreturns.
   name: Zalando AnnouncedReturns API
@@ -169,6 +169,10 @@ collections:
   name: Article Requirements AnnouncedReturns Types API
   slug: open-zalando-types-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zalando-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -300,7 +304,7 @@ network: true
 overview: 'Zalando publishes 20 APIs on the [APIs.io](https://apis.io/) network, including AnnouncedReturns API, attribute-types API, attribute-values API, and 17 more. Tagged areas include Company, Consumer; Marketplace, Fashion, E-Commerce, and Retail.
 
 
-  Zalando''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, signup flow, engineering blog, and 22 more developer resources.'
+  Zalando''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, signup flow, engineering blog, and 23 more developer resources.'
 random_paper: 10
 scopes:
 - name: Zalando Scopes
@@ -309,18 +313,23 @@ scopes:
   summary_line: 16 scopes · clientCredentials
 score:
   band: developing
-  composite: 41.1
-  delta: 1.3
+  composite: 40.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 16.7
-    contract_quality: 45.7
+    contract_governance: 4.5
+    contract_quality: 47.9
     developer_ergonomics: 61.3
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 39.8
+  previous_composite: 40.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -337,8 +346,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

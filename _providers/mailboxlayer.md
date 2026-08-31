@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -50,7 +50,13 @@ apis:
 - description: 'REST/JSON API for real-time email validation: syntax check, typo suggestions, MX-record lookup, SMTP verification, catch-all/role/disposable/free detection, and quality score. Available via legacy api'
   name: Mailboxlayer Email Validation API
   slug: mailboxlayer-email-validation-api
-artifact_total: 53
+- description: The Bulk Check API from Mailboxlayer — 1 operation(s) for bulk check.
+  name: Mailboxlayer Bulk Check API
+  slug: mailboxlayer-bulk-check-api
+- description: The Check API from Mailboxlayer — 1 operation(s) for check.
+  name: Mailboxlayer Check API
+  slug: mailboxlayer-check-api
+artifact_total: 55
 collections:
 - collection_type: postman
   name: mailboxlayer Verification API
@@ -322,7 +328,7 @@ modified: '2026-08-14'
 name: Mailboxlayer
 nav: Providers
 network: true
-overview: 'Mailboxlayer publishes 1 API on the [APIs.io](https://apis.io/) network: Verification API. Tagged areas include Email, Email Verification, Email Validation, SMTP, and MX Records.
+overview: 'Mailboxlayer publishes 3 APIs on the [APIs.io](https://apis.io/) network: Verification API, Bulk Check API, and Check API. Tagged areas include Email, Email Verification, Email Validation, SMTP, and MX Records.
 
 
   The Mailboxlayer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -362,18 +368,23 @@ rules:
   slug: mailboxlayer-rules
 score:
   band: exemplar
-  composite: 74.0
-  delta: 0.6
+  composite: 72.6
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 23.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 59.1
+    contract_governance: 47.0
     contract_quality: 72.1
     developer_ergonomics: 86.3
     discoverability: 83.3
-    governance: 59.1
+    governance: 47.0
     operational_transparency: 50.0
-  previous_composite: 73.4
+  previous_composite: 73.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -384,8 +395,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailboxlayer/refs/heads/main/screenshots/mailboxlayer-2026-08-17T124041.png
 security:
@@ -420,7 +431,7 @@ tags:
 - Free Email Provider
 - Role Address
 - Quality Score
-- APILayer
+- apilayer
 - Public APIs
 - Data Quality
 - Anti-Fraud

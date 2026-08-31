@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: osisoft-pi-agentic-access
   summary_line: 12 operations · 1 acting
-api_count: 10
+api_count: 1
 apis:
 - description: AVEVA CONNECT (formerly AVEVA Data Hub / OSIsoft Cloud Services) provides cloud-native REST APIs for industrial time-series data management, data views, event data, and secure cloud-based data sharing
   name: AVEVA CONNECT Data Services API
@@ -203,16 +203,16 @@ jsonld:
   slug: osisoft-pi-context
 layout: provider
 modified: '2026-05-19'
-name: osisoft-pi
+name: OSIsoft PI System
 nav: Providers
 network: true
-overview: 'osisoft-pi publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AssetServers API, Attributes API, BatchRequests API, and 5 more.
+overview: 'OSIsoft PI System publishes 8 APIs on the [APIs.io](https://apis.io/) network, including osisoft-pi AssetServers API, osisoft-pi Attributes API, osisoft-pi BatchRequests API, and 5 more.
 
 
-  The osisoft-pi catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The OSIsoft PI System catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  osisoft-pi''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, and 14 more developer resources.'
+  OSIsoft PI System''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, and 14 more developer resources.'
 plans:
 - name: Osisoft Pi Plans Pricing
   plan_count: 1
@@ -225,7 +225,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: osisoft-pi API Rules
+  name: OSIsoft PI System API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -235,18 +235,23 @@ rules:
   slug: osisoft-pi-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.0
-  delta: 3.3
+  composite: 40.4
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 69.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 9.8
     contract_quality: 57.5
     developer_ergonomics: 71.4
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 37.7
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -258,8 +263,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osisoft-pi/refs/heads/main/screenshots/osisoft-pi-2026-06-20T191219.png
 security:

@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
-api_count: 8
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
 - description: 'The Unifonic Conversations API sends WhatsApp template and session messages and manages the WhatsApp service: template management and Meta catalog retrieval endpoints, incoming-message and delivery-st'
   name: Unifonic Conversations (WhatsApp) API
@@ -112,6 +112,10 @@ collections:
   name: Unifonic Authenticate Call Management and Status Wrapper API
   slug: open-unifonic-wrapper-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/unifonic-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -266,22 +270,27 @@ overview: 'Unifonic publishes 7 APIs on the [APIs.io](https://apis.io/) network,
   The Unifonic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Unifonic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, release notes, and 27 more developer resources.'
+  Unifonic''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, release notes, and 28 more developer resources.'
 random_paper: 19
 score:
   band: strong
-  composite: 59.7
+  composite: 58.2
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 12.1
+    contract_governance: 0.0
     contract_quality: 64.5
     developer_ergonomics: 78.0
     discoverability: 74.1
-    governance: 12.1
+    governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 59.7
+  previous_composite: 58.2
   provenance:
     conformance: derived
     contracts:
@@ -297,8 +306,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unifonic/refs/heads/main/screenshots/unifonic-2026-08-17T082602.png
 security:

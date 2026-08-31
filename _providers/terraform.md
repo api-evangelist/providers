@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 48
   slug: terraform-agentic-access
   summary_line: 48 operations · 23 acting
-api_count: 9
+api_count: 2
 apis:
 - description: Browse and search Terraform modules in the public registry
   name: Terraform Modules API
@@ -353,7 +353,7 @@ modified: '2026-06-20'
 name: Terraform
 nav: Providers
 network: true
-overview: 'Terraform publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Modules API, Organizations API, Policies API, and 6 more. Tagged areas include Infrastructure as Code, Cloud Infrastructure, DevOps, Open-Source, and HashiCorp.
+overview: 'Terraform publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Modules API, Organizations API, Policies API, and 6 more. Tagged areas include Infrastructure As Code, Cloud Infrastructure, DevOps, Open-Source, and HashiCorp.
 
 
   The Terraform catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -393,18 +393,23 @@ rules:
   slug: terraform-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.3
-  delta: 1.9
+  composite: 49.0
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 71.2
-    contract_quality: 64.9
+    contract_governance: 59.1
+    contract_quality: 64.4
     developer_ergonomics: 52.4
-    discoverability: 85.2
-    governance: 71.2
+    discoverability: 68.5
+    governance: 59.1
     operational_transparency: 28.9
-  previous_composite: 50.4
+  previous_composite: 49.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -414,8 +419,8 @@ score:
       marker_coverage: 0.0
       total: 9
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/screenshots/terraform-2026-06-20T195132.png
 security:
@@ -437,7 +442,7 @@ security:
   summary_line: SOC 2 Type 2, ISO 27001, ISO 27017, ISO 27018
 slug: terraform
 tags:
-- Infrastructure as Code
+- Infrastructure As Code
 - Cloud Infrastructure
 - DevOps
 - Open-Source

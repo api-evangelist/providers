@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -172,6 +172,10 @@ collections:
   name: Onfleet Destinations Workers API
   slug: open-onfleet-workers-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/onfleet-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -456,7 +460,7 @@ overview: 'Onfleet publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
   The Onfleet catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Onfleet''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, signup flow, and 43 more developer resources.'
+  Onfleet''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, signup flow, and 44 more developer resources.'
 plans:
 - name: Onfleet Plans Pricing
   plan_count: 3
@@ -501,18 +505,23 @@ rules:
   slug: onfleet-rules
 score:
   band: strong
-  composite: 62.3
+  composite: 62.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
     contract_governance: 28.8
-    contract_quality: 78.3
+    contract_quality: 79.5
     developer_ergonomics: 60.7
     discoverability: 74.1
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 62.3
+  previous_composite: 62.6
   provenance:
     agentic_access: derived
     contracts:
@@ -520,8 +529,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/screenshots/onfleet-2026-06-20T190721.png
 security:
@@ -548,7 +557,7 @@ tags:
 - Fleet Management
 - Dispatch
 - Route Optimization
-- Couriers
+- Courier
 - Drivers
 - Tracking
 - Geocoding

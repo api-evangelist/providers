@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -42,17 +42,8 @@ agentic_access:
   operation_count: 179
   slug: liveramp-agentic-access
   summary_line: 179 operations · 81 acting
-api_count: 11
+api_count: 5
 apis:
-- description: Programmatic activation of first-party and marketplace data across destination partners and connected platforms in the LiveRamp network. Manages destinations, destination integrations, integration con
-  name: LiveRamp Activation API
-  slug: activation-api
-- description: API for setting up and managing clean rooms, partners, data connections, datasets, questions, question runs, flows, exports and destinations for privacy-safe collaborative analytics. This is the forme
-  name: LiveRamp Clean Room API
-  slug: clean-room-api
-- description: Automates data subject requests including opt-outs, deletions and consent updates across the LiveRamp ecosystem. Two operations, and the only endpoint in the LiveRamp portfolio with a documented idemp
-  name: LiveRamp Privacy API
-  slug: privacy-api
 - description: Privacy-first, PII-based authentication API enabling programmatic addressability without third-party cookies via RampID envelopes. Publishes no OpenAPI. LiveRamp has deprecated the ATS Mobile SDK with
   name: LiveRamp Authenticated Traffic Solution (ATS) API
   slug: ats-api
@@ -77,7 +68,133 @@ apis:
 - description: Service enabling SSPs to decrypt RampID identity envelopes into DSP-specific identifiers for programmatic activation. Documented on its own ReadMe site rather than the main developer portal.
   name: LiveRamp Sidecar
   slug: sidecar
-artifact_total: 35
+- description: The Billable Configs API from LiveRamp — 2 operation(s) for billable configs.
+  name: LiveRamp Billable Configs API
+  slug: liveramp-billable-configs-api
+- description: The Cleanroom API from LiveRamp — 2 operation(s) for cleanroom.
+  name: LiveRamp Cleanroom API
+  slug: liveramp-cleanroom-api
+- description: The Cleanroom Datasets API from LiveRamp — 5 operation(s) for cleanroom datasets.
+  name: LiveRamp Cleanroom Datasets API
+  slug: liveramp-cleanroom-datasets-api
+- description: The Cleanroom Destinations API from LiveRamp — 3 operation(s) for cleanroom destinations.
+  name: LiveRamp Cleanroom Destinations API
+  slug: liveramp-cleanroom-destinations-api
+- description: The Cleanroom Exports API from LiveRamp — 4 operation(s) for cleanroom exports.
+  name: LiveRamp Cleanroom Exports API
+  slug: liveramp-cleanroom-exports-api
+- description: The Cleanroom Flow Runs API from LiveRamp — 10 operation(s) for cleanroom flow runs.
+  name: LiveRamp Cleanroom Flow Runs API
+  slug: liveramp-cleanroom-flow-runs-api
+- description: The Cleanroom Flows API from LiveRamp — 10 operation(s) for cleanroom flows.
+  name: LiveRamp Cleanroom Flows API
+  slug: liveramp-cleanroom-flows-api
+- description: The Cleanroom Partners API from LiveRamp — 8 operation(s) for cleanroom partners.
+  name: LiveRamp Cleanroom Partners API
+  slug: liveramp-cleanroom-partners-api
+- description: The Cleanroom Question Datasets API from LiveRamp — 4 operation(s) for cleanroom question datasets.
+  name: LiveRamp Cleanroom Question Datasets API
+  slug: liveramp-cleanroom-question-datasets-api
+- description: The Cleanroom Question Permissions API from LiveRamp — 1 operation(s) for cleanroom question permissions.
+  name: LiveRamp Cleanroom Question Permissions API
+  slug: liveramp-cleanroom-question-permissions-api
+- description: The Cleanroom Question Result Shares API from LiveRamp — 1 operation(s) for cleanroom question result shares.
+  name: LiveRamp Cleanroom Question Result Shares API
+  slug: liveramp-cleanroom-question-result-shares-api
+- description: The Cleanroom Question Run Schedule API from LiveRamp — 2 operation(s) for cleanroom question run schedule.
+  name: LiveRamp Cleanroom Question Run Schedule API
+  slug: liveramp-cleanroom-question-run-schedule-api
+- description: The Cleanroom Question Runs API from LiveRamp — 10 operation(s) for cleanroom question runs.
+  name: LiveRamp Cleanroom Question Runs API
+  slug: liveramp-cleanroom-question-runs-api
+- description: The Cleanroom Question Tags API from LiveRamp — 2 operation(s) for cleanroom question tags.
+  name: LiveRamp Cleanroom Question Tags API
+  slug: liveramp-cleanroom-question-tags-api
+- description: The Cleanroom Questions API from LiveRamp — 5 operation(s) for cleanroom questions.
+  name: LiveRamp Cleanroom Questions API
+  slug: liveramp-cleanroom-questions-api
+- description: The Cleanroom Roles API from LiveRamp — 2 operation(s) for cleanroom roles.
+  name: LiveRamp Cleanroom Roles API
+  slug: liveramp-cleanroom-roles-api
+- description: The Cleanroom Users API from LiveRamp — 3 operation(s) for cleanroom users.
+  name: LiveRamp Cleanroom Users API
+  slug: liveramp-cleanroom-users-api
+- description: The Cleanrooms API from LiveRamp — 4 operation(s) for cleanrooms.
+  name: LiveRamp Cleanrooms API
+  slug: liveramp-cleanrooms-api
+- description: The Configure Distributions API from LiveRamp — 4 operation(s) for configure distributions.
+  name: LiveRamp Configure Distributions API
+  slug: liveramp-configure-distributions-api
+- description: The Credential Sources API from LiveRamp — 3 operation(s) for credential sources.
+  name: LiveRamp Credential Sources API
+  slug: liveramp-credential-sources-api
+- description: The Data Connections API from LiveRamp — 5 operation(s) for data connections.
+  name: LiveRamp Data Connections API
+  slug: liveramp-data-connections-api
+- description: The Data Source Parameters API from LiveRamp — 1 operation(s) for data source parameters.
+  name: LiveRamp Data Source Parameters API
+  slug: liveramp-data-source-parameters-api
+- description: The Data Sources API from LiveRamp — 2 operation(s) for data sources.
+  name: LiveRamp Data Sources API
+  slug: liveramp-data-sources-api
+- description: The Data Types API from LiveRamp — 2 operation(s) for data types.
+  name: LiveRamp Data Types API
+  slug: liveramp-data-types-api
+- description: The DataConnectionViews API from LiveRamp — 2 operation(s) for dataconnectionviews.
+  name: LiveRamp Data Connection Views API
+  slug: liveramp-dataconnectionviews-api
+- description: The Destinations API from LiveRamp — 3 operation(s) for destinations.
+  name: LiveRamp Destinations API
+  slug: liveramp-destinations-api
+- description: The Distribute Data API from LiveRamp — 2 operation(s) for distribute data.
+  name: LiveRamp Distribute Data API
+  slug: liveramp-distribute-data-api
+- description: View Destinations and Integrations where you can distribute data
+  name: LiveRamp Explore Destinations API
+  slug: liveramp-explore-destinations-api
+- description: The Flow Decision Configurations API from LiveRamp — 1 operation(s) for flow decision configurations.
+  name: LiveRamp Flow Decision Configurations API
+  slug: liveramp-flow-decision-configurations-api
+- description: The Health API from LiveRamp — 1 operation(s) for health.
+  name: LiveRamp Health API
+  slug: liveramp-health-api
+- description: The Import Data Types API from LiveRamp — 1 operation(s) for import data types.
+  name: LiveRamp Import Data Types API
+  slug: liveramp-import-data-types-api
+- description: The Intelligence API from LiveRamp — 4 operation(s) for intelligence.
+  name: LiveRamp Intelligence API
+  slug: liveramp-intelligence-api
+- description: For internal LiveRamp consumption. These operations are not part of the supported external customer contract and may change without notice.
+  name: LiveRamp Internal API
+  slug: liveramp-internal-api
+- description: The Invitations API from LiveRamp — 3 operation(s) for invitations.
+  name: LiveRamp Invitations API
+  slug: liveramp-invitations-api
+- description: The OAuth Configuration API from LiveRamp — 4 operation(s) for oauth configuration.
+  name: LiveRamp OAuth Configuration API
+  slug: liveramp-oauth-configuration-api
+- description: The Organization Credentials API from LiveRamp — 2 operation(s) for organization credentials.
+  name: LiveRamp Organization Credentials API
+  slug: liveramp-organization-credentials-api
+- description: The Organization Users API from LiveRamp — 1 operation(s) for organization users.
+  name: LiveRamp Organization Users API
+  slug: liveramp-organization-users-api
+- description: (resource) Manage privacy requests.
+  name: LiveRamp Privacy Requests API
+  slug: liveramp-privacyrequests-api
+- description: The Questions API from LiveRamp — 3 operation(s) for questions.
+  name: LiveRamp Questions API
+  slug: liveramp-questions-api
+- description: (resource) Represents a segment's status
+  name: LiveRamp V2/Segment Status API
+  slug: liveramp-v2-segmentstatus-api
+- description: The View Deliveries API from LiveRamp — 1 operation(s) for view deliveries.
+  name: LiveRamp View Deliveries API
+  slug: liveramp-view-deliveries-api
+- description: The View Segments API from LiveRamp — 2 operation(s) for view segments.
+  name: LiveRamp View Segments API
+  slug: liveramp-view-segments-api
+artifact_total: 74
 collections:
 - collection_type: open
   name: API Collection
@@ -119,6 +236,22 @@ collections:
   name: LiveRamp Activation API
   slug: open-liveramp
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/liveramp-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/liveramp-activation-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/liveramp-clean-room-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/liveramp-privacy-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -335,10 +468,10 @@ modified: '2026-08-13'
 name: LiveRamp
 nav: Providers
 network: true
-overview: 'LiveRamp publishes 3 APIs on the [APIs.io](https://apis.io/) network: Activation API, Clean Room API, and Privacy API. Tagged areas include Data Connectivity, Data Collaboration, Identity Resolution, Activation, and Clean Room.
+overview: 'LiveRamp publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Billable Configs API, Cleanroom API, Cleanroom Datasets API, and 39 more. Tagged areas include Data Connectivity, Data Collaboration, Identity Resolution, Activation, and Clean Room.
 
 
-  LiveRamp''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 42 more developer resources.'
+  LiveRamp''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 46 more developer resources.'
 plans:
 - name: Liveramp Plans Pricing
   plan_count: 0
@@ -355,18 +488,23 @@ scopes:
   summary_line: 1 scope · clientCredentials/password
 score:
   band: strong
-  composite: 59.1
+  composite: 57.2
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 68.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 30.3
-    contract_quality: 58.8
+    contract_governance: 18.2
+    contract_quality: 59.1
     developer_ergonomics: 49.4
-    discoverability: 83.3
-    governance: 30.3
+    discoverability: 77.8
+    governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 59.1
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -377,8 +515,8 @@ score:
       total: 12
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liveramp/refs/heads/main/screenshots/liveramp-2026-06-20T184618.png
 security:

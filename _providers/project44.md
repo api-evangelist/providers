@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: project44-agentic-access
   summary_line: 9 operations · 4 acting · 1 human-in-the-loop
-api_count: 4
+api_count: 1
 apis:
 - description: Shipment tracking and management
   name: project44 Shipments API
@@ -81,6 +81,10 @@ collections:
   name: project44 Tracking Shipments Webhooks API
   slug: open-project44-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/project44-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -201,13 +205,13 @@ modified: '2026-05-19'
 name: project44
 nav: Providers
 network: true
-overview: 'project44 publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Shipments API, Status API, Tracking API, and 1 more. Tagged areas include Logistics, Supply Chain Visibility, Tracking, Freight, and Multi-Modal.
+overview: 'project44 publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Shipments API, Status API, Tracking API, and 1 more. Tagged areas include Logistics, Supply Chain Visibility, Tracking, Freight, and Multi-modal.
 
 
   The project44 catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  project44''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
+  project44''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Project44 Plans Pricing
   plan_count: 1
@@ -246,18 +250,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 33.5
-  delta: -0.7
+  composite: 32.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 13.6
     contract_quality: 70.9
     developer_ergonomics: 11.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 34.2
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -265,8 +274,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/screenshots/project44-2026-06-20T192205.png
 security:
@@ -288,6 +297,6 @@ tags:
 - Supply Chain Visibility
 - Tracking
 - Freight
-- Multi-Modal
+- Multi-modal
 website: https://www.project44.com/
 ---

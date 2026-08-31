@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 65.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 55
   slug: lightfield-agentic-access
   summary_line: 55 operations · 21 acting
-api_count: 13
+api_count: 1
 apis:
 - description: The Accounts API from Lightfield — 3 operation(s) for accounts.
   name: Lightfield Accounts API
@@ -378,18 +378,23 @@ scopes:
   summary_line: 26 scopes
 score:
   band: exemplar
-  composite: 73.0
-  delta: 1.4
+  composite: 69.8
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 67.0
     developer_ergonomics: 78.0
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 84.2
-  previous_composite: 71.6
+  previous_composite: 70.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -400,8 +405,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/screenshots/lightfield-2026-07-25T225114.png
 security:
@@ -429,6 +434,7 @@ tags:
 - Sales
 - Artificial Intelligence
 - Agents
+- Customer Relationship Management
 - Go-To-Market
 - Productivity
 - Software-as-a-Service

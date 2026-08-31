@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 42
   slug: parsec-agentic-access
   summary_line: 42 operations · 26 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The App Rule API from Parsec — 3 operation(s) for app rule.
   name: Parsec App Rule API
@@ -97,6 +97,10 @@ collections:
   name: Parsec Teams App Rule Relay API
   slug: open-parsec-relay-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/parsec-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -244,26 +248,31 @@ network: true
 overview: 'Parsec publishes 8 APIs on the [APIs.io](https://apis.io/) network, including App Rule API, Audit Log API, Group API, and 5 more. Tagged areas include Company, Remote Desktop, Cloud Gaming, Streaming, and Virtual Desktop.
 
 
-  Parsec''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 26 more developer resources.'
+  Parsec''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 27 more developer resources.'
 random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Parsec Rate Limits
   slug: parsec-rate-limits
 score:
-  band: strong
-  composite: 54.4
-  delta: 0.0
+  band: developing
+  composite: 52.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 54.4
     developer_ergonomics: 47.0
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 54.4
+  previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -274,8 +283,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/screenshots/parsec-2026-08-07T191456.png
 security:

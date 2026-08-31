@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 20
   slug: united-states-army-corps-of-engineers-agentic-access
   summary_line: 20 operations · 3 acting
-api_count: 10
+api_count: 1
 apis:
 - description: River basin information
   name: United States Army Corps of Engineers Basins API
@@ -113,6 +113,18 @@ collections:
   name: CWMS Data Basins Version API
   slug: open-united-states-army-corps-of-engineers-version-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/USACE/cwms-data-api/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/USACE/cwms-data-api/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/USACE/cwms-data-api/blob/develop/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -208,7 +220,7 @@ overview: 'United States Army Corps of Engineers publishes 10 APIs on the [APIs.
   The United States Army Corps of Engineers catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  United States Army Corps of Engineers'' developer surface includes authentication, GitHub presence, and 10 more developer resources.'
+  United States Army Corps of Engineers'' developer surface includes authentication, GitHub presence, and 13 more developer resources.'
 plans:
 - name: United States Army Corps Of Engineers Plans Pricing
   plan_count: 3
@@ -242,18 +254,26 @@ rules:
   slug: united-states-army-corps-of-engineers-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.1
-  delta: 1.9
+  composite: 42.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 54.5
     contract_quality: 62.2
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 54.5
-    operational_transparency: 13.2
-  previous_composite: 38.2
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -267,8 +287,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/screenshots/united-states-army-corps-of-engineers-2026-06-20T200046.png
 security:

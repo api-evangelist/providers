@@ -33,18 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-26'
-api_count: 8
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: The one publicly callable API the University of Melbourne genuinely operates. SUDO is a GeoNode deployment on the University's own eresearch.unimelb.edu.au host, serving an unauthenticated JSON API ov
-  name: Spatial Urban Data Observatory (SUDO) API
-  slug: sudo-spatial-urban-data-observatory
-- description: HAL+JSON REST API of Minerva Access, the University of Melbourne Library Digital Repository. Self-hosted DSpace 7.6 on the University's own infrastructure — the service advertises itself as rest.mars-
-  name: Minerva Access Repository REST API (DSpace 7.6)
-  slug: minerva-access-rest
-- description: 'Open Archives Initiative metadata harvesting endpoint for Minerva Access, on the University''s own host. Verified live 2026-08-19: verb=Identify, verb=ListMetadataFormats and verb=ListSets all returned'
-  name: Minerva Access OAI-PMH 2.0 Endpoint
-  slug: minerva-access-oai-pmh
 - description: The University's own Shibboleth identity provider, entityID https://idp.unimelb.edu.au/idp/shibboleth, serving public SAML 2.0 metadata at that URL (verified 200 application/xml, 2026-08-19) with an I
   name: Shibboleth Identity Provider — SAML 2.0 Metadata
   slug: shibboleth-identity-provider
@@ -60,7 +51,19 @@ apis:
 - description: TENANT RELATIONSHIP, and a weak one. The University of Melbourne runs a Boomi-based internal API management programme and developer portal for staff and students. It is gated behind University authent
   name: Internal API Management Programme (Boomi tenancy) — Gated
   slug: boomi-internal-api-portal
-artifact_total: 25
+- description: Repository content hierarchy
+  name: University of Melbourne Core API
+  slug: university-of-melbourne-core-api
+- description: Spatial datasets held in the observatory
+  name: University of Melbourne Datasets API
+  slug: university-of-melbourne-datasets-api
+- description: HAL root document
+  name: University of Melbourne Discovery API
+  slug: university-of-melbourne-discovery-api
+- description: Open Archives Initiative Protocol for Metadata Harvesting 2.0
+  name: University of Melbourne OAI PMH API
+  slug: university-of-melbourne-oai-pmh-api
+artifact_total: 26
 common:
 - group: company
   title: ''
@@ -235,7 +238,7 @@ modified: '2026-08-19'
 name: University of Melbourne
 nav: Providers
 network: true
-overview: 'University of Melbourne publishes 3 APIs on the [APIs.io](https://apis.io/) network: Spatial Urban Data Observatory (SUDO) API, Minerva Access Repository REST API (DSpace 7.6), and Minerva Access OAI-PMH 2.0 Endpoint. Tagged areas include University, Higher Education, Education, Australia, and Group of Eight.
+overview: 'University of Melbourne publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Core API, Datasets API, Discovery API, and 1 more. Tagged areas include University, Higher Education, Education, Australia, and Group of Eight.
 
 
   The University of Melbourne catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
@@ -269,18 +272,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 38.0
-  delta: 1.4
+  composite: 38.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 38.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 33.3
-    contract_quality: 25.0
+    contract_quality: 27.7
     developer_ergonomics: 19.0
     discoverability: 64.8
     governance: 33.3
     operational_transparency: 26.3
-  previous_composite: 36.6
+  previous_composite: 38.7
   provenance:
     conformance: first-party
     contracts:
@@ -294,8 +302,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 68.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-melbourne/refs/heads/main/screenshots/university-of-melbourne-2026-06-20T200206.png
 security:

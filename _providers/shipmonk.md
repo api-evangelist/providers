@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: derived
     idempotency: documented
     mcp_server: documented
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.4
-  scored_at: '2026-08-26'
+  score: 33.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 19
   slug: shipmonk-agentic-access
   summary_line: 19 operations · 9 acting
-api_count: 7
+api_count: 6
 apis:
 - description: 'The ShipMonk event surface: four HTTP callback events (order shipment notification, order status change, return status change, receiving status change) declared in the OpenAPI 3.1 webhooks block. Deli'
   name: ShipMonk Webhooks
@@ -54,7 +54,10 @@ apis:
 - description: The Warehouses API from ShipMonk — 1 operation(s) for warehouses.
   name: ShipMonk Warehouses API
   slug: shipmonk-warehouses-api
-artifact_total: 21
+- description: 'ShipMonk supports webhooks to help you stay updated in real time as key events happen in our system. Currently, we provide webhooks for the following areas: - Orders - Returns - Receivings ## Webhooks'
+  name: ShipMonk Webhooks API
+  slug: shipmonk-webhooks-api
+artifact_total: 22
 asyncapis:
 - description: AsyncAPI 3.0 model of the ShipMonk webhook event surface, derived from the `webhooks` block of ShipMonk's own OpenAPI 3.1 document (https://apidocs.shipmonk.com/openapi/public_api.json) plus the publi
   name: ShipMonk Webhooks
@@ -79,6 +82,10 @@ collections:
   name: ShipMonk Warehouses API
   slug: open-shipmonk-warehouses-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shipmonk-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -263,13 +270,13 @@ modified: '2026-08-02'
 name: ShipMonk
 nav: Providers
 network: true
-overview: 'ShipMonk publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Orders API, Products API, and 3 more. Tagged areas include Logistics, Fulfillment, 3PL, E-Commerce, and Warehousing.
+overview: 'ShipMonk publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Orders API, Products API, and 4 more. Tagged areas include Logistics, Fulfillment, 3PL, E-Commerce, and Warehousing.
 
 
   The ShipMonk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ShipMonk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
+  ShipMonk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 37 more developer resources.'
 random_paper: 12
 rate_limits:
 - limit_count: 2
@@ -277,18 +284,23 @@ rate_limits:
   slug: shipmonk-rate-limits
 score:
   band: developing
-  composite: 53.2
+  composite: 51.0
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
-    contract_quality: 61.3
+    contract_governance: 4.5
+    contract_quality: 58.7
     developer_ergonomics: 41.1
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 56.6
-  previous_composite: 53.2
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -299,8 +311,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/screenshots/shipmonk-2026-08-17T081833.png
 security:

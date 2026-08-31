@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: sybase-agentic-access
   summary_line: 16 operations · 4 acting
-api_count: 12
+api_count: 1
 apis:
 - description: APIs for Sybase mobile application development and management.
   name: SAP Mobile Platform API
@@ -131,6 +131,10 @@ collections:
   name: Sybase ASE REST Backups Users API
   slug: open-sybase-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sybase-capability-edges.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -317,7 +321,7 @@ overview: 'Sybase publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
   The Sybase catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sybase''s developer surface includes authentication, developer portal, support, engineering blog, documentation, getting-started guide, changelog, and 18 more developer resources.'
+  Sybase''s developer surface includes authentication, developer portal, support, engineering blog, documentation, getting-started guide, changelog, and 19 more developer resources.'
 plans:
 - name: Sybase Plans Pricing
   plan_count: 1
@@ -351,18 +355,23 @@ rules:
   slug: sybase-rules
 score:
   band: developing
-  composite: 45.1
-  delta: 1.4
+  composite: 44.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 68.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
     contract_governance: 13.6
     contract_quality: 59.2
     developer_ergonomics: 45.2
-    discoverability: 63.0
+    discoverability: 57.4
     governance: 13.6
     operational_transparency: 23.7
-  previous_composite: 43.7
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     contracts:
@@ -370,8 +379,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/screenshots/sybase-2026-06-20T194816.png
 security:

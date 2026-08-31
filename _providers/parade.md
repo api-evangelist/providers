@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 13
   slug: parade-agentic-access
   summary_line: 13 operations · 7 acting
-api_count: 8
+api_count: 3
 apis:
 - description: The Available Trucks API from Parade — 1 operation(s) for available trucks.
   name: Parade Available Trucks API
@@ -97,6 +97,10 @@ collections:
   name: Parade Transactions Available Trucks Search API
   slug: open-parade-search-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/parade-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -200,22 +204,27 @@ network: true
 overview: 'Parade publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Available Trucks API, Bookings API, Carrier Onboarding Status API, and 5 more. Tagged areas include Company, Freight, Logistics, Trucking, and Supply Chain.
 
 
-  Parade''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, sandbox, and 16 more developer resources.'
+  Parade''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, sandbox, and 17 more developer resources.'
 random_paper: 12
 score:
   band: thin
-  composite: 37.6
+  composite: 36.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 54.3
+    contract_governance: 4.5
+    contract_quality: 54.1
     developer_ergonomics: 47.0
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 37.6
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -226,8 +235,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/screenshots/parade-2026-08-07T191355.png
 security:

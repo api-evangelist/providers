@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Programmatic access to Bloomberg Tax research content including tax portfolios, practitioner analysis, primary sources, and tax news for integration into legal research and tax technology platforms.
@@ -44,6 +44,10 @@ apis:
   slug: salt-research
 artifact_total: 16
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -89,14 +93,14 @@ finops:
   slug: bloomberg-tax-research-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-tax-research.png
 layout: provider
-modified: '2026-04-21'
+modified: '2026-08-27'
 name: Bloomberg Tax Research
 nav: Providers
 network: true
 overview: 'Bloomberg Tax Research publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Tax Research, Federal Tax, State Tax, International Tax, and Tax Analysis.
 
 
-  Bloomberg Tax Research''s developer surface includes developer portal, documentation, support, and 3 more developer resources.'
+  Bloomberg Tax Research''s developer surface includes developer portal, documentation, support, and 4 more developer resources.'
 plans:
 - name: Bloomberg Tax Research Plans Pricing
   plan_count: 3
@@ -109,6 +113,11 @@ rate_limits:
 score:
   band: emerging
   composite: 17.8
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -126,8 +135,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 25.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-tax-research/refs/heads/main/screenshots/bloomberg-tax-research-2026-06-20T173508.png
 security:

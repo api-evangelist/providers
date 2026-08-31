@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 27
   slug: fdx-agentic-access
   summary_line: 27 operations
-api_count: 12
+api_count: 3
 apis:
 - description: 'RESTful endpoints for retrieving consumer transaction histories including pending and posted transactions, transaction categorization, merchant data, and transaction amounts across deposit, loan, and '
   name: FDX Transactions API
@@ -104,6 +104,10 @@ collections:
   name: FDX V6.0.0 Account Information Personal Information API
   slug: open-fdx-personal-information-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fdx-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -463,13 +467,13 @@ modified: '2026-06-13'
 name: Financial Data Exchange (FDX)
 nav: Providers
 network: true
-overview: 'Financial Data Exchange (FDX) publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Account Statements API, Account Transactions API, and 3 more. Tagged areas include Financial Data, Open Banking, Open Finance, Financial Data Exchange, and Consumer-Permissioned.
+overview: 'Financial Data Exchange (FDX) publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Account Statements API, Account Transactions API, and 3 more. Tagged areas include Financial Data, Open Banking, Open Finance, Financial Data Exchange, and Consumer Permissioned.
 
 
   The Financial Data Exchange (FDX) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Financial Data Exchange (FDX)''s developer surface includes authentication, documentation, engineering blog, YouTube channel, and 18 more developer resources.'
+  Financial Data Exchange (FDX)''s developer surface includes authentication, documentation, engineering blog, YouTube channel, and 19 more developer resources.'
 plans:
 - name: Fdx Plans Pricing
   plan_count: 4
@@ -498,6 +502,11 @@ scopes:
 score:
   band: developing
   composite: 43.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
@@ -522,8 +531,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/screenshots/fdx-2026-06-20T181106.png
 security:
@@ -541,7 +550,7 @@ tags:
 - Open Banking
 - Open Finance
 - Financial Data Exchange
-- Consumer-Permissioned
+- Consumer Permissioned
 - Account Data
 - Transaction
 - Investments

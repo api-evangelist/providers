@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 46
   slug: arcadia-agentic-access
   summary_line: 46 operations · 24 acting · 2 human-in-the-loop
-api_count: 12
+api_count: 1
 apis:
 - description: Signal provides a tariff and energy rate calculation engine that allows developers to model the cost of any energy usage scenario against North American utility tariffs. It supports cost-benefit analy
   name: Arcadia Signal API
@@ -80,7 +80,13 @@ apis:
 - description: The Webhooks API from Arcadia — 8 operation(s) for webhooks.
   name: Arcadia Webhooks API
   slug: arcadia-webhooks-api
-artifact_total: 58
+- description: The Bundle Webhook Events API from Arcadia — 0 operation(s) for bundle webhook events.
+  name: Arcadia Bundle Webhook Events API
+  slug: arcadia-bundle-webhook-events-api
+- description: The Webhook Events API from Arcadia — 0 operation(s) for webhook events.
+  name: Arcadia Webhook Events API
+  slug: arcadia-webhook-events-api
+artifact_total: 60
 collections:
 - collection_type: open
   name: API Collection
@@ -274,7 +280,7 @@ modified: '2026-06-13'
 name: Arcadia
 nav: Providers
 network: true
-overview: 'Arcadia publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Bundle (Beta) API, Plug API, and 6 more. Tagged areas include Energy, Utilities, Clean Energy, Billing Data, and Interval Data.
+overview: 'Arcadia publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Bundle (Beta) API, Plug API, and 8 more. Tagged areas include Energy, Utilities, Clean Energy, Billing Data, and Interval Data.
 
 
   The Arcadia catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -303,18 +309,23 @@ rules:
   slug: arcadia-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 46.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 40.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 9.8
-    contract_quality: 62.3
+    contract_quality: 59.1
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 48.0
+  previous_composite: 47.2
   provenance:
     agentic_access: derived
     contracts:
@@ -328,8 +339,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 37.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcadia/refs/heads/main/screenshots/arcadia-2026-06-20T172358.png
 security:

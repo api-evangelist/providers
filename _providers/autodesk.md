@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 153
   slug: autodesk-agentic-access
   summary_line: 153 operations · 66 acting · 1 human-in-the-loop
-api_count: 69
+api_count: 12
 apis:
 - description: Provides a single, unified place to view and manage photos and videos in Autodesk Build. This is useful for documenting progress photos on construction projects.
   name: Autodesk Build Photos API
@@ -635,6 +635,10 @@ collections:
   name: Autodesk ACC Account Admin Account Users WorkItems API
   slug: open-autodesk-workitems-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/autodesk-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1428,7 +1432,7 @@ overview: 'Autodesk publishes 48 APIs on the [APIs.io](https://apis.io/) network
   The Autodesk catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Autodesk''s developer surface includes authentication, developer portal, engineering blog, support, getting-started guide, documentation, pricing, and 69 more developer resources.'
+  Autodesk''s developer surface includes authentication, developer portal, engineering blog, support, getting-started guide, documentation, pricing, and 70 more developer resources.'
 plans:
 - name: Autodesk Plans Pricing
   plan_count: 3
@@ -1483,18 +1487,23 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 61.6
-  delta: 1.4
+  composite: 57.2
+  coverage:
+    artifact_dirs: 38
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 76.0
     developer_ergonomics: 76.2
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 50.0
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 60.2
+  previous_composite: 57.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1504,8 +1513,8 @@ score:
       marker_coverage: 0.0
       total: 48
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/screenshots/autodesk-2026-07-25T201825.png
 security:

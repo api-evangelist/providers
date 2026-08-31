@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 171
   slug: activiti-agentic-access
   summary_line: 171 operations · 86 acting · 1 human-in-the-loop
-api_count: 43
+api_count: 1
 apis:
 - description: The Activiti Cloud Runtime Bundle provides a cloud-native REST API for executing BPMN 2.0 processes in a distributed, scalable environment. It exposes endpoints for process instances, tasks, variables
   name: Activiti Cloud Runtime Bundle API
@@ -305,6 +305,10 @@ collections:
   name: Activiti Public Rest About Users Workflow API
   slug: open-activiti-users-workflow-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/activiti-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -463,7 +467,7 @@ overview: 'Activiti publishes 42 APIs on the [APIs.io](https://apis.io/) network
   The Activiti catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Activiti''s developer surface includes authentication, documentation, engineering blog, pricing, Stack Overflow tag, and 17 more developer resources.'
+  Activiti''s developer surface includes authentication, documentation, engineering blog, pricing, Stack Overflow tag, and 18 more developer resources.'
 plans:
 - name: Activiti Plans Pricing
   plan_count: 2
@@ -486,17 +490,25 @@ rules:
   slug: activiti-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.8
-  delta: 0.0
+  composite: 42.7
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.9
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 60.8
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 65.0
   previous_composite: 40.8
   provenance:
     agentic_access: derived
@@ -505,8 +517,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 42
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activiti/refs/heads/main/screenshots/activiti-2026-06-20T164259.png
 security:

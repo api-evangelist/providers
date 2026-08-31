@@ -33,15 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-26'
-api_count: 8
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Unauthenticated read API over the university's scholarly record — communities that mirror the faculty structure (理学部, 人文学部, 专利 with 25,721 items), their collections, items, Dublin Core metadata, attac
-  name: PKU Institutional Repository REST API
-  slug: ir-rest
-- description: 'OAI-PMH 2.0 metadata-harvesting endpoint for the institutional repository, live since at least 2015-09-25 (its earliest datestamp). Advertises twelve metadata formats — oai_dc, qdc, mods, mets, didl, '
-  name: PKU Institutional Repository OAI-PMH API
-  slug: ir-oai-pmh
 - description: OpenSearch 1.1 query interface returning an Atom feed of repository records, served from the institution's own host. Verified live 2026-08-19 (HTTP 200, 32KB Atom response for query=test).
   name: PKU Institutional Repository OpenSearch Feed
   slug: ir-opensearch
@@ -60,8 +54,35 @@ apis:
 - description: OAI-PMH 2.0 metadata-harvesting endpoint for the Open Research Data Platform, verified responding to the Identify verb on 2026-06-03 with Dublin Core and DataCite support via the XOAI toolkit. Unreach
   name: PKU Open Research Data Platform (OAI-PMH)
   slug: opendata-oaipmh
-artifact_total: 18
+- description: Collections of items inside a community.
+  name: Peking University Collections API
+  slug: peking-collections-api
+- description: Top-level organisational units of the repository (schools, departments, patent and thesis collections).
+  name: Peking University Communities API
+  slug: peking-communities-api
+- description: OAI-PMH 2.0 verbs for harvesting repository metadata.
+  name: Peking University Harvesting API
+  slug: peking-harvesting-api
+- description: Individual repository records — articles, theses, patents — and their metadata and bitstreams.
+  name: Peking University Items API
+  slug: peking-items-api
+- description: Service liveness and authentication state.
+  name: Peking University Status API
+  slug: peking-status-api
+artifact_total: 21
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/peking-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/PKUHPC/OpenSCOW/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/PKUHPC/OpenSCOW/releases
 - group: company
   title: ''
   type: Website
@@ -198,13 +219,13 @@ modified: '2026-08-19'
 name: Peking University
 nav: Providers
 network: true
-overview: 'Peking University publishes 2 APIs on the [APIs.io](https://apis.io/) network: PKU Institutional Repository REST API and PKU Institutional Repository OAI-PMH API. Tagged areas include University, Higher Education, Education, China, and Public Research University.
+overview: 'Peking University publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Collections API, Communities API, Harvesting API, and 2 more. Tagged areas include University, Higher Education, Education, China, and Public Research University.
 
 
   The Peking University catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Peking University''s developer surface includes engineering blog, authentication, code examples, and 24 more developer resources.'
+  Peking University''s developer surface includes engineering blog, authentication, code examples, and 27 more developer resources.'
 plans:
 - name: Peking Plans Pricing
   plan_count: 2
@@ -221,18 +242,26 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.7
-  delta: 1.9
+  composite: 43.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.4
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 22.0
-    contract_quality: 63.6
+    contract_quality: 62.6
     developer_ergonomics: 21.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 22.0
-    operational_transparency: 23.7
-  previous_composite: 41.8
+    operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 44.0
   provenance:
     conformance: first-party
     contracts:
@@ -246,8 +275,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peking/refs/heads/main/screenshots/peking-2026-06-20T191532.png
 security:

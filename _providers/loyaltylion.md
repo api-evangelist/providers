@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: loyaltylion-agentic-access
   summary_line: 15 operations · 9 acting · 1 human-in-the-loop
-api_count: 6
+api_count: 1
 apis:
 - description: Customer activities recorded against loyalty rules to award points.
   name: LoyaltyLion Activities API
@@ -152,18 +152,23 @@ rate_limits:
   slug: loyaltylion-rate-limits
 score:
   band: thin
-  composite: 27.3
-  delta: 1.5
+  composite: 26.7
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 14.0
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 25.8
+  previous_composite: 27.3
   provenance:
     agentic_access: derived
     contracts:
@@ -171,8 +176,8 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loyaltylion/refs/heads/main/screenshots/loyaltylion-2026-07-25T225628.png
 security:

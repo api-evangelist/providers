@@ -23,17 +23,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: 'The LeanLaw REST API (v2) provides programmatic access to a LeanLaw law-firm account — clients, matters, time entries, expenses, fixed fees, invoices, practice areas, custom field definitions, users, '
-  name: LeanLaw API
-  slug: leanlaw-api
 - description: LeanLaw operates a remote Model Context Protocol server at https://api.leanlaw.io/mcp that lets an AI assistant work with a firm's clients, matters, time entries, expenses, fixed fees and invoices. It
   name: LeanLaw MCP Server
   slug: leanlaw-mcp
-artifact_total: 8
+- description: The Client API from LeanLaw — 3 operation(s) for client.
+  name: LeanLaw Client API
+  slug: leanlaw-client-api
+- description: The Codes API from LeanLaw — 1 operation(s) for codes.
+  name: LeanLaw Codes API
+  slug: leanlaw-codes-api
+- description: The CustomField API from LeanLaw — 1 operation(s) for customfield.
+  name: LeanLaw Custom Field API
+  slug: leanlaw-customfield-api
+- description: The Expense API from LeanLaw — 2 operation(s) for expense.
+  name: LeanLaw Expense API
+  slug: leanlaw-expense-api
+- description: The FixedFee API from LeanLaw — 2 operation(s) for fixedfee.
+  name: LeanLaw Fixed Fee API
+  slug: leanlaw-fixedfee-api
+- description: The Invoice API from LeanLaw — 1 operation(s) for invoice.
+  name: LeanLaw Invoice API
+  slug: leanlaw-invoice-api
+- description: The Matter API from LeanLaw — 2 operation(s) for matter.
+  name: LeanLaw Matter API
+  slug: leanlaw-matter-api
+- description: The PracticeArea API from LeanLaw — 2 operation(s) for practicearea.
+  name: LeanLaw Practice Area API
+  slug: leanlaw-practicearea-api
+- description: The TimeEntry API from LeanLaw — 2 operation(s) for timeentry.
+  name: LeanLaw Time Entry API
+  slug: leanlaw-timeentry-api
+- description: The User API from LeanLaw — 2 operation(s) for user.
+  name: LeanLaw User API
+  slug: leanlaw-user-api
+artifact_total: 17
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/leanlaw-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/leanlaw-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -150,10 +185,10 @@ modified: '2026-08-25'
 name: LeanLaw
 nav: Providers
 network: true
-overview: 'LeanLaw publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Legal Billing, Law Firms, Time Tracking, and Billing.
+overview: 'LeanLaw publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Client API, Codes API, Custom Field API, and 7 more. Tagged areas include Legal, Legal Billing, Law Firms, Time Tracking, and Billing.
 
 
-  LeanLaw''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
+  LeanLaw''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
 plans:
 - name: Leanlaw Plans Pricing
   plan_count: 4
@@ -170,16 +205,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.5
+  composite: 56.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 30.3
-    contract_quality: 48.3
+    contract_governance: 18.2
+    contract_quality: 48.9
     developer_ergonomics: 58.9
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 34.2
+  previous_composite: 57.4
   provenance:
     conformance: first-party
     contracts:
@@ -195,8 +237,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Leanlaw Authentication
@@ -219,7 +262,7 @@ tags:
 - Practice Management
 - QuickBooks
 - Payments
-- LegalTech
-- SaaS
+- Legal Tech
+- Software-as-a-Service
 website: https://www.leanlaw.co/
 ---

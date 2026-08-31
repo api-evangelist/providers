@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 46
   slug: cabify-agentic-access
   summary_line: 46 operations · 21 acting
-api_count: 13
+api_count: 2
 apis:
 - description: Operations for managing the delivery lifecycle. Use these endpoints to trigger a shipment, cancel an active delivery, or check whether a pickup location falls within an operating area.
   name: Cabify delivery API
@@ -131,6 +131,10 @@ collections:
   name: Cabify Logistics delivery webhooks API
   slug: open-cabify-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cabify-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -273,22 +277,27 @@ overview: 'Cabify publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
   The Cabify catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cabify''s developer surface includes documentation, getting-started guide, API reference, authentication, sandbox, changelog, support, and 24 more developer resources.'
+  Cabify''s developer surface includes documentation, getting-started guide, API reference, authentication, sandbox, changelog, support, and 25 more developer resources.'
 random_paper: 13
 score:
   band: developing
-  composite: 54.0
-  delta: 0.0
+  composite: 50.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 65.4
+    contract_governance: 4.5
+    contract_quality: 65.6
     developer_ergonomics: 63.7
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 54.0
+  previous_composite: 51.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -299,8 +308,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cabify/refs/heads/main/screenshots/cabify-2026-07-25T204159.png
 security:

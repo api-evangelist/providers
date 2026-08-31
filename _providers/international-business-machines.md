@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 42
   slug: international-business-machines-agentic-access
   summary_line: 42 operations · 20 acting
-api_count: 22
+api_count: 8
 apis:
 - description: Analyze text content.
   name: International Business Machines Analyze API
@@ -206,6 +206,10 @@ collections:
   name: International Business Machines IBM Cloud Object Storage Analyze Worker Pools API
   slug: open-international-business-machines-worker-pools-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/international-business-machines-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -298,7 +302,7 @@ overview: 'International Business Machines publishes 22 APIs on the [APIs.io](ht
   The International Business Machines catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  International Business Machines'' developer surface includes authentication, documentation, engineering blog, support, developer portal, and 5 more developer resources.'
+  International Business Machines'' developer surface includes authentication, documentation, engineering blog, support, developer portal, and 6 more developer resources.'
 plans:
 - name: International Business Machines Plans Pricing
   plan_count: 3
@@ -321,18 +325,23 @@ rules:
   slug: international-business-machines-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.7
+  composite: 34.6
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 58.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
-    contract_quality: 65.4
+    contract_quality: 65.3
     developer_ergonomics: 38.1
     discoverability: 50.0
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 34.7
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     contracts:
@@ -340,8 +349,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/international-business-machines/refs/heads/main/screenshots/international-business-machines-2026-06-20T183455.png
 security:

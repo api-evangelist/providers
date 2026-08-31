@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 7
   slug: science-museum-group-agentic-access
   summary_line: 7 operations
-api_count: 4
+api_count: 1
 apis:
 - description: Documents, archives, and written records in the collection
   name: Science Museum Group Documents API
@@ -76,6 +76,10 @@ collections:
   name: Science Museum Group Collection Documents Search API
   slug: open-science-museum-group-search-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/TheScienceMuseum/collectionsonline-api/issues
 - group: commercial
   title: ''
   type: License
@@ -173,18 +177,26 @@ rules:
   slug: science-museum-group-rules
 score:
   band: thin
-  composite: 30.6
-  delta: 3.8
+  composite: 27.0
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 33.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 28.8
     contract_quality: 66.5
     developer_ergonomics: 9.5
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 26.8
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 27.5
   provenance:
     agentic_access: derived
     contracts:
@@ -198,8 +210,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/screenshots/science-museum-group-2026-06-20T193534.png
 security:

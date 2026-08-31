@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-08-26'
-api_count: 6
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
 - description: Publisher app and placement (inventory) management.
   name: Opera Inventory API
@@ -46,16 +46,19 @@ apis:
 - description: Advertiser reporting on campaign performance.
   name: Opera Report API
   slug: opera-report-api
-- description: Publisher (OFP) revenue and delivery reporting — a measurement/dimension query returning revenue, eCPM, requests, responses, impressions, clicks, CTR, CPC, fill rate and show rate, plus the older toke
+- description: DSP-side exchange performance reporting.
+  name: Opera DSP Report API
+  slug: opera-dspreport-api
+- description: Listing and inspecting uploads.
+  name: Opera File Management API
+  slug: opera-filemanagement-api
+- description: Publisher revenue and delivery reporting.
   name: Opera Publisher Report API
-  slug: opera-publisher-report-api
-- description: Demand-side performance reporting for the Opera ADX exchange — daily impressions, requests, fills and revenue over a window of up to 180 consecutive days, authenticated by a token query parameter.
-  name: Opera ADX DSP Report API
-  slug: opera-dsp-report-api
-- description: Resumable large-file upload implementing the TUS 1.0.0 protocol, with API-key or HMAC-SHA256 authentication, 4 GB maximum file size, 256 MB chunk ceiling and 7-day session expiry. The upload host is i
-  name: Opera Ads File Upload API
-  slug: opera-file-upload-api
-artifact_total: 16
+  slug: opera-publisherreport-api
+- description: TUS resumable upload session lifecycle.
+  name: Opera Upload API
+  slug: opera-upload-api
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -227,7 +230,7 @@ modified: '2026-08-13'
 name: Opera
 nav: Providers
 network: true
-overview: 'Opera publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Inventory API, Marketing API, Report API, and 3 more. Tagged areas include Company, Consumer Technology, Advertising, AdTech, and Browser.
+overview: 'Opera publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Inventory API, Marketing API, Report API, and 4 more. Tagged areas include Company, Consumer Technology, Advertising, AdTech, and Browser.
 
 
   Opera''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, and 29 more developer resources.'
@@ -242,18 +245,23 @@ rate_limits:
   slug: opera-rate-limits
 score:
   band: developing
-  composite: 46.7
+  composite: 44.1
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 14.7
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 46.7
+  previous_composite: 44.1
   provenance:
     conformance: first-party
     contracts:
@@ -263,8 +271,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/screenshots/opera-2026-08-17T083429.png
 security:

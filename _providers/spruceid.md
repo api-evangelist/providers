@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 11
   slug: spruceid-agentic-access
   summary_line: 11 operations · 8 acting
-api_count: 10
+api_count: 1
 apis:
 - description: Sign-In with Ethereum (SIWE) enables Ethereum accounts to authenticate with off-chain services by signing a standardized message format (EIP-4361). SpruceID's SIWE library provides client and server i
   name: SpruceID Sign-In with Ethereum (SIWE) API
@@ -93,6 +93,14 @@ collections:
   name: SpruceID DIDKit HTTP Credentials Status API
   slug: open-spruceid-status-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/spruceid/siwe/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/spruceid/siwe/releases
 - group: commercial
   title: ''
   type: License
@@ -148,22 +156,30 @@ network: true
 overview: 'SpruceID publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Credentials API, Health API, Identifiers API, and 2 more. Tagged areas include Decentralized Identity, Verifiable Credentials, DIDs, Sign-In with Ethereum, and Identity Wallet.
 
 
-  SpruceID''s developer surface includes engineering blog, GitHub presence, and 9 more developer resources.'
+  SpruceID''s developer surface includes engineering blog, GitHub presence, and 11 more developer resources.'
 random_paper: 2
 score:
   band: emerging
-  composite: 20.3
-  delta: 1.9
+  composite: 22.0
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 45.7
     developer_ergonomics: 16.7
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 18.4
+    operational_transparency: 21.1
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 22.5
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +193,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/screenshots/spruceid-2026-06-20T194421.png
 security:

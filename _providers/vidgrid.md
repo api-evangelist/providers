@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 15
   slug: vidgrid-agentic-access
   summary_line: 15 operations · 10 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Caption API allows you to request and manage closed captioning on your Videos.
   name: VidGrid Caption API
@@ -95,6 +95,10 @@ collections:
   name: VidGrid API Reference Caption Webhooks API
   slug: open-vidgrid-webhooks-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/paylocity/
 - group: other
   title: ''
   type: Overlay
@@ -209,7 +213,7 @@ overview: 'VidGrid publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The VidGrid catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  VidGrid''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 19 more developer resources.'
+  VidGrid''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 20 more developer resources.'
 random_paper: 10
 rate_limits:
 - limit_count: 1
@@ -217,18 +221,23 @@ rate_limits:
   slug: vidgrid-rate-limits
 score:
   band: developing
-  composite: 44.1
-  delta: 0.0
+  composite: 41.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 64.4
     developer_ergonomics: 56.5
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 44.1
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -239,8 +248,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/screenshots/vidgrid-2026-08-17T082745.png
 security:

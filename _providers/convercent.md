@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: OData v4/v5 data-services API exposing Convercent compliance data (case management, campaigns, policy attestations, course completions) for BI and reporting tools. Authenticated with HTTP Basic; acces
@@ -109,7 +109,7 @@ modified: '2026-07-18'
 name: Convercent
 nav: Providers
 network: true
-overview: 'Convercent publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Compliance, Governance Risk and Compliance, and Ethics.
+overview: 'Convercent publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Compliance, Governance Risk And Compliance, and Ethics.
 
 
   Convercent''s developer surface includes documentation, support, authentication, and 12 more developer resources.'
@@ -117,6 +117,11 @@ random_paper: 8
 score:
   band: emerging
   composite: 24.2
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 35.5
@@ -130,8 +135,8 @@ score:
   previous_composite: 24.2
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convercent/refs/heads/main/screenshots/convercent-2026-07-25T210346.png
 security:
@@ -146,9 +151,9 @@ security:
 slug: convercent
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - Compliance
-- Governance Risk and Compliance
+- Governance Risk And Compliance
 - Ethics
 - Case Management
 - OData

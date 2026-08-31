@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: kaleyra-agentic-access
   summary_line: 7 operations · 5 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Send single and batch transactional email (Email API v2) with domain management, templates, webhooks, and delivery statistics.
   name: Kaleyra Email API
@@ -286,18 +286,23 @@ rate_limits:
   slug: kaleyra-rate-limits
 score:
   band: strong
-  composite: 57.4
-  delta: 0.0
+  composite: 55.3
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 62.9
     developer_ergonomics: 57.7
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 57.4
+  previous_composite: 55.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -310,12 +315,18 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 38.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/screenshots/kaleyra-2026-07-25T223430.png
 security:

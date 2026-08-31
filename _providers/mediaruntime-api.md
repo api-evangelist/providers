@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Versioned REST API (under /v1) for media-processing jobs, reports/analysis, reusable recipes, uploads/watermarking, and runtime capability discovery. Auth via X-API-Key (production) or X-Sandbox-Token
@@ -37,11 +37,17 @@ modified: '2026-08-26'
 name: MediaRuntime API
 nav: Providers
 network: true
-overview: 'MediaRuntime API publishes 1 API on the [APIs.io](https://apis.io/) network: MediaRuntime API. Tagged areas include media processing, video transcoding, audio processing, image processing, and HLS/streaming.'
+overview: 'MediaRuntime API publishes 1 API on the [APIs.io](https://apis.io/) network: MediaRuntime API. Tagged areas include Media Processing, Video Transcoding, Audio Processing, Image Processing, and HLS Streaming.'
 random_paper: 5
 score:
   band: emerging
   composite: 14.5
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -51,23 +57,25 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 14.5
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 slug: mediaruntime-api
 tags:
-- media processing
-- video transcoding
-- audio processing
-- image processing
-- HLS/streaming
-- transcription
-- content moderation
-- watermarking
+- Media Processing
+- Video Transcoding
+- Audio Processing
+- Image Processing
+- HLS Streaming
+- Transcription
+- Content Moderation
+- Watermarking
 - asynchronous / job-based API
-- webhooks
+- Webhook
 - REST API
 - OpenAPI
-- cloud API
-- developer tools
+- Cloud API
+- Developer Tools
 - media infrastructure
 ---

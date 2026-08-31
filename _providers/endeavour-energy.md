@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,12 +31,15 @@ agentic_access:
   operation_count: 32
   slug: endeavour-energy-agentic-access
   summary_line: 32 operations
-api_count: 1
+api_count: 2
 apis:
-- description: Anonymous, key-free REST API over Endeavour Energy's public network open data catalogue, served on the Opendatasoft Explore API v2.1. Exposes eight datasets covering distribution network assets (440,7
-  name: Endeavour Energy Open Data Explore API
-  slug: endeavour-energy-open-data-explore-api
-artifact_total: 10
+- description: API to enumerate datasets
+  name: Endeavour Energy Catalog API
+  slug: endeavour-energy-catalog-api
+- description: API to work on records
+  name: Endeavour Energy Dataset API
+  slug: endeavour-energy-dataset-api
+artifact_total: 11
 collections:
 - collection_type: open
   name: Explore API
@@ -45,6 +48,14 @@ collections:
   name: Explore API
   slug: open-endeavour-energy-open-data-explore-api-v2-1
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/endeavour-energy-open-data-explore-api-v2-1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/endeavour-energy-open-data-explore-api-v2-0-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -214,10 +225,10 @@ modified: '2026-07-27'
 name: Endeavour Energy
 nav: Providers
 network: true
-overview: 'Endeavour Energy publishes 1 API on the [APIs.io](https://apis.io/) network: Open Data Explore API. Tagged areas include Energy, Australia, Utilities, Electricity, and Grid.
+overview: 'Endeavour Energy publishes 2 APIs on the [APIs.io](https://apis.io/) network: Catalog API and Dataset API. Tagged areas include Energy, Australia, Utilities, Electricity, and Grid.
 
 
-  Endeavour Energy''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 32 more developer resources.'
+  Endeavour Energy''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 34 more developer resources.'
 random_paper: 5
 rate_limits:
 - limit_count: 2
@@ -230,18 +241,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 52.5
+  composite: 51.8
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
-    contract_governance: 16.7
-    contract_quality: 53.7
+    contract_governance: 4.5
+    contract_quality: 53.8
     developer_ergonomics: 66.1
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 87.0
+    governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 52.5
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,8 +269,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 59.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/endeavour-energy/refs/heads/main/screenshots/endeavour-energy-2026-08-07T164855.png
 security:

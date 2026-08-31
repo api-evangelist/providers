@@ -23,18 +23,48 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 7
 apis:
-- description: Seller-facing REST API for the MadeiraMadeira marketplace. Sellers use it to submit and update their product catalog, read the category tree, push price, stock, status and shipping-table changes, read
-  name: Marketplace MadeiraMadeira API
-  slug: marketplace
-artifact_total: 6
+- description: The Callbacks API from Madeiramadeira — 2 operation(s) for callbacks.
+  name: Madeiramadeira Callbacks API
+  slug: madeiramadeira-callbacks-api
+- description: The Categorias API from Madeiramadeira — 1 operation(s) for categorias.
+  name: Madeiramadeira Categorias API
+  slug: madeiramadeira-categorias-api
+- description: The Financeiro API from Madeiramadeira — 1 operation(s) for financeiro.
+  name: Madeiramadeira Financeiro API
+  slug: madeiramadeira-financeiro-api
+- description: The Frete API from Madeiramadeira — 1 operation(s) for frete.
+  name: Madeiramadeira Frete API
+  slug: madeiramadeira-frete-api
+- description: The Mensageria API from Madeiramadeira — 12 operation(s) for mensageria.
+  name: Madeiramadeira Mensageria API
+  slug: madeiramadeira-mensageria-api
+- description: The Pedido API from Madeiramadeira — 9 operation(s) for pedido.
+  name: Madeiramadeira Pedido API
+  slug: madeiramadeira-pedido-api
+- description: The Produtos API from Madeiramadeira — 38 operation(s) for produtos.
+  name: Madeiramadeira Produtos API
+  slug: madeiramadeira-produtos-api
+artifact_total: 12
 asyncapis:
 - description: ''
   name: Madeiramadeira Marketplace Webhooks
   slug: madeiramadeira-marketplace-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/madeiramadeira-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/madeiramadeira-marketplace-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -120,13 +150,13 @@ modified: '2026-08-25'
 name: Madeiramadeira
 nav: Providers
 network: true
-overview: 'Madeiramadeira publishes 1 API on the [APIs.io](https://apis.io/) network: Marketplace MadeiraMadeira API. Tagged areas include Company, E-Commerce, Marketplace, Retail, and Home Goods.
+overview: 'Madeiramadeira publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Callbacks API, Categorias API, Financeiro API, and 4 more. Tagged areas include Company, E-Commerce, Marketplace, Retail, and Home Goods.
 
 
   The Madeiramadeira catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Madeiramadeira''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 13 more developer resources.'
+  Madeiramadeira''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 16 more developer resources.'
 plans:
 - name: Madeiramadeira Plans Pricing
   plan_count: 0
@@ -138,16 +168,23 @@ rate_limits:
   slug: madeiramadeira-rate-limits
 score:
   band: developing
-  composite: 44.8
+  composite: 44.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 62.6
+    contract_governance: 4.5
+    contract_quality: 64.7
     developer_ergonomics: 55.4
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 74.1
+    governance: 4.5
     operational_transparency: 18.4
+  previous_composite: 44.4
   provenance:
     conformance: derived
     contracts:
@@ -157,8 +194,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Madeiramadeira Authentication
@@ -179,7 +217,7 @@ tags:
 - Brazil
 - Seller Integration
 - Product Catalog
-- Orders
+- Order
 - Shipping
 - Logistics
 website: https://www.madeiramadeira.com.br/

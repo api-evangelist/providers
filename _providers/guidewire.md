@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: guidewire-agentic-access
   summary_line: 15 operations · 5 acting
-api_count: 9
+api_count: 2
 apis:
 - description: The Guidewire BillingCenter API provides REST endpoints for payment orchestration, invoice generation, payment plans, disbursements, and collections management for insurance billing operations.
   name: Guidewire BillingCenter API
@@ -108,6 +108,10 @@ collections:
   name: Guidewire ClaimCenter Accounts Quotes API
   slug: open-guidewire-quotes-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/guidewire-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -141,7 +145,6 @@ graphqls:
 - description: Guidewire is a cloud platform for property and casualty insurance covering policy administration, billing, and claims management. The API covers policies, quotes, billing accounts, claims, payments, a
   name: Guidewire GraphQL API
   slug: guidewire-graphql
-image: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/image.png
 json_schemas:
 - name: Guidewire Policy
   property_count: 14
@@ -162,7 +165,7 @@ overview: 'Guidewire publishes 8 APIs on the [APIs.io](https://apis.io/) network
   The Guidewire catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Guidewire''s developer surface includes authentication and 5 more developer resources.'
+  Guidewire''s developer surface includes authentication and 6 more developer resources.'
 plans:
 - name: Guidewire Plans Pricing
   plan_count: 1
@@ -201,18 +204,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.0
-  delta: 2.4
+  composite: 37.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 60.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.9
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
     contract_quality: 71.0
     developer_ergonomics: 23.8
-    discoverability: 68.5
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 5.3
-  previous_composite: 35.6
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -226,8 +234,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 51.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/screenshots/guidewire-2026-06-20T182433.png
 security:

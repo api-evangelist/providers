@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 80
   slug: otter-agentic-access
   summary_line: 80 operations · 59 acting
-api_count: 19
+api_count: 27
 apis:
 - description: Endpoints to manage store onboarding and status
   name: Otter Account Pairing Endpoints API
@@ -101,7 +101,31 @@ apis:
 - description: Endpoints to manage storefront state
   name: Otter Storefront Endpoints API
   slug: otter-storefront-endpoints-api
-artifact_total: 997
+- description: The Account Pairing Webhooks API from Otter — 0 operation(s) for account pairing webhooks.
+  name: Otter Account Pairing Webhooks API
+  slug: otter-account-pairing-webhooks-api
+- description: The Delivery Webhooks API from Otter — 0 operation(s) for delivery webhooks.
+  name: Otter Delivery Webhooks API
+  slug: otter-delivery-webhooks-api
+- description: The Manager Orders Webhooks API from Otter — 0 operation(s) for manager orders webhooks.
+  name: Otter Manager Orders Webhooks API
+  slug: otter-manager-orders-webhooks-api
+- description: The Menus Webhooks API from Otter — 0 operation(s) for menus webhooks.
+  name: Otter Menus Webhooks API
+  slug: otter-menus-webhooks-api
+- description: The Orders Webhooks API from Otter — 0 operation(s) for orders webhooks.
+  name: Otter Orders Webhooks API
+  slug: otter-orders-webhooks-api
+- description: The Ping Webhooks API from Otter — 0 operation(s) for ping webhooks.
+  name: Otter Ping Webhooks API
+  slug: otter-ping-webhooks-api
+- description: The Reports Webhooks API from Otter — 0 operation(s) for reports webhooks.
+  name: Otter Reports Webhooks API
+  slug: otter-reports-webhooks-api
+- description: The Storefront Webhooks API from Otter — 0 operation(s) for storefront webhooks.
+  name: Otter Storefront Webhooks API
+  slug: otter-storefront-webhooks-api
+artifact_total: 1005
 collections:
 - collection_type: open
   name: API Collection
@@ -164,6 +188,14 @@ collections:
   name: Public Account Pairing Endpoints Storefront Endpoints API
   slug: open-otter-storefront-endpoints-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/api-evangelist/otter/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/api-evangelist/otter/tree/main/security
 - group: agent
   title: ''
   type: AgenticAccess
@@ -3075,13 +3107,13 @@ modified: '2026-06-03'
 name: Otter
 nav: Providers
 network: true
-overview: 'Otter publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account Pairing Endpoints API, Auth Endpoints API, Callback Endpoints API, and 16 more. Tagged areas include Restaurant, Order Management, Delivery, Online Ordering, and Menu Management.
+overview: 'Otter publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Account Pairing Endpoints API, Auth Endpoints API, Callback Endpoints API, and 24 more. Tagged areas include Restaurant, Order Management, Delivery, Online Ordering, and Menu Management.
 
 
   The Otter catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Otter''s developer surface includes authentication, documentation, support, engineering blog, pricing, and 13 more developer resources.'
+  Otter''s developer surface includes authentication, documentation, support, engineering blog, pricing, and 15 more developer resources.'
 plans:
 - name: Otter Plans Pricing
   plan_count: 4
@@ -3119,18 +3151,26 @@ scopes:
   summary_line: 31 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 35.1
-  delta: 1.7
+  composite: 36.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 21.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 28.8
-    contract_quality: 28.1
+    contract_quality: 26.8
     developer_ergonomics: 7.1
     discoverability: 74.1
     governance: 28.8
-    operational_transparency: 44.7
-  previous_composite: 33.4
+    operational_transparency: 55.3
+  open_source:
+    applies: true
+    score: 35.0
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -3138,8 +3178,8 @@ score:
       derived: 19
       marker_coverage: 100.0
       total: 19
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/otter/refs/heads/main/screenshots/otter-2026-06-20T191236.png
 security:

@@ -32,7 +32,7 @@ tags:
 - Artificial Intelligence
 - Developer Tools
 - Fintech
-- Health Tech
+- Healthtech
 - Climate
 - Deep Tech
 - Robotics

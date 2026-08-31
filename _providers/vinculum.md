@@ -25,16 +25,16 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.5
-  scored_at: '2026-08-26'
-api_count: 17
+  score: 26.0
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: API to retrieve or manipulate ASN related information.
   name: Vinculum Advance Shipping Notice API
@@ -146,6 +146,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/vinculum-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/vinculum-eretail-overlay.yaml
 - group: company
@@ -231,7 +235,7 @@ network: true
 overview: 'Vinculum publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Advance Shipping Notice API, Authentication Process API, Common API, and 14 more. Tagged areas include Company, E-Commerce, Omnichannel, Order Management, and Warehouse Management.
 
 
-  Vinculum''s developer surface includes documentation, engineering blog, support, authentication, and 14 more developer resources.'
+  Vinculum''s developer surface includes documentation, engineering blog, support, authentication, and 15 more developer resources.'
 random_paper: 1
 rate_limits:
 - limit_count: 3
@@ -239,16 +243,21 @@ rate_limits:
   slug: vinculum-rate-limits
 score:
   band: thin
-  composite: 30.4
-  delta: 1.4
+  composite: 28.5
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 38.4
+    contract_governance: 4.5
+    contract_quality: 38.8
     developer_ergonomics: 37.5
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 7.9
   previous_composite: 29.0
   provenance:
@@ -260,8 +269,8 @@ score:
       total: 17
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

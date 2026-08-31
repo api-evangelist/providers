@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 57
   slug: valimail-agentic-access
   summary_line: 57 operations · 29 acting · 1 human-in-the-loop
-api_count: 17
+api_count: 3
 apis:
 - description: Retrieve email authentication metrics, sender reports, and unidentified sender reports for compliance dashboards and security insights. Documented for customers in the Valimail help center; credential
   name: Valimail Reporting Data API
@@ -91,10 +91,13 @@ apis:
 - description: The Webhooks API from Valimail — 1 operation(s) for webhooks.
   name: Valimail Webhooks API
   slug: valimail-webhooks-api
-- description: The Valimail Partner API is the reseller/MSP surface for managing customer accounts under a partner account — account lifecycle (create, read, update, delete, and hard-delete under /v2), user lifecycl
-  name: Valimail Partner API
-  slug: valimail-partner-api
-artifact_total: 42
+- description: The Senders Reports API from Valimail — 1 operation(s) for senders reports.
+  name: Valimail Senders Reports API
+  slug: valimail-senders-reports-api
+- description: The Teams API from Valimail — 2 operation(s) for teams.
+  name: Valimail Teams API
+  slug: valimail-teams-api
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Valimail Webhooks
@@ -321,7 +324,7 @@ modified: '2026-08-14'
 name: Valimail
 nav: Providers
 network: true
-overview: 'Valimail publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, DKIMs by Domain API, and 13 more. Tagged areas include Email Authentication, DMARC, Email Security, SPF, and DKIM.
+overview: 'Valimail publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, DKIMs by Domain API, and 14 more. Tagged areas include Email Authentication, DMARC, Email Security, SPF, and DKIM.
 
 
   The Valimail catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -339,18 +342,23 @@ rate_limits:
   slug: valimail-rate-limits
 score:
   band: strong
-  composite: 64.6
+  composite: 62.1
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 16.7
-    contract_quality: 59.5
+    contract_governance: 4.5
+    contract_quality: 59.8
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 64.6
+  previous_composite: 62.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -361,8 +369,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/valimail/refs/heads/main/screenshots/valimail-2026-08-17T082710.png
 security:

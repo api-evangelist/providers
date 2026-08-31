@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 158
   human_in_the_loop: 5
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 263
   slug: bigeye-agentic-access
   summary_line: 263 operations · 158 acting · 5 human-in-the-loop
-api_count: 45
+api_count: 3
 apis:
 - description: The Bigeye MCP Gateway is a hosted Model Context Protocol server at https://mcpgateway.bigeye.com/mcp that exposes 56 tools over the Bigeye platform for AI assistants and agents — listing and triaging
   name: Bigeye MCP Gateway
@@ -310,6 +310,10 @@ collections:
   name: Metadata Workspace Service API
   slug: open-bigeye-workspaceservice-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bigeye-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -480,22 +484,27 @@ overview: 'Bigeye publishes 44 APIs on the [APIs.io](https://apis.io/) network, 
   The Bigeye catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bigeye''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 31 more developer resources.'
+  Bigeye''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 32 more developer resources.'
 random_paper: 20
 score:
   band: developing
-  composite: 49.1
+  composite: 47.6
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 58.1
     developer_ergonomics: 60.1
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 49.1
+  previous_composite: 47.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -506,8 +515,8 @@ score:
       total: 44
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigeye/refs/heads/main/screenshots/bigeye-2026-08-07T162422.png
 security:

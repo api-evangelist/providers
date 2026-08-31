@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.1
-  scored_at: '2026-08-26'
+  score: 46.6
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -31,24 +31,63 @@ agentic_access:
   operation_count: 87
   slug: pexa-agentic-access
   summary_line: 87 operations · 43 acting
-api_count: 5
+api_count: 7
 apis:
 - description: The PEXA Exchange API covers key facets of PEXA Exchange e-conveyancing functionality — creating and updating workspaces, invitations, participants, land title references, documents, conversations, fi
   name: PEXA Exchange API
   slug: pexa-exchange-api
-- description: An OpenAPI 3.1.0 experience API supporting consolidated standalone mortgage discharge, used by financial institutions discharging a mortgage outside of a full transfer workspace. Declares production a
+- description: The Billing API from PEXA — 1 operation(s) for billing.
+  name: PEXA Billing API
+  slug: pexa-billing-api
+- description: The Conversation API from PEXA — 8 operation(s) for conversation.
+  name: PEXA Conversation API
+  slug: pexa-conversation-api
+- description: The Document API from PEXA — 4 operation(s) for document.
+  name: PEXA Document API
+  slug: pexa-document-api
+- description: The HealthCheck API from PEXA — 2 operation(s) for healthcheck.
+  name: PEXA Health Check API
+  slug: pexa-healthcheck-api
+- description: The Invitation API from PEXA — 6 operation(s) for invitation.
+  name: PEXA Invitation API
+  slug: pexa-invitation-api
+- description: The Landtitle API from PEXA — 2 operation(s) for landtitle.
+  name: PEXA Landtitle API
+  slug: pexa-landtitle-api
+- description: The Notification API from PEXA — 1 operation(s) for notification.
+  name: PEXA Notification API
+  slug: pexa-notification-api
+- description: The Notification Service [$] API from PEXA — 0 operation(s) for notification service [$].
+  name: PEXA Notification Service [$] API
+  slug: pexa-notification-service-api
+- description: Registration related endpoints
+  name: PEXA Notification Registration API
+  slug: pexa-notificationregistration-api
+- description: The Project API from PEXA — 4 operation(s) for project.
+  name: PEXA Project API
+  slug: pexa-project-api
+- description: The Settlement API from PEXA — 8 operation(s) for settlement.
+  name: PEXA Settlement API
+  slug: pexa-settlement-api
+- description: The Standalone Discharge Experience API from PEXA — 1 operation(s) for standalone discharge experience.
   name: PEXA Standalone Discharge Experience API
   slug: pexa-standalone-discharge-experience-api
-- description: The PEXA Plus Marketplace B2B API exposes marketplace services to business partners — health check, title search ordering and billing — under the PEXA Plus product. Published as an OpenAPI 3.0.3 contr
-  name: PEXA Plus Marketplace B2B API
-  slug: pexa-plus-marketplace-b2b-api
-- description: PEXA Notification Service [$] from PEXA — 6 path(s) described in OpenAPI.
-  name: PEXA Notification Service [$]
-  slug: pexa-notification-service-openapi
-- description: PEXA Projects API from PEXA — 10 path(s) described in OpenAPI.
-  name: PEXA Projects API
-  slug: pexa-projects-api-v4-openapi
-artifact_total: 19
+- description: The Subscriber API from PEXA — 6 operation(s) for subscriber.
+  name: PEXA Subscriber API
+  slug: pexa-subscriber-api
+- description: The TitleSearch API from PEXA — 3 operation(s) for titlesearch.
+  name: PEXA Title Search API
+  slug: pexa-titlesearch-api
+- description: The User API from PEXA — 2 operation(s) for user.
+  name: PEXA User API
+  slug: pexa-user-api
+- description: The Workspace API from PEXA — 9 operation(s) for workspace.
+  name: PEXA Workspace API
+  slug: pexa-workspace-api
+- description: The Workspaces API from PEXA — 6 operation(s) for workspaces.
+  name: PEXA Workspaces API
+  slug: pexa-workspaces-api
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Pexa Notification Webhooks
@@ -76,6 +115,18 @@ collections:
   name: PEXA Exchange API
   slug: open-pexa-exchange-api-swagger
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pexa-capability-edges.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/pexa-discharge-a-mortgage.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/pexa-order-a-title-search.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -297,13 +348,13 @@ modified: '2026-07-26'
 name: PEXA
 nav: Providers
 network: true
-overview: 'PEXA publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Exchange API, Standalone Discharge Experience API, Plus Marketplace B2B API, and 2 more. Tagged areas include Real-Estate, Australia, Conveyancing, Property Settlement, and Land Registry.
+overview: 'PEXA publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Exchange API, Billing API, Conversation API, and 15 more. Tagged areas include Real-Estate, Australia, Conveyancing, Property Settlement, and Land Registry.
 
 
   The PEXA catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  PEXA''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, engineering blog, and 45 more developer resources.'
+  PEXA''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, engineering blog, and 48 more developer resources.'
 random_paper: 10
 scopes:
 - name: Pexa Scopes
@@ -312,18 +363,23 @@ scopes:
   summary_line: 11 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 53.9
-  delta: -0.2
+  composite: 51.2
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 30.3
-    contract_quality: 62.4
+    contract_governance: 18.2
+    contract_quality: 58.9
     developer_ergonomics: 54.2
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 54.1
+  previous_composite: 51.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -334,8 +390,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/screenshots/pexa-2026-07-27T125357.png
 security:

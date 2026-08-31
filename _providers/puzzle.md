@@ -16,7 +16,7 @@ agent_readiness:
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.5
-  scored_at: '2026-08-26'
+  score: 32.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 81
   slug: puzzle-agentic-access
   summary_line: 81 operations · 38 acting
-api_count: 22
+api_count: 2
 apis:
 - description: The Accounts API from Puzzle — 3 operation(s) for accounts.
   name: Puzzle Accounts API
@@ -109,7 +109,19 @@ apis:
 - description: The Vendors API from Puzzle — 2 operation(s) for vendors.
   name: Puzzle Vendors API
   slug: puzzle-vendors-api
-artifact_total: 60
+- description: Categories, classes, departments, and projects for classification.
+  name: Puzzle Categories API
+  slug: puzzle-categories-api
+- description: Companies connected to a Puzzle partner account.
+  name: Puzzle Companies API
+  slug: puzzle-companies-api
+- description: Upstream data connections that feed the ledger.
+  name: Puzzle Integrations API
+  slug: puzzle-integrations-api
+- description: Double-entry journal entries against the general ledger.
+  name: Puzzle Journal Entries API
+  slug: puzzle-journal-entries-api
+artifact_total: 64
 collections:
 - collection_type: open
   name: API Collection
@@ -364,7 +376,7 @@ modified: '2026-08-08'
 name: Puzzle
 nav: Providers
 network: true
-overview: 'Puzzle publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Bills API, and 19 more. Tagged areas include Company, Accounting, Financial, Bookkeeping, and Fintech.
+overview: 'Puzzle publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Attachments API, Bills API, and 23 more. Tagged areas include Company, Accounting, Financial, Bookkeeping, and Fintech.
 
 
   Puzzle''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 31 more developer resources.'
@@ -384,18 +396,23 @@ scopes:
   summary_line: 21 scopes
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 45.8
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 16.7
-    contract_quality: 45.7
+    contract_governance: 4.5
+    contract_quality: 48.0
     developer_ergonomics: 44.6
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 48.4
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -406,8 +423,8 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/puzzle/refs/heads/main/screenshots/puzzle-2026-08-17T081407.png
 security:

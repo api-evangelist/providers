@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -33,11 +33,40 @@ agentic_access:
   summary_line: 18 operations · 6 acting
 api_count: 1
 apis:
-- description: Embed DailyPay and On Demand Pay features into your application. A json:api-compliant REST API covering jobs, accounts, transfers, paychecks, organizations, people and debit-card tokenization, secured
-  name: DailyPay Rest API
-  slug: dailypay-rest-api
-artifact_total: 8
+- description: The _accounts_ endpoint provides comprehensive information about money accounts. You can retrieve account details, including the account's unique ID, a link to the account holder, type, subtype, verif
+  name: DailyPay Accounts API
+  slug: dailypay-accounts-api
+- description: Securely tokenize personal cards for use in the accounts API.
+  name: DailyPay Card Tokenization API
+  slug: dailypay-card-tokenization-api
+- description: The _health_ endpoint provides a simple health check for the API. **Functionality:** Check the status of the API to ensure it is functioning correctly.
+  name: DailyPay Health API
+  slug: dailypay-health-api
+- description: The _jobs_ endpoint provides access to comprehensive information about a person's employment. It enables you to retrieve details about individual jobs, including information about the organization the
+  name: DailyPay Jobs API
+  slug: dailypay-jobs-api
+- description: The _organizations_ endpoint provides details about a business entity, such as an employer, or a group of people, such as a division. The response includes the organization name and ID which can be us
+  name: DailyPay Organizations API
+  slug: dailypay-organizations-api
+- description: The _paychecks_ endpoint provides detailed information about paychecks. You can retrieve individual paycheck details, including the person and job associated with the paycheck, its status, pay period,
+  name: DailyPay Paychecks API
+  slug: dailypay-paychecks-api
+- description: The _people_ endpoint allows you to see information related to who owns resources such as jobs and accounts. **Functionality:** Retrieve limited details about a person, including their name, global st
+  name: DailyPay People API
+  slug: dailypay-people-api
+- description: The _transfers_ endpoint allows you to initiate and track money movement. You can access transfer details, including the transfer's unique ID, amount, currency, status, schedule, submission and resolu
+  name: DailyPay Transfers API
+  slug: dailypay-transfers-api
+artifact_total: 15
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dailypay-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dailypay-rest-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -210,10 +239,10 @@ modified: '2026-08-01'
 name: DailyPay
 nav: Providers
 network: true
-overview: 'DailyPay publishes 1 API on the [APIs.io](https://apis.io/) network: Rest API. Tagged areas include Company, Payments, Payroll, Human Resources, and Earned Wage Access.
+overview: 'DailyPay publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Card Tokenization API, Health API, and 5 more. Tagged areas include Company, Payments, Payroll, Human Resources, and Earned Wage Access.
 
 
-  DailyPay''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 33 more developer resources.'
+  DailyPay''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 35 more developer resources.'
 random_paper: 0
 scopes:
 - name: Dailypay Scopes
@@ -222,18 +251,23 @@ scopes:
   summary_line: 5 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 60.6
-  delta: 0.0
+  composite: 58.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
-    contract_quality: 55.9
+    contract_governance: 18.2
+    contract_quality: 55.5
     developer_ergonomics: 73.2
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 60.6
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -250,8 +284,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dailypay/refs/heads/main/screenshots/dailypay-2026-08-07T164026.png
 security:

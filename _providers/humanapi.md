@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 15
   slug: humanapi-agentic-access
   summary_line: 15 operations · 7 acting
-api_count: 7
+api_count: 2
 apis:
 - description: API endpoints to authorize a client app for the Admin API
   name: HumanAPI admin API
@@ -95,6 +95,10 @@ collections:
   name: admin users API
   slug: open-humanapi-users-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/lexisnexis-risk-solutions/
 - group: other
   title: ''
   type: Overlay
@@ -213,22 +217,27 @@ overview: 'HumanAPI publishes 7 APIs on the [APIs.io](https://apis.io/) network,
   The HumanAPI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  HumanAPI''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 20 more developer resources.'
+  HumanAPI''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 21 more developer resources.'
 random_paper: 11
 score:
-  band: developing
-  composite: 41.4
-  delta: 0.0
+  band: thin
+  composite: 39.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 59.8
+    contract_governance: 4.5
+    contract_quality: 58.4
     developer_ergonomics: 48.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 41.4
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -245,8 +254,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humanapi/refs/heads/main/screenshots/humanapi-2026-07-25T221702.png
 security:

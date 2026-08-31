@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 6
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 90
   slug: opkey-agentic-access
   summary_line: 90 operations · 89 acting · 6 human-in-the-loop
-api_count: 16
+api_count: 1
 apis:
 - description: The official pCloudy MCP server, published by pCloudy as the Python package pcloudy-mcp and run over stdio with uvx. It exposes 36 tools across four groups — device booking, browser booking, app manag
   name: pCloudy MCP Server
@@ -256,18 +256,23 @@ overview: 'Opkey publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 6
 score:
   band: developing
-  composite: 51.6
-  delta: 3.1
+  composite: 49.6
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 61.2
     developer_ergonomics: 68.5
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 48.5
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -278,8 +283,8 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/screenshots/opkey-2026-08-07T190728.png
 security:

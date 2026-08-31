@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 149
   human_in_the_loop: 17
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 264
   slug: hashicorp-agentic-access
   summary_line: 264 operations · 149 acting · 17 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: Terraform is an infrastructure as code tool that lets you build, change, and version infrastructure safely and efficiently.
   name: HashiCorp Terraform
@@ -174,18 +174,23 @@ rate_limits:
   slug: hashicorp-rate-limits
 score:
   band: thin
-  composite: 30.4
-  delta: 1.9
+  composite: 29.9
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 35.3
     developer_ergonomics: 36.9
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 28.5
+  previous_composite: 30.4
   provenance:
     agentic_access: derived
     contracts:
@@ -193,8 +198,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/screenshots/hashicorp-2026-06-20T182530.png
 security:

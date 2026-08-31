@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 1
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 167
   slug: gitlab-agentic-access
   summary_line: 167 operations · 92 acting · 1 human-in-the-loop
-api_count: 44
+api_count: 13
 apis:
 - description: 'GraphQL is a query language for APIs. You can use it to request the exact data you need, and therefore limit the number of requests you need. GraphQL data is arranged in types, so your client can use '
   name: GitLab GraphQL API
@@ -353,6 +353,10 @@ collections:
   name: GitLab Webhooks API
   slug: open-gitlab-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gitlab-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -1212,7 +1216,7 @@ overview: 'GitLab publishes 16 APIs on the [APIs.io](https://apis.io/) network, 
   The GitLab catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  GitLab''s developer surface includes authentication, changelog, CLI, developer portal, documentation, engineering blog, pricing, and 78 more developer resources.'
+  GitLab''s developer surface includes authentication, changelog, CLI, developer portal, documentation, engineering blog, pricing, and 79 more developer resources.'
 plans:
 - name: Gitlab Plans Pricing
   plan_count: 3
@@ -1261,19 +1265,24 @@ scopes:
   slug: gitlab-scopes
   summary_line: 25 scopes · authorizationCode/clientCredentials/deviceCode
 score:
-  band: exemplar
-  composite: 67.8
-  delta: 2.5
+  band: strong
+  composite: 65.2
+  coverage:
+    artifact_dirs: 35
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 43.9
+    contract_governance: 31.8
     contract_quality: 71.7
     developer_ergonomics: 76.2
-    discoverability: 77.8
-    governance: 43.9
+    discoverability: 66.7
+    governance: 31.8
     operational_transparency: 60.5
-  previous_composite: 65.3
+  previous_composite: 65.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1283,8 +1292,8 @@ score:
       marker_coverage: 0.0
       total: 16
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/screenshots/gitlab-2026-06-20T181844.png
 security:

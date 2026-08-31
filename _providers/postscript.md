@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 20
   slug: postscript-agentic-access
   summary_line: 20 operations · 9 acting
-api_count: 8
+api_count: 1
 apis:
-- description: The Postscript Partner API v2 enables partners and Shopify shops to manage SMS subscribers, read opt-in keywords, send custom events into Flow Builder, send SMS and MMS messages, configure webhook sub
-  name: Postscript Partner API
-  slug: postscript-api
 - description: Read, filter, page and update a shop's SMS subscribers. Filters use suffixed operators (__eq, __gt, __contains, __in) across created_at, updated_at, email, phone_number, shopify_customer_id and ps_id.
   name: Postscript Subscribers API
   slug: postscript-subscribers-api
@@ -68,12 +65,16 @@ apis:
 - description: Verify which partner or shop the calling API token resolves to.
   name: Postscript Identity API
   slug: postscript-identity-api
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Postscript Webhooks
   slug: postscript-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/postscript-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -258,13 +259,13 @@ modified: '2026-08-13'
 name: Postscript
 nav: Providers
 network: true
-overview: 'Postscript publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Partner API, Subscribers API, Events API, and 5 more. Tagged areas include SMS, Marketing, Messaging, E-Commerce, and Shopify.
+overview: 'Postscript publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Subscribers API, Events API, Keywords API, and 4 more. Tagged areas include SMS, Marketing, Messaging, E-Commerce, and Shopify.
 
 
   The Postscript catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Postscript''s developer surface includes authentication, changelog, documentation, getting-started guide, API reference, pricing, engineering blog, and 35 more developer resources.'
+  Postscript''s developer surface includes authentication, changelog, documentation, getting-started guide, API reference, pricing, engineering blog, and 36 more developer resources.'
 plans:
 - name: Postscript Plans Pricing
   plan_count: 4
@@ -276,18 +277,23 @@ rate_limits:
   slug: postscript-rate-limits
 score:
   band: strong
-  composite: 64.3
-  delta: 0.0
+  composite: 63.6
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 96.1
     commercial_clarity: 96.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 68.9
     developer_ergonomics: 41.1
-    discoverability: 74.1
-    governance: 16.7
-    operational_transparency: 59.2
-  previous_composite: 64.3
+    discoverability: 75.9
+    governance: 4.5
+    operational_transparency: 63.2
+  previous_composite: 64.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -300,12 +306,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 46.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/screenshots/postscript-2026-06-20T192017.png
 security:

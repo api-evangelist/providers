@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: csg-agentic-access
   summary_line: 12 operations · 6 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Forte.js is a JavaScript library for secure browser-based payment tokenization. It enables web applications to collect and tokenize payment card data client-side before submitting to Forte's payment A
   name: CSG Forte.js
@@ -86,6 +86,10 @@ collections:
   name: CSG Forte REST Customers Transactions API
   slug: open-csg-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/csg-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -172,7 +176,6 @@ finops:
 - name: Csg Finops
   service_category: Billing & Revenue Management
   slug: csg-finops
-image: https://raw.githubusercontent.com/api-evangelist/csg/refs/heads/main/image.png
 json_schemas:
 - name: CSG Forte Payment Transaction
   property_count: 17
@@ -193,7 +196,7 @@ overview: 'CSG Systems publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
   The CSG Systems catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  CSG Systems'' developer surface includes authentication, developer portal, documentation, support, changelog, getting-started guide, engineering blog, and 13 more developer resources.'
+  CSG Systems'' developer surface includes authentication, developer portal, documentation, support, changelog, getting-started guide, engineering blog, and 14 more developer resources.'
 plans:
 - name: Csg Plans Pricing
   plan_count: 1
@@ -227,18 +230,23 @@ rules:
   slug: csg-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 55.2
-  delta: 2.8
+  composite: 54.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 33.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.9
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 69.7
     contract_quality: 68.2
     developer_ergonomics: 71.4
-    discoverability: 74.1
+    discoverability: 64.8
     governance: 69.7
     operational_transparency: 39.5
-  previous_composite: 52.4
+  previous_composite: 55.2
   provenance:
     agentic_access: derived
     contracts:
@@ -252,8 +260,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 31.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/csg/refs/heads/main/screenshots/csg-2026-06-20T175316.png
 security:

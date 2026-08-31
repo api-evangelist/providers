@@ -34,14 +34,36 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: 'REST API for the Replyr operator console at app.replyr.ai. Covers business account details, admins and teams, tags, custom fields and bot fields, contacts (create, look up, tag, set fields), outbound '
-  name: Replyr Platform API
-  slug: replyr-platform-api
-artifact_total: 5
+- description: The Accounts API from Replyr.ai — 13 operation(s) for accounts.
+  name: Replyr.ai Accounts API
+  slug: replyrai-accounts-api
+- description: The AI Agents API from Replyr.ai — 5 operation(s) for ai agents.
+  name: Replyr.ai AI Agents API
+  slug: replyrai-ai-agents-api
+- description: The Appointment Management API from Replyr.ai — 2 operation(s) for appointment management.
+  name: Replyr.ai Appointment Management API
+  slug: replyrai-appointment-management-api
+- description: The Contacts API from Replyr.ai — 12 operation(s) for contacts.
+  name: Replyr.ai Contacts API
+  slug: replyrai-contacts-api
+- description: The Ecommerce API from Replyr.ai — 6 operation(s) for ecommerce.
+  name: Replyr.ai Ecommerce API
+  slug: replyrai-ecommerce-api
+- description: The Pipelines API from Replyr.ai — 9 operation(s) for pipelines.
+  name: Replyr.ai Pipelines API
+  slug: replyrai-pipelines-api
+- description: The Templates API from Replyr.ai — 1 operation(s) for templates.
+  name: Replyr.ai Templates API
+  slug: replyrai-templates-api
+artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/replyrai-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -123,10 +145,10 @@ modified: '2026-08-13'
 name: Replyr.ai
 nav: Providers
 network: true
-overview: 'Replyr.ai publishes 1 API on the [APIs.io](https://apis.io/) network: Replyr Platform API. Tagged areas include Company, Artificial Intelligence, Chatbots, Conversational AI, and Customer Engagement.
+overview: 'Replyr.ai publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, AI Agents API, Appointment Management API, and 4 more. Tagged areas include Company, Artificial Intelligence, Chatbots, Conversational AI, and Customer Engagement.
 
 
-  Replyr.ai''s developer surface includes API reference, documentation, support, authentication, and 14 more developer resources.'
+  Replyr.ai''s developer surface includes API reference, documentation, support, authentication, and 15 more developer resources.'
 plans:
 - name: Replyrai Plans Pricing
   plan_count: 0
@@ -138,16 +160,21 @@ rate_limits:
   slug: replyrai-rate-limits
 score:
   band: thin
-  composite: 27.9
-  delta: 0.0
+  composite: 27.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
-    contract_governance: 16.7
-    contract_quality: 41.2
+    contract_governance: 4.5
+    contract_quality: 44.8
     developer_ergonomics: 35.1
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
   previous_composite: 27.9
   provenance:
@@ -165,8 +192,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

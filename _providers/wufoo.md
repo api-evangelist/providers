@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: wufoo-agentic-access
   summary_line: 18 operations · 4 acting
-api_count: 10
+api_count: 1
 apis:
 - description: Wufoo webhooks POST form-submission payloads to a subscriber URL at the moment an entry is created. Up to 10 webhooks per form, with optional handshake key for verification and optional metadata for r
   name: Wufoo Webhooks
@@ -442,18 +442,23 @@ rules:
   slug: wufoo-rest-v3-rules
 score:
   band: strong
-  composite: 60.8
-  delta: 0.7
+  composite: 60.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 35.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
     contract_governance: 28.8
     contract_quality: 73.5
     developer_ergonomics: 78.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 60.1
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     contracts:
@@ -467,8 +472,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/screenshots/wufoo-2026-06-20T201637.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 167
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 298
   slug: discord-agentic-access
   summary_line: 298 operations · 167 acting · 2 human-in-the-loop
-api_count: 29
+api_count: 3
 apis:
 - description: The Discord Gateway API provides persistent, stateful WebSocket connections between your client and Discord servers. These connections are used for sending and receiving real-time events your client c
   name: Discord Gateway API
@@ -300,6 +300,10 @@ collections:
   name: Discord Interactions Application Commands Webhooks API
   slug: open-discord-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/discord-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -1880,7 +1884,7 @@ overview: 'Discord publishes 27 APIs on the [APIs.io](https://apis.io/) network,
   The Discord catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Discord''s developer surface includes authentication, developer portal, engineering blog, documentation, getting-started guide, changelog, support, and 48 more developer resources.'
+  Discord''s developer surface includes authentication, developer portal, engineering blog, documentation, getting-started guide, changelog, support, and 49 more developer resources.'
 plans:
 - name: Discord Plans Pricing
   plan_count: 3
@@ -1919,8 +1923,13 @@ scopes:
   summary_line: 33 scopes · implicit/clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 46.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -1930,6 +1939,9 @@ score:
     discoverability: 55.6
     governance: 13.6
     operational_transparency: 44.7
+  open_source:
+    applies: true
+    score: 25.0
   previous_composite: 49.4
   provenance:
     agentic_access: derived
@@ -1938,8 +1950,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/screenshots/discord-2026-06-20T180039.png
 security:

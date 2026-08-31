@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: RESTful JSON API grouping five sentiment services (Reddit Stocks, X.com Stocks, Stock News, Polymarket Stocks, Reddit Crypto) with 41 base endpoints plus PRO raw-mention endpoints. Authenticated via X
@@ -37,12 +37,17 @@ modified: '2026-07-17'
 name: Adanos Market Sentiment API
 nav: Providers
 network: true
-overview: 'Adanos Market Sentiment API publishes 1 API on the [APIs.io](https://apis.io/) network: Adanos Market Sentiment API. Tagged areas include Market, Sentiment, Stocks, Crypto, and Finance.'
+overview: 'Adanos Market Sentiment API publishes 1 API on the [APIs.io](https://apis.io/) network: Adanos Market Sentiment API. Tagged areas include Market, sentiment, stocks, Crypto, and Finance.'
 random_paper: 18
 score:
   band: minimal
   composite: 9.2
-  delta: 1.9
+  coverage:
+    artifact_dirs: 1
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -58,34 +63,34 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 7.3
+  previous_composite: 9.2
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/screenshots/adanos-market-sentiment-api-2026-07-25T181547.png
 slug: adanos-market-sentiment-api
 tags:
 - Market
-- Sentiment
-- Stocks
+- sentiment
+- stocks
 - Crypto
 - Finance
 - Trading
-- Social Data
+- social-data
 - News
-- Prediction Markets
+- prediction-markets
 - Reddit
-- X / Twitter
+- x-twitter
 - Polymarket
 - AI Agents
 - REST API
 - OpenAPI
 - llms-txt
-- Agent Skills
+- agent-skills
 ---

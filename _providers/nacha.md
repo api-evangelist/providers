@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.6
-  scored_at: '2026-08-26'
+  score: 26.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -33,79 +33,64 @@ agentic_access:
   summary_line: 30 operations · 25 acting
 api_count: 24
 apis:
-- description: Afinis Interoperability Standards API for initiating an ACH credit or debit payment instruction from an originator through their financial institution. Part of the Afinis standardized payments API set
-  name: Afinis Initiate ACH Payment API
-  slug: nacha-initiate-payment
-- description: Afinis International ACH Remittance (IAR) API for sending remittance information tied to incoming IAT (International ACH Transaction) credits.
-  name: Afinis International ACH Remittance (IAR) API
-  slug: nacha-iar
-- description: Afinis IAR Plus API, an extended International ACH Remittance message for incoming IAT credits carrying additional remittance detail.
-  name: Afinis IAR Plus API
-  slug: nacha-iar-plus
-- description: Afinis Transaction Status API for querying the status of an ACH credit or debit payment by instruction ID or transaction ID.
-  name: Afinis Transaction Status API
-  slug: nacha-transaction-status
-- description: Afinis Initiate Wire Payment API enabling a business to originate a wire transfer through its financial institution via a standardized API call.
-  name: Afinis Initiate Wire Payment API
-  slug: nacha-initiate-wire-payment
-- description: Afinis Get Wire Status API enabling the originator of a wire to retrieve the status of the wire payment.
-  name: Afinis Get Wire Status API
-  slug: nacha-get-wire-status
-- description: Afinis Initiate Instant Payment (IIP) API enabling a business to make an instant payment through its financial institution, mapping to US real-time rails (RTP and FedNow).
-  name: Afinis Initiate Instant Payment API (IIP)
-  slug: nacha-initiate-instant-payment
-- description: Afinis Instant Payment Transfer (IPT) API enabling a financial institution to send another financial institution an instant payment via an API.
-  name: Afinis Instant Payment Transfer API (IPT)
-  slug: nacha-instant-payment-transfer
-- description: Afinis Initiate Payment API used to request movement of funds from a debtor account to a creditor account across supported payment rails.
-  name: Afinis Initiate Payment API
+- description: The Account Validation API from Nacha — 1 operation(s) for account validation.
+  name: Nacha Account Validation API
+  slug: nacha-account-validation-api
+- description: The Accounts API from Nacha — 4 operation(s) for accounts.
+  name: Nacha Accounts API
+  slug: nacha-accounts-api
+- description: The ACH Payments API from Nacha — 2 operation(s) for ach payments.
+  name: Nacha ACH Payments API
+  slug: nacha-ach-payments-api
+- description: The ACH Transaction Status API from Nacha — 4 operation(s) for ach transaction status.
+  name: Nacha ACH Transaction Status API
+  slug: nacha-ach-transaction-status-api
+- description: The Authorize to Pay API from Nacha — 1 operation(s) for authorize to pay.
+  name: Nacha Authorize to Pay API
+  slug: nacha-authorize-to-pay-api
+- description: The Banks API from Nacha — 1 operation(s) for banks.
+  name: Nacha Banks API
+  slug: nacha-banks-api
+- description: The Expand Bank Contact V2 API from Nacha — 1 operation(s) for expand bank contact v2.
+  name: Nacha Expand Bank Contact V2 API
+  slug: nacha-expand-bank-contact-v2-api
+- description: The Get Corporate Account Balances API from Nacha — 1 operation(s) for get corporate account balances.
+  name: Nacha Get Corporate Account Balances API
+  slug: nacha-get-corporate-account-balances-api
+- description: The Get Corporate Transaction History API from Nacha — 2 operation(s) for get corporate transaction history.
+  name: Nacha Get Corporate Transaction History API
+  slug: nacha-get-corporate-transaction-history-api
+- description: The Get Participants Profile API from Nacha — 1 operation(s) for get participants profile.
+  name: Nacha Get Participants Profile API
+  slug: nacha-get-participants-profile-api
+- description: The Initiate Payment API from Nacha — 1 operation(s) for initiate payment.
+  name: Nacha Initiate Payment API
   slug: nacha-initiate-payment-api
-- description: Afinis Reporting ACH Return (RET) API allowing originators and payment providers to share ACH return payment data in support of fraud and risk mitigation.
-  name: Afinis Reporting ACH Return (RET) API
-  slug: nacha-ret
-- description: Afinis Authorize to Pay API letting a buyer business provide bank account or virtual card details, purpose of payment, and authorization for a seller to debit the account.
-  name: Afinis Authorize to Pay (Debit Authorizations) API
-  slug: nacha-authorize-to-pay
-- description: Afinis Pay Me API for requesting a payment (request-for-payment) from a payer through standardized messaging.
-  name: Afinis Pay Me API
-  slug: nacha-pay-me
-- description: Afinis Account Validation API for validating that a bank account is open and able to accept ACH credits or debits, reducing returns and fraud.
-  name: Afinis Account Validation API
-  slug: nacha-account-validation
-- description: Afinis Account Validation Plus Ownership API validating account status together with account-owner name/ownership for confirmation-of-payee style checks.
-  name: Afinis Account Validation Plus Ownership (Name) API
-  slug: nacha-account-validation-plus-name
-- description: Afinis Account Validation combined with name verification and ACH return-history signals in a single standardized message.
-  name: Afinis Account Validation Plus Name Plus Return API
-  slug: nacha-account-validation-plus-name-ret
-- description: Afinis Real-Time Billing Account Validation API for validating a consumer bank account at the point of billing enrollment.
-  name: Afinis Real-Time Billing Account Validation API
-  slug: nacha-realtime-billing-account-validation
-- description: Afinis Get Corporate Account Balances API letting a corporate/business customer retrieve balance information for their accounts for a date or date range.
-  name: Afinis Get Corporate Account Balances API
-  slug: nacha-corporate-account-balances
-- description: Afinis Get Corporate Transaction History API letting a corporate bank customer retrieve financial transaction history for review or integration.
-  name: Afinis Get Corporate Transaction History API
-  slug: nacha-corporate-transaction-history
-- description: Afinis Get Transaction Detail API letting a corporate financial professional request detailed information for a specific transaction in their account.
-  name: Afinis Get Transaction Detail API
-  slug: nacha-corporate-transaction-detail
-- description: Afinis Payee Profile API for exchanging standardized payee onboarding and directory profile information between participants.
-  name: Afinis Payee Profile API
-  slug: nacha-payee-profile
-- description: Afinis WSUD API letting an ODFI send an automated electronic request to an RDFI for a copy of a consumer's Written Statement of Unauthorized Debit.
-  name: Afinis Written Statement of Unauthorized Debit (WSUD) API
-  slug: nacha-wsud
-- description: Afinis Proof of Authorization API providing a real-time alternative message for a request for an ACH proof of authorization to increase automation and reduce manual handling.
-  name: Afinis Proof of Authorization API
-  slug: nacha-proof-of-authorization
-- description: Afinis Bank Contacts API for retrieving standardized operational contact information for financial institutions.
-  name: Afinis Bank Contacts API
-  slug: nacha-bank-contacts
-- description: Afinis Bank Contact V2 API, a two-step input/retrieve interface for exchanging standardized financial-institution contact information.
-  name: Afinis Bank Contact V2 API
-  slug: nacha-bank-contact-v2
-artifact_total: 52
+- description: The Instant Payment API from Nacha — 1 operation(s) for instant payment.
+  name: Nacha Instant Payment API
+  slug: nacha-instant-payment-api
+- description: The Instant Payment Transfer API from Nacha — 1 operation(s) for instant payment transfer.
+  name: Nacha Instant Payment Transfer API
+  slug: nacha-instant-payment-transfer-api
+- description: The International ACH Remittance (IAR) API from Nacha — 2 operation(s) for international ach remittance (iar).
+  name: Nacha International ACH Remittance (IAR) API
+  slug: nacha-international-ach-remittance-iar-api
+- description: The Proof of Authorization API from Nacha — 1 operation(s) for proof of authorization.
+  name: Nacha Proof of Authorization API
+  slug: nacha-proof-of-authorization-api
+- description: The Reporting ACH Return Payments API from Nacha — 1 operation(s) for reporting ach return payments.
+  name: Nacha Reporting ACH Return Payments API
+  slug: nacha-reporting-ach-return-payments-api
+- description: The Route Billing Information API from Nacha — 1 operation(s) for route billing information.
+  name: Nacha Route Billing Information API
+  slug: nacha-route-billing-information-api
+- description: The Wire Transfer API from Nacha — 2 operation(s) for wire transfer.
+  name: Nacha Wire Transfer API
+  slug: nacha-wire-transfer-api
+- description: The Written Statement of Unauthorized Debit (WSUD) API from Nacha — 1 operation(s) for written statement of unauthorized debit (wsud).
+  name: Nacha Written Statement of Unauthorized Debit (WSUD) API
+  slug: nacha-written-statement-of-unauthorized-debit-wsud-api
+artifact_total: 47
 collections:
 - collection_type: open
   name: AV + Name + Return
@@ -180,6 +165,102 @@ collections:
   name: Request Copy of Written Statement of Unauthorized Debit (WSUD) API
   slug: open-nacha-wsud
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-initiate-payment-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-iar-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-iar-plus-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-transaction-status-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-initiate-wire-payment-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-get-wire-status-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-initiate-instant-payment-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-instant-payment-transfer-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-initiate-payment-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-ret-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-authorize-to-pay-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-pay-me-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-account-validation-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-account-validation-plus-name-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-account-validation-plus-name-ret-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-realtime-billing-account-validation-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-corporate-account-balances-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-corporate-transaction-history-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-corporate-transaction-detail-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-payee-profile-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-wsud-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-proof-of-authorization-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-bank-contacts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nacha-bank-contact-v2-overlay.yaml
 - group: agent
   title: ''
   type: AgentSkill
@@ -293,25 +374,30 @@ modified: '2026-07-24'
 name: Nacha
 nav: Providers
 network: true
-overview: 'Nacha publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Afinis Initiate ACH Payment API, Afinis International ACH Remittance (IAR) API, Afinis IAR Plus API, and 21 more. Tagged areas include Payments, United States, ACH, Account-to-Account, and Real-Time Payments.
+overview: 'Nacha publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account Validation API, Accounts API, ACH Payments API, and 16 more. Tagged areas include Payments, United States, ACH, Account-to-Account, and Real-Time Payments.
 
 
-  Nacha''s developer surface includes authentication, API reference, documentation, getting-started guide, engineering blog, and 20 more developer resources.'
+  Nacha''s developer surface includes authentication, API reference, documentation, getting-started guide, engineering blog, and 44 more developer resources.'
 random_paper: 3
 score:
   band: thin
-  composite: 38.4
+  composite: 38.7
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
-    contract_quality: 47.2
+    contract_governance: 4.5
+    contract_quality: 49.1
     developer_ergonomics: 54.2
-    discoverability: 72.2
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 38.4
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -322,9 +408,9 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 39.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 45.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/screenshots/nacha-2026-08-07T184604.png
 security:

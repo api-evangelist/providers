@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.9
-  scored_at: '2026-08-26'
+  score: 30.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -31,17 +31,8 @@ agentic_access:
   operation_count: 45
   slug: faa-agentic-access
   summary_line: 45 operations · 9 acting
-api_count: 14
+api_count: 4
 apis:
-- description: Chart publication metadata and download API from FAA Aeronautical Information Services. Thirty-four operations across VFR sectionals, terminal area charts, IFR enroute and oceanic charts, terminal pro
-  name: FAA Aeronautic Product Release API (APRA)
-  slug: faa-aeronautic-product-release-api
-- description: Machine interface for submitting and searching pilot records in the FAA Pilot Records Database, the reporting obligation created for air carriers by 14 CFR Part 111. Requires client_id and client_secr
-  name: FAA Air Carrier PRD API
-  slug: faa-air-carrier-prd-api
-- description: Single-operation API for submitting passenger discrepancy reports into the FAA Safety Assurance System. The harvested OpenAPI declares apiKey and appId header security schemes and carries a relative s
-  name: FAA Safety Assurance System (SAS) API
-  slug: faa-safety-assurance-system-api
 - description: Notices to Air Missions retrieval API. Probe-confirmed live but gated — an unauthenticated GET returned HTTP 401 with the body {"message":"Unauthorized", "http_status_code":401} on 2026-07-28, while t
   name: FAA NOTAM API
   slug: faa-notam-api
@@ -72,10 +63,64 @@ apis:
 - description: Unauthenticated JSON list of active Temporary Flight Restrictions, each carrying a NOTAM id, TFR type, ARTCC facility identifier, state and effective description. Verified live 2026-07-28 (HTTP 200, a
   name: FAA Temporary Flight Restriction (TFR) List API
   slug: faa-tfr-api
-- description: Federal Aviation Administration Airport Status Web Service from Federal Aviation Administration — 2 path(s) described in OpenAPI.
-  name: Federal Aviation Administration Airport Status Web Service
-  slug: faa-airport-status-web-service-openapi
-artifact_total: 26
+- description: The AirCarrierApi API from Federal Aviation Administration — 4 operation(s) for aircarrierapi.
+  name: Federal Aviation Administration Air Carrier API
+  slug: faa-aircarrierapi-api
+- description: The Axhsubmitdiscrepancies API from Federal Aviation Administration — 1 operation(s) for axhsubmitdiscrepancies.
+  name: Federal Aviation Administration Axhsubmitdiscrepancies API
+  slug: faa-axhsubmitdiscrepancies-api
+- description: The Coded Instrument Flight Procedures (CIFP) API from Federal Aviation Administration — 2 operation(s) for coded instrument flight procedures (cifp).
+  name: Federal Aviation Administration Coded Instrument Flight Procedures (CIFP) API
+  slug: faa-coded-instrument-flight-procedures-cifp-api
+- description: The Daily Digital Obstacle File (DDOF) API from Federal Aviation Administration — 2 operation(s) for daily digital obstacle file (ddof).
+  name: Federal Aviation Administration Daily Digital Obstacle File (DDOF) API
+  slug: faa-daily-digital-obstacle-file-ddof-api
+- description: The Digital Enroute Charts US (DDECUS) API from Federal Aviation Administration — 2 operation(s) for digital enroute charts us (ddecus).
+  name: Federal Aviation Administration Digital Enroute Charts US (DDECUS) API
+  slug: faa-digital-enroute-charts-us-ddecus-api
+- description: The Digital Enroute Supplement (DERS) API from Federal Aviation Administration — 2 operation(s) for digital enroute supplement (ders).
+  name: Federal Aviation Administration Digital Enroute Supplement (DERS) API
+  slug: faa-digital-enroute-supplement-ders-api
+- description: The FAA Airport Status Service API from Federal Aviation Administration — 2 operation(s) for faa airport status service.
+  name: Federal Aviation Administration FAA Airport Status Service API
+  slug: faa-faa-airport-status-service-api
+- description: The Grand Canyon VFR Chart API from Federal Aviation Administration — 2 operation(s) for grand canyon vfr chart.
+  name: Federal Aviation Administration Grand Canyon VFR Chart API
+  slug: faa-grand-canyon-vfr-chart-api
+- description: The Gulf of Mexico IFR Enroute Chart API from Federal Aviation Administration — 2 operation(s) for gulf of mexico ifr enroute chart.
+  name: Federal Aviation Administration Gulf of Mexico IFR Enroute Chart API
+  slug: faa-gulf-of-mexico-ifr-enroute-chart-api
+- description: The IFR Enroute Charts API from Federal Aviation Administration — 2 operation(s) for ifr enroute charts.
+  name: Federal Aviation Administration IFR Enroute Charts API
+  slug: faa-ifr-enroute-charts-api
+- description: The IFR Planning Charts API from Federal Aviation Administration — 2 operation(s) for ifr planning charts.
+  name: Federal Aviation Administration IFR Planning Charts API
+  slug: faa-ifr-planning-charts-api
+- description: The NASR 28 Day Subscription API from Federal Aviation Administration — 2 operation(s) for nasr 28 day subscription.
+  name: Federal Aviation Administration NASR 28 Day Subscription API
+  slug: faa-nasr-28-day-subscription-api
+- description: The Oceanic Route Charts API from Federal Aviation Administration — 2 operation(s) for oceanic route charts.
+  name: Federal Aviation Administration Oceanic Route Charts API
+  slug: faa-oceanic-route-charts-api
+- description: The Sectional Charts API from Federal Aviation Administration — 2 operation(s) for sectional charts.
+  name: Federal Aviation Administration Sectional Charts API
+  slug: faa-sectional-charts-api
+- description: The Supplement Chart API from Federal Aviation Administration — 2 operation(s) for supplement chart .
+  name: Federal Aviation Administration Supplement Chart API
+  slug: faa-supplement-chart-api
+- description: The Terminal Area Charts API from Federal Aviation Administration — 2 operation(s) for terminal area charts.
+  name: Federal Aviation Administration Terminal Area Charts API
+  slug: faa-terminal-area-charts-api
+- description: The US Terminal Procedures Publication (TPP) API from Federal Aviation Administration — 2 operation(s) for us terminal procedures publication (tpp).
+  name: Federal Aviation Administration US Terminal Procedures Publication (TPP) API
+  slug: faa-us-terminal-procedures-publication-tpp-api
+- description: The US VFR Wall Planning Chart API from Federal Aviation Administration — 2 operation(s) for us vfr wall planning chart.
+  name: Federal Aviation Administration US VFR Wall Planning Chart API
+  slug: faa-us-vfr-wall-planning-chart-api
+- description: The VFR Helicopter Route Chart API from Federal Aviation Administration — 4 operation(s) for vfr helicopter route chart.
+  name: Federal Aviation Administration VFR Helicopter Route Chart API
+  slug: faa-vfr-helicopter-route-chart-api
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Faa Swim Event Surface
@@ -94,6 +139,30 @@ collections:
   name: sas-api
   slug: open-faa-safety-assurance-system-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/faa-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/faa-aeronautic-product-release-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/faa-track-nasr-28-day-cycle.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/faa-fetch-terminal-procedures-and-charts.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/faa-air-carrier-prd-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/faa-safety-assurance-system-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -291,13 +360,13 @@ modified: '2026-07-28'
 name: Federal Aviation Administration
 nav: Providers
 network: true
-overview: 'Federal Aviation Administration publishes 4 APIs on the [APIs.io](https://apis.io/) network, including FAA Aeronautic Product Release API (APRA), FAA Air Carrier PRD API, FAA Safety Assurance System (SAS) API, and 1 more. Tagged areas include Travel, United States, Aviation, Airports, and Government.
+overview: 'Federal Aviation Administration publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Air Carrier API, Axhsubmitdiscrepancies API, Coded Instrument Flight Procedures (CIFP) API, and 16 more. Tagged areas include Travel, United States, Aviation, Airports, and Government.
 
 
   The Federal Aviation Administration catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Federal Aviation Administration''s developer surface includes authentication, API reference, getting-started guide, signup flow, support, engineering blog, documentation, and 39 more developer resources.'
+  Federal Aviation Administration''s developer surface includes authentication, API reference, getting-started guide, signup flow, support, engineering blog, documentation, and 45 more developer resources.'
 plans:
 - name: Faa Plans
   plan_count: 5
@@ -309,18 +378,23 @@ rate_limits:
   slug: faa-rate-limits
 score:
   band: strong
-  composite: 55.8
+  composite: 56.4
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 16.7
-    contract_quality: 49.1
+    contract_governance: 4.5
+    contract_quality: 52.8
     developer_ergonomics: 56.5
-    discoverability: 64.8
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 55.8
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -337,8 +411,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/screenshots/faa-2026-08-07T165207.png
 security:

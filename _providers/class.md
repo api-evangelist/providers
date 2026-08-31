@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST API for provisioning and managing Class virtual classrooms — Classes, Enrollments, Schedules, Templates, Users, launch links, and attendance / metrics reporting. 27 endpoints across 7 resource gr
@@ -121,7 +121,7 @@ modified: '2026-07-18'
 name: Class
 nav: Providers
 network: true
-overview: 'Class publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, EdTech, Education, Virtual Classroom, and Learning.
+overview: 'Class publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Edtech, Education, Virtual Classroom, and Learning.
 
 
   Class'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 12 more developer resources.'
@@ -129,6 +129,11 @@ random_paper: 9
 score:
   band: thin
   composite: 30.8
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -146,8 +151,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/class/refs/heads/main/screenshots/class-2026-07-25T205513.png
 security:
@@ -166,7 +171,7 @@ security:
 slug: class
 tags:
 - Company
-- EdTech
+- Edtech
 - Education
 - Virtual Classroom
 - Learning

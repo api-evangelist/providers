@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1
   slug: friendly-captcha-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The siteverify endpoint validates a Friendly Captcha solution token. The server POSTs the token and API key (with optional sitekey) and receives a JSON response indicating success, risk score, IP inte
   name: Friendly Captcha Siteverify API
@@ -154,15 +154,20 @@ rate_limits:
   slug: friendly-captcha-rate-limits
 score:
   band: thin
-  composite: 37.2
-  delta: 0.0
+  composite: 36.6
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 53.1
     developer_ergonomics: 23.8
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 37.2
@@ -173,8 +178,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/friendly-captcha/refs/heads/main/screenshots/friendly-captcha-2026-06-20T181553.png
 security:

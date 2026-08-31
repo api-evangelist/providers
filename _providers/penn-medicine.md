@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 22
   slug: penn-medicine-agentic-access
   summary_line: 22 operations
-api_count: 7
+api_count: 1
 apis:
 - description: MyChart-based patient portal that gives Penn Medicine patients access to medical records, lab results, secure messaging with their care team, telehealth visits, medication refills, prescription manage
   name: MyPennMedicine Patient Portal
@@ -86,6 +86,18 @@ collections:
   name: Penn Medicine FHIR R4 Bulk Data SMART API
   slug: open-penn-medicine-smart-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/penn-medicine-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Penn-Medicine-CHCI/cobalt-api/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Penn-Medicine-CHCI/cobalt-api/blob/master/SECURITY.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -247,13 +259,13 @@ modified: '2026-05-23'
 name: Penn Medicine
 nav: Providers
 network: true
-overview: 'Penn Medicine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bulk Data API, Patient Access API, Provider Directory API, and 1 more. Tagged areas include Healthcare, Hospital, Academic Medical Center, FHIR, and SMART on FHIR.
+overview: 'Penn Medicine publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Bulk Data API, Patient Access API, Provider Directory API, and 1 more. Tagged areas include Healthcare, Hospital, Academic Medical Center, FHIR, and SMART On FHIR.
 
 
   The Penn Medicine catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Penn Medicine''s developer surface includes authentication, developer portal, engineering blog, support, and 17 more developer resources.'
+  Penn Medicine''s developer surface includes authentication, developer portal, engineering blog, support, and 20 more developer resources.'
 plans:
 - name: Penn Medicine Plans Pricing
   plan_count: 3
@@ -291,19 +303,27 @@ scopes:
   slug: penn-medicine-scopes
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 54.9
-  delta: 3.7
+  band: developing
+  composite: 54.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 15.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 69.7
     contract_quality: 68.0
     developer_ergonomics: 35.7
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 69.7
-    operational_transparency: 34.2
-  previous_composite: 51.2
+    operational_transparency: 44.7
+  open_source:
+    applies: true
+    score: 35.0
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     contracts:
@@ -317,8 +337,8 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/screenshots/penn-medicine-2026-06-20T191538.png
 security:
@@ -345,7 +365,7 @@ tags:
 - Hospital
 - Academic Medical Center
 - FHIR
-- SMART on FHIR
+- SMART On FHIR
 - Patient Access
 - Provider Directory
 - CMS Interoperability

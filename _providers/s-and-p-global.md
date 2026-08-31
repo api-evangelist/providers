@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: s-and-p-global-agentic-access
   summary_line: 8 operations · 2 acting
-api_count: 7
+api_count: 2
 apis:
 - description: Comprehensive financial data API providing access to fundamental data, industry-specific and segment data, valuations and pricing, S&P Global Credit Ratings and Research, and reference and terms and c
   name: S&P Capital IQ Market Intelligence API
@@ -92,6 +92,10 @@ collections:
   name: S&P Global Commodity Insights Authentication Search API
   slug: open-s-and-p-global-search-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/s-and-p-global-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -186,7 +190,7 @@ overview: 'S&P Global publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   The S&P Global catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  S&P Global''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  S&P Global''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: S And P Global Plans Pricing
   plan_count: 1
@@ -220,18 +224,23 @@ rules:
   slug: s-and-p-global-spectral-rules
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 36.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 13.6
     contract_quality: 58.5
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 75.9
     governance: 13.6
     operational_transparency: 5.3
-  previous_composite: 35.8
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     contracts:
@@ -245,8 +254,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/s-and-p-global/refs/heads/main/screenshots/s-and-p-global-2026-06-20T193312.png
 security:

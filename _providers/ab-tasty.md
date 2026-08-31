@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: ab-tasty-agentic-access
   summary_line: 4 operations · 4 acting
-api_count: 7
+api_count: 1
 apis:
 - description: AB Tastys Remote Control API is a developer and QA tool that lets you programmatically drive the AB Tasty SDK from outside your app or page, so you can precisely control and observe experiments withou
   name: AB Tasty Remote Control API
@@ -59,13 +59,7 @@ apis:
 - description: The Environments API from AB Tasty — 3 operation(s) for environments.
   name: AB Tasty Environments API
   slug: ab-tasty-environments-api
-- description: Feature flag operations
-  name: AB Tasty Flags API
-  slug: ab-tasty-flags-api
-- description: The Post API from AB Tasty — 4 operation(s) for post.
-  name: AB Tasty Post API
-  slug: ab-tasty-post-api
-artifact_total: 91
+artifact_total: 89
 collections:
 - collection_type: postman
   name: AB Tasty Decision Activate API
@@ -359,7 +353,7 @@ modified: '2026-05-19'
 name: AB Tasty
 nav: Providers
 network: true
-overview: 'AB Tasty publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Activate API, Campaigns API, Environments API, and 2 more. Tagged areas include Aggregation, Experimentation, Feature Flags, Personalization, and A/B Testing.
+overview: 'AB Tasty publishes 3 APIs on the [APIs.io](https://apis.io/) network: Activate API, Campaigns API, and Environments API. Tagged areas include Aggregation, Experimentation, Feature Flags, Personalization, and A/B Testing.
 
 
   The AB Tasty catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -399,18 +393,23 @@ rules:
   slug: ab-tasty-spectral-rules
 score:
   band: developing
-  composite: 52.4
-  delta: 4.0
+  composite: 51.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 28.8
-    contract_quality: 78.5
+    contract_quality: 78.2
     developer_ergonomics: 66.7
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 48.4
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     contracts:
@@ -418,8 +417,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/screenshots/ab-tasty-2026-06-20T163043.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 78
   slug: verifone-agentic-access
   summary_line: 78 operations · 60 acting
-api_count: 27
+api_count: 7
 apis:
 - description: Global payments, recurring billing, and digital wallets — tokenized and PCI compliant. The eCommerce API handles customer payment info capture and order placement via direct server-to-server API calls
   name: Verifone eCommerce API
@@ -1789,7 +1789,7 @@ modified: '2026-06-13'
 name: Verifone
 nav: Providers
 network: true
-overview: 'Verifone publishes 22 APIs on the [APIs.io](https://apis.io/) network, including 3DS Authentication API, Batch API, Billing Agreement API, and 19 more. Tagged areas include Payments, Point-of-Sale, Terminal Management, E-Commerce, and Fintech.
+overview: 'Verifone publishes 22 APIs on the [APIs.io](https://apis.io/) network, including 3DS Authentication API, Batch API, Billing Agreement API, and 19 more. Tagged areas include Payments, POS, Terminal Management, E-Commerce, and Fintech.
 
 
   The Verifone catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -1819,7 +1819,12 @@ rules:
 score:
   band: developing
   composite: 42.9
-  delta: 2.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 45.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -1829,7 +1834,7 @@ score:
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 15.8
-  previous_composite: 40.9
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -1843,8 +1848,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verifone/refs/heads/main/screenshots/verifone-2026-06-20T200926.png
 security:
@@ -1859,7 +1864,7 @@ security:
 slug: verifone
 tags:
 - Payments
-- Point-of-Sale
+- POS
 - Terminal Management
 - E-Commerce
 - Fintech

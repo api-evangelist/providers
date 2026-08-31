@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: siemens-agentic-access
   summary_line: 10 operations · 2 acting
-api_count: 152
+api_count: 1
 apis:
 - description: Siemens Airport Vertical API is a software solution that helps airports streamline their operations and improve efficiency. It provides a set of tools and functionalities that allow airports to optimi
   name: Siemens Airport Vertical API
@@ -676,18 +676,23 @@ rules:
   slug: siemens-rules
 score:
   band: thin
-  composite: 36.4
-  delta: 1.8
+  composite: 35.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 62.6
     developer_ergonomics: 33.3
-    discoverability: 66.7
+    discoverability: 61.1
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 34.6
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -695,8 +700,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

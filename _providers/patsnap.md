@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 246
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 356
   slug: patsnap-agentic-access
   summary_line: 356 operations · 246 acting
-api_count: 47
+api_count: 1
 apis:
 - description: AI Translation APIs.
   name: Patsnap AI Translation API
@@ -331,6 +331,10 @@ collections:
   name: Patsnap Open Platform AI Translation Trademark Data API
   slug: open-patsnap-trademark-data-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/patsnap-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -458,22 +462,27 @@ network: true
 overview: 'Patsnap publishes 47 APIs on the [APIs.io](https://apis.io/) network, including AI Translation API, Bio-Pharma Encyclopedia Q&A API, Biopharmaceutical Dictionary Data API, and 44 more. Tagged areas include Company, Technology, Patents, Intellectual Property, and Innovation Intelligence.
 
 
-  Patsnap''s developer surface includes documentation, API reference, getting-started guide, sandbox, support, engineering blog, signup flow, and 21 more developer resources.'
+  Patsnap''s developer surface includes documentation, API reference, getting-started guide, sandbox, support, engineering blog, signup flow, and 22 more developer resources.'
 random_paper: 3
 score:
   band: developing
-  composite: 52.7
-  delta: 3.5
+  composite: 49.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 56.2
     developer_ergonomics: 63.7
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 5.3
-  previous_composite: 49.2
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -490,8 +499,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patsnap/refs/heads/main/screenshots/patsnap-2026-08-07T191600.png
 security:

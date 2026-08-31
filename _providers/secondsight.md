@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 5
 common:
@@ -148,27 +148,41 @@ rate_limits:
   name: Secondsight Rate Limits
   slug: secondsight-rate-limits
 score:
-  band: thin
-  composite: 27.6
+  band: emerging
+  composite: 19.0
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 60.5
-    commercial_clarity: 60.5
+    access_clarity: 40.8
+    commercial_clarity: 40.8
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 7.1
+    developer_ergonomics: 4.8
     discoverability: 57.4
     governance: 18.2
-    operational_transparency: 26.3
+    operational_transparency: 5.3
+  previous_composite: 19.0
   provenance:
     conformance: first-party
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 45.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 35.6
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: domain-security
   name: Secondsight Domain Security

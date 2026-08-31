@@ -27,7 +27,7 @@ tags:
 - Event-Driven Architecture
 - Asynchronous APIs
 - Message Brokers
-- API Specification
+- API Specifications
 - Kafka
 - MQTT
 - AMQP

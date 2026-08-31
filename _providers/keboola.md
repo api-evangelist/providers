@@ -20,7 +20,7 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: true
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.7
-  scored_at: '2026-08-26'
+  score: 29.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 376
   human_in_the_loop: 13
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 631
   slug: keboola-agentic-access
   summary_line: 631 operations · 376 acting · 13 human-in-the-loop
-api_count: 79
+api_count: 14
 apis:
 - description: The Actions API from Keboola — 1 operation(s) for actions.
   name: Keboola Actions API
@@ -68,33 +68,6 @@ apis:
 - description: The Authorize API from Keboola — 2 operation(s) for authorize.
   name: Keboola Authorize API
   slug: keboola-authorize-api
-- description: The Branch metadata API from Keboola — 2 operation(s) for branch metadata.
-  name: Keboola Branch metadata API
-  slug: keboola-branch-metadata-api
-- description: The Buckets API from Keboola — 28 operation(s) for buckets.
-  name: Keboola Buckets API
-  slug: keboola-buckets-api
-- description: The Columns API from Keboola — 6 operation(s) for columns.
-  name: Keboola Columns API
-  slug: keboola-columns-api
-- description: The Component Configuration Metadata API from Keboola — 4 operation(s) for component configuration metadata.
-  name: Keboola Component Configuration Metadata API
-  slug: keboola-component-configuration-metadata-api
-- description: The Component Configuration Row Versions API from Keboola — 8 operation(s) for component configuration row versions.
-  name: Keboola Component Configuration Row Versions API
-  slug: keboola-component-configuration-row-versions-api
-- description: The Component Configuration Rows API from Keboola — 7 operation(s) for component configuration rows.
-  name: Keboola Component Configuration Rows API
-  slug: keboola-component-configuration-rows-api
-- description: The Component Configuration Versions API from Keboola — 8 operation(s) for component configuration versions.
-  name: Keboola Component Configuration Versions API
-  slug: keboola-component-configuration-versions-api
-- description: The Component Configurations API from Keboola — 11 operation(s) for component configurations.
-  name: Keboola Component Configurations API
-  slug: keboola-component-configurations-api
-- description: The Components API from Keboola — 2 operation(s) for components.
-  name: Keboola Components API
-  slug: keboola-components-api
 - description: The configuration API from Keboola — 26 operation(s) for configuration.
   name: Keboola configuration API
   slug: keboola-configuration-api
@@ -110,9 +83,6 @@ apis:
 - description: The Credits API from Keboola — 1 operation(s) for credits.
   name: Keboola Credits API
   slug: keboola-credits-api
-- description: The Data Apps API from Keboola — 14 operation(s) for data apps.
-  name: Keboola Data Apps API
-  slug: keboola-data-apps-api
 - description: Inspect and purge soft-deleted projects.
   name: Keboola Deleted Projects API
   slug: keboola-deleted-projects-api
@@ -128,15 +98,6 @@ apis:
 - description: The Encrypt API from Keboola — 1 operation(s) for encrypt.
   name: Keboola Encrypt API
   slug: keboola-encrypt-api
-- description: The Events API from Keboola — 5 operation(s) for events.
-  name: Keboola Events API
-  slug: keboola-events-api
-- description: The Files API from Keboola — 4 operation(s) for files.
-  name: Keboola Files API
-  slug: keboola-files-api
-- description: The Git API from Keboola — 2 operation(s) for git.
-  name: Keboola Git API
-  slug: keboola-git-api
 - description: The health API from Keboola — 1 operation(s) for health.
   name: Keboola health API
   slug: keboola-health-api
@@ -158,18 +119,12 @@ apis:
 - description: The Marketplaces API from Keboola — 2 operation(s) for marketplaces.
   name: Keboola Marketplaces API
   slug: keboola-marketplaces-api
-- description: The Merge Requests API from Keboola — 7 operation(s) for merge requests.
-  name: Keboola Merge Requests API
-  slug: keboola-merge-requests-api
 - description: The Migrate API from Keboola — 1 operation(s) for migrate.
   name: Keboola Migrate API
   slug: keboola-migrate-api
 - description: Endpoints scoped to the current user — invitations, join requests and session tokens.
   name: Keboola My Account API
   slug: keboola-my-account-api
-- description: The Notifications API from Keboola — 1 operation(s) for notifications.
-  name: Keboola Notifications API
-  slug: keboola-notifications-api
 - description: The Orchestration Rerun Plan API from Keboola — 1 operation(s) for orchestration rerun plan.
   name: Keboola Orchestration Rerun Plan API
   slug: keboola-orchestration-rerun-plan-api
@@ -182,9 +137,6 @@ apis:
 - description: The Project Jobs Stats API from Keboola — 1 operation(s) for project jobs stats.
   name: Keboola Project Jobs Stats API
   slug: keboola-project-jobs-stats-api
-- description: The Project Subscriptions API from Keboola — 2 operation(s) for project subscriptions.
-  name: Keboola Project Subscriptions API
-  slug: keboola-project-subscriptions-api
 - description: Manage projects, project members, invitations, join requests and per-project settings.
   name: Keboola Projects API
   slug: keboola-projects-api
@@ -197,36 +149,15 @@ apis:
 - description: The Resolve Config Variables API from Keboola — 1 operation(s) for resolve config variables.
   name: Keboola Resolve Config Variables API
   slug: keboola-resolve-config-variables-api
-- description: The Runtimes API from Keboola — 1 operation(s) for runtimes.
-  name: Keboola Runtimes API
-  slug: keboola-runtimes-api
-- description: The Sandboxes API from Keboola — 2 operation(s) for sandboxes.
-  name: Keboola Sandboxes API
-  slug: keboola-sandboxes-api
 - description: The schedules API from Keboola — 4 operation(s) for schedules.
   name: Keboola schedules API
   slug: keboola-schedules-api
-- description: The Search API from Keboola — 2 operation(s) for search.
-  name: Keboola Search API
-  slug: keboola-search-api
 - description: The service API from Keboola — 1 operation(s) for service.
   name: Keboola service API
   slug: keboola-service-api
-- description: The Shared Buckets API from Keboola — 2 operation(s) for shared buckets.
-  name: Keboola Shared Buckets API
-  slug: keboola-shared-buckets-api
 - description: The SQL Editor API from Keboola — 13 operation(s) for sql editor.
   name: Keboola SQL Editor API
   slug: keboola-sql-editor-api
-- description: The Storage API from Keboola — 64 operation(s) for storage.
-  name: Keboola Storage API
-  slug: keboola-storage-api
-- description: The Storage Buckets API from Keboola — 2 operation(s) for storage buckets.
-  name: Keboola Storage Buckets API
-  slug: keboola-storage-buckets-api
-- description: The Storage Jobs API from Keboola — 1 operation(s) for storage jobs.
-  name: Keboola Storage Jobs API
-  slug: keboola-storage-jobs-api
 - description: Run Keboola Connection CLI commands asynchronously via the commands queue.
   name: Keboola SUPER - Commands API
   slug: keboola-super-commands-api
@@ -245,43 +176,22 @@ apis:
 - description: Manage UI applications and their deployed versions.
   name: Keboola SUPER - UI Management API
   slug: keboola-super-ui-management-api
-- description: The Tables API from Keboola — 13 operation(s) for tables.
-  name: Keboola Tables API
-  slug: keboola-tables-api
 - description: The test API from Keboola — 1 operation(s) for test.
   name: Keboola test API
   slug: keboola-test-api
-- description: The Tickets API from Keboola — 2 operation(s) for tickets.
-  name: Keboola Tickets API
-  slug: keboola-tickets-api
 - description: Inspect the manage token used for the request.
   name: Keboola Token Verification API
   slug: keboola-token-verification-api
-- description: The Tokens API from Keboola — 9 operation(s) for tokens.
-  name: Keboola Tokens API
-  slug: keboola-tokens-api
-- description: The Triggers API from Keboola — 4 operation(s) for triggers.
-  name: Keboola Triggers API
-  slug: keboola-triggers-api
 - description: Manage Keboola users by super admins.
   name: Keboola Users API
   slug: keboola-users-api
-- description: The Validate API from Keboola — 2 operation(s) for validate.
-  name: Keboola Validate API
-  slug: keboola-validate-api
 - description: The Variables API from Keboola — 4 operation(s) for variables.
   name: Keboola Variables API
   slug: keboola-variables-api
 - description: Vendor membership and service accounts.
   name: Keboola Vendor API
   slug: keboola-vendor-api
-- description: The Webalize API from Keboola — 4 operation(s) for webalize.
-  name: Keboola Webalize API
-  slug: keboola-webalize-api
-- description: The Workspaces API from Keboola — 24 operation(s) for workspaces.
-  name: Keboola Workspaces API
-  slug: keboola-workspaces-api
-artifact_total: 557
+artifact_total: 527
 collections:
 - collection_type: open
   name: API Collection
@@ -524,6 +434,10 @@ collections:
   name: AI Service Actions Workspaces API
   slug: open-keboola-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/keboola-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1795,13 +1709,13 @@ modified: '2026-06-13'
 name: Keboola
 nav: Providers
 network: true
-overview: 'Keboola publishes 79 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Admin Apps API, Admin Stacks API, and 76 more. Tagged areas include Data Platform, ETL, ELT, Data Pipeline, and Data Storage.
+overview: 'Keboola publishes 49 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Admin Apps API, Admin Stacks API, and 46 more. Tagged areas include Data Platform, ETL, ELT, Data Pipeline, and Data Storage.
 
 
   The Keboola catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Keboola''s developer surface includes authentication, documentation, engineering blog, pricing, CLI, and 17 more developer resources.'
+  Keboola''s developer surface includes authentication, documentation, engineering blog, pricing, CLI, and 18 more developer resources.'
 plans:
 - name: Keboola Plans Pricing
   plan_count: 2
@@ -1824,18 +1738,23 @@ rules:
   slug: keboola-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.2
-  delta: 1.4
+  composite: 41.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 9.8
-    contract_quality: 58.6
+    contract_quality: 59.3
     developer_ergonomics: 31.0
-    discoverability: 59.3
+    discoverability: 74.1
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 38.8
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     contracts:
@@ -1843,8 +1762,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 79
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/screenshots/keboola-2026-06-20T183937.png
 security:
@@ -1871,7 +1790,7 @@ tags:
 - ELT
 - Data Pipeline
 - Data Storage
-- Transformation
+- Transformations
 - Orchestration
 - Data Operations
 - Cloud Data

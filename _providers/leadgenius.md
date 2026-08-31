@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 11
   slug: leadgenius-agentic-access
   summary_line: 11 operations · 5 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Create, update and inspect enrichment campaigns.
   name: LeadGenius Campaigns API
@@ -58,7 +58,10 @@ apis:
 - description: Subscription usage and enrichment request statistics.
   name: LeadGenius Usage API
   slug: leadgenius-usage-api
-artifact_total: 18
+- description: The LeadGenius Enrichment API API from LeadGenius — 0 operation(s) for leadgenius enrichment api.
+  name: LeadGenius LeadGenius Enrichment API
+  slug: leadgenius-leadgenius-enrichment-api-api
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Leadgenius Enrichment Webhooks
@@ -227,7 +230,7 @@ modified: '2026-08-13'
 name: LeadGenius
 nav: Providers
 network: true
-overview: 'LeadGenius publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Exclusion API, Rapid Enrichment API, and 2 more. Tagged areas include Company, Data Enrichment, Lead Generation, Sales, and Marketing.
+overview: 'LeadGenius publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Exclusion API, Rapid Enrichment API, and 3 more. Tagged areas include Company, Data Enrichment, Lead Generation, Sales, and Marketing.
 
 
   The LeadGenius catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -244,19 +247,24 @@ rate_limits:
   name: Leadgenius Rate Limits
   slug: leadgenius-rate-limits
 score:
-  band: developing
-  composite: 39.4
-  delta: 0.0
+  band: thin
+  composite: 36.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
-    contract_governance: 16.7
-    contract_quality: 67.8
+    contract_governance: 4.5
+    contract_quality: 64.3
     developer_ergonomics: 8.9
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 39.4
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -267,8 +275,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadgenius/refs/heads/main/screenshots/leadgenius-2026-07-25T224714.png
 security:

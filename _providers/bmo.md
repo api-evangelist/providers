@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -33,40 +33,76 @@ agentic_access:
   summary_line: 30 operations · 24 acting
 api_count: 11
 apis:
-- description: Verifies U.S. account ownership and returns a risk-level score before a transfer is set up, checking submitted owner details against Early Warning Services' national transaction and identity database.
-  name: BMO Account Validation API
-  slug: bmo-account-validation-api
-- description: Retrieves account details, balances, and transaction information for Online Banking for Business accounts, secured with OAuth 2.0 and a client API key on BMO's IBM API Connect open-banking gateway.
+- description: Query all information for a set of accounts provided in the payload
   name: BMO Account Information API
   slug: bmo-account-information-api
-- description: Initiates and manages U.S. ACH credit and debit payments (sending or collecting funds) with live status updates, for treasury and accounting system integrations. OAuth 2.0 plus client API key.
-  name: BMO ACH Payments API
-  slug: bmo-ach-payments-api
-- description: Submits and tracks U.S. domestic and international wire payments from Online Banking for Business accounts, secured with OAuth 2.0 and a client API key.
-  name: BMO Wire Payments (U.S.) API
-  slug: bmo-wire-payments-us-api
-- description: Submits and tracks Canadian domestic and international wire payments from BMO business accounts, secured with OAuth 2.0 and a client API key.
-  name: BMO Wire Payments (Canada) API
-  slug: bmo-wire-payments-ca-api
-- description: 'Initiates Canadian Electronic Funds Transfer (EFT) credit and debit payments with live status updates and batch support (up to 50 payments), for business system integration. OAuth 2.0 plus client API '
-  name: BMO EFT Payments API
-  slug: bmo-eft-payments-api
-- description: Sends and receives real-time Interac e-Transfer instant payments in Canada with live status, request-for-money, and autodeposit flows. OAuth 2.0 plus client API key.
-  name: BMO Instant Payments (Interac) API
-  slug: bmo-interac-instant-payments-api
-- description: Searches for and downloads images of deposited cheques and other items directly within a customer application. OAuth 2.0 plus client API key. Published as a Swagger 2.0 definition.
-  name: BMO Image Retrieval API
-  slug: bmo-image-retrieval-api
-- description: OAuth 2.0 authorization-code and token endpoints that protect all BMO commercial API connections. Published as a Swagger 2.0 definition covering the /oauth20/authorize and /oauth20/token operations.
-  name: BMO Authorize & Token API
-  slug: bmo-authorize-token-api
-- description: Issues a client data encryption key used to encrypt sensitive fields (for example, account numbers and tax IDs) in requests to other BMO open-banking APIs such as Account Validation. Published as a Sw
-  name: BMO Client Data Encryption Key API
-  slug: bmo-client-data-encryption-key-api
-- description: Delivers asynchronous payment-status push notifications back to a registered client endpoint, letting integrations react to live updates on submitted payments. Secured with a client API key.
-  name: BMO Push Notification API
-  slug: bmo-push-notification-api
-artifact_total: 27
+- description: Search for account transactions
+  name: BMO Account Transactions API
+  slug: bmo-account-transactions-api
+- description: The AccountTransactionImages API from BMO — 3 operation(s) for accounttransactionimages.
+  name: BMO Account Transaction Images API
+  slug: bmo-accounttransactionimages-api
+- description: The AccountValidation API from BMO — 1 operation(s) for accountvalidation.
+  name: BMO Account Validation API
+  slug: bmo-accountvalidation-api
+- description: Receive payment inquiry request in CAMT.005 ISO from BMO Canada Partners/Customers and send payment status as response in PAIN.002 ISO.
+  name: BMO Get Payment Status API
+  slug: bmo-getpaymentstatus-api
+- description: The Oauth20 API from BMO — 2 operation(s) for oauth20.
+  name: BMO Oauth20 API
+  slug: bmo-oauth20-api
+- description: Payment List which receives CAMT.005 ISO request as input and return PAIN.002 ISO as response.
+  name: BMO Obtain Payment Status API
+  slug: bmo-obtain-payment-status-api
+- description: Service agreement search which receives CustomerEntityId (proprietary) as input and return CustomerAgreementInfoReport (proprietary) as response
+  name: BMO Obtain Service Agreement List API
+  slug: bmo-obtain-service-agreement-list-api
+- description: This is a tag for Payment Initiation - send Payments. receive PAIN001/PAIN008 (Debit/Credit) ISO request as input and return PAIN002 ISO as response after interacting with downstream Payment Rail Syst
+  name: BMO Payment Initiation API
+  slug: bmo-paymentinitiation-api
+- description: This is a tag for PaymentStatus which enquiry sends CAMT005 ISO JSON Request standard messages and enquires and responds back with PAIN002 message structure after querying matching backend.
+  name: BMO Payment Status API
+  slug: bmo-paymentstatus-api
+- description: The PaymentStatusUpdate API from BMO — 1 operation(s) for paymentstatusupdate.
+  name: BMO Payment Status Update API
+  slug: bmo-paymentstatusupdate-api
+- description: The retrieveClientDataEncryptionKey API from BMO — 1 operation(s) for retrieveclientdataencryptionkey.
+  name: BMO Retrieve Client Data Encryption Key API
+  slug: bmo-retrieveclientdataencryptionkey-api
+- description: Payment credit initiation which receives PAIN.001 ISO request as input and return PAIN.002 ISO as response
+  name: BMO Send Payment Credit API
+  slug: bmo-send-payment-credit-api
+- description: Payment credit initiation which receives PAIN.008 ISO request as input and return PAIN.002 ISO as response
+  name: BMO Send Payment Debit API
+  slug: bmo-send-payment-debit-api
+- description: Receive Fedwire Drawdown request in PAIN.013 ISO from BMO Bank NA Partners/Customers to initiate payment request and send acknowledgement as response in PAIN.014 ISO.
+  name: BMO Send Fedwire Drawdown Payment API
+  slug: bmo-sendfedwiredrawdownpayment-api
+- description: Receive wire payment request in PAIN.001 ISO from BMO Canada partners/customers to initiate wire payment and send acknowledgement as response in PAIN.002 ISO.
+  name: BMO Send Payment API
+  slug: bmo-sendpayment-api
+- description: Request for Payment initiation
+  name: BMO TPP EMT Creditor Payment Activation Request API
+  slug: bmo-tpp-emtcreditorpaymentactivationrequest-api
+- description: Cancel Payment
+  name: BMO TPP EMT Customer Cancel Transfer Initiation API
+  slug: bmo-tpp-emtcustomercanceltransferinitiation-api
+- description: Send Payment
+  name: BMO TPP EMT Customer Credit Transfer Initiation API
+  slug: bmo-tpp-emtcustomercredittransferinitiation-api
+- description: Request for Payment Status Enquiry
+  name: BMO TPP EMT Get Request For Payment Transaction API
+  slug: bmo-tpp-emtgetrequestforpaymenttransaction-api
+- description: Payment Status Enquiry
+  name: BMO TPP EMT Get Transaction API
+  slug: bmo-tpp-emtgettransaction-api
+- description: Retrieve payment options
+  name: BMO TPP EMT Recipient Payment Options API
+  slug: bmo-tpp-emtrecipientpaymentoptions-api
+- description: The TppACHArrangementCompany API from BMO — 1 operation(s) for tppacharrangementcompany.
+  name: BMO Tpp ACH Arrangement Company API
+  slug: bmo-tppacharrangementcompany-api
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Bmo Push Notification Webhooks
@@ -106,6 +142,10 @@ collections:
   name: Wire Payments (U.S.)
   slug: open-bmo-wire-payments-us
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bmo-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -206,13 +246,13 @@ modified: '2026-07-23'
 name: BMO
 nav: Providers
 network: true
-overview: 'BMO publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account Validation API, Account Information API, ACH Payments API, and 8 more. Tagged areas include Financial-Services, Banking, United States, Open Finance, and Payments.
+overview: 'BMO publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Account Transactions API, Account Transaction Images API, and 20 more. Tagged areas include Financial-Services, Banking, United States, Open Finance, and Payments.
 
 
   The BMO catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  BMO''s developer surface includes authentication, sandbox, documentation, API reference, signup flow, support, engineering blog, and 16 more developer resources.'
+  BMO''s developer surface includes authentication, sandbox, documentation, API reference, signup flow, support, engineering blog, and 17 more developer resources.'
 random_paper: 3
 scopes:
 - name: Bmo Scopes
@@ -221,18 +261,23 @@ scopes:
   summary_line: 15 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 45.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 16.7
-    contract_quality: 63.0
+    contract_governance: 4.5
+    contract_quality: 64.2
     developer_ergonomics: 54.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 48.5
+  previous_composite: 46.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,8 +293,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/screenshots/bmo-2026-07-25T203515.png
 security:

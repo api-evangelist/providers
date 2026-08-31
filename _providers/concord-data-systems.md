@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/broadcom/
 created: '2026-07-17'
 description: 'Concord Data Systems was a telecommunications equipment manufacturer founded in 1979 by Ken Miller (previously Director of Modem Development at Codex) and based in Marlborough, Massachusetts. The company designed and sold high-speed full-duplex dial-up telephone modems for transmitting digital computer data in analog form over the public switched telephone network. As the modem hardware market commoditized, the business pivoted from industrial data communications to the emerging market for network performance management software and was renamed Concord Communications, best known for its eHealth network management suite. Battery Ventures was one of thirteen investors in that company. Concord Communications was acquired by CA (Computer Associates) on 2005-06-07 for approximately $350 million ($330M cash plus roughly $20M of assumed net debt); CA was itself acquired by Broadcom in 2018. Concord Data Systems is therefore a historical, defunct entity: it operates no website, no
   developer portal, and no API surface today. It is retained in the API Evangelist network as a venture-portfolio lineage record only.'
@@ -49,6 +54,11 @@ random_paper: 20
 score:
   band: minimal
   composite: 0.6
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -74,8 +84,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: concord-data-systems
 tags:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 35
   slug: super-micro-computer-agentic-access
   summary_line: 35 operations · 12 acting · 2 human-in-the-loop
-api_count: 10
+api_count: 1
 apis:
 - description: User account management
   name: Super Micro Computer Accounts API
@@ -113,6 +113,14 @@ collections:
   name: Supermicro Redfish API
   slug: open-supermicro-redfish
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/super-micro-computer-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/supermicro/redfish/issues
 - group: commercial
   title: ''
   type: License
@@ -202,7 +210,7 @@ overview: 'Super Micro Computer publishes 10 APIs on the [APIs.io](https://apis.
   The Super Micro Computer catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Super Micro Computer''s developer surface includes authentication, documentation, engineering blog, support, pricing, and 7 more developer resources.'
+  Super Micro Computer''s developer surface includes authentication, documentation, engineering blog, support, pricing, and 9 more developer resources.'
 plans:
 - name: Super Micro Computer Plans Pricing
   plan_count: 3
@@ -235,18 +243,26 @@ rules:
   slug: supermicro-redfish-rules
 score:
   band: thin
-  composite: 34.2
-  delta: 1.8
+  composite: 30.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 25.0
     contract_quality: 67.7
     developer_ergonomics: 11.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 32.4
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
@@ -254,8 +270,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/screenshots/super-micro-computer-2026-06-20T194706.png
 security:

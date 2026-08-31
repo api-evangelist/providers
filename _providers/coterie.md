@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: coterie-agentic-access
   summary_line: 13 operations · 6 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Commercial applications describing the insured business.
   name: Coterie Insurance Applications API
@@ -89,6 +89,10 @@ collections:
   name: Coterie Commercial Insurance API
   slug: open-coterie
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/coterie-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -152,7 +156,7 @@ network: true
 overview: 'Coterie Insurance publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Documents API, Industry API, and 3 more. Tagged areas include Insurance, Commercial Insurance, Small Business, Embedded Insurance, and Insurtech.
 
 
-  Coterie Insurance''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
+  Coterie Insurance''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Coterie Plans Pricing
   plan_count: 2
@@ -169,18 +173,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.4
-  delta: 1.0
+  composite: 35.8
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 47.6
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 35.4
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -194,8 +203,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 43.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/screenshots/coterie-2026-07-25T210459.png
 security:

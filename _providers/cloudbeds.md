@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 29
   slug: cloudbeds-agentic-access
   summary_line: 29 operations · 13 acting
-api_count: 32
+api_count: 1
 apis:
 - description: Earlier supported version of the Cloudbeds REST API. New integrations should target v1.3.
   name: Cloudbeds REST API v1.2 (Legacy)
@@ -236,6 +236,10 @@ collections:
   name: Cloudbeds REST API v1.3
   slug: open-cloudbeds
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cloudbeds-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -350,7 +354,7 @@ overview: 'Cloudbeds publishes 29 APIs on the [APIs.io](https://apis.io/) networ
   The Cloudbeds catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cloudbeds'' developer surface includes authentication, engineering blog, and 13 more developer resources.'
+  Cloudbeds'' developer surface includes authentication, engineering blog, and 14 more developer resources.'
 plans:
 - name: Cloudbeds Plans Pricing
   plan_count: 2
@@ -388,18 +392,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 34.2
-  delta: 1.7
+  composite: 33.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 49.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 25.0
     contract_quality: 62.6
     developer_ergonomics: 19.0
-    discoverability: 66.7
+    discoverability: 61.1
     governance: 25.0
     operational_transparency: 7.9
-  previous_composite: 32.5
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -413,8 +422,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

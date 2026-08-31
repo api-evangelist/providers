@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: The callable surface a deployed Kana pipeline ("skill") exposes on the Kana application host. POST /skill/{pipelineid} starts a run and returns a runid; GET /run/{runid}/status reports progress and qu
@@ -43,6 +43,10 @@ apis:
   slug: kana-mcp-server
 artifact_total: 8
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
 - group: company
   title: ''
   type: Website
@@ -143,7 +147,7 @@ network: true
 overview: 'Kana publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Artificial Intelligence, Agentic AI, and Marketing Technology.
 
 
-  Kana''s developer surface includes engineering blog, support, getting-started guide, signup flow, authentication, and 16 more developer resources.'
+  Kana''s developer surface includes engineering blog, support, getting-started guide, signup flow, authentication, and 17 more developer resources.'
 plans:
 - name: Kana Plans Pricing
   plan_count: 3
@@ -160,7 +164,12 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 29.7
+  composite: 28.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 63.2
@@ -168,15 +177,15 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 31.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 29.7
+  previous_composite: 28.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kana/refs/heads/main/screenshots/kana-2026-07-25T223445.png
 security:

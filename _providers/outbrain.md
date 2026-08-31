@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.5
-  scored_at: '2026-08-26'
+  score: 34.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 105
   slug: outbrain-agentic-access
   summary_line: 105 operations · 37 acting · 1 human-in-the-loop
-api_count: 13
+api_count: 6
 apis:
 - description: Token-based authentication
   name: Outbrain Authentication API
@@ -74,16 +74,46 @@ apis:
 - description: Audience and contextual targeting
   name: Outbrain Targeting API
   slug: outbrain-targeting-api
-- description: The complete Outbrain Amplify API surface — 77 operations across marketers, budgets, campaigns, promoted links and promoted-link sequences, audience segments, conversion events, user and invitation ma
-  name: Outbrain Amplify API
-  slug: outbrain-amplify-api
-- description: Asynchronous analytics reporting for the Teads platform. A POST triggers a report that is computed in the background; a GET polls its status and returns a download URL for the finished CSV, JSON or XL
-  name: Teads Report API
-  slug: outbrain-teads-report-api
 - description: Contextual sponsored-recommendation API for chatbot and LLM publishers, backing the Teads Conversational AI Ads SDK (public beta since 2025-11-12). Takes a partner key plus one of contentUrl / bundleU
   name: Teads In-Chat API
   slug: outbrain-teads-in-chat-api
-artifact_total: 76
+- description: Token Obtaining a token should be your 1st step toward using Amplify API. You need to include it in all further requests using the HTTP Header OB-TOKEN-V1. In order to protect your privacy, the tokens
+  name: Outbrain Authentications API
+  slug: outbrain-authentications-api
+- description: Metadata about the available currencies
+  name: Outbrain Currencies API
+  slug: outbrain-currencies-api
+- description: GeoLocations are representatives of Outbrain Geographic Locations. GeoLocations are being used for campaigns to be targeted (or excluded) by geography. The GeoLocation object has the following attribu
+  name: Outbrain Geo Locations API
+  slug: outbrain-geo-locations-api
+- description: 'IAB category Targeting gives you the abillity to select your preferred IAB categories in your campaign setup. The IAB category Targeting object has the following attributes: Property Type Semantic Exa'
+  name: Outbrain IAB category Targeting API
+  slug: outbrain-iab-category-targeting-api
+- description: Interest Targeting gives you the abillity to select your preferred interests categories in your campaign setup. Then, using our powerful interest insights and predictive technology, we’ll match you wi
+  name: Outbrain Interest Targeting API
+  slug: outbrain-interest-targeting-api
+- description: The Meta Data section represents the various values (Enumarations) that can be provided as part of the different API end-points
+  name: Outbrain Meta Data API
+  slug: outbrain-meta-data-api
+- description: 'Multiple Conversions gives the ability to track any of the actions a user takes after clicking through to your content. You can track everything from top of funnel (page landings and time on site) to '
+  name: Outbrain Multiple Conversions API
+  slug: outbrain-multiple-conversions-api
+- description: 'There are a multitude of reporting endpoints that allow you to retrieve metrics at various levels of granularity. Note: All performance reports have a 10-30 minutes delay, therefore performance metric'
+  name: Outbrain Performance Reporting API
+  slug: outbrain-performance-reporting-api
+- description: 'Sequences comes in 2 formats: - Carousel - multi-promotedLink format that features CTA buttons, brand logo, and more. You can use Carousel to tell your brand story, showcase multiple products, and bui'
+  name: Outbrain Promoted Links Sequences API
+  slug: outbrain-promotedlinkssequences-api
+- description: A Section is a specific content within the publisher's site such as sports, business etc.
+  name: Outbrain Sections API
+  slug: outbrain-sections-api
+- description: 'Segments give the ability to segment customers based on their actions, and retarget them with new or existing campaigns. This translates into your campaigns reaching a highly engaged audience that is '
+  name: Outbrain Segments API
+  slug: outbrain-segments-api
+- description: User represents a single person's access to Outbrain services and to the site my.outbrain.com. A User is permitted to one or more Marketer accounts, each marketer with a role that specifies the user p
+  name: Outbrain Users API
+  slug: outbrain-users-api
+artifact_total: 86
 collections:
 - collection_type: postman
   name: Outbrain Amplify Authentication API
@@ -558,7 +588,7 @@ modified: '2026-08-13'
 name: Outbrain
 nav: Providers
 network: true
-overview: 'Outbrain publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Budgets API, Campaigns API, and 9 more. Tagged areas include Advertising, Native Advertising, Open Web, CTV, and Connected TV.
+overview: 'Outbrain publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Budgets API, Campaigns API, and 19 more. Tagged areas include Advertising, Native Advertising, Open Web, CTV, and Connected TV.
 
 
   The Outbrain catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -598,18 +628,23 @@ rules:
   slug: outbrain-rules
 score:
   band: exemplar
-  composite: 74.6
+  composite: 72.1
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 23.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
-    contract_governance: 45.5
-    contract_quality: 68.0
+    contract_governance: 33.3
+    contract_quality: 70.5
     developer_ergonomics: 87.5
-    discoverability: 85.2
-    governance: 45.5
+    discoverability: 68.5
+    governance: 33.3
     operational_transparency: 63.2
-  previous_composite: 74.6
+  previous_composite: 72.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -620,8 +655,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/outbrain/refs/heads/main/screenshots/outbrain-2026-06-20T191227.png
 security:

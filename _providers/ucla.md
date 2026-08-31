@@ -17,7 +17,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.0
-  scored_at: '2026-08-26'
+  score: 23.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,29 +42,8 @@ agentic_access:
   operation_count: 91
   slug: ucla-agentic-access
   summary_line: 91 operations
-api_count: 12
+api_count: 7
 apis:
-- description: All classes offered in a selected UCLA term - title, description, notes, final exam details, and class sections with meeting times, locations, enrolment counts, units and instructors. Six read operati
-  name: UCLA Classes API
-  slug: sis-classes
-- description: Every approved UCLA course, current and historical - title, description, General Education and diversity attributes, requisites, and the General Education foundation and category structure courses are
-  name: UCLA Courses API
-  slug: sis-courses
-- description: 'The largest contract UCLA publishes and the one that makes the rest legible - 61 read operations enumerating every coded value the other SIS APIs return: buildings, careers, cities, colleges, class le'
-  name: UCLA Registrar Dictionary API
-  slug: sis-dictionary
-- description: One read operation returning the Registrar's mainframe batch schedule for a given run date and a forward window in weeks. The only UCLA contract that describes campus operations rather than campus dat
-  name: UCLA Production Calendar Jobs API
-  slug: sis-production-calendar-jobs
-- description: 'A single health-check operation under the Infrastructure tag, whose only purpose is to let a subscribed application confirm it can reach the student information system through the gateway. UCLA ships '
-  name: UCLA Verify Connectivity to SIS API
-  slug: sis-verify-connectivity
-- description: One read operation returning the navigation tree of MyUCLA, the student portal, so that the megamenu can be assembled by any client rather than hard-coded into one. Small, honest and genuinely institu
-  name: MyUCLA Menu Data API
-  slug: myucla-menu-data
-- description: Fourteen read operations returning live observations from UCLA's campus weather station - wind speed and gust, air temperature with daily minimum and maximum, relative humidity, dew point, wet bulb, s
-  name: UCLA Weather API
-  slug: weather
 - description: UCLA's own Shibboleth identity provider and the most complete machine-readable artifact the university publishes. Registered by InCommon under entityID urn:mace:incommon:ucla.edu, signed with RSA-SHA2
   name: UCLA Shibboleth Identity Provider (InCommon)
   slug: identity
@@ -80,8 +59,39 @@ apis:
 - description: UCLA's learning management system. The brand, the courses, the learners and the subdomain are UCLA's; the REST API, the LTI 1.3 implementation, the key rotation and the contract are Instructure's, and
   name: BruinLearn (Canvas LMS)
   slug: bruinlearn
-artifact_total: 30
+- description: The Class Sections API from University of California, Los Angeles — 2 operation(s) for class sections.
+  name: University of California, Los Angeles Class Sections API
+  slug: ucla-class-sections-api
+- description: The Classes API from University of California, Los Angeles — 4 operation(s) for classes.
+  name: University of California, Los Angeles Classes API
+  slug: ucla-classes-api
+- description: The Courses API from University of California, Los Angeles — 5 operation(s) for courses.
+  name: University of California, Los Angeles Courses API
+  slug: ucla-courses-api
+- description: The Dictionary API from University of California, Los Angeles — 61 operation(s) for dictionary.
+  name: University of California, Los Angeles Dictionary API
+  slug: ucla-dictionary-api
+- description: The GE Foundations API from University of California, Los Angeles — 2 operation(s) for ge foundations.
+  name: University of California, Los Angeles GE Foundations API
+  slug: ucla-ge-foundations-api
+- description: The Infrastructure API from University of California, Los Angeles — 1 operation(s) for infrastructure.
+  name: University of California, Los Angeles Infrastructure API
+  slug: ucla-infrastructure-api
+- description: The MyUCLA API from University of California, Los Angeles — 1 operation(s) for myucla.
+  name: University of California, Los Angeles My UCLA API
+  slug: ucla-myucla-api
+- description: The Production Calendar Jobs API from University of California, Los Angeles — 1 operation(s) for production calendar jobs.
+  name: University of California, Los Angeles Production Calendar Jobs API
+  slug: ucla-production-calendar-jobs-api
+- description: The Weather API from University of California, Los Angeles — 14 operation(s) for weather.
+  name: University of California, Los Angeles Weather API
+  slug: ucla-weather-api
+artifact_total: 32
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ucla-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -359,13 +369,13 @@ modified: '2026-08-19'
 name: University of California, Los Angeles
 nav: Providers
 network: true
-overview: 'University of California, Los Angeles publishes 7 APIs on the [APIs.io](https://apis.io/) network, including UCLA Classes API, UCLA Courses API, UCLA Registrar Dictionary API, and 4 more. Tagged areas include University, Higher Education, Education, United States, and California.
+overview: 'University of California, Los Angeles publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Class Sections API, Classes API, Courses API, and 6 more. Tagged areas include University, Higher Education, Education, United States, and California.
 
 
   The University of California, Los Angeles catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  University of California, Los Angeles'' developer surface includes API reference, documentation, support, GitHub presence, engineering blog, code examples, authentication, and 30 more developer resources.'
+  University of California, Los Angeles'' developer surface includes API reference, documentation, support, GitHub presence, engineering blog, code examples, authentication, and 31 more developer resources.'
 plans:
 - name: Ucla Plans Pricing
   plan_count: 2
@@ -393,18 +403,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.4
-  delta: 2.7
+  composite: 53.4
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 3.8
-    contract_quality: 56.7
+    contract_quality: 60.7
     developer_ergonomics: 45.2
     discoverability: 74.1
     governance: 3.8
     operational_transparency: 23.7
-  previous_composite: 49.7
+  previous_composite: 53.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -419,8 +434,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/screenshots/ucla-2026-06-20T195941.png
 security:

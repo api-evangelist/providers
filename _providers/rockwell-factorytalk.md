@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: rockwell-factorytalk-agentic-access
   summary_line: 10 operations · 3 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Rockwell FactoryTalk Hub provides cloud-based industrial API services for connecting FactoryTalk software applications, enabling centralized identity management, software licensing, and connected fact
   name: Rockwell FactoryTalk Hub API
@@ -187,16 +187,16 @@ jsonld:
   slug: rockwell-factorytalk-context
 layout: provider
 modified: '2026-05-19'
-name: rockwell-factorytalk
+name: Rockwell FactoryTalk
 nav: Providers
 network: true
-overview: 'rockwell-factorytalk publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Rockwell FactoryTalk Hub API, Alarms API, Recipes API, and 2 more.
+overview: 'Rockwell FactoryTalk publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Hub API, rockwell-factorytalk Alarms API, rockwell-factorytalk Recipes API, and 2 more.
 
 
-  The rockwell-factorytalk catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+  The Rockwell FactoryTalk catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  rockwell-factorytalk''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 13 more developer resources.'
+  Rockwell FactoryTalk''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 13 more developer resources.'
 plans:
 - name: Rockwell Factorytalk Plans Pricing
   plan_count: 1
@@ -210,7 +210,7 @@ rules:
 - effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: rockwell-factorytalk API Rules
+  name: Rockwell FactoryTalk API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -220,7 +220,7 @@ rules:
   slug: rockwell-factorytalk-asyncapi-spectral-rules
 - effective_rule_count: 5
   extends: []
-  name: rockwell-factorytalk API Rules
+  name: Rockwell FactoryTalk API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -231,7 +231,7 @@ rules:
 - effective_rule_count: 51
   extends:
   - spectral:oas
-  name: rockwell-factorytalk API Rules
+  name: Rockwell FactoryTalk API Rules
   rule_count: 10
   severity_counts:
     error: 3
@@ -246,15 +246,20 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 41.4
-  delta: 1.5
+  composite: 40.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 28.8
     contract_quality: 65.1
     developer_ergonomics: 45.2
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 10.5
   needs_work:
@@ -263,7 +268,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 39.9
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -275,8 +280,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/screenshots/rockwell-factorytalk-2026-06-20T193201.png
 security:

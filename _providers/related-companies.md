@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 18
 common:
@@ -104,7 +104,7 @@ modified: '2026-05-23'
 name: Related Companies
 nav: Providers
 network: true
-overview: 'Related Companies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Real Estate Development, Residential, Affordable Housing, and Mixed-Use Development.
+overview: 'Related Companies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Estate, Real Estate Development, Residential, Affordable Housing, and Mixed Use Development.
 
 
   Related Companies'' developer surface includes engineering blog, product news, and 6 more developer resources.'
@@ -112,6 +112,11 @@ random_paper: 19
 score:
   band: minimal
   composite: 5.5
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -123,8 +128,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/related-companies/refs/heads/main/screenshots/related-companies-2026-06-20T192815.png
 security:
@@ -138,7 +143,7 @@ tags:
 - Real Estate Development
 - Residential
 - Affordable Housing
-- Mixed-Use Development
+- Mixed Use Development
 - Commercial Real Estate
 - Retail
 - Hospitality

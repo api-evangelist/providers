@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: The SST framework is an open source CLI and component library distributed via npm (`sst`) and as a Go-based CLI. Developers describe their full-stack application in a single `sst.config.ts` file using
@@ -43,6 +43,10 @@ apis:
   slug: sst-console
 artifact_total: 21
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/sst/console/issues
 - group: auth
   title: ''
   type: DomainSecurity
@@ -145,12 +149,17 @@ network: true
 overview: 'SST publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Serverless, Infrastructure as Code, Cloudflare, TypeScript, and Full-Stack.
 
 
-  SST''s developer surface includes documentation, engineering blog, YouTube channel, tutorials, code examples, and 13 more developer resources.'
+  SST''s developer surface includes documentation, engineering blog, YouTube channel, tutorials, code examples, and 14 more developer resources.'
 random_paper: 17
 score:
   band: emerging
-  composite: 25.2
-  delta: 13.9
+  composite: 22.7
+  coverage:
+    artifact_dirs: 2
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -160,10 +169,13 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 11.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 22.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: domain-security
   name: Sst Dev Domain Security

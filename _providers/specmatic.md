@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Specmatic provides contract testing, intelligent service virtualization, and API mocking by transforming API specifications into executable contracts. It supports backward compatibility checking, API '
@@ -87,7 +87,7 @@ common:
   url: https://github.com/specmatic/specmatic-python-extensions
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/specmatic/specmatic-order-contracts
 - group: build
   title: ''
@@ -144,7 +144,7 @@ overview: 'Specmatic publishes 1 API on the [APIs.io](https://apis.io/) network.
   The Specmatic catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Specmatic''s developer surface includes documentation, pricing, engineering blog, GitHub presence, and 11 more developer resources.'
+  Specmatic''s developer surface includes documentation, pricing, engineering blog, GitHub presence, code examples, and 10 more developer resources.'
 plans:
 - name: Specmatic Plans Pricing
   plan_count: 3
@@ -168,7 +168,12 @@ rules:
 score:
   band: thin
   composite: 28.0
-  delta: 1.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 46.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -178,9 +183,9 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 26.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 28.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/specmatic/refs/heads/main/screenshots/specmatic-2026-06-20T194301.png
 security:

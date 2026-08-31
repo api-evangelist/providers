@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,16 +41,46 @@ agentic_access:
   operation_count: 12
   slug: powerreviews-agentic-access
   summary_line: 12 operations · 4 acting
-api_count: 2
+api_count: 4
 apis:
-- description: The PowerReviews Read API returns reviews, questions, answers, product review snippets, and merchant display configuration left on a merchant's products by their customers. It is used to render user-g
-  name: PowerReviews Read API
-  slug: powerreviews-api
-- description: The PowerReviews Write API (the B2B WriteServices surface) provides server-to-server integration endpoints for the PowerReviews Write-a-Review form. It retrieves the locale-aware review template for a
-  name: PowerReviews Write API
-  slug: powerreviews-write-api
-artifact_total: 9
+- description: Endpoint for submitting answers.
+  name: PowerReviews B2B Answer API
+  slug: powerreviews-b2b-answer-api
+- description: Endpoint for submitting merchant responses.
+  name: PowerReviews B2B MerchantResponse API
+  slug: powerreviews-b2b-merchantresponse-api
+- description: Endpoint for submitting questions
+  name: PowerReviews B2B Question API
+  slug: powerreviews-b2b-question-api
+- description: Endpoints designed to provide external integration to PowerReviews WAR
+  name: PowerReviews B2B Write a Review API
+  slug: powerreviews-b2b-write-a-review-api
+- description: Endpoints for merchant configuration
+  name: PowerReviews Configuration API
+  slug: powerreviews-configuration-api
+- description: Endpoints for product questions and answers by merchant
+  name: PowerReviews Q&A API
+  slug: powerreviews-q-a-api
+- description: Endpoints for product reviews by merchant
+  name: PowerReviews Reviews API
+  slug: powerreviews-reviews-api
+- description: Endpoints for product snippets by merchant
+  name: PowerReviews Snippets API
+  slug: powerreviews-snippets-api
+artifact_total: 15
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/powerreviews-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/powerreviews-readservices-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/powerreviews-writeservices-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -199,10 +229,10 @@ modified: '2026-08-13'
 name: PowerReviews
 nav: Providers
 network: true
-overview: 'PowerReviews publishes 2 APIs on the [APIs.io](https://apis.io/) network: Read API and Write API. Tagged areas include E-Commerce, Ratings and Reviews, User Generated Content, Retail, and Marketing.
+overview: 'PowerReviews publishes 8 APIs on the [APIs.io](https://apis.io/) network, including B2B Answer API, B2B MerchantResponse API, B2B Question API, and 5 more. Tagged areas include E-Commerce, Ratings and Reviews, User Generated Content, Retail, and Marketing.
 
 
-  PowerReviews'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 26 more developer resources.'
+  PowerReviews'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 29 more developer resources.'
 plans:
 - name: Powerreviews Plans Pricing
   plan_count: 0
@@ -214,18 +244,23 @@ rate_limits:
   slug: powerreviews-rate-limits
 score:
   band: developing
-  composite: 48.1
+  composite: 47.9
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 16.7
-    contract_quality: 43.5
+    contract_governance: 4.5
+    contract_quality: 43.0
     developer_ergonomics: 58.9
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 63.2
-  previous_composite: 48.1
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -236,8 +271,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/screenshots/powerreviews-2026-06-20T192030.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 21
   slug: neo4j-agentic-access
   summary_line: 21 operations · 14 acting
-api_count: 12
+api_count: 2
 apis:
 - description: The Neo4j Query API enables the execution of Cypher statements against a Neo4j server through HTTP requests. It provides a streamlined interface for running graph database queries, supporting both sel
   name: Neo4j Query API
@@ -266,18 +266,23 @@ rules:
   slug: neo4j-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.1
-  delta: 0.0
+  composite: 45.4
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 65.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
     contract_governance: 9.8
-    contract_quality: 64.4
+    contract_quality: 63.6
     developer_ergonomics: 50.0
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 46.1
+  previous_composite: 45.9
   provenance:
     agentic_access: derived
     contracts:
@@ -285,8 +290,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/screenshots/neo4j-2026-08-17T124223.png
 security:

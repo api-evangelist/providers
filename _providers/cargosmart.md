@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: cargosmart-agentic-access
   summary_line: 8 operations · 1 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Container booking management
   name: CargoSmart Bookings API
@@ -87,6 +87,10 @@ collections:
   name: CargoSmart Shipment Tracking Bookings Vessels API
   slug: open-cargosmart-vessels-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cargosmart-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -153,7 +157,6 @@ finops:
 - name: Cargosmart Finops
   service_category: Shipment Management Platform
   slug: cargosmart-finops
-image: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/image.png
 json_schemas:
 - name: CargoSmart Container Booking
   property_count: 14
@@ -177,7 +180,7 @@ overview: 'CargoSmart publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   The CargoSmart catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  CargoSmart''s developer surface includes authentication, developer portal, documentation, and 12 more developer resources.'
+  CargoSmart''s developer surface includes authentication, developer portal, documentation, and 13 more developer resources.'
 plans:
 - name: Cargosmart Plans Pricing
   plan_count: 1
@@ -216,15 +219,20 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 34.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.9
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 13.6
     contract_quality: 69.0
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 64.8
     governance: 13.6
     operational_transparency: 5.3
   previous_composite: 35.8
@@ -235,8 +243,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/screenshots/cargosmart-2026-06-20T174010.png
 security:

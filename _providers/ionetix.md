@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 9
 apis:
 - description: News releases, careers postings, conference listings, case studies, presentations and publications published on ionetix.com, served as JSON by the WordPress REST wp/v2 namespace. 66 posts across 10 ca
@@ -181,18 +181,23 @@ rate_limits:
   slug: ionetix-rate-limits
 score:
   band: emerging
-  composite: 22.1
+  composite: 20.6
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 21.1
     developer_ergonomics: 20.8
     discoverability: 74.1
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 22.1
+  previous_composite: 20.6
   provenance:
     conformance: derived
     contracts:
@@ -208,8 +213,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

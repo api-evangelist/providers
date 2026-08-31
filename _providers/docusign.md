@@ -17,7 +17,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: documented
     dry_run_mode: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.1
-  scored_at: '2026-08-26'
+  score: 35.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 275
   human_in_the_loop: 7
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 505
   slug: docusign-agentic-access
   summary_line: 505 operations · 275 acting · 7 human-in-the-loop
-api_count: 134
+api_count: 7
 apis:
 - description: The Docusign Web Forms API facilitates generating semantic HTML forms around everyday contracts. It enables developers to embed and prefill forms from the systems they control, creating web form confi
   name: Docusign Web Forms API
@@ -907,6 +907,10 @@ collections:
   name: DocuSign Admin AccountBrands Workspaces API
   slug: open-docusign-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/docusign-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1588,7 +1592,7 @@ overview: 'Docusign publishes 129 APIs on the [APIs.io](https://apis.io/) networ
   The Docusign catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Docusign''s developer surface includes authentication, developer portal, support, Stack Overflow tag, FAQ, YouTube channel, changelog, and 43 more developer resources.'
+  Docusign''s developer surface includes authentication, developer portal, support, Stack Overflow tag, FAQ, YouTube channel, changelog, and 44 more developer resources.'
 plans:
 - name: Docusign Plans Pricing
   plan_count: 4
@@ -1638,18 +1642,23 @@ scopes:
   summary_line: 13 scopes · authorizationCode/implicit
 score:
   band: strong
-  composite: 62.0
-  delta: 3.8
+  composite: 61.8
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 13.6
-    contract_quality: 77.9
+    contract_quality: 76.9
     developer_ergonomics: 78.6
     discoverability: 59.3
     governance: 13.6
     operational_transparency: 55.3
-  previous_composite: 58.2
+  previous_composite: 61.8
   provenance:
     agentic_access: derived
     contracts:
@@ -1657,8 +1666,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 128
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/screenshots/docusign-2026-06-20T180123.png
 security:
@@ -1677,6 +1686,6 @@ tags:
 - Digital Transaction Management
 - Documents
 - Electronic Signatures
-- E-Signature
+- eSignature
 website: https://developers.docusign.com/
 ---

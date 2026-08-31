@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 59
   slug: paradox-agentic-access
   summary_line: 59 operations · 34 acting
-api_count: 11
+api_count: 1
 apis:
 - description: OAuth 2.0 token and JWT verification endpoints
   name: Paradox Authentication API
@@ -152,6 +152,10 @@ collections:
   name: Paradox Authentication Users API
   slug: open-paradox-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/paradox-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -338,13 +342,13 @@ modified: '2026-05-19'
 name: Paradox
 nav: Providers
 network: true
-overview: 'Paradox publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Candidate Attributes API, Candidates API, and 8 more. Tagged areas include Artificial Intelligence, Candidate Screening, Chatbots, Conversational AI, and Hiring Automation.
+overview: 'Paradox publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Candidate Attributes API, Candidates API, and 8 more. Tagged areas include Artificial Intelligence, Candidate Screening, Chatbot, Conversational AI, and Hiring Automation.
 
 
   The Paradox catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Paradox''s developer surface includes authentication, developer portal, documentation, changelog, FAQ, engineering blog, and 17 more developer resources.'
+  Paradox''s developer surface includes authentication, developer portal, documentation, changelog, FAQ, engineering blog, and 18 more developer resources.'
 plans:
 - name: Paradox Plans Pricing
   plan_count: 1
@@ -372,18 +376,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.7
-  delta: 1.4
+  composite: 49.2
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 56.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 9.8
     contract_quality: 65.1
     developer_ergonomics: 34.5
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 48.3
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     contracts:
@@ -397,8 +406,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 58.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paradox/refs/heads/main/screenshots/paradox-2026-06-20T191353.png
 security:
@@ -414,7 +423,7 @@ slug: paradox
 tags:
 - Artificial Intelligence
 - Candidate Screening
-- Chatbots
+- Chatbot
 - Conversational AI
 - Hiring Automation
 - HR Technology

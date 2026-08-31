@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: 'Bearer-authenticated REST API for crypto payments: cheques, transfers, invoices, withdrawals, mass transfers, app-info, currencies and rates. Endpoints served under /api/v1/.'
@@ -43,11 +43,17 @@ modified: '2026-08-25'
 name: xRocket Exchange API
 nav: Providers
 network: true
-overview: 'xRocket Exchange API publishes 2 APIs on the [APIs.io](https://apis.io/) network: xRocket Exchange API and xRocket Pay API. Tagged areas include Cryptocurrency, Payments, Crypto payment gateway, Telegram bots, and Digital wallet.'
+overview: 'xRocket Exchange API publishes 2 APIs on the [APIs.io](https://apis.io/) network: xRocket Exchange API and xRocket Pay API. Tagged areas include Cryptocurrency, Payments, Crypto payment gateway, Telegram bots, and Digital Wallet.'
 random_paper: 11
 score:
   band: minimal
   composite: 10.2
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -57,37 +63,38 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 10.2
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 slug: xrocket-pay-api
 tags:
 - Cryptocurrency
 - Payments
 - Crypto payment gateway
 - Telegram bots
-- Digital wallet
+- Digital Wallet
 - Fintech
 - Blockchain
 - TON
-- Cryptocurrency exchange
+- Cryptocurrency Exchange
 - CEX
-- crypto payments
-- trading
-- market data
-- wallet
+- Crypto Payments
+- Trading
+- Market Data
+- Wallets
 - Web3
-- blockchain
 - Ethereum
 - Bitcoin
 - Solana
 - BNB Chain
-- TRON
+- Tron
 - Telegram-native
 - bot platform
 - P2P trading

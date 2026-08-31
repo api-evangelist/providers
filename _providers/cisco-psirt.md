@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 30
   slug: cisco-psirt-agentic-access
   summary_line: 30 operations
-api_count: 3
+api_count: 1
 apis:
 - description: Current supported API endpoints.
   name: Cisco PSIRT openVuln API Current Endpoints API
@@ -44,6 +44,10 @@ apis:
   slug: cisco-psirt-sunset-endpoints-api
 artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cisco-psirt-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -215,7 +219,7 @@ network: true
 overview: 'Cisco PSIRT openVuln API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Current Endpoints API, Obsolete Endpoints API, and Sunset Endpoints API. Tagged areas include Security, Vulnerability Management, Threat Intelligence, Disclosure, and Compliance.
 
 
-  Cisco PSIRT openVuln API''s developer surface includes authentication, developer portal, documentation, API reference, CLI, getting-started guide, FAQ, and 33 more developer resources.'
+  Cisco PSIRT openVuln API''s developer surface includes authentication, developer portal, documentation, API reference, CLI, getting-started guide, FAQ, and 34 more developer resources.'
 plans:
 - name: Cisco Psirt Plans Pricing
   plan_count: 0
@@ -231,19 +235,24 @@ scopes:
   slug: cisco-psirt-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: strong
-  composite: 56.4
-  delta: 0.0
+  band: developing
+  composite: 53.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 48.3
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 56.4
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -254,8 +263,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

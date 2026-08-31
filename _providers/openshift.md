@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 42
   slug: openshift-agentic-access
   summary_line: 42 operations · 22 acting
-api_count: 31
+api_count: 1
 apis:
 - description: OAuth authentication and authorization API for OpenShift.
   name: OpenShift OAuth API
@@ -182,6 +182,10 @@ collections:
   name: openshift-rest-api BuildConfigs Routes API
   slug: open-openshift-routes-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/openshift-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -929,7 +933,7 @@ overview: 'OpenShift publishes 7 APIs on the [APIs.io](https://apis.io/) network
   The OpenShift catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  OpenShift''s developer surface includes authentication, getting-started guide, engineering blog, changelog, and 8 more developer resources.'
+  OpenShift''s developer surface includes authentication, getting-started guide, engineering blog, changelog, and 9 more developer resources.'
 plans:
 - name: Openshift Plans Pricing
   plan_count: 8
@@ -963,18 +967,23 @@ rules:
   slug: openshift-spectral-rules
 score:
   band: developing
-  composite: 45.7
-  delta: 5.5
+  composite: 45.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 13.6
     contract_quality: 64.6
     developer_ergonomics: 31.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 40.2
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     contracts:
@@ -982,9 +991,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openshift/refs/heads/main/screenshots/openshift-2026-06-20T191034.png
 security:
 - kind: authentication
@@ -1003,7 +1012,7 @@ tags:
 - DevOps
 - Enterprise
 - Kubernetes
-- Platform-as-a-Service
+- PaaS
 use_cases:
 - description: Migrate monolithic applications to containerized microservices on Kubernetes.
   name: Application Modernization

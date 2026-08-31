@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 22
   slug: azure-container-apps-agentic-access
   summary_line: 22 operations · 12 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Manage container app authentication
   name: Azure Container Apps Authentication API
@@ -503,18 +503,26 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 58.1
-  delta: 1.4
+  composite: 60.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.1
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 28.8
     contract_quality: 69.5
     developer_ergonomics: 59.5
-    discoverability: 64.8
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 56.7
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     contracts:
@@ -522,8 +530,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-container-apps/refs/heads/main/screenshots/azure-container-apps-2026-06-20T172841.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 204
   human_in_the_loop: 24
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 378
   slug: grafana-agentic-access
   summary_line: 378 operations · 204 acting · 24 human-in-the-loop
-api_count: 138
+api_count: 2
 apis:
 - description: The Access API from Grafana — 2 operation(s) for access.
   name: Grafana Access API
@@ -93,9 +93,6 @@ apis:
 - description: The Checks API from Grafana — 2 operation(s) for checks.
   name: Grafana Checks API
   slug: grafana-checks-api
-- description: The Clean API from Grafana — 1 operation(s) for clean.
-  name: Grafana Clean API
-  slug: grafana-clean-api
 - description: The Clear API from Grafana — 1 operation(s) for clear.
   name: Grafana Clear API
   slug: grafana-clear-api
@@ -108,9 +105,6 @@ apis:
 - description: The Connections API from Grafana — 1 operation(s) for connections.
   name: Grafana Connections API
   slug: grafana-connections-api
-- description: The Control API from Grafana — 2 operation(s) for control.
-  name: Grafana Control API
-  slug: grafana-control-api
 - description: The Convert API from Grafana — 6 operation(s) for convert.
   name: Grafana Convert API
   slug: grafana-convert-api
@@ -147,18 +141,12 @@ apis:
 - description: The Dependencies API from Grafana — 1 operation(s) for dependencies.
   name: Grafana Dependencies API
   slug: grafana-dependencies-api
-- description: The Descendants API from Grafana — 1 operation(s) for descendants.
-  name: Grafana Descendants API
-  slug: grafana-descendants-api
 - description: The Description API from Grafana — 1 operation(s) for description.
   name: Grafana Description API
   slug: grafana-description-api
 - description: The Devices API from Grafana — 2 operation(s) for devices.
   name: Grafana Devices API
   slug: grafana-devices-api
-- description: The Disables API from Grafana — 2 operation(s) for disables.
-  name: Grafana Disables API
-  slug: grafana-disables-api
 - description: The Element API from Grafana — 4 operation(s) for element.
   name: Grafana Element API
   slug: grafana-element-api
@@ -168,21 +156,12 @@ apis:
 - description: The Email API from Grafana — 3 operation(s) for email.
   name: Grafana Email API
   slug: grafana-email-api
-- description: The Emails API from Grafana — 3 operation(s) for emails.
-  name: Grafana Emails API
-  slug: grafana-emails-api
-- description: The Enables API from Grafana — 2 operation(s) for enables.
-  name: Grafana Enables API
-  slug: grafana-enables-api
 - description: The Exports API from Grafana — 7 operation(s) for exports.
   name: Grafana Exports API
   slug: grafana-exports-api
 - description: The Flag API from Grafana — 1 operation(s) for flag.
   name: Grafana Flag API
   slug: grafana-flag-api
-- description: The Flags API from Grafana — 1 operation(s) for flags.
-  name: Grafana Flags API
-  slug: grafana-flags-api
 - description: Dashboard folder management
   name: Grafana Folders API
   slug: grafana-folders-api
@@ -192,105 +171,42 @@ apis:
 - description: The Groups API from Grafana — 13 operation(s) for groups.
   name: Grafana Groups API
   slug: grafana-groups-api
-- description: The Health API from Grafana — 3 operation(s) for health.
-  name: Grafana Health API
-  slug: grafana-health-api
-- description: The Help API from Grafana — 2 operation(s) for help.
-  name: Grafana Help API
-  slug: grafana-help-api
-- description: The Home API from Grafana — 1 operation(s) for home.
-  name: Grafana Home API
-  slug: grafana-home-api
-- description: The Identifiers API from Grafana — 12 operation(s) for identifiers.
-  name: Grafana Identifiers API
-  slug: grafana-identifiers-api
-- description: The Image API from Grafana — 1 operation(s) for image.
-  name: Grafana Image API
-  slug: grafana-image-api
-- description: The Import API from Grafana — 1 operation(s) for import.
-  name: Grafana Import API
-  slug: grafana-import-api
-- description: The Interpolate API from Grafana — 1 operation(s) for interpolate.
-  name: Grafana Interpolate API
-  slug: grafana-interpolate-api
 - description: The Invites API from Grafana — 2 operation(s) for invites.
   name: Grafana Invites API
   slug: grafana-invites-api
-- description: The Items API from Grafana — 1 operation(s) for items.
-  name: Grafana Items API
-  slug: grafana-items-api
-- description: The Keys API from Grafana — 1 operation(s) for keys.
-  name: Grafana Keys API
-  slug: grafana-keys-api
 - description: The Ldap API from Grafana — 4 operation(s) for ldap.
   name: Grafana Ldap API
   slug: grafana-ldap-api
-- description: The Libraries API from Grafana — 4 operation(s) for libraries.
-  name: Grafana Libraries API
-  slug: grafana-libraries-api
 - description: The Licenses API from Grafana — 3 operation(s) for licenses.
   name: Grafana Licenses API
   slug: grafana-licenses-api
 - description: The Lists API from Grafana — 19 operation(s) for lists.
   name: Grafana Lists API
   slug: grafana-lists-api
-- description: The Login API from Grafana — 1 operation(s) for login.
-  name: Grafana Login API
-  slug: grafana-login-api
-- description: The Mapped API from Grafana — 1 operation(s) for mapped.
-  name: Grafana Mapped API
-  slug: grafana-mapped-api
-- description: The Mass API from Grafana — 1 operation(s) for mass.
-  name: Grafana Mass API
-  slug: grafana-mass-api
 - description: The Member API from Grafana — 2 operation(s) for member.
   name: Grafana Member API
   slug: grafana-member-api
-- description: The Members API from Grafana — 1 operation(s) for members.
-  name: Grafana Members API
-  slug: grafana-members-api
 - description: The Memberships API from Grafana — 1 operation(s) for memberships.
   name: Grafana Memberships API
   slug: grafana-memberships-api
 - description: The Metrics API from Grafana — 1 operation(s) for metrics.
   name: Grafana Metrics API
   slug: grafana-metrics-api
-- description: The Migrations API from Grafana — 2 operation(s) for migrations.
-  name: Grafana Migrations API
-  slug: grafana-migrations-api
-- description: The Move API from Grafana — 1 operation(s) for move.
-  name: Grafana Move API
-  slug: grafana-move-api
 - description: The Mute API from Grafana — 4 operation(s) for mute.
   name: Grafana Mute API
   slug: grafana-mute-api
-- description: The Names API from Grafana — 4 operation(s) for names.
-  name: Grafana Names API
-  slug: grafana-names-api
-- description: The Options API from Grafana — 2 operation(s) for options.
-  name: Grafana Options API
-  slug: grafana-options-api
 - description: Organization management
   name: Grafana Organizations API
   slug: grafana-organizations-api
-- description: The Password API from Grafana — 2 operation(s) for password.
-  name: Grafana Password API
-  slug: grafana-password-api
 - description: The Patch API from Grafana — 4 operation(s) for patch.
   name: Grafana Patch API
   slug: grafana-patch-api
-- description: The Pending API from Grafana — 1 operation(s) for pending.
-  name: Grafana Pending API
-  slug: grafana-pending-api
 - description: Permissions with `folderId=-1` are the default permissions for users with the Viewer and Editor roles. Permissions can be set for a user, a team or a role (Viewer or Editor). Permissions cannot be set
   name: Grafana Permissions API
   slug: grafana-permissions-api
 - description: The Playlists API from Grafana — 1 operation(s) for playlists.
   name: Grafana Playlists API
   slug: grafana-playlists-api
-- description: The Plugins API from Grafana — 1 operation(s) for plugins.
-  name: Grafana Plugins API
-  slug: grafana-plugins-api
 - description: The Policies API from Grafana — 2 operation(s) for policies.
   name: Grafana Policies API
   slug: grafana-policies-api
@@ -303,18 +219,6 @@ apis:
 - description: The Provider API from Grafana — 1 operation(s) for provider.
   name: Grafana Provider API
   slug: grafana-provider-api
-- description: The Providers API from Grafana — 1 operation(s) for providers.
-  name: Grafana Providers API
-  slug: grafana-providers-api
-- description: The Provisioning API from Grafana — 4 operation(s) for provisioning.
-  name: Grafana Provisioning API
-  slug: grafana-provisioning-api
-- description: The Proxies API from Grafana — 2 operation(s) for proxies.
-  name: Grafana Proxies API
-  slug: grafana-proxies-api
-- description: The Public API from Grafana — 6 operation(s) for public.
-  name: Grafana Public API
-  slug: grafana-public-api
 - description: The Put API from Grafana — 6 operation(s) for put.
   name: Grafana Put API
   slug: grafana-put-api
@@ -327,33 +231,15 @@ apis:
 - description: The Recording API from Grafana — 4 operation(s) for recording.
   name: Grafana Recording API
   slug: grafana-recording-api
-- description: The Refresh API from Grafana — 1 operation(s) for refresh.
-  name: Grafana Refresh API
-  slug: grafana-refresh-api
-- description: The Reload API from Grafana — 5 operation(s) for reload.
-  name: Grafana Reload API
-  slug: grafana-reload-api
 - description: The Remove API from Grafana — 7 operation(s) for remove.
   name: Grafana Remove API
   slug: grafana-remove-api
 - description: The Render API from Grafana — 2 operation(s) for render.
   name: Grafana Render API
   slug: grafana-render-api
-- description: The Renew API from Grafana — 1 operation(s) for renew.
-  name: Grafana Renew API
-  slug: grafana-renew-api
 - description: This API allows you to interact programmatically with the Reporting feature. Reporting is only available in Grafana Enterprise. Read more about Grafana Enterprise. If you have Fine-grained access Cont
   name: Grafana Reports API
   slug: grafana-reports-api
-- description: The Reset API from Grafana — 1 operation(s) for reset.
-  name: Grafana Reset API
-  slug: grafana-reset-api
-- description: The Resource API from Grafana — 8 operation(s) for resource.
-  name: Grafana Resource API
-  slug: grafana-resource-api
-- description: The Restore API from Grafana — 1 operation(s) for restore.
-  name: Grafana Restore API
-  slug: grafana-restore-api
 - description: The Result API from Grafana — 1 operation(s) for result.
   name: Grafana Result API
   slug: grafana-result-api
@@ -369,78 +255,21 @@ apis:
 - description: The Roles API from Grafana — 6 operation(s) for roles.
   name: Grafana Roles API
   slug: grafana-roles-api
-- description: The Routes API from Grafana — 23 operation(s) for routes.
-  name: Grafana Routes API
-  slug: grafana-routes-api
 - description: The Rules API from Grafana — 17 operation(s) for rules.
   name: Grafana Rules API
   slug: grafana-rules-api
-- description: The Save API from Grafana — 1 operation(s) for save.
-  name: Grafana Save API
-  slug: grafana-save-api
 - description: The Search API from Grafana — 13 operation(s) for search.
   name: Grafana Search API
   slug: grafana-search-api
-- description: The Send API from Grafana — 2 operation(s) for send.
-  name: Grafana Send API
-  slug: grafana-send-api
-- description: The Sessions API from Grafana — 2 operation(s) for sessions.
-  name: Grafana Sessions API
-  slug: grafana-sessions-api
 - description: The Sets API from Grafana — 11 operation(s) for sets.
   name: Grafana Sets API
   slug: grafana-sets-api
-- description: The Settings API from Grafana — 5 operation(s) for settings.
-  name: Grafana Settings API
-  slug: grafana-settings-api
-- description: The Sharing API from Grafana — 1 operation(s) for sharing.
-  name: Grafana Sharing API
-  slug: grafana-sharing-api
 - description: The Signed API from Grafana — 3 operation(s) for signed.
   name: Grafana Signed API
   slug: grafana-signed-api
-- description: The Snapshots API from Grafana — 1 operation(s) for snapshots.
-  name: Grafana Snapshots API
-  slug: grafana-snapshots-api
-- description: The Sort API from Grafana — 1 operation(s) for sort.
-  name: Grafana Sort API
-  slug: grafana-sort-api
-- description: The Sources API from Grafana — 10 operation(s) for sources.
-  name: Grafana Sources API
-  slug: grafana-sources-api
-- description: The Star API from Grafana — 2 operation(s) for star.
-  name: Grafana Star API
-  slug: grafana-star-api
-- description: The Status API from Grafana — 4 operation(s) for status.
-  name: Grafana Status API
-  slug: grafana-status-api
-- description: The Sync API from Grafana — 2 operation(s) for sync.
-  name: Grafana Sync API
-  slug: grafana-sync-api
-- description: The Target API from Grafana — 1 operation(s) for target.
-  name: Grafana Target API
-  slug: grafana-target-api
 - description: Team management
   name: Grafana Teams API
   slug: grafana-teams-api
-- description: The Templates API from Grafana — 2 operation(s) for templates.
-  name: Grafana Templates API
-  slug: grafana-templates-api
-- description: The Tests API from Grafana — 2 operation(s) for tests.
-  name: Grafana Tests API
-  slug: grafana-tests-api
-- description: The Timing API from Grafana — 3 operation(s) for timing.
-  name: Grafana Timing API
-  slug: grafana-timing-api
-- description: The Tokens API from Grafana — 10 operation(s) for tokens.
-  name: Grafana Tokens API
-  slug: grafana-tokens-api
-- description: The Trees API from Grafana — 2 operation(s) for trees.
-  name: Grafana Trees API
-  slug: grafana-trees-api
-- description: The Unstar API from Grafana — 2 operation(s) for unstar.
-  name: Grafana Unstar API
-  slug: grafana-unstar-api
 - description: The Update API from Grafana — 36 operation(s) for update.
   name: Grafana Update API
   slug: grafana-update-api
@@ -450,15 +279,6 @@ apis:
 - description: User management
   name: Grafana Users API
   slug: grafana-users-api
-- description: The Versions API from Grafana — 5 operation(s) for versions.
-  name: Grafana Versions API
-  slug: grafana-versions-api
-- description: The View API from Grafana — 1 operation(s) for view.
-  name: Grafana View API
-  slug: grafana-view-api
-- description: The Write API from Grafana — 1 operation(s) for write.
-  name: Grafana Write API
-  slug: grafana-write-api
 arazzos:
 - description: Inspect a dashboard's version history, review a target version, and restore it.
   name: Grafana Roll a Dashboard Back to a Previous Version
@@ -499,7 +319,7 @@ arazzos:
 - description: Create a custom role with explicit permissions, resolve a team by name, and assign the role to it.
   name: Grafana Assign a Custom RBAC Role to a Team
   slug: grafana-team-rbac-role-workflow
-artifact_total: 445
+artifact_total: 385
 collections:
 - collection_type: postman
   name: Grafana HTTP Access API
@@ -1339,6 +1159,10 @@ collections:
   name: Grafana
   slug: open-grafana
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/grafana-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1558,13 +1382,13 @@ modified: '2026-06-20'
 name: Grafana
 nav: Providers
 network: true
-overview: 'Grafana publishes 138 APIs on the [APIs.io](https://apis.io/) network, including Access API, Account API, Accounts API, and 135 more. Tagged areas include Alerting, Analytics, Dashboards, Logs, and Metrics.
+overview: 'Grafana publishes 78 APIs on the [APIs.io](https://apis.io/) network, including Access API, Account API, Accounts API, and 75 more. Tagged areas include Alerting, Analytics, Dashboards, Logs, and Metrics.
 
 
   The Grafana catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Grafana''s developer surface includes changelog, CLI, authentication, developer portal, getting-started guide, documentation, pricing, and 39 more developer resources.'
+  Grafana''s developer surface includes changelog, CLI, authentication, developer portal, getting-started guide, documentation, pricing, and 40 more developer resources.'
 plans:
 - name: Grafana Plans Pricing
   plan_count: 3
@@ -1587,18 +1411,23 @@ rules:
   slug: grafana-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.6
-  delta: 1.8
+  composite: 55.6
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 59.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 26.5
-    contract_quality: 71.3
+    contract_governance: 14.4
+    contract_quality: 72.4
     developer_ergonomics: 61.9
-    discoverability: 66.7
-    governance: 26.5
+    discoverability: 68.5
+    governance: 14.4
     operational_transparency: 42.1
-  previous_composite: 54.8
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1608,8 +1437,8 @@ score:
       marker_coverage: 0.0
       total: 138
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grafana/refs/heads/main/screenshots/grafana-2026-06-20T182342.png
 security:

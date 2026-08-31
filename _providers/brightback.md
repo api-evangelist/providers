@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The Retention API from brightback — 1 operation(s) for retention.
@@ -48,6 +48,10 @@ collections:
   name: Brightback (Chargebee ) Pre-cancel Retention API
   slug: open-brightback-retention-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/chargebee/
 - group: other
   title: ''
   type: Overlay
@@ -139,22 +143,27 @@ network: true
 overview: 'brightback publishes 1 API on the [APIs.io](https://apis.io/) network: Retention API. Tagged areas include Company, Churn Prevention, Customer Retention, Subscription, and Cancellation.
 
 
-  brightback''s developer surface includes documentation, API reference, support, authentication, and 15 more developer resources.'
+  brightback''s developer surface includes documentation, API reference, support, authentication, and 16 more developer resources.'
 random_paper: 12
 score:
   band: emerging
-  composite: 23.1
+  composite: 21.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 15.5
     developer_ergonomics: 36.3
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 23.1
+  previous_composite: 21.7
   provenance:
     conformance: derived
     contracts:
@@ -164,8 +173,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/screenshots/brightback-2026-07-25T203931.png
 security:

@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: verified
     mcp_server: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 56.3
-  scored_at: '2026-08-26'
+  score: 59.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 150
   slug: newstore-agentic-access
   summary_line: 150 operations · 79 acting
-api_count: 42
+api_count: 1
 apis:
 - description: Customer Profile Addresses
   name: Newstore address API
@@ -70,9 +70,6 @@ apis:
 - description: Easypost Adapter Configuration
   name: Newstore EasypostAdapterConfig API
   slug: newstore-easypostadapterconfig-api
-- description: The external-public API from Newstore — 89 operation(s) for external-public.
-  name: Newstore external-public API
-  slug: newstore-external-public-api
 - description: Fulfillment Requests
   name: Newstore fulfillment-requests API
   slug: newstore-fulfillment-requests-api
@@ -169,7 +166,7 @@ apis:
 - description: Users
   name: Newstore users API
   slug: newstore-users-api
-artifact_total: 91
+artifact_total: 90
 asyncapis:
 - description: ''
   name: Newstore Webhooks
@@ -305,6 +302,10 @@ collections:
   name: NewStore address users API
   slug: open-newstore-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/newstore-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -437,13 +438,13 @@ modified: '2026-07-20'
 name: Newstore
 nav: Providers
 network: true
-overview: 'Newstore publishes 42 APIs on the [APIs.io](https://apis.io/) network, including address API, audit-events API, cart API, and 39 more. Tagged areas include Company, Retail, Omnichannel, Order Management, and Point-of-Sale.
+overview: 'Newstore publishes 41 APIs on the [APIs.io](https://apis.io/) network, including address API, audit-events API, cart API, and 38 more. Tagged areas include Company, Retail, Omnichannel, Order Management, and Point-of-Sale.
 
 
   The Newstore catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Newstore''s developer surface includes authentication, documentation, API reference, changelog, pricing, support, sandbox, and 23 more developer resources.'
+  Newstore''s developer surface includes authentication, documentation, API reference, changelog, pricing, support, sandbox, and 24 more developer resources.'
 random_paper: 5
 scopes:
 - name: Newstore Scopes
@@ -452,18 +453,23 @@ scopes:
   summary_line: 29 scopes · clientCredentials
 score:
   band: developing
-  composite: 43.9
-  delta: 0.0
+  composite: 40.8
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.3
     developer_ergonomics: 51.8
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 43.9
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -474,8 +480,8 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newstore/refs/heads/main/screenshots/newstore-2026-08-07T185135.png
 security:

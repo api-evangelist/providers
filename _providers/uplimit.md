@@ -33,15 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-08-26'
-api_count: 6
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Course API from Uplimit — 3 operation(s) for course.
   name: Uplimit Course API
   slug: uplimit-course-api
-- description: The Enrollment API from Uplimit — 4 operation(s) for enrollment.
-  name: Uplimit Enrollment API
-  slug: uplimit-enrollment-api
 - description: The Export API from Uplimit — 2 operation(s) for export.
   name: Uplimit Export API
   slug: uplimit-export-api
@@ -54,7 +51,7 @@ apis:
 - description: The User API from Uplimit — 10 operation(s) for user.
   name: Uplimit User API
   slug: uplimit-user-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -78,6 +75,10 @@ collections:
   name: Uplimit Organization Course User API
   slug: open-uplimit-user-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/uplimit-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -182,25 +183,30 @@ modified: '2026-07-21'
 name: Uplimit
 nav: Providers
 network: true
-overview: 'Uplimit publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Course API, Enrollment API, Export API, and 3 more. Tagged areas include Company, Future Of Work, Learning, Education, and Training.
+overview: 'Uplimit publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Course API, Export API, Platform API, and 2 more. Tagged areas include Company, Future Of Work, Learning, Education, and Training.
 
 
-  Uplimit''s developer surface includes engineering blog, authentication, and 21 more developer resources.'
+  Uplimit''s developer surface includes engineering blog, authentication, and 22 more developer resources.'
 random_paper: 16
 score:
   band: thin
-  composite: 37.8
-  delta: 1.4
+  composite: 35.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 51.7
+    contract_governance: 4.5
+    contract_quality: 51.2
     developer_ergonomics: 30.4
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 36.4
+  previous_composite: 36.2
   provenance:
     conformance: derived
     contracts:
@@ -216,8 +222,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

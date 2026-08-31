@@ -34,18 +34,32 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: Live stock market news with tagged tickers, per-entity sentiment and match scores, entity statistics and trending endpoints, delivered as a GET-only JSON API authenticated with an api_token query para
-  name: MarketAux API
-  slug: marketaux-api
-artifact_total: 7
+- description: Entity statistics, trending entities, entity search, and entity metadata.
+  name: MarketAux Entities API
+  slug: marketaux-entities-api
+- description: Financial and market news feeds, similar-article lookup, and article retrieval by UUID.
+  name: MarketAux News API
+  slug: marketaux-news-api
+- description: News source metadata usable in news feed filters.
+  name: MarketAux Sources API
+  slug: marketaux-sources-api
+artifact_total: 9
 collections:
 - collection_type: open
   name: Marketaux API
   slug: open-marketaux
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/marketaux-openapi-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/marketaux-mcp.yml
 - group: company
   title: ''
   type: Website
@@ -162,10 +176,10 @@ modified: '2026-07-22'
 name: MarketAux
 nav: Providers
 network: true
-overview: 'MarketAux publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include News, Financial News, Stock Market, Sentiment Analysis, and Market Data.
+overview: 'MarketAux publishes 3 APIs on the [APIs.io](https://apis.io/) network: Entities API, News API, and Sources API. Tagged areas include News, Financial News, Stock Market, Sentiment Analysis, and Market Data.
 
 
-  MarketAux''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, FAQ, and 19 more developer resources.'
+  MarketAux''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, FAQ, and 21 more developer resources.'
 plans:
 - name: Marketaux Plans
   plan_count: 6
@@ -177,18 +191,23 @@ rate_limits:
   slug: marketaux-rate-limits
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 43.6
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
-    contract_quality: 17.2
+    contract_governance: 4.5
+    contract_quality: 17.0
     developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 45.1
+  previous_composite: 44.2
   provenance:
     conformance: derived
     contracts:
@@ -204,8 +223,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/screenshots/marketaux-2026-06-20T184952.png
 security:

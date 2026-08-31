@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: dify-agentic-access
   summary_line: 13 operations · 10 acting · 3 human-in-the-loop
-api_count: 7
+api_count: 1
 apis:
 - description: Dify is an open-source platform for building AI applications. We combine Backend-as-a-Service and LLMOps to streamline the development of generative AI solutions, making it accessible to both develope
   name: Dify
@@ -164,7 +164,7 @@ modified: '2026-04-28'
 name: Dify
 nav: Providers
 network: true
-overview: 'Dify publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completion API, Conversations API, and 3 more. Tagged areas include Artificial Intelligence, Backend-as-a-Service, and LLMOps.
+overview: 'Dify publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completion API, Conversations API, and 3 more. Tagged areas include Artificial Intelligence, Backend-As-A-Service, and LLMOps.
 
 
   Dify''s developer surface includes authentication, pricing, documentation, engineering blog, and 11 more developer resources.'
@@ -179,15 +179,20 @@ rate_limits:
   slug: dify-rate-limits
 score:
   band: thin
-  composite: 36.1
-  delta: 0.0
+  composite: 35.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 0.0
     contract_quality: 47.6
     developer_ergonomics: 23.8
-    discoverability: 63.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 15.8
   needs_work:
@@ -204,8 +209,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dify/refs/heads/main/screenshots/dify-2026-06-20T180051.png
 security:
@@ -224,7 +229,7 @@ security:
 slug: dify
 tags:
 - Artificial Intelligence
-- Backend-as-a-Service
+- Backend-As-A-Service
 - LLMOps
 website: https://dify.ai/
 ---

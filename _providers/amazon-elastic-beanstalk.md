@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: amazon-elastic-beanstalk-agentic-access
   summary_line: 5 operations · 3 acting
-api_count: 4
+api_count: 1
 apis:
 - description: The Amazon Elastic Beanstalk AWS Elastic Beanstalk API API from Amazon Elastic Beanstalk — 1 operation(s) for amazon elastic beanstalk aws elastic beanstalk api.
   name: Amazon Elastic Beanstalk Amazon Elastic Beanstalk AWS Elastic Beanstalk API API
@@ -307,7 +307,7 @@ modified: '2026-05-19'
 name: Amazon Elastic Beanstalk
 nav: Providers
 network: true
-overview: 'Amazon Elastic Beanstalk publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Amazon Elastic Beanstalk AWS Elastic Beanstalk API API, #CreateEnvironment API, #DescribeEnvironments API, and 1 more. Tagged areas include Amazon Web Services, Auto-Scaling, Deployment, Elastic Beanstalk, and Platform-as-a-Service.
+overview: 'Amazon Elastic Beanstalk publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Amazon Elastic Beanstalk AWS Elastic Beanstalk API API, #CreateEnvironment API, #DescribeEnvironments API, and 1 more. Tagged areas include Amazon Web Services, Auto Scaling, Deployment, Elastic Beanstalk, and PaaS.
 
 
   The Amazon Elastic Beanstalk catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -347,18 +347,23 @@ rules:
   slug: amazon-elastic-beanstalk-spectral-rules
 score:
   band: strong
-  composite: 60.1
-  delta: 5.0
+  composite: 59.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
     contract_governance: 28.8
     contract_quality: 63.9
     developer_ergonomics: 69.0
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 55.1
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     contracts:
@@ -366,9 +371,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-beanstalk/refs/heads/main/screenshots/amazon-elastic-beanstalk-2026-06-20T171638.png
 security:
 - kind: authentication
@@ -390,10 +395,11 @@ security:
 slug: amazon-elastic-beanstalk
 tags:
 - Amazon Web Services
-- Auto-Scaling
+- Auto Scaling
 - Deployment
 - Elastic Beanstalk
-- Platform-as-a-Service
+- PaaS
+- Platform As A Service
 - Web Applications
 use_cases:
 - description: Deploy and host web applications without managing infrastructure

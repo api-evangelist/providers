@@ -33,16 +33,28 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: REST API for managing cross-channel advertising campaigns including advertisers, insertion orders, line items, packages, creatives, and ads across programmatic channels. Authentication uses OAuth2 cli
   name: Amobee Campaign API
   slug: amobee-campaign-api
-- description: Public utility surface served by the Amobee services gateway at services.amobee.com — the IAB TCF vendor device-storage disclosure document, a request/IP echo endpoint and a health check. It is the on
-  name: Amobee Services Gateway API
-  slug: amobee-services-gateway-api
-artifact_total: 9
+- description: The env-vars-test-controller API from Amobee — 1 operation(s) for env-vars-test-controller.
+  name: Amobee Env Vars Test Controller API
+  slug: amobee-env-vars-test-controller-api
+- description: The gateway-swagger-controller API from Amobee — 2 operation(s) for gateway-swagger-controller.
+  name: Amobee Gateway Swagger Controller API
+  slug: amobee-gateway-swagger-controller-api
+- description: The health-check API from Amobee — 1 operation(s) for health-check.
+  name: Amobee Health Check API
+  slug: amobee-health-check-api
+- description: The ip-controller API from Amobee — 1 operation(s) for ip-controller.
+  name: Amobee Ip Controller API
+  slug: amobee-ip-controller-api
+- description: The tcf-disclosure-controller API from Amobee — 2 operation(s) for tcf-disclosure-controller.
+  name: Amobee Tcf Disclosure Controller API
+  slug: amobee-tcf-disclosure-controller-api
+artifact_total: 13
 collections:
 - collection_type: open
   name: OpenAPI definition
@@ -164,7 +176,7 @@ modified: '2026-08-12'
 name: Amobee
 nav: Providers
 network: true
-overview: 'Amobee publishes 1 API on the [APIs.io](https://apis.io/) network: Services Gateway API. Tagged areas include Digital Advertising, DSP, Programmatic, Campaign Management, and Audience Targeting.
+overview: 'Amobee publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Env Vars Test Controller API, Gateway Swagger Controller API, Health Check API, and 2 more. Tagged areas include Digital Advertising, DSP, Programmatic, Campaign Management, and Audience Targeting.
 
 
   Amobee''s developer surface includes authentication and 21 more developer resources.'
@@ -179,22 +191,27 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 38.8
-  delta: 0.0
+  composite: 35.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
-    contract_governance: 30.3
-    contract_quality: 40.8
+    contract_governance: 18.2
+    contract_quality: 39.2
     developer_ergonomics: 11.9
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 38.8
+  previous_composite: 36.4
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amobee/refs/heads/main/screenshots/amobee-2026-06-20T171938.png
 security:
@@ -218,7 +235,7 @@ tags:
 - Campaign Management
 - Audience Targeting
 - Data Management Platform
-- AdTech
+- Ad Tech
 - Samsung Ads
 website: https://www.amobee.com/
 ---

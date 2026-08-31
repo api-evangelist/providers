@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,10 +21,10 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,14 +32,14 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 5.0
-  scored_at: '2026-08-26'
+  score: 11.4
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST API for ingesting entities, instruments, and transaction events into the Unit21 risk and compliance platform. Enables creation and management of alerts, cases, rules, and suspicious activity repo
   name: Unit21 API
   slug: unit21-api
-artifact_total: 8
+artifact_total: 9
 common:
 - group: auth
   title: ''
@@ -63,7 +63,7 @@ common:
   url: https://docs.unit21.ai/
 - group: build
   title: ''
-  type: GitHubOrg
+  type: GitHubOrganization
   url: https://github.com/u21
 - group: company
   title: ''
@@ -73,14 +73,6 @@ common:
   title: ''
   type: Blog
   url: https://www.unit21.ai/resources/risk-compliance-blog
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://www.unit21.ai/
-- group: operate
-  title: ''
-  type: StatusPage
-  url: https://status.unit21.ai/
 - group: other
   title: ''
   type: X
@@ -105,6 +97,68 @@ common:
   title: ''
   type: FinOps
   url: finops/unit21-finops.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.unit21.ai/tos
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.unit21.ai/privacy-policy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/unit21-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/unit21-packages.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/unit21-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/unit21-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/unit21-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/unit21-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/unit21-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/unit21-trust-center.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/unit21-data-model.yml
+coverage:
+  checked: '2026-08-27'
+  detail: Every path on docs.unit21.ai -- the API reference, the release notes, and even nonexistent paths -- now returns the same 7,947-byte "Sign in | Unit21" page asking you to email for an access link, and status.unit21.ai redirects into that same login, so the entire Unit21 developer and operational surface is readable only by existing customers.
+  evidence:
+  - status: 200
+    url: https://docs.unit21.ai/reference/api-reference
+  - status: 200
+    url: https://docs.unit21.ai/page/release-notes
+  - status: 200
+    url: https://docs.unit21.ai/docs/nonexistent-zzz-control
+  - status: 200
+    url: http://status.unit21.ai/
+  - status: 401
+    url: https://sandbox1-api.unit21.com/v1/entities/list
+  - status: 200
+    url: https://www.unit21.ai/llms.txt
+  reason: customer-only-docs
+  state: gated
 created: '2026-06-13'
 description: Unit21 is an agentic AI platform for fraud and AML (Anti-Money Laundering) detection and compliance operations. It provides a REST API for ingesting transaction data, managing detection rules, reviewing alerts, and filing suspicious activity reports (SARs). The platform supports real-time transaction monitoring, case management, entity and instrument tracking, and automated regulatory filing including SARs, STRs, CTRs, and goAML reports.
 finops:
@@ -118,7 +172,7 @@ jsonld:
   property_count: 0
   slug: unit21-context
 layout: provider
-modified: '2026-06-13'
+modified: '2026-08-27'
 name: Unit21
 nav: Providers
 network: true
@@ -128,7 +182,7 @@ overview: 'Unit21 publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   The Unit21 catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Unit21''s developer surface includes documentation, engineering blog, pricing, support, and 12 more developer resources.'
+  Unit21''s developer surface includes documentation, engineering blog, support, authentication, and 21 more developer resources.'
 plans:
 - name: Unit21 Plans Pricing
   plan_count: 1
@@ -139,24 +193,33 @@ rate_limits:
   name: Unit21 Rate Limits
   slug: unit21-rate-limits
 score:
-  band: emerging
-  composite: 26.1
-  delta: 2.6
+  band: thin
+  composite: 27.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 62.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 47.4
-    commercial_clarity: 47.4
+    access_clarity: 65.8
+    commercial_clarity: 65.8
     contract_governance: 0.0
     contract_quality: 6.7
-    developer_ergonomics: 25.0
-    discoverability: 68.5
+    developer_ergonomics: 17.9
+    discoverability: 75.9
     governance: 0.0
-    operational_transparency: 23.7
-  previous_composite: 23.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 13.2
+  previous_composite: 27.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unit21/refs/heads/main/screenshots/unit21-2026-06-20T200036.png
 security:
+- kind: authentication
+  name: Unit21 Authentication
+  slug: unit21-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Unit21 Domain Security
   slug: unit21-domain-security

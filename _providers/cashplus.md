@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -31,17 +31,8 @@ agentic_access:
   operation_count: 74
   slug: cashplus-agentic-access
   summary_line: 74 operations · 20 acting
-api_count: 10
+api_count: 3
 apis:
-- description: Open Banking Account Information Service Provider (AISP) API conformant to the OBIE Read/Write API Standard, exposing account access consents, account details, balances, transactions, standing orders,
-  name: Cashplus Account Information API
-  slug: cashplus-account-information-api
-- description: Open Banking Payment Initiation Service Provider (PISP) API conformant to the OBIE Read/Write API Standard, supporting domestic payments, domestic scheduled payments, and domestic standing orders with
-  name: Cashplus Payment Initiation API
-  slug: cashplus-payment-initiation-api
-- description: 'Open Banking Card Based Payment Instrument Issuer (CBPII) Confirmation of Funds API conformant to the OBIE Read/Write API Standard, letting authorised providers establish a funds-confirmation consent '
-  name: Cashplus Confirmation of Funds API
-  slug: cashplus-confirmation-of-funds-api
 - description: First-party partner API for authentication and registration against the Cashplus/Zempler developer platform, used to obtain credentials and tokens before calling the proprietary Accounts, Payments, Ap
   name: Cashplus Identity API
   slug: cashplus-identity-api
@@ -63,7 +54,70 @@ apis:
 - description: First-party partner API to search and filter transactions on Cashplus/Zempler accounts, for reconciliation and reporting. Requires a direct commercial relationship with the bank.
   name: Cashplus Transactions API
   slug: cashplus-transactions-api
-artifact_total: 18
+- description: The Account Access API from Cashplus Bank — 2 operation(s) for account access.
+  name: Cashplus Bank Account Access API
+  slug: cashplus-account-access-api
+- description: The Accounts API from Cashplus Bank — 2 operation(s) for accounts.
+  name: Cashplus Bank Accounts API
+  slug: cashplus-accounts-api
+- description: The Balances API from Cashplus Bank — 2 operation(s) for balances.
+  name: Cashplus Bank Balances API
+  slug: cashplus-balances-api
+- description: The Beneficiaries API from Cashplus Bank — 2 operation(s) for beneficiaries.
+  name: Cashplus Bank Beneficiaries API
+  slug: cashplus-beneficiaries-api
+- description: The Direct Debits API from Cashplus Bank — 2 operation(s) for direct debits.
+  name: Cashplus Bank Direct Debits API
+  slug: cashplus-direct-debits-api
+- description: The Domestic Payments API from Cashplus Bank — 5 operation(s) for domestic payments.
+  name: Cashplus Bank Domestic Payments API
+  slug: cashplus-domestic-payments-api
+- description: The Domestic Scheduled Payments API from Cashplus Bank — 4 operation(s) for domestic scheduled payments.
+  name: Cashplus Bank Domestic Scheduled Payments API
+  slug: cashplus-domestic-scheduled-payments-api
+- description: The Domestic Standing Orders API from Cashplus Bank — 4 operation(s) for domestic standing orders.
+  name: Cashplus Bank Domestic Standing Orders API
+  slug: cashplus-domestic-standing-orders-api
+- description: The File Payments API from Cashplus Bank — 6 operation(s) for file payments.
+  name: Cashplus Bank File Payments API
+  slug: cashplus-file-payments-api
+- description: The Funds Confirmations API from Cashplus Bank — 3 operation(s) for funds confirmations.
+  name: Cashplus Bank Funds Confirmations API
+  slug: cashplus-funds-confirmations-api
+- description: The International Payments API from Cashplus Bank — 5 operation(s) for international payments.
+  name: Cashplus Bank International Payments API
+  slug: cashplus-international-payments-api
+- description: The International Scheduled Payments API from Cashplus Bank — 5 operation(s) for international scheduled payments.
+  name: Cashplus Bank International Scheduled Payments API
+  slug: cashplus-international-scheduled-payments-api
+- description: The International Standing Orders API from Cashplus Bank — 4 operation(s) for international standing orders.
+  name: Cashplus Bank International Standing Orders API
+  slug: cashplus-international-standing-orders-api
+- description: The Offers API from Cashplus Bank — 2 operation(s) for offers.
+  name: Cashplus Bank Offers API
+  slug: cashplus-offers-api
+- description: The Parties API from Cashplus Bank — 3 operation(s) for parties.
+  name: Cashplus Bank Parties API
+  slug: cashplus-parties-api
+- description: The Payment Details API from Cashplus Bank — 7 operation(s) for payment details.
+  name: Cashplus Bank Payment Details API
+  slug: cashplus-payment-details-api
+- description: The Products API from Cashplus Bank — 2 operation(s) for products.
+  name: Cashplus Bank Products API
+  slug: cashplus-products-api
+- description: The Scheduled Payments API from Cashplus Bank — 2 operation(s) for scheduled payments.
+  name: Cashplus Bank Scheduled Payments API
+  slug: cashplus-scheduled-payments-api
+- description: The Standing Orders API from Cashplus Bank — 2 operation(s) for standing orders.
+  name: Cashplus Bank Standing Orders API
+  slug: cashplus-standing-orders-api
+- description: The Statements API from Cashplus Bank — 4 operation(s) for statements.
+  name: Cashplus Bank Statements API
+  slug: cashplus-statements-api
+- description: The Transactions API from Cashplus Bank — 3 operation(s) for transactions.
+  name: Cashplus Bank Transactions API
+  slug: cashplus-transactions-api
+artifact_total: 36
 collections:
 - collection_type: open
   name: Account and Transaction API Specification
@@ -75,6 +129,10 @@ collections:
   name: Payment Initiation API
   slug: open-cashplus-payment-initiation
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cashplus-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -212,10 +270,10 @@ modified: '2026-07-23'
 name: Cashplus Bank
 nav: Providers
 network: true
-overview: 'Cashplus Bank publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cashplus Account Information API, Cashplus Payment Initiation API, and Cashplus Confirmation of Funds API. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Cashplus Bank publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Cashplus Accounts API, Cashplus Products API, Cashplus Transactions API, and 21 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  Cashplus Bank''s developer surface includes authentication, documentation, engineering blog, legal docs, support, and 26 more developer resources.'
+  Cashplus Bank''s developer surface includes authentication, documentation, engineering blog, legal docs, support, and 27 more developer resources.'
 random_paper: 6
 scopes:
 - name: Cashplus Scopes
@@ -224,18 +282,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 44.1
-  delta: 1.4
+  composite: 41.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 49.4
+    contract_governance: 4.5
+    contract_quality: 49.3
     developer_ergonomics: 47.0
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 72.2
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 42.7
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,12 +311,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cashplus/refs/heads/main/screenshots/cashplus-2026-07-25T204726.png
 security:

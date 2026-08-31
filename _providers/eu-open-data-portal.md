@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 5
   slug: eu-open-data-portal-agentic-access
   summary_line: 5 operations
-api_count: 5
+api_count: 1
 apis:
 - description: The EU Open Data Portal SPARQL endpoint provides structured queries against linked open data from European Union institutions. Based on OpenLink Virtuoso, the endpoint enables querying of RDF datasets
   name: EU Open Data Portal SPARQL API
@@ -100,7 +100,6 @@ finops:
 - name: Eu Open Data Portal Finops
   service_category: API
   slug: eu-open-data-portal-finops
-image: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/image.png
 json_schemas:
 - name: EU Open Data Portal Dataset (DCAT-AP)
   property_count: 17
@@ -144,18 +143,23 @@ rules:
   slug: eu-open-data-portal-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 27.2
-  delta: 3.3
+  composite: 26.3
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 50.8
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.9
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 9.8
     contract_quality: 58.3
     developer_ergonomics: 19.0
-    discoverability: 68.5
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 23.9
+  previous_composite: 27.2
   provenance:
     agentic_access: derived
     contracts:
@@ -169,8 +173,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eu-open-data-portal/refs/heads/main/screenshots/eu-open-data-portal-2026-06-20T180843.png
 security:

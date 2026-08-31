@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 8
   slug: iisc-agentic-access
   summary_line: 8 operations
-api_count: 5
+api_count: 1
 apis:
 - description: ePrints@IISc is the open-access institutional repository of IISc research publications, established in 2002 on EPrints software. It is OAI-compliant and exposes an OAI-PMH metadata-harvesting interfac
   name: ePrints@IISc OAI-PMH
@@ -76,6 +76,10 @@ collections:
   name: ETD@IISc DSpace REST Bitstreams Items API
   slug: open-iisc-items-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/iisc-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -169,7 +173,7 @@ overview: 'Indian Institute of Science Bangalore publishes 4 APIs on the [APIs.i
   The Indian Institute of Science Bangalore catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Indian Institute of Science Bangalore''s developer surface includes GitHub presence and 9 more developer resources.'
+  Indian Institute of Science Bangalore''s developer surface includes GitHub presence and 10 more developer resources.'
 plans:
 - name: Iisc Plans Pricing
   plan_count: 2
@@ -202,18 +206,23 @@ rules:
   slug: iisc-rules
 score:
   band: thin
-  composite: 32.2
-  delta: 1.9
+  composite: 31.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 47.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 54.4
     developer_ergonomics: 9.5
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 30.3
+  previous_composite: 32.2
   provenance:
     agentic_access: derived
     contracts:
@@ -227,8 +236,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iisc/refs/heads/main/screenshots/iisc-2026-06-20T183226.png
 security:

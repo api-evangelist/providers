@@ -11,13 +11,13 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.2
-  scored_at: '2026-08-26'
+  score: 29.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 133
   slug: sinch-agentic-access
   summary_line: 133 operations · 74 acting · 4 human-in-the-loop
-api_count: 35
+api_count: 10
 apis:
 - description: Manage IP address access control lists for securing SIP trunk access.
   name: Sinch Access Control Lists API
@@ -408,6 +408,10 @@ collections:
   name: Sinch Brands Access Control Lists Webhooks API
   slug: open-sinch-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sinch-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -555,7 +559,7 @@ overview: 'Sinch publishes 35 APIs on the [APIs.io](https://apis.io/) network, i
   The Sinch catalog on APIs.io includes 4 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Sinch''s developer surface includes authentication, documentation, pricing, engineering blog, support, signup flow, and 13 more developer resources.'
+  Sinch''s developer surface includes authentication, documentation, pricing, engineering blog, support, signup flow, and 14 more developer resources.'
 plans:
 - name: Sinch Plans Pricing
   plan_count: 2
@@ -604,18 +608,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 55.7
-  delta: -0.8
+  composite: 55.3
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 13.6
-    contract_quality: 71.6
+    contract_quality: 69.9
     developer_ergonomics: 50.0
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 28.9
-  previous_composite: 56.5
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     contracts:
@@ -629,8 +638,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 59.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/screenshots/sinch-2026-06-20T193947.png
 security:

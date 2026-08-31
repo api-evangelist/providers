@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: quix-agentic-access
   summary_line: 16 operations · 11 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: Subscribe to live parameter data, events, definitions, active streams, topic metrics, and raw packages from Quix topics in real time over a Microsoft SignalR hub (WebSockets, with Long Polling fallbac
   name: Quix Streaming Reader API (Real-time)
@@ -191,15 +191,20 @@ rules:
   slug: quix-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 42.1
-  delta: 0.0
+  composite: 41.6
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 63.9
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 13.6
     operational_transparency: 34.2
   previous_composite: 42.1
@@ -210,8 +215,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/screenshots/quix-2026-08-17T081431.png
 security:

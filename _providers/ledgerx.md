@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Public and authenticated REST API on api.ledgerx.com covering exchange contracts, traded contracts, contract tickers, positions, trades (own and global), upcoming exchange holidays and account balance
@@ -151,7 +151,12 @@ rate_limits:
   slug: ledgerx-rate-limits
 score:
   band: thin
-  composite: 33.4
+  composite: 34.1
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 7.9
@@ -159,10 +164,10 @@ score:
     contract_governance: 18.2
     contract_quality: 45.7
     developer_ergonomics: 45.2
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 33.4
+  previous_composite: 34.1
   provenance:
     conformance: first-party
   regulatory:
@@ -171,8 +176,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 36.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ledgerx/refs/heads/main/screenshots/ledgerx-2026-07-25T224817.png
 security:

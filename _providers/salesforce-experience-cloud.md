@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 89
   slug: salesforce-experience-cloud-agentic-access
   summary_line: 89 operations · 28 acting
-api_count: 37
+api_count: 9
 apis:
 - description: Deploy and retrieve Experience Cloud site configurations, navigation menus, and digital experience bundles. Enables programmatic management of ExperienceBundle and Network metadata types for CI/CD wor
   name: Metadata API (Experience Cloud)
@@ -384,6 +384,10 @@ collections:
   name: Salesforce Experience Cloud Salesforce CMS Connect Actions Versions API
   slug: open-salesforce-experience-cloud-versions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/salesforce-experience-cloud-capability-edges.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -965,7 +969,7 @@ overview: 'Salesforce Experience Cloud publishes 35 APIs on the [APIs.io](https:
   The Salesforce Experience Cloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesforce Experience Cloud''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 52 more developer resources.'
+  Salesforce Experience Cloud''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 53 more developer resources.'
 plans:
 - name: Salesforce Experience Cloud Plans Pricing
   plan_count: 1
@@ -1005,7 +1009,12 @@ scopes:
 score:
   band: developing
   composite: 51.1
-  delta: 1.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -1015,7 +1024,7 @@ score:
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 49.7
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1023,8 +1032,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-experience-cloud/refs/heads/main/screenshots/salesforce-experience-cloud-2026-06-20T193345.png
 security:

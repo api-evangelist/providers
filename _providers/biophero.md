@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/fmc-corporation/
 created: '2026-07-17'
 description: BioPhero is a Danish agricultural biotechnology company that engineers microbes to produce synthetic insect pheromones via microbial fermentation, providing low-cost, bio-based pest control that disrupts insect mating cycles on major row crops without toxic insecticides. Founded as a spin-out from the Technical University of Denmark (DTU), BioPhero raised a DCVC Bio-led Series A (with FMC Ventures, Syngenta Group Ventures, and Novo Holdings) and was subsequently acquired by FMC Corporation. The company is a DCVC portfolio holding surfaced in the API Evangelist network; it operates as a research and product organization in synthetic biology and crop protection and publishes no public developer API, documentation, SDKs, or agent-facing surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/biophero.png
@@ -48,6 +53,11 @@ random_paper: 16
 score:
   band: minimal
   composite: 2.2
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -73,8 +83,8 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: biophero
 tags:

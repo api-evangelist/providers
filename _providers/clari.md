@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 15
   slug: clari-agentic-access
   summary_line: 15 operations · 7 acting · 1 human-in-the-loop
-api_count: 11
+api_count: 2
 apis:
-- description: The Clari Copilot API provides access to conversation intelligence features including call recordings, transcripts, AI-generated summaries and action items, coaching scorecards, competitor sentiment s
-  name: Clari Copilot API
-  slug: clari-copilot-api
 - description: 'Clari''s first-party remote Model Context Protocol server. It exposes live Clari + Salesloft revenue context — accounts, deals, people, calls and conversation intelligence, cadences and activity, team '
   name: Clari MCP Server
   slug: clari-mcp-server
@@ -77,7 +74,28 @@ apis:
 - description: The Opportunity API API from Clari — 1 operation(s) for opportunity api.
   name: Clari Opportunity API API
   slug: clari-opportunity-api-api
-artifact_total: 41
+- description: Accounts in CRM
+  name: Clari Account API
+  slug: clari-account-api
+- description: Calls in Copilot
+  name: Clari Call API
+  slug: clari-call-api
+- description: Contacts in CRM
+  name: Clari Contact API
+  slug: clari-contact-api
+- description: Deals in CRM
+  name: Clari Deal API
+  slug: clari-deal-api
+- description: Scorecards in Copilot
+  name: Clari Scorecard API
+  slug: clari-scorecard-api
+- description: Topics in Copilot
+  name: Clari Topics API
+  slug: clari-topics-api
+- description: Users in Copilot
+  name: Clari User API
+  slug: clari-user-api
+artifact_total: 47
 collections:
 - collection_type: open
   name: API Collection
@@ -113,6 +131,18 @@ collections:
   name: Clari API Reference Activity API Opportunity API API
   slug: open-clari-opportunity-api-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/clari-copilot-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/clari-copilot-call-intelligence.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/clari-copilot-crm-sync.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -339,13 +369,13 @@ modified: '2026-08-13'
 name: Clari
 nav: Providers
 network: true
-overview: 'Clari publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Copilot API, Activity API API, Administrative API API, and 7 more. Tagged areas include Revenue Operations, Forecasting, Pipeline Management, Sales Intelligence, and Activity Intelligence.
+overview: 'Clari publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Activity API API, Administrative API API, Audit API API, and 13 more. Tagged areas include Revenue Operations, Forecasting, Pipeline Management, Sales Intelligence, and Activity Intelligence.
 
 
   The Clari catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Clari''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 38 more developer resources.'
+  Clari''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 41 more developer resources.'
 plans:
 - name: Clari Plans Pricing
   plan_count: 0
@@ -373,18 +403,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.5
-  delta: 0.6
+  composite: 59.3
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 41.7
-    contract_quality: 74.2
+    contract_governance: 29.5
+    contract_quality: 73.5
     developer_ergonomics: 56.5
-    discoverability: 74.1
-    governance: 41.7
+    discoverability: 68.5
+    governance: 29.5
     operational_transparency: 78.9
-  previous_composite: 60.9
+  previous_composite: 59.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -395,8 +430,8 @@ score:
       total: 10
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clari/refs/heads/main/screenshots/clari-2026-06-20T174439.png
 security:

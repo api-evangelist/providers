@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 84
   slug: hanko-agentic-access
   summary_line: 84 operations · 53 acting
-api_count: 22
+api_count: 3
 apis:
-- description: The Hanko Flow API powers structured authentication flows including login initialization and advancement, registration flow management, profile flow handling, and token exchange operations. It underpi
-  name: Hanko Flow API
-  slug: flow-api
 - description: The Audit Logs API from Hanko — 2 operation(s) for audit logs.
   name: Hanko Audit Logs API
   slug: hanko-audit-logs-api
@@ -110,7 +107,7 @@ apis:
 - description: The .well-known API from Hanko — 2 operation(s) for .well-known.
   name: Hanko .well-known API
   slug: hanko-well-known-api
-artifact_total: 59
+artifact_total: 58
 collections:
 - collection_type: open
   name: API Collection
@@ -283,7 +280,7 @@ modified: '2026-06-12'
 name: Hanko
 nav: Providers
 network: true
-overview: 'Hanko publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Flow API, Audit Logs API, Credentials API, and 19 more. Tagged areas include Authentication, Passkeys, WebAuthn, FIDO2, and Identity.
+overview: 'Hanko publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Audit Logs API, Credentials API, Email Management API, and 18 more. Tagged areas include Authentication, Passkeys, WebAuthn, FIDO2, and Identity.
 
 
   The Hanko catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -312,18 +309,23 @@ rules:
   slug: hanko-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.1
+  composite: 47.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 28.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
-    contract_quality: 65.6
+    contract_quality: 64.8
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 48.1
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -331,8 +333,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/screenshots/hanko-2026-06-20T182504.png
 security:

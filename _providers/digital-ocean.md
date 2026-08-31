@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
-api_count: 37
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: 1-Click applications are pre-built Droplet images or Kubernetes apps with software, features, and configuration details already set up for you. They can be found in the [DigitalOcean Marketplace](http
   name: Digital Ocean 1-Click Applications API
@@ -264,6 +264,10 @@ collections:
   name: DigitalOcean VPCs API
   slug: open-digital-ocean-vpcs-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/digital-ocean-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -367,7 +371,7 @@ network: true
 overview: 'Digital Ocean publishes 37 APIs on the [APIs.io](https://apis.io/) network, including 1-Click Applications API, Account API, Actions API, and 34 more. Tagged areas include Cloud, Compute, Servers, and Infrastructure.
 
 
-  Digital Ocean''s developer surface includes documentation, support, engineering blog, pricing, GitHub presence, signup flow, and 16 more developer resources.'
+  Digital Ocean''s developer surface includes documentation, support, engineering blog, pricing, GitHub presence, signup flow, and 17 more developer resources.'
 plans:
 - name: Digital Ocean Plans Pricing
   plan_count: 3
@@ -378,27 +382,35 @@ rate_limits:
   name: Digital Ocean Rate Limits
   slug: digital-ocean-rate-limits
 score:
-  band: developing
-  composite: 39.9
-  delta: 0.0
+  band: thin
+  composite: 36.3
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 87.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.8
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 0.0
     contract_quality: 61.5
     developer_ergonomics: 16.7
-    discoverability: 66.7
+    discoverability: 42.6
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 39.9
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 38.1
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digital-ocean/refs/heads/main/screenshots/digital-ocean-2026-06-20T180020.png
 security:

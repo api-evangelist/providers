@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 100
   slug: algorand-agentic-access
   summary_line: 100 operations · 37 acting · 1 human-in-the-loop
-api_count: 19
+api_count: 3
 apis:
 - description: The Key Management Daemon (KMD) REST API provides local key storage and transaction signing for Algorand nodes. It exposes wallet management, key generation, and signing endpoints through a locally-ru
   name: Algorand KMD REST API
@@ -50,12 +50,6 @@ apis:
 - description: The common API from Algorand — 6 operation(s) for common.
   name: Algorand common API
   slug: algorand-common-api
-- description: The data API from Algorand — 2 operation(s) for data.
-  name: Algorand data API
-  slug: algorand-data-api
-- description: The experimental API from Algorand — 2 operation(s) for experimental.
-  name: Algorand experimental API
-  slug: algorand-experimental-api
 - description: The Key API from Algorand — 4 operation(s) for key.
   name: Algorand Key API
   slug: algorand-key-api
@@ -68,12 +62,6 @@ apis:
 - description: The Multisig API from Algorand — 6 operation(s) for multisig.
   name: Algorand Multisig API
   slug: algorand-multisig-api
-- description: The nonparticipating API from Algorand — 31 operation(s) for nonparticipating.
-  name: Algorand nonparticipating API
-  slug: algorand-nonparticipating-api
-- description: The participating API from Algorand — 7 operation(s) for participating.
-  name: Algorand participating API
-  slug: algorand-participating-api
 - description: The private API from Algorand — 7 operation(s) for private.
   name: Algorand private API
   slug: algorand-private-api
@@ -101,7 +89,7 @@ apis:
 - description: The Wallets API from Algorand — 1 operation(s) for wallets.
   name: Algorand Wallets API
   slug: algorand-wallets-api
-artifact_total: 90
+artifact_total: 86
 collections:
 - collection_type: postman
   name: Algod REST API. common API
@@ -377,7 +365,7 @@ modified: '2026-06-13'
 name: Algorand
 nav: Providers
 network: true
-overview: 'Algorand publishes 18 APIs on the [APIs.io](https://apis.io/) network, including common API, data API, experimental API, and 15 more. Tagged areas include Blockchain, Cryptocurrency, Proof of Stake, DeFi, and Smart Contracts.
+overview: 'Algorand publishes 14 APIs on the [APIs.io](https://apis.io/) network, including common API, Key API, lookup API, and 11 more. Tagged areas include Blockchain, Cryptocurrency, Proof-of-Stake, DeFi, and Smart Contracts.
 
 
   The Algorand catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -406,18 +394,23 @@ rules:
   slug: algorand-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.3
+  composite: 50.2
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 44.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 50.1
+    contract_quality: 49.7
     developer_ergonomics: 78.6
     discoverability: 64.8
     governance: 9.8
     operational_transparency: 34.2
-  previous_composite: 50.3
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     contracts:
@@ -425,8 +418,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algorand/refs/heads/main/screenshots/algorand-2026-06-20T171519.png
 security:
@@ -442,7 +435,7 @@ slug: algorand
 tags:
 - Blockchain
 - Cryptocurrency
-- Proof of Stake
+- Proof-of-Stake
 - DeFi
 - Smart Contracts
 use_cases:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 23
   slug: augment-agentic-access
   summary_line: 23 operations · 15 acting
-api_count: 6
+api_count: 1
 apis:
 - description: API key based authorization. Please refer to the [authorization documentation](docs/authorization.md) for details.
   name: Augment API Key API
@@ -89,6 +89,10 @@ collections:
   name: Augment API Key Webhook Event Subscriptions API
   slug: open-augment-webhook-event-subscriptions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/augment-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -223,7 +227,7 @@ overview: 'Augment publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Augment catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Augment''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 23 more developer resources.'
+  Augment''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 24 more developer resources.'
 random_paper: 18
 rate_limits:
 - limit_count: 2
@@ -231,18 +235,23 @@ rate_limits:
   slug: augment-rate-limits
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 51.5
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 67.2
     developer_ergonomics: 54.2
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 53.5
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -253,8 +262,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/screenshots/augment-2026-07-25T201709.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 31
   slug: supertokens-agentic-access
   summary_line: 31 operations · 20 acting · 2 human-in-the-loop
-api_count: 10
+api_count: 1
 apis:
 - description: Email and password sign-up, sign-in, and password management
   name: SuperTokens Email Password API
@@ -113,6 +113,22 @@ collections:
   name: SuperTokens Core Driver Interface Email Password Users API
   slug: open-supertokens-users-api
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/supertokens/supertokens-core/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/supertokens/supertokens-core/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/supertokens/supertokens-core/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/supertokens/supertokens-core/blob/master/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -286,7 +302,7 @@ overview: 'SuperTokens publishes 10 APIs on the [APIs.io](https://apis.io/) netw
   The SuperTokens catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SuperTokens'' developer surface includes authentication, engineering blog, and 1 more developer resources.'
+  SuperTokens'' developer surface includes authentication, engineering blog, and 5 more developer resources.'
 plans:
 - name: Supertokens Plans Pricing
   plan_count: 3
@@ -318,19 +334,27 @@ rules:
     warn: 3
   slug: supertokens-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 39.2
-  delta: 4.0
+  band: developing
+  composite: 47.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 35.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 54.5
     contract_quality: 62.4
     developer_ergonomics: 23.8
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 54.5
-    operational_transparency: 7.9
-  previous_composite: 35.2
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     contracts:
@@ -338,8 +362,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supertokens/refs/heads/main/screenshots/supertokens-2026-06-20T194732.png
 security:

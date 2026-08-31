@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 45
   slug: confident-lims-agentic-access
   summary_line: 45 operations · 17 acting
-api_count: 10
+api_count: 3
 apis:
 - description: Client organization information
   name: Confident LIMS Client Info API
@@ -254,18 +254,23 @@ overview: 'Confident LIMS publishes 10 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 8
 score:
   band: developing
-  composite: 48.8
+  composite: 47.3
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 67.5
     developer_ergonomics: 45.8
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 48.8
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -276,8 +281,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confident-lims/refs/heads/main/screenshots/confident-lims-2026-07-25T210248.png
 security:

@@ -34,22 +34,97 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 6
 apis:
-- description: The G2 API V2 provides programmatic access to G2's software reviews, buyer intent signals, competitive intelligence, and product data. Uses OAuth 2.0 for authentication. Enables integration of G2 buye
-  name: G2 API V2
-  slug: g2-api-v2
-- description: 'G2 Buyer Intent Data provides signals about companies actively researching software categories, products, and competitors on G2. Tracks nine signal types including profile views, pricing page visits, '
-  name: G2 Buyer Intent Data API
-  slug: g2-buyer-intent-data
 - description: The G2 MCP (Model Context Protocol) Server enables AI assistants like Claude to access G2 data. Uses OAuth for authentication via browser sign-in. Provides access to buyer intent intelligence, competi
   name: G2 MCP Server
   slug: g2-mcp-server
-- description: The G2 Data Solutions API delivers enriched review data with flat attribute structures, intended for analytics and warehouse workflows rather than profile rendering. It returns reviews with B2B firmog
-  name: G2 Data Solutions API
-  slug: g2-data-solutions-api
-artifact_total: 13
+- description: The Buyer Intent API from Business Software and Services Reviews | G2 — 3 operation(s) for buyer intent.
+  name: Business Software and Services Reviews | G2 Buyer Intent API
+  slug: business-software-and-services-reviews-g2-buyer-intent-api
+- description: The Categories API from Business Software and Services Reviews | G2 — 2 operation(s) for categories.
+  name: Business Software and Services Reviews | G2 Categories API
+  slug: business-software-and-services-reviews-g2-categories-api
+- description: The Chat Gpt Plugin API from Business Software and Services Reviews | G2 — 2 operation(s) for chat gpt plugin.
+  name: Business Software and Services Reviews | G2 Chat Gpt Plugin API
+  slug: business-software-and-services-reviews-g2-chat-gpt-plugin-api
+- description: The Competitors API from Business Software and Services Reviews | G2 — 1 operation(s) for competitors.
+  name: Business Software and Services Reviews | G2 Competitors API
+  slug: business-software-and-services-reviews-g2-competitors-api
+- description: The Credit Account API from Business Software and Services Reviews | G2 — 2 operation(s) for credit account.
+  name: Business Software and Services Reviews | G2 Credit Account API
+  slug: business-software-and-services-reviews-g2-credit-account-api
+- description: The Data Solutions Reviews API from Business Software and Services Reviews | G2 — 1 operation(s) for data solutions reviews.
+  name: Business Software and Services Reviews | G2 Data Solutions Reviews API
+  slug: business-software-and-services-reviews-g2-data-solutions-reviews-api
+- description: The Data Subscriptions API from Business Software and Services Reviews | G2 — 2 operation(s) for data subscriptions.
+  name: Business Software and Services Reviews | G2 Data Subscriptions API
+  slug: business-software-and-services-reviews-g2-data-subscriptions-api
+- description: The Discussions API from Business Software and Services Reviews | G2 — 1 operation(s) for discussions.
+  name: Business Software and Services Reviews | G2 Discussions API
+  slug: business-software-and-services-reviews-g2-discussions-api
+- description: The Downloads API from Business Software and Services Reviews | G2 — 1 operation(s) for downloads.
+  name: Business Software and Services Reviews | G2 Downloads API
+  slug: business-software-and-services-reviews-g2-downloads-api
+- description: The G2 Activate API from Business Software and Services Reviews | G2 — 4 operation(s) for g2 activate.
+  name: Business Software and Services Reviews | G2 G2 Activate API
+  slug: business-software-and-services-reviews-g2-g2-activate-api
+- description: The Integration Reviews API from Business Software and Services Reviews | G2 — 1 operation(s) for integration reviews.
+  name: Business Software and Services Reviews | G2 Integration Reviews API
+  slug: business-software-and-services-reviews-g2-integration-reviews-api
+- description: The Market Signals API from Business Software and Services Reviews | G2 — 1 operation(s) for market signals.
+  name: Business Software and Services Reviews | G2 Market Signals API
+  slug: business-software-and-services-reviews-g2-market-signals-api
+- description: The Medals API from Business Software and Services Reviews | G2 — 1 operation(s) for medals.
+  name: Business Software and Services Reviews | G2 Medals API
+  slug: business-software-and-services-reviews-g2-medals-api
+- description: The Performance Analytics API from Business Software and Services Reviews | G2 — 5 operation(s) for performance analytics.
+  name: Business Software and Services Reviews | G2 Performance Analytics API
+  slug: business-software-and-services-reviews-g2-performance-analytics-api
+- description: The Product Features API from Business Software and Services Reviews | G2 — 4 operation(s) for product features.
+  name: Business Software and Services Reviews | G2 Product Features API
+  slug: business-software-and-services-reviews-g2-product-features-api
+- description: The Product Mappings API from Business Software and Services Reviews | G2 — 2 operation(s) for product mappings.
+  name: Business Software and Services Reviews | G2 Product Mappings API
+  slug: business-software-and-services-reviews-g2-product-mappings-api
+- description: The Product Ratings API from Business Software and Services Reviews | G2 — 1 operation(s) for product ratings.
+  name: Business Software and Services Reviews | G2 Product Ratings API
+  slug: business-software-and-services-reviews-g2-product-ratings-api
+- description: The Product Videos API from Business Software and Services Reviews | G2 — 1 operation(s) for product videos.
+  name: Business Software and Services Reviews | G2 Product Videos API
+  slug: business-software-and-services-reviews-g2-product-videos-api
+- description: The Products API from Business Software and Services Reviews | G2 — 3 operation(s) for products.
+  name: Business Software and Services Reviews | G2 Products API
+  slug: business-software-and-services-reviews-g2-products-api
+- description: The Questions API from Business Software and Services Reviews | G2 — 2 operation(s) for questions.
+  name: Business Software and Services Reviews | G2 Questions API
+  slug: business-software-and-services-reviews-g2-questions-api
+- description: The Reports API from Business Software and Services Reviews | G2 — 1 operation(s) for reports.
+  name: Business Software and Services Reviews | G2 Reports API
+  slug: business-software-and-services-reviews-g2-reports-api
+- description: The Research Boards API from Business Software and Services Reviews | G2 — 6 operation(s) for research boards.
+  name: Business Software and Services Reviews | G2 Research Boards API
+  slug: business-software-and-services-reviews-g2-research-boards-api
+- description: The Reviews API from Business Software and Services Reviews | G2 — 2 operation(s) for reviews.
+  name: Business Software and Services Reviews | G2 Reviews API
+  slug: business-software-and-services-reviews-g2-reviews-api
+- description: The Screenshots API from Business Software and Services Reviews | G2 — 3 operation(s) for screenshots.
+  name: Business Software and Services Reviews | G2 Screenshots API
+  slug: business-software-and-services-reviews-g2-screenshots-api
+- description: The Snippets API from Business Software and Services Reviews | G2 — 1 operation(s) for snippets.
+  name: Business Software and Services Reviews | G2 Snippets API
+  slug: business-software-and-services-reviews-g2-snippets-api
+- description: The Users API from Business Software and Services Reviews | G2 — 1 operation(s) for users.
+  name: Business Software and Services Reviews | G2 Users API
+  slug: business-software-and-services-reviews-g2-users-api
+- description: The Vendors API from Business Software and Services Reviews | G2 — 2 operation(s) for vendors.
+  name: Business Software and Services Reviews | G2 Vendors API
+  slug: business-software-and-services-reviews-g2-vendors-api
+- description: The Video Reviews API from Business Software and Services Reviews | G2 — 1 operation(s) for video reviews.
+  name: Business Software and Services Reviews | G2 Video Reviews API
+  slug: business-software-and-services-reviews-g2-video-reviews-api
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Business Software And Services Reviews G2 Webhooks
@@ -231,7 +306,7 @@ modified: '2026-08-14'
 name: Business Software and Services Reviews | G2
 nav: Providers
 network: true
-overview: 'Business Software and Services Reviews | G2 publishes 3 APIs on the [APIs.io](https://apis.io/) network: G2 API V2, G2 Buyer Intent Data API, and G2 Data Solutions API. Tagged areas include B2B, Software-as-a-Service, Software Reviews, Buyer Intent, and Competitive Intelligence.
+overview: 'Business Software and Services Reviews | G2 publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Buyer Intent API, Categories API, Chat Gpt Plugin API, and 25 more. Tagged areas include B2B, Software-as-a-Service, Software Reviews, Buyer Intent, and Competitive Intelligence.
 
 
   The Business Software and Services Reviews | G2 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -254,18 +329,23 @@ scopes:
   summary_line: 16 scopes · authorizationCode
 score:
   band: developing
-  composite: 53.6
+  composite: 50.3
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
-    contract_quality: 63.8
+    contract_governance: 4.5
+    contract_quality: 62.9
     developer_ergonomics: 56.5
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 53.6
+  previous_composite: 50.3
   provenance:
     conformance: derived
     contracts:
@@ -275,8 +355,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/business-software-and-services-reviews-g2/refs/heads/main/screenshots/business-software-and-services-reviews-g2-2026-06-20T173819.png
 security:

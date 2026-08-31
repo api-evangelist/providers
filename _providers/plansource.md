@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 10
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 80
   slug: plansource-agentic-access
   summary_line: 80 operations · 44 acting · 10 human-in-the-loop
-api_count: 13
+api_count: 1
 apis:
 - description: Affordable Care Act data.
   name: PlanSource ACA API
@@ -40,15 +40,9 @@ apis:
 - description: Administrator Management
   name: PlanSource Administrators API
   slug: plansource-administrators-api
-- description: The All API from PlanSource — 62 operation(s) for all.
-  name: PlanSource All API
-  slug: plansource-all-api
 - description: Collections of objects.
   name: PlanSource Collections API
   slug: plansource-collections-api
-- description: Objects composed of resources.
-  name: PlanSource Composites API
-  slug: plansource-composites-api
 - description: Coverages, coverage lines, and dependent coverages.
   name: PlanSource Coverage API
   slug: plansource-coverage-api
@@ -64,16 +58,10 @@ apis:
 - description: Payroll coverages data.
   name: PlanSource Payroll API
   slug: plansource-payroll-api
-- description: Endpoints used for processing data, producing a result, and/or running a sequence of actions.
-  name: PlanSource Processing API
-  slug: plansource-processing-api
-- description: Individual objects.
-  name: PlanSource Resources API
-  slug: plansource-resources-api
 - description: Security Functions
   name: PlanSource Security API
   slug: plansource-security-api
-artifact_total: 33
+artifact_total: 29
 collections:
 - collection_type: open
   name: API Collection
@@ -118,6 +106,10 @@ collections:
   name: Plansource Admin Security API
   slug: open-plansource-security-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/plansource-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -247,10 +239,10 @@ modified: '2026-08-06'
 name: PlanSource
 nav: Providers
 network: true
-overview: 'PlanSource publishes 13 APIs on the [APIs.io](https://apis.io/) network, including ACA API, Administrators API, All API, and 10 more. Tagged areas include Employee Benefits, Benefits Administration, Insurance, Human Resources, and Payroll.
+overview: 'PlanSource publishes 9 APIs on the [APIs.io](https://apis.io/) network, including ACA API, Administrators API, Collections API, and 6 more. Tagged areas include Employee Benefits, Benefits Administration, Insurance, Human Resources, and Payroll.
 
 
-  PlanSource''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 22 more developer resources.'
+  PlanSource''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
 random_paper: 13
 scopes:
 - name: Plansource Scopes
@@ -259,18 +251,23 @@ scopes:
   summary_line: 8 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 49.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
-    contract_quality: 56.3
+    contract_governance: 18.2
+    contract_quality: 56.2
     developer_ergonomics: 49.4
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 52.1
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -283,12 +280,18 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: ccpa
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plansource/refs/heads/main/screenshots/plansource-2026-08-17T081304.png
 security:

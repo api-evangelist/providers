@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 577
   human_in_the_loop: 12
@@ -42,102 +42,12 @@ agentic_access:
   operation_count: 577
   slug: plaid-agentic-access
   summary_line: 577 operations · 577 acting · 12 human-in-the-loop
-api_count: 31
+api_count: 71
 apis:
-- description: 'Plaid''s Auth is part of the Plaid open-finance platform, exposing 3 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users'' bank and '
-  name: Plaid Auth API
-  slug: plaid-auth-api
-- description: Plaid's Balance is part of the Plaid open-finance platform, exposing 2 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users' bank a
-  name: Plaid Balance API
-  slug: plaid-accounts-api
-- description: 'Plaid''s Identity is part of the Plaid open-finance platform, exposing 6 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users'' bank '
-  name: Plaid Identity API
-  slug: plaid-identity-api
-- description: Plaid's Identity Verification is part of the Plaid open-finance platform, exposing 5 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end
-  name: Plaid Identity Verification API
-  slug: plaid-identity-verification-api
-- description: Plaid's Monitor Watchlist Screening is part of the Plaid open-finance platform, exposing 20 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect
-  name: Plaid Monitor Watchlist Screening API
-  slug: plaid-watchlist-screening-api
-- description: Plaid's Beacon is part of the Plaid open-finance platform, exposing 12 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users' bank a
-  name: Plaid Beacon API
-  slug: plaid-beacon-api
-- description: Plaid's Signal is part of the Plaid open-finance platform, exposing 8 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users' bank an
-  name: Plaid Signal API
-  slug: plaid-signal-api
-- description: Plaid's Transfer is part of the Plaid open-finance platform, exposing 49 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users' bank
-  name: Plaid Transfer API
-  slug: plaid-transfer-api
-- description: Plaid's Bank Transfer is part of the Plaid open-finance platform, exposing 13 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users'
-  name: Plaid Bank Transfer API
-  slug: plaid-bank-transfer-api
-- description: 'Plaid''s Transactions is part of the Plaid open-finance platform, exposing 17 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users'' '
-  name: Plaid Transactions API
-  slug: plaid-transactions-api
-- description: Plaid's Categories is part of the Plaid open-finance platform, exposing 1 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users' ban
-  name: Plaid Categories API
-  slug: plaid-categories-api
-- description: Plaid's Investments is part of the Plaid open-finance platform, exposing 4 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users' ba
-  name: Plaid Investments API
-  slug: plaid-investments-api
-- description: Plaid's Liabilities is part of the Plaid open-finance platform, exposing 2 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users' ba
-  name: Plaid Liabilities API
-  slug: plaid-liabilities-api
-- description: Plaid's Assets is part of the Plaid open-finance platform, exposing 10 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users' bank a
-  name: Plaid Assets API
-  slug: plaid-asset-report-api
-- description: Plaid's Income is part of the Plaid open-finance platform, exposing 6 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users' bank an
-  name: Plaid Income API
-  slug: plaid-income-api
-- description: Plaid's Employers is part of the Plaid open-finance platform, exposing 1 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users' bank
-  name: Plaid Employers API
-  slug: plaid-employers-api
-- description: Plaid's Credit is part of the Plaid open-finance platform, exposing 23 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users' bank a
-  name: Plaid Credit API
-  slug: plaid-credit-api
-- description: Plaid's Consumer Report CRA is part of the Plaid open-finance platform, exposing 9 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end u
-  name: Plaid Consumer Report CRA API
-  slug: plaid-cra-api
-- description: Plaid's Statements is part of the Plaid open-finance platform, exposing 3 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users' ban
-  name: Plaid Statements API
-  slug: plaid-statements-api
-- description: Plaid's Payment Initiation is part of the Plaid open-finance platform, exposing 12 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end u
-  name: Plaid Payment Initiation API
-  slug: plaid-payment-initiation-api
-- description: Plaid's Payment Profile is part of the Plaid open-finance platform, exposing 4 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users
-  name: Plaid Payment Profile API
-  slug: plaid-payment-profile-api
-- description: Plaid's Virtual Accounts Wallet is part of the Plaid open-finance platform, exposing 6 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to e
-  name: Plaid Virtual Accounts Wallet API
-  slug: plaid-wallet-api
-- description: Plaid's Institutions is part of the Plaid open-finance platform, exposing 3 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users' b
-  name: Plaid Institutions API
-  slug: plaid-institutions-api
-- description: Plaid's Item is part of the Plaid open-finance platform, exposing 14 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users' bank and
-  name: Plaid Item API
-  slug: plaid-item-api
-- description: 'Plaid''s Link is part of the Plaid open-finance platform, exposing 4 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users'' bank and '
-  name: Plaid Link API
-  slug: plaid-link-api
-- description: 'Plaid''s Hosted Link Delivery is part of the Plaid open-finance platform, exposing 2 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end '
-  name: Plaid Hosted Link Delivery API
-  slug: plaid-link-delivery-api
-- description: Plaid's Processor is part of the Plaid open-finance platform, exposing 21 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users' ban
-  name: Plaid Processor API
-  slug: plaid-processor-api
-- description: Plaid's Partner is part of the Plaid open-finance platform, exposing 5 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users' bank a
-  name: Plaid Partner API
-  slug: plaid-partner-api
-- description: 'Plaid''s Sandbox is part of the Plaid open-finance platform, exposing 23 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users'' bank '
-  name: Plaid Sandbox API
-  slug: plaid-sandbox-api
-- description: Plaid's Deposit Switch is part of the Plaid open-finance platform, exposing 4 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end users'
-  name: Plaid Deposit Switch API
-  slug: plaid-deposit-switch-api
-- description: Plaid's Core Exchange FDX is part of the Plaid open-finance platform, exposing 1 documented endpoint(s) under the Plaid REST API at production.plaid.com. It lets developers securely connect to end use
-  name: Plaid Core Exchange FDX API
-  slug: plaid-fdx-api
-artifact_total: 123
+- description: The Plaid API from Plaid — 256 operation(s) for plaid.
+  name: Plaid Plaid API
+  slug: plaid-plaid-api
+artifact_total: 93
 asyncapis:
 - description: AsyncAPI 2.6 specification for the Plaid webhook surface. Plaid delivers asynchronous notifications via HTTP POST to the URL registered on an Item (`webhook` parameter in `/link/token/create`) or conf
   name: Plaid Webhooks
@@ -587,7 +497,7 @@ modified: '2026-07-23'
 name: Plaid
 nav: Providers
 network: true
-overview: 'Plaid publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Balance API, Identity API, and 28 more. Tagged areas include Financial, Fintech, Open Banking, Bank Accounts, and Data Aggregation.
+overview: 'Plaid publishes 1 API on the [APIs.io](https://apis.io/) network: Plaid API. Tagged areas include Financial, Fintech, Open Banking, Bank Accounts, and Data Aggregation.
 
 
   The Plaid catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
@@ -628,18 +538,23 @@ rules:
   slug: plaid-spectral-rules
 score:
   band: exemplar
-  composite: 68.2
-  delta: 0.0
+  composite: 68.7
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 62.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.6
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
-    contract_governance: 41.7
-    contract_quality: 64.3
+    contract_governance: 29.5
+    contract_quality: 69.8
     developer_ergonomics: 66.1
-    discoverability: 75.9
-    governance: 41.7
+    discoverability: 81.5
+    governance: 29.5
     operational_transparency: 57.9
-  previous_composite: 68.2
+  previous_composite: 68.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -653,15 +568,17 @@ score:
   regulatory:
     applies: true
     jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
     - jurisdiction: US
       standard: fdx
-    jurisdictions_satisfied: 1
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 63.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plaid/refs/heads/main/screenshots/plaid-2026-06-20T161613.png
 security:

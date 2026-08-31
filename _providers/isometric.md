@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 125
   slug: isometric-agentic-access
   summary_line: 125 operations · 46 acting
-api_count: 36
+api_count: 2
 apis:
 - description: Isometric ships a hosted Model Context Protocol (MCP) server that makes the Isometric Standard, proprietary protocols (biochar, DAC, enhanced weathering, marine CDR, biosphere, superpollutants), proto
   name: Isometric MCP Server
@@ -268,6 +268,10 @@ collections:
   name: Isometric Certify Data Ingestion Beneficiaries Transfers API
   slug: open-isometric-transfers-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/isometric-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -404,22 +408,27 @@ network: true
 overview: 'Isometric publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Beneficiaries API, Beneficiary API, Biochar Applications API, and 32 more. Tagged areas include Carbon Removal, Carbon Registry, Climate, Climate Tech, and CDR.
 
 
-  Isometric''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, and 21 more developer resources.'
+  Isometric''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, and 22 more developer resources.'
 random_paper: 9
 score:
   band: thin
-  composite: 31.0
-  delta: 0.8
+  composite: 28.6
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 91.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 57.4
     developer_ergonomics: 48.8
-    discoverability: 68.5
+    discoverability: 44.4
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 30.2
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -433,8 +442,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isometric/refs/heads/main/screenshots/isometric-2026-06-20T183619.png
 security:

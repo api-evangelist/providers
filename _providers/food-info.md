@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 8
   slug: food-info-agentic-access
   summary_line: 8 operations · 2 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The ApiV1 API from Food Info — 6 operation(s) for apiv1.
   name: Food Info API V1 API
@@ -189,19 +189,24 @@ rate_limits:
   name: Food Info Rate Limits
   slug: food-info-rate-limits
 score:
-  band: developing
-  composite: 41.8
+  band: thin
+  composite: 39.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 57.1
     developer_ergonomics: 37.5
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 41.8
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -218,8 +223,8 @@ score:
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

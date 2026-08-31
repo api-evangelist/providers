@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 73
   slug: montran-agentic-access
   summary_line: 73 operations · 31 acting · 1 human-in-the-loop
-api_count: 43
+api_count: 6
 apis:
 - description: A robust 24/7, high-capacity, retail-focused payment solution that processes individual payments in real-time with guaranteed end-to-end payment processing latency of a few seconds. Designed for centr
   name: Montran Instant Payments System
@@ -284,6 +284,10 @@ collections:
   name: Montran Corporate Payments Portal Account Information Virtual IBANs API
   slug: open-montran-virtual-ibans-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/montran-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -660,7 +664,7 @@ overview: 'Montran publishes 29 APIs on the [APIs.io](https://apis.io/) network,
   The Montran catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Montran''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 10 more developer resources.'
+  Montran''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 11 more developer resources.'
 plans:
 - name: Montran Plans Pricing
   plan_count: 1
@@ -689,7 +693,12 @@ scopes:
 score:
   band: developing
   composite: 43.4
-  delta: -0.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 57.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -699,7 +708,7 @@ score:
     discoverability: 66.7
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 44.2
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     contracts:
@@ -713,8 +722,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/screenshots/montran-2026-06-20T185750.png
 security:
@@ -736,6 +745,6 @@ tags:
 - Messaging
 - Payments
 - Real-Time Payments
-- Swift
+- SWIFT
 website: https://www.montran.com/
 ---

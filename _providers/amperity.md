@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -42,14 +42,8 @@ agentic_access:
   operation_count: 19
   slug: amperity-agentic-access
   summary_line: 19 operations · 4 acting · 2 human-in-the-loop
-api_count: 5
+api_count: 2
 apis:
-- description: RESTful API for programmatic access to an Amperity tenant — list and manage campaigns, campaign drafts, segments, ingest jobs, audit events, and workflow runs. Authenticated with an OAuth2 client-cred
-  name: Amperity API
-  slug: amperity-api
-- description: Amperity's preview track for the Amperity API, published as a separate OpenAPI document alongside the stable 2024-04-01 spec. Currently adds GET /campaign-drafts on top of the stable operation set. Sa
-  name: Amperity API (Unstable)
-  slug: amperity-api-unstable
 - description: Amperity's official hosted remote Model Context Protocol server. A single public endpoint at https://mcp.amperity.com routes each request to the Amperity stack holding the calling user's tenant, and e
   name: Amperity MCP Server
   slug: amperity-mcp-server
@@ -59,7 +53,22 @@ apis:
 - description: Low-latency, high-throughput REST API for real-time ingestion of event data from external systems into Amperity. POST JSON or XML payloads (up to 1 MB) to a tenant-specific stream. JWT bearer auth wit
   name: Amperity Streaming API
   slug: amperity-streaming-api
-artifact_total: 15
+- description: Return records for user activity that occurred in your tenant.
+  name: Amperity Audit Events API
+  slug: amperity-audit-events-api
+- description: Return information about campaigns and campaign drafts.
+  name: Amperity Campaigns API
+  slug: amperity-campaigns-api
+- description: Return details about ingest jobs.
+  name: Amperity Ingest API
+  slug: amperity-ingest-api
+- description: Return a list of segments available in your tenant.
+  name: Amperity Segments API
+  slug: amperity-segments-api
+- description: List, run, and stop workflows.
+  name: Amperity Workflow API
+  slug: amperity-workflow-api
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Amperity Webhooks
@@ -72,6 +81,10 @@ collections:
   name: Amperity API (Unstable)
   slug: open-amperity-control-plane-unstable
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amperity-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -213,13 +226,13 @@ modified: '2026-08-13'
 name: Amperity
 nav: Providers
 network: true
-overview: 'Amperity publishes 2 APIs on the [APIs.io](https://apis.io/) network, including API (Unstable), and 1 more. Tagged areas include Company, Enterprise, Customer Data Platform, CDP, and Identity Resolution.
+overview: 'Amperity publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Audit Events API, Campaigns API, Ingest API, and 2 more. Tagged areas include Company, Enterprise, Customer Data Platform, CDP, and Identity Resolution.
 
 
   The Amperity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Amperity''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, sandbox, and 25 more developer resources.'
+  Amperity''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, sandbox, and 26 more developer resources.'
 plans:
 - name: Amperity Plans Pricing
   plan_count: 0
@@ -230,19 +243,24 @@ rate_limits:
   name: Amperity Rate Limits
   slug: amperity-rate-limits
 score:
-  band: strong
-  composite: 54.5
-  delta: 0.0
+  band: developing
+  composite: 51.1
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 30.3
-    contract_quality: 66.0
+    contract_governance: 18.2
+    contract_quality: 65.2
     developer_ergonomics: 56.5
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 81.6
-  previous_composite: 54.5
+  previous_composite: 51.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -253,8 +271,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amperity/refs/heads/main/screenshots/amperity-2026-07-25T200122.png
 security:

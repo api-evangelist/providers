@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -44,9 +44,51 @@ agentic_access:
   summary_line: 67 operations · 41 acting
 api_count: 1
 apis:
-- description: 'Token-authenticated REST API for the Cendyn CRM (formerly PUSHTech) hospitality CRM / CDP platform. 67 operations across 15 resources: read the account credit balance, manage contacts and their custom'
-  name: Cendyn CRM (PUSHTech) REST API
-  slug: cendyn-crm-pushtech-rest-api
+- description: The Account API from Push — 1 operation(s) for account.
+  name: Push Account API
+  slug: push-account-api
+- description: The Audience List API from Push — 2 operation(s) for audience list.
+  name: Push Audience List API
+  slug: push-audience-list-api
+- description: The Campaigns API from Push — 3 operation(s) for campaigns.
+  name: Push Campaigns API
+  slug: push-campaigns-api
+- description: The Company API from Push — 2 operation(s) for company.
+  name: Push Company API
+  slug: push-company-api
+- description: The Company custom fields API from Push — 2 operation(s) for company custom fields.
+  name: Push Company custom fields API
+  slug: push-company-custom-fields-api
+- description: The Contact API from Push — 5 operation(s) for contact.
+  name: Push Contact API
+  slug: push-contact-api
+- description: The Contact Custom fields API from Push — 2 operation(s) for contact custom fields.
+  name: Push Contact Custom fields API
+  slug: push-contact-custom-fields-api
+- description: The Coupon lists API from Push — 3 operation(s) for coupon lists.
+  name: Push Coupon lists API
+  slug: push-coupon-lists-api
+- description: The Deliveries API from Push — 5 operation(s) for deliveries.
+  name: Push Deliveries API
+  slug: push-deliveries-api
+- description: The Hotel Data API from Push — 4 operation(s) for hotel data.
+  name: Push Hotel Data API
+  slug: push-hotel-data-api
+- description: The Hotel Data custom fields API from Push — 2 operation(s) for hotel data custom fields.
+  name: Push Hotel Data custom fields API
+  slug: push-hotel-data-custom-fields-api
+- description: The Product API from Push — 2 operation(s) for product.
+  name: Push Product API
+  slug: push-product-api
+- description: The Product custom fields API from Push — 2 operation(s) for product custom fields.
+  name: Push Product custom fields API
+  slug: push-product-custom-fields-api
+- description: The Purchase API from Push — 4 operation(s) for purchase.
+  name: Push Purchase API
+  slug: push-purchase-api
+- description: The Sync Data API from Push — 2 operation(s) for sync data.
+  name: Push Sync Data API
+  slug: push-sync-data-api
 arazzos:
 - description: Discover account-specific product custom fields, create a product, record a purchase against an existing guest contact, and read the purchase back to confirm it landed — the flow that turns the Cendyn
   name: Load a product catalog and attach guest purchase history
@@ -54,7 +96,7 @@ arazzos:
 - description: Check the account has credit, create a guest contact in Cendyn CRM (PUSHTech) with GDPR consent recorded, subscribe them to an audience list, send a welcome email, and confirm the delivery reached a t
   name: Onboard a guest and send a welcome message
   slug: push-onboard-and-welcome-guest
-artifact_total: 10
+artifact_total: 24
 asyncapis:
 - description: 'Event surface of the Cendyn CRM (formerly PUSHTech) hospitality CRM / CDP platform. The platform makes an HTTP POST to subscriber-configured callback URLs when activities, message deliveries, contact '
   name: Cendyn CRM (PUSHTech) Webhooks
@@ -196,7 +238,7 @@ modified: '2026-08-13'
 name: Push
 nav: Providers
 network: true
-overview: 'Push publishes 1 API on the [APIs.io](https://apis.io/) network: Cendyn CRM (PUSHTech) REST API. Tagged areas include Company, CRM, Customer Data Platform, Marketing Automation, and Hospitality.
+overview: 'Push publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Account API, Audience List API, Campaigns API, and 12 more. Tagged areas include Company, CRM, Customer Data Platform, Marketing Automation, and Hospitality.
 
 
   The Push catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -214,18 +256,23 @@ rate_limits:
   slug: push-rate-limits
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 33.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 22.1
     developer_ergonomics: 66.1
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 35.3
+  previous_composite: 34.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -242,8 +289,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/screenshots/push-2026-08-17T081405.png
 security:

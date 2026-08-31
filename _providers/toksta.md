@@ -36,21 +36,49 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
-- description: Credit-metered REST API for Toksta creator data, analysis jobs and SaaS workspace workflows. HTTP Bearer auth with self-serve tk_live_ keys, cursor pagination, a normalized success/error envelope, per
-  name: Toksta Public API
-  slug: toksta-public-api
 - description: Hosted remote Model Context Protocol server exposing 18 Toksta tools — campaigns, creator discovery, lists, enrichment, content-fit and audience-fit analysis, and job control — to Claude and ChatGPT c
   name: Toksta MCP Server
   slug: toksta-mcp-server
-artifact_total: 10
+- description: The Account API from toksta — 1 operation(s) for account.
+  name: toksta Account API
+  slug: toksta-account-api
+- description: The Analysis API from toksta — 6 operation(s) for analysis.
+  name: toksta Analysis API
+  slug: toksta-analysis-api
+- description: The Campaigns API from toksta — 2 operation(s) for campaigns.
+  name: toksta Campaigns API
+  slug: toksta-campaigns-api
+- description: The Creator Lists API from toksta — 2 operation(s) for creator lists.
+  name: toksta Creator Lists API
+  slug: toksta-creator-lists-api
+- description: The Creators API from toksta — 4 operation(s) for creators.
+  name: toksta Creators API
+  slug: toksta-creators-api
+- description: The Enrichment API from toksta — 2 operation(s) for enrichment.
+  name: toksta Enrichment API
+  slug: toksta-enrichment-api
+- description: The Evidence API from toksta — 1 operation(s) for evidence.
+  name: toksta Evidence API
+  slug: toksta-evidence-api
+- description: The Jobs API from toksta — 4 operation(s) for jobs.
+  name: toksta Jobs API
+  slug: toksta-jobs-api
+- description: The System API from toksta — 4 operation(s) for system.
+  name: toksta System API
+  slug: toksta-system-api
+artifact_total: 18
 collections:
 - collection_type: open
   name: Toksta Public API
   slug: open-toksta-public-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/toksta-public-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -166,10 +194,10 @@ modified: '2026-08-13'
 name: toksta
 nav: Providers
 network: true
-overview: 'toksta publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Influencer Marketing, Marketing, B2B, and Creator Discovery.
+overview: 'toksta publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Account API, Analysis API, Campaigns API, and 6 more. Tagged areas include Company, Influencer Marketing, Marketing, B2B, and Creator Discovery.
 
 
-  toksta''s developer surface includes engineering blog, signup flow, documentation, API reference, getting-started guide, support, pricing, and 18 more developer resources.'
+  toksta''s developer surface includes engineering blog, signup flow, documentation, API reference, getting-started guide, support, pricing, and 19 more developer resources.'
 plans:
 - name: Toksta Plans Pricing
   plan_count: 0
@@ -186,18 +214,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.1
-  delta: 0.0
+  composite: 41.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.6
   facets:
-    access_clarity: 17.1
-    commercial_clarity: 17.1
-    contract_governance: 30.3
-    contract_quality: 52.7
+    access_clarity: 11.8
+    commercial_clarity: 11.8
+    contract_governance: 18.2
+    contract_quality: 54.2
     developer_ergonomics: 58.9
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 44.1
+  previous_composite: 43.2
   provenance:
     conformance: first-party
     contracts:
@@ -207,8 +240,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/screenshots/toksta-2026-08-17T082400.png
 security:

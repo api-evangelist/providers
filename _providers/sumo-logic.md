@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 9
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 419
   slug: sumo-logic-agentic-access
   summary_line: 419 operations · 228 acting · 9 human-in-the-loop
-api_count: 54
+api_count: 1
 apis:
 - description: Access Key management API. Access Keys allow you to securely register new Collectors and access Sumo Logic APIs. For more information, see [Access Keys](https://help.sumologic.com/?cid=6690).
   name: Sumo Logic accessKeyManagement API
@@ -206,7 +206,28 @@ apis:
 - description: User management API. To manage users, you must have the administrator role or your role must have been assigned the manage users and roles capability. For more information, see [Manage Users](https://
   name: Sumo Logic userManagement API
   slug: sumo-logic-usermanagement-api
-artifact_total: 136
+- description: The Collectors API from Sumo Logic — 2 operation(s) for collectors.
+  name: Sumo Logic Collectors API
+  slug: sumo-logic-collectors-api
+- description: The Content API from Sumo Logic — 2 operation(s) for content.
+  name: Sumo Logic Content API
+  slug: sumo-logic-content-api
+- description: The Dashboards API from Sumo Logic — 2 operation(s) for dashboards.
+  name: Sumo Logic Dashboards API
+  slug: sumo-logic-dashboards-api
+- description: The Monitors API from Sumo Logic — 1 operation(s) for monitors.
+  name: Sumo Logic Monitors API
+  slug: sumo-logic-monitors-api
+- description: The Roles API from Sumo Logic — 1 operation(s) for roles.
+  name: Sumo Logic Roles API
+  slug: sumo-logic-roles-api
+- description: The Search Jobs API from Sumo Logic — 4 operation(s) for search jobs.
+  name: Sumo Logic Search Jobs API
+  slug: sumo-logic-search-jobs-api
+- description: The Users API from Sumo Logic — 2 operation(s) for users.
+  name: Sumo Logic Users API
+  slug: sumo-logic-users-api
+artifact_total: 143
 asyncapis:
 - description: 'AsyncAPI description of Sumo Logic''s outbound webhook surfaces. Sumo Logic delivers alert and recovery notifications via HTTP POST to user-configured webhook connections. Each connection type targets '
   name: Sumo Logic Webhook Connections
@@ -405,6 +426,10 @@ collections:
   name: Sumo Logic REST API
   slug: open-sumologic
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sumo-logic-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -516,13 +541,13 @@ modified: '2026-08-08'
 name: Sumo Logic
 nav: Providers
 network: true
-overview: 'Sumo Logic publishes 54 APIs on the [APIs.io](https://apis.io/) network, including accessKeyManagement API, accountManagement API, appManagement API, and 51 more. Tagged areas include Logging, Observability, Security, Monitoring, and Analytics.
+overview: 'Sumo Logic publishes 61 APIs on the [APIs.io](https://apis.io/) network, including accessKeyManagement API, accountManagement API, appManagement API, and 58 more. Tagged areas include Logging, Observability, Security, Monitoring, and Analytics.
 
 
   The Sumo Logic catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Sumo Logic''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, GitHub presence, status page, and 11 more developer resources.'
+  Sumo Logic''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, GitHub presence, status page, and 12 more developer resources.'
 plans:
 - name: Sumo Logic Plans Pricing
   plan_count: 3
@@ -567,18 +592,23 @@ rules:
   slug: sumo-logic-rules
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 42.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 69.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.4
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 13.6
-    contract_quality: 73.1
+    contract_quality: 72.7
     developer_ergonomics: 52.4
-    discoverability: 50.0
+    discoverability: 44.4
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 43.5
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     contracts:
@@ -586,8 +616,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 61
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sumo-logic/refs/heads/main/screenshots/sumo-logic-2026-06-20T194649.png
 security:

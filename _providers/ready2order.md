@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-26'
-api_count: 36
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Account Token
   name: Ready2order Account Token API
@@ -262,6 +262,10 @@ collections:
   name: ready2order Public Account Token Webhook API
   slug: open-ready2order-webhook-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ready2order-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -378,28 +382,33 @@ modified: '2026-07-20'
 name: Ready2order
 nav: Providers
 network: true
-overview: 'Ready2order publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Account Token API, Accounting Financial Year API, Bill API, and 33 more. Tagged areas include Company, Point-of-Sale, Payments, Retail, and Gastronomy.
+overview: 'Ready2order publishes 36 APIs on the [APIs.io](https://apis.io/) network, including Account Token API, Accounting Financial Year API, Bill API, and 33 more. Tagged areas include Company, Point-of-Sale, POS, Payments, and Retail.
 
 
   The Ready2order catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ready2order''s developer surface includes documentation, API reference, support, pricing, signup flow, authentication, and 20 more developer resources.'
+  Ready2order''s developer surface includes documentation, API reference, support, pricing, signup flow, authentication, and 21 more developer resources.'
 random_paper: 10
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 44.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 91.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 67.1
     developer_ergonomics: 51.8
-    discoverability: 57.4
-    governance: 16.7
+    discoverability: 51.9
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 46.2
+  previous_composite: 44.7
   provenance:
     conformance: derived
     contracts:
@@ -415,8 +424,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ready2order/refs/heads/main/screenshots/ready2order-2026-08-17T081455.png
 security:
@@ -432,6 +441,7 @@ slug: ready2order
 tags:
 - Company
 - Point-of-Sale
+- POS
 - Payments
 - Retail
 - Gastronomy

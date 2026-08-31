@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,12 +33,12 @@ agentic_access:
   summary_line: 32 operations
 api_count: 2
 apis:
-- description: The current read-only REST API behind the UK Power Networks Open Data Portal, served from the company's own opendatasoft.com subdomain under an Opendatasoft Explore API v2.1 contract. Sixteen GET endp
-  name: UK Power Networks Open Data Explore API v2.1
-  slug: uk-power-networks-explore-api-v2-1
-- description: The previous version of the UK Power Networks Open Data Portal REST API, still live and still serving its own OpenAPI 3.0.3 contract at the company domain. Same sixteen endpoints and same catalogue as
-  name: UK Power Networks Open Data Explore API v2.0
-  slug: uk-power-networks-explore-api-v2-0
+- description: API to enumerate datasets
+  name: UK Power Networks Catalog API
+  slug: uk-power-networks-catalog-api
+- description: API to work on records
+  name: UK Power Networks Dataset API
+  slug: uk-power-networks-dataset-api
 artifact_total: 15
 collections:
 - collection_type: open
@@ -48,6 +48,26 @@ collections:
   name: Explore API
   slug: open-uk-power-networks-explore-api-v2-1
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/uk-power-networks-capability-edges.yml
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/UKPN-DSO/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/UKPN-DSO/ukpyn/blob/main/CONTRIBUTING.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/uk-power-networks-explore-api-v2-1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/uk-power-networks-explore-api-v2-0-overlay.yaml
 - group: commercial
   title: ''
   type: License
@@ -273,10 +293,10 @@ modified: '2026-07-27'
 name: UK Power Networks
 nav: Providers
 network: true
-overview: 'UK Power Networks publishes 2 APIs on the [APIs.io](https://apis.io/) network: Open Data Explore API v2.1 and Open Data Explore API v2.0. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Grid.
+overview: 'UK Power Networks publishes 2 APIs on the [APIs.io](https://apis.io/) network: Catalog API and Dataset API. Tagged areas include Energy, United Kingdom, Utilities, Electricity, and Grid.
 
 
-  UK Power Networks'' developer surface includes authentication, developer portal, documentation, developer console, signup flow, SDKs, changelog, and 42 more developer resources.'
+  UK Power Networks'' developer surface includes authentication, developer portal, documentation, developer console, signup flow, SDKs, changelog, and 47 more developer resources.'
 random_paper: 0
 rate_limits:
 - limit_count: 1
@@ -284,18 +304,26 @@ rate_limits:
   slug: uk-power-networks-rate-limits
 score:
   band: strong
-  composite: 66.1
-  delta: 1.9
+  composite: 65.1
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 65.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 56.5
     developer_ergonomics: 87.5
-    discoverability: 87.0
-    governance: 45.5
+    discoverability: 75.9
+    governance: 33.3
     operational_transparency: 57.9
-  previous_composite: 64.2
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 65.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -307,8 +335,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 48.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/screenshots/uk-power-networks-2026-08-17T082541.png
 security:

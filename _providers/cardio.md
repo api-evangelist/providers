@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/paypal/
 - group: operate
   title: ''
   type: IssueTracker
@@ -91,12 +95,17 @@ network: true
 overview: 'card.io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Mobile, SDK, and Credit Cards.
 
 
-  card.io''s developer surface includes documentation and 10 more developer resources.'
+  card.io''s developer surface includes documentation and 11 more developer resources.'
 random_paper: 17
 score:
   band: minimal
-  composite: 8.0
-  delta: 0.0
+  composite: 9.4
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -106,6 +115,9 @@ score:
     discoverability: 57.4
     governance: 0.0
     operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 25.0
   previous_composite: 8.0
   regulatory:
     applies: true
@@ -113,8 +125,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardio/refs/heads/main/screenshots/cardio-2026-07-25T204718.png
 security:

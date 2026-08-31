@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: Standards-based NTRIP interface to the Point One Polaris RTK corrections network. Clients connect over NTRIP 1.0 or 2.0 to a regional caster, authenticate with Basic auth using a unique per-connection
@@ -37,6 +37,14 @@ apis:
   slug: graphql
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/PointOneNav/polaris/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/PointOneNav/polaris/releases
 - group: commercial
   title: ''
   type: License
@@ -180,12 +188,17 @@ network: true
 overview: 'Point One Navigation publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Location, GNSS, Positioning, Geospatial, and RTK.
 
 
-  Point One Navigation''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+  Point One Navigation''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 1
 score:
   band: thin
-  composite: 35.3
-  delta: 1.7
+  composite: 34.2
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -195,12 +208,15 @@ score:
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 33.6
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 34.2
   provenance:
     conformance: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

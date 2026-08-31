@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 173
   slug: gerencianet-agentic-access
   summary_line: 173 operations · 112 acting · 1 human-in-the-loop
-api_count: 36
+api_count: 6
 apis:
 - description: The Account API from Efí Pay (Gerencianet) — 2 operation(s) for account.
   name: Efí Pay (Gerencianet) Account API
@@ -339,6 +339,10 @@ collections:
   name: Efí Pay Cobranças Account Webhooks API
   slug: open-gerencianet-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gerencianet-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -657,7 +661,7 @@ overview: 'Efí Pay (Gerencianet) publishes 36 APIs on the [APIs.io](https://api
   The Efí Pay (Gerencianet) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Efí Pay (Gerencianet)''s developer surface includes authentication, developer portal, getting-started guide, developer console, signup flow, pricing, engineering blog, and 49 more developer resources.'
+  Efí Pay (Gerencianet)''s developer surface includes authentication, developer portal, getting-started guide, developer console, signup flow, pricing, engineering blog, and 50 more developer resources.'
 plans:
 - name: Gerencianet Plans Pricing
   plan_count: 5
@@ -696,18 +700,23 @@ scopes:
   summary_line: 12 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 73.4
-  delta: 2.8
+  composite: 73.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 14.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 69.7
-    contract_quality: 63.9
+    contract_quality: 65.4
     developer_ergonomics: 78.6
     discoverability: 55.6
     governance: 69.7
     operational_transparency: 52.6
-  previous_composite: 70.6
+  previous_composite: 73.7
   provenance:
     agentic_access: derived
     contracts:
@@ -721,8 +730,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/screenshots/gerencianet-2026-06-20T181803.png
 security:
@@ -753,7 +762,7 @@ tags:
 - Open Finance
 - Banking as a Service
 - Account Opening
-- Bill Payments
+- Bill Payment
 - CNAB
 - Brazil
 - Fintech

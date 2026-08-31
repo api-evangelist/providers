@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 2
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 36
   slug: poggio-labs-agentic-access
   summary_line: 36 operations · 21 acting · 2 human-in-the-loop
-api_count: 4
+api_count: 1
 apis:
 - description: Versioned REST API (v2) exposing Poggio account intelligence, context search, account digests, the superagent chat, Salesforce account-plan writeback, and third-party integration registration. Secured
   name: Poggio REST API v2
@@ -51,13 +51,25 @@ apis:
 - description: Hosted, remote Model Context Protocol server exposing Poggio account intelligence to AI clients — search and fetch account intelligence documents, create or recreate accounts, and query the Poggio ass
   name: Poggio MCP Server
   slug: poggio-mcp-server
-- description: 'Open-source (Apache-2.0) REST API for Goalkeeper, Poggio Labs'' durable-goals record for teams of people and AI agents. 36 operations across goals, append-only goal updates, labels, organizations, API '
-  name: Goalkeeper API
-  slug: goalkeeper-api
 - description: 'Stateless Streamable HTTP MCP service shipped with Goalkeeper, exposing 11 tools for creating and reading goals, appending status/health/evaluation reports, and managing labels. Supports MCP protocol '
   name: Goalkeeper MCP Server
   slug: goalkeeper-mcp-server
-artifact_total: 13
+- description: Scoped credentials owned by an organization and user.
+  name: Poggio Labs API Tokens API
+  slug: poggio-labs-api-tokens-api
+- description: User session lifecycle.
+  name: Poggio Labs Authentication API
+  slug: poggio-labs-authentication-api
+- description: Organization goals and their label taxonomy.
+  name: Poggio Labs Goals API
+  slug: poggio-labs-goals-api
+- description: Organization membership and active organization selection.
+  name: Poggio Labs Organizations API
+  slug: poggio-labs-organizations-api
+- description: Service status endpoints.
+  name: Poggio Labs System API
+  slug: poggio-labs-system-api
+artifact_total: 17
 common:
 - group: agent
   title: ''
@@ -226,7 +238,7 @@ modified: '2026-08-13'
 name: Poggio Labs
 nav: Providers
 network: true
-overview: 'Poggio Labs publishes 1 API on the [APIs.io](https://apis.io/) network: Goalkeeper API. Tagged areas include Company, Artificial Intelligence, Revenue Intelligence, Sales, and Account Intelligence.
+overview: 'Poggio Labs publishes 5 APIs on the [APIs.io](https://apis.io/) network, including API Tokens API, Authentication API, Goals API, and 2 more. Tagged areas include Company, Artificial Intelligence, Revenue Intelligence, Sales, and Account Intelligence.
 
 
   Poggio Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 31 more developer resources.'
@@ -246,18 +258,23 @@ scopes:
   summary_line: 6 scopes
 score:
   band: strong
-  composite: 57.4
-  delta: 0.0
+  composite: 55.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 30.3
-    contract_quality: 49.5
+    contract_governance: 18.2
+    contract_quality: 48.8
     developer_ergonomics: 58.9
-    discoverability: 83.3
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 57.4
+  previous_composite: 55.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -268,8 +285,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/screenshots/poggio-labs-2026-08-17T081318.png
 security:

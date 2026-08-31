@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -34,18 +34,39 @@ agentic_access:
   summary_line: 21 operations · 10 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Partners API for TheFork Manager. Read customers, reservations and reviews; drive the booking funnel with availabilities, offers, party sizes and timeslots; create, update and cancel reservations; rep
-  name: TheFork B2B API
-  slug: thefork-b2b-api
-- description: 'Point-of-sale integration API for TheFork Manager. A POS vendor registers its POS instance, uploads a logo, receives an order-open webhook when a diner is seated, and closes the order back to TheFork '
-  name: TheFork POS API v1
-  slug: thefork-pos-api
-artifact_total: 10
+- description: The Booking flow API from LaFourchette — 8 operation(s) for booking flow.
+  name: LaFourchette Booking flow API
+  slug: lafourchette-booking-flow-api
+- description: The Data API from LaFourchette — 4 operation(s) for data.
+  name: LaFourchette Data API
+  slug: lafourchette-data-api
+- description: The Phone API from LaFourchette — 3 operation(s) for phone.
+  name: LaFourchette Phone API
+  slug: lafourchette-phone-api
+- description: The Review flow API from LaFourchette — 3 operation(s) for review flow.
+  name: LaFourchette Review flow API
+  slug: lafourchette-review-flow-api
+- description: The v1 API from LaFourchette — 3 operation(s) for v1.
+  name: LaFourchette V1 API
+  slug: lafourchette-v1-api
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Lafourchette Webhooks
   slug: lafourchette-webhooks
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/tripadvisor/
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lafourchette-b2b-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lafourchette-pos-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -187,13 +208,13 @@ modified: '2026-08-17'
 name: LaFourchette
 nav: Providers
 network: true
-overview: 'LaFourchette publishes 2 APIs on the [APIs.io](https://apis.io/) network: TheFork B2B API and TheFork POS API v1. Tagged areas include Company, Consumer, Restaurant, Reservations, and Booking.
+overview: 'LaFourchette publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Booking flow API, Data API, Phone API, and 2 more. Tagged areas include Company, Consumer, Restaurant, Reservations, and Booking.
 
 
   The LaFourchette catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  LaFourchette''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 25 more developer resources.'
+  LaFourchette''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Lafourchette Plans Pricing
   plan_count: 2
@@ -210,18 +231,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 42.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 20.5
     developer_ergonomics: 63.7
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 45.4
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -232,8 +258,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

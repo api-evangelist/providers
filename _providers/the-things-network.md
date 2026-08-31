@@ -11,10 +11,11 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,19 +23,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 22.8
-  scored_at: '2026-08-26'
+  score: 39.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 3
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 329
   slug: the-things-network-agentic-access
   summary_line: 329 operations · 174 acting · 3 human-in-the-loop
-api_count: 58
+api_count: 9
 apis:
 - description: The AppAs API from The Things Network / The Things Stack — 8 operation(s) for appas.
   name: The Things Network / The Things Stack AppAs API
@@ -218,7 +219,11 @@ apis:
 - description: The UserSessionRegistry API from The Things Network / The Things Stack — 2 operation(s) for usersessionregistry.
   name: The Things Network / The Things Stack UserSessionRegistry API
   slug: the-things-network-usersessionregistry-api
-artifact_total: 211
+artifact_total: 213
+asyncapis:
+- description: ''
+  name: The Things Network Webhooks
+  slug: the-things-network-webhooks
 collections:
 - collection_type: postman
   name: The Things Stack — Application Server AppAs API
@@ -599,6 +604,14 @@ collections:
   name: The Things Stack — Packet Broker Agent
   slug: open-the-things-stack-packet-broker-agent
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/the-things-network-capability-edges.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.thethingsnetwork.org/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -638,7 +651,7 @@ common:
 - group: build
   title: ''
   type: CLI
-  url: https://www.thethingsindustries.com/docs/api/reference/cli/
+  url: https://www.thethingsindustries.com/docs/ttn-lw-cli/
 - group: build
   title: ''
   type: SourceCode
@@ -665,7 +678,7 @@ common:
   url: https://github.com/TheThingsNetwork/lorawan-frequency-plans
 - group: build
   title: ''
-  type: SDKs
+  type: SourceCode
   url: https://github.com/TheThingsNetwork/lorawan-webhook-templates
 - group: build
   title: ''
@@ -686,19 +699,19 @@ common:
 - group: other
   title: ''
   type: Events
-  url: https://www.thethingsindustries.com/docs/the-things-stack/management/events/
+  url: https://www.thethingsindustries.com/docs/concepts/features/events/
 - group: operate
   title: ''
   type: RateLimits
-  url: https://www.thethingsindustries.com/docs/reference/rate-limiting/
+  url: https://www.thethingsindustries.com/docs/enterprise/management/rate-limiting/
 - group: docs
   title: ''
   type: Documentation
-  url: https://www.thethingsindustries.com/docs/the-things-stack/installation/
+  url: https://www.thethingsindustries.com/docs/enterprise/
 - group: operate
   title: ''
   type: StatusPage
-  url: https://status.thethingsindustries.com/
+  url: https://status.thethings.industries/
 - group: commercial
   title: ''
   type: License
@@ -751,6 +764,247 @@ common:
   title: ''
   type: Blog
   url: https://www.thethingsindustries.com/news/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/the-things-network-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/the-things-network-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/the-things-network-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/the-things-network-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/the-things-network-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/the-things-network-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/the-things-network-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/the-things-network-scopes.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/the-things-network-vulnerability-disclosure.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/the-things-network-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/the-things-network-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/the-things-network-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/the-things-network-cli.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/the-things-network-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/the-things-network-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/the-things-network-identity-server-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/the-things-network-application-server-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/the-things-network-end-device-registry-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/the-things-network-events-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/the-things-network-gateway-server-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/the-things-network-integrations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/the-things-network-join-server-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/the-things-network-network-server-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/the-things-network-packet-broker-agent-overlay.yaml
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/the-things-network-applicationserver.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/the-things-network-configuration_services.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/the-things-network-deviceclaimingserver.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/the-things-network-devicerepository.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/the-things-network-error.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/the-things-network-events.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/the-things-network-gatewayserver.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/the-things-network-identityserver.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/the-things-network-joinserver.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/the-things-network-networkserver.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/the-things-network-notification_service.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/the-things-network-oauth_services.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/the-things-network-packetbrokeragent.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/the-things-network-qrcodegenerator.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/the-things-network-rights.proto
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.thethingsindustries.com/docs/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.thethingsindustries.com/docs/api/reference/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.thethingsindustries.com/docs/api/reference/http/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.thethingsindustries.com/docs/getting-started/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.thethingsindustries.com/support/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/TheThingsNetwork
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/TheThingsIndustries
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.thethingsindustries.com/stack/plans/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://eu1.cloud.thethings.network/oauth/register
+- group: start
+  title: ''
+  type: Login
+  url: https://console.cloud.thethings.network
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.thethingsindustries.com/document/eula/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.thethingsindustries.com/document/privacypolicy/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.thethingsindustries.com/docs/api/concepts/auth/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.thethingsindustries.com/docs/api/concepts/pagination/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.thethingsindustries.com/docs/api/concepts/errors/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.thethingsindustries.com/docs/concepts/advanced/purge/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.thethingsindustries.com/docs/concepts/ttn/addresses/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.thethingsindustries.com/docs/integrations/webhooks/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.thethingsindustries.com/docs/integrations/other-integrations/mqtt/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.thethingsindustries.com/docs/whats-new/
+created: '2026-05-25'
 description: The Things Network (TTN) is a free, community-operated global LoRaWAN network with over 280,000 members and 21,000 gateways across 153 countries. It runs on The Things Stack, the open-source (Apache-2.0) LoRaWAN Network Server developed and maintained by The Things Industries. The Things Stack v3 implements the full LoRaWAN Network Reference Model — Identity Server, Application Server, Network Server, Gateway Server, Join Server, Device Repository, Packet Broker Agent — and exposes a unified HTTP REST and gRPC API plus MQTT, webhooks, and Pub/Sub integrations. The same software powers self-hosted deployments, the free The Things Network community network, The Things Stack Cloud (Discovery, Standard, Plus tiers), and The Things Stack Enterprise.
 examples:
 - key_count: 2
@@ -817,16 +1071,17 @@ jsonld:
   property_count: 3
   slug: the-things-network-context
 layout: provider
+modified: '2026-08-27'
 name: The Things Network / The Things Stack
 nav: Providers
 network: true
-overview: 'The Things Network / The Things Stack publishes 58 APIs on the [APIs.io](https://apis.io/) network, including AppAs API, ApplicationAccess API, ApplicationActivationSettingRegistry API, and 55 more. Tagged areas include LoRaWAN, IoT, Internet of Things, Open-Source, and Network Server.
+overview: 'The Things Network / The Things Stack publishes 58 APIs on the [APIs.io](https://apis.io/) network, including AppAs API, ApplicationAccess API, ApplicationActivationSettingRegistry API, and 55 more. Tagged areas include LoRaWAN, IoT, Internet Of Things, Open-Source, and Network Server.
 
 
-  The The Things Network / The Things Stack catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The The Things Network / The Things Stack catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  The Things Network / The Things Stack''s developer surface includes authentication, developer portal, documentation, CLI, changelog, tooling, engineering blog, and 31 more developer resources.'
+  The Things Network / The Things Stack''s developer surface includes authentication, developer portal, documentation, CLI, changelog, tooling, engineering blog, and 93 more developer resources.'
 plans:
 - name: The Things Network Plans Pricing
   plan_count: 6
@@ -858,20 +1113,30 @@ rules:
     info: 0
     warn: 2
   slug: the-things-network-rules
+scopes:
+- name: The Things Network Scopes
+  scope_count: 0
+  slug: the-things-network-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 53.9
-  delta: 0.8
+  band: exemplar
+  composite: 78.1
+  coverage:
+    artifact_dirs: 35
+    catalog_gap: 25.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 39.5
-    commercial_clarity: 39.5
-    contract_governance: 28.8
-    contract_quality: 65.3
-    developer_ergonomics: 57.1
-    discoverability: 59.3
-    governance: 28.8
-    operational_transparency: 68.4
-  previous_composite: 53.1
+    access_clarity: 84.2
+    commercial_clarity: 84.2
+    contract_governance: 47.0
+    contract_quality: 73.4
+    developer_ergonomics: 90.5
+    discoverability: 72.2
+    governance: 47.0
+    operational_transparency: 92.1
+  previous_composite: 78.1
   provenance:
     agentic_access: derived
     contracts:
@@ -879,15 +1144,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 58
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/screenshots/the-things-network-2026-06-20T195339.png
 security:
 - kind: authentication
   name: The Things Network Authentication
   slug: the-things-network-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/oauth2/http · 5 schemes
 - kind: domain-security
   name: The Things Network Domain Security
   slug: the-things-network-domain-security
@@ -895,12 +1160,12 @@ security:
 - kind: vulnerability-disclosure
   name: The Things Network Vulnerability Disclosure
   slug: the-things-network-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: Hackerone
 slug: the-things-network
 tags:
 - LoRaWAN
 - IoT
-- Internet of Things
+- Internet Of Things
 - Open-Source
 - Network Server
 - LPWAN
@@ -909,5 +1174,5 @@ tags:
 - Gateways
 - Connectivity
 - Apache 2.0
-website: https://www.thethingsnetwork.org
+website: https://www.thethingsnetwork.org/
 ---

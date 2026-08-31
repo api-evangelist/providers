@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: TypeScript and Rust SDKs plus a CLI for creating and operating Squads multisigs (smart accounts) on Solana — creating multisigs, proposing, approving and executing transactions, and managing program-u
@@ -44,6 +44,14 @@ apis:
   slug: grid-api
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Squads-Protocol/v4/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Squads-Protocol/v4/blob/main/SECURITY.md
 - group: commercial
   title: ''
   type: License
@@ -155,11 +163,16 @@ network: true
 overview: 'Squads publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Blockchain, Solana, and Multisig.
 
 
-  Squads'' developer surface includes documentation, getting-started guide, API reference, engineering blog, pricing, signup flow, support, and 18 more developer resources.'
+  Squads'' developer surface includes documentation, getting-started guide, API reference, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
 random_paper: 6
 score:
   band: developing
-  composite: 41.4
+  composite: 41.2
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
@@ -170,7 +183,10 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 41.4
+  open_source:
+    applies: true
+    score: 35.0
+  previous_composite: 41.2
   provenance:
     conformance: first-party
   regulatory:
@@ -179,8 +195,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -34,45 +34,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-08-26'
-api_count: 16
+  scored_at: '2026-08-30'
+api_count: 12
 apis:
-- description: Authoritative person and identity data for UW-Madison — names, populations, affiliations, contact points, exports and webhooks. 47 operations over 31 paths, JSON:API envelopes, OAuth 2.0 client creden
-  name: Person API
-  slug: person-api
-- description: Openly published mock of the Person API on mock.api.wisc.edu, mirroring all 47 operations so the contract and data shape are public even though production data is not. An unusually good practice for a
-  name: Mock Person API
-  slug: mock-person-api
-- description: Certificate-authentication variant of the Mock Person API — 39 operations over 23 paths, published for testing the mTLS/certificate access path documented on the portal.
-  name: Mock Person API (Certificates)
-  slug: mock-person-api-certificates
-- description: Institutional HR data — academic units, supervisory organizations, job profiles, positions and full-time-equivalent data, surfacing Workday-derived concepts under UW-Madison's own JSON:API contract. 9
-  name: HR API
-  slug: hr-api
-- description: Openly published mock of the HR API on mock.api.wisc.edu, mirroring all 9 operations.
-  name: Mock HR API
-  slug: mock-hr-api
-- description: Group and membership data for UW-Madison's Manifest service, backed by Internet2 Grouper Web Services. 5 operations, JSON:API, OAuth 2.0 client credentials, manual approval. Together with the Person A
-  name: Manifest API
-  slug: manifest-api
-- description: Openly published mock of the Manifest API on mock.api.wisc.edu.
-  name: Mock Manifest API
-  slug: mock-manifest-api
-- description: 'The largest contract in the estate — 73 operations covering sponsored research and financial administration: awards, award lines and tasks, grants, gifts, funds, cost centers, budget lines, billing sc'
-  name: Finance API
-  slug: finance-api
 - description: Campus location, building and room reference data. 3 operations, OAuth 2.0 client credentials, maintained by the DoIT EBS/IBS API team (locations-api@doit.wisc.edu).
   name: Locations API
   slug: locations-api
-- description: 'Service-provider billing transaction submission and lookup, backed by Salesforce. 7 operations. Recorded as published, with a defect noted honestly: the contract listed in the PRODUCTION portal declar'
-  name: Enterprise Billing API
-  slug: enterprise-billing-api
-- description: The token endpoint for the whole gateway — POST https://api.wisc.edu/oauth/token, HTTP Basic presentation of client_id/client_secret, returning the bearer access token every other UW-Madison API requi
-  name: OAuth API
-  slug: oauth-api
-- description: 'UW-Madison''s only openly callable API — the unauthenticated JSON search behind public.enroll.wisc.edu/search. Verified live on 2026-08-19: GET /terms returns the open term codes, GET /aggregate return'
-  name: Public Course Search API
-  slug: course-search-api
 - description: Institution-operated Shibboleth IdP at login.wisc.edu, machine-readable on two protocols and almost never catalogued for a university. https://login.wisc.edu/idp/shibboleth returns SAML 2.0 metadata (
   name: UW-Madison Identity Provider (Shibboleth)
   slug: identity-federation
@@ -85,8 +52,123 @@ apis:
 - description: UW-Madison's learning management system runs on an Instructure Canvas tenant at canvas.wisc.edu, gated behind the institution's own Shibboleth IdP — an unauthenticated request 302-redirects to login.w
   name: Canvas LMS (tenant)
   slug: canvas-lms
-artifact_total: 38
+- description: The Academic Units API from University of Wisconsin-Madison — 2 operation(s) for academic units.
+  name: University of Wisconsin-Madison Academic Units API
+  slug: university-of-wisconsin-madison-academic-units-api
+- description: The academicAppointments API from University of Wisconsin-Madison — 1 operation(s) for academicappointments.
+  name: University of Wisconsin-Madison Academic Appointments API
+  slug: university-of-wisconsin-madison-academicappointments-api
+- description: The addresses API from University of Wisconsin-Madison — 1 operation(s) for addresses.
+  name: University of Wisconsin-Madison Addresses API
+  slug: university-of-wisconsin-madison-addresses-api
+- description: The affiliations API from University of Wisconsin-Madison — 1 operation(s) for affiliations.
+  name: University of Wisconsin-Madison Affiliations API
+  slug: university-of-wisconsin-madison-affiliations-api
+- description: The Aggregate API from University of Wisconsin-Madison — 1 operation(s) for aggregate.
+  name: University of Wisconsin-Madison Aggregate API
+  slug: university-of-wisconsin-madison-aggregate-api
+- description: The Billing Batch Delete API from University of Wisconsin-Madison — 1 operation(s) for billing batch delete.
+  name: University of Wisconsin-Madison Billing Batch Delete API
+  slug: university-of-wisconsin-madison-billing-batch-delete-api
+- description: The Billing Batch Information API from University of Wisconsin-Madison — 1 operation(s) for billing batch information.
+  name: University of Wisconsin-Madison Billing Batch Information API
+  slug: university-of-wisconsin-madison-billing-batch-information-api
+- description: The Billing Batches API from University of Wisconsin-Madison — 1 operation(s) for billing batches.
+  name: University of Wisconsin-Madison Billing Batches API
+  slug: university-of-wisconsin-madison-billing-batches-api
+- description: The BillingCustomers API from University of Wisconsin-Madison — 1 operation(s) for billingcustomers.
+  name: University of Wisconsin-Madison Billing Customers API
+  slug: university-of-wisconsin-madison-billingcustomers-api
+- description: The Bulk Job Failed Results API from University of Wisconsin-Madison — 1 operation(s) for bulk job failed results.
+  name: University of Wisconsin-Madison Bulk Job Failed Results API
+  slug: university-of-wisconsin-madison-bulk-job-failed-results-api
+- description: The Bulk Job Status API from University of Wisconsin-Madison — 1 operation(s) for bulk job status.
+  name: University of Wisconsin-Madison Bulk Job Status API
+  slug: university-of-wisconsin-madison-bulk-job-status-api
+- description: The Bulkjob BillingTrans API from University of Wisconsin-Madison — 1 operation(s) for bulkjob billingtrans.
+  name: University of Wisconsin-Madison Bulkjob BillingTrans API
+  slug: university-of-wisconsin-madison-bulkjob-billingtrans-api
+- description: The certificates API from University of Wisconsin-Madison — 2 operation(s) for certificates.
+  name: University of Wisconsin-Madison Certificates API
+  slug: university-of-wisconsin-madison-certificates-api
+- description: The degrees API from University of Wisconsin-Madison — 1 operation(s) for degrees.
+  name: University of Wisconsin-Madison Degrees API
+  slug: university-of-wisconsin-madison-degrees-api
+- description: The emailAddresses API from University of Wisconsin-Madison — 1 operation(s) for emailaddresses.
+  name: University of Wisconsin-Madison Email Addresses API
+  slug: university-of-wisconsin-madison-emailaddresses-api
+- description: The exports API from University of Wisconsin-Madison — 2 operation(s) for exports.
+  name: University of Wisconsin-Madison Exports API
+  slug: university-of-wisconsin-madison-exports-api
+- description: The groups API from University of Wisconsin-Madison — 3 operation(s) for groups.
+  name: University of Wisconsin-Madison Groups API
+  slug: university-of-wisconsin-madison-groups-api
+- description: The identifiers API from University of Wisconsin-Madison — 1 operation(s) for identifiers.
+  name: University of Wisconsin-Madison Identifiers API
+  slug: university-of-wisconsin-madison-identifiers-api
+- description: The jobs API from University of Wisconsin-Madison — 5 operation(s) for jobs.
+  name: University of Wisconsin-Madison Jobs API
+  slug: university-of-wisconsin-madison-jobs-api
+- description: The Journals API from University of Wisconsin-Madison — 4 operation(s) for journals.
+  name: University of Wisconsin-Madison Journals API
+  slug: university-of-wisconsin-madison-journals-api
+- description: The members API from University of Wisconsin-Madison — 2 operation(s) for members.
+  name: University of Wisconsin-Madison Members API
+  slug: university-of-wisconsin-madison-members-api
+- description: The names API from University of Wisconsin-Madison — 2 operation(s) for names.
+  name: University of Wisconsin-Madison Names API
+  slug: university-of-wisconsin-madison-names-api
+- description: The organizationStructures API from University of Wisconsin-Madison — 2 operation(s) for organizationstructures.
+  name: University of Wisconsin-Madison Organization Structures API
+  slug: university-of-wisconsin-madison-organizationstructures-api
+- description: The Other API from University of Wisconsin-Madison — 32 operation(s) for other.
+  name: University of Wisconsin-Madison Other API
+  slug: university-of-wisconsin-madison-other-api
+- description: The people API from University of Wisconsin-Madison — 2 operation(s) for people.
+  name: University of Wisconsin-Madison People API
+  slug: university-of-wisconsin-madison-people-api
+- description: The phoneNumbers API from University of Wisconsin-Madison — 1 operation(s) for phonenumbers.
+  name: University of Wisconsin-Madison Phone Numbers API
+  slug: university-of-wisconsin-madison-phonenumbers-api
+- description: The Research API from University of Wisconsin-Madison — 6 operation(s) for research.
+  name: University of Wisconsin-Madison Research API
+  slug: university-of-wisconsin-madison-research-api
+- description: The Salary Structures API from University of Wisconsin-Madison — 2 operation(s) for salary structures.
+  name: University of Wisconsin-Madison Salary Structures API
+  slug: university-of-wisconsin-madison-salary-structures-api
+- description: The socialSecurityNumbers API from University of Wisconsin-Madison — 1 operation(s) for socialsecuritynumbers.
+  name: University of Wisconsin-Madison Social Security Numbers API
+  slug: university-of-wisconsin-madison-socialsecuritynumbers-api
+- description: The Standard Job Descriptions API from University of Wisconsin-Madison — 3 operation(s) for standard job descriptions.
+  name: University of Wisconsin-Madison Standard Job Descriptions API
+  slug: university-of-wisconsin-madison-standard-job-descriptions-api
+- description: The Supervisory Organizations API from University of Wisconsin-Madison — 2 operation(s) for supervisory organizations.
+  name: University of Wisconsin-Madison Supervisory Organizations API
+  slug: university-of-wisconsin-madison-supervisory-organizations-api
+- description: The Terms API from University of Wisconsin-Madison — 1 operation(s) for terms.
+  name: University of Wisconsin-Madison Terms API
+  slug: university-of-wisconsin-madison-terms-api
+- description: The Token API from University of Wisconsin-Madison — 1 operation(s) for token.
+  name: University of Wisconsin-Madison Token API
+  slug: university-of-wisconsin-madison-token-api
+- description: The UW Madison Public Course Search API API from University of Wisconsin-Madison — 1 operation(s) for uw madison public course search api.
+  name: University of Wisconsin-Madison UW Madison Public Course Search API
+  slug: university-of-wisconsin-madison-uw-madison-public-course-search-api-api
+- description: The webhooks API from University of Wisconsin-Madison — 7 operation(s) for webhooks.
+  name: University of Wisconsin-Madison Webhooks API
+  slug: university-of-wisconsin-madison-webhooks-api
+- description: The wiscard API from University of Wisconsin-Madison — 1 operation(s) for wiscard.
+  name: University of Wisconsin-Madison Wiscard API
+  slug: university-of-wisconsin-madison-wiscard-api
+- description: The Worktags API from University of Wisconsin-Madison — 31 operation(s) for worktags.
+  name: University of Wisconsin-Madison Worktags API
+  slug: university-of-wisconsin-madison-worktags-api
+artifact_total: 64
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/university-of-wisconsin-madison-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -281,13 +363,13 @@ modified: '2026-08-19'
 name: University of Wisconsin-Madison
 nav: Providers
 network: true
-overview: 'University of Wisconsin-Madison publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Person API, Mock Person API, Mock Person API (Certificates), and 9 more. Tagged areas include University, Higher Education, Education, Public Research University, and United States.
+overview: 'University of Wisconsin-Madison publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Locations API, Academic Units API, Academic Appointments API, and 35 more. Tagged areas include University, Higher Education, Education, Public Research University, and United States.
 
 
   The University of Wisconsin-Madison catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  University of Wisconsin-Madison''s developer surface includes documentation, authentication, status page, support, engineering blog, and 28 more developer resources.'
+  University of Wisconsin-Madison''s developer surface includes documentation, authentication, status page, support, engineering blog, and 29 more developer resources.'
 plans:
 - name: University Of Wisconsin Madison Plans Pricing
   plan_count: 2
@@ -315,18 +397,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 56.3
-  delta: 4.7
+  composite: 56.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 31.8
-    contract_quality: 65.0
+    contract_quality: 68.0
     developer_ergonomics: 35.7
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 31.8
     operational_transparency: 23.7
-  previous_composite: 51.6
+  previous_composite: 56.5
   provenance:
     conformance: first-party
     contracts:
@@ -340,8 +427,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 79.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-wisconsin-madison/refs/heads/main/screenshots/university-of-wisconsin-madison-2026-06-20T200421.png
 security:

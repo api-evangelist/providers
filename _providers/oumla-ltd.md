@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-26'
-api_count: 12
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The addresses API from Oumla Ltd — 5 operation(s) for addresses.
   name: Oumla Ltd addresses API
@@ -237,18 +237,23 @@ overview: 'Oumla Ltd publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 8
 score:
   band: developing
-  composite: 49.9
-  delta: 0.0
+  composite: 48.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 57.0
     developer_ergonomics: 73.2
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 49.9
+  previous_composite: 49.2
   provenance:
     conformance: first-party
     contracts:
@@ -264,8 +269,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oumla-ltd/refs/heads/main/screenshots/oumla-ltd-2026-08-07T191043.png
 security:

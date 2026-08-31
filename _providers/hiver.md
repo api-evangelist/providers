@@ -24,18 +24,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: The Hiver REST API (v1) exposes Shared Inboxes and their conversations, users, tags and internal notes. Twelve operations across two resources let an integration list and read inboxes, enumerate and s
-  name: Hiver API
-  slug: hiver-api
-artifact_total: 8
+- description: The Conversations API from Hiver — 4 operation(s) for conversations.
+  name: Hiver Conversations API
+  slug: hiver-conversations-api
+- description: The Inbox API from Hiver — 6 operation(s) for inbox.
+  name: Hiver Inbox API
+  slug: hiver-inbox-api
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Hiver Webhooks
   slug: hiver-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hiver-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -164,13 +171,13 @@ modified: '2026-08-22'
 name: Hiver
 nav: Providers
 network: true
-overview: 'Hiver publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Service, Help Desk, Shared Inbox, and Email.
+overview: 'Hiver publishes 2 APIs on the [APIs.io](https://apis.io/) network: Conversations API and Inbox API. Tagged areas include Company, Customer Service, Help Desk, Shared Inbox, and Email.
 
 
   The Hiver catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hiver''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 23 more developer resources.'
+  Hiver''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 24 more developer resources.'
 plans:
 - name: Hiver Plans Pricing
   plan_count: 0
@@ -181,19 +188,24 @@ rate_limits:
   name: Hiver Rate Limits
   slug: hiver-rate-limits
 score:
-  band: strong
-  composite: 56.5
-  delta: 2.3
+  band: developing
+  composite: 54.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 56.5
     developer_ergonomics: 58.9
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 65.8
-  previous_composite: 54.2
+  previous_composite: 54.0
   provenance:
     conformance: first-party
     contracts:
@@ -203,8 +215,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -231,13 +243,13 @@ tags:
 - Shared Inbox
 - Email
 - Ticketing
-- Customer Support
+- Customer-Support
 - Collaboration
 - Gmail
 - Google Workspace
 - Omnichannel
 - Live Chat
-- SaaS
+- Software-as-a-Service
 - Artificial Intelligence
 website: https://hiverhq.com/
 ---

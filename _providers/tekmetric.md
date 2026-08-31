@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: tekmetric-agentic-access
   summary_line: 17 operations · 1 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Scheduled shop appointments.
   name: Tekmetric Appointments API
@@ -107,6 +107,10 @@ collections:
   name: Tekmetric API
   slug: open-tekmetric
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tekmetric-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -170,7 +174,7 @@ network: true
 overview: 'Tekmetric publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Canned Jobs API, Customers API, and 6 more. Tagged areas include Automotive, Auto Repair, Shop Management, Fleet, and Vertical SaaS.
 
 
-  Tekmetric''s developer surface includes authentication, documentation, and 10 more developer resources.'
+  Tekmetric''s developer surface includes authentication, documentation, and 11 more developer resources.'
 plans:
 - name: Tekmetric Plans Pricing
   plan_count: 6
@@ -187,18 +191,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.6
-  delta: 0.9
+  composite: 36.1
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 53.3
     developer_ergonomics: 16.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 35.7
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     contracts:
@@ -206,8 +215,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

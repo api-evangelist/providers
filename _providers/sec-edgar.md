@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 5
   slug: sec-edgar-agentic-access
   summary_line: 5 operations
-api_count: 5
+api_count: 1
 apis:
 - description: The SEC EDGAR (Electronic Data Gathering, Analysis, and Retrieval) system provides REST APIs for accessing company filings, XBRL financial data, and full-text search across SEC submissions. APIs deliv
   name: SEC EDGAR Company Filings API
@@ -179,18 +179,23 @@ rules:
   slug: sec-edgar-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.5
-  delta: 1.4
+  composite: 36.0
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 54.8
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
     contract_governance: 9.8
     contract_quality: 59.9
     developer_ergonomics: 35.7
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 35.1
+  previous_composite: 36.5
   provenance:
     agentic_access: derived
     contracts:
@@ -202,8 +207,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sec-edgar/refs/heads/main/screenshots/sec-edgar-2026-06-20T193620.png
 security:

@@ -12,7 +12,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: verified
@@ -23,8 +23,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.9
-  scored_at: '2026-08-26'
+  score: 46.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -32,21 +32,27 @@ agentic_access:
   operation_count: 15
   slug: opentravel-alliance-agentic-access
   summary_line: 15 operations · 11 acting
-api_count: 4
+api_count: 8
 apis:
-- description: Swagger 2.0 resource contract generated from the OpenTravel 2.0 Object Model, 2020A Object Suite. Defines three operations for hotel descriptive content — GET /HotelDescriptiveContents, POST /HotelDes
-  name: OpenTravel 2020A Hotel Descriptive Content Resource
-  slug: opentravel-2020a-hotel-descriptive-content-resource
-- description: Swagger 2.0 resource contract generated from the OpenTravel 2.0 Object Model, 2020A Object Suite. Defines POST /Facilities and GET /Facilities/{Identifier} with 232 model definitions covering hospital
-  name: OpenTravel 2020A Facility Resource
-  slug: opentravel-2020a-facility-resource
-- description: Swagger 2.0 resource contract generated from the OpenTravel 2.0 Object Model, 2018A Object Suite. Defines POST /HospitalityOffers and POST /HospitalityPropertyOffers with 372 model definitions coverin
-  name: OpenTravel 2018A Hospitality Offers Resource
-  slug: opentravel-2018a-hospitality-offers-resource
-- description: Swagger 2.0 resource contract generated from the OpenTravel 2.0 Object Model, 2018A Object Suite. Defines POST /Facilities, POST /HospitalityFindHospitalityAvailability and POST /HospitalityRetrieveFa
-  name: OpenTravel 2018A Facility Resource
-  slug: opentravel-2018a-facility-resource
-artifact_total: 35
+- description: The Facilities API from OpenTravel Alliance — 2 operation(s) for facilities.
+  name: OpenTravel Alliance Facilities API
+  slug: opentravel-alliance-facilities-api
+- description: The HospitalityFindHospitalityAvailability API from OpenTravel Alliance — 1 operation(s) for hospitalityfindhospitalityavailability.
+  name: OpenTravel Alliance Hospitality Find Hospitality Availability API
+  slug: opentravel-alliance-hospitalityfindhospitalityavailability-api
+- description: The HospitalityOffers API from OpenTravel Alliance — 1 operation(s) for hospitalityoffers.
+  name: OpenTravel Alliance Hospitality Offers API
+  slug: opentravel-alliance-hospitalityoffers-api
+- description: The HospitalityPropertyOffers API from OpenTravel Alliance — 1 operation(s) for hospitalitypropertyoffers.
+  name: OpenTravel Alliance Hospitality Property Offers API
+  slug: opentravel-alliance-hospitalitypropertyoffers-api
+- description: The HospitalityRetrieveFacilityAvailability API from OpenTravel Alliance — 1 operation(s) for hospitalityretrievefacilityavailability.
+  name: OpenTravel Alliance Hospitality Retrieve Facility Availability API
+  slug: opentravel-alliance-hospitalityretrievefacilityavailability-api
+- description: The HotelDescriptiveContents API from OpenTravel Alliance — 3 operation(s) for hoteldescriptivecontents.
+  name: OpenTravel Alliance Hotel Descriptive Contents API
+  slug: opentravel-alliance-hoteldescriptivecontents-api
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Opentravel Alliance Notifications Webhooks
@@ -77,6 +83,46 @@ collections:
   name: HotelDescriptiveContentResource
   slug: open-opentravel-2020a-hotel-descriptive-content-resource
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/opentravel-alliance-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/OpenTravel/OpenTravel-Specifications/issues
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/opentravel-alliance-2020a-hotel-descriptive-content-resource-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/opentravel-alliance-hotel-descriptive-content.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/opentravel-alliance-2020a-facility-resource-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/opentravel-alliance-facility-resource.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/opentravel-alliance-2018a-hospitality-offers-resource-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/opentravel-alliance-hospitality-offers.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/opentravel-alliance-2018a-facility-resource-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/opentravel-alliance-hospitality-facility-availability.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -351,13 +397,13 @@ modified: '2026-07-28'
 name: OpenTravel Alliance
 nav: Providers
 network: true
-overview: 'OpenTravel Alliance publishes 4 APIs on the [APIs.io](https://apis.io/) network, including OpenTravel 2020A Hotel Descriptive Content Resource, OpenTravel 2020A Facility Resource, OpenTravel 2018A Hospitality Offers Resource, and 1 more. Tagged areas include Travel, United States, Standards, Aviation, and Hospitality.
+overview: 'OpenTravel Alliance publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Facilities API, Hospitality Find Hospitality Availability API, Hospitality Offers API, and 3 more. Tagged areas include Travel, United States, Standards, Aviation, and Hospitality.
 
 
   The OpenTravel Alliance catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  OpenTravel Alliance''s developer surface includes getting-started guide, support, authentication, changelog, CLI, code examples, API reference, and 45 more developer resources.'
+  OpenTravel Alliance''s developer surface includes getting-started guide, support, authentication, changelog, CLI, code examples, API reference, and 55 more developer resources.'
 random_paper: 5
 scopes:
 - name: Opentravel Alliance Scopes
@@ -366,18 +412,26 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 47.1
+  composite: 40.7
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 65.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
-    contract_governance: 31.8
-    contract_quality: 56.5
+    contract_governance: 19.7
+    contract_quality: 59.2
     developer_ergonomics: 54.2
-    discoverability: 75.9
-    governance: 31.8
+    discoverability: 64.8
+    governance: 19.7
     operational_transparency: 31.6
-  previous_composite: 47.1
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -388,8 +442,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/screenshots/opentravel-alliance-2026-08-07T190651.png
 security:

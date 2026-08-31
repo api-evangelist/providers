@@ -33,10 +33,10 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: 'The AIS Client Portal provides investment analytics, portfolio management, and reporting tools for financial advisors and individual investors. The portal enables access to AIS investment strategies, '
+- description: 'The AIS Client Portal is the secure area where financial advisors and individual investors reach AIS statements, performance reporting and account documents. Probed 2026-08-30: clients.aisgroup.com is'
   name: AIS Client Portal
   slug: ais-client-portal
 artifact_total: 14
@@ -45,6 +45,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/ais-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ais-llms.txt
 - group: company
   title: ''
   type: Website
@@ -57,8 +61,26 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://www.aisgroup.com/privacy-policy
+coverage:
+  checked: '2026-08-30'
+  detail: AIS Capital Management, L.P. is a registered investment manager whose product is a managed global-macro program, not software — the Drupal marketing site has no developer, docs or API path, and the one "portal" in the profile is a white-labeled Onehub workspace that redirects to ws.onehub.com/signin, so the only API in reach belongs to a vendor rather than to AIS.
+  evidence:
+  - status: 404
+    url: https://www.aisgroup.com/developers
+  - status: 404
+    url: https://www.aisgroup.com/openapi.json
+  - status: 404
+    url: https://www.aisgroup.com/.well-known/api-catalog
+  - status: 404
+    url: https://clients.aisgroup.com/.well-known/agent-card.json
+  - status: 200
+    url: https://www.aisgroup.com/api
+  - status: 200
+    url: https://www.aisgroup.com/
+  reason: not-a-software-company
+  state: none
 created: '2025-01-01'
-description: AIS Group is an analytics and investment management firm providing independent, data-driven insights across global financial markets. The firm combines macroeconomic research with quantitative analytics to deliver non-correlated investment strategies for financial advisors and institutional clients, with a focus on commodity, currency, equity, and fixed-income market analysis.
+description: 'AIS Group — trading as AIS Capital Management, L.P., where AIS stands for "Applied Intelligence Strategies" — is an investment management firm running absolute-return, global macro programs for financial advisors and individual investors. It combines discretionary macroeconomic and intermarket research (the Multi-Asset Allocation Portfolio family) with systematic, shorter-horizon models (the Frontera programs), trading only liquid instruments listed on major exchanges and describing its methodology as transparent rather than black-box. The firm is an investment manager rather than a software vendor: it publishes no public API, no developer program and no machine-readable contract, and its client portal is a licensed third-party workspace rather than software it operates.'
 features:
 - description: Quantitative analysis across commodity, currency, equity, and fixed-income markets to identify investment opportunities.
   name: Global Investment Analytics
@@ -76,42 +98,41 @@ finops:
   slug: ais-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ais.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-30'
 name: AIS Group
 nav: Providers
 network: true
-overview: AIS Group publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Finance, Insurance, Investment Analytics, and Risk Management.
+overview: AIS Group publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Finance, Global Macro, Investment Analytics, and Investment Management.
 plans:
 - name: Ais Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: ais-plans-pricing
 random_paper: 2
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Ais Rate Limits
   slug: ais-rate-limits
 score:
-  band: emerging
-  composite: 13.6
-  delta: 3.2
+  band: minimal
+  composite: 10.9
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.7
   facets:
-    access_clarity: 32.9
-    commercial_clarity: 32.9
+    access_clarity: 25.0
+    commercial_clarity: 25.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 0.0
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 7.9
-  previous_composite: 10.4
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Insurance
-    regime_id: insurance
-    score: 15.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 0.0
+  previous_composite: 13.6
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ais/refs/heads/main/screenshots/ais-2026-06-20T171439.png
 security:
@@ -123,8 +144,9 @@ slug: ais
 tags:
 - Analytics
 - Finance
-- Insurance
+- Global Macro
 - Investment Analytics
+- Investment Management
 - Risk Management
 use_cases:
 - description: Financial advisors use AIS analytics to identify non-correlated investment strategies that reduce portfolio concentration risk.

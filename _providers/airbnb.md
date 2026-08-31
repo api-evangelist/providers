@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 34
   slug: airbnb-agentic-access
   summary_line: 34 operations · 19 acting
-api_count: 11
+api_count: 2
 apis:
 - description: The Airbnb Webhooks API enables connectivity partners to receive real-time notifications when events occur on the Airbnb platform. It supports webhook subscriptions for reservation changes, message cr
   name: Airbnb Webhooks API
@@ -120,6 +120,10 @@ collections:
   name: Airbnb Activities Bookings Schedules API
   slug: open-airbnb-schedules-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/airbnb-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -763,7 +767,7 @@ overview: 'airbnb publishes 11 APIs on the [APIs.io](https://apis.io/) network, 
   The airbnb catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  airbnb''s developer surface includes authentication, developer portal, engineering blog, GitHub presence, code examples, and 90 more developer resources.'
+  airbnb''s developer surface includes authentication, developer portal, engineering blog, GitHub presence, code examples, and 91 more developer resources.'
 plans:
 - name: Airbnb Plans Pricing
   plan_count: 5
@@ -813,18 +817,23 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.1
-  delta: 1.0
+  composite: 44.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 60.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 28.8
     contract_quality: 78.7
     developer_ergonomics: 26.2
-    discoverability: 59.3
+    discoverability: 53.7
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 44.1
+  previous_composite: 45.1
   provenance:
     agentic_access: derived
     contracts:
@@ -836,8 +845,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/screenshots/airbnb-2026-06-20T171418.png
 security:

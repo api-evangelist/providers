@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 43
   slug: sap-brim-billing-and-revenue-innovation-management-agentic-access
   summary_line: 43 operations · 29 acting
-api_count: 11
+api_count: 2
 apis:
 - description: API for managing subscription-based orders within the SAP BRIM suite, supporting complex offerings that combine physical products, services, and usage-based fees with full lifecycle management.
   name: SAP Subscription Order Management API
@@ -489,7 +489,7 @@ modified: '2026-08-21'
 name: SAP BRIM (Billing and Revenue Innovation Management)
 nav: Providers
 network: true
-overview: 'SAP BRIM (Billing and Revenue Innovation Management) publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Balances API, Billing API, Charging API, and 7 more. Tagged areas include Billing, Enterprise, Order-to-Cash, Revenue Management, and SAP.
+overview: 'SAP BRIM (Billing and Revenue Innovation Management) publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Balances API, Billing API, Charging API, and 7 more. Tagged areas include Billing, Enterprise, Order to Cash, Revenue Management, and SAP.
 
 
   The SAP BRIM (Billing and Revenue Innovation Management) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -534,18 +534,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 51.0
-  delta: 1.4
+  composite: 50.5
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 47.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 28.8
     contract_quality: 69.4
     developer_ergonomics: 47.6
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 49.6
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     contracts:
@@ -553,8 +558,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-brim-billing-and-revenue-innovation-management/refs/heads/main/screenshots/sap-brim-billing-and-revenue-innovation-management-2026-06-20T193418.png
 security:
@@ -574,7 +579,7 @@ slug: sap-brim-billing-and-revenue-innovation-management
 tags:
 - Billing
 - Enterprise
-- Order-to-Cash
+- Order to Cash
 - Revenue Management
 - SAP
 - Subscription Management

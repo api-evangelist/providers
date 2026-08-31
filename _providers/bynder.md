@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 0
@@ -42,111 +42,252 @@ agentic_access:
   operation_count: 156
   slug: bynder-agentic-access
   summary_line: 156 operations · 68 acting
-api_count: 34
+api_count: 39
 apis:
-- description: The combined access-rights and metaproperty-options surface, covering metaproperty access control alongside the option operations on the /api/content_access paths.
-  name: Bynder Access Rights and Optiops API
-  slug: bynder-access-rights-and-options-v4-api
-- description: Content access rights on metaproperties — retrieve, create and delete which users or groups may see a given metaproperty.
-  name: Bynder Access Rights API
-  slug: bynder-access-rights-v4-api
-- description: Account information for a Bynder portal, including the derivative configuration the account has available.
+- description: The Access rights API from Bynder — 1 operation(s) for access rights.
+  name: Bynder Access rights API
+  slug: bynder-access-rights-api
+- description: The Account API from Bynder — 2 operation(s) for account.
   name: Bynder Account API
-  slug: bynder-account-v4-api
-- description: 'The Analytics module: asset views and downloads, search usage, user usage, collection usage, reporting and historical data. The largest single Bynder definition, cursor-paged rather than page-and-limi'
-  name: Bynder Analytics API
-  slug: bynder-analytics-api
-- description: 'Antivirus and quarantine: list assets held pending review, retrieve a quarantined asset, and update review status individually or for a list of asset ids.'
-  name: Bynder Antivirus API
-  slug: bynder-antivirus-api
-- description: Time-limited download locations for an asset's original file, a specific version, or a specific item within the asset. Gated by the MEDIAHIGHRES, ARCHIVEDOWNLOAD, DOWNLOADWATERMARK and KEYVISUALSDOWNL
-  name: Bynder Download API
-  slug: bynder-asset-download-api
-- description: 'Bynder''s chunked upload sequence: request the closest S3 upload endpoint, initialise the upload, register each chunk, poll for processing, then finalise the file as a new asset or as a new version of '
-  name: Bynder Upload Assets API
-  slug: bynder-asset-upload-api
-- description: 'Asset usage tracking: record where an asset has been used by an integration, retrieve usage for an asset, delete a usage entry, and sync all usage from a single integration in one call.'
+  slug: bynder-account-api
+- description: These calls allow you to keep track of assets being exported from Bynder and imported into a third party application. In order to get started or find an existing integration id you should check out th
   name: Bynder Asset Usage API
-  slug: bynder-asset-usage-v4-api
-- description: The core asset-bank API. List and search assets by keyword, type, brand and metaproperty, retrieve a single asset with its metaproperty values, tags and derivatives, modify it, delete it, and set meta
-  name: Bynder Asset Management API
-  slug: bynder-asset-v4-api
-- description: 'Automation workflow rules: list the available triggers, conditions and actions, then create, read, update, delete and pause or publish rules that act on assets automatically.'
-  name: Bynder Automation Workflow API
-  slug: bynder-automation-workflow-svc-api
-- description: 'Adaptive Video Streaming: retrieve the public streaming links for a video asset so it can be played back adaptively.'
-  name: Bynder Adaptive Video Streaming API
-  slug: bynder-avs-api
-- description: Retrieve the brands and sub-brands configured in a Bynder portal. Every asset belongs to a brand, so this is the entry point for brand-scoped asset queries.
+  slug: bynder-asset-usage-api
+- description: This alternative API call allows you to sync all your usage from a single integration. * A usage will be created when there is no existing usage on the specified asset * A usage will be updated when a
+  name: Bynder Asset Usage Sync API
+  slug: bynder-asset-usage-sync-api
+- description: These endpoints return information related to the specific event. You can enrich these events with specific data about the asset or the user by making use of the [Analytics Reporting tool](#reference/
+  name: Bynder Asset Usage V1 API
+  slug: bynder-asset-usage-v1-api
+- description: These endpoints return information related to the specific event. You can enrich these events with specific data about the asset or the user by making use of the [Analytics Reporting tool](#reference/
+  name: Bynder Asset Usage V2 API
+  slug: bynder-asset-usage-v2-api
+- description: When using the Authorization Code grant, redirect the user to the [Authorize application](#reference/oauth-2.0/authorize-endpoint/authorize-application) endpoint. After the user is authenticated and a
+  name: Bynder Authorize endpoint API
+  slug: bynder-authorize-endpoint-api
+- description: The Automation Workflow Actions API from Bynder — 1 operation(s) for automation workflow actions.
+  name: Bynder Automation Workflow Actions API
+  slug: bynder-automation-workflow-actions-api
+- description: The Automation Workflow Conditions API from Bynder — 1 operation(s) for automation workflow conditions.
+  name: Bynder Automation Workflow Conditions API
+  slug: bynder-automation-workflow-conditions-api
+- description: The Automation Workflow Rules API from Bynder — 3 operation(s) for automation workflow rules.
+  name: Bynder Automation Workflow Rules API
+  slug: bynder-automation-workflow-rules-api
+- description: The Automation Workflow Triggers API from Bynder — 1 operation(s) for automation workflow triggers.
+  name: Bynder Automation Workflow Triggers API
+  slug: bynder-automation-workflow-triggers-api
+- description: The Brands API from Bynder — 1 operation(s) for brands.
   name: Bynder Brands API
-  slug: bynder-brands-v4-api
-- description: 'Brandstore ordering: retrieve orders, retrieve a specific order by id, list and add order products, and modify order lines. The commerce surface on top of the DAM.'
-  name: Bynder Brandstore API
-  slug: bynder-brandstore-api
-- description: Collections are Bynder's unit of hand-off. Create, read, modify and delete collections, add and remove assets, retrieve a collection's assets, and share a collection with named recipients.
+  slug: bynder-brands-api
+- description: The Campaign jobs API from Bynder — 1 operation(s) for campaign jobs.
+  name: Bynder Campaign jobs API
+  slug: bynder-campaign-jobs-api
+- description: The Campaigns API from Bynder — 2 operation(s) for campaigns.
+  name: Bynder Campaigns API
+  slug: bynder-campaigns-api
+- description: These endpoints return information related to the specific event. You can enrich these events with specific data about the collection or the user by making use of the [Collections API endpoints](#refe
+  name: Bynder Collection Usage API
+  slug: bynder-collection-usage-api
+- description: The Collections API from Bynder — 1 operation(s) for collections.
   name: Bynder Collections API
-  slug: bynder-collections-v4-api
-- description: 'Dynamic Asset Transformations: request a transformed rendition of an asset by id and transform name, generated on the fly rather than from a stored derivative.'
-  name: Bynder Dynamic Asset Transformations API
-  slug: bynder-dat-api
-- description: Derivative presets — the named rendition and transform presets a portal defines. List every preset, or retrieve a specific one.
+  slug: bynder-collections-api
+- description: The Collections assets API from Bynder — 1 operation(s) for collections assets.
+  name: Bynder Collections assets API
+  slug: bynder-collections-assets-api
+- description: The Collections ID API from Bynder — 1 operation(s) for collections id.
+  name: Bynder Collections ID API
+  slug: bynder-collections-id-api
+- description: The Configurations API from Bynder — 1 operation(s) for configurations.
+  name: Bynder Configurations API
+  slug: bynder-configurations-api
+- description: The Create metaproperty option dependency group API from Bynder — 1 operation(s) for create metaproperty option dependency group.
+  name: Bynder Create metaproperty option dependency group API
+  slug: bynder-create-metaproperty-option-dependency-group-api
+- description: Retrieve information about the currently authenticated user without needing to know their user ID.
+  name: Bynder Current User API
+  slug: bynder-current-user-api
+- description: The Derivative Presets API from Bynder — 2 operation(s) for derivative presets.
   name: Bynder Derivative Presets API
   slug: bynder-derivative-presets-api
-- description: Retrieve the user groups configured in a portal. Groups drive workflow assignment and permission grouping.
+- description: The Document API from Bynder — 1 operation(s) for document.
+  name: Bynder Document API
+  slug: bynder-document-api
+- description: The File upload API from Bynder — 1 operation(s) for file upload.
+  name: Bynder File upload API
+  slug: bynder-file-upload-api
+- description: The Finish API from Bynder — 1 operation(s) for finish.
+  name: Bynder Finish API
+  slug: bynder-finish-api
+- description: Manage and retrieve groups within your Bynder account. Requires the **GROUPMANAGEMENT** security role.
   name: Bynder Groups API
-  slug: bynder-groups-v4-api
-- description: Metaproperty definitions — the custom metadata fields a portal defines. Create, retrieve, modify and delete metaproperties on the /api/v4 asset-bank surface.
-  name: Bynder Metaproperty Operations API
-  slug: bynder-metaproperty-v4-api
-- description: 'The newer /v7 file-command upload surface: prepare an upload, push numbered chunks, and finalise. An alternative to the /api/v4 upload sequence on portals running the modern stack.'
-  name: Bynder Modern Stack File Upload API
-  slug: bynder-modern-stack-upload-api
-- description: 'OAuth 2.0 authorization for a Bynder portal: the authorize endpoint, the token endpoint (authorization code, client credentials and refresh token grants) and a runtime scope reference that returns eac'
-  name: Bynder OAuth 2.0 API
-  slug: bynder-oauth2-api
-- description: 'Metaproperty options and their dependency graph: create and manage the selectable values on a metaproperty, retrieve dependencies globally or per metaproperty, and manage grouped and ungrouped option '
-  name: Bynder Metaproperty Options API
-  slug: bynder-options-v4-api
-- description: Product layer metaproperties — the product-information metadata layer Bynder maintains alongside the asset-bank metaproperties.
-  name: Bynder Product Layer Metaproperties API
-  slug: bynder-product-layer-v4-api
-- description: Security profiles — the named role sets that gate every Bynder operation alongside the OAuth scope. List every profile, or retrieve one by id.
-  name: Bynder Security Roles API
-  slug: bynder-securityroles-v4-api
-- description: Similarity search over the asset bank — find assets that resemble a reference asset. Part of Bynder's AI search surface, on the /api/1 RFC 4122 id space rather than /api/v4.
-  name: Bynder Similar Assets Search API
-  slug: bynder-similar-assets-api
-- description: Smart filters are saved queries over the asset bank. This API lists the smart filters configured in a portal.
+  slug: bynder-groups-api
+- description: 'This endpoint provides historical Analytics data beyond the 12 month retention period that applies to the Analytics API endpoints. **Note:** This data isn''t available by default. Please, contact your '
+  name: Bynder Historical Data API
+  slug: bynder-historical-data-api
+- description: The Job media API from Bynder — 1 operation(s) for job media.
+  name: Bynder Job media API
+  slug: bynder-job-media-api
+- description: The Job stages API from Bynder — 1 operation(s) for job stages.
+  name: Bynder Job stages API
+  slug: bynder-job-stages-api
+- description: The Jobs API from Bynder — 2 operation(s) for jobs.
+  name: Bynder Jobs API
+  slug: bynder-jobs-api
+- description: The Manage option dependency in dependency group API from Bynder — 1 operation(s) for manage option dependency in dependency group.
+  name: Bynder Manage option dependency in dependency group API
+  slug: bynder-manage-option-dependency-in-dependency-group-api
+- description: The Manage ungrouped metaproperty option dependencies API from Bynder — 1 operation(s) for manage ungrouped metaproperty option dependencies.
+  name: Bynder Manage ungrouped metaproperty option dependencies API
+  slug: bynder-manage-ungrouped-metaproperty-option-dependencies-api
+- description: The Media API from Bynder — 3 operation(s) for media.
+  name: Bynder Media API
+  slug: bynder-media-api
+- description: The Media download API from Bynder — 3 operation(s) for media download.
+  name: Bynder Media download API
+  slug: bynder-media-download-api
+- description: The Media ID API from Bynder — 1 operation(s) for media id.
+  name: Bynder Media ID API
+  slug: bynder-media-id-api
+- description: The Media options API from Bynder — 1 operation(s) for media options.
+  name: Bynder Media options API
+  slug: bynder-media-options-api
+- description: The Metaproperties API from Bynder — 4 operation(s) for metaproperties.
+  name: Bynder Metaproperties API
+  slug: bynder-metaproperties-api
+- description: The Metaproperty operations API from Bynder — 1 operation(s) for metaproperty operations.
+  name: Bynder Metaproperty operations API
+  slug: bynder-metaproperty-operations-api
+- description: The Metaproperty options operations API from Bynder — 2 operation(s) for metaproperty options operations.
+  name: Bynder Metaproperty options operations API
+  slug: bynder-metaproperty-options-operations-api
+- description: The Options API from Bynder — 4 operation(s) for options.
+  name: Bynder Options API
+  slug: bynder-options-api
+- description: The Options V1 API from Bynder — 1 operation(s) for options v1.
+  name: Bynder Options V1 API
+  slug: bynder-options-v1-api
+- description: The Orders API from Bynder — 4 operation(s) for orders.
+  name: Bynder Orders API
+  slug: bynder-orders-api
+- description: The Presets API from Bynder — 1 operation(s) for presets.
+  name: Bynder Presets API
+  slug: bynder-presets-api
+- description: To determine the security profile for your user you can compare the security profile id with the profileId retrieved from either the Retrieve specific user or Retrieve current user call. It's the API'
+  name: Bynder Profiles API
+  slug: bynder-profiles-api
+- description: The Public links API from Bynder — 1 operation(s) for public links.
+  name: Bynder Public links API
+  slug: bynder-public-links-api
+- description: The Quarantine API from Bynder — 3 operation(s) for quarantine.
+  name: Bynder Quarantine API
+  slug: bynder-quarantine-api
+- description: These endpoints provide reporting capabilities for assets of the DAM, making it easier to build your own customised reports.
+  name: Bynder Reporting API
+  slug: bynder-reporting-api
+- description: The Retrieve all metaproperty option dependencies for a metaproperty API from Bynder — 1 operation(s) for retrieve all metaproperty option dependencies for a metaproperty.
+  name: Bynder Retrieve all metaproperty option dependencies for a metaproperty API
+  slug: bynder-retrieve-all-metaproperty-option-dependencies-for-a-metaproperty-api
+- description: The Retrieve all metaproperty option dependencies globally API from Bynder — 1 operation(s) for retrieve all metaproperty option dependencies globally.
+  name: Bynder Retrieve all metaproperty option dependencies globally API
+  slug: bynder-retrieve-all-metaproperty-option-dependencies-globally-api
+- description: The Retrieve options a metaproperty option depends on API from Bynder — 1 operation(s) for retrieve options a metaproperty option depends on.
+  name: Bynder Retrieve options a metaproperty option depends on API
+  slug: bynder-retrieve-options-a-metaproperty-option-depends-on-api
+- description: The Scopes API from Bynder — 1 operation(s) for scopes.
+  name: Bynder Scopes API
+  slug: bynder-scopes-api
+- description: The Search API from Bynder — 1 operation(s) for search.
+  name: Bynder Search API
+  slug: bynder-search-api
+- description: These endpoints return information related to the specific event. You can enrich these events with specific data about the asset or the user by making use of the [Assets API endpoints](#reference/asse
+  name: Bynder Search Usage API
+  slug: bynder-search-usage-api
+- description: The Share collection API from Bynder — 1 operation(s) for share collection.
+  name: Bynder Share collection API
+  slug: bynder-share-collection-api
+- description: The Smartfilters API from Bynder — 1 operation(s) for smartfilters.
   name: Bynder Smartfilters API
-  slug: bynder-smartfilter-v4-api
-- description: The taxonomy service exposes metaproperties and their options on the /api/1 surface with RFC 4122 UUIDs, in parallel to the /api/v4 metaproperty endpoints.
-  name: Bynder Taxonomy API
-  slug: bynder-taxonomy-v1-api
-- description: The Content Workflow (TEA) public authoring API — retrieve an authored document by UUID from the editorial content surface Bynder acquired with GatherContent.
-  name: Bynder TEA - Public API
-  slug: bynder-tea-api
-- description: Retrieve recently removed assets from the portal trash, before they are permanently purged.
+  slug: bynder-smartfilters-api
+- description: The Specific metaproperty operations API from Bynder — 1 operation(s) for specific metaproperty operations.
+  name: Bynder Specific metaproperty operations API
+  slug: bynder-specific-metaproperty-operations-api
+- description: The Specific metaproperty option dependency group operations API from Bynder — 1 operation(s) for specific metaproperty option dependency group operations.
+  name: Bynder Specific metaproperty option dependency group operations API
+  slug: bynder-specific-metaproperty-option-dependency-group-operations-api
+- description: The Specific metaproperty option operations API from Bynder — 1 operation(s) for specific metaproperty option operations.
+  name: Bynder Specific metaproperty option operations API
+  slug: bynder-specific-metaproperty-option-operations-api
+- description: This endpoint prepares the upload of a file in chunks. It returns a file ID that will be used in subsequent steps to upload the file chunks and finalize the upload.
+  name: Bynder Step 1 API
+  slug: bynder-step-1-api
+- description: This endpoint uploads a chunk of the file. You need to provide the file ID obtained from the prepare upload step and the chunk number (starting from 0). The request body should contain the binary data
+  name: Bynder Step 2 API
+  slug: bynder-step-2-api
+- description: This endpoint finalizes the upload after all chunks have been uploaded. You need to provide the file ID and details about the file, including its name, size, and the number of chunks it was split into
+  name: Bynder Step 3 API
+  slug: bynder-step-3-api
+- description: 'Use the token endpoint to retrieve a access token which can be used to authorize API requests. Depending on the type of grant, different fields are required which are outlined per request. _The token '
+  name: Bynder Token endpoint API
+  slug: bynder-token-endpoint-api
+- description: The Transform API from Bynder — 1 operation(s) for transform.
+  name: Bynder Transform API
+  slug: bynder-transform-api
+- description: The Trash API from Bynder — 1 operation(s) for trash.
   name: Bynder Trash API
-  slug: bynder-trash-v4-api
-- description: 'User administration: list, create, retrieve, modify and delete portal users, and retrieve the currently authenticated user.'
+  slug: bynder-trash-api
+- description: The Upload API from Bynder — 4 operation(s) for upload.
+  name: Bynder Upload API
+  slug: bynder-upload-api
+- description: These endpoints return information related to the specific event. You can enrich these events with specific data about the asset or the user by making use of the [Assets API endpoints](#reference/asse
+  name: Bynder User Usage API
+  slug: bynder-user-usage-api
+- description: Manage users within your Bynder account. You can create, retrieve, update, and delete users as needed.
   name: Bynder Users API
-  slug: bynder-users-v4-api
-- description: Webhook subscription management. Create, retrieve, update, patch and delete subscriptions that receive Bynder asset and workflow events at an endpoint you control.
-  name: Bynder Webhooks API
-  slug: bynder-webhooks-api
-- description: Asset Workflow campaigns — create, retrieve, modify, close and delete the campaigns that group workflow jobs.
-  name: Bynder Workflow Campaigns API
-  slug: bynder-wf-campaigns-v4-api
-- description: Asset Workflow jobs — create jobs under a campaign, attach assets, read stages, advance the active stage, and finish the job. The largest workflow definition.
-  name: Bynder Workflow Jobs API
-  slug: bynder-wf-jobs-v4-api
-- description: Metaproperties as seen by the Asset Workflow service, separate from the asset-bank metaproperty definitions.
-  name: Bynder Workflow Metaproperties API
-  slug: bynder-wf-metaproperties-v4-api
-- description: Users and groups as seen by the Asset Workflow service, separate from the asset-bank user administration API.
-  name: Bynder Workflow Users and Groups API
-  slug: bynder-wf-users-groups-v4-api
-artifact_total: 78
+  slug: bynder-users-api
+- description: Manage specific users by their ID. This includes retrieving, updating, and deleting user information based on the user ID.
+  name: Bynder Users ID API
+  slug: bynder-users-id-api
+- description: The Authentication API from Bynder — 3 operation(s) for authentication.
+  name: Bynder Authentication API
+  slug: bynder-authentication-api
+- description: This endpoint prepares the upload of a file in chunks. It returns a file ID that will be used in subsequent steps to upload the file chunks and finalize the upload.
+  name: Bynder Step 1 Get closest AmazonS3 upload endpoint API
+  slug: bynder-step-1-get-closest-amazons3-upload-endpoint-api
+- description: This endpoint uploads a chunk of the file. You need to provide the file ID obtained from the prepare upload step and the chunk number (starting from 0). The request body should contain the binary data
+  name: Bynder Step 2 Initialise upload API
+  slug: bynder-step-2-initialise-upload-api
+- description: This endpoint finalizes the upload after all chunks have been uploaded. You need to provide the file ID and details about the file, including its name, size, and the number of chunks it was split into
+  name: Bynder Step 3A Upload file in chunks API
+  slug: bynder-step-3a-upload-file-in-chunks-api
+- description: This endpoint finalizes the upload after all chunks have been uploaded. You need to provide the file ID and details about the file, including its name, size, and the number of chunks it was split into
+  name: Bynder Step 3B Register uploaded chunk API
+  slug: bynder-step-3b-register-uploaded-chunk-api
+- description: This endpoint finalizes the upload after all chunks have been uploaded. You need to provide the file ID and details about the file, including its name, size, and the number of chunks it was split into
+  name: Bynder Step 4 API
+  slug: bynder-step-4-api
+- description: The Step 4 EITHER Finalise uploaded file API from Bynder — 1 operation(s) for step 4 either finalise uploaded file.
+  name: Bynder Step 4 EITHER Finalise uploaded file API
+  slug: bynder-step-4-either-finalise-uploaded-file-api
+- description: The Step 4 OR Finalize and save an additional uploaded file as a new asset. API from Bynder — 1 operation(s) for step 4 or finalize and save an additional uploaded file as a new asset..
+  name: Bynder Step 4 OR Finalize and save an additional uploaded file as a new asset. API
+  slug: bynder-step-4-or-finalize-and-save-an-additional-uploaded-file-as-a-new-asset-api
+- description: This endpoint finalizes the upload after all chunks have been uploaded. You need to provide the file ID and details about the file, including its name, size, and the number of chunks it was split into
+  name: Bynder Step 5 API
+  slug: bynder-step-5-api
+- description: This endpoint allows you to check the processing status of a finalized upload. It should be called repeatedly until the response indicates that the processing is complete or provides the item IDs of t
+  name: Bynder Step 5 Poll for processing status API
+  slug: bynder-step-5-poll-for-processing-status-api
+- description: This endpoint finalizes the upload after all chunks have been uploaded. You need to provide the file ID and details about the file, including its name, size, and the number of chunks it was split into
+  name: Bynder Step 6 API
+  slug: bynder-step-6-api
+- description: This endpoint finalizes the upload after all chunks have been uploaded. You need to provide the file ID and details about the file, including its name, size, and the number of chunks it was split into
+  name: Bynder Step 6 EITHER Save as a new asset API
+  slug: bynder-step-6-either-save-as-a-new-asset-api
+- description: The Step 6 OR Save uploaded file to existing asset API from Bynder — 1 operation(s) for step 6 or save uploaded file to existing asset.
+  name: Bynder Step 6 OR Save uploaded file to existing asset API
+  slug: bynder-step-6-or-save-uploaded-file-to-existing-asset-api
+artifact_total: 125
 asyncapis:
 - description: ''
   name: Bynder Webhooks
@@ -258,6 +399,146 @@ collections:
   name: Bynder API
   slug: open-bynder
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bynder-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-access-rights-and-options-v4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-access-rights-v4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-account-v4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-analytics-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-antivirus-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-asset-download-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-asset-upload-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-asset-usage-v4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-asset-v4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-automation-workflow-svc-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-avs-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-brands-v4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-brandstore-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-collections-v4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-dat-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-derivative-presets-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-groups-v4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-metaproperty-v4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-modern-stack-upload-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-oauth2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-options-v4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-product-layer-v4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-securityroles-v4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-similar-assets-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-smartfilter-v4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-taxonomy-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-tea-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-trash-v4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-users-v4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-webhooks-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-wf-campaigns-v4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-wf-jobs-v4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-wf-metaproperties-v4-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bynder-wf-users-groups-v4-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -458,13 +739,13 @@ modified: '2026-08-13'
 name: Bynder
 nav: Providers
 network: true
-overview: 'Bynder publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Access Rights and Optiops API, Access Rights API, Account API, and 31 more. Tagged areas include Digital Asset Management, DAM, Brand Management, Content Management, and Marketing.
+overview: 'Bynder publishes 81 APIs on the [APIs.io](https://apis.io/) network, including Access rights API, Account API, Asset Usage API, and 78 more. Tagged areas include Digital Asset Management, DAM, Brand Management, Content Management, and Marketing.
 
 
   The Bynder catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bynder''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 41 more developer resources.'
+  Bynder''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 76 more developer resources.'
 plans:
 - name: Bynder Plans Pricing
   plan_count: 0
@@ -481,25 +762,30 @@ scopes:
   summary_line: 29 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 59.6
+  composite: 57.4
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 30.3
-    contract_quality: 57.5
+    contract_governance: 18.2
+    contract_quality: 61.5
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 59.6
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/screenshots/bynder-2026-06-20T173826.png
 security:

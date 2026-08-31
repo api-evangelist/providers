@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,34 +31,75 @@ agentic_access:
   operation_count: 1
   slug: group14-technologies-agentic-access
   summary_line: 1 operation
-api_count: 8
+api_count: 11
 apis:
-- description: Public, unauthenticated read access to the Group14 resource library — press releases, news coverage, blog posts and whitepapers about SCC55 and the BAM factory network — plus the resource-category voc
-  name: Group14 Technologies Resources API
-  slug: group14-technologies-resources-api
-- description: Public, unauthenticated read access to the marketing and corporate pages of group14.technology — Our Technology, Manufacturing, Patents, Culture, Careers, Contact, Terms and Privacy — plus the WordPre
-  name: Group14 Technologies Content API
-  slug: group14-technologies-content-api
-- description: Public, unauthenticated read access to Group14 job openings and the department and location vocabularies that classify them — the machine-readable view of hiring across the Woodinville headquarters, t
-  name: Group14 Technologies Careers API
-  slug: group14-technologies-careers-api
-- description: Public, unauthenticated read access to the Group14 facility records — BAM-1, BAM-2 and BAM-3, the Group14 silane factory and the Seoul offices. This is the site-specific `location` custom post type an
-  name: Group14 Technologies Locations API
-  slug: group14-technologies-locations-api
-- description: Public, unauthenticated read access to the group14.technology media library and video library — factory and material photography, press imagery and the generated size variants of each attachment, plus
-  name: Group14 Technologies Media API
-  slug: group14-technologies-media-api
-- description: 'Public, unauthenticated cross-content search over group14.technology — pages, resources, job openings, locations and videos — returning lightweight id / title / url / type / subtype records. Verified '
-  name: Group14 Technologies Search API
-  slug: group14-technologies-search-api
-- description: Public, unauthenticated discovery metadata for group14.technology — the self-describing route index (455 routes across 21 namespaces at capture), the registered content types and taxonomies, and the p
-  name: Group14 Technologies Discovery API
-  slug: group14-technologies-discovery-api
 - description: A WordPress MCP Adapter endpoint registered on group14.technology at /wp-json/mcp/mcp-adapter-default-server. The route is real — the namespace `mcp` is declared in the site REST index and the endpoin
   name: Group14 Technologies MCP Server (gated)
   slug: group14-technologies-mcp-server
-artifact_total: 14
+- description: Self-describing route, type and taxonomy metadata.
+  name: Group14 Technologies Discovery API
+  slug: group14-technologies-discovery-api
+- description: Open roles published on group14.technology/careers.
+  name: Group14 Technologies Job Openings API
+  slug: group14-technologies-job-openings-api
+- description: Group14 manufacturing sites and offices as structured records.
+  name: Group14 Technologies Locations API
+  slug: group14-technologies-locations-api
+- description: WordPress media attachments — photography, press assets and their generated size variants.
+  name: Group14 Technologies Media API
+  slug: group14-technologies-media-api
+- description: Static marketing, corporate and policy pages of group14.technology.
+  name: Group14 Technologies Pages API
+  slug: group14-technologies-pages-api
+- description: The WordPress post archive (Group14 publishes editorial content mainly as resources, not posts).
+  name: Group14 Technologies Posts API
+  slug: group14-technologies-posts-api
+- description: Press releases, news, blog posts and whitepapers published by Group14 Technologies.
+  name: Group14 Technologies Resources API
+  slug: group14-technologies-resources-api
+- description: Cross-content search over every public content type.
+  name: Group14 Technologies Search API
+  slug: group14-technologies-search-api
+- description: The job-department and job-location vocabularies used to classify roles.
+  name: Group14 Technologies Taxonomy API
+  slug: group14-technologies-taxonomy-api
+- description: The site-specific video custom post type.
+  name: Group14 Technologies Video API
+  slug: group14-technologies-video-api
+artifact_total: 17
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/group14-technologies-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/group14-technologies-resources-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/group14-technologies-content-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/group14-technologies-careers-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/group14-technologies-locations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/group14-technologies-media-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/group14-technologies-search-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/group14-technologies-discovery-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -208,10 +249,10 @@ modified: '2026-08-22'
 name: Group14 Technologies
 nav: Providers
 network: true
-overview: 'Group14 Technologies publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Resources API, Content API, Careers API, and 4 more. Tagged areas include Company, Materials Science, Battery Materials, Silicon Anode, and Lithium-Ion.
+overview: 'Group14 Technologies publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Job Openings API, Locations API, and 7 more. Tagged areas include Company, Materials Science, Battery Materials, Silicon Anode, and Lithium-Ion.
 
 
-  Group14 Technologies'' developer surface includes engineering blog, product news, authentication, code examples, and 30 more developer resources.'
+  Group14 Technologies'' developer surface includes engineering blog, product news, authentication, code examples, and 38 more developer resources.'
 plans:
 - name: Group14 Technologies Plans Pricing
   plan_count: 0
@@ -223,18 +264,23 @@ rate_limits:
   slug: group14-technologies-rate-limits
 score:
   band: thin
-  composite: 36.3
+  composite: 34.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 16.7
-    contract_quality: 56.1
+    contract_governance: 4.5
+    contract_quality: 56.0
     developer_ergonomics: 16.1
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 36.3
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -251,8 +297,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 40.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

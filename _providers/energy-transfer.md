@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: energy-transfer-agentic-access
   summary_line: 4 operations · 1 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Manage gas pipeline nominations.
   name: Energy Transfer Nominations API
@@ -114,18 +114,23 @@ rate_limits:
   slug: energy-transfer-rate-limits
 score:
   band: thin
-  composite: 27.0
-  delta: 1.9
+  composite: 26.4
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 49.7
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 25.1
+  previous_composite: 27.0
   provenance:
     agentic_access: derived
     contracts:
@@ -139,8 +144,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energy-transfer/refs/heads/main/screenshots/energy-transfer-2026-06-20T180705.png
 security:

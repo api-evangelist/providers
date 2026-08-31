@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-26'
-api_count: 12
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Call Notes API from Proton.ai — 4 operation(s) for call notes.
   name: Proton.ai Call Notes API
@@ -114,6 +114,10 @@ collections:
   name: Proton Call Notes Tracking API
   slug: open-protonai-tracking-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/protonai-capability-edges.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -189,19 +193,24 @@ network: true
 overview: 'Proton.ai publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Call Notes API, Contacts API, Custom Fields API, and 9 more. Tagged areas include Company, CRM, Sales, Distribution, and Artificial Intelligence.
 
 
-  Proton.ai''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, and 9 more developer resources.'
+  Proton.ai''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, and 10 more developer resources.'
 random_paper: 15
 score:
   band: developing
-  composite: 40.9
-  delta: 0.0
+  composite: 40.4
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 4.5
     contract_quality: 53.3
     developer_ergonomics: 42.3
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 15.8
   previous_composite: 40.9
@@ -214,8 +223,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 14
   slug: proompty-agentic-access
   summary_line: 14 operations · 8 acting
-api_count: 9
+api_count: 1
 apis:
 - description: The Chat API from Proompty — 1 operation(s) for chat.
   name: Proompty Chat API
@@ -64,13 +64,7 @@ apis:
 - description: The Topics API from Proompty — 7 operation(s) for topics.
   name: Proompty Topics API
   slug: proompty-topics-api
-- description: The Uploads API from Proompty — 1 operation(s) for uploads.
-  name: Proompty Uploads API
-  slug: proompty-uploads-api
-- description: User related endpoints
-  name: Proompty User API
-  slug: proompty-user-api
-artifact_total: 24
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -127,7 +121,7 @@ modified: '2026-05-19'
 name: Proompty
 nav: Providers
 network: true
-overview: 'Proompty publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Documents API, Me API, and 6 more. Tagged areas include Artificial Intelligence and Prompts.
+overview: 'Proompty publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Documents API, Me API, and 4 more. Tagged areas include Artificial Intelligence and Prompts.
 
 
   Proompty''s developer surface includes getting-started guide and 2 more developer resources.'
@@ -142,18 +136,23 @@ rate_limits:
   slug: proompty-rate-limits
 score:
   band: thin
-  composite: 27.7
-  delta: 1.9
+  composite: 27.1
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
-    contract_quality: 51.0
+    contract_quality: 50.9
     developer_ergonomics: 21.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 25.8
+  previous_composite: 27.7
   provenance:
     agentic_access: derived
     contracts:
@@ -161,8 +160,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/proompty/refs/heads/main/screenshots/proompty-2026-06-20T192204.png
 security:

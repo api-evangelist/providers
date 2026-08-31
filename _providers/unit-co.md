@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 8
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 138
   slug: unit-co-agentic-access
   summary_line: 138 operations · 73 acting · 8 human-in-the-loop
-api_count: 17
+api_count: 18
 apis:
 - description: Deposit and credit accounts.
   name: Unit Accounts API
@@ -258,6 +258,10 @@ collections:
   name: Unit API
   slug: open-unit-co
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/unit-co-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -442,13 +446,13 @@ modified: '2026-08-08'
 name: Unit
 nav: Providers
 network: true
-overview: 'Unit publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Tokens API, Applications API, and 14 more. Tagged areas include Fintech, Backend-as-a-Service, Banking, Payments, and Card Issuing.
+overview: 'Unit publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, API Tokens API, Applications API, and 14 more. Tagged areas include Fintech, BaaS, Banking, Payments, and Card Issuing.
 
 
   The Unit catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Unit''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, signup flow, sandbox, and 35 more developer resources.'
+  Unit''s developer surface includes authentication, documentation, engineering blog, API reference, getting-started guide, signup flow, sandbox, and 36 more developer resources.'
 plans:
 - name: Unit Co Plans Pricing
   plan_count: 2
@@ -465,18 +469,23 @@ scopes:
   summary_line: 46 scopes
 score:
   band: exemplar
-  composite: 73.3
+  composite: 71.8
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 58.0
     developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 92.1
-  previous_composite: 73.3
+  previous_composite: 71.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -493,8 +502,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 84.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unit-co/refs/heads/main/screenshots/unit-co-2026-06-20T200056.png
 security:
@@ -517,7 +526,7 @@ security:
 slug: unit-co
 tags:
 - Fintech
-- Backend-as-a-Service
+- BaaS
 - Banking
 - Payments
 - Card Issuing

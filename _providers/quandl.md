@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: quandl-agentic-access
   summary_line: 6 operations
-api_count: 5
+api_count: 1
 apis:
 - description: Nasdaq Data Link Tables API provides access to tabular financial datasets including equity fundamentals, options data, and alternative data sets. Limited to 10,000 rows per call with pagination suppor
   name: Nasdaq Data Link Tables REST API
@@ -198,19 +198,24 @@ rules:
     warn: 4
   slug: quandl-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 39.6
-  delta: 1.5
+  band: thin
+  composite: 39.0
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 64.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 9.8
     contract_quality: 61.2
     developer_ergonomics: 60.7
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 38.1
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -224,8 +229,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quandl/refs/heads/main/screenshots/quandl-2026-06-20T192403.png
 security:

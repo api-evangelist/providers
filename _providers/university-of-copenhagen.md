@@ -1,48 +1,66 @@
 ---
 access_model:
-  confidence: medium
+  confidence: high
   label: Free
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - probed
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
-api_count: 2
+  score: 22.1
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The University of Copenhagen Research Portal (researchprofiles.ku.dk) is built on the Elsevier Pure research information system, locally branded CURIS. Pure platforms conventionally expose research me
-  name: University of Copenhagen Research Portal (CURIS / Pure)
-  slug: research-portal
-- description: 'The ku-kom GitHub organization publishes the open-source TYPO3 CMS extensions and Bootstrap-based styleguide that power the ku.dk web platform. These are reusable source-code components rather than a '
-  name: University of Copenhagen Web Platform (ku-kom GitHub)
+- description: A complete, unauthenticated OAI-PMH 2.0 repository operated by the university on its own host. verb=Identify names the repository "University of Copenhagen", gives adminEmail curis@adm.ku.dk and attri
+  name: University of Copenhagen CURIS OAI-PMH Repository Interface
+  slug: curis-oai-pmh
+- description: The university publishes a signed SAML 2.0 EntityDescriptor at https://id.ku.dk/nidp/saml2/metadata (200, 24,737 bytes, text/xml), entityID https://id.ku.dk/nidp/saml2/metadata. Three ku.dk SAML entit
+  name: University of Copenhagen SAML 2.0 Identity Provider
+  slug: identity-federation
+- description: The Natural History Museum of Denmark, a University of Copenhagen faculty museum, publishes thirteen Darwin Core Archive exports from the Faculty of Science's own host specify-snm.science.ku.dk — ento
+  name: Natural History Museum of Denmark Darwin Core Archive Feeds
+  slug: nhmd-darwin-core
+- description: ERDA (erda.ku.dk, erda.dk, sid.erda.dk) is the university's research data archive, operated by the SCIENCE HPC Center at the Faculty of Science and skinned erda-ucph-science. UCPH users authenticate t
+  name: Electronic Research Data Archive (ERDA) and SCIENCE HPC Center
+  slug: erda
+- description: kurser.ku.dk is the university's course catalogue, on a Copenhagen hostname running on Arcanic infrastructure (courses.loadbalancer.arcanic.dk). It serves human-readable course pages keyed by course c
+  name: University of Copenhagen Course Catalogue
+  slug: course-catalog
+- description: 'researchprofiles.ku.dk is the university''s public research portal and the front end of CURIS. It is an Elsevier Pure tenancy, not Copenhagen''s engineering: the hostname CNAMEs researchprofiles.ku.dk -'
+  name: University of Copenhagen Research Portal (Elsevier Pure tenancy)
+  slug: research-portal-pure
+- description: 'The university is an active DataCite member — provider symbol XIZZ, memberType consortium_organization, isActive true — with two registered repositories: xizz.curis ("CURIS", pointed at researchprofil'
+  name: University of Copenhagen DataCite Membership (XIZZ)
+  slug: datacite-xizz
+- description: 'github.com/ku-kom is the university''s GitHub account — a User account rather than an Organization, named "University of Copenhagen" and linked to www.ku.dk — publishing 52 public repositories: the KU '
+  name: University of Copenhagen Web Platform Source (ku-kom)
   slug: ku-kom-github
-artifact_total: 7
+artifact_total: 14
 common:
 - group: auth
   title: ''
@@ -56,10 +74,62 @@ common:
   title: ''
   type: GitHub
   url: https://github.com/ku-kom
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ku-kom
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-copenhagen/
+- group: company
+  title: ''
+  type: Blog
+  url: https://news.ku.dk/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://researchprofiles.ku.dk/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://id.ku.dk/nidp/saml2/metadata
+- group: other
+  title: ''
+  type: OpenData
+  url: https://specify-snm.science.ku.dk/static/depository/export_feed/DwCA-QZ.zip
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://hpc.ku.dk/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://kurser.ku.dk/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/university-of-copenhagen-curis-oai-pmh-openapi.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/university-of-copenhagen-authentication.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/university-of-copenhagen-oai-pmh-errors.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/university-of-copenhagen-curis-oai-pmh-examples.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/university-of-copenhagen-conformance.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/university-of-copenhagen-vocabulary.yml
 - group: commercial
   title: ''
   type: Plans
@@ -77,7 +147,8 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'The University of Copenhagen (Københavns Universitet, UCPH), founded in 1479, is Denmark''s oldest and largest university and one of the leading research institutions in the Nordic region, ranked #53 in the QS World University Rankings 2025. It has no centralized public developer portal or documented open-data API program. Its public technical footprint consists of the ku-kom GitHub organization (TYPO3 CMS extensions and front-end styleguide used to build the ku.dk web platform) and the CURIS research information system on researchprofiles.ku.dk, an Elsevier Pure platform that conventionally supports OAI-PMH metadata harvesting and the Pure web service though these endpoints could not be confirmed reachable from the public internet at review time.'
+description: 'The University of Copenhagen (Københavns Universitet, UCPH), founded in 1479, is Denmark''s oldest and largest university and one of the leading research institutions in the Nordic region. It operates no central developer portal, no REST API program and no open-data portal — api.ku.dk and developer.ku.dk do not resolve, and data.ku.dk redirects to the homepage. What it does operate, and what makes it unusually well-covered for this cohort, is a set of standards-based machine-readable surfaces on its own infrastructure: a complete OAI-PMH 2.0 repository at curis.ku.dk serving 440,535 research records across 7,430 sets in six metadata formats; a signed SAML 2.0 identity provider at id.ku.dk registered in the Danish WAYF federation; and thirteen Darwin Core Archive feeds published by the Natural History Museum of Denmark from specify-snm.science.ku.dk and harvested by GBIF. Its public research portal researchprofiles.ku.dk is by contrast an Elsevier Pure tenancy — it CNAMEs to
+  ku.elsevierpure.com and its REST contract is Elsevier''s, api-key gated — and is recorded here as a tenant relationship rather than as the university''s own API. The only source code the institution publishes is the ku-kom GitHub account: 52 repositories of TYPO3 content elements and a Bootstrap styleguide that build the ku.dk web platform.'
 finops:
 - name: University Of Copenhagen Finops
   service_category: Education
@@ -89,17 +160,17 @@ jsonld:
   property_count: 6
   slug: university-of-copenhagen-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: University of Copenhagen
 nav: Providers
 network: true
-overview: 'University of Copenhagen publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Denmark.
+overview: 'University of Copenhagen publishes 1 API on the [APIs.io](https://apis.io/) network: CURIS OAI-PMH Repository Interface. Tagged areas include Education, Higher Education, University, Research, and Denmark.
 
 
   The University of Copenhagen catalog on APIs.io includes 1 JSON-LD context.
 
 
-  University of Copenhagen''s developer surface includes GitHub presence and 7 more developer resources.'
+  University of Copenhagen''s developer surface includes GitHub presence, engineering blog, authentication, code examples, and 17 more developer resources.'
 plans:
 - name: University Of Copenhagen Plans Pricing
   plan_count: 2
@@ -110,30 +181,39 @@ rate_limits:
   name: University Of Copenhagen Rate Limits
   slug: university-of-copenhagen-rate-limits
 score:
-  band: emerging
-  composite: 18.6
-  delta: 1.9
+  band: developing
+  composite: 40.5
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 21.9
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 0.0
-    contract_quality: 10.7
-    developer_ergonomics: 9.5
+    contract_governance: 33.3
+    contract_quality: 55.1
+    developer_ergonomics: 23.8
     discoverability: 59.3
-    governance: 0.0
+    governance: 33.3
     operational_transparency: 26.3
-  previous_composite: 16.7
+  previous_composite: 18.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 46.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-copenhagen/refs/heads/main/screenshots/university-of-copenhagen-2026-06-20T200145.png
 security:
+- kind: authentication
+  name: University Of Copenhagen Authentication
+  slug: university-of-copenhagen-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: University Of Copenhagen Domain Security
   slug: university-of-copenhagen-domain-security
@@ -147,5 +227,13 @@ tags:
 - Denmark
 - Nordic
 - Open-Source
+- Research Data
+- Research Repository
+- Identity Federation
+- OAI-PMH
+- Open Data
+- Research Computing
+- Course Catalog
+- Biodiversity
 website: https://www.ku.dk/en
 ---

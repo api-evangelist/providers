@@ -27,15 +27,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: verified
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: verified
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-08-26'
+  score: 40.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 64
   slug: apis-io-agentic-access
   summary_line: 64 operations · 1 acting
-api_count: 11
+api_count: 18
 apis:
 - description: Index of HTTP application programming interfaces.
   name: APIs.io APIs API
@@ -78,6 +78,12 @@ apis:
 - description: The tag taxonomy, with network-wide ranking metadata.
   name: APIs.io Tags API
   slug: apis-io-tags-api
+- description: Any scored population of providers — a tag, industry, region, area, or VC portfolio — with the distribution, rankings, facet scores, and capability matrix that a Trend or Portfolio Report is built fro
+  name: APIs.io Cohorts API
+  slug: apis-io-cohorts-api
+- description: Story leads mined from catalog movement (owner tier). 1 operation of the APIs.io API, split out by tag so this surface is documented, rated, and governed on its own.
+  name: APIs.io Editorial API
+  slug: apis-io-editorial-api
 arazzos:
 - description: Run two keyword searches against APIs.io and compare how many APIs the index holds for each term.
   name: APIs.io Compare Keyword Coverage
@@ -91,7 +97,7 @@ arazzos:
 - description: Submit a valid APIs.json to the APIs.io index, then search the registry to confirm the submitted API appears.
   name: APIs.io Submit and Verify API
   slug: apis-io-submit-and-verify-api-workflow
-artifact_total: 105
+artifact_total: 107
 collections:
 - collection_type: postman
   name: .io Search APIs API
@@ -557,11 +563,11 @@ mcp_servers:
 - description: ''
   name: APIs.io MCP Server
   slug: apisio-mcp-server
-modified: '2026-08-10'
+modified: '2026-08-20'
 name: APIs.io
 nav: Providers
 network: true
-overview: 'APIs.io publishes 11 APIs on the [APIs.io](https://apis.io/) network, including APIs API, Areas API, Artifact Types API, and 8 more. Tagged areas include API Aggregation, API Directory, API Discovery, API Indexing, and API Rating.
+overview: 'APIs.io publishes 13 APIs on the [APIs.io](https://apis.io/) network, including APIs API, Areas API, Artifact Types API, and 10 more. Tagged areas include API Aggregation, API Directory, API Discovery, API Indexing, and API Rating.
 
 
   The APIs.io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -601,18 +607,23 @@ rules:
   slug: apis-io-spectral-rules
 score:
   band: exemplar
-  composite: 76.1
+  composite: 71.0
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 17.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 45.5
-    contract_quality: 74.6
+    contract_governance: 33.3
+    contract_quality: 68.3
     developer_ergonomics: 71.4
     discoverability: 92.6
-    governance: 45.5
-    operational_transparency: 89.5
-  previous_composite: 76.1
+    governance: 33.3
+    operational_transparency: 73.7
+  previous_composite: 71.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -623,8 +634,8 @@ score:
       total: 12
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/screenshots/apis-io-2026-06-20T172253.png
 security:

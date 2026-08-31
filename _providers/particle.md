@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-26'
+  score: 22.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 138
   slug: particle-agentic-access
   summary_line: 138 operations · 66 acting · 1 human-in-the-loop
-api_count: 25
+api_count: 2
 apis:
 - description: The Authentication API from Particle — 3 operation(s) for authentication.
   name: Particle Authentication API
@@ -119,7 +119,16 @@ apis:
 - description: The User API from Particle — 2 operation(s) for user.
   name: Particle User API
   slug: particle-user-api
-artifact_total: 64
+- description: The Access Tokens API from Particle — 3 operation(s) for access tokens.
+  name: Particle Access Tokens API
+  slug: particle-access-tokens-api
+- description: The Clients API from Particle — 2 operation(s) for clients.
+  name: Particle Clients API
+  slug: particle-clients-api
+- description: The Serial Numbers API from Particle — 1 operation(s) for serial numbers.
+  name: Particle Serial Numbers API
+  slug: particle-serial-numbers-api
+artifact_total: 67
 collections:
 - collection_type: open
   name: API Collection
@@ -212,6 +221,10 @@ collections:
   name: Particle Cloud Authentication User API
   slug: open-particle-user-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/particle-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -345,13 +358,13 @@ modified: '2026-08-08'
 name: Particle
 nav: Providers
 network: true
-overview: 'Particle publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Configuration API, Customers API, and 22 more. Tagged areas include IoT, Internet of Things, Cellular, Wi-Fi, and Bluetooth.
+overview: 'Particle publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Configuration API, Customers API, and 25 more. Tagged areas include IoT, Internet of Things, Cellular, Wi-Fi, and Bluetooth.
 
 
   The Particle catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Particle''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, CLI, GitHub presence, and 21 more developer resources.'
+  Particle''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, CLI, GitHub presence, and 22 more developer resources.'
 plans:
 - name: Particle Plans Pricing
   plan_count: 5
@@ -363,18 +376,23 @@ rate_limits:
   slug: particle-rate-limits
 score:
   band: strong
-  composite: 63.2
-  delta: 2.4
+  composite: 62.1
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 35.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 15.2
-    contract_quality: 73.3
+    contract_quality: 71.2
     developer_ergonomics: 64.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 15.2
     operational_transparency: 65.8
-  previous_composite: 60.8
+  previous_composite: 62.7
   provenance:
     agentic_access: derived
     contracts:
@@ -382,8 +400,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 28
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/particle/refs/heads/main/screenshots/particle-2026-06-20T191427.png
 security:

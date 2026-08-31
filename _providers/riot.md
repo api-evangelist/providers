@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 40
   slug: riot-agentic-access
   summary_line: 40 operations · 9 acting
-api_count: 14
+api_count: 2
 apis:
 - description: Provides data about courses, their settings within the workspace and employees' learning progress.
   name: Riot Awareness API
@@ -60,22 +60,7 @@ apis:
 - description: The Sonar API from Riot — 0 operation(s) for sonar.
   name: Riot Sonar API
   slug: riot-sonar-api
-- description: The Team awareness API from Riot — 4 operation(s) for team awareness.
-  name: Riot Team awareness API
-  slug: riot-team-awareness-api
-- description: The Team inbox API from Riot — 5 operation(s) for team inbox.
-  name: Riot Team inbox API
-  slug: riot-team-inbox-api
-- description: The Team platform API from Riot — 15 operation(s) for team platform.
-  name: Riot Team platform API
-  slug: riot-team-platform-api
-- description: The Team simulation API from Riot — 8 operation(s) for team simulation.
-  name: Riot Team simulation API
-  slug: riot-team-simulation-api
-- description: Server-to-server events Riot sends to customer-configured endpoints.
-  name: Riot Webhook Events API
-  slug: riot-webhook-events-api
-artifact_total: 38
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Riot Webhooks
@@ -283,7 +268,7 @@ modified: '2026-08-05'
 name: Riot
 nav: Providers
 network: true
-overview: 'Riot publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Awareness API, Breaches API, General API, and 11 more. Tagged areas include Cybersecurity, Security Awareness, Human Risk Management, Phishing Simulation, and employee-security.
+overview: 'Riot publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Awareness API, Breaches API, General API, and 6 more. Tagged areas include Cybersecurity, security-awareness, human-risk-management, phishing-simulation, and employee-security.
 
 
   The Riot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -302,18 +287,23 @@ scopes:
   summary_line: 4 scopes
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 47.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
-    contract_governance: 30.3
-    contract_quality: 64.6
+    contract_governance: 18.2
+    contract_quality: 65.1
     developer_ergonomics: 47.0
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 50.7
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -324,8 +314,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/screenshots/riot-2026-08-17T081610.png
 security:
@@ -348,17 +338,17 @@ security:
 slug: riot
 tags:
 - Cybersecurity
-- Security Awareness
-- Human Risk Management
-- Phishing Simulation
+- security-awareness
+- human-risk-management
+- phishing-simulation
 - employee-security
-- Security Posture Management
+- security-posture-management
 - breach-detection
-- Email Security
-- SaaS Security
+- email-security
+- saas-security
 - SCIM
 - Webhook
-- OCSF
-- France
+- ocsf
+- france
 website: https://tryriot.com/
 ---

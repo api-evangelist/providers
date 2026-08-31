@@ -23,18 +23,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: Hydro Ottawa's mandated Green Button Connect My Data surface — the OAuth-authorized, machine-to-machine channel through which a customer can grant a third-party application ongoing access to their sma
-  name: Hydro Ottawa Green Button Connect My Data (CMD) API
-  slug: hydro-ottawa-green-button-connect-my-data-api
-artifact_total: 5
+- description: Application Information endpoints
+  name: Hydro Ottawa Application Information API
+  slug: hydro-ottawa-applicationinformation-api
+- description: Authorization endpoints
+  name: Hydro Ottawa Authorization API
+  slug: hydro-ottawa-authorization-api
+- description: Batch data transfer endpoints
+  name: Hydro Ottawa Batch API
+  slug: hydro-ottawa-batch-api
+- description: Usage Point endpoints
+  name: Hydro Ottawa Usage Point API
+  slug: hydro-ottawa-usagepoint-api
+artifact_total: 8
 collections:
 - collection_type: open
   name: Green Button API Documentation
   slug: open-hydro-ottawa-green-button-espi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hydro-ottawa-green-button-espi-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -162,10 +175,10 @@ modified: '2026-07-27'
 name: Hydro Ottawa
 nav: Providers
 network: true
-overview: 'Hydro Ottawa publishes 1 API on the [APIs.io](https://apis.io/) network: Green Button Connect My Data (CMD) API. Tagged areas include Energy, Canada, Ontario, Utilities, and Electricity.
+overview: 'Hydro Ottawa publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Application Information API, Authorization API, Batch API, and 1 more. Tagged areas include Energy, Canada, Ontario, Utilities, and Electricity.
 
 
-  Hydro Ottawa''s developer surface includes authentication, getting-started guide, signup flow, engineering blog, documentation, support, YouTube channel, and 22 more developer resources.'
+  Hydro Ottawa''s developer surface includes authentication, getting-started guide, signup flow, engineering blog, documentation, support, YouTube channel, and 23 more developer resources.'
 random_paper: 12
 scopes:
 - name: Hydro Ottawa Scopes
@@ -173,19 +186,24 @@ scopes:
   slug: hydro-ottawa-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 27.0
-  delta: 0.0
+  band: emerging
+  composite: 25.5
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 11.2
+    contract_governance: 4.5
+    contract_quality: 11.1
     developer_ergonomics: 30.4
     discoverability: 59.3
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 27.0
+  previous_composite: 26.0
   provenance:
     conformance: derived
     contracts:
@@ -200,8 +218,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydro-ottawa/refs/heads/main/screenshots/hydro-ottawa-2026-08-07T170509.png
 security:

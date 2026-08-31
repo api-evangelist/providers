@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,18 +41,36 @@ agentic_access:
   operation_count: 27
   slug: energyaustralia-agentic-access
   summary_line: 27 operations · 5 acting
-api_count: 3
+api_count: 2
 apis:
-- description: Public, unauthenticated Consumer Data Right energy Product Reference Data for the EnergyAustralia brand, conforming to the Australian Consumer Data Standards energy schemas. Unlike CDR banking — where
-  name: EnergyAustralia CDR Energy Plans API
-  slug: energyaustralia-cdr-energy-plans-api
-- description: 'The Consumer Data Standards Common API discovery endpoints served for the EnergyAustralia brand path on the AER Energy Made Easy CDR gateway. Public and unauthenticated. Confirmed live on 2026-07-27: '
-  name: EnergyAustralia CDR Discovery Status API
-  slug: energyaustralia-cdr-discovery-api
-- description: The mandated, authenticated Consumer Data Right consumer data-sharing surface — energy accounts, invoices, billing, balances, concessions, payment schedules, electricity service points, interval usage
-  name: EnergyAustralia CDR Energy Consumer Data Sharing API
-  slug: energyaustralia-cdr-energy-consumer-data-api
-artifact_total: 9
+- description: Data Holder Customer endpoints
+  name: EnergyAustralia Data Holder Customers API
+  slug: energyaustralia-data-holder-customers-api
+- description: Data Holder Operations endpoints
+  name: EnergyAustralia Data Holder Operations API
+  slug: energyaustralia-data-holder-operations-api
+- description: Distributed Energy Resource endpoints
+  name: EnergyAustralia Distributed Energy Resources API
+  slug: energyaustralia-distributed-energy-resources-api
+- description: Electricity Service Point endpoints
+  name: EnergyAustralia Electricity Service Points API
+  slug: energyaustralia-electricity-service-points-api
+- description: Electricity Usage endpoints
+  name: EnergyAustralia Electricity Usage API
+  slug: energyaustralia-electricity-usage-api
+- description: Energy Account Balance endpoints
+  name: EnergyAustralia Energy Account Balances API
+  slug: energyaustralia-energy-account-balances-api
+- description: Energy Account Billing endpoints
+  name: EnergyAustralia Energy Account Billing API
+  slug: energyaustralia-energy-account-billing-api
+- description: Energy Account endpoints
+  name: EnergyAustralia Energy Accounts API
+  slug: energyaustralia-energy-accounts-api
+- description: Energy Plan endpoints
+  name: EnergyAustralia Energy Plans API
+  slug: energyaustralia-energy-plans-api
+artifact_total: 15
 collections:
 - collection_type: open
   name: CDR Common API
@@ -61,6 +79,22 @@ collections:
   name: CDR Energy API
   slug: open-energyaustralia-cds-energy-api
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/energyaustralia-compare-energy-plans.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/energyaustralia-check-status-and-outages.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/energyaustralia-consumer-data-sharing.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/energyaustralia-usage-and-der.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -189,10 +223,10 @@ modified: '2026-07-27'
 name: EnergyAustralia
 nav: Providers
 network: true
-overview: 'EnergyAustralia publishes 3 APIs on the [APIs.io](https://apis.io/) network: CDR Energy Plans API, CDR Discovery Status API, and CDR Energy Consumer Data Sharing API. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
+overview: 'EnergyAustralia publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Data Holder Customers API, Data Holder Operations API, Distributed Energy Resources API, and 6 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
 
 
-  EnergyAustralia''s developer surface includes authentication, changelog, API reference, documentation, support, signup flow, pricing, and 23 more developer resources.'
+  EnergyAustralia''s developer surface includes authentication, changelog, API reference, documentation, support, signup flow, pricing, and 27 more developer resources.'
 random_paper: 20
 scopes:
 - name: Energyaustralia Scopes
@@ -201,18 +235,23 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: developing
-  composite: 42.1
-  delta: 0.0
+  composite: 40.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 49.7
     developer_ergonomics: 32.7
-    discoverability: 77.8
-    governance: 16.7
+    discoverability: 72.2
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 42.1
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -229,8 +268,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energyaustralia/refs/heads/main/screenshots/energyaustralia-2026-08-07T164911.png
 security:

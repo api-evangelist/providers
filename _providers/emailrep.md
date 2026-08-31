@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 2
   slug: emailrep-agentic-access
   summary_line: 2 operations · 1 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Report email addresses as malicious so the reputation graph picks up the signal.
   name: EmailRep Reports API
@@ -434,18 +434,23 @@ rules:
   slug: emailrep-spectral-rules
 score:
   band: developing
-  composite: 50.4
-  delta: 2.0
+  composite: 48.9
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 22.8
     developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 45.5
+    governance: 33.3
     operational_transparency: 34.2
-  previous_composite: 48.4
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -456,8 +461,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/screenshots/emailrep-2026-06-20T180624.png
 security:

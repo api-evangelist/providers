@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 3
@@ -42,56 +42,26 @@ agentic_access:
   operation_count: 107
   slug: composio-agentic-access
   summary_line: 107 operations · 60 acting · 3 human-in-the-loop
-api_count: 38
+api_count: 2
 apis:
-- description: The Account Management API from Composio — 2 operation(s) for account management.
-  name: Composio Account Management API
-  slug: composio-account-management-api
-- description: The AI API from Composio — 1 operation(s) for ai.
-  name: Composio AI API
-  slug: composio-ai-api
-- description: API key management
-  name: Composio API Keys API
-  slug: composio-api-keys-api
-- description: The Applications API from Composio — 1 operation(s) for applications.
-  name: Composio Applications API
-  slug: composio-applications-api
 - description: Authentication configuration management
   name: Composio Auth Configs API
   slug: composio-auth-configs-api
 - description: Authentication related endpoints
   name: Composio Authentication API
   slug: composio-authentication-api
-- description: The Categories API from Composio — 1 operation(s) for categories.
-  name: Composio Categories API
-  slug: composio-categories-api
 - description: CLI integration endpoints
   name: Composio CLI API
   slug: composio-cli-api
 - description: The CLI Authentication API from Composio — 2 operation(s) for cli authentication.
   name: Composio CLI Authentication API
   slug: composio-cli-authentication-api
-- description: The Configuration API from Composio — 1 operation(s) for configuration.
-  name: Composio Configuration API
-  slug: composio-configuration-api
 - description: Connected account management
   name: Composio Connected Accounts API
   slug: composio-connected-accounts-api
-- description: The Custom API from Composio — 1 operation(s) for custom.
-  name: Composio Custom API
-  slug: composio-custom-api
-- description: The Execution API from Composio — 1 operation(s) for execution.
-  name: Composio Execution API
-  slug: composio-execution-api
 - description: File management
   name: Composio Files API
   slug: composio-files-api
-- description: The Instances API from Composio — 2 operation(s) for instances.
-  name: Composio Instances API
-  slug: composio-instances-api
-- description: The Integration API from Composio — 3 operation(s) for integration.
-  name: Composio Integration API
-  slug: composio-integration-api
 - description: Logging and monitoring
   name: Composio Logs API
   slug: composio-logs-api
@@ -101,30 +71,12 @@ apis:
 - description: Endpoints to help with migration from v1 to v3
   name: Composio Migration API
   slug: composio-migration-api
-- description: The Natural Language Processing API from Composio — 1 operation(s) for natural language processing.
-  name: Composio Natural Language Processing API
-  slug: composio-natural-language-processing-api
-- description: Organization management
-  name: Composio Organization API
-  slug: composio-organization-api
 - description: The Organization Management API from Composio — 5 operation(s) for organization management.
   name: Composio Organization Management API
   slug: composio-organization-management-api
 - description: The Projects API from Composio — 6 operation(s) for projects.
   name: Composio Projects API
   slug: composio-projects-api
-- description: The Proxy API from Composio — 1 operation(s) for proxy.
-  name: Composio Proxy API
-  slug: composio-proxy-api
-- description: The Realtime API from Composio — 2 operation(s) for realtime.
-  name: Composio Realtime API
-  slug: composio-realtime-api
-- description: The Servers API from Composio — 7 operation(s) for servers.
-  name: Composio Servers API
-  slug: composio-servers-api
-- description: The Session API from Composio — 2 operation(s) for session.
-  name: Composio Session API
-  slug: composio-session-api
 - description: (Labs) Tool router endpoints
   name: Composio Tool Router API
   slug: composio-tool-router-api
@@ -137,27 +89,12 @@ apis:
 - description: Trigger management and execution
   name: Composio Triggers API
   slug: composio-triggers-api
-- description: The Upload API from Composio — 1 operation(s) for upload.
-  name: Composio Upload API
-  slug: composio-upload-api
-- description: The URL Generation API from Composio — 1 operation(s) for url generation.
-  name: Composio URL Generation API
-  slug: composio-url-generation-api
-- description: User API key management
-  name: Composio User API
-  slug: composio-user-api
-- description: The UUID Conversion API from Composio — 1 operation(s) for uuid conversion.
-  name: Composio UUID Conversion API
-  slug: composio-uuid-conversion-api
 - description: Per-OAuth-app webhook ingress endpoints. Inbound URLs the provider posts to, plus signing secret storage and verification.
   name: Composio Webhook Endpoints API
   slug: composio-webhook-endpoints-api
 - description: Webhook delivery subscriptions. Outbound URLs Composio posts trigger events to, plus signing secret rotation and event-type filters.
   name: Composio Webhook Subscriptions API
   slug: composio-webhook-subscriptions-api
-- description: The x-internal API from Composio — 13 operation(s) for x-internal.
-  name: Composio x-internal API
-  slug: composio-x-internal-api
 arazzos:
 - description: Create an auth config for a toolkit, open a connection, and poll until it becomes active.
   name: Composio Connect an Account via a New Auth Config
@@ -192,7 +129,7 @@ arazzos:
 - description: Open a tool router session, search for a tool by use case, and execute it.
   name: Composio Tool Router Session
   slug: composio-tool-router-session-workflow
-artifact_total: 139
+artifact_total: 118
 collections:
 - collection_type: postman
   name: Composio Platform API
@@ -696,7 +633,7 @@ modified: '2026-06-20'
 name: Composio
 nav: Providers
 network: true
-overview: 'Composio publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Account Management API, AI API, API Keys API, and 35 more. Tagged areas include AI Agents, Authentication, Integration, MCP, and Sandbox.
+overview: 'Composio publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Auth Configs API, Authentication API, CLI API, and 14 more. Tagged areas include AI Agents, Authentication, Integration, MCP, and Sandbox.
 
 
   The Composio catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -736,18 +673,26 @@ rules:
   slug: composio-rules
 score:
   band: strong
-  composite: 54.9
-  delta: 0.0
+  composite: 54.6
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
-    contract_quality: 59.7
+    contract_governance: 18.2
+    contract_quality: 59.5
     developer_ergonomics: 59.5
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 54.9
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -757,8 +702,8 @@ score:
       marker_coverage: 0.0
       total: 38
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/screenshots/composio-2026-06-20T174834.png
 security:
@@ -783,7 +728,7 @@ tags:
 - Sandbox
 - Tools
 - Triggers
-- Unified-API
+- Unified_API
 - Webhook
 website: https://app.composio.dev/dashboard
 ---

@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-08-26'
-api_count: 21
+  scored_at: '2026-08-30'
+api_count: 5
 apis:
 - description: The Addresses API from viagogo — 2 operation(s) for addresses.
   name: viagogo Addresses API
@@ -159,6 +159,10 @@ collections:
   name: viagogo Webhooks API
   slug: open-viagogo-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/viagogo-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -297,7 +301,7 @@ overview: 'viagogo publishes 21 APIs on the [APIs.io](https://apis.io/) network,
   The viagogo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  viagogo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
+  viagogo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 24 more developer resources.'
 random_paper: 13
 scopes:
 - name: Viagogo Scopes
@@ -306,18 +310,23 @@ scopes:
   summary_line: 17 scopes
 score:
   band: developing
-  composite: 48.4
+  composite: 45.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 57.3
     developer_ergonomics: 73.2
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 74.1
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 48.4
+  previous_composite: 45.9
   provenance:
     conformance: derived
     contracts:
@@ -327,8 +336,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viagogo/refs/heads/main/screenshots/viagogo-2026-08-17T082740.png
 security:
@@ -349,6 +358,6 @@ tags:
 - Entertainment
 - Secondary Market
 - Commerce
-- Travel And Leisure
+- Travel and Leisure
 website: https://www.viagogo.com/
 ---

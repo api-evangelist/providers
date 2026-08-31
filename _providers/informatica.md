@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: informatica-agentic-access
   summary_line: 28 operations · 14 acting · 1 human-in-the-loop
-api_count: 12
+api_count: 1
 apis:
 - description: The Data Integration REST API provides programmatic access to manage data integration assets and operations, including connections, mappings, mapping tasks, dynamic mapping tasks, taskflows, code task
   name: Informatica Data Integration REST API
@@ -107,6 +107,10 @@ collections:
   name: Informatica IICS Platform REST Authentication Schedules API
   slug: open-informatica-schedules-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesforce/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -517,7 +521,7 @@ jsonld:
   property_count: 0
   slug: informatica-platform-rest-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-08-30'
 name: Informatica
 nav: Providers
 network: true
@@ -527,7 +531,7 @@ overview: 'Informatica publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
   The Informatica catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Informatica''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 9 more developer resources.'
+  Informatica''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Informatica Plans Pricing
   plan_count: 3
@@ -561,18 +565,23 @@ rules:
   slug: informatica-spectral-rules
 score:
   band: developing
-  composite: 44.0
-  delta: 4.5
+  composite: 41.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 68.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
     contract_governance: 28.8
-    contract_quality: 76.4
+    contract_quality: 69.6
     developer_ergonomics: 54.8
-    discoverability: 50.0
+    discoverability: 44.4
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 39.5
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     contracts:
@@ -580,8 +589,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/screenshots/informatica-2026-06-20T183340.png
 security:

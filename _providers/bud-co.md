@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 153
   slug: bud-co-agentic-access
   summary_line: 153 operations · 66 acting · 1 human-in-the-loop
-api_count: 32
+api_count: 1
 apis:
 - description: Manage virtual "buckets" for grouping and aggregating transactions by their underlying categories. Use this for retrieving financial data for customers of the Assess Dashboard (where the `bucket_id` i
   name: Bud Financial Aggregation Buckets API
@@ -245,6 +245,10 @@ collections:
   name: 'Bud API Services: Documentation'
   slug: open-bud-platform
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bud-co-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -326,7 +330,7 @@ overview: 'Bud Financial publishes 32 APIs on the [APIs.io](https://apis.io/) ne
   The Bud Financial catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Bud Financial''s developer surface includes authentication, documentation, developer console, support, GitHub presence, and 6 more developer resources.'
+  Bud Financial''s developer surface includes authentication, documentation, developer console, support, GitHub presence, and 7 more developer resources.'
 plans:
 - name: Bud Co Plans Pricing
   plan_count: 5
@@ -365,15 +369,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.8
-  delta: 0.0
+  composite: 43.2
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 68.6
     developer_ergonomics: 28.6
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 13.6
     operational_transparency: 5.3
   previous_composite: 43.8
@@ -390,8 +399,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/screenshots/bud-co-2026-06-20T173739.png
 security:

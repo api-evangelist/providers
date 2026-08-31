@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -31,18 +31,36 @@ agentic_access:
   operation_count: 27
   slug: alinta-energy-agentic-access
   summary_line: 27 operations · 5 acting
-api_count: 3
+api_count: 2
 apis:
-- description: The only API Alinta Energy serves from its own infrastructure that a developer can call anonymously. Two unauthenticated operations mandated by the Australian Consumer Data Standards for every data ho
-  name: Alinta Energy CDR Discovery API
-  slug: alinta-energy-cdr-discovery-api
-- description: Alinta Energy's public electricity and gas plan catalogue, exposed as the CDR energy Generic Plan Data endpoints GET /energy/plans and GET /energy/plans/{planId}. Confirmed live on 2026-07-27 with HTT
-  name: Alinta Energy CDR Generic Plan Data API
-  slug: alinta-energy-cdr-generic-plan-data-api
-- description: The mandated consumer data-sharing surface. As a designated CDR energy data holder (register brand ID 8bd0fd93-9d26-ee11-a83d-000d3a8830d6, ABN 22149658300), Alinta must serve the Consumer Data Standa
-  name: Alinta Energy CDR Energy API
-  slug: alinta-energy-cdr-energy-api
-artifact_total: 11
+- description: Data Holder Customer endpoints
+  name: Alinta Energy Data Holder Customers API
+  slug: alinta-energy-data-holder-customers-api
+- description: Data Holder Operations endpoints
+  name: Alinta Energy Data Holder Operations API
+  slug: alinta-energy-data-holder-operations-api
+- description: Distributed Energy Resource endpoints
+  name: Alinta Energy Distributed Energy Resources API
+  slug: alinta-energy-distributed-energy-resources-api
+- description: Electricity Service Point endpoints
+  name: Alinta Energy Electricity Service Points API
+  slug: alinta-energy-electricity-service-points-api
+- description: Electricity Usage endpoints
+  name: Alinta Energy Electricity Usage API
+  slug: alinta-energy-electricity-usage-api
+- description: Energy Account Balance endpoints
+  name: Alinta Energy Energy Account Balances API
+  slug: alinta-energy-energy-account-balances-api
+- description: Energy Account Billing endpoints
+  name: Alinta Energy Energy Account Billing API
+  slug: alinta-energy-energy-account-billing-api
+- description: Energy Account endpoints
+  name: Alinta Energy Energy Accounts API
+  slug: alinta-energy-energy-accounts-api
+- description: Energy Plan endpoints
+  name: Alinta Energy Energy Plans API
+  slug: alinta-energy-energy-plans-api
+artifact_total: 17
 collections:
 - collection_type: open
   name: CDR Common API
@@ -51,6 +69,10 @@ collections:
   name: CDR Energy API
   slug: open-alinta-energy-cds-energy-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/alinta-energy-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -204,10 +226,10 @@ modified: '2026-07-27'
 name: Alinta Energy
 nav: Providers
 network: true
-overview: 'Alinta Energy publishes 3 APIs on the [APIs.io](https://apis.io/) network: CDR Discovery API, CDR Generic Plan Data API, and CDR Energy API. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
+overview: 'Alinta Energy publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Data Holder Customers API, Data Holder Operations API, Distributed Energy Resources API, and 6 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
 
 
-  Alinta Energy''s developer surface includes authentication, changelog, documentation, API reference, support, status page, and 29 more developer resources.'
+  Alinta Energy''s developer surface includes authentication, changelog, documentation, API reference, support, status page, and 30 more developer resources.'
 random_paper: 5
 rate_limits:
 - limit_count: 7
@@ -220,18 +242,23 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 46.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 49.7
     developer_ergonomics: 35.1
-    discoverability: 72.2
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 65.8
-  previous_composite: 47.1
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,8 +275,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

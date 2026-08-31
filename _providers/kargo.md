@@ -23,16 +23,19 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: REST API for programmatic access to Kargo platform resources. Accepts a single flattened document carrying shipment, order and order-item data, or a shipment-level document with multiple orders, and u
-  name: Kargo Document Intake API
-  slug: kargo-document-intake-api
 - description: Kargo's original public integration method, maintained for existing integrations and still the surface behind the Unified Endpoint API. Exposes queries for businesses, shipments, push messages and the
   name: Kargo Public GraphQL API
   slug: kargo-public-graphql-api
-artifact_total: 9
+- description: The Documents API from Kargo — 1 operation(s) for documents.
+  name: Kargo Documents API
+  slug: kargo-documents-api
+- description: The SKU Master API from Kargo — 1 operation(s) for sku master.
+  name: Kargo SKU Master API
+  slug: kargo-sku-master-api
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Kargo Push Webhooks
@@ -42,6 +45,10 @@ collections:
   name: Kargo Public GraphQL API
   slug: postman-kargo-public-graphql
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kargo-document-intake-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -190,13 +197,13 @@ modified: '2026-08-23'
 name: Kargo
 nav: Providers
 network: true
-overview: 'Kargo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Document Intake API and Public GraphQL API. Tagged areas include Company, Logistics, Supply Chain, Warehouse, and Computer Vision.
+overview: 'Kargo publishes 3 APIs on the [APIs.io](https://apis.io/) network: Public GraphQL API, Documents API, and SKU Master API. Tagged areas include Company, Logistics, Supply Chain, Warehouse, and Computer-Vision.
 
 
   The Kargo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kargo''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, support, and 28 more developer resources.'
+  Kargo''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, support, and 29 more developer resources.'
 plans:
 - name: Kargo Plans Pricing
   plan_count: 0
@@ -213,18 +220,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.6
-  delta: -0.3
+  composite: 49.0
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 70.5
     developer_ergonomics: 70.8
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 51.9
+  previous_composite: 49.6
   provenance:
     conformance: first-party
     contracts:
@@ -234,8 +246,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -252,13 +264,13 @@ tags:
 - Logistics
 - Supply Chain
 - Warehouse
-- Computer Vision
+- Computer-Vision
 - Artificial Intelligence
 - Shipping
 - Inventory
 - Industrial Automation
 - Freight
 - GraphQL
-- Webhooks
+- Webhook
 website: https://www.kargo.ai/
 ---

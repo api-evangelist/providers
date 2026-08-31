@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -58,6 +58,10 @@ collections:
   name: ZeroDev Bundler & Paymaster RPC
   slug: open-zerodev
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/zerodevapp/sdk/issues
 - group: commercial
   title: ''
   type: License
@@ -113,7 +117,7 @@ network: true
 overview: 'ZeroDev publishes 1 API on the [APIs.io](https://apis.io/) network: JSON-RPC API. Tagged areas include Account Abstraction, Smart Wallets, ERC-4337, EIP-7702, and Paymaster.
 
 
-  ZeroDev''s developer surface includes documentation and 9 more developer resources.'
+  ZeroDev''s developer surface includes documentation and 10 more developer resources.'
 plans:
 - name: Zerodev Plans Pricing
   plan_count: 4
@@ -125,8 +129,13 @@ rate_limits:
   slug: zerodev-rate-limits
 score:
   band: thin
-  composite: 32.8
-  delta: 2.4
+  composite: 29.1
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -136,7 +145,10 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 30.4
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
@@ -150,8 +162,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerodev/refs/heads/main/screenshots/zerodev-2026-06-20T201834.png
 security:

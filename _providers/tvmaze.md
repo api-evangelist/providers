@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 72
   slug: tvmaze-agentic-access
   summary_line: 72 operations · 24 acting
-api_count: 17
+api_count: 2
 apis:
 - description: The auth API from TVmaze — 3 operation(s) for auth.
   name: TVmaze auth API
@@ -209,6 +209,10 @@ collections:
   name: TVmaze Premium User auth voted shows API
   slug: open-tvmaze-voted-shows-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tvmaze-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -621,7 +625,7 @@ overview: 'TVmaze publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
   The TVmaze catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  TVmaze''s developer surface includes authentication, documentation, API reference, signup flow, developer console, pricing, support, and 20 more developer resources.'
+  TVmaze''s developer surface includes authentication, documentation, API reference, signup flow, developer console, pricing, support, and 21 more developer resources.'
 plans:
 - name: Tvmaze Plans Pricing
   plan_count: 5
@@ -655,18 +659,23 @@ rules:
   slug: tvmaze-rules
 score:
   band: strong
-  composite: 57.0
-  delta: 0.8
+  composite: 60.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 27.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 28.8
-    contract_quality: 64.7
+    contract_quality: 71.5
     developer_ergonomics: 54.8
-    discoverability: 57.4
+    discoverability: 70.4
     governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 56.2
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     contracts:
@@ -674,8 +683,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvmaze/refs/heads/main/screenshots/tvmaze-2026-06-20T195842.png
 security:

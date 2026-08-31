@@ -10,13 +10,13 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
+  score: 12.4
+  scored_at: '2026-08-30'
 api_count: 4
 apis:
 - description: A-Mark's wholesale precious metals trading platform enables dealers and financial institutions to buy and sell gold, silver, platinum, and palladium bullion products. Offers spot, forward, and deferre
@@ -48,8 +48,64 @@ apis:
 - description: A-Mark provides financing options using precious metals as collateral, offering collateralized loans to qualified commercial customers against precious metal holdings.
   name: A-Mark Collateralized Loans
   slug: a-mark-collateralized-loans
-artifact_total: 25
+artifact_total: 27
 common:
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/a-mark-precious-metals-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/a-mark-precious-metals-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/a-mark-precious-metals-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/a-mark-precious-metals-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/a-mark-precious-metals-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/a-mark-precious-metals-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/a-mark-precious-metals-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/a-mark-precious-metals-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/a-mark-precious-metals-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/a-mark-precious-metals-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/a-mark-precious-metals-finops.yml
+- group: start
+  title: ''
+  type: Login
+  url: https://portal.amark.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.amark.com/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.amark.com/privacy-policy/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -57,7 +113,7 @@ common:
 - group: company
   title: ''
   type: LinkedIn
-  url: https://www.linkedin.com/company/a-mark-precious-metals
+  url: https://www.linkedin.com/company/goldcominc
 - group: company
   title: ''
   type: Website
@@ -69,9 +125,9 @@ common:
 - group: operate
   title: ''
   type: Contact
-  url: https://www.amark.com/contact
+  url: https://www.gold.com/contact/
 created: '2026-04-19'
-description: A-Mark Precious Metals is a full-service precious metals trading company that wholesales gold, silver, platinum, and palladium bullion and coins to dealers, financial institutions, and investors. They operate trading desks 17 hours daily across global locations (US, Asia, Vienna) and offer wholesale sales, direct-to-consumer, logistics and storage, minting, and collateralized loans services.
+description: 'A-Mark Precious Metals is a full-service precious metals trading company that wholesales gold, silver, platinum, and palladium bullion and coins to dealers, financial institutions, and investors. They operate trading desks 17 hours daily across global locations (US, Asia, Vienna) and offer wholesale sales, direct-to-consumer, logistics and storage, minting, and collateralized loans services. The company is renaming to Gold.com, Inc. and transferring to the NYSE under the ticker GOLD, alongside its $33M acquisition of Monex Deposit Company; A-Mark now sits as one brand inside the Gold.com brand family. A-Mark runs no public developer program: trading access is through the credentialed A-Mark Trading Portal at portal.amark.com, whose OAuth 2.0 discovery document is the only machine-readable contract the company serves.'
 features:
 - description: Bulk precious metals trading with market making through trading desks operating 17 hours daily across US, Asia, and Vienna locations.
   name: Wholesale Trading
@@ -102,17 +158,17 @@ integrations:
 - description: Sourcing relationships with sovereign and private mints worldwide for diverse product availability and custom minting.
   name: Sovereign and Private Mints
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-29'
 name: A-Mark Precious Metals
 nav: Providers
 network: true
 overview: 'A-Mark Precious Metals publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Precious Metals, Trading, Wholesale, Gold, and Silver.
 
 
-  A-Mark Precious Metals'' developer surface includes documentation and 4 more developer resources.'
+  A-Mark Precious Metals'' developer surface includes authentication, documentation, and 17 more developer resources.'
 plans:
 - name: A Mark Precious Metals Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: a-mark-precious-metals-plans-pricing
 press:
 - date: '2026-05-25'
@@ -132,34 +188,48 @@ press:
   url: https://www.amark.com/privacy-policy/
 random_paper: 16
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: A Mark Precious Metals Rate Limits
   slug: a-mark-precious-metals-rate-limits
+scopes:
+- name: A Mark Precious Metals Scopes
+  scope_count: 0
+  slug: a-mark-precious-metals-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: minimal
-  composite: 9.4
+  band: emerging
+  composite: 25.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
-    contract_governance: 0.0
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 64.8
-    governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 9.4
+    developer_ergonomics: 21.4
+    discoverability: 72.2
+    governance: 18.2
+    operational_transparency: 0.0
+  previous_composite: 25.7
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 20.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 68.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/a-mark-precious-metals/refs/heads/main/screenshots/a-mark-precious-metals-2026-06-20T162921.png
 security:
+- kind: authentication
+  name: A Mark Precious Metals Authentication
+  slug: a-mark-precious-metals-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: A Mark Precious Metals Domain Security
   slug: a-mark-precious-metals-domain-security

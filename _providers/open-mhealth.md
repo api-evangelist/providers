@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/openmhealth/schemas/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/openmhealth/schemas/releases
 - group: auth
   title: ''
   type: DomainSecurity
@@ -148,11 +156,16 @@ network: true
 overview: 'Open mHealth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Health, Healthcare, Mobile Health, mHealth, and Digital Health.
 
 
-  Open mHealth''s developer surface includes documentation, engineering blog, and 23 more developer resources.'
+  Open mHealth''s developer surface includes documentation, engineering blog, and 25 more developer resources.'
 random_paper: 0
 score:
   band: minimal
-  composite: 6.0
+  composite: 9.6
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -162,16 +175,19 @@ score:
     developer_ergonomics: 11.9
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 2.6
-  previous_composite: 6.0
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 9.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-mhealth/refs/heads/main/screenshots/open-mhealth-2026-06-20T190842.png
 security:

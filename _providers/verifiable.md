@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 6
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 519
   slug: verifiable-agentic-access
   summary_line: 519 operations · 264 acting · 6 human-in-the-loop
-api_count: 33
+api_count: 2
 apis:
 - description: Endpoints to list and dismiss active alerts. Alerts are triggered when an important event occurs that warrants user involvement. An alert can be considered dismissed if it has a dismissal timestamp an
   name: Verifiable Alerts API
@@ -251,6 +251,10 @@ collections:
   name: Verifiable API Documentation Alerts WorkOsWebhook API
   slug: open-verifiable-workoswebhook-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/verifiable-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -389,22 +393,27 @@ overview: 'Verifiable publishes 33 APIs on the [APIs.io](https://apis.io/) netwo
   The Verifiable catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Verifiable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 23 more developer resources.'
+  Verifiable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 24 more developer resources.'
 random_paper: 20
 score:
   band: strong
-  composite: 56.4
-  delta: 0.0
+  composite: 54.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 63.8
     developer_ergonomics: 66.1
-    discoverability: 63.0
-    governance: 30.3
+    discoverability: 57.4
+    governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 56.4
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -421,8 +430,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/screenshots/verifiable-2026-08-17T082730.png
 security:

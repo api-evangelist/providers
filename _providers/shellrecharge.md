@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: shellrecharge-agentic-access
   summary_line: 8 operations · 2 acting · 1 human-in-the-loop
-api_count: 2
+api_count: 1
 apis:
 - description: The Locations API from ShellRecharge — 4 operation(s) for locations.
   name: ShellRecharge Locations API
@@ -65,6 +65,10 @@ collections:
   name: ShellRecharge EV Platform API
   slug: open-shellrecharge
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shellrecharge-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -124,7 +128,7 @@ network: true
 overview: 'ShellRecharge publishes 2 APIs on the [APIs.io](https://apis.io/) network: Locations API and Sessions API. Tagged areas include EV Charging, Electric Vehicles, Mobility, Charge Points, and OCPI.
 
 
-  ShellRecharge''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  ShellRecharge''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Shellrecharge Plans Pricing
   plan_count: 1
@@ -142,7 +146,12 @@ scopes:
 score:
   band: thin
   composite: 36.1
-  delta: 1.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -152,7 +161,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 34.7
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -166,8 +175,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

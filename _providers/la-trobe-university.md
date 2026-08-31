@@ -1,20 +1,20 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Not publicly available
   onboarding: unknown
-  pricing: free
+  pricing: unknown
   public: false
   source:
-  - plans
+  - probe
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -29,52 +29,24 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 2
-  human_in_the_loop: 0
-  name: La Trobe University Agentic Access
-  operation_count: 11
-  slug: la-trobe-university-agentic-access
-  summary_line: 11 operations · 2 acting
-api_count: 4
+  score: 5.0
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: OAI-PMH metadata harvesting interface for the La Trobe OPAL repository, served via the Figshare platform OAI provider, scoped to the La Trobe portal set (portal_234) and supporting the oai_dc metadata
-  name: OPAL (Open @ La Trobe) OAI-PMH Endpoint
-  slug: opal-figshare-oai-pmh
-- description: An institutional API gateway is reachable at api.latrobe.edu.au, but it is not a public, self-service developer product. Unauthenticated requests return HTTP 302 redirecting to a /signin page, indicat
+- description: 'La Trobe''s own API gateway, an Azure API Management instance published at api.latrobe.edu.au (CNAME ltu-api-prod-apim.developer.azure-api.net). It is not a public developer product: every path returns'
   name: La Trobe API Gateway (Gated)
   slug: api-gateway
-- description: The articles API from La Trobe University — 7 operation(s) for articles.
-  name: La Trobe University articles API
-  slug: la-trobe-university-articles-api
-- description: The collections API from La Trobe University — 4 operation(s) for collections.
-  name: La Trobe University collections API
-  slug: la-trobe-university-collections-api
-artifact_total: 19
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: La Trobe University OPAL (Figshare) Public articles API
-  slug: open-la-trobe-university-articles-api
-- collection_type: open
-  name: La Trobe University OPAL (Figshare) Public articles collections API
-  slug: open-la-trobe-university-collections-api
+- description: OPAL is La Trobe's open-access research repository — its publications, theses, datasets and DOIs — deployed as an institutional tenancy on Figshare. opal.latrobe.edu.au is a CNAME to figshare.com, and
+  name: OPAL (Open @ La Trobe) Research Repository
+  slug: opal-figshare-repository
+- description: La Trobe's SAML 2.0 identity provider in the Australian Access Federation, and through AAF in eduGAIN. The entity is La Trobe's — entityID https://aaf.latrobe.edu.au/idp/shibboleth, shibmd:Scope latro
+  name: La Trobe Shibboleth Identity Provider (AAF)
+  slug: aaf-shibboleth-idp
+artifact_total: 8
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/la-trobe-university-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/la-trobe-university-domain-security.yml
 - group: company
   title: ''
   type: Website
@@ -87,6 +59,34 @@ common:
   title: ''
   type: Twitter
   url: https://twitter.com/latrobe
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://opal.latrobe.edu.au/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://handbook.latrobe.edu.au/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://latrobe.primo.exlibrisgroup.com/discovery/search?vid=61LATROBE_INST:LATROBE
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://aaf.latrobe.edu.au/idp/shibboleth
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/la-trobe-university-conformance.yml
+- group: design
+  title: ''
+  type: x-json-ld
+  url: json-ld/la-trobe-university-context.jsonld
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/la-trobe-university-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -103,42 +103,57 @@ common:
   title: ''
   type: Review
   url: review.yml
+coverage:
+  checked: '2026-08-30'
+  detail: 'La Trobe University publishes no institution-authored API contract. The one API host on its own registrable domain, api.latrobe.edu.au, is an Azure API Management developer portal whose every path — /apis, /developer, /.well-known/openid-configuration — redirects to /signin, so the catalogue behind it is not externally observable. developer.latrobe.edu.au and data.latrobe.edu.au do not resolve. There is no CKAN or Socrata open-data portal and no institution-hosted OAI-PMH responder (opal.latrobe.edu.au/oai answers HTTP 202 with an empty body). The remaining machine-readable surfaces are tenancies — Figshare, CourseLoop, Ex Libris and an AAF-managed Shibboleth IdP — and are recorded as such, with x-operator on each entry, rather than credited to La Trobe as its own engineering. A secondary condition worth noting for future runs: every www/library/policy page on latrobe.edu.au sits behind a Cloudflare managed challenge and answers 403 to any non-browser client, including /robots.txt,
+    /llms.txt and /.well-known/security.txt, so no institutional policy or terms pointer could be verified and none is claimed here.'
+  evidence:
+  - status: 200
+    url: https://api.latrobe.edu.au/
+  - status: 200
+    url: https://api.latrobe.edu.au/apis
+  - status: 0
+    url: https://developer.latrobe.edu.au/
+  - status: 0
+    url: https://data.latrobe.edu.au/
+  - status: 202
+    url: https://opal.latrobe.edu.au/oai?verb=Identify
+  - status: 200
+    url: https://aaf.latrobe.edu.au/idp/shibboleth
+  - status: 200
+    url: https://handbook.latrobe.edu.au/
+  - status: 403
+    url: https://cf-api-ap-southeast-2.prod.courseloop.com/publisher/search-all?siteId=ltu-prod-pres
+  - status: 403
+    url: https://www.latrobe.edu.au/
+  - status: 403
+    url: https://www.latrobe.edu.au/llms.txt
+  - status: 403
+    url: https://www.latrobe.edu.au/.well-known/security.txt
+  reason: no_public_api
+  state: gated
 created: '2026-06-03'
-description: 'La Trobe University is a public research university based in Melbourne, Victoria, Australia, ranked #217 in the QS World University Rankings 2025. Like most universities, La Trobe does not operate a single consolidated public developer portal; the bulk of its API surface (an internal API gateway at api.latrobe.edu.au) sits behind sign-in and institutional federation. Its most clearly public, documented machine-readable interface is its open research repository, OPAL (Open @ La Trobe), which is hosted on the Figshare platform and therefore exposes the standard Figshare REST API and an OAI-PMH metadata endpoint for harvesting open-access publications, theses, and research data. Library discovery runs on Ex Libris Alma and Primo.'
-examples:
-- key_count: 50
-  name: La Trobe University Get Article Example
-  slug: la-trobe-university-get-article-example
-- key_count: 7
-  name: La Trobe University Search Articles Request Example
-  slug: la-trobe-university-search-articles-request-example
+description: 'La Trobe University is a public research university headquartered in Bundoora, Melbourne, Victoria, Australia, founded in 1964 and ranked #217 in the QS World University Rankings 2025. La Trobe operates no public, self-service API product and publishes no OpenAPI, AsyncAPI or GraphQL description of its own. Its single institution-operated API host, api.latrobe.edu.au, is an Azure API Management developer portal (CNAME ltu-api-prod-apim.developer.azure-api.net) that redirects every unauthenticated path to /signin, with no public catalogue, documentation or sign-up. Everything else that looks programmable under the La Trobe name is a vendor platform running under an institutional tenancy: the open-access repository OPAL (opal.latrobe.edu.au, CNAME figshare.com) and its alias researchdata.latrobe.edu.au are Figshare; the course handbook (handbook.latrobe.edu.au) is CourseLoop, whose backend at cf-api-ap-southeast-2.prod.courseloop.com refuses unauthenticated calls; library discovery
+  and resource management are Ex Libris Primo and Alma; the Shibboleth identity provider at aaf.latrobe.edu.au is operated by the Australian Access Federation under La Trobe''s own domain, entityID and scope. What La Trobe genuinely holds in its own name is registry identity — a DataCite membership with the DOI prefix 10.26181 over 47,824 DOIs, Crossref member 11371, ROR 01rxfrp27, and the AAF/eduGAIN SAML entity that federates its staff and students. That is the honest footprint: institutional identity and stewardship, not institutional engineering.'
 finops:
 - name: La Trobe University Finops
   service_category: Education
   slug: la-trobe-university-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/la-trobe-university.png
-json_schemas:
-- name: La Trobe OPAL Article
-  property_count: 50
-  slug: la-trobe-university-article
-json_structures:
-- name: La Trobe University Article Structure
-  property_count: 32
-  slug: la-trobe-university-article-structure
 jsonld:
-- class_count: 28
+- class_count: 15
   name: La Trobe University Context
-  property_count: 13
+  property_count: 6
   slug: la-trobe-university-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: La Trobe University
 nav: Providers
 network: true
-overview: 'La Trobe University publishes 2 APIs on the [APIs.io](https://apis.io/) network: articles API and collections API. Tagged areas include Education, Higher Education, University, Australia, and Research.
+overview: 'La Trobe University publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Australia, and Victoria.
 
 
-  The La Trobe University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
+  The La Trobe University catalog on APIs.io includes 1 JSON-LD context.'
 plans:
 - name: La Trobe University Plans Pricing
   plan_count: 2
@@ -148,41 +163,25 @@ rate_limits:
 - limit_count: 1
   name: La Trobe University Rate Limits
   slug: la-trobe-university-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: La Trobe University API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 1
-    warn: 4
-  slug: la-trobe-university-jsonschema-spectral-rules
-- effective_rule_count: 5
-  extends: []
-  name: La Trobe University API Rules
-  rule_count: 5
-  severity_counts:
-    error: 1
-    hint: 0
-    info: 0
-    warn: 4
-  slug: la-trobe-university-rules
 score:
   band: thin
-  composite: 34.8
-  delta: 3.6
+  composite: 27.1
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -7.7
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 64.6
+    contract_governance: 18.2
+    contract_quality: 17.3
     developer_ergonomics: 9.5
-    discoverability: 64.8
-    governance: 9.8
+    discoverability: 74.1
+    governance: 18.2
     operational_transparency: 21.1
-  previous_composite: 31.2
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -195,10 +194,10 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 46.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/screenshots/la-trobe-university-2026-06-20T184236.png
 security:
 - kind: domain-security
@@ -211,9 +210,12 @@ tags:
 - Higher Education
 - University
 - Australia
+- Victoria
 - Research
-- Open Data
-- Repository
+- Research Repository
+- Course Catalog
+- Identity Federation
 - Library
+- Open Access
 website: https://www.latrobe.edu.au/
 ---

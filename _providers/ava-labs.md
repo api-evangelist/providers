@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -41,11 +41,8 @@ agentic_access:
   operation_count: 171
   slug: ava-labs-agentic-access
   summary_line: 171 operations · 42 acting
-api_count: 28
+api_count: 2
 apis:
-- description: JSON-RPC access to the Avalanche Primary Network Platform Chain (P-Chain) — balances, UTXOs, subnets, validators, staking, supply and blockchain status.
-  name: Avalanche Platform Chain API
-  slug: avalanche-platform-chain-api
 - description: Find information about AVAX supply.
   name: Ava Labs AVAX Supply API
   slug: ava-labs-avax-supply-api
@@ -127,6 +124,9 @@ apis:
 - description: Manage webhooks and get notified for various onchain activities.
   name: Ava Labs Webhooks API
   slug: ava-labs-webhooks-api
+- description: The Data API API from Ava Labs — 0 operation(s) for data api.
+  name: Ava Labs Data API
+  slug: ava-labs-data-api-api
 artifact_total: 62
 asyncapis:
 - description: ''
@@ -221,6 +221,10 @@ collections:
   name: Data AVAX Supply Webhooks API
   slug: open-ava-labs-webhooks-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ava-labs-platform-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -349,28 +353,33 @@ modified: '2026-07-18'
 name: Ava Labs
 nav: Providers
 network: true
-overview: 'Ava Labs publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Avalanche Platform Chain API, AVAX Supply API, Chain Metrics API, and 25 more. Tagged areas include Company, Crypto, Blockchain, Avalanche, and Web3.
+overview: 'Ava Labs publishes 28 APIs on the [APIs.io](https://apis.io/) network, including AVAX Supply API, Chain Metrics API, Chain Throughput API, and 25 more. Tagged areas include Company, Crypto, Blockchain, Avalanche, and Web3.
 
 
   The Ava Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ava Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, CLI, and 22 more developer resources.'
+  Ava Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, changelog, CLI, and 23 more developer resources.'
 random_paper: 19
 score:
   band: developing
-  composite: 54.2
-  delta: 0.0
+  composite: 51.7
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 66.4
+    contract_governance: 4.5
+    contract_quality: 64.7
     developer_ergonomics: 75.6
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 54.2
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -381,8 +390,8 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ava-labs/refs/heads/main/screenshots/ava-labs-2026-07-25T201903.png
 security:

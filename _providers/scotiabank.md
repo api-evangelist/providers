@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: scotiabank-agentic-access
   summary_line: 13 operations · 7 acting
-api_count: 13
+api_count: 1
 apis:
 - description: Enables businesses to initiate secure, one-time wire transfers between accounts in the same currency (CAD or USD), domestically within Canada and the U.S., or internationally. Uses the SWIFT GPI-enabl
   name: Wire Payments API
@@ -113,6 +113,10 @@ collections:
   name: Scotiabank Scotia TranXact APIs Account Validation Wire Payments API
   slug: open-scotiabank-wire-payments-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/scotiabank-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -220,7 +224,7 @@ overview: 'Scotiabank publishes 7 APIs on the [APIs.io](https://apis.io/) networ
   The Scotiabank catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Scotiabank''s developer surface includes authentication and 5 more developer resources.'
+  Scotiabank''s developer surface includes authentication and 6 more developer resources.'
 plans:
 - name: Scotiabank Plans Pricing
   plan_count: 1
@@ -259,18 +263,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 42.2
-  delta: 8.9
+  composite: 41.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 69.9
     developer_ergonomics: 42.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 33.3
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     contracts:
@@ -284,9 +293,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/screenshots/scotiabank-2026-06-20T193550.png
 security:
 - kind: authentication

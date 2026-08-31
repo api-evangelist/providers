@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1
   slug: freshpaint-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Destinations are the marketing, analytics, advertising, and data-warehouse tools Freshpaint forwards collected events to. Destinations are configured in the Freshpaint app; per-event routing is contro
   name: Freshpaint Destinations
@@ -62,6 +62,10 @@ collections:
   name: Freshpaint HTTP API
   slug: open-freshpaint
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/freshpaint-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -193,7 +197,7 @@ network: true
 overview: 'Freshpaint publishes 1 API on the [APIs.io](https://apis.io/) network: Events API. Tagged areas include Customer Data Platform, Event Tracking, Healthcare, HIPAA, and Privacy.
 
 
-  Freshpaint''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, signup flow, support, and 22 more developer resources.'
+  Freshpaint''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, signup flow, support, and 23 more developer resources.'
 plans:
 - name: Freshpaint Plans Pricing
   plan_count: 3
@@ -205,18 +209,23 @@ rate_limits:
   slug: freshpaint-rate-limits
 score:
   band: strong
-  composite: 56.3
+  composite: 54.8
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 56.5
     developer_ergonomics: 28.0
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 56.3
+  previous_composite: 54.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -229,12 +238,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshpaint/refs/heads/main/screenshots/freshpaint-2026-07-25T215208.png
 security:

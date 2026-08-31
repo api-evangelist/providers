@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bguan2020/unlonely-alpha/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/bguan2020/unlonely-alpha/releases
 - group: company
   title: ''
   type: Website
@@ -80,11 +88,16 @@ modified: '2026-07-21'
 name: Unlonely
 nav: Providers
 network: true
-overview: Unlonely is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Live Streaming, Video, and Base.
+overview: Unlonely is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Livestreaming, Video, and Base.
 random_paper: 4
 score:
   band: emerging
-  composite: 15.0
+  composite: 17.8
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -94,19 +107,22 @@ score:
     developer_ergonomics: 0.0
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 5.3
-  previous_composite: 15.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 21.1
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 17.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: unlonely
 tags:
 - Company
 - Crypto Web3
-- Live Streaming
+- Livestreaming
 - Video
 - Base
-- NFT
+- NFTs
 - Creator Economy
 - GraphQL
 website: https://unlonely.app

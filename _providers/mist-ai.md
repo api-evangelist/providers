@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 521
   human_in_the_loop: 15
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 1037
   slug: mist-ai-agentic-access
   summary_line: 1037 operations · 521 acting · 15 human-in-the-loop
-api_count: 211
+api_count: 1
 apis:
 - description: Mist exposes a WebSocket channel for real-time event subscriptions including device events, location updates, presence, RSSI, stats, and Marvis events. Clients authenticate with an API token and subsc
   name: Juniper Mist WebSocket Streaming API
@@ -676,7 +676,10 @@ apis:
 - description: API Calls to use Devices Troubleshooting tools specific to Wireless Assurance
   name: Juniper Mist AI Utilities Wi-Fi API
   slug: mist-ai-utilities-wi-fi-api
-artifact_total: 450
+- description: The Mist API API from Juniper Mist AI — 0 operation(s) for mist api.
+  name: Juniper Mist AI Mist API
+  slug: mist-ai-mist-api-api
+artifact_total: 451
 collections:
 - collection_type: open
   name: API Collection
@@ -1312,6 +1315,10 @@ collections:
   name: Mist API
   slug: open-mist-ai
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mist-ai-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -1506,25 +1513,30 @@ modified: '2026-05-25'
 name: Juniper Mist AI
 nav: Providers
 network: true
-overview: 'Juniper Mist AI publishes 209 APIs on the [APIs.io](https://apis.io/) network, including Admins API, Admins Login API, Admins Login - OAuth2 API, and 206 more. Tagged areas include Artificial Intelligence, AIOps, Networking, Wi-Fi, and Wireless LAN.
+overview: 'Juniper Mist AI publishes 210 APIs on the [APIs.io](https://apis.io/) network, including Admins API, Admins Login API, Admins Login - OAuth2 API, and 207 more. Tagged areas include Artificial Intelligence, AIOps, Networking, Wi-Fi, and Wireless LAN.
 
 
-  Juniper Mist AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, training material, tooling, and 33 more developer resources.'
+  Juniper Mist AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, training material, tooling, and 34 more developer resources.'
 random_paper: 20
 score:
   band: developing
-  composite: 44.5
-  delta: 0.0
+  composite: 43.9
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 86.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
-    contract_quality: 64.8
+    contract_quality: 64.7
     developer_ergonomics: 66.7
-    discoverability: 59.3
+    discoverability: 53.7
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 44.5
+  previous_composite: 44.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1532,8 +1544,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 209
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mist-ai/refs/heads/main/screenshots/mist-ai-2026-06-20T185612.png
 security:

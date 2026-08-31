@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: hyperbolic-ai-agentic-access
   summary_line: 5 operations · 4 acting
-api_count: 6
+api_count: 5
 apis:
 - description: Decentralized on-demand GPU compute marketplace renting idle H100, H200, A100, and RTX 4090 capacity from third-party suppliers. Pricing starts at $0.50/GPU/hr (RTX 4090), $1.39-$1.49/hr (H100), up to
   name: Hyperbolic GPU Marketplace API
@@ -489,8 +489,13 @@ rules:
   slug: hyperbolic-ai-rules
 score:
   band: strong
-  composite: 64.7
-  delta: 0.0
+  composite: 60.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 32.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -4.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -500,6 +505,9 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 25.0
   previous_composite: 64.7
   provenance:
     agentic_access: derived
@@ -508,8 +516,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/screenshots/hyperbolic-ai-2026-06-20T183118.png
 security:

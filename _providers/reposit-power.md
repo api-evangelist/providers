@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -33,13 +33,40 @@ agentic_access:
   summary_line: 39 operations · 11 acting · 1 human-in-the-loop
 api_count: 2
 apis:
-- description: Reposit's own documented REST API for the owner of a Reposit-controlled home energy system, described by a verbatim OpenAPI 3.0.3 contract that the company serves anonymously at https://api.repositpow
-  name: Reposit Customer API
-  slug: reposit-power-customer-api
-- description: The larger of Reposit's two published contracts, and the one that actually controls hardware. A verbatim OpenAPI 3.0.1 document served anonymously at https://marketapi.repositpower.com/docs/spec/ (fil
-  name: Reposit Power Market API
-  slug: reposit-power-market-api
-artifact_total: 8
+- description: Authentication operations
+  name: Reposit Power Auth API
+  slug: reposit-power-auth-api
+- description: The battery API from Reposit Power — 1 operation(s) for battery.
+  name: Reposit Power Battery API
+  slug: reposit-power-battery-api
+- description: API end-points related to export curtailments.
+  name: Reposit Power Curtailment API
+  slug: reposit-power-curtailment-api
+- description: Deployment operations
+  name: Reposit Power Deployment API
+  slug: reposit-power-deployment-api
+- description: API end-points related to export dispatches.
+  name: Reposit Power Dispatch API
+  slug: reposit-power-dispatch-api
+- description: The inverter API from Reposit Power — 1 operation(s) for inverter.
+  name: Reposit Power Inverter API
+  slug: reposit-power-inverter-api
+- description: Indicates this API end-point is available to network organisations.
+  name: Reposit Power Network API
+  slug: reposit-power-network-api
+- description: API end-points related to deployments.
+  name: Reposit Power Node API
+  slug: reposit-power-node-api
+- description: API end-points related to powerstations.
+  name: Reposit Power Power Station API
+  slug: reposit-power-power-station-api
+- description: The solar API from Reposit Power — 2 operation(s) for solar.
+  name: Reposit Power Solar API
+  slug: reposit-power-solar-api
+- description: End-points relating to the management of your Reposit Fleet and marketapi users.
+  name: Reposit Power Users API
+  slug: reposit-power-users-api
+artifact_total: 17
 collections:
 - collection_type: open
   name: Reposit Customer API - OpenAPI 3.0
@@ -48,6 +75,14 @@ collections:
   name: Reposit Power Market API
   slug: open-reposit-power-market-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/reposit-power-customer-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/reposit-power-market-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -182,25 +217,30 @@ modified: '2026-07-27'
 name: Reposit Power
 nav: Providers
 network: true
-overview: 'Reposit Power publishes 2 APIs on the [APIs.io](https://apis.io/) network: Reposit Customer API and Market API. Tagged areas include Energy, Australia, Utilities, Electricity, and Batteries.
+overview: 'Reposit Power publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Battery API, Curtailment API, and 8 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Batteries.
 
 
-  Reposit Power''s developer surface includes authentication, engineering blog, pricing, FAQ, support, developer portal, API reference, and 23 more developer resources.'
+  Reposit Power''s developer surface includes authentication, engineering blog, pricing, FAQ, support, developer portal, API reference, and 25 more developer resources.'
 random_paper: 11
 score:
   band: developing
-  composite: 49.9
-  delta: 0.0
+  composite: 48.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
-    contract_quality: 53.3
+    contract_governance: 4.5
+    contract_quality: 53.1
     developer_ergonomics: 54.2
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 49.9
+  previous_composite: 48.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,8 +257,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 60.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reposit-power/refs/heads/main/screenshots/reposit-power-2026-08-17T081528.png
 security:

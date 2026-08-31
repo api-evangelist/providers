@@ -11,21 +11,21 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
     idempotency: verified
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.3
-  scored_at: '2026-08-26'
+  score: 52.7
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -42,12 +42,12 @@ agentic_access:
   operation_count: 37
   slug: klarna-agentic-access
   summary_line: 37 operations · 19 acting · 1 human-in-the-loop
-api_count: 21
+api_count: 6
 apis:
 - description: Create and authorize Klarna payment sessions; create orders against authorizations.
   name: Klarna Payments API
   slug: klarna-payments-api
-- description: Hosted Klarna Checkout (KCO) for full-funnel checkout experience.
+- description: 'Hosted Klarna Checkout (KCO), the checkout/v3 surface. Klarna divested the Klarna Checkout product and it now trades as Kustom; as of 2026-08-27 Klarna no longer publishes a dedicated Klarna Checkout '
   name: Klarna Checkout API
   slug: klarna-checkout-api
 - description: Capture, refund, cancel and update orders post-authorization.
@@ -107,7 +107,7 @@ apis:
 - description: The Transactions API from Klarna — 1 operation(s) for transactions.
   name: Klarna Transactions API
   slug: klarna-transactions-api
-artifact_total: 114
+artifact_total: 115
 asyncapis:
 - description: AsyncAPI 2.6 description of Klarna's outbound HTTP push surface — the set of server-to-server callbacks that Klarna issues to merchant-hosted endpoints when payment, checkout, and order lifecycle even
   name: Klarna Push Notifications
@@ -174,22 +174,38 @@ collections:
   name: Klarna Order Management API
   slug: open-order-management-api
 common:
-- group: agent
+- group: other
   title: ''
-  type: AgenticAccess
-  url: agentic-access/klarna-agentic-access.yml
-- group: auth
+  type: CapabilityMap
+  url: capabilities/klarna-capability-edges.yml
+- group: company
   title: ''
-  type: VulnerabilityDisclosure
-  url: security/klarna-vulnerability-disclosure.yml
-- group: auth
+  type: Website
+  url: https://www.klarna.com/
+- group: start
   title: ''
-  type: DomainSecurity
-  url: security/klarna-domain-security.yml
-- group: auth
+  type: DeveloperPortal
+  url: https://docs.klarna.com/
+- group: docs
   title: ''
-  type: Authentication
-  url: authentication/klarna-authentication.yml
+  type: Documentation
+  url: https://docs.klarna.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.klarna.com/api/kn/introduction/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.klarna.com/acquirer/klarna/resources/developer-tools/testing-payments/before-you-test/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.klarna.com/us/help/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.klarna.com/international/press/category/blog/
 - group: build
   title: ''
   type: GitHubOrganization
@@ -198,10 +214,118 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/klarna
-- group: company
+- group: commercial
   title: ''
-  type: Website
-  url: https://www.klarna.com/
+  type: Pricing
+  url: https://x.klarnacdn.net/mepo/onboarding/pricing-annexes/pricing-annex-kp-CA-US-en-20230905.pdf
+- group: start
+  title: ''
+  type: SignUp
+  url: https://portal.playground.klarna.com/
+- group: start
+  title: ''
+  type: Login
+  url: https://portal.klarna.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.klarna.com/us/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.klarna.com/us/privacy-policy/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.klarna.com/
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.klarna.com/acquirer/klarna/resources/legal-and-compliance/policies-and-term-of-service/deprecation-policy/
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.klarna.com/international/responsible-disclosure/
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.klarna.com/llms.txt
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/klarna-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/klarna-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/klarna-scopes.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/klarna-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/klarna-domain-security.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/klarna-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/klarna-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/klarna-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/klarna-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/klarna-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/klarna-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/klarna-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/klarna-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/klarna-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/klarna-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/klarna-conformance.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/klarna-well-known.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/klarna-push-notifications-asyncapi.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: commercial
   title: ''
   type: Plans
@@ -214,18 +338,14 @@ common:
   title: ''
   type: FinOps
   url: finops/klarna-finops.yml
-- group: agent
-  title: ''
-  type: LlmsText
-  url: https://docs.klarna.com/llms.txt
 created: '2026-05-08'
-description: Klarna is a Swedish fintech offering BNPL, banking, cards, and a shopping app to 150M+ consumers. Merchant API supports Pay-in-3, Pay-in-30, and financing.
+description: Klarna Bank AB is a Swedish licensed bank and payments network serving 150M+ consumers and 600k+ merchants with buy-now-pay-later, financing, cards, banking and a shopping app. For developers Klarna publishes a merchant API estate covering payment sessions and authorization (Klarna Payments), hosted checkout (Klarna Checkout and the Hosted Payment Page), post-purchase order management (capture, refund, cancel, extend due date), customer tokens for recurring purchases, settlement payouts and transaction reporting, the Merchant Card Service, and a PSD2 XS2A open-banking API for licensed TPPs. Authentication is HTTP Basic with a Klarna-issued API key; Sign in with Klarna adds a full OAuth 2.0 / OpenID Connect consumer-identity surface. Klarna publishes rate limits, a six-month deprecation policy, public service-level objectives, a self-serve playground with market-specific sample data, and an llms.txt — but no fetchable OpenAPI, no server-side SDK in any language, and no MCP server.
 finops:
 - name: Klarna Finops
   service_category: Fintech
   slug: klarna-finops
 graphqls:
-- description: 'This document describes a conceptual GraphQL schema for the Klarna payments and BNPL (Buy Now, Pay Later) platform. The schema covers the full merchant integration surface: payment sessions, authoriza'
+- description: '> **NOT PUBLISHED BY KLARNA.** Verified 2026-08-27: Klarna ships no GraphQL API. There is no'
   name: Klarna GraphQL Schema
   slug: klarna-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/klarna.png
@@ -417,7 +537,7 @@ json_schemas:
   property_count: 1
   slug: klarna-updateshippinginfo
 layout: provider
-modified: '2026-05-30'
+modified: '2026-08-27'
 name: Klarna
 nav: Providers
 network: true
@@ -427,14 +547,14 @@ overview: 'Klarna publishes 19 APIs on the [APIs.io](https://apis.io/) network, 
   The Klarna catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Klarna''s developer surface includes authentication and 10 more developer resources.'
+  Klarna''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 34 more developer resources.'
 plans:
 - name: Klarna Plans Pricing
   plan_count: 1
   slug: klarna-plans-pricing
 random_paper: 3
 rate_limits:
-- limit_count: 1
+- limit_count: 14
   name: Klarna Rate Limits
   slug: klarna-rate-limits
 rules:
@@ -459,20 +579,30 @@ rules:
     info: 1
     warn: 4
   slug: klarna-jsonschema-spectral-rules
+scopes:
+- name: Klarna Scopes
+  scope_count: 34
+  slug: klarna-scopes
+  summary_line: 34 scopes · authorizationCode
 score:
-  band: thin
-  composite: 31.5
-  delta: 1.9
+  band: exemplar
+  composite: 69.3
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 62.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
-    contract_governance: 13.6
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 31.8
     contract_quality: 61.3
-    developer_ergonomics: 21.4
-    discoverability: 72.2
-    governance: 13.6
-    operational_transparency: 7.9
-  previous_composite: 29.6
+    developer_ergonomics: 78.6
+    discoverability: 81.5
+    governance: 31.8
+    operational_transparency: 68.4
+  previous_composite: 69.3
   provenance:
     agentic_access: derived
     contracts:
@@ -483,17 +613,17 @@ score:
   regulatory:
     applies: true
     matched_via: tags
-    regime: Payments
-    regime_id: payments
-    score: 28.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 78.5
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
   name: Klarna Authentication
   slug: klarna-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/openIdConnect · 4 schemes
 - kind: domain-security
   name: Klarna Domain Security
   slug: klarna-domain-security
@@ -509,5 +639,13 @@ tags:
 - Payments
 - Cards
 - Shopping
+- Banking
+- Checkout
+- Order Management
+- Settlement
+- Open Banking
+- PSD2
+- Consumer Credit
+- Sweden
 website: https://www.klarna.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 16
   slug: mongodb-atlas-agentic-access
   summary_line: 16 operations · 9 acting
-api_count: 4
+api_count: 1
 apis:
 - description: The Clusters API from MongoDB Atlas — 2 operation(s) for clusters.
   name: MongoDB Atlas Clusters API
@@ -139,18 +139,23 @@ overview: 'MongoDB Atlas publishes 4 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 18
 score:
   band: thin
-  composite: 36.2
-  delta: 2.3
+  composite: 35.7
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 0.0
     contract_quality: 54.4
     developer_ergonomics: 42.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 33.9
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -158,8 +163,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mongodb-atlas/refs/heads/main/screenshots/mongodb-atlas-2026-06-20T185729.png
 security:
@@ -204,7 +209,7 @@ tags:
 - NoSQL
 - MongoDB
 - Cloud Database
-- Database-as-a-Service
+- DBaaS
 - Vector Search
 - Atlas
 website: https://www.mongodb.com/products/platform/atlas-database

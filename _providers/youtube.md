@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 91
   slug: youtube-agentic-access
   summary_line: 91 operations · 55 acting
-api_count: 36
+api_count: 5
 apis:
 - description: Manages sections that a channel has chosen to feature on its channel page, including inserting, updating, and deleting channel sections.
   name: Youtube Channel Sections API
@@ -313,6 +313,10 @@ collections:
   name: YouTube Analytics Analytics Groups Videos API
   slug: open-youtube-videos-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/youtube-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1652,7 +1656,7 @@ overview: 'Youtube publishes 24 APIs on the [APIs.io](https://apis.io/) network,
   The Youtube catalog on APIs.io includes 5 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Youtube''s developer surface includes authentication, changelog, developer portal, getting-started guide, documentation, code examples, support, and 75 more developer resources.'
+  Youtube''s developer surface includes authentication, changelog, developer portal, getting-started guide, documentation, code examples, support, and 76 more developer resources.'
 plans:
 - name: Youtube Plans Pricing
   plan_count: 3
@@ -1691,18 +1695,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.6
+  composite: 59.1
+  coverage:
+    artifact_dirs: 33
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 45.5
-    contract_quality: 80.8
+    contract_governance: 33.3
+    contract_quality: 77.1
     developer_ergonomics: 69.0
-    discoverability: 61.1
-    governance: 45.5
+    discoverability: 50.0
+    governance: 33.3
     operational_transparency: 42.1
-  previous_composite: 62.6
+  previous_composite: 59.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1712,8 +1721,8 @@ score:
       marker_coverage: 0.0
       total: 24
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/screenshots/youtube-2026-06-20T201752.png
 security:

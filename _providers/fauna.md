@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: fauna-agentic-access
   summary_line: 10 operations · 8 acting
-api_count: 9
+api_count: 1
 apis:
 - description: The Fauna Event Streaming API enables real-time change data capture by maintaining an open connection to the Fauna database and pushing events to clients as they occur. Developers can subscribe to doc
   name: Fauna Event Streaming API
@@ -256,18 +256,23 @@ rules:
   slug: fauna-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.7
-  delta: 0.3
+  composite: 30.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 72.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 13.6
     contract_quality: 66.0
     developer_ergonomics: 16.7
-    discoverability: 50.0
+    discoverability: 44.4
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 30.4
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     contracts:
@@ -279,8 +284,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/screenshots/fauna-2026-06-20T181057.png
 security:

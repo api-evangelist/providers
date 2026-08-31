@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-26'
-api_count: 8
+  scored_at: '2026-08-30'
+api_count: 9
 apis:
 - description: 'The page collection behind leafforlife.com — 8 published pages covering the mission, the science, leadership, the advisory board and contact. Anonymously readable. Verified 2026-08-25: content.rendere'
   name: LEAF4Life Content Pages API
@@ -50,7 +50,10 @@ apis:
 - description: oEmbed 1.0 provider endpoint for URLs on leafforlife.com. Verified anonymously against the site root — provider_name "LEAF4life". This is the only formally standardised interface the deployment implem
   name: LEAF4Life oEmbed API
   slug: leaf4life-oembed-api
-artifact_total: 12
+- description: Comment collection — registered, zero items.
+  name: LEAF4Life Comments API
+  slug: leaf4life-comments-api
+artifact_total: 13
 common:
 - group: company
   title: ''
@@ -137,7 +140,7 @@ modified: '2026-08-25'
 name: LEAF4Life
 nav: Providers
 network: true
-overview: 'LEAF4Life publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Content Pages API, Media API, Taxonomy API, and 5 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Clinical Trials, and Oncology.
+overview: 'LEAF4Life publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Content Pages API, Media API, Taxonomy API, and 6 more. Tagged areas include Company, biotechnology, pharmaceuticals, clinical-trials, and oncology.
 
 
   LEAF4Life''s developer surface includes authentication and 18 more developer resources.'
@@ -152,16 +155,23 @@ rate_limits:
   slug: leaf4life-rate-limits
 score:
   band: emerging
-  composite: 25.6
+  composite: 24.2
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 52.4
     developer_ergonomics: 13.7
     discoverability: 74.1
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
+  previous_composite: 24.2
   provenance:
     conformance: derived
     contracts:
@@ -177,8 +187,9 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Leaf4Life Authentication
@@ -191,14 +202,14 @@ security:
 slug: leaf4life
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Clinical Trials
-- Oncology
-- Critical Care
-- Drug Development
-- Life Sciences
-- Rare Disease
+- biotechnology
+- pharmaceuticals
+- clinical-trials
+- oncology
+- critical-care
+- drug-development
+- life-sciences
+- rare-disease
 - content-api
 website: https://leafforlife.com/
 ---

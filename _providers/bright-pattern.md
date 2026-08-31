@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 2
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 178
   slug: bright-pattern-agentic-access
   summary_line: 178 operations · 127 acting · 2 human-in-the-loop
-api_count: 14
+api_count: 11
 apis:
 - description: The OAuth 2.0 Client Credentials Grant is used to authenticate clients of this API. The authenticated user is checked for having appropriate privileges to perform the requested operation. The complete
   name: Bright Pattern Authentication API
@@ -123,6 +123,10 @@ collections:
   name: Bright Pattern Users API
   slug: open-bright-pattern-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bright-pattern-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -278,22 +282,27 @@ network: true
 overview: 'Bright Pattern publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Calling List API, Campaigns API, and 11 more. Tagged areas include Company, Contact Center, CCaaS, Customer Experience, and Omnichannel.
 
 
-  Bright Pattern''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
+  Bright Pattern''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
 random_paper: 2
 score:
   band: strong
-  composite: 55.7
+  composite: 54.3
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 53.9
     developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 55.7
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -306,12 +315,18 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bright-pattern/refs/heads/main/screenshots/bright-pattern-2026-08-17T080703.png
 security:

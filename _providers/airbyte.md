@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -43,47 +43,8 @@ agentic_access:
   operation_count: 91
   slug: airbyte-agentic-access
   summary_line: 91 operations · 53 acting · 4 human-in-the-loop
-api_count: 44
+api_count: 1
 apis:
-- description: The Applications API from Airbyte — 3 operation(s) for applications.
-  name: Airbyte Applications API
-  slug: airbyte-applications-api
-- description: The Connections API from Airbyte — 2 operation(s) for connections.
-  name: Airbyte Connections API
-  slug: airbyte-connections-api
-- description: The ConnectorDefinitions API from Airbyte — 1 operation(s) for connectordefinitions.
-  name: Airbyte ConnectorDefinitions API
-  slug: airbyte-connectordefinitions-api
-- description: The Dataplanes API from Airbyte — 2 operation(s) for dataplanes.
-  name: Airbyte Dataplanes API
-  slug: airbyte-dataplanes-api
-- description: The DeclarativeSourceDefinitions API from Airbyte — 2 operation(s) for declarativesourcedefinitions.
-  name: Airbyte DeclarativeSourceDefinitions API
-  slug: airbyte-declarativesourcedefinitions-api
-- description: The DestinationDefinitions API from Airbyte — 2 operation(s) for destinationdefinitions.
-  name: Airbyte DestinationDefinitions API
-  slug: airbyte-destinationdefinitions-api
-- description: The Destinations API from Airbyte — 2 operation(s) for destinations.
-  name: Airbyte Destinations API
-  slug: airbyte-destinations-api
-- description: The embedded_widget API from Airbyte — 3 operation(s) for embedded_widget.
-  name: Airbyte embedded_widget API
-  slug: airbyte-embedded-widget-api
-- description: The Groups API from Airbyte — 6 operation(s) for groups.
-  name: Airbyte Groups API
-  slug: airbyte-groups-api
-- description: The Jobs API from Airbyte — 2 operation(s) for jobs.
-  name: Airbyte Jobs API
-  slug: airbyte-jobs-api
-- description: The OAuth API from Airbyte — 1 operation(s) for oauth.
-  name: Airbyte OAuth API
-  slug: airbyte-oauth-api
-- description: The Organizations API from Airbyte — 3 operation(s) for organizations.
-  name: Airbyte Organizations API
-  slug: airbyte-organizations-api
-- description: The Permissions API from Airbyte — 2 operation(s) for permissions.
-  name: Airbyte Permissions API
-  slug: airbyte-permissions-api
 - description: The public API from Airbyte — 47 operation(s) for public.
   name: Airbyte public API
   slug: airbyte-public-api
@@ -156,27 +117,6 @@ apis:
 - description: The public_workspaces API from Airbyte — 3 operation(s) for public_workspaces.
   name: Airbyte public_workspaces API
   slug: airbyte-public-workspaces-api
-- description: The Regions API from Airbyte — 2 operation(s) for regions.
-  name: Airbyte Regions API
-  slug: airbyte-regions-api
-- description: The SourceDefinitions API from Airbyte — 2 operation(s) for sourcedefinitions.
-  name: Airbyte SourceDefinitions API
-  slug: airbyte-sourcedefinitions-api
-- description: The Sources API from Airbyte — 3 operation(s) for sources.
-  name: Airbyte Sources API
-  slug: airbyte-sources-api
-- description: The Streams API from Airbyte — 1 operation(s) for streams.
-  name: Airbyte Streams API
-  slug: airbyte-streams-api
-- description: The Tags API from Airbyte — 2 operation(s) for tags.
-  name: Airbyte Tags API
-  slug: airbyte-tags-api
-- description: The Users API from Airbyte — 1 operation(s) for users.
-  name: Airbyte Users API
-  slug: airbyte-users-api
-- description: The Workspaces API from Airbyte — 3 operation(s) for workspaces.
-  name: Airbyte Workspaces API
-  slug: airbyte-workspaces-api
 arazzos:
 - description: Create an API application to mint client credentials, read it back, then exchange those credentials for a bearer access token.
   name: Airbyte Bootstrap an Application and Access Token
@@ -208,7 +148,7 @@ arazzos:
 - description: Create a workspace, read it back, create an organizing tag inside it, and confirm the workspace starts empty of connections.
   name: Airbyte Bootstrap a Workspace
   slug: airbyte-workspace-bootstrap-workflow
-artifact_total: 828
+artifact_total: 808
 collections:
 - collection_type: postman
   name: airbyte-api Applications API
@@ -2684,7 +2624,7 @@ modified: '2026-06-20'
 name: Airbyte
 nav: Providers
 network: true
-overview: 'Airbyte publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Connections API, ConnectorDefinitions API, and 41 more. Tagged areas include Data Integration, ETL, ELT, Open-Source, and Data Pipeline.
+overview: 'Airbyte publishes 24 APIs on the [APIs.io](https://apis.io/) network, including public API, public_applications API, public_connections API, and 21 more. Tagged areas include Data Integration, ETL, ELT, Open-Source, and Data Pipeline.
 
 
   The Airbyte catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -2729,18 +2669,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 69.2
-  delta: 2.6
+  composite: 66.6
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 45.5
-    contract_quality: 62.4
+    contract_governance: 33.3
+    contract_quality: 62.2
     developer_ergonomics: 96.4
-    discoverability: 87.0
-    governance: 45.5
+    discoverability: 75.9
+    governance: 33.3
     operational_transparency: 50.0
-  previous_composite: 66.6
+  previous_composite: 67.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2750,8 +2695,8 @@ score:
       marker_coverage: 0.0
       total: 44
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/screenshots/airbyte-2026-06-20T171421.png
 security:

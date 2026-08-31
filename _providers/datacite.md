@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 42
   slug: datacite-agentic-access
   summary_line: 42 operations · 14 acting
-api_count: 16
+api_count: 2
 apis:
 - description: 'An alternative query interface for DOI metadata retrieval using the GraphQL query language. Currently supports queries only (no mutations or subscriptions). Publicly accessible without authentication '
   name: DataCite GraphQL API
@@ -140,6 +140,10 @@ collections:
   name: REST activities status API
   slug: open-datacite-status-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/datacite-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -235,7 +239,7 @@ overview: 'DataCite publishes 14 APIs on the [APIs.io](https://apis.io/) network
   The DataCite catalog on APIs.io includes 1 JSON-LD context.
 
 
-  DataCite''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
+  DataCite''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
 plans:
 - name: Datacite Plans Pricing
   plan_count: 6
@@ -247,18 +251,23 @@ rate_limits:
   slug: datacite-rate-limits
 score:
   band: developing
-  composite: 42.1
-  delta: 0.9
+  composite: 41.4
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 61.7
+    contract_quality: 61.2
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 41.2
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -272,8 +281,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datacite/refs/heads/main/screenshots/datacite-2026-06-20T175634.png
 security:

@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-26'
-api_count: 117
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Access API from Pinterest — 3 operation(s) for access.
   name: Pinterest Access API
@@ -744,6 +744,10 @@ collections:
   name: Pinterest Visit API
   slug: open-pinterest-visit-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pinterest-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -887,7 +891,7 @@ network: true
 overview: 'Pinterest publishes 117 APIs on the [APIs.io](https://apis.io/) network, including Access API, Accounts API, Ad API, and 114 more. Tagged areas include Image, Social-Media, and Videos.
 
 
-  Pinterest''s developer surface includes product news, engineering blog, support, developer portal, documentation, changelog, getting-started guide, and 22 more developer resources.'
+  Pinterest''s developer surface includes product news, engineering blog, support, developer portal, documentation, changelog, getting-started guide, and 23 more developer resources.'
 plans:
 - name: Pinterest Plans Pricing
   plan_count: 3
@@ -899,26 +903,31 @@ rate_limits:
   slug: pinterest-rate-limits
 score:
   band: developing
-  composite: 42.5
-  delta: 0.0
+  composite: 44.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.3
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 60.5
     developer_ergonomics: 52.4
-    discoverability: 40.7
+    discoverability: 61.1
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 42.5
+  previous_composite: 43.2
   provenance:
     contracts:
       callable: 99.2
       derived: 0
       marker_coverage: 0.0
       total: 118
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinterest/refs/heads/main/screenshots/pinterest-2026-06-20T191721.png
 security:

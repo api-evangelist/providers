@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: microsoft-defender-agentic-access
   summary_line: 10 operations · 1 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Cloud Access Security Broker (CASB) API for discovering, investigating, and governing cloud apps.
   name: Microsoft Defender for Cloud Apps API
@@ -89,6 +89,10 @@ collections:
   name: Microsoft Defender for Endpoint Alerts Vulnerabilities API
   slug: open-microsoft-defender-vulnerabilities-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-defender-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -208,7 +212,7 @@ overview: 'Microsoft Defender publishes 3 APIs on the [APIs.io](https://apis.io/
   The Microsoft Defender catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Microsoft Defender''s developer surface includes authentication, developer portal, and 14 more developer resources.'
+  Microsoft Defender''s developer surface includes authentication, developer portal, and 15 more developer resources.'
 plans:
 - name: Microsoft Defender Plans Pricing
   plan_count: 17
@@ -236,18 +240,23 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 49.8
-  delta: 12.0
+  composite: 49.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 74.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 9.8
     contract_quality: 74.1
     developer_ergonomics: 57.1
-    discoverability: 37.0
+    discoverability: 31.5
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 37.8
+  previous_composite: 49.8
   provenance:
     agentic_access: derived
     contracts:
@@ -259,9 +268,9 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/screenshots/microsoft-defender-2026-08-17T124157.png
 security:
 - kind: authentication

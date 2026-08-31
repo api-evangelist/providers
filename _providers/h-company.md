@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 4
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 69
   slug: h-company-agentic-access
   summary_line: 69 operations · 43 acting · 4 human-in-the-loop
-api_count: 10
+api_count: 1
 apis:
 - description: OpenAI-compatible inference API serving the Holo3 and Holo3.1 vision-language models for computer use — chat completions with structured outputs, reasoning, and image inputs, plus runtime model discov
   name: H Company Holo Models API
@@ -255,19 +255,24 @@ overview: 'H Company publishes 9 APIs on the [APIs.io](https://apis.io/) network
   H Company''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
 random_paper: 5
 score:
-  band: strong
-  composite: 55.1
-  delta: 0.0
+  band: developing
+  composite: 53.1
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 67.8
     developer_ergonomics: 73.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 55.1
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -278,8 +283,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/screenshots/h-company-2026-07-25T220500.png
 security:

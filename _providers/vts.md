@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 91
   slug: vts-agentic-access
   summary_line: 91 operations · 6 acting
-api_count: 32
+api_count: 1
 apis:
 - description: The Account Admin API from VTS — 11 operation(s) for account admin.
   name: VTS Account Admin API
@@ -241,6 +241,10 @@ collections:
   name: VTS Lease Account Admin Users API
   slug: open-vts-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vts-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -372,7 +376,7 @@ network: true
 overview: 'VTS publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Account Admin API, Appraisals API, Approvals API, and 29 more. Tagged areas include Company, Commercial Real Estate, PropTech, Real-Estate, and Leasing.
 
 
-  VTS''s developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 22 more developer resources.'
+  VTS''s developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 23 more developer resources.'
 random_paper: 13
 scopes:
 - name: Vts Scopes
@@ -381,18 +385,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.6
-  delta: 0.0
+  composite: 41.5
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 57.4
     developer_ergonomics: 42.3
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 44.6
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -403,8 +412,8 @@ score:
       total: 32
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vts/refs/heads/main/screenshots/vts-2026-08-17T082832.png
 security:

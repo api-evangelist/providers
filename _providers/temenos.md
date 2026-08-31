@@ -19,7 +19,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 23.7
-  scored_at: '2026-08-26'
+  score: 25.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 159
   slug: temenos-agentic-access
   summary_line: 159 operations · 57 acting · 3 human-in-the-loop
-api_count: 61
+api_count: 12
 apis:
 - description: APIs for rapid omnichannel product origination including instant decisioning, covering origination, collections, and middleware integration modules.
   name: Temenos Lifecycle Management Suite API
@@ -526,6 +526,10 @@ collections:
   name: Temenos Buy Now Pay Later Accounts Workspaces API
   slug: open-temenos-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/temenos-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -820,7 +824,7 @@ overview: 'Temenos publishes 58 APIs on the [APIs.io](https://apis.io/) network,
   The Temenos catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Temenos'' developer surface includes authentication, developer portal, getting-started guide, support, sandbox, engineering blog, signup flow, and 51 more developer resources.'
+  Temenos'' developer surface includes authentication, developer portal, getting-started guide, support, sandbox, engineering blog, signup flow, and 52 more developer resources.'
 plans:
 - name: Temenos Plans Pricing
   plan_count: 1
@@ -870,18 +874,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.9
-  delta: 2.8
+  composite: 56.1
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 66.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 28.8
     contract_quality: 69.2
     developer_ergonomics: 60.7
-    discoverability: 87.0
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 31.6
-  previous_composite: 55.1
+  previous_composite: 56.1
   provenance:
     agentic_access: derived
     contracts:
@@ -895,8 +904,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/screenshots/temenos-2026-06-20T195053.png
 security:

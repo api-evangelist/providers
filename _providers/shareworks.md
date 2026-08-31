@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 48
   slug: shareworks-agentic-access
   summary_line: 48 operations · 24 acting · 1 human-in-the-loop
-api_count: 17
+api_count: 1
 apis:
 - description: 'The Shareworks Public API is a REST-based system for managing equity compensation plans including stock options, RSU grants, ESPP, and participant data. The API supports both read-only and read-write '
   name: Shareworks Public API
@@ -80,9 +80,6 @@ apis:
 - description: The Plan API from Shareworks — 1 operation(s) for plan.
   name: Shareworks Plan API
   slug: shareworks-plan-api
-- description: The Read Access API from Shareworks — 30 operation(s) for read access.
-  name: Shareworks Read Access API
-  slug: shareworks-read-access-api
 - description: The Stock Certificate API from Shareworks — 2 operation(s) for stock certificate.
   name: Shareworks Stock Certificate API
   slug: shareworks-stock-certificate-api
@@ -92,10 +89,7 @@ apis:
 - description: The Vesting Schedule API from Shareworks — 3 operation(s) for vesting schedule.
   name: Shareworks Vesting Schedule API
   slug: shareworks-vesting-schedule-api
-- description: The Write Access API from Shareworks — 17 operation(s) for write access.
-  name: Shareworks Write Access API
-  slug: shareworks-write-access-api
-artifact_total: 121
+artifact_total: 119
 collections:
 - collection_type: open
   name: API Collection
@@ -149,6 +143,10 @@ collections:
   name: Shareworks Admin REST Authentication Token Write Access API
   slug: open-shareworks-write-access-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shareworks-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -458,13 +456,13 @@ modified: '2026-06-13'
 name: Shareworks
 nav: Providers
 network: true
-overview: 'Shareworks publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Public API, Authentication Token API, Authorized Capital API, and 14 more. Tagged areas include Equity Compensation, Stock Options, RSU, ESPP, and Employee Equity.
+overview: 'Shareworks publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Public API, Authentication Token API, Authorized Capital API, and 12 more. Tagged areas include Equity Compensation, Stock Options, RSU, ESPP, and Employee Equity.
 
 
   The Shareworks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Shareworks'' developer surface includes authentication, documentation, engineering blog, pricing, support, and 9 more developer resources.'
+  Shareworks'' developer surface includes authentication, documentation, engineering blog, pricing, support, and 10 more developer resources.'
 plans:
 - name: Shareworks Plans Pricing
   plan_count: 2
@@ -487,18 +485,23 @@ rules:
   slug: shareworks-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.5
-  delta: 1.7
+  composite: 42.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 40.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 62.2
+    contract_quality: 62.1
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 41.8
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     contracts:
@@ -506,8 +509,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/screenshots/shareworks-2026-06-20T193746.png
 security:

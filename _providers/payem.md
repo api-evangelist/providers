@@ -15,22 +15,48 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.8
-  scored_at: '2026-08-26'
+  score: 24.2
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: A read-only, unauthenticated AI-discovery content API published for Payem by LightSite.ai. It exposes Payem's own marketing and knowledge content - business profile, product catalog, categories, testi
+- description: The AI Discovery API from Payem — 1 operation(s) for ai discovery.
   name: Payem AI Discovery API
   slug: payem-ai-discovery-api
-artifact_total: 8
+- description: The Business API from Payem — 1 operation(s) for business.
+  name: Payem Business API
+  slug: payem-business-api
+- description: The Categories API from Payem — 1 operation(s) for categories.
+  name: Payem Categories API
+  slug: payem-categories-api
+- description: The Faq API from Payem — 1 operation(s) for faq.
+  name: Payem Faq API
+  slug: payem-faq-api
+- description: The Qa API from Payem — 5 operation(s) for qa.
+  name: Payem Qa API
+  slug: payem-qa-api
+- description: The Search API from Payem — 1 operation(s) for search.
+  name: Payem Search API
+  slug: payem-search-api
+- description: The Testimonials API from Payem — 1 operation(s) for testimonials.
+  name: Payem Testimonials API
+  slug: payem-testimonials-api
+artifact_total: 14
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/payem-ai-discovery-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/payem-mcp.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -117,13 +143,13 @@ modified: '2026-08-26'
 name: Payem
 nav: Providers
 network: true
-overview: 'Payem publishes 1 API on the [APIs.io](https://apis.io/) network: AI Discovery API. Tagged areas include Company, Spend Management, Procurement, Accounts Payable, and Corporate Cards.
+overview: 'Payem publishes 7 APIs on the [APIs.io](https://apis.io/) network, including AI Discovery API, Business API, Categories API, and 4 more. Tagged areas include Company, Spend Management, Procurement, Accounts Payable, and Corporate Cards.
 
 
   The Payem catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Payem''s developer surface includes engineering blog, support, signup flow, and 14 more developer resources.'
+  Payem''s developer surface includes engineering blog, support, signup flow, and 16 more developer resources.'
 plans:
 - name: Payem Plans Pricing
   plan_count: 0
@@ -135,16 +161,23 @@ rate_limits:
   slug: payem-rate-limits
 score:
   band: developing
-  composite: 41.9
+  composite: 41.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 65.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
-    contract_quality: 47.9
+    contract_governance: 18.2
+    contract_quality: 52.7
     developer_ergonomics: 19.0
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 21.1
+  previous_composite: 42.2
   provenance:
     conformance: first-party
     contracts:
@@ -159,8 +192,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Payem Authentication
@@ -184,7 +218,7 @@ tags:
 - Expense Management
 - Financial Operations
 - Invoice Processing
-- FinTech
+- Fintech
 - ERP Integration
 website: https://www.payem.co/
 ---

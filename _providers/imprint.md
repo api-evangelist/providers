@@ -25,16 +25,16 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.5
-  scored_at: '2026-08-26'
-api_count: 14
+  score: 29.0
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Customer Links API from Imprint — 1 operation(s) for customer links.
   name: Imprint Customer Links API
@@ -78,7 +78,10 @@ apis:
 - description: The Transactions API from Imprint — 1 operation(s) for transactions.
   name: Imprint Transactions API
   slug: imprint-transactions-api
-artifact_total: 34
+- description: The Webhooks API from Imprint — 0 operation(s) for webhooks.
+  name: Imprint Webhooks API
+  slug: imprint-webhooks-api
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Imprint Webhooks
@@ -130,6 +133,10 @@ collections:
   name: Public Imprint Customer Links Transactions API
   slug: open-imprint-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/imprint-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -262,28 +269,33 @@ modified: '2026-07-19'
 name: Imprint
 nav: Providers
 network: true
-overview: 'Imprint publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Customer Links API, Customer Sessions API, Customers API, and 11 more. Tagged areas include Company, Financial-Services, Fintech, Credit Cards, and Co-Branded Cards.
+overview: 'Imprint publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Customer Links API, Customer Sessions API, Customers API, and 12 more. Tagged areas include Company, Financial-Services, Fintech, Credit Cards, and Co-Branded Cards.
 
 
   The Imprint catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Imprint''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
+  Imprint''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 24 more developer resources.'
 random_paper: 15
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 50.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 16.7
-    contract_quality: 64.3
+    contract_governance: 4.5
+    contract_quality: 63.2
     developer_ergonomics: 73.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 52.9
+  previous_composite: 51.2
   provenance:
     conformance: derived
     contracts:
@@ -299,8 +311,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/screenshots/imprint-2026-07-25T222200.png
 security:

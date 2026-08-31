@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-08-26'
-api_count: 5
+  scored_at: '2026-08-30'
+api_count: 6
 apis:
 - description: The Core API from Neurable — 2 operation(s) for core.
   name: Neurable Core API
@@ -168,7 +168,7 @@ modified: '2026-08-04'
 name: Neurable
 nav: Providers
 network: true
-overview: 'Neurable publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Core API, O Auth API, OIDC API, and 2 more. Tagged areas include Neurotechnology, Brain-Computer Interface, EEG, Neuroscience, and Wearables.
+overview: 'Neurable publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Core API, O Auth API, OIDC API, and 2 more. Tagged areas include neurotechnology, brain-computer-interface, eeg, neuroscience, and wearables.
 
 
   Neurable''s developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
@@ -179,19 +179,24 @@ scopes:
   slug: neurable-scopes
   summary_line: 5 scopes
 score:
-  band: developing
-  composite: 40.9
-  delta: 4.0
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 48.1
     developer_ergonomics: 28.0
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 36.9
+  previous_composite: 39.1
   provenance:
     conformance: first-party
     contracts:
@@ -207,8 +212,8 @@ score:
     regime: Health
     regime_id: health
     score: 62.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -221,18 +226,18 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: neurable
 tags:
-- Neurotechnology
-- Brain-Computer Interface
-- EEG
-- Neuroscience
-- Wearables
+- neurotechnology
+- brain-computer-interface
+- eeg
+- neuroscience
+- wearables
 - biosignals
-- Hardware
-- Consumer Electronics
-- Research Tools
+- hardware
+- consumer-electronics
+- research-tools
 - cognitive-analytics
-- Health Data
+- health-data
 - Authentication
-- OpenID Connect
+- openid-connect
 website: https://www.neurable.com/
 ---

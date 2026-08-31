@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 101
   human_in_the_loop: 1
@@ -42,14 +42,11 @@ agentic_access:
   operation_count: 176
   slug: university-of-chicago-agentic-access
   summary_line: 176 operations · 101 acting · 1 human-in-the-loop
-api_count: 44
+api_count: 5
 apis:
 - description: The University of Chicago's Shibboleth identity provider publishes its SAML 2.0 metadata document publicly. entityID urn:mace:incommon:uchicago.edu places the institution in the InCommon federation an
   name: University of Chicago Shibboleth Identity Provider — InCommon SAML Metadata
   slug: shibboleth-idp-metadata
-- description: 'Knowledge@UChicago is the University''s institutional repository, running self-hosted InvenioRDM 13.1 on the institution''s own domain. Its REST API returns records, communities and files as JSON, with '
-  name: Knowledge@UChicago Repository REST API
-  slug: knowledge-invenio-rest
 - description: OAI-PMH 2.0 harvesting endpoint for the University of Chicago institutional repository. ?verb=Identify returns repositoryName "UChicago Knowledge", protocolVersion 2.0, granularity YYYY-MM-DDThh:mm:ss
   name: Knowledge@UChicago OAI-PMH Endpoint
   slug: knowledge-oai-pmh
@@ -176,7 +173,13 @@ apis:
 - description: User information
   name: University of Chicago Gen3 Fence — user API
   slug: university-of-chicago-user-api
-artifact_total: 101
+- description: Repository communities (collections).
+  name: University of Chicago Communities API
+  slug: university-of-chicago-communities-api
+- description: Published repository records.
+  name: University of Chicago Records API
+  slug: university-of-chicago-records-api
+artifact_total: 102
 collections:
 - collection_type: open
   name: API Collection
@@ -470,7 +473,7 @@ modified: '2026-08-19'
 name: University of Chicago
 nav: Providers
 network: true
-overview: 'University of Chicago publishes 38 APIs on the [APIs.io](https://apis.io/) network, including Knowledge@UChicago Repository REST API, Gen3 Fence — admin/user API, Gen3 indexd — alias API, and 35 more. Tagged areas include University, Higher Education, Education, Private Research University, and United States.
+overview: 'University of Chicago publishes 39 APIs on the [APIs.io](https://apis.io/) network, including Gen3 Fence — admin/user API, Gen3 indexd — alias API, Gen3 indexd — bulk API, and 36 more. Tagged areas include University, Higher Education, Education, Private Research University, and United States.
 
 
   The University of Chicago catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -515,6 +518,11 @@ scopes:
 score:
   band: developing
   composite: 44.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 42.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -540,8 +548,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-chicago/refs/heads/main/screenshots/university-of-chicago-2026-06-20T200146.png
 security:

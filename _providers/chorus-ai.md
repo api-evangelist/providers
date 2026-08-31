@@ -35,19 +35,76 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Search and retrieve calls, meetings, emails and engagement metadata. A capability area of the single published Chorus API contract, served at /v3/engagements and /api/v1/conversations.
-  name: Chorus Engagements API
-  slug: chorus-engagements-api
-- description: Upload recordings, retrieve media files, transcripts and AI-generated insights, and build coaching moments, playlists and scorecards. A capability area of the single published Chorus API contract.
-  name: Chorus Recordings & Transcripts API
-  slug: chorus-recordings-transcripts-api
-- description: Run AI sales-qualification analysis on a recording and write the extracted framework fields back to a CRM opportunity. A capability area of the single published Chorus API contract, served at /api/v1/
-  name: Chorus CRM Sync API
-  slug: chorus-crm-sync-api
-artifact_total: 12
+- description: The Auth API from Chorus.ai — 1 operation(s) for auth.
+  name: Chorus.ai Auth API
+  slug: chorus-ai-auth-api
+- description: The Conversations API from Chorus.ai — 11 operation(s) for conversations.
+  name: Chorus.ai Conversations API
+  slug: chorus-ai-conversations-api
+- description: The Emails API from Chorus.ai — 3 operation(s) for emails.
+  name: Chorus.ai Emails API
+  slug: chorus-ai-emails-api
+- description: The Engagement filter API from Chorus.ai — 3 operation(s) for engagement filter.
+  name: Chorus.ai Engagement filter API
+  slug: chorus-ai-engagement-filter-api
+- description: The Event API from Chorus.ai — 1 operation(s) for event.
+  name: Chorus.ai Event API
+  slug: chorus-ai-event-api
+- description: The External Moments API from Chorus.ai — 2 operation(s) for external moments.
+  name: Chorus.ai External Moments API
+  slug: chorus-ai-external-moments-api
+- description: The Integrations Calendar API from Chorus.ai — 4 operation(s) for integrations calendar.
+  name: Chorus.ai Integrations Calendar API
+  slug: chorus-ai-integrations-calendar-api
+- description: The Integrations CRM API from Chorus.ai — 1 operation(s) for integrations crm.
+  name: Chorus.ai Integrations CRM API
+  slug: chorus-ai-integrations-crm-api
+- description: The Integrations Email API from Chorus.ai — 4 operation(s) for integrations email.
+  name: Chorus.ai Integrations Email API
+  slug: chorus-ai-integrations-email-api
+- description: The Integrations Meet API from Chorus.ai — 6 operation(s) for integrations meet.
+  name: Chorus.ai Integrations Meet API
+  slug: chorus-ai-integrations-meet-api
+- description: The Playlists API from Chorus.ai — 4 operation(s) for playlists.
+  name: Chorus.ai Playlists API
+  slug: chorus-ai-playlists-api
+- description: The Public External Moments API from Chorus.ai — 2 operation(s) for public external moments.
+  name: Chorus.ai Public External Moments API
+  slug: chorus-ai-public-external-moments-api
+- description: The Public Playlist Moments API from Chorus.ai — 2 operation(s) for public playlist moments.
+  name: Chorus.ai Public Playlist Moments API
+  slug: chorus-ai-public-playlist-moments-api
+- description: The Reports API from Chorus.ai — 1 operation(s) for reports.
+  name: Chorus.ai Reports API
+  slug: chorus-ai-reports-api
+- description: The Sales Qualifications API from Chorus.ai — 5 operation(s) for sales qualifications.
+  name: Chorus.ai Sales Qualifications API
+  slug: chorus-ai-sales-qualifications-api
+- description: The Saved Search API from Chorus.ai — 2 operation(s) for saved search.
+  name: Chorus.ai Saved Search API
+  slug: chorus-ai-saved-search-api
+- description: The Scorecards API from Chorus.ai — 2 operation(s) for scorecards.
+  name: Chorus.ai Scorecards API
+  slug: chorus-ai-scorecards-api
+- description: The Session management API from Chorus.ai — 3 operation(s) for session management.
+  name: Chorus.ai Session management API
+  slug: chorus-ai-session-management-api
+- description: The Teams API from Chorus.ai — 2 operation(s) for teams.
+  name: Chorus.ai Teams API
+  slug: chorus-ai-teams-api
+- description: The Users API from Chorus.ai — 5 operation(s) for users.
+  name: Chorus.ai Users API
+  slug: chorus-ai-users-api
+- description: The Video Conferences API from Chorus.ai — 2 operation(s) for video conferences.
+  name: Chorus.ai Video Conferences API
+  slug: chorus-ai-video-conferences-api
+- description: The Webhook API from Chorus.ai — 1 operation(s) for webhook.
+  name: Chorus.ai Webhook API
+  slug: chorus-ai-webhook-api
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Chorus Ai Webhooks
@@ -57,6 +114,14 @@ collections:
   name: Chorus API
   slug: open-chorus-ai
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/zoominfo/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/chorus-ai-capability-edges.yml
 - group: auth
   title: ''
   type: Authentication
@@ -185,13 +250,13 @@ modified: '2026-08-13'
 name: Chorus.ai
 nav: Providers
 network: true
-overview: 'Chorus.ai publishes 3 APIs on the [APIs.io](https://apis.io/) network: Chorus Engagements API, Chorus Recordings & Transcripts API, and Chorus CRM Sync API. Tagged areas include Sales, Revenue Intelligence, Conversation, Analytics, and ZoomInfo.
+overview: 'Chorus.ai publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Conversations API, Emails API, and 19 more. Tagged areas include Sales, Revenue Intelligence, Conversation, Analytics, and ZoomInfo.
 
 
   The Chorus.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Chorus.ai''s developer surface includes authentication, documentation, API reference, support, pricing, and 24 more developer resources.'
+  Chorus.ai''s developer surface includes authentication, documentation, API reference, support, pricing, and 26 more developer resources.'
 plans:
 - name: Chorus Ai Plans Pricing
   plan_count: 0
@@ -203,18 +268,23 @@ rate_limits:
   slug: chorus-ai-rate-limits
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 47.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 30.3
-    contract_quality: 61.6
+    contract_governance: 18.2
+    contract_quality: 64.8
     developer_ergonomics: 33.9
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 48.7
+  previous_composite: 48.1
   provenance:
     conformance: first-party
     contracts:
@@ -224,8 +294,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/screenshots/chorus-ai-2026-08-17T082957.png
 security:

@@ -12,20 +12,21 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.8
-  scored_at: '2026-08-26'
+  score: 51.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 284
   human_in_the_loop: 24
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 638
   slug: acquia-agentic-access
   summary_line: 638 operations · 284 acting · 24 human-in-the-loop
-api_count: 21
+api_count: 20
 apis:
 - description: Acquia Cloud Site Factory API is a powerful tool that allows developers to manage, customize, and automate various aspects of their websites and digital experiences. With this API, users can programma
   name: Acquia Cloud Site Factory API
@@ -107,7 +108,14 @@ apis:
 - description: The Teams and Permissions API from Acquia — 10 operation(s) for teams and permissions.
   name: Acquia Teams and Permissions API
   slug: acquia-teams-and-permissions-api
-artifact_total: 123
+- description: 'The stable JSON:API 1.1 surface shared by every Acquia Source CMS site, plus the OAuth 2.0 endpoints that issue the tokens it accepts. Ten operations cover token issuance, the authorization redirect, '
+  name: Acquia Content API
+  slug: acquia-content-api
+artifact_total: 126
+asyncapis:
+- description: ''
+  name: Acquia Source Cms Webhooks
+  slug: acquia-source-cms-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -230,6 +238,10 @@ collections:
   name: Acquia Cloud API Account Teams and Permissions API
   slug: open-acquia-teams-and-permissions-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.acquia.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -278,10 +290,6 @@ common:
   title: ''
   type: Portal
   url: https://dev.acquia.com/
-- group: learn
-  title: ''
-  type: Tutorials
-  url: https://dev.acquia.com/tutorial
 - group: operate
   title: ''
   type: Support
@@ -294,10 +302,6 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/acquia
-- group: build
-  title: Acquia CLI
-  type: CLI
-  url: https://github.com/acquia/cli
 - group: design
   title: ''
   type: SpectralRules
@@ -313,7 +317,123 @@ common:
 - group: start
   title: ''
   type: Signup
-  url: https://accounts.acquia.com/register
+  url: https://accounts.acquia.com/sign-up
+- group: build
+  title: ''
+  type: Packages
+  url: packages/acquia-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/acquia-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/acquia-cli.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/acquia-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/acquia-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/acquia-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/acquia-trust-center.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/acquia-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/acquia-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/acquia-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/acquia-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/acquia-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/acquia-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/acquia-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/acquia-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/acquia-changelog.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/acquia-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/acquia-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/acquia-source-cms-webhooks.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/acquia-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/acquia-rate-limits.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.acquia.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://cloudapi-docs.acquia.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://dev.acquia.com/start-here/choose-your-backend
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.acquia.com/pricing
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://www.acquia.com/product/roadmap
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.acquia.com/about-us/legal/privacy-policy
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://support.acquia.com/
 created: '2025-02-17'
 description: Acquia is a leading provider of digital experience management solutions for organizations looking to enhance their online presence. They offer a range of services, including cloud hosting, digital asset management, and content management, to help businesses create, manage, and optimize their websites and digital experiences.
 examples:
@@ -460,24 +580,28 @@ jsonld:
   property_count: 73
   slug: acquia-context
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: Acquia ships a first-party MCP server with Source CMS. Every Source CMS site exposes it at its own `/mcp` path, so the endpoint is per-tenant rather than a single shared Acquia-hosted URL. The catalog
+  name: Acquia Source MCP
+  slug: acquia-source-mcp
+modified: '2026-08-30'
 name: Acquia
 nav: Providers
 network: true
-overview: 'Acquia publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agreements API, Application Performance Monitoring Services API, and 16 more. Tagged areas include Content and Experience.
+overview: 'Acquia publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agreements API, Application Performance Monitoring Services API, and 17 more. Tagged areas include Content, Experience, Drupal, DXP, and CMS.
 
 
-  The Acquia catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Acquia catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Acquia''s developer surface includes authentication, engineering blog, developer portal, support, CLI, signup flow, and 15 more developer resources.'
+  Acquia''s developer surface includes authentication, engineering blog, developer portal, support, signup flow, CLI, changelog, and 42 more developer resources.'
 plans:
 - name: Acquia Plans Pricing
   plan_count: 8
   slug: acquia-plans-pricing
 random_paper: 19
 rate_limits:
-- limit_count: 2
+- limit_count: 0
   name: Acquia Rate Limits
   slug: acquia-rate-limits
 rules:
@@ -508,19 +632,24 @@ scopes:
   slug: acquia-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: developing
-  composite: 45.8
-  delta: 1.9
+  band: exemplar
+  composite: 69.1
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 23.3
   facets:
-    access_clarity: 47.4
-    commercial_clarity: 47.4
-    contract_governance: 28.8
-    contract_quality: 60.9
-    developer_ergonomics: 45.2
-    discoverability: 55.6
-    governance: 28.8
-    operational_transparency: 23.7
-  previous_composite: 43.9
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 47.0
+    contract_quality: 70.8
+    developer_ergonomics: 73.8
+    discoverability: 72.2
+    governance: 47.0
+    operational_transparency: 65.8
+  previous_composite: 45.8
   provenance:
     agentic_access: derived
     contracts:
@@ -528,9 +657,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 19
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/acquia/refs/heads/main/screenshots/acquia-2026-06-20T163944.png
 security:
 - kind: authentication
@@ -553,6 +682,12 @@ slug: acquia
 tags:
 - Content
 - Experience
+- Drupal
+- DXP
+- CMS
+- Digital Asset Management
+- Cloud Hosting
+- Headless
 use_cases:
 - description: Integrate Acquia Cloud API into CI/CD pipelines for automated code deployment and cache clearing.
   name: Automated Deployment Pipelines
@@ -564,5 +699,5 @@ use_cases:
   name: Content Distribution
 - description: Manage decoupled Drupal applications with Next.js or other frontend frameworks via Acquia APIs.
   name: Headless Drupal
-website: https://dev.acquia.com/
+website: https://www.acquia.com/
 ---

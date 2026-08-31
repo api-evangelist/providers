@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-08-26'
-api_count: 99
+  scored_at: '2026-08-30'
+api_count: 50
 apis:
 - description: The Add Credentials API from Cisco Crosswork — 1 operation(s) for add credentials.
   name: Cisco Crosswork Add Credentials API
@@ -275,60 +275,64 @@ apis:
 - description: The yang-library-version API from Cisco Crosswork — 1 operation(s) for yang-library-version.
   name: Cisco Crosswork Yang Library Version API
   slug: cisco-crosswork-yang-library-version-api
-- description: Upload, deploy, update and delete Crosswork Workflow Manager adapters, and read the activities each adapter exposes to workflows.
-  name: Cisco Crosswork Workflow Manager Adapters API
-  slug: cisco-crosswork-cwm-adapters-api
-- description: Read and update the Crosswork Workflow Manager system default configuration values.
-  name: Cisco Crosswork Workflow Manager Config Defaults API
-  slug: cisco-crosswork-cwm-defaults-api
-- description: The Crosswork Workflow Manager HTTP event listener — the endpoint external systems POST events to so that a workflow can be started in response.
-  name: Cisco Crosswork Workflow Manager Events API
-  slug: cisco-crosswork-cwm-event-api
-- description: Register, read, update and delete Crosswork Workflow Manager event types, and start or stop the listener for a given event type and kind.
-  name: Cisco Crosswork Workflow Manager Event Types API
-  slug: cisco-crosswork-cwm-event-type-api
-- description: Create, read, update, delete, import and export the Crosswork Workflow Manager forms that collect workflow input.
-  name: Cisco Crosswork Workflow Manager Forms API
-  slug: cisco-crosswork-cwm-forms-api
-- description: Execute Crosswork Workflow Manager jobs, list and count them, describe a run, read its event history, and cancel or terminate it.
-  name: Cisco Crosswork Workflow Manager Jobs API
-  slug: cisco-crosswork-cwm-jobs-api
-- description: The Crosswork Workflow Manager Model Context Protocol endpoint — MCP over JSON-RPC 2.0, supporting initialize, tools/list, tools/call, ping, notifications/initialized and logging/setLevel.
-  name: Cisco Crosswork Workflow Manager MCP API
-  slug: cisco-crosswork-cwm-mcp-api
-- description: Retrieve and decode Crosswork Workflow Manager payload data by key.
-  name: Cisco Crosswork Workflow Manager Payload API
-  slug: cisco-crosswork-cwm-payload-api
-- description: Register, list, retrieve, update and delete the RSA public keys Crosswork Workflow Manager uses to verify signed artifacts.
-  name: Cisco Crosswork Workflow Manager Public Keys API
-  slug: cisco-crosswork-cwm-public-key-api
-- description: Create, read, update, delete, import and export the Crosswork Workflow Manager resources that adapters connect through, and read the resource types that define their shape.
-  name: Cisco Crosswork Workflow Manager Resources API
-  slug: cisco-crosswork-cwm-resources-api
-- description: Create, read, update and delete the Crosswork Workflow Manager schedules that run workflows on a recurring basis.
-  name: Cisco Crosswork Workflow Manager Scheduler API
-  slug: cisco-crosswork-cwm-scheduler-api
-- description: Create, read, update and delete Crosswork Workflow Manager secrets, and read the secret types that define them, so credentials never sit inside a workflow definition.
-  name: Cisco Crosswork Workflow Manager Secrets API
-  slug: cisco-crosswork-cwm-secrets-api
-- description: List, read and delete the tasks Crosswork Workflow Manager workflows are built from.
-  name: Cisco Crosswork Workflow Manager Tasks API
-  slug: cisco-crosswork-cwm-tasks-api
-- description: Create, read, update and delete the Crosswork Workflow Manager worker profiles that shape how workers execute.
-  name: Cisco Crosswork Workflow Manager Worker Profiles API
-  slug: cisco-crosswork-cwm-worker-profiles-api
-- description: Create, read, update, delete, start and stop the Crosswork Workflow Manager workers that execute job runs.
-  name: Cisco Crosswork Workflow Manager Workers API
-  slug: cisco-crosswork-cwm-workers-api
-- description: List, create, read, update, delete, validate, import and export Crosswork Workflow Manager workflows, addressable either by UUID or by name and version.
-  name: Cisco Crosswork Workflow Manager Workflows API
-  slug: cisco-crosswork-cwm-workflow-api
+- description: The adapters API from Cisco Crosswork — 3 operation(s) for adapters.
+  name: Cisco Crosswork Adapters API
+  slug: cisco-crosswork-adapters-api
+- description: The defaults API from Cisco Crosswork — 2 operation(s) for defaults.
+  name: Cisco Crosswork Defaults API
+  slug: cisco-crosswork-defaults-api
+- description: The event API from Cisco Crosswork — 1 operation(s) for event.
+  name: Cisco Crosswork Event API
+  slug: cisco-crosswork-event-api
+- description: The eventType API from Cisco Crosswork — 2 operation(s) for eventtype.
+  name: Cisco Crosswork Event Type API
+  slug: cisco-crosswork-eventtype-api
+- description: The forms API from Cisco Crosswork — 4 operation(s) for forms.
+  name: Cisco Crosswork Forms API
+  slug: cisco-crosswork-forms-api
+- description: The jobs API from Cisco Crosswork — 7 operation(s) for jobs.
+  name: Cisco Crosswork Jobs API
+  slug: cisco-crosswork-jobs-api
+- description: The mcp API from Cisco Crosswork — 1 operation(s) for mcp.
+  name: Cisco Crosswork MCP API
+  slug: cisco-crosswork-mcp-api
+- description: The payload API from Cisco Crosswork — 1 operation(s) for payload.
+  name: Cisco Crosswork Payload API
+  slug: cisco-crosswork-payload-api
+- description: The publicKey API from Cisco Crosswork — 2 operation(s) for publickey.
+  name: Cisco Crosswork Public Key API
+  slug: cisco-crosswork-publickey-api
+- description: The resources API from Cisco Crosswork — 6 operation(s) for resources.
+  name: Cisco Crosswork Resources API
+  slug: cisco-crosswork-resources-api
+- description: The scheduler API from Cisco Crosswork — 2 operation(s) for scheduler.
+  name: Cisco Crosswork Scheduler API
+  slug: cisco-crosswork-scheduler-api
+- description: The secrets API from Cisco Crosswork — 4 operation(s) for secrets.
+  name: Cisco Crosswork Secrets API
+  slug: cisco-crosswork-secrets-api
+- description: The tasks API from Cisco Crosswork — 2 operation(s) for tasks.
+  name: Cisco Crosswork Tasks API
+  slug: cisco-crosswork-tasks-api
+- description: The workerProfiles API from Cisco Crosswork — 2 operation(s) for workerprofiles.
+  name: Cisco Crosswork Worker Profiles API
+  slug: cisco-crosswork-workerprofiles-api
+- description: The workers API from Cisco Crosswork — 4 operation(s) for workers.
+  name: Cisco Crosswork Workers API
+  slug: cisco-crosswork-workers-api
+- description: The workflow API from Cisco Crosswork — 8 operation(s) for workflow.
+  name: Cisco Crosswork Workflow API
+  slug: cisco-crosswork-workflow-api
 artifact_total: 107
 asyncapis:
 - description: ''
   name: Cisco Crosswork Events
   slug: cisco-crosswork-events
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cisco-crosswork-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -511,7 +515,7 @@ overview: 'Cisco Crosswork publishes 99 APIs on the [APIs.io](https://apis.io/) 
   The Cisco Crosswork catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cisco Crosswork''s developer surface includes authentication, developer portal, documentation, API reference, changelog, sandbox, getting-started guide, and 34 more developer resources.'
+  Cisco Crosswork''s developer surface includes authentication, developer portal, documentation, API reference, changelog, sandbox, getting-started guide, and 35 more developer resources.'
 plans:
 - name: Cisco Crosswork Plans Pricing
   plan_count: 0
@@ -523,18 +527,23 @@ rate_limits:
   slug: cisco-crosswork-rate-limits
 score:
   band: developing
-  composite: 52.1
+  composite: 50.6
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 12.1
-    contract_quality: 55.7
+    contract_governance: 0.0
+    contract_quality: 59.2
     developer_ergonomics: 78.0
-    discoverability: 59.3
-    governance: 12.1
+    discoverability: 50.0
+    governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 52.1
+  previous_composite: 50.6
   provenance:
     conformance: derived
     contracts:
@@ -550,8 +559,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

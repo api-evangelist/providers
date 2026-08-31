@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 56
   slug: amazon-iam-identity-center-agentic-access
   summary_line: 56 operations · 56 acting · 4 human-in-the-loop
-api_count: 56
+api_count: 2
 apis:
 - description: 'The #X Amz Target=AWSIdentityStore.CreateGroup API from Amazon IAM Identity Center — 1 operation(s) for #x amz target=awsidentitystore.creategroup.'
   name: 'Amazon IAM Identity Center #X Amz Target=AWSIdentityStore.CreateGroup API'
@@ -554,6 +554,10 @@ collections:
   name: 'AWS SSO Identity Store #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=AWSIdentityStore.CreateGroup #X Amz Target=SWBExternalService.UpdatePermissionSet API'
   slug: open-amazon-iam-identity-center-x-amz-target-swbexternalservice-updatepermissionset-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-iam-identity-center-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -2202,7 +2206,7 @@ overview: 'Amazon IAM Identity Center publishes 56 APIs on the [APIs.io](https:/
   The Amazon IAM Identity Center catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon IAM Identity Center''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
+  Amazon IAM Identity Center''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 16 more developer resources.'
 plans:
 - name: Amazon Iam Identity Center Plans Pricing
   plan_count: 3
@@ -2236,18 +2240,23 @@ rules:
   slug: amazon-iam-identity-center-spectral-rules
 score:
   band: developing
-  composite: 51.8
-  delta: 2.4
+  composite: 51.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
     contract_governance: 28.8
     contract_quality: 65.3
     developer_ergonomics: 61.9
-    discoverability: 59.3
+    discoverability: 53.7
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 49.4
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     contracts:
@@ -2255,8 +2264,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 56
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iam-identity-center/refs/heads/main/screenshots/amazon-iam-identity-center-2026-06-20T171703.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: eppo-agentic-access
   summary_line: 13 operations · 7 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Eppo Cloud REST API provides programmatic access to feature flags, experiments, allocations, metrics, and assignments configuration.
   name: Eppo Cloud REST API
@@ -146,7 +146,7 @@ modified: '2026-05-08'
 name: Eppo
 nav: Providers
 network: true
-overview: 'Eppo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Allocations API, Assignments API, Experiments API, and 2 more. Tagged areas include Experimentation, Feature Flags, A/B Testing, Analytics, and Statistics.
+overview: 'Eppo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Allocations API, Assignments API, Experiments API, and 2 more. Tagged areas include Experimentation, Feature Flags, AB Testing, Analytics, and Statistics.
 
 
   Eppo''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -161,15 +161,20 @@ rate_limits:
   slug: eppo-rate-limits
 score:
   band: thin
-  composite: 28.1
-  delta: 0.0
+  composite: 27.6
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 52.9
     developer_ergonomics: 23.8
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 28.1
@@ -180,8 +185,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eppo/refs/heads/main/screenshots/eppo-2026-06-20T180759.png
 security:
@@ -201,7 +206,7 @@ slug: eppo
 tags:
 - Experimentation
 - Feature Flags
-- A/B Testing
+- AB Testing
 - Analytics
 - Statistics
 website: https://www.geteppo.com/

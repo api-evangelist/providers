@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 19
   slug: openprescribing-agentic-access
   summary_line: 19 operations
-api_count: 4
+api_count: 1
 apis:
 - description: Retrieve total prescribing spending, quantity and items across the last five years of the English Prescribing Dataset — by BNF code (section, chemical or presentation) and by NHS organisation (practic
   name: OpenPrescribing Spending API
@@ -52,15 +52,32 @@ apis:
 - description: Reference-data lookups for the prescribing dataset — search BNF sections, chemicals and presentations by name or code; look up NHS organisations (Sub-ICB Location or practice) by code or name; retriev
   name: OpenPrescribing Information API
   slug: openprescribing-information-api
-- description: OpenPrescribing API from OpenPrescribing — 19 path(s) described in OpenAPI.
-  name: OpenPrescribing API
-  slug: openprescribing-openapi
-artifact_total: 9
+- description: Standardised NHS prescribing-quality and safety measures.
+  name: OpenPrescribing Measures API
+  slug: openprescribing-measures-api
+- description: BNF code, organisation code and organisation-location reference lookups.
+  name: OpenPrescribing Reference API
+  slug: openprescribing-reference-api
+- description: Prescribing spending, quantity and item counts by BNF code and organisation.
+  name: OpenPrescribing Spending API
+  slug: openprescribing-spending-api
+- description: Drug-tariff prices and price-per-unit / ghost-generic savings data.
+  name: OpenPrescribing Tariff API
+  slug: openprescribing-tariff-api
+artifact_total: 12
 collections:
 - collection_type: open
   name: OpenPrescribing API
   slug: open-openprescribing
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/bennettoxford/openprescribing/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/bennettoxford/openprescribing/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -173,25 +190,33 @@ modified: '2026-07-24'
 name: OpenPrescribing
 nav: Providers
 network: true
-overview: 'OpenPrescribing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United Kingdom, NHS, Prescribing, and Pharmacy.
+overview: 'OpenPrescribing publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Spending API, Measures API, and 4 more. Tagged areas include Healthcare, United Kingdom, NHS, Prescribing, and Pharmacy.
 
 
-  OpenPrescribing''s developer surface includes documentation, API reference, support, engineering blog, getting-started guide, authentication, and 19 more developer resources.'
+  OpenPrescribing''s developer surface includes documentation, API reference, support, engineering blog, getting-started guide, authentication, and 21 more developer resources.'
 random_paper: 14
 score:
   band: thin
-  composite: 34.7
-  delta: 0.0
+  composite: 32.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
-    contract_quality: 48.3
+    contract_governance: 4.5
+    contract_quality: 50.7
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 34.7
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,8 +233,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/screenshots/openprescribing-2026-08-07T190634.png
 security:

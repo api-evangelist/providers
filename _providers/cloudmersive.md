@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: cloudmersive-agentic-access
   summary_line: 13 operations · 12 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The Scan API from Cloudmersive — 3 operation(s) for scan.
   name: Cloudmersive Scan API
@@ -134,7 +134,7 @@ modified: '2026-05-19'
 name: Cloudmersive
 nav: Providers
 network: true
-overview: 'Cloudmersive publishes 2 APIs on the [APIs.io](https://apis.io/) network: Scan API and ScanCloudStorage API. Tagged areas include Barcodes, Conversions, Documents, Image Recognition, and Natural-Language.
+overview: 'Cloudmersive publishes 2 APIs on the [APIs.io](https://apis.io/) network: Scan API and ScanCloudStorage API. Tagged areas include Barcodes, Conversions, Documents, Image Recognition, and Natural Language.
 
 
   The Cloudmersive catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -165,7 +165,12 @@ rules:
 score:
   band: thin
   composite: 37.7
-  delta: 1.9
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -175,7 +180,7 @@ score:
     discoverability: 59.3
     governance: 45.5
     operational_transparency: 10.5
-  previous_composite: 35.8
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -183,8 +188,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/screenshots/cloudmersive-2026-06-20T174612.png
 security:
@@ -202,7 +207,7 @@ tags:
 - Conversions
 - Documents
 - Image Recognition
-- Natural-Language
+- Natural Language
 - OCR
 - Processing
 - Validation

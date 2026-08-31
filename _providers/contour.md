@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 23
   slug: contour-agentic-access
   summary_line: 23 operations · 12 acting
-api_count: 9
+api_count: 2
 apis:
 - description: 'Contour''s support for the standard Kubernetes Ingress v1 resource, enabling basic ingress use cases such as host-based and path-based routing to backend services. Contour watches Ingress v1 resources '
   name: Contour Kubernetes Ingress API
@@ -100,6 +100,10 @@ collections:
   name: Contour Gateway TLSRoute API
   slug: open-contour-tlsroute-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/contour-capability-edges.yml
 - group: auth
   title: ''
   type: SecurityPolicy
@@ -345,7 +349,7 @@ overview: 'Contour publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
   The Contour catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Contour''s developer surface includes getting-started guide, documentation, support, changelog, and 18 more developer resources.'
+  Contour''s developer surface includes getting-started guide, documentation, support, changelog, and 19 more developer resources.'
 plans:
 - name: Contour Plans Pricing
   plan_count: 1
@@ -390,18 +394,26 @@ rules:
   slug: contour-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.5
-  delta: 1.4
+  composite: 49.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 38.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 5.1
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 69.7
     contract_quality: 59.5
     developer_ergonomics: 33.3
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 69.7
     operational_transparency: 36.8
-  previous_composite: 43.1
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     contracts:
@@ -409,9 +421,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/screenshots/contour-2026-06-20T174944.png
 security:
 - kind: domain-security

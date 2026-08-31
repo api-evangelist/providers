@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: plivo-agentic-access
   summary_line: 6 operations · 2 acting
-api_count: 24
+api_count: 1
 apis:
 - description: The Plivo Account API exposes account-level details (auth ID, auth token, billing balance, address, account type, max-call configuration) and supports updating account properties.
   name: Plivo Account API
@@ -327,15 +327,20 @@ rules:
   slug: plivo-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 44.0
-  delta: 0.0
+  composite: 43.5
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 74.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 13.6
     contract_quality: 60.2
     developer_ergonomics: 45.2
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 13.6
     operational_transparency: 42.1
   previous_composite: 44.0
@@ -352,8 +357,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plivo/refs/heads/main/screenshots/plivo-2026-06-20T191841.png
 security:

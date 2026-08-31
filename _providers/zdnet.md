@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 6
   slug: zdnet-agentic-access
   summary_line: 6 operations
-api_count: 4
+api_count: 1
 apis:
 - description: Artificial intelligence feeds
   name: ZDNet AI API
@@ -241,15 +241,20 @@ rules:
   slug: zdnet-rules
 score:
   band: thin
-  composite: 36.7
-  delta: 0.8
+  composite: 36.2
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 45.8
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 25.0
     contract_quality: 59.2
     developer_ergonomics: 0.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 25.0
     operational_transparency: 7.9
   needs_work:
@@ -258,7 +263,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 35.9
+  previous_composite: 36.7
   provenance:
     agentic_access: derived
     contracts:
@@ -266,8 +271,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zdnet/refs/heads/main/screenshots/zdnet-2026-06-20T201804.png
 security:

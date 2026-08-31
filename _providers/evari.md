@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -42,6 +42,10 @@ collections:
   name: Evari Quotes API
   slug: open-evari-quotes-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/evari-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -198,7 +202,7 @@ network: true
 overview: 'Evari publishes 1 API on the [APIs.io](https://apis.io/) network: Quotes API. Tagged areas include Insurance, Australia, Insurtech, Policy Administration, and Core Systems.
 
 
-  Evari''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 27 more developer resources.'
+  Evari''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 28 more developer resources.'
 plans:
 - name: Evari Plans
   plan_count: 6
@@ -206,18 +210,23 @@ plans:
 random_paper: 10
 score:
   band: developing
-  composite: 50.1
+  composite: 50.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 30.3
-    contract_quality: 38.1
+    contract_governance: 18.2
+    contract_quality: 44.2
     developer_ergonomics: 42.3
-    discoverability: 68.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 50.1
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -234,8 +243,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evari/refs/heads/main/screenshots/evari-2026-07-25T213710.png
 security:

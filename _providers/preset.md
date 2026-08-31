@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 21
   slug: preset-agentic-access
   summary_line: 21 operations · 11 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The Authentication API from Preset — 1 operation(s) for authentication.
   name: Preset Authentication API
@@ -167,19 +167,24 @@ rate_limits:
   name: Preset Rate Limits
   slug: preset-rate-limits
 score:
-  band: developing
-  composite: 39.6
-  delta: 2.4
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 52.8
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.2
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +192,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/preset/refs/heads/main/screenshots/preset-2026-06-20T192138.png
 security:

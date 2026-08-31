@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 52
   slug: watchtowr-agentic-access
   summary_line: 52 operations · 12 acting
-api_count: 20
+api_count: 1
 apis:
 - description: The Activity Log API from watchTowr — 1 operation(s) for activity log.
   name: watchTowr Activity Log API
@@ -300,18 +300,23 @@ overview: 'watchTowr publishes 20 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 8
 score:
   band: thin
-  composite: 37.4
-  delta: 0.0
+  composite: 34.3
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 51.7
     developer_ergonomics: 47.0
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 37.4
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -322,8 +327,8 @@ score:
       total: 20
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/watchtowr/refs/heads/main/screenshots/watchtowr-2026-08-17T082853.png
 security:

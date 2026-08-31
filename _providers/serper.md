@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: serper-agentic-access
   summary_line: 10 operations · 10 acting
-api_count: 14
+api_count: 2
 apis:
 - description: Search autocomplete suggestions
   name: Serper Autocomplete API
@@ -83,9 +83,9 @@ apis:
 - description: Video search results
   name: Serper Videos API
   slug: serper-videos-api
-- description: Fetch and extract the contents of a URL, optionally as markdown with images, links and videos. Served from a separate host and priced per difficulty at 2, 6 or 10 credits, with the credits consumed re
-  name: Serper Webpage Scrape API
-  slug: serper-webpage-scrape-api
+- description: Webpage content extraction
+  name: Serper Scrape API
+  slug: serper-scrape-api
 artifact_total: 42
 collections:
 - collection_type: open
@@ -122,6 +122,10 @@ collections:
   name: Serper Google Search Autocomplete Videos API
   slug: open-serper-videos-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/serper-webpage-scrape-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -307,7 +311,7 @@ overview: 'Serper publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
   The Serper catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Serper''s developer surface includes authentication, documentation, pricing, API reference, getting-started guide, signup flow, support, and 26 more developer resources.'
+  Serper''s developer surface includes authentication, documentation, pricing, API reference, getting-started guide, signup flow, support, and 27 more developer resources.'
 plans:
 - name: Serper Plans Pricing
   plan_count: 5
@@ -330,18 +334,23 @@ rules:
   slug: serper-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 59.7
-  delta: 0.0
+  composite: 57.4
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.6
   facets:
-    access_clarity: 84.2
-    commercial_clarity: 84.2
-    contract_governance: 26.5
+    access_clarity: 78.9
+    commercial_clarity: 78.9
+    contract_governance: 14.4
     contract_quality: 57.2
     developer_ergonomics: 66.1
-    discoverability: 74.1
-    governance: 26.5
+    discoverability: 75.9
+    governance: 14.4
     operational_transparency: 36.8
-  previous_composite: 59.7
+  previous_composite: 59.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -352,8 +361,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/screenshots/serper-2026-06-20T193723.png
 security:

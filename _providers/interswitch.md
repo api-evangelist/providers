@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -42,29 +42,17 @@ agentic_access:
   operation_count: 55
   slug: interswitch-agentic-access
   summary_line: 55 operations · 31 acting · 1 human-in-the-loop
-api_count: 32
+api_count: 10
 apis:
-- description: Quickteller Send Money APIs covering Single Transfer (POST /quicktellerservice/api/v5/transactions/TransferFunds), Bulk Transfer, Name Inquiry, and Bank Code Resolution. Used by banks, fintechs, and P
-  name: Interswitch Transfers API
-  slug: interswitch-transfers-api
-- description: Refund successful Quickteller Business transactions in full or in part via `POST /paymentgateway/api/v1/refunds`. Tracks refund lifecycle through SUCCESS, PENDING, PROCESSING, COMPLETE, COMPLETE_MANUA
-  name: Interswitch Refunds API
-  slug: interswitch-refunds-api
 - description: The Airtime API from Interswitch — 3 operation(s) for airtime.
   name: Interswitch Airtime API
   slug: interswitch-airtime-api
 - description: The Balance API from Interswitch — 1 operation(s) for balance.
   name: Interswitch Balance API
   slug: interswitch-balance-api
-- description: The Bank Codes API from Interswitch — 1 operation(s) for bank codes.
-  name: Interswitch Bank Codes API
-  slug: interswitch-bank-codes-api
 - description: The Billers API from Interswitch — 3 operation(s) for billers.
   name: Interswitch Billers API
   slug: interswitch-billers-api
-- description: The Bulk Transfers API from Interswitch — 1 operation(s) for bulk transfers.
-  name: Interswitch Bulk Transfers API
-  slug: interswitch-bulk-transfers-api
 - description: The Cards API from Interswitch — 5 operation(s) for cards.
   name: Interswitch Cards API
   slug: interswitch-cards-api
@@ -101,9 +89,6 @@ apis:
 - description: The Loans API from Interswitch — 3 operation(s) for loans.
   name: Interswitch Loans API
   slug: interswitch-loans-api
-- description: The Name Inquiry API from Interswitch — 1 operation(s) for name inquiry.
-  name: Interswitch Name Inquiry API
-  slug: interswitch-name-inquiry-api
 - description: The Offers API from Interswitch — 2 operation(s) for offers.
   name: Interswitch Offers API
   slug: interswitch-offers-api
@@ -183,7 +168,7 @@ arazzos:
 - description: Initiate a hosted Web Redirect payment, then server-side requery to confirm before delivering value.
   name: Interswitch Web Checkout And Confirm
   slug: interswitch-web-checkout-confirm-workflow
-artifact_total: 132
+artifact_total: 127
 collections:
 - collection_type: postman
   name: Interswitch Airtime Recharge API
@@ -597,7 +582,7 @@ modified: '2026-05-24'
 name: Interswitch
 nav: Providers
 network: true
-overview: 'Interswitch publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Transfers API, Refunds API, Airtime API, and 29 more. Tagged areas include Payments, Payment Infrastructure, Card Network, Verve, and Quickteller.
+overview: 'Interswitch publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Airtime API, Balance API, Billers API, and 24 more. Tagged areas include Payments, Payment Infrastructure, Card Network, Verve, and Quickteller.
 
 
   The Interswitch catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -637,18 +622,23 @@ rules:
   slug: interswitch-rules
 score:
   band: strong
-  composite: 60.2
-  delta: 1.2
+  composite: 60.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 35.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
     contract_governance: 28.8
-    contract_quality: 60.1
+    contract_quality: 59.9
     developer_ergonomics: 60.7
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 59.0
+  previous_composite: 60.1
   provenance:
     agentic_access: derived
     contracts:
@@ -662,8 +652,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/screenshots/interswitch-2026-06-20T183513.png
 security:

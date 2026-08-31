@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 20
   slug: hpe-agentic-access
   summary_line: 20 operations · 14 acting · 1 human-in-the-loop
-api_count: 4
+api_count: 1
 apis:
 - description: Unified REST API gateway for HPE GreenLake edge-to-cloud services including Compute Ops Management, Data Services Cloud Console, identity, workspaces, and API client credentials. Conforms to OpenAPI 3
   name: HPE GreenLake API
@@ -73,6 +73,10 @@ collections:
   name: HPE GreenLake API
   slug: open-hpe
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hpe-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -117,22 +121,27 @@ modified: '2026-05-11'
 name: Hewlett Packard Enterprise
 nav: Providers
 network: true
-overview: 'Hewlett Packard Enterprise publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authorization API, Identity API, and Workspaces API. Tagged areas include Cloud, Edge to Cloud, Infrastructure-as-a-Service, Compute, and Storage.
+overview: 'Hewlett Packard Enterprise publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authorization API, Identity API, and Workspaces API. Tagged areas include Cloud, Edge to Cloud, Infrastructure as a Service, Compute, and Storage.
 
 
-  Hewlett Packard Enterprise''s developer surface includes authentication, documentation, signup flow, and 6 more developer resources.'
+  Hewlett Packard Enterprise''s developer surface includes authentication, documentation, signup flow, and 7 more developer resources.'
 random_paper: 2
 score:
   band: thin
-  composite: 30.0
-  delta: 0.0
+  composite: 29.5
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 53.7
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 30.0
@@ -143,8 +152,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/screenshots/hpe-2026-06-20T182854.png
 security:
@@ -160,7 +169,7 @@ slug: hpe
 tags:
 - Cloud
 - Edge to Cloud
-- Infrastructure-as-a-Service
+- Infrastructure as a Service
 - Compute
 - Storage
 - Networking

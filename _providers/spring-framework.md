@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 6
   slug: spring-framework-agentic-access
   summary_line: 6 operations
-api_count: 6
+api_count: 1
 apis:
 - description: Production-ready features for monitoring and managing Spring Boot applications. Exposes health checks, metrics, environment info, configuration properties, thread dumps, heap dumps, and logger configu
   name: Spring Boot Actuator API
@@ -79,6 +79,22 @@ collections:
   name: Spring Initializr API
   slug: open-spring-initializr
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/spring-projects/spring-framework/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/spring-projects/spring-framework/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/spring-projects/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/spring-projects/spring-framework/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -172,13 +188,13 @@ modified: '2026-05-19'
 name: Spring Framework
 nav: Providers
 network: true
-overview: 'Spring Framework publishes 3 APIs on the [APIs.io](https://apis.io/) network: Generation API, Management API, and Metadata API. Tagged areas include AOP, Dependency Injection, Enterprise, Framework, and IOC.
+overview: 'Spring Framework publishes 3 APIs on the [APIs.io](https://apis.io/) network: Generation API, Management API, and Metadata API. Tagged areas include AOP, Dependency Injection, Enterprise, Framework, and IoC.
 
 
   The Spring Framework catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Spring Framework''s developer surface includes engineering blog, getting-started guide, Stack Overflow tag, YouTube channel, release notes, documentation, and 10 more developer resources.'
+  Spring Framework''s developer surface includes engineering blog, getting-started guide, Stack Overflow tag, YouTube channel, release notes, documentation, and 14 more developer resources.'
 plans:
 - name: Spring Framework Plans Pricing
   plan_count: 3
@@ -211,19 +227,27 @@ rules:
     warn: 3
   slug: spring-framework-rules
 score:
-  band: thin
-  composite: 32.4
-  delta: 1.4
+  band: developing
+  composite: 39.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 49.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 13.6
     contract_quality: 55.8
     developer_ergonomics: 31.0
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
-    operational_transparency: 26.3
-  previous_composite: 31.0
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -231,8 +255,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-framework/refs/heads/main/screenshots/spring-framework-2026-06-20T194413.png
 security:
@@ -250,7 +274,7 @@ tags:
 - Dependency Injection
 - Enterprise
 - Framework
-- IOC
+- IoC
 - Java
 - Microservices
 - MVC

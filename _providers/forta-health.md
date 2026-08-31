@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-26'
-api_count: 34
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: The assessment_surveys API from Forta Health — 1 operation(s) for assessment_surveys.
   name: Forta Health Assessment Surveys API
@@ -239,6 +239,10 @@ collections:
   name: Fast Treatment Plan Statuses API
   slug: open-forta-health-treatment-plan-statuses-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/forta-health-capability-edges.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -328,25 +332,30 @@ modified: '2026-08-04'
 name: Forta Health
 nav: Providers
 network: true
-overview: 'Forta Health publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Assessment Surveys API, Behavior API, Bt Supervisions API, and 31 more. Tagged areas include Healthcare, Autism, ABA Therapy, Behavioral Health, and Telehealth.
+overview: 'Forta Health publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Assessment Surveys API, Behavior API, Bt Supervisions API, and 31 more. Tagged areas include healthcare, autism, aba-therapy, behavioral-health, and telehealth.
 
 
-  Forta Health''s developer surface includes signup flow, support, engineering blog, and 17 more developer resources.'
+  Forta Health''s developer surface includes signup flow, support, engineering blog, and 18 more developer resources.'
 random_paper: 18
 score:
-  band: developing
-  composite: 40.1
-  delta: 6.2
+  band: thin
+  composite: 38.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 55.6
     developer_ergonomics: 26.2
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 33.9
+  previous_composite: 38.7
   provenance:
     conformance: derived
     contracts:
@@ -357,13 +366,19 @@ score:
     skills: unknown
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: ccpa
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forta-health/refs/heads/main/screenshots/forta-health-2026-08-07T165415.png
 security:
 - kind: authentication
@@ -376,17 +391,17 @@ security:
   summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: forta-health
 tags:
-- Healthcare
-- Autism
-- ABA Therapy
-- Behavioral Health
-- Telehealth
-- Digital Health
+- healthcare
+- autism
+- aba-therapy
+- behavioral-health
+- telehealth
+- digital-health
 - pediatric-care
-- Clinical Operations
-- Medicaid
-- Health Insurance
-- EHR
-- Machine-Learning
+- clinical-operations
+- medicaid
+- health-insurance
+- ehr
+- machine-learning
 website: https://www.fortahealth.com/
 ---

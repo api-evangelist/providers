@@ -12,28 +12,112 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 57.9
-  scored_at: '2026-08-26'
-api_count: 2
+  score: 63.3
+  scored_at: '2026-08-30'
+api_count: 36
 apis:
-- description: REST API over api.feedly.com/v3 for the Feedly Threat Intelligence platform. Collect articles from AI Feeds, Folders and Boards by streamId; search and query the corpus with the Ask AI (RAG) endpoints
-  name: Feedly API
-  slug: feedly-api
 - description: Hosted, remote Model Context Protocol server exposing the Feedly Real-Time Threat Graph to AI agents. Feedly documents 16 tools covering threat actors, malware, vulnerabilities, TTPs, IoCs and cyberat
   name: Feedly Threat Graph MCP Server
   slug: feedly-threat-graph-mcp-server
-artifact_total: 27
+- description: The Alerts API API from Feedly — 1 operation(s) for alerts api.
+  name: Feedly Alerts API
+  slug: feedly-alerts-api-api
+- description: The Annotations API API from Feedly — 1 operation(s) for annotations api.
+  name: Feedly Annotations API
+  slug: feedly-annotations-api-api
+- description: The Contents API from Feedly — 2 operation(s) for contents.
+  name: Feedly Contents API
+  slug: feedly-contents-api
+- description: '> 🚧 Alpha: Custom Agents is a new capability and still under active development. Endpoints, fields, and behavior may change without notice. Custom Agents let enterprise teams stand up their own tables'
+  name: Feedly Custom Agents API
+  slug: feedly-custom-agents-api
+- description: The CVEs API from Feedly — 2 operation(s) for cves.
+  name: Feedly CV Es API
+  slug: feedly-cves-api
+- description: The Detection Rules API from Feedly — 1 operation(s) for detection rules.
+  name: Feedly Detection Rules API
+  slug: feedly-detection-rules-api
+- description: The Entities API API from Feedly — 5 operation(s) for entities api.
+  name: Feedly Entities API
+  slug: feedly-entities-api-api
+- description: The Entities API from Feedly — 2 operation(s) for entities.
+  name: Feedly Entities API
+  slug: feedly-entities-api
+- description: Manage and retrieve enterprise entity lists
+  name: Feedly Entity Lists API
+  slug: feedly-entity-lists-api
+- description: The Entries API from Feedly — 1 operation(s) for entries.
+  name: Feedly Entries API
+  slug: feedly-entries-api
+- description: The Folders API from Feedly — 1 operation(s) for folders.
+  name: Feedly Folders API
+  slug: feedly-folders-api
+- description: The Insight Cards API from Feedly — 1 operation(s) for insight cards.
+  name: Feedly Insight Cards API
+  slug: feedly-insight-cards-api
+- description: The Ioc? API from Feedly — 1 operation(s) for ioc?.
+  name: Feedly Ioc? API
+  slug: feedly-ioc-api
+- description: The Memes API from Feedly — 2 operation(s) for memes.
+  name: Feedly Memes API
+  slug: feedly-memes-api
+- description: The .mget API from Feedly — 1 operation(s) for .mget.
+  name: Feedly .mget API
+  slug: feedly-mget-api
+- description: The Ner Gazetteer API from Feedly — 1 operation(s) for ner gazetteer.
+  name: Feedly Ner Gazetteer API
+  slug: feedly-ner-gazetteer-api
+- description: The New Malwares API from Feedly — 1 operation(s) for new malwares.
+  name: Feedly New Malwares API
+  slug: feedly-new-malwares-api
+- description: The Prediction API from Feedly — 1 operation(s) for prediction.
+  name: Feedly Prediction API
+  slug: feedly-prediction-api
+- description: The Rag API from Feedly — 1 operation(s) for rag.
+  name: Feedly Rag API
+  slug: feedly-rag-api
+- description: The Relationships API from Feedly — 5 operation(s) for relationships.
+  name: Feedly Relationships API
+  slug: feedly-relationships-api
+- description: The Tags API API from Feedly — 2 operation(s) for tags api.
+  name: Feedly Tags API
+  slug: feedly-tags-api-api
+- description: The Tags API from Feedly — 1 operation(s) for tags.
+  name: Feedly Tags API
+  slug: feedly-tags-api
+- description: The Threat Actors API from Feedly — 1 operation(s) for threat actors.
+  name: Feedly Threat Actors API
+  slug: feedly-threat-actors-api
+- description: The Threats API from Feedly — 1 operation(s) for threats.
+  name: Feedly Threats API
+  slug: feedly-threats-api
+- description: The Trend Discovery API from Feedly — 1 operation(s) for trend discovery.
+  name: Feedly Trend Discovery API
+  slug: feedly-trend-discovery-api
+- description: The Triggers API from Feedly — 2 operation(s) for triggers.
+  name: Feedly Triggers API
+  slug: feedly-triggers-api
+- description: The Ttp Dashboard API from Feedly — 2 operation(s) for ttp dashboard.
+  name: Feedly Ttp Dashboard API
+  slug: feedly-ttp-dashboard-api
+- description: The Users API from Feedly — 1 operation(s) for users.
+  name: Feedly Users API
+  slug: feedly-users-api
+- description: The Vulnerabilities API from Feedly — 1 operation(s) for vulnerabilities.
+  name: Feedly Vulnerabilities API
+  slug: feedly-vulnerabilities-api
+artifact_total: 55
 asyncapis:
 - description: ''
   name: Feedly Webhooks
@@ -323,7 +407,7 @@ modified: '2026-08-12'
 name: Feedly
 nav: Providers
 network: true
-overview: 'Feedly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Threat Intelligence, Cybersecurity, cyber-threat-intelligence, Content Aggregation, and RSS.
+overview: 'Feedly publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Annotations API, Contents API, and 26 more. Tagged areas include Threat Intelligence, Cybersecurity, cyber-threat-intelligence, content-aggregation, and rss.
 
 
   The Feedly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -341,18 +425,23 @@ rate_limits:
   slug: feedly-rate-limits
 score:
   band: strong
-  composite: 57.5
+  composite: 57.1
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 30.3
-    contract_quality: 60.5
+    contract_governance: 18.2
+    contract_quality: 66.7
     developer_ergonomics: 51.2
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 57.5
+  previous_composite: 57.1
   provenance:
     conformance: first-party
     contracts:
@@ -362,8 +451,8 @@ score:
       total: 18
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/feedly/refs/heads/main/screenshots/feedly-2026-08-17T080410.png
 security:
@@ -384,16 +473,16 @@ tags:
 - Threat Intelligence
 - Cybersecurity
 - cyber-threat-intelligence
-- Content Aggregation
-- RSS
+- content-aggregation
+- rss
 - News
-- Vulnerability Management
-- Indicators of Compromise
-- Malware
-- threat-actors
+- vulnerability-management
+- indicators-of-compromise
+- malware
+- Threat Actors
 - mitre-attack
-- Security Automation
-- Artificial Intelligence
+- security-automation
+- artificial-intelligence
 - MCP
 - agent-native
 - Webhook

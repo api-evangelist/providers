@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 510
   human_in_the_loop: 15
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 730
   slug: delphix-agentic-access
   summary_line: 730 operations · 510 acting · 15 human-in-the-loop
-api_count: 60
+api_count: 2
 apis:
 - description: The Algorithms API from Delphix — 12 operation(s) for algorithms.
   name: Delphix Algorithms API
@@ -564,18 +564,23 @@ overview: 'Delphix publishes 60 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 15
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 44.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 91.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 46.3
     developer_ergonomics: 73.2
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 51.9
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 47.9
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -586,8 +591,8 @@ score:
       total: 60
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delphix/refs/heads/main/screenshots/delphix-2026-07-25T211658.png
 security:

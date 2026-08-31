@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Free (non-commercial)
   onboarding: unknown
-  pricing: freemium
-  public: false
+  pricing: free
+  public: true
   source:
-  - plans
+  - https://www.every.org/charity-api
+  - plans/every-org-plans-pricing.yml
   trial: false
   try_now: false
 agent_readiness:
@@ -16,24 +17,24 @@ agent_readiness:
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.5
-  scored_at: '2026-08-26'
+  score: 15.7
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'The Every.org API is a powerful tool that allows developers to access and interact with a wide range of charitable giving data. By integrating the API into their applications, developers can retrieve '
@@ -41,6 +42,10 @@ apis:
   slug: every-org
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.every.org/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -65,71 +70,165 @@ common:
   title: ''
   type: PressReleases
   url: https://www.every.org/press
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.every.org/charity-api
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.every.org/docs/endpoints/nonprofits
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.every.org/docs/intro
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.every.org/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.every.org/charity-api
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.every.org/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.every.org/privacy
 - group: operate
   title: ''
-  type: Support
-  url: https://support.every.org/hc/en-us
+  type: StatusPage
+  url: https://status.every.org/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/every-org-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/every-org-lifecycle.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/every-org-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/every-org-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/every-org-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/every-org-plans-pricing.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: webhooks/every-org-webhooks.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/every-org-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/every-org-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/every-org-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/every-org-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/every-org-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/every-org-sandbox.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/every-org-llms.txt
 created: '2025-03-01'
 description: Every.org is a platform that empowers individuals to give back and support causes they care about. Users can create fundraising campaigns, donate to verified nonprofits, and track their impact through personalized giving dashboards. Every.org also partners with companies to facilitate workplace giving programs and corporate social responsibility initiatives.
 finops:
 - name: Every Org Finops
   service_category: API
   slug: every-org-finops
-graphqls:
-- description: Every.org is a nonprofit giving platform that enables individuals, companies, and developers to discover verified nonprofits, create fundraising campaigns, and process donations. The platform serves d
-  name: Every.org GraphQL API
-  slug: every-org-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/every-org.png
 layout: provider
-modified: '2026-03-16'
+modified: '2026-08-28'
 name: Every.org
 nav: Providers
 network: true
-overview: 'Every.org publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Charities, Donations, and Fundraising.
+overview: 'Every.org publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Charities, Donations, Fundraising, Non-Profit, and Philanthropy.
 
 
-  Every.org''s developer surface includes support, engineering blog, and 5 more developer resources.'
+  Every.org''s developer surface includes support, engineering blog, API reference, getting-started guide, pricing, signup flow, changelog, and 22 more developer resources.'
 plans:
 - name: Every Org Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: every-org-plans-pricing
 random_paper: 4
 rate_limits:
-- limit_count: 5
+- limit_count: 3
   name: Every Org Rate Limits
   slug: every-org-rate-limits
 score:
-  band: emerging
-  composite: 25.6
-  delta: 3.4
+  band: thin
+  composite: 32.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 41.5
-    developer_ergonomics: 23.8
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 10.5
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 59.5
+    discoverability: 68.5
+    governance: 18.2
+    operational_transparency: 34.2
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 22.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 32.5
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/every-org/refs/heads/main/screenshots/every-org-2026-06-20T180910.png
 security:
+- kind: authentication
+  name: Every Org Authentication
+  slug: every-org-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Every Org Domain Security
   slug: every-org-domain-security
-  summary_line: TLSv1.3 · DNSSEC · DMARC
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: every-org
 tags:
 - Charities
 - Donations
 - Fundraising
+- Non-Profit
+- Philanthropy
+- Webhook
+- Giving
+website: https://www.every.org/
 ---

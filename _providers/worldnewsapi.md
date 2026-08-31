@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.3
-  scored_at: '2026-08-26'
+  score: 34.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: worldnewsapi-agentic-access
   summary_line: 8 operations
-api_count: 7
+api_count: 2
 apis:
 - description: Extract article content and links from arbitrary news URLs.
   name: World News API Extract News API
@@ -65,7 +65,10 @@ apis:
 - description: Country-level top news clustered by coverage.
   name: World News API Top News API
   slug: worldnewsapi-top-news-api
-artifact_total: 23
+- description: The News API from World News API — 9 operation(s) for news.
+  name: World News API News API
+  slug: worldnewsapi-news-api
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -288,7 +291,7 @@ modified: '2026-08-13'
 name: World News API
 nav: Providers
 network: true
-overview: 'World News API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Extract News API, Front Pages API, Geo Coordinates API, and 4 more. Tagged areas include News, Local News, News Search, Media Monitoring, and Geo Search.
+overview: 'World News API publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Extract News API, Front Pages API, Geo Coordinates API, and 5 more. Tagged areas include News, Local News, News Search, Media Monitoring, and Geo Search.
 
 
   World News API''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, developer console, support, and 37 more developer resources.'
@@ -303,18 +306,23 @@ rate_limits:
   slug: worldnewsapi-rate-limits
 score:
   band: strong
-  composite: 64.4
-  delta: 0.0
+  composite: 62.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 53.7
     developer_ergonomics: 75.6
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 73.7
-  previous_composite: 64.4
+  previous_composite: 62.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -325,8 +333,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldnewsapi/refs/heads/main/screenshots/worldnewsapi-2026-08-17T080439.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 56
   slug: rocket-pool-agentic-access
   summary_line: 56 operations · 17 acting
-api_count: 15
+api_count: 2
 apis:
 - description: The rocketpool-js library is a TypeScript/JavaScript client for the Rocket Pool protocol's deployed smart contracts. It mirrors much of the Go library's surface and is intended for browser-based dApps
   name: Rocket Pool Protocol API (rocketpool-js)
@@ -141,6 +141,10 @@ collections:
   name: Rocket Pool Protocol API (rocketpool-go) Auction Wallet API
   slug: open-rocket-pool-wallet-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/rocket-pool/rocketpool-js/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -313,7 +317,7 @@ overview: 'Rocket Pool publishes 14 APIs on the [APIs.io](https://apis.io/) netw
   The Rocket Pool catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Rocket Pool''s developer surface includes documentation, getting-started guide, and 30 more developer resources.'
+  Rocket Pool''s developer surface includes documentation, getting-started guide, and 31 more developer resources.'
 random_paper: 1
 rules:
 - effective_rule_count: 5
@@ -339,18 +343,26 @@ rules:
   slug: rocket-pool-smart-node-rules
 score:
   band: emerging
-  composite: 25.0
-  delta: 0.5
+  composite: 21.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 62.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 28.8
-    contract_quality: 49.5
+    contract_quality: 46.6
     developer_ergonomics: 11.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 2.6
-  previous_composite: 24.5
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 21.9
   provenance:
     agentic_access: derived
     contracts:
@@ -358,8 +370,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocket-pool/refs/heads/main/screenshots/rocket-pool-2026-06-20T193154.png
 security:
@@ -377,7 +389,7 @@ tags:
 - Smart Contracts
 - Node Operators
 - Validator
-- Reth
+- rETH
 - RPL
 - Minipool
 - Decentralized Finance

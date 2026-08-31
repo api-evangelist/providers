@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 11
 apis:
 - description: End-of-day equity analytics for Canadian and US markets - basic, daily, and advanced daily stats plus liquidity analytics and liquidity summaries - via POST endpoints such as /v1/ca/dailystats, /v1/us
@@ -195,17 +195,22 @@ rate_limits:
   slug: tmx-group-rate-limits
 score:
   band: developing
-  composite: 42.0
-  delta: 0.0
+  composite: 39.8
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.2
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 0.0
-    developer_ergonomics: 57.1
+    developer_ergonomics: 48.8
     discoverability: 74.1
     governance: 4.5
-    operational_transparency: 42.1
+    operational_transparency: 38.2
   previous_composite: 42.0
   provenance:
     conformance: derived
@@ -215,8 +220,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 65.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tmx-group/refs/heads/main/screenshots/tmx-group-2026-07-22T202645.png
 security:

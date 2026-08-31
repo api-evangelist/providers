@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Create and manage diagnostic collection orders.
   name: Orange Health Orders API
@@ -45,7 +45,10 @@ apis:
 - description: Check whether a location is serviceable and fetch available slots.
   name: Orange Health Serviceability API
   slug: orange-health-serviceability-api
-artifact_total: 12
+- description: The Orange Health Partner API API from Orange Health — 0 operation(s) for orange health partner api.
+  name: Orange Health Orange Health Partner API
+  slug: orange-health-orange-health-partner-api-api
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Orange Health Webhooks
@@ -140,7 +143,7 @@ modified: '2026-07-20'
 name: Orange Health
 nav: Providers
 network: true
-overview: 'Orange Health publishes 3 APIs on the [APIs.io](https://apis.io/) network: Orders API, Results API, and Serviceability API. Tagged areas include Company, Mobile, Healthcare, Diagnostics, and Lab Testing.
+overview: 'Orange Health publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Orders API, Results API, Serviceability API, and 1 more. Tagged areas include Company, Mobile, Healthcare, Diagnostics, and Lab Testing.
 
 
   The Orange Health catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -150,18 +153,23 @@ overview: 'Orange Health publishes 3 APIs on the [APIs.io](https://apis.io/) net
 random_paper: 9
 score:
   band: emerging
-  composite: 25.5
-  delta: 2.4
+  composite: 23.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
-    contract_quality: 22.4
+    contract_governance: 4.5
+    contract_quality: 21.3
     developer_ergonomics: 29.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 23.1
+  previous_composite: 23.7
   provenance:
     conformance: derived
     contracts:
@@ -177,8 +185,8 @@ score:
     regime: Health
     regime_id: health
     score: 28.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange-health/refs/heads/main/screenshots/orange-health-2026-08-07T190830.png
 security:

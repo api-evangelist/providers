@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Airgas provides industrial, medical, and specialty gases and related products. The Airgas online platform supports B2B ordering, account management, order tracking, digital proof of delivery, and supp
@@ -41,6 +41,10 @@ apis:
   slug: airgas
 artifact_total: 29
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.airgas.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -56,11 +60,39 @@ common:
 - group: company
   title: ''
   type: About
-  url: https://www.airgas.com/about
+  url: https://www.airgas.com/company
 - group: operate
   title: ''
   type: Support
-  url: https://www.airgas.com/contact
+  url: https://www.airgas.com/customer-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.airgas.com/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.airgas.com/terms
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.airgas.com/airgas_newsroom
+- group: start
+  title: ''
+  type: Login
+  url: https://www.airgas.com/login
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.airgas.com/resources
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/airgas-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/airgas-llms.txt
 - group: company
   title: ''
   type: Jobs
@@ -73,6 +105,20 @@ common:
   title: Airgas Vocabulary
   type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/airgas/refs/heads/main/vocabulary/airgas-vocabulary.yaml
+coverage:
+  checked: '2026-08-30'
+  detail: Airgas markets machine-to-machine integration — cXML/OCI punchout, hosted catalogs, and EDI order, ASN and invoice documents — on its eBusiness Solutions page, but publishes no endpoint, no supplier setup document and no contract; the page's only next step is the Airgas SupplySync contact form that hands you to the eBusiness Solutions team.
+  evidence:
+  - status: 200
+    url: https://www.airgas.com/solutions/ebusiness-solutions
+  - status: 200
+    url: https://www.airgas.com/solutions/ebusiness-solutions/contact-us
+  - status: 404
+    url: https://www.airgas.com/openapi.json
+  - status: 404
+    url: https://www.airgas.com/.well-known/api-catalog
+  reason: sales-gate
+  state: gated
 created: '2026-03-23'
 description: Airgas is a leading supplier of industrial, medical, and specialty gases as well as welding equipment, safety products, and MRO supplies. An Air Liquide company, Airgas serves aerospace, construction, food and beverage, healthcare, metal fabrication, and energy industries. Airgas provides B2B e-business solutions including online ordering, supply chain management, and digital proof-of-delivery capabilities.
 examples:
@@ -131,7 +177,7 @@ jsonld:
   property_count: 16
   slug: airgas-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-08-30'
 name: Airgas
 nav: Providers
 network: true
@@ -141,10 +187,10 @@ overview: 'Airgas publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   The Airgas catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Airgas'' developer surface includes developer portal, getting-started guide, support, and 5 more developer resources.'
+  Airgas'' developer surface includes developer portal, getting-started guide, support, engineering blog, documentation, and 11 more developer resources.'
 plans:
 - name: Airgas Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: airgas-plans-pricing
 press:
 - date: '2026-05-25'
@@ -164,7 +210,7 @@ press:
   url: https://www.webdisclosure.com/press-release/air-liquide-epa-ai-growth-performance-and-record-investments-air-liquide-continues-on-its-successful-trajectory-in-q1-2026-w7jxGDiQpbI
 random_paper: 1
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Airgas Rate Limits
   slug: airgas-rate-limits
 rules:
@@ -179,34 +225,39 @@ rules:
     warn: 4
   slug: airgas-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 24.1
-  delta: 1.9
+  band: thin
+  composite: 32.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 55.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 8.4
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 25.0
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 43.2
     contract_quality: 14.7
-    developer_ergonomics: 35.7
+    developer_ergonomics: 38.1
     discoverability: 68.5
-    governance: 25.0
-    operational_transparency: 7.9
+    governance: 43.2
+    operational_transparency: 0.0
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 22.2
+  previous_composite: 24.1
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 13.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 23.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/airgas/refs/heads/main/screenshots/airgas-2026-07-25T195437.png
 security:
 - kind: domain-security
@@ -236,5 +287,5 @@ use_cases:
   name: Aerospace
 - description: PPE, fall protection, and safety equipment for workplace compliance.
   name: Safety Compliance
-website: https://www.airgas.com
+website: https://www.airgas.com/
 ---

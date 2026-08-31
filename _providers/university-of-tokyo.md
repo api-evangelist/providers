@@ -33,26 +33,33 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-26'
-api_count: 5
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: The one surface where the University of Tokyo publishes actual API documentation — at /portal/help/api, in Japanese only. It names a search API described as OpenSearch and a harvesting API described a
-  name: UTokyo Academic Assets Archives Portal API
-  slug: archives-portal
-- description: IIIF Presentation API 2.1 manifests served from the Archives Portal and a IIIF Image API 2.0 level2 service on iiif.dl.itc.u-tokyo.ac.jp. The Image server declares formats tif/jpg/gif/png, qualities b
-  name: UTokyo IIIF Presentation and Image APIs
-  slug: iiif
-- description: Two independent OAI-PMH 2.0 endpoints, both institution-operated. The UTokyo Repository at repository.dl.itc.u-tokyo.ac.jp/oai offers seven metadata formats (JPCOAR 2.0, JPCOAR 1.0, oai_dc, DDI Codebo
-  name: UTokyo OAI-PMH Metadata Harvesting
-  slug: oai-pmh
-- description: 'A live, unauthenticated JSON records interface at /api/records/ exposing 69,549 repository records with full-text query, size/page paging and self/next links. Records carry JPCOAR-shaped metadata and '
-  name: UTokyo Repository Records API
-  slug: repository-records
 - description: The University of Tokyo operates three SAML 2.0 entities registered in GakuNin, Japan's academic access federation — two Shibboleth Identity Providers (the central UTokyo IdP at gidp.adm.u-tokyo.ac.jp
   name: UTokyo Identity Federation (GakuNin SAML 2.0)
   slug: gakunin-identity-federation
-artifact_total: 20
+- description: IIIF Presentation and Image API endpoints.
+  name: University of Tokyo Iiif API
+  slug: university-of-tokyo-iiif-api
+- description: Item representations in JSON-LD, CSV and refer/BibIX.
+  name: University of Tokyo Items API
+  slug: university-of-tokyo-items-api
+- description: Open Archives Initiative Protocol for Metadata Harvesting, version 2.0.
+  name: University of Tokyo Oai Pmh API
+  slug: university-of-tokyo-oai-pmh-api
+- description: Deposited items — theses, journal articles, departmental bulletins, research data.
+  name: University of Tokyo Records API
+  slug: university-of-tokyo-records-api
+- description: OpenSearch-described search over the portal.
+  name: University of Tokyo Search API
+  slug: university-of-tokyo-search-api
+artifact_total: 21
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/utda/mirador/issues
 - group: company
   title: ''
   type: Website
@@ -234,13 +241,13 @@ modified: '2026-08-19'
 name: University of Tokyo
 nav: Providers
 network: true
-overview: 'University of Tokyo publishes 4 APIs on the [APIs.io](https://apis.io/) network, including UTokyo Academic Assets Archives Portal API, UTokyo IIIF Presentation and Image APIs, UTokyo OAI-PMH Metadata Harvesting, and 1 more. Tagged areas include University, Higher Education, Education, Japan, and Public Research University.
+overview: 'University of Tokyo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Iiif API, Items API, Oai Pmh API, and 2 more. Tagged areas include University, Higher Education, Education, Japan, and Public Research University.
 
 
   The University of Tokyo catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  University of Tokyo''s developer surface includes documentation, API reference, support, engineering blog, code examples, authentication, and 29 more developer resources.'
+  University of Tokyo''s developer surface includes documentation, API reference, support, engineering blog, code examples, authentication, and 30 more developer resources.'
 plans:
 - name: University Of Tokyo Plans Pricing
   plan_count: 2
@@ -268,18 +275,26 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.7
+  composite: 43.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 22.0
-    contract_quality: 51.1
+    contract_quality: 51.9
     developer_ergonomics: 32.1
     discoverability: 74.1
     governance: 22.0
     operational_transparency: 34.2
-  previous_composite: 47.7
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 43.6
   provenance:
     conformance: first-party
     contracts:
@@ -293,8 +308,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 61.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-tokyo/refs/heads/main/screenshots/university-of-tokyo-2026-06-20T200308.png
 security:

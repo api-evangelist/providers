@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 62
   slug: new-relic-agentic-access
   summary_line: 62 operations · 32 acting
-api_count: 41
+api_count: 5
 apis:
 - description: NerdGraph is New Relic's primary GraphQL API for querying observability data, managing account configuration, and accessing the full breadth of New Relic platform capabilities. It is the recommended A
   name: New Relic NerdGraph API
@@ -86,87 +86,21 @@ apis:
 - description: The Applications API from New Relic — 18 operation(s) for applications.
   name: New Relic Applications API
   slug: new-relic-applications-api
-- description: The Channel API from New Relic — 1 operation(s) for channel.
-  name: New Relic Channel API
-  slug: new-relic-channel-api
-- description: The Channels API from New Relic — 3 operation(s) for channels.
-  name: New Relic Channels API
-  slug: new-relic-channels-api
-- description: The Condition API from New Relic — 5 operation(s) for condition.
-  name: New Relic Condition API
-  slug: new-relic-condition-api
-- description: The Conditions API from New Relic — 15 operation(s) for conditions.
-  name: New Relic Conditions API
-  slug: new-relic-conditions-api
-- description: The Data API from New Relic — 4 operation(s) for data.
-  name: New Relic Data API
-  slug: new-relic-data-api
-- description: The Delete API from New Relic — 11 operation(s) for delete.
-  name: New Relic Delete API
-  slug: new-relic-delete-api
-- description: The Deployments API from New Relic — 2 operation(s) for deployments.
-  name: New Relic Deployments API
-  slug: new-relic-deployments-api
-- description: The Entity API from New Relic — 1 operation(s) for entity.
-  name: New Relic Entity API
-  slug: new-relic-entity-api
 - description: Custom event ingestion endpoints
   name: New Relic Events API
   slug: new-relic-events-api
-- description: The External API from New Relic — 3 operation(s) for external.
-  name: New Relic External API
-  slug: new-relic-external-api
-- description: The Failure API from New Relic — 2 operation(s) for failure.
-  name: New Relic Failure API
-  slug: new-relic-failure-api
 - description: The Get API from New Relic — 30 operation(s) for get.
   name: New Relic Get API
   slug: new-relic-get-api
-- description: The Hosts API from New Relic — 4 operation(s) for hosts.
-  name: New Relic Hosts API
-  slug: new-relic-hosts-api
-- description: The Identifiers API from New Relic — 30 operation(s) for identifiers.
-  name: New Relic Identifiers API
-  slug: new-relic-identifiers-api
-- description: The Instance API from New Relic — 2 operation(s) for instance.
-  name: New Relic Instance API
-  slug: new-relic-instance-api
-- description: The Instances API from New Relic — 4 operation(s) for instances.
-  name: New Relic Instances API
-  slug: new-relic-instances-api
-- description: The Keys API from New Relic — 2 operation(s) for keys.
-  name: New Relic Keys API
-  slug: new-relic-keys-api
-- description: The Location API from New Relic — 2 operation(s) for location.
-  name: New Relic Location API
-  slug: new-relic-location-api
 - description: Log data ingestion endpoints
   name: New Relic Logs API
   slug: new-relic-logs-api
 - description: Metric data ingestion endpoints
   name: New Relic Metrics API
   slug: new-relic-metrics-api
-- description: The Mobile API from New Relic — 4 operation(s) for mobile.
-  name: New Relic Mobile API
-  slug: new-relic-mobile-api
-- description: The Policies API from New Relic — 8 operation(s) for policies.
-  name: New Relic Policies API
-  slug: new-relic-policies-api
-- description: The Post API from New Relic — 8 operation(s) for post.
-  name: New Relic Post API
-  slug: new-relic-post-api
-- description: The Put API from New Relic — 9 operation(s) for put.
-  name: New Relic Put API
-  slug: new-relic-put-api
 - description: Distributed trace span ingestion
   name: New Relic Traces API
   slug: new-relic-traces-api
-- description: The Transactions API from New Relic — 2 operation(s) for transactions.
-  name: New Relic Transactions API
-  slug: new-relic-transactions-api
-- description: The Violations API from New Relic — 1 operation(s) for violations.
-  name: New Relic Violations API
-  slug: new-relic-violations-api
 arazzos:
 - description: Resolve an app, branch on health status, and pull recent metric data.
   name: New Relic Application Health Triage
@@ -228,7 +162,7 @@ arazzos:
 - description: Resolve a policy by name, update it, then update one of its conditions.
   name: New Relic Update Policy And Condition
   slug: new-relic-update-policy-and-condition-workflow
-artifact_total: 987
+artifact_total: 965
 asyncapis:
 - description: Describes New Relic's documented event-driven and streaming surfaces. New Relic does not publish a customer-facing WebSocket or Server-Sent Events streaming endpoint, and the NerdGraph GraphQL API doe
   name: New Relic Streaming and Event-Driven Surfaces
@@ -355,6 +289,10 @@ collections:
   name: New Relic
   slug: open-new-relic
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/new-relic-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -3253,13 +3191,13 @@ modified: '2026-05-19'
 name: New Relic
 nav: Providers
 network: true
-overview: 'New Relic publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Applications API, and 28 more. Tagged areas include Analysis, Analytics, APM, DevOps, and Infrastructure.
+overview: 'New Relic publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Applications API, and 6 more. Tagged areas include Analysis, Analytics, APM, DevOps, and Infrastructure.
 
 
   The New Relic catalog on APIs.io includes 1 event-driven AsyncAPI specification, 10 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  New Relic''s developer surface includes authentication, developer portal, pricing, documentation, engineering blog, signup flow, developer console, and 73 more developer resources.'
+  New Relic''s developer surface includes authentication, developer portal, pricing, documentation, engineering blog, signup flow, developer console, and 74 more developer resources.'
 plans:
 - name: New Relic Plans Pricing
   plan_count: 4
@@ -3304,18 +3242,26 @@ rules:
   slug: new-relic-spectral-rules
 score:
   band: exemplar
-  composite: 70.2
-  delta: 1.4
+  composite: 69.7
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 28.8
-    contract_quality: 88.5
+    contract_quality: 88.6
     developer_ergonomics: 89.3
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 55.3
-  previous_composite: 68.8
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 70.3
   provenance:
     agentic_access: derived
     contracts:
@@ -3323,8 +3269,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 29
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-relic/refs/heads/main/screenshots/new-relic-2026-06-20T190230.png
 security:

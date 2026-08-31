@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: eaton-agentic-access
   summary_line: 15 operations · 4 acting
-api_count: 19
+api_count: 1
 apis:
 - description: 'Subset of the Smart Breaker API surface scoped to Level-2 Green Motion EV charger devices (`hardwareType: ev-emcb`). Adds session-management, charge-control, and EV-specific telemetry on top of the sh'
   name: Eaton EV Smart Breaker Charger API
@@ -369,18 +369,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.5
-  delta: 5.3
+  composite: 44.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 28.8
     contract_quality: 16.7
     developer_ergonomics: 35.7
-    discoverability: 64.8
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 39.2
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     contracts:
@@ -394,9 +399,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eaton/refs/heads/main/screenshots/eaton-2026-06-20T180408.png
 security:
 - kind: authentication

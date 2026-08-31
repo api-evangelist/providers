@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 240
   human_in_the_loop: 9
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 468
   slug: mongodb-agentic-access
   summary_line: 468 operations · 240 acting · 9 human-in-the-loop
-api_count: 53
+api_count: 1
 apis:
 - description: The Atlas Data API lets you read and write data in MongoDB Atlas with standard HTTPS requests, without the need for a MongoDB driver.
   name: MongoDB Atlas Data API
@@ -363,6 +363,10 @@ collections:
   name: MongoDB Atlas Administration Access Tracking X.509 Authentication API
   slug: open-mongodb-x-509-authentication-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mongodb-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -480,7 +484,7 @@ network: true
 overview: 'MongoDB publishes 51 APIs on the [APIs.io](https://apis.io/) network, including Access Tracking API, Activity Feed API, Alert Configurations API, and 48 more. Tagged areas include Cloud Database, Database, Document Database, and NoSQL.
 
 
-  MongoDB''s developer surface includes authentication, getting-started guide, engineering blog, support, developer portal, and 14 more developer resources.'
+  MongoDB''s developer surface includes authentication, getting-started guide, engineering blog, support, developer portal, and 15 more developer resources.'
 plans:
 - name: Mongodb Plans Pricing
   plan_count: 4
@@ -497,18 +501,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.3
-  delta: 4.7
+  composite: 46.1
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 82.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 0.0
-    contract_quality: 59.1
+    contract_quality: 60.5
     developer_ergonomics: 57.1
-    discoverability: 57.4
+    discoverability: 51.9
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 41.6
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -516,8 +525,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 51
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mongodb/refs/heads/main/screenshots/mongodb-2026-06-20T185729.png
 security:

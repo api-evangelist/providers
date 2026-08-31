@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 21
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 42
   slug: hopae-inc-agentic-access
   summary_line: 42 operations · 24 acting · 21 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: Workspace API key management (Console)
   name: Hopae, Inc. Console - API Keys API
@@ -270,18 +270,23 @@ scopes:
   summary_line: 7 scopes
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 47.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 66.4
     developer_ergonomics: 63.7
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 49.8
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -292,8 +297,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/screenshots/hopae-inc-2026-07-25T221528.png
 security:

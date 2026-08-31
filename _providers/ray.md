@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 6
   slug: ray-agentic-access
   summary_line: 6 operations · 2 acting · 1 human-in-the-loop
-api_count: 5
+api_count: 1
 apis:
 - description: REST API on the Ray head node for submitting, listing, inspecting, and stopping Ray jobs, plus streaming logs. Default base URL is http://<head-node>:8265/api/jobs/. Open-source clusters are typically
   name: Ray Jobs REST API
@@ -72,6 +72,18 @@ collections:
   name: Ray Jobs REST API
   slug: open-ray
 common:
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/ray-project/ray/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/ray-project/ray/blob/master/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/ray-project/ray/blob/master/CONTRIBUTING.rst
 - group: agent
   title: ''
   type: AgenticAccess
@@ -131,22 +143,30 @@ network: true
 overview: 'Ray publishes 2 APIs on the [APIs.io](https://apis.io/) network: Jobs API and Version API. Tagged areas include Distributed Computing, Machine-Learning, AI Infrastructure, Python, and Model Serving.
 
 
-  Ray''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
+  Ray''s developer surface includes documentation, engineering blog, and 13 more developer resources.'
 random_paper: 17
 score:
-  band: emerging
-  composite: 24.5
-  delta: 2.9
+  band: thin
+  composite: 33.1
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 42.2
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 2.6
-  previous_composite: 21.6
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     contracts:
@@ -154,8 +174,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ray/refs/heads/main/screenshots/ray-2026-06-20T192611.png
 security:

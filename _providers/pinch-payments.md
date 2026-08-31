@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -33,37 +33,58 @@ agentic_access:
   summary_line: 56 operations · 27 acting
 api_count: 10
 apis:
-- description: Core Pinch REST API covering scheduled and realtime payments, plans and subscriptions, refunds, fees, events, and health — 14 paths / 19 operations. Assembled verbatim from Pinch's published per-endpo
-  name: Pinch Core API
-  slug: pinch-payments-core
-- description: Payments product surface — create/update scheduled payments, take realtime card payments, retrieve and list payments, check payment nonces, and delete payments; 7 paths / 8 operations.
-  name: Pinch Payments API
-  slug: pinch-payments-payments
-- description: Manage payer records and their payment sources (bank account or credit card) plus client-side tokenisation — create/update, retrieve, list, and delete payers and payment sources; 4 paths / 6 operation
-  name: Pinch Payers API
-  slug: pinch-payments-payers
-- description: Generate hosted payment pages (payment links) and share them via email, SMS, or chat with no frontend work — create, retrieve, list by payer, and delete payment links; 3 paths / 5 operations.
-  name: Pinch Payment Links API
-  slug: pinch-payments-payment-links
-- description: Payfac-as-a-Service / Managed Merchants — create sub-merchant accounts under your own credentials, update merchant details, list managed merchants, and upload compliance documents; 3 paths / 4 operati
-  name: Pinch Merchants API
-  slug: pinch-payments-merchants
-- description: Configure webhooks to receive real-time notifications about Pinch events (payer created, payment success/failure, bank results, subscription lifecycle) — create/update, list, retrieve, and delete webh
-  name: Pinch Webhooks API
-  slug: pinch-payments-webhooks
-- description: Manage contact records for the authenticated merchant — create/update, retrieve a single contact, list contacts (paginated), and delete contacts; 2 paths / 4 operations.
-  name: Pinch Contacts API
-  slug: pinch-payments-contacts
-- description: Reconcile settlements — list all transfers of settled funds to your bank account, retrieve a transfer, and list its line items back to the underlying payments; 3 paths / 3 operations.
-  name: Pinch Transfers API
-  slug: pinch-payments-transfers
-- description: Retrieve the current merchant financial data record and create/update merchant financial data used in compliance and onboarding; 2 paths / 2 operations.
-  name: Pinch Merchant Financial Data API
-  slug: pinch-payments-merchant-financial-data
-- description: OAuth2 client-credentials token endpoint — POST /connect/token with HTTP Basic (merchant ID + secret key) and scope api1 to obtain a short-lived Bearer JWT used against the Pinch API; served from auth
-  name: Pinch Authentication API
-  slug: pinch-payments-authentication
-artifact_total: 36
+- description: The Connect API from Pinch Payments — 1 operation(s) for connect.
+  name: Pinch Payments Connect API
+  slug: pinch-payments-connect-api
+- description: The Contacts API from Pinch Payments — 2 operation(s) for contacts.
+  name: Pinch Payments Contacts API
+  slug: pinch-payments-contacts-api
+- description: The Events API from Pinch Payments — 2 operation(s) for events.
+  name: Pinch Payments Events API
+  slug: pinch-payments-events-api
+- description: The Fees API from Pinch Payments — 2 operation(s) for fees.
+  name: Pinch Payments Fees API
+  slug: pinch-payments-fees-api
+- description: The Health API from Pinch Payments — 1 operation(s) for health.
+  name: Pinch Payments Health API
+  slug: pinch-payments-health-api
+- description: The Merchant Financial Data API from Pinch Payments — 2 operation(s) for merchant financial data.
+  name: Pinch Payments Merchant Financial Data API
+  slug: pinch-payments-merchant-financial-data-api
+- description: The Merchants API from Pinch Payments — 3 operation(s) for merchants.
+  name: Pinch Payments Merchants API
+  slug: pinch-payments-merchants-api
+- description: The Payers API from Pinch Payments — 4 operation(s) for payers.
+  name: Pinch Payments Payers API
+  slug: pinch-payments-payers-api
+- description: The Payment Links API from Pinch Payments — 3 operation(s) for payment links.
+  name: Pinch Payments Payment Links API
+  slug: pinch-payments-payment-links-api
+- description: The Payments API from Pinch Payments — 7 operation(s) for payments.
+  name: Pinch Payments Payments API
+  slug: pinch-payments-payments-api
+- description: The Plans API from Pinch Payments — 3 operation(s) for plans.
+  name: Pinch Payments Plans API
+  slug: pinch-payments-plans-api
+- description: The Refund API from Pinch Payments — 1 operation(s) for refund.
+  name: Pinch Payments Refund API
+  slug: pinch-payments-refund-api
+- description: The Refunds API from Pinch Payments — 2 operation(s) for refunds.
+  name: Pinch Payments Refunds API
+  slug: pinch-payments-refunds-api
+- description: The Subscriptions API from Pinch Payments — 2 operation(s) for subscriptions.
+  name: Pinch Payments Subscriptions API
+  slug: pinch-payments-subscriptions-api
+- description: The Tokens API from Pinch Payments — 1 operation(s) for tokens.
+  name: Pinch Payments Tokens API
+  slug: pinch-payments-tokens-api
+- description: The Transfers API from Pinch Payments — 3 operation(s) for transfers.
+  name: Pinch Payments Transfers API
+  slug: pinch-payments-transfers-api
+- description: The Webhooks API from Pinch Payments — 2 operation(s) for webhooks.
+  name: Pinch Payments Webhooks API
+  slug: pinch-payments-webhooks-api
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Pinch Payments Webhooks
@@ -295,7 +316,7 @@ modified: '2026-07-24'
 name: Pinch Payments
 nav: Providers
 network: true
-overview: 'Pinch Payments publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Pinch Core API, Pinch Payers API, and 8 more. Tagged areas include Payments, Australia, Payment Gateway, Payment Processing, and Direct Debit.
+overview: 'Pinch Payments publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Connect API, Contacts API, Events API, and 14 more. Tagged areas include Payments, Australia, Payment Gateway, Payment Processing, and Direct Debit.
 
 
   The Pinch Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -309,19 +330,24 @@ scopes:
   slug: pinch-payments-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: strong
-  composite: 55.0
+  band: developing
+  composite: 53.7
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
-    contract_quality: 56.3
+    contract_governance: 4.5
+    contract_quality: 59.3
     developer_ergonomics: 62.5
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 46.1
-  previous_composite: 55.0
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -338,8 +364,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/screenshots/pinch-payments-2026-08-17T081230.png
 security:

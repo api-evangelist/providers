@@ -16,7 +16,7 @@ agent_readiness:
     agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -32,9 +32,9 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-08-26'
-api_count: 49
+  score: 30.7
+  scored_at: '2026-08-30'
+api_count: 17
 apis:
 - description: The Account API from Toqio — 7 operation(s) for account.
   name: Toqio Account API
@@ -342,6 +342,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/toqio-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/toqio-accounts-overlay.yaml
 - group: company
@@ -474,7 +478,7 @@ overview: 'Toqio publishes 49 APIs on the [APIs.io](https://apis.io/) network, i
   The Toqio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Toqio''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 23 more developer resources.'
+  Toqio''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 24 more developer resources.'
 random_paper: 10
 scopes:
 - name: Toqio Scopes
@@ -483,18 +487,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/password
 score:
   band: developing
-  composite: 48.5
+  composite: 47.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
-    contract_governance: 30.3
-    contract_quality: 56.5
+    contract_governance: 18.2
+    contract_quality: 58.2
     developer_ergonomics: 49.4
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 14.5
-  previous_composite: 48.5
+  previous_composite: 47.4
   provenance:
     conformance: first-party
     contracts:
@@ -506,12 +515,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 71.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toqio/refs/heads/main/screenshots/toqio-2026-08-17T082408.png
 security:

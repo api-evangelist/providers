@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: huntington-bancshares-agentic-access
   summary_line: 4 operations · 1 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Account information and balances
   name: Huntington Bancshares Accounts API
@@ -71,6 +71,10 @@ collections:
   name: Huntington Bank Treasury Management API
   slug: open-huntington-bank-treasury-management-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/huntington-bancshares-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -118,7 +122,7 @@ network: true
 overview: 'Huntington Bancshares publishes 3 APIs on the [APIs.io](https://apis.io/) network: Accounts API, Payments API, and Transactions API. Tagged areas include Banking, ERP Integration, Open Banking, Payments, and Treasury.
 
 
-  Huntington Bancshares'' developer surface includes authentication, developer portal, and 6 more developer resources.'
+  Huntington Bancshares'' developer surface includes authentication, developer portal, and 7 more developer resources.'
 plans:
 - name: Huntington Bancshares Plans Pricing
   plan_count: 2
@@ -151,15 +155,20 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 32.8
-  delta: 0.0
+  composite: 32.2
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 56.2
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 32.8
@@ -176,8 +185,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 41.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/screenshots/huntington-bancshares-2026-06-20T182949.png
 security:

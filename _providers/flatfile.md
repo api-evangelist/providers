@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 222
   slug: flatfile-agentic-access
   summary_line: 222 operations · 128 acting
-api_count: 32
+api_count: 1
 apis:
 - description: The subpackage_accounts API from Flatfile — 1 operation(s) for subpackage_accounts.
   name: Flatfile subpackage_accounts API
@@ -245,6 +245,10 @@ collections:
   name: API Reference subpackage_accounts subpackage_workbooks API
   slug: open-flatfile-subpackage-workbooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/flatfile-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -328,7 +332,7 @@ network: true
 overview: 'Flatfile publishes 32 APIs on the [APIs.io](https://apis.io/) network, including subpackage_accounts API, subpackage_actions API, subpackage_agent-exports API, and 29 more. Tagged areas include Data Exchange, Data Ingestion, Data Onboarding, Data Validation, and ETL.
 
 
-  Flatfile''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 9 more developer resources.'
+  Flatfile''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 10 more developer resources.'
 plans:
 - name: Flatfile Plans Pricing
   plan_count: 3
@@ -340,15 +344,20 @@ rate_limits:
   slug: flatfile-rate-limits
 score:
   band: developing
-  composite: 42.1
-  delta: 0.0
+  composite: 41.6
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 55.5
     developer_ergonomics: 50.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 42.1
@@ -359,8 +368,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flatfile/refs/heads/main/screenshots/flatfile-2026-06-20T181305.png
 security:

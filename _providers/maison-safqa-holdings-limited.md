@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 6
   slug: maison-safqa-holdings-limited-agentic-access
   summary_line: 6 operations · 5 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Update inventory quantities for product variants. Changes are stored locally and periodically synced to Shopify.
   name: Maison Safqa Holdings Limited Inventory API
@@ -61,6 +61,10 @@ collections:
   name: Maison Safqa Brand Developer Inventory Products API
   slug: open-maison-safqa-holdings-limited-products-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/maison-safqa-holdings-limited-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -156,26 +160,31 @@ network: true
 overview: 'Maison Safqa Holdings Limited publishes 2 APIs on the [APIs.io](https://apis.io/) network: Inventory API and Products API. Tagged areas include Company, Retail, E-Commerce, Luxury, and Marketplace.
 
 
-  Maison Safqa Holdings Limited''s developer surface includes documentation, support, authentication, sandbox, and 16 more developer resources.'
+  Maison Safqa Holdings Limited''s developer surface includes documentation, support, authentication, sandbox, and 17 more developer resources.'
 random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Maison Safqa Holdings Limited Rate Limits
   slug: maison-safqa-holdings-limited-rate-limits
 score:
-  band: developing
-  composite: 40.6
-  delta: 3.8
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 53.7
     developer_ergonomics: 63.7
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 36.8
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -186,8 +195,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maison-safqa-holdings-limited/refs/heads/main/screenshots/maison-safqa-holdings-limited-2026-07-25T225926.png
 security:

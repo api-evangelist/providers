@@ -34,17 +34,55 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
-- description: The current MadKudu API (MadAPI) exposes account and person lookup, full account/person details and activities, company hiring/job-posting enrichment, advanced account and person search, prospect disc
-  name: MadKudu API (MadAPI)
-  slug: madkudu-api-madapi
-- description: The legacy MadKudu Scoring API returns customer-fit (demographics), likelihood-to-buy and lead-grade scores for companies by domain and persons by email, plus a job-changes watch list and a ping utili
-  name: MadKudu Legacy Scoring API
-  slug: madkudu-legacy-scoring-api
-artifact_total: 8
+- description: The Accounts API from MadKudu — 3 operation(s) for accounts.
+  name: MadKudu Accounts API
+  slug: madkudu-accounts-api
+- description: The AI API from MadKudu — 1 operation(s) for ai.
+  name: MadKudu AI API
+  slug: madkudu-ai-api
+- description: The Companies API from MadKudu — 1 operation(s) for companies.
+  name: MadKudu Companies API
+  slug: madkudu-companies-api
+- description: The Enrichment API from MadKudu — 1 operation(s) for enrichment.
+  name: MadKudu Enrichment API
+  slug: madkudu-enrichment-api
+- description: The Ingestion API from MadKudu — 3 operation(s) for ingestion.
+  name: MadKudu Ingestion API
+  slug: madkudu-ingestion-api
+- description: The Job Changes API from MadKudu — 1 operation(s) for job changes.
+  name: MadKudu Job Changes API
+  slug: madkudu-job-changes-api
+- description: The Lookup API from MadKudu — 2 operation(s) for lookup.
+  name: MadKudu Lookup API
+  slug: madkudu-lookup-api
+- description: The Organisation API from MadKudu — 2 operation(s) for organisation.
+  name: MadKudu Organisation API
+  slug: madkudu-organisation-api
+- description: The Persons API from MadKudu — 3 operation(s) for persons.
+  name: MadKudu Persons API
+  slug: madkudu-persons-api
+- description: The Search API from MadKudu — 2 operation(s) for search.
+  name: MadKudu Search API
+  slug: madkudu-search-api
+- description: The Sourcing API from MadKudu — 3 operation(s) for sourcing.
+  name: MadKudu Sourcing API
+  slug: madkudu-sourcing-api
+- description: The Utilities API from MadKudu — 1 operation(s) for utilities.
+  name: MadKudu Utilities API
+  slug: madkudu-utilities-api
+artifact_total: 18
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/madkudu-madapi-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/madkudu-legacy-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -185,10 +223,10 @@ modified: '2026-08-14'
 name: MadKudu
 nav: Providers
 network: true
-overview: 'MadKudu publishes 2 APIs on the [APIs.io](https://apis.io/) network: API (MadAPI) and Legacy Scoring API. Tagged areas include Company, Applicative Saas, Sales Intelligence, Lead Scoring, and Predictive Analytics.
+overview: 'MadKudu publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, AI API, Companies API, and 9 more. Tagged areas include Company, Applicative Saas, Sales Intelligence, Lead Scoring, and Predictive Analytics.
 
 
-  MadKudu''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 25 more developer resources.'
+  MadKudu''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 27 more developer resources.'
 plans:
 - name: Madkudu Plans Pricing
   plan_count: 0
@@ -199,19 +237,24 @@ rate_limits:
   name: Madkudu Rate Limits
   slug: madkudu-rate-limits
 score:
-  band: strong
-  composite: 54.6
-  delta: 0.0
+  band: developing
+  composite: 51.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
-    contract_quality: 55.1
+    contract_governance: 4.5
+    contract_quality: 54.8
     developer_ergonomics: 70.8
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 54.6
+  previous_composite: 52.5
   provenance:
     conformance: derived
     contracts:
@@ -221,8 +264,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/screenshots/madkudu-2026-07-25T225833.png
 security:

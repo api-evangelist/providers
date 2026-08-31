@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 134
   slug: amazon-api-gateway-agentic-access
   summary_line: 134 operations · 78 acting
-api_count: 18
+api_count: 2
 apis:
 - description: Build real-time two-way communication applications with WebSocket APIs.
   name: Amazon API Gateway WebSocket API
@@ -152,6 +152,10 @@ collections:
   name: Amazon API Gateway REST API Keys VPC Links API
   slug: open-amazon-api-gateway-vpc-links-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-api-gateway-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -908,7 +912,7 @@ overview: 'Amazon API Gateway publishes 16 APIs on the [APIs.io](https://apis.io
   The Amazon API Gateway catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Amazon API Gateway''s developer surface includes authentication, engineering blog, support, developer console, SDKs, status page, documentation, and 28 more developer resources.'
+  Amazon API Gateway''s developer surface includes authentication, engineering blog, support, developer console, SDKs, status page, documentation, and 29 more developer resources.'
 random_paper: 19
 rules:
 - effective_rule_count: 36
@@ -944,19 +948,24 @@ rules:
     warn: 10
   slug: amazon-api-gateway-spectral-rules
 score:
-  band: strong
-  composite: 54.5
-  delta: 0.0
+  band: developing
+  composite: 51.3
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 82.8
     developer_ergonomics: 40.5
-    discoverability: 77.8
-    governance: 45.5
+    discoverability: 61.1
+    governance: 33.3
     operational_transparency: 2.6
-  previous_composite: 54.5
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -966,8 +975,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/screenshots/amazon-api-gateway-2026-07-25T195913.png
 security:

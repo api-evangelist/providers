@@ -23,18 +23,113 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: The Oxide Region API is the public REST contract of the Oxide control plane (Nexus). It is an OpenAPI 3.0.3 document with 217 paths, 315 operations and 469 schemas, organized by the resources an opera
-  name: Oxide Region API
-  slug: oxide-computer-region-api
-artifact_total: 7
+- description: Anti-affinity groups give control over instance placement.
+  name: Oxide Affinity API
+  slug: oxide-computer-affinity-api
+- description: API for console authentication
+  name: Oxide Console Auth API
+  slug: oxide-computer-console-auth-api
+- description: Information pertaining to the current user.
+  name: Oxide Current User API
+  slug: oxide-computer-current-user-api
+- description: Virtual disks are used to store instance-local data which includes the operating system.
+  name: Oxide Disks API
+  slug: oxide-computer-disks-api
+- description: Experimental, unstable interfaces, primarily for use by Oxide personnel
+  name: Oxide Experimental API
+  slug: oxide-computer-experimental-api
+- description: External subnets that can be attached to instances.
+  name: Oxide External Subnets API
+  slug: oxide-computer-external-subnets-api
+- description: Floating IPs allow a project to allocate well-known IPs to instances.
+  name: Oxide Floating Ips API
+  slug: oxide-computer-floating-ips-api
+- description: Images are read-only virtual disks that may be used to boot virtual machines.
+  name: Oxide Images API
+  slug: oxide-computer-images-api
+- description: Virtual machine instances are the basic unit of computation. These operations are used for provisioning, controlling, and destroying instances.
+  name: Oxide Instances API
+  slug: oxide-computer-instances-api
+- description: IP pools are collections of external IPs that can be allocated and attached to instances.
+  name: Oxide Ip Pools API
+  slug: oxide-computer-ip-pools-api
+- description: Authentication endpoints
+  name: Oxide Login API
+  slug: oxide-computer-login-api
+- description: Silo-scoped metrics
+  name: Oxide Metrics API
+  slug: oxide-computer-metrics-api
+- description: System-wide IAM policy
+  name: Oxide Policy API
+  slug: oxide-computer-policy-api
+- description: Projects are a grouping of associated resources such as instances and disks within a silo for purposes of billing and access control.
+  name: Oxide Projects API
+  slug: oxide-computer-projects-api
+- description: Silos represent a logical partition of users and resources.
+  name: Oxide Silos API
+  slug: oxide-computer-silos-api
+- description: Snapshots of virtual disks at a particular point in time.
+  name: Oxide Snapshots API
+  slug: oxide-computer-snapshots-api
+- description: Subnet pools are collections of external subnets that can be allocated and attached to instances.
+  name: Oxide Subnet Pools API
+  slug: oxide-computer-subnet-pools-api
+- description: Alerts deliver notifications for events that occur on the Oxide rack
+  name: Oxide System/alerts API
+  slug: oxide-computer-system-alerts-api
+- description: These endpoints relate to audit logs.
+  name: Oxide System/audit Log API
+  slug: oxide-computer-system-audit-log-api
+- description: These operations pertain to hardware inventory and management. Racks are the unit of expansion of an Oxide deployment. Racks are in turn composed of sleds, switches, power supplies, and a cabled backp
+  name: Oxide System/hardware API
+  slug: oxide-computer-system-hardware-api
+- description: IP pools are collections of external IPs. Linking a pool to a silo makes it available for allocation by users in that silo.
+  name: Oxide System/ip Pools API
+  slug: oxide-computer-system-ip-pools-api
+- description: 'Metrics provide insight into the operation of the Oxide deployment. These include telemetry on hardware and software components that can be used to understand the current state as well as to diagnose '
+  name: Oxide System/metrics API
+  slug: oxide-computer-system-metrics-api
+- description: This provides rack-level network configuration.
+  name: Oxide System/networking API
+  slug: oxide-computer-system-networking-api
+- description: Silos represent a logical partition of users and resources.
+  name: Oxide System/silos API
+  slug: oxide-computer-system-silos-api
+- description: Endpoints related to system health
+  name: Oxide System/status API
+  slug: oxide-computer-system-status-api
+- description: Subnet pools are collections of external subnets. Linking a pool to a silo makes it available for allocation by users in that silo.
+  name: Oxide System/subnet Pools API
+  slug: oxide-computer-system-subnet-pools-api
+- description: Support bundles collect debugging information from the rack for use by Oxide support.
+  name: Oxide System/support Bundles API
+  slug: oxide-computer-system-support-bundles-api
+- description: Upload and manage system updates
+  name: Oxide System/update API
+  slug: oxide-computer-system-update-api
+- description: API clients use device access tokens for authentication.
+  name: Oxide Tokens API
+  slug: oxide-computer-tokens-api
+- description: Virtual Private Clouds (VPCs) provide isolated network environments for managing and deploying services.
+  name: Oxide Vpcs API
+  slug: oxide-computer-vpcs-api
+artifact_total: 36
 asyncapis:
 - description: ''
   name: Oxide Computer Alerts Webhooks
   slug: oxide-computer-alerts-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/oxide-computer-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/oxide-computer-region-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -156,13 +251,13 @@ modified: '2026-08-26'
 name: Oxide
 nav: Providers
 network: true
-overview: 'Oxide publishes 1 API on the [APIs.io](https://apis.io/) network: Region API. Tagged areas include Cloud Computing, Infrastructure, Compute, Virtualization, and Networking.
+overview: 'Oxide publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Affinity API, Console Auth API, Current User API, and 27 more. Tagged areas include Cloud Computing, Infrastructure, Compute, Virtualization, and Networking.
 
 
   The Oxide catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Oxide''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, release notes, and 21 more developer resources.'
+  Oxide''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, release notes, and 23 more developer resources.'
 plans:
 - name: Oxide Computer Plans Pricing
   plan_count: 0
@@ -174,16 +269,23 @@ rate_limits:
   slug: oxide-computer-rate-limits
 score:
   band: developing
-  composite: 43.6
+  composite: 41.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 45.6
+    contract_governance: 4.5
+    contract_quality: 49.0
     developer_ergonomics: 73.2
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 36.8
+  previous_composite: 42.5
   provenance:
     conformance: derived
     contracts:
@@ -193,8 +295,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Oxide Computer Authentication
@@ -219,6 +322,6 @@ tags:
 - Hardware
 - On-Premise
 - Private Cloud
-- Open Source
+- Open-Source
 website: https://oxide.computer
 ---

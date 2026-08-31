@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 35
   slug: nayya-agentic-access
   summary_line: 35 operations · 21 acting
-api_count: 11
+api_count: 3
 apis:
 - description: The Benefits API from Nayya — 4 operation(s) for benefits.
   name: Nayya Benefits API
@@ -115,6 +115,10 @@ collections:
   name: Accounts Benefits Token API
   slug: open-nayya-token-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nayya-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -238,22 +242,27 @@ network: true
 overview: 'Nayya publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Benefits API, Carriers API, Connections API, and 8 more. Tagged areas include Company, Employee Benefits, Insurance, Insurtech, and Health.
 
 
-  Nayya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 21 more developer resources.'
+  Nayya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 22 more developer resources.'
 random_paper: 0
 score:
   band: developing
-  composite: 51.8
+  composite: 50.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 53.6
     developer_ergonomics: 58.9
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 51.8
+  previous_composite: 50.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -270,8 +279,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nayya/refs/heads/main/screenshots/nayya-2026-08-07T184744.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 111
   slug: weaviate-agentic-access
   summary_line: 111 operations · 65 acting · 3 human-in-the-loop
-api_count: 22
+api_count: 1
 apis:
 - description: The authz API from Weaviate — 16 operation(s) for authz.
   name: Weaviate authz API
@@ -1657,15 +1657,20 @@ rules:
   slug: weaviate-spectral-rules
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 48.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 28.8
     contract_quality: 55.3
     developer_ergonomics: 52.4
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 39.5
   previous_composite: 49.1
@@ -1676,8 +1681,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weaviate/refs/heads/main/screenshots/weaviate-2026-06-20T201320.png
 security:

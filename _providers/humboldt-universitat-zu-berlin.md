@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 8
   slug: humboldt-universitat-zu-berlin-agentic-access
   summary_line: 8 operations
-api_count: 6
+api_count: 1
 apis:
 - description: 'Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH 2.0) endpoint for the edoc institutional repository, allowing public harvesting of metadata for theses, dissertations, articles, and '
   name: edoc-Server OAI-PMH Interface
@@ -76,6 +76,10 @@ collections:
   name: edoc-Server DSpace REST API (Humboldt-Universität zu Berlin) Core Root API
   slug: open-humboldt-universitat-zu-berlin-root-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/humboldt-universitat-zu-berlin-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -170,7 +174,7 @@ overview: 'Humboldt-Universität zu Berlin publishes 3 APIs on the [APIs.io](htt
   The Humboldt-Universität zu Berlin catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Humboldt-Universität zu Berlin''s developer surface includes GitHub presence, authentication, and 9 more developer resources.'
+  Humboldt-Universität zu Berlin''s developer surface includes GitHub presence, authentication, and 10 more developer resources.'
 plans:
 - name: Humboldt Universitat Zu Berlin Plans Pricing
   plan_count: 2
@@ -203,15 +207,20 @@ rules:
   slug: humboldt-universitat-zu-berlin-rules
 score:
   band: thin
-  composite: 33.0
-  delta: 0.0
+  composite: 32.5
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 55.6
     developer_ergonomics: 0.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 26.3
   previous_composite: 33.0
@@ -228,8 +237,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 42.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/humboldt-universitat-zu-berlin/refs/heads/main/screenshots/humboldt-universitat-zu-berlin-2026-06-20T182937.png
 security:

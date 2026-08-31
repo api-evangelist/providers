@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: snowplow-agentic-access
   summary_line: 13 operations · 6 acting
-api_count: 4
+api_count: 1
 apis:
 - description: 'Snowplow provides tracker SDKs for all major platforms including JavaScript (web), iOS, Android, Python, Java, Go, Ruby, .NET, PHP, and Rust. Trackers generate self-describing events and send them to '
   name: Snowplow Tracker SDKs
@@ -238,15 +238,20 @@ rules:
   slug: snowplow-rules
 score:
   band: developing
-  composite: 43.6
-  delta: 0.0
+  composite: 43.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 13.6
     contract_quality: 65.3
     developer_ergonomics: 42.9
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 13.2
   previous_composite: 43.6
@@ -257,8 +262,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/screenshots/snowplow-2026-06-20T194113.png
 security:

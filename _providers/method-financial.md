@@ -2,7 +2,7 @@
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: flavored
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 50.6
-  scored_at: '2026-08-26'
+  score: 49.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 128
   slug: method-financial-agentic-access
   summary_line: 128 operations · 55 acting
-api_count: 42
+api_count: 1
 apis:
 - description: Attribute data for accounts
   name: Method Financial Account Attributes API
@@ -295,6 +295,10 @@ collections:
   name: Method Webhooks API
   slug: open-method-financial-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/method-financial-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -489,7 +493,7 @@ overview: 'Method Financial publishes 42 APIs on the [APIs.io](https://apis.io/)
   The Method Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Method Financial''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, changelog, and 37 more developer resources.'
+  Method Financial''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, changelog, and 38 more developer resources.'
 random_paper: 2
 rate_limits:
 - limit_count: 6
@@ -497,18 +501,23 @@ rate_limits:
   slug: method-financial-rate-limits
 score:
   band: strong
-  composite: 65.6
-  delta: 0.0
+  composite: 63.6
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 68.6
     developer_ergonomics: 78.6
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 65.6
+  previous_composite: 64.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -525,8 +534,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 55.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/method-financial/refs/heads/main/screenshots/method-financial-2026-08-07T172703.png
 security:

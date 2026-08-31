@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 10
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 221
   slug: google-agentic-access
   summary_line: 221 operations · 139 acting · 10 human-in-the-loop
-api_count: 125
+api_count: 9
 apis:
 - description: API Gateway enables you to provide secure access to your backend services through a well-defined REST API that is consistent across all of your services, regardless of the service implementation. Clie
   name: Google Cloud API Gateway
@@ -265,9 +265,6 @@ apis:
 - description: Operations related to Disables
   name: Google Disables API
   slug: google-disables-api
-- description: Operations related to Document Understanding
-  name: Google Document Understanding API
-  slug: google-document-understanding-api
 - description: Operations related to Documents
   name: Google Documents API
   slug: google-documents-api
@@ -286,9 +283,6 @@ apis:
 - description: Operations related to Files
   name: Google Files API
   slug: google-files-api
-- description: Operations related to Filter
-  name: Google Filter API
-  slug: google-filter-api
 - description: The Free Busy API from Google — 1 operation(s) for free busy.
   name: Google Free Busy API
   slug: google-free-busy-api
@@ -346,42 +340,24 @@ apis:
 - description: Operations related to Pop
   name: Google Pop API
   slug: google-pop-api
-- description: Operations related to Profile
-  name: Google Profile API
-  slug: google-profile-api
 - description: Operations related to Replies
   name: Google Replies API
   slug: google-replies-api
 - description: Operations related to Revisions
   name: Google Revisions API
   slug: google-revisions-api
-- description: Operations related to Search
-  name: Google Search API
-  slug: google-search-api
 - description: Operations related to Send
   name: Google Send API
   slug: google-send-api
 - description: Operations related to Sets
   name: Google Sets API
   slug: google-sets-api
-- description: Operations related to Setting
-  name: Google Setting API
-  slug: google-setting-api
 - description: Operations related to Settings
   name: Google Settings API
   slug: google-settings-api
-- description: Operations related to Sheet
-  name: Google Sheet API
-  slug: google-sheet-api
 - description: Operations related to Speech Generation
   name: Google Speech Generation API
   slug: google-speech-generation-api
-- description: Operations related to Stop
-  name: Google Stop API
-  slug: google-stop-api
-- description: Operations related to Streaming
-  name: Google Streaming API
-  slug: google-streaming-api
 - description: Operations related to Teamdrives
   name: Google Team Drives API
   slug: google-team-drives-api
@@ -403,25 +379,10 @@ apis:
 - description: Operations related to Users
   name: Google Users API
   slug: google-users-api
-- description: Operations related to Vacation
-  name: Google Vacation API
-  slug: google-vacation-api
-- description: Operations related to Values
-  name: Google Values API
-  slug: google-values-api
-- description: Operations related to Verify
-  name: Google Verify API
-  slug: google-verify-api
-- description: Operations related to Video Understanding
-  name: Google Video Understanding API
-  slug: google-video-understanding-api
 - description: The Volumes API from Google — 2 operation(s) for volumes.
   name: Google Volumes API
   slug: google-volumes-api
-- description: Operations related to Watch
-  name: Google Watch API
-  slug: google-watch-api
-artifact_total: 271
+artifact_total: 258
 collections:
 - collection_type: open
   name: API Collection
@@ -694,6 +655,10 @@ collections:
   name: Google Books About Watch API
   slug: open-google-watch-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/google-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -891,10 +856,10 @@ modified: '2026-05-19'
 name: Google
 nav: Providers
 network: true
-overview: 'Google publishes 80 APIs on the [APIs.io](https://apis.io/) network, including About API, Activity API, Address API, and 77 more. Tagged areas include Advertising, Cloud, Developers, Google, and Platform.
+overview: 'Google publishes 67 APIs on the [APIs.io](https://apis.io/) network, including About API, Activity API, Address API, and 64 more. Tagged areas include Advertising, Cloud, Developers, Google, and Platform.
 
 
-  Google''s developer surface includes authentication, engineering blog, developer console, developer portal, pricing, getting-started guide, support, and 27 more developer resources.'
+  Google''s developer surface includes authentication, engineering blog, developer console, developer portal, pricing, getting-started guide, support, and 28 more developer resources.'
 plans:
 - name: Google Plans Pricing
   plan_count: 3
@@ -911,18 +876,23 @@ scopes:
   summary_line: 18 scopes · authorizationCode/implicit
 score:
   band: developing
-  composite: 48.5
-  delta: 3.3
+  composite: 49.0
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 0.0
-    contract_quality: 58.5
+    contract_quality: 56.7
     developer_ergonomics: 71.4
-    discoverability: 40.7
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 45.2
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     contracts:
@@ -930,8 +900,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 80
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google/refs/heads/main/screenshots/google-2026-06-20T182002.png
 security:

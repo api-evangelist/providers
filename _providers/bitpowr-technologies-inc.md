@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 55
   slug: bitpowr-technologies-inc-agentic-access
   summary_line: 55 operations · 22 acting
-api_count: 10
+api_count: 1
 apis:
 - description: The Account API from BitPowr Technologies, Inc. — 12 operation(s) for account.
   name: BitPowr Technologies, Inc. Account API
@@ -235,18 +235,23 @@ overview: 'BitPowr Technologies, Inc. publishes 10 APIs on the [APIs.io](https:/
 random_paper: 6
 score:
   band: thin
-  composite: 33.9
-  delta: 0.0
+  composite: 31.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 21.4
     developer_ergonomics: 45.8
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 33.9
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,8 +268,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpowr-technologies-inc/refs/heads/main/screenshots/bitpowr-technologies-inc-2026-07-25T203206.png
 security:

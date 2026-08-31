@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 3
   slug: art-blocks-agentic-access
   summary_line: 3 operations
-api_count: 8
+api_count: 3
 apis:
 - description: Hasura-backed GraphQL API providing structured access to on-chain and off-chain Art Blocks data including projects, tokens, artists, contracts, minter configurations, features, tags, and ownership. Al
   name: Art Blocks GraphQL API (Hasura)
@@ -120,10 +120,6 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/art-blocks.json
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: '2026-06-13'
 description: 'Art Blocks is the leading on-chain generative art platform where artists deploy deterministic code to Ethereum, Arbitrum One, and Base; each token is minted by invoking the script with a unique hash, producing a one-of-a-kind artwork stored permanently on-chain. The platform exposes four public API surfaces: a Token API that returns ERC-721 metadata conforming to the OpenSea standard, a Generator API that serves an iframe-able live view of each artwork, a Media Proxy API that provides static PNG renders, and a Hasura GraphQL API (data.artblocks.io) that gives structured access to on-chain and off-chain data including projects, tokens, artists, features, minting configuration, and ownership. Decentralised access is available through The Graph subgraph for on-chain-only data across all three networks. An MCP Server with 21 tools enables AI-agent integration for querying, minting, and generative script scaffolding.'
 finops:
@@ -147,7 +143,7 @@ network: true
 overview: 'Art Blocks publishes 3 APIs on the [APIs.io](https://apis.io/) network: Generator API, Media API, and Token Metadata API. Tagged areas include Generative Art, NFT, On-Chain Art, Blockchain, and Ethereum.
 
 
-  Art Blocks'' developer surface includes documentation, engineering blog, and 11 more developer resources.'
+  Art Blocks'' developer surface includes documentation and 11 more developer resources.'
 plans:
 - name: Art Blocks Plans
   plan_count: 4
@@ -159,18 +155,23 @@ rate_limits:
   slug: art-blocks-rate-limits
 score:
   band: thin
-  composite: 33.7
-  delta: 0.7
+  composite: 33.3
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.4
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 56.2
-    developer_ergonomics: 20.2
+    developer_ergonomics: 17.9
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 33.0
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -178,8 +179,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/art-blocks/refs/heads/main/screenshots/art-blocks-2026-06-20T172442.png
 security:

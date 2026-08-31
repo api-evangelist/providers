@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 194
   slug: rwth-aachen-university-agentic-access
   summary_line: 194 operations · 47 acting · 1 human-in-the-loop
-api_count: 49
+api_count: 1
 apis:
 - description: RWTH Publications is the institutional repository providing access to the publication output of RWTH Aachen University. It exposes metadata via the Open Archives Initiative Protocol for Metadata Harve
   name: RWTH Publications OAI-PMH
@@ -191,7 +191,10 @@ apis:
 - description: Endpoints for the Endpoints for the vocabularies.
   name: RWTH Aachen University Vocabulary API
   slug: rwth-aachen-university-vocabulary-api
-artifact_total: 114
+- description: The RWTH IT Center self-hosts a GitLab instance at git.rwth-aachen.de used across the university's institutes, and it is also where Coscine itself is developed. The GitLab REST API v4 is reachable and
+  name: RWTH GitLab REST API (self-hosted)
+  slug: gitlab
+artifact_total: 115
 collections:
 - collection_type: open
   name: API Collection
@@ -338,6 +341,10 @@ collections:
   name: Coscine Web Admin Vocabulary API
   slug: open-rwth-aachen-university-vocabulary-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/rwth-aachen-university-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -386,8 +393,53 @@ common:
   title: ''
   type: Review
   url: review.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.coscine.de/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.coscine.de/en/api/api/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://coscine.rwth-aachen.de/coscine/api/swagger/v2/swagger.json
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://publications.rwth-aachen.de/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://sso.rwth-aachen.de/idp/shibboleth
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://hpc.itc.rwth-aachen.de/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/rwth-aachen-university-conformance.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://about.coscine.de/en/termsofuse
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.rwth-aachen.de/cms/root/Footer/Services/~cesv/Datenschutzerklaerung/lidx/1/
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.itc.rwth-aachen.de/
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: https://www.rwth-aachen.de/.well-known/security.txt
 created: '2026-06-03'
-description: 'RWTH Aachen University (Rheinisch-Westfaelische Technische Hochschule Aachen) is a leading German technical university, ranked #83 in the QS World University Rankings 2025. Its public developer and API footprint is concentrated in research-data and scholarly-infrastructure services operated by the IT Center and University Library. The most prominent documented public API is Coscine, a FAIR research data management platform exposing a Swagger/OpenAPI-described REST API. The institutional repository RWTH Publications offers an OAI-PMH metadata harvesting endpoint, and the IT Center operates a central Single Sign-On supporting OAuth2/OpenID Connect and Shibboleth/SAML2 for application authorization. The university also runs a self-hosted GitLab at git.rwth-aachen.de used widely across its institutes.'
+description: 'RWTH Aachen University (Rheinisch-Westfaelische Technische Hochschule Aachen) is Germany''s largest technical university and a member of the TU9 alliance of leading German institutes of technology. Unusually for a university, its principal programmable surface is genuinely its own engineering rather than a vendor contract running under its name: Coscine, the FAIR research data management platform built and operated by the IT Center, publishes a 132-path OpenAPI 3.0.1 contract at coscine.rwth-aachen.de whose servers[], contact (servicedesk@rwth-aachen.de) and terms all resolve to RWTH. Alongside it the University Library operates a live OAI-PMH 2.0 endpoint for RWTH Publications, and the IT Center runs a Shibboleth Identity Provider publishing signed SAML 2.0 metadata plus an OpenID Connect discovery document — an identity federation surface that is institution-operated by definition and rarely catalogued. The IT Center also self-hosts GitLab at git.rwth-aachen.de, whose REST
+  API is reachable but is GitLab''s contract rather than RWTH''s. There is no central developer portal, no open data portal (data./opendata./api.rwth-aachen.de do not resolve), and no institution-authored course catalog or campus-life API. Every surface recorded here carries an x-operator; none of them is a vendor contract misattributed to the institution.'
 examples:
 - key_count: 2
   name: Rwth Aachen University Get Project Example
@@ -423,17 +475,17 @@ jsonld:
   property_count: 8
   slug: rwth-aachen-university-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: RWTH Aachen University
 nav: Providers
 network: true
-overview: 'RWTH Aachen University publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Admin API, ApplicationProfile API, Blob API, and 44 more. Tagged areas include Education, Higher Education, University, Research Data, and Open Access.
+overview: 'RWTH Aachen University publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Admin API, ApplicationProfile API, Blob API, and 44 more. Tagged areas include Education, Higher Education, University, Technical University, and Research Data.
 
 
   The RWTH Aachen University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  RWTH Aachen University''s developer surface includes authentication and 11 more developer resources.'
+  RWTH Aachen University''s developer surface includes authentication, documentation, API reference, support, and 20 more developer resources.'
 plans:
 - name: Rwth Aachen University Plans Pricing
   plan_count: 2
@@ -466,18 +518,23 @@ rules:
   slug: rwth-aachen-university-rules
 score:
   band: developing
-  composite: 40.4
-  delta: 1.9
+  composite: 48.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 50.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 8.4
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 50.0
+    commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 62.5
-    developer_ergonomics: 31.0
-    discoverability: 59.3
+    developer_ergonomics: 42.9
+    discoverability: 55.6
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 38.5
+  previous_composite: 40.4
   provenance:
     agentic_access: derived
     contracts:
@@ -490,10 +547,10 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 42.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 57.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/rwth-aachen-university/refs/heads/main/screenshots/rwth-aachen-university-2026-06-20T193306.png
 security:
 - kind: authentication
@@ -513,8 +570,15 @@ tags:
 - Education
 - Higher Education
 - University
+- Technical University
 - Research Data
+- Research Repository
 - Open Access
+- Identity Federation
+- Research Computing
+- OAI-PMH
+- TU9
 - Germany
+- Europe
 website: https://www.rwth-aachen.de/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 2
   slug: workday-reporting-agentic-access
   summary_line: 2 operations
-api_count: 7
+api_count: 1
 apis:
 - description: API for managing and executing custom reports programmatically.
   name: Workday Custom Reports API
@@ -206,7 +206,7 @@ modified: '2026-05-19'
 name: Workday Reporting
 nav: Providers
 network: true
-overview: 'Workday Reporting publishes 2 APIs on the [APIs.io](https://apis.io/) network: Report Metadata API and Reports API. Tagged areas include Analytics, Business Intelligence, Financial Reporting, HR Data, and Reporting.
+overview: 'Workday Reporting publishes 2 APIs on the [APIs.io](https://apis.io/) network: Report Metadata API and Reports API. Tagged areas include Analytics, Business Intelligence, Financial Reporting, Hr Data, and Reporting.
 
 
   The Workday Reporting catalog on APIs.io includes 1 Spectral governance ruleset.
@@ -235,15 +235,20 @@ rules:
   slug: workday-reporting-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.1
-  delta: 0.0
+  composite: 41.6
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 72.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 9.8
     contract_quality: 57.1
     developer_ergonomics: 28.6
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 26.3
   previous_composite: 42.1
@@ -254,8 +259,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-reporting/refs/heads/main/screenshots/workday-reporting-2026-06-20T201611.png
 security:
@@ -276,7 +281,7 @@ tags:
 - Analytics
 - Business Intelligence
 - Financial Reporting
-- HR Data
+- Hr Data
 - Reporting
 website: https://www.workday.com
 ---

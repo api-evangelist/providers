@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 0
@@ -32,48 +32,93 @@ agentic_access:
   operation_count: 221
   slug: domain-group-agentic-access
   summary_line: 221 operations · 76 acting
-api_count: 13
+api_count: 3
 apis:
-- description: Search for valid Australian property addresses and resolve them to Domain property identifiers. Backed by GET /v1/properties/_suggest and GET /v1/addressLocators. Requires the api_properties_read or a
-  name: Domain Address Suggestions API
-  slug: domain-address-suggestions-api
-- description: Access data on agencies, agents, and for-sale, for-rent, commercial, business, and project listings directly from Domain. Covers agency and agent search and profiles, residential/commercial/business l
-  name: Domain Agents & Listings API
-  slug: domain-agents-listings-api
-- description: Lets authenticated media agencies retrieve advertising campaign performance metrics for Domain listings and developer projects, via GET /v1/campaign/listing-performance and GET /v1/campaign/project-pe
-  name: Domain Campaign API
-  slug: domain-campaign-api
-- description: Preview channel of the Campaign API, giving authorised media agencies early access to campaign performance metrics ahead of general release. Documented as a separate API package on the Domain develope
-  name: Domain Campaign API - Preview
-  slug: domain-campaign-api-preview
-- description: 'View, create, and update residential, commercial, business, project, and off-market listings on domain.com.au, and manage the resulting enquiries, listing reports, and performance statistics. This is '
-  name: Domain Listings Management API
-  slug: domain-listings-management-api
-- description: Returns the current automated price estimate for a Domain property identifier via GET /v1/properties/{propertyId}/priceEstimate, including lower, mid, and upper price, a confidence indicator, and esti
-  name: Domain Price Estimation API
-  slug: domain-price-estimation-api
-- description: Property records, address locators, location profiles, weekend auction and sales results, suburb performance and historical statistics, and suburb demographics. Granted automatically on signup along w
-  name: Domain Properties & Locations API
-  slug: domain-properties-locations-api
-- description: Enhances a known property with additional Domain-held detail through GET /v1/propertyenrichment, alongside the v2 property features and zoning/perils endpoints. Sold as a separate API package.
-  name: Domain Property Enrichment API
-  slug: domain-property-enrichment-api
-- description: A bundled package giving comprehensive property coverage in one subscription - address suggestion, property records, price estimates, residential listing search, location profiles, project data, schoo
-  name: Domain Property Package API
-  slug: domain-property-package-api
-- description: Create and manage watchlist portfolios of properties and read them back in summary or full form, including lookup by G-NAF address identifier. Covers POST/GET/DELETE on /v1/propertyradar/portfolio and
-  name: Domain PropertyRadar API
-  slug: domain-propertyradar-api
-- description: Automated rental estimates for a Domain property identifier via GET /v1/properties/{propertyId}/rentalEstimate, plus the /v1/avm and /v1/avmReport endpoints. Requires the api_avm_read scope.
-  name: Domain Rental AVM API
-  slug: domain-rental-avm-api
-- description: Detailed information on Australian schools, retrievable by school identifier (GET /v2/schools/{id}) or by latitude and longitude (GET /v2/schools/{latitude}/{longitude}) for school-catchment style pro
-  name: Domain Schools Data API
-  slug: domain-schools-data-api
-- description: Subscription management for push notifications when data changes in the Domain system. Create, read, list, and delete webhook subscriptions via /v1/webhooks/{id}/subscriptions and /v1/subscriptions/{i
-  name: Domain Webhooks API
-  slug: domain-webhooks-api
-artifact_total: 23
+- description: The AddressLocators API from Domain Group — 1 operation(s) for addresslocators.
+  name: Domain Group Address Locators API
+  slug: domain-group-addresslocators-api
+- description: The Agencies API from Domain Group — 5 operation(s) for agencies.
+  name: Domain Group Agencies API
+  slug: domain-group-agencies-api
+- description: The Agents API from Domain Group — 4 operation(s) for agents.
+  name: Domain Group Agents API
+  slug: domain-group-agents-api
+- description: The Authorities API from Domain Group — 6 operation(s) for authorities.
+  name: Domain Group Authorities API
+  slug: domain-group-authorities-api
+- description: The CampaignReporting API from Domain Group — 2 operation(s) for campaignreporting.
+  name: Domain Group Campaign Reporting API
+  slug: domain-group-campaignreporting-api
+- description: The Dataset API from Domain Group — 1 operation(s) for dataset.
+  name: Domain Group Dataset API
+  slug: domain-group-dataset-api
+- description: The Demographics API from Domain Group — 1 operation(s) for demographics.
+  name: Domain Group Demographics API
+  slug: domain-group-demographics-api
+- description: The Disclaimers API from Domain Group — 2 operation(s) for disclaimers.
+  name: Domain Group Disclaimers API
+  slug: domain-group-disclaimers-api
+- description: The Enquiries API from Domain Group — 2 operation(s) for enquiries.
+  name: Domain Group Enquiries API
+  slug: domain-group-enquiries-api
+- description: The Leadscope API from Domain Group — 2 operation(s) for leadscope.
+  name: Domain Group Leadscope API
+  slug: domain-group-leadscope-api
+- description: The Listings API from Domain Group — 18 operation(s) for listings.
+  name: Domain Group Listings API
+  slug: domain-group-listings-api
+- description: The ListingSearch API from Domain Group — 2 operation(s) for listingsearch.
+  name: Domain Group Listing Search API
+  slug: domain-group-listingsearch-api
+- description: The Locations API from Domain Group — 1 operation(s) for locations.
+  name: Domain Group Locations API
+  slug: domain-group-locations-api
+- description: The Me API from Domain Group — 3 operation(s) for me.
+  name: Domain Group Me API
+  slug: domain-group-me-api
+- description: The PreMarket API from Domain Group — 2 operation(s) for premarket.
+  name: Domain Group Pre Market API
+  slug: domain-group-premarket-api
+- description: The Products API from Domain Group — 8 operation(s) for products.
+  name: Domain Group Products API
+  slug: domain-group-products-api
+- description: The Projects API from Domain Group — 6 operation(s) for projects.
+  name: Domain Group Projects API
+  slug: domain-group-projects-api
+- description: The Properties API from Domain Group — 10 operation(s) for properties.
+  name: Domain Group Properties API
+  slug: domain-group-properties-api
+- description: The PropertyAvm API from Domain Group — 2 operation(s) for propertyavm.
+  name: Domain Group Property Avm API
+  slug: domain-group-propertyavm-api
+- description: The PropertyFeatures API from Domain Group — 1 operation(s) for propertyfeatures.
+  name: Domain Group Property Features API
+  slug: domain-group-propertyfeatures-api
+- description: The PropertyLike API from Domain Group — 1 operation(s) for propertylike.
+  name: Domain Group Property Like API
+  slug: domain-group-propertylike-api
+- description: The PropertyRadar API from Domain Group — 7 operation(s) for propertyradar.
+  name: Domain Group Property Radar API
+  slug: domain-group-propertyradar-api
+- description: The PropertySearch API from Domain Group — 1 operation(s) for propertysearch.
+  name: Domain Group Property Search API
+  slug: domain-group-propertysearch-api
+- description: The PropertyZoningPerils API from Domain Group — 1 operation(s) for propertyzoningperils.
+  name: Domain Group Property Zoning Perils API
+  slug: domain-group-propertyzoningperils-api
+- description: The SalesResults API from Domain Group — 5 operation(s) for salesresults.
+  name: Domain Group Sales Results API
+  slug: domain-group-salesresults-api
+- description: The Schools API from Domain Group — 2 operation(s) for schools.
+  name: Domain Group Schools API
+  slug: domain-group-schools-api
+- description: The Statistics API from Domain Group — 6 operation(s) for statistics.
+  name: Domain Group Statistics API
+  slug: domain-group-statistics-api
+- description: The Webhooks API from Domain Group — 2 operation(s) for webhooks.
+  name: Domain Group Webhooks API
+  slug: domain-group-webhooks-api
+artifact_total: 38
 asyncapis:
 - description: Event surface for the Domain Public API. Domain does not publish an AsyncAPI document; this one is generated by API Evangelist strictly from Domain's published webhook documentation at https://develop
   name: Domain Group Webhooks
@@ -92,6 +137,10 @@ collections:
   name: Domain Public API
   slug: open-domain-group-openapi-v2
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/domain-group-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -310,13 +359,13 @@ modified: '2026-07-26'
 name: Domain Group
 nav: Providers
 network: true
-overview: 'Domain Group publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Domain Address Suggestions API, Domain Agents & Listings API, Domain Campaign API, and 10 more. Tagged areas include Real-Estate, Australia, Property Listings, Property Data, and Valuation.
+overview: 'Domain Group publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Address Locators API, Agencies API, Agents API, and 25 more. Tagged areas include Real-Estate, Australia, Property Listings, Property Data, and Valuation.
 
 
   The Domain Group catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Domain Group''s developer surface includes authentication, documentation, API reference, signup flow, getting-started guide, sandbox, support, and 44 more developer resources.'
+  Domain Group''s developer surface includes authentication, documentation, API reference, signup flow, getting-started guide, sandbox, support, and 45 more developer resources.'
 random_paper: 16
 scopes:
 - name: Domain Group Scopes
@@ -325,18 +374,23 @@ scopes:
   summary_line: 25 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 48.2
+  composite: 44.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 16.7
-    contract_quality: 62.8
+    contract_governance: 4.5
+    contract_quality: 62.6
     developer_ergonomics: 63.7
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 59.3
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 48.2
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -347,8 +401,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domain-group/refs/heads/main/screenshots/domain-group-2026-07-27T125337.png
 security:

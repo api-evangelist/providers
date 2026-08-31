@@ -23,13 +23,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: Beta REST API for PVcase Prospect, published as the "Anderson Optimization API" (OpenAPI 3.0.3, version 1.0.0-beta) in the PVcase Prospect documentation. It exposes teams, companies, projects and geos
-  name: PVcase Prospect API (Anderson Optimization API)
-  slug: pvcase-prospect-api
-artifact_total: 7
+- description: The Asset API from PVcase — 14 operation(s) for asset.
+  name: PVcase Asset API
+  slug: pvcase-asset-api
+- description: The Company API from PVcase — 9 operation(s) for company.
+  name: PVcase Company API
+  slug: pvcase-company-api
+- description: The Project API from PVcase — 12 operation(s) for project.
+  name: PVcase Project API
+  slug: pvcase-project-api
+- description: The Team API from PVcase — 2 operation(s) for team.
+  name: PVcase Team API
+  slug: pvcase-team-api
+artifact_total: 10
 common:
 - group: auth
   title: ''
@@ -143,7 +152,7 @@ modified: '2026-08-26'
 name: PVcase
 nav: Providers
 network: true
-overview: 'PVcase publishes 1 API on the [APIs.io](https://apis.io/) network: Prospect API (Anderson Optimization API). Tagged areas include Solar, Energy, Renewable Energy, Photovoltaic, and Geospatial.
+overview: 'PVcase publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Asset API, Company API, Project API, and 1 more. Tagged areas include Solar, Energy, Renewable Energy, Photovoltaic, and Geospatial.
 
 
   PVcase''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 19 more developer resources.'
@@ -158,16 +167,23 @@ rate_limits:
   slug: pvcase-rate-limits
 score:
   band: developing
-  composite: 49.1
+  composite: 47.3
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 12.1
-    contract_quality: 48.3
+    contract_governance: 0.0
+    contract_quality: 47.1
     developer_ergonomics: 49.4
     discoverability: 75.9
-    governance: 12.1
+    governance: 0.0
     operational_transparency: 15.8
+  previous_composite: 47.9
   provenance:
     conformance: derived
     mcp: derived
@@ -178,8 +194,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 35.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Pvcase Authentication

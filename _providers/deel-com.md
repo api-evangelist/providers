@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 93
   slug: deel-com-agentic-access
   summary_line: 93 operations · 40 acting
-api_count: 39
+api_count: 8
 apis:
 - description: Gross-to-net payroll adjustments — bonuses, deductions, one-time payments
   name: Deel Adjustments API
@@ -308,6 +308,10 @@ collections:
   name: Deel Webhooks API
   slug: open-deel-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/deel-com-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -509,7 +513,7 @@ overview: 'Deel publishes 39 APIs on the [APIs.io](https://apis.io/) network, in
   The Deel catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Deel''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, engineering blog, pricing, and 26 more developer resources.'
+  Deel''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, engineering blog, pricing, and 27 more developer resources.'
 plans:
 - name: Deel Com Plans Pricing
   plan_count: 15
@@ -533,6 +537,11 @@ rules:
 score:
   band: strong
   composite: 55.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -551,8 +560,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deel-com/refs/heads/main/screenshots/deel-com-2026-06-20T175806.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: packagist-agentic-access
   summary_line: 13 operations · 3 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Composer v2 static metadata and change tracking.
   name: Packagist Metadata API
@@ -330,18 +330,26 @@ rules:
   slug: packagist-rules
 score:
   band: developing
-  composite: 47.4
-  delta: 2.7
+  composite: 42.2
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 30.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
     contract_governance: 28.8
     contract_quality: 67.1
     developer_ergonomics: 45.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 44.7
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -349,8 +357,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packagist/refs/heads/main/screenshots/packagist-2026-06-20T191311.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,11 +43,8 @@ agentic_access:
   operation_count: 0
   slug: columbia-agentic-access
   summary_line: 0 operations
-api_count: 10
+api_count: 1
 apis:
-- description: 'The only institution-operated, publicly consumable, unauthenticated API found anywhere in Columbia University''s estate. Two read operations: which library locations are open right now, and the posted '
-  name: Columbia University Libraries Hours API
-  slug: library-hours
 - description: 'Columbia University Information Technology operates the university''s own identity infrastructure: a production Shibboleth Identity Provider publishing signed SAML 2.0 metadata anonymously under the In'
   name: Columbia Identity — Shibboleth IdP and CAS
   slug: identity
@@ -75,6 +72,9 @@ apis:
 - description: Columbia's research data platform runs on Redivis as an institution-specific tenancy, and the university has registered two distinct DataCite repository clients against it — CUL.CUIT "Columbia Univers
   name: Columbia University Data Platform (Redivis)
   slug: redivis
+- description: Library locations and their posted opening hours.
+  name: Columbia University Locations API
+  slug: columbia-locations-api
 artifact_total: 27
 common:
 - group: company
@@ -233,7 +233,7 @@ modified: '2026-08-19'
 name: Columbia University
 nav: Providers
 network: true
-overview: 'Columbia University publishes 1 API on the [APIs.io](https://apis.io/) network: Libraries Hours API. Tagged areas include University, Higher Education, Education, Ivy League, and Private Research University.
+overview: 'Columbia University publishes 1 API on the [APIs.io](https://apis.io/) network: Locations API. Tagged areas include University, Higher Education, Education, Ivy League, and Private Research University.
 
 
   The Columbia University catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -267,18 +267,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.3
-  delta: 4.5
+  composite: 44.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 3.8
     contract_quality: 69.4
     developer_ergonomics: 31.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 3.8
     operational_transparency: 23.7
-  previous_composite: 40.8
+  previous_composite: 45.3
   provenance:
     agentic_access: first-party
     conformance: first-party
@@ -293,8 +298,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/columbia/refs/heads/main/screenshots/columbia-2026-06-20T174808.png
 security:

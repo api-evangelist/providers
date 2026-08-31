@@ -32,10 +32,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Fission-AI/OpenSpec/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Fission-AI/OpenSpec/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Fission-AI/OpenSpec/blob/main/SECURITY.md
 - group: commercial
   title: ''
   type: License
@@ -111,11 +123,16 @@ network: true
 overview: 'Openspec is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Spec-Driven Development, AI Coding Assistants, Developer Tools, CLI, and Specifications.
 
 
-  Openspec''s developer surface includes documentation, getting-started guide, API reference, changelog, support, CLI, and 10 more developer resources.'
+  Openspec''s developer surface includes documentation, getting-started guide, API reference, changelog, support, CLI, and 13 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 16.2
+  composite: 21.8
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -125,10 +142,13 @@ score:
     developer_ergonomics: 40.5
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 18.4
-  previous_composite: 16.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 60.0
+  previous_composite: 21.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openspec/refs/heads/main/screenshots/openspec-2026-08-07T190640.png
 security:

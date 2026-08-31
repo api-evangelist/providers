@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 43
   slug: openhands-agentic-access
   summary_line: 43 operations · 15 acting · 2 human-in-the-loop
-api_count: 14
+api_count: 1
 apis:
 - description: Composable Python SDK for defining, running, and orchestrating agents locally or scaled to thousands in the cloud. Source at github.com/All-Hands-AI/agent-sdk.
   name: OpenHands Agent SDK
@@ -268,15 +268,20 @@ rate_limits:
   slug: openhands-rate-limits
 score:
   band: developing
-  composite: 44.8
-  delta: 0.0
+  composite: 44.3
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 52.0
     developer_ergonomics: 57.1
-    discoverability: 63.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 31.6
   needs_work:
@@ -293,8 +298,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/screenshots/openhands-2026-06-20T191005.png
 security:

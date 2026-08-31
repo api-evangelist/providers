@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -33,15 +33,49 @@ agentic_access:
   summary_line: 38 operations · 23 acting
 api_count: 1
 apis:
-- description: The FinditParts Reseller API allows you to search parts inventory, create and integrate FinditParts accounts, quote shipping rates for orders, and place orders on behalf of linked FinditParts users. I
-  name: FinditParts Reseller API
-  slug: finditparts-reseller-api
-artifact_total: 46
+- description: Shipping and billing address book for a user-specific session.
+  name: FinditParts Addresses API
+  slug: finditparts-addresses-api
+- description: 'Draft-order (cart) lifecycle: line items, addresses, shipping method, coupon, PO number and checkout.'
+  name: FinditParts Carts API
+  slug: finditparts-carts-api
+- description: Order listing, search and detail for a user-specific session.
+  name: FinditParts Orders API
+  slug: finditparts-orders-api
+- description: Partner API-key surface for white-label shipping quotes and order placement.
+  name: FinditParts Partners API
+  slug: finditparts-partners-api
+- description: Part search, part-number lookup and product/variant detail across the FinditParts catalog.
+  name: FinditParts Products API
+  slug: finditparts-products-api
+- description: Hosted USER_SETUP and NEW_ORDER sessions returned as a finditparts.com redirect_url for iframe embedding or redirect.
+  name: FinditParts Reseller Customer Sessions API
+  slug: finditparts-reseller-customer-sessions-api
+- description: Sub-users created on a reseller master account and addressed by customer_reference.
+  name: FinditParts Reseller Customers API
+  slug: finditparts-reseller-customers-api
+- description: User-specific JWT session creation, refresh, inspection and destruction.
+  name: FinditParts Sessions API
+  slug: finditparts-sessions-api
+- description: Shipping method quoting and estimated cost for a proposed set of line items and an address.
+  name: FinditParts Shipping API
+  slug: finditparts-shipping-api
+- description: Direct FinditParts user creation for API-key clients.
+  name: FinditParts Users API
+  slug: finditparts-users-api
+- description: Variant-level price, quantity, cutoff and core lookups.
+  name: FinditParts Variants API
+  slug: finditparts-variants-api
+artifact_total: 56
 collections:
 - collection_type: open
   name: FinditParts Reseller API
   slug: open-finditparts-reseller-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/finditparts-reseller-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -285,10 +319,10 @@ modified: '2026-08-12'
 name: FinditParts
 nav: Providers
 network: true
-overview: 'FinditParts publishes 1 API on the [APIs.io](https://apis.io/) network: Reseller API. Tagged areas include Company, E-Commerce, Marketplace, Automotive, and Parts.
+overview: 'FinditParts publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Carts API, Orders API, and 8 more. Tagged areas include Company, E-Commerce, Marketplace, Automotive, and Parts.
 
 
-  FinditParts'' developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, code examples, and 22 more developer resources.'
+  FinditParts'' developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, code examples, and 23 more developer resources.'
 plans:
 - name: Finditparts Plans Pricing
   plan_count: 0
@@ -300,18 +334,23 @@ rate_limits:
   slug: finditparts-rate-limits
 score:
   band: developing
-  composite: 42.4
-  delta: 0.0
+  composite: 40.9
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 61.0
     developer_ergonomics: 51.8
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 42.4
+  previous_composite: 41.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -322,8 +361,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finditparts/refs/heads/main/screenshots/finditparts-2026-08-17T080926.png
 security:

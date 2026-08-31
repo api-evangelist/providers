@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: fundamental-research-labs-agentic-access
   summary_line: 10 operations · 3 acting
-api_count: 3
+api_count: 1
 apis:
 - description: API key authentication and verification
   name: Fundamental Research Labs Authentication API
@@ -243,18 +243,23 @@ rate_limits:
   slug: fundamental-research-labs-rate-limits
 score:
   band: strong
-  composite: 64.4
-  delta: 1.3
+  composite: 62.4
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 56.5
     developer_ergonomics: 70.8
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 63.1
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -265,8 +270,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/screenshots/fundamental-research-labs-2026-07-25T215308.png
 security:

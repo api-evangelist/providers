@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 35.8
-  scored_at: '2026-08-26'
+  score: 33.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -31,12 +31,87 @@ agentic_access:
   operation_count: 100
   slug: dotfile-agentic-access
   summary_line: 100 operations · 57 acting
-api_count: 1
+api_count: 27
 apis:
-- description: 'REST API covering the full business-verification lifecycle: create a case with its companies, individuals and relations, launch checks by template or one at a time, read results, record a review verdi'
-  name: Dotfile API
-  slug: dotfile-api
-artifact_total: 8
+- description: The Activities API from Dotfile — 1 operation(s) for activities.
+  name: Dotfile Activities API
+  slug: dotfile-activities-api
+- description: The AML check API from Dotfile — 5 operation(s) for aml check.
+  name: Dotfile AML check API
+  slug: dotfile-aml-check-api
+- description: The Cases API from Dotfile — 10 operation(s) for cases.
+  name: Dotfile Cases API
+  slug: dotfile-cases-api
+- description: The Checks API from Dotfile — 2 operation(s) for checks.
+  name: Dotfile Checks API
+  slug: dotfile-checks-api
+- description: The Client portal API from Dotfile — 3 operation(s) for client portal.
+  name: Dotfile Client portal API
+  slug: dotfile-client-portal-api
+- description: The Companies API from Dotfile — 4 operation(s) for companies.
+  name: Dotfile Companies API
+  slug: dotfile-companies-api
+- description: The Company data API from Dotfile — 6 operation(s) for company data.
+  name: Dotfile Company data API
+  slug: dotfile-company-data-api
+- description: The Company Monitoring check API from Dotfile — 1 operation(s) for company monitoring check.
+  name: Dotfile Company Monitoring check API
+  slug: dotfile-company-monitoring-check-api
+- description: The Custom properties API from Dotfile — 2 operation(s) for custom properties.
+  name: Dotfile Custom properties API
+  slug: dotfile-custom-properties-api
+- description: The Document check API from Dotfile — 6 operation(s) for document check.
+  name: Dotfile Document check API
+  slug: dotfile-document-check-api
+- description: The eKYC check API from Dotfile — 3 operation(s) for ekyc check.
+  name: Dotfile eKYC check API
+  slug: dotfile-ekyc-check-api
+- description: The Electronic Signature check API from Dotfile — 3 operation(s) for electronic signature check.
+  name: Dotfile Electronic Signature check API
+  slug: dotfile-electronic-signature-check-api
+- description: The Files API from Dotfile — 2 operation(s) for files.
+  name: Dotfile Files API
+  slug: dotfile-files-api
+- description: The Fraud database check API from Dotfile — 3 operation(s) for fraud database check.
+  name: Dotfile Fraud database check API
+  slug: dotfile-fraud-database-check-api
+- description: The ID Document check API from Dotfile — 4 operation(s) for id document check.
+  name: Dotfile ID Document check API
+  slug: dotfile-id-document-check-api
+- description: The ID Verification check API from Dotfile — 4 operation(s) for id verification check.
+  name: Dotfile ID Verification check API
+  slug: dotfile-id-verification-check-api
+- description: The Individuals API from Dotfile — 3 operation(s) for individuals.
+  name: Dotfile Individuals API
+  slug: dotfile-individuals-api
+- description: The Notes API from Dotfile — 2 operation(s) for notes.
+  name: Dotfile Notes API
+  slug: dotfile-notes-api
+- description: The Online Reputation check API from Dotfile — 3 operation(s) for online reputation check.
+  name: Dotfile Online Reputation check API
+  slug: dotfile-online-reputation-check-api
+- description: The Ping API from Dotfile — 1 operation(s) for ping.
+  name: Dotfile Ping API
+  slug: dotfile-ping-api
+- description: The Routines API from Dotfile — 1 operation(s) for routines.
+  name: Dotfile Routines API
+  slug: dotfile-routines-api
+- description: The Tables API from Dotfile — 2 operation(s) for tables.
+  name: Dotfile Tables API
+  slug: dotfile-tables-api
+- description: The Tags API from Dotfile — 3 operation(s) for tags.
+  name: Dotfile Tags API
+  slug: dotfile-tags-api
+- description: The Templates API from Dotfile — 3 operation(s) for templates.
+  name: Dotfile Templates API
+  slug: dotfile-templates-api
+- description: The Users API from Dotfile — 2 operation(s) for users.
+  name: Dotfile Users API
+  slug: dotfile-users-api
+- description: The Webhooks API from Dotfile — 3 operation(s) for webhooks.
+  name: Dotfile Webhooks API
+  slug: dotfile-webhooks-api
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Dotfile Webhooks
@@ -182,7 +257,7 @@ modified: '2026-08-17'
 name: Dotfile
 nav: Providers
 network: true
-overview: 'Dotfile publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include KYB, KYC, AML, Business Verification, and Identity Verification.
+overview: 'Dotfile publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Activities API, AML check API, Cases API, and 23 more. Tagged areas include kyb, kyc, AML, business-verification, and Identity Verification.
 
 
   The Dotfile catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -200,18 +275,23 @@ rate_limits:
   slug: dotfile-rate-limits
 score:
   band: developing
-  composite: 50.9
+  composite: 48.8
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
-    contract_governance: 16.7
-    contract_quality: 68.3
+    contract_governance: 4.5
+    contract_quality: 67.8
     developer_ergonomics: 47.0
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 51.3
-  previous_composite: 50.9
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -222,8 +302,8 @@ score:
       total: 26
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -240,21 +320,21 @@ security:
   summary_line: SOC 2, GDPR
 slug: dotfile
 tags:
-- KYB
-- KYC
+- kyb
+- kyc
 - AML
-- Business Verification
+- business-verification
 - Identity Verification
 - Compliance
-- RegTech
+- regtech
 - Onboarding
-- Sanctions Screening
-- Document Verification
-- Fraud Detection
-- Company Data
-- Beneficial Ownership
-- Case Management
-- Electronic Signature
+- sanctions-screening
+- document-verification
+- fraud-detection
+- company-data
+- beneficial-ownership
+- case-management
+- electronic-signature
 - Webhook
 website: https://www.dotfile.com/
 ---

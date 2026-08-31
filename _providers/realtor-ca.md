@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -31,21 +31,33 @@ agentic_access:
   operation_count: 34
   slug: realtor-ca-agentic-access
   summary_line: 34 operations · 2 acting
-api_count: 4
+api_count: 2
 apis:
-- description: The REALTOR.ca Data Distribution Facility (DDF®) Web API is CREA's national listing distribution surface, exposed as OData v4-style read endpoints over Property, Member, Office, OpenHouse and Destinat
-  name: REALTOR.ca DDF Web API
-  slug: realtor-ca-ddf-web-api
-- description: The DDF® Lead API accepts an email lead for a REALTOR® from a downstream site. Because member email addresses are deliberately excluded from the DDF® Web API payloads, real estate advertising websites
-  name: REALTOR.ca DDF Lead API
-  slug: realtor-ca-ddf-lead-api
 - description: A fire-and-forget listing-event logging service documented inside the DDF® Web API documentation. Sites and applications displaying DDF® listings call it to record View, Click and email_realtor events
   name: CREA Analytics Web Service
   slug: crea-analytics-web-service
 - description: CREA's OAuth 2.0 / OpenID Connect authorization server at identity.crea.ca, which issues the access tokens every DDF® Web API call requires. Its discovery document is served anonymously and advertises
   name: CREA Identity Server
   slug: crea-identity-server
-artifact_total: 12
+- description: Get details about each destination linked to the Technology Provider
+  name: REALTOR.ca Destination API
+  slug: realtor-ca-destination-api
+- description: Create Lead
+  name: REALTOR.ca Lead API
+  slug: realtor-ca-lead-api
+- description: Get Members
+  name: REALTOR.ca Member API
+  slug: realtor-ca-member-api
+- description: Get Offices
+  name: REALTOR.ca Office API
+  slug: realtor-ca-office-api
+- description: The OpenHouse API from REALTOR.ca — 2 operation(s) for openhouse.
+  name: REALTOR.ca Open House API
+  slug: realtor-ca-openhouse-api
+- description: Get Properties
+  name: REALTOR.ca Property API
+  slug: realtor-ca-property-api
+artifact_total: 16
 collections:
 - collection_type: open
   name: REALTOR.ca DDF® Web API Documentation
@@ -54,6 +66,22 @@ collections:
   name: REALTOR.ca DDF® Web API Documentation
   slug: open-realtor-ca-ddf-web-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/realtor-ca-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/realtor-ca-ddf-web-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/realtor-ca-ddf-web-api-docs-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/realtor-ca-submit-realtor-lead.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -215,10 +243,10 @@ modified: '2026-07-26'
 name: REALTOR.ca
 nav: Providers
 network: true
-overview: 'REALTOR.ca publishes 2 APIs on the [APIs.io](https://apis.io/) network: DDF Web API and DDF Lead API. Tagged areas include Real-Estate, Canada, Property Listings, MLS, and RESO.
+overview: 'REALTOR.ca publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Destination API, Lead API, Member API, and 3 more. Tagged areas include Real-Estate, Canada, Property Listings, MLS, and RESO.
 
 
-  REALTOR.ca''s developer surface includes documentation, API reference, getting-started guide, legal docs, support, engineering blog, changelog, and 30 more developer resources.'
+  REALTOR.ca''s developer surface includes documentation, API reference, getting-started guide, legal docs, support, engineering blog, changelog, and 34 more developer resources.'
 random_paper: 15
 scopes:
 - name: Realtor Ca Scopes
@@ -227,18 +255,23 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 35.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 41.0
+    contract_governance: 4.5
+    contract_quality: 43.7
     developer_ergonomics: 49.4
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 38.3
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -249,8 +282,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

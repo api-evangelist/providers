@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -503,7 +503,7 @@ modified: '2026-05-29'
 name: Stack Exchange
 nav: Providers
 network: true
-overview: 'Stack Exchange publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Answers API, Badges API, and 13 more. Tagged areas include Q&A, Developer Community, Knowledge Graph, Stack Overflow, and Stack Exchange.
+overview: 'Stack Exchange publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Answers API, Badges API, and 13 more. Tagged areas include Q And A, Developer Community, Knowledge Graph, Stack Overflow, and Stack Exchange.
 
 
   The Stack Exchange catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -548,18 +548,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.3
-  delta: 6.0
+  composite: 47.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 30.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
     contract_governance: 28.8
-    contract_quality: 20.4
+    contract_quality: 20.8
     developer_ergonomics: 54.8
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 41.3
+  previous_composite: 47.4
   provenance:
     agentic_access: derived
     contracts:
@@ -567,9 +572,9 @@ score:
       derived: 16
       marker_coverage: 100.0
       total: 16
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackexchange/refs/heads/main/screenshots/stackexchange-2026-06-20T194445.png
 security:
 - kind: authentication
@@ -582,7 +587,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: stackexchange
 tags:
-- Q&A
+- Q And A
 - Developer Community
 - Knowledge Graph
 - Stack Overflow

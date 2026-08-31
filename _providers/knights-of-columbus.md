@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
 common:
@@ -48,10 +48,10 @@ description: Knights of Columbus is the world's largest Catholic fraternal servi
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/knights-of-columbus.png
 layout: provider
 modified: '2026-04-28'
-name: knights-of-columbus
+name: Knights of Columbus
 nav: Providers
 network: true
-overview: knights-of-columbus is profiled on the [APIs.io](https://apis.io/) network.
+overview: Knights of Columbus is profiled on the [APIs.io](https://apis.io/) network.
 press:
 - date: '2026-05-25'
   title: As artificial intelligence (AI) rapidly advances, it has ...
@@ -72,6 +72,11 @@ random_paper: 5
 score:
   band: minimal
   composite: 2.6
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 101.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -93,8 +98,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: knights-of-columbus
 website: https://www.knights-of-columbus.com

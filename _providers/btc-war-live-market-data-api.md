@@ -23,18 +23,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: Read-only REST/HTTP JSON and JSON-LD API for live Binance Spot market snapshots and single-market observations across nine USDT pairs. Keyless, cached to at most 30 seconds, fail-closed on stale data.
-  name: BTC War Live Market Data API
-  slug: btc-war-live-market-data-api
+- description: Sourced and timestamped Binance Spot observations.
+  name: BTC War Live Market Data API Market data API
+  slug: btc-war-live-market-data-api-market-data-api
 artifact_total: 14
 collections:
 - collection_type: open
   name: BTC War Live Market Data API
   slug: open-btc-war-live-market-data-api-market-data
 common:
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://btcwar.net/mcp
 - group: docs
   title: ''
   type: OpenAPI
@@ -202,13 +206,13 @@ modified: '2026-08-11'
 name: BTC War Live Market Data API
 nav: Providers
 network: true
-overview: 'BTC War Live Market Data API publishes 1 API on the [APIs.io](https://apis.io/) network: BTC War Live Market Data API. Tagged areas include Finance, Cryptocurrency, Market Data, Bitcoin, and crypto-price.
+overview: 'BTC War Live Market Data API publishes 1 API on the [APIs.io](https://apis.io/) network: Market data API. Tagged areas include Finance, cryptocurrency, Market Data, bitcoin, and crypto-price.
 
 
   The BTC War Live Market Data API catalog on APIs.io includes 2 JSON-LD contexts.
 
 
-  BTC War Live Market Data API''s developer surface includes code examples, authentication, changelog, support, engineering blog, and 28 more developer resources.'
+  BTC War Live Market Data API''s developer surface includes code examples, authentication, changelog, support, engineering blog, and 29 more developer resources.'
 plans:
 - name: Btc War Live Market Data Api Plans Pricing
   plan_count: 1
@@ -220,18 +224,23 @@ rate_limits:
   slug: btc-war-live-market-data-api-rate-limits
 score:
   band: developing
-  composite: 47.7
-  delta: 1.9
+  composite: 47.9
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 44.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.5
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 31.8
+    contract_governance: 19.7
     contract_quality: 68.7
     developer_ergonomics: 35.7
-    discoverability: 75.9
-    governance: 31.8
+    discoverability: 92.6
+    governance: 19.7
     operational_transparency: 44.7
-  previous_composite: 45.8
+  previous_composite: 47.4
   provenance:
     agentic_access: unknown
     conformance: derived
@@ -248,8 +257,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 48.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/btc-war-live-market-data-api/refs/heads/main/screenshots/btc-war-live-market-data-api-2026-08-17T123059.png
 security:
@@ -268,21 +277,21 @@ security:
 slug: btc-war-live-market-data-api
 tags:
 - Finance
-- Cryptocurrency
+- cryptocurrency
 - Market Data
-- Bitcoin
+- bitcoin
 - crypto-price
 - binance-spot
-- Orderflow
+- order-flow
 - market-depth
-- JSON-LD
-- Schema.org
+- json-ld
+- schema.org
 - OpenAPI
 - MCP
 - Read Only
-- No Authentication
+- no-authentication
 - agent-native
-- Arazzo
-- JSON-Schema
-- AgentSkill
+- arazzo
+- json-schema
+- agent-skill
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 1
   slug: blast-network-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Public Ethereum-compatible JSON-RPC endpoint for Blast mainnet (chain ID 81457). Supports the standard eth_* method set used by web3 clients, wallets, and indexers.
   name: Blast Mainnet JSON-RPC
@@ -181,15 +181,20 @@ rate_limits:
   slug: blast-network-rate-limits
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 37.0
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 52.4
     developer_ergonomics: 35.7
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 37.6
@@ -200,8 +205,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blast-network/refs/heads/main/screenshots/blast-network-2026-06-20T173346.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 39
   slug: rye-agentic-access
   summary_line: 39 operations · 19 acting
-api_count: 13
+api_count: 1
 apis:
 - description: The Betas API from Rye — 1 operation(s) for betas.
   name: Rye Betas API
@@ -359,19 +359,24 @@ rate_limits:
   name: Rye Rate Limits
   slug: rye-rate-limits
 score:
-  band: exemplar
-  composite: 67.5
-  delta: 0.0
+  band: strong
+  composite: 64.3
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 65.9
     developer_ergonomics: 78.0
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 92.1
-  previous_composite: 67.5
+  previous_composite: 64.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -388,8 +393,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 60.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rye/refs/heads/main/screenshots/rye-2026-08-17T081702.png
 security:

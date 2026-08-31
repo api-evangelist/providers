@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 183
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 287
   slug: phrase-agentic-access
   summary_line: 287 operations · 183 acting
-api_count: 57
+api_count: 1
 apis:
 - description: The Accounts API from Phrase — 2 operation(s) for accounts.
   name: Phrase Accounts API
@@ -392,6 +392,10 @@ collections:
   name: Phrase Strings API Reference Accounts Webhooks API
   slug: open-phrase-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/phrase-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -467,7 +471,7 @@ network: true
 overview: 'Phrase publishes 57 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authorizations API, Automations API, and 54 more. Tagged areas include Content Management, Localization, Translation, Strings, and Internationalization.
 
 
-  Phrase''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, and 9 more developer resources.'
+  Phrase''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, and 10 more developer resources.'
 plans:
 - name: Phrase Plans Pricing
   plan_count: 3
@@ -479,18 +483,23 @@ rate_limits:
   slug: phrase-rate-limits
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 35.2
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 82.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 0.0
     contract_quality: 63.5
     developer_ergonomics: 31.0
-    discoverability: 75.9
+    discoverability: 51.9
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 37.6
+  previous_composite: 35.8
   provenance:
     agentic_access: derived
     contracts:
@@ -498,8 +507,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 57
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phrase/refs/heads/main/screenshots/phrase-2026-06-20T191657.png
 security:

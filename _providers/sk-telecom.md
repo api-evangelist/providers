@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -32,26 +32,8 @@ agentic_access:
   operation_count: 55
   slug: sk-telecom-agentic-access
   summary_line: 55 operations · 20 acting
-api_count: 15
+api_count: 6
 apis:
-- description: 'Korean text-to-speech built on SK Telecom''s own DNN speech-synthesis models and voice database, operated by SKT''s speech synthesis technology team. Three documented operations — list TTS models, list '
-  name: SK Telecom A.X TTS API
-  slug: sk-telecom-ax-tts-api
-- description: Face recognition and analysis API (published as "NUGU facecan"). Build a per-group, per-subject face database and then detect, recognize and extract landmarks from submitted JPEG images. Nine document
-  name: SK Telecom A. facecan API
-  slug: sk-telecom-facecan-api
-- description: Place congestion and visitor analytics derived from SK Telecom mobile network data, keyed to TMAP points of interest and to commercial AREA identifiers. Sixteen documented operations covering POI/area
-  name: SK Telecom Puzzle Place Congestion API
-  slug: sk-telecom-puzzle-place-congestion-api
-- description: Apartment-complex resident profile analytics derived from SK Telecom network data. Five documented operations returning the apartment complex list plus monthly statistics on resident age distribution,
-  name: SK Telecom Puzzle Residence API
-  slug: sk-telecom-puzzle-residence-api
-- description: Video and image analysis AI served from SK Telecom's sigmeta service. Seven documented operations covering an asynchronous analyzer lifecycle (create analyzer, upload file, start analyzer, get result)
-  name: SK Telecom META API
-  slug: sk-telecom-meta-api
-- description: OVS is SK Telecom's road-event alerting service. Twelve documented operations covering customer company lookup, registration/lookup/deletion of target devices, broadcast of alert messages to devices w
-  name: SK Telecom OVS API
-  slug: sk-telecom-ovs-api
 - description: Geovision is SK Telecom's flagship big-data API service, estimating floating population (footfall) from mobile network signalling. Documented on the SK open API portal; no downloadable OpenAPI was pub
   name: SK Telecom Geovision Floating Population API
   slug: sk-telecom-geovision-api
@@ -79,7 +61,76 @@ apis:
 - description: Quantum random number generation security chip and solution from SK Telecom, listed in the Authentication/Security category of the SK open API portal. Listed as a product rather than a documented REST
   name: SK Telecom QRNG
   slug: sk-telecom-qrng-api
-artifact_total: 26
+- description: The Apartment API from SK Telecom — 1 operation(s) for apartment.
+  name: SK Telecom Apartment API
+  slug: sk-telecom-apartment-api
+- description: The Area Info API from SK Telecom — 1 operation(s) for area info.
+  name: SK Telecom Area Info API
+  slug: sk-telecom-area-info-api
+- description: The Company API from SK Telecom — 4 operation(s) for company.
+  name: SK Telecom Company API
+  slug: sk-telecom-company-api
+- description: The Congestion API from SK Telecom — 6 operation(s) for congestion.
+  name: SK Telecom Congestion API
+  slug: sk-telecom-congestion-api
+- description: The Detect API from SK Telecom — 1 operation(s) for detect.
+  name: SK Telecom Detect API
+  slug: sk-telecom-detect-api
+- description: The Device API from SK Telecom — 2 operation(s) for device.
+  name: SK Telecom Device API
+  slug: sk-telecom-device-api
+- description: The Face API from SK Telecom — 2 operation(s) for face.
+  name: SK Telecom Face API
+  slug: sk-telecom-face-api
+- description: The Golf Swing Analyzer API from SK Telecom — 3 operation(s) for golf swing analyzer.
+  name: SK Telecom Golf Swing Analyzer API
+  slug: sk-telecom-golf-swing-analyzer-api
+- description: The Group API from SK Telecom — 2 operation(s) for group.
+  name: SK Telecom Group API
+  slug: sk-telecom-group-api
+- description: The Landmark API from SK Telecom — 1 operation(s) for landmark.
+  name: SK Telecom Landmark API
+  slug: sk-telecom-landmark-api
+- description: The License Plate Recognizer API from SK Telecom — 1 operation(s) for license plate recognizer.
+  name: SK Telecom License Plate Recognizer API
+  slug: sk-telecom-license-plate-recognizer-api
+- description: The Life style API from SK Telecom — 1 operation(s) for life style.
+  name: SK Telecom Life style API
+  slug: sk-telecom-life-style-api
+- description: The Message API from SK Telecom — 1 operation(s) for message.
+  name: SK Telecom Message API
+  slug: sk-telecom-message-api
+- description: The Place API from SK Telecom — 2 operation(s) for place.
+  name: SK Telecom Place API
+  slug: sk-telecom-place-api
+- description: The Pose Estimation API from SK Telecom — 3 operation(s) for pose estimation.
+  name: SK Telecom Pose Estimation API
+  slug: sk-telecom-pose-estimation-api
+- description: The Recognize API from SK Telecom — 1 operation(s) for recognize.
+  name: SK Telecom Recognize API
+  slug: sk-telecom-recognize-api
+- description: The Resident API from SK Telecom — 3 operation(s) for resident.
+  name: SK Telecom Resident API
+  slug: sk-telecom-resident-api
+- description: The Segmentation API from SK Telecom — 1 operation(s) for segmentation.
+  name: SK Telecom Segmentation API
+  slug: sk-telecom-segmentation-api
+- description: The Statistics API from SK Telecom — 3 operation(s) for statistics.
+  name: SK Telecom Statistics API
+  slug: sk-telecom-statistics-api
+- description: The Subject API from SK Telecom — 2 operation(s) for subject.
+  name: SK Telecom Subject API
+  slug: sk-telecom-subject-api
+- description: The Tts API from SK Telecom — 1 operation(s) for tts.
+  name: SK Telecom Tts API
+  slug: sk-telecom-tts-api
+- description: The Visit API from SK Telecom — 7 operation(s) for visit.
+  name: SK Telecom Visit API
+  slug: sk-telecom-visit-api
+- description: The Voice API from SK Telecom — 1 operation(s) for voice.
+  name: SK Telecom Voice API
+  slug: sk-telecom-voice-api
+artifact_total: 43
 collections:
 - collection_type: open
   name: A.X tts
@@ -100,6 +151,46 @@ collections:
   name: 주거 생활
   slug: open-sk-telecom-puzzle-residence
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sk-telecom-ax-tts-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sk-telecom-synthesize-korean-speech.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sk-telecom-facecan-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sk-telecom-enroll-and-recognize-a-face.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sk-telecom-puzzle-place-congestion-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sk-telecom-read-place-congestion.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sk-telecom-puzzle-residence-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sk-telecom-meta-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/sk-telecom-analyze-video-with-meta.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sk-telecom-ovs-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -274,10 +365,10 @@ modified: '2026-07-25'
 name: SK Telecom
 nav: Providers
 network: true
-overview: 'SK Telecom publishes 6 APIs on the [APIs.io](https://apis.io/) network, including A.X TTS API, A. facecan API, Puzzle Place Congestion API, and 3 more. Tagged areas include Telecommunications, South Korea, Mobile Network Operator, Network APIs, and CAMARA.
+overview: 'SK Telecom publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Apartment API, Area Info API, Company API, and 20 more. Tagged areas include Telecommunications, South Korea, Mobile Network Operator, Network APIs, and CAMARA.
 
 
-  SK Telecom''s developer surface includes authentication, signup flow, support, FAQ, engineering blog, documentation, changelog, and 33 more developer resources.'
+  SK Telecom''s developer surface includes authentication, signup flow, support, FAQ, engineering blog, documentation, changelog, and 43 more developer resources.'
 random_paper: 4
 rate_limits:
 - limit_count: 0
@@ -285,18 +376,23 @@ rate_limits:
   slug: sk-telecom-rate-limits
 score:
   band: developing
-  composite: 46.4
-  delta: 1.9
+  composite: 43.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 49.9
+    contract_governance: 4.5
+    contract_quality: 51.4
     developer_ergonomics: 56.5
-    discoverability: 83.3
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 44.5
+  previous_composite: 43.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -308,8 +404,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sk-telecom/refs/heads/main/screenshots/sk-telecom-2026-08-17T081910.png
 security:

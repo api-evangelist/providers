@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Automate and schedule predictive query training and batch predictions. Retrain a predictive query (re-ingesting data from the source), trigger recurring batch predictions, monitor job status and evalu
@@ -42,7 +42,7 @@ apis:
 - description: Open-source Model Context Protocol server that empowers AI assistants with KumoRFM. Builds, manages, and visualizes relational graphs directly from CSV or Parquet files, converts natural language into
   name: KumoRFM MCP Server
   slug: kumoai-rfm-mcp
-artifact_total: 9
+artifact_total: 8
 common:
 - group: operate
   title: ''
@@ -172,9 +172,6 @@ mcp_servers:
 - description: ''
   name: Kumo.AI MCP Server
   slug: kumoai-mcp-server
-- description: ''
-  name: Kumo.AI MCP Server
-  slug: kumoai-mcp-server-2
 modified: '2026-07-19'
 name: Kumo.AI
 nav: Providers
@@ -190,8 +187,13 @@ rate_limits:
   slug: kumoai-rate-limits
 score:
   band: thin
-  composite: 36.7
-  delta: 0.0
+  composite: 35.5
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.2
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -201,13 +203,16 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 60.5
+  open_source:
+    applies: true
+    score: 25.0
   previous_composite: 36.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kumoai/refs/heads/main/screenshots/kumoai-2026-07-25T224329.png
 security:

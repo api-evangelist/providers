@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: kissmetrics-agentic-access
   summary_line: 11 operations · 5 acting
-api_count: 2
+api_count: 17
 apis:
 - description: 'REST API for programmatic access to Kissmetrics reports, segments, events, properties and account metadata. Queries are asynchronous: a POST to /queries, /queries/report or /queries/metric returns a q'
   name: Kissmetrics REST API
@@ -232,19 +232,24 @@ rate_limits:
   name: Kissmetrics Rate Limits
   slug: kissmetrics-rate-limits
 score:
-  band: strong
-  composite: 54.3
-  delta: 0.0
+  band: developing
+  composite: 53.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 59.9
     developer_ergonomics: 53.6
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 54.3
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -255,8 +260,8 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kissmetrics/refs/heads/main/screenshots/kissmetrics-2026-06-20T184049.png
 security:

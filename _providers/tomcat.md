@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 21
   slug: tomcat-agentic-access
   summary_line: 21 operations · 1 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The Apache Tomcat JMX Proxy Servlet provides HTTP-based access to JMX MBeans for querying, getting, setting, and invoking operations on server management beans. Useful for server diagnostics, performa
   name: Apache Tomcat JMX Proxy API
@@ -99,6 +99,22 @@ collections:
   name: Apache Tomcat Manager Applications Status API
   slug: open-tomcat-status-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/tomcat/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/tomcat/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/tomcat/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -189,7 +205,7 @@ overview: 'Apache Tomcat publishes 7 APIs on the [APIs.io](https://apis.io/) net
   The Apache Tomcat catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Apache Tomcat''s developer surface includes authentication, documentation, changelog, and 11 more developer resources.'
+  Apache Tomcat''s developer surface includes authentication, documentation, changelog, and 15 more developer resources.'
 plans:
 - name: Tomcat Plans Pricing
   plan_count: 3
@@ -213,18 +229,26 @@ rules:
   slug: tomcat-rules
 score:
   band: developing
-  composite: 41.1
-  delta: 1.8
+  composite: 44.0
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 69.7
     contract_quality: 54.9
     developer_ergonomics: 21.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 69.7
     operational_transparency: 39.5
-  previous_composite: 39.3
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 44.5
   provenance:
     agentic_access: derived
     contracts:
@@ -232,8 +256,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tomcat/refs/heads/main/screenshots/tomcat-2026-06-20T195439.png
 security:

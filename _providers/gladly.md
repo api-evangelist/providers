@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 81
   slug: gladly-agentic-access
   summary_line: 81 operations · 40 acting
-api_count: 28
+api_count: 1
 apis:
 - description: Brand-hosted "Lookup" endpoint that Gladly calls outbound to enrich a conversation with first-party customer data. Lets brands keep system-of-record customer data in their own services while presentin
   name: Gladly Lookup API
@@ -263,6 +263,10 @@ collections:
   name: Gladly Agents Webhooks API
   slug: open-gladly-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gladly-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -563,7 +567,7 @@ overview: 'Gladly publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
   The Gladly catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Gladly''s developer surface includes authentication, developer portal, documentation, API reference, support, getting-started guide, pricing, and 17 more developer resources.'
+  Gladly''s developer surface includes authentication, developer portal, documentation, API reference, support, getting-started guide, pricing, and 18 more developer resources.'
 plans:
 - name: Gladly Plans Pricing
   plan_count: 7
@@ -597,18 +601,23 @@ rules:
   slug: gladly-rules
 score:
   band: strong
-  composite: 62.5
-  delta: 5.5
+  composite: 61.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 28.8
     contract_quality: 70.1
     developer_ergonomics: 85.7
-    discoverability: 59.3
+    discoverability: 53.7
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 57.0
+  previous_composite: 62.5
   provenance:
     agentic_access: derived
     contracts:
@@ -622,9 +631,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gladly/refs/heads/main/screenshots/gladly-2026-06-20T181857.png
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 10
   slug: department-of-the-treasury-agentic-access
   summary_line: 10 operations · 1 acting
-api_count: 11
+api_count: 2
 apis:
 - description: Public reference data on marketable Treasury securities (auctions, results, security details) published via TreasuryDirect.
   name: TreasuryDirect Securities API
@@ -112,6 +112,10 @@ collections:
   name: OFAC Sanctions List Service API
   slug: open-ofac-sdn-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/department-of-the-treasury-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -181,7 +185,7 @@ overview: 'Department of the Treasury publishes 8 APIs on the [APIs.io](https://
   The Department of the Treasury catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Department of the Treasury''s developer surface includes developer portal, documentation, engineering blog, and 5 more developer resources.'
+  Department of the Treasury''s developer surface includes developer portal, documentation, engineering blog, and 6 more developer resources.'
 plans:
 - name: Department Of The Treasury Plans Pricing
   plan_count: 1
@@ -214,18 +218,23 @@ rules:
   slug: treasury-rules
 score:
   band: thin
-  composite: 31.2
-  delta: 0.9
+  composite: 30.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 61.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 9.8
     contract_quality: 59.7
     developer_ergonomics: 28.6
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 30.3
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     contracts:
@@ -239,8 +248,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/screenshots/department-of-the-treasury-2026-06-20T175925.png
 security:

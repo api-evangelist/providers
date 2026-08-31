@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 383
   slug: cvent-event-cloud-agentic-access
   summary_line: 383 operations · 189 acting
-api_count: 42
+api_count: 2
 apis:
 - description: RESTful API for managing events, contacts, registrations, attendees, sessions, speakers, exhibitors, surveys, webhooks, and Attendee Hub data. Uses OAuth 2.0 client credentials. Authorization code flo
   name: Cvent Platform REST API (Event Cloud)
@@ -171,11 +171,50 @@ apis:
 - description: Webcasts are virtual or livestreaming components of your Cvent events. Use these APIs to integrate your virtual events from outside sources into your Cvent workflows, create and delete webcasts from w
   name: Cvent Event Cloud Webcasts API
   slug: cvent-event-cloud-webcasts-api
+- description: 'RegLink APIs allow you to exchange data with Cvent Passkey events and hotel reservation-booking engines. Generally, there are four primary categories of functionality that RegLink APIs support: * **Sy'
+  name: Cvent Event Cloud Housing API
+  slug: cvent-event-cloud-housing-api
+- description: APIs for managing hotel-related operations.
+  name: Cvent Event Cloud Housing Hotels API
+  slug: cvent-event-cloud-housing-hotels-api
+- description: When planning an event, meeting request forms are customizable online questionnaires to capture information about the event and facilitate the approval of events. When a meeting request form is submit
+  name: Cvent Event Cloud Meeting Request API
+  slug: cvent-event-cloud-meeting-request-api
+- description: Beta - All APIs are in Beta. Proposal Drafts are editable copies of proposals. This API allows you to edit proposal data privately before publishing.
+  name: Cvent Event Cloud Proposal Draft API
+  slug: cvent-event-cloud-proposal-draft-api
+- description: RFP additional details APIs for managing past event references and other miscellaneous RFP operations.
+  name: Cvent Event Cloud RFP Additional Details API
+  slug: cvent-event-cloud-rfp-additional-details-api
+- description: RFP (Request for Proposal) management APIs for core RFP operations including CRUD operations for base RFPs.
+  name: Cvent Event Cloud RFP Management API
+  slug: cvent-event-cloud-rfp-management-api
+- description: RFP requirements APIs for managing RFP-specific requirements including guest rooms, meeting rooms, custom questions, custom fields, and attachments (CRUD operations).
+  name: Cvent Event Cloud RFP Requirements API
+  slug: cvent-event-cloud-rfp-requirements-api
+- description: Suppliers are the venues and service providers that receive and respond to RFPs. Use these APIs to manage supplier associations, view recipient history, and create award details.
+  name: Cvent Event Cloud RFP Suppliers API
+  slug: cvent-event-cloud-rfp-suppliers-api
+- description: The travel account, or corporation that represents the demand-side of travel RFPs.
+  name: Cvent Event Cloud Travel Accounts API
+  slug: cvent-event-cloud-travel-accounts-api
+- description: The Travel RFP APIs provide access to travel programs and proposals. A travel program represents a request for proposal (RFP) that defines the specific travel needs and requirements of a travel accoun
+  name: Cvent Event Cloud Travel RFPs API
+  slug: cvent-event-cloud-travel-rfps-api
+- description: The Travel Supplier APIs provide access to Cvent data related to hotels, apartments, and other travel providers. This includes information related to properties, and sleeping rooms.
+  name: Cvent Event Cloud Travel Suppliers API
+  slug: cvent-event-cloud-travel-suppliers-api
+- description: Manage meeting rooms for a venue, including creating and updating room details, configuring capacities and amenities, and associating images.
+  name: Cvent Event Cloud Venue Meeting Rooms API
+  slug: cvent-event-cloud-venue-meeting-rooms-api
+- description: Manage venue profile details including type, contact information, address, and other venue properties.
+  name: Cvent Event Cloud Venue Profiles API
+  slug: cvent-event-cloud-venue-profiles-api
 arazzos:
 - description: Created from /Users/mkothari/git-cvent-public/rest-sdks/.speakeasy/temp/overlay_RizoNFXzgC.yaml
   name: Test Suite
   slug: cvent-event-cloud-sdk-tests.arazzo
-artifact_total: 95
+artifact_total: 108
 asyncapis:
 - description: ''
   name: Cvent Event Cloud Webhooks
@@ -308,6 +347,10 @@ collections:
   name: Cvent REST APIs — Event Cloud Webcasts API
   slug: open-cvent-event-cloud-webcasts-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cvent-event-cloud-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -517,13 +560,13 @@ modified: '2026-08-13'
 name: Cvent Event Cloud
 nav: Providers
 network: true
-overview: 'Cvent Event Cloud publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Contacts API, Events API, and 38 more. Tagged areas include Attendee Hub, Attendees, Bulk, Contacts, and Event Cloud.
+overview: 'Cvent Event Cloud publishes 54 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Contacts API, Events API, and 51 more. Tagged areas include Attendee Hub, Attendees, Bulk, Contacts, and Event Cloud.
 
 
   The Cvent Event Cloud catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cvent Event Cloud''s developer surface includes authentication, API reference, pricing, support, engineering blog, documentation, getting-started guide, and 41 more developer resources.'
+  Cvent Event Cloud''s developer surface includes authentication, API reference, pricing, support, engineering blog, documentation, getting-started guide, and 42 more developer resources.'
 plans:
 - name: Cvent Event Cloud Plans Pricing
   plan_count: 3
@@ -540,18 +583,23 @@ scopes:
   summary_line: 235 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 70.5
-  delta: 0.9
+  composite: 70.4
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 16.7
-    contract_quality: 72.1
+    contract_governance: 4.5
+    contract_quality: 72.2
     developer_ergonomics: 70.8
-    discoverability: 57.4
-    governance: 16.7
+    discoverability: 70.4
+    governance: 4.5
     operational_transparency: 81.6
-  previous_composite: 69.6
+  previous_composite: 70.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -562,8 +610,8 @@ score:
       total: 41
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-event-cloud/refs/heads/main/screenshots/cvent-event-cloud-2026-06-20T175402.png
 security:
@@ -593,7 +641,7 @@ tags:
 - Hybrid Events
 - MCP
 - Authentication
-- OnSite
+- Onsite
 - OpenAPI
 - Overlay
 - Registration

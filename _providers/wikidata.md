@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: wikidata-agentic-access
   summary_line: 11 operations · 5 acting
-api_count: 9
+api_count: 1
 apis:
 - description: The MediaWiki Action API provides batch entity retrieval, editing, and search for Wikidata via wbgetentities, wbsearchentities, wbeditentity, and other actions. Supports up to 50 entities per request.
   name: MediaWiki Action API
@@ -110,6 +110,18 @@ collections:
   name: Wikidata REST API & MediaWiki Descriptions Statements API
   slug: open-wikidata-statements-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/wikimedia/mediawiki/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/wikimedia/mediawiki/blob/master/SECURITY
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/wikimedia/mediawiki/blob/master/CODE_OF_CONDUCT.md
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -333,7 +345,7 @@ overview: 'Wikidata publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The Wikidata catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Wikidata''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 16 more developer resources.'
+  Wikidata''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 19 more developer resources.'
 plans:
 - name: Wikidata Plans Pricing
   plan_count: 2
@@ -372,18 +384,26 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.3
-  delta: 4.8
+  composite: 60.8
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 28.8
     contract_quality: 70.7
     developer_ergonomics: 66.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
-    operational_transparency: 26.3
-  previous_composite: 55.5
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 61.3
   provenance:
     agentic_access: derived
     contracts:
@@ -397,8 +417,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 75.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/screenshots/wikidata-2026-06-20T201453.png
 security:

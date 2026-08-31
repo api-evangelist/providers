@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 305
   slug: square-agentic-access
   summary_line: 305 operations · 189 acting · 3 human-in-the-loop
-api_count: 45
+api_count: 1
 apis:
 - description: The Reporting API (Beta) provides a new way to access all of a business's data to build custom reports and integrations, surfacing sales, payments, and operational metrics across a seller's Square acc
   name: Square Reporting API
@@ -444,6 +444,10 @@ collections:
   name: Square
   slug: open-square
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/square-capability-edges.yml
 - group: operate
   title: ''
   type: DeprecationPolicy
@@ -947,7 +951,7 @@ overview: 'Square publishes 42 APIs on the [APIs.io](https://apis.io/) network, 
   The Square catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Square''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, changelog, sandbox, and 88 more developer resources.'
+  Square''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, changelog, sandbox, and 89 more developer resources.'
 plans:
 - name: Square Plans Pricing
   plan_count: 4
@@ -997,15 +1001,20 @@ scopes:
   summary_line: 58 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 71.8
-  delta: 0.0
+  composite: 71.3
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 64.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 28.8
     contract_quality: 74.0
     developer_ergonomics: 85.7
-    discoverability: 57.4
+    discoverability: 51.9
     governance: 28.8
     operational_transparency: 60.5
   previous_composite: 71.8
@@ -1022,8 +1031,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/screenshots/square-2026-06-20T194428.png
 security:

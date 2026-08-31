@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -42,24 +42,21 @@ agentic_access:
   operation_count: 35
   slug: manychat-agentic-access
   summary_line: 35 operations · 22 acting
-api_count: 5
+api_count: 3
 apis:
-- description: REST API for managing subscribers, custom fields, tags, bot fields, flows, and sending messages in ManyChat across Instagram, Messenger, WhatsApp and SMS. 35 operations across four tags. Authenticatio
-  name: ManyChat REST API
-  slug: rest-api
 - description: 'Page-level configuration for a connected ManyChat page: connected page info, tags, typed custom user field definitions, global bot fields, automations (flows) and folders, growth tools and One-Time No'
   name: ManyChat Page API
   slug: manychat-page-api
-- description: White-label profile and template management. A single operation that generates a single-use install link for a ManyChat template, served from its own Swagger document at api.manychat.com/swagger/compi
-  name: ManyChat Profile API
-  slug: manychat-profile-api
 - description: 'Send Dynamic Block content and trigger automations for a subscriber across Messenger, Instagram and WhatsApp. 3 operations. This is the surface governed by Meta policy rather than by ManyChat: outside'
   name: ManyChat Sending API
   slug: manychat-sending-api
 - description: Look up, search, create, update, tag and set custom field values on subscribers. 15 operations. A subscriber carries per-channel identity fields for Messenger, Instagram, WhatsApp, email and SMS on on
   name: ManyChat Subscriber API
   slug: manychat-subscriber-api
-artifact_total: 18
+- description: White-label profile / template management (Profile API)
+  name: ManyChat Template API
+  slug: manychat-template-api
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Manychat Dynamic Block Webhooks
@@ -84,6 +81,14 @@ collections:
   name: ManyChat API
   slug: open-manychat
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/manychat-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/manychat-profile-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -221,13 +226,13 @@ modified: '2026-08-13'
 name: ManyChat
 nav: Providers
 network: true
-overview: 'ManyChat publishes 5 APIs on the [APIs.io](https://apis.io/) network, including REST API, Page API, Profile API, and 2 more. Tagged areas include Chat Marketing, Messenger Marketing, Conversational Commerce, Marketing Automation, and Instagram.
+overview: 'ManyChat publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Page API, Sending API, Subscriber API, and 1 more. Tagged areas include Chat Marketing, Messenger Marketing, Conversational Commerce, Marketing Automation, and Instagram.
 
 
   The ManyChat catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ManyChat''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 25 more developer resources.'
+  ManyChat''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 27 more developer resources.'
 plans:
 - name: Manychat Plans Pricing
   plan_count: 0
@@ -239,18 +244,23 @@ rate_limits:
   slug: manychat-rate-limits
 score:
   band: developing
-  composite: 51.6
+  composite: 50.1
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 31.8
+    contract_governance: 19.7
     contract_quality: 66.0
     developer_ergonomics: 54.2
     discoverability: 74.1
-    governance: 31.8
+    governance: 19.7
     operational_transparency: 52.6
-  previous_composite: 51.6
+  previous_composite: 50.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -267,8 +277,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 38.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/screenshots/manychat-2026-06-20T184935.png
 security:

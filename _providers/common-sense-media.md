@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,6 +59,10 @@ collections:
   name: Common Sense Media reviews system API
   slug: open-common-sense-media-system-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/common-sense-media-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -150,7 +154,7 @@ overview: 'Common Sense Media publishes 2 APIs on the [APIs.io](https://apis.io/
   The Common Sense Media catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Common Sense Media''s developer surface includes authentication and 15 more developer resources.'
+  Common Sense Media''s developer surface includes authentication and 16 more developer resources.'
 plans:
 - name: Common Sense Media Plans Pricing
   plan_count: 3
@@ -185,7 +189,12 @@ rules:
 score:
   band: thin
   composite: 32.3
-  delta: 1.9
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -195,7 +204,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 30.4
+  previous_composite: 32.3
   provenance:
     agentic_access: derived
     contracts:
@@ -203,8 +212,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/common-sense-media/refs/heads/main/screenshots/common-sense-media-2026-06-20T174819.png
 security:

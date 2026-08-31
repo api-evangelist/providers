@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -33,22 +33,64 @@ agentic_access:
   summary_line: 75 operations · 52 acting
 api_count: 5
 apis:
-- description: 'Dojo''s core REST payments API for accepting and managing card payments. Covers payment intents, refunds, reversals, captures, customers, setup intents, terminals, terminal sessions, capabilities, and '
-  name: Dojo API
-  slug: dojo-api
-- description: Retrieves transaction records for a merchant. Documented REST endpoint under https://api.dojo.tech for querying processed card transactions. Version 2023-11-12.
-  name: Dojo Transaction API
-  slug: dojo-transactions-api
-- description: A REST contract that a merchant's EPOS (point-of-sale) system implements so Dojo can read orders, tables, areas, parties, and reservations for hospitality integrations. The server is merchant-hosted (
-  name: Dojo EPOS Data API
-  slug: dojo-epos-data-api
-- description: API supporting Dojo's Tap to Pay on iPhone in-person acceptance flow, documented under https://api.dojo.tech. Version 2023-12-12.
+- description: The Areas API from Dojo — 1 operation(s) for areas.
+  name: Dojo Areas API
+  slug: dojo-areas-api
+- description: Register your REST and WebSockets endpoints.
+  name: Dojo Capabilities API
+  slug: dojo-capabilities-api
+- description: 'Allows you to capture the full payment amount or part of the amount. **Documentation**: [Captures](../../payments/manage-payments/capture)'
+  name: Dojo Captures API
+  slug: dojo-captures-api
+- description: Allows to create and manage a customer of your business.
+  name: Dojo Customers API
+  slug: dojo-customers-api
+- description: The Events API from Dojo — 1 operation(s) for events.
+  name: Dojo Events API
+  slug: dojo-events-api
+- description: The Flows API from Dojo — 2 operation(s) for flows.
+  name: Dojo Flows API
+  slug: dojo-flows-api
+- description: The Orders API from Dojo — 7 operation(s) for orders.
+  name: Dojo Orders API
+  slug: dojo-orders-api
+- description: The Parties API from Dojo — 3 operation(s) for parties.
+  name: Dojo Parties API
+  slug: dojo-parties-api
+- description: 'Allows you to take and manage payments. **Documentation**: [Payment intents](../../payments/manage-payments/payment-intent)'
+  name: Dojo Payment intents API
+  slug: dojo-payment-intents-api
+- description: 'Allows you to create a refund for a captured payment. **Documentation**: [Refunds](/payments/manage-payments/cancelling-payments/refund)'
+  name: Dojo Refunds API
+  slug: dojo-refunds-api
+- description: The Reservations API from Dojo — 3 operation(s) for reservations.
+  name: Dojo Reservations API
+  slug: dojo-reservations-api
+- description: 'Allows you to create a reversal for payments. **Documentation**: [Reversal](../../payments/manage-payments/cancelling-payments/reversal)'
+  name: Dojo Reversal API
+  slug: dojo-reversal-api
+- description: 'Allows you to setup a card for future payments. **Documentation**: [Setup intent](../payments/manage-payments/setup-intent)'
+  name: Dojo Setup intents API
+  slug: dojo-setup-intents-api
+- description: The Tables API from Dojo — 1 operation(s) for tables.
+  name: Dojo Tables API
+  slug: dojo-tables-api
+- description: Allows you to create a terminal secret value.
   name: Dojo Tap to Pay on iPhone API
   slug: dojo-tap-to-pay-on-iphone-api
-- description: A small helper API for the Dojo EPOS Tester tool, used to validate an EPOS integration against Dojo's EPOS Data contract. Version 1.0.0 (2 paths).
-  name: Dojo EPOS Tester Tool API
-  slug: dojo-epos-tester-tool-api
-artifact_total: 16
+- description: Allows you to manage sessions on the terminal.
+  name: Dojo Terminal sessions API
+  slug: dojo-terminal-sessions-api
+- description: 'Allows you to manage payments on the terminal. **Documentation**: [Terminals](../payments/accept-payments/in-person-payments/pay-at-counter/terminals)'
+  name: Dojo Terminals API
+  slug: dojo-terminals-api
+- description: Allows you to take and manage payments.
+  name: Dojo Transactions API
+  slug: dojo-transactions-api
+- description: 'Webhooks notify you when a specific event has occurred. **Documentation**: [Webhooks](../../development-resources/webhooks)'
+  name: Dojo Webhooks API
+  slug: dojo-webhooks-api
+artifact_total: 30
 asyncapis:
 - description: 'The Async Websocket API to enable Dojo integrated products. Core modules: - Tables - Areas - Orders - Parties - Reservations API modules can generally be implemented independently, with a small number'
   name: EPOS Data API (WebSockets)
@@ -235,7 +277,7 @@ modified: '2026-07-24'
 name: Dojo
 nav: Providers
 network: true
-overview: 'Dojo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Transaction API, EPOS Data API, and 3 more. Tagged areas include Payments, United Kingdom, Payment Gateway, Payment Processing, and Acquiring.
+overview: 'Dojo publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Areas API, Capabilities API, Captures API, and 16 more. Tagged areas include Payments, United Kingdom, Payment Gateway, Payment Processing, and Acquiring.
 
 
   The Dojo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -244,19 +286,24 @@ overview: 'Dojo publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   Dojo''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, sandbox, engineering blog, and 31 more developer resources.'
 random_paper: 8
 score:
-  band: developing
-  composite: 53.1
-  delta: 1.0
+  band: strong
+  composite: 54.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
-    contract_quality: 59.1
+    contract_governance: 4.5
+    contract_quality: 66.0
     developer_ergonomics: 61.3
-    discoverability: 72.2
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 52.1
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -273,8 +320,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/screenshots/dojo-2026-07-25T212236.png
 security:

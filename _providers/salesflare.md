@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 72
   slug: salesflare-agentic-access
   summary_line: 72 operations · 37 acting · 1 human-in-the-loop
-api_count: 20
+api_count: 2
 apis:
 - description: The Accounts API from Salesflare — 6 operation(s) for accounts.
   name: Salesflare Accounts API
@@ -374,18 +374,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode/implicit/clientCredentials
 score:
   band: strong
-  composite: 59.3
-  delta: 1.8
+  composite: 56.2
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 32.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 41.7
+    contract_governance: 29.5
     contract_quality: 54.4
     developer_ergonomics: 49.4
-    discoverability: 85.2
-    governance: 41.7
+    discoverability: 68.5
+    governance: 29.5
     operational_transparency: 42.1
-  previous_composite: 57.5
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -396,8 +401,8 @@ score:
       total: 20
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/screenshots/salesflare-2026-06-20T193340.png
 security:

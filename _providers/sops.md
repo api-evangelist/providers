@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The SOPS decrypt Go package provides programmatic access to SOPS-encrypted files from Go applications. It supports decryption of YAML, JSON, ENV, INI, and binary formats using configured key managemen
@@ -41,6 +41,18 @@ apis:
   slug: sops-go-library
 artifact_total: 10
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/getsops/sops/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/getsops/sops/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/getsops/sops/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -128,7 +140,7 @@ overview: 'SOPS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
   The SOPS catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SOPS''s developer surface includes documentation, release notes, changelog, engineering blog, and 9 more developer resources.'
+  SOPS''s developer surface includes documentation, release notes, changelog, engineering blog, and 12 more developer resources.'
 plans:
 - name: Sops Plans Pricing
   plan_count: 3
@@ -151,7 +163,12 @@ rules:
   slug: sops-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 19.5
+  composite: 24.1
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 57.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -162,9 +179,12 @@ score:
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 28.9
-  previous_composite: 19.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 24.1
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sops/refs/heads/main/screenshots/sops-2026-06-20T194211.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 95
   slug: langflow-agentic-access
   summary_line: 95 operations · 53 acting · 2 human-in-the-loop
-api_count: 15
+api_count: 1
 apis:
 - description: The Base API from Langflow — 6 operation(s) for base.
   name: Langflow Base API
@@ -142,6 +142,10 @@ collections:
   name: Langflow
   slug: open-langflow
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/datastax/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -417,7 +421,7 @@ overview: 'Langflow publishes 15 APIs on the [APIs.io](https://apis.io/) network
   The Langflow catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Langflow''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, tooling, code examples, and 43 more developer resources.'
+  Langflow''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, tooling, code examples, and 44 more developer resources.'
 random_paper: 18
 rules:
 - effective_rule_count: 5
@@ -447,19 +451,24 @@ scopes:
   slug: langflow-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 39.6
-  delta: 1.8
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 28.8
     contract_quality: 62.1
     developer_ergonomics: 57.1
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 21.1
-  previous_composite: 37.8
+  previous_composite: 39.6
   provenance:
     agentic_access: derived
     contracts:
@@ -467,8 +476,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langflow/refs/heads/main/screenshots/langflow-2026-06-20T184304.png
 security:

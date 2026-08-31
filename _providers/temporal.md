@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 19
   slug: temporal-agentic-access
   summary_line: 19 operations · 9 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Temporal Server Frontend API provides gRPC services for interacting with the Temporal Server, including WorkflowService for managing workflow executions, OperatorService for cluster operations, an
   name: Temporal Server Frontend API
@@ -129,6 +129,18 @@ collections:
   name: Temporal Cloud Operations API Keys Users API
   slug: open-temporal-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/temporal-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/temporalio/api/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/temporalio/api/releases
 - group: agent
   title: ''
   type: MCPServer
@@ -485,13 +497,13 @@ modified: '2026-06-20'
 name: Temporal
 nav: Providers
 network: true
-overview: 'Temporal publishes 6 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Async Operations API, Namespaces API, and 3 more. Tagged areas include Pro-Code-API-Composition and Workflows.
+overview: 'Temporal publishes 6 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Async Operations API, Namespaces API, and 3 more. Tagged areas include ProCode_API_Composition and Workflows.
 
 
   The Temporal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Temporal''s developer surface includes changelog, CLI, sandbox, authentication, developer portal, documentation, getting-started guide, and 42 more developer resources.'
+  Temporal''s developer surface includes changelog, CLI, sandbox, authentication, developer portal, documentation, getting-started guide, and 45 more developer resources.'
 plans:
 - name: Temporal Plans Pricing
   plan_count: 3
@@ -525,18 +537,26 @@ rules:
   slug: temporal-spectral-rules
 score:
   band: strong
-  composite: 60.9
-  delta: 1.4
+  composite: 54.5
+  coverage:
+    artifact_dirs: 34
+    catalog_gap: 74.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 57.8
     developer_ergonomics: 85.7
-    discoverability: 64.8
-    governance: 30.3
+    discoverability: 48.1
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 59.5
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -546,8 +566,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/screenshots/temporal-2026-06-20T195103.png
 security:
@@ -573,7 +593,7 @@ skills:
   slug: temporal-developer
 slug: temporal
 tags:
-- Pro-Code-API-Composition
+- ProCode_API_Composition
 - Workflows
 use_cases:
 - description: Coordinate complex multi-service transactions with automatic retries, compensation logic, and timeout handling.

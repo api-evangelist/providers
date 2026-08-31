@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 60
   slug: therundown-agentic-access
   summary_line: 60 operations
-api_count: 14
+api_count: 1
 apis:
 - description: Delta/change feeds (V1 legacy)
   name: The Rundown V1 Delta API
@@ -198,10 +198,6 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/therundown-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: '2026-06-12'
 description: The Rundown is a sports betting data API platform providing real-time odds, lines, scores, and results across 30+ sports leagues including NFL, NBA, MLB, NHL, WNBA, MLS, college football and basketball, and international soccer, tennis, cricket, and Formula 1. The API aggregates data from 16+ sportsbooks including DraftKings, FanDuel, BetMGM, and Pinnacle, as well as prediction markets like Kalshi and Polymarket, normalizing everything into a single unified schema with 600+ market types covering moneylines, spreads, totals, player props, team totals, futures, and live in-play odds. Developers can access data via REST endpoints or WebSocket streaming for sub-second real-time updates, with historical odds data and line movement tracking available on higher tiers.
 examples:
@@ -422,7 +418,7 @@ overview: 'The Rundown publishes 14 APIs on the [APIs.io](https://apis.io/) netw
   The The Rundown catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  The Rundown''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
+  The Rundown''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Therundown Plans Pricing
   plan_count: 8
@@ -445,15 +441,20 @@ rules:
   slug: therundown-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.9
-  delta: 0.0
+  composite: 43.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 34.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 56.6
     developer_ergonomics: 22.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 36.8
   previous_composite: 43.9
@@ -464,8 +465,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/screenshots/therundown-2026-06-20T195255.png
 security:

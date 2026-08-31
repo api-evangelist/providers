@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 24
   slug: heidi-health-agentic-access
   summary_line: 24 operations · 13 acting
-api_count: 11
+api_count: 1
 apis:
 - description: 'Embeddable JavaScript widget for dropping Heidi''s ambient documentation experience directly into a web-based EHR or clinical workflow with minimal engineering, with documented initialisation options, '
   name: Heidi Widget SDK
@@ -146,6 +146,10 @@ collections:
   name: Heidi Health API
   slug: open-heidi-health
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/heidi-health-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -399,7 +403,7 @@ overview: 'Heidi Health publishes 10 APIs on the [APIs.io](https://apis.io/) net
   The Heidi Health catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Heidi Health''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, changelog, and 36 more developer resources.'
+  Heidi Health''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, changelog, and 37 more developer resources.'
 plans:
 - name: Heidi Health Plans Pricing
   plan_count: 4
@@ -433,18 +437,23 @@ rules:
   slug: heidi-health-rules
 score:
   band: developing
-  composite: 50.2
-  delta: 0.8
+  composite: 49.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 28.8
     contract_quality: 67.6
     developer_ergonomics: 40.5
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 15.8
-  previous_composite: 49.4
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     contracts:
@@ -458,8 +467,8 @@ score:
     regime: Health
     regime_id: health
     score: 35.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/screenshots/heidi-health-2026-06-20T182614.png
 security:
@@ -484,7 +493,7 @@ tags:
 - Clinical Documentation
 - Clinical Decision Support
 - Artificial Intelligence
-- Speech-to-Text
+- Speech To Text
 - Transcription
 - EHR Integration
 - Electronic Health Records

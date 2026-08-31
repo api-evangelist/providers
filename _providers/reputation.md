@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 67
   slug: reputation-agentic-access
   summary_line: 67 operations · 26 acting
-api_count: 16
+api_count: 1
 apis:
 - description: Manage image assets
   name: Reputation Asset Library API
@@ -195,10 +195,6 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/reputation-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 - group: commercial
   title: ''
   type: Plans
@@ -351,7 +347,7 @@ overview: 'Reputation publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
   The Reputation catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Reputation''s developer surface includes authentication, documentation, engineering blog, pricing, code examples, API reference, support, and 32 more developer resources.'
+  Reputation''s developer surface includes authentication, documentation, engineering blog, pricing, code examples, API reference, support, and 31 more developer resources.'
 plans:
 - name: Reputation Plans Pricing
   plan_count: 4
@@ -374,18 +370,23 @@ rules:
   slug: reputation-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.5
-  delta: 0.0
+  composite: 62.5
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 36.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
-    contract_governance: 55.3
+    contract_governance: 43.2
     contract_quality: 71.6
     developer_ergonomics: 51.8
-    discoverability: 81.5
-    governance: 55.3
+    discoverability: 75.9
+    governance: 43.2
     operational_transparency: 21.1
-  previous_composite: 64.5
+  previous_composite: 63.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -396,8 +397,8 @@ score:
       total: 16
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/screenshots/reputation-2026-06-20T192944.png
 security:

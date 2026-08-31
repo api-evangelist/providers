@@ -1,6 +1,6 @@
 {
- "total": 34,
- "shown": 34,
+ "total": 33,
+ "shown": 33,
  "limit": 1000,
  "bands": [
   {
@@ -15,11 +15,11 @@
      "name": "PetExec",
      "slug": "petexec",
      "description": "PetExec is cloud-based business management software for dog daycares, boarding facilities, groomers, and trainers - scheduling, an owner portal, payments, and reporting. PetExec publishes a real, documented OAuth2 (password grant) REST API for existing customers and their developers, with a public GitHub examples repository covering owners, pets, boarding, daycare, grooming, scheduled services, vaccinations, billing, and reports. Access requires an active PetExec account - client credentials are self-issued from Company Preferences > Misc. Settings > Maintain API Applications, then exchanged for a Bearer token via a scoped password grant. PetExec was acquired by Togetherwork in November 2024 and joined the Gingr / Revelation Pets pet-care product group; PetExec is no longer accepting new customers and is being migrated toward Gingr, but the documented API remains live for existing PetExec accounts as of this review.",
-     "score": 38.7,
+     "score": 38.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
+      "discoverability": 68.5,
       "contract_quality": 53.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -28,8 +28,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -60,11 +60,11 @@
      "slug": "gingr",
      "description": "Gingr is pet-care business management software for dog daycare, boarding, training, and grooming facilities, covering reservations, check-in/checkout, client and pet records, feeding and medication schedules, immunizations, report cards, point of sale, and payments. Gingr publishes a JSON:API-style Partner API (api.gingr.io, X-Api-Key header, live OpenAPI/Swagger and Postman collection at docs.gingr.io) covering owners (parents), pets, bookings/reservations, invoices and payments, immunizations, and report cards, alongside an older subdomain-scoped legacy reporting API used for read-only pulls of owners and reservations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/screenshots/gingr-2026-07-25T215825.png",
-     "score": 35.6,
+     "score": 35.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 74.1,
+      "discoverability": 68.5,
       "contract_quality": 53.9,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -73,8 +73,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -115,8 +115,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 15,
-   "shown": 15,
+   "count": 14,
+   "shown": 14,
    "providers": [
     {
      "name": "Chewy",
@@ -136,8 +136,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -174,11 +174,11 @@
      "name": "ManyPets",
      "slug": "manypets",
      "description": "ManyPets (formerly Bought By Many, part of ManyGroup) is a digital-first pet insurance provider founded in 2012 by Steven Mendel and Guy Farley and headquartered in London, United Kingdom. The company sells lifetime dog, cat and multi-pet insurance direct to consumers in the UK, alongside a preventative flea/tick/worm plan, an online claims experience and unlimited 24/7 video vet consultations. Sister ManyGroup brands include ExoticDirect (exotic pet insurance) and VetBox (pet treatment subscriptions). ManyPets raised a $350M Series D led by EQT Growth in 2021 and has also operated in the United States and Sweden; the US book is transitioning to Odie. ManyPets does not publish a public developer portal or machine-readable API contract — its API is offered only through a gated partner programme (affiliate, widget, API partner, perk and custom solutions) operated at many-group.com/partners/.",
-     "score": 21.7,
+     "score": 22.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 18.2,
       "contract_governance": 18.2,
@@ -187,14 +187,21 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 45.5,
-      "matched_via": "tags"
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "gdpr",
+        "jurisdiction": "EU"
+       }
+      ]
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -238,8 +245,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -283,8 +290,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -335,8 +342,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -363,10 +370,11 @@
      "rank": 7
     },
     {
-     "name": "Petfolk",
-     "slug": "petfolk",
-     "description": "Petfolk is a Charlotte, North Carolina based veterinary care company that operates a network of modern, company-owned pet care centers across the US Southeast and Texas, paired with a consumer mobile app. Founded and led by veterinarian Dr. Audrey Wystrach, Petfolk provides primary and wellness care, sick and urgent care, dentistry, surgery, spay and neuter, vaccinations and diagnostics for dogs and cats, delivered under a \"gentle handling\" clinical model with seven-day-a-week hours and published, transparent pricing. The Petfolk iOS and Android app lets pet parents book in-person or virtual appointments, message their care team around the clock, request medications and access their pet's medical records; a paid PetfolkCare membership layers on 24/7 veterinary support and per-visit savings. The company raised a $40M Series B in October 2023 led by Movendo Capital, with White Star Capital and Idea Farm Ventures participating. Petfolk is a consumer veterinary services operator, not an API provider: as of this profiling pass it publishes no public developer portal, API documentation, OpenAPI/GraphQL contract, SDKs or MCP server. It does publish a hand-authored llms.txt at the site root, which is the company's only machine-readable, agent-facing surface.",
-     "score": 15.9,
+     "name": "Butternut Box",
+     "slug": "butternut-box",
+     "description": "Butternut Box is a London-headquartered direct-to-consumer pet nutrition company that cooks and delivers fresh, gently-steamed dog food on a personalised subscription. Customers complete an online profiling wizard covering their dog's breed, age, weight, activity level and health needs, and Butternut Box calculates a portioned meal plan from human-quality meat and vegetables, batch-cooks it at low temperature, freezes it, and ships it on a recurring schedule. Founded in 2016 and certified as a B Corporation, the company operates nine locale storefronts covering the United Kingdom, Ireland, the Netherlands, Belgium (Dutch and French), Germany, Italy, Sweden and Denmark, and runs its own production facility alongside a React / React Native / Ruby on Rails engineering stack. Butternut Box publishes no public developer API, developer portal or machine-readable specification; its customer-facing surfaces are the marketing site, the subscription web app and the iOS/Android apps.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/butternut-box/refs/heads/main/screenshots/butternut-box-2026-08-07T162848.png",
+     "score": 14.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -374,20 +382,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 44.7,
-      "access_clarity": 44.7
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 17.5,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -414,25 +415,24 @@
      "rank": 8
     },
     {
-     "name": "Butternut Box",
-     "slug": "butternut-box",
-     "description": "Butternut Box is a London-headquartered direct-to-consumer pet nutrition company that cooks and delivers fresh, gently-steamed dog food on a personalised subscription. Customers complete an online profiling wizard covering their dog's breed, age, weight, activity level and health needs, and Butternut Box calculates a portioned meal plan from human-quality meat and vegetables, batch-cooks it at low temperature, freezes it, and ships it on a recurring schedule. Founded in 2016 and certified as a B Corporation, the company operates nine locale storefronts covering the United Kingdom, Ireland, the Netherlands, Belgium (Dutch and French), Germany, Italy, Sweden and Denmark, and runs its own production facility alongside a React / React Native / Ruby on Rails engineering stack. Butternut Box publishes no public developer API, developer portal or machine-readable specification; its customer-facing surfaces are the marketing site, the subscription web app and the iOS/Android apps.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/butternut-box/refs/heads/main/screenshots/butternut-box-2026-08-07T162848.png",
-     "score": 15.4,
+     "name": "Rover",
+     "slug": "rover",
+     "description": "Rover is the world's largest online marketplace for pet care, connecting pet parents with sitters and dog walkers for boarding, house sitting, drop-in visits, doggy daycare, and dog walking. Founded in 2011 and headquartered in Seattle, Rover was a publicly traded company (Nasdaq: ROVR) until Blackstone completed its acquisition of Rover Group for approximately $2.3 billion on February 27, 2024, taking the company private and delisting its stock. As of this catalog entry, Rover does NOT publish a public, documented developer API or a developer portal. Its platform is a closed consumer/provider marketplace; the only outward-facing integration program is a marketing affiliate program offered through third-party affiliate networks (Impact, CJ, Rakuten, Skimlinks, ShareASale, etc.), not a data/booking API. Programmatic access to Rover data today is only available via unofficial third-party web scrapers (e.g. Apify), which are outside Rover's supported surface. This entry is an honest stub documenting the absence of a public API; it should be revisited if Rover launches a partner or developer API.",
+     "score": 13.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 68.5,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
+      "commercial_clarity": 31.6,
+      "access_clarity": 31.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -459,50 +459,6 @@
      "rank": 9
     },
     {
-     "name": "Rover",
-     "slug": "rover",
-     "description": "Rover is the world's largest online marketplace for pet care, connecting pet parents with sitters and dog walkers for boarding, house sitting, drop-in visits, doggy daycare, and dog walking. Founded in 2011 and headquartered in Seattle, Rover was a publicly traded company (Nasdaq: ROVR) until Blackstone completed its acquisition of Rover Group for approximately $2.3 billion on February 27, 2024, taking the company private and delisting its stock. As of this catalog entry, Rover does NOT publish a public, documented developer API or a developer portal. Its platform is a closed consumer/provider marketplace; the only outward-facing integration program is a marketing affiliate program offered through third-party affiliate networks (Impact, CJ, Rakuten, Skimlinks, ShareASale, etc.), not a data/booking API. Programmatic access to Rover data today is only available via unofficial third-party web scrapers (e.g. Apify), which are outside Rover's supported surface. This entry is an honest stub documenting the absence of a public API; it should be revisited if Rover launches a partner or developer API.",
-     "score": 13.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 31.6,
-      "access_clarity": 31.6
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 10
-    },
-    {
      "name": "Zoetis",
      "slug": "zoetis",
      "description": "Zoetis is the world's leading animal health company, dedicated to discovering, developing, manufacturing, and commercializing medicines, vaccines, diagnostics, and technologies for animals. The company operates in over 100 countries and provides digital connectivity solutions that integrate veterinary diagnostics, reference laboratory services, and practice management systems through the Vetscan platform, enabling bidirectional communication between point-of-care analyzers and veterinary practice information management systems (PIMS).",
@@ -520,8 +476,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -552,7 +508,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "Wag!",
@@ -571,8 +527,53 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 11
+    },
+    {
+     "name": "Cuida Mi Mascota",
+     "slug": "cuida-mi-mascota",
+     "description": "Cuida Mi Mascota (CuidaMiMascota SAPI de CV) is a Mexican pet-care marketplace that connects pet owners with vetted, trusted caregivers for boarding (hospedaje), daycare, in-home visits, and dog walking across cities in Mexico. Delivered primarily as consumer iOS and Android mobile apps, the platform has served more than 250,000 pet owners and lets caregivers register to offer services. It is a 500 Global portfolio company. The company exposes no public API, developer portal, or SDK today; this profile is maintained in the API Evangelist network as a company lead with identity and domain-security signals captured for discovery.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cuida-mi-mascota/refs/heads/main/screenshots/cuida-mi-mascota-2026-07-25T210913.png",
+     "score": 12.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -599,51 +600,6 @@
      "rank": 12
     },
     {
-     "name": "Cuida Mi Mascota",
-     "slug": "cuida-mi-mascota",
-     "description": "Cuida Mi Mascota (CuidaMiMascota SAPI de CV) is a Mexican pet-care marketplace that connects pet owners with vetted, trusted caregivers for boarding (hospedaje), daycare, in-home visits, and dog walking across cities in Mexico. Delivered primarily as consumer iOS and Android mobile apps, the platform has served more than 250,000 pet owners and lets caregivers register to offer services. It is a 500 Global portfolio company. The company exposes no public API, developer portal, or SDK today; this profile is maintained in the API Evangelist network as a company lead with identity and domain-security signals captured for discovery.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cuida-mi-mascota/refs/heads/main/screenshots/cuida-mi-mascota-2026-07-25T210913.png",
-     "score": 12.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 13
-    },
-    {
      "name": "Modern Animal",
      "slug": "modern-animal",
      "description": "Modern Animal is a membership-based veterinary healthcare company operating physical primary and urgent care clinics across major U.S. metropolitan regions, combining in-clinic visits with 24/7 virtual veterinary consultations, pharmacy and prescription management, dental care, surgery, and preventive care. It runs a subscription membership model (All Access, Essential, and Pay As You Go tiers) with transparent, upfront pricing and a companion mobile app for booking and virtual care. The company was surfaced as a portfolio company of dcm-ventures and susa-ventures. Modern Animal is a consumer veterinary brand and publishes no public developer API, documentation, or SDK surface as of this enrichment pass.",
@@ -661,8 +617,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -693,7 +649,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "Pawfinity",
@@ -713,8 +669,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -738,7 +694,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "Central Garden and Pet",
@@ -758,8 +714,52 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 15
+    },
+    {
+     "name": "Petco Animal Supplies",
+     "slug": "petco",
+     "description": "Petco Animal Supplies is a major US corporation and Fortune 1000 company. The Petco Animal Supplies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "score": 11.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -784,50 +784,6 @@
       "agentic_commerce": false
      },
      "rank": 16
-    },
-    {
-     "name": "Petco Animal Supplies",
-     "slug": "petco",
-     "description": "Petco Animal Supplies is a major US corporation and Fortune 1000 company. The Petco Animal Supplies API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "score": 11.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 17
     }
    ],
    "open": true
@@ -857,8 +813,53 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 17
+    },
+    {
+     "name": "CareGuide",
+     "slug": "careguide",
+     "description": "CareGuide is a Canadian company operating a network of online marketplaces that connect families with caregivers across child care, home care, pet care, and elder care, alongside HeartPayroll household payroll services. Its consumer brands include CanadianNanny.ca, Sitter.com, PetSitter.com, ElderCare.com, HouseKeeper.com and a family of \"Meet A\" professional directories. Backed by 500 Global, CareGuide is added to the API Evangelist network as a company profile. The company does not publish a public developer portal, API documentation, SDKs, or machine-readable API specifications; this profile captures its public web identity and domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/careguide/refs/heads/main/screenshots/careguide-2026-07-25T204543.png",
+     "score": 10.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -885,10 +886,9 @@
      "rank": 18
     },
     {
-     "name": "CareGuide",
-     "slug": "careguide",
-     "description": "CareGuide is a Canadian company operating a network of online marketplaces that connect families with caregivers across child care, home care, pet care, and elder care, alongside HeartPayroll household payroll services. Its consumer brands include CanadianNanny.ca, Sitter.com, PetSitter.com, ElderCare.com, HouseKeeper.com and a family of \"Meet A\" professional directories. Backed by 500 Global, CareGuide is added to the API Evangelist network as a company profile. The company does not publish a public developer portal, API documentation, SDKs, or machine-readable API specifications; this profile captures its public web identity and domain-security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/careguide/refs/heads/main/screenshots/careguide-2026-07-25T204543.png",
+     "name": "Skiptown",
+     "slug": "skiptown",
+     "description": "Skiptown is a modern pet-care company operating premium dog daycare, boarding, grooming, and walking services alongside its signature Dog Bar & Park — an indoor/outdoor social club where owners enjoy craft cocktails and coffee while dogs play off-leash. Backed by Techstars, Skiptown runs company-owned locations in Charlotte, Atlanta, and Denver and offers franchise expansion opportunities. Its consumer experience is delivered through a mobile app for booking, curbside dropoff, and daily photo updates. Skiptown does not currently publish a public API or developer platform; this profile captures its public web and security posture.",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -902,8 +902,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -930,10 +930,10 @@
      "rank": 19
     },
     {
-     "name": "Skiptown",
-     "slug": "skiptown",
-     "description": "Skiptown is a modern pet-care company operating premium dog daycare, boarding, grooming, and walking services alongside its signature Dog Bar & Park — an indoor/outdoor social club where owners enjoy craft cocktails and coffee while dogs play off-leash. Backed by Techstars, Skiptown runs company-owned locations in Charlotte, Atlanta, and Denver and offers franchise expansion opportunities. Its consumer experience is delivered through a mobile app for booking, curbside dropoff, and daily photo updates. Skiptown does not currently publish a public API or developer platform; this profile captures its public web and security posture.",
-     "score": 10.6,
+     "name": "Snout",
+     "slug": "snout",
+     "description": "Snout provides affordable veterinary wellness subscription plans that help pet owners access preventive and routine care without financial stress, while enabling veterinary clinics to increase visit frequency and revenue. Clinics offer monthly membership plans covering unlimited exams and preventative care tailored to each pet's life stage (puppy, adult, senior), and receive upfront payment at the time of service. Snout supports partner practices with dedicated Clinic Success Managers, custom marketing, and staff training, serving 2,500+ providers nationwide. Backed by 500 Global. No public API, developer portal, or developer documentation was found during enrichment.",
+     "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -946,8 +946,15 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -974,10 +981,10 @@
      "rank": 20
     },
     {
-     "name": "Snout",
-     "slug": "snout",
-     "description": "Snout provides affordable veterinary wellness subscription plans that help pet owners access preventive and routine care without financial stress, while enabling veterinary clinics to increase visit frequency and revenue. Clinics offer monthly membership plans covering unlimited exams and preventative care tailored to each pet's life stage (puppy, adult, senior), and receive upfront payment at the time of service. Snout supports partner practices with dedicated Clinic Success Managers, custom marketing, and staff training, serving 2,500+ providers nationwide. Backed by 500 Global. No public API, developer portal, or developer documentation was found during enrichment.",
-     "score": 10.5,
+     "name": "Vetic",
+     "slug": "vetic",
+     "description": "Vetic is a pet healthcare company in India operating a chain of full-service veterinary clinics and hospitals across 11 cities, paired with a consumer mobile app. Founded by Gaurav Ajmera (ex-COO OYO), Vetic offers in-clinic vet consultations, vaccinations, in-house diagnostics (blood work, X-ray, imaging, endoscopy), surgery, physiotherapy, 24/7 emergency and intensive care, grooming, an in-house pharmacy, pet supplies, pet insurance, video vet consultations, digital medical records, and 2-hour pet food delivery. It is a consumer (B2C) business with no public developer API surface at this time; this profile captures its public web and app footprint.",
+     "score": 9.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -986,12 +993,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1025,10 +1032,11 @@
      "rank": 21
     },
     {
-     "name": "Vetic",
-     "slug": "vetic",
-     "description": "Vetic is a pet healthcare company in India operating a chain of full-service veterinary clinics and hospitals across 11 cities, paired with a consumer mobile app. Founded by Gaurav Ajmera (ex-COO OYO), Vetic offers in-clinic vet consultations, vaccinations, in-house diagnostics (blood work, X-ray, imaging, endoscopy), surgery, physiotherapy, 24/7 emergency and intensive care, grooming, an in-house pharmacy, pet supplies, pet insurance, video vet consultations, digital medical records, and 2-hour pet food delivery. It is a consumer (B2C) business with no public developer API surface at this time; this profile captures its public web and app footprint.",
-     "score": 9.5,
+     "name": "Felmo",
+     "slug": "felmo",
+     "description": "felmo (felmo GmbH) is a mobile veterinary practice (mobile Tierarztpraxis) headquartered in Berlin, Germany that brings licensed veterinarians directly to pet owners' homes for dogs and cats. Founded in 2019 by CEO Philip Trockels, felmo operates across Berlin, Hamburg, Munich, Cologne, Frankfurt, Stuttgart, Düsseldorf and 25+ additional German cities, and has treated 300,000+ animals with 8,000+ home visits per month via 140+ mobile vets. Services include preventive care and consultations, examinations and diagnostics, laboratory and imaging, surgical procedures (including a fully-equipped mobile operating vehicle / OP-Wagen), dental medicine and holistic pet care, billed per the German veterinary fee schedule (GOT). Customers book appointments, access medical records and lab results, receive reminders, and message support through the felmo iOS and Android app. felmo is backed by HV Capital and additional venture investors. No public developer API or documentation surface was found during enrichment; this profile captures the company's public identity and web properties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/felmo/refs/heads/main/screenshots/felmo-2026-07-25T214333.png",
+     "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1037,17 +1045,17 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 4.8,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
-      "score": 17.5,
+      "score": 10.0,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -1076,10 +1084,9 @@
      "rank": 22
     },
     {
-     "name": "Felmo",
-     "slug": "felmo",
-     "description": "felmo (felmo GmbH) is a mobile veterinary practice (mobile Tierarztpraxis) headquartered in Berlin, Germany that brings licensed veterinarians directly to pet owners' homes for dogs and cats. Founded in 2019 by CEO Philip Trockels, felmo operates across Berlin, Hamburg, Munich, Cologne, Frankfurt, Stuttgart, Düsseldorf and 25+ additional German cities, and has treated 300,000+ animals with 8,000+ home visits per month via 140+ mobile vets. Services include preventive care and consultations, examinations and diagnostics, laboratory and imaging, surgical procedures (including a fully-equipped mobile operating vehicle / OP-Wagen), dental medicine and holistic pet care, billed per the German veterinary fee schedule (GOT). Customers book appointments, access medical records and lab results, receive reminders, and message support through the felmo iOS and Android app. felmo is backed by HV Capital and additional venture investors. No public developer API or documentation surface was found during enrichment; this profile captures the company's public identity and web properties.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/felmo/refs/heads/main/screenshots/felmo-2026-07-25T214333.png",
+     "name": "Petual",
+     "slug": "petual",
+     "description": "Petual is a direct-to-consumer pet wellness brand offering functional soft chews for dogs. The company sells six formulas — Thrive (daily longevity), Steady (calm & stress), Nourish (digestive & gut health), Soothe (skin & allergy), Spring (mobility & joint), and Lean (healthy weight & metabolism) — each an apothecary-style canister of 90 chews (9.5 oz) positioned as a daily ritual for a longer, healthier canine life. Backed by a16z and Cowboy Ventures. Petual publishes a consumer storefront only — no public API, developer portal, documentation, SDKs, OpenAPI, well-known discovery, or agent surface was found. This profile tracks the company as a network lead and will be enriched if and when a developer program appears.",
      "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1093,8 +1100,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1128,10 +1135,11 @@
      "rank": 23
     },
     {
-     "name": "Petual",
-     "slug": "petual",
-     "description": "Petual is a direct-to-consumer pet wellness brand offering functional soft chews for dogs. The company sells six formulas — Thrive (daily longevity), Steady (calm & stress), Nourish (digestive & gut health), Soothe (skin & allergy), Spring (mobility & joint), and Lean (healthy weight & metabolism) — each an apothecary-style canister of 90 chews (9.5 oz) positioned as a daily ritual for a longer, healthier canine life. Backed by a16z and Cowboy Ventures. Petual publishes a consumer storefront only — no public API, developer portal, documentation, SDKs, OpenAPI, well-known discovery, or agent surface was found. This profile tracks the company as a network lead and will be enriched if and when a developer program appears.",
-     "score": 8.9,
+     "name": "ilovewoof",
+     "slug": "ilovewoof",
+     "description": "ilovewoof (ilovewoof.com) is a UK-focused pet-care and lifestyle content publication covering companion animals and wildlife. It publishes pet-care guides, behavioral insights, health articles, rescue stories, and animal-world news across four sections — Cats, Dogs, News, and Other pets (small and exotic animals) — with health and medical content reviewed by licensed veterinary professionals, and offers a weekly email newsletter. It is an editorial content site, not an API provider; no public API, developer documentation, SDKs, or machine-readable interface was found during enrichment. Surfaced as a qiming portfolio lead and profiled in the API Evangelist network for completeness.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ilovewoof/refs/heads/main/screenshots/ilovewoof-2026-07-25T222114.png",
+     "score": 8.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1140,19 +1148,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 10.0,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1179,11 +1180,11 @@
      "rank": 24
     },
     {
-     "name": "ilovewoof",
-     "slug": "ilovewoof",
-     "description": "ilovewoof (ilovewoof.com) is a UK-focused pet-care and lifestyle content publication covering companion animals and wildlife. It publishes pet-care guides, behavioral insights, health articles, rescue stories, and animal-world news across four sections — Cats, Dogs, News, and Other pets (small and exotic animals) — with health and medical content reviewed by licensed veterinary professionals, and offers a weekly email newsletter. It is an editorial content site, not an API provider; no public API, developer documentation, SDKs, or machine-readable interface was found during enrichment. Surfaced as a qiming portfolio lead and profiled in the API Evangelist network for completeness.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ilovewoof/refs/heads/main/screenshots/ilovewoof-2026-07-25T222114.png",
-     "score": 8.5,
+     "name": "Care.com",
+     "slug": "carecom",
+     "description": "Care.com is a two-sided online marketplace that connects families with caregivers across childcare, senior care, pet care, housekeeping, tutoring, and special-needs care, plus a \"Care for Business\" employer benefit used by companies such as Google, Starbucks, and Best Buy. Founded in 2007 by Sheila Lirio Marcelo, the company went public on the NYSE (CRCM) in 2014 and was acquired by IAC (IAC Inc.) in February 2020 for approximately $500 million, taking it private. Care.com is consumer- and enterprise-facing and does NOT publish a documented public developer API - there is no developer portal, no public API reference, and no self-service API keys. Its GitHub organization (github.com/caredotcom) contains only internal DevOps/infra tooling, not customer-facing API libraries. The only partner-facing programmatic surface is a private job-import integration inside Care.com Recruiting Solutions / Care for Business, used to sync job postings from an employer ATS; it is provisioned through a partnership agreement rather than openly documented. Note - Care.com is frequently confused with Caring.com (a separate senior-care directory owned by Caring, Inc. that DOES publish a JSON API at docs.caring.com); this entry is about care.com only. Access to the marketplace itself is via paid Basic and Premium memberships; there is no published API pricing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/carecom/refs/heads/main/screenshots/carecom-2026-07-25T204535.png",
+     "score": 6.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1191,13 +1192,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1224,11 +1225,10 @@
      "rank": 25
     },
     {
-     "name": "Care.com",
-     "slug": "carecom",
-     "description": "Care.com is a two-sided online marketplace that connects families with caregivers across childcare, senior care, pet care, housekeeping, tutoring, and special-needs care, plus a \"Care for Business\" employer benefit used by companies such as Google, Starbucks, and Best Buy. Founded in 2007 by Sheila Lirio Marcelo, the company went public on the NYSE (CRCM) in 2014 and was acquired by IAC (IAC Inc.) in February 2020 for approximately $500 million, taking it private. Care.com is consumer- and enterprise-facing and does NOT publish a documented public developer API - there is no developer portal, no public API reference, and no self-service API keys. Its GitHub organization (github.com/caredotcom) contains only internal DevOps/infra tooling, not customer-facing API libraries. The only partner-facing programmatic surface is a private job-import integration inside Care.com Recruiting Solutions / Care for Business, used to sync job postings from an employer ATS; it is provisioned through a partnership agreement rather than openly documented. Note - Care.com is frequently confused with Caring.com (a separate senior-care directory owned by Caring, Inc. that DOES publish a JSON API at docs.caring.com); this entry is about care.com only. Access to the marketplace itself is via paid Basic and Premium memberships; there is no published API pricing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/carecom/refs/heads/main/screenshots/carecom-2026-07-25T204535.png",
-     "score": 6.3,
+     "name": "The Farmer&#8217;s Dog",
+     "slug": "the-farmer-and-8217-s-dog",
+     "description": "The Farmer&#8217;s Dog is a New York-based direct-to-consumer pet health company that makes fresh, human-grade dog food. Founded in 2014 by Brett Podolsky and Jonathan Regev, it builds personalized meal plans from each dog's profile and delivers pre-portioned, gently cooked meals on a recurring subscription, shipping nationwide across the United States from its own food-safety-standard kitchens. The company is a consumer-brand portfolio company of Insight Partners. It operates a public marketing/commerce website and a GitHub organization (github.com/farmersdog) of internal tooling, but does not publish a public developer API; this profile was surfaced as a portfolio lead and enriched with the honest finding that there is no public API surface.",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1237,12 +1237,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1269,10 +1269,11 @@
      "rank": 26
     },
     {
-     "name": "The Farmer&#8217;s Dog",
-     "slug": "the-farmer-and-8217-s-dog",
-     "description": "The Farmer&#8217;s Dog is a New York-based direct-to-consumer pet health company that makes fresh, human-grade dog food. Founded in 2014 by Brett Podolsky and Jonathan Regev, it builds personalized meal plans from each dog's profile and delivers pre-portioned, gently cooked meals on a recurring subscription, shipping nationwide across the United States from its own food-safety-standard kitchens. The company is a consumer-brand portfolio company of Insight Partners. It operates a public marketing/commerce website and a GitHub organization (github.com/farmersdog) of internal tooling, but does not publish a public developer API; this profile was surfaced as a portfolio lead and enriched with the honest finding that there is no public API surface.",
-     "score": 5.3,
+     "name": "DogVacay",
+     "slug": "dogvacay",
+     "description": "DogVacay was a consumer marketplace for dog boarding, pet sitting, dog walking, and doggy daycare that connected pet owners with a network of vetted, background-checked pet sitters and hosts across the United States and Canada. Founded in 2012 and backed by Andreessen Horowitz (a16z), the company was acquired by and merged into Rover in 2017; the DogVacay brand has since been retired and dogvacay.com now redirects to Rover. No public developer API, developer portal, or API documentation was ever published, so this profile carries company identity only and no API artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dogvacay/refs/heads/main/screenshots/dogvacay-2026-07-25T212233.png",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1280,13 +1281,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1313,10 +1314,10 @@
      "rank": 27
     },
     {
-     "name": "DogVacay",
-     "slug": "dogvacay",
-     "description": "DogVacay was a consumer marketplace for dog boarding, pet sitting, dog walking, and doggy daycare that connected pet owners with a network of vetted, background-checked pet sitters and hosts across the United States and Canada. Founded in 2012 and backed by Andreessen Horowitz (a16z), the company was acquired by and merged into Rover in 2017; the DogVacay brand has since been retired and dogvacay.com now redirects to Rover. No public developer API, developer portal, or API documentation was ever published, so this profile carries company identity only and no API artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dogvacay/refs/heads/main/screenshots/dogvacay-2026-07-25T212233.png",
+     "name": "Itch",
+     "slug": "itch",
+     "description": "Itch is a UK direct-to-consumer pet wellness brand, backed by Seedcamp, offering a subscription service that delivers vet-approved flea, tick and worm treatments to pet owners on a recurring schedule, alongside pet health guidance and related care products. It was surfaced as a Seedcamp portfolio company and added to the API Evangelist network for enrichment. As of this pass no public developer portal, API documentation, or machine-readable API specification could be found; the consumer website sits behind bot protection, so this profile carries provider identity plus a probed domain-security posture rather than API artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/itch/refs/heads/main/screenshots/itch-2026-07-25T222959.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1330,8 +1331,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1358,10 +1359,10 @@
      "rank": 28
     },
     {
-     "name": "Itch",
-     "slug": "itch",
-     "description": "Itch is a UK direct-to-consumer pet wellness brand, backed by Seedcamp, offering a subscription service that delivers vet-approved flea, tick and worm treatments to pet owners on a recurring schedule, alongside pet health guidance and related care products. It was surfaced as a Seedcamp portfolio company and added to the API Evangelist network for enrichment. As of this pass no public developer portal, API documentation, or machine-readable API specification could be found; the consumer website sits behind bot protection, so this profile carries provider identity plus a probed domain-security posture rather than API artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/itch/refs/heads/main/screenshots/itch-2026-07-25T222959.png",
+     "name": "Pawsh",
+     "slug": "pawsh",
+     "description": "Pawsh is a consumer marketplace that connects pet owners with top-rated local dog and cat groomers. Pet owners browse groomer profiles, read real reviews, compare transparent pricing, and book grooming appointments online in minutes. Backed by 500 Global, Pawsh runs as a Firebase-backed web application at pawsh.app and serves 2,000+ pet owners. As of this enrichment pass the company publishes no public API, developer portal, SDKs, or documentation surface — it is a consumer-facing booking platform with no programmable interface to catalog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pawsh/refs/heads/main/screenshots/pawsh-2026-08-07T191615.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1375,8 +1376,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1403,10 +1404,9 @@
      "rank": 29
     },
     {
-     "name": "Pawsh",
-     "slug": "pawsh",
-     "description": "Pawsh is a consumer marketplace that connects pet owners with top-rated local dog and cat groomers. Pet owners browse groomer profiles, read real reviews, compare transparent pricing, and book grooming appointments online in minutes. Backed by 500 Global, Pawsh runs as a Firebase-backed web application at pawsh.app and serves 2,000+ pet owners. As of this enrichment pass the company publishes no public API, developer portal, SDKs, or documentation surface — it is a consumer-facing booking platform with no programmable interface to catalog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pawsh/refs/heads/main/screenshots/pawsh-2026-08-07T191615.png",
+     "name": "TellTail",
+     "slug": "telltail",
+     "description": "TellTail was a community-first platform providing community, education, and business support to dog breeders, connecting certified breeders with families seeking puppies. Backed by a $3.4M seed round led by General Catalyst (April 2022, with Scribble Ventures and Companion Fund). Surfaced as a General Catalyst portfolio company and added to the API Evangelist network. The company has since ceased operations (\"TellTail is closing its doors\"); it operated a consumer marketplace and community product with no public developer API, documentation, SDK, or event surface.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1420,8 +1420,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1448,50 +1448,6 @@
      "rank": 30
     },
     {
-     "name": "TellTail",
-     "slug": "telltail",
-     "description": "TellTail was a community-first platform providing community, education, and business support to dog breeders, connecting certified breeders with families seeking puppies. Backed by a $3.4M seed round led by General Catalyst (April 2022, with Scribble Ventures and Companion Fund). Surfaced as a General Catalyst portfolio company and added to the API Evangelist network. The company has since ceased operations (\"TellTail is closing its doors\"); it operated a consumer marketplace and community product with no public developer API, documentation, SDK, or event surface.",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 31
-    },
-    {
      "name": "Petcube",
      "slug": "petcube",
      "description": "Petcube is a pet-technology company (a Y Combinator alum) that makes interactive Wi-Fi pet cameras and a companion mobile app for remote pet care. Its consumer hardware line includes the Petcube Cam, Bites treat-dispensing camera, and Play laser camera, offering HD video, night vision, two-way audio, motion and sound alerts, and app-controlled treat tossing and play. Petcube also sells the Care subscription (cloud video history, extended alerts) and Online Vet / Emergency Fund telehealth services. As of this enrichment pass Petcube exposes no public developer API, developer portal, or documented integration surface — the primary interface is the consumer iOS/Android app tied to its private cloud backend. This profile is maintained in the API Evangelist network as a company record.",
@@ -1508,8 +1464,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1540,7 +1496,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 31
     },
     {
      "name": "Elanco Animal Health",
@@ -1560,8 +1516,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": false,
       "undetermined": true,
@@ -1590,7 +1546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 32
     },
     {
      "name": "Patterson Companies",
@@ -1610,8 +1566,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-08-27",
-     "schema_version": "0.15.1",
+     "scored_at": "2026-08-30",
+     "schema_version": "0.17.2",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1642,7 +1598,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 33
     }
    ]
   }

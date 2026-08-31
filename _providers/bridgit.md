@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 187
   slug: bridgit-agentic-access
   summary_line: 187 operations · 126 acting · 2 human-in-the-loop
-api_count: 40
+api_count: 1
 apis:
 - description: The AccountActivities API from Bridgit — 1 operation(s) for accountactivities.
   name: Bridgit AccountActivities API
@@ -292,6 +292,10 @@ collections:
   name: Bench AccountActivities Users API
   slug: open-bridgit-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bridgit-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -388,19 +392,24 @@ network: true
 overview: 'Bridgit publishes 40 APIs on the [APIs.io](https://apis.io/) network, including AccountActivities API, AccountCertifications API, AccountGroupings API, and 37 more. Tagged areas include Construction, Construction Technology, Workforce Planning, Workforce Management, and Resource Planning.
 
 
-  Bridgit''s developer surface includes authentication, documentation, support, engineering blog, GitHub presence, YouTube channel, and 15 more developer resources.'
+  Bridgit''s developer surface includes authentication, documentation, support, engineering blog, GitHub presence, YouTube channel, and 16 more developer resources.'
 random_paper: 6
 score:
   band: thin
-  composite: 28.0
-  delta: 0.0
+  composite: 27.4
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
     contract_governance: 0.0
     contract_quality: 53.3
     developer_ergonomics: 26.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 28.0
@@ -411,8 +420,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridgit/refs/heads/main/screenshots/bridgit-2026-06-20T173656.png
 security:

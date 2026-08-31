@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 157
   slug: figshare-agentic-access
   summary_line: 157 operations · 81 acting · 2 human-in-the-loop
-api_count: 10
+api_count: 1
 apis:
 - description: The altmetric API from Figshare — 1 operation(s) for altmetric.
   name: Figshare altmetric API
@@ -140,6 +140,10 @@ collections:
   name: Figshare altmetric symplectic API
   slug: open-figshare-symplectic-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/figshare-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -224,10 +228,6 @@ common:
   title: ''
   type: BlogRSS
   url: https://info.figshare.com/blog/feed/
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: '2026-06-12'
 description: Figshare is a research data repository platform that enables researchers, institutions, and organizations to upload, manage, and publicly share scientific outputs including datasets, figures, media, papers, posters, and software. The platform provides persistent DOI assignment for all published research outputs, enabling proper citation and long-term discoverability. Figshare's REST API v2 allows programmatic access to articles, collections, projects, file uploads, statistics, and administrative functions. The platform is built on AWS infrastructure and supports both individual researchers with a free 20GB tier and institutional deployments with custom storage configurations up to multiple terabytes.
 examples:
@@ -332,18 +332,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 53.1
-  delta: 0.8
+  composite: 52.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 24.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 74.0
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 52.3
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     contracts:
@@ -357,8 +362,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/screenshots/figshare-2026-06-20T181159.png
 security:

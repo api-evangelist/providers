@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 23
   slug: hologram-agentic-access
   summary_line: 23 operations · 13 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The Cellular Links API from Hologram — 6 operation(s) for cellular links.
   name: Hologram Cellular Links API
@@ -101,6 +101,10 @@ collections:
   name: Hologram REST API
   slug: open-hologram
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hologram-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -156,7 +160,7 @@ network: true
 overview: 'Hologram publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Cellular Links API, Devices API, Messaging API, and 5 more. Tagged areas include IoT, Cellular, Connectivity, SIM, and M2M.
 
 
-  Hologram''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Hologram''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Hologram Plans Pricing
   plan_count: 2
@@ -168,18 +172,23 @@ rate_limits:
   slug: hologram-rate-limits
 score:
   band: thin
-  composite: 32.9
-  delta: 1.7
+  composite: 32.3
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 29.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 31.2
+  previous_composite: 32.9
   provenance:
     agentic_access: derived
     contracts:
@@ -193,8 +202,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hologram/refs/heads/main/screenshots/hologram-2026-07-25T221329.png
 security:

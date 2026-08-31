@@ -10,31 +10,32 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: documented
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
+    spec_presence: true
+    well_known_catalog: true
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
-api_count: 8
+  score: 42.7
+  scored_at: '2026-08-30'
+api_count: 12
 apis:
 - description: Redocly Realm is the comprehensive API lifecycle management platform that unifies Redoc, Revel, and Reef into a single integrated product. Realm includes API documentation, mock servers, linting, cata
   name: Redocly Realm
@@ -60,8 +61,32 @@ apis:
 - description: Arazzo is the OpenAPI Initiative's specification for describing multi-step API workflows; Redocly is a primary tooling vendor with first-class Arazzo support across Redocly CLI (lint, validate, genera
   name: Arazzo Specification (Redocly Tooling)
   slug: redocly-arazzo
-artifact_total: 21
+- description: 'The Search API is the machine-readable query surface of any Realm project: POST /_search returns documentation and API-reference matches and POST /_search-facets returns facet aggregations. It is the '
+  name: Redocly Realm Search API
+  slug: redocly-search-api
+- description: 'The Docs MCP server is Realm''s Model Context Protocol endpoint, generated automatically from a project''s documentation and OpenAPI descriptions and served at /mcp on the project root. Redocly runs it '
+  name: Redocly Docs MCP Server
+  slug: redocly-docs-mcp
+- description: 'Scout is Redocly''s API-discovery service: it crawls connected Git remotes, tracks pull requests and runs jobs that find hidden, duplicate and undocumented APIs, then pushes what it finds into a Reunit'
+  name: Redocly Scout API
+  slug: redocly-scout
+- description: 'The Scout agent is the self-hosted worker half of Scout, deployed inside the customer''s own infrastructure (Redocly documents an AWS ECS task definition). Its API is small and operational: a health ch'
+  name: Redocly Scout Agent API
+  slug: redocly-scout-agent
+artifact_total: 31
+asyncapis:
+- description: ''
+  name: Redocly Webhooks
+  slug: redocly-webhooks
 common:
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/redocly-scopes.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/redocly-authentication.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -162,10 +187,6 @@ common:
   title: ''
   type: DataProcessingAddendum
   url: https://redocly.com/dpa
-- group: commercial
-  title: ''
-  type: Pricing
-  url: https://redocly.com/startup-discount
 - group: docs
   title: ''
   type: Reference
@@ -186,6 +207,102 @@ common:
   title: ''
   type: LlmsText
   url: https://redocly.com/llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/redocly-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/redocly-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/redocly-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/redocly-tool-crosswalk.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/redocly-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/redocly-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/redocly-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/redocly-trust-center.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/redocly-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/redocly-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/redocly-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/redocly-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/redocly-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/redocly-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/redocly-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/redocly-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/redocly-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/redocly-webhooks.yml
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://redocly.com/roadmap
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://redocly.com/docs/realm/get-started
+- group: start
+  title: ''
+  type: Quickstart
+  url: https://redocly.com/docs/cli/quickstart
+- group: learn
+  title: ''
+  type: Learn
+  url: https://redocly.com/learn
+- group: other
+  title: ''
+  type: SubProcessors
+  url: https://redocly.com/sub-processors
 created: '2026-01-05'
 description: Redocly is a company that specializes in API documentation and governance tooling. Their platform helps organizations create, manage, and publish API documentation through Realm (the integrated lifecycle platform that unifies Redoc, Revel, and Reef), Reunite (Git-connected collaboration and deployment for docs/APIs), Revel (developer portal), Reef (internal API catalog and scorecard), and Redoc (open-source OpenAPI renderer). The Redocly CLI provides linting, bundling, splitting, decoration, and documentation generation for OpenAPI, AsyncAPI, and Arazzo specifications. Respect Monitoring adds continuous, Arazzo-powered API monitoring, and the Enterprise tier exposes MCP Servers and AI search for Realm portals — positioning Redocly's catalog as an AI substrate for agentic software.
 examples:
@@ -223,24 +340,28 @@ jsonld:
   property_count: 4
   slug: redocly-context
 layout: provider
-modified: '2026-05-22'
+mcp_servers:
+- description: 'Redocly ships a Docs MCP server as a Realm feature and runs it on its own documentation site. The endpoint answers anonymously: tools/list returns two real tools and resources/list returns the publish'
+  name: Redocly Docs MCP Server
+  slug: redocly-docs-mcp-server
+modified: '2026-08-27'
 name: Redocly
 nav: Providers
 network: true
-overview: 'Redocly publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, API Catalog, API Documentation, Arazzo, and Developer Portal.
+overview: 'Redocly publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Realm Search API, Docs MCP Server, Scout API, and 1 more. Tagged areas include Artificial Intelligence, API Catalog, API Documentation, Arazzo, and Developer Portal.
 
 
-  The Redocly catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Redocly catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Redocly''s developer surface includes documentation, pricing, engineering blog, CLI, support, signup flow, changelog, and 24 more developer resources.'
+  Redocly''s developer surface includes authentication, documentation, pricing, engineering blog, CLI, support, signup flow, and 49 more developer resources.'
 plans:
 - name: Redocly Plans Pricing
-  plan_count: 13
+  plan_count: 15
   slug: redocly-plans-pricing
 random_paper: 19
 rate_limits:
-- limit_count: 7
+- limit_count: 9
   name: Redocly Rate Limits
   slug: redocly-rate-limits
 rules:
@@ -254,29 +375,51 @@ rules:
     info: 1
     warn: 4
   slug: redocly-jsonschema-spectral-rules
+scopes:
+- name: Redocly Scopes
+  scope_count: 0
+  slug: redocly-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 40.7
-  delta: 1.8
+  band: strong
+  composite: 65.2
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 47.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 60.5
-    commercial_clarity: 60.5
-    contract_governance: 25.0
-    contract_quality: 20.0
-    developer_ergonomics: 31.0
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 43.2
+    contract_quality: 65.0
+    developer_ergonomics: 61.9
     discoverability: 72.2
-    governance: 25.0
-    operational_transparency: 55.3
-  previous_composite: 38.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    governance: 43.2
+    operational_transparency: 68.4
+  previous_composite: 65.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/screenshots/redocly-2026-06-20T192731.png
 security:
+- kind: authentication
+  name: Redocly Authentication
+  slug: redocly-authentication
+  summary_line: apiKey/http/oauth2 · 5 schemes
 - kind: domain-security
   name: Redocly Domain Security
   slug: redocly-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Redocly Vulnerability Disclosure
+  slug: redocly-vulnerability-disclosure
+  summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Redocly Trust Center
+  slug: redocly-trust-center
+  summary_line: SOC 2 Type II, CSA STAR / CAIQ v4, PCI DSS, GDPR / CCPA
 slug: redocly
 tags:
 - Artificial Intelligence

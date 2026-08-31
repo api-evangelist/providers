@@ -17,9 +17,9 @@ agent_readiness:
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: bearer
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.9
-  scored_at: '2026-08-26'
+  score: 29.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 42
   slug: snapchat-agentic-access
   summary_line: 42 operations · 18 acting
-api_count: 17
+api_count: 2
 apis:
-- description: The Snapchat Ads API (Marketing API) allows developers to programmatically create, manage, and optimize advertising campaigns on the Snapchat platform. It provides endpoints for managing organizations
-  name: Snapchat Ads API
-  slug: snapchat-ads-api
 - description: Creative Kit allows developers to let users share content including Lenses, AR experiences, filters, GIFs, videos, links, and captions from a website or app directly to Snapchat's camera or preview sc
   name: Snapchat Creative Kit
   slug: snapchat-creative-kit
@@ -56,46 +53,19 @@ apis:
 - description: Lens Studio is Snap's desktop application for building augmented reality lenses for Snapchat and Spectacles. Provides an API for scripting lens behaviors, integrating dynamic data, and publishing to t
   name: Lens Studio
   slug: snapchat-lens-studio
-- description: Ad Accounts are owned by an Organization and contain Ad Campaigns. They have one or more Funding Sources.
-  name: Snapchat Ad Accounts API
-  slug: snapchat-ad-accounts-api
-- description: Ad Squads organize ads within a campaign, defining targeting, budget, schedule, and bid strategy.
-  name: Snapchat Ad Squads API
-  slug: snapchat-ad-squads-api
-- description: Audience Segments allow advertisers to define and manage custom audiences for ad targeting, including Snap Audience Match, lookalike audiences, and pixel-based audiences.
-  name: Snapchat Audience Segments API
-  slug: snapchat-audience-segments-api
-- description: Campaigns define a business objective and organize Ad Squads, allowing advertisers to view aggregate statistics.
-  name: Snapchat Campaigns API
-  slug: snapchat-campaigns-api
 - description: Endpoints for sending web, app, and offline conversion events to Snap for campaign measurement and optimization.
   name: Snapchat Conversion Events API
   slug: snapchat-conversion-events-api
-- description: Creatives define the visual and interactive content of ads, including images, videos, and call-to-action overlays.
-  name: Snapchat Creatives API
-  slug: snapchat-creatives-api
-- description: Funding Sources represent payment methods associated with an organization, including credit cards, PayPal, and lines of credit.
-  name: Snapchat Funding Sources API
-  slug: snapchat-funding-sources-api
-- description: Measurement endpoints provide campaign performance statistics and reporting data at various levels of the ad hierarchy.
-  name: Snapchat Measurement API
-  slug: snapchat-measurement-api
-- description: Media endpoints handle uploading and managing media assets such as images and videos used in creatives.
-  name: Snapchat Media API
-  slug: snapchat-media-api
 - description: OAuth 2.0 authorization and token management endpoints for authenticating users via their Snapchat account.
   name: Snapchat OAuth API
   slug: snapchat-oauth-api
-- description: Organizations represent brands, partners, or ad agencies. Organizations are created via Snap Business Manager.
-  name: Snapchat Organizations API
-  slug: snapchat-organizations-api
 - description: Endpoints for retrieving authenticated user profile information including display name and Bitmoji avatar.
   name: Snapchat User Profile API
   slug: snapchat-user-profile-api
 - description: Snap's first-party hosted Model Context Protocol server for the Snapchat Ads API. A supported agent connects over streamable HTTP to https://mcp.snapchat.com/ads and authenticates with OAuth 2.0 (auth
   name: Snapchat Ads MCP Server
   slug: snapchat-ads-mcp
-artifact_total: 74
+artifact_total: 64
 collections:
 - collection_type: open
   name: API Collection
@@ -146,6 +116,50 @@ collections:
   name: Snapchat Ads Ad Accounts User Profile API
   slug: open-snapchat-user-profile-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/snapchat-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/snapchat-ad-accounts-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/snapchat-ad-squads-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/snapchat-audience-segments-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/snapchat-campaigns-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/snapchat-creatives-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/snapchat-funding-sources-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/snapchat-measurement-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/snapchat-media-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/snapchat-organizations-api-overlay.yaml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Snapchat/creative-kit/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -427,13 +441,13 @@ modified: '2026-08-13'
 name: Snapchat
 nav: Providers
 network: true
-overview: 'Snapchat publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Ad Accounts API, Ad Squads API, and 10 more. Tagged areas include Advertising, AR, Augmented Reality, Marketing, and Messaging.
+overview: 'Snapchat publishes 3 APIs on the [APIs.io](https://apis.io/) network: Conversion Events API, OAuth API, and User Profile API. Tagged areas include Advertising, AR, Augmented Reality, Marketing, and Messaging.
 
 
   The Snapchat catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Snapchat''s developer surface includes authentication, documentation, engineering blog, support, pricing, signup flow, sandbox, and 36 more developer resources.'
+  Snapchat''s developer surface includes authentication, documentation, engineering blog, support, pricing, signup flow, sandbox, and 47 more developer resources.'
 plans:
 - name: Snapchat Plans Pricing
   plan_count: 1
@@ -472,18 +486,26 @@ scopes:
   summary_line: 7 scopes · authorizationCode/implicit
 score:
   band: strong
-  composite: 65.6
-  delta: 0.0
+  composite: 56.9
+  coverage:
+    artifact_dirs: 33
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_governance: 43.9
-    contract_quality: 66.8
+    contract_governance: 31.8
+    contract_quality: 65.3
     developer_ergonomics: 73.2
-    discoverability: 72.2
-    governance: 43.9
+    discoverability: 66.7
+    governance: 31.8
     operational_transparency: 57.9
-  previous_composite: 65.6
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 57.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -494,8 +516,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snapchat/refs/heads/main/screenshots/snapchat-2026-06-20T194106.png
 security:

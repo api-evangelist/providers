@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The regionally partitioned HTTP API behind the HungryPanda merchant back office (merchant.hungrypanda.co) and the POS/middleware partner integrations. It carries merchant onboarding and authentication
@@ -107,7 +107,7 @@ modified: '2026-08-22'
 name: HungryPanda
 nav: Providers
 network: true
-overview: 'HungryPanda publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, Delivery, Marketplace, and Restaurants.
+overview: 'HungryPanda publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, Delivery, Marketplace, and Restaurant.
 
 
   HungryPanda''s developer surface includes signup flow, support, engineering blog, and 10 more developer resources.'
@@ -123,7 +123,12 @@ rate_limits:
 score:
   band: emerging
   composite: 15.7
-  delta: 3.8
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -133,15 +138,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.9
+  previous_composite: 15.7
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -162,11 +167,11 @@ tags:
 - Food Delivery
 - Delivery
 - Marketplace
-- Restaurants
+- Restaurant
 - Grocery
 - Logistics
 - E-Commerce
 - Merchants
-- Point of Sale
+- Point-of-Sale
 website: https://www.hungrypanda.co/
 ---

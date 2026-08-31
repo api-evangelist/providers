@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 57
   slug: tito-agentic-access
   summary_line: 57 operations · 35 acting
-api_count: 10
+api_count: 1
 apis:
 - description: Authentication check and account discovery.
   name: Tito Account API
@@ -74,7 +74,10 @@ apis:
 - description: Endpoints Tito POSTs event notifications to.
   name: Tito Webhook Endpoints API
   slug: tito-webhook-endpoints-api
-artifact_total: 28
+- description: The Tito Admin API API from Tito — 0 operation(s) for tito admin api.
+  name: Tito Tito Admin API
+  slug: tito-tito-admin-api-api
+artifact_total: 29
 collections:
 - collection_type: open
   name: API Collection
@@ -169,7 +172,7 @@ modified: '2026-07-12'
 name: Tito
 nav: Providers
 network: true
-overview: 'Tito publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Account API, Activities API, Check-in Lists API, and 7 more. Tagged areas include Event Ticketing, Event, Registration, Ticketing, and Conferences.
+overview: 'Tito publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account API, Activities API, Check-in Lists API, and 8 more. Tagged areas include Event Ticketing, Event, Registration, Ticketing, and Conferences.
 
 
   Tito''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
@@ -184,18 +187,23 @@ rate_limits:
   slug: tito-rate-limits
 score:
   band: thin
-  composite: 28.8
-  delta: 2.4
+  composite: 28.1
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 13.0
+    contract_quality: 12.7
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 26.4
+  previous_composite: 28.7
   provenance:
     agentic_access: derived
     contracts:
@@ -203,8 +211,8 @@ score:
       derived: 10
       marker_coverage: 100.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

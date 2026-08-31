@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: africastalking-agentic-access
   summary_line: 14 operations · 12 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Distribute mobile airtime to recipients.
   name: Africa's Talking Airtime API
@@ -89,6 +89,10 @@ collections:
   name: Africa's Talking API
   slug: open-africastalking
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/africastalking-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -144,7 +148,7 @@ network: true
 overview: 'Africa''s Talking publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Airtime API, Mobile Data API, Payments API, and 3 more. Tagged areas include Communications, SMS, USSD, Voice, and Airtime.
 
 
-  Africa''s Talking''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Africa''s Talking''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Africastalking Plans Pricing
   plan_count: 2
@@ -156,18 +160,23 @@ rate_limits:
   slug: africastalking-rate-limits
 score:
   band: thin
-  composite: 32.4
-  delta: 1.0
+  composite: 31.8
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 53.3
     developer_ergonomics: 16.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 31.4
+  previous_composite: 32.4
   provenance:
     agentic_access: derived
     contracts:
@@ -181,8 +190,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/screenshots/africastalking-2026-06-20T165713.png
 security:

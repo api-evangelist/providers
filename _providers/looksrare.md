@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: looksrare-agentic-access
   summary_line: 10 operations · 2 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Retrieve token and order activity events from the LooksRare marketplace including LIST, SALE, OFFER, CANCEL_LIST, and CANCEL_OFFER event types. GET /v2/events supports filtering by collection address,
   name: LooksRare Events API
@@ -196,15 +196,20 @@ rate_limits:
   slug: looksrare-rate-limits
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 42.9
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 47.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 63.1
     developer_ergonomics: 45.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 43.5
@@ -215,8 +220,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/looksrare/refs/heads/main/screenshots/looksrare-2026-06-20T184713.png
 security:

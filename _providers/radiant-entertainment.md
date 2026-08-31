@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/riot-games/
 created: '2026-07-17'
 description: Radiant Entertainment was an independent video game studio co-founded by brothers Tom and Tony Cannon, who also created the Evolution Championship Series (EVO), the premier fighting-game tournament. The studio was backed by Andreessen Horowitz (a16z) and is known for the free-to-play fighting game Rising Thunder and the voxel city-building title Stonehearth. Radiant Entertainment was acquired by Riot Games in 2016 and its team was folded into Riot; the studio no longer operates as an independent entity and publishes no public API, developer portal, or documentation surface. This profile was surfaced as an a16z portfolio company and added to the API Evangelist network.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/radiant-entertainment.png
@@ -48,6 +53,11 @@ random_paper: 6
 score:
   band: minimal
   composite: 5.0
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -67,8 +77,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: radiant-entertainment
 tags:

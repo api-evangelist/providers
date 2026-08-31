@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 191
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 371
   slug: pipedrive-agentic-access
   summary_line: 371 operations · 191 acting
-api_count: 48
+api_count: 2
 apis:
 - description: 'Activities are appointments/tasks/events on a calendar that can be associated with a deal, a lead, a person and an organization. Activities can be of different type (such as call, meeting, lunch or a '
   name: Pipedrive Activities API
@@ -492,6 +492,10 @@ collections:
   name: Pipedrive API v1 Activities Webhooks API
   slug: open-pipedrive-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pipedrive-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -621,7 +625,7 @@ overview: 'Pipedrive publishes 48 APIs on the [APIs.io](https://apis.io/) networ
   The Pipedrive catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Pipedrive''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 18 more developer resources.'
+  Pipedrive''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, and 19 more developer resources.'
 plans:
 - name: Pipedrive Plans Pricing
   plan_count: 11
@@ -650,18 +654,23 @@ scopes:
   summary_line: 28 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 45.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 11.4
     contract_quality: 68.8
     developer_ergonomics: 34.5
-    discoverability: 50.0
+    discoverability: 51.9
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 45.7
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     contracts:
@@ -669,8 +678,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 48
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/screenshots/pipedrive-2026-06-20T191725.png
 security:

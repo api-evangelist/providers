@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 109
   slug: smartling-agentic-access
   summary_line: 109 operations · 59 acting · 2 human-in-the-loop
-api_count: 19
+api_count: 1
 apis:
 - description: Smartling's REST API for the translation management platform. Resource groups include Authentication, Accounts, Projects, Source Files, Strings, Translations, Jobs, Glossary, Issues, Quality Checks, M
   name: Smartling REST API
@@ -242,18 +242,23 @@ rate_limits:
   slug: smartling-rate-limits
 score:
   band: developing
-  composite: 42.0
-  delta: 6.2
+  composite: 41.4
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 57.2
     developer_ergonomics: 47.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 35.8
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     contracts:
@@ -261,9 +266,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smartling/refs/heads/main/screenshots/smartling-2026-06-20T194043.png
 security:
 - kind: domain-security

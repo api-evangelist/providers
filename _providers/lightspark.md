@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 5
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 132
   slug: lightspark-agentic-access
   summary_line: 132 operations · 82 acting · 5 human-in-the-loop
-api_count: 22
+api_count: 1
 apis:
 - description: 'Endpoints for creating and managing agents (experimental), called by the partner''s backend using platform credentials. Covers the full agent lifecycle: creation, policy configuration, pausing, deletio'
   name: Lightspark Agent Management API
@@ -109,7 +109,10 @@ apis:
 - description: Endpoints for retrieving transaction information
   name: Lightspark Transactions API
   slug: lightspark-transactions-api
-artifact_total: 75
+- description: Webhook endpoints and configuration for receiving notifications
+  name: Lightspark Webhooks API
+  slug: lightspark-webhooks-api
+artifact_total: 76
 asyncapis:
 - description: ''
   name: Lightspark Grid Webhooks
@@ -251,6 +254,10 @@ collections:
   name: Grid Agent Management Transactions API
   slug: open-lightspark-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lightspark-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -439,13 +446,13 @@ modified: '2026-07-19'
 name: Lightspark
 nav: Providers
 network: true
-overview: 'Lightspark publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Agent Management API, Agent Operations API, API Tokens API, and 19 more. Tagged areas include Company, Payments, Cross-Border Payments, Stablecoins, and Bitcoin.
+overview: 'Lightspark publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Agent Management API, Agent Operations API, API Tokens API, and 20 more. Tagged areas include Company, Payments, Cross-Border Payments, Stablecoins, and Bitcoin.
 
 
   The Lightspark catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Lightspark''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 37 more developer resources.'
+  Lightspark''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 38 more developer resources.'
 random_paper: 10
 rules:
 - effective_rule_count: 54
@@ -461,18 +468,23 @@ rules:
   slug: lightspark-grid-spectral
 score:
   band: exemplar
-  composite: 71.4
-  delta: 0.0
+  composite: 69.2
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 84.8
-    contract_quality: 69.2
+    contract_governance: 72.7
+    contract_quality: 68.4
     developer_ergonomics: 85.1
-    discoverability: 81.5
-    governance: 84.8
+    discoverability: 75.9
+    governance: 72.7
     operational_transparency: 60.5
-  previous_composite: 71.4
+  previous_composite: 69.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -489,8 +501,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/screenshots/lightspark-2026-07-25T225132.png
 security:

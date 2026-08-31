@@ -34,18 +34,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Public REST API for the StreetMetrics out-of-home advertising platform. 54 operations across campaigns, transit and stationary ad groups, assets and asset owners, frames, creatives, markets, media and
-  name: StreetMetrics Public API
-  slug: streetmetrics-public-api
-artifact_total: 8
+- description: The Ad Groups API from StreetMetrics — 7 operation(s) for ad groups.
+  name: StreetMetrics Ad Groups API
+  slug: streetmetrics-ad-groups-api
+- description: The Assets API from StreetMetrics — 5 operation(s) for assets.
+  name: StreetMetrics Assets API
+  slug: streetmetrics-assets-api
+- description: The Attribution Studies API from StreetMetrics — 6 operation(s) for attribution studies.
+  name: StreetMetrics Attribution Studies API
+  slug: streetmetrics-attribution-studies-api
+- description: The Authentication API from StreetMetrics — 1 operation(s) for authentication.
+  name: StreetMetrics Authentication API
+  slug: streetmetrics-authentication-api
+- description: The Campaigns API from StreetMetrics — 2 operation(s) for campaigns.
+  name: StreetMetrics Campaigns API
+  slug: streetmetrics-campaigns-api
+- description: The Creatives API from StreetMetrics — 2 operation(s) for creatives.
+  name: StreetMetrics Creatives API
+  slug: streetmetrics-creatives-api
+- description: The Frames API from StreetMetrics — 2 operation(s) for frames.
+  name: StreetMetrics Frames API
+  slug: streetmetrics-frames-api
+- description: The Markets API from StreetMetrics — 1 operation(s) for markets.
+  name: StreetMetrics Markets API
+  slug: streetmetrics-markets-api
+- description: The Media API from StreetMetrics — 2 operation(s) for media.
+  name: StreetMetrics Media API
+  slug: streetmetrics-media-api
+- description: The Pixels API from StreetMetrics — 4 operation(s) for pixels.
+  name: StreetMetrics Pixels API
+  slug: streetmetrics-pixels-api
+- description: The Reporting API from StreetMetrics — 8 operation(s) for reporting.
+  name: StreetMetrics Reporting API
+  slug: streetmetrics-reporting-api
+artifact_total: 18
 collections:
 - collection_type: open
   name: StreetMetrics Public API
   slug: open-streetmetrics-public-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/streetmetrics-public-api-overlay.yaml
 - group: auth
   title: ''
   type: Authentication
@@ -182,10 +216,10 @@ modified: '2026-08-12'
 name: StreetMetrics
 nav: Providers
 network: true
-overview: 'StreetMetrics publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Advertising, Out-of-Home, Measurements, and Attribution.
+overview: 'StreetMetrics publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Ad Groups API, Assets API, Attribution Studies API, and 8 more. Tagged areas include Company, Advertising, Out-of-Home, Measurements, and Attribution.
 
 
-  StreetMetrics'' developer surface includes authentication, engineering blog, documentation, API reference, getting-started guide, support, changelog, and 23 more developer resources.'
+  StreetMetrics'' developer surface includes authentication, engineering blog, documentation, API reference, getting-started guide, support, changelog, and 24 more developer resources.'
 plans:
 - name: Streetmetrics Plans Pricing
   plan_count: 0
@@ -197,18 +231,23 @@ rate_limits:
   slug: streetmetrics-rate-limits
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 34.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
-    contract_quality: 51.2
+    contract_governance: 4.5
+    contract_quality: 47.0
     developer_ergonomics: 39.9
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 37.3
+  previous_composite: 35.3
   provenance:
     conformance: derived
     contracts:
@@ -218,8 +257,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streetmetrics/refs/heads/main/screenshots/streetmetrics-2026-08-17T082138.png
 security:

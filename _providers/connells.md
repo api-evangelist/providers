@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -44,10 +44,19 @@ agentic_access:
   summary_line: 7 operations
 api_count: 1
 apis:
-- description: An undocumented, unauthenticated, read-only JSON surface served by the Connells consumer website at https://www.connells.co.uk/api. It is NOT a published Connells Group product — the group publishes n
-  name: Connells Website JSON API (undocumented)
-  slug: connells-website-json-api-undocumented
-artifact_total: 12
+- description: Connells branch (office) directory.
+  name: Connells Group Branches API
+  slug: connells-branches-api
+- description: Geographic locations and place-name lookup.
+  name: Connells Group Locations API
+  slug: connells-locations-api
+- description: Connells staff directory.
+  name: Connells Group People API
+  slug: connells-people-api
+- description: Published customer testimonials.
+  name: Connells Group Testimonials API
+  slug: connells-testimonials-api
+artifact_total: 15
 collections:
 - collection_type: open
   name: Connells Website JSON API (undocumented)
@@ -216,7 +225,7 @@ modified: '2026-07-26'
 name: Connells Group
 nav: Providers
 network: true
-overview: 'Connells Group publishes 1 API on the [APIs.io](https://apis.io/) network: Connells Website JSON API (undocumented). Tagged areas include Real-Estate, United Kingdom, Property Listings, Brokerage, and Estate Agency.
+overview: 'Connells Group publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Branches API, Locations API, People API, and 1 more. Tagged areas include Real-Estate, United Kingdom, Property Listings, Brokerage, and Estate Agency.
 
 
   Connells Group''s developer surface includes code examples, authentication, engineering blog, and 30 more developer resources.'
@@ -227,18 +236,23 @@ rate_limits:
   slug: connells-rate-limits
 score:
   band: emerging
-  composite: 24.0
-  delta: 0.0
+  composite: 24.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 18.2
-    contract_quality: 15.0
+    contract_quality: 15.2
     developer_ergonomics: 16.1
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 24.0
+  previous_composite: 24.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -255,8 +269,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/connells/refs/heads/main/screenshots/connells-2026-08-07T163756.png
 security:

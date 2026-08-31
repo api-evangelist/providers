@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 141
   slug: kuma-agentic-access
   summary_line: 141 operations · 62 acting
-api_count: 38
+api_count: 1
 apis:
 - description: Kuma extends the Kubernetes API server with Custom Resource Definitions (CRDs) for defining and managing service mesh policies. These resources include MeshTrafficPermission, MeshRetry, MeshTimeout, M
   name: Kuma Kubernetes Policy API
@@ -276,6 +276,10 @@ collections:
   name: Kuma Dataplane ZoneIngress API
   slug: open-kuma-zoneingress-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kuma-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -391,7 +395,7 @@ overview: 'Kuma publishes 36 APIs on the [APIs.io](https://apis.io/) network, in
   The Kuma catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Kuma''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, Stack Overflow tag, and 15 more developer resources.'
+  Kuma''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, support, Stack Overflow tag, and 16 more developer resources.'
 plans:
 - name: Kuma Plans Pricing
   plan_count: 2
@@ -413,19 +417,27 @@ rules:
     warn: 3
   slug: kuma-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 38.2
-  delta: 1.4
+  band: developing
+  composite: 43.9
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 58.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 5.7
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 9.8
     contract_quality: 55.8
     developer_ergonomics: 47.6
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 34.2
-  previous_composite: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -433,9 +445,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 36
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuma/refs/heads/main/screenshots/kuma-2026-06-20T184214.png
 security:
 - kind: authentication

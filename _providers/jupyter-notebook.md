@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 6
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 70
   slug: jupyter-notebook-agentic-access
   summary_line: 70 operations · 40 acting · 6 human-in-the-loop
-api_count: 14
+api_count: 3
 apis:
 - description: WebSocket-based messaging protocol for communication between Jupyter clients and computational kernels. Supports code execution, introspection, completion, and rich output over shell, IOPub, stdin, an
   name: Jupyter Kernel Messaging Protocol
@@ -145,6 +145,10 @@ collections:
   name: Jupyter Notebook JupyterHub REST API
   slug: open-jupyterhub-rest-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/jupyter-notebook-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -265,7 +269,7 @@ overview: 'Jupyter Notebook publishes 14 APIs on the [APIs.io](https://apis.io/)
   The Jupyter Notebook catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Jupyter Notebook''s developer surface includes authentication, documentation, getting-started guide, engineering blog, support, YouTube channel, Stack Overflow tag, and 14 more developer resources.'
+  Jupyter Notebook''s developer surface includes authentication, documentation, getting-started guide, engineering blog, support, YouTube channel, Stack Overflow tag, and 15 more developer resources.'
 plans:
 - name: Jupyter Notebook Plans Pricing
   plan_count: 1
@@ -299,8 +303,13 @@ rules:
   slug: jupyter-notebook-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.8
-  delta: 0.0
+  composite: 43.2
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 2.4
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -310,6 +319,9 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 65.0
   previous_composite: 40.8
   provenance:
     agentic_access: derived
@@ -318,8 +330,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyter-notebook/refs/heads/main/screenshots/jupyter-notebook-2026-06-20T183838.png
 security:

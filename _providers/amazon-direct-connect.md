@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 63
   slug: amazon-direct-connect-agentic-access
   summary_line: 63 operations · 63 acting · 1 human-in-the-loop
-api_count: 63
+api_count: 1
 apis:
 - description: 'The #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal API from Amazon Direct Connect — 1 operation(s) for #x amz target=overtureservice.acceptdirectconnectgatewayassociationp'
   name: 'Amazon Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal API'
@@ -617,6 +617,10 @@ collections:
   name: 'AWS Direct Connect #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.AcceptDirectConnectGatewayAssociationProposal #X Amz Target=OvertureService.UpdateVirtualInterfaceAttributes API'
   slug: open-amazon-direct-connect-x-amz-target-overtureservice-updatevirtualinterfaceattributes-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-direct-connect-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -919,7 +923,7 @@ overview: 'Amazon Direct Connect publishes 63 APIs on the [APIs.io](https://apis
   The Amazon Direct Connect catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Direct Connect''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
+  Amazon Direct Connect''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 16 more developer resources.'
 plans:
 - name: Amazon Direct Connect Plans Pricing
   plan_count: 3
@@ -952,19 +956,24 @@ rules:
     warn: 7
   slug: amazon-direct-connect-spectral-rules
 score:
-  band: strong
-  composite: 54.7
-  delta: 5.3
+  band: developing
+  composite: 54.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 28.8
     contract_quality: 71.4
     developer_ergonomics: 54.8
-    discoverability: 66.7
+    discoverability: 61.1
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 49.4
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     contracts:
@@ -972,9 +981,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 63
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-direct-connect/refs/heads/main/screenshots/amazon-direct-connect-2026-06-20T171629.png
 security:
 - kind: authentication

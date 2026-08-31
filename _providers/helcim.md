@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -31,27 +31,36 @@ agentic_access:
   operation_count: 48
   slug: helcim-agentic-access
   summary_line: 48 operations · 25 acting
-api_count: 6
+api_count: 1
 apis:
-- description: Card payment processing endpoints covering the full transaction lifecycle — Purchase, Preauthorization, Capture, Verify, Refund, Reverse, and Withdraw — under the Helcim API v2. Includes the General c
-  name: Helcim Payment API
-  slug: helcim-payment-api
-- description: Bank-to-bank (ACH / pre-authorized debit) money movement — withdraw, refund, void, cancel, retrieve ACH transactions, and list and settle ACH batches under the Helcim API v2.
+- description: The ACH Payment API from Helcim — 8 operation(s) for ach payment.
   name: Helcim ACH Payment API
   slug: helcim-ach-payment-api
-- description: Create, retrieve, and update customers and manage their saved payment instruments — stored cards, bank accounts, and pre-authorized debit agreements (PADs) — under the Helcim API v2.
+- description: The Card Batch API from Helcim — 3 operation(s) for card batch.
+  name: Helcim Card Batch API
+  slug: helcim-card-batch-api
+- description: The Card Terminal API from Helcim — 1 operation(s) for card terminal.
+  name: Helcim Card Terminal API
+  slug: helcim-card-terminal-api
+- description: The Card Transaction API from Helcim — 2 operation(s) for card transaction.
+  name: Helcim Card Transaction API
+  slug: helcim-card-transaction-api
+- description: The Customer API from Helcim — 11 operation(s) for customer.
   name: Helcim Customer API
   slug: helcim-customer-api
-- description: Create, retrieve, and update invoices under the Helcim API v2, supporting billing and payment collection workflows.
+- description: The Device API from Helcim — 5 operation(s) for device.
+  name: Helcim Device API
+  slug: helcim-device-api
+- description: The General API from Helcim — 1 operation(s) for general.
+  name: Helcim General API
+  slug: helcim-general-api
+- description: The Invoice API from Helcim — 2 operation(s) for invoice.
   name: Helcim Invoice API
   slug: helcim-invoice-api
-- description: Read access to processed card transactions and card batches, including listing and retrieving transactions and batches and settling a card batch, under the Helcim API v2.
-  name: Helcim Card Transaction & Batch API
-  slug: helcim-card-transaction-batch-api
-- description: In-person payments through Helcim Smart Terminal hardware — list card terminals and devices, ping a device, and start purchase or refund transactions on a device — under the Helcim API v2.
-  name: Helcim Card Terminal & Device API
-  slug: helcim-terminal-device-api
-artifact_total: 14
+- description: The Payment API from Helcim — 7 operation(s) for payment.
+  name: Helcim Payment API
+  slug: helcim-payment-api
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Helcim Webhooks
@@ -236,7 +245,7 @@ modified: '2026-07-24'
 name: Helcim
 nav: Providers
 network: true
-overview: 'Helcim publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Payment API, ACH Payment API, Customer API, and 3 more. Tagged areas include Payments, Canada, Payment Gateway, Payment Processing, and Acquiring.
+overview: 'Helcim publishes 9 APIs on the [APIs.io](https://apis.io/) network, including ACH Payment API, Card Batch API, Card Terminal API, and 6 more. Tagged areas include Payments, Canada, Payment Gateway, Payment Processing, and Acquiring.
 
 
   The Helcim catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -250,18 +259,23 @@ rate_limits:
   slug: helcim-rate-limits
 score:
   band: strong
-  composite: 57.7
-  delta: 0.0
+  composite: 55.8
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
-    contract_governance: 30.3
-    contract_quality: 53.8
+    contract_governance: 18.2
+    contract_quality: 54.3
     developer_ergonomics: 45.8
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 77.6
-  previous_composite: 57.7
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -273,8 +287,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 55.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helcim/refs/heads/main/screenshots/helcim-2026-07-25T220910.png
 security:

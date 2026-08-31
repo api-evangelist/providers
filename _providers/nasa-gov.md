@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 62
   slug: nasa-gov-agentic-access
   summary_line: 62 operations · 1 acting
-api_count: 34
+api_count: 17
 apis:
 - description: The Album API from NASA Open APIs — 1 operation(s) for album.
   name: NASA Open APIs Album API
@@ -304,6 +304,10 @@ collections:
   name: NASA Vesta/Moon/Mars Trek WMTS
   slug: open-trek-wmts
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nasa-gov-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -505,7 +509,7 @@ overview: 'NASA Open APIs publishes 34 APIs on the [APIs.io](https://apis.io/) n
   The NASA Open APIs catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  NASA Open APIs'' developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, support, and 28 more developer resources.'
+  NASA Open APIs'' developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, support, and 29 more developer resources.'
 random_paper: 19
 rate_limits:
 - limit_count: 0
@@ -524,18 +528,26 @@ rules:
   slug: nasa-gov-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.0
-  delta: 0.0
+  composite: 41.2
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.4
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 9.8
-    contract_quality: 56.4
+    contract_quality: 54.8
     developer_ergonomics: 38.1
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 43.0
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -549,8 +561,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-gov/refs/heads/main/screenshots/nasa-gov-2026-06-20T185951.png
 security:

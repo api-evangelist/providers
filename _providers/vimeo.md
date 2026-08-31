@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 17
   slug: vimeo-agentic-access
   summary_line: 17 operations · 7 acting
-api_count: 5
+api_count: 1
 apis:
 - description: AsyncAPI 2.6 specification for Vimeo's documented webhook surface, covering the Vimeo OTT customer and subscription lifecycle topics (customer.created, customer.product.renewed, customer.tvod.created,
   name: Vimeo Webhooks
@@ -82,6 +82,10 @@ collections:
   name: Vimeo API
   slug: open-vimeo
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vimeo-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -149,7 +153,7 @@ network: true
 overview: 'Vimeo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Albums API, Channels API, and 2 more. Tagged areas include Video, Streaming, Video Hosting, Live Streaming, and Media.
 
 
-  Vimeo''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 8 more developer resources.'
+  Vimeo''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 9 more developer resources.'
 random_paper: 19
 scopes:
 - name: Vimeo Scopes
@@ -158,18 +162,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 36.3
-  delta: 2.4
+  composite: 35.7
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 58.9
     developer_ergonomics: 45.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 33.9
+  previous_composite: 36.3
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +186,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/screenshots/vimeo-2026-06-20T201045.png
 security:

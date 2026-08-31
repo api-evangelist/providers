@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 33
   slug: planet-labs-agentic-access
   summary_line: 33 operations · 16 acting
-api_count: 18
+api_count: 1
 apis:
 - description: Programmatic search over Planet's imagery catalog by AOI, time window, cloud cover, item type, and asset type. Returns item and asset metadata for downstream activation and download.
   name: Planet Data API
@@ -125,6 +125,18 @@ collections:
   name: Planet Insights Platform API
   slug: open-planet-labs
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/planetlabs/planet-client-python/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/planetlabs/planet-client-python/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/planetlabs/planet-client-python/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -204,7 +216,7 @@ network: true
 overview: 'Planet Labs publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Data - Item Types API, Data - Items API, Data - Search API, and 3 more. Tagged areas include Earth Observation, Satellite Imagery, Geospatial, PlanetScope, and SkySat.
 
 
-  Planet Labs'' developer surface includes authentication, documentation, API reference, engineering blog, pricing, status page, and 9 more developer resources.'
+  Planet Labs'' developer surface includes authentication, documentation, API reference, engineering blog, pricing, status page, and 12 more developer resources.'
 plans:
 - name: Planet Labs Plans Pricing
   plan_count: 1
@@ -215,19 +227,27 @@ rate_limits:
   name: Planet Labs Rate Limits
   slug: planet-labs-rate-limits
 score:
-  band: thin
-  composite: 37.7
-  delta: 0.0
+  band: developing
+  composite: 40.3
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 52.5
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
-    operational_transparency: 23.7
-  previous_composite: 37.7
+    operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -235,8 +255,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/planet-labs/refs/heads/main/screenshots/planet-labs-2026-06-20T191756.png
 security:

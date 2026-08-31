@@ -30,7 +30,7 @@ tags:
 - Crypto
 - Fintech
 - Consumer
-- Health and Wellness
+- Health & Wellness
 - Climate Tech
 - Developer Tools
 - Infrastructure

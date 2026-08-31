@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 52
   slug: jack-henry-agentic-access
   summary_line: 52 operations · 19 acting
-api_count: 42
+api_count: 6
 apis:
 - description: 'Real-time, pub/sub-based event streaming surface. Lets institutions and partners react to events emitted across Jack Henry''s platform (account events, transaction events, alert events, user-lifecycle '
   name: Enterprise Event System
@@ -309,6 +309,10 @@ collections:
   name: jXchange REST
   slug: open-jxchange-rest
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/jack-henry-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -475,7 +479,7 @@ overview: 'Jack Henry & Associates publishes 38 APIs on the [APIs.io](https://ap
   The Jack Henry & Associates catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 6 Spectral governance rulesets.
 
 
-  Jack Henry & Associates'' developer surface includes authentication, documentation, engineering blog, GitHub presence, Stack Overflow tag, support, status page, and 13 more developer resources.'
+  Jack Henry & Associates'' developer surface includes authentication, documentation, engineering blog, GitHub presence, Stack Overflow tag, support, status page, and 14 more developer resources.'
 plans:
 - name: Jack Henry Plans Pricing
   plan_count: 2
@@ -553,18 +557,23 @@ rules:
   slug: jxchange-rest-rules
 score:
   band: developing
-  composite: 47.1
-  delta: 6.7
+  composite: 46.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 41.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 54.5
-    contract_quality: 61.2
+    contract_quality: 59.4
     developer_ergonomics: 66.7
     discoverability: 68.5
     governance: 54.5
     operational_transparency: 5.3
-  previous_composite: 40.4
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     contracts:
@@ -578,9 +587,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jack-henry/refs/heads/main/screenshots/jack-henry-2026-06-20T183648.png
 security:
 - kind: authentication

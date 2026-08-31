@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 132
   human_in_the_loop: 4
@@ -43,21 +43,48 @@ agentic_access:
   operation_count: 219
   slug: criteo-agentic-access
   summary_line: 219 operations · 132 acting · 4 human-in-the-loop
-api_count: 4
+api_count: 6
 apis:
-- description: 'The Criteo Retail Media API lets retailers, brands, agencies and partners build retail media programmatically. 115 operations across eight tags cover accounts and brand/seller hierarchies, campaigns, '
-  name: Criteo Retail Media API
-  slug: criteo-retail-media-api
-- description: 'The Criteo Marketing Solutions API gives advertisers and agencies programmatic access to Criteo''s commerce media platform for acquisition and retention. 96 operations cover advertisers, campaigns, ad '
-  name: Criteo Marketing Solutions API
-  slug: criteo-marketing-solutions-api
-- description: The Criteo Commerce Grid API manages audience segments for Commerce Grid, Criteo's sell-side platform. Eight operations create, update, delete and search audience segments and manage contact-list memb
-  name: Criteo Commerce Grid API
-  slug: criteo-commerce-grid-api
 - description: 'Criteo operates two remote Model Context Protocol servers. The documentation server at developers.criteo.com/mcp is anonymous and was introspected live: three tools (search_criteo_docs, query_docs_fil'
   name: Criteo MCP Servers
   slug: criteo-mcp
-artifact_total: 20
+- description: The Accounts API from Criteo — 12 operation(s) for accounts.
+  name: Criteo Accounts API
+  slug: criteo-accounts-api
+- description: The Advertiser API from Criteo — 1 operation(s) for advertiser.
+  name: Criteo Advertiser API
+  slug: criteo-advertiser-api
+- description: The Analytics API from Criteo — 16 operation(s) for analytics.
+  name: Criteo Analytics API
+  slug: criteo-analytics-api
+- description: The Audience API from Criteo — 24 operation(s) for audience.
+  name: Criteo Audience API
+  slug: criteo-audience-api
+- description: The Balance API from Criteo — 8 operation(s) for balance.
+  name: Criteo Balance API
+  slug: criteo-balance-api
+- description: The Billing API from Criteo — 3 operation(s) for billing.
+  name: Criteo Billing API
+  slug: criteo-billing-api
+- description: The Campaign API from Criteo — 86 operation(s) for campaign.
+  name: Criteo Campaign API
+  slug: criteo-campaign-api
+- description: The Catalog API from Criteo — 2 operation(s) for catalog.
+  name: Criteo Catalog API
+  slug: criteo-catalog-api
+- description: The Creative API from Criteo — 9 operation(s) for creative.
+  name: Criteo Creative API
+  slug: criteo-creative-api
+- description: The Gateway API from Criteo — 3 operation(s) for gateway.
+  name: Criteo Gateway API
+  slug: criteo-gateway-api
+- description: The Reco API from Criteo — 8 operation(s) for reco.
+  name: Criteo Reco API
+  slug: criteo-reco-api
+- description: The Segment API from Criteo — 7 operation(s) for segment.
+  name: Criteo Segment API
+  slug: criteo-segment-api
+artifact_total: 29
 collections:
 - collection_type: open
   name: API Collection
@@ -75,6 +102,18 @@ collections:
   name: Criteo Retail Media API
   slug: open-criteo
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/criteo-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/criteo-marketing-solutions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/criteo-commerce-grid-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -263,10 +302,10 @@ modified: '2026-08-13'
 name: Criteo
 nav: Providers
 network: true
-overview: 'Criteo publishes 3 APIs on the [APIs.io](https://apis.io/) network: Retail Media API, Marketing Solutions API, and Commerce Grid API. Tagged areas include Advertising, Agent Skills, Analytics, Audiences, and Campaigns.
+overview: 'Criteo publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Advertiser API, Analytics API, and 9 more. Tagged areas include Advertising, Agent Skills, Analytics, Audiences, and Campaigns.
 
 
-  Criteo''s developer surface includes authentication, documentation, engineering blog, changelog, API reference, getting-started guide, support, and 35 more developer resources.'
+  Criteo''s developer surface includes authentication, documentation, engineering blog, changelog, API reference, getting-started guide, support, and 38 more developer resources.'
 plans:
 - name: Criteo Plans Pricing
   plan_count: 0
@@ -283,18 +322,23 @@ scopes:
   summary_line: 22 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 59.0
+  composite: 56.4
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
-    contract_governance: 30.3
-    contract_quality: 53.4
+    contract_governance: 18.2
+    contract_quality: 53.3
     developer_ergonomics: 61.3
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 78.9
-  previous_composite: 59.0
+  previous_composite: 56.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -305,8 +349,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/screenshots/criteo-2026-06-20T175235.png
 security:

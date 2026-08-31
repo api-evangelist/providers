@@ -15,7 +15,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 62.7
-  scored_at: '2026-08-26'
+  score: 57.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 2
@@ -44,15 +44,99 @@ agentic_access:
   operation_count: 186
   slug: instantly-ai-agentic-access
   summary_line: 186 operations · 112 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 3
 apis:
-- description: 'The full Instantly REST API v2 — 129 paths, 173 operations across 28 resource groups, published as OpenAPI 3.1.0 by Instantly at api.instantly.ai/openapi/api_v2.json. Every operation carries a unique '
-  name: Instantly API v2
-  slug: instantly-ai-api-v2
 - description: The Campaigns API from Instantly — 10 operation(s) for campaigns.
   name: Instantly Campaigns API
   slug: instantly-ai-campaigns-api
-artifact_total: 15
+- description: An email account that can be used to send campaigns
+  name: Instantly Account API
+  slug: instantly-ai-account-api
+- description: Account Campaign Mapping
+  name: Instantly Account Campaign Mapping API
+  slug: instantly-ai-accountcampaignmapping-api
+- description: Endpoints related to analytics
+  name: Instantly Analytics API
+  slug: instantly-ai-analytics-api
+- description: API Key
+  name: Instantly API Key API
+  slug: instantly-ai-apikey-api
+- description: Audit log records for tracking system activities
+  name: Instantly Audit Log API
+  slug: instantly-ai-auditlog-api
+- description: A background job that can be used to perform long-running tasks
+  name: Instantly Background Job API
+  slug: instantly-ai-backgroundjob-api
+- description: A blocked email or domain
+  name: Instantly Block List Entry API
+  slug: instantly-ai-blocklistentry-api
+- description: A campaign that can be sent to a list of recipients
+  name: Instantly Campaign API
+  slug: instantly-ai-campaign-api
+- description: A subsequence entity representing a follow-up sequence
+  name: Instantly Campaign Subsequence API
+  slug: instantly-ai-campaignsubsequence-api
+- description: CRM related actions
+  name: Instantly CRM Actions API
+  slug: instantly-ai-crmactions-api
+- description: A custom tag for organizing and categorizing accounts and campaigns. You can use them as filters in apis that list accounts and campaigns.
+  name: Instantly Custom Tag API
+  slug: instantly-ai-customtag-api
+- description: This entity represents a tag being assigned to a specific campaign or email account. When an email account is assigned a tag, a new custom tag mapping entry is created, which connects the tag (`tag_id
+  name: Instantly Custom Tag Mapping API
+  slug: instantly-ai-customtagmapping-api
+- description: A Done-For-You email account order
+  name: Instantly DFY Email Account Order API
+  slug: instantly-ai-dfyemailaccountorder-api
+- description: A campaign email, a reply, a manually sent email, or any other email that's visible in the Unibox
+  name: Instantly Email API
+  slug: instantly-ai-email-api
+- description: A single email verification
+  name: Instantly Email Verification API
+  slug: instantly-ai-emailverification-api
+- description: Analytics data for individual emails in inbox placement tests
+  name: Instantly Inbox Placement Analytics API
+  slug: instantly-ai-inboxplacementanalytics-api
+- description: Report data for an inbox placement test
+  name: Instantly Inbox Placement Blacklist And Spam Assassin Report API
+  slug: instantly-ai-inboxplacementblacklistandspamassassinreport-api
+- description: An inbox placement test
+  name: Instantly Inbox Placement Test API
+  slug: instantly-ai-inboxplacementtest-api
+- description: A lead entity representing an individual lead
+  name: Instantly Lead API
+  slug: instantly-ai-lead-api
+- description: A custom label for categorizing and managing leads
+  name: Instantly Lead Label API
+  slug: instantly-ai-leadlabel-api
+- description: A list used to store leads
+  name: Instantly Lead List API
+  slug: instantly-ai-leadlist-api
+- description: OAuth authentication endpoints for connecting Google and Microsoft email accounts
+  name: Instantly O Auth API
+  slug: instantly-ai-oauth-api
+- description: An enrichment can take different forms, such as email enrichment or LinkedIn enrichment. Leads may be imported from SuperSearch using the dedicated endpoint, or enriched directly within a list or camp
+  name: Instantly Super Search Enrichment API
+  slug: instantly-ai-supersearchenrichment-api
+- description: A webhook subscription for receiving event notifications
+  name: Instantly Webhook API
+  slug: instantly-ai-webhook-api
+- description: A webhook event that was sent or attempted to be sent
+  name: Instantly Webhook Event API
+  slug: instantly-ai-webhookevent-api
+- description: A workspace entity representing a workspace
+  name: Instantly Workspace API
+  slug: instantly-ai-workspace-api
+- description: Workspace Billing
+  name: Instantly Workspace Billing API
+  slug: instantly-ai-workspacebilling-api
+- description: A member of a workspace group. You can use the endpoints within this entity to manage the members of a workspace group.
+  name: Instantly Workspace Group Member API
+  slug: instantly-ai-workspacegroupmember-api
+- description: A member of a workspace with associated user details
+  name: Instantly Workspace Member API
+  slug: instantly-ai-workspacemember-api
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Instantly Ai Webhooks
@@ -280,7 +364,7 @@ modified: '2026-08-13'
 name: Instantly
 nav: Providers
 network: true
-overview: 'Instantly publishes 2 APIs on the [APIs.io](https://apis.io/) network: API v2 and Campaigns API. Tagged areas include Cold Email, Outbound, Sales, Deliverability, and Lead Database.
+overview: 'Instantly publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Account API, Account Campaign Mapping API, and 27 more. Tagged areas include Cold Email, Outbound, Sales, Deliverability, and Lead Database.
 
 
   The Instantly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -302,19 +386,24 @@ scopes:
   slug: instantly-ai-scopes
   summary_line: 178 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 67.0
+  band: strong
+  composite: 65.5
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 16.7
-    contract_quality: 69.0
+    contract_governance: 4.5
+    contract_quality: 70.9
     developer_ergonomics: 78.6
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 67.0
+  previous_composite: 65.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -325,8 +414,8 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/screenshots/instantly-ai-2026-06-20T183518.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: tako-agentic-access
   summary_line: 13 operations · 6 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The agent API from Tako — 4 operation(s) for agent.
   name: Tako agent API
@@ -210,18 +210,23 @@ rate_limits:
   slug: tako-rate-limits
 score:
   band: developing
-  composite: 53.2
+  composite: 50.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 57.1
     developer_ergonomics: 75.0
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 53.2
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -232,8 +237,8 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/screenshots/tako-2026-08-17T082243.png
 security:

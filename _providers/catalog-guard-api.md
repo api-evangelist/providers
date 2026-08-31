@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The Catalog API from Catalog Guard API — 2 operation(s) for catalog.
@@ -38,6 +38,10 @@ collections:
   name: Guard Catalog API
   slug: open-catalog-guard-api-catalog-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/catalog-guard-api-capability-edges.yml
 - group: docs
   title: ''
   type: Documentation
@@ -139,10 +143,10 @@ modified: '2026-08-09'
 name: Catalog Guard API
 nav: Providers
 network: true
-overview: 'Catalog Guard API publishes 1 API on the [APIs.io](https://apis.io/) network: Catalog API. Tagged areas include E-Commerce, catalog-validation, Shopify, Data Quality, and csv-validation.
+overview: 'Catalog Guard API publishes 1 API on the [APIs.io](https://apis.io/) network: Catalog API. Tagged areas include E-Commerce, catalog-validation, shopify, data-quality, and csv-validation.
 
 
-  Catalog Guard API''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, code examples, and 16 more developer resources.'
+  Catalog Guard API''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, code examples, and 17 more developer resources.'
 random_paper: 7
 rate_limits:
 - limit_count: 1
@@ -150,18 +154,23 @@ rate_limits:
   slug: catalog-guard-api-rate-limits
 score:
   band: thin
-  composite: 37.4
+  composite: 35.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 46.3
     developer_ergonomics: 42.3
     discoverability: 63.0
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 37.4
+  previous_composite: 35.9
   provenance:
     conformance: derived
     contracts:
@@ -171,8 +180,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -187,11 +196,11 @@ slug: catalog-guard-api
 tags:
 - E-Commerce
 - catalog-validation
-- Shopify
-- Data Quality
+- shopify
+- data-quality
 - csv-validation
 - product-data-qa
 - data-preflight
-- Data Validation
+- data-validation
 - Retail
 ---

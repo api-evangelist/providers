@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 12
   slug: liquity-agentic-access
   summary_line: 12 operations
-api_count: 7
+api_count: 1
 apis:
 - description: Provides JSON snapshots of Liquity V2 (BOLD) protocol state including total BOLD supply, collateral values, stability pool deposits, TVL, per-branch (WETH/wstETH/rETH) metrics, token prices, and yield
   name: Liquity V2 Protocol Stats API
@@ -194,7 +194,7 @@ modified: '2026-06-14'
 name: Liquity
 nav: Providers
 network: true
-overview: 'Liquity publishes 7 APIs on the [APIs.io](https://apis.io/) network, including V2 Protocol Stats API, V2 Website Data API, V2 Governance API, and 4 more. Tagged areas include DeFi, Decentralized Finance, Lending, Stablecoins, and Ethereum.
+overview: 'Liquity publishes 7 APIs on the [APIs.io](https://apis.io/) network, including V2 Protocol Stats API, V2 Website Data API, V2 Governance API, and 4 more. Tagged areas include DeFi, Decentralized Finance, Lending, Stablecoin, and Ethereum.
 
 
   The Liquity catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -215,15 +215,20 @@ rules:
   slug: liquity-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 31.8
-  delta: 0.0
+  composite: 31.3
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 63.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 9.8
     contract_quality: 59.0
     developer_ergonomics: 21.4
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 9.8
     operational_transparency: 10.5
   previous_composite: 31.8
@@ -234,8 +239,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/screenshots/liquity-2026-06-20T184559.png
 security:
@@ -248,7 +253,7 @@ tags:
 - DeFi
 - Decentralized Finance
 - Lending
-- Stablecoins
+- Stablecoin
 - Ethereum
 - LUSD
 - BOLD

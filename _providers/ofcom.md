@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -33,17 +33,14 @@ agentic_access:
   summary_line: 2 operations
 api_count: 2
 apis:
-- description: 'Returns predicted fixed broadband availability for a UK postcode from Ofcom''s Connected Nations dataset — per-premises maximum predicted download and upload speeds broken out by Basic, Superfast, and '
-  name: Ofcom Connected Nations Broadband API
-  slug: ofcom-connected-nations-broadband-api
-- description: Returns predicted mobile coverage for a UK postcode from Ofcom's Connected Nations dataset, scored 0 (none), 3 (limited), or 4 (likely) for each of the four UK mobile network operators — EE, H3 (Three
-  name: Ofcom Connected Nations Mobile API
-  slug: ofcom-connected-nations-mobile-api
+- description: The Coverage API from Ofcom — 1 operation(s) for coverage.
+  name: Ofcom Coverage API
+  slug: ofcom-coverage-api
 arazzos:
 - description: Build a complete connectivity picture for one UK postcode by calling both Ofcom Connected Nations APIs — fixed broadband availability and mobile coverage across all four UK operators — and joining the
   name: Ofcom postcode connectivity profile
   slug: ofcom-postcode-connectivity-profile
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: Ofcom Connected Nations Broadband API
@@ -52,6 +49,22 @@ collections:
   name: Ofcom Connected Nations Mobile API
   slug: open-ofcom-connected-nations-mobile-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ofcom-connected-nations-broadband-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/ofcom-check-broadband-coverage.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ofcom-connected-nations-mobile-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/ofcom-check-mobile-coverage.md
 - group: agent
   title: ''
   type: MCPServer
@@ -185,10 +198,10 @@ modified: '2026-07-25'
 name: Ofcom
 nav: Providers
 network: true
-overview: 'Ofcom publishes 2 APIs on the [APIs.io](https://apis.io/) network: Connected Nations Broadband API and Connected Nations Mobile API. Tagged areas include Telecommunications, United Kingdom, Regulator, Broadband, and Mobile Network Coverage.
+overview: 'Ofcom publishes 1 API on the [APIs.io](https://apis.io/) network: Coverage API. Tagged areas include Telecommunications, United Kingdom, Regulator, Broadband, and Mobile Network Coverage.
 
 
-  Ofcom''s developer surface includes sandbox, authentication, documentation, signup flow, API reference, developer console, support, and 22 more developer resources.'
+  Ofcom''s developer surface includes sandbox, authentication, documentation, signup flow, API reference, developer console, support, and 26 more developer resources.'
 plans:
 - name: Ofcom Plans
   plan_count: 4
@@ -200,18 +213,23 @@ rate_limits:
   slug: ofcom-rate-limits
 score:
   band: developing
-  composite: 48.6
+  composite: 48.1
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 16.7
-    contract_quality: 52.0
+    contract_governance: 4.5
+    contract_quality: 55.8
     developer_ergonomics: 51.8
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 48.6
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -228,8 +246,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ofcom/refs/heads/main/screenshots/ofcom-2026-08-07T190010.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 109
   slug: navision-agentic-access
   summary_line: 109 operations · 50 acting
-api_count: 40
+api_count: 3
 apis:
 - description: SOAP-based web services for legacy integrations and business logic operations in Dynamics NAV. Exposes pages and codeunits with built-in CRUD operations and supports extension codeunits for custom ope
   name: Dynamics NAV SOAP Web Services
@@ -327,6 +327,10 @@ collections:
   name: Business Central Administration Center Accounts Vendors API
   slug: open-navision-vendors-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/navision-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -1758,7 +1762,7 @@ overview: 'Microsoft Dynamics NAV publishes 38 APIs on the [APIs.io](https://api
   The Microsoft Dynamics NAV catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Microsoft Dynamics NAV''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 49 more developer resources.'
+  Microsoft Dynamics NAV''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 50 more developer resources.'
 plans:
 - name: Navision Plans Pricing
   plan_count: 5
@@ -1798,7 +1802,12 @@ scopes:
 score:
   band: strong
   composite: 56.0
-  delta: 1.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -1808,7 +1817,7 @@ score:
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 54.5
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     contracts:
@@ -1816,8 +1825,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navision/refs/heads/main/screenshots/navision-2026-06-20T190101.png
 security:

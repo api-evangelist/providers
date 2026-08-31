@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: 'Local HTTP/LSP API exposed by the Rust `refact-lsp` engine that runs inside the user''s IDE or as a standalone server. Implements the agent runtime: provider/model capabilities, chat command queueing, '
@@ -43,6 +43,18 @@ apis:
   slug: refact-mcp-integration
 artifact_total: 26
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/smallcloudai/refact/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/smallcloudai/refact/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/smallcloudai/refact/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -187,11 +199,16 @@ network: true
 overview: 'Refact.ai publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Coding Assistant, AI Agent, Autonomous Agents, and Code Completion.
 
 
-  Refact.ai''s developer surface includes developer portal, documentation, getting-started guide, pricing, engineering blog, signup flow, YouTube channel, and 20 more developer resources.'
+  Refact.ai''s developer surface includes developer portal, documentation, getting-started guide, pricing, engineering blog, signup flow, YouTube channel, and 23 more developer resources.'
 random_paper: 15
 score:
   band: emerging
-  composite: 12.2
+  composite: 17.9
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 13.2
@@ -201,10 +218,13 @@ score:
     developer_ergonomics: 16.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 2.6
-  previous_composite: 12.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 17.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refact-ai/refs/heads/main/screenshots/refact-ai-2026-06-20T192744.png
 security:

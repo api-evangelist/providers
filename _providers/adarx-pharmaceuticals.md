@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 8
 apis:
 - description: The STOP-HAE trial-site (clinic) registry.
@@ -80,6 +80,10 @@ collections:
   name: Adarx Pharmaceuticals Taxonomy API
   slug: open-adarx-pharmaceuticals-taxonomy-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/adarx-pharmaceuticals-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -226,28 +230,33 @@ modified: '2026-08-06'
 name: ADARx Pharmaceuticals
 nav: Providers
 network: true
-overview: 'ADARx Pharmaceuticals publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Clinics API, Content API, Embed API, and 5 more. Tagged areas include Company, Biotechnology, biopharmaceuticals, RNA Therapeutics, and siRNA.
+overview: 'ADARx Pharmaceuticals publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Clinics API, Content API, Embed API, and 5 more. Tagged areas include Company, biotechnology, biopharmaceuticals, rna-therapeutics, and sirna.
 
 
   The ADARx Pharmaceuticals catalog on APIs.io includes 1 JSON-LD context.
 
 
-  ADARx Pharmaceuticals'' developer surface includes product news, support, authentication, and 30 more developer resources.'
+  ADARx Pharmaceuticals'' developer surface includes product news, support, authentication, and 31 more developer resources.'
 random_paper: 0
 score:
   band: thin
-  composite: 33.8
+  composite: 32.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 55.5
     developer_ergonomics: 18.5
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 33.8
+  previous_composite: 32.4
   provenance:
     conformance: derived
     contracts:
@@ -262,8 +271,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adarx-pharmaceuticals/refs/heads/main/screenshots/adarx-pharmaceuticals-2026-08-07T160902.png
 security:
@@ -278,16 +287,16 @@ security:
 slug: adarx-pharmaceuticals
 tags:
 - Company
-- Biotechnology
+- biotechnology
 - biopharmaceuticals
-- RNA Therapeutics
-- siRNA
-- RNA Editing
-- Clinical Trials
-- Rare Disease
-- Drug Development
-- Life Sciences
-- San Diego
+- rna-therapeutics
+- sirna
+- rna-editing
+- clinical-trials
+- rare-disease
+- drug-development
+- life-sciences
+- san-diego
 - content-api
 website: https://www.adarx.com/
 ---

@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/extreme-networks/
 created: '2026-07-17'
 description: 'Cabletron Systems, Inc. was an American manufacturer of networking and network-management equipment, founded in 1983 by Craig Benson and Robert Levine and headquartered in Rochester, New Hampshire. It rose to prominence in the 10BASE5 and Ethernet switching markets, shipped the ST-500 transceiver and the LAN-MD field test set, built the SPECTRUM network-management platform, and passed one billion US dollars in annual sales in 1996 at a peak of roughly 6,600 employees. In 2000 the company announced a split into four businesses: Enterasys Networks (enterprise switching), Riverstone Networks (metro service provider), Aprisma Management Technologies (SPECTRUM software), and GlobalNetwork Technology Services. The Cabletron holding company merged into Enterasys, which went public in 2001, was taken private by The Gores Group in 2006, and was acquired by Extreme Networks in 2013. Riverstone was acquired by Lucent and later liquidated. Cabletron Systems no longer operates as an independent
   company and publishes no developer program, API, or documentation: the cabletron.com and enterasys.com domains both redirect to extremenetworks.com. This record is retained as a historical company profile only.'
@@ -49,6 +54,11 @@ random_paper: 6
 score:
   band: minimal
   composite: 5.0
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -68,8 +78,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: cabletron-systems
 tags:

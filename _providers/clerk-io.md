@@ -35,16 +35,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
-- description: 'The Clerk.io API provides REST endpoints for managing products, categories, orders, customers, recommendations, and search. The API uses a dual-key authentication model: a public key identifies the st'
-  name: Clerk.io API
-  slug: clerk-io-api
 - description: Clerk.js is the browser-side JavaScript library for embedding Clerk.io recommendation slots, search, and email opens on a storefront, with Liquid templating support and event tracking.
   name: Clerk.js Client Library
   slug: clerkjs
-artifact_total: 12
+- description: The Accessories API from Clerk.io — 1 operation(s) for accessories.
+  name: Clerk.io Accessories API
+  slug: clerk-io-accessories-api
+- description: The Audiences API from Clerk.io — 3 operation(s) for audiences.
+  name: Clerk.io Audiences API
+  slug: clerk-io-audiences-api
+- description: The Campaigns API from Clerk.io — 2 operation(s) for campaigns.
+  name: Clerk.io Campaigns API
+  slug: clerk-io-campaigns-api
+- description: The Catalog API from Clerk.io — 5 operation(s) for catalog.
+  name: Clerk.io Catalog API
+  slug: clerk-io-catalog-api
+- description: The Logging API from Clerk.io — 9 operation(s) for logging.
+  name: Clerk.io Logging API
+  slug: clerk-io-logging-api
+- description: The Merchandising API from Clerk.io — 4 operation(s) for merchandising.
+  name: Clerk.io Merchandising API
+  slug: clerk-io-merchandising-api
+- description: The Parcels API from Clerk.io — 1 operation(s) for parcels.
+  name: Clerk.io Parcels API
+  slug: clerk-io-parcels-api
+- description: The Privacy API from Clerk.io — 2 operation(s) for privacy.
+  name: Clerk.io Privacy API
+  slug: clerk-io-privacy-api
+- description: The Product Data API from Clerk.io — 4 operation(s) for product data.
+  name: Clerk.io Product Data API
+  slug: clerk-io-product-data-api
+- description: The Recommendations API from Clerk.io — 25 operation(s) for recommendations.
+  name: Clerk.io Recommendations API
+  slug: clerk-io-recommendations-api
+- description: The Search API from Clerk.io — 6 operation(s) for search.
+  name: Clerk.io Search API
+  slug: clerk-io-search-api
+- description: The Subscribers API from Clerk.io — 2 operation(s) for subscribers.
+  name: Clerk.io Subscribers API
+  slug: clerk-io-subscribers-api
+- description: The Tokens API from Clerk.io — 1 operation(s) for tokens.
+  name: Clerk.io Tokens API
+  slug: clerk-io-tokens-api
+artifact_total: 24
 collections:
 - collection_type: open
   name: Clerk.io API
@@ -235,7 +271,7 @@ modified: '2026-08-13'
 name: Clerk.io
 nav: Providers
 network: true
-overview: 'Clerk.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Commerce, E-Commerce, Email Marketing, and Personalization.
+overview: 'Clerk.io publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Accessories API, Audiences API, Campaigns API, and 10 more. Tagged areas include Artificial Intelligence, Commerce, E-Commerce, Email Marketing, and Personalization.
 
 
   The Clerk.io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -265,18 +301,23 @@ rules:
   slug: clerk-io-rules
 score:
   band: strong
-  composite: 59.9
-  delta: 0.0
+  composite: 58.8
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 62.1
-    contract_quality: 60.5
+    contract_governance: 50.0
+    contract_quality: 62.0
     developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 62.1
+    governance: 50.0
     operational_transparency: 2.6
-  previous_composite: 59.9
+  previous_composite: 59.4
   provenance:
     conformance: derived
     contracts:
@@ -286,8 +327,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/screenshots/clerk-io-2026-06-20T174507.png
 security:

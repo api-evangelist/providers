@@ -1,14 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Free · No registration for the two institution-operated public endpoints
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - authentication
+  - probed
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
@@ -16,7 +17,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: na
@@ -32,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.0
-  scored_at: '2026-08-26'
+  score: 22.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,18 +42,24 @@ agentic_access:
   operation_count: 1
   slug: lancaster-agentic-access
   summary_line: 1 operation
-api_count: 3
+api_count: 2
 apis:
-- description: Open-source AWS serverless application maintained by Lancaster University Library that listens for Ex Libris Alma webhook events and forwards them to backend SNS topics. Reference code for integrating
-  name: Lancaster Library Alma Webhook Handler
-  slug: alma-webhook-handler
-- description: Library user, fine, loan, and renewal services exposed via Ex Libris Alma/Primo web services (getUser, getUserCash, getUserLoans, renewUserLoans) that power the iLancaster mobile app and student porta
-  name: Lancaster Library Services (Ex Libris Alma/Primo)
-  slug: library-services
-- description: The Oai2 API from Lancaster University — 1 operation(s) for oai2.
-  name: Lancaster University Oai2 API
+- description: The one unambiguous, institution-operated public API Lancaster runs. A single HTTP endpoint that dispatches on the OAI-PMH `verb` parameter and returns OAI-PMH 2.0 XML envelopes for the Lancaster EPri
+  name: Lancaster EPrints OAI-PMH 2.0 Interface
   slug: lancaster-oai2-api
-artifact_total: 19
+- description: Lancaster operates its own Shibboleth Identity Provider and self-publishes its SAML 2.0 EntityDescriptor at the canonical /idp/shibboleth location. The entity has been registered with the UK Access Fe
+  name: Lancaster Shibboleth Identity Provider (SAML 2.0 metadata)
+  slug: identity-federation
+- description: Lancaster's research information system and public research directory. The data — outputs, people, projects, impact — is Lancaster's; the platform and the contract are Elsevier's. research.lancaster-u
+  name: Lancaster Research Directory (Elsevier Pure) — tenant
+  slug: pure-research-directory
+- description: 'Lancaster University Library runs on the Ex Libris platform: Primo VE for discovery (OneSearch, view identifier 44LAN_INST:LUL_VU1) and Alma for the library services platform behind it, whose getUser '
+  name: Lancaster Library Discovery and Services (Ex Libris Alma / Primo VE) — tenant
+  slug: library-discovery
+- description: An AWS serverless application written and maintained by Lancaster University Library that listens for Ex Libris Alma webhook events and forwards them to backend SNS topics. It is Lancaster's own code,
+  name: Lancaster Library Alma Webhook Handler (open source)
+  slug: alma-webhook-handler
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -61,6 +68,90 @@ collections:
   name: Lancaster EPrints OAI-PMH 2.0 Interface Oai2 API
   slug: open-lancaster-oai2-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.lancaster.ac.uk/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://eprints.lancs.ac.uk/cgi/oai2?verb=Identify
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://eprints.lancs.ac.uk/cgi/oai2?verb=ListMetadataFormats
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/lancaster-university
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/lulibrary
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://eprints.lancs.ac.uk/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://research.lancaster-university.uk/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://onesearch.lancaster-university.uk/discovery/search?vid=44LAN_INST:LUL_VU1
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://www.lancaster.ac.uk/study/undergraduate/courses/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://idp.lancs.ac.uk/idp/shibboleth
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: http://mdq.ukfederation.org.uk/entities/https%3A%2F%2Fidp.lancs.ac.uk%2Fidp%2Fshibboleth
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.lancaster.ac.uk/embed-digital/digital-teaching-and-learning/generative-artificial-intelligence/
+- group: build
+  title: ''
+  type: AITooling
+  url: https://www.lancaster.ac.uk/iss/itpi/luca-lancaster-university-careers-assistant/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.lancaster.ac.uk/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.lancaster.ac.uk/privacy/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.lancaster.ac.uk/iss/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/lancaster-university/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/lancaster-education-standards-conformance.yml
+- group: design
+  title: ''
+  type: Errors
+  url: errors/lancaster-errors.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/lancaster-authentication.yml
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lancaster-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -73,26 +164,14 @@ common:
   title: ''
   type: DomainSecurity
   url: security/lancaster-domain-security.yml
-- group: company
+- group: design
   title: ''
-  type: Website
-  url: https://www.lancaster.ac.uk/
-- group: build
+  type: Rules
+  url: rules/lancaster-rules.yml
+- group: design
   title: ''
-  type: GitHub
-  url: https://github.com/lancaster-university
-- group: build
-  title: ''
-  type: GitHub
-  url: https://github.com/lulibrary
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/lancaster-university/
-- group: other
-  title: ''
-  type: Repository
-  url: https://eprints.lancs.ac.uk/
+  type: Rules
+  url: rules/lancaster-jsonschema-spectral-rules.yml
 - group: commercial
   title: ''
   type: Plans
@@ -110,7 +189,8 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'Lancaster University is a collegiate public research university in Lancaster, United Kingdom, ranked #141 in the QS World University Rankings 2025. Its public, machine-accessible developer footprint is modest and centered on research and library systems: the Lancaster EPrints institutional repository exposes a live OAI-PMH 2.0 interface for harvesting metadata, the Lancaster University Library maintains open-source integration code on GitHub (including an Ex Libris Alma webhook handler and Pure metadata tooling), and library services such as loans and fines are surfaced through Ex Libris Alma/Primo web services that back the iLancaster mobile app. There is no single public, self-service API developer portal; most service APIs are internal or gated.'
+description: 'Lancaster University is a collegiate public research university in Lancaster, United Kingdom, a member of the N8 Research Partnership and, at the time of writing, not a Russell Group member. It operates no central developer portal, no API gateway, no API key programme and no published API programme, and this profile records that plainly. What it does operate, on hosts it owns, is a small but genuine set of machine-readable surfaces: the Lancaster EPrints institutional repository answers a complete, unauthenticated OAI-PMH 2.0 interface at eprints.lancs.ac.uk with seven metadata formats including RIOXX and uketd_dc, and Lancaster runs its own Shibboleth Identity Provider at idp.lancs.ac.uk, self-publishing SAML 2.0 metadata and registered with the UK Access Federation since 2014 and exported to eduGAIN. Both are institution-operated and both are recorded here as such. Two further surfaces look like Lancaster''s and are not: the research directory at research.lancaster-university.uk
+  CNAMEs to lancaster.elsevierpure.com and the OneSearch discovery layer CNAMEs to lancaster.primo.exlibrisgroup.com, so Elsevier Pure and Ex Libris Primo VE wrote those contracts, not Lancaster — they are recorded as tenant relationships and their specifications are deliberately not saved under this slug. Lancaster''s most substantial public engineering output is not an API at all: the github.com/lancaster-university organisation is where the BBC micro:bit runtime (microbit-dal) and its successor CODAL were written, and github.com/lulibrary holds the University Library''s own open-source Alma, Pure and research-data tooling.'
 examples:
 - key_count: 2
   name: Lancaster Getrecord Example
@@ -140,17 +220,17 @@ jsonld:
   property_count: 3
   slug: lancaster-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Lancaster University
 nav: Providers
 network: true
-overview: 'Lancaster University publishes 1 API on the [APIs.io](https://apis.io/) network: Oai2 API. Tagged areas include Education, Higher Education, University, United Kingdom, and Research.
+overview: 'Lancaster University publishes 2 APIs on the [APIs.io](https://apis.io/) network: Lancaster EPrints OAI-PMH 2.0 Interface and Lancaster Shibboleth Identity Provider (SAML 2.0 metadata). Tagged areas include University, Higher Education, Education, United Kingdom, and N8 Research Partnership.
 
 
   The Lancaster University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Lancaster University''s developer surface includes GitHub presence and 11 more developer resources.'
+  Lancaster University''s developer surface includes documentation, API reference, support, authentication, and 26 more developer resources.'
 plans:
 - name: Lancaster Plans Pricing
   plan_count: 2
@@ -183,19 +263,24 @@ rules:
     warn: 3
   slug: lancaster-rules
 score:
-  band: thin
-  composite: 34.2
-  delta: 1.9
+  band: developing
+  composite: 46.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 12.0
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 50.0
+    commercial_clarity: 50.0
     contract_governance: 13.6
     contract_quality: 57.8
-    developer_ergonomics: 9.5
-    discoverability: 64.8
+    developer_ergonomics: 33.3
+    discoverability: 59.3
     governance: 13.6
-    operational_transparency: 26.3
-  previous_composite: 32.3
+    operational_transparency: 23.7
+  previous_composite: 34.2
   provenance:
     agentic_access: derived
     contracts:
@@ -208,12 +293,16 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 57.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/screenshots/lancaster-2026-06-20T184256.png
 security:
+- kind: authentication
+  name: Lancaster Authentication
+  slug: lancaster-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Lancaster Domain Security
   slug: lancaster-domain-security
@@ -224,12 +313,15 @@ security:
   summary_line: security.txt · contact published
 slug: lancaster
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - United Kingdom
-- Research
+- N8 Research Partnership
+- Research Data
+- Institutional Repository
+- Identity Federation
 - Library
-- Open Data
+- Open Source
 website: https://www.lancaster.ac.uk/
 ---

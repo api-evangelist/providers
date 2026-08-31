@@ -17,9 +17,9 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.8
-  scored_at: '2026-08-26'
+  score: 27.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 42
   slug: codeproject-agentic-access
   summary_line: 42 operations · 29 acting · 1 human-in-the-loop
-api_count: 13
+api_count: 2
 apis:
 - description: Articles, technical blogs, and tips and tricks (rating >= 3.0).
   name: CodeProject Articles API
@@ -172,7 +172,7 @@ common:
   url: https://api.codeproject.com/Help
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://api.codeproject.com/Samples
 - group: commercial
   title: ''
@@ -237,7 +237,7 @@ overview: 'CodeProject publishes 13 APIs on the [APIs.io](https://apis.io/) netw
   The CodeProject catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  CodeProject''s developer surface includes authentication, documentation, support, developer portal, GitHub presence, and 15 more developer resources.'
+  CodeProject''s developer surface includes authentication, documentation, code examples, support, developer portal, GitHub presence, and 14 more developer resources.'
 plans:
 - name: Codeproject Plans Pricing
   plan_count: 3
@@ -266,18 +266,26 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode/implicit
 score:
   band: developing
-  composite: 46.2
-  delta: 1.4
+  composite: 43.6
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 46.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.7
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 54.5
-    contract_quality: 50.2
+    contract_quality: 50.5
     developer_ergonomics: 42.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 54.5
     operational_transparency: 28.9
-  previous_composite: 44.8
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
@@ -285,8 +293,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codeproject/refs/heads/main/screenshots/codeproject-2026-06-20T174804.png
 security:

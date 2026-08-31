@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Trainline Partner Solutions'' wholesale rail and coach distribution API, sold to travel sellers, OTAs, TMCs and corporate booking tools. Trainline publicly describes it as "a modern, intuitive RESTful '
@@ -31,6 +31,14 @@ apis:
   slug: trainline-global-api
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/trainline-eu/stations/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/trainline-eu/stations/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -171,11 +179,16 @@ network: true
 overview: 'Trainline publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Travel, Rail, United Kingdom, Europe, and Booking.
 
 
-  Trainline''s developer surface includes developer portal, documentation, support, engineering blog, and 27 more developer resources.'
+  Trainline''s developer surface includes developer portal, documentation, support, engineering blog, and 29 more developer resources.'
 random_paper: 0
 score:
   band: emerging
-  composite: 23.8
+  composite: 22.9
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 86.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -183,14 +196,17 @@ score:
     contract_governance: 22.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 68.5
+    discoverability: 57.4
     governance: 22.0
     operational_transparency: 13.2
-  previous_composite: 23.8
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 22.9
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

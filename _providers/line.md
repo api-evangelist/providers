@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 4
@@ -42,39 +42,45 @@ agentic_access:
   operation_count: 111
   slug: line-agentic-access
   summary_line: 111 operations · 59 acting · 4 human-in-the-loop
-api_count: 10
+api_count: 9
 apis:
-- description: The core LINE bot API — 73 operations for replying, pushing, multicasting, broadcasting and narrowcasting messages to LINE users, plus rich menus, Flex messages, group and room membership, profiles, f
-  name: LINE Messaging API
-  slug: line-messaging-api
-- description: The inbound event surface of the Messaging API, published by LINE as an OpenAPI type-definition document. LINE delivers CallbackRequest envelopes to the bot server's configured HTTPS endpoint, carryin
-  name: LINE Messaging API Webhook
-  slug: line-webhook
-- description: 'Issues, verifies and revokes the channel access tokens every other LINE server API consumes. Four generations run concurrently: long-lived tokens from the Developers Console, v2.0 short-lived tokens, '
-  name: LINE Channel Access Token API
-  slug: line-channel-access-token-api
-- description: Seven read operations returning analytics for a LINE Official Account — friend demographics, number of followers, number of message deliveries by day, per-request message event statistics (impressions
-  name: LINE Insight API
-  slug: line-insight-api
-- description: Twelve operations for building and managing the marketing audiences a narrowcast targets — creating audiences from uploaded user IDs by JSON or by file, click-based and impression-based audiences deri
-  name: LINE Manage Audience API
-  slug: line-manage-audience-api
-- description: Four operations for managing LINE Front-end Framework apps on a LINE Login channel — add, list, update and delete LIFF apps. LIFF apps are web applications that run inside the LINE client's in-app bro
-  name: LIFF Server API
-  slug: line-liff-api
-- description: Four operations for the module feature, which lets a partner-operated module channel take and release chat control on behalf of a LINE Official Account — detach a module, acquire chat initiative, rele
-  name: LINE Module API
-  slug: line-module-api
-- description: A single operation that attaches a module channel to a LINE Official Account and returns the resulting bot and scope grant. The only operation across LINE's nine published specifications that uses HTT
-  name: LINE Module Attach API
-  slug: line-module-attach-api
-- description: A single operation for the Mission Sticker programme, granting a user a sticker reward after they complete a defined mission with a corporate LINE Official Account. Available only to corporate custome
-  name: LINE Mission Sticker API
-  slug: line-shop-api
 - description: End-user authentication and authorization over OAuth 2.0 authorization code grant and OpenID Connect. Authorization runs at access.line.me; token, userinfo, revocation and JWKS endpoints are on api.li
   name: LINE Login v2.1
   slug: line-login-api
-artifact_total: 27
+- description: The channel-access-token API from LINE — 8 operation(s) for channel-access-token.
+  name: LINE Channel Access Token API
+  slug: line-channel-access-token-api
+- description: The dummy API from LINE — 1 operation(s) for dummy.
+  name: LINE Dummy API
+  slug: line-dummy-api
+- description: The insight API from LINE — 7 operation(s) for insight.
+  name: LINE Insight API
+  slug: line-insight-api
+- description: The liff API from LINE — 2 operation(s) for liff.
+  name: LINE Liff API
+  slug: line-liff-api
+- description: The line-module API from LINE — 4 operation(s) for line-module.
+  name: LINE Line Module API
+  slug: line-line-module-api
+- description: The line-module-attach API from LINE — 1 operation(s) for line-module-attach.
+  name: LINE Line Module Attach API
+  slug: line-line-module-attach-api
+- description: The manage-audience API from LINE — 8 operation(s) for manage-audience.
+  name: LINE Manage Audience API
+  slug: line-manage-audience-api
+- description: The manage-audience-blob API from LINE — 1 operation(s) for manage-audience-blob.
+  name: LINE Manage Audience Blob API
+  slug: line-manage-audience-blob-api
+- description: The messaging-api API from LINE — 61 operation(s) for messaging-api.
+  name: LINE Messaging API
+  slug: line-messaging-api-api
+- description: The messaging-api-blob API from LINE — 4 operation(s) for messaging-api-blob.
+  name: LINE Messaging API Blob API
+  slug: line-messaging-api-blob-api
+- description: The shop API from LINE — 1 operation(s) for shop.
+  name: LINE Shop API
+  slug: line-shop-api
+artifact_total: 29
 asyncapis:
 - description: 'AsyncAPI description of the webhook event surface published by the LINE Messaging API to bot servers. The Messaging API delivers webhook events as HTTPS POST requests to the configured webhook URL of '
   name: LINE Messaging Webhook Event Surface
@@ -99,6 +105,46 @@ collections:
   name: LINE Messaging API
   slug: open-line
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/line-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/line-messaging-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/line-webhook-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/line-channel-access-token-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/line-insight-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/line-manage-audience-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/line-liff-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/line-module-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/line-module-attach-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/line-shop-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -290,13 +336,13 @@ modified: '2026-08-13'
 name: LINE
 nav: Providers
 network: true
-overview: 'LINE publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Messaging API, Messaging API Webhook, Channel Access Token API, and 6 more. Tagged areas include Messaging, Chatbots, Social Login, Mini Apps, and Marketing.
+overview: 'LINE publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Channel Access Token API, Dummy API, Insight API, and 8 more. Tagged areas include Messaging, Chatbots, Social Login, Mini Apps, and Marketing.
 
 
   The LINE catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  LINE''s developer surface includes authentication, CLI, sandbox, changelog, documentation, API reference, getting-started guide, and 37 more developer resources.'
+  LINE''s developer surface includes authentication, CLI, sandbox, changelog, documentation, API reference, getting-started guide, and 47 more developer resources.'
 plans:
 - name: Line Plans Pricing
   plan_count: 3
@@ -325,18 +371,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 72.2
-  delta: 1.0
+  composite: 69.5
+  coverage:
+    artifact_dirs: 28
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 43.9
-    contract_quality: 57.4
+    contract_governance: 31.8
+    contract_quality: 57.0
     developer_ergonomics: 80.4
-    discoverability: 92.6
-    governance: 43.9
+    discoverability: 81.5
+    governance: 31.8
     operational_transparency: 92.1
-  previous_composite: 71.2
+  previous_composite: 69.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -347,8 +398,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/screenshots/line-2026-06-20T184539.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 7
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 239
   slug: tetrascience-agentic-access
   summary_line: 239 operations · 88 acting · 7 human-in-the-loop
-api_count: 35
+api_count: 2
 apis:
 - description: The Access Groups API from TetraScience — 6 operation(s) for access groups.
   name: TetraScience Access Groups API
@@ -368,6 +368,10 @@ collections:
   name: TetraScience Data and AI Cloud API
   slug: open-tetrascience
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tetrascience-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -483,7 +487,7 @@ overview: 'TetraScience publishes 35 APIs on the [APIs.io](https://apis.io/) net
   The TetraScience catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  TetraScience''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, support, and 16 more developer resources.'
+  TetraScience''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, support, and 17 more developer resources.'
 plans:
 - name: Tetrascience Plans Pricing
   plan_count: 3
@@ -508,18 +512,23 @@ rules:
   slug: tetrascience-rules
 score:
   band: strong
-  composite: 56.2
-  delta: 3.3
+  composite: 55.6
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 20.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
     contract_governance: 69.7
     contract_quality: 65.0
     developer_ergonomics: 36.9
-    discoverability: 75.9
+    discoverability: 70.4
     governance: 69.7
     operational_transparency: 42.1
-  previous_composite: 52.9
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     contracts:
@@ -533,8 +542,8 @@ score:
     regime: Health
     regime_id: health
     score: 24.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/screenshots/tetrascience-2026-06-20T195201.png
 security:

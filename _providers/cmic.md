@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: cmic-agentic-access
   summary_line: 11 operations · 2 acting
-api_count: 7
+api_count: 1
 apis:
 - description: CMiC's Power BI Connector allows users to connect Microsoft Power BI directly to CMiC ERP data through the CMiC API, enabling business intelligence dashboards and reports for construction project fina
   name: CMiC API Power BI Connector
@@ -92,6 +92,10 @@ collections:
   name: CMiC Construction ERP Cost Tracking Subcontractors API
   slug: open-cmic-subcontractors-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cmic-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -162,7 +166,6 @@ finops:
 - name: Cmic Finops
   service_category: API
   slug: cmic-finops
-image: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/image.png
 json_schemas:
 - name: CMiC Construction Project
   property_count: 14
@@ -183,7 +186,7 @@ overview: 'CMiC publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
   The CMiC catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  CMiC''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 11 more developer resources.'
+  CMiC''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 12 more developer resources.'
 plans:
 - name: Cmic Plans Pricing
   plan_count: 3
@@ -222,18 +225,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 40.8
-  delta: 0.6
+  composite: 39.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.9
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 13.6
     contract_quality: 63.8
     developer_ergonomics: 52.4
-    discoverability: 64.8
+    discoverability: 55.6
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 40.2
+  previous_composite: 40.8
   provenance:
     agentic_access: derived
     contracts:
@@ -241,8 +249,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/screenshots/cmic-2026-06-20T174629.png
 security:

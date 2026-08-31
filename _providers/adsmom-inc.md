@@ -34,17 +34,60 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: Stable REST API over the Adsmom ad index. 78 operations across Explore (list, hydrate and detail Meta/TikTok/Google/LinkedIn ads, plus reach and impression timeseries and point-in-time snapshots), Ins
-  name: Adsmom REST API
-  slug: adsmom-rest-api
 - description: 'First-party hosted Model Context Protocol server that exposes the same ad index to AI assistants (Claude, Codex, Cursor, Gemini). Streamable HTTP at https://api.adsmom.com/mcp, protected by OAuth 2.0 '
   name: Adsmom MCP Server
   slug: adsmom-mcp-server
-artifact_total: 8
+- description: The Account API from Adsmom Inc. — 1 operation(s) for account.
+  name: Adsmom Inc. Account API
+  slug: adsmom-inc-account-api
+- description: The Analytics · Google API from Adsmom Inc. — 7 operation(s) for analytics · google.
+  name: Adsmom Inc. Analytics · Google API
+  slug: adsmom-inc-analytics-google-api
+- description: The Analytics · Meta API from Adsmom Inc. — 7 operation(s) for analytics · meta.
+  name: Adsmom Inc. Analytics · Meta API
+  slug: adsmom-inc-analytics-meta-api
+- description: The Analytics · TikTok API from Adsmom Inc. — 9 operation(s) for analytics · tiktok.
+  name: Adsmom Inc. Analytics · TikTok API
+  slug: adsmom-inc-analytics-tiktok-api
+- description: The Explore · Google Ads API from Adsmom Inc. — 2 operation(s) for explore · google ads.
+  name: Adsmom Inc. Explore · Google Ads API
+  slug: adsmom-inc-explore-google-ads-api
+- description: The Explore · LinkedIn Ads API from Adsmom Inc. — 6 operation(s) for explore · linkedin ads.
+  name: Adsmom Inc. Explore · LinkedIn Ads API
+  slug: adsmom-inc-explore-linkedin-ads-api
+- description: The Explore · Meta Ads API from Adsmom Inc. — 4 operation(s) for explore · meta ads.
+  name: Adsmom Inc. Explore · Meta Ads API
+  slug: adsmom-inc-explore-meta-ads-api
+- description: The Explore · TikTok Ads API from Adsmom Inc. — 6 operation(s) for explore · tiktok ads.
+  name: Adsmom Inc. Explore · TikTok Ads API
+  slug: adsmom-inc-explore-tiktok-ads-api
+- description: The Insights · Google API from Adsmom Inc. — 4 operation(s) for insights · google.
+  name: Adsmom Inc. Insights · Google API
+  slug: adsmom-inc-insights-google-api
+- description: The Insights · Instagram Organic API from Adsmom Inc. — 4 operation(s) for insights · instagram organic.
+  name: Adsmom Inc. Insights · Instagram Organic API
+  slug: adsmom-inc-insights-instagram-organic-api
+- description: The Insights · LinkedIn API from Adsmom Inc. — 4 operation(s) for insights · linkedin.
+  name: Adsmom Inc. Insights · LinkedIn API
+  slug: adsmom-inc-insights-linkedin-api
+- description: The Insights · Meta API from Adsmom Inc. — 4 operation(s) for insights · meta.
+  name: Adsmom Inc. Insights · Meta API
+  slug: adsmom-inc-insights-meta-api
+- description: The Insights · TikTok API from Adsmom Inc. — 4 operation(s) for insights · tiktok.
+  name: Adsmom Inc. Insights · TikTok API
+  slug: adsmom-inc-insights-tiktok-api
+- description: The Insights · TikTok Organic API from Adsmom Inc. — 4 operation(s) for insights · tiktok organic.
+  name: Adsmom Inc. Insights · TikTok Organic API
+  slug: adsmom-inc-insights-tiktok-organic-api
+artifact_total: 21
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/adsmom-inc-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -166,10 +209,10 @@ modified: '2026-08-13'
 name: Adsmom Inc.
 nav: Providers
 network: true
-overview: 'Adsmom Inc. publishes 1 API on the [APIs.io](https://apis.io/) network: Adsmom REST API. Tagged areas include Company, Advertising, Ad Intelligence, Competitive Intelligence, and Marketing.
+overview: 'Adsmom Inc. publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Account API, Analytics · Google API, Analytics · Meta API, and 11 more. Tagged areas include Company, Advertising, Ad Intelligence, Competitive Intelligence, and Marketing.
 
 
-  Adsmom Inc.''s developer surface includes documentation, API reference, authentication, engineering blog, pricing, signup flow, and 21 more developer resources.'
+  Adsmom Inc.''s developer surface includes documentation, API reference, authentication, engineering blog, pricing, signup flow, and 22 more developer resources.'
 plans:
 - name: Adsmom Inc Plans
   plan_count: 3
@@ -186,24 +229,29 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 43.8
-  delta: 0.0
+  composite: 41.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 30.3
-    contract_quality: 44.9
+    contract_governance: 18.2
+    contract_quality: 44.6
     developer_ergonomics: 32.7
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 43.8
+  previous_composite: 41.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/screenshots/adsmom-inc-2026-07-25T181702.png
 security:
@@ -229,6 +277,6 @@ tags:
 - REST
 - Analytics
 - Social-Media
-- agent-native
+- Agent Native
 website: https://adsmom.com
 ---

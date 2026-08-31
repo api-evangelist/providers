@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 49
   slug: polyapi-agentic-access
   summary_line: 49 operations · 29 acting
-api_count: 10
+api_count: 1
 apis:
 - description: Manage API functions that wrap third-party API calls and are invoked through the PolyAPI gateway.
   name: PolyAPI API Functions API
@@ -372,7 +372,7 @@ modified: '2026-05-19'
 name: PolyAPI
 nav: Providers
 network: true
-overview: 'PolyAPI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including API Functions API, Assistants API, Client Functions API, and 7 more. Tagged areas include Integration, Microservices, Middleware, Orchestrations, and Pro-Code-API-Composition.
+overview: 'PolyAPI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including API Functions API, Assistants API, Client Functions API, and 7 more. Tagged areas include Integration, Microservices, Middleware, Orchestrations, and Pro-Code API Composition.
 
 
   The PolyAPI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -401,18 +401,23 @@ rules:
   slug: polyapi-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 50.8
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 73.2
     developer_ergonomics: 47.6
-    discoverability: 64.8
+    discoverability: 66.7
     governance: 9.8
     operational_transparency: 55.3
-  previous_composite: 50.6
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     contracts:
@@ -420,8 +425,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polyapi/refs/heads/main/screenshots/polyapi-2026-06-20T191900.png
 security:
@@ -439,7 +444,7 @@ tags:
 - Microservices
 - Middleware
 - Orchestrations
-- Pro-Code-API-Composition
+- Pro-Code API Composition
 use_cases:
 - name: Service Development
 - name: Operational Applications

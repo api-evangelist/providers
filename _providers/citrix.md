@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 69
   slug: citrix-agentic-access
   summary_line: 69 operations · 37 acting
-api_count: 27
+api_count: 6
 apis:
 - description: Integrate and customize Citrix Workspace for end users.
   name: Citrix Workspace API
@@ -281,6 +281,10 @@ collections:
   name: Citrix ADC (NetScaler) NITRO Access Policies Users API
   slug: open-citrix-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/citrix-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -526,13 +530,13 @@ modified: '2026-05-19'
 name: Citrix
 nav: Providers
 network: true
-overview: 'Citrix publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Access Policies API, Application Domains API, Applications API, and 19 more. Tagged areas include Application Delivery, Desktop as a Service, Networking, Virtualization, and Workspace.
+overview: 'Citrix publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Access Policies API, Application Domains API, Applications API, and 19 more. Tagged areas include Application Delivery, Desktop-As-A-Service, Networking, Virtualization, and Workspace.
 
 
   The Citrix catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Citrix''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, and 17 more developer resources.'
+  Citrix''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, and 18 more developer resources.'
 plans:
 - name: Citrix Plans Pricing
   plan_count: 3
@@ -583,7 +587,12 @@ rules:
 score:
   band: developing
   composite: 42.2
-  delta: 3.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
@@ -593,7 +602,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 38.9
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     contracts:
@@ -601,8 +610,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/screenshots/citrix-2026-06-20T174413.png
 security:
@@ -617,7 +626,7 @@ security:
 slug: citrix
 tags:
 - Application Delivery
-- Desktop as a Service
+- Desktop-As-A-Service
 - Networking
 - Virtualization
 - Workspace

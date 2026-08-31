@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The Seated Artist API enables developers and artist teams to build custom integrations with the Seated platform. The API provides access to tour date listings and event data, supporting use cases such
@@ -97,7 +97,7 @@ modified: '2026-06-13'
 name: Seated
 nav: Providers
 network: true
-overview: 'Seated publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Live Events, Concerts, Ticketing, Artists, and Venues.
+overview: 'Seated publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include live events, concerts, Ticketing, artists, and venues.
 
 
   Seated''s developer surface includes documentation, getting-started guide, engineering blog, and 8 more developer resources.'
@@ -113,7 +113,12 @@ rate_limits:
 score:
   band: thin
   composite: 28.8
-  delta: 2.3
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -123,9 +128,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 26.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 28.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seated/refs/heads/main/screenshots/seated-2026-06-20T193617.png
 security:
@@ -135,15 +140,15 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: seated
 tags:
-- Live Events
-- Concerts
+- live events
+- concerts
 - Ticketing
-- Artists
-- Venues
+- artists
+- venues
 - tour dates
 - fan notifications
 - Presales
-- Music
-- Entertainment
+- music
+- entertainment
 website: https://www.seated.com/
 ---

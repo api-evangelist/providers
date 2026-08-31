@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 0
@@ -41,138 +41,15 @@ agentic_access:
   operation_count: 200
   slug: limble-cmms-agentic-access
   summary_line: 200 operations · 142 acting
-api_count: 43
+api_count: 1
 apis:
 - description: 'The Limble CMMS REST API V2 provides HTTPS access to maintenance management data including assets, locations, work orders, preventive maintenance tasks, parts, purchase orders, users, vendors, teams, '
   name: Limble API V2
   slug: limble-api-v2
-- description: The Assets API from Limble CMMS — 15 operation(s) for assets.
-  name: Limble CMMS Assets API
-  slug: limble-cmms-assets-api
-- description: The Batch API from Limble CMMS — 1 operation(s) for batch.
-  name: Limble CMMS Batch API
-  slug: limble-cmms-batch-api
-- description: The Bills API from Limble CMMS — 9 operation(s) for bills.
-  name: Limble CMMS Bills API
-  slug: limble-cmms-bills-api
-- description: The Budgets API from Limble CMMS — 5 operation(s) for budgets.
-  name: Limble CMMS Budgets API
-  slug: limble-cmms-budgets-api
-- description: The Capacity API from Limble CMMS — 5 operation(s) for capacity.
-  name: Limble CMMS Capacity API
-  slug: limble-cmms-capacity-api
-- description: The Categories API from Limble CMMS — 2 operation(s) for categories.
-  name: Limble CMMS Categories API
-  slug: limble-cmms-categories-api
-- description: The Comments API from Limble CMMS — 7 operation(s) for comments.
-  name: Limble CMMS Comments API
-  slug: limble-cmms-comments-api
-- description: The Exceptions API from Limble CMMS — 3 operation(s) for exceptions.
-  name: Limble CMMS Exceptions API
-  slug: limble-cmms-exceptions-api
-- description: The Fields API from Limble CMMS — 13 operation(s) for fields.
-  name: Limble CMMS Fields API
-  slug: limble-cmms-fields-api
-- description: The Files API from Limble CMMS — 5 operation(s) for files.
-  name: Limble CMMS Files API
-  slug: limble-cmms-files-api
-- description: The General Ledgers API from Limble CMMS — 2 operation(s) for general ledgers.
-  name: Limble CMMS General Ledgers API
-  slug: limble-cmms-general-ledgers-api
-- description: The Image API from Limble CMMS — 1 operation(s) for image.
-  name: Limble CMMS Image API
-  slug: limble-cmms-image-api
-- description: The Images API from Limble CMMS — 4 operation(s) for images.
-  name: Limble CMMS Images API
-  slug: limble-cmms-images-api
-- description: The Instructions API from Limble CMMS — 5 operation(s) for instructions.
-  name: Limble CMMS Instructions API
-  slug: limble-cmms-instructions-api
-- description: The Invoices API from Limble CMMS — 4 operation(s) for invoices.
-  name: Limble CMMS Invoices API
-  slug: limble-cmms-invoices-api
-- description: The Items API from Limble CMMS — 3 operation(s) for items.
-  name: Limble CMMS Items API
-  slug: limble-cmms-items-api
-- description: The Labor API from Limble CMMS — 2 operation(s) for labor.
-  name: Limble CMMS Labor API
-  slug: limble-cmms-labor-api
-- description: The Locations API from Limble CMMS — 2 operation(s) for locations.
-  name: Limble CMMS Locations API
-  slug: limble-cmms-locations-api
-- description: The Logs API from Limble CMMS — 11 operation(s) for logs.
-  name: Limble CMMS Logs API
-  slug: limble-cmms-logs-api
-- description: The Me API from Limble CMMS — 1 operation(s) for me.
-  name: Limble CMMS Me API
-  slug: limble-cmms-me-api
-- description: The Options API from Limble CMMS — 2 operation(s) for options.
-  name: Limble CMMS Options API
-  slug: limble-cmms-options-api
-- description: The Parts API from Limble CMMS — 20 operation(s) for parts.
-  name: Limble CMMS Parts API
-  slug: limble-cmms-parts-api
-- description: The Priorities API from Limble CMMS — 2 operation(s) for priorities.
-  name: Limble CMMS Priorities API
-  slug: limble-cmms-priorities-api
-- description: The Purchasables API from Limble CMMS — 1 operation(s) for purchasables.
-  name: Limble CMMS Purchasables API
-  slug: limble-cmms-purchasables-api
-- description: The Purchase Orders API from Limble CMMS — 10 operation(s) for purchase orders.
-  name: Limble CMMS Purchase Orders API
-  slug: limble-cmms-purchase-orders-api
-- description: The Regions API from Limble CMMS — 2 operation(s) for regions.
-  name: Limble CMMS Regions API
-  slug: limble-cmms-regions-api
-- description: The Roles API from Limble CMMS — 3 operation(s) for roles.
-  name: Limble CMMS Roles API
-  slug: limble-cmms-roles-api
 - description: The Routes API from Limble CMMS — 120 operation(s) for routes.
   name: Limble CMMS Routes API
   slug: limble-cmms-routes-api
-- description: The Schedules API from Limble CMMS — 2 operation(s) for schedules.
-  name: Limble CMMS Schedules API
-  slug: limble-cmms-schedules-api
-- description: The State API from Limble CMMS — 2 operation(s) for state.
-  name: Limble CMMS State API
-  slug: limble-cmms-state-api
-- description: The Statuses API from Limble CMMS — 2 operation(s) for statuses.
-  name: Limble CMMS Statuses API
-  slug: limble-cmms-statuses-api
-- description: The Steps API from Limble CMMS — 3 operation(s) for steps.
-  name: Limble CMMS Steps API
-  slug: limble-cmms-steps-api
-- description: The Tags API from Limble CMMS — 4 operation(s) for tags.
-  name: Limble CMMS Tags API
-  slug: limble-cmms-tags-api
-- description: The Tasks API from Limble CMMS — 24 operation(s) for tasks.
-  name: Limble CMMS Tasks API
-  slug: limble-cmms-tasks-api
-- description: The Teams API from Limble CMMS — 3 operation(s) for teams.
-  name: Limble CMMS Teams API
-  slug: limble-cmms-teams-api
-- description: The Transactions API from Limble CMMS — 4 operation(s) for transactions.
-  name: Limble CMMS Transactions API
-  slug: limble-cmms-transactions-api
-- description: The Units of Measure API from Limble CMMS — 2 operation(s) for units of measure.
-  name: Limble CMMS Units of Measure API
-  slug: limble-cmms-units-of-measure-api
-- description: The Users API from Limble CMMS — 9 operation(s) for users.
-  name: Limble CMMS Users API
-  slug: limble-cmms-users-api
-- description: The Vendor Associations API from Limble CMMS — 2 operation(s) for vendor associations.
-  name: Limble CMMS Vendor Associations API
-  slug: limble-cmms-vendor-associations-api
-- description: The Vendors API from Limble CMMS — 11 operation(s) for vendors.
-  name: Limble CMMS Vendors API
-  slug: limble-cmms-vendors-api
-- description: The Webhooks API from Limble CMMS — 2 operation(s) for webhooks.
-  name: Limble CMMS Webhooks API
-  slug: limble-cmms-webhooks-api
-- description: The Work Request Submissions API from Limble CMMS — 3 operation(s) for work request submissions.
-  name: Limble CMMS Work Request Submissions API
-  slug: limble-cmms-work-request-submissions-api
-artifact_total: 118
+artifact_total: 77
 collections:
 - collection_type: open
   name: API Collection
@@ -447,7 +324,7 @@ modified: '2026-06-05'
 name: Limble CMMS
 nav: Providers
 network: true
-overview: 'Limble CMMS publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Batch API, Bills API, and 39 more. Tagged areas include CMMS, Maintenance Management, Asset Management, Manufacturing, and Facility Management.
+overview: 'Limble CMMS publishes 1 API on the [APIs.io](https://apis.io/) network: Routes API. Tagged areas include CMMS, Maintenance Management, Asset Management, Manufacturing, and Facility Management.
 
 
   The Limble CMMS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -479,17 +356,22 @@ rules:
 score:
   band: thin
   composite: 38.6
-  delta: 0.7
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 63.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 9.8
-    contract_quality: 68.1
+    contract_quality: 70.4
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 37.9
+  previous_composite: 38.6
   provenance:
     agentic_access: derived
     contracts:
@@ -497,8 +379,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 42
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/limble-cmms/refs/heads/main/screenshots/limble-cmms-2026-06-20T184528.png
 security:

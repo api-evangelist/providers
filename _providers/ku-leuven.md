@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 254
   human_in_the_loop: 7
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 536
   slug: ku-leuven-agentic-access
   summary_line: 536 operations · 254 acting · 7 human-in-the-loop
-api_count: 49
+api_count: 3
 apis:
 - description: ICTS Data Services REST API exposing public personnel / who-is-who person information. An expanded intranet variant requires a service account.
   name: KU Leuven Person Information API
@@ -166,9 +166,6 @@ apis:
 - description: The Workflows API from KU Leuven — 1 operation(s) for workflows.
   name: KU Leuven Workflows API
   slug: ku-leuven-workflows-api
-- description: The institution's central programmable surface, operated by KU Leuven ICTS on its own host and its own address space. dataservice.kuleuven.be fronts eight public OpenSearch index families — employee (
-  name: KU Leuven ICTS Data Services API (OpenSearch gateway)
-  slug: data-services
 - description: ICTS Data Services index of academic curriculum and CV records — discipline codes, research topics and the researcher's ORCID iD in the `orcId` field. Confirmed live 2026-08-19. This is the surface th
   name: KU Leuven Curriculum Information (Curriculuminformatie) API
   slug: curriculum
@@ -190,7 +187,31 @@ apis:
 - description: KU Leuven serves its own SAML 2.0 federation metadata from idp.kuleuven.be, which resolves to 134.58.64.219 inside the university's own address space — institution-operated, not a hosted IdP tenant. e
   name: KU Leuven Shibboleth Identity Provider (SAML 2.0 metadata)
   slug: identity-federation
-artifact_total: 110
+- description: Academic curriculum and CV information, including ORCID identifiers.
+  name: KU Leuven Curriculum API
+  slug: ku-leuven-curriculum-api
+- description: Institutional organisational chart units.
+  name: KU Leuven Organigram API
+  slug: ku-leuven-organigram-api
+- description: Public staff / who-is-who person information (wie-is-wie).
+  name: KU Leuven Person API
+  slug: ku-leuven-person-api
+- description: Educational offering — degree programmes in the programme guide (onderwijsaanbod).
+  name: KU Leuven Programs API
+  slug: ku-leuven-programs-api
+- description: Research infrastructure and core facilities from the research database.
+  name: KU Leuven Research Infrastructure API
+  slug: ku-leuven-researchinfrastructure-api
+- description: Research projects from the KU Leuven research database (onderzoeksdatabank).
+  name: KU Leuven Research Projects API
+  slug: ku-leuven-researchprojects-api
+- description: Research teams / groups from the research database.
+  name: KU Leuven Research Teams API
+  slug: ku-leuven-researchteams-api
+- description: Public job vacancies published on the KU Leuven job site.
+  name: KU Leuven Vacancies API
+  slug: ku-leuven-vacancies-api
+artifact_total: 117
 collections:
 - collection_type: open
   name: API Collection
@@ -512,7 +533,7 @@ modified: '2026-08-19'
 name: KU Leuven
 nav: Providers
 network: true
-overview: 'KU Leuven publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Access API, addFilesToDataset API, addFileToDataset API, and 34 more. Tagged areas include University, Higher Education, Education, Belgium, and Europe.
+overview: 'KU Leuven publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Access API, addFilesToDataset API, addFileToDataset API, and 41 more. Tagged areas include University, Higher Education, Education, Belgium, and Europe.
 
 
   The KU Leuven catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -557,18 +578,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.6
-  delta: 0.9
+  composite: 50.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 55.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 17.4
-    contract_quality: 52.5
+    contract_quality: 49.4
     developer_ergonomics: 42.9
     discoverability: 61.1
     governance: 17.4
     operational_transparency: 34.2
-  previous_composite: 50.7
+  previous_composite: 50.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -583,8 +609,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 75.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ku-leuven/refs/heads/main/screenshots/ku-leuven-2026-06-20T184201.png
 security:

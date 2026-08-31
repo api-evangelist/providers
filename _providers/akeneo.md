@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 54
   slug: akeneo-agentic-access
   summary_line: 54 operations · 26 acting
-api_count: 15
+api_count: 1
 apis:
 - description: The Asset Manager API from Akeneo — 2 operation(s) for asset manager.
   name: Akeneo Asset Manager API
@@ -142,6 +142,10 @@ collections:
   name: Akeneo PIM REST API
   slug: open-akeneo
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/akeneo-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -213,7 +217,7 @@ network: true
 overview: 'Akeneo publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Asset Manager API, Attributes API, Authentication API, and 12 more. Tagged areas include Product Information Management, PIM, Product Data, Catalog Management, and Commerce.
 
 
-  Akeneo''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
+  Akeneo''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 10 more developer resources.'
 random_paper: 18
 scopes:
 - name: Akeneo Scopes
@@ -222,15 +226,20 @@ scopes:
   summary_line: 36 scopes · clientCredentials
 score:
   band: thin
-  composite: 31.4
-  delta: 0.0
+  composite: 30.8
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 51.0
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 31.4
@@ -241,8 +250,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akeneo/refs/heads/main/screenshots/akeneo-2026-06-20T171448.png
 security:

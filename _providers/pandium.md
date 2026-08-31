@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: pandium-agentic-access
   summary_line: 14 operations · 5 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Proxy calls to external APIs on behalf of a tenant.
   name: Pandium Connector Calls API
@@ -426,7 +426,7 @@ modified: '2026-05-19'
 name: Pandium
 nav: Providers
 network: true
-overview: 'Pandium publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Connector Calls API, Integrations API, Runs API, and 2 more. Tagged areas include B2B, Hub, Integration, and Workflows.
+overview: 'Pandium publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Connector Calls API, Integrations API, Runs API, and 2 more. Tagged areas include B2B, Hubs, Integration, and Workflows.
 
 
   The Pandium catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -455,15 +455,20 @@ rules:
   slug: pandium-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.6
-  delta: 0.0
+  composite: 47.1
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
     contract_governance: 9.8
     contract_quality: 67.3
     developer_ergonomics: 35.7
-    discoverability: 63.0
+    discoverability: 57.4
     governance: 9.8
     operational_transparency: 39.5
   previous_composite: 47.6
@@ -474,8 +479,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/screenshots/pandium-2026-06-20T191334.png
 security:
@@ -498,7 +503,7 @@ security:
 slug: pandium
 tags:
 - B2B
-- Hub
+- Hubs
 - Integration
 - Workflows
 use_cases:

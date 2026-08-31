@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,11 +41,8 @@ agentic_access:
   operation_count: 12
   slug: virgin-money-uk-agentic-access
   summary_line: 12 operations
-api_count: 12
+api_count: 1
 apis:
-- description: PUBLIC, unauthenticated OBIE Open Data API surface (ATM Locator, Branch Locator, Personal & Business Current Accounts, Unsecured SME Loans, Commercial Credit Cards). Represented as the shared OBIE Ope
-  name: Virgin Money UK Open Data API
-  slug: open-data-api
 - description: OBIE Read/Write Account & Transaction Information (AIS) API - retrieve accounts, balances, transactions, beneficiaries, standing orders, direct debits, and statements. Merged brand family (Virgin Mone
   name: Virgin Money UK Account and Transaction API (AIS)
   slug: account-transaction-api
@@ -79,12 +76,34 @@ apis:
 - description: OBIE Read/Write Account & Transaction Information (AIS) API for the Standalone brand family (personal credit cards and sort-code-08 current and savings accounts), documented at OBIE v3.1.1. FAPI OAuth
   name: Virgin Money UK Standalone Account and Transaction API (AIS)
   slug: standalone-account-transaction-api
-artifact_total: 18
+- description: Endpoint for getting ATM data
+  name: Virgin Money UK ATM API
+  slug: virgin-money-uk-atm-api
+- description: Endpoint for getting Business Current Account data
+  name: Virgin Money UK BCA API
+  slug: virgin-money-uk-bca-api
+- description: Endpoint for getting Branch data
+  name: Virgin Money UK Branch API
+  slug: virgin-money-uk-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: Virgin Money UK CCC API
+  slug: virgin-money-uk-ccc-api
+- description: Endpoint for getting Personal Current Account data
+  name: Virgin Money UK PCA API
+  slug: virgin-money-uk-pca-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: Virgin Money UK SME API
+  slug: virgin-money-uk-sme-api
+artifact_total: 23
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-obie-opendata-api-standard
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/virgin-money-uk-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -194,10 +213,10 @@ modified: '2026-07-24'
 name: Virgin Money UK
 nav: Providers
 network: true
-overview: 'Virgin Money UK publishes 1 API on the [APIs.io](https://apis.io/) network: Open Data API. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Virgin Money UK publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 3 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  Virgin Money UK''s developer surface includes authentication, documentation, support, and 22 more developer resources.'
+  Virgin Money UK''s developer surface includes authentication, documentation, support, and 23 more developer resources.'
 random_paper: 9
 scopes:
 - name: Virgin Money Uk Scopes
@@ -206,18 +225,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 50.9
-  delta: -1.0
+  composite: 47.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 32.7
     developer_ergonomics: 44.6
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 51.9
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -229,12 +253,18 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: eidas
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

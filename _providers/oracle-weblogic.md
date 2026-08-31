@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 5
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 143
   slug: oracle-weblogic-agentic-access
   summary_line: 143 operations · 74 acting · 5 human-in-the-loop
-api_count: 26
+api_count: 3
 apis:
 - description: Python-based scripting interface for automating WebLogic Server administration tasks.
   name: WebLogic WLST (WebLogic Scripting Tool) API
@@ -209,6 +209,10 @@ collections:
   name: Oracle WebLogic Server Oracle WebLogic Deployment Application Deployment Thread Pool Runtime API
   slug: open-oracle-weblogic-thread-pool-runtime-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/oracle-weblogic-capability-edges.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -547,7 +551,7 @@ overview: 'Oracle WebLogic Server publishes 24 APIs on the [APIs.io](https://api
   The Oracle WebLogic Server catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Oracle WebLogic Server''s developer surface includes authentication, support, documentation, engineering blog, Stack Overflow tag, YouTube channel, signup flow, and 11 more developer resources.'
+  Oracle WebLogic Server''s developer surface includes authentication, support, documentation, engineering blog, Stack Overflow tag, YouTube channel, signup flow, and 12 more developer resources.'
 plans:
 - name: Oracle Weblogic Plans Pricing
   plan_count: 3
@@ -571,7 +575,12 @@ rules:
 score:
   band: developing
   composite: 41.9
-  delta: 2.2
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 54.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -581,7 +590,7 @@ score:
     discoverability: 57.4
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 39.7
+  previous_composite: 41.9
   provenance:
     agentic_access: derived
     contracts:
@@ -589,8 +598,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/screenshots/oracle-weblogic-2026-06-20T191145.png
 security:

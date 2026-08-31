@@ -1,7 +1,6 @@
 ---
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -16,22 +15,41 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-08-26'
+  score: 36.9
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: The Directus 10.10.7 headless CMS that serves carbonfarm.tech's news posts and image assets. It publishes a real OpenAPI 3.0.1 (14 operations) and a full GraphQL SDL anonymously at /server/specs/oas a
-  name: CarbonFarm CMS Content API
-  slug: carbonfarm-cms-content-api
-artifact_total: 6
+- description: Image typed files can be dynamically resized and transformed to fit any need.
+  name: CarbonFarm Assets API
+  slug: carbonfarm-assets-api
+- description: All data within the platform is private by default. The public role can be configured to expose data without authentication, or you can pass an access token to the API to access private data.
+  name: CarbonFarm Authentication API
+  slug: carbonfarm-authentication-api
+- description: Files can be saved in any given location. Directus has a powerful assets endpoint that can be used to generate thumbnails for images on the fly.
+  name: CarbonFarm Files API
+  slug: carbonfarm-files-api
+- description: The Items API from CarbonFarm — 2 operation(s) for items.
+  name: CarbonFarm Items API
+  slug: carbonfarm-items-api
+- description: The ItemsPost API from CarbonFarm — 2 operation(s) for itemspost.
+  name: CarbonFarm Items Post API
+  slug: carbonfarm-itemspost-api
+- description: Access to where Directus runs. Allows you to make sure your server has everything needed to run the platform, and check what kind of latency we're dealing with.
+  name: CarbonFarm Server API
+  slug: carbonfarm-server-api
+artifact_total: 11
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/carbonfarm-cms-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -121,10 +139,10 @@ modified: '2026-08-17'
 name: CarbonFarm
 nav: Providers
 network: true
-overview: 'CarbonFarm publishes 1 API on the [APIs.io](https://apis.io/) network: CMS Content API. Tagged areas include Company, Climate Tech, Carbon Credits, Agriculture, and MRV.
+overview: 'CarbonFarm publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Assets API, Authentication API, Files API, and 3 more. Tagged areas include Company, Climate Tech, Carbon Credits, Agriculture, and MRV.
 
 
-  CarbonFarm''s developer surface includes engineering blog, support, authentication, and 16 more developer resources.'
+  CarbonFarm''s developer surface includes engineering blog, support, authentication, and 17 more developer resources.'
 plans:
 - name: Carbonfarm Plans Pricing
   plan_count: 0
@@ -136,24 +154,29 @@ rate_limits:
   slug: carbonfarm-rate-limits
 score:
   band: thin
-  composite: 30.9
-  delta: 0.0
+  composite: 28.5
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
-    contract_governance: 30.3
-    contract_quality: 49.4
+    contract_governance: 18.2
+    contract_quality: 50.0
     developer_ergonomics: 20.8
-    discoverability: 70.4
-    governance: 30.3
+    discoverability: 59.3
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 30.9
+  previous_composite: 29.1
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

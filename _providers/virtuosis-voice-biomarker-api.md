@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
 - description: The accounts API from Virtuosis Voice Biomarker API — 1 operation(s) for accounts.
@@ -38,10 +38,7 @@ apis:
 - description: The usage API from Virtuosis Voice Biomarker API — 1 operation(s) for usage.
   name: Virtuosis Voice Biomarker API Usage API
   slug: virtuosis-voice-biomarker-api-usage-api
-- description: REST API to upload speech recordings and retrieve health, wellbeing, and communication insights via voice biomarker analysis. Bearer token authentication; access gated to approved organizations.
-  name: Virtuosis Voice Biomarker API
-  slug: virtuosis-voice-biomarker-api
-artifact_total: 11
+artifact_total: 10
 common:
 - group: agent
   title: ''
@@ -182,7 +179,7 @@ modified: '2026-08-19'
 name: Virtuosis Voice Biomarker API
 nav: Providers
 network: true
-overview: 'Virtuosis Voice Biomarker API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Voice Biomarker Api Default API, Recordings API, and 2 more. Tagged areas include Digital Health, voice biomarkers, speech analysis, acoustic analysis, and Medical Device.
+overview: 'Virtuosis Voice Biomarker API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Voice Biomarker Api Default API, Recordings API, and 1 more. Tagged areas include digital health, voice biomarkers, speech analysis, acoustic analysis, and medical device.
 
 
   Virtuosis Voice Biomarker API''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 24 more developer resources.'
@@ -197,18 +194,23 @@ rate_limits:
   slug: virtuosis-voice-biomarker-api-rate-limits
 score:
   band: developing
-  composite: 49.3
+  composite: 46.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 12.1
+    contract_governance: 0.0
     contract_quality: 51.2
     developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 12.1
+    discoverability: 81.5
+    governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 49.3
+  previous_composite: 46.8
   provenance:
     conformance: first-party
     contracts:
@@ -224,8 +226,8 @@ score:
     regime: Health
     regime_id: health
     score: 53.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -238,19 +240,19 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: virtuosis-voice-biomarker-api
 tags:
-- Digital Health
+- digital health
 - voice biomarkers
 - speech analysis
 - acoustic analysis
-- Medical Device
-- Mental Health
-- Wellbeing
+- medical device
+- mental health
+- wellbeing
 - neurodegenerative screening
-- Telehealth
-- Remote Monitoring
+- telehealth
+- remote monitoring
 - communication coaching
-- Clinical Research
-- Health AI
-- Clinical Decision Support
+- clinical research
+- health AI
+- clinical decision support
 website: https://www.virtuosis.ai/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: sync-labs-agentic-access
   summary_line: 10 operations · 2 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Official Python SDK for integrating the Sync Labs lip-sync API into Python applications. Supports Python 3.8+. Install via pip install syncsdk.
   name: Sync Labs Python SDK
@@ -83,6 +83,10 @@ collections:
   name: Sync Labs API
   slug: open-sync-labs
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sync-labs-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -178,7 +182,7 @@ overview: 'Sync Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network
   The Sync Labs catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sync Labs'' developer surface includes authentication, documentation, getting-started guide, pricing, signup flow, engineering blog, and 9 more developer resources.'
+  Sync Labs'' developer surface includes authentication, documentation, getting-started guide, pricing, signup flow, engineering blog, and 10 more developer resources.'
 plans:
 - name: Sync Labs Plans Pricing
   plan_count: 5
@@ -212,15 +216,20 @@ rules:
   slug: sync-labs-rules
 score:
   band: developing
-  composite: 40.7
-  delta: 0.0
+  composite: 40.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 61.7
     developer_ergonomics: 35.7
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 10.5
   previous_composite: 40.7
@@ -231,8 +240,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sync-labs/refs/heads/main/screenshots/sync-labs-2026-06-20T194835.png
 security:

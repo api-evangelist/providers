@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -31,12 +31,21 @@ agentic_access:
   operation_count: 6
   slug: intelycare-agentic-access
   summary_line: 6 operations · 6 acting
-api_count: 1
+api_count: 2
 apis:
-- description: REST API for integrating a facility's scheduling, EHR or workforce system with the IntelyCare Staffing platform. Clients create, update and delete shift requests, submit and update timecards for billi
-  name: IntelyCare External Scheduling API
-  slug: intelycare-external-scheduling-api
-artifact_total: 7
+- description: Easily manage check-in and check-out events for shifts. Our API allows you to programmatically submit and manage check-in and check-out events, providing you with the flexibility to adapt to your work
+  name: IntelyCare Check In / Check Out API
+  slug: intelycare-check-in-check-out-api
+- description: Integrate with the IntelyCare platform to create shift requests effortlessly. Our API allows you to programmatically submit and manage shift requests, providing you with the flexibility to adapt to yo
+  name: IntelyCare Shift API
+  slug: intelycare-shift-api
+- description: 'Simplify billing reconciliation by exchanging timecard information seamlessly. Our API supports the exchange of accurate timekeeping data, ensuring a smooth and efficient process for both you and the '
+  name: IntelyCare Timecard API
+  slug: intelycare-timecard-api
+- description: Real-time updates on the status of submitted shifts. The API response includes valuable information about the assigned IntelyPro, giving you insights into the workforce handling each shift.
+  name: IntelyCare Webhook Events API
+  slug: intelycare-webhook-events-api
+artifact_total: 10
 asyncapis:
 - description: Real-time updates on the status of submitted shifts. IntelyCare POSTs a signed JSON payload to a client-configured HTTPS endpoint when a shift is accepted by a healthcare professional (an "IntelyPro")
   name: IntelyCare Shift Events
@@ -46,6 +55,14 @@ collections:
   name: IntelyCare API Documentation
   slug: open-intelycare-external-scheduling
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/intelycare-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/intelycare-external-scheduling-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -154,28 +171,33 @@ modified: '2026-08-01'
 name: IntelyCare
 nav: Providers
 network: true
-overview: 'IntelyCare publishes 1 API on the [APIs.io](https://apis.io/) network: External Scheduling API. Tagged areas include Healthcare, Healthcare Staffing, Nursing, Workforce Management, and Scheduling.
+overview: 'IntelyCare publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Check In / Check Out API, Shift API, Timecard API, and 1 more. Tagged areas include healthcare, healthcare-staffing, nursing, workforce-management, and scheduling.
 
 
   The IntelyCare catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  IntelyCare''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
+  IntelyCare''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
 random_paper: 1
 score:
   band: developing
-  composite: 48.3
-  delta: 1.0
+  composite: 46.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
-    contract_quality: 65.3
+    contract_governance: 4.5
+    contract_quality: 61.1
     developer_ergonomics: 56.5
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 47.3
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -192,8 +214,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/screenshots/intelycare-2026-08-07T170739.png
 security:
@@ -207,17 +229,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: intelycare
 tags:
-- Healthcare
-- Healthcare Staffing
-- Nursing
-- Workforce Management
-- Scheduling
-- Shift Management
-- Timekeeping
+- healthcare
+- healthcare-staffing
+- nursing
+- workforce-management
+- scheduling
+- shift-management
+- timekeeping
 - Marketplace
 - Webhook
-- Per Diem
-- Credentialing
-- Post-Acute Care
+- per-diem
+- credentialing
+- post-acute-care
 website: https://www.intelycare.com/
 ---

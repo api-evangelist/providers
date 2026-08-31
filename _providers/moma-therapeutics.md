@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 10
 apis:
 - description: News archive — company press releases, media coverage, peer-reviewed publications and conference presentations (32 published at harvest time, spanning April 2020 through August 2026).
@@ -179,7 +179,7 @@ modified: '2026-08-26'
 name: MOMA Therapeutics
 nav: Providers
 network: true
-overview: 'MOMA Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Content Posts API, Content Pages API, Team API, and 7 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Drug Discovery, and Oncology.
+overview: 'MOMA Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Content Posts API, Content Pages API, Team API, and 7 more. Tagged areas include Company, biotechnology, pharmaceuticals, drug-discovery, and oncology.
 
 
   MOMA Therapeutics'' developer surface includes product news, engineering blog, YouTube channel, authentication, and 24 more developer resources.'
@@ -194,16 +194,23 @@ rate_limits:
   slug: moma-therapeutics-rate-limits
 score:
   band: thin
-  composite: 33.7
+  composite: 32.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 53.4
     developer_ergonomics: 16.1
     discoverability: 74.1
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 0.0
+  previous_composite: 32.3
   provenance:
     conformance: first-party
     contracts:
@@ -219,8 +226,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Moma Therapeutics Authentication
@@ -233,14 +241,14 @@ security:
 slug: moma-therapeutics
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Drug Discovery
-- Oncology
-- Precision Medicine
-- Life Sciences
-- Structural Biology
-- Machine Learning
+- biotechnology
+- pharmaceuticals
+- drug-discovery
+- oncology
+- precision-medicine
+- life-sciences
+- structural-biology
+- machine-learning
 - content-api
 website: https://momatx.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 4
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 32
   slug: envoy-proxy-agentic-access
   summary_line: 32 operations · 16 acting · 4 human-in-the-loop
-api_count: 25
+api_count: 2
 apis:
 - description: The Envoy Rate Limit Service (RLS) is a gRPC-based API that allows Envoy to delegate rate limiting decisions to an external service. When a request matches a configured rate limit rule, Envoy calls th
   name: Envoy Proxy Rate Limit Service API
@@ -334,18 +334,26 @@ rules:
     warn: 4
   slug: envoy-proxy-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 33.7
-  delta: 0.0
+  band: developing
+  composite: 39.8
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 69.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 6.1
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 9.8
     contract_quality: 49.7
     developer_ergonomics: 35.7
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
   previous_composite: 33.7
   provenance:
     agentic_access: derived
@@ -354,9 +362,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 18
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/envoy-proxy/refs/heads/main/screenshots/envoy-proxy-2026-06-20T180741.png
 security:
 - kind: domain-security

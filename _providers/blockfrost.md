@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 124
   slug: blockfrost-agentic-access
   summary_line: 124 operations · 6 acting
-api_count: 20
+api_count: 2
 apis:
 - description: The Cardano » Accounts API from Blockfrost — 12 operation(s) for cardano » accounts.
   name: Blockfrost Cardano » Accounts API
@@ -574,15 +574,20 @@ rules:
   slug: blockfrost-spectral-rules
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 48.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.6
   facets:
-    access_clarity: 53.9
-    commercial_clarity: 53.9
+    access_clarity: 48.7
+    commercial_clarity: 48.7
     contract_governance: 28.8
     contract_quality: 63.3
     developer_ergonomics: 50.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 26.3
   previous_composite: 50.0
@@ -593,8 +598,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockfrost/refs/heads/main/screenshots/blockfrost-2026-06-20T173358.png
 security:

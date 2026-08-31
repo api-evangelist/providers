@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: rook-agentic-access
   summary_line: 11 operations · 5 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Rook extends Kubernetes through Custom Resource Definitions (CRDs) to declaratively manage Ceph storage clusters. The CRD API includes resources for CephCluster, CephBlockPool, CephFilesystem, CephObj
   name: Rook Ceph Custom Resource API
@@ -80,6 +80,22 @@ collections:
   name: Rook Ceph Object Storage Buckets Objects API
   slug: open-rook-objects-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/rook/rook/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/rook/rook/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/rook/rook/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/rook/rook/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -239,7 +255,7 @@ overview: 'Rook publishes 3 APIs on the [APIs.io](https://apis.io/) network: Buc
   The Rook catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Rook''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, Stack Overflow tag, and 19 more developer resources.'
+  Rook''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, Stack Overflow tag, and 23 more developer resources.'
 plans:
 - name: Rook Plans Pricing
   plan_count: 2
@@ -273,18 +289,26 @@ rules:
   slug: rook-spectral-rules
 score:
   band: developing
-  composite: 39.3
-  delta: 1.4
+  composite: 44.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 61.2
     developer_ergonomics: 45.2
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 37.9
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -292,8 +316,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/screenshots/rook-2026-06-20T193212.png
 security:

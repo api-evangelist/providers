@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 53
   slug: daily-co-agentic-access
   summary_line: 53 operations · 33 acting · 4 human-in-the-loop
-api_count: 15
+api_count: 1
 apis:
 - description: REST API for managing Daily domains, rooms, meeting tokens, recordings, transcripts, meetings, participants, presence, batch operations, dial-in/dial-out (PSTN/SIP), webhooks, live streaming and Daily
   name: Daily REST API
@@ -141,6 +141,10 @@ collections:
   name: Daily REST API
   slug: open-daily-co
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/daily-co-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -239,7 +243,7 @@ overview: 'Daily publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
   The Daily catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Daily''s developer surface includes authentication, documentation, pricing, engineering blog, GitHub presence, and 14 more developer resources.'
+  Daily''s developer surface includes authentication, documentation, pricing, engineering blog, GitHub presence, and 15 more developer resources.'
 plans:
 - name: Daily Co Plans Pricing
   plan_count: 5
@@ -251,18 +255,26 @@ rate_limits:
   slug: daily-co-rate-limits
 score:
   band: developing
-  composite: 44.0
-  delta: 2.5
+  composite: 47.6
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 3.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 61.4
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 63.2
-  previous_composite: 41.5
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -270,8 +282,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daily-co/refs/heads/main/screenshots/daily-co-2026-06-20T175440.png
 security:

@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 46
   slug: arkestro-agentic-access
   summary_line: 46 operations · 22 acting
-api_count: 14
+api_count: 1
 apis:
 - description: Remote Model Context Protocol server operated by Arkestro, authorized with OAuth 2.1 authorization code flow and mandatory PKCE S256 against the mcp:read, mcp:write and offline_access scopes. The endp
   name: Arkestro MCP Server
@@ -125,6 +125,10 @@ collections:
   name: V2 supplier organizations API
   slug: open-arkestro-supplier-organizations-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/arkestro-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -257,13 +261,13 @@ modified: '2026-08-06'
 name: Arkestro
 nav: Providers
 network: true
-overview: 'Arkestro publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Awards API, business unit API, corporate categories API, and 10 more. Tagged areas include Procurement, Sourcing, Supply Chain, Spend Management, and eSourcing.
+overview: 'Arkestro publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Awards API, business unit API, corporate categories API, and 10 more. Tagged areas include Procurement, sourcing, Supply Chain, spend-management, and e-sourcing.
 
 
   The Arkestro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Arkestro''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 25 more developer resources.'
+  Arkestro''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 26 more developer resources.'
 random_paper: 14
 scopes:
 - name: Arkestro Scopes
@@ -272,18 +276,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 45.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.9
     developer_ergonomics: 47.0
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 48.7
+  previous_composite: 46.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -294,8 +303,8 @@ score:
       total: 13
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arkestro/refs/heads/main/screenshots/arkestro-2026-08-17T122406.png
 security:
@@ -314,14 +323,14 @@ security:
 slug: arkestro
 tags:
 - Procurement
-- Sourcing
+- sourcing
 - Supply Chain
-- Spend Management
-- eSourcing
-- Supplier Management
-- Purchase Orders
+- spend-management
+- e-sourcing
+- supplier-management
+- purchase-orders
 - procurement-analytics
-- Enterprise Software
+- enterprise-software
 - predictive-procurement
 - MCP
 - Webhook

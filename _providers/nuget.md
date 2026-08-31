@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,20 +42,8 @@ agentic_access:
   operation_count: 16
   slug: nuget-agentic-access
   summary_line: 16 operations · 3 acting
-api_count: 7
+api_count: 2
 apis:
-- description: 'The NuGet Catalog API is an append-only resource that records the full history of all package events on nuget.org, including packages being added, modified, listed, unlisted, and deleted. It provides '
-  name: NuGet Catalog API
-  slug: nuget-catalog-api
-- description: The NuGet Search API allows clients to query for packages available on a NuGet package source using the SearchQueryService resource found in the service index. It supports filtering by keyword, target
-  name: NuGet Search API
-  slug: nuget-search-api
-- description: 'The NuGet Package Content API, accessed through the PackageBaseAddress resource, allows clients to download package content files (.nupkg) and package manifests (.nuspec) from a NuGet feed. It uses a '
-  name: NuGet Package Content API
-  slug: nuget-package-content-api
-- description: Autocomplete package IDs and enumerate package versions for typeahead and discovery features.
-  name: NuGet Autocomplete API
-  slug: nuget-autocomplete-api
 - description: Endpoints for pushing new packages, deleting or unlisting packages, and relisting previously unlisted packages on a NuGet feed.
   name: NuGet Package Publish API
   slug: nuget-package-publish-api
@@ -65,7 +53,7 @@ apis:
 - description: The service index is the entry point for the NuGet V3 API. It is a JSON document that lists all available resources and their capabilities.
   name: NuGet Service Index API
   slug: nuget-service-index-api
-artifact_total: 57
+artifact_total: 53
 collections:
 - collection_type: open
   name: API Collection
@@ -271,7 +259,7 @@ modified: '2026-05-19'
 name: NuGet
 nav: Providers
 network: true
-overview: 'NuGet publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, Search API, Package Content API, and 4 more. Tagged areas include Package Management, .NET, Packages, Dependencies, and Software Distribution.
+overview: 'NuGet publishes 3 APIs on the [APIs.io](https://apis.io/) network: Package Publish API, Registration API, and Service Index API. Tagged areas include Package Management, .NET, Packages, Dependencies, and Software Distribution.
 
 
   The NuGet catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -299,19 +287,27 @@ rules:
     warn: 4
   slug: nuget-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 37.6
-  delta: 0.7
+  band: developing
+  composite: 45.2
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 67.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 5.5
   facets:
-    access_clarity: 40.8
-    commercial_clarity: 40.8
+    access_clarity: 47.4
+    commercial_clarity: 47.4
     contract_governance: 9.8
-    contract_quality: 55.1
+    contract_quality: 58.0
     developer_ergonomics: 33.3
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 10.5
-  previous_composite: 36.9
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -319,9 +315,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/screenshots/nuget-2026-06-20T190513.png
 security:
 - kind: authentication

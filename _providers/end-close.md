@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 60
   slug: end-close-agentic-access
   summary_line: 60 operations · 33 acting · 1 human-in-the-loop
-api_count: 12
+api_count: 1
 apis:
 - description: The Bank Account Balances API from End Close — 2 operation(s) for bank account balances.
   name: End Close Bank Account Balances API
@@ -79,7 +79,10 @@ apis:
 - description: The Records API from End Close — 3 operation(s) for records.
   name: End Close Records API
   slug: end-close-records-api
-artifact_total: 32
+- description: The End Close API API from End Close — 0 operation(s) for end close api.
+  name: End Close End Close API
+  slug: end-close-end-close-api-api
+artifact_total: 33
 asyncapis:
 - description: ''
   name: End Close Webhooks
@@ -125,6 +128,10 @@ collections:
   name: End Close Bank Account Balances Records API
   slug: open-end-close-records-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/end-close-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -217,28 +224,33 @@ modified: '2026-07-19'
 name: End Close
 nav: Providers
 network: true
-overview: 'End Close publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Bank Account Balances API, Bank Accounts API, Bulk Requests API, and 9 more. Tagged areas include Company, Reconciliation, Payments, Financial Operations, and Accounting.
+overview: 'End Close publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Bank Account Balances API, Bank Accounts API, Bulk Requests API, and 10 more. Tagged areas include Company, Reconciliation, Payments, Financial Operations, and Accounting.
 
 
   The End Close catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  End Close''s developer surface includes authentication and 19 more developer resources.'
+  End Close''s developer surface includes authentication and 20 more developer resources.'
 random_paper: 8
 score:
-  band: developing
-  composite: 40.2
-  delta: 3.3
+  band: thin
+  composite: 36.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
-    contract_governance: 16.7
-    contract_quality: 61.5
+    contract_governance: 4.5
+    contract_quality: 60.4
     developer_ergonomics: 38.1
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 36.9
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,8 +266,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 35.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/screenshots/end-close-2026-07-25T213309.png
 security:

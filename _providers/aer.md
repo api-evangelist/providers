@@ -23,19 +23,37 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Anonymous, unaccredited Consumer Data Right energy Product Reference Data endpoint operated by the AER. Returns a paged summary of all current, generally available retail energy plans for one retailer
-  name: AER Energy Product Reference Data - Get Generic Plans
-  slug: aer-energy-product-reference-data-get-generic-plans
-- description: Anonymous, unaccredited Consumer Data Right energy Product Reference Data endpoint operated by the AER. Returns the full detail of a single current, generally available retail energy plan by plan iden
-  name: AER Energy Product Reference Data - Get Generic Plan Detail
-  slug: aer-energy-product-reference-data-get-generic-plan-detail
-- description: 'Anonymous Consumer Data Standards Common API discovery endpoints served by the AER on its CDR host. GET /discovery/status returns the current operational status of the data holder''s CDR endpoints and '
-  name: AER CDR Discovery - Get Status and Get Outages
-  slug: aer-cdr-discovery-status-and-outages
-artifact_total: 10
+- description: Data Holder Customer endpoints
+  name: Australian Energy Regulator Data Holder Customers API
+  slug: aer-data-holder-customers-api
+- description: Data Holder Operations endpoints
+  name: Australian Energy Regulator Data Holder Operations API
+  slug: aer-data-holder-operations-api
+- description: Distributed Energy Resource endpoints
+  name: Australian Energy Regulator Distributed Energy Resources API
+  slug: aer-distributed-energy-resources-api
+- description: Electricity Service Point endpoints
+  name: Australian Energy Regulator Electricity Service Points API
+  slug: aer-electricity-service-points-api
+- description: Electricity Usage endpoints
+  name: Australian Energy Regulator Electricity Usage API
+  slug: aer-electricity-usage-api
+- description: Energy Account Balance endpoints
+  name: Australian Energy Regulator Energy Account Balances API
+  slug: aer-energy-account-balances-api
+- description: Energy Account Billing endpoints
+  name: Australian Energy Regulator Energy Account Billing API
+  slug: aer-energy-account-billing-api
+- description: Energy Account endpoints
+  name: Australian Energy Regulator Energy Accounts API
+  slug: aer-energy-accounts-api
+- description: Energy Plan endpoints
+  name: Australian Energy Regulator Energy Plans API
+  slug: aer-energy-plans-api
+artifact_total: 16
 collections:
 - collection_type: open
   name: CDR Energy API
@@ -225,7 +243,7 @@ modified: '2026-07-27'
 name: Australian Energy Regulator
 nav: Providers
 network: true
-overview: 'Australian Energy Regulator publishes 3 APIs on the [APIs.io](https://apis.io/) network: AER Energy Product Reference Data - Get Generic Plans, AER Energy Product Reference Data - Get Generic Plan Detail, and AER CDR Discovery - Get Status and Get Outages. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
+overview: 'Australian Energy Regulator publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Data Holder Customers API, Data Holder Operations API, Distributed Energy Resources API, and 6 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
 
 
   Australian Energy Regulator''s developer surface includes documentation, API reference, engineering blog, getting-started guide, support, authentication, changelog, and 35 more developer resources.'
@@ -236,18 +254,23 @@ rate_limits:
   slug: aer-rate-limits
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 44.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 49.7
     developer_ergonomics: 35.1
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 47.7
+  previous_composite: 45.2
   provenance:
     conformance: first-party
     contracts:
@@ -263,8 +286,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 43.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aer/refs/heads/main/screenshots/aer-2026-08-17T121411.png
 security:

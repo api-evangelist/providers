@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 68.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,18 +43,24 @@ agentic_access:
   operation_count: 15
   slug: alphaai-agentic-access
   summary_line: 15 operations
-api_count: 3
+api_count: 1
 apis:
-- description: REST API for relevance-scored, ticker-linked financial news. Fifteen read-only operations across news feeds, trending, macro, an economic calendar, SEC Form 4 insider data, symbols, and per-ticker sen
-  name: AlphaAI REST API
-  slug: alphaai-rest-api
 - description: Hosted MCP server over Streamable HTTP exposing fifteen tools for news search, ticker news, trending, actionable-now, macro, economic calendar, insider news, pair analysis, article retrieval, ticker d
   name: AlphaAI MCP Server
   slug: alphaai-mcp-server
 - description: 'Provider-published open-source pack of five Claude Code agent skills wrapping the MCP tools into ready-made workflows: one-ticker brief, market pulse, insider-activity scan, two-ticker read-across, an'
   name: AlphaAI Claude Code Skills
   slug: alphaai-claude-code-skills
-artifact_total: 14
+- description: Scheduled US macro releases (FOMC, CPI, jobs, GDP, PCE…).
+  name: AlphaAI Calendar API
+  slug: alphaai-calendar-api
+- description: Relevance-scored, ticker-linked news.
+  name: AlphaAI News API
+  slug: alphaai-news-api
+- description: Active equity, crypto, and foreign symbols (tickers).
+  name: AlphaAI Symbols API
+  slug: alphaai-symbols-api
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Alphaai Webhooks
@@ -64,6 +70,10 @@ collections:
   name: alphai REST API
   slug: open-alphaai-rest-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/alphaai-rest-api-overlay.yaml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -235,13 +245,13 @@ modified: '2026-08-11'
 name: AlphaAI
 nav: Providers
 network: true
-overview: 'AlphaAI publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Financial News, Stock Market, SEC Filings, Insider Trading, and Fintech.
+overview: 'AlphaAI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Calendar API, News API, and Symbols API. Tagged areas include Financial News, Stock Market, SEC Filings, Insider Trading, and Fintech.
 
 
   The AlphaAI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AlphaAI''s developer surface includes documentation, API reference, getting-started guide, code examples, support, engineering blog, pricing, and 32 more developer resources.'
+  AlphaAI''s developer surface includes documentation, API reference, getting-started guide, code examples, support, engineering blog, pricing, and 33 more developer resources.'
 plans:
 - name: Alphaai Plans Pricing
   plan_count: 4
@@ -258,18 +268,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 73.7
-  delta: 0.0
+  composite: 70.4
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
-    contract_governance: 16.7
-    contract_quality: 68.0
+    contract_governance: 4.5
+    contract_quality: 67.3
     developer_ergonomics: 85.7
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 84.2
-  previous_composite: 73.7
+  previous_composite: 70.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -286,8 +301,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 71.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alphaai/refs/heads/main/screenshots/alphaai-2026-08-17T080047.png
 security:

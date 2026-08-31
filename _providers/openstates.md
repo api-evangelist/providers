@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 12
   slug: openstates-agentic-access
   summary_line: 12 operations
-api_count: 7
+api_count: 1
 apis:
 - description: Legacy GraphQL API providing access to Open States legislative data. This API has been deprecated in favour of API v3. Existing integrations should migrate to the REST v3 API.
   name: Open States GraphQL API (v2 - Deprecated)
@@ -88,6 +88,14 @@ collections:
   name: Open States API v3 bills people API
   slug: open-openstates-people-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/openstates/api-v3/issues
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/openstates/.github/blob/main/code_of_conduct.md
 - group: commercial
   title: ''
   type: License
@@ -183,7 +191,7 @@ overview: 'Open States publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
   The Open States catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Open States'' developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+  Open States'' developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
 plans:
 - name: Openstates Plans Pricing
   plan_count: 4
@@ -206,18 +214,26 @@ rules:
   slug: openstates-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.6
-  delta: 1.2
+  composite: 33.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 56.5
     developer_ergonomics: 11.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 34.4
+  open_source:
+    applies: true
+    score: 15.0
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -231,8 +247,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/screenshots/openstates-2026-06-20T191040.png
 security:

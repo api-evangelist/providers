@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 90
   slug: justifi-agentic-access
   summary_line: 90 operations · 41 acting
-api_count: 27
+api_count: 1
 apis:
 - description: 'ACH return fees are fees charged by financial institutions when an ACH (Automated Clearing House) transaction is returned due to insufficient funds or other reasons. If an ACH transaction is returned '
   name: JustiFi Ach Return Fees API
@@ -124,7 +124,10 @@ apis:
 - description: The Web Component Tokens API from JustiFi — 1 operation(s) for web component tokens.
   name: JustiFi Web Component Tokens API
   slug: justifi-web-component-tokens-api
-artifact_total: 60
+- description: The Events API from JustiFi — 0 operation(s) for events.
+  name: JustiFi Events API
+  slug: justifi-events-api
+artifact_total: 61
 asyncapis:
 - description: ''
   name: Justifi Webhooks
@@ -339,7 +342,7 @@ modified: '2026-07-19'
 name: JustiFi
 nav: Providers
 network: true
-overview: 'JustiFi publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Ach Return Fees API, Address API, API Credentials API, and 24 more. Tagged areas include Company, Fintech, Payments, Embedded Payments, and Payment Facilitation.
+overview: 'JustiFi publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Ach Return Fees API, Address API, API Credentials API, and 25 more. Tagged areas include Company, Fintech, Payments, Embedded Payments, and Payment Facilitation.
 
 
   The JustiFi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -349,18 +352,23 @@ overview: 'JustiFi publishes 27 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 10
 score:
   band: developing
-  composite: 51.6
-  delta: 1.0
+  composite: 51.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 30.3
-    contract_quality: 57.1
+    contract_governance: 18.2
+    contract_quality: 56.6
     developer_ergonomics: 75.6
-    discoverability: 63.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 50.6
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -373,12 +381,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 53.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/justifi/refs/heads/main/screenshots/justifi-2026-07-25T223338.png
 security:

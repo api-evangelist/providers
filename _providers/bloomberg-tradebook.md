@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: FIX protocol connectivity to Bloomberg Tradebook for electronic order routing, execution reporting, and position updates across equities, futures, options, and FX markets. Supports FIX 4.2, 4.4, and 5
@@ -47,6 +47,10 @@ apis:
   slug: tradebook-fx
 artifact_total: 17
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/bloomberg/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -96,14 +100,14 @@ finops:
   slug: bloomberg-tradebook-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bloomberg-tradebook.png
 layout: provider
-modified: '2026-04-21'
+modified: '2026-08-27'
 name: Bloomberg Tradebook
 nav: Providers
 network: true
 overview: 'Bloomberg Tradebook publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Tradebook, Electronic Trading, Equities, Futures, and Options.
 
 
-  Bloomberg Tradebook''s developer surface includes developer portal, documentation, support, and 4 more developer resources.'
+  Bloomberg Tradebook''s developer surface includes developer portal, documentation, support, and 5 more developer resources.'
 plans:
 - name: Bloomberg Tradebook Plans Pricing
   plan_count: 3
@@ -116,6 +120,11 @@ rate_limits:
 score:
   band: emerging
   composite: 19.3
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -133,8 +142,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 33.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-tradebook/refs/heads/main/screenshots/bloomberg-tradebook-2026-07-25T203405.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: ptc-thingworx-agentic-access
   summary_line: 11 operations · 2 acting
-api_count: 8
+api_count: 1
 apis:
 - description: PTC ThingWorx AlwaysOn WebSocket API enables persistent bidirectional connections for industrial edge devices and remote assets, supporting real-time telemetry streaming, command and control, and devi
   name: PTC ThingWorx WebSocket/AlwaysOn API
@@ -176,16 +176,16 @@ jsonld:
   slug: ptc-thingworx-context
 layout: provider
 modified: '2026-05-19'
-name: ptc-thingworx
+name: PTC ThingWorx
 nav: Providers
 network: true
-overview: 'ptc-thingworx publishes 7 APIs on the [APIs.io](https://apis.io/) network, including PTC ThingWorx WebSocket/AlwaysOn API, DataShapes API, Events API, and 4 more.
+overview: 'PTC ThingWorx publishes 7 APIs on the [APIs.io](https://apis.io/) network, including WebSocket/AlwaysOn API, ptc-thingworx DataShapes API, ptc-thingworx Events API, and 4 more.
 
 
-  The ptc-thingworx catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The PTC ThingWorx catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  ptc-thingworx''s developer surface includes authentication, developer portal, documentation, engineering blog, and 11 more developer resources.'
+  PTC ThingWorx''s developer surface includes authentication, developer portal, documentation, engineering blog, and 11 more developer resources.'
 plans:
 - name: Ptc Thingworx Plans Pricing
   plan_count: 1
@@ -199,7 +199,7 @@ rules:
 - effective_rule_count: 34
   extends:
   - spectral:asyncapi
-  name: ptc-thingworx API Rules
+  name: PTC ThingWorx API Rules
   rule_count: 7
   severity_counts:
     error: 1
@@ -209,7 +209,7 @@ rules:
   slug: ptc-thingworx-asyncapi-spectral-rules
 - effective_rule_count: 5
   extends: []
-  name: ptc-thingworx API Rules
+  name: PTC ThingWorx API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -224,18 +224,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 36.9
-  delta: 1.5
+  composite: 36.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 68.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 13.6
     contract_quality: 65.7
     developer_ergonomics: 35.7
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 35.4
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     contracts:
@@ -247,8 +252,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

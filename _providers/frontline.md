@@ -25,15 +25,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-08-26'
+  score: 31.7
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 188
   slug: frontline-agentic-access
   summary_line: 188 operations · 115 acting
-api_count: 33
+api_count: 1
 apis:
 - description: Inspect the identity attached to the current API key
   name: Frontline Account API
@@ -133,16 +133,46 @@ apis:
 - description: Manage spreadsheet-style tables
   name: Frontline Tables API
   slug: frontline-tables-api
-- description: Manage reusable HTTP integrations callable from flows and workflows
-  name: Frontline Tools API
-  slug: frontline-tools-api
 - description: Manage variables scoped to an automation workflow
   name: Frontline Workflow Variables API
   slug: frontline-workflow-variables-api
 - description: View and manage your workflows across your account
   name: Frontline Workflows API
   slug: frontline-workflows-api
-artifact_total: 98
+- description: View account-scoped (Studio) connected integrations, discover connectable toolkits, and configure which tools each integration exposes to agents, flows, and workflows. These are used for workflows and
+  name: Frontline Account Integrations API
+  slug: frontline-account-integrations-api
+- description: View connected channel integrations (WhatsApp, Instagram, Messenger) and bind numbers/accounts/pages to agents
+  name: Frontline Agent Channels API
+  slug: frontline-agent-channels-api
+- description: Manage reusable instruction sets assigned to agents
+  name: Frontline Agent Playbooks API
+  slug: frontline-agent-playbooks-api
+- description: Communication channels connected to this account (WhatsApp, Instagram, Messenger)
+  name: Frontline Channels API
+  slug: frontline-channels-api
+- description: Manage custom tools — reusable HTTP/API-call integrations the account creates and assigns to agents, flows, and workflows. Distinct from built-in system tools and connected-integration (MCP) tools.
+  name: Frontline Custom Tools API
+  slug: frontline-custom-tools-api
+- description: 'Builder reference data sourced live from backend constants: valid icons, colors, and formats for objects/tables/fields, plus the workflow/flow node-type catalog. Use these instead of hard-coding allow'
+  name: Frontline Guidance API
+  slug: frontline-guidance-api
+- description: Resolve resource IDs (spreadsheets, docs, drive folders, Asana projects, Salesforce SObjects, Gmail labels, Outlook folders/calendars) needed to configure event triggers. Requires a USER API key.
+  name: Frontline Integration Resources API
+  slug: frontline-integration-resources-api
+- description: OAuth/API connected accounts for toolkits like Google Sheets, Gmail, and Slack
+  name: Frontline Integrations API
+  slug: frontline-integrations-api
+- description: Manage knowledge bases, their sources (URLs, website crawls), search, and agent assignment
+  name: Frontline Knowledge Bases API
+  slug: frontline-knowledge-bases-api
+- description: 'User tasks — the account ''To-dos'' inbox: create, list, update, complete, and delete tasks, optionally linked to an object record. Distinct from object-row tasks (Object tasks) and from Max tasks.'
+  name: Frontline User Tasks API
+  slug: frontline-user-tasks-api
+- description: List account users to resolve IDs for relations and assignment
+  name: Frontline Users API
+  slug: frontline-users-api
+artifact_total: 108
 collections:
 - collection_type: open
   name: API Collection
@@ -375,7 +405,7 @@ modified: '2026-08-14'
 name: Frontline
 nav: Providers
 network: true
-overview: 'Frontline publishes 33 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agent Builder API, Agents API, and 30 more. Tagged areas include Company, CRM, AI Agents, Sales Automation, and Customer-Support.
+overview: 'Frontline publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agent Builder API, Agents API, and 40 more. Tagged areas include Company, CRM, AI Agents, Sales Automation, and Customer-Support.
 
 
   Frontline''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, pricing, signup flow, and 22 more developer resources.'
@@ -390,18 +420,23 @@ rate_limits:
   slug: frontline-rate-limits
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 48.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 16.7
-    contract_quality: 58.1
+    contract_governance: 4.5
+    contract_quality: 56.8
     developer_ergonomics: 71.4
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 51.2
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -412,8 +447,8 @@ score:
       total: 33
     mcp: derived
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/screenshots/frontline-2026-07-25T215237.png
 security:

@@ -23,27 +23,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
-api_count: 9
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: Public, unauthenticated OBIE Open Data API returning the location and details of every Halifax cashpoint (ATM) in the UK. Confirmed live (HTTP 200, JSON) at the v2.2 base.
-  name: Halifax Open Data ATM Locator API
-  slug: halifax-open-data-atm-locator-api
-- description: Public, unauthenticated OBIE Open Data API returning a directory of all Halifax branches in the UK. Confirmed live (HTTP 200, JSON) at the v2.2 base.
-  name: Halifax Open Data Branch Locator API
-  slug: halifax-open-data-branch-locator-api
-- description: Public, unauthenticated OBIE Open Data API publishing personal current account product reference data. Confirmed live (HTTP 200, JSON) at the v2.2 base.
-  name: Halifax Open Data Personal Current Accounts API
-  slug: halifax-open-data-personal-current-accounts-api
-- description: Public, unauthenticated OBIE Open Data API publishing business current account product reference data. Confirmed live (HTTP 200, JSON) at the v2.2 base.
-  name: Halifax Open Data Business Current Accounts API
-  slug: halifax-open-data-business-current-accounts-api
-- description: Public, unauthenticated OBIE Open Data API publishing unsecured SME loan product reference data. Confirmed live (HTTP 200, JSON) at the v2.2 base.
-  name: Halifax Open Data Unsecured SME Loans API
-  slug: halifax-open-data-unsecured-sme-loans-api
-- description: Public, unauthenticated OBIE Open Data API publishing commercial credit card product reference data. Confirmed live (HTTP 200, JSON) at the v2.2 base.
-  name: Halifax Open Data Commercial Credit Cards API
-  slug: halifax-open-data-commercial-credit-cards-api
 - description: OBIE Read/Write Account and Transaction Information (AIS) API for authorised AISPs. FAPI-secured (OAuth2/OIDC, PSD2 SCA, mTLS, OBIE/eIDAS certificates); onboarded via the Lloyds Banking Group Develope
   name: Halifax Account and Transaction Information API (AIS)
   slug: halifax-account-transaction-information-api
@@ -53,12 +35,34 @@ apis:
 - description: OBIE Read/Write Confirmation of Funds (CBPII) API for authorised CBPIIs. FAPI-secured (OAuth2/OIDC, PSD2 SCA, mTLS, OBIE/eIDAS certificates); onboarded via the Lloyds Banking Group Developer Portal. B
   name: Halifax Confirmation of Funds API (CBPII)
   slug: halifax-confirmation-of-funds-api
+- description: Endpoint for getting ATM data
+  name: Halifax ATM API
+  slug: halifax-atm-api
+- description: Endpoint for getting Business Current Account data
+  name: Halifax BCA API
+  slug: halifax-bca-api
+- description: Endpoint for getting Branch data
+  name: Halifax Branch API
+  slug: halifax-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: Halifax CCC API
+  slug: halifax-ccc-api
+- description: Endpoint for getting Personal Current Account data
+  name: Halifax PCA API
+  slug: halifax-pca-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: Halifax SME API
+  slug: halifax-sme-api
 artifact_total: 14
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-openbanking-opendata-standard-swagger
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/halifax-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -164,10 +168,10 @@ modified: '2026-07-24'
 name: Halifax
 nav: Providers
 network: true
-overview: 'Halifax publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Open Data ATM Locator API, Open Data Branch Locator API, Open Data Personal Current Accounts API, and 3 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Halifax publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 3 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  Halifax''s developer surface includes documentation, support, getting-started guide, authentication, sandbox, and 18 more developer resources.'
+  Halifax''s developer surface includes documentation, support, getting-started guide, authentication, sandbox, and 19 more developer resources.'
 random_paper: 19
 scopes:
 - name: Halifax Scopes
@@ -175,19 +179,24 @@ scopes:
   slug: halifax-scopes
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 40.8
-  delta: -0.9
+  band: thin
+  composite: 38.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.4
     commercial_clarity: 21.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 32.7
-    developer_ergonomics: 63.7
-    discoverability: 74.1
-    governance: 30.3
+    developer_ergonomics: 56.5
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 5.3
-  previous_composite: 41.7
+  previous_composite: 38.7
   provenance:
     conformance: first-party
     contracts:
@@ -199,12 +208,18 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: eidas
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 57.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/halifax/refs/heads/main/screenshots/halifax-2026-07-25T220540.png
 security:

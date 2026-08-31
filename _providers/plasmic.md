@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: plasmic-agentic-access
   summary_line: 6 operations · 4 acting
-api_count: 11
+api_count: 1
 apis:
 - description: Browser-based visual builder where designers and developers compose pages, components, and design systems. Outputs are consumed downstream by the Loader, Codegen, and CMS APIs.
   name: Plasmic Studio
@@ -92,6 +92,14 @@ collections:
   name: Plasmic CMS API
   slug: open-plasmic
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/plasmicapp/plasmic/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/plasmicapp/plasmic/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -155,7 +163,7 @@ network: true
 overview: 'Plasmic publishes 2 APIs on the [APIs.io](https://apis.io/) network: Items API and Rows API. Tagged areas include Visual Builder, Headless CMS, React, Next.js, and Gatsby.
 
 
-  Plasmic''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 8 more developer resources.'
+  Plasmic''s developer surface includes authentication, documentation, GitHub presence, engineering blog, and 10 more developer resources.'
 plans:
 - name: Plasmic Plans Pricing
   plan_count: 1
@@ -167,18 +175,26 @@ rate_limits:
   slug: plasmic-rate-limits
 score:
   band: thin
-  composite: 34.2
-  delta: 0.0
+  composite: 32.8
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 47.6
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 34.2
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 33.3
   provenance:
     agentic_access: derived
     contracts:
@@ -186,8 +202,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plasmic/refs/heads/main/screenshots/plasmic-2026-06-20T191800.png
 security:

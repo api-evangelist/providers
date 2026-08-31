@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 2
   slug: serif-health-agentic-access
   summary_line: 2 operations
-api_count: 4
+api_count: 1
 apis:
 - description: Custom data pulls and extracts for specific EINs, NPIs, or taxonomy codes, delivered in common formats and optionally indexed back into the API by request.
   name: Serif Health Datasets & Extracts
@@ -71,6 +71,10 @@ collections:
   name: Serif Health Pricing API
   slug: open-serif-health
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/serif-health-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -130,7 +134,7 @@ network: true
 overview: 'Serif Health publishes 2 APIs on the [APIs.io](https://apis.io/) network: Distributions API and Rates API. Tagged areas include Healthcare, Price Transparency, Negotiated Rates, Payer, and Data.
 
 
-  Serif Health''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Serif Health''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Serif Health Plans Pricing
   plan_count: 4
@@ -142,18 +146,23 @@ rate_limits:
   slug: serif-health-rate-limits
 score:
   band: thin
-  composite: 36.9
-  delta: 1.6
+  composite: 36.3
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 55.1
     developer_ergonomics: 26.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 35.3
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     contracts:
@@ -167,8 +176,8 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

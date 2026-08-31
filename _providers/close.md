@@ -27,15 +27,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.7
-  scored_at: '2026-08-26'
+  score: 52.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 286
   slug: close-agentic-access
   summary_line: 286 operations · 160 acting
-api_count: 62
+api_count: 2
 apis:
 - description: The subpackage_activities API from Close — 1 operation(s) for subpackage_activities.
   name: Close subpackage_activities API
@@ -231,7 +231,199 @@ apis:
 - description: The subpackage_webhooks API from Close — 2 operation(s) for subpackage_webhooks.
   name: Close subpackage_webhooks API
   slug: close-subpackage-webhooks-api
-artifact_total: 147
+- description: The activities API from Close — 1 operation(s) for activities.
+  name: Close Activities API
+  slug: close-activities-api
+- description: The activities.calls API from Close — 2 operation(s) for activities.calls.
+  name: Close Activities.calls API
+  slug: close-activities-calls-api
+- description: The activities.creations API from Close — 2 operation(s) for activities.creations.
+  name: Close Activities.creations API
+  slug: close-activities-creations-api
+- description: The activities.custom_activities API from Close — 2 operation(s) for activities.custom_activities.
+  name: Close Activities.custom Activities API
+  slug: close-activities-custom-activities-api
+- description: The activities.email_threads API from Close — 2 operation(s) for activities.email_threads.
+  name: Close Activities.email Threads API
+  slug: close-activities-email-threads-api
+- description: The activities.emails API from Close — 2 operation(s) for activities.emails.
+  name: Close Activities.emails API
+  slug: close-activities-emails-api
+- description: The activities.form_submissions API from Close — 2 operation(s) for activities.form_submissions.
+  name: Close Activities.form Submissions API
+  slug: close-activities-form-submissions-api
+- description: The activities.import_updates API from Close — 2 operation(s) for activities.import_updates.
+  name: Close Activities.import Updates API
+  slug: close-activities-import-updates-api
+- description: The activities.lead_merges API from Close — 2 operation(s) for activities.lead_merges.
+  name: Close Activities.lead Merges API
+  slug: close-activities-lead-merges-api
+- description: The activities.lead_status_changes API from Close — 2 operation(s) for activities.lead_status_changes.
+  name: Close Activities.lead Status Changes API
+  slug: close-activities-lead-status-changes-api
+- description: The activities.meetings API from Close — 3 operation(s) for activities.meetings.
+  name: Close Activities.meetings API
+  slug: close-activities-meetings-api
+- description: The activities.notes API from Close — 2 operation(s) for activities.notes.
+  name: Close Activities.notes API
+  slug: close-activities-notes-api
+- description: The activities.opportunity_status_changes API from Close — 2 operation(s) for activities.opportunity_status_changes.
+  name: Close Activities.opportunity Status Changes API
+  slug: close-activities-opportunity-status-changes-api
+- description: The activities.sms API from Close — 2 operation(s) for activities.sms.
+  name: Close Activities.sms API
+  slug: close-activities-sms-api
+- description: The activities.task_completions API from Close — 2 operation(s) for activities.task_completions.
+  name: Close Activities.task Completions API
+  slug: close-activities-task-completions-api
+- description: The activities.whatsapp_messages API from Close — 2 operation(s) for activities.whatsapp_messages.
+  name: Close Activities.whatsapp Messages API
+  slug: close-activities-whatsapp-messages-api
+- description: The blocked_phone_numbers API from Close — 3 operation(s) for blocked_phone_numbers.
+  name: Close Blocked Phone Numbers API
+  slug: close-blocked-phone-numbers-api
+- description: The bulk_actions.delete API from Close — 2 operation(s) for bulk_actions.delete.
+  name: Close Bulk Actions.delete API
+  slug: close-bulk-actions-delete-api
+- description: The bulk_actions.edit API from Close — 2 operation(s) for bulk_actions.edit.
+  name: Close Bulk Actions.edit API
+  slug: close-bulk-actions-edit-api
+- description: The bulk_actions.email API from Close — 2 operation(s) for bulk_actions.email.
+  name: Close Bulk Actions.email API
+  slug: close-bulk-actions-email-api
+- description: The bulk_actions.sequence_subscriptions API from Close — 2 operation(s) for bulk_actions.sequence_subscriptions.
+  name: Close Bulk Actions.sequence Subscriptions API
+  slug: close-bulk-actions-sequence-subscriptions-api
+- description: The comments API from Close — 4 operation(s) for comments.
+  name: Close Comments API
+  slug: close-comments-api
+- description: The connected_accounts API from Close — 2 operation(s) for connected_accounts.
+  name: Close Connected Accounts API
+  slug: close-connected-accounts-api
+- description: The contacts API from Close — 2 operation(s) for contacts.
+  name: Close Contacts API
+  slug: close-contacts-api
+- description: The custom_activity_types API from Close — 2 operation(s) for custom_activity_types.
+  name: Close Custom Activity Types API
+  slug: close-custom-activity-types-api
+- description: The custom_field_schemas API from Close — 1 operation(s) for custom_field_schemas.
+  name: Close Custom Field Schemas API
+  slug: close-custom-field-schemas-api
+- description: The custom_fields.activity API from Close — 2 operation(s) for custom_fields.activity.
+  name: Close Custom Fields.activity API
+  slug: close-custom-fields-activity-api
+- description: The custom_fields.contact API from Close — 2 operation(s) for custom_fields.contact.
+  name: Close Custom Fields.contact API
+  slug: close-custom-fields-contact-api
+- description: The custom_fields.custom_object API from Close — 2 operation(s) for custom_fields.custom_object.
+  name: Close Custom Fields.custom Object API
+  slug: close-custom-fields-custom-object-api
+- description: The custom_fields.lead API from Close — 2 operation(s) for custom_fields.lead.
+  name: Close Custom Fields.lead API
+  slug: close-custom-fields-lead-api
+- description: The custom_fields.opportunity API from Close — 2 operation(s) for custom_fields.opportunity.
+  name: Close Custom Fields.opportunity API
+  slug: close-custom-fields-opportunity-api
+- description: The custom_fields.shared API from Close — 4 operation(s) for custom_fields.shared.
+  name: Close Custom Fields.shared API
+  slug: close-custom-fields-shared-api
+- description: The custom_object_types API from Close — 2 operation(s) for custom_object_types.
+  name: Close Custom Object Types API
+  slug: close-custom-object-types-api
+- description: The custom_objects API from Close — 2 operation(s) for custom_objects.
+  name: Close Custom Objects API
+  slug: close-custom-objects-api
+- description: The dialers API from Close — 2 operation(s) for dialers.
+  name: Close Dialers API
+  slug: close-dialers-api
+- description: The email_templates API from Close — 3 operation(s) for email_templates.
+  name: Close Email Templates API
+  slug: close-email-templates-api
+- description: The events API from Close — 2 operation(s) for events.
+  name: Close Events API
+  slug: close-events-api
+- description: The exports API from Close — 6 operation(s) for exports.
+  name: Close Exports API
+  slug: close-exports-api
+- description: The field_enrichment API from Close — 1 operation(s) for field_enrichment.
+  name: Close Field Enrichment API
+  slug: close-field-enrichment-api
+- description: The files API from Close — 1 operation(s) for files.
+  name: Close Files API
+  slug: close-files-api
+- description: The forms API from Close — 2 operation(s) for forms.
+  name: Close Forms API
+  slug: close-forms-api
+- description: The groups API from Close — 4 operation(s) for groups.
+  name: Close Groups API
+  slug: close-groups-api
+- description: The integration_links API from Close — 2 operation(s) for integration_links.
+  name: Close Integration Links API
+  slug: close-integration-links-api
+- description: The lead_statuses API from Close — 2 operation(s) for lead_statuses.
+  name: Close Lead Statuses API
+  slug: close-lead-statuses-api
+- description: The leads API from Close — 3 operation(s) for leads.
+  name: Close Leads API
+  slug: close-leads-api
+- description: The memberships API from Close — 3 operation(s) for memberships.
+  name: Close Memberships API
+  slug: close-memberships-api
+- description: The opportunities API from Close — 2 operation(s) for opportunities.
+  name: Close Opportunities API
+  slug: close-opportunities-api
+- description: The opportunity_statuses API from Close — 2 operation(s) for opportunity_statuses.
+  name: Close Opportunity Statuses API
+  slug: close-opportunity-statuses-api
+- description: The organizations API from Close — 1 operation(s) for organizations.
+  name: Close Organizations API
+  slug: close-organizations-api
+- description: The outcomes API from Close — 2 operation(s) for outcomes.
+  name: Close Outcomes API
+  slug: close-outcomes-api
+- description: The phone_numbers API from Close — 3 operation(s) for phone_numbers.
+  name: Close Phone Numbers API
+  slug: close-phone-numbers-api
+- description: The pipelines API from Close — 2 operation(s) for pipelines.
+  name: Close Pipelines API
+  slug: close-pipelines-api
+- description: The playbooks API from Close — 4 operation(s) for playbooks.
+  name: Close Playbooks API
+  slug: close-playbooks-api
+- description: The reporting API from Close — 8 operation(s) for reporting.
+  name: Close Reporting API
+  slug: close-reporting-api
+- description: The roles API from Close — 2 operation(s) for roles.
+  name: Close Roles API
+  slug: close-roles-api
+- description: The scheduling_links API from Close — 8 operation(s) for scheduling_links.
+  name: Close Scheduling Links API
+  slug: close-scheduling-links-api
+- description: The send_as API from Close — 3 operation(s) for send_as.
+  name: Close Send As API
+  slug: close-send-as-api
+- description: The sequences API from Close — 4 operation(s) for sequences.
+  name: Close Sequences API
+  slug: close-sequences-api
+- description: The smart_views API from Close — 2 operation(s) for smart_views.
+  name: Close Smart Views API
+  slug: close-smart-views-api
+- description: The sms_templates API from Close — 2 operation(s) for sms_templates.
+  name: Close Sms Templates API
+  slug: close-sms-templates-api
+- description: The tasks API from Close — 2 operation(s) for tasks.
+  name: Close Tasks API
+  slug: close-tasks-api
+- description: The unsubscribed_emails API from Close — 2 operation(s) for unsubscribed_emails.
+  name: Close Unsubscribed Emails API
+  slug: close-unsubscribed-emails-api
+- description: The users API from Close — 4 operation(s) for users.
+  name: Close Users API
+  slug: close-users-api
+- description: The webhooks API from Close — 2 operation(s) for webhooks.
+  name: Close Webhooks API
+  slug: close-webhooks-api
+artifact_total: 211
 asyncapis:
 - description: ''
   name: Close Webhooks
@@ -430,6 +622,10 @@ collections:
   name: API Endpoints
   slug: open-close
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/close-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -661,13 +857,13 @@ modified: '2026-08-13'
 name: Close
 nav: Providers
 network: true
-overview: 'Close publishes 62 APIs on the [APIs.io](https://apis.io/) network, including subpackage_activities API, subpackage_activitiesCalls API, subpackage_activitiesCreations API, and 59 more. Tagged areas include CRM, Sales Engagement, Inside Sales, Calling, and SMS.
+overview: 'Close publishes 126 APIs on the [APIs.io](https://apis.io/) network, including subpackage_activities API, subpackage_activitiesCalls API, subpackage_activitiesCreations API, and 123 more. Tagged areas include CRM, Sales Engagement, Inside Sales, Calling, and SMS.
 
 
   The Close catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Close''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, changelog, and 44 more developer resources.'
+  Close''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, changelog, and 45 more developer resources.'
 plans:
 - name: Close Plans Pricing
   plan_count: 7
@@ -684,18 +880,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 79.1
-  delta: 0.0
+  composite: 76.4
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 93.4
     commercial_clarity: 93.4
-    contract_governance: 30.3
-    contract_quality: 62.2
+    contract_governance: 18.2
+    contract_quality: 64.0
     developer_ergonomics: 66.1
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 70.4
+    governance: 18.2
     operational_transparency: 97.4
-  previous_composite: 79.1
+  previous_composite: 77.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -708,12 +909,18 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: ccpa
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/close/refs/heads/main/screenshots/close-2026-06-20T174533.png
 security:

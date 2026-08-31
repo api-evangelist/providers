@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -34,20 +34,42 @@ agentic_access:
   summary_line: 8 operations · 8 acting
 api_count: 4
 apis:
-- description: Returns a fresh collection of anonymized road frames captured by the Nexar camera network, selectable by date, location, minimum quality, road type, time of day or vehicle heading, plus an H3 coverage
-  name: CityStream VirtualCam API
-  slug: virtualcam
-- description: Returns real-time detections produced by the Nexar camera network. The endpoint is generic across detection types (construction zones, road conditions, road surface, traffic signs) and can be served a
-  name: CityStream Live Feed API
-  slug: livefeed
-- description: Returns a curated collection of work zones that Nexar AI detects from road imagery containing work-zone elements such as grabber cones, diamond signs, barriers and message boards, with a companion end
-  name: CityStream Work Zones API
-  slug: workzones
-- description: Returns a curated inventory of road signs and road assets captured by the Nexar camera network, with a companion endpoint for the full detail of a single detection.
-  name: CityStream Road Inventory API
-  slug: roadinventory
-artifact_total: 12
+- description: The CityStream™ Live Feed API V4 API from Nexar — 1 operation(s) for citystream™ live feed api v4.
+  name: Nexar CityStream™ Live Feed API V4 API
+  slug: nexar-citystream-live-feed-api-v4-api
+- description: The Get a collection of road signs API from Nexar — 1 operation(s) for get a collection of road signs.
+  name: Nexar Get a collection of road signs API
+  slug: nexar-get-a-collection-of-road-signs-api
+- description: The Get a collection of work zones API from Nexar — 1 operation(s) for get a collection of work zones.
+  name: Nexar Get a collection of work zones API
+  slug: nexar-get-a-collection-of-work-zones-api
+- description: The Get a specific work zone API from Nexar — 1 operation(s) for get a specific work zone.
+  name: Nexar Get a specific work zone API
+  slug: nexar-get-a-specific-work-zone-api
+- description: The Get the details of a specific road sign API from Nexar — 1 operation(s) for get the details of a specific road sign.
+  name: Nexar Get the details of a specific road sign API
+  slug: nexar-get-the-details-of-a-specific-road-sign-api
+- description: The VirtualCam API API from Nexar — 3 operation(s) for virtualcam api.
+  name: Nexar VirtualCam API
+  slug: nexar-virtualcam-api-api
+artifact_total: 14
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nexar-virtualcam-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nexar-livefeed-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nexar-workzones-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nexar-roadinventory-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -193,10 +215,10 @@ modified: '2026-08-26'
 name: Nexar
 nav: Providers
 network: true
-overview: 'Nexar publishes 4 APIs on the [APIs.io](https://apis.io/) network, including CityStream VirtualCam API, CityStream Live Feed API, CityStream Work Zones API, and 1 more. Tagged areas include Company, Mapping, Geospatial, Transportation, and Computer Vision.
+overview: 'Nexar publishes 6 APIs on the [APIs.io](https://apis.io/) network, including CityStream™ Live Feed API V4 API, Get a collection of road signs API, Get a collection of work zones API, and 3 more. Tagged areas include Company, Mapping, Geospatial, Transportation, and Computer-Vision.
 
 
-  Nexar''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, CLI, and 26 more developer resources.'
+  Nexar''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, CLI, and 30 more developer resources.'
 plans:
 - name: Nexar Plans Pricing
   plan_count: 0
@@ -213,16 +235,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.8
+  composite: 36.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
-    contract_quality: 57.3
+    contract_governance: 4.5
+    contract_quality: 57.4
     developer_ergonomics: 28.0
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 15.8
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -233,8 +262,9 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Nexar Authentication
@@ -254,11 +284,11 @@ tags:
 - Mapping
 - Geospatial
 - Transportation
-- Computer Vision
+- Computer-Vision
 - Autonomous Vehicles
 - Smart Cities
 - Imagery
 - Road Data
-- Machine Learning
+- Machine-Learning
 website: https://www.nexar-ai.com/
 ---

@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
-api_count: 8
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Job openings custom post type.
   name: Ascend Advanced Therapies Careers API
@@ -90,6 +90,10 @@ collections:
   name: Ascend Advanced Therapies Content API (WordPress REST) Careers Taxonomy API
   slug: open-ascend-advanced-therapies-taxonomy-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ascend-advanced-therapies-capability-edges.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -170,22 +174,27 @@ network: true
 overview: 'Ascend Advanced Therapies publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Careers API, Discovery API, Media API, and 5 more. Tagged areas include Company, Biotechnology, Gene Therapy, Cell Therapy, and Contract Manufacturing.
 
 
-  Ascend Advanced Therapies'' developer surface includes engineering blog and 15 more developer resources.'
+  Ascend Advanced Therapies'' developer surface includes engineering blog and 16 more developer resources.'
 random_paper: 0
 score:
   band: thin
-  composite: 32.5
-  delta: 4.5
+  composite: 31.2
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 51.2
     developer_ergonomics: 16.1
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 28.0
+  previous_composite: 31.8
   provenance:
     conformance: derived
     contracts:
@@ -201,8 +210,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ascend-advanced-therapies/refs/heads/main/screenshots/ascend-advanced-therapies-2026-07-25T201402.png
 security:

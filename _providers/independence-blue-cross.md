@@ -11,30 +11,30 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: documented
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.7
-  scored_at: '2026-08-26'
+  score: 39.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -89,6 +89,10 @@ collections:
   name: Independence Blue Cross Provider Directory FHIR API
   slug: open-independence-blue-cross-provider
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/independence-blue-cross-capability-edges.yml
 - group: docs
   title: ''
   type: Swagger
@@ -437,7 +441,7 @@ overview: 'Independence Blue Cross publishes 3 APIs on the [APIs.io](https://api
   The Independence Blue Cross catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Independence Blue Cross'' developer surface includes sandbox, getting-started guide, support, code examples, authentication, developer portal, documentation, and 53 more developer resources.'
+  Independence Blue Cross'' developer surface includes sandbox, getting-started guide, support, code examples, authentication, developer portal, documentation, and 54 more developer resources.'
 plans:
 - name: Independence Blue Cross Plans Pricing
   plan_count: 5
@@ -475,18 +479,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.9
+  composite: 67.7
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 18.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
-    contract_governance: 55.3
-    contract_quality: 64.6
+    contract_governance: 43.2
+    contract_quality: 57.4
     developer_ergonomics: 61.3
     discoverability: 81.5
-    governance: 55.3
+    governance: 43.2
     operational_transparency: 31.6
-  previous_composite: 70.9
+  previous_composite: 67.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -503,8 +512,8 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/screenshots/independence-blue-cross-2026-06-20T183313.png
 security:
@@ -550,7 +559,7 @@ tags:
 - Pharmacy Benefits
 - Interoperability
 - FHIR
-- SMART on FHIR
+- SMART On FHIR
 - CMS
 - Patient Access
 - Provider Directory

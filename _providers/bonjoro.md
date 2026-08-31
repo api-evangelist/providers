@@ -23,13 +23,136 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: 'REST API for the Bonjoro personal-video platform. Create and assign greets (video tasks) for one or many recipients, manage recipient profiles and campaigns/workspaces, upload recordings to presigned '
-  name: Bonjoro API V2
-  slug: bonjoro-api-v2
-artifact_total: 7
+- description: The Authentications API from Bonjoro — 1 operation(s) for authentications.
+  name: Bonjoro Authentications API
+  slug: bonjoro-authentications-api
+- description: The Automation Accounts API from Bonjoro — 3 operation(s) for automation accounts.
+  name: Bonjoro Automation Accounts API
+  slug: bonjoro-automation-accounts-api
+- description: The Automation Actions API from Bonjoro — 2 operation(s) for automation actions.
+  name: Bonjoro Automation Actions API
+  slug: bonjoro-automation-actions-api
+- description: The Automation Services API from Bonjoro — 4 operation(s) for automation services.
+  name: Bonjoro Automation Services API
+  slug: bonjoro-automation-services-api
+- description: The Automation Triggers API from Bonjoro — 2 operation(s) for automation triggers.
+  name: Bonjoro Automation Triggers API
+  slug: bonjoro-automation-triggers-api
+- description: The Automations API from Bonjoro — 2 operation(s) for automations.
+  name: Bonjoro Automations API
+  slug: bonjoro-automations-api
+- description: The Campaigns API from Bonjoro — 3 operation(s) for campaigns.
+  name: Bonjoro Campaigns API
+  slug: bonjoro-campaigns-api
+- description: The Checklist API from Bonjoro — 1 operation(s) for checklist.
+  name: Bonjoro Checklist API
+  slug: bonjoro-checklist-api
+- description: The Devices API from Bonjoro — 1 operation(s) for devices.
+  name: Bonjoro Devices API
+  slug: bonjoro-devices-api
+- description: The Domains API from Bonjoro — 4 operation(s) for domains.
+  name: Bonjoro Domains API
+  slug: bonjoro-domains-api
+- description: The Editor Actions API from Bonjoro — 1 operation(s) for editor actions.
+  name: Bonjoro Editor Actions API
+  slug: bonjoro-editor-actions-api
+- description: The Editor Automation Actions API from Bonjoro — 1 operation(s) for editor automation actions.
+  name: Bonjoro Editor Automation Actions API
+  slug: bonjoro-editor-automation-actions-api
+- description: The Editor Automation Parameters API from Bonjoro — 1 operation(s) for editor automation parameters.
+  name: Bonjoro Editor Automation Parameters API
+  slug: bonjoro-editor-automation-parameters-api
+- description: The Editor Automation Services API from Bonjoro — 1 operation(s) for editor automation services.
+  name: Bonjoro Editor Automation Services API
+  slug: bonjoro-editor-automation-services-api
+- description: The Editor Automation Triggers API from Bonjoro — 1 operation(s) for editor automation triggers.
+  name: Bonjoro Editor Automation Triggers API
+  slug: bonjoro-editor-automation-triggers-api
+- description: The Editor Automations API from Bonjoro — 2 operation(s) for editor automations.
+  name: Bonjoro Editor Automations API
+  slug: bonjoro-editor-automations-api
+- description: The Editor Services API from Bonjoro — 1 operation(s) for editor services.
+  name: Bonjoro Editor Services API
+  slug: bonjoro-editor-services-api
+- description: The Events API from Bonjoro — 1 operation(s) for events.
+  name: Bonjoro Events API
+  slug: bonjoro-events-api
+- description: The Feedback API from Bonjoro — 1 operation(s) for feedback.
+  name: Bonjoro Feedback API
+  slug: bonjoro-feedback-api
+- description: The Greets API from Bonjoro — 14 operation(s) for greets.
+  name: Bonjoro Greets API
+  slug: bonjoro-greets-api
+- description: The Industries API from Bonjoro — 1 operation(s) for industries.
+  name: Bonjoro Industries API
+  slug: bonjoro-industries-api
+- description: The Integrations API from Bonjoro — 2 operation(s) for integrations.
+  name: Bonjoro Integrations API
+  slug: bonjoro-integrations-api
+- description: The Invites API from Bonjoro — 3 operation(s) for invites.
+  name: Bonjoro Invites API
+  slug: bonjoro-invites-api
+- description: The Links API from Bonjoro — 2 operation(s) for links.
+  name: Bonjoro Links API
+  slug: bonjoro-links-api
+- description: The Login API from Bonjoro — 2 operation(s) for login.
+  name: Bonjoro Login API
+  slug: bonjoro-login-api
+- description: The Media API from Bonjoro — 2 operation(s) for media.
+  name: Bonjoro Media API
+  slug: bonjoro-media-api
+- description: The Message Templates API from Bonjoro — 3 operation(s) for message templates.
+  name: Bonjoro Message Templates API
+  slug: bonjoro-message-templates-api
+- description: The Notifications API from Bonjoro — 2 operation(s) for notifications.
+  name: Bonjoro Notifications API
+  slug: bonjoro-notifications-api
+- description: The Pricing API from Bonjoro — 1 operation(s) for pricing.
+  name: Bonjoro Pricing API
+  slug: bonjoro-pricing-api
+- description: The Profile Attributes API from Bonjoro — 2 operation(s) for profile attributes.
+  name: Bonjoro Profile Attributes API
+  slug: bonjoro-profile-attributes-api
+- description: The Profiles API from Bonjoro — 2 operation(s) for profiles.
+  name: Bonjoro Profiles API
+  slug: bonjoro-profiles-api
+- description: The Recordings API from Bonjoro — 3 operation(s) for recordings.
+  name: Bonjoro Recordings API
+  slug: bonjoro-recordings-api
+- description: The Replies API from Bonjoro — 1 operation(s) for replies.
+  name: Bonjoro Replies API
+  slug: bonjoro-replies-api
+- description: The Results API from Bonjoro — 2 operation(s) for results.
+  name: Bonjoro Results API
+  slug: bonjoro-results-api
+- description: The Signature Avalabilities API from Bonjoro — 1 operation(s) for signature avalabilities.
+  name: Bonjoro Signature Avalabilities API
+  slug: bonjoro-signature-avalabilities-api
+- description: The Signatures API from Bonjoro — 3 operation(s) for signatures.
+  name: Bonjoro Signatures API
+  slug: bonjoro-signatures-api
+- description: The Stats API from Bonjoro — 3 operation(s) for stats.
+  name: Bonjoro Stats API
+  slug: bonjoro-stats-api
+- description: The Stock Media API from Bonjoro — 1 operation(s) for stock media.
+  name: Bonjoro Stock Media API
+  slug: bonjoro-stock-media-api
+- description: The Task List API from Bonjoro — 1 operation(s) for task list.
+  name: Bonjoro Task List API
+  slug: bonjoro-task-list-api
+- description: The Teams API from Bonjoro — 3 operation(s) for teams.
+  name: Bonjoro Teams API
+  slug: bonjoro-teams-api
+- description: The Transmissions API from Bonjoro — 1 operation(s) for transmissions.
+  name: Bonjoro Transmissions API
+  slug: bonjoro-transmissions-api
+- description: The Users API from Bonjoro — 6 operation(s) for users.
+  name: Bonjoro Users API
+  slug: bonjoro-users-api
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Bonjoro Webhooks
@@ -39,6 +162,14 @@ collections:
   name: Bonjoro API V2
   slug: open-bonjoro-api-v2
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bonjoro-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bonjoro-api-v2-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -143,13 +274,13 @@ modified: '2026-08-12'
 name: Bonjoro
 nav: Providers
 network: true
-overview: 'Bonjoro publishes 1 API on the [APIs.io](https://apis.io/) network: API V2. Tagged areas include Video Messaging, Customer Engagement, Customer Success, Sales Engagement, and Marketing Automation.
+overview: 'Bonjoro publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Authentications API, Automation Accounts API, Automation Actions API, and 39 more. Tagged areas include video-messaging, Customer Engagement, customer-success, Sales Engagement, and marketing-automation.
 
 
   The Bonjoro catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bonjoro''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
+  Bonjoro''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 19 more developer resources.'
 plans:
 - name: Bonjoro Plans Pricing
   plan_count: 5
@@ -161,18 +292,23 @@ rate_limits:
   slug: bonjoro-rate-limits
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 46.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.5
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
-    contract_quality: 56.1
+    contract_governance: 4.5
+    contract_quality: 57.3
     developer_ergonomics: 37.5
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 51.9
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 49.4
+  previous_composite: 48.1
   provenance:
     conformance: derived
     contracts:
@@ -182,8 +318,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bonjoro/refs/heads/main/screenshots/bonjoro-2026-08-17T080658.png
 security:
@@ -197,15 +333,15 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: bonjoro
 tags:
-- Video Messaging
+- video-messaging
 - Customer Engagement
-- Customer Success
+- customer-success
 - Sales Engagement
-- Marketing Automation
+- marketing-automation
 - Video
-- CRM Integration
-- Testimonials
-- Software-as-a-Service
-- Australia
+- crm-integration
+- testimonials
+- saas
+- australia
 website: https://bonjoro.com/
 ---

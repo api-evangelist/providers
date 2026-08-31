@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 3
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 260
   slug: hubspot-agentic-access
   summary_line: 260 operations · 181 acting · 3 human-in-the-loop
-api_count: 93
+api_count: 25
 apis:
 - description: Use these endpoints for interacting with Blog Posts, Blog Authors, and Blog Tags.
   name: HubSpot Posts API
@@ -725,6 +725,10 @@ collections:
   name: HubSpot Analytics Events Access Tokens Workflow Callbacks API
   slug: open-hubspot-workflow-callbacks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hubspot-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -8205,7 +8209,7 @@ overview: 'HubSpot publishes 57 APIs on the [APIs.io](https://apis.io/) network,
   The HubSpot catalog on APIs.io includes 1 event-driven AsyncAPI specification, 61 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  HubSpot''s developer surface includes authentication, API reference, developer portal, documentation, changelog, support, engineering blog, and 137 more developer resources.'
+  HubSpot''s developer surface includes authentication, API reference, developer portal, documentation, changelog, support, engineering blog, and 138 more developer resources.'
 plans:
 - name: Hubspot Plans Pricing
   plan_count: 4
@@ -8255,18 +8259,23 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 83.0
-  delta: 0.6
+  composite: 80.4
+  coverage:
+    artifact_dirs: 40
+    catalog_gap: 34.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 43.9
+    contract_governance: 31.8
     contract_quality: 83.3
     developer_ergonomics: 94.6
-    discoverability: 87.0
-    governance: 43.9
+    discoverability: 75.9
+    governance: 31.8
     operational_transparency: 71.1
-  previous_composite: 82.4
+  previous_composite: 80.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -8277,8 +8286,8 @@ score:
       total: 56
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png
 security:

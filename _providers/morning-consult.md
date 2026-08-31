@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -33,9 +33,18 @@ agentic_access:
   summary_line: 26 operations · 9 acting
 api_count: 1
 apis:
-- description: The Morning Consult API provides access to the syndicated survey data that powers Morning Consult Intelligence. Metadata (Lookup) operations discover the data sources, countries, categories, entities,
-  name: Morning Consult API
-  slug: morning-consult-api
+- description: Morning Consult's AI backed by survey data responses.
+  name: Morning Consult AI API
+  slug: morning-consult-ai-api
+- description: Authentication related operations.
+  name: Morning Consult Authentication API
+  slug: morning-consult-authentication-api
+- description: Syndicated tracking survey data data responses.
+  name: Morning Consult Data API
+  slug: morning-consult-data-api
+- description: Metadata information related to syndicated surveys.
+  name: Morning Consult Lookup API
+  slug: morning-consult-lookup-api
 arazzos:
 - description: Authenticate, resolve a data source and country, find the brand entity and the question that measures it, then pull the aggregated response timeseries.
   name: Morning Consult — brand trendline
@@ -46,8 +55,12 @@ arazzos:
 - description: Authenticate, discover an available score and the data sources it is available in, bind it to a brand entity, and request the score timeseries.
   name: Morning Consult — compute a score
   slug: morning-consult-compute-score
-artifact_total: 12
+artifact_total: 15
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/morning-consult-api-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -192,10 +205,10 @@ modified: '2026-08-01'
 name: Morning Consult
 nav: Providers
 network: true
-overview: 'Morning Consult publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Market Research, Survey Data, Consumer Intelligence, and Brand Tracking.
+overview: 'Morning Consult publishes 4 APIs on the [APIs.io](https://apis.io/) network, including AI API, Authentication API, Data API, and 1 more. Tagged areas include Company, Market Research, Survey Data, Consumer Intelligence, and Brand Tracking.
 
 
-  Morning Consult''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 25 more developer resources.'
+  Morning Consult''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 26 more developer resources.'
 random_paper: 8
 rate_limits:
 - limit_count: 5
@@ -203,18 +216,23 @@ rate_limits:
   slug: morning-consult-rate-limits
 score:
   band: strong
-  composite: 56.4
-  delta: 0.0
+  composite: 54.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
-    contract_quality: 66.2
+    contract_governance: 18.2
+    contract_quality: 65.2
     developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 56.4
+  previous_composite: 55.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -225,8 +243,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/screenshots/morning-consult-2026-08-07T184308.png
 security:

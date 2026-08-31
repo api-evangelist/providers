@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: warp-agentic-access
   summary_line: 28 operations · 12 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The Enterprise Analytics API provides team usage metrics and administrative insights for Enterprise plan customers. It enables organizations to track agent usage, monitor spend, and audit team activit
   name: Warp Enterprise Analytics API
@@ -229,18 +229,23 @@ rules:
   slug: warp-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 56.0
-  delta: 3.2
+  composite: 55.4
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 29.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
     contract_quality: 73.0
     developer_ergonomics: 40.5
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 25.0
     operational_transparency: 65.8
-  previous_composite: 52.8
+  previous_composite: 56.0
   provenance:
     agentic_access: derived
     contracts:
@@ -248,8 +253,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/warp/refs/heads/main/screenshots/warp-2026-06-20T201231.png
 security:

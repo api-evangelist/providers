@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 29
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 37
   slug: predictive-oncology-model-and-data-clearinghouse-agentic-access
   summary_line: 37 operations · 29 acting · 29 human-in-the-loop
-api_count: 17
+api_count: 1
 apis:
 - description: The asset-details-controller API from Predictive Oncology Model and Data Clearinghouse — 1 operation(s) for asset-details-controller.
   name: Predictive Oncology Model and Data Clearinghouse asset-details-controller API
@@ -154,6 +154,10 @@ collections:
   name: MoDaC API
   slug: open-predictive-oncology-model-and-data-clearinghouse
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/predictive-oncology-model-and-data-clearinghouse-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -197,7 +201,7 @@ network: true
 overview: 'Predictive Oncology Model and Data Clearinghouse publishes 17 APIs on the [APIs.io](https://apis.io/) network, including asset-details-controller API, delete-collection-controller API, delete-data-file-controller API, and 14 more. Tagged areas include Cancer Research, Clinical Data, Datasets, Machine-Learning, and Oncology.
 
 
-  Predictive Oncology Model and Data Clearinghouse''s developer surface includes developer portal and 6 more developer resources.'
+  Predictive Oncology Model and Data Clearinghouse''s developer surface includes developer portal and 7 more developer resources.'
 plans:
 - name: Predictive Oncology Model And Data Clearinghouse Plans Pricing
   plan_count: 3
@@ -209,18 +213,23 @@ rate_limits:
   slug: predictive-oncology-model-and-data-clearinghouse-rate-limits
 score:
   band: emerging
-  composite: 22.2
-  delta: 1.9
+  composite: 21.6
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
     contract_governance: 0.0
     contract_quality: 32.3
     developer_ergonomics: 19.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 20.3
+  previous_composite: 22.2
   provenance:
     agentic_access: derived
     contracts:
@@ -234,8 +243,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/screenshots/predictive-oncology-model-and-data-clearinghouse-2026-06-20T192044.png
 security:

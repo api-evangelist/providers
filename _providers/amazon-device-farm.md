@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 77
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 77
   slug: amazon-device-farm-agentic-access
   summary_line: 77 operations · 77 acting · 3 human-in-the-loop
-api_count: 77
+api_count: 1
 apis:
 - description: 'The #X Amz Target=DeviceFarm 20150623.CreateDevicePool API from Amazon Device Farm — 1 operation(s) for #x amz target=devicefarm 20150623.createdevicepool.'
   name: 'Amazon Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool API'
@@ -743,6 +743,10 @@ collections:
   name: 'AWS Device Farm #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.CreateDevicePool #X Amz Target=DeviceFarm 20150623.UpdateVPCEConfiguration API'
   slug: open-amazon-device-farm-x-amz-target-devicefarm-20150623-updatevpceconfiguration-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-device-farm-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1104,7 +1108,7 @@ overview: 'Amazon Device Farm publishes 77 APIs on the [APIs.io](https://apis.io
   The Amazon Device Farm catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon Device Farm''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 14 more developer resources.'
+  Amazon Device Farm''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
 plans:
 - name: Amazon Device Farm Plans Pricing
   plan_count: 3
@@ -1138,18 +1142,23 @@ rules:
   slug: amazon-device-farm-spectral-rules
 score:
   band: developing
-  composite: 53.8
-  delta: 3.0
+  composite: 49.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 66.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 28.8
-    contract_quality: 71.4
+    contract_quality: 64.6
     developer_ergonomics: 50.0
-    discoverability: 66.7
+    discoverability: 42.6
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 50.8
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     contracts:
@@ -1157,8 +1166,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 77
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-device-farm/refs/heads/main/screenshots/amazon-device-farm-2026-06-20T171633.png
 security:

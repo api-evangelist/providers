@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 39
   slug: jinba-agentic-access
   summary_line: 39 operations · 23 acting
-api_count: 14
+api_count: 2
 apis:
 - description: The API Keys API from Jinba — 2 operation(s) for api keys.
   name: Jinba API Keys API
@@ -272,16 +272,21 @@ overview: 'Jinba publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 12
 score:
   band: developing
-  composite: 44.8
-  delta: 1.5
+  composite: 42.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 24.7
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 23.7
   previous_composite: 43.3
   provenance:
@@ -294,8 +299,8 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/screenshots/jinba-2026-07-25T223154.png
 security:

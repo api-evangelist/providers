@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 396
   human_in_the_loop: 4
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 1004
   slug: altimate-ai-agentic-access
   summary_line: 1004 operations · 396 acting · 4 human-in-the-loop
-api_count: 123
+api_count: 1
 apis:
 - description: The ACCOUNT_COSTS API from Altimate AI — 4 operation(s) for account_costs.
   name: Altimate AI ACCOUNT_COSTS API
@@ -789,6 +789,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/altimate-ai-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/altimate-ai-openapi-overlay.yaml
 - group: start
@@ -934,22 +938,27 @@ network: true
 overview: 'Altimate AI publishes 123 APIs on the [APIs.io](https://apis.io/) network, including ACCOUNT_COSTS API, ade-bench API, AGENTS API, and 120 more. Tagged areas include Company, Data, Data Engineering, Artificial Intelligence, and Agents.
 
 
-  Altimate AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+  Altimate AI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 random_paper: 4
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 47.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 55.4
     developer_ergonomics: 61.3
-    discoverability: 57.4
-    governance: 16.7
+    discoverability: 70.4
+    governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 47.7
+  previous_composite: 48.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -960,8 +969,8 @@ score:
       total: 123
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altimate-ai/refs/heads/main/screenshots/altimate-ai-2026-07-25T195830.png
 security:

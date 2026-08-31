@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 76
   slug: amazon-app-mesh-agentic-access
   summary_line: 76 operations · 46 acting
-api_count: 4
+api_count: 2
 apis:
 - description: The Meshes API from Amazon App Mesh — 14 operation(s) for meshes.
   name: Amazon App Mesh Meshes API
@@ -73,6 +73,10 @@ collections:
   name: AWS App Mesh Meshes Untag#resourceArn API
   slug: open-amazon-app-mesh-untag-resourcearn-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-app-mesh-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -3126,7 +3130,7 @@ overview: 'Amazon App Mesh publishes 4 APIs on the [APIs.io](https://apis.io/) n
   The Amazon App Mesh catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon App Mesh''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, status page, and 18 more developer resources.'
+  Amazon App Mesh''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, status page, and 19 more developer resources.'
 random_paper: 16
 rules:
 - effective_rule_count: 5
@@ -3152,18 +3156,23 @@ rules:
   slug: amazon-app-mesh-spectral-rules
 score:
   band: developing
-  composite: 48.3
-  delta: 2.1
+  composite: 45.1
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 63.9
     developer_ergonomics: 42.9
-    discoverability: 74.1
-    governance: 45.5
+    discoverability: 57.4
+    governance: 33.3
     operational_transparency: 2.6
-  previous_composite: 46.2
+  previous_composite: 45.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -3173,8 +3182,8 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-app-mesh/refs/heads/main/screenshots/amazon-app-mesh-2026-07-25T195916.png
 security:

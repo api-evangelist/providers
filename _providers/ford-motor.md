@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -87,13 +87,13 @@ finops:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ford-motor.png
 layout: provider
 modified: '2026-05-19'
-name: ford-motor
+name: Ford Motor Company
 nav: Providers
 network: true
-overview: 'ford-motor publishes 1 API on the [APIs.io](https://apis.io/) network: Automotive API. Tagged areas include Fortune 100.
+overview: 'Ford Motor Company publishes 1 API on the [APIs.io](https://apis.io/) network: ford-motor Automotive API. Tagged areas include Fortune 100.
 
 
-  ford-motor''s developer surface includes authentication and 4 more developer resources.'
+  Ford Motor Company''s developer surface includes authentication and 4 more developer resources.'
 plans:
 - name: Ford Motor Plans Pricing
   plan_count: 2
@@ -122,7 +122,12 @@ rate_limits:
 score:
   band: thin
   composite: 26.7
-  delta: 1.0
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -132,7 +137,7 @@ score:
     discoverability: 53.7
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 25.7
+  previous_composite: 26.7
   provenance:
     agentic_access: derived
     contracts:
@@ -140,8 +145,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ford-motor/refs/heads/main/screenshots/ford-motor-2026-06-20T181422.png
 security:

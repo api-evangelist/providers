@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: ethena-agentic-access
   summary_line: 17 operations · 7 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Learner training campaign information and operations.
   name: Ethena Learner Training Campaigns API
@@ -87,6 +87,10 @@ collections:
   name: Ethena Learner Training Campaigns Webhooks API
   slug: open-ethena-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ethena-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -215,28 +219,33 @@ modified: '2026-07-19'
 name: Ethena
 nav: Providers
 network: true
-overview: 'Ethena publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Learner Training Campaigns API, Learner Training Modules API, Learners API, and 2 more. Tagged areas include Company, Compliance, Training, Governance Risk and Compliance, and Human Resources.
+overview: 'Ethena publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Learner Training Campaigns API, Learner Training Modules API, Learners API, and 2 more. Tagged areas include Company, Compliance, Training, Governance, Risk and Compliance, and Human Resources.
 
 
   The Ethena catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Ethena''s developer surface includes documentation, API reference, authentication, changelog, pricing, engineering blog, support, and 22 more developer resources.'
+  Ethena''s developer surface includes documentation, API reference, authentication, changelog, pricing, engineering blog, support, and 23 more developer resources.'
 random_paper: 20
 score:
-  band: strong
-  composite: 54.9
-  delta: 0.0
+  band: developing
+  composite: 52.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 30.3
-    contract_quality: 71.2
+    contract_governance: 18.2
+    contract_quality: 71.5
     developer_ergonomics: 47.0
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 54.9
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -253,8 +262,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ethena/refs/heads/main/screenshots/ethena-2026-07-25T213647.png
 security:
@@ -271,7 +280,7 @@ tags:
 - Company
 - Compliance
 - Training
-- Governance Risk and Compliance
+- Governance, Risk and Compliance
 - Human Resources
 - Learning Management
 - Workflows

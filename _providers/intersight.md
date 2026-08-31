@@ -23,44 +23,410 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 11
 apis:
-- description: Fabric interconnect, Ethernet and Fibre Channel port, VLAN/VSAN, link aggregation and network policy operations for Cisco UCS domains managed by Intersight. 629 operations across 369 paths and 8 resou
+- description: The aaa API from Cisco Intersight — 6 operation(s) for aaa.
+  name: Cisco Intersight Aaa API
+  slug: intersight-aaa-api
+- description: The access API from Cisco Intersight — 6 operation(s) for access.
+  name: Cisco Intersight Access API
+  slug: intersight-access-api
+- description: The adapter API from Cisco Intersight — 14 operation(s) for adapter.
+  name: Cisco Intersight Adapter API
+  slug: intersight-adapter-api
+- description: The apiproxy API from Cisco Intersight — 2 operation(s) for apiproxy.
+  name: Cisco Intersight Apiproxy API
+  slug: intersight-apiproxy-api
+- description: The appliance API from Cisco Intersight — 104 operation(s) for appliance.
+  name: Cisco Intersight Appliance API
+  slug: intersight-appliance-api
+- description: The asset API from Cisco Intersight — 31 operation(s) for asset.
+  name: Cisco Intersight Asset API
+  slug: intersight-asset-api
+- description: The auditd API from Cisco Intersight — 2 operation(s) for auditd.
+  name: Cisco Intersight Auditd API
+  slug: intersight-auditd-api
+- description: The bios API from Cisco Intersight — 14 operation(s) for bios.
+  name: Cisco Intersight Bios API
+  slug: intersight-bios-api
+- description: The boot API from Cisco Intersight — 28 operation(s) for boot.
+  name: Cisco Intersight Boot API
+  slug: intersight-boot-api
+- description: The bulk API from Cisco Intersight — 16 operation(s) for bulk.
+  name: Cisco Intersight Bulk API
+  slug: intersight-bulk-api
+- description: The capability API from Cisco Intersight — 116 operation(s) for capability.
+  name: Cisco Intersight Capability API
+  slug: intersight-capability-api
+- description: The catalystsdwan API from Cisco Intersight — 16 operation(s) for catalystsdwan.
+  name: Cisco Intersight Catalystsdwan API
+  slug: intersight-catalystsdwan-api
+- description: The certificatemanagement API from Cisco Intersight — 4 operation(s) for certificatemanagement.
+  name: Cisco Intersight Certificatemanagement API
+  slug: intersight-certificatemanagement-api
+- description: The chassis API from Cisco Intersight — 14 operation(s) for chassis.
+  name: Cisco Intersight Chassis API
+  slug: intersight-chassis-api
+- description: The cli API from Cisco Intersight — 2 operation(s) for cli.
+  name: Cisco Intersight Cli API
+  slug: intersight-cli-api
+- description: The cloud API from Cisco Intersight — 7 operation(s) for cloud.
+  name: Cisco Intersight Cloud API
+  slug: intersight-cloud-api
+- description: The comm API from Cisco Intersight — 4 operation(s) for comm.
+  name: Cisco Intersight Comm API
+  slug: intersight-comm-api
+- description: The compute API from Cisco Intersight — 36 operation(s) for compute.
+  name: Cisco Intersight Compute API
+  slug: intersight-compute-api
+- description: The cond API from Cisco Intersight — 25 operation(s) for cond.
+  name: Cisco Intersight Cond API
+  slug: intersight-cond-api
+- description: The connectorpack API from Cisco Intersight — 4 operation(s) for connectorpack.
+  name: Cisco Intersight Connectorpack API
+  slug: intersight-connectorpack-api
+- description: The console API from Cisco Intersight — 2 operation(s) for console.
+  name: Cisco Intersight Console API
+  slug: intersight-console-api
+- description: The convergedinfra API from Cisco Intersight — 12 operation(s) for convergedinfra.
+  name: Cisco Intersight Convergedinfra API
+  slug: intersight-convergedinfra-api
+- description: The coremanagement API from Cisco Intersight — 4 operation(s) for coremanagement.
+  name: Cisco Intersight Coremanagement API
+  slug: intersight-coremanagement-api
+- description: The crd API from Cisco Intersight — 2 operation(s) for crd.
+  name: Cisco Intersight Crd API
+  slug: intersight-crd-api
+- description: The deviceconnector API from Cisco Intersight — 2 operation(s) for deviceconnector.
+  name: Cisco Intersight Deviceconnector API
+  slug: intersight-deviceconnector-api
+- description: The dnac API from Cisco Intersight — 20 operation(s) for dnac.
+  name: Cisco Intersight Dnac API
+  slug: intersight-dnac-api
+- description: The energy API from Cisco Intersight — 2 operation(s) for energy.
+  name: Cisco Intersight Energy API
+  slug: intersight-energy-api
+- description: The equipment API from Cisco Intersight — 78 operation(s) for equipment.
+  name: Cisco Intersight Equipment API
+  slug: intersight-equipment-api
+- description: The ether API from Cisco Intersight — 12 operation(s) for ether.
+  name: Cisco Intersight Ether API
+  slug: intersight-ether-api
+- description: The externalsite API from Cisco Intersight — 2 operation(s) for externalsite.
+  name: Cisco Intersight Externalsite API
+  slug: intersight-externalsite-api
+- description: The fabric API from Cisco Intersight — 111 operation(s) for fabric.
   name: Cisco Intersight Fabric API
-  slug: fabric
-- description: HyperFlex hyperconverged cluster profiles, node configuration, capacity forecasting and cluster recommendation operations. 296 operations across 162 paths and 4 resource tag(s), from Cisco's own OpenA
-  name: Cisco Intersight HyperFlex API
-  slug: hyperflex
-- description: Custom resource definition operations for Intersight Kubernetes Service (IKS) cluster and add-on management. 6 operations across 2 paths and 1 resource tag(s), from Cisco's own OpenAPI 3.0.2 document.
-  name: Cisco Intersight Kubernetes API
-  slug: kubernetes
-- description: Nexus Dashboard Insights advisories, telemetry, hardware/software compliance and field-notice operations for Nexus fabrics. 238 operations across 238 paths and 2 resource tag(s), from Cisco's own Open
-  name: Cisco Intersight Nexus Insight Advisor API
-  slug: nexus-insight-advisor
-- description: Workflow designer, connector pack, converged-infrastructure and Infrastructure-as-a-Service orchestration operations. 183 operations across 98 paths and 5 resource tag(s), from Cisco's own OpenAPI 3.0
-  name: Cisco Intersight Orchestrator API
-  slug: orchestrator
-- description: Server profiles, BIOS/boot/adapter/storage policies, firmware upgrade, chassis and equipment inventory, and physical compute lifecycle operations for Cisco UCS. 1499 operations across 984 paths and 46
+  slug: intersight-fabric-api
+- description: The fault API from Cisco Intersight — 2 operation(s) for fault.
+  name: Cisco Intersight Fault API
+  slug: intersight-fault-api
+- description: The fc API from Cisco Intersight — 6 operation(s) for fc.
+  name: Cisco Intersight Fc API
+  slug: intersight-fc-api
+- description: The fcpool API from Cisco Intersight — 12 operation(s) for fcpool.
+  name: Cisco Intersight Fcpool API
+  slug: intersight-fcpool-api
+- description: The feedback API from Cisco Intersight — 2 operation(s) for feedback.
+  name: Cisco Intersight Feedback API
+  slug: intersight-feedback-api
+- description: The firmware API from Cisco Intersight — 64 operation(s) for firmware.
+  name: Cisco Intersight Firmware API
+  slug: intersight-firmware-api
+- description: The fmc API from Cisco Intersight — 8 operation(s) for fmc.
+  name: Cisco Intersight Fmc API
+  slug: intersight-fmc-api
+- description: The forecast API from Cisco Intersight — 6 operation(s) for forecast.
+  name: Cisco Intersight Forecast API
+  slug: intersight-forecast-api
+- description: The graphics API from Cisco Intersight — 4 operation(s) for graphics.
+  name: Cisco Intersight Graphics API
+  slug: intersight-graphics-api
+- description: The hci API from Cisco Intersight — 46 operation(s) for hci.
+  name: Cisco Intersight Hci API
+  slug: intersight-hci-api
+- description: The hcl API from Cisco Intersight — 20 operation(s) for hcl.
+  name: Cisco Intersight Hcl API
+  slug: intersight-hcl-api
+- description: The hyperflex API from Cisco Intersight — 136 operation(s) for hyperflex.
+  name: Cisco Intersight Hyperflex API
+  slug: intersight-hyperflex-api
+- description: The iaas API from Cisco Intersight — 22 operation(s) for iaas.
+  name: Cisco Intersight Iaas API
+  slug: intersight-iaas-api
+- description: The iam API from Cisco Intersight — 118 operation(s) for iam.
+  name: Cisco Intersight Iam API
+  slug: intersight-iam-api
+- description: The inventory API from Cisco Intersight — 9 operation(s) for inventory.
+  name: Cisco Intersight Inventory API
+  slug: intersight-inventory-api
+- description: The ipmioverlan API from Cisco Intersight — 4 operation(s) for ipmioverlan.
+  name: Cisco Intersight Ipmioverlan API
+  slug: intersight-ipmioverlan-api
+- description: The ippool API from Cisco Intersight — 16 operation(s) for ippool.
+  name: Cisco Intersight Ippool API
+  slug: intersight-ippool-api
+- description: The iqnpool API from Cisco Intersight — 12 operation(s) for iqnpool.
+  name: Cisco Intersight Iqnpool API
+  slug: intersight-iqnpool-api
+- description: The iwotenant API from Cisco Intersight — 8 operation(s) for iwotenant.
+  name: Cisco Intersight Iwotenant API
+  slug: intersight-iwotenant-api
+- description: The kvm API from Cisco Intersight — 10 operation(s) for kvm.
+  name: Cisco Intersight Kvm API
+  slug: intersight-kvm-api
+- description: The license API from Cisco Intersight — 30 operation(s) for license.
+  name: Cisco Intersight License API
+  slug: intersight-license-api
+- description: The ls API from Cisco Intersight — 2 operation(s) for ls.
+  name: Cisco Intersight Ls API
+  slug: intersight-ls-api
+- description: The macpool API from Cisco Intersight — 12 operation(s) for macpool.
+  name: Cisco Intersight Macpool API
+  slug: intersight-macpool-api
+- description: The management API from Cisco Intersight — 6 operation(s) for management.
+  name: Cisco Intersight Management API
+  slug: intersight-management-api
+- description: The memory API from Cisco Intersight — 22 operation(s) for memory.
+  name: Cisco Intersight Memory API
+  slug: intersight-memory-api
+- description: The meraki API from Cisco Intersight — 10 operation(s) for meraki.
+  name: Cisco Intersight Meraki API
+  slug: intersight-meraki-api
+- description: The meta API from Cisco Intersight — 2 operation(s) for meta.
+  name: Cisco Intersight Meta API
+  slug: intersight-meta-api
+- description: The metrics API from Cisco Intersight — 6 operation(s) for metrics.
+  name: Cisco Intersight Metrics API
+  slug: intersight-metrics-api
+- description: The mgmt API from Cisco Intersight — 22 operation(s) for mgmt.
+  name: Cisco Intersight Mgmt API
+  slug: intersight-mgmt-api
+- description: The monitoring API from Cisco Intersight — 2 operation(s) for monitoring.
+  name: Cisco Intersight Monitoring API
+  slug: intersight-monitoring-api
+- description: The network API from Cisco Intersight — 38 operation(s) for network.
+  name: Cisco Intersight Network API
+  slug: intersight-network-api
+- description: The networkconfig API from Cisco Intersight — 4 operation(s) for networkconfig.
+  name: Cisco Intersight Networkconfig API
+  slug: intersight-networkconfig-api
+- description: The niaapi API from Cisco Intersight — 48 operation(s) for niaapi.
+  name: Cisco Intersight Niaapi API
+  slug: intersight-niaapi-api
+- description: The niatelemetry API from Cisco Intersight — 190 operation(s) for niatelemetry.
+  name: Cisco Intersight Niatelemetry API
+  slug: intersight-niatelemetry-api
+- description: The notification API from Cisco Intersight — 2 operation(s) for notification.
+  name: Cisco Intersight Notification API
+  slug: intersight-notification-api
+- description: The ntp API from Cisco Intersight — 6 operation(s) for ntp.
+  name: Cisco Intersight Ntp API
+  slug: intersight-ntp-api
+- description: The oauth API from Cisco Intersight — 4 operation(s) for oauth.
+  name: Cisco Intersight OAUTH API
+  slug: intersight-oauth-api
+- description: The onprem API from Cisco Intersight — 8 operation(s) for onprem.
+  name: Cisco Intersight Onprem API
+  slug: intersight-onprem-api
+- description: The openapi API from Cisco Intersight — 10 operation(s) for openapi.
+  name: Cisco Intersight Openapi API
+  slug: intersight-openapi-api
+- description: The oprs API from Cisco Intersight — 4 operation(s) for oprs.
+  name: Cisco Intersight Oprs API
+  slug: intersight-oprs-api
+- description: The organization API from Cisco Intersight — 2 operation(s) for organization.
+  name: Cisco Intersight Organization API
+  slug: intersight-organization-api
+- description: The os API from Cisco Intersight — 17 operation(s) for os.
+  name: Cisco Intersight Os API
+  slug: intersight-os-api
+- description: The partnerintegration API from Cisco Intersight — 18 operation(s) for partnerintegration.
+  name: Cisco Intersight Partnerintegration API
+  slug: intersight-partnerintegration-api
+- description: The pci API from Cisco Intersight — 20 operation(s) for pci.
+  name: Cisco Intersight Pci API
+  slug: intersight-pci-api
+- description: The pool API from Cisco Intersight — 4 operation(s) for pool.
+  name: Cisco Intersight Pool API
+  slug: intersight-pool-api
+- description: The port API from Cisco Intersight — 6 operation(s) for port.
+  name: Cisco Intersight Port API
+  slug: intersight-port-api
+- description: The power API from Cisco Intersight — 10 operation(s) for power.
+  name: Cisco Intersight Power API
+  slug: intersight-power-api
+- description: The processor API from Cisco Intersight — 2 operation(s) for processor.
+  name: Cisco Intersight Processor API
+  slug: intersight-processor-api
+- description: The rack API from Cisco Intersight — 2 operation(s) for rack.
+  name: Cisco Intersight Rack API
+  slug: intersight-rack-api
+- description: The recommendation API from Cisco Intersight — 16 operation(s) for recommendation.
+  name: Cisco Intersight Recommendation API
+  slug: intersight-recommendation-api
+- description: The recovery API from Cisco Intersight — 14 operation(s) for recovery.
+  name: Cisco Intersight Recovery API
+  slug: intersight-recovery-api
+- description: The resource API from Cisco Intersight — 16 operation(s) for resource.
+  name: Cisco Intersight Resource API
+  slug: intersight-resource-api
+- description: The resourcepool API from Cisco Intersight — 18 operation(s) for resourcepool.
+  name: Cisco Intersight Resourcepool API
+  slug: intersight-resourcepool-api
+- description: The rproxy API from Cisco Intersight — 1 operation(s) for rproxy.
+  name: Cisco Intersight Rproxy API
+  slug: intersight-rproxy-api
+- description: The scheduler API from Cisco Intersight — 6 operation(s) for scheduler.
+  name: Cisco Intersight Scheduler API
+  slug: intersight-scheduler-api
+- description: The sdaaci API from Cisco Intersight — 4 operation(s) for sdaaci.
+  name: Cisco Intersight Sdaaci API
+  slug: intersight-sdaaci-api
+- description: The sdcard API from Cisco Intersight — 4 operation(s) for sdcard.
+  name: Cisco Intersight Sdcard API
+  slug: intersight-sdcard-api
+- description: The search API from Cisco Intersight — 5 operation(s) for search.
+  name: Cisco Intersight Search API
+  slug: intersight-search-api
+- description: The security API from Cisco Intersight — 2 operation(s) for security.
+  name: Cisco Intersight Security API
+  slug: intersight-security-api
+- description: The server API from Cisco Intersight — 22 operation(s) for server.
   name: Cisco Intersight Server API
-  slug: server
-- description: Third-party and Cisco storage array, controller, volume and disk-group inventory and policy operations. 212 operations across 204 paths and 1 resource tag(s), from Cisco's own OpenAPI 3.0.2 document.
+  slug: intersight-server-api
+- description: The servicenow API from Cisco Intersight — 8 operation(s) for servicenow.
+  name: Cisco Intersight Servicenow API
+  slug: intersight-servicenow-api
+- description: The smtp API from Cisco Intersight — 6 operation(s) for smtp.
+  name: Cisco Intersight Smtp API
+  slug: intersight-smtp-api
+- description: The snmp API from Cisco Intersight — 4 operation(s) for snmp.
+  name: Cisco Intersight Snmp API
+  slug: intersight-snmp-api
+- description: The software API from Cisco Intersight — 24 operation(s) for software.
+  name: Cisco Intersight Software API
+  slug: intersight-software-api
+- description: The softwarerepository API from Cisco Intersight — 20 operation(s) for softwarerepository.
+  name: Cisco Intersight Softwarerepository API
+  slug: intersight-softwarerepository-api
+- description: The sol API from Cisco Intersight — 4 operation(s) for sol.
+  name: Cisco Intersight Sol API
+  slug: intersight-sol-api
+- description: The ssh API from Cisco Intersight — 4 operation(s) for ssh.
+  name: Cisco Intersight Ssh API
+  slug: intersight-ssh-api
+- description: The storage API from Cisco Intersight — 274 operation(s) for storage.
   name: Cisco Intersight Storage API
-  slug: storage
-- description: 'Account, IAM, appliance, licensing, audit, bulk request, notification, search and platform administration operations for the Intersight tenant itself. 1192 operations across 671 paths and 44 resource '
-  name: Cisco Intersight System API
-  slug: system
-- description: Time-series telemetry query operations returning aggregated infrastructure metrics via the Druid query interface. 8 operations across 8 paths and 1 resource tag(s), from Cisco's own OpenAPI 3.0.2 docu
+  slug: intersight-storage-api
+- description: The syslog API from Cisco Intersight — 4 operation(s) for syslog.
+  name: Cisco Intersight Syslog API
+  slug: intersight-syslog-api
+- description: The tam API from Cisco Intersight — 10 operation(s) for tam.
+  name: Cisco Intersight Tam API
+  slug: intersight-tam-api
+- description: The task API from Cisco Intersight — 16 operation(s) for task.
+  name: Cisco Intersight Task API
+  slug: intersight-task-api
+- description: The techsupportmanagement API from Cisco Intersight — 10 operation(s) for techsupportmanagement.
+  name: Cisco Intersight Techsupportmanagement API
+  slug: intersight-techsupportmanagement-api
+- description: The telemetry API from Cisco Intersight — 8 operation(s) for telemetry.
   name: Cisco Intersight Telemetry API
-  slug: telemetry
-- description: Hypervisor, virtual machine, datastore and virtual-console operations for VMware, Hyper-V and Intersight-managed virtualization targets. 96 operations across 50 paths and 2 resource tag(s), from Cisco
+  slug: intersight-telemetry-api
+- description: The terminal API from Cisco Intersight — 2 operation(s) for terminal.
+  name: Cisco Intersight Terminal API
+  slug: intersight-terminal-api
+- description: The thermal API from Cisco Intersight — 4 operation(s) for thermal.
+  name: Cisco Intersight Thermal API
+  slug: intersight-thermal-api
+- description: The top API from Cisco Intersight — 2 operation(s) for top.
+  name: Cisco Intersight Top API
+  slug: intersight-top-api
+- description: The ucsd API from Cisco Intersight — 2 operation(s) for ucsd.
+  name: Cisco Intersight Ucsd API
+  slug: intersight-ucsd-api
+- description: The uuidpool API from Cisco Intersight — 12 operation(s) for uuidpool.
+  name: Cisco Intersight Uuidpool API
+  slug: intersight-uuidpool-api
+- description: The view API from Cisco Intersight — 4 operation(s) for view.
+  name: Cisco Intersight View API
+  slug: intersight-view-api
+- description: The virtualization API from Cisco Intersight — 48 operation(s) for virtualization.
   name: Cisco Intersight Virtualization API
-  slug: virtualization
-- description: Workflow definitions, task definitions, batch API executors, service items, catalog items and cross-domain automation operations, including Meraki, DNAC, FMC and Catalyst SD-WAN connectors. 732 operat
-  name: Cisco Intersight Workflows API
-  slug: workflows
-artifact_total: 18
+  slug: intersight-virtualization-api
+- description: The vmedia API from Cisco Intersight — 4 operation(s) for vmedia.
+  name: Cisco Intersight Vmedia API
+  slug: intersight-vmedia-api
+- description: The vmrc API from Cisco Intersight — 2 operation(s) for vmrc.
+  name: Cisco Intersight Vmrc API
+  slug: intersight-vmrc-api
+- description: The vnic API from Cisco Intersight — 78 operation(s) for vnic.
+  name: Cisco Intersight Vnic API
+  slug: intersight-vnic-api
+- description: The vrf API from Cisco Intersight — 2 operation(s) for vrf.
+  name: Cisco Intersight Vrf API
+  slug: intersight-vrf-api
+- description: The webhook API from Cisco Intersight — 4 operation(s) for webhook.
+  name: Cisco Intersight Webhook API
+  slug: intersight-webhook-api
+- description: The workflow API from Cisco Intersight — 58 operation(s) for workflow.
+  name: Cisco Intersight Workflow API
+  slug: intersight-workflow-api
+- description: The workload API from Cisco Intersight — 14 operation(s) for workload.
+  name: Cisco Intersight Workload API
+  slug: intersight-workload-api
+artifact_total: 124
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/intersight-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/intersight-fabric-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/intersight-hyperflex-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/intersight-kubernetes-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/intersight-nexus-insight-advisor-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/intersight-orchestrator-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/intersight-server-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/intersight-storage-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/intersight-system-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/intersight-telemetry-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/intersight-virtualization-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/intersight-workflows-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -217,10 +583,10 @@ modified: '2026-08-19'
 name: Cisco Intersight
 nav: Providers
 network: true
-overview: 'Cisco Intersight publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Fabric API, HyperFlex API, Kubernetes API, and 8 more. Tagged areas include Infrastructure, Cloud Operations, Data-Center, Compute, and Networking.
+overview: 'Cisco Intersight publishes 117 APIs on the [APIs.io](https://apis.io/) network, including Aaa API, Access API, Adapter API, and 114 more. Tagged areas include Infrastructure, Cloud Operations, Data-Center, Compute, and Networking.
 
 
-  Cisco Intersight''s developer surface includes developer portal, documentation, API reference, changelog, pricing, sandbox, authentication, and 30 more developer resources.'
+  Cisco Intersight''s developer surface includes developer portal, documentation, API reference, changelog, pricing, sandbox, authentication, and 42 more developer resources.'
 plans:
 - name: Intersight Plans Pricing
   plan_count: 2
@@ -237,18 +603,23 @@ scopes:
   summary_line: 3317 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 58.7
+  composite: 57.4
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 16.7
-    contract_quality: 50.3
+    contract_governance: 4.5
+    contract_quality: 50.2
     developer_ergonomics: 75.6
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 58.7
+  previous_composite: 57.4
   provenance:
     conformance: derived
     contracts:
@@ -258,8 +629,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

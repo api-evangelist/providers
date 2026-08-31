@@ -1,14 +1,15 @@
 ---
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
@@ -22,8 +23,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-08-26'
+  score: 41.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 3
@@ -31,7 +32,7 @@ agentic_access:
   operation_count: 83
   slug: pydantic-ai-agentic-access
   summary_line: 83 operations · 42 acting · 3 human-in-the-loop
-api_count: 17
+api_count: 2
 apis:
 - description: The Alerts API from PydanticAI — 2 operation(s) for alerts.
   name: PydanticAI Alerts API
@@ -192,6 +193,18 @@ collections:
   name: Pydantic API Discovery Alerts Variables API
   slug: open-pydantic-ai-variables-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/pydantic/pydantic-ai/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/pydantic/pydantic-ai/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/pydantic/pydantic-ai/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -333,7 +346,7 @@ overview: 'PydanticAI publishes 17 APIs on the [APIs.io](https://apis.io/) netwo
   The PydanticAI catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  PydanticAI''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 19 more developer resources.'
+  PydanticAI''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 22 more developer resources.'
 plans:
 - name: Pydantic Ai Plans Pricing
   plan_count: 4
@@ -361,18 +374,26 @@ scopes:
   summary_line: 38 scopes · authorizationCode
 score:
   band: strong
-  composite: 56.8
-  delta: 5.6
+  composite: 55.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 28.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
     contract_quality: 67.1
     developer_ergonomics: 47.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 65.8
-  previous_composite: 51.2
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     contracts:
@@ -380,9 +401,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pydantic-ai/refs/heads/main/screenshots/pydantic-ai-2026-06-20T192356.png
 security:
 - kind: authentication

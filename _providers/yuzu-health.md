@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 34
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 76
   slug: yuzu-health-agentic-access
   summary_line: 76 operations · 34 acting · 34 human-in-the-loop
-api_count: 10
+api_count: 1
 apis:
 - description: The Accumulator (Experimental) API from Yuzu Health — 2 operation(s) for accumulator (experimental).
   name: Yuzu Health Accumulator (Experimental) API
@@ -109,6 +109,10 @@ collections:
   name: Yuzu Accumulator (Experimental) Accumulator (Experimental) Sponsor API
   slug: open-yuzu-health-sponsor-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/yuzu-health-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -236,22 +240,27 @@ network: true
 overview: 'Yuzu Health publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accumulator (Experimental) API, Benefits API, Coverage API, and 7 more. Tagged areas include Company, Health, Healthcare, Insurance, and Health Plans.
 
 
-  Yuzu Health''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
+  Yuzu Health''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 22 more developer resources.'
 random_paper: 18
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 41.5
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 45.4
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 43.5
+  previous_composite: 42.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -268,8 +277,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/screenshots/yuzu-health-2026-08-17T083029.png
 security:

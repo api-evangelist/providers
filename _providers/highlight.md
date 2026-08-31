@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/launchdarkly/
 created: '2026-07-17'
 description: 'Highlight is a General Catalyst portfolio company added to the API Evangelist network as a stub via the VC-portfolio harvest. Enrichment probing on 2026-07-20 found no active developer API surface to catalog: the company''s primary domain (highlightyourbrand.com) now returns only a JavaScript redirect to a parked "/lander" page, and the source portfolio harvest already flagged the entry as a non-API provider (is_api_provider false, no URL captured). Note that the developer-observability platform highlight.io is a DISTINCT company (YC-backed, acquired by LaunchDarkly) and is NOT this General Catalyst portfolio company, so its API artifacts were deliberately not attributed here.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/highlight.png
@@ -48,6 +53,11 @@ random_paper: 7
 score:
   band: minimal
   composite: 5.0
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -67,8 +77,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: highlight
 tags:

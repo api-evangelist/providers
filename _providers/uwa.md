@@ -1,12 +1,12 @@
 ---
 access_model:
-  confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Free · Open harvesting endpoint, no key required
+  onboarding: open
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - probes
   - authentication
   trial: false
   try_now: true
@@ -15,231 +15,68 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.5
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 27
-  human_in_the_loop: 0
-  name: Uwa Agentic Access
-  operation_count: 184
-  slug: uwa-agentic-access
-  summary_line: 184 operations · 27 acting
-api_count: 29
+  score: 23.0
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: UWA's developer portal, built on Microsoft Azure API Management, where published APIs and products can be discovered, tried interactively, and subscribed to for API keys. The catalog of products and A
-  name: UWA Developer Portal (Azure API Management)
+- description: An open, unauthenticated OAI-PMH 2.0 metadata harvesting endpoint operated by UWA on its own host. All six protocol verbs returned 200 on 2026-08-30 with no credential presented. Identify reports admi
+  name: UWA Research Repository OAI-PMH
+  slug: oai-pmh
+- description: UWA operates its own Shibboleth identity provider and publishes signed SAML 2.0 federation metadata at https://idp.uwa.edu.au/idp/shibboleth (200, 5,081 bytes). The document is an EntityDescriptor wit
+  name: UWA Shibboleth Identity Provider (SAML 2.0 metadata)
+  slug: identity-federation
+- description: UWA runs a Microsoft Azure API Management estate on its own domains. The developer portal at api-portal.uwa.edu.au returns 200 but serves the stock unbranded Azure APIM shell — title "Home - Microsoft
+  name: UWA API Gateway and Developer Portal (Azure API Management)
   slug: developer-portal
-- description: The activities API from University of Western Australia — 4 operation(s) for activities.
-  name: University of Western Australia activities API
-  slug: uwa-activities-api
-- description: The applications API from University of Western Australia — 4 operation(s) for applications.
-  name: University of Western Australia applications API
-  slug: uwa-applications-api
-- description: The author-collaborations API from University of Western Australia — 4 operation(s) for author-collaborations.
-  name: University of Western Australia author-collaborations API
-  slug: uwa-author-collaborations-api
-- description: The awards API from University of Western Australia — 5 operation(s) for awards.
-  name: University of Western Australia awards API
-  slug: uwa-awards-api
-- description: The changes API from University of Western Australia — 1 operation(s) for changes.
-  name: University of Western Australia changes API
-  slug: uwa-changes-api
-- description: The classification-schemes API from University of Western Australia — 4 operation(s) for classification-schemes.
-  name: University of Western Australia classification-schemes API
-  slug: uwa-classification-schemes-api
-- description: The concepts API from University of Western Australia — 4 operation(s) for concepts.
-  name: University of Western Australia concepts API
-  slug: uwa-concepts-api
-- description: The courses API from University of Western Australia — 6 operation(s) for courses.
-  name: University of Western Australia courses API
-  slug: uwa-courses-api
-- description: The curricula-vitae API from University of Western Australia — 4 operation(s) for curricula-vitae.
-  name: University of Western Australia curricula-vitae API
-  slug: uwa-curricula-vitae-api
-- description: The datasets API from University of Western Australia — 4 operation(s) for datasets.
-  name: University of Western Australia datasets API
-  slug: uwa-datasets-api
-- description: The downloads API from University of Western Australia — 3 operation(s) for downloads.
-  name: University of Western Australia downloads API
-  slug: uwa-downloads-api
-- description: The equipments API from University of Western Australia — 5 operation(s) for equipments.
-  name: University of Western Australia equipments API
-  slug: uwa-equipments-api
-- description: The events API from University of Western Australia — 4 operation(s) for events.
-  name: University of Western Australia events API
-  slug: uwa-events-api
-- description: The external-organisations API from University of Western Australia — 4 operation(s) for external-organisations.
-  name: University of Western Australia external-organisations API
-  slug: uwa-external-organisations-api
-- description: The external-persons API from University of Western Australia — 4 operation(s) for external-persons.
-  name: University of Western Australia external-persons API
-  slug: uwa-external-persons-api
-- description: The fingerprints API from University of Western Australia — 4 operation(s) for fingerprints.
-  name: University of Western Australia fingerprints API
-  slug: uwa-fingerprints-api
-- description: The impacts API from University of Western Australia — 4 operation(s) for impacts.
-  name: University of Western Australia impacts API
-  slug: uwa-impacts-api
-- description: The journals API from University of Western Australia — 4 operation(s) for journals.
-  name: University of Western Australia journals API
-  slug: uwa-journals-api
-- description: The keyword-group-configuration API from University of Western Australia — 4 operation(s) for keyword-group-configuration.
-  name: University of Western Australia keyword-group-configuration API
-  slug: uwa-keyword-group-configuration-api
-- description: The organisational-units API from University of Western Australia — 20 operation(s) for organisational-units.
-  name: University of Western Australia organisational-units API
-  slug: uwa-organisational-units-api
-- description: The persons API from University of Western Australia — 29 operation(s) for persons.
-  name: University of Western Australia persons API
-  slug: uwa-persons-api
-- description: The press-media API from University of Western Australia — 4 operation(s) for press-media.
-  name: University of Western Australia press-media API
-  slug: uwa-press-media-api
-- description: The prizes API from University of Western Australia — 4 operation(s) for prizes.
-  name: University of Western Australia prizes API
-  slug: uwa-prizes-api
-- description: The projects API from University of Western Australia — 6 operation(s) for projects.
-  name: University of Western Australia projects API
-  slug: uwa-projects-api
-- description: The publishers API from University of Western Australia — 5 operation(s) for publishers.
-  name: University of Western Australia publishers API
-  slug: uwa-publishers-api
-- description: The research-outputs API from University of Western Australia — 6 operation(s) for research-outputs.
-  name: University of Western Australia research-outputs API
-  slug: uwa-research-outputs-api
-- description: The semantic-groups API from University of Western Australia — 4 operation(s) for semantic-groups.
-  name: University of Western Australia semantic-groups API
-  slug: uwa-semantic-groups-api
-- description: The thesauri API from University of Western Australia — 4 operation(s) for thesauri.
-  name: University of Western Australia thesauri API
-  slug: uwa-thesauri-api
-artifact_total: 82
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Pure Web Service 524 activities API
-  slug: open-uwa-activities-api
-- collection_type: open
-  name: Pure Web Service 524 activities applications API
-  slug: open-uwa-applications-api
-- collection_type: open
-  name: Pure Web Service 524 activities author-collaborations API
-  slug: open-uwa-author-collaborations-api
-- collection_type: open
-  name: Pure Web Service 524 activities awards API
-  slug: open-uwa-awards-api
-- collection_type: open
-  name: Pure Web Service 524 activities changes API
-  slug: open-uwa-changes-api
-- collection_type: open
-  name: Pure Web Service 524 activities classification-schemes API
-  slug: open-uwa-classification-schemes-api
-- collection_type: open
-  name: Pure Web Service 524 activities concepts API
-  slug: open-uwa-concepts-api
-- collection_type: open
-  name: Pure Web Service 524 activities courses API
-  slug: open-uwa-courses-api
-- collection_type: open
-  name: Pure Web Service 524 activities curricula-vitae API
-  slug: open-uwa-curricula-vitae-api
-- collection_type: open
-  name: Pure Web Service 524 activities datasets API
-  slug: open-uwa-datasets-api
-- collection_type: open
-  name: Pure Web Service 524 activities downloads API
-  slug: open-uwa-downloads-api
-- collection_type: open
-  name: Pure Web Service 524 activities equipments API
-  slug: open-uwa-equipments-api
-- collection_type: open
-  name: Pure Web Service 524 activities events API
-  slug: open-uwa-events-api
-- collection_type: open
-  name: Pure Web Service 524 activities external-organisations API
-  slug: open-uwa-external-organisations-api
-- collection_type: open
-  name: Pure Web Service 524 activities external-persons API
-  slug: open-uwa-external-persons-api
-- collection_type: open
-  name: Pure Web Service 524 activities fingerprints API
-  slug: open-uwa-fingerprints-api
-- collection_type: open
-  name: Pure Web Service 524 activities impacts API
-  slug: open-uwa-impacts-api
-- collection_type: open
-  name: Pure Web Service 524 activities journals API
-  slug: open-uwa-journals-api
-- collection_type: open
-  name: Pure Web Service 524 activities keyword-group-configuration API
-  slug: open-uwa-keyword-group-configuration-api
-- collection_type: open
-  name: Pure Web Service 524 activities organisational-units API
-  slug: open-uwa-organisational-units-api
-- collection_type: open
-  name: Pure Web Service 524 activities persons API
-  slug: open-uwa-persons-api
-- collection_type: open
-  name: Pure Web Service 524 activities press-media API
-  slug: open-uwa-press-media-api
-- collection_type: open
-  name: Pure Web Service 524 activities prizes API
-  slug: open-uwa-prizes-api
-- collection_type: open
-  name: Pure Web Service 524 activities projects API
-  slug: open-uwa-projects-api
-- collection_type: open
-  name: Pure Web Service 524 activities publishers API
-  slug: open-uwa-publishers-api
-- collection_type: open
-  name: Pure Web Service 524 activities research-outputs API
-  slug: open-uwa-research-outputs-api
-- collection_type: open
-  name: Pure Web Service 524 activities semantic-groups API
-  slug: open-uwa-semantic-groups-api
-- collection_type: open
-  name: Pure Web Service 524 activities thesauri API
-  slug: open-uwa-thesauri-api
+- description: UWA's research information system and public research portal, running on Elsevier Pure at research-repository.uwa.edu.au with a CRIS web service at api.research-repository.uwa.edu.au/ws/api/524. The d
+  name: UWA Profiles and Research Repository (Elsevier Pure tenancy)
+  slug: research-repository
+- description: UWA Library discovery, served from onesearch.library.uwa.edu.au and redirecting to an Ex Libris Primo VE application scoped to vid=61UWA_INST. The tenancy is UWA's; the discovery platform, its APIs an
+  name: UWA Library OneSearch (Ex Libris Primo VE tenancy)
+  slug: library-catalog
+artifact_total: 10
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/uwa-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/uwa-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/uwa-authentication.yml
 - group: company
   title: ''
   type: Website
   url: https://www.uwa.edu.au/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.uwa.edu.au/news
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.uwa.edu.au/contact-us
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.uwa.edu.au/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.uwa.edu.au/disclaimer-copyright
 - group: build
   title: ''
-  type: GitHub
+  type: GitHubOrganization
   url: https://github.com/uwa
 - group: company
   title: ''
@@ -248,11 +85,47 @@ common:
 - group: company
   title: ''
   type: Twitter
-  url: https://twitter.com/uwanews
+  url: https://x.com/uwanews
 - group: start
   title: ''
   type: DeveloperPortal
   url: https://api-portal.uwa.edu.au/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://idp.uwa.edu.au/idp/shibboleth
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://research-repository.uwa.edu.au/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://onesearch.library.uwa.edu.au/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://www.handbooks.uwa.edu.au/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://guides.library.uwa.edu.au/artificial_intelligence
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.uwa.edu.au/students/-/media/project/uwa/uwa/students/academic-support/using-artificial-intelligence-tools-at-uwa---a-guide-for-students-(2026).pdf
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/uwa-authentication.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/uwa-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/uwa-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -270,77 +143,22 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'The University of Western Australia (UWA) is a public research university in Perth, Western Australia, and ranked #80 in the QS World University Rankings 2025. Its public developer/API footprint is modest and primarily institutional: UWA operates an Azure API Management developer portal where APIs and products are published and consumed via API keys behind a sign-in, and exposes an Elsevier Pure CRIS Web Service for its Profiles and Research Repository that returns research outputs, people, projects, and related metadata via an API-key-protected REST interface. Most other interfaces are gated behind institutional affiliation or federated identity rather than open self-service.'
-examples:
-- key_count: 4
-  name: Uwa Datasets List Example
-  slug: uwa-datasets-list-example
-- key_count: 4
-  name: Uwa Organisational Units List Example
-  slug: uwa-organisational-units-list-example
-- key_count: 4
-  name: Uwa Persons List Example
-  slug: uwa-persons-list-example
-- key_count: 4
-  name: Uwa Projects List Example
-  slug: uwa-projects-list-example
-- key_count: 4
-  name: Uwa Research Outputs List Example
-  slug: uwa-research-outputs-list-example
+description: 'The University of Western Australia (UWA) is a public research university in Perth, Western Australia, a member of the Group of Eight, and ranked in the top 100 of the QS World University Rankings. Its programmable footprint is small, and most of what appears to be a UWA API is not: the research repository at research-repository.uwa.edu.au runs on Elsevier Pure and its /ws/api/524 web service is Elsevier''s contract, and library discovery at onesearch.library.uwa.edu.au is Ex Libris Primo VE under tenant 61UWA_INST. Both are real UWA services and neither is UWA engineering. What UWA genuinely operates and exposes is narrower and more interesting: a fully open, unauthenticated OAI-PMH 2.0 harvesting endpoint at api.research-repository.uwa.edu.au/ws/oai serving 167 sets across five metadata formats with no key required, and a Shibboleth SAML 2.0 identity provider publishing signed federation metadata at idp.uwa.edu.au/idp/shibboleth. UWA also runs a Microsoft Azure API Management
+  estate — a developer portal at api-portal.uwa.edu.au and a live gateway at api.uwa.edu.au — but the product catalog sits behind sign-in and the portal''s own signup path returns 404, so nothing there is publicly enumerable. No open data portal, no public course or timetable API, and no first-party OpenAPI of any kind was found.'
 finops:
 - name: Uwa Finops
   service_category: Education
   slug: uwa-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/uwa.png
-json_schemas:
-- name: WSDataSet
-  property_count: 0
-  slug: uwa-dataset
-- name: WSOrganisation
-  property_count: 0
-  slug: uwa-organisation
-- name: WSPerson
-  property_count: 0
-  slug: uwa-person
-- name: WSUPMProject
-  property_count: 0
-  slug: uwa-project
-- name: WSResearchOutput
-  property_count: 0
-  slug: uwa-research-output
-json_structures:
-- name: Uwa Dataset Structure
-  property_count: 44
-  slug: uwa-dataset-structure
-- name: Uwa Organisation Structure
-  property_count: 25
-  slug: uwa-organisation-structure
-- name: Uwa Person Structure
-  property_count: 44
-  slug: uwa-person-structure
-- name: Uwa Project Structure
-  property_count: 45
-  slug: uwa-project-structure
-- name: Uwa Research Output Structure
-  property_count: 57
-  slug: uwa-research-output-structure
-jsonld:
-- class_count: 21
-  name: Uwa Context
-  property_count: 7
-  slug: uwa-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: University of Western Australia
 nav: Providers
 network: true
-overview: 'University of Western Australia publishes 28 APIs on the [APIs.io](https://apis.io/) network, including activities API, applications API, author-collaborations API, and 25 more. Tagged areas include Education, Higher Education, University, Research, and Australia.
+overview: 'University of Western Australia publishes 1 API on the [APIs.io](https://apis.io/) network: UWA Research Repository OAI-PMH. Tagged areas include Education, Higher Education, University, Australia, and Group of Eight.
 
 
-  The University of Western Australia catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  University of Western Australia''s developer surface includes authentication, GitHub presence, and 10 more developer resources.'
+  University of Western Australia''s developer surface includes engineering blog, support, authentication, and 19 more developer resources.'
 plans:
 - name: Uwa Plans Pricing
   plan_count: 2
@@ -350,42 +168,25 @@ rate_limits:
 - limit_count: 1
   name: Uwa Rate Limits
   slug: uwa-rate-limits
-rules:
-- effective_rule_count: 6
-  extends: []
-  name: University of Western Australia API Rules
-  rule_count: 6
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 4
-  slug: uwa-jsonschema-spectral-rules
-- effective_rule_count: 48
-  extends:
-  - spectral:oas
-  name: University of Western Australia API Rules
-  rule_count: 7
-  severity_counts:
-    error: 2
-    hint: 0
-    info: 2
-    warn: 3
-  slug: uwa-rules
 score:
   band: developing
-  composite: 42.4
-  delta: 4.6
+  composite: 47.9
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 5.5
   facets:
-    access_clarity: 42.1
-    commercial_clarity: 42.1
-    contract_governance: 13.6
-    contract_quality: 58.8
-    developer_ergonomics: 31.0
-    discoverability: 74.1
-    governance: 13.6
-    operational_transparency: 26.3
-  previous_composite: 37.8
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 52.4
+    developer_ergonomics: 38.1
+    discoverability: 68.5
+    governance: 18.2
+    operational_transparency: 23.7
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -398,16 +199,16 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 61.1
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/uwa/refs/heads/main/screenshots/uwa-2026-06-20T200736.png
 security:
 - kind: authentication
   name: Uwa Authentication
   slug: uwa-authentication
-  summary_line: apiKey · 2 schemes
+  summary_line: none/apiKey/saml2 · 3 schemes
 - kind: domain-security
   name: Uwa Domain Security
   slug: uwa-domain-security
@@ -417,8 +218,14 @@ tags:
 - Education
 - Higher Education
 - University
-- Research
 - Australia
+- Group of Eight
 - Perth
+- Research
+- Research Data
+- Research Repository
+- Identity Federation
+- OAI-PMH
+- Library
 website: https://www.uwa.edu.au/
 ---

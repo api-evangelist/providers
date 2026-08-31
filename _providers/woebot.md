@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Gated partner API library for integrating the Woebot Health Platform into a partner's digital front door, EMR, or care pathway. Supports transmission of aggregated data including patient-reported outc
@@ -129,7 +129,7 @@ modified: '2026-05-23'
 name: Woebot Health
 nav: Providers
 network: true
-overview: 'Woebot Health publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Mental Health, Digital Therapeutics, CBT, Chatbots, and Clinical.
+overview: 'Woebot Health publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Mental Health, Digital Therapeutics, CBT, Chatbot, and Clinical.
 
 
   Woebot Health''s developer surface includes engineering blog and 18 more developer resources.'
@@ -145,7 +145,12 @@ rate_limits:
 score:
   band: emerging
   composite: 22.9
-  delta: 1.9
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -155,15 +160,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 21.0
+  previous_composite: 22.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 25.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/woebot/refs/heads/main/screenshots/woebot-2026-06-20T201534.png
 security:
@@ -184,7 +189,7 @@ tags:
 - Mental Health
 - Digital Therapeutics
 - CBT
-- Chatbots
+- Chatbot
 - Clinical
 - Healthcare
 - B2B

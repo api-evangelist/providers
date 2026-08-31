@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -31,21 +31,18 @@ agentic_access:
   operation_count: 29
   slug: reliance-jio-agentic-access
   summary_line: 29 operations · 19 acting · 1 human-in-the-loop
-api_count: 4
+api_count: 6
 apis:
-- description: Server-to-server REST API for the JioMeet video meeting platform, documented publicly at dev.jiomeet.com. Covers creating dynamic meetings, creating, fetching, updating and deleting scheduled meetings
-  name: JioMeet Platform Server API
-  slug: jiomeet-platform-server-api
-- description: User-authorized REST API for JioMeet, using OAuth 2.0. An access and refresh token are obtained from the /api/oauth2/v2/token endpoint using HTTP Basic authentication with an OAuth client id and secre
-  name: JioMeet Platform OAuth API
-  slug: jiomeet-platform-oauth-api
-- description: Server-side REST API for JioEvents, Jio's webinar and virtual event platform, documented alongside JioMeet at dev.jiomeet.com. Covers creating, fetching, updating and deleting scheduled webinars, crea
-  name: JioEvents Platform Server API
-  slug: jioevents-platform-server-api
 - description: In-app purchase and digital content payment API for applications published on the Jio set-top box, distributed by Jio Platforms as a downloadable PDF API specification (v1.1) from the JioDevelopers se
   name: JioPayments Set-Top-Box API
   slug: jiopayments-stb-api
-artifact_total: 13
+- description: The JioEventsCpaasPlatform API from Reliance Jio — 6 operation(s) for jioeventscpaasplatform.
+  name: Reliance Jio Jio Events Cpaas Platform API
+  slug: reliance-jio-jioeventscpaasplatform-api
+- description: The JioMeetCpaasPlatform API from Reliance Jio — 14 operation(s) for jiomeetcpaasplatform.
+  name: Reliance Jio Jio Meet Cpaas Platform API
+  slug: reliance-jio-jiomeetcpaasplatform-api
+artifact_total: 12
 collections:
 - collection_type: open
   name: JioEvents Platform APIs
@@ -57,6 +54,30 @@ collections:
   name: JioMeet Platform APIs
   slug: open-reliance-jio-jiomeet-platform
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/reliance-jio-jiomeet-platform-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/reliance-jio-create-and-record-a-meeting.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/reliance-jio-jiomeet-oauth-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/reliance-jio-manage-user-meetings-with-oauth.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/reliance-jio-jioevents-platform-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/reliance-jio-run-a-jioevents-webinar.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -231,10 +252,10 @@ modified: '2026-07-25'
 name: Reliance Jio
 nav: Providers
 network: true
-overview: 'Reliance Jio publishes 3 APIs on the [APIs.io](https://apis.io/) network: JioMeet Platform Server API, JioMeet Platform OAuth API, and JioEvents Platform Server API. Tagged areas include Telecommunications, India, Mobile Network Operator, Network APIs, and CAMARA.
+overview: 'Reliance Jio publishes 2 APIs on the [APIs.io](https://apis.io/) network: Jio Events Cpaas Platform API and Jio Meet Cpaas Platform API. Tagged areas include Telecommunications, India, Mobile Network Operator, Network APIs, and CAMARA.
 
 
-  Reliance Jio''s developer surface includes authentication, code examples, documentation, signup flow, support, getting-started guide, API reference, and 33 more developer resources.'
+  Reliance Jio''s developer surface includes authentication, code examples, documentation, signup flow, support, getting-started guide, API reference, and 39 more developer resources.'
 random_paper: 5
 scopes:
 - name: Reliance Jio Scopes
@@ -243,18 +264,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.4
+  composite: 56.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 30.3
-    contract_quality: 54.7
+    contract_governance: 18.2
+    contract_quality: 55.5
     developer_ergonomics: 63.7
-    discoverability: 75.9
-    governance: 30.3
+    discoverability: 72.2
+    governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 58.4
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -271,8 +297,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 100.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/screenshots/reliance-jio-2026-08-17T081508.png
 security:

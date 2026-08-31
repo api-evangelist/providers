@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 3
   slug: wechat-agentic-access
   summary_line: 3 operations
-api_count: 16
+api_count: 1
 apis:
 - description: Backend HTTPS/JSON APIs that Mini Program operators call from their own servers to authenticate user sessions (code2Session), mint access tokens, send customer service and template/subscription messag
   name: WeChat Mini Programs Server API
@@ -316,15 +316,20 @@ rules:
   slug: wechat-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 52.6
-  delta: 3.8
+  composite: 52.0
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 63.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 13.6
     contract_quality: 61.6
     developer_ergonomics: 85.7
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 5.3
   needs_work:
@@ -333,7 +338,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 48.8
+  previous_composite: 52.6
   provenance:
     agentic_access: derived
     contracts:
@@ -347,8 +352,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wechat/refs/heads/main/screenshots/wechat-2026-06-20T201343.png
 security:

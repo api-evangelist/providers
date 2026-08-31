@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 174
   slug: synctera-agentic-access
   summary_line: 174 operations · 93 acting
-api_count: 29
+api_count: 1
 apis:
 - description: Outbound HTTP webhook delivery for customer, account, card, transaction, and payment events.
   name: Synctera Webhooks
@@ -224,6 +224,10 @@ collections:
   name: Synctera API
   slug: open-synctera
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/synctera-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1652,13 +1656,13 @@ modified: '2026-05-08'
 name: Synctera
 nav: Providers
 network: true
-overview: 'Synctera publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, ACH API, Applications API, and 25 more. Tagged areas include Fintech, Backend-as-a-Service, Banking, Payments, and Card Issuing.
+overview: 'Synctera publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, ACH API, Applications API, and 25 more. Tagged areas include Fintech, BaaS, Banking, Payments, and Card Issuing.
 
 
   The Synctera catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Synctera''s developer surface includes authentication and 9 more developer resources.'
+  Synctera''s developer surface includes authentication and 10 more developer resources.'
 plans:
 - name: Synctera Plans Pricing
   plan_count: 2
@@ -1681,18 +1685,23 @@ rules:
   slug: synctera-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 27.2
-  delta: 0.0
+  composite: 27.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 67.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 9.8
-    contract_quality: 55.4
+    contract_quality: 56.8
     developer_ergonomics: 11.9
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 27.2
+  previous_composite: 27.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1706,8 +1715,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synctera/refs/heads/main/screenshots/synctera-2026-06-20T194825.png
 security:
@@ -1722,7 +1731,7 @@ security:
 slug: synctera
 tags:
 - Fintech
-- Backend-as-a-Service
+- BaaS
 - Banking
 - Payments
 - Card Issuing

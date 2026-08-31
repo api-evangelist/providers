@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: jarvislabs-agentic-access
   summary_line: 13 operations · 7 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Account balance and status.
   name: JarvisLabs Account API
@@ -83,6 +83,10 @@ collections:
   name: JarvisLabs API
   slug: open-jarvislabs
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/jarvislabs-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -138,7 +142,7 @@ network: true
 overview: 'JarvisLabs publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Filesystems API, GPU Types API, and 2 more. Tagged areas include Artificial Intelligence, GPU, Cloud, Infrastructure, and Compute.
 
 
-  JarvisLabs'' developer surface includes authentication, documentation, and 8 more developer resources.'
+  JarvisLabs'' developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Jarvislabs Plans Pricing
   plan_count: 3
@@ -150,18 +154,23 @@ rate_limits:
   slug: jarvislabs-rate-limits
 score:
   band: developing
-  composite: 41.3
-  delta: 2.4
+  composite: 40.8
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 59.6
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.9
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     contracts:
@@ -169,8 +178,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/screenshots/jarvislabs-2026-07-25T223101.png
 security:

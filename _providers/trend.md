@@ -34,18 +34,79 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: The Trend platform API — the NestJS backend behind app.trend.io and the Trend creator app. It exposes 124 operations across brand accounts and approvals, campaign creation/submission/relisting, creato
-  name: Trend API
-  slug: trend-api
-artifact_total: 7
+- description: The AI API from Trend — 3 operation(s) for ai.
+  name: Trend AI API
+  slug: trend-ai-api
+- description: The Auth API from Trend — 2 operation(s) for auth.
+  name: Trend Auth API
+  slug: trend-auth-api
+- description: The Basic Authentication (AI) API from Trend — 5 operation(s) for basic authentication (ai).
+  name: Trend Basic Authentication (AI) API
+  slug: trend-basic-authentication-ai-api
+- description: The Brand Admin API from Trend — 7 operation(s) for brand admin.
+  name: Trend Brand Admin API
+  slug: trend-brand-admin-api
+- description: The Brand API from Trend — 10 operation(s) for brand.
+  name: Trend Brand API
+  slug: trend-brand-api
+- description: The Brand Authentication API from Trend — 7 operation(s) for brand authentication.
+  name: Trend Brand Authentication API
+  slug: trend-brand-authentication-api
+- description: The Campaign API from Trend — 19 operation(s) for campaign.
+  name: Trend Campaign API
+  slug: trend-campaign-api
+- description: The Content API from Trend — 9 operation(s) for content.
+  name: Trend Content API
+  slug: trend-content-api
+- description: The Creator API from Trend — 22 operation(s) for creator.
+  name: Trend Creator API
+  slug: trend-creator-api
+- description: The Creator Authentication API from Trend — 6 operation(s) for creator authentication.
+  name: Trend Creator Authentication API
+  slug: trend-creator-authentication-api
+- description: The Creator Portfolio API from Trend — 4 operation(s) for creator portfolio.
+  name: Trend Creator Portfolio API
+  slug: trend-creator-portfolio-api
+- description: The Creator Profiles API from Trend — 6 operation(s) for creator profiles.
+  name: Trend Creator Profiles API
+  slug: trend-creator-profiles-api
+- description: The Health Check API from Trend — 1 operation(s) for health check.
+  name: Trend Health Check API
+  slug: trend-health-check-api
+- description: The Message API from Trend — 6 operation(s) for message.
+  name: Trend Message API
+  slug: trend-message-api
+- description: The Metrics API from Trend — 1 operation(s) for metrics.
+  name: Trend Metrics API
+  slug: trend-metrics-api
+- description: The Partnership API from Trend — 12 operation(s) for partnership.
+  name: Trend Partnership API
+  slug: trend-partnership-api
+- description: The Payment API from Trend — 6 operation(s) for payment.
+  name: Trend Payment API
+  slug: trend-payment-api
+- description: The Review API from Trend — 1 operation(s) for review.
+  name: Trend Review API
+  slug: trend-review-api
+- description: The Shipment API from Trend — 3 operation(s) for shipment.
+  name: Trend Shipment API
+  slug: trend-shipment-api
+- description: The Upload API from Trend — 2 operation(s) for upload.
+  name: Trend Upload API
+  slug: trend-upload-api
+artifact_total: 26
 collections:
 - collection_type: open
   name: Trend API - 1.28.31
   slug: open-trend-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/trend-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -155,10 +216,10 @@ modified: '2026-08-13'
 name: Trend
 nav: Providers
 network: true
-overview: 'Trend publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, User Generated Content, Creator Economy, Content Marketing, and Video Production.
+overview: 'Trend publishes 20 APIs on the [APIs.io](https://apis.io/) network, including AI API, Auth API, Basic Authentication (AI) API, and 17 more. Tagged areas include Company, User-Generated Content, Creator Economy, Content Marketing, and Video Production.
 
 
-  Trend''s developer surface includes pricing, signup flow, support, engineering blog, API reference, authentication, and 18 more developer resources.'
+  Trend''s developer surface includes pricing, signup flow, support, engineering blog, API reference, authentication, and 19 more developer resources.'
 plans:
 - name: Trend Plans Pricing
   plan_count: 4
@@ -170,18 +231,23 @@ rate_limits:
   slug: trend-rate-limits
 score:
   band: developing
-  composite: 42.1
-  delta: 0.0
+  composite: 40.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
-    contract_quality: 44.2
+    contract_governance: 4.5
+    contract_quality: 42.8
     developer_ergonomics: 28.0
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 42.1
+  previous_composite: 40.8
   provenance:
     conformance: derived
     contracts:
@@ -197,8 +263,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trend/refs/heads/main/screenshots/trend-2026-08-17T082448.png
 security:
@@ -213,7 +279,7 @@ security:
 slug: trend
 tags:
 - Company
-- User Generated Content
+- User-Generated Content
 - Creator Economy
 - Content Marketing
 - Video Production

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 111
   human_in_the_loop: 13
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 179
   slug: kinde-agentic-access
   summary_line: 179 operations · 111 acting · 13 human-in-the-loop
-api_count: 31
+api_count: 2
 apis:
 - description: 'The Kinde MCP (Model Context Protocol) server acts as a bridge between AI assistants and a Kinde account. It exposes a subset of the Kinde Management API as MCP tools (query organizations, check user '
   name: Kinde MCP Server
@@ -682,18 +682,23 @@ rules:
   slug: kinde-rules
 score:
   band: strong
-  composite: 66.0
-  delta: 3.1
+  composite: 65.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 31.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 75.0
     commercial_clarity: 75.0
     contract_governance: 28.8
     contract_quality: 70.6
     developer_ergonomics: 78.6
-    discoverability: 66.7
+    discoverability: 61.1
     governance: 28.8
     operational_transparency: 57.9
-  previous_composite: 62.9
+  previous_composite: 66.0
   provenance:
     agentic_access: derived
     contracts:
@@ -701,8 +706,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 30
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/screenshots/kinde-2026-06-20T184038.png
 security:

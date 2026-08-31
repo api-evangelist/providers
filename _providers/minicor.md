@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -41,18 +41,12 @@ agentic_access:
   operation_count: 7
   slug: minicor-agentic-access
   summary_line: 7 operations · 6 acting
-api_count: 3
+api_count: 1
 apis:
-- description: Laminar Configuration Store endpoints, for managing configuration stores and properties within workspaces.
-  name: Minicor Configuration Stores API
-  slug: minicor-configuration-stores-api
 - description: The external API from Minicor — 7 operation(s) for external.
   name: Minicor external API
   slug: minicor-external-api
-- description: Laminar Workflow endpoints, for managing workflows and workflow executions.
-  name: Minicor Workflows API
-  slug: minicor-workflows-api
-artifact_total: 17
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Minicor Webhooks
@@ -232,7 +226,7 @@ modified: '2026-07-20'
 name: Minicor
 nav: Providers
 network: true
-overview: 'Minicor publishes 3 APIs on the [APIs.io](https://apis.io/) network: Configuration Stores API, external API, and Workflows API. Tagged areas include Company, Desktop Automation, RPA, Computer Use Agents, and Workflow-Automation.
+overview: 'Minicor publishes 1 API on the [APIs.io](https://apis.io/) network: external API. Tagged areas include Company, Desktop Automation, RPA, Computer Use Agents, and Workflow-Automation.
 
 
   The Minicor catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -242,18 +236,23 @@ overview: 'Minicor publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 random_paper: 18
 score:
   band: strong
-  composite: 57.5
+  composite: 54.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 30.3
-    contract_quality: 63.3
+    contract_governance: 18.2
+    contract_quality: 63.9
     developer_ergonomics: 70.8
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 57.5
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -266,12 +265,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 38.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minicor/refs/heads/main/screenshots/minicor-2026-08-07T172954.png
 security:

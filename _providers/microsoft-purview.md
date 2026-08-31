@@ -19,7 +19,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.8
-  scored_at: '2026-08-26'
+  score: 34.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 214
   slug: microsoft-purview-agentic-access
   summary_line: 214 operations · 127 acting · 1 human-in-the-loop
-api_count: 44
+api_count: 12
 apis:
 - description: Operations for managing Purview accounts
   name: Microsoft Purview Accounts API
@@ -435,6 +435,10 @@ collections:
   name: Microsoft Purview Account Accounts Workflows API
   slug: open-microsoft-purview-workflows-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-purview-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1141,7 +1145,7 @@ overview: 'Microsoft Purview publishes 44 APIs on the [APIs.io](https://apis.io/
   The Microsoft Purview catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Microsoft Purview''s developer surface includes authentication, CLI, changelog, developer portal, documentation, getting-started guide, engineering blog, and 58 more developer resources.'
+  Microsoft Purview''s developer surface includes authentication, CLI, changelog, developer portal, documentation, getting-started guide, engineering blog, and 59 more developer resources.'
 plans:
 - name: Microsoft Purview Plans Pricing
   plan_count: 4
@@ -1169,18 +1173,23 @@ scopes:
   summary_line: 8 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 59.2
-  delta: 2.1
+  composite: 56.6
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 62.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
-    contract_governance: 26.5
+    contract_governance: 14.4
     contract_quality: 69.2
     developer_ergonomics: 76.2
-    discoverability: 85.2
-    governance: 26.5
+    discoverability: 74.1
+    governance: 14.4
     operational_transparency: 42.1
-  previous_composite: 57.1
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1190,8 +1199,8 @@ score:
       marker_coverage: 0.0
       total: 44
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/screenshots/microsoft-purview-2026-08-17T124207.png
 security:

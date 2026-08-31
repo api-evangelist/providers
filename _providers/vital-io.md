@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 147
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 591
   slug: vital-io-agentic-access
   summary_line: 591 operations · 147 acting
-api_count: 18
+api_count: 9
 apis:
 - description: Programmatically manage all Junction regional and global resources for your organization. Authenticated with a separate x-vital-management-api-key, this API governs organizations, teams (create, updat
   name: Vital Management API
@@ -98,6 +98,12 @@ apis:
 - description: The user API from Vital — 16 operation(s) for user.
   name: Vital user API
   slug: vital-io-user-api
+- description: The aggregation API from Vital — 0 operation(s) for aggregation.
+  name: Vital Aggregation API
+  slug: vital-io-aggregation-api
+- description: The lab-testing API from Vital — 0 operation(s) for lab-testing.
+  name: Vital Lab Testing API
+  slug: vital-io-lab-testing-api
 arazzos:
 - description: Confirm phlebotomy coverage for an address, place an at-home order, find a slot, and book it.
   name: Vital Schedule an At-Home Phlebotomy Draw
@@ -129,7 +135,7 @@ arazzos:
 - description: Resolve a user by client_user_id, list their devices, and fetch the first device in detail.
   name: Vital Inventory a User's Connected Devices
   slug: vital-io-user-device-inventory-workflow
-artifact_total: 123
+artifact_total: 125
 collections:
 - collection_type: postman
   name: Vital Lab Report Parser API
@@ -231,6 +237,10 @@ collections:
   name: Vital Wearables Data API
   slug: open-vital-wearables-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vital-io-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -653,13 +663,13 @@ modified: '2026-05-25'
 name: Vital
 nav: Providers
 network: true
-overview: 'Vital publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Aggregate API, compendium API, insurance API, and 14 more. Tagged areas include Health Data, Wearables, Lab Testing, Digital Health, and Health Tech.
+overview: 'Vital publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Aggregate API, compendium API, insurance API, and 16 more. Tagged areas include Health Data, Wearables, Lab Testing, Digital Health, and Healthtech.
 
 
   The Vital catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Vital''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, developer console, signup flow, and 69 more developer resources.'
+  Vital''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, developer console, signup flow, and 70 more developer resources.'
 plans:
 - name: Vital Io Plans Pricing
   plan_count: 4
@@ -693,18 +703,23 @@ rules:
   slug: vital-rules
 score:
   band: exemplar
-  composite: 75.6
-  delta: 0.9
+  composite: 74.5
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 35.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 47.0
-    contract_quality: 72.0
+    contract_quality: 67.8
     developer_ergonomics: 85.7
     discoverability: 68.5
     governance: 47.0
     operational_transparency: 39.5
-  previous_composite: 74.7
+  previous_composite: 74.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -715,12 +730,16 @@ score:
       total: 17
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vital-io/refs/heads/main/screenshots/vital-io-2026-06-20T201103.png
 security:
@@ -751,7 +770,7 @@ tags:
 - Wearables
 - Lab Testing
 - Digital Health
-- Health Tech
+- Healthtech
 - Healthcare
 - HIPAA
 - HealthKit

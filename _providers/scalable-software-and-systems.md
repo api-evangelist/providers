@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: scalable-software-and-systems-agentic-access
   summary_line: 11 operations · 7 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Backstage by Spotify provides a software catalog API and developer portal platform for managing all software components, services, websites, and infrastructure at scale. Its catalog API enables regist
   name: Backstage Software Catalog API
@@ -174,7 +174,7 @@ modified: '2026-05-02'
 name: Scalable Software and Systems
 nav: Providers
 network: true
-overview: 'Scalable Software and Systems publishes 2 APIs on the [APIs.io](https://apis.io/) network: Entities API and Locations API. Tagged areas include API-First, Architecture Patterns, CQRS, Distributed Systems, and Enterprise.
+overview: 'Scalable Software and Systems publishes 2 APIs on the [APIs.io](https://apis.io/) network: Entities API and Locations API. Tagged areas include API First, Architecture Patterns, CQRS, Distributed Systems, and Enterprise.
 
 
   The Scalable Software and Systems catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -203,18 +203,23 @@ rules:
   slug: scalable-software-and-systems-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.1
-  delta: 2.6
+  composite: 31.5
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 57.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 25.0
     contract_quality: 53.7
     developer_ergonomics: 21.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 25.0
     operational_transparency: 13.2
-  previous_composite: 29.5
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     contracts:
@@ -222,8 +227,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-software-and-systems/refs/heads/main/screenshots/scalable-software-and-systems-2026-06-20T193456.png
 security:
@@ -237,12 +242,12 @@ security:
   summary_line: TLSv1.3 · HSTS
 slug: scalable-software-and-systems
 tags:
-- API-First
+- API First
 - Architecture Patterns
 - CQRS
 - Distributed Systems
 - Enterprise
-- Event-Driven
+- Event Driven
 - Microservices
 - Scalable Architecture
 - Software Engineering

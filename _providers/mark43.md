@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-08-26'
-api_count: 15
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Associated Records API from Mark43 — 2 operation(s) for associated records.
   name: Mark43 Associated Records API
@@ -219,15 +219,20 @@ overview: 'Mark43 publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 5
 score:
   band: thin
-  composite: 31.0
-  delta: 0.0
+  composite: 28.8
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.2
   facets:
-    access_clarity: 26.3
-    commercial_clarity: 26.3
+    access_clarity: 21.1
+    commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 12.5
     developer_ergonomics: 39.9
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 2.6
   previous_composite: 31.0
@@ -245,9 +250,9 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 48.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 44.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mark43/refs/heads/main/screenshots/mark43-2026-07-25T230313.png
 security:

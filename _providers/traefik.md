@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 23
   slug: traefik-agentic-access
   summary_line: 23 operations
-api_count: 16
+api_count: 1
 apis:
 - description: Traefik Proxy is the flagship open-source (MIT) cloud-native reverse proxy, ingress controller, and load balancer. It auto-discovers services from Kubernetes (Ingress, Gateway API, CRD), Docker, Docke
   name: Traefik Proxy
@@ -118,6 +118,26 @@ collections:
   name: Traefik Proxy REST Entrypoints UDP API
   slug: open-traefik-udp-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/traefik/traefik/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/traefik/traefik/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/traefik/traefik/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/traefik/traefik/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/traefik/traefik/blob/master/CONTRIBUTING.md
 - group: operate
   title: ''
   type: DeprecationPolicy
@@ -329,7 +349,7 @@ overview: 'Traefik Labs publishes 6 APIs on the [APIs.io](https://apis.io/) netw
   The Traefik Labs catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Traefik Labs'' developer surface includes documentation, getting-started guide, pricing, engineering blog, changelog, Stack Overflow tag, and 25 more developer resources.'
+  Traefik Labs'' developer surface includes documentation, getting-started guide, pricing, engineering blog, changelog, Stack Overflow tag, and 30 more developer resources.'
 plans:
 - name: Traefik Plans Pricing
   plan_count: 5
@@ -362,18 +382,26 @@ rules:
   slug: traefik-proxy-rules
 score:
   band: developing
-  composite: 41.7
-  delta: 1.4
+  composite: 48.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 25.0
     contract_quality: 50.2
     developer_ergonomics: 35.7
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 25.0
-    operational_transparency: 34.2
-  previous_composite: 40.3
+    operational_transparency: 44.7
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     contracts:
@@ -381,8 +409,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/screenshots/traefik-2026-06-20T195532.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 662
   human_in_the_loop: 9
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 966
   slug: galileo-technologies-agentic-access
   summary_line: 966 operations · 662 acting · 9 human-in-the-loop
-api_count: 60
+api_count: 1
 apis:
 - description: The annotation API from Galileo Technologies — 12 operation(s) for annotation.
   name: Galileo Technologies annotation API
@@ -413,6 +413,10 @@ collections:
   name: Galileo API Server annotation versions API
   slug: open-galileo-technologies-versions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/galileo-technologies-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -539,7 +543,7 @@ overview: 'Galileo Technologies publishes 60 APIs on the [APIs.io](https://apis.
   The Galileo Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Galileo Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 20 more developer resources.'
+  Galileo Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 21 more developer resources.'
 random_paper: 4
 scopes:
 - name: Galileo Technologies Scopes
@@ -548,18 +552,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 42.7
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 57.9
     developer_ergonomics: 51.8
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 44.7
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -570,8 +579,8 @@ score:
       total: 60
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/screenshots/galileo-technologies-2026-08-17T123543.png
 security:

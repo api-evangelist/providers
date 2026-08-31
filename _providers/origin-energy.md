@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -43,20 +43,8 @@ agentic_access:
   operation_count: 54
   slug: origin-energy-agentic-access
   summary_line: 54 operations · 19 acting
-api_count: 7
+api_count: 5
 apis:
-- description: Origin Energy's Consumer Data Right energy data holder resource endpoint, serving the Consumer Data Standards energy APIs (accounts, invoices, billing, balances, concessions, payment schedules, electr
-  name: Origin Energy CDR Energy API
-  slug: origin-energy-cdr-energy-api
-- description: The unauthenticated portion of Origin Energy's Consumer Data Right surface, published as the brand's publicBaseUri on the CDR Register. Verified anonymously on 2026-07-27 — GET /cds-au/v1/discovery/st
-  name: Origin Energy CDR Public Discovery API
-  slug: origin-energy-cdr-discovery-api
-- description: Origin Energy's retail electricity and gas plan reference data, exposed under the Consumer Data Standards Get Generic Plans and Get Generic Plan Detail endpoints. Hosted by the Australian Energy Regul
-  name: Origin Energy Plan Reference Data API (AER Energy Made Easy)
-  slug: origin-energy-plan-reference-data-api
-- description: The REST half of the Kraken platform API that Origin Energy runs its retail business on, documented at Origin's own publicly readable Kraken developer portal and described as available to "customers a
-  name: Origin Energy Kraken REST API
-  slug: origin-energy-kraken-rest-api
 - description: The primary Kraken platform API for Origin Energy accounts, agreements, meter points, readings, payments, quotes and devices. Served at https://api.origin-kraken.energy/v1/graphql/ with a browser Grap
   name: Origin Energy Kraken GraphQL API
   slug: origin-energy-kraken-graphql-api
@@ -66,7 +54,67 @@ apis:
 - description: The OpenID Connect authorisation server issuing the bearer tokens used by both the Kraken REST and GraphQL APIs. Its discovery document at https://auth.origin-kraken.energy/.well-known/openid-configur
   name: Origin Energy Kraken Authorization Server
   slug: origin-energy-kraken-auth-api
-artifact_total: 32
+- description: APIs for importing accounts.
+  name: Origin Energy Account Import API
+  slug: origin-energy-account-import-api
+- description: APIs for importing businesses with business contracts
+  name: Origin Energy Business Import API
+  slug: origin-energy-business-import-api
+- description: Data Holder Customer endpoints
+  name: Origin Energy Data Holder Customers API
+  slug: origin-energy-data-holder-customers-api
+- description: Data Holder Operations endpoints
+  name: Origin Energy Data Holder Operations API
+  slug: origin-energy-data-holder-operations-api
+- description: The data-import API from Origin Energy — 1 operation(s) for data-import.
+  name: Origin Energy Data Import API
+  slug: origin-energy-data-import-api
+- description: Distributed Energy Resource endpoints
+  name: Origin Energy Distributed Energy Resources API
+  slug: origin-energy-distributed-energy-resources-api
+- description: Electricity Service Point endpoints
+  name: Origin Energy Electricity Service Points API
+  slug: origin-energy-electricity-service-points-api
+- description: Electricity Usage endpoints
+  name: Origin Energy Electricity Usage API
+  slug: origin-energy-electricity-usage-api
+- description: Energy Account Balance endpoints
+  name: Origin Energy Energy Account Balances API
+  slug: origin-energy-energy-account-balances-api
+- description: Energy Account Billing endpoints
+  name: Origin Energy Energy Account Billing API
+  slug: origin-energy-energy-account-billing-api
+- description: Energy Account endpoints
+  name: Origin Energy Energy Accounts API
+  slug: origin-energy-energy-accounts-api
+- description: Energy Plan endpoints
+  name: Origin Energy Energy Plans API
+  slug: origin-energy-energy-plans-api
+- description: The external-client-healthcheck API from Origin Energy — 1 operation(s) for external-client-healthcheck.
+  name: Origin Energy External Client Healthcheck API
+  slug: origin-energy-external-client-healthcheck-api
+- description: The external-events API from Origin Energy — 1 operation(s) for external-events.
+  name: Origin Energy External Events API
+  slug: origin-energy-external-events-api
+- description: APIs for placing and managing orders.
+  name: Origin Energy Orders API
+  slug: origin-energy-orders-api
+- description: APIs for importing additional data after an account has been imported.
+  name: Origin Energy Post Account Import API
+  slug: origin-energy-post-account-import-api
+- description: APIs for importing additional data after a business has been imported.
+  name: Origin Energy Post Business Import API
+  slug: origin-energy-post-business-import-api
+- description: APIs for querying import status and retrieving data
+  name: Origin Energy Query API
+  slug: origin-energy-query-api
+- description: The v1 API from Origin Energy — 5 operation(s) for v1.
+  name: Origin Energy V1 API
+  slug: origin-energy-v1-api
+- description: The v2 API from Origin Energy — 1 operation(s) for v2.
+  name: Origin Energy V2 API
+  slug: origin-energy-v2-api
+artifact_total: 48
 asyncapis:
 - description: ''
   name: Origin Energy Kraken External Events
@@ -88,6 +136,46 @@ collections:
   name: Kraken
   slug: open-origin-energy-kraken-orders
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/origin-energy-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/origin-energy-cds-energy-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/origin-energy-cdr-consented-energy-data.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/origin-energy-cds-common-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/origin-energy-retail-plan-comparison.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/origin-energy-kraken-default-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/origin-energy-kraken-data-import-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/origin-energy-kraken-orders-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/origin-energy-kraken-customer-migration.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/origin-energy-kraken-order-scheduling.md
 - group: agent
   title: ''
   type: MCPServer
@@ -287,13 +375,13 @@ modified: '2026-07-27'
 name: Origin Energy
 nav: Providers
 network: true
-overview: 'Origin Energy publishes 4 APIs on the [APIs.io](https://apis.io/) network, including CDR Energy API, CDR Public Discovery API, Plan Reference Data API (AER Energy Made Easy), and 1 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
+overview: 'Origin Energy publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Account Import API, Business Import API, Data Holder Customers API, and 17 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
 
 
   The Origin Energy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Origin Energy''s developer surface includes authentication, documentation, changelog, engineering blog, support, pricing, signup flow, and 35 more developer resources.'
+  Origin Energy''s developer surface includes authentication, documentation, changelog, engineering blog, support, pricing, signup flow, and 45 more developer resources.'
 random_paper: 20
 rate_limits:
 - limit_count: 6
@@ -305,19 +393,24 @@ scopes:
   slug: origin-energy-scopes
   summary_line: 113 scopes
 score:
-  band: strong
-  composite: 56.6
-  delta: 2.2
+  band: developing
+  composite: 53.9
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 30.3
-    contract_quality: 62.1
+    contract_governance: 18.2
+    contract_quality: 63.8
     developer_ergonomics: 51.8
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 84.2
-  previous_composite: 54.4
+  previous_composite: 53.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -334,8 +427,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/origin-energy/refs/heads/main/screenshots/origin-energy-2026-08-07T190934.png
 security:

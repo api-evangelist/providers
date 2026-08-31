@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 4
 common:
@@ -109,7 +109,7 @@ modified: '2026-08-26'
 name: Parse Biosciences
 nav: Providers
 network: true
-overview: 'Parse Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Genomics, and Single Cell Sequencing.
+overview: 'Parse Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Genomics, and Single-Cell Sequencing.
 
 
   Parse Biosciences'' developer surface includes engineering blog, support, and 13 more developer resources.'
@@ -124,16 +124,23 @@ rate_limits:
   slug: parse-biosciences-rate-limits
 score:
   band: emerging
-  composite: 17.5
+  composite: 16.4
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 61.1
+    discoverability: 50.0
     governance: 18.2
     operational_transparency: 2.6
+  previous_composite: 16.4
   provenance:
     conformance: first-party
     mcp: derived
@@ -143,8 +150,9 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Parse Biosciences Authentication
@@ -160,7 +168,7 @@ tags:
 - Biotechnology
 - Life Sciences
 - Genomics
-- Single Cell Sequencing
+- Single-Cell Sequencing
 - Bioinformatics
 - Scientific Software
 - Data Analysis

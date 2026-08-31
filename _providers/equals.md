@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: near-conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.4
-  scored_at: '2026-08-26'
+  score: 50.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,14 +43,14 @@ agentic_access:
   operation_count: 5
   slug: equals-agentic-access
   summary_line: 5 operations · 3 acting
-api_count: 2
+api_count: 1
 apis:
-- description: REST API for managing the facts the Equals AI analyst remembers about a workspace — the context it has learned from conversations or that a user added on the Memories page. Five operations (list, get,
-  name: Equals Memories API
-  slug: equals-memories-api
 - description: Hosted, remote Model Context Protocol server that gives AI assistants direct access to an Equals workspace — search and list workbooks including team-trusted analyses, list connected datasources and e
   name: Equals MCP Server
   slug: equals-mcp-server
+- description: Facts the Equals AI analyst remembers about a workspace.
+  name: Equals Memories API
+  slug: equals-memories-api
 artifact_total: 8
 common:
 - group: agent
@@ -220,7 +220,12 @@ rate_limits:
   slug: equals-rate-limits
 score:
   band: developing
-  composite: 49.1
+  composite: 48.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 84.2
@@ -228,10 +233,10 @@ score:
     contract_governance: 18.2
     contract_quality: 18.1
     developer_ergonomics: 61.9
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 49.1
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -242,8 +247,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equals/refs/heads/main/screenshots/equals-2026-07-25T213540.png
 security:

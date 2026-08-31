@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,10 +42,13 @@ agentic_access:
   summary_line: 9 operations
 api_count: 1
 apis:
-- description: Read API over Resultid's operational intelligence data - campaign data, campaign theme data, campaign trend data, insight last-result payloads, insight grid rows (whole-campaign or by filtered-data EF
-  name: Resultid API
-  slug: resultid-api
-artifact_total: 7
+- description: The Endpoints API from Resultid — 8 operation(s) for endpoints.
+  name: Resultid Endpoints API
+  slug: resultid-endpoints-api
+- description: The Insight endpoints API from Resultid — 1 operation(s) for insight endpoints.
+  name: Resultid Insight endpoints API
+  slug: resultid-insight-endpoints-api
+artifact_total: 8
 common:
 - group: agent
   title: ''
@@ -156,7 +159,7 @@ modified: '2026-08-14'
 name: Resultid
 nav: Providers
 network: true
-overview: 'Resultid publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Operational Intelligence, Analytics, Enterprise Software, and Artificial Intelligence.
+overview: 'Resultid publishes 2 APIs on the [APIs.io](https://apis.io/) network: Endpoints API and Insight endpoints API. Tagged areas include Company, Operational Intelligence, Analytics, Enterprise Software, and Artificial Intelligence.
 
 
   Resultid''s developer surface includes documentation, API reference, getting-started guide, authentication, and 20 more developer resources.'
@@ -171,18 +174,23 @@ rate_limits:
   slug: resultid-rate-limits
 score:
   band: thin
-  composite: 31.4
+  composite: 29.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
-    contract_governance: 16.7
-    contract_quality: 42.2
+    contract_governance: 4.5
+    contract_quality: 41.2
     developer_ergonomics: 42.3
     discoverability: 66.7
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 31.4
+  previous_composite: 29.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -193,8 +201,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

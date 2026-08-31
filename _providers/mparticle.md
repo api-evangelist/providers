@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -43,27 +43,39 @@ agentic_access:
   operation_count: 16
   slug: mparticle-agentic-access
   summary_line: 16 operations · 13 acting
-api_count: 6
+api_count: 3
 apis:
-- description: 'Server-to-server REST API for sending event batches and bulk uploads into mParticle from backend systems. Authenticates with HTTP Basic auth using a server-side API key and secret pair. Accepts up to '
-  name: mParticle Events API
-  slug: events-api
-- description: 'Identity resolution REST API used to match, link, and modify user identities across devices and channels in mParticle, returning a stable mParticle ID (MPID) for downstream use. Accepts HTTP Basic or '
-  name: mParticle IDSync API
-  slug: idsync-api
 - description: REST API for retrieving unified user profiles, identities, attributes, and audience memberships at scale to personalize downstream applications.
   name: mParticle Profile API
   slug: profile-api
 - description: Management REST API used to programmatically configure mParticle inputs, outputs, filters, audiences, data plans, and workspace settings as part of a fully versioned CDP-as-code workflow. Authenticate
   name: mParticle Platform API
   slug: platform-api
-- description: REST API for managing data plans and data plan versions in a workspace, and for validating an event batch against a plan without ingesting it. Each plan version is a set of data points, where a data p
-  name: mParticle Data Planning API
-  slug: data-planning-api
 - description: REST API for building reverse-ETL pipelines that pull data out of a customer data warehouse (connections, data models, field transformations and pipelines) and load it into mParticle profiles and audi
   name: mParticle Warehouse Sync API
   slug: warehouse-sync-api
-artifact_total: 22
+- description: Endpoints for managing Data Plans
+  name: mParticle Data Plan API
+  slug: mparticle-data-plan-api
+- description: Endpoints for versioning Data Plans
+  name: mParticle Data Plan Version API
+  slug: mparticle-data-plan-version-api
+- description: Send your data to the mParticle platform.
+  name: mParticle Events API
+  slug: mparticle-events-api
+- description: The Identify API from mParticle — 1 operation(s) for identify.
+  name: mParticle Identify API
+  slug: mparticle-identify-api
+- description: The Login API from mParticle — 1 operation(s) for login.
+  name: mParticle Login API
+  slug: mparticle-login-api
+- description: The Logout API from mParticle — 1 operation(s) for logout.
+  name: mParticle Logout API
+  slug: mparticle-logout-api
+- description: The Modify API from mParticle — 1 operation(s) for modify.
+  name: mParticle Modify API
+  slug: mparticle-modify-api
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Mparticle Webhooks
@@ -82,6 +94,22 @@ collections:
   name: mParticle Events API
   slug: open-mparticle
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/rokt/
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mparticle-events-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mparticle-identity-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mparticle-dataplanning-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -268,13 +296,13 @@ modified: '2026-08-13'
 name: mParticle
 nav: Providers
 network: true
-overview: 'mParticle publishes 3 APIs on the [APIs.io](https://apis.io/) network: Events API, IDSync API, and Data Planning API. Tagged areas include Customer Data Platform, CDP, Analytics, Identity Resolution, and Audience.
+overview: 'mParticle publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Data Plan API, Data Plan Version API, Events API, and 4 more. Tagged areas include Customer Data Platform, CDP, Analytics, Identity Resolution, and Audience.
 
 
   The mParticle catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  mParticle''s developer surface includes authentication, changelog, sandbox, CLI, documentation, API reference, getting-started guide, and 34 more developer resources.'
+  mParticle''s developer surface includes authentication, changelog, sandbox, CLI, documentation, API reference, getting-started guide, and 38 more developer resources.'
 plans:
 - name: Mparticle Plans Pricing
   plan_count: 0
@@ -286,18 +314,23 @@ rate_limits:
   slug: mparticle-rate-limits
 score:
   band: strong
-  composite: 57.2
+  composite: 55.5
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 57.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
-    contract_quality: 62.3
+    contract_governance: 18.2
+    contract_quality: 63.0
     developer_ergonomics: 42.3
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 57.2
+  previous_composite: 55.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -308,8 +341,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/screenshots/mparticle-2026-06-20T185839.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
 - description: Create, configure, send, sign and manage contracts.
@@ -204,7 +204,7 @@ modified: '2026-07-21'
 name: Trato
 nav: Providers
 network: true
-overview: 'Trato publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contracts API, Custom Properties API, Participants API, and 2 more. Tagged areas include Company, Contract Management, Contract Lifecycle Management, Electronic Signature, and Legal Tech.
+overview: 'Trato publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contracts API, Custom Properties API, Participants API, and 2 more. Tagged areas include Company, Contract Management, Contract Lifecycle Management, Electronic Signature, and Legaltech.
 
 
   The Trato catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -214,18 +214,23 @@ overview: 'Trato publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 8
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 46.3
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.1
   facets:
-    access_clarity: 38.2
-    commercial_clarity: 38.2
-    contract_governance: 16.7
-    contract_quality: 57.1
+    access_clarity: 32.9
+    commercial_clarity: 32.9
+    contract_governance: 4.5
+    contract_quality: 58.5
     developer_ergonomics: 64.9
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 48.5
+  previous_composite: 47.4
   provenance:
     conformance: derived
     contracts:
@@ -235,8 +240,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trato/refs/heads/main/screenshots/trato-2026-08-17T082426.png
 security:
@@ -254,7 +259,7 @@ tags:
 - Contract Management
 - Contract Lifecycle Management
 - Electronic Signature
-- Legal Tech
+- Legaltech
 - Document-Management
 - Workflow-Automation
 - Legal

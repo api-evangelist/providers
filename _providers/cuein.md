@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -61,6 +61,10 @@ collections:
   name: Cuein answers conversations API
   slug: open-cuein-conversations-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cuein-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -188,7 +192,7 @@ network: true
 overview: 'Cuein publishes 2 APIs on the [APIs.io](https://apis.io/) network: answers API and conversations API. Tagged areas include Company, Customer Experience, Customer-Support, Conversation Intelligence, and Generative AI.
 
 
-  Cuein''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 23 more developer resources.'
+  Cuein''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 24 more developer resources.'
 plans:
 - name: Cuein Plans Pricing
   plan_count: 0
@@ -200,18 +204,23 @@ rate_limits:
   slug: cuein-rate-limits
 score:
   band: thin
-  composite: 35.3
-  delta: -0.8
+  composite: 33.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 46.6
     developer_ergonomics: 33.9
     discoverability: 87.0
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 36.1
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -222,8 +231,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/screenshots/cuein-2026-07-25T210908.png
 security:

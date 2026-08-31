@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -33,15 +33,67 @@ agentic_access:
   summary_line: 26 operations · 13 acting · 1 human-in-the-loop
 api_count: 1
 apis:
-- description: 'The consent-scoped smart-meter data API of the n3rgy platform. A business holding a valid n3rgy API key lists the properties (MPxNs) it has active consent for, discovers which utilities (electricity, '
-  name: n3rgy Customer Service API V2
-  slug: customer-service-api-v2
-artifact_total: 14
+- description: The Create Export Profiles API from n3rgy — 1 operation(s) for create export profiles.
+  name: n3rgy Create Export Profiles API
+  slug: n3rgy-create-export-profiles-api
+- description: The Customer Service API V2 API from n3rgy — 1 operation(s) for customer service api v2.
+  name: n3rgy Customer Service API V2 API
+  slug: n3rgy-customer-service-api-v2-api
+- description: The Find Mpxn API from n3rgy — 2 operation(s) for find mpxn.
+  name: n3rgy Find Mpxn API
+  slug: n3rgy-find-mpxn-api
+- description: The Get Update Frequencies API from n3rgy — 1 operation(s) for get update frequencies.
+  name: n3rgy Get Update Frequencies API
+  slug: n3rgy-get-update-frequencies-api
+- description: The Internal API from n3rgy — 1 operation(s) for internal.
+  name: n3rgy Internal API
+  slug: n3rgy-internal-api
+- description: The Mpxn API from n3rgy — 3 operation(s) for mpxn.
+  name: n3rgy Mpxn API
+  slug: n3rgy-mpxn-api
+- description: The Push API from n3rgy — 2 operation(s) for push.
+  name: n3rgy Push API
+  slug: n3rgy-push-api
+- description: The Read Inventory API from n3rgy — 1 operation(s) for read inventory.
+  name: n3rgy Read Inventory API
+  slug: n3rgy-read-inventory-api
+- description: The Reset All Update Frequencies API from n3rgy — 1 operation(s) for reset all update frequencies.
+  name: n3rgy Reset All Update Frequencies API
+  slug: n3rgy-reset-all-update-frequencies-api
+- description: The Set Defaults API from n3rgy — 1 operation(s) for set defaults.
+  name: n3rgy Set Defaults API
+  slug: n3rgy-set-defaults-api
+- description: The Set Meter Update Frequency API from n3rgy — 1 operation(s) for set meter update frequency.
+  name: n3rgy Set Meter Update Frequency API
+  slug: n3rgy-set-meter-update-frequency-api
+- description: The Update Now API from n3rgy — 1 operation(s) for update now.
+  name: n3rgy Update Now API
+  slug: n3rgy-update-now-api
+- description: The Upload API from n3rgy — 4 operation(s) for upload.
+  name: n3rgy Upload API
+  slug: n3rgy-upload-api
+artifact_total: 26
 asyncapis:
 - description: ''
   name: N3Rgy Push Notifications Webhooks
   slug: n3rgy-push-notifications-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/n3rgy-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/n3rgy-customer-service-api-v2-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/n3rgy-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -165,13 +217,13 @@ modified: '2026-07-27'
 name: n3rgy
 nav: Providers
 network: true
-overview: 'n3rgy publishes 1 API on the [APIs.io](https://apis.io/) network: Customer Service API V2. Tagged areas include Energy, United Kingdom, Utilities, Smart Metering, and Electricity.
+overview: 'n3rgy publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Create Export Profiles API, Customer Service API V2 API, Find Mpxn API, and 10 more. Tagged areas include Energy, United Kingdom, Utilities, Smart Metering, and Electricity.
 
 
   The n3rgy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  n3rgy''s developer surface includes authentication, documentation, signup flow, developer portal, pricing, support, changelog, and 15 more developer resources.'
+  n3rgy''s developer surface includes authentication, documentation, signup flow, developer portal, pricing, support, changelog, and 19 more developer resources.'
 random_paper: 16
 rate_limits:
 - limit_count: 4
@@ -179,18 +231,23 @@ rate_limits:
   slug: n3rgy-rate-limits
 score:
   band: developing
-  composite: 53.2
-  delta: 3.5
+  composite: 52.2
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
-    contract_quality: 63.9
+    contract_governance: 4.5
+    contract_quality: 65.7
     developer_ergonomics: 35.1
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 49.7
+  previous_composite: 52.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -207,8 +264,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 60.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n3rgy/refs/heads/main/screenshots/n3rgy-2026-08-07T184554.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 6
   slug: google-cloud-assured-workloads-agentic-access
   summary_line: 6 operations · 3 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Operations for managing compliance violations
   name: Google Cloud Assured Workloads Violations API
@@ -71,6 +71,10 @@ collections:
   name: Google Cloud Assured Violations Workloads API
   slug: open-google-cloud-assured-workloads-workloads-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/google-cloud-assured-workloads-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -170,7 +174,7 @@ overview: 'Google Cloud Assured Workloads publishes 2 APIs on the [APIs.io](http
   The Google Cloud Assured Workloads catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Cloud Assured Workloads'' developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 11 more developer resources.'
+  Google Cloud Assured Workloads'' developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, engineering blog, and 12 more developer resources.'
 plans:
 - name: Google Cloud Assured Workloads Plans Pricing
   plan_count: 3
@@ -199,6 +203,11 @@ scopes:
 score:
   band: developing
   composite: 45.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 54.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 47.4
@@ -217,8 +226,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-assured-workloads/refs/heads/main/screenshots/google-cloud-assured-workloads-2026-06-20T182042.png
 security:

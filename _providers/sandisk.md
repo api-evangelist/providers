@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: The SanDisk iXpand SDK enables third-party iOS application developers to access and manage iXpand Flash Drive storage through the Lightning interface. It provides File System APIs with a familiar file
@@ -44,6 +44,10 @@ apis:
   slug: sandisk-hqme-sdk
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/HQME-developer/SanDisk-HQME-SDK/issues
 - group: auth
   title: ''
   type: DomainSecurity
@@ -103,7 +107,7 @@ overview: 'SanDisk publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
   The SanDisk catalog on APIs.io includes 1 JSON-LD context.
 
 
-  SanDisk''s developer surface includes support and 8 more developer resources.'
+  SanDisk''s developer surface includes support and 9 more developer resources.'
 plans:
 - name: Sandisk Plans Pricing
   plan_count: 3
@@ -131,8 +135,13 @@ rate_limits:
   slug: sandisk-rate-limits
 score:
   band: emerging
-  composite: 19.0
-  delta: 3.1
+  composite: 17.1
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 64.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -142,9 +151,12 @@ score:
     discoverability: 59.3
     governance: 15.2
     operational_transparency: 10.5
-  previous_composite: 15.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 17.1
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sandisk/refs/heads/main/screenshots/sandisk-2026-06-20T193405.png
 security:

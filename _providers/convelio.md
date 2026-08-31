@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 9
   slug: convelio-agentic-access
   summary_line: 9 operations · 6 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Shipping API allow you to request a shipping estimate from our system
   name: Convelio Shipping API
@@ -55,6 +55,10 @@ collections:
   name: Convelio Public Webhook API
   slug: open-convelio-webhook-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/convelio-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -177,22 +181,27 @@ overview: 'Convelio publishes 2 APIs on the [APIs.io](https://apis.io/) network:
   The Convelio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Convelio''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 19 more developer resources.'
+  Convelio''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 20 more developer resources.'
 random_paper: 2
 score:
   band: developing
-  composite: 50.3
-  delta: 1.1
+  composite: 46.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.9
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 70.6
-    developer_ergonomics: 66.1
+    developer_ergonomics: 56.5
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 49.2
+  previous_composite: 48.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -209,8 +218,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convelio/refs/heads/main/screenshots/convelio-2026-08-17T080832.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 26
   slug: netflix-conductor-agentic-access
   summary_line: 26 operations · 15 acting · 1 human-in-the-loop
-api_count: 4
+api_count: 1
 apis:
 - description: The Events API from Netflix Conductor — 1 operation(s) for events.
   name: Netflix Conductor Events API
@@ -131,15 +131,20 @@ rate_limits:
   slug: netflix-conductor-rate-limits
 score:
   band: emerging
-  composite: 25.5
-  delta: 0.0
+  composite: 24.9
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 48.8
     developer_ergonomics: 9.5
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 25.5
@@ -150,8 +155,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netflix-conductor/refs/heads/main/screenshots/netflix-conductor-2026-06-20T190151.png
 security:

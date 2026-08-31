@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,35 +22,35 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: na
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: documented
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.9
-  scored_at: '2026-08-26'
+  score: 43.6
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
   name: Sex Offenders Api Agentic Access
-  operation_count: 1
+  operation_count: 2
   slug: sex-offenders-api-agentic-access
-  summary_line: 1 operation
+  summary_line: 2 operations
 api_count: 2
 apis:
 - description: Sex Offenders API Definition. The Sex Offenders API lets you request registered sex offenders across the US by name or zip code (Disclaimer).
   name: Sex Offenders API
   slug: sex-offenders-api
-- description: The Sex Offenders API from Sex Offenders API — 1 operation(s) for sex offenders.
+- description: The CrimeoMeter Sex Offenders API — 2 published operations (record search and radius search) over US state sex offender registry data, transcribed from CrimeoMeter's public Postman collection.
   name: Sex Offenders API Sex Offenders API
   slug: sex-offenders-api-sex-offenders-api
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -62,6 +62,10 @@ collections:
   name: Crimeometer Sex Offenders API
   slug: open-sex-offenders-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.crimeometer.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -74,51 +78,152 @@ common:
   title: ''
   type: Authentication
   url: authentication/sex-offenders-api-authentication.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/sex-offenders-api-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/sex-offenders-api-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/sex-offenders-api-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/sex-offenders-api-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/sex-offenders-api-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/sex-offenders-api-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/sex-offenders-api-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/sex-offenders-api-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/sex-offenders-api-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/sex-offenders-api-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/sex-offenders-api-rate-limits.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Postman
+  url: https://documenter.getpostman.com/view/12755833/TzK2auPn
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.crimeometer.com/products
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.crimeometer.com/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://documenter.getpostman.com/view/12755833/TzK2auPn
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.crimeometer.com/pricing
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.crimeometer.com/blog
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.crimeometer.com/blog-feed.xml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.crimeometer.com/tos
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.crimeometer.com/privacy-policy
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.crimeometer.com/#contactus
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.crimeometer.com/#contactus
 created: '2024-11-13'
-description: Sex Offenders API Definition. The Sex Offenders API lets you request registered sex offenders across the US by name or zip code (Disclaimer).
+description: The Sex Offenders API from CrimeoMeter (CityCop Corporation dba CrimeoMeter, San Francisco) returns registered sex offender records from US state registries, searchable by zip code, first/last name, alias, birthdate, a last-updated window, or a latitude/longitude radius. Records carry identity, physical description, charges, registry status (predator, absconder) and geocoded address, plus created/last-updated/last-synced timestamps that expose how fresh each record is against its source registry. Access is a private x-api-key issued by hand through the Contact Us form; there is no self-service signup. CrimeoMeter publishes no OpenAPI, but does publish a public Postman collection covering v5 of this API.
 finops:
 - name: Sex Offenders Api Finops
   service_category: API
   slug: sex-offenders-api-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sex-offenders-api.png
 layout: provider
-modified: '2026-03-16'
+mcp_servers:
+- description: 'CrimeoMeter serves a live, anonymous, remote MCP endpoint from its own domain. IMPORTANT SCOPE NOTE: this is the Wix Site MCP that the Wix platform provisions for every site it hosts (crimeometer.com '
+  name: CrimeoMeter Site MCP
+  slug: crimeometer-site-mcp
+modified: '2026-08-28'
 name: Sex Offenders API
 nav: Providers
 network: true
-overview: 'Sex Offenders API publishes 1 API on the [APIs.io](https://apis.io/) network: Sex Offenders API. Tagged areas include Sex Offenders.
+overview: 'Sex Offenders API publishes 1 API on the [APIs.io](https://apis.io/) network: Sex Offenders API. Tagged areas include Sex Offenders, Public Safety, Crime Data, Background Checks, and Criminal Justice.
 
 
-  Sex Offenders API''s developer surface includes authentication and 2 more developer resources.'
+  Sex Offenders API''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, signup flow, and 20 more developer resources.'
 plans:
 - name: Sex Offenders Api Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: sex-offenders-api-plans-pricing
 random_paper: 16
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Sex Offenders Api Rate Limits
   slug: sex-offenders-api-rate-limits
 score:
-  band: emerging
-  composite: 24.4
-  delta: 1.9
+  band: developing
+  composite: 49.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.7
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 47.6
-    developer_ergonomics: 21.4
-    discoverability: 40.7
-    governance: 0.0
-    operational_transparency: 7.9
+    access_clarity: 51.3
+    commercial_clarity: 51.3
+    contract_governance: 18.2
+    contract_quality: 59.9
+    developer_ergonomics: 54.8
+    discoverability: 75.9
+    governance: 18.2
+    operational_transparency: 0.0
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
     owner: catalog
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 22.5
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -126,8 +231,14 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 46.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sex-offenders-api/refs/heads/main/screenshots/sex-offenders-api-2026-06-20T193740.png
 security:
@@ -142,4 +253,14 @@ security:
 slug: sex-offenders-api
 tags:
 - Sex Offenders
+- Public Safety
+- Crime Data
+- Background Checks
+- Criminal Justice
+- Government Data
+- Geospatial
+- Real-Estate
+- Risk
+- People Data
+website: https://www.crimeometer.com/
 ---

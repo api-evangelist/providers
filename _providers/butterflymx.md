@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-26'
-api_count: 14
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: The Access groups API from ButterflyMX — 6 operation(s) for access groups.
   name: ButterflyMX Access groups API
@@ -120,6 +120,10 @@ collections:
   name: ButterflyMX Virtual Keys API
   slug: open-butterflymx-virtual-keys-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/butterflymx-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -269,13 +273,13 @@ modified: '2026-08-08'
 name: ButterflyMX
 nav: Providers
 network: true
-overview: 'ButterflyMX publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Access groups API, Access Logs API, Access Points API, and 11 more. Tagged areas include Access Control, physical-access, smart-intercom, PropTech, and Property Management.
+overview: 'ButterflyMX publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Access groups API, Access Logs API, Access Points API, and 11 more. Tagged areas include access-control, physical-access, smart-intercom, proptech, and property-management.
 
 
   The ButterflyMX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ButterflyMX''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 27 more developer resources.'
+  ButterflyMX''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 28 more developer resources.'
 random_paper: 4
 scopes:
 - name: Butterflymx Scopes
@@ -283,19 +287,24 @@ scopes:
   slug: butterflymx-scopes
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 41.5
-  delta: 0.0
+  band: thin
+  composite: 38.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 58.4
     developer_ergonomics: 51.8
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 41.5
+  previous_composite: 38.9
   provenance:
     conformance: derived
     contracts:
@@ -305,8 +314,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/butterflymx/refs/heads/main/screenshots/butterflymx-2026-08-17T080748.png
 security:
@@ -324,15 +333,15 @@ security:
   summary_line: trust center published
 slug: butterflymx
 tags:
-- Access Control
+- access-control
 - physical-access
 - smart-intercom
-- PropTech
-- Property Management
-- Multifamily
-- Building Automation
-- Visitor Management
-- IoT
+- proptech
+- property-management
+- multifamily
+- building-automation
+- visitor-management
+- iot
 - smart-locks
 - Authentication
 - Webhook

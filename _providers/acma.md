@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,14 +31,32 @@ agentic_access:
   operation_count: 22
   slug: acma-agentic-access
   summary_line: 22 operations
-api_count: 2
+api_count: 1
 apis:
-- description: 'The ACMA Spectrum Licensing API is an application programming interface which allows members of the public to query the ACMA''s spectrum licensing data — the Register of Radiocommunications Licences — '
-  name: ACMA Spectrum Licensing API
-  slug: spectrum-licensing
 - description: The Do Not Call Register is operated by the ACMA under the Do Not Call Register Act 2006. Telemarketers and fax marketers must check ("wash") their contact lists against the register before calling. A
   name: Do Not Call Register Real Time Access (RTA) Washing Service
   slug: do-not-call-register-washing
+- description: Spectrum licence access areas.
+  name: ACMA Access areas API
+  slug: acma-access-areas-api
+- description: The ACMA antenna register.
+  name: ACMA Antennas API
+  slug: acma-antennas-api
+- description: Licensees - the people and organisations that hold licences.
+  name: ACMA Clients API
+  slug: acma-clients-api
+- description: Licence types and the categories beneath them.
+  name: ACMA Licence categories API
+  slug: acma-licence-categories-api
+- description: Radiocommunications and 400 MHz band spectrum licence records.
+  name: ACMA Licences API
+  slug: acma-licences-api
+- description: Device registrations and frequency assignments.
+  name: ACMA Registrations API
+  slug: acma-registrations-api
+- description: Transmitter sites, including proximity search by latitude/longitude.
+  name: ACMA Sites API
+  slug: acma-sites-api
 arazzos:
 - description: Resolve an Australian organisation to its ACMA client number, list every radiocommunications licence it holds, pull the registered devices on a licence and resolve the transmitter site those devices s
   name: ACMA — organisation spectrum footprint
@@ -46,12 +64,28 @@ arazzos:
 - description: From a latitude/longitude, find the nearest licensed transmitter sites, pull the frequency assignments in a band and postcode range around them, and attribute an assignment back to its licensee.
   name: ACMA — spectrum survey by location
   slug: acma-spectrum-survey-by-location
-artifact_total: 23
+artifact_total: 29
 collections:
 - collection_type: open
   name: ACMA Spectrum Licensing API
   slug: open-acma-spectrum-licensing
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/acma-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/acma-spectrum-licensing-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/acma-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -207,10 +241,10 @@ modified: '2026-07-25'
 name: ACMA
 nav: Providers
 network: true
-overview: 'ACMA publishes 1 API on the [APIs.io](https://apis.io/) network: Spectrum Licensing API. Tagged areas include Telecommunications, Australia, Regulator, Spectrum, and Broadcasting.
+overview: 'ACMA publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Access areas API, Antennas API, Clients API, and 4 more. Tagged areas include Telecommunications, Australia, Regulator, Spectrum, and Broadcasting.
 
 
-  ACMA''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 20 more developer resources.'
+  ACMA''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 24 more developer resources.'
 plans:
 - name: Acma Plans
   plan_count: 9
@@ -222,18 +256,23 @@ rate_limits:
   slug: acma-rate-limits
 score:
   band: developing
-  composite: 53.8
-  delta: 1.1
+  composite: 51.8
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 16.7
-    contract_quality: 59.9
-    developer_ergonomics: 38.7
-    discoverability: 68.5
-    governance: 16.7
+    contract_governance: 4.5
+    contract_quality: 57.8
+    developer_ergonomics: 35.1
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 52.7
+  previous_composite: 52.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,8 +289,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acma/refs/heads/main/screenshots/acma-2026-08-17T082235.png
 security:
@@ -276,7 +315,7 @@ tags:
 - Broadcasting
 - Numbering
 - Do Not Call Register
-- Radio Communications
+- Radiocommunications
 - Licensing
 - Open Data
 - Government

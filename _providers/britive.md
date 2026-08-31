@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-08-26'
-api_count: 79
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
 - description: The Britive Secret Manager API covers the Britive vault and secrets lifecycle — vault initialization, static and file secrets, secret versions, secret metadata, password policies, secret templates and
   name: Britive Secrets Manager API
@@ -507,6 +507,10 @@ collections:
   name: Britive Services API Documentation Workload Service Identity Providers API
   slug: open-britive-workload-service-identity-providers-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/britive-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -649,7 +653,7 @@ overview: 'Britive publishes 78 APIs on the [APIs.io](https://apis.io/) network,
   The Britive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Britive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 24 more developer resources.'
+  Britive''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 25 more developer resources.'
 random_paper: 1
 scopes:
 - name: Britive Scopes
@@ -658,18 +662,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 48.7
+  composite: 45.4
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 57.2
     developer_ergonomics: 73.2
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 57.4
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 48.7
+  previous_composite: 45.4
   provenance:
     conformance: derived
     contracts:
@@ -679,8 +688,8 @@ score:
       total: 78
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/britive/refs/heads/main/screenshots/britive-2026-08-17T080708.png
 security:
@@ -699,7 +708,7 @@ tags:
 - Identity and Access Management
 - Cloud Security
 - Zero Standing Privileges
-- Just-In-Time Access
+- Just-in-Time Access
 - Non-Human Identity
 - Secrets Management
 - Agentic AI

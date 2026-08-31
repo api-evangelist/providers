@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: cradlepoint-agentic-access
   summary_line: 14 operations · 3 acting
-api_count: 12
+api_count: 1
 apis:
 - description: The next-generation NetCloud Manager API. Documented with OpenAPI 3.0, authenticated with bearer tokens, designed for improved performance, stability, and usability over API v2. Coexists with v2 durin
   name: Cradlepoint NetCloud Manager API v3
@@ -312,18 +312,23 @@ rules:
   slug: cradlepoint-rules
 score:
   band: developing
-  composite: 45.2
-  delta: 4.8
+  composite: 44.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 28.8
     contract_quality: 64.6
     developer_ergonomics: 52.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 40.4
+  previous_composite: 45.2
   provenance:
     agentic_access: derived
     contracts:
@@ -331,8 +336,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/screenshots/cradlepoint-2026-06-20T175202.png
 security:

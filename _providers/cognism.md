@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,13 +43,32 @@ agentic_access:
   operation_count: 25
   slug: cognism-agentic-access
   summary_line: 25 operations · 1 acting
-api_count: 1
+api_count: 6
 apis:
-- description: The Cognism API — Search, Enrich, Redeem, Entitlement, Filter and Compliance endpoints for B2B contact and company data. Search finds records by filter and Enrich matches records you already hold; bot
-  name: Cognism Enrichment API
-  slug: enrichment
-artifact_total: 43
+- description: Opt-out list lookups for GDPR/CCPA suppression.
+  name: Cognism Compliance API
+  slug: cognism-compliance-api
+- description: Match a record you already hold to a Cognism record.
+  name: Cognism Enrich API
+  slug: cognism-enrich-api
+- description: Read which fields your organisation is licensed for.
+  name: Cognism Entitlement API
+  slug: cognism-entitlement-api
+- description: Reference lists of values the search filters accept.
+  name: Cognism Filter API
+  slug: cognism-filter-api
+- description: Exchange a redeem ID for the full record.
+  name: Cognism Redeem API
+  slug: cognism-redeem-api
+- description: Find contacts and companies matching a filter set.
+  name: Cognism Search API
+  slug: cognism-search-api
+artifact_total: 48
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cognism-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -274,10 +293,10 @@ modified: '2026-08-13'
 name: Cognism
 nav: Providers
 network: true
-overview: 'Cognism publishes 1 API on the [APIs.io](https://apis.io/) network: Enrichment API. Tagged areas include Sales Intelligence, B2B, Enrichment, Contact Data, and GDPR.
+overview: 'Cognism publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Compliance API, Enrich API, Entitlement API, and 3 more. Tagged areas include Sales Intelligence, B2B, Enrichment, Contact Data, and GDPR.
 
 
-  Cognism''s developer surface includes authentication, support, pricing, signup flow, engineering blog, and 22 more developer resources.'
+  Cognism''s developer surface includes authentication, support, pricing, signup flow, engineering blog, and 23 more developer resources.'
 plans:
 - name: Cognism Plans Pricing
   plan_count: 4
@@ -289,18 +308,23 @@ rate_limits:
   slug: cognism-rate-limits
 score:
   band: developing
-  composite: 51.8
-  delta: 7.3
+  composite: 51.6
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 16.7
-    contract_quality: 17.7
+    contract_governance: 4.5
+    contract_quality: 17.4
     developer_ergonomics: 63.7
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 44.5
+  previous_composite: 51.6
   provenance:
     agentic_access: first-party
     conformance: derived
@@ -311,9 +335,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/screenshots/cognism-2026-06-20T174713.png
 security:
 - kind: authentication

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 7
 apis:
 - description: Published pages and the site-wide search index.
@@ -171,25 +171,30 @@ modified: '2026-08-04'
 name: Kartos Therapeutics
 nav: Providers
 network: true
-overview: 'Kartos Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Media API, and 4 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Hematology.
+overview: 'Kartos Therapeutics publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Content API, Discovery API, Media API, and 4 more. Tagged areas include Company, biotechnology, pharmaceuticals, oncology, and hematology.
 
 
   Kartos Therapeutics'' developer surface includes support, authentication, and 20 more developer resources.'
 random_paper: 7
 score:
   band: emerging
-  composite: 19.7
+  composite: 18.2
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 13.3
     developer_ergonomics: 18.5
     discoverability: 74.1
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 19.7
+  previous_composite: 18.2
   provenance:
     conformance: derived
     contracts:
@@ -204,8 +209,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kartos-therapeutics/refs/heads/main/screenshots/kartos-therapeutics-2026-08-07T171100.png
 security:
@@ -220,14 +225,14 @@ security:
 slug: kartos-therapeutics
 tags:
 - Company
-- Biotechnology
-- Pharmaceuticals
-- Oncology
-- Hematology
-- Rare Disease
-- Precision Medicine
-- Clinical Trials
-- Life Sciences
+- biotechnology
+- pharmaceuticals
+- oncology
+- hematology
+- rare-disease
+- precision-medicine
+- clinical-trials
+- life-sciences
 - content-api
 website: https://kartosthera.com/
 ---

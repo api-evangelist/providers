@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: The PrestaShop Webservice API enables third-party applications to access and manage shop data through CRUD operations on 60+ resources including products, categories, orders, customers, carriers, stoc
@@ -44,6 +44,22 @@ apis:
   slug: prestashop-admin-api
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/PrestaShop/PrestaShop/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/PrestaShop/PrestaShop/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/PrestaShop/PrestaShop/blob/develop/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/PrestaShop/PrestaShop/blob/develop/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -111,7 +127,7 @@ network: true
 overview: 'PrestaShop publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Open-Source, Product, Order, and Customers.
 
 
-  PrestaShop''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+  PrestaShop''s developer surface includes documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Prestashop Plans Pricing
   plan_count: 3
@@ -123,8 +139,13 @@ rate_limits:
   slug: prestashop-rate-limits
 score:
   band: developing
-  composite: 39.3
-  delta: 6.0
+  composite: 43.5
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -133,17 +154,20 @@ score:
     developer_ergonomics: 35.7
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 52.6
-  previous_composite: 33.3
+    operational_transparency: 68.4
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 43.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prestashop/refs/heads/main/screenshots/prestashop-2026-06-20T192052.png
 security:
 - kind: domain-security

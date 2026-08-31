@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 26
   slug: splunk-agentic-access
   summary_line: 26 operations · 13 acting · 1 human-in-the-loop
-api_count: 14
+api_count: 1
 apis:
 - description: API monitoring checks to see if API-connected resources are available, working properly and responding to calls.
   name: Splunk
@@ -126,6 +126,22 @@ collections:
   name: Splunk Enterprise REST Data Inputs Search API
   slug: open-splunk-search-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/signalfx/splunk-otel-collector/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/signalfx/splunk-otel-collector/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/signalfx/splunk-otel-collector/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/signalfx/splunk-otel-collector/blob/main/CONTRIBUTING.md
 - group: other
   title: ''
   type: ParentCompany
@@ -756,7 +772,7 @@ overview: 'Splunk publishes 3 APIs on the [APIs.io](https://apis.io/) network: D
   The Splunk catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Splunk''s developer surface includes authentication, engineering blog, support, documentation, getting-started guide, pricing, signup flow, and 46 more developer resources.'
+  Splunk''s developer surface includes authentication, engineering blog, support, documentation, getting-started guide, pricing, signup flow, and 50 more developer resources.'
 plans:
 - name: Splunk Plans Pricing
   plan_count: 3
@@ -790,18 +806,26 @@ rules:
   slug: splunk-spectral-rules
 score:
   band: developing
-  composite: 48.0
-  delta: 1.5
+  composite: 46.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -3.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 13.6
     contract_quality: 35.4
     developer_ergonomics: 69.0
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 46.5
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     contracts:
@@ -809,8 +833,8 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/screenshots/splunk-2026-06-20T194332.png
 security:

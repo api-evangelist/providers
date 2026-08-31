@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 11
   slug: ontraport-agentic-access
   summary_line: 11 operations · 5 acting
-api_count: 4
+api_count: 1
 apis:
 - description: RESTful API providing CRUD access to contacts, transactions, tags, sequences, forms, landing pages, and ecommerce objects. Authentication uses two headers, Api-Key and Api-Appid, on every request, wit
   name: Ontraport REST API
@@ -281,18 +281,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 69.8
-  delta: 0.0
+  composite: 68.6
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 59.2
     developer_ergonomics: 70.8
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 63.2
-  previous_composite: 69.8
+  previous_composite: 69.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -309,8 +314,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ontraport/refs/heads/main/screenshots/ontraport-2026-06-20T190730.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 3
   slug: presto-foundation-agentic-access
   summary_line: 3 operations · 2 acting
-api_count: 3
+api_count: 1
 apis:
 - description: The Presto Client REST API is the HTTP protocol used by Presto clients to submit SQL queries to a Presto coordinator and stream back results. It centers on POST /v1/statement to submit a query, GET on
   name: Presto Client REST API
@@ -65,6 +65,22 @@ collections:
   name: Presto Client REST API
   slug: open-presto-foundation
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/prestodb/presto/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/prestodb/presto/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/prestodb/presto/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/prestodb/presto/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -152,7 +168,7 @@ network: true
 overview: 'Presto Foundation publishes 1 API on the [APIs.io](https://apis.io/) network: Statement API. Tagged areas include Analytics, Big Data, Distributed SQL, Linux Foundation, and Open-Source.
 
 
-  Presto Foundation''s developer surface includes authentication, developer portal, documentation, engineering blog, YouTube channel, and 13 more developer resources.'
+  Presto Foundation''s developer surface includes authentication, developer portal, documentation, engineering blog, YouTube channel, and 17 more developer resources.'
 plans:
 - name: Presto Foundation Plans Pricing
   plan_count: 3
@@ -169,18 +185,26 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 29.9
-  delta: 0.0
+  composite: 34.8
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 47.2
     developer_ergonomics: 35.7
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 29.9
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -188,8 +212,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/presto-foundation/refs/heads/main/screenshots/presto-foundation-2026-06-20T192054.png
 security:

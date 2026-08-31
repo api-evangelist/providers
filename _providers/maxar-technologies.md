@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 43
   slug: maxar-technologies-agentic-access
   summary_line: 43 operations · 18 acting · 2 human-in-the-loop
-api_count: 25
+api_count: 7
 apis:
 - description: Vivid is Maxar's cloud-free, color-balanced basemap product — a global mosaic refreshed from the WorldView archive. The Vivid Basemap API exposes the basemap as OGC tile and feature services through t
   name: Maxar Vivid Basemap API
@@ -272,6 +272,10 @@ collections:
   name: Maxar Geospatial Platform Tasking API
   slug: open-tasking
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/maxar-technologies-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -496,7 +500,7 @@ overview: 'Maxar Technologies publishes 21 APIs on the [APIs.io](https://apis.io
   The Maxar Technologies catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Maxar Technologies'' developer surface includes authentication, documentation, GitHub presence, changelog, and 33 more developer resources.'
+  Maxar Technologies'' developer surface includes authentication, documentation, GitHub presence, changelog, and 34 more developer resources.'
 plans:
 - name: Maxar Technologies Plans Pricing
   plan_count: 4
@@ -531,6 +535,11 @@ rules:
 score:
   band: developing
   composite: 50.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 30.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 46.1
@@ -549,8 +558,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/screenshots/maxar-technologies-2026-06-20T185049.png
 security:

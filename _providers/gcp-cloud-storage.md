@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 13
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 38
   slug: gcp-cloud-storage-agentic-access
   summary_line: 38 operations · 26 acting · 13 human-in-the-loop
-api_count: 6
+api_count: 1
 apis:
 - description: Amazon S3-compatible XML API for Google Cloud Storage.
   name: Google Cloud Storage XML API
@@ -101,6 +101,10 @@ collections:
   name: Google Cloud Storage JSON BucketAccessControls Objects API
   slug: open-gcp-cloud-storage-objects-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gcp-cloud-storage-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -324,7 +328,7 @@ overview: 'Google Cloud Storage publishes 5 APIs on the [APIs.io](https://apis.i
   The Google Cloud Storage catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Google Cloud Storage''s developer surface includes authentication, getting-started guide, developer console, engineering blog, changelog, API reference, CLI, and 12 more developer resources.'
+  Google Cloud Storage''s developer surface includes authentication, getting-started guide, developer console, engineering blog, changelog, API reference, CLI, and 13 more developer resources.'
 plans:
 - name: Gcp Cloud Storage Plans Pricing
   plan_count: 3
@@ -363,18 +367,23 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 55.4
-  delta: 8.1
+  composite: 54.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 49.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 28.8
     contract_quality: 71.8
     developer_ergonomics: 61.9
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 47.3
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     contracts:
@@ -382,9 +391,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/screenshots/gcp-cloud-storage-2026-06-20T181701.png
 security:
 - kind: authentication

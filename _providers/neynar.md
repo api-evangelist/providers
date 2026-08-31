@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 200
   slug: neynar-agentic-access
   summary_line: 200 operations · 71 acting · 1 human-in-the-loop
-api_count: 39
+api_count: 2
 apis:
 - description: Securely communicate and perform actions on behalf of users across different apps
   name: Neynar Action API
@@ -284,6 +284,10 @@ collections:
   name: Neynar Action Webhook API
   slug: open-neynar-webhook-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/neynar-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1858,7 +1862,7 @@ overview: 'Neynar publishes 39 APIs on the [APIs.io](https://apis.io/) network, 
   The Neynar catalog on APIs.io includes 9 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Neynar''s developer surface includes authentication, engineering blog, and 2 more developer resources.'
+  Neynar''s developer surface includes authentication, engineering blog, and 3 more developer resources.'
 plans:
 - name: Plans
   plan_count: 5
@@ -1880,19 +1884,24 @@ rules:
     warn: 3
   slug: neynar-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 41.0
-  delta: 5.3
+  band: thin
+  composite: 38.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 64.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 64.5
     developer_ergonomics: 35.7
-    discoverability: 75.9
+    discoverability: 51.9
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 35.7
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -1900,9 +1909,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neynar/refs/heads/main/screenshots/neynar-2026-06-20T190304.png
 security:
 - kind: authentication

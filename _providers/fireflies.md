@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 61.0
-  scored_at: '2026-08-26'
+  score: 55.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,27 +43,12 @@ agentic_access:
   operation_count: 1
   slug: fireflies-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 6
+api_count: 1
 apis:
-- description: Access AI-generated app outputs for transcripts
-  name: Fireflies.ai AI Apps API
-  slug: fireflies-ai-apps-api
-- description: Upload audio files for transcription
-  name: Fireflies.ai Audio Upload API
-  slug: fireflies-audio-upload-api
-- description: Create and retrieve meeting clips (bites)
-  name: Fireflies.ai Bites API
-  slug: fireflies-bites-api
-- description: Add Fireflies bot to live meetings
-  name: Fireflies.ai Live Meetings API
-  slug: fireflies-live-meetings-api
 - description: Retrieve and manage meeting transcripts and their content
   name: Fireflies.ai Transcripts API
   slug: fireflies-transcripts-api
-- description: Query user account information and manage user roles
-  name: Fireflies.ai Users API
-  slug: fireflies-users-api
-artifact_total: 30
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Fireflies Webhooks
@@ -163,10 +148,6 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/fireflies-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 - group: other
   title: ''
   type: AgentCard
@@ -343,13 +324,13 @@ modified: '2026-08-14'
 name: Fireflies.ai
 nav: Providers
 network: true
-overview: 'Fireflies.ai publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AI Apps API, Audio Upload API, Bites API, and 3 more. Tagged areas include Artificial Intelligence, Meeting Assistant, Transcription, Summary, and Action Items.
+overview: 'Fireflies.ai publishes 1 API on the [APIs.io](https://apis.io/) network: Transcripts API. Tagged areas include Artificial Intelligence, Meeting Assistant, Transcription, Summary, and Action Items.
 
 
   The Fireflies.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Fireflies.ai''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 47 more developer resources.'
+  Fireflies.ai''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 46 more developer resources.'
 plans:
 - name: Fireflies Plans Pricing
   plan_count: 4
@@ -377,18 +358,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 73.8
-  delta: 0.6
+  composite: 70.7
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 37.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 55.3
+    contract_governance: 43.2
     contract_quality: 80.7
     developer_ergonomics: 59.5
-    discoverability: 92.6
-    governance: 55.3
+    discoverability: 75.9
+    governance: 43.2
     operational_transparency: 44.7
-  previous_composite: 73.2
+  previous_composite: 70.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -399,8 +385,8 @@ score:
       total: 6
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/screenshots/fireflies-2026-06-20T181230.png
 security:

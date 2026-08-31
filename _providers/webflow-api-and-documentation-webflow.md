@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 153
   slug: webflow-api-and-documentation-webflow-agentic-access
   summary_line: 153 operations · 89 acting
-api_count: 22
+api_count: 5
 apis:
 - description: The Asset Folders API from Webflow API and Documentation — 2 operation(s) for asset folders.
   name: Webflow API and Documentation Asset Folders API
@@ -62,12 +62,6 @@ apis:
 - description: Custom code is JavaScript that is added to your Webflow site.
   name: Webflow API and Documentation Custom Code API
   slug: webflow-api-and-documentation-webflow-custom-code-api
-- description: Custom code for pages.
-  name: Webflow API and Documentation Custom Code - Pages API
-  slug: webflow-api-and-documentation-webflow-custom-code-pages-api
-- description: Custom code for sites.
-  name: Webflow API and Documentation Custom Code - Sites API
-  slug: webflow-api-and-documentation-webflow-custom-code-sites-api
 - description: Forms are forms that are created on your Webflow site.
   name: Webflow API and Documentation Forms API
   slug: webflow-api-and-documentation-webflow-forms-api
@@ -89,9 +83,6 @@ apis:
 - description: Products & SKUs are the products and SKUs in your Webflow e-commerce site.
   name: Webflow API and Documentation Products & SKUs API
   slug: webflow-api-and-documentation-webflow-products-skus-api
-- description: The Registered Scripts API from Webflow API and Documentation — 3 operation(s) for registered scripts.
-  name: Webflow API and Documentation Registered Scripts API
-  slug: webflow-api-and-documentation-webflow-registered-scripts-api
 - description: Settings are the e-commerce settings for your Webflow site.
   name: Webflow API and Documentation Settings API
   slug: webflow-api-and-documentation-webflow-settings-api
@@ -138,7 +129,7 @@ arazzos:
 - description: List a site's pages, read the first page's metadata, update its SEO, then publish the site.
   name: Webflow Update Page SEO and Publish
   slug: webflow-api-and-documentation-webflow-update-page-seo-workflow
-artifact_total: 209
+artifact_total: 206
 collections:
 - collection_type: postman
   name: Webflow Collections API
@@ -240,6 +231,10 @@ collections:
   name: Webflow Webhooks API
   slug: open-webflow-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/webflow-api-and-documentation-webflow-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -779,13 +774,13 @@ modified: '2026-05-19'
 name: Webflow API and Documentation
 nav: Providers
 network: true
-overview: 'Webflow API and Documentation publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Asset Folders API, Assets API, Collections API, and 19 more. Tagged areas include CMS, Content Management, E-Commerce, No-Code, and Publishing.
+overview: 'Webflow API and Documentation publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Asset Folders API, Assets API, Collections API, and 16 more. Tagged areas include CMS, Content Management, E-Commerce, No-Code, and Publishing.
 
 
   The Webflow API and Documentation catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Webflow API and Documentation''s developer surface includes authentication, developer portal, getting-started guide, changelog, engineering blog, support, academy / training, and 30 more developer resources.'
+  Webflow API and Documentation''s developer surface includes authentication, developer portal, getting-started guide, changelog, engineering blog, support, academy / training, and 31 more developer resources.'
 plans:
 - name: Webflow Api And Documentation Webflow Plans Pricing
   plan_count: 5
@@ -834,18 +829,23 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: strong
-  composite: 54.6
-  delta: 1.9
+  composite: 55.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 28.8
-    contract_quality: 69.3
+    contract_quality: 68.6
     developer_ergonomics: 61.9
-    discoverability: 66.7
+    discoverability: 72.2
     governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 52.7
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     contracts:
@@ -853,8 +853,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflow-api-and-documentation-webflow/refs/heads/main/screenshots/webflow-api-and-documentation-webflow-2026-06-20T201331.png
 security:

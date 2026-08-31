@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 10
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 48
   slug: locus-sh-agentic-access
   summary_line: 48 operations · 34 acting · 10 human-in-the-loop
-api_count: 16
+api_count: 3
 apis:
 - description: The HomebaseMaster API from Locus — 2 operation(s) for homebasemaster.
   name: Locus HomebaseMaster API
@@ -154,6 +154,10 @@ collections:
   name: Locus HomebaseMaster VehicleModel API
   slug: open-locus-sh-vehiclemodel-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/locus-sh-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -286,12 +290,17 @@ network: true
 overview: 'Locus publishes 16 APIs on the [APIs.io](https://apis.io/) network, including HomebaseMaster API, LocationMaster API, Order API, and 13 more. Tagged areas include Logistics, Last Mile Delivery, Route Optimization, Dispatch Planning, and Transportation Management.
 
 
-  Locus'' developer surface includes authentication, developer portal, documentation, API reference, engineering blog, signup flow, YouTube channel, and 22 more developer resources.'
+  Locus'' developer surface includes authentication, developer portal, documentation, API reference, engineering blog, signup flow, YouTube channel, and 23 more developer resources.'
 random_paper: 16
 score:
   band: thin
   composite: 36.0
-  delta: 1.2
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -301,7 +310,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 34.8
+  previous_composite: 36.0
   provenance:
     agentic_access: derived
     contracts:
@@ -309,8 +318,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/screenshots/locus-sh-2026-06-20T184640.png
 security:

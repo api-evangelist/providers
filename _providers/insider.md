@@ -36,67 +36,88 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-26'
-api_count: 19
+  scored_at: '2026-08-30'
+api_count: 18
 apis:
-- description: The Unified Customer Database. Upsert user profiles, attributes and behavioural events, read profiles back with a sparse fieldset, manage identifiers, export raw data, and run the GDPR delete/anonymiz
-  name: Insider One Unification API
-  slug: insider-one-unification-api
-- description: Per-channel subscription state and first-party segment upload. v1 unsubscribes from the channel database; v2 adds global-versus-group scope and bulk ingestion, and both versions run side by side.
-  name: Insider One Contact API
-  slug: insider-one-contact-api
-- description: Transactional email sending (9,000 requests/second) with dynamic fields, attachments and customer-supplied unique_args for correlation, plus email campaign creation.
-  name: Insider One Mail API
-  slug: insider-one-mail-api
-- description: Transactional single and bulk SMS sending, plus SMS campaign, overall, transactional and OTP/Verify analytics. Bulk send carries up to 50 messages per request at 5 requests/second.
-  name: Insider One SMS API
-  slug: insider-one-sms-api
-- description: Transactional and conversational WhatsApp sending — template, text, media, location, button-reply and carousel messages. Each send returns an Insider tracking key that is echoed in every webhook event
-  name: Insider One WhatsApp API
-  slug: insider-one-whatsapp-api
-- description: 'The OAuth 2.0 gateway: WhatsApp v2 transactional and conversational send, plus webhook settings registration. gw.useinsider.com is also the OAuth 2.0 authorization server for the whole Insider One pla'
-  name: Insider One Gateway API (OAuth 2.0)
-  slug: insider-one-gateway-api-oauth-20
-- description: Create, launch and delete single web push campaigns from your own backend, plus web push top-metrics, overall-metrics and campaign-metrics statistics.
-  name: Insider One Web Push API
-  slug: insider-one-web-push-api
-- description: Bulk, targeted and advanced app push, Message Center retrieval, app push analytics, custom segment upload and the mobile GDPR data-processing consent endpoint.
-  name: Insider One Mobile App API
-  slug: insider-one-mobile-app-api
-- description: InApp campaign detail retrieval (90-day window, YYYY-MM-DD dates) and FCM certificate upload for the mobile app channel.
-  name: Insider One Mobile Settings API
-  slug: insider-one-mobile-settings-api
-- description: 'iOS Live Activity lifecycle: register, start, update and end an activity, and add or remove users from a running one.'
-  name: Insider One Live Activity API
-  slug: insider-one-live-activity-api
-- description: 'One-time-passcode channels and templates for SMS and WhatsApp: create and update channels, manage OTP templates, generate codes and verify them.'
-  name: Insider One Verify (OTP) API
-  slug: insider-one-verify-otp-api
-- description: Product catalog ingestion and update in flat and nested formats, plus locale configuration. Products are keyed on item_id + locale, with currency-keyed price maps and groupcode variant grouping. All e
-  name: Insider One Catalog API
-  slug: insider-one-catalog-api
-- description: 'Smart Recommender served over HTTP: nineteen named algorithms (similar, complementary, substitute, visually-similar, purchased-together, trending, top-sellers, user-based and more) on one path templat'
-  name: Insider One Recommendation API
-  slug: insider-one-recommendation-api
-- description: 'Eureka product discovery: search results with facets, category and brand merchandising collections, and type-ahead suggestions (served from a per-customer host Insider One issues).'
-  name: Insider One Eureka Search API
-  slug: insider-one-eureka-search-api
-- description: 'Search event collection for Eureka ranking: search, product click, product list view, add to cart and purchase interactions.'
-  name: Insider One Eureka Event Collection API
-  slug: insider-one-eureka-event-collection-api
-- description: Email campaign lists, campaign statistics and overall analytics (v1 and v2 side by side), plus OnSite campaign and overall analytics. Epoch-second time windows; one year of retained history.
-  name: Insider One Analytics API
-  slug: insider-one-analytics-api
-- description: 'Architect journey analytics: overall, per-journey, per-element/channel, conversion goals and journey list export. Takes statDate as a dd/MM/yyyy range string.'
-  name: Insider One Architect Analytics API
-  slug: insider-one-architect-analytics-api
-- description: 'The On API Call starter: enter a user into a transactional Architect journey from your backend and send in real time.'
-  name: Insider One Architect Transactional Journey API
-  slug: insider-one-architect-transactional-journey-api
 - description: First-party remote Model Context Protocol server exposing 35 tools across Email, SMS, WhatsApp, Web Push, Mobile App and Architect — 28 read-only and 7 that create drafts for human review. Authenticat
   name: Insider One MCP Server
   slug: insider-one-mcp-server
-artifact_total: 46
+- description: The Algorithm Descriptions API from Insider — 19 operation(s) for algorithm descriptions.
+  name: Insider Algorithm Descriptions API
+  slug: insider-algorithm-descriptions-api
+- description: The Architect API from Insider — 6 operation(s) for architect.
+  name: Insider Architect API
+  slug: insider-architect-api
+- description: The Catalog APIs API from Insider — 5 operation(s) for catalog apis.
+  name: Insider Catalog APIs API
+  slug: insider-catalog-apis-api
+- description: The Category Merchandising API API from Insider — 2 operation(s) for category merchandising api.
+  name: Insider Category Merchandising API
+  slug: insider-category-merchandising-api-api
+- description: The Conversational API API from Insider — 3 operation(s) for conversational api.
+  name: Insider Conversational API
+  slug: insider-conversational-api-api
+- description: The Data Governance APIs API from Insider — 4 operation(s) for data governance apis.
+  name: Insider Data Governance APIs API
+  slug: insider-data-governance-apis-api
+- description: The Email API from Insider — 10 operation(s) for email.
+  name: Insider Email API
+  slug: insider-email-api
+- description: The Email APIs API from Insider — 2 operation(s) for email apis.
+  name: Insider Email APIs API
+  slug: insider-email-apis-api
+- description: The Event Collection API API from Insider — 1 operation(s) for event collection api.
+  name: Insider Event Collection API
+  slug: insider-event-collection-api-api
+- description: The Live Activities API from Insider — 6 operation(s) for live activities.
+  name: Insider Live Activities API
+  slug: insider-live-activities-api
+- description: The Mobile App API from Insider — 1 operation(s) for mobile app.
+  name: Insider Mobile App API
+  slug: insider-mobile-app-api
+- description: The Mobile App APIs API from Insider — 6 operation(s) for mobile app apis.
+  name: Insider Mobile App APIs API
+  slug: insider-mobile-app-apis-api
+- description: The OnSite API from Insider — 3 operation(s) for onsite.
+  name: Insider On Site API
+  slug: insider-onsite-api
+- description: The OTP for SMS API from Insider — 5 operation(s) for otp for sms.
+  name: Insider OTP for SMS API
+  slug: insider-otp-for-sms-api
+- description: The OTP for WhatsApp API from Insider — 3 operation(s) for otp for whatsapp.
+  name: Insider OTP for WhatsApp API
+  slug: insider-otp-for-whatsapp-api
+- description: The Recommendations API from Insider — 1 operation(s) for recommendations.
+  name: Insider Recommendations API
+  slug: insider-recommendations-api
+- description: The Search APIs API from Insider — 2 operation(s) for search apis.
+  name: Insider Search APIs API
+  slug: insider-search-apis-api
+- description: The SMS API from Insider — 9 operation(s) for sms.
+  name: Insider SMS API
+  slug: insider-sms-api
+- description: The Transactional API API from Insider — 3 operation(s) for transactional api.
+  name: Insider Transactional API
+  slug: insider-transactional-api-api
+- description: The Transactional Journeys API from Insider — 1 operation(s) for transactional journeys.
+  name: Insider Transactional Journeys API
+  slug: insider-transactional-journeys-api
+- description: The Transactional SMS API from Insider — 2 operation(s) for transactional sms.
+  name: Insider Transactional SMS API
+  slug: insider-transactional-sms-api
+- description: The User Data APIs API from Insider — 6 operation(s) for user data apis.
+  name: Insider User Data APIs API
+  slug: insider-user-data-apis-api
+- description: The Web Push API from Insider — 3 operation(s) for web push.
+  name: Insider Web Push API
+  slug: insider-web-push-api
+- description: The Web Push APIs API from Insider — 3 operation(s) for web push apis.
+  name: Insider Web Push APIs API
+  slug: insider-web-push-apis-api
+- description: The WhatsApp API from Insider — 4 operation(s) for whatsapp.
+  name: Insider Whats App API
+  slug: insider-whatsapp-api
+artifact_total: 53
 asyncapis:
 - description: ''
   name: Insider Whatsapp Webhooks
@@ -160,6 +181,78 @@ collections:
   name: Insider One WhatsApp API
   slug: open-insider-whatsapp
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insider-unification-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insider-contact-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insider-mail-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insider-sms-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insider-whatsapp-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insider-gateway-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insider-web-push-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insider-mobile-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insider-mobile-settings-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insider-live-activity-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insider-verify-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insider-catalog-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insider-recommendation-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insider-eureka-search-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insider-eureka-events-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insider-analytics-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insider-architect-analytics-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/insider-architect-transactional-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -317,13 +410,13 @@ modified: '2026-08-13'
 name: Insider
 nav: Providers
 network: true
-overview: 'Insider publishes 18 APIs on the [APIs.io](https://apis.io/) network, including One Unification API, One Contact API, One Mail API, and 15 more. Tagged areas include Company, Customer Engagement, Personalization, Customer Data Platform, and Marketing.
+overview: 'Insider publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Algorithm Descriptions API, Architect API, Catalog APIs API, and 22 more. Tagged areas include Company, Customer Engagement, Personalization, Customer Data Platform, and Marketing.
 
 
   The Insider catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Insider''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Insider''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 47 more developer resources.'
 plans:
 - name: Insider Plans Pricing
   plan_count: 0
@@ -340,18 +433,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.6
+  composite: 54.4
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
-    contract_quality: 22.0
+    contract_governance: 18.2
+    contract_quality: 21.9
     developer_ergonomics: 70.8
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 57.6
+  previous_composite: 54.4
   provenance:
     conformance: first-party
     contracts:
@@ -363,12 +461,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insider/refs/heads/main/screenshots/insider-2026-07-25T222527.png
 security:

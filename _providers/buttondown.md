@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 133
   slug: buttondown-agentic-access
   summary_line: 133 operations · 71 acting
-api_count: 30
+api_count: 1
 apis:
 - description: The Accounts API from Buttondown — 1 operation(s) covering the authenticated account and its plan/feature state.
   name: Buttondown Accounts API
@@ -134,7 +134,10 @@ apis:
 - description: The Buttondown hosted newsletter platform provides a markdown-based composition experience, subscriber management, delivery infrastructure, analytics, monetization via paid subscriptions, team collabo
   name: Buttondown Newsletter Platform
   slug: newsletter-platform
-artifact_total: 70
+- description: The Buttondown Webhooks API API from Buttondown — 0 operation(s) for buttondown webhooks api.
+  name: Buttondown Buttondown Webhooks API
+  slug: buttondown-buttondown-webhooks-api-api
+artifact_total: 71
 asyncapis:
 - description: ''
   name: Buttondown Webhooks
@@ -430,7 +433,7 @@ modified: '2026-08-13'
 name: Buttondown
 nav: Providers
 network: true
-overview: 'Buttondown publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Advertising Units API, API Requests API, and 26 more. Tagged areas include Analytics, Automations, Email, Markdown, and Newsletters.
+overview: 'Buttondown publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Advertising Units API, API Requests API, and 27 more. Tagged areas include Analytics, Automations, Email, Markdown, and Newsletters.
 
 
   The Buttondown catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -448,18 +451,23 @@ rate_limits:
   slug: buttondown-rate-limits
 score:
   band: exemplar
-  composite: 71.5
-  delta: 0.0
+  composite: 68.2
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 16.7
-    contract_quality: 71.2
+    contract_governance: 4.5
+    contract_quality: 70.5
     developer_ergonomics: 73.2
-    discoverability: 83.3
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 92.1
-  previous_composite: 71.5
+  previous_composite: 68.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -476,8 +484,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/screenshots/buttondown-2026-06-20T173820.png
 security:

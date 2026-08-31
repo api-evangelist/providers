@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 11
   slug: sushiswap-agentic-access
   summary_line: 11 operations · 2 acting
-api_count: 7
+api_count: 2
 apis:
 - description: Liquidity pool deposit operations
   name: SushiSwap Deposit API
@@ -249,18 +249,23 @@ rules:
   slug: sushiswap-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.2
-  delta: 0.0
+  composite: 31.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 66.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 9.8
-    contract_quality: 63.8
+    contract_quality: 61.4
     developer_ergonomics: 38.1
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 9.8
     operational_transparency: 2.6
-  previous_composite: 32.2
+  previous_composite: 31.6
   provenance:
     agentic_access: derived
     contracts:
@@ -274,8 +279,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/screenshots/sushiswap-2026-06-20T194745.png
 security:

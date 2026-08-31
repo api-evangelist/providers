@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 302
   human_in_the_loop: 4
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 546
   slug: openpath-agentic-access
   summary_line: 546 operations · 302 acting · 4 human-in-the-loop
-api_count: 89
+api_count: 1
 apis:
 - description: Authentication and Login
   name: Openpath auth API
@@ -583,6 +583,14 @@ collections:
   name: Openpath API Documentation auth tokens API
   slug: open-openpath-tokens-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/motorola-solutions/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/openpath-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -674,7 +682,7 @@ network: true
 overview: 'Openpath publishes 89 APIs on the [APIs.io](https://apis.io/) network, including auth API, billableFeatures API, identities API, and 86 more. Tagged areas include Company, Security, Access Control, Physical Security, and Identity.
 
 
-  Openpath''s developer surface includes documentation, API reference, getting-started guide, authentication, and 15 more developer resources.'
+  Openpath''s developer surface includes documentation, API reference, getting-started guide, authentication, and 17 more developer resources.'
 random_paper: 2
 scopes:
 - name: Openpath Scopes
@@ -683,18 +691,23 @@ scopes:
   summary_line: 3 scopes
 score:
   band: thin
-  composite: 27.3
-  delta: 0.0
+  composite: 27.5
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
     contract_governance: 4.5
     contract_quality: 48.3
     developer_ergonomics: 32.7
-    discoverability: 68.5
+    discoverability: 70.4
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 27.3
+  previous_composite: 28.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -705,8 +718,8 @@ score:
       total: 89
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openpath/refs/heads/main/screenshots/openpath-2026-08-07T190619.png
 security:

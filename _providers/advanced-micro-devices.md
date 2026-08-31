@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-26'
+  score: 34.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: advanced-micro-devices-agentic-access
   summary_line: 13 operations · 3 acting · 1 human-in-the-loop
-api_count: 8
+api_count: 2
 apis:
 - description: ROCm system configuration
   name: Advanced Micro Devices Configuration API
@@ -68,7 +68,7 @@ apis:
 - description: Performance counters and profiling data
   name: Advanced Micro Devices Performance API
   slug: advanced-micro-devices-performance-api
-artifact_total: 101
+artifact_total: 103
 collections:
 - collection_type: postman
   name: AMD Developer Cloud Configuration API
@@ -128,6 +128,10 @@ collections:
   name: AMD ROCm Management API
   slug: open-amd-rocm-management-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/advanced-micro-devices-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -163,15 +167,15 @@ common:
 - group: start
   title: ''
   type: GettingStarted
-  url: https://developer.amd.com/resources/rocm-resources/
+  url: https://rocm.docs.amd.com/en/latest/install/rocm.html
 - group: operate
   title: ''
   type: Support
-  url: https://developer.amd.com/support/
+  url: https://www.amd.com/en/support.html
 - group: company
   title: ''
   type: Blog
-  url: https://www.amd.com/en/corporate/blog.html
+  url: https://www.amd.com/en/blogs.html
 - group: commercial
   title: ''
   type: TermsOfService
@@ -191,7 +195,83 @@ common:
 - group: start
   title: ''
   type: Signup
-  url: https://developer.amd.com/amd-developer-cloud/
+  url: https://www.amd.com/en/developer/resources/cloud-access/amd-developer-cloud.html
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://rocm.docs.amd.com/en/latest/components/core.html
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/advanced-micro-devices-rdc.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/advanced-micro-devices-device-metrics-gpu.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/advanced-micro-devices-device-metrics-nic.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/advanced-micro-devices-device-metrics-exporterconfig.proto
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/advanced-micro-devices-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/advanced-micro-devices-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/advanced-micro-devices-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/advanced-micro-devices-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/advanced-micro-devices-cli.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/advanced-micro-devices-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/advanced-micro-devices-vulnerability-disclosure.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/advanced-micro-devices-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/advanced-micro-devices-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/advanced-micro-devices-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/advanced-micro-devices-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/advanced-micro-devices-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/advanced-micro-devices-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/advanced-micro-devices-rate-limits.yml
 created: '2024-01-01'
 description: Advanced Micro Devices (AMD) is a global semiconductor company that develops high-performance computing, graphics, and visualization technologies for data centers, gaming, and embedded markets. AMD provides the ROCm open software platform for GPU computing, HIP programming interface, and the AMD Developer Cloud for AI workloads using AMD Instinct GPUs.
 examples:
@@ -370,7 +450,11 @@ jsonld:
   property_count: 0
   slug: amd-rocm-management-api-context
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: AMD publishes a first-party Model Context Protocol server, amd/ryzenai-mcp-server, in its own GitHub organization. It gives an MCP client semantic search over the AMD Ryzen AI documentation (https://r
+  name: AMD Ryzen AI MCP Server
+  slug: amd-ryzen-ai-mcp-server
+modified: '2026-08-30'
 name: Advanced Micro Devices
 nav: Providers
 network: true
@@ -380,7 +464,7 @@ overview: 'Advanced Micro Devices publishes 8 APIs on the [APIs.io](https://apis
   The Advanced Micro Devices catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Advanced Micro Devices'' developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, academy / training, and 9 more developer resources.'
+  Advanced Micro Devices'' developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, academy / training, and 29 more developer resources.'
 plans:
 - name: Advanced Micro Devices Plans Pricing
   plan_count: 3
@@ -439,19 +523,24 @@ rules:
     warn: 11
   slug: amd-spectral-rules
 score:
-  band: developing
-  composite: 43.3
-  delta: 1.0
+  band: strong
+  composite: 56.2
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 12.9
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 28.8
+    contract_governance: 47.0
     contract_quality: 64.6
-    developer_ergonomics: 36.9
-    discoverability: 74.1
-    governance: 28.8
-    operational_transparency: 7.9
-  previous_composite: 42.3
+    developer_ergonomics: 72.6
+    discoverability: 75.9
+    governance: 47.0
+    operational_transparency: 34.2
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -459,9 +548,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/screenshots/advanced-micro-devices-2026-06-20T165331.png
 security:
 - kind: authentication
@@ -472,6 +561,10 @@ security:
   name: Advanced Micro Devices Domain Security
   slug: advanced-micro-devices-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Advanced Micro Devices Vulnerability Disclosure
+  slug: advanced-micro-devices-vulnerability-disclosure
+  summary_line: disclosure policy published
 slug: advanced-micro-devices
 tags:
 - Artificial Intelligence
@@ -479,7 +572,7 @@ tags:
 - GPU
 - HPC
 - Machine-Learning
-- Semiconductors
+- Semiconductor
 - Fortune 500
 use_cases:
 - description: Train and fine-tune large language models on AMD Instinct GPU clusters with ROCm-optimized PyTorch.

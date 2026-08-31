@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 196
   slug: university-of-illinois-urbana-champaign-agentic-access
   summary_line: 196 operations · 116 acting · 3 human-in-the-loop
-api_count: 8
+api_count: 2
 apis:
 - description: The identity, account and authorization service at the centre of UIUC's Rokwire platform — accounts, profiles, applications, organizations, service registrations, permissions, roles and scopes. Writte
   name: Rokwire Core Building Block API
@@ -110,6 +110,10 @@ collections:
   name: Rokwire Core Building Block Admin .well Known API
   slug: open-university-of-illinois-urbana-champaign-well-known-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/university-of-illinois-urbana-champaign-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -310,7 +314,7 @@ overview: 'University of Illinois Urbana-Champaign publishes 2 APIs on the [APIs
   The University of Illinois Urbana-Champaign catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  University of Illinois Urbana-Champaign''s developer surface includes API reference, documentation, GitHub presence, status page, support, engineering blog, authentication, and 31 more developer resources.'
+  University of Illinois Urbana-Champaign''s developer surface includes API reference, documentation, GitHub presence, status page, support, engineering blog, authentication, and 32 more developer resources.'
 plans:
 - name: University Of Illinois Urbana Champaign Plans Pricing
   plan_count: 2
@@ -348,15 +352,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 48.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 31.8
     contract_quality: 61.5
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 31.8
     operational_transparency: 7.9
   previous_composite: 49.4
@@ -374,8 +383,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 79.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/screenshots/university-of-illinois-urbana-champaign-2026-06-20T200155.png
 security:

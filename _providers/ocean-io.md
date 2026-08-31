@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 1
@@ -41,12 +41,33 @@ agentic_access:
   operation_count: 26
   slug: ocean-io-agentic-access
   summary_line: 26 operations · 23 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
-- description: REST API for B2B company and people intelligence — 26 operations across search (v2 and v3 filter and lookalike search for companies and people), enrichment (single and batch, by domain or LinkedIn han
-  name: Ocean.io API
-  slug: oceanio-api
-artifact_total: 12
+- description: The Autocomplete API from Ocean.io — 5 operation(s) for autocomplete.
+  name: Ocean.io Autocomplete API
+  slug: ocean-io-autocomplete-api
+- description: The Enrich API from Ocean.io — 4 operation(s) for enrich.
+  name: Ocean.io Enrich API
+  slug: ocean-io-enrich-api
+- description: The Lookup API from Ocean.io — 2 operation(s) for lookup.
+  name: Ocean.io Lookup API
+  slug: ocean-io-lookup-api
+- description: The Ocean.io API Documentation API from Ocean.io — 0 operation(s) for ocean.io api documentation.
+  name: Ocean.io Ocean.io API Documentation API
+  slug: ocean-io-ocean-io-api-documentation-api
+- description: The Other API from Ocean.io — 3 operation(s) for other.
+  name: Ocean.io Other API
+  slug: ocean-io-other-api
+- description: The Reveal API from Ocean.io — 2 operation(s) for reveal.
+  name: Ocean.io Reveal API
+  slug: ocean-io-reveal-api
+- description: The Search API from Ocean.io — 6 operation(s) for search.
+  name: Ocean.io Search API
+  slug: ocean-io-search-api
+- description: The Segmentation API from Ocean.io — 4 operation(s) for segmentation.
+  name: Ocean.io Segmentation API
+  slug: ocean-io-segmentation-api
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Ocean Io Webhooks
@@ -56,6 +77,10 @@ collections:
   name: Ocean.io API Documentation
   slug: open-ocean-io-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ocean-io-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -184,13 +209,13 @@ modified: '2026-08-13'
 name: Ocean.io
 nav: Providers
 network: true
-overview: 'Ocean.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Intelligence, B2B, Enrichment, Lookalike, and Account Based Marketing.
+overview: 'Ocean.io publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Autocomplete API, Enrich API, Lookup API, and 5 more. Tagged areas include Sales Intelligence, B2B, Enrichment, Lookalike, and ABM.
 
 
   The Ocean.io catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Ocean.io''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, and 23 more developer resources.'
+  Ocean.io''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, and 24 more developer resources.'
 plans:
 - name: Ocean Io Plans Pricing
   plan_count: 0
@@ -207,18 +232,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.7
-  delta: 0.0
+  composite: 41.2
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 61.2
+    contract_governance: 4.5
+    contract_quality: 57.6
     developer_ergonomics: 23.2
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 55.3
-  previous_composite: 44.7
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -229,8 +259,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/screenshots/ocean-io-2026-06-20T190601.png
 security:
@@ -252,7 +282,7 @@ tags:
 - B2B
 - Enrichment
 - Lookalike
-- Account Based Marketing
+- ABM
 - Prospecting
 - Company Data
 - People Data

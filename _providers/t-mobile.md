@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: T-Mobile operates a developer portal that provides programmatic access to T-Mobile services for partners, enterprises, and IoT customers. Specific API documentation requires partner registration.
@@ -111,26 +111,31 @@ overview: 'T-Mobile publishes 1 API on the [APIs.io](https://apis.io/) network. 
 random_paper: 16
 score:
   band: emerging
-  composite: 18.8
-  delta: 1.9
+  composite: 19.6
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 37.2
     developer_ergonomics: 19.0
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 16.9
+  previous_composite: 19.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 15.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

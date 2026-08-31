@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -33,73 +33,109 @@ agentic_access:
   summary_line: 70 operations · 52 acting
 api_count: 22
 apis:
-- description: CAMARA Number Verification 2.1.0 as certified under GSMA Open Gateway. Verifies that the phone number claimed by a user matches the number of the SIM on the network connection, or returns the network-
-  name: CAMARA Number Verification API
-  slug: camara-number-verification
-- description: CAMARA SIM Swap 2.1.0 as certified under GSMA Open Gateway. Checks whether the SIM associated with a mobile phone number has been swapped within a given period, and retrieves the last SIM change date,
-  name: CAMARA SIM Swap API
-  slug: camara-sim-swap
-- description: CAMARA Device Swap 1.0.0 as certified under GSMA Open Gateway. Reports whether the device attached to a mobile subscription has changed within a supplied period and retrieves the last device change da
-  name: CAMARA Device Swap API
-  slug: camara-device-swap
-- description: CAMARA Call Forwarding Signal 0.4.0 as certified under GSMA Open Gateway. Exposes whether unconditional or conditional call forwarding is active on a subscriber line, a signal used to detect social-en
-  name: CAMARA Call Forwarding Signal API
-  slug: camara-call-forwarding-signal
-- description: CAMARA Know Your Customer Match 0.4.0 as certified under GSMA Open Gateway. Compares customer-supplied identity attributes (name, address, birthdate, identity document, email) against the data the mob
-  name: CAMARA Know Your Customer Match API
-  slug: camara-kyc-match
-- description: CAMARA Know Your Customer Age Verification 0.2.1 as certified under GSMA Open Gateway. Answers whether the subscriber behind a phone number is over a given age threshold using operator-held identity d
-  name: CAMARA Know Your Customer Age Verification API
-  slug: camara-kyc-age-verification
-- description: CAMARA KYC Tenure 0.2.0 as certified under GSMA Open Gateway. Confirms whether a mobile subscription has been active with the operator for at least a requested duration, a low-friction trust signal fo
-  name: CAMARA KYC Tenure API
-  slug: camara-kyc-tenure
-- description: 'CAMARA One Time Password SMS 1.1.1 as certified under GSMA Open Gateway. Sends a one-time password by SMS to a subscriber''s phone number and validates the code the user returns, delivered through the '
-  name: CAMARA One Time Password SMS API
-  slug: camara-one-time-password-sms
-- description: CAMARA Quality-On-Demand 1.1.0 as certified under GSMA Open Gateway. Creates, reads, extends and deletes temporary sessions that raise the network quality of service for a specific device and applicat
-  name: CAMARA Quality on Demand API
-  slug: camara-quality-on-demand
-- description: CAMARA QoS Profiles 1.1.0 as certified under GSMA Open Gateway. Lists the quality-of-service profiles an operator makes available and retrieves a single profile by name, so a developer can discover wh
-  name: CAMARA QoS Profiles API
-  slug: camara-qos-profiles
-- description: CAMARA Device Reachability Status 1.1.0 as certified under GSMA Open Gateway. Returns whether a device is currently reachable on the network and by which means (SMS, data), the core device-state signa
-  name: CAMARA Device Reachability Status API
-  slug: camara-device-reachability-status
-- description: CAMARA Device Reachability Status Subscriptions 0.8.0 as certified under GSMA Open Gateway. Creates and manages event subscriptions that push CloudEvents notifications to a consumer sink when a device
-  name: CAMARA Device Reachability Status Subscriptions API
-  slug: camara-device-reachability-status-subscriptions
-- description: 'CAMARA Device Identifier 0.3.0 as certified under GSMA Open Gateway. Retrieves the identifier, type and pseudonymous identifier of the device a subscription is currently using, and matches a supplied '
-  name: CAMARA Device Identifier API
-  slug: camara-device-identifier
-- description: CAMARA Device Roaming Status 1.0.0 as certified under GSMA Open Gateway. Reports whether a device is roaming and, where available, the country it is roaming in, used for travel-aware fraud rules and I
-  name: CAMARA Device Roaming Status API
-  slug: camara-device-roaming-status
-- description: CAMARA Connected Network Type 0.1.0 as certified under GSMA Open Gateway. Returns the access technology a device is currently attached to (for example 4G or 5G standalone), letting an application adap
-  name: CAMARA Connected Network Type API
-  slug: camara-connected-network-type
-- description: CAMARA Population Density Data 0.3.0 as certified under GSMA Open Gateway. Returns aggregated, anonymised estimates of how many devices are present in a requested geographic area over a time window, f
-  name: CAMARA Population Density Data API
-  slug: camara-population-density-data
-- description: CAMARA Device Location Retrieval 0.5.0 as certified under GSMA Open Gateway. Returns the network-derived location of a device as a circle or polygon with an accuracy indication, without relying on han
-  name: CAMARA Device Location Retrieval API
-  slug: camara-location-retrieval
-- description: CAMARA Device Location Verification 3.0.0 as certified under GSMA Open Gateway. Verifies whether a device is inside, outside or partly within a supplied area rather than returning coordinates, a priva
-  name: CAMARA Device Location Verification API
-  slug: camara-location-verification
-- description: CAMARA Simple Edge Discovery 2.0.1 as certified under GSMA Open Gateway. Returns the closest MEC (multi-access edge computing) platform to a given device so that an application can route traffic to th
-  name: CAMARA Simple Edge Discovery API
-  slug: camara-simple-edge-discovery
-- description: 'CAMARA Carrier Billing 0.5.0 as certified under GSMA Open Gateway. Creates and manages direct carrier-billing payments charged to a subscriber''s mobile account, including payment status, confirmation '
-  name: CAMARA Carrier Billing API
-  slug: camara-carrier-billing
-- description: CAMARA Home Devices QoD 0.4.0 as certified under GSMA Open Gateway. Requests prioritised quality of service for a device on a fixed broadband home network, extending Quality on Demand beyond mobile to
-  name: CAMARA Home Devices QoD API
-  slug: camara-home-devices-qod
-- description: 'TM Forum TMF931 Open Gateway Operate API - Onboarding and Ordering 5.2.1, the GSMA-defined ''Operate API'' that channel partners and aggregators use to onboard against an operator: browse the API produc'
-  name: TM Forum TMF931 Open Gateway Onboarding and Ordering API
-  slug: tmf931-onboarding-ordering
-artifact_total: 50
+- description: Operations to verify the age of a user.
+  name: GSMA Open Gateway Age Verification API
+  slug: open-gateway-age-verification-api
+- description: Operations for ApiProduct Resource
+  name: GSMA Open Gateway API Product API
+  slug: open-gateway-apiproduct-api
+- description: Operations for ApiProductOrder Resource
+  name: GSMA Open Gateway API Product Order API
+  slug: open-gateway-apiproductorder-api
+- description: Operations for Application Resource
+  name: GSMA Open Gateway Application API
+  slug: open-gateway-application-api
+- description: Operations for ApplicationOwner Resource
+  name: GSMA Open Gateway Application Owner API
+  slug: open-gateway-applicationowner-api
+- description: Provides information on Call Forwarding settings for the provided phone number (PhoneNumber).
+  name: GSMA Open Gateway Call Forwarding information retrieval API
+  slug: open-gateway-call-forwarding-information-retrieval-api
+- description: Validate if the SIM of the end-user has been installed in a different device during a past period
+  name: GSMA Open Gateway Check Device Swap API
+  slug: open-gateway-check-device-swap-api
+- description: The Check SIM swap API from GSMA Open Gateway — 1 operation(s) for check sim swap.
+  name: GSMA Open Gateway Check SIM swap API
+  slug: open-gateway-check-sim-swap-api
+- description: Check details about the length of tenure of the subscriber
+  name: GSMA Open Gateway Check Subscriber Tenure API
+  slug: open-gateway-check-subscriber-tenure-api
+- description: Operations to get the network type device is connected to
+  name: GSMA Open Gateway Connected Network Type API
+  slug: open-gateway-connected-network-type-api
+- description: Operations to get the current reachability status of a device
+  name: GSMA Open Gateway Device reachability status API
+  slug: open-gateway-device-reachability-status-api
+- description: Operation to manage event subscription on device reachability status event.
+  name: GSMA Open Gateway Device reachability status subscription API
+  slug: open-gateway-device-reachability-status-subscription-api
+- description: Find the closest Edge Cloud Zone to the user device.
+  name: GSMA Open Gateway Discovery API
+  slug: open-gateway-discovery-api
+- description: Endpoints to register and terminate an Event Listener
+  name: GSMA Open Gateway events subscription API
+  slug: open-gateway-events-subscription-api
+- description: Retrieve details about the device being used by a mobile subscriber
+  name: GSMA Open Gateway Get Device Identifiers API
+  slug: open-gateway-get-device-identifiers-api
+- description: QoD control operations for home devices
+  name: GSMA Open Gateway Home Devices QoD API
+  slug: open-gateway-home-devices-qod-api
+- description: Retrieve the location of a device
+  name: GSMA Open Gateway Location retrieval API
+  slug: open-gateway-location-retrieval-api
+- description: Verification of the location of a device
+  name: GSMA Open Gateway Location verification API
+  slug: open-gateway-location-verification-api
+- description: Operations to match a customer identity against the account data bound to their phone number.
+  name: GSMA Open Gateway Match API
+  slug: open-gateway-match-api
+- description: Operations for Monitor Resource
+  name: GSMA Open Gateway Monitor API
+  slug: open-gateway-monitor-api
+- description: Notifications for Resource Lifecycle and event notifications
+  name: GSMA Open Gateway notification listener API
+  slug: open-gateway-notification-listener-api
+- description: Operations to manage One Step Payment procedure
+  name: GSMA Open Gateway One Step Payment API
+  slug: open-gateway-one-step-payment-api
+- description: API operations to manage OTP codes
+  name: GSMA Open Gateway OTP Management API
+  slug: open-gateway-otp-management-api
+- description: Operations to obtain information about payments
+  name: GSMA Open Gateway Payment API
+  slug: open-gateway-payment-api
+- description: API operation to return the phone number associated to the access token.
+  name: GSMA Open Gateway Phone number share API
+  slug: open-gateway-phone-number-share-api
+- description: API operation to verify a phone number received as input. It can be received either in plain text or hashed format.
+  name: GSMA Open Gateway Phone number verify API
+  slug: open-gateway-phone-number-verify-api
+- description: Operations to retrieve population density information.
+  name: GSMA Open Gateway Population Density Data API
+  slug: open-gateway-population-density-data-api
+- description: Manage QoS Profiles
+  name: GSMA Open Gateway QoS Profiles API
+  slug: open-gateway-qos-profiles-api
+- description: Manage QoS sessions
+  name: GSMA Open Gateway QoS Sessions API
+  slug: open-gateway-qos-sessions-api
+- description: Receive the last date in which the device of the end-user was swapped
+  name: GSMA Open Gateway Retrieve Device Swap Date API
+  slug: open-gateway-retrieve-device-swap-date-api
+- description: The Retrieve SIM swap date API from GSMA Open Gateway — 1 operation(s) for retrieve sim swap date.
+  name: GSMA Open Gateway Retrieve SIM swap date API
+  slug: open-gateway-retrieve-sim-swap-date-api
+- description: Operation to get device roaming status and country information (if roaming) synchronously
+  name: GSMA Open Gateway Roaming status retrieval API
+  slug: open-gateway-roaming-status-retrieval-api
+- description: Operations to manage Two Step Payment procedure
+  name: GSMA Open Gateway Two Step Payment API
+  slug: open-gateway-two-step-payment-api
+- description: Provides information on Unconditional Call Forwarding settings for the provided phone number (PhoneNumber)
+  name: GSMA Open Gateway Unconditional Call Forwarding information retrieval API
+  slug: open-gateway-unconditional-call-forwarding-information-retrieval-api
+artifact_total: 62
 asyncapis:
 - description: ''
   name: Open Gateway Webhooks
@@ -169,6 +205,98 @@ collections:
   name: Open Gateway Operate API Onboarding and Ordering
   slug: open-tmforum-tmf931-open-gateway-onboarding-ordering
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/open-gateway-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-number-verification-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-sim-swap-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-device-swap-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-call-forwarding-signal-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-kyc-match-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-kyc-age-verification-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-kyc-tenure-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-one-time-password-sms-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-quality-on-demand-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-qos-profiles-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-device-reachability-status-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-device-reachability-status-subscriptions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-device-identifier-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-device-roaming-status-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-connected-network-type-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-population-density-data-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-location-retrieval-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-location-verification-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-simple-edge-discovery-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-carrier-billing-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-camara-home-devices-qod-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/open-gateway-tmforum-tmf931-open-gateway-onboarding-ordering-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -354,13 +482,13 @@ modified: '2026-07-25'
 name: GSMA Open Gateway
 nav: Providers
 network: true
-overview: 'GSMA Open Gateway publishes 22 APIs on the [APIs.io](https://apis.io/) network, including CAMARA Number Verification API, CAMARA SIM Swap API, CAMARA Device Swap API, and 19 more. Tagged areas include Telecommunications, United Kingdom, Network APIs, CAMARA, and Open Gateway.
+overview: 'GSMA Open Gateway publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Age Verification API, API Product API, API Product Order API, and 31 more. Tagged areas include Telecommunications, United Kingdom, Network APIs, CAMARA, and Open Gateway.
 
 
   The GSMA Open Gateway catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  GSMA Open Gateway''s developer surface includes authentication, documentation, developer portal, privacy policy, sandbox, changelog, API reference, and 36 more developer resources.'
+  GSMA Open Gateway''s developer surface includes authentication, documentation, developer portal, privacy policy, sandbox, changelog, API reference, and 59 more developer resources.'
 random_paper: 15
 scopes:
 - name: Open Gateway Scopes
@@ -369,18 +497,23 @@ scopes:
   summary_line: 38 scopes
 score:
   band: developing
-  composite: 51.9
+  composite: 49.5
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 61.7
+    contract_governance: 4.5
+    contract_quality: 60.2
     developer_ergonomics: 61.3
-    discoverability: 83.3
-    governance: 16.7
+    discoverability: 77.8
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 51.9
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -397,8 +530,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 69.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-gateway/refs/heads/main/screenshots/open-gateway-2026-08-07T190457.png
 security:

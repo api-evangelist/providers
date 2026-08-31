@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 51
   slug: canny-agentic-access
   summary_line: 51 operations · 51 acting
-api_count: 16
+api_count: 1
 apis:
 - description: 'REST API for retrieving and managing Canny boards, posts, comments, votes, status changes, users, companies, categories, tags, and changelog entries. Requests authenticate using a secret API key sent '
   name: Canny REST API
@@ -205,25 +205,30 @@ modified: '2026-05-11'
 name: Canny
 nav: Providers
 network: true
-overview: 'Canny publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Autopilot API, Boards API, Categories API, and 12 more. Tagged areas include Customer Feedback, Product Management, Feature Requests, Roadmaps, and Changelog.
+overview: 'Canny publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Autopilot API, Boards API, Categories API, and 12 more. Tagged areas include Customer Feedback, Product Management, Feature Requests, Roadmap, and Changelog.
 
 
   Canny''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
 random_paper: 12
 score:
   band: thin
-  composite: 33.7
-  delta: 1.5
+  composite: 33.1
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 45.6
     developer_ergonomics: 45.2
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 32.2
+  previous_composite: 33.7
   provenance:
     agentic_access: derived
     contracts:
@@ -231,8 +236,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canny/refs/heads/main/screenshots/canny-2026-06-20T173923.png
 security:
@@ -249,7 +254,7 @@ tags:
 - Customer Feedback
 - Product Management
 - Feature Requests
-- Roadmaps
+- Roadmap
 - Changelog
 - Voice of Customer
 - Software-as-a-Service

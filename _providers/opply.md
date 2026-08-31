@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 512
   human_in_the_loop: 18
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 910
   slug: opply-agentic-access
   summary_line: 910 operations · 512 acting · 18 human-in-the-loop
-api_count: 47
+api_count: 1
 apis:
 - description: The Activity Feed API from Opply — 4 operation(s) for activity feed.
   name: Opply Activity Feed API
@@ -332,6 +332,10 @@ collections:
   name: Opply Activity Feed .well-known API
   slug: open-opply-well-known-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/opply-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -423,7 +427,7 @@ network: true
 overview: 'Opply publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Activity Feed API, Admin panel API, Agents API, and 44 more. Tagged areas include Company, Food and Beverage, Supply Chain, Procurement, and Ordering.
 
 
-  Opply''s developer surface includes authentication, engineering blog, and 17 more developer resources.'
+  Opply''s developer surface includes authentication, engineering blog, and 18 more developer resources.'
 random_paper: 18
 scopes:
 - name: Opply Scopes
@@ -432,18 +436,23 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: thin
-  composite: 37.0
-  delta: 1.3
+  composite: 34.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 51.1
     developer_ergonomics: 16.1
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 35.7
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -460,8 +469,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opply/refs/heads/main/screenshots/opply-2026-08-07T190741.png
 security:

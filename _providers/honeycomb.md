@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 133
   slug: honeycomb-agentic-access
   summary_line: 133 operations · 79 acting
-api_count: 22
+api_count: 1
 apis:
 - description: The Honeycomb Events API is the lowest-level interface for sending event data to Honeycomb. It supports both single event creation and batch event submission, allowing developers to send structured te
   name: Honeycomb Events API
@@ -477,18 +477,23 @@ rules:
   slug: honeycomb-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.8
-  delta: 1.9
+  composite: 36.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 69.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 13.6
     contract_quality: 74.2
     developer_ergonomics: 23.8
-    discoverability: 57.4
+    discoverability: 51.9
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 34.9
+  previous_composite: 36.8
   provenance:
     agentic_access: derived
     contracts:
@@ -500,8 +505,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeycomb/refs/heads/main/screenshots/honeycomb-2026-06-20T182822.png
 security:

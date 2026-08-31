@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 2
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 32
   slug: abloatai-agentic-access
   summary_line: 32 operations · 19 acting · 2 human-in-the-loop
-api_count: 8
+api_count: 1
 apis:
 - description: A public, anonymous, stateless Streamable-HTTP MCP server Ablo runs on its own domain so an AI coding assistant writing an Ablo integration can search the real docs, inspect the actual SDK export surf
   name: Ablo Integration-Helper MCP Server
@@ -226,7 +226,7 @@ modified: '2026-08-19'
 name: Ablo
 nav: Providers
 network: true
-overview: 'Ablo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Branches API, Claims API, Commits API, and 4 more. Tagged areas include Agent Infrastructure, multi-agent-coordination, concurrency-control, State Management, and Database.
+overview: 'Ablo publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Branches API, Claims API, Commits API, and 4 more. Tagged areas include agent-infrastructure, multi-agent-coordination, concurrency-control, state-management, and Database.
 
 
   The Ablo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -244,18 +244,23 @@ rate_limits:
   slug: abloatai-rate-limits
 score:
   band: strong
-  composite: 59.0
-  delta: 0.0
+  composite: 56.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 58.2
     developer_ergonomics: 75.6
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 59.0
+  previous_composite: 57.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,8 +271,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -280,12 +285,12 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: abloatai
 tags:
-- Agent Infrastructure
+- agent-infrastructure
 - multi-agent-coordination
 - concurrency-control
-- State Management
+- state-management
 - Database
-- Postgres
+- postgres
 - real-time-sync
 - MCP
 - Developer Tools

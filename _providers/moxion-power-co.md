@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
 - description: The Device Faults API from Moxion Power Co — 1 operation(s) for device faults.
@@ -78,6 +78,10 @@ collections:
   name: Moxion Power Developer Device Faults Organizations API
   slug: open-moxion-power-co-organizations-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/moxion-power-co-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -197,22 +201,27 @@ network: true
 overview: 'Moxion Power Co publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Device Faults API, Device Location API, Device Metrics API, and 3 more. Tagged areas include Company, Energy Storage, Mobile Power, Battery, and Telemetry.
 
 
-  Moxion Power Co''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, GitHub presence, engineering blog, and 19 more developer resources.'
+  Moxion Power Co''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, GitHub presence, engineering blog, and 20 more developer resources.'
 random_paper: 11
 score:
   band: thin
-  composite: 36.3
-  delta: -0.8
+  composite: 35.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
-    contract_governance: 45.5
-    contract_quality: 52.4
+    contract_governance: 33.3
+    contract_quality: 53.7
     developer_ergonomics: 35.1
     discoverability: 81.5
-    governance: 45.5
+    governance: 33.3
     operational_transparency: 5.3
-  previous_composite: 37.1
+  previous_composite: 35.1
   provenance:
     conformance: first-party
     contracts:
@@ -228,8 +237,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/screenshots/moxion-power-co-2026-08-07T184408.png
 security:

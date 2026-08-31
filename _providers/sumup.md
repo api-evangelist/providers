@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 39
   slug: sumup-agentic-access
   summary_line: 39 operations · 19 acting · 1 human-in-the-loop
-api_count: 10
+api_count: 1
 apis:
 - description: Checkouts represent online payment sessions that you create before attempting to charge a payer. A checkout captures the payment intent, such as the amount, currency, merchant, and optional customer o
   name: SumUp Checkouts API
@@ -111,6 +111,18 @@ collections:
   name: SumUp REST Checkouts Transactions API
   slug: open-sumup-transactions-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/sumup/sumup-openapi/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/sumup/sumup-openapi/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/sumup/sumup-openapi/blob/main/CODE_OF_CONDUCT.md
 - group: commercial
   title: ''
   type: License
@@ -537,13 +549,13 @@ modified: '2026-06-13'
 name: SumUp
 nav: Providers
 network: true
-overview: 'SumUp publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Checkouts API, Customers API, Members API, and 7 more. Tagged areas include Payments, Point-of-Sale, Card Readers, Checkout, and Fintech.
+overview: 'SumUp publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Checkouts API, Customers API, Members API, and 7 more. Tagged areas include Payments, POS, Point-of-Sale, Card Readers, and Checkout.
 
 
   The SumUp catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  SumUp''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 14 more developer resources.'
+  SumUp''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 17 more developer resources.'
 plans:
 - name: Sumup Plans Pricing
   plan_count: 5
@@ -571,18 +583,26 @@ scopes:
   summary_line: 10 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 48.8
-  delta: 1.0
+  composite: 49.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 60.9
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
-    operational_transparency: 57.9
-  previous_composite: 47.8
+    operational_transparency: 68.4
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 50.3
   provenance:
     agentic_access: derived
     contracts:
@@ -596,8 +616,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 43.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/screenshots/sumup-2026-06-20T194647.png
 security:
@@ -616,6 +636,7 @@ security:
 slug: sumup
 tags:
 - Payments
+- POS
 - Point-of-Sale
 - Card Readers
 - Checkout

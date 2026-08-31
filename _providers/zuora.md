@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.7
-  scored_at: '2026-08-26'
+  score: 37.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 279
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 446
   slug: zuora-agentic-access
   summary_line: 446 operations · 279 acting · 1 human-in-the-loop
-api_count: 80
+api_count: 1
 apis:
 - description: The Zuora v1 REST API provides complete coverage of Zuora Billing, Payments, and Platform features. It enables developers to automate billing operations, manage subscriptions, process payments, and in
   name: Zuora V1 API
@@ -526,6 +526,10 @@ collections:
   name: API Reference Accounting Codes Zuora Revenue Integration API
   slug: open-zuora-zuora-revenue-integration-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zuora-capability-edges.yml
 - group: operate
   title: ''
   type: Support
@@ -597,7 +601,7 @@ network: true
 overview: 'Zuora publishes 79 APIs on the [APIs.io](https://apis.io/) network, including Accounting Codes API, Accounting Periods API, Accounts API, and 76 more. Tagged areas include Billing, Finance, Payments, and Subscription.
 
 
-  Zuora''s developer surface includes support, changelog, getting-started guide, developer portal, documentation, engineering blog, and 8 more developer resources.'
+  Zuora''s developer surface includes support, changelog, getting-started guide, developer portal, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Zuora Plans Pricing
   plan_count: 3
@@ -609,18 +613,23 @@ rate_limits:
   slug: zuora-rate-limits
 score:
   band: thin
-  composite: 32.3
-  delta: 1.4
+  composite: 31.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 87.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 53.9
     developer_ergonomics: 47.6
-    discoverability: 48.1
+    discoverability: 42.6
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 30.9
+  previous_composite: 32.3
   provenance:
     agentic_access: derived
     contracts:
@@ -634,8 +643,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuora/refs/heads/main/screenshots/zuora-2026-06-20T202000.png
 security:

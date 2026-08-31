@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 21
   slug: amazon-compute-optimizer-agentic-access
   summary_line: 21 operations · 21 acting
-api_count: 21
+api_count: 1
 apis:
 - description: 'The #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences API from Amazon Compute Optimizer — 1 operation(s) for #x amz target=computeoptimizerservice.deleterecommendationpreferences.'
   name: 'Amazon Compute Optimizer #X Amz Target=ComputeOptimizerService.DeleteRecommendationPreferences API'
@@ -2277,19 +2277,24 @@ rules:
     warn: 14
   slug: amazon-compute-optimizer-spectral-rules
 score:
-  band: strong
-  composite: 57.0
-  delta: 5.9
+  band: developing
+  composite: 53.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 72.1
     developer_ergonomics: 64.3
-    discoverability: 77.8
-    governance: 45.5
+    discoverability: 61.1
+    governance: 33.3
     operational_transparency: 18.4
-  previous_composite: 51.1
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2299,9 +2304,9 @@ score:
       marker_coverage: 0.0
       total: 21
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-compute-optimizer/refs/heads/main/screenshots/amazon-compute-optimizer-2026-07-25T200002.png
 security:
 - kind: authentication

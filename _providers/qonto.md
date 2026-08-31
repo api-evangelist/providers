@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 7
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 33
   slug: qonto-agentic-access
   summary_line: 33 operations · 16 acting · 7 human-in-the-loop
-api_count: 13
+api_count: 1
 apis:
 - description: The Cards API from Qonto — 1 operation(s) for cards.
   name: Qonto Cards API
@@ -171,6 +171,10 @@ collections:
   name: Qonto Business Cards Webhooks API
   slug: open-qonto-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/qonto-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -373,7 +377,7 @@ overview: 'Qonto publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
   The Qonto catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Qonto''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 38 more developer resources.'
+  Qonto''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 39 more developer resources.'
 plans:
 - name: Qonto Plans Pricing
   plan_count: 6
@@ -390,18 +394,23 @@ scopes:
   summary_line: 35 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 74.6
-  delta: 0.0
+  composite: 73.3
+  coverage:
+    artifact_dirs: 28
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.0
     developer_ergonomics: 75.6
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 70.4
+    governance: 4.5
     operational_transparency: 84.2
-  previous_composite: 74.6
+  previous_composite: 73.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -414,12 +423,18 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 74.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/screenshots/qonto-2026-08-17T075403.png
 security:

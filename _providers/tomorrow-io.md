@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 32
   slug: tomorrow-io-agentic-access
   summary_line: 32 operations · 19 acting
-api_count: 10
+api_count: 2
 apis:
 - description: Retrieve historical weather observations and monthly climate normals for any point or polygon on Earth using the same field catalog as the realtime and forecast APIs.
   name: Tomorrow.io Historical Weather API
@@ -526,18 +526,23 @@ rules:
   slug: tomorrow-io-rules
 score:
   band: exemplar
-  composite: 67.5
-  delta: 0.9
+  composite: 66.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 27.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 28.8
     contract_quality: 69.8
     developer_ergonomics: 77.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 66.6
+  previous_composite: 67.5
   provenance:
     agentic_access: derived
     contracts:
@@ -545,8 +550,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tomorrow-io/refs/heads/main/screenshots/tomorrow-io-2026-06-20T195444.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 29
   slug: singlestore-agentic-access
   summary_line: 29 operations · 16 acting · 2 human-in-the-loop
-api_count: 9
+api_count: 2
 apis:
 - description: Upload, download, list, and delete files in the personal, shared, or models space within SingleStore Helios Spaces (stage storage).
   name: SingleStore Files API
@@ -279,15 +279,20 @@ rules:
   slug: singlestore-rules
 score:
   band: developing
-  composite: 44.9
-  delta: 0.0
+  composite: 44.3
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 61.1
     developer_ergonomics: 42.9
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 9.8
     operational_transparency: 13.2
   previous_composite: 44.9
@@ -298,8 +303,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/screenshots/singlestore-2026-06-20T193949.png
 security:

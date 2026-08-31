@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 221
   human_in_the_loop: 5
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 459
   slug: rapid7-agentic-access
   summary_line: 459 operations · 221 acting · 5 human-in-the-loop
-api_count: 50
+api_count: 3
 apis:
 - description: REST API for the InsightVM vulnerability management product, exposing assets, scans, vulnerabilities, remediation projects, and reports. Authentication uses an Insight Platform API key in the `X-Api-K
   name: Rapid7 InsightVM Cloud API
@@ -350,6 +350,10 @@ collections:
   name: InsightAppSec Accounts Vulnerability Result API
   slug: open-rapid7-vulnerability-result-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/rapid7-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1073,7 +1077,7 @@ overview: 'Rapid7 publishes 47 APIs on the [APIs.io](https://apis.io/) network, 
   The Rapid7 catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Rapid7''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 10 more developer resources.'
+  Rapid7''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Rapid7 Plans Pricing
   plan_count: 1
@@ -1097,7 +1101,12 @@ rules:
 score:
   band: developing
   composite: 42.5
-  delta: -0.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 65.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -1107,7 +1116,7 @@ score:
     discoverability: 50.0
     governance: 9.8
     operational_transparency: 39.5
-  previous_composite: 42.7
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -1115,8 +1124,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 47
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapid7/refs/heads/main/screenshots/rapid7-2026-06-20T192558.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The Unity Cloud (Unity Platform) developer surface, documented publicly at docs.unitycloud.io as the Unity Platform SDK reference. A single GraphQL endpoint collates the schemas of every installed ext
@@ -163,18 +163,23 @@ overview: 'Codafication publishes 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 13
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 36.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.2
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
     contract_governance: 18.2
     contract_quality: 42.7
-    developer_ergonomics: 69.0
-    discoverability: 70.4
+    developer_ergonomics: 63.1
+    discoverability: 66.7
     governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 37.6
+  previous_composite: 37.2
   provenance:
     conformance: first-party
   regulatory:
@@ -183,8 +188,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 33.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codafication/refs/heads/main/screenshots/codafication-2026-07-25T205858.png
 security:
@@ -210,7 +215,7 @@ tags:
 - Webhook
 - SDK
 - Extensions
-- Multi-Tenant
+- Multi Tenant
 - Partner Gated
 website: https://codafication.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Voiden is a desktop application (Electron/TypeScript) for API design, testing, and documentation using .void file format — plain Markdown with structured request blocks. Features reusable blocks with '
@@ -41,6 +41,26 @@ apis:
   slug: voiden-tool
 artifact_total: 10
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/VoidenHQ/voiden/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/VoidenHQ/voiden/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/VoidenHQ/voiden/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/VoidenHQ/voiden/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/VoidenHQ/voiden/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -110,13 +130,13 @@ modified: '2026-05-03'
 name: Voiden
 nav: Providers
 network: true
-overview: 'Voiden publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, API Testing, API Documentation, Developer Tools, and Git-Native.
+overview: 'Voiden publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Design, API Testing, API Documentation, Developer Tools, and Git Native.
 
 
   The Voiden catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Voiden''s developer surface includes engineering blog and 9 more developer resources.'
+  Voiden''s developer surface includes engineering blog and 14 more developer resources.'
 plans:
 - name: Voiden Plans Pricing
   plan_count: 3
@@ -138,9 +158,14 @@ rules:
     warn: 5
   slug: voiden-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 21.6
-  delta: 1.9
+  band: thin
+  composite: 32.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -149,10 +174,13 @@ score:
     developer_ergonomics: 11.9
     discoverability: 66.7
     governance: 25.0
-    operational_transparency: 13.2
-  previous_composite: 19.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 32.5
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voiden/refs/heads/main/screenshots/voiden-2026-06-20T201127.png
 security:
@@ -166,7 +194,7 @@ tags:
 - API Testing
 - API Documentation
 - Developer Tools
-- Git-Native
+- Git Native
 - Markdown
 website: https://voiden.md/
 ---

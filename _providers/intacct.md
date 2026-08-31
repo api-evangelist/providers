@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Modern REST API for Sage Intacct using standard HTTP verbs and predictable URLs to operate on Intacct objects and data. Authenticates with OAuth 2.0 and supports batch, bulk, and composite requests. S
@@ -184,7 +184,12 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials/tokenExchange
 score:
   band: developing
-  composite: 42.2
+  composite: 41.0
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 60.5
@@ -192,10 +197,10 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 64.3
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 42.2
+  previous_composite: 41.0
   provenance:
     mcp: first-party
   regulatory:
@@ -204,8 +209,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intacct/refs/heads/main/screenshots/intacct-2026-07-25T222634.png
 security:

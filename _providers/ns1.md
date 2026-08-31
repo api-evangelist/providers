@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'REST/JSON API for managing NS1 (IBM NS1 Connect) authoritative DNS: zones, records, answers and filter chains, monitoring jobs, notification lists, data sources and feeds, account/team/user/API-key ma'
@@ -41,6 +41,10 @@ apis:
   slug: ns1-connect-api
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ibm/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -116,11 +120,16 @@ network: true
 overview: 'NS1 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, DNS, Managed DNS, and Traffic Management.
 
 
-  NS1''s developer surface includes documentation, API reference, authentication, CLI, and 12 more developer resources.'
+  NS1''s developer surface includes documentation, API reference, authentication, CLI, and 13 more developer resources.'
 random_paper: 1
 score:
   band: emerging
   composite: 25.1
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -132,8 +141,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 25.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ns1/refs/heads/main/screenshots/ns1-2026-08-07T185658.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 22
   slug: agorapulse-agentic-access
   summary_line: 22 operations · 7 acting
-api_count: 15
+api_count: 2
 apis:
 - description: Publishing calendar notes management
   name: Agorapulse Calendar Notes API
@@ -90,7 +90,43 @@ apis:
 - description: Workspaces group the social profiles you manage inside an organization.
   name: Agorapulse Workspaces API
   slug: agorapulse-workspaces-api
-artifact_total: 149
+- description: The Inbox conversations API from Agorapulse — 1 operation(s) for inbox conversations.
+  name: Agorapulse Inbox conversations API
+  slug: agorapulse-inbox-conversations-api
+- description: The Inbox items API from Agorapulse — 1 operation(s) for inbox items.
+  name: Agorapulse Inbox items API
+  slug: agorapulse-inbox-items-api
+- description: The Inbox reply API from Agorapulse — 1 operation(s) for inbox reply.
+  name: Agorapulse Inbox reply API
+  slug: agorapulse-inbox-reply-api
+- description: The Open API API from Agorapulse — 0 operation(s) for open api.
+  name: Agorapulse Open API
+  slug: agorapulse-open-api-api
+- description: The OpenAPI API from Agorapulse — 1 operation(s) for openapi.
+  name: Agorapulse Open API
+  slug: agorapulse-openapi-api
+- description: The Organization API from Agorapulse — 1 operation(s) for organization.
+  name: Agorapulse Organization API
+  slug: agorapulse-organization-api
+- description: The Profile API from Agorapulse — 1 operation(s) for profile.
+  name: Agorapulse Profile API
+  slug: agorapulse-profile-api
+- description: The Report API from Agorapulse — 3 operation(s) for report.
+  name: Agorapulse Report API
+  slug: agorapulse-report-api
+- description: Publishing simple drafts management
+  name: Agorapulse Simple Drafts API
+  slug: agorapulse-simple-drafts-api
+- description: Publishing simple scheduled and immediate posts management
+  name: Agorapulse Simple Scheduling API
+  slug: agorapulse-simple-scheduling-api
+- description: Studio media upload management
+  name: Agorapulse Studio Media API
+  slug: agorapulse-studio-media-api
+- description: The Workspace API from Agorapulse — 1 operation(s) for workspace.
+  name: Agorapulse Workspace API
+  slug: agorapulse-workspace-api
+artifact_total: 161
 asyncapis:
 - description: ''
   name: Agorapulse Webhooks
@@ -145,6 +181,10 @@ collections:
   name: Agorapulse Workspaces API
   slug: open-agorapulse-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/agorapulse-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -643,13 +683,13 @@ modified: '2026-08-13'
 name: Agorapulse
 nav: Providers
 network: true
-overview: 'Agorapulse publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Calendar Notes API, Webhooks API, Competitor API, and 12 more. Tagged areas include Social Media Management, Social-Media, CRM, Analytics, and Publishing.
+overview: 'Agorapulse publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Calendar Notes API, Webhooks API, Competitor API, and 24 more. Tagged areas include Social Media Management, Social-Media, CRM, Analytics, and Publishing.
 
 
   The Agorapulse catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Agorapulse''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 33 more developer resources.'
+  Agorapulse''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 34 more developer resources.'
 plans:
 - name: Agorapulse Plans Pricing
   plan_count: 4
@@ -677,18 +717,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 71.4
-  delta: 0.0
+  composite: 67.7
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 40.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 26.5
-    contract_quality: 70.9
+    contract_governance: 14.4
+    contract_quality: 68.5
     developer_ergonomics: 56.5
-    discoverability: 92.6
-    governance: 26.5
+    discoverability: 75.9
+    governance: 14.4
     operational_transparency: 76.3
-  previous_composite: 71.4
+  previous_composite: 68.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -699,8 +744,8 @@ score:
       total: 15
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/screenshots/agorapulse-2026-06-20T170402.png
 security:

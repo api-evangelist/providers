@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/symantec/
 created: '2026-07-17'
 description: Elastica was a Silicon Valley cloud security startup that pioneered the Cloud Access Security Broker (CASB) category, using data science and machine learning to give enterprises visibility into and control over Shadow IT and sanctioned SaaS applications. Its CloudSOC platform combined an API-based control mode (connecting directly to cloud apps such as Office 365, Box, Salesforce, and Google Workspace) with an inline gateway mode for data-loss-prevention, threat detection, and compliance. Backed by Mayfield, Pelion Venture Partners, and Third Point Ventures, Elastica was acquired by Blue Coat Systems for $280 million in November 2015; Blue Coat (with Elastica and Perspecsys) was in turn acquired by Symantec in 2016, where the technology became the Symantec CloudSOC CASB, later part of Broadcom's enterprise security portfolio. Elastica no longer operates as an independent company and publishes no active public developer surface, API, or SDK.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elastica.png
@@ -48,6 +53,11 @@ random_paper: 19
 score:
   band: minimal
   composite: 5.0
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -67,8 +77,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: elastica
 tags:

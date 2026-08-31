@@ -10,15 +10,15 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.6
-  scored_at: '2026-08-26'
+  score: 28.6
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -41,13 +41,68 @@ agentic_access:
   operation_count: 69
   slug: bigtincan-agentic-access
   summary_line: 69 operations · 36 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
-- description: The Bigtincan Hub Public API provides programmatic access to the Bigtincan sales enablement platform, enabling management of sales content, training programs, coaching insights, buyer engagement analy
-  name: Bigtincan Hub API
-  slug: bigtincan-hub-api
-artifact_total: 10
+- description: The Admin API from Bigtincan — 10 operation(s) for admin.
+  name: Bigtincan Admin API
+  slug: bigtincan-admin-api
+- description: The Bookmark API from Bigtincan — 1 operation(s) for bookmark.
+  name: Bigtincan Bookmark API
+  slug: bigtincan-bookmark-api
+- description: The Channel API from Bigtincan — 7 operation(s) for channel.
+  name: Bigtincan Channel API
+  slug: bigtincan-channel-api
+- description: The CRM API from Bigtincan — 1 operation(s) for crm.
+  name: Bigtincan CRM API
+  slug: bigtincan-crm-api
+- description: The Event API from Bigtincan — 1 operation(s) for event.
+  name: Bigtincan Event API
+  slug: bigtincan-event-api
+- description: The File API from Bigtincan — 4 operation(s) for file.
+  name: Bigtincan File API
+  slug: bigtincan-file-api
+- description: The Form API from Bigtincan — 5 operation(s) for form.
+  name: Bigtincan Form API
+  slug: bigtincan-form-api
+- description: The Group API from Bigtincan — 5 operation(s) for group.
+  name: Bigtincan Group API
+  slug: bigtincan-group-api
+- description: The History API from Bigtincan — 1 operation(s) for history.
+  name: Bigtincan History API
+  slug: bigtincan-history-api
+- description: The Links API from Bigtincan — 1 operation(s) for links.
+  name: Bigtincan Links API
+  slug: bigtincan-links-api
+- description: The Public File Share API from Bigtincan — 3 operation(s) for public file share.
+  name: Bigtincan Public File Share API
+  slug: bigtincan-public-file-share-api
+- description: The Search API from Bigtincan — 2 operation(s) for search.
+  name: Bigtincan Search API
+  slug: bigtincan-search-api
+- description: The Settings API from Bigtincan — 1 operation(s) for settings.
+  name: Bigtincan Settings API
+  slug: bigtincan-settings-api
+- description: The Story API from Bigtincan — 11 operation(s) for story.
+  name: Bigtincan Story API
+  slug: bigtincan-story-api
+- description: The Tab API from Bigtincan — 7 operation(s) for tab.
+  name: Bigtincan Tab API
+  slug: bigtincan-tab-api
+- description: The Tag API from Bigtincan — 1 operation(s) for tag.
+  name: Bigtincan Tag API
+  slug: bigtincan-tag-api
+- description: The User API from Bigtincan — 6 operation(s) for user.
+  name: Bigtincan User API
+  slug: bigtincan-user-api
+- description: The User Metadata API from Bigtincan — 2 operation(s) for user metadata.
+  name: Bigtincan User Metadata API
+  slug: bigtincan-user-metadata-api
+artifact_total: 27
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bigtincan-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -208,10 +263,10 @@ modified: '2026-08-14'
 name: Bigtincan
 nav: Providers
 network: true
-overview: 'Bigtincan publishes 1 API on the [APIs.io](https://apis.io/) network: Hub API. Tagged areas include Sales Enablement, Content Management, Training, Coaching, and Buyer Engagement.
+overview: 'Bigtincan publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Bookmark API, Channel API, and 15 more. Tagged areas include Sales Enablement, Content Management, Training, Coaching, and Buyer Engagement.
 
 
-  Bigtincan''s developer surface includes authentication, documentation, API reference, changelog, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Bigtincan''s developer surface includes authentication, documentation, API reference, changelog, engineering blog, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Bigtincan Plans Pricing
   plan_count: 5
@@ -227,19 +282,24 @@ scopes:
   slug: bigtincan-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: strong
-  composite: 54.5
-  delta: 0.0
+  band: developing
+  composite: 52.6
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 16.7
-    contract_quality: 50.3
+    contract_governance: 4.5
+    contract_quality: 48.6
     developer_ergonomics: 44.6
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 54.5
+  previous_composite: 53.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -250,8 +310,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/screenshots/bigtincan-2026-06-20T173235.png
 security:

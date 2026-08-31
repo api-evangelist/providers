@@ -16,24 +16,75 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: verified
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.8
-  scored_at: '2026-08-26'
-api_count: 2
+  score: 45.3
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: 'REST API over Daloopa''s fundamental dataset — company discovery, fundamental series and values, calendar/fiscal period handling, taxonomy metrics and industry templates, SEC document lookup, document '
-  name: Daloopa API v3
-  slug: daloopa-api-v3
-- description: Hosted remote MCP server (Streamable HTTP) exposing nine tools over the same fundamental dataset — discover_companies, discover_company_series, discover_company_documents, get_company_fundamentals, ge
-  name: Daloopa MCP Server
-  slug: daloopa-mcp-server
-artifact_total: 12
+- description: The Auth API from Daloopa — 10 operation(s) for auth.
+  name: Daloopa Auth API
+  slug: daloopa-auth-api
+- description: Company Data and Metadata
+  name: Daloopa Companies API
+  slug: daloopa-companies-api
+- description: The Consumption API from Daloopa — 6 operation(s) for consumption.
+  name: Daloopa Consumption API
+  slug: daloopa-consumption-api
+- description: The Daloopa MCP Service API from Daloopa — 1 operation(s) for daloopa mcp service.
+  name: Daloopa Daloopa MCP Service API
+  slug: daloopa-daloopa-mcp-service-api
+- description: The Data Warehouse API from Daloopa — 1 operation(s) for data warehouse.
+  name: Daloopa Data Warehouse API
+  slug: daloopa-data-warehouse-api
+- description: The Databricks API from Daloopa — 1 operation(s) for databricks.
+  name: Daloopa Databricks API
+  slug: daloopa-databricks-api
+- description: The Documents API from Daloopa — 5 operation(s) for documents.
+  name: Daloopa Documents API
+  slug: daloopa-documents-api
+- description: The Download API from Daloopa — 2 operation(s) for download.
+  name: Daloopa Download API
+  slug: daloopa-download-api
+- description: The Export API from Daloopa — 1 operation(s) for export.
+  name: Daloopa Export API
+  slug: daloopa-export-api
+- description: Financial Fundamentals Data
+  name: Daloopa Fundamentals API
+  slug: daloopa-fundamentals-api
+- description: The Health API from Daloopa — 1 operation(s) for health.
+  name: Daloopa Health API
+  slug: daloopa-health-api
+- description: The Industry Models API from Daloopa — 1 operation(s) for industry models.
+  name: Daloopa Industry Models API
+  slug: daloopa-industry-models-api
+- description: The Investing Skills API from Daloopa — 2 operation(s) for investing skills.
+  name: Daloopa Investing Skills API
+  slug: daloopa-investing-skills-api
+- description: The Market Data API from Daloopa — 2 operation(s) for market data.
+  name: Daloopa Market Data API
+  slug: daloopa-market-data-api
+- description: The Partnership API from Daloopa — 1 operation(s) for partnership.
+  name: Daloopa Partnership API
+  slug: daloopa-partnership-api
+- description: The Series API from Daloopa — 1 operation(s) for series.
+  name: Daloopa Series API
+  slug: daloopa-series-api
+- description: The Snowflake API from Daloopa — 1 operation(s) for snowflake.
+  name: Daloopa Snowflake API
+  slug: daloopa-snowflake-api
+- description: The Taxonomy API from Daloopa — 5 operation(s) for taxonomy.
+  name: Daloopa Taxonomy API
+  slug: daloopa-taxonomy-api
+- description: The Webhooks API from Daloopa — 6 operation(s) for webhooks.
+  name: Daloopa Webhooks API
+  slug: daloopa-webhooks-api
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Daloopa Webhooks
@@ -46,6 +97,18 @@ collections:
   name: Daloopa MCP Service
   slug: open-daloopa-mcp-service
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/daloopa-api-security-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/daloopa-mcp.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.daloopa.com/server/mcp
 - group: company
   title: ''
   type: Website
@@ -165,13 +228,13 @@ modified: '2026-08-11'
 name: Daloopa
 nav: Providers
 network: true
-overview: 'Daloopa publishes 2 APIs on the [APIs.io](https://apis.io/) network: API v3 and MCP Server. Tagged areas include Financial Data, Fundamental Data, Market Data, Investment Research, and Equity Research.
+overview: 'Daloopa publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Companies API, Consumption API, and 16 more. Tagged areas include Financial Data, fundamental-data, Market Data, investment-research, and equity-research.
 
 
   The Daloopa catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Daloopa''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 20 more developer resources.'
+  Daloopa''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 23 more developer resources.'
 plans:
 - name: Daloopa Plans Pricing
   plan_count: 0
@@ -183,18 +246,23 @@ rate_limits:
   slug: daloopa-rate-limits
 score:
   band: strong
-  composite: 54.6
-  delta: 7.2
+  composite: 54.7
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 16.7
-    contract_quality: 64.5
+    contract_governance: 4.5
+    contract_quality: 68.6
     developer_ergonomics: 47.6
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 55.3
-  previous_composite: 47.4
+  previous_composite: 54.7
   provenance:
     conformance: derived
     contracts:
@@ -210,9 +278,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daloopa/refs/heads/main/screenshots/daloopa-2026-08-17T080848.png
 security:
 - kind: authentication
@@ -230,17 +298,17 @@ security:
 slug: daloopa
 tags:
 - Financial Data
-- Fundamental Data
+- fundamental-data
 - Market Data
-- Investment Research
-- Equity Research
-- SEC Filings
-- Earnings
+- investment-research
+- equity-research
+- sec-filings
+- earnings
 - Fintech
 - MCP
 - agent-native
-- Agent Skills
+- agent-skills
 - Webhook
-- Data Warehouse
+- data-warehouse
 website: https://daloopa.com/
 ---

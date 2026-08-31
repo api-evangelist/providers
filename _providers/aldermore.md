@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -33,24 +33,118 @@ agentic_access:
   summary_line: 86 operations · 20 acting
 api_count: 4
 apis:
-- description: The UK Open Banking Open Data API standard (public, unauthenticated reference data such as products, ATMs, and branches). Represented here as the shared OBIE Open Data standard - no Aldermore-publishe
-  name: Aldermore Open Data API (OBIE Standard)
-  slug: aldermore-open-data-api
-- description: The UK Open Banking Read/Write Account and Transaction Information (AIS) API standard, FAPI-secured with OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authentication. Represented here as the share
-  name: Aldermore Account & Transaction Information API (OBIE Read/Write Standard)
-  slug: aldermore-account-information-api
-- description: The UK Open Banking Read/Write Payment Initiation (PIS) API standard, FAPI-secured with OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authentication. Represented here as the shared OBIE standard -
-  name: Aldermore Payment Initiation API (OBIE Read/Write Standard)
-  slug: aldermore-payment-initiation-api
-- description: The UK Open Banking Read/Write Confirmation of Funds (CBPII) API standard, FAPI-secured with OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authentication. Represented here as the shared OBIE stand
-  name: Aldermore Confirmation of Funds API (OBIE Read/Write Standard)
-  slug: aldermore-confirmation-of-funds-api
-artifact_total: 11
+- description: The Account Access Consents API from Aldermore Bank — 2 operation(s) for account access consents.
+  name: Aldermore Bank Account Access Consents API
+  slug: aldermore-account-access-consents-api
+- description: The Accounts API from Aldermore Bank — 2 operation(s) for accounts.
+  name: Aldermore Bank Accounts API
+  slug: aldermore-accounts-api
+- description: Endpoint for getting ATM data
+  name: Aldermore Bank ATM API
+  slug: aldermore-atm-api
+- description: The Balances API from Aldermore Bank — 2 operation(s) for balances.
+  name: Aldermore Bank Balances API
+  slug: aldermore-balances-api
+- description: Endpoint for getting Business Current Account data
+  name: Aldermore Bank BCA API
+  slug: aldermore-bca-api
+- description: The Beneficiaries API from Aldermore Bank — 2 operation(s) for beneficiaries.
+  name: Aldermore Bank Beneficiaries API
+  slug: aldermore-beneficiaries-api
+- description: Endpoint for getting Branch data
+  name: Aldermore Bank Branch API
+  slug: aldermore-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: Aldermore Bank CCC API
+  slug: aldermore-ccc-api
+- description: The Direct Debits API from Aldermore Bank — 2 operation(s) for direct debits.
+  name: Aldermore Bank Direct Debits API
+  slug: aldermore-direct-debits-api
+- description: The Domestic Payment Consents API from Aldermore Bank — 3 operation(s) for domestic payment consents.
+  name: Aldermore Bank Domestic Payment Consents API
+  slug: aldermore-domestic-payment-consents-api
+- description: The Domestic Payments API from Aldermore Bank — 3 operation(s) for domestic payments.
+  name: Aldermore Bank Domestic Payments API
+  slug: aldermore-domestic-payments-api
+- description: The Domestic Scheduled Payment Consents API from Aldermore Bank — 2 operation(s) for domestic scheduled payment consents.
+  name: Aldermore Bank Domestic Scheduled Payment Consents API
+  slug: aldermore-domestic-scheduled-payment-consents-api
+- description: The Domestic Scheduled Payments API from Aldermore Bank — 3 operation(s) for domestic scheduled payments.
+  name: Aldermore Bank Domestic Scheduled Payments API
+  slug: aldermore-domestic-scheduled-payments-api
+- description: The Domestic Standing Order Consents API from Aldermore Bank — 2 operation(s) for domestic standing order consents.
+  name: Aldermore Bank Domestic Standing Order Consents API
+  slug: aldermore-domestic-standing-order-consents-api
+- description: The Domestic Standing Orders API from Aldermore Bank — 3 operation(s) for domestic standing orders.
+  name: Aldermore Bank Domestic Standing Orders API
+  slug: aldermore-domestic-standing-orders-api
+- description: The File Payment Consents API from Aldermore Bank — 3 operation(s) for file payment consents.
+  name: Aldermore Bank File Payment Consents API
+  slug: aldermore-file-payment-consents-api
+- description: The File Payments API from Aldermore Bank — 4 operation(s) for file payments.
+  name: Aldermore Bank File Payments API
+  slug: aldermore-file-payments-api
+- description: The Funds Confirmation Consents API from Aldermore Bank — 2 operation(s) for funds confirmation consents.
+  name: Aldermore Bank Funds Confirmation Consents API
+  slug: aldermore-funds-confirmation-consents-api
+- description: The Funds Confirmations API from Aldermore Bank — 1 operation(s) for funds confirmations.
+  name: Aldermore Bank Funds Confirmations API
+  slug: aldermore-funds-confirmations-api
+- description: The International Payment Consents API from Aldermore Bank — 3 operation(s) for international payment consents.
+  name: Aldermore Bank International Payment Consents API
+  slug: aldermore-international-payment-consents-api
+- description: The International Payments API from Aldermore Bank — 3 operation(s) for international payments.
+  name: Aldermore Bank International Payments API
+  slug: aldermore-international-payments-api
+- description: The International Scheduled Payments API from Aldermore Bank — 3 operation(s) for international scheduled payments.
+  name: Aldermore Bank International Scheduled Payments API
+  slug: aldermore-international-scheduled-payments-api
+- description: The International Scheduled Payments Consents API from Aldermore Bank — 3 operation(s) for international scheduled payments consents.
+  name: Aldermore Bank International Scheduled Payments Consents API
+  slug: aldermore-international-scheduled-payments-consents-api
+- description: The International Standing Orders API from Aldermore Bank — 3 operation(s) for international standing orders.
+  name: Aldermore Bank International Standing Orders API
+  slug: aldermore-international-standing-orders-api
+- description: The International Standing Orders Consents API from Aldermore Bank — 2 operation(s) for international standing orders consents.
+  name: Aldermore Bank International Standing Orders Consents API
+  slug: aldermore-international-standing-orders-consents-api
+- description: The Offers API from Aldermore Bank — 2 operation(s) for offers.
+  name: Aldermore Bank Offers API
+  slug: aldermore-offers-api
+- description: The Parties API from Aldermore Bank — 3 operation(s) for parties.
+  name: Aldermore Bank Parties API
+  slug: aldermore-parties-api
+- description: Endpoint for getting Personal Current Account data
+  name: Aldermore Bank PCA API
+  slug: aldermore-pca-api
+- description: The Products API from Aldermore Bank — 2 operation(s) for products.
+  name: Aldermore Bank Products API
+  slug: aldermore-products-api
+- description: The Scheduled Payments API from Aldermore Bank — 2 operation(s) for scheduled payments.
+  name: Aldermore Bank Scheduled Payments API
+  slug: aldermore-scheduled-payments-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: Aldermore Bank SME API
+  slug: aldermore-sme-api
+- description: The Standing Orders API from Aldermore Bank — 2 operation(s) for standing orders.
+  name: Aldermore Bank Standing Orders API
+  slug: aldermore-standing-orders-api
+- description: The Statements API from Aldermore Bank — 5 operation(s) for statements.
+  name: Aldermore Bank Statements API
+  slug: aldermore-statements-api
+- description: The Transactions API from Aldermore Bank — 2 operation(s) for transactions.
+  name: Aldermore Bank Transactions API
+  slug: aldermore-transactions-api
+artifact_total: 41
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-aldermore-obie-open-data
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/aldermore-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -176,10 +270,10 @@ modified: '2026-07-23'
 name: Aldermore Bank
 nav: Providers
 network: true
-overview: 'Aldermore Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Aldermore Open Data API (OBIE Standard), Aldermore Account & Transaction Information API (OBIE Read/Write Standard), Aldermore Payment Initiation API (OBIE Read/Write Standard), and 1 more. Tagged areas include Financial-Services, Banking, Savings, Specialist Lending, and Open Banking.
+overview: 'Aldermore Bank publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 31 more. Tagged areas include Financial-Services, Banking, Savings, Specialist Lending, and Open Banking.
 
 
-  Aldermore Bank''s developer surface includes authentication, support, legal docs, and 25 more developer resources.'
+  Aldermore Bank''s developer surface includes authentication, support, legal docs, and 26 more developer resources.'
 random_paper: 10
 scopes:
 - name: Aldermore Scopes
@@ -188,18 +282,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 43.6
-  delta: 1.6
+  composite: 40.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 49.0
+    contract_governance: 4.5
+    contract_quality: 50.9
     developer_ergonomics: 35.1
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 72.2
+    governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 42.0
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -212,12 +311,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aldermore/refs/heads/main/screenshots/aldermore-2026-07-25T195550.png
 security:

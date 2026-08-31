@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 21
   slug: unbounce-agentic-access
   summary_line: 21 operations
-api_count: 9
+api_count: 1
 apis:
 - description: REST API for Unbounce providing programmatic access to accounts, sub-accounts, domains, pages, page groups, and leads. Authentication uses OAuth 2.0 Authorization Code flow with Bearer access tokens a
   name: Unbounce REST API
@@ -430,19 +430,24 @@ scopes:
   slug: unbounce-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 68.7
-  delta: 0.0
+  band: strong
+  composite: 65.6
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 62.3
     developer_ergonomics: 71.4
-    discoverability: 85.2
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 68.7
+  previous_composite: 66.1
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -453,8 +458,8 @@ score:
       total: 7
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unbounce/refs/heads/main/screenshots/unbounce-2026-06-20T200015.png
 security:

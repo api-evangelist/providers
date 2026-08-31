@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
 - description: Live Universal Commerce Protocol (UCP) endpoint exposed over MCP JSON-RPC at https://www.brooklinen.com/api/ucp/mcp, advertised by the store's own /agents.md, /robots.txt and /.well-known/ucp discover
@@ -65,6 +65,10 @@ collections:
   name: Brooklinen Shopify Storefront JSON Search API
   slug: open-brooklinen-search-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/brooklinen-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -193,10 +197,10 @@ modified: '2026-08-02'
 name: Brooklinen
 nav: Providers
 network: true
-overview: 'Brooklinen publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Collections API, Discovery API, and 2 more. Tagged areas include E-Commerce, Retail, Direct to Consumer, Home Goods, and Bedding.
+overview: 'Brooklinen publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cart API, Collections API, Discovery API, and 2 more. Tagged areas include E-Commerce, Retail, direct-to-consumer, home-goods, and bedding.
 
 
-  Brooklinen''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
+  Brooklinen''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
 random_paper: 4
 scopes:
 - name: Brooklinen Scopes
@@ -205,18 +209,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.7
+  composite: 45.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 53.2
     developer_ergonomics: 54.8
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 47.7
+  previous_composite: 45.1
   provenance:
     conformance: first-party
     contracts:
@@ -232,8 +241,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brooklinen/refs/heads/main/screenshots/brooklinen-2026-08-07T162830.png
 security:
@@ -249,15 +258,15 @@ slug: brooklinen
 tags:
 - E-Commerce
 - Retail
-- Direct to Consumer
-- Home Goods
-- Bedding
-- Shopify
-- Agentic Commerce
-- Universal Commerce Protocol
+- direct-to-consumer
+- home-goods
+- bedding
+- shopify
+- agentic-commerce
+- universal-commerce-protocol
 - MCP
 - agent-native
 - Catalog
-- Checkout
+- checkout
 website: https://www.brooklinen.com/
 ---

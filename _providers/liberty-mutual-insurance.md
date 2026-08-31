@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 6
   slug: liberty-mutual-insurance-agentic-access
   summary_line: 6 operations · 2 acting
-api_count: 4
+api_count: 2
 apis:
 - description: Incident data operations
   name: Liberty Mutual Insurance Data API
@@ -79,6 +79,10 @@ collections:
   name: Liberty Mutual Solaria Labs API
   slug: open-liberty-mutual-insurance-solaria-labs-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/liberty-mutual-insurance-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -126,7 +130,7 @@ network: true
 overview: 'Liberty Mutual Insurance publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Data API, Policies API, Quotes API, and 1 more. Tagged areas include Casualty, Commercial Lines, Insurance, Personal Lines, and Property.
 
 
-  Liberty Mutual Insurance''s developer surface includes product news and 7 more developer resources.'
+  Liberty Mutual Insurance''s developer surface includes product news and 8 more developer resources.'
 plans:
 - name: Liberty Mutual Insurance Plans Pricing
   plan_count: 1
@@ -154,18 +158,23 @@ rate_limits:
   slug: liberty-mutual-insurance-rate-limits
 score:
   band: emerging
-  composite: 22.7
-  delta: 1.9
+  composite: 22.1
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 49.7
     developer_ergonomics: 9.5
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 20.8
+  previous_composite: 22.7
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +188,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberty-mutual-insurance/refs/heads/main/screenshots/liberty-mutual-insurance-2026-08-07T182909.png
 security:

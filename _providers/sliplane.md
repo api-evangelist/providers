@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: The Sliplane Control API is a REST API at https://ctrl.sliplane.io/v0 for programmatically managing organizations, projects, services, deployments, custom domains, registry credentials, servers, volum
@@ -43,6 +43,10 @@ apis:
   slug: mcp
 artifact_total: 4
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/sliplane/mcp/issues
 - group: commercial
   title: ''
   type: License
@@ -152,15 +156,20 @@ modified: '2026-05-25'
 name: Sliplane
 nav: Providers
 network: true
-overview: 'Sliplane publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Container Hosting, Docker Hosting, Container As A Service, Platform-as-a-Service, and Push To Deploy.
+overview: 'Sliplane publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Container Hosting, Docker Hosting, Container As A Service, Platform As A Service, and Push To Deploy.
 
 
-  Sliplane''s developer surface includes pricing, documentation, API reference, tooling, engineering blog, changelog, status page, and 18 more developer resources.'
+  Sliplane''s developer surface includes pricing, documentation, API reference, tooling, engineering blog, changelog, status page, and 19 more developer resources.'
 random_paper: 16
 score:
-  band: thin
-  composite: 27.3
-  delta: 5.0
+  band: emerging
+  composite: 24.5
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -170,10 +179,13 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 22.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 24.5
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sliplane/refs/heads/main/screenshots/sliplane-2026-06-20T194030.png
 security:
 - kind: domain-security
@@ -189,7 +201,7 @@ tags:
 - Container Hosting
 - Docker Hosting
 - Container As A Service
-- Platform-as-a-Service
+- Platform As A Service
 - Push To Deploy
 - Cloud Infrastructure
 - European Cloud

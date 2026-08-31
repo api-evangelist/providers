@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 3
@@ -33,43 +33,64 @@ agentic_access:
   summary_line: 100 operations · 59 acting · 3 human-in-the-loop
 api_count: 12
 apis:
-- description: Server-side REST API that registers merchants and processes payments using grants - the core Cash App Pay payment-processing surface for PSP partners.
-  name: Cash App Pay Network API
-  slug: cash-app-pay-network-api
-- description: 'REST API used to get permission from customers to perform actions on their accounts (such as collecting a payment), producing the grants consumed by the Network API. Wrapped by the Pay Kit JavaScript '
-  name: Cash App Pay Customer Request API
-  slug: cash-app-pay-customer-request-api
-- description: REST API that controls scoped API keys and webhooks, automating key aspects of a Cash App Pay integration including least-privileged microservice access.
-  name: Cash App Pay Management API
-  slug: cash-app-pay-management-api
-- description: Afterpay (Cash App Afterpay) Global API for authorizing, capturing, voiding, and refunding buy-now-pay-later payments. HTTP Basic authenticated.
-  name: Afterpay Payments API
-  slug: afterpay-payments-api
-- description: Afterpay Global API for creating and retrieving checkout sessions that begin an Afterpay buy-now-pay-later order flow.
-  name: Afterpay Checkouts API
-  slug: afterpay-checkouts-api
-- description: Afterpay Global API for retrieving order details associated with an Afterpay buy-now-pay-later transaction.
-  name: Afterpay Orders API
-  slug: afterpay-orders-api
-- description: Afterpay Global API exposing merchant configuration and limits (such as minimum and maximum order amounts) for the Afterpay/Cash App Pay integration.
-  name: Afterpay Configuration API
-  slug: afterpay-configuration-api
-- description: Afterpay Global API for listing disputes and submitting evidence to contest Afterpay buy-now-pay-later chargebacks.
-  name: Afterpay Disputes API
-  slug: afterpay-disputes-api
-- description: Afterpay Global API for retrieving and managing the grants that authorize Afterpay payment operations on a customer's behalf.
-  name: Afterpay Grants API
-  slug: afterpay-grants-api
-- description: Afterpay Global API surface for retrieving Cash App Pay grants when adding Cash App Pay directly to a website through the Afterpay Global API.
-  name: Add Cash App Pay to Your Site (Grants) API
-  slug: cash-app-pay-site-grants-api
-- description: Afterpay Global API health-check endpoint reporting the operational status of the Afterpay service.
-  name: Afterpay Service Status API
-  slug: afterpay-service-status-api
-- description: Deprecated Afterpay Global API for creating and managing recurring billing agreements; retained here as harvested for historical completeness and marked deprecated by Cash App.
-  name: Afterpay Billing Agreements API (Deprecated)
-  slug: afterpay-billing-agreements-api
-artifact_total: 43
+- description: The Add Cash App Pay To Your Site API from Cash App — 0 operation(s) for add cash app pay to your site.
+  name: Cash App Add Cash App Pay To Your Site API
+  slug: cash-app-add-cash-app-pay-to-your-site-api
+- description: The apiKeys API from Cash App — 2 operation(s) for apikeys.
+  name: Cash App API Keys API
+  slug: cash-app-apikeys-api
+- description: The balances API from Cash App — 2 operation(s) for balances.
+  name: Cash App Balances API
+  slug: cash-app-balances-api
+- description: The Billing Agreements (Deprecated) API from Cash App — 0 operation(s) for billing agreements (deprecated).
+  name: Cash App Billing Agreements (Deprecated) API
+  slug: cash-app-billing-agreements-deprecated-api
+- description: The brands API from Cash App — 2 operation(s) for brands.
+  name: Cash App Brands API
+  slug: cash-app-brands-api
+- description: The Customer Request API API from Cash App — 0 operation(s) for customer request api.
+  name: Cash App Customer Request API
+  slug: cash-app-customer-request-api-api
+- description: The customers API from Cash App — 5 operation(s) for customers.
+  name: Cash App Customers API
+  slug: cash-app-customers-api
+- description: The App Default API from Cash App — 39 operation(s) for app default.
+  name: Cash App App Default API
+  slug: cash-app-default-api
+- description: The disputes API from Cash App — 8 operation(s) for disputes.
+  name: Cash App Disputes API
+  slug: cash-app-disputes-api
+- description: The feePlans API from Cash App — 2 operation(s) for feeplans.
+  name: Cash App Fee Plans API
+  slug: cash-app-feeplans-api
+- description: The Grants Afterpay API from Cash App — 0 operation(s) for grants afterpay.
+  name: Cash App Grants Afterpay API
+  slug: cash-app-grants-afterpay-api
+- description: The merchants API from Cash App — 2 operation(s) for merchants.
+  name: Cash App Merchants API
+  slug: cash-app-merchants-api
+- description: The Network API API from Cash App — 0 operation(s) for network api.
+  name: Cash App Network API
+  slug: cash-app-network-api-api
+- description: The payments API from Cash App — 6 operation(s) for payments.
+  name: Cash App Payments API
+  slug: cash-app-payments-api
+- description: The payouts API from Cash App — 2 operation(s) for payouts.
+  name: Cash App Payouts API
+  slug: cash-app-payouts-api
+- description: The refunds API from Cash App — 5 operation(s) for refunds.
+  name: Cash App Refunds API
+  slug: cash-app-refunds-api
+- description: The requestChains API from Cash App — 1 operation(s) for requestchains.
+  name: Cash App Request Chains API
+  slug: cash-app-requestchains-api
+- description: The requests API from Cash App — 2 operation(s) for requests.
+  name: Cash App Requests API
+  slug: cash-app-requests-api
+- description: The Webhooks API from Cash App — 3 operation(s) for webhooks.
+  name: Cash App Webhooks API
+  slug: cash-app-webhooks-api
+artifact_total: 50
 asyncapis:
 - description: ''
   name: Cash App Webhooks
@@ -148,6 +169,10 @@ collections:
   name: Service Status
   slug: open-cash-app-service-status
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cash-app-capability-edges.yml
 - group: agent
   title: ''
   type: AgentSkill
@@ -337,13 +362,13 @@ modified: '2026-07-23'
 name: Cash App
 nav: Providers
 network: true
-overview: 'Cash App publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Pay Network API, Pay Customer Request API, Pay Management API, and 9 more. Tagged areas include Financial-Services, Payments, United States, Fintech, and Neobank.
+overview: 'Cash App publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Add Cash App Pay To Your Site API, API Keys API, Balances API, and 16 more. Tagged areas include Financial-Services, Payments, United States, Fintech, and Neobank.
 
 
   The Cash App catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cash App''s developer surface includes API reference, authentication, documentation, support, getting-started guide, signup flow, changelog, and 37 more developer resources.'
+  Cash App''s developer surface includes API reference, authentication, documentation, support, getting-started guide, signup flow, changelog, and 38 more developer resources.'
 random_paper: 4
 scopes:
 - name: Cash App Scopes
@@ -352,18 +377,23 @@ scopes:
   summary_line: 4 scopes
 score:
   band: strong
-  composite: 61.5
+  composite: 56.7
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 59.1
+    contract_governance: 4.5
+    contract_quality: 52.3
     developer_ergonomics: 75.6
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 61.5
+  previous_composite: 56.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -375,8 +405,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 70.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/screenshots/cash-app-2026-07-25T204719.png
 security:

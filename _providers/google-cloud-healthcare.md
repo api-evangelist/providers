@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 91
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 149
   slug: google-cloud-healthcare-agentic-access
   summary_line: 149 operations · 91 acting · 2 human-in-the-loop
-api_count: 6
+api_count: 2
 apis:
 - description: The Cloud Healthcare FHIR API provides a fully managed implementation of the HL7 FHIR standard (supporting DSTU2, STU3, and R4 versions) for storing and querying clinical and administrative healthcare
   name: Cloud Healthcare FHIR API
@@ -74,6 +74,10 @@ collections:
   name: Cloud Healthcare projects API
   slug: open-google-cloud-healthcare-projects-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/google-cloud-healthcare-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -625,7 +629,7 @@ overview: 'Google Cloud Healthcare publishes 1 API on the [APIs.io](https://apis
   The Google Cloud Healthcare catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Cloud Healthcare''s developer surface includes authentication, getting-started guide, pricing, developer console, CLI, support, release notes, and 11 more developer resources.'
+  Google Cloud Healthcare''s developer surface includes authentication, getting-started guide, pricing, developer console, CLI, support, release notes, and 12 more developer resources.'
 plans:
 - name: Google Cloud Healthcare Plans Pricing
   plan_count: 6
@@ -653,18 +657,23 @@ scopes:
   summary_line: 2 scopes · implicit/authorizationCode
 score:
   band: developing
-  composite: 53.7
-  delta: 1.9
+  composite: 53.2
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 47.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 45.6
     developer_ergonomics: 57.1
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 65.8
-  previous_composite: 51.8
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     contracts:
@@ -678,8 +687,8 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-healthcare/refs/heads/main/screenshots/google-cloud-healthcare-2026-06-20T182114.png
 security:
@@ -702,7 +711,7 @@ tags:
 - HL7v2
 - DICOM
 - Medical Imaging
-- De-Identification
+- De-identification
 - Interoperability
 - Cloud
 ---

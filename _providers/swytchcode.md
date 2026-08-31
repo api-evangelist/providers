@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Swytchcode''s publicly consumable surfaces: developer documentation and a published llms.txt. The primary interface is an npm-installable CLI plus a local MCP server (localhost-only, not a hosted endpo'
@@ -88,7 +88,7 @@ modified: '2026-06-20'
 name: Swytchcode
 nav: Providers
 network: true
-overview: 'Swytchcode publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI / Agent Tooling, agentic middleware, API Integration, API Orchestration, and API execution layer.
+overview: 'Swytchcode publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI agent tooling, agentic middleware, API integration, API orchestration, and API execution layer.
 
 
   Swytchcode''s developer surface includes engineering blog and 8 more developer resources.'
@@ -96,7 +96,12 @@ random_paper: 14
 score:
   band: emerging
   composite: 11.6
-  delta: 1.9
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -106,12 +111,12 @@ score:
     discoverability: 70.4
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 9.7
+  previous_composite: 11.6
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security
@@ -120,14 +125,14 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: swytchcode
 tags:
-- AI / Agent Tooling
+- AI agent tooling
 - agentic middleware
-- API Integration
-- API Orchestration
+- API integration
+- API orchestration
 - API execution layer
 - LLM tool execution
-- MCP Server
+- MCP server
 - Developer Tools
-- API Documentation
+- API documentation
 - API playground
 ---

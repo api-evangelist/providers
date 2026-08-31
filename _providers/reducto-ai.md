@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -472,16 +472,16 @@ jsonld:
   slug: reducto-context
 layout: provider
 modified: '2026-05-25'
-name: reducto-ai
+name: Reducto
 nav: Providers
 network: true
-overview: 'reducto-ai publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Classify API, Edit API, Extract API, and 7 more.
+overview: 'Reducto publishes 10 APIs on the [APIs.io](https://apis.io/) network, including reducto-ai Classify API, reducto-ai Edit API, reducto-ai Extract API, and 7 more.
 
 
-  The reducto-ai catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Reducto catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  reducto-ai''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, signup flow, pricing, and 52 more developer resources.'
+  Reducto''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, signup flow, pricing, and 52 more developer resources.'
 plans:
 - name: Reducto Plans Pricing
   plan_count: 3
@@ -494,7 +494,7 @@ rate_limits:
 rules:
 - effective_rule_count: 6
   extends: []
-  name: reducto-ai API Rules
+  name: Reducto API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -504,18 +504,23 @@ rules:
   slug: reducto-ai-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.9
-  delta: 1.4
+  composite: 65.5
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 9.8
-    contract_quality: 63.1
+    contract_quality: 69.9
     developer_ergonomics: 76.2
-    discoverability: 40.7
+    discoverability: 50.0
     governance: 9.8
     operational_transparency: 63.2
-  previous_composite: 61.5
+  previous_composite: 65.5
   provenance:
     agentic_access: derived
     contracts:
@@ -527,8 +532,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/screenshots/reducto-ai-2026-06-20T192741.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The EngFlow cluster gRPC / Protocol Buffers API surface — cluster info, IAM (roles/policies/users/groups), authentication, event store and result store build-event streaming, secret management, and no
@@ -180,24 +180,32 @@ overview: 'EngFlow publishes 1 API on the [APIs.io](https://apis.io/) network. T
 random_paper: 19
 score:
   band: developing
-  composite: 43.3
-  delta: 0.0
+  composite: 42.1
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.9
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 26.7
     developer_ergonomics: 73.2
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 43.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 44.0
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/screenshots/engflow-2026-07-25T213344.png
 security:

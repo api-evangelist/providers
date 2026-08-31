@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: regions-financial-agentic-access
   summary_line: 8 operations · 2 acting · 1 human-in-the-loop
-api_count: 5
+api_count: 1
 apis:
 - description: Consumer and business account balances and details
   name: regions-financial Account Information API
@@ -83,6 +83,10 @@ collections:
   name: Regions Open Banking API
   slug: open-regions-open-banking
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/regions-financial-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -157,16 +161,16 @@ jsonld:
   slug: regions-financial-context
 layout: provider
 modified: '2026-05-19'
-name: regions-financial
+name: Regions Financial Corporation
 nav: Providers
 network: true
-overview: 'regions-financial publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Consent API, Customer API, and 2 more. Tagged areas include Banking, Financial-Services, Open Banking, FDX, and Consumer Banking.
+overview: 'Regions Financial Corporation publishes 5 APIs on the [APIs.io](https://apis.io/) network, including regions-financial Account Information API, regions-financial Consent API, regions-financial Customer API, and 2 more. Tagged areas include Banking, Financial-Services, Open Banking, FDX, and Consumer Banking.
 
 
-  The regions-financial catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Regions Financial Corporation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  regions-financial''s developer surface includes authentication and 9 more developer resources.'
+  Regions Financial Corporation''s developer surface includes authentication and 10 more developer resources.'
 plans:
 - name: Regions Financial Plans Pricing
   plan_count: 1
@@ -195,7 +199,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: regions-financial API Rules
+  name: Regions Financial Corporation API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -206,7 +210,7 @@ rules:
 - effective_rule_count: 49
   extends:
   - spectral:oas
-  name: regions-financial API Rules
+  name: Regions Financial Corporation API Rules
   rule_count: 8
   severity_counts:
     error: 2
@@ -221,18 +225,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: thin
-  composite: 33.0
-  delta: -0.9
+  composite: 32.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 57.8
     developer_ergonomics: 11.9
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 33.9
+  previous_composite: 33.0
   provenance:
     agentic_access: derived
     contracts:
@@ -246,8 +255,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

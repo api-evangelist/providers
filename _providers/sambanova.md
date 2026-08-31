@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: sambanova-agentic-access
   summary_line: 4 operations · 3 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The SambaCloud API exposes OpenAI-compatible chat completions over SambaNova's RDU-accelerated infrastructure. It serves multiple open model families including DeepSeek V3, Llama 3.3 and Llama 4, Gemm
   name: SambaCloud API
@@ -148,7 +148,7 @@ modified: '2026-05-23'
 name: SambaNova
 nav: Providers
 network: true
-overview: 'SambaNova publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Embeddings API, and 1 more. Tagged areas include AI Inference, Large Language Models, Dataflows, Hardware, and Cloud.
+overview: 'SambaNova publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Embeddings API, and 1 more. Tagged areas include AI Inference, Large Language Models, Dataflow, Hardware, and Cloud.
 
 
   SambaNova''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
@@ -163,18 +163,23 @@ rate_limits:
   slug: sambanova-rate-limits
 score:
   band: developing
-  composite: 42.8
-  delta: 3.9
+  composite: 42.2
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 55.8
     developer_ergonomics: 54.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 38.9
+  previous_composite: 42.8
   provenance:
     agentic_access: derived
     contracts:
@@ -182,8 +187,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sambanova/refs/heads/main/screenshots/sambanova-2026-06-20T193358.png
 security:
@@ -203,7 +208,7 @@ slug: sambanova
 tags:
 - AI Inference
 - Large Language Models
-- Dataflows
+- Dataflow
 - Hardware
 - Cloud
 - OpenAI-Compatible

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -42,16 +42,52 @@ agentic_access:
   operation_count: 81
   slug: fintary-agentic-access
   summary_line: 81 operations · 39 acting
-api_count: 2
+api_count: 4
 apis:
-- description: Customer-facing REST API over Fintary's commission and distribution data — list, create and update agents; assign and remove uplines; read an agent's commissions, payouts, policies and dashboard snaps
-  name: Fintary Open API
-  slug: fintary-open-api
-- description: 'Agency Management System REST API covering the policy, customer and agent record core — policy detail, status changes, teams, tasks, commission breakdown and the two-phase document repository upload; '
-  name: Fintary AMS API
-  slug: fintary-ams-api
-artifact_total: 8
+- description: The Agents API from Fintary — 7 operation(s) for agents.
+  name: Fintary Agents API
+  slug: fintary-agents-api
+- description: Agent management endpoints
+  name: Fintary AMS - Agents API
+  slug: fintary-ams-agents-api
+- description: AMS configuration endpoints (statuses, roles)
+  name: Fintary AMS - Configs API
+  slug: fintary-ams-configs-api
+- description: Customer management endpoints
+  name: Fintary AMS - Customers API
+  slug: fintary-ams-customers-api
+- description: Policy management endpoints
+  name: Fintary AMS - Policies API
+  slug: fintary-ams-policies-api
+- description: The AMS - Registry API from Fintary — 5 operation(s) for ams - registry.
+  name: Fintary AMS - Registry API
+  slug: fintary-ams-registry-api
+- description: The AMS - Tasks API from Fintary — 5 operation(s) for ams - tasks.
+  name: Fintary AMS - Tasks API
+  slug: fintary-ams-tasks-api
+- description: The Analytics API from Fintary — 8 operation(s) for analytics.
+  name: Fintary Analytics API
+  slug: fintary-analytics-api
+- description: The Commission Reports API from Fintary — 1 operation(s) for commission reports.
+  name: Fintary Commission Reports API
+  slug: fintary-commission-reports-api
+- description: The Documents API from Fintary — 2 operation(s) for documents.
+  name: Fintary Documents API
+  slug: fintary-documents-api
+artifact_total: 16
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fintary-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/fintary-open-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/fintary-ams-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -161,10 +197,10 @@ modified: '2026-08-14'
 name: Fintary
 nav: Providers
 network: true
-overview: 'Fintary publishes 2 APIs on the [APIs.io](https://apis.io/) network: Open API and AMS API. Tagged areas include Company, Fintech, Insurance, Insurtech, and Commissions.
+overview: 'Fintary publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Agents API, AMS - Agents API, AMS - Configs API, and 7 more. Tagged areas include Company, Fintech, Insurance, Insurtech, and Commissions.
 
 
-  Fintary''s developer surface includes support, engineering blog, documentation, API reference, authentication, and 19 more developer resources.'
+  Fintary''s developer surface includes support, engineering blog, documentation, API reference, authentication, and 22 more developer resources.'
 plans:
 - name: Fintary Plans Pricing
   plan_count: 0
@@ -176,18 +212,23 @@ rate_limits:
   slug: fintary-rate-limits
 score:
   band: developing
-  composite: 42.7
-  delta: 2.5
+  composite: 41.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
-    contract_governance: 30.3
-    contract_quality: 54.8
+    contract_governance: 18.2
+    contract_quality: 52.5
     developer_ergonomics: 37.5
-    discoverability: 68.5
-    governance: 30.3
+    discoverability: 74.1
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 40.2
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -204,8 +245,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 53.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/screenshots/fintary-2026-07-25T214544.png
 security:

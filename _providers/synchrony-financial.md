@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: synchrony-financial-agentic-access
   summary_line: 9 operations · 8 acting
-api_count: 9
+api_count: 2
 apis:
 - description: The Synchrony Account Management API provides access to cardholder account information, enabling partners to retrieve account details, balance information, transaction history, and manage account serv
   name: Synchrony Account Management API
@@ -107,6 +107,10 @@ collections:
   name: Synchrony Financial Credit Authorization Applications Reversals API
   slug: open-synchrony-financial-reversals-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/synchrony-financial-capability-edges.yml
 - group: company
   title: ''
   type: Blog
@@ -212,7 +216,7 @@ overview: 'Synchrony Financial publishes 8 APIs on the [APIs.io](https://apis.io
   The Synchrony Financial catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Synchrony Financial''s developer surface includes engineering blog, support, authentication, sandbox, and 12 more developer resources.'
+  Synchrony Financial''s developer surface includes engineering blog, support, authentication, sandbox, and 13 more developer resources.'
 plans:
 - name: Synchrony Financial Plans Pricing
   plan_count: 1
@@ -246,18 +250,23 @@ rules:
   slug: synchrony-financial-rules
 score:
   band: developing
-  composite: 46.3
-  delta: 1.9
+  composite: 45.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 28.8
     contract_quality: 62.6
     developer_ergonomics: 45.2
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 28.8
     operational_transparency: 15.8
-  previous_composite: 44.4
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     contracts:
@@ -271,8 +280,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/screenshots/synchrony-financial-2026-06-20T194826.png
 security:

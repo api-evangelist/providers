@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 3
   slug: uber-direct-agentic-access
   summary_line: 3 operations · 2 acting
-api_count: 2
+api_count: 1
 apis:
 - description: Uber Direct API (DaaS) for quoting, creating, tracking, and managing deliveries through the Uber courier network. Includes Direct, Organizations, Courier Pick & Pack, Refund, and Business Location Man
   name: Uber Direct API
@@ -62,6 +62,10 @@ collections:
   name: Uber Direct API
   slug: open-uber-direct
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/uber-direct-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -117,7 +121,7 @@ network: true
 overview: 'Uber Direct publishes 1 API on the [APIs.io](https://apis.io/) network: Customers API. Tagged areas include Logistics, Last Mile Delivery, Couriers, Fulfillment, and DaaS.
 
 
-  Uber Direct''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Uber Direct''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Uber Direct Plans Pricing
   plan_count: 1
@@ -135,6 +139,11 @@ scopes:
 score:
   band: thin
   composite: 26.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 13.2
@@ -153,8 +162,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uber-direct/refs/heads/main/screenshots/uber-direct-2026-06-20T195931.png
 security:

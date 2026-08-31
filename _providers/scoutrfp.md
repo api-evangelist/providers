@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 113
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 208
   slug: scoutrfp-agentic-access
   summary_line: 208 operations · 113 acting
-api_count: 46
+api_count: 11
 apis:
 - description: 'Use the attachments API to create, update, and delete the attachments in Workday Strategic Sourcing. ## Working with Attachments Creating attachments for Workday Strategic Sourcing objects is a two-st'
   name: Scout RFP (Workday Strategic Sourcing) attachments API
@@ -316,6 +316,14 @@ collections:
   name: Workday Strategic Sourcing attachments worksheets API
   slug: open-scoutrfp-worksheets-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/workday/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/scoutrfp-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -451,7 +459,7 @@ network: true
 overview: 'Scout RFP (Workday Strategic Sourcing) publishes 46 APIs on the [APIs.io](https://apis.io/) network, including attachments API, award_line_items API, awards API, and 43 more. Tagged areas include Company, Enterprise, Procurement, Strategic Sourcing, and Supplier Management.
 
 
-  Scout RFP (Workday Strategic Sourcing)''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 25 more developer resources.'
+  Scout RFP (Workday Strategic Sourcing)''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 27 more developer resources.'
 random_paper: 4
 rate_limits:
 - limit_count: 1
@@ -459,18 +467,23 @@ rate_limits:
   slug: scoutrfp-rate-limits
 score:
   band: developing
-  composite: 42.0
+  composite: 40.6
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 77.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.9
     developer_ergonomics: 51.8
     discoverability: 63.0
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 42.0
+  previous_composite: 40.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -481,8 +494,8 @@ score:
       total: 46
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

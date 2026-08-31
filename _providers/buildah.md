@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 11
 common:
@@ -166,8 +166,13 @@ overview: 'Buildah is profiled on the [APIs.io](https://apis.io/) network. Tagge
 random_paper: 15
 score:
   band: emerging
-  composite: 13.5
-  delta: 0.0
+  composite: 22.2
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 8.7
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -177,10 +182,13 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 100.0
   previous_composite: 13.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildah/refs/heads/main/screenshots/buildah-2026-06-20T173745.png
 security:
 - kind: domain-security

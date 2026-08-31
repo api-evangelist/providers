@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 44
   slug: algebras-ai-inc-agentic-access
   summary_line: 44 operations · 25 acting · 2 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: The Authentication API from Algebras AI Inc. — 1 operation(s) for authentication.
   name: Algebras AI Inc. Authentication API
@@ -234,18 +234,23 @@ overview: 'Algebras AI Inc. publishes 9 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 11
 score:
   band: developing
-  composite: 43.2
-  delta: 0.0
+  composite: 41.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 51.2
     developer_ergonomics: 61.9
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 43.2
+  previous_composite: 41.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -256,8 +261,8 @@ score:
       total: 9
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/screenshots/algebras-ai-inc-2026-07-25T195603.png
 security:

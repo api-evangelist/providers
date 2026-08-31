@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: biconomy-agentic-access
   summary_line: 5 operations · 5 acting
-api_count: 10
+api_count: 2
 apis:
 - description: Biconomy's open-source ERC-4337 TypeScript Bundler. Implements eth_sendUserOperation, eth_estimateUserOperationGas, eth_getUserOperationByHash, eth_getUserOperationReceipt, and eth_supportedEntryPoint
   name: Biconomy Bundler API
@@ -480,18 +480,23 @@ rules:
   slug: biconomy-rules
 score:
   band: strong
-  composite: 61.8
-  delta: 12.3
+  composite: 59.8
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 32.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 59.1
+    contract_governance: 47.0
     contract_quality: 72.1
     developer_ergonomics: 83.3
-    discoverability: 72.2
-    governance: 59.1
+    discoverability: 66.7
+    governance: 47.0
     operational_transparency: 60.5
-  previous_composite: 49.5
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -508,9 +513,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/screenshots/biconomy-2026-06-20T173223.png
 security:
 - kind: authentication

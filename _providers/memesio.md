@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 5
@@ -42,14 +42,11 @@ agentic_access:
   operation_count: 111
   slug: memesio-agentic-access
   summary_line: 111 operations · 59 acting · 5 human-in-the-loop
-api_count: 42
+api_count: 1
 apis:
 - description: The agent-infra API from Memesio — 16 operation(s) for agent-infra.
   name: Memesio agent-infra API
   slug: memesio-agent-infra-api
-- description: The ai API from Memesio — 1 operation(s) for ai.
-  name: Memesio ai API
-  slug: memesio-ai-api
 - description: The ai-captions API from Memesio — 9 operation(s) for ai-captions.
   name: Memesio ai-captions API
   slug: memesio-ai-captions-api
@@ -62,115 +59,40 @@ apis:
 - description: The analytics API from Memesio — 8 operation(s) for analytics.
   name: Memesio analytics API
   slug: memesio-analytics-api
-- description: The audio API from Memesio — 1 operation(s) for audio.
-  name: Memesio audio API
-  slug: memesio-audio-api
 - description: The auth API from Memesio — 10 operation(s) for auth.
   name: Memesio auth API
   slug: memesio-auth-api
-- description: The backend API from Memesio — 1 operation(s) for backend.
-  name: Memesio backend API
-  slug: memesio-backend-api
-- description: The background-remove API from Memesio — 1 operation(s) for background-remove.
-  name: Memesio background-remove API
-  slug: memesio-background-remove-api
 - description: The billing API from Memesio — 2 operation(s) for billing.
   name: Memesio billing API
   slug: memesio-billing-api
-- description: The channels API from Memesio — 4 operation(s) for channels.
-  name: Memesio channels API
-  slug: memesio-channels-api
 - description: The collaboration API from Memesio — 1 operation(s) for collaboration.
   name: Memesio collaboration API
   slug: memesio-collaboration-api
 - description: The compliance API from Memesio — 1 operation(s) for compliance.
   name: Memesio compliance API
   slug: memesio-compliance-api
-- description: The data-eng API from Memesio — 2 operation(s) for data-eng.
-  name: Memesio data-eng API
-  slug: memesio-data-eng-api
-- description: The data-ops API from Memesio — 1 operation(s) for data-ops.
-  name: Memesio data-ops API
-  slug: memesio-data-ops-api
-- description: The data-science API from Memesio — 1 operation(s) for data-science.
-  name: Memesio data-science API
-  slug: memesio-data-science-api
 - description: The developer-api API from Memesio — 4 operation(s) for developer-api.
   name: Memesio developer-api API
   slug: memesio-developer-api-api
-- description: The distribution API from Memesio — 1 operation(s) for distribution.
-  name: Memesio distribution API
-  slug: memesio-distribution-api
-- description: The experimentation API from Memesio — 2 operation(s) for experimentation.
-  name: Memesio experimentation API
-  slug: memesio-experimentation-api
-- description: The face-swap API from Memesio — 2 operation(s) for face-swap.
-  name: Memesio face-swap API
-  slug: memesio-face-swap-api
-- description: The finops API from Memesio — 1 operation(s) for finops.
-  name: Memesio finops API
-  slug: memesio-finops-api
 - description: The growth API from Memesio — 12 operation(s) for growth.
   name: Memesio growth API
   slug: memesio-growth-api
-- description: The history API from Memesio — 1 operation(s) for history.
-  name: Memesio history API
-  slug: memesio-history-api
-- description: The lifecycle API from Memesio — 1 operation(s) for lifecycle.
-  name: Memesio lifecycle API
-  slug: memesio-lifecycle-api
-- description: The marketing-ops API from Memesio — 1 operation(s) for marketing-ops.
-  name: Memesio marketing-ops API
-  slug: memesio-marketing-ops-api
 - description: The media API from Memesio — 1 operation(s) for media.
   name: Memesio media API
   slug: memesio-media-api
 - description: The memes API from Memesio — 4 operation(s) for memes.
   name: Memesio memes API
   slug: memesio-memes-api
-- description: The moderation API from Memesio — 1 operation(s) for moderation.
-  name: Memesio moderation API
-  slug: memesio-moderation-api
-- description: The motion API from Memesio — 1 operation(s) for motion.
-  name: Memesio motion API
-  slug: memesio-motion-api
-- description: The notifications API from Memesio — 1 operation(s) for notifications.
-  name: Memesio notifications API
-  slug: memesio-notifications-api
-- description: The observability API from Memesio — 2 operation(s) for observability.
-  name: Memesio observability API
-  slug: memesio-observability-api
-- description: The performance API from Memesio — 1 operation(s) for performance.
-  name: Memesio performance API
-  slug: memesio-performance-api
-- description: The personalization API from Memesio — 2 operation(s) for personalization.
-  name: Memesio personalization API
-  slug: memesio-personalization-api
-- description: The platform API from Memesio — 5 operation(s) for platform.
-  name: Memesio platform API
-  slug: memesio-platform-api
-- description: The product-marketing API from Memesio — 1 operation(s) for product-marketing.
-  name: Memesio product-marketing API
-  slug: memesio-product-marketing-api
 - description: The public-free API from Memesio — 2 operation(s) for public-free.
   name: Memesio public-free API
   slug: memesio-public-free-api
-- description: The safety API from Memesio — 1 operation(s) for safety.
-  name: Memesio safety API
-  slug: memesio-safety-api
-- description: The templates API from Memesio — 3 operation(s) for templates.
-  name: Memesio templates API
-  slug: memesio-templates-api
 - description: The trend-alerts API from Memesio — 11 operation(s) for trend-alerts.
   name: Memesio trend-alerts API
   slug: memesio-trend-alerts-api
-- description: The uploads API from Memesio — 1 operation(s) for uploads.
-  name: Memesio uploads API
-  slug: memesio-uploads-api
 - description: The video API from Memesio — 9 operation(s) for video.
   name: Memesio video API
   slug: memesio-video-api
-artifact_total: 258
+artifact_total: 232
 collections:
 - collection_type: open
   name: API Collection
@@ -305,6 +227,10 @@ collections:
   name: Memesio API Contracts
   slug: open-memesio
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/memesio-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -858,13 +784,13 @@ modified: '2026-05-19'
 name: Memesio
 nav: Providers
 network: true
-overview: 'Memesio publishes 42 APIs on the [APIs.io](https://apis.io/) network, including agent-infra API, ai API, ai-captions API, and 39 more. Tagged areas include Memes, Media, Image-Generation, Content, and Developer Tools.
+overview: 'Memesio publishes 16 APIs on the [APIs.io](https://apis.io/) network, including agent-infra API, ai-captions API, ai-jobs API, and 13 more. Tagged areas include Memes, Media, Image-Generation, Content, and Developer Tools.
 
 
   The Memesio catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Memesio''s developer surface includes authentication, documentation, and 9 more developer resources.'
+  Memesio''s developer surface includes authentication, documentation, and 10 more developer resources.'
 plans:
 - name: Memesio Plans Pricing
   plan_count: 4
@@ -898,18 +824,23 @@ rules:
   slug: memesio-rules
 score:
   band: developing
-  composite: 40.4
-  delta: 4.4
+  composite: 40.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 28.8
-    contract_quality: 49.3
+    contract_quality: 49.7
     developer_ergonomics: 21.4
-    discoverability: 77.8
+    discoverability: 81.5
     governance: 28.8
     operational_transparency: 15.8
-  previous_composite: 36.0
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -917,8 +848,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 42
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memesio/refs/heads/main/screenshots/memesio-2026-06-20T185140.png
 security:

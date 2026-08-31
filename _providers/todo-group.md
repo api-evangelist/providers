@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
 - description: 'Repolinter is an open source linting tool for repositories that validates compliance with open source best practices. It checks repositories for standard files like LICENSE, README, CONTRIBUTING, and '
@@ -53,6 +53,26 @@ apis:
   slug: ospology
 artifact_total: 29
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/todogroup/repolinter/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/todogroup/repolinter/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/todogroup/repolinter/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/todogroup/repolinter/blob/main/CODE-OF-CONDUCT
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/todogroup/repolinter/blob/main/CONTRIBUTING
 - group: commercial
   title: ''
   type: License
@@ -147,7 +167,7 @@ overview: 'TODO Group publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   The TODO Group catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  TODO Group''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
+  TODO Group''s developer surface includes documentation, engineering blog, and 15 more developer resources.'
 plans:
 - name: Todo Group Plans Pricing
   plan_count: 3
@@ -169,8 +189,13 @@ rules:
     warn: 16
   slug: todo-group-spectral-rules
 score:
-  band: emerging
-  composite: 22.1
+  band: thin
+  composite: 33.0
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 53.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -180,10 +205,13 @@ score:
     developer_ergonomics: 16.7
     discoverability: 55.6
     governance: 69.7
-    operational_transparency: 13.2
-  previous_composite: 22.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 33.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/todo-group/refs/heads/main/screenshots/todo-group-2026-06-20T195427.png
 security:

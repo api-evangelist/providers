@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 15
   slug: razorpay-agentic-access
   summary_line: 15 operations · 6 acting
-api_count: 6
+api_count: 1
 apis:
 - description: RESTful API covering orders, payments, refunds, customers, tokens, invoices, payment links, virtual accounts, settlements, transfers, subscriptions, and webhooks. Authentication is HTTP Basic using th
   name: Razorpay Core REST API
@@ -204,18 +204,23 @@ scopes:
   summary_line: 5 scopes
 score:
   band: developing
-  composite: 47.3
-  delta: 2.0
+  composite: 46.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 79.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 11.4
     contract_quality: 59.6
     developer_ergonomics: 47.6
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 11.4
     operational_transparency: 44.7
-  previous_composite: 45.3
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     contracts:
@@ -229,8 +234,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/screenshots/razorpay-2026-06-20T192629.png
 security:

@@ -15,26 +15,61 @@ agent_readiness:
     event_surface_described: true
     idempotency: documented
     mcp_server: documented
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.4
-  scored_at: '2026-08-26'
+  score: 40.9
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: The HyperTrack REST API for Orders, Workers, Places, Routes, Visits, Geotags, Nearby search, Tracking views and Export jobs. Authenticated with OAuth 2.0 client_credentials (or HTTP Basic with Account
-  name: HyperTrack API
-  slug: hypertrack-api
-artifact_total: 7
+- description: Obtain and use access tokens for the HyperTrack API.
+  name: HyperTrack Authentication API
+  slug: hypertrack-authentication-api
+- description: The Export API from HyperTrack — 2 operation(s) for export.
+  name: HyperTrack Export API
+  slug: hypertrack-export-api
+- description: The Geotags API from HyperTrack — 2 operation(s) for geotags.
+  name: HyperTrack Geotags API
+  slug: hypertrack-geotags-api
+- description: The Nearby API from HyperTrack — 2 operation(s) for nearby.
+  name: HyperTrack Nearby API
+  slug: hypertrack-nearby-api
+- description: The Orders API from HyperTrack — 32 operation(s) for orders.
+  name: HyperTrack Orders API
+  slug: hypertrack-orders-api
+- description: The Places API from HyperTrack — 7 operation(s) for places.
+  name: HyperTrack Places API
+  slug: hypertrack-places-api
+- description: The Tracking API from HyperTrack — 1 operation(s) for tracking.
+  name: HyperTrack Tracking API
+  slug: hypertrack-tracking-api
+- description: The Visits API from HyperTrack — 4 operation(s) for visits.
+  name: HyperTrack Visits API
+  slug: hypertrack-visits-api
+- description: The WorkerExport API from HyperTrack — 2 operation(s) for workerexport.
+  name: HyperTrack Worker Export API
+  slug: hypertrack-workerexport-api
+- description: The Workers API from HyperTrack — 14 operation(s) for workers.
+  name: HyperTrack Workers API
+  slug: hypertrack-workers-api
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Hypertrack Events Webhooks
   slug: hypertrack-events-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hypertrack-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hypertrack-hypertrack-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -163,13 +198,13 @@ modified: '2026-08-22'
 name: HyperTrack
 nav: Providers
 network: true
-overview: 'HyperTrack publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Location, Geolocation, Tracking, and Logistics.
+overview: 'HyperTrack publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Export API, Geotags API, and 7 more. Tagged areas include Company, Location, Geolocation, Tracking, and Logistics.
 
 
   The HyperTrack catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  HyperTrack''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  HyperTrack''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
 plans:
 - name: Hypertrack Plans Pricing
   plan_count: 7
@@ -181,18 +216,23 @@ rate_limits:
   slug: hypertrack-rate-limits
 score:
   band: strong
-  composite: 61.3
-  delta: 3.4
+  composite: 59.2
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
-    contract_governance: 16.7
-    contract_quality: 61.8
+    contract_governance: 4.5
+    contract_quality: 63.9
     developer_ergonomics: 78.6
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 57.9
+  previous_composite: 59.8
   provenance:
     conformance: derived
     contracts:
@@ -202,8 +242,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

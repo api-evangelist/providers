@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Partner-gated REST API for submitting buyer and seller leads to HomeLight, submitting Simple Sale cash-offer seller leads, and checking for duplicate leads before submission. Authentication is via a p
@@ -141,7 +141,12 @@ random_paper: 16
 score:
   band: emerging
   composite: 13.5
-  delta: 4.5
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -151,9 +156,9 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 9.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 13.5
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/homelight/refs/heads/main/screenshots/homelight-2026-06-20T182818.png
 security:
@@ -172,7 +177,7 @@ tags:
 - Buy Before You Sell
 - Home Loans
 - HELOC
-- Title and Escrow
+- Title And Escrow
 - Closing Services
 - Lead Generation
 - Partner API

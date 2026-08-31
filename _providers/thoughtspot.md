@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 179
   human_in_the_loop: 13
@@ -41,92 +41,8 @@ agentic_access:
   operation_count: 191
   slug: thoughtspot-agentic-access
   summary_line: 191 operations · 179 acting · 13 human-in-the-loop
-api_count: 57
+api_count: 1
 apis:
-- description: The 10.1.0.cl API from ThoughtSpot — 1 operation(s) for 10.1.0.cl.
-  name: ThoughtSpot 10.1.0.cl API
-  slug: thoughtspot-10-1-0-cl-api
-- description: The 10.10.0.cl API from ThoughtSpot — 4 operation(s) for 10.10.0.cl.
-  name: ThoughtSpot 10.10.0.cl API
-  slug: thoughtspot-10-10-0-cl-api
-- description: The 10.12.0.cl API from ThoughtSpot — 13 operation(s) for 10.12.0.cl.
-  name: ThoughtSpot 10.12.0.cl API
-  slug: thoughtspot-10-12-0-cl-api
-- description: The 10.13.0.cl API from ThoughtSpot — 1 operation(s) for 10.13.0.cl.
-  name: ThoughtSpot 10.13.0.cl API
-  slug: thoughtspot-10-13-0-cl-api
-- description: The 10.14.0.cl API from ThoughtSpot — 8 operation(s) for 10.14.0.cl.
-  name: ThoughtSpot 10.14.0.cl API
-  slug: thoughtspot-10-14-0-cl-api
-- description: The 10.15.0.cl API from ThoughtSpot — 3 operation(s) for 10.15.0.cl.
-  name: ThoughtSpot 10.15.0.cl API
-  slug: thoughtspot-10-15-0-cl-api
-- description: The 10.3.0.cl API from ThoughtSpot — 1 operation(s) for 10.3.0.cl.
-  name: ThoughtSpot 10.3.0.cl API
-  slug: thoughtspot-10-3-0-cl-api
-- description: The 10.4.0.cl API from ThoughtSpot — 8 operation(s) for 10.4.0.cl.
-  name: ThoughtSpot 10.4.0.cl API
-  slug: thoughtspot-10-4-0-cl-api
-- description: The 10.6.0.cl API from ThoughtSpot — 2 operation(s) for 10.6.0.cl.
-  name: ThoughtSpot 10.6.0.cl API
-  slug: thoughtspot-10-6-0-cl-api
-- description: The 10.7.0.cl API from ThoughtSpot — 1 operation(s) for 10.7.0.cl.
-  name: ThoughtSpot 10.7.0.cl API
-  slug: thoughtspot-10-7-0-cl-api
-- description: The 10.8.0.cl API from ThoughtSpot — 1 operation(s) for 10.8.0.cl.
-  name: ThoughtSpot 10.8.0.cl API
-  slug: thoughtspot-10-8-0-cl-api
-- description: The 10.9.0.cl API from ThoughtSpot — 1 operation(s) for 10.9.0.cl.
-  name: ThoughtSpot 10.9.0.cl API
-  slug: thoughtspot-10-9-0-cl-api
-- description: The 26.2.0.cl API from ThoughtSpot — 6 operation(s) for 26.2.0.cl.
-  name: ThoughtSpot 26.2.0.cl API
-  slug: thoughtspot-26-2-0-cl-api
-- description: The 26.3.0.cl API from ThoughtSpot — 2 operation(s) for 26.3.0.cl.
-  name: ThoughtSpot 26.3.0.cl API
-  slug: thoughtspot-26-3-0-cl-api
-- description: The 26.4.0.cl API from ThoughtSpot — 11 operation(s) for 26.4.0.cl.
-  name: ThoughtSpot 26.4.0.cl API
-  slug: thoughtspot-26-4-0-cl-api
-- description: The 26.5.0.cl API from ThoughtSpot — 7 operation(s) for 26.5.0.cl.
-  name: ThoughtSpot 26.5.0.cl API
-  slug: thoughtspot-26-5-0-cl-api
-- description: The 26.6.0.cl API from ThoughtSpot — 6 operation(s) for 26.6.0.cl.
-  name: ThoughtSpot 26.6.0.cl API
-  slug: thoughtspot-26-6-0-cl-api
-- description: The 26.7.0.cl API from ThoughtSpot — 17 operation(s) for 26.7.0.cl.
-  name: ThoughtSpot 26.7.0.cl API
-  slug: thoughtspot-26-7-0-cl-api
-- description: The 26.8.0.cl API from ThoughtSpot — 5 operation(s) for 26.8.0.cl.
-  name: ThoughtSpot 26.8.0.cl API
-  slug: thoughtspot-26-8-0-cl-api
-- description: The 26.9.0.cl API from ThoughtSpot — 7 operation(s) for 26.9.0.cl.
-  name: ThoughtSpot 26.9.0.cl API
-  slug: thoughtspot-26-9-0-cl-api
-- description: The 9.0.0.cl API from ThoughtSpot — 47 operation(s) for 9.0.0.cl.
-  name: ThoughtSpot 9.0.0.cl API
-  slug: thoughtspot-9-0-0-cl-api
-- description: The 9.12.0.cl API from ThoughtSpot — 1 operation(s) for 9.12.0.cl.
-  name: ThoughtSpot 9.12.0.cl API
-  slug: thoughtspot-9-12-0-cl-api
-- description: The 9.2.0.cl API from ThoughtSpot — 15 operation(s) for 9.2.0.cl.
-  name: ThoughtSpot 9.2.0.cl API
-  slug: thoughtspot-9-2-0-cl-api
-- description: The 9.4.0.cl API from ThoughtSpot — 5 operation(s) for 9.4.0.cl.
-  name: ThoughtSpot 9.4.0.cl API
-  slug: thoughtspot-9-4-0-cl-api
-- description: The 9.5.0.cl API from ThoughtSpot — 4 operation(s) for 9.5.0.cl.
-  name: ThoughtSpot 9.5.0.cl API
-  slug: thoughtspot-9-5-0-cl-api
-- description: The 9.6.0.cl API from ThoughtSpot — 4 operation(s) for 9.6.0.cl.
-  name: ThoughtSpot 9.6.0.cl API
-  slug: thoughtspot-9-6-0-cl-api
-- description: The 9.7.0.cl API from ThoughtSpot — 2 operation(s) for 9.7.0.cl.
-  name: ThoughtSpot 9.7.0.cl API
-  slug: thoughtspot-9-7-0-cl-api
-- description: The 9.9.0.cl API from ThoughtSpot — 8 operation(s) for 9.9.0.cl.
-  name: ThoughtSpot 9.9.0.cl API
-  slug: thoughtspot-9-9-0-cl-api
 - description: The AI API from ThoughtSpot — 26 operation(s) for ai.
   name: ThoughtSpot AI API
   slug: thoughtspot-ai-api
@@ -214,7 +130,7 @@ apis:
 - description: The Webhooks API from ThoughtSpot — 5 operation(s) for webhooks.
   name: ThoughtSpot Webhooks API
   slug: thoughtspot-webhooks-api
-artifact_total: 178
+artifact_total: 150
 asyncapis:
 - description: ''
   name: Thoughtspot Webhooks
@@ -710,7 +626,7 @@ modified: '2026-07-21'
 name: ThoughtSpot
 nav: Providers
 network: true
-overview: 'ThoughtSpot publishes 57 APIs on the [APIs.io](https://apis.io/) network, including 10.1.0.cl API, 10.10.0.cl API, 10.12.0.cl API, and 54 more. Tagged areas include Company, Enterprise Software, Analytics, Business Intelligence, and Data.
+overview: 'ThoughtSpot publishes 29 APIs on the [APIs.io](https://apis.io/) network, including AI API, Authentication API, Collections API, and 26 more. Tagged areas include Company, Enterprise Software, Analytics, Business Intelligence, and Data.
 
 
   The ThoughtSpot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -720,18 +636,23 @@ overview: 'ThoughtSpot publishes 57 APIs on the [APIs.io](https://apis.io/) netw
 random_paper: 7
 score:
   band: strong
-  composite: 58.0
-  delta: 0.0
+  composite: 55.1
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
-    contract_quality: 56.1
+    contract_governance: 18.2
+    contract_quality: 56.3
     developer_ergonomics: 73.2
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 66.7
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 58.0
+  previous_composite: 55.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -742,8 +663,8 @@ score:
       total: 57
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thoughtspot/refs/heads/main/screenshots/thoughtspot-2026-08-17T082344.png
 security:

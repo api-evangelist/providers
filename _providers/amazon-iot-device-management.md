@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 141
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 238
   slug: amazon-iot-device-management-agentic-access
   summary_line: 238 operations · 141 acting · 2 human-in-the-loop
-api_count: 69
+api_count: 1
 apis:
 - description: The Accept Certificate Transfer API from Amazon IoT Device Management — 1 operation(s) for accept certificate transfer.
   name: Amazon IoT Device Management Accept Certificate Transfer API
@@ -671,6 +671,10 @@ collections:
   name: AWS IoT Accept Certificate Transfer Violations API
   slug: open-amazon-iot-device-management-violations-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-iot-device-management-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -2591,7 +2595,7 @@ overview: 'Amazon IoT Device Management publishes 69 APIs on the [APIs.io](https
   The Amazon IoT Device Management catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon IoT Device Management''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 15 more developer resources.'
+  Amazon IoT Device Management''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 16 more developer resources.'
 plans:
 - name: Amazon Iot Device Management Plans Pricing
   plan_count: 3
@@ -2625,18 +2629,23 @@ rules:
   slug: amazon-iot-device-management-spectral-rules
 score:
   band: developing
-  composite: 52.7
-  delta: 4.5
+  composite: 54.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 28.8
     contract_quality: 68.1
     developer_ergonomics: 61.9
-    discoverability: 40.7
+    discoverability: 53.7
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 48.2
+  previous_composite: 54.6
   provenance:
     agentic_access: derived
     contracts:
@@ -2644,8 +2653,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 69
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-device-management/refs/heads/main/screenshots/amazon-iot-device-management-2026-06-20T171712.png
 security:

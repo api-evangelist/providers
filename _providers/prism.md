@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Prism is an open source HTTP mock and validation server from Stoplight that generates dynamic mock responses and validates requests against OpenAPI specifications.
@@ -41,6 +41,22 @@ apis:
   slug: prism
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/stoplightio/prism/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/stoplightio/prism/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/stoplightio/prism/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/stoplightio/prism/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -80,7 +96,7 @@ network: true
 overview: 'Prism publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Mocking and Testing.
 
 
-  Prism''s developer surface includes engineering blog, documentation, and 4 more developer resources.'
+  Prism''s developer surface includes engineering blog, documentation, and 8 more developer resources.'
 plans:
 - name: Prism Plans Pricing
   plan_count: 3
@@ -91,8 +107,13 @@ rate_limits:
   name: Prism Rate Limits
   slug: prism-rate-limits
 score:
-  band: minimal
-  composite: 9.1
+  band: emerging
+  composite: 16.5
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 84.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -102,10 +123,13 @@ score:
     developer_ergonomics: 2.4
     discoverability: 40.7
     governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 9.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 16.5
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prism/refs/heads/main/screenshots/prism-2026-06-20T192107.png
 security:

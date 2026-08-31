@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 21
   slug: launch27-agentic-access
   summary_line: 21 operations · 9 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Account/tenant settings and configuration.
   name: Launch27 Account API
@@ -184,18 +184,23 @@ rules:
   slug: launch27-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.1
-  delta: 1.0
+  composite: 42.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 47.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 11.4
     contract_quality: 60.5
     developer_ergonomics: 35.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 11.4
     operational_transparency: 31.6
-  previous_composite: 42.1
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -203,8 +208,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/launch27/refs/heads/main/screenshots/launch27-2026-07-25T224614.png
 security:

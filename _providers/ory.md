@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 6
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 128
   slug: ory-agentic-access
   summary_line: 128 operations · 57 acting · 6 human-in-the-loop
-api_count: 23
+api_count: 17
 apis:
 - description: The api API from Ory — 4 operation(s) for api.
   name: Ory api API
@@ -79,41 +79,38 @@ apis:
   slug: ory-wellknown-api
 - description: Ory Network workspace / project subscriptions.
   name: Ory Billing API
-  slug: ory-network-billing-api
-- description: Admin access to queued and dispatched courier messages.
-  name: Ory Courier API
-  slug: ory-network-courier-api
+  slug: ory-billing-api
 - description: Ory Network event stream configuration.
   name: Ory Event Streams API
-  slug: ory-network-event-streams-api
+  slug: ory-event-streams-api
 - description: Privileged Kratos identity and session management.
   name: Ory Identity (Admin) API
-  slug: ory-network-identity-admin-api
+  slug: ory-identity-admin-api
 - description: Public Kratos flows for login, registration, recovery, verification, settings, logout, and sessions.
   name: Ory Identity (Self-Service) API
-  slug: ory-network-identity-self-service-api
+  slug: ory-identity-self-service-api
 - description: Privileged Hydra client, token, consent, and key management.
   name: Ory OAuth2 (Admin) API
-  slug: ory-network-oauth2-admin-api
+  slug: ory-oauth2-admin-api
 - description: Public OAuth2 / OpenID Connect provider endpoints (Hydra).
   name: Ory OAuth2 (Public) API
-  slug: ory-network-oauth2-public-api
+  slug: ory-oauth2-public-api
 - description: B2B organization management for SSO.
   name: Ory Organizations API
-  slug: ory-network-organizations-api
+  slug: ory-organizations-api
 - description: Keto permission checks, expand, and namespace reads.
   name: Ory Permissions API
-  slug: ory-network-permissions-api
+  slug: ory-permissions-api
 - description: Ory Network project API token management.
   name: Ory Project Tokens API
-  slug: ory-network-project-tokens-api
+  slug: ory-project-tokens-api
 - description: Ory Network Console project management.
   name: Ory Projects API
-  slug: ory-network-projects-api
+  slug: ory-projects-api
 - description: Keto relationship-tuple writes and OPL syntax checks.
   name: Ory Relationships API
-  slug: ory-network-relationships-api
-artifact_total: 62
+  slug: ory-relationships-api
+artifact_total: 61
 collections:
 - collection_type: open
   name: API Collection
@@ -203,6 +200,26 @@ collections:
   name: Ory Hydra api wellknown API
   slug: open-ory-wellknown-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/ory/hydra/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/ory/hydra/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/ory/hydra/blob/master/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/ory/hydra/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/ory/hydra/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -271,10 +288,10 @@ modified: '2026-05-19'
 name: Ory
 nav: Providers
 network: true
-overview: 'Ory publishes 23 APIs on the [APIs.io](https://apis.io/) network, including api API, courier API, frontend API, and 20 more. Tagged areas include Authentication, Authorization, Identity, OpenID Connect, and Open-Source.
+overview: 'Ory publishes 22 APIs on the [APIs.io](https://apis.io/) network, including api API, courier API, frontend API, and 19 more. Tagged areas include Authentication, Authorization, Identity, OpenID Connect, and Open-Source.
 
 
-  Ory''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
+  Ory''s developer surface includes authentication, documentation, engineering blog, and 15 more developer resources.'
 plans:
 - name: Ory Plans Pricing
   plan_count: 4
@@ -290,19 +307,27 @@ scopes:
   slug: ory-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: thin
-  composite: 31.4
-  delta: 2.4
+  band: developing
+  composite: 41.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.9
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 48.9
+    contract_quality: 49.0
     developer_ergonomics: 35.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 29.0
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -310,8 +335,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/screenshots/ory-2026-06-20T191212.png
 security:

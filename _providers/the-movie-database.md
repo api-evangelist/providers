@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 152
   slug: the-movie-database-agentic-access
   summary_line: 152 operations · 17 acting
-api_count: 21
+api_count: 1
 apis:
 - description: The Account API from The Movie Database — 11 operation(s) for account.
   name: The Movie Database Account API
@@ -176,6 +176,10 @@ collections:
   name: tmdb-api
   slug: open-the-movie-database
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/the-movie-database-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -268,7 +272,7 @@ overview: 'The Movie Database publishes 21 APIs on the [APIs.io](https://apis.io
   The The Movie Database catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  The Movie Database''s developer surface includes authentication, documentation, signup flow, support, pricing, and 7 more developer resources.'
+  The Movie Database''s developer surface includes authentication, documentation, signup flow, support, pricing, and 8 more developer resources.'
 plans:
 - name: The Movie Database Plans Pricing
   plan_count: 3
@@ -302,18 +306,23 @@ rules:
   slug: the-movie-database-rules
 score:
   band: thin
-  composite: 34.9
-  delta: 2.6
+  composite: 34.4
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 66.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 13.6
     contract_quality: 58.5
     developer_ergonomics: 23.8
-    discoverability: 63.0
+    discoverability: 57.4
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 32.3
+  previous_composite: 34.9
   provenance:
     agentic_access: derived
     contracts:
@@ -321,8 +330,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-movie-database/refs/heads/main/screenshots/the-movie-database-2026-06-20T195224.png
 security:

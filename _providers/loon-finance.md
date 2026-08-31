@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 3
   slug: loon-finance-agentic-access
   summary_line: 3 operations
-api_count: 3
+api_count: 1
 apis:
 - description: Independent monthly reserve attestation reports.
   name: Loon Finance Attestations API
@@ -166,25 +166,30 @@ modified: '2026-07-20'
 name: Loon Finance
 nav: Providers
 network: true
-overview: 'Loon Finance publishes 3 APIs on the [APIs.io](https://apis.io/) network: Attestations API, Issuances API, and Supply API. Tagged areas include Company, Fintech, Stablecoins, Cryptocurrency, and Payments.
+overview: 'Loon Finance publishes 3 APIs on the [APIs.io](https://apis.io/) network: Attestations API, Issuances API, and Supply API. Tagged areas include Company, Fintech, Stablecoin, Cryptocurrency, and Payments.
 
 
   Loon Finance''s developer surface includes documentation, engineering blog, support, and 19 more developer resources.'
 random_paper: 12
 score:
   band: developing
-  composite: 47.8
-  delta: 0.0
+  composite: 44.7
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 78.6
     commercial_clarity: 78.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 50.6
     developer_ergonomics: 18.5
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 5.3
-  previous_composite: 47.8
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -201,8 +206,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loon-finance/refs/heads/main/screenshots/loon-finance-2026-07-25T225523.png
 security:
@@ -218,7 +223,7 @@ slug: loon-finance
 tags:
 - Company
 - Fintech
-- Stablecoins
+- Stablecoin
 - Cryptocurrency
 - Payments
 - Canada

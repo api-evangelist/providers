@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 164
   slug: ashby-hq-agentic-access
   summary_line: 164 operations · 164 acting
-api_count: 52
+api_count: 1
 apis:
 - description: 'Public, unauthenticated job postings endpoint for building custom careers pages and partner job feeds (LinkedIn, Indeed, Otta, Built In, ZipRecruiter, Levels.fyi). Returns published job postings with '
   name: Ashby Job Postings Public API
@@ -201,6 +201,9 @@ apis:
 - description: The Webhook API from Ashby — 4 operation(s) for webhook.
   name: Ashby Webhook API
   slug: ashby-hq-webhook-api
+- description: The Webhook Payloads API from Ashby — 0 operation(s) for webhook payloads.
+  name: Ashby Webhook Payloads API
+  slug: ashby-hq-webhook-payloads-api
 arazzos:
 - description: Resolve an application's plan, find the target stage by title, move the application, and verify.
   name: Ashby Advance an Application to a Named Interview Stage
@@ -250,7 +253,7 @@ arazzos:
 - description: Confirm the API key's access, register a webhook, verify it, then enable or rotate it.
   name: Ashby Register and Manage a Webhook Subscription
   slug: ashby-hq-webhook-lifecycle-workflow
-artifact_total: 209
+artifact_total: 210
 collections:
 - collection_type: postman
   name: Ashby API Key API
@@ -565,6 +568,10 @@ collections:
   name: Ashby API
   slug: open-ashby
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ashby-hq-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -905,13 +912,13 @@ modified: '2026-06-20'
 name: Ashby
 nav: Providers
 network: true
-overview: 'Ashby publishes 51 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Application API, Application Feedback API, and 48 more. Tagged areas include ATS, Recruiting, Talent Acquisition, Sourcing, and CRM.
+overview: 'Ashby publishes 52 APIs on the [APIs.io](https://apis.io/) network, including API Key API, Application API, Application Feedback API, and 49 more. Tagged areas include ATS, Applicant Tracking System, Recruiting, Talent Acquisition, and Sourcing.
 
 
   The Ashby catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Ashby''s developer surface includes changelog, sandbox, authentication, developer portal, getting-started guide, documentation, support, and 63 more developer resources.'
+  Ashby''s developer surface includes changelog, sandbox, authentication, developer portal, getting-started guide, documentation, support, and 64 more developer resources.'
 plans:
 - name: Ashby Hq Plans Pricing
   plan_count: 6
@@ -934,18 +941,23 @@ rules:
   slug: ashby-hq-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 66.2
-  delta: 0.0
+  composite: 64.1
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 37.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
-    contract_governance: 26.5
-    contract_quality: 69.7
+    contract_governance: 14.4
+    contract_quality: 69.4
     developer_ergonomics: 61.9
-    discoverability: 66.7
-    governance: 26.5
+    discoverability: 61.1
+    governance: 14.4
     operational_transparency: 78.9
-  previous_composite: 66.2
+  previous_composite: 64.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -955,8 +967,8 @@ score:
       marker_coverage: 0.0
       total: 51
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ashby-hq/refs/heads/main/screenshots/ashby-hq-2026-06-20T172500.png
 security:
@@ -979,6 +991,7 @@ security:
 slug: ashby-hq
 tags:
 - ATS
+- Applicant Tracking System
 - Recruiting
 - Talent Acquisition
 - Sourcing

@@ -33,46 +33,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
-api_count: 12
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: 3D Secure is a security protocol designed to prevent fraud in online card transactions. It adds an additional layer of authentication during the payment process.
-  name: Evervault 3D Secure API
-  slug: evervault-3d-secure-api
-- description: The Acquirer API allows you to enroll Acquirer details with Card Networks to enable use of other payment APIs such as [3D Secure](#3d-secure).
-  name: Evervault Acquirers API
-  slug: evervault-acquirers-api
-- description: If your account has access to [Card Account Updater](/cards/card-account-updater) you can use the Card Account Updater API to register cards for automatic updates. If an update is available for a card
-  name: Evervault Card Account Updates API
-  slug: evervault-card-account-updates-api
-- description: Client-Side Tokens are short-lived tokens that can be used to perform actions from your frontend applications.
-  name: Evervault Client Tokens API
-  slug: evervault-client-tokens-api
 - description: The Core API from Evervault — 9 operation(s) for core.
   name: Evervault Core API
   slug: evervault-core-api
-- description: Evervault [Functions](/functions) are secure serverless functions which allow you to process data encrypted by Evervault products. When you pass encrypted data to a Function, it is automatically decry
-  name: Evervault Functions API
-  slug: evervault-functions-api
-- description: The Evervault API provides several endpoints which can be used to retrieve additional information for cards and bin ranges. This can be used for tasks such as fraud detection and payment routing.
-  name: Evervault Insights API
-  slug: evervault-insights-api
-- description: The Merchants API from Evervault — 2 operation(s) for merchants.
-  name: Evervault Merchants API
-  slug: evervault-merchants-api
-- description: The Network Tokens API from Evervault — 5 operation(s) for network tokens.
-  name: Evervault Network Tokens API
-  slug: evervault-network-tokens-api
 - description: The Payments API from Evervault — 17 operation(s) for payments.
   name: Evervault Payments API
   slug: evervault-payments-api
-- description: Relay is a network proxy that can be configured to encrypt or decrypt sensitive data as it passes between a client and a destination server. Relay can be used with your own API or with third-party API
-  name: Evervault Relays API
-  slug: evervault-relays-api
 - description: The Webhooks API from Evervault — 2 operation(s) for webhooks.
   name: Evervault Webhooks API
   slug: evervault-webhooks-api
-artifact_total: 42
+- description: The Evervault API API from Evervault — 0 operation(s) for evervault api.
+  name: Evervault Evervault API
+  slug: evervault-evervault-api-api
+artifact_total: 34
 asyncapis:
 - description: ''
   name: Evervault Webhooks
@@ -310,7 +286,7 @@ modified: '2026-07-19'
 name: Evervault
 nav: Providers
 network: true
-overview: 'Evervault publishes 12 APIs on the [APIs.io](https://apis.io/) network, including 3D Secure API, Acquirers API, Card Account Updates API, and 9 more. Tagged areas include Company, Data, Security, Encryption, and Payments.
+overview: 'Evervault publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Core API, Payments API, Webhooks API, and 1 more. Tagged areas include Company, Data, Security, Encryption, and Payments.
 
 
   The Evervault catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -319,19 +295,24 @@ overview: 'Evervault publishes 12 APIs on the [APIs.io](https://apis.io/) networ
   Evervault''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 29 more developer resources.'
 random_paper: 3
 score:
-  band: exemplar
-  composite: 66.6
-  delta: 0.0
+  band: strong
+  composite: 62.2
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 30.3
-    contract_quality: 69.9
+    contract_governance: 18.2
+    contract_quality: 64.8
     developer_ergonomics: 80.4
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 66.6
+  previous_composite: 62.8
   provenance:
     conformance: first-party
     contracts:
@@ -343,12 +324,18 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evervault/refs/heads/main/screenshots/evervault-2026-08-07T165228.png
 security:

@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/nokia-corp/
 created: '2026-07-17'
 description: Gainspeed, Inc. was a Sunnyvale, California networking startup that developed a Virtual Converged Cable Access Platform (Virtual CCAP) built on a Distributed Access Architecture (Remote PHY / DAA) for cable multiple-system operators (MSOs). The company was backed by Andreessen Horowitz (a16z) and was acquired by Nokia in 2016, after which its virtual CCAP technology was folded into Nokia's cable access portfolio. It was surfaced as an a16z portfolio company and added to the API Evangelist network as a stub. Gainspeed operated no public developer program, API, or live developer portal; its domain no longer resolves.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gainspeed.png
@@ -48,6 +53,11 @@ random_paper: 20
 score:
   band: minimal
   composite: 0.6
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -73,8 +83,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: gainspeed
 tags:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 31
   slug: chargedesk-agentic-access
   summary_line: 31 operations · 19 acting
-api_count: 7
+api_count: 1
 apis:
 - description: RESTful API for managing charges, customers, subscriptions, products, and webhooks across multiple payment gateways. Supports creating and capturing charges, processing refunds, cancelling subscriptio
   name: ChargeDesk REST API
@@ -227,15 +227,20 @@ rules:
   slug: chargedesk-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.0
-  delta: 0.0
+  composite: 41.4
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 51.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 61.6
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 21.1
   previous_composite: 42.0
@@ -252,8 +257,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargedesk/refs/heads/main/screenshots/chargedesk-2026-06-20T174221.png
 security:

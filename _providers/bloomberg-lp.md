@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: bloomberg-lp-agentic-access
   summary_line: 4 operations · 3 acting
-api_count: 9
+api_count: 1
 apis:
 - description: 'BLPAPI is Bloomberg''s core programming interface for the Bloomberg Terminal Desktop API, Server API (SAPI), B-PIPE, and Platform products. It exposes a unified asynchronous session/event/subscription '
   name: Bloomberg BLPAPI (Desktop API)
@@ -330,18 +330,23 @@ rules:
   slug: openfigi-rules
 score:
   band: strong
-  composite: 63.4
-  delta: 5.9
+  composite: 62.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 32.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
     contract_governance: 28.8
     contract_quality: 68.7
     developer_ergonomics: 69.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 57.5
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     contracts:
@@ -355,9 +360,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-lp/refs/heads/main/screenshots/bloomberg-lp-2026-06-20T173441.png
 security:
 - kind: authentication

@@ -34,18 +34,65 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: 'The SmartCustomer Business API (published under the pre-rebrand Sitejabber name at api.sitejabber.com) is the review-management API behind SmartCustomer''s business product. It covers business profile '
-  name: SmartCustomer (Sitejabber) Business API
-  slug: smartcustomer-sitejabber-business-api
-artifact_total: 7
+- description: The Authentication API from SiteJabber — 1 operation(s) for authentication.
+  name: SiteJabber Authentication API
+  slug: sitejabber-authentication-api
+- description: The Business Info API from SiteJabber — 2 operation(s) for business info.
+  name: SiteJabber Business Info API
+  slug: sitejabber-business-info-api
+- description: The Business Questions API from SiteJabber — 1 operation(s) for business questions.
+  name: SiteJabber Business Questions API
+  slug: sitejabber-business-questions-api
+- description: The Messages API from SiteJabber — 2 operation(s) for messages.
+  name: SiteJabber Messages API
+  slug: sitejabber-messages-api
+- description: The Partners API from SiteJabber — 2 operation(s) for partners.
+  name: SiteJabber Partners API
+  slug: sitejabber-partners-api
+- description: The Privacy API from SiteJabber — 2 operation(s) for privacy.
+  name: SiteJabber Privacy API
+  slug: sitejabber-privacy-api
+- description: The Product Questions API from SiteJabber — 1 operation(s) for product questions.
+  name: SiteJabber Product Questions API
+  slug: sitejabber-product-questions-api
+- description: The Product Review Requests API from SiteJabber — 2 operation(s) for product review requests.
+  name: SiteJabber Product Review Requests API
+  slug: sitejabber-product-review-requests-api
+- description: The Product Reviews API from SiteJabber — 5 operation(s) for product reviews.
+  name: SiteJabber Product Reviews API
+  slug: sitejabber-product-reviews-api
+- description: The Products API from SiteJabber — 4 operation(s) for products.
+  name: SiteJabber Products API
+  slug: sitejabber-products-api
+- description: The Resolution Attempts API from SiteJabber — 1 operation(s) for resolution attempts.
+  name: SiteJabber Resolution Attempts API
+  slug: sitejabber-resolution-attempts-api
+- description: The Review Comments API from SiteJabber — 2 operation(s) for review comments.
+  name: SiteJabber Review Comments API
+  slug: sitejabber-review-comments-api
+- description: The Review Requests API from SiteJabber — 2 operation(s) for review requests.
+  name: SiteJabber Review Requests API
+  slug: sitejabber-review-requests-api
+- description: The Reviews API from SiteJabber — 4 operation(s) for reviews.
+  name: SiteJabber Reviews API
+  slug: sitejabber-reviews-api
+artifact_total: 20
 collections:
 - collection_type: open
   name: SmartCustomer (Sitejabber) Business API
   slug: open-sitejabber-business-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/sitejabber-business-api-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/sitejabber-mcp.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -139,10 +186,10 @@ modified: '2026-08-13'
 name: SiteJabber
 nav: Providers
 network: true
-overview: 'SiteJabber publishes 1 API on the [APIs.io](https://apis.io/) network: SmartCustomer (Sitejabber) Business API. Tagged areas include Company, Reviews, Consumer Reviews, Product Reviews, and Reputation Management.
+overview: 'SiteJabber publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Business Info API, Business Questions API, and 11 more. Tagged areas include Company, Reviews, Consumer Reviews, Product Reviews, and Reputation Management.
 
 
-  SiteJabber''s developer surface includes pricing, support, documentation, signup flow, and 16 more developer resources.'
+  SiteJabber''s developer surface includes pricing, support, documentation, signup flow, and 18 more developer resources.'
 plans:
 - name: Sitejabber Plans Pricing
   plan_count: 4
@@ -154,18 +201,23 @@ rate_limits:
   slug: sitejabber-rate-limits
 score:
   band: developing
-  composite: 47.4
-  delta: 2.3
+  composite: 44.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
-    contract_quality: 53.1
+    contract_governance: 4.5
+    contract_quality: 52.9
     developer_ergonomics: 25.6
-    discoverability: 87.0
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 45.1
+  previous_composite: 45.4
   provenance:
     conformance: derived
     contracts:
@@ -175,8 +227,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sitejabber/refs/heads/main/screenshots/sitejabber-2026-08-17T081908.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 5
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 79
   slug: mv-sistemas-agentic-access
   summary_line: 79 operations · 40 acting · 5 human-in-the-loop
-api_count: 35
+api_count: 18
 apis:
 - description: Criação e atualização de status de agendamentos
   name: MV sistemas Agendamento API
@@ -265,6 +265,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/mv-sistemas-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/mv-sistemas-clinic-agenda-overlay.yaml
 - group: company
@@ -365,22 +369,27 @@ overview: 'MV sistemas publishes 35 APIs on the [APIs.io](https://apis.io/) netw
   The MV sistemas catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MV sistemas'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 15 more developer resources.'
+  MV sistemas'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 16 more developer resources.'
 random_paper: 11
 score:
   band: developing
-  composite: 42.6
-  delta: 0.0
+  composite: 40.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.2
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
-    contract_quality: 60.3
-    developer_ergonomics: 58.9
+    contract_governance: 4.5
+    contract_quality: 60.5
+    developer_ergonomics: 53.0
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 42.6
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -397,8 +406,8 @@ score:
     regime: Health
     regime_id: health
     score: 35.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/screenshots/mv-sistemas-2026-08-07T184458.png
 security:

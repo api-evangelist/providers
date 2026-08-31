@@ -12,9 +12,8 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
-  band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
@@ -27,15 +26,15 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.8
-  scored_at: '2026-08-26'
+  score: 33.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -48,13 +47,64 @@ apis:
 - description: Autolabel is the open-source Python library (pip install refuel-autolabel) to label, clean, and enrich text datasets with any LLM (OpenAI, Anthropic, Google, HuggingFace, vLLM, Refuel-hosted). It is a
   name: Refuel Autolabel (Open Source)
   slug: refuel-autolabel-oss
-- description: 'The full Refuel Cloud REST API — 108 operations across 77 paths, harvested verbatim from https://cloud-api.refuel.ai/openapi.json on 2026-08-14. Covers projects, datasets and items, tasks, task runs, '
-  name: Refuel Cloud API
-  slug: refuel-cloud-api
 - description: The documented realtime application label surface — the endpoint Refuel's own catalog page publishes as `POST https://cloud-api.refuel.ai/applications/{applicationName}/label`, with the concrete reque
   name: Refuel Applications API
   slug: refuel-ai-applications-api
-artifact_total: 16
+- description: The Access API from Refuel — 4 operation(s) for access.
+  name: Refuel Access API
+  slug: refuel-ai-access-api
+- description: The Csp Reports API from Refuel — 1 operation(s) for csp reports.
+  name: Refuel Csp Reports API
+  slug: refuel-ai-csp-reports-api
+- description: The Datasets API from Refuel — 13 operation(s) for datasets.
+  name: Refuel Datasets API
+  slug: refuel-ai-datasets-api
+- description: The Finetuned Models API from Refuel — 1 operation(s) for finetuned models.
+  name: Refuel Finetuned Models API
+  slug: refuel-ai-finetuned-models-api
+- description: The Integrations API from Refuel — 2 operation(s) for integrations.
+  name: Refuel Integrations API
+  slug: refuel-ai-integrations-api
+- description: The Labs API from Refuel — 2 operation(s) for labs.
+  name: Refuel Labs API
+  slug: refuel-ai-labs-api
+- description: The Models API from Refuel — 1 operation(s) for models.
+  name: Refuel Models API
+  slug: refuel-ai-models-api
+- description: The Projects API from Refuel — 6 operation(s) for projects.
+  name: Refuel Projects API
+  slug: refuel-ai-projects-api
+- description: The Refuel Cloud API API from Refuel — 1 operation(s) for refuel cloud api.
+  name: Refuel Refuel Cloud API
+  slug: refuel-ai-refuel-cloud-api-api
+- description: The Schema API from Refuel — 1 operation(s) for schema.
+  name: Refuel Schema API
+  slug: refuel-ai-schema-api
+- description: The Tasks API from Refuel — 28 operation(s) for tasks.
+  name: Refuel Tasks API
+  slug: refuel-ai-tasks-api
+- description: The Team API from Refuel — 2 operation(s) for team.
+  name: Refuel Team API
+  slug: refuel-ai-team-api
+- description: The Teams API from Refuel — 1 operation(s) for teams.
+  name: Refuel Teams API
+  slug: refuel-ai-teams-api
+- description: The Usage API from Refuel — 1 operation(s) for usage.
+  name: Refuel Usage API
+  slug: refuel-ai-usage-api
+- description: The User API from Refuel — 1 operation(s) for user.
+  name: Refuel User API
+  slug: refuel-ai-user-api
+- description: The Users API from Refuel — 3 operation(s) for users.
+  name: Refuel Users API
+  slug: refuel-ai-users-api
+- description: The Webhook API from Refuel — 1 operation(s) for webhook.
+  name: Refuel Webhook API
+  slug: refuel-ai-webhook-api
+- description: The Webhooks API from Refuel — 1 operation(s) for webhooks.
+  name: Refuel Webhooks API
+  slug: refuel-ai-webhooks-api
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Refuel Ai Events
@@ -70,6 +120,10 @@ collections:
   name: Refuel Cloud API
   slug: open-refuel-ai
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/refuel-ai-cloud-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -238,13 +292,13 @@ modified: '2026-08-14'
 name: Refuel
 nav: Providers
 network: true
-overview: 'Refuel publishes 2 APIs on the [APIs.io](https://apis.io/) network: Cloud API and Applications API. Tagged areas include Artificial Intelligence, LLM, Data Labeling, Data Enrichment, and Autolabel.
+overview: 'Refuel publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Access API, Csp Reports API, and 16 more. Tagged areas include Artificial Intelligence, LLM, Data Labeling, Data Enrichment, and Autolabel.
 
 
   The Refuel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Refuel''s developer surface includes sandbox, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 31 more developer resources.'
+  Refuel''s developer surface includes sandbox, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 32 more developer resources.'
 plans:
 - name: Refuel Ai Plans Pricing
   plan_count: 3
@@ -256,18 +310,23 @@ rate_limits:
   slug: refuel-ai-rate-limits
 score:
   band: strong
-  composite: 65.6
-  delta: 1.0
+  composite: 63.6
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 52.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 89.5
     commercial_clarity: 89.5
-    contract_governance: 30.3
-    contract_quality: 66.3
+    contract_governance: 18.2
+    contract_quality: 64.1
     developer_ergonomics: 74.4
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 64.6
+  previous_composite: 63.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -278,8 +337,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refuel-ai/refs/heads/main/screenshots/refuel-ai-2026-08-17T080415.png
 security:
@@ -309,7 +368,7 @@ tags:
 - Machine-Learning
 - Data Quality
 - Training Data
-- Fine-Tuning
+- Fine Tuning
 - Data Transformation
 - Entity Resolution
 - Content Moderation

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 56
   slug: bright-data-agentic-access
   summary_line: 56 operations · 27 acting · 1 human-in-the-loop
-api_count: 17
+api_count: 10
 apis:
-- description: Real-time SERP data from Google, Bing, Yandex, and DuckDuckGo across 31 languages and 195 countries. Supports organic, news, images, videos, shopping, jobs, hotels, flights, lens, trends, reviews, map
-  name: Bright Data SERP API
-  slug: serp-api
 - description: Bright Data's Model Context Protocol server exposes 60+ web-access tools (search, scrape, structured extraction, browser automation, datasets) to MCP-compatible clients including Claude Desktop, Claud
   name: Bright Data MCP Server
   slug: mcp-server
@@ -135,7 +132,7 @@ arazzos:
 - description: Submit an asynchronous Web Unlocker request and poll for the unlocked response.
   name: Bright Data Submit Async Unlock and Retrieve Result
   slug: bright-data-web-unlocker-async-workflow
-artifact_total: 99
+artifact_total: 98
 collections:
 - collection_type: postman
   name: Bright Data Account Management API
@@ -485,7 +482,7 @@ modified: '2026-05-25'
 name: Bright Data
 nav: Providers
 network: true
-overview: 'Bright Data publishes 16 APIs on the [APIs.io](https://apis.io/) network, including SERP API, Access API, Archive API, and 13 more. Tagged areas include Web Data, Web Scraping, Proxy, Residential Proxy, and Datacenter Proxy.
+overview: 'Bright Data publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Access API, Archive API, Billing API, and 12 more. Tagged areas include Web Data, Web Scraping, Proxy, Residential Proxy, and Datacenter Proxy.
 
 
   The Bright Data catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -525,18 +522,23 @@ rules:
   slug: bright-data-rules
 score:
   band: developing
-  composite: 53.6
+  composite: 53.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
     contract_governance: 13.6
-    contract_quality: 66.6
+    contract_quality: 65.4
     developer_ergonomics: 59.5
     discoverability: 66.7
     governance: 13.6
     operational_transparency: 42.1
-  previous_composite: 53.6
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     contracts:
@@ -544,8 +546,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/screenshots/bright-data-2026-06-20T173659.png
 security:

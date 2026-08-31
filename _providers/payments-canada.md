@@ -6,7 +6,7 @@ agent_readiness:
     agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.0
-  scored_at: '2026-08-26'
+  score: 23.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -31,39 +31,45 @@ agentic_access:
   operation_count: 11
   slug: payments-canada-agentic-access
   summary_line: 11 operations · 5 acting
-api_count: 10
+api_count: 8
 apis:
-- description: Real-Time Rail sandbox API for sending an RTR payment (ISO 20022 pacs.008 Customer Credit Transfer) to another RTR participant and enquiring on payment status (pacs.028), returning a payment status re
-  name: RTR Sandbox - Inbound Participant Payment API
-  slug: rtr-inbound-participant-payment-api
-- description: 'Real-Time Rail sandbox API for sending heartbeat requests between a participant and the RTR exchange (ISO 20022 admi.004 System Event Notification), returning admi.011 System Event Acknowledgement or '
-  name: RTR Sandbox - Inbound Exchange Heartbeat API
-  slug: rtr-inbound-heartbeat-api
-- description: Real-Time Rail sandbox clearing-and-settlement API that calls the C&S system to generate an interest report (ISO 20022 camt.003 Get Account returning camt.004 Return Account with interest data). OAuth
-  name: RTR Sandbox - Interest Report API
-  slug: rtr-interest-report-api
-- description: Real-Time Rail sandbox clearing-and-settlement API that calls the C&S system to generate a payment-capacity balance report (ISO 20022 camt.003 Get Account returning camt.004 Return Account with balanc
-  name: RTR Sandbox - Payment Capacity Balance Report API
-  slug: rtr-balance-report-api
 - description: Sandbox APIs giving members access to test-data interactions with Lynx, Canada's high-value ISO 20022 real-time gross settlement system. Access is member-gated (contact your organization's Access Offi
   name: Lynx Sandbox API
   slug: lynx-sandbox-api
 - description: APIs for the Automated Clearing Settlement System (ACSS), Canada's retail batch/ACH clearing rail. Access is member-gated via the developer portal.
   name: ACSS API
   slug: acss-api
-- description: Financial Institutions File (FIF) extracts API returning master and weekly updated extract data for Canadian financial institutions. Registered-user access via the developer portal.
-  name: FIF Extracts API
-  slug: fif-extracts-api
-- description: Financial Institutions File (FIF) branch API returning weekly branch extract data for Canadian financial institutions. Registered-user access via the developer portal.
-  name: FIF Branch API
-  slug: fif-branch-api
-- description: Corporate Creditor Identification Number (CCIN) extracts API returning master and updated extract data matching the weekly file distribution. Registered-user access via the developer portal.
-  name: CCIN Extracts API
-  slug: ccin-extracts-api
-- description: Corporate Creditor Identification Number (CCIN) single-lookup API returning weekly extract data for a specific corporate creditor. Registered-user access via the developer portal.
-  name: CCIN Lookup API
-  slug: ccin-lookup-api
-artifact_total: 23
+- description: The application level heartbeat API from Payments Canada — 1 operation(s) for application level heartbeat.
+  name: Payments Canada application level heartbeat API
+  slug: payments-canada-application-level-heartbeat-api
+- description: Ccin Extract Resource
+  name: Payments Canada Ccin Extract Resource API
+  slug: payments-canada-ccin-extract-resource-api
+- description: Fif Branches Resource
+  name: Payments Canada Fif Branches Resource API
+  slug: payments-canada-fif-branches-resource-api
+- description: Fif Extracts Resource
+  name: Payments Canada Fif Extracts Resource API
+  slug: payments-canada-fif-extracts-resource-api
+- description: The Interest Report API from Payments Canada — 1 operation(s) for interest report.
+  name: Payments Canada Interest Report API
+  slug: payments-canada-interest-report-api
+- description: Master Extract Resource
+  name: Payments Canada Master Extract Resource API
+  slug: payments-canada-master-extract-resource-api
+- description: The report API from Payments Canada — 1 operation(s) for report.
+  name: Payments Canada Report API
+  slug: payments-canada-report-api
+- description: The single credit transfer API from Payments Canada — 1 operation(s) for single credit transfer.
+  name: Payments Canada single credit transfer API
+  slug: payments-canada-single-credit-transfer-api
+- description: The single credit transfer status enquiry API from Payments Canada — 1 operation(s) for single credit transfer status enquiry.
+  name: Payments Canada single credit transfer status enquiry API
+  slug: payments-canada-single-credit-transfer-status-enquiry-api
+- description: Update Extract Resource
+  name: Payments Canada Update Extract Resource API
+  slug: payments-canada-update-extract-resource-api
+artifact_total: 25
 collections:
 - collection_type: open
   name: CCIN Output API
@@ -90,6 +96,42 @@ collections:
   name: Interest Report
   slug: open-rtr-interest-report-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/payments-canada-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/rtr-inbound-participant-payment-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/rtr-inbound-csp-heartbeat-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/rtr-interest-report-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/rtr-balance-report-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/fif-extracts-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/fif-branch-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ccin-extracts-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ccin-lookup-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -211,10 +253,10 @@ modified: '2026-07-23'
 name: Payments Canada
 nav: Providers
 network: true
-overview: 'Payments Canada publishes 8 APIs on the [APIs.io](https://apis.io/) network, including RTR Sandbox - Inbound Participant Payment API, RTR Sandbox - Inbound Exchange Heartbeat API, RTR Sandbox - Interest Report API, and 5 more. Tagged areas include Financial-Services, Payments, Canada, Payment Infrastructure, and Clearing and Settlement.
+overview: 'Payments Canada publishes 10 APIs on the [APIs.io](https://apis.io/) network, including application level heartbeat API, Ccin Extract Resource API, Fif Branches Resource API, and 7 more. Tagged areas include Financial-Services, Payments, Canada, Payment Infrastructure, and Clearing and Settlement.
 
 
-  Payments Canada''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, and 22 more developer resources.'
+  Payments Canada''s developer surface includes authentication, sandbox, documentation, getting-started guide, support, and 31 more developer resources.'
 random_paper: 14
 scopes:
 - name: Payments Canada Scopes
@@ -223,18 +265,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 46.0
-  delta: 1.4
+  composite: 44.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
-    contract_quality: 46.8
+    contract_governance: 18.2
+    contract_quality: 47.6
     developer_ergonomics: 68.5
     discoverability: 72.2
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 44.6
+  previous_composite: 44.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -251,8 +298,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 67.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/screenshots/payments-canada-2026-08-07T191642.png
 security:

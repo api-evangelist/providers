@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 32
   slug: d-id-agentic-access
   summary_line: 32 operations · 16 acting
-api_count: 10
+api_count: 2
 apis:
 - description: API for translating existing videos into 100+ languages using AI-driven speech translation, voice cloning, and lip-sync technology. Enables brands and content creators to localize video content at sca
   name: D-ID Translations API
@@ -277,18 +277,23 @@ rules:
   slug: d-id-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.0
-  delta: 0.8
+  composite: 53.5
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 21.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
     contract_quality: 76.4
     developer_ergonomics: 32.1
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 50.0
-  previous_composite: 53.2
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     contracts:
@@ -296,8 +301,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-id/refs/heads/main/screenshots/d-id-2026-06-20T175418.png
 security:

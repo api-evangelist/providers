@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 52
   slug: frankieone-agentic-access
   summary_line: 52 operations · 38 acting · 1 human-in-the-loop
-api_count: 13
+api_count: 2
 apis:
 - description: Manage audit entries
   name: FrankieOne Audit API
@@ -229,15 +229,20 @@ rules:
   slug: frankieone-kyc-rules
 score:
   band: thin
-  composite: 35.5
-  delta: 0.0
+  composite: 35.0
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 63.1
     developer_ergonomics: 14.3
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 35.5
@@ -248,8 +253,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/screenshots/frankieone-2026-06-20T181611.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 20
   slug: zabbix-agentic-access
   summary_line: 20 operations · 20 acting
-api_count: 10
+api_count: 1
 apis:
 - description: Action configuration for alerting and automation
   name: Zabbix Actions API
@@ -233,18 +233,23 @@ rules:
   slug: zabbix-rules
 score:
   band: developing
-  composite: 42.1
-  delta: 6.3
+  composite: 41.5
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 30.3
     contract_quality: 51.9
     developer_ergonomics: 45.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 30.3
     operational_transparency: 28.9
-  previous_composite: 35.8
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     contracts:
@@ -252,9 +257,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/screenshots/zabbix-2026-06-20T201756.png
 security:
 - kind: authentication

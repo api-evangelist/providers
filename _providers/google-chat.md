@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 14
   slug: google-chat-agentic-access
   summary_line: 14 operations · 8 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The customEmojis API from Google Chat — 1 operation(s) for customemojis.
   name: Google Chat customEmojis API
@@ -221,18 +221,23 @@ rules:
   slug: google-chat-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.7
-  delta: 1.9
+  composite: 46.2
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 54.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 9.8
     contract_quality: 57.1
     developer_ergonomics: 54.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 44.8
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     contracts:
@@ -240,8 +245,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-chat/refs/heads/main/screenshots/google-chat-2026-06-20T182033.png
 security:

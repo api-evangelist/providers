@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 4
   slug: cachet-agentic-access
   summary_line: 4 operations · 4 acting
-api_count: 4
+api_count: 3
 apis:
 - description: Endpoint where to send the connect request
   name: Cachet Connect API
@@ -185,25 +185,30 @@ modified: '2026-07-18'
 name: Cachet
 nav: Providers
 network: true
-overview: 'Cachet publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Connect API, Gig-Events API, User API, and 1 more. Tagged areas include Company, Insurance, Insurtech, Mobility, and Gig Economy.
+overview: 'Cachet publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Connect API, Gig-Events API, User API, and 1 more. Tagged areas include Company, Insurance, InsurTech, Mobility, and Gig Economy.
 
 
   Cachet''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
 random_paper: 7
 score:
   band: developing
-  composite: 42.5
+  composite: 41.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 57.1
     developer_ergonomics: 54.2
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 42.5
+  previous_composite: 41.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -220,8 +225,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cachet/refs/heads/main/screenshots/cachet-2026-07-25T204205.png
 security:
@@ -237,7 +242,7 @@ slug: cachet
 tags:
 - Company
 - Insurance
-- Insurtech
+- InsurTech
 - Mobility
 - Gig Economy
 - Car Sharing

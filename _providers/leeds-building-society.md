@@ -33,12 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The UK Open Banking (OBIE) Open Data API standard for public, unauthenticated reference data - ATM locations, branch locations, personal and business current accounts, unsecured SME loans, and commerc
-  name: OBIE Open Data API (shared standard)
-  slug: obie-open-data-api
 - description: The OBIE Read/Write Account and Transaction Information (AIS) standard for retrieving account, balance, transaction, and beneficiary data with customer consent, secured with FAPI-grade OAuth2/OIDC, mu
   name: OBIE Account and Transaction Information API (AIS, shared standard)
   slug: obie-account-transaction-information-api
@@ -48,12 +45,34 @@ apis:
 - description: The OBIE Read/Write Confirmation of Funds (CBPII) standard for confirming whether funds are available on a payment account, secured with FAPI OAuth2/OIDC, mutual-TLS, and PSD2 strong customer authenti
   name: OBIE Confirmation of Funds API (CBPII, shared standard)
   slug: obie-confirmation-of-funds-api
-artifact_total: 6
+- description: Endpoint for getting ATM data
+  name: Leeds Building Society ATM API
+  slug: leeds-building-society-atm-api
+- description: Endpoint for getting Business Current Account data
+  name: Leeds Building Society BCA API
+  slug: leeds-building-society-bca-api
+- description: Endpoint for getting Branch data
+  name: Leeds Building Society Branch API
+  slug: leeds-building-society-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: Leeds Building Society CCC API
+  slug: leeds-building-society-ccc-api
+- description: Endpoint for getting Personal Current Account data
+  name: Leeds Building Society PCA API
+  slug: leeds-building-society-pca-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: Leeds Building Society SME API
+  slug: leeds-building-society-sme-api
+artifact_total: 11
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-obie-opendata-standard-swagger
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/leeds-building-society-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -99,25 +118,30 @@ modified: '2026-07-23'
 name: Leeds Building Society
 nav: Providers
 network: true
-overview: 'Leeds Building Society publishes 1 API on the [APIs.io](https://apis.io/) network: OBIE Open Data API (shared standard). Tagged areas include Financial-Services, Banking, Building Society, Mutual, and Savings.
+overview: 'Leeds Building Society publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 3 more. Tagged areas include Financial-Services, Banking, Building Society, Mutual, and Savings.
 
 
-  Leeds Building Society''s developer surface includes support, engineering blog, and 7 more developer resources.'
+  Leeds Building Society''s developer surface includes support, engineering blog, and 8 more developer resources.'
 random_paper: 3
 score:
   band: thin
-  composite: 30.9
-  delta: 2.5
+  composite: 30.4
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 68.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 0.0
     contract_quality: 32.7
     developer_ergonomics: 23.8
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 28.4
+  previous_composite: 30.9
   provenance:
     contracts:
       callable: 0.0
@@ -130,8 +154,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leeds-building-society/refs/heads/main/screenshots/leeds-building-society-2026-07-25T224818.png
 security:

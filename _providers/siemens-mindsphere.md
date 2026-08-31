@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: siemens-mindsphere-agentic-access
   summary_line: 14 operations · 8 acting
-api_count: 9
+api_count: 2
 apis:
 - description: Manages environments, users, and groups within MindSphere (Insights Hub). Provides user provisioning, group membership management, and role assignment for industrial IoT platform access control.
   name: Siemens MindSphere Identity Management API
@@ -95,6 +95,10 @@ collections:
   name: Siemens MindSphere Asset Management Aspect Types Timeseries API
   slug: open-siemens-mindsphere-timeseries-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/siemens-mindsphere-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -237,7 +241,7 @@ overview: 'Siemens MindSphere publishes 4 APIs on the [APIs.io](https://apis.io/
   The Siemens MindSphere catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Siemens MindSphere''s developer surface includes authentication, documentation, GitHub presence, and 7 more developer resources.'
+  Siemens MindSphere''s developer surface includes authentication, documentation, GitHub presence, and 8 more developer resources.'
 plans:
 - name: Siemens Mindsphere Plans Pricing
   plan_count: 1
@@ -260,18 +264,23 @@ rules:
   slug: siemens-mindsphere-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.6
-  delta: 3.3
+  composite: 41.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 46.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 25.0
     contract_quality: 78.2
     developer_ergonomics: 28.6
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 25.0
     operational_transparency: 10.5
-  previous_composite: 38.3
+  previous_composite: 41.6
   provenance:
     agentic_access: derived
     contracts:
@@ -279,8 +288,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/siemens-mindsphere/refs/heads/main/screenshots/siemens-mindsphere-2026-06-20T193904.png
 security:

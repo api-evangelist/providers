@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 46
   slug: art-agentic-access
   summary_line: 46 operations · 1 acting
-api_count: 25
+api_count: 1
 apis:
 - description: The Applications API from Artsy — 2 operation(s) for applications.
   name: Artsy Applications API
@@ -330,18 +330,23 @@ rate_limits:
   slug: art-rate-limits
 score:
   band: thin
-  composite: 28.4
-  delta: 0.0
+  composite: 26.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 13.4
     developer_ergonomics: 32.7
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 28.4
+  previous_composite: 26.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -352,8 +357,8 @@ score:
       total: 25
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/art/refs/heads/main/screenshots/art-2026-07-25T201312.png
 security:

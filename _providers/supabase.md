@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 78
   slug: supabase-agentic-access
   summary_line: 78 operations · 49 acting
-api_count: 21
+api_count: 5
 apis:
 - description: 'The Supabase Realtime API provides WebSocket-based subscriptions for real-time data changes from PostgreSQL databases. It supports three channel types: database change events (INSERT/UPDATE/DELETE on '
   name: Supabase Realtime API
@@ -316,7 +316,7 @@ modified: '2026-05-19'
 name: Supabase
 nav: Providers
 network: true
-overview: 'Supabase publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Realtime API, Admin API, Authentication API, and 18 more. Tagged areas include Backend-as-a-Service, PostgreSQL, Open-Source, Authentication, and Real-Time.
+overview: 'Supabase publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Realtime API, Admin API, Authentication API, and 18 more. Tagged areas include Backend As A Service, PostgreSQL, Open-Source, Authentication, and Real-Time.
 
 
   The Supabase catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -368,6 +368,11 @@ rules:
 score:
   band: developing
   composite: 42.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -386,8 +391,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/screenshots/supabase-2026-06-20T194707.png
 security:
@@ -415,7 +420,7 @@ skills:
   slug: supabase
 slug: supabase
 tags:
-- Backend-as-a-Service
+- Backend As A Service
 - PostgreSQL
 - Open-Source
 - Authentication

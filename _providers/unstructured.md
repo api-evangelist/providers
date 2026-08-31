@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 46
   slug: unstructured-agentic-access
   summary_line: 46 operations · 24 acting
-api_count: 9
+api_count: 2
 apis:
 - description: The channels API from Unstructured — 3 operation(s) for channels.
   name: Unstructured channels API
@@ -213,7 +213,7 @@ modified: '2026-06-12'
 name: Unstructured
 nav: Providers
 network: true
-overview: 'Unstructured publishes 9 APIs on the [APIs.io](https://apis.io/) network, including channels API, destinations API, general API, and 6 more. Tagged areas include Document Processing, ETL, RAG, LLM, and PDF.
+overview: 'Unstructured publishes 9 APIs on the [APIs.io](https://apis.io/) network, including channels API, destinations API, general API, and 6 more. Tagged areas include document-processing, ETL, RAG, LLM, and PDF.
 
 
   The Unstructured catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -242,18 +242,23 @@ rules:
   slug: unstructured-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 44.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 38.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
-    contract_quality: 63.3
+    contract_quality: 60.8
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 23.7
-  previous_composite: 45.7
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     contracts:
@@ -261,8 +266,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/screenshots/unstructured-2026-06-20T200434.png
 security:
@@ -280,14 +285,14 @@ security:
   summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: unstructured
 tags:
-- Document Processing
+- document-processing
 - ETL
 - RAG
 - LLM
 - PDF
 - OCR
-- Data Ingestion
-- Chunking
+- data-ingestion
+- chunking
 - Embeddings
 - Artificial Intelligence
 website: https://unstructured.io

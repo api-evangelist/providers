@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -33,15 +33,76 @@ agentic_access:
   summary_line: 73 operations · 39 acting
 api_count: 1
 apis:
-- description: The Foxglove REST API provides programmatic access to the Foxglove data platform — devices, device tokens, recordings, sessions, events, event types, custom properties, coverage, topics, data streamin
-  name: Foxglove API
-  slug: foxglove-technologies-api
-artifact_total: 59
+- description: Coverage provides the ability to see which time spans are available within Foxglove.
+  name: Foxglove Technologies Coverage API
+  slug: foxglove-technologies-coverage-api
+- description: Custom properties are typed metadata which you can assign to devices. For example, you can create a device custom property identified with a key `locationId` and a type of `string`. This enables you t
+  name: Foxglove Technologies Custom Properties API
+  slug: foxglove-technologies-custom-properties-api
+- description: Device tokens authenticate a device to the API.
+  name: Foxglove Technologies Device Tokens API
+  slug: foxglove-technologies-device-tokens-api
+- description: Devices represent robots in your organization. It is common to have devices for both physical and virtual robots. Devices are referenced by other resources like recordings and events. A device may hav
+  name: Foxglove Technologies Devices API
+  slug: foxglove-technologies-devices-api
+- description: Event types help ensure data quality through validation, enable better filtering and analytics, and provide visual distinctions between categories of events.
+  name: Foxglove Technologies Event Types API
+  slug: foxglove-technologies-event-types-api
+- description: 'Adding events can help you quickly identify, categorize, and search for points of interest in your data. Each event is tied to a device and time span, and can contain metadata. You can list events by '
+  name: Foxglove Technologies Events API
+  slug: foxglove-technologies-events-api
+- description: The Extensions API from Foxglove Technologies — 3 operation(s) for extensions.
+  name: Foxglove Technologies Extensions API
+  slug: foxglove-technologies-extensions-api
+- description: '**The Imports endpoints are deprecated. Use the [Recordings](#tag/Recordings) endpoints instead.** Imports are recordings that are available at a Primary Site.'
+  name: Foxglove Technologies Imports API
+  slug: foxglove-technologies-imports-api
+- description: MCAP files stored in the lake bucket of a [self-hosted Primary Site](https://docs.foxglove.dev/docs/primary-sites#self-hosted). You must have an Enterprise account to use lake file endpoints.
+  name: Foxglove Technologies Lake files API
+  slug: foxglove-technologies-lake-files-api
+- description: The Layouts API from Foxglove Technologies — 3 operation(s) for layouts.
+  name: Foxglove Technologies Layouts API
+  slug: foxglove-technologies-layouts-api
+- description: '[Projects](https://docs.foxglove.dev/docs/projects) are a container for organizing data and resources in Foxglove. Your plan must support managing projects.'
+  name: Foxglove Technologies Projects API
+  slug: foxglove-technologies-projects-api
+- description: The Properties API from Foxglove Technologies — 3 operation(s) for properties.
+  name: Foxglove Technologies Properties API
+  slug: foxglove-technologies-properties-api
+- description: A recording attachment resource represents information about an MCAP attachment imported to Foxglove. Attachments are available for individual download or with their recording.
+  name: Foxglove Technologies Recording Attachments API
+  slug: foxglove-technologies-recording-attachments-api
+- description: A recording is a resource representing the content of an MCAP file or ROS bag managed by Data Platform.
+  name: Foxglove Technologies Recordings API
+  slug: foxglove-technologies-recordings-api
+- description: Sessions are logical groupings of recordings from a single device. They allow you to manage and interact with recording data independent of how the recordings are stored.
+  name: Foxglove Technologies Sessions API
+  slug: foxglove-technologies-sessions-api
+- description: Site inbox notification tokens are credentials used to authenticate bucket notifications for a [Primary Site](https://docs.foxglove.dev/docs/primary-sites) (self-managed or BYOS) to the Foxglove API.
+  name: Foxglove Technologies Site Inbox Notification Tokens API
+  slug: foxglove-technologies-site-inbox-notification-tokens-api
+- description: Site tokens are credentials a [self-hosted Primary Site](https://docs.foxglove.dev/docs/primary-sites#self-hosted) or [Edge Site](https://docs.foxglove.dev/docs/edge-sites) use to communicate with the
+  name: Foxglove Technologies Site Tokens API
+  slug: foxglove-technologies-site-tokens-api
+- description: A site is a logical grouping of storage and compute for storing Recording data.
+  name: Foxglove Technologies Sites API
+  slug: foxglove-technologies-sites-api
+- description: The Stream data API from Foxglove Technologies — 1 operation(s) for stream data.
+  name: Foxglove Technologies Stream data API
+  slug: foxglove-technologies-stream-data-api
+- description: Topics provide schema information for messages in the data source.
+  name: Foxglove Technologies Topics API
+  slug: foxglove-technologies-topics-api
+artifact_total: 78
 asyncapis:
 - description: ''
   name: Foxglove Technologies Webhooks
   slug: foxglove-technologies-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/foxglove-technologies-api-overlay.yaml
 - group: build
   title: ''
   type: Packages
@@ -357,13 +418,13 @@ modified: '2026-08-16'
 name: Foxglove Technologies
 nav: Providers
 network: true
-overview: 'Foxglove Technologies publishes 1 API on the [APIs.io](https://apis.io/) network: Foxglove API. Tagged areas include Robotics, Observability, Visualization, Data Platform, and Physical AI.
+overview: 'Foxglove Technologies publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Coverage API, Custom Properties API, Device Tokens API, and 17 more. Tagged areas include Robotics, Observability, Visualization, Data Platform, and Physical AI.
 
 
   The Foxglove Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Foxglove Technologies'' developer surface includes CLI, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 31 more developer resources.'
+  Foxglove Technologies'' developer surface includes CLI, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 32 more developer resources.'
 plans:
 - name: Foxglove Technologies Plans Pricing
   plan_count: 4
@@ -375,18 +436,23 @@ rate_limits:
   slug: foxglove-technologies-rate-limits
 score:
   band: strong
-  composite: 58.6
-  delta: 2.3
+  composite: 58.2
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 78.9
     commercial_clarity: 78.9
-    contract_governance: 16.7
-    contract_quality: 55.1
+    contract_governance: 4.5
+    contract_quality: 59.0
     developer_ergonomics: 80.4
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 56.3
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -397,8 +463,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foxglove-technologies/refs/heads/main/screenshots/foxglove-technologies-2026-08-17T080933.png
 security:

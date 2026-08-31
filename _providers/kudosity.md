@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -46,13 +46,43 @@ agentic_access:
   summary_line: 57 operations · 42 acting
 api_count: 2
 apis:
-- description: Current v2 REST API covering SMS, MMS, WhatsApp and RCS, plus API-managed webhooks with event-type filtering and sender registration with phone verification. 22 operations across 15 paths, OpenAPI 3.0
-  name: Transmit Message API
-  slug: transmit-message-api
-- description: 'Classic v1 REST API — fully supported, not deprecated. SMS sending with single-request multi-recipient batches and custom tracked-link domains, plus everything v2 does not carry: contacts, lists and c'
-  name: Transmit SMS API
-  slug: transmit-sms-api
-artifact_total: 14
+- description: The Account API from Kudosity — 1 operation(s) for account.
+  name: Kudosity Account API
+  slug: kudosity-account-api
+- description: The Contacts & Lists API from Kudosity — 9 operation(s) for contacts & lists.
+  name: Kudosity Contacts & Lists API
+  slug: kudosity-contacts-lists-api
+- description: The Email SMS API from Kudosity — 2 operation(s) for email sms.
+  name: Kudosity Email SMS API
+  slug: kudosity-email-sms-api
+- description: The Keywords API from Kudosity — 3 operation(s) for keywords.
+  name: Kudosity Keywords API
+  slug: kudosity-keywords-api
+- description: The primary method of sending MMS
+  name: Kudosity MMS API
+  slug: kudosity-mms-api
+- description: The Numbers API from Kudosity — 4 operation(s) for numbers.
+  name: Kudosity Numbers API
+  slug: kudosity-numbers-api
+- description: The RCS API from Kudosity — 3 operation(s) for rcs.
+  name: Kudosity RCS API
+  slug: kudosity-rcs-api
+- description: The Reporting API from Kudosity — 11 operation(s) for reporting.
+  name: Kudosity Reporting API
+  slug: kudosity-reporting-api
+- description: The Senders API from Kudosity — 4 operation(s) for senders.
+  name: Kudosity Senders API
+  slug: kudosity-senders-api
+- description: The primary method of sending SMS. You can elect to pass us the recipient numbers from your database each time you make an API call. In order to send to a local number for a recipient the Sender virtu
+  name: Kudosity SMS API
+  slug: kudosity-sms-api
+- description: Our webhooks API allows you to subscribe to events for SMS, MMS, and RCS messages. Using them requires you to have URLs (https) configured on your account that can receive POST requests over the inter
+  name: Kudosity Webhook API
+  slug: kudosity-webhook-api
+- description: The WhatsApp API from Kudosity — 2 operation(s) for whatsapp.
+  name: Kudosity Whats App API
+  slug: kudosity-whatsapp-api
+artifact_total: 24
 asyncapis:
 - description: ''
   name: Kudosity Webhooks
@@ -65,6 +95,10 @@ collections:
   name: Transmit SMS API
   slug: postman-kudosity-transmit-sms-openapi-original
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kudosity-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -276,13 +310,13 @@ modified: '2026-07-27'
 name: Kudosity
 nav: Providers
 network: true
-overview: 'Kudosity publishes 2 APIs on the [APIs.io](https://apis.io/) network: Transmit Message API and Transmit SMS API. Tagged areas include Messaging, SMS, MMS, RCS, and WhatsApp.
+overview: 'Kudosity publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Account API, Contacts & Lists API, Email SMS API, and 9 more. Tagged areas include Messaging, SMS, MMS, RCS, and WhatsApp.
 
 
   The Kudosity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Kudosity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 42 more developer resources.'
+  Kudosity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 43 more developer resources.'
 plans:
 - name: Kudosity Plans
   plan_count: 4
@@ -294,18 +328,23 @@ rate_limits:
   slug: kudosity-rate-limits
 score:
   band: strong
-  composite: 59.1
-  delta: 0.0
+  composite: 58.9
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 4.5
-    contract_quality: 59.9
+    contract_quality: 59.3
     developer_ergonomics: 39.9
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 59.1
+  previous_composite: 59.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -313,12 +352,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kudosity/refs/heads/main/screenshots/kudosity-2026-07-27T062805.png
 security:
@@ -349,7 +392,7 @@ tags:
 - CPaaS
 - Webhook
 - MCP
-- agent-native
+- Agent-native
 - Australia
 - Notification
 - Two-Way Messaging

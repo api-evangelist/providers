@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 46
   slug: toast-tab-agentic-access
   summary_line: 46 operations · 26 acting · 1 human-in-the-loop
-api_count: 26
+api_count: 7
 apis:
 - description: 'Read-access to a restaurant''s configuration entities — menus, modifier groups, employees, jobs, dining options, service areas, revenue centers, sales categories, discounts, service charges, and table '
   name: Toast Configuration API
@@ -233,6 +233,10 @@ collections:
   name: Toast Authentication Time entries API
   slug: open-toast-tab-time-entries-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/toast-tab-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1365,7 +1369,7 @@ overview: 'Toast publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
   The Toast catalog on APIs.io includes 7 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Toast''s developer surface includes authentication, documentation, API reference, release notes, status page, support, pricing, and 22 more developer resources.'
+  Toast''s developer surface includes authentication, documentation, API reference, release notes, status page, support, pricing, and 23 more developer resources.'
 plans:
 - name: Toast Tab Plans Pricing
   plan_count: 1
@@ -1405,7 +1409,12 @@ scopes:
 score:
   band: strong
   composite: 56.3
-  delta: 0.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 28.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -1415,7 +1424,7 @@ score:
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 47.4
-  previous_composite: 55.6
+  previous_composite: 56.3
   provenance:
     agentic_access: derived
     contracts:
@@ -1429,8 +1438,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toast-tab/refs/heads/main/screenshots/toast-tab-2026-06-20T195430.png
 security:

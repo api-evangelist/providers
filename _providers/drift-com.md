@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 41
   slug: drift-com-agentic-access
   summary_line: 41 operations · 19 acting
-api_count: 9
+api_count: 1
 apis:
 - description: The Accounts API from Drift — 4 operation(s) for accounts.
   name: Drift Accounts API
@@ -110,6 +110,14 @@ collections:
   name: Drift
   slug: open-drift
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/salesloft/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/drift-com-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -217,7 +225,7 @@ network: true
 overview: 'Drift publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, App Admin API, Contacts API, and 6 more. Tagged areas include Conversational Marketing, Chatbots, Sales, Messaging, and Customer Engagement.
 
 
-  Drift''s developer surface includes authentication, documentation, developer portal, and 12 more developer resources.'
+  Drift''s developer surface includes authentication, documentation, developer portal, and 14 more developer resources.'
 plans:
 - name: Drift Com Plans Pricing
   plan_count: 1
@@ -229,18 +237,23 @@ rate_limits:
   slug: drift-com-rate-limits
 score:
   band: thin
-  composite: 32.0
-  delta: 1.4
+  composite: 31.5
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 45.7
     developer_ergonomics: 44.0
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 30.6
+  previous_composite: 32.0
   provenance:
     agentic_access: derived
     contracts:
@@ -248,8 +261,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/screenshots/drift-com-2026-06-20T180240.png
 security:

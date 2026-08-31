@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 51
   slug: shodan-agentic-access
   summary_line: 51 operations · 12 acting · 1 human-in-the-loop
-api_count: 15
+api_count: 5
 apis:
 - description: Account, profile, and API plan information.
   name: Shodan Account API
@@ -220,6 +220,18 @@ collections:
   name: Shodan CVEDB Account Utility API
   slug: open-shodan-utility-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/shodan-capability-edges.yml
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/achillean/shodan-python/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/achillean/shodan-python/releases
 - group: agent
   title: ''
   type: AgenticAccess
@@ -684,7 +696,7 @@ overview: 'Shodan publishes 15 APIs on the [APIs.io](https://apis.io/) network, 
   The Shodan catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Shodan''s developer surface includes authentication, documentation, API reference, pricing, signup flow, developer console, getting-started guide, and 74 more developer resources.'
+  Shodan''s developer surface includes authentication, documentation, API reference, pricing, signup flow, developer console, getting-started guide, and 77 more developer resources.'
 plans:
 - name: Shodan Plans Pricing
   plan_count: 6
@@ -730,17 +742,25 @@ rules:
 score:
   band: strong
   composite: 64.5
-  delta: 0.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 20.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 56.6
     commercial_clarity: 56.6
     contract_governance: 28.8
-    contract_quality: 78.4
+    contract_quality: 80.6
     developer_ergonomics: 89.3
-    discoverability: 57.4
+    discoverability: 75.9
     governance: 28.8
-    operational_transparency: 50.0
-  previous_composite: 63.6
+    operational_transparency: 65.8
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     contracts:
@@ -748,8 +768,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/screenshots/shodan-2026-06-20T193830.png
 security:

@@ -34,21 +34,79 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
-- description: REST API v4 for managing business locations, syndicating listings to 80+ directories, aggregating and responding to reviews, running review campaigns, tracking local search rankings with grid-rank hea
-  name: Synup API
-  slug: synup-api
 - description: First-party remote Model Context Protocol server enumerating 126 tools in its published tool table across six surfaces (Locations, Listings, Reviews, Rankings, Posts & Social, Account & Insights). Ten
   name: Synup MCP Server
   slug: synup-mcp
-artifact_total: 12
+- description: The Automations API from Synup — 1 operation(s) for automations.
+  name: Synup Automations API
+  slug: synup-automations-api
+- description: The Connected Accounts API from Synup — 20 operation(s) for connected accounts.
+  name: Synup Connected Accounts API
+  slug: synup-connected-accounts-api
+- description: The Grid Rank API from Synup — 3 operation(s) for grid rank.
+  name: Synup Grid Rank API
+  slug: synup-grid-rank-api
+- description: The Listings API from Synup — 7 operation(s) for listings.
+  name: Synup Listings API
+  slug: synup-listings-api
+- description: The Local Post Ideas API from Synup — 41 operation(s) for local post ideas.
+  name: Synup Local Post Ideas API
+  slug: synup-local-post-ideas-api
+- description: The Locations API from Synup — 25 operation(s) for locations.
+  name: Synup Locations API
+  slug: synup-locations-api
+- description: The Menus API from Synup — 5 operation(s) for menus.
+  name: Synup Menus API
+  slug: synup-menus-api
+- description: The Organizing locations API from Synup — 14 operation(s) for organizing locations.
+  name: Synup Organizing locations API
+  slug: synup-organizing-locations-api
+- description: The Posts API from Synup — 6 operation(s) for posts.
+  name: Synup Posts API
+  slug: synup-posts-api
+- description: The Profile Analytics API from Synup — 3 operation(s) for profile analytics.
+  name: Synup Profile Analytics API
+  slug: synup-profile-analytics-api
+- description: The Rankings API from Synup — 6 operation(s) for rankings.
+  name: Synup Rankings API
+  slug: synup-rankings-api
+- description: The Review Campaigns API from Synup — 4 operation(s) for review campaigns.
+  name: Synup Review Campaigns API
+  slug: synup-review-campaigns-api
+- description: The Reviews API from Synup — 9 operation(s) for reviews.
+  name: Synup Reviews API
+  slug: synup-reviews-api
+- description: The Reviews/Review Sources API from Synup — 3 operation(s) for reviews/review sources.
+  name: Synup Reviews/Review Sources API
+  slug: synup-reviews-review-sources-api
+- description: The Social API from Synup — 3 operation(s) for social.
+  name: Synup Social API
+  slug: synup-social-api
+- description: The Social Post Ideas API from Synup — 47 operation(s) for social post ideas.
+  name: Synup Social Post Ideas API
+  slug: synup-social-post-ideas-api
+- description: The User Management API from Synup — 11 operation(s) for user management.
+  name: Synup User Management API
+  slug: synup-user-management-api
+- description: The Webhooks API from Synup — 0 operation(s) for webhooks.
+  name: Synup Webhooks API
+  slug: synup-webhooks-api
+- description: The Webhooks/Webhooks API from Synup — 0 operation(s) for webhooks/webhooks.
+  name: Synup Webhooks/Webhooks API
+  slug: synup-webhooks-webhooks-api
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Synup Webhooks
   slug: synup-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/synup-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -246,13 +304,13 @@ modified: '2026-08-13'
 name: Synup
 nav: Providers
 network: true
-overview: 'Synup publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Local Marketing, Listings Management, Reputation Management, Local SEO, and Reviews.
+overview: 'Synup publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Automations API, Connected Accounts API, Grid Rank API, and 16 more. Tagged areas include Local Marketing, Listings Management, Reputation Management, Local SEO, and Reviews.
 
 
   The Synup catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 JSON-LD context.
 
 
-  Synup''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, code examples, engineering blog, and 36 more developer resources.'
+  Synup''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, code examples, engineering blog, and 37 more developer resources.'
 plans:
 - name: Synup Plans Pricing
   plan_count: 3
@@ -269,18 +327,23 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 61.5
-  delta: 0.0
+  composite: 59.7
+  coverage:
+    artifact_dirs: 28
+    catalog_gap: 44.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
-    contract_governance: 31.8
-    contract_quality: 71.8
+    contract_governance: 19.7
+    contract_quality: 70.5
     developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 31.8
+    governance: 19.7
     operational_transparency: 26.3
-  previous_composite: 61.5
+  previous_composite: 60.3
   provenance:
     conformance: derived
     contracts:
@@ -290,8 +353,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/screenshots/synup-2026-06-20T194835.png
 security:

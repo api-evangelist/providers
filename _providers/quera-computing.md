@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 8
 apis:
 - description: Aquila is QuEra's 256-qubit neutral-atom quantum computer, the first publicly accessible neutral-atom QPU. It runs Analog Hamiltonian Simulation (AHS) programs and is accessed programmatically through
@@ -61,6 +61,18 @@ apis:
   slug: bloqade-shuttle-lanes
 artifact_total: 24
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/QuEraComputing/tsim/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/QuEraComputing/tsim/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/QuEraComputing/tsim/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -160,11 +172,16 @@ network: true
 overview: 'QuEra Computing publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Neutral Atom, Analog Hamiltonian Simulation, AWS Braket, and Aquila.
 
 
-  QuEra Computing''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, pricing, product news, and 12 more developer resources.'
+  QuEra Computing''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, pricing, product news, and 15 more developer resources.'
 random_paper: 15
 score:
   band: emerging
-  composite: 18.9
+  composite: 23.9
+  coverage:
+    artifact_dirs: 2
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
@@ -174,10 +191,13 @@ score:
     developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 2.6
-  previous_composite: 18.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 18.4
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 23.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

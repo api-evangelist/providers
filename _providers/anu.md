@@ -35,18 +35,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-08-26'
-api_count: 6
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: ANU's current quantum random number service, operated by the ANU Quantum Optics group on ANU's own AWS account under ANU's own domain. Returns arrays of uint8, uint16, hex8 or hex16 values, length 1-1
-  name: ANU Quantum Numbers (AQN) API
-  slug: quantum-numbers
-- description: The original ANU quantum random number endpoint, served from ANU's own web host. No authentication, and throttled to one request per minute. ANU has published a deprecation notice on the documentation
-  name: QRNG@ANU Legacy JSON API
-  slug: qrng-legacy
-- description: 'OAI-PMH 2.0 metadata harvesting interface for ANU''s Open Research institutional repository. Confirmed live: repositoryName "Open Research", repositoryIdentifier openresearch-repository.anu.edu.au, ear'
-  name: ANU Open Research OAI-PMH
-  slug: openresearch-oai
 - description: The HAL+JSON REST API of ANU's self-hosted DSpace 7.6.7 repository, reachable anonymously at /server/api for the root and discovery resources; /server/api/core/items returns 401, so the surface is gen
   name: ANU Open Research DSpace REST API
   slug: openresearch-rest
@@ -56,7 +47,13 @@ apis:
 - description: ANU's research information portal and public researcher/output profiles, running on Elsevier Pure. This is a genuine institutional fact and one of the few programmable research surfaces ANU has, so th
   name: ANU Research Portal Plus (Elsevier Pure) — TENANT
   slug: research-portal-pure
-artifact_total: 19
+- description: OAI-PMH verbs for metadata harvesting.
+  name: Australian National University Harvesting API
+  slug: anu-harvesting-api
+- description: Retrieval of quantum-generated random values.
+  name: Australian National University Random Numbers API
+  slug: anu-random-numbers-api
+artifact_total: 18
 common:
 - group: company
   title: ''
@@ -229,7 +226,7 @@ modified: '2026-08-19'
 name: Australian National University
 nav: Providers
 network: true
-overview: 'Australian National University publishes 3 APIs on the [APIs.io](https://apis.io/) network: ANU Quantum Numbers (AQN) API, QRNG@ANU Legacy JSON API, and ANU Open Research OAI-PMH. Tagged areas include University, Higher Education, Education, Research, and Australia.
+overview: 'Australian National University publishes 2 APIs on the [APIs.io](https://apis.io/) network: Harvesting API and Random Numbers API. Tagged areas include University, Higher Education, Education, Research, and Australia.
 
 
   The Australian National University catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -264,17 +261,22 @@ scopes:
 score:
   band: developing
   composite: 52.4
-  delta: 3.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 30.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 11.4
-    contract_quality: 39.7
+    contract_quality: 39.6
     developer_ergonomics: 28.6
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 42.1
-  previous_composite: 48.8
+  previous_composite: 52.4
   provenance:
     conformance: first-party
     contracts:
@@ -288,8 +290,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 79.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anu/refs/heads/main/screenshots/anu-2026-06-20T172029.png
 security:

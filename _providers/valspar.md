@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 5
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sherwin-williams/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -107,7 +111,7 @@ overview: 'Valspar is profiled on the [APIs.io](https://apis.io/) network. Tagge
   The Valspar catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Valspar''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
+  Valspar''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
 press:
 - date: '2026-05-25'
   title: PGA Tour in significant Valspar, Dream Finders Homes ...
@@ -139,6 +143,11 @@ rules:
 score:
   band: emerging
   composite: 12.2
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 73.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -156,8 +165,8 @@ score:
     - owner: catalog
       reason: no_resolvable_host
   previous_composite: 12.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/valspar/refs/heads/main/screenshots/valspar-2026-06-20T200759.png
 security:

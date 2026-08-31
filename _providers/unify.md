@@ -13,7 +13,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 65.8
-  scored_at: '2026-08-26'
+  score: 60.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 68
   slug: unify-agentic-access
   summary_line: 68 operations · 38 acting
-api_count: 11
+api_count: 4
 apis:
 - description: Server-side event collection for the Unify Analytics API - identify, page and track events posted from a website or product with a public write key over HTTP Basic. 3 operation(s).
   name: Unify Analytics Events API
@@ -330,19 +330,24 @@ scopes:
   slug: unify-scopes
   summary_line: 14 scopes
 score:
-  band: exemplar
-  composite: 67.0
+  band: strong
+  composite: 64.5
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 60.9
     developer_ergonomics: 71.4
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 67.0
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -353,8 +358,8 @@ score:
       total: 11
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unify/refs/heads/main/screenshots/unify-2026-08-17T080432.png
 security:

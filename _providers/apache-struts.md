@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: apache-struts-agentic-access
   summary_line: 7 operations · 3 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The Struts REST Plugin provides a convention-based REST API framework for building RESTful services. It maps HTTP methods to action methods (GET→index/show, POST→create, PUT→update, DELETE→destroy) an
   name: Apache Struts REST Plugin
@@ -182,9 +182,14 @@ rate_limits:
   name: Apache Struts Rate Limits
   slug: apache-struts-rate-limits
 score:
-  band: thin
-  composite: 38.5
-  delta: 1.4
+  band: developing
+  composite: 44.7
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 6.2
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -194,7 +199,10 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 37.1
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 38.5
   provenance:
     agentic_access: derived
     contracts:
@@ -202,9 +210,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-struts/refs/heads/main/screenshots/apache-struts-2026-06-20T172148.png
 security:
 - kind: authentication

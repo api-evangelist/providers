@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 8
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 63
   slug: 100ms-live-agentic-access
   summary_line: 63 operations · 34 acting · 8 human-in-the-loop
-api_count: 12
+api_count: 1
 apis:
 - description: In-session control of running rooms and connected peers.
   name: 100ms Active Rooms API
@@ -161,6 +161,10 @@ collections:
   name: 100ms Server-Side Active Rooms Stream Keys API
   slug: open-100ms-live-stream-keys-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/100ms-live-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -255,7 +259,7 @@ common:
   url: https://github.com/100mslive/server-sdks
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://github.com/100mslive/100ms-examples
 - group: commercial
   title: ''
@@ -344,7 +348,7 @@ overview: '100ms publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
   The 100ms catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  100ms'' developer surface includes authentication, developer portal, documentation, signup flow, pricing, GitHub presence, engineering blog, and 26 more developer resources.'
+  100ms'' developer surface includes authentication, developer portal, documentation, signup flow, pricing, GitHub presence, engineering blog, and 27 more developer resources.'
 plans:
 - name: 100Ms Live Plans Pricing
   plan_count: 3
@@ -378,15 +382,20 @@ rules:
   slug: 100ms-live-rules
 score:
   band: strong
-  composite: 58.9
-  delta: 0.0
+  composite: 58.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 28.8
     contract_quality: 64.2
     developer_ergonomics: 54.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 52.6
   previous_composite: 58.9
@@ -397,8 +406,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/100ms-live/refs/heads/main/screenshots/100ms-live-2026-06-20T162232.png
 security:
@@ -427,7 +436,7 @@ tags:
 - HLS
 - RTMP
 - Recording
-- Real-Time Messaging
+- Real-time Messaging
 - Live Infrastructure
 - India
 website: https://www.100ms.live/

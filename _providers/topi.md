@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 31
   slug: topi-agentic-access
   summary_line: 31 operations · 20 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Topi catalog for sellers
   name: Topi catalog API
@@ -191,7 +191,7 @@ modified: '2026-07-21'
 name: Topi
 nav: Providers
 network: true
-overview: 'Topi publishes 5 APIs on the [APIs.io](https://apis.io/) network, including catalog API, offer API, order API, and 2 more. Tagged areas include Company, Fintech, Hardware as a Service, Rentals, and Embedded Finance.
+overview: 'Topi publishes 5 APIs on the [APIs.io](https://apis.io/) network, including catalog API, offer API, order API, and 2 more. Tagged areas include Company, Fintech, Hardware as a Service, Rental, and Embedded Finance.
 
 
   The Topi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -206,18 +206,23 @@ scopes:
   summary_line: 13 scopes · clientCredentials
 score:
   band: developing
-  composite: 44.9
-  delta: 0.0
+  composite: 42.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 66.0
     developer_ergonomics: 63.7
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 44.9
+  previous_composite: 43.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -234,8 +239,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/topi/refs/heads/main/screenshots/topi-2026-08-17T082405.png
 security:
@@ -252,7 +257,7 @@ tags:
 - Company
 - Fintech
 - Hardware as a Service
-- Rentals
+- Rental
 - Embedded Finance
 - B2B Payments
 - Financing

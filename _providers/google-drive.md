@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -250,7 +250,7 @@ modified: '2026-06-20'
 name: Google Drive
 nav: Providers
 network: true
-overview: 'Google Drive publishes 1 API on the [APIs.io](https://apis.io/) network: Files API. Tagged areas include Cloud Storage, Collaboration, Document-Management, Drives, and File.
+overview: 'Google Drive publishes 1 API on the [APIs.io](https://apis.io/) network: Files API. Tagged areas include Cloud Storage, Collaboration, Document-Management, Drive, and File.
 
 
   The Google Drive catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -295,18 +295,23 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.8
-  delta: 6.1
+  composite: 45.3
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 62.6
     developer_ergonomics: 42.9
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 41.7
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -316,9 +321,9 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/screenshots/google-drive-2026-08-17T083537.png
 security:
 - kind: authentication
@@ -342,7 +347,7 @@ tags:
 - Cloud Storage
 - Collaboration
 - Document-Management
-- Drives
+- Drive
 - File
 - Google
 - Storage

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: foursquare-agentic-access
   summary_line: 8 operations
-api_count: 12
+api_count: 1
 apis:
 - description: Mobile SDK for iOS, Android, and React Native that translates passive device location signals into visit events using the Foursquare POI graph.
   name: Foursquare Movement SDK
@@ -292,18 +292,23 @@ rules:
   slug: foursquare-places-rules
 score:
   band: developing
-  composite: 43.5
-  delta: 2.6
+  composite: 43.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 25.0
     contract_quality: 69.0
     developer_ergonomics: 50.0
-    discoverability: 64.8
+    discoverability: 66.7
     governance: 25.0
     operational_transparency: 7.9
-  previous_composite: 40.9
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     contracts:
@@ -311,8 +316,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/foursquare/refs/heads/main/screenshots/foursquare-2026-06-20T181457.png
 security:

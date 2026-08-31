@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: trelica-agentic-access
   summary_line: 13 operations · 2 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Manage users associated with specific applications
   name: Trelica Application Users API
@@ -101,6 +101,10 @@ collections:
   name: Trelica REST Application Users Workflows API
   slug: open-trelica-workflows-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/trelica/trelica-api-sdk/issues
 - group: commercial
   title: ''
   type: License
@@ -229,7 +233,7 @@ overview: 'Trelica publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
   The Trelica catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Trelica''s developer surface includes authentication, documentation, and 19 more developer resources.'
+  Trelica''s developer surface includes authentication, documentation, and 20 more developer resources.'
 plans:
 - name: Trelica Plans Pricing
   plan_count: 3
@@ -268,18 +272,26 @@ scopes:
   summary_line: 9 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 39.2
-  delta: 0.0
+  composite: 34.7
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 64.6
     developer_ergonomics: 38.1
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 39.2
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 35.2
   provenance:
     agentic_access: derived
     contracts:
@@ -287,8 +299,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/screenshots/trelica-2026-06-20T195649.png
 security:

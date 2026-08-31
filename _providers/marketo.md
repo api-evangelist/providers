@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 0
@@ -41,95 +41,35 @@ agentic_access:
   operation_count: 166
   slug: marketo-agentic-access
   summary_line: 166 operations · 98 acting
-api_count: 68
+api_count: 6
 apis:
-- description: The Approve API from Marketo — 6 operation(s) for approve.
-  name: Marketo Approve API
-  slug: marketo-approve-api
-- description: The Assets API from Marketo — 133 operation(s) for assets. The Adobe-published source specification for this whole surface (199 operations) is attached as the second OpenAPI property; the 64 per-tag e
-  name: Marketo Assets API
-  slug: marketo-assets-api
 - description: The Campaigns API from Marketo — 7 operation(s) for campaigns.
   name: Marketo Campaigns API
   slug: marketo-campaigns-api
-- description: The Cc API from Marketo — 1 operation(s) for cc.
-  name: Marketo Cc API
-  slug: marketo-cc-api
-- description: The Channel API from Marketo — 1 operation(s) for channel.
-  name: Marketo Channel API
-  slug: marketo-channel-api
 - description: Channel Controller
   name: Marketo Channels API
   slug: marketo-channels-api
-- description: The Clone.json API from Marketo — 1 operation(s) for clone.json.
-  name: Marketo Clone.json API
-  slug: marketo-clone-json-api
-- description: The Content API from Marketo — 12 operation(s) for content.
-  name: Marketo Content API
-  slug: marketo-content-api
-- description: The Content.json API from Marketo — 1 operation(s) for content.json.
-  name: Marketo Content.json API
-  slug: marketo-content-json-api
-- description: The Delete.json API from Marketo — 1 operation(s) for delete.json.
-  name: Marketo Delete.json API
-  slug: marketo-delete-json-api
-- description: The Discard API from Marketo — 6 operation(s) for discard.
-  name: Marketo Discard API
-  slug: marketo-discard-api
-- description: The Dynamic API from Marketo — 4 operation(s) for dynamic.
-  name: Marketo Dynamic API
-  slug: marketo-dynamic-api
-- description: The Email API from Marketo — 31 operation(s) for email.
-  name: Marketo Email API
-  slug: marketo-email-api
 - description: The Email Templates API from Marketo — 10 operation(s) for email templates.
   name: Marketo Email  Templates API
   slug: marketo-email-templates-api
 - description: Email Controller
   name: Marketo Emails API
   slug: marketo-emails-api
-- description: The Field API from Marketo — 5 operation(s) for field.
-  name: Marketo Field API
-  slug: marketo-field-api
-- description: The Fields API from Marketo — 4 operation(s) for fields.
-  name: Marketo Fields API
-  slug: marketo-fields-api
-- description: The File API from Marketo — 3 operation(s) for file.
-  name: Marketo File API
-  slug: marketo-file-api
 - description: The File Contents API from Marketo — 1 operation(s) for file contents.
   name: Marketo File  Contents API
   slug: marketo-file-contents-api
 - description: File Controller
   name: Marketo Files API
   slug: marketo-files-api
-- description: The Folder API from Marketo — 6 operation(s) for folder.
-  name: Marketo Folder API
-  slug: marketo-folder-api
 - description: Folder Controller
   name: Marketo Folders API
   slug: marketo-folders-api
-- description: The Form API from Marketo — 19 operation(s) for form.
-  name: Marketo Form API
-  slug: marketo-form-api
 - description: The Form Fields API from Marketo — 9 operation(s) for form fields.
   name: Marketo Form  Fields API
   slug: marketo-form-fields-api
 - description: Form Controller
   name: Marketo Forms API
   slug: marketo-forms-api
-- description: The Full API from Marketo — 2 operation(s) for full.
-  name: Marketo Full API
-  slug: marketo-full-api
-- description: The Id API from Marketo — 5 operation(s) for id.
-  name: Marketo Id API
-  slug: marketo-id-api
-- description: The .Json API from Marketo — 2 operation(s) for .json.
-  name: Marketo .Json API
-  slug: marketo-json-api
-- description: The Landing API from Marketo — 25 operation(s) for landing.
-  name: Marketo Landing API
-  slug: marketo-landing-api
 - description: The Landing Page Content API from Marketo — 4 operation(s) for landing page content.
   name: Marketo Landing  Page  Content API
   slug: marketo-landing-page-content-api
@@ -142,51 +82,12 @@ apis:
 - description: The Landing Pages API from Marketo — 11 operation(s) for landing pages.
   name: Marketo Landing  Pages API
   slug: marketo-landing-pages-api
-- description: The Member API from Marketo — 1 operation(s) for member.
-  name: Marketo Member API
-  slug: marketo-member-api
-- description: The Modules API from Marketo — 4 operation(s) for modules.
-  name: Marketo Modules API
-  slug: marketo-modules-api
-- description: The Name API from Marketo — 1 operation(s) for name.
-  name: Marketo Name API
-  slug: marketo-name-api
-- description: The Name.json API from Marketo — 2 operation(s) for name.json.
-  name: Marketo Name.json API
-  slug: marketo-name-json-api
-- description: The Page API from Marketo — 24 operation(s) for page.
-  name: Marketo Page API
-  slug: marketo-page-api
-- description: The Program API from Marketo — 9 operation(s) for program.
-  name: Marketo Program API
-  slug: marketo-program-api
 - description: Program Controller
   name: Marketo Programs API
   slug: marketo-programs-api
-- description: The Redirect API from Marketo — 3 operation(s) for redirect.
-  name: Marketo Redirect API
-  slug: marketo-redirect-api
-- description: The Rest API from Marketo — 133 operation(s) for rest.
-  name: Marketo Rest API
-  slug: marketo-rest-api
-- description: The Rules API from Marketo — 2 operation(s) for rules.
-  name: Marketo Rules API
-  slug: marketo-rules-api
 - description: Segment Controller
   name: Marketo Segments API
   slug: marketo-segments-api
-- description: The Segments.json API from Marketo — 1 operation(s) for segments.json.
-  name: Marketo Segments.json API
-  slug: marketo-segments-json-api
-- description: The Send API from Marketo — 1 operation(s) for send.
-  name: Marketo Send API
-  slug: marketo-send-api
-- description: The Set API from Marketo — 1 operation(s) for set.
-  name: Marketo Set API
-  slug: marketo-set-api
-- description: The Smart API from Marketo — 13 operation(s) for smart.
-  name: Marketo Smart API
-  slug: marketo-smart-api
 - description: The Smart Campaigns API from Marketo — 8 operation(s) for smart campaigns.
   name: Marketo Smart  Campaigns API
   slug: marketo-smart-campaigns-api
@@ -196,58 +97,88 @@ apis:
 - description: Snippet Controller
   name: Marketo Snippets API
   slug: marketo-snippets-api
-- description: The Static API from Marketo — 4 operation(s) for static.
-  name: Marketo Static API
-  slug: marketo-static-api
 - description: The Static Lists API from Marketo — 3 operation(s) for static lists.
   name: Marketo Static  Lists API
   slug: marketo-static-lists-api
-- description: The Submit API from Marketo — 1 operation(s) for submit.
-  name: Marketo Submit API
-  slug: marketo-submit-api
-- description: The Template API from Marketo — 17 operation(s) for template.
-  name: Marketo Template API
-  slug: marketo-template-api
-- description: The Templates API from Marketo — 1 operation(s) for templates.
-  name: Marketo Templates API
-  slug: marketo-templates-api
-- description: The Text.json API from Marketo — 1 operation(s) for text.json.
-  name: Marketo Text.json API
-  slug: marketo-text-json-api
-- description: The Thank API from Marketo — 1 operation(s) for thank.
-  name: Marketo Thank API
-  slug: marketo-thank-api
 - description: Token Controller
   name: Marketo Tokens API
   slug: marketo-tokens-api
-- description: The Type API from Marketo — 1 operation(s) for type.
-  name: Marketo Type API
-  slug: marketo-type-api
-- description: The Unapprove.json API from Marketo — 1 operation(s) for unapprove.json.
-  name: Marketo Unapprove.json API
-  slug: marketo-unapprove-json-api
-- description: The Used API from Marketo — 2 operation(s) for used.
-  name: Marketo Used API
-  slug: marketo-used-api
-- description: The Variable API from Marketo — 2 operation(s) for variable.
-  name: Marketo Variable API
-  slug: marketo-variable-api
-- description: The Variables API from Marketo — 1 operation(s) for variables.
-  name: Marketo Variables API
-  slug: marketo-variables-api
-- description: The core Marketo Engage REST surface — person ("lead") records, activity and data-value-change feeds, companies, opportunities and opportunity roles, sales persons, named accounts and named account li
-  name: Marketo Engage Lead Database API
-  slug: marketo-lead-database-api
-- description: Administrative REST surface for managing Marketo Engage users, roles, workspaces and invitations — list all users, invite a user, read and assign roles, list workspaces, update user attributes, and de
-  name: Marketo Engage User Management API
-  slug: marketo-user-management-api
-- description: The Marketo Engage token endpoint. A two-legged OAuth 2.0 client-credentials grant issues a bearer access token with a 3,600-second lifetime, scoped to a single LaunchPoint Custom Service and inheriti
-  name: Marketo Engage Identity API
+- description: Activities Controller
+  name: Marketo Activities API
+  slug: marketo-activities-api
+- description: Bulk Export Activities Controller
+  name: Marketo Bulk Export Activities API
+  slug: marketo-bulk-export-activities-api
+- description: Bulk Export Custom Objects Controller
+  name: Marketo Bulk Export Custom Objects API
+  slug: marketo-bulk-export-custom-objects-api
+- description: Bulk Export Leads Controller
+  name: Marketo Bulk Export Leads API
+  slug: marketo-bulk-export-leads-api
+- description: Bulk Export Program Members Controller
+  name: Marketo Bulk Export Program Members API
+  slug: marketo-bulk-export-program-members-api
+- description: Bulk Import Custom Objects Controller
+  name: Marketo Bulk Import Custom Objects API
+  slug: marketo-bulk-import-custom-objects-api
+- description: Bulk Import Leads Controller
+  name: Marketo Bulk Import Leads API
+  slug: marketo-bulk-import-leads-api
+- description: Bulk Import Program Members Controller
+  name: Marketo Bulk Import Program Members API
+  slug: marketo-bulk-import-program-members-api
+- description: Sync company records (createOnly, updateOnly, or createOrUpdate)
+  name: Marketo Companies API
+  slug: marketo-companies-api
+- description: Upsert (insert or update) custom object records
+  name: Marketo Custom Objects API
+  slug: marketo-custom-objects-api
+- description: API endpoints for managing email templates created with the new Email Designer in Marketo Engage.
+  name: Marketo Email Templates (New) API
+  slug: marketo-email-templates-new-api
+- description: API endpoints for managing emails created with the new Email Designer in Marketo Engage.
+  name: Marketo Emails (New) API
+  slug: marketo-emails-new-api
+- description: API endpoints for managing fragments created with the new Email Designer in Marketo Engage.
+  name: Marketo Fragments (New) API
+  slug: marketo-fragments-new-api
+- description: Identity Controller
+  name: Marketo Identity API
   slug: marketo-identity-api
-- description: A separate high-volume asynchronous ingestion surface hosted on Adobe's developer platform at mkto-ingestion-api.adobe.io rather than on the per-subscription Munchkin host. Seven operations sync perso
-  name: Marketo Data Ingestion API
-  slug: marketo-data-ingestion-api
-artifact_total: 146
+- description: Leads Controller
+  name: Marketo Leads API
+  slug: marketo-leads-api
+- description: Add leads to or remove leads from static lists
+  name: Marketo Lists API
+  slug: marketo-lists-api
+- description: Named Account Lists Controller
+  name: Marketo Named Account Lists API
+  slug: marketo-named-account-lists-api
+- description: Named Accounts Controller
+  name: Marketo Named Accounts API
+  slug: marketo-named-accounts-api
+- description: Opportunities Controller
+  name: Marketo Opportunities API
+  slug: marketo-opportunities-api
+- description: Upsert (insert or update) person/lead records
+  name: Marketo Persons API
+  slug: marketo-persons-api
+- description: Sync program member status or delete (remove) members from programs
+  name: Marketo Program Members API
+  slug: marketo-program-members-api
+- description: Sales Persons Controller
+  name: Marketo Sales Persons API
+  slug: marketo-sales-persons-api
+- description: Tag Controller
+  name: Marketo Tags API
+  slug: marketo-tags-api
+- description: Stats Controller
+  name: Marketo Usage API
+  slug: marketo-usage-api
+- description: Marketo Engage provides a set of User Management endpoints allow you to perform CRUD operations on user records in Marketo.
+  name: Marketo User Management API
+  slug: marketo-user-management-api
+artifact_total: 123
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the two event-shaped surfaces Marketo Engage (Adobe) exposes to integrators: 1. Outbound Webhooks fired from Smart Campaign "Call Webhook" flow steps. Marketo issues an HTT'
   name: Marketo Engage Events
@@ -452,6 +383,30 @@ collections:
   name: Marketo Engage Rest Approve Variables API
   slug: open-marketo-variables-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/marketo-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/marketo-asset-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/marketo-lead-database-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/marketo-user-management-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/marketo-identity-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/marketo-data-ingestion-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -636,13 +591,13 @@ modified: '2026-08-13'
 name: Marketo
 nav: Providers
 network: true
-overview: 'Marketo publishes 68 APIs on the [APIs.io](https://apis.io/) network, including Approve API, Assets API, Campaigns API, and 65 more. Tagged areas include Adobe, Automation, Marketing, Marketing Automation, and Email Marketing.
+overview: 'Marketo publishes 45 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Channels API, Email  Templates API, and 42 more. Tagged areas include Adobe, Automation, Marketing, Marketing Automation, and Email Marketing.
 
 
   The Marketo catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Marketo''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, authentication, changelog, and 34 more developer resources.'
+  Marketo''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, authentication, changelog, and 40 more developer resources.'
 plans:
 - name: Marketo Plans Pricing
   plan_count: 0
@@ -670,19 +625,24 @@ scopes:
   slug: marketo-scopes
   summary_line: 24 scopes
 score:
-  band: strong
-  composite: 55.7
+  band: developing
+  composite: 51.3
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 30.3
-    contract_quality: 62.5
+    contract_governance: 18.2
+    contract_quality: 59.1
     developer_ergonomics: 63.7
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 59.3
+    governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 55.7
+  previous_composite: 51.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -693,8 +653,8 @@ score:
       total: 69
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketo/refs/heads/main/screenshots/marketo-2026-06-20T184954.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: amazon-freertos-agentic-access
   summary_line: 11 operations · 6 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Over-the-air firmware update management
   name: Amazon FreeRTOS OTA Updates API
@@ -352,19 +352,27 @@ rules:
     warn: 25
   slug: amazon-freertos-spectral-rules
 score:
-  band: strong
-  composite: 64.5
-  delta: 6.6
+  band: exemplar
+  composite: 67.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 3.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 28.8
     contract_quality: 80.8
     developer_ergonomics: 69.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 57.9
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 64.5
   provenance:
     agentic_access: derived
     contracts:
@@ -372,9 +380,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-freertos/refs/heads/main/screenshots/amazon-freertos-2026-06-20T171652.png
 security:
 - kind: authentication

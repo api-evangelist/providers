@@ -10,21 +10,21 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
+  score: 15.0
+  scored_at: '2026-08-30'
 api_count: 4
 apis:
 - description: COM-based Automation Interface providing programmatic access to Enterprise Architect repositories, models, packages, elements, diagrams, connectors, attributes, and tagged values. Supports creating, r
@@ -48,8 +48,12 @@ apis:
 - description: HTTP-based API provided by the Sparx Systems Pro Cloud Server for remote access to Enterprise Architect repositories. Enables integration with web-based clients, third-party tools, and automation syst
   name: Pro Cloud Server API
   slug: pro-cloud-server-api
-artifact_total: 26
+artifact_total: 28
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://sparxsystems.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -98,6 +102,78 @@ common:
   title: ''
   type: YouTube
   url: https://www.youtube.com/user/SparxSystems
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/sparx-enterprise-architect-mcp.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/sparx-enterprise-architect-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/sparx-enterprise-architect-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/sparx-enterprise-architect-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/sparx-enterprise-architect-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/sparx-enterprise-architect-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/sparx-enterprise-architect-lifecycle.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/sparx-enterprise-architect-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/sparx-enterprise-architect-data-model.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/sparx-enterprise-architect-changelog.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/sparx-enterprise-architect-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/sparx-enterprise-architect-rate-limits.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://sparxsystems.com/enterprise_architect_user_guide/17.0/automation_and_scripting/automation_interface.htm
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://sparxsystems.com/privacy.html
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://sparxsystems.com/products/ea/17.1/eula.html
+- group: start
+  title: ''
+  type: Login
+  url: https://sparxsystems.com/products/ea/login.html
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.sparxsystems.us/enterprise-architect/download-free-trial
 created: '2026-03-16'
 description: Sparx Enterprise Architect is a comprehensive modeling, design, and management platform for enterprise architecture, software engineering, and systems engineering. It provides automation APIs including a COM Automation Interface, Add-In Framework, and scripting capabilities for programmatic access to models, diagrams, elements, connectors, and repository management.
 features:
@@ -134,42 +210,55 @@ integrations:
 - description: Integrate with Microsoft Visual Studio for .NET development workflows.
   name: Visual Studio
 layout: provider
-modified: '2026-04-18'
+mcp_servers:
+- description: Official Model Context Protocol server for Sparx Systems Enterprise Architect. Published by Sparx Systems Japan Co., Ltd. and announced on the official Sparx Systems community forum (topic 49025, 29 M
+  name: MCP Server for Enterprise Architect
+  slug: mcp-server-for-enterprise-architect
+modified: '2026-08-29'
 name: Sparx Enterprise Architect
 nav: Providers
 network: true
 overview: 'Sparx Enterprise Architect publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Enterprise Architecture, Modeling, Software Engineering, Systems Engineering, and UML.
 
 
-  Sparx Enterprise Architect''s developer surface includes documentation, getting-started guide, pricing, support, FAQ, training material, release notes, and 5 more developer resources.'
+  Sparx Enterprise Architect''s developer surface includes documentation, getting-started guide, pricing, support, FAQ, training material, release notes, and 24 more developer resources.'
 plans:
 - name: Sparx Enterprise Architect Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: sparx-enterprise-architect-plans-pricing
 random_paper: 0
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Sparx Enterprise Architect Rate Limits
   slug: sparx-enterprise-architect-rate-limits
 score:
-  band: emerging
-  composite: 22.0
-  delta: 1.5
+  band: thin
+  composite: 34.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 26.3
-    commercial_clarity: 26.3
-    contract_governance: 0.0
+    access_clarity: 60.5
+    commercial_clarity: 60.5
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 35.7
-    discoverability: 64.8
-    governance: 0.0
-    operational_transparency: 23.7
-  previous_composite: 20.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    developer_ergonomics: 54.8
+    discoverability: 72.2
+    governance: 18.2
+    operational_transparency: 15.8
+  previous_composite: 34.5
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sparx-enterprise-architect/refs/heads/main/screenshots/sparx-enterprise-architect-2026-06-20T194248.png
 security:
+- kind: authentication
+  name: Sparx Enterprise Architect Authentication
+  slug: sparx-enterprise-architect-authentication
+  summary_line: http/custom-token/openIdConnect/ntlm · 6 schemes
 - kind: domain-security
   name: Sparx Enterprise Architect Domain Security
   slug: sparx-enterprise-architect-domain-security
@@ -181,6 +270,12 @@ tags:
 - Software Engineering
 - Systems Engineering
 - UML
+- ArchiMate
+- BPMN
+- SysML
+- OSLC
+- MCP
+- Model-Driven Development
 use_cases:
 - description: Define and maintain enterprise architecture models aligned with TOGAF, Zachman, or ArchiMate frameworks.
   name: Enterprise Architecture Governance
@@ -192,4 +287,5 @@ use_cases:
   name: Database Design
 - description: Use models as the primary artifact for generating code, tests, and documentation.
   name: Model-Driven Development
+website: https://sparxsystems.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 30
   slug: red-hat-openshift-agentic-access
   summary_line: 30 operations · 15 acting
-api_count: 16
+api_count: 2
 apis:
 - description: OpenShift Pipelines is a cloud-native CI/CD solution based on Tekton that runs pipelines as Kubernetes-native CRDs. The API provides resources for defining Tasks (individual steps), Pipelines (task gr
   name: Red Hat OpenShift Pipelines (Tekton) API
@@ -375,7 +375,7 @@ modified: '2026-05-19'
 name: Red Hat OpenShift
 nav: Providers
 network: true
-overview: 'Red Hat OpenShift publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Add-ons API, Builds API, Clusters API, and 8 more. Tagged areas include Containers, Enterprise, Hybrid Cloud, Kubernetes, and Platform-as-a-Service.
+overview: 'Red Hat OpenShift publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Add-ons API, Builds API, Clusters API, and 8 more. Tagged areas include Containers, Enterprise, Hybrid Cloud, Kubernetes, and PaaS.
 
 
   The Red Hat OpenShift catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -415,18 +415,23 @@ rules:
   slug: red-hat-openshift-rules
 score:
   band: developing
-  composite: 50.2
-  delta: 2.4
+  composite: 49.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 28.8
     contract_quality: 60.5
     developer_ergonomics: 45.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 47.8
+  previous_composite: 50.2
   provenance:
     agentic_access: derived
     contracts:
@@ -434,8 +439,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-openshift/refs/heads/main/screenshots/red-hat-openshift-2026-06-20T192719.png
 security:
@@ -457,7 +462,7 @@ tags:
 - Enterprise
 - Hybrid Cloud
 - Kubernetes
-- Platform-as-a-Service
+- PaaS
 - Red Hat
 website: https://www.redhat.com/en/technologies/cloud-computing/openshift
 ---

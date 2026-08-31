@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 10
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 115
   slug: remberg-agentic-access
   summary_line: 115 operations · 65 acting · 10 human-in-the-loop
-api_count: 19
+api_count: 12
 apis:
 - description: The ai-chat API from Remberg — 2 operation(s) for ai-chat.
   name: Remberg ai-chat API
@@ -167,6 +167,10 @@ collections:
   name: AI ai-chat work-requests API
   slug: open-remberg-work-requests-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/remberg-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -301,7 +305,7 @@ overview: 'Remberg publishes 19 APIs on the [APIs.io](https://apis.io/) network,
   The Remberg catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Remberg''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 23 more developer resources.'
+  Remberg''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 24 more developer resources.'
 random_paper: 5
 rate_limits:
 - limit_count: 2
@@ -309,18 +313,23 @@ rate_limits:
   slug: remberg-rate-limits
 score:
   band: developing
-  composite: 42.8
+  composite: 42.1
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 65.6
     developer_ergonomics: 39.9
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 42.8
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -331,8 +340,8 @@ score:
       total: 19
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remberg/refs/heads/main/screenshots/remberg-2026-08-17T081515.png
 security:

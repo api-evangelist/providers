@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 10
   slug: numbers-agentic-access
   summary_line: 10 operations
-api_count: 5
+api_count: 1
 apis:
 - description: Multiple facts returned in a single request as a JSON map.
   name: Numbers API Batch API
@@ -234,18 +234,23 @@ rules:
   slug: numbers-rules
 score:
   band: thin
-  composite: 31.2
-  delta: 2.5
+  composite: 30.7
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 38.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 28.8
     contract_quality: 66.1
     developer_ergonomics: 15.5
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 0.0
-  previous_composite: 28.7
+  previous_composite: 31.2
   provenance:
     agentic_access: derived
     contracts:
@@ -253,8 +258,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numbers/refs/heads/main/screenshots/numbers-2026-06-20T190517.png
 security:

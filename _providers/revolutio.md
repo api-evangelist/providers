@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: revolutio-agentic-access
   summary_line: 8 operations · 4 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Multi-hazard combined analysis returning all available parameters for a site
   name: Revolutio Combined Hazard API
@@ -77,6 +77,10 @@ collections:
   name: Revolutio Hazard Combined Hazard Wind API
   slug: open-revolutio-wind-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/revolutio-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -143,7 +147,7 @@ overview: 'Revolutio publishes 4 APIs on the [APIs.io](https://apis.io/) network
   The Revolutio catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Revolutio''s developer surface includes authentication, documentation, and 5 more developer resources.'
+  Revolutio''s developer surface includes authentication, documentation, and 6 more developer resources.'
 plans:
 - name: Revolutio Plans Pricing
   plan_count: 3
@@ -176,15 +180,20 @@ rules:
   slug: revolutio-rules
 score:
   band: thin
-  composite: 30.1
-  delta: 0.0
+  composite: 29.5
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 57.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 59.7
     developer_ergonomics: 11.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 7.9
   previous_composite: 30.1
@@ -195,8 +204,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revolutio/refs/heads/main/screenshots/revolutio-2026-06-20T193102.png
 security:

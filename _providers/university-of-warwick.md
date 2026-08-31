@@ -34,21 +34,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-08-26'
-api_count: 8
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: REST API for Tabula, the University of Warwick's own system for the administration of teaching and learning. Built and operated by Warwick's IDG / IT Services software engineering team — the iCalendar
-  name: Tabula API
-  slug: tabula
 - description: Warwick's Shibboleth SAML 2.0 identity provider. Publishes unauthenticated, machine-readable federation metadata as a SAML EntityDescriptor with entityID https://idp.warwick.ac.uk/idp/shibboleth, a sh
   name: Warwick Shibboleth Identity Provider
   slug: identity-federation
 - description: OAuth 1.0a delegated access to Warwick web services — Sitebuilder (separate read and edit scopes), Warwick Search, Files.Warwick, Warwick Blogs, Warwick Forums, Exam Timetabling, Printer Credits and W
   name: Warwick Web Sign-on OAuth Services
   slug: oauth
-- description: WRAP is the University of Warwick's institutional repository of research outputs, running EPrints 3.4.5 self-hosted on Warwick infrastructure. Its OAI-PMH 2.0 endpoint is fully open and was verified l
-  name: WRAP OAI-PMH (Warwick Research Archive Portal)
-  slug: wrap-oai
 - description: HTTP APIs for automating tasks against Files.Warwick, the University's own file storage service. Access is protected by Warwick Web Sign-on and reachable via OAuth using the urn:files.warwick.ac.uk:fi
   name: Files.Warwick API
   slug: files
@@ -61,8 +55,24 @@ apis:
 - description: 'The Warwick Students'' Union publishes a Membership API for validating membership and retrieving member rosters. Two reasons this is not credited to the University: the Students'' Union is a separate le'
   name: Warwick SU Membership API
   slug: su-membership
-artifact_total: 24
+- description: Departments and modules.
+  name: University of Warwick Administration API
+  slug: university-of-warwick-administration-api
+- description: Long-running asynchronous job instances.
+  name: University of Warwick Jobs API
+  slug: university-of-warwick-jobs-api
+- description: Open Archives Initiative Protocol for Metadata Harvesting, version 2.0.
+  name: University of Warwick OAI PMH API
+  slug: university-of-warwick-oai-pmh-api
+- description: Term dates, term weeks, holiday dates, and module/member timetables.
+  name: University of Warwick Timetabling API
+  slug: university-of-warwick-timetabling-api
+artifact_total: 26
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/university-of-warwick-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -229,13 +239,13 @@ modified: '2026-08-19'
 name: University of Warwick
 nav: Providers
 network: true
-overview: 'University of Warwick publishes 2 APIs on the [APIs.io](https://apis.io/) network: Tabula API and WRAP OAI-PMH (Warwick Research Archive Portal). Tagged areas include University, Higher Education, Education, Research, and United Kingdom.
+overview: 'University of Warwick publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Jobs API, OAI PMH API, and 1 more. Tagged areas include University, Higher Education, Education, Research, and United Kingdom.
 
 
   The University of Warwick catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  University of Warwick''s developer surface includes documentation, API reference, GitHub presence, engineering blog, authentication, and 26 more developer resources.'
+  University of Warwick''s developer surface includes documentation, API reference, GitHub presence, engineering blog, authentication, and 27 more developer resources.'
 plans:
 - name: University Of Warwick Plans Pricing
   plan_count: 2
@@ -263,18 +273,23 @@ scopes:
   summary_line: 9 scopes · threeLegged
 score:
   band: strong
-  composite: 60.5
-  delta: 2.2
+  composite: 60.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 31.8
-    contract_quality: 69.0
+    contract_quality: 69.7
     developer_ergonomics: 47.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 31.8
     operational_transparency: 23.7
-  previous_composite: 58.3
+  previous_composite: 60.7
   provenance:
     conformance: first-party
     contracts:
@@ -288,8 +303,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 90.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/screenshots/university-of-warwick-2026-06-20T200340.png
 security:

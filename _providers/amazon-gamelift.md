@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 104
   slug: amazon-gamelift-agentic-access
   summary_line: 104 operations · 104 acting · 3 human-in-the-loop
-api_count: 104
+api_count: 1
 apis:
 - description: 'The #X Amz Target=GameLift.AcceptMatch API from Amazon GameLift — 1 operation(s) for #x amz target=gamelift.acceptmatch.'
   name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch API'
@@ -1026,6 +1026,10 @@ collections:
   name: 'Amazon GameLift #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.AcceptMatch #X Amz Target=GameLift.ValidateMatchmakingRuleSet API'
   slug: open-amazon-gamelift-x-amz-target-gamelift-validatematchmakingruleset-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-gamelift-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -4824,7 +4828,7 @@ overview: 'Amazon GameLift publishes 104 APIs on the [APIs.io](https://apis.io/)
   The Amazon GameLift catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon GameLift''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 26 more developer resources.'
+  Amazon GameLift''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 27 more developer resources.'
 plans:
 - name: Amazon Gamelift Plans Pricing
   plan_count: 3
@@ -4858,18 +4862,23 @@ rules:
   slug: amazon-gamelift-spectral-rules
 score:
   band: strong
-  composite: 59.2
-  delta: 5.9
+  composite: 60.5
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 28.8
     contract_quality: 68.0
     developer_ergonomics: 83.3
-    discoverability: 50.0
+    discoverability: 63.0
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 53.3
+  previous_composite: 61.1
   provenance:
     agentic_access: derived
     contracts:
@@ -4877,9 +4886,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 104
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-gamelift/refs/heads/main/screenshots/amazon-gamelift-2026-07-25T200008.png
 security:
 - kind: authentication

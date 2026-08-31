@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: 'The production JSON API behind the Sdui school-communication platform, serving the Sdui web app, the iOS/Android clients and the WebUntis messenger integration. Every resource path probed (/v1/users, '
@@ -119,7 +119,7 @@ modified: '2026-08-26'
 name: Sdui
 nav: Providers
 network: true
-overview: 'Sdui publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Schools, and Communication.
+overview: 'Sdui publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Schools, and Communications.
 
 
   Sdui''s developer surface includes support, engineering blog, signup flow, and 15 more developer resources.'
@@ -139,27 +139,39 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 31.4
+  composite: 27.7
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 34.2
-    commercial_clarity: 34.2
+    access_clarity: 21.1
+    commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
-    discoverability: 79.6
+    discoverability: 68.5
     governance: 18.2
     operational_transparency: 26.3
+  previous_composite: 27.7
   provenance:
     conformance: first-party
     mcp: first-party
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 75.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Sdui Authentication
@@ -179,7 +191,7 @@ tags:
 - Education
 - EdTech
 - Schools
-- Communication
+- Communications
 - Messaging
 - Timetabling
 - Grade Management

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'TradeBB exposes a single publicly consumable machine-readable interface: an llms.txt file designed for LLM consumption. There is no public REST/GraphQL API, MCP server, or agent skills.'
@@ -103,7 +103,7 @@ modified: '2026-08-09'
 name: TradeBB
 nav: Providers
 network: true
-overview: 'TradeBB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include trading-journal, Trade Analytics, Fintech, trading-tools, and Stocks.
+overview: 'TradeBB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include trading-journal, trade-analytics, Fintech, trading-tools, and stocks.
 
 
   TradeBB''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 6 more developer resources.'
@@ -111,6 +111,11 @@ random_paper: 10
 score:
   band: emerging
   composite: 24.4
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
@@ -124,8 +129,8 @@ score:
   previous_composite: 24.4
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security
@@ -135,15 +140,15 @@ security:
 slug: tradebb
 tags:
 - trading-journal
-- Trade Analytics
+- trade-analytics
 - Fintech
 - trading-tools
-- Stocks
+- stocks
 - Options
-- Futures
+- futures
 - Forex
 - Crypto
-- CFD
+- cfd
 - AI Assistant
 - llms-txt
 ---

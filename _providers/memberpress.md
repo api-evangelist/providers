@@ -23,16 +23,46 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: REST API exposed by the MemberPress Developer Tools add-on on the site owner's own WordPress installation, under the WordPress REST namespace mp/v1. Covers members, memberships, transactions, subscrip
-  name: MemberPress Developer Tools REST API
-  slug: developer-tools-rest-api
 - description: WordPress MCP server shipped by the MemberPress AI Foundation add-on. It exposes membership, subscription, transaction, coupon, access-rule and reporting tools — MemberPress states 41 tools on a stand
   name: MemberPress AI Foundation MCP Server
   slug: ai-foundation-mcp
-artifact_total: 9
+- description: Verify the API key and inspect permissions.
+  name: MemberPress Authentication API
+  slug: memberpress-authentication-api
+- description: Discount codes applied at checkout.
+  name: MemberPress Coupons API
+  slug: memberpress-coupons-api
+- description: The MemberPress event log.
+  name: MemberPress Events API
+  slug: memberpress-events-api
+- description: Groups of memberships, used for pricing pages and upgrade paths.
+  name: MemberPress Groups API
+  slug: memberpress-groups-api
+- description: Members are the WordPress users MemberPress tracks.
+  name: MemberPress Members API
+  slug: memberpress-members-api
+- description: Memberships are the products members buy.
+  name: MemberPress Memberships API
+  slug: memberpress-memberships-api
+- description: Scheduled member emails triggered by events.
+  name: MemberPress Reminders API
+  slug: memberpress-reminders-api
+- description: Smart Rules that protect content and drip access.
+  name: MemberPress Rules API
+  slug: memberpress-rules-api
+- description: Recurring billing agreements.
+  name: MemberPress Subscriptions API
+  slug: memberpress-subscriptions-api
+- description: One-time and recurring payment records.
+  name: MemberPress Transactions API
+  slug: memberpress-transactions-api
+- description: Subscribe callback URLs to MemberPress events.
+  name: MemberPress Webhooks API
+  slug: memberpress-webhooks-api
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Memberpress Webhooks
@@ -42,6 +72,10 @@ collections:
   name: MemberPress Developer Tools REST API
   slug: open-memberpress-developer-tools
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/memberpress-developer-tools-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -182,13 +216,13 @@ modified: '2026-08-12'
 name: MemberPress
 nav: Providers
 network: true
-overview: 'MemberPress publishes 1 API on the [APIs.io](https://apis.io/) network: Developer Tools REST API. Tagged areas include Company, Membership, Subscription, WordPress, and Payments.
+overview: 'MemberPress publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Coupons API, Events API, and 8 more. Tagged areas include Company, Membership, Subscription, WordPress, and Payments.
 
 
   The MemberPress catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MemberPress'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  MemberPress'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 plans:
 - name: Memberpress Plans Pricing
   plan_count: 3
@@ -200,18 +234,23 @@ rate_limits:
   slug: memberpress-rate-limits
 score:
   band: developing
-  composite: 49.7
-  delta: 0.0
+  composite: 48.2
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 25.0
     developer_ergonomics: 70.8
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 49.7
+  previous_composite: 48.8
   provenance:
     conformance: derived
     contracts:
@@ -227,8 +266,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memberpress/refs/heads/main/screenshots/memberpress-2026-08-17T081042.png
 security:

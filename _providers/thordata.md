@@ -23,28 +23,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
-api_count: 6
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: 'Real-time search engine results as parsed JSON or raw HTML across Google, Bing, Yandex and DuckDuckGo, with per-country and per-language targeting, vertical selection (images, news, shopping, video), '
-  name: Thordata SERP API
-  slug: thordata-serp-api
-- description: Single-endpoint collection of any URL through Thordata's unblocking layer, with optional JavaScript rendering for SPAs, proxy country targeting, resource blocking to cut collection time, JS/CSS stripp
-  name: Thordata Universal Scraping API & Web Unlocker
-  slug: thordata-universal-scraping-api-web-unlocker
-- description: Pre-built site extractors run as asynchronous tasks - launch with POST /builder or /video_builder on scraperapi.thordata.com, then list, poll and download results from the web-scraper-api host. Twenty
-  name: Thordata Web Scraper API
-  slug: thordata-web-scraper-api
-- description: Account and proxy management. Reads wallet balance in USD, traffic balance in KB and daily usage statistics over ranges of up to 180 days; lists purchased ISP and datacenter proxies with their credent
-  name: Thordata Public API
-  slug: thordata-public-api
 - description: Geo-targeting reference data - the countries, states, cities and ASNs available for each proxy product. Read this before setting a country, state or city on any collection call or in a proxy username,
   name: Thordata Locations API
   slug: thordata-locations-api
 - description: Pull a batch of proxy endpoints as host:port pairs for the residential or unlimited product, filtered by country, state, city, protocol and session time, returned as plain text or JSON. Used to hand a
   name: Thordata Proxy IP Extract API
   slug: thordata-proxy-ip-extract-api
-artifact_total: 18
+- description: Balances and usage statistics
+  name: Thordata Account API
+  slug: thordata-account-api
+- description: Purchased proxy inventory
+  name: Thordata Proxy API
+  slug: thordata-proxy-api
+- description: Proxy sub-user lifecycle and per-user usage
+  name: Thordata Proxy Users API
+  slug: thordata-proxy-users-api
+- description: Real-time search engine results
+  name: Thordata SERP API
+  slug: thordata-serp-api-api
+- description: Task lifecycle for the Web Scraper API
+  name: Thordata Tasks API
+  slug: thordata-tasks-api
+- description: Fetch any URL through Thordata's unblocking layer
+  name: Thordata Universal Scraping API
+  slug: thordata-universal-scraping-api-api
+- description: Pre-built site scrapers launched as asynchronous tasks
+  name: Thordata Web Scraper API
+  slug: thordata-web-scraper-api-api
+- description: IP whitelisting for password-free proxy authentication
+  name: Thordata Whitelist API
+  slug: thordata-whitelist-api
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Thordata Web Scraper Webhooks
@@ -69,6 +81,38 @@ collections:
   name: Thordata Web Scraper API - Tasks
   slug: open-thordata-web-scraper-tasks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/thordata-scraper-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/thordata-serp-search.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/thordata-universal-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/thordata-scrape-page.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/thordata-web-scraper-tasks-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/thordata-run-scraper-task.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/thordata-public-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/thordata-manage-proxy-users.md
 - group: start
   title: ''
   type: DeveloperPortal
@@ -206,13 +250,13 @@ modified: '2026-08-11'
 name: Thordata
 nav: Providers
 network: true
-overview: 'Thordata publishes 6 APIs on the [APIs.io](https://apis.io/) network, including SERP API, Universal Scraping API & Web Unlocker, Web Scraper API, and 3 more. Tagged areas include Proxy network, Web Scraping, Data Extraction, SERP, and Search data.
+overview: 'Thordata publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Locations API, Proxy IP Extract API, Account API, and 7 more. Tagged areas include Proxy network, Web scraping, Data extraction, SERP, and Search data.
 
 
   The Thordata catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Thordata''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  Thordata''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
 plans:
 - name: Thordata Plans Pricing
   plan_count: 0
@@ -224,18 +268,23 @@ rate_limits:
   slug: thordata-rate-limits
 score:
   band: thin
-  composite: 39.2
-  delta: 0.0
+  composite: 37.2
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 21.3
     developer_ergonomics: 56.5
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 39.2
+  previous_composite: 37.7
   provenance:
     conformance: derived
     contracts:
@@ -245,8 +294,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thordata/refs/heads/main/screenshots/thordata-2026-08-17T082346.png
 security:
@@ -265,18 +314,18 @@ security:
 slug: thordata
 tags:
 - Proxy network
-- Web Scraping
-- Data Extraction
+- Web scraping
+- Data extraction
 - SERP
 - Search data
 - Web unblocking
-- Residential Proxies
-- Mobile Proxies
-- ISP Proxies
-- Datacenter Proxies
-- Scraping Browser
+- Residential proxies
+- Mobile proxies
+- ISP proxies
+- Datacenter proxies
+- Scraping browser
 - Data-for-AI
 - RAG data pipelines
-- Web Data
+- Web data
 website: https://dashboard.thordata.com/
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 2
 common:
@@ -80,7 +80,7 @@ modified: '2026-07-19'
 name: Federato
 nav: Providers
 network: true
-overview: 'Federato is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance Tech, Insurtech, Insurance, and Underwriting.
+overview: 'Federato is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance Tech, InsurTech, Insurance, and Underwriting.
 
 
   Federato''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
@@ -88,6 +88,11 @@ random_paper: 2
 score:
   band: emerging
   composite: 14.5
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -105,8 +110,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federato/refs/heads/main/screenshots/federato-2026-07-25T214318.png
 security:
@@ -122,7 +127,7 @@ slug: federato
 tags:
 - Company
 - Insurance Tech
-- Insurtech
+- InsurTech
 - Insurance
 - Underwriting
 - RiskOps

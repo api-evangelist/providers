@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 21
   slug: mailerlite-agentic-access
   summary_line: 21 operations · 10 acting
-api_count: 9
+api_count: 1
 apis:
 - description: 'The MailerLite Classic API serves legacy MailerLite Classic accounts. New integrations should target the current API at connect.mailerlite.com. Corrected 2026-08-13: the Classic documentation host is '
   name: MailerLite Classic API (Legacy)
@@ -366,18 +366,23 @@ rules:
   slug: mailerlite-asyncapi-spectral-rules
 score:
   band: exemplar
-  composite: 79.1
-  delta: 1.9
+  composite: 76.0
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 51.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 41.7
+    contract_governance: 29.5
     contract_quality: 60.6
     developer_ergonomics: 88.1
-    discoverability: 92.6
-    governance: 41.7
+    discoverability: 75.9
+    governance: 29.5
     operational_transparency: 57.9
-  previous_composite: 77.2
+  previous_composite: 76.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -390,12 +395,16 @@ score:
     skills: first-party
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 59.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailerlite/refs/heads/main/screenshots/mailerlite-2026-06-20T184854.png
 security:

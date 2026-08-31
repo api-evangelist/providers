@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: glassnode-agentic-access
   summary_line: 14 operations
-api_count: 13
+api_count: 1
 apis:
 - description: Time-series API for thousands of on-chain and market metrics across major crypto assets. Endpoints follow /v1/metrics/{category}/{name} pattern. Data is updated daily, hourly, or 10-minute depending o
   name: Glassnode Metrics API
@@ -192,7 +192,7 @@ modified: '2026-05-08'
 name: Glassnode
 nav: Providers
 network: true
-overview: 'Glassnode publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Derivatives API, Distribution API, and 9 more. Tagged areas include Web3, Crypto, Onchain, Analytics, and Metrics.
+overview: 'Glassnode publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Addresses API, Derivatives API, Distribution API, and 9 more. Tagged areas include Web3, Crypto, On-Chain, Analytics, and Metrics.
 
 
   Glassnode''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, and 8 more developer resources.'
@@ -207,15 +207,20 @@ rate_limits:
   slug: glassnode-rate-limits
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 33.1
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 33.3
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 33.7
@@ -226,8 +231,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/screenshots/glassnode-2026-06-20T181914.png
 security:
@@ -243,7 +248,7 @@ slug: glassnode
 tags:
 - Web3
 - Crypto
-- Onchain
+- On-Chain
 - Analytics
 - Metrics
 - Bitcoin

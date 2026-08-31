@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Per-deployment REST API and Socket.IO event stream for Oosto OnWatch, the real-time watchlist alerting and person-of-interest monitoring product. Served from the customer's own OnWatch server under th
@@ -138,7 +138,7 @@ modified: '2026-08-06'
 name: AnyVision
 nav: Providers
 network: true
-overview: 'AnyVision publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Facial Recognition, Computer-Vision, Video Analytics, Physical Security, and Access Control.
+overview: 'AnyVision publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include facial-recognition, computer-vision, video-analytics, physical-security, and access-control.
 
 
   The AnyVision catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -149,6 +149,11 @@ random_paper: 5
 score:
   band: thin
   composite: 30.2
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 42.1
@@ -162,8 +167,8 @@ score:
   previous_composite: 30.2
   provenance:
     conformance: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anyvision/refs/heads/main/screenshots/anyvision-2026-08-07T161431.png
 security:
@@ -177,17 +182,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: anyvision
 tags:
-- Facial Recognition
-- Computer-Vision
-- Video Analytics
-- Physical Security
-- Access Control
-- Biometrics
-- Surveillance
-- Edge AI
+- facial-recognition
+- computer-vision
+- video-analytics
+- physical-security
+- access-control
+- biometrics
+- surveillance
+- edge-ai
 - watchlist-alerting
-- Visitor Management
-- Israel
+- visitor-management
+- israel
 - Company
 website: https://oosto.com/
 ---

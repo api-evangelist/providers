@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 14
   slug: einride-agentic-access
   summary_line: 14 operations · 7 acting
-api_count: 3
+api_count: 2
 apis:
 - description: The AuthenticationService API from Einride — 1 operation(s) for authenticationservice.
   name: Einride AuthenticationService API
@@ -67,6 +67,10 @@ collections:
   name: 'Einride Extend: Authentication AuthenticationService ShipmentService API'
   slug: open-einride-shipmentservice-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/einride-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -222,22 +226,30 @@ network: true
 overview: 'Einride publishes 3 APIs on the [APIs.io](https://apis.io/) network: AuthenticationService API, BookingService API, and ShipmentService API. Tagged areas include Company, Sustainable Transport, Freight, Logistics, and Autonomous Vehicles.
 
 
-  Einride''s developer surface includes authentication, changelog, CLI, documentation, API reference, engineering blog, signup flow, and 28 more developer resources.'
+  Einride''s developer surface includes authentication, changelog, CLI, documentation, API reference, engineering blog, signup flow, and 29 more developer resources.'
 random_paper: 1
 score:
   band: thin
-  composite: 38.1
-  delta: 1.3
+  composite: 39.0
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 3.4
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 43.5
     developer_ergonomics: 37.5
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 36.8
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,8 +260,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/screenshots/einride-2026-07-25T213026.png
 security:
@@ -275,5 +287,6 @@ tags:
 - Electric Vehicles
 - Shipping
 - gRPC
+- Sweden
 website: https://www.einride.tech/
 ---

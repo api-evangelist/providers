@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 74
   slug: natwest-agentic-access
   summary_line: 74 operations · 20 acting
-api_count: 21
+api_count: 3
 apis:
 - description: The Account Access API from NatWest Group — 2 operation(s) for account access.
   name: NatWest Group Account Access API
@@ -175,6 +175,10 @@ collections:
   name: Account and Transaction API Specification Account Access Transactions API
   slug: open-natwest-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/natwest-capability-edges.yml
 - group: agent
   title: ''
   type: WellKnown
@@ -338,7 +342,7 @@ network: true
 overview: 'NatWest Group publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Accounts API, Balances API, and 18 more. Tagged areas include Banking, Open Banking, Financial-Services, Payments, and PSD2.
 
 
-  NatWest Group''s developer surface includes changelog, sandbox, authentication, documentation, getting-started guide, engineering blog, support, and 30 more developer resources.'
+  NatWest Group''s developer surface includes changelog, sandbox, authentication, documentation, getting-started guide, engineering blog, support, and 31 more developer resources.'
 random_paper: 18
 scopes:
 - name: Natwest Scopes
@@ -347,18 +351,23 @@ scopes:
   summary_line: 5 scopes
 score:
   band: thin
-  composite: 35.1
+  composite: 32.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 50.3
     developer_ergonomics: 8.9
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 35.1
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -375,8 +384,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/natwest/refs/heads/main/screenshots/natwest-2026-08-07T184715.png
 security:

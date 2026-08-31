@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 14
   slug: usaspending-agentic-access
   summary_line: 14 operations · 6 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Per-agency profile, budget, and award data.
   name: USAspending.gov Agency API
@@ -105,6 +105,10 @@ collections:
   name: USAspending API
   slug: open-usaspending
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/usaspending-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -140,26 +144,31 @@ network: true
 overview: 'USAspending.gov publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agency API, Awards Search API, Budget Functions API, and 6 more. Tagged areas include Government, Federal Spending, Open Data, Contracts, and Grants.
 
 
-  USAspending.gov''s developer surface includes documentation and 5 more developer resources.'
+  USAspending.gov''s developer surface includes documentation and 6 more developer resources.'
 random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Usaspending Rate Limits
   slug: usaspending-rate-limits
 score:
-  band: thin
-  composite: 26.2
-  delta: 1.4
+  band: emerging
+  composite: 25.6
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 50.4
     developer_ergonomics: 16.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 24.8
+  previous_composite: 26.2
   provenance:
     agentic_access: derived
     contracts:
@@ -173,8 +182,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

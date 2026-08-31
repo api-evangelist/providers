@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: regulations-gov-agentic-access
   summary_line: 7 operations
-api_count: 4
+api_count: 1
 apis:
 - description: Utilities to support submitting public comments
   name: Regulations.gov comment submission utilities API
@@ -74,6 +74,10 @@ collections:
   name: Regulations.gov comment submission utilities documents API
   slug: open-regulations-gov-documents-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/regulations-gov-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -168,7 +172,7 @@ overview: 'Regulations.gov publishes 4 APIs on the [APIs.io](https://apis.io/) n
   The Regulations.gov catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Regulations.gov''s developer surface includes authentication, documentation, engineering blog, pricing, support, and 7 more developer resources.'
+  Regulations.gov''s developer surface includes authentication, documentation, engineering blog, pricing, support, and 8 more developer resources.'
 plans:
 - name: Regulations Gov Plans Pricing
   plan_count: 2
@@ -191,15 +195,20 @@ rules:
   slug: regulations-gov-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.0
-  delta: 0.0
+  composite: 38.4
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 9.8
     contract_quality: 62.8
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 5.3
   previous_composite: 39.0
@@ -216,8 +225,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/screenshots/regulations-gov-2026-06-20T192801.png
 security:

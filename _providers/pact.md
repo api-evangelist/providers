@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 11
   slug: pact-agentic-access
   summary_line: 11 operations · 4 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Pact Broker is a hypermedia HAL API for storing and retrieving consumer contracts created with the Pact contract testing framework. It enables teams to share, version, and verify pacts between consume
   name: Pact Broker API
@@ -86,6 +86,22 @@ collections:
   name: Pact Broker API
   slug: open-pact
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/pact-foundation/pact_broker/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/pact-foundation/pact_broker/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/pact-foundation/pact_broker/blob/master/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/pact-foundation/pact_broker/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -145,7 +161,7 @@ network: true
 overview: 'Pact publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Index API, Pacticipants API, Pacts API, and 2 more. Tagged areas include Contract Testing, Open-Source, and Testing.
 
 
-  Pact''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Pact''s developer surface includes authentication, documentation, engineering blog, and 12 more developer resources.'
 plans:
 - name: Pact Plans Pricing
   plan_count: 3
@@ -157,18 +173,26 @@ rate_limits:
   slug: pact-rate-limits
 score:
   band: thin
-  composite: 28.3
-  delta: 0.0
+  composite: 33.3
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 46.9
     developer_ergonomics: 28.6
-    discoverability: 63.0
+    discoverability: 57.4
     governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 28.3
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -176,8 +200,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/screenshots/pact-2026-06-20T191316.png
 security:

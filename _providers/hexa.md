@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 44
   slug: hexa-agentic-access
   summary_line: 44 operations · 26 acting
-api_count: 9
+api_count: 1
 apis:
 - description: The Cells API from Hex — 3 operation(s) for cells.
   name: Hex Cells API
@@ -186,18 +186,23 @@ rate_limits:
   slug: hexa-rate-limits
 score:
   band: thin
-  composite: 33.5
-  delta: 0.0
+  composite: 34.0
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 0.0
-    contract_quality: 52.2
+    contract_quality: 53.5
     developer_ergonomics: 23.8
-    discoverability: 64.8
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 33.5
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -205,8 +210,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hexa/refs/heads/main/screenshots/hexa-2026-06-20T182713.png
 security:

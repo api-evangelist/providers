@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 271
   slug: wincl-agentic-access
   summary_line: 271 operations · 127 acting · 1 human-in-the-loop
-api_count: 44
+api_count: 1
 apis:
 - description: Admin Controller
   name: WinCL Admin API
@@ -315,6 +315,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/wincl-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/wincl-openapi-overlay.yaml
 - group: company
@@ -388,22 +392,27 @@ network: true
 overview: 'WinCL publishes 44 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Admin Auth API, Admin FAQ API, and 41 more. Tagged areas include Company, Carbon Management, Sustainability, Greenhouse Gas, and Carbon Credits.
 
 
-  WinCL''s developer surface includes documentation, API reference, authentication, and 12 more developer resources.'
+  WinCL''s developer surface includes documentation, API reference, authentication, and 13 more developer resources.'
 random_paper: 16
 score:
   band: emerging
-  composite: 25.6
-  delta: 0.0
+  composite: 23.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 48.9
     developer_ergonomics: 23.2
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 70.4
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 25.6
+  previous_composite: 24.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -420,8 +429,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

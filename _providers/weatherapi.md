@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: weatherapi-agentic-access
   summary_line: 12 operations · 1 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Government weather alerts
   name: WeatherAPI Alerts API
@@ -617,18 +617,23 @@ rules:
   slug: weatherapi-rules
 score:
   band: developing
-  composite: 50.6
-  delta: 4.0
+  composite: 50.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 30.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 28.8
     contract_quality: 69.5
     developer_ergonomics: 33.3
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 34.2
-  previous_composite: 46.6
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
     contracts:
@@ -636,8 +641,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/screenshots/weatherapi-2026-06-20T201311.png
 security:

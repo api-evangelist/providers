@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,11 +31,8 @@ agentic_access:
   operation_count: 12
   slug: metro-bank-agentic-access
   summary_line: 12 operations
-api_count: 5
+api_count: 1
 apis:
-- description: Public, unauthenticated OBIE Open Data reference API exposing Metro Bank's ATM locations, branch ("store") locations, personal and business current account products, unsecured SME loans, and commercia
-  name: Metro Bank Open Data API
-  slug: metro-bank-open-data-api
 - description: OBIE Read/Write Account Information Service (AIS) API providing consented access to account details, balances, transactions, beneficiaries, standing orders, direct debits, and statements. FAPI-secured
   name: Metro Bank Account and Transaction Information API
   slug: metro-bank-account-information-api
@@ -48,12 +45,34 @@ apis:
 - description: API publishing Metro Bank's FCA service-quality and account metrics data (management information required under UK regulatory reporting), documented in the Metro Bank developer portal as the FCA Accou
   name: Metro Bank FCA Account Metrics API
   slug: metro-bank-fca-account-metrics-api
-artifact_total: 11
+- description: Endpoint for getting ATM data
+  name: Metro Bank ATM API
+  slug: metro-bank-atm-api
+- description: Endpoint for getting Business Current Account data
+  name: Metro Bank BCA API
+  slug: metro-bank-bca-api
+- description: Endpoint for getting Branch data
+  name: Metro Bank Branch API
+  slug: metro-bank-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: Metro Bank CCC API
+  slug: metro-bank-ccc-api
+- description: Endpoint for getting Personal Current Account data
+  name: Metro Bank PCA API
+  slug: metro-bank-pca-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: Metro Bank SME API
+  slug: metro-bank-sme-api
+artifact_total: 16
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-obie-open-data-api-standard-v1
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/metro-bank-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -151,10 +170,10 @@ modified: '2026-07-23'
 name: Metro Bank
 nav: Providers
 network: true
-overview: 'Metro Bank publishes 1 API on the [APIs.io](https://apis.io/) network: Open Data API. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Metro Bank publishes 6 APIs on the [APIs.io](https://apis.io/) network, including ATM API, BCA API, Branch API, and 3 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  Metro Bank''s developer surface includes authentication, documentation, engineering blog, support, and 17 more developer resources.'
+  Metro Bank''s developer surface includes authentication, documentation, engineering blog, support, and 18 more developer resources.'
 random_paper: 0
 scopes:
 - name: Metro Bank Scopes
@@ -162,19 +181,24 @@ scopes:
   slug: metro-bank-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 39.3
-  delta: -1.0
+  band: thin
+  composite: 37.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 32.7
     developer_ergonomics: 42.3
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 40.3
+  previous_composite: 37.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -187,12 +211,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metro-bank/refs/heads/main/screenshots/metro-bank-2026-08-07T172746.png
 security:

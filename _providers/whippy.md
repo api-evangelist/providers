@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 33
   slug: whippy-agentic-access
   summary_line: 33 operations · 17 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Send campaigns and inspect campaign analytics.
   name: Whippy Campaigns API
@@ -95,6 +95,10 @@ collections:
   name: Whippy Public API
   slug: open-whippy
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/whippy-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -150,7 +154,7 @@ network: true
 overview: 'Whippy publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Channels API, Contacts API, and 4 more. Tagged areas include Communications, Messaging, SMS, Email, and Voice.
 
 
-  Whippy''s developer surface includes authentication, documentation, engineering blog, and 7 more developer resources.'
+  Whippy''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Whippy Plans Pricing
   plan_count: 6
@@ -162,18 +166,23 @@ rate_limits:
   slug: whippy-rate-limits
 score:
   band: thin
-  composite: 37.5
-  delta: 2.4
+  composite: 36.9
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 55.2
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 35.1
+  previous_composite: 37.5
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +196,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whippy/refs/heads/main/screenshots/whippy-2026-06-20T201440.png
 security:

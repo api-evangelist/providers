@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,27 +42,15 @@ agentic_access:
   operation_count: 6
   slug: air-quality-programmatic-apis-agentic-access
   summary_line: 6 operations
-api_count: 6
+api_count: 1
 apis:
 - description: The Air Quality Programmatic APIs Real Time Air Quality Tile API API from Air Quality Programmatic APIs — 1 operation(s) for air quality programmatic apis real time air quality tile api.
   name: Air Quality Programmatic APIs Air Quality Programmatic APIs Real Time Air Quality Tile API API
   slug: air-quality-programmatic-apis-air-quality-programmatic-apis-real-time-air-quality-tile-api-api
-- description: The Cities API from Air Quality Programmatic APIs — 1 operation(s) for cities.
-  name: Air Quality Programmatic APIs Cities API
-  slug: air-quality-programmatic-apis-cities-api
-- description: The Geolocation API from Air Quality Programmatic APIs — 2 operation(s) for geolocation.
-  name: Air Quality Programmatic APIs Geolocation API
-  slug: air-quality-programmatic-apis-geolocation-api
-- description: The Map API from Air Quality Programmatic APIs — 1 operation(s) for map.
-  name: Air Quality Programmatic APIs Map API
-  slug: air-quality-programmatic-apis-map-api
-- description: The Search API from Air Quality Programmatic APIs — 1 operation(s) for search.
-  name: Air Quality Programmatic APIs Search API
-  slug: air-quality-programmatic-apis-search-api
 - description: The Stations API from Air Quality Programmatic APIs — 5 operation(s) for stations.
   name: Air Quality Programmatic APIs Stations API
   slug: air-quality-programmatic-apis-stations-api
-artifact_total: 64
+artifact_total: 60
 collections:
 - collection_type: open
   name: API Collection
@@ -251,7 +239,7 @@ modified: '2026-05-19'
 name: Air Quality Programmatic APIs
 nav: Providers
 network: true
-overview: 'Air Quality Programmatic APIs publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Air Quality Programmatic APIs Real Time Air Quality Tile API API, Cities API, Geolocation API, and 3 more. Tagged areas include Air Quality, Environment, EPA, Open Data, and Public Health.
+overview: 'Air Quality Programmatic APIs publishes 2 APIs on the [APIs.io](https://apis.io/) network: Air Quality Programmatic APIs Real Time Air Quality Tile API API and Stations API. Tagged areas include Air Quality, Environment, EPA, Open Data, and Public Health.
 
 
   The Air Quality Programmatic APIs catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
@@ -303,17 +291,22 @@ rules:
 score:
   band: developing
   composite: 41.4
-  delta: 3.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 28.8
-    contract_quality: 58.7
+    contract_quality: 60.9
     developer_ergonomics: 38.1
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 38.1
+  previous_composite: 41.4
   provenance:
     agentic_access: derived
     contracts:
@@ -327,8 +320,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/screenshots/air-quality-programmatic-apis-2026-06-20T171420.png
 security:

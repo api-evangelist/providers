@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
-api_count: 9
+  scored_at: '2026-08-30'
+api_count: 8
 apis:
 - description: The ChargeService API from Cedarai — 3 operation(s) for chargeservice.
   name: Cedarai ChargeService API
@@ -100,6 +100,10 @@ collections:
   name: protobuf/arms/charge.proto ChargeService WorkOrderService API
   slug: open-cedarai-workorderservice-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cedarai-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -206,22 +210,27 @@ overview: 'Cedarai publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
   The Cedarai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cedarai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 17 more developer resources.'
+  Cedarai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 18 more developer resources.'
 random_paper: 20
 score:
   band: developing
-  composite: 41.5
+  composite: 40.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 17.1
     commercial_clarity: 17.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 64.4
     developer_ergonomics: 54.2
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 41.5
+  previous_composite: 40.1
   provenance:
     conformance: derived
     contracts:
@@ -231,8 +240,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/screenshots/cedarai-2026-07-25T204839.png
 security:

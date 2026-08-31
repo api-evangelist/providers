@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 427
   slug: armor-agentic-access
   summary_line: 427 operations · 172 acting · 5 human-in-the-loop
-api_count: 70
+api_count: 16
 apis:
 - description: Operations for managing ACLs (deprecated)
   name: Armor Access Control Lists API
@@ -464,6 +464,10 @@ collections:
   name: Armor Compliance Vulnerability Scanning API
   slug: open-armor-vulnerability-scanning-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/armor-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -599,7 +603,7 @@ overview: 'Armor publishes 70 APIs on the [APIs.io](https://apis.io/) network, i
   The Armor catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Armor''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 22 more developer resources.'
+  Armor''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 23 more developer resources.'
 random_paper: 20
 scopes:
 - name: Armor Scopes
@@ -608,18 +612,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 47.4
+  composite: 46.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 64.3
     developer_ergonomics: 54.2
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 10.5
-  previous_composite: 47.4
+  previous_composite: 46.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -630,8 +639,8 @@ score:
       total: 70
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armor/refs/heads/main/screenshots/armor-2026-08-07T161726.png
 security:

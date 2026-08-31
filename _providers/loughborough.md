@@ -1,150 +1,120 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Free · No signup for the public library endpoints
+  onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
-  - authentication
+  - probes
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: false
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.1
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 81
-  human_in_the_loop: 2
-  name: Loughborough Agentic Access
-  operation_count: 157
-  slug: loughborough-agentic-access
-  summary_line: 157 operations · 81 acting · 2 human-in-the-loop
-api_count: 11
+  score: 2.5
+  scored_at: '2026-08-30'
+api_count: 7
 apis:
-- description: OAI-PMH metadata harvesting endpoint for the Loughborough Research Repository, served via figshare and scoped to the Loughborough portal set. Supports Open Archives Initiative Protocol for Metadata Ha
-  name: Loughborough Research Repository OAI-PMH
-  slug: research-repository-oai
-- description: The altmetric API from Loughborough University — 1 operation(s) for altmetric.
-  name: Loughborough University altmetric API
-  slug: loughborough-altmetric-api
-- description: The articles API from Loughborough University — 34 operation(s) for articles.
-  name: Loughborough University articles API
-  slug: loughborough-articles-api
-- description: The authors API from Loughborough University — 2 operation(s) for authors.
-  name: Loughborough University authors API
-  slug: loughborough-authors-api
-- description: The collections API from Loughborough University — 21 operation(s) for collections.
-  name: Loughborough University collections API
-  slug: loughborough-collections-api
-- description: The institutions API from Loughborough University — 20 operation(s) for institutions.
-  name: Loughborough University institutions API
-  slug: loughborough-institutions-api
-- description: The oauth API from Loughborough University — 1 operation(s) for oauth.
-  name: Loughborough University oauth API
-  slug: loughborough-oauth-api
-- description: The other API from Loughborough University — 7 operation(s) for other.
-  name: Loughborough University other API
-  slug: loughborough-other-api
-- description: The profiles API from Loughborough University — 2 operation(s) for profiles.
-  name: Loughborough University profiles API
-  slug: loughborough-profiles-api
-- description: The projects API from Loughborough University — 17 operation(s) for projects.
-  name: Loughborough University projects API
-  slug: loughborough-projects-api
-- description: The symplectic API from Loughborough University — 5 operation(s) for symplectic.
-  name: Loughborough University symplectic API
-  slug: loughborough-symplectic-api
-artifact_total: 37
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Loughborough Research Repository (figshare API) altmetric API
-  slug: open-loughborough-altmetric-api
-- collection_type: open
-  name: Loughborough Research Repository (figshare API) altmetric articles API
-  slug: open-loughborough-articles-api
-- collection_type: open
-  name: Loughborough Research Repository (figshare API) altmetric authors API
-  slug: open-loughborough-authors-api
-- collection_type: open
-  name: Loughborough Research Repository (figshare API) altmetric collections API
-  slug: open-loughborough-collections-api
-- collection_type: open
-  name: Loughborough Research Repository (figshare API) altmetric institutions API
-  slug: open-loughborough-institutions-api
-- collection_type: open
-  name: Loughborough Research Repository (figshare API) altmetric oauth API
-  slug: open-loughborough-oauth-api
-- collection_type: open
-  name: Loughborough Research Repository (figshare API) altmetric other API
-  slug: open-loughborough-other-api
-- collection_type: open
-  name: Loughborough Research Repository (figshare API) altmetric profiles API
-  slug: open-loughborough-profiles-api
-- collection_type: open
-  name: Loughborough Research Repository (figshare API) altmetric projects API
-  slug: open-loughborough-projects-api
-- collection_type: open
-  name: Loughborough Research Repository (figshare API) altmetric symplectic API
-  slug: open-loughborough-symplectic-api
+- description: The REST API of Loughborough University Library's Koha integrated library system, served from the university's own koha.lboro.ac.uk host. The live description at /api/v1/ is a Swagger 2.0 document dec
+  name: Loughborough University Library Catalogue API (Koha)
+  slug: library-catalogue-api
+- description: Loughborough's virtual learning environment, "Learn", is a Moodle instance self-hosted at learn.lboro.ac.uk in the university's own 158.125.161.0/24 address space. It runs as a 1EdTech (IMS Global) LT
+  name: Loughborough Learn — LTI 1.3 Advantage Platform (Moodle)
+  slug: learn-lti-platform
+- description: 'Loughborough operates its own SAML 2.0 Identity Provider — SimpleSAMLphp, Loughborough-branded, at idp.lboro.ac.uk — and is registered in the UK Access Management Federation, which feeds eduGAIN. The '
+  name: Loughborough University SAML 2.0 Identity Provider
+  slug: identity-federation
+- description: VuFind discovery layer at vufind.lboro.ac.uk, the public search interface over the Koha catalogue, on managed hosting by PTFS Europe (CNAME lboro-vufind.infrastructure.servers.ptfse.net). VuFind's Sea
+  name: Loughborough University Library Discovery (VuFind)
+  slug: vufind-discovery
+- description: 'The Loughborough Research Repository is the university''s institutional repository for all research outputs, and it is a figshare tenancy: repository.lboro.ac.uk, lboro.figshare.com and the legacy dspa'
+  name: Loughborough University Research Repository (figshare tenancy)
+  slug: research-repository
+- description: 'Loughborough''s reading lists run on Talis Aspire at lboro.rl.talis.com. The tenancy exposes linked data: https://lboro.rl.talis.com/index.json returns 200 application/json describing the institution i'
+  name: Loughborough University Reading Lists (Talis Aspire tenancy)
+  slug: reading-lists
+- description: Room booking, opening hours and library event data run on Springshare LibCal at libcal.lboro.ac.uk (CNAME region-eu.libcal.com). The legacy keyless widget endpoint /api_hours_grid.php?iid=0&format=jso
+  name: Loughborough University Library Hours and Bookings (Springshare LibCal tenancy)
+  slug: libcal
+artifact_total: 13
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/loughborough-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/loughborough-domain-security.yml
-- group: auth
-  title: ''
-  type: Authentication
-  url: authentication/loughborough-authentication.yml
-- group: auth
-  title: ''
-  type: OAuthScopes
-  url: scopes/loughborough-scopes.yml
 - group: company
   title: ''
   type: Website
   url: https://www.lboro.ac.uk/
 - group: build
   title: ''
-  type: GitHub
+  type: LibraryCatalog
+  url: https://koha.lboro.ac.uk/api/v1/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://repository.lboro.ac.uk/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: http://metadata.ukfederation.org.uk/ukfederation-metadata.xml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/loughborough-conformance.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
   url: https://github.com/LoughboroughUniversity
 - group: company
   title: ''
   type: LinkedIn
   url: https://uk.linkedin.com/school/loughborough-university/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.lboro.ac.uk/news-events/rss/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.lboro.ac.uk/privacy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.lboro.ac.uk/disclaimer/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.lboro.ac.uk/services/it/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.lboro.ac.uk/services/library/research-support/
 - group: other
   title: ''
-  type: Repository
-  url: https://repository.lboro.ac.uk/
+  type: ProductPage
+  url: https://www.lboro.ac.uk/services/it/topics/student-account/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/loughborough-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -161,56 +131,30 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: company
-  title: ''
-  type: Blog
-  url: https://www.lboro.ac.uk/news-events/rss/
-- group: other
-  title: ''
-  type: ProductPage
-  url: https://www.lboro.ac.uk/services/it/topics/student-account/
 created: '2026-06-03'
-description: 'Loughborough University is a public research university in Leicestershire, United Kingdom, ranked #224 in the QS World University Rankings 2025. It is well known for sport, engineering, and design programmes and operates a campus in London alongside its main Loughborough campus. The university does not publish a first-party developer portal or open-data API; its public programmatic footprint is limited to its figshare-powered Loughborough Research Repository (which exposes the standard figshare REST API and an OAI-PMH metadata harvesting endpoint scoped to the institution) and a Shibboleth/SAML identity provider used for federated single sign-on.'
+description: 'Loughborough University is a public research university in Leicestershire, United Kingdom, a member of the Midlands Innovation group, established 1909 and best known for sport science, engineering and design. It publishes no central developer portal, no open-data portal and no first-party OpenAPI, and no such thing was generated for it here. Two surfaces are unambiguously the university''s own and are recorded as such: a self-hosted Moodle ("Learn") on Loughborough''s own address space running as a 1EdTech LTI 1.3 Advantage platform with a publicly readable JWKS, and a SimpleSAMLphp SAML 2.0 Identity Provider registered in the UK Access Management Federation. Five more carry Loughborough''s data on someone else''s platform and are recorded as tenancies: a Koha library system whose REST API serves a live Swagger 2.0 description and nineteen keyless /public endpoints — the single most usable programmable surface the institution has, and hosted by PTFS Europe; a VuFind discovery
+  layer whose Search API is deployed but closed; the Loughborough Research Repository, a figshare tenancy; Talis Aspire reading lists; and Springshare LibCal. Loughborough is also a DataCite member in its own right. No contract is stored under this slug, because none of the contracts are Loughborough''s to claim.'
 examples:
-- key_count: 2
-  name: Loughborough Get Article Example
-  slug: loughborough-get-article-example
-- key_count: 2
-  name: Loughborough List Articles Example
-  slug: loughborough-list-articles-example
+- key_count: 7
+  name: Loughborough Koha Public Libraries Example
+  slug: loughborough-koha-public-libraries-example
+- key_count: 7
+  name: Loughborough Moodle Lti Jwks Example
+  slug: loughborough-moodle-lti-jwks-example
 finops:
 - name: Loughborough Finops
   service_category: Education
   slug: loughborough-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loughborough.png
-json_schemas:
-- name: Loughborough Research Repository Article
-  property_count: 29
-  slug: loughborough-article
-- name: Loughborough Research Repository Author
-  property_count: 7
-  slug: loughborough-author
-json_structures:
-- name: Loughborough Article Structure
-  property_count: 28
-  slug: loughborough-article-structure
-jsonld:
-- class_count: 20
-  name: Loughborough Context
-  property_count: 12
-  slug: loughborough-context
 layout: provider
-modified: '2026-07-25'
+modified: '2026-08-30'
 name: Loughborough University
 nav: Providers
 network: true
-overview: 'Loughborough University publishes 10 APIs on the [APIs.io](https://apis.io/) network, including altmetric API, articles API, authors API, and 7 more. Tagged areas include Education, Higher Education, University, United Kingdom, and Research Data.
+overview: 'Loughborough University publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, United Kingdom, and Library.
 
 
-  The Loughborough University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  Loughborough University''s developer surface includes authentication, GitHub presence, engineering blog, and 11 more developer resources.'
+  Loughborough University''s developer surface includes engineering blog, support, documentation, and 15 more developer resources.'
 plans:
 - name: Loughborough Plans Pricing
   plan_count: 2
@@ -220,47 +164,25 @@ rate_limits:
 - limit_count: 1
   name: Loughborough Rate Limits
   slug: loughborough-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: Loughborough University API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 1
-    warn: 4
-  slug: loughborough-jsonschema-spectral-rules
-- effective_rule_count: 46
-  extends:
-  - spectral:oas
-  name: Loughborough University API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 1
-    warn: 4
-  slug: loughborough-rules
-scopes:
-- name: Loughborough Scopes
-  scope_count: 1
-  slug: loughborough-scopes
-  summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 43.9
-  delta: 1.9
+  band: thin
+  composite: 29.0
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -14.9
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 13.6
-    contract_quality: 70.3
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 0.0
+    contract_quality: 10.5
     developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 13.6
-    operational_transparency: 26.3
-  previous_composite: 42.0
+    governance: 0.0
+    operational_transparency: 23.7
+  previous_composite: 43.9
   provenance:
     agentic_access: derived
     contracts:
@@ -273,16 +195,12 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 35.2
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/loughborough/refs/heads/main/screenshots/loughborough-2026-06-20T184729.png
 security:
-- kind: authentication
-  name: Loughborough Authentication
-  slug: loughborough-authentication
-  summary_line: oauth2 · 1 scheme
 - kind: domain-security
   name: Loughborough Domain Security
   slug: loughborough-domain-security
@@ -293,9 +211,12 @@ tags:
 - Higher Education
 - University
 - United Kingdom
+- Library
+- Library Catalog
+- Identity Federation
+- Learning Management
 - Research Data
 - Open Access
 - Repository
-- Identity
 website: https://www.lboro.ac.uk/
 ---

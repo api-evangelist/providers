@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,33 +42,12 @@ agentic_access:
   operation_count: 1
   slug: arbiscan-agentic-access
   summary_line: 1 operation
-api_count: 8
+api_count: 1
 apis:
 - description: Address balances, transactions, token holdings, and funding origins
   name: Arbiscan Accounts API
   slug: arbiscan-accounts-api
-- description: Block details, rewards, countdown, and block-by-timestamp lookup
-  name: Arbiscan Blocks API
-  slug: arbiscan-blocks-api
-- description: Smart contract source code, ABI, creation info, and verification
-  name: Arbiscan Contracts API
-  slug: arbiscan-contracts-api
-- description: Arbitrum One gas oracle and gas price estimates
-  name: Arbiscan Gas Tracker API
-  slug: arbiscan-gas-tracker-api
-- description: Event log queries by address, topic, and block range
-  name: Arbiscan Logs API
-  slug: arbiscan-logs-api
-- description: Arbitrum One network statistics, supply data, and daily metrics
-  name: Arbiscan Stats API
-  slug: arbiscan-stats-api
-- description: ERC-20, ERC-721, and ERC-1155 token supply, holders, and metadata
-  name: Arbiscan Tokens API
-  slug: arbiscan-tokens-api
-- description: Transaction status, receipts, counts, and advanced filtering
-  name: Arbiscan Transactions API
-  slug: arbiscan-transactions-api
-artifact_total: 25
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -159,7 +138,7 @@ modified: '2026-06-13'
 name: Arbiscan
 nav: Providers
 network: true
-overview: 'Arbiscan publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Blocks API, Contracts API, and 5 more. Tagged areas include Blockchain, Cryptocurrency, Arbitrum, Layer 2, and EVM.
+overview: 'Arbiscan publishes 1 API on the [APIs.io](https://apis.io/) network: Accounts API. Tagged areas include Blockchain, Cryptocurrency, Arbitrum, Layer 2, and EVM.
 
 
   The Arbiscan catalog on APIs.io includes 1 JSON-LD context.
@@ -177,18 +156,23 @@ rate_limits:
   slug: arbiscan-rate-limits
 score:
   band: developing
-  composite: 48.9
-  delta: 1.8
+  composite: 48.4
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 38.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 15.2
     contract_quality: 61.9
     developer_ergonomics: 21.4
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 15.2
     operational_transparency: 34.2
-  previous_composite: 47.1
+  previous_composite: 48.4
   provenance:
     agentic_access: derived
     contracts:
@@ -196,8 +180,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arbiscan/refs/heads/main/screenshots/arbiscan-2026-06-20T172358.png
 security:

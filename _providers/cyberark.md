@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: cyberark-agentic-access
   summary_line: 13 operations · 5 acting
-api_count: 10
+api_count: 1
 apis:
 - description: The Privileged Access Manager Self-Hosted REST API exposes the Vault for managing accounts, safes, platforms, users, sessions, and applications. Authentication uses the Logon endpoint at /PasswordVaul
   name: CyberArk PAM Self-Hosted REST API
@@ -267,19 +267,27 @@ rules:
     warn: 3
   slug: cyberark-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 38.2
-  delta: 0.4
+  band: developing
+  composite: 41.1
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 2.1
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 69.7
     contract_quality: 55.8
     developer_ergonomics: 14.3
-    discoverability: 64.8
+    discoverability: 66.7
     governance: 69.7
     operational_transparency: 26.3
-  previous_composite: 37.8
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -287,8 +295,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/screenshots/cyberark-2026-06-20T175406.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: centml-agentic-access
   summary_line: 14 operations · 6 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The Chat API from CentML — 1 operation(s) for chat.
   name: CentML Chat API
@@ -87,6 +87,10 @@ collections:
   name: CentML API
   slug: open-centml
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/centml-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -145,7 +149,7 @@ overview: 'CentML publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The CentML catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  CentML''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  CentML''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Centml Plans Pricing
   plan_count: 3
@@ -169,18 +173,23 @@ rules:
   slug: centml-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.1
-  delta: 2.4
+  composite: 42.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 47.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 11.4
     contract_quality: 61.2
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 40.7
+  previous_composite: 43.1
   provenance:
     agentic_access: derived
     contracts:
@@ -188,8 +197,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/screenshots/centml-2026-07-25T204927.png
 security:

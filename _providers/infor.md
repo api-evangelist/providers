@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: infor-agentic-access
   summary_line: 4 operations · 1 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The Infor M3 (CloudSuite Industrial) APIs provide access to production orders, inventory management, supply chain planning, and financial data for discrete and process manufacturing enterprises. The M
   name: Infor M3 / LN CloudSuite Industrial API
@@ -107,7 +107,6 @@ finops:
 - name: Infor Finops
   service_category: Enterprise Software
   slug: infor-finops
-image: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/image.png
 json_schemas:
 - name: Infor M3 Customer
   property_count: 22
@@ -166,19 +165,24 @@ scopes:
   slug: infor-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 39.8
-  delta: 7.6
+  band: thin
+  composite: 38.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 63.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.9
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 13.6
     contract_quality: 65.6
     developer_ergonomics: 50.0
-    discoverability: 68.5
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 5.3
-  previous_composite: 32.2
+  previous_composite: 39.8
   provenance:
     agentic_access: derived
     contracts:
@@ -186,9 +190,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/screenshots/infor-2026-06-20T183339.png
 security:
 - kind: authentication

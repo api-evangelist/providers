@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
-  onboarding: unknown
-  pricing: freemium
+  confidence: high
+  label: Enterprise · Credentials issued by SimCorp
+  onboarding: approval
+  pricing: enterprise
   public: false
   source:
   - plans
+  - probe
   trial: false
   try_now: false
 agent_readiness:
@@ -16,50 +17,69 @@ agent_readiness:
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: false
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: true
+    event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.3
-  scored_at: '2026-08-26'
-api_count: 6
+  score: 6.0
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: RESTful API for accessing portfolio data, positions, transactions, and market data from SimCorp Dimension.
-  name: SimCorp Dimension Data API
-  slug: simcorp-dimension-data-api
-- description: API for integrating third-party systems with SimCorp Dimension for data synchronization and workflow automation.
-  name: SimCorp Dimension Integration API
-  slug: simcorp-dimension-integration-api
-- description: API for accessing analytics, performance metrics, risk calculations, and reporting data.
-  name: SimCorp Dimension Analytics API
-  slug: simcorp-dimension-analytics-api
-- description: Web API providing HTTP-based interfaces for accessing and manipulating SimCorp Dimension data in real-time, supporting stateless RESTful operations across the investment management lifecycle.
+- description: Web API providing HTTP-based interfaces for accessing and manipulating SimCorp Dimension data in real time, supporting stateless RESTful operations across the investment management lifecycle. Named by
   name: SimCorp Dimension Web API
   slug: simcorp-dimension-web-api
-- description: API for distributing and sharing investment data across integrated systems, supporting event streaming channels and direct data access from SimCorp Dimension.
+- description: API for distributing and sharing investment data across integrated systems, supporting event streaming channels and direct data access from SimCorp Dimension. Named by SimCorp on the Data Model Portal
   name: SimCorp Dimension Data Distribution API
   slug: simcorp-dimension-data-distribution-api
-- description: Real-time streaming API for delivering live investment data, market updates, and event-driven notifications from SimCorp Dimension.
+- description: Real-time streaming API for delivering live investment data, market updates and event-driven notifications from SimCorp Dimension. Named by SimCorp on the Data Model Portal home page. No AsyncAPI or e
   name: SimCorp Dimension Streaming API
   slug: simcorp-dimension-streaming-api
-artifact_total: 28
+artifact_total: 26
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.simcorp.com/
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/simcorp-dimension-domain-security.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/simcorp-dimension-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/simcorp-dimension-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/simcorp-dimension-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/simcorp-dimension-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/simcorp-dimension-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/simcorp-dimension-llms.txt
 - group: build
   title: ''
   type: GitHubOrganization
@@ -71,11 +91,35 @@ common:
 - group: start
   title: ''
   type: Portal
-  url: https://www.simcorp.com/solutions/simcorp-one
+  url: https://thesim.dev/
 - group: docs
   title: ''
   type: Documentation
   url: https://thesim.dev/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://thesim.dev/gettingstarted/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.simcorp.com/insights
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.simcorp.com/about-us/contact
+- group: operate
+  title: ''
+  type: Community
+  url: https://www.dimensionalcommunity.com/insights
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.simcorp.com/legal/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.simcorp.com/legal/privacy-policy
 - group: other
   title: ''
   type: Portfolio Management
@@ -120,10 +164,6 @@ common:
   title: ''
   type: Resources
   url: https://www.simcorp.com/about-us/news/2024/simcorp-introduces-new-flagship-platform-simcorp-one
-- group: operate
-  title: ''
-  type: Support
-  url: https://www.dimensionalcommunity.com/insights
 - group: design
   title: ''
   type: JSONLD
@@ -136,8 +176,23 @@ common:
   title: ''
   type: JSONSchema
   url: json-schema/simcorp-dimension-instrument-schema.json
-created: '2024'
-description: Investment management software solution providing APIs for portfolio management, accounting, risk management, and investment operations. SimCorp Dimension is part of the SimCorp One integrated platform, offering Web APIs, Data Distribution APIs, and Streaming APIs through the SimCorp Integration Model (SIM) for front-to-back office investment management.
+coverage:
+  checked: '2026-08-29'
+  detail: SimCorp's own Data Model Portal at thesim.dev carries the Web API, Data Distribution API and Streaming API reference plus the Swagger documentation, and /gettingstarted/ resolves to a sign-in wall offering corporate SSO for SimCorp employees and a SimCorp-issued username and password for clients, vendors and partners — there is no registration path at all, so the contract is unreadable without an existing SimCorp relationship.
+  evidence:
+  - status: 200
+    url: https://thesim.dev/gettingstarted/
+  - status: 404
+    url: https://thesim.dev/openapi.json
+  - status: 0
+    url: https://developer.simcorp.com/dimension/data-api
+  - status: 0
+    url: https://api.simcorp.com/dimension/v1/openapi.json
+  reason: customer-only-docs
+  state: gated
+created: '2024-01-01'
+description: 'SimCorp Dimension is the investment management system at the core of SimCorp One, the front-to-back platform SimCorp A/S (Copenhagen; part of Deutsche Boerse Group) sells to asset managers, insurers, pension funds, sovereign wealth funds and central banks. Its integration surface is the SimCorp Integration Model (SIM), which SimCorp presents as three API families — Web APIs for synchronous HTTP access, Data Distribution APIs for bulk and channel-based data sharing, and Streaming APIs for real-time, event-driven delivery — spanning portfolio management, trading and compliance, risk and performance, accounting, operations, data management and regulatory reporting. The reference documentation, Swagger documentation, example code and standardized Message Format Models are published on the SimCorp Data Model Portal at thesim.dev, which is credential-gated: SimCorp employees sign in with corporate SSO, and clients, vendors and partners sign in with a portal account SimCorp issues.
+  No OpenAPI, AsyncAPI, GraphQL SDL or WSDL is reachable anonymously, and there is no self-service sign-up, trial or published pricing — API access follows from a SimCorp One licence.'
 features:
 - Front-to-back investment management
 - Real-time portfolio data and analytics
@@ -151,7 +206,7 @@ finops:
 - name: Simcorp Dimension Finops
   service_category: API
   slug: simcorp-dimension-finops
-image: https://www.simcorp.com/logo.png
+image: https://avatars.githubusercontent.com/u/62388281?v=4
 json_schemas:
 - name: SimCorp Dimension Instrument
   property_count: 23
@@ -165,24 +220,24 @@ jsonld:
   property_count: 8
   slug: simcorp-dimension-context
 layout: provider
-modified: '2026-04-18'
+modified: '2026-08-29'
 name: SimCorp Dimension
 nav: Providers
 network: true
-overview: 'SimCorp Dimension publishes 3 APIs on the [APIs.io](https://apis.io/) network: Data API, Integration API, and Analytics API. Tagged areas include Accounting, Asset Management, Compliance, Data Distribution, and Enterprise Software.
+overview: 'SimCorp Dimension publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Accounting, Asset Management, Compliance, Data Distribution, and Enterprise Software.
 
 
   The SimCorp Dimension catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SimCorp Dimension''s developer surface includes developer portal, documentation, support, and 17 more developer resources.'
+  SimCorp Dimension''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, and 27 more developer resources.'
 plans:
 - name: Simcorp Dimension Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: simcorp-dimension-plans-pricing
 random_paper: 12
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Simcorp Dimension Rate Limits
   slug: simcorp-dimension-rate-limits
 rules:
@@ -198,26 +253,31 @@ rules:
   slug: simcorp-dimension-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.1
-  delta: 3.2
+  composite: 32.1
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 68.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 9.8
-    contract_quality: 33.3
-    developer_ergonomics: 29.8
-    discoverability: 81.5
-    governance: 9.8
-    operational_transparency: 14.5
-  previous_composite: 25.9
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 28.0
+    contract_quality: 6.7
+    developer_ergonomics: 38.1
+    discoverability: 79.6
+    governance: 28.0
+    operational_transparency: 2.6
+  previous_composite: 32.1
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
-    score: 38.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    score: 50.0
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/screenshots/simcorp-dimension-2026-06-20T193926.png
 security:
@@ -225,6 +285,10 @@ security:
   name: Simcorp Dimension Domain Security
   slug: simcorp-dimension-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Simcorp Dimension Trust Center
+  slug: simcorp-dimension-trust-center
+  summary_line: SOC 2 Type 2
 slug: simcorp-dimension
 tags:
 - Accounting
@@ -247,5 +311,5 @@ use_cases:
 - Regulatory compliance and reporting
 - Real-time market data streaming
 - Multi-asset investment operations
-website: https://www.simcorp.com/solutions/simcorp-one
+website: https://www.simcorp.com/
 ---

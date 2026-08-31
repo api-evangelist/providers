@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: KOARA (KeiO Associated Repository of Academic resources) is Keio University's institutional repository, released in 2006 and running on the XooNips platform. It exposes a publicly accessible OAI-PMH 2
@@ -85,10 +85,6 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/keio-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: '2026-06-03'
 description: 'Keio University is a private research university in Tokyo, Japan, founded in 1858, and ranked #188 in the QS World University Rankings 2025. Its public machine-readable footprint is led by KOARA (KeiO Associated Repository of Academic resources), the institutional repository, which exposes a live OAI-PMH 2.0 metadata-harvesting endpoint. Most other institutional systems (keio.jp SSO over Google Workspace, Canvas K-LMS, the K-RIS researcher system, KOSMOS library discovery, and the Keio Object Hub culture portal) are account-gated and do not publish open developer API documentation. Identity is federated through GakuNin, the Japanese academic SAML/Shibboleth federation that participates in eduGAIN.'
 finops:
@@ -112,7 +108,7 @@ overview: 'Keio University publishes 1 API on the [APIs.io](https://apis.io/) ne
   The Keio University catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Keio University''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
+  Keio University''s developer surface includes authentication and 10 more developer resources.'
 plans:
 - name: Keio Plans Pricing
   plan_count: 2
@@ -124,26 +120,31 @@ rate_limits:
   slug: keio-rate-limits
 score:
   band: emerging
-  composite: 23.4
-  delta: 1.9
+  composite: 22.9
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 10.7
-    developer_ergonomics: 23.8
+    developer_ergonomics: 21.4
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 21.5
+  previous_composite: 23.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/screenshots/keio-2026-06-20T183942.png
 security:

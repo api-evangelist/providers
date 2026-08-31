@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: medplum-agentic-access
   summary_line: 8 operations · 4 acting
-api_count: 4
+api_count: 1
 apis:
 - description: FHIR-aware GraphQL endpoint at https://api.medplum.com/fhir/R4/$graphql. Supports typed nested queries, reverse-reference traversal (_reference), FHIRPath-style array filtering, and access-policy enfo
   name: Medplum GraphQL API
@@ -106,6 +106,10 @@ collections:
   name: Medplum - OpenAPI 3.0 Fhir API
   slug: open-medplum-fhir-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/medplum-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -481,7 +485,7 @@ overview: 'Medplum publishes 1 API on the [APIs.io](https://apis.io/) network: F
   The Medplum catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Medplum''s developer surface includes authentication, documentation, getting-started guide, API reference, CLI, developer console, pricing, and 57 more developer resources.'
+  Medplum''s developer surface includes authentication, documentation, getting-started guide, API reference, CLI, developer console, pricing, and 58 more developer resources.'
 plans:
 - name: Medplum Plans Pricing
   plan_count: 6
@@ -520,18 +524,26 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 92.2
-  delta: 0.9
+  composite: 87.3
+  coverage:
+    artifact_dirs: 36
+    catalog_gap: 28.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.3
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
-    contract_governance: 59.1
+    contract_governance: 47.0
     contract_quality: 80.3
     developer_ergonomics: 78.0
-    discoverability: 83.3
-    governance: 59.1
+    discoverability: 66.7
+    governance: 47.0
     operational_transparency: 97.4
-  previous_composite: 91.3
+  open_source:
+    applies: true
+    score: 60.0
+  previous_composite: 89.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -548,8 +560,8 @@ score:
     regime: Health
     regime_id: health
     score: 92.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/screenshots/medplum-2026-06-20T185123.png
 security:

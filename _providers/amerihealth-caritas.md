@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 269
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 622
   slug: amerihealth-caritas-agentic-access
   summary_line: 622 operations · 269 acting
-api_count: 25
+api_count: 2
 apis:
 - description: HL7 FHIR R4 Formulary API published to satisfy CMS-9115-F drug formulary publication requirements for Medicaid managed care and D-SNP populations. Covered drug lists, tier information, and prior autho
   name: AmeriHealth Caritas Formulary FHIR API
@@ -430,18 +430,23 @@ rules:
   slug: amerihealth-caritas-rules
 score:
   band: developing
-  composite: 40.4
-  delta: 0.0
+  composite: 44.1
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 27.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 25.0
-    contract_quality: 50.5
+    contract_quality: 57.3
     developer_ergonomics: 33.3
-    discoverability: 50.0
+    discoverability: 70.4
     governance: 25.0
     operational_transparency: 36.8
-  previous_composite: 40.4
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -455,8 +460,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amerihealth-caritas/refs/heads/main/screenshots/amerihealth-caritas-2026-06-20T171925.png
 security:
@@ -500,7 +505,7 @@ tags:
 - Interoperability
 - FHIR
 - CMS
-- SMART on FHIR
+- SMART On FHIR
 - Patient Access
 - Provider Directory
 use_cases:

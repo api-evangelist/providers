@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 1
   slug: bureau-of-industry-and-security-agentic-access
   summary_line: 1 operation
-api_count: 4
+api_count: 1
 apis:
 - description: The Consolidated Screening List (CSL) API consolidates export screening lists from the Departments of Commerce, State, and Treasury. It includes the Entity List, Denied Persons List, Unverified List (
   name: Consolidated Screening List (CSL) API
@@ -131,18 +131,23 @@ rate_limits:
   slug: bureau-of-industry-and-security-rate-limits
 score:
   band: thin
-  composite: 32.5
-  delta: 1.9
+  composite: 32.0
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 57.1
     developer_ergonomics: 21.4
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 30.6
+  previous_composite: 32.5
   provenance:
     agentic_access: derived
     contracts:
@@ -156,8 +161,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 29.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-industry-and-security/refs/heads/main/screenshots/bureau-of-industry-and-security-2026-06-20T173808.png
 security:

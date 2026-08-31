@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Margo defines an open standard specification for interoperability of edge applications, devices, and orchestration software in industrial automation. The specification is in pre-draft stage and includ
@@ -100,8 +100,13 @@ rate_limits:
   slug: margo-rate-limits
 score:
   band: emerging
-  composite: 14.3
-  delta: 0.0
+  composite: 17.9
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 3.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -111,9 +116,12 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 50.0
   previous_composite: 14.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/margo/refs/heads/main/screenshots/margo-2026-06-20T184944.png
 security:

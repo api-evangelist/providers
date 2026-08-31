@@ -18,7 +18,7 @@ agent_readiness:
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
     dry_run_mode: true
@@ -27,15 +27,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.9
-  scored_at: '2026-08-26'
+  score: 47.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1290
   human_in_the_loop: 26
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 2550
   slug: atlassian-agentic-access
   summary_line: 2550 operations · 1290 acting · 26 human-in-the-loop
-api_count: 359
+api_count: 123
 apis:
 - description: The Atlassian Jira Software Backlog API enables managing backlog items within Jira Software boards.
   name: Atlassian Jira Software Backlog API
@@ -162,39 +162,12 @@ apis:
 - description: The Atlassian Forge App REST API enables Forge apps to expose custom REST API endpoints for external system integration.
   name: Atlassian Forge App REST API
   slug: atlassian-forge-app-rest-api
-- description: The Account API from Atlassian — 1 operation(s) for account.
-  name: Atlassian Account API
-  slug: atlassian-account-api
-- description: The Activity API from Atlassian — 2 operation(s) for activity.
-  name: Atlassian Activity API
-  slug: atlassian-activity-api
-- description: The Add API from Atlassian — 9 operation(s) for add.
-  name: Atlassian Add API
-  slug: atlassian-add-api
 - description: The Addon API from Atlassian — 5 operation(s) for addon.
   name: Atlassian Addon API
   slug: atlassian-addon-api
-- description: The Addons API from Atlassian — 4 operation(s) for addons.
-  name: Atlassian Addons API
-  slug: atlassian-addons-api
-- description: The Address API from Atlassian — 1 operation(s) for address.
-  name: Atlassian Address API
-  slug: atlassian-address-api
-- description: The Addresses API from Atlassian — 1 operation(s) for addresses.
-  name: Atlassian Addresses API
-  slug: atlassian-addresses-api
-- description: The All API from Atlassian — 1 operation(s) for all.
-  name: Atlassian All API
-  slug: atlassian-all-api
 - description: The Analytics API from Atlassian — 2 operation(s) for analytics.
   name: Atlassian Analytics API
   slug: atlassian-analytics-api
-- description: The Ancestor API from Atlassian — 1 operation(s) for ancestor.
-  name: Atlassian Ancestor API
-  slug: atlassian-ancestor-api
-- description: The Annotations API from Atlassian — 2 operation(s) for annotations.
-  name: Atlassian Annotations API
-  slug: atlassian-annotations-api
 - description: The Announcement Banner API from Atlassian — 1 operation(s) for announcement banner.
   name: Atlassian Announcement Banner API
   slug: atlassian-announcement-banner-api
@@ -210,120 +183,30 @@ apis:
 - description: The Application Roles API from Atlassian — 2 operation(s) for application roles.
   name: Atlassian Application Roles API
   slug: atlassian-application-roles-api
-- description: The Applications API from Atlassian — 4 operation(s) for applications.
-  name: Atlassian Applications API
-  slug: atlassian-applications-api
-- description: The Approve API from Atlassian — 2 operation(s) for approve.
-  name: Atlassian Approve API
-  slug: atlassian-approve-api
-- description: The Archive API from Atlassian — 1 operation(s) for archive.
-  name: Atlassian Archive API
-  slug: atlassian-archive-api
-- description: The Artifacts API from Atlassian — 2 operation(s) for artifacts.
-  name: Atlassian Artifacts API
-  slug: atlassian-artifacts-api
-- description: The Asynchronously API from Atlassian — 3 operation(s) for asynchronously.
-  name: Atlassian Asynchronously API
-  slug: atlassian-asynchronously-api
-- description: The Attachments API from Atlassian — 6 operation(s) for attachments.
-  name: Atlassian Attachments API
-  slug: atlassian-attachments-api
 - description: The Audit API from Atlassian — 4 operation(s) for audit.
   name: Atlassian Audit API
   slug: atlassian-audit-api
 - description: The Audit Records API from Atlassian — 1 operation(s) for audit records.
   name: Atlassian Audit Records API
   slug: atlassian-audit-records-api
-- description: The Available API from Atlassian — 1 operation(s) for available.
-  name: Atlassian Available API
-  slug: atlassian-available-api
 - description: The Avatars API from Atlassian — 6 operation(s) for avatars.
   name: Atlassian Avatars API
   slug: atlassian-avatars-api
-- description: The Between API from Atlassian — 3 operation(s) for between.
-  name: Atlassian Between API
-  slug: atlassian-between-api
-- description: The Bodies API from Atlassian — 5 operation(s) for bodies.
-  name: Atlassian Bodies API
-  slug: atlassian-bodies-api
-- description: The Body API from Atlassian — 1 operation(s) for body.
-  name: Atlassian Body API
-  slug: atlassian-body-api
 - description: The Branch Restrictions API from Atlassian — 2 operation(s) for branch restrictions.
   name: Atlassian Branch Restrictions API
   slug: atlassian-branch-restrictions-api
-- description: The Branches API from Atlassian — 6 operation(s) for branches.
-  name: Atlassian Branches API
-  slug: atlassian-branches-api
-- description: The Branching API from Atlassian — 5 operation(s) for branching.
-  name: Atlassian Branching API
-  slug: atlassian-branching-api
 - description: The Branching Model API from Atlassian — 5 operation(s) for branching model.
   name: Atlassian Branching Model API
   slug: atlassian-branching-model-api
-- description: The Builds API from Atlassian — 4 operation(s) for builds.
-  name: Atlassian Builds API
-  slug: atlassian-builds-api
-- description: The Bulk API from Atlassian — 1 operation(s) for bulk.
-  name: Atlassian Bulk API
-  slug: atlassian-bulk-api
-- description: The Cache API from Atlassian — 2 operation(s) for cache.
-  name: Atlassian Cache API
-  slug: atlassian-cache-api
-- description: The Caches API from Atlassian — 1 operation(s) for caches.
-  name: Atlassian Caches API
-  slug: atlassian-caches-api
-- description: The Case API from Atlassian — 1 operation(s) for case.
-  name: Atlassian Case API
-  slug: atlassian-case-api
-- description: The Cases API from Atlassian — 1 operation(s) for cases.
-  name: Atlassian Cases API
-  slug: atlassian-cases-api
-- description: The Change API from Atlassian — 3 operation(s) for change.
-  name: Atlassian Change API
-  slug: atlassian-change-api
-- description: The Changes API from Atlassian — 5 operation(s) for changes.
-  name: Atlassian Changes API
-  slug: atlassian-changes-api
-- description: The Checks API from Atlassian — 6 operation(s) for checks.
-  name: Atlassian Checks API
-  slug: atlassian-checks-api
-- description: The Children API from Atlassian — 2 operation(s) for children.
-  name: Atlassian Children API
-  slug: atlassian-children-api
 - description: The Classification Levels API from Atlassian — 1 operation(s) for classification levels.
   name: Atlassian Classification Levels API
   slug: atlassian-classification-levels-api
-- description: The Code API from Atlassian — 3 operation(s) for code.
-  name: Atlassian Code API
-  slug: atlassian-code-api
-- description: The Comments API from Atlassian — 10 operation(s) for comments.
-  name: Atlassian Comments API
-  slug: atlassian-comments-api
 - description: The Commit Statuses API from Atlassian — 3 operation(s) for commit statuses.
   name: Atlassian Commit Statuses API
   slug: atlassian-commit-statuses-api
 - description: The Commits API from Atlassian — 19 operation(s) for commits.
   name: Atlassian Commits API
   slug: atlassian-commits-api
-- description: The Common API from Atlassian — 1 operation(s) for common.
-  name: Atlassian Common API
-  slug: atlassian-common-api
-- description: The Compare API from Atlassian — 2 operation(s) for compare.
-  name: Atlassian Compare API
-  slug: atlassian-compare-api
-- description: The Components API from Atlassian — 1 operation(s) for components.
-  name: Atlassian Components API
-  slug: atlassian-components-api
-- description: The Configuration API from Atlassian — 2 operation(s) for configuration.
-  name: Atlassian Configuration API
-  slug: atlassian-configuration-api
-- description: The Contain API from Atlassian — 1 operation(s) for contain.
-  name: Atlassian Contain API
-  slug: atlassian-contain-api
-- description: The Containers API from Atlassian — 1 operation(s) for containers.
-  name: Atlassian Containers API
-  slug: atlassian-containers-api
 - description: The Content API from Atlassian — 26 operation(s) for content.
   name: Atlassian Content API
   slug: atlassian-content-api
@@ -363,111 +246,33 @@ apis:
 - description: The Content Watches API from Atlassian — 6 operation(s) for content watches.
   name: Atlassian Content Watches API
   slug: atlassian-content-watches-api
-- description: The Convert API from Atlassian — 4 operation(s) for convert.
-  name: Atlassian Convert API
-  slug: atlassian-convert-api
-- description: The Converted API from Atlassian — 1 operation(s) for converted.
-  name: Atlassian Converted API
-  slug: atlassian-converted-api
-- description: The Copy API from Atlassian — 2 operation(s) for copy.
-  name: Atlassian Copy API
-  slug: atlassian-copy-api
-- description: The Create API from Atlassian — 32 operation(s) for create.
-  name: Atlassian Create API
-  slug: atlassian-create-api
-- description: The Current API from Atlassian — 8 operation(s) for current.
-  name: Atlassian Current API
-  slug: atlassian-current-api
-- description: The Currently API from Atlassian — 1 operation(s) for currently.
-  name: Atlassian Currently API
-  slug: atlassian-currently-api
 - description: The Dashboards API from Atlassian — 10 operation(s) for dashboards.
   name: Atlassian Dashboards API
   slug: atlassian-dashboards-api
-- description: The Data API from Atlassian — 1 operation(s) for data.
-  name: Atlassian Data API
-  slug: atlassian-data-api
-- description: The Decline API from Atlassian — 1 operation(s) for decline.
-  name: Atlassian Decline API
-  slug: atlassian-decline-api
-- description: The Defined API from Atlassian — 2 operation(s) for defined.
-  name: Atlassian Defined API
-  slug: atlassian-defined-api
-- description: The Delete API from Atlassian — 46 operation(s) for delete.
-  name: Atlassian Delete API
-  slug: atlassian-delete-api
-- description: The Deploy API from Atlassian — 4 operation(s) for deploy.
-  name: Atlassian Deploy API
-  slug: atlassian-deploy-api
 - description: The Deployments API from Atlassian — 9 operation(s) for deployments.
   name: Atlassian Deployments API
   slug: atlassian-deployments-api
-- description: The Descendants API from Atlassian — 1 operation(s) for descendants.
-  name: Atlassian Descendants API
-  slug: atlassian-descendants-api
-- description: The Directories API from Atlassian — 2 operation(s) for directories.
-  name: Atlassian Directories API
-  slug: atlassian-directories-api
 - description: Manage verified domains for an organization.
   name: Atlassian Domains API
   slug: atlassian-domains-api
-- description: The Download API from Atlassian — 3 operation(s) for download.
-  name: Atlassian Download API
-  slug: atlassian-download-api
 - description: The Downloads API from Atlassian — 2 operation(s) for downloads.
   name: Atlassian Downloads API
   slug: atlassian-downloads-api
-- description: The Drafts API from Atlassian — 1 operation(s) for drafts.
-  name: Atlassian Drafts API
-  slug: atlassian-drafts-api
 - description: The Dynamic Modules API from Atlassian — 2 operation(s) for dynamic modules.
   name: Atlassian Dynamic Modules API
   slug: atlassian-dynamic-modules-api
-- description: The Effective API from Atlassian — 2 operation(s) for effective.
-  name: Atlassian Effective API
-  slug: atlassian-effective-api
-- description: The Email API from Atlassian — 2 operation(s) for email.
-  name: Atlassian Email API
-  slug: atlassian-email-api
-- description: The Emails API from Atlassian — 2 operation(s) for emails.
-  name: Atlassian Emails API
-  slug: atlassian-emails-api
-- description: The Environments API from Atlassian — 5 operation(s) for environments.
-  name: Atlassian Environments API
-  slug: atlassian-environments-api
 - description: Retrieve organization audit events.
   name: Atlassian Events API
   slug: atlassian-events-api
-- description: The Executions API from Atlassian — 1 operation(s) for executions.
-  name: Atlassian Executions API
-  slug: atlassian-executions-api
 - description: The Experimental API from Atlassian — 2 operation(s) for experimental.
   name: Atlassian Experimental API
   slug: atlassian-experimental-api
-- description: The Explicit API from Atlassian — 8 operation(s) for explicit.
-  name: Atlassian Explicit API
-  slug: atlassian-explicit-api
-- description: The Exports API from Atlassian — 3 operation(s) for exports.
-  name: Atlassian Exports API
-  slug: atlassian-exports-api
-- description: The Files API from Atlassian — 6 operation(s) for files.
-  name: Atlassian Files API
-  slug: atlassian-files-api
 - description: The Filter Sharing API from Atlassian — 3 operation(s) for filter sharing.
   name: Atlassian Filter Sharing API
   slug: atlassian-filter-sharing-api
 - description: The Filters API from Atlassian — 8 operation(s) for filters.
   name: Atlassian Filters API
   slug: atlassian-filters-api
-- description: The Forks API from Atlassian — 1 operation(s) for forks.
-  name: Atlassian Forks API
-  slug: atlassian-forks-api
-- description: The Get API from Atlassian — 116 operation(s) for get.
-  name: Atlassian Get API
-  slug: atlassian-get-api
-- description: The Given API from Atlassian — 4 operation(s) for given.
-  name: Atlassian Given API
-  slug: atlassian-given-api
 - description: The Group and User Picker API from Atlassian — 1 operation(s) for group and user picker.
   name: Atlassian Group and User Picker API
   slug: atlassian-group-and-user-picker-api
@@ -477,27 +282,6 @@ apis:
 - description: Manage groups within an organization.
   name: Atlassian Groups API
   slug: atlassian-groups-api
-- description: The Head API from Atlassian — 1 operation(s) for head.
-  name: Atlassian Head API
-  slug: atlassian-head-api
-- description: The Hierarchy API from Atlassian — 1 operation(s) for hierarchy.
-  name: Atlassian Hierarchy API
-  slug: atlassian-hierarchy-api
-- description: The History API from Atlassian — 1 operation(s) for history.
-  name: Atlassian History API
-  slug: atlassian-history-api
-- description: The Hosts API from Atlassian — 2 operation(s) for hosts.
-  name: Atlassian Hosts API
-  slug: atlassian-hosts-api
-- description: The Identifiers API from Atlassian — 6 operation(s) for identifiers.
-  name: Atlassian Identifiers API
-  slug: atlassian-identifiers-api
-- description: The Import API from Atlassian — 1 operation(s) for import.
-  name: Atlassian Import API
-  slug: atlassian-import-api
-- description: The Inheritance API from Atlassian — 1 operation(s) for inheritance.
-  name: Atlassian Inheritance API
-  slug: atlassian-inheritance-api
 - description: The Inline Tasks API from Atlassian — 2 operation(s) for inline tasks.
   name: Atlassian Inline Tasks API
   slug: atlassian-inline-tasks-api
@@ -606,147 +390,36 @@ apis:
 - description: The JQL Functions (Apps) API from Atlassian — 1 operation(s) for jql functions (apps).
   name: Atlassian JQL Functions (Apps) API
   slug: atlassian-jql-functions-apps-api
-- description: The Keys API from Atlassian — 12 operation(s) for keys.
-  name: Atlassian Keys API
-  slug: atlassian-keys-api
-- description: The Known API from Atlassian — 2 operation(s) for known.
-  name: Atlassian Known API
-  slug: atlassian-known-api
 - description: The Label Info API from Atlassian — 1 operation(s) for label info.
   name: Atlassian Label Info API
   slug: atlassian-label-info-api
 - description: The Labels API from Atlassian — 3 operation(s) for labels.
   name: Atlassian Labels API
   slug: atlassian-labels-api
-- description: The Legacy API from Atlassian — 1 operation(s) for legacy.
-  name: Atlassian Legacy API
-  slug: atlassian-legacy-api
 - description: The License Metrics API from Atlassian — 3 operation(s) for license metrics.
   name: Atlassian License Metrics API
   slug: atlassian-license-metrics-api
-- description: The Link API from Atlassian — 1 operation(s) for link.
-  name: Atlassian Link API
-  slug: atlassian-link-api
-- description: The Linkers API from Atlassian — 4 operation(s) for linkers.
-  name: Atlassian Linkers API
-  slug: atlassian-linkers-api
-- description: The Lists API from Atlassian — 70 operation(s) for lists.
-  name: Atlassian Lists API
-  slug: atlassian-lists-api
-- description: The Location API from Atlassian — 1 operation(s) for location.
-  name: Atlassian Location API
-  slug: atlassian-location-api
-- description: The Log API from Atlassian — 2 operation(s) for log.
-  name: Atlassian Log API
-  slug: atlassian-log-api
-- description: The Logs API from Atlassian — 4 operation(s) for logs.
-  name: Atlassian Logs API
-  slug: atlassian-logs-api
 - description: The Long-Running Task API from Atlassian — 2 operation(s) for long-running task.
   name: Atlassian Long-Running Task API
   slug: atlassian-long-running-task-api
-- description: The Macro API from Atlassian — 1 operation(s) for macro.
-  name: Atlassian Macro API
-  slug: atlassian-macro-api
-- description: The Macros API from Atlassian — 2 operation(s) for macros.
-  name: Atlassian Macros API
-  slug: atlassian-macros-api
-- description: The Main API from Atlassian — 1 operation(s) for main.
-  name: Atlassian Main API
-  slug: atlassian-main-api
-- description: The Memberships API from Atlassian — 1 operation(s) for memberships.
-  name: Atlassian Memberships API
-  slug: atlassian-memberships-api
-- description: The Merge API from Atlassian — 2 operation(s) for merge.
-  name: Atlassian Merge API
-  slug: atlassian-merge-api
-- description: The Milestones API from Atlassian — 2 operation(s) for milestones.
-  name: Atlassian Milestones API
-  slug: atlassian-milestones-api
-- description: The Model API from Atlassian — 2 operation(s) for model.
-  name: Atlassian Model API
-  slug: atlassian-model-api
-- description: The Models API from Atlassian — 3 operation(s) for models.
-  name: Atlassian Models API
-  slug: atlassian-models-api
-- description: The Modified API from Atlassian — 1 operation(s) for modified.
-  name: Atlassian Modified API
-  slug: atlassian-modified-api
-- description: The Modify API from Atlassian — 1 operation(s) for modify.
-  name: Atlassian Modify API
-  slug: atlassian-modify-api
-- description: The Modules API from Atlassian — 1 operation(s) for modules.
-  name: Atlassian Modules API
-  slug: atlassian-modules-api
-- description: The Move API from Atlassian — 1 operation(s) for move.
-  name: Atlassian Move API
-  slug: atlassian-move-api
 - description: The Myself API from Atlassian — 3 operation(s) for myself.
   name: Atlassian Myself API
   slug: atlassian-myself-api
-- description: The Next API from Atlassian — 1 operation(s) for next.
-  name: Atlassian Next API
-  slug: atlassian-next-api
-- description: The Number API from Atlassian — 1 operation(s) for number.
-  name: Atlassian Number API
-  slug: atlassian-number-api
-- description: The Objects API from Atlassian — 1 operation(s) for objects.
-  name: Atlassian Objects API
-  slug: atlassian-objects-api
-- description: The Open API from Atlassian — 1 operation(s) for open.
-  name: Atlassian Open API
-  slug: atlassian-open-api
-- description: The Openid Connect API from Atlassian — 2 operation(s) for openid connect.
-  name: Atlassian Openid Connect API
-  slug: atlassian-openid-connect-api
-- description: The Operations API from Atlassian — 2 operation(s) for operations.
-  name: Atlassian Operations API
-  slug: atlassian-operations-api
 - description: Manage Atlassian organizations.
   name: Atlassian Organizations API
   slug: atlassian-organizations-api
-- description: The Output API from Atlassian — 1 operation(s) for output.
-  name: Atlassian Output API
-  slug: atlassian-output-api
-- description: The Page API from Atlassian — 3 operation(s) for page.
-  name: Atlassian Page API
-  slug: atlassian-page-api
-- description: The Pages API from Atlassian — 3 operation(s) for pages.
-  name: Atlassian Pages API
-  slug: atlassian-pages-api
-- description: The Pairs API from Atlassian — 1 operation(s) for pairs.
-  name: Atlassian Pairs API
-  slug: atlassian-pairs-api
-- description: The Parameter API from Atlassian — 1 operation(s) for parameter.
-  name: Atlassian Parameter API
-  slug: atlassian-parameter-api
-- description: The Patch API from Atlassian — 3 operation(s) for patch.
-  name: Atlassian Patch API
-  slug: atlassian-patch-api
-- description: The Period API from Atlassian — 2 operation(s) for period.
-  name: Atlassian Period API
-  slug: atlassian-period-api
 - description: The Permission Schemes API from Atlassian — 4 operation(s) for permission schemes.
   name: Atlassian Permission Schemes API
   slug: atlassian-permission-schemes-api
 - description: The Permissions API from Atlassian — 17 operation(s) for permissions.
   name: Atlassian Permissions API
   slug: atlassian-permissions-api
-- description: The Pipeline API from Atlassian — 1 operation(s) for pipeline.
-  name: Atlassian Pipeline API
-  slug: atlassian-pipeline-api
 - description: The Pipelines API from Atlassian — 33 operation(s) for pipelines.
   name: Atlassian Pipelines API
   slug: atlassian-pipelines-api
 - description: Manage organization-level policies.
   name: Atlassian Policies API
   slug: atlassian-policies-api
-- description: The Post API from Atlassian — 1 operation(s) for post.
-  name: Atlassian Post API
-  slug: atlassian-post-api
-- description: The Previous API from Atlassian — 2 operation(s) for previous.
-  name: Atlassian Previous API
-  slug: atlassian-previous-api
 - description: The Project Avatars API from Atlassian — 4 operation(s) for project avatars.
   name: Atlassian Project Avatars API
   slug: atlassian-project-avatars-api
@@ -795,60 +468,18 @@ apis:
 - description: The Properties API from Atlassian — 7 operation(s) for properties.
   name: Atlassian Properties API
   slug: atlassian-properties-api
-- description: The Property API from Atlassian — 1 operation(s) for property.
-  name: Atlassian Property API
-  slug: atlassian-property-api
-- description: The Publish API from Atlassian — 1 operation(s) for publish.
-  name: Atlassian Publish API
-  slug: atlassian-publish-api
-- description: The Publishes API from Atlassian — 1 operation(s) for publishes.
-  name: Atlassian Publishes API
-  slug: atlassian-publishes-api
-- description: The Pull API from Atlassian — 21 operation(s) for pull.
-  name: Atlassian Pull API
-  slug: atlassian-pull-api
 - description: The Pullrequests API from Atlassian — 23 operation(s) for pullrequests.
   name: Atlassian Pullrequests API
   slug: atlassian-pullrequests-api
 - description: The Pullrequests - Commit Statuses API from Atlassian — 1 operation(s) for pullrequests - commit statuses.
   name: Atlassian Pullrequests - Commit Statuses API
   slug: atlassian-pullrequests-commit-statuses-api
-- description: The Put API from Atlassian — 1 operation(s) for put.
-  name: Atlassian Put API
-  slug: atlassian-put-api
-- description: The Query API from Atlassian — 1 operation(s) for query.
-  name: Atlassian Query API
-  slug: atlassian-query-api
-- description: The Raw API from Atlassian — 2 operation(s) for raw.
-  name: Atlassian Raw API
-  slug: atlassian-raw-api
-- description: The Reasons API from Atlassian — 1 operation(s) for reasons.
-  name: Atlassian Reasons API
-  slug: atlassian-reasons-api
-- description: The Records API from Atlassian — 2 operation(s) for records.
-  name: Atlassian Records API
-  slug: atlassian-records-api
 - description: The Refs API from Atlassian — 5 operation(s) for refs.
   name: Atlassian Refs API
   slug: atlassian-refs-api
-- description: The Register API from Atlassian — 1 operation(s) for register.
-  name: Atlassian Register API
-  slug: atlassian-register-api
 - description: The Relation API from Atlassian — 3 operation(s) for relation.
   name: Atlassian Relation API
   slug: atlassian-relation-api
-- description: The Relative API from Atlassian — 1 operation(s) for relative.
-  name: Atlassian Relative API
-  slug: atlassian-relative-api
-- description: The Remove API from Atlassian — 9 operation(s) for remove.
-  name: Atlassian Remove API
-  slug: atlassian-remove-api
-- description: The Reopen API from Atlassian — 1 operation(s) for reopen.
-  name: Atlassian Reopen API
-  slug: atlassian-reopen-api
-- description: The Reports API from Atlassian — 3 operation(s) for reports.
-  name: Atlassian Reports API
-  slug: atlassian-reports-api
 - description: The Reports - Commits API from Atlassian — 4 operation(s) for reports - commits.
   name: Atlassian Reports - Commits API
   slug: atlassian-reports-commits-api
@@ -858,51 +489,6 @@ apis:
 - description: The Repositories - Webhooks API from Atlassian — 2 operation(s) for repositories - webhooks.
   name: Atlassian Repositories - Webhooks API
   slug: atlassian-repositories-webhooks-api
-- description: The Representations API from Atlassian — 2 operation(s) for representations.
-  name: Atlassian Representations API
-  slug: atlassian-representations-api
-- description: The Requests API from Atlassian — 21 operation(s) for requests.
-  name: Atlassian Requests API
-  slug: atlassian-requests-api
-- description: The Resolve API from Atlassian — 1 operation(s) for resolve.
-  name: Atlassian Resolve API
-  slug: atlassian-resolve-api
-- description: The Restore API from Atlassian — 1 operation(s) for restore.
-  name: Atlassian Restore API
-  slug: atlassian-restore-api
-- description: The Restriction API from Atlassian — 2 operation(s) for restriction.
-  name: Atlassian Restriction API
-  slug: atlassian-restriction-api
-- description: The Restrictions API from Atlassian — 7 operation(s) for restrictions.
-  name: Atlassian Restrictions API
-  slug: atlassian-restrictions-api
-- description: The Retention API from Atlassian — 1 operation(s) for retention.
-  name: Atlassian Retention API
-  slug: atlassian-retention-api
-- description: The Retrieve API from Atlassian — 1 operation(s) for retrieve.
-  name: Atlassian Retrieve API
-  slug: atlassian-retrieve-api
-- description: The Reviewers API from Atlassian — 5 operation(s) for reviewers.
-  name: Atlassian Reviewers API
-  slug: atlassian-reviewers-api
-- description: The Revisions API from Atlassian — 1 operation(s) for revisions.
-  name: Atlassian Revisions API
-  slug: atlassian-revisions-api
-- description: The Root API from Atlassian — 1 operation(s) for root.
-  name: Atlassian Root API
-  slug: atlassian-root-api
-- description: The Rules API from Atlassian — 2 operation(s) for rules.
-  name: Atlassian Rules API
-  slug: atlassian-rules-api
-- description: The Runs API from Atlassian — 1 operation(s) for runs.
-  name: Atlassian Runs API
-  slug: atlassian-runs-api
-- description: The Schedule API from Atlassian — 1 operation(s) for schedule.
-  name: Atlassian Schedule API
-  slug: atlassian-schedule-api
-- description: The Schedules API from Atlassian — 3 operation(s) for schedules.
-  name: Atlassian Schedules API
-  slug: atlassian-schedules-api
 - description: The Screen Schemes API from Atlassian — 2 operation(s) for screen schemes.
   name: Atlassian Screen Schemes API
   slug: atlassian-screen-schemes-api
@@ -924,18 +510,9 @@ apis:
 - description: This resource represents a service registry. Use it to retrieve attributes related to a [service registry](https://support.atlassian.com/jira-service-management-cloud/docs/what-is-services/) in JSM.
   name: Atlassian Service Registry API
   slug: atlassian-service-registry-api
-- description: The Sets API from Atlassian — 3 operation(s) for sets.
-  name: Atlassian Sets API
-  slug: atlassian-sets-api
 - description: The Settings API from Atlassian — 5 operation(s) for settings.
   name: Atlassian Settings API
   slug: atlassian-settings-api
-- description: The Shared API from Atlassian — 1 operation(s) for shared.
-  name: Atlassian Shared API
-  slug: atlassian-shared-api
-- description: The Single API from Atlassian — 1 operation(s) for single.
-  name: Atlassian Single API
-  slug: atlassian-single-api
 - description: The Snippets API from Atlassian — 14 operation(s) for snippets.
   name: Atlassian Snippets API
   slug: atlassian-snippets-api
@@ -954,99 +531,27 @@ apis:
 - description: The Space Settings API from Atlassian — 1 operation(s) for space settings.
   name: Atlassian Space Settings API
   slug: atlassian-space-settings-api
-- description: The Spaces API from Atlassian — 1 operation(s) for spaces.
-  name: Atlassian Spaces API
-  slug: atlassian-spaces-api
-- description: The Specific API from Atlassian — 1 operation(s) for specific.
-  name: Atlassian Specific API
-  slug: atlassian-specific-api
 - description: The Ssh API from Atlassian — 3 operation(s) for ssh.
   name: Atlassian Ssh API
   slug: atlassian-ssh-api
-- description: The State API from Atlassian — 3 operation(s) for state.
-  name: Atlassian State API
-  slug: atlassian-state-api
-- description: The States API from Atlassian — 1 operation(s) for states.
-  name: Atlassian States API
-  slug: atlassian-states-api
 - description: The Status API from Atlassian — 11 operation(s) for status.
   name: Atlassian Status API
   slug: atlassian-status-api
-- description: The Statuses API from Atlassian — 2 operation(s) for statuses.
-  name: Atlassian Statuses API
-  slug: atlassian-statuses-api
-- description: The Step API from Atlassian — 1 operation(s) for step.
-  name: Atlassian Step API
-  slug: atlassian-step-api
-- description: The Steps API from Atlassian — 6 operation(s) for steps.
-  name: Atlassian Steps API
-  slug: atlassian-steps-api
-- description: The Stop API from Atlassian — 3 operation(s) for stop.
-  name: Atlassian Stop API
-  slug: atlassian-stop-api
-- description: The Subscribable API from Atlassian — 1 operation(s) for subscribable.
-  name: Atlassian Subscribable API
-  slug: atlassian-subscribable-api
-- description: The Summaries API from Atlassian — 1 operation(s) for summaries.
-  name: Atlassian Summaries API
-  slug: atlassian-summaries-api
-- description: The Synchronously API from Atlassian — 1 operation(s) for synchronously.
-  name: Atlassian Synchronously API
-  slug: atlassian-synchronously-api
-- description: The Target API from Atlassian — 1 operation(s) for target.
-  name: Atlassian Target API
-  slug: atlassian-target-api
-- description: The Task API from Atlassian — 3 operation(s) for task.
-  name: Atlassian Task API
-  slug: atlassian-task-api
 - description: The Tasks API from Atlassian — 5 operation(s) for tasks.
   name: Atlassian Tasks API
   slug: atlassian-tasks-api
-- description: The Teams API from Atlassian — 2 operation(s) for teams.
-  name: Atlassian Teams API
-  slug: atlassian-teams-api
 - description: The Template API from Atlassian — 4 operation(s) for template.
   name: Atlassian Template API
   slug: atlassian-template-api
-- description: The Tests API from Atlassian — 3 operation(s) for tests.
-  name: Atlassian Tests API
-  slug: atlassian-tests-api
 - description: The Themes API from Atlassian — 4 operation(s) for themes.
   name: Atlassian Themes API
   slug: atlassian-themes-api
-- description: The Threads API from Atlassian — 1 operation(s) for threads.
-  name: Atlassian Threads API
-  slug: atlassian-threads-api
-- description: The Time API from Atlassian — 1 operation(s) for time.
-  name: Atlassian Time API
-  slug: atlassian-time-api
 - description: The Time Tracking API from Atlassian — 3 operation(s) for time tracking.
   name: Atlassian Time Tracking API
   slug: atlassian-time-tracking-api
-- description: The Trees API from Atlassian — 1 operation(s) for trees.
-  name: Atlassian Trees API
-  slug: atlassian-trees-api
-- description: The Type API from Atlassian — 1 operation(s) for type.
-  name: Atlassian Type API
-  slug: atlassian-type-api
-- description: The Types API from Atlassian — 1 operation(s) for types.
-  name: Atlassian Types API
-  slug: atlassian-types-api
 - description: The UI Modifications (Apps) API from Atlassian — 2 operation(s) for ui modifications (apps).
   name: Atlassian UI Modifications (Apps) API
   slug: atlassian-ui-modifications-apps-api
-- description: The Unapprove API from Atlassian — 2 operation(s) for unapprove.
-  name: Atlassian Unapprove API
-  slug: atlassian-unapprove-api
-- description: The Update API from Atlassian — 46 operation(s) for update.
-  name: Atlassian Update API
-  slug: atlassian-update-api
-- description: The Upload API from Atlassian — 2 operation(s) for upload.
-  name: Atlassian Upload API
-  slug: atlassian-upload-api
-- description: The Uploading API from Atlassian — 1 operation(s) for uploading.
-  name: Atlassian Uploading API
-  slug: atlassian-uploading-api
 - description: The User Properties API from Atlassian — 4 operation(s) for user properties.
   name: Atlassian User Properties API
   slug: atlassian-user-properties-api
@@ -1056,39 +561,6 @@ apis:
 - description: Manage users within an organization.
   name: Atlassian Users API
   slug: atlassian-users-api
-- description: The Value API from Atlassian — 1 operation(s) for value.
-  name: Atlassian Value API
-  slug: atlassian-value-api
-- description: The Variables API from Atlassian — 10 operation(s) for variables.
-  name: Atlassian Variables API
-  slug: atlassian-variables-api
-- description: The Versions API from Atlassian — 7 operation(s) for versions.
-  name: Atlassian Versions API
-  slug: atlassian-versions-api
-- description: The Viewers API from Atlassian — 1 operation(s) for viewers.
-  name: Atlassian Viewers API
-  slug: atlassian-viewers-api
-- description: The Views API from Atlassian — 1 operation(s) for views.
-  name: Atlassian Views API
-  slug: atlassian-views-api
-- description: The Voted API from Atlassian — 1 operation(s) for voted.
-  name: Atlassian Voted API
-  slug: atlassian-voted-api
-- description: The Votes API from Atlassian — 1 operation(s) for votes.
-  name: Atlassian Votes API
-  slug: atlassian-votes-api
-- description: The Watch API from Atlassian — 2 operation(s) for watch.
-  name: Atlassian Watch API
-  slug: atlassian-watch-api
-- description: The Watchers API from Atlassian — 1 operation(s) for watchers.
-  name: Atlassian Watchers API
-  slug: atlassian-watchers-api
-- description: The Watches API from Atlassian — 2 operation(s) for watches.
-  name: Atlassian Watches API
-  slug: atlassian-watches-api
-- description: The Watching API from Atlassian — 3 operation(s) for watching.
-  name: Atlassian Watching API
-  slug: atlassian-watching-api
 - description: The Webhooks API from Atlassian — 9 operation(s) for webhooks.
   name: Atlassian Webhooks API
   slug: atlassian-webhooks-api
@@ -1174,7 +646,7 @@ arazzos:
 - description: Read an existing issue, comment on it, then transition it to a triaged status.
   name: Atlassian Jira Triage Issue
   slug: atlassian-triage-issue-workflow
-artifact_total: 3683
+artifact_total: 3507
 collections:
 - collection_type: postman
   name: Atlassian Admin API
@@ -2500,6 +1972,10 @@ collections:
   name: Atlassian Admin Account Workspaces - Webhooks API
   slug: open-atlassian-workspaces-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/atlassian-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -11219,13 +10695,13 @@ modified: '2026-05-19'
 name: Atlassian
 nav: Providers
 network: true
-overview: 'Atlassian publishes 320 APIs on the [APIs.io](https://apis.io/) network, including Account API, Activity API, Add API, and 317 more. Tagged areas include Code, Collaboration, Platform, Productivity, and Software Development.
+overview: 'Atlassian publishes 144 APIs on the [APIs.io](https://apis.io/) network, including Addon API, Analytics API, Announcement Banner API, and 141 more. Tagged areas include Code, Collaboration, Platform, Productivity, and Software Development.
 
 
   The Atlassian catalog on APIs.io includes 22 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Atlassian''s developer surface includes authentication, developer portal, getting-started guide, changelog, support, engineering blog, YouTube channel, and 39 more developer resources.'
+  Atlassian''s developer surface includes authentication, developer portal, getting-started guide, changelog, support, engineering blog, YouTube channel, and 40 more developer resources.'
 plans:
 - name: Atlassian Plans Pricing
   plan_count: 4
@@ -11264,18 +10740,23 @@ scopes:
   summary_line: 288 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.1
-  delta: 3.4
+  composite: 57.7
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 46.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 28.8
-    contract_quality: 76.7
+    contract_quality: 75.1
     developer_ergonomics: 73.8
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 52.6
-  previous_composite: 54.7
+  previous_composite: 57.7
   provenance:
     agentic_access: derived
     contracts:
@@ -11283,8 +10764,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 320
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/screenshots/atlassian-2026-06-20T172524.png
 security:

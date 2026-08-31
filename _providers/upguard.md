@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.6
-  scored_at: '2026-08-26'
+  score: 27.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 133
   slug: upguard-agentic-access
   summary_line: 133 operations · 37 acting · 1 human-in-the-loop
-api_count: 18
+api_count: 1
 apis:
 - description: The breaches API from UpGuard — 5 operation(s) for breaches.
   name: UpGuard breaches API
@@ -319,18 +319,23 @@ overview: 'UpGuard publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 4
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 51.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
-    contract_quality: 61.2
+    contract_governance: 4.5
+    contract_quality: 61.1
     developer_ergonomics: 44.6
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 53.3
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -341,8 +346,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upguard/refs/heads/main/screenshots/upguard-2026-08-17T082637.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 8
 apis:
 - description: Reactive web framework providing annotated controllers, functional endpoints, dispatcher handler, and the full reactive request/response processing pipeline. Supports non-blocking I/O with Reactor Mon
@@ -66,6 +66,22 @@ asyncapis:
   name: Spring WebFlux WebSocket API
   slug: webflux-websocket-asyncapi
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/spring-projects/spring-framework/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/spring-projects/spring-framework/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/spring-projects/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/spring-projects/spring-framework/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -162,7 +178,7 @@ overview: 'Spring WebFlux publishes 1 API on the [APIs.io](https://apis.io/) net
   The Spring WebFlux catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Spring WebFlux''s developer surface includes engineering blog, support, Stack Overflow tag, YouTube channel, release notes, changelog, and 7 more developer resources.'
+  Spring WebFlux''s developer surface includes engineering blog, support, Stack Overflow tag, YouTube channel, release notes, changelog, and 11 more developer resources.'
 plans:
 - name: Webflux Plans Pricing
   plan_count: 3
@@ -195,9 +211,14 @@ rules:
     warn: 3
   slug: webflux-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 38.2
-  delta: 5.8
+  band: developing
+  composite: 45.6
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -206,11 +227,14 @@ score:
     developer_ergonomics: 35.7
     discoverability: 55.6
     governance: 28.8
-    operational_transparency: 26.3
-  previous_composite: 32.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 45.6
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflux/refs/heads/main/screenshots/webflux-2026-06-20T201330.png
 slug: webflux
 tags:

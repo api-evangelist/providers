@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: yearn-agentic-access
   summary_line: 9 operations
-api_count: 5
+api_count: 1
 apis:
 - description: An integrated indexing service and GraphQL API providing comprehensive data on Yearn V2 and V3 vault ecosystems, including contract snapshots, event histories, vault-strategy relationships, fees, rewa
   name: Kong GraphQL API
@@ -76,6 +76,10 @@ collections:
   name: Yearn Finance yDaemon REST Chains Vaults API
   slug: open-yearn-vaults-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/yearn/kong/issues
 - group: commercial
   title: ''
   type: License
@@ -138,18 +142,26 @@ rules:
   slug: yearn-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.1
-  delta: 2.6
+  composite: 29.3
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
     contract_quality: 61.7
     developer_ergonomics: 9.5
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 30.5
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 29.8
   provenance:
     agentic_access: derived
     contracts:
@@ -157,8 +169,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/screenshots/yearn-2026-06-20T201735.png
 security:

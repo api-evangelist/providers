@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 9
   slug: usda-agentic-access
   summary_line: 9 operations · 3 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Programmatic access to official US agricultural statistics from the National Agricultural Statistics Service, including crop production estimates, livestock data, and Census of Agriculture results fro
   name: USDA NASS Quick Stats API
@@ -74,6 +74,10 @@ collections:
   name: Food Data Central FDC API
   slug: open-usda-fdc-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/USDA-REE-ERS/ARMS-Data-API/issues
 - group: agent
   title: ''
   type: AgenticAccess
@@ -168,7 +172,7 @@ overview: 'USDA publishes 1 API on the [APIs.io](https://apis.io/) network: FDC 
   The USDA catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  USDA''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  USDA''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Usda Plans Pricing
   plan_count: 3
@@ -190,19 +194,27 @@ rules:
     warn: 4
   slug: usda-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 42.5
-  delta: 1.9
+  band: thin
+  composite: 37.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 60.5
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 40.6
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -216,8 +228,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usda/refs/heads/main/screenshots/usda-2026-06-20T200646.png
 security:

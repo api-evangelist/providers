@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 36
   slug: agencyzoom-agentic-access
   summary_line: 36 operations · 21 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The Authentication API from AgencyZoom — 3 operation(s) for authentication.
   name: AgencyZoom Authentication API
@@ -100,6 +100,10 @@ collections:
   name: AgencyZoom API
   slug: open-agencyzoom
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/agencyzoom-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -140,22 +144,27 @@ modified: '2026-05-11'
 name: AgencyZoom
 nav: Providers
 network: true
-overview: 'AgencyZoom publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Configuration API, Customers API, and 5 more. Tagged areas include Insurance, Insurtech, CRM, Sales Automation, and Agency Management.
+overview: 'AgencyZoom publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Configuration API, Customers API, and 5 more. Tagged areas include Insurance, InsurTech, CRM, Sales Automation, and Agency Management.
 
 
-  AgencyZoom''s developer surface includes authentication, documentation, pricing, signup flow, and 4 more developer resources.'
+  AgencyZoom''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
 random_paper: 13
 score:
   band: thin
-  composite: 27.2
-  delta: 0.0
+  composite: 26.6
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 48.5
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 27.2
@@ -172,8 +181,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agencyzoom/refs/heads/main/screenshots/agencyzoom-2026-06-20T165842.png
 security:
@@ -188,7 +197,7 @@ security:
 slug: agencyzoom
 tags:
 - Insurance
-- Insurtech
+- InsurTech
 - CRM
 - Sales Automation
 - Agency Management

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 69
   slug: circle-community-agentic-access
   summary_line: 69 operations · 38 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Beta ActionCable (Rails) WebSocket surface for realtime chat and notifications, connected at wss://app.circle.so/cable with a member Bearer access token and a whitelisted Origin header. Exposes a Noti
   name: Circle Realtime WebSocket API
@@ -180,18 +180,23 @@ rules:
   slug: circle-community-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 42.2
-  delta: 2.4
+  composite: 41.6
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 47.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 11.4
     contract_quality: 59.0
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 11.4
     operational_transparency: 31.6
-  previous_composite: 39.8
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     contracts:
@@ -199,8 +204,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/screenshots/circle-community-2026-07-25T205412.png
 security:

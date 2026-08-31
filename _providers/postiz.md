@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-ready
   band_gated_from: agent-native
   dimensions:
-    agent_card: conformant
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 54.2
-  scored_at: '2026-08-26'
+  score: 48.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 122
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 248
   slug: postiz-agentic-access
   summary_line: 248 operations · 143 acting · 122 human-in-the-loop
-api_count: 9
+api_count: 3
 apis:
 - description: Configure a webhook URL in Postiz to receive an HTTP POST notifying your own systems when a post is published, so you can sync downstream tools such as spreadsheets, Slack, or a CRM. Webhooks are conf
   name: Postiz Webhooks
@@ -63,16 +63,79 @@ apis:
 - description: Upload media files referenced by posts.
   name: Postiz Uploads API
   slug: postiz-uploads-api
-- description: The complete, provider-published Postiz Public API — 23 operations across integrations (channels), groups, posts, uploads, analytics, notifications and AI video generation, served at https://api.posti
-  name: Postiz Public API
-  slug: postiz-public-api
 - description: Hosted, remote Model Context Protocol server run as part of the Postiz backend, exposing 11 tools for listing channels, reading platform settings schemas, scheduling and re-settings posts, and generat
   name: Postiz MCP Server
   slug: postiz-mcp-server
-- description: The full Postiz backend surface as published by the provider's own Swagger UI at https://api.postiz.com/docs, machine-readable at /docs-json — 205 operations across auth, integrations, posts, media, b
-  name: Postiz Platform API
-  slug: postiz-platform-api
-artifact_total: 26
+- description: The Admin API from Postiz — 3 operation(s) for admin.
+  name: Postiz Admin API
+  slug: postiz-admin-api
+- description: The Announcements API from Postiz — 2 operation(s) for announcements.
+  name: Postiz Announcements API
+  slug: postiz-announcements-api
+- description: The Approved Apps API from Postiz — 2 operation(s) for approved apps.
+  name: Postiz Approved Apps API
+  slug: postiz-approved-apps-api
+- description: The Auth API from Postiz — 10 operation(s) for auth.
+  name: Postiz Auth API
+  slug: postiz-auth-api
+- description: The Autopost API from Postiz — 4 operation(s) for autopost.
+  name: Postiz Autopost API
+  slug: postiz-autopost-api
+- description: The Billing API from Postiz — 20 operation(s) for billing.
+  name: Postiz Billing API
+  slug: postiz-billing-api
+- description: The Copilot API from Postiz — 5 operation(s) for copilot.
+  name: Postiz Copilot API
+  slug: postiz-copilot-api
+- description: The Enterprise API from Postiz — 3 operation(s) for enterprise.
+  name: Postiz Enterprise API
+  slug: postiz-enterprise-api
+- description: The Media API from Postiz — 13 operation(s) for media.
+  name: Postiz Media API
+  slug: postiz-media-api
+- description: The Monitor API from Postiz — 1 operation(s) for monitor.
+  name: Postiz Monitor API
+  slug: postiz-monitor-api
+- description: The OAuth API from Postiz — 2 operation(s) for oauth.
+  name: Postiz O Auth API
+  slug: postiz-oauth-api
+- description: The OAuth App API from Postiz — 2 operation(s) for oauth app.
+  name: Postiz OAuth App API
+  slug: postiz-oauth-app-api
+- description: The Public API API from Postiz — 22 operation(s) for public api.
+  name: Postiz Public API
+  slug: postiz-public-api-api
+- description: The Public API from Postiz — 6 operation(s) for public.
+  name: Postiz Public API
+  slug: postiz-public-api
+- description: The Root API from Postiz — 1 operation(s) for root.
+  name: Postiz Root API
+  slug: postiz-root-api
+- description: The Sets API from Postiz — 2 operation(s) for sets.
+  name: Postiz Sets API
+  slug: postiz-sets-api
+- description: The Settings API from Postiz — 4 operation(s) for settings.
+  name: Postiz Settings API
+  slug: postiz-settings-api
+- description: The Signatures API from Postiz — 3 operation(s) for signatures.
+  name: Postiz Signatures API
+  slug: postiz-signatures-api
+- description: The Stripe API from Postiz — 1 operation(s) for stripe.
+  name: Postiz Stripe API
+  slug: postiz-stripe-api
+- description: The Third Party API from Postiz — 7 operation(s) for third party.
+  name: Postiz Third Party API
+  slug: postiz-third-party-api
+- description: The User API from Postiz — 15 operation(s) for user.
+  name: Postiz User API
+  slug: postiz-user-api
+- description: Generate videos with AI
+  name: Postiz Video Generation API
+  slug: postiz-video-generation-api
+- description: The Webhooks API from Postiz — 3 operation(s) for webhooks.
+  name: Postiz Webhooks API
+  slug: postiz-webhooks-api
+artifact_total: 47
 asyncapis:
 - description: ''
   name: Postiz Webhooks
@@ -100,6 +163,10 @@ collections:
   name: Postiz Public API
   slug: open-postiz
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/postiz-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -292,13 +359,13 @@ modified: '2026-08-13'
 name: Postiz
 nav: Providers
 network: true
-overview: 'Postiz publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Integrations API, Notifications API, and 4 more. Tagged areas include Social-Media, Scheduling, Open-Source, Content, and Marketing.
+overview: 'Postiz publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Integrations API, Notifications API, and 25 more. Tagged areas include Social-Media, Scheduling, Open-Source, Content, and Marketing.
 
 
   The Postiz catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Postiz''s developer surface includes authentication, documentation, engineering blog, CLI, changelog, sandbox, API reference, and 37 more developer resources.'
+  Postiz''s developer surface includes authentication, documentation, engineering blog, CLI, changelog, sandbox, API reference, and 38 more developer resources.'
 plans:
 - name: Postiz Plans Pricing
   plan_count: 5
@@ -314,19 +381,24 @@ scopes:
   slug: postiz-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 69.4
+  band: strong
+  composite: 64.3
+  coverage:
+    artifact_dirs: 28
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
-    contract_governance: 16.7
-    contract_quality: 60.7
+    contract_governance: 4.5
+    contract_quality: 50.5
     developer_ergonomics: 85.7
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 89.5
-  previous_composite: 69.4
+  previous_composite: 64.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -337,8 +409,8 @@ score:
       total: 6
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/screenshots/postiz-2026-08-17T080412.png
 security:

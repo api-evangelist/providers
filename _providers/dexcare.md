@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,40 +26,107 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.7
-  scored_at: '2026-08-26'
-api_count: 7
+  score: 27.2
+  scored_at: '2026-08-30'
+api_count: 12
 apis:
 - description: RESTful service for accessing business information and performing actions against DexCare-managed healthcare environments. The umbrella reference covering the Patient and Reporting surfaces, which are
   name: DexCare REST API
   slug: dexcare-rest-api
-- description: Create and follow on-demand virtual visits, and read regional virtual-care availability and estimated wait times. Declares two distinct bearer schemes, PatientJWT and StaffJWT, bound to different oper
-  name: DexCare Visit Service API
-  slug: dexcare-visit-service-api
-- description: Aggregated in-person and virtual appointment discovery across a health system, returning available providers and timeslots filtered by location, specialty, visit type and date range. OpenAPI 3.0.3, ve
-  name: DexCare Care Options API
-  slug: dexcare-care-options-api
-- description: Provider- and department-level appointment slot search, addressed by National Provider Identifier, plus the slot-taken and slot-released notifications a health system sends DexCare when its own schedu
-  name: DexCare Slots Availability API
-  slug: dexcare-slots-availability-api
-- description: Books an in-person appointment for a queued guest visit once a timeslot has been selected. OpenAPI 3.0.3, version 1.2.0, 1 operation.
-  name: DexCare Visit Booking API
-  slug: dexcare-visit-booking-api
-- description: 'Natural-language care search across a health system''s clinicians and clinics. Rules-based NLP tokenizes and stems the query, expands clinical synonyms, tolerates spelling errors and infers intent and '
+- description: The assignmentqualifiers API from DexCare — 1 operation(s) for assignmentqualifiers.
+  name: DexCare Assignmentqualifiers API
+  slug: dexcare-assignmentqualifiers-api
+- description: The external API from DexCare — 2 operation(s) for external.
+  name: DexCare External API
+  slug: dexcare-external-api
+- description: The modalities API from DexCare — 1 operation(s) for modalities.
+  name: DexCare Modalities API
+  slug: dexcare-modalities-api
+- description: The OmniAnalytics API from DexCare — 1 operation(s) for omnianalytics.
+  name: DexCare Omni Analytics API
+  slug: dexcare-omnianalytics-api
+- description: The OmniData API from DexCare — 1 operation(s) for omnidata.
+  name: DexCare Omni Data API
+  slug: dexcare-omnidata-api
+- description: The OmniSearch API from DexCare — 1 operation(s) for omnisearch.
   name: DexCare Omni Search API
-  slug: dexcare-omni-search-api
-- description: Schema-driven query and export of the provider, department, location and business-line golden record held in DexCare PDM+. The JSON Schema for any entity type is itself retrievable at runtime, and bat
-  name: DexCare Provider Data Management API
-  slug: dexcare-provider-data-management-api
-artifact_total: 12
+  slug: dexcare-omnisearch-api
+- description: The OmniSearchAnalytics API from DexCare — 1 operation(s) for omnisearchanalytics.
+  name: DexCare Omni Search Analytics API
+  slug: dexcare-omnisearchanalytics-api
+- description: The OmniSearchFacets API from DexCare — 1 operation(s) for omnisearchfacets.
+  name: DexCare Omni Search Facets API
+  slug: dexcare-omnisearchfacets-api
+- description: The OmniSitemap API from DexCare — 1 operation(s) for omnisitemap.
+  name: DexCare Omni Sitemap API
+  slug: dexcare-omnisitemap-api
+- description: The OmniSlugs API from DexCare — 1 operation(s) for omnislugs.
+  name: DexCare Omni Slugs API
+  slug: dexcare-omnislugs-api
+- description: The OmniSynonyms API from DexCare — 1 operation(s) for omnisynonyms.
+  name: DexCare Omni Synonyms API
+  slug: dexcare-omnisynonyms-api
+- description: The Pdm API from DexCare — 2 operation(s) for pdm.
+  name: DexCare Pdm API
+  slug: dexcare-pdm-api
+- description: The Providers API from DexCare — 1 operation(s) for providers.
+  name: DexCare Providers API
+  slug: dexcare-providers-api
+- description: The queued-guest-visit API from DexCare — 1 operation(s) for queued-guest-visit.
+  name: DexCare Queued Guest Visit API
+  slug: dexcare-queued-guest-visit-api
+- description: The Slots API from DexCare — 3 operation(s) for slots.
+  name: DexCare Slots API
+  slug: dexcare-slots-api
+- description: The tokbox API from DexCare — 1 operation(s) for tokbox.
+  name: DexCare Tokbox API
+  slug: dexcare-tokbox-api
+- description: The virtual-visits API from DexCare — 1 operation(s) for virtual-visits.
+  name: DexCare Virtual Visits API
+  slug: dexcare-virtual-visits-api
+- description: The visits API from DexCare — 3 operation(s) for visits.
+  name: DexCare Visits API
+  slug: dexcare-visits-api
+- description: The waittimes API from DexCare — 2 operation(s) for waittimes.
+  name: DexCare Waittimes API
+  slug: dexcare-waittimes-api
+artifact_total: 25
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dexcare-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dexcare-visit-service-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dexcare-care-options-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dexcare-slots-availability-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dexcare-visit-booking-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dexcare-omni-search-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/dexcare-provider-data-management-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -185,10 +252,10 @@ modified: '2026-08-15'
 name: DexCare
 nav: Providers
 network: true
-overview: 'DexCare publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Visit Service API, Care Options API, Slots Availability API, and 3 more. Tagged areas include Company, Healthcare, Health IT, Patient Access, and Scheduling.
+overview: 'DexCare publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Assignmentqualifiers API, External API, Modalities API, and 16 more. Tagged areas include Company, Healthcare, Health IT, Patient Access, and Scheduling.
 
 
-  DexCare''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
+  DexCare''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 28 more developer resources.'
 plans:
 - name: Dexcare Plans Pricing
   plan_count: 0
@@ -200,18 +267,23 @@ rate_limits:
   slug: dexcare-rate-limits
 score:
   band: developing
-  composite: 52.1
+  composite: 50.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 30.3
-    contract_quality: 54.7
+    contract_governance: 18.2
+    contract_quality: 54.9
     developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 52.1
+  previous_composite: 50.7
   provenance:
     conformance: first-party
     contracts:
@@ -223,12 +295,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/screenshots/dexcare-2026-07-25T211834.png
 security:

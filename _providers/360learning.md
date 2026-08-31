@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 104
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 164
   slug: 360learning-agentic-access
   summary_line: 164 operations · 104 acting · 104 human-in-the-loop
-api_count: 17
+api_count: 5
 apis:
 - description: The Authentication API from 360Learning — 3 operation(s) for authentication.
   name: 360Learning Authentication API
@@ -94,7 +94,25 @@ apis:
 - description: The Users API from 360Learning — 17 operation(s) for users.
   name: 360Learning Users API
   slug: 360learning-users-api
-artifact_total: 42
+- description: The Bulk API from 360Learning — 0 operation(s) for bulk.
+  name: 360Learning Bulk API
+  slug: 360learning-bulk-api
+- description: The Course API from 360Learning — 0 operation(s) for course.
+  name: 360Learning Course API
+  slug: 360learning-course-api
+- description: The Group API from 360Learning — 0 operation(s) for group.
+  name: 360Learning Group API
+  slug: 360learning-group-api
+- description: The Path API from 360Learning — 0 operation(s) for path.
+  name: 360Learning Path API
+  slug: 360learning-path-api
+- description: The User API from 360Learning — 0 operation(s) for user.
+  name: 360Learning User API
+  slug: 360learning-user-api
+- description: The Xapi API from 360Learning — 0 operation(s) for xapi.
+  name: 360Learning Xapi API
+  slug: 360learning-xapi-api
+artifact_total: 48
 asyncapis:
 - description: ''
   name: 360Learning Webhooks
@@ -155,6 +173,10 @@ collections:
   name: Bulk Authentication Users API
   slug: open-360learning-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/360learning-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -299,13 +321,13 @@ modified: '2026-07-17'
 name: 360Learning
 nav: Providers
 network: true
-overview: '360Learning publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Certificate Outlines API, Classrooms API, and 14 more. Tagged areas include Company, EdTech, Learning Management System, E-Learning, and Training.
+overview: '360Learning publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Certificate Outlines API, Classrooms API, and 20 more. Tagged areas include Company, Edtech, Learning Management System, E-Learning, and Training.
 
 
   The 360Learning catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  360Learning''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 26 more developer resources.'
+  360Learning''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 27 more developer resources.'
 random_paper: 14
 scopes:
 - name: 360Learning Scopes
@@ -313,19 +335,24 @@ scopes:
   slug: 360learning-scopes
   summary_line: 45 scopes
 score:
-  band: strong
-  composite: 54.7
+  band: developing
+  composite: 51.8
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 30.3
-    contract_quality: 66.4
+    contract_governance: 18.2
+    contract_quality: 60.5
     developer_ergonomics: 39.9
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 54.7
+  previous_composite: 51.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -338,12 +365,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 66.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/screenshots/360learning-2026-07-25T181148.png
 security:
@@ -362,7 +393,7 @@ security:
 slug: 360learning
 tags:
 - Company
-- EdTech
+- Edtech
 - Learning Management System
 - E-Learning
 - Training

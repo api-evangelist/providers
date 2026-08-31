@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 11
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 595
   slug: zendesk-agentic-access
   summary_line: 595 operations · 294 acting · 11 human-in-the-loop
-api_count: 150
+api_count: 76
 apis:
 - description: The Zendesk Help Center Articles API lets you programmatically manage knowledge base articles in your Help Center. You can create, read, update, and delete articles, manage their translations, set use
   name: Zendesk Help Center Articles API
@@ -1030,6 +1030,10 @@ collections:
   name: Zendesk Account Account Settings X Channel API
   slug: open-zendesk-x-channel-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/zendesk-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1492,7 +1496,7 @@ overview: 'Zendesk publishes 81 APIs on the [APIs.io](https://apis.io/) network,
   The Zendesk catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Zendesk''s developer surface includes authentication, changelog, CLI, engineering blog, pricing, signup flow, training material, and 59 more developer resources.'
+  Zendesk''s developer surface includes authentication, changelog, CLI, engineering blog, pricing, signup flow, training material, and 60 more developer resources.'
 plans:
 - name: Zendesk Plans Pricing
   plan_count: 7
@@ -1542,18 +1546,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 58.1
+  composite: 56.6
+  coverage:
+    artifact_dirs: 36
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 57.3
     developer_ergonomics: 61.9
     discoverability: 68.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 55.3
-  previous_composite: 58.1
+  previous_composite: 56.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -1563,8 +1572,8 @@ score:
       marker_coverage: 0.0
       total: 80
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendesk/refs/heads/main/screenshots/zendesk-2026-06-20T165936.png
 security:

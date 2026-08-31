@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 28
   slug: adobe-captivate-agentic-access
   summary_line: 28 operations · 4 acting
-api_count: 16
+api_count: 1
 apis:
 - description: API for SCORM-compliant content delivery and tracking.
   name: Adobe Captivate SCORM API
@@ -163,6 +163,10 @@ collections:
   name: Adobe Captivate Prime API (Learning Manager) Account Users API
   slug: open-adobe-captivate-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/adobe-captivate-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -861,13 +865,13 @@ modified: '2026-04-19'
 name: Adobe Captivate
 nav: Providers
 network: true
-overview: 'Adobe Captivate publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Adobe Learning Manager Webhooks API, Account API, Badges API, and 10 more. Tagged areas include Authoring, Education, E-Learning, LMS, and SCORM.
+overview: 'Adobe Captivate publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Adobe Learning Manager Webhooks API, Account API, Badges API, and 10 more. Tagged areas include Authoring, Education, eLearning, LMS, and SCORM.
 
 
   The Adobe Captivate catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Adobe Captivate''s developer surface includes authentication, support, engineering blog, developer portal, getting-started guide, documentation, developer console, and 28 more developer resources.'
+  Adobe Captivate''s developer surface includes authentication, support, engineering blog, developer portal, getting-started guide, documentation, developer console, and 29 more developer resources.'
 plans:
 - name: Adobe Captivate Plans Pricing
   plan_count: 2
@@ -916,15 +920,20 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 54.9
-  delta: 0.0
+  composite: 54.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 28.8
     contract_quality: 81.5
     developer_ergonomics: 45.2
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 28.8
     operational_transparency: 7.9
   previous_composite: 54.9
@@ -941,8 +950,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 75.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-captivate/refs/heads/main/screenshots/adobe-captivate-2026-06-20T164834.png
 security:
@@ -962,7 +971,7 @@ slug: adobe-captivate
 tags:
 - Authoring
 - Education
-- E-Learning
+- eLearning
 - LMS
 - SCORM
 - Training

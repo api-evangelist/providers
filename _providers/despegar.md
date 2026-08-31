@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-26'
-api_count: 20
+  scored_at: '2026-08-30'
+api_count: 6
 apis:
 - description: The Availability API from Despegar — 2 operation(s) for availability.
   name: Despegar Availability API
@@ -273,7 +273,12 @@ overview: 'Despegar publishes 20 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 3
 score:
   band: thin
-  composite: 32.4
+  composite: 31.3
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -281,10 +286,10 @@ score:
     contract_governance: 4.5
     contract_quality: 50.8
     developer_ergonomics: 44.6
-    discoverability: 92.6
+    discoverability: 81.5
     governance: 4.5
     operational_transparency: 7.9
-  previous_composite: 32.4
+  previous_composite: 31.3
   provenance:
     conformance: derived
     contracts:
@@ -294,8 +299,8 @@ score:
       total: 20
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/despegar/refs/heads/main/screenshots/despegar-2026-07-25T211758.png
 security:

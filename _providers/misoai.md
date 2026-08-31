@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-26'
-api_count: 10
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: 'Miso''s new Ask API is the next generation of question answering APIs. It is designed to provide accurate and concise answers to your questions based on your existing product documents. Ask API offers '
   name: miso.ai Ask APIs API
@@ -102,6 +102,10 @@ collections:
   name: Miso Ask APIs User Recommendations API
   slug: open-misoai-user-recommendations-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/misoai-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -233,22 +237,27 @@ network: true
 overview: 'miso.ai publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ask APIs API, Bulk API API, Experiment APIs API, and 7 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Search, and Recommendations.
 
 
-  miso.ai''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, pricing, signup flow, and 22 more developer resources.'
+  miso.ai''s developer surface includes documentation, API reference, getting-started guide, quickstart, authentication, pricing, signup flow, and 23 more developer resources.'
 random_paper: 12
 score:
   band: thin
-  composite: 38.6
-  delta: 0.0
+  composite: 36.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 53.0
     developer_ergonomics: 63.7
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 38.6
+  previous_composite: 37.1
   provenance:
     conformance: derived
     contracts:
@@ -258,8 +267,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/screenshots/misoai-2026-08-07T183747.png
 security:

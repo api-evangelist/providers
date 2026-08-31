@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.8
-  scored_at: '2026-08-26'
+  score: 33.3
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 7
@@ -31,17 +31,27 @@ agentic_access:
   operation_count: 8
   slug: frayt-agentic-access
   summary_line: 8 operations · 7 acting · 7 human-in-the-loop
-api_count: 1
+api_count: 4
 apis:
-- description: 'REST API (v2.2) for FRAYT''s on-demand and scheduled delivery marketplace. Price a delivery with the match-estimate endpoints, authorize an estimate into a Match, retrieve and update a Match, update a '
-  name: FRAYT Client API
-  slug: frayt-client-api
-artifact_total: 7
+- description: The match estimates API from FRAYT — 2 operation(s) for match estimates.
+  name: FRAYT match estimates API
+  slug: frayt-match-estimates-api
+- description: The matches API from FRAYT — 3 operation(s) for matches.
+  name: FRAYT Matches API
+  slug: frayt-matches-api
+- description: The oauth API from FRAYT — 1 operation(s) for oauth.
+  name: FRAYT OAUTH API
+  slug: frayt-oauth-api
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Frayt Match Webhooks
   slug: frayt-match-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/frayt-matches-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -118,13 +128,13 @@ modified: '2026-08-16'
 name: FRAYT
 nav: Providers
 network: true
-overview: 'FRAYT publishes 1 API on the [APIs.io](https://apis.io/) network: Client API. Tagged areas include Company, Last Mile Delivery, Logistics, Couriers, and On-Demand Delivery.
+overview: 'FRAYT publishes 3 APIs on the [APIs.io](https://apis.io/) network: match estimates API, Matches API, and OAUTH API. Tagged areas include Company, Last Mile Delivery, Logistics, Courier, and On Demand Delivery.
 
 
   The FRAYT catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  FRAYT''s developer surface includes engineering blog, support, signup flow, and 14 more developer resources.'
+  FRAYT''s developer surface includes engineering blog, support, signup flow, and 15 more developer resources.'
 plans:
 - name: Frayt Plans Pricing
   plan_count: 0
@@ -136,18 +146,23 @@ rate_limits:
   slug: frayt-rate-limits
 score:
   band: developing
-  composite: 44.9
-  delta: 12.4
+  composite: 43.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 66.1
+    contract_governance: 4.5
+    contract_quality: 64.2
     developer_ergonomics: 66.1
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 32.5
+  previous_composite: 43.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -158,9 +173,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Frayt Authentication
@@ -175,8 +190,8 @@ tags:
 - Company
 - Last Mile Delivery
 - Logistics
-- Couriers
-- On-Demand Delivery
+- Courier
+- On Demand Delivery
 - Shipping
 - Freight
 - Supply Chain

@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: documented
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.2
-  scored_at: '2026-08-26'
+  score: 39.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 14
   slug: plunk-agentic-access
   summary_line: 14 operations · 11 acting
-api_count: 5
+api_count: 2
 apis:
-- description: Plunk's own published OpenAPI 3.1.0, served at https://docs.useplunk.com/openapi.json and declaring https://next-api.useplunk.com as the production base URL. Covers the public API (transactional send,
-  name: Plunk API
-  slug: plunk-api
 - description: Create and send marketing campaigns.
   name: Plunk Campaigns API
   slug: plunk-campaigns-api
@@ -59,7 +56,16 @@ apis:
 - description: Send transactional email.
   name: Plunk Transactional API
   slug: plunk-transactional-api
-artifact_total: 18
+- description: Public API endpoints for sending emails and tracking events
+  name: Plunk Public API
+  slug: plunk-public-api-api
+- description: Audience segmentation
+  name: Plunk Segments API
+  slug: plunk-segments-api
+- description: Email template management
+  name: Plunk Templates API
+  slug: plunk-templates-api
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Plunk Webhooks
@@ -236,7 +242,7 @@ modified: '2026-08-13'
 name: Plunk
 nav: Providers
 network: true
-overview: 'Plunk publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Contacts API, and 3 more. Tagged areas include Email, Transactional Email, Marketing, Automation, and Open-Source.
+overview: 'Plunk publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Contacts API, Events API, and 4 more. Tagged areas include Email, Transactional Email, Marketing, Automation, and Open-Source.
 
 
   The Plunk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -254,18 +260,23 @@ rate_limits:
   slug: plunk-rate-limits
 score:
   band: exemplar
-  composite: 71.5
-  delta: 0.9
+  composite: 69.0
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 30.3
-    contract_quality: 72.2
+    contract_governance: 18.2
+    contract_quality: 70.2
     developer_ergonomics: 68.5
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 70.6
+  previous_composite: 69.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -276,8 +287,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/screenshots/plunk-2026-06-20T191814.png
 security:

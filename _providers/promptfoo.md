@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
 - description: The Promptfoo CLI is the primary entry point for running prompt and model evaluations from the command line or CI. It is installable via npm, Homebrew, pip, or npx and reads a YAML configuration to fa
@@ -56,6 +56,22 @@ apis:
   slug: promptfoo-code-scanning
 artifact_total: 33
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/promptfoo/promptfoo/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/promptfoo/promptfoo/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/promptfoo/promptfoo/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/promptfoo/promptfoo/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: TrustCenter
@@ -215,7 +231,7 @@ network: true
 overview: 'Promptfoo publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include LLM Evaluation, Red Teaming, AI Security, Guardrails, and Open-Source.
 
 
-  Promptfoo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, developer portal, tooling, and 20 more developer resources.'
+  Promptfoo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, developer portal, tooling, and 24 more developer resources.'
 plans:
 - name: Promptfoo Plans Pricing
   plan_count: 1
@@ -226,8 +242,13 @@ rate_limits:
   name: Promptfoo Rate Limits
   slug: promptfoo-rate-limits
 score:
-  band: thin
-  composite: 34.6
+  band: developing
+  composite: 42.3
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 53.9
@@ -237,10 +258,13 @@ score:
     developer_ergonomics: 52.4
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 39.5
-  previous_composite: 34.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 50.0
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 42.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/promptfoo/refs/heads/main/screenshots/promptfoo-2026-06-20T192156.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 34
   slug: amazon-iot-twinmaker-agentic-access
   summary_line: 34 operations · 28 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The Pricingplan API from Amazon IoT TwinMaker — 1 operation(s) for pricingplan.
   name: Amazon IoT TwinMaker Pricingplan API
@@ -1919,19 +1919,24 @@ rules:
     warn: 10
   slug: amazon-iot-twinmaker-spectral-rules
 score:
-  band: strong
-  composite: 54.4
-  delta: 4.5
+  band: developing
+  composite: 53.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 28.8
     contract_quality: 65.1
     developer_ergonomics: 61.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 49.9
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     contracts:
@@ -1939,8 +1944,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-twinmaker/refs/heads/main/screenshots/amazon-iot-twinmaker-2026-06-20T171712.png
 security:

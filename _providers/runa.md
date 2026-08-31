@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: runa-agentic-access
   summary_line: 10 operations · 2 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Retrieve account balance by currency.
   name: Runa Balance API
@@ -217,18 +217,23 @@ rules:
   slug: runa-spectral-rules
 score:
   band: developing
-  composite: 44.3
-  delta: 1.9
+  composite: 43.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 13.6
     contract_quality: 67.2
     developer_ergonomics: 45.2
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 13.6
     operational_transparency: 7.9
-  previous_composite: 42.4
+  previous_composite: 44.3
   provenance:
     agentic_access: derived
     contracts:
@@ -242,8 +247,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runa/refs/heads/main/screenshots/runa-2026-06-20T193249.png
 security:

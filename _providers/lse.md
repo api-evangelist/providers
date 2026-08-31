@@ -33,15 +33,12 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-26'
-api_count: 7
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: LSE operates its own SAML2 Shibboleth identity provider for staff, students and library resource access, registered in the UK Access Management Federation under entityID https://lse.ac.uk/idp with the
   name: LSE Shibboleth Identity Provider (UK Access Management Federation)
   slug: identity-federation
-- description: LSE runs its own Moodle virtual learning environment at moodle.lse.ac.uk on its own registrable domain, resolving directly to AWS with no vendor CNAME (managed hosting is provided by Catalyst IT, a Mo
-  name: LSE Moodle LTI 1.3 Platform
-  slug: moodle-lti-platform
 - description: LSE Research Online is LSE's institutional repository — LSE's research outputs, LSE's metadata, LSE's registered OAI-PMH base URL and admin contact (lseresearchonline@lse.ac.uk). It is not LSE's engin
   name: LSE Research Online (EPrints, OAI-PMH)
   slug: research-online-oai
@@ -57,6 +54,9 @@ apis:
 - description: LSE is a registered DataCite provider — member identifier lcqr, "London School of Economics", memberType consortium_organization, region EMEA, registered 2020-09-01, linked to ROR https://ror.org/0090
   name: LSE DOI Registration (DataCite)
   slug: datacite-doi
+- description: IMS Global Learning Tools Interoperability 1.3 / LTI Advantage platform endpoints.
+  name: London School of Economics and Political Science LTI API
+  slug: lse-lti-api
 artifact_total: 15
 common:
 - group: company
@@ -147,10 +147,6 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/lse-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: '2026-06-03'
 description: 'The London School of Economics and Political Science (LSE) is a public research university in London, United Kingdom, a member of the Russell Group and the University of London, ranked in the QS World University Rankings top 40 and specialised in the social sciences. LSE operates no public developer portal, no open data portal, no course-catalog or timetable API, and no official GitHub organisation — github.com/lse is an unrelated systems-programming lab. Re-profiled on 2026-08-19 against the operator axis, its genuinely institution-operated machine-readable footprint is two things: a SAML2 Shibboleth identity provider registered in the UK Access Management Federation under entityID https://lse.ac.uk/idp, and an IMS LTI 1.3 platform on its own Moodle VLE serving a live JWKS, OAuth 2.0 token endpoint and OIDC authorization endpoint. Everything else that appears to be an LSE API is a vendor contract running under an LSE tenancy — EPrints Services hosts the research repository,
   Ex Libris Primo VE the library discovery layer, Quartex the digital library, Epexio the archive catalogue, and DataCite the DOI registration. Those tenancies are real institutional facts and are recorded as such; the contracts behind them belong to the vendors, not to LSE.'
@@ -177,13 +173,13 @@ modified: '2026-08-19'
 name: London School of Economics and Political Science
 nav: Providers
 network: true
-overview: 'London School of Economics and Political Science publishes 1 API on the [APIs.io](https://apis.io/) network: LSE Moodle LTI 1.3 Platform. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
+overview: 'London School of Economics and Political Science publishes 1 API on the [APIs.io](https://apis.io/) network: LTI API. Tagged areas include University, Higher Education, Education, United Kingdom, and Russell Group.
 
 
   The London School of Economics and Political Science catalog on APIs.io includes 1 JSON-LD context.
 
 
-  London School of Economics and Political Science''s developer surface includes authentication, engineering blog, and 21 more developer resources.'
+  London School of Economics and Political Science''s developer surface includes authentication, engineering blog, and 20 more developer resources.'
 plans:
 - name: Lse Plans Pricing
   plan_count: 2
@@ -195,18 +191,23 @@ rate_limits:
   slug: lse-rate-limits
 score:
   band: thin
-  composite: 36.0
-  delta: 2.5
+  composite: 35.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 37.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 15.2
     contract_quality: 26.9
     developer_ergonomics: 22.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 15.2
     operational_transparency: 21.1
-  previous_composite: 33.5
+  previous_composite: 36.0
   provenance:
     conformance: first-party
     contracts:
@@ -220,8 +221,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lse/refs/heads/main/screenshots/lse-2026-06-20T184742.png
 security:

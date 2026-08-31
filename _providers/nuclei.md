@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 273
   slug: nuclei-agentic-access
   summary_line: 273 operations · 126 acting · 4 human-in-the-loop
-api_count: 36
+api_count: 1
 apis:
 - description: Nuclei is an open source vulnerability scanner from ProjectDiscovery that uses YAML-based templates to find security issues in APIs, web apps, and infrastructure.
   name: Nuclei
@@ -266,6 +266,10 @@ collections:
   name: PDCP API
   slug: open-nuclei
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nuclei-capability-edges.yml
 - group: build
   title: ''
   type: CodeOfConduct
@@ -345,7 +349,7 @@ network: true
 overview: 'Nuclei publishes 35 APIs on the [APIs.io](https://apis.io/) network, including agents API, Asset API, assets API, and 32 more. Tagged areas include Security Testing, Testing, Vulnerability Scanner, DAST, and Open-Source.
 
 
-  Nuclei''s developer surface includes authentication, documentation, engineering blog, and 13 more developer resources.'
+  Nuclei''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
 plans:
 - name: Nuclei Plans Pricing
   plan_count: 3
@@ -357,18 +361,26 @@ rate_limits:
   slug: nuclei-rate-limits
 score:
   band: thin
-  composite: 33.9
-  delta: 1.9
+  composite: 36.5
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 2.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 53.0
     developer_ergonomics: 40.5
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 32.0
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 33.9
   provenance:
     agentic_access: derived
     contracts:
@@ -376,8 +388,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/screenshots/nuclei-2026-06-20T190508.png
 security:

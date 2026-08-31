@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -31,89 +31,89 @@ agentic_access:
   operation_count: 27
   slug: done-agentic-access
   summary_line: 27 operations · 27 acting · 1 human-in-the-loop
-api_count: 27
+api_count: 52
 apis:
 - description: Single-page agent-native catalog of the 26 _done pay-per-call utility APIs. Publishes a real llms.txt, a robots.txt, a sitemap.xml and an x402 resource manifest at /.well-known/x402.json listing every
   name: _done Catalog
   slug: done-catalog
-- description: Look up the network operator, country, and address block behind any IP address or ASN number. Given an internet address (IP) or a network identification number (ASN), this tool returns who operates th
-  name: ASN Lookup
-  slug: asn-lookup
-- description: 'Checks whether a website''s email branding setup is correct so its logo shows up in inboxes. Checks one or more website addresses to see if they are properly set up to show a brand logo next to emails '
-  name: BIMI Checker
-  slug: bimi-checker
-- description: Send a URL and origin, get back exactly which cross-origin permissions that server grants. Sends a real request to any URL you provide, attaches an Origin header, and reads back all six standard cross
-  name: CORS Header Checker
-  slug: cors-header-checker
-- description: Returns the latest, a specific month's, or a historical range of official US inflation (CPI) figures from BLS . Gives you official United States inflation numbers from the government's BLS Consumer Pr
-  name: US CPI Data & Inflation Report
-  slug: us-cpi-data-inflation-report
-- description: Make a real HTTP request from the cloud and get back the status code, headers, and body instantly. Send an HTTP request to any URL from our servers and receive the full response — including the status
-  name: Curl HTTP Request
-  slug: curl-http-request
-- description: Places an order to have a website submitted to twenty directories, returning a confirmation number to track it. Places an order to have a website submitted to twenty directories that publish a link ba
-  name: Directory Submission Lite
-  slug: directory-submission-lite
-- description: 'Check email security (DMARC) configuration for one or many domains in a single request. Give this tool a list of domain names and it will instantly check each one''s DMARC email security record. DMARC '
-  name: Bulk DMARC Record Lookup
-  slug: bulk-dmarc-record-lookup
-- description: Look up all 13 DNS record types plus full WHOIS registration data for up to 10 domains in one call. Send up to 10 domain names and get back every DNS record type (A, AAAA, MX, CNAME, TXT, NS, PTR, SOA
-  name: DNS & WHOIS Lookup
-  slug: dns-whois-lookup
-- description: Give it a list of domains and get back registration date, expiration date, age, and time remaining — instantly. Send a list of domain names and this tool tells you exactly how old each one is, when it
-  name: Domain Age Checker
-  slug: domain-age-checker
-- description: Check whether 1–10 domain names have an active registration record using the official RDAP protocol. Give this API up to 10 domain names and it will tell you whether each one has a registration record
-  name: Domain Availability Checker
-  slug: domain-availability-checker
-- description: Resolve an ENS name to an Ethereum address, or an address back to its ENS name. Look up an ENS name or an Ethereum address and get back the matching one, automatically figuring out which direction you
-  name: ENS Resolver
-  slug: ens-resolver
-- description: Fetch Hacker News stories by category, or scan all stories/jobs/polls from a specific date, with optional nested comments. This tool reads live information from Hacker News, a popular website where pe
-  name: Hacker News Data
-  slug: hacker-news-data
-- description: Compute cryptographic hashes, HMAC signatures, and checksums — and verify webhook signatures with constant-time comparison. Give this API any text or binary data and it instantly returns its fingerpri
-  name: Hashing, HMAC & Checksum Suite
-  slug: hashing-hmac-checksum-suite
-- description: 'Fetches any web address and returns its response headers, status code, and redirect path. Sends a request to a web address you provide and reports back everything the server said in response: the stat'
-  name: HTTP Header Checker
-  slug: http-header-checker
-- description: Check the live status of up to 10 URLs at once and detect redirects instantly. Give this API a list of up to 10 web addresses and it will visit each one to tell you whether it is working, broken, or r
-  name: HTTP Status Code Checker
-  slug: http-status-code-checker
-- description: One endpoint to validate, repair, format, query, diff, convert, and canonicalize JSON — the most common operation in every agent workflow. Every AI agent and developer runs into broken or confusing JS
-  name: JSON Validate, Repair, Convert, Query & Diff
-  slug: json-validate-repair-convert-query-diff
-- description: 'Converts regular text into leetspeak or decodes leetspeak back into normal readable text. Takes a piece of text and either turns it into leetspeak (swapping some letters for numbers and symbols, like '
-  name: Leetspeak Translator
-  slug: leetspeak-translator
-- description: Get the exact monthly payment and full period-by-period breakdown for any fixed-rate loan — results an AI model cannot reliably compute on its own. Give this API a loan amount, an interest rate, and a
-  name: Mortgage & Loan Amortization Calculator
-  slug: mortgage-loan-amortization-calculator
-- description: Extract text from any image using Tesseract OCR. Send a picture, either as a public web address or as base64-encoded image data, and get back the plain text found inside it. Pay-per-call at $0.01 USDC
-  name: OCR Text Extractor
-  slug: ocr-text-extractor
-- description: 'Send a host and port range, get back a clean list of which ports are open and what services are running on them. Give this API a hostname or IP address and it will try connecting to each port in your '
-  name: TCP Port Scanner
-  slug: tcp-port-scanner
-- description: Turn a list of text, URLs, or any strings into QR code images instantly — one call, many codes. Send a list of texts — website addresses, phone numbers, plain words, WiFi details, anything — and get b
-  name: Bulk QR Code Generator
-  slug: bulk-qr-code-generator
-- description: Capture a screenshot of a fully rendered webpage, including JavaScript-heavy pages. Renders a webpage exactly as a real browser would, including all its scripts and dynamic content, then takes a pictu
-  name: Screenshots
-  slug: screenshots
-- description: 'Fetch a webpage and instantly extract all key SEO fields: title, meta tags, headings, canonical URL, and more. Give this API a web address and it will visit that page, then hand back everything an SEO'
-  name: SEO Data Extractor
-  slug: seo-data-extractor
-- description: Check exactly where your Shopify product ranks when AI shopping assistants like ChatGPT and Gemini search for it. Checks how well a Shopify store's products show up when AI shopping assistants such as
-  name: Shopify AI Rank Checker
-  slug: shopify-ai-rank-checker
-- description: Give it a sitemap.xml link and get back every URL listed in it — including nested sub-sitemaps — with metadata like last modified date and change frequency. Give this API a link to any website's sitem
-  name: Sitemap URL Extractor
-  slug: sitemap-url-extractor
-- description: Checks whether a website or web address is currently reachable and reports how fast it responded. Pay-per-call at $0.01 USDC over x402 on Base or Solana — no account, no API key. OpenAPI 3.1.0; 1 oper
-  name: URL Uptime Checker
-  slug: url-uptime-checker
+- description: The asn lookup API from _done — 1 operation(s) for asn lookup.
+  name: _done asn lookup API
+  slug: done-asn-lookup-api
+- description: The cors headers API from _done — 1 operation(s) for cors headers.
+  name: _done cors headers API
+  slug: done-cors-headers-api
+- description: The data API from _done — 1 operation(s) for data.
+  name: _done Data API
+  slug: done-data-api
+- description: The directory submission API from _done — 2 operation(s) for directory submission.
+  name: _done directory submission API
+  slug: done-directory-submission-api
+- description: The dmarc API from _done — 1 operation(s) for dmarc.
+  name: _done Dmarc API
+  slug: done-dmarc-api
+- description: The dns lookup API from _done — 1 operation(s) for dns lookup.
+  name: _done dns lookup API
+  slug: done-dns-lookup-api
+- description: The domain age API from _done — 1 operation(s) for domain age.
+  name: _done domain age API
+  slug: done-domain-age-api
+- description: The domain availability API from _done — 1 operation(s) for domain availability.
+  name: _done domain availability API
+  slug: done-domain-availability-api
+- description: The ens API from _done — 1 operation(s) for ens.
+  name: _done Ens API
+  slug: done-ens-api
+- description: The hacker news API from _done — 1 operation(s) for hacker news.
+  name: _done hacker news API
+  slug: done-hacker-news-api
+- description: The http headers API from _done — 1 operation(s) for http headers.
+  name: _done http headers API
+  slug: done-http-headers-api
+- description: The http request API from _done — 1 operation(s) for http request.
+  name: _done http request API
+  slug: done-http-request-api
+- description: The http status code API from _done — 1 operation(s) for http status code.
+  name: _done http status code API
+  slug: done-http-status-code-api
+- description: The json API from _done — 1 operation(s) for json.
+  name: _done JSON API
+  slug: done-json-api
+- description: The leetspeak API from _done — 1 operation(s) for leetspeak.
+  name: _done Leetspeak API
+  slug: done-leetspeak-api
+- description: The mortgage calculator API from _done — 1 operation(s) for mortgage calculator.
+  name: _done mortgage calculator API
+  slug: done-mortgage-calculator-api
+- description: The ocr API from _done — 1 operation(s) for ocr.
+  name: _done Ocr API
+  slug: done-ocr-api
+- description: The port scanner API from _done — 1 operation(s) for port scanner.
+  name: _done port scanner API
+  slug: done-port-scanner-api
+- description: The qr code API from _done — 1 operation(s) for qr code.
+  name: _done qr code API
+  slug: done-qr-code-api
+- description: The seo API from _done — 1 operation(s) for seo.
+  name: _done Seo API
+  slug: done-seo-api
+- description: The sha256 hash API from _done — 1 operation(s) for sha256 hash.
+  name: _done sha256 hash API
+  slug: done-sha256-hash-api
+- description: The shopify rank API from _done — 1 operation(s) for shopify rank.
+  name: _done shopify rank API
+  slug: done-shopify-rank-api
+- description: The sitemap API from _done — 1 operation(s) for sitemap.
+  name: _done Sitemap API
+  slug: done-sitemap-api
+- description: The Validation API from _done — 1 operation(s) for validation.
+  name: _done Validation API
+  slug: done-validation-api
+- description: The website screenshot API from _done — 1 operation(s) for website screenshot.
+  name: _done website screenshot API
+  slug: done-website-screenshot-api
+- description: The website uptime API from _done — 1 operation(s) for website uptime.
+  name: _done website uptime API
+  slug: done-website-uptime-api
 artifact_total: 59
 collections:
 - collection_type: open
@@ -195,6 +195,114 @@ collections:
   name: URL Uptime Checker
   slug: open-done-url-uptime-checker
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/done-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-asn-lookup-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-bimi-checker-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-cors-header-checker-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-cpi-report-us-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-curl-http-request-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-directory-submission-lite-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-dmarc-lookup-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-dns-whois-lookup-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-domain-age-checker-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-domain-availability-checker-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-ens-resolver-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-hackernews-data-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-hash-hmac-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-http-header-checker-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-http-status-checker-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-json-suite-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-leetspeak-translator-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-mortgage-amortization-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-ocr-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-port-scanner-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-qr-code-generator-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-screenshots-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-seo-data-extractor-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-shopify-ai-rank-checker-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-sitemap-url-extractor-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/done-url-uptime-checker-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -295,10 +403,10 @@ modified: '2026-08-11'
 name: _done
 nav: Providers
 network: true
-overview: '_done publishes 26 APIs on the [APIs.io](https://apis.io/) network, including ASN Lookup, BIMI Checker, CORS Header Checker, and 23 more. Tagged areas include Developer Tools, Utility APIs, AI Agents, agent-native, and x402.
+overview: '_done publishes 26 APIs on the [APIs.io](https://apis.io/) network, including asn lookup API, cors headers API, Data API, and 23 more. Tagged areas include Developer Tools, utility-apis, AI Agents, agent-native, and x402.
 
 
-  _done''s developer surface includes documentation, API reference, support, authentication, code examples, pricing, and 16 more developer resources.'
+  _done''s developer surface includes documentation, API reference, support, authentication, code examples, pricing, and 43 more developer resources.'
 plans:
 - name: Done Plans Pricing
   plan_count: 1
@@ -309,19 +417,24 @@ rate_limits:
   name: Done Rate Limits
   slug: done-rate-limits
 score:
-  band: developing
-  composite: 41.0
-  delta: 0.0
+  band: thin
+  composite: 38.4
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.0
   facets:
-    access_clarity: 31.6
-    commercial_clarity: 31.6
-    contract_governance: 16.7
-    contract_quality: 61.0
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 4.5
+    contract_quality: 60.7
     developer_ergonomics: 44.6
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 41.0
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -338,8 +451,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -353,17 +466,17 @@ security:
 slug: done
 tags:
 - Developer Tools
-- Utility APIs
+- utility-apis
 - AI Agents
 - agent-native
 - x402
 - pay-per-call
 - Web3
-- Crypto Payments
-- DNS
+- crypto-payments
+- dns
 - Domains
-- Email Security
-- Network Security
+- email-security
+- network-security
 - SEO
 - OCR
 - Data

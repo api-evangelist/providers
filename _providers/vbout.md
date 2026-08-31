@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 37
   slug: vbout-agentic-access
   summary_line: 37 operations · 20 acting
-api_count: 15
+api_count: 2
 apis:
 - description: The Account API from VBOUT — 2 operation(s) for account.
   name: VBOUT Account API
@@ -143,6 +143,10 @@ collections:
   name: VBOUT EmailMarketing Users & Workflow API
   slug: open-vbout-users-workflow-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vbout-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -309,7 +313,7 @@ overview: 'VBOUT publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
   The VBOUT catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  VBOUT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, YouTube channel, and 30 more developer resources.'
+  VBOUT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, YouTube channel, and 31 more developer resources.'
 plans:
 - name: Vbout Plans Pricing
   plan_count: 4
@@ -321,18 +325,23 @@ rate_limits:
   slug: vbout-rate-limits
 score:
   band: strong
-  composite: 57.7
-  delta: 0.0
+  composite: 55.7
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 54.1
     developer_ergonomics: 73.2
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 57.7
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -343,8 +352,8 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vbout/refs/heads/main/screenshots/vbout-2026-08-17T082712.png
 security:

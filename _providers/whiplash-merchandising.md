@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-08-26'
-api_count: 21
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Bundle Items are components that make up a bundle, defining the quantity and relationship of items within product bundles.
   name: Whiplash Merchandising bundle_items API
@@ -173,6 +173,14 @@ collections:
   name: Rydership bundle_items wholesale_items API
   slug: open-whiplash-merchandising-wholesale-items-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/ryder-system/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/whiplash-merchandising-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -299,22 +307,27 @@ overview: 'Whiplash Merchandising publishes 21 APIs on the [APIs.io](https://api
   The Whiplash Merchandising catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Whiplash Merchandising''s developer surface includes documentation, API reference, support, pricing, authentication, and 22 more developer resources.'
+  Whiplash Merchandising''s developer surface includes documentation, API reference, support, pricing, authentication, and 24 more developer resources.'
 random_paper: 13
 score:
   band: developing
-  composite: 45.2
-  delta: 0.0
+  composite: 42.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 62.6
     developer_ergonomics: 51.8
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 45.2
+  previous_composite: 42.6
   provenance:
     conformance: derived
     contracts:
@@ -324,8 +337,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whiplash-merchandising/refs/heads/main/screenshots/whiplash-merchandising-2026-08-17T082956.png
 security:

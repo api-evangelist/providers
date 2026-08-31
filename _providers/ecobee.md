@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 16
   slug: ecobee-agentic-access
   summary_line: 16 operations · 7 acting
-api_count: 7
+api_count: 1
 apis:
 - description: OAuth 2.0 PIN and authorization-code flows and token refresh.
   name: ecobee Authorization API
@@ -95,6 +95,10 @@ collections:
   name: ecobee API
   slug: open-ecobee
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ecobee-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -150,7 +154,7 @@ network: true
 overview: 'ecobee publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Demand Response API, Group API, and 4 more. Tagged areas include Smart Home, Thermostat, IoT, HVAC, and Energy.
 
 
-  ecobee''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  ecobee''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Ecobee Plans Pricing
   plan_count: 2
@@ -162,18 +166,23 @@ rate_limits:
   slug: ecobee-rate-limits
 score:
   band: thin
-  composite: 38.0
-  delta: 2.3
+  composite: 37.5
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 56.9
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 35.7
+  previous_composite: 38.0
   provenance:
     agentic_access: derived
     contracts:
@@ -187,8 +196,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecobee/refs/heads/main/screenshots/ecobee-2026-07-25T212750.png
 security:

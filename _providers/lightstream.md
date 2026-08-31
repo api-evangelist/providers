@@ -19,21 +19,21 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: documented
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-08-26'
+  score: 27.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 45
   slug: lightstream-agentic-access
   summary_line: 45 operations · 30 acting · 2 human-in-the-loop
-api_count: 10
+api_count: 3
 apis:
 - description: The Authentication Service provides token services for clients
   name: Lightstream AuthenticationService API
@@ -113,6 +113,10 @@ collections:
   name: Event AuthenticationService SourceService API
   slug: open-lightstream-sourceservice-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lightstream-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -263,22 +267,27 @@ overview: 'Lightstream publishes 10 APIs on the [APIs.io](https://apis.io/) netw
   The Lightstream catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lightstream''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 26 more developer resources.'
+  Lightstream''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, pricing, and 27 more developer resources.'
 random_paper: 12
 score:
   band: developing
-  composite: 47.3
+  composite: 46.6
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 62.2
     developer_ergonomics: 68.5
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 47.3
+  previous_composite: 46.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,8 +298,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/screenshots/lightstream-2026-07-25T225138.png
 security:

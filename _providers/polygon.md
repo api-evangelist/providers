@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: derived
     idempotency: na
     mcp_server: verified
-    openapi_examples: documented
+    openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-08-26'
+  score: 63.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 175
   slug: polygon-agentic-access
   summary_line: 175 operations
-api_count: 12
+api_count: 7
 apis:
 - description: Real-time streaming WebSocket clusters per asset class (stocks/options/indices/forex/crypto). Subscribers authenticate with an API key and subscribe to channels for trades, quotes, aggregates, and boo
   name: Polygon WebSocket API
@@ -80,6 +80,183 @@ apis:
 - description: Ticker reference and metadata.
   name: Polygon Tickers API
   slug: polygon-tickers-api
+- description: The benzinga API from Polygon — 9 operation(s) for benzinga.
+  name: Polygon Benzinga API
+  slug: polygon-benzinga-api
+- description: The crypto:aggregates API from Polygon — 7 operation(s) for crypto:aggregates.
+  name: Polygon Crypto:aggregates API
+  slug: polygon-crypto-aggregates-api
+- description: The crypto:last:trade API from Polygon — 1 operation(s) for crypto:last:trade.
+  name: Polygon Crypto:last:trade API
+  slug: polygon-crypto-last-trade-api
+- description: The crypto:open-close API from Polygon — 1 operation(s) for crypto:open-close.
+  name: Polygon Crypto:open Close API
+  slug: polygon-crypto-open-close-api
+- description: The crypto:snapshot API from Polygon — 4 operation(s) for crypto:snapshot.
+  name: Polygon Crypto:snapshot API
+  slug: polygon-crypto-snapshot-api
+- description: The crypto:trades API from Polygon — 2 operation(s) for crypto:trades.
+  name: Polygon Crypto:trades API
+  slug: polygon-crypto-trades-api
+- description: The etfglobal API from Polygon — 5 operation(s) for etfglobal.
+  name: Polygon Etfglobal API
+  slug: polygon-etfglobal-api
+- description: The fable API from Polygon — 2 operation(s) for fable.
+  name: Polygon Fable API
+  slug: polygon-fable-api
+- description: The fed API from Polygon — 4 operation(s) for fed.
+  name: Polygon Fed API
+  slug: polygon-fed-api
+- description: The financials API from Polygon — 4 operation(s) for financials.
+  name: Polygon Financials API
+  slug: polygon-financials-api
+- description: The futures:aggregates API from Polygon — 1 operation(s) for futures:aggregates.
+  name: Polygon Futures:aggregates API
+  slug: polygon-futures-aggregates-api
+- description: The fx:aggregates API from Polygon — 7 operation(s) for fx:aggregates.
+  name: Polygon Fx:aggregates API
+  slug: polygon-fx-aggregates-api
+- description: The fx:conversion API from Polygon — 1 operation(s) for fx:conversion.
+  name: Polygon Fx:conversion API
+  slug: polygon-fx-conversion-api
+- description: The fx:last:quote API from Polygon — 1 operation(s) for fx:last:quote.
+  name: Polygon Fx:last:quote API
+  slug: polygon-fx-last-quote-api
+- description: The fx:quotes API from Polygon — 1 operation(s) for fx:quotes.
+  name: Polygon Fx:quotes API
+  slug: polygon-fx-quotes-api
+- description: The fx:snapshot API from Polygon — 3 operation(s) for fx:snapshot.
+  name: Polygon Fx:snapshot API
+  slug: polygon-fx-snapshot-api
+- description: The fx:trades API from Polygon — 1 operation(s) for fx:trades.
+  name: Polygon Fx:trades API
+  slug: polygon-fx-trades-api
+- description: The global_crypto API from Polygon — 1 operation(s) for global_crypto.
+  name: Polygon Global Crypto API
+  slug: polygon-global-crypto-api
+- description: The global_forex API from Polygon — 1 operation(s) for global_forex.
+  name: Polygon Global Forex API
+  slug: polygon-global-forex-api
+- description: The indices:aggregates API from Polygon — 6 operation(s) for indices:aggregates.
+  name: Polygon Indices:aggregates API
+  slug: polygon-indices-aggregates-api
+- description: The indices:snapshot API from Polygon — 1 operation(s) for indices:snapshot.
+  name: Polygon Indices:snapshot API
+  slug: polygon-indices-snapshot-api
+- description: The options:aggregates API from Polygon — 6 operation(s) for options:aggregates.
+  name: Polygon Options:aggregates API
+  slug: polygon-options-aggregates-api
+- description: The options:last:trade API from Polygon — 1 operation(s) for options:last:trade.
+  name: Polygon Options:last:trade API
+  slug: polygon-options-last-trade-api
+- description: The options:open-close API from Polygon — 1 operation(s) for options:open-close.
+  name: Polygon Options:open Close API
+  slug: polygon-options-open-close-api
+- description: The options:quotes API from Polygon — 1 operation(s) for options:quotes.
+  name: Polygon Options:quotes API
+  slug: polygon-options-quotes-api
+- description: The options:snapshot API from Polygon — 2 operation(s) for options:snapshot.
+  name: Polygon Options:snapshot API
+  slug: polygon-options-snapshot-api
+- description: The options:trades API from Polygon — 1 operation(s) for options:trades.
+  name: Polygon Options:trades API
+  slug: polygon-options-trades-api
+- description: Reference API
+  name: Polygon Reference API
+  slug: polygon-reference-api
+- description: The reference:conditions API from Polygon — 1 operation(s) for reference:conditions.
+  name: Polygon Reference:conditions API
+  slug: polygon-reference-conditions-api
+- description: The reference:dividends API from Polygon — 1 operation(s) for reference:dividends.
+  name: Polygon Reference:dividends API
+  slug: polygon-reference-dividends-api
+- description: The reference:exchanges API from Polygon — 1 operation(s) for reference:exchanges.
+  name: Polygon Reference:exchanges API
+  slug: polygon-reference-exchanges-api
+- description: The reference:news API from Polygon — 1 operation(s) for reference:news.
+  name: Polygon Reference:news API
+  slug: polygon-reference-news-api
+- description: The reference:options:contract API from Polygon — 1 operation(s) for reference:options:contract.
+  name: Polygon Reference:options:contract API
+  slug: polygon-reference-options-contract-api
+- description: The reference:options:contracts:list API from Polygon — 1 operation(s) for reference:options:contracts:list.
+  name: Polygon Reference:options:contracts:list API
+  slug: polygon-reference-options-contracts-list-api
+- description: The reference:related:companies API from Polygon — 1 operation(s) for reference:related:companies.
+  name: Polygon Reference:related:companies API
+  slug: polygon-reference-related-companies-api
+- description: The reference:sec:filing API from Polygon — 1 operation(s) for reference:sec:filing.
+  name: Polygon Reference:sec:filing API
+  slug: polygon-reference-sec-filing-api
+- description: The reference:sec:filing:file API from Polygon — 1 operation(s) for reference:sec:filing:file.
+  name: Polygon Reference:sec:filing:file API
+  slug: polygon-reference-sec-filing-file-api
+- description: The reference:sec:filing:files API from Polygon — 1 operation(s) for reference:sec:filing:files.
+  name: Polygon Reference:sec:filing:files API
+  slug: polygon-reference-sec-filing-files-api
+- description: The reference:sec:filings API from Polygon — 1 operation(s) for reference:sec:filings.
+  name: Polygon Reference:sec:filings API
+  slug: polygon-reference-sec-filings-api
+- description: The reference:stocks API from Polygon — 2 operation(s) for reference:stocks.
+  name: Polygon Reference:stocks API
+  slug: polygon-reference-stocks-api
+- description: The reference:stocks:ipos API from Polygon — 1 operation(s) for reference:stocks:ipos.
+  name: Polygon Reference:stocks:ipos API
+  slug: polygon-reference-stocks-ipos-api
+- description: The reference:stocks:market API from Polygon — 2 operation(s) for reference:stocks:market.
+  name: Polygon Reference:stocks:market API
+  slug: polygon-reference-stocks-market-api
+- description: The reference:tickers:get API from Polygon — 2 operation(s) for reference:tickers:get.
+  name: Polygon Reference:tickers:get API
+  slug: polygon-reference-tickers-get-api
+- description: The reference:tickers:list API from Polygon — 1 operation(s) for reference:tickers:list.
+  name: Polygon Reference:tickers:list API
+  slug: polygon-reference-tickers-list-api
+- description: The reference:tickers:types API from Polygon — 1 operation(s) for reference:tickers:types.
+  name: Polygon Reference:tickers:types API
+  slug: polygon-reference-tickers-types-api
+- description: The Snapshot API from Polygon — 1 operation(s) for snapshot.
+  name: Polygon Snapshot API
+  slug: polygon-snapshot-api
+- description: The stocks:aggregates API from Polygon — 7 operation(s) for stocks:aggregates.
+  name: Polygon Stocks:aggregates API
+  slug: polygon-stocks-aggregates-api
+- description: The stocks:last:quote API from Polygon — 1 operation(s) for stocks:last:quote.
+  name: Polygon Stocks:last:quote API
+  slug: polygon-stocks-last-quote-api
+- description: The stocks:last:trade API from Polygon — 1 operation(s) for stocks:last:trade.
+  name: Polygon Stocks:last:trade API
+  slug: polygon-stocks-last-trade-api
+- description: The stocks:open-close API from Polygon — 2 operation(s) for stocks:open-close.
+  name: Polygon Stocks:open Close API
+  slug: polygon-stocks-open-close-api
+- description: The stocks:quotes API from Polygon — 2 operation(s) for stocks:quotes.
+  name: Polygon Stocks:quotes API
+  slug: polygon-stocks-quotes-api
+- description: The stocks:snapshot API from Polygon — 3 operation(s) for stocks:snapshot.
+  name: Polygon Stocks:snapshot API
+  slug: polygon-stocks-snapshot-api
+- description: The stocks:trades API from Polygon — 2 operation(s) for stocks:trades.
+  name: Polygon Stocks:trades API
+  slug: polygon-stocks-trades-api
+- description: The Summaries API from Polygon — 1 operation(s) for summaries.
+  name: Polygon Summaries API
+  slug: polygon-summaries-api
+- description: The tmx API from Polygon — 1 operation(s) for tmx.
+  name: Polygon Tmx API
+  slug: polygon-tmx-api
+- description: The us_futures API from Polygon — 8 operation(s) for us_futures.
+  name: Polygon Us Futures API
+  slug: polygon-us-futures-api
+- description: The us_options API from Polygon — 3 operation(s) for us_options.
+  name: Polygon Us Options API
+  slug: polygon-us-options-api
+- description: The us_stocks_all API from Polygon — 2 operation(s) for us_stocks_all.
+  name: Polygon Us Stocks All API
+  slug: polygon-us-stocks-all-api
+- description: The us_stocks_reference API from Polygon — 3 operation(s) for us_stocks_reference.
+  name: Polygon Us Stocks Reference API
+  slug: polygon-us-stocks-reference-api
 arazzos:
 - description: Resolve a ticker, then list its stock splits and dividends history.
   name: Polygon Corporate Actions Review
@@ -117,7 +294,7 @@ arazzos:
 - description: Resolve a ticker's details, pull recent news, and read its previous close.
   name: Polygon Ticker News Context
   slug: polygon-ticker-news-context-workflow
-artifact_total: 103
+artifact_total: 162
 asyncapis:
 - description: 'Polygon real-time market data WebSocket clusters. Each asset class (stocks, options, indices, forex, crypto) has its own dedicated cluster at `wss://socket.polygon.io/{cluster}`. Clients authenticate '
   name: Polygon WebSocket Streaming API
@@ -547,7 +724,7 @@ modified: '2026-07-22'
 name: Polygon
 nav: Providers
 network: true
-overview: 'Polygon publishes 12 APIs on the [APIs.io](https://apis.io/) network, including WebSocket API, Aggregates API, Books API, and 9 more. Tagged areas include Finance, Fintech, Market Data, Stocks, and Options.
+overview: 'Polygon publishes 71 APIs on the [APIs.io](https://apis.io/) network, including WebSocket API, Aggregates API, Books API, and 68 more. Tagged areas include Finance, Fintech, Market Data, Stocks, and Options.
 
 
   The Polygon catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -603,18 +780,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 72.2
-  delta: 0.7
+  composite: 68.3
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 25.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.9
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
-    contract_governance: 45.5
-    contract_quality: 72.8
+    contract_governance: 33.3
+    contract_quality: 73.4
     developer_ergonomics: 56.5
-    discoverability: 92.6
-    governance: 45.5
+    discoverability: 66.7
+    governance: 33.3
     operational_transparency: 57.9
-  previous_composite: 71.5
+  previous_composite: 69.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -631,8 +813,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/screenshots/polygon-2026-06-20T191902.png
 security:

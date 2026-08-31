@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 18
   slug: amazon-amplify-agentic-access
   summary_line: 18 operations · 10 acting
-api_count: 1
+api_count: 2
 apis:
 - description: The Apps API from Amazon Amplify — 4 operation(s) for apps.
   name: Amazon Amplify Apps API
@@ -309,7 +309,7 @@ modified: '2026-06-20'
 name: Amazon Amplify
 nav: Providers
 network: true
-overview: 'Amazon Amplify publishes 1 API on the [APIs.io](https://apis.io/) network: Apps API. Tagged areas include Frontend, Full-Stack, Hosting, Mobile Development, and Web Applications.
+overview: 'Amazon Amplify publishes 1 API on the [APIs.io](https://apis.io/) network: Apps API. Tagged areas include Frontend, Full Stack, Hosting, Mobile Development, and Web Applications.
 
 
   The Amazon Amplify catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -341,18 +341,23 @@ rules:
   slug: amazon-amplify-spectral-rules
 score:
   band: developing
-  composite: 53.5
-  delta: 3.5
+  composite: 50.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 50.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 72.1
     developer_ergonomics: 52.4
-    discoverability: 87.0
-    governance: 45.5
+    discoverability: 75.9
+    governance: 33.3
     operational_transparency: 2.6
-  previous_composite: 50.0
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -362,8 +367,8 @@ score:
       marker_coverage: 0.0
       total: 1
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/screenshots/amazon-amplify-2026-07-25T195912.png
 security:
@@ -386,7 +391,7 @@ security:
 slug: amazon-amplify
 tags:
 - Frontend
-- Full-Stack
+- Full Stack
 - Hosting
 - Mobile Development
 - Web Applications

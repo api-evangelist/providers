@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -45,46 +45,70 @@ agentic_access:
   summary_line: 57 operations · 26 acting
 api_count: 13
 apis:
-- description: 'Server-side companion to Tyro.js and the Tyro mobile SDKs for accepting online card payments on the web and in apps. Manages pay requests, saved pay methods (tokenization), and refunds, including 3-D '
-  name: Tyro Connect Pay API
-  slug: tyro-connect-pay-api
-- description: Cloud API that lets a Point of Sale send payment and refund requests to Tyro EFTPOS terminals in-store, pairing a POS to merchant terminals and driving card-present transactions over Tyro's merchant-a
-  name: Tyro Pay Terminal API
-  slug: tyro-pos-pay-terminal-api
-- description: Backend API supporting Tyro's Tap to Pay on iPhone and Android SDKs (SoftPOS), letting POS partners onboard merchants, manage device connections, and process card-present transactions and refunds dire
-  name: Tyro Embedded Payments API
-  slug: tyro-pos-embedded-payments-api
-- description: Exchanges booking and reservation information between reservation apps and Point of Sale systems in the Tyro Connect hospitality network, syncing seating bookings and reflecting bill-driven status cha
-  name: Tyro Connect Booking API
-  slug: tyro-connect-booking-api
-- description: Sends food and retail orders from app partners into merchant Point of Sale systems across the Tyro Connect network, with order lifecycle status tracked back to the originating application.
-  name: Tyro Connect Ordering API
-  slug: tyro-connect-ordering-api
-- description: Synchronises published menu and catalogue data from merchant Point of Sale systems to app partners in the Tyro Connect network, so ordering and delivery apps present the merchant's current menu.
-  name: Tyro Connect Menu API
-  slug: tyro-connect-menu-api
-- description: Reads and manages table (floor-plan) information from merchant Point of Sale systems, underpinning pay-at-table and table-service workflows across the Tyro Connect hospitality network.
-  name: Tyro Connect Tables Management API
-  slug: tyro-connect-tables-api
-- description: Exposes itemised sales transaction data captured from merchant Point of Sale systems, letting app partners build reporting, analytics, accounting and reconciliation tools over Tyro Connect merchant ac
-  name: Tyro Connect Sales Data API
-  slug: tyro-connect-sales-api
-- description: Provides merchant settlement and transaction reporting for Tyro-acquired payments, returning settlement batches and dated transaction listings for reconciliation and financial reporting by app partner
-  name: Tyro Connect Reporting API
-  slug: tyro-connect-reporting-api
-- description: Connects loyalty and rewards providers to Tyro merchants, managing loyalty members, activities and card-linked registrations so points and rewards can be applied at the Point of Sale and payment termi
-  name: Tyro Connect Loyalty Data API
-  slug: tyro-connect-loyalty-api
-- description: Searches prior Tyro transactions and issues refunds against them, giving app and POS partners a dedicated search-and-refund flow over Tyro-acquired merchant payments.
-  name: Tyro Connect Refunds API
-  slug: tyro-connect-refunds-api
-- description: Returns merchant location details keyed by Tyro Connect location identifier, used by partners to resolve and validate the merchant sites they are integrated with across the network.
-  name: Tyro Connect Location API
-  slug: tyro-connect-locations-api
-- description: Lets partners submit and track merchant referrals into Tyro, supporting partner-driven merchant acquisition and onboarding workflows within the Tyro Connect ecosystem.
-  name: Tyro Connect Referrals API
-  slug: tyro-connect-referrals-api
-artifact_total: 31
+- description: The Bookings API from Tyro Payments — 2 operation(s) for bookings.
+  name: Tyro Payments Bookings API
+  slug: tyro-bookings-api
+- description: The Connections API from Tyro Payments — 1 operation(s) for connections.
+  name: Tyro Payments Connections API
+  slug: tyro-connections-api
+- description: The Locations API from Tyro Payments — 2 operation(s) for locations.
+  name: Tyro Payments Locations API
+  slug: tyro-locations-api
+- description: The Loyalty API from Tyro Payments — 1 operation(s) for loyalty.
+  name: Tyro Payments Loyalty API
+  slug: tyro-loyalty-api
+- description: The Member API from Tyro Payments — 1 operation(s) for member.
+  name: Tyro Payments Member API
+  slug: tyro-member-api
+- description: The Menus API from Tyro Payments — 2 operation(s) for menus.
+  name: Tyro Payments Menus API
+  slug: tyro-menus-api
+- description: The Merchants API from Tyro Payments — 7 operation(s) for merchants.
+  name: Tyro Payments Merchants API
+  slug: tyro-merchants-api
+- description: The Onboarding API from Tyro Payments — 1 operation(s) for onboarding.
+  name: Tyro Payments Onboarding API
+  slug: tyro-onboarding-api
+- description: The Orders API from Tyro Payments — 2 operation(s) for orders.
+  name: Tyro Payments Orders API
+  slug: tyro-orders-api
+- description: The Pay Methods API from Tyro Payments — 2 operation(s) for pay methods.
+  name: Tyro Payments Pay Methods API
+  slug: tyro-pay-methods-api
+- description: The Pay Refunds API from Tyro Payments — 2 operation(s) for pay refunds.
+  name: Tyro Payments Pay Refunds API
+  slug: tyro-pay-refunds-api
+- description: The Pay Requests API from Tyro Payments — 4 operation(s) for pay requests.
+  name: Tyro Payments Pay Requests API
+  slug: tyro-pay-requests-api
+- description: The Payments API from Tyro Payments — 1 operation(s) for payments.
+  name: Tyro Payments Payments API
+  slug: tyro-payments-api
+- description: The Readers API from Tyro Payments — 2 operation(s) for readers.
+  name: Tyro Payments Readers API
+  slug: tyro-readers-api
+- description: The Referrals API from Tyro Payments — 2 operation(s) for referrals.
+  name: Tyro Payments Referrals API
+  slug: tyro-referrals-api
+- description: The Refunds API from Tyro Payments — 1 operation(s) for refunds.
+  name: Tyro Payments Refunds API
+  slug: tyro-refunds-api
+- description: The Registered Card API from Tyro Payments — 1 operation(s) for registered card.
+  name: Tyro Payments Registered Card API
+  slug: tyro-registered-card-api
+- description: The Reporting API from Tyro Payments — 2 operation(s) for reporting.
+  name: Tyro Payments Reporting API
+  slug: tyro-reporting-api
+- description: The Sales API from Tyro Payments — 2 operation(s) for sales.
+  name: Tyro Payments Sales API
+  slug: tyro-sales-api
+- description: The Tables API from Tyro Payments — 2 operation(s) for tables.
+  name: Tyro Payments Tables API
+  slug: tyro-tables-api
+- description: The Transactions API from Tyro Payments — 2 operation(s) for transactions.
+  name: Tyro Payments Transactions API
+  slug: tyro-transactions-api
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Tyro Webhooks
@@ -130,6 +154,58 @@ collections:
   name: Pay Terminal API
   slug: open-tyro-pos-pay-terminal
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tyro-connect-pay-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tyro-pos-pay-terminal-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tyro-pos-embedded-payments-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tyro-connect-booking-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tyro-connect-ordering-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tyro-connect-menu-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tyro-connect-tables-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tyro-connect-sales-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tyro-connect-reporting-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tyro-connect-loyalty-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tyro-connect-refunds-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tyro-connect-locations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/tyro-connect-referrals-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -274,28 +350,33 @@ modified: '2026-07-24'
 name: Tyro Payments
 nav: Providers
 network: true
-overview: 'Tyro Payments publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Tyro Connect Pay API, Tyro Pay Terminal API, Tyro Embedded Payments API, and 10 more. Tagged areas include Payments, Australia, Merchant Acquiring, Payment Gateway, and In-Person Payments.
+overview: 'Tyro Payments publishes 21 APIs on the [APIs.io](https://apis.io/) network, including Bookings API, Connections API, Locations API, and 18 more. Tagged areas include Payments, Australia, Merchant Acquiring, Payment Gateway, and In-Person Payments.
 
 
   The Tyro Payments catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tyro Payments'' developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 26 more developer resources.'
+  Tyro Payments'' developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 39 more developer resources.'
 random_paper: 0
 score:
   band: developing
-  composite: 45.6
+  composite: 42.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 30.3
-    contract_quality: 65.4
+    contract_governance: 18.2
+    contract_quality: 67.0
     developer_ergonomics: 49.4
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 45.6
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -312,8 +393,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tyro/refs/heads/main/screenshots/tyro-2026-08-17T082516.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 20
   slug: ryder-system-agentic-access
   summary_line: 20 operations · 8 acting
-api_count: 13
+api_count: 3
 apis:
 - description: The Ryder Last Mile API handles last-mile delivery operations, enabling integration with Ryder's last-mile delivery network for e-commerce fulfillment and parcel delivery management.
   name: Ryder Last Mile API
@@ -131,6 +131,10 @@ collections:
   name: Ryder TM Shipment Management API
   slug: open-ryder-tm-shipment-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ryder-system-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -242,7 +246,7 @@ overview: 'Ryder System publishes 11 APIs on the [APIs.io](https://apis.io/) net
   The Ryder System catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Ryder System''s developer surface includes authentication, engineering blog, documentation, and 12 more developer resources.'
+  Ryder System''s developer surface includes authentication, engineering blog, documentation, and 13 more developer resources.'
 plans:
 - name: Ryder System Plans Pricing
   plan_count: 1
@@ -308,18 +312,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 42.9
-  delta: 2.4
+  composite: 42.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 42.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 69.7
-    contract_quality: 61.5
+    contract_quality: 60.5
     developer_ergonomics: 45.2
     discoverability: 64.8
     governance: 69.7
     operational_transparency: 7.9
-  previous_composite: 40.5
+  previous_composite: 42.7
   provenance:
     agentic_access: derived
     contracts:
@@ -327,8 +336,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/screenshots/ryder-system-2026-06-20T193310.png
 security:

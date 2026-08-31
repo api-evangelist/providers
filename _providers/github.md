@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1203
   human_in_the_loop: 31
@@ -43,14 +43,8 @@ agentic_access:
   operation_count: 2431
   slug: github-agentic-access
   summary_line: 2431 operations · 1203 acting · 31 human-in-the-loop
-api_count: 350
+api_count: 38
 apis:
-- description: The GitHub Events API provides a read-only feed of recent activity on GitHub, exposing structured event objects you can poll to see what happened across the platform or within a specific repository, o
-  name: GitHub Events API
-  slug: github-events-api
-- description: GitHubs Feeds API lets you programmatically discover the Atom feed URLs for GitHub activity thats relevant to you, such as the global timeline, a specific users activity, the authenticated users publi
-  name: GitHub Feeds API
-  slug: github-feeds-api
 - description: The GitHub Gists API lets you programmatically manage gistslightweight code snippets and notesover HTTP. You can create gists (public or secret/unlisted), read individual gists, list public gists, you
   name: GitHub Gists API
   slug: github-gists-api
@@ -66,12 +60,6 @@ apis:
 - description: Use the REST API to get meta information about GitHub, including the IP addresses of GitHub services.
   name: GitHub Meta API
   slug: github-meta-api
-- description: This GitHub REST API allows you to programmatically manage your GitHub notifications, which include updates on issues, pull requests, and commits. The API requires authentication via a personal access
-  name: GitHub Notifications API
-  slug: github-notifications-api
-- description: The GitHub Octocat API is a playful, non-functional endpoint in GitHubs REST API that returns an ASCII-art rendering of the Octocat mascot as plain text. Its primarily meant for fun and demospeople of
-  name: GitHub Octocat API
-  slug: github-octocat-api
 - description: The GitHub Projects API enables developers to programmatically create and manage GitHub Projects, which are flexible tools for planning and tracking work using customizable boards, tables, and roadmap
   name: GitHub Projects API
   slug: github-projects-api
@@ -168,930 +156,78 @@ apis:
 - description: The GitHub Watching API lets you subscribe to notifications for activity in a repository. It provides endpoints to list watchers of a repository, get and set a repository subscription, delete a subscr
   name: GitHub Watching API
   slug: github-watching-api
-- description: The About API from GitHub — 2 operation(s) for about.
-  name: GitHub About API
-  slug: github-about-api
-- description: The Access API from GitHub — 12 operation(s) for access.
-  name: GitHub Access API
-  slug: github-access-api
-- description: The Accessible API from GitHub — 3 operation(s) for accessible.
-  name: GitHub Accessible API
-  slug: github-accessible-api
 - description: Endpoints to manage GitHub Actions using the REST API.
   name: GitHub Actions API
   slug: github-actions-api
-- description: The Active API from GitHub — 1 operation(s) for active.
-  name: GitHub Active API
-  slug: github-active-api
 - description: The Activity API from GitHub — 25 operation(s) for activity.
   name: GitHub Activity API
   slug: github-activity-api
-- description: The Add API from GitHub — 27 operation(s) for add.
-  name: GitHub Add API
-  slug: github-add-api
-- description: The Administrative API from GitHub — 1 operation(s) for administrative.
-  name: GitHub Administrative API
-  slug: github-administrative-api
-- description: The Advanced API from GitHub — 1 operation(s) for advanced.
-  name: GitHub Advanced API
-  slug: github-advanced-api
-- description: The Alerts API from GitHub — 11 operation(s) for alerts.
-  name: GitHub Alerts API
-  slug: github-alerts-api
-- description: The All API from GitHub — 13 operation(s) for all.
-  name: GitHub All API
-  slug: github-all-api
-- description: The Allowed API from GitHub — 2 operation(s) for allowed.
-  name: GitHub Allowed API
-  slug: github-allowed-api
-- description: The Analysis API from GitHub — 3 operation(s) for analysis.
-  name: GitHub Analysis API
-  slug: github-analysis-api
-- description: The Annotations API from GitHub — 1 operation(s) for annotations.
-  name: GitHub Annotations API
-  slug: github-annotations-api
-- description: The Announcement API from GitHub — 1 operation(s) for announcement.
-  name: GitHub Announcement API
-  slug: github-announcement-api
-- description: The Applications API from GitHub — 26 operation(s) for applications.
-  name: GitHub Applications API
-  slug: github-applications-api
 - description: The Apps API from GitHub — 23 operation(s) for apps.
   name: GitHub Apps API
   slug: github-apps-api
-- description: The Archive API from GitHub — 3 operation(s) for archive.
-  name: GitHub Archive API
-  slug: github-archive-api
-- description: The Artifacts API from GitHub — 4 operation(s) for artifacts.
-  name: GitHub Artifacts API
-  slug: github-artifacts-api
-- description: The Assets API from GitHub — 2 operation(s) for assets.
-  name: GitHub Assets API
-  slug: github-assets-api
-- description: The Assigned API from GitHub — 4 operation(s) for assigned.
-  name: GitHub Assigned API
-  slug: github-assigned-api
-- description: The Assignees API from GitHub — 3 operation(s) for assignees.
-  name: GitHub Assignees API
-  slug: github-assignees-api
-- description: The Associated API from GitHub — 1 operation(s) for associated.
-  name: GitHub Associated API
-  slug: github-associated-api
-- description: The Attempts API from GitHub — 3 operation(s) for attempts.
-  name: GitHub Attempts API
-  slug: github-attempts-api
-- description: The Attribute API from GitHub — 2 operation(s) for attribute.
-  name: GitHub Attribute API
-  slug: github-attribute-api
-- description: The Audit API from GitHub — 1 operation(s) for audit.
-  name: GitHub Audit API
-  slug: github-audit-api
-- description: The Authenticated API from GitHub — 43 operation(s) for authenticated.
-  name: GitHub Authenticated API
-  slug: github-authenticated-api
-- description: The Authorization API from GitHub — 5 operation(s) for authorization.
-  name: GitHub Authorization API
-  slug: github-authorization-api
-- description: The Authorized API from GitHub — 1 operation(s) for authorized.
-  name: GitHub Authorized API
-  slug: github-authorized-api
-- description: The Autolinks API from GitHub — 2 operation(s) for autolinks.
-  name: GitHub Autolinks API
-  slug: github-autolinks-api
-- description: The Banner API from GitHub — 1 operation(s) for banner.
-  name: GitHub Banner API
-  slug: github-banner-api
-- description: The Between API from GitHub — 2 operation(s) for between.
-  name: GitHub Between API
-  slug: github-between-api
-- description: The Bill API from GitHub — 1 operation(s) for bill.
-  name: GitHub Bill API
-  slug: github-bill-api
 - description: Monitor charges and usage from Actions and Packages.
   name: GitHub Billing API
   slug: github-billing-api
-- description: The Blobs API from GitHub — 2 operation(s) for blobs.
-  name: GitHub Blobs API
-  slug: github-blobs-api
-- description: The Branches API from GitHub — 14 operation(s) for branches.
-  name: GitHub Branches API
-  slug: github-branches-api
-- description: The Builds API from GitHub — 3 operation(s) for builds.
-  name: GitHub Builds API
-  slug: github-builds-api
-- description: The Cache API from GitHub — 7 operation(s) for cache.
-  name: GitHub Cache API
-  slug: github-cache-api
-- description: The Caches API from GitHub — 1 operation(s) for caches.
-  name: GitHub Caches API
-  slug: github-caches-api
-- description: The Cancel API from GitHub — 1 operation(s) for cancel.
-  name: GitHub Cancel API
-  slug: github-cancel-api
-- description: The Card API from GitHub — 3 operation(s) for card.
-  name: GitHub Card API
-  slug: github-card-api
-- description: The Cards API from GitHub — 1 operation(s) for cards.
-  name: GitHub Cards API
-  slug: github-cards-api
-- description: The Check API from GitHub — 2 operation(s) for check.
-  name: GitHub Check API
-  slug: github-check-api
 - description: The Checks API from GitHub — 28 operation(s) for checks.
   name: GitHub Checks API
   slug: github-checks-api
-- description: The Child API from GitHub — 2 operation(s) for child.
-  name: GitHub Child API
-  slug: github-child-api
-- description: The Claims API from GitHub — 2 operation(s) for claims.
-  name: GitHub Claims API
-  slug: github-claims-api
-- description: The Code API from GitHub — 9 operation(s) for code.
-  name: GitHub Code API
-  slug: github-code-api
-- description: The Code Owners API from GitHub — 1 operation(s) for code owners.
-  name: GitHub Code Owners API
-  slug: github-code-owners-api
 - description: Retrieve code scanning alerts from a repository.
   name: GitHub Code-Scanning API
   slug: github-code-scanning-api
 - description: The Codes-Of-Conduct API from GitHub — 2 operation(s) for codes-of-conduct.
   name: GitHub Codes-Of-Conduct API
   slug: github-codes-of-conduct-api
-- description: The Collaborators API from GitHub — 6 operation(s) for collaborators.
-  name: GitHub Collaborators API
-  slug: github-collaborators-api
-- description: The Column API from GitHub — 1 operation(s) for column.
-  name: GitHub Column API
-  slug: github-column-api
-- description: The Columns API from GitHub — 2 operation(s) for columns.
-  name: GitHub Columns API
-  slug: github-columns-api
-- description: The Combined API from GitHub — 1 operation(s) for combined.
-  name: GitHub Combined API
-  slug: github-combined-api
-- description: The Comment API from GitHub — 15 operation(s) for comment.
-  name: GitHub Comment API
-  slug: github-comment-api
-- description: The Comments API from GitHub — 18 operation(s) for comments.
-  name: GitHub Comments API
-  slug: github-comments-api
-- description: The Commits API from GitHub — 24 operation(s) for commits.
-  name: GitHub Commits API
-  slug: github-commits-api
-- description: The Committers API from GitHub — 1 operation(s) for committers.
-  name: GitHub Committers API
-  slug: github-committers-api
-- description: The Compare API from GitHub — 1 operation(s) for compare.
-  name: GitHub Compare API
-  slug: github-compare-api
-- description: The Conduct API from GitHub — 2 operation(s) for conduct.
-  name: GitHub Conduct API
-  slug: github-conduct-api
-- description: The Configuration API from GitHub — 6 operation(s) for configuration.
-  name: GitHub Configuration API
-  slug: github-configuration-api
-- description: The Conflicting API from GitHub — 3 operation(s) for conflicting.
-  name: GitHub Conflicting API
-  slug: github-conflicting-api
-- description: The Connection API from GitHub — 1 operation(s) for connection.
-  name: GitHub Connection API
-  slug: github-connection-api
-- description: The Content API from GitHub — 2 operation(s) for content.
-  name: GitHub Content API
-  slug: github-content-api
-- description: The Contexts API from GitHub — 1 operation(s) for contexts.
-  name: GitHub Contexts API
-  slug: github-contexts-api
-- description: The Contributor API from GitHub — 1 operation(s) for contributor.
-  name: GitHub Contributor API
-  slug: github-contributor-api
-- description: The Contributors API from GitHub — 1 operation(s) for contributors.
-  name: GitHub Contributors API
-  slug: github-contributors-api
-- description: The Convert API from GitHub — 1 operation(s) for convert.
-  name: GitHub Convert API
-  slug: github-convert-api
-- description: The Count API from GitHub — 2 operation(s) for count.
-  name: GitHub Count API
-  slug: github-count-api
-- description: The Create API from GitHub — 84 operation(s) for create.
-  name: GitHub Create API
-  slug: github-create-api
-- description: The Custom API from GitHub — 7 operation(s) for custom.
-  name: GitHub Custom API
-  slug: github-custom-api
-- description: The Customizations API from GitHub — 2 operation(s) for customizations.
-  name: GitHub Customizations API
-  slug: github-customizations-api
-- description: The Data API from GitHub — 1 operation(s) for data.
-  name: GitHub Data API
-  slug: github-data-api
-- description: The Day API from GitHub — 1 operation(s) for day.
-  name: GitHub Day API
-  slug: github-day-api
-- description: The Delete API from GitHub — 86 operation(s) for delete.
-  name: GitHub Delete API
-  slug: github-delete-api
-- description: The Deliveries API from GitHub — 9 operation(s) for deliveries.
-  name: GitHub Deliveries API
-  slug: github-deliveries-api
 - description: Endpoints to manage Dependabot.
   name: GitHub Dependabot API
   slug: github-dependabot-api
-- description: The Dependencies API from GitHub — 2 operation(s) for dependencies.
-  name: GitHub Dependencies API
-  slug: github-dependencies-api
 - description: Endpoints to access Dependency Graph features.
   name: GitHub Dependency-Graph API
   slug: github-dependency-graph-api
-- description: The Deploy API from GitHub — 2 operation(s) for deploy.
-  name: GitHub Deploy API
-  slug: github-deploy-api
-- description: The Deployments API from GitHub — 8 operation(s) for deployments.
-  name: GitHub Deployments API
-  slug: github-deployments-api
-- description: The Directories API from GitHub — 1 operation(s) for directories.
-  name: GitHub Directories API
-  slug: github-directories-api
-- description: The Disables API from GitHub — 6 operation(s) for disables.
-  name: GitHub Disables API
-  slug: github-disables-api
-- description: The Discussions API from GitHub — 14 operation(s) for discussions.
-  name: GitHub Discussions API
-  slug: github-discussions-api
-- description: The Dismiss API from GitHub — 1 operation(s) for dismiss.
-  name: GitHub Dismiss API
-  slug: github-dismiss-api
-- description: The Dispatch API from GitHub — 2 operation(s) for dispatch.
-  name: GitHub Dispatch API
-  slug: github-dispatch-api
-- description: The Docker API from GitHub — 3 operation(s) for docker.
-  name: GitHub Docker API
-  slug: github-docker-api
-- description: The Documents API from GitHub — 2 operation(s) for documents.
-  name: GitHub Documents API
-  slug: github-documents-api
-- description: The Download API from GitHub — 7 operation(s) for download.
-  name: GitHub Download API
-  slug: github-download-api
-- description: The During API from GitHub — 3 operation(s) for during.
-  name: GitHub During API
-  slug: github-during-api
 - description: The Emojis API from GitHub — 1 operation(s) for emojis.
   name: GitHub Emojis API
   slug: github-emojis-api
-- description: The Enabled API from GitHub — 2 operation(s) for enabled.
-  name: GitHub Enabled API
-  slug: github-enabled-api
-- description: The Enables API from GitHub — 6 operation(s) for enables.
-  name: GitHub Enables API
-  slug: github-enables-api
-- description: The Enforcement API from GitHub — 2 operation(s) for enforcement.
-  name: GitHub Enforcement API
-  slug: github-enforcement-api
 - description: Enterprise Administration
   name: GitHub Enterprise-Admin API
   slug: github-enterprise-admin-api
 - description: The Enterprise-Admin - Scim API from GitHub — 1 operation(s) for enterprise-admin - scim.
   name: GitHub Enterprise-Admin - Scim API
   slug: github-enterprise-admin-scim-api
-- description: The Enterprise API from GitHub — 8 operation(s) for enterprise.
-  name: GitHub Enterprise API
-  slug: github-enterprise-api
-- description: The Environments API from GitHub — 7 operation(s) for environments.
-  name: GitHub Environments API
-  slug: github-environments-api
-- description: The Event API from GitHub — 2 operation(s) for event.
-  name: GitHub Event API
-  slug: github-event-api
-- description: The Existing API from GitHub — 3 operation(s) for existing.
-  name: GitHub Existing API
-  slug: github-existing-api
-- description: The Export API from GitHub — 1 operation(s) for export.
-  name: GitHub Export API
-  slug: github-export-api
-- description: The External API from GitHub — 3 operation(s) for external.
-  name: GitHub External API
-  slug: github-external-api
-- description: The Failed API from GitHub — 1 operation(s) for failed.
-  name: GitHub Failed API
-  slug: github-failed-api
-- description: The Feature API from GitHub — 1 operation(s) for feature.
-  name: GitHub Feature API
-  slug: github-feature-api
-- description: The Files API from GitHub — 2 operation(s) for files.
-  name: GitHub Files API
-  slug: github-files-api
-- description: The Fine-Grained API from GitHub — 1 operation(s) for fine-grained.
-  name: GitHub Fine-Grained API
-  slug: github-fine-grained-api
-- description: The Fingerprint API from GitHub — 1 operation(s) for fingerprint.
-  name: GitHub Fingerprint API
-  slug: github-fingerprint-api
-- description: The Forks API from GitHub — 3 operation(s) for forks.
-  name: GitHub Forks API
-  slug: github-forks-api
-- description: The Generate API from GitHub — 1 operation(s) for generate.
-  name: GitHub Generate API
-  slug: github-generate-api
-- description: The Get API from GitHub — 181 operation(s) for get.
-  name: GitHub Get API
-  slug: github-get-api
 - description: Raw Git functionality.
   name: GitHub Git API
   slug: github-git-api
 - description: The Gitignore API from GitHub — 2 operation(s) for gitignore.
   name: GitHub Gitignore API
   slug: github-gitignore-api
-- description: The Grants API from GitHub — 2 operation(s) for grants.
-  name: GitHub Grants API
-  slug: github-grants-api
-- description: The Groups API from GitHub — 11 operation(s) for groups.
-  name: GitHub Groups API
-  slug: github-groups-api
-- description: The Head API from GitHub — 1 operation(s) for head.
-  name: GitHub Head API
-  slug: github-head-api
-- description: The History API from GitHub — 1 operation(s) for history.
-  name: GitHub History API
-  slug: github-history-api
-- description: The Hook API from GitHub — 2 operation(s) for hook.
-  name: GitHub Hook API
-  slug: github-hook-api
-- description: The Hooks API from GitHub — 2 operation(s) for hooks.
-  name: GitHub Hooks API
-  slug: github-hooks-api
-- description: The Hourly API from GitHub — 1 operation(s) for hourly.
-  name: GitHub Hourly API
-  slug: github-hourly-api
-- description: The Identifiers API from GitHub — 1 operation(s) for identifiers.
-  name: GitHub Identifiers API
-  slug: github-identifiers-api
-- description: The Identities API from GitHub — 1 operation(s) for identities.
-  name: GitHub Identities API
-  slug: github-identities-api
-- description: The Impersonation API from GitHub — 1 operation(s) for impersonation.
-  name: GitHub Impersonation API
-  slug: github-impersonation-api
-- description: The Information API from GitHub — 6 operation(s) for information.
-  name: GitHub Information API
-  slug: github-information-api
-- description: The Installations API from GitHub — 13 operation(s) for installations.
-  name: GitHub Installations API
-  slug: github-installations-api
-- description: The Instances API from GitHub — 1 operation(s) for instances.
-  name: GitHub Instances API
-  slug: github-instances-api
-- description: The Invitation API from GitHub — 2 operation(s) for invitation.
-  name: GitHub Invitation API
-  slug: github-invitation-api
-- description: The Invitations API from GitHub — 2 operation(s) for invitations.
-  name: GitHub Invitations API
-  slug: github-invitations-api
-- description: The Jobs API from GitHub — 6 operation(s) for jobs.
-  name: GitHub Jobs API
-  slug: github-jobs-api
-- description: The Keys API from GitHub — 18 operation(s) for keys.
-  name: GitHub Keys API
-  slug: github-keys-api
-- description: The Label API from GitHub — 1 operation(s) for label.
-  name: GitHub Label API
-  slug: github-label-api
-- description: The Labels API from GitHub — 9 operation(s) for labels.
-  name: GitHub Labels API
-  slug: github-labels-api
-- description: The Languages API from GitHub — 1 operation(s) for languages.
-  name: GitHub Languages API
-  slug: github-languages-api
-- description: The Large File Storage API from GitHub — 1 operation(s) for large file storage.
-  name: GitHub Large File Storage API
-  slug: github-large-file-storage-api
-- description: The Last API from GitHub — 1 operation(s) for last.
-  name: GitHub Last API
-  slug: github-last-api
-- description: The Latest API from GitHub — 2 operation(s) for latest.
-  name: GitHub Latest API
-  slug: github-latest-api
-- description: The Ldap API from GitHub — 4 operation(s) for ldap.
-  name: GitHub Ldap API
-  slug: github-ldap-api
-- description: The Legacy API from GitHub — 15 operation(s) for legacy.
-  name: GitHub Legacy API
-  slug: github-legacy-api
-- description: The Levels API from GitHub — 1 operation(s) for levels.
-  name: GitHub Levels API
-  slug: github-levels-api
-- description: The Limit API from GitHub — 1 operation(s) for limit.
-  name: GitHub Limit API
-  slug: github-limit-api
-- description: The Lists API from GitHub — 204 operation(s) for lists.
-  name: GitHub Lists API
-  slug: github-lists-api
-- description: The Locks API from GitHub — 1 operation(s) for locks.
-  name: GitHub Locks API
-  slug: github-locks-api
-- description: The Log API from GitHub — 1 operation(s) for log.
-  name: GitHub Log API
-  slug: github-log-api
-- description: The Logs API from GitHub — 3 operation(s) for logs.
-  name: GitHub Logs API
-  slug: github-logs-api
-- description: The Maintenance API from GitHub — 1 operation(s) for maintenance.
-  name: GitHub Maintenance API
-  slug: github-maintenance-api
-- description: The Manager API from GitHub — 2 operation(s) for manager.
-  name: GitHub Manager API
-  slug: github-manager-api
-- description: The Manifest API from GitHub — 1 operation(s) for manifest.
-  name: GitHub Manifest API
-  slug: github-manifest-api
-- description: The Mapping API from GitHub — 4 operation(s) for mapping.
-  name: GitHub Mapping API
-  slug: github-mapping-api
-- description: The Mark API from GitHub — 2 operation(s) for mark.
-  name: GitHub Mark API
-  slug: github-mark-api
-- description: The Matching API from GitHub — 1 operation(s) for matching.
-  name: GitHub Matching API
-  slug: github-matching-api
-- description: The Materials API from GitHub — 1 operation(s) for materials.
-  name: GitHub Materials API
-  slug: github-materials-api
-- description: The Member API from GitHub — 3 operation(s) for member.
-  name: GitHub Member API
-  slug: github-member-api
-- description: The Members API from GitHub — 4 operation(s) for members.
-  name: GitHub Members API
-  slug: github-members-api
-- description: The Membership API from GitHub — 3 operation(s) for membership.
-  name: GitHub Membership API
-  slug: github-membership-api
-- description: The Memberships API from GitHub — 4 operation(s) for memberships.
-  name: GitHub Memberships API
-  slug: github-memberships-api
-- description: The Merge API from GitHub — 2 operation(s) for merge.
-  name: GitHub Merge API
-  slug: github-merge-api
-- description: The Merged API from GitHub — 1 operation(s) for merged.
-  name: GitHub Merged API
-  slug: github-merged-api
 - description: Move projects to or from GitHub.
   name: GitHub Migrations API
   slug: github-migrations-api
-- description: The Milestones API from GitHub — 3 operation(s) for milestones.
-  name: GitHub Milestones API
-  slug: github-milestones-api
-- description: The Mode API from GitHub — 1 operation(s) for mode.
-  name: GitHub Mode API
-  slug: github-mode-api
-- description: The Modes API from GitHub — 1 operation(s) for modes.
-  name: GitHub Modes API
-  slug: github-modes-api
-- description: The Move API from GitHub — 2 operation(s) for move.
-  name: GitHub Move API
-  slug: github-move-api
-- description: The Name API from GitHub — 2 operation(s) for name.
-  name: GitHub Name API
-  slug: github-name-api
-- description: The Network API from GitHub — 1 operation(s) for network.
-  name: GitHub Network API
-  slug: github-network-api
-- description: The Node API from GitHub — 1 operation(s) for node.
-  name: GitHub Node API
-  slug: github-node-api
-- description: The Nodes API from GitHub — 3 operation(s) for nodes.
-  name: GitHub Nodes API
-  slug: github-nodes-api
-- description: The Notes API from GitHub — 1 operation(s) for notes.
-  name: GitHub Notes API
-  slug: github-notes-api
-- description: The Oauth API from GitHub — 1 operation(s) for oauth.
-  name: GitHub Oauth API
-  slug: github-oauth-api
 - description: OAuth Authorizations API
   name: GitHub Oauth-Authorizations API
   slug: github-oauth-authorizations-api
-- description: The Objects API from GitHub — 2 operation(s) for objects.
-  name: GitHub Objects API
-  slug: github-objects-api
 - description: The Oidc API from GitHub — 1 operation(s) for oidc.
   name: GitHub Oidc API
   slug: github-oidc-api
-- description: The Openid Connect API from GitHub — 2 operation(s) for openid connect.
-  name: GitHub Openid Connect API
-  slug: github-openid-connect-api
-- description: The Organizations API from GitHub — 89 operation(s) for organizations.
-  name: GitHub Organizations API
-  slug: github-organizations-api
 - description: The Orgs API from GitHub — 30 operation(s) for orgs.
   name: GitHub Orgs API
   slug: github-orgs-api
-- description: The Outside API from GitHub — 3 operation(s) for outside.
-  name: GitHub Outside API
-  slug: github-outside-api
-- description: The Owned API from GitHub — 3 operation(s) for owned.
-  name: GitHub Owned API
-  slug: github-owned-api
-- description: The Package API from GitHub — 10 operation(s) for package.
-  name: GitHub Package API
-  slug: github-package-api
 - description: Manage packages for authenticated users and organizations.
   name: GitHub Packages API
   slug: github-packages-api
-- description: The Pages API from GitHub — 5 operation(s) for pages.
-  name: GitHub Pages API
-  slug: github-pages-api
-- description: The Pending API from GitHub — 2 operation(s) for pending.
-  name: GitHub Pending API
-  slug: github-pending-api
-- description: The Permission API from GitHub — 1 operation(s) for permission.
-  name: GitHub Permission API
-  slug: github-permission-api
-- description: The Permissions API from GitHub — 10 operation(s) for permissions.
-  name: GitHub Permissions API
-  slug: github-permissions-api
-- description: The Ping API from GitHub — 2 operation(s) for ping.
-  name: GitHub Ping API
-  slug: github-ping-api
-- description: The Policies API from GitHub — 3 operation(s) for policies.
-  name: GitHub Policies API
-  slug: github-policies-api
-- description: The Pre-Receive API from GitHub — 4 operation(s) for pre-receive.
-  name: GitHub Pre-Receive API
-  slug: github-pre-receive-api
-- description: The Preferences API from GitHub — 1 operation(s) for preferences.
-  name: GitHub Preferences API
-  slug: github-preferences-api
-- description: The Process API from GitHub — 1 operation(s) for process.
-  name: GitHub Process API
-  slug: github-process-api
-- description: The Project API from GitHub — 3 operation(s) for project.
-  name: GitHub Project API
-  slug: github-project-api
-- description: The Protected API from GitHub — 3 operation(s) for protected.
-  name: GitHub Protected API
-  slug: github-protected-api
-- description: The Protections API from GitHub — 7 operation(s) for protections.
-  name: GitHub Protections API
-  slug: github-protections-api
-- description: The Provision API from GitHub — 2 operation(s) for provision.
-  name: GitHub Provision API
-  slug: github-provision-api
-- description: The Provisioned API from GitHub — 4 operation(s) for provisioned.
-  name: GitHub Provisioned API
-  slug: github-provisioned-api
-- description: The Provisioning API from GitHub — 2 operation(s) for provisioning.
-  name: GitHub Provisioning API
-  slug: github-provisioning-api
-- description: The Public API from GitHub — 17 operation(s) for public.
-  name: GitHub Public API
-  slug: github-public-api
-- description: The Pull API from GitHub — 19 operation(s) for pull.
-  name: GitHub Pull API
-  slug: github-pull-api
 - description: Interact with GitHub Pull Requests.
   name: GitHub Pulls API
   slug: github-pulls-api
-- description: The Push API from GitHub — 1 operation(s) for push.
-  name: GitHub Push API
-  slug: github-push-api
-- description: The Rate API from GitHub — 1 operation(s) for rate.
-  name: GitHub Rate API
-  slug: github-rate-api
 - description: Check your current rate limit status
   name: GitHub Rate-Limit API
   slug: github-rate-limit-api
-- description: The Raw API from GitHub — 1 operation(s) for raw.
-  name: GitHub Raw API
-  slug: github-raw-api
-- description: The Re-Deliver API from GitHub — 3 operation(s) for re-deliver.
-  name: GitHub Re-Deliver API
-  slug: github-re-deliver-api
-- description: The Re-Request API from GitHub — 2 operation(s) for re-request.
-  name: GitHub Re-Request API
-  slug: github-re-request-api
-- description: The Re-Run API from GitHub — 3 operation(s) for re-run.
-  name: GitHub Re-Run API
-  slug: github-re-run-api
-- description: The Reaction API from GitHub — 1 operation(s) for reaction.
-  name: GitHub Reaction API
-  slug: github-reaction-api
 - description: The Reactions API from GitHub — 16 operation(s) for reactions.
   name: GitHub Reactions API
   slug: github-reactions-api
-- description: The Read API from GitHub — 2 operation(s) for read.
-  name: GitHub Read API
-  slug: github-read-api
-- description: The Readme API from GitHub — 2 operation(s) for readme.
-  name: GitHub Readme API
-  slug: github-readme-api
-- description: The References API from GitHub — 10 operation(s) for references.
-  name: GitHub References API
-  slug: github-references-api
-- description: The Registration API from GitHub — 2 operation(s) for registration.
-  name: GitHub Registration API
-  slug: github-registration-api
-- description: The Releases API from GitHub — 10 operation(s) for releases.
-  name: GitHub Releases API
-  slug: github-releases-api
-- description: The Remove API from GitHub — 40 operation(s) for remove.
-  name: GitHub Remove API
-  slug: github-remove-api
-- description: The Rename API from GitHub — 1 operation(s) for rename.
-  name: GitHub Rename API
-  slug: github-rename-api
-- description: The Render API from GitHub — 2 operation(s) for render.
-  name: GitHub Render API
-  slug: github-render-api
-- description: The Replace API from GitHub — 1 operation(s) for replace.
-  name: GitHub Replace API
-  slug: github-replace-api
-- description: The Replicas API from GitHub — 2 operation(s) for replicas.
-  name: GitHub Replicas API
-  slug: github-replicas-api
-- description: The Replication API from GitHub — 1 operation(s) for replication.
-  name: GitHub Replication API
-  slug: github-replication-api
-- description: The Reply API from GitHub — 1 operation(s) for reply.
-  name: GitHub Reply API
-  slug: github-reply-api
-- description: The Repositories API from GitHub — 123 operation(s) for repositories.
-  name: GitHub Repositories API
-  slug: github-repositories-api
-- description: The Requested API from GitHub — 1 operation(s) for requested.
-  name: GitHub Requested API
-  slug: github-requested-api
-- description: The Requests API from GitHub — 21 operation(s) for requests.
-  name: GitHub Requests API
-  slug: github-requests-api
-- description: The Rerequest API from GitHub — 2 operation(s) for rerequest.
-  name: GitHub Rerequest API
-  slug: github-rerequest-api
-- description: The Reset API from GitHub — 1 operation(s) for reset.
-  name: GitHub Reset API
-  slug: github-reset-api
-- description: The Restore API from GitHub — 6 operation(s) for restore.
-  name: GitHub Restore API
-  slug: github-restore-api
-- description: The Restrictions API from GitHub — 4 operation(s) for restrictions.
-  name: GitHub Restrictions API
-  slug: github-restrictions-api
-- description: The Reviewers API from GitHub — 1 operation(s) for reviewers.
-  name: GitHub Reviewers API
-  slug: github-reviewers-api
-- description: The Reviews API from GitHub — 13 operation(s) for reviews.
-  name: GitHub Reviews API
-  slug: github-reviews-api
-- description: The Revoke API from GitHub — 1 operation(s) for revoke.
-  name: GitHub Revoke API
-  slug: github-revoke-api
-- description: The Role API from GitHub — 2 operation(s) for role.
-  name: GitHub Role API
-  slug: github-role-api
-- description: The Roles API from GitHub — 2 operation(s) for roles.
-  name: GitHub Roles API
-  slug: github-roles-api
-- description: The Runners API from GitHub — 16 operation(s) for runners.
-  name: GitHub Runners API
-  slug: github-runners-api
-- description: The Running API from GitHub — 1 operation(s) for running.
-  name: GitHub Running API
-  slug: github-running-api
-- description: The Runs API from GitHub — 22 operation(s) for runs.
-  name: GitHub Runs API
-  slug: github-runs-api
-- description: The Scanning API from GitHub — 11 operation(s) for scanning.
-  name: GitHub Scanning API
-  slug: github-scanning-api
-- description: The Scim API from GitHub — 4 operation(s) for scim.
-  name: GitHub Scim API
-  slug: github-scim-api
-- description: The Scoped API from GitHub — 1 operation(s) for scoped.
-  name: GitHub Scoped API
-  slug: github-scoped-api
 - description: Retrieve secret scanning alerts from a repository.
   name: GitHub Secret-Scanning API
   slug: github-secret-scanning-api
-- description: The Secrets API from GitHub — 19 operation(s) for secrets.
-  name: GitHub Secrets API
-  slug: github-secrets-api
-- description: The Security API from GitHub — 1 operation(s) for security.
-  name: GitHub Security API
-  slug: github-security-api
-- description: The Selected API from GitHub — 8 operation(s) for selected.
-  name: GitHub Selected API
-  slug: github-selected-api
-- description: The Self-Hosted API from GitHub — 14 operation(s) for self-hosted.
-  name: GitHub Self-Hosted API
-  slug: github-self-hosted-api
-- description: The Servers API from GitHub — 4 operation(s) for servers.
-  name: GitHub Servers API
-  slug: github-servers-api
-- description: The Sets API from GitHub — 32 operation(s) for sets.
-  name: GitHub Sets API
-  slug: github-sets-api
-- description: The Settings API from GitHub — 2 operation(s) for settings.
-  name: GitHub Settings API
-  slug: github-settings-api
-- description: The Setup API from GitHub — 2 operation(s) for setup.
-  name: GitHub Setup API
-  slug: github-setup-api
-- description: The Signatures API from GitHub — 1 operation(s) for signatures.
-  name: GitHub Signatures API
-  slug: github-signatures-api
-- description: The Single API from GitHub — 2 operation(s) for single.
-  name: GitHub Single API
-  slug: github-single-api
-- description: The Sites API from GitHub — 2 operation(s) for sites.
-  name: GitHub Sites API
-  slug: github-sites-api
-- description: The Software API from GitHub — 1 operation(s) for software.
-  name: GitHub Software API
-  slug: github-software-api
-- description: The Specific API from GitHub — 3 operation(s) for specific.
-  name: GitHub Specific API
-  slug: github-specific-api
-- description: The Ssh API from GitHub — 6 operation(s) for ssh.
-  name: GitHub Ssh API
-  slug: github-ssh-api
-- description: The Star API from GitHub — 2 operation(s) for star.
-  name: GitHub Star API
-  slug: github-star-api
-- description: The Stargazers API from GitHub — 1 operation(s) for stargazers.
-  name: GitHub Stargazers API
-  slug: github-stargazers-api
-- description: The Starred API from GitHub — 5 operation(s) for starred.
-  name: GitHub Starred API
-  slug: github-starred-api
-- description: The Start API from GitHub — 3 operation(s) for start.
-  name: GitHub Start API
-  slug: github-start-api
-- description: The State API from GitHub — 2 operation(s) for state.
-  name: GitHub State API
-  slug: github-state-api
-- description: The States API from GitHub — 1 operation(s) for states.
-  name: GitHub States API
-  slug: github-states-api
-- description: The Static Analysis Results Interchange Format API from GitHub — 2 operation(s) for static analysis results interchange format.
-  name: GitHub Static Analysis Results Interchange Format API
-  slug: github-static-analysis-results-interchange-format-api
-- description: The Status API from GitHub — 11 operation(s) for status.
-  name: GitHub Status API
-  slug: github-status-api
-- description: The Statuses API from GitHub — 2 operation(s) for statuses.
-  name: GitHub Statuses API
-  slug: github-statuses-api
-- description: The Subject API from GitHub — 2 operation(s) for subject.
-  name: GitHub Subject API
-  slug: github-subject-api
-- description: The Submit API from GitHub — 1 operation(s) for submit.
-  name: GitHub Submit API
-  slug: github-submit-api
-- description: The Subscriptions API from GitHub — 2 operation(s) for subscriptions.
-  name: GitHub Subscriptions API
-  slug: github-subscriptions-api
-- description: The Suites API from GitHub — 6 operation(s) for suites.
-  name: GitHub Suites API
-  slug: github-suites-api
-- description: The Suspend API from GitHub — 2 operation(s) for suspend.
-  name: GitHub Suspend API
-  slug: github-suspend-api
-- description: The Sync API from GitHub — 3 operation(s) for sync.
-  name: GitHub Sync API
-  slug: github-sync-api
-- description: The Tar API from GitHub — 1 operation(s) for tar.
-  name: GitHub Tar API
-  slug: github-tar-api
 - description: Interact with GitHub Teams.
   name: GitHub Teams API
   slug: github-teams-api
-- description: The Templates API from GitHub — 4 operation(s) for templates.
-  name: GitHub Templates API
-  slug: github-templates-api
-- description: The Tests API from GitHub — 1 operation(s) for tests.
-  name: GitHub Tests API
-  slug: github-tests-api
-- description: The Thread API from GitHub — 2 operation(s) for thread.
-  name: GitHub Thread API
-  slug: github-thread-api
-- description: The Timelines API from GitHub — 1 operation(s) for timelines.
-  name: GitHub Timelines API
-  slug: github-timelines-api
-- description: The Tokens API from GitHub — 11 operation(s) for tokens.
-  name: GitHub Tokens API
-  slug: github-tokens-api
-- description: The Topics API from GitHub — 2 operation(s) for topics.
-  name: GitHub Topics API
-  slug: github-topics-api
-- description: The Transfers API from GitHub — 1 operation(s) for transfers.
-  name: GitHub Transfers API
-  slug: github-transfers-api
-- description: The Trees API from GitHub — 2 operation(s) for trees.
-  name: GitHub Trees API
-  slug: github-trees-api
-- description: The Unlock API from GitHub — 2 operation(s) for unlock.
-  name: GitHub Unlock API
-  slug: github-unlock-api
-- description: The Unstar API from GitHub — 2 operation(s) for unstar.
-  name: GitHub Unstar API
-  slug: github-unstar-api
-- description: The Unsuspend API from GitHub — 2 operation(s) for unsuspend.
-  name: GitHub Unsuspend API
-  slug: github-unsuspend-api
-- description: The Update API from GitHub — 71 operation(s) for update.
-  name: GitHub Update API
-  slug: github-update-api
-- description: The Upgrade API from GitHub — 1 operation(s) for upgrade.
-  name: GitHub Upgrade API
-  slug: github-upgrade-api
-- description: The Upload API from GitHub — 3 operation(s) for upload.
-  name: GitHub Upload API
-  slug: github-upload-api
-- description: The Upstream API from GitHub — 1 operation(s) for upstream.
-  name: GitHub Upstream API
-  slug: github-upstream-api
-- description: The Usage API from GitHub — 4 operation(s) for usage.
-  name: GitHub Usage API
-  slug: github-usage-api
-- description: The Variables API from GitHub — 9 operation(s) for variables.
-  name: GitHub Variables API
-  slug: github-variables-api
-- description: The Versions API from GitHub — 10 operation(s) for versions.
-  name: GitHub Versions API
-  slug: github-versions-api
-- description: The Vulnerabilities API from GitHub — 1 operation(s) for vulnerabilities.
-  name: GitHub Vulnerabilities API
-  slug: github-vulnerabilities-api
-- description: The Watchers API from GitHub — 1 operation(s) for watchers.
-  name: GitHub Watchers API
-  slug: github-watchers-api
-- description: The Webhooks API from GitHub — 19 operation(s) for webhooks.
-  name: GitHub Webhooks API
-  slug: github-webhooks-api
-- description: The Weekly API from GitHub — 2 operation(s) for weekly.
-  name: GitHub Weekly API
-  slug: github-weekly-api
-- description: The Workflows API from GitHub — 24 operation(s) for workflows.
-  name: GitHub Workflows API
-  slug: github-workflows-api
-- description: The Year API from GitHub — 1 operation(s) for year.
-  name: GitHub Year API
-  slug: github-year-api
-- description: The Zen API from GitHub — 1 operation(s) for zen.
-  name: GitHub Zen API
-  slug: github-zen-api
-- description: The GitHub Application API API from GitHub — 0 operation(s) for github application api.
-  name: GitHub GitHub Application API API
-  slug: github-github-application-api-api
-- description: The GitHub Auth API API from GitHub — 0 operation(s) for github auth api.
-  name: GitHub GitHub Auth API API
-  slug: github-github-auth-api-api
-- description: The GitHub Code Of Conduct API API from GitHub — 0 operation(s) for github code of conduct api.
-  name: GitHub GitHub Code Of Conduct API API
-  slug: github-github-code-of-conduct-api-api
-- description: The GitHub Codes API from GitHub — 0 operation(s) for github codes.
-  name: GitHub GitHub Codes API
-  slug: github-github-codes-api
-- description: The GitHub Emojis API API from GitHub — 0 operation(s) for github emojis api.
-  name: GitHub GitHub Emojis API API
-  slug: github-github-emojis-api-api
-- description: The GitHub Feeds API API from GitHub — 0 operation(s) for github feeds api.
-  name: GitHub GitHub Feeds API API
-  slug: github-github-feeds-api-api
-- description: The GitHub Gists API API from GitHub — 0 operation(s) for github gists api.
-  name: GitHub GitHub Gists API API
-  slug: github-github-gists-api-api
-- description: The GitHub Gitignore Templates API API from GitHub — 0 operation(s) for github gitignore templates api.
-  name: GitHub GitHub Gitignore Templates API API
-  slug: github-github-gitignore-templates-api-api
-- description: The GitHub Installation API API from GitHub — 0 operation(s) for github installation api.
-  name: GitHub GitHub Installation API API
-  slug: github-github-installation-api-api
-- description: The GitHub Licenses API API from GitHub — 0 operation(s) for github licenses api.
-  name: GitHub GitHub Licenses API API
-  slug: github-github-licenses-api-api
-- description: The GitHub Manage API API from GitHub — 0 operation(s) for github manage api.
-  name: GitHub GitHub Manage API API
-  slug: github-github-manage-api-api
-- description: The GitHub Markdown API API from GitHub — 0 operation(s) for github markdown api.
-  name: GitHub GitHub Markdown API API
-  slug: github-github-markdown-api-api
-- description: The GitHub Meta API API from GitHub — 0 operation(s) for github meta api.
-  name: GitHub GitHub Meta API API
-  slug: github-github-meta-api-api
-- description: The GitHub Networks API API from GitHub — 0 operation(s) for github networks api.
-  name: GitHub GitHub Networks API API
-  slug: github-github-networks-api-api
-- description: The GitHub Notifications API API from GitHub — 0 operation(s) for github notifications api.
-  name: GitHub GitHub Notifications API API
-  slug: github-github-notifications-api-api
-- description: The GitHub Projects API API from GitHub — 0 operation(s) for github projects api.
-  name: GitHub GitHub Projects API API
-  slug: github-github-projects-api-api
-- description: The GitHub SCIM API API from GitHub — 0 operation(s) for github scim api.
-  name: GitHub GitHub SCIM API API
-  slug: github-github-scim-api-api
 - description: The GitHub V3 REST API API from GitHub — 0 operation(s) for github v3 rest api.
   name: GitHub GitHub V3 REST API API
   slug: github-github-v3-rest-api-api
@@ -1156,7 +292,7 @@ arazzos:
 - description: Confirm a head branch exists, then merge it into a base branch.
   name: GitHub Verify a Branch and Merge It
   slug: github-verify-and-merge-branch-workflow
-artifact_total: 1568
+artifact_total: 1280
 asyncapis:
 - description: GitHub Webhooks deliver HTTP POST payloads to a configured URL whenever specified events occur on GitHub, such as pushes, pull requests, issues, releases, and more. Webhooks can be configured at the r
   name: GitHub Webhooks
@@ -2309,6 +1445,10 @@ collections:
   name: GitHub Repos API
   slug: open-temp
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/github-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -4960,13 +4100,13 @@ modified: '2026-05-19'
 name: GitHub
 nav: Providers
 network: true
-overview: 'GitHub publishes 333 APIs on the [APIs.io](https://apis.io/) network, including Events API, Feeds API, Gists API, and 330 more. Tagged areas include Code, Pipelines, Platform, Software Development, and Source Control.
+overview: 'GitHub publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Gists API, Issues API, Licenses API, and 38 more. Tagged areas include Code, Pipelines, Platform, Software Development, and Source Control.
 
 
   The GitHub catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  GitHub''s developer surface includes authentication, documentation, CLI, support, getting-started guide, engineering blog, signup flow, and 62 more developer resources.'
+  GitHub''s developer surface includes authentication, documentation, CLI, support, getting-started guide, engineering blog, signup flow, and 63 more developer resources.'
 plans:
 - name: Github Plans Pricing
   plan_count: 3
@@ -5010,18 +4150,23 @@ rules:
   slug: github-spectral-rules
 score:
   band: strong
-  composite: 63.8
-  delta: 1.4
+  composite: 60.7
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 68.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 13.6
-    contract_quality: 79.7
+    contract_quality: 74.7
     developer_ergonomics: 83.3
-    discoverability: 66.7
+    discoverability: 48.1
     governance: 13.6
     operational_transparency: 68.4
-  previous_composite: 62.4
+  previous_composite: 60.7
   provenance:
     agentic_access: derived
     contracts:
@@ -5029,8 +4174,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 322
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github/refs/heads/main/screenshots/github-2026-06-20T181834.png
 security:

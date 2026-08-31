@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 241
   human_in_the_loop: 2
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 574
   slug: 1fort-agentic-access
   summary_line: 574 operations · 241 acting · 2 human-in-the-loop
-api_count: 89
+api_count: 2
 apis:
 - description: '**Access:** requires a JWT access token.'
   name: 1Fort agent_runtime (v2) API
@@ -577,6 +577,10 @@ collections:
   name: '1Fort API Documentation user: default-access-role API'
   slug: open-1fort-user-default-access-role-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/1fort-capability-edges.yml
 - group: agent
   title: ''
   type: MCPServer
@@ -733,32 +737,37 @@ modified: '2026-08-05'
 name: 1Fort
 nav: Providers
 network: true
-overview: '1Fort publishes 89 APIs on the [APIs.io](https://apis.io/) network, including agent_runtime (v2) API, Analytics API, application: applications API, and 86 more. Tagged areas include Insurance, Insurtech, Commercial Insurance, Cyber Insurance, and Insurance Broker.
+overview: '1Fort publishes 89 APIs on the [APIs.io](https://apis.io/) network, including agent_runtime (v2) API, Analytics API, application: applications API, and 86 more. Tagged areas include Insurance, insurtech, commercial-insurance, cyber-insurance, and insurance-broker.
 
 
   The 1Fort catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  1Fort''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 29 more developer resources.'
+  1Fort''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 30 more developer resources.'
 random_paper: 9
 rate_limits:
 - limit_count: 4
   name: 1Fort Rate Limits
   slug: 1fort-rate-limits
 score:
-  band: strong
-  composite: 57.6
-  delta: 0.0
+  band: developing
+  composite: 53.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 85.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 62.5
     developer_ergonomics: 37.5
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 57.4
+    governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 57.6
+  previous_composite: 54.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -775,8 +784,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1fort/refs/heads/main/screenshots/1fort-2026-08-07T160647.png
 security:
@@ -799,16 +808,16 @@ security:
 slug: 1fort
 tags:
 - Insurance
-- Insurtech
-- Commercial Insurance
-- Cyber Insurance
-- Insurance Broker
+- insurtech
+- commercial-insurance
+- cyber-insurance
+- insurance-broker
 - Quoting
-- Policy Management
+- policy-management
 - premium-finance
 - Payments
-- Workflow-Automation
-- Artificial Intelligence
-- Agentic AI
+- workflow-automation
+- artificial-intelligence
+- agentic-ai
 website: https://1fort.ai/
 ---

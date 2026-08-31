@@ -23,24 +23,77 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 28.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
-- description: The current Nabis Platform API. A read-only JSON REST API authenticated with a static x-nabis-access-token header, covering inventory and inventory history, orders, invoices, retailers, warehouses and
-  name: Nabis Platform API v2
-  slug: nabis-platform-api-v2
-- description: The original Nabis Platform API, published as a Redoc reference at developers.nabis.com and titled "Nabis Platform Api [DEPRECATED]" in its own specification. Four read-only operations — orders, detai
-  name: Nabis Platform API v1 (deprecated)
-  slug: nabis-platform-api-v1-deprecated
-- description: 'A first-party OpenAPI 3.0.0 domain model Nabis publishes in its public GitLab group for the Universal QR Code / Universal Cannabis API problem space — collections, sku batches and skus — with contact '
-  name: Nabis Universal QR Code API (design specification)
-  slug: nabis-universal-qr-code-api-design-specification
-artifact_total: 9
+- description: Information and updating of collections
+  name: Nabis Collection API
+  slug: nabis-collection-api
+- description: Inventory CSVs
+  name: Nabis Inventory API
+  slug: nabis-inventory-api
+- description: The Inventory History API from Nabis — 2 operation(s) for inventory history.
+  name: Nabis Inventory History API
+  slug: nabis-inventory-history-api
+- description: The Invoice API from Nabis — 1 operation(s) for invoice.
+  name: Nabis Invoice API
+  slug: nabis-invoice-api
+- description: Invoices/Aging Report CSVs
+  name: Nabis Invoices API
+  slug: nabis-invoices-api
+- description: The NabisDaysOff API from Nabis — 1 operation(s) for nabisdaysoff.
+  name: Nabis Nabis Days Off API
+  slug: nabis-nabisdaysoff-api
+- description: The NY Inventory API from Nabis — 3 operation(s) for ny inventory.
+  name: Nabis NY Inventory API
+  slug: nabis-ny-inventory-api
+- description: The NY Invoice API from Nabis — 1 operation(s) for ny invoice.
+  name: Nabis NY Invoice API
+  slug: nabis-ny-invoice-api
+- description: The NY Order API from Nabis — 2 operation(s) for ny order.
+  name: Nabis NY Order API
+  slug: nabis-ny-order-api
+- description: The NY Retailer API from Nabis — 2 operation(s) for ny retailer.
+  name: Nabis NY Retailer API
+  slug: nabis-ny-retailer-api
+- description: The NYWarehouse API from Nabis — 1 operation(s) for nywarehouse.
+  name: Nabis NY Warehouse API
+  slug: nabis-nywarehouse-api
+- description: The Order API from Nabis — 2 operation(s) for order.
+  name: Nabis Order API
+  slug: nabis-order-api
+- description: Order CSVs
+  name: Nabis Orders API
+  slug: nabis-orders-api
+- description: The Retailer API from Nabis — 2 operation(s) for retailer.
+  name: Nabis Retailer API
+  slug: nabis-retailer-api
+- description: Information about sku details
+  name: Nabis Sku API
+  slug: nabis-sku-api
+- description: Information and updating skubatches
+  name: Nabis Skubatch API
+  slug: nabis-skubatch-api
+- description: The Universal Cannabis Labeling API from Nabis — 3 operation(s) for universal cannabis labeling.
+  name: Nabis Universal Cannabis Labeling API
+  slug: nabis-universal-cannabis-labeling-api
+- description: The Warehouses API from Nabis — 1 operation(s) for warehouses.
+  name: Nabis Warehouses API
+  slug: nabis-warehouses-api
+artifact_total: 24
 collections:
 - collection_type: postman
   name: NABIS Platform API v2
   slug: postman-nabis-platform-api-v2
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nabis-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nabis-platform-api-v2-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -169,10 +222,10 @@ modified: '2026-08-26'
 name: Nabis
 nav: Providers
 network: true
-overview: 'Nabis publishes 3 APIs on the [APIs.io](https://apis.io/) network: Platform API v2, Platform API v1 (deprecated), and Universal QR Code API (design specification). Tagged areas include Cannabis, Distribution, Wholesale, Marketplace, and Logistics.
+overview: 'Nabis publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Collection API, Inventory API, Inventory History API, and 15 more. Tagged areas include Cannabis, Distribution, Wholesale, Marketplace, and Logistics.
 
 
-  Nabis'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 22 more developer resources.'
+  Nabis'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 24 more developer resources.'
 plans:
 - name: Nabis Plans Pricing
   plan_count: 0
@@ -184,16 +237,23 @@ rate_limits:
   slug: nabis-rate-limits
 score:
   band: developing
-  composite: 50.5
+  composite: 49.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 30.3
-    contract_quality: 45.8
+    contract_governance: 18.2
+    contract_quality: 49.4
     developer_ergonomics: 63.7
-    discoverability: 75.9
-    governance: 30.3
+    discoverability: 74.1
+    governance: 18.2
     operational_transparency: 63.2
+  previous_composite: 49.7
   provenance:
     conformance: first-party
     contracts:
@@ -203,8 +263,9 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Nabis Authentication
@@ -223,7 +284,7 @@ tags:
 - Logistics
 - Supply Chain
 - Inventory
-- Orders
+- Order
 - Invoicing
 - Retail
 - Compliance

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 8
 apis:
 - description: The APIKeyService API from Akuity — 4 operation(s) for apikeyservice.
@@ -248,7 +248,7 @@ modified: '2026-08-06'
 name: Akuity
 nav: Providers
 network: true
-overview: 'Akuity publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Key Service API, Argo CD Service API, Auth Service API, and 5 more. Tagged areas include GitOps, Continuous Delivery, Kubernetes, ArgoCD, and Kargo.
+overview: 'Akuity publishes 8 APIs on the [APIs.io](https://apis.io/) network, including API Key Service API, Argo CD Service API, Auth Service API, and 5 more. Tagged areas include GitOps, Continuous Delivery, Kubernetes, Argo CD, and Kargo.
 
 
   The Akuity catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -261,19 +261,24 @@ plans:
   slug: akuity-plans
 random_paper: 12
 score:
-  band: exemplar
-  composite: 67.8
+  band: strong
+  composite: 66.4
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 64.5
     developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 67.8
+  previous_composite: 66.4
   provenance:
     conformance: first-party
     contracts:
@@ -283,8 +288,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akuity/refs/heads/main/screenshots/akuity-2026-08-07T161137.png
 security:
@@ -309,7 +314,7 @@ tags:
 - GitOps
 - Continuous Delivery
 - Kubernetes
-- ArgoCD
+- Argo CD
 - Kargo
 - Platform Engineering
 - DevOps

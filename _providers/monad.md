@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 1
   slug: monad-agentic-access
   summary_line: 1 operation · 1 acting
-api_count: 13
+api_count: 1
 apis:
 - description: Public Ethereum-compatible JSON-RPC endpoint for Monad mainnet (chain ID 143, native token MON). Hosted on QuickNode infrastructure with a 25 requests/sec default rate limit; alternative public endpoi
   name: Monad Mainnet JSON-RPC
@@ -197,15 +197,20 @@ rate_limits:
   slug: monad-rate-limits
 score:
   band: thin
-  composite: 39.0
-  delta: 0.0
+  composite: 38.4
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 55.1
     developer_ergonomics: 39.3
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 39.0
@@ -216,8 +221,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monad/refs/heads/main/screenshots/monad-2026-06-20T185714.png
 security:

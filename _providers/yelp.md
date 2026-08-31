@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -95,6 +95,10 @@ collections:
   name: Yelp Fusion API
   slug: open-yelp
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Yelp/yelp-fusion/issues
 - group: commercial
   title: ''
   type: License
@@ -419,7 +423,7 @@ overview: 'Yelp publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   The Yelp catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Yelp''s developer surface includes authentication, engineering blog, documentation, getting-started guide, API reference, signup flow, developer console, and 29 more developer resources.'
+  Yelp''s developer surface includes authentication, engineering blog, documentation, getting-started guide, API reference, signup flow, developer console, and 30 more developer resources.'
 plans:
 - name: Yelp Plans Pricing
   plan_count: 5
@@ -452,9 +456,14 @@ rules:
     warn: 24
   slug: yelp-spectral-rules
 score:
-  band: strong
-  composite: 55.2
-  delta: 0.6
+  band: developing
+  composite: 49.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 35.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -464,7 +473,10 @@ score:
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 18.4
-  previous_composite: 54.6
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     contracts:
@@ -472,8 +484,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/screenshots/yelp-2026-06-20T201740.png
 security:

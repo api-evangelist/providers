@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 19
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 25
   slug: ninetyio-agentic-access
   summary_line: 25 operations · 19 acting · 19 human-in-the-loop
-api_count: 7
+api_count: 1
 apis:
 - description: The Issues API from Ninety.io — 3 operation(s) for issues.
   name: Ninety.io Issues API
@@ -241,18 +241,23 @@ overview: 'Ninety.io publishes 7 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 18
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 44.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 49.3
     developer_ergonomics: 49.4
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 46.4
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -263,8 +268,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ninetyio/refs/heads/main/screenshots/ninetyio-2026-08-07T185322.png
 security:

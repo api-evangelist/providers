@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 81
   slug: backpack-agentic-access
   summary_line: 81 operations · 21 acting
-api_count: 15
+api_count: 1
 apis:
 - description: Backpack Wallet is a self-custodial multichain wallet for Solana, Ethereum, and Bitcoin, originally built around the xNFT (executable NFT) protocol that lets dApps run as plugins inside the wallet. Av
   name: Backpack Wallet
@@ -476,18 +476,26 @@ rules:
   slug: backpack-rules
 score:
   band: strong
-  composite: 57.9
-  delta: 0.9
+  composite: 55.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 25.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.3
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 28.8
     contract_quality: 77.2
-    developer_ergonomics: 40.5
-    discoverability: 64.8
+    developer_ergonomics: 34.5
+    discoverability: 59.3
     governance: 28.8
-    operational_transparency: 60.5
-  previous_composite: 57.0
+    operational_transparency: 52.6
+  open_source:
+    applies: true
+    score: 60.0
+  previous_composite: 57.9
   provenance:
     agentic_access: derived
     contracts:
@@ -501,8 +509,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backpack/refs/heads/main/screenshots/backpack-2026-06-20T172915.png
 security:

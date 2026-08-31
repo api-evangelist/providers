@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: retool-agentic-access
   summary_line: 17 operations · 10 acting
-api_count: 7
+api_count: 1
 apis:
 - description: Retool implements a subset of the SCIM 2.0 API for automated user provisioning and group mapping through identity providers like Okta and Azure Active Directory (Entra ID). Available on Enterprise pla
   name: Retool SCIM 2.0 API
@@ -233,7 +233,7 @@ modified: '2026-05-19'
 name: Retool
 nav: Providers
 network: true
-overview: 'Retool publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Folders API, Groups API, and 2 more. Tagged areas include Admin Panel, Dashboard, Internal Tools, Low-Code, and No-Code.
+overview: 'Retool publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Apps API, Folders API, Groups API, and 2 more. Tagged areas include Admin Panel, Dashboard, Internal Tools, Low Code, and No Code.
 
 
   The Retool catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -273,15 +273,20 @@ rules:
   slug: retool-management-api-rules
 score:
   band: developing
-  composite: 49.9
-  delta: 0.0
+  composite: 49.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
     contract_governance: 28.8
     contract_quality: 70.4
     developer_ergonomics: 38.1
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 44.7
   previous_composite: 49.9
@@ -292,8 +297,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/screenshots/retool-2026-06-20T193043.png
 security:
@@ -314,7 +319,7 @@ tags:
 - Admin Panel
 - Dashboard
 - Internal Tools
-- Low-Code
-- No-Code
+- Low Code
+- No Code
 website: https://retool.com/
 ---

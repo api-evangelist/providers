@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-26'
-api_count: 37
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
 - description: The AdvancedForm API from Alleva — 8 operation(s) for advancedform.
   name: Alleva Advanced Form API
@@ -254,6 +254,10 @@ collections:
   name: Alleva Rest Users API
   slug: open-alleva-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/alleva-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -367,10 +371,10 @@ modified: '2026-08-06'
 name: Alleva
 nav: Providers
 network: true
-overview: 'Alleva publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Advanced Form API, Advanced Form Data Backup API, Advanced Form Element API, and 34 more. Tagged areas include Behavioral Health, Electronic Health Records, EMR, EHR, and Substance Use Disorder.
+overview: 'Alleva publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Advanced Form API, Advanced Form Data Backup API, Advanced Form Element API, and 34 more. Tagged areas include behavioral-health, electronic-health-records, emr, ehr, and substance-use-disorder.
 
 
-  Alleva''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 20 more developer resources.'
+  Alleva''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 21 more developer resources.'
 random_paper: 20
 scopes:
 - name: Alleva Scopes
@@ -379,18 +383,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 45.9
+  composite: 43.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 43.1
     developer_ergonomics: 37.5
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 15.8
-  previous_composite: 45.9
+  previous_composite: 43.3
   provenance:
     conformance: derived
     contracts:
@@ -402,12 +411,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 65.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alleva/refs/heads/main/screenshots/alleva-2026-08-07T161220.png
 security:
@@ -425,17 +438,17 @@ security:
   summary_line: SOC 2 Type II, HIPAA, ONC Certification (ONC Health IT Certification Program)
 slug: alleva
 tags:
-- Behavioral Health
-- Electronic Health Records
-- EMR
-- EHR
-- Substance Use Disorder
-- Mental Health
-- Healthcare
+- behavioral-health
+- electronic-health-records
+- emr
+- ehr
+- substance-use-disorder
+- mental-health
+- healthcare
 - treatment-centers
-- Clinical Documentation
-- Revenue Cycle Management
-- Patient Intake
-- Healthcare Compliance
+- clinical-documentation
+- revenue-cycle-management
+- patient-intake
+- healthcare-compliance
 website: https://helloalleva.com/
 ---

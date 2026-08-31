@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.1) exposing POST /v2/extract (x402 V2 paid), legacy POST /extract, GET /health, and GET /metrics. Converts text/HTML into schema-valid JSON. Includes llms.txt integration guide and
@@ -42,12 +42,17 @@ modified: '2026-07-19'
 name: SchemaSure
 nav: Providers
 network: true
-overview: 'SchemaSure publishes 1 API on the [APIs.io](https://apis.io/) network: Structured Extraction API. Tagged areas include Structured Data Extraction, text-to-JSON, JSON-Schema, Document Parsing, and Data Cleaning.'
+overview: 'SchemaSure publishes 1 API on the [APIs.io](https://apis.io/) network: Structured Extraction API. Tagged areas include structured-data-extraction, text-to-JSON, JSON-Schema, document-parsing, and data-cleaning.'
 random_paper: 1
 score:
   band: emerging
   composite: 15.9
-  delta: 3.3
+  coverage:
+    artifact_dirs: 1
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -63,19 +68,19 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 12.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 15.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: schemasure
 tags:
-- Structured Data Extraction
+- structured-data-extraction
 - text-to-JSON
 - JSON-Schema
-- Document Parsing
-- Data Cleaning
-- LLM Tooling
-- AI Agents
+- document-parsing
+- data-cleaning
+- LLM-tooling
+- AI-agents
 - x402-micropayments
 - agent-native
 - A2A

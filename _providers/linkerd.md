@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 12
   slug: linkerd-agentic-access
   summary_line: 12 operations · 7 acting · 1 human-in-the-loop
-api_count: 11
+api_count: 3
 apis:
 - description: The Linkerd Proxy Control Plane gRPC API defines the protobuf service contracts used by the data-plane proxy to communicate with the control plane. It includes the Destination API for service discover
   name: Linkerd Proxy Control Plane API
@@ -118,6 +118,10 @@ collections:
   name: Linkerd Viz Metrics API
   slug: open-linkerd-viz-metrics
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/linkerd-capability-edges.yml
 - group: operate
   title: ''
   type: Releases
@@ -253,7 +257,7 @@ overview: 'Linkerd publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
   The Linkerd catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Linkerd''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, release notes, Stack Overflow tag, and 17 more developer resources.'
+  Linkerd''s developer surface includes documentation, getting-started guide, engineering blog, changelog, support, release notes, Stack Overflow tag, and 18 more developer resources.'
 plans:
 - name: Linkerd Plans Pricing
   plan_count: 5
@@ -275,19 +279,27 @@ rules:
     warn: 5
   slug: linkerd-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 37.7
-  delta: 1.4
+  band: developing
+  composite: 39.3
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 57.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.2
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 9.8
-    contract_quality: 55.3
+    contract_quality: 56.6
     developer_ergonomics: 35.7
     discoverability: 55.6
     governance: 9.8
     operational_transparency: 36.8
-  previous_composite: 36.3
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 38.1
   provenance:
     agentic_access: derived
     contracts:
@@ -295,8 +307,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/screenshots/linkerd-2026-06-20T184545.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 37
   slug: modernfi-agentic-access
   summary_line: 37 operations · 19 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Accounts API from ModernFi — 5 operation(s) for accounts.
   name: ModernFi Accounts API
@@ -91,6 +91,10 @@ collections:
   name: API Reference Accounts Transactions API
   slug: open-modernfi-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/modernfi-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -206,22 +210,27 @@ network: true
 overview: 'ModernFi publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, auth API, customBenchmarks API, and 4 more. Tagged areas include Company, Banking, Deposits, Fintech, and Credit Unions.
 
 
-  ModernFi''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 18 more developer resources.'
+  ModernFi''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 19 more developer resources.'
 random_paper: 12
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 42.5
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 52.8
     developer_ergonomics: 63.7
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 45.6
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -238,8 +247,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 36.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modernfi/refs/heads/main/screenshots/modernfi-2026-08-07T184015.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: dnv-agentic-access
   summary_line: 5 operations
-api_count: 5
+api_count: 1
 apis:
 - description: DNV Veracity is an open and secure industry data platform facilitating exchange of datasets, APIs, applications, and insights across maritime, oil and gas, and energy sectors. Veracity APIs enable acc
   name: DNV Veracity Platform API
@@ -77,6 +77,10 @@ collections:
   name: DNV Class Status Certificates Vessels API
   slug: open-dnv-vessels-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/dnv-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -183,7 +187,7 @@ overview: 'DNV publishes 3 APIs on the [APIs.io](https://apis.io/) network: Cert
   The DNV catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  DNV''s developer surface includes authentication, developer portal, documentation, support, getting-started guide, and 15 more developer resources.'
+  DNV''s developer surface includes authentication, developer portal, documentation, support, getting-started guide, and 16 more developer resources.'
 plans:
 - name: Dnv Plans Pricing
   plan_count: 2
@@ -211,18 +215,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 52.1
-  delta: 1.4
+  composite: 51.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 59.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 9.8
     contract_quality: 63.3
     developer_ergonomics: 54.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 23.7
-  previous_composite: 50.7
+  previous_composite: 52.1
   provenance:
     agentic_access: derived
     contracts:
@@ -236,8 +245,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dnv/refs/heads/main/screenshots/dnv-2026-06-20T180105.png
 security:

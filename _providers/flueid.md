@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 1
@@ -31,13 +31,66 @@ agentic_access:
   operation_count: 132
   slug: flueid-agentic-access
   summary_line: 132 operations · 81 acting · 1 human-in-the-loop
-api_count: 1
+api_count: 2
 apis:
-- description: 'The Flueid Pro API is the REST contract behind the Flueid Pro property research and lead-discovery workspace. It publishes an OpenAPI 3.0.1 document with 132 operations across sixteen tags — Account, '
-  name: Flueid Pro API
-  slug: flueid-pro
-artifact_total: 7
+- description: The Account API from Flueid — 24 operation(s) for account.
+  name: Flueid Account API
+  slug: flueid-account-api
+- description: The AccountPartner API from Flueid — 2 operation(s) for accountpartner.
+  name: Flueid Account Partner API
+  slug: flueid-accountpartner-api
+- description: The ClientCompanies API from Flueid — 5 operation(s) for clientcompanies.
+  name: Flueid Client Companies API
+  slug: flueid-clientcompanies-api
+- description: The Documents API from Flueid — 1 operation(s) for documents.
+  name: Flueid Documents API
+  slug: flueid-documents-api
+- description: The Farms API from Flueid — 18 operation(s) for farms.
+  name: Flueid Farms API
+  slug: flueid-farms-api
+- description: The NewOrders API from Flueid — 15 operation(s) for neworders.
+  name: Flueid New Orders API
+  slug: flueid-neworders-api
+- description: The OrderDocumentSettings API from Flueid — 5 operation(s) for orderdocumentsettings.
+  name: Flueid Order Document Settings API
+  slug: flueid-orderdocumentsettings-api
+- description: The OrderEvents API from Flueid — 2 operation(s) for orderevents.
+  name: Flueid Order Events API
+  slug: flueid-orderevents-api
+- description: The OrderOptions API from Flueid — 2 operation(s) for orderoptions.
+  name: Flueid Order Options API
+  slug: flueid-orderoptions-api
+- description: The Orders API from Flueid — 10 operation(s) for orders.
+  name: Flueid Orders API
+  slug: flueid-orders-api
+- description: The PartnerOrderSettings API from Flueid — 10 operation(s) for partnerordersettings.
+  name: Flueid Partner Order Settings API
+  slug: flueid-partnerordersettings-api
+- description: The Partners API from Flueid — 11 operation(s) for partners.
+  name: Flueid Partners API
+  slug: flueid-partners-api
+- description: The Permissions API from Flueid — 3 operation(s) for permissions.
+  name: Flueid Permissions API
+  slug: flueid-permissions-api
+- description: The PropertyData API from Flueid — 22 operation(s) for propertydata.
+  name: Flueid Property Data API
+  slug: flueid-propertydata-api
+- description: The Public API from Flueid — 1 operation(s) for public.
+  name: Flueid Public API
+  slug: flueid-public-api
+- description: The Settings API from Flueid — 1 operation(s) for settings.
+  name: Flueid Settings API
+  slug: flueid-settings-api
+artifact_total: 22
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/flueid-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/flueid-pro-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -130,10 +183,10 @@ modified: '2026-08-16'
 name: Flueid
 nav: Providers
 network: true
-overview: 'Flueid publishes 1 API on the [APIs.io](https://apis.io/) network: Pro API. Tagged areas include Company, Real-Estate, Title Insurance, Mortgage, and Property Data.
+overview: 'Flueid publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account API, Account Partner API, Client Companies API, and 13 more. Tagged areas include Company, Real-Estate, Title Insurance, Mortgage, and Property Data.
 
 
-  Flueid''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
+  Flueid''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 17 more developer resources.'
 plans:
 - name: Flueid Plans Pricing
   plan_count: 0
@@ -145,18 +198,23 @@ rate_limits:
   slug: flueid-rate-limits
 score:
   band: thin
-  composite: 30.2
-  delta: 0.0
+  composite: 29.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
-    contract_governance: 30.3
-    contract_quality: 40.8
+    contract_governance: 18.2
+    contract_quality: 40.1
     developer_ergonomics: 30.4
-    discoverability: 68.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 15.8
-  previous_composite: 30.2
+  previous_composite: 29.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -169,12 +227,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: ccpa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 8
   slug: element5-agentic-access
   summary_line: 8 operations · 4 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Authorization related APIs
   name: Element5 Authorization API
@@ -52,6 +52,9 @@ apis:
 - description: Object Store related APIs
   name: Element5 Object Store API
   slug: element5-object-store-api
+- description: Generic E5 Task related APIs and Webhooks
+  name: Element5 Automation API
+  slug: element5-automation-api
 arazzos:
 - description: Upload a supporting file object, submit a prior-authorization request, then poll status.
   name: Element5 — Upload document and submit authorization
@@ -59,7 +62,7 @@ arazzos:
 - description: Submit an eligibility request and poll until the task succeeds or fails.
   name: Element5 — Verify eligibility and await result
   slug: element5-verify-eligibility
-artifact_total: 14
+artifact_total: 15
 asyncapis:
 - description: ''
   name: Element5 Webhooks
@@ -78,6 +81,10 @@ collections:
   name: Element5 Authorization Object Store API
   slug: open-element5-object-store-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/element5-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -186,28 +193,33 @@ modified: '2026-07-19'
 name: Element5
 nav: Providers
 network: true
-overview: 'Element5 publishes 3 APIs on the [APIs.io](https://apis.io/) network: Authorization API, Eligibility API, and Object Store API. Tagged areas include Company, Healthcare, Revenue Cycle Management, Post-Acute Care, and Workflow-Automation.
+overview: 'Element5 publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authorization API, Eligibility API, Object Store API, and 1 more. Tagged areas include Company, Healthcare, Revenue Cycle Management, Post-Acute Care, and Workflow-Automation.
 
 
   The Element5 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Element5''s developer surface includes authentication, sandbox, documentation, API reference, support, and 19 more developer resources.'
+  Element5''s developer surface includes authentication, sandbox, documentation, API reference, support, and 20 more developer resources.'
 random_paper: 1
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 44.0
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
-    contract_governance: 30.3
-    contract_quality: 67.8
+    contract_governance: 18.2
+    contract_quality: 63.1
     developer_ergonomics: 51.8
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 7.9
-  previous_composite: 47.2
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -220,12 +232,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 32.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/screenshots/element5-2026-07-25T213120.png
 security:

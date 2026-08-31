@@ -24,25 +24,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.0
-  scored_at: '2026-08-26'
-api_count: 5
+  scored_at: '2026-08-30'
+api_count: 6
 apis:
-- description: RESTful entry point to the Monetate decision engine. A client POSTs a batch of context events, page events and record events for a session and receives back the actions (experiences) the engine decide
-  name: Monetate Engine API
-  slug: monetate-engine-api
 - description: Create and manage data schemas and send customer, product and catalog data into Monetate in real time for use by the decision engine. Covers schema CRUD, schema types, upload history, row-level data P
   name: Monetate Data API
   slug: monetate-data-api
 - description: Read-only API returning metadata about a Monetate account so that experience, page-event and custom-target identifiers seen in engine responses and analytics exports can be resolved to human-interpret
   name: Monetate Metadata API
   slug: monetate-metadata-api
-- description: 'Issues and refreshes the bearer tokens used by the Data API and Metadata API. A signed JWT user key is exchanged for a token with a caller-specified TTL; the token is then sent as an `Authorization: T'
-  name: Monetate Auth API
-  slug: monetate-auth-api
 - description: Hosted Model Context Protocol server published on the monetate.com marketing site, advertised through RFC 8414 OAuth authorization-server metadata and RFC 9728 protected-resource metadata. Provided by
   name: Monetate Website MCP Server
   slug: monetate-website-mcp-server
-artifact_total: 17
+- description: The Decision API from Monetate — 1 operation(s) for decision.
+  name: Monetate Decision API
+  slug: monetate-decision-api
+- description: Product Catalog related endpoints.
+  name: Monetate Product Catalog API
+  slug: monetate-product-catalog-api
+- description: Schema related endpoints.
+  name: Monetate Schema API
+  slug: monetate-schema-api
+- description: API methods for manipulating tokens.
+  name: Monetate Token API
+  slug: monetate-token-api
+- description: File upload related endpoints.
+  name: Monetate Upload API
+  slug: monetate-upload-api
+artifact_total: 20
 collections:
 - collection_type: open
   name: Monetate Auth API
@@ -57,6 +66,14 @@ collections:
   name: Monetate Metadata API
   slug: open-monetate-metadata-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/monetate-engine-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/monetate-auth-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -204,10 +221,10 @@ modified: '2026-08-12'
 name: Monetate
 nav: Providers
 network: true
-overview: 'Monetate publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Engine API, Data API, Metadata API, and 1 more. Tagged areas include Company, Personalization, Experience Optimization, A/B Testing, and E-Commerce.
+overview: 'Monetate publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Data API, Metadata API, Decision API, and 4 more. Tagged areas include Company, Personalization, Experience Optimization, A/B Testing, and E-Commerce.
 
 
-  Monetate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+  Monetate''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Monetate Plans Pricing
   plan_count: 0
@@ -219,18 +236,23 @@ rate_limits:
   slug: monetate-rate-limits
 score:
   band: developing
-  composite: 52.7
+  composite: 50.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 16.7
-    contract_quality: 52.8
+    contract_governance: 4.5
+    contract_quality: 53.1
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 52.7
+  previous_composite: 50.2
   provenance:
     conformance: derived
     contracts:
@@ -240,8 +262,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monetate/refs/heads/main/screenshots/monetate-2026-08-17T081059.png
 security:

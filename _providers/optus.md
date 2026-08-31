@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -31,20 +31,8 @@ agentic_access:
   operation_count: 15
   slug: optus-agentic-access
   summary_line: 15 operations · 7 acting
-api_count: 10
+api_count: 4
 apis:
-- description: JSON REST API for sending single and bulk SMS from The Optus SMS Suite, including scheduled sends, broadcast to a list, and retrieval of a submitted message by 64-bit message ID. Authenticated with HT
-  name: Optus SMS Suite REST API v1
-  slug: optus-sms-suite-rest-api-v1
-- description: High-volume asynchronous SMS API using UUID-based message tracking, mandatory delivery-receipt (DLR) callbacks, and advanced scheduling. Requests are authenticated with HTTP Basic credentials passed i
-  name: Optus SMS Suite SMS Gateway REST API v2
-  slug: optus-sms-suite-rest-api-v2
-- description: REST API v1 for programmatic control of SMS marketing campaigns — creating and managing recipient lists, message templates, scheduled campaigns, and per-campaign reporting, scoped to a named SMS Suite
-  name: Optus SMS Suite Campaign Manager API
-  slug: optus-sms-suite-campaign-manager-api
-- description: 'Unauthenticated status API returning near real-time availability for individual Optus SMS Suite services (rest, smpp, and others), polled every 60 seconds from an external, geographically distributed '
-  name: Optus SMS Suite Health Monitoring API
-  slug: optus-sms-suite-health-monitoring-api
 - description: Hosted two-factor authentication API that creates an SMS one-time-code challenge for a mobile handset with POST /challenges and validates the user's entry with POST /responses, with customisable messa
   name: Optus SMS Suite 2FA REST API
   slug: optus-sms-suite-2fa-rest-api
@@ -63,7 +51,34 @@ apis:
 - description: Direct SMSC connectivity over SMPP 3.3 and 3.4 with mandatory TLS, offering high-throughput binary messaging, custom character encoding, and detailed delivery reporting. A wire protocol rather than an
   name: Optus SMS Suite SMPP API
   slug: optus-sms-suite-smpp-api
-artifact_total: 21
+- description: The Delete Multiple Lists API from Optus — 1 operation(s) for delete multiple lists.
+  name: Optus Delete Multiple Lists API
+  slug: optus-delete-multiple-lists-api
+- description: The documentation API from Optus — 1 operation(s) for documentation.
+  name: Optus Documentation API
+  slug: optus-documentation-api
+- description: The Lists API from Optus — 2 operation(s) for lists.
+  name: Optus Lists API
+  slug: optus-lists-api
+- description: The Messages API from Optus — 3 operation(s) for messages.
+  name: Optus Messages API
+  slug: optus-messages-api
+- description: The Report API from Optus — 1 operation(s) for report.
+  name: Optus Report API
+  slug: optus-report-api
+- description: The Scheduled Campaigns API from Optus — 1 operation(s) for scheduled campaigns.
+  name: Optus Scheduled Campaigns API
+  slug: optus-scheduled-campaigns-api
+- description: The Services API from Optus — 1 operation(s) for services.
+  name: Optus Services API
+  slug: optus-services-api
+- description: The Status API from Optus — 1 operation(s) for status.
+  name: Optus Status API
+  slug: optus-status-api
+- description: The Templates API from Optus — 1 operation(s) for templates.
+  name: Optus Templates API
+  slug: optus-templates-api
+artifact_total: 26
 asyncapis:
 - description: Derived event description for the callbacks The Optus SMS Suite POSTs to subscriber-hosted URLs. Optus publishes NO AsyncAPI document; this file was derived by API Evangelist from two sources that are
   name: The Optus SMS Suite Callback Surface
@@ -82,6 +97,38 @@ collections:
   name: Omni Status API
   slug: open-optus-sms-suite-status
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/optus-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/optus-sms-suite-rest-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/optus-sms-suite-rest-v2-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/optus-send-and-reconcile-sms.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/optus-sms-suite-campaign-manager-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/optus-run-sms-campaign.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/optus-sms-suite-status-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/optus-check-service-health.md
 - group: company
   title: ''
   type: Website
@@ -235,28 +282,33 @@ modified: '2026-07-25'
 name: Optus
 nav: Providers
 network: true
-overview: 'Optus publishes 4 APIs on the [APIs.io](https://apis.io/) network, including SMS Suite REST API v1, SMS Suite SMS Gateway REST API v2, SMS Suite Campaign Manager API, and 1 more. Tagged areas include Telecommunications, Australia, Mobile Network Operator, Messaging, and SMS.
+overview: 'Optus publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Delete Multiple Lists API, Documentation API, Lists API, and 6 more. Tagged areas include Telecommunications, Australia, Mobile Network Operator, Messaging, and SMS.
 
 
   The Optus catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Optus'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 28 more developer resources.'
+  Optus'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, changelog, and 36 more developer resources.'
 random_paper: 4
 score:
   band: developing
-  composite: 54.0
+  composite: 53.3
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 30.3
-    contract_quality: 49.0
+    contract_governance: 18.2
+    contract_quality: 51.7
     developer_ergonomics: 56.5
     discoverability: 64.8
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 57.9
-  previous_composite: 54.0
+  previous_composite: 53.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -273,8 +325,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 62.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/screenshots/optus-2026-08-07T190818.png
 security:

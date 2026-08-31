@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 237
   human_in_the_loop: 11
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 306
   slug: fabric-com-agentic-access
   summary_line: 306 operations · 237 acting · 11 human-in-the-loop
-api_count: 61
+api_count: 16
 apis:
 - description: This endpoint helps perform additional operations for inventory management.
   name: fabric Actions Endpoints API
@@ -464,6 +464,10 @@ collections:
   name: Cart Orchestrator API
   slug: open-fabric-shopperxp
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fabric-com-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -611,7 +615,7 @@ overview: 'fabric publishes 61 APIs on the [APIs.io](https://apis.io/) network, 
   The fabric catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  fabric''s developer surface includes authentication, signup flow, developer portal, documentation, changelog, engineering blog, GitHub presence, and 16 more developer resources.'
+  fabric''s developer surface includes authentication, signup flow, developer portal, documentation, changelog, engineering blog, GitHub presence, and 17 more developer resources.'
 plans:
 - name: Fabric Com Plans Pricing
   plan_count: 2
@@ -644,18 +648,23 @@ rules:
   slug: fabric-com-rules
 score:
   band: thin
-  composite: 36.8
+  composite: 36.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 65.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 25.0
-    contract_quality: 64.9
+    contract_quality: 64.3
     developer_ergonomics: 26.2
     discoverability: 40.7
     governance: 25.0
     operational_transparency: 5.3
-  previous_composite: 36.8
+  previous_composite: 36.6
   provenance:
     agentic_access: derived
     contracts:
@@ -669,8 +678,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fabric-com/refs/heads/main/screenshots/fabric-com-2026-06-20T181000.png
 security:

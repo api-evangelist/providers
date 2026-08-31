@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 13
   slug: persistiq-agentic-access
   summary_line: 13 operations · 5 acting
-api_count: 10
+api_count: 2
 apis:
 - description: Outreach campaigns
   name: PersistIQ Campaigns API
@@ -64,16 +64,22 @@ apis:
 - description: Company users
   name: PersistIQ Users API
   slug: persistiq-users-api
-- description: Tags used to organize prospects. Exposed only by PersistIQ's own OpenAPI document; absent from the published API reference.
-  name: PersistIQ Tags API
-  slug: persistiq-tags-api
-- description: Campaign inbox replies — list prospect replies with their sentiment, and send a reply back through the connected mailbox. Exposed only by PersistIQ's own OpenAPI document.
+- description: The Campaign Leads API from PersistIQ — 2 operation(s) for campaign leads.
+  name: PersistIQ Campaign Leads API
+  slug: persistiq-campaign-leads-api
+- description: The DNC Domains API from PersistIQ — 1 operation(s) for dnc domains.
+  name: PersistIQ DNC Domains API
+  slug: persistiq-dnc-domains-api
+- description: The Replies API from PersistIQ — 1 operation(s) for replies.
   name: PersistIQ Replies API
   slug: persistiq-replies-api
-- description: Per-company webhook configuration — five events (new prospect, updated prospect, raw activity events, email reply, email opened), each with its own enable flag and destination URL.
+- description: The Tags API from PersistIQ — 1 operation(s) for tags.
+  name: PersistIQ Tags API
+  slug: persistiq-tags-api
+- description: The Webhook Plugin API from PersistIQ — 1 operation(s) for webhook plugin.
   name: PersistIQ Webhook Plugin API
   slug: persistiq-webhook-plugin-api
-artifact_total: 25
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Persistiq Webhooks
@@ -104,6 +110,10 @@ collections:
   name: PersistIQ Campaigns Users API
   slug: open-persistiq-users-api
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/persistiq-handle-campaign-replies.md
 - group: docs
   title: ''
   type: OpenAPI
@@ -244,13 +254,13 @@ modified: '2026-08-13'
 name: PersistIQ
 nav: Providers
 network: true
-overview: 'PersistIQ publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Do Not Contact Domains API, Events API, and 7 more. Tagged areas include Company, Sales Engagement, Sales, Outbound, and Email Outreach.
+overview: 'PersistIQ publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Do Not Contact Domains API, Events API, and 9 more. Tagged areas include Company, Sales Engagement, Sales, Outbound, and Email Outreach.
 
 
   The PersistIQ catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  PersistIQ''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 25 more developer resources.'
+  PersistIQ''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, support, engineering blog, and 26 more developer resources.'
 plans:
 - name: Persistiq Plans Pricing
   plan_count: 0
@@ -262,18 +272,23 @@ rate_limits:
   slug: persistiq-rate-limits
 score:
   band: developing
-  composite: 51.9
-  delta: 0.0
+  composite: 48.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
-    contract_quality: 61.2
+    contract_governance: 4.5
+    contract_quality: 57.6
     developer_ergonomics: 56.5
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 51.9
+  previous_composite: 49.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -284,8 +299,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/persistiq/refs/heads/main/screenshots/persistiq-2026-08-17T081210.png
 security:
@@ -308,6 +323,6 @@ tags:
 - Lead Management
 - Marketing
 - Webhook
-- SEP
+- Sales Engagement Platform
 website: https://persistiq.com
 ---

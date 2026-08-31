@@ -33,12 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-08-26'
-api_count: 11
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: Public REST API for CaltechDATA, the Caltech institutional research data repository. Returns published records with DataCite 4 metadata, files, version chains and DOIs. Verified live 2026-08-19 return
-  name: CaltechDATA REST API
-  slug: caltechdata-rest
 - description: OAI-PMH 2.0 metadata harvesting endpoint for CaltechDATA. Verified live 2026-08-19 via the Identify verb (repositoryName CaltechDATA, protocolVersion 2.0) and via ListMetadataFormats, which advertises
   name: CaltechDATA OAI-PMH
   slug: caltechdata-oai
@@ -48,9 +45,6 @@ apis:
 - description: A metadata service built and operated by Caltech Library (v1.6), harvesting its institutional repositories, public directory and archival systems into static JSON datasets published for data-science u
   name: Caltech Library Feeds
   slug: library-feeds
-- description: The Southern California Earthquake Data Center, operated by the Caltech Seismological Laboratory, exposes FDSN-standard seismic web services — fdsnws-event, fdsnws-station and fdsnws-dataselect. Verif
-  name: SCEDC FDSN Web Services
-  slug: scedc-fdsn
 - description: The NASA/IPAC Infrared Science Archive exposes IVOA-standard Virtual Observatory interfaces — Table Access Protocol (TAP/ADQL), Simple Cone Search and Simple Image Access v2 — over NASA infrared and s
   name: IRSA Virtual Observatory APIs (Caltech/IPAC)
   slug: irsa-vo
@@ -69,7 +63,19 @@ apis:
 - description: Caltech Library's OpenURL link resolver is an EBSCO tenancy — instance `l7ubco` on the shared host resolver.ebsco.com — referenced from Caltech's own library pages. Recorded as a relationship only — n
   name: EBSCO Link Resolver (Caltech instance)
   slug: ebsco-resolver
-artifact_total: 21
+- description: Time-series waveform retrieval (fdsnws-dataselect).
+  name: California Institute of Technology Data Select API
+  slug: caltech-dataselect-api
+- description: Earthquake event catalog queries (fdsnws-event).
+  name: California Institute of Technology Event API
+  slug: caltech-event-api
+- description: Published research data records, their metadata, files and DOIs.
+  name: California Institute of Technology Records API
+  slug: caltech-records-api
+- description: Station and channel metadata queries (fdsnws-station).
+  name: California Institute of Technology Station API
+  slug: caltech-station-api
+artifact_total: 23
 common:
 - group: company
   title: ''
@@ -224,7 +230,7 @@ modified: '2026-08-19'
 name: California Institute of Technology
 nav: Providers
 network: true
-overview: 'California Institute of Technology publishes 2 APIs on the [APIs.io](https://apis.io/) network: CaltechDATA REST API and SCEDC FDSN Web Services. Tagged areas include University, Higher Education, Education, Private Research University, and Institute of Technology.
+overview: 'California Institute of Technology publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Data Select API, Event API, Records API, and 1 more. Tagged areas include University, Higher Education, Education, Private Research University, and Institute of Technology.
 
 
   The California Institute of Technology catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -254,17 +260,22 @@ rules:
 score:
   band: thin
   composite: 31.7
-  delta: 2.6
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 45.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 3.8
-    contract_quality: 25.4
+    contract_quality: 25.5
     developer_ergonomics: 28.6
     discoverability: 64.8
     governance: 3.8
     operational_transparency: 23.7
-  previous_composite: 29.1
+  previous_composite: 31.7
   provenance:
     conformance: first-party
     contracts:
@@ -278,8 +289,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 38.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caltech/refs/heads/main/screenshots/caltech-2026-06-20T173852.png
 security:

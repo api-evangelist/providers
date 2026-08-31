@@ -23,45 +23,76 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-08-26'
-api_count: 10
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: Property record retrieval for Australian properties — core and extended property detail, images, floorplans, street view, maps, schools, radial searches for nearby sales, rentals, listings, properties
-  name: Pricefinder Property API
-  slug: pricefinder-property-api
-- description: Automated valuation model output for a property, returned as JSON via GET /properties/{propertyId}/avm against the AVM schema, and as a rendered PDF via /properties/{propertyId}/avm/pdf. Auto-CMA sale
-  name: Pricefinder AVM & Valuation API
-  slug: pricefinder-avm-api
-- description: Retrieval of individual sale, rental and listing records by identifier, and enumeration of sales, rentals and listings scoped by suburb, postcode, street or spatial boundary. Backed by Domain and Allh
-  name: Pricefinder Sales, Rentals & Listings API
-  slug: pricefinder-sales-rentals-listings-api
-- description: Suburb-level market intelligence — suburb detail and summary, demographics, flyover reports and PDFs, street enumeration, peak selling periods, sale price segmentation, and time series for sales, rent
-  name: Pricefinder Suburb & Market Statistics API
-  slug: pricefinder-suburb-statistics-api
-- description: 'State-by-state resolution of Australian land title references to Pricefinder property records — NSW, VIC, QLD, SA, WA, TAS, NT and ACT plan/planType, lot, section, volume, folio and division lookups, '
-  name: Pricefinder Title & Land Reference API
-  slug: pricefinder-title-reference-api
-- description: Address, street, suburb and typeahead suggestion endpoints, lon/lat reverse suggestion, owner-name search across properties and sales, and spatial queries returning properties, sales, rentals and list
-  name: Pricefinder Search & Suggest API
-  slug: pricefinder-search-api
-- description: Comparative market analysis and appraisal artifacts — sales CMA, rental CMA and statement-of-information retrieval by appraisal share identifier (standard and extended), appraisal listing and insights
-  name: Pricefinder Appraisals & CMA API
+- description: The appraisals API from Pricefinder — 11 operation(s) for appraisals.
+  name: Pricefinder Appraisals API
   slug: pricefinder-appraisals-api
-- description: Subscribe, list and delete property event alerts for ForSale, ForRent, Sold and SoldVerified event types, per property or for the current user. The documentation states these are delivered as email no
-  name: Pricefinder Property Event Subscriptions API
-  slug: pricefinder-event-subscriptions-api
-- description: 'Single sign-on deep links that hand an authenticated user into the Pricefinder web application at a specific context — a property, its CMA, sales or rental appraisal, statement of information, radial '
+- description: The events API from Pricefinder — 1 operation(s) for events.
+  name: Pricefinder Events API
+  slug: pricefinder-events-api
+- description: The features API from Pricefinder — 1 operation(s) for features.
+  name: Pricefinder Features API
+  slug: pricefinder-features-api
+- description: The images API from Pricefinder — 1 operation(s) for images.
+  name: Pricefinder Images API
+  slug: pricefinder-images-api
+- description: The listings API from Pricefinder — 1 operation(s) for listings.
+  name: Pricefinder Listings API
+  slug: pricefinder-listings-api
+- description: The names API from Pricefinder — 3 operation(s) for names.
+  name: Pricefinder Names API
+  slug: pricefinder-names-api
+- description: The oauth2 API from Pricefinder — 1 operation(s) for oauth2.
+  name: Pricefinder Oauth2 API
+  slug: pricefinder-oauth2-api
+- description: The postcodes API from Pricefinder — 4 operation(s) for postcodes.
+  name: Pricefinder Postcodes API
+  slug: pricefinder-postcodes-api
+- description: The properties API from Pricefinder — 20 operation(s) for properties.
+  name: Pricefinder Properties API
+  slug: pricefinder-properties-api
+- description: The references API from Pricefinder — 25 operation(s) for references.
+  name: Pricefinder References API
+  slug: pricefinder-references-api
+- description: The rentals API from Pricefinder — 1 operation(s) for rentals.
+  name: Pricefinder Rentals API
+  slug: pricefinder-rentals-api
+- description: The sales API from Pricefinder — 1 operation(s) for sales.
+  name: Pricefinder Sales API
+  slug: pricefinder-sales-api
+- description: The spatial API from Pricefinder — 4 operation(s) for spatial.
+  name: Pricefinder Spatial API
+  slug: pricefinder-spatial-api
+- description: The sso API from Pricefinder — 9 operation(s) for sso.
   name: Pricefinder SSO API
   slug: pricefinder-sso-api
-- description: 'POST /oauth2/token issuing access and refresh tokens for three documented grant types: client_credentials (API user''s own username and password, HTTP Basic accepted as an alternative to form parameter'
-  name: Pricefinder OAuth 2.0 Token API
-  slug: pricefinder-oauth2-api
-artifact_total: 14
+- description: The streets API from Pricefinder — 4 operation(s) for streets.
+  name: Pricefinder Streets API
+  slug: pricefinder-streets-api
+- description: The stubs API from Pricefinder — 1 operation(s) for stubs.
+  name: Pricefinder Stubs API
+  slug: pricefinder-stubs-api
+- description: The subscriptions API from Pricefinder — 3 operation(s) for subscriptions.
+  name: Pricefinder Subscriptions API
+  slug: pricefinder-subscriptions-api
+- description: The suburbs API from Pricefinder — 15 operation(s) for suburbs.
+  name: Pricefinder Suburbs API
+  slug: pricefinder-suburbs-api
+- description: The suggest API from Pricefinder — 6 operation(s) for suggest.
+  name: Pricefinder Suggest API
+  slug: pricefinder-suggest-api
+artifact_total: 23
 collections:
 - collection_type: open
   name: PriceFinder API v1.13.1
   slug: open-pricefinder-api-swagger
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pricefinder-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -171,25 +202,30 @@ modified: '2026-07-26'
 name: Pricefinder
 nav: Providers
 network: true
-overview: 'Pricefinder publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Property API, AVM & Valuation API, Sales, Rentals & Listings API, and 7 more. Tagged areas include Real-Estate, Australia, PropTech, Property Data, and Valuation.
+overview: 'Pricefinder publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Appraisals API, Events API, Features API, and 16 more. Tagged areas include Real-Estate, Australia, PropTech, Property Data, and Valuation.
 
 
-  Pricefinder''s developer surface includes API reference, signup flow, support, documentation, authentication, and 19 more developer resources.'
+  Pricefinder''s developer surface includes API reference, signup flow, support, documentation, authentication, and 20 more developer resources.'
 random_paper: 8
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 36.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 26.7
+    contract_governance: 4.5
+    contract_quality: 35.7
     developer_ergonomics: 51.8
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 35.8
+  previous_composite: 36.6
   provenance:
     conformance: derived
     contracts:
@@ -205,8 +241,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pricefinder/refs/heads/main/screenshots/pricefinder-2026-07-27T125408.png
 security:

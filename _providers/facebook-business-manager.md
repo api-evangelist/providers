@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 33
   slug: facebook-business-manager-agentic-access
   summary_line: 33 operations · 17 acting
-api_count: 23
+api_count: 2
 apis:
 - description: Send web and offline events directly to Facebook for improved tracking and attribution.
   name: Facebook Conversions API
@@ -214,6 +214,10 @@ collections:
   name: Facebook Business Manager Facebook Pages API
   slug: open-facebook-pages
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/facebook-business-manager-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -557,7 +561,7 @@ overview: 'Facebook Business Manager publishes 14 APIs on the [APIs.io](https://
   The Facebook Business Manager catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Facebook Business Manager''s developer surface includes authentication, developer portal, developer console, support, getting-started guide, documentation, changelog, and 48 more developer resources.'
+  Facebook Business Manager''s developer surface includes authentication, developer portal, developer console, support, getting-started guide, documentation, changelog, and 49 more developer resources.'
 plans:
 - name: Facebook Business Manager Plans Pricing
   plan_count: 3
@@ -585,18 +589,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 70.5
-  delta: 1.9
+  composite: 67.3
+  coverage:
+    artifact_dirs: 33
+    catalog_gap: 50.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
-    contract_governance: 40.2
+    contract_governance: 28.0
     contract_quality: 66.5
     developer_ergonomics: 87.5
-    discoverability: 87.0
-    governance: 40.2
+    discoverability: 70.4
+    governance: 28.0
     operational_transparency: 76.3
-  previous_composite: 68.6
+  previous_composite: 67.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -607,8 +616,8 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/screenshots/facebook-business-manager-2026-06-20T181003.png
 security:

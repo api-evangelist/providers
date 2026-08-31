@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: vesselfinder-agentic-access
   summary_line: 13 operations · 3 acting
-api_count: 10
+api_count: 2
 apis:
 - description: Real-time container track-and-trace.
   name: VesselFinder Containers API
@@ -146,6 +146,10 @@ collections:
   name: VesselFinder AIS Containers Vessels List API
   slug: open-vesselfinder-vessels-list-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vesselfinder-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -338,7 +342,7 @@ overview: 'VesselFinder publishes 10 APIs on the [APIs.io](https://apis.io/) net
   The VesselFinder catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  VesselFinder''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, FAQ, support, and 25 more developer resources.'
+  VesselFinder''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, FAQ, support, and 26 more developer resources.'
 plans:
 - name: Vesselfinder Plans Pricing
   plan_count: 10
@@ -372,15 +376,20 @@ rules:
   slug: vesselfinder-rules
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 51.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 28.8
     contract_quality: 68.9
     developer_ergonomics: 50.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
     operational_transparency: 5.3
   previous_composite: 52.1
@@ -391,8 +400,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/screenshots/vesselfinder-2026-06-20T201006.png
 security:

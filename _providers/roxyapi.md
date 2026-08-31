@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Production REST API covering 12 spiritual intelligence domains with 164+ endpoints under a single API key, authenticated via X-API-Key header. Documented by a live OpenAPI 3.1 spec and interactive ref
@@ -42,12 +42,17 @@ modified: '2026-07-09'
 name: RoxyAPI
 nav: Providers
 network: true
-overview: 'RoxyAPI publishes 1 API on the [APIs.io](https://apis.io/) network: REST API v2. Tagged areas include Astrology, Vedic Astrology, numerology, tarot, and human-design.'
+overview: 'RoxyAPI publishes 1 API on the [APIs.io](https://apis.io/) network: REST API v2. Tagged areas include astrology, vedic-astrology, numerology, tarot, and human-design.'
 random_paper: 3
 score:
   band: emerging
   composite: 16.9
-  delta: 4.3
+  coverage:
+    artifact_dirs: 1
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -63,14 +68,14 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 12.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 16.9
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: roxyapi
 tags:
-- Astrology
-- Vedic Astrology
+- astrology
+- vedic-astrology
 - numerology
 - tarot
 - human-design
@@ -78,12 +83,12 @@ tags:
 - biorhythm
 - iching
 - crystals
-- dreams
+- Dreams
 - angel-numbers
 - Location
 - spiritual
-- Wellness
-- MCP Server
+- wellness
+- mcp-server
 - OpenAPI
 - llms-txt
 - agent-native

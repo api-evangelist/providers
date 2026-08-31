@@ -35,17 +35,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
-- description: 'REST API giving programmatic access to UK and Ireland public sector procurement data — notices, buyers, suppliers and framework agreements — as JSON over HTTPS. Eight read-only operations across four '
-  name: Stotles Public API
-  slug: stotles-public-api
 - description: Hosted, remote Model Context Protocol server exposing Stotles public sector market data to AI chat tools and agents. Streamable-HTTP transport at api.stotles.com/mcp, authenticated with the same x-api
   name: Stotles MCP Server
   slug: stotles-mcp-server
-artifact_total: 9
+- description: Public sector buyers and their procurement activity.
+  name: Stotles Buyers API
+  slug: stotles-buyers-api
+- description: Framework agreements and dynamic purchasing systems.
+  name: Stotles Frameworks API
+  slug: stotles-frameworks-api
+- description: Public sector procurement notices.
+  name: Stotles Notices API
+  slug: stotles-notices-api
+- description: Suppliers bidding for and winning public sector contracts.
+  name: Stotles Suppliers API
+  slug: stotles-suppliers-api
+artifact_total: 12
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/stotles-public-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -146,10 +163,10 @@ modified: '2026-08-14'
 name: Stotles
 nav: Providers
 network: true
-overview: 'Stotles publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, Procurement, Public Sector, Government, and Tenders.
+overview: 'Stotles publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Buyers API, Frameworks API, Notices API, and 1 more. Tagged areas include Company, Procurement, Public Sector, Government, and Tenders.
 
 
-  Stotles'' developer surface includes documentation, support, getting-started guide, signup flow, pricing, engineering blog, and 15 more developer resources.'
+  Stotles'' developer surface includes documentation, support, getting-started guide, signup flow, pricing, engineering blog, and 17 more developer resources.'
 plans:
 - name: Stotles Plans Pricing
   plan_count: 11
@@ -161,18 +178,23 @@ rate_limits:
   slug: stotles-rate-limits
 score:
   band: strong
-  composite: 59.6
-  delta: 6.8
+  composite: 57.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 30.3
-    contract_quality: 61.9
+    contract_governance: 18.2
+    contract_quality: 59.9
     developer_ergonomics: 49.4
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 52.8
+  previous_composite: 58.2
   provenance:
     conformance: first-party
     contracts:
@@ -184,13 +206,17 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stotles/refs/heads/main/screenshots/stotles-2026-08-17T082131.png
 security:
 - kind: authentication
@@ -217,7 +243,7 @@ tags:
 - Market Intelligence
 - OpenAPI
 - MCP
-- agent-native
+- Agent Native
 - Contract Awards
 - Framework Agreements
 - CPV

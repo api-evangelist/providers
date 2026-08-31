@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
-api_count: 45
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The AD Base Entities API from SpecterOps — 3 operation(s) for ad base entities.
   name: SpecterOps AD Base Entities API
@@ -87,9 +87,6 @@ apis:
 - description: The Collectors API from SpecterOps — 6 operation(s) for collectors.
   name: SpecterOps Collectors API
   slug: specterops-collectors-api
-- description: The Community API from SpecterOps — 177 operation(s) for community.
-  name: SpecterOps Community API
-  slug: specterops-community-api
 - description: The Computers API from SpecterOps — 16 operation(s) for computers.
   name: SpecterOps Computers API
   slug: specterops-computers-api
@@ -117,9 +114,6 @@ apis:
 - description: The Domains API from SpecterOps — 16 operation(s) for domains.
   name: SpecterOps Domains API
   slug: specterops-domains-api
-- description: The Enterprise API from SpecterOps — 230 operation(s) for enterprise.
-  name: SpecterOps Enterprise API
-  slug: specterops-enterprise-api
 - description: The Enterprise CAs API from SpecterOps — 4 operation(s) for enterprise cas.
   name: SpecterOps Enterprise CAs API
   slug: specterops-enterprise-cas-api
@@ -171,7 +165,7 @@ apis:
 - description: The Tasks API from SpecterOps — 9 operation(s) for tasks.
   name: SpecterOps Tasks API
   slug: specterops-tasks-api
-artifact_total: 96
+artifact_total: 94
 collections:
 - collection_type: open
   name: API Collection
@@ -312,6 +306,10 @@ collections:
   name: BloodHound AD Base Entities Tasks API
   slug: open-specterops-tasks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/specterops-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -444,25 +442,30 @@ modified: '2026-07-21'
 name: SpecterOps
 nav: Providers
 network: true
-overview: 'SpecterOps publishes 45 APIs on the [APIs.io](https://apis.io/) network, including AD Base Entities API, AD Users API, AIA CAs API, and 42 more. Tagged areas include Company, Cybersecurity, Identity, Active Directory, and Attack Path Management.
+overview: 'SpecterOps publishes 43 APIs on the [APIs.io](https://apis.io/) network, including AD Base Entities API, AD Users API, AIA CAs API, and 40 more. Tagged areas include Company, Cybersecurity, Identity, Active Directory, and Attack Path Management.
 
 
-  SpecterOps'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
+  SpecterOps'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 24 more developer resources.'
 random_paper: 4
 score:
   band: developing
-  composite: 52.3
-  delta: 0.0
+  composite: 50.3
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
-    contract_quality: 56.5
+    contract_governance: 4.5
+    contract_quality: 56.7
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 52.3
+  previous_composite: 50.9
   provenance:
     conformance: derived
     contracts:
@@ -472,8 +475,8 @@ score:
       total: 45
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/specterops/refs/heads/main/screenshots/specterops-2026-08-17T082020.png
 security:

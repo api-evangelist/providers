@@ -23,25 +23,82 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.6
-  scored_at: '2026-08-26'
-api_count: 5
+  scored_at: '2026-08-30'
+api_count: 10
 apis:
-- description: 'Read and write the ESG data core of the Measurabl platform: portfolios, buildings, spaces, funds, energy and water meters and their readings and bills, waste meters and readings, green building certif'
-  name: Measurabl Core API
-  slug: measurabl-core-api
-- description: 'Asset-level building intelligence (the Insights surface): submit buildings by coordinates, address or Measurabl building id and receive modeled energy estimates, carbon estimates, green building certi'
-  name: Measurabl ESGx Buildings API
-  slug: measurabl-esgx-buildings-api
-- description: 'Listed real estate ESG datasets for capital markets: list available listed-real-estate reports and retrieve their company-level and building-level data sets, with pre-signed URL downloads for each dat'
-  name: Measurabl ESGx Securities API
-  slug: measurabl-esgx-securities-api
-- description: List and download the compliance files published alongside the ESGx Securities listed real estate datasets, with pre-signed URL redirect downloads.
-  name: Measurabl ESGx Securities Compliance Files API
-  slug: measurabl-esgx-securities-compliance-files-api
-- description: 'Partner-facing surface for integration partners acting on behalf of a Measurabl customer: list portfolios, list the buildings in a portfolio, and read monthly utility data for a building.'
-  name: Measurabl Partner API
-  slug: measurabl-partner-api
-artifact_total: 17
+- description: The Buildings API from Measurabl — 6 operation(s) for buildings.
+  name: Measurabl Buildings API
+  slug: measurabl-buildings-api
+- description: The Carbon Estimates API from Measurabl — 7 operation(s) for carbon estimates.
+  name: Measurabl Carbon Estimates API
+  slug: measurabl-carbon-estimates-api
+- description: The Certification Lookups API from Measurabl — 7 operation(s) for certification lookups.
+  name: Measurabl Certification Lookups API
+  slug: measurabl-certification-lookups-api
+- description: The Certification Types API from Measurabl — 1 operation(s) for certification types.
+  name: Measurabl Certification Types API
+  slug: measurabl-certification-types-api
+- description: The Certifications API from Measurabl — 3 operation(s) for certifications.
+  name: Measurabl Certifications API
+  slug: measurabl-certifications-api
+- description: The Energy and Water Meter Bills API from Measurabl — 1 operation(s) for energy and water meter bills.
+  name: Measurabl Energy and Water Meter Bills API
+  slug: measurabl-energy-and-water-meter-bills-api
+- description: The Energy and Water Meter Readings API from Measurabl — 2 operation(s) for energy and water meter readings.
+  name: Measurabl Energy and Water Meter Readings API
+  slug: measurabl-energy-and-water-meter-readings-api
+- description: The Energy and Water Meter Spaces API from Measurabl — 2 operation(s) for energy and water meter spaces.
+  name: Measurabl Energy and Water Meter Spaces API
+  slug: measurabl-energy-and-water-meter-spaces-api
+- description: The Energy and Water Meters API from Measurabl — 3 operation(s) for energy and water meters.
+  name: Measurabl Energy and Water Meters API
+  slug: measurabl-energy-and-water-meters-api
+- description: The Energy Estimates API from Measurabl — 7 operation(s) for energy estimates.
+  name: Measurabl Energy Estimates API
+  slug: measurabl-energy-estimates-api
+- description: The Exports API from Measurabl — 3 operation(s) for exports.
+  name: Measurabl Exports API
+  slug: measurabl-exports-api
+- description: The Funds API from Measurabl — 2 operation(s) for funds.
+  name: Measurabl Funds API
+  slug: measurabl-funds-api
+- description: The Funds Buildings API from Measurabl — 1 operation(s) for funds buildings.
+  name: Measurabl Funds Buildings API
+  slug: measurabl-funds-buildings-api
+- description: The Listed Real Estate Compliance Files API from Measurabl — 3 operation(s) for listed real estate compliance files.
+  name: Measurabl Listed Real Estate Compliance Files API
+  slug: measurabl-listed-real-estate-compliance-files-api
+- description: The Listed Real Estate Reports API from Measurabl — 8 operation(s) for listed real estate reports.
+  name: Measurabl Listed Real Estate Reports API
+  slug: measurabl-listed-real-estate-reports-api
+- description: The Ordinance Lookups API from Measurabl — 7 operation(s) for ordinance lookups.
+  name: Measurabl Ordinance Lookups API
+  slug: measurabl-ordinance-lookups-api
+- description: The Ordinances API from Measurabl — 1 operation(s) for ordinances.
+  name: Measurabl Ordinances API
+  slug: measurabl-ordinances-api
+- description: The Portfolios API from Measurabl — 3 operation(s) for portfolios.
+  name: Measurabl Portfolios API
+  slug: measurabl-portfolios-api
+- description: The Ratings API from Measurabl — 3 operation(s) for ratings.
+  name: Measurabl Ratings API
+  slug: measurabl-ratings-api
+- description: The Space Certifications API from Measurabl — 2 operation(s) for space certifications.
+  name: Measurabl Space Certifications API
+  slug: measurabl-space-certifications-api
+- description: The Space Ratings API from Measurabl — 1 operation(s) for space ratings.
+  name: Measurabl Space Ratings API
+  slug: measurabl-space-ratings-api
+- description: The Spaces API from Measurabl — 2 operation(s) for spaces.
+  name: Measurabl Spaces API
+  slug: measurabl-spaces-api
+- description: The Waste Meter Readings API from Measurabl — 2 operation(s) for waste meter readings.
+  name: Measurabl Waste Meter Readings API
+  slug: measurabl-waste-meter-readings-api
+- description: The Waste Meters API from Measurabl — 3 operation(s) for waste meters.
+  name: Measurabl Waste Meters API
+  slug: measurabl-waste-meters-api
+artifact_total: 36
 collections:
 - collection_type: open
   name: Measurabl Core API
@@ -59,6 +116,30 @@ collections:
   name: Partner API V0
   slug: open-measurabl-partners
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/measurabl-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/measurabl-core-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/measurabl-esgx-buildings-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/measurabl-esgx-securities-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/measurabl-esgx-securities-compliance-files-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/measurabl-partners-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -200,10 +281,10 @@ modified: '2026-08-01'
 name: Measurabl
 nav: Providers
 network: true
-overview: 'Measurabl publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Core API, ESGx Buildings API, ESGx Securities API, and 2 more. Tagged areas include ESG, Real-Estate, Sustainability, Carbon Accounting, and Energy Management.
+overview: 'Measurabl publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Buildings API, Carbon Estimates API, Certification Lookups API, and 21 more. Tagged areas include ESG, real-estate, sustainability, carbon-accounting, and energy-management.
 
 
-  Measurabl''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 25 more developer resources.'
+  Measurabl''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 31 more developer resources.'
 random_paper: 11
 rate_limits:
 - limit_count: 3
@@ -216,18 +297,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.9
-  delta: 2.3
+  composite: 50.0
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.0
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
-    contract_governance: 16.7
-    contract_quality: 51.3
+    contract_governance: 4.5
+    contract_quality: 51.2
     developer_ergonomics: 58.9
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 50.0
+    governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 51.6
+  previous_composite: 51.0
   provenance:
     conformance: derived
     contracts:
@@ -239,12 +325,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/measurabl/refs/heads/main/screenshots/measurabl-2026-08-07T172304.png
 security:
@@ -267,16 +357,16 @@ security:
 slug: measurabl
 tags:
 - ESG
-- Real-Estate
-- Sustainability
-- Carbon Accounting
-- Energy Management
-- Building Performance
-- Climate Risk
-- Benchmarking
+- real-estate
+- sustainability
+- carbon-accounting
+- energy-management
+- building-performance
+- climate-risk
+- benchmarking
 - Compliance
-- PropTech
-- Utility Data
-- Capital Markets
+- proptech
+- utility-data
+- capital-markets
 website: https://www.measurabl.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 5
   slug: google-flutter-agentic-access
   summary_line: 5 operations
-api_count: 3
+api_count: 1
 apis:
 - description: The Dart Analysis Server provides a JSON-based protocol for IDE integration, enabling code analysis, completion, navigation, refactoring, and diagnostics for Dart and Flutter projects.
   name: Dart Analysis Server Protocol
@@ -191,15 +191,20 @@ rules:
   slug: google-flutter-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.5
-  delta: 0.0
+  composite: 48.9
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 50.8
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 9.8
     contract_quality: 56.8
     developer_ergonomics: 61.9
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 9.8
     operational_transparency: 23.7
   previous_composite: 49.5
@@ -210,8 +215,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/screenshots/google-flutter-2026-06-20T182202.png
 security:

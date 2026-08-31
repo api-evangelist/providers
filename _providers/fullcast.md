@@ -35,19 +35,28 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.6
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The HTTP API behind the in-platform Fullcast Assistant (copilot) and the assistant-hosted Fullcast MCP Server. Covers chat sessions, message history, feedback, assistant configuration lifecycle, and a
-  name: Fullcast Assistant API
-  slug: fullcast-assistant-api
 - description: 'Fullcast''s remote Model Context Protocol server, exposing go-to-market planning, territory and team hierarchy, coverage, targets, reporting, commissions and document operations to external AI clients '
   name: Fullcast MCP Server
   slug: fullcast-mcp-server
 - description: The Copy.ai Workflows API, acquired by Fullcast in October 2025 and documented on Fullcast's own support host as Fullcast Copy.ai. Programmatically starts GTM workflow runs, polls run status, and regi
   name: Fullcast Copy.ai Workflows API
   slug: fullcast-copyai-workflows-api
-artifact_total: 11
+- description: The Copilot Api API from Fullcast — 10 operation(s) for copilot api.
+  name: Fullcast Copilot API
+  slug: fullcast-copilot-api-api
+- description: The Mcp Info API from Fullcast — 1 operation(s) for mcp info.
+  name: Fullcast Mcp Info API
+  slug: fullcast-mcp-info-api
+- description: The oauth API from Fullcast — 5 operation(s) for oauth.
+  name: Fullcast OAUTH API
+  slug: fullcast-oauth-api
+- description: The .well Known API from Fullcast — 2 operation(s) for .well known.
+  name: Fullcast .well Known API
+  slug: fullcast-well-known-api
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Fullcast Copy Ai Webhooks
@@ -209,7 +218,7 @@ modified: '2026-08-13'
 name: Fullcast
 nav: Providers
 network: true
-overview: 'Fullcast publishes 1 API on the [APIs.io](https://apis.io/) network: Assistant API. Tagged areas include Company, Enterprise, Revenue Operations, Sales Planning, and Territory Management.
+overview: 'Fullcast publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Copilot API, Mcp Info API, OAUTH API, and 1 more. Tagged areas include Company, Enterprise, Revenue Operations, Sales Planning, and Territory Management.
 
 
   The Fullcast catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -231,25 +240,30 @@ scopes:
   slug: fullcast-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: strong
-  composite: 54.8
-  delta: 0.0
+  band: developing
+  composite: 51.4
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
-    contract_governance: 30.3
-    contract_quality: 57.9
+    contract_governance: 18.2
+    contract_quality: 56.7
     developer_ergonomics: 63.7
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 54.8
+  previous_composite: 51.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/screenshots/fullcast-2026-07-25T215257.png
 security:
@@ -272,7 +286,7 @@ tags:
 - Revenue Operations
 - Sales Planning
 - Territory Management
-- Go-To-Market
+- Go-to-Market
 - Incentive Compensation
 - Forecasting
 - Lead Routing

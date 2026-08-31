@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.3
-  scored_at: '2026-08-26'
+  score: 23.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 98
   slug: yodlee-agentic-access
   summary_line: 98 operations · 48 acting · 1 human-in-the-loop
-api_count: 23
+api_count: 1
 apis:
 - description: The Yodlee Account Verification API enables real-time verification of bank account ownership and balance. Supports verification workflows via FastLink 4, holder profile retrieval, verified account sta
   name: Yodlee Account Verification API
@@ -275,18 +275,23 @@ rate_limits:
   slug: yodlee-rate-limits
 score:
   band: thin
-  composite: 32.2
-  delta: 0.0
+  composite: 32.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 53.6
+    contract_quality: 58.4
     developer_ergonomics: 28.6
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 32.2
+  previous_composite: 33.4
   provenance:
     agentic_access: derived
     contracts:
@@ -300,8 +305,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 19.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yodlee/refs/heads/main/screenshots/yodlee-2026-06-20T201752.png
 security:

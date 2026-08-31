@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 31
   slug: figma-agentic-access
   summary_line: 31 operations · 6 acting
-api_count: 16
+api_count: 3
 apis:
 - description: Figma Files API provides access to design file data including document trees, nodes, images, version history, and file metadata. Read and export design data from Figma files programmatically.
   name: Figma Files API
@@ -236,6 +236,10 @@ collections:
   name: Figma Activity Logs Webhooks API
   slug: open-figma-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/figma-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -1985,7 +1989,7 @@ overview: 'Figma publishes 16 APIs on the [APIs.io](https://apis.io/) network, i
   The Figma catalog on APIs.io includes 1 event-driven AsyncAPI specification, 13 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Figma''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, signup flow, pricing, and 71 more developer resources.'
+  Figma''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, signup flow, pricing, and 72 more developer resources.'
 plans:
 - name: Figma Plans Pricing
   plan_count: 4
@@ -2035,18 +2039,26 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: strong
-  composite: 65.7
-  delta: 1.9
+  composite: 59.3
+  coverage:
+    artifact_dirs: 36
+    catalog_gap: 49.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -3.8
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 77.9
     developer_ergonomics: 69.0
-    discoverability: 77.8
-    governance: 45.5
+    discoverability: 66.7
+    governance: 33.3
     operational_transparency: 52.6
-  previous_composite: 63.8
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 63.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2056,8 +2068,8 @@ score:
       marker_coverage: 0.0
       total: 16
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/screenshots/figma-2026-06-20T181157.png
 security:

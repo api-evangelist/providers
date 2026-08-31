@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
@@ -130,7 +130,7 @@ modified: '2026-05-24'
 name: PsiQuantum
 nav: Providers
 network: true
-overview: 'PsiQuantum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Photonic Quantum Computing, Fault-Tolerant Quantum Computing, FTQC, and Single Photon Qubits.
+overview: 'PsiQuantum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Photonic Quantum Computing, Fault Tolerant Quantum Computing, FTQC, and Single Photon Qubits.
 
 
   PsiQuantum''s developer surface includes GitHub presence, product news, YouTube channel, and 18 more developer resources.'
@@ -138,6 +138,11 @@ random_paper: 19
 score:
   band: minimal
   composite: 5.7
+  coverage:
+    artifact_dirs: 2
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -149,8 +154,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 5.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/psiquantum/refs/heads/main/screenshots/psiquantum-2026-06-20T192235.png
 security:
@@ -162,7 +167,7 @@ slug: psiquantum
 tags:
 - Quantum Computing
 - Photonic Quantum Computing
-- Fault-Tolerant Quantum Computing
+- Fault Tolerant Quantum Computing
 - FTQC
 - Single Photon Qubits
 - Silicon Photonics
@@ -174,7 +179,7 @@ tags:
 - Circuit Designer
 - Bartiq
 - QREF
-- Semiconductors
+- Semiconductor
 - Hardware
 website: https://www.psiquantum.com
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 154
   slug: oura-ring-agentic-access
   summary_line: 154 operations · 8 acting
-api_count: 22
+api_count: 2
 apis:
 - description: The Daily Activity Routes API from Oura — 2 operation(s) for daily activity routes.
   name: Oura Daily Activity Routes API
@@ -250,6 +250,10 @@ collections:
   name: Oura Daily Activity Routes Workout Routes API
   slug: open-oura-ring-workout-routes-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/oura-ring-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -450,7 +454,7 @@ overview: 'Oura publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
   The Oura catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Oura''s developer surface includes developer portal, documentation, getting-started guide, signup flow, authentication, engineering blog, support, and 25 more developer resources.'
+  Oura''s developer surface includes developer portal, documentation, getting-started guide, signup flow, authentication, engineering blog, support, and 26 more developer resources.'
 plans:
 - name: Oura Ring Plans Pricing
   plan_count: 6
@@ -484,15 +488,20 @@ rules:
   slug: oura-ring-rules
 score:
   band: strong
-  composite: 59.1
-  delta: 0.0
+  composite: 58.6
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 47.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 81.6
     commercial_clarity: 81.6
     contract_governance: 13.6
     contract_quality: 55.9
     developer_ergonomics: 54.8
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 44.7
   previous_composite: 59.1
@@ -509,8 +518,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oura-ring/refs/heads/main/screenshots/oura-ring-2026-06-20T191228.png
 security:

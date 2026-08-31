@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-26'
-api_count: 7
+  scored_at: '2026-08-30'
+api_count: 5
 apis:
 - description: The Address API API from Solidus Labs — 1 operation(s) for address api.
   name: Solidus Labs Address API API
@@ -248,19 +248,24 @@ rate_limits:
   name: Solidus Labs Rate Limits
   slug: solidus-labs-rate-limits
 score:
-  band: exemplar
-  composite: 67.4
-  delta: 0.6
+  band: strong
+  composite: 66.0
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 50.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 68.2
     developer_ergonomics: 72.6
     discoverability: 81.5
-    governance: 45.5
+    governance: 33.3
     operational_transparency: 57.9
-  previous_composite: 66.8
+  previous_composite: 66.0
   provenance:
     conformance: first-party
     contracts:
@@ -270,8 +275,8 @@ score:
       total: 7
     mcp: derived
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solidus-labs/refs/heads/main/screenshots/solidus-labs-2026-08-17T080424.png
 security:

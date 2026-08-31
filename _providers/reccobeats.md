@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 14
   slug: reccobeats-agentic-access
   summary_line: 14 operations · 1 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Album metadata and tracklists.
   name: ReccoBeats Album API
@@ -88,6 +88,10 @@ collections:
   name: ReccoBeats API
   slug: open-reccobeats
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/reccobeats-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -135,7 +139,7 @@ network: true
 overview: 'ReccoBeats publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Album API, Artist API, Audio Analysis API, and 3 more. Tagged areas include Music, Recommendations, Audio Features, Audio Analysis, and Music Database.
 
 
-  ReccoBeats'' developer surface includes engineering blog, documentation, and 6 more developer resources.'
+  ReccoBeats'' developer surface includes engineering blog, documentation, and 7 more developer resources.'
 plans:
 - name: Reccobeats Plans Pricing
   plan_count: 1
@@ -147,18 +151,23 @@ rate_limits:
   slug: reccobeats-rate-limits
 score:
   band: thin
-  composite: 34.8
-  delta: 2.4
+  composite: 34.2
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 51.0
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 32.4
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -166,8 +175,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

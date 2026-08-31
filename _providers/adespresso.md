@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/hootsuite/
 - group: company
   title: ''
   type: Website
@@ -120,7 +124,7 @@ network: true
 overview: 'AdEspresso is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Facebook Ads, Instagram Ads, and Social Media Marketing.
 
 
-  AdEspresso''s developer surface includes pricing, engineering blog, support, signup flow, and 11 more developer resources.'
+  AdEspresso''s developer surface includes pricing, engineering blog, support, signup flow, and 12 more developer resources.'
 plans:
 - name: Adespresso Plans Pricing
   plan_count: 3
@@ -132,7 +136,12 @@ rate_limits:
   slug: adespresso-rate-limits
 score:
   band: emerging
-  composite: 22.0
+  composite: 22.8
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 76.3
@@ -140,12 +149,12 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 7.1
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 22.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  previous_composite: 22.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adespresso/refs/heads/main/screenshots/adespresso-2026-07-25T181626.png
 security:

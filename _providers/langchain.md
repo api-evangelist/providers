@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 309
   human_in_the_loop: 8
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 506
   slug: langchain-agentic-access
   summary_line: 506 operations · 309 acting · 8 human-in-the-loop
-api_count: 66
+api_count: 1
 apis:
 - description: The access_policies API from LangChain — 3 operation(s) for access_policies.
   name: LangChain access_policies API
@@ -449,6 +449,10 @@ collections:
   name: LangSmith
   slug: open-langchain
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/langchain-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -528,7 +532,7 @@ network: true
 overview: 'LangChain publishes 66 APIs on the [APIs.io](https://apis.io/) network, including access_policies API, ace API, alert_rules API, and 63 more. Tagged areas include Agents, Artificial Intelligence, Large Language Models, LLM Observability, and Tracing.
 
 
-  LangChain''s developer surface includes authentication, engineering blog, documentation, changelog, pricing, support, GitHub presence, and 8 more developer resources.'
+  LangChain''s developer surface includes authentication, engineering blog, documentation, changelog, pricing, support, GitHub presence, and 9 more developer resources.'
 plans:
 - name: Langchain Plans Pricing
   plan_count: 3
@@ -539,19 +543,24 @@ rate_limits:
   name: Langchain Rate Limits
   slug: langchain-rate-limits
 score:
-  band: developing
-  composite: 40.2
-  delta: 2.6
+  band: thin
+  composite: 37.8
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 82.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 55.4
     developer_ergonomics: 35.7
-    discoverability: 75.9
+    discoverability: 51.9
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 37.6
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -559,8 +568,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 66
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langchain/refs/heads/main/screenshots/langchain-2026-06-20T184304.png
 security:

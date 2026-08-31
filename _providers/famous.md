@@ -34,18 +34,28 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: 'The Spring (formerly Teespring) Seller API — a Swagger 2.0 contract with 24 operations across three surfaces: `seller/v1/*` (the authenticated seller''s dashboard, campaigns, orders, payouts, promotion'
-  name: Spring Seller API
-  slug: spring-seller-api
-artifact_total: 7
+- description: Operations about internals
+  name: Famous Internal API
+  slug: famous-internal-api
+- description: Operations about sellers
+  name: Famous Seller API
+  slug: famous-seller-api
+- description: Operations about v1s
+  name: Famous V1 API
+  slug: famous-v1-api
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
   slug: open-famous-spring-api-swagger
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/famous-spring-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -191,10 +201,10 @@ modified: '2026-08-13'
 name: Famous
 nav: Providers
 network: true
-overview: 'Famous publishes 1 API on the [APIs.io](https://apis.io/) network: Spring Seller API. Tagged areas include Company, Creator Economy, Commerce, Live Shopping, and Media.
+overview: 'Famous publishes 3 APIs on the [APIs.io](https://apis.io/) network: Internal API, Seller API, and V1 API. Tagged areas include Company, Creator Economy, Commerce, Live Shopping, and Media.
 
 
-  Famous'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 27 more developer resources.'
+  Famous'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 28 more developer resources.'
 plans:
 - name: Famous Plans Pricing
   plan_count: 3
@@ -206,24 +216,29 @@ rate_limits:
   slug: famous-rate-limits
 score:
   band: developing
-  composite: 44.5
-  delta: 0.0
+  composite: 42.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
-    contract_quality: 36.1
+    contract_governance: 4.5
+    contract_quality: 34.7
     developer_ergonomics: 48.2
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 13.2
-  previous_composite: 44.5
+  previous_composite: 43.2
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/screenshots/famous-2026-07-25T214205.png
 security:

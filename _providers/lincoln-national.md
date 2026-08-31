@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 3
   slug: lincoln-national-agentic-access
   summary_line: 3 operations · 2 acting
-api_count: 3
+api_count: 1
 apis:
 - description: The Enrollment API from Lincoln National — 1 operation(s) for enrollment.
   name: Lincoln National Enrollment API
@@ -70,6 +70,10 @@ collections:
   name: Lincoln Financial LincSmart APIs
   slug: open-lincoln-national
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lincoln-national-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -113,7 +117,7 @@ network: true
 overview: 'Lincoln National publishes 3 APIs on the [APIs.io](https://apis.io/) network: Enrollment API, Eoi API, and Plan Design API. Tagged areas include Annuities, Benefits, Enrollment, HR, and Insurance.
 
 
-  Lincoln National''s developer surface includes developer portal and 6 more developer resources.'
+  Lincoln National''s developer surface includes developer portal and 7 more developer resources.'
 plans:
 - name: Lincoln National Plans Pricing
   plan_count: 1
@@ -141,18 +145,23 @@ rate_limits:
   slug: lincoln-national-rate-limits
 score:
   band: emerging
-  composite: 24.9
-  delta: 1.9
+  composite: 24.4
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 52.4
     developer_ergonomics: 19.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 23.0
+  previous_composite: 24.9
   provenance:
     agentic_access: derived
     contracts:
@@ -166,8 +175,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/screenshots/lincoln-national-2026-06-20T184534.png
 security:

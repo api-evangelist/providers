@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: boost-insurance-agentic-access
   summary_line: 4 operations · 4 acting
-api_count: 4
+api_count: 1
 apis:
 - description: The Authentication API from Boost Insurance — 1 operation(s) for authentication.
   name: Boost Insurance Authentication API
@@ -77,6 +77,10 @@ collections:
   name: Boost Insurance API
   slug: open-boost-insurance
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/boost-insurance-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -129,10 +133,10 @@ modified: '2026-06-25'
 name: Boost Insurance
 nav: Providers
 network: true
-overview: 'Boost Insurance publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Claims API, Policies API, and 1 more. Tagged areas include Insurance, Embedded Insurance, Insurance As A Service, Policy Administration, and Claims.
+overview: 'Boost Insurance publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Claims API, Policies API, and 1 more. Tagged areas include Insurance, Embedded Insurance, Insurance-as-a-Service, Policy Administration, and Claims.
 
 
-  Boost Insurance''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Boost Insurance''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Boost Insurance Plans Pricing
   plan_count: 1
@@ -149,18 +153,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 33.5
-  delta: -0.9
+  composite: 32.9
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 46.9
     developer_ergonomics: 16.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 34.4
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -174,8 +183,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 43.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/screenshots/boost-insurance-2026-07-25T203625.png
 security:
@@ -191,7 +200,7 @@ slug: boost-insurance
 tags:
 - Insurance
 - Embedded Insurance
-- Insurance As A Service
+- Insurance-as-a-Service
 - Policy Administration
 - Claims
 website: https://www.boostinsurance.com

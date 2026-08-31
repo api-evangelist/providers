@@ -24,24 +24,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The HTTP API a partner platform calls to embed CI HUB's DAM connectivity in its own product. A partner backend signs an RS256 JWT and exchanges it at POST /auth/exchangeToken for a CI HUB access token
-  name: CI HUB Access SDK API
-  slug: access-sdk
 - description: The other direction of the CI HUB platform. A DAM, MAM, PIM, CMS, stock or cloud-storage vendor writes an integration that translates its own proprietary API into CI HUB's handler format using defineI
   name: CI HUB Integration SDK
   slug: integration-sdk
 - description: A hosted, remote Model Context Protocol server that gives an AI client governed access to the DAM systems a user has connected through CI HUB. It exposes core system, asset and folder tools — provider
   name: CI HUB MCP Server (Bright AI Connector)
   slug: mcp
-artifact_total: 10
+- description: The Assets API from CI HUB — 4 operation(s) for assets.
+  name: CI HUB Assets API
+  slug: ci-hub-assets-api
+- description: The Auth API from CI HUB — 6 operation(s) for auth.
+  name: CI HUB Auth API
+  slug: ci-hub-auth-api
+- description: The System API from CI HUB — 1 operation(s) for system.
+  name: CI HUB System API
+  slug: ci-hub-system-api
+artifact_total: 12
 collections:
 - collection_type: open
   name: CI HUB Access SDK API
   slug: open-ci-hub-access
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ci-hub-access-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -151,10 +161,10 @@ modified: '2026-08-12'
 name: CI HUB
 nav: Providers
 network: true
-overview: 'CI HUB publishes 1 API on the [APIs.io](https://apis.io/) network: Access SDK API. Tagged areas include Company, Digital Asset Management, Content Management, Product Information Management, and Integration.
+overview: 'CI HUB publishes 3 APIs on the [APIs.io](https://apis.io/) network: Assets API, Auth API, and System API. Tagged areas include Company, Digital Asset Management, Content Management, Product Information Management, and Integration.
 
 
-  CI HUB''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
+  CI HUB''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
 plans:
 - name: Ci Hub Plans Pricing
   plan_count: 12
@@ -171,18 +181,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 63.8
-  delta: 5.9
+  composite: 60.9
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 30.3
-    contract_quality: 57.7
+    contract_governance: 18.2
+    contract_quality: 58.6
     developer_ergonomics: 80.4
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 57.9
+  previous_composite: 61.5
   provenance:
     conformance: first-party
     contracts:
@@ -192,9 +207,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ci-hub/refs/heads/main/screenshots/ci-hub-2026-08-17T080817.png
 security:
 - kind: authentication

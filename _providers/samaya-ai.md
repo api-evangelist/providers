@@ -24,19 +24,25 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: REST API published at https://api.samaya.ai/v1/openapi.json as "Samaya Public API" (OpenAPI 3.0.2). Six operations covering organization, team and team-membership administration plus user listing — li
-  name: Samaya Public API
-  slug: samaya-public-api
 - description: 'Hosted remote MCP server at https://mcp.samaya.ai/mcp that connects ChatGPT, Claude and other AI applications to Samaya''s expert financial research capabilities. Live and reachable: an anonymous tools'
   name: Samaya MCP Server
   slug: samaya-mcp-server
 - description: Application GraphQL endpoint at https://api.samaya.ai/graphql/ serving the Samaya web app at app.samaya.ai. The API host root 302s to /graphql/, and an anonymous introspection POST returns HTTP 401 "U
   name: Samaya GraphQL API
   slug: samaya-graphql-api
-artifact_total: 11
+- description: The Organizations API from Samaya AI — 1 operation(s) for organizations.
+  name: Samaya AI Organizations API
+  slug: samaya-ai-organizations-api
+- description: The Teams API from Samaya AI — 2 operation(s) for teams.
+  name: Samaya AI Teams API
+  slug: samaya-ai-teams-api
+- description: The Users API from Samaya AI — 1 operation(s) for users.
+  name: Samaya AI Users API
+  slug: samaya-ai-users-api
+artifact_total: 13
 common:
 - group: company
   title: ''
@@ -165,7 +171,7 @@ modified: '2026-08-26'
 name: Samaya AI
 nav: Providers
 network: true
-overview: 'Samaya AI publishes 1 API on the [APIs.io](https://apis.io/) network: Samaya Public API. Tagged areas include Artificial Intelligence, Financial Services, Investment Research, AI Agents, and MCP.
+overview: 'Samaya AI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Organizations API, Teams API, and Users API. Tagged areas include artificial-intelligence, Financial-Services, investment-research, AI Agents, and MCP.
 
 
   Samaya AI''s developer surface includes API reference, engineering blog, signup flow, support, authentication, and 23 more developer resources.'
@@ -185,22 +191,30 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 37.9
+  composite: 34.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 30.3
-    contract_quality: 46.9
+    contract_governance: 18.2
+    contract_quality: 45.6
     developer_ergonomics: 28.0
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 18.4
+  previous_composite: 35.0
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Samaya Ai Authentication
@@ -216,15 +230,15 @@ security:
   summary_line: SOC 2
 slug: samaya-ai
 tags:
-- Artificial Intelligence
-- Financial Services
-- Investment Research
+- artificial-intelligence
+- Financial-Services
+- investment-research
 - AI Agents
 - MCP
 - agent-native
-- Capital Markets
-- Enterprise Search
-- Retrieval
-- GraphQL
+- capital-markets
+- enterprise-search
+- retrieval
+- graphql
 website: https://samaya.ai/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 11
   slug: sigstore-agentic-access
   summary_line: 11 operations · 4 acting
-api_count: 6
+api_count: 2
 apis:
 - description: Cosign is the Sigstore tool for signing and verifying container images and other OCI artifacts. It enables keyless signing using OIDC identity, hardware token signing, and policy enforcement for conta
   name: Cosign
@@ -85,6 +85,22 @@ collections:
   name: Fulcio CA tlog API
   slug: open-sigstore-tlog-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/sigstore/cosign/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/sigstore/cosign/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/sigstore/cosign/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/sigstore/cosign/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -181,7 +197,7 @@ overview: 'Sigstore publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The Sigstore catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sigstore''s developer surface includes documentation, getting-started guide, engineering blog, and 10 more developer resources.'
+  Sigstore''s developer surface includes documentation, getting-started guide, engineering blog, and 14 more developer resources.'
 plans:
 - name: Sigstore Plans Pricing
   plan_count: 1
@@ -215,18 +231,26 @@ rules:
   slug: sigstore-rules
 score:
   band: thin
-  composite: 32.7
-  delta: 0.0
+  composite: 37.2
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 28.8
     contract_quality: 49.8
     developer_ergonomics: 26.2
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 28.8
-    operational_transparency: 18.4
-  previous_composite: 32.7
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -234,8 +258,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sigstore/refs/heads/main/screenshots/sigstore-2026-06-20T193917.png
 security:

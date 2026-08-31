@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 1
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 225
   slug: aptible-agentic-access
   summary_line: 225 operations · 78 acting · 1 human-in-the-loop
-api_count: 51
+api_count: 3
 apis:
 - description: The Aptible authentication and identity service at auth.aptible.com. A HAL+JSON API exposing organizations, sessions, tokens, OAuth clients, users, U2F trusted facets and SSH key pre-authorizations, p
   name: Aptible Auth API
@@ -344,6 +344,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/aptible-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/aptible-cloud-overlay.yaml
 - group: operate
@@ -521,22 +525,30 @@ network: true
 overview: 'Aptible publishes 50 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Actions API, Activity Reports API, and 47 more. Tagged areas include Company, Platform-as-a-Service, Cloud Infrastructure, Deployment, and Managed Databases.
 
 
-  Aptible''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
+  Aptible''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 35 more developer resources.'
 random_paper: 2
 score:
   band: developing
-  composite: 53.9
-  delta: 0.0
+  composite: 48.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 85.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.6
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
-    contract_quality: 51.1
+    contract_governance: 4.5
+    contract_quality: 53.2
     developer_ergonomics: 68.5
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 63.0
+    governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 53.9
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 51.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -547,8 +559,8 @@ score:
       total: 53
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/screenshots/aptible-2026-08-07T161518.png
 security:

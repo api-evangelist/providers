@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: derived
     idempotency: documented
     mcp_server: false
@@ -22,25 +22,47 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.1
-  scored_at: '2026-08-26'
-api_count: 3
+  score: 29.0
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The MAX Exchange V3 RESTful API — 54 operations across public market data, spot and margin (m-wallet) order management, trade history, wallet balances, deposits, withdrawals, internal transfers, rewar
-  name: MAX Exchange REST API v3
-  slug: maicoin-max-rest-v3
 - description: Real-time streaming service for MAX Exchange. Public channels cover order book (book), trade, ticker, kline, market_status and m-wallet pool_quota; private channels stream order snapshots/updates, tra
   name: MAX Exchange WebSocket API
   slug: maicoin-max-websocket
 - description: Unauthenticated system status endpoint reporting whether the MAX API is online or in maintenance, with an ISO 8601 last_changed_at timestamp. Documented in the MAX V3 API reference; status updates may
   name: MAX System Status API
   slug: maicoin-max-status
-artifact_total: 8
+- description: Operations about Converts
+  name: MaiCoin Convert API
+  slug: maicoin-convert-api
+- description: Requires authentication
+  name: MaiCoin Order API
+  slug: maicoin-order-api
+- description: Public endpoints
+  name: MaiCoin Public API
+  slug: maicoin-public-api
+- description: Requires authentication
+  name: MaiCoin Trade API
+  slug: maicoin-trade-api
+- description: Requires authentication
+  name: MaiCoin Transaction API
+  slug: maicoin-transaction-api
+- description: Operations about Users
+  name: MaiCoin User API
+  slug: maicoin-user-api
+- description: Requires authentication
+  name: MaiCoin Wallet API
+  slug: maicoin-wallet-api
+artifact_total: 14
 asyncapis:
 - description: 'Real-time streaming for MAX Exchange (MaiCoin). One WebSocket endpoint carries both public market-data channels and, after authentication, private account channels. Field names are abbreviated on the '
   name: MAX Exchange WebSocket API
   slug: maicoin-max-websocket-asyncapi
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/maicoin-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -177,13 +199,13 @@ modified: '2026-08-25'
 name: MaiCoin
 nav: Providers
 network: true
-overview: 'MaiCoin publishes 1 API on the [APIs.io](https://apis.io/) network: MAX Exchange REST API v3. Tagged areas include Company, Cryptocurrency, Digital Assets, Exchange, and Trading.
+overview: 'MaiCoin publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Convert API, Order API, Public API, and 4 more. Tagged areas include Company, Cryptocurrency, Digital Assets, Exchange, and Trading.
 
 
   The MaiCoin catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  MaiCoin''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  MaiCoin''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 plans:
 - name: Maicoin Plans Pricing
   plan_count: 10
@@ -195,16 +217,23 @@ rate_limits:
   slug: maicoin-rate-limits
 score:
   band: strong
-  composite: 60.3
+  composite: 60.4
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 16.7
-    contract_quality: 42.7
+    contract_governance: 4.5
+    contract_quality: 51.2
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 65.8
+  previous_composite: 61.0
   provenance:
     conformance: derived
     mcp: derived
@@ -215,8 +244,9 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Maicoin Authentication
@@ -233,7 +263,7 @@ tags:
 - Digital Assets
 - Exchange
 - Trading
-- Financial Services
+- Financial-Services
 - Market Data
 - Blockchain
 - Taiwan

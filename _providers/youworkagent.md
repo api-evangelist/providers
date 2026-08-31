@@ -23,15 +23,15 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
-- description: Deterministic INR pricing for a freelance or agency project scope. POST /api/v1/project-quote; validates its input and returns a structured quote.
-  name: Scopewise Project Quote API
-  slug: scopewise-project-quote-api
-- description: Generates follow-up on an overdue invoice. POST /api/v1/overdue-invoice-follow-up. Shares the same OpenAPI document and base URL as the quote API.
-  name: Scopewise Overdue Invoice Follow-up API
-  slug: scopewise-overdue-invoice-follow-up-api
+- description: The Overdue Invoice Follow Up API from YouWork Agent — 1 operation(s) for overdue invoice follow up.
+  name: YouWork Agent Overdue Invoice Follow Up API
+  slug: youworkagent-overdue-invoice-follow-up-api
+- description: The Project Quote API from YouWork Agent — 1 operation(s) for project quote.
+  name: YouWork Agent Project Quote API
+  slug: youworkagent-project-quote-api
 artifact_total: 2
 common:
 - group: other
@@ -78,39 +78,43 @@ modified: '2026-08-23'
 name: YouWork Agent
 nav: Providers
 network: true
-overview: 'YouWork Agent publishes 2 APIs on the [APIs.io](https://apis.io/) network: Scopewise Project Quote API and Scopewise Overdue Invoice Follow-up API. Tagged areas include Freelance, Project Pricing, Invoicing, Business, and Agents.'
+overview: 'YouWork Agent publishes 2 APIs on the [APIs.io](https://apis.io/) network: Overdue Invoice Follow Up API and Project Quote API. Tagged areas include Freelance, Project Pricing, INR, Business, and Deterministic API.'
 random_paper: 4
 score:
   band: thin
-  composite: 27.4
-  delta: 1.9
+  composite: 28.0
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 0.0
-    contract_quality: 49.7
+    contract_quality: 52.4
     developer_ergonomics: 26.2
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 25.5
+  previous_composite: 28.0
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: youworkagent
 tags:
 - Freelance
 - Project Pricing
-- Invoicing
+- INR
 - Business
-- Agents
-- Agent Commerce
-- India
+- Deterministic API
+- Agent API
 website: https://youworkagent.online
 ---

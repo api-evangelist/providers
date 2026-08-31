@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.3
-  scored_at: '2026-08-26'
+  score: 21.0
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,14 +42,8 @@ agentic_access:
   operation_count: 19
   slug: bubble-agentic-access
   summary_line: 19 operations · 13 acting
-api_count: 6
+api_count: 1
 apis:
-- description: REST API exposing the Bubble app database. Supports search with constraints, cursor-based pagination, single-record CRUD, bulk create (up to 1,000 records), and metadata discovery. Authentication uses
-  name: Bubble Data API
-  slug: bubble-data-api
-- description: REST API for triggering backend workflows defined in the Bubble editor. Each workflow is exposed at `/api/1.1/wf/{workflow_name}` and can be configured for POST or GET, with authentication settings ra
-  name: Bubble Workflow API
-  slug: bubble-workflow-api
 - description: Server-side and client-side action functions invoked by Bubble workflows.
   name: Bubble Action API
   slug: bubble-action-api
@@ -93,7 +87,7 @@ arazzos:
 - description: Find a record by a key field and update it if it exists, otherwise create it.
   name: Bubble Upsert a Thing
   slug: bubble-upsert-thing-workflow
-artifact_total: 76
+artifact_total: 74
 collections:
 - collection_type: postman
   name: Bubble Data API
@@ -437,7 +431,7 @@ modified: '2026-05-19'
 name: Bubble
 nav: Providers
 network: true
-overview: 'Bubble publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Data API, Workflow API, Action API, and 3 more. Tagged areas include No-Code, Application Platform, Database, Workflow-Automation, and Plugins.
+overview: 'Bubble publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Action API, Context API, Element API, and 1 more. Tagged areas include No-Code, Application Platform, Database, Workflow-Automation, and Plugins.
 
 
   The Bubble catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -477,18 +471,23 @@ rules:
   slug: bubble-rules
 score:
   band: strong
-  composite: 63.6
-  delta: 0.0
+  composite: 59.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
     contract_governance: 28.8
-    contract_quality: 70.0
+    contract_quality: 57.1
     developer_ergonomics: 61.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 76.3
-  previous_composite: 63.6
+  previous_composite: 60.3
   provenance:
     agentic_access: derived
     contracts:
@@ -496,8 +495,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/screenshots/bubble-2026-06-20T173737.png
 security:

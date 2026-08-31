@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 17
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 83
   slug: accept-agentic-access
   summary_line: 83 operations · 19 acting · 17 human-in-the-loop
-api_count: 23
+api_count: 1
 apis:
 - description: The Agents API from Accept — 1 operation(s) for agents.
   name: Accept Agents API
@@ -354,18 +354,26 @@ overview: 'Accept publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 15
 score:
   band: developing
-  composite: 44.0
-  delta: 0.0
+  composite: 47.8
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 5.2
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 58.0
     developer_ergonomics: 73.2
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 44.0
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -376,9 +384,9 @@ score:
       total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/accept/refs/heads/main/screenshots/accept-2026-07-25T181433.png
 security:
 - kind: authentication

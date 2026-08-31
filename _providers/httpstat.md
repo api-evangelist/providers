@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 2
   slug: httpstat-agentic-access
   summary_line: 2 operations
-api_count: 2
+api_count: 1
 apis:
 - description: The Httpstat API from Httpstat.us — 1 operation(s) for httpstat.
   name: Httpstat.us Httpstat API
@@ -100,7 +100,7 @@ modified: '2026-05-19'
 name: Httpstat.us
 nav: Providers
 network: true
-overview: 'Httpstat.us publishes 2 APIs on the [APIs.io](https://apis.io/) network: Httpstat API and Random API. Tagged areas include HTTP, Status-Codes, Testing, and Utilities.
+overview: 'Httpstat.us publishes 2 APIs on the [APIs.io](https://apis.io/) network: Httpstat API and Random API. Tagged areas include HTTP, Status Codes, Testing, and Utilities.
 
 
   The Httpstat.us catalog on APIs.io includes 1 Spectral governance ruleset.'
@@ -127,7 +127,12 @@ rules:
 score:
   band: emerging
   composite: 18.3
-  delta: 0.9
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 65.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -137,7 +142,7 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 17.4
+  previous_composite: 18.3
   provenance:
     agentic_access: derived
     contracts:
@@ -151,8 +156,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security
@@ -162,7 +167,7 @@ security:
 slug: httpstat
 tags:
 - HTTP
-- Status-Codes
+- Status Codes
 - Testing
 - Utilities
 website: https://httpstat.us/

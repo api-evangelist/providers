@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 123
   slug: zeplin-agentic-access
   summary_line: 123 operations · 46 acting
-api_count: 16
+api_count: 1
 apis:
 - description: The Authorization API from Zeplin — 2 operation(s) for authorization.
   name: Zeplin Authorization API
@@ -266,18 +266,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.4
-  delta: 1.9
+  composite: 44.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 67.3
     developer_ergonomics: 20.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 46.1
-  previous_composite: 43.5
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     contracts:
@@ -285,8 +290,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zeplin/refs/heads/main/screenshots/zeplin-2026-06-20T201824.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 50
   slug: verato-agentic-access
   summary_line: 50 operations · 50 acting
-api_count: 20
+api_count: 3
 apis:
 - description: The AddRelationshipService API from Verato — 1 operation(s) for addrelationshipservice.
   name: Verato AddRelationshipService API
@@ -172,6 +172,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/verato-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/verato-organization-overlay.yaml
 - group: agent
@@ -297,22 +301,27 @@ network: true
 overview: 'Verato publishes 20 APIs on the [APIs.io](https://apis.io/) network, including AddRelationshipService API, CreateDataSource API, DeactivateSourceWs API, and 17 more. Tagged areas include Company, Cybersecurity, Healthcare, Identity, and Identity Resolution.
 
 
-  Verato''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 21 more developer resources.'
+  Verato''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 22 more developer resources.'
 random_paper: 6
 score:
   band: developing
-  composite: 43.9
-  delta: -1.8
+  composite: 41.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 49.0
     developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 45.7
+  previous_composite: 41.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -325,12 +334,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verato/refs/heads/main/screenshots/verato-2026-08-17T082722.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: sendle-agentic-access
   summary_line: 17 operations · 7 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Create, view, cancel, and return parcel orders. Supports domestic AU / US / CA orders plus international from AU and US (DAP and DDP Price Guaranteed) and from CA to US. Returns label URLs, tracking U
   name: Sendle Orders API
@@ -102,6 +102,10 @@ collections:
   name: Sendle Shipping Manifests Utility API
   slug: open-sendle-utility-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sendle-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -238,7 +242,7 @@ overview: 'Sendle publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Sendle catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Sendle''s developer surface includes authentication, GitHub presence, support, and 17 more developer resources.'
+  Sendle''s developer surface includes authentication, GitHub presence, support, and 18 more developer resources.'
 plans:
 - name: Sendle Plans Pricing
   plan_count: 3
@@ -272,18 +276,23 @@ rules:
   slug: sendle-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.2
-  delta: -10.7
+  composite: 47.9
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 24.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 73.4
     developer_ergonomics: 21.4
-    discoverability: 74.1
-    governance: 45.5
+    discoverability: 75.9
+    governance: 33.3
     operational_transparency: 44.7
-  previous_composite: 59.9
+  previous_composite: 48.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -293,9 +302,9 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: falling
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/screenshots/sendle-2026-06-20T193655.png
 security:
 - kind: authentication

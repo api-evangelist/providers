@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -33,10 +33,13 @@ agentic_access:
   summary_line: 1 operation · 1 acting
 api_count: 1
 apis:
-- description: JSON-over-HTTPS integration surface for the Conversica Platform. A customer system posts Lead objects to a single Conversica endpoint using HTTP Basic authentication, and Conversica posts Message obje
-  name: Conversica Integrations API
-  slug: integrations-api
-artifact_total: 18
+- description: The Conversica Integrations API API from Conversica — 0 operation(s) for conversica integrations api.
+  name: Conversica Conversica Integrations API
+  slug: conversica-conversica-integrations-api-api
+- description: Posting Lead object data into the Conversica Platform.
+  name: Conversica Leads API
+  slug: conversica-leads-api
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Conversica Webhooks
@@ -46,6 +49,10 @@ collections:
   name: Conversica Integrations API
   slug: open-conversica-integrations-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/conversica-integrations-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -207,13 +214,13 @@ modified: '2026-08-13'
 name: Conversica
 nav: Providers
 network: true
-overview: 'Conversica publishes 1 API on the [APIs.io](https://apis.io/) network: Integrations API. Tagged areas include Company, Artificial Intelligence, Conversational AI, AI Agents, and Sales.
+overview: 'Conversica publishes 2 APIs on the [APIs.io](https://apis.io/) network: Conversica Integrations API and Leads API. Tagged areas include Company, Artificial Intelligence, Conversational AI, AI Agents, and Sales.
 
 
   The Conversica catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Conversica''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, code examples, and 25 more developer resources.'
+  Conversica''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, code examples, and 26 more developer resources.'
 plans:
 - name: Conversica Plans Pricing
   plan_count: 0
@@ -225,18 +232,23 @@ rate_limits:
   slug: conversica-rate-limits
 score:
   band: developing
-  composite: 46.6
+  composite: 45.0
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 73.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 31.8
-    contract_quality: 26.7
+    contract_governance: 19.7
+    contract_quality: 23.2
     developer_ergonomics: 56.5
-    discoverability: 68.5
-    governance: 31.8
+    discoverability: 75.9
+    governance: 19.7
     operational_transparency: 26.3
-  previous_composite: 46.6
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -253,8 +265,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 66.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conversica/refs/heads/main/screenshots/conversica-2026-08-07T163802.png
 security:

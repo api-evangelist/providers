@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -33,15 +33,34 @@ agentic_access:
   summary_line: 6 operations · 6 acting
 api_count: 1
 apis:
-- description: Allow-listed partner API for publishing workforce data into Nowsta. Six bulk "publications" endpoints - events (with nested shifts), venues, clients, uniforms, positions and workers - each accepting u
-  name: Nowsta Integration API
-  slug: nowsta-integration-api
-artifact_total: 6
+- description: Bulk publication of clients referenced by events.
+  name: Nowsta Clients API
+  slug: nowsta-clients-api
+- description: Bulk publication of events and their nested shifts.
+  name: Nowsta Events API
+  slug: nowsta-events-api
+- description: Bulk publication of positions referenced by shifts.
+  name: Nowsta Positions API
+  slug: nowsta-positions-api
+- description: Bulk publication of uniforms referenced by events.
+  name: Nowsta Uniforms API
+  slug: nowsta-uniforms-api
+- description: Bulk publication of venues referenced by events.
+  name: Nowsta Venues API
+  slug: nowsta-venues-api
+- description: Bulk publication of company users (workers).
+  name: Nowsta Workers API
+  slug: nowsta-workers-api
+artifact_total: 11
 collections:
 - collection_type: open
   name: Nowsta Integration API
   slug: open-nowsta-integration
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nowsta-integration-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -163,25 +182,30 @@ modified: '2026-08-01'
 name: Nowsta
 nav: Providers
 network: true
-overview: 'Nowsta publishes 1 API on the [APIs.io](https://apis.io/) network: Integration API. Tagged areas include Workforce Management, staff-scheduling, shift-scheduling, Time and Attendance, and Hourly Workforce.
+overview: 'Nowsta publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Clients API, Events API, Positions API, and 3 more. Tagged areas include workforce-management, staff-scheduling, shift-scheduling, time-and-attendance, and hourly-workforce.
 
 
-  Nowsta''s developer surface includes API reference, support, engineering blog, and 24 more developer resources.'
+  Nowsta''s developer surface includes API reference, support, engineering blog, and 25 more developer resources.'
 random_paper: 17
 score:
   band: thin
-  composite: 35.6
-  delta: 3.8
+  composite: 34.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 60.5
     developer_ergonomics: 32.7
     discoverability: 68.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 31.8
+  previous_composite: 34.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -192,8 +216,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nowsta/refs/heads/main/screenshots/nowsta-2026-08-07T185642.png
 security:
@@ -207,17 +231,17 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: nowsta
 tags:
-- Workforce Management
+- workforce-management
 - staff-scheduling
 - shift-scheduling
-- Time and Attendance
-- Hourly Workforce
+- time-and-attendance
+- hourly-workforce
 - gig-work
 - event-staffing
-- Hospitality
+- hospitality
 - staffing-agency
-- Vendor Management
-- Payroll
-- Human Resources
+- vendor-management
+- payroll
+- human-resources
 website: https://www.nowsta.com/
 ---

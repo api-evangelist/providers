@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: 'The Sozu Command API provides programmatic control of the Sōzu HTTP reverse proxy at runtime. External tools communicate with the Sozu main process through a secure Unix socket using a protobuf-based '
@@ -47,6 +47,14 @@ apis:
   slug: sozu-command-futures-api
 artifact_total: 14
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/sozu-proxy/sozu/issues
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/sozu-proxy/sozu/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -136,7 +144,7 @@ overview: 'Sozu publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tag
   The Sozu catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Sozu''s developer surface includes documentation, release notes, and 10 more developer resources.'
+  Sozu''s developer surface includes documentation, release notes, and 12 more developer resources.'
 plans:
 - name: Sozu Plans Pricing
   plan_count: 3
@@ -158,9 +166,14 @@ rules:
     warn: 4
   slug: sozu-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 25.2
-  delta: 1.2
+  band: thin
+  composite: 27.7
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 41.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -170,9 +183,12 @@ score:
     discoverability: 64.8
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 24.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 27.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sozu/refs/heads/main/screenshots/sozu-2026-06-20T194231.png
 security:

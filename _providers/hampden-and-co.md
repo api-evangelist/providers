@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -42,21 +42,96 @@ agentic_access:
   operation_count: 74
   slug: hampden-and-co-agentic-access
   summary_line: 74 operations · 20 acting
-api_count: 4
+api_count: 3
 apis:
 - description: Public, unauthenticated Open Data reference API conforming to the OBIE UK Open Banking Open Data standard (product reference data such as personal and business current accounts). Listed on Hampden & C
   name: Hampden & Co Open Data API
   slug: hampden-and-co-open-data-api
-- description: OBIE Read/Write Account Information Service (AIS) - accounts, balances, transactions, beneficiaries, standing orders, direct debits, statements, and parties - as a FAPI-secured PSD2 dedicated interfac
-  name: Hampden & Co Account & Transaction Information API
-  slug: hampden-and-co-account-information-api
-- description: OBIE Read/Write Payment Initiation Service (PIS) - domestic, scheduled, standing-order, international, and file payments - as a FAPI-secured PSD2 dedicated interface. The harvested OpenAPI is the shar
-  name: Hampden & Co Payment Initiation API
-  slug: hampden-and-co-payment-initiation-api
-- description: 'OBIE Read/Write Confirmation of Funds Service (CBPII) allowing an authorised card-based payment instrument issuer to confirm the availability of funds, as a FAPI-secured PSD2 dedicated interface. The '
-  name: Hampden & Co Confirmation of Funds API
-  slug: hampden-and-co-confirmation-of-funds-api
-artifact_total: 12
+- description: The Account Access Consents API from Hampden & Co — 2 operation(s) for account access consents.
+  name: Hampden & Co Account Access Consents API
+  slug: hampden-and-co-account-access-consents-api
+- description: The Accounts API from Hampden & Co — 2 operation(s) for accounts.
+  name: Hampden & Co Accounts API
+  slug: hampden-and-co-accounts-api
+- description: The Balances API from Hampden & Co — 2 operation(s) for balances.
+  name: Hampden & Co Balances API
+  slug: hampden-and-co-balances-api
+- description: The Beneficiaries API from Hampden & Co — 2 operation(s) for beneficiaries.
+  name: Hampden & Co Beneficiaries API
+  slug: hampden-and-co-beneficiaries-api
+- description: The Direct Debits API from Hampden & Co — 2 operation(s) for direct debits.
+  name: Hampden & Co Direct Debits API
+  slug: hampden-and-co-direct-debits-api
+- description: The Domestic Payment Consents API from Hampden & Co — 3 operation(s) for domestic payment consents.
+  name: Hampden & Co Domestic Payment Consents API
+  slug: hampden-and-co-domestic-payment-consents-api
+- description: The Domestic Payments API from Hampden & Co — 3 operation(s) for domestic payments.
+  name: Hampden & Co Domestic Payments API
+  slug: hampden-and-co-domestic-payments-api
+- description: The Domestic Scheduled Payment Consents API from Hampden & Co — 2 operation(s) for domestic scheduled payment consents.
+  name: Hampden & Co Domestic Scheduled Payment Consents API
+  slug: hampden-and-co-domestic-scheduled-payment-consents-api
+- description: The Domestic Scheduled Payments API from Hampden & Co — 3 operation(s) for domestic scheduled payments.
+  name: Hampden & Co Domestic Scheduled Payments API
+  slug: hampden-and-co-domestic-scheduled-payments-api
+- description: The Domestic Standing Order Consents API from Hampden & Co — 2 operation(s) for domestic standing order consents.
+  name: Hampden & Co Domestic Standing Order Consents API
+  slug: hampden-and-co-domestic-standing-order-consents-api
+- description: The Domestic Standing Orders API from Hampden & Co — 3 operation(s) for domestic standing orders.
+  name: Hampden & Co Domestic Standing Orders API
+  slug: hampden-and-co-domestic-standing-orders-api
+- description: The File Payment Consents API from Hampden & Co — 3 operation(s) for file payment consents.
+  name: Hampden & Co File Payment Consents API
+  slug: hampden-and-co-file-payment-consents-api
+- description: The File Payments API from Hampden & Co — 4 operation(s) for file payments.
+  name: Hampden & Co File Payments API
+  slug: hampden-and-co-file-payments-api
+- description: The Funds Confirmation Consents API from Hampden & Co — 2 operation(s) for funds confirmation consents.
+  name: Hampden & Co Funds Confirmation Consents API
+  slug: hampden-and-co-funds-confirmation-consents-api
+- description: The Funds Confirmations API from Hampden & Co — 1 operation(s) for funds confirmations.
+  name: Hampden & Co Funds Confirmations API
+  slug: hampden-and-co-funds-confirmations-api
+- description: The International Payment Consents API from Hampden & Co — 3 operation(s) for international payment consents.
+  name: Hampden & Co International Payment Consents API
+  slug: hampden-and-co-international-payment-consents-api
+- description: The International Payments API from Hampden & Co — 3 operation(s) for international payments.
+  name: Hampden & Co International Payments API
+  slug: hampden-and-co-international-payments-api
+- description: The International Scheduled Payments API from Hampden & Co — 3 operation(s) for international scheduled payments.
+  name: Hampden & Co International Scheduled Payments API
+  slug: hampden-and-co-international-scheduled-payments-api
+- description: The International Scheduled Payments Consents API from Hampden & Co — 3 operation(s) for international scheduled payments consents.
+  name: Hampden & Co International Scheduled Payments Consents API
+  slug: hampden-and-co-international-scheduled-payments-consents-api
+- description: The International Standing Orders API from Hampden & Co — 3 operation(s) for international standing orders.
+  name: Hampden & Co International Standing Orders API
+  slug: hampden-and-co-international-standing-orders-api
+- description: The International Standing Orders Consents API from Hampden & Co — 2 operation(s) for international standing orders consents.
+  name: Hampden & Co International Standing Orders Consents API
+  slug: hampden-and-co-international-standing-orders-consents-api
+- description: The Offers API from Hampden & Co — 2 operation(s) for offers.
+  name: Hampden & Co Offers API
+  slug: hampden-and-co-offers-api
+- description: The Parties API from Hampden & Co — 3 operation(s) for parties.
+  name: Hampden & Co Parties API
+  slug: hampden-and-co-parties-api
+- description: The Products API from Hampden & Co — 2 operation(s) for products.
+  name: Hampden & Co Products API
+  slug: hampden-and-co-products-api
+- description: The Scheduled Payments API from Hampden & Co — 2 operation(s) for scheduled payments.
+  name: Hampden & Co Scheduled Payments API
+  slug: hampden-and-co-scheduled-payments-api
+- description: The Standing Orders API from Hampden & Co — 2 operation(s) for standing orders.
+  name: Hampden & Co Standing Orders API
+  slug: hampden-and-co-standing-orders-api
+- description: The Statements API from Hampden & Co — 5 operation(s) for statements.
+  name: Hampden & Co Statements API
+  slug: hampden-and-co-statements-api
+- description: The Transactions API from Hampden & Co — 2 operation(s) for transactions.
+  name: Hampden & Co Transactions API
+  slug: hampden-and-co-transactions-api
+artifact_total: 37
 collections:
 - collection_type: open
   name: Account and Transaction API Specification
@@ -68,6 +143,22 @@ collections:
   name: Payment Initiation API
   slug: open-hampden-and-co-payment-initiation-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hampden-and-co-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hampden-and-co-account-information-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hampden-and-co-payment-initiation-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/hampden-and-co-confirmation-of-funds-api-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -181,10 +272,10 @@ modified: '2026-07-23'
 name: Hampden & Co
 nav: Providers
 network: true
-overview: 'Hampden & Co publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account & Transaction Information API, Payment Initiation API, and Confirmation of Funds API. Tagged areas include Financial-Services, Banking, Private Banking, Open Banking, and PSD2.
+overview: 'Hampden & Co publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, Balances API, and 25 more. Tagged areas include Financial-Services, Banking, Private Banking, Open Banking, and PSD2.
 
 
-  Hampden & Co''s developer surface includes authentication, documentation, signup flow, engineering blog, support, API reference, and 19 more developer resources.'
+  Hampden & Co''s developer surface includes authentication, documentation, signup flow, engineering blog, support, API reference, and 23 more developer resources.'
 random_paper: 17
 scopes:
 - name: Hampden And Co Scopes
@@ -193,18 +284,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 44.7
+  composite: 43.2
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 54.4
     developer_ergonomics: 28.0
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 44.7
+  previous_composite: 43.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -217,12 +313,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hampden-and-co/refs/heads/main/screenshots/hampden-and-co-2026-07-25T220602.png
 security:

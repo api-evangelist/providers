@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 177
   slug: weblate-agentic-access
   summary_line: 177 operations · 102 acting
-api_count: 21
+api_count: 1
 apis:
 - description: Added in version 4.4.1.
   name: Weblate addons API
@@ -107,7 +107,10 @@ apis:
 - description: Added in version 4.0.
   name: Weblate users API
   slug: weblate-users-api
-artifact_total: 62
+- description: Notifications sent by Weblate.
+  name: Weblate Webhooks API
+  slug: weblate-webhooks-api
+artifact_total: 63
 collections:
 - collection_type: open
   name: API Collection
@@ -285,7 +288,7 @@ modified: '2026-06-13'
 name: Weblate
 nav: Providers
 network: true
-overview: 'Weblate publishes 21 APIs on the [APIs.io](https://apis.io/) network, including addons API, categories API, changes API, and 18 more. Tagged areas include Localization, Translation, Internationalization, Open-Source, and Continuous Localization.
+overview: 'Weblate publishes 22 APIs on the [APIs.io](https://apis.io/) network, including addons API, categories API, changes API, and 19 more. Tagged areas include Localization, Translation, Internationalization, Open-Source, and Continuous Localization.
 
 
   The Weblate catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -314,18 +317,23 @@ rules:
   slug: weblate-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.8
-  delta: 0.0
+  composite: 44.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 60.3
+    contract_quality: 59.5
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 52.6
-  previous_composite: 44.8
+  previous_composite: 44.6
   provenance:
     agentic_access: derived
     contracts:
@@ -333,8 +341,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 21
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/weblate/refs/heads/main/screenshots/weblate-2026-06-20T201333.png
 security:

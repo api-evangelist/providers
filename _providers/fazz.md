@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: fazz-agentic-access
   summary_line: 8 operations · 3 acting · 3 human-in-the-loop
-api_count: 5
+api_count: 1
 apis:
 - description: Indonesia-market payments and disbursements (v4-ID) covering local virtual accounts and bank transfers, billed in IDR. Shares the Fazz/Xfers v4 request patterns with region-specific methods and destin
   name: Fazz Indonesia Payments API (v4-ID)
@@ -261,18 +261,23 @@ rate_limits:
   slug: fazz-rate-limits
 score:
   band: developing
-  composite: 49.8
-  delta: 0.7
+  composite: 47.8
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 20.4
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 49.1
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,8 +294,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/screenshots/fazz-2026-07-25T214301.png
 security:

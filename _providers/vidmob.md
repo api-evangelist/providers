@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 11
   slug: vidmob-agentic-access
   summary_line: 11 operations · 3 acting
-api_count: 5
+api_count: 3
 apis:
 - description: Hosted remote MCP server exposing Vidmob creative intelligence to AI agents — organization and ad-account structure, media-library search, creative scoring, AI-detected creative attributes, full asset
   name: Vidmob MCP Server
@@ -206,7 +206,7 @@ modified: '2026-08-05'
 name: VidMob
 nav: Providers
 network: true
-overview: 'VidMob publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Media API, Organization API, Scoring API, and 1 more. Tagged areas include Creative Intelligence, creative-data, Advertising, Marketing, and Media Measurement.
+overview: 'VidMob publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Media API, Organization API, Scoring API, and 1 more. Tagged areas include creative-intelligence, creative-data, Advertising, Marketing, and media-measurement.
 
 
   VidMob''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
@@ -218,18 +218,23 @@ scopes:
   summary_line: 12 scopes · authorizationCode/refreshToken/jwtBearer
 score:
   band: developing
-  composite: 43.1
+  composite: 40.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 55.0
     developer_ergonomics: 49.4
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 43.1
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -240,8 +245,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vidmob/refs/heads/main/screenshots/vidmob-2026-08-17T082749.png
 security:
@@ -259,17 +264,17 @@ security:
   summary_line: trust center published
 slug: vidmob
 tags:
-- Creative Intelligence
+- creative-intelligence
 - creative-data
 - Advertising
 - Marketing
-- Media Measurement
+- media-measurement
 - Video
-- Computer-Vision
-- Creative Analytics
-- AdTech
+- computer-vision
+- creative-analytics
+- adtech
 - MCP
 - agent-native
-- MarTech
+- martech
 website: https://vidmob.com/
 ---

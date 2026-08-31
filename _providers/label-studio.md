@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 233
   human_in_the_loop: 9
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 400
   slug: label-studio-agentic-access
   summary_line: 400 operations · 233 acting · 9 human-in-the-loop
-api_count: 74
+api_count: 1
 apis:
 - description: The subpackage_actions API from Label Studio — 1 operation(s) for subpackage_actions.
   name: Label Studio subpackage_actions API
@@ -491,6 +491,10 @@ collections:
   name: API Reference
   slug: open-label-studio
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/label-studio-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -574,7 +578,7 @@ network: true
 overview: 'Label Studio publishes 74 APIs on the [APIs.io](https://apis.io/) network, including subpackage_actions API, subpackage_activityLogs API, subpackage_annotationHistory API, and 71 more. Tagged areas include Artificial Intelligence, Annotation, Data Labeling, LLM, and Machine-Learning.
 
 
-  Label Studio''s developer surface includes authentication, documentation, engineering blog, and 14 more developer resources.'
+  Label Studio''s developer surface includes authentication, documentation, engineering blog, and 15 more developer resources.'
 plans:
 - name: Label Studio Plans Pricing
   plan_count: 3
@@ -585,19 +589,27 @@ rate_limits:
   name: Label Studio Rate Limits
   slug: label-studio-rate-limits
 score:
-  band: thin
-  composite: 37.7
-  delta: 1.5
+  band: developing
+  composite: 39.9
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 2.2
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 49.2
     developer_ergonomics: 33.3
-    discoverability: 75.9
+    discoverability: 70.4
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 36.2
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 37.7
   provenance:
     agentic_access: derived
     contracts:
@@ -605,8 +617,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 74
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/label-studio/refs/heads/main/screenshots/label-studio-2026-06-20T184236.png
 security:

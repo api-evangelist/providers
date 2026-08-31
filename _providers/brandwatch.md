@@ -36,8 +36,8 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.3
-  scored_at: '2026-08-26'
-api_count: 6
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
 - description: 'Query Brandwatch''s content library or imported data to return aggregated statistics and computed analysis. Enables programmatic access to brand mention analytics, sentiment scores, volume trends, and '
   name: Brandwatch Analysis API
@@ -45,9 +45,6 @@ apis:
 - description: Import unstructured data from any source for analysis alongside consumer conversation data. Enables organizations to blend proprietary data with Brandwatch's social intelligence for unified analytics.
   name: Brandwatch Data Upload API
   slug: data-upload-api
-- description: Export analysis results for further research and integration with existing systems. Supports real-time data streaming alongside consumer conversation data for continuous monitoring and research workfl
-  name: Brandwatch Consumer Research API
-  slug: consumer-research-api
 - description: Integrate owned social media metrics into external analytics solutions for custom reporting. Enables organizations to combine their social channel performance data with Brandwatch's audience intellige
   name: Brandwatch Measure API
   slug: measure-api
@@ -57,7 +54,28 @@ apis:
 - description: Consolidate conversations from social media inboxes with customer inquiries across platforms. Enables integration of Brandwatch's engagement tools with CRM and customer service systems for unified con
   name: Brandwatch Engage API
   slug: engage-api
-artifact_total: 17
+- description: The Client API from Brandwatch — 1 operation(s) for client.
+  name: Brandwatch Client API
+  slug: brandwatch-client-api
+- description: The Data API from Brandwatch — 2 operation(s) for data.
+  name: Brandwatch Data API
+  slug: brandwatch-data-api
+- description: The Me API from Brandwatch — 1 operation(s) for me.
+  name: Brandwatch Me API
+  slug: brandwatch-me-api
+- description: The Oauth API from Brandwatch — 1 operation(s) for oauth.
+  name: Brandwatch OAUTH API
+  slug: brandwatch-oauth-api
+- description: The Project API from Brandwatch — 1 operation(s) for project.
+  name: Brandwatch Project API
+  slug: brandwatch-project-api
+- description: The Projects API from Brandwatch — 26 operation(s) for projects.
+  name: Brandwatch Projects API
+  slug: brandwatch-projects-api
+- description: The User API from Brandwatch — 1 operation(s) for user.
+  name: Brandwatch User API
+  slug: brandwatch-user-api
+artifact_total: 23
 collections:
 - collection_type: open
   name: Consumer Research API
@@ -66,6 +84,10 @@ collections:
   name: Consumer Research API
   slug: open-brandwatch-consumer-research
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/brandwatch-capability-edges.yml
 - group: auth
   title: ''
   type: OAuthScopes
@@ -250,10 +272,10 @@ modified: '2026-08-13'
 name: Brandwatch
 nav: Providers
 network: true
-overview: 'Brandwatch publishes 1 API on the [APIs.io](https://apis.io/) network: Consumer Research API. Tagged areas include Analytics, Social-Media, Social Media Monitoring, Consumer Intelligence, and Brand Management.
+overview: 'Brandwatch publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Client API, Data API, Me API, and 4 more. Tagged areas include Analytics, Social-Media, Social Media Monitoring, Consumer Intelligence, and Brand Management.
 
 
-  Brandwatch''s developer surface includes authentication, documentation, engineering blog, getting-started guide, support, pricing, changelog, and 35 more developer resources.'
+  Brandwatch''s developer surface includes authentication, documentation, engineering blog, getting-started guide, support, pricing, changelog, and 36 more developer resources.'
 plans:
 - name: Brandwatch Plans Pricing
   plan_count: 0
@@ -269,19 +291,24 @@ scopes:
   slug: brandwatch-scopes
   summary_line: 3 scopes · password
 score:
-  band: strong
-  composite: 55.9
-  delta: 1.4
+  band: developing
+  composite: 52.1
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
-    contract_governance: 30.3
-    contract_quality: 51.7
-    developer_ergonomics: 50.6
+    contract_governance: 18.2
+    contract_quality: 53.8
+    developer_ergonomics: 41.1
     discoverability: 83.3
-    governance: 30.3
-    operational_transparency: 65.8
-  previous_composite: 54.5
+    governance: 18.2
+    operational_transparency: 57.9
+  previous_composite: 52.1
   provenance:
     conformance: first-party
     contracts:
@@ -291,8 +318,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandwatch/refs/heads/main/screenshots/brandwatch-2026-06-20T173633.png
 security:

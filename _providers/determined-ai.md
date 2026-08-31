@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 10
   slug: determined-ai-agentic-access
   summary_line: 10 operations · 2 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Log in to and out of the cluster
   name: Determined AI Authentication API
@@ -160,18 +160,23 @@ rate_limits:
   slug: determined-ai-rate-limits
 score:
   band: emerging
-  composite: 26.0
-  delta: 1.2
+  composite: 25.4
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 45.6
     developer_ergonomics: 22.6
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 24.8
+  previous_composite: 26.0
   provenance:
     agentic_access: derived
     contracts:
@@ -179,8 +184,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/determined-ai/refs/heads/main/screenshots/determined-ai-2026-07-25T211812.png
 security:

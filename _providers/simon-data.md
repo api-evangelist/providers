@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,13 +43,13 @@ agentic_access:
   operation_count: 2
   slug: simon-data-agentic-access
   summary_line: 2 operations · 1 acting
-api_count: 2
+api_count: 17
 apis:
-- description: The Simon Audience API returns a single Simon Data contact profile at request time so marketers can personalise content across email, SMS, push and front-of-house tools. Contacts are looked up with an
-  name: Simon Data Audience API
+- description: Contact profile lookup.
+  name: Simon Data Contacts API
   slug: simon-data-contacts-api
-- description: Simon Signal is Simon Data's event protocol and event-processing pipeline. The Event Ingestion API accepts a single behavioural or transactional event per request at POST /events/v1/collect across pro
-  name: Simon Data Event Ingestion API
+- description: Event collection into the Simon Signal pipeline.
+  name: Simon Data Events API
   slug: simon-data-events-api
 artifact_total: 23
 asyncapis:
@@ -67,6 +67,14 @@ collections:
   name: Simon Data Event Ingestion API (Simon Signal)
   slug: open-simon-data-event-ingestion
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/simon-data-audience-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/simon-data-event-ingestion-overlay.yaml
 - group: docs
   title: ''
   type: OpenAPI
@@ -305,13 +313,13 @@ modified: '2026-08-13'
 name: Simon Data
 nav: Providers
 network: true
-overview: 'Simon Data publishes 2 APIs on the [APIs.io](https://apis.io/) network: Audience API and Event Ingestion API. Tagged areas include Customer Data Platform, CDP, Marketing Automation, Audience Segmentation, and Event Tracking.
+overview: 'Simon Data publishes 2 APIs on the [APIs.io](https://apis.io/) network: Contacts API and Events API. Tagged areas include Customer Data Platform, CDP, Marketing Automation, Audience Segmentation, and Event Tracking.
 
 
   The Simon Data catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Simon Data''s developer surface includes authentication, changelog, sandbox, code examples, documentation, API reference, getting-started guide, and 43 more developer resources.'
+  Simon Data''s developer surface includes authentication, changelog, sandbox, code examples, documentation, API reference, getting-started guide, and 45 more developer resources.'
 plans:
 - name: Simon Data Plans Pricing
   plan_count: 1
@@ -338,19 +346,24 @@ scopes:
   slug: simon-data-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: exemplar
-  composite: 67.0
-  delta: 0.0
+  band: strong
+  composite: 65.0
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.6
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
-    contract_governance: 41.7
+    contract_governance: 29.5
     contract_quality: 76.9
     developer_ergonomics: 44.6
-    discoverability: 87.0
-    governance: 41.7
+    discoverability: 81.5
+    governance: 29.5
     operational_transparency: 65.8
-  previous_composite: 67.0
+  previous_composite: 64.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -361,8 +374,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simon-data/refs/heads/main/screenshots/simon-data-2026-06-20T193927.png
 security:

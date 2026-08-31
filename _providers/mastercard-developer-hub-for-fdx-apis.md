@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 27
   slug: mastercard-developer-hub-for-fdx-apis-agentic-access
   summary_line: 27 operations · 11 acting
-api_count: 10
+api_count: 2
 apis:
 - description: health check and check the status application
   name: Mastercard Developer Hub for FDX APIs Application Check Controller API
@@ -111,6 +111,10 @@ collections:
   name: Mastercard Developer Hub for FDX APIs FDX Authorization Server Application Check Controller User APIs API
   slug: open-mastercard-developer-hub-for-fdx-apis-user-apis-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mastercard-developer-hub-for-fdx-apis-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -290,7 +294,7 @@ network: true
 overview: 'Mastercard Developer Hub for FDX APIs publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Application Check Controller API, Consent API, Data Resource APIs API, and 7 more. Tagged areas include Banking, FDX, and Open Banking.
 
 
-  Mastercard Developer Hub for FDX APIs'' developer surface includes authentication, developer portal, signup flow, FAQ, support, engineering blog, and 35 more developer resources.'
+  Mastercard Developer Hub for FDX APIs'' developer surface includes authentication, developer portal, signup flow, FAQ, support, engineering blog, and 36 more developer resources.'
 plans:
 - name: Mastercard Developer Hub For Fdx Apis Plans Pricing
   plan_count: 3
@@ -302,18 +306,23 @@ rate_limits:
   slug: mastercard-developer-hub-for-fdx-apis-rate-limits
 score:
   band: developing
-  composite: 41.0
-  delta: 2.6
+  composite: 40.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 74.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 0.0
     contract_quality: 50.0
     developer_ergonomics: 42.9
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 38.4
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -327,8 +336,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 32.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastercard-developer-hub-for-fdx-apis/refs/heads/main/screenshots/mastercard-developer-hub-for-fdx-apis-2026-06-20T185022.png
 security:

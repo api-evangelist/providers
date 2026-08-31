@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Protocol Buffers (Protobuf) is Google's language-neutral, platform-neutral, extensible mechanism for serializing structured data. It defines a schema language for specifying message structures in .pro
@@ -41,6 +41,26 @@ apis:
   slug: protocol-buffers
 artifact_total: 9
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/protocolbuffers/protobuf/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/protocolbuffers/protobuf/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/protocolbuffers/protobuf/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/protocolbuffers/protobuf/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/protocolbuffers/protobuf/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -95,7 +115,7 @@ overview: 'Protocol Buffers publishes 1 API on the [APIs.io](https://apis.io/) n
   The Protocol Buffers catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Protocol Buffers'' developer surface includes documentation, engineering blog, and 4 more developer resources.'
+  Protocol Buffers'' developer surface includes documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Protocol Buffers Plans Pricing
   plan_count: 3
@@ -117,9 +137,14 @@ rules:
     warn: 4
   slug: protocol-buffers-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 23.8
-  delta: 3.8
+  band: thin
+  composite: 34.5
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -128,10 +153,13 @@ score:
     developer_ergonomics: 31.0
     discoverability: 59.3
     governance: 9.8
-    operational_transparency: 10.5
-  previous_composite: 20.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 34.5
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/protocol-buffers/refs/heads/main/screenshots/protocol-buffers-2026-06-20T192219.png
 security:

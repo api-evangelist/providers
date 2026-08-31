@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: The RESO Web API is the ratified transport standard for real estate data, defined as a profile of OData 4.0/4.01 (Web API Core 2.0.0 and 2.1.0). Servers MUST expose an OData XML metadata document at /
@@ -48,6 +48,14 @@ collections:
   name: API Collection
   slug: open-reso-dd-2
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/RESOStandards/reso-tools/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/RESOStandards/reso-tools/releases
 - group: auth
   title: ''
   type: DomainSecurity
@@ -267,11 +275,16 @@ overview: 'RESO (Real Estate Standards Organization) publishes 2 APIs on the [AP
   The RESO (Real Estate Standards Organization) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  RESO (Real Estate Standards Organization)''s developer surface includes documentation, pricing, engineering blog, API reference, getting-started guide, support, signup flow, and 43 more developer resources.'
+  RESO (Real Estate Standards Organization)''s developer surface includes documentation, pricing, engineering blog, API reference, getting-started guide, support, signup flow, and 45 more developer resources.'
 random_paper: 0
 score:
   band: developing
-  composite: 45.8
+  composite: 43.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -282,13 +295,16 @@ score:
     discoverability: 59.3
     governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 45.8
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 43.7
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reso/refs/heads/main/screenshots/reso-2026-08-17T081530.png
 security:

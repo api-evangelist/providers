@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,15 +15,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.4
-  scored_at: '2026-08-26'
+  score: 27.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -31,14 +31,8 @@ agentic_access:
   operation_count: 45
   slug: china-mobile-agentic-access
   summary_line: 45 operations · 23 acting
-api_count: 6
+api_count: 2
 apis:
-- description: The OneNET Studio application API is the one China Mobile surface with a complete, anonymously readable request-and-response contract. It is an action-dispatched gateway — every call is https://openap
-  name: OneNET Studio Application API
-  slug: onenet-studio-application-api
-- description: '语音通话 (Voice Call Service) is China Mobile''s publicly documented voice capability on the OneNET gateway, reached at https://openapi.heclouds.com/vcs?action={voiceNotify|dialNotify}&version=2. Click to '
-  name: OneNET Voice Call Service (VCS) API
-  slug: onenet-voice-call-service
 - description: 'OneNET is China Mobile''s IoT PaaS, operated by its CMIOT subsidiary, for device connection, device management, data storage and data visualisation. It is the company''s most genuinely developer-facing '
   name: OneNET IoT Open Platform API
   slug: onenet-iot-platform
@@ -51,7 +45,16 @@ apis:
 - description: 中国移动互联网能力开放平台 at dev.10086.cn is the operator's application-facing capability marketplace, describing itself as offering 移动认证/号码认证 (mobile and number authentication), 大数据服务 (big data services), 通信能力 (
   name: China Mobile Internet Capability Open Platform
   slug: internet-capability-open-platform
-artifact_total: 14
+- description: The Application Development API from China Mobile — 35 operation(s) for application development.
+  name: China Mobile Application Development API
+  slug: china-mobile-application-development-api
+- description: The Device Management API from China Mobile — 9 operation(s) for device management.
+  name: China Mobile Device Management API
+  slug: china-mobile-device-management-api
+- description: 语音通话 — voice notification and click-to-dial
+  name: China Mobile Voice Call Service API
+  slug: china-mobile-voice-call-service-api
+artifact_total: 15
 asyncapis:
 - description: 'OneNET pushes events to application servers over plain HTTP(S) POST. Two distinct outbound surfaces are documented anonymously: the platform-wide 数据推送 (HTTP data push) service, which delivers rule-eng'
   name: China Mobile OneNET event and callback surface
@@ -67,6 +70,14 @@ collections:
   name: China Mobile OneNET Voice Call Service (VCS) API
   slug: open-china-mobile-vcs
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/china-mobile-onenet-studio-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/china-mobile-vcs-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -208,28 +219,33 @@ modified: '2026-07-25'
 name: China Mobile
 nav: Providers
 network: true
-overview: 'China Mobile publishes 2 APIs on the [APIs.io](https://apis.io/) network: OneNET Studio Application API and OneNET Voice Call Service (VCS) API. Tagged areas include Telecommunications, China, Mobile Network Operator, Network APIs, and CAMARA.
+overview: 'China Mobile publishes 3 APIs on the [APIs.io](https://apis.io/) network: Application Development API, Device Management API, and Voice Call Service API. Tagged areas include Telecommunications, China, Mobile Network Operator, Network APIs, and CAMARA.
 
 
   The China Mobile catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  China Mobile''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 25 more developer resources.'
+  China Mobile''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 27 more developer resources.'
 random_paper: 16
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 42.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 30.3
-    contract_quality: 22.2
+    contract_governance: 18.2
+    contract_quality: 22.3
     developer_ergonomics: 70.8
-    discoverability: 75.9
-    governance: 30.3
+    discoverability: 59.3
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 45.1
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -246,8 +262,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 55.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/screenshots/china-mobile-2026-08-07T163418.png
 security:

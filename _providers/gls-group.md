@@ -23,19 +23,43 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: RESTful shipping API for printing labels and manifesting shipping data for GLS Netherlands. Covers login validation, label creation (parcel ShipType "P" and freight ShipType "F"), label deletion, sing
-  name: GLS Netherlands Label API
-  slug: gls-netherlands-label-api
-- description: Read API for parcel status and proof of delivery in the GLS Netherlands network. Three documented operations — POST /api/parcel/v1/details, POST /api/parcel/v1/search and POST /api/pod/v1 — return par
-  name: GLS Netherlands Track and Trace API
-  slug: gls-netherlands-track-and-trace-api
 - description: Group-wide shipping integration web service (version 3.4.19) exposed by the GLS ShipIT backend, documented publicly as Doxygen reference pages. Resource groups cover shipment processing (POST /backend
   name: GLS ShipIT REST API
   slug: gls-shipit-rest-api
-artifact_total: 7
+- description: The Authentication API from GLS Group — 1 operation(s) for authentication.
+  name: GLS Group Authentication API
+  slug: gls-group-authentication-api
+- description: The Delivery API from GLS Group — 4 operation(s) for delivery.
+  name: GLS Group Delivery API
+  slug: gls-group-delivery-api
+- description: The DeliveryOptions API from GLS Group — 1 operation(s) for deliveryoptions.
+  name: GLS Group Delivery Options API
+  slug: gls-group-deliveryoptions-api
+- description: The Home API from GLS Group — 1 operation(s) for home.
+  name: GLS Group Home API
+  slug: gls-group-home-api
+- description: The Monitor API from GLS Group — 1 operation(s) for monitor.
+  name: GLS Group Monitor API
+  slug: gls-group-monitor-api
+- description: The Parcel API from GLS Group — 2 operation(s) for parcel.
+  name: GLS Group Parcel API
+  slug: gls-group-parcel-api
+- description: The ParcelShop API from GLS Group — 1 operation(s) for parcelshop.
+  name: GLS Group Parcel Shop API
+  slug: gls-group-parcelshop-api
+- description: The Pickup API from GLS Group — 2 operation(s) for pickup.
+  name: GLS Group Pickup API
+  slug: gls-group-pickup-api
+- description: The Pod API from GLS Group — 1 operation(s) for pod.
+  name: GLS Group Pod API
+  slug: gls-group-pod-api
+- description: The ShopReturn API from GLS Group — 1 operation(s) for shopreturn.
+  name: GLS Group Shop Return API
+  slug: gls-group-shopreturn-api
+artifact_total: 15
 collections:
 - collection_type: open
   name: GLS.API (Version 1.0)
@@ -50,6 +74,10 @@ collections:
   name: GLS T&T Api - Production
   slug: open-gls-track-and-trace-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gls-group-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -98,20 +126,25 @@ modified: '2026-07-30'
 name: GLS Group
 nav: Providers
 network: true
-overview: 'GLS Group publishes 2 APIs on the [APIs.io](https://apis.io/) network: GLS Netherlands Label API and GLS Netherlands Track and Trace API. Tagged areas include Logistics, Supply Chain, Netherlands, Parcel, and Shipping.
+overview: 'GLS Group publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Delivery API, Delivery Options API, and 7 more. Tagged areas include Logistics, Supply Chain, Netherlands, Parcel, and Shipping.
 
 
-  GLS Group''s developer surface includes getting-started guide, FAQ, signup flow, API reference, and 6 more developer resources.'
+  GLS Group''s developer surface includes getting-started guide, FAQ, signup flow, API reference, and 7 more developer resources.'
 random_paper: 4
 score:
   band: thin
-  composite: 26.7
-  delta: 4.0
+  composite: 26.4
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 82.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
-    contract_quality: 48.6
+    contract_quality: 47.3
     developer_ergonomics: 23.8
     discoverability: 61.1
     governance: 0.0
@@ -122,15 +155,15 @@ score:
     reasons:
     - owner: catalog
       reason: not_a_repo
-  previous_composite: 22.7
+  previous_composite: 26.4
   provenance:
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gls-group/refs/heads/main/screenshots/gls-group-2026-08-07T165749.png
 slug: gls-group

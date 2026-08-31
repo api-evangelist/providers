@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 19
   slug: workday-report-writer-agentic-access
   summary_line: 19 operations · 5 acting
-api_count: 9
+api_count: 4
 apis:
 - description: SOAP web service API for creating, managing, and executing custom reports in Workday using Report Writer functionality. Provides programmatic access to report definitions, calculated fields, and repor
   name: Workday Report Writer API
@@ -134,6 +134,18 @@ collections:
   name: Workday Report Writer Workday WQL API
   slug: open-workday-report-writer-wql
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Workday/raas-python/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Workday/raas-python/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Workday/raas-python/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -266,13 +278,13 @@ modified: '2026-05-19'
 name: Workday Report Writer
 nav: Providers
 network: true
-overview: 'Workday Report Writer publishes 8 APIs on the [APIs.io](https://apis.io/) network, including agentDefinition API, Buckets API, Custom Reports API, and 5 more. Tagged areas include Analytics, Enterprise, ERP, Financials, and HRMS.
+overview: 'Workday Report Writer publishes 8 APIs on the [APIs.io](https://apis.io/) network, including agentDefinition API, Buckets API, Custom Reports API, and 5 more. Tagged areas include Analytics, Enterprise, Erp, Financials, and Hrms.
 
 
   The Workday Report Writer catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Workday Report Writer''s developer surface includes authentication, developer portal, getting-started guide, documentation, sandbox, support, engineering blog, and 15 more developer resources.'
+  Workday Report Writer''s developer surface includes authentication, developer portal, getting-started guide, documentation, sandbox, support, engineering blog, and 18 more developer resources.'
 plans:
 - name: Workday Report Writer Plans Pricing
   plan_count: 1
@@ -295,8 +307,13 @@ rules:
   slug: workday-report-writer-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.0
-  delta: 2.8
+  composite: 51.0
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 63.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -305,8 +322,11 @@ score:
     developer_ergonomics: 59.5
     discoverability: 64.8
     governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 46.2
+    operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     contracts:
@@ -314,8 +334,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/screenshots/workday-report-writer-2026-06-20T201608.png
 security:
@@ -342,11 +362,11 @@ solutions:
 tags:
 - Analytics
 - Enterprise
-- ERP
+- Erp
 - Financials
-- HRMS
+- Hrms
 - Reporting
-- Software-as-a-Service
+- Saas
 use_cases:
 - description: Extract headcount, compensation, and turnover metrics from Workday HCM for downstream analytics, dashboards, and board reporting.
   name: HR Analytics and Workforce Reporting

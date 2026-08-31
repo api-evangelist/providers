@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: ai21-labs-agentic-access
   summary_line: 5 operations · 3 acting
-api_count: 11
+api_count: 1
 apis:
 - description: Conversational completions endpoint backed by the Jamba family of hybrid Mamba/Transformer models (Jamba 1.5 Mini, Jamba 1.5 Large, Jamba 1.6). Accepts a message array, system prompts, temperature, ma
   name: AI21 Jamba Chat Completions API
@@ -217,17 +217,25 @@ rules:
   slug: ai21-labs-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.9
-  delta: 0.0
+  composite: 44.0
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 55.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.1
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 11.4
     contract_quality: 60.5
     developer_ergonomics: 31.0
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 11.4
     operational_transparency: 39.5
+  open_source:
+    applies: true
+    score: 50.0
   previous_composite: 43.9
   provenance:
     agentic_access: derived
@@ -236,8 +244,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/screenshots/ai21-labs-2026-06-20T170826.png
 security:

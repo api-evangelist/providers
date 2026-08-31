@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Partner-only API access for shipping, payment, and integration partners. Not self-serve; access granted under partnership agreements.
@@ -105,6 +105,11 @@ rate_limits:
 score:
   band: minimal
   composite: 9.1
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 13.2
@@ -116,8 +121,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 9.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercari/refs/heads/main/screenshots/mercari-2026-06-20T185213.png
 security:

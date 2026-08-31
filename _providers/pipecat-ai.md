@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 24
   slug: pipecat-ai-agentic-access
   summary_line: 24 operations · 11 acting · 1 human-in-the-loop
-api_count: 7
+api_count: 1
 apis:
 - description: Open-source (BSD 2-Clause) Python framework whose interface is the pipecat-ai library, not a REST API. Applications wire FrameProcessors into a Pipeline, where Frames carry audio, text, images, and co
   name: Pipecat Framework (Python SDK)
@@ -89,6 +89,10 @@ collections:
   name: Pipecat Cloud API
   slug: open-pipecat-ai
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pipecat-ai-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -141,10 +145,10 @@ modified: '2026-06-21'
 name: Pipecat
 nav: Providers
 network: true
-overview: 'Pipecat publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Builds API, Organization API, and 2 more. Tagged areas include Artificial Intelligence, Voice, Multi-Modal, Agents, and Real-Time.
+overview: 'Pipecat publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Builds API, Organization API, and 2 more. Tagged areas include Artificial Intelligence, Voice, Multimodal, Agents, and Real-Time.
 
 
-  Pipecat''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Pipecat''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Pipecat Ai Plans Pricing
   plan_count: 3
@@ -156,18 +160,23 @@ rate_limits:
   slug: pipecat-ai-rate-limits
 score:
   band: thin
-  composite: 38.2
-  delta: 1.4
+  composite: 37.7
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 51.0
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 36.8
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     contracts:
@@ -175,8 +184,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -191,7 +200,7 @@ slug: pipecat-ai
 tags:
 - Artificial Intelligence
 - Voice
-- Multi-Modal
+- Multimodal
 - Agents
 - Real-Time
 - Framework

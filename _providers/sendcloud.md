@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 94
   slug: sendcloud-agentic-access
   summary_line: 94 operations · 42 acting
-api_count: 24
+api_count: 20
 apis:
 - description: The Address API from Sendcloud — 1 operation(s) for address.
   name: Sendcloud Address API
@@ -106,6 +106,12 @@ apis:
 - description: Get list of carriers and shipping methods a user ever used
   name: Sendcloud User Carriers and Shipping Methods API
   slug: sendcloud-user-carriers-and-shipping-methods-api
+- description: The Events API from Sendcloud — 0 operation(s) for events.
+  name: Sendcloud Events API
+  slug: sendcloud-events-api
+- description: The Webhooks API from Sendcloud — 0 operation(s) for webhooks.
+  name: Sendcloud Webhooks API
+  slug: sendcloud-webhooks-api
 arazzos:
 - description: Announce a shipment synchronously, then retrieve the return portal URL customers use to create a return.
   name: Sendcloud Announce a Shipment and Get its Return Portal URL
@@ -143,7 +149,7 @@ arazzos:
 - description: Validate a return payload, create the return, then retrieve its full detail.
   name: Sendcloud Validate and Create a Return
   slug: sendcloud-validate-create-return-workflow
-artifact_total: 152
+artifact_total: 154
 collections:
 - collection_type: postman
   name: Shipments
@@ -341,6 +347,10 @@ collections:
   name: Webhooks
   slug: open-sendcloud-v3-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sendcloud-capability-edges.yml
 - group: other
   title: ''
   type: AgentCard
@@ -630,13 +640,13 @@ modified: '2026-05-25'
 name: Sendcloud
 nav: Providers
 network: true
-overview: 'Sendcloud publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Address API, Analytics API, Broadcast API, and 21 more. Tagged areas include Shipping, Logistics, E-Commerce, Carriers, and Labels.
+overview: 'Sendcloud publishes 26 APIs on the [APIs.io](https://apis.io/) network, including Address API, Analytics API, Broadcast API, and 23 more. Tagged areas include Shipping, Logistics, E-Commerce, Carriers, and Labels.
 
 
   The Sendcloud catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Sendcloud''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 42 more developer resources.'
+  Sendcloud''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 43 more developer resources.'
 plans:
 - name: Sendcloud Plans Pricing
   plan_count: 6
@@ -675,18 +685,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 66.4
-  delta: 0.7
+  composite: 65.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 20.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 28.8
-    contract_quality: 78.9
+    contract_quality: 77.0
     developer_ergonomics: 69.0
     discoverability: 75.9
     governance: 28.8
     operational_transparency: 50.0
-  previous_composite: 65.7
+  previous_composite: 65.9
   provenance:
     agentic_access: derived
     contracts:
@@ -700,8 +715,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 54.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/screenshots/sendcloud-2026-06-20T193651.png
 security:

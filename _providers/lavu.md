@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,21 +42,15 @@ agentic_access:
   operation_count: 2
   slug: lavu-agentic-access
   summary_line: 2 operations · 2 acting
-api_count: 4
+api_count: 2
 apis:
-- description: Ingredients and ingredient usage.
-  name: Lavu Inventory API
-  slug: lavu-inventory-api
 - description: Menu groups, categories, and items.
   name: Lavu Menu API
   slug: lavu-menu-api
 - description: Orders, order contents, and payments.
   name: Lavu Orders API
   slug: lavu-orders-api
-- description: Restaurant floor table layout.
-  name: Lavu Tables API
-  slug: lavu-tables-api
-artifact_total: 40
+artifact_total: 38
 collections:
 - collection_type: open
   name: API Collection
@@ -212,7 +206,7 @@ modified: '2026-06-02'
 name: Lavu
 nav: Providers
 network: true
-overview: 'Lavu publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Inventory API, Menu API, Orders API, and 1 more. Tagged areas include Restaurant, Point-of-Sale, Payments, Inventory, and Menu Management.
+overview: 'Lavu publishes 2 APIs on the [APIs.io](https://apis.io/) network: Menu API and Orders API. Tagged areas include Restaurant, Point-of-Sale, Payments, Inventory, and Menu Management.
 
 
   The Lavu catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -252,18 +246,23 @@ rules:
   slug: lavu-spectral-rules
 score:
   band: thin
-  composite: 28.3
-  delta: 1.9
+  composite: 27.8
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 28.8
-    contract_quality: 20.9
+    contract_quality: 21.3
     developer_ergonomics: 21.4
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 28.8
     operational_transparency: 21.1
-  previous_composite: 26.4
+  previous_composite: 27.8
   provenance:
     agentic_access: derived
     contracts:
@@ -277,8 +276,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/screenshots/lavu-2026-06-20T184344.png
 security:

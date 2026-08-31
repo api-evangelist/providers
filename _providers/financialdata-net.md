@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: REST API for financial and market data covering equities, ETFs, crypto, forex, derivatives, fundamentals, financial statements, news, economic indicators, and more. Responses in JSON/CSV; API-key auth
@@ -150,7 +150,7 @@ modified: '2026-08-22'
 name: FinancialData.Net
 nav: Providers
 network: true
-overview: 'FinancialData.Net publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include finance, financial-data, stock-market-api, market-data, and equities.
+overview: 'FinancialData.Net publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Finance, Financial Data, stock-market-api, Market Data, and Equities.
 
 
   FinancialData.Net''s developer surface includes authentication, code examples, changelog, pricing, signup flow, support, and 20 more developer resources.'
@@ -166,7 +166,12 @@ rate_limits:
 score:
   band: developing
   composite: 43.3
-  delta: 3.3
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -176,7 +181,7 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 40.0
+  previous_composite: 43.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -186,8 +191,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -200,22 +205,22 @@ security:
   summary_line: TLSv1.3 · DMARC
 slug: financialdata-net
 tags:
-- finance
-- financial-data
+- Finance
+- Financial Data
 - stock-market-api
-- market-data
-- equities
-- etf
-- crypto
-- forex
+- Market Data
+- Equities
+- ETFs
+- Crypto
+- Forex
 - derivatives-options
-- fundamentals
-- insider-trading
+- Fundamentals
+- Insider Trading
 - institutional-13f
-- esg
-- economic-data
-- mcp
-- investing
-- trading
+- ESG
+- Economic Data
+- MCP
+- Investing
+- Trading
 website: https://financialdata.net
 ---

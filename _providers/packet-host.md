@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 4
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 221
   slug: packet-host-agentic-access
   summary_line: 221 operations · 98 acting · 4 human-in-the-loop
-api_count: 40
+api_count: 1
 apis:
 - description: Nearly all of the endpoints in the API require authentication. Authentication is performed by providing an authentication token (interchangeably referred to as an API key) in the `X-Auth-Token` HTTP r
   name: Packet Host Authentication API
@@ -289,6 +289,10 @@ collections:
   name: Metal Authentication VRFs API
   slug: open-packet-host-vrfs-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/packet-host-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -393,25 +397,30 @@ modified: '2026-07-20'
 name: Packet Host
 nav: Providers
 network: true
-overview: 'Packet Host publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Batches API, BGP API, and 37 more. Tagged areas include Company, Bare Metal, Cloud Infrastructure, Infrastructure-as-a-Service, and Servers.
+overview: 'Packet Host publishes 40 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Batches API, BGP API, and 37 more. Tagged areas include Company, Bare Metal, Cloud Infrastructure, Infrastructure as a Service, and Servers.
 
 
-  Packet Host''s developer surface includes documentation, API reference, authentication, CLI, and 19 more developer resources.'
+  Packet Host''s developer surface includes documentation, API reference, authentication, CLI, and 20 more developer resources.'
 random_paper: 10
 score:
   band: developing
-  composite: 43.5
-  delta: 0.0
+  composite: 41.5
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 59.6
     developer_ergonomics: 54.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 43.5
+  previous_composite: 42.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -422,8 +431,8 @@ score:
       total: 40
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/screenshots/packet-host-2026-08-07T191242.png
 security:
@@ -440,7 +449,7 @@ tags:
 - Company
 - Bare Metal
 - Cloud Infrastructure
-- Infrastructure-as-a-Service
+- Infrastructure as a Service
 - Servers
 - Compute
 - Provisioning

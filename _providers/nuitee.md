@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 20
   slug: nuitee-agentic-access
   summary_line: 20 operations · 7 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Prebook, book, retrieve, list, and cancel reservations.
   name: Nuitée (LiteAPI) Booking API
@@ -77,6 +77,10 @@ collections:
   name: LiteAPI (Nuitée) Hotel Booking API
   slug: open-nuitee
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nuitee-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -132,7 +136,7 @@ network: true
 overview: 'Nuitée (LiteAPI) publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Booking API, Hotel Data API, Loyalty API, and 1 more. Tagged areas include Travel, Hotels, Booking, Distribution, and Hospitality.
 
 
-  Nuitée (LiteAPI)''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Nuitée (LiteAPI)''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Nuitee Plans Pricing
   plan_count: 3
@@ -144,18 +148,23 @@ rate_limits:
   slug: nuitee-rate-limits
 score:
   band: thin
-  composite: 36.1
-  delta: 1.6
+  composite: 35.6
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 51.0
     developer_ergonomics: 25.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 34.5
+  previous_composite: 36.1
   provenance:
     agentic_access: derived
     contracts:
@@ -163,8 +172,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuitee/refs/heads/main/screenshots/nuitee-2026-08-07T185721.png
 security:

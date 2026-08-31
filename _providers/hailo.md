@@ -19,11 +19,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.5
-  scored_at: '2026-08-26'
+  score: 24.5
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: HailoRT is Hailo's production runtime library for the Hailo-8, Hailo-10 and Hailo-15 device families. It is a host-side, user-space C/C++ library with a Python binding (pyHailoRT), a hailortcli comman
@@ -139,7 +139,7 @@ modified: '2026-08-22'
 name: Hailo
 nav: Providers
 network: true
-overview: 'Hailo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine Learning, Semiconductors, Edge Computing, and Computer Vision.
+overview: 'Hailo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Machine-Learning, Semiconductors, Edge Computing, and Computer-Vision.
 
 
   Hailo''s developer surface includes documentation, API reference, support, engineering blog, CLI, changelog, authentication, and 17 more developer resources.'
@@ -154,13 +154,18 @@ rate_limits:
   slug: hailo-rate-limits
 score:
   band: thin
-  composite: 26.4
-  delta: 0.0
+  composite: 33.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 6.7
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 0.0
+    contract_quality: 26.7
     developer_ergonomics: 66.7
     discoverability: 59.3
     governance: 4.5
@@ -170,9 +175,9 @@ score:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 security:
 - kind: authentication
   name: Hailo Authentication
@@ -185,10 +190,10 @@ security:
 slug: hailo
 tags:
 - Artificial Intelligence
-- Machine Learning
+- Machine-Learning
 - Semiconductors
 - Edge Computing
-- Computer Vision
+- Computer-Vision
 - Inference
 - Embedded Systems
 - Video Analytics

@@ -17,7 +17,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.5
-  scored_at: '2026-08-26'
+  score: 24.4
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: alliance-data-systems-agentic-access
   summary_line: 14 operations · 8 acting
-api_count: 9
+api_count: 2
 apis:
 - description: Browser-side JavaScript SDK that exposes the BreadPayments object for rendering the Bread modal, embedded placements, prequalification, and cart/checkout flows on merchant sites. Loaded from Bread CDN
   name: Bread JavaScript SDK
@@ -98,6 +98,10 @@ collections:
   name: Bread Pay Platform API
   slug: open-bread-pay-platform
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/alliance-data-systems-capability-edges.yml
 - group: operate
   title: ''
   type: Releases
@@ -298,7 +302,7 @@ overview: 'Alliance Data Systems (Bread Financial Holdings) publishes 5 APIs on 
   The Alliance Data Systems (Bread Financial Holdings) catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Alliance Data Systems (Bread Financial Holdings)''s developer surface includes authentication, engineering blog, and 26 more developer resources.'
+  Alliance Data Systems (Bread Financial Holdings)''s developer surface includes authentication, engineering blog, and 27 more developer resources.'
 plans:
 - name: Alliance Data Systems Plans Pricing
   plan_count: 3
@@ -364,18 +368,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 48.4
-  delta: 4.1
+  composite: 47.7
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 34.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 28.8
-    contract_quality: 60.5
+    contract_quality: 60.0
     developer_ergonomics: 38.1
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 39.5
-  previous_composite: 44.3
+  previous_composite: 48.3
   provenance:
     agentic_access: derived
     contracts:
@@ -389,8 +398,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/screenshots/alliance-data-systems-2026-07-25T195654.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 75
   slug: stedi-agentic-access
   summary_line: 75 operations · 31 acting
-api_count: 24
+api_count: 7
 apis:
 - description: The Claim acknowledgments API from Stedi — 1 operation(s) for claim acknowledgments.
   name: Stedi Claim acknowledgments API
@@ -113,9 +113,12 @@ apis:
 - description: The Eligibility PDF API from Stedi — 1 operation(s) for retrieving a rendered PDF of an X12 271 eligibility response.
   name: Stedi Eligibility PDF API
   slug: stedi-eligibility-pdf-api
-- description: The Event Destinations API from Stedi — 7 operation(s) for registering webhook destinations, managing their event-type subscriptions, and rotating Standard Webhooks signing secrets.
-  name: Stedi Event Destinations API
-  slug: stedi-event-destinations-api
+- description: The Destinations API from Stedi — 4 operation(s) for destinations.
+  name: Stedi Destinations API
+  slug: stedi-destinations-api
+- description: The Eligibility Check API from Stedi — 1 operation(s) for eligibility check.
+  name: Stedi Eligibility Check API
+  slug: stedi-eligibility-check-api
 arazzos:
 - description: Resolve a claim-status-capable payer, run an X12 276 inquiry, and convert the X12 277 status report.
   name: Stedi X12 276/277 Claim Status Inquiry
@@ -132,7 +135,7 @@ arazzos:
 - description: Create a provider, open an enrollment, upload the signed agreement, and read the enrollment status for X12 835 ERA/EFT transactions.
   name: Stedi Provider Enrollment for X12 835 ERA/EFT
   slug: stedi-provider-enrollment-workflow
-artifact_total: 76
+artifact_total: 77
 asyncapis:
 - description: 'Stedi publishes NO AsyncAPI document of its own. This document was assembled by API Evangelist from Stedi''s own published sources: the V1EventPayload schema in Stedi''s OpenAPI for the Events API, the '
   name: Stedi Event Destinations (webhooks)
@@ -205,6 +208,14 @@ collections:
   name: Stedi Healthcare Claims Claim acknowledgments X12 API
   slug: open-stedi-x12-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/stedi-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/stedi-event-destinations-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -464,13 +475,13 @@ modified: '2026-08-15'
 name: Stedi
 nav: Providers
 network: true
-overview: 'Stedi publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Claim acknowledgments API, Claim Attachments API, Claim submission API, and 21 more. Tagged areas include EDI, Electronic Data Interchange, Healthcare, Clearinghouse, and X12.
+overview: 'Stedi publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Claim acknowledgments API, Claim Attachments API, Claim submission API, and 22 more. Tagged areas include EDI, Electronic Data Interchange, Healthcare, Clearinghouse, and X12.
 
 
   The Stedi catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Stedi''s developer surface includes authentication, documentation, engineering blog, pricing, sandbox, changelog, API reference, and 42 more developer resources.'
+  Stedi''s developer surface includes authentication, documentation, engineering blog, pricing, sandbox, changelog, API reference, and 44 more developer resources.'
 plans:
 - name: Stedi Plans Pricing
   plan_count: 3
@@ -498,18 +509,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 85.6
+  composite: 83.0
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 31.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 55.3
+    contract_governance: 43.2
     contract_quality: 68.6
     developer_ergonomics: 73.2
-    discoverability: 92.6
-    governance: 55.3
+    discoverability: 81.5
+    governance: 43.2
     operational_transparency: 76.3
-  previous_composite: 85.6
+  previous_composite: 83.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -526,8 +542,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 80.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stedi/refs/heads/main/screenshots/stedi-2026-06-20T194534.png
 security:

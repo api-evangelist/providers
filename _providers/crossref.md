@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 18
   slug: crossref-agentic-access
   summary_line: 18 operations
-api_count: 8
+api_count: 1
 apis:
 - description: The Agency API from Crossref — 1 operation(s) for agency.
   name: Crossref Agency API
@@ -100,6 +100,10 @@ collections:
   name: Crossref
   slug: open-crossref
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/crossref-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -187,7 +191,7 @@ overview: 'Crossref publishes 8 APIs on the [APIs.io](https://apis.io/) network,
   The Crossref catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Crossref''s developer surface includes documentation, engineering blog, and 13 more developer resources.'
+  Crossref''s developer surface includes documentation, engineering blog, and 14 more developer resources.'
 plans:
 - name: Crossref Plans Pricing
   plan_count: 3
@@ -221,15 +225,20 @@ rules:
   slug: crossref-rules
 score:
   band: thin
-  composite: 32.1
-  delta: 0.0
+  composite: 31.6
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 33.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 28.8
     contract_quality: 51.9
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 26.3
   previous_composite: 32.1
@@ -246,8 +255,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossref/refs/heads/main/screenshots/crossref-2026-06-20T175248.png
 security:

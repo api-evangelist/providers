@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-08-26'
-api_count: 26
+  scored_at: '2026-08-30'
+api_count: 11
 apis:
 - description: The Actions API from WorkSpan — 2 operation(s) for actions.
   name: WorkSpan Actions API
@@ -340,18 +340,23 @@ overview: 'WorkSpan publishes 26 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 3
 score:
   band: developing
-  composite: 50.6
+  composite: 49.1
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.5
     developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 50.6
+  previous_composite: 49.1
   provenance:
     conformance: derived
     contracts:
@@ -361,8 +366,8 @@ score:
       total: 26
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/screenshots/workspan-2026-08-17T082946.png
 security:

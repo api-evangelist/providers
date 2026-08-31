@@ -23,21 +23,52 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.0
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 11
 apis:
-- description: The public, anonymously-readable content API exposed by engrail.com at /wp-json/wp/v2. Sixteen read operations over posts, pages, media, categories, tags, comments, and the site's own type/taxonomy/st
-  name: Engrail Therapeutics Site Content API
-  slug: content
 - description: Two live Model Context Protocol servers registered under the `mcp` REST namespace on engrail.com, fronted by RFC 8414 and RFC 9728 OAuth discovery documents at the apex. Both are OAuth-protected — ano
   name: Engrail Therapeutics MCP Servers
   slug: mcp
-artifact_total: 7
+- description: The Categories API from Engrail Therapeutics — 2 operation(s) for categories.
+  name: Engrail Therapeutics Categories API
+  slug: engrail-therapeutics-categories-api
+- description: The Comments API from Engrail Therapeutics — 2 operation(s) for comments.
+  name: Engrail Therapeutics Comments API
+  slug: engrail-therapeutics-comments-api
+- description: The Media API from Engrail Therapeutics — 2 operation(s) for media.
+  name: Engrail Therapeutics Media API
+  slug: engrail-therapeutics-media-api
+- description: The Pages API from Engrail Therapeutics — 2 operation(s) for pages.
+  name: Engrail Therapeutics Pages API
+  slug: engrail-therapeutics-pages-api
+- description: The Posts API from Engrail Therapeutics — 2 operation(s) for posts.
+  name: Engrail Therapeutics Posts API
+  slug: engrail-therapeutics-posts-api
+- description: The Search API from Engrail Therapeutics — 1 operation(s) for search.
+  name: Engrail Therapeutics Search API
+  slug: engrail-therapeutics-search-api
+- description: The Statuses API from Engrail Therapeutics — 1 operation(s) for statuses.
+  name: Engrail Therapeutics Statuses API
+  slug: engrail-therapeutics-statuses-api
+- description: The Tags API from Engrail Therapeutics — 2 operation(s) for tags.
+  name: Engrail Therapeutics Tags API
+  slug: engrail-therapeutics-tags-api
+- description: The Taxonomies API from Engrail Therapeutics — 1 operation(s) for taxonomies.
+  name: Engrail Therapeutics Taxonomies API
+  slug: engrail-therapeutics-taxonomies-api
+- description: The Types API from Engrail Therapeutics — 1 operation(s) for types.
+  name: Engrail Therapeutics Types API
+  slug: engrail-therapeutics-types-api
+artifact_total: 16
 collections:
 - collection_type: open
   name: Engrail Therapeutics Site Content API (WordPress REST)
   slug: open-engrail-therapeutics-content
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/engrail-therapeutics-content-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -139,10 +170,10 @@ modified: '2026-08-01'
 name: Engrail Therapeutics
 nav: Providers
 network: true
-overview: 'Engrail Therapeutics publishes 1 API on the [APIs.io](https://apis.io/) network: Site Content API. Tagged areas include Company, Biotechnology, Pharmaceuticals, Life Sciences, and Neuroscience.
+overview: 'Engrail Therapeutics publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Comments API, Media API, and 7 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Life Sciences, and Neuroscience.
 
 
-  Engrail Therapeutics'' developer surface includes engineering blog, support, authentication, and 19 more developer resources.'
+  Engrail Therapeutics'' developer surface includes engineering blog, support, authentication, and 20 more developer resources.'
 random_paper: 1
 scopes:
 - name: Engrail Therapeutics Scopes
@@ -151,18 +182,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 38.8
+  composite: 36.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 55.1
     developer_ergonomics: 20.8
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 74.1
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 38.8
+  previous_composite: 36.8
   provenance:
     conformance: first-party
     contracts:
@@ -178,8 +214,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engrail-therapeutics/refs/heads/main/screenshots/engrail-therapeutics-2026-08-07T164922.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 43
   slug: revcontent-agentic-access
   summary_line: 43 operations · 21 acting
-api_count: 12
+api_count: 3
 apis:
 - description: REST API providing programmatic access to RevContent's advertising platform for managing campaigns (boosts), widgets, content, targeting, widget blacklisting, conversion pixels, sub accounts, and stat
   name: RevContent Stats & Management API
@@ -50,9 +50,6 @@ apis:
 - description: OAuth 2.0 client-credentials token issuance and account reactivation.
   name: RevContent Access API
   slug: revcontent-access-api
-- description: Create, update, list, archive and report on advertising campaigns.
-  name: RevContent Campaigns (Boosts) API
-  slug: revcontent-boosts-api
 - description: CCPA consumer data access and deletion requests for publishers.
   name: RevContent CCPA API
   slug: revcontent-ccpa-api
@@ -71,15 +68,18 @@ apis:
 - description: Per-campaign widget targeting and widget-level bid overrides.
   name: RevContent Targeting API
   slug: revcontent-targeting-api
-- description: Publisher widget inventory, geo statistics and Sub ID reporting.
-  name: RevContent Widgets API
-  slug: revcontent-widgets-api
 - description: Publisher-owned content injected into that publisher's own widget.
   name: RevContent Widget Internal Content API
   slug: revcontent-widget-internal-content-api
 - description: Campaign-level widget blacklisting.
   name: RevContent Widget Optimizer API
   slug: revcontent-widget-optimizer-api
+- description: Create, update, list, archive and report on advertising campaigns (boosts).
+  name: RevContent Campaigns API
+  slug: revcontent-campaigns-api
+- description: Publisher widget inventory, geo statistics and Sub ID reporting.
+  name: RevContent Widget API
+  slug: revcontent-widget-api
 artifact_total: 62
 collections:
 - collection_type: open
@@ -119,6 +119,14 @@ collections:
   name: RevContent Widget API
   slug: open-revcontent-widgets-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/revcontent-boosts-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/revcontent-widgets-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -385,13 +393,13 @@ modified: '2026-08-13'
 name: RevContent
 nav: Providers
 network: true
-overview: 'RevContent publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Access API, Campaigns (Boosts) API, CCPA API, and 8 more. Tagged areas include Native Advertising, Content Recommendation, Ad Network, Publisher Monetization, and Programmatic Advertising.
+overview: 'RevContent publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Access API, CCPA API, Content API, and 8 more. Tagged areas include Native Advertising, Content Recommendation, Ad Network, Publisher Monetization, and Programmatic Advertising.
 
 
   The RevContent catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  RevContent''s developer surface includes authentication, code examples, changelog, documentation, API reference, getting-started guide, support, and 33 more developer resources.'
+  RevContent''s developer surface includes authentication, code examples, changelog, documentation, API reference, getting-started guide, support, and 35 more developer resources.'
 plans:
 - name: Revcontent Plans Pricing
   plan_count: 0
@@ -419,18 +427,23 @@ scopes:
   summary_line: 2 scopes
 score:
   band: strong
-  composite: 60.0
+  composite: 58.5
+  coverage:
+    artifact_dirs: 29
+    catalog_gap: 43.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 84.8
+    contract_governance: 72.7
     contract_quality: 70.0
     developer_ergonomics: 66.1
     discoverability: 74.1
-    governance: 84.8
+    governance: 72.7
     operational_transparency: 28.9
-  previous_composite: 60.0
+  previous_composite: 58.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -441,8 +454,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/screenshots/revcontent-2026-06-20T193044.png
 security:

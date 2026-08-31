@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 6
 apis:
 - description: TLC is the primary model checker for specifications written in TLA+. It can be run from the command line using tla2tools.jar or consumed as a Java dependency via Maven from central.sonatype.org. Requi
@@ -56,6 +56,22 @@ apis:
   slug: tlaplus-examples
 artifact_total: 30
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/tlaplus/tlaplus/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/tlaplus/tlaplus/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/tlaplus/tlaplus/blob/master/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/tlaplus/tlaplus/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -125,7 +141,7 @@ network: true
 overview: 'TLA Plus Foundation publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Formal Methods, Linux Foundation, Specifications, Verification, and Distributed Systems.
 
 
-  TLA Plus Foundation''s developer surface includes documentation, support, and 4 more developer resources.'
+  TLA Plus Foundation''s developer surface includes documentation, support, and 8 more developer resources.'
 plans:
 - name: Tla Plus Foundation Plans Pricing
   plan_count: 3
@@ -137,7 +153,12 @@ rate_limits:
   slug: tla-plus-foundation-rate-limits
 score:
   band: emerging
-  composite: 13.9
+  composite: 20.8
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -147,10 +168,13 @@ score:
     developer_ergonomics: 14.3
     discoverability: 64.8
     governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 13.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 20.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tla-plus-foundation/refs/heads/main/screenshots/tla-plus-foundation-2026-06-20T195420.png
 security:

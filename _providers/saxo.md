@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 301
   slug: saxo-agentic-access
   summary_line: 301 operations · 146 acting · 3 human-in-the-loop
-api_count: 80
+api_count: 17
 apis:
 - description: The Saxo Bank FIX API delivers institutional-grade multi-asset liquidity via the industry-standard Financial Information eXchange (FIX) protocol. It provides a stable, fast, and fully documented elect
   name: Saxo Bank FIX Trading API
@@ -527,6 +527,10 @@ collections:
   name: Services.AutoTrading Account Values Users API
   slug: open-saxo-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/saxo-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -566,7 +570,7 @@ overview: 'Saxo Bank publishes 79 APIs on the [APIs.io](https://apis.io/) networ
   The Saxo Bank catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Saxo Bank''s developer surface includes authentication and 3 more developer resources.'
+  Saxo Bank''s developer surface includes authentication and 4 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -584,7 +588,12 @@ scopes:
 score:
   band: thin
   composite: 35.9
-  delta: 1.9
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 50.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -594,7 +603,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 34.0
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -608,8 +617,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saxo/refs/heads/main/screenshots/saxo-2026-06-20T193446.png
 security:

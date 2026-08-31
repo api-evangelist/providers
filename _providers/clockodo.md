@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 33
   slug: clockodo-agentic-access
   summary_line: 33 operations · 19 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 1
 apis:
 - description: Absence records (vacation, sickness, etc.).
   name: Clockodo Absences API
@@ -184,7 +184,7 @@ modified: '2026-05-19'
 name: Clockodo
 nav: Providers
 network: true
-overview: 'Clockodo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Clock API, Customers API, and 6 more. Tagged areas include Absence Management, Billing, Project Management, Stopclock, and Time Tracking.
+overview: 'Clockodo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Absences API, Clock API, Customers API, and 6 more. Tagged areas include Absence Management, Billing, Project Management, Stop Clock, and Time Tracking.
 
 
   The Clockodo catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -223,16 +223,21 @@ rules:
     warn: 2
   slug: clockodo-rules
 score:
-  band: developing
-  composite: 39.6
-  delta: 0.0
+  band: thin
+  composite: 39.0
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 13.6
     contract_quality: 61.2
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 13.6
     operational_transparency: 7.9
   previous_composite: 39.6
@@ -243,8 +248,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/screenshots/clockodo-2026-06-20T174529.png
 security:
@@ -261,7 +266,7 @@ tags:
 - Absence Management
 - Billing
 - Project Management
-- Stopclock
+- Stop Clock
 - Time Tracking
 - Timesheets
 website: https://www.clockodo.com/en/

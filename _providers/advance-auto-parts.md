@@ -25,16 +25,16 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-26'
+  score: 36.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: advance-auto-parts-agentic-access
   summary_line: 14 operations · 2 acting
-api_count: 7
+api_count: 2
 apis:
 - description: Shopping cart management
   name: Advance Auto Parts Cart API
@@ -65,7 +65,7 @@ apis:
 - description: Vehicle year/make/model lookup and fitment
   name: Advance Auto Parts Vehicles API
   slug: advance-auto-parts-vehicles-api
-artifact_total: 111
+artifact_total: 112
 collections:
 - collection_type: open
   name: API Collection
@@ -98,6 +98,34 @@ collections:
   name: Advance Auto Parts Catalog Cart Vehicles API
   slug: open-advance-auto-parts-vehicles-api
 common:
+- group: build
+  title: ''
+  type: Packages
+  url: packages/advance-auto-parts-packages.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/advance-auto-parts-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/advance-auto-parts-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/advance-auto-parts-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/advance-auto-parts-lifecycle.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/advance-auto-parts-llms.txt
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/advance-auto-parts-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -154,6 +182,20 @@ common:
   title: ''
   type: Signup
   url: https://www.advanceautoparts.com/myaccount/register
+coverage:
+  checked: '2026-08-30'
+  detail: 'Every Advance Auto Parts integration surface sits behind an account: the supplier portal at supplier.advanceautoparts.com/ords redirects all data paths to a login, the Advance Professional shop-management-system order integration page at my.advancepro.com renders client-side inside a Salesforce community with no public API reference, and the declared API host api.advanceautoparts.com answers HTTP 503 "DNS failure" from the Akamai edge with no origin behind it.'
+  evidence:
+  - status: 503
+    url: https://api.advanceautoparts.com/openapi.json
+  - status: 302
+    url: https://supplier.advanceautoparts.com/ords/_/db-api/stable/apex/workspaces/
+  - status: 200
+    url: https://my.advancepro.com/service/s/apro-sms-order-integration-page?language=en_US
+  - status: 200
+    url: https://www.advanceautoparts.com/llms.txt
+  reason: partner-login
+  state: gated
 created: '2024-01-01'
 description: Advance Auto Parts is a leading automotive aftermarket parts retailer offering a comprehensive catalog of automotive parts, accessories, batteries, and maintenance items. The company serves both professional automotive technicians and do-it-yourself customers across North America through retail stores, online, and commercial delivery programs.
 examples:
@@ -403,7 +445,7 @@ overview: 'Advance Auto Parts publishes 7 APIs on the [APIs.io](https://apis.io/
   The Advance Auto Parts catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Advance Auto Parts'' developer surface includes authentication, developer portal, support, engineering blog, signup flow, and 9 more developer resources.'
+  Advance Auto Parts'' developer surface includes authentication, developer portal, support, engineering blog, signup flow, and 16 more developer resources.'
 plans:
 - name: Advance Auto Parts Plans Pricing
   plan_count: 1
@@ -458,18 +500,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.1
-  delta: 2.8
+  composite: 42.6
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 47.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.5
   facets:
     access_clarity: 30.3
     commercial_clarity: 30.3
     contract_governance: 28.8
     contract_quality: 68.6
     developer_ergonomics: 29.8
-    discoverability: 74.1
+    discoverability: 75.9
     governance: 28.8
-    operational_transparency: 7.9
-  previous_composite: 38.3
+    operational_transparency: 18.4
+  previous_composite: 41.1
   provenance:
     agentic_access: derived
     contracts:
@@ -477,8 +524,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/screenshots/advance-auto-parts-2026-06-20T165218.png
 security:
@@ -490,6 +537,10 @@ security:
   name: Advance Auto Parts Domain Security
   slug: advance-auto-parts-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Advance Auto Parts Vulnerability Disclosure
+  slug: advance-auto-parts-vulnerability-disclosure
+  summary_line: Hackerone
 slug: advance-auto-parts
 tags:
 - Automotive

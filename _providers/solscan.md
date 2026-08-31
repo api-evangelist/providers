@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.8
-  scored_at: '2026-08-26'
-api_count: 7
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Free, lower-rate-limit public API exposing basic account, transaction, and token endpoints used by the Solscan UI.
   name: Solscan Public API
@@ -126,7 +126,7 @@ modified: '2026-05-08'
 name: Solscan
 nav: Providers
 network: true
-overview: 'Solscan publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Block API, NFT API, and 2 more. Tagged areas include Web3, Solana, Explorer, Onchain, and Tokens.
+overview: 'Solscan publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Block API, NFT API, and 2 more. Tagged areas include Web3, Solana, Explorer, On-Chain, and Tokens.
 
 
   Solscan''s developer surface includes developer portal, documentation, pricing, and 6 more developer resources.'
@@ -141,15 +141,20 @@ rate_limits:
   slug: solscan-rate-limits
 score:
   band: thin
-  composite: 31.2
-  delta: 0.0
+  composite: 30.6
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 19.0
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 31.2
@@ -159,8 +164,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solscan/refs/heads/main/screenshots/solscan-2026-06-20T194154.png
 security:
@@ -173,8 +178,8 @@ tags:
 - Web3
 - Solana
 - Explorer
-- Onchain
+- On-Chain
 - Tokens
-- NFT
+- NFTs
 website: https://solscan.io/
 ---

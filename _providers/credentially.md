@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 44
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 81
   slug: credentially-agentic-access
   summary_line: 81 operations · 44 acting · 1 human-in-the-loop
-api_count: 21
+api_count: 2
 apis:
 - description: Profile's compliance packages management proxy endpoints
   name: Credentially Compliance-packages API
@@ -181,6 +181,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/credentially-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/credentially-gateway-overlay.yaml
 - group: company
@@ -317,22 +321,27 @@ overview: 'Credentially publishes 21 APIs on the [APIs.io](https://apis.io/) net
   The Credentially catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Credentially''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+  Credentially''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
 random_paper: 20
 score:
   band: strong
-  composite: 57.6
-  delta: 0.0
+  composite: 55.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 68.6
     developer_ergonomics: 47.0
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 26.3
-  previous_composite: 57.6
+  previous_composite: 56.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -345,12 +354,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/credentially/refs/heads/main/screenshots/credentially-2026-07-25T210710.png
 security:

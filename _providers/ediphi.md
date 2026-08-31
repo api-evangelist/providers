@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Private application API powering the Ediphi preconstruction platform and its "Last Mile" automation (Excel integration, reporting). No public OpenAPI/Swagger specification or developer documentation i
@@ -40,6 +40,10 @@ apis:
   slug: ediphi-api
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/autodesk/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -95,11 +99,16 @@ network: true
 overview: 'Ediphi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Preconstruction, Cost Estimating, and Construction Technology.
 
 
-  Ediphi''s developer surface includes support, engineering blog, signup flow, and 8 more developer resources.'
+  Ediphi''s developer surface includes support, engineering blog, signup flow, and 9 more developer resources.'
 random_paper: 18
 score:
   band: emerging
   composite: 15.8
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 23.7
@@ -111,8 +120,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 15.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ediphi/refs/heads/main/screenshots/ediphi-2026-07-25T212841.png
 security:

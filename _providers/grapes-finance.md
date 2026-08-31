@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: grapes-finance-agentic-access
   summary_line: 12 operations · 6 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Beneficiary management for third-party payouts
   name: Grapes Finance Contacts API
@@ -142,7 +142,7 @@ modified: '2026-05-19'
 name: Grapes Finance
 nav: Providers
 network: true
-overview: 'Grapes Finance publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, KYC API, Orders API, and 3 more. Tagged areas include Stablecoins, On-Ramp, Off-Ramp, Fiat, and Payments.
+overview: 'Grapes Finance publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, KYC API, Orders API, and 3 more. Tagged areas include Stablecoin, Onramp, Offramp, Fiat, and Payments.
 
 
   The Grapes Finance catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -171,18 +171,23 @@ rules:
   slug: grapes-finance-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 28.7
-  delta: -0.9
+  composite: 28.2
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 57.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 50.3
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 29.6
+  previous_composite: 28.7
   provenance:
     agentic_access: derived
     contracts:
@@ -196,8 +201,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/screenshots/grapes-finance-2026-06-20T182322.png
 security:
@@ -211,9 +216,9 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: grapes-finance
 tags:
-- Stablecoins
-- On-Ramp
-- Off-Ramp
+- Stablecoin
+- Onramp
+- Offramp
 - Fiat
 - Payments
 - Cryptocurrency

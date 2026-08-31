@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 69
   slug: automation-anywhere-agentic-access
   summary_line: 69 operations · 49 acting
-api_count: 22
+api_count: 7
 apis:
 - description: The Automation Anywhere Package SDK is a Java-based development toolkit that enables developers to build custom action packages and triggers for the Automation 360 bot editor. Developers use the SDK i
   name: Automation Anywhere Package SDK
@@ -579,16 +579,16 @@ jsonld:
   slug: automation-anywhere-context
 layout: provider
 modified: '2026-05-19'
-name: automation-anywhere
+name: Automation Anywhere
 nav: Providers
 network: true
-overview: 'automation-anywhere publishes 21 APIs on the [APIs.io](https://apis.io/) network, including AccessDetails API, Allocations API, AttributeValues API, and 18 more.
+overview: 'Automation Anywhere publishes 21 APIs on the [APIs.io](https://apis.io/) network, including automation-anywhere AccessDetails API, automation-anywhere Allocations API, automation-anywhere AttributeValues API, and 18 more.
 
 
-  The automation-anywhere catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Automation Anywhere catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  automation-anywhere''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 12 more developer resources.'
+  Automation Anywhere''s developer surface includes authentication, developer portal, documentation, support, engineering blog, and 12 more developer resources.'
 plans:
 - name: Automation Anywhere Plans Pricing
   plan_count: 4
@@ -601,7 +601,7 @@ rate_limits:
 rules:
 - effective_rule_count: 6
   extends: []
-  name: automation-anywhere API Rules
+  name: Automation Anywhere API Rules
   rule_count: 6
   severity_counts:
     error: 0
@@ -612,6 +612,11 @@ rules:
 score:
   band: thin
   composite: 37.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 53.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 26.3
@@ -634,8 +639,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automation-anywhere/refs/heads/main/screenshots/automation-anywhere-2026-06-20T172657.png
 security:

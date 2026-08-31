@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: fiscaldata-agentic-access
   summary_line: 9 operations
-api_count: 6
+api_count: 1
 apis:
 - description: Daily federal cash and debt operations.
   name: U.S. Treasury Fiscal Data Daily Treasury Statement API
@@ -88,6 +88,10 @@ collections:
   name: U.S. Treasury Fiscal Data API
   slug: open-fiscaldata
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fiscaldata-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -135,7 +139,7 @@ network: true
 overview: 'U.S. Treasury Fiscal Data publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Daily Treasury Statement API, Debt API, Exchange Rates API, and 3 more. Tagged areas include Government Data, Treasury, Economic Indicators, Interest Rates, and Open Data.
 
 
-  U.S. Treasury Fiscal Data''s developer surface includes documentation, support, and 6 more developer resources.'
+  U.S. Treasury Fiscal Data''s developer surface includes documentation, support, and 7 more developer resources.'
 plans:
 - name: Fiscaldata Plans Pricing
   plan_count: 1
@@ -147,18 +151,23 @@ rate_limits:
   slug: fiscaldata-rate-limits
 score:
   band: thin
-  composite: 30.3
-  delta: 2.3
+  composite: 29.8
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 48.3
     developer_ergonomics: 26.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 28.0
+  previous_composite: 30.3
   provenance:
     agentic_access: derived
     contracts:
@@ -172,8 +181,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 0.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/screenshots/fiscaldata-2026-07-25T214629.png
 slug: fiscaldata

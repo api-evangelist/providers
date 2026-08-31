@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The 8base GraphQL API provides auto-generated queries, mutations, and subscriptions for every data table in a workspace, covering full CRUD operations out-of-the-box. Each workspace is assigned a uniq
@@ -92,7 +92,7 @@ modified: 2026-06-14
 name: 8base
 nav: Providers
 network: true
-overview: '8base publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Backend-as-a-Service, Low-Code, Serverless, and App Builder.
+overview: '8base publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Backend as a Service, Low-Code, Serverless, and App Builder.
 
 
   8base''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
@@ -100,6 +100,11 @@ random_paper: 5
 score:
   band: emerging
   composite: 22.1
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
@@ -117,8 +122,8 @@ score:
     - owner: catalog
       reason: no_resolvable_host
   previous_composite: 22.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/8base/refs/heads/main/screenshots/8base-2026-06-20T162859.png
 security:
@@ -129,7 +134,7 @@ security:
 slug: 8base
 tags:
 - GraphQL
-- Backend-as-a-Service
+- Backend as a Service
 - Low-Code
 - Serverless
 - App Builder

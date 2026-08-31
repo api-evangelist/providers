@@ -23,13 +23,46 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: The Qualified Enterprise API (v2) connects Qualified data to a warehouse, CDP or downstream system. It exposes leads, website sessions, conversations, messages, meetings and outbound emails as readabl
-  name: Qualified Enterprise API
-  slug: qualified-com-enterprise-api
-artifact_total: 8
+- description: (Legacy) A visitor's conversations with a bot, in a self-contained shape. Superseded by the Conversations and Messages endpoints, which are recommended for new integrations, and remains fully supporte
+  name: Qualified Bot Conversations API
+  slug: qualified-com-bot-conversations-api
+- description: Submit batches of writes for asynchronous processing.
+  name: Qualified Bulk API
+  slug: qualified-com-bulk-api
+- description: Cancel a booked meeting by its Salesforce Event ID.
+  name: Qualified Cancel Meeting API
+  slug: qualified-com-cancel-meeting-api
+- description: Create and update accounts by domain. Companies cannot be read back.
+  name: Qualified Companies API
+  slug: qualified-com-companies-api
+- description: Engaged chat conversations, meaning the visitor exchanged messages with a rep, bot, or AI assistant.
+  name: Qualified Conversations API
+  slug: qualified-com-conversations-api
+- description: Outbound email activity sent from Qualified, with engagement timestamps.
+  name: Qualified Emails API
+  slug: qualified-com-emails-api
+- description: Submit GDPR deletion requests by email.
+  name: Qualified GDPR API
+  slug: qualified-com-gdpr-api
+- description: Create, update, and read lead (person) records and their custom field values.
+  name: Qualified Leads API
+  slug: qualified-com-leads-api
+- description: Meetings offered or booked with a visitor.
+  name: Qualified Meetings API
+  slug: qualified-com-meetings-api
+- description: Individual messages, either across all conversations or within one.
+  name: Qualified Messages API
+  slug: qualified-com-messages-api
+- description: (Legacy) A visitor's conversations with a human rep, in a self-contained shape. Superseded by the Conversations and Messages endpoints, which are recommended for new integrations, and remains fully su
+  name: Qualified Rep Conversations API
+  slug: qualified-com-rep-conversations-api
+- description: Website sessions, with page views and the conversations and meetings that occurred in them.
+  name: Qualified Sessions API
+  slug: qualified-com-sessions-api
+artifact_total: 19
 common:
 - group: auth
   title: ''
@@ -171,7 +204,7 @@ modified: '2026-08-26'
 name: Qualified
 nav: Providers
 network: true
-overview: 'Qualified publishes 1 API on the [APIs.io](https://apis.io/) network: Enterprise API. Tagged areas include Company, Conversational Marketing, Sales, Marketing, and Artificial Intelligence.
+overview: 'Qualified publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Bot Conversations API, Bulk API, Cancel Meeting API, and 9 more. Tagged areas include Company, Conversational Marketing, Sales, Marketing, and Artificial Intelligence.
 
 
   Qualified''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
@@ -191,16 +224,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 63.6
+  composite: 61.9
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 30.3
-    contract_quality: 55.6
+    contract_governance: 18.2
+    contract_quality: 54.8
     developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 81.6
+  previous_composite: 62.5
   provenance:
     conformance: first-party
     contracts:
@@ -210,8 +250,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Qualified Com Authentication

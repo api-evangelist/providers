@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 26
   slug: evidently-agentic-access
   summary_line: 26 operations · 10 acting
-api_count: 4
+api_count: 1
 apis:
 - description: Manage project monitoring dashboards
   name: Evidently AI Dashboards API
@@ -150,10 +150,6 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/evidently-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: '2026-06-13'
 description: Evidently AI is an open-source ML and LLM observability framework licensed under Apache 2.0 that enables teams to evaluate, test, and monitor AI-powered systems and data pipelines in production. The platform provides over 100 built-in metrics for tracking data drift, data quality, and model performance across both tabular data and generative AI workloads. Developers can integrate evaluations programmatically via the Python SDK or through the Evidently Platform REST API, which exposes endpoints for managing projects, uploading traces, running evaluations, and storing results. Evidently supports self-hosted deployments and previously offered Evidently Cloud (now discontinued as SaaS) so teams can run the full platform within their own infrastructure.
 finops:
@@ -177,7 +173,7 @@ overview: 'Evidently AI publishes 4 APIs on the [APIs.io](https://apis.io/) netw
   The Evidently AI catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Evidently AI''s developer surface includes authentication, documentation, engineering blog, pricing, and 16 more developer resources.'
+  Evidently AI''s developer surface includes authentication, documentation, engineering blog, pricing, and 15 more developer resources.'
 plans:
 - name: Evidently Plans Pricing
   plan_count: 3
@@ -189,18 +185,26 @@ rate_limits:
   slug: evidently-rate-limits
 score:
   band: developing
-  composite: 42.9
-  delta: 0.6
+  composite: 43.1
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 50.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.2
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 15.2
     contract_quality: 59.0
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 15.2
     operational_transparency: 21.1
-  previous_composite: 42.3
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 42.9
   provenance:
     agentic_access: derived
     contracts:
@@ -208,8 +212,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evidently/refs/heads/main/screenshots/evidently-2026-06-20T180913.png
 security:

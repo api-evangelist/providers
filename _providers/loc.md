@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 121
   slug: loc-agentic-access
   summary_line: 121 operations
-api_count: 25
+api_count: 2
 apis:
 - description: The Chronicling America API provides access to the historic American newspapers collection digitized by the Library of Congress and its partners. Endpoints allow searching and retrieving pages, titles
   name: Chronicling America API
@@ -197,6 +197,10 @@ collections:
   name: Congress.gov amendments treaty API
   slug: open-loc-treaty-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/loc-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -292,7 +296,7 @@ overview: 'Library of Congress publishes 24 APIs on the [APIs.io](https://apis.i
   The Library of Congress catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Library of Congress'' developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  Library of Congress'' developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Loc Plans Pricing
   plan_count: 3
@@ -315,18 +319,23 @@ rules:
   slug: loc-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.5
-  delta: 2.6
+  composite: 41.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 9.8
     contract_quality: 54.3
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 5.3
-  previous_composite: 39.9
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -340,8 +349,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 42.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/screenshots/loc-2026-06-20T184630.png
 security:

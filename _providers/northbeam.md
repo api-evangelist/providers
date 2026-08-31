@@ -33,23 +33,63 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.0
-  scored_at: '2026-08-26'
-api_count: 4
+  scored_at: '2026-08-30'
+api_count: 8
 apis:
-- description: REST API for submitting order and purchase data to Northbeam as the revenue ground truth for multi-touch attribution and media mix modeling. Writes are natural-key upserts on a caller-supplied order_i
-  name: Northbeam Orders API
-  slug: orders-api
-- description: REST API for uploading daily and hourly spend records from ad platforms Northbeam does not integrate with natively, so those channels can be attributed. Rows are upserted on the platform/campaign/adse
-  name: Northbeam Spend API
-  slug: spend-api
-- description: Asynchronous REST API for exporting attribution performance metrics including revenue, transactions, CAC, AOV and creative analytics across attribution windows and models. Submit an export config, pol
-  name: Northbeam Data Export API
-  slug: data-export-api
 - description: First-party remote Model Context Protocol server giving an agent read-only access to the caller's Northbeam dashboards — performance, attribution, spend and orders. Documented as a custom connector fo
   name: Northbeam MCP Server
   slug: mcp
-artifact_total: 12
+- description: The Attribution Models API from Northbeam — 1 operation(s) for attribution models.
+  name: Northbeam Attribution Models API
+  slug: northbeam-attribution-models-api
+- description: The Breakdowns API from Northbeam — 1 operation(s) for breakdowns.
+  name: Northbeam Breakdowns API
+  slug: northbeam-breakdowns-api
+- description: The Data Export API from Northbeam — 2 operation(s) for data export.
+  name: Northbeam Data Export API
+  slug: northbeam-data-export-api
+- description: The Metrics API from Northbeam — 1 operation(s) for metrics.
+  name: Northbeam Metrics API
+  slug: northbeam-metrics-api
+- description: The Orders API from Northbeam — 2 operation(s) for orders.
+  name: Northbeam Orders API
+  slug: northbeam-orders-api
+- description: The Spend API from Northbeam — 1 operation(s) for spend.
+  name: Northbeam Spend API
+  slug: northbeam-spend-api
+- description: The Spend Hourly API from Northbeam — 1 operation(s) for spend hourly.
+  name: Northbeam Spend Hourly API
+  slug: northbeam-spend-hourly-api
+artifact_total: 16
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/northbeam-orders-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/northbeam-orders-v1-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/northbeam-sync-orders.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/northbeam-spend-v1-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/northbeam-sync-ad-spend.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/northbeam-data-export-v1-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/northbeam-export-attribution-data.md
 - group: company
   title: ''
   type: Website
@@ -227,13 +267,13 @@ modified: '2026-08-13'
 name: Northbeam
 nav: Providers
 network: true
-overview: 'Northbeam publishes 3 APIs on the [APIs.io](https://apis.io/) network: Orders API, Spend API, and Data Export API. Tagged areas include Marketing Attribution, Multi-Touch Attribution, E-Commerce, ROAS, and Media Mix Modeling.
+overview: 'Northbeam publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Attribution Models API, Breakdowns API, Data Export API, and 4 more. Tagged areas include Marketing Attribution, Multi-Touch Attribution, E-Commerce, ROAS, and Media Mix Modeling.
 
 
   The Northbeam catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Northbeam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
+  Northbeam''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
 plans:
 - name: Northbeam Plans Pricing
   plan_count: 4
@@ -245,18 +285,23 @@ rate_limits:
   slug: northbeam-rate-limits
 score:
   band: strong
-  composite: 64.9
+  composite: 62.7
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 32.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 45.5
-    contract_quality: 57.1
+    contract_governance: 33.3
+    contract_quality: 58.6
     developer_ergonomics: 55.4
-    discoverability: 92.6
-    governance: 45.5
+    discoverability: 81.5
+    governance: 33.3
     operational_transparency: 36.8
-  previous_composite: 64.9
+  previous_composite: 62.7
   provenance:
     conformance: first-party
     contracts:
@@ -266,8 +311,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/northbeam/refs/heads/main/screenshots/northbeam-2026-06-20T190413.png
 security:

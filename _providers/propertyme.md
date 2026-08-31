@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.0
-  scored_at: '2026-08-26'
+  score: 23.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -31,41 +31,26 @@ agentic_access:
   operation_count: 86
   slug: propertyme-agentic-access
   summary_line: 86 operations · 38 acting
-api_count: 11
+api_count: 1
 apis:
-- description: Read the contact records in a connected PropertyMe portfolio — owners, tenants, suppliers and the agency contact itself — with change-since-timestamp polling, contact alerts by type, images, and write
-  name: PropertyMe Contacts API
-  slug: propertyme-contacts-api
-- description: The lot (property) record in a connected PropertyMe portfolio — list all lots changed since a timestamp, or filter to rentals, active sales, vacancies and archived lots, retrieve lot detail, contact a
-  name: PropertyMe Properties API
-  slug: propertyme-properties-api
-- description: Read-only access to the tenancies in a connected PropertyMe portfolio and to tenancy balances, including a single tenancy balance record by id. This is the lettings ledger surface that most listing-or
-  name: PropertyMe Tenancies API
-  slug: propertyme-tenancies-api
-- description: The full routine and entry/exit inspection lifecycle — create, query, search by contact or lot, filter by status, and drive an inspection through schedule, reschedule, inspect, close and reopen transi
-  name: PropertyMe Inspections API
-  slug: propertyme-inspections-api
-- description: Maintenance work orders, in both a v1 and a newer v2 shape. Create and update jobs, search by due date, created date and status, move a job through approve, assign, complete, reject and reopen, manage
-  name: PropertyMe Job Tasks API
-  slug: propertyme-job-tasks-api
-- description: General property management tasks distinct from maintenance jobs — list tasks changed since a timestamp, create and update a task, find a task by id, read the assigned task manager, and attach comment
-  name: PropertyMe Tasks API
-  slug: propertyme-tasks-api
-- description: Create a new bill in a connected PropertyMe portfolio, including the supporting document, against the trust accounting ledger. This is the only transaction-writing operation exposed in the published c
-  name: PropertyMe Bills API
-  slug: propertyme-bills-api
-- description: Typed dashboard aggregates over a connected portfolio — activities, communications, lots and transactions, each retrieved by dashboard item type. The read model behind the PropertyMe dashboard, drawin
-  name: PropertyMe Dashboards API
-  slug: propertyme-dashboards-api
-- description: The file surface, exposed as sub-resources rather than a standalone collection — create documents against contacts, lots, owner and tenant folios, inspections, tasks and jobs, and list images for cont
-  name: PropertyMe Documents and Images API
-  slug: propertyme-documents-and-images-api
-- description: The agency staff directory inside a connected portfolio — list all members, and resolve the responsible member for a lot, a task, a job or an inspection. Requires the contact:read scope.
-  name: PropertyMe Members API
-  slug: propertyme-members-api
-- description: 'The consent seam. A single DELETE /v1/portfolios/disconnect operation severs the integration''s connection to the customer''s current portfolio. Every other operation in the API is implicitly scoped to '
-  name: PropertyMe Portfolio Connection API
-  slug: propertyme-portfolio-connection-api
+- description: The Connection API from PropertyMe — 1 operation(s) for connection.
+  name: PropertyMe Connection API
+  slug: propertyme-connection-api
+- description: 'The Scope: Activities API from PropertyMe — 43 operation(s) for scope: activities.'
+  name: 'PropertyMe Scope: Activities API'
+  slug: propertyme-scope-activities-api
+- description: 'The Scope: Bills API from PropertyMe — 2 operation(s) for scope: bills.'
+  name: 'PropertyMe Scope: Bills API'
+  slug: propertyme-scope-bills-api
+- description: 'The Scope: Contacts API from PropertyMe — 11 operation(s) for scope: contacts.'
+  name: 'PropertyMe Scope: Contacts API'
+  slug: propertyme-scope-contacts-api
+- description: 'The Scope: Messages API from PropertyMe — 1 operation(s) for scope: messages.'
+  name: 'PropertyMe Scope: Messages API'
+  slug: propertyme-scope-messages-api
+- description: 'The Scope: Properties API from PropertyMe — 17 operation(s) for scope: properties.'
+  name: 'PropertyMe Scope: Properties API'
+  slug: propertyme-scope-properties-api
 arazzos:
 - description: 'PropertyMe publishes no webhooks, so an integration keeps a portfolio current by polling the six change-since collections with an int64 Timestamp cursor. This workflow seeds the mirror from Timestamp '
   name: Connect a PropertyMe portfolio and run a change-since sync
@@ -76,12 +61,16 @@ arazzos:
 - description: The maintenance work-order flow, using the v2 job-task shape for create and read and the shared v1 sub-resources for quotations, transitions and attachments. Requires activity:read and activity:write,
   name: Raise, quote, approve and complete a PropertyMe maintenance job
   slug: propertyme-maintenance-job
-artifact_total: 20
+artifact_total: 15
 collections:
 - collection_type: open
   name: PropertyMe
   slug: open-propertyme
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/propertyme-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -256,10 +245,10 @@ modified: '2026-07-26'
 name: PropertyMe
 nav: Providers
 network: true
-overview: 'PropertyMe publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, Properties API, Tenancies API, and 8 more. Tagged areas include Real-Estate, Australia, Property Management, Rentals, and PropTech.
+overview: 'PropertyMe publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Connection API, Scope: Activities API, Scope: Bills API, and 3 more. Tagged areas include Real-Estate, Australia, Property Management, Rentals, and PropTech.
 
 
-  PropertyMe''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 33 more developer resources.'
+  PropertyMe''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, engineering blog, and 34 more developer resources.'
 random_paper: 19
 scopes:
 - name: Propertyme Scopes
@@ -268,18 +257,23 @@ scopes:
   summary_line: 20 scopes · authorizationCode/clientCredentials/deviceCode/ciba
 score:
   band: developing
-  composite: 41.4
-  delta: 0.0
+  composite: 44.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
-    contract_quality: 30.7
+    contract_governance: 4.5
+    contract_quality: 50.9
     developer_ergonomics: 37.5
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 41.4
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -291,8 +285,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propertyme/refs/heads/main/screenshots/propertyme-2026-07-27T125353.png
 security:

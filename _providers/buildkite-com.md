@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 32
   slug: buildkite-com-agentic-access
   summary_line: 32 operations · 9 acting · 2 human-in-the-loop
-api_count: 23
+api_count: 2
 apis:
 - description: GraphQL endpoint that returns deeply nested data on organizations, pipelines, builds, jobs, agents, clusters, queues, teams, audit events, suites, test executions, and package registries in a single r
   name: Buildkite GraphQL API
@@ -602,17 +602,22 @@ scopes:
   slug: buildkite-com-scopes
   summary_line: 42 scopes
 score:
-  band: exemplar
-  composite: 67.9
-  delta: 1.4
+  band: strong
+  composite: 65.9
+  coverage:
+    artifact_dirs: 33
+    catalog_gap: 40.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 61.7
     developer_ergonomics: 76.2
-    discoverability: 72.2
-    governance: 45.5
+    discoverability: 66.7
+    governance: 33.3
     operational_transparency: 47.4
   previous_composite: 66.5
   provenance:
@@ -624,8 +629,8 @@ score:
       marker_coverage: 0.0
       total: 19
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/screenshots/buildkite-com-2026-06-20T173752.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 45
   slug: amazon-codepipeline-agentic-access
   summary_line: 45 operations · 45 acting · 2 human-in-the-loop
-api_count: 41
+api_count: 2
 apis:
 - description: Operations for managing pipeline executions
   name: Amazon CodePipeline Executions API
@@ -295,6 +295,10 @@ collections:
   name: 'AWS CodePipeline Executions #X Amz Target=CodePipeline 20150709.UpdatePipeline API'
   slug: open-amazon-codepipeline-x-amz-target-codepipeline-20150709-updatepipeline-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-codepipeline-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -2787,7 +2791,7 @@ overview: 'Amazon CodePipeline publishes 41 APIs on the [APIs.io](https://apis.i
   The Amazon CodePipeline catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodePipeline''s developer surface includes authentication, engineering blog, getting-started guide, pricing, developer console, developer portal, documentation, and 22 more developer resources.'
+  Amazon CodePipeline''s developer surface includes authentication, engineering blog, getting-started guide, pricing, developer console, developer portal, documentation, and 23 more developer resources.'
 random_paper: 3
 rules:
 - effective_rule_count: 5
@@ -2812,19 +2816,24 @@ rules:
     warn: 9
   slug: amazon-codepipeline-spectral-rules
 score:
-  band: strong
-  composite: 54.9
-  delta: 1.4
+  band: developing
+  composite: 53.6
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 60.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 45.5
-    contract_quality: 71.3
+    contract_governance: 33.3
+    contract_quality: 71.1
     developer_ergonomics: 59.5
-    discoverability: 68.5
-    governance: 45.5
+    discoverability: 70.4
+    governance: 33.3
     operational_transparency: 18.4
-  previous_composite: 53.5
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2834,8 +2843,8 @@ score:
       marker_coverage: 0.0
       total: 41
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/screenshots/amazon-codepipeline-2026-07-25T195959.png
 security:

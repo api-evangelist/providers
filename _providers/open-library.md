@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: open-library-agentic-access
   summary_line: 9 operations
-api_count: 19
+api_count: 1
 apis:
 - description: Search Open Library's catalog of books, authors, lists, and subjects. Returns JSON results for full-text and faceted queries, with options for pagination, field selection, and language filtering.
   name: Open Library Search API
@@ -133,6 +133,10 @@ collections:
   name: Open Library API
   slug: open-open-library
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/open-library-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -184,7 +188,7 @@ network: true
 overview: 'Open Library publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Search API, Works API, Editions API, and 11 more. Tagged areas include Authors, Books, Catalog, Covers, and Libraries.
 
 
-  Open Library''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
+  Open Library''s developer surface includes documentation, engineering blog, and 8 more developer resources.'
 plans:
 - name: Open Library Plans Pricing
   plan_count: 3
@@ -195,16 +199,21 @@ rate_limits:
   name: Open Library Rate Limits
   slug: open-library-rate-limits
 score:
-  band: thin
-  composite: 26.3
-  delta: 0.0
+  band: emerging
+  composite: 25.8
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 65.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
     contract_governance: 0.0
     contract_quality: 43.4
     developer_ergonomics: 11.9
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 26.3
@@ -221,8 +230,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/screenshots/open-library-2026-06-20T190844.png
 security:
@@ -238,7 +247,7 @@ tags:
 - Covers
 - Libraries
 - Open Data
-- Reading lists
+- Reading Lists
 - Search
 - Subjects
 website: https://openlibrary.org/

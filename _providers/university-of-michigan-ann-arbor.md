@@ -33,12 +33,9 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-08-26'
-api_count: 7
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: Live OAI-PMH 2.0 metadata harvesting endpoint for Deep Blue Documents, the University of Michigan Library's DSpace institutional repository of articles, dissertations, theses and archival collections.
-  name: Deep Blue Documents OAI-PMH
-  slug: deep-blue-documents-oai
 - description: The University of Michigan's own Shibboleth SAML 2.0 identity provider, and the most unambiguously institution-operated machine-readable surface U-M publishes. GET https://shibboleth.umich.edu/idp/shi
   name: U-M Shibboleth Identity Provider (InCommon)
   slug: shibboleth-idp
@@ -57,6 +54,9 @@ apis:
 - description: The University of Michigan's Canvas learning management system tenancy. The courses, the enrollments and the data are U-M's; the API contract is Instructure's, published once for every Canvas customer
   name: Canvas LMS (U-M tenancy on Instructure)
   slug: canvas-lms
+- description: Repository-level description and capability discovery.
+  name: University of Michigan-Ann Arbor Repository API
+  slug: university-of-michigan-ann-arbor-repository-api
 artifact_total: 16
 common:
 - group: company
@@ -203,10 +203,6 @@ common:
   title: ''
   type: JSONLD
   url: json-ld/university-of-michigan-ann-arbor-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 coverage:
   detail: 'U-M''s programmable footprint is real and mostly unreachable, for two different reasons that must not be conflated. FIRST, and this is the finding about the institution: the enterprise API estate — MCommunity, Schedule of Classes, class rosters, room scheduling — lives in the ITS API Directory on Apigee X and requires a U-M uniqname, Duo two-factor authentication and U-M network/VPN presence to even browse. There is no public developer registration path, so no endpoint in it could be probed or described, and none has been. SECOND, and this is a limit on us rather than on them: most of the umich.edu estate sits behind a Cloudflare managed challenge and returns HTTP 403 "Just a moment..." to automated clients — umich.edu, its.umich.edu, documentation.its.umich.edu, deepblue.lib.umich.edu, search.lib.umich.edu, arc.umich.edu, genai.umich.edu, safecomputing.umich.edu, ro.umich.edu and www.icpsr.umich.edu among them. Those pointers are live and real; they are just not readable by us,
     and they should be re-probed with a browser-grade client. Deep Blue Data in particular is a documented public REST API that we could not read, so no contract was written for it. What WAS fully readable is genuinely U-M''s and is described here in full: the Deep Blue Documents OAI-PMH endpoint (all six verbs, twelve metadata formats, 726 sets, four error codes reproduced) and the U-M Shibboleth SAML 2.0 identity provider registered in InCommon. One vendor tenancy is recorded rather than absorbed: Canvas at umich.instructure.com. A suspected Figshare tenancy at umich.figshare.com was REJECTED — a nonsense control subdomain returns the identical AWS WAF 202, so the response is a wildcard artefact and not evidence of a U-M account.'
@@ -279,13 +275,13 @@ modified: '2026-08-19'
 name: University of Michigan-Ann Arbor
 nav: Providers
 network: true
-overview: 'University of Michigan-Ann Arbor publishes 1 API on the [APIs.io](https://apis.io/) network: Deep Blue Documents OAI-PMH. Tagged areas include University, Higher Education, Education, Public Research University, and United States.
+overview: 'University of Michigan-Ann Arbor publishes 1 API on the [APIs.io](https://apis.io/) network: Repository API. Tagged areas include University, Higher Education, Education, Public Research University, and United States.
 
 
   The University of Michigan-Ann Arbor catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  University of Michigan-Ann Arbor''s developer surface includes documentation, support, authentication, code examples, engineering blog, and 32 more developer resources.'
+  University of Michigan-Ann Arbor''s developer surface includes documentation, support, authentication, code examples, and 32 more developer resources.'
 plans:
 - name: University Of Michigan Ann Arbor Plans Pricing
   plan_count: 2
@@ -314,18 +310,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 60.3
-  delta: 2.4
+  composite: 59.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 30.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 78.8
     contract_quality: 66.7
-    developer_ergonomics: 50.0
-    discoverability: 64.8
+    developer_ergonomics: 47.6
+    discoverability: 59.3
     governance: 78.8
     operational_transparency: 23.7
-  previous_composite: 57.9
+  previous_composite: 60.3
   provenance:
     conformance: first-party
     contracts:
@@ -339,8 +340,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 72.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
 common:
@@ -69,7 +69,7 @@ modified: '2026-07-19'
 name: Kitchensurfing
 nav: Providers
 network: true
-overview: 'Kitchensurfing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Food and Beverage, Marketplace, and On-Demand.
+overview: 'Kitchensurfing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Food and Beverage, Marketplace, and On Demand.
 
 
   Kitchensurfing''s developer surface includes product news and 5 more developer resources.'
@@ -77,6 +77,11 @@ random_paper: 17
 score:
   band: minimal
   composite: 5.7
+  coverage:
+    artifact_dirs: 1
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -96,8 +101,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kitchensurfing/refs/heads/main/screenshots/kitchensurfing-2026-07-25T223903.png
 slug: kitchensurfing
@@ -106,7 +111,7 @@ tags:
 - Defunct
 - Food and Beverage
 - Marketplace
-- On-Demand
+- On Demand
 - Hospitality
 - Local Services
 - Consumer

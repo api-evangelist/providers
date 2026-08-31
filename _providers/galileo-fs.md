@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 19
   slug: galileo-fs-agentic-access
   summary_line: 19 operations · 19 acting · 1 human-in-the-loop
-api_count: 17
+api_count: 1
 apis:
 - description: 'REST API for managing accounts and cards: account creation, KYC/CIP verification, balance/funding, card issuance (physical, digital, virtual, instant-issue), authorization controls.'
   name: Galileo Program API
@@ -128,6 +128,10 @@ collections:
   name: Galileo Financial Technologies Pro API
   slug: open-galileo-fs
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/galileo-fs-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -176,10 +180,10 @@ modified: '2026-05-08'
 name: Galileo Financial Technologies
 nav: Providers
 network: true
-overview: 'Galileo Financial Technologies publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Config API, Dispute API, Events API, and 5 more. Tagged areas include Fintech, Backend-as-a-Service, Card Issuing, Banking, and Payments.
+overview: 'Galileo Financial Technologies publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Config API, Dispute API, Events API, and 5 more. Tagged areas include Fintech, BaaS, Card Issuing, Banking, and Payments.
 
 
-  Galileo Financial Technologies'' developer surface includes authentication and 8 more developer resources.'
+  Galileo Financial Technologies'' developer surface includes authentication and 9 more developer resources.'
 plans:
 - name: Galileo Fs Plans Pricing
   plan_count: 1
@@ -191,18 +195,23 @@ rate_limits:
   slug: galileo-fs-rate-limits
 score:
   band: emerging
-  composite: 24.6
-  delta: 1.0
+  composite: 24.0
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 47.3
     developer_ergonomics: 16.7
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 23.6
+  previous_composite: 24.6
   provenance:
     agentic_access: derived
     contracts:
@@ -216,8 +225,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/screenshots/galileo-fs-2026-06-20T181643.png
 security:
@@ -232,7 +241,7 @@ security:
 slug: galileo-fs
 tags:
 - Fintech
-- Backend-as-a-Service
+- BaaS
 - Card Issuing
 - Banking
 - Payments

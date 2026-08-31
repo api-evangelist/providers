@@ -23,25 +23,40 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
-- description: Login and token refresh for the Nextiva Contact Center platform. Basic authentication generates a JWT bearer token carrying the user's authorities; the token-refresh operation exchanges an existing be
-  name: Nextiva Provider Authentication API
-  slug: provider-authentication
-- description: Spring-secured provider token endpoints that mint JWTs with user authorities, authenticate a user and redirect with a secure token, and generate time-limited multi-tenant portal access tokens.
-  name: Nextiva Provider Token Service API
-  slug: provider-token-service
-- description: Retrieve and control workitems — the unit of work in the Nextiva Contact Center — and the calls attached to them. Fetch workitems and workitem detail, bridge, hold, hang up, mute and unmute a call, se
-  name: Nextiva Workitem Service API
-  slug: workitem-service
-- description: Read the conversation graph across the contact center — conversations and their workitems, conversation history by participant, campaign and ticket scoped conversations, unread counts, conversation ac
-  name: Nextiva Conversation API
-  slug: conversation
-- description: Send outbound SMS messages from a Nextiva user. Inbound SMS arrives as a workitem on the SDK event stream rather than as a customer-configured webhook.
+- description: User login and token management operations.
+  name: Nextiva Authentication API
+  slug: nextiva-authentication-api
+- description: Actions specific to managing calls within workitems
+  name: Nextiva Call Management API
+  slug: nextiva-call-management-api
+- description: The Campaigns API from Nextiva — 1 operation(s) for campaigns.
+  name: Nextiva Campaigns API
+  slug: nextiva-campaigns-api
+- description: Operations related to conversations
+  name: Nextiva Conversations API
+  slug: nextiva-conversations-api
+- description: DTMF tone sending for calls
+  name: Nextiva DTMF API
+  slug: nextiva-dtmf-api
+- description: Email-related workitem operations
+  name: Nextiva Email API
+  slug: nextiva-email-api
+- description: Operations for sending and managing SMS messages.
   name: Nextiva SMS Messaging API
-  slug: sms-messaging
-artifact_total: 15
+  slug: nextiva-sms-messaging-api
+- description: The Tickets API from Nextiva — 1 operation(s) for tickets.
+  name: Nextiva Tickets API
+  slug: nextiva-tickets-api
+- description: Operations for transferring workitems
+  name: Nextiva Transfers API
+  slug: nextiva-transfers-api
+- description: The Workitems API from Nextiva — 4 operation(s) for workitems.
+  name: Nextiva Workitems API
+  slug: nextiva-workitems-api
+artifact_total: 20
 asyncapis:
 - description: ''
   name: Nextiva Events
@@ -63,6 +78,30 @@ collections:
   name: Workitem Service API
   slug: open-nextiva-workitem-service
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nextiva-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nextiva-authentication-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nextiva-provider-authentication-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nextiva-workitem-service-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nextiva-conversation-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nextiva-sms-messaging-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -191,28 +230,33 @@ modified: '2026-07-31'
 name: Nextiva
 nav: Providers
 network: true
-overview: 'Nextiva publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Provider Authentication API, Provider Token Service API, Workitem Service API, and 2 more. Tagged areas include Company, Communications, Voice, Contact Center, and Customer Experience.
+overview: 'Nextiva publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Call Management API, Campaigns API, and 7 more. Tagged areas include Company, Communications, Voice, Contact Center, and Customer Experience.
 
 
   The Nextiva catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Nextiva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
+  Nextiva''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 28 more developer resources.'
 random_paper: 11
 score:
   band: developing
-  composite: 51.9
+  composite: 50.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
-    contract_governance: 16.7
-    contract_quality: 60.0
+    contract_governance: 4.5
+    contract_quality: 58.2
     developer_ergonomics: 47.0
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 51.9
+  previous_composite: 50.8
   provenance:
     conformance: derived
     contracts:
@@ -228,8 +272,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextiva/refs/heads/main/screenshots/nextiva-2026-08-07T185215.png
 security:

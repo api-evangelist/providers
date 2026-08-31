@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -23,9 +23,9 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-26'
+  score: 45.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -77,7 +77,11 @@ apis:
 - description: Vendor and subcontractor management.
   name: Agave Vendors API
   slug: agave-vendors-api
-artifact_total: 114
+artifact_total: 106
+asyncapis:
+- description: ''
+  name: Agave Webhooks
+  slug: agave-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -148,7 +152,7 @@ common:
 - group: commercial
   title: ''
   type: Pricing
-  url: https://www.agaveapi.com/software-vendors/pricing/
+  url: https://useagave.com/pricing
 - group: auth
   title: ''
   type: Security
@@ -156,19 +160,27 @@ common:
 - group: company
   title: ''
   type: Partners
-  url: https://www.agaveapi.com/partners/
+  url: https://useagave.com/partner-hub
 - group: build
   title: ''
   type: GitHubOrganization
   url: https://github.com/agave-api
 - group: build
-  title: React SDK
+  title: ''
+  type: SDKs
+  url: packages/agave-packages.yml
+- group: build
+  title: React SDK (archived)
   type: SDKs
   url: https://github.com/agave-api/react-agave-link
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/_original/agave-unified-api-openapi.yml
+  url: openapi/_ae-authored/agave-unified-api-from-postman-openapi.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_ae-authored/agave-unified-api-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -413,6 +425,138 @@ common:
   title: ''
   type: Blog
   url: https://useagave.com/blog
+- group: build
+  title: ''
+  type: Packages
+  url: packages/agave-packages.yml
+- group: agent
+  title: ''
+  type: WellKnownProbe
+  url: well-known/agave-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/agave-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/agave-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/agave-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/agave-unified-api-from-postman-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/agave-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://security.agaveapi.com/
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/agave-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/agave-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.agaveapi.com
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/agave-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://useagave.com/product-updates
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/agave-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/agave-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/agave-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/agave-plans-pricing.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/agave-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/agave-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/agave-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/agave-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Postman
+  url: https://docs.agaveapi.com/agave-api/postman-collection
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: collections/agave-api-provider.postman_collection.json
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.agaveapi.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.agaveapi.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.agaveapi.com/reference
+- group: operate
+  title: ''
+  type: Support
+  url: mailto:api-support@agaveapi.com
+- group: start
+  title: ''
+  type: SignUp
+  url: https://useagave.com/get-access
+- group: start
+  title: ''
+  type: Login
+  url: https://app.agaveapi.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://useagave.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://useagave.com/privacy
+- group: company
+  title: ''
+  type: Website
+  url: https://useagave.com
 created: '2025-03-01'
 description: Agave is a unified API platform for the construction industry, enabling software companies and contractors to read and write data across 100+ construction and accounting software systems including Procore, Autodesk Build, QuickBooks, Sage, Viewpoint, and more.
 examples:
@@ -495,31 +639,10 @@ finops:
   service_category: Construction Tech / Integration
   slug: agave-finops
 graphqls:
-- description: This conceptual GraphQL schema represents the Agave Unified Construction API domain model. Agave provides a single API layer that normalizes data across 100+ construction and accounting software syste
+- description: '> **NOT A PROVIDER ENDPOINT.** Agave ships no GraphQL API. This document and'
   name: Agave GraphQL Schema
   slug: agave-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/agave.png
-integrations:
-- description: Full read/write integration with Procore for projects, budgets, contracts, commitments, and documents.
-  name: Procore
-- description: Integration with Autodesk Build for project management and document storage.
-  name: Autodesk Build
-- description: Integration with QuickBooks Online for job costing, invoices, and financial data.
-  name: QuickBooks Online
-- description: Integration with Sage 100 Contractor for construction job costing and accounting.
-  name: Sage 100 Contractor
-- description: Integration with Sage Intacct cloud ERP for construction financial management.
-  name: Sage Intacct
-- description: Integration with Viewpoint Vista for construction ERP including SQL-based data access.
-  name: Viewpoint Vista
-- description: Integration with ServiceTitan for field service management and job costing.
-  name: ServiceTitan
-- description: Integration with Acumatica cloud ERP for construction financial management.
-  name: Acumatica
-- description: Integration with Foundation construction accounting software.
-  name: Foundation
-- description: Integration with CMiC enterprise construction ERP platform.
-  name: CMiC
 json_schemas:
 - name: BudgetList
   property_count: 3
@@ -642,24 +765,28 @@ jsonld:
   property_count: 42
   slug: agave-unified-context
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: 'Agave MCP is a shipped, named Agave product — "Interact with your ERP & PM data securely in ChatGPT, Claude, or Copilot" — listed in the site navigation, the pricing page and the footer alongside ERP '
+  name: Agave MCP - shipped product, endpoint not published
+  slug: agave-mcp-shipped-product-endpoint-not-published
+modified: '2026-08-30'
 name: Agave
 nav: Providers
 network: true
-overview: 'Agave publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Budgets API, Contracts API, Cost Codes API, and 6 more. Tagged areas include Accounting, Construction, and Integration.
+overview: 'Agave publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Budgets API, Contracts API, Cost Codes API, and 6 more. Tagged areas include Accounting, Construction, Integration, ERP, and Project Management.
 
 
-  The Agave catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Agave catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Agave''s developer surface includes authentication, developer portal, getting-started guide, pricing, code examples, engineering blog, and 69 more developer resources.'
+  Agave''s developer surface includes authentication, developer portal, getting-started guide, pricing, code examples, engineering blog, changelog, and 103 more developer resources.'
 plans:
 - name: Agave Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: agave-plans-pricing
 random_paper: 12
 rate_limits:
-- limit_count: 1
+- limit_count: 4
   name: Agave Rate Limits
   slug: agave-rate-limits
 rules:
@@ -685,19 +812,24 @@ rules:
     warn: 15
   slug: agave-spectral-rules
 score:
-  band: thin
-  composite: 38.3
-  delta: 3.3
+  band: strong
+  composite: 60.9
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 22.5
   facets:
-    access_clarity: 31.6
-    commercial_clarity: 31.6
-    contract_governance: 28.8
-    contract_quality: 31.0
-    developer_ergonomics: 59.5
-    discoverability: 64.8
-    governance: 28.8
-    operational_transparency: 18.4
-  previous_composite: 35.0
+    access_clarity: 68.4
+    commercial_clarity: 68.4
+    contract_governance: 47.0
+    contract_quality: 38.6
+    developer_ergonomics: 83.3
+    discoverability: 74.1
+    governance: 47.0
+    operational_transparency: 60.5
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -705,15 +837,15 @@ score:
       derived: 9
       marker_coverage: 100.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/agave/refs/heads/main/screenshots/agave-2026-06-20T165757.png
 security:
 - kind: authentication
   name: Agave Authentication
   slug: agave-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey · 3 schemes
 - kind: domain-security
   name: Agave Domain Security
   slug: agave-domain-security
@@ -727,6 +859,13 @@ tags:
 - Accounting
 - Construction
 - Integration
+- ERP
+- Project Management
+- Unified-API
+- iPaaS
+- Webhook
+- Field Service
+- Invoicing
 use_cases:
 - description: Construction software companies integrate with 100+ other platforms via a single API instead of building and maintaining individual integrations.
   name: Construction Software Integration
@@ -740,5 +879,5 @@ use_cases:
   name: Timesheet Integration
 - description: Enable users to select and share files from connected construction document storage systems using Agave File Manager.
   name: Document Management
-website: https://docs.agaveapi.com
+website: https://useagave.com
 ---

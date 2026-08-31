@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -19,7 +19,7 @@ agent_readiness:
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.5
-  scored_at: '2026-08-26'
+  score: 29.7
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 54
   slug: nextgen-healthcare-agentic-access
   summary_line: 54 operations · 4 acting
-api_count: 9
+api_count: 2
 apis:
 - description: HL7 FHIR API for the NextGen Enterprise EHR, certified under the 21st Century Cures Act Patient Access criteria, exposing USCDI data to patient-facing apps. Available in FHIR R4 (4.0.1) and legacy DST
   name: NextGen Enterprise Patient Access FHIR API
@@ -50,12 +50,6 @@ apis:
 - description: 'An extensive collection of JSON-based RESTful APIs (800+ routes) that power apps used by provider organizations on the NextGen Enterprise platform (v5.9.0+), covering clinical and practice-management '
   name: NextGen Enterprise API
   slug: nextgen-enterprise-api
-- description: 'HL7 FHIR R4 (4.0.1) Patient Access API for the cloud-based NextGen Office (formerly MediTouch) EHR, coded against the US Core specification and exposing read-only USCDIv1 data. A downloadable Swagger '
-  name: NextGen Office FHIR R4 API
-  slug: nextgen-office-fhir-r4-api
-- description: Bulk FHIR (Flat FHIR) R4 API for the NextGen Office EHR, 21st Century Cures compliant, enabling authorized vendors to export USCDIv1 data for multiple patients. A downloadable OpenAPI 3.0.0 definition
-  name: NextGen Office Bulk FHIR R4 API
-  slug: nextgen-office-bulk-fhir-r4-api
 - description: HL7 FHIR STU3 (R3) API for the NextGen Office EHR with C-CDA support, authenticated with SMART App Launch / OpenID Connect OAuth2 via Keycloak. Predecessor surface to the R4 Patient Access API.
   name: NextGen Office FHIR R3 API
   slug: nextgen-office-fhir-r3-api
@@ -71,7 +65,91 @@ apis:
 - description: 'API for NextGen Mirth Connect, an open-source healthcare integration engine supporting HL7 v2, FHIR, and other healthcare data standards for interoperability between clinical systems. Enables message '
   name: NextGen Mirth Connect Integration Engine API
   slug: nextgen-mirth-connect-integration-engine-api
-artifact_total: 21
+- description: https://hl7.org/fhir/R4/allergyintolerance.html
+  name: NextGen Healthcare Allergy Intolerance API
+  slug: nextgen-healthcare-allergyintolerance-api
+- description: https://hl7.org/fhir/R4/careplan.html
+  name: NextGen Healthcare Care Plan API
+  slug: nextgen-healthcare-careplan-api
+- description: https://hl7.org/fhir/R4/careteam.html
+  name: NextGen Healthcare Care Team API
+  slug: nextgen-healthcare-careteam-api
+- description: The CCDA API from NextGen Healthcare — 1 operation(s) for ccda.
+  name: NextGen Healthcare CCDA API
+  slug: nextgen-healthcare-ccda-api
+- description: https://hl7.org/fhir/R4/condition.html
+  name: NextGen Healthcare Condition API
+  slug: nextgen-healthcare-condition-api
+- description: https://hl7.org/fhir/R4/coverage.html
+  name: NextGen Healthcare Coverage API
+  slug: nextgen-healthcare-coverage-api
+- description: https://hl7.org/fhir/R4/device.html
+  name: NextGen Healthcare Device API
+  slug: nextgen-healthcare-device-api
+- description: https://hl7.org/fhir/R4/diagnosticreport.html
+  name: NextGen Healthcare Diagnostic Report API
+  slug: nextgen-healthcare-diagnosticreport-api
+- description: https://hl7.org/fhir/R4/documentreference.html
+  name: NextGen Healthcare Document Reference API
+  slug: nextgen-healthcare-documentreference-api
+- description: https://hl7.org/fhir/R4/encounter.html
+  name: NextGen Healthcare Encounter API
+  slug: nextgen-healthcare-encounter-api
+- description: The Export APIs API from NextGen Healthcare — 2 operation(s) for export apis.
+  name: NextGen Healthcare Export APIs API
+  slug: nextgen-healthcare-export-apis-api
+- description: https://hl7.org/fhir/R4/goal.html
+  name: NextGen Healthcare Goal API
+  slug: nextgen-healthcare-goal-api
+- description: The Group APIs API from NextGen Healthcare — 2 operation(s) for group apis.
+  name: NextGen Healthcare Group APIs API
+  slug: nextgen-healthcare-group-apis-api
+- description: https://hl7.org/fhir/R4/immunization.html
+  name: NextGen Healthcare Immunization API
+  slug: nextgen-healthcare-immunization-api
+- description: https://hl7.org/fhir/R4/location.html
+  name: NextGen Healthcare Location API
+  slug: nextgen-healthcare-location-api
+- description: https://hl7.org/fhir/R4/medicationadministration.html
+  name: NextGen Healthcare Medication Administration API
+  slug: nextgen-healthcare-medicationadministration-api
+- description: The MedicationDispense API from NextGen Healthcare — 2 operation(s) for medicationdispense.
+  name: NextGen Healthcare Medication Dispense API
+  slug: nextgen-healthcare-medicationdispense-api
+- description: https://hl7.org/fhir/R4/medicationrequest.html
+  name: NextGen Healthcare Medication Request API
+  slug: nextgen-healthcare-medicationrequest-api
+- description: https://hl7.org/fhir/R4/observation.html
+  name: NextGen Healthcare Observation API
+  slug: nextgen-healthcare-observation-api
+- description: https://hl7.org/fhir/R4/organization.html
+  name: NextGen Healthcare Organization API
+  slug: nextgen-healthcare-organization-api
+- description: https://hl7.org/fhir/R4/patient.html
+  name: NextGen Healthcare Patient API
+  slug: nextgen-healthcare-patient-api
+- description: The Patient Search API from NextGen Healthcare — 1 operation(s) for patient search.
+  name: NextGen Healthcare Patient Search API
+  slug: nextgen-healthcare-patient-search-api
+- description: https://hl7.org/fhir/R4/practitioner.html
+  name: NextGen Healthcare Practitioner API
+  slug: nextgen-healthcare-practitioner-api
+- description: https://hl7.org/fhir/R4/practitionerrole.html
+  name: NextGen Healthcare Practitioner Role API
+  slug: nextgen-healthcare-practitionerrole-api
+- description: https://hl7.org/fhir/R4/procedure.html
+  name: NextGen Healthcare Procedure API
+  slug: nextgen-healthcare-procedure-api
+- description: https://hl7.org/fhir/R4/provenance.html
+  name: NextGen Healthcare Provenance API
+  slug: nextgen-healthcare-provenance-api
+- description: https://hl7.org/fhir/R4/relatedperson.html
+  name: NextGen Healthcare Related Person API
+  slug: nextgen-healthcare-relatedperson-api
+- description: https://hl7.org/fhir/R4/specimen.html
+  name: NextGen Healthcare Specimen API
+  slug: nextgen-healthcare-specimen-api
+artifact_total: 47
 collections:
 - collection_type: open
   name: API Collection
@@ -80,6 +158,10 @@ collections:
   name: NextGen Office BulK FHIR API
   slug: open-nextgen-office-bulk-fhir-r4
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/nextgen-healthcare-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -293,13 +375,13 @@ modified: '2026-08-14'
 name: NextGen Healthcare
 nav: Providers
 network: true
-overview: 'NextGen Healthcare publishes 2 APIs on the [APIs.io](https://apis.io/) network: NextGen Office FHIR R4 API and NextGen Office Bulk FHIR R4 API. Tagged areas include Healthcare, United States, EHR, EMR, and FHIR.
+overview: 'NextGen Healthcare publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Allergy Intolerance API, Care Plan API, Care Team API, and 25 more. Tagged areas include Healthcare, United States, EHR, EMR, and FHIR.
 
 
   The NextGen Healthcare catalog on APIs.io includes 1 JSON-LD context.
 
 
-  NextGen Healthcare''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, engineering blog, support, and 41 more developer resources.'
+  NextGen Healthcare''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, engineering blog, support, and 42 more developer resources.'
 plans:
 - name: Nextgen Healthcare Plans Pricing
   plan_count: 3
@@ -316,18 +398,23 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 75.7
-  delta: 0.0
+  composite: 71.1
+  coverage:
+    artifact_dirs: 28
+    catalog_gap: 46.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 86.8
     commercial_clarity: 86.8
-    contract_governance: 30.3
-    contract_quality: 63.6
-    developer_ergonomics: 67.3
-    discoverability: 92.6
-    governance: 30.3
+    contract_governance: 18.2
+    contract_quality: 62.8
+    developer_ergonomics: 63.7
+    discoverability: 70.4
+    governance: 18.2
     operational_transparency: 50.0
-  previous_composite: 75.7
+  previous_composite: 71.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -344,8 +431,8 @@ score:
     regime: Health
     regime_id: health
     score: 82.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextgen-healthcare/refs/heads/main/screenshots/nextgen-healthcare-2026-08-07T185204.png
 security:

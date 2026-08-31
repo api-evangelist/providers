@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 7
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 223
   slug: anaconda-agentic-access
   summary_line: 223 operations · 97 acting · 7 human-in-the-loop
-api_count: 24
+api_count: 5
 apis:
 - description: The public REST API behind anaconda.org — the community package repository that serves conda and PyPI artifacts. Exposes user/organization profiles, packages, releases, files, labels and channels, and
   name: Anaconda.org Repository API
@@ -396,19 +396,24 @@ scopes:
   slug: anaconda-scopes
   summary_line: 3 scopes · authorizationCode/clientCredentials/deviceCode/password/refreshToken
 score:
-  band: strong
-  composite: 55.2
-  delta: 0.3
+  band: developing
+  composite: 52.7
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 63.3
     developer_ergonomics: 73.2
-    discoverability: 83.3
-    governance: 16.7
+    discoverability: 72.2
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 54.9
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -419,8 +424,8 @@ score:
       total: 22
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anaconda/refs/heads/main/screenshots/anaconda-2026-08-07T161352.png
 security:

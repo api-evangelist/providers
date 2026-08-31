@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 8
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 189
   slug: viam-agentic-access
   summary_line: 189 operations · 189 acting · 8 human-in-the-loop
-api_count: 52
+api_count: 13
 apis:
-- description: Bootstrap a smart machine onto Wi-Fi and into the viam.app cloud over Bluetooth or hotspot. SetNetworkCredentials, SetSmartMachineCredentials, GetNetworkList, GetSmartMachineStatus, and ExitProvisioni
-  name: Viam Provisioning API
-  slug: viam-provisioning-api
 - description: Robotic arms — joint and end-effector control.
   name: Viam Arm API
   slug: viam-arm-api
@@ -237,7 +234,7 @@ arazzos:
 - description: Submit a TFLite training job, poll its status, and branch to logs or cancel.
   name: Viam Train and Monitor an ML Model
   slug: viam-train-and-monitor-model-workflow
-artifact_total: 189
+artifact_total: 188
 collections:
 - collection_type: postman
   name: Viam Billing API
@@ -480,6 +477,10 @@ collections:
   name: Viam Vision Service API
   slug: open-viam-vision-service-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/viam-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -816,13 +817,13 @@ modified: '2026-05-25'
 name: Viam
 nav: Providers
 network: true
-overview: 'Viam publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Provisioning API, Arm API, Audio In API, and 49 more. Tagged areas include Robotics, Edge AI, Fleet Management, Computer-Vision, and Machine-Learning.
+overview: 'Viam publishes 51 APIs on the [APIs.io](https://apis.io/) network, including Arm API, Audio In API, Audio Out API, and 48 more. Tagged areas include Robotics, Edge AI, Fleet Management, Computer-Vision, and Machine-Learning.
 
 
   The Viam catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Viam''s developer surface includes authentication, developer portal, documentation, signup flow, sandbox, pricing, changelog, and 56 more developer resources.'
+  Viam''s developer surface includes authentication, developer portal, documentation, signup flow, sandbox, pricing, changelog, and 57 more developer resources.'
 plans:
 - name: Viam Plans Pricing
   plan_count: 4
@@ -857,6 +858,11 @@ rules:
 score:
   band: strong
   composite: 61.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
@@ -875,8 +881,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 52
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/screenshots/viam-2026-06-20T201013.png
 security:

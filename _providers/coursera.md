@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 4
   slug: coursera-agentic-access
   summary_line: 4 operations
-api_count: 3
+api_count: 1
 apis:
 - description: Public REST API for browsing Coursera's catalog of courses, specializations, instructors, partners, and categories. Verified live at api.coursera.org/api/courses.v1 with 21,000+ courses.
   name: Coursera Catalog API
@@ -64,6 +64,10 @@ collections:
   name: Coursera Catalog API
   slug: open-coursera
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/coursera-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -123,7 +127,7 @@ network: true
 overview: 'Coursera publishes 1 API on the [APIs.io](https://apis.io/) network: Catalog API. Tagged areas include EdTech, Online Learning, Catalog, and MOOC.
 
 
-  Coursera''s developer surface includes engineering blog and 9 more developer resources.'
+  Coursera''s developer surface includes engineering blog and 10 more developer resources.'
 plans:
 - name: Coursera Plans Pricing
   plan_count: 2
@@ -135,18 +139,23 @@ rate_limits:
   slug: coursera-rate-limits
 score:
   band: emerging
-  composite: 22.5
-  delta: 1.9
+  composite: 22.0
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 53.6
     developer_ergonomics: 11.9
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 20.6
+  previous_composite: 22.5
   provenance:
     agentic_access: derived
     contracts:
@@ -160,8 +169,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coursera/refs/heads/main/screenshots/coursera-2026-06-20T175124.png
 security:

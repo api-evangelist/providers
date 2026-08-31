@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 8
   slug: fis-agentic-access
   summary_line: 8 operations · 5 acting
-api_count: 7
+api_count: 1
 apis:
 - description: FIS (Fidelity National Information Services) provides core banking platforms including the Systematics suite. APIs bridge mainframe-based account processing, transaction management, and loan servicing
   name: FIS Core Banking API
@@ -89,6 +89,10 @@ collections:
   name: FIS Payments Accounts Wire Transfers API
   slug: open-fis-wire-transfers-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fis-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -118,7 +122,6 @@ finops:
 - name: Fis Finops
   service_category: Financial Services Software
   slug: fis-finops
-image: https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/image.png
 json_schemas:
 - name: FIS Payment
   property_count: 15
@@ -139,7 +142,7 @@ overview: 'FIS Global publishes 5 APIs on the [APIs.io](https://apis.io/) networ
   The FIS Global catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  FIS Global''s developer surface includes authentication and 5 more developer resources.'
+  FIS Global''s developer surface includes authentication and 6 more developer resources.'
 plans:
 - name: Fis Plans Pricing
   plan_count: 3
@@ -167,18 +170,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 33.6
-  delta: 1.1
+  composite: 32.6
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 61.1
     developer_ergonomics: 21.4
-    discoverability: 68.5
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 32.5
+  previous_composite: 33.6
   provenance:
     agentic_access: derived
     contracts:
@@ -192,8 +200,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/screenshots/fis-2026-06-20T181251.png
 security:

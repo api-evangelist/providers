@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 35
   slug: pardot-agentic-access
   summary_line: 35 operations · 11 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Version 5 REST API for managing prospects, accounts, campaigns, emails, forms, lists, and engagement programs in Marketing Cloud Account Engagement. Authentication uses Salesforce OAuth 2.0 with the p
   name: Account Engagement API v5
@@ -261,18 +261,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 57.6
-  delta: 0.0
+  composite: 54.5
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 15.3
     developer_ergonomics: 78.0
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 57.6
+  previous_composite: 55.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -283,8 +288,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pardot/refs/heads/main/screenshots/pardot-2026-06-20T191406.png
 security:

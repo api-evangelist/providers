@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: browserbase-agentic-access
   summary_line: 17 operations · 6 acting
-api_count: 4
+api_count: 1
 apis:
 - description: The Contexts API from Browserbase — 2 operation(s) for contexts.
   name: Browserbase Contexts API
@@ -254,18 +254,26 @@ rules:
   slug: browserbase-rules
 score:
   band: strong
-  composite: 59.9
-  delta: 7.5
+  composite: 55.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -4.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 28.8
     contract_quality: 57.8
     developer_ergonomics: 59.5
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 55.3
-  previous_composite: 52.4
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     contracts:
@@ -273,9 +281,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/screenshots/browserbase-2026-06-20T173725.png
 security:
 - kind: authentication

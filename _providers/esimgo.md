@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 22
   slug: esimgo-agentic-access
   summary_line: 22 operations · 6 acting · 1 human-in-the-loop
-api_count: 6
+api_count: 1
 apis:
 - description: Browse data bundles available to your organisation.
   name: eSIM Go Catalogue API
@@ -89,6 +89,10 @@ collections:
   name: eSIM Go API
   slug: open-esimgo
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/esimgo-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -140,7 +144,7 @@ network: true
 overview: 'eSIM Go publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Catalogue API, eSIMs API, Inventory API, and 3 more. Tagged areas include eSIM, Connectivity, Travel Data, Telecom, and Mobile.
 
 
-  eSIM Go''s developer surface includes authentication, documentation, and 7 more developer resources.'
+  eSIM Go''s developer surface includes authentication, documentation, and 8 more developer resources.'
 plans:
 - name: Esimgo Plans Pricing
   plan_count: 4
@@ -152,18 +156,23 @@ rate_limits:
   slug: esimgo-rate-limits
 score:
   band: thin
-  composite: 35.3
-  delta: 1.5
+  composite: 34.7
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 53.7
     developer_ergonomics: 28.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 33.8
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +186,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/screenshots/esimgo-2026-07-25T213621.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -47,7 +47,10 @@ apis:
 - description: Intraday, daily, weekly, and monthly stock price and volume data
   name: Alpha Vantage Stock Time Series API
   slug: alpha-vantage-stock-time-series-api
-artifact_total: 42
+- description: The Query API from Alpha Vantage — 1 operation(s) for query.
+  name: Alpha Vantage Query API
+  slug: alpha-vantage-query-api
+artifact_total: 43
 collections:
 - collection_type: postman
   name: Alpha Vantage API
@@ -308,7 +311,7 @@ modified: '2026-07-22'
 name: Alpha Vantage
 nav: Providers
 network: true
-overview: 'Alpha Vantage publishes 1 API on the [APIs.io](https://apis.io/) network: Stock Time Series API. Tagged areas include Fintech, Market Data, Stocks, FX, and Crypto.
+overview: 'Alpha Vantage publishes 2 APIs on the [APIs.io](https://apis.io/) network: Stock Time Series API and Query API. Tagged areas include Fintech, Market Data, Stocks, FX, and Crypto.
 
 
   The Alpha Vantage catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -353,18 +356,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 57.8
-  delta: 0.7
+  composite: 54.9
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 45.5
-    contract_quality: 43.5
+    contract_governance: 33.3
+    contract_quality: 39.2
     developer_ergonomics: 75.6
-    discoverability: 79.6
-    governance: 45.5
+    discoverability: 75.9
+    governance: 33.3
     operational_transparency: 10.5
-  previous_composite: 57.1
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -381,8 +389,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/screenshots/alpha-vantage-2026-06-20T171545.png
 security:

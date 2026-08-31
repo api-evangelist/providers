@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Public REST API for eCommerce shipping and order management — courier rate calculation and serviceability, order create/update/cancel, AWB and label generation, pickup scheduling, shipment tracking, r
@@ -147,8 +147,13 @@ overview: 'KartRocket publishes 1 API on the [APIs.io](https://apis.io/) network
   KartRocket''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, authentication, and 15 more developer resources.'
 random_paper: 11
 score:
-  band: emerging
-  composite: 26.1
+  band: thin
+  composite: 26.8
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
@@ -156,16 +161,16 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 47.0
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 26.1
+  previous_composite: 26.8
   provenance:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kartrocket/refs/heads/main/screenshots/kartrocket-2026-07-25T223516.png
 security:
@@ -184,7 +189,7 @@ tags:
 - Logistics
 - E-Commerce
 - Fulfillment
-- Last Mile Delivery
+- Last-Mile Delivery
 - India
 - Order Management
 website: https://shiprocket.in

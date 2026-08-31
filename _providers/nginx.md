@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,7 +21,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.8
-  scored_at: '2026-08-26'
+  score: 31.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 17
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 72
   slug: nginx-agentic-access
   summary_line: 72 operations · 29 acting · 17 human-in-the-loop
-api_count: 32
+api_count: 1
 apis:
 - description: NGINX is a versatile open-source software for web serving, reverse proxying, caching, load balancing, media streaming, and API gateway functionality powering a significant portion of the world's web t
   name: NGINX
@@ -91,18 +91,6 @@ apis:
 - description: The License API from NGINX — 1 operation(s) for license.
   name: NGINX License API
   slug: nginx-license-api
-- description: The Method DELETE API from NGINX — 21 operation(s) for method delete.
-  name: NGINX Method DELETE API
-  slug: nginx-method-delete-api
-- description: The Method GET API from NGINX — 41 operation(s) for method get.
-  name: NGINX Method GET API
-  slug: nginx-method-get-api
-- description: The Method PATCH API from NGINX — 4 operation(s) for method patch.
-  name: NGINX Method PATCH API
-  slug: nginx-method-patch-api
-- description: The Method POST API from NGINX — 4 operation(s) for method post.
-  name: NGINX Method POST API
-  slug: nginx-method-post-api
 - description: The Processes API from NGINX — 1 operation(s) for processes.
   name: NGINX Processes API
   slug: nginx-processes-api
@@ -139,7 +127,7 @@ apis:
 - description: The Workers API from NGINX — 2 operation(s) for workers.
   name: NGINX Workers API
   slug: nginx-workers-api
-artifact_total: 265
+artifact_total: 261
 collections:
 - collection_type: open
   name: API Collection
@@ -929,7 +917,7 @@ modified: '2026-05-19'
 name: NGINX
 nav: Providers
 network: true
-overview: 'NGINX publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Connections API, General Info API, HTTP API, and 25 more. Tagged areas include API Gateway, Caching, Cloud-Native, Load Balancer, and Open-Source.
+overview: 'NGINX publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Connections API, General Info API, HTTP API, and 21 more. Tagged areas include API Gateway, Caching, Cloud-Native, Load Balancer, and Open-Source.
 
 
   The NGINX catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -968,19 +956,27 @@ rules:
     warn: 18
   slug: nginx-spectral-rules
 score:
-  band: thin
-  composite: 35.0
-  delta: 3.3
+  band: developing
+  composite: 40.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 59.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 6.1
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 20.2
+    contract_quality: 19.5
     developer_ergonomics: 59.5
-    discoverability: 66.7
+    discoverability: 61.1
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 31.7
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 34.8
   provenance:
     agentic_access: derived
     contracts:
@@ -988,9 +984,9 @@ score:
       derived: 28
       marker_coverage: 100.0
       total: 28
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/nginx/refs/heads/main/screenshots/nginx-2026-06-20T190304.png
 security:
 - kind: domain-security

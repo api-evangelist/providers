@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -42,11 +42,8 @@ agentic_access:
   operation_count: 72
   slug: segment-agentic-access
   summary_line: 72 operations · 34 acting
-api_count: 23
+api_count: 4
 apis:
-- description: 'The Segment Pixel Tracking API provides a way to collect analytics data using image pixel requests, which is useful in environments where JavaScript cannot execute, such as email clients. It supports '
-  name: Segment Pixel Tracking API
-  slug: pixel-tracking-api
 - description: Operations for merging two user identities together.
   name: segment Alias API
   slug: segment-alias-api
@@ -113,7 +110,7 @@ apis:
 - description: Operations for retrieving workspace information and configuration.
   name: segment Workspaces API
   slug: segment-workspaces-api
-artifact_total: 109
+artifact_total: 108
 asyncapis:
 - description: 'Segment Webhooks submit real-time user data to HTTP endpoints as POST requests. When configured as a destination, Segment forwards identify, track, page, screen, group, and alias events to up to five '
   name: Segment Webhook Events
@@ -418,7 +415,7 @@ modified: '2026-05-19'
 name: Twilio Segment
 nav: Providers
 network: true
-overview: 'Twilio Segment publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Segment Pixel Tracking API, segment Alias API, segment Batch API, and 20 more. Tagged areas include Company, Customer Data Platform, CDP, Identity Resolution, and Event Streaming.
+overview: 'Twilio Segment publishes 22 APIs on the [APIs.io](https://apis.io/) network, including segment Alias API, segment Batch API, segment Catalog API, and 19 more. Tagged areas include Company, Customer Data Platform, CDP, Identity Resolution, and Event Streaming.
 
 
   The Twilio Segment catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
@@ -458,18 +455,23 @@ rules:
   slug: segment-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.2
+  composite: 45.3
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
     contract_governance: 13.6
-    contract_quality: 73.2
+    contract_quality: 73.3
     developer_ergonomics: 50.0
     discoverability: 74.1
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 45.2
+  previous_composite: 45.3
   provenance:
     agentic_access: derived
     contracts:
@@ -477,8 +479,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/segment/refs/heads/main/screenshots/segment-2026-06-20T193639.png
 security:

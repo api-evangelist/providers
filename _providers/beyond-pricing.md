@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 31
   slug: beyond-pricing-agentic-access
   summary_line: 31 operations · 13 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Accounts API from Beyond Pricing — 3 operation(s) for accounts.
   name: Beyond Pricing Accounts API
@@ -65,7 +65,10 @@ apis:
 - description: The Users API from Beyond Pricing — 3 operation(s) for users.
   name: Beyond Pricing Users API
   slug: beyond-pricing-users-api
-artifact_total: 21
+- description: The Webhooks API from Beyond Pricing — 0 operation(s) for webhooks.
+  name: Beyond Pricing Webhooks API
+  slug: beyond-pricing-webhooks-api
+artifact_total: 22
 asyncapis:
 - description: ''
   name: Beyond Pricing Webhooks
@@ -96,6 +99,10 @@ collections:
   name: Beyond Pricing Public Accounts Users API
   slug: open-beyond-pricing-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/beyond-pricing-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -229,13 +236,13 @@ modified: '2026-07-18'
 name: Beyond Pricing
 nav: Providers
 network: true
-overview: 'Beyond Pricing publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Compsets API, Customizations API, and 4 more. Tagged areas include Company, Short-Term Rentals, Vacation Rentals, Revenue Management, and Dynamic Pricing.
+overview: 'Beyond Pricing publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Compsets API, Customizations API, and 5 more. Tagged areas include Company, Short-Term Rentals, Vacation Rentals, Revenue Management, and Dynamic Pricing.
 
 
   The Beyond Pricing catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Beyond Pricing''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, engineering blog, support, and 23 more developer resources.'
+  Beyond Pricing''s developer surface includes changelog, authentication, documentation, API reference, getting-started guide, engineering blog, support, and 24 more developer resources.'
 random_paper: 6
 scopes:
 - name: Beyond Pricing Scopes
@@ -244,18 +251,23 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: developing
-  composite: 50.8
-  delta: 1.3
+  composite: 46.6
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
-    contract_quality: 64.2
+    contract_governance: 4.5
+    contract_quality: 59.7
     developer_ergonomics: 58.9
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 49.5
+  previous_composite: 47.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -266,8 +278,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/screenshots/beyond-pricing-2026-07-25T202840.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 33
   slug: cdc-agentic-access
   summary_line: 33 operations · 20 acting
-api_count: 14
+api_count: 2
 apis:
 - description: The CDC WONDER (Wide-ranging Online Data for Epidemiologic Research) API enables automated data queries in XML format over HTTP. Supports access to online databases covering mortality, natality, cance
   name: CDC WONDER API
@@ -184,18 +184,23 @@ rate_limits:
   slug: rate-limits
 score:
   band: thin
-  composite: 39.2
-  delta: 3.3
+  composite: 38.6
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 50.4
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 35.9
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -209,8 +214,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/screenshots/cdc-2026-06-20T174105.png
 security:

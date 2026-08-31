@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 121
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 248
   slug: yext-agentic-access
   summary_line: 248 operations · 121 acting
-api_count: 24
+api_count: 9
 apis:
 - description: The Account Settings API from Yext — 10 operation(s) for account settings.
   name: Yext Account Settings API
@@ -101,9 +101,6 @@ apis:
 - description: The Publisher Disruptions API from Yext — 2 operation(s) for publisher disruptions.
   name: Yext Publisher Disruptions API
   slug: yext-publisher-disruptions-api
-- description: The Webhooks API from Yext — 0 operation(s) for webhooks.
-  name: Yext Webhooks API
-  slug: yext-publisher-notify-review-api
 - description: The Reviews API from Yext — 14 operation(s) for reviews.
   name: Yext Reviews API
   slug: yext-reviews-api
@@ -113,10 +110,7 @@ apis:
 - description: The Suggestions API from Yext — 2 operation(s) for suggestions.
   name: Yext Suggestions API
   slug: yext-suggestions-api
-- description: Yext Webhooks from Yext, described in OpenAPI.
-  name: Yext Webhooks
-  slug: yext-webhooks-openapi
-artifact_total: 64
+artifact_total: 62
 collections:
 - collection_type: open
   name: API Collection
@@ -298,7 +292,7 @@ modified: '2026-06-13'
 name: Yext
 nav: Providers
 network: true
-overview: 'Yext publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Account Settings API, Accounts API, Administrative API API, and 21 more. Tagged areas include Digital Presence, Business Listings, Location Data, Reviews, and AI Search.
+overview: 'Yext publishes 22 APIs on the [APIs.io](https://apis.io/) network, including Account Settings API, Accounts API, Administrative API API, and 19 more. Tagged areas include Digital Presence, Business Listings, Location Data, Reviews, and AI Search.
 
 
   The Yext catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -327,18 +321,23 @@ rules:
   slug: yext-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 40.6
+  composite: 40.9
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 37.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 55.7
+    contract_quality: 56.8
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 9.8
     operational_transparency: 42.1
-  previous_composite: 40.6
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     contracts:
@@ -346,8 +345,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yext/refs/heads/main/screenshots/yext-2026-06-20T201740.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -42,12 +42,27 @@ agentic_access:
   operation_count: 27
   slug: mobly-agentic-access
   summary_line: 27 operations · 12 acting
-api_count: 1
+api_count: 2
 apis:
-- description: The Mobly REST API (v0) gives programmatic access to events, leads, lead activity events, activations, qualifier/tag groups and industry events for the authenticated organization. All endpoints are JS
-  name: Mobly REST API v0
-  slug: mobly-rest-api-v0
-artifact_total: 8
+- description: The Activations API from Mob.ly — 2 operation(s) for activations.
+  name: Mob.ly Activations API
+  slug: mobly-activations-api
+- description: The Events API from Mob.ly — 5 operation(s) for events.
+  name: Mob.ly Events API
+  slug: mobly-events-api
+- description: The IndustryEvents API from Mob.ly — 4 operation(s) for industryevents.
+  name: Mob.ly Industry Events API
+  slug: mobly-industryevents-api
+- description: The LeadActivityEvents API from Mob.ly — 2 operation(s) for leadactivityevents.
+  name: Mob.ly Lead Activity Events API
+  slug: mobly-leadactivityevents-api
+- description: The Leads API from Mob.ly — 2 operation(s) for leads.
+  name: Mob.ly Leads API
+  slug: mobly-leads-api
+- description: The TagGroups API from Mob.ly — 2 operation(s) for taggroups.
+  name: Mob.ly Tag Groups API
+  slug: mobly-taggroups-api
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Mobly Webhooks
@@ -57,6 +72,10 @@ collections:
   name: Mobly REST API
   slug: open-mobly-rest-api-v0
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mobly-rest-api-v0-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -166,13 +185,13 @@ modified: '2026-08-13'
 name: Mob.ly
 nav: Providers
 network: true
-overview: 'Mob.ly publishes 1 API on the [APIs.io](https://apis.io/) network: Mobly REST API v0. Tagged areas include Company, Event, Event Marketing, Lead Capture, and Lead Enrichment.
+overview: 'Mob.ly publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Activations API, Events API, Industry Events API, and 3 more. Tagged areas include Company, Event, Event Marketing, Lead Capture, and Lead Enrichment.
 
 
   The Mob.ly catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mob.ly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 18 more developer resources.'
+  Mob.ly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 19 more developer resources.'
 plans:
 - name: Mobly Plans Pricing
   plan_count: 0
@@ -184,18 +203,23 @@ rate_limits:
   slug: mobly-rate-limits
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 47.2
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
-    contract_quality: 61.8
+    contract_governance: 4.5
+    contract_quality: 63.9
     developer_ergonomics: 58.9
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 48.2
+  previous_composite: 47.8
   provenance:
     agentic_access: derived
     conformance: derived
@@ -206,8 +230,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mobly/refs/heads/main/screenshots/mobly-2026-08-07T183858.png
 security:

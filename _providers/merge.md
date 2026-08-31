@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 197
   human_in_the_loop: 5
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 621
   slug: merge-agentic-access
   summary_line: 621 operations · 197 acting · 5 human-in-the-loop
-api_count: 118
+api_count: 10
 apis:
 - description: 'Merge is the connective infrastructure for production AI. Three product lines: Merge Unified (one API for HRIS, ATS, Accounting, CRM, Ticketing, File Storage, Knowledge Base, Chat), Merge Agent Handle'
   name: Merge
@@ -843,6 +843,10 @@ collections:
   name: Accounting subpackage_vendors API
   slug: open-merge-subpackage-vendors-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/merge-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -4405,7 +4409,7 @@ overview: 'Merge publishes 117 APIs on the [APIs.io](https://apis.io/) network, 
   The Merge catalog on APIs.io includes 10 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Merge''s developer surface includes authentication, engineering blog, support, changelog, pricing, documentation, signup flow, and 70 more developer resources.'
+  Merge''s developer surface includes authentication, engineering blog, support, changelog, pricing, documentation, signup flow, and 71 more developer resources.'
 plans:
 - name: Merge Plans Pricing
   plan_count: 5
@@ -4439,18 +4443,23 @@ rules:
   slug: merge-spectral-rules
 score:
   band: strong
-  composite: 60.0
-  delta: 0.9
+  composite: 59.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 43.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 28.8
-    contract_quality: 69.5
+    contract_quality: 69.4
     developer_ergonomics: 52.4
     discoverability: 77.8
     governance: 28.8
     operational_transparency: 55.3
-  previous_composite: 59.1
+  previous_composite: 59.9
   provenance:
     agentic_access: derived
     contracts:
@@ -4458,8 +4467,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 117
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merge/refs/heads/main/screenshots/merge-2026-06-20T185219.png
 security:

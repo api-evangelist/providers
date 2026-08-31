@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 21
 apis:
 - description: Distributed, partitioned, replicated log. The reference open-source streaming platform; durable, ordered topics with consumer groups, exactly -once semantics, and the de facto wire protocol for the st
@@ -100,6 +100,22 @@ apis:
   slug: apache-beam
 artifact_total: 33
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/apache/kafka/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/apache/kafka/blob/trunk/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/apache/kafka/blob/trunk/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -191,7 +207,7 @@ overview: 'Streaming publishes 21 APIs on the [APIs.io](https://apis.io/) networ
   The Streaming catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Streaming''s developer surface includes code examples and 10 more developer resources.'
+  Streaming''s developer surface includes code examples and 14 more developer resources.'
 random_paper: 4
 rules:
 - effective_rule_count: 5
@@ -206,8 +222,13 @@ rules:
   slug: streaming-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 17.4
-  delta: 2.6
+  composite: 24.4
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 60.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -216,10 +237,13 @@ score:
     developer_ergonomics: 9.5
     discoverability: 64.8
     governance: 25.0
-    operational_transparency: 5.3
-  previous_composite: 14.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 15.8
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 24.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/streaming/refs/heads/main/screenshots/streaming-2026-06-20T194618.png
 security:
@@ -238,7 +262,7 @@ tags:
 - Event Streaming
 - Change Data Capture
 - Stream Processing
-- Server-Sent Events
+- Server Sent Events
 - WebSocket
 - gRPC
 - GraphQL Subscriptions

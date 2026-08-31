@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 49
   slug: hume-ai-agentic-access
   summary_line: 49 operations · 28 acting · 1 human-in-the-loop
-api_count: 9
+api_count: 4
 apis:
 - description: The Ai Default API from Hume AI — 6 operation(s) for ai default.
   name: Hume AI Ai Default API
@@ -71,7 +71,10 @@ apis:
 - description: The subpackage_voices API from Hume AI — 1 operation(s) for subpackage_voices.
   name: Hume AI subpackage_voices API
   slug: hume-ai-subpackage-voices-api
-artifact_total: 31
+- description: The Speech To Speech (EVI) API from Hume AI — 0 operation(s) for speech to speech (evi).
+  name: Hume AI Speech To Speech (EVI) API
+  slug: hume-ai-speech-to-speech-evi-api
+artifact_total: 32
 asyncapis:
 - description: 'Consolidated AsyncAPI definition for Hume AI''s two production WebSocket surfaces: - **Empathic Voice Interface (EVI)** — bidirectional speech-to-speech voice conversation at `wss://api.hume.ai/v0/evi/'
   name: Hume AI WebSocket APIs
@@ -176,7 +179,7 @@ modified: '2026-05-29'
 name: Hume AI
 nav: Providers
 network: true
-overview: 'Hume AI publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Ai Default API, subpackage_batch API, subpackage_chatGroups API, and 6 more. Tagged areas include Artificial Intelligence, Voice, Empathic, Emotion, and Multi-Modal.
+overview: 'Hume AI publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Ai Default API, subpackage_batch API, subpackage_chatGroups API, and 7 more. Tagged areas include Artificial Intelligence, Voice, Empathic, Emotion, and Multimodal.
 
 
   The Hume AI catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -206,18 +209,23 @@ rules:
   slug: hume-ai-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 35.9
-  delta: 2.1
+  composite: 35.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 62.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 11.4
-    contract_quality: 62.8
+    contract_quality: 61.2
     developer_ergonomics: 23.8
     discoverability: 74.1
     governance: 11.4
     operational_transparency: 10.5
-  previous_composite: 33.8
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -225,8 +233,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/screenshots/hume-ai-2026-06-20T183040.png
 security:
@@ -244,6 +252,6 @@ tags:
 - Voice
 - Empathic
 - Emotion
-- Multi-Modal
+- Multimodal
 website: https://www.hume.ai/
 ---

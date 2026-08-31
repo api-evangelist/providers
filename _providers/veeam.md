@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 13
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 296
   slug: veeam-agentic-access
   summary_line: 296 operations · 160 acting · 13 human-in-the-loop
-api_count: 55
+api_count: 2
 apis:
 - description: The primary REST API for Veeam Backup & Replication, enabling programmatic management of backup jobs, restore operations, protected workloads, infrastructure components, and replication policies acros
   name: Veeam Backup & Replication REST API
@@ -357,6 +357,10 @@ collections:
   name: Veeam Backup for AWS public API 1.0 Agents Workers API
   slug: open-veeam-workers-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/veeam-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -469,7 +473,7 @@ overview: 'Veeam publishes 47 APIs on the [APIs.io](https://apis.io/) network, i
   The Veeam catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Veeam''s developer surface includes authentication, documentation, engineering blog, pricing, and 11 more developer resources.'
+  Veeam''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Veeam Plans Pricing
   plan_count: 5
@@ -492,15 +496,20 @@ rules:
   slug: veeam-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.7
-  delta: 0.0
+  composite: 36.2
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 53.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 54.7
     developer_ergonomics: 23.8
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 21.1
   previous_composite: 36.7
@@ -511,8 +520,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 47
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veeam/refs/heads/main/screenshots/veeam-2026-06-20T200904.png
 security:

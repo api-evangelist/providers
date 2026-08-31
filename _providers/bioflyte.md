@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 147
   slug: bioflyte-agentic-access
   summary_line: 147 operations · 109 acting
-api_count: 20
+api_count: 1
 apis:
 - description: The Alert API from BioFlyte — 4 operation(s) for alert.
   name: BioFlyte Alert API
@@ -303,19 +303,24 @@ overview: 'BioFlyte publishes 20 APIs on the [APIs.io](https://apis.io/) network
   BioFlyte''s developer surface includes authentication, engineering blog, product news, YouTube channel, and 24 more developer resources.'
 random_paper: 1
 score:
-  band: thin
-  composite: 28.6
-  delta: 2.4
+  band: emerging
+  composite: 26.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
-    contract_governance: 16.7
-    contract_quality: 41.9
+    contract_governance: 4.5
+    contract_quality: 39.9
     developer_ergonomics: 16.1
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 26.2
+  previous_composite: 26.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -326,8 +331,8 @@ score:
       total: 22
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/screenshots/bioflyte-2026-08-07T162453.png
 security:

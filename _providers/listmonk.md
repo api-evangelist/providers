@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.1
-  scored_at: '2026-08-26'
+  score: 30.6
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 53
   slug: listmonk-agentic-access
   summary_line: 53 operations · 34 acting · 1 human-in-the-loop
-api_count: 8
+api_count: 2
 apis:
 - description: The Bounces API from listmonk — 2 operation(s) for bounces.
   name: listmonk Bounces API
@@ -68,7 +68,25 @@ apis:
 - description: The Transactional API from listmonk — 1 operation(s) for transactional.
   name: listmonk Transactional API
   slug: listmonk-transactional-api
-artifact_total: 26
+- description: Admin API
+  name: listmonk Admin API
+  slug: listmonk-admin-api
+- description: Logs API
+  name: listmonk Logs API
+  slug: listmonk-logs-api
+- description: Maintenance API
+  name: listmonk Maintenance API
+  slug: listmonk-maintenance-api
+- description: Misc API
+  name: listmonk Miscellaneous API
+  slug: listmonk-miscellaneous-api
+- description: Listmonk Public API
+  name: listmonk Public API
+  slug: listmonk-public-api
+- description: Settings API
+  name: listmonk Settings API
+  slug: listmonk-settings-api
+artifact_total: 32
 asyncapis:
 - description: 'listmonk''s event surface is INGRESS, not egress: a listmonk instance receives bounce and complaint events, it does not emit webhooks to subscribers of its own. This document models the two documented '
   name: listmonk Bounce Webhooks
@@ -257,7 +275,7 @@ modified: '2026-08-13'
 name: listmonk
 nav: Providers
 network: true
-overview: 'listmonk publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Bounces API, Campaigns API, Import API, and 5 more. Tagged areas include Email, Newsletter, Mailing List, Marketing, and Transactional Email.
+overview: 'listmonk publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Bounces API, Campaigns API, Import API, and 11 more. Tagged areas include Email, Newsletter, Mailing List, Marketing, and Transactional Email.
 
 
   The listmonk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -275,18 +293,23 @@ rate_limits:
   slug: listmonk-rate-limits
 score:
   band: developing
-  composite: 52.5
-  delta: 0.0
+  composite: 48.8
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 16.7
-    contract_quality: 55.4
+    contract_governance: 4.5
+    contract_quality: 48.9
     developer_ergonomics: 70.8
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 68.4
-  previous_composite: 52.5
+  previous_composite: 49.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -303,8 +326,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 31.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/screenshots/listmonk-2026-07-25T225325.png
 security:

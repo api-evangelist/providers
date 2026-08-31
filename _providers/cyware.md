@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-08-26'
-api_count: 35
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: Open-source Model Context Protocol server, written in Go and published under MIT by Cyware Labs, that exposes Cyware Intel Exchange and Cyware Orchestrate to LLM agents as MCP tools. Self-hosted along
   name: Cyware MCP Server
@@ -388,7 +388,7 @@ modified: '2026-08-04'
 name: Cyware
 nav: Providers
 network: true
-overview: 'Cyware publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Allowed Indicators API, Analytics API, and 31 more. Tagged areas include Threat Intelligence, cyber-threat-intelligence, Cybersecurity, Security Operations, and Threat Intelligence Platform.
+overview: 'Cyware publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Administration API, Allowed Indicators API, Analytics API, and 31 more. Tagged areas include Threat Intelligence, cyber-threat-intelligence, Cybersecurity, security-operations, and threat-intelligence-platform.
 
 
   The Cyware catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -402,18 +402,26 @@ rate_limits:
   slug: cyware-rate-limits
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 43.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 81.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 22.4
     developer_ergonomics: 66.1
-    discoverability: 75.9
-    governance: 30.3
+    discoverability: 70.4
+    governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 46.9
+  open_source:
+    applies: true
+    score: 35.0
+  previous_composite: 45.5
   provenance:
     conformance: first-party
     contracts:
@@ -423,8 +431,8 @@ score:
       total: 34
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyware/refs/heads/main/screenshots/cyware-2026-08-07T164015.png
 security:
@@ -445,18 +453,18 @@ tags:
 - Threat Intelligence
 - cyber-threat-intelligence
 - Cybersecurity
-- Security Operations
-- Threat Intelligence Platform
+- security-operations
+- threat-intelligence-platform
 - STIX
-- TAXII
+- taxii
 - mitre-attack
-- SOAR
-- Security Orchestration
-- Incident Response
+- soar
+- security-orchestration
+- incident-response
 - threat-intelligence-sharing
 - isac
-- Indicators of Compromise
+- indicators-of-compromise
 - MCP
-- Agentic AI
+- agentic-ai
 website: https://www.cyware.com/
 ---

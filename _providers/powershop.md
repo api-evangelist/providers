@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -31,18 +31,36 @@ agentic_access:
   operation_count: 27
   slug: powershop-agentic-access
   summary_line: 27 operations · 5 acting
-api_count: 3
+api_count: 2
 apis:
-- description: The public, unauthenticated Consumer Data Right Generic Tariff API carrying every Powershop retail energy plan. Under the CDR energy designation the Australian Energy Regulator — not the retailer — is
-  name: Powershop CDR Generic Tariff (Energy Plans) API
-  slug: powershop-cdr-generic-tariff-api
-- description: The Consumer Data Standards Discovery endpoints served from Powershop's own registered CDR public base URI. This is the surface that proves the implementation exists rather than merely being designate
-  name: Powershop CDR Discovery API
-  slug: powershop-cdr-discovery-api
-- description: The consented, accreditation-gated half of Powershop's Consumer Data Right obligation. Powershop's own published CDR policy names the data it shares — customer data, account data (account number, crea
-  name: Powershop CDR Energy Consumer Data API
-  slug: powershop-cdr-energy-consumer-data-api
-artifact_total: 10
+- description: Data Holder Customer endpoints
+  name: Powershop Data Holder Customers API
+  slug: powershop-data-holder-customers-api
+- description: Data Holder Operations endpoints
+  name: Powershop Data Holder Operations API
+  slug: powershop-data-holder-operations-api
+- description: Distributed Energy Resource endpoints
+  name: Powershop Distributed Energy Resources API
+  slug: powershop-distributed-energy-resources-api
+- description: Electricity Service Point endpoints
+  name: Powershop Electricity Service Points API
+  slug: powershop-electricity-service-points-api
+- description: Electricity Usage endpoints
+  name: Powershop Electricity Usage API
+  slug: powershop-electricity-usage-api
+- description: Energy Account Balance endpoints
+  name: Powershop Energy Account Balances API
+  slug: powershop-energy-account-balances-api
+- description: Energy Account Billing endpoints
+  name: Powershop Energy Account Billing API
+  slug: powershop-energy-account-billing-api
+- description: Energy Account endpoints
+  name: Powershop Energy Accounts API
+  slug: powershop-energy-accounts-api
+- description: Energy Plan endpoints
+  name: Powershop Energy Plans API
+  slug: powershop-energy-plans-api
+artifact_total: 16
 collections:
 - collection_type: open
   name: CDR Common API
@@ -51,6 +69,18 @@ collections:
   name: CDR Energy API
   slug: open-powershop-cdr-energy-api
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/powershop-lookup-energy-plans.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/powershop-check-cdr-status.md
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/powershop-share-consumer-energy-data.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -196,10 +226,10 @@ modified: '2026-07-27'
 name: Powershop
 nav: Providers
 network: true
-overview: 'Powershop publishes 3 APIs on the [APIs.io](https://apis.io/) network: CDR Generic Tariff (Energy Plans) API, CDR Discovery API, and CDR Energy Consumer Data API. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
+overview: 'Powershop publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Data Holder Customers API, Data Holder Operations API, Distributed Energy Resources API, and 6 more. Tagged areas include Energy, Australia, Utilities, Electricity, and Gas.
 
 
-  Powershop''s developer surface includes authentication, changelog, API reference, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+  Powershop''s developer surface includes authentication, changelog, API reference, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 random_paper: 12
 scopes:
 - name: Powershop Scopes
@@ -208,18 +238,23 @@ scopes:
   summary_line: 11 scopes
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 47.6
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 49.7
     developer_ergonomics: 37.5
-    discoverability: 64.8
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 48.7
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -236,8 +271,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/screenshots/powershop-2026-08-17T124837.png
 security:

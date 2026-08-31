@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -31,36 +31,60 @@ agentic_access:
   operation_count: 96
   slug: viator-agentic-access
   summary_line: 96 operations · 58 acting
-api_count: 9
+api_count: 4
 apis:
-- description: 'Product content and catalogue ingestion for the Viator Partner API v2 - full product detail, bulk retrieval, incremental modified-since ingestion, the product tag taxonomy, booking questions, product '
-  name: Viator Partner Products API
-  slug: viator-partner-products-api
-- description: Real-time availability and price checking plus availability-schedule retrieval for a single product, in bulk, or incrementally by modification date, so partners can hold a local mirror of bookable cap
-  name: Viator Partner Availability API
-  slug: viator-partner-availability-api
-- description: Transactional booking surface - cart and single-item hold and book, booking status, cancel reasons, cancellation quote and cancellation, amendment check, quote and amend, and the modified-since bookin
-  name: Viator Partner Bookings API
-  slug: viator-partner-bookings-api
-- description: Checkout-session payment account endpoint used by Full Access plus Booking affiliate partners to pass traveller payment details to Viator in a PCI-compliant way when Viator remains the merchant of rec
-  name: Viator Partner Payments API
-  slug: viator-partner-payments-api
-- description: Attraction search and attraction detail endpoints, letting partners build attraction landing pages and tie Viator's bookable products back to the places they visit.
-  name: Viator Partner Attractions API
-  slug: viator-partner-attractions-api
-- description: Supporting reference and content services for the Partner API v2 - free-text search across products, destinations and attractions, bulk location resolution, exchange rates, product reviews, supplier p
-  name: Viator Partner Auxiliary API
-  slug: viator-partner-auxiliary-api
-- description: The supplier-side connectivity contract, formerly the Viator Supplier API. This specification is inverted - it defines the endpoints a tour operator's reservation system or booking software must itsel
-  name: Viator Reservation System API
-  slug: viator-reservation-system-api
-- description: The legacy v1 merchant-partner specification still published by Viator, exposing taxonomy, product, photo, review, availability, pricing-matrix, booking, voucher and cancellation services under viator
-  name: Viator Merchant API v1
-  slug: viator-merchant-api-v1
-- description: The legacy v1 affiliate-partner specification, a non-transactional subset covering utility services, destination and category taxonomy, product and attraction search, product detail, reviews and photo
-  name: Viator Affiliate API v1
-  slug: viator-affiliate-api-v1
-artifact_total: 19
+- description: Attraction services
+  name: Viator Attraction services API
+  slug: viator-attraction-services-api
+- description: The Attractions API from Viator — 2 operation(s) for attractions.
+  name: Viator Attractions API
+  slug: viator-attractions-api
+- description: The Auxiliary API from Viator — 6 operation(s) for auxiliary.
+  name: Viator Auxiliary API
+  slug: viator-auxiliary-api
+- description: The Availability API from Viator — 4 operation(s) for availability.
+  name: Viator Availability API
+  slug: viator-availability-api
+- description: Booking services
+  name: Viator Booking services API
+  slug: viator-booking-services-api
+- description: The Bookings API from Viator — 13 operation(s) for bookings.
+  name: Viator Bookings API
+  slug: viator-bookings-api
+- description: This section lists endpoints that are no longer recommended for new or updated integrations. These endpoints remain available for existing connections only, will stop receiving new features or behavio
+  name: Viator Deprecated API
+  slug: viator-deprecated-api
+- description: Deprecated services
+  name: Viator Deprecated services API
+  slug: viator-deprecated-services-api
+- description: General services
+  name: Viator General services API
+  slug: viator-general-services-api
+- description: The Payments API from Viator — 1 operation(s) for payments.
+  name: Viator Payments API
+  slug: viator-payments-api
+- description: Product services
+  name: Viator Product services API
+  slug: viator-product-services-api
+- description: The Products API from Viator — 7 operation(s) for products.
+  name: Viator Products API
+  slug: viator-products-api
+- description: 'This section describes all the possible services, some of which are mandatory, that reservation systems can develop to integrate with Viator. All API requests made by Viator to the reservation system '
+  name: Viator Reservation system APIs API
+  slug: viator-reservation-system-apis-api
+- description: Support services
+  name: Viator Support services API
+  slug: viator-support-services-api
+- description: Taxonomy services
+  name: Viator Taxonomy services API
+  slug: viator-taxonomy-services-api
+- description: Utility services
+  name: Viator Utility services API
+  slug: viator-utility-services-api
+- description: 'This section describes the Viator built API(s) available for reservation system consumption. **Note**: For these APIs, the request is sent **to** Viator and the response is received **from** Viator.'
+  name: Viator Viator APIs API
+  slug: viator-viator-apis-api
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Viator Events
@@ -79,6 +103,10 @@ collections:
   name: Viator Reservation System API
   slug: open-viator-reservation-system-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/viator-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -260,13 +288,13 @@ modified: '2026-07-28'
 name: Viator
 nav: Providers
 network: true
-overview: 'Viator publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Partner Products API, Partner Availability API, Partner Bookings API, and 6 more. Tagged areas include Travel, United States, Tours and Activities, Experience, and OTA.
+overview: 'Viator publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Attraction services API, Attractions API, Auxiliary API, and 14 more. Tagged areas include Travel, United States, Tours and Activities, Experience, and OTA.
 
 
   The Viator catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Viator''s developer surface includes authentication, documentation, developer portal, support, engineering blog, API reference, getting-started guide, and 35 more developer resources.'
+  Viator''s developer surface includes authentication, documentation, developer portal, support, engineering blog, API reference, getting-started guide, and 36 more developer resources.'
 random_paper: 10
 rate_limits:
 - limit_count: 0
@@ -274,18 +302,23 @@ rate_limits:
   slug: viator-rate-limits
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 49.4
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 1.9
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
-    contract_quality: 64.2
+    contract_governance: 4.5
+    contract_quality: 62.9
     developer_ergonomics: 66.1
-    discoverability: 64.8
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 31.6
-  previous_composite: 50.8
+  previous_composite: 47.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -296,8 +329,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/screenshots/viator-2026-08-17T082742.png
 security:

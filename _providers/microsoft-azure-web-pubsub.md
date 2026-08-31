@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 19
   slug: microsoft-azure-web-pubsub-agentic-access
   summary_line: 19 operations · 15 acting · 1 human-in-the-loop
-api_count: 8
+api_count: 1
 apis:
 - description: AsyncAPI 2.6 description of the Azure Web PubSub client WebSocket subprotocols (json.webpubsub.azure.v1 and json.reliable.webpubsub.azure.v1) and the CloudEvents 1.0 HTTP upstream contract used by the
   name: Azure Web PubSub Client and Upstream Events
@@ -354,18 +354,23 @@ rules:
   slug: microsoft-azure-web-pubsub-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 53.5
-  delta: 1.4
+  composite: 53.0
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 64.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 13.6
     contract_quality: 59.0
     developer_ergonomics: 57.1
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 13.6
     operational_transparency: 42.1
-  previous_composite: 52.1
+  previous_composite: 53.5
   provenance:
     agentic_access: derived
     contracts:
@@ -373,8 +378,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-web-pubsub/refs/heads/main/screenshots/microsoft-azure-web-pubsub-2026-06-20T185444.png
 security:

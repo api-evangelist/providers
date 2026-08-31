@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 6
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 121
   slug: kombo-agentic-access
   summary_line: 121 operations · 62 acting · 6 human-in-the-loop
-api_count: 8
+api_count: 1
 apis:
 - description: Endpoints for AI-powered job application features.
   name: Kombo AI Apply API
@@ -68,7 +68,10 @@ apis:
 - description: Unified endpoints to access all the LMS concepts you might need.
   name: Kombo Unified LMS API API
   slug: kombo-unified-lms-api-api
-artifact_total: 670
+- description: The Kombo API API from Kombo — 0 operation(s) for kombo api.
+  name: Kombo Kombo API
+  slug: kombo-kombo-api-api
+artifact_total: 671
 collections:
 - collection_type: open
   name: API Collection
@@ -101,6 +104,10 @@ collections:
   name: Kombo API
   slug: open-kombo
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kombo-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2104,13 +2111,13 @@ modified: '2026-05-19'
 name: Kombo
 nav: Providers
 network: true
-overview: 'Kombo publishes 8 APIs on the [APIs.io](https://apis.io/) network, including AI Apply API, Custom Endpoints API, General API, and 5 more. Tagged areas include ATS, Embedded iPaaS, HRIS, LMS, and Payroll.
+overview: 'Kombo publishes 9 APIs on the [APIs.io](https://apis.io/) network, including AI Apply API, Custom Endpoints API, General API, and 6 more. Tagged areas include ATS, Embedded iPaaS, HRIS, LMS, and Payroll.
 
 
   The Kombo catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Kombo''s developer surface includes authentication, documentation, support, engineering blog, and 10 more developer resources.'
+  Kombo''s developer surface includes authentication, documentation, support, engineering blog, and 11 more developer resources.'
 plans:
 - name: Kombo Plans Pricing
   plan_count: 3
@@ -2132,19 +2139,24 @@ rules:
     warn: 4
   slug: kombo-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 40.0
-  delta: 2.4
+  band: thin
+  composite: 38.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 71.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 9.8
-    contract_quality: 57.4
+    contract_quality: 55.3
     developer_ergonomics: 47.6
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 9.8
     operational_transparency: 18.4
-  previous_composite: 37.6
+  previous_composite: 39.5
   provenance:
     agentic_access: derived
     contracts:
@@ -2158,8 +2170,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kombo/refs/heads/main/screenshots/kombo-2026-06-20T184122.png
 security:

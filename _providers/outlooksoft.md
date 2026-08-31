@@ -32,9 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 0
+common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sap/
 created: '2026-07-17'
 description: OutlookSoft was a corporate performance management (CPM) software company providing budgeting, planning, consolidation, forecasting, and financial reporting software. Originally surfaced as a Battery Ventures portfolio company and added to the API Evangelist network as a stub, enrichment confirmed OutlookSoft was acquired by SAP in 2007 and folded into SAP Business Planning and Consolidation (SAP BPC). The outlooksoft.com domain is now controlled by SAP (SAP nameservers) and serves no live site, developer portal, or API surface. This profile is retained as a historical company record; there is no independent API to enrich.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/outlooksoft.png
@@ -48,6 +53,11 @@ random_paper: 7
 score:
   band: minimal
   composite: 5.0
+  coverage:
+    artifact_dirs: 0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -67,8 +77,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 slug: outlooksoft
 tags:

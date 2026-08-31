@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -91,13 +91,13 @@ graphqls:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/home-depot.png
 layout: provider
 modified: '2026-05-19'
-name: home-depot
+name: The Home Depot
 nav: Providers
 network: true
-overview: 'home-depot publishes 1 API on the [APIs.io](https://apis.io/) network: Retail API. Tagged areas include Fortune 100.
+overview: 'The Home Depot publishes 1 API on the [APIs.io](https://apis.io/) network: home-depot Retail API. Tagged areas include Fortune 100.
 
 
-  home-depot''s developer surface includes authentication and 4 more developer resources.'
+  The Home Depot''s developer surface includes authentication and 4 more developer resources.'
 plans:
 - name: Home Depot Plans Pricing
   plan_count: 1
@@ -126,7 +126,12 @@ rate_limits:
 score:
   band: thin
   composite: 27.9
-  delta: 1.0
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -136,7 +141,7 @@ score:
     discoverability: 53.7
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 26.9
+  previous_composite: 27.9
   provenance:
     agentic_access: derived
     contracts:
@@ -144,8 +149,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/home-depot/refs/heads/main/screenshots/home-depot-2026-06-20T182823.png
 security:

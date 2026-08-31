@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: monta-agentic-access
   summary_line: 17 operations · 4 acting · 1 human-in-the-loop
-api_count: 6
+api_count: 1
 apis:
 - description: 'Signed webhook payloads deliver real-time platform events without polling, covering charge transactions, OCPP messages, sites, teams, wallet transactions, and more. Webhook subscription configuration '
   name: Monta Webhooks
@@ -86,6 +86,10 @@ collections:
   name: Monta Public API
   slug: open-monta
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/monta-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -141,7 +145,7 @@ network: true
 overview: 'Monta publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Charge Points API, Charges API, and 2 more. Tagged areas include EV Charging, Electric Vehicles, Charge Points, Energy, and Mobility.
 
 
-  Monta''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Monta''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Monta Plans Pricing
   plan_count: 2
@@ -153,18 +157,23 @@ rate_limits:
   slug: monta-rate-limits
 score:
   band: thin
-  composite: 35.6
-  delta: 1.7
+  composite: 35.0
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 53.6
     developer_ergonomics: 25.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 33.9
+  previous_composite: 35.6
   provenance:
     agentic_access: derived
     contracts:
@@ -178,8 +187,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/screenshots/monta-2026-08-07T184221.png
 security:

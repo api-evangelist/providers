@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 102
   slug: drivewealth-agentic-access
   summary_line: 102 operations · 30 acting
-api_count: 31
+api_count: 1
 apis:
 - description: Financial Information Exchange (FIX) protocol API for institutional-grade connectivity to DriveWealth's trading infrastructure.
   name: DriveWealth FIX API
@@ -233,6 +233,10 @@ collections:
   name: DriveWealth Accounts Withdrawals API
   slug: open-drivewealth-withdrawals-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/drivewealth-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -321,10 +325,6 @@ common:
   title: ''
   type: Examples
   url: examples/drivewealth-deposit-example.json
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 created: 2026-06-12
 description: DriveWealth is a global B2B financial technology platform providing Brokerage-as-a-Service via a REST API, enabling fintechs, banks, broker-dealers, asset managers, and consumer brands to embed investing and trading experiences into their applications. The platform supports US equities, ETFs, mutual funds, fixed income, options, and fractional share trading starting at $1. DriveWealth powers account opening, KYC/AML compliance, portfolio management, order execution, funding operations, and reporting for 100+ partners worldwide. A FIX API is also available alongside the primary REST API for institutional connectivity.
 examples:
@@ -391,15 +391,20 @@ rules:
   slug: drivewealth-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.1
-  delta: 0.0
+  composite: 42.6
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 25.0
     contract_quality: 61.7
     developer_ergonomics: 19.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 39.5
   previous_composite: 43.1
@@ -416,8 +421,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/screenshots/drivewealth-2026-06-20T180237.png
 security:

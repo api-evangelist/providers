@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -31,18 +31,27 @@ agentic_access:
   operation_count: 9
   slug: nerdio-agentic-access
   summary_line: 9 operations · 4 acting · 2 human-in-the-loop
-api_count: 3
+api_count: 1
 apis:
-- description: Public REST API for Nerdio Manager for MSP distributors. Lets a distributor register (claim) a partner MSP's existing and future NMM installs against an Azure subscription, suspend and reactivate inst
-  name: Nerdio Manager Distributor API
-  slug: nerdio-manager-distributor-api
 - description: REST API for Nerdio Manager for Enterprise. The API is disabled by default and is enabled per install from System > Settings > Integrations, which provisions an Entra ID application under the nerdio-n
   name: Nerdio Manager for Enterprise REST API
   slug: nerdio-manager-for-enterprise-rest-api
 - description: REST API for Nerdio Manager for MSP, used by MSPs to automate at the partner and account level what they would otherwise do in the NMM console — creating and managing host pools, session hosts and des
   name: Nerdio Manager for MSP Partner API
   slug: nerdio-manager-for-msp-partner-api
-artifact_total: 11
+- description: The Health API from Nerdio — 1 operation(s) for health.
+  name: Nerdio Health API
+  slug: nerdio-health-api
+- description: The Install API from Nerdio — 5 operation(s) for install.
+  name: Nerdio Install API
+  slug: nerdio-install-api
+- description: The Invoices API from Nerdio — 2 operation(s) for invoices.
+  name: Nerdio Invoices API
+  slug: nerdio-invoices-api
+- description: The Usage API from Nerdio — 1 operation(s) for usage.
+  name: Nerdio Usage API
+  slug: nerdio-usage-api
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Nerdio Notifications Webhooks
@@ -52,6 +61,10 @@ collections:
   name: NMM Distributor API
   slug: open-nerdio-distributor-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/nerdio-distributor-api-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -189,28 +202,33 @@ modified: '2026-08-01'
 name: Nerdio
 nav: Providers
 network: true
-overview: 'Nerdio publishes 1 API on the [APIs.io](https://apis.io/) network: Manager Distributor API. Tagged areas include Company, Azure Virtual Desktop, Windows 365, Virtual Desktop Infrastructure, and Cloud Desktop Management.
+overview: 'Nerdio publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Health API, Install API, Invoices API, and 1 more. Tagged areas include Company, Azure Virtual Desktop, Windows 365, Virtual Desktop Infrastructure, and Cloud Desktop Management.
 
 
   The Nerdio catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Nerdio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+  Nerdio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
 random_paper: 11
 score:
   band: developing
-  composite: 51.3
-  delta: 0.8
+  composite: 49.3
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 47.6
     developer_ergonomics: 63.7
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 50.5
+  previous_composite: 49.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -221,8 +239,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/screenshots/nerdio-2026-08-07T184907.png
 security:

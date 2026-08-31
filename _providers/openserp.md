@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -31,15 +31,27 @@ agentic_access:
   operation_count: 18
   slug: openserp-agentic-access
   summary_line: 18 operations · 4 acting
-api_count: 2
+api_count: 1
 apis:
 - description: The managed, hosted version of the OpenSERP search API. Bearer-token authenticated, credit-metered pay-as-you-go REST API exposing single-engine web and image search across Google, Bing, Yandex, Baidu
   name: OpenSERP Cloud API
   slug: openserp-cloud
-- description: The MIT-licensed, self-hosted OpenSERP REST server. Runs on port 7000 by default and exposes dedicated per-engine web and image search, Google and Bing SERP HTML parsing, multi-engine mega search, sin
-  name: OpenSERP Server (self-hosted)
-  slug: openserp-oss
-artifact_total: 9
+- description: OpenAPI and Swagger UI endpoints
+  name: OpenSERP Docs API
+  slug: openserp-docs-api
+- description: Health and readiness endpoints
+  name: OpenSERP Health API
+  slug: openserp-health-api
+- description: Cross-engine aggregated search endpoints
+  name: OpenSERP Mega API
+  slug: openserp-mega-api
+- description: Dedicated per-engine search endpoints
+  name: OpenSERP Search API
+  slug: openserp-search-api
+- description: Runtime statistics endpoints
+  name: OpenSERP Stats API
+  slug: openserp-stats-api
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Openserp Monitor Webhooks
@@ -49,6 +61,18 @@ collections:
   name: OpenSERP API
   slug: open-openserp-oss
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/karust/openserp/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/karust/openserp/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/karust/openserp/blob/main/docs/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -240,28 +264,36 @@ modified: '2026-08-10'
 name: OpenSERP
 nav: Providers
 network: true
-overview: 'OpenSERP publishes 1 API on the [APIs.io](https://apis.io/) network: Server (self-hosted). Tagged areas include Company, Search, SERP, Search API, and Web Scraping.
+overview: 'OpenSERP publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Docs API, Health API, Mega API, and 2 more. Tagged areas include Company, Search, SERP, Search API, and Web Scraping.
 
 
   The OpenSERP catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  OpenSERP''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, engineering blog, signup flow, and 37 more developer resources.'
+  OpenSERP''s developer surface includes documentation, API reference, getting-started guide, authentication, pricing, engineering blog, signup flow, and 40 more developer resources.'
 random_paper: 15
 score:
   band: developing
-  composite: 51.3
-  delta: 0.8
+  composite: 50.2
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
-    contract_quality: 54.4
+    contract_governance: 4.5
+    contract_quality: 52.0
     developer_ergonomics: 78.0
-    discoverability: 77.8
-    governance: 16.7
+    discoverability: 87.0
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 50.5
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 50.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -272,8 +304,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/screenshots/openserp-2026-08-17T081125.png
 security:

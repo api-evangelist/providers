@@ -22,19 +22,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.8
-  scored_at: '2026-08-26'
+  score: 28.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -42,33 +42,51 @@ agentic_access:
   operation_count: 112
   slug: medadvisor-agentic-access
   summary_line: 112 operations · 67 acting · 1 human-in-the-loop
-api_count: 8
+api_count: 2
 apis:
-- description: The publicly documented third-party integration surface of MedAdvisor's Pharmacy Unified API, enabling external widgets and eCommerce platforms to authenticate, look up pharmacy details, retrieve eScr
-  name: Pharmacy Unified API - 3rd-Party Integration
-  slug: pharmacy-unified-third-party-integration
-- description: 'Appointment and clinical-service booking operations within the Pharmacy Unified API - listing available pharmacy services and time slots, creating and editing event bookings, managing event resources '
-  name: Pharmacy Unified API - Booking Service
-  slug: pharmacy-unified-booking-service
-- description: Medication refill and order management operations within the Pharmacy Unified API - retrieving pending and completed orders, sending eScript tokens, adding line items and notes, processing patient-ini
-  name: Pharmacy Unified API - Refill Order
-  slug: pharmacy-unified-refill-order
-- description: Operations for the pharmacy PlusOne inbox within the Pharmacy Unified API - retrieving the main inbox, sent, completed, scheduled, and ready-to-collect message queues, adding scripts, sending schedule
-  name: Pharmacy Unified API - Inbox
-  slug: pharmacy-unified-inbox
-- description: Patient-communication and group-messaging operations within the Pharmacy Unified API - creating and editing patient groups, managing group membership, and supporting targeted patient outreach from the
-  name: Pharmacy Unified API - Communication
-  slug: pharmacy-unified-communication
-- description: Head-office (banner / multi-pharmacy) operations within the Pharmacy Unified API - managing services across a group of pharmacies, listing pharmacies, and pushing services with deadlines out to indivi
-  name: Pharmacy Unified API - Head Office
-  slug: pharmacy-unified-head-office
-- description: Pharmacy account, settings, and administration operations within the Pharmacy Unified API - retrieving pharmacy details and module/feature settings, patient search, account registration and activation
-  name: Pharmacy Unified API - Pharmacy
-  slug: pharmacy-unified-pharmacy
-- description: MedAdvisor Pharmacy Unified API v2.0 from MedAdvisor — 44 path(s) described in OpenAPI.
-  name: MedAdvisor Pharmacy Unified API v2.0
-  slug: medadvisor-pharmacy-unified-v2-openapi
-artifact_total: 15
+- description: The 3rd-Party Integration API from MedAdvisor — 4 operation(s) for 3rd-party integration.
+  name: MedAdvisor 3rd-Party Integration API
+  slug: medadvisor-3rd-party-integration-api
+- description: The Account API from MedAdvisor — 1 operation(s) for account.
+  name: MedAdvisor Account API
+  slug: medadvisor-account-api
+- description: The Booking API from MedAdvisor — 27 operation(s) for booking.
+  name: MedAdvisor Booking API
+  slug: medadvisor-booking-api
+- description: The BookingService API from MedAdvisor — 34 operation(s) for bookingservice.
+  name: MedAdvisor Booking Service API
+  slug: medadvisor-bookingservice-api
+- description: The CalendarSetting API from MedAdvisor — 6 operation(s) for calendarsetting.
+  name: MedAdvisor Calendar Setting API
+  slug: medadvisor-calendarsetting-api
+- description: The Clinic API from MedAdvisor — 8 operation(s) for clinic.
+  name: MedAdvisor Clinic API
+  slug: medadvisor-clinic-api
+- description: The Communication API from MedAdvisor — 6 operation(s) for communication.
+  name: MedAdvisor Communication API
+  slug: medadvisor-communication-api
+- description: The Config API from MedAdvisor — 2 operation(s) for config.
+  name: MedAdvisor Config API
+  slug: medadvisor-config-api
+- description: The HeadOffice API from MedAdvisor — 6 operation(s) for headoffice.
+  name: MedAdvisor Head Office API
+  slug: medadvisor-headoffice-api
+- description: The Inbox API from MedAdvisor — 8 operation(s) for inbox.
+  name: MedAdvisor Inbox API
+  slug: medadvisor-inbox-api
+- description: The Logging API from MedAdvisor — 1 operation(s) for logging.
+  name: MedAdvisor Logging API
+  slug: medadvisor-logging-api
+- description: The Pharmacist API from MedAdvisor — 3 operation(s) for pharmacist.
+  name: MedAdvisor Pharmacist API
+  slug: medadvisor-pharmacist-api
+- description: The Pharmacy API from MedAdvisor — 31 operation(s) for pharmacy.
+  name: MedAdvisor Pharmacy API
+  slug: medadvisor-pharmacy-api
+- description: The RefillOrder API from MedAdvisor — 14 operation(s) for refillorder.
+  name: MedAdvisor Refill Order API
+  slug: medadvisor-refillorder-api
+artifact_total: 21
 collections:
 - collection_type: open
   name: Pharmacy Unified API v2.0
@@ -77,6 +95,10 @@ collections:
   name: Pharmacy Unified API v1.0
   slug: open-medadvisor-pharmacy-unified
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/medadvisor-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -198,25 +220,30 @@ modified: '2026-07-24'
 name: MedAdvisor
 nav: Providers
 network: true
-overview: 'MedAdvisor publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Pharmacy Unified API - 3rd-Party Integration, Pharmacy Unified API - Booking Service, Pharmacy Unified API - Refill Order, and 5 more. Tagged areas include Healthcare, Australia, Pharmacy, Medication Management, and Medication Adherence.
+overview: 'MedAdvisor publishes 14 APIs on the [APIs.io](https://apis.io/) network, including 3rd-Party Integration API, Account API, Booking API, and 11 more. Tagged areas include Healthcare, Australia, Pharmacy, Medication Management, and Medication Adherence.
 
 
-  MedAdvisor''s developer surface includes authentication, API reference, documentation, support, and 23 more developer resources.'
+  MedAdvisor''s developer surface includes authentication, API reference, documentation, support, and 24 more developer resources.'
 random_paper: 20
 score:
   band: developing
-  composite: 42.6
-  delta: 0.0
+  composite: 40.2
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 30.3
-    contract_quality: 46.3
+    contract_governance: 18.2
+    contract_quality: 44.6
     developer_ergonomics: 35.1
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 42.6
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -229,12 +256,18 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 2
     matched_via: tags
     regime: Health
     regime_id: health
     score: 51.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/screenshots/medadvisor-2026-08-07T172313.png
 security:

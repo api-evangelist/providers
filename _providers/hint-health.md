@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 153
   slug: hint-health-agentic-access
   summary_line: 153 operations · 87 acting
-api_count: 49
+api_count: 2
 apis:
 - description: The AccountAccessToken API from Hint Health — 1 operation(s) for accountaccesstoken.
   name: Hint Health AccountAccessToken API
@@ -191,7 +191,61 @@ apis:
 - description: The WebhookEndpoint API from Hint Health — 2 operation(s) for webhookendpoint.
   name: Hint Health WebhookEndpoint API
   slug: hint-health-webhookendpoint-api
-artifact_total: 443
+- description: The AffiliateAncillaryCharge API from Hint Health — 1 operation(s) for affiliateancillarycharge.
+  name: Hint Health Affiliate Ancillary Charge API
+  slug: hint-health-affiliateancillarycharge-api
+- description: The ApiKey API from Hint Health — 1 operation(s) for apikey.
+  name: Hint Health API Key API
+  slug: hint-health-apikey-api
+- description: The App API from Hint Health — 1 operation(s) for app.
+  name: Hint Health App API
+  slug: hint-health-app-api
+- description: The Appointment API from Hint Health — 2 operation(s) for appointment.
+  name: Hint Health Appointment API
+  slug: hint-health-appointment-api
+- description: The AppSurface API from Hint Health — 2 operation(s) for appsurface.
+  name: Hint Health App Surface API
+  slug: hint-health-appsurface-api
+- description: The Backend API from Hint Health — 2 operation(s) for backend.
+  name: Hint Health Backend API
+  slug: hint-health-backend-api
+- description: The Installation API from Hint Health — 5 operation(s) for installation.
+  name: Hint Health Installation API
+  slug: hint-health-installation-api
+- description: The InstallationApiKeys API from Hint Health — 2 operation(s) for installationapikeys.
+  name: Hint Health Installation API Keys API
+  slug: hint-health-installationapikeys-api
+- description: The InstallationWebhookEndpoints API from Hint Health — 2 operation(s) for installationwebhookendpoints.
+  name: Hint Health Installation Webhook Endpoints API
+  slug: hint-health-installationwebhookendpoints-api
+- description: The PartnerProductHighlight API from Hint Health — 2 operation(s) for partnerproducthighlight.
+  name: Hint Health Partner Product Highlight API
+  slug: hint-health-partnerproducthighlight-api
+- description: The PartnerProductLink API from Hint Health — 2 operation(s) for partnerproductlink.
+  name: Hint Health Partner Product Link API
+  slug: hint-health-partnerproductlink-api
+- description: The PartnerProductOverview API from Hint Health — 1 operation(s) for partnerproductoverview.
+  name: Hint Health Partner Product Overview API
+  slug: hint-health-partnerproductoverview-api
+- description: The PartnerProductPrecondition API from Hint Health — 2 operation(s) for partnerproductprecondition.
+  name: Hint Health Partner Product Precondition API
+  slug: hint-health-partnerproductprecondition-api
+- description: The Product API from Hint Health — 3 operation(s) for product.
+  name: Hint Health Product API
+  slug: hint-health-product-api
+- description: The ProductCategory API from Hint Health — 3 operation(s) for productcategory.
+  name: Hint Health Product Category API
+  slug: hint-health-productcategory-api
+- description: The Testimonial API from Hint Health — 2 operation(s) for testimonial.
+  name: Hint Health Testimonial API
+  slug: hint-health-testimonial-api
+- description: The WebhookEvent API from Hint Health — 1 operation(s) for webhookevent.
+  name: Hint Health Webhook Event API
+  slug: hint-health-webhookevent-api
+- description: The WebhookRequest API from Hint Health — 1 operation(s) for webhookrequest.
+  name: Hint Health Webhook Request API
+  slug: hint-health-webhookrequest-api
+artifact_total: 461
 asyncapis:
 - description: ''
   name: Hint Health Webhooks
@@ -348,6 +402,10 @@ collections:
   name: Hint Health AccountAccessToken WebhookEndpoint API
   slug: open-hint-health-webhookendpoint-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/hint-health-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1526,13 +1584,13 @@ modified: 2026-08-15
 name: Hint Health
 nav: Providers
 network: true
-overview: 'Hint Health publishes 49 APIs on the [APIs.io](https://apis.io/) network, including AccountAccessToken API, Affiliate API, AffiliateBill API, and 46 more. Tagged areas include Direct Primary Care, DPC, Healthcare, Membership Management, and Patient Enrollment.
+overview: 'Hint Health publishes 67 APIs on the [APIs.io](https://apis.io/) network, including AccountAccessToken API, Affiliate API, AffiliateBill API, and 64 more. Tagged areas include Direct Primary Care, DPC, Healthcare, Membership Management, and Patient Enrollment.
 
 
   The Hint Health catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Hint Health''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 32 more developer resources.'
+  Hint Health''s developer surface includes authentication, documentation, engineering blog, pricing, API reference, getting-started guide, support, and 33 more developer resources.'
 plans:
 - name: Hint Health Plans Pricing
   plan_count: 6
@@ -1555,18 +1613,23 @@ rules:
   slug: hint-health-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 73.0
-  delta: 0.0
+  composite: 67.9
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 56.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.4
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 40.2
-    contract_quality: 72.7
+    contract_governance: 28.0
+    contract_quality: 69.9
     developer_ergonomics: 64.3
-    discoverability: 81.5
-    governance: 40.2
+    discoverability: 51.9
+    governance: 28.0
     operational_transparency: 47.4
-  previous_composite: 73.0
+  previous_composite: 70.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -1583,8 +1646,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/screenshots/hint-health-2026-06-20T182747.png
 security:

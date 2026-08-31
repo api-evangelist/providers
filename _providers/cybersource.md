@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 120
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 183
   slug: cybersource-agentic-access
   summary_line: 183 operations · 120 acting
-api_count: 84
+api_count: 1
 apis:
 - description: Securely tokenizes, stores, and manages customer payment credentials and card data. Supports instrument identifiers, payment instruments, customer profiles, network tokens, and cryptograms. Reduces PC
   name: CyberSource Token Management Service (TMS) API
@@ -511,6 +511,10 @@ collections:
   name: CyberSource Merged Spec bankAccountValidation void API
   slug: open-cybersource-void-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cybersource-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -618,7 +622,7 @@ overview: 'CyberSource publishes 73 APIs on the [APIs.io](https://apis.io/) netw
   The CyberSource catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  CyberSource''s developer surface includes engineering blog, developer portal, documentation, getting-started guide, API reference, GitHub presence, status page, and 12 more developer resources.'
+  CyberSource''s developer surface includes engineering blog, developer portal, documentation, getting-started guide, API reference, GitHub presence, status page, and 13 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -640,19 +644,24 @@ rules:
     warn: 3
   slug: cybersource-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 40.3
-  delta: 0.0
+  band: thin
+  composite: 38.8
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 63.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 9.8
-    contract_quality: 54.6
+    contract_quality: 54.7
     developer_ergonomics: 57.1
-    discoverability: 68.5
+    discoverability: 53.7
     governance: 9.8
     operational_transparency: 21.1
-  previous_composite: 40.3
+  previous_composite: 39.4
   provenance:
     agentic_access: derived
     contracts:
@@ -666,8 +675,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 23.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybersource/refs/heads/main/screenshots/cybersource-2026-06-20T175413.png
 security:

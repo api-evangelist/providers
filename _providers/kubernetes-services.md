@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 52
   slug: kubernetes-services-agentic-access
   summary_line: 52 operations · 29 acting
-api_count: 13
+api_count: 5
 apis:
 - description: Kubernetes provides DNS-based service discovery for Services and Pods within a cluster. DNS records are automatically created for Services, allowing workloads to locate services by name rather than by
   name: Kubernetes DNS for Services and Pods
@@ -144,6 +144,10 @@ collections:
   name: Kubernetes Services API
   slug: open-kubernetes-services
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kubernetes-services-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -397,7 +401,7 @@ overview: 'Kubernetes Services publishes 12 APIs on the [APIs.io](https://apis.i
   The Kubernetes Services catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Kubernetes Services'' developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, and 16 more developer resources.'
+  Kubernetes Services'' developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, and 17 more developer resources.'
 plans:
 - name: Kubernetes Services Plans Pricing
   plan_count: 1
@@ -431,8 +435,13 @@ rules:
   slug: kubernetes-services-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.6
-  delta: -0.9
+  composite: 44.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 54.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 2.3
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -442,7 +451,10 @@ score:
     discoverability: 64.8
     governance: 13.6
     operational_transparency: 34.2
-  previous_composite: 43.5
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 42.6
   provenance:
     agentic_access: derived
     contracts:
@@ -450,8 +462,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/screenshots/kubernetes-services-2026-06-20T184207.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: The external Operator Rounds (mRounds) REST API on the Innovapptive Connected Business Operations host. It lets a tenant programmatically list published round plans, read a specific round plan with it
@@ -174,7 +174,12 @@ overview: 'Innovapptive publishes 1 API on the [APIs.io](https://apis.io/) netwo
 random_paper: 13
 score:
   band: thin
-  composite: 33.6
+  composite: 32.5
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -182,10 +187,10 @@ score:
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 54.8
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 33.6
+  previous_composite: 32.5
   provenance:
     conformance: derived
   regulatory:
@@ -194,8 +199,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/innovapptive/refs/heads/main/screenshots/innovapptive-2026-08-07T170708.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: state-farm-agentic-access
   summary_line: 5 operations · 2 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The State Farm Auto Insurance API supports partner integrations for automobile insurance quoting, policy management, and claims inquiry. This API enables auto dealers, telematics platforms, and financ
   name: Auto Insurance API
@@ -77,6 +77,10 @@ collections:
   name: State Farm Renters Insurance API
   slug: open-state-farm-renters-insurance
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/state-farm-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -199,7 +203,7 @@ overview: 'State Farm publishes 3 APIs on the [APIs.io](https://apis.io/) networ
   The State Farm catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  State Farm''s developer surface includes authentication, GitHub presence, FAQ, and 18 more developer resources.'
+  State Farm''s developer surface includes authentication, GitHub presence, FAQ, and 19 more developer resources.'
 plans:
 - name: State Farm Plans Pricing
   plan_count: 1
@@ -238,18 +242,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 39.1
-  delta: 1.2
+  composite: 38.5
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 58.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 28.8
     contract_quality: 64.9
     developer_ergonomics: 26.2
-    discoverability: 59.3
+    discoverability: 53.7
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 37.9
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -261,8 +270,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/screenshots/state-farm-2026-06-20T194520.png
 security:

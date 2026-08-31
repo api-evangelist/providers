@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Partner-gated REST API that exposes Cyence cyber risk analytics — exposure signals, breach-probability and loss estimates, and portfolio accumulation data — for pricing, risk selection, and underwriti
@@ -40,6 +40,10 @@ apis:
   slug: cyence-cyber-risk-api
 artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/guidewire/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -80,14 +84,19 @@ modified: '2026-07-18'
 name: Cyence
 nav: Providers
 network: true
-overview: 'Cyence publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Cyber Risk, Insurance, and Insurtech.
+overview: 'Cyence publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Cyber Risk, Insurance, and InsurTech.
 
 
-  Cyence''s developer surface includes documentation, API reference, engineering blog, and 5 more developer resources.'
+  Cyence''s developer surface includes documentation, API reference, engineering blog, and 6 more developer resources.'
 random_paper: 1
 score:
   band: emerging
   composite: 11.3
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -105,8 +114,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyence/refs/heads/main/screenshots/cyence-2026-07-25T211038.png
 security:
@@ -124,7 +133,7 @@ tags:
 - Cybersecurity
 - Cyber Risk
 - Insurance
-- Insurtech
+- InsurTech
 - Risk Analytics
 - Underwriting
 - Guidewire

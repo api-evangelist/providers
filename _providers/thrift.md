@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Apache Thrift is a lightweight, language-independent software stack for point-to-point RPC implementation. It provides abstractions for data transport, serialization, and application-level processing '
@@ -121,7 +121,7 @@ modified: '2026-05-03'
 name: Apache Thrift
 nav: Providers
 network: true
-overview: 'Apache Thrift publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Code Generation, Cross-Language, Open-Source, and RPC.
+overview: 'Apache Thrift publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Code Generation, Cross Language, Open-Source, and RPC.
 
 
   The Apache Thrift catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -151,7 +151,12 @@ rules:
 score:
   band: thin
   composite: 26.4
-  delta: 6.3
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 43.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -161,10 +166,10 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 26.3
-  previous_composite: 20.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  previous_composite: 26.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thrift/refs/heads/main/screenshots/thrift-2026-06-20T195317.png
 security:
 - kind: domain-security
@@ -179,7 +184,7 @@ slug: thrift
 tags:
 - Apache
 - Code Generation
-- Cross-Language
+- Cross Language
 - Open-Source
 - RPC
 - SDK

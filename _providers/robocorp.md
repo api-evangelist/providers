@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 44
   slug: robocorp-agentic-access
   summary_line: 44 operations · 22 acting · 1 human-in-the-loop
-api_count: 13
+api_count: 1
 apis:
 - description: The RPA Framework is an open-source collection of Python libraries for robotic process automation designed for use with Robot Framework and Python. It includes libraries for browser automation, deskto
   name: RPA Framework
@@ -303,15 +303,20 @@ rules:
   slug: robocorp-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.5
-  delta: 0.0
+  composite: 44.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 33.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 69.7
     contract_quality: 68.2
     developer_ergonomics: 28.6
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 69.7
     operational_transparency: 28.9
   previous_composite: 44.5
@@ -322,8 +327,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/screenshots/robocorp-2026-06-20T193143.png
 security:

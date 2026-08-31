@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 219
   human_in_the_loop: 24
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 338
   slug: exoscale-agentic-access
   summary_line: 338 operations · 219 acting · 24 human-in-the-loop
-api_count: 37
+api_count: 1
 apis:
 - description: The ai-api-key API from Exoscale — 3 operation(s) for ai-api-key.
   name: Exoscale ai-api-key API
@@ -274,6 +274,10 @@ collections:
   name: Exoscale API
   slug: open-exoscale
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/exoscale-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -353,7 +357,7 @@ network: true
 overview: 'Exoscale publishes 37 APIs on the [APIs.io](https://apis.io/) network, including ai-api-key API, anti-affinity-group API, api-key API, and 34 more. Tagged areas include Cloud, Infrastructure, Compute, Storage, and Kubernetes.
 
 
-  Exoscale''s developer surface includes documentation, developer portal, signup flow, pricing, engineering blog, support, and 10 more developer resources.'
+  Exoscale''s developer surface includes documentation, developer portal, signup flow, pricing, engineering blog, support, and 11 more developer resources.'
 plans:
 - name: Exoscale Plans Pricing
   plan_count: 3
@@ -365,15 +369,20 @@ rate_limits:
   slug: exoscale-rate-limits
 score:
   band: developing
-  composite: 40.2
-  delta: 0.0
+  composite: 39.6
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 0.0
     contract_quality: 49.7
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 40.2
@@ -384,8 +393,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exoscale/refs/heads/main/screenshots/exoscale-2026-08-17T123426.png
 security:
@@ -408,7 +417,7 @@ tags:
 - Compute
 - Storage
 - Kubernetes
-- Database-as-a-Service
+- DBaaS
 - Europe
 website: https://www.exoscale.com
 ---

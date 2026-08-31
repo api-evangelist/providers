@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: here-technologies-agentic-access
   summary_line: 14 operations · 6 acting · 1 human-in-the-loop
-api_count: 27
+api_count: 1
 apis:
 - description: Forward and reverse geocoding, address lookup, place discovery, browse, and details. Returns rich location data including addresses, places, categories, and geometry.
   name: HERE Geocoding and Search API
@@ -216,15 +216,20 @@ rate_limits:
   slug: here-technologies-rate-limits
 score:
   band: thin
-  composite: 32.3
-  delta: 0.0
+  composite: 31.7
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 45.6
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 32.3
@@ -235,8 +240,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/here-technologies/refs/heads/main/screenshots/here-technologies-2026-06-20T182642.png
 security:

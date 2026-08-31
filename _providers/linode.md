@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 116
   slug: linode-agentic-access
   summary_line: 116 operations · 56 acting · 2 human-in-the-loop
-api_count: 23
+api_count: 1
 apis:
 - description: The Linode CLI is a command-line interface that wraps the Linode API v4, allowing developers and system administrators to manage Akamai Connected Cloud resources directly from the terminal. It support
   name: Linode CLI
@@ -606,15 +606,20 @@ scopes:
   summary_line: 28 scopes · authorizationCode
 score:
   band: thin
-  composite: 29.6
-  delta: 0.0
+  composite: 29.0
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 70.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 67.4
     developer_ergonomics: 11.9
-    discoverability: 50.0
+    discoverability: 44.4
     governance: 9.8
     operational_transparency: 7.9
   previous_composite: 29.6
@@ -629,8 +634,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/screenshots/linode-2026-06-20T184550.png
 security:

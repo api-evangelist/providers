@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 195
   slug: eve-online-agentic-access
   summary_line: 195 operations · 34 acting
-api_count: 50
+api_count: 7
 apis:
 - description: EVE Single Sign-On (SSO) is the OAuth 2.0 authorization service for EVE Online third-party applications, hosted at login.eveonline.com. It supports the Authorization Code flow for confidential (server
   name: EVE Single Sign-On (SSO)
@@ -55,9 +55,6 @@ apis:
 - description: 'EVE Online is the underlying massively multiplayer online (MMO) space game from CCP Games. The game client is the consumer of the third-party developer ecosystem — it is where capsuleers actually fly '
   name: EVE Online Game Client
   slug: eve-online-game
-- description: Access to example
-  name: EVE Online agent API
-  slug: eve-online-agent-api
 - description: The Alliance API from EVE Online — 8 operation(s) for alliance.
   name: EVE Online Alliance API
   slug: eve-online-alliance-api
@@ -85,9 +82,6 @@ apis:
 - description: The Dogma API from EVE Online — 10 operation(s) for dogma.
   name: EVE Online Dogma API
   slug: eve-online-dogma-api
-- description: The EmptyValueParams API from EVE Online — 1 operation(s) for emptyvalueparams.
-  name: EVE Online EmptyValueParams API
-  slug: eve-online-emptyvalueparams-api
 - description: The Faction Warfare API from EVE Online — 16 operation(s) for faction warfare.
   name: EVE Online Faction Warfare API
   slug: eve-online-faction-warfare-api
@@ -121,66 +115,27 @@ apis:
 - description: The Market API from EVE Online — 22 operation(s) for market.
   name: EVE Online Market API
   slug: eve-online-market-api
-- description: The One API from EVE Online — 1 operation(s) for one.
-  name: EVE Online One API
-  slug: eve-online-one-api
-- description: Everything about your Pets
-  name: EVE Online pet API
-  slug: eve-online-pet-api
 - description: The Planetary Interaction API from EVE Online — 8 operation(s) for planetary interaction.
   name: EVE Online Planetary Interaction API
   slug: eve-online-planetary-interaction-api
-- description: The RegularParams API from EVE Online — 1 operation(s) for regularparams.
-  name: EVE Online RegularParams API
-  slug: eve-online-regularparams-api
-- description: The Report API from EVE Online — 1 operation(s) for report.
-  name: EVE Online Report API
-  slug: eve-online-report-api
 - description: The Routes API from EVE Online — 2 operation(s) for routes.
   name: EVE Online Routes API
   slug: eve-online-routes-api
 - description: The Search API from EVE Online — 2 operation(s) for search.
   name: EVE Online Search API
   slug: eve-online-search-api
-- description: The session API from EVE Online — 1 operation(s) for session.
-  name: EVE Online session API
-  slug: eve-online-session-api
 - description: The Skills API from EVE Online — 6 operation(s) for skills.
   name: EVE Online Skills API
   slug: eve-online-skills-api
 - description: The Sovereignty API from EVE Online — 6 operation(s) for sovereignty.
   name: EVE Online Sovereignty API
   slug: eve-online-sovereignty-api
-- description: The sql API from EVE Online — 1 operation(s) for sql.
-  name: EVE Online sql API
-  slug: eve-online-sql-api
 - description: The Status API from EVE Online — 2 operation(s) for status.
   name: EVE Online Status API
   slug: eve-online-status-api
-- description: Access to Petstore orders
-  name: EVE Online store API
-  slug: eve-online-store-api
-- description: The Streams API from EVE Online — 1 operation(s) for streams.
-  name: EVE Online Streams API
-  slug: eve-online-streams-api
-- description: The Test Api 1 API from EVE Online — 1 operation(s) for test api 1.
-  name: EVE Online Test Api 1 API
-  slug: eve-online-test-api-1-api
-- description: The Test Api 2 API from EVE Online — 1 operation(s) for test api 2.
-  name: EVE Online Test Api 2 API
-  slug: eve-online-test-api-2-api
-- description: The Test API from EVE Online — 1 operation(s) for test.
-  name: EVE Online Test API
-  slug: eve-online-test-api
-- description: Test API with Schema
-  name: EVE Online Test API with Schema API
-  slug: eve-online-test-api-with-schema-api
 - description: The Universe API from EVE Online — 79 operation(s) for universe.
   name: EVE Online Universe API
   slug: eve-online-universe-api
-- description: Operations about user
-  name: EVE Online user API
-  slug: eve-online-user-api
 - description: The User Interface API from EVE Online — 10 operation(s) for user interface.
   name: EVE Online User Interface API
   slug: eve-online-user-interface-api
@@ -190,10 +145,7 @@ apis:
 - description: The Wars API from EVE Online — 6 operation(s) for wars.
   name: EVE Online Wars API
   slug: eve-online-wars-api
-- description: The Zero API from EVE Online — 1 operation(s) for zero.
-  name: EVE Online Zero API
-  slug: eve-online-zero-api
-artifact_total: 158
+artifact_total: 142
 collections:
 - collection_type: open
   name: API Collection
@@ -688,7 +640,7 @@ modified: '2026-05-30'
 name: EVE Online
 nav: Providers
 network: true
-overview: 'EVE Online publishes 46 APIs on the [APIs.io](https://apis.io/) network, including agent API, Alliance API, Assets API, and 43 more. Tagged areas include Authentication, Authorization, Gaming, Image, and MMO.
+overview: 'EVE Online publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Alliance API, Assets API, Calendar API, and 27 more. Tagged areas include Authentication, Authorization, Gaming, Image, and MMO.
 
 
   The EVE Online catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -725,18 +677,23 @@ scopes:
   summary_line: 63 scopes · implicit
 score:
   band: developing
-  composite: 40.5
+  composite: 42.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 67.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
     contract_governance: 13.6
-    contract_quality: 56.4
+    contract_quality: 60.2
     developer_ergonomics: 64.3
-    discoverability: 50.0
+    discoverability: 59.3
     governance: 13.6
     operational_transparency: 36.8
-  previous_composite: 40.5
+  previous_composite: 42.4
   provenance:
     agentic_access: derived
     contracts:
@@ -744,8 +701,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eve-online/refs/heads/main/screenshots/eve-online-2026-06-20T180855.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 41
   slug: openstack-agentic-access
   summary_line: 41 operations · 19 acting · 1 human-in-the-loop
-api_count: 22
+api_count: 2
 apis:
 - description: Neutron provides networking as a service, exposing endpoints for networks, subnets, ports, routers, floating IPs, security groups, load balancers, firewalls, and VPN-as-a-Service.
   name: OpenStack Networking (Neutron) API
@@ -245,7 +245,7 @@ modified: '2026-05-19'
 name: OpenStack
 nav: Providers
 network: true
-overview: 'OpenStack publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Domains API, Endpoints API, Flavors API, and 11 more. Tagged areas include Cloud Platform, Infrastructure-as-a-Service, Open-Source, Virtualization, and Linux Foundation.
+overview: 'OpenStack publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Domains API, Endpoints API, Flavors API, and 11 more. Tagged areas include Cloud Platform, Infrastructure as a Service, Open-Source, Virtualization, and Linux Foundation.
 
 
   The OpenStack catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -273,16 +273,21 @@ rules:
     warn: 3
   slug: openstack-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 39.6
-  delta: 0.0
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 53.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 9.8
     contract_quality: 59.8
     developer_ergonomics: 50.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 10.5
   previous_composite: 39.6
@@ -293,8 +298,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/screenshots/openstack-2026-06-20T191039.png
 security:
@@ -309,7 +314,7 @@ security:
 slug: openstack
 tags:
 - Cloud Platform
-- Infrastructure-as-a-Service
+- Infrastructure as a Service
 - Open-Source
 - Virtualization
 - Linux Foundation

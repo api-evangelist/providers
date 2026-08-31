@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -42,14 +42,11 @@ agentic_access:
   operation_count: 54
   slug: ping-identity-agentic-access
   summary_line: 54 operations · 29 acting
-api_count: 16
+api_count: 1
 apis:
 - description: Operations for managing PingOne configuration management actions.
   name: Ping Identity Configuration Management API
   slug: ping-identity-configuration-management-api
-- description: The PingOne DaVinci Admin APIs provide access to DaVinci operations through the PingOne API resource server.
-  name: Ping Identity DaVinci Admin APIs API
-  slug: ping-identity-davinci-admin-apis-api
 - description: Operations for managing DaVinci application flows policies
   name: Ping Identity DaVinci Admin Application Flow Policies API
   slug: ping-identity-davinci-admin-application-flow-policies-api
@@ -71,28 +68,16 @@ apis:
 - description: Operations for managing DaVinci variables
   name: Ping Identity DaVinci Admin Variables API
   slug: ping-identity-davinci-admin-variables-api
-- description: Operations for managing the PingOne tenant and tenant environments.
-  name: Ping Identity Environment Management API
-  slug: ping-identity-environment-management-api
 - description: Operations for managing PingOne environments
   name: Ping Identity Environments API
   slug: ping-identity-environments-api
 - description: Operations for managing flow policies in a PingOne environment.
   name: Ping Identity Flow Policies API
   slug: ping-identity-flow-policies-api
-- description: Operations that support retrieving metrics
-  name: Ping Identity Metrics API
-  slug: ping-identity-metrics-api
-- description: PingOne DaVinci is an orchestration platform that helps you design and create flows. Flows are constructed, logical paths that can contain both user-facing and backend elements.
-  name: Ping Identity PingOne DaVinci API
-  slug: ping-identity-pingone-davinci-api
-- description: Operations for managing configuration management snapshots.
-  name: Ping Identity Snapshots API
-  slug: ping-identity-snapshots-api
 - description: Operations for retrieving PingOne directory total identity reports
   name: Ping Identity Total Identities API
   slug: ping-identity-total-identities-api
-artifact_total: 42
+artifact_total: 37
 collections:
 - collection_type: open
   name: API Collection
@@ -146,6 +131,10 @@ collections:
   name: PingOne Platform Configuration Management Total Identities API
   slug: open-ping-identity-total-identities-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/pingidentity/pingone-openapi-specifications/issues
 - group: commercial
   title: ''
   type: License
@@ -226,10 +215,10 @@ modified: '2026-05-19'
 name: Ping Identity
 nav: Providers
 network: true
-overview: 'Ping Identity publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Configuration Management API, DaVinci Admin APIs API, DaVinci Admin Application Flow Policies API, and 13 more. Tagged areas include Identity, Authentication, Authorization, SSO, and MFA.
+overview: 'Ping Identity publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Configuration Management API, DaVinci Admin Application Flow Policies API, DaVinci Admin Applications API, and 8 more. Tagged areas include Identity, Authentication, Authorization, SSO, and MFA.
 
 
-  Ping Identity''s developer surface includes authentication, documentation, pricing, engineering blog, GitHub presence, and 12 more developer resources.'
+  Ping Identity''s developer surface includes authentication, documentation, pricing, engineering blog, GitHub presence, and 13 more developer resources.'
 plans:
 - name: Ping Identity Plans Pricing
   plan_count: 3
@@ -246,18 +235,26 @@ scopes:
   summary_line: 26 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 33.5
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 51.7
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 37.8
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -265,8 +262,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ping-identity/refs/heads/main/screenshots/ping-identity-2026-06-20T191712.png
 security:

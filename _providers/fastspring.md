@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 51
   slug: fastspring-agentic-access
   summary_line: 51 operations · 28 acting
-api_count: 12
+api_count: 1
 apis:
 - description: The Accounts API from FastSpring — 3 operation(s) for accounts.
   name: FastSpring Accounts API
@@ -214,18 +214,23 @@ rules:
   slug: fastspring-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 33.8
-  delta: 1.7
+  composite: 33.3
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 73.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 13.6
     contract_quality: 55.8
     developer_ergonomics: 19.0
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 13.6
     operational_transparency: 6.6
-  previous_composite: 32.1
+  previous_composite: 33.8
   provenance:
     agentic_access: derived
     contracts:
@@ -239,8 +244,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastspring/refs/heads/main/screenshots/fastspring-2026-06-20T181053.png
 security:

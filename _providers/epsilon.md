@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -15,30 +15,42 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.2
-  scored_at: '2026-08-26'
-api_count: 4
+  score: 29.7
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: The core Epsilon Retail Media (CitrusAd) REST API. Retailers use it to sync product catalogs, catalog products, customers and order data into the platform, and to request product ads, static banner ad
-  name: Epsilon Retail Media Integration API
-  slug: epsilon-retail-media-integration-api
 - description: Serves brand-page content modules for retailer-hosted brand landing pages. A retailer routes /brands/{slug} on its own domain, calls POST /ads/v3/brand-pages on its assigned regional Epsilon RMN ads h
   name: Epsilon Retail Media Brand Pages API
   slug: epsilon-retail-media-brand-pages-api
-- description: Manages filter mappings that translate a retailer's own product filter vocabulary into the filters Epsilon Retail Media applies when selecting ads. Five operations — create, list, get, update and dele
-  name: Epsilon Retail Media Filter Mapping API
-  slug: epsilon-retail-media-filter-mapping-api
-- description: Manages cross-sell category definitions used by the category cross-sell ad placement, where ads for one category are shown against products in a different, related category. Four operations — list, cr
-  name: Epsilon Retail Media Cross-Sell Category API
-  slug: epsilon-retail-media-cross-sell-category-api
-artifact_total: 11
+- description: The Ads API from Epsilon — 2 operation(s) for ads.
+  name: Epsilon Ads API
+  slug: epsilon-ads-api
+- description: The Catalog Products API from Epsilon — 2 operation(s) for catalog products.
+  name: Epsilon Catalog Products API
+  slug: epsilon-catalog-products-api
+- description: The Catalogs API from Epsilon — 1 operation(s) for catalogs.
+  name: Epsilon Catalogs API
+  slug: epsilon-catalogs-api
+- description: The crossSellCategory API from Epsilon — 2 operation(s) for crosssellcategory.
+  name: Epsilon Cross Sell Category API
+  slug: epsilon-crosssellcategory-api
+- description: The Customers API from Epsilon — 3 operation(s) for customers.
+  name: Epsilon Customers API
+  slug: epsilon-customers-api
+- description: The filterMapping API from Epsilon — 2 operation(s) for filtermapping.
+  name: Epsilon Filter Mapping API
+  slug: epsilon-filtermapping-api
+- description: The Orders API from Epsilon — 2 operation(s) for orders.
+  name: Epsilon Orders API
+  slug: epsilon-orders-api
+artifact_total: 15
 collections:
 - collection_type: open
   name: CrossSellCategory API
@@ -50,6 +62,22 @@ collections:
   name: Epsilon Retail Media Integration API
   slug: open-epsilon-retail-media-integration
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/epsilon-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/epsilon-retail-media-integration-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/epsilon-retail-media-filter-mapping-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/epsilon-retail-media-cross-sell-category-overlay.yaml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -154,10 +182,10 @@ modified: '2026-08-12'
 name: Epsilon
 nav: Providers
 network: true
-overview: 'Epsilon publishes 3 APIs on the [APIs.io](https://apis.io/) network: Retail Media Integration API, Retail Media Filter Mapping API, and Retail Media Cross-Sell Category API. Tagged areas include Company, Marketing, Advertising, Retail Media, and Advertising Technology.
+overview: 'Epsilon publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Catalog Products API, Catalogs API, and 4 more. Tagged areas include Company, Marketing, Advertising, Retail Media, and Advertising Technology.
 
 
-  Epsilon''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 17 more developer resources.'
+  Epsilon''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 21 more developer resources.'
 plans:
 - name: Epsilon Plans Pricing
   plan_count: 0
@@ -169,18 +197,23 @@ rate_limits:
   slug: epsilon-rate-limits
 score:
   band: thin
-  composite: 33.7
-  delta: -0.9
+  composite: 34.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
-    contract_quality: 48.5
+    contract_governance: 18.2
+    contract_quality: 52.7
     developer_ergonomics: 28.0
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 92.6
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 34.6
+  previous_composite: 34.4
   provenance:
     conformance: first-party
     contracts:
@@ -190,8 +223,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

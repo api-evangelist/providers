@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -42,38 +42,17 @@ agentic_access:
   operation_count: 84
   slug: reddit-agentic-access
   summary_line: 84 operations · 34 acting
-api_count: 21
+api_count: 2
 apis:
-- description: The Reddit Ads API allows advertisers and their marketing partners to programmatically create, edit, manage, and report on advertising campaigns on the Reddit platform. It provides endpoints for manag
-  name: Reddit Ads API
-  slug: ads-api
 - description: Reddit's OAuth 2.0 authorization system provides authentication for all Reddit API access. Developers register applications at reddit.com/prefs/apps to obtain client credentials. Supported grant types
   name: Reddit OAuth 2.0 Authorization
   slug: oauth
 - description: Endpoints related to the authenticated user account, including identity, preferences, karma, trophies, and friend management.
   name: Reddit Account API
   slug: reddit-account-api
-- description: Endpoints for managing Reddit Ads accounts, including retrieving account details and configuration settings.
-  name: Reddit Accounts API
-  slug: reddit-accounts-api
-- description: Endpoints for managing ad groups within campaigns, including targeting, bidding, and scheduling configuration.
-  name: Reddit Ad Groups API
-  slug: reddit-ad-groups-api
-- description: Endpoints for creating, reading, updating, and deleting advertising campaigns, including budget and schedule management.
-  name: Reddit Campaigns API
-  slug: reddit-campaigns-api
-- description: Endpoints for managing conversion pixels and sending server-side conversion events via the Conversions API (CAPI).
-  name: Reddit Conversions API
-  slug: reddit-conversions-api
-- description: Endpoints for managing custom audiences for targeting, including email lists, mobile device IDs, and website visitor audiences.
-  name: Reddit Custom Audiences API
-  slug: reddit-custom-audiences-api
 - description: Endpoints for managing user and link flair within subreddits, including flair templates, assignments, and configuration.
   name: Reddit Flair API
   slug: reddit-flair-api
-- description: Endpoints for managing account funding instruments and billing information.
-  name: Reddit Funding API
-  slug: reddit-funding-api
 - description: Endpoints for interacting with submissions (links) and comments, including voting, saving, hiding, reporting, and submitting content.
   name: Reddit Links & Comments API
   slug: reddit-links-comments-api
@@ -89,25 +68,19 @@ apis:
 - description: Endpoints implementing the oEmbed protocol for embedding Reddit content in external websites and applications.
   name: Reddit oEmbed API
   slug: reddit-oembed-api
-- description: Endpoints for retrieving campaign, ad group, and ad performance reporting data including impressions, clicks, and conversions.
-  name: Reddit Reporting API
-  slug: reddit-reporting-api
 - description: Endpoints for searching Reddit content including submissions, subreddits, and users across the platform.
   name: Reddit Search API
   slug: reddit-search-api
 - description: Endpoints for managing and retrieving information about subreddits, including subscription, creation, rules, and settings.
   name: Reddit Subreddits API
   slug: reddit-subreddits-api
-- description: Endpoints for retrieving available targeting options including interests, communities, locations, and devices.
-  name: Reddit Targeting API
-  slug: reddit-targeting-api
 - description: Endpoints for retrieving information about Reddit users, including profiles, post history, comment history, and trophies.
   name: Reddit Users API
   slug: reddit-users-api
 - description: Endpoints for managing subreddit wikis, including reading and editing wiki pages, revision history, and permissions.
   name: Reddit Wiki API
   slug: reddit-wiki-api
-artifact_total: 62
+artifact_total: 53
 collections:
 - collection_type: open
   name: API Collection
@@ -179,6 +152,10 @@ collections:
   name: Reddit Ads Account Wiki API
   slug: open-reddit-wiki-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/reddit-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -325,13 +302,13 @@ modified: '2026-05-19'
 name: Reddit
 nav: Providers
 network: true
-overview: 'Reddit publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Ads API, Account API, Accounts API, and 17 more. Tagged areas include Advertising, Communities, Content, Social-Media, and Social News.
+overview: 'Reddit publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account API, Flair API, Links & Comments API, and 8 more. Tagged areas include Advertising, Communities, Content, Social-Media, and Social News.
 
 
   The Reddit catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Reddit''s developer surface includes authentication, documentation, engineering blog, support, signup flow, and 21 more developer resources.'
+  Reddit''s developer surface includes authentication, documentation, engineering blog, support, signup flow, and 22 more developer resources.'
 plans:
 - name: Reddit Plans Pricing
   plan_count: 2
@@ -370,18 +347,23 @@ scopes:
   summary_line: 20 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.3
-  delta: 0.0
+  composite: 43.4
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 28.8
-    contract_quality: 61.3
+    contract_quality: 60.3
     developer_ergonomics: 38.1
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 23.7
-  previous_composite: 44.3
+  previous_composite: 44.0
   provenance:
     agentic_access: derived
     contracts:
@@ -389,8 +371,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reddit/refs/heads/main/screenshots/reddit-2026-08-17T081506.png
 security:

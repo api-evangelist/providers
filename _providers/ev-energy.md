@@ -24,18 +24,98 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 59.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: The official ev.energy v2 REST API. 210 operations across 180 paths covering users, vehicles, EVSEs, charging sessions, schedules, tariffs, regions, solar, solar forecasts, home batteries, boundary me
-  name: ev.energy v2 API
-  slug: ev-energy-api-v2
-artifact_total: 9
+- description: The Auth API from ev.energy — 1 operation(s) for auth.
+  name: ev.energy Auth API
+  slug: ev-energy-auth-api
+- description: The Boundary Meters API from ev.energy — 8 operation(s) for boundary meters.
+  name: ev.energy Boundary Meters API
+  slug: ev-energy-boundary-meters-api
+- description: Endpoints for interacting with carbon intensity data.
+  name: ev.energy Carbon API
+  slug: ev-energy-carbon-api
+- description: Endpoints related to records of charging. See [Understanding charging data](docs/understanding/charging_sessions.md) for how charging sessions (plug-in episodes), charging sub-sessions (per-mode segme
+  name: ev.energy Charging Sessions API
+  slug: ev-energy-charging-sessions-api
+- description: The CT Clamps API from ev.energy — 4 operation(s) for ct clamps.
+  name: ev.energy CT Clamps API
+  slug: ev-energy-ct-clamps-api
+- description: Endpoints for interacting with EVSEs.
+  name: ev.energy EVS Es API
+  slug: ev-energy-evses-api
+- description: The Grid API from ev.energy — 3 operation(s) for grid.
+  name: ev.energy Grid API
+  slug: ev-energy-grid-api
+- description: The HEM Systems API from ev.energy — 4 operation(s) for hem systems.
+  name: ev.energy HEM Systems API
+  slug: ev-energy-hem-systems-api
+- description: Endpoints for interacting with home batteries.
+  name: ev.energy Home Batteries API
+  slug: ev-energy-home-batteries-api
+- description: Endpoints for communicating notifications.
+  name: ev.energy Notifications API
+  slug: ev-energy-notifications-api
+- description: Endpoints related to incentivised charging programs.
+  name: ev.energy Programs API
+  slug: ev-energy-programs-api
+- description: Endpoints for interacting with rebates.
+  name: ev.energy Rebates API
+  slug: ev-energy-rebates-api
+- description: The Reference Data API from ev.energy — 2 operation(s) for reference data.
+  name: ev.energy Reference Data API
+  slug: ev-energy-reference-data-api
+- description: Geographic regions and region groups used for program eligibility and tariffs.
+  name: ev.energy Regions API
+  slug: ev-energy-regions-api
+- description: The root endpoint which lists all the top-level collections.
+  name: ev.energy Root API
+  slug: ev-energy-root-api
+- description: Endpoints for interacting with sites containing multiple EVSEs.
+  name: ev.energy Sites API
+  slug: ev-energy-sites-api
+- description: Endpoints for interacting with solar arrays and inverters.
+  name: ev.energy Solar API
+  slug: ev-energy-solar-api
+- description: Endpoints for interacting with solar forecasts and their logs.
+  name: ev.energy Solar Forecasts API
+  slug: ev-energy-solar-forecasts-api
+- description: Endpoints for interacting with user subscriptions.
+  name: ev.energy Subscriptions API
+  slug: ev-energy-subscriptions-api
+- description: Endpoints for interacting with customer support tickets.
+  name: ev.energy Support Tickets API
+  slug: ev-energy-support-tickets-api
+- description: Endpoints related to energy suppliers and their tariffs.
+  name: ev.energy Tariffs API
+  slug: ev-energy-tariffs-api
+- description: Endpoints for interacting with users.
+  name: ev.energy Users API
+  slug: ev-energy-users-api
+- description: Endpoints for interacting with vehicles.
+  name: ev.energy Vehicles API
+  slug: ev-energy-vehicles-api
+- description: Endpoints for virtual power plant - dispatch coordination and reporting.
+  name: ev.energy VPP API
+  slug: ev-energy-vpp-api
+- description: Endpoints for configuring and managing webhooks.
+  name: ev.energy Webhooks API
+  slug: ev-energy-webhooks-api
+artifact_total: 33
 asyncapis:
 - description: ''
   name: Ev Energy Webhooks
   slug: ev-energy-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ev-energy-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ev-energy-api-v2-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -128,13 +208,13 @@ modified: '2026-08-12'
 name: ev.energy
 nav: Providers
 network: true
-overview: 'ev.energy publishes 1 API on the [APIs.io](https://apis.io/) network: v2 API. Tagged areas include Company, Energy, Electric Vehicles, EV Charging, and Smart Charging.
+overview: 'ev.energy publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Auth API, Boundary Meters API, Carbon API, and 22 more. Tagged areas include Company, Energy, Electric Vehicles, EV Charging, and Smart Charging.
 
 
   The ev.energy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ev.energy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, and 15 more developer resources.'
+  ev.energy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, and 17 more developer resources.'
 plans:
 - name: Ev Energy Plans Pricing
   plan_count: 0
@@ -151,18 +231,23 @@ scopes:
   summary_line: 35 scopes
 score:
   band: strong
-  composite: 59.1
-  delta: 5.9
+  composite: 56.8
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 30.3
-    contract_quality: 63.9
+    contract_governance: 18.2
+    contract_quality: 65.3
     developer_ergonomics: 66.1
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 42.1
-  previous_composite: 53.2
+  previous_composite: 57.4
   provenance:
     conformance: first-party
     contracts:
@@ -178,9 +263,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 71.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ev-energy/refs/heads/main/screenshots/ev-energy-2026-08-17T080920.png
 security:
 - kind: authentication

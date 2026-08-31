@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 102
   slug: pax8-agentic-access
   summary_line: 102 operations · 49 acting
-api_count: 26
+api_count: 6
 apis:
 - description: The Access Token that allows access to the Pax8 API
   name: Pax8 Access Token API
@@ -209,6 +209,10 @@ collections:
   name: Authentication Access Token Webhooks API
   slug: open-pax8-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pax8-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -335,7 +339,7 @@ overview: 'Pax8 publishes 26 APIs on the [APIs.io](https://apis.io/) network, in
   The Pax8 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Pax8''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 20 more developer resources.'
+  Pax8''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 21 more developer resources.'
 random_paper: 7
 scopes:
 - name: Pax8 Scopes
@@ -344,18 +348,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 46.5
+  composite: 45.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 64.0
     developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 46.5
+  previous_composite: 45.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -366,8 +375,8 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pax8/refs/heads/main/screenshots/pax8-2026-08-07T191618.png
 security:

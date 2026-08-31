@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 33
   slug: epfl-agentic-access
   summary_line: 33 operations
-api_count: 9
+api_count: 3
 apis:
 - description: 'EPFL''s public news API, serving the Actu newsroom — news, projects, channels, faculties, categories, themes and publics. Django REST Framework, read-only (Allow: GET, HEAD, OPTIONS), unauthenticated b'
   name: EPFL Actu News API
@@ -54,9 +54,6 @@ apis:
 - description: Infoscience is EPFL's institutional repository and CRIS, self-hosted on EPFL infrastructure and running DSpace-CRIS. It exposes a HAL/HATEOAS REST API rooted at /server/api with 40+ link relations, an
   name: EPFL Infoscience Institutional Repository
   slug: infoscience
-- description: GETprime is a public, unauthenticated HTTP service from EPFL's Gene Expression Core Facility that returns ranked, validated qPCR primer pairs for a gene identifier, organism and Ensembl release. It is
-  name: EPFL GETprime qPCR Primer API
-  slug: getprime
 - description: EPFL Graph Search is an EPFL-built knowledge-graph search over EPFL concepts, people, units and publications. It has a live HTTP API router — every /api/* path returns a JSON {"message":"Route not fou
   name: EPFL Graph Search
   slug: graphsearch
@@ -72,6 +69,9 @@ apis:
 - description: EPFL's library discovery and resolution run on Ex Libris Primo VE with Alma behind it, delivered through SLSP (Swiss Library Service Platform). EPFL's holdings, EPFL's patrons, EPFL's branded entry po
   name: EPFL Library Discovery on swisscovery (Ex Libris, tenant)
   slug: swisscovery-library
+- description: The Primers API from EPFL — 1 operation(s) for primers.
+  name: EPFL Primers API
+  slug: epfl-primers-api
 artifact_total: 40
 collections:
 - collection_type: open
@@ -288,7 +288,7 @@ modified: '2026-08-19'
 name: EPFL
 nav: Providers
 network: true
-overview: 'EPFL publishes 3 APIs on the [APIs.io](https://apis.io/) network: Actu News API, Memento Events API, and GETprime qPCR Primer API. Tagged areas include University, Higher Education, Education, Technical University, and Research.
+overview: 'EPFL publishes 3 APIs on the [APIs.io](https://apis.io/) network: Actu News API, Memento Events API, and Primers API. Tagged areas include University, Higher Education, Education, Technical University, and Research.
 
 
   The EPFL catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -333,7 +333,12 @@ scopes:
 score:
   band: developing
   composite: 42.3
-  delta: 0.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 45.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -343,7 +348,7 @@ score:
     discoverability: 75.9
     governance: 31.8
     operational_transparency: 23.7
-  previous_composite: 41.5
+  previous_composite: 42.3
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -358,8 +363,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 75.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epfl/refs/heads/main/screenshots/epfl-2026-06-20T180750.png
 security:

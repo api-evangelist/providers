@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 5
 common:
@@ -73,10 +73,6 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 - group: design
   title: ''
   type: JSONLD
@@ -108,7 +104,7 @@ overview: 'Case Western Reserve University is profiled on the [APIs.io](https://
   The Case Western Reserve University catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Case Western Reserve University''s developer surface includes GitHub presence, authentication, engineering blog, and 9 more developer resources.'
+  Case Western Reserve University''s developer surface includes GitHub presence, authentication, and 9 more developer resources.'
 plans:
 - name: Case Western Reserve University Plans Pricing
   plan_count: 2
@@ -120,14 +116,19 @@ rate_limits:
   slug: case-western-reserve-university-rate-limits
 score:
   band: emerging
-  composite: 20.3
-  delta: 0.0
+  composite: 19.8
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 61.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 10.7
-    developer_ergonomics: 14.3
+    developer_ergonomics: 11.9
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 26.3
@@ -138,8 +139,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/case-western-reserve-university/refs/heads/main/screenshots/case-western-reserve-university-2026-06-20T174030.png
 security:

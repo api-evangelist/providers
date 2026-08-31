@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 611
   slug: epa-agentic-access
   summary_line: 611 operations · 148 acting · 1 human-in-the-loop
-api_count: 137
+api_count: 22
 apis:
 - description: Master inventory of EPA-regulated facilities cross-walked across air, water, waste, and drinking-water programs. Production query and submit endpoints require a NAAS account.
   name: EPA Facility Registry Service (FRS) API
@@ -1294,6 +1294,10 @@ collections:
   name: US EPA How's My Waterway
   slug: open-mywaterway
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/epa-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -6998,13 +7002,13 @@ modified: '2026-05-29'
 name: EPA — U.S. Environmental Protection Agency
 nav: Providers
 network: true
-overview: 'EPA — U.S. Environmental Protection Agency publishes 128 APIs on the [APIs.io](https://apis.io/) network, including Account Type Codes API, Accounts API, Air Emission Testing API, and 125 more. Tagged areas include Government, Environmental, Open Data, Air Quality, and Water Quality.
+overview: 'EPA — U.S. Environmental Protection Agency publishes 128 APIs on the [APIs.io](https://apis.io/) network, including Account Type Codes API, Accounts API, Air Emission Testing API, and 125 more. Tagged areas include Government, Environmental, Open Data, AirQuality, and WaterQuality.
 
 
   The EPA — U.S. Environmental Protection Agency catalog on APIs.io includes 23 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  EPA — U.S. Environmental Protection Agency''s developer surface includes authentication, API reference, getting-started guide, documentation, engineering blog, YouTube channel, support, and 21 more developer resources.'
+  EPA — U.S. Environmental Protection Agency''s developer surface includes authentication, API reference, getting-started guide, documentation, engineering blog, YouTube channel, support, and 22 more developer resources.'
 random_paper: 16
 rate_limits:
 - limit_count: 11
@@ -7034,18 +7038,23 @@ rules:
   slug: epa-rules
 score:
   band: strong
-  composite: 57.7
-  delta: 4.0
+  composite: 60.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 35.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 28.8
-    contract_quality: 65.7
+    contract_quality: 70.6
     developer_ergonomics: 78.6
-    discoverability: 57.4
+    discoverability: 75.9
     governance: 28.8
     operational_transparency: 42.1
-  previous_composite: 53.7
+  previous_composite: 60.8
   provenance:
     agentic_access: derived
     contracts:
@@ -7059,8 +7068,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 55.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/screenshots/epa-2026-06-20T180747.png
 security:
@@ -7086,9 +7095,9 @@ tags:
 - Government
 - Environmental
 - Open Data
-- Air Quality
-- Water Quality
-- Hazardous Waste
+- AirQuality
+- WaterQuality
+- HazardousWaste
 - Compliance
 - Emissions
 use_cases:

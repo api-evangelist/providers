@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 15
   slug: techcrunch-agentic-access
   summary_line: 15 operations
-api_count: 9
+api_count: 1
 apis:
 - description: TechCrunch provides RSS feeds covering its full range of technology news, startup coverage, and venture capital reporting. The main feed delivers all published articles, and category-specific feeds ar
   name: TechCrunch RSS Feed
@@ -103,6 +103,10 @@ collections:
   name: TechCrunch WordPress REST API
   slug: open-techcrunch-wordpress-rest-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/aol/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -243,18 +247,23 @@ rules:
   slug: techcrunch-wordpress-rules
 score:
   band: developing
-  composite: 41.0
-  delta: 1.9
+  composite: 40.5
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 36.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 28.8
     contract_quality: 61.9
     developer_ergonomics: 9.5
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 10.5
-  previous_composite: 39.1
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     contracts:
@@ -262,8 +271,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/techcrunch/refs/heads/main/screenshots/techcrunch-2026-06-20T195006.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 13
   slug: office-of-the-federal-register-agentic-access
   summary_line: 13 operations
-api_count: 8
+api_count: 1
 apis:
 - description: The Agencies API from Office of the Federal Register — 2 operation(s) for agencies.
   name: Office of the Federal Register Agencies API
@@ -100,6 +100,10 @@ collections:
   name: Office of the Federal Register API
   slug: open-office-of-the-federal-register
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/office-of-the-federal-register-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -148,15 +152,20 @@ rate_limits:
   slug: office-of-the-federal-register-rate-limits
 score:
   band: emerging
-  composite: 19.2
-  delta: 0.0
+  composite: 18.6
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 65.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 46.3
     developer_ergonomics: 0.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 19.2
@@ -173,8 +182,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/office-of-the-federal-register/refs/heads/main/screenshots/office-of-the-federal-register-2026-06-20T190639.png
 security:

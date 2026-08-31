@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-08-26'
-api_count: 2
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The Model Upload API from Pathmind — 1 operation(s) for model upload.
   name: Pathmind Model Upload API
@@ -44,6 +44,14 @@ collections:
   name: Pathmind Projects API
   slug: open-skymind-projects-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/PathmindAI/pathmind-webapp/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/PathmindAI/pathmind-webapp/releases
 - group: agent
   title: ''
   type: AgentSkill
@@ -124,22 +132,30 @@ network: true
 overview: 'Pathmind publishes 2 APIs on the [APIs.io](https://apis.io/) network: Model Upload API and Projects API. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Reinforcement Learning, and Simulation.
 
 
-  Pathmind''s developer surface includes documentation, API reference, changelog, and 14 more developer resources.'
+  Pathmind''s developer surface includes documentation, API reference, changelog, and 16 more developer resources.'
 random_paper: 11
 score:
   band: thin
-  composite: 32.4
-  delta: 2.3
+  composite: 30.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 50.3
     developer_ergonomics: 37.5
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 30.1
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 30.0
   provenance:
     conformance: derived
     contracts:
@@ -148,8 +164,8 @@ score:
       marker_coverage: 0.0
       total: 2
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

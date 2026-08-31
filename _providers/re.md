@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-08-26'
-api_count: 5
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: Health, APY, NAV, and price series
   name: Re General API
@@ -187,18 +187,23 @@ overview: 'Re publishes 5 APIs on the [APIs.io](https://apis.io/) network, inclu
 random_paper: 5
 score:
   band: developing
-  composite: 41.4
-  delta: 0.9
+  composite: 40.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 51.7
     developer_ergonomics: 56.5
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 40.5
+  previous_composite: 41.4
   provenance:
     conformance: derived
     contracts:
@@ -214,8 +219,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -235,7 +240,7 @@ tags:
 - DeFi
 - Blockchain
 - Real World Assets
-- Stablecoins
+- Stablecoin
 - Yield
 - Onchain
 website: https://re.xyz/

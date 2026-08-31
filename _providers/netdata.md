@@ -12,7 +12,7 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,15 +27,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-08-26'
+  score: 26.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,69 +43,15 @@ agentic_access:
   operation_count: 79
   slug: netdata-agentic-access
   summary_line: 79 operations · 12 acting
-api_count: 20
+api_count: 1
 apis:
-- description: The Netdata Agent REST API provides access to metrics, alerts, and configuration on individual monitoring nodes. It supports v1, v2, and v3 endpoints for querying time-series data, health status, cont
-  name: Netdata Agent API
-  slug: agent-api
 - description: Everything related to alerts
   name: Netdata alerts API
   slug: netdata-alerts-api
-- description: The authentication API from Netdata — 5 operation(s) for authentication.
-  name: Netdata authentication API
-  slug: netdata-authentication-api
-- description: Everything related to dynamic badges based on metric data
-  name: Netdata badges API
-  slug: netdata-badges-api
 - description: Everything related to chart instances - DO NOT USE IN NEW CODE - use contexts instead
   name: Netdata charts API
   slug: netdata-charts-api
-- description: The claiming API from Netdata — 2 operation(s) for claiming.
-  name: Netdata claiming API
-  slug: netdata-claiming-api
-- description: The config API from Netdata — 1 operation(s) for config.
-  name: Netdata config API
-  slug: netdata-config-api
-- description: Everything related contexts - in new code, use this instead of charts
-  name: Netdata contexts API
-  slug: netdata-contexts-api
-- description: Everything related to data queries
-  name: Netdata data API
-  slug: netdata-data-api
-- description: The dyncfg API from Netdata — 1 operation(s) for dyncfg.
-  name: Netdata dyncfg API
-  slug: netdata-dyncfg-api
-- description: Everything related to functions
-  name: Netdata functions API
-  slug: netdata-functions-api
-- description: Everything related to managing netdata Agents
-  name: Netdata management API
-  slug: netdata-management-api
-- description: Everything related to monitored nodes
-  name: Netdata nodes API
-  slug: netdata-nodes-api
-- description: The registry API from Netdata — 1 operation(s) for registry.
-  name: Netdata registry API
-  slug: netdata-registry-api
-- description: The settings API from Netdata — 1 operation(s) for settings.
-  name: Netdata settings API
-  slug: netdata-settings-api
-- description: The streaming API from Netdata — 1 operation(s) for streaming.
-  name: Netdata streaming API
-  slug: netdata-streaming-api
-- description: The variables API from Netdata — 1 operation(s) for variables.
-  name: Netdata variables API
-  slug: netdata-variables-api
-- description: The versions API from Netdata — 1 operation(s) for versions.
-  name: Netdata versions API
-  slug: netdata-versions-api
-- description: The webrtc API from Netdata — 2 operation(s) for webrtc.
-  name: Netdata webrtc API
-  slug: netdata-webrtc-api
-- description: Everything related to scoring / weighting metrics
-  name: Netdata weights API
-  slug: netdata-weights-api
-artifact_total: 77
+artifact_total: 59
 collections:
 - collection_type: postman
   name: Netdata agent API
@@ -295,10 +241,6 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/netdata-context.jsonld
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 - group: commercial
   title: ''
   type: Plans
@@ -351,13 +293,13 @@ modified: '2026-06-12'
 name: Netdata
 nav: Providers
 network: true
-overview: 'Netdata publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Agent API, alerts API, authentication API, and 17 more. Tagged areas include Monitoring, Observability, Infrastructure, Metrics, and Alerts.
+overview: 'Netdata publishes 2 APIs on the [APIs.io](https://apis.io/) network: alerts API and charts API. Tagged areas include Monitoring, Observability, Infrastructure, Metrics, and Alerts.
 
 
   The Netdata catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Netdata''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 15 more developer resources.'
+  Netdata''s developer surface includes authentication, documentation, engineering blog, changelog, pricing, and 14 more developer resources.'
 plans:
 - name: Netdata Plans Pricing
   plan_count: 3
@@ -380,18 +322,23 @@ rules:
   slug: netdata-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.9
-  delta: 0.7
+  composite: 47.9
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 40.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 25.0
-    contract_quality: 72.0
+    contract_quality: 66.0
     developer_ergonomics: 28.6
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 25.0
     operational_transparency: 39.5
-  previous_composite: 49.2
+  previous_composite: 47.9
   provenance:
     agentic_access: derived
     contracts:
@@ -399,8 +346,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 20
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netdata/refs/heads/main/screenshots/netdata-2026-06-20T190147.png
 security:

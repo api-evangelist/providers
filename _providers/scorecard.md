@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 35
   slug: scorecard-agentic-access
   summary_line: 35 operations · 20 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The Metrics API from Scorecard — 1 operation(s) for metrics.
   name: Scorecard Metrics API
@@ -226,18 +226,23 @@ overview: 'Scorecard publishes 7 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 5
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 49.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 57.1
     developer_ergonomics: 61.3
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 18.4
-  previous_composite: 51.2
+  previous_composite: 49.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -248,8 +253,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scorecard/refs/heads/main/screenshots/scorecard-2026-08-17T081735.png
 security:

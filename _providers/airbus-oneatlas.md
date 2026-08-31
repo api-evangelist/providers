@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 36
   slug: airbus-oneatlas-agentic-access
   summary_line: 36 operations · 23 acting
-api_count: 49
+api_count: 7
 apis:
 - description: OneAtlas Data Living Library is a platform that provides users with access to a diverse range of geospatial data and satellite imagery. The library is constantly updated with the latest data, ensuring
   name: OneAtlas Data Living Library
@@ -350,6 +350,10 @@ collections:
   name: OneAtlas WorldDEM API
   slug: open-oneatlas-worlddem-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/airbus-oneatlas-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2129,7 +2133,7 @@ overview: 'Airbus OneAtlas publishes 49 APIs on the [APIs.io](https://apis.io/) 
   The Airbus OneAtlas catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Airbus OneAtlas'' developer surface includes authentication, getting-started guide, changelog, developer portal, GitHub presence, code examples, and 250 more developer resources.'
+  Airbus OneAtlas'' developer surface includes authentication, getting-started guide, changelog, developer portal, GitHub presence, code examples, and 251 more developer resources.'
 plans:
 - name: Airbus Oneatlas Plans Pricing
   plan_count: 4
@@ -2172,19 +2176,24 @@ rules:
     warn: 8
   slug: oneatlas-spectral-rules
 score:
-  band: developing
-  composite: 40.2
-  delta: 1.0
+  band: thin
+  composite: 39.1
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 61.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
-    contract_quality: 60.6
+    contract_quality: 56.4
     developer_ergonomics: 38.1
     discoverability: 50.0
     governance: 28.8
     operational_transparency: 44.7
-  previous_composite: 39.2
+  previous_composite: 39.1
   provenance:
     agentic_access: derived
     contracts:
@@ -2192,8 +2201,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 44
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbus-oneatlas/refs/heads/main/screenshots/airbus-oneatlas-2026-06-20T171419.png
 security:

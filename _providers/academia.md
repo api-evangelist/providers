@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 2
 common:
@@ -97,14 +97,19 @@ modified: '2026-08-06'
 name: Academia
 nav: Providers
 network: true
-overview: 'Academia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Academic Research, research-papers, Scholarly Publishing, and Higher Education.
+overview: 'Academia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, academic-research, research-papers, scholarly-publishing, and higher-education.
 
 
   Academia''s developer surface includes support and 10 more developer resources.'
 random_paper: 7
 score:
   band: emerging
-  composite: 14.4
+  composite: 14.0
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -112,18 +117,18 @@ score:
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 4.8
-    discoverability: 61.1
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 14.4
+  previous_composite: 14.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 37.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/academia/refs/heads/main/screenshots/academia-2026-08-07T160744.png
 security:
@@ -138,11 +143,11 @@ security:
 slug: academia
 tags:
 - Company
-- Academic Research
+- academic-research
 - research-papers
-- Scholarly Publishing
-- Higher Education
-- Open Access
+- scholarly-publishing
+- higher-education
+- open-access
 - academic-social-network
 - Preprints
 - research-discovery

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 29
   slug: suki-ai-agentic-access
   summary_line: 29 operations · 13 acting
-api_count: 10
+api_count: 3
 apis:
 - description: The Suki Platform REST API and SDKs let healthcare technology partners embed Suki's ambient clinical documentation, dictation, voice command, and form-filling capabilities into EHRs, telehealth platfo
   name: Suki Platform REST API
@@ -74,7 +74,19 @@ apis:
 - description: The User Preferences API from Suki AI — 1 operation(s) for user preferences.
   name: Suki AI User Preferences API
   slug: suki-ai-user-preferences-api
-artifact_total: 61
+- description: Generated Note And Transcript Retrieval
+  name: Suki AI Content API
+  slug: suki-ai-content-api
+- description: Provider Personalization
+  name: Suki AI Preferences API
+  slug: suki-ai-preferences-api
+- description: Ambient Session Lifecycle
+  name: Suki AI Sessions API
+  slug: suki-ai-sessions-api
+- description: Suki Hosted Form Templates
+  name: Suki AI Templates API
+  slug: suki-ai-templates-api
+artifact_total: 65
 asyncapis:
 - description: AsyncAPI description for the three WebSocket audio-streaming channels exposed by the Suki Speech Service (Suki for Partners). Each REST session-create call (Ambient, Dictation, Form Filling) returns a
   name: Suki Speech Service Streaming API
@@ -141,6 +153,10 @@ collections:
   name: Suki Platform API
   slug: open-suki-ai
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/suki-ai-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -364,13 +380,13 @@ modified: '2026-08-08'
 name: Suki AI
 nav: Providers
 network: true
-overview: 'Suki AI publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Ambient Content API, Ambient Sessions API, Authentication API, and 6 more. Tagged areas include Healthcare, Ambient AI, Clinical Documentation, Voice AI, and Speech Recognition.
+overview: 'Suki AI publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Ambient Content API, Ambient Sessions API, Authentication API, and 10 more. Tagged areas include Healthcare, Ambient AI, Clinical Documentation, Voice AI, and Speech Recognition.
 
 
   The Suki AI catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Suki AI''s developer surface includes authentication, documentation, engineering blog, product news, API reference, release notes, and 32 more developer resources.'
+  Suki AI''s developer surface includes authentication, documentation, engineering blog, product news, API reference, release notes, and 33 more developer resources.'
 plans:
 - name: Suki Ai Plans Pricing
   plan_count: 1
@@ -405,17 +421,22 @@ rules:
 score:
   band: strong
   composite: 58.7
-  delta: 2.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 28.8
-    contract_quality: 66.0
+    contract_quality: 66.1
     developer_ergonomics: 57.1
     discoverability: 81.5
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 56.3
+  previous_composite: 58.7
   provenance:
     agentic_access: derived
     contracts:
@@ -429,8 +450,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/screenshots/suki-ai-2026-06-20T194641.png
 security:

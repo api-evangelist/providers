@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -43,14 +43,8 @@ agentic_access:
   operation_count: 22
   slug: vibes-platform-agentic-access
   summary_line: 22 operations · 12 acting
-api_count: 12
+api_count: 5
 apis:
-- description: The complete Vibes Platform REST API as Vibes publishes it — 48 paths and 75 operations across the Acquisition Campaign, Broadcast, Callback, Event, Event-Triggered Campaign, Incentive Code, Incentive
-  name: Vibes Platform API
-  slug: vibes-platform-api
-- description: Vibes RCS for Business (RBM) API — check a device's RCS capabilities, send RCS agent messages and events, revoke an undelivered message, and manage agent tester devices. Authenticated with OAuth 2.0 c
-  name: Vibes RCS Business Messaging API
-  slug: vibes-rcs-business-messaging-api
 - description: Manage acquisition campaigns for adding new subscribers.
   name: Vibes Platform Acquisition Campaigns API
   slug: vibes-platform-acquisition-campaigns-api
@@ -81,7 +75,67 @@ apis:
 - description: Manage mobile wallet passes (Apple Wallet, Google Pay).
   name: Vibes Platform Wallet Passes API
   slug: vibes-platform-wallet-passes-api
-artifact_total: 47
+- description: The Acquisition Campaign API API from Vibes Platform — 3 operation(s) for acquisition campaign api.
+  name: Vibes Platform Acquisition Campaign API
+  slug: vibes-platform-acquisition-campaign-api-api
+- description: Define the design and content of the Google Wallet (Android) pass for a wallet campaign. Each campaign has a single Google Wallet template whose fields map to Google Wallet pass concepts. See the Goog
+  name: Vibes Platform Android Wallet Templates API
+  slug: vibes-platform-android-wallet-templates-api-api
+- description: The Authentication API from Vibes Platform — 1 operation(s) for authentication.
+  name: Vibes Platform Authentication API
+  slug: vibes-platform-authentication-api
+- description: The Broadcast API API from Vibes Platform — 3 operation(s) for broadcast api.
+  name: Vibes Platform Broadcast API
+  slug: vibes-platform-broadcast-api-api
+- description: The Callback API API from Vibes Platform — 3 operation(s) for callback api.
+  name: Vibes Platform Callback API
+  slug: vibes-platform-callback-api-api
+- description: The Event API API from Vibes Platform — 1 operation(s) for event api.
+  name: Vibes Platform Event API
+  slug: vibes-platform-event-api-api
+- description: The Event-Triggered Campaign API API from Vibes Platform — 2 operation(s) for event-triggered campaign api.
+  name: Vibes Platform Event-Triggered Campaign API
+  slug: vibes-platform-event-triggered-campaign-api-api
+- description: The Incentive Code API API from Vibes Platform — 4 operation(s) for incentive code api.
+  name: Vibes Platform Incentive Code API
+  slug: vibes-platform-incentive-code-api-api
+- description: The Incentive Pool API API from Vibes Platform — 2 operation(s) for incentive pool api.
+  name: Vibes Platform Incentive Pool API
+  slug: vibes-platform-incentive-pool-api-api
+- description: Define the design and content of the Apple Wallet (iOS) pass for a wallet campaign. Each campaign has a single Apple Wallet (passbook) template whose fields map to PassKit pass concepts. See the Apple
+  name: Vibes Platform iOS Wallet Templates API
+  slug: vibes-platform-ios-wallet-templates-api-api
+- description: The Person API API from Vibes Platform — 4 operation(s) for person api.
+  name: Vibes Platform Person API
+  slug: vibes-platform-person-api-api
+- description: The Push Device Manager API API from Vibes Platform — 4 operation(s) for push device manager api.
+  name: Vibes Platform Push Device Manager API
+  slug: vibes-platform-push-device-manager-api-api
+- description: The RCS Business Messaging API from Vibes Platform — 6 operation(s) for rcs business messaging.
+  name: Vibes Platform RCS Business Messaging API
+  slug: vibes-platform-rcs-business-messaging-api
+- description: The Source Code API API from Vibes Platform — 1 operation(s) for source code api.
+  name: Vibes Platform Source Code API
+  slug: vibes-platform-source-code-api-api
+- description: The Subscription API API from Vibes Platform — 4 operation(s) for subscription api.
+  name: Vibes Platform Subscription API
+  slug: vibes-platform-subscription-api-api
+- description: The Subscription List API API from Vibes Platform — 4 operation(s) for subscription list api.
+  name: Vibes Platform Subscription List API
+  slug: vibes-platform-subscription-list-api-api
+- description: 'Manage mobile wallet campaigns and the individual wallet items (passes) issued from them. A wallet campaign is the container for a single offer, loyalty card, or event ticket program; it owns the iOS '
+  name: Vibes Platform Wallet Campaign API
+  slug: vibes-platform-wallet-campaign-api-api
+- description: Configure the branded "Add to Wallet" landing page shown to end users for a wallet campaign, including its image, heading, colors, and language.
+  name: Vibes Platform Wallet Location Selector API
+  slug: vibes-platform-wallet-location-selector-api-api
+- description: Send push-style messages to the holders of a wallet campaign's passes and review messages that have already been sent. Messages can be targeted to specific recipients with filters (for example, by tok
+  name: Vibes Platform Wallet Messaging API
+  slug: vibes-platform-wallet-messaging-api-api
+- description: Manage the store locations attached to a wallet campaign. Locations drive geofenced lock-screen notifications that remind pass holders about a nearby store.
+  name: Vibes Platform Wallet Store Locations API
+  slug: vibes-platform-wallet-store-locations-api-api
+artifact_total: 65
 asyncapis:
 - description: ''
   name: Vibes Platform Webhooks
@@ -127,6 +181,18 @@ collections:
   name: Vibes Platform API
   slug: open-vibes-platform
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/vibes-platform-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vibes-platform-platform-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vibes-platform-rcs-business-messaging-overlay.yaml
 - group: auth
   title: ''
   type: OAuthScopes
@@ -318,13 +384,13 @@ modified: '2026-08-13'
 name: Vibes Platform
 nav: Providers
 network: true
-overview: 'Vibes Platform publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Vibes RCS Business Messaging API, Acquisition Campaigns API, and 10 more. Tagged areas include Mobile Marketing, Mobile Messaging, Push Notifications, SMS, and MMS.
+overview: 'Vibes Platform publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Acquisition Campaigns API, Broadcasts API, Callbacks API, and 27 more. Tagged areas include Mobile Marketing, Mobile Messaging, Push Notifications, SMS, and MMS.
 
 
   The Vibes Platform catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Vibes Platform''s developer surface includes changelog, authentication, developer portal, documentation, API reference, getting-started guide, support, and 28 more developer resources.'
+  Vibes Platform''s developer surface includes changelog, authentication, developer portal, documentation, API reference, getting-started guide, support, and 31 more developer resources.'
 plans:
 - name: Vibes Platform Plans Pricing
   plan_count: 4
@@ -363,18 +429,23 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: exemplar
-  composite: 72.6
+  composite: 68.7
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 43.9
-    contract_quality: 69.0
+    contract_governance: 31.8
+    contract_quality: 68.5
     developer_ergonomics: 61.3
-    discoverability: 81.5
-    governance: 43.9
+    discoverability: 57.4
+    governance: 31.8
     operational_transparency: 76.3
-  previous_composite: 72.6
+  previous_composite: 68.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -391,8 +462,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 59.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vibes-platform/refs/heads/main/screenshots/vibes-platform-2026-06-20T201014.png
 security:

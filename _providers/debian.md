@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,27 +41,18 @@ agentic_access:
   operation_count: 17
   slug: debian-agentic-access
   summary_line: 17 operations
-api_count: 6
+api_count: 2
 apis:
-- description: The Debian Sources API at sources.debian.org provides programmatic access to source code, package metadata, copyright records, and Debian patches for every source package in the archive.
-  name: Debian Sources API
-  slug: debian-sources-api
 - description: The Bugs API from Debian — 4 operation(s) for bugs.
   name: Debian Bugs API
   slug: debian-bugs-api
-- description: The Copyright API from Debian — 2 operation(s) for copyright.
-  name: Debian Copyright API
-  slug: debian-copyright-api
 - description: The Maintainers API from Debian — 1 operation(s) for maintainers.
   name: Debian Maintainers API
   slug: debian-maintainers-api
-- description: The Patches API from Debian — 1 operation(s) for patches.
-  name: Debian Patches API
-  slug: debian-patches-api
 - description: The Reproducibility API from Debian — 1 operation(s) for reproducibility.
   name: Debian Reproducibility API
   slug: debian-reproducibility-api
-artifact_total: 26
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -175,7 +166,7 @@ modified: '2026-05-19'
 name: Debian
 nav: Providers
 network: true
-overview: 'Debian publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Sources API, Bugs API, Copyright API, and 3 more. Tagged areas include Bug Tracker, Debian, Linux, Open-Source, and Operating System.
+overview: 'Debian publishes 3 APIs on the [APIs.io](https://apis.io/) network: Bugs API, Maintainers API, and Reproducibility API. Tagged areas include Bug Tracker, Debian, Linux, Open-Source, and Operating System.
 
 
   The Debian catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -215,15 +206,20 @@ rules:
   slug: debian-sources-api-rules
 score:
   band: thin
-  composite: 33.4
-  delta: 0.0
+  composite: 32.9
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 36.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
     contract_governance: 28.8
     contract_quality: 52.4
     developer_ergonomics: 11.9
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 10.5
   previous_composite: 33.4
@@ -234,8 +230,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/screenshots/debian-2026-06-20T175746.png
 security:

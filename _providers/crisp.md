@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: crisp-agentic-access
   summary_line: 14 operations · 8 acting
-api_count: 3
+api_count: 1
 apis:
 - description: Crisp realtime surface combining HTTP Web Hooks (signed plugin hooks and unsigned website hooks) and the Socket.IO RTM API. Both deliver the same conversational, people, campaign, browsing, call, iden
   name: Crisp Realtime (Webhooks + RTM) v1
@@ -72,6 +72,10 @@ collections:
   name: Crisp REST API v1
   slug: open-crisp
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/crisp-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -128,13 +132,13 @@ modified: '2026-05-30'
 name: Crisp
 nav: Providers
 network: true
-overview: 'Crisp publishes 3 APIs on the [APIs.io](https://apis.io/) network: Realtime (Webhooks + RTM) v1, Conversations API, and Website API. Tagged areas include Customer Service, Live Chat, Help Desk, Messaging, and Chatbots.
+overview: 'Crisp publishes 3 APIs on the [APIs.io](https://apis.io/) network: Realtime (Webhooks + RTM) v1, Conversations API, and Website API. Tagged areas include Customer Service, Live Chat, Helpdesk, Messaging, and Chatbots.
 
 
   The Crisp catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Crisp''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Crisp''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Crisp Plans Pricing
   plan_count: 1
@@ -158,18 +162,23 @@ rules:
   slug: crisp-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 32.1
-  delta: 1.1
+  composite: 31.5
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 72.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 11.4
     contract_quality: 59.0
     developer_ergonomics: 23.8
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 11.4
     operational_transparency: 15.8
-  previous_composite: 31.0
+  previous_composite: 32.1
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +186,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/screenshots/crisp-2026-06-20T175235.png
 security:
@@ -194,7 +203,7 @@ slug: crisp
 tags:
 - Customer Service
 - Live Chat
-- Help Desk
+- Helpdesk
 - Messaging
 - Chatbots
 website: https://crisp.chat/

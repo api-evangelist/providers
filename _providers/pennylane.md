@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 46
   slug: pennylane-agentic-access
   summary_line: 46 operations · 27 acting
-api_count: 19
+api_count: 1
 apis:
 - description: The Account API from Pennylane — 1 operation(s) for account.
   name: Pennylane Account API
@@ -222,6 +222,10 @@ collections:
   name: Pennylane Company Account Transactions API
   slug: open-pennylane-transactions-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/pennylane-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -397,7 +401,7 @@ network: true
 overview: 'Pennylane publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Account API, Accounting Exports API, Bank Accounts API, and 16 more. Tagged areas include Accounting, Invoicing, Fintech, Financial Data, and Banking.
 
 
-  Pennylane''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, signup flow, and 32 more developer resources.'
+  Pennylane''s developer surface includes authentication, changelog, sandbox, documentation, getting-started guide, support, signup flow, and 33 more developer resources.'
 plans:
 - name: Pennylane Plans Pricing
   plan_count: 3
@@ -413,19 +417,24 @@ scopes:
   slug: pennylane-scopes
   summary_line: 23 scopes
 score:
-  band: exemplar
-  composite: 67.2
-  delta: 0.7
+  band: strong
+  composite: 64.1
+  coverage:
+    artifact_dirs: 26
+    catalog_gap: 58.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 50.4
     developer_ergonomics: 56.5
-    discoverability: 87.0
-    governance: 30.3
+    discoverability: 70.4
+    governance: 18.2
     operational_transparency: 69.7
-  previous_composite: 66.5
+  previous_composite: 64.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -438,12 +447,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 64.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/screenshots/pennylane-2026-08-17T081155.png
 security:

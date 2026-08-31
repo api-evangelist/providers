@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ agentic_access:
   operation_count: 6
   slug: lime-agentic-access
   summary_line: 6 operations
-api_count: 6
+api_count: 1
 apis:
 - description: The Free Bike Status API from Lime — 1 operation(s) for free bike status.
   name: Lime Free Bike Status API
@@ -87,6 +87,10 @@ collections:
   name: Lime GBFS Public Feed Free Bike Status Vehicle Types API
   slug: open-lime-vehicle-types-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/lime-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -175,22 +179,27 @@ network: true
 overview: 'Lime publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Free Bike Status API, Gbfs.json API, Station Information API, and 3 more. Tagged areas include Shared Mobility, Micromobility, Electric Scooters, Electric Bikes, and E-Bikes.
 
 
-  Lime''s developer surface includes support and 18 more developer resources.'
+  Lime''s developer surface includes support and 19 more developer resources.'
 random_paper: 3
 score:
   band: thin
-  composite: 33.5
-  delta: 1.9
+  composite: 33.0
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 68.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
     contract_governance: 0.0
     contract_quality: 49.7
     developer_ergonomics: 14.3
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 31.6
+  previous_composite: 33.5
   provenance:
     agentic_access: derived
     contracts:
@@ -198,8 +207,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lime/refs/heads/main/screenshots/lime-2026-06-20T184529.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 3
   slug: dagster-agentic-access
   summary_line: 3 operations · 3 acting
-api_count: 4
+api_count: 1
 apis:
 - description: The Dagster GraphQL API allows clients to interact with Dagster programmatically. It can be used to query information about Dagster runs, retrieve metadata about repositories, jobs, and ops, and launc
   name: Dagster GraphQL API
@@ -298,17 +298,25 @@ rules:
   slug: dagster-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.1
-  delta: 0.0
+  composite: 61.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 36.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.2
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 69.7
     contract_quality: 63.3
     developer_ergonomics: 69.0
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 69.7
     operational_transparency: 36.8
+  open_source:
+    applies: true
+    score: 65.0
   previous_composite: 62.1
   provenance:
     agentic_access: derived
@@ -317,8 +325,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dagster/refs/heads/main/screenshots/dagster-2026-06-20T175440.png
 security:

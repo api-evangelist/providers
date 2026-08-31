@@ -2,7 +2,7 @@
 agent_readiness:
   band: agent-ready
   dimensions:
-    agent_card: flavored
+    agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.9
-  scored_at: '2026-08-26'
+  score: 35.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 4
@@ -33,11 +33,36 @@ agentic_access:
   summary_line: 40 operations · 26 acting · 4 human-in-the-loop
 api_count: 1
 apis:
-- description: The Kardinal Always-on Route Optimization (ARO) v2 REST API. Create and update optimization plans, manage the resources (vehicles) and orders (stops) inside them, drive the optimization lifecycle, and
-  name: Kardinal ARO API
-  slug: aro
-artifact_total: 7
+- description: How to authenticate, and manage the access and refresh tokens.
+  name: Kardinal Authenticate API
+  slug: kardinal-authenticate-api
+- description: The Core API from Kardinal — 4 operation(s) for core.
+  name: Kardinal Core API
+  slug: kardinal-core-api
+- description: The Management API from Kardinal — 5 operation(s) for management.
+  name: Kardinal Management API
+  slug: kardinal-management-api
+- description: How to create, retrieve, update and delete orders in a plan.
+  name: Kardinal Order API
+  slug: kardinal-order-api
+- description: How to create, retrieve, update and delete plans.
+  name: Kardinal Plan API
+  slug: kardinal-plan-api
+- description: How to create, retrieve, update and delete resources in a plan.
+  name: Kardinal Resource API
+  slug: kardinal-resource-api
+- description: How to create a plan through the use of a simple plan.
+  name: Kardinal Simple Plan API
+  slug: kardinal-simpleplan-api
+- description: The Solution API from Kardinal — 2 operation(s) for solution.
+  name: Kardinal Solution API
+  slug: kardinal-solution-api
+artifact_total: 14
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/kardinal-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -174,10 +199,10 @@ modified: '2026-08-17'
 name: Kardinal
 nav: Providers
 network: true
-overview: 'Kardinal publishes 1 API on the [APIs.io](https://apis.io/) network: ARO API. Tagged areas include Company, Software-as-a-Service, Route Optimization, Vehicle Routing, and Last Mile Delivery.
+overview: 'Kardinal publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Authenticate API, Core API, Management API, and 5 more. Tagged areas include Company, Software-as-a-Service, Route Optimization, Vehicle Routing, and Last Mile Delivery.
 
 
-  Kardinal''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, FAQ, and 24 more developer resources.'
+  Kardinal''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, FAQ, and 25 more developer resources.'
 plans:
 - name: Kardinal Plans Pricing
   plan_count: 2
@@ -189,18 +214,23 @@ rate_limits:
   slug: kardinal-rate-limits
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 45.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 50.4
     developer_ergonomics: 71.4
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 47.3
+  previous_composite: 46.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -211,8 +241,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

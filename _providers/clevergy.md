@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-08-26'
+  score: 30.8
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -31,23 +31,93 @@ agentic_access:
   operation_count: 83
   slug: clevergy-agentic-access
   summary_line: 83 operations · 43 acting
-api_count: 3
+api_count: 1
 apis:
-- description: 'REST API that lets Clevergy customers build integrations with the Clevergy platform: manage end users and their houses, create and maintain electricity and gas contracts with their energy price tables'
-  name: Clevergy Connect API
-  slug: clevergy-connect-api
 - description: Outbound HTTP callbacks that notify an integrator in real time when a Clevergy lifecycle entity changes. Three event surfaces are documented — User, SalesOpportunity and Ticket — with CREATE, UPDATE a
   name: Clevergy Webhooks
   slug: clevergy-webhooks
 - description: 'Roughly thirty embeddable UI components — custom elements (web components) rendering a React tree in an isolated container — that bring Clevergy''s end-user energy experiences into an integrator''s own '
   name: Clevergy Microfrontends
   slug: clevergy-microfrontends
-artifact_total: 9
+- description: The Access control API from Clevergy — 1 operation(s) for access control.
+  name: Clevergy Access control API
+  slug: clevergy-access-control-api
+- description: The Connections API from Clevergy — 1 operation(s) for connections.
+  name: Clevergy Connections API
+  slug: clevergy-connections-api
+- description: The Contracts API from Clevergy — 1 operation(s) for contracts.
+  name: Clevergy Contracts API
+  slug: clevergy-contracts-api
+- description: The Contracts - Deprecated API from Clevergy — 6 operation(s) for contracts - deprecated.
+  name: Clevergy Contracts - Deprecated API
+  slug: clevergy-contracts-deprecated-api
+- description: The Contracts|Electricity API from Clevergy — 2 operation(s) for contracts|electricity.
+  name: Clevergy Contracts|Electricity API
+  slug: clevergy-contracts-electricity-api
+- description: The Contracts|Gas API from Clevergy — 2 operation(s) for contracts|gas.
+  name: Clevergy Contracts|Gas API
+  slug: clevergy-contracts-gas-api
+- description: The Disaggregation API from Clevergy — 1 operation(s) for disaggregation.
+  name: Clevergy Disaggregation API
+  slug: clevergy-disaggregation-api
+- description: The Energy API from Clevergy — 3 operation(s) for energy.
+  name: Clevergy Energy API
+  slug: clevergy-energy-api
+- description: The Energy communities API from Clevergy — 3 operation(s) for energy communities.
+  name: Clevergy Energy communities API
+  slug: clevergy-energy-communities-api
+- description: The Equipments API from Clevergy — 5 operation(s) for equipments.
+  name: Clevergy Equipments API
+  slug: clevergy-equipments-api
+- description: The Houses API from Clevergy — 6 operation(s) for houses.
+  name: Clevergy Houses API
+  slug: clevergy-houses-api
+- description: The Integrations API from Clevergy — 4 operation(s) for integrations.
+  name: Clevergy Integrations API
+  slug: clevergy-integrations-api
+- description: The Invoices API from Clevergy — 5 operation(s) for invoices.
+  name: Clevergy Invoices API
+  slug: clevergy-invoices-api
+- description: The Invoices - Deprecated API from Clevergy — 2 operation(s) for invoices - deprecated.
+  name: Clevergy Invoices - Deprecated API
+  slug: clevergy-invoices-deprecated-api
+- description: The Power API from Clevergy — 1 operation(s) for power.
+  name: Clevergy Power API
+  slug: clevergy-power-api
+- description: The Sales Opportunities API from Clevergy — 3 operation(s) for sales opportunities.
+  name: Clevergy Sales Opportunities API
+  slug: clevergy-sales-opportunities-api
+- description: The Settings API from Clevergy — 1 operation(s) for settings.
+  name: Clevergy Settings API
+  slug: clevergy-settings-api
+- description: The Tariffs API from Clevergy — 4 operation(s) for tariffs.
+  name: Clevergy Tariffs API
+  slug: clevergy-tariffs-api
+- description: The Tickets API from Clevergy — 3 operation(s) for tickets.
+  name: Clevergy Tickets API
+  slug: clevergy-tickets-api
+- description: The Tips API from Clevergy — 1 operation(s) for tips.
+  name: Clevergy Tips API
+  slug: clevergy-tips-api
+- description: The Users API from Clevergy — 6 operation(s) for users.
+  name: Clevergy Users API
+  slug: clevergy-users-api
+- description: The Virtual battery API from Clevergy — 1 operation(s) for virtual battery.
+  name: Clevergy Virtual battery API
+  slug: clevergy-virtual-battery-api
+- description: The Virtual wallet API from Clevergy — 1 operation(s) for virtual wallet.
+  name: Clevergy Virtual wallet API
+  slug: clevergy-virtual-wallet-api
+artifact_total: 31
 asyncapis:
 - description: ''
   name: Clevergy Webhooks
   slug: clevergy-webhooks
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/clevergy-connect-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -185,13 +255,13 @@ modified: '2026-08-17'
 name: Clevergy
 nav: Providers
 network: true
-overview: 'Clevergy publishes 1 API on the [APIs.io](https://apis.io/) network: Connect API. Tagged areas include Company, Climate Tech, Energy, Energy Management, and Utilities.
+overview: 'Clevergy publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Access control API, Connections API, Contracts API, and 20 more. Tagged areas include Company, Climate Tech, Energy, Energy Management, and Utilities.
 
 
   The Clevergy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Clevergy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, FAQ, and 25 more developer resources.'
+  Clevergy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, FAQ, and 26 more developer resources.'
 plans:
 - name: Clevergy Plans Pricing
   plan_count: 2
@@ -203,18 +273,23 @@ rate_limits:
   slug: clevergy-rate-limits
 score:
   band: developing
-  composite: 54.1
-  delta: 0.0
+  composite: 51.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
-    contract_governance: 16.7
-    contract_quality: 64.6
+    contract_governance: 4.5
+    contract_quality: 63.8
     developer_ergonomics: 58.9
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 54.1
+  previous_composite: 52.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -231,8 +306,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 43.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

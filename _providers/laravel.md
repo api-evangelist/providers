@@ -34,8 +34,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-26'
-api_count: 42
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: The legacy v1 Laravel Forge REST API, documented at forge.laravel.com/api-documentation. Laravel has marked this version deprecated and states it will be discontinued on July 31, 2026; integrators are
   name: Laravel Forge API (Legacy v1)
@@ -413,6 +413,10 @@ collections:
   name: Laravel Cloud Applications WebSocket Clusters API
   slug: open-laravel-websocket-clusters-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/laravel-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -595,7 +599,7 @@ overview: 'Laravel publishes 40 APIs on the [APIs.io](https://apis.io/) network,
   The Laravel catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Laravel''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 34 more developer resources.'
+  Laravel''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 35 more developer resources.'
 random_paper: 8
 scopes:
 - name: Laravel Scopes
@@ -604,18 +608,23 @@ scopes:
   summary_line: 62 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.5
-  delta: 0.0
+  composite: 59.3
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 67.8
     developer_ergonomics: 78.0
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 60.5
-  previous_composite: 62.5
+  previous_composite: 59.9
   provenance:
     conformance: derived
     contracts:
@@ -625,8 +634,8 @@ score:
       total: 40
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laravel/refs/heads/main/screenshots/laravel-2026-07-25T224538.png
 security:

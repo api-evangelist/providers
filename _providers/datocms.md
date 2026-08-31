@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: datocms-agentic-access
   summary_line: 15 operations · 7 acting
-api_count: 8
+api_count: 1
 apis:
 - description: The DatoCMS Content Delivery API is a CDN-fronted GraphQL endpoint optimized for low-latency reads of published content from client applications such as Jamstack and SSR sites.
   name: DatoCMS Content Delivery API
@@ -260,15 +260,20 @@ rules:
   slug: datocms-rules
 score:
   band: developing
-  composite: 44.4
-  delta: 0.0
+  composite: 43.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 28.8
     contract_quality: 60.4
     developer_ergonomics: 40.5
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 28.9
   previous_composite: 44.4
@@ -279,8 +284,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/screenshots/datocms-2026-06-20T175706.png
 security:

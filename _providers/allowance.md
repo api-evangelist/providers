@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 7
   slug: allowance-agentic-access
   summary_line: 7 operations · 3 acting · 1 human-in-the-loop
-api_count: 3
+api_count: 1
 apis:
 - description: The Mandates API from Allowance — 5 operation(s) for mandates.
   name: Allowance Mandates API
@@ -225,19 +225,24 @@ scopes:
   slug: allowance-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: strong
-  composite: 55.9
-  delta: 0.0
+  band: developing
+  composite: 53.9
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 64.4
     developer_ergonomics: 71.4
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 23.7
-  previous_composite: 55.9
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -254,8 +259,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/screenshots/allowance-2026-07-25T195707.png
 security:

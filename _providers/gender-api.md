@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 3
   slug: gender-api-agentic-access
   summary_line: 3 operations
-api_count: 3
+api_count: 1
 apis:
 - description: The Get API from Gender API — 1 operation(s) for get.
   name: Gender API Get API
@@ -143,7 +143,7 @@ modified: '2026-05-19'
 name: Gender API
 nav: Providers
 network: true
-overview: 'Gender API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Get API, Get Country Of Origin API, and Get Stats API. Tagged areas include Artificial Intelligence, Demographics, Gender, Identity, and Name.
+overview: 'Gender API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Get API, Get Country Of Origin API, and Get Stats API. Tagged areas include Artificial Intelligence, Demographics, Gender, Identity, and Names.
 
 
   Gender API''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 10 more developer resources.'
@@ -158,18 +158,23 @@ rate_limits:
   slug: gender-api-rate-limits
 score:
   band: thin
-  composite: 35.9
-  delta: 2.1
+  composite: 35.3
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
     contract_governance: 0.0
     contract_quality: 51.9
     developer_ergonomics: 23.8
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 33.8
+  previous_composite: 35.9
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +182,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gender-api/refs/heads/main/screenshots/gender-api-2026-06-20T181719.png
 security:
@@ -196,7 +201,7 @@ tags:
 - Demographics
 - Gender
 - Identity
-- Name
+- Names
 - Personal Data
 website: https://gender-api.com/
 ---

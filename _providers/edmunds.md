@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 5
   slug: edmunds-agentic-access
   summary_line: 5 operations
-api_count: 3
+api_count: 1
 apis:
 - description: The Edmunds Dealership API is a tool that provides real-time access to data on cars for sale at dealerships across the country. By connecting to the API, users can search for specific makes and models
   name: Edmunds Dealership API
@@ -136,15 +136,20 @@ rate_limits:
   slug: edmunds-rate-limits
 score:
   band: thin
-  composite: 32.6
-  delta: 1.9
+  composite: 32.1
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 48.3
     developer_ergonomics: 38.1
-    discoverability: 63.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 10.5
   needs_work:
@@ -153,7 +158,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 30.7
+  previous_composite: 32.6
   provenance:
     agentic_access: derived
     contracts:
@@ -161,8 +166,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edmunds/refs/heads/main/screenshots/edmunds-2026-06-20T180456.png
 security:

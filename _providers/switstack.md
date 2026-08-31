@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 89
   human_in_the_loop: 2
@@ -31,14 +31,32 @@ agentic_access:
   operation_count: 128
   slug: switstack-agentic-access
   summary_line: 128 operations · 89 acting · 2 human-in-the-loop
-api_count: 2
+api_count: 4
 apis:
-- description: 'REST API for the Switcloud platform, organized in three surfaces: switcloud-bom (estate — merchants, stores and points of interaction), switcloud-config (EMV L2 configuration — BINs, BIN lists/configs'
-  name: Switcloud API
-  slug: switcloud-api
-- description: REST API for the Swittest managed EMV test-automation service. Exposes test-suite and test discovery, test execution (including a streaming run channel and ad-hoc custom tests), configuration-file bro
-  name: Swittest API
-  slug: swittest-api
+- description: The Auth API from Switstack — 3 operation(s) for auth.
+  name: Switstack Auth API
+  slug: switstack-auth-api
+- description: The BOM API from Switstack — 6 operation(s) for bom.
+  name: Switstack BOM API
+  slug: switstack-bom-api
+- description: The Config API from Switstack — 29 operation(s) for config.
+  name: Switstack Config API
+  slug: switstack-config-api
+- description: The Parser API from Switstack — 4 operation(s) for parser.
+  name: Switstack Parser API
+  slug: switstack-parser-api
+- description: The Payment API from Switstack — 4 operation(s) for payment.
+  name: Switstack Payment API
+  slug: switstack-payment-api
+- description: The Suite API from Switstack — 2 operation(s) for suite.
+  name: Switstack Suite API
+  slug: switstack-suite-api
+- description: The Test API from Switstack — 5 operation(s) for test.
+  name: Switstack Test API
+  slug: switstack-test-api
+- description: The Validation API from Switstack — 6 operation(s) for validation.
+  name: Switstack Validation API
+  slug: switstack-validation-api
 arazzos:
 - description: Authenticate, build the Merchant -> Store -> POI estate, assemble a minimum EMV configuration, and bundle it into the POIConfig a terminal fetches at runtime. This is steps 1 and 2 of the Switcloud ge
   name: Onboard a Switcloud terminal
@@ -49,8 +67,16 @@ arazzos:
 - description: 'The backend half of a Switcloud card-present transaction: authenticate as a basic/machine user, create a Payment against a POI and POIConfig, wait for the on-device leg, then read the completed transa'
   name: Take a Switcloud payment and reconcile it
   slug: switstack-take-a-payment
-artifact_total: 11
+artifact_total: 17
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/switstack-switcloud-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/switstack-swittest-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -191,10 +217,10 @@ modified: '2026-08-17'
 name: Switstack
 nav: Providers
 network: true
-overview: 'Switstack publishes 2 APIs on the [APIs.io](https://apis.io/) network: Switcloud API and Swittest API. Tagged areas include Company, Fintech Insurtech, Payments, EMV, and emv-level-2.
+overview: 'Switstack publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Auth API, BOM API, Config API, and 5 more. Tagged areas include Company, Fintech Insurtech, Payments, EMV, and emv-level-2.
 
 
-  Switstack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 26 more developer resources.'
+  Switstack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 28 more developer resources.'
 plans:
 - name: Switstack Plans Pricing
   plan_count: 0
@@ -211,18 +237,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.4
-  delta: 0.2
+  composite: 42.5
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 30.3
-    contract_quality: 49.3
+    contract_governance: 18.2
+    contract_quality: 49.6
     developer_ergonomics: 80.4
-    discoverability: 59.3
-    governance: 30.3
+    discoverability: 74.1
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 42.2
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -239,8 +270,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 42.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -258,15 +289,15 @@ tags:
 - Payments
 - EMV
 - emv-level-2
-- Card Present
-- Point-of-Sale
-- SoftPOS
-- Tap to Pay
-- Payment Terminals
-- In-Store Payments
+- card-present
+- point-of-sale
+- softpos
+- tap-to-pay
+- payment-terminals
+- in-store-payments
 - pci-mpoc
 - certification-testing
-- Retail Payments
+- retail-payments
 - estate-management
 website: https://www.switstack.io/
 ---

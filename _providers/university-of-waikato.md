@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 5
 apis:
 - description: 'DSpace 7.6.5 REST API for the University of Waikato''s Research Commons open access institutional repository, providing programmatic access to communities, collections, items, bitstreams and discovery '
@@ -53,6 +53,10 @@ apis:
   slug: identity
 artifact_total: 10
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Waikato/waikato-repositories/issues
 - group: auth
   title: ''
   type: DomainSecurity
@@ -116,7 +120,7 @@ overview: 'University of Waikato publishes 5 APIs on the [APIs.io](https://apis.
   The University of Waikato catalog on APIs.io includes 1 JSON-LD context.
 
 
-  University of Waikato''s developer surface includes GitHub presence and 9 more developer resources.'
+  University of Waikato''s developer surface includes GitHub presence and 10 more developer resources.'
 plans:
 - name: University Of Waikato Plans Pricing
   plan_count: 2
@@ -128,8 +132,13 @@ rate_limits:
   slug: university-of-waikato-rate-limits
 score:
   band: emerging
-  composite: 23.2
-  delta: 5.9
+  composite: 21.0
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 53.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -139,16 +148,19 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 17.3
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 21.0
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/screenshots/university-of-waikato-2026-06-20T200327.png
 security:
 - kind: domain-security

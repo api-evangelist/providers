@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 37
   slug: xano-agentic-access
   summary_line: 37 operations · 21 acting
-api_count: 7
+api_count: 1
 apis:
 - description: The REST APIs that Xano users build visually. Each API group is served at its own /api:{token} path on the instance and auto-generates its own OpenAPI/Swagger document; surface, paths, and auth are de
   name: Xano Generated User APIs
@@ -152,7 +152,7 @@ modified: '2026-06-20'
 name: Xano
 nav: Providers
 network: true
-overview: 'Xano publishes 6 APIs on the [APIs.io](https://apis.io/) network, including API Groups API, Auth API, Content API, and 3 more. Tagged areas include No-Code, Backend-as-a-Service, API Builder, Database, and Serverless.
+overview: 'Xano publishes 6 APIs on the [APIs.io](https://apis.io/) network, including API Groups API, Auth API, Content API, and 3 more. Tagged areas include No Code, Backend as a Service, BaaS, API Builder, and Database.
 
 
   Xano''s developer surface includes authentication, documentation, and 10 more developer resources.'
@@ -167,18 +167,23 @@ rate_limits:
   slug: xano-rate-limits
 score:
   band: developing
-  composite: 40.5
-  delta: 2.3
+  composite: 40.0
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 50.2
     developer_ergonomics: 33.3
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.2
+  previous_composite: 40.5
   provenance:
     agentic_access: derived
     contracts:
@@ -186,8 +191,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xano/refs/heads/main/screenshots/xano-2026-06-20T201653.png
 security:
@@ -209,8 +214,9 @@ security:
   summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 slug: xano
 tags:
-- No-Code
-- Backend-as-a-Service
+- No Code
+- Backend as a Service
+- BaaS
 - API Builder
 - Database
 - Serverless

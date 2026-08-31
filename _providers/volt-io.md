@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 21
   slug: volt-io-agentic-access
   summary_line: 21 operations · 10 acting
-api_count: 7
+api_count: 1
 apis:
 - description: 'Volt''s Global Payments API initiates account-to-account (pay by bank) payments across open-banking and real-time schemes (UK Faster Payments, SEPA, Pix, PayTo and more), creating payments, retrieving '
   name: Volt Payments API
@@ -39,9 +39,6 @@ apis:
 - description: The Mandates API manages recurring account-to-account payments, including variable recurring payments (VRP) and mandate lifecycle, letting merchants set up and collect repeat bank payments under a cus
   name: Volt Mandates API
   slug: volt-mandates-api
-- description: The Accounts API powers Volt Accounts and virtual IBANs for settlement, collections, payouts and refunds, giving merchants programmatic named accounts for receiving and disbursing funds within the Vol
-  name: Volt Accounts API
-  slug: volt-accounts-api
 - description: The Verify (Account Identification) API confirms bank account ownership and details before payment, supporting confirmation-of-payee style checks to reduce misdirected payments and fraud.
   name: Volt Verify API
   slug: volt-verify-api
@@ -51,15 +48,45 @@ apis:
 - description: The Authentication API issues OAuth2 access tokens for the Volt gateway. A POST to /oauth exchanges client_id, client_secret and username/password (resource-owner password grant) for a Bearer access_t
   name: Volt Authentication API
   slug: volt-authentication-api
-- description: Volt Global Api Accounts from Volt, described in OpenAPI.
-  name: Volt Global Api Accounts
-  slug: volt-io-accounts-common
-artifact_total: 13
+- description: Verification services for ensuring beneficiary account ownership.
+  name: Volt Account Holder Verification API
+  slug: volt-io-account-holder-verification-api
+- description: Management of accounts.
+  name: Volt Accounts API
+  slug: volt-io-accounts-api
+- description: Issuance and management of account aliases for global reconciliation.
+  name: Volt Aliases API
+  slug: volt-io-aliases-api
+- description: Named account order operations.
+  name: Volt Named Accounts API
+  slug: volt-io-named-accounts-api
+- description: Operations related to sandbox operations.
+  name: Volt Sandbox API
+  slug: volt-io-sandbox-api
+- description: Operations related to movement of funds, including payouts, settlements, and internal transactions.
+  name: Volt Transactions API
+  slug: volt-io-transactions-api
+- description: Operations related to trusted accounts.
+  name: Volt Trusted accounts API
+  slug: volt-io-trusted-accounts-api
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Volt Io Webhooks
   slug: volt-io-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/volt-io-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/volt-io-accounts-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/volt-io-mcp.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -221,28 +248,33 @@ modified: '2026-07-24'
 name: Volt
 nav: Providers
 network: true
-overview: 'Volt publishes 2 APIs on the [APIs.io](https://apis.io/) network: Accounts API and Global Api Accounts. Tagged areas include Payments, United Kingdom, Open Banking, Account-to-Account, and Real-Time Payments.
+overview: 'Volt publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account Holder Verification API, Accounts API, Aliases API, and 4 more. Tagged areas include Payments, United Kingdom, Open Banking, Account-to-Account, and Real-Time Payments.
 
 
   The Volt catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Volt''s developer surface includes authentication, sandbox, pricing, signup flow, documentation, API reference, getting-started guide, and 30 more developer resources.'
+  Volt''s developer surface includes authentication, sandbox, pricing, signup flow, documentation, API reference, getting-started guide, and 33 more developer resources.'
 random_paper: 0
 score:
   band: developing
-  composite: 41.8
-  delta: 0.0
+  composite: 42.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 16.7
-    contract_quality: 47.2
+    contract_governance: 4.5
+    contract_quality: 62.0
     developer_ergonomics: 56.5
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 41.8
+  previous_composite: 43.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -259,8 +291,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 29.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volt-io/refs/heads/main/screenshots/volt-io-2026-08-17T082816.png
 security:

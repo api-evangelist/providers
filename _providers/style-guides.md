@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 11
 apis:
 - description: Microsoft's organization-wide REST API design guidelines, originally published in 2016 and now maintained as separate Azure and Microsoft Graph guideline documents under the umbrella Guidelines.md. Li
@@ -70,6 +70,22 @@ apis:
   slug: ietf-httpapi
 artifact_total: 34
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/microsoft/api-guidelines/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/microsoft/api-guidelines/blob/vNext/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/microsoft/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/microsoft/api-guidelines/blob/vNext/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -196,7 +212,7 @@ overview: 'API Style Guides publishes 11 APIs on the [APIs.io](https://apis.io/)
   The API Style Guides catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  API Style Guides'' developer surface includes code examples and 10 more developer resources.'
+  API Style Guides'' developer surface includes code examples and 14 more developer resources.'
 random_paper: 8
 rules:
 - effective_rule_count: 5
@@ -210,8 +226,13 @@ rules:
     warn: 3
   slug: style-guides-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 20.0
+  band: thin
+  composite: 26.7
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 49.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -221,10 +242,13 @@ score:
     developer_ergonomics: 9.5
     discoverability: 74.1
     governance: 25.0
-    operational_transparency: 2.6
-  previous_composite: 20.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 13.2
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 26.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/style-guides/refs/heads/main/screenshots/style-guides-2026-06-20T194625.png
 security:

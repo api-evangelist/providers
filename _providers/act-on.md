@@ -27,27 +27,96 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-08-26'
-api_count: 3
+  score: 36.9
+  scored_at: '2026-08-30'
+api_count: 8
 apis:
-- description: OAuth 2.0 REST API for Act-On marketing automation — contacts and lists, segments, email messages and campaigns, media and creative assets, landing pages and forms, subscriptions, imports, custom even
-  name: Act-On REST API
-  slug: act-on-rest-api
-- description: Separately versioned (3.4.3) Custom Data service for defining custom object schemas and fields, creating datasets, validating and ingesting CSV/JSON data, polling ingest jobs, and querying custom data
-  name: Act-On Custom Objects Service
-  slug: act-on-custom-objects-service
 - description: Outgoing webhook event surface — nineteen documented event types across contacts, consent, deliverability, lead scoring, subscriptions, automated programs, messaging, forms and CRM connections. Payloa
   name: Act-On Outgoing Webhooks
   slug: act-on-outgoing-webhooks
-artifact_total: 15
+- description: The Account API from Act-On — 1 operation(s) for account.
+  name: Act-On Account API
+  slug: act-on-account-api
+- description: The Campaigns API from Act-On — 2 operation(s) for campaigns.
+  name: Act-On Campaigns API
+  slug: act-on-campaigns-api
+- description: Custom Data Dataset API
+  name: Act-On Custom Data Dataset API
+  slug: act-on-custom-data-dataset-api-api
+- description: Custom Data Query API
+  name: Act-On Custom Data Query API
+  slug: act-on-custom-data-query-api-api
+- description: Custom Data Schema API
+  name: Act-On Custom Data Schema API
+  slug: act-on-custom-data-schema-api-api
+- description: The Customevents API from Act-On — 2 operation(s) for customevents.
+  name: Act-On Customevents API
+  slug: act-on-customevents-api
+- description: The Ete API from Act-On — 1 operation(s) for ete.
+  name: Act-On Ete API
+  slug: act-on-ete-api
+- description: The Footer API from Act-On — 3 operation(s) for footer.
+  name: Act-On Footer API
+  slug: act-on-footer-api
+- description: The Form API from Act-On — 3 operation(s) for form.
+  name: Act-On Form API
+  slug: act-on-form-api
+- description: The Header API from Act-On — 3 operation(s) for header.
+  name: Act-On Header API
+  slug: act-on-header-api
+- description: The Image API from Act-On — 2 operation(s) for image.
+  name: Act-On Image API
+  slug: act-on-image-api
+- description: The List API from Act-On — 13 operation(s) for list.
+  name: Act-On List API
+  slug: act-on-list-api
+- description: The Logo API from Act-On — 2 operation(s) for logo.
+  name: Act-On Logo API
+  slug: act-on-logo-api
+- description: The Media API from Act-On — 7 operation(s) for media.
+  name: Act-On Media API
+  slug: act-on-media-api
+- description: The Medialink API from Act-On — 1 operation(s) for medialink.
+  name: Act-On Medialink API
+  slug: act-on-medialink-api
+- description: The Message API from Act-On — 8 operation(s) for message.
+  name: Act-On Message API
+  slug: act-on-message-api
+- description: The Page API from Act-On — 4 operation(s) for page.
+  name: Act-On Page API
+  slug: act-on-page-api
+- description: The Program API from Act-On — 1 operation(s) for program.
+  name: Act-On Program API
+  slug: act-on-program-api
+- description: The Seokeywords API from Act-On — 1 operation(s) for seokeywords.
+  name: Act-On Seokeywords API
+  slug: act-on-seokeywords-api
+- description: The Seoreport API from Act-On — 1 operation(s) for seoreport.
+  name: Act-On Seoreport API
+  slug: act-on-seoreport-api
+- description: The Subscription API from Act-On — 3 operation(s) for subscription.
+  name: Act-On Subscription API
+  slug: act-on-subscription-api
+- description: The Token API from Act-On — 1 operation(s) for token.
+  name: Act-On Token API
+  slug: act-on-token-api
+- description: The Token?grant Type=password API from Act-On — 1 operation(s) for token?grant type=password.
+  name: Act-On Token?grant Type=password API
+  slug: act-on-token-grant-type-password-api
+- description: The Ucl API from Act-On — 30 operation(s) for ucl.
+  name: Act-On Ucl API
+  slug: act-on-ucl-api
+- description: The User API from Act-On — 3 operation(s) for user.
+  name: Act-On User API
+  slug: act-on-user-api
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Act On Webhooks
@@ -66,6 +135,22 @@ collections:
   name: act-on-api-1
   slug: open-act-on-rest-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/act-on-rest-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/act-on-raw-body-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/act-on-oauth-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/act-on-custom-objects-service-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -199,13 +284,13 @@ modified: '2026-08-13'
 name: Act-On
 nav: Providers
 network: true
-overview: 'Act-On publishes 2 APIs on the [APIs.io](https://apis.io/) network: REST API and Custom Objects Service. Tagged areas include Company, Marketing, Marketing Automation, Email Marketing, and Email.
+overview: 'Act-On publishes 25 APIs on the [APIs.io](https://apis.io/) network, including Account API, Campaigns API, Custom Data Dataset API, and 22 more. Tagged areas include Company, Marketing, Marketing Automation, Email Marketing, and Email.
 
 
   The Act-On catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Act-On''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 23 more developer resources.'
+  Act-On''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 27 more developer resources.'
 plans:
 - name: Act On Plans Pricing
   plan_count: 2
@@ -222,18 +307,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.7
+  composite: 52.0
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 60.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
-    contract_governance: 16.7
-    contract_quality: 63.3
+    contract_governance: 4.5
+    contract_quality: 66.1
     developer_ergonomics: 55.4
     discoverability: 72.2
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 71.1
-  previous_composite: 52.7
+  previous_composite: 52.0
   provenance:
     conformance: derived
     contracts:
@@ -243,8 +333,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/act-on/refs/heads/main/screenshots/act-on-2026-07-25T181520.png
 security:

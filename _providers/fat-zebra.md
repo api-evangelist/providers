@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 2
@@ -33,19 +33,100 @@ agentic_access:
   summary_line: 133 operations · 72 acting · 2 human-in-the-loop
 api_count: 4
 apis:
-- description: 'The core Fat Zebra payments Gateway — 98 documented operations across 73 paths covering purchases, authorizations and captures, refunds and voids, card tokenization (credit_cards), customers and bank '
-  name: Fat Zebra Gateway API
-  slug: fat-zebra-gateway-api
-- description: The Partner (v2) API for ISOs and software platforms to programmatically create and manage their own sub-merchants and acquirer connections — 30 operations across 22 paths covering partner self/identi
+- description: A merchant's connections to acquirers — board, list, update, enable/disable.
+  name: Fat Zebra Acquirer connections API
+  slug: fat-zebra-acquirer-connections-api
+- description: The acquirer catalogue this partner may board onto.
+  name: Fat Zebra Acquirers API
+  slug: fat-zebra-acquirers-api
+- description: The Applicable Surcharge API from Fat Zebra — 1 operation(s) for applicable surcharge.
+  name: Fat Zebra Applicable Surcharge API
+  slug: fat-zebra-applicable-surcharge-api
+- description: The Authenticate API from Fat Zebra — 3 operation(s) for authenticate.
+  name: Fat Zebra Authenticate API
+  slug: fat-zebra-authenticate-api
+- description: The Bank Accounts API from Fat Zebra — 2 operation(s) for bank accounts.
+  name: Fat Zebra Bank Accounts API
+  slug: fat-zebra-bank-accounts-api
+- description: The Batches API from Fat Zebra — 4 operation(s) for batches.
+  name: Fat Zebra Batches API
+  slug: fat-zebra-batches-api
+- description: The Chargebacks API from Fat Zebra — 4 operation(s) for chargebacks.
+  name: Fat Zebra Chargebacks API
+  slug: fat-zebra-chargebacks-api
+- description: The Credit Cards API from Fat Zebra — 3 operation(s) for credit cards.
+  name: Fat Zebra Credit Cards API
+  slug: fat-zebra-credit-cards-api
+- description: The Customers API from Fat Zebra — 3 operation(s) for customers.
+  name: Fat Zebra Customers API
+  slug: fat-zebra-customers-api
+- description: The Direct Credits API from Fat Zebra — 3 operation(s) for direct credits.
+  name: Fat Zebra Direct Credits API
+  slug: fat-zebra-direct-credits-api
+- description: The Direct Debits API from Fat Zebra — 3 operation(s) for direct debits.
+  name: Fat Zebra Direct Debits API
+  slug: fat-zebra-direct-debits-api
+- description: The Disputes API from Fat Zebra — 1 operation(s) for disputes.
+  name: Fat Zebra Disputes API
+  slug: fat-zebra-disputes-api
+- description: The Fat Zebra Billing API from Fat Zebra — 1 operation(s) for fat zebra billing.
+  name: Fat Zebra Fat Zebra Billing API
+  slug: fat-zebra-fat-zebra-billing-api
+- description: The Health API from Fat Zebra — 2 operation(s) for health.
+  name: Fat Zebra Health API
+  slug: fat-zebra-health-api
+- description: The Invoice Imports API from Fat Zebra — 1 operation(s) for invoice imports.
+  name: Fat Zebra Invoice Imports API
+  slug: fat-zebra-invoice-imports-api
+- description: The Invoices API from Fat Zebra — 2 operation(s) for invoices.
+  name: Fat Zebra Invoices API
+  slug: fat-zebra-invoices-api
+- description: The Merchants API from Fat Zebra — 7 operation(s) for merchants.
+  name: Fat Zebra Merchants API
+  slug: fat-zebra-merchants-api
+- description: The Oauth Clients API from Fat Zebra — 1 operation(s) for oauth clients.
+  name: Fat Zebra Oauth Clients API
+  slug: fat-zebra-oauth-clients-api
+- description: The authenticated partner (self).
   name: Fat Zebra Partner API
   slug: fat-zebra-partner-api
-- description: An early usage-based Billing API (OpenAPI 3.0.3) exposing billing entities and a batch usage-record push for metered billing against customers. Documented server is the sandbox host billing.pmnts-sand
-  name: Fat Zebra Billing API
-  slug: fat-zebra-billing-api
-- description: A Third-Party Processor (TPP) merchant onboarding API for the FDMS acquiring integration (OpenAPI 3.0.3) — create and list merchants and an internal onboard operation. Documented server is the sandbox
-  name: Fat Zebra FDMS TPP Merchant Onboarding API
-  slug: fat-zebra-fdms-tpp-merchant-onboarding-api
-artifact_total: 14
+- description: The Payment Plans API from Fat Zebra — 2 operation(s) for payment plans.
+  name: Fat Zebra Payment Plans API
+  slug: fat-zebra-payment-plans-api
+- description: The Paypal API from Fat Zebra — 15 operation(s) for paypal.
+  name: Fat Zebra Paypal API
+  slug: fat-zebra-paypal-api
+- description: The Purchases API from Fat Zebra — 11 operation(s) for purchases.
+  name: Fat Zebra Purchases API
+  slug: fat-zebra-purchases-api
+- description: The Refunds API from Fat Zebra — 3 operation(s) for refunds.
+  name: Fat Zebra Refunds API
+  slug: fat-zebra-refunds-api
+- description: The Reports API from Fat Zebra — 2 operation(s) for reports.
+  name: Fat Zebra Reports API
+  slug: fat-zebra-reports-api
+- description: The Settlement API from Fat Zebra — 1 operation(s) for settlement.
+  name: Fat Zebra Settlement API
+  slug: fat-zebra-settlement-api
+- description: Partner SSO enforcement — read state, enforce, disable.
+  name: Fat Zebra SSO API
+  slug: fat-zebra-sso-api
+- description: The Transactions API from Fat Zebra — 2 operation(s) for transactions.
+  name: Fat Zebra Transactions API
+  slug: fat-zebra-transactions-api
+- description: Partner dashboard users — CRUD plus deactivate/reactivate.
+  name: Fat Zebra Users API
+  slug: fat-zebra-users-api
+- description: The Utilities API from Fat Zebra — 3 operation(s) for utilities.
+  name: Fat Zebra Utilities API
+  slug: fat-zebra-utilities-api
+- description: The Utlities API from Fat Zebra — 1 operation(s) for utlities.
+  name: Fat Zebra Utlities API
+  slug: fat-zebra-utlities-api
+- description: The Web Hooks API from Fat Zebra — 2 operation(s) for web hooks.
+  name: Fat Zebra Web Hooks API
+  slug: fat-zebra-web-hooks-api
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Fat Zebra Webhooks
@@ -64,6 +145,22 @@ collections:
   name: Fat Zebra Partner API
   slug: open-fat-zebra-partner
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/fat-zebra-gateway-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/fat-zebra-partner-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/fat-zebra-billing-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/fat-zebra-fdms-tpp-merchant-onboarding-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -240,28 +337,33 @@ modified: '2026-07-24'
 name: Fat Zebra
 nav: Providers
 network: true
-overview: 'Fat Zebra publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Gateway API, Partner API, Billing API, and 1 more. Tagged areas include Payments, Australia, Payment Gateway, Payment Processing, and Acquiring.
+overview: 'Fat Zebra publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Acquirer connections API, Acquirers API, Applicable Surcharge API, and 28 more. Tagged areas include Payments, Australia, Payment Gateway, Payment Processing, and Acquiring.
 
 
   The Fat Zebra catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fat Zebra''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 34 more developer resources.'
+  Fat Zebra''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 38 more developer resources.'
 random_paper: 10
 score:
   band: strong
-  composite: 56.2
+  composite: 55.8
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
-    contract_governance: 30.3
-    contract_quality: 59.0
+    contract_governance: 18.2
+    contract_quality: 63.3
     developer_ergonomics: 54.2
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 43.4
-  previous_composite: 56.2
+  previous_composite: 55.8
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -273,8 +375,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 58.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fat-zebra/refs/heads/main/screenshots/fat-zebra-2026-07-25T214245.png
 security:

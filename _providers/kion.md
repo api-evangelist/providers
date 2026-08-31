@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 6
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 126
   slug: kion-agentic-access
   summary_line: 126 operations · 73 acting · 6 human-in-the-loop
-api_count: 25
+api_count: 1
 apis:
 - description: Manage cloud accounts across AWS, Azure, GCP, and OCI
   name: Kion Accounts API
@@ -354,15 +354,20 @@ rules:
   slug: kion-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.0
-  delta: 1.9
+  composite: 38.5
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 50.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 9.8
     contract_quality: 68.3
     developer_ergonomics: 28.6
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 9.8
     operational_transparency: 10.5
   needs_work:
@@ -371,7 +376,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 37.1
+  previous_composite: 39.0
   provenance:
     agentic_access: derived
     contracts:
@@ -379,8 +384,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kion/refs/heads/main/screenshots/kion-2026-06-20T184046.png
 security:

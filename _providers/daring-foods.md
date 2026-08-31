@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 31
   slug: daring-foods-agentic-access
   summary_line: 31 operations
-api_count: 14
+api_count: 1
 apis:
 - description: 'Public, unauthenticated read access to the Daring recipe library via the site''s custom `recipes` WordPress post type. Verified live at 208 published recipes, each classified by cooking method through '
   name: Daring Foods Recipes API
@@ -133,6 +133,10 @@ collections:
   name: Daring Foods Taxonomy Tags API
   slug: open-daring-foods-tags-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/daring-foods-capability-edges.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -261,22 +265,27 @@ network: true
 overview: 'Daring Foods publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Recipes API, Retail Products API, Foodservice Products API, and 11 more. Tagged areas include Company, Food, Consumer Packaged Goods, Plant-Based, and Alternative Protein.
 
 
-  Daring Foods'' developer surface includes support, FAQ, authentication, code examples, and 24 more developer resources.'
+  Daring Foods'' developer surface includes support, FAQ, authentication, code examples, and 25 more developer resources.'
 random_paper: 16
 score:
-  band: developing
-  composite: 39.7
-  delta: 0.0
+  band: thin
+  composite: 37.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 63.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 57.1
     commercial_clarity: 57.1
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 57.6
     developer_ergonomics: 18.5
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 39.7
+  previous_composite: 38.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -287,8 +296,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/daring-foods/refs/heads/main/screenshots/daring-foods-2026-08-07T164036.png
 security:

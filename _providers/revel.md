@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: REST API for the Revel Systems iPad POS platform, covering orders, payments, products, inventory, customers, employees, scheduling, cash management, discounts, tax, tables, purchase orders, house acco
@@ -109,7 +109,7 @@ modified: '2026-06-13'
 name: Revel Systems
 nav: Providers
 network: true
-overview: 'Revel Systems publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Point-of-Sale, Restaurant, Retail, iPad, and Order.
+overview: 'Revel Systems publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include POS, Point-of-Sale, Restaurant, Retail, and iPad.
 
 
   Revel Systems'' developer surface includes documentation, engineering blog, pricing, support, changelog, and 9 more developer resources.'
@@ -125,7 +125,12 @@ rate_limits:
 score:
   band: emerging
   composite: 24.6
-  delta: 3.7
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 59.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -135,15 +140,15 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 57.9
-  previous_composite: 20.9
+  previous_composite: 24.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revel/refs/heads/main/screenshots/revel-2026-06-20T193052.png
 security:
@@ -153,6 +158,7 @@ security:
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: revel
 tags:
+- POS
 - Point-of-Sale
 - Restaurant
 - Retail

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,6 +55,10 @@ collections:
   name: Landing API (HTTP GET) Public API
   slug: open-landing-public-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/landing-capability-edges.yml
 - group: company
   title: ''
   type: Website
@@ -183,22 +187,27 @@ network: true
 overview: 'Landing publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Company, PropTech, Real-Estate, Rentals, and Furnished Apartments.
 
 
-  Landing''s developer surface includes documentation, API reference, getting-started guide, authentication, code examples, support, engineering blog, and 21 more developer resources.'
+  Landing''s developer surface includes documentation, API reference, getting-started guide, authentication, code examples, support, engineering blog, and 22 more developer resources.'
 random_paper: 19
 score:
   band: developing
-  composite: 42.4
+  composite: 40.9
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 51.0
     developer_ergonomics: 58.9
     discoverability: 87.0
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 2.6
-  previous_composite: 42.4
+  previous_composite: 40.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -209,8 +218,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landing/refs/heads/main/screenshots/landing-2026-08-17T123950.png
 security:
@@ -231,7 +240,7 @@ tags:
 - Furnished Apartments
 - Corporate Housing
 - Travel
-- agent-native
+- Agent Native
 - MCP
 - Search
 website: https://www.hellolanding.com

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 243
   human_in_the_loop: 1
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 505
   slug: akamai-agentic-access
   summary_line: 505 operations · 243 acting · 1 human-in-the-loop
-api_count: 204
+api_count: 12
 apis:
 - description: Adaptive Media Delivery supports Token Authentication. You can apply it to generate unique tokens and include them in requests for your content. Akamai validates these tokens to grant access to your m
   name: Akamai Access Revocation API
@@ -1114,6 +1114,10 @@ collections:
   name: 'Akamai: API Endpoint Definition Access tokens Watermark limits API'
   slug: open-akamai-watermark-limits-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/akamai-capability-edges.yml
 - group: operate
   title: ''
   type: IssueTracker
@@ -3054,7 +3058,7 @@ overview: 'Akamai publishes 141 APIs on the [APIs.io](https://apis.io/) network,
   The Akamai catalog on APIs.io includes 2 Spectral governance rulesets.
 
 
-  Akamai''s developer surface includes developer portal, documentation, authentication, engineering blog, support, and 9 more developer resources.'
+  Akamai''s developer surface includes developer portal, documentation, authentication, engineering blog, support, and 10 more developer resources.'
 plans:
 - name: Akamai Plans Pricing
   plan_count: 3
@@ -3089,6 +3093,11 @@ rules:
 score:
   band: thin
   composite: 32.5
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 70.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -3107,8 +3116,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 139
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/screenshots/akamai-2026-06-20T171446.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 60
   slug: peoplesoft-agentic-access
   summary_line: 60 operations · 15 acting
-api_count: 48
+api_count: 21
 apis:
 - description: Framework for extracting and flattening PeopleSoft data for machine learning and analytics purposes. Uses PeopleSoft Search Framework technology with OpenSearch to build, index, and register data mode
   name: PeopleSoft Data Distribution Framework API
@@ -473,6 +473,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/peoplesoft-capability-edges.yml
+- group: other
+  title: ''
   type: ParentCompany
   url: https://apis.io/providers/oracle/
 - group: agent
@@ -797,7 +801,7 @@ overview: 'PeopleSoft publishes 38 APIs on the [APIs.io](https://apis.io/) netwo
   The PeopleSoft catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  PeopleSoft''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 37 more developer resources.'
+  PeopleSoft''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 38 more developer resources.'
 plans:
 - name: Peoplesoft Plans Pricing
   plan_count: 1
@@ -837,7 +841,12 @@ scopes:
 score:
   band: developing
   composite: 50.9
-  delta: 1.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 55.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -847,7 +856,7 @@ score:
     discoverability: 68.5
     governance: 13.6
     operational_transparency: 47.4
-  previous_composite: 49.4
+  previous_composite: 50.9
   provenance:
     agentic_access: derived
     contracts:
@@ -855,8 +864,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/peoplesoft/refs/heads/main/screenshots/peoplesoft-2026-06-20T191552.png
 security:

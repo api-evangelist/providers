@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: Django REST Framework API behind the Flockjay platform. The API root at https://api.flockjay.com/api/ is anonymously readable and enumerates 20 collections across an unversioned v1 tree (events, quest
@@ -186,7 +186,12 @@ scopes:
 score:
   band: thin
   composite: 34.2
-  delta: 1.9
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 72.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
@@ -196,7 +201,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 32.3
+  previous_composite: 34.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -206,8 +211,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 85.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flockjay/refs/heads/main/screenshots/flockjay-2026-07-25T214813.png
 security:
@@ -238,7 +243,7 @@ tags:
 - Content Management
 - Software-as-a-Service
 - MCP
-- agent-native
+- Agent Native
 - Authentication
 website: https://flockjay.com
 ---

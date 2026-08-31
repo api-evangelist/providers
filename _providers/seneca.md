@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Seneca is a microservices toolkit for Node.js that uses a pattern-matching approach to message handling. It provides transport independence, allowing services to communicate over HTTP, TCP, or message
@@ -41,6 +41,18 @@ apis:
   slug: seneca
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/senecajs/seneca/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/senecajs/seneca/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/senecajs/seneca/blob/master/CODE_OF_CONDUCT.md
 - group: commercial
   title: ''
   type: License
@@ -91,7 +103,7 @@ overview: 'Seneca publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   The Seneca catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Seneca''s developer surface includes getting-started guide and 6 more developer resources.'
+  Seneca''s developer surface includes getting-started guide and 9 more developer resources.'
 plans:
 - name: Seneca Plans Pricing
   plan_count: 3
@@ -114,7 +126,12 @@ rules:
   slug: seneca-jsonschema-spectral-rules
 score:
   band: emerging
-  composite: 16.0
+  composite: 20.3
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 64.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -124,10 +141,13 @@ score:
     developer_ergonomics: 11.9
     discoverability: 59.3
     governance: 9.8
-    operational_transparency: 10.5
-  previous_composite: 16.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    operational_transparency: 26.3
+  open_source:
+    applies: true
+    score: 40.0
+  previous_composite: 20.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seneca/refs/heads/main/screenshots/seneca-2026-06-20T193656.png
 security:

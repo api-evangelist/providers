@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-08-26'
-api_count: 18
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The cdn API from Alokai (formerly Vue Storefront) — 2 operation(s) for cdn.
   name: Alokai (formerly Vue Storefront) cdn API
@@ -274,25 +274,30 @@ modified: '2026-07-17'
 name: Alokai (formerly Vue Storefront)
 nav: Providers
 network: true
-overview: 'Alokai (formerly Vue Storefront) publishes 18 APIs on the [APIs.io](https://apis.io/) network, including cdn API, deploy_check API, flush_cache API, and 15 more. Tagged areas include Company, Software-as-a-Service, E-Commerce, Composable Commerce, and Headless Commerce.
+overview: 'Alokai (formerly Vue Storefront) publishes 18 APIs on the [APIs.io](https://apis.io/) network, including cdn API, deploy_check API, flush_cache API, and 15 more. Tagged areas include Company, Saas, E-Commerce, Composable Commerce, and Headless Commerce.
 
 
   Alokai (formerly Vue Storefront)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
 random_paper: 20
 score:
   band: developing
-  composite: 50.0
-  delta: 2.3
+  composite: 48.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 47.4
     developer_ergonomics: 73.2
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 47.7
+  previous_composite: 48.6
   provenance:
     conformance: derived
     contracts:
@@ -302,8 +307,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/screenshots/alokai-formerly-vue-storefront-2026-07-25T195748.png
 security:
@@ -318,7 +323,7 @@ security:
 slug: alokai-formerly-vue-storefront
 tags:
 - Company
-- Software-as-a-Service
+- Saas
 - E-Commerce
 - Composable Commerce
 - Headless Commerce

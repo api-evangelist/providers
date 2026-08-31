@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 53.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -32,7 +32,7 @@ agentic_access:
   operation_count: 43
   slug: salsify-agentic-access
   summary_line: 43 operations · 33 acting
-api_count: 11
+api_count: 3
 apis:
 - description: Early-access public GraphQL API for operating on Salsify accounts, organizations, configuration manifests and organization provisioning requests. Authenticated with a bearer API token; introspection r
   name: Salsify GraphQL API
@@ -104,6 +104,10 @@ collections:
   name: Salsify Records API
   slug: open-salsify-records-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/salsify-capability-edges.yml
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -274,7 +278,7 @@ overview: 'Salsify publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
   The Salsify catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Salsify''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 30 more developer resources.'
+  Salsify''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 31 more developer resources.'
 random_paper: 7
 rate_limits:
 - limit_count: 2
@@ -287,18 +291,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.3
+  composite: 54.7
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 61.7
     developer_ergonomics: 47.0
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 73.7
-  previous_composite: 57.3
+  previous_composite: 54.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -309,8 +318,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salsify/refs/heads/main/screenshots/salsify-2026-08-17T081714.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 4
 apis:
 - description: Submit a single comparative rating request and receive real-time premiums and coverage back from many carriers at once, across auto, homeowners, condominium, renters, dwelling fire, and motorcycle lin
@@ -91,7 +91,7 @@ modified: '2026-07-10'
 name: TurboRater
 nav: Providers
 network: true
-overview: 'TurboRater publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Insurtech, Comparative Rating, Auto Insurance, and Home Insurance.
+overview: 'TurboRater publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, InsurTech, Comparative Rating, Auto Insurance, and Home Insurance.
 
 
   TurboRater''s developer surface includes documentation and 6 more developer resources.'
@@ -107,6 +107,11 @@ rate_limits:
 score:
   band: emerging
   composite: 17.7
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 53.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
@@ -124,8 +129,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security
@@ -135,7 +140,7 @@ security:
 slug: turborater
 tags:
 - Insurance
-- Insurtech
+- InsurTech
 - Comparative Rating
 - Auto Insurance
 - Home Insurance

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 0
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 194
   slug: aleph-alpha-agentic-access
   summary_line: 194 operations · 96 acting
-api_count: 37
+api_count: 6
 apis:
 - description: The API description API from Aleph Alpha — 2 operation(s) for api description.
   name: Aleph Alpha API description API
@@ -261,6 +261,10 @@ collections:
   name: PhariaStudio Workspaces API
   slug: open-aleph-alpha-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/aleph-alpha-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -453,22 +457,27 @@ network: true
 overview: 'Aleph Alpha publishes 37 APIs on the [APIs.io](https://apis.io/) network, including API description API, Application Traces API, Benchmark Executions API, and 34 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Large Language Models, and Generative AI.
 
 
-  Aleph Alpha''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 37 more developer resources.'
+  Aleph Alpha''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 38 more developer resources.'
 random_paper: 14
 score:
   band: developing
-  composite: 47.9
+  composite: 46.5
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 55.5
     developer_ergonomics: 72.0
     discoverability: 50.0
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 26.3
-  previous_composite: 47.9
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -485,8 +494,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 48.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aleph-alpha/refs/heads/main/screenshots/aleph-alpha-2026-08-07T161154.png
 security:

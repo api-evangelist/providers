@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 7
 apis:
 - description: The ICAO API Data Service provides programmatic access to authoritative civil aviation data published by ICAO, with continuously updated endpoints across six data areas. An API key is required and res
@@ -81,7 +81,7 @@ common:
   url: https://www.icao.int/safety/iStars/Pages/API-Data-Service.aspx
 - group: build
   title: ''
-  type: Samples
+  type: Examples
   url: https://applications.icao.int/dataservices/api-data-samples
 - group: commercial
   title: ''
@@ -110,7 +110,7 @@ network: true
 overview: 'ICAO publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Airlines, Airports, Airspace, Aviation, and Reference Data.
 
 
-  ICAO''s developer surface includes developer portal, documentation, pricing, support, and 5 more developer resources.'
+  ICAO''s developer surface includes developer portal, documentation, code examples, pricing, support, and 4 more developer resources.'
 plans:
 - name: Icao Plans Pricing
   plan_count: 3
@@ -123,6 +123,11 @@ rate_limits:
 score:
   band: emerging
   composite: 19.2
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 71.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 26.3
@@ -134,8 +139,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 19.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/icao/refs/heads/main/screenshots/icao-2026-06-20T183144.png
 security:

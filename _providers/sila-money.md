@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 19
   slug: sila-money-agentic-access
   summary_line: 19 operations · 19 acting
-api_count: 6
+api_count: 1
 apis:
 - description: Sila's Virtual Accounts product issues each user a dedicated account and routing number, giving a program a real bank-account surface for receiving and settling funds. Virtual accounts appear as a pay
   name: Sila Virtual Accounts API
@@ -86,6 +86,10 @@ collections:
   name: Sila Money API
   slug: open-sila-money
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/sila-money-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -141,7 +145,7 @@ network: true
 overview: 'Sila publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Identity API, Payment Methods API, and 2 more. Tagged areas include Embedded Finance, Banking as a Service, Payments, Digital Wallet, and ACH.
 
 
-  Sila''s developer surface includes authentication, documentation, and 8 more developer resources.'
+  Sila''s developer surface includes authentication, documentation, and 9 more developer resources.'
 plans:
 - name: Sila Money Plans Pricing
   plan_count: 2
@@ -153,18 +157,23 @@ rate_limits:
   slug: sila-money-rate-limits
 score:
   band: thin
-  composite: 34.5
-  delta: 1.6
+  composite: 34.0
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 55.8
     developer_ergonomics: 25.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 32.9
+  previous_composite: 34.5
   provenance:
     agentic_access: derived
     contracts:
@@ -178,8 +187,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

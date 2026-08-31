@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 44
   slug: readme-agentic-access
   summary_line: 44 operations · 25 acting
-api_count: 14
+api_count: 2
 apis:
 - description: ReadMe operates a hosted Model Context Protocol (MCP) server that lets AI tools (Claude, Cursor, IDEs, CI pipelines) search, read, and update ReadMe documentation through natural language. ReadMe also
   name: ReadMe MCP Server
@@ -463,15 +463,20 @@ rules:
   slug: readme-rules
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 52.4
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 28.8
     contract_quality: 63.2
     developer_ergonomics: 56.0
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 28.8
     operational_transparency: 34.2
   previous_composite: 52.9
@@ -482,8 +487,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/screenshots/readme-2026-06-20T192737.png
 security:

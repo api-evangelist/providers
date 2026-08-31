@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: openexchangerates-agentic-access
   summary_line: 7 operations
-api_count: 7
+api_count: 2
 apis:
 - description: Convert a value between two currencies at the latest rates.
   name: Open Exchange Rates Convert API
@@ -65,7 +65,10 @@ apis:
 - description: Account plan and usage statistics.
   name: Open Exchange Rates Usage API
   slug: openexchangerates-usage-api
-artifact_total: 39
+- description: Live and historical exchange rate data
+  name: Open Exchange Rates Rates API
+  slug: openexchangerates-rates-api
+artifact_total: 40
 collections:
 - collection_type: postman
   name: Open Exchange Rates Convert API
@@ -231,7 +234,7 @@ modified: '2026-08-08'
 name: Open Exchange Rates
 nav: Providers
 network: true
-overview: 'Open Exchange Rates publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Convert API, Currencies API, Historical Rates API, and 4 more. Tagged areas include Foreign Exchange, Currency, Exchange Rates, FX, and Currency Conversion.
+overview: 'Open Exchange Rates publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Convert API, Currencies API, Historical Rates API, and 5 more. Tagged areas include Foreign Exchange, Currency, Exchange Rates, FX, and Currency Conversion.
 
 
   The Open Exchange Rates catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -260,18 +263,23 @@ rules:
   slug: openexchangerates-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.4
-  delta: 0.7
+  composite: 50.8
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
     contract_governance: 9.8
     contract_quality: 60.7
     developer_ergonomics: 34.5
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 50.0
-  previous_composite: 50.7
+  previous_composite: 51.4
   provenance:
     agentic_access: derived
     contracts:
@@ -279,8 +287,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/screenshots/openexchangerates-2026-08-07T190554.png
 security:

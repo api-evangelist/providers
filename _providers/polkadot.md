@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 253
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 474
   slug: polkadot-agentic-access
   summary_line: 474 operations · 253 acting
-api_count: 57
+api_count: 3
 apis:
 - description: The Account API from Polkadot — 12 operation(s) for account.
   name: Polkadot Account API
@@ -391,6 +391,14 @@ collections:
   name: Polkadot REST Account Xcm API
   slug: open-polkadot-xcm-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/paritytech/substrate-api-sidecar/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/paritytech/substrate-api-sidecar/releases
 - group: commercial
   title: ''
   type: License
@@ -454,7 +462,7 @@ overview: 'Polkadot publishes 57 APIs on the [APIs.io](https://apis.io/) network
   The Polkadot catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Polkadot''s developer surface includes engineering blog, GitHub presence, and 8 more developer resources.'
+  Polkadot''s developer surface includes engineering blog, GitHub presence, and 10 more developer resources.'
 plans:
 - name: Subscan
   plan_count: 3
@@ -466,8 +474,13 @@ rate_limits:
   slug: subscan
 score:
   band: thin
-  composite: 36.6
-  delta: 2.8
+  composite: 37.3
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 46.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -476,8 +489,11 @@ score:
     developer_ergonomics: 14.3
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 52.6
-  previous_composite: 33.8
+    operational_transparency: 68.4
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 37.3
   provenance:
     agentic_access: derived
     contracts:
@@ -485,8 +501,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 57
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polkadot/refs/heads/main/screenshots/polkadot-2026-06-20T192021.png
 security:

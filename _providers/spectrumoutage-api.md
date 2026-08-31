@@ -15,21 +15,30 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.8
-  scored_at: '2026-08-26'
-api_count: 1
+  score: 24.3
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: REST API for live Spectrum internet, TV, and phone outage data across the US. Bearer API key required on all endpoints. Endpoints include /stats, /reports, /cities/{slug}, /states, /zip/{zip}, and /ma
-  name: SpectrumOutage API v1
-  slug: spectrumoutage-api-v1
-artifact_total: 6
+- description: City, state, and ZIP lookup
+  name: SpectrumOutage API Locations API
+  slug: spectrumoutage-api-locations-api
+- description: Map pin and cluster data
+  name: SpectrumOutage API Map API
+  slug: spectrumoutage-api-map-api
+- description: Outage report listing and submission
+  name: SpectrumOutage API Reports API
+  slug: spectrumoutage-api-reports-api
+- description: Dashboard and aggregate statistics
+  name: SpectrumOutage API Stats API
+  slug: spectrumoutage-api-stats-api
+artifact_total: 9
 collections:
 - collection_type: open
   name: SpectrumOutage API
@@ -147,7 +156,7 @@ modified: '2026-08-11'
 name: SpectrumOutage API
 nav: Providers
 network: true
-overview: 'SpectrumOutage API publishes 1 API on the [APIs.io](https://apis.io/) network: v1. Tagged areas include Spectrum, outage, Internet, TV, and Phone.
+overview: 'SpectrumOutage API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Locations API, Map API, Reports API, and 1 more. Tagged areas include spectrum, Outage, internet, tv, and phone.
 
 
   SpectrumOutage API''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, changelog, and 19 more developer resources.'
@@ -162,18 +171,23 @@ rate_limits:
   slug: spectrumoutage-api-rate-limits
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 51.1
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 62.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.8
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 16.7
-    contract_quality: 33.3
-    developer_ergonomics: 61.3
+    contract_governance: 4.5
+    contract_quality: 57.7
+    developer_ergonomics: 55.4
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 39.5
-  previous_composite: 47.7
+  previous_composite: 52.9
   provenance:
     conformance: derived
     contracts:
@@ -189,8 +203,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/screenshots/spectrumoutage-api-2026-08-17T082021.png
 security:
@@ -204,17 +218,17 @@ security:
   summary_line: TLSv1.2
 slug: spectrumoutage-api
 tags:
-- Spectrum
-- outage
-- Internet
-- TV
-- Phone
+- spectrum
+- Outage
+- internet
+- tv
+- phone
 - Monitoring
 - Status
-- ZIP Code
-- Telecom
-- ISP
+- zip-code
+- telecom
+- isp
 - network-status
-- Crowdsourced
+- crowdsourced
 website: https://api.spectrumoutage.us
 ---

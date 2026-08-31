@@ -24,8 +24,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-08-26'
-api_count: 6
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: AskNicely's remote Model Context Protocol server, exposing Ask NiceAI's tools — NPS summaries, survey responses, leaderboards and more — to external AI clients such as Claude. Served per tenant at htt
   name: AskNicely MCP Server (Ask NiceAI)
@@ -70,6 +70,10 @@ collections:
   name: AskNicely Surveys API
   slug: open-asknicely-surveys-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/asknicely-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -214,13 +218,13 @@ modified: '2026-08-06'
 name: AskNicely
 nav: Providers
 network: true
-overview: 'AskNicely publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, In-App Surveys API, Responses API, and 2 more. Tagged areas include Company, Customer Experience, NPS, Surveys, and Feedback.
+overview: 'AskNicely publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Contacts API, In-App Surveys API, Responses API, and 2 more. Tagged areas include Company, Customer Experience, Net Promoter Score, Surveys, and Feedback.
 
 
   The AskNicely catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  AskNicely''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
+  AskNicely''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 random_paper: 18
 rate_limits:
 - limit_count: 4
@@ -232,19 +236,24 @@ scopes:
   slug: asknicely-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: exemplar
-  composite: 68.0
-  delta: 0.7
+  band: strong
+  composite: 64.9
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 70.5
     developer_ergonomics: 58.9
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 81.6
-  previous_composite: 67.3
+  previous_composite: 65.4
   provenance:
     conformance: derived
     contracts:
@@ -256,12 +265,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: gdpr
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 65.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asknicely/refs/heads/main/screenshots/asknicely-2026-08-07T161800.png
 security:
@@ -281,7 +294,7 @@ slug: asknicely
 tags:
 - Company
 - Customer Experience
-- NPS
+- Net Promoter Score
 - Surveys
 - Feedback
 - Reputation Management

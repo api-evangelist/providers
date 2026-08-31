@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 175
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 319
   slug: bentley-systems-agentic-access
   summary_line: 319 operations · 175 acting
-api_count: 87
+api_count: 31
 apis:
 - description: Server-side visualization service for rendering iTwins in web browsers without client compute. Supports interactive viewers and image generation.
   name: iTwin Visualization API
@@ -780,6 +780,10 @@ collections:
   name: iTwin Webhooks API
   slug: open-itwin-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bentley-systems-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1116,7 +1120,7 @@ overview: 'Bentley Systems publishes 86 APIs on the [APIs.io](https://apis.io/) 
   The Bentley Systems catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Bentley Systems'' developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, signup flow, pricing, and 50 more developer resources.'
+  Bentley Systems'' developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, signup flow, pricing, and 51 more developer resources.'
 plans:
 - name: Bentley Systems Plans Pricing
   plan_count: 4
@@ -1156,6 +1160,11 @@ scopes:
 score:
   band: strong
   composite: 64.1
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 72.4
@@ -1174,8 +1183,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 86
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bentley-systems/refs/heads/main/screenshots/bentley-systems-2026-06-20T173147.png
 security:

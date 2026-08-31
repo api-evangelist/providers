@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 193
   human_in_the_loop: 11
@@ -31,7 +31,7 @@ agentic_access:
   operation_count: 381
   slug: gravitee-agentic-access
   summary_line: 381 operations · 193 acting · 11 human-in-the-loop
-api_count: 55
+api_count: 2
 apis:
 - description: Gravitee Cockpit is the multi-environment, multi-installation control plane for Gravitee. It centralizes management of multiple APIM and AM installations (dev, staging, prod, regions) into one console
   name: Gravitee Cockpit
@@ -87,9 +87,6 @@ apis:
 - description: The dataPlane API from Gravitee — 1 operation(s) for dataplane.
   name: Gravitee dataPlane API
   slug: gravitee-dataplane-api
-- description: The Device Identifier API from Gravitee — 3 operation(s) for device identifier.
-  name: Gravitee Device Identifier API
-  slug: gravitee-device-identifier-api
 - description: The device identifiers API from Gravitee — 2 operation(s) for device identifiers.
   name: Gravitee device identifiers API
   slug: gravitee-device-identifiers-api
@@ -135,9 +132,6 @@ apis:
 - description: The Newsletter API from Gravitee — 2 operation(s) for newsletter.
   name: Gravitee Newsletter API
   slug: gravitee-newsletter-api
-- description: The Notifier API from Gravitee — 3 operation(s) for notifier.
-  name: Gravitee Notifier API
-  slug: gravitee-notifier-api
 - description: The Organizations API from Gravitee — 5 operation(s) for organizations.
   name: Gravitee Organizations API
   slug: gravitee-organizations-api
@@ -156,12 +150,6 @@ apis:
 - description: Discover policies, endpoints, entrypoints, and resources installed in the gateway
   name: Gravitee Plugins API
   slug: gravitee-plugins-api
-- description: The Policy API from Gravitee — 4 operation(s) for policy.
-  name: Gravitee Policy API
-  slug: gravitee-policy-api
-- description: The preview API from Gravitee — 1 operation(s) for preview.
-  name: Gravitee preview API
-  slug: gravitee-preview-api
 - description: The protected-resource API from Gravitee — 8 operation(s) for protected-resource.
   name: Gravitee protected-resource API
   slug: gravitee-protected-resource-api
@@ -198,7 +186,7 @@ apis:
 - description: Manage Gravitee users
   name: Gravitee Users API
   slug: gravitee-users-api
-artifact_total: 179
+artifact_total: 175
 collections:
 - collection_type: postman
   name: Gravitee.io - Access Management alerts API
@@ -507,6 +495,10 @@ collections:
   name: Gravitee.io - Access Management alerts Users API
   slug: open-gravitee-users-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/gravitee-capability-edges.yml
 - group: operate
   title: ''
   type: Releases
@@ -714,13 +706,13 @@ modified: '2026-05-21'
 name: Gravitee
 nav: Providers
 network: true
-overview: 'Gravitee publishes 50 APIs on the [APIs.io](https://apis.io/) network, including alerts API, Analytics API, API Products API, and 47 more. Tagged areas include API Gateway, API Management, Access Management, Identity, and Event-Driven.
+overview: 'Gravitee publishes 46 APIs on the [APIs.io](https://apis.io/) network, including alerts API, Analytics API, API Products API, and 43 more. Tagged areas include API Gateway, API Management, Access Management, Identity, and Event-Driven.
 
 
   The Gravitee catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Gravitee''s developer surface includes signup flow, authentication, documentation, getting-started guide, engineering blog, pricing, changelog, and 25 more developer resources.'
+  Gravitee''s developer surface includes signup flow, authentication, documentation, getting-started guide, engineering blog, pricing, changelog, and 26 more developer resources.'
 plans:
 - name: Gravitee Plans Pricing
   plan_count: 9
@@ -754,18 +746,26 @@ rules:
   slug: gravitee-rules
 score:
   band: developing
-  composite: 53.4
-  delta: 6.2
+  composite: 52.9
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 49.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.8
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
     contract_governance: 13.6
-    contract_quality: 57.7
+    contract_quality: 59.0
     developer_ergonomics: 73.8
-    discoverability: 75.9
+    discoverability: 70.4
     governance: 13.6
     operational_transparency: 26.3
-  previous_composite: 47.2
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 53.7
   provenance:
     agentic_access: derived
     contracts:
@@ -773,9 +773,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 50
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/screenshots/gravitee-2026-06-20T182344.png
 security:
 - kind: authentication

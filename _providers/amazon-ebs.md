@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 7
   slug: amazon-ebs-agentic-access
   summary_line: 7 operations · 5 acting
-api_count: 6
+api_count: 1
 apis:
 - description: The Amazon EBS Amazon Elastic Block Store (EBS) API API from Amazon EBS — 1 operation(s) for amazon ebs amazon elastic block store (ebs) api.
   name: Amazon EBS Amazon EBS Amazon Elastic Block Store (EBS) API API
@@ -339,18 +339,23 @@ rules:
   slug: amazon-ebs-spectral-rules
 score:
   band: strong
-  composite: 60.2
-  delta: 6.6
+  composite: 59.6
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 53.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
     contract_governance: 28.8
     contract_quality: 70.1
     developer_ergonomics: 69.0
-    discoverability: 66.7
+    discoverability: 61.1
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 53.6
+  previous_composite: 60.2
   provenance:
     agentic_access: derived
     contracts:
@@ -358,9 +363,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ebs/refs/heads/main/screenshots/amazon-ebs-2026-06-20T171636.png
 security:
 - kind: authentication

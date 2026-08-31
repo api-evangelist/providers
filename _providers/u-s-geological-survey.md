@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-08-26'
+  score: 32.5
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,8 +42,11 @@ agentic_access:
   operation_count: 11
   slug: u-s-geological-survey-agentic-access
   summary_line: 11 operations
-api_count: 11
+api_count: 1
 apis:
+- description: The USGS Water Data OGC API — an OGC API Features service declaring 18 conformance classes, including OGC API Common Parts 1-3, Features Parts 1-4 and CQL2 filtering, and serving 37 collections. Verif
+  name: USGS Water Data APIs
+  slug: water-data-ogc-api
 - description: The USGS Asset Identifier Service (AIS) allows USGS personnel to reserve, register, publish, and manage USGS persistent identifiers to make research more Findable, Accessible, Interoperable, and Reusa
   name: Asset Identifier Service (AIS)
   slug: asset-identifier-service-ais
@@ -62,9 +65,6 @@ apis:
 - description: Discover available catalogs, contributors, and supported parameter values.
   name: U.S. Geological Survey Catalog API
   slug: u-s-geological-survey-catalog-api
-- description: The USGS Water Data OGC API — a conformant OGC API - Features implementation over the national water observation network, exposing 36 collections (monitoring locations, continuous and daily values, fi
-  name: USGS Water Data OGC API
-  slug: usgs-water-data-ogc-api
 - description: Query and retrieve earthquake event data from the USGS earthquake catalog.
   name: U.S. Geological Survey Earthquakes API
   slug: u-s-geological-survey-earthquakes-api
@@ -77,7 +77,115 @@ apis:
 - description: Continuous and daily value water data from USGS monitoring locations.
   name: U.S. Geological Survey Time Series Data API
   slug: u-s-geological-survey-time-series-data-api
-artifact_total: 99
+- description: Code identifying the agency or organization used for site information, data sources, and permitting agencies. Agency codes are fixed values assigned by the National Water Information System (NWIS).
+  name: U.S. Geological Survey Agency Codes API
+  slug: u-s-geological-survey-agency-codes-api
+- description: The recommended vertical datum is NAVD88 (North American Vertical Datum of 1988) where applicable as stated in Office of Information Technical Memo 2002.01. NGVD29 (National Geodetic Vertical Datum of
+  name: U.S. Geological Survey Altitude Datums API
+  slug: u-s-geological-survey-altitude-datums-api
+- description: Local aquifers in USGS data are identified by an aquifer name and geohydrologic unit code (a three-digit number related to the age of the formation, followed by a 4 or 5 character abbreviation for the
+  name: U.S. Geological Survey Aquifer Codes API
+  slug: u-s-geological-survey-aquifer-codes-api
+- description: Groundwater occurs in aquifers under two different conditions. Where water only partly fills an aquifer, the upper surface is free to rise and decline. These aquifers are referred to as unconfined (or
+  name: U.S. Geological Survey Aquifer Types API
+  slug: u-s-geological-survey-aquifer-types-api
+- description: Channel measurements taken as part of streamflow field measurements.
+  name: U.S. Geological Survey Channel Measurements API
+  slug: u-s-geological-survey-channel-measurements-api
+- description: Citations associated with water measurement methods.
+  name: U.S. Geological Survey Citations API
+  slug: u-s-geological-survey-citations-api
+- description: This endpoint combines metadata from timeseries and field measurements collections by site.
+  name: U.S. Geological Survey Combined Metadata API
+  slug: u-s-geological-survey-combined-metadata-api
+- description: Continuous data are collected via automated sensors installed at a monitoring location. They are collected at a high frequency and often at a fixed 15-minute interval. Depending on the specific monito
+  name: U.S. Geological Survey Continuous API
+  slug: u-s-geological-survey-continuous-api
+- description: Appropriate code on the schedule to indicate the accuracy of the latitude-longitude values.
+  name: U.S. Geological Survey Coordinate Accuracy Codes API
+  slug: u-s-geological-survey-coordinate-accuracy-codes-api
+- description: Horizontal datum code for the latitude/longitude coordinates. There are currently more than 300 horizontal datums available for entry.
+  name: U.S. Geological Survey Coordinate Datum Codes API
+  slug: u-s-geological-survey-coordinate-datum-codes-api
+- description: Methods used to determine latitude-longitude values.
+  name: U.S. Geological Survey Coordinate Method Codes API
+  slug: u-s-geological-survey-coordinate-method-codes-api
+- description: The name of the county or county equivalent (parish, borough, planning reagion, etc.) in which the site is located. List includes Census Bureau FIPS county codes, names and associated Country and Stat
+  name: U.S. Geological Survey Counties API
+  slug: u-s-geological-survey-counties-api
+- description: FIPS country codes and names.
+  name: U.S. Geological Survey Countries API
+  slug: u-s-geological-survey-countries-api
+- description: Daily data provide one data value to represent water conditions for the day. Throughout much of the history of the USGS, the primary water data available was daily data collected manually at the monit
+  name: U.S. Geological Survey Daily API
+  slug: u-s-geological-survey-daily-api
+- description: Field measurements are physically measured values collected during a visit to the monitoring location. Field measurements consist of measurements of gage height and discharge, and readings of groundwa
+  name: U.S. Geological Survey Field Measurements API
+  slug: u-s-geological-survey-field-measurements-api
+- description: This endpoint provides metadata about field measurement collections, including when the earliest and most recent observations for a parameter occurred at a monitoring location and its units.
+  name: U.S. Geological Survey Field Measurements Metadata API
+  slug: u-s-geological-survey-field-measurements-metadata-api
+- description: 'Hydrologic units are geographic areas representing part or all of a surface drainage basin or distinct hydrologic feature identified by a unique number (HUC), and a name. The United States is divided '
+  name: U.S. Geological Survey Hydrologic Unit Codes API
+  slug: u-s-geological-survey-hydrologic-unit-codes-api
+- description: This endpoint provides the most recent observation for each time series of continuous data. Continuous data are collected via automated sensors installed at a monitoring location. They are collected a
+  name: U.S. Geological Survey Latest Continuous API
+  slug: u-s-geological-survey-latest-continuous-api
+- description: Daily data provide one data value to represent water conditions for the day. Throughout much of the history of the USGS, the primary water data available was daily data collected manually at the monit
+  name: U.S. Geological Survey Latest Daily API
+  slug: u-s-geological-survey-latest-daily-api
+- description: Field measurements are physically measured values collected during a visit to the monitoring location. Field measurements consist of measurements of gage height and discharge, and readings of groundwa
+  name: U.S. Geological Survey Latest Field Measurements API
+  slug: u-s-geological-survey-latest-field-measurements-api
+- description: Medium refers to the specific environmental medium from which the sample was collected. Medium type differs from site type because one site type, such as surface water, could have data for several med
+  name: U.S. Geological Survey Medium Codes API
+  slug: u-s-geological-survey-medium-codes-api
+- description: Categorical standards for methods describing the associated data's appropriateness for an intended use.
+  name: U.S. Geological Survey Method Categories API
+  slug: u-s-geological-survey-method-categories-api
+- description: Citation identifiers for water measurement methods.
+  name: U.S. Geological Survey Method Citations API
+  slug: u-s-geological-survey-method-citations-api
+- description: Water measurement or water-quality analytical methods. Codes and descriptions defining a method for calculating or measuring the value of a water quality or quantity parameter. Method codes are associ
+  name: U.S. Geological Survey Methods API
+  slug: u-s-geological-survey-methods-api
+- description: National aquifers are the principal aquifers or aquifer systems in the United States, defined as regionally extensive aquifers or aquifer systems that have the potential to be used as a source of pota
+  name: U.S. Geological Survey National Aquifer Codes API
+  slug: u-s-geological-survey-national-aquifer-codes-api
+- description: Parameter codes are 5-digit codes and associated descriptions used to identify the constituent measured and the units of measure. Some parameter code definitions include information about the sampling
+  name: U.S. Geological Survey Parameter Codes API
+  slug: u-s-geological-survey-parameter-codes-api
+- description: Annual peak flow values are the maximum instantaneous streamflow values recorded at a particular site for the entire water year from October 1 to September 30. Note that the annual peak flow value may
+  name: U.S. Geological Survey Peaks API
+  slug: u-s-geological-survey-peaks-api
+- description: Code indicating the reliability of the data available for the site.
+  name: U.S. Geological Survey Reliability Codes API
+  slug: u-s-geological-survey-reliability-codes-api
+- description: The United States Geological Survey (USGS) collects water data at monitoring locations across the United States using both automated sensors and manual data collection. These APIs provide access to th
+  name: U.S. Geological Survey Server API
+  slug: u-s-geological-survey-server-api
+- description: The hydrologic cycle setting or a man-made feature thought to affect the hydrologic conditions measured at a site. Primary and secondary site types associated with data collection sites. All sites hav
+  name: U.S. Geological Survey Site Types API
+  slug: u-s-geological-survey-site-types-api
+- description: State name or territory. Includes U.S. states and foreign entities classified under FIPS as 'Principal Administrative Divisions'.
+  name: U.S. Geological Survey States API
+  slug: u-s-geological-survey-states-api
+- description: Statistic codes.
+  name: U.S. Geological Survey Statistic Codes API
+  slug: u-s-geological-survey-statistic-codes-api
+- description: 'Daily data and continuous measurements are grouped into time series, which represent a collection of observations of a single parameter, potentially aggregated using a standard statistic, at a single '
+  name: U.S. Geological Survey Time Series Metadata API
+  slug: u-s-geological-survey-time-series-metadata-api
+- description: Approved water data are considered published record, but on occasion changes or deletions (revisions) must be made to data after they are approved. Data revisions are rare because of USGS quality assu
+  name: U.S. Geological Survey Time Series Revisions API
+  slug: u-s-geological-survey-time-series-revisions-api
+- description: The ISO 8601 standard defines time zone offsets as a numerical value added to a local time to convert it to Coordinated Universal Time (UTC), either as +hh:mm or -hh:mm, or represented by the letter Z
+  name: U.S. Geological Survey Time Zone Codes API
+  slug: u-s-geological-survey-time-zone-codes-api
+- description: The code that best describes the topographic setting in which the site is located. Topographic setting refers to the geomorphic features in the vicinity of the site.
+  name: U.S. Geological Survey Topographic Codes API
+  slug: u-s-geological-survey-topographic-codes-api
+artifact_total: 135
 collections:
 - collection_type: open
   name: API Collection
@@ -353,7 +461,7 @@ modified: '2026-05-19'
 name: U.S. Geological Survey
 nav: Providers
 network: true
-overview: 'U.S. Geological Survey publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Catalog API, USGS Water Data OGC API, Earthquakes API, and 3 more. Tagged areas include Federal Government, Geological, Earth Science, Natural Resources, and Earthquake.
+overview: 'U.S. Geological Survey publishes 42 APIs on the [APIs.io](https://apis.io/) network, including USGS Water Data APIs, Catalog API, Earthquakes API, and 39 more. Tagged areas include Federal-Government, Geological, Earth Science, Natural Resources, and Earthquake.
 
 
   The U.S. Geological Survey catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
@@ -403,18 +511,23 @@ rules:
   slug: usgs-spectral-rules
 score:
   band: thin
-  composite: 31.0
-  delta: 3.0
+  composite: 30.1
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 38.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 47.0
-    contract_quality: 30.5
+    contract_quality: 31.3
     developer_ergonomics: 35.7
-    discoverability: 64.8
+    discoverability: 53.7
     governance: 47.0
     operational_transparency: 7.9
-  previous_composite: 28.0
+  previous_composite: 30.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -429,8 +542,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/screenshots/u-s-geological-survey-2026-06-20T195914.png
 security:
@@ -448,7 +561,7 @@ security:
   summary_line: security.txt · contact published
 slug: u-s-geological-survey
 tags:
-- Federal Government
+- Federal-Government
 - Geological
 - Earth Science
 - Natural Resources

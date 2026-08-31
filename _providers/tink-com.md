@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 63
   slug: tink-com-agentic-access
   summary_line: 63 operations · 25 acting · 1 human-in-the-loop
-api_count: 25
+api_count: 9
 apis:
 - description: User bank accounts and balances.
   name: Tink Accounts API
@@ -285,6 +285,10 @@ collections:
   name: Tink Webhooks API
   slug: open-tink-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/tink-com-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -528,7 +532,7 @@ overview: 'Tink publishes 25 APIs on the [APIs.io](https://apis.io/) network, in
   The Tink catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tink''s developer surface includes authentication, developer portal, documentation, developer console, signup flow, pricing, changelog, and 34 more developer resources.'
+  Tink''s developer surface includes authentication, developer portal, documentation, developer console, signup flow, pricing, changelog, and 35 more developer resources.'
 plans:
 - name: Tink Com Plans Pricing
   plan_count: 2
@@ -561,16 +565,21 @@ rules:
     warn: 3
   slug: tink-rules
 score:
-  band: exemplar
-  composite: 66.8
-  delta: 0.9
+  band: strong
+  composite: 65.9
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 29.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 28.8
     contract_quality: 73.9
     developer_ergonomics: 52.4
-    discoverability: 74.1
+    discoverability: 64.8
     governance: 28.8
     operational_transparency: 78.9
   previous_composite: 65.9
@@ -587,8 +596,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 44.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tink-com/refs/heads/main/screenshots/tink-com-2026-06-20T195409.png
 security:

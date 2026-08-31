@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 9
 apis:
 - description: A hosted REST API that generates ready-to-broadcast calldata for every Pendle protocol action — swap (including tokens-to-PT, PT-to-tokens, YT swaps), add and remove liquidity, ZPI (zero-price-impact)
@@ -64,6 +64,10 @@ apis:
   slug: boros-core-contracts
 artifact_total: 45
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/pendle-finance/boros-sdk-public/issues
 - group: commercial
   title: ''
   type: License
@@ -218,12 +222,17 @@ network: true
 overview: 'Pendle Finance publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, Yield Trading, Yield Stripping, Principal Tokens, and Yield Tokens.
 
 
-  Pendle Finance''s developer surface includes documentation, API reference, engineering blog, code examples, and 17 more developer resources.'
+  Pendle Finance''s developer surface includes documentation, API reference, engineering blog, code examples, and 18 more developer resources.'
 random_paper: 15
 score:
-  band: thin
-  composite: 27.0
-  delta: 2.4
+  band: emerging
+  composite: 24.3
+  coverage:
+    artifact_dirs: 4
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -233,9 +242,12 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 2.6
-  previous_composite: 24.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 0.0
+  previous_composite: 24.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pendle-finance/refs/heads/main/screenshots/pendle-finance-2026-06-20T191634.png
 security:
@@ -258,7 +270,7 @@ tags:
 - AMM
 - Fixed Yield
 - Perpetual Yield
-- Ve Pendle
+- vePENDLE
 - Boros
 - EVM
 use_cases:

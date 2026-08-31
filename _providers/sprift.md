@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,29 +43,32 @@ agentic_access:
   operation_count: 27
   slug: sprift-agentic-access
   summary_line: 27 operations · 3 acting
-api_count: 7
+api_count: 1
 apis:
-- description: The Property tag of the published Sprift v1 contract — the largest family in the harvested Swagger document, with ten operations. POST /property/search generates a Sprift property report for a UPRN an
-  name: Sprift Property API
-  slug: sprift-property-api
-- description: The Property V2 tag of the published Sprift v1 contract — eight operations that resolve and decompose a property into single-purpose reads rather than one large record. GET /property/{uprn}/search ret
-  name: Sprift Property V2 API
-  slug: sprift-property-v2-api
-- description: The Search tag of the published Sprift v1 contract — three operations for finding a property before you can read it. GET /search takes a free-text phrase, GET /search/postcode/{postcode} returns addre
-  name: Sprift Search API
-  slug: sprift-search-api
-- description: 'The Insider tag of the published Sprift v1 contract — two operations exposing the market intelligence product that sits behind sprift.com/insider. GET /insider/{outcode} searches active properties by '
-  name: Sprift Insider API
-  slug: sprift-insider-api
-- description: 'The Share tag of the published Sprift v1 contract — a single POST /share operation that produces a shareable link to a Sprift report for a given property ID and report type, with the same report type '
-  name: Sprift Report Share API
-  slug: sprift-share-api
-- description: The User tag of the published Sprift v1 contract — two operations, POST /user/login and GET /user/logout, that exist specifically for embedding. The contract is explicit that this is not the authentic
-  name: Sprift User API
-  slug: sprift-user-api
 - description: The API family Sprift advertises on its Data and API product page, recorded here as advertised and NOT as verified. The page names ten REST endpoint paths — /api/v2/property/{uprn} (300 data point pro
   name: Sprift Data and API (v2, advertised)
   slug: sprift-data-and-api-v2
+- description: The Home API from Sprift — 1 operation(s) for home.
+  name: Sprift Home API
+  slug: sprift-home-api
+- description: The Insider API from Sprift — 2 operation(s) for insider.
+  name: Sprift Insider API
+  slug: sprift-insider-api
+- description: The Property API from Sprift — 10 operation(s) for property.
+  name: Sprift Property API
+  slug: sprift-property-api
+- description: The Property V2 API from Sprift — 8 operation(s) for property v2.
+  name: Sprift Property V2 API
+  slug: sprift-property-v2-api
+- description: The Search API from Sprift — 3 operation(s) for search.
+  name: Sprift Search API
+  slug: sprift-search-api
+- description: The Share API from Sprift — 1 operation(s) for share.
+  name: Sprift Share API
+  slug: sprift-share-api
+- description: The User API from Sprift — 2 operation(s) for user.
+  name: Sprift User API
+  slug: sprift-user-api
 arazzos:
 - description: Resolve a held address to a UPRN and Sprift property ID, then enrich with EPC, council tax, nearby schools, nearby transport, TV availability and imagery.
   name: Sprift — enrich a CRM record with property data
@@ -82,7 +85,7 @@ arazzos:
 - description: Resolve a UPRN to Sprift's internal property ID, then collect the price estimate, unified comparables, recently sold evidence and live for-sale stock.
   name: Sprift — valuation evidence pack
   slug: sprift-valuation-evidence
-artifact_total: 18
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Sprift Webhooks
@@ -269,7 +272,7 @@ modified: '2026-07-26'
 name: Sprift
 nav: Providers
 network: true
-overview: 'Sprift publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Property API, Property V2 API, Search API, and 3 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Data, and Property Listings.
+overview: 'Sprift publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Home API, Insider API, Property API, and 4 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Data, and Property Listings.
 
 
   The Sprift catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -279,18 +282,23 @@ overview: 'Sprift publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 random_paper: 13
 score:
   band: developing
-  composite: 40.6
-  delta: -0.4
+  composite: 39.5
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 85.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 16.7
-    contract_quality: 54.4
+    contract_governance: 4.5
+    contract_quality: 55.2
     developer_ergonomics: 49.4
-    discoverability: 61.1
-    governance: 16.7
+    discoverability: 63.0
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 41.0
+  previous_composite: 40.1
   provenance:
     agentic_access: derived
     conformance: derived
@@ -301,8 +309,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprift/refs/heads/main/screenshots/sprift-2026-08-17T082046.png
 security:

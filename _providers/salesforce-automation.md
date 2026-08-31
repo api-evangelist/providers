@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 104
   slug: salesforce-automation-agentic-access
   summary_line: 104 operations · 42 acting
-api_count: 42
+api_count: 11
 apis:
 - description: Enterprise-grade SOAP API for complex integrations and bulk operations.
   name: Salesforce SOAP API
@@ -437,6 +437,10 @@ collections:
   name: Salesforce Tooling API
   slug: open-salesforce-tooling-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/salesforce-automation-capability-edges.yml
 - group: other
   title: ''
   type: ParentCompany
@@ -858,7 +862,7 @@ overview: 'Salesforce Automation publishes 38 APIs on the [APIs.io](https://apis
   The Salesforce Automation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesforce Automation''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, signup flow, GitHub presence, and 31 more developer resources.'
+  Salesforce Automation''s developer surface includes authentication, developer portal, documentation, engineering blog, pricing, signup flow, GitHub presence, and 32 more developer resources.'
 plans:
 - name: Salesforce Automation Plans Pricing
   plan_count: 1
@@ -898,7 +902,12 @@ scopes:
 score:
   band: strong
   composite: 55.4
-  delta: 3.8
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -908,7 +917,7 @@ score:
     discoverability: 66.7
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 51.6
+  previous_composite: 55.4
   provenance:
     agentic_access: derived
     contracts:
@@ -916,8 +925,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 38
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-automation/refs/heads/main/screenshots/salesforce-automation-2026-06-20T193343.png
 security:

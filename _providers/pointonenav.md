@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: GraphQL interface for Point One workflow and data management, authenticated with an API key issued from app.pointonenav.com.
@@ -44,6 +44,14 @@ apis:
   slug: polaris-rtk-network-service
 artifact_total: 4
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/PointOneNav/polaris/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/PointOneNav/polaris/releases
 - group: commercial
   title: ''
   type: License
@@ -139,11 +147,16 @@ network: true
 overview: 'Pointonenav publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Positioning, GNSS, RTK, and Navigation.
 
 
-  Pointonenav''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, CLI, and 14 more developer resources.'
+  Pointonenav''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, CLI, and 16 more developer resources.'
 random_paper: 4
 score:
   band: emerging
-  composite: 21.9
+  composite: 22.2
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 10.5
@@ -154,11 +167,14 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 42.1
-  previous_composite: 21.9
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 22.2
   provenance:
     conformance: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

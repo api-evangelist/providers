@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 146
   slug: depictai-agentic-access
   summary_line: 146 operations · 79 acting
-api_count: 35
+api_count: 3
 apis:
 - description: The Ab Test API from Depict.AI — 2 operation(s) for ab test.
   name: Depict.AI Ab Test API
@@ -261,6 +261,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/depictai-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/depictai-lite-overlay.yaml
 - group: start
@@ -407,10 +411,10 @@ modified: '2026-07-18'
 name: Depict.AI
 nav: Providers
 network: true
-overview: 'Depict.AI publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Ab Test API, Analytics API, Boost Bury API, and 32 more. Tagged areas include Company, E-Commerce, Search, Recommendations, and Merchandising.
+overview: 'Depict.AI publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Ab Test API, Analytics API, Boost Bury API, and 32 more. Tagged areas include Company, E Commerce, Search, Recommendations, and Merchandising.
 
 
-  Depict.AI''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 27 more developer resources.'
+  Depict.AI''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 28 more developer resources.'
 random_paper: 16
 scopes:
 - name: Depictai Scopes
@@ -419,18 +423,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.9
+  composite: 43.3
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 49.1
     developer_ergonomics: 61.3
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 28.9
-  previous_composite: 45.9
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -441,8 +450,8 @@ score:
       total: 35
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depictai/refs/heads/main/screenshots/depictai-2026-07-25T211734.png
 security:
@@ -461,7 +470,7 @@ security:
 slug: depictai
 tags:
 - Company
-- E-Commerce
+- E Commerce
 - Search
 - Recommendations
 - Merchandising

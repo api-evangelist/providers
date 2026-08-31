@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -34,19 +34,94 @@ agentic_access:
   summary_line: 121 operations · 48 acting
 api_count: 4
 apis:
-- description: The full Alto REST API for UK estate agency operations — 95 documented paths across 27 resource families covering contacts and applicants, property inventory, listings and media, appraisals and valuat
-  name: Alto API
-  slug: alto-api
-- description: Swagger 2.0 poll API for retrieving applicant leads and appraisal (valuation) leads generated on the Zoopla portal, published by Houseful for contracted Zoopla agency customers and their software part
-  name: Zoopla Leads API
-  slug: zoopla-leads-api
-- description: OpenAPI 3.0.0 contract for activating and inspecting Zoopla Premium Listing products against a property listing, exposed at /products/premium-listings and /products/premium-listings/{uuid}. OAuth2 cli
-  name: Zoopla Premium Listing Activations API
-  slug: zoopla-premium-listing-activations-api
-- description: OpenAPI 3.0.0 contract for activating Zoopla Weekly Featured Property placements against a listing, exposed at /products/weekly-featured-properties and /products/weekly-featured-properties/{uuid}. OAu
-  name: Zoopla Weekly Featured Property (WFP) Activations API
-  slug: zoopla-weekly-featured-property-api
-artifact_total: 16
+- description: The Appointments API from Alto (Vebra / Zoopla) — 7 operation(s) for appointments.
+  name: Alto (Vebra / Zoopla) Appointments API
+  slug: alto-vebra-appointments-api
+- description: The Appraisals API from Alto (Vebra / Zoopla) — 2 operation(s) for appraisals.
+  name: Alto (Vebra / Zoopla) Appraisals API
+  slug: alto-vebra-appraisals-api
+- description: The Branches API from Alto (Vebra / Zoopla) — 2 operation(s) for branches.
+  name: Alto (Vebra / Zoopla) Branches API
+  slug: alto-vebra-branches-api
+- description: The Charges API from Alto (Vebra / Zoopla) — 2 operation(s) for charges.
+  name: Alto (Vebra / Zoopla) Charges API
+  slug: alto-vebra-charges-api
+- description: The Clients API from Alto (Vebra / Zoopla) — 1 operation(s) for clients.
+  name: Alto (Vebra / Zoopla) Clients API
+  slug: alto-vebra-clients-api
+- description: The Contacts API from Alto (Vebra / Zoopla) — 13 operation(s) for contacts.
+  name: Alto (Vebra / Zoopla) Contacts API
+  slug: alto-vebra-contacts-api
+- description: The Documents API from Alto (Vebra / Zoopla) — 5 operation(s) for documents.
+  name: Alto (Vebra / Zoopla) Documents API
+  slug: alto-vebra-documents-api
+- description: The FileNotes API from Alto (Vebra / Zoopla) — 4 operation(s) for filenotes.
+  name: Alto (Vebra / Zoopla) File Notes API
+  slug: alto-vebra-filenotes-api
+- description: The Inventory API from Alto (Vebra / Zoopla) — 10 operation(s) for inventory.
+  name: Alto (Vebra / Zoopla) Inventory API
+  slug: alto-vebra-inventory-api
+- description: The Landlords API from Alto (Vebra / Zoopla) — 2 operation(s) for landlords.
+  name: Alto (Vebra / Zoopla) Landlords API
+  slug: alto-vebra-landlords-api
+- description: The Leads API from Alto (Vebra / Zoopla) — 2 operation(s) for leads.
+  name: Alto (Vebra / Zoopla) Leads API
+  slug: alto-vebra-leads-api
+- description: The LettingsProgression API from Alto (Vebra / Zoopla) — 1 operation(s) for lettingsprogression.
+  name: Alto (Vebra / Zoopla) Lettings Progression API
+  slug: alto-vebra-lettingsprogression-api
+- description: The Listing API from Alto (Vebra / Zoopla) — 7 operation(s) for listing.
+  name: Alto (Vebra / Zoopla) Listing API
+  slug: alto-vebra-listing-api
+- description: The ManagementEvents API from Alto (Vebra / Zoopla) — 3 operation(s) for managementevents.
+  name: Alto (Vebra / Zoopla) Management Events API
+  slug: alto-vebra-managementevents-api
+- description: The Media API from Alto (Vebra / Zoopla) — 3 operation(s) for media.
+  name: Alto (Vebra / Zoopla) Media API
+  slug: alto-vebra-media-api
+- description: The Negotiators API from Alto (Vebra / Zoopla) — 2 operation(s) for negotiators.
+  name: Alto (Vebra / Zoopla) Negotiators API
+  slug: alto-vebra-negotiators-api
+- description: The Offers API from Alto (Vebra / Zoopla) — 1 operation(s) for offers.
+  name: Alto (Vebra / Zoopla) Offers API
+  slug: alto-vebra-offers-api
+- description: The Owners API from Alto (Vebra / Zoopla) — 1 operation(s) for owners.
+  name: Alto (Vebra / Zoopla) Owners API
+  slug: alto-vebra-owners-api
+- description: The Parameters API from Alto (Vebra / Zoopla) — 6 operation(s) for parameters.
+  name: Alto (Vebra / Zoopla) Parameters API
+  slug: alto-vebra-parameters-api
+- description: The Partners API from Alto (Vebra / Zoopla) — 3 operation(s) for partners.
+  name: Alto (Vebra / Zoopla) Partners API
+  slug: alto-vebra-partners-api
+- description: The Products API from Alto (Vebra / Zoopla) — 4 operation(s) for products.
+  name: Alto (Vebra / Zoopla) Products API
+  slug: alto-vebra-products-api
+- description: The ReferenceChecks API from Alto (Vebra / Zoopla) — 2 operation(s) for referencechecks.
+  name: Alto (Vebra / Zoopla) Reference Checks API
+  slug: alto-vebra-referencechecks-api
+- description: The Referral API from Alto (Vebra / Zoopla) — 1 operation(s) for referral.
+  name: Alto (Vebra / Zoopla) Referral API
+  slug: alto-vebra-referral-api
+- description: The Referrals API from Alto (Vebra / Zoopla) — 1 operation(s) for referrals.
+  name: Alto (Vebra / Zoopla) Referrals API
+  slug: alto-vebra-referrals-api
+- description: The REST Endpoints API from Alto (Vebra / Zoopla) — 2 operation(s) for rest endpoints.
+  name: Alto (Vebra / Zoopla) REST Endpoints API
+  slug: alto-vebra-rest-endpoints-api
+- description: The SalesProgression API from Alto (Vebra / Zoopla) — 2 operation(s) for salesprogression.
+  name: Alto (Vebra / Zoopla) Sales Progression API
+  slug: alto-vebra-salesprogression-api
+- description: The Suppliers API from Alto (Vebra / Zoopla) — 3 operation(s) for suppliers.
+  name: Alto (Vebra / Zoopla) Suppliers API
+  slug: alto-vebra-suppliers-api
+- description: The Tenancies API from Alto (Vebra / Zoopla) — 6 operation(s) for tenancies.
+  name: Alto (Vebra / Zoopla) Tenancies API
+  slug: alto-vebra-tenancies-api
+- description: The WorkOrders API from Alto (Vebra / Zoopla) — 3 operation(s) for workorders.
+  name: Alto (Vebra / Zoopla) Work Orders API
+  slug: alto-vebra-workorders-api
+artifact_total: 41
 asyncapis:
 - description: 'Event notifications Alto delivers to a partner-hosted HTTPS endpoint when data changes in an Alto agency tenancy. Faithfully transcribed by API Evangelist from the webhook catalogue Alto publishes at '
   name: Alto Webhooks
@@ -68,6 +143,26 @@ collections:
   name: Weekly Featured Property (WFP) Activations
   slug: open-zoopla-weekly-featured-property
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/alto-vebra-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/alto-vebra-alto-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/alto-vebra-zoopla-leads-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/alto-vebra-zoopla-premium-listing-activations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/alto-vebra-zoopla-weekly-featured-property-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -252,13 +347,13 @@ modified: '2026-07-26'
 name: Alto (Vebra / Zoopla)
 nav: Providers
 network: true
-overview: 'Alto (Vebra / Zoopla) publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Alto API, Zoopla Leads API, Zoopla Premium Listing Activations API, and 1 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Listings, and CRM.
+overview: 'Alto (Vebra / Zoopla) publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Appointments API, Appraisals API, Branches API, and 26 more. Tagged areas include Real-Estate, United Kingdom, PropTech, Property Listings, and CRM.
 
 
   The Alto (Vebra / Zoopla) catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
 
 
-  Alto (Vebra / Zoopla)''s developer surface includes authentication, documentation, developer portal, engineering blog, support, changelog, sandbox, and 36 more developer resources.'
+  Alto (Vebra / Zoopla)''s developer surface includes authentication, documentation, developer portal, engineering blog, support, changelog, sandbox, and 41 more developer resources.'
 random_paper: 18
 scopes:
 - name: Alto Vebra Scopes
@@ -267,18 +362,23 @@ scopes:
   summary_line: 104 scopes · clientCredentials
 score:
   band: developing
-  composite: 49.7
-  delta: -0.4
+  composite: 46.7
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 55.9
+    contract_governance: 4.5
+    contract_quality: 56.2
     developer_ergonomics: 66.1
-    discoverability: 88.9
-    governance: 16.7
+    discoverability: 72.2
+    governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 50.1
+  previous_composite: 46.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -289,8 +389,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alto-vebra/refs/heads/main/screenshots/alto-vebra-2026-08-07T161256.png
 security:

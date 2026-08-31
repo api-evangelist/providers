@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 14
   slug: diffbot-agentic-access
   summary_line: 14 operations · 1 acting
-api_count: 11
+api_count: 1
 apis:
 - description: The Diffbot DQL API is a powerful tool that allows users to query and retrieve data from the web in a structured format. By using a simple query language, users can access a wealth of information from
   name: Diffbot DQL API
@@ -197,15 +197,20 @@ rate_limits:
   slug: diffbot-rate-limits
 score:
   band: thin
-  composite: 34.6
-  delta: 0.0
+  composite: 34.8
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 79.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 45.6
     developer_ergonomics: 23.8
-    discoverability: 55.6
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 26.3
   needs_work:
@@ -214,7 +219,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 34.6
+  previous_composite: 35.4
   provenance:
     agentic_access: derived
     contracts:
@@ -222,8 +227,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/screenshots/diffbot-2026-06-20T180012.png
 security:

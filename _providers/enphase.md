@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.7
-  scored_at: '2026-08-26'
+  score: 32.6
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 7
@@ -33,16 +33,88 @@ agentic_access:
   summary_line: 148 operations · 40 acting · 7 human-in-the-loop
 api_count: 3
 apis:
-- description: 'The Monitoring API is the consumer-data surface of the Enphase platform and the only self-serve one. Documented across 48 paths and eight tags — System Details, Site Level Production Monitoring, Site '
-  name: Enphase Monitoring API
-  slug: enphase-monitoring-api
-- description: The Commissioning API is the installer-facing administrative surface, documented across 21 paths and eleven tags — Activations, Arrays, Companies, Users, Home Owner, Meters, Grid Profiles, Tariff, Est
-  name: Enphase Commissioning API
-  slug: enphase-commissioning-api
-- description: The Virtual Power Plant API is the grid-services surface, sold only to utilities, aggregators, DERMS providers and third-party owners registered as Enphase Grid Services partners — the pricing page ca
-  name: Enphase VPP API
-  slug: enphase-vpp-api
-artifact_total: 15
+- description: The Activations API from Enphase Energy — 5 operation(s) for activations.
+  name: Enphase Energy Activations API
+  slug: enphase-activations-api
+- description: Applications API
+  name: Enphase Energy Applications API
+  slug: enphase-applications-api
+- description: The Arrays API from Enphase Energy — 1 operation(s) for arrays.
+  name: Enphase Energy Arrays API
+  slug: enphase-arrays-api
+- description: Auth Controller
+  name: Enphase Energy Auth API
+  slug: enphase-auth-api
+- description: The Companies API from Enphase Energy — 4 operation(s) for companies.
+  name: Enphase Energy Companies API
+  slug: enphase-companies-api
+- description: The Device Level Monitoring API from Enphase Energy — 7 operation(s) for device level monitoring.
+  name: Enphase Energy Device Level Monitoring API
+  slug: enphase-device-level-monitoring-api
+- description: The Estimate API from Enphase Energy — 1 operation(s) for estimate.
+  name: Enphase Energy Estimate API
+  slug: enphase-estimate-api
+- description: The EV Charger Control API from Enphase Energy — 2 operation(s) for ev charger control.
+  name: Enphase Energy EV Charger Control API
+  slug: enphase-ev-charger-control-api
+- description: The EV Charger Monitoring API from Enphase Energy — 6 operation(s) for ev charger monitoring.
+  name: Enphase Energy EV Charger Monitoring API
+  slug: enphase-ev-charger-monitoring-api
+- description: Events API
+  name: Enphase Energy Events API
+  slug: enphase-events-api
+- description: Forecast API (Contact us if you are interested in using this endpoint)
+  name: Enphase Energy Forecast API
+  slug: enphase-forecast-api
+- description: The Grid Profiles API from Enphase Energy — 1 operation(s) for grid profiles.
+  name: Enphase Energy Grid Profiles API
+  slug: enphase-grid-profiles-api
+- description: The Home Owner API from Enphase Energy — 1 operation(s) for home owner.
+  name: Enphase Energy Home Owner API
+  slug: enphase-home-owner-api
+- description: Manage VPPs API
+  name: Enphase Energy Manage VPPs API
+  slug: enphase-manage-vpps-api
+- description: The Meters API from Enphase Energy — 2 operation(s) for meters.
+  name: Enphase Energy Meters API
+  slug: enphase-meters-api
+- description: Programs API
+  name: Enphase Energy Programs API
+  slug: enphase-programs-api
+- description: The PvManufacturers API from Enphase Energy — 1 operation(s) for pvmanufacturers.
+  name: Enphase Energy Pv Manufacturers API
+  slug: enphase-pvmanufacturers-api
+- description: The PvModels API from Enphase Energy — 1 operation(s) for pvmodels.
+  name: Enphase Energy Pv Models API
+  slug: enphase-pvmodels-api
+- description: The Site Level Consumption Monitoring API from Enphase Energy — 11 operation(s) for site level consumption monitoring.
+  name: Enphase Energy Site Level Consumption Monitoring API
+  slug: enphase-site-level-consumption-monitoring-api
+- description: The Site Level Production Monitoring API from Enphase Energy — 5 operation(s) for site level production monitoring.
+  name: Enphase Energy Site Level Production Monitoring API
+  slug: enphase-site-level-production-monitoring-api
+- description: The Streaming APIs API from Enphase Energy — 1 operation(s) for streaming apis.
+  name: Enphase Energy Streaming APIs API
+  slug: enphase-streaming-apis-api
+- description: System and Device Configuration API
+  name: Enphase Energy System and Device Configuration API
+  slug: enphase-system-and-device-configuration-api
+- description: The System Configurations API from Enphase Energy — 4 operation(s) for system configurations.
+  name: Enphase Energy System Configurations API
+  slug: enphase-system-configurations-api
+- description: System Details And Telemetry API
+  name: Enphase Energy System Details And Telemetry API
+  slug: enphase-system-details-and-telemetry-api
+- description: The System Details API from Enphase Energy — 12 operation(s) for system details.
+  name: Enphase Energy System Details API
+  slug: enphase-system-details-api
+- description: The Tariff API from Enphase Energy — 1 operation(s) for tariff.
+  name: Enphase Energy Tariff API
+  slug: enphase-tariff-api
+- description: The Users API from Enphase Energy — 4 operation(s) for users.
+  name: Enphase Energy Users API
+  slug: enphase-users-api
+artifact_total: 39
 asyncapis:
 - description: Server-sent event stream of a single Enphase system's real-time power state. Derived by API Evangelist from the published Monitoring API operation getLiveData, which produces text/event-stream and car
   name: Enphase Enlighten Live Status Stream
@@ -58,6 +130,22 @@ collections:
   name: API Reference
   slug: open-enphase-vpp-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/enphase-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/enphase-monitoring-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/enphase-commissioning-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/enphase-vpp-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -251,13 +339,13 @@ modified: '2026-07-27'
 name: Enphase Energy
 nav: Providers
 network: true
-overview: 'Enphase Energy publishes 3 APIs on the [APIs.io](https://apis.io/) network: Enphase Monitoring API, Enphase Commissioning API, and Enphase VPP API. Tagged areas include Energy, United States, Solar, DER, and Renewables.
+overview: 'Enphase Energy publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Activations API, Applications API, Arrays API, and 24 more. Tagged areas include Energy, United States, Solar, DER, and Renewables.
 
 
   The Enphase Energy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Enphase Energy''s developer surface includes authentication, changelog, signup flow, documentation, getting-started guide, pricing, support, and 38 more developer resources.'
+  Enphase Energy''s developer surface includes authentication, changelog, signup flow, documentation, getting-started guide, pricing, support, and 42 more developer resources.'
 plans:
 - name: Enphase Plans
   plan_count: 5
@@ -274,18 +362,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 68.9
+  composite: 66.7
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 30.3
-    contract_quality: 61.2
+    contract_governance: 18.2
+    contract_quality: 57.8
     developer_ergonomics: 57.7
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 68.4
-  previous_composite: 68.9
+  previous_composite: 66.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -297,8 +390,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/screenshots/enphase-2026-08-07T164929.png
 security:

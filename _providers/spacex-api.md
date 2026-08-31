@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 26
   slug: spacex-api-agentic-access
   summary_line: 26 operations · 1 acting
-api_count: 11
+api_count: 1
 apis:
 - description: SpaceX Dragon capsule data
   name: SpaceX API Capsules API
@@ -118,6 +118,14 @@ collections:
   name: SpaceX API
   slug: open-spacex-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/r-spacex/SpaceX-API/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/r-spacex/SpaceX-API/releases
 - group: commercial
   title: ''
   type: License
@@ -185,7 +193,7 @@ overview: 'SpaceX API publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
   The SpaceX API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  SpaceX API''s developer surface includes GitHub presence, documentation, and 6 more developer resources.'
+  SpaceX API''s developer surface includes GitHub presence, documentation, and 8 more developer resources.'
 plans:
 - name: Spacex Api Plans Pricing
   plan_count: 3
@@ -218,18 +226,26 @@ rules:
   slug: spacex-api-rules
 score:
   band: thin
-  composite: 29.4
-  delta: 1.8
+  composite: 30.3
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 48.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 25.0
     contract_quality: 60.3
     developer_ergonomics: 0.0
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 25.0
-    operational_transparency: 13.2
-  previous_composite: 27.6
+    operational_transparency: 28.9
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 30.8
   provenance:
     agentic_access: derived
     contracts:
@@ -237,8 +253,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacex-api/refs/heads/main/screenshots/spacex-api-2026-06-20T194252.png
 security:

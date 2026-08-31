@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,17 +42,8 @@ agentic_access:
   operation_count: 16
   slug: carnegie-mellon-university-agentic-access
   summary_line: 16 operations
-api_count: 7
+api_count: 6
 apis:
-- description: Public, anonymously accessible HTTP/JSON API operated by the Delphi research group at Carnegie Mellon University, serving real-time and historical epidemiological surveillance data — COVIDcast indicat
-  name: Delphi Epidata API
-  slug: delphi-epidata
-- description: Public read API for the CERT Coordination Center's Vulnerability Notes database, operated by the CERT Division of the Software Engineering Institute — a federally funded research and development cente
-  name: CERT/CC Vulnerability Notes API
-  slug: cert-vulnerability-notes
-- description: REST API and conformant OAI-PMH 2.0 provider for the Carnegie Mellon University Library Publishing Service, the open-access publishing programme run by University Libraries. Exposes five journals (Lan
-  name: CMU Library Publishing Service API + OAI-PMH
-  slug: library-publishing
 - description: Carnegie Mellon's campus-wide single sign-on identity provider, running Shibboleth on CMU's own host and address space (login.cmu.edu, 128.2.42.22). Its SAML 2.0 metadata is publicly readable at the c
   name: CMU Web Login (Shibboleth SAML 2.0 Identity Provider)
   slug: web-login-sso
@@ -65,7 +56,43 @@ apis:
 - description: A public JSON API for Carnegie Mellon dining locations, hours and menus, built and run by ScottyLabs, a CMU student organization, at api.cmueats.com. It exists because CMU's own dining surface does no
   name: CMU Eats API (ScottyLabs) — student-operated
   slug: cmu-eats-scottylabs
-artifact_total: 25
+- description: Published articles.
+  name: Carnegie Mellon University Articles API
+  slug: carnegie-mellon-university-articles-api
+- description: COVIDcast real-time indicator signals across geographies.
+  name: Carnegie Mellon University Covidcast API
+  slug: carnegie-mellon-university-covidcast-api
+- description: Syndication.
+  name: Carnegie Mellon University Feeds API
+  slug: carnegie-mellon-university-feeds-api
+- description: US ILINet influenza-like-illness surveillance (CDC FluView).
+  name: Carnegie Mellon University Fluview API
+  slug: carnegie-mellon-university-fluview-api
+- description: Delphi's own nowcasts and forecasts.
+  name: Carnegie Mellon University Forecasts API
+  slug: carnegie-mellon-university-forecasts-api
+- description: Issues within a journal.
+  name: Carnegie Mellon University Issues API
+  slug: carnegie-mellon-university-issues-api
+- description: The journals CMU Libraries publishes.
+  name: Carnegie Mellon University Journals API
+  slug: carnegie-mellon-university-journals-api
+- description: Service metadata and version.
+  name: Carnegie Mellon University Meta API
+  slug: carnegie-mellon-university-meta-api
+- description: Vulnerability Notes.
+  name: Carnegie Mellon University Notes API
+  slug: carnegie-mellon-university-notes-api
+- description: OAI-PMH 2.0 metadata harvesting provider.
+  name: Carnegie Mellon University Oai Pmh API
+  slug: carnegie-mellon-university-oai-pmh-api
+- description: Preprint repository objects.
+  name: Carnegie Mellon University Preprints API
+  slug: carnegie-mellon-university-preprints-api
+- description: Per-vendor coordination status.
+  name: Carnegie Mellon University Vendors API
+  slug: carnegie-mellon-university-vendors-api
+artifact_total: 34
 common:
 - group: company
   title: ''
@@ -271,7 +298,7 @@ modified: '2026-08-19'
 name: Carnegie Mellon University
 nav: Providers
 network: true
-overview: 'Carnegie Mellon University publishes 3 APIs on the [APIs.io](https://apis.io/) network: Delphi Epidata API, CERT/CC Vulnerability Notes API, and CMU Library Publishing Service API + OAI-PMH. Tagged areas include University, Higher Education, Education, United States, and Private Research University.
+overview: 'Carnegie Mellon University publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Articles API, Covidcast API, Feeds API, and 9 more. Tagged areas include University, Higher Education, Education, United States, and Private Research University.
 
 
   The Carnegie Mellon University catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -316,18 +343,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 41.9
+  composite: 42.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 32.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 17.4
-    contract_quality: 26.3
+    contract_quality: 29.0
     developer_ergonomics: 35.7
     discoverability: 74.1
     governance: 17.4
     operational_transparency: 23.7
-  previous_composite: 41.9
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -342,8 +374,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carnegie-mellon-university/refs/heads/main/screenshots/carnegie-mellon-university-2026-06-20T174011.png
 security:

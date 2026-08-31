@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 51
   slug: amazon-codebuild-agentic-access
   summary_line: 51 operations · 50 acting · 3 human-in-the-loop
-api_count: 47
+api_count: 2
 apis:
 - description: Operations for starting, stopping, and viewing builds
   name: Amazon CodeBuild Builds API
@@ -331,6 +331,10 @@ collections:
   name: 'AWS CodeBuild Builds #X Amz Target=CodeBuild 20161006.UpdateWebhook API'
   slug: open-amazon-codebuild-x-amz-target-codebuild-20161006-updatewebhook-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-codebuild-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -2470,7 +2474,7 @@ overview: 'Amazon CodeBuild publishes 47 APIs on the [APIs.io](https://apis.io/)
   The Amazon CodeBuild catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon CodeBuild''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 24 more developer resources.'
+  Amazon CodeBuild''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 25 more developer resources.'
 random_paper: 13
 rules:
 - effective_rule_count: 5
@@ -2495,19 +2499,24 @@ rules:
     warn: 11
   slug: amazon-codebuild-spectral-rules
 score:
-  band: strong
-  composite: 54.9
-  delta: 1.4
+  band: developing
+  composite: 53.6
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 60.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 45.5
+    contract_governance: 33.3
     contract_quality: 71.2
     developer_ergonomics: 59.5
-    discoverability: 68.5
-    governance: 45.5
+    discoverability: 70.4
+    governance: 33.3
     operational_transparency: 18.4
-  previous_composite: 53.5
+  previous_composite: 54.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -2517,8 +2526,8 @@ score:
       marker_coverage: 0.0
       total: 47
     mcp: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codebuild/refs/heads/main/screenshots/amazon-codebuild-2026-07-25T195953.png
 security:

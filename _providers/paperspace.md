@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 113
   slug: paperspace-agentic-access
   summary_line: 113 operations · 62 acting · 2 human-in-the-loop
-api_count: 25
+api_count: 4
 apis:
 - description: 'Programmatically manage Paperspace virtual machines — GPU and CPU compute instances. Covers the machine lifecycle (create, start, stop, restart, delete), machine events, team-member access grants per '
   name: Paperspace Machines API
@@ -287,6 +287,14 @@ collections:
   name: Paperspace Templates and Startup Scripts API
   slug: open-paperspace-templates-api
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/digital-ocean/
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/paperspace-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -519,7 +527,7 @@ overview: 'Paperspace publishes 25 APIs on the [APIs.io](https://apis.io/) netwo
   The Paperspace catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Paperspace''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, developer console, engineering blog, and 37 more developer resources.'
+  Paperspace''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, developer console, engineering blog, and 39 more developer resources.'
 plans:
 - name: Paperspace Plans Pricing
   plan_count: 6
@@ -554,6 +562,11 @@ rules:
 score:
   band: strong
   composite: 60.2
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
@@ -572,8 +585,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 25
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/screenshots/paperspace-2026-06-20T191351.png
 security:

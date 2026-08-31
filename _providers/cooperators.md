@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -33,9 +33,12 @@ agentic_access:
   summary_line: 10 operations · 9 acting
 api_count: 1
 apis:
-- description: Partner-gated embedded insurance API from Duuo, the digital insurance brand of The Co-operators. Duuo's own published documentation describes APIs for account, quote and policy, risk rating and paymen
-  name: Duuo Platform API
-  slug: duuo-platform-api
+- description: Quote and bind Duuo event insurance. Ordered flow — create entity, create quote, get quote, make payment. With bindOnPayment=true (the default for API partners) the policy is created and emailed autom
+  name: The Co-operators Event Insurance API
+  slug: cooperators-event-insurance-api
+- description: Quote and bind Duuo tenant (renters) insurance. Ordered flow — check eligibility, update quote, add insured, make payment. Duuo notes that Get Quote Status and Get Policies were documented as "to be r
+  name: The Co-operators Tenant Insurance API
+  slug: cooperators-tenant-insurance-api
 arazzos:
 - description: 'The full Duuo event insurance partner flow in Duuo''s mandatory order: create the entity, price the event, retrieve the quote for display, then generate the Duuo-hosted payment redirect. With bindOnPay'
   name: Duuo event insurance — quote and bind
@@ -43,12 +46,20 @@ arazzos:
 - description: 'The full Duuo tenant (renters) insurance partner flow in Duuo''s mandatory order: check eligibility with consent, add the risk detail and price it into four options, record the selection and any additi'
   name: Duuo tenant insurance — quote and bind
   slug: cooperators-tenant-insurance-quote-and-bind
-artifact_total: 8
+artifact_total: 9
 collections:
 - collection_type: open
   name: Duuo Platform API
   slug: open-cooperators-duuo-platform
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/cooperators-duuo-platform-overlay.yaml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/cooperators-mcp.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -160,31 +171,36 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.j
 layout: provider
 mcp_servers:
 - description: ''
-  name: Duuo Platform MCP tool surface (CANDIDATE — derived from the OpenAPI, NOT published or hosted by the provider)
-  slug: duuo-platform-mcp-tool-surface-candidate-derived-from-the-openapi-not-published-or-hosted-by-the-provider
+  name: The Co-operators MCP Server
+  slug: the-co-operators-mcp-server
 modified: '2026-07-25'
 name: The Co-operators
 nav: Providers
 network: true
-overview: 'The Co-operators publishes 1 API on the [APIs.io](https://apis.io/) network: Duuo Platform API. Tagged areas include Insurance, Canada, Property and Casualty, Life Insurance, and Group Benefits.
+overview: 'The Co-operators publishes 2 APIs on the [APIs.io](https://apis.io/) network: Event Insurance API and Tenant Insurance API. Tagged areas include Insurance, Canada, Property and Casualty, Life Insurance, and Group Benefits.
 
 
-  The Co-operators'' developer surface includes authentication, support, product news, engineering blog, sandbox, and 21 more developer resources.'
+  The Co-operators'' developer surface includes authentication, support, product news, engineering blog, sandbox, and 23 more developer resources.'
 random_paper: 4
 score:
   band: thin
-  composite: 31.3
-  delta: 6.9
+  composite: 30.6
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 13.9
     developer_ergonomics: 49.4
-    discoverability: 59.3
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 24.4
+  previous_composite: 30.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -201,9 +217,9 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 48.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cooperators/refs/heads/main/screenshots/cooperators-2026-07-25T210405.png
 security:
 - kind: authentication
@@ -222,7 +238,7 @@ tags:
 - Life Insurance
 - Group Benefits
 - Embedded Insurance
-- Cooperative
+- Co-operative
 - Wealth Management
 - Partner API
 website: https://www.cooperators.ca/

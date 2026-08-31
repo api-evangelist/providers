@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 224
   human_in_the_loop: 8
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 505
   slug: avalara-agentic-access
   summary_line: 505 operations · 224 acting · 8 human-in-the-loop
-api_count: 73
+api_count: 17
 apis:
 - description: Automate compliance with Avalara MCP servers for AI-driven tax workflows and APIs. Have your agent call our agent.
   name: Avalara
@@ -608,6 +608,10 @@ collections:
   name: Avalara AvaTax APIs
   slug: open-avatax-apis
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/avalara-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -2681,7 +2685,7 @@ overview: 'Avalara publishes 68 APIs on the [APIs.io](https://apis.io/) network,
   The Avalara catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Avalara''s developer surface includes authentication, sandbox, changelog, engineering blog, support, developer portal, training material, and 87 more developer resources.'
+  Avalara''s developer surface includes authentication, sandbox, changelog, engineering blog, support, developer portal, training material, and 88 more developer resources.'
 plans:
 - name: Avalara Plans Pricing
   plan_count: 5
@@ -2731,18 +2735,23 @@ scopes:
   summary_line: 24 scopes
 score:
   band: strong
-  composite: 63.6
+  composite: 61.0
+  coverage:
+    artifact_dirs: 35
+    catalog_gap: 62.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
-    contract_governance: 59.1
+    contract_governance: 47.0
     contract_quality: 68.9
     developer_ergonomics: 69.0
-    discoverability: 68.5
-    governance: 59.1
+    discoverability: 57.4
+    governance: 47.0
     operational_transparency: 42.1
-  previous_composite: 63.6
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -2752,8 +2761,8 @@ score:
       marker_coverage: 2.9
       total: 68
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 42
   slug: twenty-agentic-access
   summary_line: 42 operations · 25 acting
-api_count: 9
+api_count: 2
 apis:
 - description: Company CRM records
   name: Twenty companies API
@@ -144,10 +144,6 @@ common:
   title: ''
   type: BlogRSS
   url: https://github.com/twentyhq/twenty/releases.atom
-- group: company
-  title: ''
-  type: Blog
-  url: blogs/blogs.json
 - group: design
   title: ''
   type: Vocabulary
@@ -223,7 +219,7 @@ overview: 'Twenty publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
   The Twenty catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Twenty''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
+  Twenty''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Twenty Plans Pricing
   plan_count: 3
@@ -246,18 +242,23 @@ rules:
   slug: twenty-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.5
-  delta: 0.6
+  composite: 46.0
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 34.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 25.0
     contract_quality: 73.7
     developer_ergonomics: 23.8
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 25.0
     operational_transparency: 36.8
-  previous_composite: 45.9
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     contracts:
@@ -265,8 +266,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twenty/refs/heads/main/screenshots/twenty-2026-06-20T195948.png
 security:

@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: verified
+    error_semantics: documented
     event_surface_described: false
     idempotency: documented
     mcp_server: verified
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 59.5
-  scored_at: '2026-08-26'
+  score: 56.7
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -44,13 +44,37 @@ agentic_access:
   summary_line: 11 operations · 3 acting
 api_count: 2
 apis:
-- description: REST API exposing asynchronous forecasts with quantile bands and driver attribution, ranked external drivers, alerts, the region/category catalog, account balance and tier, and paginated billing histo
-  name: Sybilion Operational API
-  slug: sybilion-operational-api
 - description: Hosted Streamable-HTTP MCP server providing agent-native tools for forecasts (submit_forecast, get_forecast, get_forecast_chart, get_forecast_artifact), alerts (get_alerts) and catalog discovery (list
   name: Sybilion MCP Server
   slug: sybilion-mcp-server
-artifact_total: 11
+- description: The Alerts API from Sybilion — 1 operation(s) for alerts.
+  name: Sybilion Alerts API
+  slug: sybilion-alerts-api
+- description: The Categories API from Sybilion — 1 operation(s) for categories.
+  name: Sybilion Categories API
+  slug: sybilion-categories-api
+- description: The Drivers API from Sybilion — 1 operation(s) for drivers.
+  name: Sybilion Drivers API
+  slug: sybilion-drivers-api
+- description: The Forecasts API from Sybilion — 3 operation(s) for forecasts.
+  name: Sybilion Forecasts API
+  slug: sybilion-forecasts-api
+- description: The Health API from Sybilion — 1 operation(s) for health.
+  name: Sybilion Health API
+  slug: sybilion-health-api
+- description: The Jobs API from Sybilion — 1 operation(s) for jobs.
+  name: Sybilion Jobs API
+  slug: sybilion-jobs-api
+- description: The Me API from Sybilion — 1 operation(s) for me.
+  name: Sybilion Me API
+  slug: sybilion-me-api
+- description: The Regions API from Sybilion — 1 operation(s) for regions.
+  name: Sybilion Regions API
+  slug: sybilion-regions-api
+- description: The Usage API from Sybilion — 1 operation(s) for usage.
+  name: Sybilion Usage API
+  slug: sybilion-usage-api
+artifact_total: 19
 collections:
 - collection_type: open
   name: Sybilion API
@@ -199,7 +223,7 @@ modified: '2026-08-11'
 name: Sybilion
 nav: Providers
 network: true
-overview: 'Sybilion publishes 1 API on the [APIs.io](https://apis.io/) network: Operational API. Tagged areas include Industrial market intelligence, Commodity price forecasting, Economic Forecasting, Time-series forecasting, and Procurement.
+overview: 'Sybilion publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Categories API, Drivers API, and 6 more. Tagged areas include Industrial market intelligence, Commodity price forecasting, Economic forecasting, Time-series forecasting, and Procurement.
 
 
   Sybilion''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
@@ -219,18 +243,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 44.2
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
-    contract_governance: 16.7
-    contract_quality: 48.2
+    contract_governance: 4.5
+    contract_quality: 50.5
     developer_ergonomics: 56.5
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 46.2
+  previous_composite: 44.7
   provenance:
     agentic_access: derived
     conformance: derived
@@ -241,8 +270,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/screenshots/sybilion-2026-08-17T082216.png
 security:
@@ -258,15 +287,15 @@ slug: sybilion
 tags:
 - Industrial market intelligence
 - Commodity price forecasting
-- Economic Forecasting
+- Economic forecasting
 - Time-series forecasting
 - Procurement
-- Supply Chain Risk
+- Supply-chain risk
 - Trading analytics
 - AI decision support
 - MCP
-- agent-native
-- Causal Inference
-- Anomaly Detection
+- Agent-native
+- Causal inference
+- Anomaly detection
 website: https://www.sybilion.com/
 ---

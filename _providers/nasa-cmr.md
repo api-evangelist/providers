@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 10
   slug: nasa-cmr-agentic-access
   summary_line: 10 operations · 1 acting
-api_count: 9
+api_count: 2
 apis:
 - description: REST API for creating, updating, and deleting metadata records in the Common Metadata Repository. Supports collections, granules, variables, services, tools, and subscriptions. Requires EDL Bearer Tok
   name: CMR Ingest API
@@ -234,17 +234,25 @@ rules:
   slug: nasa-cmr-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.7
-  delta: 0.0
+  composite: 41.3
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 39.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.4
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
     contract_governance: 9.8
     contract_quality: 55.3
     developer_ergonomics: 16.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 68.4
+  open_source:
+    applies: true
+    score: 25.0
   previous_composite: 43.7
   provenance:
     agentic_access: derived
@@ -259,8 +267,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-cmr/refs/heads/main/screenshots/nasa-cmr-2026-06-20T185946.png
 security:

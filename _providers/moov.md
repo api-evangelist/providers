@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 68
   slug: moov-agentic-access
   summary_line: 68 operations · 36 acting · 4 human-in-the-loop
-api_count: 16
+api_count: 2
 apis:
 - description: 'Moov.js is a client-side JavaScript SDK designed to streamline interactions with the Moov API while keeping personally identifiable information out of developer infrastructure. All PII is transmitted '
   name: Moov.js
@@ -92,7 +92,16 @@ apis:
 - description: Create and manage Moov digital wallets that hold funds within the platform. Supports wallet transactions and balance adjustments.
   name: Moov Wallets API
   slug: moov-wallets-api
-artifact_total: 127
+- description: Virtual spending cards, authorizations, and card transactions.
+  name: Moov Card Issuing API
+  slug: moov-card-issuing-api
+- description: Financial institution lookup by routing number.
+  name: Moov Institutions API
+  slug: moov-institutions-api
+- description: Underwriting details used to enable card acquiring and higher-risk activity.
+  name: Moov Underwriting API
+  slug: moov-underwriting-api
+artifact_total: 130
 asyncapis:
 - description: Moov delivers real-time event notifications to your application via webhooks when state changes occur on your platform. When an event occurs, Moov sends an HTTP POST request with a JSON payload to you
   name: Moov Webhooks
@@ -156,6 +165,10 @@ collections:
   name: Moov Accounts Wallets API
   slug: open-moov-wallets-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/moov-capability-edges.yml
 - group: operate
   title: ''
   type: Roadmap
@@ -479,13 +492,13 @@ modified: '2026-08-08'
 name: Moov
 nav: Providers
 network: true
-overview: 'Moov publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Bank Accounts API, and 10 more. Tagged areas include Banking, Embedded Finance, Financial Infrastructure, Money Movement, and Payments.
+overview: 'Moov publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Bank Accounts API, and 13 more. Tagged areas include Banking, Embedded Finance, Financial Infrastructure, Money Movement, and Payments.
 
 
   The Moov catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Moov''s developer surface includes support, changelog, getting-started guide, authentication, developer portal, documentation, engineering blog, and 16 more developer resources.'
+  Moov''s developer surface includes support, changelog, getting-started guide, authentication, developer portal, documentation, engineering blog, and 17 more developer resources.'
 plans:
 - name: Moov Plans Pricing
   plan_count: 7
@@ -519,18 +532,23 @@ rules:
   slug: moov-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 58.1
-  delta: 0.0
+  composite: 56.5
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 52.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
     contract_governance: 13.6
-    contract_quality: 84.6
+    contract_quality: 80.4
     developer_ergonomics: 50.0
-    discoverability: 72.2
+    discoverability: 66.7
     governance: 13.6
     operational_transparency: 52.6
-  previous_composite: 58.1
+  previous_composite: 57.1
   provenance:
     agentic_access: derived
     contracts:
@@ -544,8 +562,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/screenshots/moov-2026-08-07T184251.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 11
 apis:
 - description: Open dataset of global address points and ranges, released as cloud-native GeoParquet alongside the other Overture themes.
@@ -71,6 +71,22 @@ apis:
   slug: tiles
 artifact_total: 15
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/OvertureMaps/schema/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/OvertureMaps/schema/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/OvertureMaps/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/OvertureMaps/schema/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -130,7 +146,7 @@ network: true
 overview: 'Overture Maps Foundation publishes 11 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Maps, Geospatial, Open Data, GeoParquet, and Open-Source.
 
 
-  Overture Maps Foundation''s developer surface includes documentation, GitHub presence, engineering blog, and 8 more developer resources.'
+  Overture Maps Foundation''s developer surface includes documentation, GitHub presence, engineering blog, and 12 more developer resources.'
 plans:
 - name: Overture Maps Plans Pricing
   plan_count: 1
@@ -142,7 +158,12 @@ rate_limits:
   slug: overture-maps-rate-limits
 score:
   band: emerging
-  composite: 18.1
+  composite: 24.5
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -152,16 +173,19 @@ score:
     developer_ergonomics: 11.9
     discoverability: 81.5
     governance: 0.0
-    operational_transparency: 26.3
-  previous_composite: 18.1
+    operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 24.5
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overture-maps/refs/heads/main/screenshots/overture-maps-2026-06-20T191239.png
 security:

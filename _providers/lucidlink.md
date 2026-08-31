@@ -1,17 +1,17 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: documented
@@ -22,21 +22,31 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.2
-  scored_at: '2026-08-26'
-api_count: 3
+  score: 31.0
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
-- description: The public, LucidLink-hosted REST API for managing domains, filespaces and billing. Organized around REST with JSON request/response bodies and OAuth2 client-credentials authentication against https:/
-  name: LucidLink Service API
-  slug: lucidlink-service-api
 - description: The self-hosted administrative REST API for the new LucidLink platform, delivered as the lucidlink/lucidlink-api Docker image and run on customer infrastructure so that LucidLink's zero-knowledge mode
   name: LucidLink Management API
   slug: lucidlink-management-api
 - description: The LucidLink-hosted workspace web service used by the LucidLink apps and by the admin tool surface of the official LucidLink MCP server. Exposes service accounts, workspaces, members, groups, filespa
   name: LucidLink Web Service API v2
   slug: lucidlink-web-service-api-v2
-artifact_total: 10
+- description: Billing operations.
+  name: LucidLink Billing API
+  slug: lucidlink-billing-api
+- description: Domain operations.
+  name: LucidLink Domain API
+  slug: lucidlink-domain-api
+- description: Filespace operations.
+  name: LucidLink Filespace API
+  slug: lucidlink-filespace-api
+artifact_total: 12
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/lucidlink-service-api-overlay.yaml
 - group: auth
   title: ''
   type: TrustCenter
@@ -190,10 +200,10 @@ modified: '2026-08-25'
 name: LucidLink
 nav: Providers
 network: true
-overview: 'LucidLink publishes 1 API on the [APIs.io](https://apis.io/) network: Service API. Tagged areas include Company, Cloud Storage, File Streaming, File Collaboration, and Media and Entertainment.
+overview: 'LucidLink publishes 3 APIs on the [APIs.io](https://apis.io/) network: Billing API, Domain API, and Filespace API. Tagged areas include Company, Cloud Storage, File Streaming, File Collaboration, and Media and Entertainment.
 
 
-  LucidLink''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  LucidLink''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Lucidlink Plans Pricing
   plan_count: 3
@@ -210,16 +220,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 57.3
+  composite: 56.1
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 77.6
     commercial_clarity: 77.6
-    contract_governance: 30.3
-    contract_quality: 40.8
+    contract_governance: 18.2
+    contract_quality: 41.3
     developer_ergonomics: 80.4
-    discoverability: 74.1
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 34.2
+  previous_composite: 56.7
   provenance:
     conformance: first-party
     contracts:
@@ -229,8 +246,9 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Lucidlink Authentication

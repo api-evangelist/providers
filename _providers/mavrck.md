@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-08-26'
-api_count: 183
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
 - description: 'The Reporting API exposes Later Influence campaign performance for aggregation outside the platform: instance-level KPIs and time series, campaign performance and estimated ROI, social-network channel'
   name: Later Influence (Mavrck) Reporting API
@@ -44,9 +44,6 @@ apis:
 - description: The full Mavrck (Later Influence) platform surface — 548 paths, 687 operations and 1071 schema definitions covering global users and memberships, communities and lists, campaigns, action groups and ca
   name: Mavrck Platform API
   slug: mavrck-platform-api
-- description: 'The one outbound event Mavrck (Later Influence) emits: an HTTPS POST to a subscriber-registered URL whenever an influencer is added to one of the subscriber''s campaigns or moves between that campaign'''
-  name: Mavrck Workflow Stage Change Event Webhook
-  slug: mavrck-workflow-stage-change-webhook
 - description: The AccountInvitations API from Mavrck — 5 operation(s) for accountinvitations.
   name: Mavrck Account Invitations API
   slug: mavrck-accountinvitations-api
@@ -587,7 +584,7 @@ apis:
 - description: The Social Network Level API from Mavrck — 2 operation(s) for social network level.
   name: Mavrck Social Network Level API
   slug: mavrck-social-network-level-api
-artifact_total: 363
+artifact_total: 362
 asyncapis:
 - description: 'AsyncAPI description of the Mavrck (Later Influence) outbound webhook surface, derived faithfully from the provider''s own published contract: "Workflow Stage Change Event Webhook" 1.0.0, an OpenAPI 3.'
   name: Mavrck Webhooks
@@ -1116,6 +1113,14 @@ collections:
   name: MAVRCK.IO Ytbc Brand Channels API
   slug: open-mavrck-ytbcbrandchannels-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/mavrck-capability-edges.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/mavrck-receive-workflow-stage-change-webhook.md
 - group: auth
   title: ''
   type: Authentication
@@ -1245,13 +1250,13 @@ modified: '2026-08-12'
 name: Mavrck
 nav: Providers
 network: true
-overview: 'Mavrck publishes 182 APIs on the [APIs.io](https://apis.io/) network, including Later Influence (Mavrck) Reporting API, Workflow Stage Change Event Webhook, Account Invitations API, and 179 more. Tagged areas include Company, Influencer Marketing, Creator Economy, Marketing, and Advertising.
+overview: 'Mavrck publishes 181 APIs on the [APIs.io](https://apis.io/) network, including Later Influence (Mavrck) Reporting API, Account Invitations API, Action Groups API, and 178 more. Tagged areas include Company, Influencer Marketing, Creator Economy, Marketing, and Advertising.
 
 
   The Mavrck catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Mavrck''s developer surface includes authentication, documentation, API reference, getting-started guide, support, changelog, and 24 more developer resources.'
+  Mavrck''s developer surface includes authentication, documentation, API reference, getting-started guide, support, changelog, and 26 more developer resources.'
 plans:
 - name: Mavrck Plans Pricing
   plan_count: 0
@@ -1263,18 +1268,23 @@ rate_limits:
   slug: mavrck-rate-limits
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 47.8
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 91.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
-    contract_governance: 30.3
-    contract_quality: 56.0
+    contract_governance: 18.2
+    contract_quality: 56.1
     developer_ergonomics: 47.0
-    discoverability: 57.4
-    governance: 30.3
+    discoverability: 51.9
+    governance: 18.2
     operational_transparency: 47.4
-  previous_composite: 49.8
+  previous_composite: 48.4
   provenance:
     conformance: first-party
     contracts:
@@ -1290,8 +1300,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mavrck/refs/heads/main/screenshots/mavrck-2026-07-25T230437.png
 security:

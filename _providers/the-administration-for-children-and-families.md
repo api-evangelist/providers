@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 48
   slug: the-administration-for-children-and-families-agentic-access
   summary_line: 48 operations · 15 acting
-api_count: 5
+api_count: 1
 apis:
 - description: The TANF Data Portal (TDP) is a secure, web-based data reporting system for state agencies to submit Temporary Assistance for Needy Families (TANF) program data to ACF. It provides data submission wor
   name: TANF Data Portal
@@ -74,6 +74,22 @@ collections:
   name: TDP API
   slug: open-the-administration-for-children-and-families
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/HHS/TANF-app/issues
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/HHS/TANF-app/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/HHS/TANF-app/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/HHS/TANF-app/blob/main/CONTRIBUTING.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -164,7 +180,7 @@ overview: 'The Administration for Children and Families publishes 2 APIs on the 
   The The Administration for Children and Families catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  The Administration for Children and Families'' developer surface includes authentication, documentation, and 12 more developer resources.'
+  The Administration for Children and Families'' developer surface includes authentication, documentation, and 16 more developer resources.'
 plans:
 - name: The Administration For Children And Families Plans Pricing
   plan_count: 3
@@ -187,18 +203,26 @@ rules:
   slug: the-administration-for-children-and-families-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.2
-  delta: 0.0
+  composite: 39.1
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 49.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 25.0
     contract_quality: 54.0
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
-    operational_transparency: 10.5
-  previous_composite: 34.2
+    operational_transparency: 21.1
+  open_source:
+    applies: true
+    score: 75.0
+  previous_composite: 39.7
   provenance:
     agentic_access: derived
     contracts:
@@ -212,8 +236,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-administration-for-children-and-families/refs/heads/main/screenshots/the-administration-for-children-and-families-2026-06-20T195211.png
 security:

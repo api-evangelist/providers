@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: amazon-polly-agentic-access
   summary_line: 15 operations · 7 acting
-api_count: 5
+api_count: 2
 apis:
 - description: The Lexicons API from Amazon Polly — 2 operation(s) for lexicons.
   name: Amazon Polly Lexicons API
@@ -764,7 +764,7 @@ modified: '2026-05-19'
 name: Amazon Polly
 nav: Providers
 network: true
-overview: 'Amazon Polly publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Lexicons API, Speech API, Speech Synthesis API, and 2 more. Tagged areas include Artificial Intelligence, Machine-Learning, Speech Synthesis, Text-to-Speech, and TTS.
+overview: 'Amazon Polly publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Lexicons API, Speech API, Speech Synthesis API, and 2 more. Tagged areas include Artificial Intelligence, Machine-Learning, Speech Synthesis, Text-To-Speech, and TTS.
 
 
   The Amazon Polly catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -804,18 +804,23 @@ rules:
   slug: amazon-polly-spectral-rules
 score:
   band: strong
-  composite: 61.0
-  delta: 1.4
+  composite: 60.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 48.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 28.8
     contract_quality: 71.2
     developer_ergonomics: 76.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 59.6
+  previous_composite: 61.0
   provenance:
     agentic_access: derived
     contracts:
@@ -823,8 +828,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/screenshots/amazon-polly-2026-06-20T171758.png
 security:
@@ -845,7 +850,7 @@ tags:
 - Artificial Intelligence
 - Machine-Learning
 - Speech Synthesis
-- Text-to-Speech
+- Text-To-Speech
 - TTS
 - Voice
 - SSML

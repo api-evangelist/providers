@@ -13,6 +13,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,15 +28,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-08-26'
+  score: 39.7
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -43,7 +44,7 @@ agentic_access:
   operation_count: 57
   slug: aweber-agentic-access
   summary_line: 57 operations · 19 acting · 1 human-in-the-loop
-api_count: 12
+api_count: 4
 apis:
 - description: The Accounts API from AWeber — 2 operations for listing the accounts an access token can reach and reading a single account, the root of the AWeber resource hierarchy.
   name: AWeber Accounts API
@@ -69,19 +70,22 @@ apis:
 - description: The Subscribers API from AWeber — 12 operations for adding, reading, updating, moving, searching and deleting subscribers on a list, reading subscriber activity, and recording tracked purchases.
   name: AWeber Subscribers API
   slug: aweber-subscribers-api
-- description: The Web Forms API from AWeber — 8 operations for reading the sign-up forms on a list or account and their split tests and split-test components.
-  name: AWeber Web Forms API
-  slug: aweber-web-forms-api
 - description: 'The Integrations API from AWeber — 2 operations for reading the third-party integrations (PayPal, Shopify, WordPress, Facebook and the rest of the 750+ app catalog) connected to an AWeber account and '
   name: AWeber Integrations API
   slug: aweber-integrations-api
-- description: The Authentication API from AWeber — 4 operations covering the OAuth 2.0 token and revoke endpoints on auth.aweber.com plus the legacy OAuth 1.0a request-token and access-token endpoints that remain p
-  name: AWeber Authentication API
-  slug: aweber-authentication-api
-- description: 'The Beta API from AWeber — early-access endpoints served at https://api.aweber.com/2.0-beta/, announced in API 1.4.0 on 2025-09-05 as a preview of the upcoming v2 API, primarily replacing numeric ids '
-  name: AWeber Beta API
-  slug: aweber-beta-api
-artifact_total: 36
+- description: '### What is it? Beta endpoints are early-access versions of the upcoming v2 API that provide developers with a preview of new features and changes before the official v2 release. These endpoints are a'
+  name: AWeber Beta Endpoints API
+  slug: aweber-beta-endpoints-api
+- description: The OAuth 1.0a Reference API from AWeber — 2 operation(s) for oauth 1.0a reference.
+  name: AWeber OAuth 1.0a Reference API
+  slug: aweber-oauth-1-0a-reference-api
+- description: These endpoints are used to authenticate with the api. The AWeber API uses the OAuth 2.0 model to handle authentication. OAuth is a standardized way for services to grant permission on a user's behalf
+  name: AWeber OAuth 2.0 Reference API
+  slug: aweber-oauth-2-0-reference-api
+- description: '### What is it? Represents the collection of sign-up forms associated with the AWeber Customer Account''s lists. Webforms are sets of customized HTML and javascript that are used to put up a sign-up fo'
+  name: AWeber Webforms API
+  slug: aweber-webforms-api
+artifact_total: 37
 asyncapis:
 - description: ''
   name: Aweber Webhooks
@@ -338,7 +342,7 @@ modified: '2026-08-13'
 name: AWeber
 nav: Providers
 network: true
-overview: 'AWeber publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Broadcasts API, Campaigns API, and 9 more. Tagged areas include Email Marketing, Marketing Automation, Email, Newsletters, and Subscribers.
+overview: 'AWeber publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Broadcasts API, Campaigns API, and 10 more. Tagged areas include Email Marketing, Marketing Automation, Email, Newsletters, and Subscribers.
 
 
   The AWeber catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -361,18 +365,23 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 77.3
-  delta: 3.8
+  composite: 72.5
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -3.4
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 68.7
-    developer_ergonomics: 75.6
+    developer_ergonomics: 63.7
     discoverability: 81.5
-    governance: 30.3
-    operational_transparency: 63.2
-  previous_composite: 73.5
+    governance: 18.2
+    operational_transparency: 55.3
+  previous_composite: 75.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -389,8 +398,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/screenshots/aweber-2026-06-20T172736.png
 security:

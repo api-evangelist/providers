@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: OpenTofu is a CLI-driven infrastructure-as-code tool forked from Terraform. The opentofu binary reads HashiCorp Configuration Language (HCL) configuration, plans changes, and applies them against clou
@@ -41,6 +41,26 @@ apis:
   slug: opentofu-cli
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/opentofu/opentofu/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/opentofu/opentofu/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/opentofu/opentofu/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/opentofu/opentofu/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/opentofu/opentofu/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -116,7 +136,7 @@ network: true
 overview: 'OpenTofu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud, DevOps, Infrastructure as Code, and Open-Source.
 
 
-  OpenTofu''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 10 more developer resources.'
+  OpenTofu''s developer surface includes documentation, getting-started guide, engineering blog, changelog, and 15 more developer resources.'
 plans:
 - name: Opentofu Plans Pricing
   plan_count: 3
@@ -127,9 +147,14 @@ rate_limits:
   name: Opentofu Rate Limits
   slug: opentofu-rate-limits
 score:
-  band: emerging
-  composite: 19.5
-  delta: 1.4
+  band: thin
+  composite: 27.6
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 84.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -139,9 +164,12 @@ score:
     discoverability: 40.7
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 18.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 100.0
+  previous_composite: 27.6
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentofu/refs/heads/main/screenshots/opentofu-2026-06-20T191043.png
 security:

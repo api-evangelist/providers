@@ -1,14 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Free · Open repository, Matrix, WordPress and GitLab reads; FAU API and CRIS are credentialed
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - conformance/friedrich-alexander-universitat-erlangen-nurnberg-conformance.yml
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: human-only
   dimensions:
@@ -33,32 +33,78 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 9
 apis:
-- description: OPEN FAU is the institutional open-access publication repository of FAU, built on DSpace 7.4. Its REST/HAL API exposes communities, collections, items, bitstreams, discovery/search and browse endpoint
+- description: 'Open Archives Initiative Protocol for Metadata Harvesting 2.0 service for OPEN FAU, the university''s open-access publication repository. Verified live on 2026-08-30: Identify returns repositoryName "O'
+  name: OPEN FAU OAI-PMH Metadata Service
+  slug: open-fau-oai
+- description: 'The REST/HAL API of OPEN FAU, FAU''s DSpace 7.4 institutional repository, run by the University Library on FAU''s own host. Verified live on 2026-08-30: the API root at /server/api returns dspaceName "O'
   name: OPEN FAU DSpace REST API
   slug: open-fau-rest
-- description: OAI-PMH metadata harvesting interface for the OPEN FAU DSpace repository, supporting standard verbs (Identify, ListRecords, ListSets, GetRecord) for bulk metadata harvesting of FAU open-access publica
-  name: OPEN FAU OAI-PMH Interface
-  slug: open-fau-oai
-- description: FAU CRIS is the university's research information system, built on Clarivate Converis, holding 146,000+ publications and 5,200+ research projects and syndicating data to 1,000+ websites. Converis prov
-  name: FAU CRIS Converis Public Web Service
+- description: 'FAU operates a Matrix homeserver — Synapse 1.159.0 at matrix.fau.de — with a hosted Element web client at chat.fau.de. It is properly delegated: both https://fau.de/.well-known/matrix/client and https'
+  name: FAU Matrix Homeserver
+  slug: matrix-homeserver
+- description: FAU's central web single sign-on, operated by RRZE, publishes SAML 2.0 identity provider metadata as a machine-readable document at https://www.sso.uni-erlangen.de/simplesaml/saml2/idp/metadata.php, m
+  name: FAU WebSSO SAML 2.0 Identity Provider
+  slug: websso-saml
+- description: 'FAU''s central web platform is a WordPress estate run by the RRZE Webteam, and its REST API is partly open to anonymous callers. Verified live on 2026-08-30: https://www.fau.de/wp-json/wp/v2/posts retu'
+  name: FAU Web Platform WordPress REST API
+  slug: wordpress-rest
+- description: 'RRZE runs FAU''s self-hosted GitLab at gitlab.rrze.fau.de, and its v4 REST API answers anonymous reads. Verified live on 2026-08-30: /api/v4/projects?per_page=1 returns HTTP 200 with real project JSON '
+  name: RRZE GitLab REST API (FAU self-hosted)
+  slug: gitlab-api
+- description: api.fau.de is an FAU-operated API portal — the browser title is "FAU API", the single-page application is served from FAU's own network, and its footer links to rrze.fau.de and www.fau.de. It is gated
+  name: FAU API Gateway (api.fau.de)
+  slug: fau-api-gateway
+- description: NHR@FAU — the Erlangen National High Performance Computing Center, hosted by FAU — runs ClusterCockpit at monitoring.nhr.fau.de as the job-specific performance monitoring service for its clusters, alo
+  name: NHR@FAU ClusterCockpit Job Monitoring API
+  slug: clustercockpit-nhr
+- description: FAU CRIS is the university's research information system, holding 146,000+ publications and 5,200+ projects and syndicating data to more than a thousand FAU websites. The data is FAU's; the CONTRACT i
+  name: Clarivate Converis Web Service — FAU CRIS deployment
   slug: cris-converis-ws
-artifact_total: 9
+artifact_total: 15
 common:
-- group: auth
+- group: company
   title: ''
-  type: VulnerabilityDisclosure
-  url: security/friedrich-alexander-universitat-erlangen-nurnberg-vulnerability-disclosure.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/friedrich-alexander-universitat-erlangen-nurnberg-domain-security.yml
+  type: Website
+  url: https://www.fau.de/
 - group: company
   title: ''
   type: Website
   url: https://www.fau.eu/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://ub.fau.de/en/research/open-fau/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://cris.fau.de/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://www.sso.uni-erlangen.de/simplesaml/saml2/idp/metadata.php
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://hpc.fau.de/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://doc.nhr.fau.de/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://www.campo.fau.de/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://ub.fau.de/
+- group: other
+  title: ''
+  type: OpenData
+  url: https://open.fau.de/
 - group: build
   title: ''
   type: GitHub
@@ -69,16 +115,48 @@ common:
   url: https://github.com/FAU-CDI
 - group: build
   title: ''
+  type: GitHub
+  url: https://github.com/RRZE-HPC
+- group: build
+  title: ''
   type: SourceCode
   url: https://gitlab.rrze.fau.de/
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/fau-erlangen-n%C3%BCrnberg/
 - group: auth
   title: ''
   type: Authentication
-  url: https://www.rrze.fau.de/2009/10/zentraler-anmeldedienst-fur-web-anwendungen-mein-campus-stud-on-und-uniportal/
+  url: https://sso.fau.de/
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.sso.uni-erlangen.de/
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: https://www.fau.de/.well-known/security.txt
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.fau.de/datenschutz/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.fau.de/impressum/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.rrze.fau.de/
+- group: design
+  title: ''
+  type: x-conformance
+  url: conformance/friedrich-alexander-universitat-erlangen-nurnberg-conformance.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/friedrich-alexander-universitat-erlangen-nurnberg-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/friedrich-alexander-universitat-erlangen-nurnberg-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -96,7 +174,9 @@ common:
   type: Review
   url: review.yml
 created: '2026-06-03'
-description: 'Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) is a public research university in Bavaria, Germany, ranked #224 in the QS World University Rankings 2025. FAU does not operate a single consolidated developer portal, but several of its central services expose public, machine-readable interfaces. The University Library''s OPEN FAU institutional repository runs on DSpace 7.4 and publishes a browsable REST/HAL API and an OAI-PMH metadata interface, while the FAU CRIS research information system (built on Clarivate Converis) exposes a public web-service path that is access-restricted on FAU''s instance. Central IT (RRZE) and the Competence Center for Research Data and Information (CDI) maintain active public GitHub organizations and a self-hosted GitLab.'
+description: 'Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU) is a public research university in Erlangen and Nuremberg, Bavaria, Germany, founded in 1743 and one of Germany''s largest, with around 39,000 students across five faculties. FAU operates no central developer portal and publishes no OpenAPI definition of its own — but unlike most of this cohort its programmable footprint is real, and every surface in it runs on FAU''s own infrastructure: every host recorded below resolves inside FAU''s own 131.188.0.0/16 network, and not one of them CNAMEs to a vendor. The institution-operated, publicly readable surfaces verified live on 2026-08-30 are the OPEN FAU institutional repository on DSpace 7.4, which serves both a REST/HAL API and a fully functional OAI-PMH 2.0 harvesting endpoint with eight metadata crosswalks; a Matrix (Synapse 1.159.0) homeserver at matrix.fau.de, correctly delegated from .well-known/matrix/server and .well-known/matrix/client on fau.de, which makes FAU''s
+  chat service reachable by any standards-conformant Matrix client; the WordPress REST API behind the RRZE-operated FAU web platform, where the /wp-json index and search route are restricted but the wp/v2 content collections return real JSON on www.fau.de and a complete route index on ub.fau.de; and anonymous read access to the GitLab v4 REST API on FAU''s self-hosted GitLab at gitlab.rrze.fau.de, which reports 132 public projects. Three further surfaces are live but gated: the FAU API gateway at api.fau.de, which fronts an authenticated API router behind SSO; the ClusterCockpit HPC job-monitoring REST API at monitoring.nhr.fau.de, run by NHR@FAU, the national high-performance computing centre FAU hosts; and the Clarivate Converis web service on cris.fau.de, which is FAU''s research information system and returns HTTP 403 on its public web-service paths. FAU also operates a SAML 2.0 identity provider registered in the DFN-AAI federation, mints DOIs under its own DataCite prefix 10.25593,
+  and maintains three active public GitHub organisations plus a self-hosted GitLab. No vendor contract is saved in this repository under FAU''s name: where the software beneath a surface is someone else''s product, the profile says so and keeps no copy of that product''s specification.'
 finops:
 - name: Friedrich Alexander Universitat Erlangen Nurnberg Finops
   service_category: Education
@@ -108,17 +188,17 @@ jsonld:
   property_count: 7
   slug: friedrich-alexander-universitat-erlangen-nurnberg-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Friedrich-Alexander-Universität Erlangen-Nürnberg
 nav: Providers
 network: true
-overview: 'Friedrich-Alexander-Universität Erlangen-Nürnberg publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Education, Higher Education, University, Research, and Open Access.
+overview: 'Friedrich-Alexander-Universität Erlangen-Nürnberg publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Research, and Research Repository.
 
 
   The Friedrich-Alexander-Universität Erlangen-Nürnberg catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Friedrich-Alexander-Universität Erlangen-Nürnberg''s developer surface includes GitHub presence, authentication, and 10 more developer resources.'
+  Friedrich-Alexander-Universität Erlangen-Nürnberg''s developer surface includes documentation, GitHub presence, authentication, developer portal, support, and 22 more developer resources.'
 plans:
 - name: Friedrich Alexander Universitat Erlangen Nurnberg Plans Pricing
   plan_count: 2
@@ -129,28 +209,33 @@ rate_limits:
   name: Friedrich Alexander Universitat Erlangen Nurnberg Rate Limits
   slug: friedrich-alexander-universitat-erlangen-nurnberg-rate-limits
 score:
-  band: emerging
-  composite: 24.9
-  delta: 1.9
+  band: thin
+  composite: 36.2
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 48.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 11.3
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 50.0
+    commercial_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 10.7
-    developer_ergonomics: 21.4
-    discoverability: 64.8
+    developer_ergonomics: 35.7
+    discoverability: 85.2
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 23.0
+  previous_composite: 24.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 42.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 57.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/friedrich-alexander-universitat-erlangen-nurnberg/refs/heads/main/screenshots/friedrich-alexander-universitat-erlangen-nurnberg-2026-06-20T181545.png
 security:
 - kind: domain-security
@@ -163,13 +248,18 @@ security:
   summary_line: security.txt · contact published
 slug: friedrich-alexander-universitat-erlangen-nurnberg
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
 - Research
+- Research Repository
 - Open Access
-- Repository
-- Library
+- OAI-PMH
+- Identity Federation
+- Research Computing
+- Matrix
 - Germany
-website: https://www.fau.eu/
+- Bavaria
+- Europe
+website: https://www.fau.de/
 ---

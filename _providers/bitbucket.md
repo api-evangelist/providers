@@ -11,18 +11,18 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-08-26'
+  score: 34.2
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 335
   slug: bitbucket-agentic-access
   summary_line: 335 operations · 156 acting · 4 human-in-the-loop
-api_count: 23
+api_count: 1
 apis:
 - description: The addon resource is intended to use used by Bitbucket Cloud Connect Apps, and only supports JWT authentication.
   name: Bitbucket Addon API
@@ -264,6 +264,10 @@ collections:
   name: Bitbucket Addon Workspaces API
   slug: open-bitbucket-workspaces-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bitbucket-capability-edges.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -439,7 +443,7 @@ overview: 'Bitbucket publishes 23 APIs on the [APIs.io](https://apis.io/) networ
   The Bitbucket catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Bitbucket''s developer surface includes authentication, developer portal, signup flow, engineering blog, support, and 14 more developer resources.'
+  Bitbucket''s developer surface includes authentication, developer portal, signup flow, engineering blog, support, and 15 more developer resources.'
 plans:
 - name: Bitbucket Plans Pricing
   plan_count: 3
@@ -489,18 +493,23 @@ scopes:
   summary_line: 26 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.7
-  delta: 2.6
+  composite: 52.1
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 44.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 28.8
     contract_quality: 79.4
     developer_ergonomics: 42.9
-    discoverability: 68.5
+    discoverability: 63.0
     governance: 28.8
     operational_transparency: 26.3
-  previous_composite: 50.1
+  previous_composite: 52.7
   provenance:
     agentic_access: derived
     contracts:
@@ -508,8 +517,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/screenshots/bitbucket-2026-06-20T173301.png
 security:

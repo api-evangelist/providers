@@ -1,28 +1,27 @@
 ---
 access_model:
   confidence: high
-  label: Free · Self-serve signup
-  onboarding: self-serve
+  label: Open metadata harvesting, no signup; everything else is affiliation-gated
+  onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
-  - authentication
+  - live probe
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: false
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: verified
+    error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -30,252 +29,72 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.5
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 278
-  human_in_the_loop: 1
-  name: Eindhoven University Of Technology Agentic Access
-  operation_count: 969
-  slug: eindhoven-university-of-technology-agentic-access
-  summary_line: 969 operations · 278 acting · 1 human-in-the-loop
-api_count: 38
+  score: 2.5
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: OAI-PMH metadata-harvesting interface for the TU/e Research Portal, powered by Elsevier Pure. It exposes research-output metadata (publications, projects, researcher profiles, datasets) for harvesting
+- description: 'Live OAI-PMH 2.0 harvesting interface for the TU/e Research Portal, served by Elsevier Pure at TU/e''s own pure.tue.nl. Verified with a real harvest, not link presence: verb=Identify returns repository'
   name: TU/e Research Portal OAI-PMH
   slug: research-oai-pmh
-- description: The activity API from Eindhoven University of Technology — 39 operation(s) for activity.
-  name: Eindhoven University of Technology activity API
-  slug: eindhoven-university-of-technology-activity-api
-- description: The application API from Eindhoven University of Technology — 36 operation(s) for application.
-  name: Eindhoven University of Technology application API
-  slug: eindhoven-university-of-technology-application-api
-- description: The authorCollaboration API from Eindhoven University of Technology — 9 operation(s) for authorcollaboration.
-  name: Eindhoven University of Technology authorCollaboration API
-  slug: eindhoven-university-of-technology-authorcollaboration-api
-- description: The award API from Eindhoven University of Technology — 37 operation(s) for award.
-  name: Eindhoven University of Technology award API
-  slug: eindhoven-university-of-technology-award-api
-- description: The classificationScheme API from Eindhoven University of Technology — 7 operation(s) for classificationscheme.
-  name: Eindhoven University of Technology classificationScheme API
-  slug: eindhoven-university-of-technology-classificationscheme-api
-- description: The concept API from Eindhoven University of Technology — 4 operation(s) for concept.
-  name: Eindhoven University of Technology concept API
-  slug: eindhoven-university-of-technology-concept-api
-- description: The conferenceSeries API from Eindhoven University of Technology — 14 operation(s) for conferenceseries.
-  name: Eindhoven University of Technology conferenceSeries API
-  slug: eindhoven-university-of-technology-conferenceseries-api
-- description: The contract API from Eindhoven University of Technology — 26 operation(s) for contract.
-  name: Eindhoven University of Technology contract API
-  slug: eindhoven-university-of-technology-contract-api
-- description: The course API from Eindhoven University of Technology — 27 operation(s) for course.
-  name: Eindhoven University of Technology course API
-  slug: eindhoven-university-of-technology-course-api
-- description: The dataSet API from Eindhoven University of Technology — 30 operation(s) for dataset.
-  name: Eindhoven University of Technology dataSet API
-  slug: eindhoven-university-of-technology-dataset-api
-- description: The education API from Eindhoven University of Technology — 14 operation(s) for education.
-  name: Eindhoven University of Technology education API
-  slug: eindhoven-university-of-technology-education-api
-- description: The equipment API from Eindhoven University of Technology — 28 operation(s) for equipment.
-  name: Eindhoven University of Technology equipment API
-  slug: eindhoven-university-of-technology-equipment-api
-- description: The ethicalReview API from Eindhoven University of Technology — 22 operation(s) for ethicalreview.
-  name: Eindhoven University of Technology ethicalReview API
-  slug: eindhoven-university-of-technology-ethicalreview-api
-- description: The event API from Eindhoven University of Technology — 22 operation(s) for event.
-  name: Eindhoven University of Technology event API
-  slug: eindhoven-university-of-technology-event-api
-- description: The externalOrganization API from Eindhoven University of Technology — 29 operation(s) for externalorganization.
-  name: Eindhoven University of Technology externalOrganization API
-  slug: eindhoven-university-of-technology-externalorganization-api
-- description: The externalPerson API from Eindhoven University of Technology — 22 operation(s) for externalperson.
-  name: Eindhoven University of Technology externalPerson API
-  slug: eindhoven-university-of-technology-externalperson-api
-- description: The fingerprint API from Eindhoven University of Technology — 3 operation(s) for fingerprint.
-  name: Eindhoven University of Technology fingerprint API
-  slug: eindhoven-university-of-technology-fingerprint-api
-- description: The fundingOpportunity API from Eindhoven University of Technology — 21 operation(s) for fundingopportunity.
-  name: Eindhoven University of Technology fundingOpportunity API
-  slug: eindhoven-university-of-technology-fundingopportunity-api
-- description: The impact API from Eindhoven University of Technology — 31 operation(s) for impact.
-  name: Eindhoven University of Technology impact API
-  slug: eindhoven-university-of-technology-impact-api
-- description: The journal API from Eindhoven University of Technology — 22 operation(s) for journal.
-  name: Eindhoven University of Technology journal API
-  slug: eindhoven-university-of-technology-journal-api
-- description: The keywordGroupConfiguration API from Eindhoven University of Technology — 7 operation(s) for keywordgroupconfiguration.
-  name: Eindhoven University of Technology keywordGroupConfiguration API
-  slug: eindhoven-university-of-technology-keywordgroupconfiguration-api
-- description: The milestone API from Eindhoven University of Technology — 24 operation(s) for milestone.
-  name: Eindhoven University of Technology milestone API
-  slug: eindhoven-university-of-technology-milestone-api
-- description: The organization API from Eindhoven University of Technology — 34 operation(s) for organization.
-  name: Eindhoven University of Technology organization API
-  slug: eindhoven-university-of-technology-organization-api
-- description: The person API from Eindhoven University of Technology — 58 operation(s) for person.
-  name: Eindhoven University of Technology person API
-  slug: eindhoven-university-of-technology-person-api
-- description: The personExpertise API from Eindhoven University of Technology — 7 operation(s) for personexpertise.
-  name: Eindhoven University of Technology personExpertise API
-  slug: eindhoven-university-of-technology-personexpertise-api
-- description: The pressMedia API from Eindhoven University of Technology — 24 operation(s) for pressmedia.
-  name: Eindhoven University of Technology pressMedia API
-  slug: eindhoven-university-of-technology-pressmedia-api
-- description: The prize API from Eindhoven University of Technology — 29 operation(s) for prize.
-  name: Eindhoven University of Technology prize API
-  slug: eindhoven-university-of-technology-prize-api
-- description: The project API from Eindhoven University of Technology — 33 operation(s) for project.
-  name: Eindhoven University of Technology project API
-  slug: eindhoven-university-of-technology-project-api
-- description: The publisher API from Eindhoven University of Technology — 18 operation(s) for publisher.
-  name: Eindhoven University of Technology publisher API
-  slug: eindhoven-university-of-technology-publisher-api
-- description: The researchOutput API from Eindhoven University of Technology — 67 operation(s) for researchoutput.
-  name: Eindhoven University of Technology researchOutput API
-  slug: eindhoven-university-of-technology-researchoutput-api
-- description: The role API from Eindhoven University of Technology — 2 operation(s) for role.
-  name: Eindhoven University of Technology role API
-  slug: eindhoven-university-of-technology-role-api
-- description: The semester API from Eindhoven University of Technology — 8 operation(s) for semester.
-  name: Eindhoven University of Technology semester API
-  slug: eindhoven-university-of-technology-semester-api
-- description: The specialization API from Eindhoven University of Technology — 8 operation(s) for specialization.
-  name: Eindhoven University of Technology specialization API
-  slug: eindhoven-university-of-technology-specialization-api
-- description: The studentProject API from Eindhoven University of Technology — 26 operation(s) for studentproject.
-  name: Eindhoven University of Technology studentProject API
-  slug: eindhoven-university-of-technology-studentproject-api
-- description: The studentThesis API from Eindhoven University of Technology — 26 operation(s) for studentthesis.
-  name: Eindhoven University of Technology studentThesis API
-  slug: eindhoven-university-of-technology-studentthesis-api
-- description: The thesaurus API from Eindhoven University of Technology — 5 operation(s) for thesaurus.
-  name: Eindhoven University of Technology thesaurus API
-  slug: eindhoven-university-of-technology-thesaurus-api
-- description: The user API from Eindhoven University of Technology — 7 operation(s) for user.
-  name: Eindhoven University of Technology user API
-  slug: eindhoven-university-of-technology-user-api
-artifact_total: 94
-collections:
-- collection_type: open
-  name: API Collection
-  slug: open-.refine-report
-- collection_type: open
-  name: Pure activity API
-  slug: open-eindhoven-university-of-technology-activity-api
-- collection_type: open
-  name: Pure activity application API
-  slug: open-eindhoven-university-of-technology-application-api
-- collection_type: open
-  name: Pure activity authorCollaboration API
-  slug: open-eindhoven-university-of-technology-authorcollaboration-api
-- collection_type: open
-  name: Pure activity award API
-  slug: open-eindhoven-university-of-technology-award-api
-- collection_type: open
-  name: Pure activity classificationScheme API
-  slug: open-eindhoven-university-of-technology-classificationscheme-api
-- collection_type: open
-  name: Pure activity concept API
-  slug: open-eindhoven-university-of-technology-concept-api
-- collection_type: open
-  name: Pure activity conferenceSeries API
-  slug: open-eindhoven-university-of-technology-conferenceseries-api
-- collection_type: open
-  name: Pure activity contract API
-  slug: open-eindhoven-university-of-technology-contract-api
-- collection_type: open
-  name: Pure activity course API
-  slug: open-eindhoven-university-of-technology-course-api
-- collection_type: open
-  name: Pure activity dataSet API
-  slug: open-eindhoven-university-of-technology-dataset-api
-- collection_type: open
-  name: Pure activity education API
-  slug: open-eindhoven-university-of-technology-education-api
-- collection_type: open
-  name: Pure activity equipment API
-  slug: open-eindhoven-university-of-technology-equipment-api
-- collection_type: open
-  name: Pure activity event API
-  slug: open-eindhoven-university-of-technology-event-api
-- collection_type: open
-  name: Pure activity externalOrganization API
-  slug: open-eindhoven-university-of-technology-externalorganization-api
-- collection_type: open
-  name: Pure activity externalPerson API
-  slug: open-eindhoven-university-of-technology-externalperson-api
-- collection_type: open
-  name: Pure activity fingerprint API
-  slug: open-eindhoven-university-of-technology-fingerprint-api
-- collection_type: open
-  name: Pure activity fundingOpportunity API
-  slug: open-eindhoven-university-of-technology-fundingopportunity-api
-- collection_type: open
-  name: Pure activity impact API
-  slug: open-eindhoven-university-of-technology-impact-api
-- collection_type: open
-  name: Pure activity journal API
-  slug: open-eindhoven-university-of-technology-journal-api
-- collection_type: open
-  name: Pure activity keywordGroupConfiguration API
-  slug: open-eindhoven-university-of-technology-keywordgroupconfiguration-api
-- collection_type: open
-  name: Pure activity milestone API
-  slug: open-eindhoven-university-of-technology-milestone-api
-- collection_type: open
-  name: Pure activity organization API
-  slug: open-eindhoven-university-of-technology-organization-api
-- collection_type: open
-  name: Pure activity person API
-  slug: open-eindhoven-university-of-technology-person-api
-- collection_type: open
-  name: Pure activity personExpertise API
-  slug: open-eindhoven-university-of-technology-personexpertise-api
-- collection_type: open
-  name: Pure activity pressMedia API
-  slug: open-eindhoven-university-of-technology-pressmedia-api
-- collection_type: open
-  name: Pure activity prize API
-  slug: open-eindhoven-university-of-technology-prize-api
-- collection_type: open
-  name: Pure activity project API
-  slug: open-eindhoven-university-of-technology-project-api
-- collection_type: open
-  name: Pure activity publisher API
-  slug: open-eindhoven-university-of-technology-publisher-api
-- collection_type: open
-  name: Pure activity researchOutput API
-  slug: open-eindhoven-university-of-technology-researchoutput-api
-- collection_type: open
-  name: Pure activity role API
-  slug: open-eindhoven-university-of-technology-role-api
-- collection_type: open
-  name: Pure activity semester API
-  slug: open-eindhoven-university-of-technology-semester-api
-- collection_type: open
-  name: Pure activity specialization API
-  slug: open-eindhoven-university-of-technology-specialization-api
-- collection_type: open
-  name: Pure activity studentProject API
-  slug: open-eindhoven-university-of-technology-studentproject-api
-- collection_type: open
-  name: Pure activity studentThesis API
-  slug: open-eindhoven-university-of-technology-studentthesis-api
-- collection_type: open
-  name: Pure activity thesaurus API
-  slug: open-eindhoven-university-of-technology-thesaurus-api
-- collection_type: open
-  name: Pure activity user API
-  slug: open-eindhoven-university-of-technology-user-api
+- description: 'TU/e''s deployment of the Elsevier Pure Web Service REST API, the research-information (CRIS) interface behind the TU/e Research Portal. The deployment''s own generated documentation is live and public '
+  name: TU/e Pure Web Service (Elsevier Pure deployment)
+  slug: pure-web-service
+- description: TU/e's SAML 2.0 identity-provider entity as published in the SURFconext federation metadata, which feeds eduGAIN. The EntityDescriptor carries OrganizationName "Technische Universiteit Eindhoven" / "E
+  name: TU/e SAML Identity Provider (SURFconext / eduGAIN)
+  slug: surfconext-saml-idp
+artifact_total: 8
 common:
-- group: agent
+- group: company
   title: ''
-  type: AgenticAccess
-  url: agentic-access/eindhoven-university-of-technology-agentic-access.yml
+  type: Website
+  url: https://www.tue.nl/en/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://research.tue.nl/
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://data.4tu.nl/search?q=&categories=&organizations=Eindhoven%20University%20of%20Technology
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://metadata.surfconext.nl/idps-metadata.xml
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://educationguide.tue.nl/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://www.tueindhoven.ai/education/guidelines/index.html
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://pure.tue.nl/ws/api/documentation/index.html
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.tue.nl/en/storage/disclaimer
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.tue.nl/en/our-university/about-the-university/support-services/library-and-information-services/privacy
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/TUEIndhoven
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/tue-datastewards
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/school/eindhoven-university-of-technology/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -284,22 +103,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/eindhoven-university-of-technology-domain-security.yml
-- group: auth
+- group: design
   title: ''
-  type: Authentication
-  url: authentication/eindhoven-university-of-technology-authentication.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://www.tue.nl/en/
-- group: build
-  title: ''
-  type: GitHub
-  url: https://github.com/TUEIndhoven
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/school/eindhoven-university-of-technology/
+  type: Conformance
+  url: conformance/eindhoven-university-of-technology-conformance.yml
 - group: commercial
   title: ''
   type: Plans
@@ -316,60 +123,78 @@ common:
   title: ''
   type: Review
   url: review.yml
+coverage:
+  checked: '2026-08-30'
+  detail: 'TU/e publishes no institution-authored API contract and operates no developer portal. Every machine-readable surface found is a vendor''s product running under TU/e''s name: Elsevier Pure (research portal, Pure Web Service, OAI-PMH), Caci Osiris (student mobile), OCLC WorldCat (library discovery), Figshare via the 4TU.ResearchData consortium (datasets), and Microsoft Entra ID behind SURFconext (identity). Three of those are TU/e''s own deployments and are recorded as tenant surfaces; the rest belong in the vendors'' own repositories. The one fully public, keyless, verified-by-real-request surface is the OAI-PMH endpoint. Probed and NOT found, so the absence is measured rather than assumed: data.tue.nl, api.tue.nl, developer.tue.nl, opendata.tue.nl, ooapi.tue.nl, api.ooapi.tue.nl, idp.tue.nl, login.tue.nl, sts.tue.nl, sis.tue.nl, mytimetable.tue.nl and rooster.tue.nl all fail to resolve in DNS — they are not gated, they do not exist. purefaq.tue.nl, the Pure FAQ this repo previously
+    carried as a Documentation pointer, now returns a deliberate TU/e "Off-site access blocked" page: it is VPN/campus-network-only, so it is recorded as evidence here and removed as a pointer. TU/e is named by SURF as a 2019 Open Onderwijs API (OOAPI) participant, but Dutch OOAPI endpoints are SURFconext-gated and none is publicly discoverable. github.com/TUEIndhoven resolves but holds zero public repositories; the departmental orgs (tue-datastewards, tue-robotics, tue-mdse, tue-aga, TUe-ICTLab, 3DCP-TUe) are research-group code, not an institutional API programme.'
+  evidence:
+  - note: OAI-PMH 2.0 live; repositoryName "Pure OAI Repository"; adminEmail pure@tue.nl; OpenAIRE CERIF 1.2.
+    status: 200
+    url: https://pure.tue.nl/ws/oai?verb=Identify
+  - note: Seven metadata prefixes served.
+    status: 200
+    url: https://pure.tue.nl/ws/oai?verb=ListMetadataFormats
+  - note: Real records returned (110,958 bytes, cerif:Person, resumptionToken) — a harvest, not a link check.
+    status: 200
+    url: https://pure.tue.nl/ws/oai?verb=ListRecords&metadataPrefix=oai_cerif_openaire&set=openaire_cris_persons
+  - note: Elsevier Pure Web Service generated documentation for TU/e's deployment; the API itself is api-key gated.
+    status: 200
+    url: https://pure.tue.nl/ws/api/documentation/index.html
+  - note: TU/e SAML 2.0 IdP EntityDescriptor present in the SURFconext federation metadata.
+    status: 200
+    url: https://metadata.surfconext.nl/idps-metadata.xml
+  - note: Institutional website; no developer, API or docs section anywhere in navigation.
+    status: 200
+    url: https://www.tue.nl/en/
+  - note: No llms.txt (soft-404 — returns the 246KB site 404 page, not an empty body).
+    status: 404
+    url: https://www.tue.nl/llms.txt
+  - note: 'Deliberate institutional gate, not a bot block: body is TU/e''s own "Off-site access blocked — only accessible via the TU/e network or the TU/e VPN" page. Removed as a pointer.'
+    status: 403
+    url: https://purefaq.tue.nl/pure/faq/index.php?action=overview
+  - note: Pure portal edge challenge; research.tue.nl root is 200, so the host is live.
+    status: 403
+    url: https://research.tue.nl/en/organisations/
+  - note: SPA shell only (2,931 bytes, title "Osiris Student Mobile"); its CSP names the vendor backend rontw.osiris-student.nl. Caci vendor product, not a TU/e API.
+    status: 200
+    url: https://osiris.tue.nl/
+  - note: OCLC WorldCat Discovery SPA shell — vendor library discovery, no institution-operated catalog API.
+    status: 200
+    url: https://tue.on.worldcat.org/discovery
+  - note: 4TU.ResearchData (Figshare) consortium repository; TU/e is one of four member institutions, not the operator.
+    status: 200
+    url: https://data.4tu.nl/search?q=&categories=&organizations=Eindhoven%20University%20of%20Technology
+  - note: TU/e Framework for AI in Engineering Education; adopted by the educational board and program directors in 2024. Governance document, not an API.
+    status: 200
+    url: https://www.tueindhoven.ai/education/guidelines/index.html
+  - note: PGP-signed security.txt, Expires 2027-02-09; contact and policy both the TU/e CERT RFC 2350 document.
+    status: 200
+    url: https://www.tue.nl/.well-known/security.txt
+  - note: TU/e GitHub organization exists but publishes zero public repositories.
+    status: 200
+    url: https://github.com/TUEIndhoven
+  - note: Course catalog is a rendered web guide; /api and /openapi.json both 404. No public course API.
+    status: 200
+    url: https://educationguide.tue.nl/
+  reason: tenant_only
+  state: none
 created: '2026-06-03'
-description: 'Eindhoven University of Technology (TU/e) is a research-driven public technical university in Eindhoven, Netherlands, ranked #136 in the QS World University Rankings 2025. Its public, machine-readable developer footprint centers on its Elsevier Pure research information system, which exposes the institutional research output through an OAI-PMH metadata-harvesting interface and the Pure Web Service (REST/SOAP) API. TU/e does not operate a single consolidated public developer portal; programmatic access to course, identity, and library systems is generally institution-internal or vendor-mediated, and numerous departmental research groups publish open-source code across separate GitHub organizations.'
-examples:
-- key_count: 3
-  name: Eindhoven University Of Technology Organizations List Example
-  slug: eindhoven-university-of-technology-organizations-list-example
-- key_count: 3
-  name: Eindhoven University Of Technology Persons List Example
-  slug: eindhoven-university-of-technology-persons-list-example
-- key_count: 3
-  name: Eindhoven University Of Technology Research Outputs List Example
-  slug: eindhoven-university-of-technology-research-outputs-list-example
+description: 'Eindhoven University of Technology (TU/e) is a public technical university in Eindhoven, the Netherlands, and one of the four institutions of the 4TU federation. It operates no public developer portal, publishes no institution-authored API contract, and offers no self-serve API keys — and this profile says so rather than padding the gap. Everything machine-readable that carries the TU/e name is a deployment of somebody else''s software: the TU/e Research Portal and its Pure Web Service REST API are Elsevier Pure 5.35.x running at pure.tue.nl, the student mobile app at osiris.tue.nl is Caci Osiris, library discovery is OCLC WorldCat, and research datasets are minted through the 4TU.ResearchData Figshare consortium. What TU/e genuinely operates on its own domain is narrower and real: a live, fully conformant OAI-PMH 2.0 harvesting endpoint at pure.tue.nl/ws/oai serving seven metadata formats and the OpenAIRE CERIF 1.2 CRIS profile, and a SAML 2.0 identity-provider entity registered
+  in the SURFconext federation and so reachable through eduGAIN. Thirty-seven OpenAPI documents previously attributed to TU/e in this repository were Elsevier''s Pure product contract (info.title "Pure …", contact pure-support@elsevier.com, relative servers "/ws/api", shipped identically by nine other universities) and have been removed; the tenant relationships they described are recorded here instead. Departmental research groups publish open source across many separate GitHub organizations, but the university runs no single official engineering org.'
 finops:
 - name: Eindhoven University Of Technology Finops
   service_category: Education
   slug: eindhoven-university-of-technology-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eindhoven-university-of-technology.png
-json_schemas:
-- name: TU/e Pure Organization
-  property_count: 31
-  slug: eindhoven-university-of-technology-organization
-- name: TU/e Pure Person
-  property_count: 51
-  slug: eindhoven-university-of-technology-person
-- name: TU/e Pure ResearchOutput
-  property_count: 53
-  slug: eindhoven-university-of-technology-research-output
-json_structures:
-- name: Eindhoven University Of Technology Organization Structure
-  property_count: 31
-  slug: eindhoven-university-of-technology-organization-structure
-- name: Eindhoven University Of Technology Person Structure
-  property_count: 51
-  slug: eindhoven-university-of-technology-person-structure
-- name: Eindhoven University Of Technology Research Output Structure
-  property_count: 53
-  slug: eindhoven-university-of-technology-research-output-structure
-jsonld:
-- class_count: 25
-  name: Eindhoven University Of Technology Context
-  property_count: 4
-  slug: eindhoven-university-of-technology-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: Eindhoven University of Technology
 nav: Providers
 network: true
-overview: 'Eindhoven University of Technology publishes 37 APIs on the [APIs.io](https://apis.io/) network, including activity API, application API, authorCollaboration API, and 34 more. Tagged areas include Education, Higher Education, University, Research, and Open Data.
+overview: 'Eindhoven University of Technology publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include University, Higher Education, Education, Technical University, and Netherlands.
 
 
-  The Eindhoven University of Technology catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  Eindhoven University of Technology''s developer surface includes authentication, GitHub presence, and 9 more developer resources.'
+  Eindhoven University of Technology''s developer surface includes documentation, GitHub presence, and 17 more developer resources.'
 plans:
 - name: Eindhoven University Of Technology Plans Pricing
   plan_count: 2
@@ -379,41 +204,25 @@ rate_limits:
 - limit_count: 1
   name: Eindhoven University Of Technology Rate Limits
   slug: eindhoven-university-of-technology-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: Eindhoven University of Technology API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 3
-  slug: eindhoven-university-of-technology-jsonschema-spectral-rules
-- effective_rule_count: 6
-  extends: []
-  name: Eindhoven University of Technology API Rules
-  rule_count: 6
-  severity_counts:
-    error: 2
-    hint: 0
-    info: 1
-    warn: 3
-  slug: eindhoven-university-of-technology-rules
 score:
-  band: thin
-  composite: 35.9
-  delta: 1.9
+  band: emerging
+  composite: 25.2
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -12.6
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 56.0
-    developer_ergonomics: 21.4
-    discoverability: 50.0
-    governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 34.0
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 9.5
+    discoverability: 74.1
+    governance: 0.0
+    operational_transparency: 23.7
+  previous_composite: 37.8
   provenance:
     agentic_access: derived
     contracts:
@@ -426,16 +235,12 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 42.6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 46.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/eindhoven-university-of-technology/refs/heads/main/screenshots/eindhoven-university-of-technology-2026-06-20T180525.png
 security:
-- kind: authentication
-  name: Eindhoven University Of Technology Authentication
-  slug: eindhoven-university-of-technology-authentication
-  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Eindhoven University Of Technology Domain Security
   slug: eindhoven-university-of-technology-domain-security
@@ -446,12 +251,18 @@ security:
   summary_line: security.txt · contact published
 slug: eindhoven-university-of-technology
 tags:
-- Education
-- Higher Education
 - University
-- Research
-- Open Data
+- Higher Education
+- Education
+- Technical University
 - Netherlands
 - Europe
+- 4TU
+- Research Data
+- Research Information
+- Research Repository
+- Identity Federation
+- OAI-PMH
+- Open Metadata
 website: https://www.tue.nl/en/
 ---

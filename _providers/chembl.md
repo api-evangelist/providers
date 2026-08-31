@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 30
   slug: chembl-agentic-access
   summary_line: 30 operations
-api_count: 16
+api_count: 1
 apis:
 - description: Activity values recorded in assays, linking molecules to targets with quantitative bioactivity measurements.
   name: ChEMBL Activity API
@@ -145,6 +145,10 @@ collections:
   name: ChEMBL Data REST Activity Target API
   slug: open-chembl-target-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/chembl-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -223,7 +227,7 @@ overview: 'ChEMBL publishes 16 APIs on the [APIs.io](https://apis.io/) network, 
   The ChEMBL catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  ChEMBL''s developer surface includes authentication, status page, and 4 more developer resources.'
+  ChEMBL''s developer surface includes authentication, status page, and 5 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -246,15 +250,20 @@ rules:
   slug: chembl-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 34.1
-  delta: 1.9
+  composite: 33.5
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 63.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 49.4
     developer_ergonomics: 21.4
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 9.8
     operational_transparency: 0.0
   needs_work:
@@ -263,7 +272,7 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-  previous_composite: 32.2
+  previous_composite: 34.1
   provenance:
     agentic_access: derived
     contracts:
@@ -277,8 +286,8 @@ score:
     regime: Health
     regime_id: health
     score: 20.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/screenshots/chembl-2026-06-20T174255.png
 security:

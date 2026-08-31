@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 50
   slug: canoe-intelligence-agentic-access
   summary_line: 50 operations · 26 acting
-api_count: 9
+api_count: 3
 apis:
 - description: The Allocations API from Canoe Intelligence — 2 operation(s) for allocations.
   name: Canoe Intelligence Allocations API
@@ -71,7 +71,10 @@ apis:
 - description: The User API from Canoe Intelligence — 4 operation(s) for user.
   name: Canoe Intelligence User API
   slug: canoe-intelligence-user-api
-artifact_total: 25
+- description: The Introduction API from Canoe Intelligence — 2 operation(s) for introduction.
+  name: Canoe Intelligence Introduction API
+  slug: canoe-intelligence-introduction-api
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
@@ -224,7 +227,7 @@ modified: '2026-08-09'
 name: Canoe Intelligence
 nav: Providers
 network: true
-overview: 'Canoe Intelligence publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Allocations API, Authentication API, Custom Fields API, and 6 more. Tagged areas include Alternative Investments, Private Markets, Document Automation, Data Extraction, and Fund Administration.
+overview: 'Canoe Intelligence publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Allocations API, Authentication API, Custom Fields API, and 7 more. Tagged areas include alternative-investments, private-markets, document-automation, data-extraction, and fund-administration.
 
 
   Canoe Intelligence''s developer surface includes documentation, API reference, support, engineering blog, authentication, code examples, and 22 more developer resources.'
@@ -235,19 +238,24 @@ scopes:
   slug: canoe-intelligence-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 41.6
+  band: thin
+  composite: 37.6
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 35.5
     commercial_clarity: 35.5
-    contract_governance: 16.7
-    contract_quality: 59.8
+    contract_governance: 4.5
+    contract_quality: 49.5
     developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 41.6
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -258,8 +266,8 @@ score:
       total: 9
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/screenshots/canoe-intelligence-2026-08-17T080804.png
 security:
@@ -281,17 +289,17 @@ security:
   summary_line: SOC 2 Type II
 slug: canoe-intelligence
 tags:
-- Alternative Investments
-- Private Markets
-- Document Automation
-- Data Extraction
-- Fund Administration
+- alternative-investments
+- private-markets
+- document-automation
+- data-extraction
+- fund-administration
 - capital-calls
 - k-1-tax-documents
-- Portfolio Reporting
+- portfolio-reporting
 - Financial-Services
 - Fintech
-- Wealth Management
-- Institutional Investors
+- wealth-management
+- institutional-investors
 website: https://canoeintelligence.com/
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 4
 apis:
 - description: Submit new account applications and open new Axos deposit and commercial accounts programmatically. Partner-gated access secured with OAuth 2.0; no public OpenAPI specification is published.
@@ -101,7 +101,7 @@ modified: '2026-07-23'
 name: Axos Bank
 nav: Providers
 network: true
-overview: 'Axos Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Banking as a Service, and Open Finance.
+overview: 'Axos Bank publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Financial-Services, Banking, United States, Banking-as-a-Service, and Open Finance.
 
 
   Axos Bank''s developer surface includes engineering blog, authentication, documentation, support, and 9 more developer resources.'
@@ -109,7 +109,12 @@ random_paper: 18
 score:
   band: emerging
   composite: 20.9
-  delta: 1.4
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -119,15 +124,15 @@ score:
     discoverability: 72.2
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.5
+  previous_composite: 20.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axos-bank/refs/heads/main/screenshots/axos-bank-2026-07-25T202103.png
 security:
@@ -144,7 +149,7 @@ tags:
 - Financial-Services
 - Banking
 - United States
-- Banking as a Service
+- Banking-as-a-Service
 - Open Finance
 - Payments
 - Digital Bank

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -45,189 +45,189 @@ agentic_access:
   summary_line: 560 operations · 2 acting
 api_count: 61
 apis:
-- description: 'The Matomo Live API exposes 6 operations of the Matomo Reporting API (module `Live`). Real-time visitor data: live counters, the most recent visits in full detail, and individual visitor profiles. Eve'
-  name: Matomo Live API
-  slug: live-api
-- description: 'The Matomo Goals API exposes 11 operations of the Matomo Reporting API (module `Goals`). Conversion goal management and goal reporting — create, update and delete goals, and read conversions, revenue '
-  name: Matomo Goals API
-  slug: goals-api
-- description: The Matomo SegmentEditor API exposes 9 operations of the Matomo Reporting API (module `SegmentEditor`). Saved segment management — the reusable filter definitions that can be applied to any Matomo rep
-  name: Matomo Segments API
-  slug: segments-api
 - description: The single /index.php dispatch entrypoint through which every Matomo Reporting API method is invoked, by supplying module=API and method=Module.Action. This entry documents the entrypoint contract its
   name: Matomo Reporting API (index.php entrypoint)
   slug: matomo-index-php-api
 - description: The Matomo Tracking API — the server-side ingest entrypoint at /matomo.php that records pageviews, events, goals, ecommerce orders, site searches and content interactions. It is the counterpart to the
   name: Matomo Tracking API (matomo.php entrypoint)
   slug: matomo-matomo-php-api
-- description: The Matomo SitesManager API exposes 53 operations of the Matomo Reporting API (module `SitesManager`). Site provisioning and configuration — add, update and delete tracked sites, retrieve JavaScript a
-  name: Matomo SitesManager API
-  slug: sites-manager-api
-- description: The Matomo TagManager API exposes 47 operations of the Matomo Reporting API (module `TagManager`). Matomo Tag Manager — containers, versions, tags, triggers and variables, plus embed codes, preview mo
-  name: Matomo TagManager API
-  slug: tag-manager-api
-- description: The Matomo UsersManager API exposes 32 operations of the Matomo Reporting API (module `UsersManager`). User and permission administration — create, invite, update and delete Matomo users, assign per-s
-  name: Matomo UsersManager API
-  slug: users-manager-api
-- description: The Matomo CrashAnalytics API exposes 31 operations of the Matomo Reporting API (module `CrashAnalytics`). JavaScript crash tracking — crash groups, messages, sources, and which pages and categories c
-  name: Matomo CrashAnalytics API
-  slug: crash-analytics-api
-- description: The Matomo HeatmapSessionRecording API exposes 31 operations of the Matomo Reporting API (module `HeatmapSessionRecording`). Heatmaps and session recordings — configure them, read recorded heatmap dat
-  name: Matomo HeatmapSessionRecording API
-  slug: heatmap-session-recording-api
-- description: The Matomo FormAnalytics API exposes 26 operations of the Matomo Reporting API (module `FormAnalytics`). Form performance analytics — entry and drop-off fields, field timings, corrections and conversi
-  name: Matomo FormAnalytics API
-  slug: form-analytics-api
-- description: 'The Matomo Referrers API exposes 23 operations of the Matomo Reporting API (module `Referrers`). Where traffic came from: referrer type, search engines, keywords, campaigns, websites, social networks '
-  name: Matomo Referrers API
-  slug: referrers-api
-- description: The Matomo Funnels API exposes 19 operations of the Matomo Reporting API (module `Funnels`). Conversion funnel definition and analysis — flow, entries, exits and step-level drop-off. Every operation i
-  name: Matomo Funnels API
-  slug: funnels-api
-- description: The Matomo Actions API exposes 18 operations of the Matomo Reporting API (module `Actions`). Page, entry page, exit page, page title, download, outlink and site-search reporting — what visitors actual
+- description: Exposes the AbTesting API for managing experiments, embedding experiment scripts, and reading experiment reports.
+  name: Matomo Ab Testing API
+  slug: matomo-abtesting-api
+- description: 'The Actions API lets you request reports for all your Visitor Actions: Page URLs, Page titles, Events, Content Tracking, File Downloads and Clicks on external websites. For example, "getPageTitles" wi'
   name: Matomo Actions API
-  slug: actions-api
-- description: 'The Matomo API API exposes 17 operations of the Matomo Reporting API (module `API`). Matomo core meta-API: version and environment info, the machine-readable report and segment metadata catalogs, proc'
-  name: Matomo API API
-  slug: api-api
-- description: 'The Matomo AbTesting API exposes 17 operations of the Matomo Reporting API (module `AbTesting`). A/B test experiment management and results reporting. Every operation is dispatched through the single '
-  name: Matomo AbTesting API
-  slug: ab-testing-api
-- description: 'The Matomo MediaAnalytics API exposes 14 operations of the Matomo Reporting API (module `MediaAnalytics`). Video and audio engagement analytics: plays, finishes, play time and audience watch curves. E'
-  name: Matomo MediaAnalytics API
-  slug: media-analytics-api
-- description: The Matomo CustomReports API exposes 13 operations of the Matomo Reporting API (module `CustomReports`). Build and read custom report definitions combining arbitrary dimensions and metrics. Every oper
-  name: Matomo CustomReports API
-  slug: custom-reports-api
-- description: The Matomo MobileMessaging API exposes 12 operations of the Matomo Reporting API (module `MobileMessaging`). SMS delivery configuration and phone-number verification for scheduled reports. Every opera
-  name: Matomo MobileMessaging API
-  slug: mobile-messaging-api
-- description: The Matomo SearchEngineKeywordsPerformance API exposes 12 operations of the Matomo Reporting API (module `SearchEngineKeywordsPerformance`). Real search keyword data imported from Google Search Consol
-  name: Matomo SearchEngineKeywordsPerformance API
-  slug: search-engine-keywords-performance-api
-- description: 'The Matomo MarketingCampaignsReporting API exposes 11 operations of the Matomo Reporting API (module `MarketingCampaignsReporting`). Extended campaign reporting across campaign name, keyword, source, '
-  name: Matomo MarketingCampaignsReporting API
-  slug: marketing-campaigns-reporting-api
-- description: The Matomo VisitsSummary API exposes 10 operations of the Matomo Reporting API (module `VisitsSummary`). The core traffic overview — visits, unique visitors, users, actions, bounces and time on site f
-  name: Matomo VisitsSummary API
-  slug: visits-summary-api
-- description: The Matomo Events API exposes 9 operations of the Matomo Reporting API (module `Events`). Custom event reporting by category, action and name, with the full set of secondary-dimension pivots. Every op
-  name: Matomo Events API
-  slug: events-api
-- description: The Matomo LanguagesManager API exposes 9 operations of the Matomo Reporting API (module `LanguagesManager`). Language and translation operations for the Matomo interface. Every operation is dispatche
-  name: Matomo LanguagesManager API
-  slug: languages-manager-api
-- description: The Matomo DevicesDetection API exposes 8 operations of the Matomo Reporting API (module `DevicesDetection`). Device type, brand, model, operating system, browser and browser-engine reporting. Every o
-  name: Matomo DevicesDetection API
-  slug: devices-detection-api
-- description: The Matomo OAuth2 API exposes 8 operations of the Matomo Reporting API (module `OAuth2`). OAuth 2.0 client administration for the instance (superuser only). Every operation is dispatched through the s
-  name: Matomo OAuth2 API
-  slug: oauth2-api
-- description: 'The Matomo UserCountry API exposes 8 operations of the Matomo Reporting API (module `UserCountry`). Geolocation reporting: country, continent, region and city. Every operation is dispatched through th'
-  name: Matomo UserCountry API
-  slug: user-country-api
-- description: The Matomo Annotations API exposes 7 operations of the Matomo Reporting API (module `Annotations`). Dated notes attached to a site so report readers can see what happened on a given day. Every operati
+  slug: matomo-actions-api
+- description: Exposes Activity Log API endpoints for listing activity entries, counting matches, and resolving the permitted date range for the current caller.
+  name: Matomo Activity Log API
+  slug: matomo-activitylog-api
+- description: Exposes API endpoints for managing advertising conversion export configurations. These methods let users list, inspect, create, update, and delete configured exports and access tokens.
+  name: Matomo Advertising Conversion Export API
+  slug: matomo-advertisingconversionexport-api
+- description: Provides API methods to create, update, delete, and query annotations.
   name: Matomo Annotations API
-  slug: annotations-api
-- description: The Matomo CustomAlerts API exposes 7 operations of the Matomo Reporting API (module `CustomAlerts`). Threshold alerts on any report metric, with triggered-alert history. Every operation is dispatched
-  name: Matomo CustomAlerts API
-  slug: custom-alerts-api
-- description: The Matomo AdvertisingConversionExport API exposes 6 operations of the Matomo Reporting API (module `AdvertisingConversionExport`). Export conversions back out to advertising platforms. Every operatio
-  name: Matomo AdvertisingConversionExport API
-  slug: advertising-conversion-export-api
-- description: The Matomo CustomDimensions API exposes 6 operations of the Matomo Reporting API (module `CustomDimensions`). Configure and read custom dimensions in visit or action scope. Every operation is dispatch
-  name: Matomo CustomDimensions API
-  slug: custom-dimensions-api
-- description: The Matomo PrivacyManager API exposes 6 operations of the Matomo Reporting API (module `PrivacyManager`). GDPR operations — find and export or delete a data subject, manage anonymisation and data rete
-  name: Matomo PrivacyManager API
-  slug: privacy-manager-api
-- description: The Matomo ScheduledReports API exposes 6 operations of the Matomo Reporting API (module `ScheduledReports`). Create, update and send scheduled email and SMS reports. Every operation is dispatched thr
-  name: Matomo ScheduledReports API
-  slug: scheduled-reports-api
-- description: The Matomo Dashboard API exposes 5 operations of the Matomo Reporting API (module `Dashboard`). Dashboard layout and widget management. Every operation is dispatched through the single `/index.php?mod
-  name: Matomo Dashboard API
-  slug: dashboard-api
-- description: The Matomo Insights API exposes 5 operations of the Matomo Reporting API (module `Insights`). Automatic movers-and-shakers analysis — which report rows changed most between two periods. Every operatio
-  name: Matomo Insights API
-  slug: insights-api
-- description: The Matomo Transitions API exposes 4 operations of the Matomo Reporting API (module `Transitions`). What visitors did immediately before and after a given page or page title. Every operation is dispat
-  name: Matomo Transitions API
-  slug: transitions-api
-- description: 'The Matomo VisitorInterest API exposes 4 operations of the Matomo Reporting API (module `VisitorInterest`). Visitor engagement: visit duration, pages per visit, visits per visitor and days since last '
-  name: Matomo VisitorInterest API
-  slug: visitor-interest-api
-- description: The Matomo ActivityLog API exposes 3 operations of the Matomo Reporting API (module `ActivityLog`). Audit log of who changed what inside Matomo. Every operation is dispatched through the single `/inde
-  name: Matomo ActivityLog API
-  slug: activity-log-api
-- description: The Matomo ApiReference API exposes 3 operations of the Matomo Reporting API (module `ApiReference`). Reads the OpenAPI 3.1.0 documents Matomo generates for each installed plugin. This is the endpoint
-  name: Matomo ApiReference API
-  slug: api-reference-api
-- description: The Matomo CoreAdminHome API exposes 3 operations of the Matomo Reporting API (module `CoreAdminHome`). Instance administration operations, including tracking-failure inspection and archive invalidati
-  name: Matomo CoreAdminHome API
-  slug: core-admin-home-api
-- description: The Matomo Feedback API exposes 3 operations of the Matomo Reporting API (module `Feedback`). In-product feedback and survey operations. Every operation is dispatched through the single `/index.php?mo
-  name: Matomo Feedback API
-  slug: feedback-api
-- description: The Matomo MultiSites API exposes 3 operations of the Matomo Reporting API (module `MultiSites`). Cross-site rollup — the All Websites dashboard, with metrics for every site the caller can view in one
-  name: Matomo MultiSites API
-  slug: multi-sites-api
-- description: The Matomo RollUpReporting API exposes 3 operations of the Matomo Reporting API (module `RollUpReporting`). Roll-up sites that aggregate the data of several other sites into one. Every operation is di
-  name: Matomo RollUpReporting API
-  slug: roll-up-reporting-api
-- description: The Matomo Tour API exposes 3 operations of the Matomo Reporting API (module `Tour`). Product onboarding tour and challenge progress. Every operation is dispatched through the single `/index.php?modul
-  name: Matomo Tour API
-  slug: tour-api
-- description: The Matomo VisitTime API exposes 3 operations of the Matomo Reporting API (module `VisitTime`). Visits by server time, local time and day of week. Every operation is dispatched through the single `/in
-  name: Matomo VisitTime API
-  slug: visit-time-api
-- description: The Matomo Cohorts API exposes 2 operations of the Matomo Reporting API (module `Cohorts`). Cohort retention analysis. Every operation is dispatched through the single `/index.php?module=API&method=Co
-  name: Matomo Cohorts API
-  slug: cohorts-api
-- description: 'The Matomo Contents API exposes 2 operations of the Matomo Reporting API (module `Contents`). Content impression and interaction reporting for content blocks and pieces. Every operation is dispatched '
-  name: Matomo Contents API
-  slug: contents-api
-- description: The Matomo Marketplace API exposes 2 operations of the Matomo Reporting API (module `Marketplace`). Access to the Matomo plugin marketplace from inside an instance. Every operation is dispatched throu
-  name: Matomo Marketplace API
-  slug: marketplace-api
-- description: The Matomo Overlay API exposes 2 operations of the Matomo Reporting API (module `Overlay`). Page Overlay support operations, which render analytics on top of the live site. Every operation is dispatch
-  name: Matomo Overlay API
-  slug: overlay-api
-- description: The Matomo Resolution API exposes 2 operations of the Matomo Reporting API (module `Resolution`). Screen resolution and configuration reporting. Every operation is dispatched through the single `/inde
-  name: Matomo Resolution API
-  slug: resolution-api
-- description: The Matomo UserLanguage API exposes 2 operations of the Matomo Reporting API (module `UserLanguage`). Visitor browser language reporting. Every operation is dispatched through the single `/index.php?m
-  name: Matomo UserLanguage API
-  slug: user-language-api
-- description: The Matomo Bandwidth API exposes 1 operations of the Matomo Reporting API (module `Bandwidth`). Bandwidth consumption reporting. Every operation is dispatched through the single `/index.php?module=API
+  slug: matomo-annotations-api
+- description: 'This API is the <a href=''https://matomo.org/docs/analytics-api/metadata/'' rel=''noreferrer'' target=''_blank''>Metadata API</a>: it gives information about all other available APIs methods, as well as pro'
+  name: Matomo API
+  slug: matomo-api-api
+- description: 'Provides Reporting API endpoints for reading OpenAPI plugin configuration and specifications. Exposes endpoints to return the effective plugin list for spec generation, read pre-generated spec files, '
+  name: Matomo API Reference API
+  slug: matomo-apireference-api
+- description: Exposes reporting API endpoints for aggregated bandwidth metrics.
   name: Matomo Bandwidth API
-  slug: bandwidth-api
-- description: The Matomo CustomJsTracker API exposes 1 operations of the Matomo Reporting API (module `CustomJsTracker`). Access to the generated JavaScript tracker file. Every operation is dispatched through the s
-  name: Matomo CustomJsTracker API
-  slug: custom-js-tracker-api
-- description: The Matomo DevicePlugins API exposes 1 operations of the Matomo Reporting API (module `DevicePlugins`). Browser plugin detection reporting. Every operation is dispatched through the single `/index.php
-  name: Matomo DevicePlugins API
-  slug: device-plugins-api
-- description: The Matomo ImageGraph API exposes 1 operations of the Matomo Reporting API (module `ImageGraph`). Static PNG chart rendering of any Matomo report, for embedding in email and PDFs. Every operation is d
-  name: Matomo ImageGraph API
-  slug: image-graph-api
-- description: 'The Matomo Login API exposes 1 operations of the Matomo Reporting API (module `Login`). Authentication-related operations exposed by the login module. Every operation is dispatched through the single '
+  slug: matomo-bandwidth-api
+- description: Exposes cohort reports grouped by the period of a visitor's first visit. These endpoints transform archived first-visit cohort data into table and chart responses for the Cohorts plugin.
+  name: Matomo Cohorts API
+  slug: matomo-cohorts-api
+- description: The Contents API exposes content tracking reports grouped by content name and content piece.
+  name: Matomo Contents API
+  slug: matomo-contents-api
+- description: Provides administrative API methods for scheduling, archiving, tracking failures, and opt-out code generation.
+  name: Matomo Core Admin Home API
+  slug: matomo-coreadminhome-api
+- description: Exposes Crash Analytics endpoints for managing tracked crashes and querying crash reports. Includes summary, drill-down, historical, and realtime reporting APIs for a single site.
+  name: Matomo Crash Analytics API
+  slug: matomo-crashanalytics-api
+- description: Exposes Custom Alerts API endpoints for managing alert definitions and reading triggered alert data. These methods let callers create, update, fetch, delete, and evaluate alerts for one or more sites.
+  name: Matomo Custom Alerts API
+  slug: matomo-customalerts-api
+- description: The Custom Dimensions API lets you manage and access reports for your configured Custom Dimensions.
+  name: Matomo Custom Dimensions API
+  slug: matomo-customdimensions-api
+- description: Provides API methods for custom JavaScript tracker configuration.
+  name: Matomo Custom Js Tracker API
+  slug: matomo-customjstracker-api
+- description: Exposes Custom Reports configuration and reporting endpoints. Use it to create, duplicate, manage, and query custom report definitions and their archived data.
+  name: Matomo Custom Reports API
+  slug: matomo-customreports-api
+- description: The Dashboard API lets you manage user dashboards and retrieve their widget configurations.
+  name: Matomo Dashboard API
+  slug: matomo-dashboard-api
+- description: The DevicePlugins API lets you access reports about device plugins such as browser plugins.
+  name: Matomo Device Plugins API
+  slug: matomo-deviceplugins-api
+- description: The DevicesDetection API lets you access reports about your visitors' device types, brands, models, operating systems, and browsers.
+  name: Matomo Devices Detection API
+  slug: matomo-devicesdetection-api
+- description: The Events API lets you request reports about your users' Custom Events. Events are tracked using the Javascript Tracker trackEvent() function, or using the [Tracking HTTP API](https://developer.matom
+  name: Matomo Events API
+  slug: matomo-events-api
+- description: Provides API methods for submitting product feedback and managing feedback reminders.
+  name: Matomo Feedback API
+  slug: matomo-feedback-api
+- description: Exposes the Form Analytics API for managing tracked forms and retrieving form performance reports. Use these endpoints to create, update, archive, and delete configured forms, inspect form metadata, a
+  name: Matomo Form Analytics API
+  slug: matomo-formanalytics-api
+- description: Exposes the Funnels reporting and management API for funnel analytics configuration. Includes endpoints for funnel reports, funnel definitions, and pattern validation helpers.
+  name: Matomo Funnels API
+  slug: matomo-funnels-api
+- description: Goals API lets you Manage existing goals, via "updateGoal" and "deleteGoal", create new Goals via "addGoal", or list existing Goals for one or several websites via "getGoals" If you are <a href='https
+  name: Matomo Goals API
+  slug: matomo-goals-api
+- description: 'Exposes the Heatmap & Session Recording API endpoints for managing configurations and retrieving recorded activity. Heatmap coordinates use relative values: X and Y positions range from 0 to 2000, whe'
+  name: Matomo Heatmap Session Recording API
+  slug: matomo-heatmapsessionrecording-api
+- description: 'The ImageGraph.get API call lets you generate beautiful static PNG Graphs for any existing Matomo report. Supported graph types are: line plot, 2D/3D pie chart and vertical bar chart. A few notes abou'
+  name: Matomo Image Graph API
+  slug: matomo-imagegraph-api
+- description: Provides API methods for insight and mover/shaker comparisons between report periods.
+  name: Matomo Insights API
+  slug: matomo-insights-api
+- description: The LanguagesManager API lets you access existing Matomo translations, and change Users languages preferences. "getTranslationsForLanguage" will return all translation strings for a given language, so
+  name: Matomo Languages Manager API
+  slug: matomo-languagesmanager-api
+- description: The Live! API lets you access complete visit level information about your visitors. Combined with the power of <a href='https://matomo.org/docs/analytics-api/segmentation/' target='_blank'>Segmentatio
+  name: Matomo Live API
+  slug: matomo-live-api
+- description: Provides API methods for login-related administration tasks.
   name: Matomo Login API
-  slug: login-api
-- description: 'The Matomo PagePerformance API exposes 1 operations of the Matomo Reporting API (module `PagePerformance`). Page-load timing reporting: network, server, transfer, DOM processing and DOM completion tim'
-  name: Matomo PagePerformance API
-  slug: page-performance-api
-- description: The Matomo SEO API exposes 1 operations of the Matomo Reporting API (module `SEO`). SEO ranking metrics for a URL. Every operation is dispatched through the single `/index.php?module=API&method=SEO.<A
+  slug: matomo-login-api
+- description: Exposes reporting API endpoints for marketing campaign dimensions and drill-down reports. Includes campaign IDs, names, keywords, source and medium dimensions, and hierarchical subtables.
+  name: Matomo Marketing Campaigns Reporting API
+  slug: matomo-marketingcampaignsreporting-api
+- description: The Marketplace API lets you manage your license key so you can download & install in one-click <a target="_blank" rel="noreferrer" href="https://matomo.org/recommends/premium-plugins/">paid premium p
+  name: Matomo Marketplace API
+  slug: matomo-marketplace-api
+- description: Exposes Media Analytics reports for video and audio plays, engagement, resources, and player usage. Includes real-time endpoints for recent activity and archive-backed endpoints for aggregated media r
+  name: Matomo Media Analytics API
+  slug: matomo-mediaanalytics-api
+- description: The MobileMessaging API lets you manage SMS credentials, phone number verification, and SMS account settings.
+  name: Matomo Mobile Messaging API
+  slug: matomo-mobilemessaging-api
+- description: The MultiSites API lets you request the key metrics (visits, page views, revenue) for all Websites in Matomo.
+  name: Matomo Multi Sites API
+  slug: matomo-multisites-api
+- description: Exposes super-user OAuth2 client management endpoints for Matomo. This API lists configured scopes and lets administrators create, inspect, update, rotate, activate, and delete OAuth2 clients.
+  name: Matomo O Auth2 API
+  slug: matomo-oauth2-api
+- description: The Overlay API exposes translation data and overlay-specific page transition reports.
+  name: Matomo Overlay API
+  slug: matomo-overlay-api
+- description: Provides reporting API methods for aggregated page performance metrics.
+  name: Matomo Page Performance API
+  slug: matomo-pageperformance-api
+- description: The PrivacyManager API lets you manage GDPR workflows, anonymization settings, and privacy compliance controls.
+  name: Matomo Privacy Manager API
+  slug: matomo-privacymanager-api
+- description: The Referrers API lets you access reports about websites, search engines, keywords, social networks, AI assistants, and campaigns used to access your website. For example, "getKeywords" returns all se
+  name: Matomo Referrers API
+  slug: matomo-referrers-api
+- description: Provides API methods for screen resolution and device configuration reports.
+  name: Matomo Resolution API
+  slug: matomo-resolution-api
+- description: Provides API endpoints for managing roll-up websites and their source site assignments. Use these methods to create roll-ups, update their configuration, and list the configured roll-up sites with the
+  name: Matomo Roll Up Reporting API
+  slug: matomo-rollupreporting-api
+- description: The ScheduledReports API lets you manage Scheduled Email reports, as well as generate, download or email any existing report. "generateReport" will generate the requested report (for a specific date r
+  name: Matomo Scheduled Reports API
+  slug: matomo-scheduledreports-api
+- description: Provides SearchEngineKeywordsPerformance API endpoints for imported keyword and crawl-performance reports. Exposes combined and provider-specific reports for Google, Bing, and Yandex search data. \Plu
+  name: Matomo Search Engine Keywords Performance API
+  slug: matomo-searchenginekeywordsperformance-api
+- description: The SegmentEditor API lets you add, update, delete custom Segments, and list saved segments.
+  name: Matomo Segment Editor API
+  slug: matomo-segmenteditor-api
+- description: 'The SEO API lets you access a list of SEO metrics for the specified URL: Bing indexed pages and age of the Domain name.'
   name: Matomo SEO API
-  slug: seo-api
-- description: The Matomo TwoFactorAuth API exposes 1 operations of the Matomo Reporting API (module `TwoFactorAuth`). Two-factor authentication operations. Every operation is dispatched through the single `/index.p
-  name: Matomo TwoFactorAuth API
-  slug: two-factor-auth-api
-- description: The Matomo UserId API exposes 1 operations of the Matomo Reporting API (module `UserId`). Reporting by the User ID assigned to a logged-in visitor. Every operation is dispatched through the single `/i
-  name: Matomo UserId API
-  slug: user-id-api
-- description: The Matomo VisitFrequency API exposes 1 operations of the Matomo Reporting API (module `VisitFrequency`). Returning-visitor metrics. Every operation is dispatched through the single `/index.php?module
-  name: Matomo VisitFrequency API
-  slug: visit-frequency-api
+  slug: matomo-seo-api
+- description: 'The SitesManager API gives you full control on Websites in Matomo (create, update and delete), and many methods to retrieve websites based on various attributes. This API lets you create websites via '
+  name: Matomo Sites Manager API
+  slug: matomo-sitesmanager-api
+- description: Exposes the Tag Manager API for managing containers, versions, tags, triggers, and variables. The endpoints also provide installation metadata, publishing workflows, preview controls, and import/expor
+  name: Matomo Tag Manager API
+  slug: matomo-tagmanager-api
+- description: Provides API methods for Tour challenges and engagement levels.
+  name: Matomo Tour API
+  slug: matomo-tour-api
+- description: Provides API methods for transition reports around a specific page action.
+  name: Matomo Transitions API
+  slug: matomo-transitions-api
+- description: Provides API methods for managing two-factor authentication.
+  name: Matomo Two Factor Auth API
+  slug: matomo-twofactorauth-api
+- description: The UserCountry API lets you access reports about your visitors' Countries and Continents.
+  name: Matomo User Country API
+  slug: matomo-usercountry-api
+- description: Provides API methods for User ID reports.
+  name: Matomo User ID API
+  slug: matomo-userid-api
+- description: The UserLanguage API lets you access reports about your Visitors language setting
+  name: Matomo User Language API
+  slug: matomo-userlanguage-api
+- description: The UsersManager API lets you Manage Users and their permissions to access specific websites. You can create users via "addUser", update existing users via "updateUser" and delete users via "deleteUse
+  name: Matomo Users Manager API
+  slug: matomo-usersmanager-api
+- description: VisitFrequency API lets you access a list of metrics related to Returning Visitors.
+  name: Matomo Visit Frequency API
+  slug: matomo-visitfrequency-api
+- description: VisitorInterest API lets you access visitor engagement distribution reports, including visits by pages viewed, visit duration, days since last visit, and visit count.
+  name: Matomo Visitor Interest API
+  slug: matomo-visitorinterest-api
+- description: VisitsSummary API lets you access the core web analytics metrics (visits, unique visitors, count of actions (page views & downloads & clicks on outlinks), time on site, bounces and converted visits.
+  name: Matomo Visits Summary API
+  slug: matomo-visitssummary-api
+- description: VisitTime API lets you access reports by Hour (Server time), and by Hour Local Time of your visitors.
+  name: Matomo Visit Time API
+  slug: matomo-visittime-api
 artifact_total: 76
 collections:
 - collection_type: open
@@ -246,6 +246,246 @@ collections:
   name: Matomo Reporting API
   slug: open-matomo
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/matomo-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-live-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-goals-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-segment-editor-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-sites-manager-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-tag-manager-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-users-manager-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-crash-analytics-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-heatmap-session-recording-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-form-analytics-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-referrers-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-funnels-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-actions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-ab-testing-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-media-analytics-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-custom-reports-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-mobile-messaging-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-search-engine-keywords-performance-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-marketing-campaigns-reporting-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-visits-summary-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-events-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-languages-manager-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-devices-detection-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-oauth2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-user-country-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-annotations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-custom-alerts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-advertising-conversion-export-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-custom-dimensions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-privacy-manager-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-scheduled-reports-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-dashboard-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-insights-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-transitions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-visitor-interest-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-activity-log-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-api-reference-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-core-admin-home-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-feedback-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-multi-sites-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-roll-up-reporting-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-tour-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-visit-time-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-cohorts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-contents-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-marketplace-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-overlay-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-resolution-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-user-language-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-bandwidth-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-custom-js-tracker-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-device-plugins-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-image-graph-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-login-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-page-performance-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-seo-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-two-factor-auth-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-user-id-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/matomo-visit-frequency-overlay.yaml
 - group: docs
   title: ''
   type: OpenAPI
@@ -462,10 +702,10 @@ modified: '2026-08-13'
 name: Matomo
 nav: Providers
 network: true
-overview: 'Matomo publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Live API, Goals API, Segments API, and 58 more. Tagged areas include Analytics, Web Analytics, Open-Source, Privacy, and Data Ownership.
+overview: 'Matomo publishes 61 APIs on the [APIs.io](https://apis.io/) network, including Reporting API (index.php entrypoint), Tracking API (matomo.php entrypoint), Ab Testing API, and 58 more. Tagged areas include Analytics, Web Analytics, Open-Source, Privacy, and Data Ownership.
 
 
-  Matomo''s developer surface includes authentication, changelog, CLI, sandbox, documentation, API reference, getting-started guide, and 43 more developer resources.'
+  Matomo''s developer surface includes authentication, changelog, CLI, sandbox, documentation, API reference, getting-started guide, and 103 more developer resources.'
 plans:
 - name: Matomo Plans Pricing
   plan_count: 7
@@ -482,18 +722,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials/refreshToken
 score:
   band: exemplar
-  composite: 67.3
+  composite: 66.6
+  coverage:
+    artifact_dirs: 27
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 47.0
     developer_ergonomics: 80.4
-    discoverability: 68.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 81.6
-  previous_composite: 67.3
+  previous_composite: 66.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -504,8 +749,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/screenshots/matomo-2026-06-20T185037.png
 security:

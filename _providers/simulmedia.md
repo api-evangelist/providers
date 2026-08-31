@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: In-game rewarded-video ad API. A game server exchanges client credentials for a Bearer token, then requests ad opportunities for a player and reports the playback lifecycle (start, progress, complete,
@@ -41,6 +41,14 @@ apis:
   slug: playerwon-api
 artifact_total: 6
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Simulmedia/playerwon-sdk/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Simulmedia/playerwon-sdk/releases
 - group: auth
   title: ''
   type: DomainSecurity
@@ -108,7 +116,7 @@ network: true
 overview: 'Simulmedia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Television, Connected TV, and Games.
 
 
-  Simulmedia''s developer surface includes engineering blog, signup flow, support, changelog, and 9 more developer resources.'
+  Simulmedia''s developer surface includes engineering blog, signup flow, support, changelog, and 11 more developer resources.'
 plans:
 - name: Simulmedia Plans Pricing
   plan_count: 0
@@ -120,25 +128,33 @@ rate_limits:
   slug: simulmedia-rate-limits
 score:
   band: thin
-  composite: 30.2
-  delta: 9.9
+  composite: 30.3
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 66.1
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 20.3
+  open_source:
+    applies: true
+    score: 25.0
+  previous_composite: 30.3
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Simulmedia Authentication

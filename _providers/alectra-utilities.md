@@ -23,18 +23,31 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
-- description: Alectra's mandated Green Button Connect My Data service, required of every Ontario electric and gas utility by Ontario Regulation 633/21 (Energy Data) and implemented to the NAESB REQ.21 Energy Servic
-  name: Alectra Utilities Green Button Connect My Data (CMD) API
-  slug: alectra-green-button-connect-my-data-api
-artifact_total: 6
+- description: Application Information endpoints
+  name: Alectra Utilities Application Information API
+  slug: alectra-utilities-applicationinformation-api
+- description: Authorization endpoints
+  name: Alectra Utilities Authorization API
+  slug: alectra-utilities-authorization-api
+- description: Batch data transfer endpoints
+  name: Alectra Utilities Batch API
+  slug: alectra-utilities-batch-api
+- description: Usage Point endpoints
+  name: Alectra Utilities Usage Point API
+  slug: alectra-utilities-usagepoint-api
+artifact_total: 9
 collections:
 - collection_type: open
   name: Green Button API Documentation
   slug: open-alectra-utilities-green-button-espi
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/alectra-utilities-green-button-espi-overlay.yaml
 - group: agent
   title: ''
   type: MCPServer
@@ -125,10 +138,10 @@ modified: '2026-07-27'
 name: Alectra Utilities
 nav: Providers
 network: true
-overview: 'Alectra Utilities publishes 1 API on the [APIs.io](https://apis.io/) network: Green Button Connect My Data (CMD) API. Tagged areas include Energy, Canada, Utilities, Electricity, and Ontario.
+overview: 'Alectra Utilities publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Application Information API, Authorization API, Batch API, and 1 more. Tagged areas include Energy, Canada, Utilities, Electricity, and Ontario.
 
 
-  Alectra Utilities'' developer surface includes documentation, developer portal, support, engineering blog, and 15 more developer resources.'
+  Alectra Utilities'' developer surface includes documentation, developer portal, support, engineering blog, and 16 more developer resources.'
 random_paper: 1
 scopes:
 - name: Alectra Utilities Scopes
@@ -137,18 +150,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 31.2
-  delta: 3.6
+  composite: 30.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 83.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 11.2
+    contract_governance: 4.5
+    contract_quality: 11.1
     developer_ergonomics: 39.9
-    discoverability: 59.3
-    governance: 16.7
+    discoverability: 66.7
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 27.6
+  previous_composite: 31.0
   provenance:
     conformance: derived
     contracts:
@@ -164,8 +182,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alectra-utilities/refs/heads/main/screenshots/alectra-utilities-2026-08-07T161155.png
 security:

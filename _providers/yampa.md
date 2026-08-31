@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 2
 common:
@@ -100,7 +100,7 @@ modified: '2026-07-21'
 name: Yampa
 nav: Providers
 network: true
-overview: 'Yampa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Ml, AI Agents, Customer Service, and Contact Centers.
+overview: 'Yampa is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai/Ml, AI Agents, Customer Service, and Contact Centers.
 
 
   Yampa''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
@@ -108,6 +108,11 @@ random_paper: 11
 score:
   band: emerging
   composite: 15.7
+  coverage:
+    artifact_dirs: 5
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 35.5
@@ -119,8 +124,8 @@ score:
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 15.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security
@@ -134,7 +139,7 @@ security:
 slug: yampa
 tags:
 - Company
-- Ai Ml
+- Ai/Ml
 - AI Agents
 - Customer Service
 - Contact Centers

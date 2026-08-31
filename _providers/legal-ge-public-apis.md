@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ modified: '2026-08-09'
 name: legal.ge Public APIs
 nav: Providers
 network: true
-overview: 'legal.ge Public APIs publishes 2 APIs on the [APIs.io](https://apis.io/) network: Directory API and Matching API. Tagged areas include Legal, Law, Legal Services, Directory, and Georgia.
+overview: 'legal.ge Public APIs publishes 2 APIs on the [APIs.io](https://apis.io/) network: Directory API and Matching API. Tagged areas include Legal, law, legal-services, Directory, and georgia.
 
 
   legal.ge Public APIs'' developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
@@ -190,18 +190,23 @@ rate_limits:
   slug: legal-ge-public-apis-rate-limits
 score:
   band: developing
-  composite: 43.7
+  composite: 42.2
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 52.7
     developer_ergonomics: 37.5
     discoverability: 75.9
-    governance: 16.7
+    governance: 4.5
     operational_transparency: 34.2
-  previous_composite: 43.7
+  previous_composite: 42.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -212,8 +217,8 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/screenshots/legal-ge-public-apis-2026-08-17T081028.png
 security:
@@ -228,15 +233,15 @@ security:
 slug: legal-ge-public-apis
 tags:
 - Legal
-- Law
-- Legal Services
+- law
+- legal-services
 - Directory
-- Georgia
+- georgia
 - AI Agents
 - MCP
 - specialists
-- Professional Services
+- professional-services
 - Marketplace
-- Multilingual
-- Legal Tech
+- multilingual
+- legal-tech
 ---

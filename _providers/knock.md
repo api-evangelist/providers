@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.6
-  scored_at: '2026-08-26'
+  score: 25.1
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 116
   slug: knock-agentic-access
   summary_line: 116 operations · 78 acting · 3 human-in-the-loop
-api_count: 19
+api_count: 1
 apis:
 - description: An Audience is a segment of users.
   name: Knock Audiences API
@@ -65,24 +65,15 @@ apis:
 - description: A message sent to a single recipient on a channel.
   name: Knock Messages API
   slug: knock-messages-api
-- description: The Microsoft Teams API from Knock — 4 operation(s) for microsoft teams.
-  name: Knock Microsoft Teams API
-  slug: knock-microsoft-teams-api
 - description: An object represents a resource in your system that you want to map into Knock.
   name: Knock Objects API
   slug: knock-objects-api
-- description: Preferences are a way to configure how notifications are sent to recipients. They are a set of configuration that determines whether a recipient should receive a notification for a given workflow on a
-  name: Knock Preferences API
-  slug: knock-preferences-api
 - description: A provider represents a third-party service that Knock integrates with and is configured via a channel.
   name: Knock Providers API
   slug: knock-providers-api
 - description: A schedule is a per-recipient, timezone-aware configuration for when to invoke a workflow.
   name: Knock Schedules API
   slug: knock-schedules-api
-- description: The Slack API from Knock — 3 operation(s) for slack.
-  name: Knock Slack API
-  slug: knock-slack-api
 - description: A subscription represents a connection between a recipient and an object, used to represent a list.
   name: Knock Subscriptions API
   slug: knock-subscriptions-api
@@ -101,7 +92,7 @@ apis:
 - description: A workflow is a structured set of steps that is triggered to produce notifications sent over channels.
   name: Knock Workflows API
   slug: knock-workflows-api
-artifact_total: 48
+artifact_total: 45
 asyncapis:
 - description: 'AsyncAPI specification for Knock''s real-time in-app notification feed transport. Knock exposes a Phoenix Channels WebSocket that pushes feed updates to subscribed clients. The connection is initiated '
   name: Knock Real-Time In-App Feed (Phoenix Channels)
@@ -223,7 +214,7 @@ modified: '2026-05-29'
 name: Knock
 nav: Providers
 network: true
-overview: 'Knock publishes 19 APIs on the [APIs.io](https://apis.io/) network, including Audiences API, Bulk operations API, Channel data API, and 16 more. Tagged areas include Notification, Email, SMS, Push, and Workflows.
+overview: 'Knock publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Audiences API, Bulk operations API, Channel data API, and 13 more. Tagged areas include Notification, Email, SMS, Push, and Workflows.
 
 
   The Knock catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
@@ -253,18 +244,23 @@ rules:
   slug: knock-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 31.1
-  delta: 1.9
+  composite: 30.8
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 67.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 11.4
-    contract_quality: 62.1
+    contract_quality: 63.1
     developer_ergonomics: 21.4
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 11.4
     operational_transparency: 7.9
-  previous_composite: 29.2
+  previous_composite: 31.3
   provenance:
     agentic_access: derived
     contracts:
@@ -278,8 +274,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knock/refs/heads/main/screenshots/knock-2026-06-20T184119.png
 security:

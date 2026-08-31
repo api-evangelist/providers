@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-08-26'
-api_count: 10
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
 - description: Client organization information
   name: Confident Cannabis Client Info API
@@ -102,6 +102,10 @@ collections:
   name: Clients Client Info Test Results API
   slug: open-confident-cannabis-test-results-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/confident-cannabis-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -217,22 +221,27 @@ network: true
 overview: 'Confident Cannabis publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Client Info API, Clients API, Lab Info API, and 7 more. Tagged areas include Company, Cannabis, Laboratory, LIMS, and Testing.
 
 
-  Confident Cannabis'' developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 18 more developer resources.'
+  Confident Cannabis'' developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 19 more developer resources.'
 random_paper: 3
 score:
   band: developing
-  composite: 45.8
+  composite: 44.3
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 46.1
     commercial_clarity: 46.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 59.3
     developer_ergonomics: 33.9
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 45.8
+  previous_composite: 44.3
   provenance:
     conformance: first-party
     contracts:
@@ -248,8 +257,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/screenshots/confident-cannabis-2026-07-25T210247.png
 security:

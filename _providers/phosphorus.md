@@ -23,14 +23,43 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-08-26'
-api_count: 1
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: REST API for the Phosphorus xIoT security platform, spanning two live versions. The v2 surface reads devices and their alerts, certificates, credentials, data provenance, firmware, logs and scans, plu
-  name: Phosphorus API
-  slug: phosphorus-api
-artifact_total: 6
+- description: The Alerts API from Phosphorus — 1 operation(s) for alerts.
+  name: Phosphorus Alerts API
+  slug: phosphorus-alerts-api
+- description: The Device API from Phosphorus — 8 operation(s) for device.
+  name: Phosphorus Device API
+  slug: phosphorus-device-api
+- description: The Devices API from Phosphorus — 1 operation(s) for devices.
+  name: Phosphorus Devices API
+  slug: phosphorus-devices-api
+- description: The Dynamic Scans API from Phosphorus — 5 operation(s) for dynamic scans.
+  name: Phosphorus Dynamic Scans API
+  slug: phosphorus-dynamic-scans-api
+- description: The Providers API from Phosphorus — 5 operation(s) for providers.
+  name: Phosphorus Providers API
+  slug: phosphorus-providers-api
+- description: The Search API from Phosphorus — 1 operation(s) for search.
+  name: Phosphorus Search API
+  slug: phosphorus-search-api
+- description: The Sites API from Phosphorus — 1 operation(s) for sites.
+  name: Phosphorus Sites API
+  slug: phosphorus-sites-api
+- description: The Vault API from Phosphorus — 2 operation(s) for vault.
+  name: Phosphorus Vault API
+  slug: phosphorus-vault-api
+artifact_total: 13
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/phosphorus-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: company
   title: ''
   type: Website
@@ -111,10 +140,10 @@ modified: '2026-08-26'
 name: Phosphorus
 nav: Providers
 network: true
-overview: 'Phosphorus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cybersecurity, xIoT Security, IoT Security, OT Security, and IoMT.
+overview: 'Phosphorus publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Device API, Devices API, and 5 more. Tagged areas include Cybersecurity, xIoT Security, IoT Security, OT Security, and IoMT.
 
 
-  Phosphorus'' developer surface includes support, engineering blog, and 16 more developer resources.'
+  Phosphorus'' developer surface includes support, engineering blog, and 18 more developer resources.'
 plans:
 - name: Phosphorus Plans Pricing
   plan_count: 0
@@ -126,16 +155,23 @@ rate_limits:
   slug: phosphorus-rate-limits
 score:
   band: thin
-  composite: 34.6
+  composite: 31.7
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 47.6
+    contract_governance: 4.5
+    contract_quality: 46.3
     developer_ergonomics: 20.8
-    discoverability: 79.6
-    governance: 16.7
+    discoverability: 68.5
+    governance: 4.5
     operational_transparency: 13.2
+  previous_composite: 32.2
   provenance:
     conformance: derived
     contracts:
@@ -145,8 +181,9 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Phosphorus Authentication

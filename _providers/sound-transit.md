@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 20
   slug: sound-transit-agentic-access
   summary_line: 20 operations
-api_count: 7
+api_count: 1
 apis:
 - description: Transit agency information and coverage
   name: Sound Transit Agencies API
@@ -230,18 +230,23 @@ rules:
   slug: sound-transit-rules
 score:
   band: thin
-  composite: 37.6
-  delta: 3.4
+  composite: 37.0
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 44.5
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 28.6
     commercial_clarity: 28.6
     contract_governance: 13.6
     contract_quality: 57.3
     developer_ergonomics: 31.0
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 13.6
     operational_transparency: 10.5
-  previous_composite: 34.2
+  previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
@@ -255,8 +260,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sound-transit/refs/heads/main/screenshots/sound-transit-2026-06-20T194217.png
 security:

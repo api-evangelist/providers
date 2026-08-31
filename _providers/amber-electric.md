@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -31,15 +31,18 @@ agentic_access:
   operation_count: 5
   slug: amber-electric-agentic-access
   summary_line: 5 operations
-api_count: 2
+api_count: 1
 apis:
-- description: 'Amber Electric''s own documented REST API, described by a verbatim OpenAPI 3.0.0 contract the company publishes in its public GitHub repository. Five read-only operations: list the sites on your accoun'
-  name: Amber Electric Public API
-  slug: amber-electric-public-api
 - description: Amber's Consumer Data Right energy data-holder surface, mandated by the Australian CDR regime extended from banking into energy and administered by the ACCC with standards set by the Data Standards Bo
   name: Amber Electric Consumer Data Right Energy API
   slug: amber-electric-cdr-energy-api
-artifact_total: 9
+- description: The Sites API from Amber Electric — 4 operation(s) for sites.
+  name: Amber Electric Sites API
+  slug: amber-electric-sites-api
+- description: The State API from Amber Electric — 1 operation(s) for state.
+  name: Amber Electric State API
+  slug: amber-electric-state-api
+artifact_total: 10
 collections:
 - collection_type: open
   name: Amber Electric Public API
@@ -198,7 +201,7 @@ modified: '2026-07-27'
 name: Amber Electric
 nav: Providers
 network: true
-overview: 'Amber Electric publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Energy, Australia, Electricity, Utilities, and Consumer Data Right.
+overview: 'Amber Electric publishes 2 APIs on the [APIs.io](https://apis.io/) network: Sites API and State API. Tagged areas include Energy, Australia, Electricity, Utilities, and Consumer Data Right.
 
 
   Amber Electric''s developer surface includes authentication, code examples, documentation, API reference, engineering blog, support, pricing, and 28 more developer resources.'
@@ -213,19 +216,24 @@ scopes:
   slug: amber-electric-scopes
   summary_line: 16 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 55.7
-  delta: 0.0
+  band: developing
+  composite: 53.5
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 30.3
-    contract_quality: 52.1
+    contract_governance: 18.2
+    contract_quality: 53.4
     developer_ergonomics: 54.2
-    discoverability: 79.6
-    governance: 30.3
+    discoverability: 68.5
+    governance: 18.2
     operational_transparency: 23.7
-  previous_composite: 55.7
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -242,8 +250,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 74.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amber-electric/refs/heads/main/screenshots/amber-electric-2026-08-07T161314.png
 security:

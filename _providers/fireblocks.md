@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 3
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 303
   slug: fireblocks-agentic-access
   summary_line: 303 operations · 160 acting · 3 human-in-the-loop
-api_count: 35
+api_count: 7
 apis:
 - description: Create and manage vault accounts, asset wallets, deposit addresses, attached tags, and balance inquiries. Vaults are the root container for MPC-secured keys, balances, and transactions inside a Firebl
   name: Fireblocks Vaults API
@@ -386,6 +386,10 @@ collections:
   name: Fireblocks Blockchains and Assets Approval Requests Workspace Management API
   slug: open-fireblocks-workspace-management-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fireblocks-capability-edges.yml
 - group: operate
   title: ''
   type: ChangeLog
@@ -746,7 +750,7 @@ overview: 'fireblocks publishes 35 APIs on the [APIs.io](https://apis.io/) netwo
   The fireblocks catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  fireblocks'' developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 67 more developer resources.'
+  fireblocks'' developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 68 more developer resources.'
 plans:
 - name: Fireblocks Plans Pricing
   plan_count: 6
@@ -770,6 +774,11 @@ rules:
 score:
   band: strong
   composite: 64.2
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 38.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 78.9
@@ -792,8 +801,8 @@ score:
     applies: false
     note: provider carries no tags; regime could not be determined
     undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/screenshots/fireblocks-2026-06-20T181228.png
 security:

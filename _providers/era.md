@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 17.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: 'Era''s remote Model Context Protocol server. Connect bank accounts to any MCP-compatible AI agent and manage money through natural conversation: spending analysis, cash-flow forecasting, transaction au'
@@ -174,7 +174,12 @@ scopes:
   summary_line: 10 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.6
+  composite: 43.5
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 63.2
@@ -182,10 +187,10 @@ score:
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 54.2
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 44.7
-  previous_composite: 44.6
+  previous_composite: 43.5
   provenance:
     conformance: first-party
     mcp: first-party
@@ -196,8 +201,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/era/refs/heads/main/screenshots/era-2026-07-25T213555.png
 security:
@@ -221,7 +226,7 @@ tags:
 - Personal Finance
 - Wealth Management
 - MCP
-- agent-native
+- Agent Native
 - Open Banking
 - Authentication
 website: https://era.app

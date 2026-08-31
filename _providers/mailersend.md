@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 16
   slug: mailersend-agentic-access
   summary_line: 16 operations · 7 acting
-api_count: 8
+api_count: 1
 apis:
 - description: MailerSend API v1 provides RESTful endpoints for sending emails (single, bulk, scheduled), templates, domains, recipients, suppression lists, webhooks, analytics, SMS, and inbound routing.
   name: MailerSend API
@@ -274,18 +274,23 @@ scopes:
   summary_line: 30 scopes
 score:
   band: strong
-  composite: 64.6
-  delta: 0.0
+  composite: 61.5
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 59.9
     developer_ergonomics: 76.2
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 57.9
-  previous_composite: 64.6
+  previous_composite: 62.0
   provenance:
     agentic_access: derived
     conformance: derived
@@ -302,8 +307,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 52.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailersend/refs/heads/main/screenshots/mailersend-2026-06-20T184858.png
 security:

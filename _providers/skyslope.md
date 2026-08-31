@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 38
   slug: skyslope-agentic-access
   summary_line: 38 operations · 19 acting
-api_count: 15
+api_count: 2
 apis:
 - description: SkySlope's broader enterprise Transaction Management API, positioned for brokerages to query, extract, and build on top of their SkySlope transaction data for reporting tools, dashboards, and enterpri
   name: SkySlope Transaction Management API (BETA)
@@ -136,6 +136,10 @@ collections:
   name: SkySlope Partnership API Reference Agents, Listings Webhooks API
   slug: open-skyslope-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/skyslope-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -187,7 +191,7 @@ network: true
 overview: 'SkySlope publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Agents, Listings API, Auth API, Buyer Agreements API, and 11 more. Tagged areas include Real-Estate, Transaction Management, Digital Forms, E-Signature, and Compliance.
 
 
-  SkySlope''s developer surface includes documentation and 8 more developer resources.'
+  SkySlope''s developer surface includes documentation and 9 more developer resources.'
 plans:
 - name: Skyslope Plans Pricing
   plan_count: 3
@@ -199,18 +203,23 @@ rate_limits:
   slug: skyslope-rate-limits
 score:
   band: thin
-  composite: 35.7
-  delta: 1.4
+  composite: 35.0
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 51.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 51.9
+    contract_quality: 51.1
     developer_ergonomics: 16.7
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 34.3
+  previous_composite: 35.5
   provenance:
     agentic_access: derived
     contracts:
@@ -218,8 +227,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: domain-security

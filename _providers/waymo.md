@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 4
 common:
@@ -110,7 +110,7 @@ modified: '2026-07-25'
 name: Waymo
 nav: Providers
 network: true
-overview: 'Waymo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Autonomous Vehicles, Self-Driving, Robotaxi, Ride Hailing, and Alphabet.
+overview: 'Waymo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Autonomous Vehicles, Self-Driving, Robotaxi, Ride-Hailing, and Alphabet.
 
 
   Waymo''s developer surface includes engineering blog, YouTube channel, and 13 more developer resources.'
@@ -126,6 +126,11 @@ rate_limits:
 score:
   band: emerging
   composite: 14.3
+  coverage:
+    artifact_dirs: 6
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -137,8 +142,8 @@ score:
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 14.3
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waymo/refs/heads/main/screenshots/waymo-2026-06-20T201302.png
 security:
@@ -151,7 +156,7 @@ tags:
 - Autonomous Vehicles
 - Self-Driving
 - Robotaxi
-- Ride Hailing
+- Ride-Hailing
 - Alphabet
 - LiDAR
 - Computer-Vision

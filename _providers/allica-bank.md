@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -31,22 +31,68 @@ agentic_access:
   operation_count: 37
   slug: allica-bank-agentic-access
   summary_line: 37 operations · 11 acting
-api_count: 4
+api_count: 2
 apis:
-- description: Allica Bank's UK Open Banking Account Information Service (AIS) API, conformant to the OBIE Read/Write Standard v3.1, exposing account access consents, accounts, balances, transactions, beneficiaries,
-  name: Allica Bank Account and Transaction Information API
-  slug: allica-bank-account-information-api
-- description: 'Allica Bank''s UK Open Banking Payment Initiation Service (PIS) API, conformant to the OBIE Read/Write Standard v4.0, exposing domestic payment, domestic scheduled payment, and domestic standing order '
-  name: Allica Bank Payment Initiation API
-  slug: allica-bank-payment-initiation-api
 - description: Allica Bank's UK Open Banking Confirmation of Funds (CBPII) capability, exposed through the OBIE Read/Write Standard and the `fundsconfirmations` OAuth scope, allowing authorised Card-Based Payment In
   name: Allica Bank Confirmation of Funds API
   slug: allica-bank-confirmation-of-funds-api
 - description: OBIE Dynamic Client Registration (DCR) v3.2 endpoint used by regulated Third Party Providers to register OAuth clients with Allica Bank using Software Statement Assertions issued by the Open Banking D
   name: Allica Bank Dynamic Client Registration API
   slug: allica-bank-dynamic-client-registration-api
-artifact_total: 10
+- description: The Account Access API from Allica Bank — 2 operation(s) for account access.
+  name: Allica Bank Account Access API
+  slug: allica-bank-account-access-api
+- description: The Accounts API from Allica Bank — 2 operation(s) for accounts.
+  name: Allica Bank Accounts API
+  slug: allica-bank-accounts-api
+- description: The Balances API from Allica Bank — 2 operation(s) for balances.
+  name: Allica Bank Balances API
+  slug: allica-bank-balances-api
+- description: The Beneficiaries API from Allica Bank — 1 operation(s) for beneficiaries.
+  name: Allica Bank Beneficiaries API
+  slug: allica-bank-beneficiaries-api
+- description: The Direct Debits API from Allica Bank — 1 operation(s) for direct debits.
+  name: Allica Bank Direct Debits API
+  slug: allica-bank-direct-debits-api
+- description: The Domestic Payments API from Allica Bank — 5 operation(s) for domestic payments.
+  name: Allica Bank Domestic Payments API
+  slug: allica-bank-domestic-payments-api
+- description: The Domestic Scheduled Payments API from Allica Bank — 4 operation(s) for domestic scheduled payments.
+  name: Allica Bank Domestic Scheduled Payments API
+  slug: allica-bank-domestic-scheduled-payments-api
+- description: The Domestic Standing Orders API from Allica Bank — 4 operation(s) for domestic standing orders.
+  name: Allica Bank Domestic Standing Orders API
+  slug: allica-bank-domestic-standing-orders-api
+- description: The File Payments API from Allica Bank — 5 operation(s) for file payments.
+  name: Allica Bank File Payments API
+  slug: allica-bank-file-payments-api
+- description: The Offers API from Allica Bank — 1 operation(s) for offers.
+  name: Allica Bank Offers API
+  slug: allica-bank-offers-api
+- description: The Parties API from Allica Bank — 2 operation(s) for parties.
+  name: Allica Bank Parties API
+  slug: allica-bank-parties-api
+- description: The Payment Details API from Allica Bank — 3 operation(s) for payment details.
+  name: Allica Bank Payment Details API
+  slug: allica-bank-payment-details-api
+- description: The Products API from Allica Bank — 1 operation(s) for products.
+  name: Allica Bank Products API
+  slug: allica-bank-products-api
+- description: The Scheduled Payments API from Allica Bank — 1 operation(s) for scheduled payments.
+  name: Allica Bank Scheduled Payments API
+  slug: allica-bank-scheduled-payments-api
+- description: The Standing Orders API from Allica Bank — 1 operation(s) for standing orders.
+  name: Allica Bank Standing Orders API
+  slug: allica-bank-standing-orders-api
+- description: The Transactions API from Allica Bank — 1 operation(s) for transactions.
+  name: Allica Bank Transactions API
+  slug: allica-bank-transactions-api
+artifact_total: 24
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/allica-bank-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -180,10 +226,10 @@ modified: '2026-07-24'
 name: Allica Bank
 nav: Providers
 network: true
-overview: 'Allica Bank publishes 2 APIs on the [APIs.io](https://apis.io/) network: Account and Transaction Information API and Payment Initiation API. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
+overview: 'Allica Bank publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Account Access API, Accounts API, Balances API, and 13 more. Tagged areas include Financial-Services, Banking, Open Banking, PSD2, and OBIE.
 
 
-  Allica Bank''s developer surface includes authentication, sandbox, getting-started guide, documentation, engineering blog, support, and 24 more developer resources.'
+  Allica Bank''s developer surface includes authentication, sandbox, getting-started guide, documentation, engineering blog, support, and 25 more developer resources.'
 random_paper: 0
 scopes:
 - name: Allica Bank Scopes
@@ -192,18 +238,23 @@ scopes:
   summary_line: 17 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 50.1
-  delta: 1.5
+  composite: 46.7
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 51.6
+    contract_governance: 4.5
+    contract_quality: 50.8
     developer_ergonomics: 66.1
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 10.5
-  previous_composite: 48.6
+  previous_composite: 47.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -216,12 +267,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: psd2-sca
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/screenshots/allica-bank-2026-07-25T195713.png
 security:

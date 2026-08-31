@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 26
   slug: ambassador-agentic-access
   summary_line: 26 operations · 13 acting
-api_count: 11
+api_count: 1
 apis:
 - description: 'Ambassador offers a suite of products designed to deliver API developer experiences that fuel innovation. These products, Blackbird API Development Platform, Edge Stack API Gateway, and Telepresence, '
   name: Ambassador
@@ -635,18 +635,26 @@ rules:
     warn: 5
   slug: ambassador-spectral-rules
 score:
-  band: developing
-  composite: 39.3
-  delta: 0.0
+  band: thin
+  composite: 37.4
+  coverage:
+    artifact_dirs: 16
+    catalog_gap: 70.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -1.9
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 13.6
     contract_quality: 59.8
     developer_ergonomics: 19.0
-    discoverability: 55.6
+    discoverability: 50.0
     governance: 13.6
     operational_transparency: 42.1
+  open_source:
+    applies: true
+    score: 25.0
   previous_composite: 39.3
   provenance:
     agentic_access: derived
@@ -655,8 +663,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/screenshots/ambassador-2026-06-20T171959.png
 security:

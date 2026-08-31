@@ -24,8 +24,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-08-26'
-api_count: 44
+  scored_at: '2026-08-30'
+api_count: 1
 apis:
 - description: The original Cobot REST API, still available and still the only surface that carries the webhook subscription API. Documented per-resource on dev.cobot.me/api-docs; Cobot directs new integrations to A
   name: Cobot API v1 (legacy)
@@ -291,6 +291,10 @@ collections:
 common:
 - group: other
   title: ''
+  type: CapabilityMap
+  url: capabilities/cobot-capability-edges.yml
+- group: other
+  title: ''
   type: Overlay
   url: overlays/cobot-api2-overlay.yaml
 - group: company
@@ -447,7 +451,7 @@ overview: 'Cobot publishes 42 APIs on the [APIs.io](https://apis.io/) network, i
   The Cobot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cobot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
+  Cobot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
 random_paper: 10
 scopes:
 - name: Cobot Scopes
@@ -456,18 +460,23 @@ scopes:
   summary_line: 60 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.8
-  delta: 0.0
+  composite: 56.8
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 69.8
     developer_ergonomics: 66.1
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 58.8
+  previous_composite: 57.4
   provenance:
     conformance: first-party
     contracts:
@@ -483,8 +492,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 60.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cobot/refs/heads/main/screenshots/cobot-2026-08-17T080822.png
 security:

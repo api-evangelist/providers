@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 27
   slug: clevercarehealthplan-agentic-access
   summary_line: 27 operations
-api_count: 3
+api_count: 1
 apis:
 - description: Public (rate limited) drug formulary resources
   name: Clever Care Health Plan Drug Formulary API
@@ -67,6 +67,10 @@ collections:
   name: Clever Care Health Plan FHIR R4 Drug Formulary Provider Directory API
   slug: open-clevercarehealthplan-provider-directory-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/clevercarehealthplan-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -174,7 +178,7 @@ network: true
 overview: 'Clever Care Health Plan publishes 3 APIs on the [APIs.io](https://apis.io/) network: Drug Formulary API, Patient Access API, and Provider Directory API. Tagged areas include Company, Healthcare, Health Insurance, Medicare Advantage, and FHIR.
 
 
-  Clever Care Health Plan''s developer surface includes getting-started guide, documentation, API reference, signup flow, authentication, and 18 more developer resources.'
+  Clever Care Health Plan''s developer surface includes getting-started guide, documentation, API reference, signup flow, authentication, and 19 more developer resources.'
 random_paper: 9
 scopes:
 - name: Clevercarehealthplan Scopes
@@ -183,18 +187,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 42.5
-  delta: 0.0
+  composite: 40.4
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 49.4
     developer_ergonomics: 39.9
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 42.5
+  previous_composite: 41.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -209,14 +218,16 @@ score:
     applies: true
     jurisdictions:
     - jurisdiction: US
+      standard: hipaa
+    - jurisdiction: US
       standard: us-core
     jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 70.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/screenshots/clevercarehealthplan-2026-07-25T205602.png
 security:

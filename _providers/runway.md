@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 17
   slug: runway-agentic-access
   summary_line: 17 operations · 15 acting
-api_count: 16
+api_count: 3
 apis:
 - description: The Runway Python SDK provides a convenient Python library for interacting with the Runway API. Supports Python 3.8+ with type annotations compatible with MyPy. Includes automatic retries, best-practi
   name: Runway Python SDK
@@ -195,6 +195,22 @@ collections:
   name: Runway Characters Avatars Video Upscale API
   slug: open-runway-video-upscale-api
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/runwayml/sdk-python/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/runwayml/sdk-python/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/runwayml/sdk-python/blob/main/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/runwayml/sdk-python/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -341,7 +357,7 @@ overview: 'Runway publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
   The Runway catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Runway''s developer surface includes authentication, developer portal, documentation, engineering blog, changelog, and 16 more developer resources.'
+  Runway''s developer surface includes authentication, developer portal, documentation, engineering blog, changelog, and 20 more developer resources.'
 plans:
 - name: Runway Plans Pricing
   plan_count: 5
@@ -386,7 +402,12 @@ rules:
   slug: runway-rules
 score:
   band: developing
-  composite: 46.8
+  composite: 51.9
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 57.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 43.4
@@ -396,8 +417,11 @@ score:
     developer_ergonomics: 35.7
     discoverability: 72.2
     governance: 28.8
-    operational_transparency: 23.7
-  previous_composite: 46.8
+    operational_transparency: 34.2
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 51.9
   provenance:
     agentic_access: derived
     contracts:
@@ -405,8 +429,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/screenshots/runway-2026-06-20T193255.png
 security:

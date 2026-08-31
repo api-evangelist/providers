@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -33,24 +33,118 @@ agentic_access:
   summary_line: 86 operations · 20 acting
 api_count: 4
 apis:
-- description: Public, unauthenticated OBIE Open Data endpoint publishing FCA service metrics for personal current accounts at Coventry Building Society (CBS v1.0). Live JSON host confirmed responding at the documen
-  name: Coventry Building Society Open Data FCA Service Metrics API
-  slug: coventry-building-society-open-data-fca-service-metrics-api
-- description: OBIE Read/Write Account and Transaction Information Services (AIS) API, CBS v2.0, providing consented third-party read access to account, balance, transaction, standing order, direct debit, beneficiar
-  name: Coventry Building Society Account & Transaction Information API (AIS)
-  slug: coventry-building-society-account-information-api
-- description: 'OBIE Read/Write Payment Initiation Services (PIS) API, CBS v2.0, enabling consented third-party initiation of domestic single, scheduled, standing order, and file payments. FAPI-secured (OAuth2/OIDC, '
-  name: Coventry Building Society Payment Initiation API (PIS)
-  slug: coventry-building-society-payment-initiation-api
-- description: OBIE Read/Write Confirmation of Funds Services (CBPII) API, CBS v2.0, allowing a consented card-based payment instrument issuer to confirm whether funds are available on an account. FAPI-secured (OAut
-  name: Coventry Building Society Confirmation of Funds API (CBPII)
-  slug: coventry-building-society-confirmation-of-funds-api
-artifact_total: 10
+- description: The Account Access Consents API from Coventry Building Society — 2 operation(s) for account access consents.
+  name: Coventry Building Society Account Access Consents API
+  slug: coventry-building-society-account-access-consents-api
+- description: The Accounts API from Coventry Building Society — 2 operation(s) for accounts.
+  name: Coventry Building Society Accounts API
+  slug: coventry-building-society-accounts-api
+- description: Endpoint for getting ATM data
+  name: Coventry Building Society ATM API
+  slug: coventry-building-society-atm-api
+- description: The Balances API from Coventry Building Society — 2 operation(s) for balances.
+  name: Coventry Building Society Balances API
+  slug: coventry-building-society-balances-api
+- description: Endpoint for getting Business Current Account data
+  name: Coventry Building Society BCA API
+  slug: coventry-building-society-bca-api
+- description: The Beneficiaries API from Coventry Building Society — 2 operation(s) for beneficiaries.
+  name: Coventry Building Society Beneficiaries API
+  slug: coventry-building-society-beneficiaries-api
+- description: Endpoint for getting Branch data
+  name: Coventry Building Society Branch API
+  slug: coventry-building-society-branch-api
+- description: Endpoint for getting Commercial Credit Card data
+  name: Coventry Building Society CCC API
+  slug: coventry-building-society-ccc-api
+- description: The Direct Debits API from Coventry Building Society — 2 operation(s) for direct debits.
+  name: Coventry Building Society Direct Debits API
+  slug: coventry-building-society-direct-debits-api
+- description: The Domestic Payment Consents API from Coventry Building Society — 3 operation(s) for domestic payment consents.
+  name: Coventry Building Society Domestic Payment Consents API
+  slug: coventry-building-society-domestic-payment-consents-api
+- description: The Domestic Payments API from Coventry Building Society — 3 operation(s) for domestic payments.
+  name: Coventry Building Society Domestic Payments API
+  slug: coventry-building-society-domestic-payments-api
+- description: The Domestic Scheduled Payment Consents API from Coventry Building Society — 2 operation(s) for domestic scheduled payment consents.
+  name: Coventry Building Society Domestic Scheduled Payment Consents API
+  slug: coventry-building-society-domestic-scheduled-payment-consents-api
+- description: The Domestic Scheduled Payments API from Coventry Building Society — 3 operation(s) for domestic scheduled payments.
+  name: Coventry Building Society Domestic Scheduled Payments API
+  slug: coventry-building-society-domestic-scheduled-payments-api
+- description: The Domestic Standing Order Consents API from Coventry Building Society — 2 operation(s) for domestic standing order consents.
+  name: Coventry Building Society Domestic Standing Order Consents API
+  slug: coventry-building-society-domestic-standing-order-consents-api
+- description: The Domestic Standing Orders API from Coventry Building Society — 3 operation(s) for domestic standing orders.
+  name: Coventry Building Society Domestic Standing Orders API
+  slug: coventry-building-society-domestic-standing-orders-api
+- description: The File Payment Consents API from Coventry Building Society — 3 operation(s) for file payment consents.
+  name: Coventry Building Society File Payment Consents API
+  slug: coventry-building-society-file-payment-consents-api
+- description: The File Payments API from Coventry Building Society — 4 operation(s) for file payments.
+  name: Coventry Building Society File Payments API
+  slug: coventry-building-society-file-payments-api
+- description: The Funds Confirmation Consents API from Coventry Building Society — 2 operation(s) for funds confirmation consents.
+  name: Coventry Building Society Funds Confirmation Consents API
+  slug: coventry-building-society-funds-confirmation-consents-api
+- description: The Funds Confirmations API from Coventry Building Society — 1 operation(s) for funds confirmations.
+  name: Coventry Building Society Funds Confirmations API
+  slug: coventry-building-society-funds-confirmations-api
+- description: The International Payment Consents API from Coventry Building Society — 3 operation(s) for international payment consents.
+  name: Coventry Building Society International Payment Consents API
+  slug: coventry-building-society-international-payment-consents-api
+- description: The International Payments API from Coventry Building Society — 3 operation(s) for international payments.
+  name: Coventry Building Society International Payments API
+  slug: coventry-building-society-international-payments-api
+- description: The International Scheduled Payments API from Coventry Building Society — 3 operation(s) for international scheduled payments.
+  name: Coventry Building Society International Scheduled Payments API
+  slug: coventry-building-society-international-scheduled-payments-api
+- description: The International Scheduled Payments Consents API from Coventry Building Society — 3 operation(s) for international scheduled payments consents.
+  name: Coventry Building Society International Scheduled Payments Consents API
+  slug: coventry-building-society-international-scheduled-payments-consents-api
+- description: The International Standing Orders API from Coventry Building Society — 3 operation(s) for international standing orders.
+  name: Coventry Building Society International Standing Orders API
+  slug: coventry-building-society-international-standing-orders-api
+- description: The International Standing Orders Consents API from Coventry Building Society — 2 operation(s) for international standing orders consents.
+  name: Coventry Building Society International Standing Orders Consents API
+  slug: coventry-building-society-international-standing-orders-consents-api
+- description: The Offers API from Coventry Building Society — 2 operation(s) for offers.
+  name: Coventry Building Society Offers API
+  slug: coventry-building-society-offers-api
+- description: The Parties API from Coventry Building Society — 3 operation(s) for parties.
+  name: Coventry Building Society Parties API
+  slug: coventry-building-society-parties-api
+- description: Endpoint for getting Personal Current Account data
+  name: Coventry Building Society PCA API
+  slug: coventry-building-society-pca-api
+- description: The Products API from Coventry Building Society — 2 operation(s) for products.
+  name: Coventry Building Society Products API
+  slug: coventry-building-society-products-api
+- description: The Scheduled Payments API from Coventry Building Society — 2 operation(s) for scheduled payments.
+  name: Coventry Building Society Scheduled Payments API
+  slug: coventry-building-society-scheduled-payments-api
+- description: Endpoint for getting Unsecured SME Loan data
+  name: Coventry Building Society SME API
+  slug: coventry-building-society-sme-api
+- description: The Standing Orders API from Coventry Building Society — 2 operation(s) for standing orders.
+  name: Coventry Building Society Standing Orders API
+  slug: coventry-building-society-standing-orders-api
+- description: The Statements API from Coventry Building Society — 5 operation(s) for statements.
+  name: Coventry Building Society Statements API
+  slug: coventry-building-society-statements-api
+- description: The Transactions API from Coventry Building Society — 2 operation(s) for transactions.
+  name: Coventry Building Society Transactions API
+  slug: coventry-building-society-transactions-api
+artifact_total: 40
 collections:
 - collection_type: open
   name: Open Data API
   slug: open-obie-opendata-swagger
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/coventry-building-society-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -172,10 +266,10 @@ modified: '2026-07-23'
 name: Coventry Building Society
 nav: Providers
 network: true
-overview: 'Coventry Building Society publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Open Data FCA Service Metrics API, Account & Transaction Information API (AIS), Payment Initiation API (PIS), and 1 more. Tagged areas include Financial-Services, Banking, Building Society, Open Banking, and PSD2.
+overview: 'Coventry Building Society publishes 34 APIs on the [APIs.io](https://apis.io/) network, including Account Access Consents API, Accounts API, ATM API, and 31 more. Tagged areas include Financial-Services, Banking, Building Society, Open Banking, and PSD2.
 
 
-  Coventry Building Society''s developer surface includes authentication, documentation, support, and 24 more developer resources.'
+  Coventry Building Society''s developer surface includes authentication, documentation, support, and 25 more developer resources.'
 random_paper: 11
 scopes:
 - name: Coventry Building Society Scopes
@@ -184,18 +278,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 44.0
-  delta: -0.3
+  composite: 42.5
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
-    contract_governance: 16.7
-    contract_quality: 49.0
+    contract_governance: 4.5
+    contract_quality: 50.9
     developer_ergonomics: 44.6
-    discoverability: 81.5
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 0.0
-  previous_composite: 44.3
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -208,12 +307,18 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: EU
+      standard: eidas
+    - jurisdiction: EU
+      standard: psd2
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 77.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coventry-building-society/refs/heads/main/screenshots/coventry-building-society-2026-07-25T210542.png
 security:

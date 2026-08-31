@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 20
   slug: keywordsai-agentic-access
   summary_line: 20 operations · 15 acting
-api_count: 9
+api_count: 1
 apis:
 - description: Datasets and dataset logs.
   name: Keywords AI Datasets API
@@ -197,18 +197,23 @@ rules:
   slug: keywordsai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 43.3
-  delta: 0.9
+  composite: 42.8
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 47.3
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 11.4
     contract_quality: 61.5
     developer_ergonomics: 26.2
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
-  previous_composite: 42.4
+  previous_composite: 43.3
   provenance:
     agentic_access: derived
     contracts:
@@ -216,8 +221,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keywordsai/refs/heads/main/screenshots/keywordsai-2026-06-20T184016.png
 security:

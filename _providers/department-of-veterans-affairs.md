@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 21
   slug: department-of-veterans-affairs-agentic-access
   summary_line: 21 operations · 5 acting
-api_count: 30
+api_count: 7
 apis:
 - description: Verify and standardize U.S. and international addresses for Veterans and their families.
   name: VA Address Validation API
@@ -212,6 +212,10 @@ collections:
   name: VA Veteran Confirmation API
   slug: open-va-veteran-confirmation-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/department-of-veterans-affairs-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -309,7 +313,7 @@ overview: 'Department of Veterans Affairs (VA) publishes 17 APIs on the [APIs.io
   The Department of Veterans Affairs (VA) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Department of Veterans Affairs (VA)''s developer surface includes authentication, developer portal, FAQ, support, getting-started guide, engineering blog, and 6 more developer resources.'
+  Department of Veterans Affairs (VA)''s developer surface includes authentication, developer portal, FAQ, support, getting-started guide, engineering blog, and 7 more developer resources.'
 plans:
 - name: Department Of Veterans Affairs Plans Pricing
   plan_count: 2
@@ -348,7 +352,12 @@ scopes:
 score:
   band: thin
   composite: 36.4
-  delta: 0.8
+  coverage:
+    artifact_dirs: 17
+    catalog_gap: 62.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -358,7 +367,7 @@ score:
     discoverability: 50.0
     governance: 9.8
     operational_transparency: 7.9
-  previous_composite: 35.6
+  previous_composite: 36.4
   provenance:
     agentic_access: derived
     contracts:
@@ -372,8 +381,8 @@ score:
     regime: Health
     regime_id: health
     score: 50.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-veterans-affairs/refs/heads/main/screenshots/department-of-veterans-affairs-2026-06-20T175926.png
 security:

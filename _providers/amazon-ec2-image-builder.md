@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 56
   slug: amazon-ec2-image-builder-agentic-access
   summary_line: 56 operations · 42 acting
-api_count: 54
+api_count: 1
 apis:
 - description: The CancelImageCreation API from Amazon EC2 Image Builder — 1 operation(s) for cancelimagecreation.
   name: Amazon EC2 Image Builder CancelImageCreation API
@@ -573,6 +573,10 @@ collections:
   name: EC2 Image Builder CancelImageCreation UpdateInfrastructureConfiguration API
   slug: open-amazon-ec2-image-builder-updateinfrastructureconfiguration-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/amazon-ec2-image-builder-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -3810,7 +3814,7 @@ overview: 'Amazon EC2 Image Builder publishes 54 APIs on the [APIs.io](https://a
   The Amazon EC2 Image Builder catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon EC2 Image Builder''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 31 more developer resources.'
+  Amazon EC2 Image Builder''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 32 more developer resources.'
 plans:
 - name: Amazon Ec2 Image Builder Plans Pricing
   plan_count: 3
@@ -3844,18 +3848,23 @@ rules:
   slug: amazon-ec2-image-builder-spectral-rules
 score:
   band: strong
-  composite: 60.9
-  delta: 4.5
+  composite: 60.3
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
     contract_governance: 28.8
     contract_quality: 77.6
     developer_ergonomics: 69.0
-    discoverability: 75.9
+    discoverability: 70.4
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 56.4
+  previous_composite: 60.9
   provenance:
     agentic_access: derived
     contracts:
@@ -3863,8 +3872,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 54
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/screenshots/amazon-ec2-image-builder-2026-07-25T200008.png
 security:

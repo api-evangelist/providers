@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 1
 apis:
 - description: Open-source NaCl-based cryptographic relay operated as asynchronous "dead drops" for end-to-end-encrypted device-to-device communication. Clients establish anonymous session keys via a proof-of-work h
@@ -41,6 +41,18 @@ apis:
   slug: vault12-zax-cryptographic-relay-api
 artifact_total: 4
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/vault12/zax/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/vault12/zax/releases
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/vault12/zax/blob/main/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -132,7 +144,7 @@ network: true
 overview: 'Vault12 publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Security, Backup, and Inheritance.
 
 
-  Vault12''s developer surface includes engineering blog, support, pricing, authentication, sandbox, changelog, and 14 more developer resources.'
+  Vault12''s developer surface includes engineering blog, support, pricing, authentication, sandbox, changelog, and 17 more developer resources.'
 random_paper: 4
 scopes:
 - name: Vault12 Scopes
@@ -141,18 +153,26 @@ scopes:
   summary_line: 4 scopes · authorizationCode/implicit/password/refresh_token
 score:
   band: thin
-  composite: 32.9
-  delta: 3.3
+  composite: 34.0
+  coverage:
+    artifact_dirs: 11
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 50.0
-    discoverability: 87.0
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 29.6
+  open_source:
+    applies: true
+    score: 50.0
+  previous_composite: 34.0
   provenance:
     conformance: first-party
   regulatory:
@@ -161,8 +181,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication

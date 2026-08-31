@@ -33,31 +33,61 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-08-26'
-api_count: 7
+  scored_at: '2026-08-30'
+api_count: 11
 apis:
-- description: 'OAuth 2.0 token endpoint that issues bearer access tokens used to authenticate calls to the rest of Bombora''s developer APIs. Clients exchange credentials for a short-lived access token via a POST to '
-  name: Bombora Authentication API
-  slug: bombora-authentication-api
 - description: 'Streams Bombora''s Company Surge intent signals — account-level scores against 18,000+ B2B intent topics — derived from the Bombora Data Cooperative. Subscribers pull weekly Surge scores for monitored '
   name: Bombora Intent API
   slug: bombora-intent-api
-- description: Defines and maintains lists of B2B accounts, keyed on company domain. Lists can be manually curated, synchronized from external systems, derived by segmenting a parent list with a predicate filter, so
-  name: Bombora Account List API
-  slug: bombora-account-list-api
-- description: Reference data and taxonomy lookups for the Bombora platform — including intent topics, topic clusters, and supporting metadata needed to interpret intent and audience responses. Used by integrators t
-  name: Bombora Reference API
-  slug: bombora-reference-api
-- description: Programmatic interface to Bombora's Digital Audience Builder for composing custom B2B audiences from intent, firmographic, and behavioral signals and activating them to downstream data exchanges, DSPs
-  name: Bombora Digital Audience Builder (DAB) API
-  slug: bombora-digital-audience-api
-- description: Outbound webhook destinations that push Bombora events — including Surge report completions and audience activation updates — to partner endpoints. Destinations are registered and updated via PUT rout
-  name: Bombora Webhooks API
-  slug: bombora-webhooks-api
 - description: Partner API for orchestrating Company Surge reports — create reports with topic, geography, blacklist, and AutoGen options (POST /v4/Surge/Create), list reports (GET /v4/Surge/GetList), and retrieve r
   name: Bombora Company Surge API (v4)
   slug: bombora-company-surge-api
-artifact_total: 20
+- description: The AccountLists API from Bombora — 2 operation(s) for accountlists.
+  name: Bombora Account Lists API
+  slug: bombora-accountlists-api
+- description: The Accounts API from Bombora — 4 operation(s) for accounts.
+  name: Bombora Accounts API
+  slug: bombora-accounts-api
+- description: The Activate API from Bombora — 1 operation(s) for activate.
+  name: Bombora Activate API
+  slug: bombora-activate-api
+- description: The Data API from Bombora — 1 operation(s) for data.
+  name: Bombora Data API
+  slug: bombora-data-api
+- description: The Demographic API from Bombora — 4 operation(s) for demographic.
+  name: Bombora Demographic API
+  slug: bombora-demographic-api
+- description: The Destinations API from Bombora — 4 operation(s) for destinations.
+  name: Bombora Destinations API
+  slug: bombora-destinations-api
+- description: The Digital Audience Builder (DAB) API API from Bombora — 2 operation(s) for digital audience builder (dab) api.
+  name: Bombora Digital Audience Builder (DAB) API
+  slug: bombora-digital-audience-builder-dab-api-api
+- description: The Estimate API from Bombora — 1 operation(s) for estimate.
+  name: Bombora Estimate API
+  slug: bombora-estimate-api
+- description: The Events API from Bombora — 2 operation(s) for events.
+  name: Bombora Events API
+  slug: bombora-events-api
+- description: The Firmographic API from Bombora — 3 operation(s) for firmographic.
+  name: Bombora Firmographic API
+  slug: bombora-firmographic-api
+- description: The Geographic API from Bombora — 3 operation(s) for geographic.
+  name: Bombora Geographic API
+  slug: bombora-geographic-api
+- description: The Install Data API from Bombora — 1 operation(s) for install data.
+  name: Bombora Install Data API
+  slug: bombora-install-data-api
+- description: The Oauth API from Bombora — 1 operation(s) for oauth.
+  name: Bombora OAUTH API
+  slug: bombora-oauth-api
+- description: The SignalDefinition API from Bombora — 5 operation(s) for signaldefinition.
+  name: Bombora Signal Definition API
+  slug: bombora-signaldefinition-api
+- description: The Suspend API from Bombora — 1 operation(s) for suspend.
+  name: Bombora Suspend API
+  slug: bombora-suspend-api
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Bombora Webhooks
@@ -82,6 +112,26 @@ collections:
   name: Webhooks API
   slug: open-bombora-webhooks-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bombora-authentication-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bombora-account-list-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bombora-reference-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bombora-digital-audience-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bombora-webhooks-api-overlay.yaml
 - group: auth
   title: ''
   type: Authentication
@@ -263,13 +313,13 @@ modified: '2026-08-13'
 name: Bombora
 nav: Providers
 network: true
-overview: 'Bombora publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Intent API, Account List API, and 3 more. Tagged areas include Intent Data, B2B Intent, Company Surge, Account Based Marketing, and Sales Intelligence.
+overview: 'Bombora publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Intent API, Account Lists API, Accounts API, and 13 more. Tagged areas include Intent Data, B2B Intent, Company Surge, Account Based Marketing, and Sales Intelligence.
 
 
   The Bombora catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bombora''s developer surface includes authentication, privacy policy, YouTube channel, engineering blog, changelog, documentation, API reference, and 34 more developer resources.'
+  Bombora''s developer surface includes authentication, privacy policy, YouTube channel, engineering blog, changelog, documentation, API reference, and 39 more developer resources.'
 plans:
 - name: Bombora Plans Pricing
   plan_count: 0
@@ -281,18 +331,23 @@ rate_limits:
   slug: bombora-rate-limits
 score:
   band: developing
-  composite: 43.6
+  composite: 42.1
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 67.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
-    contract_governance: 16.7
-    contract_quality: 66.3
+    contract_governance: 4.5
+    contract_quality: 67.6
     developer_ergonomics: 30.4
-    discoverability: 85.2
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 47.4
-  previous_composite: 43.6
+  previous_composite: 42.1
   provenance:
     conformance: derived
     contracts:
@@ -302,8 +357,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bombora/refs/heads/main/screenshots/bombora-2026-06-20T173557.png
 security:
@@ -328,8 +383,8 @@ tags:
 - Data Cooperative
 - Webhook
 - Reference Data
-- AdTech
-- MarTech
+- Adtech
+- Martech
 - B2B
 - Account Lists
 - Digital Audience Builder

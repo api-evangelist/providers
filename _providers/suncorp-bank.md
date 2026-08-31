@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 19
   slug: suncorp-bank-agentic-access
   summary_line: 19 operations · 3 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Suncorp Bank's merchant payment gateway, a Suncorp-branded instance of Mastercard Payment Gateway Services (MPGS). It offers merchants a REST/JSON (and NVP) API plus hosted checkout, hosted batch, and
   name: Suncorp Bank Gateway (Mastercard) Payments API
@@ -94,6 +94,10 @@ collections:
   name: CDR Banking Banking Account Balances Banking Products API
   slug: open-suncorp-bank-banking-products-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/suncorp-bank-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -209,7 +213,7 @@ network: true
 overview: 'Suncorp Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Banking.
 
 
-  Suncorp Bank''s developer surface includes authentication, documentation, support, and 22 more developer resources.'
+  Suncorp Bank''s developer surface includes authentication, documentation, support, and 23 more developer resources.'
 random_paper: 17
 scopes:
 - name: Suncorp Bank Scopes
@@ -218,18 +222,23 @@ scopes:
   summary_line: 10 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 48.1
-  delta: 1.4
+  composite: 45.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 25.0
     commercial_clarity: 25.0
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 49.7
     developer_ergonomics: 44.6
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 46.7
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -242,12 +251,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: AU
+      standard: cdr-consumer-data-standards
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 74.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suncorp-bank/refs/heads/main/screenshots/suncorp-bank-2026-07-21T114752.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.9
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 4
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 176
   slug: salesloft-agentic-access
   summary_line: 176 operations · 73 acting · 4 human-in-the-loop
-api_count: 85
+api_count: 1
 apis:
 - description: REST API for cadences, people, accounts, emails, calls, tasks, opportunities and analytics.
   name: Salesloft Platform API
@@ -554,6 +554,10 @@ collections:
   name: Salesloft
   slug: open-salesloft
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/salesloft-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -773,7 +777,7 @@ overview: 'Salesloft publishes 83 APIs on the [APIs.io](https://apis.io/) networ
   The Salesloft catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Salesloft''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 35 more developer resources.'
+  Salesloft''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 36 more developer resources.'
 plans:
 - name: Salesloft Plans Pricing
   plan_count: 0
@@ -812,18 +816,23 @@ scopes:
   summary_line: 57 scopes
 score:
   band: strong
-  composite: 59.6
-  delta: 0.0
+  composite: 58.3
+  coverage:
+    artifact_dirs: 30
+    catalog_gap: 56.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
-    contract_governance: 43.9
+    contract_governance: 31.8
     contract_quality: 58.9
     developer_ergonomics: 58.9
-    discoverability: 61.1
-    governance: 43.9
+    discoverability: 63.0
+    governance: 31.8
     operational_transparency: 84.2
-  previous_composite: 59.6
+  previous_composite: 58.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -834,8 +843,8 @@ score:
       total: 82
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/screenshots/salesloft-2026-06-20T193352.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 3
 apis:
 - description: Versioned REST access to store data (products, orders, customers, inventory, fulfillment, discounts, and more) for SHOPLINE apps.
@@ -186,7 +186,12 @@ scopes:
   summary_line: 63 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.6
+  composite: 53.4
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 44.7
@@ -194,10 +199,10 @@ score:
     contract_governance: 4.5
     contract_quality: 42.7
     developer_ergonomics: 76.2
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 52.6
+  previous_composite: 53.4
   provenance:
     conformance: derived
   regulatory:
@@ -206,8 +211,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopline/refs/heads/main/screenshots/shopline-2026-08-17T081839.png
 security:

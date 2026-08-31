@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 48
@@ -727,18 +727,23 @@ rules:
   slug: vapi-ai-rules
 score:
   band: exemplar
-  composite: 75.1
+  composite: 72.5
+  coverage:
+    artifact_dirs: 33
+    catalog_gap: 33.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 78.3
     developer_ergonomics: 78.6
-    discoverability: 77.8
-    governance: 30.3
+    discoverability: 66.7
+    governance: 18.2
     operational_transparency: 76.3
-  previous_composite: 75.1
+  previous_composite: 72.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -748,8 +753,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vapi-ai/refs/heads/main/screenshots/vapi-ai-2026-06-20T200922.png
 security:

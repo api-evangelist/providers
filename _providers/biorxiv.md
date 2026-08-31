@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 9
   slug: biorxiv-agentic-access
   summary_line: 9 operations
-api_count: 7
+api_count: 2
 apis:
 - description: The Details API from bioRxiv — 2 operation(s) for details.
   name: bioRxiv Details API
@@ -177,18 +177,23 @@ rules:
   slug: biorxiv-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 33.2
-  delta: 1.9
+  composite: 32.7
+  coverage:
+    artifact_dirs: 13
+    catalog_gap: 52.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
     contract_quality: 59.3
     developer_ergonomics: 9.5
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 9.8
     operational_transparency: 0.0
-  previous_composite: 31.3
+  previous_composite: 33.2
   provenance:
     agentic_access: derived
     contracts:
@@ -202,8 +207,8 @@ score:
     regime: Health
     regime_id: health
     score: 18.8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/biorxiv/refs/heads/main/screenshots/biorxiv-2026-06-20T173251.png
 security:

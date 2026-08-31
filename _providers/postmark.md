@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 108
   slug: postmark-agentic-access
   summary_line: 108 operations · 42 acting
-api_count: 47
+api_count: 3
 apis:
 - description: The Activate API from Postmark — 1 operation(s) for activate.
   name: Postmark Activate API
@@ -101,39 +101,15 @@ apis:
 - description: The Messages API from Postmark — 11 operation(s) for messages.
   name: Postmark Messages API
   slug: postmark-messages-api
-- description: The Messages > Inbound > {Messageid} API from Postmark — 1 operation(s) for messages > inbound > {messageid}.
-  name: Postmark Messages > Inbound > {Messageid} API
-  slug: postmark-messages-inbound-messageid-api
-- description: The Messages > Outbound > Clicks API from Postmark — 1 operation(s) for messages > outbound > clicks.
-  name: Postmark Messages > Outbound > Clicks API
-  slug: postmark-messages-outbound-clicks-api
-- description: The Messages > Outbound > {Messageid} API from Postmark — 1 operation(s) for messages > outbound > {messageid}.
-  name: Postmark Messages > Outbound > {Messageid} API
-  slug: postmark-messages-outbound-messageid-api
-- description: The Messages > Outbound > Opens API from Postmark — 1 operation(s) for messages > outbound > opens.
-  name: Postmark Messages > Outbound > Opens API
-  slug: postmark-messages-outbound-opens-api
 - description: The Outbound API from Postmark — 20 operation(s) for outbound.
   name: Postmark Outbound API
   slug: postmark-outbound-api
-- description: The Platforms API from Postmark — 2 operation(s) for platforms.
-  name: Postmark Platforms API
-  slug: postmark-platforms-api
-- description: The Readtimes API from Postmark — 1 operation(s) for readtimes.
-  name: Postmark Readtimes API
-  slug: postmark-readtimes-api
-- description: The Retry API from Postmark — 1 operation(s) for retry.
-  name: Postmark Retry API
-  slug: postmark-retry-api
 - description: The Sender Signatures API API from Postmark — 5 operation(s) for sender signatures api.
   name: Postmark Sender Signatures API API
   slug: postmark-sender-signatures-api-api
 - description: The Sending API API from Postmark — 4 operation(s) for sending api.
   name: Postmark Sending API API
   slug: postmark-sending-api-api
-- description: The Sends API from Postmark — 1 operation(s) for sends.
-  name: Postmark Sends API
-  slug: postmark-sends-api
 - description: The Server Configuration API API from Postmark — 1 operation(s) for server configuration api.
   name: Postmark Server Configuration API API
   slug: postmark-server-configuration-api-api
@@ -143,27 +119,9 @@ apis:
 - description: The Servers API from Postmark — 1 operation(s) for servers.
   name: Postmark Servers API
   slug: postmark-servers-api
-- description: The Spam API from Postmark — 1 operation(s) for spam.
-  name: Postmark Spam API
-  slug: postmark-spam-api
-- description: The Statistics API from Postmark — 13 operation(s) for statistics.
-  name: Postmark Statistics API
-  slug: postmark-statistics-api
 - description: The Stats API API from Postmark — 12 operation(s) for stats api.
   name: Postmark Stats API API
   slug: postmark-stats-api-api
-- description: The Stats/Outbound API from Postmark — 2 operation(s) for stats/outbound.
-  name: Postmark Stats/Outbound API
-  slug: postmark-stats-outbound-api
-- description: The Stats/Outbound > Clicks API from Postmark — 1 operation(s) for stats/outbound > clicks.
-  name: Postmark Stats/Outbound > Clicks API
-  slug: postmark-stats-outbound-clicks-api
-- description: The Stats/Outbound > Opens API from Postmark — 1 operation(s) for stats/outbound > opens.
-  name: Postmark Stats/Outbound > Opens API
-  slug: postmark-stats-outbound-opens-api
-- description: The Template API from Postmark — 2 operation(s) for template.
-  name: Postmark Template API
-  slug: postmark-template-api
 - description: The Templates API API from Postmark — 6 operation(s) for templates api.
   name: Postmark Templates API API
   slug: postmark-templates-api-api
@@ -176,16 +134,7 @@ apis:
 - description: The Triggers API from Postmark — 4 operation(s) for triggers.
   name: Postmark Triggers API
   slug: postmark-triggers-api
-- description: The Triggers > Inboundrules API from Postmark — 1 operation(s) for triggers > inboundrules.
-  name: Postmark Triggers > Inboundrules API
-  slug: postmark-triggers-inboundrules-api
-- description: The Triggers > Tags API from Postmark — 1 operation(s) for triggers > tags.
-  name: Postmark Triggers > Tags API
-  slug: postmark-triggers-tags-api
-- description: The Validate API from Postmark — 1 operation(s) for validate.
-  name: Postmark Validate API
-  slug: postmark-validate-api
-artifact_total: 150
+artifact_total: 133
 asyncapis:
 - description: AsyncAPI description of Postmark's outbound webhook surface. Postmark delivers event notifications by issuing HTTP POST requests with a JSON body to a URL the customer configures per server (and per s
   name: Postmark Webhooks
@@ -339,6 +288,74 @@ collections:
   name: Postmark Account Activate Validate API
   slug: open-postmark-validate-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/postmark-messages-inbound-messageid-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/postmark-messages-outbound-clicks-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/postmark-messages-outbound-messageid-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/postmark-messages-outbound-opens-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/postmark-platforms-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/postmark-readtimes-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/postmark-retry-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/postmark-sends-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/postmark-spam-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/postmark-statistics-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/postmark-stats-outbound-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/postmark-stats-outbound-clicks-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/postmark-stats-outbound-opens-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/postmark-template-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/postmark-triggers-inboundrules-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/postmark-triggers-tags-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/postmark-validate-api-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -626,13 +643,13 @@ modified: '2026-08-13'
 name: Postmark
 nav: Providers
 network: true
-overview: 'Postmark publishes 47 APIs on the [APIs.io](https://apis.io/) network, including Activate API, Alias API, Batch API, and 44 more. Tagged areas include Emails, Messaging, Transactional Email, Deliverability, and SMTP.
+overview: 'Postmark publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Activate API, Alias API, Batch API, and 27 more. Tagged areas include Emails, Messaging, Transactional Email, Deliverability, and SMTP.
 
 
   The Postmark catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Postmark''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, changelog, and 40 more developer resources.'
+  Postmark''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, changelog, and 57 more developer resources.'
 plans:
 - name: Postmark Plans Pricing
   plan_count: 4
@@ -666,18 +683,23 @@ rules:
   slug: postmark-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 71.1
+  composite: 72.2
+  coverage:
+    artifact_dirs: 31
+    catalog_gap: 38.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 82.9
     commercial_clarity: 82.9
-    contract_governance: 45.5
-    contract_quality: 58.6
+    contract_governance: 33.3
+    contract_quality: 59.1
     developer_ergonomics: 90.5
-    discoverability: 57.4
-    governance: 45.5
+    discoverability: 81.5
+    governance: 33.3
     operational_transparency: 81.6
-  previous_composite: 71.1
+  previous_composite: 72.2
   provenance:
     agentic_access: derived
     conformance: derived
@@ -688,8 +710,8 @@ score:
       total: 47
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/screenshots/postmark-2026-06-20T192003.png
 security:

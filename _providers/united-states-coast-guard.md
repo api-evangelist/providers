@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 8
   slug: united-states-coast-guard-agentic-access
   summary_line: 8 operations
-api_count: 5
+api_count: 1
 apis:
 - description: The Vessel Information Verification Service (VIVS) is a NAVCEN web service that allows retrieval of a vessel's broadcasted AIS static data, including Maritime Mobile Service Identity (MMSI), call sign
   name: NAVCEN AIS Vessel Information Verification Service
@@ -165,18 +165,23 @@ rules:
   slug: united-states-coast-guard-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 29.5
-  delta: 1.9
+  composite: 28.9
+  coverage:
+    artifact_dirs: 14
+    catalog_gap: 36.0
+    catalog_max: 100.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 39.4
     contract_quality: 58.5
     developer_ergonomics: 9.5
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 39.4
     operational_transparency: 7.9
-  previous_composite: 27.6
+  previous_composite: 29.5
   provenance:
     agentic_access: derived
     contracts:
@@ -190,8 +195,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-coast-guard/refs/heads/main/screenshots/united-states-coast-guard-2026-06-20T200050.png
 security:

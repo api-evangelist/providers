@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 20
   slug: cvent-platform-agentic-access
   summary_line: 20 operations · 11 acting
-api_count: 9
+api_count: 1
 apis:
 - description: The Cvent Platform REST API is the unified RESTful interface across the Event Cloud product line, providing programmatic access to events, contacts, registrations, attendees, sessions, speakers, exhib
   name: Cvent Platform REST API
@@ -101,6 +101,10 @@ collections:
   name: Cvent Platform REST API
   slug: open-cvent-platform
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/cvent-platform-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -192,7 +196,7 @@ network: true
 overview: 'Cvent Platform publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Contacts API, Events API, and 4 more. Tagged areas include Attendee Hub, Conferences, Event Management, Event Marketing, and Event.
 
 
-  Cvent Platform''s developer surface includes authentication, API reference, pricing, engineering blog, and 15 more developer resources.'
+  Cvent Platform''s developer surface includes authentication, API reference, pricing, engineering blog, and 16 more developer resources.'
 plans:
 - name: Cvent Platform Plans Pricing
   plan_count: 3
@@ -209,18 +213,23 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: thin
-  composite: 38.8
-  delta: 4.3
+  composite: 38.2
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 69.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 52.0
     developer_ergonomics: 40.5
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 34.5
+  previous_composite: 38.8
   provenance:
     agentic_access: derived
     contracts:
@@ -228,8 +237,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-platform/refs/heads/main/screenshots/cvent-platform-2026-06-20T175402.png
 security:

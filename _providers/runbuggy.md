@@ -23,8 +23,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-08-26'
-api_count: 6
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
 - description: An OAuth-protected Model Context Protocol server RunBuggy operates on its application host. Discovered by probe — it is not referenced from the public developer documentation. tools/list returns 401 i
   name: RunBuggy Data Science MCP Server
@@ -69,6 +69,10 @@ collections:
   name: Orders Webhooks API
   slug: open-runbuggy-webhooks-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/runbuggy-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -215,7 +219,7 @@ overview: 'RunBuggy publishes 5 APIs on the [APIs.io](https://apis.io/) network,
   The RunBuggy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  RunBuggy''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 25 more developer resources.'
+  RunBuggy''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 26 more developer resources.'
 random_paper: 1
 scopes:
 - name: Runbuggy Scopes
@@ -224,18 +228,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 47.3
+  composite: 46.6
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 61.7
     developer_ergonomics: 63.7
-    discoverability: 74.1
-    governance: 16.7
+    discoverability: 81.5
+    governance: 4.5
     operational_transparency: 52.6
-  previous_composite: 47.3
+  previous_composite: 46.6
   provenance:
     conformance: derived
     contracts:
@@ -245,8 +254,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runbuggy/refs/heads/main/screenshots/runbuggy-2026-08-17T081656.png
 security:

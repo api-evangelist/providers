@@ -23,19 +23,34 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-08-26'
-api_count: 3
+  scored_at: '2026-08-30'
+api_count: 4
 apis:
-- description: Read-only, account-scoped REST API for pulling orders attributed to members of a LoudCrowd program. Each result identifies the program member and includes attribution methods, financial values and pla
-  name: LoudCrowd Brand API
-  slug: loudcrowd-brand-api
-- description: Single-endpoint event intake for custom and headless commerce stacks. POST /event/ecomm accepts the complete order payload for ORDER_CREATE, ORDER_UPDATE and ORDER_CANCEL topics selected by the X-LC-T
+- description: The Attribution Events API API from LoudCrowd — 1 operation(s) for attribution events api.
   name: LoudCrowd Attribution Events API
-  slug: loudcrowd-attribution-events-api
-- description: Data API to be used in place of the hosted creator storefront web components, leaving the caller responsible for rendering. Five read operations return ambassador information, an ambassador's collecti
-  name: LoudCrowd Creator Storefronts API
-  slug: loudcrowd-creator-storefronts-api
-artifact_total: 8
+  slug: loudcrowd-attribution-events-api-api
+- description: The Brand API API from LoudCrowd — 1 operation(s) for brand api.
+  name: LoudCrowd Brand API
+  slug: loudcrowd-brand-api-api
+- description: The Product Data API from LoudCrowd — 1 operation(s) for product data.
+  name: LoudCrowd Product Data API
+  slug: loudcrowd-product-data-api
+- description: The StorefrontAmbassador API from LoudCrowd — 1 operation(s) for storefrontambassador.
+  name: LoudCrowd Storefront Ambassador API
+  slug: loudcrowd-storefrontambassador-api
+- description: The StorefrontCollections API from LoudCrowd — 1 operation(s) for storefrontcollections.
+  name: LoudCrowd Storefront Collections API
+  slug: loudcrowd-storefrontcollections-api
+- description: The StorefrontFeedItems API from LoudCrowd — 1 operation(s) for storefrontfeeditems.
+  name: LoudCrowd Storefront Feed Items API
+  slug: loudcrowd-storefrontfeeditems-api
+- description: The StorefrontMediaDetails API from LoudCrowd — 1 operation(s) for storefrontmediadetails.
+  name: LoudCrowd Storefront Media Details API
+  slug: loudcrowd-storefrontmediadetails-api
+- description: The StorefrontProductDetails API from LoudCrowd — 1 operation(s) for storefrontproductdetails.
+  name: LoudCrowd Storefront Product Details API
+  slug: loudcrowd-storefrontproductdetails-api
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Loudcrowd Attribution Events
@@ -193,7 +208,7 @@ modified: '2026-08-25'
 name: LoudCrowd
 nav: Providers
 network: true
-overview: 'LoudCrowd publishes 3 APIs on the [APIs.io](https://apis.io/) network: Brand API, Attribution Events API, and Creator Storefronts API. Tagged areas include Creator Marketing, Influencer Marketing, Affiliate Marketing, Ecommerce, and Creator Commerce.
+overview: 'LoudCrowd publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Attribution Events API, Brand API, Product Data API, and 5 more. Tagged areas include Creator Marketing, Influencer Marketing, Affiliate Marketing, E-Commerce, and Creator Commerce.
 
 
   The LoudCrowd catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -211,16 +226,23 @@ rate_limits:
   slug: loudcrowd-rate-limits
 score:
   band: developing
-  composite: 53.8
+  composite: 51.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 63.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 30.3
-    contract_quality: 58.8
+    contract_governance: 18.2
+    contract_quality: 60.8
     developer_ergonomics: 47.0
-    discoverability: 92.6
-    governance: 30.3
+    discoverability: 81.5
+    governance: 18.2
     operational_transparency: 0.0
+  previous_composite: 51.8
   provenance:
     conformance: first-party
     contracts:
@@ -230,8 +252,9 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 security:
 - kind: authentication
   name: Loudcrowd Authentication
@@ -246,7 +269,7 @@ tags:
 - Creator Marketing
 - Influencer Marketing
 - Affiliate Marketing
-- Ecommerce
+- E-Commerce
 - Creator Commerce
 - Attribution
 - Social Commerce

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/sony/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -76,14 +80,19 @@ modified: '2026-07-17'
 name: Altair Semiconductor
 nav: Providers
 network: true
-overview: 'Altair Semiconductor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Cellular IoT, Chipset, and LPWA.
+overview: 'Altair Semiconductor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductor, Cellular IoT, Chipset, and LPWA.
 
 
-  Altair Semiconductor''s developer surface includes engineering blog and 7 more developer resources.'
+  Altair Semiconductor''s developer surface includes engineering blog and 8 more developer resources.'
 random_paper: 10
 score:
   band: minimal
   composite: 5.5
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -95,8 +104,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altair-semiconductor/refs/heads/main/screenshots/altair-semiconductor-2026-07-25T195813.png
 security:
@@ -107,7 +116,7 @@ security:
 slug: altair-semiconductor
 tags:
 - Company
-- Semiconductors
+- Semiconductor
 - Cellular IoT
 - Chipset
 - LPWA

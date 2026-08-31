@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -42,45 +42,42 @@ agentic_access:
   operation_count: 39
   slug: instapage-agentic-access
   summary_line: 39 operations · 23 acting
-api_count: 12
+api_count: 11
 apis:
-- description: The Instapage Public API is a REST API over the Instapage landing page and post-click optimization platform, exposing workspaces, team members, landing pages, page groups, personalized experiences, co
-  name: Instapage Public API
-  slug: public-api
 - description: Create, read, rename and delete Instapage workspaces — the top-level tenant container that holds a customer's landing pages, integrations, domains and assets.
   name: Instapage Workspaces API
   slug: instapage-workspaces-api
-- description: Bulk-invite, re-role and remove the people with access to an Instapage workspace, including the inheritOwnerContextInPublicApi flag that charges a member's API calls to the workspace owner's daily quo
-  name: Instapage Team Members API
-  slug: instapage-team-members
-- description: List, search, update, delete, publish, unpublish, import and export Instapage landing pages, including Instapage-JSON round-tripping and published-URL changes.
-  name: Instapage Pages API
-  slug: instapage-pages
-- description: Manage the groups (folders) that organise landing pages inside an Instapage workspace.
-  name: Instapage Groups API
-  slug: instapage-groups
-- description: Retrieve the personalized experiences attached to an Instapage landing page, including which one is the default experience.
-  name: Instapage Personalizations API
-  slug: instapage-personalizations
-- description: Read Instapage collections and their placeholder templates, and create, publish, unpublish and delete the individual collection pages inside them — the programmatic-SEO surface.
-  name: Instapage Collections API
-  slug: instapage-collections
-- description: List the Manual and AI experiments running against Instapage landing pages, with their DRAFT / RUNNING / ENDED / ARCHIVED status and timing.
-  name: Instapage Experiments API
-  slug: instapage-experiments
-- description: Retrieve bulk visit, conversion and lead statistics for Instapage pages and experiences, grouped by page or variation over hourly, daily, monthly or yearly UTC windows.
+- description: Bulk visit, conversion and lead statistics for pages and experiences.
   name: Instapage Analytics API
-  slug: instapage-analytics
-- description: Retrieve and permanently delete the lead records captured by forms on Instapage landing pages, paged with an opaque nextPageToken cursor.
-  name: Instapage Form Submissions API
-  slug: instapage-form-submissions
-- description: List the custom domains connected to an Instapage workspace, with connection status, SSL status and custom 404 configuration.
-  name: Instapage Domains API
-  slug: instapage-domains
-- description: List Instapage image asset folders, list the images inside them, and upload new images via multipart/form-data.
+  slug: instapage-analytics-api
+- description: Image asset folders and images inside a workspace.
   name: Instapage Assets API
-  slug: instapage-assets
-artifact_total: 32
+  slug: instapage-assets-api
+- description: Collections are groups of pages sharing one template with placeholder-driven content, plus the individual collection pages inside them.
+  name: Instapage Collections API
+  slug: instapage-collections-api
+- description: Custom domains connected to a workspace.
+  name: Instapage Domains API
+  slug: instapage-domains-api
+- description: A/B and AI experiments running against landing pages.
+  name: Instapage Experiments API
+  slug: instapage-experiments-api
+- description: Retrieve and delete the lead data captured by landing page forms.
+  name: Instapage Form Submissions API
+  slug: instapage-form-submissions-api
+- description: Groups (folders) organise landing pages inside a workspace.
+  name: Instapage Groups API
+  slug: instapage-groups-api
+- description: Create, retrieve, update, publish, export and delete Instapage landing pages.
+  name: Instapage Pages API
+  slug: instapage-pages-api
+- description: Personalized experiences attached to a landing page.
+  name: Instapage Personalizations API
+  slug: instapage-personalizations-api
+- description: Manage the people who have access to a workspace and their access levels.
+  name: Instapage Team Members API
+  slug: instapage-team-members-api
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -122,6 +119,46 @@ collections:
   name: Instapage API
   slug: open-instapage
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/instapage-team-members-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/instapage-pages-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/instapage-groups-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/instapage-personalizations-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/instapage-collections-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/instapage-experiments-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/instapage-analytics-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/instapage-form-submissions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/instapage-domains-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/instapage-assets-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -274,10 +311,10 @@ modified: '2026-08-13'
 name: Instapage
 nav: Providers
 network: true
-overview: 'Instapage publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Public API, Workspaces API, Team Members API, and 9 more. Tagged areas include Landing Pages, Conversion Optimization, Marketing, A/B Testing, and Post-Click Optimization.
+overview: 'Instapage publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Workspaces API, Analytics API, Assets API, and 8 more. Tagged areas include Landing Pages, Conversion Optimization, Marketing, A/B Testing, and Post-Click Optimization.
 
 
-  Instapage''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, changelog, API reference, and 29 more developer resources.'
+  Instapage''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, changelog, API reference, and 39 more developer resources.'
 plans:
 - name: Instapage Plans Pricing
   plan_count: 3
@@ -289,18 +326,23 @@ rate_limits:
   slug: instapage-rate-limits
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 42.7
+  coverage:
+    artifact_dirs: 21
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -2.2
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
-    contract_governance: 16.7
+    contract_governance: 4.5
     contract_quality: 17.8
-    developer_ergonomics: 56.5
+    developer_ergonomics: 50.6
     discoverability: 74.1
-    governance: 16.7
-    operational_transparency: 65.8
-  previous_composite: 46.4
+    governance: 4.5
+    operational_transparency: 57.9
+  previous_composite: 44.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -311,8 +353,8 @@ score:
       total: 11
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instapage/refs/heads/main/screenshots/instapage-2026-06-20T183418.png
 security:

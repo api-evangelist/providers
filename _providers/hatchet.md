@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 141
   slug: hatchet-agentic-access
   summary_line: 141 operations · 59 acting · 1 human-in-the-loop
-api_count: 27
+api_count: 1
 apis:
 - description: The API Token API from Hatchet — 2 operation(s) for api token.
   name: Hatchet API Token API
@@ -644,18 +644,26 @@ rules:
   slug: hatchet-rules
 score:
   band: strong
-  composite: 54.4
-  delta: 7.9
+  composite: 57.0
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 41.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 2.6
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 28.8
     contract_quality: 69.9
     developer_ergonomics: 71.4
-    discoverability: 75.9
+    discoverability: 70.4
     governance: 28.8
     operational_transparency: 36.8
-  previous_composite: 46.5
+  open_source:
+    applies: true
+    score: 85.0
+  previous_composite: 54.4
   provenance:
     agentic_access: derived
     contracts:
@@ -663,9 +671,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 27
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: rising
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hatchet/refs/heads/main/screenshots/hatchet-2026-06-20T182616.png
 security:
 - kind: authentication

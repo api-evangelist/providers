@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 59
   slug: oracle-apex-agentic-access
   summary_line: 59 operations · 27 acting · 1 human-in-the-loop
-api_count: 21
+api_count: 1
 apis:
 - description: RESTful API for Oracle APEX applications enabling data access and manipulation through REST endpoints.
   name: Oracle APEX REST Data Services API
@@ -371,15 +371,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 45.7
+  coverage:
+    artifact_dirs: 18
+    catalog_gap: 59.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 9.8
     contract_quality: 61.8
     developer_ergonomics: 38.1
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 26.3
   previous_composite: 46.2
@@ -390,8 +395,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-apex/refs/heads/main/screenshots/oracle-apex-2026-06-20T191118.png
 security:

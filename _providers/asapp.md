@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 2
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 137
   slug: asapp-agentic-access
   summary_line: 137 operations · 93 acting · 2 human-in-the-loop
-api_count: 14
+api_count: 13
 apis:
 - description: Improve agent productivity with AutoCompose API
   name: ASAPP AutoCompose API
@@ -137,6 +137,10 @@ collections:
   name: AutoCompose Twilio Media Stream API
   slug: open-asapp-twilio-media-stream-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/asapp-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -283,22 +287,27 @@ overview: 'ASAPP publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
   The ASAPP catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ASAPP''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 24 more developer resources.'
+  ASAPP''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 25 more developer resources.'
 random_paper: 8
 score:
   band: strong
-  composite: 55.5
+  composite: 54.5
+  coverage:
+    artifact_dirs: 23
+    catalog_gap: 75.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 30.3
-    contract_quality: 64.3
+    contract_governance: 18.2
+    contract_quality: 65.8
     developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 30.3
+    governance: 18.2
     operational_transparency: 39.5
-  previous_composite: 55.5
+  previous_composite: 54.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -309,8 +318,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/asapp/refs/heads/main/screenshots/asapp-2026-07-25T201402.png
 security:

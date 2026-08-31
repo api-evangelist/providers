@@ -1,270 +1,75 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: Free and anonymous — no registration, no key
   onboarding: unknown
   pricing: free
-  public: false
+  public: true
   source:
-  - plans
+  - probes
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: derived
+    agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: true
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.7
-  scored_at: '2026-08-26'
-agentic_access:
-- acting_count: 231
-  human_in_the_loop: 7
-  name: University Of Gottingen Agentic Access
-  operation_count: 491
-  slug: university-of-gottingen-agentic-access
-  summary_line: 491 operations · 231 acting · 7 human-in-the-loop
-api_count: 35
+  score: 19.2
+  scored_at: '2026-08-30'
+api_count: 3
 apis:
-- description: OAI-PMH metadata harvesting endpoint for GRO.data (Göttingen Research Online), the Dataverse-based research-data repository for the Göttingen Campus operated by the Göttingen eResearch Alliance. Suppo
-  name: GRO.data OAI-PMH Metadata
-  slug: grodata-oai
-- description: 'International Image Interoperability Framework (IIIF) Image and Presentation API support across the Göttingen State and University Library (SUB Göttingen) digital collections, including the Göttingen '
-  name: SUB Göttingen IIIF API
+- description: 'OAI-PMH 2.0 harvesting interface for the Göttinger Digitalisierungszentrum, operated by SUB Göttingen on the university''s own domain. Verified live on 2026-08-30: Identify names the repository "GDZ - '
+  name: GDZ OAI-PMH Metadata Harvesting
+  slug: gdz-oai-pmh
+- description: OAI-PMH 2.0 harvesting interface for eDiss Göttingen, the university's electronic dissertations and theses server, operated by SUB Göttingen on the uni-goettingen.de domain. Verified live on 2026-08-3
+  name: eDiss Göttingen OAI-PMH Metadata Harvesting
+  slug: ediss-oai-pmh
+- description: IIIF Image API 2.0 (level 2) image service at images.sub.uni-goettingen.de and IIIF Presentation manifests routed through gdz.sub.uni-goettingen.de with canonical identifiers on manifests.sub.uni-goet
+  name: SUB Göttingen IIIF Image and Presentation
   slug: sub-iiif
-- description: TextAPI is an open specification developed by SUB Göttingen for serving text and metadata of digital objects, consumed by the TIDO text viewer. Used to present transcriptions and structured text of di
-  name: SUB Göttingen TextAPI
-  slug: sub-textapi
-- description: The Access API from University of Göttingen — 22 operation(s) for access.
-  name: University of Göttingen Access API
-  slug: university-of-gottingen-access-api
-- description: Uploads a set of files to a dataset
-  name: University of Göttingen addFilesToDataset API
-  slug: university-of-gottingen-addfilestodataset-api
-- description: Uploads a file for a dataset
-  name: University of Göttingen addFileToDataset API
-  slug: university-of-gottingen-addfiletodataset-api
-- description: Uploads a Globus file for a dataset
-  name: University of Göttingen addGlobusFilesToDataset API
-  slug: university-of-gottingen-addglobusfilestodataset-api
-- description: The Admin API from University of Göttingen — 128 operation(s) for admin.
-  name: University of Göttingen Admin API
-  slug: university-of-gottingen-admin-api
-- description: The Batch API from University of Göttingen — 3 operation(s) for batch.
-  name: University of Göttingen Batch API
-  slug: university-of-gottingen-batch-api
-- description: The Builtin Users API from University of Göttingen — 4 operation(s) for builtin users.
-  name: University of Göttingen Builtin Users API
-  slug: university-of-gottingen-builtin-users-api
-- description: The Datasetfields API from University of Göttingen — 1 operation(s) for datasetfields.
-  name: University of Göttingen Datasetfields API
-  slug: university-of-gottingen-datasetfields-api
-- description: The Datasets API from University of Göttingen — 78 operation(s) for datasets.
-  name: University of Göttingen Datasets API
-  slug: university-of-gottingen-datasets-api
-- description: The Datatags API from University of Göttingen — 1 operation(s) for datatags.
-  name: University of Göttingen Datatags API
-  slug: university-of-gottingen-datatags-api
-- description: The Dataverses API from University of Göttingen — 37 operation(s) for dataverses.
-  name: University of Göttingen Dataverses API
-  slug: university-of-gottingen-dataverses-api
-- description: The Edit API from University of Göttingen — 1 operation(s) for edit.
-  name: University of Göttingen Edit API
-  slug: university-of-gottingen-edit-api
-- description: The Files API from University of Göttingen — 19 operation(s) for files.
-  name: University of Göttingen Files API
-  slug: university-of-gottingen-files-api
-- description: The Harvest API from University of Göttingen — 7 operation(s) for harvest.
-  name: University of Göttingen Harvest API
-  slug: university-of-gottingen-harvest-api
-- description: The Inbox API from University of Göttingen — 1 operation(s) for inbox.
-  name: University of Göttingen Inbox API
-  slug: university-of-gottingen-inbox-api
-- description: The Info API from University of Göttingen — 47 operation(s) for info.
-  name: University of Göttingen Info API
-  slug: university-of-gottingen-info-api
-- description: The Ingest API from University of Göttingen — 1 operation(s) for ingest.
-  name: University of Göttingen Ingest API
-  slug: university-of-gottingen-ingest-api
-- description: The Licenses API from University of Göttingen — 6 operation(s) for licenses.
-  name: University of Göttingen Licenses API
-  slug: university-of-gottingen-licenses-api
-- description: The Logout API from University of Göttingen — 1 operation(s) for logout.
-  name: University of Göttingen Logout API
-  slug: university-of-gottingen-logout-api
-- description: The Mail API from University of Göttingen — 1 operation(s) for mail.
-  name: University of Göttingen Mail API
-  slug: university-of-gottingen-mail-api
-- description: The Meta API from University of Göttingen — 2 operation(s) for meta.
-  name: University of Göttingen Meta API
-  slug: university-of-gottingen-meta-api
-- description: The Metadatablocks API from University of Göttingen — 2 operation(s) for metadatablocks.
-  name: University of Göttingen Metadatablocks API
-  slug: university-of-gottingen-metadatablocks-api
-- description: The Mydata API from University of Göttingen — 1 operation(s) for mydata.
-  name: University of Göttingen Mydata API
-  slug: university-of-gottingen-mydata-api
-- description: The Notifications API from University of Göttingen — 6 operation(s) for notifications.
-  name: University of Göttingen Notifications API
-  slug: university-of-gottingen-notifications-api
-- description: The Pids API from University of Göttingen — 6 operation(s) for pids.
-  name: University of Göttingen Pids API
-  slug: university-of-gottingen-pids-api
-- description: Replace a file to a dataset
-  name: University of Göttingen replaceFilesInDataset API
-  slug: university-of-gottingen-replacefilesindataset-api
-- description: The Roles API from University of Göttingen — 2 operation(s) for roles.
-  name: University of Göttingen Roles API
-  slug: university-of-gottingen-roles-api
-- description: Save Auxiliary File With Version
-  name: University of Göttingen saveAuxiliaryFileWithVersion API
-  slug: university-of-gottingen-saveauxiliaryfilewithversion-api
-- description: The Search API from University of Göttingen — 1 operation(s) for search.
-  name: University of Göttingen Search API
-  slug: university-of-gottingen-search-api
-- description: Uploads a logo for a dataset
-  name: University of Göttingen uploadDatasetLogo API
-  slug: university-of-gottingen-uploaddatasetlogo-api
-- description: The Users API from University of Göttingen — 8 operation(s) for users.
-  name: University of Göttingen Users API
-  slug: university-of-gottingen-users-api
-- description: The Workflows API from University of Göttingen — 1 operation(s) for workflows.
-  name: University of Göttingen Workflows API
-  slug: university-of-gottingen-workflows-api
-artifact_total: 79
+- description: The university's own SAML 2.0 identity provider, entityID https://shibboleth-idp.uni-goettingen.de/uni/shibboleth, registered by DFN-AAI, exported to eduGAIN as entity 696098 since 2017-04-13, scope u
+  name: Georg-August-Universität Göttingen SAML Identity Provider
+  slug: identity-provider
+- description: 'GRO.data is the Göttingen Campus research-data repository, operated by the Göttingen eResearch Alliance and hosted at GWDG on data.goettingen-research-online.de. The deployment, the data and the DOIs '
+  name: GRO.data (Göttingen Research Online) Research Data Repository
+  slug: grodata
+- description: The university self-hosts Stud.IP, the open-source German learning management system, at studip.uni-goettingen.de and exposes its REST and JSON:API surfaces there. Anonymous callers receive "401 Unaut
+  name: Stud.IP Learning Management REST and JSON:API
+  slug: studip
+- description: The Göttingen university catalogue is served from opac.sub.uni-goettingen.de, which is a DNS CNAME to lbsgoe.gbv.de — the library system platform of the Verbundzentrale des GBV. The subdomain is Götti
+  name: SUB Göttingen Library Catalogue (GUK)
+  slug: opac
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
   slug: open-.refine-report
-- collection_type: open
-  name: GRO.data Dataverse REST Access API
-  slug: open-university-of-gottingen-access-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access addFilesToDataset API
-  slug: open-university-of-gottingen-addfilestodataset-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access addFileToDataset API
-  slug: open-university-of-gottingen-addfiletodataset-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access addGlobusFilesToDataset API
-  slug: open-university-of-gottingen-addglobusfilestodataset-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Admin API
-  slug: open-university-of-gottingen-admin-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Batch API
-  slug: open-university-of-gottingen-batch-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Builtin Users API
-  slug: open-university-of-gottingen-builtin-users-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Datasetfields API
-  slug: open-university-of-gottingen-datasetfields-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Datasets API
-  slug: open-university-of-gottingen-datasets-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Datatags API
-  slug: open-university-of-gottingen-datatags-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Dataverses API
-  slug: open-university-of-gottingen-dataverses-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Edit API
-  slug: open-university-of-gottingen-edit-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Files API
-  slug: open-university-of-gottingen-files-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Harvest API
-  slug: open-university-of-gottingen-harvest-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Inbox API
-  slug: open-university-of-gottingen-inbox-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Info API
-  slug: open-university-of-gottingen-info-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Ingest API
-  slug: open-university-of-gottingen-ingest-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Licenses API
-  slug: open-university-of-gottingen-licenses-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Logout API
-  slug: open-university-of-gottingen-logout-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Mail API
-  slug: open-university-of-gottingen-mail-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Meta API
-  slug: open-university-of-gottingen-meta-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Metadatablocks API
-  slug: open-university-of-gottingen-metadatablocks-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Mydata API
-  slug: open-university-of-gottingen-mydata-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Notifications API
-  slug: open-university-of-gottingen-notifications-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Pids API
-  slug: open-university-of-gottingen-pids-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access replaceFilesInDataset API
-  slug: open-university-of-gottingen-replacefilesindataset-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Roles API
-  slug: open-university-of-gottingen-roles-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access saveAuxiliaryFileWithVersion API
-  slug: open-university-of-gottingen-saveauxiliaryfilewithversion-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Search API
-  slug: open-university-of-gottingen-search-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access uploadDatasetLogo API
-  slug: open-university-of-gottingen-uploaddatasetlogo-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Users API
-  slug: open-university-of-gottingen-users-api
-- collection_type: open
-  name: GRO.data Dataverse REST Access Workflows API
-  slug: open-university-of-gottingen-workflows-api
 common:
-- group: agent
-  title: ''
-  type: AgenticAccess
-  url: agentic-access/university-of-gottingen-agentic-access.yml
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/university-of-gottingen-domain-security.yml
 - group: company
   title: ''
   type: Website
   url: https://www.uni-goettingen.de/en/
 - group: build
   title: ''
-  type: GitHub
+  type: GitHubOrganization
   url: https://github.com/uni-goettingen
 - group: build
   title: ''
@@ -274,10 +79,82 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/school/university-of-gottingen/
+- group: company
+  title: ''
+  type: Blog
+  url: https://news.uni-goettingen.de/feed/
+- group: other
+  title: ''
+  type: IdentityFederation
+  url: https://technical.edugain.org/entities?e_name=Georg-August
+- group: other
+  title: ''
+  type: ResearchRepository
+  url: https://www.eresearch.uni-goettingen.de/services-and-software/gro-data/
+- group: build
+  title: ''
+  type: LibraryCatalog
+  url: https://opac.sub.uni-goettingen.de/DB=1/LNG=DU/
+- group: learn
+  title: ''
+  type: CourseCatalog
+  url: https://ecampus.uni-goettingen.de/h1/pages/cs/sys/portal/subMenu.faces?navigationPosition=studiesOffered
+- group: other
+  title: ''
+  type: ResearchComputing
+  url: https://docs.hpc.gwdg.de/
+- group: other
+  title: ''
+  type: AIPolicy
+  url: https://uni-goettingen.de/de/umgang+mit+ki-modellen+in+studium+und+lehre/674738.html
+- group: build
+  title: ''
+  type: AITooling
+  url: https://academiccloud.de/services/chatai/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://gdz.sub.uni-goettingen.de/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://uni-goettingen.de/en/439238.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://uni-goettingen.de/en/439479.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://uni-goettingen.de/en/545353.html
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/university-of-gottingen-conformance.yml
 - group: auth
   title: ''
   type: Authentication
-  url: https://www-portal.gwdg.de/en/services/general-services/sso-aai/
+  url: authentication/university-of-gottingen-authentication.yml
+- group: design
+  title: ''
+  type: Errors
+  url: errors/university-of-gottingen-errors.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/university-of-gottingen-lifecycle.yml
+- group: auth
+  title: ''
+  type: Scopes
+  url: scopes/university-of-gottingen-scopes.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/university-of-gottingen-vocabulary.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/university-of-gottingen-domain-security.yml
 - group: commercial
   title: ''
   type: Plans
@@ -294,46 +171,33 @@ common:
   title: ''
   type: Review
   url: review.yml
-- group: company
-  title: ''
-  type: Blog
-  url: https://news.uni-goettingen.de/rss
 created: '2026-06-03'
-description: 'The University of Göttingen (Georg-August-Universität Göttingen) is a public research university in Lower Saxony, Germany, ranked #254 in the QS World University Rankings 2025. Its public, machine-readable footprint is delivered mainly through campus partners: the Göttingen State and University Library (SUB Göttingen) publishes digital-library interfaces such as the IIIF Image/ Presentation APIs and a custom TextAPI for digitized objects, while the Göttingen eResearch Alliance operates the GRO.data (Göttingen Research Online) Dataverse research-data repository, which exposes an OAI-PMH endpoint and a Dataverse REST search API. There is no single official institution-wide developer portal; identity is handled via SAML/Shibboleth and OpenID Connect AAI run with GWDG.'
+description: 'The University of Göttingen (Georg-August-Universität Göttingen) is a public research university in Lower Saxony, Germany, founded 1737, a German U15 member and QS-ranked in the mid-200s. Its programmable footprint is real but small, and it belongs almost entirely to the Göttingen State and University Library (SUB Göttingen) rather than to the university''s central IT: two live OAI-PMH 2.0 harvesting endpoints on the university''s own domains — the Göttinger Digitalisierungszentrum, harvesting back to 1998, and the eDiss dissertation server, which disseminates the German national xMetaDissPlus, epicur and picaxml profiles — plus a IIIF Image API 2.0 level-2 image service and IIIF Presentation manifests for the digitised collections. The university also operates its own SAML 2.0 identity provider, registered in DFN-AAI, exported to eduGAIN and Sirtfi-compliant, and holds the DataCite prefix 10.25625 as repository client SUBGOE.GRO. There is no central developer portal, no self-service
+  API key, no published rate limits and no OpenAPI authored by the institution; every specification in this repository was written by API Evangelist from live probes and is marked as such. The GRO.data research-data repository and the SUB library catalogue are recorded here as relationships rather than as Göttingen contracts — GRO.data runs Dataverse and the catalogue resolves onto the GBV/VZG library platform.'
 examples:
-- key_count: 2
-  name: University Of Gottingen Search Example
-  slug: university-of-gottingen-search-example
+- key_count: 9
+  name: University Of Gottingen Ediss Oai Identify Example
+  slug: university-of-gottingen-ediss-oai-identify-example
+- key_count: 9
+  name: University Of Gottingen Gdz Oai Identify Example
+  slug: university-of-gottingen-gdz-oai-identify-example
+- key_count: 9
+  name: University Of Gottingen Sub Iiif Image Info Example
+  slug: university-of-gottingen-sub-iiif-image-info-example
 finops:
 - name: University Of Gottingen Finops
   service_category: Education
   slug: university-of-gottingen-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/university-of-gottingen.png
-json_schemas:
-- name: GRO.data Dataset
-  property_count: 19
-  slug: university-of-gottingen-dataset
-json_structures:
-- name: University Of Gottingen Dataset Structure
-  property_count: 17
-  slug: university-of-gottingen-dataset-structure
-jsonld:
-- class_count: 13
-  name: University Of Gottingen Context
-  property_count: 1
-  slug: university-of-gottingen-context
 layout: provider
-modified: '2026-06-03'
+modified: '2026-08-30'
 name: University of Göttingen
 nav: Providers
 network: true
-overview: 'University of Göttingen publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Access API, addFilesToDataset API, addFileToDataset API, and 29 more. Tagged areas include Education, Higher Education, University, Research Data, and Digital Library.
+overview: 'University of Göttingen publishes 3 APIs on the [APIs.io](https://apis.io/) network: GDZ OAI-PMH Metadata Harvesting, eDiss Göttingen OAI-PMH Metadata Harvesting, and SUB Göttingen IIIF Image and Presentation. Tagged areas include University, Higher Education, Education, Germany, and German U15.
 
 
-  The University of Göttingen catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
-
-
-  University of Göttingen''s developer surface includes GitHub presence, authentication, engineering blog, and 9 more developer resources.'
+  University of Göttingen''s developer surface includes engineering blog, documentation, support, authentication, and 23 more developer resources.'
 plans:
 - name: University Of Gottingen Plans Pricing
   plan_count: 2
@@ -343,41 +207,30 @@ rate_limits:
 - limit_count: 1
   name: University Of Gottingen Rate Limits
   slug: university-of-gottingen-rate-limits
-rules:
-- effective_rule_count: 5
-  extends: []
-  name: University of Göttingen API Rules
-  rule_count: 5
-  severity_counts:
-    error: 0
-    hint: 0
-    info: 2
-    warn: 3
-  slug: university-of-gottingen-jsonschema-spectral-rules
-- effective_rule_count: 5
-  extends: []
-  name: University of Göttingen API Rules
-  rule_count: 5
-  severity_counts:
-    error: 1
-    hint: 1
-    info: 0
-    warn: 3
-  slug: university-of-gottingen-rules
+scopes:
+- name: University Of Gottingen Scopes
+  scope_count: 0
+  slug: university-of-gottingen-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 34.0
-  delta: 1.9
+  band: developing
+  composite: 46.2
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 56.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 12.2
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
-    contract_quality: 49.4
-    developer_ergonomics: 23.8
-    discoverability: 59.3
-    governance: 9.8
-    operational_transparency: 26.3
-  previous_composite: 32.1
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 15.2
+    contract_quality: 54.0
+    developer_ergonomics: 28.6
+    discoverability: 64.8
+    governance: 15.2
+    operational_transparency: 23.7
+  previous_composite: 34.0
   provenance:
     agentic_access: derived
     contracts:
@@ -390,25 +243,33 @@ score:
     matched_via: tags
     regime: Education & Research
     regime_id: education
-    score: 31.5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
-  trend: flat
+    score: 64.8
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-gottingen/refs/heads/main/screenshots/university-of-gottingen-2026-06-20T200154.png
 security:
+- kind: authentication
+  name: University Of Gottingen Authentication
+  slug: university-of-gottingen-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: University Of Gottingen Domain Security
   slug: university-of-gottingen-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: university-of-gottingen
 tags:
-- Education
-- Higher Education
 - University
+- Higher Education
+- Education
+- Germany
+- German U15
+- Public Research University
 - Research Data
 - Digital Library
 - IIIF
 - OAI-PMH
-- Germany
+- Identity Federation
+- Research Repository
 website: https://www.uni-goettingen.de/en/
 ---

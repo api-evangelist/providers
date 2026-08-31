@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: vwo-agentic-access
   summary_line: 12 operations · 5 acting
-api_count: 5
+api_count: 1
 apis:
 - description: VWO Data API exposes account data, campaign and goal configuration, reporting, and segmentation across the VWO experimentation platform.
   name: VWO Data API
@@ -140,7 +140,7 @@ modified: '2026-05-08'
 name: VWO
 nav: Providers
 network: true
-overview: 'VWO publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Feature Flags API, Reports API, and 1 more. Tagged areas include Experimentation, A/B Testing, Personalization, Conversion Optimization, and Feature Flags.
+overview: 'VWO publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Campaigns API, Feature Flags API, Reports API, and 1 more. Tagged areas include Experimentation, AB Testing, Personalization, Conversion Optimization, and Feature Flags.
 
 
   VWO''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -155,15 +155,20 @@ rate_limits:
   slug: vwo-rate-limits
 score:
   band: thin
-  composite: 27.8
-  delta: 0.0
+  composite: 27.2
+  coverage:
+    artifact_dirs: 10
+    catalog_gap: 76.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 51.4
     developer_ergonomics: 23.8
-    discoverability: 64.8
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 27.8
@@ -174,8 +179,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vwo/refs/heads/main/screenshots/vwo-2026-06-20T201152.png
 security:
@@ -194,7 +199,7 @@ security:
 slug: vwo
 tags:
 - Experimentation
-- A/B Testing
+- AB Testing
 - Personalization
 - Conversion Optimization
 - Feature Flags

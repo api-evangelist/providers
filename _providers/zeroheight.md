@@ -10,36 +10,43 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-08-26'
-api_count: 1
+  score: 30.4
+  scored_at: '2026-08-30'
+api_count: 2
 apis:
-- description: The zeroheight REST API can be used to automate your design system workflow, make use of your content in new ways and leverage external tools to empower your design system. It provides access to resou
+- description: 'The zeroheight REST API automates design system workflows: read styleguides, their categories, pages and page content (Markdown available via ?format=markdown), read published styleguide versions and '
   name: Zeroheight API
   slug: zeroheight
-artifact_total: 6
+- description: The zeroheight Model Context Protocol server. Gives AI tools read access to a team's design system documentation - list styleguides, walk the navigation tree, full-text search pages (Enterprise), fetc
+  name: zeroheight MCP
+  slug: zeroheight-mcp
+artifact_total: 11
+collections:
+- collection_type: postman
+  name: zeroheight API
+  slug: postman-zeroheight-api
 common:
 - group: auth
   title: ''
@@ -73,54 +80,196 @@ common:
   title: ''
   type: Blog
   url: https://zeroheight.com/blog/
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/zeroheight-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/zeroheight-tool-crosswalk.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/zeroheight-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/zeroheight-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/zeroheight-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/zeroheight-components.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/zeroheight-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/zeroheight-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/zeroheight-scopes.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/zeroheight-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/zeroheight-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/zeroheight-plans-pricing.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/zeroheight-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/zeroheight-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/zeroheight-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/zeroheight-trust-center.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/zeroheight-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://uptime.zeroheight.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://zeroheight.com/whats-new/
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/zeroheight-open-api-v2-overlay.yaml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/zeroheight-open-api-v2.yml
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/zeroheight-0379/zeroheight/overview
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.zeroheight.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.zeroheight.com/75fe5b2ed/p/02b002
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.zeroheight.com/75fe5b2ed/p/877703-getting-started
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://zeroheight.com/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://zeroheight.com/create/account
+- group: start
+  title: ''
+  type: Login
+  url: https://zeroheight.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://terms.zeroheight.com/18bfef5dc/p/24f1a8-website-terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://terms.zeroheight.com/18bfef5dc/p/28f2cf-privacy-and-cookie-policy
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.zeroheight.com/
 created: '2025-01-07'
-description: The zeroheight REST API can be used to automate your design system workflow, make use of your content in new ways and, leverage external tools to empower your design system.
+description: 'zeroheight is a design system platform where teams document components, patterns, guidelines and design tokens in a styleguide, then deliver that documentation to designers, engineers and AI agents. It exposes two machine surfaces: a small key-authenticated REST API (https://zeroheight.com/open_api/v2) covering styleguides, pages, page content, page statuses, versions, categories and token sets, and a substantially richer Model Context Protocol server, hosted at https://mcp.zeroheight.com/mcp and also shipped as the npm package @zeroheight/mcp-server, which lets a coding or prototyping agent read a team''s design system directly. Design tokens export in W3C DTCG format and through stable per-set Style Dictionary URLs usable as build-pipeline endpoints.'
 finops:
 - name: Zeroheight Finops
   service_category: API
   slug: zeroheight-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zeroheight.png
 layout: provider
-modified: '2026-03-16'
+mcp_servers:
+- description: 'zeroheight ships a genuine dual-deployment MCP server: a hosted remote endpoint at https://mcp.zeroheight.com/mcp that any MCP client can reach after an OAuth login, and a local stdio server distribut'
+  name: zeroheight MCP
+  slug: zeroheight-mcp
+modified: '2026-08-28'
 name: Zeroheight
 nav: Providers
 network: true
-overview: 'Zeroheight publishes 1 API on the [APIs.io](https://apis.io/) network.
+overview: 'Zeroheight publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Design Systems, Design Tokens, Documentation, MCP, and Agent Readiness.
 
 
-  Zeroheight''s developer surface includes developer portal, support, engineering blog, and 5 more developer resources.'
+  Zeroheight''s developer surface includes developer portal, support, engineering blog, CLI, authentication, changelog, documentation, and 33 more developer resources.'
 plans:
 - name: Zeroheight Plans Pricing
   plan_count: 3
   slug: zeroheight-plans-pricing
 random_paper: 10
 rate_limits:
-- limit_count: 5
+- limit_count: 2
   name: Zeroheight Rate Limits
   slug: zeroheight-rate-limits
+scopes:
+- name: Zeroheight Scopes
+  scope_count: 0
+  slug: zeroheight-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 15.4
-  delta: 1.9
+  band: strong
+  composite: 57.3
+  coverage:
+    artifact_dirs: 24
+    catalog_gap: 70.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
-    access_clarity: 23.7
-    commercial_clarity: 23.7
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 26.2
-    discoverability: 40.7
-    governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 13.5
-  regulatory:
-    applies: false
-    note: provider carries no tags; regime could not be determined
-    undetermined: true
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 18.2
+    contract_quality: 53.7
+    developer_ergonomics: 78.6
+    discoverability: 75.9
+    governance: 18.2
+    operational_transparency: 23.7
+  previous_composite: 57.3
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/screenshots/zeroheight-2026-06-20T201844.png
 security:
+- kind: authentication
+  name: Zeroheight Authentication
+  slug: zeroheight-authentication
+  summary_line: 4 schemes
 - kind: domain-security
   name: Zeroheight Domain Security
   slug: zeroheight-domain-security
@@ -130,5 +279,16 @@ security:
   slug: zeroheight-trust-center
   summary_line: SOC 2, ISO 27001
 slug: zeroheight
+tags:
+- Design Systems
+- Design Tokens
+- Documentation
+- MCP
+- Agent Readiness
+- Developer Tools
+- Design
+- Figma
+- Storybook
+- Design Operations
 website: https://zeroheight.com/
 ---

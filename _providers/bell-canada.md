@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -11,7 +11,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 28.0
-  scored_at: '2026-08-26'
+  score: 30.9
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 0
@@ -33,19 +33,34 @@ agentic_access:
   summary_line: 74 operations · 60 acting
 api_count: 4
 apis:
-- description: Bell's implementation of the TM Forum TMF621 Trouble Ticket Open API (Bell version v2.5, TMF621 v4.1.1), letting an enterprise or wholesale partner create, patch, retrieve and list trouble tickets aga
-  name: Bell Canada Trouble Ticket API
-  slug: bell-canada-trouble-ticket-api
-- description: Bell's implementation of the TM Forum TMF641 Service Ordering Management Open API (Bell version v1.4, TMF641 v4.6), used by partners to place, amend, cancel and track service requests with Bell over a
+- description: The cancelServiceOrder API from Bell Canada — 2 operation(s) for cancelserviceorder.
+  name: Bell Canada Cancel Service Order API
+  slug: bell-canada-cancelserviceorder-api
+- description: The changeRequest API from Bell Canada — 2 operation(s) for changerequest.
+  name: Bell Canada Change Request API
+  slug: bell-canada-changerequest-api
+- description: The events subscription API from Bell Canada — 2 operation(s) for events subscription.
+  name: Bell Canada events subscription API
+  slug: bell-canada-events-subscription-api
+- description: The logicalResource API from Bell Canada — 2 operation(s) for logicalresource.
+  name: Bell Canada Logical Resource API
+  slug: bell-canada-logicalresource-api
+- description: The notification listeners (client side) API from Bell Canada — 31 operation(s) for notification listeners (client side).
+  name: Bell Canada notification listeners (client side) API
+  slug: bell-canada-notification-listeners-client-side-api
+- description: The physicalResource API from Bell Canada — 2 operation(s) for physicalresource.
+  name: Bell Canada Physical Resource API
+  slug: bell-canada-physicalresource-api
+- description: The Resource API from Bell Canada — 3 operation(s) for resource.
+  name: Bell Canada Resource API
+  slug: bell-canada-resource-api
+- description: The serviceOrder API from Bell Canada — 2 operation(s) for serviceorder.
   name: Bell Canada Service Order API
-  slug: bell-canada-service-order-api
-- description: 'Bell''s implementation of the TM Forum TMF639 Resource Inventory Management Open API (Bell version v1.6, TMF639 v4.1), exposing logical, physical and generic resource records so partners can query and '
-  name: Bell Canada Resource Inventory Management API
-  slug: bell-canada-resource-inventory-api
-- description: 'Bell''s implementation of the TM Forum TMF655 Change Management Open API (Bell version v1.1, TMF655 v4.2), letting a partner raise, update, retrieve and list change requests against Bell services with '
-  name: Bell Canada Change Management API
-  slug: bell-canada-change-management-api
-artifact_total: 13
+  slug: bell-canada-serviceorder-api
+- description: The troubleTicket API from Bell Canada — 2 operation(s) for troubleticket.
+  name: Bell Canada Trouble Ticket API
+  slug: bell-canada-troubleticket-api
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Bell Canada Webhooks
@@ -64,6 +79,42 @@ collections:
   name: Trouble Ticket
   slug: open-bell-canada-trouble-ticket-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/bell-canada-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bell-canada-trouble-ticket-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/bell-canada-raise-and-track-trouble-ticket.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bell-canada-service-order-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/bell-canada-place-and-cancel-service-order.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bell-canada-resource-inventory-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/bell-canada-query-resource-inventory.md
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/bell-canada-change-management-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/bell-canada-raise-change-request.md
 - group: agent
   title: ''
   type: AgenticAccess
@@ -197,28 +248,33 @@ modified: '2026-07-25'
 name: Bell Canada
 nav: Providers
 network: true
-overview: 'Bell Canada publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Trouble Ticket API, Service Order API, Resource Inventory Management API, and 1 more. Tagged areas include Telecommunications, Canada, Mobile Network Operator, Broadband, and 5G.
+overview: 'Bell Canada publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Cancel Service Order API, Change Request API, events subscription API, and 6 more. Tagged areas include Telecommunications, Canada, Mobile Network Operator, Broadband, and 5G.
 
 
   The Bell Canada catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bell Canada''s developer surface includes authentication, sandbox, code examples, getting-started guide, support, documentation, API reference, and 23 more developer resources.'
+  Bell Canada''s developer surface includes authentication, sandbox, code examples, getting-started guide, support, documentation, API reference, and 32 more developer resources.'
 random_paper: 10
 score:
   band: developing
-  composite: 48.9
+  composite: 46.3
+  coverage:
+    artifact_dirs: 22
+    catalog_gap: 80.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
-    contract_governance: 16.7
-    contract_quality: 58.0
+    contract_governance: 4.5
+    contract_quality: 57.8
     developer_ergonomics: 66.1
-    discoverability: 75.9
-    governance: 16.7
+    discoverability: 64.8
+    governance: 4.5
     operational_transparency: 21.1
-  previous_composite: 48.9
+  previous_composite: 46.3
   provenance:
     agentic_access: derived
     conformance: derived
@@ -235,8 +291,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bell-canada/refs/heads/main/screenshots/bell-canada-2026-08-07T162303.png
 security:

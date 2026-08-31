@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 6
@@ -42,71 +42,20 @@ agentic_access:
   operation_count: 156
   slug: slashid-agentic-access
   summary_line: 156 operations · 97 acting · 6 human-in-the-loop
-api_count: 24
+api_count: 1
 apis:
-- description: The Groups API from SlashID — 5 operation(s) for groups.
-  name: SlashID Groups API
-  slug: slashid-groups-api
 - description: The Identity Management API from SlashID — 72 operation(s) for identity management.
   name: SlashID Identity Management API
   slug: slashid-identity-management-api
-- description: The OAuth2 API from SlashID — 11 operation(s) for oauth2.
-  name: SlashID OAuth2 API
-  slug: slashid-oauth2-api
 - description: The OIDC discovery API from SlashID — 2 operation(s) for oidc discovery.
   name: SlashID OIDC discovery API
   slug: slashid-oidc-discovery-api
-- description: The Organization Allowed Domains API from SlashID — 1 operation(s) for organization allowed domains.
-  name: SlashID Organization Allowed Domains API
-  slug: slashid-organization-allowed-domains-api
-- description: The Organization Attributes API from SlashID — 2 operation(s) for organization attributes.
-  name: SlashID Organization Attributes API
-  slug: slashid-organization-attributes-api
-- description: The Organization Email Templates API from SlashID — 2 operation(s) for organization email templates.
-  name: SlashID Organization Email Templates API
-  slug: slashid-organization-email-templates-api
-- description: The Organization External Credentials API from SlashID — 2 operation(s) for organization external credentials.
-  name: SlashID Organization External Credentials API
-  slug: slashid-organization-external-credentials-api
-- description: The Organization KYC config API from SlashID — 1 operation(s) for organization kyc config.
-  name: SlashID Organization KYC config API
-  slug: slashid-organization-kyc-config-api
 - description: The Organization SSO config API from SlashID — 4 operation(s) for organization sso config.
   name: SlashID Organization SSO config API
   slug: slashid-organization-sso-config-api
-- description: The Organization Token Template API from SlashID — 1 operation(s) for organization token template.
-  name: SlashID Organization Token Template API
-  slug: slashid-organization-token-template-api
 - description: The Organization Webhooks API from SlashID — 5 operation(s) for organization webhooks.
   name: SlashID Organization Webhooks API
   slug: slashid-organization-webhooks-api
-- description: The Organizations API from SlashID — 10 operation(s) for organizations.
-  name: SlashID Organizations API
-  slug: slashid-organizations-api
-- description: The Person Attributes API from SlashID — 3 operation(s) for person attributes.
-  name: SlashID Person Attributes API
-  slug: slashid-person-attributes-api
-- description: The Person Consents API from SlashID — 2 operation(s) for person consents.
-  name: SlashID Person Consents API
-  slug: slashid-person-consents-api
-- description: The Person Credentials API from SlashID — 5 operation(s) for person credentials.
-  name: SlashID Person Credentials API
-  slug: slashid-person-credentials-api
-- description: The Person handles API from SlashID — 2 operation(s) for person handles.
-  name: SlashID Person handles API
-  slug: slashid-person-handles-api
-- description: The Persons API from SlashID — 11 operation(s) for persons.
-  name: SlashID Persons API
-  slug: slashid-persons-api
-- description: The Persons Bulk Import API from SlashID — 1 operation(s) for persons bulk import.
-  name: SlashID Persons Bulk Import API
-  slug: slashid-persons-bulk-import-api
-- description: The RBAC API from SlashID — 11 operation(s) for rbac.
-  name: SlashID RBAC API
-  slug: slashid-rbac-api
-- description: The SSO API from SlashID — 4 operation(s) for sso.
-  name: SlashID SSO API
-  slug: slashid-sso-api
 - description: The Super Admin Management API from SlashID — 3 operation(s) for super admin management.
   name: SlashID Super Admin Management API
   slug: slashid-super-admin-management-api
@@ -116,7 +65,7 @@ apis:
 - description: The Workflows API from SlashID — 10 operation(s) for workflows.
   name: SlashID Workflows API
   slug: slashid-workflows-api
-artifact_total: 70
+artifact_total: 53
 collections:
 - collection_type: open
   name: API Collection
@@ -317,7 +266,7 @@ modified: '2026-06-12'
 name: SlashID
 nav: Providers
 network: true
-overview: 'SlashID publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Groups API, Identity Management API, OAuth2 API, and 21 more. Tagged areas include Identity, Authentication, Passwordless, MFA, and Passkeys.
+overview: 'SlashID publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Identity Management API, OIDC discovery API, Organization SSO config API, and 4 more. Tagged areas include Identity, Authentication, Passwordless, MFA, and Passkeys.
 
 
   The SlashID catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -346,18 +295,23 @@ rules:
   slug: slashid-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.3
-  delta: 0.0
+  composite: 47.7
+  coverage:
+    artifact_dirs: 15
+    catalog_gap: 34.8
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 25.0
-    contract_quality: 66.3
+    contract_quality: 66.0
     developer_ergonomics: 23.8
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 25.0
     operational_transparency: 34.2
-  previous_composite: 48.3
+  previous_composite: 48.2
   provenance:
     agentic_access: derived
     contracts:
@@ -365,8 +319,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/screenshots/slashid-2026-06-20T194022.png
 security:

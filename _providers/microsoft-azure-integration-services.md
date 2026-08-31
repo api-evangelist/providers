@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -77,6 +77,10 @@ collections:
   name: Azure API Management REST API
   slug: open-microsoft-azure-integration-services
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/microsoft-azure-integration-services-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -172,7 +176,7 @@ network: true
 overview: 'Microsoft Azure Integration Services publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Services API. Tagged areas include API Management, Enterprise, Event-Driven, Integration, and Messaging.
 
 
-  Microsoft Azure Integration Services'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 13 more developer resources.'
+  Microsoft Azure Integration Services'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Microsoft Azure Integration Services Plans Pricing
   plan_count: 3
@@ -190,7 +194,12 @@ scopes:
 score:
   band: developing
   composite: 48.0
-  delta: 1.4
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 66.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -200,7 +209,7 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 46.6
+  previous_composite: 48.0
   provenance:
     agentic_access: derived
     contracts:
@@ -208,8 +217,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-integration-services/refs/heads/main/screenshots/microsoft-azure-integration-services-2026-06-20T185419.png
 security:

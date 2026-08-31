@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: The XOTP (Paymentus payment) API exposes core Service Commerce operations — make payment (Sale), account inquiry, payment history, void/cancel payment, customer profile create/read/update/delete and l
@@ -143,7 +143,7 @@ modified: '2026-07-24'
 name: Paymentus
 nav: Providers
 network: true
-overview: 'Paymentus publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, United States, Bill Payments, Electronic Bill Presentment, and Payment Processing.
+overview: 'Paymentus publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, United States, Bill Payment, Electronic Bill Presentment, and Payment Processing.
 
 
   Paymentus'' developer surface includes API reference, engineering blog, support, authentication, and 20 more developer resources.'
@@ -156,7 +156,12 @@ scopes:
 score:
   band: thin
   composite: 38.3
-  delta: 3.8
+  coverage:
+    artifact_dirs: 12
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -166,18 +171,22 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 34.5
+  previous_composite: 38.3
   provenance:
     conformance: first-party
     mcp: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 75.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 security:
 - kind: authentication
@@ -196,7 +205,7 @@ slug: paymentus
 tags:
 - Payments
 - United States
-- Bill Payments
+- Bill Payment
 - Electronic Bill Presentment
 - Payment Processing
 - Payment Gateway

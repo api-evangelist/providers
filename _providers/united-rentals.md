@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 13
   slug: united-rentals-agentic-access
   summary_line: 13 operations · 4 acting
-api_count: 5
+api_count: 1
 apis:
 - description: Equipment catalog and availability
   name: United Rentals Equipment API
@@ -83,6 +83,10 @@ collections:
   name: United Rentals Total Control API
   slug: open-united-rentals-total-control
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/united-rentals-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -191,7 +195,7 @@ overview: 'United Rentals publishes 5 APIs on the [APIs.io](https://apis.io/) ne
   The United Rentals catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  United Rentals'' developer surface includes authentication and 15 more developer resources.'
+  United Rentals'' developer surface includes authentication and 16 more developer resources.'
 plans:
 - name: United Rentals Plans Pricing
   plan_count: 3
@@ -241,18 +245,23 @@ rules:
   slug: united-rentals-rules
 score:
   band: thin
-  composite: 34.3
-  delta: 1.0
+  composite: 33.8
+  coverage:
+    artifact_dirs: 19
+    catalog_gap: 51.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 28.8
     contract_quality: 60.0
     developer_ergonomics: 21.4
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 28.8
     operational_transparency: 7.9
-  previous_composite: 33.3
+  previous_composite: 34.3
   provenance:
     agentic_access: derived
     contracts:
@@ -260,8 +269,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/screenshots/united-rentals-2026-06-20T200042.png
 security:

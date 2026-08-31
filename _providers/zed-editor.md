@@ -32,10 +32,26 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 0
 artifact_total: 1
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/zed-industries/zed/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/zed-industries/zed/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/zed-industries/zed/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/zed-industries/zed/blob/main/CONTRIBUTING.md
 - group: auth
   title: ''
   type: DomainSecurity
@@ -220,11 +236,16 @@ network: true
 overview: 'Zed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Code Editor, Developer Tools, IDE, Rust, and GPU Accelerated.
 
 
-  Zed''s developer surface includes documentation, pricing, release notes, status page, engineering blog, support, FAQ, and 36 more developer resources.'
+  Zed''s developer surface includes documentation, pricing, release notes, status page, engineering blog, support, FAQ, and 40 more developer resources.'
 random_paper: 7
 score:
   band: emerging
-  composite: 16.9
+  composite: 21.7
+  coverage:
+    artifact_dirs: 3
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 27.6
@@ -235,9 +256,12 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 16.9
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 21.7
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zed-editor/refs/heads/main/screenshots/zed-editor-2026-06-20T201858.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 58
   slug: audiomack-agentic-access
   summary_line: 58 operations · 25 acting
-api_count: 8
+api_count: 1
 apis:
 - description: Artist profiles, uploads, favorites, followers, and pinned items.
   name: Audiomack Artist API
@@ -100,6 +100,10 @@ collections:
   name: Audiomack Data Artist User API
   slug: open-audiomack-user-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/audiomack-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -244,19 +248,24 @@ network: true
 overview: 'Audiomack publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Artist API, Chart API, Music API, and 5 more. Tagged areas include Music, Music Streaming, Audio, Podcasts, and Hip-Hop.
 
 
-  Audiomack''s developer surface includes authentication, developer portal, documentation, getting-started guide, code examples, support, signup flow, and 22 more developer resources.'
+  Audiomack''s developer surface includes authentication, developer portal, documentation, getting-started guide, code examples, support, signup flow, and 23 more developer resources.'
 random_paper: 18
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 33.2
+  coverage:
+    artifact_dirs: 7
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 55.6
     developer_ergonomics: 47.6
-    discoverability: 74.1
+    discoverability: 68.5
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 33.8
@@ -267,8 +276,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/screenshots/audiomack-2026-06-20T172548.png
 security:

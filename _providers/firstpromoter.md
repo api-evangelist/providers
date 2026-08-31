@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -43,120 +43,99 @@ agentic_access:
   operation_count: 84
   slug: firstpromoter-agentic-access
   summary_line: 84 operations · 51 acting · 1 human-in-the-loop
-api_count: 37
+api_count: 74
 apis:
-- description: FirstPromoter Admin Payout Methods API - 5 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpromoter.com/l
-  name: FirstPromoter Admin Payout Methods API
-  slug: firstpromoter-v2-advanced-payout-methods
-- description: FirstPromoter Products API - 5 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.0) indexed in https://docs.firstpromoter.com/llms.txt.
-  name: FirstPromoter Products API
-  slug: firstpromoter-v2-advanced-products
-- description: FirstPromoter Affiliate Assets API - 2 operation(s) on the promoter-facing (api/v2/affiliate) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpromot
-  name: FirstPromoter Affiliate Assets API
-  slug: firstpromoter-v2-affiliate-assets
-- description: FirstPromoter Affiliate Campaigns API - 1 operation(s) on the promoter-facing (api/v2/affiliate) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpro
-  name: FirstPromoter Affiliate Campaigns API
-  slug: firstpromoter-v2-affiliate-campaigns
-- description: FirstPromoter Affiliate Commissions API - 2 operation(s) on the promoter-facing (api/v2/affiliate) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstp
-  name: FirstPromoter Affiliate Commissions API
-  slug: firstpromoter-v2-affiliate-commissions
-- description: FirstPromoter Affiliate Contract Documents API - 4 operation(s) on the promoter-facing (api/v2/affiliate) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs
-  name: FirstPromoter Affiliate Contract Documents API
-  slug: firstpromoter-v2-affiliate-contract-documents
-- description: FirstPromoter Affiliate Email Settings API - 2 operation(s) on the promoter-facing (api/v2/affiliate) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.fir
-  name: FirstPromoter Affiliate Email Settings API
-  slug: firstpromoter-v2-affiliate-email-settings
-- description: FirstPromoter Affiliate Payout Methods API - 5 operation(s) on the promoter-facing (api/v2/affiliate) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.fir
-  name: FirstPromoter Affiliate Payout Methods API
-  slug: firstpromoter-v2-affiliate-payout-methods
-- description: FirstPromoter Affiliate Payouts API - 3 operation(s) on the promoter-facing (api/v2/affiliate) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpromo
-  name: FirstPromoter Affiliate Payouts API
-  slug: firstpromoter-v2-affiliate-payouts
-- description: FirstPromoter Affiliate Promo Codes API - 3 operation(s) on the promoter-facing (api/v2/affiliate) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstp
-  name: FirstPromoter Affiliate Promo Codes API
-  slug: firstpromoter-v2-affiliate-promo-codes
-- description: FirstPromoter Affiliate Promoter Campaigns API - 1 operation(s) on the promoter-facing (api/v2/affiliate) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs
-  name: FirstPromoter Affiliate Promoter Campaigns API
-  slug: firstpromoter-v2-affiliate-promoter-campaigns
-- description: FirstPromoter Affiliate Promoters API - 6 operation(s) on the promoter-facing (api/v2/affiliate) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpro
-  name: FirstPromoter Affiliate Promoters API
-  slug: firstpromoter-v2-affiliate-promoters
-- description: FirstPromoter Affiliate Referral Links API - 4 operation(s) on the promoter-facing (api/v2/affiliate) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.fir
-  name: FirstPromoter Affiliate Referral Links API
-  slug: firstpromoter-v2-affiliate-referral-links
-- description: FirstPromoter Affiliate Referrals API - 5 operation(s) on the promoter-facing (api/v2/affiliate) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpro
-  name: FirstPromoter Affiliate Referrals API
-  slug: firstpromoter-v2-affiliate-referrals
-- description: FirstPromoter Affiliate Reports API - 3 operation(s) on the promoter-facing (api/v2/affiliate) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpromo
-  name: FirstPromoter Affiliate Reports API
-  slug: firstpromoter-v2-affiliate-reports
-- description: FirstPromoter Asset Categories API - 2 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpromoter.com/llms.
+- description: The Asset Categories API from FirstPromoter — 2 operation(s) for asset categories.
   name: FirstPromoter Asset Categories API
-  slug: firstpromoter-v2-asset-categories
-- description: FirstPromoter Assets API - 6 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpromoter.com/llms.txt.
+  slug: firstpromoter-asset-categories-api
+- description: The Assets API from FirstPromoter — 4 operation(s) for assets.
   name: FirstPromoter Assets API
-  slug: firstpromoter-v2-assets
-- description: FirstPromoter Batch Processes API - 3 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.0) indexed in https://docs.firstpromoter.com/llms.t
+  slug: firstpromoter-assets-api
+- description: The Batch Processes API from FirstPromoter — 3 operation(s) for batch processes.
   name: FirstPromoter Batch Processes API
-  slug: firstpromoter-v2-batches
-- description: FirstPromoter Campaigns API - 5 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpromoter.com/llms.txt.
+  slug: firstpromoter-batch-processes-api
+- description: The Campaigns API from FirstPromoter — 2 operation(s) for campaigns.
   name: FirstPromoter Campaigns API
-  slug: firstpromoter-v2-campaigns
-- description: FirstPromoter Commissions API - 9 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpromoter.com/llms.txt.
+  slug: firstpromoter-campaigns-api
+- description: The Cancellation API from FirstPromoter — 1 operation(s) for cancellation.
+  name: FirstPromoter Cancellation API
+  slug: firstpromoter-cancellation-api
+- description: The Commissions API from FirstPromoter — 9 operation(s) for commissions.
   name: FirstPromoter Commissions API
-  slug: firstpromoter-v2-commissions
-- description: FirstPromoter Contract Documents API - 2 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpromoter.com/llm
+  slug: firstpromoter-commissions-api
+- description: The Contract Documents API from FirstPromoter — 4 operation(s) for contract documents.
   name: FirstPromoter Contract Documents API
-  slug: firstpromoter-v2-contract-documents
-- description: FirstPromoter Contracts API - 5 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpromoter.com/llms.txt.
+  slug: firstpromoter-contract-documents-api
+- description: The Contracts API from FirstPromoter — 2 operation(s) for contracts.
   name: FirstPromoter Contracts API
-  slug: firstpromoter-v2-contracts
-- description: FirstPromoter Custom Referral Statuses API - 2 operation(s) on the legacy admin (api/admin/v1) surface, from FirstPromoter's own published OpenAPI definition (3.0.0) indexed in https://docs.firstpromo
+  slug: firstpromoter-contracts-api
+- description: The Custom Referral Statuses API from FirstPromoter — 3 operation(s) for custom referral statuses.
   name: FirstPromoter Custom Referral Statuses API
-  slug: firstpromoter-v2-custom-referral-statuses
-- description: FirstPromoter Dashboards API - 4 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpromoter.com/llms.txt.
+  slug: firstpromoter-custom-referral-statuses-api
+- description: The Dashboards API from FirstPromoter — 4 operation(s) for dashboards.
   name: FirstPromoter Dashboards API
-  slug: firstpromoter-v2-dashboard
-- description: FirstPromoter Emails API - 11 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpromoter.com/llms.txt.
+  slug: firstpromoter-dashboards-api
+- description: The Email Settings API from FirstPromoter — 2 operation(s) for email settings.
+  name: FirstPromoter Email Settings API
+  slug: firstpromoter-email-settings-api
+- description: The Emails API from FirstPromoter — 8 operation(s) for emails.
   name: FirstPromoter Emails API
-  slug: firstpromoter-v2-emails
-- description: FirstPromoter Invoices API - 11 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.0) indexed in https://docs.firstpromoter.com/llms.txt.
+  slug: firstpromoter-emails-api
+- description: The Invoice Templates API from FirstPromoter — 3 operation(s) for invoice templates.
+  name: FirstPromoter Invoice Templates API
+  slug: firstpromoter-invoice-templates-api
+- description: The Invoices API from FirstPromoter — 8 operation(s) for invoices.
   name: FirstPromoter Invoices API
-  slug: firstpromoter-v2-invoices
-- description: FirstPromoter Payments Batches API - 2 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpromoter.com/llms.
+  slug: firstpromoter-invoices-api
+- description: The Payments Batches API from FirstPromoter — 2 operation(s) for payments batches.
   name: FirstPromoter Payments Batches API
-  slug: firstpromoter-v2-payent-batches
-- description: FirstPromoter Payouts API - 8 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.3) indexed in https://docs.firstpromoter.com/llms.txt.
+  slug: firstpromoter-payments-batches-api
+- description: The Payout Methods API from FirstPromoter — 2 operation(s) for payout methods.
+  name: FirstPromoter Payout Methods API
+  slug: firstpromoter-payout-methods-api
+- description: The Payouts API from FirstPromoter — 10 operation(s) for payouts.
   name: FirstPromoter Payouts API
-  slug: firstpromoter-v2-payouts
-- description: FirstPromoter Promo Codes API - 5 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpromoter.com/llms.txt.
+  slug: firstpromoter-payouts-api
+- description: The Products API from FirstPromoter — 2 operation(s) for products.
+  name: FirstPromoter Products API
+  slug: firstpromoter-products-api
+- description: The Promo Codes API from FirstPromoter — 2 operation(s) for promo codes.
   name: FirstPromoter Promo Codes API
-  slug: firstpromoter-v2-promocodes
-- description: FirstPromoter Promoter Campaigns API - 5 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpromoter.com/llm
+  slug: firstpromoter-promo-codes-api
+- description: The Promoter Campaigns API from FirstPromoter — 5 operation(s) for promoter campaigns.
   name: FirstPromoter Promoter Campaigns API
-  slug: firstpromoter-v2-promoter-campaigns
-- description: FirstPromoter Promoters API - 13 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpromoter.com/llms.txt.
+  slug: firstpromoter-promoter-campaigns-api
+- description: The Promoters API from FirstPromoter — 16 operation(s) for promoters.
   name: FirstPromoter Promoters API
-  slug: firstpromoter-v2-promoters
-- description: FirstPromoter Referral Custom Status API - 1 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.0) indexed in https://docs.firstpromoter.com
-  name: FirstPromoter Referral Custom Status API
-  slug: firstpromoter-v2-referral-custom-status
-- description: FirstPromoter Referrals API - 10 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.0) indexed in https://docs.firstpromoter.com/llms.txt.
+  slug: firstpromoter-promoters-api
+- description: The Referral Links API from FirstPromoter — 2 operation(s) for referral links.
+  name: FirstPromoter Referral Links API
+  slug: firstpromoter-referral-links-api
+- description: The Referrals API from FirstPromoter — 8 operation(s) for referrals.
   name: FirstPromoter Referrals API
-  slug: firstpromoter-v2-referrals
-- description: FirstPromoter Reports API - 6 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpromoter.com/llms.txt.
+  slug: firstpromoter-referrals-api
+- description: The Refund API from FirstPromoter — 1 operation(s) for refund.
+  name: FirstPromoter Refund API
+  slug: firstpromoter-refund-api
+- description: The Reports API from FirstPromoter — 7 operation(s) for reports.
   name: FirstPromoter Reports API
-  slug: firstpromoter-v2-reports
-- description: FirstPromoter Rewards API - 4 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.0) indexed in https://docs.firstpromoter.com/llms.txt.
+  slug: firstpromoter-reports-api
+- description: The Rewards API from FirstPromoter — 3 operation(s) for rewards.
   name: FirstPromoter Rewards API
-  slug: firstpromoter-v2-rewards
-- description: FirstPromoter Tracking API - 4 operation(s) on the server-side tracking (api/v2/track) surface, from FirstPromoter's own published OpenAPI definition (3.0.1) indexed in https://docs.firstpromoter.com/
-  name: FirstPromoter Tracking API
-  slug: firstpromoter-v2-tracking
-- description: FirstPromoter Webhooks API - 10 operation(s) on the admin (api/v2/company) surface, from FirstPromoter's own published OpenAPI definition (3.0.0) indexed in https://docs.firstpromoter.com/llms.txt.
+  slug: firstpromoter-rewards-api
+- description: The Sale API from FirstPromoter — 1 operation(s) for sale.
+  name: FirstPromoter Sale API
+  slug: firstpromoter-sale-api
+- description: The Signup API from FirstPromoter — 1 operation(s) for signup.
+  name: FirstPromoter Signup API
+  slug: firstpromoter-signup-api
+- description: The Webhook Deliveries API from FirstPromoter — 3 operation(s) for webhook deliveries.
+  name: FirstPromoter Webhook Deliveries API
+  slug: firstpromoter-webhook-deliveries-api
+- description: The Webhooks API from FirstPromoter — 4 operation(s) for webhooks.
   name: FirstPromoter Webhooks API
-  slug: firstpromoter-v2-webhooks
-artifact_total: 92
+  slug: firstpromoter-webhooks-api
+artifact_total: 85
 asyncapis:
 - description: ''
   name: Firstpromoter Webhooks
@@ -277,6 +256,158 @@ collections:
   name: FirstPromoter Admin API — Webhooks
   slug: open-firstpromoter-v2-webhooks
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/firstpromoter-capability-edges.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-advanced-payout-methods-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-advanced-products-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-affiliate-assets-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-affiliate-campaigns-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-affiliate-commissions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-affiliate-contract-documents-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-affiliate-email-settings-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-affiliate-payout-methods-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-affiliate-payouts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-affiliate-promo-codes-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-affiliate-promoter-campaigns-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-affiliate-promoters-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-affiliate-referral-links-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-affiliate-referrals-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-affiliate-reports-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-asset-categories-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-assets-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-batches-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-campaigns-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-commissions-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-contract-documents-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-contracts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-custom-referral-statuses-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-dashboard-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-emails-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-invoices-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-payent-batches-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-payouts-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-promocodes-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-promoter-campaigns-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-promoters-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-referral-custom-status-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-referrals-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-reports-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-rewards-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-tracking-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/firstpromoter-v2-webhooks-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -522,13 +653,13 @@ modified: '2026-08-13'
 name: FirstPromoter
 nav: Providers
 network: true
-overview: 'FirstPromoter publishes 37 APIs on the [APIs.io](https://apis.io/) network, including Admin Payout Methods API, Products API, Affiliate Assets API, and 34 more. Tagged areas include Affiliate Marketing, Referral Tracking, Software-as-a-Service, Commission Management, and Reward Distribution.
+overview: 'FirstPromoter publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Asset Categories API, Assets API, Batch Processes API, and 27 more. Tagged areas include Affiliate Marketing, Referral Tracking, Software-as-a-Service, Commission Management, and Reward Distribution.
 
 
   The FirstPromoter catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  FirstPromoter''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 44 more developer resources.'
+  FirstPromoter''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 82 more developer resources.'
 plans:
 - name: Firstpromoter Plans Pricing
   plan_count: 3
@@ -556,18 +687,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.0
+  composite: 62.4
+  coverage:
+    artifact_dirs: 32
+    catalog_gap: 42.5
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
   delta: 0.0
   facets:
     access_clarity: 85.5
     commercial_clarity: 85.5
-    contract_governance: 30.3
-    contract_quality: 68.4
+    contract_governance: 18.2
+    contract_quality: 68.6
     developer_ergonomics: 71.4
-    discoverability: 57.4
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 31.6
-  previous_composite: 62.0
+  previous_composite: 62.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -578,8 +714,8 @@ score:
       total: 50
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firstpromoter/refs/heads/main/screenshots/firstpromoter-2026-06-20T181244.png
 security:

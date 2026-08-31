@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 170
   slug: one-codex-agentic-access
   summary_line: 170 operations · 64 acting · 3 human-in-the-loop
-api_count: 25
+api_count: 1
 apis:
 - description: The Account API from One Codex — 1 operation(s) for account.
   name: One Codex Account API
@@ -357,18 +357,23 @@ overview: 'One Codex publishes 25 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 16
 score:
   band: strong
-  composite: 59.0
-  delta: 0.0
+  composite: 57.0
+  coverage:
+    artifact_dirs: 20
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
-    contract_governance: 30.3
+    contract_governance: 18.2
     contract_quality: 57.2
     developer_ergonomics: 68.5
-    discoverability: 81.5
-    governance: 30.3
+    discoverability: 75.9
+    governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 59.0
+  previous_composite: 57.6
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -381,12 +386,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: US
+      standard: hipaa
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/screenshots/one-codex-2026-08-07T190241.png
 security:

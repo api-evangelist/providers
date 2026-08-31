@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 60.8
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -32,24 +32,36 @@ agentic_access:
   operation_count: 59
   slug: workfront-agentic-access
   summary_line: 59 operations · 36 acting · 1 human-in-the-loop
-api_count: 5
+api_count: 2
 apis:
 - description: The core Workfront REST API. Every object in the system has a URI of the form /attask/api/v22.0/{objCode}/{id}; GET retrieves or searches, POST inserts, PUT edits and DELETE removes. Adobe does not pu
   name: Adobe Workfront API
   slug: workfront-api
-- description: 'The Workfront Planning (Maestro) API — workspaces, record types, records, fields, views and permissions — published by Adobe as an OpenAPI 3.1.0 document with 21 paths, 49 operations and 74 component '
-  name: Adobe Workfront Planning API v2
-  slug: workfront-planning-api-v2
-- description: Version 1 of the Workfront Planning API, published by Adobe as an OpenAPI 3.0.1 document covering records, record types and workspaces across 7 paths and 10 operations. Released July 2024 and still th
-  name: Adobe Workfront Planning API v1
-  slug: workfront-planning-api-v1
 - description: The Workfront webhook/event surface. A system administrator registers a subscription for an object type (objCode) and event type (CREATE, UPDATE, DELETE) with a destination URL and auth token; Workfro
   name: Adobe Workfront Event Subscription API
   slug: workfront-event-subscription-api
 - description: Adobe's hosted Model Context Protocol server for Workfront, generally available since June 2026. It exposes 87 documented tools across three families — Approvals (documents, approval workflows, remind
   name: Adobe Workfront MCP Server
   slug: workfront-mcp-server
-artifact_total: 17
+- description: 'Field management. Per-record-type quotas: max 500 fields total; max 20 PARAGRAPH (long-text) fields; max 20 FORMULA fields; max 30 REFERENCE fields. Field display names must be unique within a record '
+  name: Adobe Workfront Fields API
+  slug: workfront-fields-api
+- description: Resource permissions, member management, and access requests.
+  name: Adobe Workfront Permissions API
+  slug: workfront-permissions-api
+- description: Record Type Controller
+  name: Adobe Workfront Record Types API
+  slug: workfront-record-types-api
+- description: Record Controller
+  name: Adobe Workfront Records API
+  slug: workfront-records-api
+- description: 'View management. Limits: max 100 personal views per record type; max 255 characters for view name.'
+  name: Adobe Workfront Views API
+  slug: workfront-views-api
+- description: Workspace Controller
+  name: Adobe Workfront Workspaces API
+  slug: workfront-workspaces-api
+artifact_total: 21
 asyncapis:
 - description: ''
   name: Workfront Event Subscriptions Webhooks
@@ -62,6 +74,14 @@ collections:
   name: Workfront Planning API Version 2
   slug: open-workfront-planning-v2
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/workfront-planning-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/workfront-planning-v1-overlay.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -226,13 +246,13 @@ modified: '2026-08-12'
 name: Adobe Workfront
 nav: Providers
 network: true
-overview: 'Adobe Workfront publishes 2 APIs on the [APIs.io](https://apis.io/) network: Planning API v2 and Planning API v1. Tagged areas include Company, Work Management, Project Management, Marketing Operations, and Creative Operations.
+overview: 'Adobe Workfront publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Fields API, Permissions API, Record Types API, and 3 more. Tagged areas include Company, Work Management, Project Management, Marketing Operations, and Creative Operations.
 
 
   The Adobe Workfront catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Adobe Workfront''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, CLI, and 31 more developer resources.'
+  Adobe Workfront''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, CLI, and 33 more developer resources.'
 plans:
 - name: Workfront Plans Pricing
   plan_count: 3
@@ -248,19 +268,24 @@ scopes:
   slug: workfront-scopes
   summary_line: 18 scopes · authorizationCode
 score:
-  band: exemplar
-  composite: 66.6
-  delta: 0.0
+  band: strong
+  composite: 64.0
+  coverage:
+    artifact_dirs: 25
+    catalog_gap: 54.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
-    contract_governance: 16.7
-    contract_quality: 58.9
+    contract_governance: 4.5
+    contract_quality: 60.9
     developer_ergonomics: 83.3
-    discoverability: 92.6
-    governance: 16.7
+    discoverability: 75.9
+    governance: 4.5
     operational_transparency: 71.1
-  previous_composite: 66.6
+  previous_composite: 64.6
   provenance:
     agentic_access: derived
     conformance: derived
@@ -271,8 +296,8 @@ score:
       total: 2
     mcp: first-party
     skills: first-party
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workfront/refs/heads/main/screenshots/workfront-2026-08-17T075411.png
 security:

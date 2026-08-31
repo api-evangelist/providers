@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -41,7 +41,7 @@ agentic_access:
   operation_count: 23
   slug: ecwid-agentic-access
   summary_line: 23 operations · 13 acting
-api_count: 7
+api_count: 1
 apis:
 - description: JSON REST API for managing Ecwid store data including products, categories, orders, customers, discount coupons, payment and shipping methods, application data, and storefront settings. Requests are m
   name: Ecwid REST API
@@ -91,6 +91,10 @@ collections:
   name: Ecwid REST API
   slug: open-ecwid
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/ecwid-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -154,22 +158,27 @@ network: true
 overview: 'Ecwid by Lightspeed publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Categories API, Customers API, Discount Coupons API, and 3 more. Tagged areas include E-Commerce, Online Store, Storefront, Retail, and Point-of-Sale.
 
 
-  Ecwid by Lightspeed''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
+  Ecwid by Lightspeed''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
 random_paper: 20
 score:
   band: thin
-  composite: 39.2
-  delta: 4.3
+  composite: 38.6
+  coverage:
+    artifact_dirs: 9
+    catalog_gap: 78.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: -0.6
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 53.7
     developer_ergonomics: 52.4
-    discoverability: 81.5
+    discoverability: 75.9
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 34.9
+  previous_composite: 39.2
   provenance:
     agentic_access: derived
     contracts:
@@ -177,8 +186,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecwid/refs/heads/main/screenshots/ecwid-2026-06-20T180440.png
 security:

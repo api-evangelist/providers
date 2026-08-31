@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-08-26'
+  scored_at: '2026-08-30'
 api_count: 2
 apis:
 - description: 'SilverStripe''s GraphQL API provides a content API layer for getting data in and out of the CMS. It supports schema generation from DataObject models, custom types and queries, and extensible schemas. '
@@ -44,6 +44,22 @@ apis:
   slug: rest-api
 artifact_total: 7
 common:
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/silverstripe/silverstripe-restfulserver/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/silverstripe/silverstripe-restfulserver/releases
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/silverstripe/silverstripe-restfulserver/blob/3/code-of-conduct.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/silverstripe/.github/blob/master/CONTRIBUTING.md
 - group: commercial
   title: ''
   type: License
@@ -123,7 +139,7 @@ network: true
 overview: 'SilverStripe publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CMS, Content Management, GraphQL, REST API, and PHP.
 
 
-  SilverStripe''s developer surface includes documentation, API reference, engineering blog, pricing, changelog, and 10 more developer resources.'
+  SilverStripe''s developer surface includes documentation, API reference, engineering blog, pricing, changelog, and 14 more developer resources.'
 plans:
 - name: Silverstripe Plans Pricing
   plan_count: 2
@@ -134,9 +150,14 @@ rate_limits:
   name: Silverstripe Rate Limits
   slug: silverstripe-rate-limits
 score:
-  band: thin
-  composite: 37.6
-  delta: 2.4
+  band: developing
+  composite: 40.4
+  coverage:
+    artifact_dirs: 8
+    catalog_gap: 55.0
+    catalog_max: 115.0
+    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -146,9 +167,12 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 35.2
-  schema_version: 0.15.0
-  scored_at: '2026-08-26'
+  open_source:
+    applies: true
+    score: 65.0
+  previous_composite: 40.4
+  schema_version: 0.17.2
+  scored_at: '2026-08-30'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/silverstripe/refs/heads/main/screenshots/silverstripe-2026-06-20T193925.png
 security:
